@@ -7,30 +7,22 @@
 @interface _MKRouteETA
 {
     int _status;
-    double _distance;
-    unsigned long long _transportType;
-    double _travelTime;
-    double _responseTime;
 }
 
 + (id);
 + (id);
 - (void);
-- (void);
-- (double);
+- (void)h)`;
+- (double)E;
 - (double);
 - (int);
 - (void);
-- (void)iewController:(double)arg1;
-- (unsigned long long)ities;
+- (void)didTapSecondaryAttributionViewWithPresentingViewController:(double)arg1;
+- (unsigned long long)blockedIncidentEntities;
 - (double)the expected length;
 
 // Remaining properties
-@property(nonatomic) double distance; // @synthesize distance=_distance;
-@property(readonly, nonatomic) double responseTime; // @synthesize responseTime=_responseTime;
 @property(nonatomic) int status; // @synthesize status=_status;
-@property(nonatomic) unsigned long long transportType; // @synthesize transportType=_transportType;
-@property(nonatomic) double travelTime; // @synthesize travelTime=_travelTime;
 
 @end
 

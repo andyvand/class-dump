@@ -6,30 +6,12 @@
 
 #import <NeutrinoCore/NUSourceNode.h>
 
-@class AVAsset, AVAudioMixInputParameters, NSArray, NSData, NSDictionary, NSObject, NSURL;
+@class NSDictionary, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface NUVideoSourceNode : NUSourceNode
 {
     NSObject<OS_dispatch_queue> *_queue;
-    _Bool _loaded;
-    NSURL *_URL;
-    NSData *_videoData;
-    AVAsset *_asset;
-    CDStruct_1b6d18a9 _duration;
-    CDStruct_d58201db _size;
-    CDStruct_996ac03c _cleanAperture;
-    long long _orientation;
-    float _nominalFrameRate;
-    CDStruct_996ac03c _originalExtent;
-    NSArray *_metadata;
-    NSArray *_trackGroups;
-    NSDictionary *_trackMetadata;
-    NSDictionary *_colorProperties;
-    CDStruct_1b6d18a9 _livePhotoKeyFrameTime;
-    AVAudioMixInputParameters *_cinematicAudioMixInputParameters;
-    NSArray *_corruptionInfo;
-    NSDictionary *_auxiliaryVideoTrackProperties;
 }
 
 - (_Bool);
@@ -66,9 +48,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *auxiliaryVideoTrackProperties; // @synthesize auxiliaryVideoTrackProperties=_auxiliaryVideoTrackProperties;
-@property(readonly) CDStruct_996ac03c cleanAperture;
-@property(readonly) CDStruct_1b6d18a9 duration;
-@property(readonly) _Bool isHDR;
 
 @end
 

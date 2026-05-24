@@ -4,68 +4,53 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSNumber, NSObject, NSString, NSXPCConnection, RPNearbyInvitationDevice, RPNearbyInvitationServer;
-@protocol OS_dispatch_queue;
+@class RPNearbyInvitationDevice;
 
 @interface RPNearbyInvitationSession
 {
     _Bool _activateCalled;
-    NSMutableDictionary *_eventRegistrations;
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    NSMutableDictionary *_requestRegistrations;
-    _Bool _waitingToConnect;
-    _Bool _failedToConnect;
-    NSString *_serviceType;
-    RPNearbyInvitationDevice *_destinationDevice;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _errorHandler;
-    CDUnknownBlockType _interruptionHandler;
-    CDUnknownBlockType _invalidationHandler;
-    RPNearbyInvitationDevice *_daemonDevice;
-    RPNearbyInvitationServer *_server;
-    NSNumber *_sessionID;
-    NSXPCConnection *_xpcCnx;
 }
 
 + (_Bool);
 - (id);
+- (_Bool)C;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)e",&,N,V_time;
+- (void)__INCodableDateComponentsAttributeMetadataINIntentResponseParameterMetadataTemplateID;
+- (void)trogen dioxide density;
+- (void)INTransferMoneyIntentResponseCodeReady;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)ntextual keypath and value for %@:(id)arg1 %@;
+- (id)RI then the provisions therein govern the use of the software and the
+above notice does not apply.
+;
+- (void)at ;
+- (id)EN;
+- (id)NSt3__123__match_any_but_newlineIcEE;
+- (id)8;
 - (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void);
-- (void);
+- (void)`";
+- (void)+;
 - (void);
 - (void);
 - (id);
@@ -79,24 +64,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) RPNearbyInvitationDevice *daemonDevice; // @synthesize daemonDevice=_daemonDevice;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) RPNearbyInvitationDevice *destinationDevice; // @synthesize destinationDevice=_destinationDevice;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType errorHandler; // @synthesize errorHandler=_errorHandler;
-@property(nonatomic) _Bool failedToConnect; // @synthesize failedToConnect=_failedToConnect;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType interruptionHandler; // @synthesize interruptionHandler=_interruptionHandler;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(retain, nonatomic) RPNearbyInvitationServer *server; // @synthesize server=_server;
-@property(retain, nonatomic) NSString *serviceType; // @synthesize serviceType=_serviceType;
-@property(copy, nonatomic) NSNumber *sessionID; // @synthesize sessionID=_sessionID;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool waitingToConnect; // @synthesize waitingToConnect=_waitingToConnect;
-@property(retain, nonatomic) NSXPCConnection *xpcCnx; // @synthesize xpcCnx=_xpcCnx;
 
 @end
 

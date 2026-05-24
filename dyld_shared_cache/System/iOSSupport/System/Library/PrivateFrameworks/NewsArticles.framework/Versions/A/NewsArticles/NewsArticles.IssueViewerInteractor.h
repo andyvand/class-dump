@@ -7,12 +7,6 @@
 @interface NewsArticles.IssueViewerInteractor
 {
     id delegate;
-    id dataManager;
-    id adContextBuilder;
-    id coordinator;
-    id eventManager;
-    id issue;
-    id session;
 }
 
 @end

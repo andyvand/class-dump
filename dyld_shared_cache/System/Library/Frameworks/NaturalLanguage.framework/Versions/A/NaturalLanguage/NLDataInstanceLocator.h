@@ -8,20 +8,16 @@ __attribute__((visibility("hidden")))
 @interface NLDataInstanceLocator
 {
     unsigned long long _instanceIndex;
-    struct _NSRange _rangeOfCharacters;
-    struct _NSRange _rangeOfTokens;
 }
 
 - (struct _NSRange);
 - (struct _NSRange);
 - (unsigned long long);
-- (id);
-- (id);
+- (id),;
+- (id)Ȥ;
 
 // Remaining properties
 @property(readonly) unsigned long long instanceIndex;
-@property(readonly) struct _NSRange rangeOfCharacters;
-@property(readonly) struct _NSRange rangeOfTokens;
 
 @end
 

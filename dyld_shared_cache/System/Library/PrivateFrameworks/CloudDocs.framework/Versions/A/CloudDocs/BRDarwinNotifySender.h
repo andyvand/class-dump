@@ -9,8 +9,6 @@
 @interface BRDarwinNotifySender
 {
     NSString *_eventName;
-    int _token;
-    unsigned long long _lastState;
 }
 
 - (void);

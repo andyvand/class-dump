@@ -5,5 +5,10 @@
 //
 
 @protocol IKImageViewVisionKitDelegate
+- (void);
+
+@optional
+- (void)!;
+- (_Bool);
 @end
 

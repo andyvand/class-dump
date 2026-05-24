@@ -8,11 +8,6 @@ __attribute__((visibility("hidden")))
 @interface HMDAccessoryFirmwareUpdateConcurrencyLogEvent
 {
     unsigned long long _peakConcurrentIPAccessoryUpdateStaging;
-    unsigned long long _peakConcurrentIPAccessoryUpdateApply;
-    unsigned long long _peakConcurrentBLEAccessoryUpdateStaging;
-    unsigned long long _peakConcurrentBLEAccessoryUpdateApply;
-    unsigned long long _peakConcurrentThreadAccessoryUpdateStaging;
-    unsigned long long _peakConcurrentThreadAccessoryUpdateApply;
 }
 
 - (unsigned long long);
@@ -24,12 +19,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long peakConcurrentBLEAccessoryUpdateApply; // @synthesize peakConcurrentBLEAccessoryUpdateApply=_peakConcurrentBLEAccessoryUpdateApply;
-@property(readonly, nonatomic) unsigned long long peakConcurrentBLEAccessoryUpdateStaging; // @synthesize peakConcurrentBLEAccessoryUpdateStaging=_peakConcurrentBLEAccessoryUpdateStaging;
-@property(readonly, nonatomic) unsigned long long peakConcurrentIPAccessoryUpdateApply; // @synthesize peakConcurrentIPAccessoryUpdateApply=_peakConcurrentIPAccessoryUpdateApply;
 @property(readonly, nonatomic) unsigned long long peakConcurrentIPAccessoryUpdateStaging; // @synthesize peakConcurrentIPAccessoryUpdateStaging=_peakConcurrentIPAccessoryUpdateStaging;
-@property(readonly, nonatomic) unsigned long long peakConcurrentThreadAccessoryUpdateApply; // @synthesize peakConcurrentThreadAccessoryUpdateApply=_peakConcurrentThreadAccessoryUpdateApply;
-@property(readonly, nonatomic) unsigned long long peakConcurrentThreadAccessoryUpdateStaging; // @synthesize peakConcurrentThreadAccessoryUpdateStaging=_peakConcurrentThreadAccessoryUpdateStaging;
 
 @end
 

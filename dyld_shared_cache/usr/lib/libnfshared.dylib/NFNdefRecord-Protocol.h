@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
+@class NSData, NSString;
 
 @protocol NFNdefRecord
+- (unsigned char);
+- (NSData *)h;
+- (NSString *);
+- (void)ePolicy"8@"SUCoreDescriptor"16@"NSError"24;
+- (unsigned char)__objc_arraydata__DATA_CONST;
 
 // Remaining properties
-@property(nonatomic) _Bool chunked;
 @property(nonatomic) unsigned char header;
-@property(retain, nonatomic) NSData *identifier;
-@property(nonatomic) _Bool messageBegin;
-@property(nonatomic) _Bool messageEnd;
-@property(retain, nonatomic) NSData *payload;
-@property(nonatomic) _Bool shortRecord;
-@property(retain, nonatomic) NSData *type;
-@property(nonatomic) unsigned char typeNameFormat;
 @end
 

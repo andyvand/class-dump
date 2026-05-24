@@ -16,15 +16,14 @@
 + (id);
 - (void);
 - (id);
+- (id)u^;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)/;
 - (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *objects;
-@property(copy, nonatomic) NSArray *resultObjects;
 
 @end
 

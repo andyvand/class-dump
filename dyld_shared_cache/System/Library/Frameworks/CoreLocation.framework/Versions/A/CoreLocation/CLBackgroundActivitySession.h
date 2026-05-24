@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLDispatchSilo, CLLocationManager, NSData, NSString;
+@class CLDispatchSilo;
 
 @interface CLBackgroundActivitySession
 {
     CLDispatchSilo *_silo;
-    void *_locationdConnection;
-    CDUnknownBlockType _clientCallback;
-    _Bool _shouldBeRunning;
-    NSString *identityToken;
-    NSData *storageToken;
-    CLLocationManager *manager;
-    CDUnknownBlockType weakClient;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 - (CDUnknownBlockType);
@@ -34,31 +27,20 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)ATXThumbnailExtension;
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
-- (void);
+- (void)3;
 - (void);
 - (void);
 - (void)40Ø0;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *identityToken; // @synthesize identityToken;
-@property(retain, nonatomic) CLLocationManager *manager; // @synthesize manager;
 @property _Bool shouldBeRunning; // @synthesize shouldBeRunning=_shouldBeRunning;
-@property(retain, nonatomic) NSData *storageToken; // @synthesize storageToken;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak CDUnknownBlockType weakClient; // @synthesize weakClient;
 
 @end
 

@@ -4,47 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDoubleLinkedListNode, NSDate, NSString;
+@class NSString;
 
 @interface CKChatItemCachedSizeMetrics
 {
     NSString *_chatItemGUID;
-    NSString *_key;
-    NSDate *_lastAccess;
-    IMDoubleLinkedListNode *_node;
-    struct CGSize _size;
-    struct CGSize _translationSecondaryTextSize;
-    struct UIEdgeInsets _textAlignmentInsets;
 }
 
-+ (_Bool);
-- (struct CGSize);
++ (_Bool)configureWithString: /* Error: Ran out of types for this method. */;
+- (struct CGSize)T@"NSMutableArray",R,N,V_rows;
 - (struct UIEdgeInsets);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
+- (id);
 - (id);
+- (void);
+- (struct CGSize);
 - (id);
 - (void);
-- (struct CGSize);
-- (id);
 - (void);
-- (void);
-- (void)teringSettingsConfirmedKey;
+- (void)kCKMessageFilteringSettingsConfirmedKey;
 - (void)-ci;
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *chatItemGUID; // @synthesize chatItemGUID=_chatItemGUID;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(retain, nonatomic) NSDate *lastAccess; // @synthesize lastAccess=_lastAccess;
-@property(retain, nonatomic) IMDoubleLinkedListNode *node; // @synthesize node=_node;
-@property(nonatomic) struct CGSize size; // @synthesize size=_size;
-@property(nonatomic) struct UIEdgeInsets textAlignmentInsets; // @synthesize textAlignmentInsets=_textAlignmentInsets;
-@property(nonatomic) struct CGSize translationSecondaryTextSize; // @synthesize translationSecondaryTextSize=_translationSecondaryTextSize;
 
 @end
 

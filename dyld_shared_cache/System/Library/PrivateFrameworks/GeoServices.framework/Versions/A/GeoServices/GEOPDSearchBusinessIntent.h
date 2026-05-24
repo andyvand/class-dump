@@ -4,44 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, GEOPDSearchTokenSet, NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchBusinessIntent
 {
     PBDataReader *_reader;
-    CDStruct_62a50c50 _keywordMuids;
-    unsigned long long _businessId;
-    GEOLatLng *_center;
-    NSMutableArray *_keywordMappings;
-    NSString *_name;
-    GEOPDSearchTokenSet *_tokenSet;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _businessType;
-    struct {
-        unsigned int has_businessId:1;
-        unsigned int has_businessType:1;
-        unsigned int read_keywordMuids:1;
-        unsigned int read_center:1;
-        unsigned int read_keywordMappings:1;
-        unsigned int read_name:1;
-        unsigned int read_tokenSet:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)audioSessionController:didReceiveAudioSessionInterruptionNotificationWithUserInfo: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)H(;
 - (_Bool);
 - (id);
 - (id)valPoints"b1"wrote_anyField"b1};
-- (id)laceActionDetailsTransitPlaceCardIncidentType;
+- (id)_placeCardPlaceActionDetailsTransitPlaceCardIncidentType;
 - (id)Ìp¤q;
 - (void);
 

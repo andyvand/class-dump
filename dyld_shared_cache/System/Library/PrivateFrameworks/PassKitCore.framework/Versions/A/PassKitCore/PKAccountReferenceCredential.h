@@ -11,8 +11,6 @@
 @interface PKAccountReferenceCredential : PKPaymentCredential
 {
     NSString *_accountIdentifier;
-    unsigned long long _feature;
-    NSString *_sharingInstanceIdentifier;
 }
 
 - (id);
@@ -20,16 +18,14 @@
 - (id);
 - (id);
 - (_Bool);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)K*;
+- (_Bool)_transactionComplete;
 - (id);
-- (void)assAvailableForManagedAccount;
+- (void)walletDataClassAvailableForManagedAccount;
 - (unsigned long long)!;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(readonly, nonatomic) unsigned long long feature; // @synthesize feature=_feature;
-@property(retain, nonatomic) NSString *sharingInstanceIdentifier; // @synthesize sharingInstanceIdentifier=_sharingInstanceIdentifier;
 
 @end
 

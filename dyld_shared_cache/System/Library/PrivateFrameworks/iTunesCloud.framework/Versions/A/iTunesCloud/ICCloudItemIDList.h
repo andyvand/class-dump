@@ -9,20 +9,19 @@
 @interface ICCloudItemIDList
 {
     NSMutableArray *_itemIDs;
-    NSMutableArray *_idTypes;
 }
 
 + (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)supportsPreferredMediaUser;
+- (void)setFirstCoreDataContainerSetupUnderlyingErrorDomainHH2:(id)arg1;
+- (void)setEventRouterFirstEventPushMSHH2:(unsigned long long)arg1;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void)N;
 
 // Remaining properties

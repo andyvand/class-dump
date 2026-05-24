@@ -6,30 +6,11 @@
 
 #import <coreroutine/RTService.h>
 
-@class NSMutableArray, NSMutableDictionary, NSString, RTAccountManager, RTDefaultsManager, RTInvocationDispatcher, RTPersistenceCloudDeletionEnforcer, RTPersistenceExpirationEnforcer, RTPersistenceManager, RTPersistenceMirroringRequest, RTPlatform, RTReachabilityManager, RTTimerManager, RTXPCActivityManager;
-@protocol RTPersistenceMirroringMetricsDelegate;
+@class RTDefaultsManager;
 
 @interface RTPersistenceMirroringManager : RTService
 {
     RTDefaultsManager *_defaultsManager;
-    RTTimerManager *_timerManager;
-    RTAccountManager *_accountManager;
-    RTReachabilityManager *_reachabilityManager;
-    long long _cloudSyncAuthorizationState;
-    unsigned long long _currentReachability;
-    _Bool _syncDisabledForPerProcessMemoryLimit;
-    _Bool _exportingAvailable;
-    id <RTPersistenceMirroringMetricsDelegate> _metricsDelegate;
-    RTPersistenceManager *_persistenceManager;
-    NSMutableDictionary *_mirroringPolicies;
-    NSMutableDictionary *_retryTimers;
-    NSMutableArray *_pendingMirroringRequests;
-    RTPersistenceMirroringRequest *_activeMirroringRequest;
-    RTXPCActivityManager *_xpcActivityManager;
-    RTPlatform *_platform;
-    RTPersistenceCloudDeletionEnforcer *_persistenceCloudDeletionEnforcer;
-    RTPersistenceExpirationEnforcer *_persistenceExpirationEnforcer;
-    RTInvocationDispatcher *_dispatcher;
 }
 
 + (long long);
@@ -38,47 +19,47 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)P;
 - (void);
 - (_Bool);
+- (void);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)relayIpv6;
+- (void)p;
 - (void);
 - (id);
 - (_Bool);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
+- (unsigned long long)Transport:(id)arg1 %ld, xor-relayed-address [%s].;
+- (void)er data - decryption success - Done;
+- (void);
 - (void);
 - (_Bool);
 - (void);
+- (id)K5S1K	uS)	3|;
+- (void);
+- (void);
+- (id);
+- (id)v;
 - (_Bool);
+- (id);
+- (id);
 - (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)sendInvitationToDestination:expirationDate:context:serverAcknowledgedBlock: /* Error: Ran out of types for this method. */;
+- (void)declineInvitation:(id)arg1 options:serverAcknowledgedBlock: /* Error: Ran out of types for this method. */;
+- (void)SDatagramChannelDataPathThroughIDSDaemon;
+- (void)dateDictionary:(id)arg1 error:] /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
@@ -96,16 +77,16 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)syncWithKeychainInDomain:configuration:suffix: /* Error: Ran out of types for this method. */;
+- (void)n",&;
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
 - (id);
+- (void);
+- (id);
 - (void);
 - (void);
 - (_Bool);
@@ -120,32 +101,14 @@
 - (void)ifiLocationDate;
 - (void)b7;
 - (void)(ì;
-- (void)nceLoiIdentifier;
+- (void)placeInferenceLoiIdentifier;
 - (_Bool),setupLocAge,%{public}.3lf;
 - (void)cluster, %{sensitive}@, %@;
 - (void)ver,sessionID:(id)arg1 %@,%@,%@,cache manager released before request Safety Cache returned,error,%@,record,%@;
 - (void)isting place inference query, %{sensitive}@, error, %@;
 
 // Remaining properties
-@property(retain, nonatomic) RTPersistenceMirroringRequest *activeMirroringRequest; // @synthesize activeMirroringRequest=_activeMirroringRequest;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) RTInvocationDispatcher *dispatcher; // @synthesize dispatcher=_dispatcher;
-@property(nonatomic) _Bool exportingAvailable; // @synthesize exportingAvailable=_exportingAvailable;
 @property(readonly) unsigned long long hash;
-@property __weak id <RTPersistenceMirroringMetricsDelegate> metricsDelegate; // @synthesize metricsDelegate=_metricsDelegate;
-@property(retain, nonatomic) NSMutableDictionary *mirroringPolicies; // @synthesize mirroringPolicies=_mirroringPolicies;
-@property(retain, nonatomic) NSMutableArray *pendingMirroringRequests; // @synthesize pendingMirroringRequests=_pendingMirroringRequests;
-@property(retain, nonatomic) RTPersistenceCloudDeletionEnforcer *persistenceCloudDeletionEnforcer; // @synthesize persistenceCloudDeletionEnforcer=_persistenceCloudDeletionEnforcer;
-@property(retain, nonatomic) RTPersistenceExpirationEnforcer *persistenceExpirationEnforcer; // @synthesize persistenceExpirationEnforcer=_persistenceExpirationEnforcer;
-@property(retain, nonatomic) RTPersistenceManager *persistenceManager; // @synthesize persistenceManager=_persistenceManager;
-@property(retain, nonatomic) RTPlatform *platform; // @synthesize platform=_platform;
-@property(retain, nonatomic) NSMutableDictionary *retryTimers; // @synthesize retryTimers=_retryTimers;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) RTXPCActivityManager *xpcActivityManager; // @synthesize xpcActivityManager=_xpcActivityManager;
 
 @end
 

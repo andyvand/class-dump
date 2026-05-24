@@ -7,12 +7,6 @@
 @interface NewsFeed.FeedHeadlineFactory
 {
     id readingHistory;
-    id readingList;
-    id subscriptionList;
-    id paidAccessChecker;
-    id sharedItemManager;
-    id headlineService;
-    id appConfigManager;
 }
 
 @end

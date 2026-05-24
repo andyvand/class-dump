@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSString;
+@class NSMutableArray, NSMutableDictionary;
 
 @interface IADataPluginController
 {
     NSMutableDictionary *_plugins;
-    NSMutableDictionary *_workQueues;
-    NSMutableArray *_dataPluginNotificationHistory;
 }
 
 + (void);
@@ -19,7 +17,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -33,13 +31,6 @@
 
 // Remaining properties
 @property(retain) NSMutableArray *dataPluginNotificationHistory; // @synthesize dataPluginNotificationHistory=_dataPluginNotificationHistory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

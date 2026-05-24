@@ -7,6 +7,10 @@
 @protocol SCKDatabaseStore;
 
 @protocol SCKDatabaseStoreCoordinator
+- (void);
+- (void);
+- (void)p³e;
+- (id <SCKDatabaseStore>)e;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SCKDatabaseStore> underlyingStore;

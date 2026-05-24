@@ -6,7 +6,7 @@
 
 #import <IconServices/ISConcreteIcon.h>
 
-@class NSData, NSURL;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface ISCustomIcon : ISConcreteIcon
@@ -20,14 +20,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
+- (id)T;
 - (id);
-- (id);
-- (void);
+- (void)";
 - (id);
 
 // Remaining properties
 @property(readonly) NSData *bookmark; // @synthesize bookmark=_bookmark;
-@property(readonly) NSURL *url;
 
 @end
 

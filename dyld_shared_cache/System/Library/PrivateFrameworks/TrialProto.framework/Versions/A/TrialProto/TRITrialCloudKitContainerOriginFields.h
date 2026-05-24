@@ -7,11 +7,6 @@
 @interface TRITrialCloudKitContainerOriginFields
 {
     int _ckContainer;
-    int _ckEnvironment;
-    struct {
-        unsigned int ckContainer:1;
-        unsigned int ckEnvironment:1;
-    } _has;
 }
 
 - (_Bool);
@@ -23,10 +18,10 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)deo, reason:(id)arg1 zero videos found, base version:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (int);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (id);
@@ -37,9 +32,6 @@
 - (int);
 
 // Remaining properties
-@property(nonatomic) int ckContainer; // @synthesize ckContainer=_ckContainer;
-@property(nonatomic) int ckEnvironment; // @synthesize ckEnvironment=_ckEnvironment;
-@property(nonatomic) _Bool hasCkContainer;
 @property(nonatomic) _Bool hasCkEnvironment;
 
 @end

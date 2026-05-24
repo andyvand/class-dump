@@ -11,10 +11,11 @@
 }
 
 - (id);
-- (void);
+- (void)eded:%zu  (%d x %d) bpp:%g)
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (id);
+- (id)rasterizationRateMapDescriptorWithScreenSize:(struct _NSZone *)arg1;
 - (id)td::vector<CLGeoMapLocationPtr> &, const std::vector<CLRouteRoadPtr> &, const double, std::vector<CLGeoMapSnapDataPtr> &, double, double) const /* Error: Ran out of types for this method. */;
 
 @end

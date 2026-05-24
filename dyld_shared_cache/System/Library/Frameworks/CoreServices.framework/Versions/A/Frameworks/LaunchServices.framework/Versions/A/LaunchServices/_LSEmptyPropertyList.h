@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool);
++ (_Bool)tor"24@"<MTLBinaryArchive>"32^@40;
 + (id)<h;
 - (_Bool);
 - (id);

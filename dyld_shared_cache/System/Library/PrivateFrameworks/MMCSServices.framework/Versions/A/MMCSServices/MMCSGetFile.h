@@ -9,7 +9,6 @@
 @interface MMCSGetFile : MMCSSimpleFile
 {
     CDUnknownBlockType _block;
-    CDUnknownBlockType _updateBlock;
 }
 
 - (void);
@@ -17,11 +16,10 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void)B;
 
 // Remaining properties
 @property(copy) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_block;
-@property(copy) CDUnknownBlockType progressUpdateBlock; // @synthesize progressUpdateBlock=_updateBlock;
 
 @end
 

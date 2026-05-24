@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void)inkedCardsGroup;
+- (void)_cardLinkedCardsGroup;
 - (id);
 
 // Remaining properties

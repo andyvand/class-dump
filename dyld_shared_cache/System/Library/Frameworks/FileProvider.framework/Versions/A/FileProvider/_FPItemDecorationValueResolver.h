@@ -10,11 +10,10 @@ __attribute__((visibility("hidden")))
 @interface _FPItemDecorationValueResolver
 {
     FPItem *_item;
-    unsigned long long _style;
 }
 
-+ (id);
-- (id);
++ (id)!";
+- (id)AM;
 - (id);
 - (id);
 - (id);

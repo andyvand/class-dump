@@ -6,34 +6,33 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface USPSchemaUSPLoggingInitalized : SISchemaInstrumentationMessage
 {
     NSArray *_sessionInfoItems;
 }
 
-- (void);
+- (void);
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)E;
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)_searchingContext;
+- (_Bool)able, m.expire_state, m.message_action_type, m.message_source, m.associated_message_guid, m.associated_message_type, m.balloon_bundle_id, m.payload_data, m.expressive_send_style_id, m.associated_message_range_location, m.associated_message_range_length, m.time_expressive_send_played, m.message_summary_info, m.ck_sync_state, m.ck_record_id, m.ck_record_change_tag, m.destination_caller_id, m.is_corrupt, m.reply_to_guid, m.sort_id, m.is_spam, m.has_unseen_mention, m.thread_originator_guid, m.thread_originator_part, m.syndication_ranges, m.synced_syndication_ranges, m.was_delivered_quietly, m.did_notify_recipient, m.date_retracted, m.date_edited, m.date_recovered, m.was_detonated, m.part_count, m.is_stewie, m.is_sos, m.is_critical, m.bia_reference_id, m.is_kt_verified, m.fallback_hash, m.associated_message_emoji, m.is_pending_satellite_send, m.needs_relay, m.schedule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id, m.index_state FROM message m  INDEXED BY message_idx_isRead_isFromMe_itemType  INNER JOIN chat_message_join cm ON cm.message_id = m.rowid  INNER JOIN chat c ON c.ROWID = cm.chat_id  WHERE m.ROWID > ?  AND m.is_read == 0  AND m.is_finished == 1  AND m.is_from_me == 0  AND m.item_type == 0  AND m.is_system_message == 0  AND c.is_filtered != 2  ORDER BY m.date DESC, m.ROWID DESC LIMIT ?;;
 - (id);
 - (id);
-- (id)mDialogActs;
-- (id)dTruthGenerated;
+- (id)deleteSystemDialogActs;
+- (id)_pervasiveEntityResolutionGroundTruthGenerated;
 - (void)l.siri.plus.PLUSClientEvent.PLUSContactSuggestionRemoved;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *sessionInfoItems; // @synthesize sessionInfoItems=_sessionInfoItems;
 
 @end

@@ -4,41 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, GEOMapItemClientAttributes, GEOMapItemStorageUserValues, GEOPDPlace, GEOPDResultDetourInfo, GEOPlace, GEOPlaceResult, NSMutableArray, NSString, PBDataReader, PBUnknownFields, _GEOMapItemStorageNotificationTrampoline, geo_isolater;
-@protocol GEOMapItem;
+@class _GEOMapItemStorageNotificationTrampoline;
 
 @interface GEOMapItemStorage
 {
     _GEOMapItemStorageNotificationTrampoline *_trampoline;
-    id <GEOMapItem> _geoMapItem;
-    geo_isolater *_geoMapItemIsolater;
-    PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_additionalPlaceDatas;
-    GEOMapItemClientAttributes *_clientAttributes;
-    GEOPDResultDetourInfo *_internalDetourInfo;
-    NSString *_mapsURL;
-    GEOLatLng *_originatingCoordinate;
-    GEOPDPlace *_placeData;
-    GEOPlaceResult *_placeResult;
-    GEOPlace *_place;
-    GEOMapItemStorageUserValues *_userValues;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_additionalPlaceDatas:1;
-        unsigned int read_clientAttributes:1;
-        unsigned int read_internalDetourInfo:1;
-        unsigned int read_mapsURL:1;
-        unsigned int read_originatingCoordinate:1;
-        unsigned int read_placeData:1;
-        unsigned int read_placeResult:1;
-        unsigned int read_place:1;
-        unsigned int read_userValues:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 @end

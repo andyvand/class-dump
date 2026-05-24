@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary;
+
 @protocol SLSDisplayPowerControlClientProtocol
+- (void)MfIJVbLF2LSGM/Library/Caches/com.apple.xbs/TemporaryDirectory.aLAJrA/Sources/Persistence/PFCloudKitSchemaGenerator.m;
+- (unsigned long long)s:(NSDictionary *)arg1 %@;
+- (id)ory.aLAJrA/Sources/Persistence/PFCloudKitHistoryAnalyzerContext.m;
+- (id)AppActivationExport;
 @end
 

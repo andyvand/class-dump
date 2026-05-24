@@ -11,8 +11,8 @@
     BlastDoorLiteMessageCompressor *_compressor;
 }
 
-+ (id);
-- (void);
++ (id);
+- (void)#;
 - (id);
 - (id);
 - (id);

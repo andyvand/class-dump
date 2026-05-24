@@ -6,21 +6,14 @@
 
 #import <SignpostSupport/SignpostAnimationSubInterval.h>
 
-@class NSString;
-
 @interface SignpostClientDrawableInterval : SignpostAnimationSubInterval
 {
     unsigned int _queueID;
-    unsigned int _surfaceID;
-    int _pid;
-    unsigned long long _threadID;
-    NSString *_processName;
-    NSString *_executablePath;
 }
 
 - (id);
 - (unsigned int);
-- (int);
+- (int)ʹ;
 - (id);
 - (unsigned int);
 - (unsigned long long);
@@ -28,12 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *executablePath; // @synthesize executablePath=_executablePath;
-@property(readonly, nonatomic) int pid; // @synthesize pid=_pid;
-@property(readonly, nonatomic) NSString *processName; // @synthesize processName=_processName;
 @property(readonly, nonatomic) unsigned int queueID; // @synthesize queueID=_queueID;
-@property(readonly, nonatomic) unsigned int surfaceID; // @synthesize surfaceID=_surfaceID;
-@property(readonly, nonatomic) unsigned long long threadID; // @synthesize threadID=_threadID;
 
 @end
 

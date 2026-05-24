@@ -6,18 +6,14 @@
 
 #import <ExchangeWebServices/EWSBaseFolderIdType.h>
 
-@class EWSEmailAddressType, NSString;
-
 @interface EWSDistinguishedFolderIdType : EWSBaseFolderIdType
 {
     long long _Id;
-    NSString *_ChangeKey;
-    EWSEmailAddressType *_Mailbox;
 }
 
-+ (id);
++ (id)GGAHGGtG;
 - (void);
-- (void);
+- (void)?;
 - (long long);
 - (id);
 - (id);
@@ -26,16 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *ChangeKey; // @synthesize ChangeKey=_ChangeKey;
 @property(nonatomic) long long Id; // @synthesize Id=_Id;
-@property(retain, nonatomic) EWSEmailAddressType *Mailbox; // @synthesize Mailbox=_Mailbox;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

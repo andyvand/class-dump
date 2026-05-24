@@ -13,10 +13,10 @@
 × ;
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)#00FFFF;
 - (void);
 - (id);
-- (id)onIdentifiers;
+- (id)_sectionIdentifiers;
 
 // Remaining properties
 @property(nonatomic) unsigned long long intensity; // @synthesize intensity=_intensity;

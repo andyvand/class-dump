@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BackdropView, NSArray, NSColor, NSString, NSView;
+@class BackdropView, NSString;
 
 __attribute__((visibility("hidden")))
 @interface UnifiedTabBarSeparator
 {
     BackdropView *_backdropView;
-    NSView *_filterView;
-    NSView *_separatorView;
-    NSArray *_separatorLayoutConstraints;
-    struct NSEdgeInsets _separatorEdgeInsets;
 }
 
 - (void);
 - (void);
 - (struct NSEdgeInsets);
-- (double);
+- (double);
 - (void);
 - (void);
 - (id);
@@ -33,9 +29,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) NSString *groupName;
-@property(nonatomic) double separatorAlphaValue;
-@property(copy, nonatomic) NSColor *separatorColor;
-@property(nonatomic) struct NSEdgeInsets separatorEdgeInsets; // @synthesize separatorEdgeInsets=_separatorEdgeInsets;
 
 @end
 

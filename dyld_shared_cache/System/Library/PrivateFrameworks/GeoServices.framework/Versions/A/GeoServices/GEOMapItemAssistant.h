@@ -6,28 +6,19 @@
 
 #import <GeoServices/GEOBaseMapItem.h>
 
-@class GEOAddressObject, GEOLocation, GEOPlace, NSDictionary, NSString, NSURL;
+@class GEOLocation;
 
 @interface GEOMapItemAssistant : GEOBaseMapItem
 {
     GEOLocation *_location;
-    NSDictionary *_addressDictionary;
-    NSString *_name;
-    NSURL *_businessURL;
-    NSString *_phoneNumber;
-    unsigned long long _muid;
-    NSString *_attributionID;
-    unsigned int _sampleSizeForUserRatingScore;
-    float _normalizedUserRatingScore;
-    GEOPlace *_place;
-    GEOAddressObject *_addressObject;
 }
 
 - (id);
 - (id);
 - (id);
 - (unsigned int);
-- (_Bool);
+- (_Bool)%-6.4f
+;
 - (id);
 - (id);
 - (id);
@@ -36,8 +27,8 @@
 - (_Bool);
 - (CDStruct_c3b9c2ee);
 - (id)d_values"b1"wrote_anyField"b1};
-- (unsigned long long)HasAddressFieldName: /* Error: Ran out of types for this method. */;
-- (id)hantAddress;
+- (unsigned long long)setHasAddressFieldName: /* Error: Ran out of types for this method. */;
+- (id)merchantAddress;
 - (_Bool)¤$¨'¬*;
 - (id)ÿÿÿÿÿÿÿ;
 - (void)¦3;

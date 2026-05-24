@@ -7,12 +7,10 @@
 @interface FCUserEventHistoryAggregateCounts
 {
     long long _tag;
-    long long _channelTopic;
-    long long _group;
 }
 
 + (id);
-- (void);
+- (void);
 - (long long);
 - (long long);
 - (long long)0@ù
@@ -21,8 +19,6 @@
 - (void)ion];
 
 // Remaining properties
-@property(nonatomic) long long channelTopic; // @synthesize channelTopic=_channelTopic;
-@property(nonatomic) long long group; // @synthesize group=_group;
 @property(nonatomic) long long tag; // @synthesize tag=_tag;
 
 @end

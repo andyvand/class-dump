@@ -5,5 +5,7 @@
 //
 
 @protocol HMMTRHAPAccessoryServerBrowserPairingDelegate
+- (void)P;
+- (void);
 @end
 

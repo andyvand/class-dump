@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSData, NSNumber;
+@class CIImage;
 
 @interface PILocalLightFilterHDR
 {
     CIImage *inputImage;
-    CIImage *inputGuideImage;
-    NSData *inputLightMap;
-    CIImage *inputLightMapImage;
-    NSNumber *inputLightMapWidth;
-    NSNumber *inputLightMapHeight;
-    NSNumber *inputLocalLight;
-    NSNumber *inputSmartShadows;
 }
 
 + (id);
 - (id);
 - (id);
 - (id);
-- (void)cusDisparity: /* Error: Ran out of types for this method. */;
+- (void)setFocusDisparity: /* Error: Ran out of types for this method. */;
 
 @end
 

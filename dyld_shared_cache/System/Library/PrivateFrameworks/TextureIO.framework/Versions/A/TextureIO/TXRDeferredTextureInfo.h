@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, TXRTextureInfo;
+@class TXRTextureInfo;
 
 __attribute__((visibility("hidden")))
 @interface TXRDeferredTextureInfo
 {
     TXRTextureInfo *_info;
-    NSMutableArray *_mipmaps;
 }
 
+- (id)E;
 - (id);
-- (id);
-- (void);
+- (void)ork/Versions/A/UniformTypeIdentifiers;
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) TXRTextureInfo *info; // @synthesize info=_info;
-@property(readonly, nonatomic) NSMutableArray *mipmaps; // @synthesize mipmaps=_mipmaps;
 
 @end
 

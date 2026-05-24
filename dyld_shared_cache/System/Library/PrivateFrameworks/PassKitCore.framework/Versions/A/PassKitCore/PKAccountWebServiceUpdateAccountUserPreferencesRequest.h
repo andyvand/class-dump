@@ -6,15 +6,11 @@
 
 #import <PassKitCore/PKAccountWebServiceRequest.h>
 
-@class NSString, NSURL, PKAccountUserPreferences;
+@class NSString;
 
 @interface PKAccountWebServiceUpdateAccountUserPreferencesRequest : PKAccountWebServiceRequest
 {
     NSString *_accountIdentifier;
-    NSString *_accountUserAltDSID;
-    PKAccountUserPreferences *_accountUserPreferences;
-    unsigned long long _accountUserAccessLevel;
-    NSURL *_baseURL;
 }
 
 - (void);
@@ -25,17 +21,13 @@
 - (unsigned long long);
 - (id);
 - (id)reUpdates using local requirement checker;
-- (void)enName;
+- (void)givenName;
 - (void);
 - (id)ä,kB;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(nonatomic) unsigned long long accountUserAccessLevel; // @synthesize accountUserAccessLevel=_accountUserAccessLevel;
-@property(copy, nonatomic) NSString *accountUserAltDSID; // @synthesize accountUserAltDSID=_accountUserAltDSID;
-@property(retain, nonatomic) PKAccountUserPreferences *accountUserPreferences; // @synthesize accountUserPreferences=_accountUserPreferences;
-@property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
 
 @end
 

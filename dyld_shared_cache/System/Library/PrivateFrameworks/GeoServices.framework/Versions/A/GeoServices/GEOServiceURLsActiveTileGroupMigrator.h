@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOResourceManifestConfiguration, NSString;
+@class GEOResourceManifestConfiguration;
 
 __attribute__((visibility("hidden")))
 @interface GEOServiceURLsActiveTileGroupMigrator
@@ -15,17 +15,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id)·*°1Â0@ù
 × ;
-- (id)ard_blocked;
+- (id)hard_blocked;
 - (void)½;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

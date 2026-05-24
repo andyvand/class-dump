@@ -4,60 +4,50 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface MSASModelBase
 {
     _Bool _dbWasRecreated;
-    struct sqlite3 *_db;
-    NSString *_personID;
-    struct __CFDictionary *_statements;
-    NSObject<OS_dispatch_queue> *_statementQueue;
-    NSObject<OS_dispatch_queue> *_dbQueue;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
+- (void){public}@No stashed home metadata so can't auto accept for home %@;
+- (void)emoving it.;
+- (void)ublic}@Cannot initialize report because reason is not set in payload:(_Bool)arg1 %@;
+- (id)dentReachable=%{public}@;
+- (id)fying notification registrations resident due to primary resident disabled;
+- (void)ite-response returned but nothing in progress; stale reply? Ignoring;
+- (_Bool)t] Unable to write:transport already closed. /* Error: Ran out of types for this method. */;
+- (void)teristic requests size:(id)arg1 %lu;
+- (void)iting:(id)arg1 %u bytes (rts=%d);
+- (void)ller Payload; should not happen!;
+- (void)blic}@Error:failed to serialize Controller Payload; should not happen! /* Error: Ran out of types for this method. */;
+- (id)l);
+- (id)s on accessory (its weak pointer went to nil);
+- (id)ble to deregister from event notifications on accessory (its weak pointer went to nil);
+- (void)session force close failed; error=%@;
+- (void)rt] Unable to write:Closing after session force close failed; error=%@ /* Error: Ran out of types for this method. */;
+- (void)ublic}@DataStream Socket invoked closed but nothing to clean up.;
+- (struct sqlite3 *)transport closing.;
+- (void)od; connected!;
+- (id)%@;
+- (struct sqlite3_stmt *)lic}@Checking siri unlock access for siri triggered write request;
+- (void);
+- (id);
+- (struct __CFDictionary *);
+- (struct sqlite3 *);
 - (id);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (struct sqlite3 *);
-- (void);
-- (id);
-- (struct sqlite3_stmt *);
-- (void);
-- (id);
-- (struct __CFDictionary *);
-- (struct sqlite3 *);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
+- (void)RECEIVER %@ ####;
+- (id)') OR process = 'mdbulkimport' OR process = 'mdworker_shared' OR (process contains 'spotlightknowledged') OR sender = 'CoreSpotlight';
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *dbQueue; // @synthesize dbQueue=_dbQueue;
-@property(readonly, nonatomic) struct sqlite3 *dbQueueDB; // @synthesize dbQueueDB=_db;
-@property(nonatomic) _Bool dbWasRecreated; // @synthesize dbWasRecreated=_dbWasRecreated;
-@property(readonly, nonatomic) NSString *personID; // @synthesize personID=_personID;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *statementQueue; // @synthesize statementQueue=_statementQueue;
-@property(nonatomic) struct __CFDictionary *statements; // @synthesize statements=_statements;
 
 @end
 

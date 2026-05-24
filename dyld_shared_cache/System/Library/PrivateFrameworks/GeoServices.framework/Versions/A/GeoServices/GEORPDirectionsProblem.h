@@ -4,70 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORPUserSearchInput, NSData, NSMutableArray, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPDirectionsProblem
 {
     PBDataReader *_reader;
-    NSMutableArray *_clientSuggestedRoutes;
-    NSData *_directionsResponseId;
-    GEORPUserSearchInput *_endWaypoint;
-    NSMutableArray *_instructionCorrections;
-    NSData *_overviewScreenshotImageData;
-    NSMutableArray *_problematicRouteIndexs;
-    GEORPUserSearchInput *_startWaypoint;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _problematicLineIndex;
-    unsigned int _problematicStepIndex;
-    struct {
-        unsigned int has_problematicLineIndex:1;
-        unsigned int has_problematicStepIndex:1;
-        unsigned int read_clientSuggestedRoutes:1;
-        unsigned int read_directionsResponseId:1;
-        unsigned int read_endWaypoint:1;
-        unsigned int read_instructionCorrections:1;
-        unsigned int read_overviewScreenshotImageData:1;
-        unsigned int read_problematicRouteIndexs:1;
-        unsigned int read_startWaypoint:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
++ (Class)CTFontCreateWithName;
 + (Class);
-+ (Class);
-+ (_Bool)tRoute:(id)arg1;
++ (_Bool)setIsResumingMultipointRoute:(id)arg1;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned int);
+- (void)valueForKey:(id)arg1 withEntityName:entityKey: /* Error: Ran out of types for this method. */;
+- (void)numberWithDouble:(_Bool)arg1;
+- (void)nts_persistentStoreForUrl:(_Bool)arg1 inCoordinator: /* Error: Ran out of types for this method. */;
+- (void)truct;
+- (void)_TtC19ContactsPersistence31CNCDMeCardOpenDirectoryImporter;
+- (unsigned int)ublic}@;
+- (unsigned long long)rror fetching %{public}@:%{public}@ %{public}@ /* Error: Ran out of types for this method. */;
+- (id)leaned database:%@ %@ /* Error: Ran out of types for this method. */;
+- (id)are store:(unsigned long long)arg1 %{public}@;
+- (unsigned int)failure:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)_requestedMultivalueIdentifierCount;
+- (unsigned long long);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)=;
+- (_Bool);
+- (id);
+- (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (unsigned int);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -77,40 +53,26 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool);
 - (id);
 - (void);
+- (id)setFirstPassMasterChannelScoreBoost: /* Error: Ran out of types for this method. */;
+- (void)uiredSampleCount reached:(id)arg1 currSampleCount=%{public}lu, endingSampleCount=%{public}lu;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id)xts"b1"read_url"b1"wrote_anyField"b1};
-- (id)ethod: /* Error: Ran out of types for this method. */;
+- (id)addPaymentMethod: /* Error: Ran out of types for this method. */;
 - (id)è¨ê;
 - (id)ReadAllFrom can only be called once per object;
 - (void)ª_é|ÀL@;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *clientSuggestedRoutes;
-@property(retain, nonatomic) NSData *directionsResponseId;
-@property(retain, nonatomic) GEORPUserSearchInput *endWaypoint;
 @property(readonly, nonatomic) _Bool hasDirectionsResponseId;
-@property(readonly, nonatomic) _Bool hasEndWaypoint;
-@property(readonly, nonatomic) _Bool hasOverviewScreenshotImageData;
-@property(nonatomic) _Bool hasProblematicLineIndex;
-@property(nonatomic) _Bool hasProblematicStepIndex;
-@property(readonly, nonatomic) _Bool hasStartWaypoint;
-@property(retain, nonatomic) NSMutableArray *instructionCorrections;
-@property(retain, nonatomic) NSData *overviewScreenshotImageData;
-@property(nonatomic) unsigned int problematicLineIndex;
-@property(retain, nonatomic) NSMutableArray *problematicRouteIndexs;
-@property(nonatomic) unsigned int problematicStepIndex;
-@property(retain, nonatomic) GEORPUserSearchInput *startWaypoint;
 
 @end
 

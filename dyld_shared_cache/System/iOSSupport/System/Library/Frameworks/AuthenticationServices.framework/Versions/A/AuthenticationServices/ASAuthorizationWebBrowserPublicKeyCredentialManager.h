@@ -23,7 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) ASCAgentProxy *agentProxy; // @synthesize agentProxy=_agentProxy;
-@property(readonly, nonatomic) long long authorizationStateForPlatformCredentials;
 
 @end
 

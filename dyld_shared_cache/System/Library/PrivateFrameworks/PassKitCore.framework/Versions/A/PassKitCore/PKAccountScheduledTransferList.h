@@ -12,13 +12,13 @@
 }
 
 + (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)H;
 - (void);
 - (void)fields;
 

@@ -13,14 +13,14 @@
     PCSCKKSItemModifyContext *_context;
 }
 
-- (id);
+- (id)kAS;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)ckgroundLayer;
 
 // Remaining properties
 @property(retain) PCSCKKSItemModifyContext *context; // @synthesize context=_context;

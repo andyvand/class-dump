@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (CUIKPlatforms)
-+ (id);
++ (id)notificationState;
 @end
 

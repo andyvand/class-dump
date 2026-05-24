@@ -11,18 +11,18 @@
     AVCaptureInputInternal_Tundra *_inputInternal;
 }
 
-- (unsigned int);
-- (void);
-- (void);
-- (struct OpaqueCMClock *);
-- (id);
-- (void);
-- (void);
-- (int);
-- (int);
-- (id);
-- (_Bool);
-- (void);
+- (unsigned int)@"NSMapTable",R,N,V_objectLookupTable;
+- (void)ed;
+- (void)ransaction] assertion=%{public}@;
+- (struct OpaqueCMClock *)ageFormat;
+- (id)_options>"8;
+- (void)f the current parent is an array.;
+- (void)t is an array.;
+- (int)add an object if the current parent is an array.;
+- (int)"MSVLyricsLine"8@"MSVLyricsLine"16;
+- (id)ntext;
+- (_Bool)m4a;
+- (void)allTCCStatesForAccountTypeID: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);

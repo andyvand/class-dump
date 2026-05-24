@@ -7,16 +7,6 @@
 @interface NewsFeed.FormatProgressViewLayoutAttributes
 {
     id identifier;
-    id layoutIdentifier;
-    id nodeIdentifier;
-    id frame;
-    id style;
-    id resizing;
-    id kind;
-    id zIndex;
-    id visibility;
-    id accessibilityRole;
-    id auxViewRequirements;
 }
 
 @end

@@ -7,11 +7,6 @@
 @interface NewsUI2.TagFeedViewerEventHandler
 {
     id delegate;
-    id interactor;
-    id router;
-    id tracker;
-    id upsellManager;
-    id subscriptionRouter;
 }
 
 @end

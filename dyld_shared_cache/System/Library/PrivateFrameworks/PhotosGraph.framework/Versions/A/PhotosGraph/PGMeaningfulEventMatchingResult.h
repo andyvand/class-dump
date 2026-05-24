@@ -4,29 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PGMeaningfulEventRequiredCriteria;
-
 @interface PGMeaningfulEventMatchingResult
 {
     _Bool _isMatching;
-    _Bool _isReliable;
-    double _score;
-    PGMeaningfulEventRequiredCriteria *_requiredCriteria;
 }
 
 - (id);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)rangeOfString:options:range: /* Error: Ran out of types for this method. */;
+- (_Bool)pagesAroundVisiblePage;
+- (id)_inlineSessionEnded:(_Bool)arg1;
 - (id);
 - (double);
 - (void)river;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isMatching; // @synthesize isMatching=_isMatching;
-@property(readonly, nonatomic) _Bool isReliable; // @synthesize isReliable=_isReliable;
-@property(readonly, nonatomic) PGMeaningfulEventRequiredCriteria *requiredCriteria; // @synthesize requiredCriteria=_requiredCriteria;
-@property(readonly, nonatomic) double score; // @synthesize score=_score;
 
 @end
 

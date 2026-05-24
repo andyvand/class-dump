@@ -6,37 +6,29 @@
 
 #import <UIKitCore/_UITextLayoutControllerBase.h>
 
-@class CUIStyleEffectConfiguration, NSArray, NSLayoutManager, NSMapTable, NSMutableSet, NSString, NSTextContainer, NSTextContentStorage, NSTextLayoutManager, NSTextStorage, UITextPosition, UITextRange, UITextView;
-@protocol NSLayoutManagerDelegate;
+@class UITextView;
 
 @interface _UITextKit2LayoutController : _UITextLayoutControllerBase
 {
     UITextView *_textView;
-    NSTextContentStorage *_textContentStorage;
-    NSTextLayoutManager *_textLayoutManager;
-    NSMutableSet *_ghostedRanges;
-    NSMutableSet *_invisibleRanges;
-    NSMapTable *_textCanvasViews;
-    _Bool _editable;
-    _Bool _drawsDebugBaselines;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (double);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)buildWithOrganizationName:withOrganizationAddress:withOrganizationPhone:withOrganizationEmail:withOrganizationMagic: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)P;
 - (double);
 - (id);
 - (id);
@@ -46,21 +38,21 @@
 - (struct CGRect);
 - (void);
 - (id);
-- (id);
+- (id)nloadable"b1"isPinned"b1"artist"{?="identifiers"b1"name"b1}"genre"{?="identifiers"b1"name"b1}};
+- (void)generation;
+- (id)eSILSectionID;
+- (struct CGRect)dataSourceQueue;
+- (void);
 - (void);
 - (id);
 - (struct CGRect);
-- (void);
-- (void);
-- (id);
-- (struct CGRect);
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)__objc_methlist;
 - (id)1Â0@ù
 × ;
 - (id)Q\°1Â0@ù
@@ -76,23 +68,23 @@
 - (void)vailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}BBBq{NSDirectionalEdgeInsets=dddd}{CGSize=dd}{CGSize=dd}}32;
 - (id)ry";
 - (id)Point=dd}{CGSize=dd}}16o^B48;
-- (void)LayoutDirection;
-- (long long)pportsEdgeAttachedForTraitCollection:(id)arg1;
-- (id)tSearchDocument;
-- (void)ant: /* Error: Ran out of types for this method. */;
-- (id)Item:(id)arg1 userInterfaceStyle:(long long)arg2;
-- (id)RemoveSelectionController;
-- (id)rHeightInOrientation:(id)arg1;
-- (struct CGRect)inerAllowsSelectionTintOnly;
-- (void)ent;
-- (void)ntainedIn:(_Bool)arg1;
-- (void)aintsForInterfaceOrientationAndStatusBarHeight;
-- (id)erHeight;
-- (void)arginsDescription;
+- (void)userInterfaceLayoutDirection;
+- (long long)supportsEdgeAttachedForTraitCollection:(id)arg1;
+- (id)selectedTextSearchDocument;
+- (void)initWithType:identifier:internalBlock:constant: /* Error: Ran out of types for this method. */;
+- (id)dragPreviewForItem:(id)arg1 userInterfaceStyle:(long long)arg2;
+- (id)didRemoveSelectionController;
+- (id)defaultStatusBarHeightInOrientation:(id)arg1;
+- (struct CGRect)containerAllowsSelectionTintOnly;
+- (void)badgeTitlePositionAdjustment;
+- (void)appearanceForTraitCollection:(_Bool)arg1 whenContainedIn: /* Error: Ran out of types for this method. */;
+- (void)_updateRootViewConstraintsForInterfaceOrientationAndStatusBarHeight;
+- (id)_tableHeaderHeight;
+- (void)_recursiveMarginsDescription;
 - (id)e,V_shadowVisible;
 - (struct _NSRange)ch",&,N,V_switchControl;
-- (struct _NSRange)me:(id)arg1 toLayerOfView:(_Bool)arg2;
-- (struct CGRect);
+- (struct _NSRange)willSendSetFrame:(id)arg1 toLayerOfView:(_Bool)arg2;
+- (struct CGRect)_webView:(struct _NSRange)arg1 adjustedItemProviders:(double)arg2;
 - (id);
 - (id);
 - (id)assertions are disabled for this process.;
@@ -100,10 +92,10 @@
 - (struct CGRect)Responder, useKeyboard ivs:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
-- (void)econdItemHitTestExtension;
-- (_Bool)sUITextAttribute;
+- (void)CarPlayDockSecondItemHitTestExtension;
+- (_Bool)_UIARACustomizationArgsHintIsUITextAttribute;
 - (struct _NSRange)t - %@;
-- (void);
+- (void)valueChange;
 - (void)e a invalidation for an already deferred invalidation context. Collection View:(_Bool)arg1 %@, Layout:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id)elegateP;
@@ -115,7 +107,7 @@
 - (_Bool)p;
 - (long long);
 - (id)lîr,$oþ0oþp½R0;
-- (id)Configuration;
+- (id)InlineSearchConfiguration;
 - (id)@Õwþ;
 - (id);
 - (void)[;
@@ -123,34 +115,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) UITextPosition *beginningOfDocument;
-@property(readonly, nonatomic) _Bool canAccessLayoutManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) UITextRange *documentRange;
-@property(nonatomic) _Bool drawsDebugBaselines; // @synthesize drawsDebugBaselines=_drawsDebugBaselines;
-@property(getter=isEditable) _Bool editable; // @synthesize editable=_editable;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,GisEditable,V_editable
-
-@property(readonly, nonatomic) UITextPosition *endOfDocument;
-@property(readonly, nonatomic) NSTextContainer *firstTextContainer;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool includesTextListMarkers;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSLayoutManager *layoutManager;
-@property(nonatomic) __weak id <NSLayoutManagerDelegate> layoutManagerDelegate;
-@property(nonatomic) double maxTileHeight;
-@property(copy, nonatomic) CUIStyleEffectConfiguration *styleEffectConfiguration;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSArray *textContainers;
-@property(readonly, nonatomic) NSTextStorage *textStorage;
-@property(nonatomic) _Bool usesTiledViews;
 
 @end
 

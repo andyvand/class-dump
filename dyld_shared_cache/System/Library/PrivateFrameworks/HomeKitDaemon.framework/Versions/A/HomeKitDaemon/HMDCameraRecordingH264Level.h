@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (id);
 - (void);
-- (id);
+- (id)3D;
 - (id);
 - (unsigned long long);
 - (_Bool);

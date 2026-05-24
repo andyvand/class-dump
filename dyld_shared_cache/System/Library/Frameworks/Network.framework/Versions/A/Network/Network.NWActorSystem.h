@@ -7,17 +7,6 @@
 @interface Network.NWActorSystem
 {
     id disableCompression;
-    id role;
-    id lock;
-    id managedActors;
-    id serverRolesByActorTypeName;
-    id discoveryMechanismByActorID;
-    id _listener;
-    id isListenerReady;
-    id listenerReadyContinuations;
-    id connectionsByActorID;
-    id invalidationHandlersByActorID;
-    id queue;
 }
 
 @end

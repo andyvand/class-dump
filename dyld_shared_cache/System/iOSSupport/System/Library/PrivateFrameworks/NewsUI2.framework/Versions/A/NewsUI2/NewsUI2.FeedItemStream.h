@@ -7,8 +7,6 @@
 @interface NewsUI2.FeedItemStream
 {
     id filter;
-    id observableState;
-    id deferredCompletionPromise;
 }
 
 @end

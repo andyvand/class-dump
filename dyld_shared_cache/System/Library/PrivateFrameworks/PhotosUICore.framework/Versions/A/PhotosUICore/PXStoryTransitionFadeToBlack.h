@@ -15,7 +15,7 @@
 
 - (id);
 - (double);
-- (void)l;
+- (void)LemonadeAlbumCell;
 
 @end
 

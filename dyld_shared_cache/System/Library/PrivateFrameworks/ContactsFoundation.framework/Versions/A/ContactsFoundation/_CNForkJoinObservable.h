@@ -7,16 +7,14 @@
 #import <ContactsFoundation/CNObservable.h>
 
 @class NSArray;
-@protocol CNForkJoinResultReportingStrategy;
 
 @interface _CNForkJoinObservable : CNObservable
 {
     NSArray *_observables;
-    id <CNForkJoinResultReportingStrategy> _resultReportingStrategy;
 }
 
 + (id);
-+ (id);
++ (id)A-;
 - (id);
 - (id);
 - (void);

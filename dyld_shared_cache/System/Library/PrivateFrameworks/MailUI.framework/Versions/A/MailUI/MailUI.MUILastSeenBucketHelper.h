@@ -7,14 +7,6 @@
 @interface MailUI.MUILastSeenBucketHelper
 {
     id $__lazy_storage_$_defaultDate;
-    id configuration;
-    id mailboxes;
-    id externalMailboxURLs;
-    id countQueryTokens;
-    id countQueries;
-    id lastSeenDatesByBucket;
-    id sessionLastSeenDatesByBucket;
-    id lastSelectedDateByBucket;
 }
 
 - (void);
@@ -25,8 +17,8 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void)er: /* Error: Ran out of types for this method. */;
+- (id)c;
+- (void)setUnscreenedSender: /* Error: Ran out of types for this method. */;
 
 @end
 

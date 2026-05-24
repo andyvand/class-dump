@@ -4,18 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSMutableSet, _UITabSidebarTransaction;
-
 __attribute__((visibility("hidden")))
 @interface _UITabOutlineParser
 {
     _Bool _includeAllowsHidingItems;
-    NSArray *_rootItems;
-    NSArray *_groupItems;
-    NSMutableDictionary *_contentByIdentifier;
-    NSMutableSet *_allGroupIdentifiers;
-    NSMutableSet *_collapsedByDefaultGroupIdentifiers;
-    _UITabSidebarTransaction *_transaction;
 }
 
 - (void);
@@ -26,24 +18,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)ictionary"44;
+- (id)NSString"32;
 - (void);
 - (void);
-- (id);
+- (id)So8NSObjectC;
 - (void);
 - (id)
 × ;
 - (void).framework/DataDetectorsUI;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableSet *allGroupIdentifiers; // @synthesize allGroupIdentifiers=_allGroupIdentifiers;
-@property(retain, nonatomic) NSMutableSet *collapsedByDefaultGroupIdentifiers; // @synthesize collapsedByDefaultGroupIdentifiers=_collapsedByDefaultGroupIdentifiers;
-@property(retain, nonatomic) NSMutableDictionary *contentByIdentifier; // @synthesize contentByIdentifier=_contentByIdentifier;
-@property(readonly, nonatomic) NSArray *groupItems; // @synthesize groupItems=_groupItems;
 @property(readonly, nonatomic) _Bool includeAllowsHidingItems; // @synthesize includeAllowsHidingItems=_includeAllowsHidingItems;
-@property(readonly, nonatomic) NSArray *rootItems; // @synthesize rootItems=_rootItems;
-@property(nonatomic) __weak _UITabSidebarTransaction *transaction; // @synthesize transaction=_transaction;
 
 @end
 

@@ -4,45 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDPlace, GEOPDPlaceRequest, GEORPCuratedCollectionContext, GEORPPoiCorrections, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPPoiFeedback
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEORPPoiCorrections *_corrections;
-    GEOPDPlaceRequest *_placeRequest;
-    GEOPDPlace *_place;
-    GEORPCuratedCollectionContext *_poiCuratedCollectionContext;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _correctionType;
-    _Bool _addOtherPoi;
-    struct {
-        unsigned int has_correctionType:1;
-        unsigned int has_addOtherPoi:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_corrections:1;
-        unsigned int read_placeRequest:1;
-        unsigned int read_place:1;
-        unsigned int read_poiCuratedCollectionContext:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)thCm:(id)arg1;
++ (_Bool)setLengthCm:(id)arg1;
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)24@0:(_Bool)arg1 8@16;
+- (void)setPrimitiveSortingLastName:(int)arg1;
+- (id)_baseURLForSourceSpecificURL: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool);
 - (void);
 - (int);
 - (void);
@@ -55,10 +35,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)Z);
+- (id)sJarvis";
+- (void)tAnalyzerDelegate>",W,N,V_delegate;
+- (void)nature(%@);
 - (id);
 - (unsigned long long);
 - (id);
@@ -68,27 +48,15 @@
 - (void);
 - (id)@"GEORPFeedbackUIntField";
 - (void)"read_tdmUserMapsStatus"b1"read_transactionId"b1"wrote_anyField"b1};
-- (_Bool)nt;
+- (_Bool)suggestionEntryListsCount;
 - (id)hed:networkActivity:error: /* Error: Ran out of types for this method. */;
-- (id)ollectionMuids;
+- (id)clearSavedCollectionMuids;
 - (id)T¤Ø;
-- (id)tegoryShopping;
+- (id)GEOSpatialPlaceLookupCategoryShopping;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool addOtherPoi;
-@property(nonatomic) int correctionType;
-@property(retain, nonatomic) GEORPPoiCorrections *corrections;
-@property(nonatomic) _Bool hasAddOtherPoi;
 @property(nonatomic) _Bool hasCorrectionType;
-@property(readonly, nonatomic) _Bool hasCorrections;
-@property(readonly, nonatomic) _Bool hasPlace;
-@property(readonly, nonatomic) _Bool hasPlaceRequest;
-@property(readonly, nonatomic) _Bool hasPoiCuratedCollectionContext;
-@property(retain, nonatomic) GEOPDPlace *place;
-@property(retain, nonatomic) GEOPDPlaceRequest *placeRequest;
-@property(retain, nonatomic) GEORPCuratedCollectionContext *poiCuratedCollectionContext;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

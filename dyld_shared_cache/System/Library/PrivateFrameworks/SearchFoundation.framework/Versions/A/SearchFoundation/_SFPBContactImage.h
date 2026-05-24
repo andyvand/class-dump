@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSArray;
 
 @interface _SFPBContactImage
 {
     _Bool _threeDTouchEnabled;
-    NSArray *_contactIdentifiers;
-    NSString *_appIconBadgeBundleIdentifier;
 }
 
 - (void);
@@ -22,30 +20,20 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)initWithPayload:(_Bool)arg1 requestPayload:hashedPersonID: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (id)isPhotosApplicationInstalled;
+- (id)video request found zero playable videos for asset:%{public}@, retrying, returned video may not be playable /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)ckground_platter: /* Error: Ran out of types for this method. */;
+- (void)setHas_background_platter: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *appIconBadgeBundleIdentifier; // @synthesize appIconBadgeBundleIdentifier=_appIconBadgeBundleIdentifier;
 @property(copy, nonatomic) NSArray *contactIdentifiers; // @synthesize contactIdentifiers=_contactIdentifiers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool threeDTouchEnabled; // @synthesize threeDTouchEnabled=_threeDTouchEnabled;
 
 @end
 

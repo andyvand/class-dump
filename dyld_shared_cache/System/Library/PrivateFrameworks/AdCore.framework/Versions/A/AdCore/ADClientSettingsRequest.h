@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface ADClientSettingsRequest
 {
     NSMutableArray *_currentSearchLandingAdsSettingParams;
-    NSMutableArray *_currentSettingParams;
-    NSString *_iAdIDString;
 }
 
 + (Class);
 + (Class);
 + (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (id);
@@ -29,24 +27,21 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)VB;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)0:(id)arg1 8^v16;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *currentSearchLandingAdsSettingParams; // @synthesize currentSearchLandingAdsSettingParams=_currentSearchLandingAdsSettingParams;
-@property(retain, nonatomic) NSMutableArray *currentSettingParams; // @synthesize currentSettingParams=_currentSettingParams;
 @property(readonly, nonatomic) _Bool hasIAdIDString;
-@property(retain, nonatomic) NSString *iAdIDString; // @synthesize iAdIDString=_iAdIDString;
 
 @end
 

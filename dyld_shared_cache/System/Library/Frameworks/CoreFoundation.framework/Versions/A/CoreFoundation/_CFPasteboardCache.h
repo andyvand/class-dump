@@ -8,13 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _CFPasteboardCache
 {
     struct __CFArray *orderedEntries;
-    struct __CFDictionary *entriesByItemIdentifier;
-    struct __CFDictionary *indexesByItemIdentifier;
-    struct __CFArray *itemArray;
-    int generation;
-    int changeCount;
-    int lastPboardError;
-    unsigned char didHandleCreate;
 }
 
 - (void);
@@ -22,12 +15,12 @@ __attribute__((visibility("hidden")))
 - (struct __CFArray *);
 - (int);
 - (CDStruct_b6748e3c);
-- (id);
+- (id)/;
 - (CDStruct_9e943ef1);
 - (CDStruct_6ea78fe2);
 - (void);
 - (int);
-- (void);
+- (void)B#;
 - (void);
 - (void);
 - (void);
@@ -40,10 +33,7 @@ __attribute__((visibility("hidden")))
 - (int)BNBannerSourceLayoutDescription;
 
 // Remaining properties
-@property int changeCount; // @synthesize changeCount;
 @property(readonly) int generation; // @synthesize generation;
-@property int lastPboardError; // @synthesize lastPboardError;
-@property(readonly) struct __CFArray *orderedEntries; // @synthesize orderedEntries;
 
 @end
 

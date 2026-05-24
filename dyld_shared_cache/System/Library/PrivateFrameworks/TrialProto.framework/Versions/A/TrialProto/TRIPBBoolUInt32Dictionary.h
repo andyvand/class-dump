@@ -9,22 +9,20 @@
 @interface TRIPBBoolUInt32Dictionary
 {
     TRIPBMessage *_autocreator;
-    unsigned int _values[2];
-    _Bool _valueSet[2];
 }
 
 - (void);
+- (void);
+- (id);
+- (_Bool)3;
+- (void);
 - (void);
 - (id);
+- (id){;
+- (id);
+- (unsigned long long);
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (void);
 - (id);
 - (void);
 - (unsigned long long);
@@ -32,7 +30,7 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void)ntime;
+- (void)MlRuntime;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;

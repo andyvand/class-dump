@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBContact;
+@class _INPBContact;
 
 @interface _INPBShareDestination
 {
     struct {
         unsigned int deviceType:1;
     } _has;
-    int _deviceType;
-    _INPBContact *_contact;
 }
 
 + (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)B;
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
-- (void);
+- (void)@;
 - (_Bool);
-- (void);
+- (void)SSSg;
 - (void);
 - (id);
 - (id);
@@ -32,21 +30,11 @@
 - (id);
 - (int);
 - (int);
-- (void)lureAirplaneModeEnabled;
+- (void)INStartCallIntentResponseCodeFailureAirplaneModeEnabled;
 - (void)9QÈ;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBContact *contact; // @synthesize contact=_contact;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) int deviceType; // @synthesize deviceType=_deviceType;
-@property(readonly, nonatomic) _Bool hasContact;
-@property(nonatomic) _Bool hasDeviceType;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

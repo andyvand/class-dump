@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _SFPBRFTextProperty, _SFPBRFVisualProperty;
+@class NSData, _SFPBRFTextProperty;
 
 @protocol _SFPBRFSummaryItemDetailedTextCardSection
+- (void)#;
+- (void)p;
+- (_SFPBRFTextProperty *)}{CGSize=dd}}32@0:8@"NSMenu"16@"NSScreen"24 /* Error: Ran out of types for this method. */;
+- (NSData *)"NSNumber",&,N,V_videoDuration;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBRFTextProperty *text_1;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_2;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_3;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_4;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_5;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_6;
-@property(retain, nonatomic) _SFPBRFVisualProperty *thumbnail;
 @end
 

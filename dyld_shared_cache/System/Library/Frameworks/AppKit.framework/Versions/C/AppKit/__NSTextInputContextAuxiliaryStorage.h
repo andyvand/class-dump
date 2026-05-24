@@ -4,37 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSPopoverTouchBarItem, NSTextInputContext, NSTouchBar, NSViewController, RTIDocumentState, RTIInputSystemServiceSession, RTIInputSystemSourceSession;
-@protocol TUICursorAccessoryAssertion;
+@class NSTextInputContext;
 
 __attribute__((visibility("hidden")))
 @interface __NSTextInputContextAuxiliaryStorage
 {
     NSTextInputContext *_inputContext;
-    NSArray *_functionRowItemIdentifiers;
-    NSViewController *_keyboardInputSourceViewController;
-    NSPopoverTouchBarItem *_keyboardInputSourcePopoverTouchBarItem;
-    NSTouchBar *_keyboardInputSourcePopoverTouchBar;
-    NSViewController *_characterPickerViewController;
-    NSPopoverTouchBarItem *_characterPickerPopoverTouchBarItem;
-    NSPopoverTouchBarItem *_pressAndHoldPopoverTouchBarItem;
-    NSPopoverTouchBarItem *_trackpadHandwritingPopoverTouchBarItem;
-    NSData *_ucharDataForSelectedInputSource;
-    id <TUICursorAccessoryAssertion> _dictationAccessoryAssertion;
-    id <TUICursorAccessoryAssertion> _dictationLanguageSwitcherAssertion;
-    RTIInputSystemServiceSession *_rtiCurrentInputSystemServiceSession;
-    RTIDocumentState *_rtiCurrentDocumentState;
-    RTIInputSystemSourceSession *_rtiInputSystemSourceSession;
-    struct {
-        unsigned int _haveKeyboardIM:1;
-        unsigned int _havePressAndHold:1;
-        unsigned int _haveCharacterPickerInput:1;
-        unsigned int _haveTrackpadHandwritingInput:1;
-        unsigned int _characterPickerDisabled:1;
-        unsigned int _haveFunctionRowDeviceKVOObserver:1;
-        unsigned int _iosMacClient:1;
-        unsigned int _extra:25;
-    } _ticFlags;
 }
 
 - (id);
@@ -42,14 +17,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)S;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (id)%s:sysconfig version not supported:0x%x /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)JWjvsupiqWYtIGwr8yGd8w;
 - (id);
 - (id);
 - (id);
@@ -61,16 +36,7 @@ __attribute__((visibility("hidden")))
 - (void). Bad things, man.... bad things.;
 
 // Remaining properties
-@property __weak NSPopoverTouchBarItem *characterPickerPopoverTouchBarItem; // @dynamic characterPickerPopoverTouchBarItem;
-@property(retain, nonatomic) NSViewController *characterPickerViewController; // @synthesize characterPickerViewController=_characterPickerViewController;
-@property(retain, nonatomic) NSArray *functionRowItemIdentifiers; // @synthesize functionRowItemIdentifiers=_functionRowItemIdentifiers;
 @property(readonly) NSTextInputContext *inputContext; // @synthesize inputContext=_inputContext;
-@property(readonly) NSPopoverTouchBarItem *keyboardInputSourcePopoverTouchBarItem; // @dynamic keyboardInputSourcePopoverTouchBarItem;
-@property(retain, nonatomic) NSViewController *keyboardInputSourceViewController; // @synthesize keyboardInputSourceViewController=_keyboardInputSourceViewController;
-@property(retain) NSPopoverTouchBarItem *pressAndHoldPopoverTouchBarItem; // @synthesize pressAndHoldPopoverTouchBarItem=_pressAndHoldPopoverTouchBarItem;
-@property(retain, nonatomic) NSViewController *pressAndHoldTouchBarItemViewController; // @dynamic pressAndHoldTouchBarItemViewController;
-@property(retain) NSPopoverTouchBarItem *trackpadHandwritingPopoverTouchBarItem; // @synthesize trackpadHandwritingPopoverTouchBarItem=_trackpadHandwritingPopoverTouchBarItem;
-@property(retain, nonatomic) NSViewController *trackpadHandwritingTouchBarItemViewController; // @dynamic trackpadHandwritingTouchBarItemViewController;
 
 @end
 

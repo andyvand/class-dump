@@ -6,44 +6,13 @@
 
 #import <FinderKit/FI_TListBaseCellView.h>
 
-@class FI_TBasicImageView, FI_TButton, FI_TInlineProgressView, FI_TListNameSubtitleTextField, FI_TSyncBadgeButton, FI_TTagsImageView, FI_TTextField, NSImageView, NSLayoutConstraint, NSLayoutGuide, NSObject, NSString, NSView;
+@class FI_TBasicImageView, NSObject;
 @protocol TListNameFieldDelegate;
 
 __attribute__((visibility("hidden")))
 @interface FI_TListNameCellView : FI_TListBaseCellView
 {
     FI_TBasicImageView *_iconImageView;
-    NSLayoutConstraint *_iconImageViewWidthConstraint;
-    NSLayoutConstraint *_iconImageViewTrailingConstraint;
-    NSLayoutConstraint *_titleCenterYConstraint;
-    FI_TListNameSubtitleTextField *_subtitleTextField;
-    NSLayoutGuide *_subtitleTextFieldLayoutGuide;
-    NSLayoutConstraint *_subtitleLayoutGuideLeadingFixedConstraint;
-    NSLayoutConstraint *_subtitleLayoutGuideLeadingFlexibleConstraint;
-    NSLayoutConstraint *_subtitleLayoutGuideTrailingFlexibleConstraint;
-    NSLayoutConstraint *_subtitleLayoutGuideTrailingFixedConstraint;
-    FI_TTextField *_belowTitleView;
-    FI_TButton *_ejectButton;
-    NSLayoutConstraint *_ejectButtonTrailingConstraint;
-    NSImageView *_screenTimeImageView;
-    NSLayoutConstraint *_screenTimeTrailingConstraint;
-    NSLayoutConstraint *_screenTimeSpacingConstraintOnMaster;
-    FI_TTagsImageView *_tagsImageView;
-    NSLayoutConstraint *_tagsTrailingConstraint;
-    NSLayoutConstraint *_tagsSpacingConstraintOnMaster;
-    FI_TBasicImageView *_vendorBadgeImageView;
-    NSLayoutConstraint *_vendorBadgeTrailingConstraint;
-    NSLayoutConstraint *_vendorBadgeSpacingConstraintOnMaster;
-    FI_TSyncBadgeButton *_syncBadgeImageButton;
-    NSLayoutConstraint *_syncBadgeSpacingConstraintOnMaster;
-    NSLayoutConstraint *_attributionViewSpacingConstraintOnMaster;
-    NSView *_attributionView;
-    FI_TInlineProgressView *_progressView;
-    struct TProgressStateAggregator _progressStateAggregator;
-    NSLayoutConstraint *_progressViewSpacingConstraintOnMaster;
-    FI_TButton *_resumeButton;
-    NSLayoutConstraint *_resumeButtonTrailingConstraint;
-    NSLayoutGuide *_masterLayoutGuide;
 }
 
 + (double);
@@ -59,8 +28,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -69,19 +38,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (struct CGSize);
 - (id);
+- (id)I;
+- (void);
+- (void);
+- (id)qA;
+- (void);
+- (id)GPoint=dd}{CGSize=dd}}24;
+- (struct CGRect)nextResultsWithLimit: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (void);
 - (void);
-- (id);
 - (void);
-- (id);
-- (struct CGRect);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)T;
 - (id);
 - (double);
 - (id);
@@ -93,15 +62,7 @@ __attribute__((visibility("hidden")))
 - (void)ZN11TCustomNode12MakeInstanceI18TICloudPlaceHolderJEEENSt3__14pairI7TFENodePT_EEDpOT0_E19MakeInstanceEnabler;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak NSObject<TListNameFieldDelegate> *lnfDelegate;
-@property(retain, nonatomic) NSLayoutGuide *masterLayoutGuide; // @synthesize masterLayoutGuide=_masterLayoutGuide;
-@property(readonly) Class superclass;
 
 @end
 

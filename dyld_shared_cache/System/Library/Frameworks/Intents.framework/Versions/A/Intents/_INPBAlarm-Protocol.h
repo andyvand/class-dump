@@ -4,27 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDataString, _INPBDateTime, _INPBSleepAlarmAttribute;
+@class _INPBDateTime, _INPBSleepAlarmAttribute;
 
 @protocol _INPBAlarm
+- (_INPBSleepAlarmAttribute *);
+- (_INPBDateTime *);
+- (void)traverseVerticesPassingTest:(_Bool)arg1 enumerationBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)ions/A/SoftLinking;
 - (void)PBGeographicalFeatureList",&,N;
-- (_Bool)y;
-- (_Bool);
+- (_Bool)INAddMediaIntentResponseCodeReady;
+- (_Bool)KILOJOULE;
 
 // Remaining properties
 @property(readonly, nonatomic) int *alarmRepeatScheduleOptions;
-@property(readonly, nonatomic) unsigned long long alarmRepeatScheduleOptionsCount;
-@property(retain, nonatomic) _INPBDateTime *dateTime;
-@property(nonatomic) _Bool enabled;
-@property(nonatomic) _Bool firing;
-@property(readonly, nonatomic) _Bool hasDateTime;
-@property(nonatomic) _Bool hasEnabled;
-@property(nonatomic) _Bool hasFiring;
-@property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasLabel;
-@property(readonly, nonatomic) _Bool hasSleepAlarmAttribute;
-@property(copy, nonatomic) NSString *identifier;
-@property(retain, nonatomic) _INPBDataString *label;
-@property(retain, nonatomic) _INPBSleepAlarmAttribute *sleepAlarmAttribute;
 @end
 

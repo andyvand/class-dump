@@ -4,64 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSNumber, NSString, NSXPCListenerEndpoint;
+@class NSArray, NSString;
 
 @interface ASDPurchase
 {
     NSArray *_buyParameters;
-    _Bool _createsJobs;
-    _Bool _isDefaultBrowser;
-    _Bool _displaysOnLockScreen;
-    _Bool _forceWatchInstall;
-    _Bool _isDSIDLess;
-    _Bool _isUpdate;
-    _Bool _isBackgroundUpdate;
-    _Bool _isPreorder;
-    _Bool _isRedownload;
-    _Bool _shouldAskForRatingException;
-    _Bool _shouldCancelForInstalledBundleItems;
-    _Bool _installUniversalVariant;
-    _Bool _isCompatibilityUpdate;
-    _Bool _isRefresh;
-    _Bool _sendGUID;
-    NSString *_bundleID;
-    NSNumber *_itemID;
-    NSString *_itemName;
-    NSString *_presentingSceneBundleIdentifier;
-    NSString *_presentingSceneIdentifier;
-    NSString *_vendorName;
-    NSDictionary *_additionalHeaders;
-    NSNumber *_accountIdentifier;
-    NSString *_affiliateIdentifier;
-    NSArray *_appCapabilities;
-    NSString *_bagKey;
-    NSString *_downloadVolume;
-    long long _extensionsToEnable;
-    long long _forceAskToBuyReason;
-    NSArray *_gratisIdentifiers;
-    NSString *_installVolume;
-    NSDictionary *_metricsOverlay;
-    NSDictionary *_performanceMetricsOverlay;
-    long long _packaging;
-    NSXPCListenerEndpoint *_paymentViewServiceListener;
-    NSString *_referrerName;
-    NSString *_referrerURL;
-    long long _softwarePlatform;
-    long long _purchaseID;
-    NSArray *_requiredCapabilities;
-    unsigned long long _ageRatingValue;
-    NSString *_preflightURLString;
-    NSArray *_remoteDownloadIdentifiers;
-    NSString *_packageOverride;
-    NSString *_clientID;
-    NSNumber *_ownerDSID;
-    NSNumber *_purchaserDSID;
 }
 
 + (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
+- (void)!;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)>;
 - (void);
 - (void);
 - (void);
@@ -73,14 +33,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -96,7 +49,7 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (long long);
@@ -112,7 +65,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -127,36 +80,96 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (id)?ס
+E�;
 - (void);
 - (_Bool);
 - (id);
-- (long long);
+- (void);
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void)3I;
+- (void);
+- (_Bool)initWithDepartureReason: /* Error: Ran out of types for this method. */;
+- (id)nsitAlert:(struct _NSZone *)arg1 ];
+- (long long)PRINTF("%.3f", response_timestamp) AS response_time,
+        LENGTH(request_data) AS request,
+        LENGTH(response_data) AS response,
+        LENGTH(response_error_data) AS error,
+        destination_name AS destination
+    FROM
+        eta_traffic_updates;
+
+-- navigation_events
+
+CREATE VIEW navigation_events_view AS
+    SELECT
+        PRINTF("%.3f", relative_timestamp) AS relative_time,
+        PRINTF("%d", absolute_timestamp) AS absolute_time,
+        strftime('%H:%M:%S', time(absolute_timestamp, 'unixepoch', 'localtime')) AS time,
+        last_location_id AS location,
+        event_name,
+        event_description
+    FROM
+        navigation_events INNER JOIN navigation_event_types ON navigation_events.event_id = navigation_event_types.event_id;
+
+-- ev_data
+
+CREATE VIEW ev_data_view as
+    SELECT
+        PRINTF("%.1f", relative_timestamp) AS time,
+        strftime('%H:%M:%S', time(absolute_timestamp, 'unixepoch', 'localtime')) AS date,
+        PRINTF("%.0f%%", battery_percentage * 100) AS "battery%",
+        PRINTF("%.1f", current_range_m) AS "range (meters)",
+        PRINTF("%.1f", current_battery_capacity_kwh) AS "capacity (kwh)",
+        is_charging,
+        CASE WHEN length(vehicle_data) > 0 THEN identifier END as identifier
+    FROM
+        ev_data;
+
+-- custom_route_creation_actions
+
+CREATE VIEW route_creation_actions_view AS
+    SELECT
+        rowid AS 'Index',
+        PRINTF("%.3f", request_timestamp) AS 'Request Time',
+        PRINTF("%.3f", response_timestamp) AS 'Response Time',
+        LENGTH(request_data) AS 'Request',
+        LENGTH(response_data) AS 'Response',
+        LENGTH(response_error_data) AS 'Error',
+        LENGTH(anchor_points_data) AS 'Anchor Points',
+        CASE action
+            WHEN 0 THEN 'Unset'
+            WHEN 1 THEN 'Append Anchor'
+            WHEN 2 THEN 'Delete Anchor'
+            WHEN 101 THEN 'Reverse'
+            WHEN 102 THEN 'Out and Back'
+            WHEN 103 THEN 'Close Loop'
+            WHEN 1001 THEN 'Undo'
+            WHEN 1002 THEN 'Redo'
+            ELSE 'Unknown'
+        END AS 'Action'
+    FROM
+        custom_route_creation_actions;
+ /* Error: Ran out of types for this method. */;
+- (void);
+- (id)R;
+- (id);
 - (void);
 - (id);
 - (id);
@@ -167,55 +180,7 @@
 - (id)PKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDJobManifest_macOS.m:50 :Not supported on macOS /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(copy, nonatomic) NSDictionary *additionalHeaders; // @synthesize additionalHeaders=_additionalHeaders;
-@property(copy, nonatomic) NSString *affiliateIdentifier; // @synthesize affiliateIdentifier=_affiliateIdentifier;
-@property(nonatomic) unsigned long long ageRatingValue; // @synthesize ageRatingValue=_ageRatingValue;
-@property(copy, nonatomic) NSArray *appCapabilities; // @synthesize appCapabilities=_appCapabilities;
-@property(copy, nonatomic) NSString *bagKey; // @synthesize bagKey=_bagKey;
-@property(copy, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(copy, nonatomic) NSString *buyParameters;
-@property(copy, nonatomic) NSString *clientID; // @synthesize clientID=_clientID;
-@property(nonatomic) _Bool createsJobs; // @synthesize createsJobs=_createsJobs;
-@property(nonatomic) _Bool displaysOnLockScreen; // @synthesize displaysOnLockScreen=_displaysOnLockScreen;
-@property(copy, nonatomic) NSString *downloadVolume; // @synthesize downloadVolume=_downloadVolume;
-@property long long extensionsToEnable; // @synthesize extensionsToEnable=_extensionsToEnable;
-@property(nonatomic) long long forceAskToBuyReason; // @synthesize forceAskToBuyReason=_forceAskToBuyReason;
-@property(nonatomic) _Bool forceWatchInstall; // @synthesize forceWatchInstall=_forceWatchInstall;
-@property(copy, nonatomic) NSArray *gratisIdentifiers; // @synthesize gratisIdentifiers=_gratisIdentifiers;
-@property(nonatomic, getter=isIOSBinaryMacOSCompatible) _Bool iOSBinaryMacOSCompatible;
-@property(nonatomic) _Bool installUniversalVariant; // @synthesize installUniversalVariant=_installUniversalVariant;
-@property(copy, nonatomic) NSString *installVolume; // @synthesize installVolume=_installVolume;
-@property(nonatomic) _Bool isBackgroundUpdate; // @synthesize isBackgroundUpdate=_isBackgroundUpdate;
-@property(nonatomic) _Bool isCompatibilityUpdate; // @synthesize isCompatibilityUpdate=_isCompatibilityUpdate;
-@property(nonatomic) _Bool isDSIDLess; // @synthesize isDSIDLess=_isDSIDLess;
-@property(nonatomic) _Bool isDefaultBrowser; // @synthesize isDefaultBrowser=_isDefaultBrowser;
-@property(nonatomic) _Bool isPreorder; // @synthesize isPreorder=_isPreorder;
-@property(nonatomic) _Bool isRedownload; // @synthesize isRedownload=_isRedownload;
-@property(nonatomic) _Bool isRefresh; // @synthesize isRefresh=_isRefresh;
-@property(nonatomic) _Bool isUpdate; // @synthesize isUpdate=_isUpdate;
-@property(copy, nonatomic) NSNumber *itemID; // @synthesize itemID=_itemID;
-@property(copy, nonatomic) NSString *itemName; // @synthesize itemName=_itemName;
-@property(copy) NSDictionary *metricsOverlay; // @synthesize metricsOverlay=_metricsOverlay;
-@property(copy, nonatomic) NSNumber *ownerDSID; // @synthesize ownerDSID=_ownerDSID;
 @property(copy, nonatomic) NSString *packageOverride; // @synthesize packageOverride=_packageOverride;
-@property(nonatomic) long long packaging; // @synthesize packaging=_packaging;
-@property(retain) NSXPCListenerEndpoint *paymentViewServiceListener; // @synthesize paymentViewServiceListener=_paymentViewServiceListener;
-@property(copy) NSDictionary *performanceMetricsOverlay; // @synthesize performanceMetricsOverlay=_performanceMetricsOverlay;
-@property(copy) NSString *preflightURLString; // @synthesize preflightURLString=_preflightURLString;
-@property(copy, nonatomic) NSString *presentingSceneBundleIdentifier; // @synthesize presentingSceneBundleIdentifier=_presentingSceneBundleIdentifier;
-@property(copy, nonatomic) NSString *presentingSceneIdentifier; // @synthesize presentingSceneIdentifier=_presentingSceneIdentifier;
-@property long long purchaseID; // @synthesize purchaseID=_purchaseID;
-@property(copy, nonatomic) NSNumber *purchaserDSID; // @synthesize purchaserDSID=_purchaserDSID;
-@property(copy, nonatomic) NSString *referrerName; // @synthesize referrerName=_referrerName;
-@property(copy, nonatomic) NSString *referrerURL; // @synthesize referrerURL=_referrerURL;
-@property(copy, nonatomic) NSArray *remoteDownloadIdentifiers; // @synthesize remoteDownloadIdentifiers=_remoteDownloadIdentifiers;
-@property(copy, nonatomic) NSArray *requiredCapabilities; // @synthesize requiredCapabilities=_requiredCapabilities;
-@property(nonatomic) _Bool sendGUID; // @synthesize sendGUID=_sendGUID;
-@property(nonatomic) _Bool shouldAskForRatingException; // @synthesize shouldAskForRatingException=_shouldAskForRatingException;
-@property(nonatomic) _Bool shouldCancelForInstalledBundleItems; // @synthesize shouldCancelForInstalledBundleItems=_shouldCancelForInstalledBundleItems;
-@property(nonatomic) long long softwarePlatform; // @synthesize softwarePlatform=_softwarePlatform;
-@property(copy, nonatomic) NSString *vendorName; // @synthesize vendorName=_vendorName;
 
 @end
 

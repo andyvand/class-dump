@@ -10,28 +10,22 @@ __attribute__((visibility("hidden")))
 @interface AVGlassBackedButton : AVButton
 {
     _Bool wantsCapsuleShape;
-    _Bool subdued;
-    long long backgroundMaterialStyle;
-    _Bool backgroundMaterialized;
 }
 
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)P;
 - (void);
 - (void);
 - (_Bool);
 - (long long);
 - (_Bool);
+- (id)A;
 - (id);
-- (id);
-- (void);
+- (void)\\;
 
 // Remaining properties
-@property(nonatomic) long long backgroundMaterialStyle; // @synthesize backgroundMaterialStyle;
-@property(nonatomic) _Bool backgroundMaterialized; // @synthesize backgroundMaterialized;
-@property(nonatomic) _Bool subdued; // @synthesize subdued;
 @property(nonatomic) _Bool wantsCapsuleShape; // @synthesize wantsCapsuleShape;
 
 @end

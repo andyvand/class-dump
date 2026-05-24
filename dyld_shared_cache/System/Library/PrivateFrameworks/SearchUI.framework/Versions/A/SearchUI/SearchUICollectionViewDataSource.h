@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSString, SearchUICollectionViewController;
+@class NSMutableSet, SearchUICollectionViewController;
 
 @interface SearchUICollectionViewDataSource
 {
     SearchUICollectionViewController *_controller;
-    NSMutableSet *_registeredCellIdentifiers;
-    CDUnknownBlockType _updateCompletionBlock;
 }
 
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void)Z;
 - (struct NSDirectionalEdgeInsets);
 - (id);
 - (void);
@@ -42,7 +40,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)SignpostOverrunChecking;
 - (id);
 - (id);
 - (void);
@@ -50,16 +48,7 @@
 - (id)ì¾Ð¿ðÀÂ°ÂÌÄ;
 
 // Remaining properties
-@property __weak SearchUICollectionViewController *controller; // @synthesize controller=_controller;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSMutableSet *registeredCellIdentifiers; // @synthesize registeredCellIdentifiers=_registeredCellIdentifiers;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) CDUnknownBlockType updateCompletionBlock; // @synthesize updateCompletionBlock=_updateCompletionBlock;
 
 @end
 

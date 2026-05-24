@@ -4,36 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVVideoOutputSettings, NSArray, NSDictionary, NSMutableDictionary;
-@protocol AVDecodedVideoSettingsForFig;
+@class NSArray;
 
 @interface AVVideoOutputSpecification
 {
     NSArray *_tagCollections;
-    AVVideoOutputSettings<AVDecodedVideoSettingsForFig> *_defaultOutputSettings;
-    NSMutableDictionary *_tagCollectionToOutputSettingsMapping;
 }
 
+- (void)_targetProjections;
+- (void)_tagSequence;
+- (void)_ngramBuildConfig;
+- (void)_n_samples;
+- (id)nfig>=^{NgramFstConfig}^{__shared_weak_count}},R,N,V_ngramBuildConfig;
+- (id)State",&,N,V_stablePrefixState;
+- (id)lP|T]ldhe;
+- (id);
+- (id);
+- (id);
+- (id)l;
+- (id);
+- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)m;
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *defaultOutputSettings;
-@property(copy, nonatomic) NSDictionary *defaultPixelBufferAttributes;
 @property(readonly, copy, nonatomic) NSArray *preferredTagCollections;
 
 @end

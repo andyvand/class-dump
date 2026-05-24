@@ -8,16 +8,6 @@ __attribute__((visibility("hidden")))
 @interface HDRFlexRangeParameters
 {
     _Bool _isMono;
-    _Bool _useBaseColor;
-    float _baseHeadroom;
-    float _alternateHeadroom;
-    unsigned long long _version;
-    struct CGColorSpace *_alternateColorSpace;
-    id _channelMinRGB;
-    id _channelMaxRGB;
-    id _channelGammaRGB;
-    id _channelBaseOffsetRGB;
-    id _channelAlternateOffsetRGB;
 }
 
 + (id);
@@ -54,28 +44,13 @@ __attribute__((visibility("hidden")))
 - (struct CGColorSpace *);
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)@;
 - (id);
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) struct CGColorSpace *alternateColorSpace; // @synthesize alternateColorSpace=_alternateColorSpace;
-@property(nonatomic) float alternateHeadroom; // @synthesize alternateHeadroom=_alternateHeadroom;
-@property(nonatomic) float baseHeadroom; // @synthesize baseHeadroom=_baseHeadroom;
-@property(nonatomic) float channelAlternateOffset;
-@property(nonatomic) id channelAlternateOffsetRGB; // @synthesize channelAlternateOffsetRGB=_channelAlternateOffsetRGB;
-@property(nonatomic) float channelBaseOffset;
-@property(nonatomic) id channelBaseOffsetRGB; // @synthesize channelBaseOffsetRGB=_channelBaseOffsetRGB;
-@property(nonatomic) float channelGamma;
-@property(nonatomic) id channelGammaRGB; // @synthesize channelGammaRGB=_channelGammaRGB;
-@property(nonatomic) float channelMax;
-@property(nonatomic) id channelMaxRGB; // @synthesize channelMaxRGB=_channelMaxRGB;
-@property(nonatomic) float channelMin;
-@property(nonatomic) id channelMinRGB; // @synthesize channelMinRGB=_channelMinRGB;
-@property(nonatomic) _Bool isMono; // @synthesize isMono=_isMono;
-@property(nonatomic) _Bool useBaseColor; // @synthesize useBaseColor=_useBaseColor;
 @property(nonatomic) unsigned long long version; // @synthesize version=_version;
 
 @end

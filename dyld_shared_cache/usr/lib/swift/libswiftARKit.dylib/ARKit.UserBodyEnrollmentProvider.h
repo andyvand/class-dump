@@ -8,8 +8,6 @@
 {
     id _cUserBodyEnrollmentProvider;
     id _cUserBodyEnrollmentConfiguration;
-    id armsEnrollmentResultContinuations;
-    id updateQueue;
 }
 
 @end

@@ -7,10 +7,10 @@
 @class NSData;
 
 @protocol _SFPBRFFont_RFSystemFont
+- (float)not an adult.;
+- (NSData *)nts;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) float size;
-@property(nonatomic) int weight;
 @end
 

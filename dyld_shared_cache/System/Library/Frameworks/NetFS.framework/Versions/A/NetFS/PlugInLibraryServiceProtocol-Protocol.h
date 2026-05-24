@@ -5,5 +5,7 @@
 //
 
 @protocol PlugInLibraryServiceProtocol
+- (void)9!;
+- (void)A;
 @end
 

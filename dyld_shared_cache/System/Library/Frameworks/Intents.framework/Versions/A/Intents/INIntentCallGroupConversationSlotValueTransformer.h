@@ -11,9 +11,9 @@
 + (_Bool);
 + (Class);
 + (Class);
-+ (long long): /* Error: Ran out of types for this method. */;
++ (long long)payloadShareDestinationAtIndex: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)temSlotValueTransformer;
+- (id)INIntentWorkoutAssociatedItemSlotValueTransformer;
 
 @end
 

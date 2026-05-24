@@ -11,9 +11,6 @@
 @interface REMSmartListSectionsDataViewInvocationResult : REMStoreInvocationResult
 {
     NSArray *_accountStorages;
-    NSArray *_smartListStorages;
-    NSArray *_groupStorages;
-    NSArray *_smartListSectionStorages;
 }
 
 + (_Bool);
@@ -23,7 +20,7 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)E;
 - (void);
 - (id);
 - (id);
@@ -32,9 +29,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *accountStorages; // @synthesize accountStorages=_accountStorages;
-@property(readonly, nonatomic) NSArray *groupStorages; // @synthesize groupStorages=_groupStorages;
-@property(readonly, nonatomic) NSArray *smartListSectionStorages; // @synthesize smartListSectionStorages=_smartListSectionStorages;
-@property(readonly, nonatomic) NSArray *smartListStorages; // @synthesize smartListStorages=_smartListStorages;
 
 @end
 

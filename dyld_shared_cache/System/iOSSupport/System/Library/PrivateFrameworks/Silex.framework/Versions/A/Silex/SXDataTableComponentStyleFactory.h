@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXDataRecordStore, SXDataTableSelectorValidator, SXDataTableStyle, SXJSONObjectMerger;
+@class SXDataRecordStore;
 
 @interface SXDataTableComponentStyleFactory
 {
     SXDataRecordStore *_recordStore;
-    SXDataTableStyle *_tableStyle;
-    unsigned long long _dataOrientation;
-    SXDataTableSelectorValidator *_selectorValidator;
-    SXJSONObjectMerger *_rowStyleMerger;
-    SXJSONObjectMerger *_columnStyleMerger;
-    SXJSONObjectMerger *_cellStyleMerger;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -40,25 +34,12 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void)ordinate2D=dd}{?=dd}}56@0:8{?={CLLocationCoordinate2D=dd}{?=dd}}16@48 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) SXJSONObjectMerger *cellStyleMerger; // @synthesize cellStyleMerger=_cellStyleMerger;
-@property(readonly, nonatomic) SXJSONObjectMerger *columnStyleMerger; // @synthesize columnStyleMerger=_columnStyleMerger;
-@property(readonly, nonatomic) unsigned long long dataOrientation; // @synthesize dataOrientation=_dataOrientation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) SXDataRecordStore *recordStore; // @synthesize recordStore=_recordStore;
-@property(readonly, nonatomic) SXJSONObjectMerger *rowStyleMerger; // @synthesize rowStyleMerger=_rowStyleMerger;
-@property(readonly, nonatomic) SXDataTableSelectorValidator *selectorValidator; // @synthesize selectorValidator=_selectorValidator;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) SXDataTableStyle *tableStyle; // @synthesize tableStyle=_tableStyle;
 
 @end
 

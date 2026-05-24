@@ -6,32 +6,25 @@
 
 #import <MediaPlayer/MPRemoteCommand.h>
 
-@class NSString;
-
 @interface MPFeedbackCommand : MPRemoteCommand
 {
     long long _presentationStyle;
-    _Bool _active;
-    NSString *_localizedTitle;
-    NSString *_localizedShortTitle;
 }
 
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)Mq;
 - (void);
 - (_Bool);
 - (void);
 - (long long);
-- (void)epLocalManagedStatusReason__MAPPING_MISSING__;
+- (void)__MPModelPropertySongKeepLocalManagedStatusReason__MAPPING_MISSING__;
 - (id)ranslator was missing mapping for MPModelPropertyPodcastEpisodeDatePlayed;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
-@property(copy, nonatomic) NSString *localizedShortTitle; // @synthesize localizedShortTitle=_localizedShortTitle;
-@property(copy, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
 
 @end
 

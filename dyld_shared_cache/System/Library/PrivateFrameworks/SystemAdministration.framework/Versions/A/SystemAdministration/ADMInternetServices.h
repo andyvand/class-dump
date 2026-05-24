@@ -27,7 +27,7 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (long long);
+- (long long)@;
 - (unsigned int);
 - (_Bool);
 - (_Bool);

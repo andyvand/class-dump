@@ -9,20 +9,18 @@
 @interface CDPLocalSecret
 {
     NSString *_validatedSecret;
-    unsigned long long _secretType;
 }
 
-+ (_Bool);
++ (_Bool)	?׈;
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (id);
+- (id)YpCbCrToRGBImageConverter:(struct _NSZone *)arg1:prepare /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long secretType; // @synthesize secretType=_secretType;
 @property(readonly, nonatomic) NSString *validatedSecret; // @synthesize validatedSecret=_validatedSecret;
 
 @end

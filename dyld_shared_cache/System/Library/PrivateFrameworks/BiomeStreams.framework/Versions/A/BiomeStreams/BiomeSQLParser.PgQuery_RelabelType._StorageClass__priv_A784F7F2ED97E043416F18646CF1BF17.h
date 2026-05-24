@@ -7,12 +7,6 @@
 @interface BiomeSQLParser.PgQuery_RelabelType._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _xpr;
-    id _arg;
-    id _resulttype;
-    id _resulttypmod;
-    id _resultcollid;
-    id _relabelformat;
-    id _location;
 }
 
 @end

@@ -4,20 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButtonCell, NSColor;
+@class NSAppearance, NSButtonCell;
 
 @protocol NSButtonVisualProvider
-- (CDStruct_507282ca);
+- (void)H;
+- (unsigned long long);
+- (void)?;
+- (NSAppearance *)or property 0x%llX;
+- (int)DisplayInactiveBrightnessClass;
+- (void)EW4ztayJXvOUg;
+- (void)";
+- (_Bool);
+- (void)T;
+- (void), std::equal_to<FINode *>, std::allocator<FINode *>>="__table_"{__hash_table<FINode *, std::hash<FINode *>, std::equal_to<FINode *>, std::allocator<FINode *>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<FINode *, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<FINode *, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<FINode *, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<FINode *, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) int blendModeForImageContent;
 @property __weak NSButtonCell *buttonCell;
-@property(readonly) _Bool hasBezelTint;
-@property(readonly) _Bool hasDestructiveAppearance;
-@property(readonly) _Bool hasInactiveAppearance;
-@property(readonly) _Bool hasRolloverAppearance;
-@property(readonly) _Bool hasSubviews;
-@property(readonly) long long interiorBackgroundStyle;
-@property(readonly) NSColor *preferredTemplateImageFillColor;
 @end
 

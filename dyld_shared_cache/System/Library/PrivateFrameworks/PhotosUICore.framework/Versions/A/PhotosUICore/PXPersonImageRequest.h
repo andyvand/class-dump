@@ -10,8 +10,6 @@
 @interface PXPersonImageRequest
 {
     id <PXPerson> _person;
-    NSTimer *_imageLoadInvalidationTimer;
-    unsigned long long _imageRequestTag;
 }
 
 - (void);
@@ -20,15 +18,13 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)ContentTriggerDampenerConfiguration;
 - (void);
 - (id)!¤y;
 - (void)Pùþ2¶ÄPùþ;
 
 // Remaining properties
 @property(retain, nonatomic) NSTimer *imageLoadInvalidationTimer; // @synthesize imageLoadInvalidationTimer=_imageLoadInvalidationTimer;
-@property(nonatomic) unsigned long long imageRequestTag; // @synthesize imageRequestTag=_imageRequestTag;
-@property(readonly, nonatomic) id <PXPerson> person; // @synthesize person=_person;
 
 @end
 

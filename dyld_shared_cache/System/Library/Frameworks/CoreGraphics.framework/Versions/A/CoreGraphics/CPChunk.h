@@ -10,10 +10,6 @@ __attribute__((visibility("hidden")))
 @interface CPChunk : CPObject
 {
     struct CGRect bounds;
-    _Bool shrinksWithChildren;
-    _Bool dirtyBounds;
-    unsigned int position;
-    long long insertionOrder;
 }
 
 + (float);
@@ -34,7 +30,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (long long);
 - (_Bool);
-- (void);
+- (void)$@�!);
 - (id);
 - (id);
 - (long long);
@@ -42,10 +38,10 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (long long);
 - (long long);
+- (long long)o;
 - (long long);
 - (long long);
-- (long long);
-- (long long);
+- (long long)9	;
 - (long long);
 - (long long);
 - (long long);
@@ -58,14 +54,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (float);
-- (id);
+- (id)G;
 - (long long);
 - (long long);
 - (void);
 - (long long);
 - (long long);
 - (struct CGSize);
-- (void);
+- (void)!E;
 - (void);
 - (id);
 - (double);
@@ -74,7 +70,7 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (double);
-- (void);
+- (void)`;
 - (void);
 - (id);
 - (float);

@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (PKAdditions)
-+ (id);
++ (id)R,W,N,V_person;
 - (struct CGImage *);
 @end
 

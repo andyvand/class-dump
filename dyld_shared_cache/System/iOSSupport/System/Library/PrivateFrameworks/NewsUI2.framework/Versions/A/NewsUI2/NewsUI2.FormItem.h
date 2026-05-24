@@ -7,11 +7,6 @@
 @interface NewsUI2.FormItem
 {
     id id;
-    id title;
-    id configuration;
-    id _isSelected;
-    id _selectedPickerFilter;
-    id _$observationRegistrar;
 }
 
 @end

@@ -4,37 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSObject;
-@protocol OS_dispatch_queue, RPMessageable;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface RPHIDTouchSession
 {
     NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSNumber *_touchSessionID;
-    unsigned int _flags;
-    id <RPMessageable> _messenger;
-    struct CGSize _screenSize;
 }
 
 - (void);
 - (void);
 - (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)NotEncoded;
 - (id);
 - (void);
 - (void);
 - (struct CGSize);
 - (unsigned int);
-- (void);
-- (void);
+- (void)aM;
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned int flags; // @synthesize flags=_flags;
-@property(retain, nonatomic) id <RPMessageable> messenger; // @synthesize messenger=_messenger;
-@property(nonatomic) struct CGSize screenSize; // @synthesize screenSize=_screenSize;
 
 @end
 

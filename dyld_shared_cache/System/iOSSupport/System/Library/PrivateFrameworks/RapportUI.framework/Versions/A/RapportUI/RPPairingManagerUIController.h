@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, UIViewController;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface RPPairingManagerUIController
 {
     _Bool _allowManualIP;
     _Bool _runInProcess;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    UIViewController *_presentingViewController;
-    NSString *_serviceType;
-    CDUnknownBlockType _invalidationHandler;
 }
 
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -38,10 +34,6 @@
 // Remaining properties
 @property(nonatomic) _Bool allowManualIP; // @synthesize allowManualIP=_allowManualIP;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(retain, nonatomic) UIViewController *presentingViewController; // @synthesize presentingViewController=_presentingViewController;
-@property(nonatomic) _Bool runInProcess; // @synthesize runInProcess=_runInProcess;
-@property(copy, nonatomic) NSString *serviceType; // @synthesize serviceType=_serviceType;
 
 @end
 

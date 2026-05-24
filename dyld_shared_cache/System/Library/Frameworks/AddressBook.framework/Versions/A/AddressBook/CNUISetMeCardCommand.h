@@ -11,11 +11,10 @@
 @interface CNUISetMeCardCommand : CNUIUndoableCommand
 {
     NSString *_updatedContactIdentifier;
-    NSString *_originalContactIdentifier;
 }
 
 - (id);
-- (void);
+- (void)C;
 - (void);
 - (id);
 - (id);
@@ -26,7 +25,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *originalContactIdentifier; // @synthesize originalContactIdentifier=_originalContactIdentifier;
 @property(retain, nonatomic) NSString *updatedContactIdentifier; // @synthesize updatedContactIdentifier=_updatedContactIdentifier;
 
 @end

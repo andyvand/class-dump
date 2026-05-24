@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFTimer, NSData, NSDictionary, NSObject, NSString, NSURL;
-@protocol HMDSimpleDownloader, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDVendorDataManager
 {
     struct os_unfair_lock_s _lock;
-    NSData *_entriesByProductDataMmap;
-    NSData *_collectionsByManufacturerMmap;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    id <HMDSimpleDownloader> _simpleDownloader;
-    HMFTimer *_fetchTimer;
-    long long _dataVersion;
 }
 
 + (id);
@@ -29,17 +23,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (id)rContact returning invalid for blocked handle %@;
+- (_Bool)MSPDefaultArrivingSoonIntervalKey;
+- (id);
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)R;
 - (_Bool);
 - (id);
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)Z;
 - (void);
 - (void);
 - (void);
@@ -50,25 +44,12 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (id);
 - (id);
-- (void)IfNotificationRegistrationMediaProperty;
-- (id)eLoginAuthenticationResponse;
+- (void)castIfNotificationRegistrationMediaProperty;
+- (id)HMDRemoteLoginAuthenticationResponse;
 - (void)ing naturalLightingEnabled because values are the same;
 - (void).attestationDataStore;
 
 // Remaining properties
-@property(retain) NSDictionary *collectionsByManufacturer;
-@property long long dataVersion; // @synthesize dataVersion=_dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) HMFTimer *fetchTimer; // @synthesize fetchTimer=_fetchTimer;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <HMDSimpleDownloader> simpleDownloader; // @synthesize simpleDownloader=_simpleDownloader;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSURL *urlForBundledInternalPlist;
-@property(readonly, nonatomic) NSURL *urlForBundledPlist;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

@@ -5,11 +5,15 @@
 //
 
 @protocol GeoServices.GEONavigationListener_ListenerToServerRequest_Interface
+- (void)removeObject:(_Bool)arg1;
+- (void)̊;
+- (void);
+- (void)playbackDeviceTypes;
 - (void)!tFù±·*1Â0@ù
 × ;
 - (void)c;
 - (void)r, time_zone_name, name, language_code, format, representative_latitude, representative_longitude    FROM region_view_v2    WHERE (type & @type) != 0 AND language_code = @language_code AND (lc_areas & @areas) != 0 AND (ri_areas & @areas) != 0 AND region_id IN (            SELECT child                FROM region_relationship_mapping                WHERE parent = @parent AND (areas & @areas) != 0    )    ORDER BY sort_order, name COLLATE region_collater, iso_code, time_zone_name;;
-- (void);
+- (void)forReason:estimatedSpeechEndHostTime:] /* Error: Ran out of types for this method. */;
 - (void)
 × ;
 - (void)ÅÆÄÇÈôÈHÉ;

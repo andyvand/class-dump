@@ -10,19 +10,16 @@ __attribute__((visibility("hidden")))
 @interface ITMediaEntity
 {
     ITMediaLibrary *_library;
-    NSNumber *_persistentID;
-    unsigned long long _persistentIDValue;
 }
 
 - (id);
 - (unsigned long long);
-- (id);
+- (id)itemFieldNotfound;
 - (id);
 - (void)deletedSections;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSNumber *persistentID; // @synthesize persistentID=_persistentID;
-@property(readonly, nonatomic) unsigned long long persistentIDValue; // @synthesize persistentIDValue=_persistentIDValue;
 
 @end
 

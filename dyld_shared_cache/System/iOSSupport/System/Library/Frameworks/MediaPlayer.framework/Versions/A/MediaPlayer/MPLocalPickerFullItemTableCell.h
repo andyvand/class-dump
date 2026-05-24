@@ -6,13 +6,12 @@
 
 #import <MediaPlayer/MPLocalPickerTableCell.h>
 
-@class UIImageView, UILabel;
+@class UIImageView;
 
 __attribute__((visibility("hidden")))
 @interface MPLocalPickerFullItemTableCell : MPLocalPickerTableCell
 {
     UIImageView *_artwork;
-    UILabel *_secondaryLabel;
 }
 
 + (id);
@@ -21,12 +20,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
-- (void)tIdentifier: /* Error: Ran out of types for this method. */;
+- (id)$;
+- (void)symbolNameForProductIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak UIImageView *artwork; // @synthesize artwork=_artwork;
-@property(nonatomic) __weak UILabel *secondaryLabel; // @synthesize secondaryLabel=_secondaryLabel;
 
 @end
 

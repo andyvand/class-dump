@@ -4,50 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSResponder, NSString;
-@protocol NSLocalTitlebarToolbarRenameSessionDelegate;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _NSLocalTitlebarToolbarRenameSession
 {
     CDUnknownBlockType _textFieldUpdateHandler;
-    id <NSLocalTitlebarToolbarRenameSessionDelegate> _delegate;
-    _Bool _success;
-    id _localEventMonitor;
-    id _globalEventMonitor;
-    id _windowResignKeyToken;
-    id _menuTrackingToken;
-    NSResponder *_previousResponder;
-    NSString *_sessionResult;
-    NSString *_originalTextFieldValue;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)5;
+- (void);
+- (void)@ in CT security info dictionary;
+- (id)ProvisioningUniqueDeviceID;
+- (void)small, should be at least %lu to contain %u entries
+;
+- (id)4O2JWo6Aos5J8y3K3Yzhyg;
 - (id);
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (void)liderSpecifier;
+- (void)PSSliderSpecifier;
 - (void)NSCellShouldAskActiveFieldEditorForLayoutOnObjectValueChanges;
 - (_Bool)(` Ó;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *originalTextFieldValue; // @synthesize originalTextFieldValue=_originalTextFieldValue;
-@property __weak NSResponder *previousResponder; // @synthesize previousResponder=_previousResponder;
 @property(copy) NSString *sessionResult; // @synthesize sessionResult=_sessionResult;
-@property(readonly) Class superclass;
 
 @end
 

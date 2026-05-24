@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface WBSLPLinkMetadataInfo
 {
     _Bool _lastFetchDidSucceed;
-    _Bool _metadataHasImage;
-    _Bool _lastFetchUsedWebView;
-    NSString *_urlString;
-    NSString *_uuidString;
-    NSDate *_lastFetchDate;
 }
 
 - (_Bool);
@@ -24,17 +19,12 @@
 - (id);
 - (id);
 - (id);
-- (id)fari_isHTTPFamilyURL;
+- (id)safari_isHTTPFamilyURL;
 - (void)@"NSString",R,C,N,V_updateDateDefaultsKey;
 - (id)w.google.cd/;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDate *lastFetchDate; // @synthesize lastFetchDate=_lastFetchDate;
-@property(readonly, nonatomic) _Bool lastFetchDidSucceed; // @synthesize lastFetchDidSucceed=_lastFetchDidSucceed;
-@property(readonly, nonatomic) _Bool lastFetchUsedWebView; // @synthesize lastFetchUsedWebView=_lastFetchUsedWebView;
-@property(readonly, nonatomic) _Bool metadataHasImage; // @synthesize metadataHasImage=_metadataHasImage;
 @property(readonly, copy, nonatomic) NSString *urlString; // @synthesize urlString=_urlString;
-@property(readonly, copy, nonatomic) NSString *uuidString; // @synthesize uuidString=_uuidString;
 
 @end
 

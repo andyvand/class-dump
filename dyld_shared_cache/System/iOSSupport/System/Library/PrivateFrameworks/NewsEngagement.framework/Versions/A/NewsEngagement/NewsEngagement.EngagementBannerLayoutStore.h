@@ -7,6 +7,7 @@
 @interface NewsEngagement.EngagementBannerLayoutStore
 {
     id layouts;
+    id;
 }
 
 @end

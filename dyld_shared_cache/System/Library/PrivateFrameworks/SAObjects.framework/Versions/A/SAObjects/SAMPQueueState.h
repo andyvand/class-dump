@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSDictionary, NSNumber, NSString, SAMPMediaItem, SAMPNowPlayingQueuePosition, SANPCommandInfo, SANPVideoAudioAndSubtitleLanguageOptions;
+@class NSString;
 
 @interface SAMPQueueState : AceObject
 {
@@ -17,25 +17,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *applicationIdentifier;
-@property(retain, nonatomic) SANPVideoAudioAndSubtitleLanguageOptions *audioAndSubtitleLanguageOptions;
-@property(nonatomic) _Bool currentItemSteerable;
-@property(copy, nonatomic) NSDictionary *currentListeningToContainer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SAMPMediaItem *listeningToItem;
-@property(retain, nonatomic) SAMPMediaItem *nextListeningToItem;
-@property(retain, nonatomic) SANPCommandInfo *nowPlayingCommandInfo;
-@property(retain, nonatomic) SAMPNowPlayingQueuePosition *playbackQueuePosition;
-@property(copy, nonatomic) NSNumber *playbackRate;
-@property(retain, nonatomic) SAMPMediaItem *previousListenedToItem;
-@property(copy, nonatomic) NSNumber *shuffleEnabled;
-@property(copy, nonatomic) NSString *source;
-@property(nonatomic) int state;
-@property(readonly) Class superclass;
 
 @end
 

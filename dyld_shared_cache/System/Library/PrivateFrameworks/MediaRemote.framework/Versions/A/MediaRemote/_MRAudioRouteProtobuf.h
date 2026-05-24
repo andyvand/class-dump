@@ -9,14 +9,6 @@
 @interface _MRAudioRouteProtobuf
 {
     NSString *_name;
-    int _type;
-    _Bool _spatializationEnabled;
-    _Bool _supportsSpatialization;
-    struct {
-        unsigned int type:1;
-        unsigned int spatializationEnabled:1;
-        unsigned int supportsSpatialization:1;
-    } _has;
 }
 
 - (_Bool);
@@ -33,29 +25,22 @@
 - (void);
 - (id);
 - (unsigned long long);
+- (_Bool)6@"NSTextView"24@"NSArray"32{_NSRange=QQ}40;
+- (int)ther;
 - (_Bool);
-- (int);
-- (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)ord setRawAudioGoodnessScore:(int)arg1 withBump:] /* Error: Ran out of types for this method. */;
 - (id);
 - (int);
 - (void);
 - (id);
-- (_Bool)etRegisteredKeyboardUpdates: /* Error: Ran out of types for this method. */;
-- (void)e:(_Bool)arg1;
+- (_Bool)setRegisteredKeyboardUpdates: /* Error: Ran out of types for this method. */;
+- (void)pairingSession:(_Bool)arg1 showSetupCode: /* Error: Ran out of types for this method. */;
 - (void)terval;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasName;
-@property(nonatomic) _Bool hasSpatializationEnabled;
-@property(nonatomic) _Bool hasSupportsSpatialization;
 @property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) _Bool spatializationEnabled; // @synthesize spatializationEnabled=_spatializationEnabled;
-@property(nonatomic) _Bool supportsSpatialization; // @synthesize supportsSpatialization=_supportsSpatialization;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

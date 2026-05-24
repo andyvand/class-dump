@@ -9,13 +9,13 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)ons Dictionary.dictionary;
 + (id);
 + (id);
 + (double);
-+ (_Bool);
++ (_Bool)%;
 + (id);
-+ (struct CGColor *);
++ (struct CGColor *)#&;
 + (struct CGColor *);
 + (struct __CFAttributedString *);
 + (_Bool);

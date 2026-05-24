@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _INPBLocalTime
 {
     struct {
@@ -14,10 +12,6 @@
         unsigned int minuteOfHour:1;
         unsigned int secondOfMinute:1;
     } _has;
-    long long _hourOfDay;
-    long long _millisOfSecond;
-    long long _minuteOfHour;
-    long long _secondOfMinute;
 }
 
 + (_Bool);
@@ -30,38 +24,24 @@
 - (long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (long long);
 - (long long);
 - (id);
-- (void);
+- (void)P;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)SS;
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void));
 - (id);
-- (long long);
-- (id);
+- (long long);
+- (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasHourOfDay;
-@property(nonatomic) _Bool hasMillisOfSecond;
-@property(nonatomic) _Bool hasMinuteOfHour;
-@property(nonatomic) _Bool hasSecondOfMinute;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) long long hourOfDay; // @synthesize hourOfDay=_hourOfDay;
-@property(nonatomic) long long millisOfSecond; // @synthesize millisOfSecond=_millisOfSecond;
-@property(nonatomic) long long minuteOfHour; // @synthesize minuteOfHour=_minuteOfHour;
-@property(nonatomic) long long secondOfMinute; // @synthesize secondOfMinute=_secondOfMinute;
-@property(readonly) Class superclass;
 
 @end
 

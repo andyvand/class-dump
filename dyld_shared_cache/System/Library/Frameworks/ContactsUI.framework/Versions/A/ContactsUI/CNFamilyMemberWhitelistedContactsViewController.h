@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactFormatter, CNContactStore, FAFamilyMember, NSArray, NSScrollView, NSSegmentedControl, NSString, NSTableView, NSViewController;
-@protocol CNFamilyMemberWhitelistedContactsViewControllerDelegate, CNSchedulerProvider, CNUICoreContactManagementConsentCheck, CNUICoreFamilyMemberWhitelistedContactsDataSource;
+@protocol CNFamilyMemberWhitelistedContactsViewControllerDelegate;
 
 @interface CNFamilyMemberWhitelistedContactsViewController
 {
     _Bool _downtimeRestictionsEnabled;
-    FAFamilyMember *_familyMember;
-    id <CNFamilyMemberWhitelistedContactsViewControllerDelegate> _delegate;
-    id <CNUICoreFamilyMemberWhitelistedContactsDataSource> _dataSource;
-    id <CNUICoreContactManagementConsentCheck> _contactManagentConsentCheck;
-    id <CNSchedulerProvider> _schedulerProvider;
-    CNContactStore *_familyMemberScopedContactStore;
-    CNContactStore *_mainContactStore;
-    CNContactFormatter *_contactCardWarningFormatter;
-    NSTableView *_tableView;
-    NSScrollView *_scrollView;
-    NSSegmentedControl *_segmentedControl;
-    NSViewController *_presentedContactPicker;
-    NSArray *_previouslyFetchedFamilyMemberContactItems;
 }
 
 + (id);
@@ -32,16 +18,16 @@
 - (void);
 - (void);
 - (void);
+- (void)c;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)q"	;
 - (void);
 - (void);
 - (unsigned long long);
@@ -49,32 +35,32 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (id);
+- (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (long long);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
+- (void)T	@9?q;
 - (id);
 - (double);
 - (id);
 - (long long);
 - (void);
-- (id);
+- (id):(id)arg1 E֔`;
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)X;
+- (id)dictionaryWithObjects:forKeys:count: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -83,29 +69,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) CNContactFormatter *contactCardWarningFormatter; // @synthesize contactCardWarningFormatter=_contactCardWarningFormatter;
-@property(readonly, nonatomic) id <CNUICoreContactManagementConsentCheck> contactManagentConsentCheck; // @synthesize contactManagentConsentCheck=_contactManagentConsentCheck;
-@property(readonly, nonatomic) unsigned long long countOfWhitelistedContacts;
-@property(readonly, nonatomic) id <CNUICoreFamilyMemberWhitelistedContactsDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, nonatomic) __weak id <CNFamilyMemberWhitelistedContactsViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool downtimeRestictionsEnabled; // @synthesize downtimeRestictionsEnabled=_downtimeRestictionsEnabled;
-@property(readonly, nonatomic) FAFamilyMember *familyMember; // @synthesize familyMember=_familyMember;
-@property(readonly, nonatomic) CNContactStore *familyMemberScopedContactStore; // @synthesize familyMemberScopedContactStore=_familyMemberScopedContactStore;
-@property(readonly, nonatomic) long long fetchStatus;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CNContactStore *mainContactStore; // @synthesize mainContactStore=_mainContactStore;
-@property(nonatomic) __weak NSViewController *presentedContactPicker; // @synthesize presentedContactPicker=_presentedContactPicker;
-@property(retain, nonatomic) NSArray *previouslyFetchedFamilyMemberContactItems; // @synthesize previouslyFetchedFamilyMemberContactItems=_previouslyFetchedFamilyMemberContactItems;
-@property(readonly, nonatomic) id <CNSchedulerProvider> schedulerProvider; // @synthesize schedulerProvider=_schedulerProvider;
-@property(readonly, nonatomic) NSScrollView *scrollView; // @synthesize scrollView=_scrollView;
-@property(readonly, nonatomic) NSSegmentedControl *segmentedControl; // @synthesize segmentedControl=_segmentedControl;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSTableView *tableView; // @synthesize tableView=_tableView;
 
 @end
 

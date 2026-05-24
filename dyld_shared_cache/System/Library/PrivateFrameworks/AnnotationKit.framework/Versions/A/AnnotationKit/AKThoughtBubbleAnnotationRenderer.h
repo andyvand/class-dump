@@ -24,7 +24,7 @@
 + (void);
 + (struct CGRect);
 + (void);
-+ (struct CGRect);
++ (struct CGRect)0;
 + (_Bool);
 + (_Bool);
 + (struct CGRect);

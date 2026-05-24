@@ -7,8 +7,6 @@
 @interface CWANQPProtoPortTuple
 {
     long long _ipProtocol;
-    long long _portNumber;
-    long long _status;
 }
 
 + (id);
@@ -16,19 +14,17 @@
 - (void);
 - (id);
 - (id);
+- (id);
+- (void);
+- (long long);
+- (void);
 - (id);
-- (void);
-- (long long);
-- (void);
-- (id);
-- (long long);
-- (void);
+- (long long)'[';
+- (void)y;
 - (long long)"Á;
 
 // Remaining properties
 @property(nonatomic) long long ipProtocol; // @synthesize ipProtocol=_ipProtocol;
-@property(nonatomic) long long portNumber; // @synthesize portNumber=_portNumber;
-@property(nonatomic) long long status; // @synthesize status=_status;
 
 @end
 

@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface NUVideoCorruptionInfo
 {
     unsigned long long _type;
-    NSArray *_corruptedRanges;
-    NSString *_trackMediaCharateristic;
 }
 
 - (id);
+- (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)_controlFlags;
 - (id);
-- (void);
+- (void)QLColumnSchema",R,N,V_sourceColumn;
 - (id);
 - (void)ñáÐ1Â0@ù
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *corruptedRanges; // @synthesize corruptedRanges=_corruptedRanges;
-@property(copy, nonatomic) NSString *trackMediaCharateristic; // @synthesize trackMediaCharateristic=_trackMediaCharateristic;
 @property unsigned long long type; // @synthesize type=_type;
 
 @end

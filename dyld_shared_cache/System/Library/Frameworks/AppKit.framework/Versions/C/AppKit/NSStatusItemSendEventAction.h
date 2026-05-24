@@ -8,36 +8,26 @@ __attribute__((visibility("hidden")))
 @interface NSStatusItemSendEventAction
 {
     unsigned long long _type;
-    unsigned long long _modifierFlags;
-    double _timestamp;
-    long long _eventNumber;
-    long long _clickCount;
-    struct CGPoint _location;
 }
 
-+ (id);
++ (id)T *) [T = CFURLDownloadClient];
 - (long long);
 - (id);
-- (void);
-- (void);
+- (void)@;
+- (void)Ч;
 - (unsigned long long);
 - (void);
-- (void);
+- (void)i;
 - (double);
-- (id);
-- (unsigned long long);
-- (void);
-- (void)ersSolidColorHardPocket:(unsigned long long)arg1;
+- (id)@;
+- (unsigned long long)_tableColumnStyleStrings;
+- (void)cancelDragOfItem:(double)arg1 isRemoval: /* Error: Ran out of types for this method. */;
+- (void)setPrefersSolidColorHardPocket:(unsigned long long)arg1;
 - (long long)ä;
-- (struct CGPoint)nder;
+- (struct CGPoint)TextFinder;
 - (void)À0bÿ;
 
 // Remaining properties
-@property long long clickCount; // @synthesize clickCount=_clickCount;
-@property long long eventNumber; // @synthesize eventNumber=_eventNumber;
-@property struct CGPoint location; // @synthesize location=_location;
-@property unsigned long long modifierFlags; // @synthesize modifierFlags=_modifierFlags;
-@property double timestamp; // @synthesize timestamp=_timestamp;
 @property unsigned long long type; // @synthesize type=_type;
 
 @end

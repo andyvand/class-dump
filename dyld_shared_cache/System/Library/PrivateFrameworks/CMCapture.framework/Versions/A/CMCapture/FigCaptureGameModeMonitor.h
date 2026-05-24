@@ -8,13 +8,12 @@ __attribute__((visibility("hidden")))
 @interface FigCaptureGameModeMonitor
 {
     int _gameModeNotifyToken;
-    CDUnknownBlockType _gameModeStateChangeHandler;
 }
 
 + (void)ple.avfoundation.avcapturedevice.private.built-in_metadata:3 /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
-- (void);
+- (void)listWithListId: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, getter=isGameModeEnabled) _Bool gameModeEnabled;

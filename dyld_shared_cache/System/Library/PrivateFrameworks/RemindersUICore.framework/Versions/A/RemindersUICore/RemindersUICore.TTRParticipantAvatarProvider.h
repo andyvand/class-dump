@@ -7,10 +7,6 @@
 @interface RemindersUICore.TTRParticipantAvatarProvider
 {
     id contactsProvider;
-    id contactStoreCreator;
-    id $__lazy_storage_$_contactStore;
-    id queue;
-    id $__lazy_storage_$_avatarImageRenderer;
 }
 
 @end

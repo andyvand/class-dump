@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface GRPSchemaGroupedMessagesServerEvent : SISchemaTopLevelUnionType
 {
     NSArray *_anyEvents;
-    NSArray *_orderedAnyEvents;
 }
 
 - (void);
@@ -29,15 +28,15 @@
 - (void);
 - (void);
 - (id);
-- (int);
+- (int)tionary",&,V_vehicleInfoSupportedTypes;
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)tonePickerController:didInsertPickerRowItems: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)isAutoMeCapable;
 - (id)?="prevOptInState"b1"newOptInState"b1"source"b1"epochEventTimestampInSeconds"b1};
-- (id);
+- (id)hasUnknownLocale;
 - (id)ndices;
 - (id)àgDihj;
 - (void)[
@@ -45,8 +44,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *anyEvents; // @synthesize anyEvents=_anyEvents;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *orderedAnyEvents; // @synthesize orderedAnyEvents=_orderedAnyEvents;
 
 @end
 

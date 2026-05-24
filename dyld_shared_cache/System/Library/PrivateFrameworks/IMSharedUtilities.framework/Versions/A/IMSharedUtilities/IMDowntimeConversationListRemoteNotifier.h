@@ -12,7 +12,7 @@
 + (id);
 - (void);
 - (void);
-- (id);
+- (id)vision.suspended-lost-mode;
 - (void)p;
 
 @end

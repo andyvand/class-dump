@@ -13,14 +13,14 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_lifetimeHelper;
 }
 
-- (id);
+- (id)hatGUIDs;
 - (void);
 - (void);
 - (id);
 - (void)
 × ;
-- (id)astDeletionCountForFastDelete:(id)arg1;
-- (id)tWithDisplayConfiguration:displayEdgeInfo:exclusionArea: /* Error: Ran out of types for this method. */;
+- (id)setLastDeletionCountForFastDelete:(id)arg1;
+- (id)initWithDisplayConfiguration:displayEdgeInfo:exclusionArea: /* Error: Ran out of types for this method. */;
 - (void)_UIScrollPocketElement;
 
 @end

@@ -15,14 +15,13 @@
 - (void);
 - (long long);
 - (void);
-- (long long);
+- (long long)previousTrackCommand;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property long long maxConcurrentRunNodeCount;
-@property long long qualityOfService;
 
 @end
 

@@ -10,7 +10,7 @@
 {
 }
 
-+ (Class);
++ (Class)/AttributeGraph.framework/Versions/A/AttributeGraph;
 + (id);
 + (void);
 - (id);

@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCountedSet, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface CoreMLModelSecurityServiceToClient
 {
     NSMutableDictionary *_featureProviderMap;
-    NSCountedSet *_featureProviderCount;
-    NSObject<OS_dispatch_queue> *_serviceToClientQueue;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -26,9 +23,7 @@
 - (void)tecture file '%@' with error code:%d. /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSCountedSet *featureProviderCount; // @synthesize featureProviderCount=_featureProviderCount;
 @property(retain, nonatomic) NSMutableDictionary *featureProviderMap; // @synthesize featureProviderMap=_featureProviderMap;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *serviceToClientQueue; // @synthesize serviceToClientQueue=_serviceToClientQueue;
 
 @end
 

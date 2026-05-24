@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKShareParticipant, NSColor, NSString;
+@class CKShareParticipant;
 
 @interface _NSCloudSharingParticipantDetails
 {
     CKShareParticipant *_participant;
-    NSString *_detailText;
-    NSColor *_participantColor;
 }
 
 + (_Bool);
-- (void);
+- (void)voip;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)A;
 - (void);
 - (void)WindowOrderingSuppression) _copyCGWindowOrderingReplayer];
 
 // Remaining properties
-@property(readonly, copy) NSString *detailText; // @synthesize detailText=_detailText;
 @property(readonly) CKShareParticipant *participant; // @synthesize participant=_participant;
-@property(copy) NSColor *participantColor; // @synthesize participantColor=_participantColor;
 
 @end
 

@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (StocksEasyPrinting)
-- (id);
+- (id)0;
 @end
 

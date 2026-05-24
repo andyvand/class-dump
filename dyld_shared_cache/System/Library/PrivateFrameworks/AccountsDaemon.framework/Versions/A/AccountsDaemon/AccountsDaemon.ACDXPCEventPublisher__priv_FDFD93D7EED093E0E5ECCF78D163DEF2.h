@@ -7,14 +7,6 @@
 @interface AccountsDaemon.ACDXPCEventPublisher__priv_FDFD93D7EED093E0E5ECCF78D163DEF2
 {
     id $defaultActor;
-    id publisher;
-    id queue;
-    id registered;
-    id firer;
-    id pendingSubscribers;
-    id _subscribers;
-    id initialBarrierRecieved;
-    id initialBarrierQueue;
 }
 
 @end

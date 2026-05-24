@@ -6,18 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MHSchemaMHAudioDucked : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
+- (void)SETUP;
 - (id);
 - (void);
-- (void);
+- (void)extensions;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -25,15 +22,13 @@
 - (id)!CùqßÐ1Â0@ù
 × ;
 - (id)yncDataDonationFailed;
-- (id)me;
-- (_Bool)AMETERSUBTYPE_REFERENCE_UNKNOWN;
+- (id)_adaptiveVolume;
+- (_Bool)JRPARAMETERSUBTYPE_REFERENCE_UNKNOWN;
 - (_Bool)$;
 - (void)]±Ñ(;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface PassKitCore.ProvisioningStepHomeKey
 {
     id context;
-    id credential;
-    id sharedState;
 }
 
 @end

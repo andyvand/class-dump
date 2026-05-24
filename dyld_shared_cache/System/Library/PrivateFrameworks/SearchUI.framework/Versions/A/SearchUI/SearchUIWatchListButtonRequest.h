@@ -9,11 +9,9 @@
 @interface SearchUIWatchListButtonRequest
 {
     _Bool _isHorizontallySrollingStyle;
-    int _type;
-    NSString *_identifier;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
 - (unsigned long long);
 - (int);
@@ -25,8 +23,6 @@
 
 // Remaining properties
 @property(retain) NSString *identifier; // @synthesize identifier=_identifier;
-@property _Bool isHorizontallySrollingStyle; // @synthesize isHorizontallySrollingStyle=_isHorizontallySrollingStyle;
-@property int type; // @synthesize type=_type;
 
 @end
 

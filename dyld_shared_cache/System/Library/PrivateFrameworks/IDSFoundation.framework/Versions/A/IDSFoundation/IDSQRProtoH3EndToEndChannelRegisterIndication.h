@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSQRProtoH3EndToEndChannelRegisterE2EChannelInfo, NSData;
+@class NSData;
 
 @interface IDSQRProtoH3EndToEndChannelRegisterIndication
 {
     unsigned long long _txnId;
-    IDSQRProtoH3EndToEndChannelRegisterE2EChannelInfo *_channelInfo;
-    NSData *_e2eChannelUuid;
-    NSData *_virtualQuicClientConnectionId;
 }
 
-- (id);
+- (id)Ш戹;
 - (unsigned long long);
 - (void);
 - (void);
@@ -27,17 +24,14 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)withL2CAPChannelRef:(id)arg1;
+- (void)SFRemoteInteractionSession remoteInteractionSessionTextSessionDidBegin:(id)arg1 ];
 - (id);
 - (id);
 - (void)WithUniqueName:) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) IDSQRProtoH3EndToEndChannelRegisterE2EChannelInfo *channelInfo; // @synthesize channelInfo=_channelInfo;
 @property(retain, nonatomic) NSData *e2eChannelUuid; // @synthesize e2eChannelUuid=_e2eChannelUuid;
-@property(nonatomic) unsigned long long txnId; // @synthesize txnId=_txnId;
-@property(retain, nonatomic) NSData *virtualQuicClientConnectionId; // @synthesize virtualQuicClientConnectionId=_virtualQuicClientConnectionId;
 
 @end
 

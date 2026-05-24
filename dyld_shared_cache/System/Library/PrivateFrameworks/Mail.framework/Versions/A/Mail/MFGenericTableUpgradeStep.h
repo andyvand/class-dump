@@ -9,12 +9,11 @@
 @interface MFGenericTableUpgradeStep : MFLibraryUpgradeStep
 {
     unsigned long long _targetVersion;
-    Class _upgradeStepClass;
 }
 
 + (_Bool);
 + (unsigned long long);
-- (Class);
+- (Class)!;
 - (void);
 - (id);
 - (unsigned long long);

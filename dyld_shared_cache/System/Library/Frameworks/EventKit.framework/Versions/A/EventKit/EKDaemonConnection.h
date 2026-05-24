@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADDatabaseInitializationOptions, NSMutableDictionary, NSObject, NSString;
-@protocol CADInterface, CADXPCConnection, EKDaemonConnectionDelegate, EKXPCConnectionFactory, OS_dispatch_queue;
+@protocol EKXPCConnectionFactory;
 
 @interface EKDaemonConnection
 {
     id <EKXPCConnectionFactory> _connectionFactory;
-    id <CADXPCConnection> _xpcConnection;
-    NSObject<OS_dispatch_queue> *_connectionLock;
-    id <CADInterface> _remoteOperationProxy;
-    id <CADInterface> _syncRemoteOperationProxy;
-    NSObject<OS_dispatch_queue> *_replyHandlerLock;
-    NSMutableDictionary *_cancellableOperations;
-    unsigned int _nextCancellationToken;
-    _Bool _registeredForStartNote;
-    _Bool _wasAbortedDueToExcessiveConnections;
-    struct os_unfair_lock_s _internalStateLock;
-    _Bool _accessDetermined;
-    long long _eventAuthorization;
-    long long _remindersAuthorization;
-    int _databaseRestoreGeneration;
-    _Bool _databaseRestoreGenerationHasEverChangedSignificantly;
-    _Bool _hasEverConnected;
-    id <EKDaemonConnectionDelegate> _delegate;
-    CADDatabaseInitializationOptions *_initializationOptions;
 }
 
 + (void);
@@ -36,12 +17,12 @@
 + (id);
 + (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (int);
+- (int)J1k/8k;
 - (void);
 - (void);
 - (void);
@@ -49,7 +30,7 @@
 - (id);
 - (int);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -58,8 +39,8 @@
 - (unsigned int);
 - (void);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)acceptsFirstResponder;
 - (void);
 - (void);
 - (id);
@@ -70,27 +51,10 @@
 - (long long)Ô#Ð!ìDùÑ2'ð1Â0@ù
 × ;
 - (void)initWithBase64EncodedString:(id)arg1 options: /* Error: Ran out of types for this method. */;
-- (void)ngesSinceTimestamp:withReply: /* Error: Ran out of types for this method. */;
+- (void)CADDatabaseCommitDeletes:updatesAndInserts:options:andFetchChangesSinceTimestamp:withReply: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) id <CADInterface> CADOperationProxy;
-@property(readonly, retain, nonatomic) id <CADInterface> CADOperationProxySync;
-@property(readonly, nonatomic) int databaseRestoreGeneration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <EKDaemonConnectionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) int eventAccessLevel;
-@property(readonly, nonatomic) long long eventAuthorization;
-@property(readonly, nonatomic) _Bool hasAccessToReminders;
 @property(nonatomic) _Bool hasEverConnected; // @synthesize hasEverConnected=_hasEverConnected;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CADDatabaseInitializationOptions *initializationOptions; // @synthesize initializationOptions=_initializationOptions;
-@property(readonly, nonatomic) long long remindersAuthorization;
-@property(readonly, nonatomic) _Bool shouldValidateObjectIDs;
-@property(readonly) Class superclass;
 
 @end
 

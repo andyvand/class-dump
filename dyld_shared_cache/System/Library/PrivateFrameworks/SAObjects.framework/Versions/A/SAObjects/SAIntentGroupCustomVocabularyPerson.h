@@ -12,34 +12,23 @@
 {
 }
 
++ (id);
 + (id);
-+ (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
+- (id)h;
 - (void);
 - (id);
-- (id)NSITY;
+- (void);
+- (id);
+- (id)SULPHUR_DIOXIDE_DENSITY;
 - (id)H-üÿæÁJ°;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSString *firstName;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *lastName;
-@property(copy, nonatomic) NSString *middleName;
-@property(copy, nonatomic) NSString *nickname;
-@property(copy, nonatomic) NSString *relationship;
-@property(readonly) Class superclass;
 
 @end
 

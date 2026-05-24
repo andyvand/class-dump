@@ -11,12 +11,12 @@
     _EDDisplayNameGroupingTrieNode *_root;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id)bleMessageID: /* Error: Ran out of types for this method. */;
+- (id)UsoEntityBuilder_common_FavoriteInstance;
+- (id)setSearchableMessageID: /* Error: Ran out of types for this method. */;
 - (id)4q8u;
 - (void)(:account, 0, 0, 0, 0, :started_at, NULL),
        (:account, 1, 0, 0, 0, :started_at, NULL),

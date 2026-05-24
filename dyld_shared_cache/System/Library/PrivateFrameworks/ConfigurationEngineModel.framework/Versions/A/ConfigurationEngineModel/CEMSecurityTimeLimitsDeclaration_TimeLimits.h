@@ -11,9 +11,6 @@
 @interface CEMSecurityTimeLimitsDeclaration_TimeLimits : CEMPayloadBase
 {
     CEMSecurityTimeLimitsDeclaration_Allowance *_payloadWeekdayAllowance;
-    CEMSecurityTimeLimitsDeclaration_Allowance *_payloadWeekdayCurfew;
-    CEMSecurityTimeLimitsDeclaration_Allowance *_payloadWeekendAllowance;
-    CEMSecurityTimeLimitsDeclaration_Allowance *_payloadWeekendCurfew;
 }
 
 + (id);
@@ -27,16 +24,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
+- (id);
+- (_Bool)set download;
+- (id)So21RPCompanionLinkDeviceC;
+- (void)0;
 
 // Remaining properties
 @property(copy, nonatomic) CEMSecurityTimeLimitsDeclaration_Allowance *payloadWeekdayAllowance; // @synthesize payloadWeekdayAllowance=_payloadWeekdayAllowance;
-@property(copy, nonatomic) CEMSecurityTimeLimitsDeclaration_Allowance *payloadWeekdayCurfew; // @synthesize payloadWeekdayCurfew=_payloadWeekdayCurfew;
-@property(copy, nonatomic) CEMSecurityTimeLimitsDeclaration_Allowance *payloadWeekendAllowance; // @synthesize payloadWeekendAllowance=_payloadWeekendAllowance;
-@property(copy, nonatomic) CEMSecurityTimeLimitsDeclaration_Allowance *payloadWeekendCurfew; // @synthesize payloadWeekendCurfew=_payloadWeekendCurfew;
 
 @end
 

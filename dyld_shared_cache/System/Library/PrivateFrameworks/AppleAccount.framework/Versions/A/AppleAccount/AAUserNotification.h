@@ -8,12 +8,13 @@
 {
 }
 
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (id);
++ (void)ugIns/ConfigurationProfilesUI.bundle/Contents/Resources/ProfilesPrefPane.icns;
++ (void)uired.
+;
++ (void)%d; port = %d;
++ (void)tate mcxUsr_setpasscodeupdatestate result = %d;
++ (void)entifier:(struct __CFUserNotification *)arg1 %@;
++ (id)T supported;
 
 @end
 

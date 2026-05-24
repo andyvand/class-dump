@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSMutableOrderedDictionary;
 @protocol CPXKeyEventSequenceTrackerProvider;
 
 __attribute__((visibility("hidden")))
 @interface CPXKeyEventSequenceTracker
 {
     id <CPXKeyEventSequenceTrackerProvider> _provider;
-    BSMutableOrderedDictionary *_keyDownTracker;
 }
 
-- (_Bool);
-- (id);
+- (_Bool)MMIT;
+- (id)LING;
 - (id);
 - (id);
 - (unsigned long long);

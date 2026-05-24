@@ -15,7 +15,7 @@
 + (_Bool);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)_brightnessIncrement;
 - (id);
 - (void)'Ð1Â0@ù
 × ;

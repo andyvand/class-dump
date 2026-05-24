@@ -6,15 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMPayloadBase.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CEMSecuritySingleSignOnDeclaration_Kerberos : CEMPayloadBase
 {
     NSString *_payloadPrincipalName;
-    NSString *_payloadPayloadCertificateUUID;
-    NSString *_payloadRealm;
-    NSArray *_payloadURLPrefixMatches;
-    NSArray *_payloadAppIdentifierMatches;
 }
 
 + (id);
@@ -25,22 +21,18 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)not set AUDSPGraph parameter [%@] with error:(id)arg1 %@;
 - (id);
-- (void);
+- (void)tainable;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *payloadAppIdentifierMatches; // @synthesize payloadAppIdentifierMatches=_payloadAppIdentifierMatches;
-@property(copy, nonatomic) NSString *payloadPayloadCertificateUUID; // @synthesize payloadPayloadCertificateUUID=_payloadPayloadCertificateUUID;
 @property(copy, nonatomic) NSString *payloadPrincipalName; // @synthesize payloadPrincipalName=_payloadPrincipalName;
-@property(copy, nonatomic) NSString *payloadRealm; // @synthesize payloadRealm=_payloadRealm;
-@property(copy, nonatomic) NSArray *payloadURLPrefixMatches; // @synthesize payloadURLPrefixMatches=_payloadURLPrefixMatches;
 
 @end
 

@@ -4,30 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DEDExtensionIdentifier, NSDate, NSDictionary, NSString;
+@class NSString;
 
 @interface DEDDeferredExtensionInfo
 {
     _Bool _requiresClassBDataAccess;
-    _Bool _scheduled;
-    NSString *_activityString;
-    NSString *_bugSessionIdentifier;
-    DEDExtensionIdentifier *_dedIdentifier;
-    NSDate *_triggerDate;
-    double _gracePeriod;
-    NSDictionary *_parameters;
 }
 
-+ (double);
++ (double)_count;
++ (id)1;
 + (id);
 + (id);
-+ (id);
-+ (_Bool);
++ (_Bool)N3ctu8LoggableIN3qmi6Client5StateENS_10LoggerBaseINSt3__110shared_ptrINS_9LogServerEEEEEEE;
 + (id);
 + (void):8f16@?<v@?@"NSData">20 /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -36,37 +29,23 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)CLP.LogEntry.PrivateData.TunnelEndPointAssistance;
 - (void);
-- (void);
+- (void)16RavenSystemEventEEEvvEUlPNS2_16ActiveObjectBaseERKNS2_12GenericEventEE_FvSA_SD_EEE;
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)R,N,V_cloudIdentifier;
 - (_Bool);
 - (double);
 - (void);
 - (id);
-- (void);
+- (void)__TEXT;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *activityString; // @synthesize activityString=_activityString;
 @property(readonly) NSString *bugSessionIdentifier; // @synthesize bugSessionIdentifier=_bugSessionIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) DEDExtensionIdentifier *dedIdentifier; // @synthesize dedIdentifier=_dedIdentifier;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double gracePeriod; // @synthesize gracePeriod=_gracePeriod;
-@property(readonly) unsigned long long hash;
-@property(retain) NSDictionary *parameters; // @synthesize parameters=_parameters;
-@property(nonatomic) _Bool requiresClassBDataAccess; // @synthesize requiresClassBDataAccess=_requiresClassBDataAccess;
-@property _Bool scheduled; // @synthesize scheduled=_scheduled;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSDate *triggerDate; // @synthesize triggerDate=_triggerDate;
 
 @end
 

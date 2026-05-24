@@ -18,7 +18,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)k3rdPartyApp;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface NewsFeed.FeedHeadlineClusteringService
 {
     id clusteringService;
-    id headlineService;
-    id feedPersonalizer;
 }
 
 @end

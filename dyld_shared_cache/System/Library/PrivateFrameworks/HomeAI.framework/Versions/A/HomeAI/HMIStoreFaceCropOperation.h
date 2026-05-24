@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMIFaceCrop;
 @protocol HMIHomePersonManagerDataSource;
 
 __attribute__((visibility("hidden")))
 @interface HMIStoreFaceCropOperation
 {
     id <HMIHomePersonManagerDataSource> _dataSource;
-    HMIFaceCrop *_faceCrop;
 }
 
 + (id)ÿ;
@@ -19,11 +17,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)P;
 
 // Remaining properties
 @property(readonly) id <HMIHomePersonManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly) HMIFaceCrop *faceCrop; // @synthesize faceCrop=_faceCrop;
 
 @end
 

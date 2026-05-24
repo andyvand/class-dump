@@ -7,22 +7,18 @@
 @interface QCContact
 {
     struct _QCContactInfo _info;
-    unsigned long long _index;
 }
 
 + (id);
 - (id);
 - (id);
-- (int);
+- (int)?;
 - (unsigned long long);
 - (double);
 - (double)ple.xbs/TemporaryDirectory.A4b0Lc/Sources/QuartzComposer/MeshKit/sources/Core3DRuntime/Core/C3DEffect.c;
 
 // Remaining properties
-@property(readonly) unsigned long long index; // @synthesize index=_index;
-@property(readonly) int state;
 @property(readonly) double x;
-@property(readonly) double y;
 
 @end
 

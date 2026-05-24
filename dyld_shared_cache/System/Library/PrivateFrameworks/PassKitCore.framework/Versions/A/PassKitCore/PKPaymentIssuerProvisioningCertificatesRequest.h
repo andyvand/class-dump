@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (void)Image;
+- (void)labelImage;
 
 @end
 

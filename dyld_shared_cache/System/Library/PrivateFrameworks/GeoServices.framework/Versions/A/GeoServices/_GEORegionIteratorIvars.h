@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORegionInfo, NSError, NSObject;
-@protocol OS_dispatch_group, OS_dispatch_semaphore;
+@class NSObject;
+@protocol OS_dispatch_group;
 
 __attribute__((visibility("hidden")))
 @interface _GEORegionIteratorIvars
 {
     NSObject<OS_dispatch_group> *_readGroup;
-    NSObject<OS_dispatch_semaphore> *_writeSemaphore;
-    GEORegionInfo *_next;
-    _Bool _stop;
-    _Bool _complete;
-    NSError *_error;
 }
 
 - (void)ýÿÿÿÿÿÿÿ;

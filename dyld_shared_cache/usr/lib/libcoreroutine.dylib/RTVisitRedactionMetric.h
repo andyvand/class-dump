@@ -9,14 +9,6 @@
 @interface RTVisitRedactionMetric
 {
     NSArray *_countBins;
-    NSArray *_proportionBins;
-    unsigned long long _visitsConsideredCount;
-    unsigned long long _redactedForAuthorizedLocation;
-    unsigned long long _redactedForConfidence;
-    unsigned long long _redactedForCategory;
-    unsigned long long _redactedForPlaceType;
-    unsigned long long _redactedForRegion;
-    double _redactionProportion;
 }
 
 - (unsigned long long);
@@ -38,12 +30,6 @@
 - (void)ionManagerStateStaleToHandoff, %{Bool}d, feature %d;
 
 // Remaining properties
-@property(nonatomic) unsigned long long redactedForAuthorizedLocation; // @synthesize redactedForAuthorizedLocation=_redactedForAuthorizedLocation;
-@property(nonatomic) unsigned long long redactedForCategory; // @synthesize redactedForCategory=_redactedForCategory;
-@property(nonatomic) unsigned long long redactedForConfidence; // @synthesize redactedForConfidence=_redactedForConfidence;
-@property(nonatomic) unsigned long long redactedForPlaceType; // @synthesize redactedForPlaceType=_redactedForPlaceType;
-@property(nonatomic) unsigned long long redactedForRegion; // @synthesize redactedForRegion=_redactedForRegion;
-@property(nonatomic) double redactionProportion; // @synthesize redactionProportion=_redactionProportion;
 @property(nonatomic) unsigned long long visitsConsideredCount; // @synthesize visitsConsideredCount=_visitsConsideredCount;
 
 @end

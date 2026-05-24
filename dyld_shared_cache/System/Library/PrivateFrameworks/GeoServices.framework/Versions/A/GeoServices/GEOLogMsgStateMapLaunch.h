@@ -4,36 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOLogMsgStateMapLaunch
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_launchUri;
-    NSString *_referringWebsite;
-    NSString *_sourceAppId;
-    NSString *_sourceHandoffDevice;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _launchActionInternal;
-    int _launchAction;
-    _Bool _isHandoff;
-    struct {
-        unsigned int has_launchActionInternal:1;
-        unsigned int has_launchAction:1;
-        unsigned int has_isHandoff:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_launchUri:1;
-        unsigned int read_referringWebsite:1;
-        unsigned int read_sourceAppId:1;
-        unsigned int read_sourceHandoffDevice:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)h:(id)arg1;
++ (_Bool)setHasSupportDirectionIntentSearch:(id)arg1;
 - (id);
 - (id);
 - (void);
@@ -44,30 +22,30 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (id);
-- (int);
 - (id);
 - (int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (id);
 - (int);
-- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)V_observable;
+- (int)defaultProvider;
+- (void)_CNForkJoinProgressiveResultObservationStrategy;
 - (int);
-- (void);
+- (void)A;
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)nil!;
 - (void);
 - (id);
 - (unsigned long long);
@@ -75,28 +53,14 @@
 - (_Bool);
 - (id);
 - (void);
-- (id)n:(struct _NSZone *)arg1;
+- (id)submitNetworkSearchWithCompletionQueue:(struct _NSZone *)arg1 completion: /* Error: Ran out of types for this method. */;
 - (id),N,V_storageID;
 - (id).;
 - (id);
 - (void)ØÕþ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsHandoff;
-@property(nonatomic) _Bool hasLaunchAction;
-@property(nonatomic) _Bool hasLaunchActionInternal;
-@property(readonly, nonatomic) _Bool hasLaunchUri;
-@property(readonly, nonatomic) _Bool hasReferringWebsite;
 @property(readonly, nonatomic) _Bool hasSourceAppId;
-@property(readonly, nonatomic) _Bool hasSourceHandoffDevice;
-@property(nonatomic) _Bool isHandoff;
-@property(nonatomic) int launchAction;
-@property(nonatomic) int launchActionInternal;
-@property(retain, nonatomic) NSString *launchUri;
-@property(retain, nonatomic) NSString *referringWebsite;
-@property(retain, nonatomic) NSString *sourceAppId;
-@property(retain, nonatomic) NSString *sourceHandoffDevice;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -4,45 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, HMDManagedObjectCodingModel, HMDManagedObjectContext, HMFVersion, NSNotificationCenter, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue;
+@class HMDHome, HMFVersion;
 
 __attribute__((visibility("hidden")))
 @interface HMDResidentSyncController
 {
     HMDHome *_home;
-    NSUUID *_homeUUID;
-    HMDManagedObjectCodingModel *_codingModel;
-    HMDManagedObjectContext *_context;
-    NSNotificationCenter *_notificationCenter;
-    HMFVersion *_schemaVersion;
 }
 
 + (id)QB;
-- (id);
-- (id);
+- (id)GEONavigationListenerDelegate;
+- (id)g;
 - (id);
 - (_Bool);
-- (id);
+- (id)5	;
 - (id);
 - (id)e name;
 - (void)tuik;
-- (id)meInSec;
+- (id)BTLEAccessoryLossDetectionTimeInSec;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
 @property(readonly) HMFVersion *schemaVersion; // @synthesize schemaVersion=_schemaVersion;
-@property(readonly) Class superclass;
 
 @end
 

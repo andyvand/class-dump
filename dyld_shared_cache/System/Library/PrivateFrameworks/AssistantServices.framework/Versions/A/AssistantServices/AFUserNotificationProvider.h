@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSXPCConnection;
-@protocol OS_dispatch_queue;
+@class NSXPCConnection;
 
 @interface AFUserNotificationProvider
 {
     NSXPCConnection *_connection;
-    NSMutableDictionary *_responseHandlersByNotificationID;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
-- (void)tes;
+- (id);
+- (void)_delegates;
 - (id)_signalEmergencyCallHandled];
 
 @end

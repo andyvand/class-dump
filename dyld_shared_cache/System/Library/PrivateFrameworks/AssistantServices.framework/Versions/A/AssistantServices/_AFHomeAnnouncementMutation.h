@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFHomeAnnouncement, NSDate, NSString;
+@class AFHomeAnnouncement;
 
 @interface _AFHomeAnnouncementMutation
 {
     AFHomeAnnouncement *_base;
-    NSString *_identifier;
-    unsigned long long _startedHostTime;
-    unsigned long long _finishedHostTime;
-    NSDate *_startedDate;
-    NSDate *_finishedDate;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasIdentifier:1;
-        unsigned int hasStartedHostTime:1;
-        unsigned int hasFinishedHostTime:1;
-        unsigned int hasStartedDate:1;
-        unsigned int hasFinishedDate:1;
-    } _mutationFlags;
 }
 
 - (void);
@@ -34,18 +21,12 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (id)etoothInEarDetectionStateForBTAddress:(id)arg1 forObserverID: /* Error: Ran out of types for this method. */;
-- (void)s;
+- (void)iMessageGroupDisplayNameChangedFor:(id)arg1;
+- (id)startObservingBluetoothInEarDetectionStateForBTAddress:(id)arg1 forObserverID: /* Error: Ran out of types for this method. */;
+- (void)_memoryPressureFlags;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface AppStoreKit.RebootstrapCoordinatorViewModel__priv_2376A2203254EA40AB69CFA621EAB5D8
 {
     id $defaultActor;
-    id hasPausedNotifications;
 }
 
 @end

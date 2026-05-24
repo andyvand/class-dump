@@ -4,55 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, PLKLegibilityView, UILabel;
+@class NSAttributedString, UILabel;
 
 @interface CKTranscriptLegibilityLabel
 {
     UILabel *_label;
-    PLKLegibilityView *_legibilityView;
 }
 
 - (void);
-- (void);
-- (struct CGRect);
+- (void)initWithNotes:(id)arg1 toFolder:legacyContext:didCopyBlock: /* Error: Ran out of types for this method. */;
+- (struct CGRect)CGImageForProposedRect:context:hints: /* Error: Ran out of types for this method. */;
+- (id)AES128Key;
 - (id);
-- (id);
-- (void);
+- (void)%;
 - (_Bool);
+- (void)So29ICCalculateDocumentControllerCSgXwz_Xx;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)neration operations existed, not adding more for %@;
+- (void)t {prompt:%@}%s:%d /* Error: Ran out of types for this method. */;
+- (id)section:%@} /* Error: Ran out of types for this method. */;
+- (id)or resolved:%@ /* Error: Ran out of types for this method. */;
 - (double);
-- (double);
+- (double);
 - (struct CGSize);
 - (void);
 - (void);
 - (id);
 - (struct CGSize);
-- (id);
-- (id)mbinedHighlightsView;
+- (id)deselectRowAtIndexPath:(struct CGRect)arg1 animated: /* Error: Ran out of types for this method. */;
+- (id)combinedHighlightsView;
 - (void);
 - (void)ound SMS spam filtering value:(long long)arg1 %{BOOL}d on iPad;
 - (void)ChatKit.BusinessDetailsController;
-- (long long)onaryKey;
-- (void)IME_AUDIO;
+- (long long)kCKBrowserSelectionControllerSeenDictionaryKey;
+- (void)FACETIME_AUDIO;
 - (void);
-- (long long)out;
+- (long long)TapbackPickerCancelTouchedDownLayout;
 - (long long)ìm\al`;;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double _firstLineBaselineOffsetFromBoundsTop;
-@property(nonatomic) double _lastLineBaselineFrameOriginY;
 @property(copy, nonatomic) NSAttributedString *attributedText;
-@property(retain, nonatomic) UILabel *label; // @synthesize label=_label;
-@property(retain, nonatomic) PLKLegibilityView *legibilityView; // @synthesize legibilityView=_legibilityView;
-@property(nonatomic) long long lineBreakMode;
-@property(nonatomic) long long numberOfLines;
-@property(nonatomic) long long textAlignment;
 
 @end
 

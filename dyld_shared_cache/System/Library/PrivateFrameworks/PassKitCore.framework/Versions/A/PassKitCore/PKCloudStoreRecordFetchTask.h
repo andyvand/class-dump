@@ -4,33 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSError, NSString, PKCloudStoreZone;
-
 @interface PKCloudStoreRecordFetchTask
 {
     unsigned long long _type;
-    unsigned long long _status;
-    NSString *_transactionSourceIdentifier;
-    PKCloudStoreZone *_cloudStoreZone;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    long long _backoffLevel;
-    NSDate *_nextPossibleFetchDate;
-    NSError *_lastError;
 }
 
 + (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)C;
+- (id);
 - (void);
 - (id);
 - (long long);
@@ -40,32 +30,24 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)liveTextAnalysisDidCompleteForMUContentViewController: /* Error: Ran out of types for this method. */;
+- (_Bool)hasKCtlTxRTS;
 - (void);
 - (id);
-- (void);
+- (void)(!!@%;
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)hh8);
 - (void);
 - (id);
 - (id)0@ù
 × ;
-- (id)ordPendingRequest;
+- (id)PKCloudRecordPendingRequest;
 - (void)ation:(id)arg1 %{public}@ in state:%{public}@ is being offered /* Error: Ran out of types for this method. */;
-- (void)DL;
+- (void)_DL;
 - (id)ìÊ}ÿ;
 
 // Remaining properties
-@property(nonatomic) long long backoffLevel; // @synthesize backoffLevel=_backoffLevel;
-@property(retain, nonatomic) PKCloudStoreZone *cloudStoreZone; // @synthesize cloudStoreZone=_cloudStoreZone;
-@property(copy, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(copy, nonatomic) NSError *lastError; // @synthesize lastError=_lastError;
-@property(copy, nonatomic) NSDate *nextPossibleFetchDate; // @synthesize nextPossibleFetchDate=_nextPossibleFetchDate;
-@property(copy, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(nonatomic) unsigned long long status; // @synthesize status=_status;
-@property(copy, nonatomic) NSString *transactionSourceIdentifier; // @synthesize transactionSourceIdentifier=_transactionSourceIdentifier;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface NSPersistentUISnapshotInfo
 {
     unsigned int flushSeed;
-    unsigned int cryptoKeyGeneration;
 }
 
 @end

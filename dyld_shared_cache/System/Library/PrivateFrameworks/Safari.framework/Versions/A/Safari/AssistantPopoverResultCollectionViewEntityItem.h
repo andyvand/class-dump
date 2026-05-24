@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AssistantPopoverResultsCollectionViewController, NSBox, NSNumber, NSString, NSTableCellView, NSView, SFSearchResult;
+@class NSBox, NSTableCellView;
 @protocol SearchUITableCellView;
 
 __attribute__((visibility("hidden")))
 @interface AssistantPopoverResultCollectionViewEntityItem
 {
     NSTableCellView<SearchUITableCellView> *_searchUIView;
-    NSView *_contentView;
-    SFSearchResult *_currentSearchResult;
-    NSView *_backgroundView;
-    NSView *_selectionView;
-    NSBox *_separator;
-    AssistantPopoverResultsCollectionViewController *_resultsCollectionViewController;
-    NSString *_webpageIdentifier;
-    NSNumber *_componentIdentifier;
 }
 
-+ (id)r;
++ (id)closeVisualTabPicker;
+- (void);
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)oud.searchpartyd.sharedsettings;
 - (void);
 - (void)$°;
 - (void)dz-;
@@ -39,17 +31,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *componentIdentifier; // @synthesize componentIdentifier=_componentIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) AssistantPopoverResultsCollectionViewController *resultsCollectionViewController; // @synthesize resultsCollectionViewController=_resultsCollectionViewController;
 @property(retain, nonatomic) NSBox *separator; // @synthesize separator=_separator;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *webpageIdentifier; // @synthesize webpageIdentifier=_webpageIdentifier;
 
 @end
 

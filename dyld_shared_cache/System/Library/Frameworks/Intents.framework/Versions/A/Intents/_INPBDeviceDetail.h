@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBContact, _INPBDataString;
+@class _INPBDataString;
 
 @interface _INPBDeviceDetail
 {
     struct {
         unsigned int deviceClass:1;
     } _has;
-    int _deviceClass;
-    _INPBDataString *_category;
-    _INPBDataString *_deviceName;
-    _INPBContact *_deviceOwner;
-    NSString *_identifier;
-    _INPBDataString *_productName;
 }
 
 + (_Bool);
@@ -26,51 +20,33 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)ts debugHintsWithCompletion:(_Bool)arg1 ];
 - (unsigned long long);
 - (_Bool);
 - (int);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)with networks update acknowledgement counter (clientID=%{public}@, counter=%lu);
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (int);
 - (id);
 - (_Bool);
 - (void);
 - (_Bool);
-- (id)eWorkoutGoalUnitTypeForStartWorkout:withCompletion: /* Error: Ran out of types for this method. */;
+- (id)resolveWorkoutGoalUnitTypeForStartWorkout:withCompletion: /* Error: Ran out of types for this method. */;
 - (id)geType:referencedMessage:reaction: /* Error: Ran out of types for this method. */;
 - (void)apple.IntentsCore.summarycache;
-- (void)deStatusIntentResponseCodeReady;
-- (void);
+- (void)INGetRideStatusIntentResponseCodeReady;
+- (void)SearchForBillsIntent;
 - (_Bool)ÿR`6;
 - (void)HßÿaòOÐ;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBDataString *category; // @synthesize category=_category;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) int deviceClass; // @synthesize deviceClass=_deviceClass;
-@property(retain, nonatomic) _INPBDataString *deviceName; // @synthesize deviceName=_deviceName;
-@property(retain, nonatomic) _INPBContact *deviceOwner; // @synthesize deviceOwner=_deviceOwner;
-@property(readonly, nonatomic) _Bool hasCategory;
-@property(nonatomic) _Bool hasDeviceClass;
-@property(readonly, nonatomic) _Bool hasDeviceName;
-@property(readonly, nonatomic) _Bool hasDeviceOwner;
-@property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasProductName;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) _INPBDataString *productName; // @synthesize productName=_productName;
-@property(readonly) Class superclass;
 
 @end
 

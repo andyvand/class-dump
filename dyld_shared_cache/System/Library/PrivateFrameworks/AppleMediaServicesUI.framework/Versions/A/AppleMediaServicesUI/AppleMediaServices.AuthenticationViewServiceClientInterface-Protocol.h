@@ -5,5 +5,6 @@
 //
 
 @protocol AppleMediaServices.AuthenticationViewServiceClientInterface
+- (void)le: /* Error: Ran out of types for this method. */;
 @end
 

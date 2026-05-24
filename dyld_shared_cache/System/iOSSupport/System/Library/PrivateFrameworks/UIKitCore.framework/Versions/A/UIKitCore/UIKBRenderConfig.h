@@ -4,26 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, _UIButtonBarButtonVisualProvider;
-
 @interface UIKBRenderConfig
 {
     _Bool _useEmojiStyles;
-    NSMutableDictionary *_customSymbolImages;
-    _Bool _lightKeyboard;
-    _Bool _isFloating;
-    _Bool _emptyBackground;
-    _Bool _animatedBackground;
-    _Bool _colorAdaptiveBackground;
-    _Bool _usesCompactKeycapsFont;
-    long long _forceQuality;
-    double _blurRadius;
-    double _blurSaturation;
-    double _keycapOpacity;
-    double _lightKeycapOpacity;
-    NSString *_controlKeyBackgroundName;
-    NSString *_activatedKeyplaneSwitchControlKeyBackgroundName;
-    _UIButtonBarButtonVisualProvider *_buttonBarVisualProvider;
 }
 
 + (long long);
@@ -39,17 +22,17 @@
 × ;
 + (id);
 + (id)4@0:8@?<v@?@"NSData">16 /* Error: Ran out of types for this method. */;
-+ (long long)taryOffscreenWidth;
++ (long long)supplementaryOffscreenWidth;
 + (id);
 + (id)inerMaskView;
-+ (id)sset;
++ (id)UIImagePickerControllerPHAsset;
 + (id)h;
-- (long long);
+- (long long)tring",C,N,V_payloadOutgoingMailServerAuthentication;
 - (id);
 - (void);
-- (void);
+- (void)tableView:(id)arg1 willDisplayContextMenuWithConfiguration:animator: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)MPSectionedIdentifierListEntryTypeEnd;
 - (_Bool);
 - (void);
 - (id);
@@ -60,24 +43,24 @@
 × ;
 - (_Bool)0@ù
 × ;
-- (_Bool)lement:defaultMenuItems: /* Error: Ran out of types for this method. */;
-- (void)wImage:(double)arg1 forEdge:inside: /* Error: Ran out of types for this method. */;
-- (_Bool):(id)arg1;
-- (void)ckgroundViewWithFrame:(id)arg1 isRightToLeft: /* Error: Ran out of types for this method. */;
-- (double)tateAfterReplacingText:withText: /* Error: Ran out of types for this method. */;
-- (long long)rmForKey: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (_Bool)etBaselineRelativeArrangement: /* Error: Ran out of types for this method. */;
-- (id)eDataSourceSectionTransaction;
+- (_Bool)webView:contextMenuItemsForElement:defaultMenuItems: /* Error: Ran out of types for this method. */;
+- (void)setShadowImage:(double)arg1 forEdge:inside: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithEventHandler:(id)arg1;
+- (void)initCoverBackgroundViewWithFrame:(id)arg1 isRightToLeft: /* Error: Ran out of types for this method. */;
+- (double)documentStateAfterReplacingText:withText: /* Error: Ran out of types for this method. */;
+- (long long)decodeCGAffineTransformForKey: /* Error: Ran out of types for this method. */;
+- (_Bool)_updateLayoutMargins;
+- (_Bool)setBaselineRelativeArrangement: /* Error: Ran out of types for this method. */;
+- (id)_UIDiffableDataSourceSectionTransaction;
 - (void);
 - (long long) CC DD EE FF GG HH II JJ KK LL MM NN OO PP QQ RUV(WW X|X`¨`a¨ab¨bc¨cd de eff;
 - (id)rom secondary;
 - (double)his will produce an incorrect appearance; switch to the UIBackgroundConfiguration API to resolve this.;
-- (long long)holder;
+- (long long)placeholder;
 - (double)u) is greater than max size %d;
 - (void).quicklook.UIExtension;
 - (_Bool)autoreleasing *);
-- (void)ocusAnimationDefaultUnfocusingBackgroundFadeDurationPercentage;
+- (void)FocusAnimationDefaultUnfocusingBackgroundFadeDurationPercentage;
 - (double)ticEventType getCHHapticEventTypeHapticContinuous(void);
 - (_Bool)ÑÑÑÑÑá?Ò?Ò?Õ?è?ë?ë?Ì?¼?à?À?í?É?ìQ¸ëÑ?
 ×£p=
@@ -89,25 +72,7 @@
 - (void)ÿ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *activatedKeyplaneSwitchControlKeyBackgroundName; // @synthesize activatedKeyplaneSwitchControlKeyBackgroundName=_activatedKeyplaneSwitchControlKeyBackgroundName;
-@property(nonatomic) _Bool animatedBackground; // @synthesize animatedBackground=_animatedBackground;
-@property(readonly, nonatomic) long long backdropStyle;
-@property(readonly, nonatomic) long long blurEffectStyle;
-@property(nonatomic) double blurRadius; // @synthesize blurRadius=_blurRadius;
-@property(nonatomic) double blurSaturation; // @synthesize blurSaturation=_blurSaturation;
-@property(readonly, nonatomic) _UIButtonBarButtonVisualProvider *buttonBarVisualProvider; // @synthesize buttonBarVisualProvider=_buttonBarVisualProvider;
-@property(nonatomic) _Bool colorAdaptiveBackground; // @synthesize colorAdaptiveBackground=_colorAdaptiveBackground;
-@property(copy, nonatomic) NSString *controlKeyBackgroundName; // @synthesize controlKeyBackgroundName=_controlKeyBackgroundName;
-@property(nonatomic) _Bool emptyBackground; // @synthesize emptyBackground=_emptyBackground;
-@property(nonatomic) long long forceQuality; // @synthesize forceQuality=_forceQuality;
-@property(nonatomic) _Bool isFloating; // @synthesize isFloating=_isFloating;
-@property(readonly, nonatomic) long long keyBackdropStyle;
-@property(nonatomic) double keycapOpacity; // @synthesize keycapOpacity=_keycapOpacity;
 @property(nonatomic) _Bool lightKeyboard; // @synthesize lightKeyboard=_lightKeyboard;
-@property(nonatomic) double lightKeycapOpacity; // @synthesize lightKeycapOpacity=_lightKeycapOpacity;
-@property(nonatomic) _Bool usesCompactKeycapsFont; // @synthesize usesCompactKeycapsFont=_usesCompactKeycapsFont;
-@property(readonly, nonatomic) long long variantSelectorBackdropStyle;
-@property(readonly, nonatomic) _Bool whiteText;
 
 @end
 

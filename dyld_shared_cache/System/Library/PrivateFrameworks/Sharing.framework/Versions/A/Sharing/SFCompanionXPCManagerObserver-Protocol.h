@@ -5,5 +5,9 @@
 //
 
 @protocol SFCompanionXPCManagerObserver
+- (void);
+
+@optional
+- (void);
 @end
 

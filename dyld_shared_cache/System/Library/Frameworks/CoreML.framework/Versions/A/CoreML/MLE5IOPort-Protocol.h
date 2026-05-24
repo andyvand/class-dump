@@ -7,11 +7,10 @@
 @class MLPixelBufferPool, NSString;
 
 @protocol MLE5IOPort
+- (void)MTLIndirectArgumentEncoder setBuffers:(MLPixelBufferPool *)arg1 offsets:withRange:] /* Error: Ran out of types for this method. */;
 - (MLPixelBufferPool *)@;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool boundFeatureDirectly;
 @property(readonly) NSString *name;
-@property(retain, nonatomic) MLPixelBufferPool *pixelBufferPool;
 @end
 

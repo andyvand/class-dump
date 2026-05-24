@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class ACAccount, ACAccountCredential, ACDAccountStore, NSDictionary, NSString;
+
 @protocol ACDAccountAuthenticationPlugin
+
+@optional
+- (NSString *);
+- (void)outlineView:(ACAccount *)arg1 validateDrop:(ACDAccountStore *)arg2 proposedItem:(NSDictionary *)arg3 proposedChildIndex:(void (^)(ACAccount *, NSError *))arg4;
+- (ACAccountCredential *)format is invalid.;
 @end
 

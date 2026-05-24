@@ -4,45 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIPanGestureRecognizer, UIPinchGestureRecognizer, UIRotationGestureRecognizer, UIView;
-@protocol AVTransitionDriverDelegate;
+@class UIPanGestureRecognizer;
 
 __attribute__((visibility("hidden")))
 @interface AVInteractiveTransitionGestureTracker
 {
     UIPanGestureRecognizer *_activePanGestureRecognizer;
-    _Bool _enabled;
-    _Bool _pinchToDismissEnabled;
-    _Bool _pinchToPresentEnabled;
-    _Bool _panToDismissEnabled;
-    _Bool _waitingForTransition;
-    _Bool _waitingForBoundsChange;
-    _Bool _waitingForLocationChangeAfterBoundsChange;
-    _Bool _hasContinued;
-    _Bool _hasRotated;
-    _Bool _lastNonZeroVelocityWasDownward;
-    UIPanGestureRecognizer *_contentTransitioningViewGestureRecognizer;
-    id <AVTransitionDriverDelegate> _transitionDriverDelegate;
-    double _previousPinchScale;
-    double __rotation;
-    UIPanGestureRecognizer *_panGestureRecognizer;
-    UIPanGestureRecognizer *_indirectPanGestureRecognizer;
-    UIPinchGestureRecognizer *_pinchGestureRecognizer;
-    UIRotationGestureRecognizer *_rotationGestureRecognizer;
-    NSArray *_recognizers;
-    double _timestampOfTouchWithLocationChangeAfterBoundsChange;
-    long long _initialInterfaceOrientation;
-    long long _transitionInteraction;
-    UIView *_view;
-    struct CGPoint _gestureLocationAfterBoundsChange;
-    struct CGPoint _lastReportedLocationInWindow;
-    struct CGPoint _anchorLocationInWindow;
-    struct CGRect _initialCoordinateSpaceBounds;
 }
 
-- (void);
-- (void);
-- (_Bool);
+- (void)AccessTimestamp;
+- (void)perationCallbackProxy>",&,D,N;
+- (_Bool)adata;
 - (long long);
 - (void);
 - (struct CGPoint);
@@ -52,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (struct CGPoint);
 - (void);
 - (void);
@@ -64,34 +36,34 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (double);
-- (struct CGRect);
+- (struct CGRect)on;
 - (_Bool);
-- (id);
+- (id)lL;
 - (id);
 - (struct CGPoint);
 - (void);
-- (_Bool);
+- (_Bool)eObjectEE41CreateAndStoreEventHandlerForActiveObjectINS4_16MovingStateEventEEEvvEUlPNS2_16ActiveObjectBaseERKNS2_12GenericEventEE_FvSA_SD_EEE;
 - (void);
 - (void);
 - (double);
 - (_Bool);
+- (void)";
+- (struct CGPoint);
+- (void)y(;
 - (void);
+- (void);
+- (void);
+- (_Bool);
+- (id);
 - (struct CGPoint);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (struct CGPoint);
-- (void);
+- (_Bool);
+- (double);
+- (void)_firstAudioTrack;
+- (struct CGPoint)rectory contents. Error [%d]:%s /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (double);
-- (void);
-- (struct CGPoint);
-- (_Bool);
-- (double);
-- (void);
+- (void)T;
 - (double);
 - (struct CGPoint);
 - (double);
@@ -100,7 +72,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)arrayWithObjects:(id)arg1 count:(id)arg2;
 - (id);
 - (id);
 - (void);
@@ -110,59 +82,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (struct CGPoint);
+- (struct CGPoint)or empty save and remove lists;
 - (long long);
 - (void);
 - (_Bool);
 - (void);
-- (_Bool)me;
+- (_Bool)_alternateImageName;
 
 // Remaining properties
-@property(nonatomic, setter=_setRotation:) double _rotation; // @synthesize _rotation=__rotation;
-@property(nonatomic) struct CGPoint anchorLocationInWindow; // @synthesize anchorLocationInWindow=_anchorLocationInWindow;
-@property(nonatomic) __weak UIPanGestureRecognizer *contentTransitioningViewGestureRecognizer; // @synthesize contentTransitioningViewGestureRecognizer=_contentTransitioningViewGestureRecognizer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(nonatomic) struct CGPoint gestureLocationAfterBoundsChange; // @synthesize gestureLocationAfterBoundsChange=_gestureLocationAfterBoundsChange;
-@property(nonatomic) _Bool hasContinued; // @synthesize hasContinued=_hasContinued;
-@property(nonatomic) _Bool hasRotated; // @synthesize hasRotated=_hasRotated;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIPanGestureRecognizer *indirectPanGestureRecognizer; // @synthesize indirectPanGestureRecognizer=_indirectPanGestureRecognizer;
-@property(nonatomic) struct CGRect initialCoordinateSpaceBounds; // @synthesize initialCoordinateSpaceBounds=_initialCoordinateSpaceBounds;
-@property(nonatomic) long long initialInterfaceOrientation; // @synthesize initialInterfaceOrientation=_initialInterfaceOrientation;
-@property(nonatomic) _Bool lastNonZeroVelocityWasDownward; // @synthesize lastNonZeroVelocityWasDownward=_lastNonZeroVelocityWasDownward;
-@property(nonatomic) struct CGPoint lastReportedLocationInWindow; // @synthesize lastReportedLocationInWindow=_lastReportedLocationInWindow;
-@property(readonly, nonatomic) UIPanGestureRecognizer *panGestureRecognizer; // @synthesize panGestureRecognizer=_panGestureRecognizer;
-@property(nonatomic, getter=isPanToDismissEnabled) _Bool panToDismissEnabled; // @synthesize panToDismissEnabled=_panToDismissEnabled;
-@property(readonly, nonatomic) UIPinchGestureRecognizer *pinchGestureRecognizer; // @synthesize pinchGestureRecognizer=_pinchGestureRecognizer;
-@property(readonly, nonatomic) double pinchScale;
 @property(nonatomic, getter=isPinchToDismissEnabled) _Bool pinchToDismissEnabled; // @synthesize pinchToDismissEnabled=_pinchToDismissEnabled;
-@property(nonatomic, getter=isPinchToPresentEnabled) _Bool pinchToPresentEnabled; // @synthesize pinchToPresentEnabled=_pinchToPresentEnabled;
-@property(readonly, nonatomic) double pinchVelocity;
-@property(nonatomic) double previousPinchScale; // @synthesize previousPinchScale=_previousPinchScale;
-@property(readonly, nonatomic) NSArray *recognizers; // @synthesize recognizers=_recognizers;
-@property(readonly, nonatomic) double rotation;
-@property(readonly, nonatomic) UIRotationGestureRecognizer *rotationGestureRecognizer; // @synthesize rotationGestureRecognizer=_rotationGestureRecognizer;
-@property(readonly, nonatomic) double rotationVelocity;
-@property(readonly) Class superclass;
-@property(nonatomic) double timestampOfTouchWithLocationChangeAfterBoundsChange; // @synthesize timestampOfTouchWithLocationChangeAfterBoundsChange=_timestampOfTouchWithLocationChangeAfterBoundsChange;
-@property(nonatomic) __weak id <AVTransitionDriverDelegate> transitionDriverDelegate; // @synthesize transitionDriverDelegate=_transitionDriverDelegate;
-@property(nonatomic) long long transitionInteraction; // @synthesize transitionInteraction=_transitionInteraction;
-@property(nonatomic) __weak UIView *view; // @synthesize view=_view;
-@property(nonatomic, getter=isWaitingForBoundsChange) _Bool waitingForBoundsChange; // @synthesize waitingForBoundsChange=_waitingForBoundsChange;
-@property(nonatomic, getter=isWaitingForLocationChangeAfterBoundsChange) _Bool waitingForLocationChangeAfterBoundsChange; // @synthesize waitingForLocationChangeAfterBoundsChange=_waitingForLocationChangeAfterBoundsChange;
-@property(nonatomic, getter=isWaitingForTransition) _Bool waitingForTransition; // @synthesize waitingForTransition=_waitingForTransition;
 
 @end
 

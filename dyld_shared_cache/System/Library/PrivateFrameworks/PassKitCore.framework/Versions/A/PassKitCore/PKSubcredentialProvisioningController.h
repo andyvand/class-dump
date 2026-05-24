@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKAppletSubcredential, PKPaymentPass;
 @protocol PKSubcredentialProvisioningControllerDelegate;
 
 @interface PKSubcredentialProvisioningController
 {
     id <PKSubcredentialProvisioningControllerDelegate> _delegate;
-    PKAppletSubcredential *_addedCredential;
-    PKPaymentPass *_provisionedPass;
 }
 
-- (void);
-- (void);
+- (void)q;
+- (void)*pB;
 - (id);
 - (id);
 - (id);
@@ -24,16 +21,7 @@
 - (void)ntifier == %@;
 
 // Remaining properties
-@property(readonly, nonatomic) PKAppletSubcredential *addedCredential; // @synthesize addedCredential=_addedCredential;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <PKSubcredentialProvisioningControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PKPaymentPass *provisionedPass; // @synthesize provisionedPass=_provisionedPass;
-@property(readonly) Class superclass;
 
 @end
 

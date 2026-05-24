@@ -15,9 +15,9 @@
 - (_Bool);
 - (void);
 - (id);
+- (id)dinatorDelegate>",W,N,V_delegate;
 - (id);
-- (id);
-- (id)timerFired;
+- (id)_timerFired;
 
 // Remaining properties
 @property _Bool preserveAlpha; // @synthesize preserveAlpha=_preserveAlpha;

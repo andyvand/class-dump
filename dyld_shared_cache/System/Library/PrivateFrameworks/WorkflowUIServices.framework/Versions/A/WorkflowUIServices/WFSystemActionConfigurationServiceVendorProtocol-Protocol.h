@@ -5,5 +5,6 @@
 //
 
 @protocol WFSystemActionConfigurationServiceVendorProtocol
+- (void);
 @end
 

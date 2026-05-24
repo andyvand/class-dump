@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FULabel, NSProgressIndicator;
+@class NSProgressIndicator;
 
 __attribute__((visibility("hidden")))
 @interface FULoadingView
 {
     NSProgressIndicator *_progressIndicator;
-    FULabel *_loadingLabel;
 }
 
+- (void)ent is the wrong version, expected:(id)arg1 %d, found %d in segment:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)nt:%{public}@ /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)__array;
 - (void);
 
 // Remaining properties
-@property __weak FULabel *loadingLabel; // @synthesize loadingLabel=_loadingLabel;
 @property __weak NSProgressIndicator *progressIndicator; // @synthesize progressIndicator=_progressIndicator;
 
 @end

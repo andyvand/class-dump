@@ -9,36 +9,37 @@
 @interface FCPrefetchConfiguration
 {
     NSDictionary *_configDict;
-    _Bool _backgroundFetchEnabled;
-    _Bool _shouldPrefetchForYouFeed;
-    double _minimumBackgroundFetchInterval;
-    NSDictionary *_scheduledBGFetchTimes;
-    long long _scheduledBGFetchTimeJitter;
-    NSDictionary *_scheduledMicroUpdateTimes;
-    long long _scheduledMicroUpdateTimeJitter;
 }
 
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
-- (long long);
+- (long long)b, vec3(0.0))); 
+					float lum = dot( vec3(0.2988,.5869,.114), u.rgb )  ;  
+						
+						//u.r =  	lum; 
+						//u.g = 	lum;  
+						//u.b = 	lum;  
+						u.rgb = vec3(lum); 
+							
+							//u.rgb = pow(u.rgb, vec3(2.0,2.0,2.0)); 
+							u.rgb = u.rgb * u.rgb ; 
+								u.a = s.a; 
+									
+									return mix( s, u, t);    
+} 
+;
 - (id);
-- (id);
-- (_Bool);
-- (double);
-- (id);
+- (id)pdater stopLocationUpdatesForDelegate:]_block_invoke /* Error: Ran out of types for this method. */;
+- (_Bool)r",C,N,V_txMemoryErrorCount;
+- (double)32@0:8@16@24 /* Error: Ran out of types for this method. */;
+- (id);
 - (void)ider:originProvider:groupID:notificationsEnabled:completion:] /* Error: Ran out of types for this method. */;
 - (long long)ore/Classes/FCTransformedResultsStream.m;
-- (id)a;
+- (id)invalidObjectData;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isBackgroundFetchEnabled) _Bool backgroundFetchEnabled; // @synthesize backgroundFetchEnabled=_backgroundFetchEnabled;
-@property(readonly, nonatomic) double minimumBackgroundFetchInterval; // @synthesize minimumBackgroundFetchInterval=_minimumBackgroundFetchInterval;
-@property(readonly, nonatomic) long long scheduledBGFetchTimeJitter; // @synthesize scheduledBGFetchTimeJitter=_scheduledBGFetchTimeJitter;
-@property(readonly, nonatomic) NSDictionary *scheduledBGFetchTimes; // @synthesize scheduledBGFetchTimes=_scheduledBGFetchTimes;
-@property(readonly, nonatomic) long long scheduledMicroUpdateTimeJitter; // @synthesize scheduledMicroUpdateTimeJitter=_scheduledMicroUpdateTimeJitter;
-@property(readonly, nonatomic) NSDictionary *scheduledMicroUpdateTimes; // @synthesize scheduledMicroUpdateTimes=_scheduledMicroUpdateTimes;
-@property(readonly, nonatomic) _Bool shouldPrefetchForYouFeed; // @synthesize shouldPrefetchForYouFeed=_shouldPrefetchForYouFeed;
 
 @end
 

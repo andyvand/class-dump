@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL, OAHSoftwareUpdateDownloader, OAHSoftwareUpdateWindowController, OAHUpdateServiceController, PKInstallClient;
+@class NSString, OAHSoftwareUpdateDownloader;
 
 @interface OAHSoftwareUpdateController
 {
     NSString *_OSBuildVersion;
-    OAHSoftwareUpdateDownloader *_downloader;
-    OAHSoftwareUpdateWindowController *_windowController;
-    OAHUpdateServiceController *_updateServiceController;
-    CDUnknownBlockType _installCompletionBlock;
-    CDUnknownBlockType _installProgressBlock;
-    NSArray *_packageSpecifiers;
-    NSArray *_products;
-    NSURL *_downloadDirectory;
-    PKInstallClient *_installClient;
 }
 
 + (void);
@@ -25,15 +16,15 @@
 + (_Bool);
 + (void);
 + (_Bool);
-+ (_Bool);
++ (_Bool);;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)C;
 - (void);
 - (_Bool);
 - (void);
@@ -66,24 +57,14 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)i[10f]ffffffffffffffffffffffffff}{_HDR10TMParam=Bffffffffffffffffffff{_TMCurveParam=i(?={_splCurveParam=S[6f][6f][6f][5[4f]][5[4f]][2[2f]]}{_ebzCurveParam=S[6f][6f][6f][5S][5[14f]][6f][5[15f]][5[15f]][5[15f]]}{_doviCurveParam=ffff}{_hdr10PlusProfileBCurveParam=ffi[10f]ffif{_doviCurveParam=ffff}})}ffffifffff}{_TMData=iiiIiifffifffffffffffffffffBfiiff{_Percentiles_t=[8f][8f]I}BBBBBffi[10f]ffffffffffffffffffffffffff}{_HDR10TMParam=Bffffffffffffffffffff{_TMCurveParam=i(?={_splCurveParam=S[6f][6f][6f][5[4f]][5[4f]][2[2f]]}{_ebzCurveParam=S[6f][6f][6f][5S][5[14f]][6f][5[15f]][5[15f]][5[15f]]}{_doviCurveParam=ffff}{_hdr10PlusProfileBCurveParam=ffi[10f]ffif{_doviCurveParam=ffff}})}ffffifffff}{_HLGTMParam=f{_HDR10TMParam=Bffffffffffffffffffff{_TMCurveParam=i(?={_splCurveParam=S[6f][6f][6f][5[4f]][5[4f]][2[2f]]}{_ebzCurveParam=S[6f][6f][6f][5S][5[14f]][6f][5[15f]][5[15f]][5[15f]]}{_doviCurveParam=ffff}{_hdr10PlusProfileBCurveParam=ffi[10f]ffif{_doviCurveParam=ffff}})}ffffifffff}BffffBB{_SceneLuxAdaptationParam=ifffffffS[9f][9f][9f]f}}{_DoViTMParam=Bfffffffffffffffffffffffffffffffffif{_SceneLuxAdaptationParam=ifffffffS[9f][9f][9f]f}}{_EdrAdaptationData=ifffffffffffffffffffffffffffffffffffffffffBffffIfffffffffffffffffBBfffffBBBBffffffffffffffffffffIf[4f][4f]IIfff}{_EdrAdaptationParam=BS[4f][4f][4f]BB[3[4f]][3[4f]][2[2f]]Bfffffffffffffff}{_AmbAdaptationData=iffffffffBf}{_AmbAdaptationParam=BS[3f][3f][3f]ffB[2[4f]][2[4f]][2[2f]]f}{_DpcData=ifffBff}{_GcpcData=Bf}i{?=I[3I]IC[9C][9I]BSSC[9S]}BBBfB}48^{?=IIIIIIIIIIIIIfIIIII[9f][9f]IfIIfiBiIBB}56^{?={?=SSSSSSSSII}{?=SS}}64^{__IOSurface=}72^{__IOSurface=}80Q88;
+- (void)clipSatPred;
 - (_Bool);
-- (id);
-- (void);
+- (id)VideoPacketBuffer_NeedRefreshFrame;
+- (void)v24@0:8@"NSString"16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *OSBuildVersion; // @synthesize OSBuildVersion=_OSBuildVersion;
-@property(retain) NSURL *downloadDirectory; // @synthesize downloadDirectory=_downloadDirectory;
 @property(retain) OAHSoftwareUpdateDownloader *downloader; // @synthesize downloader=_downloader;
-@property(retain) PKInstallClient *installClient; // @synthesize installClient=_installClient;
-@property(copy) CDUnknownBlockType installCompletionBlock; // @synthesize installCompletionBlock=_installCompletionBlock;
-@property(copy) CDUnknownBlockType installProgressBlock; // @synthesize installProgressBlock=_installProgressBlock;
-@property(retain) NSArray *packageSpecifiers; // @synthesize packageSpecifiers=_packageSpecifiers;
-@property(readonly) NSArray *packageSpecifiersPaths;
-@property(retain) NSArray *products; // @synthesize products=_products;
-@property(retain) OAHUpdateServiceController *updateServiceController; // @synthesize updateServiceController=_updateServiceController;
-@property(retain) OAHSoftwareUpdateWindowController *windowController; // @synthesize windowController=_windowController;
 
 @end
 

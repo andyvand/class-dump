@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)e:(id)arg1 /options) failed;
 - (void);
 - (void)0@ù
 × ;

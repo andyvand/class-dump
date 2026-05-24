@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessorySettingsMetricsDispatcher, HMFMessageDispatcher, NSArray, NSString, NSUUID;
+@class HMFMessageDispatcher;
 
 @interface HMAccessorySettingsMessenger
 {
     HMFMessageDispatcher *_messageDispatcher;
-    HMAccessorySettingsMetricsDispatcher *_metricsDispatcher;
-    NSUUID *_messageTargetUUID;
 }
 
 + (id);
-+ (id);
-+ (id);
++ (id)w;
++ (id);
 + (id):completionHandler:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
@@ -24,34 +22,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)KeyboardInlineCompletionsOpenEnded;
+- (id)ch_stringWithCHRecentCallOriginatingUIType: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)ÿÿ,L;
 - (id)lic}@Updating media peer-to-peer to '%@';
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) HMFMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;
-@property(readonly, copy) NSUUID *messageTargetUUID; // @synthesize messageTargetUUID=_messageTargetUUID;
-@property(readonly) HMAccessorySettingsMetricsDispatcher *metricsDispatcher; // @synthesize metricsDispatcher=_metricsDispatcher;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 
 @end
 

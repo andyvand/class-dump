@@ -7,16 +7,12 @@
 @interface PromotedContentUI.BlurImageView
 {
     id image;
-    id imageViewContentMode;
-    id style;
-    id aspectRatio;
-    id $__lazy_storage_$_visualEffectView;
-    id $__lazy_storage_$_blurImageView;
 }
 
 - (id);
 - (id);
-- (void);
+- (void)L
+;
 
 @end
 

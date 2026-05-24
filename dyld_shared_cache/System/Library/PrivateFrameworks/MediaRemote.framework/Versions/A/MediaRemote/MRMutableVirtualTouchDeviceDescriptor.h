@@ -13,12 +13,10 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (void);
+- (void)ort express;
 
 // Remaining properties
 @property(nonatomic, getter=isAbsolute) _Bool absolute; // @dynamic absolute;
-@property(nonatomic, getter=isIntegratedDisplay) _Bool integratedDisplay; // @dynamic integratedDisplay;
-@property(nonatomic) union _MRHIDSize screenSize; // @dynamic screenSize;
 
 @end
 

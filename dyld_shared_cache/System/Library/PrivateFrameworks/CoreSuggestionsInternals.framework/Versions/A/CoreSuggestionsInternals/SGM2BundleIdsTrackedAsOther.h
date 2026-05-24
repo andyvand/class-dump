@@ -9,16 +9,15 @@
 @interface SGM2BundleIdsTrackedAsOther
 {
     NSString *_bundleId;
-    NSString *_key;
 }
 
 - (id);
-- (void);
+- (void)P;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
+- (id)mLeftIndentOverridden;
+- (id)##$uW;
 - (_Bool);
 - (void);
 - (id);
@@ -27,14 +26,11 @@
 - (_Bool);
 - (_Bool)0@ù
 × ;
-- (void)ore:(id)arg1;
+- (void)setSgmiFeatureStore:(id)arg1;
 - (void)ÌàL;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(readonly, nonatomic) _Bool hasBundleId;
 @property(readonly, nonatomic) _Bool hasKey;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
 
 @end
 

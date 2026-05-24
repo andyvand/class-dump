@@ -6,12 +6,11 @@
 
 #import <PhotosUICore/PXStoryTimelineLayout.h>
 
-@class NSString, PXStoryModel;
+@class PXStoryModel;
 
 @interface PXStoryModelTimelineLayout : PXStoryTimelineLayout
 {
     CDStruct_af00bf4e _updateFlags;
-    PXStoryModel *_model;
 }
 
 - (void);
@@ -19,31 +18,24 @@
 - (void);
 - (void);
 - (void);
+- (void)T;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)R";
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id)setsFromCuration: /* Error: Ran out of types for this method. */;
+- (id)removeAssetsFromCuration: /* Error: Ran out of types for this method. */;
 - (id),N,V_isProductionEnabled;
-- (void)erformance;
+- (void)Performance;
 - (void)Ù³Tbÿ¡³Pbÿá³Lbÿ¡³Hbÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) PXStoryModel *model; // @synthesize model=_model;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface NewsFeed.SavedFeaturePromotionEligibilityProvider
 {
     id saving;
-    id readingList;
-    id savedRecipeService;
 }
 
 @end

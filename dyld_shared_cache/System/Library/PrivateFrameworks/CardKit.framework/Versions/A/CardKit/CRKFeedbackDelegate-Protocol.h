@@ -5,5 +5,8 @@
 //
 
 @protocol CRKFeedbackDelegate
+
+@optional
+- (void)AnyCurrentValuePublisher;
 @end
 

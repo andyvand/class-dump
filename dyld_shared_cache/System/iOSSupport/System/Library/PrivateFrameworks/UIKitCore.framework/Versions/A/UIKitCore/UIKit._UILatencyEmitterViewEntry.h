@@ -14,7 +14,7 @@
 
 - (id);
 - (void);
-- (void)thPersistedIdentifiers:(id)arg1 preferredAnimationType:forDestroyingSession:userOriginatedRequest:callbackQueue:completion: /* Error: Ran out of types for this method. */;
+- (void)initWithPersistedIdentifiers:(id)arg1 preferredAnimationType:forDestroyingSession:userOriginatedRequest:callbackQueue:completion: /* Error: Ran out of types for this method. */;
 - (void)ary",&,N,V_allLineAttributes;
 - (void);
 - (void)¨l;

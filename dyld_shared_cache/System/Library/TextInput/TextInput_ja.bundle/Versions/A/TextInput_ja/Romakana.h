@@ -9,15 +9,16 @@
 @interface Romakana
 {
     NSCharacterSet *_consonantsCharacterSet;
+    id;
 }
 
 + (id);
-+ (id);
++ (id)�);
 + (id);
 + (CDStruct_a70f6672);
 - (id);
 - (id);
-- (void);
+- (void)_disparityRefinementRGBAGuideKernel;
 
 @end
 

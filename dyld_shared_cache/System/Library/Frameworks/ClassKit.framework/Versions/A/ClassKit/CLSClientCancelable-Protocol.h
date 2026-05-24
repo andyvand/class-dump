@@ -5,5 +5,7 @@
 //
 
 @protocol CLSClientCancelable
+- (oneway void)ROR:%s:Non-blocking usage not supported yet!
+ /* Error: Ran out of types for this method. */;
 @end
 

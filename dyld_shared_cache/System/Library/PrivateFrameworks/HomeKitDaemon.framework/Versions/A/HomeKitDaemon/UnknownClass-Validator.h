@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (Validator)
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
 @property(readonly, getter=isValid) _Bool valid;

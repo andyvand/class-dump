@@ -4,45 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOLogMsgEventThrottle
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_manifestEnv;
-    NSString *_requestAppIdentifier;
-    double _throttleDuration;
-    NSString *_throttleReqType;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _networkService;
-    unsigned int _throttleCount;
-    int _throttleMode;
-    unsigned int _throttleTriggerCount;
-    unsigned int _throttleTriggerDuration;
-    int _throttleType;
-    unsigned int _tilesetId;
-    struct {
-        unsigned int has_throttleDuration:1;
-        unsigned int has_networkService:1;
-        unsigned int has_throttleCount:1;
-        unsigned int has_throttleMode:1;
-        unsigned int has_throttleTriggerCount:1;
-        unsigned int has_throttleTriggerDuration:1;
-        unsigned int has_throttleType:1;
-        unsigned int has_tilesetId:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_manifestEnv:1;
-        unsigned int read_requestAppIdentifier:1;
-        unsigned int read_throttleReqType:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (_Bool)setHasStopID:(id)arg1;
-- (id);
+- (id)a@9;
 - (int);
 - (unsigned int);
 - (unsigned int);
@@ -68,16 +38,16 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
-- (_Bool);
+- (id)er;
+- (_Bool)CNFeatureFlags;
 - (int);
 - (_Bool);
-- (int);
+- (int)18ContactsFoundation24CNKeychainFacadeProtocol_p;
 - (int);
 - (void);
 - (_Bool);
-- (id);
-- (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -86,15 +56,15 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)%s Force disabling multiphrase on remora;
 - (void);
 - (id);
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)setStreamsEnabled:(id)arg1;
 - (void);
-- (id);
+- (id)setHidesSourceLayer:(int)arg1;
 - (int);
 - (id);
 - (_Bool);
@@ -102,36 +72,14 @@
 - (id);
 - (void);
 - (void)b57}{_GEOSputnikMetadataKey=b32b24b14b8b42}{_GEOFlyoverKey=b6b26b26b8b24b14b8b8}{_GEOTransitLineSelectionKey=b6b25b25b64}{_GEOPolygonSelectionKey=b6b25b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16I24@28Q36C44I48Q52@60@68@?76@?84;
-- (id)tWifiConnectionQualityProbeURLLegacy:(struct _NSZone *)arg1;
+- (id)setWifiConnectionQualityProbeURLLegacy:(struct _NSZone *)arg1;
 - (id)FLocation",&,N;
 - (id)pecified. There are (%d) waypoints so we expect (%d) legs, but (%d) legs were found. Adding empty legs to try and recover.;
 - (id)hü;
 - (void)î±3;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasManifestEnv;
 @property(nonatomic) _Bool hasNetworkService;
-@property(readonly, nonatomic) _Bool hasRequestAppIdentifier;
-@property(nonatomic) _Bool hasThrottleCount;
-@property(nonatomic) _Bool hasThrottleDuration;
-@property(nonatomic) _Bool hasThrottleMode;
-@property(readonly, nonatomic) _Bool hasThrottleReqType;
-@property(nonatomic) _Bool hasThrottleTriggerCount;
-@property(nonatomic) _Bool hasThrottleTriggerDuration;
-@property(nonatomic) _Bool hasThrottleType;
-@property(nonatomic) _Bool hasTilesetId;
-@property(retain, nonatomic) NSString *manifestEnv;
-@property(nonatomic) int networkService;
-@property(retain, nonatomic) NSString *requestAppIdentifier;
-@property(nonatomic) unsigned int throttleCount;
-@property(nonatomic) double throttleDuration;
-@property(nonatomic) int throttleMode;
-@property(retain, nonatomic) NSString *throttleReqType;
-@property(nonatomic) unsigned int throttleTriggerCount;
-@property(nonatomic) unsigned int throttleTriggerDuration;
-@property(nonatomic) int throttleType;
-@property(nonatomic) unsigned int tilesetId;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

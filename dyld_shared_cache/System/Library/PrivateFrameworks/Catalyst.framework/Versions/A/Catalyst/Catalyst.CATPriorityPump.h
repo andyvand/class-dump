@@ -7,11 +7,6 @@
 @interface Catalyst.CATPriorityPump
 {
     id lock;
-    id stream;
-    id continuation;
-    id wasInitialPriorityYielded;
-    id escalatedPriorities;
-    id threshold;
 }
 
 @end

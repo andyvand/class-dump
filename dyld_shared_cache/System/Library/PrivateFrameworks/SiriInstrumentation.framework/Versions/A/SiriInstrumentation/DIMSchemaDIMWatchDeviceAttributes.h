@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface DIMSchemaDIMWatchDeviceAttributes : SISchemaInstrumentationMessage
 {
     _Bool _isSatellitePaired;
-    int _watchArmOrientation;
-    struct {
-        unsigned int isSatellitePaired:1;
-        unsigned int watchArmOrientation:1;
-    } _has;
 }
 
 - (int);
@@ -35,15 +28,11 @@
 - (_Bool);
 - (id);
 - (id)"INFERENCESchemaINFERENCECommsAppSelectionTrainingAppDependentMessageSignals";
-- (id)eformedTurnInputBundle;
+- (id)NLXSchemaCDMReformedTurnInputBundle;
 - (id)Ìø;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsSatellitePaired;
-@property(nonatomic) _Bool hasWatchArmOrientation;
 @property(nonatomic) _Bool isSatellitePaired; // @synthesize isSatellitePaired=_isSatellitePaired;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int watchArmOrientation; // @synthesize watchArmOrientation=_watchArmOrientation;
 
 @end
 

@@ -25,12 +25,11 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (double);
+- (id)newFaceCropsToBeGeneratedFetchOptions;
+- (double)oggleWatchListStatusCommand;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool allowsColorSelection;
 @property(readonly, nonatomic) PKInkingTool *inkingTool;
 
 @end

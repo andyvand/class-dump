@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHostedViewSceneAccessibilityTokens;
-
 @protocol NSClientHostedViewSceneSettings
+- (struct CGSize);
 
 // Remaining properties
-@property(retain) NSHostedViewSceneAccessibilityTokens *hvs_accessibilityTokens;
 @property unsigned int hvs_contextId;
-@property struct CGSize hvs_viewSize;
 @end
 

@@ -7,18 +7,6 @@
 @interface NewsUI2.ChannelPickerDataManager
 {
     id appConfigManager;
-    id delegate;
-    id configManager;
-    id tagService;
-    id recommendationService;
-    id magazineConfigurationService;
-    id assetHandleFactory;
-    id engagementInlineViewManager;
-    id localDataManager;
-    id suggestedTagModelsArrayByID;
-    id allLocationsSection;
-    id cachedConfigSectionsByIdentifier;
-    id contentVerticalTagIDs;
 }
 
 @end

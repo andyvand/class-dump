@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSUUID, PHPerson;
-
 @interface PXPersonItem
 {
     int _faceImageRequestID;
-    PHPerson *_modelObject;
-    NSUUID *_cellUUID;
-    CDUnknownBlockType _faceImageLoadingCompletionBlock;
-    CDUnknownBlockType _resultHandler;
-    NSImage *_faceImage;
 }
 
 - (void);
@@ -25,7 +18,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -33,12 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSUUID *cellUUID; // @synthesize cellUUID=_cellUUID;
-@property __weak NSImage *faceImage; // @synthesize faceImage=_faceImage;
-@property(copy) CDUnknownBlockType faceImageLoadingCompletionBlock; // @synthesize faceImageLoadingCompletionBlock=_faceImageLoadingCompletionBlock;
 @property int faceImageRequestID; // @synthesize faceImageRequestID=_faceImageRequestID;
-@property(retain, nonatomic) PHPerson *modelObject; // @synthesize modelObject=_modelObject;
-@property(copy) CDUnknownBlockType resultHandler; // @synthesize resultHandler=_resultHandler;
 
 @end
 

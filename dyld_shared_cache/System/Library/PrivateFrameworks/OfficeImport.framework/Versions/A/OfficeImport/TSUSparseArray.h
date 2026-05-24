@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface TSUSparseArray
 {
     struct tsuSaPage *_topPage;
-    unsigned long long _nonNilCount;
-    unsigned int _depth;
 }
 
 + (id);
@@ -20,12 +18,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)ContactLikenessKindAppEnum;
 - (id);
 - (void);
-- (id);
+- (id)ze %s=%@;;
 - (unsigned long long);
-- (void)Path;
+- (void)SetClipPath;
 - (id);
 
 // Remaining properties

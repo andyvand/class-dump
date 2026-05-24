@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _SFPBCommandReference
 {
@@ -18,22 +18,14 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (id)isHEICSequence;
+- (id)equest to make resource available with network access:%{public}@, progress:%{public}@, transient:%{public}@, downloadOptions:%{public}@, asset:%{public}@, resource:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)hQuery: /* Error: Ran out of types for this method. */;
+- (void)setEntitySearchQuery: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *referenceIdentifier; // @synthesize referenceIdentifier=_referenceIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

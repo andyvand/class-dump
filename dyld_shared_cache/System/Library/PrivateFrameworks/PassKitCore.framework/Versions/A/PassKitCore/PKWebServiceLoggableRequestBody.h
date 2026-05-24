@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSSet;
+@class NSData;
 
 @interface PKWebServiceLoggableRequestBody
 {
     NSData *_body;
-    NSSet *_sensitiveKeys;
 }
 
 - (id);
 - (void);
 - (id);
+- (id)b;
+- (id)7A;
 - (id);
-- (id);
-- (id);
-- (void)NES;
+- (void)ITUNES;
 
 @end
 

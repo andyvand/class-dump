@@ -6,26 +6,25 @@
 
 #import <AppKit/NSDynamicNamedColor.h>
 
-@class NSArray, NSColor;
+@class NSColor;
 
 __attribute__((visibility("hidden")))
 @interface NSDynamicModifiedColor : NSDynamicNamedColor
 {
     NSColor *_baseColor;
-    NSArray *_modifiers;
 }
 
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)initWithNetService:(id)arg1 taskGroup:(id)arg2 disavow:(id)arg3;
+- (id)initRequiringSecureCoding:(id)arg1;
+- (id)oid *;
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
+- (id)chacha.c;
+- (id).;
+- (id)#;
+- (unsigned long long)SetAppCategories;
+- (_Bool);
 - (void)1Â0@ù
 × ;
 - (id)®bÂçG;

@@ -5,5 +5,10 @@
 //
 
 @protocol MTLComputeCommandEncoderSPI
+- (void)8;
+
+@optional
+- (void);
+- (void);
 @end
 

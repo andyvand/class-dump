@@ -7,13 +7,12 @@
 @interface AppStoreKit.JSStorageObject
 {
     id path;
-    id storage;
 }
 
-- (void);
+- (void)o;
+- (id)do;
 - (id);
-- (id);
-- (void)yCG;
+- (void)SaySo12NSDictionaryCG;
 
 @end
 

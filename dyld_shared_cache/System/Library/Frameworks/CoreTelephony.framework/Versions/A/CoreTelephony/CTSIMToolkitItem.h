@@ -9,24 +9,22 @@
 @interface CTSIMToolkitItem
 {
     _Bool _selected;
-    NSString *_text;
 }
 
-+ (_Bool);
++ (_Bool)or non video media type;
 - (id);
 - (id);
+- (id)A;
 - (id);
-- (id);
-- (void);
+- (void)initWithIdentifier:(id)arg1 accessKey:privateKeys:secrets: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (void)1Â0@ù
 × ;
-- (_Bool)ignalStrengthMaxDisplayValue;
+- (_Bool)kRegistrationSignalStrengthMaxDisplayValue;
 
 // Remaining properties
-@property(nonatomic) _Bool selected; // @synthesize selected=_selected;
 @property(retain, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end

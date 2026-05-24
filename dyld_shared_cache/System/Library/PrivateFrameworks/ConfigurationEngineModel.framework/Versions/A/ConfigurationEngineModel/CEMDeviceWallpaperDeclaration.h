@@ -6,13 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface CEMDeviceWallpaperDeclaration : CEMConfigurationBase
 {
     NSString *_payloadLockScreenAsset;
-    NSString *_payloadHomeScreenAsset;
-    NSNumber *_payloadAllowWallpaperModification;
 }
 
 + (id);
@@ -20,7 +18,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)2;
 + (id);
 - (void);
 - (void);
@@ -30,24 +28,15 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool)ain (high freq);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *payloadAllowWallpaperModification; // @synthesize payloadAllowWallpaperModification=_payloadAllowWallpaperModification;
-@property(copy, nonatomic) NSString *payloadHomeScreenAsset; // @synthesize payloadHomeScreenAsset=_payloadHomeScreenAsset;
 @property(copy, nonatomic) NSString *payloadLockScreenAsset; // @synthesize payloadLockScreenAsset=_payloadLockScreenAsset;
-@property(readonly) Class superclass;
 
 @end
 

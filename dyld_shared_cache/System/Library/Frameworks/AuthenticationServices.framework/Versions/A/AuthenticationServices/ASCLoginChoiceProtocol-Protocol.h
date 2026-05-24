@@ -6,11 +6,10 @@
 
 @protocol ASCLoginChoiceProtocol
 
-// Remaining properties
-@property(readonly, nonatomic) _Bool isSharedCredential;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
+@optional
+- (_Bool);
 
+// Remaining properties
 @property(readonly, nonatomic) unsigned long long loginChoiceKind;
 @end
 

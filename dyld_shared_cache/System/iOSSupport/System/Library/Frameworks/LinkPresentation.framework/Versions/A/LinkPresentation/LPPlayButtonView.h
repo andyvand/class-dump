@@ -6,17 +6,12 @@
 
 #import <LinkPresentation/LPComponentView.h>
 
-@class LPAudioPlayButtonStyle, LPInlineMediaPlaybackInformation, LPPlayButtonControl, LPPlayButtonPresentationProperties;
+@class LPPlayButtonControl;
 
 __attribute__((visibility("hidden")))
 @interface LPPlayButtonView : LPComponentView
 {
     LPPlayButtonControl *_button;
-    LPInlineMediaPlaybackInformation *_playbackInformation;
-    struct UIEdgeInsets _contentInset;
-    LPAudioPlayButtonStyle *_style;
-    _Bool _hasBuilt;
-    LPPlayButtonPresentationProperties *_properties;
 }
 
 - (void);
@@ -26,18 +21,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)transcriptBoldTextAlignmentInsets;
+- (void)transcriptBoldPreferredFont;
+- (void)textInRange: /* Error: Ran out of types for this method. */;
+- (_Bool)textEffectsCoordinator;
+- (void)textDroppableView:willPerformDrop: /* Error: Ran out of types for this method. */;
+- (void)textDroppableView:previewForDroppingAllItemsWithDefault: /* Error: Ran out of types for this method. */;
+- (id)targetColor;
+- (void)systemScreenDidPowerDown;
 - (id);
 - (void);
-- (id);
 - (void);
-- (void);
-- (id);
+- (id)participantDestinationIdentifiers;
 - (id);
 - (void)0@ù
 × ;

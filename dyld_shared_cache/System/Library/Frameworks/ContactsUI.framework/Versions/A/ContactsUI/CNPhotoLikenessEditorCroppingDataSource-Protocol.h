@@ -5,10 +5,9 @@
 //
 
 @protocol CNPhotoLikenessEditorCroppingDataSource
-- (struct CGRect)nessResult:memojiMetadata:cancelled: /* Error: Ran out of types for this method. */;
+- (struct CGRect)editorDidFinish:withLikenessResult:memojiMetadata:cancelled: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property struct CGRect cropRect;
-@property(readonly) double viewFinderDiameter;
 @end
 

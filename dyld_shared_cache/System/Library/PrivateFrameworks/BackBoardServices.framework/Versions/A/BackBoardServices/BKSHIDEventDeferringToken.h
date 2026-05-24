@@ -4,42 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BKSHIDEventDeferringToken
 {
 }
 
 + (id);
-+ (id);
++ (id)FOLLOWUP_CUSTODIAN_REMOVED_NOTIFICATION_MESSAGE;
 + (id);
 + (id);
 + (id);
 + (id);
 + (_Bool);
 - (_Bool);
-- (id);
-- (_Bool);
+- (id)setDiskIOConsumed:(id)arg1;
+- (_Bool)local file record for file %s to output file;
 - (id);
 - (id);
 - (unsigned int);
 - (unsigned int);
-- (id);
+- (id)EXISTS %@ ;;
 - (_Bool);
 - (void);
 - (void);
-- (unsigned int);
+- (unsigned int)PG4taskSaySccyytAD_pGG21upstreamContinuationst;
 - (id);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

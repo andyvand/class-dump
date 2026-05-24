@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)"%@" is not a supported format (%@) and must be explicitly synthesized using SYNTHESIZE_STRUCT_PROPERTY();
 - (int);
 
 // Remaining properties

@@ -9,19 +9,17 @@
 @interface SLSBridgedSpaceSetAlphaOperation : SLSAsynchronousBridgedWindowManagementOperation
 {
     float _alpha;
-    unsigned long long _spaceID;
 }
 
 + (_Bool);
-- (void);
-- (id);
+- (void)registerObject:forInsertedRecord:withMetadata:] /* Error: Ran out of types for this method. */;
+- (id)@, %@, %@, %@ FROM %@ LEFT JOIN %@ ON %@ = %@ AND %@ = %@;
 - (unsigned long long);
 - (id);
 - (void);
 - (float);
 
 // Remaining properties
-@property(readonly) float alpha; // @synthesize alpha=_alpha;
 @property(readonly) unsigned long long spaceID; // @synthesize spaceID=_spaceID;
 
 @end

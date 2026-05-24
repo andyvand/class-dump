@@ -10,7 +10,7 @@
 
 + (id);
 + (id)ering;
-- (void);
+- (void)Library/Internet Accounts/V1/%@;
 - (void);
 
 @end

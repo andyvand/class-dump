@@ -6,27 +6,23 @@
 
 #import <AppleMediaServicesUI/AMSUIWebAction.h>
 
-@class NSDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebPluginAction : AMSUIWebAction
 {
     NSString *_actionIdentifier;
-    NSString *_bundleIdentifier;
-    NSDictionary *_options;
 }
 
-- (id);
-- (id);
-- (id);
+- (id)dForAssertion:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)Fail;
+- (id)P;
 - (id);
 - (id);
 - (void)"16@"_WKPageLoadTiming"24;
 
 // Remaining properties
 @property(readonly) NSString *actionIdentifier; // @synthesize actionIdentifier=_actionIdentifier;
-@property(readonly) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly) NSDictionary *options; // @synthesize options=_options;
 
 @end
 

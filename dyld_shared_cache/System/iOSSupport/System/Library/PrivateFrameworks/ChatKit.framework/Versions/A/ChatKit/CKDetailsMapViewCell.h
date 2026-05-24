@@ -6,43 +6,30 @@
 
 #import <ChatKit/CKDetailsCell.h>
 
-@class CKDetailsLocationStringCell, NSString, UIView;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface CKDetailsMapViewCell : CKDetailsCell
 {
     _Bool _enableAdditionalTopPadding;
-    _Bool _shouldShowLocationString;
-    UIView *_mapView;
-    CKDetailsLocationStringCell *_locationStringView;
 }
 
 + (_Bool);
 + (id);
-- (_Bool);
+- (_Bool)troller",&,N,V_zoomController;
+- (void)age_$_managedObjectContextDidSavePublisher;
 - (void);
 - (void);
+- (id);;
+- (_Bool)er. Using containerWithIdentifier.;
 - (void);
-- (id);
-- (_Bool);
-- (void);
-- (id)ributionViewMaxWidth;
+- (id)attributionViewMaxWidth;
 - (void);
 - (id);
 - (void)À;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool enableAdditionalTopPadding; // @synthesize enableAdditionalTopPadding=_enableAdditionalTopPadding;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CKDetailsLocationStringCell *locationStringView; // @synthesize locationStringView=_locationStringView;
 @property(retain, nonatomic) UIView *mapView; // @synthesize mapView=_mapView;
-@property(nonatomic) _Bool shouldShowLocationString; // @synthesize shouldShowLocationString=_shouldShowLocationString;
-@property(readonly) Class superclass;
 
 @end
 

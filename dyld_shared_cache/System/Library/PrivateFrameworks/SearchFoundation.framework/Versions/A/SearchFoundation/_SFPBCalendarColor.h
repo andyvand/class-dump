@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _SFPBCalendarColor
 {
@@ -15,25 +15,17 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)l;
 - (_Bool);
 - (_Bool);
+- (id)initWithSceneAnalysisVersion:(id)arg1 faceAnalysisVersion:characterRecognitionAlgorithmVersion:visualSearchAlgorithmVersion:stickerConfidenceAlgorithmVersion:vaAnalysisVersion:mediaAnalysisVersion: /* Error: Ran out of types for this method. */;
+- (id)AssetExportRequest] Required resources of asset %{public}@ are locally available.;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)sultsCount;
+- (void)resultsCount;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSString *eventIdentifier; // @synthesize eventIdentifier=_eventIdentifier;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 
 @end
 

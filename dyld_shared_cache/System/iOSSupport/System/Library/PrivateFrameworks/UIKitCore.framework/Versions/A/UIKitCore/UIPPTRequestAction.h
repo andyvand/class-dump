@@ -9,8 +9,8 @@
 }
 
 - (_Bool);
-- (long long);
-- (id);
+- (long long)xit zone at %@. Aborting sync, downloading all attachments. {shouldDownloadAssets:%@} /* Error: Ran out of types for this method. */;
+- (id)g existing chat %@ with record %@;
 - (long long)þÓsâ;
 
 @end

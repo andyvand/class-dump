@@ -12,7 +12,7 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void)m;
 - (void);
 - (void);
 - (void);
@@ -20,10 +20,10 @@
 - (long long);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)1;
 - (void);
 - (_Bool);
-- (void);
+- (void);
 
 @end
 

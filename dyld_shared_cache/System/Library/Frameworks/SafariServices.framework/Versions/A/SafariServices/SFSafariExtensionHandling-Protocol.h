@@ -5,5 +5,9 @@
 //
 
 @protocol SFSafariExtensionHandling
+
+@optional
+- (void);
+- (void)vf;
 @end
 

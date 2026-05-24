@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 + (id);
 - (float);
 - (void);
-- (void);
+- (void)tabDragController:destinationIndexPathForDropSession: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) float timeoutValue; // @synthesize timeoutValue=_timeoutValue;

@@ -7,10 +7,9 @@
 @class NSNumber, NSString;
 
 @protocol HMHAPMetadataCategory
+- (NSNumber *)fied phrase, then insert another phrase after it.;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *catDescription;
-@property(retain, nonatomic) NSNumber *identifier;
 @property(retain, nonatomic) NSString *uuidStr;
 @end
 

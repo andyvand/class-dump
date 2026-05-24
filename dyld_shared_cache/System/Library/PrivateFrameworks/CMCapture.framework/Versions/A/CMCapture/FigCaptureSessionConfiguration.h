@@ -4,47 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FigCaptureSmartStyle, NSArray, NSMutableArray, NSObject, NSString;
-@protocol OS_tcc_identity;
+@class NSMutableArray;
 
 @interface FigCaptureSessionConfiguration
 {
     NSMutableArray *_connections;
-    long long _configurationID;
-    unsigned long long _clientSDKVersionToken;
-    NSString *_sessionPreset;
-    _Bool _usesAppAudioSession;
-    _Bool _configuresAppAudioSession;
-    _Bool _configuresAppAudioSessionToMixWithOthers;
-    _Bool _configuresAppAudioSessionForBluetoothHighQualityRecording;
-    _Bool _allowedToRunInMultitaskingMode;
-    _Bool _isMultiCamSession;
-    _Bool _xctestAuthorizedToStealDevice;
-    _Bool _continuityCameraIsWired;
-    int _continuityCameraClientDeviceClass;
-    _Bool _clientIsVOIP;
-    _Bool _suppressVideoEffects;
-    NSObject<OS_tcc_identity> *_tccIdentity;
-    _Bool _checkIfFileAlreadyExistForMFO;
-    _Bool _clientExpectsCameraMountedInLandscapeOrientation;
-    _Bool _smartStyleRenderingEnabled;
-    long long _smartStyleControlMode;
-    FigCaptureSmartStyle *_smartStyle;
-    int _clientUIDeviceOrientation;
-    _Bool _automaticallyRunsDeferredStart;
 }
 
-+ (void)pRatioFor60FPS;
++ (void)MainToSIFRSkipRatioFor60FPS;
 - (void);
-- (id);
+- (id)stringWithCapsType: /* Error: Ran out of types for this method. */;
+- (_Bool)playWidenPath:in_pRecord: /* Error: Ran out of types for this method. */;
+- (void)paragraphEndCharacterProperties;
+- (void);
+- (void);
+- (void)P;
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool)@;
 - (void);
 - (void);
 - (id);
@@ -55,17 +32,17 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (unsigned long long);
+- (_Bool);
+- (unsigned long long)H	;
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (void);
+- (void);
+- (void)Ce;
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool), duplicateKey, sourceKey, label, value, type, extractionInfoId) VALUES (:entityId, :duplicateKey, :sourceKey, :label, :value, :type, :extractionInfoId) /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
@@ -77,7 +54,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)P;
 - (id);
 - (int);
 - (_Bool);
@@ -93,7 +70,7 @@
 - (long long)ÿ`³®ÿ`³®ÿ`³®ÿ`³®ÿ`³­ÿ`³­ÿ`³­ÿ`²­ÿ`²¬ÿ`²¬ÿg²­ÿo³­ÿv³®ÿ~´®ÿ´¯ÿµ¯ÿµ°ÿ¶±ÿ¤·²ÿª¸³ÿ°¸´ÿµ¹µÿººµÿ¿¹´ÿÅ¸²ÿË·°ÿÑ¶¯ÿØµ­ÿÝ´«ÿá²ªÿä±¨ÿä°§ÿf»°ÿf»°ÿf»¯ÿf»¯ÿf»¯ÿfº¯ÿfº¯ÿfº¯ÿfº®ÿf¹®ÿi¹®ÿqº¯ÿyº¯ÿ»°ÿ¼±ÿ¼±ÿ¾´ÿ¿´ÿ¥Àµÿ«À¶ÿ±Á¶ÿ·Á·ÿ¼Â·ÿÃÃ¶ÿÉÃµÿÎÂ³ÿÔÁ²ÿÛÀ°ÿàÀ®ÿä¿­ÿç¾«ÿç½©ÿkÁ±ÿkÁ±ÿkÁ±ÿkÁ±ÿkÁ±ÿkÁ±ÿkÀ°ÿkÀ°ÿkÀ°ÿjÀ°ÿjÀ¯ÿrÀ°ÿyÁ±ÿÁ±ÿÅµÿÆµÿÆ¶ÿÇ¶ÿ¦Ç·ÿ­È¸ÿ³É¸ÿ¹É¹ÿ¿Ê¹ÿÅË·ÿÌÌ·ÿÒËµÿ×Ë´ÿÝÊ²ÿãÊ±ÿçÊ¯ÿéÉ®ÿéÈ¬ÿoÇ²ÿoÇ²ÿoÇ²ÿoÇ²ÿoÇ²ÿoÆ²ÿnÆ²ÿnÆ²ÿnÆ±ÿnÆ±ÿnÆ±ÿqÆ±ÿxË¶ÿË¶ÿÌ·ÿÍ¸ÿÎ¸ÿÎ¹ÿ§Ïºÿ®ÐºÿµÑ»ÿ»Ñ»ÿÁÒ»ÿÈÓ¹ÿÎÔ¸ÿÕÕ·ÿÛÕ¶ÿáÔ´ÿæÔ³ÿéÔ²ÿìÔ°ÿìÓ¯ÿpÑ¹ÿpÑ¹ÿpÑ¹ÿpÑ¹ÿpÑ¹ÿpÑ¸ÿpÑ¸ÿpÑ¸ÿoÑ¸ÿoÑ¸ÿoÐ¸ÿoÐ·ÿvÑ¸ÿ~Ò¸ÿÓ¹ÿÓºÿÔ»ÿ Õ»ÿ¨Ö¼ÿ°×½ÿ·Ø½ÿ½Ù½ÿÃÚ½ÿÊÛ¼ÿÑÜºÿ×Ý¸ÿÞÞ·ÿäÞ¶ÿéÞµÿìÞ´ÿîÞ²ÿîÝ°ÿs×»ÿs×»ÿs×»ÿs×»ÿs×»ÿs×»ÿr×»ÿr×»ÿr×ºÿr×ºÿr×ºÿr×ºÿt×ºÿ}ØºÿÙ»ÿÚ¼ÿÛ½ÿ Ü¾ÿªÝ¿ÿ±Þ¿ÿ¹ß¿ÿ¿à¿ÿÆá¿ÿÍã¾ÿÓä¼ÿÚåºÿàæ¹ÿçç·ÿìç¶ÿïçµÿñç´ÿñç²ÿuÛ½ÿuÛ½ÿuÛ½ÿuÛ½ÿuÛ½ÿuÛ¼ÿuÛ¼ÿuÛ¼ÿuÛ¼ÿuÛ¼ÿuÛ¼ÿuÛ¼ÿtÛ»ÿzÛ¼ÿÝ½ÿÞ¾ÿß¿ÿ à¿ÿªáÀÿ²âÁÿºäÁÿÁåÁÿÈæÁÿÏèÀÿÕé¾ÿÛê¼ÿâìºÿéí¸ÿîî·ÿñî¶ÿóîµÿóî³ÿwÞ¾ÿwÞ¾ÿwÞ¾ÿwÞ¾ÿwÞ¾ÿvÞ¾ÿvÞ½ÿvÞ½ÿvÞ½ÿvÞ½ÿvÞ½ÿvÞ½ÿvÞ½ÿxÞ¼ÿß½ÿà¾ÿá¿ÿãÀÿ©äÁÿ²åÂÿºçÂÿÁèÂÿÈéÂÿÐëÁÿÖì¿ÿÝî½ÿãï»ÿéñ¸ÿîò·ÿòò¶ÿôòµÿôò³ÿxß¾ÿxß¾ÿxß¾ÿxß¾ÿxß¾ÿxß¾ÿwß¾ÿwß¾ÿwß¾ÿwß¾ÿwß½ÿwß½ÿwß½ÿwß½ÿà½ÿá¾ÿã¿ÿäÀÿ¨åÁÿ±æÂÿ¹èÂÿÁéÂÿÈêÂÿÐìÀÿÖî¿ÿÝï¼ÿãñºÿêò¸ÿïó¶ÿòôµÿôô´ÿôô³ÿxà¾ÿxà¾ÿxà¾ÿxà¾ÿxà¾ÿxà¾ÿxà¾ÿxà¾ÿxà¾ÿxà½ÿwà½ÿwà½ÿwà½ÿwà¼ÿ|à½ÿá½ÿâ¾ÿä¿ÿ¥åÀÿ®æÁÿ·èÁÿ¿éÁÿÇêÀÿÏì¿ÿÕí½ÿÜï»ÿâñ¸ÿéò¶ÿîó´ÿòô³ÿôô²ÿôô±ÿ;
 - (_Bool)d;
 - (int)BWFigVideoCaptureDevice.m:17853 /* Error: Ran out of types for this method. */;
-- (void)dRawPixelFormat;
+- (void)SupportedRawPixelFormat;
 - (void)[any width];
 - (void).
 
@@ -101,39 +78,7 @@ Component:(_Bool)arg1 %@
 Title:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allCameraSourcesAreMetadataCameras;
-@property(nonatomic) _Bool allowedToRunInMultitaskingMode; // @synthesize allowedToRunInMultitaskingMode=_allowedToRunInMultitaskingMode;
-@property(nonatomic) _Bool automaticallyRunsDeferredStart; // @synthesize automaticallyRunsDeferredStart=_automaticallyRunsDeferredStart;
-@property(nonatomic) _Bool checkIfFileAlreadyExistForMFO; // @synthesize checkIfFileAlreadyExistForMFO=_checkIfFileAlreadyExistForMFO;
-@property(nonatomic) _Bool clientExpectsCameraMountedInLandscapeOrientation; // @synthesize clientExpectsCameraMountedInLandscapeOrientation=_clientExpectsCameraMountedInLandscapeOrientation;
-@property(nonatomic) _Bool clientIsVOIP; // @synthesize clientIsVOIP=_clientIsVOIP;
-@property(nonatomic) unsigned long long clientSDKVersionToken; // @synthesize clientSDKVersionToken=_clientSDKVersionToken;
-@property(nonatomic) int clientUIDeviceOrientation; // @synthesize clientUIDeviceOrientation=_clientUIDeviceOrientation;
 @property(nonatomic) long long configurationID; // @synthesize configurationID=_configurationID;
-@property(nonatomic) _Bool configuresAppAudioSession; // @synthesize configuresAppAudioSession=_configuresAppAudioSession;
-@property(nonatomic) _Bool configuresAppAudioSessionForBluetoothHighQualityRecording; // @synthesize configuresAppAudioSessionForBluetoothHighQualityRecording=_configuresAppAudioSessionForBluetoothHighQualityRecording;
-@property(nonatomic) _Bool configuresAppAudioSessionToMixWithOthers; // @synthesize configuresAppAudioSessionToMixWithOthers=_configuresAppAudioSessionToMixWithOthers;
-@property(readonly, nonatomic) NSArray *connectionConfigurations;
-@property(nonatomic) int continuityCameraClientDeviceClass; // @synthesize continuityCameraClientDeviceClass=_continuityCameraClientDeviceClass;
-@property(nonatomic) _Bool continuityCameraIsWired; // @synthesize continuityCameraIsWired=_continuityCameraIsWired;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isMultiCamSession) _Bool multiCamSession; // @synthesize multiCamSession=_isMultiCamSession;
-@property(retain, nonatomic) NSString *sessionPreset; // @synthesize sessionPreset=_sessionPreset;
-@property(readonly, nonatomic) NSArray *sinkConfigurations;
-@property(copy, nonatomic) FigCaptureSmartStyle *smartStyle; // @synthesize smartStyle=_smartStyle;
-@property(nonatomic) long long smartStyleControlMode; // @synthesize smartStyleControlMode=_smartStyleControlMode;
-@property(nonatomic) _Bool smartStyleRenderingEnabled; // @synthesize smartStyleRenderingEnabled=_smartStyleRenderingEnabled;
-@property(readonly, nonatomic) NSArray *sourceConfigurations;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool suppressVideoEffects; // @synthesize suppressVideoEffects=_suppressVideoEffects;
-@property(retain, nonatomic) NSObject<OS_tcc_identity> *tccIdentity; // @synthesize tccIdentity=_tccIdentity;
-@property(nonatomic) _Bool usesAppAudioSession; // @synthesize usesAppAudioSession=_usesAppAudioSession;
-@property(nonatomic) _Bool xctestAuthorizedToStealDevice; // @synthesize xctestAuthorizedToStealDevice=_xctestAuthorizedToStealDevice;
 
 @end
 

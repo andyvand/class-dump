@@ -7,16 +7,6 @@
 @interface NewsPersonalization.Com_Apple_News_Personalization_SessionArticleLegacyMetadata._StorageClass__priv_D8642AF0C173376959CD58EC4E9760A2
 {
     id _topicIds;
-    id _publisherID;
-    id _features;
-    id _length;
-    id _group;
-    id _feed;
-    id _viewAction;
-    id _embedding;
-    id _bodyEmbedding;
-    id _adCategories;
-    id _groupBackingTagID;
 }
 
 @end

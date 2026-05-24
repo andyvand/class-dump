@@ -6,29 +6,27 @@
 
 #import <ScreenTimeCore/STUserNotificationContext.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface STAppRatingChangedUserNotificationContext : STUserNotificationContext
 {
     NSString *_regionRatingLimit;
-    NSArray *_bundleIdentifiers;
 }
 
 + (id);
 + (_Bool);
+- (id)NORE INTO item_screenshot (item_pid) SELECT item_pid FROM item;
+- (id)shot_token != '' THEN 3 ELSE (CASE WHEN store_screenshot_token != '' THEN 4 ELSE 0 END) END) END) END);
+- (void)= 1140150;;
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
 - (id);
 - (id);
 - (void);
+- (id)setEndTime: /* Error: Ran out of types for this method. */;
+- (id)invalid type;
+- (void)Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation;
 
 // Remaining properties
-@property(readonly) NSArray *bundleIdentifiers; // @synthesize bundleIdentifiers=_bundleIdentifiers;
 @property(readonly) NSString *regionRatingLimit; // @synthesize regionRatingLimit=_regionRatingLimit;
 
 @end

@@ -4,7 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSObject;
+@protocol DDSTrialClient, OS_dispatch_queue;
+
 @protocol DDSTrialManagerDataSource
+- (id <DDSTrialClient>)setHasDarwinConnectedDeviceWakeContext:(NSObject<OS_dispatch_queue> *)arg1;
 
 // Remaining properties
 @property(readonly) _Bool isEnabled;

@@ -7,9 +7,6 @@
 @interface PassKitCore.ProvisioningStepSEStorage
 {
     id context;
-    id credential;
-    id sharedState;
-    id storageManager;
 }
 
 @end

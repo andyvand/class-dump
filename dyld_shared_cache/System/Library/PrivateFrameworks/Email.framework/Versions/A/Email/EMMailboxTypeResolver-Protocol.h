@@ -7,6 +7,7 @@
 @class NSSet;
 
 @protocol EMMailboxTypeResolver
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *allMailboxObjectIDs;

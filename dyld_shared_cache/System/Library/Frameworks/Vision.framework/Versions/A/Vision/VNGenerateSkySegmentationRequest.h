@@ -17,8 +17,8 @@
 - (id);
 - (void);
 - (long long);
-- (id);
-- (void);
+- (id)Will reindex as failed to fetch client state;
+- (void)_externalIdentifiers;
 - (long long);
 - (_Bool)V;
 - (id)TÁC;

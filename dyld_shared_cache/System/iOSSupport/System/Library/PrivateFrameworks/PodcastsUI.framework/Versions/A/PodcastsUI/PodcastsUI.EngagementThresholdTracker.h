@@ -7,11 +7,6 @@
 @interface PodcastsUI.EngagementThresholdTracker
 {
     id $defaultActor;
-    id _status;
-    id _provider;
-    id _accountProvider;
-    id _subscription;
-    id _onStatusChange;
 }
 
 @end

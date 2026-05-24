@@ -8,12 +8,12 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)HMDAppleMediaAccessory;
++ (double)=;
 + (double);
 + (double);
-+ (double);
-+ (_Bool);
-+ (void);
++ (_Bool)-: /* Error: Ran out of types for this method. */;
++ (void)pA;
 + (id);
 
 @end

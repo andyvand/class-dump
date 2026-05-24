@@ -8,18 +8,16 @@ __attribute__((visibility("hidden")))
 @interface MRMessageReplyIdentifier
 {
     unsigned long long _messageNumber;
-    CDUnknownBlockType _reply;
 }
 
 - (void);
 - (unsigned long long);
 - (CDUnknownBlockType);
 - (void)setRequestType: /* Error: Ran out of types for this method. */;
-- (void)Notification;
+- (void)MRGroupSessionNearbyContactDiscoveryPreferenceDidChangeNotification;
 
 // Remaining properties
 @property(nonatomic) unsigned long long messageNumber; // @synthesize messageNumber=_messageNumber;
-@property(copy, nonatomic) CDUnknownBlockType reply; // @synthesize reply=_reply;
 
 @end
 

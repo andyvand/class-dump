@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessorySettingMergeStrategy, NSArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessorySettingMetadata
 {
     NSString *_name;
-    NSString *_keyPath;
-    long long _type;
-    unsigned long long _properties;
-    HMDAccessorySettingMergeStrategy *_mergeStrategy;
-    NSArray *_constraints;
-    id _value;
 }
 
 + (id);
@@ -30,35 +24,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (long long);
-- (id)orkFirewallAddOverridesRequest: /* Error: Ran out of types for this method. */;
+- (id)_handleNetworkFirewallAddOverridesRequest: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)(%=;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSArray *constraints; // @synthesize constraints=_constraints;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *keyPath; // @synthesize keyPath=_keyPath;
-@property(readonly) HMDAccessorySettingMergeStrategy *mergeStrategy; // @synthesize mergeStrategy=_mergeStrategy;
 @property(readonly, copy) NSString *name; // @synthesize name=_name;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly) unsigned long long properties; // @synthesize properties=_properties;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
-@property(readonly) long long type; // @synthesize type=_type;
-@property(readonly) id value; // @synthesize value=_value;
 
 @end
 

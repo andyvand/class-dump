@@ -6,21 +6,11 @@
 
 #import <PassKitCore/PKApplyWebServiceRequest.h>
 
-@class NSArray, NSData, NSString, NSURL;
+@class NSString;
 
 @interface PKApplyWebServiceDocumentSubmissionRequest : PKApplyWebServiceRequest
 {
     NSString *_applicationIdentifier;
-    unsigned long long _featureIdentifier;
-    NSURL *_baseURL;
-    NSData *_frontImageData;
-    NSData *_backImageData;
-    NSData *_uploadedDocumentData;
-    NSString *_documentCountryCode;
-    unsigned long long _documentType;
-    NSArray *_certificates;
-    NSString *_odiAssessment;
-    long long _channel;
 }
 
 + (_Bool);
@@ -43,8 +33,8 @@
 - (void);
 - (void);
 - (long long);
-- (unsigned long long);
-- (id)onWithPurchase:paymentHash: /* Error: Ran out of types for this method. */;
+- (unsigned long long);
+- (id)_transactionWithPurchase:paymentHash: /* Error: Ran out of types for this method. */;
 - (id)"16@?0@"PKSubcredentialEncryptedContainer"8;
 - (void)gion/v2/config-alt.json;
 - (void);
@@ -53,16 +43,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *applicationIdentifier; // @synthesize applicationIdentifier=_applicationIdentifier;
-@property(copy, nonatomic) NSData *backImageData; // @synthesize backImageData=_backImageData;
-@property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(copy, nonatomic) NSArray *certificates; // @synthesize certificates=_certificates;
-@property(nonatomic) long long channel; // @synthesize channel=_channel;
-@property(copy, nonatomic) NSString *documentCountryCode; // @synthesize documentCountryCode=_documentCountryCode;
-@property(nonatomic) unsigned long long documentType; // @synthesize documentType=_documentType;
-@property(nonatomic) unsigned long long featureIdentifier; // @synthesize featureIdentifier=_featureIdentifier;
-@property(copy, nonatomic) NSData *frontImageData; // @synthesize frontImageData=_frontImageData;
-@property(copy, nonatomic) NSString *odiAssessment; // @synthesize odiAssessment=_odiAssessment;
-@property(copy, nonatomic) NSData *uploadedDocumentData; // @synthesize uploadedDocumentData=_uploadedDocumentData;
 
 @end
 

@@ -6,37 +6,9 @@
 
 #import <MetalTools/MTLToolsCommandBuffer.h>
 
-@class MTLGPUDebugCommandQueue, MTLGPUDebugDevice;
-@protocol MTLArgumentEncoder, MTLBuffer, MTLLogState;
-
 @interface MTLGPUDebugCommandBuffer : MTLToolsCommandBuffer
 {
     _Bool _initialized;
-    struct Options *_options;
-    struct GPUDebugDeviceOptions *_deviceOptions;
-    id <MTLArgumentEncoder> _stageArgumentEncoder;
-    vector_c45918ac _usedBuffers;
-    struct MetalBuffer _currentPooledBuffer;
-    unsigned long long _currentPooledBufferOffset;
-    struct vector<MTLGPUDebugBuffer *, std::allocator<MTLGPUDebugBuffer *>> _usedBytesBuffers;
-    struct mutex _usedBytesBuffersLock;
-    unsigned int _currentEncoderID;
-    unsigned int _numDispatches;
-    unordered_map_db0d7cf3 _encoderLabels;
-    struct mutex _allocationLock;
-    struct os_unfair_lock_s _tempBufLock;
-    _Bool _supportsTileStage;
-    _Bool _supportsMeshStage;
-    id <MTLBuffer> _internalBindingTables[5];
-    BufferUsageTable_ae770826 _bufferUsageTables[4];
-    TextureUsageTable_bc03d9af _textureUsageTables[4];
-    struct TensorUsageTable _tensorResidencyTables[4];
-    struct TextureTypeTable _textureTypeTables[4];
-    HeapUsageTable_a27726bc _heapUsageTable;
-    struct unordered_map<unsigned long, MTLGPUDebugResidencySet *, std::hash<unsigned long>, std::equal_to<unsigned long>, std::allocator<std::pair<const unsigned long, MTLGPUDebugResidencySet *>>> _residencySets;
-    struct unordered_map<unsigned long, (anonymous namespace)::EncoderResourceUsage, std::hash<unsigned long>, std::equal_to<unsigned long>, std::allocator<std::pair<const unsigned long, (anonymous namespace)::EncoderResourceUsage>>> _encodersResourceUsage;
-    id <MTLLogState> _reportLogState;
-    MTLGPUDebugCommandQueue *_commandQueue;
 }
 
 - (id);
@@ -58,7 +30,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (pair_eb21f6dd);
 - (void);
 - (id);
@@ -81,13 +53,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)sB;
 - (void);
 - (void)d::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, NSString *>, void *> *> *>>>={?=^^v{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, NSString *>, void *> *> *>>={?=Q}}}}{?={__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, NSString *>, void *> *>=^v}}{?=Q}{?=f}}}16@0:8 /* Error: Ran out of types for this method. */;
 - (id)mandBuffer, minDraws=%u, maxDraws=%u, avgDraws=%f, totalDraws=%llu, countDraws=%u;
 
 // Remaining properties
-@property(readonly) MTLGPUDebugDevice *device; // @dynamic device;
 @property unsigned int numDispatches; // @synthesize numDispatches=_numDispatches;
 
 @end

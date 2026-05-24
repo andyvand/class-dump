@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, UIImage;
+@class UIImage;
 
 @interface _UICollectionViewOutlineCellDisclosureConfiguration
 {
     CDUnknownBlockType _disclosureWasTappedHandler;
-    UIImage *_image;
-    long long _alignment;
-    double _animationRotationAngle;
-    UIColor *_disclosureColor;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)retrieveAccountAndPhoneAliasForAccounts:(id)arg1 shouldFilterRecepients:requestProxySend:preferredCallerID: /* Error: Ran out of types for this method. */;
+- (void)notifyDidSendMessageID:(double)arg1 shouldNotify: /* Error: Ran out of types for this method. */;
+- (id)_canSubmitCloudKitMetric;
+- (id)_canSubmitCloudKitAnalytic;
 - (double);
 - (id);
 - (void);
@@ -32,9 +28,6 @@
 - (void)ØRzÿÑÜ];
 
 // Remaining properties
-@property(nonatomic) long long alignment; // @synthesize alignment=_alignment;
-@property(nonatomic) double animationRotationAngle; // @synthesize animationRotationAngle=_animationRotationAngle;
-@property(retain, nonatomic) UIColor *disclosureColor; // @synthesize disclosureColor=_disclosureColor;
 @property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
 
 @end

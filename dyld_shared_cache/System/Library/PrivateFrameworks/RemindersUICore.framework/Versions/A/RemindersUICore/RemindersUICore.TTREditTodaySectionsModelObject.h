@@ -7,8 +7,6 @@
 @interface RemindersUICore.TTREditTodaySectionsModelObject
 {
     id _viewModel;
-    id discardChangesDialogState;
-    id _$observationRegistrar;
 }
 
 @end

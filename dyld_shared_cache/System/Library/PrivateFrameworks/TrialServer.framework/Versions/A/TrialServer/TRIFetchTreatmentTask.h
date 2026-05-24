@@ -6,63 +6,46 @@
 
 #import <TrialServer/TRITreatmentBaseTask.h>
 
-@class NSArray, NSDate, NSString, TRITaskCapabilityModifier;
-@protocol TRITaskQueueStateProviding;
+@class TRITaskCapabilityModifier;
 
 @interface TRIFetchTreatmentTask : TRITreatmentBaseTask
 {
     TRITaskCapabilityModifier *_capabilityModifier;
-    _Bool wasDeferred;
-    int retryCount;
 }
 
-+ (id);
++ (id);
 + (id);
 + (_Bool);
+- (id)leafamericaRAWImageType;
+- (id)initWithDescriptorType:(id)arg1 media:(id)arg2;
+- (id)indexOfObject:(unsigned long long)arg1 inSortedRange:options:usingComparator: /* Error: Ran out of types for this method. */;
+- (id)indexFileVersion;
+- (unsigned int)includePeople;
+- (id)inactiveTimeRect;
+- (id)headroomStrategy;
+- (id)hasselbladFFFRAWImageType;
+- (_Bool)gpsDictionaryForLocation:(id)arg1;
+- (void)fingerprintWithAssetAdjustmentFingerprintData:(int)arg1;
+- (id)g:(id)arg1 %@;
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned int);
-- (id);
-- (id);
-- (id);
-- (_Bool);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)~CNqxugDMzZbpGPPFXa8nb0E6XlRUL-OSm3IbHa0/Library/Caches/com.apple.xbs/TemporaryDirectory.3GkaPH/Sources/Photos/workspaces/neutrino/Core/Image/NUCVPixelBuffer.m;
+- (void)B;
 - (void);
 - (void)!ÈFù1!°1Â0@ù
 × ;
 - (_Bool)olloutcounts to %@;
 - (unsigned long long)database.;
 - (id)tch-activity-deadline-date;
-- (int)rts;
+- (int)DeleteExistingKeysAndCerts;
 - (void)tringForColumnAlias:(int)arg1 "type"];
 - (int)eventType,     rolloutId,     rampId,     deploymentId,     factorPackSetId ) VALUES (     :event_log_time,     :event_type,     :rollout_id,     :ramp_id,     :dep_id,     :fps_id ); /* Error: Ran out of types for this method. */;
 - (id)ÿ"õ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSArray *dependencies;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) int retryCount; // @synthesize retryCount;
-@property(copy, nonatomic) NSDate *startTime;
-@property(nonatomic) __weak id <TRITaskQueueStateProviding> stateProvider;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *tags;
-@property(readonly, nonatomic) NSString *taskName;
-@property(readonly, nonatomic) int taskType;
-@property _Bool wasDeferred; // @synthesize wasDeferred;
 
 @end
 

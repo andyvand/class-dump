@@ -6,18 +6,16 @@
 
 #import <OfficeImport/TCDumpType.h>
 
-@class NSMutableDictionary, NSString, TCDumpNumeric;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface TCDumpUnion : TCDumpType
 {
     NSString *mSelectorFieldName;
-    TCDumpNumeric *mSelectorField;
-    NSMutableDictionary *mSelectorToMemberMap;
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void)value for '%{public}s';

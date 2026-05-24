@@ -9,11 +9,10 @@
 @interface AKRoundedPath
 {
     struct CGPath *_CGPath;
-    NSMutableArray *_points;
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 - (id);
 - (id);
@@ -22,13 +21,12 @@
 - (void);
 - (void);
 - (void);
-- (struct CGPath *);
+- (struct CGPath *)wing dynamic_dequantize layer;
 - (struct CGRect);
-- (void);
+- (void)@;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) struct CGPath *CGPath; // @synthesize CGPath=_CGPath;
 @property(retain, nonatomic) NSMutableArray *points; // @synthesize points=_points;
 
 @end

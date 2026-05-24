@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol UICoordinateSpace;
 
 __attribute__((visibility("hidden")))
@@ -14,25 +13,17 @@ __attribute__((visibility("hidden")))
     struct CGRect _frame;
 }
 
+- (_Bool)logHandleIDs:(id)arg1 checkAdditionalLoggingEnabled:(id)arg2;
+- (id)logCloudKitSyncToPowerLogForSyncType:(id)arg1 isCoreDuetSync:(id)arg2 didStartSync:didFinishSync:didSucceedSyncing: /* Error: Ran out of types for this method. */;
+- (id)handleFailureInMethod:(struct CGRect)arg1 object:(id)arg2 file:lineNumber:description: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (struct CGRect)ToggleLetterCaseNext: /* Error: Ran out of types for this method. */;
+- (struct CGRect)setShouldToggleLetterCaseNext: /* Error: Ran out of types for this method. */;
 - (void)p¼[;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <UICoordinateSpace> coordinateSpace; // @synthesize coordinateSpace=_coordinateSpace;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) struct CGRect frame; // @synthesize frame=_frame;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface DEValidationResult
 {
     NSString *_status;
-    NSArray *_errors;
-    NSArray *_warnings;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)8Ԫ#;
 - (id);
 - (void)±Ð°Ð½Ð¾Ð¼;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *errors; // @synthesize errors=_errors;
 @property(retain, nonatomic) NSString *status; // @synthesize status=_status;
-@property(retain, nonatomic) NSArray *warnings; // @synthesize warnings=_warnings;
 
 @end
 

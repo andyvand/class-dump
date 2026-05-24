@@ -6,13 +6,12 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class NSData, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface AMSPACTokenTask : AMSTask
 {
     NSString *_simLabelID;
-    NSData *_signingData;
 }
 
 - (id);
@@ -23,7 +22,6 @@ __attribute__((visibility("hidden")))
 - (void)2²7·0°-­>¾;»<¼1±:º?¿8¸FÆCÃDÄIÉBÂGÇ@À]ÝNÎKËLÌAÁJÊOÏHÈµ5¥%&¦#£$¤)©"¢'§  =½.®+«,¬!¡*ª/¯(¨UÕvösótôyùròw÷pðmí~þ{û|üqñzúÿxøEÅ	 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSData *signingData; // @synthesize signingData=_signingData;
 @property(readonly) NSString *simLabelID; // @synthesize simLabelID=_simLabelID;
 
 @end

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKPaymentOfferDynamicContentIcon;
+@class NSString;
 
 @interface PKPaymentOfferInstallmentMerchantDetails
 {
     NSString *_merchantName;
-    PKPaymentOfferDynamicContentIcon *_icon;
 }
 
 + (_Bool);
@@ -18,18 +17,17 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)setMptcpHeuristicFallback:(id)arg1;
+- (void)AWDIDSSessionDeclineSent;
+- (id)hh8;
 - (id);
 - (id);
-- (id);
-- (id)ForSubCredentialId:(id)arg1;
-- (void)end;
+- (id)deleteKeyMaterialForSubCredentialId:(id)arg1;
+- (void)Send;
 
 // Remaining properties
-@property(retain, nonatomic) PKPaymentOfferDynamicContentIcon *icon; // @synthesize icon=_icon;
 @property(copy, nonatomic) NSString *merchantName; // @synthesize merchantName=_merchantName;
 
 @end

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface PKApplyWebServiceRequestAuthenticationContext
 {
     NSArray *_certificates;
-    NSData *_signaturePayload;
-    NSData *_signature;
-    NSData *_authenticationCrediential;
 }
 
 + (_Bool)X"ð!4Cùî%ð1Â0@ù
@@ -24,15 +21,12 @@
 - (void);
 - (void);
 - (id);
-- (id)Type;
+- (id)cryptogramType;
 - (void)?0@"PKPaymentDataItem"8Q16^B24;
 - (void)S_APY>;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *authenticationCrediential; // @synthesize authenticationCrediential=_authenticationCrediential;
 @property(copy, nonatomic) NSArray *certificates; // @synthesize certificates=_certificates;
-@property(copy, nonatomic) NSData *signature; // @synthesize signature=_signature;
-@property(copy, nonatomic) NSData *signaturePayload; // @synthesize signaturePayload=_signaturePayload;
 
 @end
 

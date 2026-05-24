@@ -7,11 +7,6 @@
 @interface PhotoAnalysis.TaskProgressChecker
 {
     id logger;
-    id wasStopped;
-    id lastProgress;
-    id timestampOfLastCallToProgress;
-    id timestampOfLastRecordedCallToProgress;
-    id numberOfCallsToProgressSinceLastRecordedCall;
 }
 
 @end

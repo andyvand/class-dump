@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class XMattingBoxTensorFilter;
-
 @protocol MattingFilter
-- (CDStruct_79af1cb6)ppXiek@ZQhrrqryyyyipousqos||||xxxxI`Vjzvqz°°°°    WnhwBJ:Q>>/>AA:AOOOOXXXX=PGYIUK]ae^hxurx|j}_vp{{ui}=]VnghhhmmmmppmpMhct[olwuuuunnjnTg_muuqvu}    Zphzcmerk}yXmdxHTCaWWHW\\R\`lfoOlf|ZupPcV{\unq{zw{^sp}bzz~uuuu?^Voeyx}}lvoa{wivo}zzzz{{{{iolo@TE`K^Ri¢¢¢¢    fTqmzgtp|{ewszvqza{z¢£¥¥¢©©¢¢¢¢hwuwhkeozzzzzzzzI[Okah`qF_Wi=PA`Ue\oPlf|Ge\{gxufzvxvo~{¡§ºººº¼¼¼¼¦¦¦¦n~zwslyfrmw`niu_gamgd]g\gcissssdx{{ztc~pslzjtn}s~~~~_f`i\\\\KYQ[J^Wh}}}}vvvv4K:aHXLg||||}}}}Sfam>XOcagbiuusuw~~pe}j~yyyydf_h>PB^ScZpªªªª¬¬¬¬    zXf_mSN>X:M>Znnlnrzzzfplyntp{syy~Ylhwq|}}frqyqqmup|||{g~}}}}~~~~t{zi{z££££¤oZqjzWi`puupup¢¢¢¢¦¦¦¦fhdh+?.H<A2AQQNQVheinwxzd||}xxtxOmc~££££_xr~~~~yyyyVnfz¦¦¦¦¨¨¨¨ /* Error: Ran out of types for this method. */;
+- (int);
+- (int)T;
+- (void)qp4ymSOjV_qlQdFQ7vuY/Library/Caches/com.apple.xbs/TemporaryDirectory.fnPo2Z/Sources/SentencePiece/src/model_interface.h;
+- (CDStruct_21828f50)ppXiek@ZQhrrqryyyyipousqos||||xxxxI`Vjzvqz°°°°    WnhwBJ:Q>>/>AA:AOOOOXXXX=PGYIUK]ae^hxurx|j}_vp{{ui}=]VnghhhmmmmppmpMhct[olwuuuunnjnTg_muuqvu}    Zphzcmerk}yXmdxHTCaWWHW\\R\`lfoOlf|ZupPcV{\unq{zw{^sp}bzz~uuuu?^Voeyx}}lvoa{wivo}zzzz{{{{iolo@TE`K^Ri¢¢¢¢    fTqmzgtp|{ewszvqza{z¢£¥¥¢©©¢¢¢¢hwuwhkeozzzzzzzzI[Okah`qF_Wi=PA`Ue\oPlf|Ge\{gxufzvxvo~{¡§ºººº¼¼¼¼¦¦¦¦n~zwslyfrmw`niu_gamgd]g\gcissssdx{{ztc~pslzjtn}s~~~~_f`i\\\\KYQ[J^Wh}}}}vvvv4K:aHXLg||||}}}}Sfam>XOcagbiuusuw~~pe}j~yyyydf_h>PB^ScZpªªªª¬¬¬¬    zXf_mSN>X:M>Znnlnrzzzfplyntp{syy~Ylhwq|}}frqyqqmup|||{g~}}}}~~~~t{zi{z££££¤oZqjzWi`puupup¢¢¢¢¦¦¦¦fhdh+?.H<A2AQQNQVheinwxzd||}xxtxOmc~££££_xr~~~~yyyyVnfz¦¦¦¦¨¨¨¨ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) XMattingBoxTensorFilter *boxTensorFilter;
-@property(readonly) _Bool coefficientsComputed;
-@property CDStruct_79af1cb6 config;
-@property(readonly) _Bool stateComputed;
+@property CDStruct_21828f50 config;
 @end
 

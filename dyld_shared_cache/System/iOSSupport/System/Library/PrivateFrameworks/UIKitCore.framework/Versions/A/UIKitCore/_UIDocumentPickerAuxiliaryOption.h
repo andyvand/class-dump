@@ -4,42 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIImage;
+@class NSString;
 
 @interface _UIDocumentPickerAuxiliaryOption
 {
     _Bool _newlyAdded;
-    NSString *_title;
-    UIImage *_image;
-    NSString *_identifier;
-    CDUnknownBlockType _handler;
-    unsigned long long _order;
 }
 
-+ (_Bool)e2;
++ (_Bool)UICTFontTextStyleHeadline2;
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)didSendNotifyRecipientCommandForMessageID: /* Error: Ran out of types for this method. */;
+- (id)appearance;
 - (void);
 - (id);
 - (id);
-- (void)tedText;
-- (void)View:(CDUnknownBlockType)arg1 tableLayout:trailingSwipeActionsForRowAtIndexPath: /* Error: Ran out of types for this method. */;
+- (void)scaledAttributedText;
+- (void)collectionView:(CDUnknownBlockType)arg1 tableLayout:trailingSwipeActionsForRowAtIndexPath: /* Error: Ran out of types for this method. */;
 - (void)_stoppedTransitionWasCancelled;
-- (void)Key;
+- (void)_isKeyEquivalentOrKeyCodeSpecialKey;
 - (CDUnknownBlockType)ldAlwaysEnableMultitouchTimerAtTouchesBegin:,V__shouldAlwaysEnableMultitouchTimerAtTouchesBegin /* Error: Ran out of types for this method. */;
 - (id)Ò¬ç4	Òð¨H	Ò\°°	Ò;
-- (unsigned long long)TextInputContextDictationDidEndNotification;
+- (unsigned long long)_NSTextInputContextDictationDidEndNotification;
 - (id)%s;
 - (void)sÏ¸\;
 - (void)a;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(nonatomic, getter=isNewlyAdded) _Bool newlyAdded; // @synthesize newlyAdded=_newlyAdded;
-@property(nonatomic) unsigned long long order; // @synthesize order=_order;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

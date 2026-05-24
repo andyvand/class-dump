@@ -7,7 +7,6 @@
 @interface AppleMediaServices.AccountCachedServerData.TimeoutGuard__priv_0B6F1E7A1CB17FD6A121041CDC86A104
 {
     id $defaultActor;
-    id state;
 }
 
 @end

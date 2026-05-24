@@ -17,14 +17,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)c;
 - (id);
 - (id);
 - (id);
 - (long long);
 - (void);
 - (void);
-- (void);
+- (void)_;
 - (id);
 - (void);
 

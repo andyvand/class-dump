@@ -5,5 +5,8 @@
 //
 
 @protocol NSXPCListenerDelegate
+
+@optional
+- (_Bool)ilable for bluetooth device;
 @end
 

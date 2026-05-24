@@ -6,28 +6,20 @@
 
 #import <FinderKit/FI_TViewController.h>
 
-@class FI_TTaggingTokenField, NSArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface FI_TTagEditorController : FI_TViewController
 {
     struct TFENodeVector _nodes;
-    struct shared_ptr<TCoalescingNodeObserverCocoaBridge> _nodeObserver;
-    NSArray *_originalTagAttributes;
-    struct TNotificationCenterObserver _tagRegistryChangedObserver;
-    struct TNotificationCenterObserver _didEndEditingObserver;
-    struct TNotificationCenterObserver _forceTokenFieldToCommitObserver;
-    _Bool _canceled;
 }
 
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (struct TFENodeVector);
-- (id);
+- (id)Ќ;
 - (void);
 - (void);
 - (id);
@@ -38,15 +30,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(getter=isCanceled) _Bool canceled; // @synthesize canceled=_canceled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) FI_TTaggingTokenField *taggingTokenField;
-@property(copy, nonatomic) NSArray *tags;
 
 @end
 

@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMSyndicationUtilities, NSString, SWHighlightCenter;
+@class IMSyndicationUtilities;
 
 @interface IMSWHighlightCenterController
 {
     IMSyndicationUtilities *_utilities;
-    SWHighlightCenter *_highlightCenter;
 }
 
 + (id);
-+ (id);
++ (id)	ki;
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)WebKit:(id)arg1:AuthenticationChallengeProxy, Source = API::Object] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -25,14 +24,6 @@
 - (void)p7¨GI;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) SWHighlightCenter *highlightCenter; // @synthesize highlightCenter=_highlightCenter;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) IMSyndicationUtilities *utilities; // @synthesize utilities=_utilities;
 
 @end

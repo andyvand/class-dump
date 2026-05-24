@@ -6,15 +6,14 @@
 
 #import <GeoServices/GEOXPCRequest.h>
 
-@class GEOMapRegion, NSString;
+@class GEOMapRegion;
 
 @interface GEOLocationShiftingIsRequiredRequest : GEOXPCRequest
 {
     GEOMapRegion *_region;
-    CDStruct_2c43369c _coordinate;
 }
 
-+ (Class);
++ (Class)_bytesReadInState;
 - (void);
 - (id);
 - (unsigned long long);
@@ -23,20 +22,12 @@
 - (void);
 - (CDStruct_c3b9c2ee)1Â0@ù
 × ;
-- (void)ep;
+- (void)_postAlightWalkingStep;
 - (void);
 - (id);6T9;
 
 // Remaining properties
 @property(nonatomic) CDStruct_c3b9c2ee coordinate; // @synthesize coordinate=_coordinate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) GEOMapRegion *region; // @synthesize region=_region;
-@property(readonly) Class superclass;
 
 @end
 

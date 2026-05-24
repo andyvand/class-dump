@@ -6,28 +6,24 @@
 
 #import <AppStoreDaemon/ASDRequestOptions.h>
 
-@class NSArray, NSNumber, NSString;
+@class NSNumber;
 
 @interface ASDRestoreDemotedApplicationsRequestOptions : ASDRequestOptions
 {
     NSNumber *_accountID;
-    NSString *_appleID;
-    NSArray *_bundleIDs;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)$;
+- (void)A;
 - (void);
-- (void);
-- (id)ion: /* Error: Ran out of types for this method. */;
+- (id)setIAdAttribution: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *accountID; // @synthesize accountID=_accountID;
-@property(readonly, nonatomic) NSString *appleID; // @synthesize appleID=_appleID;
-@property(copy, nonatomic) NSArray *bundleIDs; // @synthesize bundleIDs=_bundleIDs;
 
 @end
 

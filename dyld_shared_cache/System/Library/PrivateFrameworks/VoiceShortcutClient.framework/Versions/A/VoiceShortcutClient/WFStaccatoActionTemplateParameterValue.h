@@ -4,26 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WFImage;
-@protocol WFPropertyListObject;
+@class NSString;
 
 @interface WFStaccatoActionTemplateParameterValue
 {
     NSString *_identifier;
-    NSString *_localizedTitle;
-    NSString *_localizedSubtitle;
-    WFImage *_image;
-    id <WFPropertyListObject> _serializedState;
 }
 
 + (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) WFImage *image; // @synthesize image=_image;
-@property(copy, nonatomic) NSString *localizedSubtitle; // @synthesize localizedSubtitle=_localizedSubtitle;
-@property(copy, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
-@property(retain, nonatomic) id <WFPropertyListObject> serializedState; // @synthesize serializedState=_serializedState;
 
 @end
 

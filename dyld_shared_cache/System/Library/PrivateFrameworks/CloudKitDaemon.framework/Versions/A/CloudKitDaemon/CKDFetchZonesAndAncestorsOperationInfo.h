@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface CKDFetchZonesAndAncestorsOperationInfo
 {
     NSArray *_recordZoneIDs;
-    NSDictionary *_configurationsByZoneID;
 }
 
-- (void);
+- (void)9h;
 - (id);
 - (id);
 - (void);
@@ -21,7 +20,6 @@
 - (void)y.ch2LMp/Sources/CloudKitTools/Sources/CloudKitDaemon/ProtectedCloudStorage/CKDPCSManager.m;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *configurationsByZoneID; // @synthesize configurationsByZoneID=_configurationsByZoneID;
 @property(retain, nonatomic) NSArray *recordZoneIDs; // @synthesize recordZoneIDs=_recordZoneIDs;
 
 @end

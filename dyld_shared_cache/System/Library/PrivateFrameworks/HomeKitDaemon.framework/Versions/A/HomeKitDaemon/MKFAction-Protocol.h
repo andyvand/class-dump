@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFActionDatabaseID, NSDate;
-@protocol MKFActionSet, MKFHome;
+@class NSDate;
+@protocol MKFHome;
 
 @protocol MKFAction
 - (id <MKFHome>)á!LEùÐ1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) id <MKFActionSet> actionSet;
-@property(readonly, copy, nonatomic) MKFActionDatabaseID *databaseID;
-@property(readonly) id <MKFHome> home;
 @property(copy, nonatomic) NSDate *writerTimestamp;
 @end
 

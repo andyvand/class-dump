@@ -4,34 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSUUID, RTPredictedContextRequestMO;
-
 @interface RTPredictedContextMO
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)sendMetricWithEvent:(id)arg1 success:(id)arg2 error:(id)arg3;
++ (id)rtcAnalyticsReporter;
++ (id)ed peel-off...;
 
 // Remaining properties
 @property(nonatomic) short contextType; // @dynamic contextType;
-@property(nonatomic) double locationLatitude; // @dynamic locationLatitude;
-@property(nonatomic) double locationLongitude; // @dynamic locationLongitude;
-@property(nonatomic) long long locationOfInterestType; // @dynamic locationOfInterestType;
-@property(copy, nonatomic) NSUUID *loiIdentifier; // @dynamic loiIdentifier;
-@property(retain, nonatomic) RTPredictedContextRequestMO *predictedContextRequest; // @dynamic predictedContextRequest;
-@property(copy, nonatomic) NSDate *predictionEndDate; // @dynamic predictionEndDate;
-@property(nonatomic) double predictionEndDateConfidenceInterval; // @dynamic predictionEndDateConfidenceInterval;
-@property(nonatomic) long long predictionSourceMask; // @dynamic predictionSourceMask;
-@property(copy, nonatomic) NSDate *predictionStartDate; // @dynamic predictionStartDate;
-@property(nonatomic) double predictionStartDateConfidenceInterval; // @dynamic predictionStartDateConfidenceInterval;
-@property(nonatomic) double probability; // @dynamic probability;
-@property(copy, nonatomic) NSString *sourceBundleIdentifier; // @dynamic sourceBundleIdentifier;
-@property(copy, nonatomic) NSDate *submissionDate; // @dynamic submissionDate;
-@property(nonatomic) short transportMode; // @dynamic transportMode;
-@property(nonatomic) short workoutActivityType; // @dynamic workoutActivityType;
-@property(nonatomic) long long workoutLocationType; // @dynamic workoutLocationType;
 
 @end
 

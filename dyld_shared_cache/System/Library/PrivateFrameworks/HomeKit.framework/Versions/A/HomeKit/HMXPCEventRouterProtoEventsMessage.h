@@ -9,19 +9,18 @@
 @interface HMXPCEventRouterProtoEventsMessage
 {
     NSMutableArray *_cachedEvents;
-    NSMutableArray *_events;
 }
 
 + (Class);
 + (Class);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
+- (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id);
+- (id)RLk;
+- (void);
+- (unsigned long long)clientID (%{public}@), found assertion IDs (%{public}@);
+- (id)with ID:(unsigned long long)arg1 (%{public}@);
 - (void);
 - (void);
 - (id);
@@ -29,16 +28,15 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (_Bool);
-- (void);
+- (void)M/>0?G!A;
+- (_Bool)territory;
+- (void)(;
 - (id);
 - (id);
 - (id);
 - (void)R,W,V_manager;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *cachedEvents; // @synthesize cachedEvents=_cachedEvents;
 @property(retain, nonatomic) NSMutableArray *events; // @synthesize events=_events;
 
 @end

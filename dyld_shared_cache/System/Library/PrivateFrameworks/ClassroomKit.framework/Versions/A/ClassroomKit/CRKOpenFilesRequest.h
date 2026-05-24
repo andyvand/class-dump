@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSSet, NSString;
+@class NSSet;
 
 @interface CRKOpenFilesRequest
 {
     _Bool _autoAccept;
-    NSSet *_fileItems;
-    NSString *_senderName;
-    NSData *_previewImageData;
-    NSString *_sourceBundleIdentifier;
 }
 
-+ (_Bool);
++ (_Bool)F+;
 - (void);
 - (id);
 - (void);
@@ -25,17 +21,13 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)Cannot add 32 elements to context;
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool autoAccept; // @synthesize autoAccept=_autoAccept;
 @property(copy, nonatomic) NSSet *fileItems; // @synthesize fileItems=_fileItems;
-@property(copy, nonatomic) NSData *previewImageData; // @synthesize previewImageData=_previewImageData;
-@property(copy, nonatomic) NSString *senderName; // @synthesize senderName=_senderName;
-@property(copy, nonatomic) NSString *sourceBundleIdentifier; // @synthesize sourceBundleIdentifier=_sourceBundleIdentifier;
 
 @end
 

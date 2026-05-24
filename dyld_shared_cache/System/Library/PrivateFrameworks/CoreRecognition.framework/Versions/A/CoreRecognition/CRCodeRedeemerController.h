@@ -6,18 +6,17 @@
 
 #import <CoreRecognition/CRCameraReader.h>
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol CRCodeRedeemerControllerDelegate, OS_dispatch_queue;
 
 @interface CRCodeRedeemerController : CRCameraReader
 {
     id <CRCodeRedeemerControllerDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
 }
 
 + (unsigned long long);
 + (id);
-+ (id);
++ (id)nM9;
 - (void);
 - (void);
 - (void);
@@ -25,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)kCellularPlanErrorActivatePlanMismatchedCarrier;
 - (id);
 - (void);
 - (id);
@@ -33,27 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(copy) NSString *cameraMode; // @dynamic cameraMode;
-@property long long cameraPosition; // @dynamic cameraPosition;
-@property unsigned long long captureCount; // @dynamic captureCount;
-@property(getter=isCaptureMode) _Bool captureMode; // @dynamic captureMode;
-@property _Bool continousMode; // @dynamic continousMode;
-@property _Bool continuousMode; // @dynamic continuousMode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <CRCodeRedeemerControllerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(readonly, copy) NSString *description;
-@property long long exposureMode; // @dynamic exposureMode;
-@property long long focusMode; // @dynamic focusMode;
-@property(readonly) unsigned long long hash;
-@property double sessionTimeout; // @dynamic sessionTimeout;
-@property _Bool showDiagnosticHUD; // @dynamic showDiagnosticHUD;
-@property(readonly) Class superclass;
-@property long long torchMode; // @dynamic torchMode;
-@property long long whiteBalanceMode; // @dynamic whiteBalanceMode;
 
 @end
 

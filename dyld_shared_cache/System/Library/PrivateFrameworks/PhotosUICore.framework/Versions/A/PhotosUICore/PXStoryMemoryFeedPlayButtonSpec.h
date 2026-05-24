@@ -14,7 +14,7 @@
 }
 
 - (void);
-- (struct NSEdgeInsets);
+- (struct NSEdgeInsets);
 - (id);
 - (id);
 - (void)ís³@øþís³<øþt³lnÿ;

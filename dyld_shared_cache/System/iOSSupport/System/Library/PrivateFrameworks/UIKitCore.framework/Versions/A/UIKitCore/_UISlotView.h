@@ -6,47 +6,37 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, UISSlotStyle;
-@protocol UISSlotAnyContent, _UISlotViewContentDelegate;
+@class NSString;
 
 @interface _UISlotView : UIView
 {
     NSString *_localization;
-    CDUnknownBlockType _slotStyleResolver;
-    CDUnknownBlockType _slotAnyContentProvider;
-    id <_UISlotViewContentDelegate> _contentDelegate;
-    UISSlotStyle *_currentSlotStyle;
-    struct CGSize _intrinsicContentSize;
-    id <UISSlotAnyContent> _slotContent;
-    unsigned long long _currentGeneration;
 }
 
 + (id);
 + (_Bool) Óp;
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)_updateLastAddressedIDsIfNeededForChatWithIdentifier:style:lastAddressedHandle:lastAddressedSIMID:iMessageCapability: /* Error: Ran out of types for this method. */;
+- (void)_updateLastAddressedIDsIfNeededForChatWithIdentifier:(id)arg1 style:lastAddressedHandle:lastAddressedSIMID:iMessageCapability: /* Error: Ran out of types for this method. */;
+- (void)Handle:lastAddressedSIMID: /* Error: Ran out of types for this method. */;
+- (id)_updateLastAddressedIDsIfNeededForChatWithIdentifier:style:lastAddressedHandle:lastAddressedSIMID: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)_updateLastAddressedIDsIfNeededForChatWithIdentifier:style:lastAddressedHandle:lastAddressedSIMID: /* Error: Ran out of types for this method. */;
+- (void)_hasRegisteredLocalPhoneNumberForHandle:(CDUnknownBlockType)arg1;
+- (_Bool)_hasRecentOutgoingMessagesInChat:(id)arg1;
+- (void)_hasPopulatedHighlightTracking;
+- (void)SString",&,N,V_availabilityVerificationRecipientEncryptionValidationToken;
 - (void);
+- (id)leted;
 - (void);
-- (id);
-- (CDUnknownBlockType);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)P;
+- (id)event in unknown state:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (struct CGSize);
 - (void)UndoControl",&,N,V_aPasteButtonView;
-- (void)tionViewCSo8NSStringCSo11NSIndexPathCSo0a8ReusableB0CSgIeyByyya_;
+- (void)So16UICollectionViewCSo8NSStringCSo11NSIndexPathCSo0a8ReusableB0CSgIeyByyya_;
 - (void);
 
 // Remaining properties
-@property(nonatomic, setter=_setContentDelegate:) __weak id <_UISlotViewContentDelegate> _contentDelegate;
 @property(copy, nonatomic, setter=_setSlotAnyContentProvider:) CDUnknownBlockType _slotAnyContentProvider;
-@property(copy, nonatomic, setter=_setSlotStyleResolver:) CDUnknownBlockType _slotStyleResolver;
 
 @end
 

@@ -8,14 +8,15 @@
 {
 }
 
-+ (id);
-+ (void);
-+ (double);
-+ (id);
-+ (id);
-+ (id);
-+ (double);
-+ (double);
++ (id)apPlayback_parseResponseCreatingPICDataAndPlayerGUID;
++ (void)UID;
++ (double)EndpointPlaybackSessionAirPlay
+;
++ (id)ybackSessionRef *);
++ (id)}] Rapport device flags:%{flags} /* Error: Ran out of types for this method. */;
++ (id)t device mediaSystemName:(struct CGImageSource *)arg1 %@;
++ (double)device name:(struct CGImage *)arg1 %@;
++ (double)CMBaseObjectRef);
 
 @end
 

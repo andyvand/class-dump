@@ -40,15 +40,15 @@ struct CGSize {
 };
 
 struct CVSMPTETime {
-    short subframes;
-    short subframeDivisor;
-    unsigned int counter;
-    unsigned int type;
-    unsigned int flags;
-    short hours;
-    short minutes;
-    short seconds;
-    short frames;
+    short _field1;
+    short _field2;
+    unsigned int _field3;
+    unsigned int _field4;
+    unsigned int _field5;
+    short _field6;
+    short _field7;
+    short _field8;
+    short _field9;
 };
 
 struct _CGLContextObject {
@@ -1037,13 +1037,8 @@ struct _CGLContextObject {
 struct _CGLPrivateObject;
 
 struct _NSRange {
-    unsigned long long location;
-    unsigned long long length;
-};
-
-struct __sbuf {
-    char *_field1;
-    int _field2;
+    unsigned long long _field1;
+    unsigned long long _field2;
 };
 
 struct _xmlAttr {
@@ -1148,9 +1143,9 @@ typedef struct {
 } CDStruct_d27e73f0;
 
 typedef struct {
-    unsigned int width;
-    unsigned int height;
-} CDStruct_3e356df7;
+    unsigned int _field1;
+    unsigned int _field2;
+} CDStruct_c0454aff;
 
 typedef struct {
     float _field1;
@@ -1247,13 +1242,13 @@ typedef struct {
 } CDStruct_b2fbf00d;
 
 typedef struct {
-    int textureTarget;
-    _Bool wantsMipmap;
-    _Bool wantsPowerOfTwo;
-    _Bool wantsMonochromatic;
-    _Bool wantsFloatTexture;
-    _Bool wantsYUV;
-} CDStruct_e7c9fc71;
+    int _field1;
+    _Bool _field2;
+    _Bool _field3;
+    _Bool _field4;
+    _Bool _field5;
+    _Bool _field6;
+} CDStruct_ad85aa33;
 
 typedef struct {
     int _field1;
@@ -1267,14 +1262,14 @@ typedef struct {
 } CDStruct_912cb5d2;
 
 typedef struct {
-    unsigned int version;
-    int videoTimeScale;
-    long long videoTime;
-    unsigned long long hostTime;
-    double rateScalar;
-    long long videoRefreshPeriod;
-    struct CVSMPTETime smpteTime;
-    unsigned long long flags;
-    unsigned long long reserved;
-} CDStruct_489f4f2f;
+    unsigned int _field1;
+    int _field2;
+    long long _field3;
+    unsigned long long _field4;
+    double _field5;
+    long long _field6;
+    struct CVSMPTETime _field7;
+    unsigned long long _field8;
+    unsigned long long _field9;
+} CDStruct_e50ab651;
 

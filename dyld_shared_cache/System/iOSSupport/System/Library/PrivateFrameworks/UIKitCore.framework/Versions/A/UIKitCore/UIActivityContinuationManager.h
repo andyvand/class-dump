@@ -4,39 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSProgress, NSString;
+@class NSString;
 @protocol UIActivityContinuationManagerApplicationContext;
 
 __attribute__((visibility("hidden")))
 @interface UIActivityContinuationManager
 {
     id <UIActivityContinuationManagerApplicationContext> _context;
-    NSString *_currentActivityContinuationType;
-    NSString *_currentActivityContinuationUUIDString;
-    NSProgress *_currentActivityContinuationProgress;
 }
 
 - (_Bool);
 - (id);
 - (void);
+- (void)_trailingButton;
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)_playlistPropertySet;
+- (id)MPChangePlaybackRateCommand;
 - (id);
 - (_Bool);
-- (void);
+- (void)n;
 - (void);
 - (id);
 - (_Bool);
 - (void)ð!@ùÑ_°1Â0@ù
 × ;
 - (id)UIView"24;
-- (void)eRepresentationForTypeIdentifier:(id)arg1 toURL:options:completionBlock: /* Error: Ran out of types for this method. */;
-- (void)entsNeedUpdate;
-- (void)etionCommitted;
-- (_Bool);
+- (void)copyFileRepresentationForTypeIdentifier:(id)arg1 toURL:options:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)_trackingElementsNeedUpdate;
+- (void)_swipeDeletionCommitted;
+- (_Bool)_draggingProxy;
 - (void),N,V_keyboardVC;
 - (void)\Y¨Y¸\À]D^p_3Pbøb4cPeÄeìf`g°klÜlPn;
 - (id);
@@ -46,16 +43,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic, getter=_currentActivityContinuationProgress, setter=_setCurrentActivityContinuationProgress:) NSProgress *currentActivityContinuationProgress; // @synthesize currentActivityContinuationProgress=_currentActivityContinuationProgress;
 @property(copy, nonatomic, getter=_currentActivityContinuationType, setter=_setCurrentActivityContinuationType:) NSString *currentActivityContinuationType; // @synthesize currentActivityContinuationType=_currentActivityContinuationType;
-@property(copy, nonatomic, getter=_currentActivityContinuationUUIDString, setter=_setCurrentActivityContinuationUUIDString:) NSString *currentActivityContinuationUUIDString; // @synthesize currentActivityContinuationUUIDString=_currentActivityContinuationUUIDString;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

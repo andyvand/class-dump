@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue, VCMediaStreamDelegate;
+@class NSObject;
+@protocol VCMediaStreamDelegate;
 
 __attribute__((visibility("hidden")))
 @interface VCVirtualTextDevice
 {
     int _clientPid;
-    long long _state;
-    NSObject<OS_dispatch_queue> *_queue;
-    id _sendDelegate;
-    id _mediaStreamDelegate;
-    NSObject<OS_dispatch_queue> *_mediaStreamDelegateQueue;
-    struct tagVCMediaStreamDelegateRealtimeInstanceVTable _mediaStreamDelegateFunctions;
 }
 
 - (_Bool);
@@ -25,14 +19,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (struct tagVCMediaStreamDelegateRealtimeInstanceVTable);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)K0;
 - (void);
 - (id);
 - (id);
@@ -40,16 +34,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) NSObject<VCMediaStreamDelegate> *mediaStreamDelegate;
-@property(nonatomic) struct tagVCMediaStreamDelegateRealtimeInstanceVTable mediaStreamDelegateFunctions; // @synthesize mediaStreamDelegateFunctions=_mediaStreamDelegateFunctions;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *mediaStreamDelegateQueue;
-@property(readonly) Class superclass;
 
 @end
 

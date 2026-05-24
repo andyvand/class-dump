@@ -4,24 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDateComponentsFormatter;
-@protocol AVMediaTimelineControlSource, AVScrubberSliderDelegate;
-
 __attribute__((visibility("hidden")))
 @interface AVScrubberSlider
 {
     _Bool _showsBar;
-    _Bool _showsScrubberKnob;
-    NSArray *_loadedTimeRanges;
-    NSDateComponentsFormatter *_dateComponentsFormatter;
-    NSArray *_photosensitiveRegions;
-    NSArray *_timeRangeMarks;
-    id <AVScrubberSliderDelegate> _delegate;
-    NSArray *_highlightedTimeRanges;
-    id <AVMediaTimelineControlSource> _mediaTimelineControlSource;
 }
 
-+ (void)n: /* Error: Ran out of types for this method. */;
++ (void)segmentedControlWithLabels:trackingMode:target:action: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -37,27 +26,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (struct CGRect);
+- (struct CGRect)__objc_protorefs__DATA_CONST;
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)_familyGroceryListEligibility;
+- (void)J;
 - (void);
 - (id)
 × ;
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <AVScrubberSliderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSArray *highlightedTimeRanges; // @synthesize highlightedTimeRanges=_highlightedTimeRanges;
-@property(retain, nonatomic) NSArray *loadedTimeRanges;
-@property(nonatomic) __weak id <AVMediaTimelineControlSource> mediaTimelineControlSource; // @synthesize mediaTimelineControlSource=_mediaTimelineControlSource;
 @property(readonly, nonatomic) double normalizedSliderValue;
-@property(retain, nonatomic) NSArray *photosensitiveRegions;
-@property(nonatomic) _Bool showsBar; // @synthesize showsBar=_showsBar;
-@property(nonatomic) _Bool showsScrubberKnob; // @synthesize showsScrubberKnob=_showsScrubberKnob;
-@property(copy, nonatomic) NSArray *timeRangeMarks; // @synthesize timeRangeMarks=_timeRangeMarks;
 
 @end
 

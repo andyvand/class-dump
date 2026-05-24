@@ -10,10 +10,9 @@ __attribute__((visibility("hidden")))
 @interface PrintingAccessoryViewController
 {
     NSButton *printBackgroundsCheckbox;
-    NSButton *printHeadersAndFootersCheckbox;
 }
 
-+ (id);
++ (id)removeObjectAtIndex: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -22,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void)ÿÿK;
 

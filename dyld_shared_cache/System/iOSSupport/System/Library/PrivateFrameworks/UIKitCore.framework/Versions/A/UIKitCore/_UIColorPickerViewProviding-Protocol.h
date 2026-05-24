@@ -4,9 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _UIColorPickerViewControllerConfiguration;
+@class NSString, UIColor, _UIColorPickerViewControllerConfiguration;
 
 @protocol _UIColorPickerViewProviding
-- (void)ntentControlStateInContext:(_UIColorPickerViewControllerConfiguration *)arg1 withAnimationCoordinator:animated: /* Error: Ran out of types for this method. */;
+- (void)IMAVControlMuteButton;
+- (void)setValue:(UIColor *)arg1 ofProperty:(NSString *)arg2 ofPerson: /* Error: Ran out of types for this method. */;
+- (void)defuseCollaborationNoticePayload:resultHandler: /* Error: Ran out of types for this method. */;
+- (void)_updateFloatingContentControlStateInContext:(_UIColorPickerViewControllerConfiguration *)arg1 withAnimationCoordinator:animated: /* Error: Ran out of types for this method. */;
 @end
 

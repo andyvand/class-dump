@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, PKXPCService;
-@protocol OS_dispatch_queue, PKContinuityPaymentServiceDelegate;
+@class NSArray, PKXPCService;
 
 @interface PKContinuityPaymentService
 {
     PKXPCService *_remoteService;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    struct os_unfair_lock_s _remoteDeviceLock;
-    NSArray *_remoteDevices;
-    id <PKContinuityPaymentServiceDelegate> _delegate;
 }
 
-+ (id)quitousCatalogURL:directoryCoordinator: /* Error: Ran out of types for this method. */;
++ (id)catalogWithContentsOfURL:nonUbiquitousCatalogURL:directoryCoordinator: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void)R͗;;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -32,13 +27,13 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
+- (id);
+- (void)setHasTcpECNIntOnReorderPer:(id)arg1;
+- (void)hasEndpointsFetchTaskSuccessCount;
 - (id);
 - (id);
 - (void);
@@ -49,7 +44,6 @@
 - (void)?;
 
 // Remaining properties
-@property(nonatomic) __weak id <PKContinuityPaymentServiceDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) NSArray *remoteDevices; // @synthesize remoteDevices=_remoteDevices;
 
 @end

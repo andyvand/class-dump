@@ -9,10 +9,6 @@
 @interface AppStoreKit.PosterLockup : AppStoreKit.Lockup
 {
     id posterArtwork;
-    id posterVideo;
-    id epicHeading;
-    id footerText;
-    id isDark;
 }
 
 @end

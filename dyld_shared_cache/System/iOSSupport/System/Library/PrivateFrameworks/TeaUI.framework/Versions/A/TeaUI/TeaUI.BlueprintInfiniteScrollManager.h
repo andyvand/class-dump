@@ -7,12 +7,6 @@
 @interface TeaUI.BlueprintInfiniteScrollManager
 {
     id delegate;
-    id observableInfiniteScroll;
-    id inflightRequests;
-    id rangeCache;
-    id direction;
-    id maxInflightRequests;
-    id log;
 }
 
 @end

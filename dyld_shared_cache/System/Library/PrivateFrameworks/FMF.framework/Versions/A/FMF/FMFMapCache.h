@@ -4,29 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface FMFMapCache
 {
     _Bool _fileProtectionDeactivated;
-    NSMutableDictionary *_cacheMetaData;
-    NSMutableDictionary *_gridImageMetaData;
-    NSMutableDictionary *_noLocationImageMetaData;
-    NSMutableDictionary *_mapImageMetaData;
-    NSMutableDictionary *_pendingMapImageMetaData;
-    NSString *_cachePath;
-    NSString *_imageCachePath;
-    NSDate *_lastPruneDate;
-    NSObject<OS_dispatch_queue> *_cacheMetaQueue;
-    NSObject<OS_dispatch_queue> *_gridImageQueue;
-    NSObject<OS_dispatch_queue> *_noLocationImageQueue;
-    NSObject<OS_dispatch_queue> *_mapImageQueue;
-    NSObject<OS_dispatch_queue> *_pendingImageQueue;
-    double _mapLocationDistanceThreshold;
 }
 
+- (void);
 - (void);
 - (void);
 - (void);
@@ -38,8 +24,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (double);
@@ -50,8 +35,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (double);
+- (id)=;
+- (double);
 - (id);
 - (id);
 - (id);
@@ -80,20 +65,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *cacheMetaData; // @synthesize cacheMetaData=_cacheMetaData;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *cacheMetaQueue; // @synthesize cacheMetaQueue=_cacheMetaQueue;
-@property(retain, nonatomic) NSString *cachePath; // @synthesize cachePath=_cachePath;
-@property(nonatomic) _Bool fileProtectionDeactivated; // @synthesize fileProtectionDeactivated=_fileProtectionDeactivated;
-@property(retain, nonatomic) NSMutableDictionary *gridImageMetaData; // @synthesize gridImageMetaData=_gridImageMetaData;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *gridImageQueue; // @synthesize gridImageQueue=_gridImageQueue;
-@property(retain, nonatomic) NSString *imageCachePath; // @synthesize imageCachePath=_imageCachePath;
-@property(retain, nonatomic) NSDate *lastPruneDate; // @synthesize lastPruneDate=_lastPruneDate;
-@property(retain, nonatomic) NSMutableDictionary *mapImageMetaData; // @synthesize mapImageMetaData=_mapImageMetaData;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *mapImageQueue; // @synthesize mapImageQueue=_mapImageQueue;
-@property(nonatomic) double mapLocationDistanceThreshold; // @synthesize mapLocationDistanceThreshold=_mapLocationDistanceThreshold;
-@property(retain, nonatomic) NSMutableDictionary *noLocationImageMetaData; // @synthesize noLocationImageMetaData=_noLocationImageMetaData;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *noLocationImageQueue; // @synthesize noLocationImageQueue=_noLocationImageQueue;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *pendingImageQueue; // @synthesize pendingImageQueue=_pendingImageQueue;
-@property(retain, nonatomic) NSMutableDictionary *pendingMapImageMetaData; // @synthesize pendingMapImageMetaData=_pendingMapImageMetaData;
 
 @end
 

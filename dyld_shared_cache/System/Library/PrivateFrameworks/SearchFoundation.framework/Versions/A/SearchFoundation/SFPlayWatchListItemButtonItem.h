@@ -6,31 +6,16 @@
 
 #import <SearchFoundation/SFButtonItem.h>
 
-@class NSData, NSDictionary, NSString, SFButtonItemAppearance, SFImage, SFWatchListItem;
+@class SFWatchListItem;
 
 @interface SFPlayWatchListItemButtonItem : SFButtonItem
 {
     SFWatchListItem *_watchListItem;
-    NSString *_title;
-    SFImage *_image;
 }
 
 + (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) SFButtonItemAppearance *buttonAppearance;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SFImage *image; // @synthesize image=_image;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(nonatomic) unsigned long long uniqueId;
 @property(retain, nonatomic) SFWatchListItem *watchListItem; // @synthesize watchListItem=_watchListItem;
 
 @end

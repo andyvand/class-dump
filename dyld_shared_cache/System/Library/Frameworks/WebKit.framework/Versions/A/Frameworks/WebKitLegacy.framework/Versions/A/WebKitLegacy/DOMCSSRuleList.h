@@ -10,8 +10,8 @@
 {
 }
 
-- (id);
-- (void);
+- (id);
+- (void)attribute from keychain. Status:%{public}@ /* Error: Ran out of types for this method. */;
 - (unsigned int);
 
 // Remaining properties

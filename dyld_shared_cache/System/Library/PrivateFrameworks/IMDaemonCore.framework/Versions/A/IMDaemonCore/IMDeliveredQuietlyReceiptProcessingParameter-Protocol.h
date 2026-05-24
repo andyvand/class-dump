@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDiMessageIDSTrustedData, NSNumber, NSString;
+@class IMDiMessageIDSTrustedData, NSNumber;
 
 @protocol IMDeliveredQuietlyReceiptProcessingParameter
+- (_Bool)Methods) maxBitrateForConnectionType];
+- (_Bool)R;
+- (NSNumber *);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *GUID;
 @property(readonly, nonatomic) IMDiMessageIDSTrustedData *idsTrustedData;
-@property(readonly, nonatomic) _Bool isFromStorage;
-@property(readonly, nonatomic) _Bool isLastFromStorage;
-@property(readonly, nonatomic) NSNumber *timestamp;
 @end
 

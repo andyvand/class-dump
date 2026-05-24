@@ -9,21 +9,18 @@
 @interface CNUIBackgroundColors
 {
     NSArray *_contactImage;
-    NSArray *_contactPoster;
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)s:service:scheduler: /* Error: Ran out of types for this method. */;
+- (void)startRequestForCacheMisses:service:scheduler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *contactImage; // @synthesize contactImage=_contactImage;
-@property(retain, nonatomic) NSArray *contactPoster; // @synthesize contactPoster=_contactPoster;
 @property(readonly, nonatomic) NSData *data;
 
 @end

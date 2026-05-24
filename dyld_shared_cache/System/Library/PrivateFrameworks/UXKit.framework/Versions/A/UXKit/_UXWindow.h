@@ -17,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property __weak id <_UXWindowDelegate> delegate; // @dynamic delegate;

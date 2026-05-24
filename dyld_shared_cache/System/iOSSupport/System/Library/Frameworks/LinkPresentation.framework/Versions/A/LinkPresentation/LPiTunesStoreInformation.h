@@ -4,41 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSString, SKCloudServiceController;
+@class SKCloudServiceController;
 
 @interface LPiTunesStoreInformation
 {
     SKCloudServiceController *_cloudServiceController;
-    NSMapTable *_changeHandlers;
-    unsigned long long _capabilities;
-    _Bool _hasUpdatedCapabilities;
-    NSString *_storefrontIdentifier;
-    _Bool _capabilitiesAreOverridden;
-    _Bool _storefrontIdentifierIsOverridden;
 }
 
-+ (id);
-+ (unsigned long long);
++ (id)shouldNotifyForNextSystemActivity;
++ (unsigned long long)shouldNotShowGroupBanners;
 + (id)Ô ;
+- (unsigned long long)unitTestRunner:(id)arg1 testCase:didFailWithDescription:inFile:atLine: /* Error: Ran out of types for this method. */;
+- (void)uncroppedSourceFrame;
+- (void)transcriptEmphasizedPreferredFontAttributes;
+- (void)timestampsPushBalloons;
+- (void)thumbnailFitToSize: /* Error: Ran out of types for this method. */;
+- (void)thumbnailAtIndex:(id)arg1 forWidth:withImageData: /* Error: Ran out of types for this method. */;
+- (void)throwAnimationUsesAnimatedReloadForMessages:(id)arg1;
+- (void)throwAnimationManagerTopHeaderHeight:(unsigned long long)arg1;
+- (void)textStylePaletteMenuWithActiveTextStyles:selectedText:handler: /* Error: Ran out of types for this method. */;
+- (void)taillessBalloonMaskAlignmentRectInsets;
+- (id)creationDateEpochTime;
+- (void);
 - (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (unsigned long long);
-- (void);
-- (id)atorID;
+- (void)v;
+- (id)curatorID;
 
 // Remaining properties
 @property(readonly) unsigned long long capabilities;
-@property(readonly, copy) NSString *storefrontIdentifier;
 
 @end
 

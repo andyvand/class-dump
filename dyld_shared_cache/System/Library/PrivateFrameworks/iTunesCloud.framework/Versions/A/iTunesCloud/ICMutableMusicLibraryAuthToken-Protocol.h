@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @protocol ICMutableMusicLibraryAuthToken
+- (NSString *)";
+- (NSString *)?;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *deviceGUID;
-@property(copy, nonatomic) NSDate *expirationDate;
 @property(copy, nonatomic) NSString *token;
 @end
 

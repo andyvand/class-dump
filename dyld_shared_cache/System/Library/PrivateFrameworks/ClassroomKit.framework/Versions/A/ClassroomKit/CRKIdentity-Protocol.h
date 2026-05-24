@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol CRKCertificate, CRKPrivateKey;
+@protocol CRKCertificate;
 
 @protocol CRKIdentity
 
 // Remaining properties
 @property(readonly, nonatomic) id <CRKCertificate> certificate;
-@property(readonly, nonatomic) id <CRKPrivateKey> privateKey;
-@property(readonly, nonatomic) struct __SecIdentity *underlyingIdentity;
 @end
 

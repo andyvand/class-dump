@@ -8,8 +8,8 @@
 {
 }
 
-+ (CDUnknownBlockType);
-+ (id);
++ (CDUnknownBlockType)a;
++ (id);
 + (id);
 + (id);
 + (id);

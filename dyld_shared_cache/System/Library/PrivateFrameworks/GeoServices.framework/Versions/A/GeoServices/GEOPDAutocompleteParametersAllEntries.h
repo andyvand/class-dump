@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDViewportInfo, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOPDAutocompleteParametersAllEntries
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_query;
-    GEOPDViewportInfo *_viewportInfo;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _maxResults;
-    _Bool _highlightDiff;
-    CDStruct_f55cf389 _flags;
 }
 
-+ (_Bool)tLngE7:(id)arg1;
++ (_Bool)setHasWestLngE7:(id)arg1;
 - (id);
 - (void);
 - (void);
@@ -39,18 +30,18 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
+- (void)_;
+- (id)_createDirectoryIfDoesNotExist: /* Error: Ran out of types for this method. */;
+- (void)implicit_training_enabled;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)%u);
 - (id)b1"has_edited"b1"has_shared"b1"has_tapped"b1"has_visible"b1};
-- (id)yNotices;
+- (id)_advisoryNotices;
 - (id)d"³ä7À"³Ì 7Ð"³8!7à"³ "7ð"³ð"7;
 - (id)external_data_pending_deletion (ext_uuid)    SELECT ext_uuid FROM data WHERE ext_uuid IS NOT NULL AND data.rowid IN (    SELECT data_pk FROM tiles    );;
 - (void)(2$.google.protobuf.UninterpretedOption*	è"b
@@ -80,15 +71,7 @@
 com.google.protobufBDescriptorProtosH /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool hasHighlightDiff;
-@property(nonatomic) _Bool hasMaxResults;
 @property(readonly, nonatomic) _Bool hasQuery;
-@property(readonly, nonatomic) _Bool hasViewportInfo;
-@property(nonatomic) _Bool highlightDiff;
-@property(nonatomic) int maxResults;
-@property(retain, nonatomic) NSString *query;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) GEOPDViewportInfo *viewportInfo;
 
 @end
 

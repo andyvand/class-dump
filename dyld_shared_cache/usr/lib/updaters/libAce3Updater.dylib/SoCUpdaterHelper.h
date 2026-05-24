@@ -8,7 +8,6 @@
 {
     CDUnknownFunctionPointerType _logFunction;
     void *_logContext;
-    _Bool _verbose;
 }
 
 - (void);

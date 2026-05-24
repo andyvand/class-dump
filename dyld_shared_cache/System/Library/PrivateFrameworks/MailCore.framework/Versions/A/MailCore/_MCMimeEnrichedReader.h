@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableString;
-
 @interface _MCMimeEnrichedReader
 {
-    CDStruct_2ada2998 _inputBuffer;
-    long long _currentIndex;
-    long long _inputLength;
-    unsigned int _noFillLevel:30;
-    unsigned int _eatOneNewline:1;
-    unsigned int _insideComment:1;
-    long long _lastQuoteLevel;
-    NSMutableArray *_commandStack;
-    NSMutableString *_outputString;
-    NSMutableString *_outputBuffer;
-    _Bool outputShouldBeHTML;
+    struct {
+        unsigned short buffer[64];
+        struct __CFString *theString;
+        unsigned short *directUniCharBuffer;
+        char *directCStringBuffer;
+        struct {
+            long long location;
+            long long length;
+        } rangeToBuffer;
+        long long bufferedRangeStart;
+        long long bufferedRangeEnd;
+    } _inputBuffer;
 }
 
 - (void);
@@ -28,14 +27,14 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)y(;
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)RC;
 - (void);
 - (id);
 - (id);

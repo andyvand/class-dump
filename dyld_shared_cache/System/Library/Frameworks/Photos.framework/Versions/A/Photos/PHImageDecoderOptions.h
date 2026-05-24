@@ -7,23 +7,10 @@
 @interface PHImageDecoderOptions
 {
     _Bool _shouldLoadGainMap;
-    _Bool _optimizeForDrawing;
-    _Bool _highPriority;
-    _Bool _waitUntilComplete;
-    _Bool _allowFallbackDecoder;
-    _Bool _preferSWDecode;
-    _Bool _useLowMemoryMode;
-    _Bool _decodeAsHDR;
-    float _targetHDRHeadroom;
-    float _hdrGain;
-    long long _contentMode;
-    long long _resizeMode;
-    struct CGSize _targetSize;
-    struct CGRect _normalizedCropRect;
 }
 
 - (void);
-- (_Bool);
+- (_Bool)i,N,V_messageRemovalPolicy;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -35,19 +22,19 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)setBrandLogoArtworkCatalogBlock:(float)arg1;
 - (float);
 - (struct CGSize);
 - (_Bool);
 - (void);
 - (long long);
 - (struct CGRect);
+- (void)isEqualToDowntimeState:(struct CGSize)arg1;
+- (void);
+- (id)provider:(struct _NSZone *)arg1 performEnableVideoCallAction: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (_Bool)rveCloudIdentifiersWithEntityName:count:error: /* Error: Ran out of types for this method. */;
+- (_Bool)reserveCloudIdentifiersWithEntityName:count:error: /* Error: Ran out of types for this method. */;
 - (_Bool)nalysisClass(void)_block_invoke;
 - (void)lusterBased;
 - (void)listedFeature != nil;
@@ -56,22 +43,7 @@
 - (long long);
 
 // Remaining properties
-@property(nonatomic) _Bool allowFallbackDecoder; // @synthesize allowFallbackDecoder=_allowFallbackDecoder;
-@property(nonatomic) long long contentMode; // @synthesize contentMode=_contentMode;
-@property(nonatomic) _Bool decodeAsHDR; // @synthesize decodeAsHDR=_decodeAsHDR;
-@property(nonatomic) float hdrGain; // @synthesize hdrGain=_hdrGain;
-@property(nonatomic) _Bool highPriority; // @synthesize highPriority=_highPriority;
-@property(readonly, nonatomic) long long maximumLongSideLength;
-@property(nonatomic) struct CGRect normalizedCropRect; // @synthesize normalizedCropRect=_normalizedCropRect;
-@property(nonatomic) _Bool optimizeForDrawing; // @synthesize optimizeForDrawing=_optimizeForDrawing;
-@property(nonatomic) _Bool preferSWDecode; // @synthesize preferSWDecode=_preferSWDecode;
-@property(nonatomic) long long resizeMode; // @synthesize resizeMode=_resizeMode;
-@property(readonly, nonatomic) _Bool shouldCrop;
 @property(nonatomic) _Bool shouldLoadGainMap; // @synthesize shouldLoadGainMap=_shouldLoadGainMap;
-@property(nonatomic) float targetHDRHeadroom; // @synthesize targetHDRHeadroom=_targetHDRHeadroom;
-@property(nonatomic) struct CGSize targetSize; // @synthesize targetSize=_targetSize;
-@property(nonatomic) _Bool useLowMemoryMode; // @synthesize useLowMemoryMode=_useLowMemoryMode;
-@property(nonatomic) _Bool waitUntilComplete; // @synthesize waitUntilComplete=_waitUntilComplete;
 
 @end
 

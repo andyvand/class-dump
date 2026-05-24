@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, WFImage;
+@class NSString;
 
 @interface WFStaccatoActionTemplateParameterValueSection
 {
     NSString *_title;
-    NSString *_subtitle;
-    WFImage *_image;
-    NSArray *_values;
 }
 
 + (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) WFImage *image; // @synthesize image=_image;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(copy, nonatomic) NSArray *values; // @synthesize values=_values;
 
 @end
 

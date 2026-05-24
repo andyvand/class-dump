@@ -7,16 +7,14 @@
 @interface QLMemoryLimitedQueueTask
 {
     CDUnknownBlockType _block;
-    unsigned long long _expectedMemoryConsumption;
 }
 
-- (id);
-- (unsigned long long);
+- (id)= WTF:(CDUnknownBlockType)arg1:(unsigned long long)arg2 FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (unsigned long long)64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType);
 - (void);
 
 // Remaining properties
-@property(readonly) CDUnknownBlockType block; // @synthesize block=_block;
 @property(readonly) unsigned long long expectedMemoryConsumption; // @synthesize expectedMemoryConsumption=_expectedMemoryConsumption;
 
 @end

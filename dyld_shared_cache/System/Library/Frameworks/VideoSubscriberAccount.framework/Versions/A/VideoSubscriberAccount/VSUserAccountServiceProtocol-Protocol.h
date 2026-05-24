@@ -5,5 +5,10 @@
 //
 
 @protocol VSUserAccountServiceProtocol
+- (void);
+- (void)#;
+- (void);
+- (void);
+- (void);
 @end
 

@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SFImage, UIImage;
+@class UIImage;
 
 @interface WBSParsecImageRepresentation
 {
     UIImage *_image;
-    SFImage *_sfImage;
 }
 
 - (id);
 - (id);
-- (id);
-- (void)figuration:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)KEM-KEM-Key;
+- (void)readerViewFromArticleView:readerConfiguration:completionHandler: /* Error: Ran out of types for this method. */;
 
 @end
 

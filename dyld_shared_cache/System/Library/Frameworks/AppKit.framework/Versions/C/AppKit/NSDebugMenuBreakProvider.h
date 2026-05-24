@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     NSMenuItem *menuItem;
 }
 
-- (void);
-- (id);
-- (void);
+- (void)URLProtocol:(id)arg1 didFailWithError: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)corrupt resume data;
 - (id);
 - (void)#l®E;
 

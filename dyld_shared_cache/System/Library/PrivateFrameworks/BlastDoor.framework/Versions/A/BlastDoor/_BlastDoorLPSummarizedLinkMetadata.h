@@ -11,7 +11,7 @@
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)7;
 - (id);
 - (unsigned long long);
 - (_Bool);

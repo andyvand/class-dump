@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _UIVelocityIntegratorFilter;
-
 @interface _UIVelocityIntegrator
 {
     struct deque<_UIVelocityIntegratorDataSample, std::allocator<_UIVelocityIntegratorDataSample>> _samples;
-    _Bool _useSampleWindowForDifferentiation;
-    double _minimumRequiredMovement;
-    double _hysteresisTimeInterval;
-    long long _maxNumberOfSamples;
-    _UIVelocityIntegratorFilter *_positionFilter;
-    _UIVelocityIntegratorFilter *_velocityFilter;
-    _UIVelocityIntegratorFilter *_accelerationFilter;
-    double _resetHysteresisOnSampleThetaDiff;
-    CDUnknownBlockType _didResetHysteresisOnThetaDiffHandler;
-    CDUnion_84fc7ef9 _totalTranslation;
 }
 
 - (void);
@@ -28,14 +16,14 @@
 - (CDUnion_c6a188fc);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)T+ip81;
 - (void);
 - (void);
 - (void);
 - (long long);
-- (long long);
+- (long long)_preferredVideoFormat;
 - (id);
-- (CDUnion_c6a188fc);
+- (CDUnion_c6a188fc)] context=%p;
 - (void);
 - (id);
 - (CDUnion_c6a188fc);
@@ -53,10 +41,10 @@
 × ;
 - (void);
 - (CDUnion_c6a188fc)4;
-- (CDUnion_c6a188fc)ion;
-- (id)sesAccessibilityHairlineThickening;
-- (double)Effects;
-- (void):(CDUnion_c6a188fc)arg1 presentationValueChangedCallback:(double)arg2;
+- (CDUnion_c6a188fc)endFraction;
+- (id)_imageThatSuppressesAccessibilityHairlineThickening;
+- (double)_disableBlurEffects;
+- (void)_createTransformerWithInputAnimatableProperties:(CDUnion_c6a188fc)arg1 presentationValueChangedCallback:(double)arg2;
 - (void)nConstraint;
 - (void)&,N,V_cursorPortalInteraction;
 - (_Bool)ableArray",&,N,S_setMutableItems:,V_mutableItems /* Error: Ran out of types for this method. */;
@@ -67,28 +55,10 @@
 - (void)¹îÿ;
 - (void)GGAByAByAC.3GAJG_G;
 - (struct CGVector)efinitionCustomHandlingP;
-- (struct CGVector)efinitionIdentifier;
+- (struct CGVector)UISceneConnectionOptionDefinitionIdentifier;
 
 // Remaining properties
-@property(readonly, nonatomic) long long _sampleCount;
-@property(readonly, nonatomic) struct CGVector acceleration;
-@property(readonly, nonatomic) CDUnion_c6a188fc acceleration3D;
-@property(retain, nonatomic) _UIVelocityIntegratorFilter *accelerationFilter; // @synthesize accelerationFilter=_accelerationFilter;
-@property(copy, nonatomic) CDUnknownBlockType didResetHysteresisOnThetaDiffHandler; // @synthesize didResetHysteresisOnThetaDiffHandler=_didResetHysteresisOnThetaDiffHandler;
-@property(nonatomic) double hysteresisTimeInterval; // @synthesize hysteresisTimeInterval=_hysteresisTimeInterval;
-@property(nonatomic) long long maxNumberOfSamples; // @synthesize maxNumberOfSamples=_maxNumberOfSamples;
-@property(nonatomic) double minimumRequiredMovement; // @synthesize minimumRequiredMovement=_minimumRequiredMovement;
-@property(readonly, nonatomic) struct CGVector offset;
-@property(readonly, nonatomic) CDUnion_c6a188fc offset3D;
-@property(readonly, nonatomic) struct CGPoint position;
-@property(readonly, nonatomic) CDUnion_c6a188fc position3D;
-@property(retain, nonatomic) _UIVelocityIntegratorFilter *positionFilter; // @synthesize positionFilter=_positionFilter;
-@property(nonatomic) double resetHysteresisOnSampleThetaDiff; // @synthesize resetHysteresisOnSampleThetaDiff=_resetHysteresisOnSampleThetaDiff;
 @property(nonatomic) CDUnion_c6a188fc totalTranslation; // @synthesize totalTranslation=_totalTranslation;
-@property(nonatomic) _Bool useSampleWindowForDifferentiation; // @synthesize useSampleWindowForDifferentiation=_useSampleWindowForDifferentiation;
-@property(readonly, nonatomic) struct CGVector velocity;
-@property(readonly, nonatomic) CDUnion_c6a188fc velocity3D;
-@property(retain, nonatomic) _UIVelocityIntegratorFilter *velocityFilter; // @synthesize velocityFilter=_velocityFilter;
 
 @end
 

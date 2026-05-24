@@ -11,8 +11,6 @@
 @interface EWSFolderType : EWSBaseFolderType
 {
     _Bool _UnreadCountSpecified;
-    EWSPermissionSetType *_PermissionSet;
-    long long _UnreadCount;
 }
 
 + (id);
@@ -21,14 +19,12 @@
 - (_Bool);
 - (long long);
 - (id);
-- (id);
+- (id)h;
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) EWSPermissionSetType *PermissionSet; // @synthesize PermissionSet=_PermissionSet;
-@property(nonatomic) long long UnreadCount; // @synthesize UnreadCount=_UnreadCount;
-@property(nonatomic) _Bool UnreadCountSpecified; // @synthesize UnreadCountSpecified=_UnreadCountSpecified;
 
 @end
 

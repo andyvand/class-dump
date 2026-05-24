@@ -9,22 +9,21 @@
 @interface GEOTransitLink
 {
     void *_transitLink;
-    GEOVectorTile *_containingTile;
 }
 
 - (unsigned long long);
 - (struct GeoCodecsRange *);
 - (unsigned int);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (struct GeoCodecsRange *);
-- (struct GeoCodecsConnectivityJunction *);
+- (struct GeoCodecsConnectivityJunction *)C.;
 - (struct GeoCodecsRange *)
 × ;
 - (struct GeoCodecsConnectivityJunction *)*Ð1Â0@ù
 × ;
-- (unsigned int)ment: /* Error: Ran out of types for this method. */;
+- (unsigned int)setEnvironment: /* Error: Ran out of types for this method. */;
 - (struct GeoCodecsRange *)omposedRouteEVChargingStationInfo",&,N,V_evChargingInfo;
 - (struct GeoCodecsRange *)
 ;
@@ -33,19 +32,7 @@
 - (void *)3;
 
 // Remaining properties
-@property(readonly, nonatomic) struct GeoCodecsRange *collapsedNodesIDRange;
-@property(readonly, nonatomic) struct GeoCodecsRange *collapsedNodesIndexRange;
 @property(readonly, nonatomic) GEOVectorTile *containingTile;
-@property(readonly, nonatomic) struct GeoCodecsConnectivityJunction *fromJunction;
-@property(readonly, nonatomic) unsigned long long fromNodeID;
-@property(readonly, nonatomic) struct GeoCodecsRange *originalNodeIDPointerIndexRange;
-@property(readonly, nonatomic) unsigned int sectionCount;
-@property(readonly, nonatomic) unsigned int sectionOffset;
-@property(readonly, nonatomic) struct GeoCodecsRange *shieldIndexRange;
-@property(readonly, nonatomic) struct GeoCodecsConnectivityJunction *toJunction;
-@property(readonly, nonatomic) unsigned long long toNodeID;
-@property(readonly, nonatomic) struct GeoCodecsRange *transitIndexRange;
-@property(readonly, nonatomic) struct GeoCodecsRange *travelTimeIndexRange;
 
 @end
 

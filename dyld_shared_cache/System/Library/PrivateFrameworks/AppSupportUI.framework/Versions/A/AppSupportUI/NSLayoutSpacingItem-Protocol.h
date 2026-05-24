@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol NSLayoutSpacingItem
+- (NSString *)mpting to complete staging with nil active firmware version:%@ /* Error: Ran out of types for this method. */;
+- (NSString *)re staging is not in progress:%@ /* Error: Ran out of types for this method. */;
 @end
 

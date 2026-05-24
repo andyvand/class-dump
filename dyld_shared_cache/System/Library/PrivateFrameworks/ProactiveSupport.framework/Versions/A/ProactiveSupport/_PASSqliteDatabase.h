@@ -4,51 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSMutableDictionary, NSObject, NSString, _PASBloomFilterForWriting, _PASBloomFilterHashArray, _PASSQLTelemetryApi, _PASSqliteStatementCache;
-@protocol OS_dispatch_group, _PASSqliteErrorHandlerProtocol;
-
 @interface _PASSqliteDatabase
 {
     struct sqlite3 *_db;
-    int _transactionDepth;
-    _Bool _transactionRolledback;
-    struct atomic_flag _isClosed;
-    NSObject<_PASSqliteErrorHandlerProtocol> *_errorHandler;
-    NSString *_filename;
-    struct _opaque_pthread_mutex_t _lock;
-    NSObject<OS_dispatch_group> *_waitingForLock;
-    _Bool _currentExclusivity;
-    NSMutableDictionary *_explainedQueryForPlan;
-    NSCache *_explainedQueriesLogged;
-    struct __sFILE {
-        char *_field1;
-        int _field2;
-        int _field3;
-        short _field4;
-        short _field5;
-        struct __sbuf _field6;
-        int _field7;
-        void *_field8;
-        CDUnknownFunctionPointerType _field9;
-        CDUnknownFunctionPointerType _field10;
-        CDUnknownFunctionPointerType _field11;
-        CDUnknownFunctionPointerType _field12;
-        struct __sbuf _field13;
-        struct __sFILEX *_field14;
-        int _field15;
-        unsigned char _field16[3];
-        unsigned char _field17[1];
-        struct __sbuf _field18;
-        int _field19;
-        long long _field20;
-    } *_explainedQueriesLogFile;
-    _PASSqliteStatementCache *_statementCache;
-    _Bool _preparedForFirstQuery;
-    _PASSQLTelemetryApi *_sqlTelemetryApi;
-    _PASBloomFilterForWriting *_bloomFilter;
-    _PASBloomFilterHashArray *_hashArray;
-    _Bool _isInMemory;
-    long long _contentProtectionType;
 }
 
 + (id);
@@ -58,7 +16,7 @@
 + (_Bool);
 + (id);
 + (id);
-+ (id);
++ (id).xcode.mom;
 + (_Bool);
 + (void);
 + (id);
@@ -66,19 +24,16 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)-c;
 + (void);
 + (id);
++ (id)entifier);
 + (id);
-+ (id);
-+ (id);
++ (id);
 + (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) long long contentProtectionType; // @synthesize contentProtectionType=_contentProtectionType;
-@property(readonly, nonatomic) NSString *filename; // @synthesize filename=_filename;
 @property(readonly, nonatomic) struct sqlite3 *handle;
-@property(readonly, nonatomic) _Bool isInMemory; // @synthesize isInMemory=_isInMemory;
 
 @end
 

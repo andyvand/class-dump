@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _UIDebugLogStack;
 @protocol UIFocusEnvironment;
 
 @protocol _UIFocusEnvironmentPreferenceEnumerationContext
-- (id <UIFocusEnvironment>)bled;
+- (_Bool);
+- (id <UIFocusEnvironment>)UIFocusSystemEnabled;
 
 // Remaining properties
-@property(readonly, nonatomic) _UIDebugLogStack *debugStack;
 @property(readonly, nonatomic) id <UIFocusEnvironment> environment;
-@property(readonly, nonatomic) _Bool isLeafPreference;
-@property(readonly, nonatomic) _Bool isPrimaryPreference;
-@property(readonly, nonatomic, getter=isPreferredByItself) _Bool preferredByItself;
-@property(readonly, nonatomic) NSArray *preferredEnvironments;
-@property(readonly, nonatomic) id <UIFocusEnvironment> preferringEnvironment;
-@property(readonly, nonatomic) _Bool prefersNothingFocused;
 @end
 

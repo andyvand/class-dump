@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMServiceReachabilityResult, NSData, NSString;
+@class IMServiceReachabilityResult, NSString;
 
 @interface _IMDRelayingServiceReachabilityResponseHandler
 {
     NSString *_requestID;
-    NSData *_pushToken;
-    NSString *_fromIdentifier;
-    NSString *_toIdentifier;
-    IMServiceReachabilityResult *_lastResult;
 }
 
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -27,16 +23,13 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)%s:(id)arg1 notification for MAC lookup timeout
+;
 - (void);
 - (id)xt established:%@,  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *fromIdentifier; // @synthesize fromIdentifier=_fromIdentifier;
 @property(retain, nonatomic) IMServiceReachabilityResult *lastResult; // @synthesize lastResult=_lastResult;
-@property(retain, nonatomic) NSData *pushToken; // @synthesize pushToken=_pushToken;
-@property(retain, nonatomic) NSString *requestID; // @synthesize requestID=_requestID;
-@property(retain, nonatomic) NSString *toIdentifier; // @synthesize toIdentifier=_toIdentifier;
 
 @end
 

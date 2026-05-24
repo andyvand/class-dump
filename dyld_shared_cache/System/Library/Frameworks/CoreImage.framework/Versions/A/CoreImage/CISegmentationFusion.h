@@ -6,21 +6,16 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector, NSDictionary, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CISegmentationFusion : CIFilter
 {
     CIImage *inputImage;
-    CIImage *inputMatteImage;
-    CIVector *inputAddBlur;
-    CIVector *inputRemoveBlur;
-    NSNumber *inputApertureScaling;
-    NSDictionary *inputTuningParameters;
 }
 
 + (id);
-- (id);
+- (id);
 - (_Bool);
 - (id)U^Y_M]WdLfan||||ss¥¥y~wRi]}jri{}}z}|||||}|}vl{}~{gzwNja|t|x`rk~zyszp~~~{{{{jngshoit||||mwr~jxsf~{_ogkrk{ooixlqmvyyxyjus~vw{wp££££¯¯¯¯¡¦­¯¢¦kzthvqx{{{{}}}}zxwzruswuuuu_jfo\e_hddadH_Wi_qnv}}}}lspubd[kjjcmxxxx{v|zWsmRfYzyum~lvtvc_WgXe_k{{{{|r{z|{}}}}wwwwVnjv¡¡¡¡¨¨¨¨¨¨¨¨¡¡¡¡vvuvVWK_5H7W9PBadqot_xx}ltrwNjdqOd[q_ng{b}z{xrEe\xxxvxuuuuUcZjDZMeSbWmGh_xn{wp~o}xwwwww`cZiQ^UgUgbq{{{{{{{{[pkx}zw}b~~zzzzTibrruuuttttCZMhKO>[YVFYbaVbmmmmjmmmKZNdV_TellllQibopsnvt^|uW{tv    ¡¡¡¡ ag}yxvqxXd[jQ^Th]miu~Thbodd]dEXK^9O?`Hd[q ¦ªªª¤§§§swwwwYqmv||||};
 

@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface FI_TAirDropProgressControllerRegistry
 {
     NSMutableArray *_controllers;
-    struct vector<TNSWeakPtr<NSObject<TAirDropProgressControllerDelegate>>, std::allocator<TNSWeakPtr<NSObject<TAirDropProgressControllerDelegate>>>> _weakDelegates;
-    struct shared_ptr<TCoalescingNodeObserverCocoaBridge> _nodeObserver;
-    _Bool _isUserInAirDrop;
-    TNSWeakPtr_db0eab6c _updateControllersToken;
-    struct TNotificationCenterObserver _userEnteredOrExitedAirDropObserver;
-    struct TNotificationCenterObserver _airDropAvailableStateChangedObserver;
 }
 
 + (void);
@@ -29,25 +23,19 @@ __attribute__((visibility("hidden")))
 + (void);
 + (id);
 - (void);
-- (void);
+- (void)A;
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void).;
+- (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

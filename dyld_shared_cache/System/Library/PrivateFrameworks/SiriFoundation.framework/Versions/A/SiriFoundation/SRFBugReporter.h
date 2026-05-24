@@ -11,7 +11,7 @@
     SDRDiagnosticReporter *_diagnosticReporter;
 }
 
-+ (id);
++ (id)So26EKAutocompleteSearchResultC;
 - (void);
 - (void);
 - (void);

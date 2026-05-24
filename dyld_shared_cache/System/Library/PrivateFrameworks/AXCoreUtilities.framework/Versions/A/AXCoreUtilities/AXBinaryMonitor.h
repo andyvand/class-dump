@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface AXBinaryMonitor
 {
     NSMutableDictionary *_bundleHandlerMap;
-    NSMutableDictionary *_frameworkHandlerMap;
-    NSMutableDictionary *_dylibHandlerMap;
-    NSMutableDictionary *_appHandlerMap;
-    NSMutableDictionary *_appExtensionHandlerMap;
-    NSObject<OS_dispatch_queue> *_binaryMonitorQueue;
 }
 
-+ (id);
++ (id)";
 + (void);
 - (_Bool);
 - (_Bool);
@@ -50,18 +44,13 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *appExtensionHandlerMap; // @synthesize appExtensionHandlerMap=_appExtensionHandlerMap;
-@property(retain, nonatomic) NSMutableDictionary *appHandlerMap; // @synthesize appHandlerMap=_appHandlerMap;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *binaryMonitorQueue; // @synthesize binaryMonitorQueue=_binaryMonitorQueue;
 @property(retain, nonatomic) NSMutableDictionary *bundleHandlerMap; // @synthesize bundleHandlerMap=_bundleHandlerMap;
-@property(retain, nonatomic) NSMutableDictionary *dylibHandlerMap; // @synthesize dylibHandlerMap=_dylibHandlerMap;
-@property(retain, nonatomic) NSMutableDictionary *frameworkHandlerMap; // @synthesize frameworkHandlerMap=_frameworkHandlerMap;
 
 @end
 

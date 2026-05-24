@@ -9,8 +9,6 @@
 @interface AppStoreKit.ArcadeSeeAllGamesPage : AppStoreKit.GenericPage
 {
     id facets;
-    id selectedFacetOptions;
-    id pageSegments;
 }
 
 @end

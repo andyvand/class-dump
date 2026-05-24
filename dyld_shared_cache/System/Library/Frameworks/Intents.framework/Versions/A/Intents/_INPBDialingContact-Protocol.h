@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBDialingContactValue;
+@class NSArray;
 
 @protocol _INPBDialingContact
++ (Class);
+- (unsigned long long);
 - (void)%;
-- (_INPBDialingContactValue *);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *values;
-@property(readonly, nonatomic) unsigned long long valuesCount;
 @end
 

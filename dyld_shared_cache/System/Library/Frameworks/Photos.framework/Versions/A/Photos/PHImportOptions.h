@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSSortDescriptor, NSString, PHAssetCollection, PHCollectionList, PHImportSource, PHLibraryScope, PHPhotoLibrary;
+@class NSString;
 
 @interface PHImportOptions
 {
     struct options_bits _options_bits;
-    PHAssetCollection *_destinationAlbum;
-    PHCollectionList *_destinationFolder;
-    NSSortDescriptor *_sortDescriptor;
-    NSMutableDictionary *_userIptcMetadata;
-    NSString *_personId;
-    PHImportSource *_importSource;
-    PHPhotoLibrary *_library;
-    PHLibraryScope *_libraryScope;
 }
 
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void)N;
+- (void);
+- (void);
+- (void);
+- (void).;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -44,12 +36,12 @@
 - (id);
 - (id);
 - (unsigned char);
-- (id);
+- (id)B;
 - (id);
 - (_Bool);
 - (unsigned char);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -60,30 +52,11 @@
 - (id);
 - (id);
 - (void);
-- (id)IDs:withBatchCommentText:assetsSharingInfos:customExportsInfo:andTrimmedVideoPathInfo:sharedAlbum:isNewAlbum:error: /* Error: Ran out of types for this method. */;
+- (id)prepareToEnqueueBatchOfOriginalAssetUUIDs:withBatchCommentText:assetsSharingInfos:customExportsInfo:andTrimmedVideoPathInfo:sharedAlbum:isNewAlbum:error: /* Error: Ran out of types for this method. */;
 - (void)N,V_videoURL;
 
 // Remaining properties
-@property(nonatomic) _Bool allowDuplicates;
-@property(nonatomic) _Bool allowUnsupported;
-@property(nonatomic) _Bool deleteAfterImport;
-@property(retain, nonatomic) PHAssetCollection *destinationAlbum; // @synthesize destinationAlbum=_destinationAlbum;
-@property(retain, nonatomic) PHCollectionList *destinationFolder; // @synthesize destinationFolder=_destinationFolder;
-@property(nonatomic) unsigned char fileOperation;
-@property(nonatomic) _Bool hideProgress;
-@property(retain, nonatomic) PHImportSource *importSource; // @synthesize importSource=_importSource;
-@property(nonatomic) long long importedBy;
-@property(retain, nonatomic) PHPhotoLibrary *library; // @synthesize library=_library;
-@property(retain, nonatomic) PHLibraryScope *libraryScope; // @synthesize libraryScope=_libraryScope;
-@property(nonatomic) unsigned char metadataAddMode;
-@property(nonatomic) _Bool omitImportComplete;
 @property(retain, nonatomic) NSString *personId; // @synthesize personId=_personId;
-@property(nonatomic) _Bool preserveFolderStructure;
-@property(nonatomic) _Bool shouldImportAsReferenced;
-@property(nonatomic) _Bool skipAlertWhenFinished;
-@property(nonatomic) _Bool skipDiskSpaceCheck;
-@property(retain, nonatomic) NSSortDescriptor *sortDescriptor; // @synthesize sortDescriptor=_sortDescriptor;
-@property(retain, nonatomic) NSMutableDictionary *userIptcMetadata; // @synthesize userIptcMetadata=_userIptcMetadata;
 
 @end
 

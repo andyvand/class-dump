@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-+ (_Bool)tream:(id)arg1 didReceiveDTMFEventWithDigit:(id)arg2;
-+ (_Bool)Type:(id)arg1;
++ (_Bool)stream:(id)arg1 didReceiveDTMFEventWithDigit:(id)arg2;
++ (_Bool)isAdminPrivilegeRequiredForWritingCharacteristicType:(id)arg1 serviceType:(id)arg2;
 
 @end
 

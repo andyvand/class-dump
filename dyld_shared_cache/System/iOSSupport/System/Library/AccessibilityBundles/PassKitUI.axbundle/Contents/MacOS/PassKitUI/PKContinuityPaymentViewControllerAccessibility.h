@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)round;
 + (void);
 - (void);
 - (void);

@@ -16,10 +16,10 @@
 + (_Bool)riginal reuse identifier:%@; Existing cell:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (CDUnknownBlockType);
-- (void)n:(CDUnknownBlockType)arg1;
-- (_Bool)eDropDelegate;
-- (void)ws:(id)arg1 wobble: /* Error: Ran out of types for this method. */;
-- (long long)nge;
+- (void)setLanguageWithRegion:(CDUnknownBlockType)arg1;
+- (_Bool)didUpdateDropDelegate;
+- (void)_setSelectionRect:(id)arg1 textRects:contentImage:contentViews:wobble: /* Error: Ran out of types for this method. */;
+- (long long)_handleCurrentMorphTargetChange;
 - (id)´ZèZ];
 - (_Bool)lue in non-null parameter. Ignoring.;
 - (id)validatingP;

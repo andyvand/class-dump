@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
-@protocol OS_dispatch_queue;
-
 @interface AKLiveValue
 {
     id _value;
-    struct os_unfair_lock_s _lock;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _syncProducer;
-    CDUnknownBlockType _asyncProducer;
-    NSMutableArray *_cleanupBlocks;
 }
 
 + (id);
@@ -22,7 +14,7 @@
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);

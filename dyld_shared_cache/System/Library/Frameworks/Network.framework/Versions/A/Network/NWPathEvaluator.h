@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NWEndpoint, NWParameters, NWPath;
+@class NSObject, NWEndpoint;
 @protocol OS_nw_path_evaluator;
 
 @interface NWPathEvaluator
 {
     NWEndpoint *_endpoint;
-    NSObject<OS_nw_path_evaluator> *_internalEvaluator;
-    NWPath *_internalPath;
 }
 
 
 // Remaining properties
-@property(readonly, nonatomic) NWEndpoint *endpoint; // @synthesize endpoint=_endpoint;
 @property(readonly) NSObject<OS_nw_path_evaluator> *internalEvaluator; // @synthesize internalEvaluator=_internalEvaluator;
-@property(retain) NWPath *internalPath; // @synthesize internalPath=_internalPath;
-@property(readonly) NWParameters *parameters;
-@property(readonly, nonatomic) NWPath *path;
 @end
 

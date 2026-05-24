@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MMWebKitViewController, NSString, NSWindow;
+@class MMWebKitViewController;
 
 @interface MMUpsellWebKitViewController
 {
     _Bool _didEncounterLoadError;
-    NSWindow *_parentWindow;
-    MMWebKitViewController *_webKitViewController;
-    CDUnknownBlockType _upsellCompletionHandler;
 }
 
 - (CDUnknownBlockType);
@@ -25,26 +22,17 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void))	K)
+?;
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)kF;
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didEncounterLoadError; // @synthesize didEncounterLoadError=_didEncounterLoadError;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSWindow *parentWindow; // @synthesize parentWindow=_parentWindow;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) CDUnknownBlockType upsellCompletionHandler; // @synthesize upsellCompletionHandler=_upsellCompletionHandler;
 @property(retain, nonatomic) MMWebKitViewController *webKitViewController; // @synthesize webKitViewController=_webKitViewController;
 
 @end

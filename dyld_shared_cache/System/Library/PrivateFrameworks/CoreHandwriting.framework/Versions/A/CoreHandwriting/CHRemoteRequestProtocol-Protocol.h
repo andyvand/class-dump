@@ -5,5 +5,8 @@
 //
 
 @protocol CHRemoteRequestProtocol
+- (void)>S㫥R#;
+- (void);
+- (void)*c;
 @end
 

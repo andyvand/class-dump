@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICTTZoomController;
+@class NSDictionary;
 
 @protocol ICTTTextStorageStyler
+- (NSDictionary *);
 
 // Remaining properties
-@property(nonatomic) _Bool disableAddingExtraLinesIfNeeded;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
 @property(nonatomic) _Bool isForPrint;
-@property(nonatomic) _Bool isForSiri;
-@property(retain, nonatomic) ICTTZoomController *zoomController;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"ICTTZoomController",?,&,N
-
 @end
 

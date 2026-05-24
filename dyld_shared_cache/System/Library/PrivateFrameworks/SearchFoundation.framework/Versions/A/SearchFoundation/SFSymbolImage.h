@@ -6,8 +6,6 @@
 
 #import <SearchFoundation/SFImage.h>
 
-@class NSString;
-
 @interface SFSymbolImage : SFImage
 {
     struct {
@@ -17,12 +15,6 @@
         unsigned int secondaryColor:1;
         unsigned int fillStyle:1;
     } _has;
-    _Bool _punchThroughBackground;
-    int _backgroundColor;
-    int _primaryColor;
-    int _secondaryColor;
-    int _fillStyle;
-    NSString *_symbolName;
 }
 
 + (_Bool);

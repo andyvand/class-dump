@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSSet, NSString, NSTimer, WBSFormMetadata;
-
 @interface WBSMultiRoundAutoFillManager
 {
     unsigned long long _autoFillAttemptTrigger;
-    WBSFormMetadata *_formMetadataFromPreviousAutoFillAttempt;
-    _Bool _userDidInteractWithForm;
-    unsigned long long _numberOfFollowUpAutoFillAttempts;
-    NSTimer *_timerForFollowUpAutoFill;
-    NSMutableSet *_controlUniqueIDToBeIgnoredByFollowUpAutoFill;
-    unsigned long long _dataType;
-    NSString *_addressSetLabelUsedDuringFirstAutoFillPass;
-    NSSet *_addressBookPropertiesThatCanBeFilled;
 }
 
 - (_Bool);
@@ -39,8 +29,6 @@ ReaderArticleFinder=function(e){this.contentDocument=e,this.didSearchForArticleN
 0; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *addressBookPropertiesThatCanBeFilled; // @synthesize addressBookPropertiesThatCanBeFilled=_addressBookPropertiesThatCanBeFilled;
-@property(copy, nonatomic) NSString *addressSetLabelUsedDuringFirstAutoFillPass; // @synthesize addressSetLabelUsedDuringFirstAutoFillPass=_addressSetLabelUsedDuringFirstAutoFillPass;
 @property(nonatomic) unsigned long long dataType; // @synthesize dataType=_dataType;
 
 @end

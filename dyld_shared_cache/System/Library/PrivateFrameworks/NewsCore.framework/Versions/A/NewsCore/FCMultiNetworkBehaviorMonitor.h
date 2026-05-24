@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NFMultiDelegate, NSString;
+@class NFMultiDelegate;
 
 @interface FCMultiNetworkBehaviorMonitor
 {
@@ -19,14 +19,7 @@
 - (void)rary/BuildRoots/4~CNquugBHTJeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCCKContentDatabase.m;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NFMultiDelegate *multiDelegate; // @synthesize multiDelegate=_multiDelegate;
-@property(readonly) Class superclass;
 
 @end
 

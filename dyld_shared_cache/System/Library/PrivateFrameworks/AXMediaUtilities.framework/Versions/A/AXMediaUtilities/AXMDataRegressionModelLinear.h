@@ -12,12 +12,12 @@
 }
 
 - (double);
-- (id);
+- (id)|;
 - (int);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)[|;
 - (void);
-- (double);
+- (double)[|;
 - (id);
 
 // Remaining properties

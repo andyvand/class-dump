@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, RFTextProperty, RFVisualProperty;
+@class NSData, RFTextProperty, RFVisualProperty;
 
 @protocol RFPrimaryHeaderMarqueeCardSection
+- (RFTextProperty *)_createDocumentWithDataProvider: /* Error: Ran out of types for this method. */;
+- (NSData *);
+- (RFVisualProperty *);
 
 // Remaining properties
-@property(nonatomic) _Bool addTint;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) RFTextProperty *text_1;
-@property(retain, nonatomic) RFTextProperty *text_2;
-@property(retain, nonatomic) RFVisualProperty *thumbnail;
 @end
 

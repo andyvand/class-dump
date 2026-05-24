@@ -7,6 +7,8 @@
 @class NSString;
 
 @protocol _SignpostAggregationCAPayloadGenerator
+- (NSString *);
+- (NSString *)resolveSourceWithPixelBuffer: /* Error: Ran out of types for this method. */;
 - (NSString *)tamp;
 @end
 

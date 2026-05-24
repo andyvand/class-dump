@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PLUSSchemaPLUSContactSuggestionOutcomeReported : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_suggestionId;
-    int _contactSuggestionOutcome;
-    int _contactSuggestionRedundancyState;
-    struct {
-        unsigned int contactSuggestionOutcome:1;
-        unsigned int contactSuggestionRedundancyState:1;
-    } _has;
-    _Bool _hasSuggestionId;
 }
 
 - (void);
@@ -35,25 +28,19 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)g7;
 - (void);
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)oading attributed message body for message GUID:(id)arg1 %@;
 - (id);
 - (id);
-- (id)sSpelling;
+- (id)_hasSpelling;
 - (id)cted;
-- (void)tingFlowSelected;
+- (void)isExistingFlowSelected;
 
 // Remaining properties
-@property(nonatomic) int contactSuggestionOutcome; // @synthesize contactSuggestionOutcome=_contactSuggestionOutcome;
-@property(nonatomic) int contactSuggestionRedundancyState; // @synthesize contactSuggestionRedundancyState=_contactSuggestionRedundancyState;
-@property(nonatomic) _Bool hasContactSuggestionOutcome;
-@property(nonatomic) _Bool hasContactSuggestionRedundancyState;
-@property(nonatomic) _Bool hasSuggestionId; // @synthesize hasSuggestionId=_hasSuggestionId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *suggestionId; // @synthesize suggestionId=_suggestionId;
 
 @end

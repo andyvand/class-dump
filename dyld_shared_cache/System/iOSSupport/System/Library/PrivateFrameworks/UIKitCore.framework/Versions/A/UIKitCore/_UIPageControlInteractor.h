@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _UIPageControlInteractor
 {
     double _scrubbingOffset;
-    double _lowerBound;
-    double _upperBound;
-    _UIHyperInteractor *_interactor;
 }
 
 - (void);
@@ -20,25 +17,20 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void),;
 - (id);
 - (double);
 - (double);
 - (void);
 - (double)ontext: /* Error: Ran out of types for this method. */;
 - (void)ck: /* Error: Ran out of types for this method. */;
-- (double): /* Error: Ran out of types for this method. */;
-- (double)ffset;
+- (double)_performSameViewOperation: /* Error: Ran out of types for this method. */;
+- (double)_hostedWindowOffset;
 - (void)t fields can only be added to an alert controller of style UIAlertControllerStyleAlert;
 - (void)Ú;
 
 // Remaining properties
-@property(readonly, nonatomic) double boundedScrubPosition;
-@property(readonly, nonatomic) double hyperConstrainedPosition;
 @property(retain, nonatomic) _UIHyperInteractor *interactor; // @synthesize interactor=_interactor;
-@property(readonly, nonatomic) double joggingDistance;
-@property(readonly, nonatomic) double unboundedScrubPosition;
-@property(readonly, nonatomic) double unconstrainedPosition;
 
 @end
 

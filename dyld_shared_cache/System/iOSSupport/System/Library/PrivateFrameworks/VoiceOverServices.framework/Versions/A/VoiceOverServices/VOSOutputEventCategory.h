@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface VOSOutputEventCategory
 {
     NSArray *_outputEvents;
-    NSString *_localizedCategoryName;
 }
 
 + (id);
++ (id)";
 + (id);
-+ (id);
-+ (id);
++ (id)mW;
 + (id);
 + (id);
 + (id);
@@ -29,7 +28,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *localizedCategoryName; // @synthesize localizedCategoryName=_localizedCategoryName;
 @property(retain, nonatomic) NSArray *outputEvents; // @synthesize outputEvents=_outputEvents;
 
 @end

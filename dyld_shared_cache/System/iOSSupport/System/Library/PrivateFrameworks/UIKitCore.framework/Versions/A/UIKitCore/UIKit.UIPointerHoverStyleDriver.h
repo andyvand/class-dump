@@ -7,11 +7,6 @@
 @interface UIKit.UIPointerHoverStyleDriver
 {
     id _effect;
-    id _shape;
-    id pointerStyle;
-    id host;
-    id isEnabled;
-    id pointerInteraction;
 }
 
 - (id);

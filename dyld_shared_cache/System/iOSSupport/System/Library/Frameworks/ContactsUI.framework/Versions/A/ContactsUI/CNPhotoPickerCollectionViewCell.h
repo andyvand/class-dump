@@ -4,30 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAShapeLayer, NSUUID, UILabel, UIView;
+@class CAShapeLayer;
 
 __attribute__((visibility("hidden")))
 @interface CNPhotoPickerCollectionViewCell
 {
     _Bool _displaySelection;
-    _Bool _displaysBorder;
-    unsigned long long _cellStyle;
-    NSUUID *_displaySessionUUID;
-    CAShapeLayer *_selectionLayer;
-    UILabel *_captionLabel;
-    UIView *_containerView;
-    UIView *_containerContentView;
 }
 
 + (struct CGPath *);
 + (double);
 + (id);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)9;
 - (void);
 - (void);
 - (_Bool);
@@ -43,20 +36,13 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
+- (id)setDyldSharedCacheRange:(struct CGRect)arg1;
 - (void);
-- (void)ta:cropRect: /* Error: Ran out of types for this method. */;
+- (void)_initWithSourceImageData:cropRect: /* Error: Ran out of types for this method. */;
 - (void)e;
 - (id)àà\ã äÀæç;
 
 // Remaining properties
-@property(retain, nonatomic) UILabel *captionLabel; // @synthesize captionLabel=_captionLabel;
-@property(nonatomic) unsigned long long cellStyle; // @synthesize cellStyle=_cellStyle;
-@property(retain, nonatomic) UIView *containerContentView; // @synthesize containerContentView=_containerContentView;
-@property(retain, nonatomic) UIView *containerView; // @synthesize containerView=_containerView;
-@property(nonatomic) _Bool displaySelection; // @synthesize displaySelection=_displaySelection;
-@property(retain, nonatomic) NSUUID *displaySessionUUID; // @synthesize displaySessionUUID=_displaySessionUUID;
-@property(nonatomic) _Bool displaysBorder; // @synthesize displaysBorder=_displaysBorder;
 @property(retain, nonatomic) CAShapeLayer *selectionLayer; // @synthesize selectionLayer=_selectionLayer;
 
 @end

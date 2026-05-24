@@ -7,25 +7,15 @@
 @interface UIAlertControllerDescriptor
 {
     _Bool _hasHeaderContentViewController;
-    _Bool _hasTitle;
-    _Bool _hasMessage;
-    _Bool _hasContentViewController;
-    _Bool _applicationIsFullscreen;
-    _Bool _hasTextfields;
-    _Bool _isPad;
-    _Bool _isSystemAlert;
-    long long _numberOfActions;
-    long long _numberOfVisibleActions;
-    struct UIEdgeInsets _containerViewSafeAreaInsets;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)marked message (%@) as unread;
+- (void)vite payloadURL == nil;
+- (void)again.;
+- (void)ory %ld, extensionName %@;
+- (void)state to Read Only;
+- (void)g is disabled, ensuring the sender is in the participant set:(_Bool)arg1 %@;
+- (void)rror"16;
 - (long long);
 - (_Bool);
 - (_Bool);
@@ -40,22 +30,12 @@
 - (_Bool);
 - (void);
 - (_Bool)ewPropertiesApplierChanged"b1"chargeChanged"b1"dynamicChanged"b1};
-- (_Bool)WithType: /* Error: Ran out of types for this method. */;
-- (_Bool)ocumentTraitsForAutoFillPanel;
+- (_Bool)subtreeWithType: /* Error: Ran out of types for this method. */;
+- (_Bool)currentRTIDocumentTraitsForAutoFillPanel;
 - (id)p_Ä_/ ete	 f;
 
 // Remaining properties
-@property _Bool applicationIsFullscreen; // @synthesize applicationIsFullscreen=_applicationIsFullscreen;
-@property struct UIEdgeInsets containerViewSafeAreaInsets; // @synthesize containerViewSafeAreaInsets=_containerViewSafeAreaInsets;
-@property _Bool hasContentViewController; // @synthesize hasContentViewController=_hasContentViewController;
 @property _Bool hasHeaderContentViewController; // @synthesize hasHeaderContentViewController=_hasHeaderContentViewController;
-@property _Bool hasMessage; // @synthesize hasMessage=_hasMessage;
-@property _Bool hasTextfields; // @synthesize hasTextfields=_hasTextfields;
-@property _Bool hasTitle; // @synthesize hasTitle=_hasTitle;
-@property _Bool isPad; // @synthesize isPad=_isPad;
-@property _Bool isSystemAlert; // @synthesize isSystemAlert=_isSystemAlert;
-@property long long numberOfActions; // @synthesize numberOfActions=_numberOfActions;
-@property long long numberOfVisibleActions; // @synthesize numberOfVisibleActions=_numberOfVisibleActions;
 
 @end
 

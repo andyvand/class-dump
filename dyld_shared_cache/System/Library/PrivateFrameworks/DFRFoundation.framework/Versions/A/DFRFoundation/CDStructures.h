@@ -10,32 +10,23 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 
 #pragma mark Named Structures
 
-struct CGImage;
-
 struct CGPoint {
-    double x;
-    double y;
+    double _field1;
+    double _field2;
 };
 
 struct CGRect {
-    struct CGPoint origin;
-    struct CGSize size;
+    struct CGPoint _field1;
+    struct CGSize _field2;
 };
 
 struct CGSize {
-    double width;
-    double height;
+    double _field1;
+    double _field2;
 };
 
 struct DFRTouchBarHandle {
-    unsigned int rawValue;
-};
-
-struct ImageData {
-    struct CGImage *image;
-    struct __CFString *name;
-    struct CGSize size;
-    unsigned int template:1;
+    unsigned int _field1;
 };
 
 struct os_unfair_lock_s {

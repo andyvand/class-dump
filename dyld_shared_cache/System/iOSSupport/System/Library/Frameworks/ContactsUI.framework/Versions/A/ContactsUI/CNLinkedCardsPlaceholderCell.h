@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void)ontactSuggestions;
+- (void)_contactSuggestions;
 
 // Remaining properties
 @property(nonatomic) __weak id <CNPropertyCellDelegate> delegate; // @synthesize delegate=_delegate;

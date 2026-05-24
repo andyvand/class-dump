@@ -16,11 +16,11 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void);
-- (void);
-- (void);
+- (void)pendingStates;
+- (void)_smsSpamCheck:withMessageBody:withGuid:sender:receiverISOCountryCode:receivedViaRelay:containsOneTimeCode: /* Error: Ran out of types for this method. */;
+- (void)_smsSoundsToPlay;
 - (_Bool);
-- (id)usSpellCheckingEnabled;
+- (id)_continuousSpellCheckingEnabled;
 
 @end
 

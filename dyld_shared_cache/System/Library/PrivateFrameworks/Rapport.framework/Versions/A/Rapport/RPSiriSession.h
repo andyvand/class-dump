@@ -4,84 +4,55 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioFormat, AVVoiceController, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source, RPMessageable, RPSiriSessionDelegate;
+@class NSString;
 
 @interface RPSiriSession
 {
     CDUnknownBlockType _activateCompletion;
-    int _activateState;
-    AVAudioFormat *_audioFormat;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    RPSiriSession *_selfRef;
-    int _startRecordingState;
-    int _stopRecordingState;
-    AVVoiceController *_voiceController;
-    unsigned long long _streamId;
-    NSObject<OS_dispatch_source> *_recordingLimitTimer;
-    _Bool _isSourcePTTEligible;
-    _Bool _isDestinationPTTEligible;
-    NSString *_destinationID;
-    NSString *_sourceID;
-    id <RPMessageable> _messenger;
-    id <RPSiriSessionDelegate> _delegate;
 }
 
 - (void);
 - (_Bool);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void)h;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)k;
 - (id);
 - (_Bool);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)_INPBIntentResponsePayloadFailure;
+- (void);
+- (void);
+- (id)ent=;
+- (void)rd=*;
+- (void);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) id <RPSiriSessionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSString *destinationID; // @synthesize destinationID=_destinationID;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isDestinationPTTEligible; // @synthesize isDestinationPTTEligible=_isDestinationPTTEligible;
-@property(retain, nonatomic) id <RPMessageable> messenger; // @synthesize messenger=_messenger;
-@property(retain, nonatomic) NSString *sourceID; // @synthesize sourceID=_sourceID;
-@property(readonly) Class superclass;
 
 @end
 

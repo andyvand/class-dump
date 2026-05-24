@@ -6,23 +6,9 @@
 
 #import <IOBluetooth/AppleBluetoothHIDDevice.h>
 
-@class NSNumber, NSString;
-
 @interface AppleBluetoothHIDDeviceGen2 : AppleBluetoothHIDDevice
 {
     unsigned int _eventService;
-    unsigned int _eventServiceInterestNotification;
-    NSString *_driverClass;
-    NSString *_addressString;
-    NSString *_manufacturer;
-    NSString *_product;
-    NSNumber *_locationID;
-    NSString *_transport;
-    unsigned short _versionNumber;
-    float _batteryPercent;
-    unsigned char _batteryStatusFlags;
-    float _lowBatteryPercentThreshold;
-    float _criticalLowBatteryPercentThreshold;
 }
 
 + (id);
@@ -33,11 +19,11 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)�Z%;
 - (id);
 - (id);
 - (struct IOHIDDeviceInterface **);
-- (unsigned int);
+- (unsigned int)q`;
 - (void);
 - (int);
 - (_Bool);
@@ -56,7 +42,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned short);
 - (id);
 - (_Bool);
@@ -69,10 +55,11 @@
 - (struct BluetoothDeviceAddress *);
 - (id);
 - (void);
-- (unsigned short);
-- (int);
+- (unsigned short)disable privacy protection for container at %@;
+- (int)1
+;
 - (unsigned short)uested' XPC Pairing message.;
-- (id)orceReadDeviceName;
+- (id)ForceReadDeviceName;
 
 @end
 

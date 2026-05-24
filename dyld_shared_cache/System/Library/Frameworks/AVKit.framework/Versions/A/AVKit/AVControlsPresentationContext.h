@@ -7,7 +7,6 @@
 @interface AVControlsPresentationContext
 {
     _Bool _animating;
-    _Bool _controlsAreVisible;
 }
 
 - (void);
@@ -18,7 +17,6 @@
 
 // Remaining properties
 @property(nonatomic, getter=isAnimating) _Bool animating; // @synthesize animating=_animating;
-@property(nonatomic) _Bool controlsAreVisible; // @synthesize controlsAreVisible=_controlsAreVisible;
 
 @end
 

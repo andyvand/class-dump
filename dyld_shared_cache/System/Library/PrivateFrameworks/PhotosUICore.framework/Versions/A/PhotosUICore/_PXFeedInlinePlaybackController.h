@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXFeedViewModel, PXGLayout;
+@class PXGLayout;
 
 @interface _PXFeedInlinePlaybackController
 {
     PXGLayout *_containerLayout;
-    PXFeedViewModel *_viewModel;
-    CDUnknownBlockType _itemLayoutDesiredPlayStateSetter;
-    struct NSEdgeInsets _criticallyVisibleEdgeInsets;
 }
 
 - (CDUnknownBlockType);
-- (id);
+- (id);
 - (struct CGRect);
 - (struct CGRect);
 - (id);
@@ -30,8 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PXGLayout *containerLayout; // @synthesize containerLayout=_containerLayout;
-@property(readonly, nonatomic) CDUnknownBlockType itemLayoutDesiredPlayStateSetter; // @synthesize itemLayoutDesiredPlayStateSetter=_itemLayoutDesiredPlayStateSetter;
-@property(readonly, nonatomic) PXFeedViewModel *viewModel; // @synthesize viewModel=_viewModel;
 
 @end
 

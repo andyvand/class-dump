@@ -7,9 +7,10 @@
 @class NSArray, NSIndexSet;
 
 @protocol MSPContainerEditRemoval
+- (NSArray *)T;
+- (NSIndexSet *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSIndexSet *indexesOfRemovedObjects;
 @property(readonly, nonatomic) NSArray *removedImmutableObjects;
 @end
 

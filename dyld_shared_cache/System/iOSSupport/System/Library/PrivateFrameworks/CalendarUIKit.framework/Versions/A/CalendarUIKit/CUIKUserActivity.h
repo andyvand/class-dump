@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
-
 @interface CUIKUserActivity
 {
     unsigned long long _type;
-    NSString *_activityTitle;
-    NSString *_activitySubtitle;
-    NSSet *_activityKeywords;
-    unsigned long long _version;
 }
 
 + (id);
@@ -23,7 +17,7 @@
 + (long long);
 + (double);
 + (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -31,20 +25,16 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
-- (id);
+- (unsigned long long);
+- (id)_isForward;
 - (void);
 - (void);
 - (id);
 - (id);
-- (void)erDefaults;
+- (void)standardUserDefaults;
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *activityKeywords; // @synthesize activityKeywords=_activityKeywords;
-@property(retain, nonatomic) NSString *activitySubtitle; // @synthesize activitySubtitle=_activitySubtitle;
-@property(retain, nonatomic) NSString *activityTitle; // @synthesize activityTitle=_activityTitle;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(nonatomic) unsigned long long version; // @synthesize version=_version;
 
 @end
 

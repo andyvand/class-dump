@@ -4,41 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor;
+@class NSString;
 
 @interface CKMessageAcknowledgmentDraftDescriptor
 {
     long long _messageAcknowledgmentType;
-    NSString *_serviceName;
 }
 
 + (id);
 + (id);
 - (id);
 - (id);
+- (long long);
+- (id);
+- (id)(IC) ic_preferredFontForTitleTextWithContentSizeCategory:isForPrint:isReducedSize:] /* Error: Ran out of types for this method. */;
+- (id)fontDescriptor;
 - (long long);
 - (id);
-- (id);
-- (id);
-- (long long);
-- (id);
-- (id)d;
+- (id)suspend;
 - (void)|ð;
 
 // Remaining properties
-@property(readonly, nonatomic) UIColor *acknowledgmentImageColor;
-@property(readonly, nonatomic) NSString *acknowledgmentImageName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long messageAcknowledgmentType; // @synthesize messageAcknowledgmentType=_messageAcknowledgmentType;
-@property(readonly, nonatomic) UIColor *selectedAcknowledgmentImageColor;
-@property(readonly, nonatomic) UIColor *selectedBalloonColor;
 @property(readonly, copy, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(readonly) Class superclass;
 
 @end
 

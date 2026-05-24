@@ -7,10 +7,6 @@
 @interface BiomeStreams.IncrementalViewManager
 {
     id physicalPlans;
-    id expressionEvaluator;
-    id signposter;
-    id cachedDatabaseWithAccesses;
-    id useCache;
 }
 
 @end

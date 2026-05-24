@@ -9,8 +9,6 @@
 @interface BRXPCSyncProxy
 {
     NSObject *_target;
-    NSError *_error;
-    id _result;
 }
 
 - (id);
@@ -18,15 +16,14 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void);
+- (void)mk+8k;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(retain, nonatomic) id result; // @synthesize result=_result;
 
 @end
 

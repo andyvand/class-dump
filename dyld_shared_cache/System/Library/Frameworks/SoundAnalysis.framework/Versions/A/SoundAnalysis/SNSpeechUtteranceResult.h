@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SNSpeechUtteranceResult
 {
     id impl;
 }
 
-+ (_Bool);
++ (_Bool)4];
 - (void);
 - (_Bool);
 - (void);
@@ -29,10 +27,6 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) double confidence;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic) _Bool detected;
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic) CDStruct_3c1748cc timeRange;
 
 @end

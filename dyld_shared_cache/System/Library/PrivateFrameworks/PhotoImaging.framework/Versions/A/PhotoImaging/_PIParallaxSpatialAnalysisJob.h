@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PFPosterOrientedLayout, PIParallaxSpatialAnalysisRequest;
+@class PIParallaxSpatialAnalysisRequest;
 
 @interface _PIParallaxSpatialAnalysisJob
 {
@@ -23,7 +23,6 @@
 - (void)0;
 
 // Remaining properties
-@property(readonly, nonatomic) PFPosterOrientedLayout *requestLayout;
 @property(readonly, nonatomic) PIParallaxSpatialAnalysisRequest *spatialAnalysisRequest; // @synthesize spatialAnalysisRequest=_spatialAnalysisRequest;
 
 @end

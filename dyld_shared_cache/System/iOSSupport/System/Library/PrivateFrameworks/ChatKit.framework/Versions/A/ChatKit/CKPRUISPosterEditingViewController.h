@@ -4,60 +4,49 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PRInjectedEditingLook, PRUISPosterEditingViewController, UIButton, UINavigationController, UIView;
-@protocol PRUISPosterEditingViewControllerDelegate;
+@class PRUISPosterEditingViewController;
 
 @interface CKPRUISPosterEditingViewController
 {
     PRUISPosterEditingViewController *_editor;
-    NSString *_extensionBundleIdentifier;
-    NSArray *_looks;
-    NSString *_selectedLook;
-    NSArray *_editingLooks;
-    PRInjectedEditingLook *_selectedEditingLook;
-    NSArray *_selectedColors;
-    UIButton *_setButton;
-    UIButton *_cancelButton;
-    UIButton *_looksButton;
-    UIView *_looksButtonBackground;
-    NSArray *_colorButtons;
-    UINavigationController *_colorPickerNavigationController;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)bodyParagraphSpacing;
+- (void)authenticationStateDidDeauthenticate:(id)arg1;
+- (void)authenticating;
+- (void)authenticateWithPrompt:(id)arg1 displayWindow:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_webView:(id)arg1 didClickAutoFillButtonWithUserInfo: /* Error: Ran out of types for this method. */;
+- (void)_webView:(id)arg1 didChangeFontAttributes: /* Error: Ran out of types for this method. */;
+- (void)_cancelButton;
+- (void)y;
+- (id)plicitHighlights,V_aboveImplicitHighlights;
+- (id)ouper",R,N,V_editGrouper;
+- (id)geableAttributedString",R,N;
+- (id)ctorDelayer",R,N;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
-- (_Bool);
+- (id);
+- (void)mPDFGenerator blockingGeneratePDFURLForAttachment:withProgress:error:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void)cePassword:(id)arg1 %@, hasDivergedKey:(_Bool)arg2 %@, needsUserRecordUpdate:%@> /* Error: Ran out of types for this method. */;
+- (id);
+- (void)tions.count;
+- (_Bool);
 - (id);
 - (void);
+- (void)NoteSelection;
+- (id)LinkEditorViewModel;
 - (void);
-- (id);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)D
+;
+- (id)c
+;
 - (_Bool);
 - (void);
 - (void);
@@ -78,27 +67,7 @@
 - (void)t0;
 
 // Remaining properties
-@property(retain, nonatomic) UIButton *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property(retain, nonatomic) NSArray *colorButtons; // @synthesize colorButtons=_colorButtons;
-@property(retain, nonatomic) UINavigationController *colorPickerNavigationController; // @synthesize colorPickerNavigationController=_colorPickerNavigationController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PRUISPosterEditingViewControllerDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSArray *editingLooks; // @synthesize editingLooks=_editingLooks;
 @property(retain, nonatomic) PRUISPosterEditingViewController *editor; // @synthesize editor=_editor;
-@property(readonly, nonatomic) NSString *extensionBundleIdentifier; // @synthesize extensionBundleIdentifier=_extensionBundleIdentifier;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *looks; // @synthesize looks=_looks;
-@property(retain, nonatomic) UIButton *looksButton; // @synthesize looksButton=_looksButton;
-@property(retain, nonatomic) UIView *looksButtonBackground; // @synthesize looksButtonBackground=_looksButtonBackground;
-@property(copy, nonatomic) NSArray *selectedColors; // @synthesize selectedColors=_selectedColors;
-@property(retain, nonatomic) PRInjectedEditingLook *selectedEditingLook; // @synthesize selectedEditingLook=_selectedEditingLook;
-@property(copy, nonatomic) NSString *selectedLook; // @synthesize selectedLook=_selectedLook;
-@property(retain, nonatomic) UIButton *setButton; // @synthesize setButton=_setButton;
-@property(readonly) Class superclass;
 
 @end
 

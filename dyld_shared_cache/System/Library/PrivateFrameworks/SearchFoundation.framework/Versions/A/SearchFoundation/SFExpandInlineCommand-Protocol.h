@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary;
+@class NSData;
 
 @protocol SFExpandInlineCommand
+- (NSData *)8C3;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) _Bool placeHolderProperty;
 @end
 

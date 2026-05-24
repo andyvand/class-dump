@@ -14,8 +14,8 @@
 + (_Bool);
 - (unsigned long long);
 - (id);
-- (id);
-- (id);
+- (id)P;
+- (id)privateKey;
 - (id);
 - (void);
 

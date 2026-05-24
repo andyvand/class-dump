@@ -4,22 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSArray;
 
 @interface UnknownClass (UIKitSceneSpecification)
+- (id)e pipeline;
+- (Class)ssing;
+- (Class)data;
 - (id);
 - (Class);
-- (Class);
-- (id);
-- (Class);
-- (_Bool);
+- (_Bool)B;
 - (id);
 - (id);
+- (id)L;
 - (id);
+- (id)Y;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)(;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -28,20 +28,6 @@
 - (_Bool)q;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool affectsAppLifecycleIfInternal;
-@property(readonly, nonatomic) _Bool affectsScreenOrientation;
-@property(readonly, nonatomic) _Bool allowsConfigurationByAppDelegate;
-@property(readonly, nonatomic) NSDictionary *baseSceneComponentClassDictionary;
-@property(readonly, nonatomic) NSArray *finalActionHandlers;
-@property(readonly, nonatomic) NSArray *finalSettingsDiffActions;
-@property(readonly, nonatomic) NSArray *initialActionHandlers;
 @property(readonly, nonatomic) NSArray *initialSettingsDiffActions;
-@property(readonly, nonatomic) _Bool isInternal;
-@property(readonly, nonatomic) _Bool isUIKitManaged;
-@property(readonly, nonatomic) Class lifecycleMonitorClass;
-@property(readonly, nonatomic) NSString *overlayAppSceneConfigurationName;
-@property(readonly, nonatomic) Class sceneSubstrateClass;
-@property(readonly, nonatomic) Class uiSceneMinimumClass;
-@property(readonly, nonatomic) NSString *uiSceneSessionRole;
 @end
 

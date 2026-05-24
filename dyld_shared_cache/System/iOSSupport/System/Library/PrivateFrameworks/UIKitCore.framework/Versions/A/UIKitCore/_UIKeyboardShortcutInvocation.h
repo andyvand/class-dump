@@ -4,40 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIMenuElement, UIPhysicalKeyboardEvent, UIResponder;
+@class UIMenuElement;
 @protocol _UIMenuLeaf;
 
 __attribute__((visibility("hidden")))
 @interface _UIKeyboardShortcutInvocation
 {
     UIMenuElement<_UIMenuLeaf> *_keyboardShortcutLeaf;
-    UIMenuElement<_UIMenuLeaf> *_validatedKeyboardShortcutLeaf;
-    UIPhysicalKeyboardEvent *_triggeringEvent;
-    UIResponder *_originatingResponder;
-    id _target;
 }
 
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (void)"TUConversationManager"16@"TUConversation"24@"TUConversationParticipant"32@"TUCollaborationNotice"40;
+- (void)24@"TUConversation"32q40;
+- (id):8@16@24Q32 /* Error: Ran out of types for this method. */;
+- (id)calculateUnreadCount:reindexMessage: /* Error: Ran out of types for this method. */;
+- (id)storeMessage:forceReplace:modifyError:modifyFlags:flagMask:updateMessageCache:calculateUnreadCount:reindexMessage: /* Error: Ran out of types for this method. */;
+- (id)replayControllerWantsToSync;
+- (_Bool)_reportReceivedMetricForSMSWithMessage:context: /* Error: Ran out of types for this method. */;
+- (id)B24;
+- (id)P;
 - (_Bool);
 - (void)|Ísþ5R43xÍsþ;
 
 // Remaining properties
 @property(readonly, nonatomic) UIMenuElement<_UIMenuLeaf> *keyboardShortcutLeaf; // @synthesize keyboardShortcutLeaf=_keyboardShortcutLeaf;
-@property(readonly, nonatomic) UIMenuElement<_UIMenuLeaf> *keyboardShortcutLeafToInvoke;
-@property(readonly, nonatomic) __weak UIResponder *originatingResponder; // @synthesize originatingResponder=_originatingResponder;
-@property(readonly, nonatomic, getter=isRepeatable) _Bool repeatable;
-@property(readonly, nonatomic) __weak id target; // @synthesize target=_target;
-@property(readonly, nonatomic) UIPhysicalKeyboardEvent *triggeringEvent; // @synthesize triggeringEvent=_triggeringEvent;
-@property(readonly, nonatomic) UIMenuElement<_UIMenuLeaf> *validatedKeyboardShortcutLeaf; // @synthesize validatedKeyboardShortcutLeaf=_validatedKeyboardShortcutLeaf;
 
 @end
 

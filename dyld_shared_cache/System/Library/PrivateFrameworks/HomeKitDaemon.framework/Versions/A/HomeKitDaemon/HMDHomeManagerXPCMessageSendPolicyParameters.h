@@ -10,22 +10,20 @@ __attribute__((visibility("hidden")))
 @interface HMDHomeManagerXPCMessageSendPolicyParameters : HMDXPCMessageSendPolicyParameters
 {
     _Bool _active;
-    unsigned long long _options;
 }
 
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (unsigned long long);
-- (_Bool);
-- (id)nalMessage:(struct _NSZone *)arg1;
+- (unsigned long long)9;
+- (_Bool)u;
+- (id)initWithInternalMessage:(struct _NSZone *)arg1;
 - (id)e State] siri endpoint multifunction button is not available;
-- (id)ntrolBlock;
+- (id)controlBlock;
 
 // Remaining properties
 @property(getter=isActive) _Bool active; // @synthesize active=_active;
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
 
 @end
 

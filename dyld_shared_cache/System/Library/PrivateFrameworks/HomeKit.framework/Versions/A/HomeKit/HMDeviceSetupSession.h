@@ -4,24 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFActivity, NSDictionary, NSMutableArray, NSObject, NSString, NSUUID, _HMContext;
-@protocol HMDeviceSetupSessionDelegate, OS_dispatch_queue;
+@class _HMContext;
 
 @interface HMDeviceSetupSession
 {
     struct os_unfair_lock_s _lock;
-    long long _state;
-    HMFActivity *_activity;
-    NSDictionary *_userInfo;
-    id <HMDeviceSetupSessionDelegate> _delegate;
-    NSUUID *_identifier;
-    long long _role;
-    _HMContext *_context;
-    NSMutableArray *_pendingExchangeDataRequests;
 }
 
 + (id);
-+ (id)sPayloadKey;
++ (id)HMMediaDestinationSupportedOptionsPayloadKey;
 - (void);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
@@ -39,19 +30,19 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)d;
 - (id);
 - (void);
 - (void);
 - (id);
+- (void);
+- (id);
+- (id)0	A	#	;
+- (void)certificate;
+- (id)setShowsFaceTimeVideoCalls: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id);
 - (void);
 - (long long)0@ù
 × ;
@@ -60,23 +51,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _HMContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) __weak id <HMDeviceSetupSessionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly, nonatomic) NSMutableArray *pendingExchangeDataRequests; // @synthesize pendingExchangeDataRequests=_pendingExchangeDataRequests;
-@property(readonly) long long role; // @synthesize role=_role;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

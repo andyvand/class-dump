@@ -6,34 +6,28 @@
 
 #import <VoiceShortcutClient/WFDialogRequest.h>
 
-@class NSString, WFDatePickerConfiguration, WFDialogButton;
+@class WFDatePickerConfiguration;
 
 @interface WFInputDateDialogRequest : WFDialogRequest
 {
     WFDatePickerConfiguration *_configuration;
-    NSString *_message;
-    WFDialogButton *_cancelButton;
-    WFDialogButton *_doneButton;
 }
 
 + (_Bool);
 - (void);
+- (id)|;
 - (id);
-- (id);
-- (id);
+- (id)h:(id)arg1 y;
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)Ή;
+- (id)k	;
 - (void)!Uð!äCùÑ^ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) WFDialogButton *cancelButton; // @synthesize cancelButton=_cancelButton;
 @property(readonly, copy, nonatomic) WFDatePickerConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy, nonatomic) WFDialogButton *doneButton; // @synthesize doneButton=_doneButton;
-@property(readonly, copy, nonatomic) NSString *message; // @synthesize message=_message;
 
 @end
 

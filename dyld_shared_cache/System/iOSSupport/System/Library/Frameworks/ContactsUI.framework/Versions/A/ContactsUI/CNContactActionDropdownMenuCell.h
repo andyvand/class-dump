@@ -6,18 +6,17 @@
 
 #import <ContactsUI/CNContactActionCell.h>
 
-@class CNContactActionDropdownMenuButton, UIContextMenuInteraction;
+@class CNContactActionDropdownMenuButton;
 
 __attribute__((visibility("hidden")))
 @interface CNContactActionDropdownMenuCell : CNContactActionCell
 {
     CDUnknownBlockType _menuProvider;
-    CNContactActionDropdownMenuButton *_button;
 }
 
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void);
-- (id);
+- (id)initWithFormat:(long long)arg1 locale:(id)arg2;
 - (void);
 - (void);
 - (void)countsAndGroupsCellTextView",&,N,V_titleTextView;
@@ -26,8 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) CNContactActionDropdownMenuButton *button; // @synthesize button=_button;
-@property(readonly, nonatomic) UIContextMenuInteraction *contextMenuInteraction;
-@property(copy, nonatomic) CDUnknownBlockType menuProvider; // @synthesize menuProvider=_menuProvider;
 
 @end
 

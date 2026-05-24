@@ -7,30 +7,6 @@
 @interface RemindersUICore.TTRMReminderDetailPresenter
 {
     id delegate;
-    id moduleDelegate;
-    id interactor;
-    id listPickerInteractor;
-    id moduleState;
-    id router;
-    id locationPickerModule;
-    id contactsProvider;
-    id privacyChecker;
-    id deferredAction;
-    id pasteboardContentImporter;
-    id timeZoneOverrideCapability;
-    id inCellEditingPresenterHelper;
-    id titleEditingPresenter;
-    id notesEditingPresenter;
-    id hashtagsEditingPresenter;
-    id editingSessionSharedProperties;
-    id listPickerViewModel;
-    id configuration;
-    id savesOnCommit;
-    id state;
-    id deferredUpdateContext;
-    id frozenViewModelBeforeCancelingChanges;
-    id completionState;
-    id lastEarlyAlert;
 }
 
 @end

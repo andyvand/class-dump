@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INPrivateMediaIntentData, NSArray, NSData, NSNumber, NSString;
+@class NSNumber;
 
 @interface INPrivatePlayMediaIntentData
 {
     NSNumber *_appSelectionEnabled;
-    NSNumber *_appInferred;
-    NSArray *_audioSearchResults;
-    INPrivateMediaIntentData *_privateMediaIntentData;
-    NSNumber *_appSelectionSignalsEnabled;
-    NSNumber *_appSelectionSignalsFrequencyDenominator;
-    NSNumber *_shouldSuppressCommonWholeHouseAudioRoutes;
-    NSNumber *_immediatelyStartPlayback;
-    NSNumber *_isAmbiguousPlay;
-    NSNumber *_isPersonalizedRequest;
-    NSArray *_internalSignals;
-    NSNumber *_entityConfidenceSignalsEnabled;
-    NSNumber *_entityConfidenceSignalsFrequencyDenominatorInternal;
-    NSNumber *_entityConfidenceSignalsFrequencyDenominatorProd;
-    NSNumber *_entityConfidenceSignalsMaxItemsToDisambiguate;
-    NSString *_alternativeProviderBundleIdentifier;
-    NSString *_ampPAFDataSetID;
-    NSData *_pegasusMetaData;
 }
 
 + (id);
@@ -58,46 +41,22 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)`;
+- (id)deviceHash;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)home:(id)arg1 didUpdateHomeHubState: /* Error: Ran out of types for this method. */;
+- (void)g with download-only path. error = %@;
 - (id);
 - (void);
+- (id)7;
 - (id);
-- (id);
-- (id)valToConfirm:(unsigned long long)arg1;
-- (void)tion: /* Error: Ran out of types for this method. */;
+- (id)confirmationRequiredWithTimeIntervalToConfirm:(unsigned long long)arg1;
+- (void)provideTitleOptionsCollectionForCreateNote:withCompletion: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *alternativeProviderBundleIdentifier; // @synthesize alternativeProviderBundleIdentifier=_alternativeProviderBundleIdentifier;
-@property(readonly, copy) NSString *ampPAFDataSetID; // @synthesize ampPAFDataSetID=_ampPAFDataSetID;
-@property(readonly, copy) NSNumber *appInferred; // @synthesize appInferred=_appInferred;
-@property(readonly, copy) NSNumber *appSelectionEnabled; // @synthesize appSelectionEnabled=_appSelectionEnabled;
-@property(readonly, copy) NSNumber *appSelectionSignalsEnabled; // @synthesize appSelectionSignalsEnabled=_appSelectionSignalsEnabled;
-@property(readonly, copy) NSNumber *appSelectionSignalsFrequencyDenominator; // @synthesize appSelectionSignalsFrequencyDenominator=_appSelectionSignalsFrequencyDenominator;
-@property(readonly, copy) NSArray *audioSearchResults; // @synthesize audioSearchResults=_audioSearchResults;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSNumber *entityConfidenceSignalsEnabled; // @synthesize entityConfidenceSignalsEnabled=_entityConfidenceSignalsEnabled;
-@property(readonly, copy) NSNumber *entityConfidenceSignalsFrequencyDenominatorInternal; // @synthesize entityConfidenceSignalsFrequencyDenominatorInternal=_entityConfidenceSignalsFrequencyDenominatorInternal;
-@property(readonly, copy) NSNumber *entityConfidenceSignalsFrequencyDenominatorProd; // @synthesize entityConfidenceSignalsFrequencyDenominatorProd=_entityConfidenceSignalsFrequencyDenominatorProd;
-@property(readonly, copy) NSNumber *entityConfidenceSignalsMaxItemsToDisambiguate; // @synthesize entityConfidenceSignalsMaxItemsToDisambiguate=_entityConfidenceSignalsMaxItemsToDisambiguate;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy) NSNumber *immediatelyStartPlayback; // @synthesize immediatelyStartPlayback=_immediatelyStartPlayback;
-@property(readonly, copy) NSArray *internalSignals; // @synthesize internalSignals=_internalSignals;
-@property(readonly, copy) NSNumber *isAmbiguousPlay; // @synthesize isAmbiguousPlay=_isAmbiguousPlay;
-@property(readonly, copy) NSNumber *isPersonalizedRequest; // @synthesize isPersonalizedRequest=_isPersonalizedRequest;
-@property(readonly, copy) NSData *pegasusMetaData; // @synthesize pegasusMetaData=_pegasusMetaData;
-@property(copy) INPrivateMediaIntentData *privateMediaIntentData; // @synthesize privateMediaIntentData=_privateMediaIntentData;
-@property(readonly, copy) NSNumber *shouldSuppressCommonWholeHouseAudioRoutes; // @synthesize shouldSuppressCommonWholeHouseAudioRoutes=_shouldSuppressCommonWholeHouseAudioRoutes;
-@property(readonly) Class superclass;
 
 @end
 

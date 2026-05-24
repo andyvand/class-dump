@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NSBoxAquaduckVisualProvider
 {
     id configuration;
-    void box;
-    id backgroundView;
-    id titleTextField;
 }
 
 - (_Bool);
@@ -20,29 +17,30 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
+- (struct CGRect)_NSURLErrorWebSocketHandshakeFailureReasonKey;
+- (void)finish:] /* Error: Ran out of types for this method. */;
+- (struct CGRect)	(	(	(	(
+)8
+)8
+)8
+)8	(	(	(	(
+)8
+)8
+)8
+)8;
+- (void)2xa;
+- (id)2ks;
 - (struct CGRect);
 - (void);
-- (struct CGRect);
-- (void);
-- (id);
-- (struct CGRect);
-- (void);
-- (id);
-- (struct CGSize);
+- (id)`B;
+- (struct CGSize);
 - (void)ìºA;
 - (void)vE;
 - (void)ÒßE;
 - (struct NSEdgeInsets)åÿÌìÄG;
 
 // Remaining properties
-@property(nonatomic, readonly) struct NSEdgeInsets alignmentRectInsets;
-@property(nonatomic, readonly) struct CGRect borderRect;
 @property(nonatomic) __weak NSBox *box; // @synthesize box;
-@property(nonatomic, readonly) struct CGSize intrinsicContentSize;
-@property(nonatomic, readonly) _Bool isFixedHeight;
-@property(nonatomic, readonly) _Bool isFixedWidth;
-@property(nonatomic, readonly) struct CGRect titleRect;
-@property(nonatomic, readonly) _Bool wantsSubviews;
 
 @end
 

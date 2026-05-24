@@ -4,81 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber, NSString;
+@class CIImage;
 
 @interface PIPortraitEffectFilter
 {
     CIImage *_inputImage;
-    CIImage *_inputFullSizeImage;
-    CIImage *_inputDisparity;
-    CIImage *_inputMatte;
-    CIImage *_inputBlurMap;
-    CIImage *_inputFaceMask;
-    CIImage *_inputHairMask;
-    CIImage *_inputTeethMask;
-    CIImage *_inputDepthMap;
-    NSString *_inputKind;
-    NSNumber *_inputVersion;
-    id _inputFaceLandmarkArray;
-    NSNumber *_inputScale;
-    NSNumber *_inputGenerateSpillMatte;
-    NSNumber *_inputStrength;
-    NSNumber *_inputOneShot;
 }
 
 + (id);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)j&;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void): /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void);
+- (void);
+- (id)ent>;
+- (id);
+- (void)setUseLinearBlur: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) CIImage *inputBlurMap; // @synthesize inputBlurMap=_inputBlurMap;
-@property(retain, nonatomic) CIImage *inputDepthMap; // @synthesize inputDepthMap=_inputDepthMap;
-@property(retain, nonatomic) CIImage *inputDisparity; // @synthesize inputDisparity=_inputDisparity;
-@property(retain, nonatomic) id inputFaceLandmarkArray; // @synthesize inputFaceLandmarkArray=_inputFaceLandmarkArray;
-@property(retain, nonatomic) CIImage *inputFaceMask; // @synthesize inputFaceMask=_inputFaceMask;
-@property(retain, nonatomic) CIImage *inputFullSizeImage; // @synthesize inputFullSizeImage=_inputFullSizeImage;
-@property(retain, nonatomic) NSNumber *inputGenerateSpillMatte; // @synthesize inputGenerateSpillMatte=_inputGenerateSpillMatte;
-@property(retain, nonatomic) CIImage *inputHairMask; // @synthesize inputHairMask=_inputHairMask;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage=_inputImage;
-@property(retain, nonatomic) NSString *inputKind; // @synthesize inputKind=_inputKind;
-@property(retain, nonatomic) CIImage *inputMatte; // @synthesize inputMatte=_inputMatte;
-@property(retain, nonatomic) NSNumber *inputOneShot; // @synthesize inputOneShot=_inputOneShot;
-@property(retain, nonatomic) NSNumber *inputScale; // @synthesize inputScale=_inputScale;
-@property(retain, nonatomic) NSNumber *inputStrength; // @synthesize inputStrength=_inputStrength;
-@property(retain, nonatomic) CIImage *inputTeethMask; // @synthesize inputTeethMask=_inputTeethMask;
-@property(retain, nonatomic) NSNumber *inputVersion; // @synthesize inputVersion=_inputVersion;
 
 @end
 

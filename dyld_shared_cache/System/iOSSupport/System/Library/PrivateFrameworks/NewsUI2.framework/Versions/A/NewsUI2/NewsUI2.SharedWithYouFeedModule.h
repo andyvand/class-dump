@@ -7,8 +7,6 @@
 @interface NewsUI2.SharedWithYouFeedModule
 {
     id resolver;
-    id tracker;
-    id contextBuilder;
 }
 
 @end

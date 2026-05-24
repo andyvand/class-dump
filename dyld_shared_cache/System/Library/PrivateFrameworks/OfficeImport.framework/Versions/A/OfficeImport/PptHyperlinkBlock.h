@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ESDContainer, ESDObject;
+@class ESDContainer;
 
 __attribute__((visibility("hidden")))
 @interface PptHyperlinkBlock
 {
     ESDContainer *mInteractiveInfoContainerHolder;
-    ESDObject *mTxInteractiveInfoAtomHolder;
 }
 
 - (struct PptTxInteracInfoAtom *);

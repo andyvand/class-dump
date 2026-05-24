@@ -4,33 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DOMHTMLInputElement, NSString, UIDatePicker;
+@class DOMHTMLInputElement, UIDatePicker;
 
 __attribute__((visibility("hidden")))
 @interface UIWebDefaultDateTimePicker
 {
     DOMHTMLInputElement *_inputElement;
-    UIDatePicker *_datePicker;
-    NSString *_formatString;
-    _Bool _shouldRemoveTimeZoneInformation;
-    _Bool _isTimeInput;
 }
 
-- (void);
+- (void)messageWithReplaceMessageID:(id)arg1 fromHandle:onService: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
-- (long long);
+- (long long)ent message:(id)arg1 %@;
+- (id)isting display name is (%@) and new display name is (%@);
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)SHA;
+- (id)tring"24@"NSData"32;
 
 // Remaining properties
 @property(retain, nonatomic) UIDatePicker *_datePicker; // @synthesize _datePicker;

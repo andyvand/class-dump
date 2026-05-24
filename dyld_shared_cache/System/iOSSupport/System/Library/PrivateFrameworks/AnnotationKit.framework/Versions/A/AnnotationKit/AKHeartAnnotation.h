@@ -6,8 +6,6 @@
 
 #import <AnnotationKit/AKRectangularShapeAnnotation.h>
 
-@class NSString;
-
 @interface AKHeartAnnotation : AKRectangularShapeAnnotation
 {
     _Bool _verticallyFlipped;
@@ -16,27 +14,16 @@
 + (id);
 + (_Bool);
 - (_Bool);
-- (void);
-- (id);
+- (void)j;
+- (id);
 - (id);
 - (struct CGRect);
 - (id);
-- (id);
-- (id);
+- (id)invitees_commented;
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property _Bool horizontallyFlipped;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?
-
-@property(readonly) Class superclass;
 @property _Bool verticallyFlipped; // @synthesize verticallyFlipped=_verticallyFlipped;
 
 @end

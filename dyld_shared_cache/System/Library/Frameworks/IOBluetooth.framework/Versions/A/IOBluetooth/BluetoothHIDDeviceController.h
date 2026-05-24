@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSArray, NSMutableArray;
 
 @interface BluetoothHIDDeviceController
 {
     NSMutableArray *_devices;
-    NSMutableArray *_inactiveDevices;
-    unsigned short _usageFilter;
-    unsigned short _usagePageFilter;
-    NSString *_serviceFilter;
-    unsigned int _deviceConnectNotification;
-    unsigned int _deviceDisconnectNotification;
-    unsigned int _eventServiceConnectNotification;
-    unsigned int _eventServiceDisconnectNotification;
-    _Bool _queueing;
 }
 
 + (_Bool);
@@ -61,12 +52,12 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)7H7� 7 7;
 - (void);
 - (_Bool);
 - (unsigned long long);
@@ -78,8 +69,6 @@
 
 // Remaining properties
 @property(retain) NSArray *devices; // @synthesize devices=_devices;
-@property(readonly) unsigned long long numberOfDevices;
-@property(copy) NSString *serviceFilter; // @synthesize serviceFilter=_serviceFilter;
 
 @end
 

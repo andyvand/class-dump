@@ -5,26 +5,11 @@
 //
 
 @class NUStyleEngine;
-@protocol MTLBuffer, MTLCommandQueue, MTLDevice, MTLTexture, NUImageBuffer;
+@protocol MTLDevice;
 
 @interface PIParallaxInactiveStyleEngine
 {
     NUStyleEngine *_styleEngine;
-    struct CGSize _expectedImageSize;
-    struct __CVMetalTextureCache *_textureCache;
-    id <MTLBuffer> _styleBuffer;
-    id <MTLBuffer> _identityBuffer;
-    id <MTLBuffer> _mixedBuffer;
-    id <MTLTexture> _styleTexture;
-    id <MTLTexture> _identityTexture;
-    id <MTLTexture> _mixedTexture;
-    id <MTLTexture> _thumbnailTexture;
-    id <NUImageBuffer> _thumbnailBuffer;
-    _Bool _isApplyingStyle;
-    float _styleIntensity;
-    struct CGSize _actualImageSize;
-    id <MTLDevice> _device;
-    id <MTLCommandQueue> _commandQueue;
 }
 
 + (void);
@@ -39,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -53,12 +38,11 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)=;
 - (void)setInputTeethMask: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) id <MTLCommandQueue> commandQueue; // @synthesize commandQueue=_commandQueue;
 @property(readonly, nonatomic) id <MTLDevice> device; // @synthesize device=_device;
 
 @end

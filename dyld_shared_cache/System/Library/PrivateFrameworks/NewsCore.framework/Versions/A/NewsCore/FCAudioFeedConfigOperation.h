@@ -6,18 +6,12 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class NSString;
-@protocol FCContentContext;
-
 @interface FCAudioFeedConfigOperation : FCOperation
 {
     CDUnknownBlockType _fetchCompletionHandler;
-    id <FCContentContext> _context;
-    NSString *_resultFeedConfig;
-    NSString *_resultLegacyConfig;
 }
 
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (id);
 - (void);
 - (id)overrideAggregatesByFeatureKey;

@@ -4,28 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFDataStore, AFDialogPhase, AceObject, NSString, NSUUID;
+@class NSUUID;
 
 @interface AFMutableConversationItem
 {
     _Bool _virgin;
-    _Bool _transient;
-    _Bool _supplemental;
-    _Bool _immersiveExperience;
-    _Bool _persistentAcrossInvocations;
-    NSUUID *_identifier;
-    NSUUID *_revisionIdentifier;
-    long long _type;
-    AceObject *_aceObject;
-    AFDialogPhase *_dialogPhase;
-    NSString *_aceCommandIdentifier;
-    long long _presentationState;
-    AFDataStore *_associatedDataStore;
 }
 
 - (void);
+- (void)!>;
 - (void);
-- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -34,13 +22,13 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id)4;
+- (long long);
+- (_Bool)9I	_=;
 - (id);
 - (id);
 - (long long);
-- (_Bool);
-- (id);
-- (id);
-- (long long);
 - (void);
 - (void);
 - (void);
@@ -52,36 +40,17 @@
 - (id);
 - (long long);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void)Info;
-- (id)toothDeviceInfo:(id)arg1:supportsVoiceTrigger /* Error: Ran out of types for this method. */;
+- (id)AFBluetoothDeviceInfo:(id)arg1:supportsVoiceTrigger /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceCommandIdentifier; // @synthesize aceCommandIdentifier=_aceCommandIdentifier;
-@property(retain, nonatomic) AceObject *aceObject; // @synthesize aceObject=_aceObject;
-@property(readonly, nonatomic) AFDataStore *associatedDataStore; // @synthesize associatedDataStore=_associatedDataStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) AFDialogPhase *dialogPhase; // @synthesize dialogPhase=_dialogPhase;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic, getter=isImmersiveExperience) _Bool immersiveExperience; // @synthesize immersiveExperience=_immersiveExperience;
-@property(nonatomic, getter=isPersistentAcrossInvocations) _Bool persistentAcrossInvocations; // @synthesize persistentAcrossInvocations=_persistentAcrossInvocations;
-@property(nonatomic) long long presentationState; // @synthesize presentationState=_presentationState;
-@property(readonly, copy, nonatomic) NSUUID *revisionIdentifier; // @synthesize revisionIdentifier=_revisionIdentifier;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=isSupplemental) _Bool supplemental; // @synthesize supplemental=_supplemental;
-@property(nonatomic, getter=isTransient) _Bool transient; // @synthesize transient=_transient;
-@property(nonatomic) long long type; // @synthesize type=_type;
-@property(nonatomic, getter=isVirgin) _Bool virgin; // @synthesize virgin=_virgin;
 
 @end
 

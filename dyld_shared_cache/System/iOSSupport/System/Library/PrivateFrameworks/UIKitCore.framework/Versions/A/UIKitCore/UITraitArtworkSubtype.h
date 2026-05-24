@@ -12,7 +12,7 @@
 + (_Bool);
 + (_Bool);
 + (id);
-+ (id)edNotification;
++ (id)_UIWindowSystemGestureStateChangedNotification;
 + (long long)g;
 
 @end

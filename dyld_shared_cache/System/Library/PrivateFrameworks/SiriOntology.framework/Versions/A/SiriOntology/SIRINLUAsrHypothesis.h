@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSUUID;
+@class NSString;
 
 @interface SIRINLUAsrHypothesis
 {
     NSString *_utterance;
-    double _probability;
-    NSArray *_asrTokens;
-    NSUUID *_uuid;
 }
 
 + (_Bool);
@@ -21,7 +18,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)hostname;
 - (double);
 - (id);
 - (id);
@@ -31,10 +28,7 @@
 - (void)der_noVerb_common_JournalEntry;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *asrTokens; // @synthesize asrTokens=_asrTokens;
-@property(nonatomic) double probability; // @synthesize probability=_probability;
 @property(retain, nonatomic) NSString *utterance; // @synthesize utterance=_utterance;
-@property(retain, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

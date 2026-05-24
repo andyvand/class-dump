@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSString;
-@protocol EGElement, EGInputGroupHandler;
+@class NSDictionary, NSString;
 
 @interface EGInputGroup
 {
     NSString *_name;
-    id <EGInputGroupHandler> _inputGroupHandler;
-    NSMutableDictionary *_inputs;
-    NSMutableDictionary *_inputDataGroup;
-    struct os_unfair_lock_s _receiveLock;
 }
 
 + (void)lt-in_video:0 /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
+- (void)(;
 - (id);
 - (void);
-- (void);
+- (void)atinFont;
 - (id);
 - (id);
 - (id);
@@ -30,16 +25,7 @@
 - (void)Í;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSDictionary *egInputsByName;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) __weak id <EGElement> parent;
-@property(readonly) Class superclass;
 
 @end
 

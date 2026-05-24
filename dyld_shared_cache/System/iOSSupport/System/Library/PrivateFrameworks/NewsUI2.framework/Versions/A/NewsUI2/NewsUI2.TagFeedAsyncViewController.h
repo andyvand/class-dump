@@ -7,20 +7,13 @@
 @interface NewsUI2.TagFeedAsyncViewController
 {
     id scrollViewProxyManager;
-    id coverViewManager;
-    id offlineManager;
-    id viewControllerFactory;
-    id promiseViewController;
-    id config;
-    id logger;
-    id offlineBannerCoordinator;
 }
 
 - (id);
 - (id);
 - (void);
 - (void)¸Õûÿ;
-- (id)rLocalOnboarding;
+- (id)channelPickerLocalOnboarding;
 - (void);
 
 @end

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, NSData, NSNotificationCenter;
-@protocol CNAvatarCacheChangeListenerDelegate, CNScheduler;
+@class CNContactStore;
 
 @interface CNAvatarCacheChangeListener
 {
     CNContactStore *_store;
-    id <CNAvatarCacheChangeListenerDelegate> _delegate;
-    NSNotificationCenter *_notificationCenter;
-    id <CNScheduler> _rawPreprocessor;
-    id <CNScheduler> _preprocessor;
-    NSData *_currentHistoryToken;
 }
 
 - (id);
@@ -30,18 +24,13 @@
 - (void);
 - (id);
 - (void);
+- (id)types = %@;
 - (id);
-- (id);
-- (void)on: /* Error: Ran out of types for this method. */;
+- (void)setZPosition: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)intent;
 
 // Remaining properties
-@property(copy) NSData *currentHistoryToken; // @synthesize currentHistoryToken=_currentHistoryToken;
-@property(readonly, nonatomic) __weak id <CNAvatarCacheChangeListenerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly, nonatomic) id <CNScheduler> preprocessor; // @synthesize preprocessor=_preprocessor;
-@property(readonly, nonatomic) id <CNScheduler> rawPreprocessor; // @synthesize rawPreprocessor=_rawPreprocessor;
 @property(readonly, nonatomic) CNContactStore *store; // @synthesize store=_store;
 
 @end

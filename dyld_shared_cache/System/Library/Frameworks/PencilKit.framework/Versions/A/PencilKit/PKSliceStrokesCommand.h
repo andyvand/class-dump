@@ -14,10 +14,10 @@
 }
 
 - (id);
-- (id);
+- (id)bu$dcGcGc@b!f;
 - (id);
 - (void);
-- (id);
+- (id)TLAlertTopicIncomingCallFaceTimeGroupInvitation;
 - (void);
 
 // Remaining properties

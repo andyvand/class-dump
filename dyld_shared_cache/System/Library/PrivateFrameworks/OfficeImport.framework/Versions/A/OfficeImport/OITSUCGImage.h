@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface OITSUCGImage : OITSUImage
 {
     struct CGImage *mCGImage;
-    int mOrientation;
-    double mScale;
 }
 
 - (struct CGImage *);
@@ -19,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (int);
 - (double);
-- (struct CGSize);
+- (struct CGSize)synchronousSerialSchedulerProvider;
 - (id);
 - (struct CGImage *)0I24;
 

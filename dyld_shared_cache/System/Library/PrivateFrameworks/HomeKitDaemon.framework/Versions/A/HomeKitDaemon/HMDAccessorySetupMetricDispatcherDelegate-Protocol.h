@@ -5,5 +5,6 @@
 //
 
 @protocol HMDAccessorySetupMetricDispatcherDelegate
+- (void);
 @end
 

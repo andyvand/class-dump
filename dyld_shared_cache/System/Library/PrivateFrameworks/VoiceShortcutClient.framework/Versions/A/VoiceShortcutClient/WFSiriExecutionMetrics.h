@@ -7,22 +7,18 @@
 @interface WFSiriExecutionMetrics
 {
     unsigned long long _shortcutActionCount;
-    unsigned long long _currentShortcutStep;
-    unsigned long long _siriInteractionCount;
 }
 
 - (unsigned long long);
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long)z;
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long currentShortcutStep; // @synthesize currentShortcutStep=_currentShortcutStep;
 @property(nonatomic) unsigned long long shortcutActionCount; // @synthesize shortcutActionCount=_shortcutActionCount;
-@property(nonatomic) unsigned long long siriInteractionCount; // @synthesize siriInteractionCount=_siriInteractionCount;
 
 @end
 

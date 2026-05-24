@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NFUnfairLock, NSArray, NTPBCoefficients, NTPBScoreProfile, NTPBScoreProfileDebug, NTPBScoringCohort;
+@class NFUnfairLock;
 
 @interface FCFeedPersonalizedItemScoreProfile
 {
     _Bool _isCoread;
-    _Bool _hasShadowScores;
-    NTPBCoefficients *_coefficients;
-    NTPBScoringCohort *_globalCohort;
-    NTPBScoreProfile *_pbScoreProfile;
-    NFUnfairLock *_debugFieldsLock;
 }
 
-- (id);
+- (id)=;
 - (double);
 - (id);
 - (id);
@@ -27,10 +22,10 @@
 - (void);
 - (_Bool);
 - (_Bool);
+- (void)1";
 - (void);
-- (void);
-- (id);
-- (void);
+- (id)tate from '%@' to '%@';
+- (void)Block:(_Bool)arg1 ];
 - (id);
 - (void);
 - (void)x;
@@ -39,38 +34,7 @@
 - (id)block_invoke;
 
 // Remaining properties
-@property(nonatomic) double agedPersonalizationScore; // @dynamic agedPersonalizationScore;
-@property(nonatomic) double autoSubscribeCtr; // @dynamic autoSubscribeCtr;
-@property(retain, nonatomic) NTPBCoefficients *coefficients; // @synthesize coefficients=_coefficients;
-@property(retain, nonatomic) NSArray *cohortMemberships; // @dynamic cohortMemberships;
-@property(nonatomic) double computedGlobalScoreCoefficient; // @dynamic computedGlobalScoreCoefficient;
-@property(nonatomic) double contentTriggerDampener; // @dynamic contentTriggerDampener;
-@property(nonatomic) double conversionMultiplier; // @dynamic conversionMultiplier;
-@property(nonatomic) double dampenedStaticMultiplier; // @dynamic dampenedStaticMultiplier;
-@property(retain, nonatomic) NTPBScoreProfileDebug *debugFields;
 @property(readonly, nonatomic) NFUnfairLock *debugFieldsLock; // @synthesize debugFieldsLock=_debugFieldsLock;
-@property(retain, nonatomic) NTPBScoringCohort *globalCohort; // @synthesize globalCohort=_globalCohort;
-@property(nonatomic) _Bool hasShadowScores; // @synthesize hasShadowScores=_hasShadowScores;
-@property(nonatomic) _Bool isCoread; // @synthesize isCoread=_isCoread;
-@property(nonatomic) _Bool isEvergreen; // @dynamic isEvergreen;
-@property(nonatomic) double multiplier; // @dynamic multiplier;
-@property(nonatomic) double paidNonpaidSubscriptionCtr; // @dynamic paidNonpaidSubscriptionCtr;
-@property(retain, nonatomic) NTPBScoreProfile *pbScoreProfile; // @synthesize pbScoreProfile=_pbScoreProfile;
-@property(nonatomic) double personalizationScore; // @dynamic personalizationScore;
-@property(nonatomic) double publisherDampener; // @dynamic publisherDampener;
-@property(nonatomic) double publisherFavorability; // @dynamic publisherFavorability;
-@property(nonatomic) double qualitativeMultiplier; // @dynamic qualitativeMultiplier;
-@property(nonatomic) double rawPersonalizationScore; // @dynamic rawPersonalizationScore;
-@property(nonatomic) double rawUserFeedbackScore; // @dynamic rawUserFeedbackScore;
-@property(nonatomic) unsigned long long scoringVersion; // @dynamic scoringVersion;
-@property(nonatomic) double serverScoreDemocratizationFactor; // @dynamic serverScoreDemocratizationFactor;
-@property(nonatomic) float shadowAgedPersonalizationScore; // @dynamic shadowAgedPersonalizationScore;
-@property(nonatomic) float shadowTabiScore; // @dynamic shadowTabiScore;
-@property(readonly, nonatomic) double sortingScore;
-@property(nonatomic) double staticMultiplier; // @dynamic staticMultiplier;
-@property(nonatomic) double subscribedChannelCtr; // @dynamic subscribedChannelCtr;
-@property(nonatomic) double tabiScore; // @dynamic tabiScore;
-@property(nonatomic) double userFeedbackScore; // @dynamic userFeedbackScore;
 
 @end
 

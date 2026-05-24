@@ -7,15 +7,10 @@
 @interface ChatKit.SendLaterRootViewModel
 {
     id onRequestPresentation;
-    id pluginContext;
-    id _scheduledDate;
-    id _state;
-    id _showingDatePicker;
-    id _isPressed;
 }
 
 - (void);
-- (void);
+- (void)**You** were removed from the folder;
 - (id);
 - (void);
 

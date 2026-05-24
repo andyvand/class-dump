@@ -8,20 +8,18 @@
 @protocol UICollectionViewDropPlaceholderContext, UIDragAnimating, UIDropSession;
 
 @protocol UICollectionViewDropCoordinator
+- (id <UIDropSession>);
 - (id <UICollectionViewDropPlaceholderContext>)0@ù
 × ;
 - (id <UIDragAnimating>)!äCùq]ð1Â0@ù
 × ;
 - (id <UIDragAnimating>)4;
-- (NSArray *)s;
-- (NSIndexPath *)ngToDisplayMode;
+- (NSArray *)prominentClearGlassBehaviors;
+- (NSIndexPath *)_animatingToDisplayMode;
 - (UICollectionViewDropProposal *)anManageList;
 - (id <UIDragAnimating>)zer because it does not match _initialTouchType(%@);
 
 // Remaining properties
-@property(readonly, nonatomic) NSIndexPath *destinationIndexPath;
 @property(readonly, nonatomic) NSArray *items;
-@property(readonly, nonatomic) UICollectionViewDropProposal *proposal;
-@property(readonly, nonatomic) id <UIDropSession> session;
 @end
 

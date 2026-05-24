@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOperationQueue, NSString, VSAMSBagLoadOperation, VSDeveloperServiceConnection, VSPreferences, VSRemoteNotifier;
-
 @interface VSIdentityProviderAvailabilityInfoCenter
 {
     _Bool _hasDeterminedInitialStatus;
-    long long _status;
-    NSOperationQueue *_privateQueue;
-    VSRemoteNotifier *_remoteNotifier;
-    VSPreferences *_preferences;
-    VSDeveloperServiceConnection *_developerServiceConnection;
-    VSAMSBagLoadOperation *_mockAMSBagLoadOperation;
 }
 
 + (_Bool);
 + (id);
 - (void);
 - (void);
+- (void)FbRK7TFENodejEEE;
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (long long);
+- (long long)CreateSessionDuration;
 - (void);
 - (void);
 - (void);
@@ -42,20 +34,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) VSDeveloperServiceConnection *developerServiceConnection; // @synthesize developerServiceConnection=_developerServiceConnection;
-@property(nonatomic) _Bool hasDeterminedInitialStatus; // @synthesize hasDeterminedInitialStatus=_hasDeterminedInitialStatus;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) VSAMSBagLoadOperation *mockAMSBagLoadOperation; // @synthesize mockAMSBagLoadOperation=_mockAMSBagLoadOperation;
-@property(retain, nonatomic) VSPreferences *preferences; // @synthesize preferences=_preferences;
-@property(retain, nonatomic) NSOperationQueue *privateQueue; // @synthesize privateQueue=_privateQueue;
-@property(retain, nonatomic) VSRemoteNotifier *remoteNotifier; // @synthesize remoteNotifier=_remoteNotifier;
 @property(nonatomic) long long status; // @synthesize status=_status;
-@property(readonly) Class superclass;
 
 @end
 

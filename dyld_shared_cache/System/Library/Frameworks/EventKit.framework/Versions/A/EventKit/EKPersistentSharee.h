@@ -18,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (int);
+- (int)licationConnection]<%p> invalidate - error:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -27,13 +27,13 @@
 - (int);
 - (void);
 - (id);
+- (void)nd an REMList to set property {calendar:(id)arg1 %{public}@, stack:%@}. /* Error: Ran out of types for this method. */;
+- (id)setCharge_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_2: /* Error: Ran out of types for this method. */;
+- (id)_charge_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_1;
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void) ;
 - (id);
 - (id);
 

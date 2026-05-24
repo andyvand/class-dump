@@ -6,15 +6,14 @@
 
 #import <AssistantServices/STSiriModelObject.h>
 
-@class NSSet, NSString;
+@class NSSet;
 
 @interface STPerson : STSiriModelObject
 {
     NSSet *_contactHandles;
-    NSString *_fullName;
 }
 
-+ (_Bool);
++ (_Bool)?;
 - (void);
 - (id);
 - (id);
@@ -22,18 +21,10 @@
 - (id);
 - (void);
 - (void);
-- (void)ion;
+- (void)_forVerification;
 
 // Remaining properties
 @property(copy, nonatomic) NSSet *contactHandles; // @synthesize contactHandles=_contactHandles;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *fullName; // @synthesize fullName=_fullName;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

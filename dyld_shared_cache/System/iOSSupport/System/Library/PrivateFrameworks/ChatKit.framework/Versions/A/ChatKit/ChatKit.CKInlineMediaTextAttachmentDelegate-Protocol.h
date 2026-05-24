@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKMediaObject;
+
 @protocol ChatKit.CKInlineMediaTextAttachmentDelegate
+- (void)capturePropertiesFromAttachment:(CKMediaObject *)arg1;
+- (void)coalescingUndoGroup;
 @end
 

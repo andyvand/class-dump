@@ -29,13 +29,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)h;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)QhJ;
 - (id);
 - (_Bool)Ü4Àäü¨ÐÌôÀ	P 
 ì¼
@@ -43,7 +43,7 @@ __attribute__((visibility("hidden")))
 ;
 - (id)ip failed to update because one or more of the objects in it is already gone:%@ /* Error: Ran out of types for this method. */;
 - (id)moteStoreDidChange:]_block_invoke /* Error: Ran out of types for this method. */;
-- (id);
+- (id)int32;
 
 @end
 

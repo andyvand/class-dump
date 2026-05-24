@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary;
+@class NSDictionary;
 
 @interface REMTextMemberships
 {
     NSDictionary *_memberships;
-    NSDate *_lastResetDate;
 }
 
 + (_Bool);
@@ -19,10 +18,10 @@
 - (id);
 - (id);
 - (void);
+- (id)!;
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)data;
 - (void);
 - (id);
 - (id);
@@ -30,7 +29,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *lastResetDate; // @synthesize lastResetDate=_lastResetDate;
 @property(readonly, nonatomic) NSDictionary *memberships; // @synthesize memberships=_memberships;
 
 @end

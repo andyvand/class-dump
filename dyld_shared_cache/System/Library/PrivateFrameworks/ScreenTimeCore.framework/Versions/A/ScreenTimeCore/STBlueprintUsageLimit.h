@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString, STBlueprint, STBlueprintUsageLimitScheduleRepresentation;
-@protocol STSerializableManagedObject;
-
 @interface STBlueprintUsageLimit
 {
 }
 
 + (id);
-+ (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
++ (id)isPrimaryTextColorLight;
+- (void)LT 0, smart_enabled_only INTEGER NOT NULL DEFAULT 0, smart_is_limited INTEGER NOT NULL DEFAULT 0, smart_limit_kind INTEGER NOT NULL DEFAULT 0, smart_limit_order INTEGER NOT NULL DEFAULT 0, smart_limit_value INTEGER NOT NULL DEFAULT 0, smart_reverse_limit_order INTEGER NOT NULL DEFAULT 0, smart_criteria BLOB, play_order INTEGER NOT NULL DEFAULT 0, is_reversed INTEGER NOT NULL DEFAULT 0, album_field_order INTEGER NOT NULL DEFAULT 0, repeat_mode INTEGER NOT NULL DEFAULT 0, shuffle_items INTEGER NOT NULL DEFAULT 0, has_been_shuffled INTEGER NOT NULL DEFAULT 0, filepath TEXT NOT NULL DEFAULT '', is_saveable INTEGER NOT NULL DEFAULT 0, is_src_remote INTEGER NOT NULL DEFAULT 0, is_ignored_syncing INTEGER NOT NULL DEFAULT 0, container_type INTEGER NOT NULL DEFAULT 0, is_container_type_active_target INTEGER NOT NULL DEFAULT 0, orig_date_modified INTEGER  NOT NULL DEFAULT 0, store_cloud_id INTEGER NOT NULL DEFAULT 0, has_cloud_play_order INTEGER NOT NULL DEFAULT 0, cloud_global_id TEXT NOT NULL DEFAULT '', reserved1 INTEGER NOT NULL DEFAULT 0, reserved2 TEXT NOT NULL DEFAULT '', reserved3 INTEGER NOT NULL DEFAULT 0, reserved4 INTEGER NOT NULL DEFAULT 0, reserved5 INTEGER NOT NULL DEFAULT 0, reserved6 TEXT NOT NULL DEFAULT '', keep_local INTEGER NOT NULL DEFAULT 0, keep_local_status INTEGER NOT NULL DEFAULT 0);
+- (void)AULT 0, smart_is_folder INTEGER NOT NULL DEFAULT 0, smart_is_dynamic INTEGER NOT NULL DEFAULT 0, smart_is_filtered INTEGER NOT NULL DEFAULT 0, smart_is_genius INTEGER NOT NULL DEFAULT 0, smart_enabled_only INTEGER NOT NULL DEFAULT 0, smart_is_limited INTEGER NOT NULL DEFAULT 0, smart_limit_kind INTEGER NOT NULL DEFAULT 0, smart_limit_order INTEGER NOT NULL DEFAULT 0, smart_limit_value INTEGER NOT NULL DEFAULT 0, smart_reverse_limit_order INTEGER NOT NULL DEFAULT 0, smart_criteria BLOB, play_order INTEGER NOT NULL DEFAULT 0, is_reversed INTEGER NOT NULL DEFAULT 0, album_field_order INTEGER NOT NULL DEFAULT 0, repeat_mode INTEGER NOT NULL DEFAULT 0, shuffle_items INTEGER NOT NULL DEFAULT 0, has_been_shuffled INTEGER NOT NULL DEFAULT 0, filepath TEXT NOT NULL DEFAULT '', is_saveable INTEGER NOT NULL DEFAULT 0, is_src_remote INTEGER NOT NULL DEFAULT 0, is_ignored_syncing INTEGER NOT NULL DEFAULT 0, container_type INTEGER NOT NULL DEFAULT 0, is_container_type_active_target INTEGER NOT NULL DEFAULT 0, orig_date_modified INTEGER  NOT NULL DEFAULT 0, store_cloud_id INTEGER NOT NULL DEFAULT 0, has_cloud_play_order INTEGER NOT NULL DEFAULT 0, cloud_global_id TEXT NOT NULL DEFAULT '', reserved1 INTEGER NOT NULL DEFAULT 0, reserved2 TEXT NOT NULL DEFAULT '', reserved3 INTEGER NOT NULL DEFAULT 0, reserved4 INTEGER NOT NULL DEFAULT 0, reserved5 INTEGER NOT NULL DEFAULT 0, reserved6 TEXT NOT NULL DEFAULT '', keep_local INTEGER NOT NULL DEFAULT 0, keep_local_status INTEGER NOT NULL DEFAULT 0);
+- (void)tore_matched_status, store_redownloaded_status, store_link_id, reserved, vpp_is_licensed, vpp_org_id, vpp_org_name) SELECT item_pid, store_item_id, store_artist_id, store_composer_id, store_genre_id, store_playlist_id, storefront_id, purchase_history_id, purchase_history_token, purchase_history_redownload_params, store_saga_id, match_redownload_params, sync_id, home_sharing_id, is_ota_purchased, store_kind, account_id, key_versions, key_platform_id, key_id, key_id_2, date_purchased, date_released, external_guid, feed_url, artwork_url, store_xid, store_flavor, store_matched_status, store_redownloaded_status, store_link_id, reserved, vpp_is_licensed, vpp_org_id, vpp_org_name FROM item_store;
+- (void)ork_url, store_xid, store_flavor, store_matched_status, store_redownloaded_status, store_link_id, reserved, vpp_is_licensed, vpp_org_id, vpp_org_name) SELECT item_pid, store_item_id, store_artist_id, store_composer_id, store_genre_id, store_playlist_id, storefront_id, purchase_history_id, purchase_history_token, purchase_history_redownload_params, store_saga_id, match_redownload_params, sync_id, home_sharing_id, is_ota_purchased, store_kind, account_id, key_versions, key_platform_id, key_id, key_id_2, date_purchased, date_released, external_guid, feed_url, artwork_url, store_xid, store_flavor, store_matched_status, store_redownloaded_status, store_link_id, reserved, vpp_is_licensed, vpp_org_id, vpp_org_name FROM item_store;
+- (id)INTEGER NOT NULL DEFAULT 0;
+- (_Bool)R NOT NULL DEFAULT 0, account_id INTEGER NOT NULL DEFAULT 0, key_versions INTEGER NOT NULL DEFAULT 0, key_platform_id INTEGER NOT NULL DEFAULT 0, key_id INTEGER NOT NULL DEFAULT 0, key_id_2 INTEGER NOT NULL DEFAULT 0, date_purchased INTEGER NOT NULL DEFAULT 0, date_released INTEGER NOT NULL DEFAULT 0, external_guid TEXT, feed_url TEXT, artwork_url TEXT, store_xid TEXT, store_flavor TEXT, store_matched_status INTEGER NOT NULL DEFAULT 0, store_redownloaded_status INTEGER NOT NULL DEFAULT 0, store_link_id INTEGER NOT NULL DEFAULT 0;
+- (_Bool)rams TEXT, sync_id INTEGER NOT NULL DEFAULT 0, home_sharing_id INTEGER NOT NULL DEFAULT 0, is_ota_purchased INTEGER NOT NULL DEFAULT 0, store_kind INTEGER NOT NULL DEFAULT 0, account_id INTEGER NOT NULL DEFAULT 0, key_versions INTEGER NOT NULL DEFAULT 0, key_platform_id INTEGER NOT NULL DEFAULT 0, key_id INTEGER NOT NULL DEFAULT 0, key_id_2 INTEGER NOT NULL DEFAULT 0, date_purchased INTEGER NOT NULL DEFAULT 0, date_released INTEGER NOT NULL DEFAULT 0, external_guid TEXT, feed_url TEXT, artwork_url TEXT, store_xid TEXT, store_flavor TEXT, store_matched_status INTEGER NOT NULL DEFAULT 0, store_redownloaded_status INTEGER NOT NULL DEFAULT 0, store_link_id INTEGER NOT NULL DEFAULT 0;
+- (void)INTEGER NOT NULL DEFAULT 0, store_playlist_id INTEGER NOT NULL DEFAULT 0, storefront_id INTEGER NOT NULL DEFAULT 0, purchase_history_id INTEGER NOT NULL DEFAULT 0, purchase_history_token INTEGER NOT NULL DEFAULT 0, purchase_history_redownload_params TEXT, store_saga_id INTEGER NOT NULL DEFAULT 0, match_redownload_params TEXT, sync_id INTEGER NOT NULL DEFAULT 0, home_sharing_id INTEGER NOT NULL DEFAULT 0, is_ota_purchased INTEGER NOT NULL DEFAULT 0, store_kind INTEGER NOT NULL DEFAULT 0, account_id INTEGER NOT NULL DEFAULT 0, key_versions INTEGER NOT NULL DEFAULT 0, key_platform_id INTEGER NOT NULL DEFAULT 0, key_id INTEGER NOT NULL DEFAULT 0, key_id_2 INTEGER NOT NULL DEFAULT 0, date_purchased INTEGER NOT NULL DEFAULT 0, date_released INTEGER NOT NULL DEFAULT 0, external_guid TEXT, feed_url TEXT, artwork_url TEXT, store_xid TEXT, store_flavor TEXT, store_matched_status INTEGER NOT NULL DEFAULT 0, store_redownloaded_status INTEGER NOT NULL DEFAULT 0, store_link_id INTEGER NOT NULL DEFAULT 0;
+- (void)arted, rental_date_started, is_demo FROM item_extra;
+- (void)ion, rental_playback_date_started, rental_date_started, is_demo FROM item_extra;
+- (void)5;
 - (id);
 - (void);
 - (_Bool);
@@ -35,30 +32,7 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *applicationIdentifiers; // @dynamic applicationIdentifiers;
-@property(readonly, nonatomic) STBlueprint *blueprint; // @dynamic blueprint;
-@property(retain, nonatomic) STBlueprintUsageLimitScheduleRepresentation *budgetLimitScheduleRepresentation;
-@property(copy, nonatomic) NSArray *categoryIdentifiers; // @dynamic categoryIdentifiers;
-@property(copy, nonatomic) NSArray *categoryIdentifiersVersion2; // @dynamic categoryIdentifiersVersion2;
 @property(nonatomic) double day0Limit; // @dynamic day0Limit;
-@property(nonatomic) double day1Limit; // @dynamic day1Limit;
-@property(nonatomic) double day2Limit; // @dynamic day2Limit;
-@property(nonatomic) double day3Limit; // @dynamic day3Limit;
-@property(nonatomic) double day4Limit; // @dynamic day4Limit;
-@property(nonatomic) double day5Limit; // @dynamic day5Limit;
-@property(nonatomic) double day6Limit; // @dynamic day6Limit;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *itemIdentifiers; // @dynamic itemIdentifiers;
-@property(retain, nonatomic) NSNumber *notificationTimeInterval; // @dynamic notificationTimeInterval;
-@property(readonly) Class superclass;
-@property(readonly) id <STSerializableManagedObject> syncableRootObject;
-@property(copy, nonatomic) NSString *usageItemType; // @dynamic usageItemType;
-@property(copy, nonatomic) NSArray *websiteIdentifiers; // @dynamic websiteIdentifiers;
 
 @end
 

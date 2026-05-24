@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, TRIPBMessage;
+@class TRIPBMessage;
 
 @interface TRIPBInt64Int64Dictionary
 {
     TRIPBMessage *_autocreator;
-    NSMutableDictionary *_dictionary;
 }
 
 - (void);
@@ -21,17 +20,17 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)T;
 - (unsigned long long);
 - (id);
 - (unsigned long long);
 - (void);
 - (void);
-- (void)sBiomeShortcuts;
+- (void)FedStatsBiomeShortcuts;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;

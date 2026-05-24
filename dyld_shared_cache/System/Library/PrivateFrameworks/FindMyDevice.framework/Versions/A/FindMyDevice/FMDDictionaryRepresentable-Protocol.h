@@ -7,6 +7,7 @@
 @class NSDictionary;
 
 @protocol FMDDictionaryRepresentable
+- (NSDictionary *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *dictionaryValue;

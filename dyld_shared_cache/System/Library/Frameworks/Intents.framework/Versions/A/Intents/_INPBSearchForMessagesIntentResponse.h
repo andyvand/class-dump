@@ -4,31 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface _INPBSearchForMessagesIntentResponse
 {
     struct _has;
-    NSArray *_messages;
-    NSArray *_searchResults;
 }
 
 + (Class);
-+ (Class);
++ (Class)performSelector:withObject:withObject: /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (id);
 - (void);
 - (unsigned long long);
+- (id)u;
+- (void);
+- (void);
+- (void);
+- (void)s/A/GSS;
+- (unsigned long long)preferredLocalizationsFromArray:forPreferences: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (unsigned long long);
-- (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (_Bool)P;
 - (_Bool);
 - (id);
 - (void);
@@ -36,20 +34,10 @@
 - (void);
 - (id);
 - (id);
-- (void)nits;
+- (void)AstronomicalUnits;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSArray *messages; // @synthesize messages=_messages;
-@property(readonly, nonatomic) unsigned long long messagesCount;
-@property(copy, nonatomic) NSArray *searchResults; // @synthesize searchResults=_searchResults;
-@property(readonly, nonatomic) unsigned long long searchResultsCount;
-@property(readonly) Class superclass;
 
 @end
 

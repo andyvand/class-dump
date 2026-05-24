@@ -14,13 +14,13 @@
 + (id);
 + (id);
 + (id);
-+ (unsigned int);
-- (id);
++ (unsigned int)een downloaded, or are disallowed:%s. Returning existing file urls. /* Error: Ran out of types for this method. */;
+- (id)\;
 - (void);
 - (unsigned char);
 - (id);
 - (id);
-- (id);
+- (id)AMSUserNotificationAuthorizationResult;
 
 // Remaining properties
 @property(readonly) unsigned char manifestEpoch; // @synthesize manifestEpoch=_manifestEpoch;

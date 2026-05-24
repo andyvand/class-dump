@@ -5,5 +5,6 @@
 //
 
 @protocol MapsSuggestionsImprover
+- (_Bool)_;
 @end
 

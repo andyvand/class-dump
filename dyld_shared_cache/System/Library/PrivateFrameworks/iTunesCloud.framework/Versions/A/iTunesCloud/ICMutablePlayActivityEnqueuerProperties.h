@@ -6,7 +6,7 @@
 
 #import <iTunesCloud/ICPlayActivityEnqueuerProperties.h>
 
-@class NSNumber, NSString, NSTimeZone;
+@class NSString;
 
 @interface ICMutablePlayActivityEnqueuerProperties : ICPlayActivityEnqueuerProperties
 {
@@ -25,15 +25,7 @@
 - (void)ith error:(id)arg1 %{public}@;
 
 // Remaining properties
-@property(nonatomic, getter=isSBEnabled) _Bool SBEnabled; // @dynamic SBEnabled;
 @property(copy, nonatomic) NSString *buildVersion; // @dynamic buildVersion;
-@property(copy, nonatomic) NSString *deviceGUID; // @dynamic deviceGUID;
-@property(copy, nonatomic) NSString *deviceName; // @dynamic deviceName;
-@property(copy, nonatomic, getter=isPrivateListeningEnabled) NSNumber *privateListeningEnabled; // @dynamic privateListeningEnabled;
-@property(nonatomic) unsigned long long storeAccountID; // @dynamic storeAccountID;
-@property(copy, nonatomic) NSString *storeFrontID; // @dynamic storeFrontID;
-@property(nonatomic) long long systemReleaseType; // @dynamic systemReleaseType;
-@property(copy, nonatomic) NSTimeZone *timeZone; // @dynamic timeZone;
 
 @end
 

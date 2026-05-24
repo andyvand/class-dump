@@ -6,15 +6,13 @@
 
 #import <Safari/StartPageViewItem.h>
 
-@class ContentHuggingTextView, NSString, NSTextField;
+@class NSTextField;
 @protocol StartPagePasswordBreachNotificationCollectionViewItemDelegate;
 
 __attribute__((visibility("hidden")))
 @interface StartPagePasswordBreachWarningCollectionViewItem : StartPageViewItem
 {
     id <StartPagePasswordBreachNotificationCollectionViewItemDelegate> _delegate;
-    NSTextField *_titleTextField;
-    ContentHuggingTextView *_bodyTextView;
 }
 
 + (id);
@@ -34,15 +32,6 @@ __attribute__((visibility("hidden")))
 - (void)¼;
 
 // Remaining properties
-@property __weak ContentHuggingTextView *bodyTextView; // @synthesize bodyTextView=_bodyTextView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <StartPagePasswordBreachNotificationCollectionViewItemDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property __weak NSTextField *titleTextField; // @synthesize titleTextField=_titleTextField;
 
 @end

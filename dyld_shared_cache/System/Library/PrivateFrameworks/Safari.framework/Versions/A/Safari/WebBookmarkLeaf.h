@@ -6,19 +6,11 @@
 
 #import <Safari/SafariWebBookmark.h>
 
-@class NSArray, NSString, NSURL;
+@class NSString;
 
 @interface WebBookmarkLeaf : SafariWebBookmark
 {
     NSString *_threadUnsafeUserVisibleURLString;
-    _Bool _shouldReleaseIconForHost;
-    _Bool _threadUnsafeShouldNeverFetchMetadata;
-    _Bool _threadUnsafeHasUserDefinedPreviewText;
-    NSURL *_threadUnsafeImageURL;
-    NSString *_threadUnsafePreviewText;
-    NSString *_threadUnsafeURLString;
-    NSString *_threadUnsafeSiteName;
-    NSArray *_threadUnsafeTopicQIDs;
 }
 
 - (_Bool);
@@ -33,27 +25,27 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)-Am;
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)isVertical;
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)6;
 - (id)@ù
 × ;
 - (id)
@@ -63,18 +55,7 @@
 - (id)ä	;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *URLString; // @synthesize URLString=_threadUnsafeURLString;
-@property(copy, nonatomic) NSString *UUID;
-@property(readonly, nonatomic) NSURL *canonicalURL;
-@property(nonatomic) _Bool hasUserDefinedPreviewText; // @synthesize hasUserDefinedPreviewText=_threadUnsafeHasUserDefinedPreviewText;
-@property(retain, nonatomic) NSURL *imageURL; // @synthesize imageURL=_threadUnsafeImageURL;
 @property(copy, nonatomic) NSString *previewText; // @synthesize previewText=_threadUnsafePreviewText;
-@property(nonatomic) _Bool shouldNeverFetchMetadata; // @synthesize shouldNeverFetchMetadata=_threadUnsafeShouldNeverFetchMetadata;
-@property(copy, nonatomic) NSString *siteName; // @synthesize siteName=_threadUnsafeSiteName;
-@property(readonly, copy) NSString *title;
-@property(copy, nonatomic) NSArray *topicQIDs; // @synthesize topicQIDs=_threadUnsafeTopicQIDs;
-@property(readonly, copy, nonatomic) NSURL *url;
-@property(readonly, copy, nonatomic) NSString *userVisibleURLString;
 
 @end
 

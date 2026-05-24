@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface _NSCollectionLayoutVisualFormatParser
 {
     int _axis;
-    NSString *_visualFormat;
-    NSString *_name;
-    NSArray *_items;
 }
 
 + (id);
 + (id);
-+ (int);
++ (int)"8@"NSMutableDictionary"16;
 - (id);
 - (void);
 - (id);
@@ -34,9 +29,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) int axis; // @synthesize axis=_axis;
-@property(copy, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSString *visualFormat; // @synthesize visualFormat=_visualFormat;
 
 @end
 

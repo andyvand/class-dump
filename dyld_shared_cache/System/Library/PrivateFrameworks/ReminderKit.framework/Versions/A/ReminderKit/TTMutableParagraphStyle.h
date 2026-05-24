@@ -15,14 +15,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(nonatomic) long long alignment; // @dynamic alignment;
-@property(nonatomic) unsigned int hints; // @dynamic hints;
-@property(nonatomic) unsigned long long indent; // @dynamic indent;
-@property(nonatomic) _Bool needsListCleanup; // @dynamic needsListCleanup;
-@property(nonatomic) _Bool needsParagraphCleanup; // @dynamic needsParagraphCleanup;
-@property(nonatomic) unsigned long long startingItemNumber; // @dynamic startingItemNumber;
 @property(nonatomic) unsigned int style; // @dynamic style;
-@property(nonatomic) long long writingDirection; // @dynamic writingDirection;
 
 @end
 

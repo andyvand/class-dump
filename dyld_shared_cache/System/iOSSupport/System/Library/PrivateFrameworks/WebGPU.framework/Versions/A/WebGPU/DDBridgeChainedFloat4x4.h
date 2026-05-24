@@ -11,10 +11,10 @@
 }
 
 - (id);
-- (CDStruct_34f00414);
+- (CDStruct_34f00414)ProcessedParameterValue:parameterState:permissionRequestor:completionHandler:]_block_invoke /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (void);
+- (void)constraintEqualToConstant:(CDStruct_34f00414)arg1;
+- (void)A#;
 - (void)~CN9SugDQ7XfdI6wkt5BVrjTZQAbhvWn9-4IHbbI/Library/Caches/com.apple.xbs/TemporaryDirectory.l1tWzK/Sources/WebGPU_iosmac/Source/WebGPU/WGSL/ConstantFunctions.h:(id)arg1 516:71) &)::(anonymous class)::operator()(auto &) const [arg:auto = const WGSL::ConstantValue] /* Error: Ran out of types for this method. */;
 - (id)TF::KeyValuePair<WTF::GenericHashKey<std::array<unsigned int, 5>>, unsigned int>>, HashFunctions = WTF::DefaultHash<WTF::GenericHashKey<std::array<unsigned int, 5>>>, Traits = WTF::HashMap<WTF::GenericHashKey<std::array<unsigned int, 5>>, unsigned int>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::GenericHashKey<std::array<unsigned int, 5>>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 

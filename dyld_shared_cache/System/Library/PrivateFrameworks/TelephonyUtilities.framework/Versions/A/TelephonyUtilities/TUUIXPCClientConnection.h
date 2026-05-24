@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCConnection, TUCallCenter;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface TUUIXPCClientConnection
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSXPCConnection *_connection;
-    TUCallCenter *_callCenter;
 }
 
 - (void);
@@ -33,16 +31,7 @@
 - (void)6Q24Q32^@40;
 
 // Remaining properties
-@property(nonatomic) __weak TUCallCenter *callCenter; // @synthesize callCenter=_callCenter;
-@property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

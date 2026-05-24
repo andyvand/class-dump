@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-@protocol GPURawCounterSourceGroup;
+@class NSString;
 
 @interface _GPURawCounterSource
 {
     NSString *_name;
-    id <GPURawCounterSourceGroup> _sourceGroup;
-    NSDictionary *_options;
-    NSDictionary *_features;
 }
 
 - (id);
@@ -21,7 +17,7 @@
 - (unsigned int);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)R;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -32,7 +28,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (unsigned int);
 - (unsigned int);
@@ -45,22 +41,12 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)PKDrawingVersionedDocument;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSDictionary *features; // @synthesize features=_features;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSString *name; // @synthesize name=_name;
-@property(copy) NSDictionary *options; // @synthesize options=_options;
-@property(readonly) id <GPURawCounterSourceGroup> sourceGroup; // @synthesize sourceGroup=_sourceGroup;
-@property(readonly) Class superclass;
 
 @end
 

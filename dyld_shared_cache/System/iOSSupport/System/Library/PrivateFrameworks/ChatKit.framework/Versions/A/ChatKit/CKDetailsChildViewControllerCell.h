@@ -6,36 +6,27 @@
 
 #import <ChatKit/CKDetailsCell.h>
 
-@class NSString, UIView;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface CKDetailsChildViewControllerCell : CKDetailsCell
 {
     _Bool _shouldUseLayoutMargins;
-    UIView *_childViewControllerView;
 }
 
 + (_Bool);
 + (id);
-- (_Bool);
+- (_Bool)tableCellWasEditedAtColumnID:rowID:edited:range:changeInLength: /* Error: Ran out of types for this method. */;
+- (void)NSTextFieldDelegate;
+- (void);
+- (id)(void*)0);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id)te;
+- (id)appDelegate;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIView *childViewControllerView; // @synthesize childViewControllerView=_childViewControllerView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool shouldUseLayoutMargins; // @synthesize shouldUseLayoutMargins=_shouldUseLayoutMargins;
-@property(readonly) Class superclass;
 
 @end
 

@@ -14,7 +14,7 @@
 + (id)@16q24;
 - (unsigned int);
 - (id);
-- (void);
+- (void)~;
 - (id);
 
 @end

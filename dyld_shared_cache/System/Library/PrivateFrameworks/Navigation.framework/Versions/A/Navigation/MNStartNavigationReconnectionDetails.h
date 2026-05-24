@@ -4,40 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData;
-
 __attribute__((visibility("hidden")))
 @interface MNStartNavigationReconnectionDetails
 {
     _Bool _isReconnecting;
-    unsigned long long _initialRouteSource;
-    unsigned long long _targetLegIndex;
-    NSArray *_spokenAnnouncements;
-    NSData *_serverSessionState;
 }
 
 + (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (id);
-- (void);
-- (void);
+- (void)LZ7U
+;
+- (_Bool);
 - (void);
 - (id);
-- (unsigned long long);
+- (id);
+- (void);
+- (unsigned long long);
+- (id);
+- (void)STextField",W,V_passPhraseTitle;
+- (void);
+- (void);
+- (id);
+- (unsigned long long)SUMacControllerOverridesRequiresPowerPluggedIn;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long initialRouteSource; // @synthesize initialRouteSource=_initialRouteSource;
 @property(nonatomic) _Bool isReconnecting; // @synthesize isReconnecting=_isReconnecting;
-@property(retain, nonatomic) NSData *serverSessionState; // @synthesize serverSessionState=_serverSessionState;
-@property(retain, nonatomic) NSArray *spokenAnnouncements; // @synthesize spokenAnnouncements=_spokenAnnouncements;
-@property(nonatomic) unsigned long long targetLegIndex; // @synthesize targetLegIndex=_targetLegIndex;
 
 @end
 

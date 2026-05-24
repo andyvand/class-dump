@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, NSString, UIImage;
+@class NSString;
 
 @interface UIIndexBarEntry
 {
     NSString *_title;
-    NSString *_shortTitle;
-    long long _type;
-    UIImage *_image;
-    NSIndexPath *_indexPath;
 }
 
 + (id);
++ (id)C;
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-- (_Bool);
+- (_Bool)OS/SharedWithYou;
 - (id);
 - (void);
 - (id);
@@ -35,17 +31,11 @@
 - (long long)@48;
 - (void)sparent;
 - (void)óõtö´öh÷4øPùÜúûðûýý0þ;
-- (void)gnoringInteractionEvents;
+- (void)beginIgnoringInteractionEvents;
 - (id)ü\;
 - (void)pþ6ðËpºg;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *effectiveShortTitle;
-@property(readonly, nonatomic) _Bool hasPoundTitle;
-@property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(copy, nonatomic) NSIndexPath *indexPath; // @synthesize indexPath=_indexPath;
-@property(copy, nonatomic) NSString *shortTitle; // @synthesize shortTitle=_shortTitle;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

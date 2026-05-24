@@ -6,52 +6,42 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface GRPSchemaTrialExperimentIdentifiers : SISchemaInstrumentationMessage
 {
     NSString *_experimentId;
-    NSString *_treatmentId;
-    NSString *_deploymentId;
-    _Bool _hasExperimentId;
-    _Bool _hasTreatmentId;
-    _Bool _hasDeploymentId;
 }
 
 - (void);
 - (void);
+- (void)9
+@9*;
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)X3;
+- (_Bool)PHOTOSTREAM_OPTIONS_ICLOUD_PHOTOS_MAY_EXCEED_MAX_TIER_TITLE;
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)IeyBh_;
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)NSTableColumn"32@40;
+- (_Bool)P;
 - (id);
 - (_Bool);
-- (id);
+- (id)okup. Missing serverId. %@;
 - (id);
 - (id)nded";
-- (void)ckVersion;
+- (void)deleteDatapackVersion;
 - (id)ySignalSets;
-- (id)hasPerfMetrics;
+- (id)_hasPerfMetrics;
 - (id);
 - (void)¼ÆÿÃÀ´9$;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *deploymentId; // @synthesize deploymentId=_deploymentId;
 @property(copy, nonatomic) NSString *experimentId; // @synthesize experimentId=_experimentId;
-@property(nonatomic) _Bool hasDeploymentId; // @synthesize hasDeploymentId=_hasDeploymentId;
-@property(nonatomic) _Bool hasExperimentId; // @synthesize hasExperimentId=_hasExperimentId;
-@property(nonatomic) _Bool hasTreatmentId; // @synthesize hasTreatmentId=_hasTreatmentId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *treatmentId; // @synthesize treatmentId=_treatmentId;
 
 @end
 

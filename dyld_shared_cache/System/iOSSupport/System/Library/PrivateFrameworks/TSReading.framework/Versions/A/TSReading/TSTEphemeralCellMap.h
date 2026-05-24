@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface TSTEphemeralCellMap
 {
-    CDStruct_0441cfb5 *mCellIDs;
-    id *mCells;
-    unsigned long long mCapacity;
-    unsigned long long mCount;
-    _Bool mMayModifyValuesReferencedByFormulas;
-    _Bool mIgnoreHiddenCellsWhenApplying;
-    _Bool mAppliesToHidden;
+    CDStruct_bd4d8e6b *mCellIDs;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)findOutputDevicesForDestination;
+- (void)defaultRate change;
+- (void)and can't be use to generate a playbackTimeDidChange event;
 - (_Bool);
 - (_Bool);
-- (CDStruct_0441cfb5);
+- (CDStruct_bd4d8e6b);
 - (void);
-- (CDStruct_0441cfb5 *);
+- (CDStruct_bd4d8e6b *);
 - (_Bool);
-- (_Bool);
+- (_Bool)L;
 - (id);
-- (void);
+- (void)(;
 - (id);
 - (id);
 - (unsigned long long)11Â0@ù
@@ -36,13 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool appliesToHidden; // @synthesize appliesToHidden=mAppliesToHidden;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

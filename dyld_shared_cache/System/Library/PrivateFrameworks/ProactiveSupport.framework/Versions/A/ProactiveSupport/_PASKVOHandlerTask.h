@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSString;
 
 @interface _PASKVOHandlerTask
 {
     NSString *_keyPath;
-    NSObject *_object;
-    CDUnknownBlockType _afterBlock;
-    CDUnknownBlockType _beforeAndAfterBlock;
 }
 
 - (CDUnknownBlockType);
 - (id);
 - (void);
-- (CDUnknownBlockType);
-- (id);
+- (CDUnknownBlockType)d;
+- (id)%s;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)setX_apple_auto_refresh: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType afterBlock; // @synthesize afterBlock=_afterBlock;
-@property(copy, nonatomic) CDUnknownBlockType beforeAndAfterBlock; // @synthesize beforeAndAfterBlock=_beforeAndAfterBlock;
 @property(copy, nonatomic) NSString *keyPath; // @synthesize keyPath=_keyPath;
-@property(nonatomic) __weak NSObject *object; // @synthesize object=_object;
 
 @end
 

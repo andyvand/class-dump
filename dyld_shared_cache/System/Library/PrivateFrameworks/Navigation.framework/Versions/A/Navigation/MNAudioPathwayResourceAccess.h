@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface MNAudioPathwayResourceAccess
 {
     NSObject<OS_dispatch_queue> *_pickableRoutesQueue;
-    NSDictionary *_hfpRoute;
-    unsigned long long _forLoggingOnly_pickableRoutesCount;
-    _Bool _enableHFPUse;
-    _Bool _wantsVolumeControl;
 }
 
-- (_Bool);
+- (_Bool)_PullDownButton;
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)UpdateSplitViewItem;
 - (void)MutableArray";
 
 // Remaining properties
 @property(nonatomic) _Bool enableHFPUse; // @synthesize enableHFPUse=_enableHFPUse;
-@property(nonatomic) _Bool wantsVolumeControl; // @synthesize wantsVolumeControl=_wantsVolumeControl;
 
 @end
 

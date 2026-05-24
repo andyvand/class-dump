@@ -9,11 +9,10 @@
 @interface PKInputPointExtraRollLatencyFilter : PKInputPointBaseFilter
 {
     vector_3f2cadd7 _inputRolls;
-    long long _numFramesExtraLatency;
 }
 
 - (void);
-- (long long);
+- (long long)P;
 - (void);
 - (void);
 - (id);

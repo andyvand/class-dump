@@ -6,23 +6,20 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MHSchemaMHUserEngagementFalseTriggerMitigationFailed : SISchemaInstrumentationMessage
 {
     unsigned int _errorCode;
-    CDStruct_70a7dc3e _has;
 }
 
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)startWritingTraceToPath:traceType:withErrorHandler: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)EC_POINT_is_at_infinity;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id)N,V_failed;
 - (id)d;
@@ -31,8 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned int errorCode; // @synthesize errorCode=_errorCode;
-@property(nonatomic) _Bool hasErrorCode;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

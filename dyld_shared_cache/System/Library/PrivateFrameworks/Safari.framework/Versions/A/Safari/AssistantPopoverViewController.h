@@ -4,53 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AssistantPopoverPageMenuItemInfo, AssistantPopoverResultCollectionViewCellActionButton, AssistantPopoverResultsCollectionViewController, AssistantPopoverSection, BrowserWindowController, NSArray, NSLayoutConstraint, NSMutableArray, NSMutableDictionary, NSString, NSView;
-@protocol AssistantPopoverViewControllerDelegate, ReaderAppearanceViewControllerDelegate;
+@class AssistantPopoverSection, NSView;
 
 __attribute__((visibility("hidden")))
 @interface AssistantPopoverViewController
 {
     AssistantPopoverSection *_websiteActionsSection;
-    AssistantPopoverPageMenuItemInfo *_textSizeAction;
-    AssistantPopoverPageMenuItemInfo *_findInPageAction;
-    AssistantPopoverPageMenuItemInfo *_websiteSettingsAction;
-    AssistantPopoverSection *_pageMenuSection;
-    AssistantPopoverSection *_entityCardSection;
-    AssistantPopoverSection *_readerButtonSection;
-    AssistantPopoverSection *_summarySection;
-    AssistantPopoverSection *_readerSection;
-    AssistantPopoverResultCollectionViewCellActionButton *_showReaderButton;
-    AssistantPopoverSection *_readerAppearanceSection;
-    AssistantPopoverSection *_finalButtonsSection;
-    AssistantPopoverSection *_consentSection;
-    NSArray *_searchResults;
-    NSMutableDictionary *_resultsCollectionViewSections;
-    NSArray *_visibleResultSections;
-    NSMutableArray *_updatingEntityCardSectionResults;
-    NSMutableArray *_updatingVideoSectionResults;
-    AssistantPopoverResultsCollectionViewController *_resultsCollectionViewController;
-    unsigned long long _hiddenElementCount;
-    AssistantPopoverPageMenuItemInfo *_scribblePageMenuItem;
-    AssistantPopoverPageMenuItemInfo *_clearScribblePageMenuItem;
-    AssistantPopoverPageMenuItemInfo *_reportScribbleIssuePageMenuItem;
-    AssistantPopoverPageMenuItemInfo *_pictureInPicturePageMenuItem;
-    AssistantPopoverPageMenuItemInfo *_theaterModePageMenuItem;
-    AssistantPopoverPageMenuItemInfo *_reportWebPageCompatibilityIssuePageMenuItem;
-    _Bool _readerVisibilityDetermined;
-    _Bool _rowActionsVisibilityDetermined;
-    AssistantPopoverPageMenuItemInfo *_summarizePageMenuItem;
-    _Bool _enableSummarizeItem;
-    AssistantPopoverSection *_summarizeSection;
-    _Bool _enableScribble;
-    id <AssistantPopoverViewControllerDelegate> _delegate;
-    id <ReaderAppearanceViewControllerDelegate> _readerAppearanceDelegate;
-    BrowserWindowController *_browserWindowController;
-    NSLayoutConstraint *_popoverWidthConstraint;
-    NSString *_webpageIdentifier;
-    NSView *_resultsView;
 }
 
 - (void);
+- (void)B;
 - (void);
 - (void);
 - (void);
@@ -59,15 +22,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
+- (id);
+- (void)�;
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
@@ -121,21 +83,7 @@ __attribute__((visibility("hidden")))
 - (void)O/;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak BrowserWindowController *browserWindowController; // @synthesize browserWindowController=_browserWindowController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AssistantPopoverViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool enableScribble; // @synthesize enableScribble=_enableScribble;
-@property(nonatomic) _Bool enableSummarizeItem; // @synthesize enableSummarizeItem=_enableSummarizeItem;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSLayoutConstraint *popoverWidthConstraint; // @synthesize popoverWidthConstraint=_popoverWidthConstraint;
-@property(nonatomic) __weak id <ReaderAppearanceViewControllerDelegate> readerAppearanceDelegate; // @synthesize readerAppearanceDelegate=_readerAppearanceDelegate;
 @property(readonly, nonatomic) NSView *resultsView; // @synthesize resultsView=_resultsView;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *webpageIdentifier; // @synthesize webpageIdentifier=_webpageIdentifier;
 
 @end
 

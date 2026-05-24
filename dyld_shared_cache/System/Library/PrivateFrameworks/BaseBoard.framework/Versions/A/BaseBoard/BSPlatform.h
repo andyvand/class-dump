@@ -14,11 +14,11 @@
 - (long long);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (int);
@@ -30,23 +30,7 @@
 - (id)ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isCarrierInstall) _Bool carrierInstall;
-@property(readonly, nonatomic, getter=isDeveloperInstall) _Bool developerInstall;
-@property(readonly, nonatomic) int deviceClass;
-@property(readonly, nonatomic) _Bool hasGasGauge;
-@property(readonly, nonatomic) _Bool hasOrbCapability;
-@property(readonly, nonatomic) long long homeButtonType;
-@property(readonly, nonatomic, getter=isInternalInstall) _Bool internalInstall;
-@property(readonly, copy, nonatomic) NSString *localizedProductName;
-@property(readonly, nonatomic, getter=isMultiCore) _Bool multiCore;
-@property(readonly, copy, nonatomic) NSString *operatingSystemName;
-@property(readonly, copy, nonatomic) NSString *productBuildVersion;
-@property(readonly, copy, nonatomic) NSString *productClass;
-@property(readonly, copy, nonatomic) NSString *productHardwareModel;
-@property(readonly, copy, nonatomic) NSString *productHardwareModelName;
 @property(readonly, copy, nonatomic) NSString *productType;
-@property(readonly, copy, nonatomic) NSString *productVersion;
-@property(readonly, copy, nonatomic) NSString *uniqueDeviceIdentifier;
 
 @end
 

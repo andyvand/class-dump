@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICCRDictionary, ICCRDocument, ICTTArray, NSArray, NSObject, NSString, NSUUID;
-@protocol ICCRUndoDelegate;
+@class ICTTArray;
 
 @interface ICCRArray
 {
     _Bool _moveClock;
-    ICCRDocument *_document;
-    NSObject<ICCRUndoDelegate> *_delegate;
-    ICTTArray *_array;
-    ICCRDictionary *_contents;
 }
 
 - (id);
+- (id));
 - (id);
-- (id);
-- (void);
+- (void)0!>;
 - (void);
 - (_Bool);
 - (void);
@@ -39,20 +34,20 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)sliceCountForPlatform:channelType: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)4;
 - (unsigned long long);
 - (id);
 - (void)0@ù
@@ -64,21 +59,7 @@
 - (void)¦ {account:(id)arg1 %@}%s:%d /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allObjects;
 @property(retain, nonatomic) ICTTArray *array; // @synthesize array=_array;
-@property(retain, nonatomic) ICCRDictionary *contents; // @synthesize contents=_contents;
-@property(readonly, nonatomic) unsigned long long count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak NSObject<ICCRUndoDelegate> *delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak ICCRDocument *document; // @synthesize document=_document;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool moveClock; // @synthesize moveClock=_moveClock;
-@property(readonly, nonatomic) NSUUID *replicaUUID;
-@property(readonly) Class superclass;
 
 @end
 

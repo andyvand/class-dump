@@ -5,5 +5,8 @@
 //
 
 @protocol NWNetworkOfInterestManagerDelegate
+
+@optional
+- (void);
 @end
 

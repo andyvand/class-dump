@@ -6,37 +6,24 @@
 
 #import <CoreHAP/HAPAccessoryServer.h>
 
-@class CBPeripheral, HAPAccessoryServerBrowserBTLE, HAPBLEPeripheral, NSArray, NSNumber, NSString;
+@class NSString;
 
 @interface HAPAccessoryServerBTLE : HAPAccessoryServer
 {
     unsigned char _connectReason;
-    _Bool _stateChanged;
-    _Bool _notifyingCharacteristicUpdated;
-    unsigned char _connectionIdleTime;
-    NSNumber *_stateNumber;
-    NSString *_whbStableIdentifier;
-    CBPeripheral *_peripheral;
-    unsigned long long _hapBLEProtocolVersion;
-    unsigned long long _resumeSessionID;
-    HAPAccessoryServerBrowserBTLE *_browser;
-    unsigned long long _metricHAPBTLEConnectionCount;
-    unsigned long long _metricHAPBTLEDiscoveryCount;
-    unsigned long long _metricHAPBTLEConnectionPerReasonCount;
-    HAPBLEPeripheral *_blePeripheral;
 }
 
 + (id);
 - (id);
 - (_Bool);
 - (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)#;
 - (void);
 - (id);
 - (_Bool);
@@ -58,51 +45,21 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (long long);
 - (id);
-- (_Bool);
+- (_Bool)@;
 - (void);
 - (id);
 - (id);
 - (id);
 - (_Bool)II}^{coap_attr_t}^{coap_subscription_t}^{coap_str_const_t}iI^v};
-- (void);
+- (void)setSFrameConfiguration: /* Error: Ran out of types for this method. */;
 - (long long)BB765291;
 - (_Bool)ïÿ(øU;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(nonatomic) __weak HAPBLEPeripheral *blePeripheral; // @synthesize blePeripheral=_blePeripheral;
-@property(readonly, nonatomic) __weak HAPAccessoryServerBrowserBTLE *browser; // @synthesize browser=_browser;
-@property(nonatomic) unsigned char connectReason; // @synthesize connectReason=_connectReason;
-@property(nonatomic) unsigned char connectionIdleTime; // @synthesize connectionIdleTime=_connectionIdleTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned long long hapBLEProtocolVersion; // @synthesize hapBLEProtocolVersion=_hapBLEProtocolVersion;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long metricHAPBTLEConnectionCount; // @synthesize metricHAPBTLEConnectionCount=_metricHAPBTLEConnectionCount;
-@property(nonatomic) unsigned long long metricHAPBTLEConnectionPerReasonCount; // @synthesize metricHAPBTLEConnectionPerReasonCount=_metricHAPBTLEConnectionPerReasonCount;
-@property(nonatomic) unsigned long long metricHAPBTLEDiscoveryCount; // @synthesize metricHAPBTLEDiscoveryCount=_metricHAPBTLEDiscoveryCount;
-@property(nonatomic) _Bool notifyingCharacteristicUpdated; // @synthesize notifyingCharacteristicUpdated=_notifyingCharacteristicUpdated;
-@property(readonly, nonatomic) __weak CBPeripheral *peripheral; // @synthesize peripheral=_peripheral;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) unsigned long long resumeSessionID; // @synthesize resumeSessionID=_resumeSessionID;
 @property(readonly, copy) NSString *shortDescription;
-@property(nonatomic) _Bool stateChanged; // @synthesize stateChanged=_stateChanged;
-@property(copy, nonatomic) NSNumber *stateNumber; // @synthesize stateNumber=_stateNumber;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *whbStableIdentifier; // @synthesize whbStableIdentifier=_whbStableIdentifier;
 
 @end
 

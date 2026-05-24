@@ -4,39 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface AMSDeviceOfferRegistrationGroup
 {
     NSArray *_registrationItems;
-    unsigned long long _validationOptions;
 }
 
 - (unsigned long long);
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
 - (_Bool);
+- (id);
+- (id)e.messages.collaboration.sent;
+- (unsigned long long);
+- (_Bool)setGroupSessionContactAutoApprovalEnabled:(id)arg1;
 - (void)·Ð3hUkÁäV?wjÝÙoñ«#R]øLÑîYBÃídj}Øýðò·6Âs¦|W·ì[~ìg;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSArray *registrationItems; // @synthesize registrationItems=_registrationItems;
-@property(readonly) Class superclass;
-@property unsigned long long validationOptions; // @synthesize validationOptions=_validationOptions;
 
 @end
 

@@ -7,10 +7,6 @@
 @interface NewsArticles.RecipeContentPrefetcher
 {
     id interest;
-    id cache;
-    id operationQueue;
-    id recipeService;
-    id recipeFactory;
 }
 
 - (void);

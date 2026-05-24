@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKServerChangeToken, NSDate, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface SCKDatabaseMemoryStore
 {
     _Bool _cloudBackupEnabled;
-    NSDate *_lastSyncDate;
-    NSDate *_lastDirtyDate;
-    CKServerChangeToken *_serverChangeToken;
-    NSMutableDictionary *_zoneStoresByName;
 }
 
 - (void);
@@ -24,16 +20,12 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)SCRCThreadedWeakLinkedObject;
 - (void);
 - (void);
 - (id)ü;
 
 // Remaining properties
-@property(nonatomic, getter=isCloudBackupEnabled) _Bool cloudBackupEnabled; // @synthesize cloudBackupEnabled=_cloudBackupEnabled;
-@property(copy, nonatomic) NSDate *lastDirtyDate; // @synthesize lastDirtyDate=_lastDirtyDate;
-@property(copy, nonatomic) NSDate *lastSyncDate; // @synthesize lastSyncDate=_lastSyncDate;
-@property(copy, nonatomic) CKServerChangeToken *serverChangeToken; // @synthesize serverChangeToken=_serverChangeToken;
 @property(copy, nonatomic) NSMutableDictionary *zoneStoresByName; // @synthesize zoneStoresByName=_zoneStoresByName;
 
 @end

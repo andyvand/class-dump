@@ -7,6 +7,7 @@
 @class NSSet;
 
 @protocol EMVIPReader_Private
+- (NSSet *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSSet *allVIPWaitForResult;

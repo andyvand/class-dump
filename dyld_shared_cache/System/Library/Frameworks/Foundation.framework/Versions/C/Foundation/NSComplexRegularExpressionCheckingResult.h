@@ -6,15 +6,14 @@
 
 #import <Foundation/NSRegularExpressionCheckingResult.h>
 
-@class NSArray, NSRegularExpression;
+@class NSRegularExpression;
 
 @interface NSComplexRegularExpressionCheckingResult : NSRegularExpressionCheckingResult
 {
     NSRegularExpression *_regularExpression;
-    NSArray *_rangeArray;
 }
 
-- (void);
+- (void)H;
 - (id);
 - (_Bool);
 - (id);

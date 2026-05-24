@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (_Bool);
+- (void)_onqueue_alternatePathAvailable: /* Error: Ran out of types for this method. */;
+- (_Bool)A9H;
 
 @end
 

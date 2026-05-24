@@ -6,20 +6,19 @@
 
 #import <PhotosGraph/PGAbstractMetricEvent.h>
 
-@class NSDictionary, PGManagerWorkingContext;
+@class PGManagerWorkingContext;
 
 @interface PGGraphSyndicatedAssetsMetricEvent : PGAbstractMetricEvent
 {
     PGManagerWorkingContext *_workingContext;
-    NSDictionary *_payload;
 }
 
-- (void);
+- (void)n;
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)`b;
 - (id);
 - (void)y/BuildRoots/4~CNrLugBm5mZzGZhQIi0idKaHXqMbtQ878o7HncI/Library/Caches/com.apple.xbs/TemporaryDirectory.52v2gD/Sources/Photos_Swift/workspaces/photoanalysis/PhotosGraph/Framework/Curation/PGSemanticalDeduper.m;
 

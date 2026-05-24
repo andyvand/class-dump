@@ -6,23 +6,21 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIMorphology : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputRadius;
 }
 
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputRadius; // @synthesize inputRadius;
 
 @end
 

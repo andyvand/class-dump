@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface FCReadingListEntry
 {
     NSString *_identifier;
-    NSString *_articleID;
-    NSDate *_dateAdded;
-    unsigned long long _origin;
 }
 
 - (void)r:name:] /* Error: Ran out of types for this method. */;

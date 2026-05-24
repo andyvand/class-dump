@@ -6,24 +6,21 @@
 
 #import <SAObjects/SAAbstractItemList.h>
 
-@class SAMPCollection;
-
 @interface SAMPMediaEntityList : SAAbstractItemList
 {
 }
 
 + (id);
-+ (id);
++ (id)T?;
 - (void);
 - (id);
 - (int);
-- (id);
-- (id);
+- (id)!;
+- (id)`;
 - (void);
 
 // Remaining properties
 @property(nonatomic) int mediaType;
-@property(retain, nonatomic) SAMPCollection *parentCollection;
 
 @end
 

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString, SMSystemScanner;
+@class NSObject, SMSystemScanner;
 @protocol OS_dispatch_queue;
 
 @interface SMSystemScanner_DiscoveryPlugin
 {
     SMSystemScanner *_scanner;
-    NSObject<OS_dispatch_queue> *_systemQueue;
-    NSMutableDictionary *_systemList;
 }
 
 - (void);
@@ -31,17 +29,12 @@
 - (void);
 - (void)±	ð1Â0@ù
 × ;
-- (void)ctionMethodHasChanged;
+- (void)connectionMethodHasChanged;
 - (id)nc failed -- %s
 ;
 
 // Remaining properties
-@property(readonly) _Bool requiresSystemRetention;
-@property __weak SMSystemScanner *scanner; // @synthesize scanner=_scanner;
-@property(readonly) unsigned long long scannerState;
-@property(retain) NSMutableDictionary *systemList; // @synthesize systemList=_systemList;
 @property(retain) NSObject<OS_dispatch_queue> *systemQueue; // @synthesize systemQueue=_systemQueue;
-@property(readonly) NSString *systemQueueName;
 
 @end
 

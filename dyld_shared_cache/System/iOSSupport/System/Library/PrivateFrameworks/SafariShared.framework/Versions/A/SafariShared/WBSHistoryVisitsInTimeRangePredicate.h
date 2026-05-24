@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface WBSHistoryVisitsInTimeRangePredicate
 {
     double _startTime;
-    double _endTime;
-    NSString *_urlString;
-    NSData *_urlHash;
-    NSData *_urlSalt;
 }
 
 + (_Bool);
@@ -26,13 +20,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

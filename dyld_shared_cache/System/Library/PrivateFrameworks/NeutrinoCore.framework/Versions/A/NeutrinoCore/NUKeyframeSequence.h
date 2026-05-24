@@ -7,9 +7,6 @@
 @interface NUKeyframeSequence
 {
     unsigned long long _count;
-    CDStruct_1b6d18a9 *_times;
-    _Bool _ownsTimes;
-    long long _interpolation;
 }
 
 - (CDStruct_1b6d18a9);
@@ -25,7 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;
-@property(readonly, nonatomic) long long interpolation; // @synthesize interpolation=_interpolation;
 
 @end
 

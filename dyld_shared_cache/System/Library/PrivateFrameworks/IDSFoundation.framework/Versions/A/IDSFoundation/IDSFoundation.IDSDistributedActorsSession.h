@@ -7,8 +7,6 @@
 @interface IDSFoundation.IDSDistributedActorsSession
 {
     id $defaultActor;
-    id session;
-    id realTimeGroupSession;
 }
 
 @end

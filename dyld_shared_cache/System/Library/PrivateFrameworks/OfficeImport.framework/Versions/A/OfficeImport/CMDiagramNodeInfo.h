@@ -8,21 +8,15 @@ __attribute__((visibility("hidden")))
 @interface CMDiagramNodeInfo
 {
     int mTreeDepth;
-    int mRow;
-    struct ODIHRange mXRange;
-    _Bool mConnectToVerticalSide;
-    int mExtraRowsBetweenParentAndSelf;
-    float mXOffsetRelativeToParent;
-    void *mXRanges;
 }
 
 - (struct ODIHRange);
 - (float);
 - (int);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (int);
 - (_Bool);
@@ -31,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (int);
+- (int);
 
 @end
 

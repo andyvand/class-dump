@@ -11,7 +11,7 @@
     NSDate *_lastExitedForYouDate;
 }
 
-+ (id)rErrorRepository: /* Error: Ran out of types for this method. */;
++ (id)fileRadarForErrorRepository: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);

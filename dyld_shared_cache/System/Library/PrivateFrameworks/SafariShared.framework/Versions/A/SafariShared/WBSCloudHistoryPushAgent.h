@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class APSConnection, NSObject, NSString, NSXPCListener;
-@protocol OS_dispatch_queue;
+@class NSXPCListener;
 
 @interface WBSCloudHistoryPushAgent
 {
     NSXPCListener *_xpcListener;
-    APSConnection *_pushConnection;
-    NSObject<OS_dispatch_queue> *_pushNotificationStateQueue;
 }
 
 - (void);
@@ -28,17 +25,11 @@
 - (_Bool);
 - (void);
 - (void);
-- (void)thentication;
+- (void)Authentication;
 - (void)ð;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

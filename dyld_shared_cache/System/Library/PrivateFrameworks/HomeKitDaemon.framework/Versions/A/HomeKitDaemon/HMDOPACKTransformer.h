@@ -11,15 +11,15 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool);
++ (_Bool);
 + (id);
 + (id);
 + (id);
-+ (id)gEventSubmitter:(id)arg1 submissionTimer:(id *)arg2;
++ (id)initWithLogEventSubmitter:(id)arg1 submissionTimer:(id *)arg2;
 + (Class)À;
 + (id)±È;
 - (id);
-- (id);
+- (id)p;
 
 @end
 

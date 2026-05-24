@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol MTLBuffer;
-
 __attribute__((visibility("hidden")))
 @interface SCNMTLBuffer
 {
     long long _usedCount;
-    id <MTLBuffer> _buffer;
-    unsigned long long _offset;
-    id _dataSource;
 }
 
 - (void);
 - (long long);
 - (void);
 - (long long);
-- (id);
+- (id)essorySetupCompletedInfo"16@"NSError"24;
 - (void);
-- (void);
+- (void)parser:(long long)arg1 didEndElement: /* Error: Ran out of types for this method. */;
 - (void *);
 - (void);
 - (void)c for attachment id;
@@ -29,10 +24,6 @@ __attribute__((visibility("hidden")))
 - (unsigned long long)= CFBooleanGetTypeID();
 
 // Remaining properties
-@property(retain, nonatomic) id <MTLBuffer> buffer; // @synthesize buffer=_buffer;
-@property(readonly, nonatomic) void *contents;
-@property(nonatomic) id dataSource; // @synthesize dataSource=_dataSource;
-@property(nonatomic) unsigned long long offset; // @synthesize offset=_offset;
 @property long long usedCount; // @synthesize usedCount=_usedCount;
 
 @end

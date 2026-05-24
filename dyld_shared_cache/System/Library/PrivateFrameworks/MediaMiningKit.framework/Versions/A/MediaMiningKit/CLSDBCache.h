@@ -4,48 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectContext, NSManagedObjectModel, NSPersistentStoreCoordinator, NSString, NSURL;
+@class NSManagedObjectModel;
 
 @interface CLSDBCache
 {
     _Bool _supportsVersioning;
-    NSURL *_diskCacheURL;
-    NSString *_dataModelName;
-    NSManagedObjectModel *_managedObjectModel;
-    NSManagedObjectContext *_managedObjectContext;
-    NSPersistentStoreCoordinator *_persistentStoreCoordinator;
 }
 
 + (id);
 + (_Bool);
-+ (id);
++ (id)intersectingTargetsWith: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
-- (id);
-- (_Bool);
-- (id);
+- (id)numberOfMeaningfulMomentsActivity;
 - (_Bool);
 - (id);
-- (id);
-- (id);
 - (_Bool);
+- (id);
+- (id);
+- (id);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *dataModelName; // @synthesize dataModelName=_dataModelName;
-@property(readonly, copy, nonatomic) NSURL *diskCacheURL; // @synthesize diskCacheURL=_diskCacheURL;
-@property(readonly, nonatomic) NSManagedObjectContext *managedObjectContext; // @synthesize managedObjectContext=_managedObjectContext;
 @property(readonly, nonatomic) NSManagedObjectModel *managedObjectModel; // @synthesize managedObjectModel=_managedObjectModel;
-@property(readonly, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator; // @synthesize persistentStoreCoordinator=_persistentStoreCoordinator;
-@property(nonatomic) _Bool supportsVersioning; // @synthesize supportsVersioning=_supportsVersioning;
 
 @end
 

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID, TUCTCapabilitiesState, TUThumperCTCapabilitiesState;
+@class NSUUID;
 
 @interface TUSenderIdentityCapabilitiesState
 {
     _Bool _supportsSimultaneousVoiceAndData;
-    NSUUID *_senderIdentityUUID;
-    TUCTCapabilitiesState *_csCallingCapabilitiesState;
-    TUCTCapabilitiesState *_voLTECallingCapabilitiesState;
-    TUCTCapabilitiesState *_wiFiCallingCapabilitiesState;
-    TUThumperCTCapabilitiesState *_thumperCallingCapabilitiesState;
 }
 
 + (_Bool);
@@ -22,35 +17,24 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@9);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)	;
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void)oLTECallingCapabilityInfo;
+- (id)
+;
+- (id)qA;
+- (void)voLTECallingCapabilityInfo;
 
 // Remaining properties
-@property(copy, nonatomic) TUCTCapabilitiesState *csCallingCapabilitiesState; // @synthesize csCallingCapabilitiesState=_csCallingCapabilitiesState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSUUID *senderIdentityUUID; // @synthesize senderIdentityUUID=_senderIdentityUUID;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool supportsSimultaneousVoiceAndData; // @synthesize supportsSimultaneousVoiceAndData=_supportsSimultaneousVoiceAndData;
-@property(copy, nonatomic) TUThumperCTCapabilitiesState *thumperCallingCapabilitiesState; // @synthesize thumperCallingCapabilitiesState=_thumperCallingCapabilitiesState;
-@property(copy, nonatomic) TUCTCapabilitiesState *voLTECallingCapabilitiesState; // @synthesize voLTECallingCapabilitiesState=_voLTECallingCapabilitiesState;
-@property(copy, nonatomic) TUCTCapabilitiesState *wiFiCallingCapabilitiesState; // @synthesize wiFiCallingCapabilitiesState=_wiFiCallingCapabilitiesState;
 
 @end
 

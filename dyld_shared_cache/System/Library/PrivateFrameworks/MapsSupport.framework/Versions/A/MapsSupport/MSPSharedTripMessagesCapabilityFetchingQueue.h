@@ -6,15 +6,12 @@
 
 #import <MapsSupport/MSPSharedTripCapabilityFetchingQueue.h>
 
-@class GCDTimer, NSMutableDictionary;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface MSPSharedTripMessagesCapabilityFetchingQueue : MSPSharedTripCapabilityFetchingQueue
 {
     NSMutableDictionary *_fetchedStatusesByHandle;
-    GCDTimer *_batchDelayTimer;
-    double _batchDelayInterval;
-    unsigned long long _batchSize;
 }
 
 - (id);
@@ -25,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)$;
 - (void);
 - (void);
 

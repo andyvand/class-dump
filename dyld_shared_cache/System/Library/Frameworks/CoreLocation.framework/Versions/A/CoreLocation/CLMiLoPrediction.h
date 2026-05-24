@@ -4,47 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLMiLoFingerprintMetaInfo, CLMiLoPredictionCloseDeviceList, CLMiLoServicePredictionLocationSimilarityList, NSArray, NSDate, NSError, NSUUID;
+@class NSArray;
 
 @interface CLMiLoPrediction
 {
     NSArray *_placePredictions;
-    CLMiLoServicePredictionLocationSimilarityList *_locationSimilarityList;
-    CLMiLoPredictionCloseDeviceList *_closeDeviceList;
-    NSError *_error;
-    NSUUID *_requestIdentifier;
-    NSDate *_predictionTime;
-    unsigned long long _confidence;
-    NSArray *_placeConfidenceReasons;
-    CLMiLoFingerprintMetaInfo *_localizationFingerprintMetaInfo;
 }
 
 + (_Bool);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
+- (void)teOrder16Big;
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)setExplicitVisibilityGroupID:(struct _NSZone *)arg1;
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) CLMiLoPredictionCloseDeviceList *closeDeviceList; // @synthesize closeDeviceList=_closeDeviceList;
-@property(readonly, nonatomic) unsigned long long confidence; // @synthesize confidence=_confidence;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) CLMiLoFingerprintMetaInfo *localizationFingerprintMetaInfo; // @synthesize localizationFingerprintMetaInfo=_localizationFingerprintMetaInfo;
-@property(readonly, nonatomic) CLMiLoServicePredictionLocationSimilarityList *locationSimilarityList; // @synthesize locationSimilarityList=_locationSimilarityList;
-@property(readonly, nonatomic) NSArray *placeConfidenceReasons; // @synthesize placeConfidenceReasons=_placeConfidenceReasons;
 @property(readonly, nonatomic) NSArray *placePredictions; // @synthesize placePredictions=_placePredictions;
-@property(readonly, nonatomic) NSDate *predictionTime; // @synthesize predictionTime=_predictionTime;
-@property(readonly, nonatomic) NSUUID *requestIdentifier; // @synthesize requestIdentifier=_requestIdentifier;
 
 @end
 

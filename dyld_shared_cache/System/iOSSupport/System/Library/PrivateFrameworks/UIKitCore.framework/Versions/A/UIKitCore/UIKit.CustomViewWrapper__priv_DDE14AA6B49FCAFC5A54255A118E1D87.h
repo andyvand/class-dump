@@ -11,8 +11,8 @@
     id wrapped;
 }
 
-- (id);
-- (id)neHostingSheetPresentationHostProviding;
+- (id)a;
+- (id)_UISceneHostingSheetPresentationHostProviding;
 - (void)Event=I[4Q]}{_UISignpostEvent=I[4Q]}}8@?0;
 - (void)<þÉ¤l;
 

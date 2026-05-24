@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSURL;
+@class NSURL;
 
 @interface SSREncryptedAudioFileReader
 {
     NSURL *_fileUrl;
-    NSData *_aesKey;
-    NSData *_readBuffer;
-    unsigned long long _sampleByteDepth;
 }
 
 - (void);
-- (id);
-- (void);
+- (id)�;
+- (void)B;
 - (void);
 - (_Bool);
 - (id);
@@ -24,13 +21,10 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
+- (void)#;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *aesKey; // @synthesize aesKey=_aesKey;
 @property(retain, nonatomic) NSURL *fileUrl; // @synthesize fileUrl=_fileUrl;
-@property(retain, nonatomic) NSData *readBuffer; // @synthesize readBuffer=_readBuffer;
-@property(nonatomic) unsigned long long sampleByteDepth; // @synthesize sampleByteDepth=_sampleByteDepth;
 
 @end
 

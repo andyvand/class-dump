@@ -7,7 +7,6 @@
 @interface IDSFoundation.IDSDefaultRelayLinkSorter
 {
     id scores;
-    id state;
 }
 
 @end

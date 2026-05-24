@@ -9,8 +9,8 @@
     id contentView;
 }
 
-- (id);
-- (void);
+- (id)ReplicaAdvertisementEngagementEvent;
+- (void)Read channel should be initialized.;
 - (id)1Â0@ù
 × ;
 - (void);

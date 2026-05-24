@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXVStyledMenuView, NSArray;
+@class AXVStyledMenuView;
 
 @interface AXVStyledMenu
 {
@@ -25,7 +25,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (long long);
@@ -33,12 +33,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) AXVStyledMenuView *_view; // @synthesize _view=__view;
-@property(nonatomic) long long displayStyle;
-@property(nonatomic) struct CGSize menuItemSize;
-@property(nonatomic) double menuItemSpacing;
-@property(retain, nonatomic) NSArray *menuItems;
-@property(readonly, nonatomic) AXVStyledMenuView *menuView;
-@property(nonatomic) struct CGRect menuViewFrame;
 
 @end
 

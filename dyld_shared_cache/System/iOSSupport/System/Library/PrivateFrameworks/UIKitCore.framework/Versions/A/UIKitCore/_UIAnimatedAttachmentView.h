@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 - (id);
-- (id);
-- (id):(struct CGRect)arg1;
+- (id);
+- (id)_addCaptureDependent:(struct CGRect)arg1;
 
 @end
 

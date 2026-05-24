@@ -11,10 +11,6 @@
 @interface CUINamedGradient : CUINamedLookup
 {
     NSArray *_colorStops;
-    NSArray *_colors;
-    long long _gradientType;
-    struct CGPoint _gradientStart;
-    struct CGPoint _gradientEnd;
 }
 
 - (id);
@@ -22,20 +18,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)J;
 - (long long);
 - (struct CGPoint);
 - (struct CGPoint);
 - (void);
+- (id)Continue;
 - (id);
-- (id);
-- (id);
+- (id)Resume;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *colorStops; // @synthesize colorStops=_colorStops;
-@property(readonly, nonatomic) NSArray *colors; // @synthesize colors=_colors;
-@property(readonly, nonatomic) struct CGPoint gradientEndPoint; // @synthesize gradientEndPoint=_gradientEnd;
-@property(readonly, nonatomic) struct CGPoint gradientStartPoint; // @synthesize gradientStartPoint=_gradientStart;
 @property(readonly, nonatomic) long long gradientType; // @synthesize gradientType=_gradientType;
 
 @end

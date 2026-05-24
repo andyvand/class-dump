@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOutlineView, NSTextField, SCTGRL, SCTGRLIndex, SCTGRLTree;
+@class SCTGRLIndex;
 
 __attribute__((visibility("hidden")))
 @interface SCTGRLInspectorController
 {
     SCTGRLIndex *mGRLIndex;
-    SCTGRLTree *mGRLTree;
-    SCTGRL *mGRLToBeShown;
-    NSOutlineView *mOutlineView;
-    NSTextField *mGRLTextView;
 }
 
-- (id);
+- (id)4;
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)];
 - (long long);
 - (_Bool);
 - (id);

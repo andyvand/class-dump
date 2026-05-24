@@ -12,7 +12,7 @@
 + (id);
 + (int);
 + (int);
-+ (id)tributeNames;
++ (id)accessibilityAttributeNames;
 - (struct OpaqueIOBluetoothObjectRef *);
 - (const struct IOBluetoothDeviceSearchAttributes *);
 - (id);
@@ -27,12 +27,12 @@
 - (void);
 - (void);
 - (void);
-- (int);
+- (int)B;
 - (int);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)copyWithZone:(id)arg1;
 - (void);
 
 @end

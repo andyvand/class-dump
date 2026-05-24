@@ -5,5 +5,6 @@
 //
 
 @protocol NSCoding
+- (id)ijv8)07;
 @end
 

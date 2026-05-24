@@ -6,34 +6,31 @@
 
 #import <HomeKitDaemon/HMDAppleMediaAccessoryMessageHandler.h>
 
-@class HMDMediaDestinationControllerMetricsEventDispatcher, NSString;
-@protocol HMDMediaDestinationControllerMessageHandlerDataSource, HMDMediaDestinationControllerMessageHandlerDelegate;
+@protocol HMDMediaDestinationControllerMessageHandlerDataSource;
 
 __attribute__((visibility("hidden")))
 @interface HMDMediaDestinationControllerMessageHandler : HMDAppleMediaAccessoryMessageHandler
 {
     id <HMDMediaDestinationControllerMessageHandlerDataSource> _dataSource;
-    id <HMDMediaDestinationControllerMessageHandlerDelegate> _delegate;
-    HMDMediaDestinationControllerMetricsEventDispatcher *_metricsEventDispatcher;
 }
 
 + (id)yB;
-- (unsigned long long);
+- (unsigned long long)a,;
+- (void)__swift5_reflstr__TEXT;
+- (void);
+- (void)_purgeToken:(id)arg1 forTripID: /* Error: Ran out of types for this method. */;
+- (id)"NSString",R,N,V_failedGeoDirectionsSettingsPath;
+- (id)nderController:(id)arg1 didStartSharingWithGroupIdentifier:(id)arg2 ];
+- (void);
+- (void)";
+- (void);
 - (void);
 - (void);
-- (void);
+- (void)";
 - (id);
-- (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)perspectiveTransformWithPitch:yaw:roll:imageRect: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -42,15 +39,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property __weak id <HMDMediaDestinationControllerMessageHandlerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDMediaDestinationControllerMessageHandlerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) HMDMediaDestinationControllerMetricsEventDispatcher *metricsEventDispatcher; // @synthesize metricsEventDispatcher=_metricsEventDispatcher;
-@property(readonly) Class superclass;
 
 @end
 

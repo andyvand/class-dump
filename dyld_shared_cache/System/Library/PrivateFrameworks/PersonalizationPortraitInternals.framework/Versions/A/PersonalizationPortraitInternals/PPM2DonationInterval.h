@@ -7,23 +7,14 @@
 @interface PPM2DonationInterval
 {
     int _domain;
-    unsigned int _interval;
-    int _source;
-    _Bool _isFirstDonation;
-    struct {
-        unsigned int domain:1;
-        unsigned int interval:1;
-        unsigned int source:1;
-        unsigned int isFirstDonation:1;
-    } _has;
 }
 
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)tB;
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (int);
 - (id);
@@ -42,22 +33,15 @@
 - (id);
 - (int);
 - (id);
-- (int);
+- (int)a;
 - (_Bool)1Â0@ù
 × ;
-- (void)tInterface:(_Bool)arg1;
+- (void)setRemoteObjectInterface:(_Bool)arg1;
 - (id)ÐPð;
 - (int)ging:(id)arg1 deferring;
 
 // Remaining properties
-@property(nonatomic) int domain; // @synthesize domain=_domain;
 @property(nonatomic) _Bool hasDomain;
-@property(nonatomic) _Bool hasInterval;
-@property(nonatomic) _Bool hasIsFirstDonation;
-@property(nonatomic) _Bool hasSource;
-@property(nonatomic) unsigned int interval; // @synthesize interval=_interval;
-@property(nonatomic) _Bool isFirstDonation; // @synthesize isFirstDonation=_isFirstDonation;
-@property(nonatomic) int source; // @synthesize source=_source;
 
 @end
 

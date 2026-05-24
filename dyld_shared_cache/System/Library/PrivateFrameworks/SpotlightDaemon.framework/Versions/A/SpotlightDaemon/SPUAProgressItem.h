@@ -9,29 +9,23 @@
 @interface SPUAProgressItem
 {
     unsigned int _expectedCount;
-    unsigned int _completeCount;
-    unsigned int _errorCount;
-    unsigned int _deleteCount;
-    NSString *_bundleID;
-    NSString *_uaID;
-    NSString *_relatedID;
 }
 
++ (void)handleAccessoryRemovedNotification:(id)arg1;
 + (void);
-+ (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)handleRemoteEnergyKitClearAllMessage: /* Error: Ran out of types for this method. */;
+- (void)handleRecordingUploadOperationEvent:(id)arg1;
+- (void)handleRecordingManagementServiceDidUpdateNotification:(id)arg1;
+- (void)handleReadWriteResponses:(unsigned int)arg1 error:forAction:inServiceType:results:forObjects: /* Error: Ran out of types for this method. */;
+- (id)handleProcessInfoStateChanged: /* Error: Ran out of types for this method. */;
+- (id)handlePrimaryResidentChangeMonitorConfirmedDeviceIdentifierChangeNotification:(id)arg1;
+- (unsigned int)handlePPIDInfoResponse:context:error: /* Error: Ran out of types for this method. */;
+- (void)tion since diagnostics snapshot characteristic is not present;
+- (unsigned int)open;
 - (unsigned int);
 - (void);
-- (unsigned int);
-- (unsigned int);
-- (void);
 - (id);
-- (void);
+- (void)N6google8protobuf14DynamicMessageE;
 - (unsigned long long);
 - (void);
 - (unsigned int);
@@ -43,12 +37,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(nonatomic) unsigned int completeCount; // @synthesize completeCount=_completeCount;
-@property(nonatomic) unsigned int deleteCount; // @synthesize deleteCount=_deleteCount;
-@property(nonatomic) unsigned int errorCount; // @synthesize errorCount=_errorCount;
-@property(nonatomic) unsigned int expectedCount; // @synthesize expectedCount=_expectedCount;
-@property(retain, nonatomic) NSString *relatedID; // @synthesize relatedID=_relatedID;
-@property(retain, nonatomic) NSString *uaID; // @synthesize uaID=_uaID;
 
 @end
 

@@ -7,30 +7,24 @@
 @interface MPSMatrixUnaryKernel
 {
     unsigned long long _batchStart;
-    unsigned long long _batchSize;
-    CDStruct_67e7699a _sourceMatrixOrigin;
-    CDStruct_67e7699a _resultMatrixOrigin;
 }
 
 - (void);
-- (CDStruct_67e7699a);
-- (CDStruct_67e7699a);
+- (CDStruct_14f26992);
+- (CDStruct_14f26992);
 - (unsigned long long);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)8;
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long batchSize; // @synthesize batchSize=_batchSize;
-@property(nonatomic) unsigned long long batchStart; // @synthesize batchStart=_batchStart;
-@property(nonatomic) CDStruct_67e7699a resultMatrixOrigin; // @synthesize resultMatrixOrigin=_resultMatrixOrigin;
-@property(nonatomic) CDStruct_67e7699a sourceMatrixOrigin; // @synthesize sourceMatrixOrigin=_sourceMatrixOrigin;
+@property(nonatomic) CDStruct_14f26992 sourceMatrixOrigin; // @synthesize sourceMatrixOrigin=_sourceMatrixOrigin;
 
 @end
 

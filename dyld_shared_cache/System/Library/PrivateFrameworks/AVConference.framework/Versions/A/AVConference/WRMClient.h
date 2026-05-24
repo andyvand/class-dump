@@ -5,24 +5,21 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, OS_xpc_object, WRMClientDelegate;
+@protocol OS_xpc_object, WRMClientDelegate;
 
 __attribute__((visibility("hidden")))
 @interface WRMClient
 {
     NSObject<OS_xpc_object> *_connection;
-    NSObject<OS_dispatch_queue> *_connectionQueue;
-    id _wrmClientDelegate;
-    int _mediaControlInfoVersion;
-    int _mode;
-    CDStruct_a420644f _metricsConfig;
-    int _rssiThreshold;
 }
 
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -30,10 +27,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -43,15 +37,14 @@ __attribute__((visibility("hidden")))
 - (int);
 - (void);
 - (void);
-- (id);
+- (id)]: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
+- (void)ightnessForCaptureContent changes to:(CDStruct_69d7cc99 *)arg1 %s;
 - (id);
 
 // Remaining properties
 @property id <WRMClientDelegate> delegate;
-@property int mediaControlInfoVersion; // @synthesize mediaControlInfoVersion=_mediaControlInfoVersion;
 
 @end
 

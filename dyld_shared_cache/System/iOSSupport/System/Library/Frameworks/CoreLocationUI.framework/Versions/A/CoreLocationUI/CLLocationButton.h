@@ -4,54 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, NSString, UIColor, _UISlotView;
+@class UIColor, _UISlotView;
 @protocol LocationUIProtocol;
 
 @interface CLLocationButton
 {
     _UISlotView *_slotView;
     UIColor *_backgroundColor;
-    UIColor *_tintColor;
-    UIColor *_resolvedBackgroundColor;
-    UIColor *_resolvedTintColor;
-    NSString *_sandboxExtension;
-    struct CGSize _intrinsicSize;
-    NSLayoutConstraint *_minimumWidthConstraint;
-    NSLayoutConstraint *_minimumHeightConstraint;
-    id <LocationUIProtocol> _proxy;
-    _Bool _colorsIllegible;
-    _Bool _alphaInsufficient;
-    int _controlSize;
-    long long _icon;
-    long long _label;
-    double _fontSize;
-    double _cornerRadius;
 }
 
-+ (_Bool);
++ (_Bool);
 - (int);
-- (_Bool);
+- (_Bool)equalizeAxes;
+- (void)_isAnimatingFunction;
+- (id)_selectedFunctionID3D;
+- (void)__zAxisLabel;
+- (id)_initialZAxisBounds;
+- (_Bool)_initialYAxisBounds;
 - (void);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
+- (void)getArgumentTypeAtIndex: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned int);
 - (void);
 - (int);
 - (struct CGSize);
+- (id)`"@�;
 - (id);
-- (id);
-- (void);
+- (void)/libSystem.B.dylib;
 - (long long);
-- (struct CGSize);
+- (struct CGSize)d the accessory for UUID %@ or dict (%@) is nil.;
 - (void);
 - (void);
-- (long long);
-- (id);
+- (long long)fier %@;
+- (id);
 - (id);
 - (double);
 - (id);
@@ -60,19 +45,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)$;
+- (unsigned long long)ModeWithCompletionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool alphaInsufficient; // @synthesize alphaInsufficient=_alphaInsufficient;
 @property(readonly, nonatomic) _Bool colorsIllegible; // @synthesize colorsIllegible=_colorsIllegible;
-@property(nonatomic) int controlSize; // @synthesize controlSize=_controlSize;
-@property(nonatomic) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;
-@property(nonatomic) double fontSize; // @synthesize fontSize=_fontSize;
-@property(nonatomic) long long icon; // @synthesize icon=_icon;
-@property(nonatomic) long long label; // @synthesize label=_label;
 @property(readonly, nonatomic) id <LocationUIProtocol> locationUIProxy;
 
 @end

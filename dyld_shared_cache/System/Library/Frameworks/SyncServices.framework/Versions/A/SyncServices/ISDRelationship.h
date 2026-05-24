@@ -6,21 +6,18 @@
 
 #import <SyncServices/ISDProperty.h>
 
-@class ISDEntity, NSArray;
+@class ISDEntity;
 
 @interface ISDRelationship : ISDProperty
 {
     ISDEntity *_source;
-    NSArray *_targets;
-    NSArray *_inverseRelationships;
-    NSArray *_anonymousInverseRelationshipNames;
 }
 
 + (void)ouHaveBeenWarnedAgainstDoingSo: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)@7e;
 - (_Bool);
 - (id);
 - (id);
@@ -36,7 +33,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);

@@ -7,15 +7,10 @@
 @interface NewsFeed.IssueCoverView
 {
     id $__lazy_storage_$_staticContentView;
-    id $__lazy_storage_$_dynamicContentView;
-    id dynamicView;
-    id identifier;
-    id lastPreparedBounds;
-    id content;
 }
 
 - (id);
-- (void);
+- (void)ve readEndOfCentralDirectoryData:channel:queue:completion:] /* Error: Ran out of types for this method. */;
 - (id)?0@"NSArray"8;
 - (void)É	;
 

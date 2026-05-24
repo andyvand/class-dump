@@ -9,9 +9,6 @@
 @interface OACredential
 {
     NSString *_consumerKey;
-    NSString *_consumerSecret;
-    NSString *_oauthToken;
-    NSString *_oauthTokenSecret;
 }
 
 - (void);
@@ -19,17 +16,14 @@
 - (id);
 - (void);
 - (void);
+- (void)nary",&,V_lemmaAvailabilityByLanguage;
 - (void);
-- (void);
-- (id);
+- (id)G;
 - (id);
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *consumerKey; // @synthesize consumerKey=_consumerKey;
-@property(copy, nonatomic) NSString *consumerSecret; // @synthesize consumerSecret=_consumerSecret;
-@property(copy, nonatomic) NSString *oauthToken; // @synthesize oauthToken=_oauthToken;
-@property(copy, nonatomic) NSString *oauthTokenSecret; // @synthesize oauthTokenSecret=_oauthTokenSecret;
 
 @end
 

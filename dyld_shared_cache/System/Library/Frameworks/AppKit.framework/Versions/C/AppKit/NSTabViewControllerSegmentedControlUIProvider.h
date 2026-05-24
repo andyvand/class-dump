@@ -4,31 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSegmentedControl, NSString, NSTabViewController;
+@class NSTabViewController;
 
 @interface NSTabViewControllerSegmentedControlUIProvider
 {
     NSTabViewController *_tabViewController;
-    NSSegmentedControl *_segmentedControl;
-    long long _segmentedControlLocation;
 }
 
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);;
 - (long long);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)initWithResumeData:(id)arg1 delegate:path: /* Error: Ran out of types for this method. */;
+- (void)initWithResponse:(id)arg1 dataArray:userInfo:storagePolicy: /* Error: Ran out of types for this method. */;
+- (void)expectedProgressTargetChanged;
+- (void)expectedContentLength;
+- (id){port=%u, wants_client_cert=%{bool}d, requires_client_cert=%{bool}d};
+- (void)web proxy server.;
 - (long long);
 - (void);
 - (void);
@@ -39,16 +37,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSSegmentedControl *segmentedControl;
 @property long long segmentedControlLocation; // @synthesize segmentedControlLocation=_segmentedControlLocation;
-@property(readonly) Class superclass;
-@property NSTabViewController *tabViewController; // @synthesize tabViewController=_tabViewController;
 
 @end
 

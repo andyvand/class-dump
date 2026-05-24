@@ -8,10 +8,6 @@
 {
     id logger;
     id $__lazy_storage_$_controller;
-    id registeringContinuation;
-    id onSignOut;
-    id observeAccountStatusChanges;
-    id delayedRegistrationFailure;
 }
 
 - (void);

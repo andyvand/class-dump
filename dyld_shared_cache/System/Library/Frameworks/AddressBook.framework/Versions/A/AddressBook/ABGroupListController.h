@@ -4,38 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABActionAutovalidator, ABGroupEntriesList, ABGroupListView, ABKeystrokeForwarder, NSArray, NSString;
-@protocol ABAccessoryViewProvider, ABGroupDragHelper, ABGroupDropHelper, ABGroupHelperFactory, ABGroupListStyleProvider, NSObject;
+@class ABGroupListView;
+@protocol ABGroupDragHelper;
 
 @interface ABGroupListController
 {
     ABGroupListView *_outlineView;
-    id <ABGroupHelperFactory> _helperFactory;
-    id <ABGroupDragHelper> _dragHelper;
-    id <ABGroupDropHelper> _drophelper;
-    _Bool _didAwakeFromNib;
-    ABGroupEntriesList *_groupEntriesList;
-    NSString *_selectedGroupEntryIdentifier;
-    NSString *_selectedGroupName;
-    ABActionAutovalidator *_autovalidator;
-    ABKeystrokeForwarder *_keystrokeForwarder;
-    SEL _entryTextDidChangeMethod;
-    CDUnknownBlockType _editCompletionHandler;
-    NSString *_identifier;
-    NSString *_autosaveName;
-    NSArray *_peopleForHighlightedMembership;
-    id <ABAccessoryViewProvider> _accessoryViewProvider;
-    id <ABGroupListStyleProvider> _styleProvider;
-    long long _disableSelectionNotificationsCount;
-    id <NSObject> _didEnterFullScreenToken;
-    id <NSObject> _didLeaveFullScreenToken;
 }
 
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -83,12 +64,12 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)q@;
 - (long long);
 - (void);
 - (void);
@@ -96,7 +77,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (_Bool);
@@ -133,40 +114,21 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id));
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)88;
 - (double);
 - (id);
-- (_Bool);
+- (_Bool)PKCS7_RECIP_INFO_set;
+- (void)setOwnerDSID: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void)ing: /* Error: Ran out of types for this method. */;
+- (void)firstEmailAddressInString: /* Error: Ran out of types for this method. */;
 - (_Bool)"NSButton",&,V_suggestedButton;
 
 // Remaining properties
-@property(retain, nonatomic) id <ABAccessoryViewProvider> accessoryViewProvider; // @synthesize accessoryViewProvider=_accessoryViewProvider;
-@property(copy) NSString *autosaveName; // @synthesize autosaveName=_autosaveName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) id <NSObject> didEnterFullScreenToken; // @synthesize didEnterFullScreenToken=_didEnterFullScreenToken;
-@property(retain) id <NSObject> didLeaveFullScreenToken; // @synthesize didLeaveFullScreenToken=_didLeaveFullScreenToken;
 @property(retain) id <ABGroupDragHelper> dragHelper; // @synthesize dragHelper=_dragHelper;
-@property(retain) id <ABGroupDropHelper> dropHelper; // @synthesize dropHelper=_drophelper;
-@property(copy) CDUnknownBlockType editCompletionHandler; // @synthesize editCompletionHandler=_editCompletionHandler;
-@property(retain, nonatomic) ABGroupEntriesList *groupEntriesList; // @synthesize groupEntriesList=_groupEntriesList;
-@property(readonly) unsigned long long hash;
-@property __weak id <ABGroupHelperFactory> helperFactory; // @synthesize helperFactory=_helperFactory;
-@property(copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property __weak ABGroupListView *outlineView; // @synthesize outlineView=_outlineView;
-@property(copy) NSString *selectedGroupEntryIdentifier; // @synthesize selectedGroupEntryIdentifier=_selectedGroupEntryIdentifier;
-@property(copy) NSString *selectedGroupName; // @synthesize selectedGroupName=_selectedGroupName;
-@property(readonly) Class superclass;
 
 @end
 

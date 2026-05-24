@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface CKLEventFilter
 {
     _Bool _simulatorMessagesOnly;
-    _Bool _onlyTestLogs;
-    unsigned long long _logTypes;
-    NSString *_processName;
-    NSDictionary *_categoriesBySubsystem;
 }
 
 - (_Bool);
@@ -28,16 +22,12 @@
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)_generatedSummary;
+- (void)ULz)P#	;
 - (void)TË;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *categoriesBySubsystem; // @synthesize categoriesBySubsystem=_categoriesBySubsystem;
 @property(nonatomic) unsigned long long logTypes; // @synthesize logTypes=_logTypes;
-@property(nonatomic) _Bool onlyTestLogs; // @synthesize onlyTestLogs=_onlyTestLogs;
-@property(retain, nonatomic) NSString *processName; // @synthesize processName=_processName;
-@property(nonatomic) _Bool simulatorMessagesOnly; // @synthesize simulatorMessagesOnly=_simulatorMessagesOnly;
 
 @end
 

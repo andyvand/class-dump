@@ -5,5 +5,7 @@
 //
 
 @protocol CKCodeFunctionInvokeOperationCallbacks
+- (void)T1
+;
 @end
 

@@ -6,9 +6,10 @@
 
 @interface UnknownClass (AXKExtensions)
 - (_Bool);
+- (_Bool)߈H;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)
+2*%;
 - (_Bool);
 - (_Bool);
 - (_Bool);

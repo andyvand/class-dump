@@ -5,7 +5,12 @@
 //
 
 @protocol C2RequestDelegate
+- (void)Q;
+- (void)le%@;
 - (void);
 - (void)øÑÿP;
+
+@optional
+- (void);
 @end
 

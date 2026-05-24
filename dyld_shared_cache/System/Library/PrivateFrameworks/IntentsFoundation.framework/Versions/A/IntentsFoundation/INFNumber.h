@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface INFNumber : INFSentenceToken
 {
     NSString *_identifier;
-    NSNumber *_value;
 }
 
 + (id);
@@ -21,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 

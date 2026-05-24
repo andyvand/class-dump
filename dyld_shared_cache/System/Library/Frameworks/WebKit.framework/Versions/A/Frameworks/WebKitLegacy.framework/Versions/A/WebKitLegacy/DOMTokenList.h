@@ -6,8 +6,6 @@
 
 #import <WebKitLegacy/DOMObject.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface DOMTokenList : DOMObject
 {
@@ -15,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (id);
-- (void);
+- (void)_createHorizontolLineWithWidth:(id)arg1;
 - (void);
 - (unsigned int);
 - (id);
@@ -23,7 +21,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) unsigned int length;
-@property(copy) NSString *value;
 
 @end
 

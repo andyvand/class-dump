@@ -7,13 +7,6 @@
 @interface NewsFeed.FormatAnimationNodeSpringAnimation
 {
     id keyPath;
-    id cumulative;
-    id additive;
-    id mass;
-    id stiffness;
-    id damping;
-    id initialVelocity;
-    id mediaTiming;
 }
 
 @end

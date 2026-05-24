@@ -4,8 +4,8 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIView;
-@protocol UICoordinateSpace, UIFocusEnvironment, UIFocusItemContainer;
+@class NSArray;
+@protocol UIFocusEnvironment;
 
 __attribute__((visibility("hidden")))
 @interface _UIFocusContainerGuideFallbackItemsContainer
@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     NSArray *_childItems;
 }
 
-- (id);
+- (id)handleTrustKitDecisioningForSender:(id)arg1 service:(id)arg2 messageGUID:trustIndicator:messageBody:myReceiverISOCountryCode:containsOneTimeCode:fileTransferGUIDs:foundChat:fallbackFilterCategory:fallbackFilterSubCategory:filteringProcessingBlock:processDictCompletionBlock: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -23,32 +23,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id)Qc1Â0@ù
 × ;
-- (id)Q_beginLoadingWithImageLoader: /* Error: Ran out of types for this method. */;
+- (id)_kickoffQ_beginLoadingWithImageLoader: /* Error: Ran out of types for this method. */;
 - (void)yle detected (%tu). This is likely due to an invalid value being returned from the implementation of -tableView:(id)arg1 editingStyleForRowAtIndexPath:(id)arg2 of this table view's delegate:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void)\;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *childItems; // @synthesize childItems=_childItems;
-@property(readonly, nonatomic) id <UICoordinateSpace> coordinateSpace;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *focusGroupIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) id <UIFocusItemContainer> focusItemContainer;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) __weak id <UIFocusEnvironment> parentFocusEnvironment; // @synthesize parentFocusEnvironment=_parentFocusEnvironment;
-@property(readonly, copy, nonatomic) NSArray *preferredFocusEnvironments;
-@property(readonly, nonatomic) __weak UIView *preferredFocusedView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIView",?,R,W,N
-
-@property(readonly) Class superclass;
 
 @end
 

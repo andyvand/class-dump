@@ -6,33 +6,17 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class NSArray, NSString, UIColor, UIPresentationController, UIVisualEffectView, _UIColorPickerColorQueue, _UIColorPickerViewControllerConfiguration, _UINSColorPickerView;
-@protocol UIColorPickerViewControllerDelegate, _UIColorPickerViewHostingImpl;
+@class UIPresentationController, _UIColorPickerColorQueue;
 
 @interface UIColorPickerViewController : UIViewController
 {
     UIPresentationController *_presentationController;
-    _UINSColorPickerView *_nsColorPickerView;
-    UIVisualEffectView *_visualEffectView;
-    struct {
-        unsigned int delegateImplementsDidSelectColorContinuous:1;
-        unsigned int delegateImplementsDidSelectColor:1;
-        unsigned int delegateImplementsDidDeselectColorSPI:1;
-        unsigned int disableReshowingColorPickerOnEyedropperDismiss:1;
-    } _flags;
-    id <_UIColorPickerViewHostingImpl> _hostingImpl;
-    id <UIColorPickerViewControllerDelegate> _delegate;
-    _UIColorPickerViewControllerConfiguration *_configuration;
-    UIColor *_selectedColor;
-    UIViewController *_childViewController;
-    _UIColorPickerColorQueue *_colorQueue;
-    _UIColorPickerViewControllerConfiguration *__remoteConfiguration;
 }
 
 + (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)eption handling outgoing message  push:%@ /* Error: Ran out of types for this method. */;
+- (void)g the message sync token to nil;
+- (void)attachment zone *******;
 - (void);
 - (id);
 - (long long);
@@ -50,7 +34,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
@@ -70,29 +54,29 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (double);
 - (void);
 - (double);
 - (id);
-- (id);
+- (id)ialize fileReferenceData to expected size;
 - (id);
 - (id)ð!èGù1]°1Â0@ù
 × ;
 - (void)mSolver";
-- (_Bool)sForAddingToDragSession:atIndexPath:point: /* Error: Ran out of types for this method. */;
-- (void)nthIfNecessary;
-- (id)nSkipTraitsAndOverlayUpdatesForViewControllerToNotifyOnLayoutResetState: /* Error: Ran out of types for this method. */;
+- (_Bool)tableView:itemsForAddingToDragSession:atIndexPath:point: /* Error: Ran out of types for this method. */;
+- (void)_updateVisibleMonthIfNecessary;
+- (id)_canSkipTraitsAndOverlayUpdatesForViewControllerToNotifyOnLayoutResetState: /* Error: Ran out of types for this method. */;
 - (id)_UIStatusBarDataEntry",C,N,V_airPlayEntry;
 - (void)bottomPalette;
-- (void)gLiftGestureRecognizer;
+- (void)_UIDragLiftGestureRecognizer;
 - (void)sFullyCharged=%{public}d;
 - (void);
 - (void)q;
@@ -104,30 +88,7 @@
 - (void)ÍèÿÜH7p;
 
 // Remaining properties
-@property(nonatomic, setter=_setAllowsNoColor:) _Bool _allowsNoColor;
-@property(retain, nonatomic, setter=_setChildViewController:) UIViewController *_childViewController; // @synthesize _childViewController;
-@property(copy, nonatomic, setter=_setRemoteConfiguration:) _UIColorPickerViewControllerConfiguration *_remoteConfiguration; // @synthesize _remoteConfiguration=__remoteConfiguration;
-@property(retain, nonatomic, setter=_setSelectedColor:) UIColor *_selectedColor; // @synthesize _selectedColor;
-@property(nonatomic, setter=_setShouldUseDarkGridInDarkMode:) _Bool _shouldUseDarkGridInDarkMode;
-@property(nonatomic, setter=_setShowsGridOnly:) _Bool _showsGridOnly;
-@property(copy, nonatomic, setter=_setSuggestedColors:) NSArray *_suggestedColors;
-@property(nonatomic, setter=_setSupportsEyedropper:) _Bool _supportsEyedropper;
-@property(nonatomic, setter=_setUserInterfaceStyleForGrid:) long long _userInterfaceStyleForGrid;
 @property(retain, nonatomic) _UIColorPickerColorQueue *colorQueue; // @synthesize colorQueue=_colorQueue;
-@property(readonly, copy, nonatomic) _UIColorPickerViewControllerConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <UIColorPickerViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double maxGain;
-@property(nonatomic) double maximumLinearExposure;
-@property(retain, nonatomic) UIColor *selectedColor;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool supportsAlpha;
-@property(nonatomic) _Bool supportsEyedropper;
 
 @end
 

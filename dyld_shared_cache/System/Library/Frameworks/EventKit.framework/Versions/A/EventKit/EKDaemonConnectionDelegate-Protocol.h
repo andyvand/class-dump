@@ -5,5 +5,7 @@
 //
 
 @protocol EKDaemonConnectionDelegate
+- (void);
+- (void)lientRequests] %{public}@ UpdatingCache:playerProperties %{public}@ /* Error: Ran out of types for this method. */;
 @end
 

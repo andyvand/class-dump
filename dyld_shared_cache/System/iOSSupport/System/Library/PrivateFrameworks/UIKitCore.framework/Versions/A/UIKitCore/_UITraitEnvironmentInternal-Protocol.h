@@ -4,11 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UITraitCollection;
+@class NSString, UITraitCollection;
 @protocol UITraitOverrides;
 
 @protocol _UITraitEnvironmentInternal
+- (void);
 - (UITraitCollection *)È¹Õ¼6[;
+
+@optional
+- (void)@0:8@"NSString"16@"NSString"24C32@"NSDictionary"36@"NSString"44@"NSString"52@"IMMessageItem"60 /* Error: Ran out of types for this method. */;
+- (NSString *);
 
 // Remaining properties
 @property(readonly, nonatomic) id <UITraitOverrides> traitOverrides;

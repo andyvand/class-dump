@@ -10,24 +10,19 @@ __attribute__((visibility("hidden")))
 @interface PDAnimateScaleBehavior : PDAnimateBehavior
 {
     struct CGPoint mTo;
-    struct CGPoint mFrom;
-    struct CGPoint mBy;
-    _Bool mHasTo;
-    _Bool mHasFrom;
-    _Bool mHasBy;
 }
 
 - (void);
 - (_Bool);
 - (_Bool);
 - (struct CGPoint);
-- (_Bool);
+- (_Bool);
+- (void)!b5;
 - (void);
-- (void);
-- (struct CGPoint);
+- (struct CGPoint)fs.queue;
 - (struct CGPoint);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 
 @end

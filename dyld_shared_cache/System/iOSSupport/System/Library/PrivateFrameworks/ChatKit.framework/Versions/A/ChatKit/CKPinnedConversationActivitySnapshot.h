@@ -9,13 +9,12 @@
 @interface CKPinnedConversationActivitySnapshot
 {
     NSArray *_activityItems;
-    NSArray *_contactItems;
 }
 
 + (id)ÿÿ;
 - (id);
 - (id);
-- (long long);
+- (long long)\;
 - (double);
 - (double);
 - (long long);
@@ -26,7 +25,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *activityItems; // @synthesize activityItems=_activityItems;
-@property(readonly, copy, nonatomic) NSArray *contactItems; // @synthesize contactItems=_contactItems;
 
 @end
 

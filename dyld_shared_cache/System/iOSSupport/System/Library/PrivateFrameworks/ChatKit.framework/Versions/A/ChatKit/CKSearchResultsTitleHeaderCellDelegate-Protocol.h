@@ -5,5 +5,6 @@
 //
 
 @protocol CKSearchResultsTitleHeaderCellDelegate
+- (void)reloadsTimelinesAutomatically;
 @end
 

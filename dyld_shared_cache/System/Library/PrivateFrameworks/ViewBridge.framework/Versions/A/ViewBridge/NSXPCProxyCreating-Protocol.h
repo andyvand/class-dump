@@ -5,5 +5,6 @@
 //
 
 @protocol NSXPCProxyCreating
+- (id);
 @end
 

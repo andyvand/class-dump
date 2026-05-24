@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface PDSResponse
 {
     long long _status;
-    NSDictionary *_statusByUser;
-    long long _ttl;
 }
 
-- (id);
-- (id);
+- (id)og index. Error:%{public}s /* Error: Ran out of types for this method. */;
+- (id)}@:(long long)arg1 Failed to delete sharing relationship %@. Error:(id)arg2 %{public}@. Reset-syncing ACLs.;
 - (id);
 - (long long);
 - (long long);
@@ -22,8 +18,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long status; // @synthesize status=_status;
-@property(readonly, nonatomic) NSDictionary *statusByUser; // @synthesize statusByUser=_statusByUser;
-@property(readonly, nonatomic) long long ttl; // @synthesize ttl=_ttl;
 
 @end
 

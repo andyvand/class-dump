@@ -9,24 +9,114 @@
 @interface QIntentTuple : QComponentInfoTuple
 {
     int _data;
-    int _object;
-    int _intent;
 }
 
-+ (id);
-- (id);
++ (id).vSegments = vSegments;
+#endif
+
+    output.patchCoord = OsdInterpolatePatchCoord(UV, patchParam);
+    output.position = P;
+    
+    OSD_USER_VARYING_PER_EVAL_POINT(UV, cv[5], cv[6], cv[9], cv[10], output);
+    
+    return output;
+}
+
+#if USE_STAGE_IN
+template<typename PerPatchVertexBezier>
+#endif
+static OsdPatchVertex OsdComputePatch(
+	float tessLevel,
+	float2 domainCoord,
+	unsigned patchID,
+#if USE_STAGE_IN
+	PerPatchVertexBezier osdPatch
+#else
+	OsdVertexBufferSet osdBuffers
+#endif
+	)
+{
+	return ds_regular_patches(
+		tessLevel,
+#if !USE_PTVS_FACTORS
+#if USE_STAGE_IN
+		osdPatch.tessOuterHi,
+		osdPatch.tessOuterLo,
+#else
+		osdBuffers.patchTessBuffer[patchID].tessOuterHi,
+		osdBuffers.patchTessBuffer[patchID].tessOuterLo,
+#endif
+#endif
+#if USE_STAGE_IN
+		osdPatch.cv,
+		osdPatch.patchParam,
+#else
+		osdBuffers.perPatchVertexBuffer + patchID * VERTEX_CONTROL_POINTS_PER_PATCH,
+		osdBuffers.patchParamBuffer[patchID],
+#endif
+		domainCoord
+		);
+}
+
+;
+- (id)cv[18] = patch[3].Fp;
+    cv[19] = patch[3].Fm;
+    
+    OsdEvalPatchGregory(patchParam, UV, cv, P, dPu, dPv, N, dNu, dNv);
+    
+    // all code below here is client code
+    output.position = P;
+    output.normal = N;
+    output.tangent = dPu;
+    output.bitangent = dPv;
+#if OSD_COMPUTE_NORMAL_DERIVATIVES
+    output.Nu = dNu;
+    output.Nv = dNv;
+#endif
+
+    output.patchCoord = OsdInterpolatePatchCoord(UV, patchParam);
+    
+    OSD_USER_VARYING_PER_EVAL_POINT(UV, patch[0], patch[1], patch[3], patch[2], output);
+
+    return output;
+}
+
+#if USE_STAGE_IN
+template<typename PerPatchVertexGregoryBasis>
+#endif
+static OsdPatchVertex OsdComputePatch(
+	float tessLevel,
+	float2 domainCoord,
+	unsigned patchID,
+#if USE_STAGE_IN
+	PerPatchVertexGregoryBasis osdPatch
+#else
+    OsdVertexBufferSet osdBuffers
+#endif
+	)
+{
+	return ds_gregory_patches(
+#if USE_STAGE_IN
+		osdPatch.cv,
+		osdPatch.patchParam,
+#else
+        osdBuffers.perPatchVertexBuffer + patchID * VERTEX_CONTROL_POINTS_PER_PATCH,
+        osdBuffers.patchParamBuffer[patchID],
+#endif
+		domainCoord);
+}
+
+;
 - (id);
 - (void);
 - (int);
-- (int);
+- (int)_playlistPropertySet;
 - (void);
 - (void);
 - (int);
 
 // Remaining properties
 @property int data; // @synthesize data=_data;
-@property int intent; // @synthesize intent=_intent;
-@property int object; // @synthesize object=_object;
 
 @end
 

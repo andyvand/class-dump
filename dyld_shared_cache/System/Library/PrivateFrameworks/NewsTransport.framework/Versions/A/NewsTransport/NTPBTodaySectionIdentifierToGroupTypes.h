@@ -9,33 +9,30 @@
 @interface NTPBTodaySectionIdentifierToGroupTypes
 {
     CDStruct_95bda58d _groupTypes;
-    NSString *_personalizationSectionIdentifier;
 }
 
-- (void);
+- (void)initWithDecoratedLayout:(id)arg1;
+- (void)formPlaceholderView;
+- (id)featureType;
+- (int)currentDataSourceContainer;
+- (id)currentDataSource;
+- (int *)currentDataSection;
+- (void)contentCaptureSpriteIndex;
+- (unsigned long long)configurationWithQueryItems:possibleContentType: /* Error: Ran out of types for this method. */;
+- (void)color;
+- (int)collectionView:(id)arg1 validateDrop:proposedIndex:dropOperation: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (int);
-- (id);
-- (int *);
-- (void);
-- (unsigned long long);
-- (void);
-- (int);
-- (void);
-- (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)setMinimumVisibilityFactor: /* Error: Ran out of types for this method. */;
+- (_Bool)Master Password File %@;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)b;
 - (id);
 - (void)on"b1"countOfImagesExposed"b1"countOfImagesInGallery"b1"feedCellSection"b1"feedType"b1"galleryType"b1"mediaLocation"b1"mediaType"b1"publisherArticleVersion"b1"videoType"b1"adSupportedChannel"b1"isDigitalReplicaAd"b1"isNativeAd"b1"isUserSubscribedToFeed"b1"isVideoInFeed"b1};
 
 // Remaining properties
-@property(readonly, nonatomic) int *groupTypes;
-@property(readonly, nonatomic) unsigned long long groupTypesCount;
 @property(retain, nonatomic) NSString *personalizationSectionIdentifier; // @synthesize personalizationSectionIdentifier=_personalizationSectionIdentifier;
 
 @end

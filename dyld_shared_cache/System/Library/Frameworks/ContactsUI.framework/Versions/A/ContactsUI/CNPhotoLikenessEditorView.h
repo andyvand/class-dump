@@ -4,36 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, CNPhotoLikenessBuddyControlsViewController, CNPhotoLikenessEditorViewController, CNPhotoLikenessEditorZoomSliderController, CNPhotoLikenessMaskView, CNUIDeprecatedIKImageBrowserView, NSLayoutConstraint, NSMutableDictionary, NSOutlineView, NSSplitViewController, NSString, NSTableColumn, NSView;
+@class NSSplitViewController;
 
 @interface CNPhotoLikenessEditorView
 {
     _Bool _showViewFinder;
-    _Bool _ignoreOutlineViewSelectionChangeNotifications;
-    CNPhotoLikenessEditorViewController *_viewController;
-    long long _displayMode;
-    NSOutlineView *_sourcesTable;
-    NSTableColumn *_tableColumn;
-    double _photoHeight;
-    NSSplitViewController *_splitViewController;
-    NSView *_sourceDisplayView;
-    NSMutableDictionary *_sourceViewControllers;
-    NSView *_currentSourceView;
-    long long _currentSourceType;
-    CNPhotoLikenessEditorZoomSliderController *_zoomController;
-    CNPhotoLikenessBuddyControlsViewController *_buddyControlsViewController;
-    NSLayoutConstraint *_zoomSliderBottomConstraint;
-    CALayer *_maskLayer;
-    NSLayoutConstraint *_heightConstraint;
-    NSLayoutConstraint *_sourceDisplayViewTopConstraint;
-    NSLayoutConstraint *_sourceDisplayViewBottomConstraint;
-    NSLayoutConstraint *_sourceDisplayViewLeadingConstraint;
-    NSLayoutConstraint *_sourceDisplayViewTrailingConstraint;
-    NSLayoutConstraint *_sourceDisplayViewWidthConstraint;
-    NSLayoutConstraint *_sourceDisplayViewCenterXConstraint;
-    double _viewFinderOffset;
-    double _viewFinderCornerRadius;
-    CNPhotoLikenessMaskView *_maskView;
 }
 
 + (id);
@@ -49,11 +24,11 @@
 - (long long);
 - (id);
 - (id);
+- (id)hB9;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)B9;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -76,7 +51,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (double);
@@ -86,19 +61,19 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (id);
+- (void);
 - (void);
 - (id);
 - (id);
+- (id);
+- (long long)T;
+- (id);
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
-- (void);
+- (void)V;
 - (void);
 - (id);
 - (void);
@@ -109,14 +84,14 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)accessibility.reduce.motion.reduce.slide.transitions.status;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)sdSpeculationSuccessRate;
 - (void);
 - (void);
 - (id)1Â0@ù
@@ -124,41 +99,7 @@
 - (long long);
 
 // Remaining properties
-@property(retain) CNPhotoLikenessBuddyControlsViewController *buddyControlsViewController; // @synthesize buddyControlsViewController=_buddyControlsViewController;
-@property long long currentSourceType; // @synthesize currentSourceType=_currentSourceType;
-@property(retain) NSView *currentSourceView; // @synthesize currentSourceView=_currentSourceView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) CNUIDeprecatedIKImageBrowserView *defaultPhotosLibraryView;
-@property(readonly, copy) NSString *description;
-@property long long displayMode; // @synthesize displayMode=_displayMode;
-@property(readonly) unsigned long long hash;
-@property(retain) NSLayoutConstraint *heightConstraint; // @synthesize heightConstraint=_heightConstraint;
-@property _Bool ignoreOutlineViewSelectionChangeNotifications; // @synthesize ignoreOutlineViewSelectionChangeNotifications=_ignoreOutlineViewSelectionChangeNotifications;
-@property(retain) CALayer *maskLayer; // @synthesize maskLayer=_maskLayer;
-@property(retain) CNPhotoLikenessMaskView *maskView; // @synthesize maskView=_maskView;
-@property(readonly) CNUIDeprecatedIKImageBrowserView *mediaLibraryView;
-@property double photoHeight; // @synthesize photoHeight=_photoHeight;
-@property _Bool showViewFinder; // @synthesize showViewFinder=_showViewFinder;
-@property(retain) NSView *sourceDisplayView; // @synthesize sourceDisplayView=_sourceDisplayView;
-@property(retain) NSLayoutConstraint *sourceDisplayViewBottomConstraint; // @synthesize sourceDisplayViewBottomConstraint=_sourceDisplayViewBottomConstraint;
-@property(retain) NSLayoutConstraint *sourceDisplayViewCenterXConstraint; // @synthesize sourceDisplayViewCenterXConstraint=_sourceDisplayViewCenterXConstraint;
-@property(retain) NSLayoutConstraint *sourceDisplayViewLeadingConstraint; // @synthesize sourceDisplayViewLeadingConstraint=_sourceDisplayViewLeadingConstraint;
-@property(retain) NSLayoutConstraint *sourceDisplayViewTopConstraint; // @synthesize sourceDisplayViewTopConstraint=_sourceDisplayViewTopConstraint;
-@property(retain) NSLayoutConstraint *sourceDisplayViewTrailingConstraint; // @synthesize sourceDisplayViewTrailingConstraint=_sourceDisplayViewTrailingConstraint;
-@property(retain) NSLayoutConstraint *sourceDisplayViewWidthConstraint; // @synthesize sourceDisplayViewWidthConstraint=_sourceDisplayViewWidthConstraint;
-@property(retain) NSMutableDictionary *sourceViewControllers; // @synthesize sourceViewControllers=_sourceViewControllers;
-@property(retain) NSOutlineView *sourcesTable; // @synthesize sourcesTable=_sourcesTable;
 @property(retain) NSSplitViewController *splitViewController; // @synthesize splitViewController=_splitViewController;
-@property(readonly) Class superclass;
-@property(retain) NSTableColumn *tableColumn; // @synthesize tableColumn=_tableColumn;
-@property __weak CNPhotoLikenessEditorViewController *viewController; // @synthesize viewController=_viewController;
-@property double viewFinderCornerRadius; // @synthesize viewFinderCornerRadius=_viewFinderCornerRadius;
-@property double viewFinderOffset; // @synthesize viewFinderOffset=_viewFinderOffset;
-@property(retain) CNPhotoLikenessEditorZoomSliderController *zoomController; // @synthesize zoomController=_zoomController;
-@property(retain) NSLayoutConstraint *zoomSliderBottomConstraint; // @synthesize zoomSliderBottomConstraint=_zoomSliderBottomConstraint;
 
 @end
 

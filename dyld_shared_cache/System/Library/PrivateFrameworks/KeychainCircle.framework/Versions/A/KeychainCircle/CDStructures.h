@@ -73,8 +73,3 @@ typedef struct {
     unsigned char _field1[16];
 } CDStruct_60067b7e;
 
-// Ambiguous groups
-typedef struct {
-    unsigned int supported:1;
-} CDStruct_495da94c;
-

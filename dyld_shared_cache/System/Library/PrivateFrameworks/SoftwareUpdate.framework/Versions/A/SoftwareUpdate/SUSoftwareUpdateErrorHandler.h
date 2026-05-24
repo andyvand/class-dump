@@ -8,14 +8,13 @@ __attribute__((visibility("hidden")))
 @interface SUSoftwareUpdateErrorHandler
 {
     long long _code;
-    CDUnknownBlockType _action;
 }
 
 - (id);
 - (void);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)!;
 
 @end
 

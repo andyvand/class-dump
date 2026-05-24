@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CADisplayPowerAssertion
 {
     unsigned int _display_id;
-    long long _reason;
-    NSString *_identifier;
-    unsigned int _server_port;
-    unsigned int _client_port;
-    _Bool _active;
-    _Bool _invalidated;
 }
 
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)	;
+- (void)`;
 - (long long);
 - (id);
 - (void);
@@ -32,8 +24,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isActive) _Bool active;
-@property(readonly, nonatomic) NSString *identifier;
 @property(readonly, nonatomic) long long reason;
 
 @end

@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class GATSchemaGATCreateSessionEventEnded, GATSchemaGATCreateSessionEventFailed, GATSchemaGATCreateSessionEventStarted, NSData;
+@class GATSchemaGATCreateSessionEventStarted;
 
 @interface GATSchemaGATCreateSessionContext : SISchemaInstrumentationMessage
 {
     GATSchemaGATCreateSessionEventStarted *_startedOrChanged;
-    GATSchemaGATCreateSessionEventEnded *_ended;
-    GATSchemaGATCreateSessionEventFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContentevent;
 }
 
 - (unsigned long long);
@@ -27,8 +21,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -38,24 +32,17 @@
 - (id);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)_configureTextFieldAsWideButShrinkable:withOtherTextField: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)Match"b1"contactFullNamePhoneticScore"b1"contactFirstNamePhoneticScore"b1"contactLastNamePhoneticScore"b1};
-- (id)ClientEvent;
+- (id)_mwtClientEvent;
 - (id)};
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) GATSchemaGATCreateSessionEventEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) GATSchemaGATCreateSessionEventFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) GATSchemaGATCreateSessionEventStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContentevent; // @synthesize whichContentevent=_whichContentevent;
 
 @end
 

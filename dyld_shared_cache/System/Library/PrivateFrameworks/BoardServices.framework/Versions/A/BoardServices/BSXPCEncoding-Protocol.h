@@ -5,7 +5,7 @@
 //
 
 @protocol BSXPCEncoding
-- (void)ndFlag;
+- (void)_sendFlag;
 - (void)¨@;
 - (void)ð;
 - (void)À8;

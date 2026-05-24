@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSObject, NSSet, NSString, WBSCloudHistoryFetchResult;
-@protocol OS_dispatch_queue, WBSHistoryServiceDatabaseProtocol;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface WBSCloudHistoryMergeOperation
 {
     NSObject<OS_dispatch_queue> *_queue;
-    id <WBSHistoryServiceDatabaseProtocol> _database;
-    WBSCloudHistoryFetchResult *_fetchResult;
-    NSString *_profileServerIdentifier;
-    _Bool _mergeStarted;
-    NSMutableDictionary *_visitsByVisitIdentifiers;
-    NSMutableSet *_redirectChainEarliestVisits;
-    NSSet *_tombstones;
-    NSMutableDictionary *_tombstonesByURLString;
-    NSSet *_existingVisits;
 }
 
 - (void);

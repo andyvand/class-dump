@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface SCNIKJoint
 {
     SCNNode *joint;
-    double maxAllowedRotationAngle;
 }
 
 - (void);
@@ -20,7 +19,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) SCNNode *joint; // @synthesize joint;
-@property(nonatomic) double maxAllowedRotationAngle; // @synthesize maxAllowedRotationAngle;
 
 @end
 

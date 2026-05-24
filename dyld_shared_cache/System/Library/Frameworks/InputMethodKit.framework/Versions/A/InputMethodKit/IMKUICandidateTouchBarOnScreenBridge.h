@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKCandidateData, IMKUICandidateTouchBarController, IMKUIWindowBasedCandidateController;
+@class IMKUIWindowBasedCandidateController;
 
 @interface IMKUICandidateTouchBarOnScreenBridge
 {
     _Bool _onscreenCandidatesReflectedInTouchBar;
-    _Bool _scrubbingInTouchBarUpdatesOnscreenCandidates;
-    _Bool _shouldRouteTouchBarSelectionEventsToInputController;
-    IMKUIWindowBasedCandidateController *_auxiliaryOnscreenController;
-    Class _auxiliaryOnscreenControllerClass;
-    IMKCandidateData *_secondaryCandidates;
 }
 
-+ (id);
++ (id)`
+;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)?;
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)A(!.c8";
 - (void);
 - (void);
 - (id);
@@ -50,19 +46,11 @@
 - (id);
 - (long long);
 - (void);
-- (id);
+- (id)autorelease;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) IMKUIWindowBasedCandidateController *auxiliaryOnscreenController; // @synthesize auxiliaryOnscreenController=_auxiliaryOnscreenController;
-@property(nonatomic) Class auxiliaryOnscreenControllerClass; // @synthesize auxiliaryOnscreenControllerClass=_auxiliaryOnscreenControllerClass;
-@property(readonly, nonatomic) _Bool onscreenCandidatesCorrespondToTouchBarCandidates;
-@property(nonatomic) _Bool onscreenCandidatesReflectedInTouchBar; // @synthesize onscreenCandidatesReflectedInTouchBar=_onscreenCandidatesReflectedInTouchBar;
 @property(readonly, nonatomic) IMKUIWindowBasedCandidateController *onscreenController;
-@property(nonatomic) _Bool scrubbingInTouchBarUpdatesOnscreenCandidates; // @synthesize scrubbingInTouchBarUpdatesOnscreenCandidates=_scrubbingInTouchBarUpdatesOnscreenCandidates;
-@property(retain, nonatomic) IMKCandidateData *secondaryCandidates; // @synthesize secondaryCandidates=_secondaryCandidates;
-@property(nonatomic) _Bool shouldRouteTouchBarSelectionEventsToInputController; // @synthesize shouldRouteTouchBarSelectionEventsToInputController=_shouldRouteTouchBarSelectionEventsToInputController;
-@property(readonly, nonatomic) IMKUICandidateTouchBarController *touchBarController;
 
 @end
 

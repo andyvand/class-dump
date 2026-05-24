@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface WBUAutoFillDisplayData
 {
     NSString *_label;
-    NSArray *_fillMatches;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -25,10 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *fillMatches; // @synthesize fillMatches=_fillMatches;
 @property(retain, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly, nonatomic) NSString *property;
-@property(readonly, nonatomic) NSString *valueString;
 
 @end
 

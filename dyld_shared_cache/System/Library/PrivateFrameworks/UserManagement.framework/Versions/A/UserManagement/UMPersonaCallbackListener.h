@@ -4,37 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSString, NSXPCListener;
+@class NSString;
 
 @interface UMPersonaCallbackListener
 {
     NSString *_machServiceName;
-    NSMutableSet *_xpcConnections;
-    NSXPCListener *_xpcListener;
-    CDUnknownBlockType _personaUpdateCallbackHandler;
 }
 
 - (void);
 - (void);
+- (void)`b;
+- (void)';
+- (id)a;
+- (void);
+- (void)sr/lib/libMobileGestalt.dylib;
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)setPaddedSize:(CDUnknownBlockType)arg1;
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

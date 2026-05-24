@@ -8,10 +8,9 @@
 {
     _Bool _liveConversionEnabled;
     struct __IDXIndex *_index;
-    struct __CFDictionary *_radicalToSortPosition;
 }
 
-- (void);
+- (void);
 - (void);
 - (struct __CFDictionary *);
 - (_Bool);
@@ -19,7 +18,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)A;
 - (id);
 - (id);
 - (id);
@@ -28,12 +27,11 @@
 - (void);
 - (id);
 - (struct __IDXIndex *);
-- (void);
+- (void)/Versions/A/ImageIO;
 - (_Bool);
 
 // Remaining properties
 @property struct __IDXIndex *index; // @synthesize index=_index;
-@property(nonatomic) _Bool liveConversionEnabled; // @synthesize liveConversionEnabled=_liveConversionEnabled;
 @property struct __CFDictionary *radicalToSortPosition; // @synthesize radicalToSortPosition=_radicalToSortPosition;
 
 @end

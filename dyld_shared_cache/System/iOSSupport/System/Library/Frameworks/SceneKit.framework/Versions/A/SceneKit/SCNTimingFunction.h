@@ -11,10 +11,10 @@
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)oller.replaceRangeInControl(controlID, rangeLocation, rangeLength, replacementString, selectionStart);;
 - (id);
 - (struct __C3DTimingFunction *);
-- (void);
+- (void)i;
 - (id);
 - (void);
 

@@ -12,7 +12,7 @@
 + (_Bool);
 - (struct __CFDictionary *);
 - (id);
-- (void);
+- (void)4;
 - (id);
 - (id);
 - (id);

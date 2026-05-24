@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICAccount, ICFolderCustomNoteSortType, NSArray, NSData, NSManagedObjectContext, NSString;
+@class ICAccount;
 
 @interface ICAccountProxy
 {
@@ -15,7 +15,7 @@
 + (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -23,17 +23,17 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)1;
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)@9i";
+- (id);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -44,13 +44,13 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)w",&,V_doneImageView;
 - (long long);
 - (void);
 - (id);
 - (id);
 - (id);
-- (long long)eam: /* Error: Ran out of types for this method. */;
+- (long long)didReceiveInputStream:outputStream: /* Error: Ran out of types for this method. */;
 - (void)ð;
 - (void);
 - (_Bool);
@@ -59,35 +59,6 @@
 
 // Remaining properties
 @property(retain) ICAccount *account; // @synthesize account=_account;
-@property(readonly, copy, nonatomic) NSString *accountName;
-@property(readonly, nonatomic) _Bool canBeSharedViaICloud;
-@property(readonly, nonatomic) NSString *containerIdentifier;
-@property(readonly, nonatomic) ICFolderCustomNoteSortType *customNoteSortType;
-@property(readonly, nonatomic) long long dateHeadersType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic, getter=isDeleted) _Bool deleted;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isAllNotesContainer;
-@property(readonly, nonatomic) _Bool isModernCustomFolder;
-@property(readonly, nonatomic) _Bool isSharedReadOnly;
-@property(readonly, nonatomic) _Bool isSharedViaICloud;
-@property(readonly, nonatomic) _Bool isShowingDateHeaders;
-@property(readonly, nonatomic) _Bool isTrashFolder;
-@property(readonly) NSManagedObjectContext *managedObjectContext;
-@property(readonly, nonatomic) ICAccount *noteContainerAccount;
-@property(copy, nonatomic) NSData *subFolderOrderMergeableData;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsDateHeaders;
-@property(readonly, nonatomic) _Bool supportsEditingNotes;
-@property(readonly, copy, nonatomic) NSString *titleForNavigationBar;
-@property(readonly, copy, nonatomic) NSString *titleForTableViewCell;
-@property(readonly, nonatomic) NSArray *visibleNotes;
-@property(readonly, nonatomic) unsigned long long visibleNotesCount;
-@property(readonly, nonatomic) NSArray *visibleSubFolders;
 
 @end
 

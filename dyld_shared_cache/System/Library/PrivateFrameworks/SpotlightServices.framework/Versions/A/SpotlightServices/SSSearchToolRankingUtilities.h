@@ -8,10 +8,10 @@
 {
 }
 
-+ (void);
-+ (id);
-+ (id);
-+ (unsigned long long);
++ (void)selectAction:(id)arg1;
++ (id)fetchWithConfiguration:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
++ (id)errorWithDomain:(id)arg1 code:userInfo: /* Error: Ran out of types for this method. */;
++ (unsigned long long)actionWithTitle:(unsigned long long)arg1 image:(id)arg2 handler:(id)arg3;
 
 @end
 

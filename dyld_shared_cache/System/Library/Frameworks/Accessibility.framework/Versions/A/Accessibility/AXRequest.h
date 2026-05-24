@@ -11,10 +11,10 @@
     NSString *_technology;
 }
 
-+ (_Bool);
++ (_Bool)_processSecondPassInExclave:rejectBlock: /* Error: Ran out of types for this method. */;
 + (id);
-- (void);
-- (id);
+- (void)kOutDict=%@;
+- (id)=%s;
 - (id);
 - (id);
 - (_Bool);

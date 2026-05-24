@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSOperationQueue, NSPredicate;
 @protocol NSMetadataQueryDelegate;
 
 @interface NSMetadataQuery
 {
     unsigned long long _flags;
-    double _interval;
-    id _private[11];
-    void *_reserved;
 }
 
-+ (void);
++ (void);
 + (id);
-+ (id);
++ (id)';
 + (id);
 + (Class)Gkt;
 + (id);
@@ -25,21 +21,6 @@
 
 // Remaining properties
 @property id <NSMetadataQueryDelegate> delegate;
-@property(readonly, getter=isGathering) _Bool gathering;
-@property(readonly, copy) NSArray *groupedResults;
-@property(copy) NSArray *groupingAttributes;
-@property double notificationBatchingInterval;
-@property(retain) NSOperationQueue *operationQueue;
-@property(copy) NSPredicate *predicate;
-@property(readonly) unsigned long long resultCount;
-@property(readonly, copy) NSArray *results;
-@property(copy) NSArray *searchItems;
-@property(copy) NSArray *searchScopes;
-@property(copy) NSArray *sortDescriptors;
-@property(readonly, getter=isStarted) _Bool started;
-@property(readonly, getter=isStopped) _Bool stopped;
-@property(copy) NSArray *valueListAttributes;
-@property(readonly, copy) NSDictionary *valueLists;
 
 @end
 

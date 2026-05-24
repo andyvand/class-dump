@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface GEOJunction
 {
     int _maneuverType;
-    int _drivingSide;
-    int _junctionType;
-    NSData *_elementsData;
 }
 
 + (_Bool)ivate}@;
 - (unsigned long long);
+- (int)__objc_methname;
 - (int);
-- (int);
 - (id);
 - (id);
 - (id);
 - (id);
-- (int);
+- (int)atomicCache;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -31,11 +26,7 @@
 - (struct GEOJunctionElement *)×k7;
 
 // Remaining properties
-@property(readonly, nonatomic) int drivingSide; // @synthesize drivingSide=_drivingSide;
-@property(readonly, nonatomic) struct GEOJunctionElement *elements;
-@property(readonly, nonatomic) int junctionType; // @synthesize junctionType=_junctionType;
 @property(readonly, nonatomic) int maneuverType; // @synthesize maneuverType=_maneuverType;
-@property(readonly, nonatomic) unsigned long long numElements;
 
 @end
 

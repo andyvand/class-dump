@@ -4,31 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFAssertionContext, AFTwoArgumentSafetyBlock, NSString, NSUUID;
+@class AFTwoArgumentSafetyBlock, NSUUID;
 
 @interface _AFAssertionImpl
 {
     AFTwoArgumentSafetyBlock *_relinquishmentHandler;
-    NSUUID *_uuid;
-    AFAssertionContext *_context;
 }
 
 - (void);
+- (id)q;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)iceCommandAfterRespeakCheck;
+- (void)_hasNoVoiceCommandAfterRespeakCheck;
 
 // Remaining properties
-@property(readonly, nonatomic) AFAssertionContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end

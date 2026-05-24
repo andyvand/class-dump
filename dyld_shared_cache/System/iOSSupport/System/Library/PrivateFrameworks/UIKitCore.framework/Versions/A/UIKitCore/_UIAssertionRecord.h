@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UIAssertionRecord
 {
     _Bool _initialState;
-    unsigned long long _type;
-    long long _activeAssertionCount;
-    NSString *_reason;
 }
 
 - (void);
 - (long long);
 - (id);
-- (void);
+- (void)60@"NSDate"68;
 - (unsigned long long)!	ð!\AùQe°1Â0@ù
 × ;
-- (void)etsForLayout;
+- (void)imageInsetsForLayout;
 - (void)LTLìLlM NØO;
 - (_Bool)use -[UIDragInteraction_Private _setCancellationDelay:] instead. /* Error: Ran out of types for this method. */;
 - (void)ã¡ÿAÄÄ;
 
 // Remaining properties
-@property(nonatomic) long long activeAssertionCount; // @synthesize activeAssertionCount=_activeAssertionCount;
-@property(nonatomic) _Bool initialState; // @synthesize initialState=_initialState;
-@property(copy, nonatomic) NSString *reason; // @synthesize reason=_reason;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

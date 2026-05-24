@@ -4,45 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDSearchSectionGuide, GEOPDSearchSectionPlace, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchSection
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_name;
-    GEOPDSearchSectionGuide *_sectionGuide;
-    GEOPDSearchSectionPlace *_sectionPlace;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _contentType;
-    unsigned int _sectionIdentifier;
-    unsigned int _sectionRank;
-    int _sectionType;
-    struct {
-        unsigned int has_contentType:1;
-        unsigned int has_sectionIdentifier:1;
-        unsigned int has_sectionRank:1;
-        unsigned int has_sectionType:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_name:1;
-        unsigned int read_sectionGuide:1;
-        unsigned int read_sectionPlace:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)PTSEditStringRow;
+- (id)didReportEndpointDelay;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)B;
 - (_Bool);
 - (id);
 - (id)s_updateTime"b1"has_delaySeconds"b1"has_laneClosureCount"b1"has_laneClosureType"b1"has_significance"b1"has_type"b1"has_userReportsCount"b1"has_endTimeReliable"b1"has_shouldDisplayOnMap"b1"read_unknownFields"b1"read_artwork"b1"read_crossStreet"b1"read_incidentId"b1"read_info"b1"read_position"b1"read_restrictionInfo"b1"read_street"b1"read_userReportIds"b1"wrote_anyField"b1};
-- (id)afficProbeURLLegacy;
+- (id)_realtimeTrafficProbeURLLegacy;
 - (id)8ÉèÉ0Ë	ÜÏDÒÖ$ÚÚ;
 - (void);
 

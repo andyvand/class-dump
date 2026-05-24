@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString, NSURL;
+@class NSURL;
 
 @interface AVMediaFileSegmenter
 {
@@ -13,24 +13,26 @@
 
 + (id);
 + (id);
-- (CDStruct_1b6d18a9);
+- (CDStruct_1b6d18a9)w;
+- (void)s;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)*;
 - (void);
-- (void);
-- (void);
+- (_Bool);
+- (void)\;
 - (_Bool);
-- (void);
-- (_Bool);
 - (long long);
-- (id);
+- (id);
 - (id);
 - (long long);
-- (id);
+- (id)(
+t
+;
 - (id);
 - (void);
 - (void);
@@ -48,19 +50,11 @@
 - (id);
 - (void);
 - (long long);
-- (float);
+- (float)ty for bundleID=%@;
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *IFramePlaylistName;
-@property(readonly, nonatomic) NSError *error;
-@property(copy, nonatomic) NSString *mediaPlaylistName;
 @property(copy, nonatomic) NSURL *outputURL;
-@property(nonatomic) _Bool producesSingleFileOutput;
-@property(readonly, nonatomic) float progress;
-@property(nonatomic) _Bool segmentsAudioOnly;
-@property(readonly, nonatomic) long long status;
-@property(nonatomic) CDStruct_1b6d18a9 targetSegmentDuration;
 
 @end
 

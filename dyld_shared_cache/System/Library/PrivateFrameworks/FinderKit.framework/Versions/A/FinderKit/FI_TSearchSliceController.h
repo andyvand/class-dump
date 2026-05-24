@@ -4,29 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FI_TBrowserContainerController, FI_TSearchCriteriaViewController, FI_TSearchScopeSliceController, NSDictionary, NSSearchField, NSSet, NSStackView, NSString;
+@class FI_TBrowserContainerController, NSStackView;
 
 __attribute__((visibility("hidden")))
 @interface FI_TSearchSliceController
 {
     NSStackView *_slicesStackView;
-    FI_TSearchScopeSliceController *_scopeSliceController;
-    FI_TSearchCriteriaViewController *_criteriaController;
-    NSSearchField *_toolbarSearchField;
-    struct TNSWeakPtr<FI_TBrowserContainerController> _weakContainerController;
-    NSSet *_searchFilterUTIs;
-    _Bool _isSaveable;
-    _Bool tornDown;
-    _Bool _configuring;
 }
 
-+ (void);
++ (void);
 + (id);
 + (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -38,8 +30,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void)D;
 - (void);
 - (void);
 - (void);
@@ -55,19 +47,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void *);
 - (_Bool);
-- (void);
+- (void)`;
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)(;
 - (void);
 - (void);
 - (id);
@@ -90,25 +82,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property _Bool configuring; // @synthesize configuring=_configuring;
 @property(nonatomic) __weak FI_TBrowserContainerController *containerController;
-@property(readonly, nonatomic) _Bool criteriaIsCollapsed;
-@property(readonly, nonatomic) NSString *currentScopeString;
-@property(readonly, nonatomic) NSSearchField *currentSearchField;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasCriteria;
-@property(readonly) unsigned long long hash;
-@property _Bool isSaveable; // @synthesize isSaveable=_isSaveable;
-@property(readonly, nonatomic) void *queryNode;
-@property(readonly, nonatomic) _Bool scopeSliceIsVisible;
-@property(copy) NSSet *searchFilterUTIs;
-@property(readonly) Class superclass;
-@property(getter=isTornDown) _Bool tornDown; // @synthesize tornDown;
-@property(readonly, nonatomic) NSDictionary *userSlices;
 
 @end
 

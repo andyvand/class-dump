@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, TILRUDictionary, TIRevisionHistoryToken;
-@protocol TIRevisionHistoryDelegate;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface TIRevisionHistory
 {
     _Bool _shouldReportRevisionToDP;
-    _Bool _isDeletingBackwards;
-    _Bool _isRapidDeleteActive;
-    id <TIRevisionHistoryDelegate> _delegate;
-    TILRUDictionary *_recentAutocorrections;
-    TILRUDictionary *_autocorrectionHistory;
-    NSString *_documentText;
-    NSMutableArray *_tokenization;
-    void *_tokenizer;
-    TIRevisionHistoryToken *_lastRejectedToken;
-    struct _NSRange _selectedRange;
-    struct _TIRevisionHistoryTokenIterator _currentTokenIterator;
 }
 
 + (id);
@@ -30,13 +18,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
-- (id);
+- (id)4@32;
+- (id)ailable;
 - (id);
 - (_Bool);
 - (id);
 - (struct _NSRange);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -46,74 +34,63 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (struct _NSRange);
+- (void)e.reminders.todaywidget;
+- (void)commute30MinWarningEntityRelevanceLargeGeoHashFeatures;
+- (void);
+- (struct _TIRevisionHistoryTokenIterator);
+- (void)setTransferBehaviorUserPreference:(_Bool)arg1;
+- (_Bool)Not able to delete assets in FactorPack %@;
+- (void);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
 - (void);
 - (void);
+- (id)fetchURLForFileResult:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)ormation about continuing search in another app;
+- (_Bool);
+- (void);
+- (_Bool);
+- (void)kMDItemAuthors_TermFrequenciesWeighted_Mean_Prefix;
+- (void);
+- (void);
+- (id);
 - (void);
 - (struct _TIRevisionHistoryTokenIterator);
 - (void);
 - (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (struct _TIRevisionHistoryTokenIterator);
-- (void);
-- (_Bool);
 - (struct _TIRevisionHistoryTokenIterator);
 - (void);
 - (id);
-- (struct _TIRevisionHistoryTokenIterator);
+- (struct _TIRevisionHistoryTokenIterator)66;
 - (struct _NSRange);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (struct _TIRevisionHistoryTokenIterator);
+- (struct _TIRevisionHistoryTokenIterator)temprefs;
 - (_Bool);
+- (id)ileSpecIsValid( volumeSpec );
+- (void)Visible;
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)d since no data sources are available;
 - (struct _TIRevisionHistoryTokenIterator);
 - (struct _NSRange);
 - (void);
 - (void)0@ù
 × ;
-- (void)neticLastName;
-- (void)tSync;
+- (void)phoneticLastName;
+- (void)_wasDeviceLockedLastSync;
 - (void *)Ú;
 - (id)proactiveCategoryContactAnyPhone;
 
 // Remaining properties
-@property(retain, nonatomic) TILRUDictionary *autocorrectionHistory; // @synthesize autocorrectionHistory=_autocorrectionHistory;
-@property(nonatomic) struct _TIRevisionHistoryTokenIterator currentTokenIterator; // @synthesize currentTokenIterator=_currentTokenIterator;
-@property(nonatomic) id <TIRevisionHistoryDelegate> delegate; // @synthesize delegate=_delegate;
 @property(copy, nonatomic) NSString *documentText; // @synthesize documentText=_documentText;
-@property(nonatomic) _Bool isDeletingBackwards; // @synthesize isDeletingBackwards=_isDeletingBackwards;
-@property(nonatomic) _Bool isRapidDeleteActive; // @synthesize isRapidDeleteActive=_isRapidDeleteActive;
-@property(retain, nonatomic) TIRevisionHistoryToken *lastRejectedToken; // @synthesize lastRejectedToken=_lastRejectedToken;
-@property(retain, nonatomic) TILRUDictionary *recentAutocorrections; // @synthesize recentAutocorrections=_recentAutocorrections;
-@property(nonatomic) struct _NSRange selectedRange; // @synthesize selectedRange=_selectedRange;
-@property(nonatomic) _Bool shouldReportRevisionToDP; // @synthesize shouldReportRevisionToDP=_shouldReportRevisionToDP;
-@property(readonly, nonatomic) NSMutableArray *tokenization; // @synthesize tokenization=_tokenization;
-@property(readonly, nonatomic) void *tokenizer; // @synthesize tokenizer=_tokenizer;
 
 @end
 

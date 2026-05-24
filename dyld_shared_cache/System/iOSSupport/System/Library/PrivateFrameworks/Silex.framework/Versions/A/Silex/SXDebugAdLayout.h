@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol SXEdgeSpacing;
 
 @interface SXDebugAdLayout
@@ -17,14 +16,7 @@
 - (id)tring"8{_NSRange=QQ}16{_NSRange=QQ}32^B48;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <SXEdgeSpacing> margin; // @synthesize margin=_margin;
-@property(readonly) Class superclass;
 
 @end
 

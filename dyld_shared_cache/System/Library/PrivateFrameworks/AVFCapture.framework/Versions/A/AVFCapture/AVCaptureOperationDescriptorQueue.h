@@ -12,12 +12,12 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_operationDescriptorQueueItems;
 }
 
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)… | opening database [] result=%d;
+- (id)lu - streamreader will not open stream;
+- (void)ent_context>"16B24@"NSObject<OS_nw_error>"28;
+- (id)resulted in error:%@ /* Error: Ran out of types for this method. */;
+- (void)dictionaryWithObjects:forKeys:count: /* Error: Ran out of types for this method. */;
+- (id)8;
 
 @end
 

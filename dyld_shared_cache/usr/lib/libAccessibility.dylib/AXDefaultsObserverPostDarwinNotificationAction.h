@@ -9,27 +9,18 @@
 @interface AXDefaultsObserverPostDarwinNotificationAction
 {
     _Bool _shouldPostGlobally;
-    NSString *_note;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)*;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *note; // @synthesize note=_note;
-@property(nonatomic) _Bool shouldPostGlobally; // @synthesize shouldPostGlobally=_shouldPostGlobally;
-@property(readonly) Class superclass;
 
 @end
 

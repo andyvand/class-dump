@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKIconDatabase, NSMutableArray, NSMutableDictionary, NSMutableIndexSet;
+@class NSMutableArray;
 
 @interface IKCacheDatabase
 {
     NSMutableArray *_indexedObjects;
-    NSMutableDictionary *_uids;
-    NSMutableIndexSet *_freeIndexes;
-    IKIconDatabase *_iconCache;
 }
 
 - (void);
 - (unsigned long long);
-- (void);
+- (void)p;
 - (void);
 - (void);
 - (void);
@@ -37,7 +34,7 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long)L;
 - (unsigned long long);
 - (void);
 - (id);

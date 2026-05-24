@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
-@protocol NSTextLocation;
+@class NSDictionary;
 
 @interface NSTextSelection
 {
     NSDictionary *_typingAttributes;
-    _Bool _transient;
-    _Bool _logical;
-    NSArray *_textRanges;
-    long long _granularity;
-    long long _affinity;
-    double _anchorPositionOffset;
-    id <NSTextLocation> _secondarySelectionLocation;
-    id <NSTextLocation> _selectionAnchorLocation;
 }
 
 + (id);
@@ -33,36 +24,28 @@
 - (void);
 - (void);
 - (id);
-- (double);
+- (double);
 - (unsigned long long);
-- (id);
+- (id)@;
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)ta;
 - (void);
-- (id);
-- (void);
-- (long long);
 - (id);
 - (void);
 - (long long);
+- (id);
+- (void);
+- (long long);
 - (_Bool);
-- (id)tributedStringForcesAttributedAgent;
+- (id)_NSAttributedStringForcesAttributedAgent;
 
 // Remaining properties
-@property(readonly) long long affinity; // @synthesize affinity=_affinity;
-@property double anchorPositionOffset; // @synthesize anchorPositionOffset=_anchorPositionOffset;
-@property(readonly) long long granularity; // @synthesize granularity=_granularity;
-@property(getter=isLogical) _Bool logical; // @synthesize logical=_logical;
-@property(retain) id <NSTextLocation> secondarySelectionLocation; // @synthesize secondarySelectionLocation=_secondarySelectionLocation;
-@property(retain) id <NSTextLocation> selectionAnchorLocation; // @synthesize selectionAnchorLocation=_selectionAnchorLocation;
-@property(readonly, copy) NSArray *textRanges; // @synthesize textRanges=_textRanges;
 @property(getter=isTransient) _Bool transient; // @synthesize transient=_transient;
-@property(copy) NSDictionary *typingAttributes; // @dynamic typingAttributes;
 
 @end
 

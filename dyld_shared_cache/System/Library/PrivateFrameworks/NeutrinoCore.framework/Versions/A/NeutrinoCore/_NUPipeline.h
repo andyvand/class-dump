@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary, NSString, NUIdentifier, NUPipelinePath;
+@class NSMutableArray, NSString;
 
 @interface _NUPipeline
 {
     NSMutableArray *_inputChannels;
-    NSMutableArray *_outputChannels;
-    NSMutableDictionary *_inputPorts;
-    NSMutableDictionary *_outputPorts;
-    NSMutableArray *_subpipelines;
-    NUIdentifier *_identifier;
-    NSString *_name;
-    _NUPipeline *_superpipeline;
 }
 
 + (id);
@@ -25,14 +18,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -63,7 +56,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)V;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -87,7 +80,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -108,7 +101,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -147,7 +140,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void)!lGùñá1Â0@ù
@@ -156,24 +149,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *alias;
-@property(readonly, nonatomic) NSString *compactDescription;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NUIdentifier *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSArray *inputChannels;
-@property(readonly, nonatomic) _Bool isInline;
-@property(readonly, nonatomic) _Bool isPrivate;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy, nonatomic) NSArray *outputChannels;
-@property(readonly, nonatomic) NUPipelinePath *path;
-@property(readonly, nonatomic) _NUPipeline *rootPipeline;
-@property(readonly, copy, nonatomic) NSArray *subpipelines;
-@property(readonly) Class superclass;
-@property(nonatomic) _NUPipeline *superpipeline; // @synthesize superpipeline=_superpipeline;
 
 @end
 

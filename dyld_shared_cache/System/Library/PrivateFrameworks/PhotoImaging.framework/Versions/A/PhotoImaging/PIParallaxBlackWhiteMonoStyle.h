@@ -13,14 +13,14 @@
 
 + (id);
 + (id);
-- (void);
+- (void);
 - (id);
 - (long long);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)c;
 
 // Remaining properties
 @property(nonatomic) long long headroomLook; // @synthesize headroomLook;

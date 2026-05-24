@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface ODDFillColorList
 {
     NSArray *mColors;
-    int mHueDirection;
-    int mMethod;
 }
 
 - (id);
@@ -19,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void)p;

@@ -7,6 +7,7 @@
 @interface NewsLiveActivitiesCore.NewsCoreLiveActivityApplicationStateMonitor
 {
     id lock;
+    id;
 }
 
 - (void);

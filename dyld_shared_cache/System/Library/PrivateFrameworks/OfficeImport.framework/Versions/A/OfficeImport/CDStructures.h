@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableArray, NSString, NSUUID, OITSUCustomFormat, WDBorder, WDShading;
+@class NSString, NSUUID, OITSUCustomFormat;
 
 #pragma mark Function Pointers and Blocks
 
@@ -298,8 +298,8 @@ struct OADCachedTextStyleData {
 };
 
 struct OADFormulaArg {
-    int type;
-    int value;
+    int _field1;
+    int _field2;
 };
 
 struct OADTMatrixPos {
@@ -346,8 +346,8 @@ struct OCCStreamer {
 };
 
 struct ODIHRange {
-    float mMid;
-    float mLength;
+    float _field1;
+    float _field2;
 };
 
 struct ODILayoutNodeState {
@@ -396,12 +396,6 @@ struct OcText {
 
 struct OcWriter {
     CDUnknownFunctionPointerType *_field1;
-};
-
-struct PATHSEGMENT {
-    unsigned int :4;
-    unsigned int :60;
-    struct CGPoint _field1;
 };
 
 struct PBReaderMasterStyleInfo {
@@ -634,11 +628,11 @@ struct TCEnumerationStruct {
 };
 
 struct TCFontStyling {
-    int fontClass;
-    unsigned int stringEncoding;
-    char weight;
-    _Bool italic;
-    int width;
+    int _field1;
+    unsigned int _field2;
+    char _field3;
+    _Bool _field4;
+    int _field5;
 };
 
 struct TCXmlEnumDescription {
@@ -655,12 +649,12 @@ struct TSUFlushableObjectInfo {
 };
 
 struct TSUOpstat_s {
-    _Bool running;
-    unsigned long long count;
-    struct timeval min_time;
-    struct timeval max_time;
-    struct timeval total_time;
-    struct timeval last_time;
+    _Bool _field1;
+    unsigned long long _field2;
+    struct timeval _field3;
+    struct timeval _field4;
+    struct timeval _field5;
+    struct timeval _field6;
 };
 
 struct UID {
@@ -1524,11 +1518,6 @@ struct XlDXfUserFmt {
     struct XlString *_field4;
 };
 
-struct XlEshObjectFactory {
-    CDUnknownFunctionPointerType *_field1;
-    _Bool _field2;
-};
-
 struct XlFont {
     CDUnknownFunctionPointerType *_field1;
     struct XlHeader _field2;
@@ -1622,11 +1611,6 @@ struct XlName {
     _Bool _field20;
     _Bool _field21;
     int _field22;
-};
-
-struct XlObjectFactory {
-    CDUnknownFunctionPointerType *_field1;
-    struct XlEshObjectFactory *_field2;
 };
 
 struct XlPane;
@@ -1729,8 +1713,8 @@ struct XlXf {
 };
 
 struct _NSRange {
-    unsigned long long location;
-    unsigned long long length;
+    unsigned long long _field1;
+    unsigned long long _field2;
 };
 
 struct _SSRW_BLOB {
@@ -1928,65 +1912,27 @@ struct gzFile_s {
 
 struct internal_state;
 
-struct map<int, unsigned long, std::less<int>, std::allocator<std::pair<const int, unsigned long>>> {
-    struct __tree<std::__value_type<int, unsigned long>, std::__map_value_compare<int, std::pair<const int, unsigned long>, std::less<int>>, std::allocator<std::pair<const int, unsigned long>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
-struct map<long, unsigned long, std::less<long>, std::allocator<std::pair<const long, unsigned long>>> {
-    struct __tree<std::__value_type<long, unsigned long>, std::__map_value_compare<long, std::pair<const long, unsigned long>, std::less<long>>, std::allocator<std::pair<const long, unsigned long>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
 struct map<unsigned long, unsigned long, std::less<unsigned long>, std::allocator<std::pair<const unsigned long, unsigned long>>> {
     struct __tree<std::__value_type<unsigned long, unsigned long>, std::__map_value_compare<unsigned long, std::pair<const unsigned long, unsigned long>, std::less<unsigned long>>, std::allocator<std::pair<const unsigned long, unsigned long>>> {
         void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
+        struct {
+            struct __tree_end_node<std::__tree_node_base<void *>*> {
+                void *__left_;
+            } __end_node_;
+        } ;
+        struct {
+            unsigned long long __size_;
+        } ;
     } __tree_;
 };
 
-struct os_unfair_lock_s {
-    unsigned int _os_unfair_lock_opaque;
-};
-
 struct timeval {
-    long long tv_sec;
-    int tv_usec;
+    long long _field1;
+    int _field2;
 };
 
 struct tsuSaPage {
     CDUnknownFunctionPointerType *_field1;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<TSU::UUIDData<TSP::UUIDData>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<TSU::UUIDData<TSP::UUIDData>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<TSU::UUIDData<TSP::UUIDData>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unordered_set<TSU::UUIDData<TSP::UUIDData>, std::hash<TSUUUID>, std::equal_to<TSU::UUIDData<TSP::UUIDData>>, std::allocator<TSU::UUIDData<TSP::UUIDData>>> {
-    struct __hash_table<TSU::UUIDData<TSP::UUIDData>, std::hash<TSUUUID>, std::equal_to<TSU::UUIDData<TSP::UUIDData>>, std::allocator<TSU::UUIDData<TSP::UUIDData>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<TSU::UUIDData<TSP::UUIDData>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<TSU::UUIDData<TSP::UUIDData>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<TSU::UUIDData<TSP::UUIDData>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        struct {
-            float __max_load_factor_;
-        } ;
-    } __table_;
 };
 
 struct vector<CGRect, std::allocator<CGRect>> {
@@ -1998,9 +1944,11 @@ struct vector<CGRect, std::allocator<CGRect>> {
 };
 
 struct vector<TSU::UUIDData<TSP::UUIDData>, std::allocator<TSU::UUIDData<TSP::UUIDData>>> {
-    void *__begin_;
-    void *__end_;
-    CDStruct_63fd5f43 ;
+    void *_field1;
+    void *_field2;
+    struct {
+        void *_field1;
+    } _field3;
 };
 
 struct vector<_NSRange, std::allocator<_NSRange>> {
@@ -2009,12 +1957,6 @@ struct vector<_NSRange, std::allocator<_NSRange>> {
     struct {
         struct _NSRange *__cap_;
     } ;
-};
-
-struct vector<std::shared_ptr<TSUStringChunk>, std::allocator<std::shared_ptr<TSUStringChunk>>> {
-    void *__begin_;
-    void *__end_;
-    CDStruct_63fd5f43 ;
 };
 
 struct z_stream_s {
@@ -2037,152 +1979,71 @@ struct z_stream_s {
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    WDShading *shading;
-    WDBorder *topBorder;
-    WDBorder *leftBorder;
-    WDBorder *bottomBorder;
-    WDBorder *rightBorder;
-    WDBorder *diagonalUpBorder;
-    WDBorder *diagonalDownBorder;
-    WDBorder *insideHorizontalBorder;
-    WDBorder *insideVerticalBorder;
-    int widthType;
-    short topMargin;
-    int topMarginType;
-    short bottomMargin;
-    int bottomMarginType;
-    short leftMargin;
-    int leftMarginType;
-    short rightMargin;
-    int rightMarginType;
-    int verticalAlignment;
-    char textDirection;
-    int deleted;
-    int edited;
-    int formattingChanged;
-    unsigned short indexToAuthorIDOfDeletion;
-    unsigned short indexToAuthorIDOfEdit;
-    unsigned short indexToAuthorIDOfFormattingChange;
-    NSDate *deletionDate;
-    NSDate *editDate;
-    NSDate *formattingChangeDate;
-    unsigned int shadingOverridden:1;
-    unsigned int topBorderOverridden:1;
-    unsigned int leftBorderOverridden:1;
-    unsigned int bottomBorderOverridden:1;
-    unsigned int rightBorderOverridden:1;
-    unsigned int diagonalUpBorderOverridden:1;
-    unsigned int diagonalDownBorderOverridden:1;
-    unsigned int insideHorizontalBorderOverridden:1;
-    unsigned int insideVerticalBorderOverridden:1;
-    unsigned int widthTypeOverridden:1;
-    unsigned int topMarginOverridden:1;
-    unsigned int topMarginTypeOverridden:1;
-    unsigned int bottomMarginOverridden:1;
-    unsigned int bottomMarginTypeOverridden:1;
-    unsigned int leftMarginOverridden:1;
-    unsigned int leftMarginTypeOverridden:1;
-    unsigned int rightMarginOverridden:1;
-    unsigned int rightMarginTypeOverridden:1;
-    unsigned int verticalAlignmentOverridden:1;
-    unsigned int textDirectionOverridden:1;
-    unsigned int verticallyMergedCell:1;
-    unsigned int verticallyMergedCellOverridden:1;
-    unsigned int firstInSetOfVerticallyMergedCells:1;
-    unsigned int firstInSetOfVerticallyMergedCellsOverridden:1;
-    unsigned int noWrap:1;
-    unsigned int noWrapOverridden:1;
-    unsigned int deletedOverridden:1;
-    unsigned int editedOverridden:1;
-    unsigned int formattingChangedOverridden:1;
-    unsigned int indexToAuthorIDOfDeletionOverridden:1;
-    unsigned int indexToAuthorIDOfEditOverridden:1;
-    unsigned int indexToAuthorIDOfFormattingChangeOverridden:1;
-    unsigned int deletionDateOverridden:1;
-    unsigned int editDateOverridden:1;
-    unsigned int formattingChangeDateOverridden:1;
-} CDStruct_dbdf0818;
-
-typedef struct {
-    WDBorder *topBorder;
-    WDBorder *leftBorder;
-    WDBorder *bottomBorder;
-    WDBorder *rightBorder;
-    int breakType;
-    long long pageWidth;
-    long long pageHeight;
-    unsigned int pageScale;
-    int pageOrientation;
-    int textDirection;
-    long long leftMargin;
-    long long rightMargin;
-    long long topMargin;
-    long long bottomMargin;
-    long long headerMargin;
-    long long footerMargin;
-    long long gutterMargin;
-    _Bool rtlGutter;
-    int borderDepth;
-    int borderDisplay;
-    int borderOffset;
-    short lineNumberStart;
-    unsigned short lineNumberIncrement;
-    short lineNumberDistance;
-    int lineNumberRestart;
-    int pageNumberFormat;
-    unsigned short pageNumberStart;
-    int chapterNumberSeparator;
-    NSMutableArray *columnWidths;
-    NSMutableArray *columnSpaces;
-    unsigned short columnCount;
-    long long columnSpace;
-    int verticalJustification;
-    unsigned short indexToAuthorIDOfFormattingChange;
-    NSDate *formattingChangeDate;
-    unsigned int bidi:1;
-    unsigned int topBorderOverridden:1;
-    unsigned int leftBorderOverridden:1;
-    unsigned int bottomBorderOverridden:1;
-    unsigned int rightBorderOverridden:1;
-    unsigned int breakTypeOverridden:1;
-    unsigned int pageWidthOverridden:1;
-    unsigned int pageHeightOverridden:1;
-    unsigned int pageScaleOverridden:1;
-    unsigned int pageOrientationOverridden:1;
-    unsigned int textDirectionOverridden:1;
-    unsigned int leftMarginOverridden:1;
-    unsigned int rightMarginOverridden:1;
-    unsigned int topMarginOverridden:1;
-    unsigned int bottomMarginOverridden:1;
-    unsigned int headerMarginOverridden:1;
-    unsigned int footerMarginOverridden:1;
-    unsigned int gutterMarginOverridden:1;
-    unsigned int rtlGutterOverridden:1;
-    unsigned int borderDepthOverridden:1;
-    unsigned int borderDisplayOverridden:1;
-    unsigned int borderOffsetOverridden:1;
-    unsigned int lineNumberStartOverridden:1;
-    unsigned int lineNumberIncrementOverridden:1;
-    unsigned int lineNumberDistanceOverridden:1;
-    unsigned int lineNumberRestartOverridden:1;
-    unsigned int pageNumberFormatOverridden:1;
-    unsigned int pageNumberStartOverridden:1;
-    unsigned int pageNumberRestart:1;
-    unsigned int pageNumberRestartOverridden:1;
-    unsigned int chapterNumberSeparatorOverridden:1;
-    unsigned int columnCountOverridden:1;
-    unsigned int columnsEqualWidth:1;
-    unsigned int columnsEqualWidthOverridden:1;
-    unsigned int columnSpaceOverridden:1;
-    unsigned int verticalJustificationOverridden:1;
-    unsigned int titlePage:1;
-    unsigned int titlePageOverridden:1;
-    unsigned int formattingChanged:1;
-    unsigned int formattingChangedOverridden:1;
-    unsigned int indexToAuthorIDOfFormattingChangeOverridden:1;
-    unsigned int formattingChangeDateOverridden:1;
-    unsigned int bidiOverridden:1;
-} CDStruct_a57204a6;
+    id _field1;
+    id _field2;
+    id _field3;
+    id _field4;
+    id _field5;
+    id _field6;
+    id _field7;
+    id _field8;
+    id _field9;
+    int _field10;
+    short _field11;
+    int _field12;
+    short _field13;
+    int _field14;
+    short _field15;
+    int _field16;
+    short _field17;
+    int _field18;
+    int _field19;
+    char _field20;
+    int _field21;
+    int _field22;
+    int _field23;
+    unsigned short _field24;
+    unsigned short _field25;
+    unsigned short _field26;
+    id _field27;
+    id _field28;
+    id _field29;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+} CDStruct_ab8bb37c;
 
 typedef struct {
     unsigned char _field1;
@@ -2192,16 +2053,16 @@ typedef struct {
 } CDStruct_a06f635e;
 
 typedef struct {
-    unsigned char style;
-    unsigned char lines;
-} CDStruct_8835774c;
+    unsigned char _field1;
+    unsigned char _field2;
+} CDStruct_5c52f79b;
 
 typedef struct {
-    unsigned int m_data1;
-    unsigned short m_data2;
-    unsigned short m_data3;
-    unsigned char m_data4[8];
-} CDStruct_214f2dba;
+    unsigned int _field1;
+    unsigned short _field2;
+    unsigned short _field3;
+    unsigned char _field4[8];
+} CDStruct_d05f240b;
 
 typedef struct {
     unsigned long long _field1;
@@ -2209,10 +2070,6 @@ typedef struct {
     unsigned long long *_field3;
     unsigned long long _field4[5];
 } CDStruct_70511ce9;
-
-typedef struct {
-    unsigned long long __size_;
-} CDStruct_a7186859;
 
 typedef struct {
     unsigned short _field1;
@@ -2225,10 +2082,6 @@ typedef struct {
     CDUnknownFunctionPointerType _field3;
     CDUnknownFunctionPointerType _field4;
 } CDStruct_4e53fc95;
-
-typedef struct {
-    void *__cap_;
-} CDStruct_63fd5f43;
 
 typedef struct {
     unsigned int :1;
@@ -2273,27 +2126,21 @@ typedef struct {
 } CDStruct_bd9d81e1;
 
 typedef struct {
-    short widthBefore;
-    int widthBeforeType;
-    short widthAfter;
-    int widthAfterType;
-    long long height;
-    int heightType;
-    unsigned int widthBeforeOverridden:1;
-    unsigned int widthBeforeTypeOverridden:1;
-    unsigned int widthAfterOverridden:1;
-    unsigned int widthAfterTypeOverridden:1;
-    unsigned int heightOverridden:1;
-    unsigned int heightTypeOverridden:1;
-    unsigned int header:1;
-    unsigned int headerOverridden:1;
-} CDStruct_43955328;
-
-typedef struct {
-    struct __tree_end_node<std::__tree_node_base<void *>*> {
-        void *__left_;
-    } __end_node_;
-} CDStruct_09bd28e6;
+    short _field1;
+    int _field2;
+    short _field3;
+    int _field4;
+    long long _field5;
+    int _field6;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+} CDStruct_c52e8610;
 
 typedef struct {
     int mFormatType;
@@ -2384,10 +2231,12 @@ typedef struct UUIDData<TSP::UUIDData> {
 } UUIDData_60906e89;
 
 typedef struct vector<TSU::UUIDData<TSP::UUIDData>, std::allocator<TSU::UUIDData<TSP::UUIDData>>> {
-    void *__begin_;
-    void *__end_;
-    CDStruct_63fd5f43 ;
-} vector_f7949aeb;
+    void *_field1;
+    void *_field2;
+    struct {
+        void *_field1;
+    } _field3;
+} vector_8603c535;
 
 #pragma mark Named Unions
 

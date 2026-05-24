@@ -9,10 +9,9 @@
 @interface FCTopicalLeafNode
 {
     FCTopicalNode *_node;
-    double _score;
 }
 
-- (void)BaselineClickValue;
+- (void)appInstallBaselineClickValue;
 
 @end
 

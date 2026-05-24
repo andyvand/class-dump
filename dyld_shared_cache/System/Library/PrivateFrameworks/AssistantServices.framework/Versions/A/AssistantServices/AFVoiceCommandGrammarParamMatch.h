@@ -18,8 +18,8 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (void)eThreshold;
+- (id);
+- (void)_deviceVTEndtimeDistanceThreshold;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *text; // @synthesize text=_text;

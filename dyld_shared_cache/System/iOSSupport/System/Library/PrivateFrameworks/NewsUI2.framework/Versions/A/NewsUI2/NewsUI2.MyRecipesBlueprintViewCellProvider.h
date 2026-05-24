@@ -7,7 +7,6 @@
 @interface NewsUI2.MyRecipesBlueprintViewCellProvider
 {
     id delegate;
-    id feedItemRenderer;
 }
 
 @end

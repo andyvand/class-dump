@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
 - (_Bool)1Â0@ù
 × ;
 - (_Bool)40@0:(id)arg1 8{CGSize=dd}16@"UIWindow"32;
-- (void)Right:(id)arg1 keyplane:(id)arg2;
-- (_Bool)egueTemplate;
+- (void)setImage:(id)arg1 splitLeft:(id)arg2 splitRight:keyplane: /* Error: Ran out of types for this method. */;
+- (_Bool)_accessoryActionSegueTemplate;
 - (_Bool)TextBehaviorSettings",&,N,V_textSettings;
 - (_Bool);
 

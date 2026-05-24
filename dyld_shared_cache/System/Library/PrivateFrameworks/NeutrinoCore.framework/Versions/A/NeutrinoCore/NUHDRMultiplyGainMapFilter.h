@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface NUHDRMultiplyGainMapFilter
 {
     CIImage *_inputImage;
-    CIImage *_inputGainMap;
-    NSNumber *_inputPreserveColor;
-    NSNumber *_inputMixFactor;
 }
 
 + (id);
@@ -20,20 +17,17 @@
 + (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id);
+- (id)I;
+- (void);
+- (id)G;
 - (id);
 - (void);
 - (id);
 - (void)rties>";
 
 // Remaining properties
-@property(retain, nonatomic) CIImage *inputGainMap; // @synthesize inputGainMap=_inputGainMap;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage=_inputImage;
-@property(retain, nonatomic) NSNumber *inputMixFactor; // @synthesize inputMixFactor=_inputMixFactor;
-@property(retain, nonatomic) NSNumber *inputPreserveColor; // @synthesize inputPreserveColor=_inputPreserveColor;
 
 @end
 

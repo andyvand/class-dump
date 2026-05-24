@@ -6,7 +6,7 @@
 
 #import <ConfigurationEngineModel/CEMCommandBase.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface CEMManagementRefreshStatusCommand : CEMCommandBase
 {
@@ -21,21 +21,14 @@
 - (id);
 - (_Bool);
 - (int);
-- (_Bool);
+- (_Bool)8;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)leInternal/Library/BuildRoots/4~CNqEugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/ssl/bio_ssl.c;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSArray *payloadIdentifiers; // @synthesize payloadIdentifiers=_payloadIdentifiers;
-@property(readonly) Class superclass;
 
 @end
 

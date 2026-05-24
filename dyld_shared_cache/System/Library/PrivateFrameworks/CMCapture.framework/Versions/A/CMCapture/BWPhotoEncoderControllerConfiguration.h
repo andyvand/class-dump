@@ -6,26 +6,10 @@
 
 #import <CMCapture/BWStillImageProcessorControllerConfiguration.h>
 
-@class NSDictionary;
-
 __attribute__((visibility("hidden")))
 @interface BWPhotoEncoderControllerConfiguration : BWStillImageProcessorControllerConfiguration
 {
     _Bool _alwaysAwaitInference;
-    _Bool _usesHighEncodingPriority;
-    _Bool _zeroShutterLagEnabled;
-    NSDictionary *_attachedMediaConfigurationByAttachedMediaKey;
-    _Bool _deferredPhotoProcessorEnabled;
-    int _portraitRenderQuality;
-    int _semanticDevelopmentVersion;
-    NSDictionary *_inputColorInfo;
-    _Bool _cameraSupportsFlash;
-    CDStruct_79c71658 _constantColorConfidenceMapDimensions;
-    int _smartStyleRenderingVersion;
-    _Bool _smartStyleReversibilityEnabled;
-    CDStruct_79c71658 _stereoPhotoOutputDimensions;
-    int _legacySensorOrientationRotationDegrees;
-    _Bool _clientIsCameraOrDerivative;
 }
 
 - (CDStruct_1ef3fb1f);
@@ -57,25 +41,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool)HÿA;
 - (_Bool)ùs}ÿþs}ÿþs}ÿþs}ÿ;
-- (int);
+- (int)metalPreviewSubmissionDispatchQueue;
 - (void)eltaMapForSampleBufferIfNeeded:(_Bool)arg1 decompressedStyledPixelBuffer:stillImageSettings:encodingScheme:processingFlags:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool alwaysAwaitInference; // @synthesize alwaysAwaitInference=_alwaysAwaitInference;
-@property(retain, nonatomic) NSDictionary *attachedMediaConfigurationByAttachedMediaKey; // @synthesize attachedMediaConfigurationByAttachedMediaKey=_attachedMediaConfigurationByAttachedMediaKey;
-@property(nonatomic) _Bool cameraSupportsFlash; // @synthesize cameraSupportsFlash=_cameraSupportsFlash;
-@property(nonatomic) _Bool clientIsCameraOrDerivative; // @synthesize clientIsCameraOrDerivative=_clientIsCameraOrDerivative;
-@property(nonatomic) CDStruct_1ef3fb1f constantColorConfidenceMapDimensions; // @synthesize constantColorConfidenceMapDimensions=_constantColorConfidenceMapDimensions;
-@property(nonatomic) _Bool deferredPhotoProcessorEnabled; // @synthesize deferredPhotoProcessorEnabled=_deferredPhotoProcessorEnabled;
-@property(copy, nonatomic) NSDictionary *inputColorInfo; // @synthesize inputColorInfo=_inputColorInfo;
-@property(nonatomic) int legacySensorOrientationRotationDegrees; // @synthesize legacySensorOrientationRotationDegrees=_legacySensorOrientationRotationDegrees;
-@property(nonatomic) int portraitRenderQuality; // @synthesize portraitRenderQuality=_portraitRenderQuality;
-@property(nonatomic) int semanticDevelopmentVersion; // @synthesize semanticDevelopmentVersion=_semanticDevelopmentVersion;
-@property(nonatomic) int smartStyleRenderingVersion; // @synthesize smartStyleRenderingVersion=_smartStyleRenderingVersion;
-@property(nonatomic) _Bool smartStyleReversibilityEnabled; // @synthesize smartStyleReversibilityEnabled=_smartStyleReversibilityEnabled;
-@property(nonatomic) CDStruct_1ef3fb1f stereoPhotoOutputDimensions; // @synthesize stereoPhotoOutputDimensions=_stereoPhotoOutputDimensions;
-@property(nonatomic) _Bool usesHighEncodingPriority; // @synthesize usesHighEncodingPriority=_usesHighEncodingPriority;
-@property(nonatomic) _Bool zeroShutterLagEnabled; // @synthesize zeroShutterLagEnabled=_zeroShutterLagEnabled;
 
 @end
 

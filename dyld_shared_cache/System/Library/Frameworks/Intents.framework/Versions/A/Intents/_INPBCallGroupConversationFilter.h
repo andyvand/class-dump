@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBCallGroup, _INPBContact;
+@class _INPBCallGroup;
 
 @interface _INPBCallGroupConversationFilter
 {
     struct {
         unsigned int matchCallerAndParticipantsExactly:1;
     } _has;
-    _Bool _matchCallerAndParticipantsExactly;
-    _INPBCallGroup *_callGroup;
-    _INPBContact *_caller;
-    NSArray *_participants;
 }
 
 + (Class);
@@ -25,20 +21,20 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)!l;
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)erverInterface>";
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)CWFAutoJoinStatus">24;
+- (void)Query Results:(id)arg1 %@, with error:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -47,20 +43,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) _INPBCallGroup *callGroup; // @synthesize callGroup=_callGroup;
-@property(retain, nonatomic) _INPBContact *caller; // @synthesize caller=_caller;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasCallGroup;
-@property(readonly, nonatomic) _Bool hasCaller;
-@property(nonatomic) _Bool hasMatchCallerAndParticipantsExactly;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool matchCallerAndParticipantsExactly; // @synthesize matchCallerAndParticipantsExactly=_matchCallerAndParticipantsExactly;
-@property(copy, nonatomic) NSArray *participants; // @synthesize participants=_participants;
-@property(readonly, nonatomic) unsigned long long participantsCount;
-@property(readonly) Class superclass;
 
 @end
 

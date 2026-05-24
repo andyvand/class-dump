@@ -14,10 +14,10 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)ArchivingOptions;
 - (id);
 - (void);
-- (void)MapItem:mode:options: /* Error: Ran out of types for this method. */;
+- (void)initWithMapItem:mode:options: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak UIViewController *viewController; // @synthesize viewController=_viewController;

@@ -9,24 +9,9 @@
 @interface _NSIntelligenceUIPlatterView : NSView
 {
     _Bool hasInteriorLight;
-    _Bool hasExteriorLight;
-    id _isBordered;
-    _Bool indicatesIndeterminateProgress;
-    _Bool usesAudioLevels;
-    double audioLevel;
-    double _interiorLightFraction;
-    double _exteriorLightFraction;
-    double _borderFraction;
-    double _indeterminateIndicatorFraction;
-    id interiorLightView;
-    id exteriorLightView;
-    id latencyLightView;
-    id fresnelView;
-    id _contentView;
-    id shimmerViews;
 }
 
-+ (id);
++ (id)_onqueue_beginTrailers;
 
 @end
 

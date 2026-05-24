@@ -5,5 +5,7 @@
 //
 
 @protocol AKInAssistantNavigationHandler
+- (void)I;
+- (void);
 @end
 

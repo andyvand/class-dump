@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, geo_isolater;
+@class NSMutableSet;
 
 @interface GEOMapRequestManager
 {
     NSMutableSet *_requests;
-    geo_isolater *_isolater;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)ndow;
 - (void)Øÿ;
 
 @end

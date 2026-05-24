@@ -11,7 +11,7 @@
     NWEndpoint *_localEndpoint;
 }
 
-- (id);
+- (id)~h;
 - (void);
 - (void)?<v@?@"NSXPCListenerEndpoint">16;
 

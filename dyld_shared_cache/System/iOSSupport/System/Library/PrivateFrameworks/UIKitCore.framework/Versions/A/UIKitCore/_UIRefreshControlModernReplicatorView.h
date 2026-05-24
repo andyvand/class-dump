@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (Class);
++ (Class)_subscriptionStatus;
 - (_Bool)±\ð1Â0@ù
 × ;
 

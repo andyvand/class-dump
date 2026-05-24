@@ -4,28 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BWFigCaptureDeviceClient
 {
     int _clientID;
-    int _pid;
-    NSString *_applicationID;
-    NSString *_clientDescription;
-    int _clientPriority;
-    _Bool _canStealFromClientsWithSamePriority;
-    _Bool _deviceSharingWithOtherClientsAllowed;
-    int _clientType;
-    CDUnknownBlockType _deviceAvailabilityChangedHandler;
 }
 
 - (void);
 - (int);
-- (_Bool);
+- (_Bool)p;
 - (id);
 - (_Bool);
-- (void);
-- (CDUnknownBlockType);
+- (void);
+- (CDUnknownBlockType)ySSG;
 - (id);
 - (_Bool);
 - (void);
@@ -40,16 +30,7 @@
 - (int)tr=&;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *applicationID; // @synthesize applicationID=_applicationID;
-@property(readonly, nonatomic) _Bool canShareWithFlashlightAndVibeMitigation;
-@property(readonly, nonatomic) _Bool canStealFromClientsWithSamePriority; // @synthesize canStealFromClientsWithSamePriority=_canStealFromClientsWithSamePriority;
-@property(readonly, nonatomic) NSString *clientDescription; // @synthesize clientDescription=_clientDescription;
 @property(readonly, nonatomic) int clientID; // @synthesize clientID=_clientID;
-@property(nonatomic) int clientPriority; // @synthesize clientPriority=_clientPriority;
-@property(readonly, nonatomic) int clientType; // @synthesize clientType=_clientType;
-@property(copy, nonatomic) CDUnknownBlockType deviceAvailabilityChangedHandler; // @synthesize deviceAvailabilityChangedHandler=_deviceAvailabilityChangedHandler;
-@property(readonly, nonatomic) _Bool deviceSharingWithOtherClientsAllowed; // @synthesize deviceSharingWithOtherClientsAllowed=_deviceSharingWithOtherClientsAllowed;
-@property(readonly, nonatomic) int pid; // @synthesize pid=_pid;
 
 @end
 

@@ -12,11 +12,12 @@
 }
 
 - (id);
+- (void)alypsoReaderContext"16^@24;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)Notified hose [%{ptr}] (%s) that empty data packet is available
+;
 - (_Bool);
-- (void);
+- (void)setInMotionStartedTime:(id)arg1;
 - (_Bool);
 - (void);
 - (id);
@@ -27,7 +28,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasRecordIdentifier;
-@property(retain, nonatomic) CKDPRecordIdentifier *recordIdentifier; // @synthesize recordIdentifier=_recordIdentifier;
 
 @end
 

@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOFormattedString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEORoadDescription
 {
     PBUnknownFields *_unknownFields;
-    GEOFormattedString *_formattedDescription;
-    int _navigationFriendliness;
-    struct {
-        unsigned int has_navigationFriendliness:1;
-    } _flags;
 }
 
-+ (_Bool)tMapFeatureFavoritesCount:(id)arg1;
++ (_Bool)setMapFeatureFavoritesCount:(id)arg1;
 - (void);
 - (void);
 - (void);
-- (int);
+- (int)v56@0:8@16@24@32@40@48 /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)_$!<EX-Anniversary>!$_;
 - (id);
 - (id);
 - (int);
@@ -30,25 +25,21 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)%08x %s(options=%@, callbackQueue=%p, callback=%p);
+- (void)_didNotStartWithError:(id)arg1;
+- (id)D;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)1"has_brightness"b1"has_colorRange"b1"has_deviceConnection"b1"has_navAidedDrivingStatus"b1"has_destinationSharingEnabled"b1"has_isInstructionCardEnabled"b1"has_isInstrumentClusterEnabled"b1"has_isMapviewEnabled"b1"read_unknownFields"b1"read_engineTypes"b1"read_inputMethods"b1"read_carName"b1"read_manufacturer"b1"read_model"b1"read_screenDimension"b1"wrote_anyField"b1};
 - (id)findRoadsNear:radius:handler:completionHandler: /* Error: Ran out of types for this method. */;
-- (id)OSearchSectionPlace;
-- (id)sit_market_id;
+- (id)GEOSearchSectionPlace;
+- (id)transit_market_id;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) GEOFormattedString *formattedDescription;
 @property(readonly, nonatomic) _Bool hasFormattedDescription;
-@property(nonatomic) _Bool hasNavigationFriendliness;
-@property(nonatomic) int navigationFriendliness;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol LFSessionAgentConnectionInterface
+- (void);
 @end
 

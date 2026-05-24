@@ -7,7 +7,6 @@
 @interface PencilKit.TiledViewRenderer
 {
     id startTime;
-    id duration;
 }
 
 - (void);

@@ -9,7 +9,6 @@
 @interface Foundation.__PlistReferencingEncoderXML__priv_9C63FCD83980F3EB054FB42D4F47924E : Foundation.__PlistEncoderXML
 {
     id encoder;
-    id reference;
 }
 
 @end

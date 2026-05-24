@@ -6,13 +6,12 @@
 
 #import <ChatKit/CKConversationListStandardCell.h>
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol CKConversationListCellDelegate;
 
 @interface CKConversationListEmbeddedStandardTableViewCell : CKConversationListStandardCell
 {
     struct UIEdgeInsets _marginInsets;
-    struct CGRect _containerBounds;
 }
 
 + (id);
@@ -25,17 +24,7 @@
 - (id)tionHandler:(long long)arg1;
 
 // Remaining properties
-@property(nonatomic) struct CGRect containerBounds; // @synthesize containerBounds=_containerBounds;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak NSObject<CKConversationListCellDelegate> *delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct UIEdgeInsets marginInsets; // @synthesize marginInsets=_marginInsets;
-@property(nonatomic) _Bool shouldHidePreviewSummary;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface GEORequestCounterProactiveTileDownloadInfo
 {
     NSString *_identifier;
-    NSArray *_policies;
 }
 
 + (_Bool)osVersion != ((void*)0);
-- (id);
-- (id);
+- (id)CNCDOrphanPropertyMigrator;
+- (id)p;
 - (void);
 - (id);
-- (id)s;
+- (id)hadShareActions;
 - (void)øI$P@;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSArray *policies; // @synthesize policies=_policies;
 
 @end
 

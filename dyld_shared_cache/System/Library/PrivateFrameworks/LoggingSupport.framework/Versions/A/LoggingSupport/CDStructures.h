@@ -11,8 +11,8 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct _NSRange {
-    unsigned long long location;
-    unsigned long long length;
+    unsigned long long _field1;
+    unsigned long long _field2;
 };
 
 struct _OSLogEventChunkContext {
@@ -23,8 +23,8 @@ struct _OSLogEventChunkContext {
 };
 
 struct _os_log_index_timeref {
-    unsigned char uuid[16];
-    unsigned long long continuous;
+    unsigned char _field1[16];
+    unsigned long long _field2;
 };
 
 struct catalog_hdr_s {
@@ -277,11 +277,7 @@ struct os_log_fmt_cspec_s {
     unsigned long long _field13;
 };
 
-struct os_log_fmt_hdr_s {
-    unsigned char _field1;
-    unsigned char _field2;
-    unsigned char _field3[0];
-};
+struct os_log_fmt_hdr_s;
 
 struct os_log_fmt_raw_placeholder {
     void *_field1;
@@ -622,18 +618,18 @@ typedef struct {
 } CDStruct_62436a75;
 
 typedef struct {
-    struct _os_log_index_timeref olim_oldestpersist;
-    struct _os_log_index_timeref olim_oldestspecial;
-    struct _os_log_index_timeref olim_oldestsignpost;
-    struct _os_log_index_timeref olim_oldesthighvol;
-    struct _os_log_index_timeref olim_oldestlive;
-    struct _os_log_index_timeref olim_end;
-    struct _os_log_index_timeref *olim_oldest;
+    struct _os_log_index_timeref _field1;
+    struct _os_log_index_timeref _field2;
+    struct _os_log_index_timeref _field3;
+    struct _os_log_index_timeref _field4;
+    struct _os_log_index_timeref _field5;
+    struct _os_log_index_timeref _field6;
+    struct _os_log_index_timeref *_field7;
     struct {
-        struct _os_log_index_timeref timeref;
-        unsigned char ttl;
-    } olim_ttl[5];
-} CDStruct_42ec109f;
+        struct _os_log_index_timeref _field1;
+        unsigned char _field2;
+    } _field8[5];
+} CDStruct_048e483c;
 
 typedef struct {
     unsigned int _field1;

@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (WidgetKit)
-+ (id);
-+ (id);
++ (id)er);
++ (id)_blob, @is_der);
 @end
 

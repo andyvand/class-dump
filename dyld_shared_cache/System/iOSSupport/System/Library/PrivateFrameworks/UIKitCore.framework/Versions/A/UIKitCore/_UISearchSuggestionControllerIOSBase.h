@@ -6,21 +6,17 @@
 
 #import <UIKitCore/_UISearchSuggestionController.h>
 
-@class UISearchBar, UISearchTextField;
-
 @interface _UISearchSuggestionControllerIOSBase : _UISearchSuggestionController
 {
     _Bool _hasSetUpGeometryChangeResponse;
-    UISearchTextField *_searchTextField;
-    UISearchBar *_searchBar;
 }
 
+- (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)#;
+- (_Bool)x;
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -28,19 +24,15 @@
 - (void)!DùÑ[ð1Â0@ù
 × ;
 - (id);
-- (id);
-- (id)eat;
+- (id)setContentsCenter: /* Error: Ran out of types for this method. */;
+- (id)_disableRepeat;
 - (void)N,G_focusSystemSceneComponent;
-- (id)ollection;
+- (id)UIApplicationSupportsTabbedSceneCollection;
 - (void)¤ô;
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool hasSetUpGeometryChangeResponse; // @synthesize hasSetUpGeometryChangeResponse=_hasSetUpGeometryChangeResponse;
-@property(readonly, nonatomic) _Bool hasVisibleMenu;
-@property(readonly, nonatomic) __weak UISearchBar *searchBar; // @synthesize searchBar=_searchBar;
-@property(readonly, nonatomic) __weak UISearchTextField *searchTextField; // @synthesize searchTextField=_searchTextField;
-@property(readonly, nonatomic) _Bool shouldUseMenuIOS;
 
 @end
 

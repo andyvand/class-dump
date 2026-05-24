@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOABAssignmentResponse, GEOObserverHashTable, NSString;
+@class GEOABAssignmentResponse;
 @protocol GEOExperimentServerProxy;
 
 @interface GEOExperimentConfiguration
 {
     id <GEOExperimentServerProxy> _serverProxy;
-    GEOABAssignmentResponse *_experimentsInfo;
-    struct os_unfair_lock_s _experimentsInfoLock;
-    GEOObserverHashTable *_experimentObservers;
 }
 
 + (void);
@@ -22,29 +19,29 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id))鍹;
+- (void)`";
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void)#;
+- (id)essionActivateDelay;
+- (id)etion:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void);
+- (void)*	;
 - (id);
 - (void);
 - (id);
+- (void)ributions;
+- (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (void)meWindowDuration;
+- (id);
+- (void)debugTimeWindowDuration;
 - (id)because argument of type %{public}@ has no token.;
 - (id).insert_timestamp < @tiles_insert_timestamp;;
 - (id);
@@ -54,14 +51,7 @@
 - (id)9;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) GEOABAssignmentResponse *experimentsInfo;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

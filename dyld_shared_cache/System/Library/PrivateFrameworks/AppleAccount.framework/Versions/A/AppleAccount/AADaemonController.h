@@ -4,34 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AAFXPCSession, NSString;
+@class AAFXPCSession;
 
 @interface AADaemonController
 {
     AAFXPCSession *_remoteService;
 }
 
+- (void)er solution; using cur value;
+- (void)ngPayload found agent port %d;
+- (void)kUserAccount must be called from root;
+- (void)rror synchronizing _mcxlpadmin group (%ld:(id)arg1 %s);
+- (void)CopyBuffer;
+- (id)GetTensorDescriptor;
 - (void);
+- (void)P;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void)fo: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)initWithBenefactorInfo: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) AAFXPCSession *remoteService; // @synthesize remoteService=_remoteService;
-@property(readonly) Class superclass;
 
 @end
 

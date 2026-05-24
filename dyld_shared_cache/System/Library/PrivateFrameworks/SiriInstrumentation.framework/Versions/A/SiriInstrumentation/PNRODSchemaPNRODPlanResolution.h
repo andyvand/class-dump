@@ -6,24 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PNRODSchemaPNRODFailureInfo, PNRODSchemaPNRODMetricDuration, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PNRODSchemaPNRODPlanResolution : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_planCycleId;
-    SISchemaUUID *_prId;
-    unsigned int _actionStatementId;
-    unsigned int _statementId;
-    PNRODSchemaPNRODMetricDuration *_prTotalHandleTime;
-    PNRODSchemaPNRODFailureInfo *_failureInfo;
-    struct {
-        unsigned int actionStatementId:1;
-        unsigned int statementId:1;
-    } _has;
-    _Bool _hasPlanCycleId;
-    _Bool _hasPrId;
-    _Bool _hasPrTotalHandleTime;
-    _Bool _hasFailureInfo;
 }
 
 - (unsigned int);
@@ -35,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -46,11 +33,11 @@
 - (_Bool);
 - (id);
 - (void);
+- (void)j;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (unsigned int);
 - (void);
 - (void);
@@ -61,27 +48,15 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)Indexing NOT removing %@ from scrutiny, exception was thrown;
 - (id);
 - (id);
-- (id)tionFeedback;
+- (id)_mediaSuggestionFeedback;
 - (id)tterances;
-- (void)NG;
+- (void)PEGASUSDOMAIN_MISSING;
 
 // Remaining properties
-@property(nonatomic) unsigned int actionStatementId; // @synthesize actionStatementId=_actionStatementId;
-@property(retain, nonatomic) PNRODSchemaPNRODFailureInfo *failureInfo; // @synthesize failureInfo=_failureInfo;
-@property(nonatomic) _Bool hasActionStatementId;
-@property(nonatomic) _Bool hasFailureInfo; // @synthesize hasFailureInfo=_hasFailureInfo;
-@property(nonatomic) _Bool hasPlanCycleId; // @synthesize hasPlanCycleId=_hasPlanCycleId;
-@property(nonatomic) _Bool hasPrId; // @synthesize hasPrId=_hasPrId;
-@property(nonatomic) _Bool hasPrTotalHandleTime; // @synthesize hasPrTotalHandleTime=_hasPrTotalHandleTime;
-@property(nonatomic) _Bool hasStatementId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *planCycleId; // @synthesize planCycleId=_planCycleId;
-@property(retain, nonatomic) SISchemaUUID *prId; // @synthesize prId=_prId;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *prTotalHandleTime; // @synthesize prTotalHandleTime=_prTotalHandleTime;
-@property(nonatomic) unsigned int statementId; // @synthesize statementId=_statementId;
 
 @end
 

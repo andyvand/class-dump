@@ -4,51 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue, WBSBackgroundImageAssetControllerDelegate, WBSMobileAssetControllerProtocol;
+@class NSArray, NSObject;
+@protocol OS_dispatch_queue;
 
 @interface WBSBackgroundImageAssetController
 {
     NSObject<OS_dispatch_queue> *_queue;
-    id <WBSMobileAssetControllerProtocol> _assetController;
-    id <WBSBackgroundImageAssetControllerDelegate> _delegate;
-    NSMutableDictionary *_assetURLToAttributes;
-    NSMutableArray *_fileNames;
-    NSMutableDictionary *_imageNamesToDownloadStates;
 }
 
 + (id);
 + (id);
 - (void);
 - (void);
-- (void);
+- (void)d;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)B;
 - (void);
 - (long long);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)`;
 - (void);
-- (void)nManagerStorage;
+- (void)WBSStartPageSectionManagerStorage;
 - (id)hemaType:function(t){return SchemaDataExtractor.validParentSchemaTypes[t]},isValidBaseSchemaType:function(t){return SchemaDataExtractor.validBaseSchemaTypes[t]},extractFilteredSchemaValuesFromMicroData:function(){const t=document.querySelectorAll("[itemscope]");let e=[],r=[],a=!1;for(let o of t){let t=o.getAttribute("itemType");t&&(this.isValidParentSchemaType(t)&&e.push(o),this.isValidBaseSchemaType(t)&&r.push(o),!a&&t.includes(SchemaDataExtractor.schemaOrgTypeDomain)&&(a=!0))}let o={};if(!a)return o;if(o[SchemaDataExtractor.containsSchemaOrgKey]=!0,1!==r.length)return o;const s=r[0],c=s.getAttribute("itemtype");if(!c||-1===c.indexOf("PostalAddress"))return o;const n=s.querySelectorAll("[itemprop]");for(let t of n){let e=t.getAttribute("itemprop");e&&SchemaDataExtractor.validAddressProperties[e]&&(o[e]=t.textContent?t.textContent:t.getAttribute("content"))}let h=s.parentNode;for(;null!==h&&-1===e.indexOf(h);)h=h.parentNode;const i=s.querySelectorAll("[itemprop='telephone']");if(null!==h){let t=h.querySelectorAll("[itemprop='name']");t.length&&(o.name=t[0].textContent),0===i.length&&(i=h.querySelectorAll("[itemprop='telephone']"))}return i.length&&(o.telephone=i[0].textContent),o},extractAllSchemaValuesFromMicroData:function(){const t=document.querySelectorAll("[itemscope]");let e=[],r=!1;for(let a of t){const t=a.getAttribute("itemType");t&&(e.push(a),!r&&t.includes(SchemaDataExtractor.schemaOrgTypeDomain)&&(r=!0))}let a={};if(!r)return a;if(a[SchemaDataExtractor.containsSchemaOrgKey]=!0,1!==e.length)return a;const o=e[0],s=(o.getAttribute("itemtype"),o.querySelectorAll("[itemprop]"));for(let t of s){let e=t.getAttribute("itemprop");e&&(a[e]=t.textContent?t.textContent:t.getAttribute("content"))}return a},extractFilteredSchemaValuesFromJSONLD:function(){let t={};const e=document.querySelector('script[type="application/ld+json"]');if(!e)return t;let r;try{r=JSON.parse(e.text)}catch(e){return t}let a=r["@context"];if("http://schema.org"!==a&&"https://schema.org"!==a)return t;t[SchemaDataExtractor.containsSchemaOrgKey]=!0;let o=[];for(o.unshift(r);o.length;){let e=o.shift();if(null!=e){if(Object.prototype.hasOwnProperty.call(e,"telephone")&&(t.telephone=e.telephone),"PostalAddress"===e["@type"]){for(let r in e)SchemaDataExtractor.validAddressProperties[r]&&(t[r]=e[r]);break}for(let t in e){let r=e[t];"object"==typeof r&&o.push(r)}}}return t},extractAllSchemaValuesFromJSONLD:function(){let t={};const e=document.querySelector('script[type="application/ld+json"]');if(!e)return t;let r,a;try{r=JSON.parse(e.text)}catch(e){return t}if(a=Array.isArray(r)?r[0]["@context"]:r["@context"],"http://schema.org"!==a&&"https://schema.org"!==a)return t;t[SchemaDataExtractor.containsSchemaOrgKey]=!0;let o=[];o.unshift(r);const s=o.shift();for(let e in s)t[e]=s[e];return t},resultHasAddressOrTelephone:function(t){return null!=t&&(Object.prototype.hasOwnProperty.call(t,"streetAddress")||Object.prototype.hasOwnProperty.call(t,"telephone"))},resultHasSchemaOrgInfo:function(t){return null!=t&&Object.prototype.hasOwnProperty.call(t,SchemaDataExtractor.containsSchemaOrgKey)},extractSchemaValuesFromSchemaOrg:function(){let t=this.extractAllSchemaValuesFromMicroData(),e=this.extractFilteredSchemaValuesFromMicroData();return this.resultHasAddressOrTelephone(e)||(e=this.extractFilteredSchemaValuesFromJSONLD()),this.resultHasAddressOrTelephone(t)||(t=this.extractAllSchemaValuesFromJSONLD()),(this.resultHasAddressOrTelephone(e)||this.resultHasSchemaOrgInfo(e))&&(e.url=location.href),[e,t]}},"undefined"==typeof SchemaDataExtractorJS&&(SchemaDataExtractorJS=new SchemaDataExtractor),SchemaDataExtractorJS.extractSchemaValuesFromSchemaOrg(); /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <WBSBackgroundImageAssetControllerDelegate> delegate;
-@property(readonly, copy) NSString *description;
 @property(readonly, copy, nonatomic) NSArray *fileNames;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

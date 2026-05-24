@@ -6,19 +6,9 @@
 
 #import <AnnotationKit/AKShapeAnnotation.h>
 
-@class NSColor, NSDictionary, NSString, NSTextStorage;
-
 @interface AKRectangularShapeAnnotation : AKShapeAnnotation
 {
     _Bool _highlighted;
-    NSTextStorage *_annotationText;
-    NSDictionary *_typingAttributes;
-    double _rotationAngle;
-    unsigned long long _maximumNumberOfCharacters;
-    NSColor *_highlightColor;
-    NSColor *_foregroundColorHDR;
-    NSColor *_foregroundColorSDR;
-    struct CGRect _rectangle;
 }
 
 + (id);
@@ -33,14 +23,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (id);
+- (void)ying client of updated supportsRMVonAppleTV:(struct CGPoint)arg1 %@, delegate:%@ /* Error: Ran out of types for this method. */;
+- (void)eviceIRKData:(id)arg1 %@;
+- (id)ry setting due to no messenger;
 - (void);
 - (struct CGRect);
 - (void);
@@ -58,35 +48,11 @@
 - (void);
 - (_Bool)× ;
 - (void)troller",&,V_legacyDoodleController;
-- (id)natureDescriptionViewController_Mac;
+- (id)AKSignatureDescriptionViewController_Mac;
 - (id);
 
 // Remaining properties
-@property(retain) NSTextStorage *annotationText; // @synthesize annotationText=_annotationText;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSColor *foregroundColor;
-@property(retain) NSColor *foregroundColorHDR; // @synthesize foregroundColorHDR=_foregroundColorHDR;
-@property(retain) NSColor *foregroundColorSDR; // @synthesize foregroundColorSDR=_foregroundColorSDR;
-@property unsigned long long formContentType;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSColor *highlightColor; // @synthesize highlightColor=_highlightColor;
-@property(getter=isHighlighted) _Bool highlighted; // @synthesize highlighted=_highlighted;
-@property _Bool isDetectedSignature;
-@property _Bool isEditingText;
-@property unsigned long long maximumNumberOfCharacters; // @synthesize maximumNumberOfCharacters=_maximumNumberOfCharacters;
 @property struct CGRect rectangle; // @synthesize rectangle=_rectangle;
-@property double rotationAngle; // @synthesize rotationAngle=_rotationAngle;
-@property _Bool shouldUsePlaceholderText;
-@property(readonly) Class superclass;
-@property NSString *textContentType;
-@property _Bool textIsClipped;
-@property _Bool textIsFixedHeight;
-@property _Bool textIsFixedWidth;
-@property(copy) NSDictionary *typingAttributes; // @synthesize typingAttributes=_typingAttributes;
 
 @end
 

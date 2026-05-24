@@ -7,20 +7,9 @@
 @interface AppStoreKit.ProductAskToBuyPresenter
 {
     id appStateController;
-    id restrictions;
-    id accountStore;
-    id bag;
-    id arcadeSubscriptionManager;
-    id productPage;
-    id isAskToBuyEnabled;
-    id adamId;
-    id offerDisplayProperties;
-    id offerButtonAction;
-    id status;
-    id onStatusChange;
 }
 
-- (void);
+- (void)o;
 - (void);
 
 @end

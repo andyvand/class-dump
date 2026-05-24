@@ -7,9 +7,6 @@
 @interface PodcastsFoundation.PodcastEpisodeRelationships
 {
     id playbackPosition;
-    id podcast;
-    id transcripts;
-    id chapters;
 }
 
 - (id);

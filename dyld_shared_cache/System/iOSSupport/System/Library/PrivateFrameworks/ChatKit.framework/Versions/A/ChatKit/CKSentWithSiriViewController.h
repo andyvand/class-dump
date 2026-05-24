@@ -4,26 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKConversation, NSString, UIImageView, UILabel, UIScrollView, UIView;
+@class CKConversation;
 
 __attribute__((visibility("hidden")))
 @interface CKSentWithSiriViewController
 {
     CKConversation *_conversation;
-    UIScrollView *_scrollView;
-    UIView *_contentView;
-    UILabel *_contextDescriptionLabel;
-    UIImageView *_heroImageView;
-    UILabel *_titleLabel;
-    UILabel *_subtitleLabel;
-    UILabel *_detailLabel;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)dateEdited;
+- (void)canIndentTextView:(id)arg1 byDelta:forRanges: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)activityStream;
+- (id)a;
 - (id);
 - (void);
 - (id);
@@ -38,7 +31,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void)!$Dù°1Â0@ù
 × ;
-- (void)ortedConversationList;
+- (void)_configureForUnsortedConversationList;
 - (id)G_AAyAhRGSgÇSgAWÇAByACyAXSg_A2YtGGAyxAyAAyS[ycÇGµN[GARGAEyj[yA6_yA6_yAEyh[ySay¡GSS7ÇGSgGAEyA7_ySay,ÇGSSAEyA11_GGGSgGA6_yAEyACyA10_Sg_A7_ySayß Ga'[AEyACyA10__A10_A10_A10_A10_A21_tGGGtGGSgAEyA7_ySay GA24_AByACyAAyß["N[G_AEyACyA10__A10_A10_A10_A10_A10_tGGtGGGGSgGGA6_yA6_yA13_A6_yAhFGG[[GGGtGGtGGARGâ[[GÌh[y>H[yZ[[GGG;
 - (id)CollectionViewController _resizingEnd;
 - (void)×#ÿ1";
@@ -47,21 +40,7 @@ __attribute__((visibility("hidden")))
 - (id)@ï4ì.;
 
 // Remaining properties
-@property(retain, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;
-@property(retain, nonatomic) UILabel *contextDescriptionLabel; // @synthesize contextDescriptionLabel=_contextDescriptionLabel;
 @property(retain, nonatomic) CKConversation *conversation; // @synthesize conversation=_conversation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UILabel *detailLabel; // @synthesize detailLabel=_detailLabel;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIImageView *heroImageView; // @synthesize heroImageView=_heroImageView;
-@property(retain, nonatomic) UIScrollView *scrollView; // @synthesize scrollView=_scrollView;
-@property(retain, nonatomic) UILabel *subtitleLabel; // @synthesize subtitleLabel=_subtitleLabel;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end
 

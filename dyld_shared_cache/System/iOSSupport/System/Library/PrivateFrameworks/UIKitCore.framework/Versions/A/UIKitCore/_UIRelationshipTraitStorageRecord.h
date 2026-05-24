@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, UITraitCollection;
+@class UITraitCollection;
 
 __attribute__((visibility("hidden")))
 @interface _UIRelationshipTraitStorageRecord
 {
     UITraitCollection *_traitCollection;
-    NSSet *_addedObjects;
-    NSSet *_removedObjects;
 }
 
 - (id);
@@ -24,8 +22,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *addedObjects; // @synthesize addedObjects=_addedObjects;
-@property(readonly, nonatomic) NSSet *removedObjects; // @synthesize removedObjects=_removedObjects;
 @property(readonly, nonatomic) UITraitCollection *traitCollection; // @synthesize traitCollection=_traitCollection;
 
 @end

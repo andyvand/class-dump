@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView, UIViewController;
+@class UIViewController;
 
 @protocol UINSShadowRemoteViewController
 
 // Remaining properties
-@property(nonatomic) __weak UIView *trackedView;
 @property(nonatomic) __weak UIViewController *trackedViewController;
 @end
 

@@ -9,10 +9,9 @@
 @interface LASRPVerificationResult
 {
     void m2;
-    void sessionKey;
 }
 
-+ (id);
++ (id);
 - (id);
 - (id);
 - (id);
@@ -21,7 +20,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSData *m2;
-@property(nonatomic, readonly) NSData *sessionKey;
 
 @end
 

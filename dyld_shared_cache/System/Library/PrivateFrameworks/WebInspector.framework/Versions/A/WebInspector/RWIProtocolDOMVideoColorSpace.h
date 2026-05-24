@@ -6,13 +6,11 @@
 
 #import <WebInspector/RWIProtocolJSONObject.h>
 
-@class NSString;
-
 @interface RWIProtocolDOMVideoColorSpace : RWIProtocolJSONObject
 {
 }
 
-- (void);
+- (void)a;
 - (void);
 - (id);
 - (_Bool);
@@ -23,9 +21,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool fullRange;
-@property(copy, nonatomic) NSString *matrix;
-@property(copy, nonatomic) NSString *primaries;
-@property(copy, nonatomic) NSString *transfer;
 
 @end
 

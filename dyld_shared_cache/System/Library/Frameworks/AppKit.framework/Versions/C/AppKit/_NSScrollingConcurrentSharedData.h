@@ -8,23 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _NSScrollingConcurrentSharedData
 {
     struct _opaque_pthread_mutex_t _synchMutex;
-    struct CGPoint _canonicalClipBoundsOrigin;
-    struct CGPoint _velocity;
-    _Bool _isDrawingVisibleRect;
-    struct CGRect _lastValidRenderedContentRect;
-    struct CGRect _documentFrame;
-    struct NSEdgeInsets _contentInsets;
-    struct CGSize _clipViewSize;
-    struct CGPoint _clipViewOrigin;
-    double _progress;
-    double _lastScrollDirection;
-    double _lastFastFrameTimestamp;
-    long long _referencePageNumber;
-    long long _swipeCount;
-    double _instantaneousVelocity;
-    _Bool _isMomentumScrolling;
-    unsigned long long _submissionWakeUpTime;
-    unsigned long long _submissionDeadlineTime;
 }
 
 - (void);

@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)libdyld.dylib;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;

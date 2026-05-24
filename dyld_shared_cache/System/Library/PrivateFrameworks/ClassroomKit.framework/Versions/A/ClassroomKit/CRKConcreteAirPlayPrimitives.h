@@ -4,28 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVOutputContext, NSNotificationCenter;
-@protocol CRKOutputDevice;
+@class AVOutputContext;
 
 @interface CRKConcreteAirPlayPrimitives
 {
     AVOutputContext *_outputContext;
-    NSNotificationCenter *_notificationCenter;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)h;
+- (void);
 - (id)itationSessions;
 - (id)e CLSQuery for %lu person IDs:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) id <CRKOutputDevice> currentOutputDevice;
-@property(readonly, nonatomic) id <CRKOutputDevice> localOutputDevice;
-@property(readonly, nonatomic) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
 @property(readonly, nonatomic) AVOutputContext *outputContext; // @synthesize outputContext=_outputContext;
 
 @end

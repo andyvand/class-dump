@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMMailDropMetadata, NSArray, NSString, UTType;
+@class NSArray, NSString;
 
 @protocol EMContentItem
+- (NSArray *)@9(;
+- (long long);
+- (NSString *)l-align;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *availableRepresentations;
-@property(readonly, copy, nonatomic) NSString *contentID;
-@property(readonly, nonatomic) long long dataTransferByteCount;
-@property(readonly, copy, nonatomic) NSString *displayName;
-@property(readonly, nonatomic) int exchangeEventUID;
-@property(readonly, nonatomic) _Bool isAvailableLocally;
-@property(readonly, copy, nonatomic) EMMailDropMetadata *mailDropMetadata;
-@property(readonly, nonatomic) long long storageByteCount;
-@property(readonly, copy, nonatomic) UTType *type;
-@property(readonly, copy, nonatomic) NSString *uniformTypeIdentifier;
 @end
 

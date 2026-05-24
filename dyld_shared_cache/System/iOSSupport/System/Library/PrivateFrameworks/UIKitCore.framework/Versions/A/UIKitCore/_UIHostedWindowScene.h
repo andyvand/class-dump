@@ -6,8 +6,6 @@
 
 #import <UIKitCore/UIWindowScene.h>
 
-@class NSString;
-
 @interface _UIHostedWindowScene : UIWindowScene
 {
     struct {
@@ -16,12 +14,12 @@
 }
 
 - (void);
+- (void)groupChatsBasedOnIdentityUsingCacheIfApplicable: /* Error: Ran out of types for this method. */;
+- (void)groupActionProtobufForCompressedData: /* Error: Ran out of types for this method. */;
+- (_Bool)IMPendingReplicatedMessage;
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
+- (_Bool)L;
+- (void)lready binded this message to an IML. Dropping.;
 - (void);
 - (id);
 - (_Bool);
@@ -30,13 +28,6 @@
 
 // Remaining properties
 @property(nonatomic, setter=_setPreferredContentSize:) struct CGSize _preferredContentSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

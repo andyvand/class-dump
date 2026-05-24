@@ -7,6 +7,9 @@
 @class CKBalloonView;
 
 @protocol CKEffectPreviewCollectionViewControllerDelegate
+- (void)ICSearchTextCheckingResult;
+- (CKBalloonView *);
+- (void)wing backwards compatibility alert for unknown password mode;
 
 // Remaining properties
 @property(retain, nonatomic) CKBalloonView *balloonView;

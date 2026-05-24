@@ -7,20 +7,14 @@
 @interface IMDBackgroundMessageProcessingController
 {
     id workloadReporter;
-    id executors;
-    id executorStates;
-    id criticalLimiter;
-    id ptasksUpdatedDarwinNotifySubscription;
-    id storageTimerFiredNotificationObserver;
-    id throttleMonitor;
 }
 
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void)ng processing;
 

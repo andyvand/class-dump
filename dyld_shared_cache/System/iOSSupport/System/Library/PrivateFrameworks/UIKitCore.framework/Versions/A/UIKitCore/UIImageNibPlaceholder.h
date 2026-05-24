@@ -6,40 +6,32 @@
 
 #import <UIKitCore/UIImage.h>
 
-@class NSString, UIImageSymbolConfiguration;
+@class NSString;
 
 @interface UIImageNibPlaceholder : UIImage
 {
     NSString *runtimeResourceName;
-    NSString *systemSymbolResourceName;
-    long long _resourceRenderingMode;
-    UIImageSymbolConfiguration *_resourceSymbolImageConfiguration;
-    NSString *_resourceCatalogName;
-    double _variableValue;
 }
 
+- (void)iveryReceipt:(id)arg1 %@;
+- (void)rsonal off grid status is %d, wantsDeliveryReceipt:(long long)arg1 %@;
+- (id)lete;
+- (long long)sulted in %lu file transfers to delete;
+- (id)angeObserver;
+- (id)eiving a Name and Photo payload. Error:(id)arg1 %@. Localized description:(id)arg2 %@;
+- (id)ata"24@"NSData"32@"NSError"40;
+- (id);
 - (void);
 - (void);
 - (id);
-- (long long);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void)ath:(id)arg1 options:context: /* Error: Ran out of types for this method. */;
+- (void)addObserver:(id)arg1 forKeyPath:options:context: /* Error: Ran out of types for this method. */;
 - (double)setBackgroundTaskIdentifier:,V_backgroundTaskIdentifier /* Error: Ran out of types for this method. */;
 - (void)Âÿ;
 - (void)¤Øÿ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *resourceCatalogName; // @synthesize resourceCatalogName=_resourceCatalogName;
 @property(nonatomic) long long resourceRenderingMode; // @synthesize resourceRenderingMode=_resourceRenderingMode;
-@property(copy, nonatomic) UIImageSymbolConfiguration *resourceSymbolImageConfiguration; // @synthesize resourceSymbolImageConfiguration=_resourceSymbolImageConfiguration;
-@property(nonatomic) double variableValue; // @synthesize variableValue=_variableValue;
 
 @end
 

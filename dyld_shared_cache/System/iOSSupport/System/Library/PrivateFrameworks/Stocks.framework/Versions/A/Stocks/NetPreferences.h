@@ -9,19 +9,12 @@
 @interface NetPreferences
 {
     NSString *_buildVersion;
-    NSString *_productVersion;
-    _Bool _serviceDebugging;
-    _Bool _isNetworkReachable;
-    NSString *_requestCountryCode;
-    NSString *_requestLanguageCode;
-    NSString *_acceptLanguageCode;
-    NSString *_UUID;
 }
 
 + (id);
 + (void);
-- (void);
-- (id);
+- (void);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -40,23 +33,19 @@
 - (id);
 - (id);
 - (void);
+- (void)shot";
 - (void);
-- (void);
+- (id)PLChangeBatch";
+- (id);
+- (id);
+- (id)P	?f;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)d;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *UUID; // @synthesize UUID=_UUID;
-@property(retain) NSString *acceptLanguageCode;
-@property(nonatomic, getter=isNetworkReachable) _Bool networkReachable;
 @property(retain) NSString *requestCountryCode;
-@property(retain) NSString *requestLanguageCode;
 
 @end
 

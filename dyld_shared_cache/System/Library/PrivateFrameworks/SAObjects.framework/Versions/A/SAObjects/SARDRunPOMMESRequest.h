@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSData, NSString, SASRecognition, SASelectedUserAttributes;
+@class NSData;
 
 @interface SARDRunPOMMESRequest : SABaseClientBoundCommand
 {
@@ -15,14 +15,14 @@
 - (id);
 - (id);
 - (void);
+- (void)O;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (id);
 - (void);
 - (void);
@@ -31,19 +31,11 @@
 - (id);
 - (id);
 - (_Bool);
-- (void)xt:(id)arg1;
-- (id)ons;
+- (void)podcastStationWithDictionary:(id)arg1 context: /* Error: Ran out of types for this method. */;
+- (id)activeSubscriptions;
 
 // Remaining properties
 @property(copy, nonatomic) NSData *nlFallbackParse;
-@property(copy, nonatomic) NSData *nlUserParses;
-@property(retain, nonatomic) SASRecognition *recognition;
-@property(copy, nonatomic) NSString *requestType;
-@property(copy, nonatomic) NSString *responseVariantResult;
-@property(retain, nonatomic) SASelectedUserAttributes *selectedUserAttributes;
-@property(copy, nonatomic) NSString *userId;
-@property(copy, nonatomic) NSString *userIdentityClassification;
-@property(copy, nonatomic) NSString *utterance;
 
 @end
 

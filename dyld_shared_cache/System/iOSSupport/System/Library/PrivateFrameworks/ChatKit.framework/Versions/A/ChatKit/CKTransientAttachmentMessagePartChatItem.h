@@ -6,21 +6,20 @@
 
 #import <ChatKit/CKAttachmentMessagePartChatItem.h>
 
-@class CKMediaObject, NSString;
+@class NSString;
 
 @interface CKTransientAttachmentMessagePartChatItem : CKAttachmentMessagePartChatItem
 {
     NSString *_parentGUID;
 }
 
-- (void);
+- (void)mergeUnappliedEncryptedRecordRecursively;
+- (id)_displayingSnippet;
 - (id);
-- (id);
-- (id);
-- (void)SERVICES_TURNED_OFF;
+- (id)-[ICNoteLockManager initWithNote:] /* Error: Ran out of types for this method. */;
+- (void)LOCATION_SERVICES_TURNED_OFF;
 
 // Remaining properties
-@property(retain, nonatomic) CKMediaObject *mediaObject; // @dynamic mediaObject;
 @property(retain, nonatomic) NSString *parentGUID; // @synthesize parentGUID=_parentGUID;
 
 @end

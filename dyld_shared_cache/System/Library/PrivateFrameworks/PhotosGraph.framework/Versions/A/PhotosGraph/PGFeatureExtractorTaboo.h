@@ -12,8 +12,8 @@
 
 - (id);
 - (long long);
-- (id);
-- (id)Cacher;
+- (id)retainEntryWithKeyStringProvider: /* Error: Ran out of types for this method. */;
+- (id)PGMusicForMomentCacher;
 
 @end
 

@@ -11,7 +11,7 @@
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)_histG;
 - (_Bool);
 - (id);
 - (id);

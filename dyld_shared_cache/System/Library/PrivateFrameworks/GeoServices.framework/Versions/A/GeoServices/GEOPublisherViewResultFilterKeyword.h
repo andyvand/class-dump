@@ -11,13 +11,12 @@
     GEOPDPublisherViewResultFilterKeyword *_filterKeywordIdentifier;
 }
 
+- (id)event.;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void)8L4HÁL@;
 
 // Remaining properties
-@property(readonly, nonatomic) GEOPDPublisherViewResultFilterKeyword *keywordIdentifier;
 @property(readonly, nonatomic) GEORelatedSearchSuggestion *searchSuggestion;
 
 @end

@@ -4,61 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOFormattedString, GEOPBTransitArtwork, NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOAdvisoryNotice
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_9f2792e4 _incidentIndexs;
-    NSMutableArray *_advisoryCards;
-    NSMutableArray *_advisoryItems;
-    NSMutableArray *_analyticsMessageValues;
-    GEOFormattedString *_detailCardTitle;
-    GEOPBTransitArtwork *_noticeArtwork;
-    GEOFormattedString *_noticeText;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _advisoryType;
-    _Bool _shouldAlwaysShowAdvisoryCard;
-    struct {
-        unsigned int has_advisoryType:1;
-        unsigned int has_shouldAlwaysShowAdvisoryCard:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_incidentIndexs:1;
-        unsigned int read_advisoryCards:1;
-        unsigned int read_advisoryItems:1;
-        unsigned int read_analyticsMessageValues:1;
-        unsigned int read_detailCardTitle:1;
-        unsigned int read_noticeArtwork:1;
-        unsigned int read_noticeText:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
 + (Class);
 + (Class);
-+ (_Bool)MaxDepartureFrequency:(id)arg1;
++ (_Bool)setHasMaxDepartureFrequency:(id)arg1;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)mentVerification>";
+- (void)preferredTemporaryDirectory;
+- (void)isDirectory;
+- (void)failureEventWithError:(id)arg1;
+- (void)enumerateSubstringsInRange:(int)arg1 options:usingBlock: /* Error: Ran out of types for this method. */;
+- (void)enumerateStandardizedKeysAndValuesUsingBlock:(id)arg1;
+- (void)enumerateServiceMatchesForURLString:(id)arg1 withBlock: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (unsigned long long);
-- (unsigned int *);
-- (unsigned int);
-- (_Bool);
+- (id)nary",R,N;
+- (unsigned long long)ontacts.reactive.throttle.downstream;
+- (unsigned int *)e"8@"NSValue"16;
+- (unsigned int).observer;
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -73,7 +47,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (void);
@@ -90,38 +64,23 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)ed:(id)arg1;
 - (id);
-- (void);
+- (void)!;
 - (id);
 - (unsigned long long);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)P;
 - (void);
-- (id)dex:(struct _NSZone *)arg1;
+- (id)navigationListener:(struct _NSZone *)arg1 didUpdateStepIndex: /* Error: Ran out of types for this method. */;
 - (id)`;
-- (id)tingsFamiliarRoutes;
+- (id)mapSettingsFamiliarRoutes;
 - (id);
 - (void)HÉþ;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *advisoryCards;
-@property(retain, nonatomic) NSMutableArray *advisoryItems;
-@property(nonatomic) int advisoryType;
-@property(retain, nonatomic) NSMutableArray *analyticsMessageValues;
-@property(retain, nonatomic) GEOFormattedString *detailCardTitle;
-@property(nonatomic) _Bool hasAdvisoryType;
-@property(readonly, nonatomic) _Bool hasDetailCardTitle;
-@property(readonly, nonatomic) _Bool hasNoticeArtwork;
 @property(readonly, nonatomic) _Bool hasNoticeText;
-@property(nonatomic) _Bool hasShouldAlwaysShowAdvisoryCard;
-@property(readonly, nonatomic) unsigned int *incidentIndexs;
-@property(readonly, nonatomic) unsigned long long incidentIndexsCount;
-@property(retain, nonatomic) GEOPBTransitArtwork *noticeArtwork;
-@property(retain, nonatomic) GEOFormattedString *noticeText;
-@property(nonatomic) _Bool shouldAlwaysShowAdvisoryCard;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

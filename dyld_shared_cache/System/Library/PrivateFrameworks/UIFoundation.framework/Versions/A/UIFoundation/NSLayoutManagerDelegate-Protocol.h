@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary;
+
 @protocol NSLayoutManagerDelegate
+
+@optional
+- (NSDictionary *);
+- (unsigned long long)E;
+- (void)Cs2hCs2lCs2mCs2nCs2pCs2rCs2u*s2;
 @end
 

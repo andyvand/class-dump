@@ -4,9 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SCNGeometry;
+@class NSString, SCNGeometry;
 
 @protocol SCNLevelOfDetailJSExport
+- (double): /* Error: Ran out of types for this method. */;
+- (id)initWithIdentifier:(NSString *)arg1 mediaSystems: /* Error: Ran out of types for this method. */;
 - (SCNGeometry *)r:Error loading the unzipped data:%@ /* Error: Ran out of types for this method. */;
 - (id)OsdComputePerVertex(float4(v.position,1), patchVertex, vertexId, transforms.modelViewProjectionTransform, osdBuffers);
         }
@@ -104,7 +106,5 @@
 
 // Remaining properties
 @property(readonly) SCNGeometry *geometry;
-@property(readonly) double screenSpaceRadius;
-@property(readonly) double worldSpaceDistance;
 @end
 

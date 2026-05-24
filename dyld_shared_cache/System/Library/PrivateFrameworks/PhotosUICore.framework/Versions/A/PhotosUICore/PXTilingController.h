@@ -4,74 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableIndexSet, NSString, PXScrollInfo, PXTileStatePool, PXTilingChange, PXTilingControllerDebugInfo, PXTilingCoordinateSpace, PXTilingCoordinateSpaceConverter, PXTilingLayout;
-@protocol PXScrollController, PXTileAnimator, PXTileSource, PXTilingControllerObserver, PXTilingControllerScrollDelegate, PXTilingControllerTransitionDelegate, PXTilingDebugDelegate;
+@class PXTilingCoordinateSpace;
 
 @interface PXTilingController
 {
     _Bool _isPerformingUpdates;
-    _Bool _hasScheduledUpdate;
-    struct {
-        _Bool scrollControllerMetrics;
-        _Bool pagedRect;
-        _Bool layoutMetrics;
-        _Bool layoutPreferredVisibleOrigin;
-        _Bool layoutPosition;
-        _Bool layoutVisibleRect;
-        _Bool layoutPreparation;
-        _Bool tiles;
-        _Bool preheating;
-        _Bool maxPreheatPadding;
-        _Bool scrollInfo;
-    } _needsUpdateFlags;
-    struct {
-        _Bool respondsToInitialVisibleOriginForLayout;
-        _Bool respondsToTargetVisibleOriginForLayoutProposedVisibleOrigin;
-        _Bool respondsToScrollInfoForLayout;
-    } _scrollDelegateFlags;
-    struct {
-        _Bool respondsToPrepareForChange;
-        _Bool respondsToTileIdentifierConverterForChange;
-        _Bool respondsToTransitionAnimationCoordinatorForChange;
-    } _transitionDelegateFlags;
-    _Bool _hasInitializedLayout;
-    struct PXTileIdentifier *_identifierBuffer;
-    struct PXTileGeometry *_geometryBuffer;
-    unsigned long long _bufferCount;
-    _Bool _shouldAggressivelyEvictTileCaches;
-    PXTilingChange *__currentChange;
-    PXTilingLayout *_targetLayout;
-    PXTilingLayout *_currentLayout;
-    id <PXScrollController> _scrollController;
-    id <PXTileSource> _tileSource;
-    id <PXTileAnimator> _tileAnimator;
-    id <PXTilingControllerScrollDelegate> _scrollDelegate;
-    id <PXTilingControllerTransitionDelegate> _transitionDelegate;
-    PXTilingCoordinateSpace *__coordinateSpace;
-    void *__coordinateSpaceIdentifier;
-    PXTilingCoordinateSpaceConverter *__coordinateSpaceConverter;
-    PXTilingLayout *__layoutWithInitializedVisibleOrigin;
-    PXScrollInfo *__scrollInfo;
-    PXTileStatePool *__tileStates;
-    NSMutableIndexSet *__dirtyTileIndexes;
-    NSMutableArray *__preheatRecords;
-    id <PXTilingControllerObserver> _observer;
-    NSArray *_compositionInvalidationContexts;
-    id <PXTilingDebugDelegate> _debugDelegate;
-    struct CGSize __referenceSize;
-    struct CGPoint __updatedPreferredVisibleOrigin;
-    struct CGPoint __layoutDesiredOrigin;
-    struct NSEdgeInsets __contentInset;
-    struct CGRect __activeRect;
-    struct CGRect __visibleRect;
-    struct CGRect __pagedRect;
-    struct CGRect __cachedRect;
-    struct CGRect __dirtyRect;
-    struct NSEdgeInsets __maxPreheatPadding;
 }
 
 - (void);
-- (void);
+- (void)T;
 - (struct PXTileIdentifier);
 - (id);
 - (_Bool);
@@ -93,17 +34,17 @@
 - (struct PXTileIdentifier);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (struct CGRect);
 - (struct CGPoint);
 - (void *);
 - (struct CGPoint);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)H";
 - (void);
 - (void);
 - (void);
@@ -112,7 +53,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)<˟;
 - (void);
 - (void);
 - (void);
@@ -125,10 +66,11 @@
 - (void);
 - (id);
 - (struct CGRect);
-- (struct NSEdgeInsets);
+- (struct NSEdgeInsets);
 - (void);
 - (id);
 - (struct CGPoint);
+- (void)=;
 - (void);
 - (void);
 - (void);
@@ -136,8 +78,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)e;
 - (void);
 - (void);
 - (id);
@@ -149,7 +90,7 @@
 - (id);
 - (id);
 - (void *);
-- (id);
+- (id);
 - (struct CGRect);
 - (struct CGRect);
 - (id);
@@ -158,7 +99,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)@;
 - (id);
 - (void);
 - (void);
@@ -171,11 +112,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)openTapGestureRecognizer;
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)c;
+- (id)issueCoverLayoutAttributesFactory;
+- (id)hF;
 - (void);
 - (id);
 - (id);
@@ -186,7 +127,7 @@
 - (id)Â0@ù
 × ;
 - (id)AssetsPerBatch;
-- (void)ished: /* Error: Ran out of types for this method. */;
+- (void)setIsPublished: /* Error: Ran out of types for this method. */;
 - (void)%s;
 - (void)Yü±Ø§;
 - (id);
@@ -195,50 +136,7 @@
 - (void)ÐØÿßSo;;
 
 // Remaining properties
-@property(nonatomic, setter=_setActiveRect:) struct CGRect _activeRect; // @synthesize _activeRect=__activeRect;
-@property(nonatomic, setter=_setCachedRect:) struct CGRect _cachedRect; // @synthesize _cachedRect=__cachedRect;
-@property(nonatomic, setter=_setContentInset:) struct NSEdgeInsets _contentInset; // @synthesize _contentInset=__contentInset;
 @property(readonly, nonatomic) PXTilingCoordinateSpace *_coordinateSpace; // @synthesize _coordinateSpace=__coordinateSpace;
-@property(readonly, nonatomic) PXTilingCoordinateSpaceConverter *_coordinateSpaceConverter; // @synthesize _coordinateSpaceConverter=__coordinateSpaceConverter;
-@property(readonly, nonatomic) void *_coordinateSpaceIdentifier; // @synthesize _coordinateSpaceIdentifier=__coordinateSpaceIdentifier;
-@property(readonly, nonatomic) PXTilingChange *_currentChange; // @synthesize _currentChange=__currentChange;
-@property(nonatomic, setter=_setDirtyRect:) struct CGRect _dirtyRect; // @synthesize _dirtyRect=__dirtyRect;
-@property(readonly, nonatomic) NSMutableIndexSet *_dirtyTileIndexes; // @synthesize _dirtyTileIndexes=__dirtyTileIndexes;
-@property(nonatomic, setter=_setLayoutDesiredOrigin:) struct CGPoint _layoutDesiredOrigin; // @synthesize _layoutDesiredOrigin=__layoutDesiredOrigin;
-@property(nonatomic, setter=_setLayoutWithInitializedVisibleOrigin:) __weak PXTilingLayout *_layoutWithInitializedVisibleOrigin; // @synthesize _layoutWithInitializedVisibleOrigin=__layoutWithInitializedVisibleOrigin;
-@property(nonatomic, setter=_setMaxPreheatPadding:) struct NSEdgeInsets _maxPreheatPadding; // @synthesize _maxPreheatPadding=__maxPreheatPadding;
-@property(nonatomic, setter=_setPagedRect:) struct CGRect _pagedRect; // @synthesize _pagedRect=__pagedRect;
-@property(readonly, nonatomic) NSMutableArray *_preheatRecords; // @synthesize _preheatRecords=__preheatRecords;
-@property(nonatomic, setter=_setReferenceSize:) struct CGSize _referenceSize; // @synthesize _referenceSize=__referenceSize;
-@property(copy, nonatomic, setter=_setScrollInfo:) PXScrollInfo *_scrollInfo; // @synthesize _scrollInfo=__scrollInfo;
-@property(readonly, nonatomic) PXTileStatePool *_tileStates; // @synthesize _tileStates=__tileStates;
-@property(nonatomic, setter=_setUpdatedPreferredVisibleOrigin:) struct CGPoint _updatedPreferredVisibleOrigin; // @synthesize _updatedPreferredVisibleOrigin=__updatedPreferredVisibleOrigin;
-@property(nonatomic, setter=_setVisibleRect:) struct CGRect _visibleRect; // @synthesize _visibleRect=__visibleRect;
-@property(copy, nonatomic) NSArray *compositionInvalidationContexts; // @synthesize compositionInvalidationContexts=_compositionInvalidationContexts;
-@property(readonly, nonatomic) void *contentCoordinateSpaceIdentifier;
-@property(retain, nonatomic, setter=_setCurrentLayout:) PXTilingLayout *currentLayout; // @synthesize currentLayout=_currentLayout;
-@property(nonatomic) __weak id <PXTilingDebugDelegate> debugDelegate; // @synthesize debugDelegate=_debugDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) PXTilingControllerDebugInfo *debugInfo;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct CGRect layoutContentBounds;
-@property(readonly, nonatomic) struct CGPoint layoutOrigin;
-@property(readonly, nonatomic) struct CGPoint layoutPreferredOrigin;
-@property(readonly, nonatomic) struct CGRect layoutScrollBounds;
-@property(nonatomic) __weak id <PXTilingControllerObserver> observer; // @synthesize observer=_observer;
-@property(nonatomic) __weak id <PXScrollController> scrollController; // @synthesize scrollController=_scrollController;
-@property(nonatomic) __weak id <PXTilingControllerScrollDelegate> scrollDelegate; // @synthesize scrollDelegate=_scrollDelegate;
-@property(readonly, nonatomic) PXScrollInfo *scrollInfo;
-@property(nonatomic) _Bool shouldAggressivelyEvictTileCaches; // @synthesize shouldAggressivelyEvictTileCaches=_shouldAggressivelyEvictTileCaches;
-@property(readonly) Class superclass;
-@property(retain, nonatomic, setter=_setTargetLayout:) PXTilingLayout *targetLayout; // @synthesize targetLayout=_targetLayout;
-@property(nonatomic) __weak id <PXTileAnimator> tileAnimator; // @synthesize tileAnimator=_tileAnimator;
-@property(nonatomic) __weak id <PXTileSource> tileSource; // @synthesize tileSource=_tileSource;
-@property(nonatomic) __weak id <PXTilingControllerTransitionDelegate> transitionDelegate; // @synthesize transitionDelegate=_transitionDelegate;
 
 @end
 

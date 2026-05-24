@@ -10,19 +10,16 @@ __attribute__((visibility("hidden")))
 @interface GEOPDTipFilter
 {
     PBUnknownFields *_unknownFields;
-    struct GEOPDPhotoSizeFilterValue *_photoSizeFilters;
-    unsigned long long _photoSizeFiltersCount;
-    unsigned long long _photoSizeFiltersSpace;
 }
 
 - (void);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)observeEventDefaultsOnQueue:(id)arg1 withBlock: /* Error: Ran out of types for this method. */;
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)ions"b1"read_walkingOptions"b1"read_waypoints"b1"wrote_anyField"b1};
-- (id)CapabilitiesResult;
+- (id)_searchCapabilitiesResult;
 - (id)pV
 èVX`Y;
 - (void);

@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface STDiagnosticsServiceMessage
 {
     long long _messageCategory;
-    NSDictionary *_userInfo;
 }
 
-+ (id);
++ (id)(CASE WHEN purchase_history_artwork_token != '' THEN 3 ELSE (CASE WHEN store_artwork_token != '' THEN 4 ELSE 0 END) END) END) END);
 + (_Bool);
-- (void);
-- (id);
+- (void)FAULT 0, skip_count_user INTEGER NOT NULL DEFAULT 0, skip_count_recent INTEGER NOT NULL DEFAULT 0, remember_bookmark INTEGER NOT NULL DEFAULT 0, bookmark_time_ms REAL NOT NULL DEFAULT 0.0, hidden INTEGER NOT NULL DEFAULT 0, chosen_by_auto_fill INTEGER NOT NULL DEFAULT 0, liked_state INTEGER NOT NULL DEFAULT 0);
+- (id), store_kind INTEGER NOT NULL DEFAULT 0, account_id INTEGER NOT NULL DEFAULT 0, key_versions INTEGER NOT NULL DEFAULT 0, key_platform_id INTEGER NOT NULL DEFAULT 0, key_id INTEGER NOT NULL DEFAULT 0, key_id_2 INTEGER NOT NULL DEFAULT 0, date_purchased INTEGER NOT NULL DEFAULT 0, date_released INTEGER NOT NULL DEFAULT 0, external_guid TEXT, feed_url TEXT, artwork_url TEXT, store_xid TEXT, store_flavor TEXT, store_matched_status INTEGER NOT NULL DEFAULT 0, store_redownloaded_status INTEGER NOT NULL DEFAULT 0, store_link_id INTEGER NOT NULL DEFAULT 0, reserved TEXT NOT NULL DEFAULT '', vpp_is_licensed INTEGER NOT NULL DEFAULT 0, vpp_org_id INTEGER NOT NULL DEFAULT 0, vpp_org_name TEXT NOT NULL DEFAULT '');
 - (long long);
 - (id);
 - (id);
@@ -26,7 +23,6 @@
 
 // Remaining properties
 @property long long messageCategory; // @synthesize messageCategory=_messageCategory;
-@property(retain) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

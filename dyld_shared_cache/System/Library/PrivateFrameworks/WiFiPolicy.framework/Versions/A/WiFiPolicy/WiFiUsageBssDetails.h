@@ -4,60 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSError, NSNumber, NSString;
+@class NSString;
 
 @interface WiFiUsageBssDetails
 {
     _Bool _isEdgeBss;
-    _Bool _hasAppleIE;
-    _Bool _hasInterworkingIE;
-    _Bool _hasWpsIE;
-    _Bool _hasDomainName;
-    _Bool _hasNaiRealms;
-    _Bool _hasRoamingOis;
-    _Bool _hasColocatedMLOs;
-    int _phyMode;
-    int _band;
-    int _currentMloPreferredBand;
-    NSString *_bssid;
-    NSString *_apProfile;
-    NSError *_apProfileError;
-    double _locationLatitude;
-    double _locationLongitude;
-    long long _nSS;
-    long long _apMode;
-    long long _channel;
-    long long _channelWidth;
-    unsigned long long _channelFlags;
-    long long _rssi;
-    unsigned long long _networkAccessCode;
-    unsigned long long _venueGroup;
-    unsigned long long _venueCode;
-    NSString *_manufacturerName;
-    NSString *_modelName;
-    NSString *_modelNumber;
-    NSString *_deviceVersion;
-    unsigned long long _currentMloLinksCount;
-    NSArray *_currentMloLinks;
-    NSNumber *_mloTrafficSwitchEnabled;
 }
 
 + (id);
-+ (id);
++ (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)x;
 - (void);
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)setLocations: /* Error: Ran out of types for this method. */;
+- (_Bool)S;
 - (_Bool);
-- (_Bool);
 - (void);
 - (unsigned long long);
 - (void);
@@ -66,8 +35,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)UsoTaskBuilder_unhide_common_FindMyStatus;
+- (void)rence_scan;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -75,8 +44,8 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
-- (_Bool);
+- (void)9\g9T3;
+- (_Bool);
 - (id);
 - (_Bool);
 - (unsigned long long);
@@ -85,21 +54,21 @@
 - (id);
 - (int);
 - (id);
+- (void)B;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)BaseCalypsoDecoder;
 - (_Bool);
 - (long long);
 - (long long);
 - (void);
 - (void);
 - (int);
-- (int);
+- (int);
 - (double);
 - (void);
 - (void);
@@ -113,45 +82,14 @@
 - (id);
 - (void)
 × ;
-- (id)taUponUSBInsertion;
+- (id)noiseDeltaUponUSBInsertion;
 - (void)all;
 - (id)ssiRoamScanCount;
 - (id)emoved:] /* Error: Ran out of types for this method. */;
-- (void)ateOverLinkTheoreticalMaxPercentage;
+- (void)rxRateOverLinkTheoreticalMaxPercentage;
 
 // Remaining properties
-@property(nonatomic) long long apMode; // @synthesize apMode=_apMode;
-@property(copy, nonatomic) NSString *apProfile; // @synthesize apProfile=_apProfile;
-@property(copy, nonatomic) NSError *apProfileError; // @synthesize apProfileError=_apProfileError;
-@property(nonatomic) int band; // @synthesize band=_band;
 @property(copy, nonatomic) NSString *bssid; // @synthesize bssid=_bssid;
-@property(nonatomic) long long channel; // @synthesize channel=_channel;
-@property(nonatomic) unsigned long long channelFlags; // @synthesize channelFlags=_channelFlags;
-@property(nonatomic) long long channelWidth; // @synthesize channelWidth=_channelWidth;
-@property(retain, nonatomic) NSArray *currentMloLinks; // @synthesize currentMloLinks=_currentMloLinks;
-@property(nonatomic) unsigned long long currentMloLinksCount; // @synthesize currentMloLinksCount=_currentMloLinksCount;
-@property(nonatomic) int currentMloPreferredBand; // @synthesize currentMloPreferredBand=_currentMloPreferredBand;
-@property(copy, nonatomic) NSString *deviceVersion; // @synthesize deviceVersion=_deviceVersion;
-@property(nonatomic) _Bool hasAppleIE; // @synthesize hasAppleIE=_hasAppleIE;
-@property(nonatomic) _Bool hasColocatedMLOs; // @synthesize hasColocatedMLOs=_hasColocatedMLOs;
-@property(nonatomic) _Bool hasDomainName; // @synthesize hasDomainName=_hasDomainName;
-@property(nonatomic) _Bool hasInterworkingIE; // @synthesize hasInterworkingIE=_hasInterworkingIE;
-@property(nonatomic) _Bool hasNaiRealms; // @synthesize hasNaiRealms=_hasNaiRealms;
-@property(nonatomic) _Bool hasRoamingOis; // @synthesize hasRoamingOis=_hasRoamingOis;
-@property(nonatomic) _Bool hasWpsIE; // @synthesize hasWpsIE=_hasWpsIE;
-@property(nonatomic) _Bool isEdgeBss; // @synthesize isEdgeBss=_isEdgeBss;
-@property(nonatomic) double locationLatitude; // @synthesize locationLatitude=_locationLatitude;
-@property(nonatomic) double locationLongitude; // @synthesize locationLongitude=_locationLongitude;
-@property(copy, nonatomic) NSString *manufacturerName; // @synthesize manufacturerName=_manufacturerName;
-@property(retain, nonatomic) NSNumber *mloTrafficSwitchEnabled; // @synthesize mloTrafficSwitchEnabled=_mloTrafficSwitchEnabled;
-@property(copy, nonatomic) NSString *modelName; // @synthesize modelName=_modelName;
-@property(copy, nonatomic) NSString *modelNumber; // @synthesize modelNumber=_modelNumber;
-@property(nonatomic) long long nSS; // @synthesize nSS=_nSS;
-@property(nonatomic) unsigned long long networkAccessCode; // @synthesize networkAccessCode=_networkAccessCode;
-@property(nonatomic) int phyMode; // @synthesize phyMode=_phyMode;
-@property(nonatomic) long long rssi; // @synthesize rssi=_rssi;
-@property(nonatomic) unsigned long long venueCode; // @synthesize venueCode=_venueCode;
-@property(nonatomic) unsigned long long venueGroup; // @synthesize venueGroup=_venueGroup;
 
 @end
 

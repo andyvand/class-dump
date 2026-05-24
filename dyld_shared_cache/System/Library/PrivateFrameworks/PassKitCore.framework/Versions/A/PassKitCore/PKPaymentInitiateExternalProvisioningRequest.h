@@ -6,32 +6,26 @@
 
 #import <PassKitCore/PKPaymentWebServiceRequest.h>
 
-@class NSArray, NSString, PKPaymentInitiateExternalProvisioningRequestDPANAuthorization;
+@class NSString;
 
 @interface PKPaymentInitiateExternalProvisioningRequest : PKPaymentWebServiceRequest
 {
     NSString *_cardIdentifier;
-    NSArray *_externalDestinationDevices;
-    NSString *_region;
-    PKPaymentInitiateExternalProvisioningRequestDPANAuthorization *_authorization;
 }
 
-- (void);
+- (void)9_L;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void)reditAccountBalancePaidInFull;
+- (void);
+- (void)encryptionCount;
+- (void)wallet:defaultCreditAccountBalancePaidInFull /* Error: Ran out of types for this method. */;
 - (id)ÐÀÿó hd^;
 - (id)èÙÙÿlðn;
 
 // Remaining properties
-@property(retain, nonatomic) PKPaymentInitiateExternalProvisioningRequestDPANAuthorization *authorization; // @synthesize authorization=_authorization;
 @property(copy, nonatomic) NSString *cardIdentifier; // @synthesize cardIdentifier=_cardIdentifier;
-@property(copy, nonatomic) NSArray *externalDestinationDevices; // @synthesize externalDestinationDevices=_externalDestinationDevices;
-@property(retain, nonatomic) NSString *region; // @synthesize region=_region;
 
 @end
 

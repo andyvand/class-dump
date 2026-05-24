@@ -4,43 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSSet, NSString;
+@class NSArray, NSDate, NSString;
 
 @protocol PGSuggestion
-- (unsigned short)estheticScoreNode;
-- (NSString *)re:serviceManager: /* Error: Ran out of types for this method. */;
+- (NSDate *)16callable_details15callable_holderIZ105-[FI_TBrowserViewDataSource _openContainerNodesOnWorkerQueue:busyStateIncrementer:isSwitchingViewStyles:]E4$_39vJEEE /* Error: Ran out of types for this method. */;
+- (long long)a;
+- (NSString *)#;
+- (id)@;
+- (unsigned short)overallAestheticScoreNode;
+- (NSString *)initWithPerson:contactIdentifier:localFactoryScore:serviceManager: /* Error: Ran out of types for this method. */;
+
+@optional
+- (NSArray *)1~;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long availableFeatures;
-@property(readonly, nonatomic) _Bool containsUnverifiedPersons;
-@property(readonly, nonatomic) NSDate *creationDate;
-@property(readonly, nonatomic) NSSet *features;
-@property(readonly, nonatomic) _Bool isInvalid;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSArray *keyAssets;
-@property(readonly, nonatomic) unsigned char notificationQuality;
-@property(readonly, nonatomic) unsigned short notificationState;
-@property(readonly, copy, nonatomic) NSArray *reasons;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, nonatomic) id recipe;
-@property(readonly, nonatomic) unsigned long long relevanceDurationInDays;
-@property(readonly, nonatomic) NSArray *representativeAssets;
-@property(readonly, nonatomic) double score;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) unsigned short state;
-@property(readonly, copy, nonatomic) NSString *subtitle;
-@property(readonly, nonatomic) unsigned short subtype;
-@property(readonly, copy, nonatomic) NSArray *suggestedPersonLocalIdentifiers;
-@property(readonly, copy, nonatomic) NSString *title;
 @property(readonly, nonatomic) unsigned short type;
-@property(readonly, nonatomic) NSDate *universalEndDate;
-@property(readonly, nonatomic) NSDate *universalStartDate;
-@property(readonly, nonatomic) long long version;
 @end
 

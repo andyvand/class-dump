@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLevelIndicatorCell, NSString;
 @protocol _NSLevelIndicatorTickMarksProvider;
 
 __attribute__((visibility("hidden")))
 @interface _NSLevelIndicatorAppearanceBasedVisualProvider
 {
     struct CGRect _cellFrame;
-    NSLevelIndicatorCell *_cell;
-    id <_NSLevelIndicatorTickMarksProvider> _tickMarksProvider;
 }
 
 - (int);
 - (id);
 - (double);
-- (struct CGRect);
+- (struct CGRect)irBA;
 - (void);
 - (void);
 - (struct CGSize);
@@ -26,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (struct CGRect);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -36,20 +33,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct NSEdgeInsets);
 - (struct NSEdgeInsets);
-- (struct CGRect);
+- (struct CGRect)edForUnreachableHosts"C"fProhibitPrivacyProxy"C"fAllowPrivateAccessTokensForThirdParty"C"fUseEnhancedPrivacyMode"C"fBlockTrackers"C"fFailInsecureLoadWithHTTPSDNSRecord"C"fIsWebSearchContent"C"fAllowOnlyPartitionedCookies"C"fUnsafeAllowedInEarlyData"C"fRequiresDNSSECValidation"C"fAllowsPersistentDNS"C"fAttribution"Q"fPayloadTransmissionTimeout"d"fATSOverrides"^{__CFDictionary}"fHSTSPolicy"{unique_ptr<_CFHSTSPolicy, Deleter_CFRelease>=""{?="__ptr_"^{_CFHSTSPolicy}}}"fAllowsExpensiveNetworkAccess"C"fAllowsConstrainedNetworkAccess"C"fAllowsUltraConstrainedNetworkAccess"C"_explicitStorageSession"^{__CFURLStorageSession}};
 - (void);
 - (void)rary/Colors;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak NSLevelIndicatorCell *cell; // @synthesize cell=_cell;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) _Bool forceLegacyDrawing;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly) id <_NSLevelIndicatorTickMarksProvider> tickMarksProvider;
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _SFPBRFMapMarkerIdentifier
 {
     _Bool _isForCameraPositionOnly;
-    NSString *_muid;
-    NSString *_resultProviderID;
 }
 
 - (void);
@@ -22,26 +20,16 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (void)e;
 - (_Bool);
-- (id);
-- (id);
+- (id)queryForPersonsWithType:(id)arg1 options: /* Error: Ran out of types for this method. */;
+- (id)ons for SPL query with bundleIDs:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)ircle"b1"playActionAlign"b1"subtitleIsEmphasized"b1};
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isForCameraPositionOnly; // @synthesize isForCameraPositionOnly=_isForCameraPositionOnly;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *muid; // @synthesize muid=_muid;
-@property(copy, nonatomic) NSString *resultProviderID; // @synthesize resultProviderID=_resultProviderID;
-@property(readonly) Class superclass;
 
 @end
 

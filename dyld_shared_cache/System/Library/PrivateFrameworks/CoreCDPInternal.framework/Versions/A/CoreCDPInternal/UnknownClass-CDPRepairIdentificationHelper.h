@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (CDPRepairIdentificationHelper)
-- (_Bool);
+- (_Bool)ProfileIconPickerCollectionViewItem;
 @end
 

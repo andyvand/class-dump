@@ -11,9 +11,9 @@
 
 - (id);
 - (void);
-- (void);
+- (void)ntentAnalyzerSinkNode initWithAnalyzer:(unsigned long long)arg1 sinkID:interruptionDelegate:]_block_invoke /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)6;
 - (void);
 - (void);
 - (_Bool);

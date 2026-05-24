@@ -5,16 +5,13 @@
 //
 
 @protocol CKAudioBalloonView
-- (double)teractionType: /* Error: Ran out of types for this method. */;
+- (void)Folder>"16@0:(long long)arg1 8;
+- (void);
+- (double)embeddedRichLinkView:didSelectInteractionType: /* Error: Ran out of types for this method. */;
 - (_Bool)ycP^yµS^y¿¹]yABy¾½]©¬]yS½]GG_Qo_G_.J^Qo_AMy[I^GGAMyñ]GGAIG]GAByAByAByp¹]yAByAwMy;¸]SgGG_Qo_AMyC½]GGAMyAYSgGGA11_GGtGGº]GACyADyAK_AEyADyAL_AStGGE¾]A25_tGG_G;
 - (void)SettingsChanged:(double)arg1 , got look %@;
-- (void);
 
 // Remaining properties
-@property(nonatomic) double duration;
-@property(nonatomic, getter=isPlayed) _Bool played;
-@property(nonatomic, getter=isPlaying) _Bool playing;
 @property(nonatomic) double time;
-@property(nonatomic) long long waveformContentMode;
 @end
 

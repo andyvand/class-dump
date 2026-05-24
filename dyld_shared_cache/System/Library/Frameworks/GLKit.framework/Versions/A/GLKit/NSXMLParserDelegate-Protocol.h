@@ -5,5 +5,11 @@
 //
 
 @protocol NSXMLParserDelegate
+
+@optional
+- (void);
+- (void)sharedPhotoDisplayPreference;
+- (void)v;
+- (void);
 @end
 

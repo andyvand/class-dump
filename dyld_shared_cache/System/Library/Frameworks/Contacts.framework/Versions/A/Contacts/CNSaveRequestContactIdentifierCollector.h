@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNSaveRequest, NSArray, NSMutableArray, NSString;
+@class CNSaveRequest;
 
 __attribute__((visibility("hidden")))
 @interface CNSaveRequestContactIdentifierCollector
 {
     CNSaveRequest *_request;
-    NSMutableArray *_allIdentifiers;
-    NSMutableArray *_insertedIdentifiers;
 }
 
 - (id);
@@ -23,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)IncomingCallEndReasons;
 - (void);
 - (id);
 - (void);
@@ -34,18 +32,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly) NSArray *allContactIdentifiers;
-@property(readonly) NSMutableArray *allIdentifiers; // @synthesize allIdentifiers=_allIdentifiers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSArray *insertedContactIdentifiers;
-@property(readonly) NSMutableArray *insertedIdentifiers; // @synthesize insertedIdentifiers=_insertedIdentifiers;
 @property(readonly) CNSaveRequest *request; // @synthesize request=_request;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, UIView, _UIViewControllerTransitionContext;
+@class _UIViewControllerTransitionContext;
 
 __attribute__((visibility("hidden")))
 @interface _UIViewControllerTransitionCoordinator
 {
     _UIViewControllerTransitionContext *__mainContext;
-    NSMutableArray *__systemAlongsideAnimations;
-    NSMutableArray *__alongsideAnimations;
-    NSMutableArray *__alongsideAnimationViews;
-    NSMutableArray *__alongsideCompletions;
-    NSMutableArray *__interactiveChangeHandlers;
-    NSMutableArray *__invalidationHandlers;
 }
 
 - (struct CGAffineTransform);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)mediaPickerDidCancel:(id)arg1;
+- (id)delRelationshipGenericGenre;
 - (id);
 - (void);
 - (void);
@@ -35,17 +29,17 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)× ;
 - (id)IKeyboardSecureCandidateRenderTraits"16@0:8 /* Error: Ran out of types for this method. */;
-- (id)ableAdditionalItems: /* Error: Ran out of types for this method. */;
-- (id)sReorderControlForCell: /* Error: Ran out of types for this method. */;
+- (id)set_mutableAdditionalItems: /* Error: Ran out of types for this method. */;
+- (id)_editControlOnSameSideAsReorderControlForCell: /* Error: Ran out of types for this method. */;
 - (id)wFlipsHorizontalAxis;
 - (id)tInteraction",R,&,N;
-- (_Bool)rameForSection:(id)arg1 layout:(_Bool)arg2;
+- (_Bool)_sectionFrameForSection:(id)arg1 layout:(_Bool)arg2;
 - (_Bool)ication:%@ /* Error: Ran out of types for this method. */;
 - (id)loop source;
 - (void);
 - (_Bool)ÔþÿêËîÿôçíÿ;
-- (long long)backService;
-- (_Bool)SplitViewController;
+- (long long)UIFeedbackService;
+- (_Bool)UISplitViewController;
 - (id);
 - (double)Number"8@"NSMutableDictionary"16^B24;
 - (id):(id)arg1 %@>;
@@ -59,7 +53,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)IKit17UITraitDefinitionP;
 - (id)=
 ×£;;
-- (void)lEffectContentProxy;
+- (void)_UIVisualEffectContentProxy;
 - (_Bool);
 - (id);
 - (double);
@@ -70,32 +64,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic, setter=_setAlongsideAnimationViews:) NSMutableArray *_alongsideAnimationViews; // @synthesize _alongsideAnimationViews=__alongsideAnimationViews;
-@property(retain, nonatomic, setter=_setAlongsideAnimations:) NSMutableArray *_alongsideAnimations; // @synthesize _alongsideAnimations=__alongsideAnimations;
-@property(retain, nonatomic, setter=_setAlongsideCompletions:) NSMutableArray *_alongsideCompletions; // @synthesize _alongsideCompletions=__alongsideCompletions;
-@property(retain, nonatomic, setter=_setInteractiveChangeHandlers:) NSMutableArray *_interactiveChangeHandlers; // @synthesize _interactiveChangeHandlers=__interactiveChangeHandlers;
-@property(retain, nonatomic, setter=_setInvalidationHandlers:) NSMutableArray *_invalidationHandlers; // @synthesize _invalidationHandlers=__invalidationHandlers;
 @property(nonatomic, setter=_setMainContext:) _UIViewControllerTransitionContext *_mainContext; // @synthesize _mainContext=__mainContext;
-@property(retain, nonatomic, setter=_setSystemAlongsideAnimations:) NSMutableArray *_systemAlongsideAnimations; // @synthesize _systemAlongsideAnimations=__systemAlongsideAnimations;
-@property(readonly, nonatomic, getter=isAnimated) _Bool animated;
-@property(readonly, nonatomic, getter=isCancelled) _Bool cancelled;
-@property(readonly, nonatomic) long long completionCurve;
-@property(readonly, nonatomic) double completionVelocity;
-@property(readonly, nonatomic) UIView *containerView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool initiallyInteractive;
-@property(readonly, nonatomic, getter=isInteractive) _Bool interactive;
-@property(readonly, nonatomic) _Bool isInterruptible;
-@property(readonly, nonatomic) double percentComplete;
-@property(readonly, nonatomic) long long presentationStyle;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) struct CGAffineTransform targetTransform;
-@property(readonly, nonatomic) double transitionDuration;
 
 @end
 

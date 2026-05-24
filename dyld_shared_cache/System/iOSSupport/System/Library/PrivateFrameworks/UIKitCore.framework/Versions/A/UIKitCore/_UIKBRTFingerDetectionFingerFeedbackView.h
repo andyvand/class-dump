@@ -6,35 +6,29 @@
 
 #import <UIKitCore/UIView.h>
 
-@class UILabel, _UIKBRTFingerDetectionFingerCircleView;
+@class UILabel;
 
 __attribute__((visibility("hidden")))
 @interface _UIKBRTFingerDetectionFingerFeedbackView : UIView
 {
     struct CGPoint _framelocation;
-    double _radiusInt;
-    _Bool _unknownSeen;
-    UILabel *_fingerLabel;
-    _UIKBRTFingerDetectionFingerCircleView *_fingerDot;
 }
 
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)handleTranslationWithPipeline:input:completionBlock: /* Error: Ran out of types for this method. */;
+- (id)handleToIdentityMap;
+- (void)_predominantServiceForChat:(struct CGPoint)arg1 usingMessageThreshold:(double)arg2;
+- (void)find an IMDAccount for the IDSAccount, please file a radar ********** State:(id)arg1 service session = %@, IDSAccount = %@, accounts = %@;
+- (void)unknownSenderRecordInfoStore;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id)chWithTouchInfo:(struct CGRect)arg1;
+- (id)_doBeginTouchWithTouchInfo:(struct CGRect)arg1;
 - (double)_menuView;
 - (void);
 - (void)xÍàÿ¾´;
 
 // Remaining properties
-@property(retain, nonatomic) _UIKBRTFingerDetectionFingerCircleView *fingerDot; // @synthesize fingerDot=_fingerDot;
 @property(retain, nonatomic) UILabel *fingerLabel; // @synthesize fingerLabel=_fingerLabel;
-@property(nonatomic) _Bool unknownSeen; // @synthesize unknownSeen=_unknownSeen;
 
 @end
 

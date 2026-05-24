@@ -7,7 +7,6 @@
 @interface FamilyCircleUI.LocationShareListener
 {
     id listener;
-    id delegate;
 }
 
 @end

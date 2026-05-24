@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImageView, NSObject, NSSecureTextField, NSTextField;
+@class NSObject, NSSecureTextField;
 @protocol PDFPasswordViewControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface PDFPasswordViewController
 {
     NSObject<PDFPasswordViewControllerDelegate> *_delegate;
-    NSSecureTextField *_passwordField;
-    NSTextField *_passwordPrompt;
-    NSTextField *_passwordInstruction;
-    NSImageView *_lockImageView;
 }
 
 - (void);
@@ -33,10 +29,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property __weak NSImageView *lockImageView; // @synthesize lockImageView=_lockImageView;
 @property __weak NSSecureTextField *passwordField; // @synthesize passwordField=_passwordField;
-@property __weak NSTextField *passwordInstruction; // @synthesize passwordInstruction=_passwordInstruction;
-@property __weak NSTextField *passwordPrompt; // @synthesize passwordPrompt=_passwordPrompt;
 
 @end
 

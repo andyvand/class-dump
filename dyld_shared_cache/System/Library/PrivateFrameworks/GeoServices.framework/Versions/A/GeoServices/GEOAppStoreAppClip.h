@@ -4,44 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface GEOAppStoreAppClip
 {
     NSString *_bundleID;
-    NSString *_title;
-    NSString *_subtitle;
-    NSURL *_appClipURL;
-    NSURL *_artworkURL;
-    NSString *_provider;
-    NSString *_appShortName;
 }
 
+- (void)localizedStringForString:(id)arg1 bundle:table:returningNilIfNotFound: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)ceTriggerFirstPassHearst _handleRemoteMicVoiceTriggerEvent:(id)arg1 secondPassRequest:completion:]_block_invoke_2 /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (id)N4spar11NoNewDeleteE;
+- (void)UI;
 - (void)1Â0@ù
 × ;
-- (id)plore_guides_filter;
+- (id)explore_guides_filter;
 - (id);
 - (void)`C;
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *appClipURL; // @synthesize appClipURL=_appClipURL;
-@property(readonly, nonatomic) NSString *appShortName; // @synthesize appShortName=_appShortName;
-@property(retain, nonatomic) NSURL *artworkURL; // @synthesize artworkURL=_artworkURL;
 @property(copy, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(readonly, nonatomic) NSString *provider; // @synthesize provider=_provider;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

@@ -6,39 +6,31 @@
 
 #import <UIKitCore/UIView.h>
 
-@class UIViewFloatAnimatableProperty, _UILiquidLensView;
+@class _UILiquidLensView;
 
 __attribute__((visibility("hidden")))
 @interface _UIFloatingTabBarSelectionContainerView : UIView
 {
     UIView *_selectionView;
-    UIViewFloatAnimatableProperty *_targetPosition;
-    _UILiquidLensView *_liquidLensView;
-    struct CGRect _selectionViewBounds;
 }
 
 - (void);
 - (void);
 - (void);
-- (struct CGPoint);
-- (struct CGRect);
+- (struct CGPoint)ror"44@"IDSMessageContext"52;
+- (struct CGRect)unt"24@"NSString"32B40@"NSError"44;
 - (struct CGRect);
 - (id);
-- (id);
+- (id)messageSummaryInfoDictionaryWithBlastDoorBasicMessage: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
-- (id)Name;
-- (id)Unclippable;
+- (id)_currentLayoutMethodName;
+- (id)__isUnclippable;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UIView *liftedContentView;
 @property(readonly, nonatomic) _UILiquidLensView *liquidLensView; // @synthesize liquidLensView=_liquidLensView;
-@property(readonly, nonatomic) UIView *selectionView; // @synthesize selectionView=_selectionView;
-@property(nonatomic) struct CGRect selectionViewBounds; // @synthesize selectionViewBounds=_selectionViewBounds;
-@property(nonatomic) struct CGPoint selectionViewPosition;
-@property(readonly, nonatomic) UIViewFloatAnimatableProperty *targetPosition; // @synthesize targetPosition=_targetPosition;
 
 @end
 

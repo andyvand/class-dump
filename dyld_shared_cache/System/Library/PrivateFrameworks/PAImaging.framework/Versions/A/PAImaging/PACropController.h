@@ -4,41 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NUCropModel, PACanvasItemView, PACompositionEditController, PACropInteractionContext, PACropModelEditor, PAImageItemView, PAImageItemViewController, PAImageItemViewMode, PAItemViewConfiguration;
+@class PAImageItemViewController;
 
 @interface PACropController
 {
     _Bool _interactive;
-    unsigned int _targetArea;
-    struct CGRect _beginRect;
-    double _beginYawAngle;
-    double _beginPitchAngle;
-    double _beginStraightenAngle;
-    PAItemViewConfiguration *_beginConfiguration;
-    double _beginScale;
-    NUCropModel *_model;
-    long long _orientation;
-    double _autoAngle;
-    struct CGRect _autoCrop;
-    _Bool _hasAuto;
-    PACompositionEditController *_observedCompositionEditController;
-    PACropModelEditor *_modelEditor;
-    _Bool _didBeginEditing;
-    _Bool _isActive;
-    _Bool _isCurrent;
-    PAImageItemViewController *_viewController;
-    PAImageItemViewMode *_cropMode;
-    PAImageItemViewMode *_normalMode;
-    PACropInteractionContext *_currentInteractionContext;
-    CDStruct_5e758c1a _viewAspectRatio;
-    struct CGRect _inputExtent;
 }
 
 + (long long);
 + (struct CGRect);
++ (id)?ג;
 + (id);
-+ (id);
-+ (id);
++ (id)";
 + (id);
 - (void);
 - (void);
@@ -50,7 +27,7 @@
 - (struct CGRect);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -110,10 +87,10 @@
 - (struct CGRect);
 - (struct CGRect);
 - (void);
-- (CDStruct_5e758c1a);
+- (CDStruct_4bcfbbae);
 - (void);
 - (double);
-- (CDStruct_5e758c1a);
+- (CDStruct_4bcfbbae);
 - (double);
 - (struct CGRect);
 - (struct CGRect);
@@ -122,67 +99,35 @@
 - (void);
 - (void);
 - (_Bool);
-- (CDStruct_5e758c1a);
+- (CDStruct_4bcfbbae);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (CDStruct_5e758c1a);
-- (void);
-- (double);
-- (double);
-- (struct CGRect);
+- (CDStruct_4bcfbbae);
+- (void);
+- (double)vigation gesture message with payload versions=%{public}s;
+- (double)%{public}s;
+- (struct CGRect)fadeOut;
 - (void);
 - (void);
 - (id);
 - (struct CATransform3D);
-- (_Bool);
+- (_Bool)P;
 - (id);
 - (long long);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (struct CGRect)ÔÍð!|Dù±âÐ1Â0@ù
 × ;
-- (CDStruct_5e758c1a)mpositionMap]_block_invoke;
+- (CDStruct_4bcfbbae)mpositionMap]_block_invoke;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_5e758c1a aspectRatio;
-@property(readonly, nonatomic) double autoStraightenAngle;
-@property(readonly, nonatomic) double autoStraightenAngleWithOrientation;
-@property(readonly, nonatomic) PACanvasItemView *canvasView;
-@property(readonly, nonatomic) struct CGRect contentCropRect;
-@property(readonly, nonatomic) PAImageItemViewMode *cropMode; // @synthesize cropMode=_cropMode;
-@property(readonly, nonatomic) struct CGRect cropRect;
-@property(readonly) PACropInteractionContext *currentInteractionContext; // @synthesize currentInteractionContext=_currentInteractionContext;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long hitVertexId;
-@property(readonly, nonatomic) double horizontalAngle;
-@property(readonly, nonatomic) PAImageItemView *imageView;
-@property(readonly, nonatomic) struct CGRect inputExtent; // @synthesize inputExtent=_inputExtent;
-@property(readonly, nonatomic) struct CGRect integralViewCropRect;
-@property(readonly, nonatomic, getter=isInteractive) _Bool interactive;
-@property(readonly, nonatomic) _Bool isActive; // @synthesize isActive=_isActive;
-@property(readonly, nonatomic) _Bool isCurrent; // @synthesize isCurrent=_isCurrent;
-@property(readonly, nonatomic) struct CGSize masterSize;
-@property(readonly, nonatomic) PAImageItemViewMode *normalMode; // @synthesize normalMode=_normalMode;
-@property(nonatomic) long long orientation;
-@property(readonly, nonatomic) struct PIRotationAttributes rotationAttributes;
-@property(readonly, nonatomic) double straightenAngle;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) struct CATransform3D transform;
-@property(readonly, nonatomic) double verticalAngle;
-@property(readonly, nonatomic) CDStruct_5e758c1a viewAspectRatio; // @synthesize viewAspectRatio=_viewAspectRatio;
 @property(readonly, nonatomic) PAImageItemViewController *viewController; // @synthesize viewController=_viewController;
-@property(readonly, nonatomic) struct CGRect viewCropRect;
 
 @end
 

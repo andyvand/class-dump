@@ -6,17 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class CEMAccountCardDAVDeclaration_CommunicationServiceRules, NSNumber, NSString;
+@class NSString;
 
 @interface CEMAccountCardDAVDeclaration : CEMConfigurationBase
 {
     NSString *_payloadCardDAVAccountDescription;
-    NSString *_payloadCardDAVHostName;
-    NSString *_payloadCardDAVPrincipalURL;
-    NSNumber *_payloadCardDAVUseSSL;
-    NSNumber *_payloadCardDAVPort;
-    CEMAccountCardDAVDeclaration_CommunicationServiceRules *_payloadCommunicationServiceRules;
-    NSString *_payloadCardDAVCredentials;
 }
 
 + (id);
@@ -26,7 +20,7 @@
 + (id);
 + (id);
 + (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -36,9 +30,9 @@
 - (id);
 - (id);
 - (id);
+- (id)a;
 - (id);
-- (id);
-- (id);
+- (id)	;
 - (id);
 - (id);
 - (_Bool);
@@ -46,24 +40,11 @@
 - (id);
 - (int);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *payloadCardDAVAccountDescription; // @synthesize payloadCardDAVAccountDescription=_payloadCardDAVAccountDescription;
-@property(copy, nonatomic) NSString *payloadCardDAVCredentials; // @synthesize payloadCardDAVCredentials=_payloadCardDAVCredentials;
-@property(copy, nonatomic) NSString *payloadCardDAVHostName; // @synthesize payloadCardDAVHostName=_payloadCardDAVHostName;
-@property(copy, nonatomic) NSNumber *payloadCardDAVPort; // @synthesize payloadCardDAVPort=_payloadCardDAVPort;
-@property(copy, nonatomic) NSString *payloadCardDAVPrincipalURL; // @synthesize payloadCardDAVPrincipalURL=_payloadCardDAVPrincipalURL;
-@property(copy, nonatomic) NSNumber *payloadCardDAVUseSSL; // @synthesize payloadCardDAVUseSSL=_payloadCardDAVUseSSL;
-@property(copy, nonatomic) CEMAccountCardDAVDeclaration_CommunicationServiceRules *payloadCommunicationServiceRules; // @synthesize payloadCommunicationServiceRules=_payloadCommunicationServiceRules;
-@property(readonly) Class superclass;
 
 @end
 

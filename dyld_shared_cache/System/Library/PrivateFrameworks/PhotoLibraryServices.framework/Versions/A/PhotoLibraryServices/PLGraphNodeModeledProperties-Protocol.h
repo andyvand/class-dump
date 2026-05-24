@@ -5,9 +5,15 @@
 //
 
 @protocol PLGraphNodeModeledProperties
+- (id);
+- (id);
+- (id);
+- (id)H
+;
+- (id)beginDialogWithCompletionHandler: /* Error: Ran out of types for this method. */;
 - (id)1Â0@ù
 × ;
-- (id)r: /* Error: Ran out of types for this method. */;
+- (id)cancelJobFor: /* Error: Ran out of types for this method. */;
 - (id)¤;
 - (id)ms for asset:%{public}@, error:%@ /* Error: Ran out of types for this method. */;
 @end

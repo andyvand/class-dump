@@ -9,25 +9,23 @@
 @interface RawCameraCIImageProxy
 {
     CIImage *ciImage;
-    shared_ptr_c492eedd rawImage;
 }
 
 + (_Bool);
 - (void);
-- (shared_ptr_c492eedd);
+- (shared_ptr_64a5effa);
+- (id);
+- (id);
+- (void).;
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)om.apple.Safari;
 - (void);
 
 // Remaining properties
-@property(retain) CIImage *ciImage; // @synthesize ciImage;
-@property shared_ptr_c492eedd rawImage; // @synthesize rawImage;
+@property shared_ptr_64a5effa rawImage; // @synthesize rawImage;
 
 @end
 

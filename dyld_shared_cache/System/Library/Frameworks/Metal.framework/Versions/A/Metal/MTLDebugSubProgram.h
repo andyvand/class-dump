@@ -10,20 +10,17 @@ __attribute__((visibility("hidden")))
 @interface MTLDebugSubProgram
 {
     MTLDebugInstrumentationData *_data;
-    struct DebugSubProgram *_debugSubProgram;
 }
 
 - (oneway void);
 - (oneway void);
 - (unsigned int);
 - (id);
-- (id);
-- (id);
+- (id)g internal entitlement checker, connection handler does not support it.;
+- (id)	;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *filename;
-@property(readonly, nonatomic) unsigned int line;
-@property(readonly, nonatomic) NSString *name;
 
 @end
 

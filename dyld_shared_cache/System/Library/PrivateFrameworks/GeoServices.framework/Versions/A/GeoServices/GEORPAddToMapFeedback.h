@@ -9,38 +9,32 @@
 @interface GEORPAddToMapFeedback
 {
     PBUnknownFields *_unknownFields;
-    _Bool _isEntrypointReportSomethingMissing;
-    struct {
-        unsigned int has_isEntrypointReportSomethingMissing:1;
-    } _flags;
 }
 
-+ (_Bool)edIncorrect:(id)arg1;
-- (void);
-- (void);
++ (_Bool)setIsMarkedIncorrect:(id)arg1;
+- (void)removePersistentStore:(_Bool)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)_requestedContainerIdentifierCount;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)works/AssetCacheServices.framework/Versions/A/AssetCacheServices;
+- (void)udio route is ineligible;
+- (id)2z;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)"b1};
-- (id)lIndexs;
+- (id)_xmlIndexs;
 - (id)PÚÛtÛ;
-- (id)_TO_ROUTE;
+- (id)PROCEED_TO_ROUTE;
 - (void)u/3l L@;
 
 // Remaining properties
 @property(nonatomic) _Bool hasIsEntrypointReportSomethingMissing;
-@property(nonatomic) _Bool isEntrypointReportSomethingMissing;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

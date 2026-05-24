@@ -4,11 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet, NSString, UIColor, UIImage, UIInputContextHistory, UITextRange, _UISupplementalLexicon;
+@class NSIndexSet, NSString, UIColor, UIImage, UIInputContextHistory;
 
 @protocol UITextInputTraits_Private
 
 @optional
+- (_Bool);
+- (void)Analysis25SharedAudioSourceInstanceP;
+- (void);
+- (_Bool);
+- (struct __CFCharacterSet *)OR:_MDSChannelInitForSMB:CFDictionaryCreateMutable failed /* Error: Ran out of types for this method. */;
+- (void)_payloadForceITunesStorePasswordEntry;
+- (void)e CFData;
+- (void)__AUTH_CONST;
+- (void)__MPModelRelationshipPodcastEpisodeAuthor__MAPPING_MISSING__;
+- (NSString *)triesToEmit;
+- (_Bool)MPNowPlayingInfoPropertyAvailableLanguageOptions;
+- (struct _NSRange);
 - (_Bool)0@ù
 × ;
 - (_Bool)!ÔBùQY1Â0@ù
@@ -33,32 +45,32 @@
 - (void)r";
 - (void)UITextField"16{_NSRange=QQ}24@"NSString"40;
 - (double)unhighlightItemAtIndexPath: /* Error: Ran out of types for this method. */;
-- (void)ntaryContentInsetsReference;
-- (void)lor:(_Bool)arg1;
-- (void)alBetweenSuccessiveTaps:(_Bool)arg1;
-- (void)ousContents:(_Bool)arg1;
-- (void)exibleSpaceGuide:(struct _NSRange)arg1;
+- (void)supplementaryContentInsetsReference;
+- (void)setMonthYearLabelColor:(_Bool)arg1;
+- (void)setMaximumIntervalBetweenSuccessiveTaps:(_Bool)arg1;
+- (void)setLimitsLayoutForSuspiciousContents:(_Bool)arg1;
+- (void)setFlexibleSpaceGuide:(struct _NSRange)arg1;
 - (void)ompletion:(NSString *)arg1;
-- (void);
-- (void):(UIColor *)arg1 willAnimateWithSettings:fromOrientation: /* Error: Ran out of types for this method. */;
-- (void)acters:(_Bool)arg1 length: /* Error: Ran out of types for this method. */;
-- (int)BarPlacementClassSupportingCompactStyle: /* Error: Ran out of types for this method. */;
-- (void)tFocusedHorizontalOutsetForTableView:(UIImage *)arg1;
-- (_Bool)withCompletionHandler: /* Error: Ran out of types for this method. */;
-- (NSIndexSet *)dChildViewService: /* Error: Ran out of types for this method. */;
-- (int)ocused;
-- (_Bool)showCustomInputView;
-- (_Bool)edWindow: /* Error: Ran out of types for this method. */;
-- (void)ange;
-- (_Bool)tationBoundsOffset;
-- (void)emoveFocusEventRecognizer;
+- (_Bool)ownsActionContent;
+- (void)noteActiveInterfaceOrientationDidChangeToOrientation:(UIColor *)arg1 willAnimateWithSettings:fromOrientation: /* Error: Ran out of types for this method. */;
+- (void)initWithCharacters:(_Bool)arg1 length: /* Error: Ran out of types for this method. */;
+- (int)floatingAssistantBarPlacementClassSupportingCompactStyle: /* Error: Ran out of types for this method. */;
+- (void)defaultFocusedHorizontalOutsetForTableView:(UIImage *)arg1;
+- (_Bool)applyAutocorrection:toString:withCompletionHandler: /* Error: Ran out of types for this method. */;
+- (NSIndexSet *)addChildViewService: /* Error: Ran out of types for this method. */;
+- (int)_tvDefaultTextColorFocused;
+- (_Bool)_showCustomInputView;
+- (_Bool)_setExpectedWindow: /* Error: Ran out of types for this method. */;
+- (void)_selectedTextRange;
+- (_Bool)_rotationBoundsOffset;
+- (void)_removeFocusEventRecognizer;
 - (void)_passthroughViews;
-- (_Bool)ing;
+- (_Bool)_isWaiting;
 - (void)oveDistance;
 - (double)argerDetentWhenScrolledToEdge;
-- (void)ISceneHostingSheetPresentationHostProviding;
-- (void)ternal;
-- (void)ControllerWrapperView;
+- (void)_UISceneHostingSheetPresentationHostProviding;
+- (void)UIDocumentInternal;
+- (void)UICollectionViewControllerWrapperView;
 - (_Bool)´Ð;
 - (void)È;
 - (_Bool)<çç;
@@ -68,305 +80,32 @@
 - (void);
 - (void)0à²Ç2x~þÄ;
 - (void)>}îÿ4{þÿÒÍîÿ;
+- (void)_prefersSolidColorHardPocket;
 - (long long)ift.fill;
 - (_Bool)dleObserver(__strong id<_UIUpdateCycleIdleObserver> _Nonnull);
 - (_Bool)ingPathBitmapDataRoundRect _UIBoundingPathBitmapDataCreateRoundRectWithCornerRadii(const _UIIntegralRect, const _UIIntegralCornerRadii);
 - (unsigned long long)red;
 - (void)month marked as visible that is not loaded.;
-- (UIImage *)lerNotification;
+- (UIImage *)UINavigationControllerDidShowViewControllerNotification;
 - (NSString *)list of view controllers can be selected.;
 - (long long)p=%p groupSizingGuide=%p
 ;
 - (_Bool)pearanceObserverInteraction;
 - (NSString *)ÅþÿÅþÿàµþÿÜµþÿVÆþÿZÆþÿÈþÿpÆþÿ¾þÿÌþÿ¶þÿúÄþÿhÆþÿ;
 - (void)Ã.3yÂ¹.3GGSOGGGAIy»¢.3yÝ¾7GGG_$Û.3Qo__«¾7Qo_;
+- (void)SgXw;
 - (UIInputContextHistory *)7G;
-- (void)loatingToolbarContent;
+- (void)FloatingToolbarContent;
+- (void)UpdateVisibleCellsRecord;
 - (long long),oþEì33¤,oþì33´,oþ;
 - (_Bool)þ ;
 - (void)k43ËÃ;
 - (_Bool)hásþk43@Qsþmk43ìàsþuk43Äàsþk43<Qsþk43TQsþk43|Qsþ¥k43QsþEk43TâsþMk43Dâsþ%k43Qsþuk43ásþk43Qsþk43;
 
 // Remaining properties
-@property(copy, nonatomic) NSIndexSet *PINEntrySeparatorIndexes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSIndexSet",?,C,N
-
-@property(nonatomic) _Bool acceptsDictationSearchResults;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool acceptsEmoji;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool acceptsFloatingKeyboard;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool acceptsInitialEmojiKeyboard;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool acceptsPayloads;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool acceptsSplitKeyboard;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) long long allowsTextAnimationsType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(copy, nonatomic) NSString *autocorrectionContext;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
-@property(nonatomic) _Bool contentsIsSingleValue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool deferBecomingResponder;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic, getter=isDevicePasscodeEntry) _Bool devicePasscodeEntry;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N,GisDevicePasscodeEntry
-
-@property(nonatomic) _Bool disableHandwritingKeyboard;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool disableInputBars;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool disablePrediction;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool displaySecureEditsUsingPlainText;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool displaySecureTextUsingPlainText;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) int emptyContentReturnKeyType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Ti,?,N
-
-@property(nonatomic) _Bool enablesReturnKeyOnNonWhiteSpaceContent;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) struct UIEdgeInsets floatingKeyboardEdgeInsets;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{UIEdgeInsets=dddd},?,N
-
-@property(nonatomic) _Bool forceDefaultDictationInfo;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) long long forceDictationKeyboardType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) _Bool forceDisableDictation;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool forceEnableDictation;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool forceFloatingKeyboard;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool forceSpellingDictation;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool hasDefaultContents;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool hidePrediction;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) long long inlineCompletionType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(retain, nonatomic) UIInputContextHistory *inputContextHistory;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIInputContextHistory",?,&,N
-
-@property(retain, nonatomic) UIColor *insertionPointColor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIColor",?,&,N
-
-@property(nonatomic) unsigned long long insertionPointWidth;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,N
-
-@property(nonatomic) _Bool isCarPlayIdiom;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool isSingleLineDocument;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) unsigned long long keyboardSuggestionOptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,N
-
-@property(nonatomic) _Bool learnsCorrections;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool loadKeyboardsForSiriLanguage;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(retain, nonatomic) UIColor *matchHighlightColor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIColor",?,&,N
-
-@property(nonatomic) _Bool preferOnlineDictation;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) double preferredInputViewHeight;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,N
-
-@property(nonatomic) long long preferredKeyboardStyle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
 @property(copy, nonatomic) NSString *recentInputIdentifier;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,C,N
-
-@property(copy, nonatomic) NSString *responseContext;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
-@property(nonatomic) _Bool returnKeyGoesToNextResponder;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(retain, nonatomic) UIColor *selectionBarColor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIColor",?,&,N
-
-@property(retain, nonatomic) UIColor *selectionBorderColor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIColor",?,&,N
-
-@property(nonatomic) double selectionBorderWidth;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,N
-
-@property(nonatomic) double selectionCornerRadius;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,N
-
-@property(retain, nonatomic) UIImage *selectionDragDotImage;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIImage",?,&,N
-
-@property(nonatomic) struct UIEdgeInsets selectionEdgeInsets;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{UIEdgeInsets=dddd},?,N
-
-@property(retain, nonatomic) UIColor *selectionHighlightColor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIColor",?,&,N
-
-@property(nonatomic) int shortcutConversionType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Ti,?,N
-
-@property(nonatomic) _Bool showDictationButton;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(retain, nonatomic) _UISupplementalLexicon *supplementalLexicon;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"_UISupplementalLexicon",?,&,N
-
-@property(retain, nonatomic) UIImage *supplementalLexiconAmbiguousItemIcon;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIImage",?,&,N
-
-@property(nonatomic) _Bool suppressReturnKeyStyling;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) int textLoupeVisibility;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Ti,?,N
-
-@property(readonly, nonatomic) UITextRange *textRangeForServicesInteraction;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UITextRange",?,R,N
-
-@property(nonatomic) long long textScriptType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) int textSelectionBehavior;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Ti,?,N
-
-@property(nonatomic) id textSuggestionDelegate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@,?,N
-
-@property(nonatomic) struct __CFCharacterSet *textTrimmingSet;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T^{__CFCharacterSet=},?,N
-
-@property(nonatomic) _Bool typingAdaptationDisabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(retain, nonatomic) UIColor *underlineColorForSpelling;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIColor",?,&,N
-
-@property(retain, nonatomic) UIColor *underlineColorForTextAlternatives;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIColor",?,&,N
-
-@property(nonatomic) _Bool useAutomaticEndpointing;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool useInterfaceLanguageForLocalization;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) struct _NSRange validTextRange;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{_NSRange=QQ},?,N
-
-@property(readonly, nonatomic) _Bool wasEverSecureTextEntry;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property unsigned long long writingToolsAllowedInputOptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?
 
 @end
 

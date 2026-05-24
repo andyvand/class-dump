@@ -9,57 +9,37 @@
 @interface UIKit._UILiquidLensViewVariantSpec
 {
     UIViewSpringAnimationBehaviorSettings *liftSpring;
-    UIViewSpringAnimationBehaviorSettings *unLiftSpring;
-    double lensHangTime;
-    _Bool tryMe;
-    double liftedDisplacement;
-    double unliftedDisplacement;
-    double unliftedBlurRadius;
-    double innerShadowRadius;
-    double innerShadowOpacity;
-    double innerShadowOffsetY;
-    double contentWrapperDisplacement;
 }
 
 + (id);
-- (double);
+- (double)or indicates device does not have keys to sync *****;
+- (double)obtaining zones %@;
+- (id)fromToken:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)is an emergency number, Not processing message;
+- (void):(double)arg1 %@, isInExitState:%@, exitDate:%@, isStartingDisabledDisableDevice:%@, lastSyncDate:%@, isSyncingPaused:%@, startingChangingEnabledSetting:%@, isPaused:%@, syncControllerSyncState:%@, syncType:%@, syncStatus:%@, syncJobState:%@, syncControllerRecordType:%@, syncType:%@, accountStatus:%@, syncErrors:%@ /* Error: Ran out of types for this method. */;
+- (void)ingEnabled:(double)arg1 %@, isRemovedFromBackup:%@, isInExitState:%@, exitDate:%@, isStartingDisabledDisableDevice:%@, lastSyncDate:%@, isSyncingPaused:%@, startingChangingEnabledSetting:%@, isPaused:%@, syncControllerSyncState:%@, syncType:%@, syncStatus:%@, syncJobState:%@, syncControllerRecordType:%@, syncType:%@, accountStatus:%@, syncErrors:%@ /* Error: Ran out of types for this method. */;
+- (void)r"16@?0@"NSString"8;
+- (void)ferences an attachment which is in thumbnail state. You don't want to analyze this, Skip and retry later, user did not tap to downloaded.;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)0;
+- (void);
+- (void);
 - (double);
 - (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (double);
-- (id);
+- (double);
 - (double);
 - (double);
 - (double);
-- (double);
-- (double);
-- (void)rColor: /* Error: Ran out of types for this method. */;
+- (void)_setHorizontalScrollIndicatorColor: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) double contentWrapperDisplacement; // @synthesize contentWrapperDisplacement;
-@property(nonatomic) double innerShadowOffsetY; // @synthesize innerShadowOffsetY;
-@property(nonatomic) double innerShadowOpacity; // @synthesize innerShadowOpacity;
-@property(nonatomic) double innerShadowRadius; // @synthesize innerShadowRadius;
-@property(nonatomic) double lensHangTime; // @synthesize lensHangTime;
 @property(nonatomic, retain) UIViewSpringAnimationBehaviorSettings *liftSpring; // @synthesize liftSpring;
-@property(nonatomic) double liftedDisplacement; // @synthesize liftedDisplacement;
-@property(nonatomic) _Bool tryMe; // @synthesize tryMe;
-@property(nonatomic, retain) UIViewSpringAnimationBehaviorSettings *unLiftSpring; // @synthesize unLiftSpring;
-@property(nonatomic) double unliftedBlurRadius; // @synthesize unliftedBlurRadius;
-@property(nonatomic) double unliftedDisplacement; // @synthesize unliftedDisplacement;
 
 @end
 

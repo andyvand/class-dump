@@ -7,27 +7,23 @@
 @interface NTPBReadingListShow
 {
     int _userAction;
-    struct {
-        unsigned int userAction:1;
-    } _has;
 }
 
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
+- (void)A;
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)ActiveBehavior:,V_activeBehavior /* Error: Ran out of types for this method. */;
+- (_Bool)to switch to Soft-AP.;
+- (_Bool)missingEncryptionKey;
 - (id);
 - (int);
 - (id);
 
 // Remaining properties
 @property(nonatomic) _Bool hasUserAction;
-@property(nonatomic) int userAction; // @synthesize userAction=_userAction;
 
 @end
 

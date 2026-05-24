@@ -11,11 +11,11 @@
     IMAccount *_imessageAccount;
 }
 
-+ (id);
-- (id);
-- (id);
-- (id);
-- (id);
++ (id)oTransmitter=%p with audioIOSampleRate=%d, audioIOSampleCount=%d;
+- (id)SoundDec_Create yielded instance=%@ outOfProcess=%{BOOL}d payload=%u for multiwayMode=%{BOOL}d direction=%hu streamGroupID=%s participantID=%@ sessionID=%@;
+- (id)the lock;
+- (id)%s] %s:(id)arg1 %d %@(%p) Failed to create new fence;
+- (id)sage payload is empty for participant '%@';
 - (void)Àô0;
 
 // Remaining properties

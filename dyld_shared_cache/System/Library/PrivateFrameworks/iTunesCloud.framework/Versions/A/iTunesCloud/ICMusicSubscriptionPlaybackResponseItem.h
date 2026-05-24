@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICStoreHLSAssetInfo, ICURLBag, NSArray, NSDate, NSDictionary;
+@class NSDate, NSDictionary;
 
 @interface ICMusicSubscriptionPlaybackResponseItem
 {
     NSDictionary *_itemResponseDictionary;
-    ICURLBag *_urlBag;
-    NSDate *_assetExpirationDate;
 }
 
 - (void);
@@ -19,15 +17,12 @@
 - (id);
 - (id);
 - (long long);
+- (id)_selector;
 - (id);
-- (id);
-- (void)dentifier;
+- (void)SMSSessionIdentifier;
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *assetExpirationDate; // @synthesize assetExpirationDate=_assetExpirationDate;
-@property(readonly, copy, nonatomic) NSArray *fileAssets;
-@property(readonly, copy, nonatomic) ICStoreHLSAssetInfo *hlsAsset;
-@property(readonly, nonatomic) long long storeAdamID;
 
 @end
 

@@ -4,31 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface OADStyleMatrix
 {
     NSString *mName;
-    NSMutableArray *mFills;
-    NSMutableArray *mStrokes;
-    NSMutableArray *mEffects;
-    NSMutableArray *mBgFills;
 }
 
 + (id);
-- (void);
+- (void) ;
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
-- (id);
-- (unsigned long long);
+- (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
+- (unsigned long long);
+- (id)
+kb;
 - (void);
 - (void);
 - (void);

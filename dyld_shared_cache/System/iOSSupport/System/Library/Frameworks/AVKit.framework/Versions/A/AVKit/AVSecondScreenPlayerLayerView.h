@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVObservationController, AVPlayerLayer;
+@class AVPlayerLayer;
 
 __attribute__((visibility("hidden")))
 @interface AVSecondScreenPlayerLayerView
 {
     AVPlayerLayer *_activeSourcePlayerLayer;
-    AVObservationController *_observationController;
 }
 
 + (Class);
@@ -20,14 +19,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)CV;
 - (void)ð!$Gù1[Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) __weak AVPlayerLayer *activeSourcePlayerLayer; // @synthesize activeSourcePlayerLayer=_activeSourcePlayerLayer;
 @property(readonly, nonatomic) AVPlayerLayer *layer; // @dynamic layer;
-@property(retain, nonatomic) AVObservationController *observationController; // @synthesize observationController=_observationController;
 
 @end
 

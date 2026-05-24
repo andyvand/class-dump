@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSObject;
-@protocol OS_dispatch_queue;
+@class NSHashTable;
 
 __attribute__((visibility("hidden")))
 @interface FPReachabilityMonitor
 {
     NSHashTable *_reachabilityObservers;
-    struct __SCNetworkReachability *_reachabilityRef;
-    unsigned int _reachabilityFlags;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (_Bool);
@@ -23,9 +19,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned int);
 - (void);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)lazuliGeoPush;
 - (void);
 - (void)!>&Ð!GùÑç)1Â0@ù
 × ;

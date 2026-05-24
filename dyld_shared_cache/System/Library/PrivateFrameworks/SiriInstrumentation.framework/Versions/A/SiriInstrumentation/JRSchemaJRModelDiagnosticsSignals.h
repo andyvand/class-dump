@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface JRSchemaJRModelDiagnosticsSignals : SISchemaInstrumentationMessage
 {
@@ -15,8 +15,8 @@
 
 - (void);
 - (unsigned long long);
-- (float);
-- (id);
+- (float);
+- (id)^;
 - (void);
 - (void);
 - (void);
@@ -28,12 +28,11 @@
 - (id);
 - (id)
 × ;
-- (id)d;
-- (id)tModeSwitchEnded;
+- (id)hasSiriSpeechId;
+- (id)SISchemaUEIDictationInputModeSwitchEnded;
 - (void)´ZÞÿ.¼³";
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *modelDiagnosticSignals; // @synthesize modelDiagnosticSignals=_modelDiagnosticSignals;
 
 @end

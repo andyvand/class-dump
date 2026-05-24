@@ -12,19 +12,19 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_feedbackWindows;
 }
 
-+ (id);
++ (id)Log in.;
 - (id);
 - (void);
+- (void)andler"16@"BlastDoorPriorityMessageCommand"24@"NSString"32@"NSString"40@"NSData"48;
+- (id)_populateCKRecordWithIMLocationShareStatusChangeItemFields:(id)arg1;
+- (void)Store;
 - (void);
-- (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)@;
+- (id)y state was NOT in state continue(4), was in state %ld!;
+- (id)lationCommand to peers;
+- (id)] session=%@;
 - (id);
 - (id);
 - (void);

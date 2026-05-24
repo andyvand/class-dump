@@ -4,62 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MMCSEngine, MSASPersonModel, MSAlbumSharingDaemon, MSBackoffManager, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface MSASAssetTransferer
 {
     _Bool _hasShutDown;
-    int _maxBatchCount;
-    int _maxRetryCount;
-    id _delegate;
-    NSString *_personID;
-    MMCSEngine *_engine;
-    double _maxMMCSTokenValidityTimeInterval;
-    MSAlbumSharingDaemon *_daemon;
-    MSASPersonModel *_model;
-    MSBackoffManager *_backoffManager;
-    NSString *_focusAlbumGUID;
-    NSString *_focusAssetCollectionGUID;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSObject<OS_dispatch_queue> *_eventQueue;
 }
 
-- (unsigned long long);
-- (double);
+- (unsigned long long)were expired, doing nothing.;
+- (double)ng auto accept.;
+- (void)ic}@Received region update callback. regionState:(CDUnknownBlockType)arg1 %@, vacationState:%@ /* Error: Ran out of types for this method. */;
+- (void)to add firewall entries:(double)arg1 %{sensitive}@ with error:%@ /* Error: Ran out of types for this method. */;
+- (void)th error:(int)arg1 %@;
+- (void)update pairing identity for current user of home %{public}@ failed:(id)arg1 %@;
+- (double)Handling responses:%@ /* Error: Ran out of types for this method. */;
+- (int)ing;
+- (id):%@ resulted in error:%@ /* Error: Ran out of types for this method. */;
+- (void)public}@[Flow:%@] Successfully removed pairing /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (int);
+- (id)];
+- (id)est [%@] from the HAP accessory [%@];
+- (id)ns from characteristic %@ :%@ /* Error: Ran out of types for this method. */;
+- (_Bool)ed pairing audit for accessory:(id)arg1 %{public}@;
+- (void)ser preferred network;
+- (void)available as a fallback, aborting thread start;
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
+- (void);
+- (void)A;
+- (void);
+- (void);
+- (void)number concept output operations (;
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -68,15 +52,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void))q;
+- (void)h;
 - (void);
 - (id);
+- (id);
+- (id);
+- (id)timeKey;
+- (void)l;
+- (id)fetchConsumedAndLatestSerialNums;
 - (id);
 - (void);
 - (void);
@@ -84,27 +68,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak MSBackoffManager *backoffManager; // @synthesize backoffManager=_backoffManager;
-@property(nonatomic) __weak MSAlbumSharingDaemon *daemon; // @synthesize daemon=_daemon;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) MMCSEngine *engine; // @synthesize engine=_engine;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *eventQueue; // @synthesize eventQueue=_eventQueue;
-@property(copy, nonatomic) NSString *focusAlbumGUID; // @synthesize focusAlbumGUID=_focusAlbumGUID;
-@property(copy, nonatomic) NSString *focusAssetCollectionGUID; // @synthesize focusAssetCollectionGUID=_focusAssetCollectionGUID;
-@property(nonatomic) _Bool hasShutDown; // @synthesize hasShutDown=_hasShutDown;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int maxBatchCount; // @synthesize maxBatchCount=_maxBatchCount;
-@property(nonatomic) double maxMMCSTokenValidityTimeInterval; // @synthesize maxMMCSTokenValidityTimeInterval=_maxMMCSTokenValidityTimeInterval;
-@property(nonatomic) int maxRetryCount; // @synthesize maxRetryCount=_maxRetryCount;
-@property(nonatomic) __weak MSASPersonModel *model; // @synthesize model=_model;
-@property(copy, nonatomic) NSString *personID; // @synthesize personID=_personID;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

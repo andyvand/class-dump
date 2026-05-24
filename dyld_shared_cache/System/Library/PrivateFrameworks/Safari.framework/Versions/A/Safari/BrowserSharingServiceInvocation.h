@@ -4,37 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrowserViewController, NSSharingService, NSString;
+@class BrowserViewController;
 @protocol BrowserSharingServiceInvocationDelegate;
 
 __attribute__((visibility("hidden")))
 @interface BrowserSharingServiceInvocation
 {
     id <BrowserSharingServiceInvocationDelegate> _delegate;
-    BrowserViewController *_browserViewController;
-    NSSharingService *_sharingService;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)H{;
 - (id);
 - (id);
 - (struct CGRect);
-- (void);
+- (void);
 - (void);
 - (void)Ø;
 
 // Remaining properties
 @property(readonly, nonatomic) BrowserViewController *browserViewController; // @synthesize browserViewController=_browserViewController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSSharingService *sharingService; // @synthesize sharingService=_sharingService;
-@property(readonly) Class superclass;
 
 @end
 

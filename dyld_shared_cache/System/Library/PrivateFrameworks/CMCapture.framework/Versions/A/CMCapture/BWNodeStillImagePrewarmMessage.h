@@ -6,12 +6,11 @@
 
 #import <CMCapture/BWNodeMessage.h>
 
-@class BWPrewarmResourceConfiguration, BWStillImageSettings;
+@class BWStillImageSettings;
 
 @interface BWNodeStillImagePrewarmMessage : BWNodeMessage
 {
     BWStillImageSettings *_stillImageSettings;
-    BWPrewarmResourceConfiguration *_resourceConfig;
 }
 
 + (id);
@@ -21,7 +20,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly) BWPrewarmResourceConfiguration *resourceConfig; // @synthesize resourceConfig=_resourceConfig;
 @property(readonly) BWStillImageSettings *stillImageSettings;
 
 @end

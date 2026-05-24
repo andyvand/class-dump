@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SSRTriggerPhraseDetectorNDAPI, SSRTriggerPhraseDetectorQuasar;
+@class SSRTriggerPhraseDetectorNDAPI;
 
 @interface SSRTriggerPhraseDetector
 {
     float _recognizerScoreScaleFactor;
-    SSRTriggerPhraseDetectorNDAPI *_detectorNDAPI;
-    SSRTriggerPhraseDetectorQuasar *_detectorQuasar;
 }
 
 + (id);
@@ -18,7 +16,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)�H$;
 - (id);
 - (void);
 - (float);
@@ -26,8 +24,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SSRTriggerPhraseDetectorNDAPI *detectorNDAPI; // @synthesize detectorNDAPI=_detectorNDAPI;
-@property(retain, nonatomic) SSRTriggerPhraseDetectorQuasar *detectorQuasar; // @synthesize detectorQuasar=_detectorQuasar;
-@property(nonatomic) float recognizerScoreScaleFactor; // @synthesize recognizerScoreScaleFactor=_recognizerScoreScaleFactor;
 
 @end
 

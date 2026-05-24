@@ -6,18 +6,11 @@
 
 #import <GameController/GCPhysicalInputProfile.h>
 
-@class GCController, GCControllerButtonInput, GCControllerDirectionPad;
+@class GCController;
 
 @interface GCMicroGamepad : GCPhysicalInputProfile
 {
     CDUnknownBlockType _valueChangedHandler;
-    long long _deviceType;
-    _Bool _reportsAbsoluteDpadValues;
-    _Bool _allowsRotation;
-    GCControllerButtonInput *_button0;
-    GCControllerButtonInput *_button1;
-    GCControllerDirectionPad *_dpad;
-    GCControllerButtonInput *_buttonMenu;
 }
 
 + (id);
@@ -29,35 +22,28 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)D<;
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (void);
+- (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)removeCachedThumbnailsFromUninstalledFileProvidersWithIdentifiers:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowsRotation; // @synthesize allowsRotation=_allowsRotation;
-@property(readonly, nonatomic) GCControllerButtonInput *buttonA; // @synthesize buttonA=_button0;
-@property(readonly, nonatomic) GCControllerButtonInput *buttonMenu; // @synthesize buttonMenu=_buttonMenu;
-@property(readonly, nonatomic) GCControllerButtonInput *buttonX; // @synthesize buttonX=_button1;
 @property(readonly, nonatomic) __weak GCController *controller; // @dynamic controller;
-@property(readonly, nonatomic) GCControllerDirectionPad *dpad; // @synthesize dpad=_dpad;
-@property(nonatomic) _Bool reportsAbsoluteDpadValues; // @synthesize reportsAbsoluteDpadValues=_reportsAbsoluteDpadValues;
-@property(copy, nonatomic) CDUnknownBlockType valueChangedHandler; // @synthesize valueChangedHandler=_valueChangedHandler;
 
 @end
 

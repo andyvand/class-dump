@@ -10,10 +10,6 @@ __attribute__((visibility("hidden")))
 @interface GEOPDAmenitiesFilter
 {
     PBUnknownFields *_unknownFields;
-    _Bool _includeAmenityV2;
-    struct {
-        unsigned int has_includeAmenityV2:1;
-    } _flags;
 }
 
 - (id);

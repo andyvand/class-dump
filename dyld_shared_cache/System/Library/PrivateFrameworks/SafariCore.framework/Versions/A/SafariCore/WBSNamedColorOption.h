@@ -9,18 +9,13 @@
 @interface WBSNamedColorOption
 {
     NSString *_colorName;
-    double _redComponent;
-    double _greenComponent;
-    double _blueComponent;
-    double _alphaComponent;
-    NSString *_accessibilityName;
 }
 
 + (id);
 + (_Bool);
 - (_Bool);
 - (id);
-- (double);
+- (double);
 - (double);
 - (double);
 - (id);
@@ -29,19 +24,13 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)B;
 - (void)!Aù±Xð1Â0@ù
 × ;
-- (double);
+- (double)u;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessibilityName; // @synthesize accessibilityName=_accessibilityName;
-@property(readonly, nonatomic) double alphaComponent; // @synthesize alphaComponent=_alphaComponent;
-@property(readonly, nonatomic) double blueComponent; // @synthesize blueComponent=_blueComponent;
 @property(readonly, copy, nonatomic) NSString *colorName; // @synthesize colorName=_colorName;
-@property(readonly, nonatomic) double greenComponent; // @synthesize greenComponent=_greenComponent;
-@property(readonly, nonatomic) _Bool isClearColor;
-@property(readonly, nonatomic) double redComponent; // @synthesize redComponent=_redComponent;
 
 @end
 

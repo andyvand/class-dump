@@ -13,6 +13,5 @@
 
 // Remaining properties
 @property(readonly) NSDictionary *ams_cookies;
-@property(readonly) _Bool ams_requestIsBagLoad;
 @end
 

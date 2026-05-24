@@ -7,13 +7,13 @@
 @class NSArray;
 
 @protocol _INPBShareETAIntentResponse
-- (void)DeviceModel;
-- (NSArray *)ndle;
+- (int);
+- (void)sageSerializer",R,V_serializer;
+- (void)#;
+- (void)hasDeviceModel;
+- (NSArray *)handle;
 
 // Remaining properties
 @property(readonly, nonatomic) int *mediums;
-@property(readonly, nonatomic) unsigned long long mediumsCount;
-@property(copy, nonatomic) NSArray *recipients;
-@property(readonly, nonatomic) unsigned long long recipientsCount;
 @end
 

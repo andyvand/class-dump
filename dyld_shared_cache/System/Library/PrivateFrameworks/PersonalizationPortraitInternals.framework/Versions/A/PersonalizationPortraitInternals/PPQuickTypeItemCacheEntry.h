@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, PPQuickTypeQuery;
+@class NSArray;
 
 @interface PPQuickTypeItemCacheEntry
 {
     NSArray *items;
-    PPQuickTypeQuery *query;
-    NSDate *cachedAtDate;
 }
 
 - (void)÷ð1Â0@ù

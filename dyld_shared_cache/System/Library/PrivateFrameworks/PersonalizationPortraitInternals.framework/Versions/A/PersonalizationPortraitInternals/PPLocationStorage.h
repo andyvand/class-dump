@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PPDKStorage, PPRecordStorageHelper, PPSQLDatabase, PPSourceStorage, PPTrialWrapper;
+@class PPSQLDatabase;
 
 @interface PPLocationStorage
 {
     PPSQLDatabase *_db;
-    PPDKStorage *_dkStorage;
-    id _deletionObserver;
-    PPRecordStorageHelper *_storageHelper;
-    PPSourceStorage *_sourceStorage;
-    PPTrialWrapper *_trialWrapper;
 }
 
-- (_Bool);
+- (_Bool)scriptor == &pg_query__expr__descriptor;
 - (void);
 - (id);
 - (_Bool);
@@ -29,7 +24,7 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)uncachedAttachmentCountQuery:(id)arg1 chatID:services:finishedWithResult: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (_Bool);

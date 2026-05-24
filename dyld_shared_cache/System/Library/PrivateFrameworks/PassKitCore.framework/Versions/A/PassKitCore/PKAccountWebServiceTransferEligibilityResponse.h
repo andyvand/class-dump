@@ -6,23 +6,19 @@
 
 #import <PassKitCore/PKAccountWebServiceResponse.h>
 
-@class NSDecimalNumber;
-
 @interface PKAccountWebServiceTransferEligibilityResponse : PKAccountWebServiceResponse
 {
     unsigned long long _eligibility;
-    NSDecimalNumber *_overflowAmount;
 }
 
 - (id);
 - (id);
-- (id);
-- (void)okenType;
+- (id);
+- (void)tokenType;
 - (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long eligibility; // @synthesize eligibility=_eligibility;
-@property(readonly, copy, nonatomic) NSDecimalNumber *overflowAmount; // @synthesize overflowAmount=_overflowAmount;
 
 @end
 

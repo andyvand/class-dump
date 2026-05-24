@@ -24,7 +24,7 @@
 - (void);
 - (id);
 - (id);
-- (void)InputSkinMatteImage: /* Error: Ran out of types for this method. */;
+- (void)setInputSkinMatteImage: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) PFParallaxColor *color; // @synthesize color=_color;

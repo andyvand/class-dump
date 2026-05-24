@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol EMCollectionItemID;
+
 @protocol MessageSelectionStrategyDataSource
+- (long long)J+@;
+- (id <EMCollectionItemID>);
 @end
 

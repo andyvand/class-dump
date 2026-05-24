@@ -10,13 +10,11 @@
 @interface PPSocialHighlightRanker
 {
     NSObject<PPSocialHighlightScorer> *_firstPassScorer;
-    NSObject<PPSocialHighlightScorer> *_topKScorer;
-    unsigned int _topKCount;
 }
 
+- (id)C;
 - (id);
-- (id);
-- (id);
+- (id)tried to send, Pulling out the guid and marking that message as a failure ;
 - (id);
 - (void)0@ù
 × ;

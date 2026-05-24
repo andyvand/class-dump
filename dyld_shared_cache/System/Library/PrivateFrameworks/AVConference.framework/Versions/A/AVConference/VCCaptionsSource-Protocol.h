@@ -7,7 +7,6 @@
 @protocol VCCaptionsSource
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool captionsEnabled;
 @property(readonly, nonatomic) _Bool captionsSupported;
 @end
 

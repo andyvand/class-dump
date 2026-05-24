@@ -21,12 +21,11 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void)ingOutputDeviceUIDs;
+- (id)PFAssertionPolicyThrow;
+- (id)nch-with-user-activity.begin;
+- (void)clearRemovingOutputDeviceUIDs;
 
 // Remaining properties
-@property(retain, nonatomic) _MRNowPlayingClientProtobuf *client; // @synthesize client=_client;
 @property(readonly, nonatomic) _Bool hasClient;
 
 @end

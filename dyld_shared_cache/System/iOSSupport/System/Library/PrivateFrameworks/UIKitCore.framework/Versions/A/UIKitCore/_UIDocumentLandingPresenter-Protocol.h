@@ -5,5 +5,6 @@
 //
 
 @protocol _UIDocumentLandingPresenter
+- (void);
 @end
 

@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer;
-
 @interface UnknownClass (PKGCoreUI)
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)eringPredicate);
+- (void)s found in derived attribute (filteringPredicate);
+- (void)ation - observer received for  %@ with state %lld;
+- (id)queue.%p;
 
 // Remaining properties
-@property(copy, setter=PKG_setMaterialLayer:) CALayer *PKG_materialLayer;
 @property(copy, setter=PKG_setUpdateLayerKey:) id PKG_updateLayerKey;
 @end
 

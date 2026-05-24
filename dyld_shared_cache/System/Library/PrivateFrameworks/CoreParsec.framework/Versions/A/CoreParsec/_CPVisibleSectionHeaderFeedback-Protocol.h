@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @protocol _CPVisibleSectionHeaderFeedback
+- (id)A;
+- (int)tu_predicateForConversationLinkDescriptorsWithCreationDate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) int headerType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *sectionId;
 @property(nonatomic) unsigned long long timestamp;
 @end
 

@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMappedObjectStore, NSString;
+@class NSMappedObjectStore;
 
 __attribute__((visibility("hidden")))
 @interface NSPersistentStoreMap
 {
     NSMappedObjectStore *_store;
-    NSString *_databaseUUID;
-    NSDictionary *_storeMetadata;
-    unsigned long long _nextPK64;
-    NSDictionary *_mappings;
 }
 
 + (void)ntext connection may not be reset;
@@ -23,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
+- (void))`;
 - (id);
 - (id)DQ:(id)arg1;
 - (id)_DBSTATUS_CACHE_HIT:(id)arg1 %s (%d)

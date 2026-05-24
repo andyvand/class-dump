@@ -4,53 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBActionItem, _SFPBColor, _SFPBImage, _SFPBRichText;
+@class NSArray;
 
 @interface _SFPBRichTitleCardSection
 {
     _Bool _canBeHidden;
-    _Bool _hasTopPadding;
-    _Bool _hasBottomPadding;
-    _Bool _isCentered;
-    _Bool _reviewNewLine;
-    _Bool _hideVerticalDivider;
-    _Bool _titleNoWrap;
-    _Bool _thumbnailCropCircle;
-    _Bool _subtitleIsEmphasized;
-    int _separatorStyle;
-    float _rating;
-    int _auxiliaryBottomTextColor;
-    int _auxiliaryAlignment;
-    int _titleAlign;
-    int _titleWeight;
-    int _playActionAlign;
-    NSArray *_punchoutOptions;
-    NSString *_punchoutPickerTitle;
-    NSString *_punchoutPickerDismissText;
-    NSString *_type;
-    _SFPBColor *_backgroundColor;
-    NSString *_title;
-    NSString *_subtitle;
-    NSString *_contentAdvisory;
-    _SFPBImage *_titleImage;
-    NSString *_descriptionText;
-    NSString *_ratingText;
-    _SFPBImage *_reviewGlyph;
-    NSString *_reviewText;
-    NSArray *_moreGlyphs;
-    NSString *_auxiliaryTopText;
-    NSString *_auxiliaryMiddleText;
-    NSString *_auxiliaryBottomText;
-    _SFPBImage *_imageOverlay;
-    _SFPBActionItem *_playAction;
-    NSArray *_offers;
-    NSString *_footnote;
-    _SFPBRichText *_richSubtitle;
-    NSArray *_buttonItems;
 }
 
 - (int);
-- (_Bool);
+- (_Bool);
 - (int);
 - (_Bool);
 - (_Bool);
@@ -64,7 +26,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)R;
 - (id);
 - (unsigned long long);
 - (id);
@@ -72,9 +34,9 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)`B;
 - (_Bool);
-- (id);
+- (id)_;
 - (id);
 - (id);
 - (int);
@@ -90,6 +52,7 @@
 - (void);
 - (void);
 - (void);
+- (void)a;
 - (void);
 - (void);
 - (void);
@@ -107,8 +70,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)C;
 - (id);
 - (void);
 - (void);
@@ -123,9 +85,9 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)_tvShowSubscriptionAdamID;
+- (_Bool)tainStationMetadata;
+- (_Bool)ingRental,V_streamingRental;
 - (id);
 - (id);
 - (void);
@@ -135,14 +97,14 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)providerSource:(id)arg1 reportedChannelWithUUID:startedConnectingAtDate: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)runPFLWithAttachments:(id)arg1 recipeUserInfo:resultBlock: /* Error: Ran out of types for this method. */;
+- (void)didSendChangesToServiceWithResult:(id)arg1;
 - (float);
-- (id);
+- (id)ot match the current search suggestion SPI version:%d, cannot instantiate suggestion /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -155,53 +117,7 @@
 - (int)t;
 
 // Remaining properties
-@property(nonatomic) int auxiliaryAlignment; // @synthesize auxiliaryAlignment=_auxiliaryAlignment;
-@property(copy, nonatomic) NSString *auxiliaryBottomText; // @synthesize auxiliaryBottomText=_auxiliaryBottomText;
-@property(nonatomic) int auxiliaryBottomTextColor; // @synthesize auxiliaryBottomTextColor=_auxiliaryBottomTextColor;
-@property(copy, nonatomic) NSString *auxiliaryMiddleText; // @synthesize auxiliaryMiddleText=_auxiliaryMiddleText;
-@property(copy, nonatomic) NSString *auxiliaryTopText; // @synthesize auxiliaryTopText=_auxiliaryTopText;
-@property(retain, nonatomic) _SFPBColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(copy, nonatomic) NSArray *buttonItems; // @synthesize buttonItems=_buttonItems;
-@property(nonatomic) _Bool canBeHidden; // @synthesize canBeHidden=_canBeHidden;
-@property(copy, nonatomic) NSString *contentAdvisory; // @synthesize contentAdvisory=_contentAdvisory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *descriptionText; // @synthesize descriptionText=_descriptionText;
-@property(copy, nonatomic) NSString *footnote; // @synthesize footnote=_footnote;
-@property(nonatomic) _Bool hasBottomPadding; // @synthesize hasBottomPadding=_hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding; // @synthesize hasTopPadding=_hasTopPadding;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool hideVerticalDivider; // @synthesize hideVerticalDivider=_hideVerticalDivider;
-@property(retain, nonatomic) _SFPBImage *imageOverlay; // @synthesize imageOverlay=_imageOverlay;
-@property(nonatomic) _Bool isCentered; // @synthesize isCentered=_isCentered;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *moreGlyphs; // @synthesize moreGlyphs=_moreGlyphs;
-@property(copy, nonatomic) NSArray *offers; // @synthesize offers=_offers;
-@property(retain, nonatomic) _SFPBActionItem *playAction; // @synthesize playAction=_playAction;
-@property(nonatomic) int playActionAlign; // @synthesize playActionAlign=_playActionAlign;
 @property(copy, nonatomic) NSArray *punchoutOptions; // @synthesize punchoutOptions=_punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText; // @synthesize punchoutPickerDismissText=_punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle; // @synthesize punchoutPickerTitle=_punchoutPickerTitle;
-@property(nonatomic) float rating; // @synthesize rating=_rating;
-@property(copy, nonatomic) NSString *ratingText; // @synthesize ratingText=_ratingText;
-@property(retain, nonatomic) _SFPBImage *reviewGlyph; // @synthesize reviewGlyph=_reviewGlyph;
-@property(nonatomic) _Bool reviewNewLine; // @synthesize reviewNewLine=_reviewNewLine;
-@property(copy, nonatomic) NSString *reviewText; // @synthesize reviewText=_reviewText;
-@property(retain, nonatomic) _SFPBRichText *richSubtitle; // @synthesize richSubtitle=_richSubtitle;
-@property(nonatomic) int separatorStyle; // @synthesize separatorStyle=_separatorStyle;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(nonatomic) _Bool subtitleIsEmphasized; // @synthesize subtitleIsEmphasized=_subtitleIsEmphasized;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool thumbnailCropCircle; // @synthesize thumbnailCropCircle=_thumbnailCropCircle;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(nonatomic) int titleAlign; // @synthesize titleAlign=_titleAlign;
-@property(retain, nonatomic) _SFPBImage *titleImage; // @synthesize titleImage=_titleImage;
-@property(nonatomic) _Bool titleNoWrap; // @synthesize titleNoWrap=_titleNoWrap;
-@property(nonatomic) int titleWeight; // @synthesize titleWeight=_titleWeight;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

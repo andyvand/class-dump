@@ -9,7 +9,6 @@
 @interface SignpostSupportSubsystemCategoryFilterEntry
 {
     NSString *_subsystem;
-    NSString *_category;
 }
 
 - (id);
@@ -18,7 +17,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *category; // @synthesize category=_category;
 @property(readonly, nonatomic) NSString *subsystem; // @synthesize subsystem=_subsystem;
 
 @end

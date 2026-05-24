@@ -7,9 +7,9 @@
 @class NSData;
 
 @protocol _SFPBLocalImage
+- (NSData *)ableOrderedSet",&,N,V_ignoredKeys;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int localImageType;
 @end
 

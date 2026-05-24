@@ -7,7 +7,7 @@
 @interface UnknownClass (Saving)
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)4;
 - (id);
 @end
 

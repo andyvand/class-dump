@@ -15,7 +15,7 @@
 + (id);
 + (id);
 - (id);
-- (_Bool);
+- (_Bool)equencyDomain ? (input[0].size() >= 2 * numFrames) :(id)arg1 (input[0].size() >= numFrames);
 
 @end
 

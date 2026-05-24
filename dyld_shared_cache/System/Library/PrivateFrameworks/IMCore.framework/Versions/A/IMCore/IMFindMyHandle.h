@@ -4,31 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FMFHandle, FMLHandle, NSString;
+@class NSString;
 
 @interface IMFindMyHandle
 {
     NSString *_identifier;
-    FMFHandle *_fmfHandle;
-    FMLHandle *_fmlHandle;
 }
 
-+ (id);
-+ (id);
-+ (id);
-- (id);
-- (id);
-- (id);
++ (id)];
++ (id)samplebuffer from pixelBuffer[%p];
++ (id)[%@];
+- (id)mpute audio Tx bit rate because timePeriod=%fs < (AUDIO_TRANSMITTER_MIN_BITRATE_REPORT_PERIOD=%fs);
+- (id)ickerMode=%s. Resetting the audio tier picker;
+- (id)H;
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (void);
-- (id);
+- (_Bool);
+- (void)hed to write had problems, fetching next batch ***;
+- (id)";
 - (void)ø;
 
 // Remaining properties
-@property(readonly, nonatomic) FMFHandle *fmfHandle; // @synthesize fmfHandle=_fmfHandle;
-@property(readonly, nonatomic) FMLHandle *fmlHandle; // @synthesize fmlHandle=_fmlHandle;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end

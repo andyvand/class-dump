@@ -7,6 +7,7 @@
 @class UIViewFloatAnimatableProperty;
 
 @protocol _UIViewHybridPropertyAnimator
+- (void)IMChatSessionCloseProcessingPipelineComponent;
 
 // Remaining properties
 @property(readonly, nonatomic) UIViewFloatAnimatableProperty *progressValue;

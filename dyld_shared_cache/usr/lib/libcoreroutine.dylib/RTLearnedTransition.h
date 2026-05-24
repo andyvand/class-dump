@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSUUID;
+@class NSUUID;
 
 @interface RTLearnedTransition
 {
     NSUUID *_identifier;
-    NSDate *_startDate;
-    NSDate *_stopDate;
-    NSUUID *_visitIdentifierOrigin;
-    NSUUID *_visitIdentifierDestination;
-    NSDate *_creationDate;
-    NSDate *_expirationDate;
-    unsigned long long _predominantMotionActivityType;
 }
 
 + (id);
@@ -25,37 +18,23 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)********* Faking phone number challenge, switch is ON !! ***********;
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)j';
 - (_Bool);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)sals:(unsigned long long)arg1 remoteProposals:preferRemoteProposals:checkKEMethod:] /* Error: Ran out of types for this method. */;
+- (unsigned long long)$;
 - (id);
 - (id);
 - (void)%p to start high accuracy location request.;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) unsigned long long predominantMotionActivityType; // @synthesize predominantMotionActivityType=_predominantMotionActivityType;
-@property(readonly, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(readonly, nonatomic) NSDate *stopDate; // @synthesize stopDate=_stopDate;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSUUID *visitIdentifierDestination; // @synthesize visitIdentifierDestination=_visitIdentifierDestination;
-@property(readonly, nonatomic) NSUUID *visitIdentifierOrigin; // @synthesize visitIdentifierOrigin=_visitIdentifierOrigin;
 
 @end
 

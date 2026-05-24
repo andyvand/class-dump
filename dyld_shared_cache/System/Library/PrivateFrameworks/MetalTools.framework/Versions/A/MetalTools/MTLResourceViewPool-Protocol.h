@@ -5,14 +5,11 @@
 //
 
 @class NSString;
-@protocol MTLDevice;
 
 @protocol MTLResourceViewPool
+- (NSString *);
 
 // Remaining properties
 @property(readonly, nonatomic) struct MTLResourceID baseResourceID;
-@property(readonly) id <MTLDevice> device;
-@property(readonly, nonatomic) NSString *label;
-@property(readonly, nonatomic) unsigned long long resourceViewCount;
 @end
 

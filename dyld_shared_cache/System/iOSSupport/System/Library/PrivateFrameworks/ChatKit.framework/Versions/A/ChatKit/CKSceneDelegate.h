@@ -4,41 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKConversation, CKMacToolbarController, NSString, UIWindow, UIWindowScene;
+@class UIWindowScene;
 
 @interface CKSceneDelegate
 {
     UIWindowScene *_scene;
-    UIWindow *_window;
-    CKMacToolbarController *_toolbarController;
-    CKConversation *_conversation;
 }
 
 + (id);
-+ (id);
-+ (Class);
++ (id)hasAnyLockedNotes;
++ (Class);
+- (void)textController:(id)arg1 updatedTrackedAttribute: /* Error: Ran out of types for this method. */;
+- (void)setTipKitCheckRegex:(id)arg1;
+- (void)insertedSpaceInTextView:(id)arg1 replacementRange: /* Error: Ran out of types for this method. */;
+- (void)insertTimeRange:(id)arg1 ofAsset:atTime:error: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)ic_fontSizeForSubheaderImport;
+- (id)NSMutableDictionary",&,N,V_expansionState;
+- (id)@"NSMutableArray",&,N,V_lockedObjectsInSource;
 - (void);
 - (id);
+- (void)recover your password.;
+- (void)DevicePasswordTitle;
+- (void);
 - (void);
 - (id);
 - (void);
+- (id);
+- (void)`;
 - (long long);
 - (void);
 - (id);
-- (id);
+- (id)3;
 - (void);
 - (void)lBùqÐ1Â0@ù
 × ;
@@ -52,17 +49,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CKConversation *conversation; // @synthesize conversation=_conversation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) __weak UIWindowScene *scene; // @synthesize scene=_scene;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) CKMacToolbarController *toolbarController; // @synthesize toolbarController=_toolbarController;
-@property(retain, nonatomic) UIWindow *window; // @synthesize window=_window;
 
 @end
 

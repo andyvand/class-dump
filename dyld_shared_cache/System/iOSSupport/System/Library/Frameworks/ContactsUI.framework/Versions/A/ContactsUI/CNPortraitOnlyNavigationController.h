@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (unsigned long long): /* Error: Ran out of types for this method. */;
+- (unsigned long long)meCardUpdaterDidDeclineSetPhotoToMeCard: /* Error: Ran out of types for this method. */;
 
 @end
 

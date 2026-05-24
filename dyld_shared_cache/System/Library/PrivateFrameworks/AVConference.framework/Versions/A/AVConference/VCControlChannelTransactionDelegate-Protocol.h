@@ -5,9 +5,9 @@
 //
 
 @protocol VCControlChannelTransactionDelegate
+- (_Bool)hF;
 
 // Remaining properties
-@property(readonly) _Bool isEncryptionEnabled;
 @property(readonly, nonatomic) unsigned long long nextTransactionID;
 @end
 

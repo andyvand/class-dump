@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NPHMMClassifier, NPNameComponentsData;
+@class NPHMMClassifier;
 
 @interface NPNameParser
 {
     double _confidenceThreshold;
-    NPNameComponentsData *_nameComponentsData;
-    NPHMMClassifier *_classifier;
 }
 
 - (struct _CFBurstTrie *);
@@ -22,18 +20,18 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)B;
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
+- (_Bool)F;
 - (_Bool);
-- (_Bool);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (void);
+- (void)h;
 - (id);
 - (id);
 - (id);

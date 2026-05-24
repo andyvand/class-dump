@@ -12,7 +12,7 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void)#16@0:(id)arg1 8;
 - (struct CGRect);
 - (id);
 

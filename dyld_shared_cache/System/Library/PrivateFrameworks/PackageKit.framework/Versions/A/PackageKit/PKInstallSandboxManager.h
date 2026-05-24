@@ -10,7 +10,6 @@
 @interface PKInstallSandboxManager
 {
     NSObject<OS_dispatch_queue> *_repoQueue;
-    NSObject<OS_dispatch_queue> *_sandboxRemoveQueue;
 }
 
 - (void);

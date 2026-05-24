@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface USWebUsageReport
 {
     _Bool _webUsageTrusted;
-    NSString *_domainIdentifier;
-    double _totalUsageTime;
-    NSDictionary *_webUsageByDomain;
 }
 
 + (_Bool);
@@ -21,7 +18,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)renderTarget_colorBuffer_first;
 - (id);
 - (void);
 - (void);
@@ -29,9 +26,6 @@
 
 // Remaining properties
 @property(readonly, copy) NSString *domainIdentifier; // @synthesize domainIdentifier=_domainIdentifier;
-@property(readonly) double totalUsageTime; // @synthesize totalUsageTime=_totalUsageTime;
-@property(readonly, copy) NSDictionary *webUsageByDomain; // @synthesize webUsageByDomain=_webUsageByDomain;
-@property(readonly) _Bool webUsageTrusted; // @synthesize webUsageTrusted=_webUsageTrusted;
 
 @end
 

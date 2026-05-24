@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WDCharacterProperties, WDTableProperties;
+@class WDTableProperties;
 
 __attribute__((visibility("hidden")))
 @interface WDTableRowProperties
 {
     WDTableProperties *mTableProperties;
-    WDCharacterProperties *mCharacterProperties;
-    unsigned int mOriginal:1;
-    unsigned int mTracked:1;
-    unsigned int mResolved:1;
-    CDStruct_43955328 mOriginalProperties;
-    CDStruct_43955328 mTrackedProperties;
 }
 
 - (short);
 - (int);
-- (short);
+- (short)	;
 - (void);
 - (void);
 - (void);
@@ -47,7 +41,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (id);
-- (void);
+- (void)/outlook.office365.com/autodiscover/autodiscover.json;
 - (void)or TSUZipEndOfCentralDirectoryRecord;
 - (_Bool);
 

@@ -4,72 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAuthorizationContext, CNCollation, CNContactChangesNotifier, CNContactStore, CNContactsEnvironment, CNFavorites, CNGeminiManager, CNHealthStoreManager, CNUICoreRecentsManager, CNUIExternalComponentsFactory, CNUIIDSAvailabilityProvider, CNUIMeContactMonitor, CNUISchedulerProvider, CNUIUserActivityManager, NSString;
-@protocol CNCapabilities, CNLSApplicationWorkspace, CNUIApplicationLaunchCheckin, CNUIDefaultUserActionFetcher, CNUILikenessRendering, CNUIPRLikenessResolver, CNUIPlaceholderProviderFactory, CNUIUserActionDiscoveringEnvironment;
+@class CNUISchedulerProvider;
 
 @interface CNUIContactsEnvironment
 {
     CNUISchedulerProvider *_defaultSchedulerProvider;
-    id <CNUIPlaceholderProviderFactory> _placeholderProviderFactory;
-    CNContactStore *_contactStore;
-    CNContactStore *_inProcessContactStore;
-    CNFavorites *_inProcessFavorites;
-    CNUIUserActivityManager *_inProcessActivityManager;
-    CNUIMeContactMonitor *_meMonitor;
-    id <CNUIPRLikenessResolver> _cachingLikenessResolver;
-    id <CNUILikenessRendering> _cachingLikenessRenderer;
-    id <CNUILikenessRendering> _cachingMonogramRenderer;
-    id <CNUIUserActionDiscoveringEnvironment> _actionDiscoveringEnvironment;
-    CNUIIDSAvailabilityProvider *_idsAvailabilityProvider;
-    id <CNLSApplicationWorkspace> _applicationWorkspace;
-    id <CNCapabilities> _capabilities;
-    id <CNUIDefaultUserActionFetcher> _defaultUserActionFetcher;
-    CNContactChangesNotifier *_contactChangesNotifier;
-    CNUICoreRecentsManager *_recentsManager;
-    CNUIExternalComponentsFactory *_componentsFactory;
-    struct UCollator *_sortCollator;
-    CNCollation *_collation;
-    CNHealthStoreManager *_healthStoreManager;
-    id <CNUIApplicationLaunchCheckin> _launchCheckinRegistrar;
-    CNAuthorizationContext *_authorizationContext;
-    NSString *_personaId;
-    CNGeminiManager *_geminiManager;
-    CNContactsEnvironment *_cnEnvironment;
 }
 
 + (id);
-+ (id);
++ (id)sionTask"24@"NSURLSessionTaskMetrics"32;
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)p;
 - (void);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)_cdpiCloudPrefRecoveryKeyController;
+- (void)textAlignment;
 - (void);
 - (id);
 - (id);
+- (id)_insertManagedObject:fromChange:entityName: /* Error: Ran out of types for this method. */;
+- (id)setReturnedValue:forMethodName: /* Error: Ran out of types for this method. */;
+- (id)geProtocol>";
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)}16^{__CFDictionary=}24;
+- (id)setResourceValue:forKey:error: /* Error: Ran out of types for this method. */;
+- (id)MTMAPIRequest;
+- (id)IDCSiG;
+- (void).ShazamSignatureRequest;
+- (id)SavedCodingKeys;
 - (void);
 - (id);
 - (id);
@@ -79,7 +53,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)a;
 - (id);
 - (id);
 - (id);
@@ -96,10 +70,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void),N,V_keyboardGroupCache;
 - (void);
 - (id);
 - (id);
@@ -107,8 +78,11 @@
 - (id);
 - (id);
 - (void);
+- (id)0:8@"NSCoder"16 /* Error: Ran out of types for this method. */;
 - (id);
+- (void);
 - (id);
+- (id)_archiveForString:URL:needsPlainTextBodyClass: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (struct UCollator *);
@@ -116,40 +90,14 @@
 - (void)@ù
 × ;
 - (void);
-- (id)guration;
-- (void)in;
+- (id)defaultContentConfiguration;
+- (void)addToContactLeadingMargin;
 - (id)V_sortDate;
 - (void)tarting from Contacts %s mode;
 - (id)D;
 
 // Remaining properties
-@property(retain, nonatomic) id <CNUIUserActionDiscoveringEnvironment> actionDiscoveringEnvironment; // @synthesize actionDiscoveringEnvironment=_actionDiscoveringEnvironment;
-@property(retain, nonatomic) id <CNLSApplicationWorkspace> applicationWorkspace; // @synthesize applicationWorkspace=_applicationWorkspace;
-@property(retain, nonatomic) CNAuthorizationContext *authorizationContext; // @synthesize authorizationContext=_authorizationContext;
-@property(retain, nonatomic) id <CNUILikenessRendering> cachingLikenessRenderer; // @synthesize cachingLikenessRenderer=_cachingLikenessRenderer;
-@property(retain, nonatomic) id <CNUIPRLikenessResolver> cachingLikenessResolver; // @synthesize cachingLikenessResolver=_cachingLikenessResolver;
-@property(retain, nonatomic) id <CNUILikenessRendering> cachingMonogramRenderer; // @synthesize cachingMonogramRenderer=_cachingMonogramRenderer;
-@property(retain, nonatomic) id <CNCapabilities> capabilities; // @synthesize capabilities=_capabilities;
-@property(readonly, nonatomic) CNContactsEnvironment *cnEnvironment; // @synthesize cnEnvironment=_cnEnvironment;
-@property(retain, nonatomic) CNCollation *collation; // @synthesize collation=_collation;
-@property(retain, nonatomic) CNUIExternalComponentsFactory *componentsFactory; // @synthesize componentsFactory=_componentsFactory;
-@property(retain, nonatomic) CNContactChangesNotifier *contactChangesNotifier; // @synthesize contactChangesNotifier=_contactChangesNotifier;
-@property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
 @property(retain, nonatomic) CNUISchedulerProvider *defaultSchedulerProvider; // @synthesize defaultSchedulerProvider=_defaultSchedulerProvider;
-@property(retain, nonatomic) id <CNUIDefaultUserActionFetcher> defaultUserActionFetcher; // @synthesize defaultUserActionFetcher=_defaultUserActionFetcher;
-@property(retain, nonatomic) CNGeminiManager *geminiManager; // @synthesize geminiManager=_geminiManager;
-@property(retain, nonatomic) CNHealthStoreManager *healthStoreManager; // @synthesize healthStoreManager=_healthStoreManager;
-@property(retain, nonatomic) CNUIIDSAvailabilityProvider *idsAvailabilityProvider; // @synthesize idsAvailabilityProvider=_idsAvailabilityProvider;
-@property(retain, nonatomic) CNUIUserActivityManager *inProcessActivityManager; // @synthesize inProcessActivityManager=_inProcessActivityManager;
-@property(retain, nonatomic) CNContactStore *inProcessContactStore; // @synthesize inProcessContactStore=_inProcessContactStore;
-@property(retain, nonatomic) CNFavorites *inProcessFavorites; // @synthesize inProcessFavorites=_inProcessFavorites;
-@property(retain, nonatomic) id <CNUIApplicationLaunchCheckin> launchCheckinRegistrar; // @synthesize launchCheckinRegistrar=_launchCheckinRegistrar;
-@property(retain, nonatomic) CNUIMeContactMonitor *meMonitor; // @synthesize meMonitor=_meMonitor;
-@property(retain, nonatomic) NSString *personaId; // @synthesize personaId=_personaId;
-@property(retain, nonatomic) id <CNUIPlaceholderProviderFactory> placeholderProviderFactory; // @synthesize placeholderProviderFactory=_placeholderProviderFactory;
-@property(retain, nonatomic) CNUICoreRecentsManager *recentsManager; // @synthesize recentsManager=_recentsManager;
-@property(readonly, nonatomic) _Bool runningInContactsAppOniPad;
-@property(nonatomic) struct UCollator *sortCollator; // @synthesize sortCollator=_sortCollator;
 
 @end
 

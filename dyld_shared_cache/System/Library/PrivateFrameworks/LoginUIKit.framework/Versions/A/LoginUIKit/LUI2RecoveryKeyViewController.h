@@ -6,22 +6,18 @@
 
 #import <LoginUIKit/LUI2ViewController.h>
 
-@class LUI2TextFieldBackgroundView, LUI2TextFieldViewController, NSControl, NSString, NSVisualEffectView;
+@class LUI2TextFieldBackgroundView, NSVisualEffectView;
 
 @interface LUI2RecoveryKeyViewController : LUI2ViewController
 {
     LUI2TextFieldBackgroundView *_backgroundView;
-    LUI2TextFieldViewController *_textFieldViewController;
-    NSControl *_backButton;
-    NSControl *_loginButton;
-    NSVisualEffectView *_backBackgroundView;
 }
 
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void);
+- (void);
+- (id)Qh^;
 - (void);
 - (id);
 - (void);
@@ -35,17 +31,6 @@
 
 // Remaining properties
 @property(retain) NSVisualEffectView *backBackgroundView; // @synthesize backBackgroundView=_backBackgroundView;
-@property(readonly) NSControl *backButton; // @synthesize backButton=_backButton;
-@property(readonly) LUI2TextFieldBackgroundView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSControl *loginButton; // @synthesize loginButton=_loginButton;
-@property(readonly) Class superclass;
-@property(readonly) LUI2TextFieldViewController *textFieldViewController; // @synthesize textFieldViewController=_textFieldViewController;
 
 @end
 

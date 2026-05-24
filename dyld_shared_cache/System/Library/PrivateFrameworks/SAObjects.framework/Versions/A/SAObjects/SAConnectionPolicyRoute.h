@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface SAConnectionPolicyRoute : AceObject
 {
@@ -25,8 +25,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)|;
+- (void)<std:(long long)arg1:string>, std::hash<std::string>>, std::allocator<std::pair<const std::string, int>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, int>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, int>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, int>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, int>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -34,27 +34,11 @@
 - (void);
 - (void);
 - (id);
-- (id)ation: /* Error: Ran out of types for this method. */;
+- (id)setFadeInDuration: /* Error: Ran out of types for this method. */;
 - (long long)¬üÿ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *cname;
-@property(copy, nonatomic) NSString *connectionId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *host;
-@property(copy, nonatomic) NSNumber *mptcp;
-@property(nonatomic) long long priority;
-@property(copy, nonatomic) NSString *resolver;
-@property(copy, nonatomic) NSString *resolverProtocol;
-@property(copy, nonatomic) NSString *routeId;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSNumber *timeout;
-@property(copy, nonatomic) NSString *type;
 
 @end
 

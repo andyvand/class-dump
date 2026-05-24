@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURL;
+@class NSData, NSURL;
 
 __attribute__((visibility("hidden")))
 @interface __NSTemporaryFileURL
 {
     NSData *_data;
-    NSString *_filename;
-    NSURL *_url;
 }
 
-- (id);
+- (id)R`!;
 - (void);
-- (id)tations;
+- (id)_updateSliceIndentations;
 
 // Remaining properties
 @property(readonly) NSURL *url; // @dynamic url;

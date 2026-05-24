@@ -11,30 +11,46 @@
     _EFCancelationTokenImpl *_impl;
 }
 
-+ (id);
++ (id)%@;
 + (id);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)itYP+OoOOy8
+FfQv7cZpAeqUQUjskrbMBc1j37Z8aLOcTYaCtBZAmHskF0sorH8ifMP4WosujclM
+OHq550YvEKBP5Ru2k63Yr+iIdRi0/KhOY3KnkdQQPvZpv/lDHJMI94CoTk+q8cRT
+PYbp07MZ0HCqcoSvWqJSkFUFU4mN0URrzefEWoaM1v79XotKLJ1d1UHl1g1NYQID
+AQABo4IBdDCCAXAwCwYDVR0PBAQDAgeAMB0GA1UdDgQWBBRNUHrWTCJEEYhLdJg4
+aWdVrhVcyTAfBgNVHSMEGDAWgBQg3LdXGCprV0KOvrt2jGNYIOqlazCCAR8GCiqG
+SIb3Y2QGAQ8BAf8EggEMMYIBCP+E6oWcUIG2MIGzFgRNQU5QMYGq/4SSuYZIDDAK
+FgRCTkNIoAIFAP+Ekr2kRAwwChYEQk9SRKACBQD/hJqVoE8LMAkWBENFUE8CAQH/
+hJqhklANMAsWBENISVACAwCAEP+EmsGkTwwwChYEQ1BST6ACBQD/hJrNikMMMAoW
+BENTRUOgAgUA/4SqjZJEDDAKFgRFQ0lEoAIFAP+FmpGeTQswCRYEU0RPTQIBAf+H
+m7nebgwwChYEc25vbqACBQD/hPqJlFBDMEEWBE9CSlAxOf+Eop2mVAwwChYEREdT
+VKACBQD/hKrBpE8MMAoWBEVQUk+gAgUA/4SqzYpDDDAKFgRFU0VDoAIFADANBgkq
+hkiG9w0BAQwFAAOCAgEAVAXAPmj/jf6PUZVObk16AVwFaAe+kKXfxZ8bq37CD7Ck
+9/fUHizrYMYT3LfadXHR0zi5OzAQaSFa9z/CqnJ4t7hpccaSsQRgP6qp9uKQASfS
+C9pLLEB1YT9CCL+z4KKvVA8ddvk79weDtypStI7X2pw9JxQ30yIPD47/zD2ayq0C
+TUy3V3HVXMy4eZ2vOCn9sooSQ560B3px+Xng+B8thUGVHvC/LL/gaiU61mRwd+YM
+kxEHAlCsi0eE8ENtDhET4SFqfQU/pw5YwGefjw8Lp/hlEXUXTkHgmMxMrtb8wFit
+JxMfkL8h3BsJNuj3I8xhXxEEiBh/EOC5z2lHYD1CyKhK0PXoGtXpxVdy6MpGwyud
+xXP5F1Eez7Mf4vJdSx4QAPbaAQKYRuYFJgSy9DEMqW/p5jsDWMN0henJXKUDwcQf
+/iT6aoFw/Dsf2NV/X6cuQGTuxAMDFZVoOu0G1KT+81jkxGkcAUFo3O51grT1kyil
+OZ9a600C3M+fWObNlyc7ziylO5+20ribbGtoLBM4Nw45jacZjsDGkHGAXs1eJ1Kr
+iO7ssQPZsGBlpvoOZEWr7pVePScE3hv2QXczw3q2445KeectZRTMSqtzAQPC1RKA
+zQx6et3D+v7i6U7Calr+tS/TpITA+Sj8tWjCrCXyPvhD2XhC42KjkrwLsRMRunA=
+-----END CERTIFICATE-----
+;
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, getter=isCanceled) _Bool canceled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *label;
-@property(readonly) Class superclass;
 
 @end
 

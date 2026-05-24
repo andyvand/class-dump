@@ -13,7 +13,7 @@
 
 - (void);
 - (CDUnknownBlockType);
-- (id)iner;
+- (id)container;
 - (void)ervice %@.;
 - (id)stemTask"8;
 - (id)e manifest file at %@ for package %@ and operation %{public}@:(id)arg1 %@;

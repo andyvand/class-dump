@@ -5,13 +5,11 @@
 //
 
 @class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue, TIAnalyticsServiceProvider;
+@protocol OS_dispatch_queue;
 
 @interface TIAnalyticsService
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_eventSpecs;
-    id <TIAnalyticsServiceProvider> _provider;
 }
 
 + (void);
@@ -29,27 +27,28 @@
 - (_Bool);
 - (void);
 - (void);
+- (_Bool)searchIndexCategoriesIndexSetFromPLSearchSuggestionCategoriesTypeIndexSet:(id)arg1;
+- (void)ransferFaceCropWithUuid:(id)arg1 %{public}@ failed, rolling back destination library;
+- (void)undle ID:(id)arg1 %s;
+- (id)livelyColorScore;
+- (id);
+- (void);
+- (void);
 - (_Bool);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)ated:(id)arg1 %@
+;
 - (void);
 - (void);
 - (id);
@@ -68,7 +67,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *eventSpecs; // @synthesize eventSpecs=_eventSpecs;
-@property(readonly, nonatomic) id <TIAnalyticsServiceProvider> provider; // @synthesize provider=_provider;
 
 @end
 

@@ -7,20 +7,6 @@
 @interface NewsUI2.SearchFetcher
 {
     id connection;
-    id configManager;
-    id configPromise;
-    id searchEndpointConfigs;
-    id searchEndpointConfigManager;
-    id purchaseProvider;
-    id bundleSubscriptionProvider;
-    id userInterfaceIdiom;
-    id storefrontID;
-    id queryContextManager;
-    id locationRegionManager;
-    id queryContext;
-    id localAreas;
-    id logger;
-    id featureAvailability;
 }
 
 - (id);

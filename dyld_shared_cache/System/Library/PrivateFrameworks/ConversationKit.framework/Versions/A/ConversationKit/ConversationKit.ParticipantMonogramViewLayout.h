@@ -7,12 +7,6 @@
 @interface ConversationKit.ParticipantMonogramViewLayout
 {
     id glowView;
-    id audioVisualizer;
-    id bellIcon;
-    id ringButton;
-    id contactView;
-    id titleView;
-    id subtitleView;
 }
 
 @end

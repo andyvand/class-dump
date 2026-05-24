@@ -4,15 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol NSCustomTextRendering, _NSCustomTextRenderingDisplayLink;
+@protocol NSCustomTextRendering, _NSCustomTextRenderingDisplayLink, _NSTextAnimator;
 
 @protocol _UICustomTextRenderController
+- (void)i;
+- (void)saveAttachmentsForTransfer:(id <_NSCustomTextRenderingDisplayLink>)arg1 chatGUID:storeAtExternalLocation:completion: /* Error: Ran out of types for this method. */;
+- (id <_NSCustomTextRenderingDisplayLink>);
+- (struct CGRect);
+- (id <_NSTextAnimator>);
 - (id <NSCustomTextRendering>)3yACyACyACyACyñ¾7L¦.3G¿.3y@q¾7ë¾7GGì¾7G&¦.3G».3GtG;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect _customRenderBounds;
-@property(retain, nonatomic, setter=_setCustomRenderDisplayLink:) id <_NSCustomTextRenderingDisplayLink> _customRenderDisplayLink;
-@property(nonatomic) _Bool allowsTextAnimations;
 @property(retain, nonatomic) id <NSCustomTextRendering> customRenderController;
 @end
 

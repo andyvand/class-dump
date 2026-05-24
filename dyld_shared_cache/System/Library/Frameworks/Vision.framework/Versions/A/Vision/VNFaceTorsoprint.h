@@ -6,13 +6,11 @@
 
 #import <Vision/VNEspressoModelImageprint.h>
 
-@class VNFaceprint, VNTorsoprint;
+@class VNFaceprint;
 
 @interface VNFaceTorsoprint : VNEspressoModelImageprint
 {
     VNFaceprint *_faceprint;
-    VNTorsoprint *_torsoprint;
-    unsigned long long _personId;
 }
 
 + (_Bool);
@@ -39,16 +37,12 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)currentResponseWithRequest:(id)arg1;
 - (void);
 - (void)mm-ss-SSS;
 
 // Remaining properties
-@property(readonly, nonatomic) VNFaceprint *faceprint; // @synthesize faceprint=_faceprint;
 @property(nonatomic) unsigned long long personId; // @synthesize personId=_personId;
-@property(readonly, nonatomic) VNTorsoprint *torsoprint; // @synthesize torsoprint=_torsoprint;
-@property(readonly, nonatomic, getter=isValidFaceprint) _Bool validFaceprint;
-@property(readonly, nonatomic, getter=isValidTorsoprint) _Bool validTorsoprint;
 
 @end
 

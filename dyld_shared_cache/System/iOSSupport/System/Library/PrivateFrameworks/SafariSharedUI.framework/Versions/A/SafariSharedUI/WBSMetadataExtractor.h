@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class JSContext, WKWebProcessPlugInFrame, WKWebProcessPlugInScriptWorld;
+@class WKWebProcessPlugInFrame, WKWebProcessPlugInScriptWorld;
 
 @interface WBSMetadataExtractor
 {
     WKWebProcessPlugInScriptWorld *_webProcessPlugInScriptWorld;
-    JSContext *_context;
-    WKWebProcessPlugInFrame *_webProcessPlugInFrame;
 }
 
 + (id);
@@ -20,16 +18,15 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)C;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void)ceDidCommitLoad:loadingSingleResource: /* Error: Ran out of types for this method. */;
+- (void)progressStateSourceDidCommitLoad:loadingSingleResource: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) JSContext *context;
 @property(readonly, nonatomic) WKWebProcessPlugInFrame *webProcessPlugInFrame; // @synthesize webProcessPlugInFrame=_webProcessPlugInFrame;
 
 @end

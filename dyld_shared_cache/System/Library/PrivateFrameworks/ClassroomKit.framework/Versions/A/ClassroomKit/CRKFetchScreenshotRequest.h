@@ -7,20 +7,18 @@
 @interface CRKFetchScreenshotRequest
 {
     unsigned long long _maxWidth;
-    unsigned long long _maxHeight;
 }
 
 + (Class);
 + (_Bool);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)_aggregteZeroDeltaCount;
 - (void);
 - (unsigned long long);
-- (void);
+- (void)L;
 
 // Remaining properties
-@property(nonatomic) unsigned long long maxHeight; // @synthesize maxHeight=_maxHeight;
 @property(nonatomic) unsigned long long maxWidth; // @synthesize maxWidth=_maxWidth;
 
 @end

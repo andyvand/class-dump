@@ -8,19 +8,17 @@ __attribute__((visibility("hidden")))
 @interface EDPhoneticRun
 {
     unsigned int mCharIndex;
-    unsigned int mBaseCharIndex;
-    unsigned int mBaseCharCount;
 }
 
 - (void);
 - (void);
-- (unsigned int);
+- (unsigned int);
 - (unsigned int);
 - (void);
 - (void);
-- (unsigned int);
+- (unsigned int)_lp_similarityToString: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)extendInferenceMillis;
 
 @end
 

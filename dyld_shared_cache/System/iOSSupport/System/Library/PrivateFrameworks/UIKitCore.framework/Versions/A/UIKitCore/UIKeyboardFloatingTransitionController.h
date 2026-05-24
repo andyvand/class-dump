@@ -4,37 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMapTable, NSString, UIInputWindowController, UIKBVisualEffectView, UIKeyboardFloatingPinchGestureRecognizer, UIKeyboardFloatingTransitionState, UIPanGestureRecognizer, UIView, UIViewSpringAnimationBehavior, _UIKBLightEffectsBackground, _UIPopoverStandardChromeView;
-@protocol UIKeyboardFloatingTransitionControllerDelegate;
+@class UIKeyboardFloatingPinchGestureRecognizer;
 
 @interface UIKeyboardFloatingTransitionController
 {
     _Bool _initWithStateBasedAnimations;
-    _Bool _isTransitioning;
-    _Bool _startedFromFloating;
-    _Bool _withinDockingRegion;
-    _Bool _expandedForDocking;
-    id <UIKeyboardFloatingTransitionControllerDelegate> _delegate;
-    UIKeyboardFloatingPinchGestureRecognizer *_pinchGestureRecognizer;
-    UIPanGestureRecognizer *_panGestureRecognizer;
-    UIInputWindowController *_inputWindowController;
-    UIKeyboardFloatingTransitionState *_startState;
-    UIKeyboardFloatingTransitionState *_endState;
-    NSArray *_commonVisibleKeys;
-    UIView *_platterView;
-    UIView *_platterCornerRadiusView;
-    _UIPopoverStandardChromeView *_platterPopoverBackgroundView;
-    UIKBVisualEffectView *_platterVisualEffectView;
-    _UIKBLightEffectsBackground *_lightEffectsTransitionBackdrop;
-    UIView *_pillView;
-    double _progress;
-    double _gestureBeginTime;
-    UIViewSpringAnimationBehavior *_animationBehavior;
-    NSMapTable *_activeKeyboardLayoutGuideTransitionAssertions;
-    struct CGPoint _lastGestureCenter;
 }
 
-+ (id);
++ (id)ion. Got:(id)arg1 %d, expected:%d /* Error: Ran out of types for this method. */;
 + (double);
 + (_Bool);
 + (struct CGRect);
@@ -53,48 +30,48 @@
 - (void);
 - (void);
 - (void);
+- (void)X;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)vate}s;
+- (void)r:(id)arg1 %s;
+- (void)Updated KT opt in state:(double)arg1 %{bool,private}d. initial load? %{bool,public}d;
+- (void)s updated, ensuring BGST tasks are submitted;
+- (void)e update is not from me, not processing:(id)arg1 %@;
+- (void)ight:(id)arg1 %@. Attempting to find the handle for the mentioned identity.;
+- (void)%@ style:%d /* Error: Ran out of types for this method. */;
+- (id)nd processing;
+- (id)pipeline;
+- (id)receipt %@;
+- (id)=> Posting database full;
+- (struct CGPoint)nlock so we need to put updates into a temporary map until we leave first unlock;
+- (void).iMessageReceivedMessage;
+- (void)as not synced successfully;
+- (void)from one of our devices (senderDevice %s) isInProxyMode %@;
+- (void)is message was not for us to gatekeep, we should reflect it only if it came from one of our devices (senderDevice %s) isInProxyMode %@;
+- (double)tifier:%@ /* Error: Ran out of types for this method. */;
+- (void)mpty;
+- (_Bool)ssageToPeers:Compressing data /* Error: Ran out of types for this method. */;
+- (void)%@;
+- (void)ce:(id)arg1 %@), number of accounts:%lu /* Error: Ran out of types for this method. */;
+- (void)enerate CKRecord for Chat;
+- (id)StateChange;
+- (void)r;
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
+- (void);
 - (id);
-- (id);
-- (struct CGPoint);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (id);
+- (id)rotectionType;
 - (id);
 - (_Bool);
 - (void);
@@ -102,8 +79,8 @@
 - (id);
 - (void)ionList";
 - (void)unsigned short, 16UL>="_vector""_size"Q}}"__tail"(__union<std:(id)arg1:__variant_detail::_Trait::_Available, 2UL, std::vector<unsigned long>>="__dummy"c"__head"{__alt<2UL, std::vector<unsigned long>>="__value"{vector<unsigned long, std::allocator<unsigned long>>="__begin_"^Q"__end_"^Q""{?="__cap_"^Q}}}"__tail"(__union<std::__variant_detail::_Trait::_Available, 3UL>=))))"__index"I}} /* Error: Ran out of types for this method. */;
-- (id)s: /* Error: Ran out of types for this method. */;
-- (void)mator:(id)arg1 customAnimationsProvider: /* Error: Ran out of types for this method. */;
+- (id)documentPicker:didPickDocumentsAtURLs: /* Error: Ran out of types for this method. */;
+- (void)applySnapshot:(id)arg1 toSection:viewPropertyAnimator:customAnimationsProvider: /* Error: Ran out of types for this method. */;
 - (_Bool)earingKeyName;
 - (id)number of rows for section (%ld) which is out of bounds.;
 - (id)but not both.;
@@ -116,35 +93,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMapTable *activeKeyboardLayoutGuideTransitionAssertions; // @synthesize activeKeyboardLayoutGuideTransitionAssertions=_activeKeyboardLayoutGuideTransitionAssertions;
-@property(retain) UIViewSpringAnimationBehavior *animationBehavior; // @synthesize animationBehavior=_animationBehavior;
-@property(retain, nonatomic) NSArray *commonVisibleKeys; // @synthesize commonVisibleKeys=_commonVisibleKeys;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <UIKeyboardFloatingTransitionControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UIKeyboardFloatingTransitionState *endState; // @synthesize endState=_endState;
-@property(nonatomic) _Bool expandedForDocking; // @synthesize expandedForDocking=_expandedForDocking;
-@property(nonatomic) double gestureBeginTime; // @synthesize gestureBeginTime=_gestureBeginTime;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak UIInputWindowController *inputWindowController; // @synthesize inputWindowController=_inputWindowController;
-@property(nonatomic) _Bool isTransitioning; // @synthesize isTransitioning=_isTransitioning;
-@property(nonatomic) struct CGPoint lastGestureCenter; // @synthesize lastGestureCenter=_lastGestureCenter;
-@property(retain, nonatomic) _UIKBLightEffectsBackground *lightEffectsTransitionBackdrop; // @synthesize lightEffectsTransitionBackdrop=_lightEffectsTransitionBackdrop;
-@property(retain, nonatomic) UIPanGestureRecognizer *panGestureRecognizer; // @synthesize panGestureRecognizer=_panGestureRecognizer;
-@property(retain, nonatomic) UIView *pillView; // @synthesize pillView=_pillView;
 @property(retain, nonatomic) UIKeyboardFloatingPinchGestureRecognizer *pinchGestureRecognizer; // @synthesize pinchGestureRecognizer=_pinchGestureRecognizer;
-@property(retain, nonatomic) UIView *platterCornerRadiusView; // @synthesize platterCornerRadiusView=_platterCornerRadiusView;
-@property(retain, nonatomic) _UIPopoverStandardChromeView *platterPopoverBackgroundView; // @synthesize platterPopoverBackgroundView=_platterPopoverBackgroundView;
-@property(retain, nonatomic) UIView *platterView; // @synthesize platterView=_platterView;
-@property(retain, nonatomic) UIKBVisualEffectView *platterVisualEffectView; // @synthesize platterVisualEffectView=_platterVisualEffectView;
-@property(nonatomic) double progress; // @synthesize progress=_progress;
-@property(retain, nonatomic) UIKeyboardFloatingTransitionState *startState; // @synthesize startState=_startState;
-@property(nonatomic) _Bool startedFromFloating; // @synthesize startedFromFloating=_startedFromFloating;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool withinDockingRegion; // @synthesize withinDockingRegion=_withinDockingRegion;
 
 @end
 

@@ -6,17 +6,15 @@
 
 #import <ContactsFoundation/CNInhibitor.h>
 
-@class NSObject, NSString;
-@protocol OS_os_transaction;
+@class NSString;
 
 @interface _CNOSTransactionInhibitor : CNInhibitor
 {
     NSString *_label;
-    NSObject<OS_os_transaction> *_transaction;
 }
 
-- (id);
-- (void);
+- (id));
+- (void)h;
 - (id);
 - (void);
 - (id);
@@ -24,7 +22,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly, nonatomic) NSObject<OS_os_transaction> *transaction; // @synthesize transaction=_transaction;
 
 @end
 

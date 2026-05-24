@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NUChannelMediaFormat, NUIdentifier;
+@class NUChannelMediaFormat;
 
 @interface PIOrientationPipelineBuilder
 {
@@ -15,13 +15,12 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (void)ersectionAreaToMaskAreaThreshold: /* Error: Ran out of types for this method. */;
+- (id)6;
+- (id)nForConference;
+- (void)setInpaintPixellationIntersectionAreaToMaskAreaThreshold: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NUChannelMediaFormat *format; // @synthesize format=_format;
-@property(readonly, nonatomic) NUIdentifier *identifier;
 
 @end
 

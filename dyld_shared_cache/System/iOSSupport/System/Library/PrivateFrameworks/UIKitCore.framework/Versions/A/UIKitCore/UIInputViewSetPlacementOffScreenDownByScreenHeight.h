@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)ification;
++ (_Bool)UIApplicationTestingTestFinishedNotification;
 - (id)iew"8@"UITraitCollection"16;
 
 @end

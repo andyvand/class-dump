@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDecimalNumber, NSString;
+@class NSDecimalNumber;
 
 @interface WFQuantityValue
 {
     NSDecimalNumber *_magnitude;
-    NSString *_unitString;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
-- (void);
+- (void)#;;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDecimalNumber *magnitude; // @synthesize magnitude=_magnitude;
-@property(readonly, copy, nonatomic) NSString *unitString; // @synthesize unitString=_unitString;
 
 @end
 

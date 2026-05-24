@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLocale, SFTranscriberModelOptions, SFTranscriberReportingOptions;
+@class NSLocale;
 
 @interface SFSpeechAnalyzerTranscriberOptions
 {
     NSLocale *_locale;
-    long long _taskHint;
-    SFTranscriberModelOptions *_modelOptions;
-    unsigned long long _transcriptionOptions;
-    SFTranscriberReportingOptions *_reportingOptions;
 }
 
 - (unsigned long long);
@@ -20,20 +16,16 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)requiresUsername;
 - (long long);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)not a JSON object;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(copy, nonatomic) SFTranscriberModelOptions *modelOptions; // @synthesize modelOptions=_modelOptions;
-@property(copy, nonatomic) SFTranscriberReportingOptions *reportingOptions; // @synthesize reportingOptions=_reportingOptions;
-@property(nonatomic) long long taskHint; // @synthesize taskHint=_taskHint;
-@property(nonatomic) unsigned long long transcriptionOptions; // @synthesize transcriptionOptions=_transcriptionOptions;
 
 @end
 

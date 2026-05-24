@@ -4,36 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface INStartCallRequestMetadata
 {
     _Bool _appInferred;
 }
 
-+ (id);
++ (id);
 + (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)setVideoRecordingGesture:(id)arg1;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)setExportedObject:(id)arg1;
+- (void)EFERRED NETWORKS (%lu);
 - (id);
-- (id);
-- (id)racter;
+- (id)P;
+- (id)if_stringByUppercasingFirstCharacter;
 - (id)lVÉ;
 
 // Remaining properties
 @property(readonly) _Bool appInferred; // @synthesize appInferred=_appInferred;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBUserActivityData;
+@class NSString;
 
 @interface _SFPBPunchout
 {
     _Bool _isRunnableInBackground;
-    _Bool _hasClip;
-    _Bool _forceOpenInBrowser;
-    NSString *_name;
-    NSString *_bundleIdentifier;
-    NSString *_label;
-    NSArray *_urls;
-    _SFPBUserActivityData *_userActivityData;
-    NSString *_actionTarget;
 }
 
 - (void);
@@ -41,8 +33,8 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id)privateEncryptedComputeLocationAnalysisVersion;
+- (id)PLSearchBackendFetchAssetUUIDsForDateComponents;
 - (id);
 - (void);
 - (id);
@@ -53,23 +45,7 @@
 - (void)"SFHorizontalButtonCardSection"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *actionTarget; // @synthesize actionTarget=_actionTarget;
-@property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool forceOpenInBrowser; // @synthesize forceOpenInBrowser=_forceOpenInBrowser;
-@property(nonatomic) _Bool hasClip; // @synthesize hasClip=_hasClip;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isRunnableInBackground; // @synthesize isRunnableInBackground=_isRunnableInBackground;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *urls; // @synthesize urls=_urls;
-@property(retain, nonatomic) _SFPBUserActivityData *userActivityData; // @synthesize userActivityData=_userActivityData;
 
 @end
 

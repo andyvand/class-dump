@@ -6,12 +6,9 @@
 
 #import <Silex/SXMediaEvent.h>
 
-@class NSArray;
-
 @interface SXMediaViewEvent : SXMediaEvent
 {
     unsigned long long _galleryImageCount;
-    NSArray *_galleryImageIds;
 }
 
 - (void);
@@ -23,7 +20,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long galleryImageCount; // @synthesize galleryImageCount=_galleryImageCount;
-@property(retain, nonatomic) NSArray *galleryImageIds; // @synthesize galleryImageIds=_galleryImageIds;
 
 @end
 

@@ -4,84 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMCollaborationInitiationRequestInfo, IMHandle, NSArray, NSAttributedString, NSData, NSDate, NSDictionary, NSError, NSString, TUConversationActivity;
-
 @interface IMMessage
 {
     _Bool _isInvitationMessage;
-    _Bool _isAddressedToMe;
-    _Bool _hasMention;
-    _Bool _timeSensitive;
-    _Bool _isHQTransfer;
-    _Bool _useStandalone;
-    _Bool _shouldNotifyOnSend;
-    _Bool _sentViaRemoteIntent;
-    _Bool _isRCSSendWithoutEncryption;
-    _Bool _isFirstUnencryptedSend;
-    IMHandle *_sender;
-    IMHandle *_subject;
-    NSAttributedString *_messageSubject;
-    NSDate *_time;
-    NSAttributedString *_text;
-    NSString *_guid;
-    long long _messageID;
-    unsigned long long _flags;
-    NSError *_error;
-    NSArray *_fileTransferGUIDs;
-    NSDate *_timeDelivered;
-    NSDate *_timeRead;
-    NSDate *_timePlayed;
-    NSString *_associatedMessageGUID;
-    long long _associatedMessageType;
-    NSString *_associatedMessageEmoji;
-    NSDictionary *_messageSummaryInfo;
-    NSDictionary *_bizIntent;
-    NSString *_locale;
-    NSString *_threadIdentifier;
-    IMMessage *_threadOriginator;
-    NSDictionary *_replyCountsByPart;
-    NSArray *_syndicationRanges;
-    NSArray *_syncedSyndicationRanges;
-    NSDate *_dateEdited;
-    NSDate *_dateRecovered;
-    NSString *_plainBody;
-    NSString *_balloonBundleID;
-    NSData *_payloadData;
-    NSString *_associatedBalloonBundleID;
-    NSString *_sourceApplicationID;
-    NSString *_expressiveSendStyleID;
-    NSDate *_timeExpressiveSendPlayed;
-    NSData *_customTypingIndicatorIcon;
-    NSString *_notificationIDSTokenURI;
-    unsigned long long _scheduleType;
-    unsigned long long _scheduleState;
-    NSString *_biaReferenceID;
-    IMCollaborationInitiationRequestInfo *_collaborationInitiationRequestInfo;
-    TUConversationActivity *_groupActivity;
-    unsigned long long _sortID;
-    NSDictionary *_telemetryMetrics;
-    NSString *_telemetryMetricsReasonCode;
-    struct _NSRange _associatedMessageRange;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id):(id)arg1 @ AVCVirtualTTYDevice-stop;
++ (id)t present;
++ (id)resolution=%zux%zu;
++ (id)ameinfo dictionary is not present;
++ (id)%@ SCStream=%@;
++ (id)e;
++ (id):(id)arg1 %d %@(%p) compound streamID increased for stream %hu, generating key frame;
++ (id)Streams:(id)arg1 %@;
++ (id)re of type:(id)arg1 %d;
++ (id)registering from video capture of type:(id)arg1 %d;
++ (id)%s:(id)arg1 %d Registering for screen capture of type:(id)arg2 %d;
++ (id):(id)arg1 %d %@(%p) Registering for video capture of type:(unsigned long long)arg2 %d;
++ (id)DCapture is only available for screen, and should not be called for streamGroupID=%s;
++ (id)rtualCapture;
++ (id)g=%d);
++ (id)R10DefaultNegotiation=%d (feature flag=%d);
++ (id)Starting Switch _oneToOneModeEnabled=%d to oneToOneEnabled=%d isLocal=%d;
++ (id)%s:(id)arg1 %d No endpoints in the endpoints array;
 
 @end
 

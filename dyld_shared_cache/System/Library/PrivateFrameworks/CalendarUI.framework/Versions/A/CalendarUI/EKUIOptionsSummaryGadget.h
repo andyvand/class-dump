@@ -10,11 +10,11 @@
 {
 }
 
-- (_Bool);
+- (_Bool)|;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)NSt3__110__function6__funcIZN3ctu4rest15property_sink_tI18rest_service_stateE9bind_implIRM15RestServiceBaseFv16RestServiceStateES8_EEvRNS2_10RestModuleEPT0_OT_NS_17integral_constantIbLb0EEEEUlRKN3xpc6objectEE_FvSM_EEE;
 
 @end
 

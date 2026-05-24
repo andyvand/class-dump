@@ -7,7 +7,6 @@
 @interface AppStoreKit.AppStoreEngagementRegistry
 {
     id accessQueue;
-    id _properties;
 }
 
 @end

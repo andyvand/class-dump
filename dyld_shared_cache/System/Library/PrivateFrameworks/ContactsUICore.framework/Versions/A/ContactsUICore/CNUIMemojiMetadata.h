@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatar, AVTStickerConfiguration, NSData, NSString;
+@class NSString;
 @protocol AVTAvatarRecord;
 
 @interface CNUIMemojiMetadata
 {
     id <AVTAvatarRecord> _avatarRecord;
-    AVTStickerConfiguration *_poseConfiguration;
-    AVTAvatar *_avatar;
-    NSString *_accessibilityDescription;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -36,21 +33,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *accessibilityDescription; // @synthesize accessibilityDescription=_accessibilityDescription;
-@property(readonly, nonatomic) AVTAvatar *avatar; // @synthesize avatar=_avatar;
-@property(readonly, nonatomic) id <AVTAvatarRecord> avatarRecord; // @synthesize avatarRecord=_avatarRecord;
-@property(readonly, nonatomic) NSData *avatarRecordData;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasTallContent;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) AVTStickerConfiguration *poseConfiguration; // @synthesize poseConfiguration=_poseConfiguration;
-@property(readonly, nonatomic) NSData *poseConfigurationData;
-@property(readonly, nonatomic) _Bool poseHasBody;
-@property(readonly) Class superclass;
 
 @end
 

@@ -12,13 +12,12 @@
 @interface PXOutlineDataSectionManager : PXDataSectionManager
 {
     NSDictionary *_dataSectionManagersByDataSectionObjects;
-    id <PXOutlineDataSectionManagerDelegate> _delegate;
 }
 
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)lX;
 - (id);
 - (id);
 - (id);

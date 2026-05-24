@@ -7,18 +7,6 @@
 @interface NewsUI2.TodayFeedPool
 {
     id config;
-    id dateRange;
-    id priority;
-    id feedConfigData;
-    id lazyFeedItems;
-    id headlines;
-    id tags;
-    id recipes;
-    id forYou;
-    id myHeadlines;
-    id missedStories;
-    id suggestions;
-    id magazines;
 }
 
 @end

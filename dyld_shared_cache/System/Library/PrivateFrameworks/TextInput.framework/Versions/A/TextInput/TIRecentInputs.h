@@ -6,12 +6,9 @@
 
 #import <TextInput/TILexicon.h>
 
-@class NSString;
-
 @interface TIRecentInputs : TILexicon
 {
     _Bool _needsSync;
-    NSString *_filePath;
 }
 
 + (_Bool);
@@ -29,7 +26,7 @@
 + (void);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)!;
 + (_Bool);
 + (void);
 + (id);
@@ -40,7 +37,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)+;
 - (id);
 - (_Bool)× ;
 - (void)ª
@@ -50,7 +47,6 @@
 ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *filePath; // @synthesize filePath=_filePath;
 @property(nonatomic) _Bool needsSync; // @synthesize needsSync=_needsSync;
 
 @end

@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @protocol _SFPBClearProactiveCategoryCommand
+- (int)tableView:heightOfRow: /* Error: Ran out of types for this method. */;
+- (NSData *)PHAssetCrashRecoveryUnarchiver;
 
 // Remaining properties
 @property(nonatomic) int category;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *proactiveIdentifier;
-@property(nonatomic) _Bool shouldClearWholeSection;
 @end
 

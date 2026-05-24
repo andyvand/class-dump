@@ -4,41 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOCollectionDetails
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_62a50c50 _collectionIds;
-    NSString *_collectionCategory;
-    unsigned long long _targetId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _currentlySaved;
-    struct {
-        unsigned int has_targetId:1;
-        unsigned int has_currentlySaved:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_collectionIds:1;
-        unsigned int read_collectionCategory:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)iants:(id)arg1;
++ (_Bool)setHasNumChainedVariants:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (void);
+- (_Bool)ng, %lu active, %lu completed);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (unsigned long long *);
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -48,34 +32,26 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)initWithServicePort:(id)arg1;
+- (id)ke_2;
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long)eDataReceiveErr_NoAttrValueListRef;
 - (void)!'!<CùÑ¶*Ð1Â0@ù
 × ;
-- (void)eysAtIndex:(unsigned long long)arg1;
+- (void)validPowerTypeKeysAtIndex:(unsigned long long)arg1;
 - (id);
 - (id)d=;
-- (id)R_ASSET;
+- (id)LAYER_VECTOR_ASSET;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *collectionCategory;
-@property(readonly, nonatomic) unsigned long long *collectionIds;
 @property(readonly, nonatomic) unsigned long long collectionIdsCount;
-@property(nonatomic) _Bool currentlySaved;
-@property(readonly, nonatomic) _Bool hasCollectionCategory;
-@property(nonatomic) _Bool hasCurrentlySaved;
-@property(nonatomic) _Bool hasTargetId;
-@property(nonatomic) unsigned long long targetId;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

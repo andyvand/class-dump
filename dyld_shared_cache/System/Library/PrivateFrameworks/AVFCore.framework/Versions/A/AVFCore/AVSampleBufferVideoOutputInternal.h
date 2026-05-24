@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVWeakReference, AVWeakReferencingDelegateStorage, NSObject;
-@protocol OS_dispatch_queue;
+@class AVWeakReference;
 
 __attribute__((visibility("hidden")))
 @interface AVSampleBufferVideoOutputInternal
 {
     AVWeakReference *weakReference;
-    struct OpaqueFigVisualContext *vc;
-    struct OpaqueVTPixelBufferConformer *pixelBufferConformer;
-    NSObject<OS_dispatch_queue> *stateQueue;
-    AVWeakReferencingDelegateStorage *delegateStorage;
-    CDStruct_1b6d18a9 lastImageTime;
 }
 
 @end

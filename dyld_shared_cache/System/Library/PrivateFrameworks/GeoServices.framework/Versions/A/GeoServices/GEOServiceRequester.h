@@ -9,8 +9,6 @@
 @interface GEOServiceRequester
 {
     NSMapTable *_pendingRequests;
-    struct os_unfair_lock_s _pendingRequestsLock;
-    NSArray *_networkOperationClasses;
 }
 
 - (void);

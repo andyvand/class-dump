@@ -4,51 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSTableView;
-@protocol UAShortcutPickerViewControllerDelegate;
+@class NSTableView;
 
 @interface UAShortcutPickerViewController
 {
     _Bool _allowsMultipleSelection;
-    id <UAShortcutPickerViewControllerDelegate> _delegate;
-    NSTableView *__tableView;
-    NSArray *__availableShortcuts;
 }
 
+- (void)transportType"b1"operationType"b1"wasCached"b1"wasLocal"b1"wasRemoteAccessAllowed"b1"wasResidentFirstEnabled"b1"wasRapportSlow"b1"residentFirstDuration"b1"residentFirstErrorCode"b1"totalDuration"b1"finalErrorCode"b1"consecutiveFailureCount"b1};
+- (void)1};
+- (id)iredInSeconds"b1};
+- (void)core"b1};
+- (void)"tokenRate"b1"timeToFirstTokenMillis"b1"extendLatencyMillis"b1"outputTokensCount"b1"inputTokensCount"b1};
+- (void)"GMSSchemaGMSPrivateCloudSpeculativeDecodingMetrics";
+- (id)ase"b1"externalPartner"b1"genAIAgentUsed"b1};
+- (void)SchemaGMSModelRequestContext";
+- (id)ntentEventEnded";
+- (void)PEGASUSMAPSFEATURE_THIRD_PARTY_DIRECTIONS;
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id);
 - (long long);
 - (void);
 - (void);
-- (id);
+- (id)!;
 - (_Bool);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *_availableShortcuts; // @synthesize _availableShortcuts=__availableShortcuts;
 @property(nonatomic) __weak NSTableView *_tableView; // @synthesize _tableView=__tableView;
-@property(nonatomic) _Bool allowsMultipleSelection; // @synthesize allowsMultipleSelection=_allowsMultipleSelection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <UAShortcutPickerViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *selectedShortcutWorkflows;
-@property(readonly) Class superclass;
 
 @end
 

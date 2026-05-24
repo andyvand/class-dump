@@ -7,12 +7,6 @@
 @interface NewsFeed.FeaturePromotionManager
 {
     id configFetcher;
-    id eligibilityChecker;
-    id viewModelFactory;
-    id resolvedDataSourceFactory;
-    id featureAvailability;
-    id hostSessionRecord;
-    id presentationArchive;
 }
 
 @end

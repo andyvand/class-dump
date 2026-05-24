@@ -7,7 +7,6 @@
 @protocol MTLAccelerationStructure
 
 // Remaining properties
-@property(readonly) struct MTLResourceID gpuResourceID;
 @property(readonly, nonatomic) unsigned long long size;
 @end
 

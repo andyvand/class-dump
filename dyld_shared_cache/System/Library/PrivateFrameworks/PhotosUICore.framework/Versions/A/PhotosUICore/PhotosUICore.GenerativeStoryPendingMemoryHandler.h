@@ -7,8 +7,6 @@
 @interface PhotosUICore.GenerativeStoryPendingMemoryHandler
 {
     id $defaultActor;
-    id photoLibrary;
-    id logger;
 }
 
 @end

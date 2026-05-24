@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
 @protocol HMIHomePersonManagerDataSource;
 
 @interface HMIRemoveFaceCropsOperation
 {
     id <HMIHomePersonManagerDataSource> _dataSource;
-    NSSet *_faceCropUUIDs;
 }
 
 + (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -23,7 +21,6 @@
 
 // Remaining properties
 @property(readonly) id <HMIHomePersonManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly) NSSet *faceCropUUIDs; // @synthesize faceCropUUIDs=_faceCropUUIDs;
 
 @end
 

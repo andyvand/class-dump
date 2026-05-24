@@ -7,13 +7,10 @@
 @interface TSAudioTimeErrorCorrelator
 {
     long long _maxCorrelationLength;
-    long long _upscaleFactor;
-    double _samplingRate;
-    CDUnknownBlockType _correlationBlock;
 }
 
 - (void);
-- (id);
+- (id)R$;
 - (CDUnknownBlockType);
 - (void);
 - (void);

@@ -6,29 +6,23 @@
 
 #import <EventKit/EKParticipantChange.h>
 
-@class EKObjectID, NSString;
+@class EKObjectID;
 
 @interface EKAttendeeChange : EKParticipantChange
 {
     _Bool _attendeeRole;
-    _Bool _attendeeStatus;
-    EKObjectID *_ownerID;
-    NSString *_attendeeEmailAddress;
 }
 
 + (int);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (id)to <%f>. Endpoint=<%{public}@>;
+- (_Bool)e"8;
+- (_Bool)@"MRAVConcreteOutputDevice"8;
+- (id)ent.m;
+- (id)initWithIdentifier:parameters: /* Error: Ran out of types for this method. */;
 - (void)±2'ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *attendeeEmailAddress; // @synthesize attendeeEmailAddress=_attendeeEmailAddress;
-@property(readonly, nonatomic) _Bool attendeeRole; // @synthesize attendeeRole=_attendeeRole;
-@property(readonly, nonatomic) _Bool attendeeStatus; // @synthesize attendeeStatus=_attendeeStatus;
 @property(readonly, nonatomic) EKObjectID *ownerID; // @synthesize ownerID=_ownerID;
 
 @end

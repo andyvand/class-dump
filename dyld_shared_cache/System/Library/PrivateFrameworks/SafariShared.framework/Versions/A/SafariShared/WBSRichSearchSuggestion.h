@@ -9,9 +9,6 @@
 @interface WBSRichSearchSuggestion
 {
     NSString *_title;
-    NSString *_subtitle;
-    NSString *_entityIDURLParameter;
-    NSString *_imageURLString;
 }
 
 + (id);
@@ -19,21 +16,17 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)stallClipRect];
+- (unsigned long long)`;
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)end Message;
 - (id);
 - (void)ä;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *entityIDURLParameter; // @synthesize entityIDURLParameter=_entityIDURLParameter;
-@property(readonly, nonatomic) NSString *imageURLString; // @synthesize imageURLString=_imageURLString;
-@property(readonly, nonatomic) _Bool isValid;
-@property(readonly, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

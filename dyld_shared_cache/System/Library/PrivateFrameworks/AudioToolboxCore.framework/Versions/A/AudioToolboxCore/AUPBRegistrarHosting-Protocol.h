@@ -5,5 +5,6 @@
 //
 
 @protocol AUPBRegistrarHosting
+- (void);
 @end
 

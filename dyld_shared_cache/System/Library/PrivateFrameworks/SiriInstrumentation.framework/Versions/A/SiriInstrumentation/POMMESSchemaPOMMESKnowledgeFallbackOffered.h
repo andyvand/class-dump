@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface POMMESSchemaPOMMESKnowledgeFallbackOffered : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_pommesSessionId;
-    _Bool _isKnowledgeFallbackConfirmationShown;
-    int _offeredAgent;
-    struct {
-        unsigned int isKnowledgeFallbackConfirmationShown:1;
-        unsigned int offeredAgent:1;
-    } _has;
-    _Bool _hasPommesSessionId;
 }
 
 - (void);
@@ -37,23 +30,17 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (void)⢀R;
+- (unsigned long long)iGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDRollableLog_macOS.m:24 :Not supported on macOS /* Error: Ran out of types for this method. */;
+- (_Bool)Zb;
+- (_Bool)in IMDP with limit %lld;
 - (id);
 - (id);
-- (id)orted;
+- (id)_plusSuggesterSuggestionMetadataReported;
 - (id)ntentTarget;
-- (void)OMEAUTOMATIONREQUESTTYPE_ACE_TOGGLE;
+- (void)FLOWHOMEAUTOMATIONREQUESTTYPE_ACE_TOGGLE;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsKnowledgeFallbackConfirmationShown;
-@property(nonatomic) _Bool hasOfferedAgent;
-@property(nonatomic) _Bool hasPommesSessionId; // @synthesize hasPommesSessionId=_hasPommesSessionId;
-@property(nonatomic) _Bool isKnowledgeFallbackConfirmationShown; // @synthesize isKnowledgeFallbackConfirmationShown=_isKnowledgeFallbackConfirmationShown;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int offeredAgent; // @synthesize offeredAgent=_offeredAgent;
 @property(retain, nonatomic) SISchemaUUID *pommesSessionId; // @synthesize pommesSessionId=_pommesSessionId;
 
 @end

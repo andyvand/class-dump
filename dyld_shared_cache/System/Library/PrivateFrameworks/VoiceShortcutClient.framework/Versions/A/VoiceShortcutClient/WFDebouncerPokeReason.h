@@ -9,7 +9,6 @@
 @interface WFDebouncerPokeReason
 {
     NSString *_reason;
-    id _userInfo;
 }
 
 - (id);
@@ -21,7 +20,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *reason; // @synthesize reason=_reason;
-@property(retain, nonatomic) id userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

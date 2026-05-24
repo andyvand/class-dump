@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (unsigned long long);
-- (const void *);
+- (const void *)Set2GUserPreferenceRequest;
 
 @end
 

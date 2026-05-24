@@ -6,14 +6,12 @@
 
 #import <AppleMediaServices/AMSMetricsOperation.h>
 
-@class AMSMutablePromise;
 @protocol AMSMetricsFlushStrategy;
 
 __attribute__((visibility("hidden")))
 @interface AMSMetricsFlushOperation : AMSMetricsOperation
 {
     id <AMSMetricsFlushStrategy> _strategy;
-    AMSMutablePromise *_promise;
 }
 
 - (id);
@@ -22,7 +20,6 @@ __attribute__((visibility("hidden")))
 - (void)ã(×©C2¼_2vo!Å÷#\C<ï4?:gª#{³ýõÆÿNÉ\ÚB¥Û%Mp\2éÖÒJ&G¤(>]õÀÑUÞ.s^ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) AMSMutablePromise *promise; // @synthesize promise=_promise;
 @property(readonly) id <AMSMetricsFlushStrategy> strategy; // @synthesize strategy=_strategy;
 
 @end

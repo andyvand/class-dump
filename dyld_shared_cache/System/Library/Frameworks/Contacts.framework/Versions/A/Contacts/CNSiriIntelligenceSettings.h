@@ -8,10 +8,9 @@ __attribute__((visibility("hidden")))
 @interface CNSiriIntelligenceSettings
 {
     _Atomic _Bool _shouldShowSiriSuggestions;
-    int _notificationToken;
 }
 
-- (void);
+- (void)a;
 - (_Bool);
 - (id);
 - (void);

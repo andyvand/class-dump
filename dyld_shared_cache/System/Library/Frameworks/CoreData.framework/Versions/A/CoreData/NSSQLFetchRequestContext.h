@@ -6,42 +6,24 @@
 
 #import <CoreData/NSSQLStoreRequestContext.h>
 
-@class NSDictionary, NSFaultHandler, NSFetchRequest, NSMutableArray, NSMutableSet, NSSQLEntity, NSSQLModel, NSSQLiteStatement, NSString, _PFFetchPlanHeader;
+@class NSFetchRequest, NSString;
 
 __attribute__((visibility("hidden")))
 @interface NSSQLFetchRequestContext : NSSQLStoreRequestContext
 {
     NSString *_externalDataReferencesDirectory;
-    NSString *_externalDataLinksDirectory;
-    NSString *_fileBackedFuturesDirectory;
-    NSSQLModel *_sqlModel;
-    NSSQLEntity *_sqlEntity;
-    NSFaultHandler *_faultHandler;
-    _PFFetchPlanHeader *_fetchPlan;
-    NSSQLiteStatement *_statement;
-    NSMutableSet *_objectIDsToRegister;
-    NSMutableSet *_objectsToAwaken;
-    NSMutableArray *_resultFaultsThatWereFired;
-    NSSQLFetchRequestContext *_parentContext;
-    int _fileProtectionLevel;
-    _Bool _isFaultRequest;
-    NSFetchRequest *_originalRequest;
-    _Bool _shouldUseBatches;
-    _Bool _isUsingCachedStatement;
-    NSMutableArray *_concurrentFetchingPipelineRows;
-    NSDictionary *_prefetchingSubstitutionVariables;
 }
 
-- (id);
+- (id)5;
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -53,10 +35,7 @@ __attribute__((visibility("hidden")))
 - (void)Z;
 
 // Remaining properties
-@property(retain, nonatomic) NSSQLiteStatement *fetchStatement;
-@property(nonatomic) _Bool isFaultRequest; // @synthesize isFaultRequest=_isFaultRequest;
 @property(readonly, nonatomic) NSFetchRequest *request;
-@property(readonly, nonatomic) _Bool shouldUseBatches; // @synthesize shouldUseBatches=_shouldUseBatches;
 
 @end
 

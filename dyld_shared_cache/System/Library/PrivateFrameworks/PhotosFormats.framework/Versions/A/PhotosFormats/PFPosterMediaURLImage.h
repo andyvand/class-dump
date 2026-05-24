@@ -16,7 +16,7 @@
 + (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)mergeableFieldKeyByRequestID;
 - (void);
 - (_Bool);
 - (void);

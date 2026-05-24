@@ -10,9 +10,9 @@
 {
 }
 
-+ (Class);
++ (Class)innerWhileEmpty;
 + (id);
-+ (void);
++ (void);
 - (id);
 
 @end

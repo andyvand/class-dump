@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDLostModeManager
 {
@@ -19,15 +17,7 @@ __attribute__((visibility("hidden")))
 - (id)emove restricted guest [%@] from the HAP accessory [%@];
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) _Bool isLostOrNeedsExitAuth;
-@property(readonly, getter=isLost) _Bool lost;
-@property(readonly) Class superclass;
 
 @end
 

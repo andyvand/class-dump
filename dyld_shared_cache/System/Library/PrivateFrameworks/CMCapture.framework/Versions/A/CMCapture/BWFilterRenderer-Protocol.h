@@ -7,12 +7,10 @@
 @class NSString;
 
 @protocol BWFilterRenderer
+- (int)A;
 - (_Bool){Ðÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool adjustsMetadata;
 @property(readonly, copy, nonatomic) NSString *displayName;
-@property(readonly, nonatomic) _Bool supportsAnimation;
-@property(readonly, nonatomic) short type;
 @end
 

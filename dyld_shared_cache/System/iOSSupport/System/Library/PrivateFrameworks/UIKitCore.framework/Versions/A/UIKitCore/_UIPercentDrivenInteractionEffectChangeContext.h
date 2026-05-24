@@ -4,33 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _UIPercentDrivenInteractionEffectChangeContext
 {
     _Bool _ended;
-    double _progress;
-    double _maximumProgress;
 }
 
 - (void);
-- (double);
+- (double)eived update for request ID %@;
 - (void);
 - (_Bool);
 - (double)located before animationDidFinish:(%@) /* Error: Ran out of types for this method. */;
 - (void)izations with archive version %ld;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool ended; // @synthesize ended=_ended;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double maximumProgress; // @synthesize maximumProgress=_maximumProgress;
 @property(nonatomic) double progress; // @synthesize progress=_progress;
-@property(readonly) Class superclass;
 
 @end
 

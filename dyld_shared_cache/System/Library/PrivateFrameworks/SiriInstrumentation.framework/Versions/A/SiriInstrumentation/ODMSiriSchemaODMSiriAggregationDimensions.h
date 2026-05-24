@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaISOLocale;
+@class SISchemaISOLocale;
 
 @interface ODMSiriSchemaODMSiriAggregationDimensions : SISchemaInstrumentationMessage
 {
     SISchemaISOLocale *_siriInputLocale;
-    unsigned int _aggregationIntervalInDays;
-    double _aggregationIntervalStartTimestampInSecondsSince2001;
-    CDStruct_b3bd87c1 _has;
-    _Bool _hasSiriInputLocale;
 }
 
 - (void);
@@ -26,12 +22,12 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (double);
 - (unsigned int);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -46,12 +42,6 @@
 - (void)inkedUsoGraphNodeDatas.linkedUsoNodeData.integerPayload;
 
 // Remaining properties
-@property(nonatomic) unsigned int aggregationIntervalInDays; // @synthesize aggregationIntervalInDays=_aggregationIntervalInDays;
-@property(nonatomic) double aggregationIntervalStartTimestampInSecondsSince2001; // @synthesize aggregationIntervalStartTimestampInSecondsSince2001=_aggregationIntervalStartTimestampInSecondsSince2001;
-@property(nonatomic) _Bool hasAggregationIntervalInDays;
-@property(nonatomic) _Bool hasAggregationIntervalStartTimestampInSecondsSince2001;
-@property(nonatomic) _Bool hasSiriInputLocale; // @synthesize hasSiriInputLocale=_hasSiriInputLocale;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaISOLocale *siriInputLocale; // @synthesize siriInputLocale=_siriInputLocale;
 
 @end

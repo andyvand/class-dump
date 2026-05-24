@@ -9,12 +9,6 @@
 @interface _DPPiRapporAlgorithm
 {
     unsigned int _prime;
-    unsigned int _threshold;
-    unsigned long long _numberOfClasses;
-    double _alpha0;
-    double _alpha1;
-    unsigned long long _numberOfOtherPhi;
-    _DPBiasedCoin *_coin;
 }
 
 + (id);
@@ -22,25 +16,19 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)#;
 - (id);
 - (id);
 - (double);
-- (double);
+- (double)T(@;
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
-- (unsigned int)teUChar: /* Error: Ran out of types for this method. */;
+- (void)passwordsRemoteViewControllerDidCancel: /* Error: Ran out of types for this method. */;
+- (unsigned int)writeUChar: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) double alpha0; // @synthesize alpha0=_alpha0;
-@property(readonly, nonatomic) double alpha1; // @synthesize alpha1=_alpha1;
 @property(readonly, nonatomic) _DPBiasedCoin *coin; // @synthesize coin=_coin;
-@property(readonly, nonatomic) unsigned long long numberOfClasses; // @synthesize numberOfClasses=_numberOfClasses;
-@property(readonly, nonatomic) unsigned long long numberOfOtherPhi; // @synthesize numberOfOtherPhi=_numberOfOtherPhi;
-@property(readonly, nonatomic) unsigned int prime; // @synthesize prime=_prime;
-@property(readonly, nonatomic) unsigned int threshold; // @synthesize threshold=_threshold;
 
 @end
 

@@ -9,10 +9,6 @@
 @interface AFPeerMap
 {
     NSMutableDictionary *_objectsByUUID;
-    NSMutableDictionary *_uuidsByAssistantIdentifier;
-    NSMutableDictionary *_uuidsByRapportIdentifier;
-    NSMutableDictionary *_uuidsByIdsDeviceIdentifier;
-    NSMutableDictionary *_uuidsByHomeKitIdentifier;
 }
 
 - (void);

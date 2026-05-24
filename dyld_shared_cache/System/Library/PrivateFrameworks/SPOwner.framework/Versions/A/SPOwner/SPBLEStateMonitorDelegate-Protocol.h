@@ -5,5 +5,6 @@
 //
 
 @protocol SPBLEStateMonitorDelegate
+- (void);
 @end
 

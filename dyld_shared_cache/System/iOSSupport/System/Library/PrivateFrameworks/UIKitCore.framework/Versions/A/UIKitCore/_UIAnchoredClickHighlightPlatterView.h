@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
     _UIMorphingView *_anchorView;
 }
 
-- (id);
-- (void);
+- (id)_TtC12IMDaemonCore25BackgroundProcessingActor;
+- (void)iterC8DelegateP;
 - (void);
 - (void);
 - (id);

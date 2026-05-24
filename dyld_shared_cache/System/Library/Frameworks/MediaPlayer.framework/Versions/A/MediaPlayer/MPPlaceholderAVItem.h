@@ -11,17 +11,9 @@
 @interface MPPlaceholderAVItem : MPAVItem
 {
     _Bool _explicitTrack;
-    _Bool _likeStateEnabled;
-    _Bool _supportsLikedState;
-    NSString *_album;
-    NSString *_artist;
-    double _durationFromExternalMetadata;
-    NSString *_mainTitle;
-    long long _storeItemInt64ID;
-    CDUnknownBlockType _artworkCatalogBlock;
 }
 
-+ (_Bool)gDeviceRoute;
++ (_Bool)isHearingDeviceRoute;
 - (_Bool);
 - (_Bool);
 - (long long);
@@ -40,24 +32,16 @@
 - (id);
 - (_Bool);
 - (void);
+- (id)!;
 - (id);
-- (id);
-- (id);
+- (id)3: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
-- (void)onIdentifier;
+- (void)_languageOptionIdentifier;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *album; // @synthesize album=_album;
-@property(retain, nonatomic) NSString *artist; // @synthesize artist=_artist;
-@property(copy, nonatomic) CDUnknownBlockType artworkCatalogBlock; // @synthesize artworkCatalogBlock=_artworkCatalogBlock;
-@property(nonatomic) double durationFromExternalMetadata; // @synthesize durationFromExternalMetadata=_durationFromExternalMetadata;
-@property(nonatomic, getter=isExplicitTrack) _Bool explicitTrack; // @synthesize explicitTrack=_explicitTrack;
-@property(nonatomic, getter=isLikedStateEnabled) _Bool likedStateEnabled; // @synthesize likedStateEnabled=_likeStateEnabled;
-@property(retain, nonatomic) NSString *mainTitle; // @synthesize mainTitle=_mainTitle;
-@property(nonatomic) long long storeItemInt64ID; // @synthesize storeItemInt64ID=_storeItemInt64ID;
-@property(nonatomic) _Bool supportsLikedState; // @synthesize supportsLikedState=_supportsLikedState;
 
 @end
 

@@ -16,7 +16,9 @@
 + (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)ressToExtraAutoreleaseCountDict] Count:(id)arg1 %lu
+
+;
 - (void);
 
 // Remaining properties

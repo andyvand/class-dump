@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOperationQueue, NSSet, NSString, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface SFCollaborationFileMetadataLoader
 {
     _Bool _waitingForUbiquityChange;
-    NSOperationQueue *_presentedItemOperationQueue;
-    NSURL *_presentedItemURL;
-    CDUnknownBlockType _loadCompletionHandler;
 }
 
 - (_Bool);
@@ -25,29 +22,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id)tionHandler: /* Error: Ran out of types for this method. */;
-- (void)Detected;
+- (id)enableHotspotForDevice:withCompletionHandler: /* Error: Ran out of types for this method. */;
+- (void)presenceDetected;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType loadCompletionHandler; // @synthesize loadCompletionHandler=_loadCompletionHandler;
-@property(readonly) NSSet *observedPresentedItemUbiquityAttributes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R
-
-@property(readonly, nonatomic) NSOperationQueue *presentedItemOperationQueue; // @synthesize presentedItemOperationQueue=_presentedItemOperationQueue;
 @property(readonly, copy, nonatomic) NSURL *presentedItemURL; // @synthesize presentedItemURL=_presentedItemURL;
-@property(readonly, copy) NSURL *primaryPresentedItemURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSURL",?,R,C
-
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool waitingForUbiquityChange; // @synthesize waitingForUbiquityChange=_waitingForUbiquityChange;
 
 @end
 

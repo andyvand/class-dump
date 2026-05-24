@@ -4,33 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCFileCoordinatedTodayDropbox, FCFileCoordinatedTodayPrivateDataTransactionQueue, NSString;
+@class FCFileCoordinatedTodayDropbox;
 
 @interface FCReadablePrivateDataStorage
 {
     FCFileCoordinatedTodayDropbox *_dropbox;
-    FCFileCoordinatedTodayPrivateDataTransactionQueue *_transactionQueue;
 }
 
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void));
 - (id);
-- (id)ges: /* Error: Ran out of types for this method. */;
+- (id)subscriptionControllerWillStartSyncingRemoteChanges: /* Error: Ran out of types for this method. */;
 - (void)agScoringEndpoint:%@; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) FCFileCoordinatedTodayDropbox *dropbox; // @synthesize dropbox=_dropbox;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) FCFileCoordinatedTodayPrivateDataTransactionQueue *transactionQueue; // @synthesize transactionQueue=_transactionQueue;
 
 @end
 

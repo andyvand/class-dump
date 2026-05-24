@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ACTVSchemaACTVTurnActivated : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_turnId;
-    _Bool _hasTurnId;
 }
 
 - (void);
@@ -19,7 +18,8 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)lu 
+;
 - (id);
 - (void);
 - (unsigned long long);
@@ -28,12 +28,10 @@
 - (id);
 - (id)setTaskAbandonCountForEntityInUsingAppInf: /* Error: Ran out of types for this method. */;
 - (id)äu;
-- (id)encyInSecond;
+- (id)customerPerceivedLatencyInSecond;
 - (void)nL';
 
 // Remaining properties
-@property(nonatomic) _Bool hasTurnId; // @synthesize hasTurnId=_hasTurnId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *turnId; // @synthesize turnId=_turnId;
 
 @end

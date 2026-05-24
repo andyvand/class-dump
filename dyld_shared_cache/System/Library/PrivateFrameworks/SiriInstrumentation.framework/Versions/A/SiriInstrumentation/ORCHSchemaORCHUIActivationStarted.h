@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHUIActivationStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)t addressed handles:(id)arg1 %@   (Results:%@) /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
+- (id)_evaluatorMetadata;
 - (id)ectionFailed",&,N,V_failed;
-- (_Bool)VED_SELECTED;
-- (_Bool)IFTQueryPayloadType;
+- (_Bool)FLCANDIDATERESOLUTION_RESOLVED_SELECTED;
+- (_Bool)IFTSchemaIFTQueryPayloadType;
 - (void)¾];
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -6,21 +6,19 @@
 
 #import <MapsSupport/MSPSharedTripContact.h>
 
-@class NSMutableDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface MSPSharedTripVirtualContact : MSPSharedTripContact
 {
     NSString *_virtualReceiverHandle;
-    NSString *_virtualReceiverName;
-    NSMutableDictionary *_deviceHandlesByVersion;
 }
 
+- (id)T;
+- (id)l;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)P25FI_TBrowserViewDataSourceP31FI_TBVDSChangedNotificationDataONS_15unique_functionIFvvEEEEN3$_0clEvEUlvE_vJEEE;
 - (id);
 - (id);
 - (void);

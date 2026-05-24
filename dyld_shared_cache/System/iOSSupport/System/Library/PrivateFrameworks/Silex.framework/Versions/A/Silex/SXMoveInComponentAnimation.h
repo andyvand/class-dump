@@ -11,7 +11,7 @@
 }
 
 - (long long);
-- (Class);
+- (Class);
 
 // Remaining properties
 @property(readonly, nonatomic) long long preferredStartingPosition; // @dynamic preferredStartingPosition;

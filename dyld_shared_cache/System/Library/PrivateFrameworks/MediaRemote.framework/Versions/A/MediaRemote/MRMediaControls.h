@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRMediaControlsConfiguration, NSString, NSXPCConnection, NSXPCListener;
+@class NSXPCListener;
 
 @interface MRMediaControls
 {
     _Bool _shouldObserveRoutingContextUIDChanges;
-    unsigned long long _dismissalReason;
-    NSString *_tappedCustomRowIdentifier;
-    MRMediaControlsConfiguration *_configuration;
-    CDUnknownBlockType _dismissHandlerWithReason;
-    CDUnknownBlockType _dismissHandler;
-    CDUnknownBlockType _customRowDidTapHandler;
-    NSString *_routeUID;
-    double _preferredWidth;
-    NSXPCListener *_listener;
-    NSXPCConnection *_connection;
 }
 
 - (void);
@@ -52,29 +42,15 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)AFBluetoothDeviceInfo:(id)arg1:(id)arg2 headGestureConfiguration;
 - (void);
 - (id);
 - (void)ispatch_queue>",R,N,V_replyQueue;
 - (void)t9;
-- (void)intRecentlyUserSelectedInterval;
+- (void)EndpointRecentlyUserSelectedInterval;
 
 // Remaining properties
-@property(readonly, nonatomic) MRMediaControlsConfiguration *configuration;
-@property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(copy, nonatomic) CDUnknownBlockType customRowDidTapHandler; // @synthesize customRowDidTapHandler=_customRowDidTapHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType dismissHandler; // @synthesize dismissHandler=_dismissHandler;
-@property(copy, nonatomic) CDUnknownBlockType dismissHandlerWithReason; // @synthesize dismissHandlerWithReason=_dismissHandlerWithReason;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSXPCListener *listener; // @synthesize listener=_listener;
-@property(nonatomic) double preferredWidth; // @synthesize preferredWidth=_preferredWidth;
-@property(copy, nonatomic) NSString *routeUID; // @synthesize routeUID=_routeUID;
-@property(readonly) Class superclass;
 
 @end
 

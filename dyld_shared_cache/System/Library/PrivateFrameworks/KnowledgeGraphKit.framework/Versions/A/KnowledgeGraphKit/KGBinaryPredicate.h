@@ -7,18 +7,16 @@
 @interface KGBinaryPredicate
 {
     unsigned long long _comparator;
-    id _value;
 }
 
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)aches/com.apple.xbs/TemporaryDirectory.3GkaPH/Sources/Photos/lib/photosimagingfoundation/source/color/IPAColorTransform.m;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long comparator; // @synthesize comparator=_comparator;
-@property(readonly, nonatomic) id value; // @synthesize value=_value;
 
 @end
 

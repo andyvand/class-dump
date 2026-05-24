@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, UIScene, UIView, _UIKeyboardResponderOverrideInfo;
+@class NSMutableArray, UIScene;
 
 __attribute__((visibility("hidden")))
 @interface _UIKeyboardResponderOverrideSceneComponent
 {
     UIScene *_scene;
-    UIView *_commonView;
-    NSMutableArray *_keyboardResponderOverrides;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)6@0:8@16@24B32B36q40q48 /* Error: Ran out of types for this method. */;
+- (id)storeMessage:context:didReplaceBlock: /* Error: Ran out of types for this method. */;
+- (id)ageCapability: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)ÄîR0ÁR43<;
 - (id)p
@@ -29,17 +27,7 @@ __attribute__((visibility("hidden")))
 - (void)ø½a;
 
 // Remaining properties
-@property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene; // @synthesize _scene;
-@property(nonatomic) __weak UIView *commonView; // @synthesize commonView=_commonView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSMutableArray *keyboardResponderOverrides; // @synthesize keyboardResponderOverrides=_keyboardResponderOverrides;
-@property(readonly, nonatomic, getter=preferredKeyboardResponderOverride) _UIKeyboardResponderOverrideInfo *preferredKeyboardResponderOverride;
-@property(readonly) Class superclass;
 
 @end
 

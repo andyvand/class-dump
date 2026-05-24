@@ -15,11 +15,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (struct CGSize);
-- (CDStruct_83cd8af5);
+- (CDStruct_d2b197d1);
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void)!;
 - (void);
 
 @end

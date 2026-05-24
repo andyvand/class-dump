@@ -8,13 +8,12 @@ __attribute__((visibility("hidden")))
 @interface ICFPSAPContext
 {
     struct FPSAPContextOpaque_ *_fairPlaySAPContext;
-    struct FairPlayHWInfo_ _hardwareInfo;
 }
 
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)initWithSize:(unsigned int)arg1 scale:(id)arg2;
 - (id)rophoneUsed"b1"displayTranslationEnabled"b1"displayTransliterationEnabled"b1"internalBuild"b1"isCollaborativePlaylist"b1"offline"b1"privateListeningEnabled"b1"sBEnabled"b1"siriInitiated"b1};
 
 @end

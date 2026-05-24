@@ -9,7 +9,6 @@
 @interface CRKTransportPreflightResultObject
 {
     _Bool _shouldResetBackoff;
-    CATTransport *_transport;
 }
 
 - (id);
@@ -21,7 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool shouldResetBackoff; // @synthesize shouldResetBackoff=_shouldResetBackoff;
 @property(retain, nonatomic) CATTransport *transport; // @synthesize transport=_transport;
 
 @end

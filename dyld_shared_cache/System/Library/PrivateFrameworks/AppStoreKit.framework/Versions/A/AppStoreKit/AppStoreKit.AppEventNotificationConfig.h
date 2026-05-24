@@ -7,16 +7,6 @@
 @interface AppStoreKit.AppEventNotificationConfig
 {
     id appEventId;
-    id title;
-    id detail;
-    id artworkUrl;
-    id displayTime;
-    id scheduledAction;
-    id notAuthorizedAction;
-    id failureAction;
-    id destinationUrl;
-    id scheduleClickEvent;
-    id cancelScheduleClickEvent;
 }
 
 @end

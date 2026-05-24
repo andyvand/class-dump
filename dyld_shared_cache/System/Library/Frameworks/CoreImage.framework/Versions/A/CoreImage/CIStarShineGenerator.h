@@ -6,19 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIColor, CIVector, NSNumber;
+@class CIVector;
 
 __attribute__((visibility("hidden")))
 @interface CIStarShineGenerator : CIFilter
 {
     CIVector *inputCenter;
-    CIColor *inputColor;
-    NSNumber *inputRadius;
-    NSNumber *inputCrossScale;
-    NSNumber *inputCrossAngle;
-    NSNumber *inputCrossOpacity;
-    NSNumber *inputCrossWidth;
-    NSNumber *inputEpsilon;
 }
 
 + (id);
@@ -27,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)= ;
 - (id);
 - (id);
 - (id);
@@ -43,13 +36,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) CIVector *inputCenter; // @synthesize inputCenter;
-@property(retain, nonatomic) CIColor *inputColor; // @synthesize inputColor;
-@property(retain, nonatomic) NSNumber *inputCrossAngle; // @synthesize inputCrossAngle;
-@property(retain, nonatomic) NSNumber *inputCrossOpacity; // @synthesize inputCrossOpacity;
-@property(retain, nonatomic) NSNumber *inputCrossScale; // @synthesize inputCrossScale;
-@property(retain, nonatomic) NSNumber *inputCrossWidth; // @synthesize inputCrossWidth;
-@property(retain, nonatomic) NSNumber *inputEpsilon; // @synthesize inputEpsilon;
-@property(retain, nonatomic) NSNumber *inputRadius; // @synthesize inputRadius;
 
 @end
 

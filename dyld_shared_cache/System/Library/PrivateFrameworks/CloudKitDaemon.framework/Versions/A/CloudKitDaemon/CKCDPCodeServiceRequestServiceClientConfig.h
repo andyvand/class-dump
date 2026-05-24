@@ -9,35 +9,28 @@
 @interface CKCDPCodeServiceRequestServiceClientConfig
 {
     NSString *_host;
-    unsigned int _port;
-    struct {
-        unsigned int port:1;
-    } _has;
 }
 
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)kDASettingsOofInternalMessageKey;
 - (id);
-- (void);
+- (void)oders);
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)verifyIsMigratingGeneration:(id)arg1 andIsInState:orState:logIdentifier:logAction:logCount: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned int);
 - (id);
 - (id);
-- (void)seURL;
+- (void)hasDownloadBaseURL;
 - (void)n parent record %@;
 - (void)ity %@ to invitedPCS %@ for per participant PCS permission update;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasHost;
-@property(nonatomic) _Bool hasPort;
-@property(retain, nonatomic) NSString *host; // @synthesize host=_host;
-@property(nonatomic) unsigned int port; // @synthesize port=_port;
 
 @end
 

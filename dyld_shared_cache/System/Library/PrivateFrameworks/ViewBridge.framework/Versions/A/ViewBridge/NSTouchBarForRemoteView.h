@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly) NSXPCListenerEndpoint *serviceListenerEndpoint; // @synthesize serviceListenerEndpoint=_serviceListenerEndpoint;

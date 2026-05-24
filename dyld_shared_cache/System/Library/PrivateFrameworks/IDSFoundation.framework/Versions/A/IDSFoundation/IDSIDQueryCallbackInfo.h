@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSUUID;
+@class NSDate;
 
 @interface IDSIDQueryCallbackInfo
 {
     NSDate *_timestamp;
-    NSUUID *_queryID;
 }
 
 + (_Bool);
@@ -19,13 +18,12 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)mLastInquiryUpdate;
 - (void);
-- (id)pe:duration:resultCode:providerType:transportType:interfaceType:skeEnabled:isInitiator:protocolVersion:retryCount:serviceName:subServiceName:participantCount: /* Error: Ran out of types for this method. */;
+- (id)IDSQuickRelayEventType:eventSubType:duration:resultCode:providerType:transportType:interfaceType:skeEnabled:isInitiator:protocolVersion:retryCount:serviceName:subServiceName:participantCount: /* Error: Ran out of types for this method. */;
 - (void)ed to get relay-session-token from sessionInfo.;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSUUID *queryID; // @synthesize queryID=_queryID;
 @property(readonly, copy, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end

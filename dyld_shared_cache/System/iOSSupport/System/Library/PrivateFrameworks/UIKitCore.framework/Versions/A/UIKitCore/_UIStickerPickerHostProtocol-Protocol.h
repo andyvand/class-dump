@@ -5,5 +5,6 @@
 //
 
 @protocol _UIStickerPickerHostProtocol
+- (void)`;
 @end
 

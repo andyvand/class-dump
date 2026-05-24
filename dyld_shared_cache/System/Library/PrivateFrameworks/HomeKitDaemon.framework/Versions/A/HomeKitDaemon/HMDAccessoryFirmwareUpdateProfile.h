@@ -4,66 +4,55 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessoryMatterFirmwareUpdateProfile, HMDHAPAccessory, HMDService, HMFSoftwareVersion, NSNotificationCenter, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class HMDHAPAccessory;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryFirmwareUpdateProfile
 {
     _Bool _notificationsEnabled;
-    unsigned long long _updateDuration;
-    long long _updateState;
-    unsigned long long _stagingNotReadyReasons;
-    unsigned long long _updateNotReadyReasons;
-    HMFSoftwareVersion *_stagedFirmwareVersion;
-    HMFSoftwareVersion *_currentVersion;
-    HMDHAPAccessory *_accessory;
-    HMDService *_service;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMDAccessoryMatterFirmwareUpdateProfile *_matterFirmwareUpdateProfile;
 }
 
 + (id)î\ÿµ¼C;
+- (void)t state doesn't have routeInfo;
+- (void)eed to send route to %lu participants, but state doesn't have routeInfo;
+- (id)ver fetchRequiresUserConfirmationOfSharingIdentityWithCompletion:] /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (void);
+- (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)setDeviceAuthenticationVersion:(id)arg1;
+- (void)C,N,V_deviceAttestionVersion;
+- (void)CertificateElapsed;
+- (void)ssionElapsed;
+- (void)OspreyConnectionPool;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)l8%;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)F;
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)prefetchPersonAddressesIfNeededWithLocationCache: /* Error: Ran out of types for this method. */;
+- (id)E;
+- (id)_timelineHoursViewWidth;
 - (id);
 - (_Bool);
 - (id);
@@ -71,7 +60,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void)m characteristic %@ :%@ /* Error: Ran out of types for this method. */;
 - (void)°Ø;
-- (_Bool)ldcardMessageKey;
+- (_Bool)HMDHomeCHIPWildcardMessageKey;
 - (void);
 - (long long)4ç@;
 - (id)úA;
@@ -80,24 +69,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) __weak HMDHAPAccessory *accessory; // @synthesize accessory=_accessory;
-@property(retain, nonatomic) HMFSoftwareVersion *currentVersion; // @synthesize currentVersion=_currentVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HMDAccessoryMatterFirmwareUpdateProfile *matterFirmwareUpdateProfile; // @synthesize matterFirmwareUpdateProfile=_matterFirmwareUpdateProfile;
-@property(readonly) NSNotificationCenter *notificationCenter;
-@property(nonatomic, getter=notificationsEnabled) _Bool notificationsEnabled; // @synthesize notificationsEnabled=_notificationsEnabled;
-@property(readonly) __weak HMDService *service; // @synthesize service=_service;
-@property(retain, nonatomic) HMFSoftwareVersion *stagedFirmwareVersion; // @synthesize stagedFirmwareVersion=_stagedFirmwareVersion;
-@property(nonatomic) unsigned long long stagingNotReadyReasons; // @synthesize stagingNotReadyReasons=_stagingNotReadyReasons;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long updateDuration; // @synthesize updateDuration=_updateDuration;
-@property(nonatomic) unsigned long long updateNotReadyReasons; // @synthesize updateNotReadyReasons=_updateNotReadyReasons;
-@property(nonatomic) long long updateState; // @synthesize updateState=_updateState;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

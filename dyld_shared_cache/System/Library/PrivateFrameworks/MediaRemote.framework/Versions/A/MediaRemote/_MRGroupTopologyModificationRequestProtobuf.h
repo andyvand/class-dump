@@ -4,39 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, _MRRequestDetailsProtobuf;
+@class _MRRequestDetailsProtobuf;
 
 @interface _MRGroupTopologyModificationRequestProtobuf
 {
     _MRRequestDetailsProtobuf *_details;
-    NSMutableArray *_outputDeviceUIDs;
-    NSString *_password;
-    int _type;
-    _Bool _fadeAudio;
-    _Bool _muteUntilFinished;
-    _Bool _shouldClearPredictedRoutes;
-    _Bool _shouldModifyPredictedRoutes;
-    _Bool _shouldNotPauseIfLastDeviceRemoved;
-    _Bool _shouldWaitForUpdatedOutputDevices;
-    _Bool _suppressErrorDialog;
-    struct {
-        unsigned int type:1;
-        unsigned int fadeAudio:1;
-        unsigned int muteUntilFinished:1;
-        unsigned int shouldClearPredictedRoutes:1;
-        unsigned int shouldModifyPredictedRoutes:1;
-        unsigned int shouldNotPauseIfLastDeviceRemoved:1;
-        unsigned int shouldWaitForUpdatedOutputDevices:1;
-        unsigned int suppressErrorDialog:1;
-    } _has;
 }
 
 + (Class);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)#;
 - (void);
 - (void);
 - (void);
@@ -47,7 +27,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)7	7	;
 - (void);
 - (void);
 - (void);
@@ -60,7 +40,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)?;
 - (_Bool);
 - (void);
 - (void);
@@ -72,45 +52,25 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (int);
-- (_Bool);
+- (int)reviewWatchFace;
+- (_Bool)P;
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
+- (id)initWithTimestamp:source:event:options:deviceID:userInfo: /* Error: Ran out of types for this method. */;
+- (void)AFASRSharedUserInfo:(int)arg1:loggableSharedUserId /* Error: Ran out of types for this method. */;
+- (id)pdateState:] /* Error: Ran out of types for this method. */;
 - (int);
 - (id);
 - (id);
 - (void)taWidth"b1};
 - (_Bool)NowPlayingInfoProtobuf";
-- (void)t:(_Bool)arg1;
+- (void)setDeviceRemovedSnapshot:(_Bool)arg1;
 - (void): /* Error: Ran out of types for this method. */;
 - (id);
 - (void)%@, Identifier = %@, TotalLength = %lu, ActualLength = %lu,;
 
 // Remaining properties
-@property(retain, nonatomic) _MRRequestDetailsProtobuf *details; // @synthesize details=_details;
-@property(nonatomic) _Bool fadeAudio; // @synthesize fadeAudio=_fadeAudio;
 @property(readonly, nonatomic) _Bool hasDetails;
-@property(nonatomic) _Bool hasFadeAudio;
-@property(nonatomic) _Bool hasMuteUntilFinished;
-@property(readonly, nonatomic) _Bool hasPassword;
-@property(nonatomic) _Bool hasShouldClearPredictedRoutes;
-@property(nonatomic) _Bool hasShouldModifyPredictedRoutes;
-@property(nonatomic) _Bool hasShouldNotPauseIfLastDeviceRemoved;
-@property(nonatomic) _Bool hasShouldWaitForUpdatedOutputDevices;
-@property(nonatomic) _Bool hasSuppressErrorDialog;
-@property(nonatomic) _Bool hasType;
-@property(nonatomic) _Bool muteUntilFinished; // @synthesize muteUntilFinished=_muteUntilFinished;
-@property(retain, nonatomic) NSMutableArray *outputDeviceUIDs; // @synthesize outputDeviceUIDs=_outputDeviceUIDs;
-@property(retain, nonatomic) NSString *password; // @synthesize password=_password;
-@property(nonatomic) _Bool shouldClearPredictedRoutes; // @synthesize shouldClearPredictedRoutes=_shouldClearPredictedRoutes;
-@property(nonatomic) _Bool shouldModifyPredictedRoutes; // @synthesize shouldModifyPredictedRoutes=_shouldModifyPredictedRoutes;
-@property(nonatomic) _Bool shouldNotPauseIfLastDeviceRemoved; // @synthesize shouldNotPauseIfLastDeviceRemoved=_shouldNotPauseIfLastDeviceRemoved;
-@property(nonatomic) _Bool shouldWaitForUpdatedOutputDevices; // @synthesize shouldWaitForUpdatedOutputDevices=_shouldWaitForUpdatedOutputDevices;
-@property(nonatomic) _Bool suppressErrorDialog; // @synthesize suppressErrorDialog=_suppressErrorDialog;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

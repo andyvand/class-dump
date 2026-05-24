@@ -6,12 +6,11 @@
 
 #import <BaseBoardUI/BSUIVibrancyView.h>
 
-@class BSUIVibrancyShadowValues, CAFilter;
+@class CAFilter;
 
 @interface BSUIVibrancyShadowView : BSUIVibrancyView
 {
     CAFilter *_vibrantColorFilter;
-    BSUIVibrancyShadowValues *_values;
 }
 
 + (struct CGPoint);
@@ -29,7 +28,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct CGPoint shadowEndPoint;
 @property(nonatomic) struct CGPoint shadowStartPoint;
 
 @end

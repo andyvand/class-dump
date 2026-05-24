@@ -13,18 +13,18 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct CGPoint {
-    double x;
-    double y;
+    double _field1;
+    double _field2;
 };
 
 struct CGRect {
-    struct CGPoint origin;
-    struct CGSize size;
+    struct CGPoint _field1;
+    struct CGSize _field2;
 };
 
 struct CGSize {
-    double width;
-    double height;
+    double _field1;
+    double _field2;
 };
 
 struct _NSRange {
@@ -33,7 +33,7 @@ struct _NSRange {
 };
 
 struct fsid {
-    int val[2];
+    int _field1[2];
 };
 
 struct os_unfair_lock_s {
@@ -41,22 +41,22 @@ struct os_unfair_lock_s {
 };
 
 struct statfs {
-    unsigned int f_bsize;
-    int f_iosize;
-    unsigned long long f_blocks;
-    unsigned long long f_bfree;
-    unsigned long long f_bavail;
-    unsigned long long f_files;
-    unsigned long long f_ffree;
-    struct fsid f_fsid;
-    unsigned int f_owner;
-    unsigned int f_type;
-    unsigned int f_flags;
-    unsigned int f_fssubtype;
-    char f_fstypename[16];
-    char f_mntonname[1024];
-    char f_mntfromname[1024];
-    unsigned int f_flags_ext;
-    unsigned int f_reserved[7];
+    unsigned int _field1;
+    int _field2;
+    unsigned long long _field3;
+    unsigned long long _field4;
+    unsigned long long _field5;
+    unsigned long long _field6;
+    unsigned long long _field7;
+    struct fsid _field8;
+    unsigned int _field9;
+    unsigned int _field10;
+    unsigned int _field11;
+    unsigned int _field12;
+    char _field13[16];
+    char _field14[1024];
+    char _field15[1024];
+    unsigned int _field16;
+    unsigned int _field17[7];
 };
 

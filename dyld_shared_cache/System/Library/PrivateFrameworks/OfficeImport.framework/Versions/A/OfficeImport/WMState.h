@@ -6,32 +6,17 @@
 
 #import <OfficeImport/CMState.h>
 
-@class CMOutlineState, NSMutableArray, NSMutableDictionary, WDText;
+@class CMOutlineState, NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface WMState : CMState
 {
     CMOutlineState *currentListState;
-    CMOutlineState *outlineState;
-    NSMutableDictionary *listStates;
-    WDText *mLastHeader;
-    WDText *mLastFooter;
-    unsigned int mCurrentPage;
-    unsigned long long mBlockIndex;
-    unsigned long long mRunIndex;
-    float mTopMargin;
-    float mLeftMargin;
-    float mPageHeight;
-    _Bool mIsFrame;
-    _Bool mIsFrameStart;
-    _Bool mIsFrameEnd;
-    _Bool mIsHeaderOrFooter;
-    float mTotalPageHeight;
-    NSMutableArray *_paragraphStack;
 }
 
 - (void);
-- (void);
+- (void)	
+k;
 - (void);
 - (void);
 - (void);
@@ -44,35 +29,35 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)(;
 - (id);
 - (float);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)k@;
+- (_Bool)T;
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
+- (void)qc;
 - (unsigned long long);
 - (float);
 - (_Bool);
 - (void);
-- (float);
-- (_Bool);
+- (float);
+- (_Bool)т";
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)firstMatchInString:(unsigned int)arg1 options:range: /* Error: Ran out of types for this method. */;
 - (float);
 - (unsigned int);
-- (float)mRef;
+- (float)numRef;
 - (void)elBlock:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties

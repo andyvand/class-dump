@@ -12,26 +12,19 @@ __attribute__((visibility("hidden")))
 @interface CMBordersProperty : CMProperty
 {
     OITSUColor *mBorderColor;
-    OITSUColor *mBorderTopColor;
-    OITSUColor *mBorderLeftColor;
-    OITSUColor *mBorderBottomColor;
-    OITSUColor *mBorderRightColor;
-    int mBorderStyle[5];
-    int mBorderWidth[5];
-    int mCustomWidth;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)hq;
+- (id)A;
 - (id);
 - (void);
-- (void);
+- (void)(;
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);

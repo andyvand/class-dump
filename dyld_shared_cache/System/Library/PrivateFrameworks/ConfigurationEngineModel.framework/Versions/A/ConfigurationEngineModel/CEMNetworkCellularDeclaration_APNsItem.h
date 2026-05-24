@@ -6,19 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMPayloadBase.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface CEMNetworkCellularDeclaration_APNsItem : CEMPayloadBase
 {
     NSString *_payloadName;
-    NSString *_payloadAuthenticationType;
-    NSString *_payloadUsername;
-    NSString *_payloadPassword;
-    NSString *_payloadProxyServer;
-    NSNumber *_payloadProxyPort;
-    NSNumber *_payloadDefaultProtocolMask;
-    NSNumber *_payloadAllowedProtocolMask;
-    NSNumber *_payloadAllowedProtocolMaskInRoaming;
 }
 
 + (id);
@@ -30,33 +22,25 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)`;
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
+- (id)_;
+- (id);
+- (_Bool)TTSAUParamsKey;
+- (id);
+- (void)DH-DES-CBC3-SHA;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *payloadAllowedProtocolMask; // @synthesize payloadAllowedProtocolMask=_payloadAllowedProtocolMask;
-@property(copy, nonatomic) NSNumber *payloadAllowedProtocolMaskInRoaming; // @synthesize payloadAllowedProtocolMaskInRoaming=_payloadAllowedProtocolMaskInRoaming;
-@property(copy, nonatomic) NSString *payloadAuthenticationType; // @synthesize payloadAuthenticationType=_payloadAuthenticationType;
-@property(copy, nonatomic) NSNumber *payloadDefaultProtocolMask; // @synthesize payloadDefaultProtocolMask=_payloadDefaultProtocolMask;
 @property(copy, nonatomic) NSString *payloadName; // @synthesize payloadName=_payloadName;
-@property(copy, nonatomic) NSString *payloadPassword; // @synthesize payloadPassword=_payloadPassword;
-@property(copy, nonatomic) NSNumber *payloadProxyPort; // @synthesize payloadProxyPort=_payloadProxyPort;
-@property(copy, nonatomic) NSString *payloadProxyServer; // @synthesize payloadProxyServer=_payloadProxyServer;
-@property(copy, nonatomic) NSString *payloadUsername; // @synthesize payloadUsername=_payloadUsername;
 
 @end
 

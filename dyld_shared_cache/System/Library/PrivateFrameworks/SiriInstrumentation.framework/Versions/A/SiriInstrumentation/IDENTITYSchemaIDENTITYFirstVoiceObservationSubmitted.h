@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IDENTITYSchemaIDENTITYVoiceScoreCard, NSData;
+@class IDENTITYSchemaIDENTITYVoiceScoreCard;
 
 @interface IDENTITYSchemaIDENTITYFirstVoiceObservationSubmitted : SISchemaInstrumentationMessage
 {
     IDENTITYSchemaIDENTITYVoiceScoreCard *_voiceScoreCard;
-    _Bool _hasVoiceScoreCard;
 }
 
 - (id);
@@ -25,15 +24,13 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (id)fm_firstObjectPassingTest: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)iterationValues;
 - (id)Ì1;
 - (void)á#;
 
 // Remaining properties
-@property(nonatomic) _Bool hasVoiceScoreCard; // @synthesize hasVoiceScoreCard=_hasVoiceScoreCard;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) IDENTITYSchemaIDENTITYVoiceScoreCard *voiceScoreCard; // @synthesize voiceScoreCard=_voiceScoreCard;
 
 @end

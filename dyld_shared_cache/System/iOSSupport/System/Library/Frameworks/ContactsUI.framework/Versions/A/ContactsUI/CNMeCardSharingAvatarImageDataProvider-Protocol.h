@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNWallpaper, NSData;
+@class NSData;
 
 @protocol CNMeCardSharingAvatarImageDataProvider
 - (struct CGRect);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect cropRect;
 @property(readonly, nonatomic) NSData *imageData;
-@property(readonly, nonatomic) NSData *thumbnailImageData;
-@property(readonly, nonatomic) CNWallpaper *wallpaper;
 @end
 

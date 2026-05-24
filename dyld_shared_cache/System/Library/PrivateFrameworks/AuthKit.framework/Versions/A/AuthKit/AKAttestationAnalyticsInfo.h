@@ -9,19 +9,13 @@
 @interface AKAttestationAnalyticsInfo
 {
     NSString *_endPointVIP;
-    NSString *_requestMethod;
-    unsigned long long _headerSize;
-    unsigned long long _bodySize;
-    NSString *_errorDomain;
-    long long _errorCode;
-    long long _responseCode;
 }
 
 + (_Bool);
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)-;
 - (void);
 - (void);
 - (void);
@@ -31,9 +25,9 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)T;
 - (void)ä;
-- (void)ppleIDPasskeyStatus;
+- (void)AppleIDPasskeyStatus;
 - (long long)eyb$¸Ñ"Go¶»k¯
 «åÐf6~°¬µTÌ+rõbt¤$iýdòåø®+UÀYÃ'áEú±6f¾sÒ~LzM(rªS\é¨[ä&,-÷¦È²Ê.¼ëyÅ;ôÎÌWÞ{ÁØ§45æã 9ðù¬Û2*¿3¸:¢
 7ü»Ím}N<#/µÝF8_0PÿÐþÙ¡?àÜk°ñTöHçÉOBg¹ûj^GJu¶èÓw ïÕIì=Úx¥vDA]Ç!ZêK£½ /* Error: Ran out of types for this method. */;
@@ -42,13 +36,7 @@
 `x`xÖ_xû_xà_x`x¹_xé_x3`xù_xÞ_xö_x	`x¨_x0`x`x2`x`x`xM`x¡`x`x6`x`xá_x°_xy`x¬_xº_xÍ_x:`xñ_x`xg`x`x`xC`xl`xî_xÒ_x`x¥`xË_x`x`x``x¦`x!`xØ_xæ_x4`xÇ_x`x~`x`xL`xd`x;`xS`x1`xÅ_x©_xÝ_x>`xs`x[`x`xø_xf`xc`xv`xÐ_x`xe`x%`xU`x`x?`xp`xë_x`IOPlatformUUID /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned long long bodySize; // @synthesize bodySize=_bodySize;
 @property(copy, nonatomic) NSString *endPointVIP; // @synthesize endPointVIP=_endPointVIP;
-@property(nonatomic) long long errorCode; // @synthesize errorCode=_errorCode;
-@property(copy, nonatomic) NSString *errorDomain; // @synthesize errorDomain=_errorDomain;
-@property(nonatomic) unsigned long long headerSize; // @synthesize headerSize=_headerSize;
-@property(copy, nonatomic) NSString *requestMethod; // @synthesize requestMethod=_requestMethod;
-@property(nonatomic) long long responseCode; // @synthesize responseCode=_responseCode;
 
 @end
 

@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableIndexSet;
-
 @interface TSTCoordinateArray
 {
     unsigned int mOffset;
-    unsigned int mCount;
-    double *mCoordinates;
-    double mAverage;
-    NSMutableIndexSet *mVisibleIndices;
-    _Bool mLayoutDirectionIsLeftToRight;
-    double mTableWidth;
 }
 
 - (id);
-- (void);
+- (void)MPCPlaybackEngineEventDeviceMetadataKey;
 - (void);
 - (id);
 - (_Bool);

@@ -4,34 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class NSMutableArray, PBDataReader;
 
 @interface GEOPDGroupData
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_buttonItems;
-    NSString *_symbolImageName;
-    NSMutableArray *_titles;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_buttonItems:1;
-        unsigned int read_symbolImageName:1;
-        unsigned int read_titles:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)railLength:(id)arg1;
++ (_Bool)setHikingTrailLength:(id)arg1;
 + (Class)vm<;
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
+- (unsigned long long)_requestedMultivalueIdentifierCount;
+- (id)_requestedInfoIdentifierCount;
+- (id)_requestedContactIdentifierCount;
+- (void)(;
 - (_Bool);
 - (void);
 - (void);
@@ -46,8 +32,8 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)mphSelected;
+- (void)orNewRequestWithSampleRate:(id)arg1 recordContext:recordOption:voiceTriggerInfo:]_block_invoke /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -55,19 +41,15 @@
 - (id);
 - (void);
 - (id)PDAdamAppIdentifier";
-- (id)aveledMatchScore;
+- (id)_distanceTraveledMatchScore;
 - (id)Ä ³¸!8"´ð"`#;
-- (id)rections_request;
+- (id)directions_request;
 - (id)®Á8¸Q@;
 - (void)lçÛ?ÀÊ¡EÆs@;
 - (void)F56;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *buttonItems;
-@property(readonly, nonatomic) _Bool hasSymbolImageName;
-@property(retain, nonatomic) NSString *symbolImageName;
 @property(retain, nonatomic) NSMutableArray *titles;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

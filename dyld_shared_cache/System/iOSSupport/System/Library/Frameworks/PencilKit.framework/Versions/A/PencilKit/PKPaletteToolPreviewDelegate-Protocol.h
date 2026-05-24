@@ -5,5 +5,6 @@
 //
 
 @protocol PKPaletteToolPreviewDelegate
+- (void)@;
 @end
 

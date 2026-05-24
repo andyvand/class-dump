@@ -9,12 +9,11 @@
 @interface AKAuthorizationNavigationController
 {
     _UIBackdropView *_backdropView;
-    long long _currentStyle;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)_userPreferredNewSpawnedTabPosition;
 - (void);
 - (void);
 

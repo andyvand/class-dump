@@ -6,14 +6,12 @@
 
 #import <AppKit/NSTextFinderBarSearchField.h>
 
-@class NSFindPatternAttachmentCell, NSString;
 @protocol NSFindPatternManager;
 
 __attribute__((visibility("hidden")))
 @interface NSFindPatternSearchField : NSTextFinderBarSearchField
 {
     id <NSFindPatternManager> findPatternManager;
-    NSFindPatternAttachmentCell *selectedAttachment;
 }
 
 - (id);
@@ -29,39 +27,32 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
+- (void)6;
+- (_Bool)credStorage_defaultCredentialForProtectionSpace:reply: /* Error: Ran out of types for this method. */;
+- (id)_reestablishInternalCFCachedURLResponse: /* Error: Ran out of types for this method. */;
+- (id)_redirectRequest:redirectResponse:completion: /* Error: Ran out of types for this method. */;
+- (id)_readingRequestBody;
+- (id)_proxyConfigurations;
 - (void);
+- (void);
+- (void)2;
+- (void)iver_data from cfurl_cache_receiver_data WHERE isDataOnFS > 0 AND entry_ID in (SELECT entry_ID FROM cfurl_cache_response WHERE time_stamp >= "%s");
+- (id)kCFStreamPropertyFTPResourceSize;
+- (_Bool)@;
+- (void);
+- (void);
+- (id);
+- (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void)sibilityIsSpaceOrSeparatorItem;
+- (void)_accessibilityIsSpaceOrSeparatorItem;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property id <NSFindPatternManager> findPatternManager; // @synthesize findPatternManager;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

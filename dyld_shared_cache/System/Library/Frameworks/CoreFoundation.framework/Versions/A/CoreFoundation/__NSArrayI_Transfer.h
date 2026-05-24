@@ -10,17 +10,16 @@ __attribute__((visibility("hidden")))
 @interface __NSArrayI_Transfer : NSArray
 {
     unsigned long long _used;
-    id *_list;
 }
 
-+ (_Bool)esult;
++ (_Bool)_LTTranslationResult;
 + (id)qe;
 - (void);
 - (id);
-- (void);
+- (void)exture:(unsigned long long)arg1 atIndex:(CDUnknownBlockType)arg2 ];
 - (id);
 - (id);
-- (void)peNameKey;
+- (void)NSURLVolumeTypeNameKey;
 - (unsigned long long);
 - (id);
 - (unsigned long long)¡ï;

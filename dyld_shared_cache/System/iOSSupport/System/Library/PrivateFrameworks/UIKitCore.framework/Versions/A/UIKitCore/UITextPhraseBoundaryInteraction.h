@@ -16,10 +16,10 @@ __attribute__((visibility("hidden")))
     id <UITextCursorAssertion> _blinkAssertion;
 }
 
-- (void);
+- (void)phoneNumberWithStringValue:(id)arg1;
+- (struct CGPoint)initiatePeriodicSync;
 - (struct CGPoint);
-- (struct CGPoint);
-- (id);
+- (id)s to delete for attachments returning nil;
 - (id);
 - (void);
 - (void);

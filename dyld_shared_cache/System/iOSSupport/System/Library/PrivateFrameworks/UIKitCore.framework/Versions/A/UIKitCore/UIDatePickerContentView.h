@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UIView.h>
 
-@class UILabel, _UIDatePickerMode;
+@class _UIDatePickerMode;
 
 __attribute__((visibility("hidden")))
 @interface UIDatePickerContentView : UIView
@@ -15,18 +15,14 @@ __attribute__((visibility("hidden")))
         unsigned int isAmPm:1;
         unsigned int useDigitFont:1;
     } _datePickerContentViewFlags;
-    UILabel *_titleLabel;
-    double _titleLabelMaxX;
-    long long _titleAlignment;
-    _UIDatePickerMode *_mode;
 }
 
-- (_Bool);
-- (double);
+- (_Bool);
+- (double)Manager's registerChat function for conversation %@;
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)message:(double)arg1 %@;
+- (void):(_Bool)arg1 %@  limit:%d /* Error: Ran out of types for this method. */;
+- (_Bool)String"32@"NSString"40^B48;
 - (id);
 - (id);
 - (_Bool);
@@ -34,18 +30,13 @@ __attribute__((visibility("hidden")))
 - (void)imumSize"{CGSize="width"d"height"d}}"indicatorCount"{NumberOfVisibleIndicatorsForStartIndexCache="dirty"b1"fittingLength"d"startIndex"q"numberOfIndicators"q}"contentSize"{ContentSizeForNumberOfPagesCache="dirty"b1"numberOfPages"d"contentSize"{CGSize="width"d"height"d}}"contentSizeInRange"{MinimumContentSizeForIndicatorsInRangeCache="dirty"b1"range"{_NSRange="location"Q"length"Q}"contentSize"{CGSize="width"d"height"d}}};
 - (id)N,V_selectionView;
 - (void)à;
-- (long long)g;
+- (long long)Sg;
 - (void)üÈÿA
 ;
 - (id)W;
 
 // Remaining properties
-@property(nonatomic) _Bool isAmPm;
 @property(retain, nonatomic) _UIDatePickerMode *mode; // @synthesize mode=_mode;
-@property(nonatomic) long long titleAlignment; // @synthesize titleAlignment=_titleAlignment;
-@property(readonly, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
-@property(nonatomic) double titleLabelMaxX; // @synthesize titleLabelMaxX=_titleLabelMaxX;
-@property(nonatomic) _Bool useDigitFont;
 
 @end
 

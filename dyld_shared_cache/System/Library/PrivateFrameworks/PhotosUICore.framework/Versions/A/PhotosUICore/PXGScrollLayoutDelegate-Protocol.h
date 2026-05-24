@@ -5,5 +5,8 @@
 //
 
 @protocol PXGScrollLayoutDelegate
+
+@optional
+- (void)c;
 @end
 

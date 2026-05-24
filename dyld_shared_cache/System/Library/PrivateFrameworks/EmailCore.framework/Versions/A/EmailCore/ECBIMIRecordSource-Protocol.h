@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class ECBIMIInfo, NSString;
+
 @protocol ECBIMIRecordSource
+- (ECBIMIInfo *)ning state:(NSString *)arg1 %ld;
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSRegularExpression, NSString;
+@class NSArray;
 
 @interface CMInferenceUtils
 {
     NSArray *_networksV1;
-    NSArray *_networksV2;
-    NSRegularExpression *_platformRegExpPatternV1;
-    NSRegularExpression *_platformRegExpPatternV2;
-    NSString *_imagingNetworksPath;
 }
 
 + (id)inputCount++] pipelineStage:((void *)0)] /* Error: Ran out of types for this method. */;

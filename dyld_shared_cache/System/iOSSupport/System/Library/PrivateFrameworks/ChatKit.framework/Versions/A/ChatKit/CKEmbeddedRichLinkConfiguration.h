@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMPluginPayload, NSData, NSString, NSURL;
+@class NSString;
 
 @interface CKEmbeddedRichLinkConfiguration
 {
     NSString *_entryItemUUID;
-    NSURL *_url;
-    IMPluginPayload *_pluginPayload;
 }
 
-+ (id);
-+ (_Bool)ckdropLayer;
++ (id)n;
++ (_Bool)contentBackdropLayer;
 - (void);
 - (id);
 - (id);
@@ -24,23 +22,12 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)P;
 - (id);
 - (void)´^;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSString *entryItemUUID; // @synthesize entryItemUUID=_entryItemUUID;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) IMPluginPayload *pluginPayload; // @synthesize pluginPayload=_pluginPayload;
-@property(readonly, nonatomic) NSData *pluginPayloadData;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
-@property(readonly, nonatomic) NSString *urlText;
 
 @end
 

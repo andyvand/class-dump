@@ -4,33 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPredicate, NSString;
+@class NSString;
 
 @interface WADeviceAnalytics_Entity_Property
 {
     NSString *_propertyPath;
-    unsigned long long _useAs;
-    NSPredicate *_filterPredicate;
 }
 
 + (id);
 + (id);
 + (id);
-- (unsigned long long);
+- (unsigned long long)a;
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
+- (id)upported version {error:%{public}@} /* Error: Ran out of types for this method. */;
+- (id)allBoutsStepIndexOfHarmonicityVtQ95;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)?;
 - (void);
 
 // Remaining properties
-@property(retain) NSPredicate *filterPredicate; // @synthesize filterPredicate=_filterPredicate;
 @property(retain) NSString *propertyPath; // @synthesize propertyPath=_propertyPath;
-@property unsigned long long useAs; // @synthesize useAs=_useAs;
 
 @end
 

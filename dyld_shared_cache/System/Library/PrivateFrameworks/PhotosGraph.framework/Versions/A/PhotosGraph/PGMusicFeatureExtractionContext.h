@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PGMusicFeatureExtractionContext
 {
     id configuration;
-    id photoLibrary;
-    _Bool useMoodKeywords;
-    void flexSongProvider;
-    id songKeywordProvider;
 }
 
 + (id);
@@ -23,7 +17,6 @@
 - (void)s challenge assets found, so no photos challenge precision/recall was recorded!;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *flexSongProvider;
 @property(nonatomic, readonly) _Bool useMoodKeywords; // @synthesize useMoodKeywords;
 
 @end

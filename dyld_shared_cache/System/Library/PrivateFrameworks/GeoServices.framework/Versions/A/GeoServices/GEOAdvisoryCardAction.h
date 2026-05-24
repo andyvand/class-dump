@@ -4,35 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOAdvisoryCardAction
 {
     PBUnknownFields *_unknownFields;
-    GEOLatLng *_location;
-    int _type;
-    CDStruct_3af5a977 _flags;
 }
 
-+ (_Bool)tHasMaxBatteryCharge:(id)arg1;
++ (_Bool)setHasMaxBatteryCharge:(id)arg1;
 - (void);
-- (id);
+- (id)c;
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)_shotAnalyzerNDAPI:(id)arg1 hasResultAvailable:forChannel: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (int);
+- (int)6b25b25b64}{_GEOPolygonSelectionKey=b6b25b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})},N,V_key;
 - (_Bool);
 - (void);
-- (id)gationAudioFeedback;
-- (void)dMapping;
+- (id)navigationAudioFeedback;
+- (void)GEOPDSearchKeywordMapping;
 - (id)0ÂHÃ`ÄøÇ;
-- (int)etails;
-- (id)_timestamp;
+- (int)initialization_failure_details;
+- (id)map_view_location_tourist_timestamp;
 - (id);
 - (id)üÿÿÿ;
 - (id)_QBAÍÌÌÌÌÌ@;
@@ -43,11 +40,7 @@
 - (void)jÄ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasLocation;
 @property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) GEOLatLng *location;
-@property(nonatomic) int type;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

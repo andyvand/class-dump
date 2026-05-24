@@ -5,5 +5,8 @@
 //
 
 @protocol NSKeyedUnarchiverDelegate
+
+@optional
+- (Class);
 @end
 

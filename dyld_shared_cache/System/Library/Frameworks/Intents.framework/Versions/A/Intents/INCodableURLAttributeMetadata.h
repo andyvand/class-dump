@@ -6,7 +6,7 @@
 
 #import <Intents/INCodableAttributeMetadata.h>
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface INCodableURLAttributeMetadata : INCodableAttributeMetadata
 {
@@ -17,14 +17,7 @@
 + (id)encedMessage:(id)arg1 serviceName:(id *)arg2;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(copy, nonatomic) NSURL *defaultValue; // @synthesize defaultValue=_defaultValue;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

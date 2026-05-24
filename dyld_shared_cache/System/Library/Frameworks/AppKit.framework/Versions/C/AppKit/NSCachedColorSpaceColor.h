@@ -12,12 +12,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (unsigned long long);
-- (oneway void);
+- (unsigned long long);
+- (oneway void)/libc++.1.dylib;
 - (id);
-- (id)veOperation:(struct _NSZone *)arg1 originalContentsURL:error: /* Error: Ran out of types for this method. */;
+- (id)_fileAttributesToWriteToURL:(struct _NSZone *)arg1 ofType:forSaveOperation:originalContentsURL:error: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id)eOptionEditable;
+- (id)NSRuleOptionEditable;
 - (id)ý.ÍG;
 - (_Bool)J;
 

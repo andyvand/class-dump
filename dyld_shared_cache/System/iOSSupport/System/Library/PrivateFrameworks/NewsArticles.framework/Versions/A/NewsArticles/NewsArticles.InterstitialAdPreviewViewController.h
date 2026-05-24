@@ -7,19 +7,15 @@
 @interface NewsArticles.InterstitialAdPreviewViewController
 {
     id styler;
-    id eventHandler;
-    id interstitialModule;
-    id coverViewManager;
-    id eventManager;
 }
 
 - (id);
 - (id);
+- (void)P;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)ecker;
+- (void)paidAccessChecker;
 - (void)NewsArticles.AdComponentSizerFactory;
 
 @end

@@ -4,35 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSDictionary;
 
 @interface DESRecordSet
 {
     NSDictionary *_nativeRecords;
-    NSDictionary *_nativeRecordInfo;
-    NSArray *_coreDuetEvents;
-    NSDictionary *_predicate;
 }
 
 - (id);
+- (id)s.entity.typeIdentifier.custom.bundleId;
+- (id)uation.items.collection.values.entity.typeIdentifier.custom.bundleId;
+- (id)tatementResults.payload.outcome.parameterDisambiguation.items.collection.values.entity.typeIdentifier.custom.bundleId;
+- (id)ction.values.query.typeIdentifier.custom.bundleId;
+- (id)esponseGenerationRequest.statementResults.payload.outcome.success.returnValue.collection.values.entity.typeIdentifier.custom.bundleId;
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
+- (void)'
+;
+- (unsigned long long)ving seeded contact Ids;
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *coreDuetEvents; // @synthesize coreDuetEvents=_coreDuetEvents;
-@property(readonly, nonatomic) unsigned long long count;
-@property(readonly, copy, nonatomic) NSDictionary *nativeRecordInfo; // @synthesize nativeRecordInfo=_nativeRecordInfo;
 @property(readonly, copy, nonatomic) NSDictionary *nativeRecords; // @synthesize nativeRecords=_nativeRecords;
-@property(readonly, nonatomic) NSDictionary *predicate; // @synthesize predicate=_predicate;
 
 @end
 

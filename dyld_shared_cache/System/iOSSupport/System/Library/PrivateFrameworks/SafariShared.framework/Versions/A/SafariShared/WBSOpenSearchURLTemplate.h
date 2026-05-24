@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSString;
+@class NSMutableDictionary, NSString;
 
 @interface WBSOpenSearchURLTemplate
 {
     NSMutableDictionary *_parametersByName;
-    NSMutableArray *_parameters;
-    NSString *_templateString;
 }
 
 + (_Bool);
@@ -23,12 +21,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
 
 // Remaining properties

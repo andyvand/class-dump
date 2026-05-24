@@ -11,7 +11,7 @@
 }
 
 + (unsigned long long);
-- (void);
+- (void)\;
 
 @end
 

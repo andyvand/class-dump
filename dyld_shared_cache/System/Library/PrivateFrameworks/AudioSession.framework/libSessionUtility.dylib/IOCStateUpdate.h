@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOCAudioConfig;
-
 @interface IOCStateUpdate
 {
     int state;
-    int reason;
-    IOCAudioConfig *audioConfig;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (void);
-- (int);
+- (int)c;
 - (id);
 - (void);
-- (int);
-- (void);
+- (int)(;
+- (void)) (PM0R);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) IOCAudioConfig *audioConfig; // @synthesize audioConfig;
-@property(nonatomic) int reason; // @synthesize reason;
 @property(nonatomic) int state; // @synthesize state;
 
 @end

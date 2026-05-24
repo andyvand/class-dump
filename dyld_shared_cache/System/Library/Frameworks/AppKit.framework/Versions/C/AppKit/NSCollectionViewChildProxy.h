@@ -6,22 +6,17 @@
 
 #import <AppKit/NSAccessibilityProxy.h>
 
-@class NSCollectionView, NSCollectionViewItem, NSView;
-
 __attribute__((visibility("hidden")))
 @interface NSCollectionViewChildProxy : NSAccessibilityProxy
 {
     unsigned long long _index;
-    NSCollectionView *_collectionView;
-    NSCollectionViewItem *_item;
-    NSView *_realElement;
 }
 
 + (id);
+- (id)NSURLProtectionSpace"24;
+- (id)_allowsConstrainedNetworkAccess;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -31,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (_Bool);
 

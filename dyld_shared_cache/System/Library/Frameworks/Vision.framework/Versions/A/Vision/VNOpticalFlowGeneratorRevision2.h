@@ -12,11 +12,10 @@ __attribute__((visibility("hidden")))
 @interface VNOpticalFlowGeneratorRevision2 : VNOpticalFlowGenerator
 {
     VCPMotionFlowRequest *_motionFlowRequest;
-    struct BufferSizeFormat _preferredBufferSizeFormat;
 }
 
-+ (id);
-+ (id);
++ (id);
++ (id)up",R,N,V_group;
 + (id);
 - (_Bool);
 - (_Bool);

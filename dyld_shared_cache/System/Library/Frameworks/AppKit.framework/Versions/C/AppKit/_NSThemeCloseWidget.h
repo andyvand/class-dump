@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)on line %d, offset %llu, stream id %llu;
 + (void)pÖG;
-- (void);
+- (void)nifest trust evaluation failed with status 0x%llX;
 
 @end
 

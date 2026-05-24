@@ -15,7 +15,7 @@
 
 - (id);
 - (id);
-- (id);
+- (id)AMSAutoBugCaptureReport;
 - (_Bool);
 - (id);
 - (void);

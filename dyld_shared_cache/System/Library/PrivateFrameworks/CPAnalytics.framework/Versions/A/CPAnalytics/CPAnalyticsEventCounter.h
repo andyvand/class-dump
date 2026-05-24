@@ -9,9 +9,6 @@
 @interface CPAnalyticsEventCounter
 {
     NSString *_name;
-    unsigned long long _count;
-    CPAnalyticsEventMatcher *_matcher;
-    NSString *_countKey;
 }
 
 + (id);
@@ -23,16 +20,13 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)W;
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long count; // @synthesize count=_count;
-@property(readonly, nonatomic) NSString *countKey; // @synthesize countKey=_countKey;
 @property(readonly, nonatomic) CPAnalyticsEventMatcher *matcher; // @synthesize matcher=_matcher;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

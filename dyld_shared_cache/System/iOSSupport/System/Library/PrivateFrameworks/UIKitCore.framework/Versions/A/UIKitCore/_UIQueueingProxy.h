@@ -6,28 +6,22 @@
 
 #import <UIKitCore/_UITargetedProxy.h>
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface _UIQueueingProxy : _UITargetedProxy
 {
     struct os_unfair_lock_s _lock;
-    unsigned long long _suspensionCount;
-    NSMutableArray *_queuedInvocations;
-    CDUnknownBlockType _shouldSuspendInvocationBlock;
-    _Bool _bypassSuspension;
 }
 
 + (id);
 + (id);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)isValidSubAction:subAction: /* Error: Ran out of types for this method. */;
+- (void)Vd59Xx5VwUaas/Library/Caches/com.apple.xbs/TemporaryDirectory.LLyPBF/Sources/Listen/Framework/Internal/Core/DSPGraph/Utilities/SNDSPGraph.mm:92:26)] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void)ableConstantsTableProviding>"24;
 - (_Bool)[150c]iib1b1b1[256c]b1b1b1b2b2b1Ib1b1b1[256c][256c][100c]b1b1b1b1b1db1b1b1[100c][100c][256c][256c]}16r^{?=[46B][64c][64c][256c]iiii[100c][100c][100c][100c][2[100c]][1024c]IIb1b1iib1IIiI[150c]iib1b1b1[256c]b1b1b1b2b2b1Ib1b1b1[256c][256c][100c]b1b1b1b1b1db1b1b1[100c][100c][256c][256c]}24r^{?=[46B]b1b1b1b1b1b1b1b1b2b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1Ib1b1b1b1b1b1b1b1{?=[46B][64c][64c][256c]iiii[100c][100c][100c][100c][2[100c]][1024c]IIb1b1iib1IIiI[150c]iib1b1b1[256c]b1b1b1b2b2b1Ib1b1b1[256c][256c][100c]b1b1b1b1b1db1b1b1[100c][100c][256c][256c]}}32;
-- (void)ctionHandler:(id)arg1;
+- (void)showSamplerWithSelectionHandler:(id)arg1;
 - (void)angeView",R,N,V_highlightSubview;
 - (void);
 

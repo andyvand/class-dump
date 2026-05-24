@@ -4,40 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSSet, NSURL;
+@class NSDictionary;
 
 @interface AMPPhotoSyncPrefs
 {
     _Bool _syncPhotos;
-    _Bool _copyOriginalPhotos;
-    _Bool _autoIncludePhotosEnabled;
-    _Bool _onlyFavoritePhotos;
-    _Bool _photoSyncAllAlbums;
-    _Bool _photoSyncAllFaces;
-    _Bool _photoSyncPhotoVideos;
-    _Bool _photosAppCopyOriginalPhotos;
-    _Bool _photosAppSyncPhotoVideos;
-    _Bool _photosAppSyncAllAlbums;
-    _Bool _photosAppSyncAllFaces;
-    _Bool _photosAppAutoIncludeEnabled;
-    _Bool _photosAppOnlyFavorites;
-    _Bool _photosFolderCopyOriginalPhotos;
-    _Bool _photosFolderSyncPhotoVideos;
-    int _photoSyncSource;
-    int _photoSyncMode;
-    int _photoEventCount;
-    int _photosAppSyncMode;
-    int _photosAppEventCount;
-    int _photosAppCustomAlbumOrder;
-    int _photosFolderSyncMode;
-    int _photosFolderCustomAlbumOrder;
-    NSArray *_photosAppAlbums;
-    NSSet *_photosAppSelectedAlbums;
-    NSURL *_photosFolderURL;
-    NSData *_photosFolderBookmark;
-    NSArray *_photosFolderNames;
-    NSSet *_photosFolderSelectedNames;
-    NSDictionary *_photoSharingSettings;
 }
 
 + (_Bool);
@@ -58,7 +29,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
@@ -77,7 +48,7 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (int);
+- (int)!;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -101,45 +72,16 @@
 - (void);
 - (void);
 - (id);
-- (int);
+- (int);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool autoIncludePhotosEnabled; // @synthesize autoIncludePhotosEnabled=_autoIncludePhotosEnabled;
-@property(nonatomic) _Bool copyOriginalPhotos; // @synthesize copyOriginalPhotos=_copyOriginalPhotos;
-@property(nonatomic) _Bool onlyFavoritePhotos; // @synthesize onlyFavoritePhotos=_onlyFavoritePhotos;
-@property(nonatomic) int photoEventCount; // @synthesize photoEventCount=_photoEventCount;
 @property(retain, nonatomic) NSDictionary *photoSharingSettings; // @synthesize photoSharingSettings=_photoSharingSettings;
-@property(nonatomic) _Bool photoSyncAllAlbums; // @synthesize photoSyncAllAlbums=_photoSyncAllAlbums;
-@property(nonatomic) _Bool photoSyncAllFaces; // @synthesize photoSyncAllFaces=_photoSyncAllFaces;
-@property(nonatomic) int photoSyncMode; // @synthesize photoSyncMode=_photoSyncMode;
-@property(nonatomic) _Bool photoSyncPhotoVideos; // @synthesize photoSyncPhotoVideos=_photoSyncPhotoVideos;
-@property(nonatomic) int photoSyncSource; // @synthesize photoSyncSource=_photoSyncSource;
-@property(retain, nonatomic) NSArray *photosAppAlbums; // @synthesize photosAppAlbums=_photosAppAlbums;
-@property(nonatomic) _Bool photosAppAutoIncludeEnabled; // @synthesize photosAppAutoIncludeEnabled=_photosAppAutoIncludeEnabled;
-@property(nonatomic) _Bool photosAppCopyOriginalPhotos; // @synthesize photosAppCopyOriginalPhotos=_photosAppCopyOriginalPhotos;
-@property(nonatomic) int photosAppCustomAlbumOrder; // @synthesize photosAppCustomAlbumOrder=_photosAppCustomAlbumOrder;
-@property(nonatomic) int photosAppEventCount; // @synthesize photosAppEventCount=_photosAppEventCount;
-@property(nonatomic) _Bool photosAppOnlyFavorites; // @synthesize photosAppOnlyFavorites=_photosAppOnlyFavorites;
-@property(retain, nonatomic) NSSet *photosAppSelectedAlbums; // @synthesize photosAppSelectedAlbums=_photosAppSelectedAlbums;
-@property(nonatomic) _Bool photosAppSyncAllAlbums; // @synthesize photosAppSyncAllAlbums=_photosAppSyncAllAlbums;
-@property(nonatomic) _Bool photosAppSyncAllFaces; // @synthesize photosAppSyncAllFaces=_photosAppSyncAllFaces;
-@property(nonatomic) int photosAppSyncMode; // @synthesize photosAppSyncMode=_photosAppSyncMode;
-@property(nonatomic) _Bool photosAppSyncPhotoVideos; // @synthesize photosAppSyncPhotoVideos=_photosAppSyncPhotoVideos;
-@property(retain, nonatomic) NSData *photosFolderBookmark; // @synthesize photosFolderBookmark=_photosFolderBookmark;
-@property(nonatomic) _Bool photosFolderCopyOriginalPhotos; // @synthesize photosFolderCopyOriginalPhotos=_photosFolderCopyOriginalPhotos;
-@property(nonatomic) int photosFolderCustomAlbumOrder; // @synthesize photosFolderCustomAlbumOrder=_photosFolderCustomAlbumOrder;
-@property(retain, nonatomic) NSArray *photosFolderNames; // @synthesize photosFolderNames=_photosFolderNames;
-@property(retain, nonatomic) NSSet *photosFolderSelectedNames; // @synthesize photosFolderSelectedNames=_photosFolderSelectedNames;
-@property(nonatomic) int photosFolderSyncMode; // @synthesize photosFolderSyncMode=_photosFolderSyncMode;
-@property(nonatomic) _Bool photosFolderSyncPhotoVideos; // @synthesize photosFolderSyncPhotoVideos=_photosFolderSyncPhotoVideos;
-@property(retain, nonatomic) NSURL *photosFolderURL; // @synthesize photosFolderURL=_photosFolderURL;
-@property(nonatomic) _Bool syncPhotos; // @synthesize syncPhotos=_syncPhotos;
 
 @end
 

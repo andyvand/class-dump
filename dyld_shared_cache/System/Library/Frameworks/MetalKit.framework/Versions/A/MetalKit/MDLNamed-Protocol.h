@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol MDLNamed
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *name;

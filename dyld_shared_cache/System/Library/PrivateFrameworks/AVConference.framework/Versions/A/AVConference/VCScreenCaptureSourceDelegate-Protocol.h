@@ -5,5 +5,7 @@
 //
 
 @protocol VCScreenCaptureSourceDelegate
+- (void);
+- (void);
 @end
 

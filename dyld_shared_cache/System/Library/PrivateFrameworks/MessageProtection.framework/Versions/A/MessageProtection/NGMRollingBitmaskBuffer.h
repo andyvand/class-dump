@@ -7,8 +7,6 @@
 @interface NGMRollingBitmaskBuffer
 {
     unsigned int _upper_buffer_index;
-    unsigned int _valid_values_buffer_size;
-    char *_valid_values_buffer;
 }
 
 - (unsigned int);
@@ -25,8 +23,6 @@
 
 // Remaining properties
 @property unsigned int upper_buffer_index; // @synthesize upper_buffer_index=_upper_buffer_index;
-@property char *valid_values_buffer; // @synthesize valid_values_buffer=_valid_values_buffer;
-@property unsigned int valid_values_buffer_size; // @synthesize valid_values_buffer_size=_valid_values_buffer_size;
 
 @end
 

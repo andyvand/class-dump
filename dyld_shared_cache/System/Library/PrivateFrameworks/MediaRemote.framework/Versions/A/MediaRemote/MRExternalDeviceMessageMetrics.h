@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface MRExternalDeviceMessageMetrics
 {
     NSString *_path;
-    NSMutableDictionary *_entries;
 }
 
 - (void);
 - (void);
-- (id);
-- (void);
-- (void)adius;
+- (id)SKStatusSubscription;
+- (void)dataForMessage: /* Error: Ran out of types for this method. */;
+- (void)ProximitySortingNearbyRadius;
 
 @end
 

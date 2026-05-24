@@ -7,7 +7,6 @@
 @interface CIFilterShape
 {
     unsigned int _pad;
-    void *_priv;
 }
 
 + (id);

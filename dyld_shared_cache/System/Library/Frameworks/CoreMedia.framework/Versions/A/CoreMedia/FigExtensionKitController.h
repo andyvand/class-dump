@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, _EXQueryController;
+@class _EXQueryController;
 
 __attribute__((visibility("hidden")))
 @interface FigExtensionKitController
 {
     _EXQueryController *_controller;
-    NSDictionary *_extensions;
-    id _extensionsKeySet;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)h;
 - (id);
 - (void);
 - (void);
@@ -28,15 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) _EXQueryController *controller; // @synthesize controller=_controller;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSDictionary *extensions; // @synthesize extensions=_extensions;
-@property(retain, nonatomic) id extensionsKeySet; // @synthesize extensionsKeySet=_extensionsKeySet;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

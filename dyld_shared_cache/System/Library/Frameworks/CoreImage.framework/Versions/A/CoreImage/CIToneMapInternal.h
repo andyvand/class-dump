@@ -6,20 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber, NSString;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIToneMapInternal : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputSourceHeadroom;
-    NSNumber *inputTargetHeadroom;
-    NSString *inputPreferredDynamicRange;
-    NSNumber *inputMinimumSDRExposure;
-    NSNumber *inputOffsetAnchor;
-    NSNumber *inputHighlightsTradeOffRatio;
-    NSNumber *inputMinimumGammaAdjustment;
-    NSNumber *inputStopAnchor;
 }
 
 + (id);
@@ -27,13 +19,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)l;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)R;
 - (id);
 - (id);
 - (id);
@@ -43,19 +35,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (float);
 - (id);
-- (void);
+- (void)h!NB;
 - (id)¹¹¹¹µµµµ¢§««¤¥¥¥¥¥¤¤¤¤i~{k|{rrrr=UHade^i¤¤¤¤    ezw|zus}xourvJaXmZkeqzzzzm|{{~}|wc~|²²²²³³³³©©©©¤¤¤¤¢¢¢¢m|Mpe¡¡¡¡l~{~~~~~{~~~~Xmgy¤¤¤¤¤¤¤¤e{uvzbvo}muoz{yv|[tr~syyykkkk=SH_W_Wg{{{{`yyjpkxttpt;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *inputHighlightsTradeOffRatio; // @synthesize inputHighlightsTradeOffRatio;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputMinimumGammaAdjustment; // @synthesize inputMinimumGammaAdjustment;
-@property(retain, nonatomic) NSNumber *inputMinimumSDRExposure; // @synthesize inputMinimumSDRExposure;
-@property(retain, nonatomic) NSNumber *inputOffsetAnchor; // @synthesize inputOffsetAnchor;
-@property(retain, nonatomic) NSString *inputPreferredDynamicRange; // @synthesize inputPreferredDynamicRange;
-@property(retain, nonatomic) NSNumber *inputSourceHeadroom; // @synthesize inputSourceHeadroom;
-@property(retain, nonatomic) NSNumber *inputStopAnchor; // @synthesize inputStopAnchor;
-@property(retain, nonatomic) NSNumber *inputTargetHeadroom; // @synthesize inputTargetHeadroom;
 
 @end
 

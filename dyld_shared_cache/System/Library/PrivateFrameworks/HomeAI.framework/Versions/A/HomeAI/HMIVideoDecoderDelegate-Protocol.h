@@ -5,5 +5,8 @@
 //
 
 @protocol HMIVideoDecoderDelegate
+
+@optional
+- (void);
 @end
 

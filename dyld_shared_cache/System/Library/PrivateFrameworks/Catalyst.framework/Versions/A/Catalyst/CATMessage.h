@@ -11,11 +11,11 @@
     NSUUID *_messageUUID;
 }
 
-+ (_Bool);
++ (_Bool)_setUUIDDBFileDescriptor: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)h;
 - (id);
 - (void);
 - (void);
@@ -24,7 +24,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) id cat_assertion;
-@property(retain, nonatomic) NSUUID *messageUUID; // @synthesize messageUUID=_messageUUID;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface CNContactCardFieldPickerDataSource
 {
     NSArray *_contacts;
-    NSArray *_sections;
-    NSArray *_hiddenProperties;
 }
 
 + (id);
@@ -20,7 +18,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -33,25 +31,16 @@
 - (long long);
 - (id);
 - (id);
-- (long long);
+- (long long)`	;
 - (long long);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void)ssResolver:capacity:schedulerProvider: /* Error: Ran out of types for this method. */;
+- (void)cachingRendererWithLikenessResolver:capacity:schedulerProvider: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *contacts; // @synthesize contacts=_contacts;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSArray *hiddenProperties; // @synthesize hiddenProperties=_hiddenProperties;
-@property(readonly, nonatomic) NSArray *sections; // @synthesize sections=_sections;
-@property(readonly) Class superclass;
 
 @end
 

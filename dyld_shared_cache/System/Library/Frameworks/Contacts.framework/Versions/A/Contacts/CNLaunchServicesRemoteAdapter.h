@@ -14,9 +14,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)/A/InternationalSupport;
+- (void)Library/PrivateFrameworks/InternationalSupport.framework/Versions/A/InternationalSupport;
+- (void)ramework/Versions/A/CoreVideo;
 - (void);
 
 @end

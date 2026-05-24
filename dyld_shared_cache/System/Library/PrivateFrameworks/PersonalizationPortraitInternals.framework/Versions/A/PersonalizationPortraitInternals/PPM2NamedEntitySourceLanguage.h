@@ -9,16 +9,6 @@
 @interface PPM2NamedEntitySourceLanguage
 {
     NSString *_activeTreatments;
-    int _algorithm;
-    NSString *_detectedLanguage;
-    int _donationSource;
-    unsigned int _languageCount;
-    NSString *_systemLanguage;
-    struct {
-        unsigned int algorithm:1;
-        unsigned int donationSource:1;
-        unsigned int languageCount:1;
-    } _has;
 }
 
 - (void);
@@ -30,7 +20,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)C;
 - (id);
 - (int);
 - (int);
@@ -39,18 +29,18 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)!;
 - (void);
 - (int);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (id);
+- (unsigned long long);
+- (id)0;
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)_dateFormatter;
 - (int);
 - (id);
 - (id);
@@ -58,18 +48,7 @@
 - (void)intent with parameters;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *activeTreatments; // @synthesize activeTreatments=_activeTreatments;
-@property(nonatomic) int algorithm; // @synthesize algorithm=_algorithm;
-@property(retain, nonatomic) NSString *detectedLanguage; // @synthesize detectedLanguage=_detectedLanguage;
-@property(nonatomic) int donationSource; // @synthesize donationSource=_donationSource;
-@property(readonly, nonatomic) _Bool hasActiveTreatments;
-@property(nonatomic) _Bool hasAlgorithm;
 @property(readonly, nonatomic) _Bool hasDetectedLanguage;
-@property(nonatomic) _Bool hasDonationSource;
-@property(nonatomic) _Bool hasLanguageCount;
-@property(readonly, nonatomic) _Bool hasSystemLanguage;
-@property(nonatomic) unsigned int languageCount; // @synthesize languageCount=_languageCount;
-@property(retain, nonatomic) NSString *systemLanguage; // @synthesize systemLanguage=_systemLanguage;
 
 @end
 

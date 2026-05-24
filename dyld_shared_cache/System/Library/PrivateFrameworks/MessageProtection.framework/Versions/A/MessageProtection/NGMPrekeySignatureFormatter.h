@@ -4,32 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface NGMPrekeySignatureFormatter
 {
     double _timestamp;
-    NSData *_prekeyPublic;
 }
 
-- (id);
+- (id)_TtC12SiriOntology27UsoEntity_common_PersonName;
 - (id);
 - (double);
 - (id);
-- (id);
+- (id)flagged;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSData *prekeyPublic; // @synthesize prekeyPublic=_prekeyPublic;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

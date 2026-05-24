@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)s already in progress. Deferring until SRVCC handover completes.;
 
 @end
 

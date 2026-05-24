@@ -9,10 +9,6 @@
 @interface NEIKEv2TrafficSelector
 {
     unsigned char _ipProtocol;
-    unsigned short _startPort;
-    unsigned short _endPort;
-    NWAddressEndpoint *_startAddress;
-    NWAddressEndpoint *_endAddress;
 }
 
 + (id);
@@ -23,21 +19,17 @@
 - (void);
 - (void);
 - (unsigned short);
-- (void);
+- (void);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)signedCharValue;
-- (id)ules;
+- (void)unsignedCharValue;
+- (id)_connectionRules;
 - (unsigned char)xôÿ;
 
 // Remaining properties
-@property(retain) NWAddressEndpoint *endAddress; // @synthesize endAddress=_endAddress;
-@property unsigned short endPort; // @synthesize endPort=_endPort;
-@property unsigned char ipProtocol; // @synthesize ipProtocol=_ipProtocol;
 @property(retain) NWAddressEndpoint *startAddress; // @synthesize startAddress=_startAddress;
-@property unsigned short startPort; // @synthesize startPort=_startPort;
 
 @end
 

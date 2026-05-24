@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSUUID;
+@class NSUUID;
 
 @interface RTWorkInferenceHistoryStats
 {
     NSUUID *_learnedPlaceIdentifier;
-    unsigned long long _totalInferences;
-    unsigned long long _workInferences;
-    NSDate *_lastDateInferred;
 }
 
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)eds repair;
 - (id);
 - (void)te transition requested, %@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *lastDateInferred; // @synthesize lastDateInferred=_lastDateInferred;
 @property(readonly, nonatomic) NSUUID *learnedPlaceIdentifier; // @synthesize learnedPlaceIdentifier=_learnedPlaceIdentifier;
-@property(readonly, nonatomic) unsigned long long totalInferences; // @synthesize totalInferences=_totalInferences;
-@property(readonly, nonatomic) unsigned long long workInferences; // @synthesize workInferences=_workInferences;
 
 @end
 

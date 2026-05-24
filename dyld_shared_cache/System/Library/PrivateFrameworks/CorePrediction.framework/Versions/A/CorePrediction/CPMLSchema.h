@@ -4,60 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface CPMLSchema
 {
     NSMutableArray *schema;
-    NSMutableString *schemaHeader;
-    NSMutableString *schemaHeaderWithType;
-    NSMutableArray *attribute;
-    NSMutableArray *schemaHDef;
-    NSMutableArray *nsRemapTable;
-    NSMutableArray *_categoricalDataList;
-    NSMutableArray *_replaceMissingValue;
-    NSMutableArray *_matchReplaceValue;
-    int yColumnPosition;
-    NSMutableArray *availableOptions;
-    NSMutableArray *_indexColumnList;
 }
 
+- (id)nt=dd}24;
+- (id)SDraggingSession"16{CGPoint=dd}24;
+- (id)ce"24;
+- (_Bool)@"NSSharingServicePicker"16@"NSSharingService"24;
+- (_Bool)"<UIDragSession>">16@0:(unsigned long long)arg1 8;
+- (_Bool)apter>"16;
+- (_Bool)wItemSeparatorTrackingAdapter>"16;
+- (_Bool):(unsigned long long)arg1 8@"NSObject<NSSplitViewItemSeparatorTrackingAdapter>"16;
+- (_Bool)ngAdapter>"16@0:(unsigned long long)arg1 8;
+- (_Bool)pter>"16@0:(unsigned int)arg1 8;
+- (_Bool)SObject<NSScrollViewSeparatorTrackingAdapter>"16;
+- (int)v24@0:8@"NSObject"16 /* Error: Ran out of types for this method. */;
+- (int)<NSSidebarTrackingAdapter>"16;
+- (unsigned long long)rAccessoryViewController"16q24;
+- (id)cessoryViewController"16;
+- (unsigned long long)int=dd}24;
+- (id)ent=}16;
+- (int)@0:(unsigned long long)arg1 8;
+- (int)32@0:(id)arg1 8{CGSize=dd}16;
+- (id)6{CGPoint=dd}24;
+- (id)rowserViewControllerDelegate>";
+- (id)2@0:8@16@"NSURL"24 /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (int);
-- (int);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
-- (id);
-- (int);
-- (int);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (id)>(Ð1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *attribute; // @synthesize attribute;
-@property(readonly, nonatomic) NSMutableArray *availableOptions; // @synthesize availableOptions;
-@property(readonly, nonatomic) NSMutableArray *indexColumnList; // @synthesize indexColumnList=_indexColumnList;
-@property(readonly, nonatomic) NSMutableArray *nsRemapTable; // @synthesize nsRemapTable;
-@property(readonly, nonatomic) NSMutableString *schemaHeader; // @synthesize schemaHeader;
-@property(readonly, nonatomic) NSMutableString *schemaHeaderWithType; // @synthesize schemaHeaderWithType;
 
 @end
 

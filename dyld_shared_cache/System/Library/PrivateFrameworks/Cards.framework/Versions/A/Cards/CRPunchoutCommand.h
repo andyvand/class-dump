@@ -6,8 +6,7 @@
 
 #import <Cards/CRBasicPayloadCommand.h>
 
-@class NSDictionary, NSString, SFPunchout;
-@protocol NSSecureCoding><NSCopying;
+@class SFPunchout;
 
 @interface CRPunchoutCommand : CRBasicPayloadCommand
 {
@@ -16,16 +15,6 @@
 
 
 // Remaining properties
-@property(nonatomic) unsigned long long commandDirection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <NSSecureCoding><NSCopying> payload;
 @property(retain, nonatomic) SFPunchout *punchout; // @synthesize punchout=_punchout;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDictionary *userInfo;
 @end
 

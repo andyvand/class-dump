@@ -7,38 +7,26 @@
 @interface _NSScrollingMomentumCalculator
 {
     struct os_unfair_lock_s _lock;
-    struct CGPoint _initialOrigin;
-    struct CGPoint _initialVelocity;
-    struct CGPoint _destinationOrigin;
-    struct CGRect _documentFrame;
-    struct CGPoint _constrainedClippingOrigin;
-    struct CGSize _clippingSize;
-    struct CGSize _tolerance;
-    double _decelerationRate;
-    struct {
-        unsigned int shouldRoundCalculations:1;
-        unsigned int reserved:31;
-    } _flags;
 }
 
 + (id)d4
 ÏçI;
 - (double);
-- (struct CGPoint);
+- (struct CGPoint)__objc_classlist__DATA_CONST;
 - (double);
 - (_Bool);
 - (void);
 - (void);
+- (void)th;
+- (void)IMEI;
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGPoint);
+- (void)1hU;
+- (struct CGPoint)trBC4VS5gVmCv6Wg41Hryw;
 - (struct CGPoint);
 - (id);
-- (id);
+- (id)DD;
 - (id);
 - (id);
 - (double);
@@ -58,18 +46,7 @@
 - (struct CGPoint)@@;
 
 // Remaining properties
-@property struct CGSize clippingSize;
-@property struct CGPoint constrainedClippingOrigin;
-@property double decelerationRate;
-@property struct CGPoint destinationOrigin;
-@property struct CGRect documentFrame;
-@property(readonly) double durationUntilStop; // @dynamic durationUntilStop;
-@property double horizontalScrollDecelerationFactor;
-@property struct CGPoint initialOrigin;
-@property struct CGPoint initialVelocity;
 @property _Bool shouldRoundCalculations;
-@property struct CGSize tolerance;
-@property double verticalScrollDecelerationFactor;
 
 @end
 

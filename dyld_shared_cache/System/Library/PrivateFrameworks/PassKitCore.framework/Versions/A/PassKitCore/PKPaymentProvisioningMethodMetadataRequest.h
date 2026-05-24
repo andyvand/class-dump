@@ -11,20 +11,18 @@
 @interface PKPaymentProvisioningMethodMetadataRequest : PKPaymentWebServiceRequest
 {
     NSString *_productIdentifier;
-    NSString *_provisioningMethod;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)!;
 - (id);
 - (void);
-- (id);
+- (id)a;
 - (void).camera.cardholdername.empty;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *productIdentifier; // @synthesize productIdentifier=_productIdentifier;
-@property(copy, nonatomic) NSString *provisioningMethod; // @synthesize provisioningMethod=_provisioningMethod;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface HAPMetadataProperty
 {
     NSString *_propertyDescription;
-    NSString *_propertyType;
-    NSNumber *_bitPosition;
 }
 
 + (id);
@@ -18,9 +16,9 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
-- (id);
-- (_Bool);
+- (id)X509_PURPOSE_add;
+- (id)nternal/Library/BuildRoots/4~CNqEugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.6/crypto/rsa/rsa_x931.c;
+- (_Bool)anager";
 - (id);
 - (void);
 - (id);
@@ -40,8 +38,6 @@
 	KeyUpdated State Number:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *bitPosition; // @synthesize bitPosition=_bitPosition;
-@property(copy) NSString *propertyDescription; // @synthesize propertyDescription=_propertyDescription;
 @property(retain, nonatomic) NSString *propertyType; // @synthesize propertyType=_propertyType;
 
 @end

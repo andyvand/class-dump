@@ -5,5 +5,9 @@
 //
 
 @protocol PKPaymentProvisioningControllerDelegate
+
+@optional
+- (void);
+- (void);
 @end
 

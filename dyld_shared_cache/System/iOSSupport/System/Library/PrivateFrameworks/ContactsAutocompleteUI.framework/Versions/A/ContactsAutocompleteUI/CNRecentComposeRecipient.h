@@ -16,11 +16,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)Only the destination declared closest to the root view of the stack will be used.;
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 

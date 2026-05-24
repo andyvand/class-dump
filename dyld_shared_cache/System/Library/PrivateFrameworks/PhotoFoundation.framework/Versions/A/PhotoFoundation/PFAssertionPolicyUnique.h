@@ -13,7 +13,7 @@
     NSMutableSet *_signatures;
 }
 
-- (void);
+- (void)J=;
 - (id);
 - (void);
 

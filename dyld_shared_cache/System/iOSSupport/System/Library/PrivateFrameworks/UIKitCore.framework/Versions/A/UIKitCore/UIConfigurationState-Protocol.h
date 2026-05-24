@@ -7,8 +7,9 @@
 @class UITraitCollection;
 
 @protocol UIConfigurationState
-- (void)AttributeValueKeyboardTypeNumbersAndPunctuationStr;
-- (void)age;
+- (id)__hasCloudSyncSource_KEY;
+- (void)UIKBAttributeValueKeyboardTypeNumbersAndPunctuationStr;
+- (void)primaryLanguage;
 - (id);
 - (id)GSg4¶.3yAJyAJy¸Ñ.3¤.3yAK[².3GGAJyAnLyAKû¨.3GGGAKGSgAJyAkLyALyALyAH.3G±.3GAPGGSgtGG;
 - (UITraitCollection *)è;

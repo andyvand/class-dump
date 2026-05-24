@@ -6,44 +6,34 @@
 
 #import <GeoServices/GEORouteMatcher.h>
 
-@class NSArray, NSMutableArray, _GEOWalkingRouteMatcherTurnAroundManeuverInfo;
-
 __attribute__((visibility("hidden")))
 @interface GEOWalkingRouteMatcher : GEORouteMatcher
 {
     unsigned long long _newStepProgressions;
-    GEOPolylineCoordinateRange_1706676a _expectedCoordinateRange;
-    GEOPolylineCoordinateRange_1706676a _possibleCoordinateRange;
-    GEOPolylineCoordinateRange_1706676a _tolerableCoordinateRange;
-    struct PolylineCoordinate _lastReferenceCoordinate;
-    NSArray *_turnAroundManeuverInfos;
-    _GEOWalkingRouteMatcherTurnAroundManeuverInfo *_nearbyTurnAroundManeuverInfo;
-    NSMutableArray *_recentLocations;
-    NSMutableArray *_candidateMatchesForSecondPass;
 }
 
 - (id);
-- (id);
-- (_Bool);
+- (id)ate",&,N,V_state;
+- (_Bool)Record",&,N;
 - (void);
-- (double);
-- (void);
-- (void);
-- (id);
-- (id);
-- (double);
-- (double);
-- (id);
-- (void);
+- (double)CNCDIOSLegacyIdentifierSaveDistributor;
+- (void)ABCDCustomPropertyValue;
+- (void)CNPersistentStoreBuilder;
 - (id);
 - (id);
 - (double);
+- (double);
+- (id);
+- (void);
+- (id)yt;
+- (id)So22NSManagedObjectContextC;
+- (double);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)@;
+- (void)contactPictureAttachmentId;
 - (id);
 - (void)rProto8
 	extension (2%.google.protobuf.FieldDescriptorProto5

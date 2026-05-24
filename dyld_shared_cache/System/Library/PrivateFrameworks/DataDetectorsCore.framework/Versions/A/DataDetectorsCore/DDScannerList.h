@@ -4,23 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface DDScannerList
 {
     _Bool _spotlightSuggestionsEnabled;
-    int _type;
-    NSString *_hash;
-    NSString *_language;
-    NSString *_country;
-    _Bool _languageHighConfidence;
-    NSMutableArray *_waitQueue;
-    NSMutableArray *_scannerCache;
-    NSMutableArray *_activeScanners;
 }
 
-- (void);
+- (void)fetchUUID:intervalToWaitForDocumentSynchonization:withCompletionHandler: /* Error: Ran out of types for this method. */;
 
 @end
 

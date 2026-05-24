@@ -18,11 +18,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)Keyroll;
+- (id)ollSuccessful;
+- (void)tachmentPath for transfer %@;
+- (void)tion:(_Bool)arg1 %f file create date:%@ delivered time:%@ total file Size:%f /* Error: Ran out of types for this method. */;
+- (void)rvices %@;
 - (void);
 - (id),V__navigationItemPreviouslyDisplayingSearchBarWithSearchActive;
 - (void)x±e;

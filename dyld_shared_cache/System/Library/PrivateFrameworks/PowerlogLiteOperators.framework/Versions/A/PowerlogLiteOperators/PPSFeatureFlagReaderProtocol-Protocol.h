@@ -5,5 +5,6 @@
 //
 
 @protocol PPSFeatureFlagReaderProtocol
+- (void)_forceMigrationFailureForTesting;
 @end
 

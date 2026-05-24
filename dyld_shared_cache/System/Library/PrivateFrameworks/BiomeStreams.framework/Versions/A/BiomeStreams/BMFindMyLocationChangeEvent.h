@@ -6,35 +6,30 @@
 
 #import <BiomeStreams/BMEventBase.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface BMFindMyLocationChangeEvent : BMEventBase
 {
     NSString *_idsHandle;
-    unsigned long long _locationChangeType;
-    long long _motionActivityState;
-    NSNumber *_latitude;
-    NSNumber *_longitude;
-    NSString *_name;
 }
 
 + (id);
 - (void);
-- (void);
+- (void)p;
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (long long);
 - (unsigned long long);
-- (id);
+- (id)${痣;
 - (id);
 - (unsigned int);
 - (id);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id)!Fùv°1Â0@ù
 × ;
@@ -45,20 +40,7 @@
 - (id)Ù1\Üÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *idsHandle; // @synthesize idsHandle=_idsHandle;
-@property(copy, nonatomic) NSNumber *latitude; // @synthesize latitude=_latitude;
-@property(nonatomic) unsigned long long locationChangeType; // @synthesize locationChangeType=_locationChangeType;
-@property(copy, nonatomic) NSNumber *longitude; // @synthesize longitude=_longitude;
-@property long long motionActivityState; // @synthesize motionActivityState=_motionActivityState;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
 
 @end
 

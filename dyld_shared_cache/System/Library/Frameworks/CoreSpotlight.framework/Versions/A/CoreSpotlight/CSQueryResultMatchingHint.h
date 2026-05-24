@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CSQueryResultMatchingHint
 {
     NSString *_attribute;
-    NSArray *_tokens;
 }
 
 + (id);
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(readonly, copy) NSString *attribute; // @synthesize attribute=_attribute;
-@property(readonly, copy) NSArray *tokens; // @synthesize tokens=_tokens;
 
 @end
 

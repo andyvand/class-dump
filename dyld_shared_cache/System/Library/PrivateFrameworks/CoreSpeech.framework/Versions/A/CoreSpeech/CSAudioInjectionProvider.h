@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSAudioInjectionDevice, CSAudioRecordContext, NSHashTable, NSMutableArray, NSMutableDictionary, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue;
+@class NSHashTable;
 
 @interface CSAudioInjectionProvider
 {
     _Bool _allowZeroInjection;
-    _Bool _shouldSupportOnlyTVRemote;
-    float _didStartDelayInSeconds;
-    NSHashTable *_observers;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSUUID *_uuid;
-    NSMutableArray *_connectedDevices;
-    CSAudioInjectionDevice *_primaryBuiltInDevice;
-    CSAudioInjectionDevice *_primaryTvRemoteDevice;
-    NSMutableDictionary *_audioInjectionEngines;
-    unsigned long long _latestPluginStreamId;
-    unsigned long long _activateStartTime;
-    unsigned long long _activateEndTime;
-    unsigned long long _deactivateStartTime;
-    unsigned long long _deactivateEndTime;
-    NSString *_atvRemoteDeviceID;
-    CSAudioRecordContext *_audioRecordContext;
-    NSUUID *_selectedBuiltInBundleDeviceUID;
 }
 
 + (id);
@@ -36,13 +18,13 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)\^;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -62,9 +44,9 @@
 - (id);
 - (id);
 - (id);
+- (_Bool)__objc_ivar;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
@@ -95,7 +77,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)relayMessageHandler;
 - (void);
 - (void);
 - (void);
@@ -105,49 +87,25 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)CGPoint}}}{vector<std::vector<CGPoint>, std::allocator<std::vector<CGPoint>>>=^v^v{?=^v}}QQiQBB}48@0:8{vImage_Buffer=^vQQQ}16 /* Error: Ran out of types for this method. */;
+- (void)getPrecision:(id)arg1 forClassificationIdentifier:confidence:error: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void)UpperBoundsToVolume: /* Error: Ran out of types for this method. */;
+- (void)applyLowerAndUpperBoundsToVolume: /* Error: Ran out of types for this method. */;
 - (void)echXPC voiceTriggerRTModelWithRequestOptions:(_Bool)arg1 downloadedModels:preinstalledModels:completion:] /* Error: Ran out of types for this method. */;
-- (float)fferHostTime;
+- (float)CSEndpointMetrics:(unsigned long long)arg1::endpointBufferHostTime /* Error: Ran out of types for this method. */;
 - (float)lientConfiguration:(unsigned long long)arg1 ];
 - (void)s triggered;
 - (_Bool)Ê¬;
 
 // Remaining properties
-@property(nonatomic) unsigned long long activateEndTime; // @synthesize activateEndTime=_activateEndTime;
-@property(nonatomic) unsigned long long activateStartTime; // @synthesize activateStartTime=_activateStartTime;
-@property(nonatomic) _Bool allowZeroInjection; // @synthesize allowZeroInjection=_allowZeroInjection;
-@property(retain, nonatomic) NSString *atvRemoteDeviceID; // @synthesize atvRemoteDeviceID=_atvRemoteDeviceID;
-@property(retain, nonatomic) NSMutableDictionary *audioInjectionEngines; // @synthesize audioInjectionEngines=_audioInjectionEngines;
-@property(retain, nonatomic) CSAudioRecordContext *audioRecordContext; // @synthesize audioRecordContext=_audioRecordContext;
-@property(retain, nonatomic) NSMutableArray *connectedDevices; // @synthesize connectedDevices=_connectedDevices;
-@property(nonatomic) unsigned long long deactivateEndTime; // @synthesize deactivateEndTime=_deactivateEndTime;
-@property(nonatomic) unsigned long long deactivateStartTime; // @synthesize deactivateStartTime=_deactivateStartTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) float didStartDelayInSeconds; // @synthesize didStartDelayInSeconds=_didStartDelayInSeconds;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long latestPluginStreamId; // @synthesize latestPluginStreamId=_latestPluginStreamId;
 @property(retain, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
-@property(retain, nonatomic) CSAudioInjectionDevice *primaryBuiltInDevice; // @synthesize primaryBuiltInDevice=_primaryBuiltInDevice;
-@property(retain, nonatomic) CSAudioInjectionDevice *primaryTvRemoteDevice; // @synthesize primaryTvRemoteDevice=_primaryTvRemoteDevice;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSUUID *selectedBuiltInBundleDeviceUID; // @synthesize selectedBuiltInBundleDeviceUID=_selectedBuiltInBundleDeviceUID;
-@property(nonatomic) _Bool shouldSupportOnlyTVRemote; // @synthesize shouldSupportOnlyTVRemote=_shouldSupportOnlyTVRemote;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

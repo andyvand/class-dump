@@ -11,20 +11,16 @@
 @interface AVCaptureSynchronizedCameraCalibrationData : AVCaptureSynchronizedData
 {
     AVCameraCalibrationData *_cameraCalibrationData;
-    _Bool _cameraCalibrationDataWasDropped;
-    long long _droppedReason;
 }
 
 - (long long);
-- (id);
-- (_Bool);
-- (void);
+- (id)null)(MSVLogStateHints, __strong _MSVLogStateEncode))_block_invoke;
+- (_Bool)MSVArtworkServiceConversionRequestDestinationURL;
+- (void)32@0:8@"NSString"16@?<v@?@"ACAccount"@"NSError">24 /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
 @property(readonly) AVCameraCalibrationData *cameraCalibrationData;
-@property(readonly) _Bool cameraCalibrationDataWasDropped;
-@property(readonly) long long droppedReason;
 
 @end
 

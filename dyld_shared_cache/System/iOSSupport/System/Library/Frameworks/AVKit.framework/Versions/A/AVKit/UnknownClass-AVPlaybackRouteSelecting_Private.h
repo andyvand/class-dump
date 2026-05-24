@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (AVPlaybackRouteSelecting_Private)
-- (void);
+- (void);
 - (void);
 - (id);
 @end

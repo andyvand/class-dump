@@ -7,15 +7,13 @@
 @interface CKSwipeActionIndicator
 {
     id imageView;
-    id currentScale;
-    double currentHorizontalTranslation;
 }
 
++ (id);
 + (id);
-+ (id);
-- (void);
-- (void);
-- (void);
+- (void)timestamp;
+- (void)e;
+- (void)r;
 - (double);
 - (struct CGSize);
 - (id);
@@ -27,8 +25,6 @@
 - (void)PosterKitChannelSnapshotControllerKey;
 
 // Remaining properties
-@property(nonatomic) double blurRadius;
-@property(nonatomic) double currentHorizontalTranslation; // @synthesize currentHorizontalTranslation;
 @property(nonatomic, readonly) struct CGSize preferredSize;
 
 @end

@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString, UIButton, UILabel;
-@protocol PKTextInputDebugViewTableCellDelegate;
+@class UILabel;
 
 @interface PKTextInputDebugViewTableCell
 {
     _Bool _showDetailsButton;
-    NSString *_titleText;
-    NSAttributedString *_valueAttributedText;
-    NSString *_statusKey;
-    id <PKTextInputDebugViewTableCellDelegate> _delegate;
-    UILabel *__titleLabel;
-    UILabel *__valueLabel;
-    UIButton *__detailsButton;
 }
 
 - (id);
@@ -38,18 +30,11 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)y;
+- (void)vertex3;
 
 // Remaining properties
-@property(retain, nonatomic) UIButton *_detailsButton; // @synthesize _detailsButton=__detailsButton;
 @property(retain, nonatomic) UILabel *_titleLabel; // @synthesize _titleLabel=__titleLabel;
-@property(retain, nonatomic) UILabel *_valueLabel; // @synthesize _valueLabel=__valueLabel;
-@property(nonatomic) __weak id <PKTextInputDebugViewTableCellDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool showDetailsButton; // @synthesize showDetailsButton=_showDetailsButton;
-@property(copy, nonatomic) NSString *statusKey; // @synthesize statusKey=_statusKey;
-@property(copy, nonatomic) NSString *titleText; // @synthesize titleText=_titleText;
-@property(copy, nonatomic) NSAttributedString *valueAttributedText; // @synthesize valueAttributedText=_valueAttributedText;
 
 @end
 

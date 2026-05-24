@@ -7,12 +7,6 @@
 @interface AppStoreKit.TopChartCategory
 {
     id genreId;
-    id ageBandId;
-    id url;
-    id shortName;
-    id longName;
-    id artwork;
-    id children;
 }
 
 @end

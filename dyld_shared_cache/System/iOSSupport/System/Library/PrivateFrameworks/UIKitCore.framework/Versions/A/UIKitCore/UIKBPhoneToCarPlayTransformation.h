@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface UIKBPhoneToCarPlayTransformation
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)le to mark message %@ as completed when it should be;
++ (id)er:(id)arg1 %@;
++ (id)directory:(id)arg1 %@;
++ (id)@;
 + (void);
 + (id);
 + (unsigned long long);
@@ -22,13 +20,7 @@ __attribute__((visibility("hidden")))
 + (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

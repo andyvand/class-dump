@@ -12,14 +12,14 @@ __attribute__((visibility("hidden")))
     VSAppInstallationInfoCenter *_appInstallationInfoCenter;
 }
 
++ (id)_arrangeByMenuController;
 + (id);
-+ (id);
-+ (id);
++ (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)updateBrowserViewContentInsets;
+- (id)FI_TViewAnimationHelper;
 - (id);
 - (id);
 - (id);

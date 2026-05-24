@@ -6,7 +6,7 @@
 
 #import <MetricMeasurement/MXMMetric.h>
 
-@class MXMInstrument, NSNumber, NSString;
+@class NSString;
 
 @interface MXMDiskMetric : MXMMetric
 {
@@ -20,11 +20,9 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)ipleNodeExecution: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MXMInstrument *instrument; // @dynamic instrument;
-@property(readonly, copy, nonatomic) NSNumber *processIdentifier;
 @property(readonly, copy, nonatomic) NSString *processName;
 
 @end

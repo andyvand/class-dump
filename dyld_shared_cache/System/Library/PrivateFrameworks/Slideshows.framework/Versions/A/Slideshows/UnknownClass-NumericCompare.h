@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (NumericCompare)
-- (id);
+- (id)cellularRadioAccessTechnology;
 - (const char *);
 - (long long);
 - (id);

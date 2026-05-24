@@ -4,40 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol NSObject;
-
 __attribute__((visibility("hidden")))
 @interface CNKeyboardStateMonitor
 {
     long long _keyboardState;
-    id <NSObject> _didShowObserver;
-    id <NSObject> _didHideObserver;
 }
 
-+ (id);
++ (id)5;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)F;
 - (void)!q&ð!Fù1*Ð1Â0@ù
 × ;
-- (long long)upportDomain;
-- (void)on;
+- (long long)CNContactProviderSupportDomain;
+- (void)CNSerializedPoseConfiguration;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) id <NSObject> didHideObserver; // @synthesize didHideObserver=_didHideObserver;
-@property(retain, nonatomic) id <NSObject> didShowObserver; // @synthesize didShowObserver=_didShowObserver;
-@property(readonly) unsigned long long hash;
 @property long long keyboardState; // @synthesize keyboardState=_keyboardState;
-@property(readonly) Class superclass;
 
 @end
 

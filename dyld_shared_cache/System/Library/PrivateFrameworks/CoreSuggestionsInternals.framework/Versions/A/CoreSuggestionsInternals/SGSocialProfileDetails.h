@@ -4,43 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SGSocialProfileDetails
 {
     NSString *_username;
-    NSString *_userIdentifier;
-    NSString *_bundleIdentifier;
-    NSString *_displayName;
-    NSString *_service;
-    NSString *_teamIdentifier;
-    NSArray *_uniqueIdentifiers;
-    NSString *_preferredUniqueIdentifier;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)rangeOfString:(id)arg1 options:range: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)initWithWDParagraph:parent:isInTextFrame: /* Error: Ran out of types for this method. */;
+- (id)om/office/drawing/2008/diagram;
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void)owerLog;
+- (void)SGDPowerLog;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) NSString *preferredUniqueIdentifier; // @synthesize preferredUniqueIdentifier=_preferredUniqueIdentifier;
-@property(readonly, nonatomic) NSString *service; // @synthesize service=_service;
-@property(readonly, nonatomic) NSString *teamIdentifier; // @synthesize teamIdentifier=_teamIdentifier;
-@property(readonly, nonatomic) NSArray *uniqueIdentifiers; // @synthesize uniqueIdentifiers=_uniqueIdentifiers;
-@property(readonly, nonatomic) NSString *userIdentifier; // @synthesize userIdentifier=_userIdentifier;
 @property(readonly, nonatomic) NSString *username; // @synthesize username=_username;
 
 @end

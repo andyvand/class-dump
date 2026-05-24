@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, PKAccountPaymentFundingSource, PKAccountPaymentScheduleDetails, PKCurrencyAmount;
+@class NSString;
 
 @interface PKAccountPayment
 {
     _Bool _cancellable;
-    NSString *_identifier;
-    NSString *_referenceIdentifier;
-    NSString *_clientReferenceIdentifier;
-    PKCurrencyAmount *_currencyAmount;
-    NSDate *_paymentDate;
-    NSDate *_paymentStatusDate;
-    NSDate *_expectedCreditReleaseDate;
-    NSDate *_cancellationExpiryDate;
-    long long _state;
-    long long _statusCode;
-    PKAccountPaymentFundingSource *_fundingSource;
-    PKAccountPaymentScheduleDetails *_scheduleDetails;
 }
 
 + (id);
@@ -35,29 +23,29 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)(;
 - (_Bool);
 - (id);
 - (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (id);
+- (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool)R;
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
-- (long long);
-- (_Bool);
+- (long long)knownTypes;
+- (_Bool)_tcpECNClientSuccess;
 - (void);
 - (void);
 - (id);
@@ -65,31 +53,12 @@
 × ;
 - (id)
 × ;
-- (void)CategoryCode;
+- (void)merchantCategoryCode;
 - (long long);
 - (void)?";
 
 // Remaining properties
-@property(nonatomic) _Bool cancellable; // @synthesize cancellable=_cancellable;
-@property(copy, nonatomic) NSDate *cancellationExpiryDate; // @synthesize cancellationExpiryDate=_cancellationExpiryDate;
-@property(copy, nonatomic) NSString *clientReferenceIdentifier; // @synthesize clientReferenceIdentifier=_clientReferenceIdentifier;
-@property(retain, nonatomic) PKCurrencyAmount *currencyAmount; // @synthesize currencyAmount=_currencyAmount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSDate *expectedCreditReleaseDate; // @synthesize expectedCreditReleaseDate=_expectedCreditReleaseDate;
-@property(retain, nonatomic) PKAccountPaymentFundingSource *fundingSource; // @synthesize fundingSource=_fundingSource;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSDate *paymentDate; // @synthesize paymentDate=_paymentDate;
-@property(copy, nonatomic) NSDate *paymentStatusDate; // @synthesize paymentStatusDate=_paymentStatusDate;
-@property(copy, nonatomic) NSString *referenceIdentifier; // @synthesize referenceIdentifier=_referenceIdentifier;
-@property(retain, nonatomic) PKAccountPaymentScheduleDetails *scheduleDetails; // @synthesize scheduleDetails=_scheduleDetails;
-@property(nonatomic) long long state; // @synthesize state=_state;
-@property(nonatomic) long long statusCode; // @synthesize statusCode=_statusCode;
-@property(readonly) Class superclass;
 
 @end
 

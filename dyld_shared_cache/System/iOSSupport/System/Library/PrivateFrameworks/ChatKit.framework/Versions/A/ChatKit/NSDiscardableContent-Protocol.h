@@ -5,6 +5,7 @@
 //
 
 @protocol NSDiscardableContent
+- (_Bool);
 - (_Bool)",&,N,V_presentationViewController;
 - (void)getting collaborationMetadata:%@. /* Error: Ran out of types for this method. */;
 @end

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PLCFNotificationOperatorComposition, PLIOKitOperatorComposition;
+@class PLCFNotificationOperatorComposition;
 
 @interface PLConfigAgent
 {
     PLCFNotificationOperatorComposition *_consoleModeListener;
-    PLIOKitOperatorComposition *_iokitExpertDevice;
-    PLCFNotificationOperatorComposition *_sysdiagnoseStartListener;
-    PLCFNotificationOperatorComposition *_sysdiagnoseStopListener;
 }
 
 + (id);
@@ -21,25 +18,25 @@
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (void);
-+ (id);
++ (void)school;
++ (id)tUI.ImageElement.Contact.AvatarH;
 + (long long);
 + (id);
 + (id);
 + (id)TM-a_DominantLost_H_L;
-+ (id)0_RUNMAX;
++ (id)ECPU0_RUNMAX;
 + (void)rt listening;
 - (_Bool);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
+- (void)P;
 - (void);
-- (void);
-- (void);
+- (void)`;
 - (id);
 - (id);
 - (id);
@@ -49,7 +46,7 @@
 - (id);
 - (_Bool);
 - (int);
-- (void);
+- (void)Ah;
 - (void);
 - (double);
 - (id);
@@ -57,7 +54,7 @@
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)";
 - (id);
 - (unsigned long long);
 - (void);
@@ -69,33 +66,31 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)== (FieldDescriptor:(id)arg1:LABEL_REPEATED): /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
 - (long long);
 - (id);
 - (void);
-- (id);
+- (id)8	;
 - (int);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)A
+;
 - (void);
 - (void)x	;
 - (id)ullTestResultsForEntry:withDescription:] /* Error: Ran out of types for this method. */;
 - (int)Mbps          ;
-- (id)AX;
+- (id)UART1_RUNMAX;
 - (void)nnot add 1 element to context;
-- (id)Histo;
+- (id)readClassifyStatusesHisto;
 
 // Remaining properties
 @property(retain) PLCFNotificationOperatorComposition *consoleModeListener; // @synthesize consoleModeListener=_consoleModeListener;
-@property(readonly) PLIOKitOperatorComposition *iokitExpertDevice; // @synthesize iokitExpertDevice=_iokitExpertDevice;
-@property(retain) PLCFNotificationOperatorComposition *sysdiagnoseStartListener; // @synthesize sysdiagnoseStartListener=_sysdiagnoseStartListener;
-@property(retain) PLCFNotificationOperatorComposition *sysdiagnoseStopListener; // @synthesize sysdiagnoseStopListener=_sysdiagnoseStopListener;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol UIFormPeripheral
+- (void);
 @end
 

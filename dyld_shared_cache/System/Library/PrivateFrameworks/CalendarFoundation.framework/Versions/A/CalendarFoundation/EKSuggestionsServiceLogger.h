@@ -19,7 +19,7 @@
 + (void);
 + (void);
 + (Class);
-+ (void);
++ (void)DurationUntilRemoval;
 
 @end
 

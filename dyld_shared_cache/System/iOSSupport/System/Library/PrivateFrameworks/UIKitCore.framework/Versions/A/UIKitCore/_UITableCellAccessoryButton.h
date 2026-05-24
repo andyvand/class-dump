@@ -12,15 +12,13 @@ __attribute__((visibility("hidden")))
 @interface _UITableCellAccessoryButton : UIButton
 {
     UIColor *_accessoryTintColor;
-    long long _accessoryType;
-    CDUnknownBlockType _backgroundImageProvider;
 }
 
 - (long long);
-- (void);
+- (void)__MPModelPropertyTVSeasonLibraryAddEligible__MAPPING_MISSING__;
 - (CDUnknownBlockType);
 - (void);
-- (id)arInsets;
+- (id)_absoluteSidebarInsets;
 - (id)adientMaskLengths set to {%g, %g, %g, %g}, but the current mask view type, %@, does not support them. Set the maskView property to nil before setting nonzero gradientMaskLengths.;
 - (id)%@; column = %ld; previousSize = %@; newSize = %@;
 - (id)is an application bug. topLayoutGuide = %@;
@@ -30,8 +28,6 @@ __attribute__((visibility("hidden")))
 - (id)hK^;
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *accessoryTintColor; // @synthesize accessoryTintColor=_accessoryTintColor;
-@property(readonly, nonatomic) long long accessoryType; // @synthesize accessoryType=_accessoryType;
 @property(copy, nonatomic) CDUnknownBlockType backgroundImageProvider; // @synthesize backgroundImageProvider=_backgroundImageProvider;
 
 @end

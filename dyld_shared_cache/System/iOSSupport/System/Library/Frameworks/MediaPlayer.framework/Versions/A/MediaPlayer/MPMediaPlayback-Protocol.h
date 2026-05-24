@@ -5,11 +5,13 @@
 //
 
 @protocol MPMediaPlayback
+- (void);
+- (_Bool);
+- (void);
+- (void)ingsManager sharedOTPDefaults is unexpectedly nil;
 - (void)ionID = %@, stationStringID = %@>;
 
 // Remaining properties
-@property(nonatomic) float currentPlaybackRate;
-@property(nonatomic) double currentPlaybackTime;
 @property(readonly, nonatomic) _Bool isPreparedToPlay;
 @end
 

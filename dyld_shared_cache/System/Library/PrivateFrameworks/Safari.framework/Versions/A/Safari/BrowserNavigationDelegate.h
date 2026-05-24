@@ -4,56 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrowserViewController, ExternalURLNavigationHandler, NSDate, NSString, NSTimer, NSURL, WBSAppLink, _WKUserInitiatedAction;
+@class BrowserViewController, NSDate;
 
 __attribute__((visibility("hidden")))
 @interface BrowserNavigationDelegate
 {
     BrowserViewController *_browserViewController;
-    NSTimer *_cachePageTextTimer;
-    NSTimer *_preFillFormsTimer;
-    NSTimer *_resetCrashCountTimer;
-    NSTimer *_determinePresenceOfSchemaOrgMarkupTimer;
-    _Bool _progressIsForInitialMainFrameLoad;
-    unsigned long long _recentWebProcessCrashCount;
-    _Bool _wasBrowserInitiatedLoad;
-    _Bool _isReissuingLoadWithUserAndPasswordRemoved;
-    _WKUserInitiatedAction *_lastUserInitiatedAction;
-    ExternalURLNavigationHandler *_externalURLNavigationHandler;
-    _Bool _isExternalSchemeRedirectScheduled;
-    CDUnknownBlockType _pendingNavigationActionDueToExternalSchemePromptHandler;
-    _Bool _overriddenContentBlockersEnabledSetting;
-    NSURL *_urlReloadedWithOverriddenEnablePrivateRelay;
-    _Bool _overriddenPrivateRelayEnabledSetting;
-    _Bool _overriddenAdvancedPrivateBrowsingPrivacyProtectionsEnabledSetting;
-    _Bool _browsingModeDidSupportAdvancedPrivacyProtectionsAtPreviousNavigation;
-    double _lastEstimatedProgress;
-    WBSAppLink *_currentAppLink;
-    _Bool _pendingNavigationWillLoadWithLockdownModeEnabled;
-    NSURL *_urlForPendingNavigationToFallbackURLForWellKnownChangePasswordURL;
-    _Bool _navigatingViaNormalReload;
-    _Bool _navigatingViaReloadFromOrigin;
-    _Bool _navigatingViaBackForwardList;
-    _Bool _navigatingToCachedPageViaBackForwardList;
-    _Bool _didLoadCurrentURLWithContentBlockersEnabled;
-    _Bool _didLoadCurrentURLWithPrivateRelayEnabled;
-    _Bool _isContentBlockersPerSiteSettingEnabled;
-    _Bool _didLoadCurrentURLWithAdvancedPrivateBrowsingPrivacyProtectionsEnabled;
-    _Bool _wasLoadedWithLockdownModeEnabled;
-    NSURL *_attributionPresenterURL;
-    NSDate *_lastCommittedLoadDate;
-    NSURL *_urlReloadedWithOverriddenEnableContentBlockers;
-    NSURL *_urlReloadedWithOverriddenEnableAdvancedPrivateBrowsingPrivacyProtections;
-    NSString *_highLevelDomainForHTTPSOnlyBypass;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)y	*;
 - (void);
 - (void);
 - (void);
@@ -63,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)(b`d)(`hD;
 - (void);
 - (id);
 - (_Bool);
@@ -87,11 +52,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (long long);
-- (void);
+- (void)勹;
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -107,7 +72,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)S;
 - (void);
 - (void);
 - (void);
@@ -123,7 +88,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)%;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -140,7 +105,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -161,36 +126,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)V;
 - (void);
 - (void);
 - (void)4ø;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *attributionPresenterURL; // @synthesize attributionPresenterURL=_attributionPresenterURL;
-@property(readonly, nonatomic) _Bool canDonatePageToSpotlight;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool didLoadCurrentURLWithAdvancedPrivateBrowsingPrivacyProtectionsEnabled; // @synthesize didLoadCurrentURLWithAdvancedPrivateBrowsingPrivacyProtectionsEnabled=_didLoadCurrentURLWithAdvancedPrivateBrowsingPrivacyProtectionsEnabled;
-@property(readonly, nonatomic) _Bool didLoadCurrentURLWithContentBlockersEnabled; // @synthesize didLoadCurrentURLWithContentBlockersEnabled=_didLoadCurrentURLWithContentBlockersEnabled;
-@property(readonly, nonatomic) _Bool didLoadCurrentURLWithPrivateRelayEnabled; // @synthesize didLoadCurrentURLWithPrivateRelayEnabled=_didLoadCurrentURLWithPrivateRelayEnabled;
-@property(readonly, nonatomic) double estimatedProgress;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *highLevelDomainForHTTPSOnlyBypass; // @synthesize highLevelDomainForHTTPSOnlyBypass=_highLevelDomainForHTTPSOnlyBypass;
-@property(readonly, nonatomic) _Bool isContentBlockersPerSiteSettingEnabled; // @synthesize isContentBlockersPerSiteSettingEnabled=_isContentBlockersPerSiteSettingEnabled;
 @property(readonly, nonatomic) NSDate *lastCommittedLoadDate; // @synthesize lastCommittedLoadDate=_lastCommittedLoadDate;
-@property(nonatomic, getter=isNavigatingToCachedPageViaBackForwardList) _Bool navigatingToCachedPageViaBackForwardList; // @synthesize navigatingToCachedPageViaBackForwardList=_navigatingToCachedPageViaBackForwardList;
-@property(nonatomic, getter=isNavigatingViaBackForwardList) _Bool navigatingViaBackForwardList; // @synthesize navigatingViaBackForwardList=_navigatingViaBackForwardList;
-@property(nonatomic, getter=isNavigatingViaNormalReload) _Bool navigatingViaNormalReload; // @synthesize navigatingViaNormalReload=_navigatingViaNormalReload;
-@property(nonatomic, getter=isNavigatingViaReloadFromOrigin) _Bool navigatingViaReloadFromOrigin; // @synthesize navigatingViaReloadFromOrigin=_navigatingViaReloadFromOrigin;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSURL *urlReloadedWithOverriddenEnableAdvancedPrivateBrowsingPrivacyProtections; // @synthesize urlReloadedWithOverriddenEnableAdvancedPrivateBrowsingPrivacyProtections=_urlReloadedWithOverriddenEnableAdvancedPrivateBrowsingPrivacyProtections;
-@property(retain, nonatomic) NSURL *urlReloadedWithOverriddenEnableContentBlockers; // @synthesize urlReloadedWithOverriddenEnableContentBlockers=_urlReloadedWithOverriddenEnableContentBlockers;
-@property(retain, nonatomic) NSURL *urlReloadedWithOverriddenEnablePrivateRelay; // @synthesize urlReloadedWithOverriddenEnablePrivateRelay=_urlReloadedWithOverriddenEnablePrivateRelay;
-@property(readonly, nonatomic) _Bool wasLoadedWithLockdownModeEnabled; // @synthesize wasLoadedWithLockdownModeEnabled=_wasLoadedWithLockdownModeEnabled;
 
 @end
 

@@ -4,29 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor;
-
 @interface TeaUI.SeparatorView
 {
     id layoutStyle;
-    id visibilityStyle;
-    id isHighlighted;
-    id isSelected;
-    id hidesOnSelection;
-    id _backgroundColor;
-    id thickness;
 }
 
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)setSwipeToArticleHeavyClickMinimumDuration:(struct CGRect)arg1;
 - (id);
 - (void)È9þÿFÿÿ =þÿ;
 
 // Remaining properties
-@property(nonatomic, retain) UIColor *backgroundColor;
 @property(nonatomic) _Bool hidden;
 
 @end

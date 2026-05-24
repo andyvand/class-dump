@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSString, SAUIAppEntityIdentifier;
+@class SAUIAppEntityIdentifier;
 
 @interface SAUIContinueAppEntityOnDevice : SABaseClientBoundCommand
 {
@@ -15,6 +15,5 @@
 
 // Remaining properties
 @property(retain, nonatomic) SAUIAppEntityIdentifier *appEntityIdentifier;
-@property(copy, nonatomic) NSString *bundleIdentifier;
 @end
 

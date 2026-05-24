@@ -5,5 +5,6 @@
 //
 
 @protocol RTDaemonClientRegistrarPredictedContextProtocol
+- (void)Set"40@"NSSet"48@"NSObject<OS_dispatch_queue>"56;
 @end
 

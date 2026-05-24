@@ -11,12 +11,12 @@
     long long _keyboardType;
 }
 
-+ (void);
++ (void)set not found in last full index, uuid:%{public}@, syndicationID:%{public}@ /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (void);
 - (id);
 - (id);
-- (struct CGRect);
+- (struct CGRect)tsCountPrivate, assetsCountShared, sortDate FROM collections WHERE rowid IN matchingIds;
 - (id);
 - (id);
 - (void);

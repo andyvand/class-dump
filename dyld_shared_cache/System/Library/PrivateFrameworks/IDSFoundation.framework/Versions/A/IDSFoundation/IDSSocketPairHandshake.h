@@ -11,11 +11,11 @@
     unsigned int _versionNumber;
 }
 
-- (id);
+- (id)jh8hjh8?;
 - (id);
 - (id);
 - (unsigned int);
-- (unsigned char);
+- (unsigned char);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int versionNumber; // @synthesize versionNumber=_versionNumber;

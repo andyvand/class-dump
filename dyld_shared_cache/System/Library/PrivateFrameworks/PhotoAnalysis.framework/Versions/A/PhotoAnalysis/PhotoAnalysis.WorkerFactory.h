@@ -7,12 +7,6 @@
 @interface PhotoAnalysis.WorkerFactory
 {
     id $defaultActor;
-    id workerCreationTaskByIdentifier;
-    id requestersByWorkerIdentifier;
-    id resourcesDirector;
-    id environment;
-    id stateHolder;
-    id logger;
 }
 
 @end

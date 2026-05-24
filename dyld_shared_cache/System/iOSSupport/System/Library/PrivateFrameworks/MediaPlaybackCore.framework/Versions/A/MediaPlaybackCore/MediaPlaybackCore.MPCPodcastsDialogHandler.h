@@ -7,7 +7,6 @@
 @interface MediaPlaybackCore.MPCPodcastsDialogHandler
 {
     id publisher;
-    id errorTransformer;
 }
 
 @end

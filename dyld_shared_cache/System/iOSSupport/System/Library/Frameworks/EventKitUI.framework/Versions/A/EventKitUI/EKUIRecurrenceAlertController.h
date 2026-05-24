@@ -4,61 +4,52 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIAlertController;
+@class UIAlertController;
 
 @interface EKUIRecurrenceAlertController
 {
     UIAlertController *_alertController;
-    CDUnknownBlockType _completionHandler;
 }
 
 + (id);
++ (_Bool)=&s;
 + (_Bool);
-+ (_Bool);
++ (id);
++ (id)s;
 + (id);
 + (id);
 + (id);
 + (id);
++ (id)Z*s;
++ (id)%s;
++ (id)S%s;
++ (_Bool)%s;
++ (int)3%s;
++ (id);
++ (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (int);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
+- (void)&s;
+- (void);
+- (_Bool)s;
+- (_Bool);
+- (void)Y%s;
+- (void)&s;
+- (void)s;
+- (void)&s;
+- (void)s;
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
+- (id);
 - (void);
+- (CDUnknownBlockType)generateFileNameForImageWithPrefix:extension: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (void)yViewsOfKind: /* Error: Ran out of types for this method. */;
-- (void)lendarForICSPreview;
+- (void)visibleSupplementaryViewsOfKind: /* Error: Ran out of types for this method. */;
+- (void)showsAddToCalendarForICSPreview;
 
 // Remaining properties
-@property(retain) UIAlertController *alertController; // @synthesize alertController=_alertController;
 @property(copy) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

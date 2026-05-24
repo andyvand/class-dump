@@ -6,12 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface CEMSystemTVRemoteDeclaration : CEMConfigurationBase
 {
     NSArray *_payloadAllowedRemotes;
-    NSArray *_payloadAllowedTVs;
 }
 
 + (id);
@@ -35,15 +34,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSArray *payloadAllowedRemotes; // @synthesize payloadAllowedRemotes=_payloadAllowedRemotes;
-@property(copy, nonatomic) NSArray *payloadAllowedTVs; // @synthesize payloadAllowedTVs=_payloadAllowedTVs;
-@property(readonly) Class superclass;
 
 @end
 

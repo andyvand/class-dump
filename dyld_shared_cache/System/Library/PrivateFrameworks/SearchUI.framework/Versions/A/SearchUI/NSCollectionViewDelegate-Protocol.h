@@ -4,6 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSCollectionViewTransitionLayout, NSImage;
+
 @protocol NSCollectionViewDelegate
+
+@optional
+- (NSArray *);
+- (_Bool);
+- (NSImage *)itchData size=0x%x;
+- (void);
+- (void)isAccessibilityExpanded;
+- (NSCollectionViewTransitionLayout *);
+- (void)animationIntervalCompletionProcessingBlock;
 @end
 

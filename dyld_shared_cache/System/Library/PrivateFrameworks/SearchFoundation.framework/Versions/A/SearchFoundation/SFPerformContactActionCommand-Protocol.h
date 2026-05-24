@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary;
+@class NSData;
 
 @protocol SFPerformContactActionCommand
+- (NSData *)XQ;
 
 // Remaining properties
 @property(nonatomic) int contactActionType;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) _Bool didDisplayHandleOptions;
-@property(nonatomic) _Bool didSelectFromOptionsMenu;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

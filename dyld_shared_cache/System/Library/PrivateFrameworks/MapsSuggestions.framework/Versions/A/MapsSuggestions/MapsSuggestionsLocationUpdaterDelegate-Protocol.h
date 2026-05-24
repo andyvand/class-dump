@@ -5,5 +5,6 @@
 //
 
 @protocol MapsSuggestionsLocationUpdaterDelegate
+- (void);
 @end
 

@@ -7,14 +7,10 @@
 @protocol CHStrokeIdentifier;
 
 @protocol CHStroke
-- (double)lterI14_PKStrokePointS0_E;
+- (double)>",N,W,Vdelegate;
+- (double)17PKInputBaseFilterI14_PKStrokePointS0_E;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect bounds;
-@property(readonly, nonatomic) double endTimestamp;
-@property(readonly, nonatomic) _Bool isFinished;
-@property(readonly, nonatomic) double startTimestamp;
-@property(readonly, nonatomic) unsigned long long strokeAttributes;
 @property(readonly, nonatomic) id <CHStrokeIdentifier> strokeIdentifier;
 @end
 

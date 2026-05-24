@@ -22,11 +22,10 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void)ntChangeNotifications;
+- (id)ithUUID:error:options:] /* Error: Ran out of types for this method. */;
+- (void)_wantsEndpointChangeNotifications;
 
 // Remaining properties
-@property(retain, nonatomic) _MRVirtualTouchDeviceDescriptorProtobuf *deviceDescriptor; // @synthesize deviceDescriptor=_deviceDescriptor;
 @property(readonly, nonatomic) _Bool hasDeviceDescriptor;
 
 @end

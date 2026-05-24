@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface VCBTNotificationMonitor
 {
     NSMutableDictionary *_handlers;
-    struct os_unfair_lock_s _btNotificationHandlerLock;
-    unsigned int _clientTokenCounter;
 }
 
 + (id)e 0 rules 15:320:240:320:240:15 /* Error: Ran out of types for this method. */;

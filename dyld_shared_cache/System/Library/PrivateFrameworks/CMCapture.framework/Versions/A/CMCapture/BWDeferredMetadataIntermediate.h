@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *bufferTag; // @synthesize bufferTag=_bufferTag;

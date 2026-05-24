@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
-
 @interface AXImageCaptionModelAssetAssertion
 {
     unsigned long long _assertionType;
-    NSString *_clientIdentifier;
-    NSNumber *_minimumCompatibilityVersion;
-    NSNumber *_maximumCompatibilityVersion;
-    NSString *_modelVersion;
-    NSString *_modelLanguage;
-    NSString *_modelStage;
 }
 
 + (void);
@@ -28,33 +20,19 @@
 - (id);
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)setObject:atIndexedSubscript: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (unsigned long long);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 
 // Remaining properties
 @property(nonatomic) unsigned long long assertionType; // @synthesize assertionType=_assertionType;
-@property(readonly, nonatomic) NSString *assetType;
-@property(retain, nonatomic) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSNumber *maximumCompatibilityVersion; // @synthesize maximumCompatibilityVersion=_maximumCompatibilityVersion;
-@property(retain, nonatomic) NSNumber *minimumCompatibilityVersion; // @synthesize minimumCompatibilityVersion=_minimumCompatibilityVersion;
-@property(retain, nonatomic) NSString *modelLanguage; // @synthesize modelLanguage=_modelLanguage;
-@property(retain, nonatomic) NSString *modelStage; // @synthesize modelStage=_modelStage;
-@property(retain, nonatomic) NSString *modelVersion; // @synthesize modelVersion=_modelVersion;
-@property(readonly) Class superclass;
 
 @end
 

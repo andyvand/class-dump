@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MMPinFieldView;
-
 __attribute__((visibility("hidden")))
 @interface MMPinFieldBoxUIElement
 {
     int _index;
-    MMPinFieldView *_parent;
 }
 
 - (id);
@@ -19,9 +16,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
+- (_Bool)A;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

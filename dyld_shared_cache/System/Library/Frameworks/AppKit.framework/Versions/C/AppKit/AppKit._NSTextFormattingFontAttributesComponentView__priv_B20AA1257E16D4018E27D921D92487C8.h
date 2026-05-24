@@ -12,7 +12,7 @@
 
 - (void);
 - (id);
-- (id)ndardValue;
+- (id)_standardValue;
 
 @end
 

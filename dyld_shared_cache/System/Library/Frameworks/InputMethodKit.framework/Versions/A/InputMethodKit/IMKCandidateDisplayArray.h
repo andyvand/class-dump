@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
+@class NSMutableArray;
 
 @interface IMKCandidateDisplayArray
 {
     NSMutableArray *_internalArray;
-    double _length;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -26,9 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *currentArray;
-@property(retain, nonatomic) NSMutableArray *internalArray; // @synthesize internalArray=_internalArray;
-@property(nonatomic) double length; // @synthesize length=_length;
-@property(readonly, nonatomic) NSArray *positionedUIStrings;
 
 @end
 

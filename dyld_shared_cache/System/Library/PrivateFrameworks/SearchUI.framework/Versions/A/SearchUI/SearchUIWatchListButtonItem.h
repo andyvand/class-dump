@@ -15,8 +15,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)_tadpole_angled_thick_variant_age_child_25.heic;
+- (id)ve_rounded_thick_variant_age_child_25.heic;
 
 // Remaining properties
 @property(retain) SFWatchListButtonItem *sfButtonItem; // @dynamic sfButtonItem;

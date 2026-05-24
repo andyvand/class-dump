@@ -5,5 +5,8 @@
 //
 
 @protocol CNNicknameProvider
+- (void);
+- (void)+;
+- (unsigned long long);
 @end
 

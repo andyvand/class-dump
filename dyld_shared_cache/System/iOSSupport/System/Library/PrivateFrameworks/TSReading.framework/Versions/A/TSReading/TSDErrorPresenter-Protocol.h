@@ -5,5 +5,7 @@
 //
 
 @protocol TSDErrorPresenter
+- (void)y.m;
+- (void)NAVPlayerTimeControlStatus;
 @end
 

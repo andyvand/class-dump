@@ -7,11 +7,6 @@
 @interface PXStoryRelatedLayoutMetrics
 {
     double _interitemSpacing;
-    long long _layoutMode;
-    double _offscreenFraction;
-    unsigned long long _userInterfaceDirection;
-    struct CGPoint _scrollOffset;
-    struct NSEdgeInsets _margins;
 }
 
 - (unsigned long long);
@@ -19,24 +14,19 @@
 - (void);
 - (double);
 - (void);
-- (double);
-- (void);
+- (double)=;
+- (void);
 - (long long);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)=;
 - (struct NSEdgeInsets);
 - (_Bool);
-- (id)gDevice:(struct _NSZone *)arg1;
-- (struct CGPoint)lPageLimit;
+- (id)setProcessingDevice:(struct _NSZone *)arg1;
+- (struct CGPoint)initialPageLimit;
 
 // Remaining properties
-@property(nonatomic) double interitemSpacing; // @synthesize interitemSpacing=_interitemSpacing;
-@property(nonatomic) long long layoutMode; // @synthesize layoutMode=_layoutMode;
 @property(nonatomic) struct NSEdgeInsets margins; // @synthesize margins=_margins;
-@property(nonatomic) double offscreenFraction; // @synthesize offscreenFraction=_offscreenFraction;
-@property(nonatomic) struct CGPoint scrollOffset; // @synthesize scrollOffset=_scrollOffset;
-@property(nonatomic) unsigned long long userInterfaceDirection; // @synthesize userInterfaceDirection=_userInterfaceDirection;
 
 @end
 

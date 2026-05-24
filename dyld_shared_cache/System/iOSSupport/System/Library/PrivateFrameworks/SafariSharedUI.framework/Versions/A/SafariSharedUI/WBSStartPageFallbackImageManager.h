@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSMapTable;
+@class NSCache;
 
 @interface WBSStartPageFallbackImageManager
 {
     NSCache *_identifiersToCachedImages;
-    NSMapTable *_identifiersToLiveCachedImages;
 }
 
 + (id);
@@ -17,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)safari_addStringValue:toArrayWithKey: /* Error: Ran out of types for this method. */;
 
 @end
 

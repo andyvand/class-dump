@@ -4,35 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ML3MusicLibrary, NSOutputStream;
+@class ML3MusicLibrary;
 
 @interface ML3ExportSession
 {
     ML3MusicLibrary *_library;
-    NSOutputStream *_outputStream;
 }
 
+- (id)OfObjects;
+- (id)setPenultimateRenderedJPEGData:(unsigned long long)arg1;
+- (id)AssetPool;
+- (id)tilityAssetPool",R,N,V_utilityAssetPool;
+- (id)peIdentifier;
+- (id)formTypeIdentifier",&,N,V_uniformTypeIdentifier;
+- (id)ger",R,N;
+- (id)Mutex;
+- (id)gestMutex",R,V_syndicationIngestMutex;
+- (id)socialGroup;
+- (id)",R,N;
+- (id)setMetadata:(unsigned long long)arg1 forPersistentStore: /* Error: Ran out of types for this method. */;
 - (id);
+- (id)M#$;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id)eue_shareableMusicLibraryWithResourcesManager:libraryFilePath: /* Error: Ran out of types for this method. */;
-- (void)visionBeforeImport;
+- (id)_onGlobalQueue_shareableMusicLibraryWithResourcesManager:libraryFilePath: /* Error: Ran out of types for this method. */;
+- (void)revisionBeforeImport;
 
 // Remaining properties
 @property(readonly, nonatomic) ML3MusicLibrary *library; // @synthesize library=_library;
-@property(readonly, nonatomic) NSOutputStream *outputStream; // @synthesize outputStream=_outputStream;
 
 @end
 

@@ -7,23 +7,17 @@
 @interface RTLearnedPlaceTypeInferenceWeeklyStats
 {
     double _dailyAggregateDwellTimeBetweenDateRangeAverage;
-    double _dailyAggregateDwellTimeBetweenDateRangeStandardDeviation;
-    long long _totalDailyVisitCount;
-    long long _daysWithNonZeroDwellTime;
 }
 
-- (long long);
+- (long long);
 - (id);
 - (long long);
 - (double);
 - (double);
-- (id);
+- (id)lid type.;
 
 // Remaining properties
 @property(readonly, nonatomic) double dailyAggregateDwellTimeBetweenDateRangeAverage; // @synthesize dailyAggregateDwellTimeBetweenDateRangeAverage=_dailyAggregateDwellTimeBetweenDateRangeAverage;
-@property(readonly, nonatomic) double dailyAggregateDwellTimeBetweenDateRangeStandardDeviation; // @synthesize dailyAggregateDwellTimeBetweenDateRangeStandardDeviation=_dailyAggregateDwellTimeBetweenDateRangeStandardDeviation;
-@property(readonly, nonatomic) long long daysWithNonZeroDwellTime; // @synthesize daysWithNonZeroDwellTime=_daysWithNonZeroDwellTime;
-@property(readonly, nonatomic) long long totalDailyVisitCount; // @synthesize totalDailyVisitCount=_totalDailyVisitCount;
 
 @end
 

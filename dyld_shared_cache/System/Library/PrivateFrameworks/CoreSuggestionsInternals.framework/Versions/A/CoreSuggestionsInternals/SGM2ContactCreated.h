@@ -4,50 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SGM2ContactCreated
 {
     int _app;
-    NSString *_key;
-    _Bool _wasSuggestedContact;
-    struct {
-        unsigned int app:1;
-        unsigned int wasSuggestedContact:1;
-    } _has;
 }
 
 - (_Bool);
-- (void);
-- (void);
-- (_Bool);
+- (void)diaAccessibility.framework/Versions/A/MediaAccessibility;
 - (void);
 - (_Bool);
+- (void)sult found for editing string:(_Bool)arg1 %@;
+- (_Bool)teScrubber;
+- (id)w(==23)]-(0@749)-|;
+- (void)his account supports %ld invitees. The server will not accept events with any more invitees.;
+- (int):|-(plusButtonMarginLeft)-[_errorButton] /* Error: Ran out of types for this method. */;
+- (int)rgin)-[separator]-(margin)-|;
 - (id);
-- (void);
-- (int);
-- (int);
-- (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)mLegacyPresentationState;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (void)nificance:(id)arg1;
+- (void)setSignificance:(id)arg1;
 - (void)º;
 
 // Remaining properties
-@property(nonatomic) int app; // @synthesize app=_app;
-@property(nonatomic) _Bool hasApp;
 @property(readonly, nonatomic) _Bool hasKey;
-@property(nonatomic) _Bool hasWasSuggestedContact;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(nonatomic) _Bool wasSuggestedContact; // @synthesize wasSuggestedContact=_wasSuggestedContact;
 
 @end
 

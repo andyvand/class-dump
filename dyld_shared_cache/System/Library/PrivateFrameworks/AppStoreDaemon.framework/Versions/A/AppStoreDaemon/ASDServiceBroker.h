@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCConnection;
-@protocol OS_dispatch_queue;
+@class NSXPCConnection;
 
 @interface ASDServiceBroker
 {
     NSXPCConnection *_connection;
-    NSXPCConnection *_daemonConnection;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSString *_machServiceName;
-    int _token;
 }
 
++ (id)H;
++ (id)<5;
 + (id);
-+ (id);
-+ (id);
 - (id);
 - (id);
 - (void);
@@ -31,29 +26,29 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)= nullptr;
 - (id);
 - (id);
 - (void);
 - (void);
+- (id)R';
 - (void);
 - (void);
+- (void)_selectedCharacter;
 - (id);
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void)undleVersion;
+- (void);
+- (id)Hk ;
+- (void);
+- (void);
+- (void)bundleVersion;
 
 @end
 

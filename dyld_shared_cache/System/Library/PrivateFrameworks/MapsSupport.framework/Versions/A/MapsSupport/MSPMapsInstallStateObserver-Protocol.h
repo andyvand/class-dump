@@ -5,5 +5,6 @@
 //
 
 @protocol MSPMapsInstallStateObserver
+- (void);
 @end
 

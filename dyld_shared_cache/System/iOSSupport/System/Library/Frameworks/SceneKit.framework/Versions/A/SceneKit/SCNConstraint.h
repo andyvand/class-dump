@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSString, SCNOrderedDictionary;
-
 @interface SCNConstraint
 {
     struct __C3DConstraint *_constraintRef;
-    struct os_unfair_lock_s _animationsLock;
-    SCNOrderedDictionary *_animations;
-    NSMutableDictionary *_bindings;
-    _Bool _enabled;
-    _Bool _incremental;
-    double _influenceFactor;
 }
 
-+ (_Bool);
++ (_Bool)nonAccountPasswordSecureTextEntryFieldLabels;
 - (void);
 - (void);
 - (void);
@@ -49,8 +41,8 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)setInputContainsInProgressStroke: /* Error: Ran out of types for this method. */;
+- (id)setInputAssistantItem:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -58,7 +50,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)est with size:(%f, %f), scale:%f, appearance:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -70,17 +62,7 @@
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSArray *animationKeys;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic, getter=isEnabled) _Bool enabled;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isIncremental) _Bool incremental;
-@property(nonatomic) double influenceFactor;
-@property(readonly) Class superclass;
 
 @end
 

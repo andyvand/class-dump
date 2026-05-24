@@ -13,10 +13,10 @@
 + (id);
 - (void);
 - (double);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)writeToFile:(id)arg1 options:(id)arg2 error: /* Error: Ran out of types for this method. */;
+- (void)writeToFile:(id)arg1 atomically:(id)arg2;
+- (void)writeMsgIDToRowIDMap;
+- (void)not have an IMDCKSyncController when trying report _PCSTestBackupStateDidChange;
 - (id);
 
 @end

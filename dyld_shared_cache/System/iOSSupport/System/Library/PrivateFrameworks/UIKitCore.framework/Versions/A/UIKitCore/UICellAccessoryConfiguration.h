@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface UICellAccessoryConfiguration
 {
     _Bool _leadingAlwaysNeedsLayout;
-    _Bool _trailingAlwaysNeedsLayout;
-    NSArray *_leadingAccessories;
-    NSArray *_trailingAccessories;
 }
 
 - (id);
@@ -20,8 +17,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void)1Â0@ù
 × ;
-- (_Bool)gerOneTimeAction:(id)arg1;
-- (void)ActivityManager;
+- (_Bool)didTriggerOneTimeAction:(id)arg1;
+- (void)_UISceneUserActivityManager;
 - (id)ct subview of it. Unexpected superview of the contentView:%@ /* Error: Ran out of types for this method. */;
 - (void)<¡i;
 - (_Bool)ÿ;;

@@ -4,33 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface WBSPasswordCharacterClass
 {
     long long _type;
-    NSString *_value;
 }
 
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 - (id);
 - (unsigned long long);
-- (long long);
+- (long long)_secureConnectionStartTime;
 - (_Bool);
-- (id);
+- (id)DeepLinkURL"b1"dateReleased"b1"classicalWork"b1"classicalMovement"b1"classicalMovementCount"b1"classicalMovementNumber"b1"album"{?="identifiers"b1"title"b1"releaseDate"b1"year"b1"artist"b1"trackCount"b1}"artist"{?="identifiers"b1"name"b1}"composer"{?="identifiers"b1"name"b1}"genre"{?="identifiers"b1"name"b1}"homeSharingAsset"{?="identifiers"b1}"lyrics"{?="identifiers"b1"text"b1"hasStoreLyrics"b1"hasTimeSyncedLyrics"b1"hasDownloadedCatalogLyrics"b1}};
 - (void)0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
-@property(readonly, copy, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

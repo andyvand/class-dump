@@ -9,22 +9,20 @@
 @interface NTPBItemsTodaySectionSpecificConfig
 {
     unsigned long long _maxArticlesShown;
-    NSMutableArray *_items;
-    CDStruct_df5cdcef _has;
 }
 
 + (Class);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)di(j@j;
+- (void);
+- (void){public}@ resetting per period counts (was %d/%d per day, %d/%d per period), was already under limits;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)!;
 - (id);
 - (_Bool);
 - (id);
@@ -32,12 +30,10 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)ҹ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMaxArticlesShown;
 @property(retain, nonatomic) NSMutableArray *items; // @synthesize items=_items;
-@property(nonatomic) unsigned long long maxArticlesShown; // @synthesize maxArticlesShown=_maxArticlesShown;
 
 @end
 

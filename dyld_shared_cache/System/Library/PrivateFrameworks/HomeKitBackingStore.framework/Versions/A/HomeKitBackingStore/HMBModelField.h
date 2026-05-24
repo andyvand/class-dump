@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFVersion, NSString;
-
 @interface HMBModelField
 {
     _Bool _encrypted;
-    _Bool _excludeFromCloudStorage;
-    _Bool _optional;
-    _Bool _conformsToHMBModelNativeCKWrapper;
-    Class _classObj;
-    NSString *_externalRecordField;
-    unsigned long long _loggingVisibility;
-    id _defaultValue;
-    HMFVersion *_readonlyVersion;
-    HMFVersion *_unavailableVersion;
-    CDUnknownBlockType _encodeBlock;
-    CDUnknownBlockType _decodeBlock;
-    CDUnknownBlockType _descriptionBlock;
 }
 
 + (id);
@@ -31,12 +17,12 @@
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)%;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -45,14 +31,14 @@
 - (CDUnknownBlockType);
 - (id);
 - (void);
+- (void)툹;
+- (_Bool)c;
+- (id)load_extension_text_data;
 - (void);
-- (_Bool);
 - (id);
-- (void);
-- (id);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)_debugSessionConnectionSnapthotEvent;
+- (_Bool)abel %lu while specified %@. Matcher:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -64,19 +50,7 @@
 - (void)Xöÿ<>;
 
 // Remaining properties
-@property(readonly, nonatomic) Class classObj; // @synthesize classObj=_classObj;
-@property(nonatomic) _Bool conformsToHMBModelNativeCKWrapper; // @synthesize conformsToHMBModelNativeCKWrapper=_conformsToHMBModelNativeCKWrapper;
-@property(copy, nonatomic) CDUnknownBlockType decodeBlock; // @synthesize decodeBlock=_decodeBlock;
-@property(retain, nonatomic) id defaultValue; // @synthesize defaultValue=_defaultValue;
-@property(copy, nonatomic) CDUnknownBlockType descriptionBlock; // @synthesize descriptionBlock=_descriptionBlock;
-@property(copy, nonatomic) CDUnknownBlockType encodeBlock; // @synthesize encodeBlock=_encodeBlock;
-@property(nonatomic) _Bool encrypted; // @synthesize encrypted=_encrypted;
-@property(nonatomic) _Bool excludeFromCloudStorage; // @synthesize excludeFromCloudStorage=_excludeFromCloudStorage;
-@property(retain, nonatomic) NSString *externalRecordField; // @synthesize externalRecordField=_externalRecordField;
-@property(nonatomic) unsigned long long loggingVisibility; // @synthesize loggingVisibility=_loggingVisibility;
 @property(nonatomic, getter=isOptional) _Bool optional; // @synthesize optional=_optional;
-@property(copy, nonatomic) HMFVersion *readonlyVersion; // @synthesize readonlyVersion=_readonlyVersion;
-@property(copy, nonatomic) HMFVersion *unavailableVersion; // @synthesize unavailableVersion=_unavailableVersion;
 
 @end
 

@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SGDCloudKitSync;
-
 @interface SGDCloudKitSyncObserver
 {
     CDUnknownBlockType _cksGetter;
-    SGDCloudKitSync *_cks;
 }
 
 - (void);
@@ -19,22 +16,16 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)ndexSet"24;
+- (void)6q24;
+- (void)logoForAccountType: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (void)Ü;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -20,7 +20,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)_maxScrollHeight;
 - (id);
 
 // Remaining properties

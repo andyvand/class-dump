@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface IECSInterface
 {
     _Bool _userClientActive;
     struct IOCFPlugInInterfaceStruct **_cfPlugInInterface;
-    struct AppleHPMLibInterfaceStructV3 **_deviceInterface;
-    unsigned int _service;
-    unsigned int _deviceService;
-    NSArray *_locatedObjects;
 }
 
 + (id);
@@ -27,19 +21,18 @@
 - (int);
 - (int);
 - (void);
-- (int);
+- (int);
 - (id);
 - (unsigned int);
 - (unsigned int);
-- (void);
-- (id);
-- (id);
+- (void);
+- (id)?	;
+- (id)Pq!;
 - (void);
 - (void)unction:(unsigned int)arg1 %s;
 
 // Remaining properties
 @property(nonatomic) unsigned int deviceService; // @synthesize deviceService=_deviceService;
-@property(retain, nonatomic) NSArray *locatedObjects; // @synthesize locatedObjects=_locatedObjects;
 @property(nonatomic) unsigned int service; // @synthesize service=_service;
 
 @end

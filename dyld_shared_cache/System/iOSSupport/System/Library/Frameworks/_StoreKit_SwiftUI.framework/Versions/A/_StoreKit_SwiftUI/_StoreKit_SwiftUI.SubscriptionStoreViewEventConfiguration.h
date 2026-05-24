@@ -8,31 +8,6 @@
 {
     id appliesSubscriptionOffer;
     id buttonLabelContent;
-    id buttonLabelLayout;
-    id controlStyle;
-    id displaysRedeemCode;
-    id displaysPolicies;
-    id displaysRestorePurchases;
-    id displaysSignIn;
-    id displaysSubscriptionOffer;
-    id hasEntitlement;
-    id initializer;
-    id plansDisplayed;
-    id plansRequested;
-    id privacyDestinationType;
-    id tosDestinationType;
-    id usesCustomMarketingContent;
-    id visibleRelationships;
-    id appearTimestamp;
-    id disappearTimestamp;
-    id purchaseTimestamp;
-    id purchaseResult;
-    id purchasedPlanIndex;
-    id purchasedProductID;
-    id usesInAppPurchaseCompletion;
-    id usesInAppPurchaseOptions;
-    id usesInAppPurchaseStart;
-    id didSendAppearEvent;
 }
 
 @end

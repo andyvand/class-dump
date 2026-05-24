@@ -5,11 +5,9 @@
 //
 
 @protocol ScreenSaverControl
+- (_Bool)_associatedItemOffset;
 
 // Remaining properties
 @property _Bool screenSaverCanRun;
-@property(readonly) _Bool screenSaverIsRunning;
-@property(readonly) _Bool screenSaverIsRunningInBackground;
-@property(readonly) double screenSaverTimeRemaining;
 @end
 

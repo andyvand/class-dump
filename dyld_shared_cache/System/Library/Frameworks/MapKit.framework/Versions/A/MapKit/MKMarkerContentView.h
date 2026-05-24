@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKImageView, NSColor, NSImage, NSString, _MKUILabel;
+@class MKImageView, NSImage;
 
 __attribute__((visibility("hidden")))
 @interface MKMarkerContentView
 {
     MKImageView *_imageView;
-    _MKUILabel *_label;
-    NSImage *_glyphImage;
-    NSString *_glyphText;
-    double _glyphFontSize;
-    NSColor *_glyphTintColor;
 }
 
 - (void);
@@ -29,16 +24,13 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void)edMessage;
+- (void)nown error code;
+- (void)%s VoiceTriggerAssetHandlerDelegate:%@ /* Error: Ran out of types for this method. */;
+- (id)estOptions:(struct CGRect)arg1 ];
+- (void)localizedMessage;
 
 // Remaining properties
-@property(nonatomic) double glyphFontSize; // @synthesize glyphFontSize=_glyphFontSize;
 @property(retain, nonatomic) NSImage *glyphImage; // @synthesize glyphImage=_glyphImage;
-@property(copy, nonatomic) NSString *glyphText; // @synthesize glyphText=_glyphText;
-@property(retain, nonatomic) NSColor *glyphTintColor; // @synthesize glyphTintColor=_glyphTintColor;
 
 @end
 

@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIMenu;
+
 @protocol UIMenuForcedAutomaticSelectionDelegate
+- (void)40@0:(UIMenu *)arg1 8@"NSData"16@"NSString"24@"NSArray"32;
 @end
 

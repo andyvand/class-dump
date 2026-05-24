@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDecimalNumber, NSString;
+@class NSString;
 
 @protocol INRideFareLineItemExport
+- (void)kDASSystemContextPushTaskKey;
+- (void)..;
 - (NSString *)%°!ÈCùq¾(ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *currencyCode;
-@property(copy, nonatomic) NSDecimalNumber *price;
 @property(copy, nonatomic) NSString *title;
 @end
 

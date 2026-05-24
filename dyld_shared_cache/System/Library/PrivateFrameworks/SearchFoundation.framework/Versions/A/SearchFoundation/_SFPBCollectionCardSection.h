@@ -4,43 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBCollectionStyle, _SFPBColor, _SFPBCommandButtonItem, _SFPBRichText;
+@class NSArray;
 
 @interface _SFPBCollectionCardSection
 {
     _Bool _canBeHidden;
-    _Bool _hasTopPadding;
-    _Bool _hasBottomPadding;
-    int _separatorStyle;
-    NSArray *_punchoutOptions;
-    NSString *_punchoutPickerTitle;
-    NSString *_punchoutPickerDismissText;
-    NSString *_type;
-    _SFPBColor *_backgroundColor;
-    NSArray *_cardSections;
-    _SFPBRichText *_title;
-    _SFPBCommandButtonItem *_buttonItem;
-    _SFPBCollectionStyle *_collectionStyle;
-    _SFPBCommandButtonItem *_titleButtonItem;
 }
 
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)`B;
 - (unsigned long long);
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)R;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -49,51 +36,30 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)_tasteControllerWithUserIdentity:isSingleton:createIfRequired: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
+- (id)r"24@?<v@?@"NSError">32;
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)insertString:(id)arg1 atIndex: /* Error: Ran out of types for this method. */;
+- (id)or analyzing video for safety:%{public}@, error:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)setCopyableItem: /* Error: Ran out of types for this method. */;
 - (id)imaryHeaderMarqueeCardSection",&,N,V_rfPrimaryHeaderMarqueeCardSection;
 - (int)zûÿ8à;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(retain, nonatomic) _SFPBCommandButtonItem *buttonItem; // @synthesize buttonItem=_buttonItem;
-@property(nonatomic) _Bool canBeHidden; // @synthesize canBeHidden=_canBeHidden;
-@property(copy, nonatomic) NSArray *cardSections; // @synthesize cardSections=_cardSections;
-@property(retain, nonatomic) _SFPBCollectionStyle *collectionStyle; // @synthesize collectionStyle=_collectionStyle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasBottomPadding; // @synthesize hasBottomPadding=_hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding; // @synthesize hasTopPadding=_hasTopPadding;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *punchoutOptions; // @synthesize punchoutOptions=_punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText; // @synthesize punchoutPickerDismissText=_punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle; // @synthesize punchoutPickerTitle=_punchoutPickerTitle;
-@property(nonatomic) int separatorStyle; // @synthesize separatorStyle=_separatorStyle;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _SFPBRichText *title; // @synthesize title=_title;
-@property(retain, nonatomic) _SFPBCommandButtonItem *titleButtonItem; // @synthesize titleButtonItem=_titleButtonItem;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

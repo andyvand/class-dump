@@ -11,12 +11,12 @@
     id <WFPropertyListObject> _propertyListObject;
 }
 
-+ (id);
++ (id)2|;
 + (_Bool);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)h:(id)arg1 y;
+- (void)unenrollViaMDMWithEnrollmentType:(id)arg1 identifier:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

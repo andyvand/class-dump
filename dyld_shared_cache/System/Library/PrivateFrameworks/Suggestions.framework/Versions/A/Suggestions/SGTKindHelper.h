@@ -10,14 +10,12 @@ __attribute__((visibility("hidden")))
 @interface SGTKindHelper
 {
     NSDictionary *typeNames;
-    NSDictionary *contentTypeToTypeName;
-    NSDictionary *typeToContentTypes;
 }
 
 + (id);
 - (id);
 - (id);
-- (void);
+- (void)Delegate;
 
 @end
 

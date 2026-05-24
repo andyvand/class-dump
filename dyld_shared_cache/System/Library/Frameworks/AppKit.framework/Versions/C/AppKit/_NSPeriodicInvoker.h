@@ -8,15 +8,11 @@ __attribute__((visibility("hidden")))
 @interface _NSPeriodicInvoker
 {
     _Bool _cancelled;
-    _Bool *_enabled;
-    CDUnknownBlockType _delay;
-    CDUnknownBlockType _work;
-    CDUnknownBlockType _helper;
 }
 
+- (void)S?;
 - (void);
-- (void);
-- (void);
+- (void)P;
 - (void);
 
 @end

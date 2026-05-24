@@ -6,16 +6,10 @@
 
 #import <Rapport/RPNWActivityMetrics.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface RPNWActivityMessageMetrics : RPNWActivityMetrics
 {
     int _messageType;
-    int _linkType;
-    unsigned long long _messageSize;
-    NSString *_peerDeviceModel;
-    NSString *_peerOSVersion;
 }
 
 + (id);
@@ -29,15 +23,11 @@ __attribute__((visibility("hidden")))
 - (int);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)P;
 - (int)ContactToSharing:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) int linkType; // @synthesize linkType=_linkType;
-@property(nonatomic) unsigned long long messageSize; // @synthesize messageSize=_messageSize;
 @property(nonatomic) int messageType; // @synthesize messageType=_messageType;
-@property(retain, nonatomic) NSString *peerDeviceModel; // @synthesize peerDeviceModel=_peerDeviceModel;
-@property(readonly, nonatomic) NSString *peerOSVersion; // @synthesize peerOSVersion=_peerOSVersion;
 
 @end
 

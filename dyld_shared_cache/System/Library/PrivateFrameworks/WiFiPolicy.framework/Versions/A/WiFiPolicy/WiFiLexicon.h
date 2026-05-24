@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCharacterSet, NSMutableDictionary, NSSet;
+@class NSCharacterSet;
 
 @interface WiFiLexicon
 {
     struct _LXLexicon *_lexiconEnglish;
-    struct _LXLexicon *_lexiconUserLocale;
-    NSCharacterSet *_tokenizationCharacterSet;
-    NSCharacterSet *_tokenizationCharacterSetWithoutUpperCase;
-    NSMutableDictionary *_stringCache;
-    NSSet *_unwantedEnglishWords;
 }
 
 - (id);
@@ -22,7 +17,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)UsoTask_checkExistence_common_PointOfInterest;
 - (void);
 - (id);
 - (void);
@@ -32,10 +27,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *stringCache; // @synthesize stringCache=_stringCache;
 @property(retain, nonatomic) NSCharacterSet *tokenizationCharacterSet; // @synthesize tokenizationCharacterSet=_tokenizationCharacterSet;
-@property(retain, nonatomic) NSCharacterSet *tokenizationCharacterSetWithoutUpperCase; // @synthesize tokenizationCharacterSetWithoutUpperCase=_tokenizationCharacterSetWithoutUpperCase;
-@property(retain, nonatomic) NSSet *unwantedEnglishWords; // @synthesize unwantedEnglishWords=_unwantedEnglishWords;
 
 @end
 

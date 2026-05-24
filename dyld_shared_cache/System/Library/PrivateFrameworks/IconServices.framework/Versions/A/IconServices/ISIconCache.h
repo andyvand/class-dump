@@ -4,37 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISStore, ISStoreIndex, NSString, NSURL;
+@class ISStoreIndex;
 
 @interface ISIconCache
 {
     ISStoreIndex *_storeIndex;
-    ISStore *_store;
-    NSURL *_cacheURL;
-    unsigned long long _sandboxToken;
 }
 
-+ (id);
++ (id)initWithObjects: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (_Bool);
+- (id)MP4V_AdvancedSimple_L1;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
-- (unsigned long long);
-- (id);
-- (id);
+- (unsigned long long)CBRTPLCParams;
+- (id)P;
+- (id)ed to find CMS id in cert store;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *cachePath; // @dynamic cachePath;
-@property(readonly) NSURL *cacheURL; // @synthesize cacheURL=_cacheURL;
 @property(readonly) unsigned long long sandboxToken; // @synthesize sandboxToken=_sandboxToken;
-@property(readonly) ISStore *store; // @synthesize store=_store;
-@property(readonly) ISStoreIndex *storeIndex; // @synthesize storeIndex=_storeIndex;
 
 @end
 

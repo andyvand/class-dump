@@ -11,8 +11,6 @@
 @interface NEIKEv2SubnetAttribute : NEIKEv2ConfigurationAttribute
 {
     unsigned char _prefix;
-    NWAddressEndpoint *_address;
-    unsigned long long _customType;
 }
 
 - (id);
@@ -20,21 +18,18 @@
 - (id);
 - (id);
 - (id);
+- (id)C;
 - (id);
-- (id);
-- (id);
+- (id)St;
 - (unsigned long long);
 - (unsigned char);
 - (id);
 - (id);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)unsetAppPushParameters:errorStr: /* Error: Ran out of types for this method. */;
 - (id)Failed to create informational packet;
 
 // Remaining properties
 @property(readonly) NWAddressEndpoint *address; // @synthesize address=_address;
-@property(readonly) unsigned int ipv4SubnetMask;
-@property(readonly) unsigned char prefix; // @synthesize prefix=_prefix;
-@property(readonly) NWAddressEndpoint *subnetMaskAddress;
 
 @end
 

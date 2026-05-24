@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDecimalNumber, NSLocale, NSString, SKProductDiscount, SKProductSubscriptionPeriod;
+@class NSString;
 
 @interface SKProduct
 {
@@ -18,18 +18,19 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)�`;
 - (void);
 - (void);
 - (void);
+- (void)!;
+- (void);
+- (void)4
+@;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -37,7 +38,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)=;
 - (id);
 - (id);
 - (_Bool);
@@ -46,22 +47,7 @@
 - (id)ä);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *contentLengths;
-@property(readonly, nonatomic) NSString *contentVersion;
-@property(readonly, nonatomic) NSArray *discounts;
-@property(readonly, nonatomic) NSArray *downloadContentLengths;
-@property(readonly, nonatomic) NSString *downloadContentVersion;
-@property(readonly, nonatomic) _Bool downloadable;
-@property(readonly, nonatomic) SKProductDiscount *introductoryPrice;
-@property(readonly, nonatomic) _Bool isDownloadable;
-@property(readonly, nonatomic) _Bool isFamilyShareable;
 @property(readonly, nonatomic) NSString *localizedDescription;
-@property(readonly, nonatomic) NSString *localizedTitle;
-@property(readonly, nonatomic) NSDecimalNumber *price;
-@property(readonly, nonatomic) NSLocale *priceLocale;
-@property(readonly, nonatomic) NSString *productIdentifier;
-@property(readonly, nonatomic) NSString *subscriptionGroupIdentifier;
-@property(readonly, nonatomic) SKProductSubscriptionPeriod *subscriptionPeriod;
 
 @end
 

@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSError;
-
 __attribute__((visibility("hidden")))
 @interface _CPLEngineSyncLastError
 {
     unsigned long long _state;
-    NSDate *_date;
-    NSError *_error;
 }
 
 - (void)AÂð!Dù±Ð1Â0@ù

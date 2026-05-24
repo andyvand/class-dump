@@ -6,8 +6,6 @@
 
 #import <PhotosUICore/PXCuratedLibraryAnalysisStatus.h>
 
-@class NSString;
-
 @interface _PXCuratedLibraryConcreteAnalysisStatus : PXCuratedLibraryAnalysisStatus
 {
 }
@@ -25,14 +23,7 @@
 - (void)dedPeopleDataSourceManager addSelectedPersonIdentifiers:(id)arg1 ];
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) _Bool isDeviceUnplugged;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,30 +6,26 @@
 
 #import <MediaPlayer/MPModelObject.h>
 
-@class MPModelPlaylist, MPModelSocialPerson;
+@class MPModelPlaylist;
 
 @interface MPModelPlaylistAuthor : MPModelObject
 {
 }
 
++ (id)expressionEvaluator;
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (id);
++ (void);
 + (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
++ (void)cursor publisher with options:%@ /* Error: Ran out of types for this method. */;
++ (void)stream_vtab_filter idxNum:%@; argc:%@ /* Error: Ran out of types for this method. */;
++ (void)raint %@ - iColumn:%@; op:%@; usable:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isPendingApproval; // @dynamic isPendingApproval;
 @property(retain, nonatomic) MPModelPlaylist *playlist; // @dynamic playlist;
-@property(nonatomic) int position; // @dynamic position;
-@property(nonatomic) unsigned long long role; // @dynamic role;
-@property(retain, nonatomic) MPModelSocialPerson *socialProfile; // @dynamic socialProfile;
 
 @end
 

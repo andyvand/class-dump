@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString, SFUserActivityData;
+@class NSArray, NSString;
 
 @protocol SFPunchout
+- (void);
+- (NSString *);
+- (NSArray *);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *actionTarget;
-@property(copy, nonatomic) NSString *bundleIdentifier;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) _Bool forceOpenInBrowser;
-@property(nonatomic) _Bool hasClip;
-@property(nonatomic) _Bool isRunnableInBackground;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *label;
 @property(copy, nonatomic) NSString *name;
-@property(copy, nonatomic) NSArray *urls;
-@property(retain, nonatomic) SFUserActivityData *userActivityData;
 @end
 

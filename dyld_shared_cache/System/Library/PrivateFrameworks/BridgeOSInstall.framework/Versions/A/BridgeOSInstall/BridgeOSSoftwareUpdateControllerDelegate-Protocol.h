@@ -5,5 +5,8 @@
 //
 
 @protocol BridgeOSSoftwareUpdateControllerDelegate
+
+@optional
+- (_Bool);
 @end
 

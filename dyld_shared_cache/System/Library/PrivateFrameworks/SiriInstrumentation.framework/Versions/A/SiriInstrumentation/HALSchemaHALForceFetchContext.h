@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class HALSchemaHALForceFetchEnded, HALSchemaHALForceFetchFailed, HALSchemaHALForceFetchStarted, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface HALSchemaHALForceFetchContext : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_contextId;
-    HALSchemaHALForceFetchStarted *_startedOrChanged;
-    HALSchemaHALForceFetchEnded *_ended;
-    HALSchemaHALForceFetchFailed *_failed;
-    _Bool _hasContextId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -27,7 +19,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -46,10 +38,10 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)_cachedLocationForHandleByHandle;
 - (id)
 × ;
-- (id)d;
+- (id)hasDictationAlternativeSelected;
 - (id)R;
 - (void)äcÈÿ´:³Y$ /* Error: Ran out of types for this method. */;
 - (void)|ÿrÊ¬eö);
@@ -57,15 +49,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *contextId; // @synthesize contextId=_contextId;
-@property(retain, nonatomic) HALSchemaHALForceFetchEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) HALSchemaHALForceFetchFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasContextId; // @synthesize hasContextId=_hasContextId;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) HALSchemaHALForceFetchStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

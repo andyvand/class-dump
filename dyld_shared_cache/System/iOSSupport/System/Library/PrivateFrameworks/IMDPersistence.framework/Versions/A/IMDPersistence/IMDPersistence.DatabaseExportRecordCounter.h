@@ -7,8 +7,6 @@
 @interface IMDPersistence.DatabaseExportRecordCounter
 {
     id attachmentPathsTable;
-    id inspectionReport;
-    id databaseContext;
 }
 
 @end

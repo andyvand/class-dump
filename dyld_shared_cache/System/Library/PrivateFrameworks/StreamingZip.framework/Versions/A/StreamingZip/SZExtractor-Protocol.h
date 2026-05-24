@@ -7,12 +7,16 @@
 @protocol SZExtractorDelegate;
 
 @protocol SZExtractor
+- (id <SZExtractorDelegate>)qy6;
+- (void)cessingT1.m" at line 1903 goto EXIT
+;
+- (void)yDirectory.OZFslg/Sources/ASEFramework/ASEProcessingT1.m" at line 1903 goto EXIT
+;
+
+@optional
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool doesConsumeExtractedData;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(nonatomic) __weak id <SZExtractorDelegate> extractorDelegate;
 @end
 

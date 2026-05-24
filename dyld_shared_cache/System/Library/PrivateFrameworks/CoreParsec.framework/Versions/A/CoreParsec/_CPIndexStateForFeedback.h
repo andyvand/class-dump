@@ -4,30 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface _CPIndexStateForFeedback
 {
     int _percentMessagesIndexed;
-    int _percentAttachmentsIndexed;
-    int _searchIndex;
-    int _totalMessageCount;
-    int _indexedMessageCount;
-    int _embeddedMessageCount;
-    int _embeddedMessagePercentage;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (int);
-- (int);
-- (int);
-- (int);
-- (int);
+- (void)T NULL);
+- (void)it:(int)arg1:WebExtensionMatchPattern>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)KeyTraits = WTF:(int)arg1:HashTraits<WTF::Ref<WebKit::WebExtensionMatchPattern>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void):(int)arg1 Ref<API::UserScript>>>::KeyValuePairTraits, WTF::HashTraits<WTF::Ref<WebKit::WebExtensionMatchPattern>>>::validateKey(const ValueType &) [Key = WTF::Ref<WebKit::WebExtensionMatchPattern>, Value = WTF::KeyValuePair<WTF::Ref<WebKit::WebExtensionMatchPattern>, WTF::Vector<WTF::Ref<API::UserScript>>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::Ref<WebKit::WebExtensionMatchPattern>, WTF::Vector<WTF::Ref<API::UserScript>>>>, HashFunctions = WTF::DefaultHash<WTF::Ref<WebKit::WebExtensionMatchPattern>>, Traits = WTF::HashMap<WTF::Ref<WebKit::WebExtensionMatchPattern>, WTF::Vector<WTF::Ref<API::UserScript>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::Ref<WebKit::WebExtensionMatchPattern>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void):(int)arg1 Icon>, WTF::Vector<double>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void), mpark:(int)arg1:variant<WTF::RefPtr<WebCore::Icon>, WTF::Vector<double>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (int)unknown `world` value.;
+- (int).;
+- (int):%s /* Error: Ran out of types for this method. */;
+- (int)rget> *WTF::downcast(Source *) [Target = API::UserScript, Source = API::Object] /* Error: Ran out of types for this method. */;
+- (int)ect];
 - (int);
 - (void);
 - (int);
@@ -38,21 +30,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) int embeddedMessageCount; // @synthesize embeddedMessageCount=_embeddedMessageCount;
-@property(nonatomic) int embeddedMessagePercentage; // @synthesize embeddedMessagePercentage=_embeddedMessagePercentage;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int indexedMessageCount; // @synthesize indexedMessageCount=_indexedMessageCount;
-@property(readonly, nonatomic) NSData *jsonData; // @dynamic jsonData;
-@property(nonatomic) int percentAttachmentsIndexed; // @synthesize percentAttachmentsIndexed=_percentAttachmentsIndexed;
 @property(nonatomic) int percentMessagesIndexed; // @synthesize percentMessagesIndexed=_percentMessagesIndexed;
-@property(nonatomic) int searchIndex; // @synthesize searchIndex=_searchIndex;
-@property(readonly) Class superclass;
-@property(nonatomic) int totalMessageCount; // @synthesize totalMessageCount=_totalMessageCount;
 
 @end
 

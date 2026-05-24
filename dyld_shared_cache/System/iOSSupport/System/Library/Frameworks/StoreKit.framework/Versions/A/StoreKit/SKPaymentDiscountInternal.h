@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, NSUUID;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface SKPaymentDiscountInternal
 {
     NSString *_identifier;
-    NSString *_keyIdentifier;
-    NSUUID *_nonce;
-    NSString *_signature;
-    NSNumber *_timestamp;
 }
 
 - (void);

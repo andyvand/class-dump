@@ -8,15 +8,15 @@
 {
 }
 
-+ (void);
-+ (id);
-+ (id);
++ (void)container_traverse_node_get_optional_alloc_size;
++ (id)rror:(id)arg1;
++ (id)nkCount,%{public}d,processingTimeMSec,%{public}.2lf;
 + (id);
 + (_Bool);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)L2T2h;
 + (id);
 + (_Bool);
 + (id);

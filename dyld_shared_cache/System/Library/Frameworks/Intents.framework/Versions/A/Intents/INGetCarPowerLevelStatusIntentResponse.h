@@ -6,19 +6,17 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSDateComponents, NSDictionary, NSMeasurement, NSNumber, NSString;
-
 @interface INGetCarPowerLevelStatusIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
++ (int)_thumbnailVersion;
++ (int)bject<OS_dispatch_queue>",R,N,V_serialResponseQueue;
++ (long long)ndboxingURLWrapper",&,N,V_parentDirectoryWrapper;
++ (_Bool)QLThumbnailConnectionHandler;
 + (_Bool);
-+ (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -41,7 +39,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -55,44 +53,19 @@
 - (void);
 - (id);
 - (id);
+- (id)_GCDeviceDriverConnection>",R,N,V_driverConnection;
 - (id);
+- (id);
+- (void)angeNotification(void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
 - (void);
 - (id);
-- (long long)ueINEnumValueDisplayName;
+- (long long)__INCodableEnumValueINEnumValueDisplayName;
 
 // Remaining properties
-@property(copy) NSString *activeConnector;
-@property(copy) NSString *carIdentifier;
-@property(copy) NSNumber *chargePercentRemaining;
-@property(copy) NSNumber *charging;
-@property(copy) NSDictionary *chargingFormulaArguments;
 @property(readonly) long long code;
-@property(copy) NSDictionary *consumptionFormulaArguments;
-@property(copy) NSMeasurement *currentBatteryCapacity;
-@property(copy) NSDateComponents *dateOfLastStateUpdate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSMeasurement *distanceRemaining;
-@property(copy) NSMeasurement *distanceRemainingElectric;
-@property(copy) NSMeasurement *distanceRemainingFuel;
-@property(copy) NSNumber *fuelPercentRemaining;
-@property(readonly) unsigned long long hash;
-@property(copy) NSMeasurement *maximumBatteryCapacity;
-@property(copy) NSMeasurement *maximumDistance;
-@property(copy) NSMeasurement *maximumDistanceElectric;
-@property(copy) NSMeasurement *maximumDistanceFuel;
-@property(copy) NSMeasurement *minimumBatteryCapacity;
-@property(copy) NSNumber *minutesToFull;
-@property(readonly) Class superclass;
 
 @end
 

@@ -10,7 +10,7 @@
 {
 }
 
-- (void);
+- (void)o show a wallet order;
 
 @end
 

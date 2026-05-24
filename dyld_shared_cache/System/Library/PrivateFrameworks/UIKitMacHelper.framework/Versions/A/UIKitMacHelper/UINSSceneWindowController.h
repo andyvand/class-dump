@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSExtensionContext, NSString, UINSSceneViewController, UINSWindow, UIScene;
+@class NSExtensionContext;
 
 @interface UINSSceneWindowController
 {
     _Bool _havePendingTitleChanges;
-    NSString *_sceneIdentifier;
-    NSString *_persistentIdentifier;
-    NSExtensionContext *_extensionContext;
-    NSString *_currentTitleFromScene;
-    NSString *_currentSubtitleFromScene;
-    NSString *_currentTitleFromNavBar;
-    NSString *_currentSubtitleFromNavBar;
-    UIScene *_UIScene;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -45,44 +37,26 @@
 - (unsigned int);
 - (void);
 - (_Bool);
-- (id);
-- (id);
+- (id)S=;
+- (id)i;
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void),;
 - (void);
 - (void)0@ù
 × ;
 - (void)e=dd}}48@80;
-- (unsigned long long)te:(id)arg1 completionHandler:(unsigned long long)arg2;
-- (void)queueBackgroundingBatchStart;
+- (unsigned long long)_trackSceneUntilTargetStateIsReached:(id)arg1 targetState:(unsigned long long)arg2 completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_enqueueBackgroundingBatchStart;
 - (void)oaded(void);
 - (_Bool)sceneIdentifier has changed, UIKitMacHelper needs to be updated.;
 
 // Remaining properties
-@property(retain, nonatomic) UIScene *UIScene; // @synthesize UIScene=_UIScene;
-@property(copy, nonatomic) NSString *currentSubtitleFromNavBar; // @synthesize currentSubtitleFromNavBar=_currentSubtitleFromNavBar;
-@property(copy, nonatomic) NSString *currentSubtitleFromScene; // @synthesize currentSubtitleFromScene=_currentSubtitleFromScene;
-@property(copy, nonatomic) NSString *currentTitleFromNavBar; // @synthesize currentTitleFromNavBar=_currentTitleFromNavBar;
-@property(copy, nonatomic) NSString *currentTitleFromScene; // @synthesize currentTitleFromScene=_currentTitleFromScene;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) unsigned int declinedEventMask;
-@property(readonly, copy) NSString *description;
 @property(nonatomic) __weak NSExtensionContext *extensionContext; // @synthesize extensionContext=_extensionContext;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool havePendingTitleChanges; // @synthesize havePendingTitleChanges=_havePendingTitleChanges;
-@property(copy, nonatomic) NSString *persistentIdentifier; // @synthesize persistentIdentifier=_persistentIdentifier;
-@property(readonly, copy, nonatomic) NSString *sceneIdentifier; // @synthesize sceneIdentifier=_sceneIdentifier;
-@property(readonly, nonatomic) UINSSceneViewController *sceneViewController;
-@property(readonly, nonatomic) UINSWindow *sceneWindow;
-@property(readonly) Class superclass;
 
 @end
 

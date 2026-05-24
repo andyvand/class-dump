@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
 @protocol RTWatchdogProtocol;
 
 @interface RTWatchdogRecord
 {
     id <RTWatchdogProtocol> _object;
-    NSDate *_checkInStartDate;
-    NSDate *_checkInStopDate;
-    double _timeout;
 }
 
 - (id);
 - (_Bool);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)6;
+- (void)deviceForFromID:(id)arg1;
 - (void);
 - (double);
 - (id);
@@ -30,10 +26,7 @@
 - (void)te, %{sensitive}@, invalid and not allowed for a handoff operation;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *checkInStartDate; // @synthesize checkInStartDate=_checkInStartDate;
-@property(retain, nonatomic) NSDate *checkInStopDate; // @synthesize checkInStopDate=_checkInStopDate;
 @property(nonatomic) __weak id <RTWatchdogProtocol> object; // @synthesize object=_object;
-@property(readonly, nonatomic) double timeout; // @synthesize timeout=_timeout;
 
 @end
 

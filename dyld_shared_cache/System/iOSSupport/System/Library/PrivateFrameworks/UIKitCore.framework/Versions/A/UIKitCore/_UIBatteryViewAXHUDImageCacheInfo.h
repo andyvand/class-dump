@@ -4,28 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor, UIImage;
+@class UIImage;
 
 __attribute__((visibility("hidden")))
 @interface _UIBatteryViewAXHUDImageCacheInfo
 {
     _Bool _showBolt;
-    _Bool _boltInactive;
-    _Bool _reverseLayoutDirection;
-    _Bool _showsPercentage;
-    UIImage *_cachedImage;
-    UIColor *_fillColor;
-    UIColor *_tintColor;
-    double _capacity;
-    double _scale;
-    NSString *_contentSizeCategory;
 }
 
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)text"48;
+- (void)setPendingHandleIDsForReload:(_Bool)arg1;
+- (void)setAssociatedMessageRange:(_Bool)arg1;
+- (void)hasRecentMessageFrom:(_Bool)arg1;
+- (_Bool)createDeDupeSaltZoneIfNeededWithCompletionBlock: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -34,10 +25,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (double);
 - (_Bool)ndsToWidthForComponent"b1"delegateRespondsToRowHeightForComponent"b1"showsSelectionBar"b1"allowsMultipleSelection"b1"allowSelectingCells"b1"soundsDisabled"b1"usesCheckedSelection"b1"skipsBackground"b1"isInLayoutSubviews"b1"usesDynamicRowHeight"b1"selectionBarIgnoresInset"b1};
-- (double)te;
-- (void)eplaceVertexAtIndex:(double)arg1 withVertex: /* Error: Ran out of types for this method. */;
-- (id)eIdentifierFromComponents: /* Error: Ran out of types for this method. */;
-- (void)tivityDoubleTapGesture;
+- (double)setNeedsExclusivityUpdate;
+- (void)replaceVertexAtIndex:(double)arg1 withVertex: /* Error: Ran out of types for this method. */;
+- (id)localeIdentifierFromComponents: /* Error: Ran out of types for this method. */;
+- (void)_UIKBProductivityDoubleTapGesture;
 - (void)\;
 - (id)not size a %@ without a content view!;
 - (void)tracking;
@@ -45,16 +36,7 @@ __attribute__((visibility("hidden")))
 - (void)óþËÆÚðe;
 
 // Remaining properties
-@property(nonatomic) _Bool boltInactive; // @synthesize boltInactive=_boltInactive;
 @property(retain, nonatomic) UIImage *cachedImage; // @synthesize cachedImage=_cachedImage;
-@property(nonatomic) double capacity; // @synthesize capacity=_capacity;
-@property(retain, nonatomic) NSString *contentSizeCategory; // @synthesize contentSizeCategory=_contentSizeCategory;
-@property(retain, nonatomic) UIColor *fillColor; // @synthesize fillColor=_fillColor;
-@property(nonatomic) _Bool reverseLayoutDirection; // @synthesize reverseLayoutDirection=_reverseLayoutDirection;
-@property(nonatomic) double scale; // @synthesize scale=_scale;
-@property(nonatomic) _Bool showBolt; // @synthesize showBolt=_showBolt;
-@property(nonatomic) _Bool showsPercentage; // @synthesize showsPercentage=_showsPercentage;
-@property(retain, nonatomic) UIColor *tintColor; // @synthesize tintColor=_tintColor;
 
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PLDisplayAPLStats, PLDisplayAZLStats;
+@class PLDisplayAPLStats;
 
 @interface PLDisplayIOReportStats
 {
     PLDisplayAPLStats *_displayAPLStats;
-    PLDisplayAZLStats *_displayAZLStats;
 }
 
 - (void);
@@ -21,7 +20,6 @@
 
 // Remaining properties
 @property(retain) PLDisplayAPLStats *displayAPLStats; // @synthesize displayAPLStats=_displayAPLStats;
-@property(retain) PLDisplayAZLStats *displayAZLStats; // @synthesize displayAZLStats=_displayAZLStats;
 
 @end
 

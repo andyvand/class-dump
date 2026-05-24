@@ -4,48 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _UIFocusEnvironmentScrollableContainerTuple, _UIFocusItemInfo, _UIFocusMovementInfo;
-
 __attribute__((visibility("hidden")))
 @interface _UIFocusScrollRequest
 {
     unsigned long long _scrollOffsetResolver;
-    _UIFocusItemInfo *_focusItemInfo;
-    _UIFocusMovementInfo *_focusMovement;
-    _UIFocusEnvironmentScrollableContainerTuple *_environmentScrollableContainer;
-    struct CGPoint _originatingContentOffset;
-    struct CGPoint _targetContentOffset;
-    struct CGRect _focusItemFrame;
-    struct CGRect _originatingBounds;
 }
 
 - (unsigned long long);
-- (struct CGPoint);
-- (void);
-- (struct CGPoint);
-- (struct CGRect);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (struct CGRect);
-- (id);
-- (struct CGPoint);
+- (struct CGPoint)@16q24^@32;
+- (void)24B32@36@44;
+- (struct CGPoint)setFailedRetractPartIndexes: /* Error: Ran out of types for this method. */;
+- (struct CGRect)setFailedEditPartIndexes: /* Error: Ran out of types for this method. */;
+- (id)handler:(id)arg1 localIncomingDownloadMessage:(id)arg2 storageContext:(id)arg3;
+- (id)handler:(id)arg1 localFileRequest:(id)arg2 storageContext:(id)arg3;
+- (id)ssageGUID:(id)arg1 timeStamp:(id)arg2 storageContext:(id)arg3;
+- (id)handler:(id)arg1 incomingReachabilityResponse:(struct CGRect)arg2 fromToken:(id)arg3 messageGUID: /* Error: Ran out of types for this method. */;
+- (id)findGroupChatWithFromIdentifier:(id)arg1 toIdentifier:(id)arg2 groupName:participants:groupID:serviceName:chatRegistry: /* Error: Ran out of types for this method. */;
+- (id)closeSessionChatID:identifier:didDeleteConversation:style:account: /* Error: Ran out of types for this method. */;
+- (id)closeSessionChatID:identifier:didDeleteConversation:style: /* Error: Ran out of types for this method. */;
+- (struct CGRect)clientConnectionWorkloop;
+- (id)beginThrottlingForIdentifier:untilDate: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)hPromptForVPNPIN:withOnDemandEnabled:withOnDemandMatchDomainsAlways:withOnDemandMatchDomainsNever:withOnDemandMatchDomainsOnRetry:withOnDemandRules:withDisconnectOnIdle:withDisconnectOnIdleTimer: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _UIFocusEnvironmentScrollableContainerTuple *environmentScrollableContainer; // @synthesize environmentScrollableContainer=_environmentScrollableContainer;
-@property(readonly, nonatomic) struct CGRect focusItemFrame; // @synthesize focusItemFrame=_focusItemFrame;
-@property(readonly, nonatomic) _UIFocusItemInfo *focusItemInfo; // @synthesize focusItemInfo=_focusItemInfo;
-@property(readonly, nonatomic) _UIFocusMovementInfo *focusMovement; // @synthesize focusMovement=_focusMovement;
-@property(readonly, nonatomic) struct CGRect originatingBounds; // @synthesize originatingBounds=_originatingBounds;
-@property(readonly, nonatomic) struct CGPoint originatingContentOffset; // @synthesize originatingContentOffset=_originatingContentOffset;
 @property(readonly, nonatomic) unsigned long long scrollOffsetResolver; // @synthesize scrollOffsetResolver=_scrollOffsetResolver;
-@property(readonly, nonatomic) struct CGPoint targetContentOffset; // @synthesize targetContentOffset=_targetContentOffset;
 
 @end
 

@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFBluetoothHeadphoneInEarDetectionState, NSString;
+@class AFBluetoothHeadphoneInEarDetectionState;
 
 @interface _AFBluetoothHeadphoneInEarDetectionStateMutation
 {
     AFBluetoothHeadphoneInEarDetectionState *_base;
-    _Bool _isEnabled;
-    long long _primaryEarbudSide;
-    long long _primaryInEarStatus;
-    long long _secondaryInEarStatus;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasIsEnabled:1;
-        unsigned int hasPrimaryEarbudSide:1;
-        unsigned int hasPrimaryInEarStatus:1;
-        unsigned int hasSecondaryInEarStatus:1;
-    } _mutationFlags;
 }
 
 - (void);
@@ -30,18 +19,12 @@
 - (void);
 - (void);
 - (_Bool);
-- (id)tion:(id)arg1;
-- (void)foreListening: /* Error: Ran out of types for this method. */;
+- (id)siriActivationListener:(id)arg1 activateWithRequestInfo:context:completion: /* Error: Ran out of types for this method. */;
+- (void)_initWithShowUIDuringListening:playAlertBeforeListening: /* Error: Ran out of types for this method. */;
 - (void)ons.message-not-read-siri-in-use;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

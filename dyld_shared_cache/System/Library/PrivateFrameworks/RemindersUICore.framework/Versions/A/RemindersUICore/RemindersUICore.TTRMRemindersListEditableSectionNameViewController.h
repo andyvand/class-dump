@@ -7,9 +7,6 @@
 @interface RemindersUICore.TTRMRemindersListEditableSectionNameViewController
 {
     id presenter;
-    id textField;
-    id firstResponderChangeFilter;
-    id returnWasPressed;
 }
 
 - (id);

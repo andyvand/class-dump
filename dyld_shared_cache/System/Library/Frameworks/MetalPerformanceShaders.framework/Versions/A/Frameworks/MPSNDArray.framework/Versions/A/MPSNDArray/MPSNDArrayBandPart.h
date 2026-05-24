@@ -9,7 +9,6 @@
 @interface MPSNDArrayBandPart : MPSNDArrayUnaryKernel
 {
     long long _numLower;
-    long long _numUpper;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(nonatomic) long long numLower; // @synthesize numLower=_numLower;
-@property(nonatomic) long long numUpper; // @synthesize numUpper=_numUpper;
 
 @end
 

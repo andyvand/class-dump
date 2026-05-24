@@ -4,38 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface RKText
 {
     _Bool _trainVerbatim;
-    NSString *_string;
-    NSString *_languageID;
-    double _trainingWeight;
-    NSMutableArray *_annotations;
-    NSString *_processedText;
 }
 
-+ (unsigned long long);
++ (unsigned long long)j
+J,
+
+*;
 + (id);
 + (unsigned long long);
 + (id);
-+ (id);
-+ (void);
++ (id)73;
++ (void)pet1_histogram_buckets;
 - (double);
-- (_Bool);
+- (_Bool)9;
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)k	
+J;
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)j;
+- (id)(;
 - (void);
-- (_Bool);
+- (_Bool)(;
 - (unsigned long long);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -49,12 +48,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSMutableArray *annotations; // @synthesize annotations=_annotations;
-@property(retain) NSString *languageID; // @synthesize languageID=_languageID;
-@property(retain) NSString *processedText; // @synthesize processedText=_processedText;
 @property(retain) NSString *string; // @synthesize string=_string;
-@property _Bool trainVerbatim; // @synthesize trainVerbatim=_trainVerbatim;
-@property double trainingWeight; // @synthesize trainingWeight=_trainingWeight;
 
 @end
 

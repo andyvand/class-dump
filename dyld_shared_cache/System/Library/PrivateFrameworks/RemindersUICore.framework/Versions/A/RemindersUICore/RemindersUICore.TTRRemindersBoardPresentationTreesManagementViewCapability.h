@@ -7,8 +7,6 @@
 @interface RemindersUICore.TTRRemindersBoardPresentationTreesManagementViewCapability
 {
     id observableColumnPresentationTrees;
-    id mainDataSource;
-    id makeUpdatesForReloadingView;
 }
 
 @end

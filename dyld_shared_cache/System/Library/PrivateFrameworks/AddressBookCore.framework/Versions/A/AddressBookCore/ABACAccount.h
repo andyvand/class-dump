@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABACAccountType, NSArray, NSDictionary, NSNumber, NSString;
+@class NSString;
 
 @interface ABACAccount
 {
     NSString *_identifier;
-    NSString *_accountDescription;
-    ABACAccountType *_accountType;
-    ABACAccountType *_parentAccountType;
-    NSDictionary *_accountProperties;
-    NSNumber *_dsid;
-    NSString *_altDSID;
-    NSArray *_childAccounts;
 }
 
 + (void);
@@ -25,7 +18,7 @@
 + (void);
 + (id);
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 - (_Bool);
 - (id);
 - (id);
@@ -38,7 +31,7 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)PerformEscrowRecovery;
 - (id);
 - (_Bool);
 - (void);
@@ -48,15 +41,7 @@
 - (id)ÿÿ&;
 
 // Remaining properties
-@property(readonly) NSString *accountDescription; // @synthesize accountDescription=_accountDescription;
-@property(copy) NSDictionary *accountProperties; // @synthesize accountProperties=_accountProperties;
-@property(readonly) ABACAccountType *accountType; // @synthesize accountType=_accountType;
-@property(readonly, copy) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(readonly, copy) NSArray *childAccounts; // @synthesize childAccounts=_childAccounts;
-@property(readonly, copy) NSNumber *dsid; // @synthesize dsid=_dsid;
 @property(readonly) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) ABACAccountType *parentAccountType; // @synthesize parentAccountType=_parentAccountType;
-@property(readonly) _Bool requiresSeparateBirthdayCalendar;
 
 @end
 

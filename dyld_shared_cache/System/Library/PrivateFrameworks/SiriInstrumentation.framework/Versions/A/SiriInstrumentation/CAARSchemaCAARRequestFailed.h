@@ -6,17 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface CAARSchemaCAARRequestFailed : SISchemaInstrumentationMessage
 {
     unsigned int _errorCode;
-    CDStruct_70a7dc3e _has;
 }
 
 - (void);
-- (id);
-- (_Bool);
+- (id)2;
+- (_Bool)NavigationServiceLocalProxy changeUserOptions:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (unsigned long long);
@@ -31,8 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned int errorCode; // @synthesize errorCode=_errorCode;
-@property(nonatomic) _Bool hasErrorCode;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

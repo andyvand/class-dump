@@ -7,8 +7,6 @@
 @interface RemindersUICore.TTRMReminderDetailLocationTextEditorCoordinator
 {
     id textField;
-    id locationText;
-    id delegate;
 }
 
 - (id);

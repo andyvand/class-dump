@@ -7,9 +7,6 @@
 @interface AppStoreKit.ClientControlButton
 {
     id title;
-    id buttonAction;
-    id id;
-    id impressionMetrics;
 }
 
 @end

@@ -9,11 +9,9 @@
 @interface TSUMemoryWatcher
 {
     TSUFlushingManager *_flushingManager;
-    _Bool _going;
-    _Bool _stop;
 }
 
-- (id);
+- (id)formatGroup;
 - (void);
 - (void);
 - (void);

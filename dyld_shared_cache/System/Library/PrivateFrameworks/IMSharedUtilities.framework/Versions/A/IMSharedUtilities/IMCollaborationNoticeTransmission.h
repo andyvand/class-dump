@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString;
+@class NSString;
 
 @interface IMCollaborationNoticeTransmission
 {
     NSString *_guidString;
-    NSData *_eventData;
-    long long _eventType;
-    NSDate *_date;
 }
 
 + (_Bool);
@@ -20,15 +17,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)pk_isNotANumber;
 - (long long);
 - (void);
 - (void)¯ý¢LyÔ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, nonatomic) NSData *eventData; // @synthesize eventData=_eventData;
-@property(readonly, nonatomic) long long eventType; // @synthesize eventType=_eventType;
 @property(readonly, nonatomic) NSString *guidString; // @synthesize guidString=_guidString;
 
 @end

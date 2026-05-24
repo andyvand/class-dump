@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDMapsIdentifier, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDPublisherViewResultFilterAddress
 {
     PBUnknownFields *_unknownFields;
-    GEOPDMapsIdentifier *_geoId;
 }
 
 - (id);
@@ -19,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)rchHomeResult"@"NSError">16@?<v@?B>24;
-- (id)dCoordinateOffset;
+- (id)_matchedCoordinateOffset;
 - (id)x<;
 - (void);
 

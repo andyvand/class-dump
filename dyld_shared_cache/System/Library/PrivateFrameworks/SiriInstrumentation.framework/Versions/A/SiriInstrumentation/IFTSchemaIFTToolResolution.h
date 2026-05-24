@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTStatementId, NSData, NSString;
-
 @interface IFTSchemaIFTToolResolution : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    NSString *_toolId;
-    IFTSchemaIFTStatementId *_statementId;
-    IFTSchemaIFTStatementId *_originProgramStatementId;
-    CDStruct_b33ad018 _has;
-    _Bool _hasToolId;
-    _Bool _hasStatementId;
-    _Bool _hasOriginProgramStatementId;
 }
 
 - (id);
@@ -47,22 +38,14 @@
 - (id)1à°1Â0@ù
 × ;
 - (id),N,V_eventMetaData;
-- (id)maGATConfirmationSnippetPresented;
-- (_Bool)nt;
+- (id)GATSchemaGATConfirmationSnippetPresented;
+- (_Bool)QDSchemaQDSubComponent;
 - (void)øÕÿ;
 - (_Bool)¹ÿQG°~%;
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(nonatomic) _Bool hasOriginProgramStatementId; // @synthesize hasOriginProgramStatementId=_hasOriginProgramStatementId;
-@property(nonatomic) _Bool hasStatementId; // @synthesize hasStatementId=_hasStatementId;
-@property(nonatomic) _Bool hasToolId; // @synthesize hasToolId=_hasToolId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) IFTSchemaIFTStatementId *originProgramStatementId; // @synthesize originProgramStatementId=_originProgramStatementId;
-@property(retain, nonatomic) IFTSchemaIFTStatementId *statementId; // @synthesize statementId=_statementId;
-@property(copy, nonatomic) NSString *toolId; // @synthesize toolId=_toolId;
 
 @end
 

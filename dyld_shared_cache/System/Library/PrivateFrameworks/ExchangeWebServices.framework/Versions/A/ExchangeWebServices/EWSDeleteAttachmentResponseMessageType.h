@@ -13,11 +13,11 @@
     EWSRootItemIdType *_RootItemId;
 }
 
-+ (id);
++ (id)ACtGADG;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) EWSRootItemIdType *RootItemId; // @synthesize RootItemId=_RootItemId;

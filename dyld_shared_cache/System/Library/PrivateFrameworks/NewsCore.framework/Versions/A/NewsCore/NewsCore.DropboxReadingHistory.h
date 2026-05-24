@@ -9,8 +9,6 @@
 @interface NewsCore.DropboxReadingHistory
 {
     id todayDropbox;
-    id articleExposureRegistry;
-    id lazyDropboxData;
 }
 
 - (void);
@@ -22,13 +20,11 @@
 - (id);
 - (void);
 - (void);
-- (void)2;
+- (void)channelUpsellConfigurations2;
 - (id)SaySSG;
 
 // Remaining properties
-@property(nonatomic, readonly) NSSet *allDislikedArticleIDs;
 @property(nonatomic, readonly) NSSet *allReadArticleIDs;
-@property(nonatomic, readonly) NSSet *allSeenArticleIDs;
 
 @end
 

@@ -10,10 +10,6 @@
 @interface SPKParsecQuery
 {
     NSObject<OS_dispatch_queue> *_queue;
-    double _startTime;
-    double _endTime;
-    double _timeout;
-    long long _queryTaskId;
 }
 
 + (int);
@@ -51,16 +47,17 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)/0x%lx, pgnum:%ld/%ld
+ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (double);
+- (void)?
+k";
+- (double);
 - (void);
 
 // Remaining properties
 @property long long queryTaskId; // @synthesize queryTaskId=_queryTaskId;
-@property double timeout; // @synthesize timeout=_timeout;
 
 @end
 

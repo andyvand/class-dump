@@ -7,9 +7,6 @@
 @interface (extension in LocalAuthentication):__C.LAUserLockoutState.Properties__priv_9E13F69977B1CD437A393A7730E0B419
 {
     id rawValue;
-    id backoff;
-    id maxAttempts;
-    id failedAttempts;
 }
 
 @end

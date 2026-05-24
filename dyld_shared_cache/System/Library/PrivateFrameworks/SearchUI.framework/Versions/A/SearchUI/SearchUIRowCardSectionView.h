@@ -19,7 +19,7 @@
 + (id);
 - (void);
 - (id);
-- (id);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) TLKSimpleRowView *contentView; // @dynamic contentView;

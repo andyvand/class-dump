@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOSQLiteDB, _GEOConfigCache, _GEOConfigDB, _GEOConfigDBOperationQueue;
+@class GEOSQLiteDB;
 
 @interface GEOConfigPersistence
 {
     GEOSQLiteDB *_db;
-    _GEOConfigDB *_configDB;
-    _GEOConfigDB *_xpcConfigDB;
-    _GEOConfigCache *_keyExpiryCache;
-    _GEOConfigDBOperationQueue *_operationQueue;
 }
 
 + (_Bool);
@@ -24,11 +20,11 @@
 - (void);
 - (id);
 - (void);
+- (id)No asset for CSHybridEndpointer for currentLanguage:%{public}@. /* Error: Ran out of types for this method. */;
 - (id);
+- (id)setInvalidDescriptorCache:(id)arg1;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)JI*J1*J*+@9j;
 - (id);
 - (void);
 - (void);

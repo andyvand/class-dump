@@ -5,5 +5,8 @@
 //
 
 @protocol _DUIClientSessionAccessibility
+- (oneway void)IMAVControlStateKey;
+- (oneway void)IMAVControlTimeSlider;
+- (oneway void)s;
 @end
 

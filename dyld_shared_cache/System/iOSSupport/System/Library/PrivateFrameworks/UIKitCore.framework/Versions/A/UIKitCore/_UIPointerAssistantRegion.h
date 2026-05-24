@@ -6,29 +6,25 @@
 
 #import <UIKitCore/UIPointerRegion.h>
 
-@class UIButton, UIView, _UIAssistantEntry;
+@class UIView;
 
 @interface _UIPointerAssistantRegion : UIPointerRegion
 {
     _Bool _selected;
-    UIView *_targetView;
-    _UIAssistantEntry *_assistant;
 }
 
 - (void);
 - (id);
 - (_Bool)@0:(id)arg1 8q16@"UINavigationItem"24;
-- (id)nfiguration;
+- (id)__displayConfiguration;
 - (id),V_originalModifiers;
 - (void)ion in -commitPreviewViewController:(_Bool)arg1 committedViewController:on UIViewControllerPreviewingDelegate. /* Error: Ran out of types for this method. */;
-- (id)ionAmount;
-- (void)eType;
+- (id)inputRefractionAmount;
+- (void)PhaseType;
 - (_Bool)ªD;
 
 // Remaining properties
-@property(nonatomic, getter=isSelected) _Bool selected; // @synthesize selected=_selected;
 @property(nonatomic) __weak UIView *targetView; // @synthesize targetView=_targetView;
-@property(readonly, nonatomic) __weak UIButton *targetViewAsButton;
 
 @end
 

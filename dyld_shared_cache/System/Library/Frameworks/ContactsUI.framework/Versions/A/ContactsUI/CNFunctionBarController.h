@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNContactEditViewTouchBar, CNContactViewTouchBar, NSButton, NSString, NSTouchBar;
+@class CNContact;
 @protocol CNFunctionBarControllerDelegate;
 
 @interface CNFunctionBarController
 {
     CNContact *_contact;
-    id <CNFunctionBarControllerDelegate> _delegate;
-    NSTouchBar *_touchBar;
-    CNContactViewTouchBar *_contactViewTouchBar;
-    CNContactEditViewTouchBar *_contactEditViewTouchBar;
-    NSButton *_editButton;
-    NSButton *_shareButton;
 }
 
 - (void);
@@ -24,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)@9	;
 - (id);
 - (void);
 - (void);
@@ -33,31 +27,18 @@
 - (id);
 - (_Bool);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (id)numberWithUnsignedLong: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)lRKN3xpc6objectEE_;
 - (id);
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(retain) CNContactEditViewTouchBar *contactEditViewTouchBar; // @synthesize contactEditViewTouchBar=_contactEditViewTouchBar;
-@property(retain) CNContactViewTouchBar *contactViewTouchBar; // @synthesize contactViewTouchBar=_contactViewTouchBar;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property __weak id <CNFunctionBarControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain) NSButton *editButton; // @synthesize editButton=_editButton;
-@property(readonly) unsigned long long hash;
-@property(retain) NSButton *shareButton; // @synthesize shareButton=_shareButton;
-@property(readonly) Class superclass;
-@property(retain) NSTouchBar *touchBar; // @synthesize touchBar=_touchBar;
 
 @end
 

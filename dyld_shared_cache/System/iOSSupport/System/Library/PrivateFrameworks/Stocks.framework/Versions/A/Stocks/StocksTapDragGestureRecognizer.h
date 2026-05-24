@@ -4,42 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSSet, NSTimer;
+@class NSSet, NSTimer;
 
 @interface StocksTapDragGestureRecognizer
 {
     NSTimer *_touchDelayTimer;
-    NSMutableSet *_touches;
-    struct CGPoint _startingPosition;
-    double _requiredPressDelay;
-    unsigned long long _minimumNumberOfTouches;
-    unsigned long long _maximumNumberOfTouches;
-    struct CGRect _touchableBounds;
 }
 
+- (void);
 - (void);
 - (void);
-- (void);
-- (double);
-- (struct CGRect);
+- (double)Gz;
+- (struct CGRect)l;
 - (unsigned long long);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (id)@"REMChangeToken";
+- (void)*>=^{}}};
+- (id):(id)arg1:(SEL)arg2;
+- (void);
 - (unsigned long long);
+- (void)dϤ;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)ams_removeObjectsPassingTest:(id)arg1;
+- (void)_enqueueTask:cancelMask:lastStartTime: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned long long maximumNumberOfTouches; // @synthesize maximumNumberOfTouches=_maximumNumberOfTouches;
-@property(nonatomic) unsigned long long minimumNumberOfTouches; // @synthesize minimumNumberOfTouches=_minimumNumberOfTouches;
-@property(nonatomic) double requiredPressDelay; // @synthesize requiredPressDelay=_requiredPressDelay;
-@property(nonatomic) struct CGRect touchableBounds; // @synthesize touchableBounds=_touchableBounds;
 @property(readonly, nonatomic) NSSet *touches; // @synthesize touches=_touches;
 
 @end

@@ -9,7 +9,7 @@
     unsigned long long _types;
 }
 
-- (id);
+- (id)copyAddressingGrammarPropertyValuesToContacts:(unsigned long long)arg1;
 - (_Bool);
 - (_Bool);
 - (id);

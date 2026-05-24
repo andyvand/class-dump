@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface _NSConcreteUserNotificationAction : NSUserNotificationAction
 {
     NSString *_title;
-    NSString *_identifier;
 }
 
 + (_Bool)%ld

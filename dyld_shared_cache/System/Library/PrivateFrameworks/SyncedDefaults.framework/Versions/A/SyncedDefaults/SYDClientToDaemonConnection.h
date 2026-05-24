@@ -6,25 +6,11 @@
 
 #import <SyncedDefaults/SYDRemotePreferencesSource.h>
 
-@class NSLock, NSMutableDictionary, NSObject, NSString, NSXPCConnection, SYDStoreConfiguration;
-@protocol OS_dispatch_queue, SYDClientToDaemonConnectionDelegate;
+@protocol SYDClientToDaemonConnectionDelegate;
 
 @interface SYDClientToDaemonConnection : SYDRemotePreferencesSource
 {
     _Bool _didLogFaultForEntitlements;
-    _Bool _needsChangeDictionaryFromDaemon;
-    _Bool _hasFullCachedDictionary;
-    _Bool _useTestServer;
-    int _daemonWakeNotifyToken;
-    id <SYDClientToDaemonConnectionDelegate> _delegate;
-    SYDStoreConfiguration *_storeConfiguration;
-    NSXPCConnection *_xpcConnection;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    NSObject<OS_dispatch_queue> *_analyticsQueue;
-    NSMutableDictionary *_cachedObjects;
-    NSLock *_cacheLock;
-    unsigned long long _syncingWithCloudCounter;
 }
 
 + (id);
@@ -45,49 +31,49 @@
 + (void);
 + (id);
 + (id);
-+ (id);
++ (id)setIndexedPageItemViewSpecified:(id *)arg1;
 + (id);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void)0AXObservableSettingsP;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)or containers with %ld changes;
+- (void)R;
 - (id);
 - (void);
 - (int);
-- (void);
+- (void)س;
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void);
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
+- (void);
+- (id)_incomingPassword;
+- (void)/;
+- (void);
+- (void);
+- (_Bool)PolarityConfirmation;
+- (id);
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
+- (_Bool);
+- (void);
+- (void)setImageInterpolation:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -104,10 +90,10 @@
 - (id);
 - (void);
 - (id);
+- (id)B;
+- (void);
 - (id);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool)NSMenu"24;
 - (id);
 - (void *);
 - (id);
@@ -119,48 +105,32 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)7;
 - (void);
 - (struct __CFDictionary *);
 - (void);
 - (_Bool);
+- (void)_setAttribute:forName:ofElementWithName: /* Error: Ran out of types for this method. */;
+- (id)IsCancelled;
+- (id)EWSAutodiscoverV2Binding.m;
 - (void);
+- (void);
+- (void);
+- (void);
+- (void)lastObject;
+- (void);
+- (id)received a total of %lld, no information on expected total;
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *analyticsQueue; // @synthesize analyticsQueue=_analyticsQueue;
-@property(retain, nonatomic) NSLock *cacheLock; // @synthesize cacheLock=_cacheLock;
-@property(retain, nonatomic) NSMutableDictionary *cachedObjects; // @synthesize cachedObjects=_cachedObjects;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *callbackQueue; // @synthesize callbackQueue=_callbackQueue;
-@property(nonatomic) int daemonWakeNotifyToken; // @synthesize daemonWakeNotifyToken=_daemonWakeNotifyToken;
 @property __weak id <SYDClientToDaemonConnectionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool didLogFaultForEntitlements; // @synthesize didLogFaultForEntitlements=_didLogFaultForEntitlements;
-@property(nonatomic) _Bool hasFullCachedDictionary; // @synthesize hasFullCachedDictionary=_hasFullCachedDictionary;
-@property(readonly, nonatomic) _Bool isSyncingWithCloud;
-@property _Bool needsChangeDictionaryFromDaemon; // @synthesize needsChangeDictionaryFromDaemon=_needsChangeDictionaryFromDaemon;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) SYDStoreConfiguration *storeConfiguration; // @synthesize storeConfiguration=_storeConfiguration;
-@property(readonly, nonatomic) NSString *storeIdentifier;
-@property(readonly, nonatomic) long long storeType;
-@property unsigned long long syncingWithCloudCounter; // @synthesize syncingWithCloudCounter=_syncingWithCloudCounter;
-@property(nonatomic) _Bool useTestServer; // @synthesize useTestServer=_useTestServer;
-@property(retain, nonatomic) NSXPCConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
 
 @end
 

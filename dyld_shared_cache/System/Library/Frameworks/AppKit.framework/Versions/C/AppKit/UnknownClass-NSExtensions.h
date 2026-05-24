@@ -7,12 +7,12 @@
 @class NSImage;
 
 @interface UnknownClass (NSExtensions)
+- (void)r;
 - (void);
-- (void);
-- (id);
+- (id)sb;
 - (_Bool);
 - (void);
-- (id)selectionLocation:lastInputString: /* Error: Ran out of types for this method. */;
+- (id)intermediateTextWithInputString:displayString:selectionLocation:lastInputString: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) NSImage *icon;

@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPSCNNLossDescriptor, NSData;
+@class MPSCNNLossDescriptor;
 
 @interface MPSCNNYOLOLossDescriptor
 {
     MPSCNNLossDescriptor *_XYLossDescriptor;
-    MPSCNNLossDescriptor *_WHLossDescriptor;
-    MPSCNNLossDescriptor *_confidenceLossDescriptor;
-    MPSCNNLossDescriptor *_classesLossDescriptor;
-    int _reductionType;
-    _Bool _rescore;
-    float _scaleXY;
-    float _scaleWH;
-    float _scaleNoObject;
-    float _scaleObject;
-    float _scaleClass;
-    float _minIOUForObjectPresence;
-    float _maxIOUForObjectAbsence;
-    NSData *_anchorBoxes;
-    unsigned long long _numberOfAnchorBoxes;
-    _Bool _reduceAcrossBatch;
 }
 
 + (id);
@@ -50,10 +35,10 @@
 - (float);
 - (float);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (float);
@@ -61,26 +46,11 @@
 - (float);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) MPSCNNLossDescriptor *WHLossDescriptor; // @synthesize WHLossDescriptor=_WHLossDescriptor;
 @property(retain, nonatomic) MPSCNNLossDescriptor *XYLossDescriptor; // @synthesize XYLossDescriptor=_XYLossDescriptor;
-@property(retain, nonatomic) NSData *anchorBoxes; // @synthesize anchorBoxes=_anchorBoxes;
-@property(retain, nonatomic) MPSCNNLossDescriptor *classesLossDescriptor; // @synthesize classesLossDescriptor=_classesLossDescriptor;
-@property(retain, nonatomic) MPSCNNLossDescriptor *confidenceLossDescriptor; // @synthesize confidenceLossDescriptor=_confidenceLossDescriptor;
-@property(nonatomic) float maxIOUForObjectAbsence; // @synthesize maxIOUForObjectAbsence=_maxIOUForObjectAbsence;
-@property(nonatomic) float minIOUForObjectPresence; // @synthesize minIOUForObjectPresence=_minIOUForObjectPresence;
-@property(nonatomic) unsigned long long numberOfAnchorBoxes; // @synthesize numberOfAnchorBoxes=_numberOfAnchorBoxes;
-@property(nonatomic) _Bool reduceAcrossBatch; // @synthesize reduceAcrossBatch=_reduceAcrossBatch;
-@property(nonatomic) int reductionType; // @synthesize reductionType=_reductionType;
-@property(nonatomic) _Bool rescore; // @synthesize rescore=_rescore;
-@property(nonatomic) float scaleClass; // @synthesize scaleClass=_scaleClass;
-@property(nonatomic) float scaleNoObject; // @synthesize scaleNoObject=_scaleNoObject;
-@property(nonatomic) float scaleObject; // @synthesize scaleObject=_scaleObject;
-@property(nonatomic) float scaleWH; // @synthesize scaleWH=_scaleWH;
-@property(nonatomic) float scaleXY; // @synthesize scaleXY=_scaleXY;
 
 @end
 

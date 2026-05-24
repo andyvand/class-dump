@@ -4,33 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLocale, NSString;
+@class NSArray, NSString;
 
 @interface IPLanguageListManager
 {
     NSString *_systemDisplayLanguage;
-    NSArray *_preferredLanguages;
-    NSLocale *_preferredLocale;
-    NSArray *_systemLanguages;
 }
 
++ (void)captureOutput:(id)arg1 didOutputSampleBuffer:fromConnection: /* Error: Ran out of types for this method. */;
++ (id)automaticallyAdjustsZRange;
++ (id)automaticallyAdjustsShadowProjection;
++ (id)addAnimationPlayer:(_Bool)arg1 forKey:(id)arg2;
++ (_Bool)_vertexShader;
++ (id)`;
++ (id);
 + (void);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (void);
+- (id)copyJointBindTransformsInto:maxCount: /* Error: Ran out of types for this method. */;
+- (void)convexSweepTestWithShape:(id)arg1 fromTransform:(_Bool)arg2 toTransform:options: /* Error: Ran out of types for this method. */;
+- (id)colorMatchBiPlanarPixelBufferWithFormatType:pixelBufferYCbCrMatrix:pixelBufferColorPrimaries:pixelBufferTransferFunction:sourceTextureY:sourceTextureCbCr:sourceColorSpace:destinationColorSpace:destinationTexture:renderContext: /* Error: Ran out of types for this method. */;
+- (id)captureDeviceOutputConsumerWithOptions: /* Error: Ran out of types for this method. */;
+- (id)bundleURL;
+- (id)buildTessellationVertexDescriptorIfNeeded;
+- (id)authoringEnvironmentForSceneRenderer:(_Bool)arg1 createIfNeeded: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -39,11 +36,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *deviceLanguage;
 @property(retain, nonatomic) NSArray *preferredLanguages; // @synthesize preferredLanguages=_preferredLanguages;
-@property(retain, nonatomic) NSLocale *preferredLocale; // @synthesize preferredLocale=_preferredLocale;
-@property(readonly, nonatomic) NSString *systemDisplayLanguage; // @synthesize systemDisplayLanguage=_systemDisplayLanguage;
-@property(readonly, nonatomic) NSArray *systemLanguages; // @synthesize systemLanguages=_systemLanguages;
 
 @end
 

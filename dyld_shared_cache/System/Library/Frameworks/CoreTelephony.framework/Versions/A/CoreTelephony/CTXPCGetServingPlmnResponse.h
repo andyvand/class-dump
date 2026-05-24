@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *plmn;

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBImage, _SFPBWatchListItem;
+@class NSData, _SFPBWatchListItem;
 
 @protocol _SFPBPlayWatchListItemButtonItem
+- (void)nslator was missing mapping for MPModelPropertyAlbumCleanSongCount;
+- (NSData *),V_animatedImage;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBImage *image;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *title;
-@property(nonatomic) unsigned long long uniqueId;
 @property(retain, nonatomic) _SFPBWatchListItem *watchListItem;
 @end
 

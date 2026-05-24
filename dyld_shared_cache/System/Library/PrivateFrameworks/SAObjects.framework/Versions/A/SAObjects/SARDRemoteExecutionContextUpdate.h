@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSData, NSString;
+@class NSData;
 
 @interface SARDRemoteExecutionContextUpdate : SABaseClientBoundCommand
 {
@@ -16,13 +16,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)k;
 - (id);
 - (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSData *executionContextUpdate;
-@property(copy, nonatomic) NSString *remoteDeviceAssistantId;
 
 @end
 

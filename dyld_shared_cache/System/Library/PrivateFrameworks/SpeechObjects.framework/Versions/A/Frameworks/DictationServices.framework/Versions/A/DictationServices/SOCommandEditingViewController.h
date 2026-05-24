@@ -4,57 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArrayController, NSAttributedString, NSButton, NSImageView, NSLayoutConstraint, NSPopUpButton, NSScrollView, NSString, NSTableView, NSTextField, NSTextView, NSUndoManager, NSView, SODictationCommandItem, SODictationCommandManager;
 @protocol SOCommandEditingViewControllerDelegate;
 
 @interface SOCommandEditingViewController
 {
     _Bool _isAwakeFromNib;
-    _Bool _commandCreationMode;
-    SODictationCommandManager *_commandManager;
-    NSUndoManager *_commandUndoManager;
-    NSString *_currentLocaleIdentifier;
-    NSString *_originalFrontMostAppID;
-    SODictationCommandItem *_currentItem;
-    id <SOCommandEditingViewControllerDelegate> _delegate;
-    NSView *_customSettingsContainer;
-    NSView *_alertContainer;
-    NSTextField *_alertTextField;
-    NSTextField *_editableCommandTextField;
-    NSPopUpButton *_actionPopUpButton;
-    NSPopUpButton *_appPopUpButton;
-    NSTextField *_shortcutTextField;
-    id _clickEventMonitor;
-    NSTextField *_genericInLineEditorTextField;
-    NSTextField *_currentInLineEditorTextField;
-    long long _currentInLineEditorOwnerTag;
-    NSTableView *_filesTableView;
-    NSView *_filesView;
-    NSArrayController *_filesTableArrayController;
-    NSTextView *_pasteTextView;
-    NSScrollView *_pasteTextScrollView;
-    NSAttributedString *_vanillaPasteTextString;
-    NSView *_pasteBoardContainer;
-    NSImageView *_pasteBoardImageView;
-    NSTextView *_pasteBoardTextView;
-    NSScrollView *_pasteBoardScrollView;
-    NSButton *_pasteFromClipboardButton;
-    NSLayoutConstraint *_pasteBoardBottomConstraint;
-    NSLayoutConstraint *_pasteBoardTopConstraint;
-    NSImageView *_generalAlertImageView;
-    NSTextField *_generalAlertTextField;
-    NSTextView *_urlTextView;
-    NSScrollView *_urlScrollView;
-    NSView *_workflowOptionsView;
 }
 
-+ (id);
-+ (id);
++ (id)@;
++ (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
@@ -64,35 +27,21 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)Q;
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)!;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)!;
 - (void);
 - (id);
 - (void);
@@ -100,27 +49,31 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
+- (void)%;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)ZN11cnframework12ActiveObjectIN5raven33RavenSolutionSelectorActiveObjectEE41CreateAndStoreEventHandlerForActiveObjectINS1_18RavenSolutionEventEEEvvEUlPNS_16ActiveObjectBaseERKNS_12GenericEventEE_;
+- (void)andlerForActiveObjectINS4_26AccessoryVehicleSpeedEventEEEvvEUlPNS2_16ActiveObjectBaseERKNS2_12GenericEventEE_FvSA_SD_EEE;
+- (void)N8cnmatrix8CNMatrixILj1ELj23EiEE;
 - (id);
 - (void);
 - (void);
 - (void);
+- (void)?;
+- (id);
+- (id);
+- (void)indexOfEffectivePresentationSettingForSelector:(id)arg1;
+- (void)15 seconds keyboard command discoverability title;
+- (void)orchestratorScoresWithPSRScores:withSATScores:withSegmentStartTime: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) SODictationCommandItem *currentItem; // @dynamic currentItem;
-@property(retain, nonatomic) NSString *currentLocaleIdentifier; // @synthesize currentLocaleIdentifier=_currentLocaleIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) id <SOCommandEditingViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSTextField *editableCommandTextField; // @synthesize editableCommandTextField=_editableCommandTextField;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

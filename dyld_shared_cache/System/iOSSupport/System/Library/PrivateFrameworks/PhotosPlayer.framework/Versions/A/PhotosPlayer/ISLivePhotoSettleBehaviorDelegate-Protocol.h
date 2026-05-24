@@ -5,5 +5,6 @@
 //
 
 @protocol ISLivePhotoSettleBehaviorDelegate
+- (void)_isInPreviewPlatter;
 @end
 

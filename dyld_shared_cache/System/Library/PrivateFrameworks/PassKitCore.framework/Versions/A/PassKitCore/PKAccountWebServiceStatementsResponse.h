@@ -15,7 +15,7 @@
 
 - (id);
 - (id);
-- (void)athIdentifier;
+- (void)pathIdentifier;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *statements; // @synthesize statements=_statements;

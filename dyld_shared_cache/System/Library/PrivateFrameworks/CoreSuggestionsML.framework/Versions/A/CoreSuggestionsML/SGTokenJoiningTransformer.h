@@ -13,25 +13,18 @@
 
 + (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)(%;
+- (id)getIPELabelDetails:(id)arg1 withError: /* Error: Ran out of types for this method. */;
+- (id)sionaryClass:(id)arg1 withEntitlementCode:withRouteCode:withValidAtOrFrom:withValidTo: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)B;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) NSString *separator; // @synthesize separator=_separator;
-@property(readonly) Class superclass;
 
 @end
 

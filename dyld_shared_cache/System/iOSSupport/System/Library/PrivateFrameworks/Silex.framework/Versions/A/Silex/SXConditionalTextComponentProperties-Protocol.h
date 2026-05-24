@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXJSONArray;
+@class NSString;
 
 @protocol SXConditionalTextComponentProperties
-- (NSString *)ject: /* Error: Ran out of types for this method. */;
+- (NSString *)setWithObject: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) SXJSONArray *inlineTextStyles;
 @property(readonly, nonatomic) NSString *textStyle;
 @end
 

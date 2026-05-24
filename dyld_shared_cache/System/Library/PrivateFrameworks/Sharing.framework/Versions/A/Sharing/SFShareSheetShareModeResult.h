@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
-
 @interface SFShareSheetShareModeResult
 {
     _Bool _supportsCollaboration;
-    NSError *_error;
 }
 
 + (_Bool);
@@ -18,11 +15,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)\;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
 @property(readonly, nonatomic) _Bool supportsCollaboration; // @synthesize supportsCollaboration=_supportsCollaboration;
 
 @end

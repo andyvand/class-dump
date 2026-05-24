@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSInputStream, NSMutableData, NSString;
+@class NSInputStream, NSMutableData;
 
 __attribute__((visibility("hidden")))
 @interface _CATRemoteConnectionSendDataWithStreamContext
 {
     NSMutableData *mBuffer;
-    NSData *mHeaderData;
-    unsigned long long mBytesRead;
-    NSInputStream *_stream;
-    unsigned long long _dataLength;
-    unsigned long long _bufferSize;
-    id _userInfo;
-    unsigned long long _bytesWritten;
 }
 
 - (id);
@@ -25,28 +18,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void);
 - (unsigned long long);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)eted;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long bufferSize; // @synthesize bufferSize=_bufferSize;
-@property(nonatomic) unsigned long long bytesWritten; // @synthesize bytesWritten=_bytesWritten;
-@property(readonly, nonatomic) unsigned long long clientBytesWritten;
-@property(readonly, nonatomic) unsigned long long dataLength; // @synthesize dataLength=_dataLength;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasBytesRemaining;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSInputStream *stream; // @synthesize stream=_stream;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

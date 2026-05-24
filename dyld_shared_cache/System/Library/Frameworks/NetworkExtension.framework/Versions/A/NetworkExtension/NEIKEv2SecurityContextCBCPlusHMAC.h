@@ -6,16 +6,11 @@
 
 #import <NetworkExtension/NEIKEv2SecurityContext.h>
 
-@class NEIKEv2EncryptionProtocol, NEIKEv2IntegrityProtocol;
-
 @interface NEIKEv2SecurityContextCBCPlusHMAC : NEIKEv2SecurityContext
 {
-    CDStruct_43cfb2c2 outgoingHMACBaseContext;
-    CDStruct_43cfb2c2 incomingHMACBaseContext;
-    NEIKEv2EncryptionProtocol *_encryptionProtocol;
-    NEIKEv2IntegrityProtocol *_integrityProtocol;
-    struct _CCCryptor *_outgoingEncryptionContext;
-    struct _CCCryptor *_incomingEncryptionContext;
+    struct {
+        unsigned int ctx[96];
+    } outgoingHMACBaseContext;
 }
 
 - (unsigned int);
@@ -23,7 +18,7 @@
 - (id);
 - (id);
 - (void);
-- (void)ion: /* Error: Ran out of types for this method. */;
+- (void)startWithCompletion: /* Error: Ran out of types for this method. */;
 
 @end
 

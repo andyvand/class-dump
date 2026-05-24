@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol FPCancellable, OS_dispatch_queue;
+@protocol FPCancellable;
 
 @interface FPOperation
 {
     id <FPCancellable> _remoteOperation;
-    NSObject<OS_dispatch_queue> *_queue;
-    unsigned char _uuid[16];
-    id _executionTransaction;
-    _Bool _finished;
-    CDUnknownBlockType _finishedBlock;
 }
 
 - (void);
@@ -30,13 +24,13 @@
 - (id);
 - (void);
 - (void);
+- (id);
+- (void)form to <FBSSceneClientAgent>;
 - (id);
-- (void);
 - (id);
-- (id);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)N3ims9analytics23MessageSendReceiveEventE;
 - (_Bool);
 - (CDUnknownBlockType);
 - (void);
@@ -47,11 +41,7 @@
 - (_Bool)"NSString"8@"NSData"16@"NSString"24@"NSError"32;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *callbackQueue; // @synthesize callbackQueue=_queue;
 @property(readonly, getter=isExecuting) _Bool executing;
-@property(readonly, getter=isFinished) _Bool finished; // @synthesize finished=_finished;
-@property(copy) CDUnknownBlockType finishedBlock; // @synthesize finishedBlock=_finishedBlock;
-@property(retain, nonatomic) id <FPCancellable> remoteOperation; // @synthesize remoteOperation=_remoteOperation;
 
 @end
 

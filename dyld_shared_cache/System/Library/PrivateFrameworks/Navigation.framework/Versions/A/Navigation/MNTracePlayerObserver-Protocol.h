@@ -5,5 +5,19 @@
 //
 
 @protocol MNTracePlayerObserver
+- (void)];
+- (void);
+- (void);
+- (void)r;
+- (void)SetToAnySelectionManager;
+- (void)SelectionManagerBox;
+- (void)NonOptionalSelectionManagerProjection;
+- (void);
+- (void)
+;
+
+@optional
+- (void)Label;
+- (void)Body;
 @end
 

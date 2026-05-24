@@ -7,17 +7,16 @@
 @interface RemindersUICore.TTRMRemindersListTextField
 {
     id hasFocus;
-    id useNextResponderUndoManagerForTextView;
 }
 
 + (void);
 + (Class);
-- (_Bool);
+- (_Bool)R;
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
-- (struct CGSize);
+- (struct CGSize)q;
 - (id);
 - (void);
 

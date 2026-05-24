@@ -8,7 +8,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isComplete) _Bool complete;
-@property(readonly, nonatomic) id context;
-@property(readonly, nonatomic, getter=isFailed) _Bool failed;
 @end
 

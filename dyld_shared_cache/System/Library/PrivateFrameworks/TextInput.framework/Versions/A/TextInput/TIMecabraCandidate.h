@@ -6,37 +6,9 @@
 
 #import <TextInput/TIKeyboardCandidate.h>
 
-@class NSNumber, NSString;
-
 @interface TIMecabraCandidate : TIKeyboardCandidate
 {
     _Bool _emojiCandidate;
-    _Bool _extensionCandidate;
-    _Bool _isForShortcutConversion;
-    _Bool _isAutocorrection;
-    _Bool _OTAWordListCandidate;
-    _Bool _regionalCandidate;
-    _Bool _responseKitCandidate;
-    _Bool _bilingualCandidate;
-    _Bool _asIsCandidate;
-    _Bool _continuousPathConversion;
-    _Bool _partialCandidate;
-    _Bool _wubixingConvertedByPinyin;
-    _Bool _prefixMatched;
-    _Bool _shouldAccept;
-    _Bool _singlePhrase;
-    _Bool _shouldInsertSpaceAfterSelection;
-    unsigned int _sourceMask;
-    float _seq2seqScore;
-    float _lmScore;
-    NSString *_candidate;
-    NSString *_latinCandidate;
-    NSString *_input;
-    NSString *_rawInput;
-    NSNumber *_mecabraCandidatePointerValue;
-    unsigned long long _deleteCount;
-    long long _cursorMovement;
-    NSString *_responseKitCategory;
 }
 
 @end

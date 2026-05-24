@@ -7,14 +7,12 @@
 @interface PUIFeedManagerArtworkBridge
 {
     id imageStore;
-    id fileManager;
-    id imageDownloader;
 }
 
 + (id);
 - (void);
 - (void);
-- (id);
+- (id)";
 - (void);
 
 @end

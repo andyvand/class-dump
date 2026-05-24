@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXElementGroup;
-
 @protocol AXGroupable
+- (struct CGRect)D;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect frame;
-@property(nonatomic) AXElementGroup *parentGroup;
 @end
 

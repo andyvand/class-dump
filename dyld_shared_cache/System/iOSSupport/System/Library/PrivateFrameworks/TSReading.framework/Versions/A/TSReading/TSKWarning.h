@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface TSKWarning
 {
     NSString *mMessage;
-    NSArray *mInfos;
-    unsigned int mKind;
-    int mSeverity;
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 - (id);
@@ -25,15 +22,12 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (unsigned int);
+- (_Bool)ResultMode;
+- (id)4;
+- (unsigned int)\;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *infos; // @synthesize infos=mInfos;
-@property(readonly, nonatomic) unsigned int kind; // @synthesize kind=mKind;
 @property(copy, nonatomic) NSString *message; // @synthesize message=mMessage;
-@property(readonly, nonatomic) int severity; // @synthesize severity=mSeverity;
 
 @end
 

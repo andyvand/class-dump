@@ -7,10 +7,6 @@
 @interface HomeKitDaemon.PrimaryResidentMatterServer.PrimaryResidentDataProvider
 {
     id $defaultActor;
-    id home;
-    id delegate;
-    id notificationCenter;
-    id notificationTokens;
 }
 
 @end

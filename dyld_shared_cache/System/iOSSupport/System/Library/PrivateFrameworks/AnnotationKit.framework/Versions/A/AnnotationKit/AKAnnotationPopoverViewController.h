@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAnnotation, AKAnnotationTheme, AKPageController, AKTouchOutsideViewGestureRecognizer, IMTheme, NSString, UIView;
-@protocol AKAnnotationEditorDelegate;
+@class AKTouchOutsideViewGestureRecognizer, UIView;
 
 @interface AKAnnotationPopoverViewController
 {
     AKTouchOutsideViewGestureRecognizer *mHideOnTouchGestureRecognizer;
-    AKAnnotation *mAnnotation;
-    AKPageController *mAnnotationPageController;
-    AKAnnotationTheme *mAnnotationTheme;
-    int mPosition;
-    id mObserver;
-    _Bool _editsOnLaunch;
-    UIView *_presentationView;
-    id <AKAnnotationEditorDelegate> _delegate;
-    struct CGRect _presentationRect;
 }
 
 - (int);
@@ -51,29 +41,11 @@
 - (id);
 - (void);
 - (int);
-- (void);
+- (void)+;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) AKAnnotation *annotation; // @synthesize annotation=mAnnotation;
-@property(retain, nonatomic) AKPageController *annotationPageController; // @synthesize annotationPageController=mAnnotationPageController;
-@property(retain, nonatomic) AKAnnotationTheme *annotationTheme; // @synthesize annotationTheme=mAnnotationTheme;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AKAnnotationEditorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool editsOnLaunch; // @synthesize editsOnLaunch=_editsOnLaunch;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int position; // @synthesize position=mPosition;
-@property(nonatomic) struct CGRect presentationRect; // @synthesize presentationRect=_presentationRect;
 @property(retain, nonatomic) UIView *presentationView; // @synthesize presentationView=_presentationView;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) IMTheme *theme;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"IMTheme",?,&,N
-
 
 @end
 

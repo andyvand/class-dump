@@ -6,19 +6,9 @@
 
 #import <ProofReader/PRModification.h>
 
-@class NSString;
-
 @interface PRZhuyinModification : PRModification
 {
     struct _NSRange _range;
-    NSString *_replacementString;
-    unsigned long long _modificationType;
-    struct _NSRange _syllableRange;
-    struct _NSRange _additionalSyllableRange;
-    double _modificationScore;
-    unsigned long long _syllableCountScore;
-    unsigned char _letters[5];
-    _Bool _producesPartialSyllable;
 }
 
 - (unsigned long long);
@@ -30,10 +20,10 @@
 - (struct _NSRange);
 - (id);
 - (double);
-- (struct _NSRange);
+- (struct _NSRange);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)w;
 - (unsigned long long);
 - (struct _NSRange);
 - (_Bool);

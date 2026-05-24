@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)setDecreaseAction:(id)arg1;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)tValid"B"bTransitAboveHorizon"B"Transit"d"bSetValid"B"Set"d};
-- (id):withSegments: /* Error: Ran out of types for this method. */;
+- (id)_segmentForStepIndex:withSegments: /* Error: Ran out of types for this method. */;
 - (id)lï¬ïHñdòÔò8ôõö ÷ð÷°øLúHûüý;
 - (void)K¯ÍÆJFJ@;
 

@@ -15,8 +15,8 @@
 - (unsigned long long);
 - (id)1Â0@ù
 × ;
-- (unsigned long long)tputName;
-- (id)ons;
+- (unsigned long long)_tagRecentStoriesGroupHeadlineScoringOutputName;
+- (id)FCNewsTabiEventAggregationTrackVisitedConditions;
 - (unsigned long long)°;
 - (id)ÿ8 ;
 - (int),êÐÿ;

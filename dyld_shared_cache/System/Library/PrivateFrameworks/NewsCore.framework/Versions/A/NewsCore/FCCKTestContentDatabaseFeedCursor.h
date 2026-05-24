@@ -9,22 +9,20 @@
 @interface FCCKTestContentDatabaseFeedCursor
 {
     NSNumber *_order;
-    NSNumber *_subOrder;
 }
 
 + (_Bool);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void));
 - (id);
-- (id)ncernV3:callbackQueue:completion: /* Error: Ran out of types for this method. */;
+- (id)reportConcernV3:callbackQueue:completion: /* Error: Ran out of types for this method. */;
 - (void)e/Classes/FCCKPrivateBatchedSaveRecordsOperation.m;
-- (void)dFilterOptions;
+- (void)FCFeedFilterOptions;
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *order; // @synthesize order=_order;
-@property(copy, nonatomic) NSNumber *subOrder; // @synthesize subOrder=_subOrder;
 
 @end
 

@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface IKTabView
 {
     id _delegate;
-    NSArray *_tabs;
-    NSString *_selectedTabTitle;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -23,18 +19,16 @@
 - (void);
 - (id);
 - (void);
+- (void)PHPersonSuggestion;
+- (id)IZ;
 - (void);
-- (id);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void)egmentedControl",V_modeControl;
 - (void);
 
 // Remaining properties
 @property(nonatomic) id delegate; // @synthesize delegate=_delegate;
-@property(copy) NSString *selectedTabTitle; // @synthesize selectedTabTitle=_selectedTabTitle;
-@property(retain) NSArray *tabs; // @synthesize tabs=_tabs;
 
 @end
 

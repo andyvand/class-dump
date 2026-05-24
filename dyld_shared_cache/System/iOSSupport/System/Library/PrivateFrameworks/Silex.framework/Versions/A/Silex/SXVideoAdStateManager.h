@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NFStateMachine, NSString;
+@class NFStateMachine;
 
 @interface SXVideoAdStateManager
 {
     CDUnknownBlockType onPlayBlock;
-    CDUnknownBlockType onPauseBlock;
-    CDUnknownBlockType onResumeBlock;
-    CDUnknownBlockType onFinishBlock;
-    CDUnknownBlockType onFailBlock;
-    CDUnknownBlockType onLearnMoreBlock;
-    CDUnknownBlockType onSkipBlock;
-    NFStateMachine *_stateMachine;
 }
 
 - (CDUnknownBlockType);
@@ -34,7 +27,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -45,21 +38,7 @@
 - (id)=üÒ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic, setter=onFail:) CDUnknownBlockType onFailBlock; // @synthesize onFailBlock;
-@property(copy, nonatomic, setter=onFinish:) CDUnknownBlockType onFinishBlock; // @synthesize onFinishBlock;
-@property(copy, nonatomic, setter=onLearnMore:) CDUnknownBlockType onLearnMoreBlock; // @synthesize onLearnMoreBlock;
-@property(copy, nonatomic, setter=onPause:) CDUnknownBlockType onPauseBlock; // @synthesize onPauseBlock;
-@property(copy, nonatomic, setter=onPlay:) CDUnknownBlockType onPlayBlock; // @synthesize onPlayBlock;
-@property(copy, nonatomic, setter=onResume:) CDUnknownBlockType onResumeBlock; // @synthesize onResumeBlock;
-@property(copy, nonatomic, setter=onSkip:) CDUnknownBlockType onSkipBlock; // @synthesize onSkipBlock;
 @property(readonly, nonatomic) NFStateMachine *stateMachine; // @synthesize stateMachine=_stateMachine;
-@property(readonly) Class superclass;
 
 @end
 

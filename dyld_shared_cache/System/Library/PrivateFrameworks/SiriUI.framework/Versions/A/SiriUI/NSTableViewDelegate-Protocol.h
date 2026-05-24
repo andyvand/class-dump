@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSCell;
+
 @protocol NSTableViewDelegate
+
+@optional
+- (void);
+- (_Bool);
+- (NSArray *);
+- (void)Z;
+- (NSCell *);
 @end
 

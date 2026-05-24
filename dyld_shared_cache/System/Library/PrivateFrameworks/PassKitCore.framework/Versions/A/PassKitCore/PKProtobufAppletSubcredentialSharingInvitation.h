@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PKProtobufAppletSubcredentialSharingInvitation
 {
     NSString *_brandIdentifier;
-    NSString *_deviceModel;
-    int _deviceType;
-    unsigned int _entitlement;
-    NSString *_identifier;
-    NSData *_invitation;
-    NSString *_issuer;
-    NSString *_pairedReaderIdentifier;
-    NSString *_partnerIdentifier;
-    NSString *_recipientName;
-    NSData *_sharingSessionIdentifier;
-    unsigned int _supportedRadioTechnologies;
-    unsigned int _version;
-    struct {
-        unsigned int deviceType:1;
-        unsigned int entitlement:1;
-        unsigned int supportedRadioTechnologies:1;
-    } _has;
 }
 
 - (unsigned int);
@@ -35,22 +18,22 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)V;
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)q;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)@y;
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)b;
 - (unsigned int);
 - (void);
 - (id);
@@ -58,14 +41,14 @@
 - (id);
 - (void);
 - (unsigned long long);
+- (_Bool);
 - (_Bool);
+- (id)m;
 - (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (_Bool)ion"b1"txPriDuration"b1"txaDuration"b1"ackTxPowerBackoffCount"b1"txDeferredCount"b1"txMuteCount"b1"txPathEnableReqCount"b1"txPathMuteCount"b1"txPriorityCount"b1"txaONCount"b1"txaPORCount"b1"txaTimeoutCount"b1};
+- (void)Rssi24G;
+- (void)N,V_transactionComplete;
+- (void)U;
 - (void);
 - (void);
 - (id);
@@ -77,38 +60,14 @@
 × ;
 - (_Bool)1Â0@ù
 × ;
-- (int)rizationWithRequest:(id)arg1 completion: /* Error: Ran out of types for this method. */;
-- (int)ection:didReceiveURLToken:forInfo: /* Error: Ran out of types for this method. */;
-- (void)mentWebServiceDidChangeNotification;
+- (int)performInstallmentAuthorizationWithRequest:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (int)connection:didReceiveURLToken:forInfo: /* Error: Ran out of types for this method. */;
+- (void)PDSharedPaymentWebServiceDidChangeNotification;
 - (void);
 - (id);
 - (void))Üÿø;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *brandIdentifier; // @synthesize brandIdentifier=_brandIdentifier;
-@property(retain, nonatomic) NSString *deviceModel; // @synthesize deviceModel=_deviceModel;
-@property(nonatomic) int deviceType; // @synthesize deviceType=_deviceType;
-@property(nonatomic) unsigned int entitlement; // @synthesize entitlement=_entitlement;
-@property(readonly, nonatomic) _Bool hasBrandIdentifier;
-@property(readonly, nonatomic) _Bool hasDeviceModel;
-@property(nonatomic) _Bool hasDeviceType;
-@property(nonatomic) _Bool hasEntitlement;
-@property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasInvitation;
-@property(readonly, nonatomic) _Bool hasIssuer;
-@property(readonly, nonatomic) _Bool hasPairedReaderIdentifier;
-@property(readonly, nonatomic) _Bool hasPartnerIdentifier;
-@property(readonly, nonatomic) _Bool hasRecipientName;
-@property(readonly, nonatomic) _Bool hasSharingSessionIdentifier;
-@property(nonatomic) _Bool hasSupportedRadioTechnologies;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSData *invitation; // @synthesize invitation=_invitation;
-@property(retain, nonatomic) NSString *issuer; // @synthesize issuer=_issuer;
-@property(retain, nonatomic) NSString *pairedReaderIdentifier; // @synthesize pairedReaderIdentifier=_pairedReaderIdentifier;
-@property(retain, nonatomic) NSString *partnerIdentifier; // @synthesize partnerIdentifier=_partnerIdentifier;
-@property(retain, nonatomic) NSString *recipientName; // @synthesize recipientName=_recipientName;
-@property(retain, nonatomic) NSData *sharingSessionIdentifier; // @synthesize sharingSessionIdentifier=_sharingSessionIdentifier;
-@property(nonatomic) unsigned int supportedRadioTechnologies; // @synthesize supportedRadioTechnologies=_supportedRadioTechnologies;
 @property(nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end

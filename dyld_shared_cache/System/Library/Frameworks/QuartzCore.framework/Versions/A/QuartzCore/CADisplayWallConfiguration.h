@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface CADisplayWallConfiguration
 {
     unsigned int _gridWidth;
-    unsigned int _gridHeight;
-    NSArray *_displays;
 }
 
 - (void);
@@ -22,8 +18,6 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *displays; // @synthesize displays=_displays;
-@property unsigned int gridHeight; // @synthesize gridHeight=_gridHeight;
 @property unsigned int gridWidth; // @synthesize gridWidth=_gridWidth;
 
 @end

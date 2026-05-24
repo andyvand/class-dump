@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAppleIDServerResourceLoadDelegate, AKAppleIDServerUIDataHarvester, AKServerRequestConfiguration, NSHTTPURLResponse, NSURL;
+@class AKAppleIDServerResourceLoadDelegate;
 
 @interface AKAppleIDServerUIContextController
 {
     CDUnknownBlockType _serverUICompletion;
-    NSHTTPURLResponse *_latestReadResponse;
-    AKServerRequestConfiguration *_configuration;
-    AKAppleIDServerResourceLoadDelegate *_serverUIDelegate;
-    AKAppleIDServerUIDataHarvester *_serverDataHarvester;
-    NSURL *_initiatingURL;
 }
 
 - (id);
@@ -32,8 +27,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSURL *initiatingURL; // @synthesize initiatingURL=_initiatingURL;
-@property(readonly, nonatomic) AKAppleIDServerUIDataHarvester *serverDataHarvester; // @synthesize serverDataHarvester=_serverDataHarvester;
 @property(readonly, nonatomic) AKAppleIDServerResourceLoadDelegate *serverUIDelegate; // @synthesize serverUIDelegate=_serverUIDelegate;
 
 @end

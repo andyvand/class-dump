@@ -10,9 +10,9 @@
 {
 }
 
-+ (Class);
-+ (id);
-+ (void);
++ (Class)3;
++ (id)UILongPressGestureRecognizerAccessibility;
++ (void)__AXStringForVariablesSentinel;
 - (void);
 
 @end

@@ -7,7 +7,6 @@
 @interface IKImageBrowserCell
 {
     id _parent;
-    void *_ibCellReserved;
 }
 
 + (void);
@@ -19,7 +18,7 @@
 + (struct CGPoint);
 - (void);
 - (_Bool);
-- (CDStruct_02837cd9);
+- (CDStruct_90e2a262);
 - (void);
 - (id);
 - (struct CGRect);
@@ -40,12 +39,12 @@
 - (struct CGRect);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (struct CGRect);
 - (unsigned long long);
-- (struct CGRect);
+- (struct CGRect)$;
 - (struct CGSize);
 - (struct CGRect);
 - (struct CGRect);
@@ -58,7 +57,7 @@
 - (_Bool);
 - (int);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -73,11 +72,11 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (struct CGSize);
+- (_Bool)t;
+- (struct CGSize)@	;
 - (_Bool);
 - (int);
 - (_Bool);
@@ -97,14 +96,14 @@
 - (void);
 - (void);
 - (struct CGRect);
-- (id);
-- (id);
+- (id);
+- (id)durationSnapshot;
 - (_Bool);
 - (struct CGRect);
 - (struct CGRect);
 - (void);
 - (int);
-- (_Bool);
+- (_Bool)object cannot be cast as AccessResponding;
 - (unsigned long long);
 - (void);
 - (id);
@@ -112,8 +111,8 @@
 - (void);
 - (void);
 - (double);
-- (id);
-- (void);
+- (id)ic}@.;
+- (void)_hasLocalVideoKeyFrameInNonHintResources;
 - (float);
 - (_Bool);
 - (id);
@@ -128,19 +127,19 @@
 - (void);
 - (double);
 - (int);
+- (void)ii8;
+- (void)+;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void));
 - (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (_Bool)bstringFromRange: /* Error: Ran out of types for this method. */;
+- (_Bool)attributedSubstringFromRange: /* Error: Ran out of types for this method. */;
 - (float)ÿA¸é;
 - (unsigned long long)[ð¡í;
 

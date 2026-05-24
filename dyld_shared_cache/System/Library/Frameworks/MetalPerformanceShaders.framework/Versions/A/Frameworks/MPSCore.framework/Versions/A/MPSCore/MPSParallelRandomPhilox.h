@@ -11,19 +11,13 @@
 @interface MPSParallelRandomPhilox : MPSParallelRandom
 {
     id <MTLBuffer> _counters;
-    float _bernoulliParameter;
-    float _uniformMin;
-    float _uniformMax;
-    float _normalMean;
-    float _normalStandardDeviation;
-    unsigned long long _seed;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)Lb;
 - (void);
 - (id);
 - (void);

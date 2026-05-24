@@ -6,40 +6,11 @@
 
 #import <CMCapture/FigCaptureRecordingSettings.h>
 
-@class FigCaptureSmartStyle, NSArray, NSData, NSDictionary, NSURL;
+@class NSDictionary;
 
 @interface FigCaptureMovieFileRecordingSettings : FigCaptureRecordingSettings
 {
     NSDictionary *_videoSettings;
-    NSDictionary *_audioSettings;
-    NSDictionary *_cinematicAudioSettings;
-    _Bool _videoMirrored;
-    int _videoRotationDegrees;
-    _Bool _recordVideoOrientationAndMirroringChanges;
-    CDStruct_1b6d18a9 _movieFragmentInterval;
-    NSArray *_movieLevelMetadata;
-    _Bool _sendPreviewIOSurface;
-    _Bool _irisRecording;
-    _Bool _debugMetadataSidecarFileEnabled;
-    _Bool _metadataIdentifiersEnabled;
-    CDStruct_53454c09 _bravoCameraSelectionConfigurationForRecording;
-    _Bool _irisMovieRecording;
-    NSURL *_spatialOverCaptureMovieURL;
-    NSArray *_spatialOverCaptureMovieLevelMetadata;
-    unsigned long long _movieStartTimeOverride;
-    _Bool _personSegmentationRenderingEnabled;
-    NSData *_personSegmentationForegroundColorCube;
-    NSData *_personSegmentationBackgroundColorCube;
-    _Bool _videoSTFEnabled;
-    _Bool _usesVirtualCaptureCard;
-    FigCaptureSmartStyle *smartStyle;
-    _Bool _smartStyleReversibilitySupported;
-    _Bool _audioWasPlayingDuringCapture;
-    _Bool _audioMixWithOthersEnabled;
-    _Bool _smartStyleRenderingBypassed;
-    int _videoOrientation;
-    FigCaptureSmartStyle *_smartStyle;
-    CDStruct_bc6a056e _maxFrameRate;
 }
 
 + (_Bool)0@ù
@@ -47,11 +18,11 @@
 - (int);
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)`o;
 - (_Bool);
 - (void);
-- (void);
+- (void)}ԕ;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -61,7 +32,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (CDStruct_53454c09);
+- (CDStruct_8e1baa19);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -69,7 +40,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)G;
 - (void);
 - (void);
 - (void);
@@ -80,27 +51,27 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)mInvert;
 - (id);
 - (void);
 - (CDStruct_1b6d18a9);
 - (id);
+- (void);
 - (void);
-- (void);
-- (int);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (int);
 - (void);
 - (id);
 - (_Bool);
+- (void);
+- (_Bool)ate",C,N,V_timestamp;
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
 - (_Bool);
 - (id);
-- (CDStruct_bc6a056e)yÿÿyÿÿyÿ*qÿ.qÿ2qÿ6rÿ<rÿCsÿIsÿPtÿWuÿ_vÿfwÿouÿvwÿ}xÿzÿ|ÿ~ÿÿ ÿ¨ÿ±ÿ»ÿÄÿÏ~ÿØ}ÿá|ÿê{ÿõ{ÿþzÿÿzÿÿzÿÿyÿ-qÿ7mÿ:nÿ?nÿCnÿJoÿPpÿVpÿ]qÿerÿltÿsuÿzvÿwÿ yÿ {ÿ¡}ÿ¡ÿ¤¡ÿ«¢ÿ³¢ÿ»¢ÿÄ¢ÿÏ¢ÿØ¢~ÿá¢}ÿê¢|ÿõ¢|ÿý¢{ÿÿ¢{ÿÿ¢{ÿÿ¢zÿ<£mÿ>£mÿA£nÿE¤nÿI¤nÿO¤oÿU¤pÿ[¥pÿa¥qÿi¥rÿo¦sÿv¦tÿ}§uÿ§wÿ§xÿ¨zÿ¨|ÿ ©}ÿ¨©ÿ®©ÿµªÿ½ªÿÅªÿÏªÿØªÿáª~ÿêª}ÿõª}ÿýª|ÿÿª|ÿÿª{ÿÿª{ÿC«mÿF¬nÿH¬nÿK¬nÿO¬nÿU¬oÿZ¬oÿ`­pÿf­qÿm­rÿt®sÿz®tÿ®uÿ¯vÿ¯xÿ°yÿ°{ÿ¤°|ÿ«±~ÿ±±ÿ¸±ÿ¿²ÿÇ²ÿÐ²ÿÙ²ÿâ²ÿë²~ÿõ²~ÿþ²}ÿÿ²}ÿÿ²|ÿÿ²|ÿLµnÿNµnÿPµnÿSµnÿWµnÿ[µoÿ`µpÿf¶pÿk¶qÿr¶rÿx·sÿ·tÿ·uÿ¸vÿ¸wÿ¸yÿ¡¹zÿ§¹{ÿ¯¹}ÿµº~ÿ¼ºÿÂºÿÊºÿÒ»ÿÚ»ÿã»ÿë»ÿõ»ÿþ»~ÿÿ»~ÿÿ»}ÿÿ»}ÿT½nÿV½nÿW½nÿZ½nÿ]½oÿb½oÿf½pÿk¾pÿq¾qÿw¾rÿ}¿sÿ¿tÿ¿uÿ¿vÿÀwÿÀxÿ¤ÀyÿªÁ{ÿ²Á|ÿ¸Á}ÿ¿ÂÿÅÂÿÌÂÿÔÂÿÜÃÿäÃÿìÃÿöÃÿþÃÿÿÃ~ÿÿÃ~ÿÿÃ}ÿ[Ånÿ]Ånÿ_ÅnÿaÅoÿdÅoÿhÅoÿlÅpÿqÆpÿvÆqÿ|ÆrÿÆsÿÇsÿÇtÿÇuÿÈwÿ¡Èxÿ§Èyÿ®ÈzÿµÉ|ÿ»É}ÿÂÉ~ÿÈÊÿÏÊÿ×ÊÿÞÊÿæÊÿíËÿ÷ËÿÿËÿÿËÿÿË~ÿÿË~ÿcÍnÿdÍoÿeÍoÿgÍoÿjÍoÿnÍpÿrÍpÿvÎqÿ{ÎqÿÎrÿÎsÿÏsÿÏtÿÏuÿÏvÿ¥Ðwÿ«Ðyÿ±Ðzÿ¸Ð{ÿ¾Ñ|ÿÅÑ}ÿËÑ~ÿÒÑÿÙÒÿàÒÿèÒÿïÒÿøÒÿÿÒÿÿÒÿÿÒÿÿÒÿjÖoÿkÖoÿmÖoÿoÖoÿqÖpÿuÖpÿxÖpÿ|Öqÿ×qÿ×rÿ×sÿ×sÿØtÿØuÿ¢Øvÿ¨Øwÿ¯ÙxÿµÙyÿ¼ÙzÿÂÙ{ÿÈÙ|ÿÏÚ}ÿÕÚ~ÿÜÚÿãÚÿêÛÿñÛÿúÛÿÿÛÿÿÛÿÿÛÿÿÛÿqÞoÿrÞoÿsÞpÿuÞpÿwÞpÿzÞpÿ~ÞqÿÞqÿÞrÿßrÿßsÿßtÿßtÿ àuÿ¦àvÿ¬àwÿ²àxÿ¸àyÿ¿ázÿÅá{ÿËá|ÿÒá}ÿØá~ÿßâ~ÿæâÿíâÿóâÿûâÿÿâÿÿâÿÿâÿÿâÿwåpÿxåpÿzåpÿ{åpÿ}æpÿæqÿæqÿæqÿærÿærÿçsÿçtÿçtÿ¤çuÿªçvÿ°èwÿµèxÿ»èyÿÂèzÿÈèzÿÎé{ÿÕé|ÿÛé}ÿâé~ÿèé~ÿïéÿöêÿýêÿÿêÿÿêÿÿêÿÿêÿ~ípÿípÿípÿíqÿíqÿíqÿîqÿîrÿîrÿîsÿîsÿîtÿ£ïtÿ¨ïuÿ®ïvÿ³ïwÿ¹ïwÿ¿ðxÿÅðyÿËðzÿÑð{ÿ×ð|ÿÞñ|ÿåñ}ÿëñ~ÿññ~ÿøñÿÿñÿÿñÿÿñÿÿñÿÿñÿöqÿöqÿöqÿöqÿöqÿöqÿörÿörÿörÿ÷sÿ÷sÿ¢÷tÿ§÷tÿ¬÷uÿ²øvÿ·øwÿ½øwÿÃøxÿÉøyÿÏùzÿÕùzÿÛù{ÿáù|ÿèù}ÿîù}ÿôù~ÿûù~ÿÿùÿÿùÿÿùÿÿùÿÿúÿ /* Error: Ran out of types for this method. */;
+- (CDStruct_12225535)yÿÿyÿÿyÿ*qÿ.qÿ2qÿ6rÿ<rÿCsÿIsÿPtÿWuÿ_vÿfwÿouÿvwÿ}xÿzÿ|ÿ~ÿÿ ÿ¨ÿ±ÿ»ÿÄÿÏ~ÿØ}ÿá|ÿê{ÿõ{ÿþzÿÿzÿÿzÿÿyÿ-qÿ7mÿ:nÿ?nÿCnÿJoÿPpÿVpÿ]qÿerÿltÿsuÿzvÿwÿ yÿ {ÿ¡}ÿ¡ÿ¤¡ÿ«¢ÿ³¢ÿ»¢ÿÄ¢ÿÏ¢ÿØ¢~ÿá¢}ÿê¢|ÿõ¢|ÿý¢{ÿÿ¢{ÿÿ¢{ÿÿ¢zÿ<£mÿ>£mÿA£nÿE¤nÿI¤nÿO¤oÿU¤pÿ[¥pÿa¥qÿi¥rÿo¦sÿv¦tÿ}§uÿ§wÿ§xÿ¨zÿ¨|ÿ ©}ÿ¨©ÿ®©ÿµªÿ½ªÿÅªÿÏªÿØªÿáª~ÿêª}ÿõª}ÿýª|ÿÿª|ÿÿª{ÿÿª{ÿC«mÿF¬nÿH¬nÿK¬nÿO¬nÿU¬oÿZ¬oÿ`­pÿf­qÿm­rÿt®sÿz®tÿ®uÿ¯vÿ¯xÿ°yÿ°{ÿ¤°|ÿ«±~ÿ±±ÿ¸±ÿ¿²ÿÇ²ÿÐ²ÿÙ²ÿâ²ÿë²~ÿõ²~ÿþ²}ÿÿ²}ÿÿ²|ÿÿ²|ÿLµnÿNµnÿPµnÿSµnÿWµnÿ[µoÿ`µpÿf¶pÿk¶qÿr¶rÿx·sÿ·tÿ·uÿ¸vÿ¸wÿ¸yÿ¡¹zÿ§¹{ÿ¯¹}ÿµº~ÿ¼ºÿÂºÿÊºÿÒ»ÿÚ»ÿã»ÿë»ÿõ»ÿþ»~ÿÿ»~ÿÿ»}ÿÿ»}ÿT½nÿV½nÿW½nÿZ½nÿ]½oÿb½oÿf½pÿk¾pÿq¾qÿw¾rÿ}¿sÿ¿tÿ¿uÿ¿vÿÀwÿÀxÿ¤ÀyÿªÁ{ÿ²Á|ÿ¸Á}ÿ¿ÂÿÅÂÿÌÂÿÔÂÿÜÃÿäÃÿìÃÿöÃÿþÃÿÿÃ~ÿÿÃ~ÿÿÃ}ÿ[Ånÿ]Ånÿ_ÅnÿaÅoÿdÅoÿhÅoÿlÅpÿqÆpÿvÆqÿ|ÆrÿÆsÿÇsÿÇtÿÇuÿÈwÿ¡Èxÿ§Èyÿ®ÈzÿµÉ|ÿ»É}ÿÂÉ~ÿÈÊÿÏÊÿ×ÊÿÞÊÿæÊÿíËÿ÷ËÿÿËÿÿËÿÿË~ÿÿË~ÿcÍnÿdÍoÿeÍoÿgÍoÿjÍoÿnÍpÿrÍpÿvÎqÿ{ÎqÿÎrÿÎsÿÏsÿÏtÿÏuÿÏvÿ¥Ðwÿ«Ðyÿ±Ðzÿ¸Ð{ÿ¾Ñ|ÿÅÑ}ÿËÑ~ÿÒÑÿÙÒÿàÒÿèÒÿïÒÿøÒÿÿÒÿÿÒÿÿÒÿÿÒÿjÖoÿkÖoÿmÖoÿoÖoÿqÖpÿuÖpÿxÖpÿ|Öqÿ×qÿ×rÿ×sÿ×sÿØtÿØuÿ¢Øvÿ¨Øwÿ¯ÙxÿµÙyÿ¼ÙzÿÂÙ{ÿÈÙ|ÿÏÚ}ÿÕÚ~ÿÜÚÿãÚÿêÛÿñÛÿúÛÿÿÛÿÿÛÿÿÛÿÿÛÿqÞoÿrÞoÿsÞpÿuÞpÿwÞpÿzÞpÿ~ÞqÿÞqÿÞrÿßrÿßsÿßtÿßtÿ àuÿ¦àvÿ¬àwÿ²àxÿ¸àyÿ¿ázÿÅá{ÿËá|ÿÒá}ÿØá~ÿßâ~ÿæâÿíâÿóâÿûâÿÿâÿÿâÿÿâÿÿâÿwåpÿxåpÿzåpÿ{åpÿ}æpÿæqÿæqÿæqÿærÿærÿçsÿçtÿçtÿ¤çuÿªçvÿ°èwÿµèxÿ»èyÿÂèzÿÈèzÿÎé{ÿÕé|ÿÛé}ÿâé~ÿèé~ÿïéÿöêÿýêÿÿêÿÿêÿÿêÿÿêÿ~ípÿípÿípÿíqÿíqÿíqÿîqÿîrÿîrÿîsÿîsÿîtÿ£ïtÿ¨ïuÿ®ïvÿ³ïwÿ¹ïwÿ¿ðxÿÅðyÿËðzÿÑð{ÿ×ð|ÿÞñ|ÿåñ}ÿëñ~ÿññ~ÿøñÿÿñÿÿñÿÿñÿÿñÿÿñÿöqÿöqÿöqÿöqÿöqÿöqÿörÿörÿörÿ÷sÿ÷sÿ¢÷tÿ§÷tÿ¬÷uÿ²øvÿ·øwÿ½øwÿÃøxÿÉøyÿÏùzÿÕùzÿÛù{ÿáù|ÿèù}ÿîù}ÿôù~ÿûù~ÿÿùÿÿùÿÿùÿÿùÿÿúÿ /* Error: Ran out of types for this method. */;
 - (id)!ÿ!ÿ¦"ÿ®"ÿ·#ÿ¿#ÿÇ$	ÿÐ%	ÿØ&
 ÿà'ÿè(ÿð)ÿø*ÿÿ+ÿÿ-ÿÿ.ÿ)ÿ)	ÿ)	ÿ")
 ÿ()ÿ/)ÿ7)ÿ?)ÿH)ÿS)
@@ -149,39 +120,11 @@
 - (void)©yuÿ±ytÿºysÿÂysÿÊyrÿÒyqÿÛypÿâypÿêyoÿñyoÿñyoÿ;
 - (_Bool);
 - (void)reNode.inputs[currentBackPressureIndex] pipelineStage:(_Bool)arg1 postCompressionBackPressurePipelineStage];
-- (void)ectDetectionSupported;
-- (id)ictionary;
+- (void)objectDetectionSupported;
+- (id)simu_createDNGDictionary;
 - (void)_1%;
 
 // Remaining properties
-@property(nonatomic) _Bool audioMixWithOthersEnabled; // @synthesize audioMixWithOthersEnabled=_audioMixWithOthersEnabled;
-@property(copy, nonatomic) NSDictionary *audioSettings; // @synthesize audioSettings=_audioSettings;
-@property(nonatomic) _Bool audioWasPlayingDuringCapture; // @synthesize audioWasPlayingDuringCapture=_audioWasPlayingDuringCapture;
-@property(nonatomic) CDStruct_53454c09 bravoCameraSelectionConfigurationForRecording; // @synthesize bravoCameraSelectionConfigurationForRecording=_bravoCameraSelectionConfigurationForRecording;
-@property(copy, nonatomic) NSDictionary *cinematicAudioSettings; // @synthesize cinematicAudioSettings=_cinematicAudioSettings;
-@property(nonatomic) _Bool debugMetadataSidecarFileEnabled; // @synthesize debugMetadataSidecarFileEnabled=_debugMetadataSidecarFileEnabled;
-@property(nonatomic, getter=isIrisMovieRecording) _Bool irisMovieRecording; // @synthesize irisMovieRecording=_irisMovieRecording;
-@property(nonatomic, getter=isIrisRecording) _Bool irisRecording; // @synthesize irisRecording=_irisRecording;
-@property(nonatomic) CDStruct_bc6a056e maxFrameRate; // @synthesize maxFrameRate=_maxFrameRate;
-@property(nonatomic) _Bool metadataIdentifiersEnabled; // @synthesize metadataIdentifiersEnabled=_metadataIdentifiersEnabled;
-@property(nonatomic) CDStruct_1b6d18a9 movieFragmentInterval; // @synthesize movieFragmentInterval=_movieFragmentInterval;
-@property(copy, nonatomic) NSArray *movieLevelMetadata; // @synthesize movieLevelMetadata=_movieLevelMetadata;
-@property(nonatomic) unsigned long long movieStartTimeOverride; // @synthesize movieStartTimeOverride=_movieStartTimeOverride;
-@property(retain, nonatomic) NSData *personSegmentationBackgroundColorCube; // @synthesize personSegmentationBackgroundColorCube=_personSegmentationBackgroundColorCube;
-@property(retain, nonatomic) NSData *personSegmentationForegroundColorCube; // @synthesize personSegmentationForegroundColorCube=_personSegmentationForegroundColorCube;
-@property(nonatomic) _Bool personSegmentationRenderingEnabled; // @synthesize personSegmentationRenderingEnabled=_personSegmentationRenderingEnabled;
-@property(nonatomic) _Bool recordVideoOrientationAndMirroringChanges; // @synthesize recordVideoOrientationAndMirroringChanges=_recordVideoOrientationAndMirroringChanges;
-@property(nonatomic) _Bool sendPreviewIOSurface; // @synthesize sendPreviewIOSurface=_sendPreviewIOSurface;
-@property(copy, nonatomic) FigCaptureSmartStyle *smartStyle; // @synthesize smartStyle=_smartStyle;
-@property(nonatomic) _Bool smartStyleRenderingBypassed; // @synthesize smartStyleRenderingBypassed=_smartStyleRenderingBypassed;
-@property(nonatomic) _Bool smartStyleReversibilitySupported; // @synthesize smartStyleReversibilitySupported=_smartStyleReversibilitySupported;
-@property(copy, nonatomic) NSArray *spatialOverCaptureMovieLevelMetadata; // @synthesize spatialOverCaptureMovieLevelMetadata=_spatialOverCaptureMovieLevelMetadata;
-@property(copy, nonatomic) NSURL *spatialOverCaptureMovieURL; // @synthesize spatialOverCaptureMovieURL=_spatialOverCaptureMovieURL;
-@property(nonatomic) _Bool usesVirtualCaptureCard; // @synthesize usesVirtualCaptureCard=_usesVirtualCaptureCard;
-@property(nonatomic) _Bool videoMirrored; // @synthesize videoMirrored=_videoMirrored;
-@property(nonatomic) int videoOrientation; // @synthesize videoOrientation=_videoOrientation;
-@property(nonatomic) int videoRotationDegrees; // @synthesize videoRotationDegrees=_videoRotationDegrees;
-@property(nonatomic) _Bool videoSTFEnabled; // @synthesize videoSTFEnabled=_videoSTFEnabled;
 @property(copy, nonatomic) NSDictionary *videoSettings; // @synthesize videoSettings=_videoSettings;
 
 @end

@@ -8,8 +8,8 @@
 {
 }
 
-+ (unsigned long long);
-+ (id);
++ (unsigned long long);
++ (id)c;
 + (struct CGSize);
 + (struct CGRect);
 + (struct _NSRange);
@@ -28,7 +28,7 @@
 + (id);
 + (id);
 + (_Bool);
-+ (id);
++ (id)j@;
 + (void);
 + (void);
 + (void);

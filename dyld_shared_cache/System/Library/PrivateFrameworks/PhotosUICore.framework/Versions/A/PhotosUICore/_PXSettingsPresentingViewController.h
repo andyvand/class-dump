@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSViewController;
+@class NSViewController;
 
 @interface _PXSettingsPresentingViewController
 {
     NSViewController *_contentViewController;
-    NSString *_title;
 }
 
-- (id);
+- (id);
 - (void);
 - (void)0:8@"<PXPerson>"16@"NSArray"24@"NSArray"32 /* Error: Ran out of types for this method. */;
 - (void);

@@ -13,11 +13,10 @@
 
 - (id);
 - (id);
-- (id);
+- (id)ictionary",&,N,V_matchInfo;
 - (void)T4;
 
 // Remaining properties
-@property(readonly, nonatomic) GEOPDGuidesHomeResultFilterTypeConcept *conceptFilter; // @synthesize conceptFilter=_conceptFilter;
 @property(readonly, nonatomic) GEORelatedSearchSuggestion *searchSuggestion;
 
 @end

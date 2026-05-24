@@ -13,7 +13,7 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)B;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long status; // @synthesize status=_status;

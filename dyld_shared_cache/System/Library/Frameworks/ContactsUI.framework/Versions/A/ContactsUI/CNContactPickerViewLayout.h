@@ -7,7 +7,6 @@
 @interface CNContactPickerViewLayout
 {
     _Bool _groupListVisible;
-    _Bool _contactCardVisible;
 }
 
 + (id);
@@ -24,7 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isContactCardVisible) _Bool contactCardVisible; // @synthesize contactCardVisible=_contactCardVisible;
 @property(readonly, nonatomic, getter=isGroupListVisible) _Bool groupListVisible; // @synthesize groupListVisible=_groupListVisible;
 
 @end

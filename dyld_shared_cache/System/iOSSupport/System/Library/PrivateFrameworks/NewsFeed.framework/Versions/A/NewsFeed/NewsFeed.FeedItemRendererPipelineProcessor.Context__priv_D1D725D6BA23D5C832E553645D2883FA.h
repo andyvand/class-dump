@@ -7,11 +7,6 @@
 @interface NewsFeed.FeedItemRendererPipelineProcessor.Context__priv_D1D725D6BA23D5C832E553645D2883FA
 {
     id imageRequestOptions;
-    id prewarmedRequestCount;
-    id isLiveResizing;
-    id loadingGroup;
-    id supplementaryIndicesSeen;
-    id supplementaryIndexPathsSeen;
 }
 
 @end

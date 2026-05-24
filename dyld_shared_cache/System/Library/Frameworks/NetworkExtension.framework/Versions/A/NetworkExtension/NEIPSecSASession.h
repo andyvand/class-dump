@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSObject, NSString;
-@protocol NEIPSecSASessionDelegate, OS_dispatch_queue;
+@class NSString;
 
 @interface NEIPSecSASession
 {
     NSString *_name;
-    NSObject<NEIPSecSASessionDelegate> *_delegate;
-    NSMutableArray *_internalSecurityAssociations;
-    NSMutableArray *_larvalSAs;
-    unsigned long long _uniqueIndex;
-    NSObject<OS_dispatch_queue> *_internalDelegateQueue;
 }
 
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)@;
 - (void);
 - (_Bool);
 - (id);
@@ -31,18 +25,15 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)C[6c]q[112c]}32r^{sockaddr=CC[14c]}40@48B56;
 - (id);
 - (void);
 - (id);
 - (void);
-- (void)dler: /* Error: Ran out of types for this method. */;
+- (void)writeDatagrams:sentByFlowEndpoints:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property __weak NSObject<NEIPSecSASessionDelegate> *delegate; // @synthesize delegate=_delegate;
-@property(retain) NSObject<OS_dispatch_queue> *delegateQueue;
 @property(readonly) NSString *name;
-@property(readonly) NSArray *securityAssociations;
 
 @end
 

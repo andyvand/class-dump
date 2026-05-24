@@ -6,41 +6,37 @@
 
 #import <MediaPlayer/MPAsyncOperation.h>
 
-@class ITLibrary, MPModelLibraryRequest;
+@class MPModelLibraryRequest;
 
 __attribute__((visibility("hidden")))
 @interface MPModeliTunesLibraryRequestOperation : MPAsyncOperation
 {
     MPModelLibraryRequest *_request;
-    ITLibrary *_itLibrary;
-    CDUnknownBlockType _responseHandler;
 }
 
+- (void)PM;
+- (id);
+- (id);
+- (id)objectForeignServer;
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)atSetStatistics;
+- (id)rowcompareNe;
+- (id)tleSortGroupRef;
+- (unsigned long long)pubname;
+- (id)skipData;
+- (id)coalesce;
+- (id)_missingOk;
+- (id)_constraint;
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (void);
+- (void)c;
 - (void);
 - (void);
 - (void)R,N,V_queueEndAction;
 
 // Remaining properties
-@property(retain, nonatomic) ITLibrary *itLibrary; // @synthesize itLibrary=_itLibrary;
 @property(copy, nonatomic) MPModelLibraryRequest *request; // @synthesize request=_request;
-@property(copy, nonatomic) CDUnknownBlockType responseHandler; // @synthesize responseHandler=_responseHandler;
 
 @end
 

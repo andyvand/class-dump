@@ -7,28 +7,10 @@
 @interface CLPPoiTriggerEvent
 {
     unsigned long long _muid;
-    double _triggerTimestamp;
-    int _providerIdentifier;
-    int _triggerSubType;
-    int _triggerType;
-    struct {
-        unsigned int triggerTimestamp:1;
-        unsigned int providerIdentifier:1;
-        unsigned int triggerSubType:1;
-        unsigned int triggerType:1;
-    } _has;
 }
 
 
 // Remaining properties
-@property(nonatomic) _Bool hasProviderIdentifier;
-@property(nonatomic) _Bool hasTriggerSubType;
-@property(nonatomic) _Bool hasTriggerTimestamp;
-@property(nonatomic) _Bool hasTriggerType;
 @property(nonatomic) unsigned long long muid; // @synthesize muid=_muid;
-@property(nonatomic) int providerIdentifier; // @synthesize providerIdentifier=_providerIdentifier;
-@property(nonatomic) int triggerSubType; // @synthesize triggerSubType=_triggerSubType;
-@property(nonatomic) double triggerTimestamp; // @synthesize triggerTimestamp=_triggerTimestamp;
-@property(nonatomic) int triggerType; // @synthesize triggerType=_triggerType;
 @end
 

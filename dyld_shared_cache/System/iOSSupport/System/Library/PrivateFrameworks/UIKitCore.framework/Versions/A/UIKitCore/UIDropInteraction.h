@@ -4,46 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableSet, NSString, UIDropInteractionContextImpl, UIPasteConfiguration, UIView;
-@protocol UIDropInteractionDelegate, UIDropInteractionEffect, _UIDropInteractionOwning;
+@class NSMutableSet;
+@protocol _UIDropInteractionOwning;
 
 @interface UIDropInteraction
 {
     NSMutableSet *_activeDragGestureRecognizers;
-    NSMapTable *_enteredDropSessionByDraggingSession;
-    unsigned long long _potentialDragOperation;
-    struct {
-        unsigned int canHandleSession:1;
-        unsigned int sessionDidEnter:1;
-        unsigned int sessionDidUpdate:1;
-        unsigned int sessionDidExit:1;
-        unsigned int performDrop:1;
-        unsigned int concludeDrop:1;
-        unsigned int sessionDidEnd:1;
-        unsigned int previewForDroppingItem:1;
-        unsigned int willAnimateDropWithAnimator:1;
-        unsigned int dataOwnerForSession:1;
-        unsigned int delayedPreviewProviderForDroppingItem:1;
-        unsigned int customSpringAnimationBehaviorForDroppingItem:1;
-        unsigned int shouldPlayDropFeedbackForSession:1;
-    } _delegateImplements;
-    _Bool _allowsSimultaneousDropSessions;
-    _Bool _wantsDefaultVisualBehavior;
-    id <UIDropInteractionDelegate> _delegate;
-    id <_UIDropInteractionOwning> _owner;
-    UIDropInteractionContextImpl *_context;
-    UIPasteConfiguration *_pasteConfiguration;
-    id <UIDropInteractionEffect> _interactionEffect;
 }
 
 + (id);
 - (void);
-- (id);
+- (id):(id)arg1 withAllowAutomaticAppUpdates:(id)arg2 withAllowAutomaticAppUpdatesModification:(id)arg3;
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
-- (void);
+- (void)setSuppressNotifications:(id)arg1;
+- (void)r %p> HMHomeManagerDelegatePrivate homeManager:(_Bool)arg1 %{public}@ didAddHome:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (_Bool);
@@ -62,13 +38,13 @@
 - (void);
 - (_Bool)dPin"b1"hideScrollIndicators"b1"sendReloadFinished"b1"keepFirstResponderWhenInteractionDisabled"b1"keepsFirstResponderVisibleOnBoundsChange"b1"forceStaticHeadersAndFooters"b1"inInit"b1"inSetBackgroundColor"b1"isApplyingAppearanceDefaults"b1"usingCustomBackgroundColor"b1"usingCustomBackgroundView"b1"usingCustomSeparatorColor"b1"usingCustomSeparatorEffect"b1"usingCustomSeparatorStyle"b1"usingEffectsBackgroundView"b1"rowDataIndexPathsAreValidForCurrentCells"b1"committingDelete"b1"didReloadWhileCommittingDelete"b1"editingForSwipeDelete"b1"ignorePinnedTableHeaderUpdates"b1"separatorsDrawAsOverlay"b1"swipeToDeleteActionIsWaitingForCompletionHandler"b1"swipeToDeleteEncounteredDelete"b1"drawsSeparatorAtTopOfSections"b1"separatorBackdropOverlayBlendMode"b3"separatorsDrawInVibrantLightMode"b1"wrapCells"b1"hasAddedContentView"b1"showingIndexIndicatorOverlay"b1"showingIndexSelectionOverlay"b1"loadingOffscreenViews"b1"externalScreenHasTouch"b1"ignoringWheelEventsOnIndexOverlayIndicator"b1"deleteCancelationAnimationInProgress"b1"swipeDeletionAnimationInProgress"b1"manuallyManagesSwipeUI"b1"allowsReorderingWhenNotEditing"b1"needsDeleteConfirmationCleanup"b1"resetContentOffsetAfterLayout"b1"adjustContentOffsetAfterLayout"b1"cellsSelfSize"b1"usingCustomLayoutMargins"b1"settingDefaultLayoutMargins"b1"isIdleObserverRegistered"b1"deallocating"b1"updateFocusAfterItemAnimations"b1"updateFocusAfterLoadingCells"b1"updateFocusAfterLoadingCellsScrollIfNecessary"b1"remembersLastFocusedIndexPath"b1"cellLayoutMarginsFollowReadableWidth"b1"sectionContentInsetFollowsLayoutMargins"b1"separatorInsetIsRelativeToCellEdges"b1"usingKnobToChangeSectionIndex"b1"prefetchingEnabled"b1"prefetchDataSourceWasNonNil"b1"prefetchDataSourcePrefetchRowsAtIndexPaths"b1"prefetchDataSourceCancelPrefetchingForRowsAtIndexPaths"b1"ignoreEditingChange"b1"isSelfSizingShadowCell"b1"clientSetDragInteractionEnabled"b1"dragInteractionEnabled"b1"insetsContentViewsToSafeArea"b1"generatingDescriptionWithDataSource"b1"isPerformingShadowUpdates"b1"isPerformingRevertingShadowUpdates"b1"dataSourceIsDiffableDataSource"b1"isPerformingInternalBatchUpdates"b1"isUsingPresentationValues"b1"isUpdatingVisibleCells"b1"scrollFirstResponderCellVisibleAfterVisibleCellsUpdate"b1"ignoreCopyFilterForTableAnimations"b1"purgeReuseQueuesAfterReloadData"b1"disableReuseQueuePurgeOnTextSizeChanges"b1"needsFocusConfigurationUpdateForContainsFocusChange"b1"scheduledUpdateFocusConfigurationAfterVisibleCellsUpdate"b1"useUnifiedSelectionBehavior"b1"performingInternalReloadData"b1"selfSizingInvalidation"b2"shouldAnimateNextRecomputeHeightsForInvalidatedElements"b1"scheduledRecomputeHeightsForInvalidatedElements"b1"selfSizingInvalidationUpdateCountForCurrentCommit"b2"useLegacySectionHeaderFooterPinningBehavior"b1"disableSectionHeaderFooterComplexCommitSignaling"b1"isResigningFirstResponderDuringReloadData"b1"isSelectingRowAtIndexPath"b1};
 - (void)rigin:(id)arg1;
-- (id)ration: /* Error: Ran out of types for this method. */;
-- (id)der:(id)arg1;
-- (void)HasPrompt;
-- (id)terfaceStyleForGrid;
+- (id)setShouldUseAcceleration: /* Error: Ran out of types for this method. */;
+- (id)performActionWihSender:(id)arg1;
+- (void)metricsHasPrompt;
+- (id)__userInterfaceStyleForGrid;
 - (id)"NSString",&,D,N;
 - (id)ntConfigurationIdentifier;
-- (void)BarHoverRegionAction;
+- (void)_UIStatusBarHoverRegionAction;
 - (_Bool);
 - (id)ð;
 - (void)¤;
@@ -80,21 +56,7 @@
 - (id)';
 
 // Remaining properties
-@property(nonatomic) _Bool allowsSimultaneousDropSessions; // @synthesize allowsSimultaneousDropSessions=_allowsSimultaneousDropSessions;
-@property(retain, nonatomic) UIDropInteractionContextImpl *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) __weak id <UIDropInteractionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <UIDropInteractionEffect> interactionEffect; // @synthesize interactionEffect=_interactionEffect;
 @property(nonatomic) __weak id <_UIDropInteractionOwning> owner; // @synthesize owner=_owner;
-@property(readonly, copy, nonatomic, getter=_pasteConfiguration) UIPasteConfiguration *pasteConfiguration; // @synthesize pasteConfiguration=_pasteConfiguration;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) __weak UIView *view;
-@property(nonatomic, getter=_wantsDefaultVisualBehavior, setter=_setWantsDefaultVisualBehavior:) _Bool wantsDefaultVisualBehavior; // @synthesize wantsDefaultVisualBehavior=_wantsDefaultVisualBehavior;
 
 @end
 

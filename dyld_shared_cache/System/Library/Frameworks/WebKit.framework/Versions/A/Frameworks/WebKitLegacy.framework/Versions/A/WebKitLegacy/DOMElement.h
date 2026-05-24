@@ -6,7 +6,7 @@
 
 #import <WebKitLegacy/DOMNode.h>
 
-@class DOMCSSStyleDeclaration, NSString;
+@class NSString;
 
 @interface DOMElement : DOMNode
 {
@@ -15,29 +15,6 @@
 + (id);
 
 // Remaining properties
-@property(readonly) unsigned int childElementCount;
-@property(copy) NSString *className;
-@property(readonly) int clientHeight;
-@property(readonly) int clientLeft;
-@property(readonly) int clientTop;
-@property(readonly) int clientWidth;
-@property(readonly) DOMElement *firstElementChild;
-@property(copy) NSString *innerHTML;
-@property(readonly, copy) NSString *innerText;
-@property(readonly) DOMElement *lastElementChild;
-@property(readonly) DOMElement *nextElementSibling;
-@property(readonly) int offsetHeight;
-@property(readonly) int offsetLeft;
-@property(readonly) DOMElement *offsetParent;
-@property(readonly) int offsetTop;
-@property(readonly) int offsetWidth;
-@property(copy) NSString *outerHTML;
-@property(readonly) DOMElement *previousElementSibling;
-@property(readonly) int scrollHeight;
-@property int scrollLeft;
-@property int scrollTop;
-@property(readonly) int scrollWidth;
-@property(readonly) DOMCSSStyleDeclaration *style;
 @property(readonly, copy) NSString *tagName;
 
 @end

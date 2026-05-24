@@ -13,18 +13,19 @@
 
 + (Class);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)I	;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)startInquiryWithOptions:(id)arg1 classicPeerDiscovered: /* Error: Ran out of types for this method. */;
+- (void)start
+;
 - (id);
 - (id);
 - (void)reamCompounding;

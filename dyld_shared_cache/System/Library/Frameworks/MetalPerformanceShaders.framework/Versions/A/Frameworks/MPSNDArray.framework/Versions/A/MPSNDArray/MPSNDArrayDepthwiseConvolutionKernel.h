@@ -9,12 +9,6 @@
 @interface MPSNDArrayDepthwiseConvolutionKernel : MPSNDArrayBinaryKernel
 {
     int _kernelType;
-    int _paddingMode;
-    float _paddingConstant;
-    unsigned long long _channelAxis;
-    struct MPSNDArrayConv3dOffsets_s _windowOffsets;
-    struct MPSNDArrayConv3dSizes_s _convStrides;
-    struct MPSNDArrayConv3dSizes_s _convDilationRates;
 }
 
 + (_Bool);
@@ -40,19 +34,13 @@
 - (_Bool);
 - (void);
 - (float);
-- (id);
+- (id)RY;
 - (id);
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long channelAxis; // @synthesize channelAxis=_channelAxis;
-@property(nonatomic) struct MPSNDArrayConv3dSizes_s convDilationRates; // @synthesize convDilationRates=_convDilationRates;
-@property(nonatomic) struct MPSNDArrayConv3dSizes_s convStrides; // @synthesize convStrides=_convStrides;
-@property(nonatomic) int kernelType; // @synthesize kernelType=_kernelType;
-@property(nonatomic) float paddingConstant; // @synthesize paddingConstant=_paddingConstant;
-@property(nonatomic) int paddingMode; // @synthesize paddingMode=_paddingMode;
 @property(nonatomic) struct MPSNDArrayConv3dOffsets_s windowOffsets; // @synthesize windowOffsets=_windowOffsets;
 
 @end

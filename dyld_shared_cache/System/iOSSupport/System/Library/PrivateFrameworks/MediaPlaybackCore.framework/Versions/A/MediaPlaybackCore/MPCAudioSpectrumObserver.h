@@ -7,10 +7,6 @@
 @interface MPCAudioSpectrumObserver
 {
     struct _MPCAudioFrequencyBandInternal *_bands;
-    long long _bandsStorageSize;
-    float _powerLevel;
-    long long _numberOfBands;
-    CDUnknownBlockType _onUpdate;
 }
 
 + (id);
@@ -30,8 +26,6 @@
 - (void)] - item:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long numberOfBands; // @synthesize numberOfBands=_numberOfBands;
-@property(copy, nonatomic) CDUnknownBlockType onUpdate; // @synthesize onUpdate=_onUpdate;
 @property(nonatomic) float powerLevel; // @synthesize powerLevel=_powerLevel;
 
 @end

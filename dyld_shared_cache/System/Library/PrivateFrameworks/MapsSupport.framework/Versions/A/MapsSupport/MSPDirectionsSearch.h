@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOStorageRouteRequestStorage, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface MSPDirectionsSearch
 {
     PBUnknownFields *_unknownFields;
-    GEOStorageRouteRequestStorage *_routeRequestStorage;
-    _Bool _navigationInterrupted;
-    struct {
-        unsigned int navigationInterrupted:1;
-    } _has;
 }
 
 - (void);
@@ -36,11 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasNavigationInterrupted;
 @property(readonly, nonatomic) _Bool hasRouteRequestStorage;
-@property(nonatomic) _Bool navigationInterrupted; // @synthesize navigationInterrupted=_navigationInterrupted;
-@property(retain, nonatomic) GEOStorageRouteRequestStorage *routeRequestStorage; // @synthesize routeRequestStorage=_routeRequestStorage;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

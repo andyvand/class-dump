@@ -11,22 +11,20 @@
 @interface ML3UpdateSiriIndexOperation : ML3DatabaseOperation
 {
     NSNumber *_updatedValidityRevisionNumber;
-    NSMutableArray *_donators;
 }
 
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (id)_clearPreferredCropRect;
+- (void)_cancelAllDeferredPrewarming;
+- (id)urceNonThumbnailsMaxResourcesPerFetch;
+- (_Bool)ions;
+- (_Bool)ibraryBundle;
+- (_Bool)"PLJournalFile",R,N;
+- (void)reportProgress:(CDUnknownBlockType)arg1;
 - (unsigned long long);
 - (void)NULL(new.purchase_history_redownload_params, '') != '' AND new.purchase_history_id != 0 THEN 100 ELSE ( CASE WHEN new.subscription_store_item_id != 0 AND new.is_subscription AND new.cloud_asset_available THEN 50 ELSE ( CASE WHEN new.sync_redownload_params == 'redownload' AND new.sync_id != 0 THEN 20 ELSE ( CASE WHEN new.sync_redownload_params == 'local' AND new.sync_id != 0 THEN 10 ELSE 0 END) END) END) END) END) END) WHERE item_pid = new.item_pid; END;;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *donators; // @synthesize donators=_donators;
-@property(retain, nonatomic) NSNumber *updatedValidityRevisionNumber; // @synthesize updatedValidityRevisionNumber=_updatedValidityRevisionNumber;
 
 @end
 

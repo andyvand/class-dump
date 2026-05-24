@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSLock;
 
 @interface RTTServer
 {
     NSLock *_dataResponseBlocksLock;
-    NSMutableDictionary *_databaseResponseBlocks;
-    NSObject<OS_dispatch_queue> *_commonRequestQueue;
-    NSObject<OS_dispatch_queue> *_messageProcessingQueue;
-    CDUnknownBlockType _actionCompletionBlock;
 }
 
 + (id);
@@ -25,19 +20,19 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);

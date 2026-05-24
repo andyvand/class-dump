@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface SASRecordingInfo : AceObject
 {
@@ -15,14 +15,14 @@
 + (id);
 + (id);
 - (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)ul;
 - (void);
 - (id);
 - (id);
@@ -41,23 +41,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *activationAudioAlertDuration;
-@property(copy, nonatomic) NSNumber *activationAudioAlertStartTime;
-@property(copy, nonatomic) NSNumber *activationHapticAlertDuration;
-@property(copy, nonatomic) NSNumber *activationHapticAlertStartTime;
-@property(copy, nonatomic) NSNumber *activationTime;
-@property(copy, nonatomic) NSString *alertType;
-@property(copy, nonatomic) NSNumber *beamFormingStartTime;
-@property(copy, nonatomic) NSNumber *buttonDowntime;
-@property(copy, nonatomic) NSNumber *buttonUpTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool ringerSwitchOff;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool zeroLatencyLaunch;
 
 @end
 

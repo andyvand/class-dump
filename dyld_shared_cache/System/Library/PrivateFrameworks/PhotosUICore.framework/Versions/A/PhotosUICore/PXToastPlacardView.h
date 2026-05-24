@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface PXToastPlacardView
 {
     _Bool _didLoad;
-    NSMutableArray *_actions;
-    NSString *_message;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (id)taSourceSection;
+- (id)_PXCollectionsDataSourceSection;
 - (void)RootViewControllerFactory;
 
 // Remaining properties

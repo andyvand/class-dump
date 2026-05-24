@@ -7,20 +7,16 @@
 @interface TSUBasicProgressStorage
 {
     double mValue;
-    double mMaxValue;
-    _Bool mIndeterminate;
 }
 
 - (void);
-- (void);
-- (double);
-- (void);
+- (void)F~;
+- (double);
+- (void)newCanvasRevealedVertically;
 - (_Bool);
 - (double);
 
 // Remaining properties
-@property(getter=isIndeterminate) _Bool indeterminate; // @synthesize indeterminate=mIndeterminate;
-@property double maxValue; // @synthesize maxValue=mMaxValue;
 @property double value; // @synthesize value=mValue;
 
 @end

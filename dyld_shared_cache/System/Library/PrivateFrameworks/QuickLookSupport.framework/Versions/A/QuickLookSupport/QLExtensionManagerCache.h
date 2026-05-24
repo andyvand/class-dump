@@ -4,58 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMapTable, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
+@class NSDictionary, NSObject;
+@protocol OS_dispatch_queue;
 
 @interface QLExtensionManagerCache
 {
     NSObject<OS_dispatch_queue> *_accessMatchingExtensionsQueue;
-    NSObject<OS_dispatch_queue> *_waitForExtensionListQueue;
-    NSObject<OS_dispatch_queue> *_queryCacheQueue;
-    _Bool _isMatchingExtensions;
-    NSDictionary *_matchingAttributes;
-    id _matchingContext;
-    NSMutableDictionary *_matchingExtensions;
-    NSMapTable *_qlExtensions;
-    NSMutableDictionary *_queryCache;
-    NSObject<OS_dispatch_semaphore> *_waitForExtensionsSemaphore;
 }
 
-+ (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
++ (id)g long>, Value = WTF:(id)arg1:(_Bool)arg2 KeyValuePair<WTF:(id)arg3:ObjectIdentifierGeneric<WebKit::WebExtensionContextIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::WeakPtr<WebKit::WebExtensionContextProxy>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionContextIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::WeakPtr<WebKit::WebExtensionContextProxy>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionContextIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionContextIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::WeakPtr<WebKit::WebExtensionContextProxy>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionContextIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id)h_constness_t<Source, Target> &WTF::downcast(Source &) [Target = API::String, Source = API::Object] /* Error: Ran out of types for this method. */;
+- (void)owncast(Source &) [Target = API:(id)arg1:Double, Source = API::Object] /* Error: Ran out of types for this method. */;
+- (void), Source = API:(id)arg1:Object] /* Error: Ran out of types for this method. */;
+- (void)&) [Target = API:(id)arg1:Dictionary, Source = API::Object] /* Error: Ran out of types for this method. */;
+- (void)whiteOnBlack;
+- (void)NSTextViewAllowsDowngradeToLayoutManager;
+- (id)e_data_s=I(?=b32I){os_state_data_decoder_s=[64c][64c]}[64c][0C]}16@?0^{os_state_hints_s=I*II}8;
+- (id)or<uint32_t> &);
+- (id)its = WTF::HashTraits<WebCore::ClientOrigin>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (_Bool)HashMap<WebCore::ClientOrigin, WTF::HashMap<WTF::String, WTF::String>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WebCore::ClientOrigin>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id)nst ValueType &) [Key = WebCore:(id)arg1:ClientOrigin, Value = WTF::KeyValuePair<WebCore::ClientOrigin, WTF::HashMap<WTF::String, WTF::String>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WebCore::ClientOrigin, WTF::HashMap<WTF::String, WTF::String>>>, HashFunctions = WTF::DefaultHash<WebCore::ClientOrigin>, Traits = WTF::HashMap<WebCore::ClientOrigin, WTF::HashMap<WTF::String, WTF::String>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WebCore::ClientOrigin>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (_Bool)ntOrigin, WTF:(id)arg1:HashMap<WTF::String, WTF::String>>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WebCore::ClientOrigin, WTF::HashMap<WTF::String, WTF::String>>>, WTF::DefaultHash<WebCore::ClientOrigin>, WTF::HashMap<WebCore::ClientOrigin, WTF::HashMap<WTF::String, WTF::String>>::KeyValuePairTraits, WTF::HashTraits<WebCore::ClientOrigin>>::validateKey(const ValueType &) [Key = WebCore::ClientOrigin, Value = WTF::KeyValuePair<WebCore::ClientOrigin, WTF::HashMap<WTF::String, WTF::String>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WebCore::ClientOrigin, WTF::HashMap<WTF::String, WTF::String>>>, HashFunctions = WTF::DefaultHash<WebCore::ClientOrigin>, Traits = WTF::HashMap<WebCore::ClientOrigin, WTF::HashMap<WTF::String, WTF::String>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WebCore::ClientOrigin>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id):(id)arg1 ProcessIdentifierType, WTF:(_Bool)arg2:(id)arg3 ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF:(_Bool)arg4:FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id), unsigned long long>>, KeyTraits = WTF:(id)arg1:(_Bool)arg2 HashTraits<WTF:(id)arg3:ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)sr/local/include/wtf/StdLibExtras.h;
+- (_Bool)/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.Internal.sdk/usr/local/include/wtf/StdLibExtras.h;
+- (void)uint64_t>, unsigned long long>>, Malloc = WTF:(id)arg1:FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
-- (void);
+- (id);
+- (void)k;
+- (void)(;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool isMatchingExtensions; // @synthesize isMatchingExtensions=_isMatchingExtensions;
 @property(retain, nonatomic) NSDictionary *matchingAttributes; // @synthesize matchingAttributes=_matchingAttributes;
-@property(retain, nonatomic) id matchingContext; // @synthesize matchingContext=_matchingContext;
-@property(retain, nonatomic) NSMutableDictionary *matchingExtensions; // @synthesize matchingExtensions=_matchingExtensions;
-@property(retain, nonatomic) NSMapTable *qlExtensions; // @synthesize qlExtensions=_qlExtensions;
-@property(retain, nonatomic) NSMutableDictionary *queryCache; // @synthesize queryCache=_queryCache;
-@property(retain) NSObject<OS_dispatch_semaphore> *waitForExtensionsSemaphore; // @synthesize waitForExtensionsSemaphore=_waitForExtensionsSemaphore;
 
 @end
 

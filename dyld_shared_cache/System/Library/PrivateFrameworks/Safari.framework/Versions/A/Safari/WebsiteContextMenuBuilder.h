@@ -4,49 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrowserWindowController, NSMenu, NSString;
-
 __attribute__((visibility("hidden")))
 @interface WebsiteContextMenuBuilder
 {
     _Bool _isFolder;
-    _Bool _usesPrivateBrowsing;
-    _Bool _shouldAutomaticallyOpenInTabs;
-    _Bool _canOpenInTabs;
-    _Bool _selectingMultipleRows;
-    _Bool _addFavoriteButtonStyleOptions;
-    _Bool _bookmarkTitleIsHidden;
-    _Bool _showingPreviewText;
-    _Bool _shouldStayInCurrentTabGroup;
-    NSMenu *_moveToBookmarkFolderPickerSubmenu;
-    CDUnknownBlockType _openInTabsHandler;
-    CDUnknownBlockType _replaceTabsHandler;
-    CDUnknownBlockType _cleanUpByNameHandler;
-    CDUnknownBlockType _cleanUpByAddressHandler;
-    unsigned long long _numberOfChildren;
-    CDUnknownBlockType _openInNewTabHandler;
-    CDUnknownBlockType _openInNewWindowHandler;
-    CDUnknownBlockType _addToFavoritesHandler;
-    unsigned long long _sourceForSuggestLessFromDataSourceItem;
-    CDUnknownBlockType _suggestLessFromDataSourceHandler;
-    CDUnknownBlockType _dontSuggestFromWebsiteHandler;
-    CDUnknownBlockType _addToReadingListHandler;
-    CDUnknownBlockType _renameHandler;
-    CDUnknownBlockType _showFolderContentsHandler;
-    CDUnknownBlockType _editPreviewTextHandler;
-    CDUnknownBlockType _editAddressHandler;
-    CDUnknownBlockType _automaticallyReplaceTabsHandler;
-    CDUnknownBlockType _showInFolderHandler;
-    CDUnknownBlockType _copyHandler;
-    CDUnknownBlockType _deleteHandler;
-    CDUnknownBlockType _removeLinkHandler;
-    CDUnknownBlockType _fileFrequentlyVisitedSitesRadarHandler;
-    CDUnknownBlockType _createFolderHandler;
-    CDUnknownBlockType _showTitleHandler;
-    NSMenu *_debugMenu;
-    BrowserWindowController *_browserWindowController;
-    CDUnknownBlockType _tabGroupMenuHandler;
-    NSString *_preferredTabGroupTitle;
 }
 
 - (CDUnknownBlockType);
@@ -55,8 +16,15 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
+- (_Bool);
 - (_Bool);
-- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)A;
 - (void);
 - (void);
 - (void);
@@ -66,14 +34,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -97,7 +58,7 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (id);
+- (id);
 - (_Bool);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
@@ -106,19 +67,19 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (_Bool);
 - (id);
 - (id);
 - (id);
+- (_Bool);
+- (CDUnknownBlockType);
+- (CDUnknownBlockType);
+- (_Bool);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -126,11 +87,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)*E;
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
@@ -142,44 +103,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)ì;
 
 // Remaining properties
-@property(nonatomic) _Bool addFavoriteButtonStyleOptions; // @synthesize addFavoriteButtonStyleOptions=_addFavoriteButtonStyleOptions;
-@property(copy, nonatomic) CDUnknownBlockType addToFavoritesHandler; // @synthesize addToFavoritesHandler=_addToFavoritesHandler;
-@property(copy, nonatomic) CDUnknownBlockType addToReadingListHandler; // @synthesize addToReadingListHandler=_addToReadingListHandler;
-@property(copy, nonatomic) CDUnknownBlockType automaticallyReplaceTabsHandler; // @synthesize automaticallyReplaceTabsHandler=_automaticallyReplaceTabsHandler;
-@property(nonatomic) _Bool bookmarkTitleIsHidden; // @synthesize bookmarkTitleIsHidden=_bookmarkTitleIsHidden;
-@property(retain, nonatomic) BrowserWindowController *browserWindowController; // @synthesize browserWindowController=_browserWindowController;
-@property(nonatomic) _Bool canOpenInTabs; // @synthesize canOpenInTabs=_canOpenInTabs;
-@property(copy, nonatomic) CDUnknownBlockType cleanUpByAddressHandler; // @synthesize cleanUpByAddressHandler=_cleanUpByAddressHandler;
-@property(copy, nonatomic) CDUnknownBlockType cleanUpByNameHandler; // @synthesize cleanUpByNameHandler=_cleanUpByNameHandler;
-@property(copy, nonatomic) CDUnknownBlockType copyHandler; // @synthesize copyHandler=_copyHandler;
-@property(copy, nonatomic) CDUnknownBlockType createFolderHandler; // @synthesize createFolderHandler=_createFolderHandler;
-@property(retain, nonatomic) NSMenu *debugMenu; // @synthesize debugMenu=_debugMenu;
-@property(copy, nonatomic) CDUnknownBlockType deleteHandler; // @synthesize deleteHandler=_deleteHandler;
-@property(copy, nonatomic) CDUnknownBlockType dontSuggestFromWebsiteHandler; // @synthesize dontSuggestFromWebsiteHandler=_dontSuggestFromWebsiteHandler;
-@property(copy, nonatomic) CDUnknownBlockType editAddressHandler; // @synthesize editAddressHandler=_editAddressHandler;
-@property(copy, nonatomic) CDUnknownBlockType editPreviewTextHandler; // @synthesize editPreviewTextHandler=_editPreviewTextHandler;
-@property(copy, nonatomic) CDUnknownBlockType fileFrequentlyVisitedSitesRadarHandler; // @synthesize fileFrequentlyVisitedSitesRadarHandler=_fileFrequentlyVisitedSitesRadarHandler;
 @property(nonatomic) _Bool isFolder; // @synthesize isFolder=_isFolder;
-@property(retain, nonatomic) NSMenu *moveToBookmarkFolderPickerSubmenu; // @synthesize moveToBookmarkFolderPickerSubmenu=_moveToBookmarkFolderPickerSubmenu;
-@property(nonatomic) unsigned long long numberOfChildren; // @synthesize numberOfChildren=_numberOfChildren;
-@property(copy, nonatomic) CDUnknownBlockType openInNewTabHandler; // @synthesize openInNewTabHandler=_openInNewTabHandler;
-@property(copy, nonatomic) CDUnknownBlockType openInNewWindowHandler; // @synthesize openInNewWindowHandler=_openInNewWindowHandler;
-@property(copy, nonatomic) CDUnknownBlockType openInTabsHandler; // @synthesize openInTabsHandler=_openInTabsHandler;
-@property(copy, nonatomic) NSString *preferredTabGroupTitle; // @synthesize preferredTabGroupTitle=_preferredTabGroupTitle;
-@property(copy, nonatomic) CDUnknownBlockType removeLinkHandler; // @synthesize removeLinkHandler=_removeLinkHandler;
-@property(copy, nonatomic) CDUnknownBlockType renameHandler; // @synthesize renameHandler=_renameHandler;
-@property(copy, nonatomic) CDUnknownBlockType replaceTabsHandler; // @synthesize replaceTabsHandler=_replaceTabsHandler;
-@property(nonatomic) _Bool selectingMultipleRows; // @synthesize selectingMultipleRows=_selectingMultipleRows;
-@property(nonatomic) _Bool shouldAutomaticallyOpenInTabs; // @synthesize shouldAutomaticallyOpenInTabs=_shouldAutomaticallyOpenInTabs;
-@property(nonatomic) _Bool shouldStayInCurrentTabGroup; // @synthesize shouldStayInCurrentTabGroup=_shouldStayInCurrentTabGroup;
-@property(copy, nonatomic) CDUnknownBlockType showFolderContentsHandler; // @synthesize showFolderContentsHandler=_showFolderContentsHandler;
-@property(copy, nonatomic) CDUnknownBlockType showInFolderHandler; // @synthesize showInFolderHandler=_showInFolderHandler;
-@property(copy, nonatomic) CDUnknownBlockType showTitleHandler; // @synthesize showTitleHandler=_showTitleHandler;
-@property(nonatomic, getter=isShowingPreviewText) _Bool showingPreviewText; // @synthesize showingPreviewText=_showingPreviewText;
-@property(nonatomic) unsigned long long sourceForSuggestLessFromDataSourceItem; // @synthesize sourceForSuggestLessFromDataSourceItem=_sourceForSuggestLessFromDataSourceItem;
-@property(copy, nonatomic) CDUnknownBlockType suggestLessFromDataSourceHandler; // @synthesize suggestLessFromDataSourceHandler=_suggestLessFromDataSourceHandler;
-@property(copy, nonatomic) CDUnknownBlockType tabGroupMenuHandler; // @synthesize tabGroupMenuHandler=_tabGroupMenuHandler;
-@property(nonatomic) _Bool usesPrivateBrowsing; // @synthesize usesPrivateBrowsing=_usesPrivateBrowsing;
 
 @end
 

@@ -19,7 +19,7 @@
 - (struct MPSRegion);
 - (id);
 - (id);
-- (void);
+- (void)initWithExtension:(id)arg1 queue:containerPath:containerID:supportedFileTypes:extensionLabel:isAppleCodeSigned: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id)0L§®?;
 

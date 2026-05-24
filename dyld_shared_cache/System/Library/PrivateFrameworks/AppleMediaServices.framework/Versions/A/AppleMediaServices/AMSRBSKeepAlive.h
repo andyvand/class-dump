@@ -10,14 +10,12 @@ __attribute__((visibility("hidden")))
 @interface AMSRBSKeepAlive
 {
     id keepAlive;
-    void name;
-    long long style;
 }
 
 + (void);
++ (id)Golden Blond;
 + (id);
-+ (id);
-+ (void);
++ (void)overrideOption;
 - (long long);
 - (id);
 - (id);
@@ -27,7 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *name;
-@property(nonatomic, readonly) long long style; // @synthesize style;
 
 @end
 

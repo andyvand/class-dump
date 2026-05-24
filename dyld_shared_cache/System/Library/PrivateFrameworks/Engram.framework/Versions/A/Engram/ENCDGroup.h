@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ENGroupID, ENStableGroupID, NSData;
 @protocol ENCypher;
 
 __attribute__((visibility("hidden")))
@@ -21,10 +20,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) id <ENCypher> cypher; // @dynamic cypher;
-@property(retain, nonatomic) ENGroupID *groupID; // @dynamic groupID;
-@property(nonatomic) long long groupIDGeneration; // @dynamic groupIDGeneration;
-@property(retain, nonatomic) NSData *sharedApplicationData; // @dynamic sharedApplicationData;
-@property(retain, nonatomic) ENStableGroupID *stableGroupID; // @dynamic stableGroupID;
 
 @end
 

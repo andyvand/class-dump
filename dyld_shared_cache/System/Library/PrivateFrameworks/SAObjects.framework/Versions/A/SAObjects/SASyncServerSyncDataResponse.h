@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SASyncServerSyncDataResponse : SABaseClientBoundCommand
 {
@@ -23,21 +23,15 @@
 - (void);
 - (id);
 - (void);
+- (id)+;
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)`;
+- (_Bool);
 - (id)´;
-- (void)nderlineStyle;
+- (void)UnderlineStyle;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *assistantId;
-@property(nonatomic) long long batchNumber;
-@property(copy, nonatomic) NSArray *dataBatch;
-@property(nonatomic) _Bool lastBatch;
-@property(copy, nonatomic) NSString *responseCode;
-@property(copy, nonatomic) NSString *serverGeneration;
-@property(copy, nonatomic) NSString *syncType;
 
 @end
 

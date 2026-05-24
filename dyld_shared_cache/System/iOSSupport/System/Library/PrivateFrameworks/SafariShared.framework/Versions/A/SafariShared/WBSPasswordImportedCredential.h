@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface WBSPasswordImportedCredential
 {
     NSString *_user;
-    NSString *_password;
-    NSURL *_url;
-    NSURL *_otpAuthURL;
-    NSString *_notesEntry;
-    NSString *_title;
-    unsigned long long _lineNumberFromSourceFile;
 }
 
-+ (_Bool);
++ (_Bool)_;
 - (id);
 - (id);
 - (id);
@@ -40,12 +34,6 @@
 0; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long lineNumberFromSourceFile; // @synthesize lineNumberFromSourceFile=_lineNumberFromSourceFile;
-@property(readonly, copy, nonatomic) NSString *notesEntry; // @synthesize notesEntry=_notesEntry;
-@property(readonly, copy, nonatomic) NSURL *otpAuthURL; // @synthesize otpAuthURL=_otpAuthURL;
-@property(readonly, copy, nonatomic) NSString *password; // @synthesize password=_password;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 @property(readonly, copy, nonatomic) NSString *user; // @synthesize user=_user;
 
 @end

@@ -6,49 +6,33 @@
 
 #import <AppKit/NSAnimation.h>
 
-@class CABasicAnimation, CAKeyframeAnimation, NSWindow;
+@class NSWindow;
 
 __attribute__((visibility("hidden")))
 @interface NSDocumentRevisionsWindowTransformAnimation : NSAnimation
 {
     NSWindow *_window;
-    struct CGRect _startFrame;
-    struct CGRect _targetFrame;
-    CABasicAnimation *_frameAnimation;
-    struct CGPoint _startTranslate;
-    struct CGPoint _targetTranslate;
-    CABasicAnimation *_translateAnimation;
-    struct CGSize _startScale;
-    struct CGSize _targetScale;
-    CAKeyframeAnimation *_scaleAnimation;
-    struct CGSize _startSize;
-    struct CGSize _targetSize;
-    CABasicAnimation *_sizeAnimation;
-    _Bool _hop;
-    double _fadeOutDuration;
-    _Bool _prefersWindowTransform;
-    CDUnknownBlockType _completionHandler;
 }
 
 + (void);
 - (struct CGPoint);
-- (struct CGSize);
+- (struct CGSize);
+- (void)- Invalid mmap trie size - mem size %zu + offset %d != file size %lld;
+- (void)ion;
 - (void);
+- (struct CGSize);
+- (id)td:(unsigned long long)arg1:(CDUnknownBlockType)arg2 string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_requestHostToConnectionKey"{map<std::string, std::shared_ptr<__CoalescingConnectionKey>, std::less<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__tree_"{__tree<std::__value_type<std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::__map_value_compare<std::string, std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllRequestHosts"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (id)set_connectionCacheMinimumFastLanePriority:(id)arg1;
+- (id)set_connectionCacheCellPurgeTimeout:(id)arg1;
+- (struct CGRect)_localAddressAndPort;
+- (double));
+- (void)x;
+- (void)@8Q16^B24;
+- (_Bool)e;
+- (id).;
 - (void);
-- (void);
-- (struct CGSize);
-- (id);
-- (id);
-- (id);
-- (struct CGRect);
-- (double);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (CDUnknownBlockType);
-- (void);
+- (CDUnknownBlockType)@;
+- (void);
 - (id);
 - (id);
 - (void);
@@ -57,7 +41,7 @@ __attribute__((visibility("hidden")))
 - (struct CGPoint);
 - (void)indowManagerWindow self]];
 - (void)tangle-h;
-- (void)ageColorSyncProfileData;
+- (void)NSImageColorSyncProfileData;
 - (void)ÿA;
 
 // Remaining properties

@@ -6,22 +6,19 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface POMMESSchemaPOMMESResourceDownloadFailed : SISchemaInstrumentationMessage
 {
     unsigned int _errorCode;
-    CDStruct_70a7dc3e _has;
 }
 
 - (void);
 - (id);
 - (_Bool);
+- (void)APSRTPPassThroughJitterBufferCreate;
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)plemented at /AppleInternal/Library/BuildRoots/4~CNq7ugDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDRestoreApplicationsRequestOptions_macOS.m:24 :Not supported on macOS /* Error: Ran out of types for this method. */;
+- (_Bool)f5;
+- (_Bool)led off the database thread because it may lead to threading issues and database corruption.;
 - (id);
 - (id);
 - (id)_sampledAudioFileEnqueueFailed;
@@ -31,8 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned int errorCode; // @synthesize errorCode=_errorCode;
-@property(nonatomic) _Bool hasErrorCode;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

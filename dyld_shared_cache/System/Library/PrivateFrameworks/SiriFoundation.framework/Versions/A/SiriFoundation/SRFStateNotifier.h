@@ -19,9 +19,9 @@
 + (void);
 + (void);
 + (void);
-+ (id);
++ (id);
 - (void);
-- (void);
+- (void)a;
 
 @end
 

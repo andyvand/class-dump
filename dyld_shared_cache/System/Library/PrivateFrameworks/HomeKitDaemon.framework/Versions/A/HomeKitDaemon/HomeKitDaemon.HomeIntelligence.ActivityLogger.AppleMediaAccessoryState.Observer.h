@@ -7,14 +7,6 @@
 @interface HomeKitDaemon.HomeIntelligence.ActivityLogger.AppleMediaAccessoryState.Observer
 {
     id $defaultActor;
-    id executionLogic;
-    id controlBlock;
-    id home;
-    id deviceMediaStateObserver;
-    id deviceMediaStateAdapter;
-    id observationTask;
-    id runningTask;
-    id description;
 }
 
 @end

@@ -6,34 +6,26 @@
 
 #import <iTunesCloud/ICAsyncOperation.h>
 
-@class ICMusicSubscriptionStatusRequest;
-
 @interface ICMusicSubscriptionStatusRequestOperation : ICAsyncOperation
 {
     _Bool _allowsFuseHeaderEnrichment;
-    _Bool _shouldRequestLightweightStatus;
-    ICMusicSubscriptionStatusRequest *_request;
-    CDUnknownBlockType _responseHandler;
 }
 
 - (CDUnknownBlockType);
 - (id);
-- (_Bool);
+- (_Bool)Z;
+- (void);
+- (_Bool)qA;
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void);
+- (id);
 - (void)Info;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsFuseHeaderEnrichment; // @synthesize allowsFuseHeaderEnrichment=_allowsFuseHeaderEnrichment;
-@property(readonly, copy, nonatomic) ICMusicSubscriptionStatusRequest *request; // @synthesize request=_request;
-@property(copy, nonatomic) CDUnknownBlockType responseHandler; // @synthesize responseHandler=_responseHandler;
 @property(nonatomic) _Bool shouldRequestLightweightStatus; // @synthesize shouldRequestLightweightStatus=_shouldRequestLightweightStatus;
 
 @end

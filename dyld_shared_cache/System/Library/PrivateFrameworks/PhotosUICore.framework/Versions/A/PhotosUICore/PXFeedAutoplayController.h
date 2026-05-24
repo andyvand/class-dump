@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSString, _PXFeedInlinePlaybackController;
+@class _PXFeedInlinePlaybackController;
 
 @interface PXFeedAutoplayController
 {
     _PXFeedInlinePlaybackController *_inlinePlaybackController;
-    NSMapTable *_playbackRecordsByItemLayout;
 }
 
 - (void);
@@ -17,24 +16,15 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void)onKind;
+- (void)CollectionKind;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) _PXFeedInlinePlaybackController *inlinePlaybackController; // @synthesize inlinePlaybackController=_inlinePlaybackController;
-@property(nonatomic) _Bool isContainerLayoutVisible;
-@property(readonly, nonatomic) NSMapTable *playbackRecordsByItemLayout; // @synthesize playbackRecordsByItemLayout=_playbackRecordsByItemLayout;
-@property(readonly) Class superclass;
 
 @end
 

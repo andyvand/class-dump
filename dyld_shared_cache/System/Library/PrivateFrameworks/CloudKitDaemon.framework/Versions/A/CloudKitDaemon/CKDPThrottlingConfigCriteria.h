@@ -9,35 +9,22 @@
 @interface CKDPThrottlingConfigCriteria
 {
     NSString *_bundleID;
-    int _containerEnvironment;
-    NSString *_containerName;
-    int _databaseType;
-    NSString *_invernessFunctionName;
-    NSString *_invernessServiceName;
-    NSString *_operationGroupName;
-    int _operationType;
-    NSString *_zoneName;
-    struct {
-        unsigned int containerEnvironment:1;
-        unsigned int databaseType:1;
-        unsigned int operationType:1;
-    } _has;
 }
 
+- (void)	;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)h;
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)B9;
 - (id);
 - (int);
 - (id);
-- (int);
+- (int)removeAllIdentitiesForUser:(id)arg1 withOptions:withClient: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -45,51 +32,35 @@
 - (int);
 - (int);
 - (_Bool);
-- (void);
+- (void)Com_Apple_Siri_Product_Proto_Date;
 - (id);
 - (id);
 - (void);
 - (int);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)ine (hoseCount = %d)
+;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)se ID for migrating thread scope;
+- (void)6;
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (int);
-- (id)ate: /* Error: Ran out of types for this method. */;
-- (_Bool);
+- (id)setStartDate: /* Error: Ran out of types for this method. */;
+- (_Bool)method;
 - (void);
 - (void)ubscription from server didn't have a record type;
-- (void)udeZoneAccessBefore;
+- (void)excludeZoneAccessBefore;
 - (_Bool)ession readiness error: /* Error: Ran out of types for this method. */;
 - (_Bool)signature %@;
 - (id)±;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(nonatomic) int containerEnvironment; // @synthesize containerEnvironment=_containerEnvironment;
-@property(retain, nonatomic) NSString *containerName; // @synthesize containerName=_containerName;
-@property(nonatomic) int databaseType; // @synthesize databaseType=_databaseType;
-@property(readonly, nonatomic) _Bool hasBundleID;
-@property(nonatomic) _Bool hasContainerEnvironment;
 @property(readonly, nonatomic) _Bool hasContainerName;
-@property(nonatomic) _Bool hasDatabaseType;
-@property(readonly, nonatomic) _Bool hasInvernessFunctionName;
-@property(readonly, nonatomic) _Bool hasInvernessServiceName;
-@property(readonly, nonatomic) _Bool hasOperationGroupName;
-@property(nonatomic) _Bool hasOperationType;
-@property(readonly, nonatomic) _Bool hasZoneName;
-@property(retain, nonatomic) NSString *invernessFunctionName; // @synthesize invernessFunctionName=_invernessFunctionName;
-@property(retain, nonatomic) NSString *invernessServiceName; // @synthesize invernessServiceName=_invernessServiceName;
-@property(retain, nonatomic) NSString *operationGroupName; // @synthesize operationGroupName=_operationGroupName;
-@property(nonatomic) int operationType; // @synthesize operationType=_operationType;
-@property(retain, nonatomic) NSString *zoneName; // @synthesize zoneName=_zoneName;
 
 @end
 

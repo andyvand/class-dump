@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MSPSharedTripGroupSession;
+
 @protocol MSPSharedTripGroupSessionDelegate
+- (void)initWithContainerLayoutManager:(MSPSharedTripGroupSession *)arg1;
 @end
 

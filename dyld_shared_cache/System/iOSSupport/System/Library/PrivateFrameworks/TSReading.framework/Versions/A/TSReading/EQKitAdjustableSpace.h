@@ -7,11 +7,9 @@
 @interface EQKitAdjustableSpace
 {
     double mAscent;
-    double mDescent;
-    double mWidth;
 }
 
-+ (struct __CTRunDelegate *);
++ (struct __CTRunDelegate *);
 + (void);
 - (id);
 - (double);
@@ -20,8 +18,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) double ascent; // @synthesize ascent=mAscent;
-@property(readonly, nonatomic) double descent; // @synthesize descent=mDescent;
-@property(readonly, nonatomic) double width; // @synthesize width=mWidth;
 
 @end
 

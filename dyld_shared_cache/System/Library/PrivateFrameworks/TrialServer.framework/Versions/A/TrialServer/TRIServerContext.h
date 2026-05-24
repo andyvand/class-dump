@@ -4,34 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TRIActivationEventDatabase, TRIClient, TRIContentTracker, TRIDatabase, TRIExperimentDatabase, TRIExperimentHistoryDatabase, TRIKVStore, TRILimitedCarryProfileManager, TRINamespaceDatabase, TRIRolloutDatabase, TRIRolloutHistoryDatabase, TRISQLiteCKDatabase, TRISQLiteCKDatabaseFailureInjectionDelegate, TRITaskDatabase;
-@protocol TRIPaths, TRIPushServiceConnectionMultiplexing, TRITaskQueuing, TRIXPCActivityManagementProtocol;
+@class TRIDatabase;
 
 @interface TRIServerContext
 {
     _Bool _useCKNative;
-    id <TRIPaths> _paths;
-    TRIExperimentDatabase *_experimentDatabase;
-    TRIActivationEventDatabase *_activationEventDatabase;
-    TRIExperimentHistoryDatabase *_experimentHistoryDatabase;
-    TRINamespaceDatabase *_namespaceDatabase;
-    TRIRolloutDatabase *_rolloutDatabase;
-    TRIRolloutHistoryDatabase *_rolloutHistoryDatabase;
-    TRITaskDatabase *_taskDatabase;
-    TRIClient *_client;
-    TRIKVStore *_keyValueStore;
-    TRIContentTracker *_contentTracker;
-    TRISQLiteCKDatabase *_fakeCKDatabase;
-    TRISQLiteCKDatabaseFailureInjectionDelegate *_failureInjectionDelegate;
-    TRILimitedCarryProfileManager *_limitedCarryManager;
-    id <TRITaskQueuing> _taskQueue;
-    id <TRIPushServiceConnectionMultiplexing> _pushServiceMuxer;
-    id <TRIXPCActivityManagementProtocol> _xpcActivityManager;
-    TRIDatabase *_underlyingDatabase;
 }
 
 - (id);
-- (id);
+- (id)written does not equal file size (file='%{public}s', size=%{public}lld, written=%{public}zd);
 - (void);
 - (id);
 - (void);
@@ -41,7 +22,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)4;
 - (id);
 - (id);
 - (id);
@@ -53,38 +34,20 @@
 - (id);
 - (void);
 - (_Bool);
+- (id)p@9;
+- (id);
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void)orReasonKey;
-- (id)ol;
+- (void)errorReasonKey;
+- (id)_PASDatabaseMigrationProtocol;
 - (id);
 - (id)4;
 
 // Remaining properties
-@property(readonly, nonatomic) TRIActivationEventDatabase *activationEventDatabase; // @synthesize activationEventDatabase=_activationEventDatabase;
-@property(readonly, nonatomic) TRIClient *client; // @synthesize client=_client;
-@property(readonly, nonatomic) TRIContentTracker *contentTracker; // @synthesize contentTracker=_contentTracker;
-@property(retain, nonatomic) TRIExperimentDatabase *experimentDatabase; // @synthesize experimentDatabase=_experimentDatabase;
-@property(readonly, nonatomic) TRIExperimentHistoryDatabase *experimentHistoryDatabase; // @synthesize experimentHistoryDatabase=_experimentHistoryDatabase;
-@property(retain, nonatomic) TRISQLiteCKDatabaseFailureInjectionDelegate *failureInjectionDelegate; // @synthesize failureInjectionDelegate=_failureInjectionDelegate;
-@property(retain) TRISQLiteCKDatabase *fakeCKDatabase; // @synthesize fakeCKDatabase=_fakeCKDatabase;
-@property(readonly, nonatomic) TRIKVStore *keyValueStore; // @synthesize keyValueStore=_keyValueStore;
-@property(retain, nonatomic) TRILimitedCarryProfileManager *limitedCarryManager; // @synthesize limitedCarryManager=_limitedCarryManager;
-@property(readonly, nonatomic) TRINamespaceDatabase *namespaceDatabase; // @synthesize namespaceDatabase=_namespaceDatabase;
-@property(readonly, nonatomic) id <TRIPaths> paths; // @synthesize paths=_paths;
-@property(retain, nonatomic) id <TRIPushServiceConnectionMultiplexing> pushServiceMuxer; // @synthesize pushServiceMuxer=_pushServiceMuxer;
-@property(readonly, nonatomic) TRIRolloutDatabase *rolloutDatabase; // @synthesize rolloutDatabase=_rolloutDatabase;
-@property(readonly, nonatomic) TRIRolloutHistoryDatabase *rolloutHistoryDatabase; // @synthesize rolloutHistoryDatabase=_rolloutHistoryDatabase;
-@property(readonly, nonatomic) TRITaskDatabase *taskDatabase; // @synthesize taskDatabase=_taskDatabase;
-@property(retain, nonatomic) id <TRITaskQueuing> taskQueue; // @synthesize taskQueue=_taskQueue;
 @property(readonly, nonatomic) TRIDatabase *underlyingDatabase; // @synthesize underlyingDatabase=_underlyingDatabase;
-@property(nonatomic) _Bool useCKNative; // @synthesize useCKNative=_useCKNative;
-@property(readonly, nonatomic) __weak id <TRIXPCActivityManagementProtocol> xpcActivityManager; // @synthesize xpcActivityManager=_xpcActivityManager;
 
 @end
 

@@ -6,12 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class CEMEventSubscriptionDeclaration_Schedule, NSArray, NSString;
+@class NSArray;
 
 @interface CEMEventSubscriptionDeclaration : CEMConfigurationBase
 {
     NSArray *_payloadEvents;
-    CEMEventSubscriptionDeclaration_Schedule *_payloadSchedule;
 }
 
 + (id);
@@ -27,23 +26,15 @@
 - (id);
 - (_Bool);
 - (id);
-- (int);
-- (_Bool);
+- (int)P;
+- (_Bool)hreshold Offset (dB);
 - (void);
 - (id);
-- (id);
+- (id)t;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSArray *payloadEvents; // @synthesize payloadEvents=_payloadEvents;
-@property(copy, nonatomic) CEMEventSubscriptionDeclaration_Schedule *payloadSchedule; // @synthesize payloadSchedule=_payloadSchedule;
-@property(readonly) Class superclass;
 
 @end
 

@@ -15,9 +15,9 @@
 
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)er.m;
 - (id);
-- (void);
+- (void)<;
 - (void);
 - (void);
 - (void)ionary",&,VmUsageCounterPerLayer;

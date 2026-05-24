@@ -6,24 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ODDSiriSchemaODDTimeInterval, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ODFUNNELSiriSchemaODFUNNELClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_odfunnelId;
-    unsigned long long _eventTimestampInMsSince1970;
-    ODDSiriSchemaODDTimeInterval *_aggregationInterval;
-    SISchemaUUID *_deviceAggregationId;
-    unsigned long long _userAggregationIdRotationTimestampMs;
-    unsigned long long _userAggregationIdExpirationTimestampMs;
-    struct {
-        unsigned int eventTimestampInMsSince1970:1;
-        unsigned int userAggregationIdRotationTimestampMs:1;
-        unsigned int userAggregationIdExpirationTimestampMs:1;
-    } _has;
-    _Bool _hasOdfunnelId;
-    _Bool _hasAggregationInterval;
-    _Bool _hasDeviceAggregationId;
 }
 
 - (unsigned long long);
@@ -44,7 +31,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)R;
 - (_Bool);
 - (unsigned long long);
 - (id);
@@ -54,35 +41,23 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)P;
 - (_Bool);
 - (id);
 - (id);
 - (id)!Cù1Þð1Â0@ù
 × ;
 - (id)roduct;
-- (id)eOnScreenAppBundleIdDomain;
+- (id)deleteOnScreenAppBundleIdDomain;
 - (void).linkedUsoGraphNodeDatas.linkedUsoEntitySpans.properties.valueFloat;
 
 // Remaining properties
-@property(retain, nonatomic) ODDSiriSchemaODDTimeInterval *aggregationInterval; // @synthesize aggregationInterval=_aggregationInterval;
-@property(retain, nonatomic) SISchemaUUID *deviceAggregationId; // @synthesize deviceAggregationId=_deviceAggregationId;
-@property(nonatomic) unsigned long long eventTimestampInMsSince1970; // @synthesize eventTimestampInMsSince1970=_eventTimestampInMsSince1970;
-@property(nonatomic) _Bool hasAggregationInterval; // @synthesize hasAggregationInterval=_hasAggregationInterval;
-@property(nonatomic) _Bool hasDeviceAggregationId; // @synthesize hasDeviceAggregationId=_hasDeviceAggregationId;
-@property(nonatomic) _Bool hasEventTimestampInMsSince1970;
-@property(nonatomic) _Bool hasOdfunnelId; // @synthesize hasOdfunnelId=_hasOdfunnelId;
-@property(nonatomic) _Bool hasUserAggregationIdExpirationTimestampMs;
-@property(nonatomic) _Bool hasUserAggregationIdRotationTimestampMs;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *odfunnelId; // @synthesize odfunnelId=_odfunnelId;
-@property(nonatomic) unsigned long long userAggregationIdExpirationTimestampMs; // @synthesize userAggregationIdExpirationTimestampMs=_userAggregationIdExpirationTimestampMs;
-@property(nonatomic) unsigned long long userAggregationIdRotationTimestampMs; // @synthesize userAggregationIdRotationTimestampMs=_userAggregationIdRotationTimestampMs;
 
 @end
 

@@ -9,9 +9,9 @@
     struct CGSize _boundsSize;
 }
 
-- (id);
+- (id)s;
 - (struct CGSize);
-- (_Bool);
+- (_Bool)_moveNonCollidingViewsToRoot;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize boundsSize; // @synthesize boundsSize=_boundsSize;

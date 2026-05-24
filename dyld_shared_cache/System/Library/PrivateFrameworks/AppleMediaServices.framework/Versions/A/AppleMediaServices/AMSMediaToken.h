@@ -4,28 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface AMSMediaToken
 {
     _Bool _valid;
-    NSDate *_expirationDate;
-    double _lifetime;
-    NSString *_tokenString;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)d.lockstate;
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)setRightShoulder:(id)arg1;
 - (void);
 - (_Bool);
-- (double);
+- (double);
 - (id);
 - (id);
 - (_Bool)0@ù
@@ -36,9 +33,6 @@
 
 // Remaining properties
 @property(readonly) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(readonly) double lifetime; // @synthesize lifetime=_lifetime;
-@property(readonly, copy) NSString *tokenString; // @synthesize tokenString=_tokenString;
-@property(readonly, getter=isValid) _Bool valid; // @synthesize valid=_valid;
 
 @end
 

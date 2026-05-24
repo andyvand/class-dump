@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INRestaurantReservationUserBooking;
-
 @protocol INBookRestaurantReservationIntentResponseExport
-- (long long)AddTasks:completion: /* Error: Ran out of types for this method. */;
+- (void);
+- (long long)handleAddTasks:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) INRestaurantReservationUserBooking *userBooking;
 @end
 

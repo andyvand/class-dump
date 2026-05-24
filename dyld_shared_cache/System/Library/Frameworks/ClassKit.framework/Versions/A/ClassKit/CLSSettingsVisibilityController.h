@@ -9,7 +9,6 @@
 @interface CLSSettingsVisibilityController
 {
     CLSCurrentUser *_currentUser;
-    struct os_unfair_lock_s _lock;
 }
 
 + (id);
@@ -17,7 +16,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)@;
 - (void);
 - (void);
 - (void);

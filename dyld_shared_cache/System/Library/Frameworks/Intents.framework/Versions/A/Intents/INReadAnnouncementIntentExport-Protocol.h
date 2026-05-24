@@ -7,10 +7,9 @@
 @class NSString;
 
 @protocol INReadAnnouncementIntentExport
+- (NSString *);
 
 // Remaining properties
 @property long long readType;
-@property(copy) NSString *startAnnouncementIdentifier;
-@property long long userNotificationType;
 @end
 

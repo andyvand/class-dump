@@ -4,13 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIResponder, UITextPosition, UITextRange, UIView;
-@protocol UITextInput, UITextInputPrivate;
+@class NSArray, NSString, UIFont, UIResponder, UITextPosition, UITextRange, UIView;
+@protocol UIPointerInteractionDelegate, UITextInput, UITextInputPrivate;
 
 @protocol UITextInput_Internal
+- (UITextRange *);
+- (unsigned int)ver__FileError;
+- (void)complete chunks downloaded already. Will %sretry this request;
+- (void);
+- (void);
+- (UIFont *)erPlayable;
+- (void);
 - (UITextPosition *)!üFùñXÐ1Â0@ù
 × ;
-- (_Bool);
 - (UITextRange *)1Â0@ù
 × ;
 - (void)Ð!xCùÑ[1Â0@ù
@@ -25,27 +31,29 @@
 × ;
 - (void)mBars"b1"delegateShouldUseBuiltinInteractionController"b1"delegateSupportedInterfaceOrientations"b1"delegatePreferredInterfaceOrientationForPresentation"b1"delegateLayoutTransitioningClass"b1"delegateWasNonNil"b1"navigationBarHidesCompletelyOffscreen"b1"clipUnderlapWhileTransitioning"b1"isCrossfadingOutTabBar"b1"isCrossfadingInTabBar"b1"skipContentInsetCalculation"b1"useStandardStatusBarHeight"b1"allowUserInteractionDuringTransition"b1"enableBackButtonDuringTransition"b1"allowsGroupBlending"b1"allowNestedNavigationControllers"b1"allowChildSplitViewControllers"b1"nestedNavigationBarWasHidden"b1"nestedToolbarWasHidden"b1"isAnimatingExchangeBetweenInnerAndOuterToolbars"b1"isNested"b1"searchHidNavigationBar"b1"disappearingViewControllerIsBeingRemoved"b1"disappearingViewControllerNeedsToBeRemoved"b1"isWrappingDuringAdaptation"b1"cannotPerformShowViewController"b1"navigationSoundsEnabled"b1"didSetNeedsFocusInTransition"b1"layingOutTopViewController"b1"hasScheduledDeferredUpdateNavigationBarHostedRefreshControl"b1"allowsFreezeLayoutForOrientationChangeOnDismissal"b1"interactiveScrollActive"b1"scrollViewObservationReasonHasVariableHeightNavigationBar"b1"scrollViewObservationReasonIsEmulatingChromelessForFixedHeightNavigationBar"b1"scrollViewObservationReasonIsAutoUpdatingManualScrollEdgeAppearance"b1"scrollViewObservationReasonIsEmulatingChromelessEverywhere"b1"suspendToolbarBackgroundUpdating"b1"isBottomBarUnhidingDuringPushOrPop"b1"hasUpdatedToolbarBackgroundAfterAppLaunch"b1"createdBySplitViewController"b1"isExecutingSplitViewControllerActions"b1"shouldInteractivePopGestureBeEnabled"b1"allowsInteractivePopWhenNavigationBarHidden"b1"clipUnderlapWhileTransitioningWasChanged"b1"requiresToolbarHiddenForFindAndReplace"b1"floatingBarNeedsUpdateInViewWillAppear"b1};
 - (UITextPosition *)lighted:(UITextPosition *)arg1;
-- (UITextRange *)tem:(CDStruct_912cb5d2)arg1;
-- (_Bool)ithData:options:format:error: /* Error: Ran out of types for this method. */;
-- (void)emIndexPath:(_Bool)arg1;
-- (UITextRange *)yPadding;
-- (_Bool)estureType;
+- (UITextRange *)setDragItem:(CDStruct_912cb5d2)arg1;
+- (_Bool)propertyListWithData:options:format:error: /* Error: Ran out of types for this method. */;
+- (NSArray *)_wantsKeyboardEventsWithoutFirstResponder:(UITextRange *)arg1;
+- (void)_removeInvalidatedItemIndexPath:(_Bool)arg1;
+- (UITextRange *)_postBoundaryPadding;
+- (_Bool)_inGestureType;
 - (NSString *)eferredTouchTasks;
 - (struct _NSRange)ject;
-- (UITextRange *)CellSegmentView;
+- (struct _NSRange)_updateWithItems:updateSupport: /* Error: Ran out of types for this method. */;
+- (UITextRange *)UIInputSwitcherTableCellSegmentView;
 - (NSString *)ð;
 - (UITextRange *)èÌü ì¡;
 - (_Bool);
 - (UITextRange *)ew * _Nonnull __strong, UILabel * _Nullable __strong * _Nonnull, UIContentUnavailableTextProperties * _Nonnull __strong);
-- (unsigned int)ISceneLayoutGestureActionErrorDomain;
-- (int)iselect;
+- (unsigned int)_UISceneLayoutGestureActionErrorDomain;
+- (int)multiselect;
 - (UITextRange *)nalSmartRepliesComposeFieldInFocus(void);
-- (void)IFocusSystemEnabledStateDidChangeNotification;
-- (UITextPosition *)tting;
+- (void)_UIFocusSystemEnabledStateDidChangeNotification;
+- (UITextPosition *)committing;
 - (unsigned int)cy:(int)arg1 attempted to rebase the focused item state outside of an update. Collection view:%@ /* Error: Ran out of types for this method. */;
-- (UITextPosition *)onfigurationContentInset;
+- (UITextPosition *)UIButtonConfigurationContentInset;
 - (void)gnore.;
-- (UITextRange *)mentWithBaseWritingDirection;
+- (UITextRange *)ResolvesNaturalAlignmentWithBaseWritingDirection;
 - (_Bool)ÿÅþÿÅþÿ6Óþÿ8Óþÿ;
 - (void)egnngd_;
 - (void)AN;
@@ -61,10 +69,19 @@
 - (void)PËR0%43k;
 
 @optional
+- (_Bool)setAssociatedMessageRangeLength: /* Error: Ran out of types for this method. */;
+- (_Bool)scheduledMessagesBatchFetcher;
+- (void)_writeNicknameToKVStore:nickname: /* Error: Ran out of types for this method. */;
+- (id <UIPointerInteractionDelegate>)_setOutgoingFlagsOnMessage: /* Error: Ran out of types for this method. */;
+- (void)_requestGroupPhotoResendForChatGUID:fromIdentifier:toIdentifier: /* Error: Ran out of types for this method. */;
+- (void)_clearDowngradeMarkersForChat: /* Error: Ran out of types for this method. */;
+- (struct CGRect)_abandonPWFetcher;
+- (_Bool)atIdentifier;
+- (_Bool)_markCurrentNicknameAsArchived:incrementPendingNicknameVersion: /* Error: Ran out of types for this method. */;
 - (void)!°!´Dù1að1Â0@ù
 × ;
 - (_Bool)ButtonAppearance;
-- (NSArray *);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_proxyTextInput) UIResponder<UITextInput> *__content;

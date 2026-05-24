@@ -7,18 +7,6 @@
 @interface NewsFeed.SharingPuzzleTextActivityItemSource
 {
     id puzzle;
-    id shareData;
-    id puzzleRankProvider;
-    id puzzleDifficultyDescriptionProvider;
-    id $__lazy_storage_$_defaultText;
-    id $__lazy_storage_$_completeSolvedWithTimeText;
-    id $__lazy_storage_$_completeSolvedWithRankText;
-    id $__lazy_storage_$_completeSolvedWithMovesText;
-    id $__lazy_storage_$_solvedPuzzleTypeText;
-    id $__lazy_storage_$_solvedWithTimeText;
-    id $__lazy_storage_$_solvedDifficultyText;
-    id $__lazy_storage_$_solvedWithRank;
-    id $__lazy_storage_$_solvedWithMovesText;
 }
 
 - (id);

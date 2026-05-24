@@ -6,16 +6,11 @@
 
 #import <MLCompute/MLCLayer.h>
 
-@class MLCTensor, MLCTensorParameter, NSArray;
+@class NSArray;
 
 @interface MLCLayerNormalizationLayer : MLCLayer
 {
     float _varianceEpsilon;
-    NSArray *_normalizedShape;
-    MLCTensor *_beta;
-    MLCTensor *_gamma;
-    MLCTensorParameter *_betaParameter;
-    MLCTensorParameter *_gammaParameter;
 }
 
 + (id);
@@ -31,21 +26,16 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (float);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)!;
+- (id)F;
+- (void)initWithDevice:copyRows:copyColumns:sourcesAreTransposed:destinationsAreTransposed: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) MLCTensor *beta; // @synthesize beta=_beta;
-@property(readonly, retain, nonatomic) MLCTensorParameter *betaParameter; // @synthesize betaParameter=_betaParameter;
-@property(readonly, retain, nonatomic) MLCTensor *gamma; // @synthesize gamma=_gamma;
-@property(readonly, retain, nonatomic) MLCTensorParameter *gammaParameter; // @synthesize gammaParameter=_gammaParameter;
 @property(readonly, copy, nonatomic) NSArray *normalizedShape; // @synthesize normalizedShape=_normalizedShape;
-@property(readonly, nonatomic) float varianceEpsilon; // @synthesize varianceEpsilon=_varianceEpsilon;
 
 @end
 

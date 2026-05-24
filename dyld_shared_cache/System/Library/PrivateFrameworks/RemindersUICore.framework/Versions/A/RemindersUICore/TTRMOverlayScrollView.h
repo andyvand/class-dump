@@ -9,8 +9,6 @@
 @interface TTRMOverlayScrollView
 {
     _Bool _flashesScrollersOnMouseMoved;
-    _Bool _forceOverlayScrollers;
-    NSTrackingArea *_mouseEnteredExitedTrackingArea;
 }
 
 - (void);
@@ -22,12 +20,10 @@
 - (void);
 - (long long);
 - (void);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool flashesScrollersOnMouseMoved; // @synthesize flashesScrollersOnMouseMoved=_flashesScrollersOnMouseMoved;
-@property(nonatomic) _Bool forceOverlayScrollers; // @synthesize forceOverlayScrollers=_forceOverlayScrollers;
 @property(retain, nonatomic) NSTrackingArea *mouseEnteredExitedTrackingArea; // @synthesize mouseEnteredExitedTrackingArea=_mouseEnteredExitedTrackingArea;
 
 @end

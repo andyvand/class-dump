@@ -11,7 +11,6 @@
 @interface ABCoreRecentsSource : PHXSource
 {
     _Bool _isAcceptedIntroductionsSource;
-    CNContactStore *_contactStore;
 }
 
 + (Class);
@@ -42,7 +41,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)P;
 - (_Bool);
 - (id);
 - (void);
@@ -52,7 +51,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(readonly, nonatomic) _Bool isAcceptedIntroductionsSource; // @synthesize isAcceptedIntroductionsSource=_isAcceptedIntroductionsSource;
 
 @end
 

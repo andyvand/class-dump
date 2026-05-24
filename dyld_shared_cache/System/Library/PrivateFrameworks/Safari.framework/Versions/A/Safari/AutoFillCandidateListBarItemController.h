@@ -4,36 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCandidateListTouchBarItem, NSString, NSTouchBarItem;
+@class NSString;
 @protocol AutoFillCandidateListBarItemControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface AutoFillCandidateListBarItemController
 {
     NSString *_itemIdentifier;
-    NSCandidateListTouchBarItem *_item;
-    id <AutoFillCandidateListBarItemControllerDelegate> _delegate;
 }
 
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)manually removed by this user from receiving focus status. Not repairing invalid validation token.;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSTouchBarItem *barItem;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <AutoFillCandidateListBarItemControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

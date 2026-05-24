@@ -28,22 +28,11 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)"!;
 - (_Bool)uthorizationStatus:%d, self:%@) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) float currentCapacity;
 @property(retain) NSDictionary *info; // @synthesize info=_info;
-@property(readonly) _Bool isCharged;
-@property(readonly) _Bool isCharging;
-@property(readonly) _Bool isHealthy;
-@property(readonly) _Bool isInPoorCondition;
-@property(readonly) _Bool isInternal;
-@property(readonly) _Bool isPluggedIn;
-@property(readonly) _Bool isPresent;
-@property(readonly) float maxCapacity;
-@property(readonly) float percentRemaining;
-@property(readonly) float relativeCapacity;
 
 @end
 

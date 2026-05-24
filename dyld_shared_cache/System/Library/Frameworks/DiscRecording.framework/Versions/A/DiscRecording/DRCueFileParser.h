@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSNumber, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface DRCueFileParser
 {
     NSString *cuePath;
-    NSMutableDictionary *burnInfo;
-    NSMutableArray *trackInfoList;
-    NSString *sourceFile;
-    NSString *sourceKind;
-    NSNumber *sourceLength;
-    long long lastTrackIndex;
 }
 
 - (id);
@@ -25,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)Z;
 - (id);
 - (id);
 - (id);

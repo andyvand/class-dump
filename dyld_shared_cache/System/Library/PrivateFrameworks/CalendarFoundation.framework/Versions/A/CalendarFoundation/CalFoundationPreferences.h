@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalPreferences, NSDateComponents, NSString;
+@class CalPreferences;
 
 @interface CalFoundationPreferences
 {
@@ -25,11 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double defaultEventDuration;
 @property(nonatomic) double simulatedDateForNowOffset;
-@property(retain, nonatomic) NSString *stopTimeDemoMode;
-@property(readonly, nonatomic) _Bool stopTimeDemoModeActive;
-@property(readonly, nonatomic) NSDateComponents *stopTimeDemoModeComponents;
 
 @end
 

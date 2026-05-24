@@ -4,38 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKController, AXSSImageDescriptionViewController, NSString;
+@class AKController;
 
 @interface AKImageDescriptionPopover
 {
     AKController *_annotationController;
-    AXSSImageDescriptionViewController *_imageDescriptionViewController;
 }
 
 - (void);
+- (id);
+- (void);
+- (void);
+- (id)P	;
+- (void);
+- (void);
+- (void)decode setting boolean value due to no bool value in payload:(id)arg1 %@;
 - (id);
 - (void);
 - (void);
-- (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)@;
 
 // Remaining properties
 @property(nonatomic) __weak AKController *annotationController; // @synthesize annotationController=_annotationController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) AXSSImageDescriptionViewController *imageDescriptionViewController; // @synthesize imageDescriptionViewController=_imageDescriptionViewController;
-@property(readonly) Class superclass;
 
 @end
 

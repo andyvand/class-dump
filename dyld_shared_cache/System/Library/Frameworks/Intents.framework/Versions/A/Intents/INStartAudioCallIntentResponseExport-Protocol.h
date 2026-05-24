@@ -5,10 +5,9 @@
 //
 
 @protocol INStartAudioCallIntentResponseExport
-- (long long)t:terminal:gate: /* Error: Ran out of types for this method. */;
+- (long long)initWithAirport:terminal:gate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;
-@property double timeToEstablishCall;
 @end
 

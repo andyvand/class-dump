@@ -13,14 +13,14 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)T;
 + (id);
 + (id);
 + (id);
 + (unsigned int);
 + (_Bool);
 + (id);
-+ (id);
++ (id)sB;
 + (id);
 + (_Bool);
 + (id);

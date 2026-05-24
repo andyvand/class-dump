@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSVLRUDictionary, NSMutableDictionary, NSMutableSet, NSObject;
-@protocol OS_dispatch_queue;
+@class MSVLRUDictionary;
 
 @interface ICURLBagProvider
 {
     MSVLRUDictionary *_cache;
-    NSObject<OS_dispatch_queue> *_accessQueue;
-    NSObject<OS_dispatch_queue> *_persistenceQueue;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    NSMutableDictionary *_pendingOperationsForCacheKey;
-    NSMutableSet *_cacheKeysScheduledForRefresh;
-    NSMutableDictionary *_bagChangeNotificationReceivedForRequestContext;
-    _Bool _useAMSBag;
-    _Bool _useRawPayload;
 }
 
 + (id);
@@ -30,19 +21,19 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
-- (void);
+- (void)N13domProfile_CG12domTechnique7domPass9domShader19domCompiler_optionsE;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)c;
 - (void);
 - (void);
 - (id);
@@ -52,7 +43,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool useAMSBag; // @synthesize useAMSBag=_useAMSBag;
-@property(nonatomic) _Bool useRawPayload; // @synthesize useRawPayload=_useRawPayload;
 
 @end
 

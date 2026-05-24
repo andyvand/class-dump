@@ -7,18 +7,10 @@
 @interface AccessibilitySharedSupport.AXLLMManager
 {
     id clientName;
-    id useOnDeviceModel;
-    id usePartnerCloud;
-    id usePrivateCloudPlanner;
-    id model;
-    id handleSensitiveData;
-    id systemInstructions;
-    id locale;
-    id _generativeExperiencesSession;
 }
 
 - (id);
-- (id);
+- (id);
 - (void);
 
 @end

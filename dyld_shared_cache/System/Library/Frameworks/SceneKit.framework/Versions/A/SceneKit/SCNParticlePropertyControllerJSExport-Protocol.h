@@ -4,9 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAAnimation, NSString, SCNNode;
+@class CAAnimation;
 
 @protocol SCNParticlePropertyControllerJSExport
+- (double)@9`";
+- (double);
 - (id)b012 * (3.f * u * v * v) +
     b111 * (6.f * w * u * v);
     
@@ -97,14 +99,8 @@ static inline void scn_smooth_geometry_phong(thread float3 &position, thread flo
     gl_Position = u_projectionTransform * viewPos;
 }
 ;
-- (long long);
 
 // Remaining properties
 @property(retain, nonatomic) CAAnimation *animation;
-@property(nonatomic) double inputBias;
-@property(nonatomic) long long inputMode;
-@property(nonatomic) SCNNode *inputOrigin;
-@property(copy, nonatomic) NSString *inputProperty;
-@property(nonatomic) double inputScale;
 @end
 

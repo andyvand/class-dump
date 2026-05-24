@@ -6,30 +6,22 @@
 
 #import <PencilKit/PKPaletteTapToRadarCommandExecution.h>
 
-@class NSLayoutConstraint, NSString, UIViewController;
+@class UIViewController;
 
 @interface PKPaletteTapToRadarAppExtensionExecution : PKPaletteTapToRadarCommandExecution
 {
     UIViewController *_contentViewController;
-    NSLayoutConstraint *_contentViewWidthConstraint;
-    NSLayoutConstraint *_contentViewHeightConstraint;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)etteScaleFactorPolicy;
+- (void)PKPaletteScaleFactorPolicy;
 - (void)ÿÿm;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

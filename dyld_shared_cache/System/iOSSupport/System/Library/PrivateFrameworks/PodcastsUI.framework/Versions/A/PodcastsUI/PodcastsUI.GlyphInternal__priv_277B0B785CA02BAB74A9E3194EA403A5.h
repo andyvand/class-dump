@@ -7,8 +7,6 @@
 @interface PodcastsUI.GlyphInternal__priv_277B0B785CA02BAB74A9E3194EA403A5
 {
     id settings;
-    id coloredImageCache;
-    id $__lazy_storage_$_baseImage;
 }
 
 @end

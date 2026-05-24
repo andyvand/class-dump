@@ -7,16 +7,11 @@
 @interface MPPlaylistInternal
 {
     double duration;
-    double fadeInDuration;
-    double fadeOutDuration;
-    double duckInDuration;
-    double duckOutDuration;
-    double duckLevel;
 }
 
 - (void);
-- (void);
-- (void);
+- (void)@;
+- (void)start date %@, end date %@, taskDescription %@;
 - (double);
 - (double);
 - (double);
@@ -28,12 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double duckInDuration; // @synthesize duckInDuration;
-@property(nonatomic) double duckLevel; // @synthesize duckLevel;
-@property(nonatomic) double duckOutDuration; // @synthesize duckOutDuration;
 @property(nonatomic) double duration; // @synthesize duration;
-@property(nonatomic) double fadeInDuration; // @synthesize fadeInDuration;
-@property(nonatomic) double fadeOutDuration; // @synthesize fadeOutDuration;
 
 @end
 

@@ -10,9 +10,9 @@
 {
 }
 
+- (id)etting original service name to:%@ on downgraded message:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

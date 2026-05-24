@@ -4,56 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSImage, NSString;
-
 @interface PXAlternatingButtonHelper
 {
     id _modifierFlagsMonitor;
-    _Bool _didCaptureOriginalState;
-    SEL _originalAction;
-    NSImage *_originalImage;
-    NSString *_originalToolTip;
-    NSString *_originalAccessibilityLabel;
-    _Bool _monitorModifierFlags;
-    _Bool _useAlternateState;
-    NSButton *_button;
-    unsigned long long _alternateModifierFlags;
-    SEL _alternateAction;
-    NSString *_alternateToolTip;
-    NSString *_alternateAccessibilityLabel;
-    unsigned long long _currentModifierFlags;
 }
 
 - (_Bool);
-- (void);
+- (void)qC;
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
 - (void);
 - (SEL);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (id)\=;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *alternateAccessibilityLabel; // @synthesize alternateAccessibilityLabel=_alternateAccessibilityLabel;
-@property(nonatomic) SEL alternateAction; // @synthesize alternateAction=_alternateAction;
-@property(nonatomic) unsigned long long alternateModifierFlags; // @synthesize alternateModifierFlags=_alternateModifierFlags;
-@property(copy, nonatomic) NSString *alternateToolTip; // @synthesize alternateToolTip=_alternateToolTip;
-@property(readonly, nonatomic) __weak NSButton *button; // @synthesize button=_button;
-@property(nonatomic) unsigned long long currentModifierFlags; // @synthesize currentModifierFlags=_currentModifierFlags;
 @property(nonatomic) _Bool monitorModifierFlags; // @synthesize monitorModifierFlags=_monitorModifierFlags;
-@property(nonatomic) _Bool useAlternateState; // @synthesize useAlternateState=_useAlternateState;
 
 @end
 

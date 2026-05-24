@@ -6,10 +6,9 @@
 
 @interface UnknownClass (NameDecomposition)
 + (id);
-+ (id)O©ý{©ýCèªTA©PB©@ùeA©aB©@ù;
-- (id)#B©è'©èÃ@9è;
-- (_Bool)©öW	©ôO
-©ý{©ýÃõªóª&@©B@9è'©êC9;
-- (void)¨ÿ#ÕÀ_Öv°;
++ (id);
+- (id);
+- (_Bool);
+- (void);
 @end
 

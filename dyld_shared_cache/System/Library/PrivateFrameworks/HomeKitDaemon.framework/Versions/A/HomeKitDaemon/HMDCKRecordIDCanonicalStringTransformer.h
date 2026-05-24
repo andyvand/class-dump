@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)ination:(id)arg1 messageDispatcher:(id *)arg2 notificationCenter:notifications:dataSource:delegate: /* Error: Ran out of types for this method. */;
-+ (Class)el:completion:block: /* Error: Ran out of types for this method. */;
++ (id)initWithDestination:(id)arg1 messageDispatcher:(id *)arg2 notificationCenter:notifications:dataSource:delegate: /* Error: Ran out of types for this method. */;
++ (Class)_updateAccessoryModelWithLabel:completion:block: /* Error: Ran out of types for this method. */;
 + (Class);
 
 @end

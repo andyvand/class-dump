@@ -6,7 +6,7 @@
 
 #import <MediaRemote/MRProtocolMessage.h>
 
-@class MRNowPlayingState, NSArray, NSString;
+@class MRNowPlayingState, NSArray;
 
 @interface MRSetDefaultSupportedCommandsMessage : MRProtocolMessage
 {
@@ -15,13 +15,12 @@
 
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)nnot check feature (%@) support;
 - (id);
 - (id)te"b1"qos"b1"initiatorWasInferred"b1"userInitiated"b1};
 - (void)rollerInputModeCallback;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *bundleID;
 @property(readonly, nonatomic) NSArray *supportedCommands;
 
 @end

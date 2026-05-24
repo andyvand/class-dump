@@ -7,11 +7,6 @@
 @interface FCOfflineFeedRules
 {
     long long _maxGroups;
-    long long _maxArticleDownloads;
-    long long _maxIssueDownloads;
-    long long _maxPuzzleDownloads;
-    long long _maxAudioDownloads;
-    long long _maxRecipeDownloads;
 }
 
 - (long long);
@@ -24,12 +19,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) long long maxArticleDownloads; // @synthesize maxArticleDownloads=_maxArticleDownloads;
-@property(readonly, nonatomic) long long maxAudioDownloads; // @synthesize maxAudioDownloads=_maxAudioDownloads;
 @property(readonly, nonatomic) long long maxGroups; // @synthesize maxGroups=_maxGroups;
-@property(readonly, nonatomic) long long maxIssueDownloads; // @synthesize maxIssueDownloads=_maxIssueDownloads;
-@property(readonly, nonatomic) long long maxPuzzleDownloads; // @synthesize maxPuzzleDownloads=_maxPuzzleDownloads;
-@property(readonly, nonatomic) long long maxRecipeDownloads; // @synthesize maxRecipeDownloads=_maxRecipeDownloads;
 
 @end
 

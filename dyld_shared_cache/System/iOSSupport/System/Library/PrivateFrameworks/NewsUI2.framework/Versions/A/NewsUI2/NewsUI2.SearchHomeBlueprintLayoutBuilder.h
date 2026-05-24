@@ -7,7 +7,6 @@
 @interface NewsUI2.SearchHomeBlueprintLayoutBuilder
 {
     id titleViewLayoutAttributesFactory;
-    id recentSearchLayoutAttributesFactory;
 }
 
 @end

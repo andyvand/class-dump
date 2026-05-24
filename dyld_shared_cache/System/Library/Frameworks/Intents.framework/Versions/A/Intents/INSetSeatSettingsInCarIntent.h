@@ -6,23 +6,23 @@
 
 #import <Intents/INIntent.h>
 
-@class INSpeakableString, NSNumber, NSString;
+@class NSNumber;
 
 @interface INSetSeatSettingsInCarIntent : INIntent
 {
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (long long);
 - (long long);
 - (id);
-- (id);
+- (id).@�?;
 - (id);
 - (id);
 - (id);
@@ -32,30 +32,17 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)streamable.;
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)R;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) INSpeakableString *carName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSNumber *enableCooling;
 @property(readonly, copy) NSNumber *enableHeating;
-@property(readonly, copy) NSNumber *enableMassage;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSNumber *level;
-@property(readonly) long long relativeLevelSetting;
-@property(readonly) long long seat;
-@property(readonly) Class superclass;
 
 @end
 

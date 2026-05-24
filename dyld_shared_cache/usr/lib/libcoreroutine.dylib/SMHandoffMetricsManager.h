@@ -6,8 +6,6 @@
 
 #import <coreroutine/RTMetric.h>
 
-@class NSString;
-
 @interface SMHandoffMetricsManager : RTMetric
 {
 }
@@ -16,25 +14,19 @@
 + (CDStruct_b8464340);
 - (void);
 - (void);
+- (void)__objc_protorefs__DATA_CONST;
+- (void);
+- (void)__objc_selrefs;
 - (void);
 - (void);
+- (void)__objc_protolist__DATA_CONST;
 - (void);
+- (void)__objc_catlist;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

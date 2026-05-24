@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDCoreRoutineFMCViewedInstance
 {
     unsigned long long _timestamp;
-    NSString *_parkingId;
-    int _uiPlacement;
-    CDStruct_a6119c26 _has;
 }
 
 @end

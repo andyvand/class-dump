@@ -6,17 +6,11 @@
 
 #import <CalendarUI/EKUISingleViewGadget.h>
 
-@class EKAttendee, EKUICompositeGadget, EKUIProposedTimeResponseView, EKUIResizingTextField, NSArray, NSDate;
-@protocol EKUIProposedTimeActionHandler;
+@class EKUICompositeGadget, NSArray;
 
 @interface EKUIProposedTimeGadget : EKUISingleViewGadget
 {
     NSArray *_existingConstraints;
-    EKAttendee *_proposingAttendee;
-    EKUIResizingTextField *_textField;
-    EKUIProposedTimeResponseView *_responseView;
-    NSDate *_proposedTime;
-    EKUICompositeGadget *_parentGadget;
 }
 
 - (_Bool);
@@ -28,22 +22,16 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id);
+- (id));
 - (void);
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <EKUIProposedTimeActionHandler> actionHandler;
-@property(nonatomic) unsigned long long orderIndex;
 @property(readonly) __weak EKUICompositeGadget *parentGadget; // @synthesize parentGadget=_parentGadget;
-@property(readonly) NSDate *proposedTime; // @synthesize proposedTime=_proposedTime;
-@property(retain, nonatomic) EKAttendee *proposingAttendee; // @synthesize proposingAttendee=_proposingAttendee;
-@property(readonly) EKUIProposedTimeResponseView *responseView; // @synthesize responseView=_responseView;
-@property(readonly) EKUIResizingTextField *textField; // @synthesize textField=_textField;
 
 @end
 

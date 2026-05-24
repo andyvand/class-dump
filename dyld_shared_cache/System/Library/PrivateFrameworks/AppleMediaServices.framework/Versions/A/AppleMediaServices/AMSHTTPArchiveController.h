@@ -15,7 +15,7 @@
 + (void);
 + (id);
 + (void);
-+ (id)tMethod:completion: /* Error: Ran out of types for this method. */;
++ (id)paymentAuthorizationController:didSelectPaymentMethod:completion: /* Error: Ran out of types for this method. */;
 + (id)».7ðq½KØ\§þp½Ë¡ Ýtº9ÅcæØlVÜ3 rJç?å<ÞL	ü7xðM·Pá;Ë±Hñú'¾ÊVÁd¶·hQguº~Ü\3£ù Ò
 ÌUåfxüÐ!5¦]Ô*Æ;
 + (_Bool)ÇgáÄÇIáÄÛáÄÛáÄÿ"áÄÿáÄû$áÄû²áÄ÷{áÄ÷FáÄûàáÄûáÄÿaáÄÿháÄû áÄûáÄÇÖáÄÇýáÄûáÄûÍáÄß«áÄßáÄÛÉáÄÛÅáÄ×óáÄ×'áÄÛ÷áÄÛWáÄßáÄß|áÄÛ5áÄÛ¥áÄÇ)áÄÇLáÄÛáÄÛÐáÄ¿ÏáÄ¿áÄ»oáÄ»áÄ·éáÄ·áÄ»áÄ»8áÄ¿¨áÄ¿ÕáÄ»áÄ»áÄÇ_áÄÇ¬áÄ»öáÄ»;

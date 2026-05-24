@@ -7,13 +7,13 @@
 @class NSArray, _INPBIntentMetadata;
 
 @protocol _INPBSnoozeAlarmIntent
-- (_Bool):value:image: /* Error: Ran out of types for this method. */;
+- (void);
+- (_INPBIntentMetadata *)SDName;
+- (void);
+- (_Bool)initWithCodableAttribute:value:image: /* Error: Ran out of types for this method. */;
 - (NSArray *)rage service available for image proxy:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *alarms;
-@property(readonly, nonatomic) unsigned long long alarmsCount;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
 @end
 

@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _GCUserIntentInputEvent
 {
     long long _octant;
-    double _timestampInSeconds;
 }
 
 - (double);
@@ -17,7 +16,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) long long octant; // @synthesize octant=_octant;
-@property(readonly, nonatomic) double timestampInSeconds; // @synthesize timestampInSeconds=_timestampInSeconds;
 
 @end
 

@@ -9,8 +9,6 @@
 @interface MSASAssetCollectionChange
 {
     _Bool _wasDeleted;
-    NSString *_GUID;
-    NSString *_ctag;
 }
 
 - (void);
@@ -24,8 +22,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *GUID; // @synthesize GUID=_GUID;
-@property(retain, nonatomic) NSString *ctag; // @synthesize ctag=_ctag;
-@property(nonatomic) _Bool wasDeleted; // @synthesize wasDeleted=_wasDeleted;
 
 @end
 

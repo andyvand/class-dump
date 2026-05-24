@@ -9,24 +9,22 @@
 @interface TRISQLiteCKDatabaseFailureInjectionDelegate
 {
     NSMutableArray *_queryErrors;
-    NSMutableArray *_fetchErrors;
 }
 
 + (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (_Bool)setPreserveLegacyHeadroom:(id)arg1;
+- (_Bool)setPreparesMediaDataForRealTimeConsumption:(id)arg1;
+- (id)setCreationDate:timeZone: /* Error: Ran out of types for this method. */;
+- (id)resolvedURL;
+- (id)quickTimeUserDataMultitrackMemoryMovieType;
+- (id)prepareForPlaybackWithTargetSize:options:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)initWithLossyCompressionQuality:(id)arg1;
+- (void)serAdjustedVisibleFrame:(id)arg1;
+- (id)rvice %@:(id)arg1 Error parsing optional characteristics;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *fetchErrors; // @synthesize fetchErrors=_fetchErrors;
 @property(retain, nonatomic) NSMutableArray *queryErrors; // @synthesize queryErrors=_queryErrors;
 
 @end

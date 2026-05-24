@@ -4,55 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORPMerchantLookupContext, GEORPMerchantLookupCorrections, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPMerchantLookupFeedback
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEORPMerchantLookupContext *_context;
-    GEORPMerchantLookupCorrections *_corrections;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    CDStruct_c6f0c348 _flags;
 }
 
-+ (_Bool)etLatencyMs:(id)arg1;
++ (_Bool)setLatencyMs:(id)arg1;
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)\@9(;
+- (id)H;
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)kerRecognitionController";
+- (void)CSVoiceTriggerHearstAPEnabledPolicy;
+- (void)CSP2P_GradingBatchTransferID_Key;
+- (id)hM;
 - (unsigned long long);
-- (_Bool);
-- (id);
+- (_Bool)w;
+- (id)_restaurantLink_firstProviderIdentifier;
 - (_Bool);
 - (id);
 - (void);
 - (void)Â0@ù
 × ;
 - (id)serLibUserNoteClientFix"b1"read_userNote"b1"read_visitedPlace"b1"wrote_anyField"b1};
-- (id)earBusiness;
+- (id)clearBusiness;
 - (id);
 - (id)alue"8Q16^B24;
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) GEORPMerchantLookupContext *context;
-@property(retain, nonatomic) GEORPMerchantLookupCorrections *corrections;
 @property(readonly, nonatomic) _Bool hasContext;
-@property(readonly, nonatomic) _Bool hasCorrections;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

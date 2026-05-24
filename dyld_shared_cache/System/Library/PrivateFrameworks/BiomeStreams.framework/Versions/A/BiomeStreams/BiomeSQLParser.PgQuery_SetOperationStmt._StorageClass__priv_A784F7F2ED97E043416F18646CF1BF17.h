@@ -7,13 +7,6 @@
 @interface BiomeSQLParser.PgQuery_SetOperationStmt._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _op;
-    id _all;
-    id _larg;
-    id _rarg;
-    id _colTypes;
-    id _colTypmods;
-    id _colCollations;
-    id _groupClauses;
 }
 
 @end

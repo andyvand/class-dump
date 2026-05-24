@@ -4,27 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIKBRenderTraits;
+@class UIKBRenderTraits;
 
 @interface UIKBRenderFactoryLayoutSegment
 {
     int _rectCount;
-    struct CGRect _rects[10];
-    unsigned long long _triangleCorners[10];
-    int _edgeCount;
-    unsigned long long _edges[10];
-    NSString *_cachedKeyNames[10];
-    _Bool _requireAllMatches;
-    int _states;
-    UIKBRenderTraits *_traits;
 }
 
 + (id)að1Â0@ù
 × ;
-- (id);
+- (id);
 - (void);
-- (void);
-- (int);
+- (void)setUpNextItemCount:(struct CGRect)arg1;
+- (int)initWithPayload:requestPayload:hashedPersonID: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void)int",&,N,V_minHeightConstraint;
 - (id)ø;
@@ -34,8 +26,6 @@
 - (void)^A]_g;
 
 // Remaining properties
-@property(nonatomic) int keyStates; // @synthesize keyStates=_states;
-@property(nonatomic) _Bool requireAllMatches; // @synthesize requireAllMatches=_requireAllMatches;
 @property(readonly, nonatomic) UIKBRenderTraits *traits; // @synthesize traits=_traits;
 
 @end

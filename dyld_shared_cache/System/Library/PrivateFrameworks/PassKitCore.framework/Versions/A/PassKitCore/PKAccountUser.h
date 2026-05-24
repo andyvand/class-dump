@@ -4,50 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSPersonNameComponents, NSSet, NSString, PKAccountUserNotificationSettings, PKAccountUserPreferences;
-
 @interface PKAccountUser
 {
     _Bool _currentUser;
-    _Bool _dirty;
-    unsigned long long _accessLevel;
-    NSString *_altDSID;
-    unsigned long long _accountState;
-    NSString *_appleID;
-    NSSet *_addressableHandles;
-    NSSet *_supportedFeatures;
-    PKAccountUserPreferences *_preferences;
-    unsigned long long _identityStatus;
-    NSDate *_lastUpdated;
-    NSSet *_transactionSourceIdentifiers;
-    NSString *_accountIdentifier;
-    PKAccountUserNotificationSettings *_notificationSettings;
-    NSString *_firstName;
-    NSString *_lastName;
 }
 
 + (_Bool);
++ (_Bool)%;
 + (_Bool);
-+ (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)?;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)qk;
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id));
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -56,48 +39,32 @@
 - (void);
 - (void);
 - (void);
+- (_Bool)addHopCountHistogram:(id)arg1;
+- (void)_btmHasPreferredCandidateList;
+- (id),V_captivePresentFailedCount;
+- (void);
 - (_Bool);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
+- (void)hhx;
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
 - (void)Details";
-- (id)oning: /* Error: Ran out of types for this method. */;
-- (void)reDescriptor;
-- (id)tedDataForKey: /* Error: Ran out of types for this method. */;
-- (id)opertyImage;
+- (id)setSupportsSerialNumberBasedProvisioning: /* Error: Ran out of types for this method. */;
+- (void)requestStatementFeatureDescriptor;
+- (id)pk_encryptedDataForKey: /* Error: Ran out of types for this method. */;
+- (id)_emissionMaterialPropertyImage;
 - (id);
 - (id);
-- (id)sClickedOnSeeAll;
-- (void)nstallments;
-- (id)igible;
+- (id)hasClickedOnSeeAll;
+- (void)issuerInstallments;
+- (id)blockedEligible;
 - (void);
 - (void)ÆÿéAmP¸;
 - (id)pDòÿ;
 
 // Remaining properties
 @property(nonatomic) unsigned long long accessLevel; // @synthesize accessLevel=_accessLevel;
-@property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(nonatomic) unsigned long long accountState; // @synthesize accountState=_accountState;
-@property(copy, nonatomic) NSSet *addressableHandles; // @synthesize addressableHandles=_addressableHandles;
-@property(copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(copy, nonatomic) NSString *appleID; // @synthesize appleID=_appleID;
-@property(nonatomic, getter=isCurrentUser) _Bool currentUser; // @synthesize currentUser=_currentUser;
-@property(nonatomic, getter=isDirty) _Bool dirty; // @synthesize dirty=_dirty;
-@property(copy, nonatomic) NSString *firstName; // @synthesize firstName=_firstName;
-@property(nonatomic) unsigned long long identityStatus; // @synthesize identityStatus=_identityStatus;
-@property(copy, nonatomic) NSString *lastName; // @synthesize lastName=_lastName;
-@property(retain, nonatomic) NSDate *lastUpdated; // @synthesize lastUpdated=_lastUpdated;
-@property(readonly, nonatomic) NSPersonNameComponents *nameComponents;
-@property(retain, nonatomic) PKAccountUserNotificationSettings *notificationSettings; // @synthesize notificationSettings=_notificationSettings;
-@property(retain, nonatomic) PKAccountUserPreferences *preferences; // @synthesize preferences=_preferences;
-@property(copy, nonatomic) NSSet *supportedFeatures; // @synthesize supportedFeatures=_supportedFeatures;
-@property(copy, nonatomic) NSSet *transactionSourceIdentifiers; // @synthesize transactionSourceIdentifiers=_transactionSourceIdentifiers;
 
 @end
 

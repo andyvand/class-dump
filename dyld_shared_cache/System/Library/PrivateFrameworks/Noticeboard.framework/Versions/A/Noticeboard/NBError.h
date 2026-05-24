@@ -8,9 +8,9 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)-[PXVideoSession init];
++ (id).update;
++ (id)ertiaCam Output;
 
 @end
 

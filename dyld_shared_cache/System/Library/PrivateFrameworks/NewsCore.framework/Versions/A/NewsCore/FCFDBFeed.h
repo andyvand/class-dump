@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCFeedRange, NSArray, NSData, NSString;
+@class NSString;
 
 @interface FCFDBFeed
 {
     NSString *_feedID;
-    unsigned long long _refreshedFromOrder;
-    unsigned long long _refreshedToOrder;
-    NSArray *_fetchedRanges;
-    long long _feedLookupID;
 }
 
 - (id);
@@ -23,30 +19,23 @@
 - (void);
 - (long long);
 - (id);
-- (id);
+- (id)ansform="a"d"b"d"c"d"d"d"tx"d"ty"d};
 - (void);
 - (id);
 - (id);
+- (id)iterScoredEventsWithQuery:(unsigned long long)arg1 error:block: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)ctedly nil! :%@ /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
 - (id);
 - (id);
 - (id)"NSURL",&,N,V_sourceURL;
-- (void)yColor;
+- (void)secondaryColor;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *feedID; // @synthesize feedID=_feedID;
-@property(readonly, nonatomic) long long feedLookupID; // @synthesize feedLookupID=_feedLookupID;
-@property(readonly, nonatomic) NSArray *fetchedRanges; // @synthesize fetchedRanges=_fetchedRanges;
-@property(readonly, nonatomic) NSData *fetchedRangesData;
-@property(readonly, nonatomic) FCFeedRange *refreshRegion;
-@property(readonly, nonatomic) unsigned long long refreshedFromOrder; // @synthesize refreshedFromOrder=_refreshedFromOrder;
-@property(readonly, nonatomic) unsigned long long refreshedToOrder; // @synthesize refreshedToOrder=_refreshedToOrder;
-@property(readonly, nonatomic) FCFeedRange *trailingEmptyRegion;
 
 @end
 

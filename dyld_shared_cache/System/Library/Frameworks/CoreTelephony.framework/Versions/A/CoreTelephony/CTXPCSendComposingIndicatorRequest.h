@@ -6,29 +6,26 @@
 
 #import <CoreTelephony/CTXPCSubscriptionContextRequest.h>
 
-@class CTLazuliDestination, CTLazuliGroupChatUri, CTLazuliMessageComposingIndicator, CTLazuliMessageID;
+@class CTLazuliMessageID;
 
 __attribute__((visibility("hidden")))
 @interface CTXPCSendComposingIndicatorRequest : CTXPCSubscriptionContextRequest
 {
 }
 
-+ (id);
++ (id)Xؗ9C;
 - (void);
+- (id)\@9	;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)!;
+- (id)B;
 - (int);
-- (id)ndSettings;
+- (id)kSettingsModelCopyBasebandSettings;
 
 // Remaining properties
-@property(readonly, nonatomic) CTLazuliDestination *destination;
-@property(readonly, nonatomic) CTLazuliGroupChatUri *groupChatURI;
-@property(readonly, nonatomic) CTLazuliMessageComposingIndicator *indication;
 @property(readonly, nonatomic) CTLazuliMessageID *messageID;
 
 @end

@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface AVMetricEvent
 {
     NSDate *_date;
-    CDStruct_1b6d18a9 _mediaTime;
-    NSString *_sessionID;
 }
 
 + (_Bool);
 - (CDStruct_1b6d18a9);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id).M;
 
 // Remaining properties
 @property(readonly) NSDate *date;
-@property(readonly) CDStruct_1b6d18a9 mediaTime;
-@property(readonly) NSString *sessionID;
 
 @end
 

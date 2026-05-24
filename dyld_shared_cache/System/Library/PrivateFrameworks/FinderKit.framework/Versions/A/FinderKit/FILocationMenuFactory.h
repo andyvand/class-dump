@@ -4,50 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSPopUpButton, NSString;
+@class NSObject, NSPopUpButton;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface FILocationMenuFactory
 {
     NSObject<OS_dispatch_queue> *_queue;
-    struct mutex _lock;
-    struct TNSWeakPtr<NSPopUpButton> _weakPopUpButton;
-    shared_ptr_294aa30a _iconFetcher;
-    struct unique_ptr<FIAmbiguousMenuItems, std::default_delete<FIAmbiguousMenuItems>> _ambiguousMenuItems;
-    struct FIBuildMenuData _data;
-    unsigned long long _generationCount;
-    _Bool _tornDown;
-    _Bool _forceRebuild;
 }
 
 - (_Bool);
 - (void);
 - (void);
-- (shared_ptr_294aa30a);
+- (shared_ptr_a3732858);
 - (void);
 - (id);
-- (id);
+- (id)!;
+- (_Bool);
+- (void)9;
+- (void);
+- (void);
+- (void);
+- (void)A;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)n;
+- (id);
+- (id)ts Module Level 5 progress();
+- (void)setCGZoomFactor:(_Bool)arg1 smoothImages:velocity:completion: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
@@ -58,18 +50,7 @@ __attribute__((visibility("hidden")))
 - (id)tH;
 
 // Remaining properties
-@property(readonly) const void *data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool forceRebuild; // @synthesize forceRebuild=_forceRebuild;
-@property(readonly) unsigned long long generationCount;
-@property(readonly) unsigned long long hash;
 @property(readonly) __weak NSPopUpButton *popUpButton;
-@property(readonly) Class superclass;
-@property(getter=isTornDown) _Bool tornDown; // @synthesize tornDown=_tornDown;
 
 @end
 

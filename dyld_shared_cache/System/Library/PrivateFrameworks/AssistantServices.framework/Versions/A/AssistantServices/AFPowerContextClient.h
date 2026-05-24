@@ -7,10 +7,9 @@
 @interface AFPowerContextClient
 {
     int _notificationToken;
-    unsigned int _registrationStatus;
 }
 
-- (_Bool);
+- (_Bool);
 - (id);
 - (unsigned long long);
 - (void);

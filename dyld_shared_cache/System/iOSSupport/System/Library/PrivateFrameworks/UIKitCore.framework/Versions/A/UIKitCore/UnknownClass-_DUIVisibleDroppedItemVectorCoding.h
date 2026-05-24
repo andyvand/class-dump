@@ -7,13 +7,13 @@
 @class UIStoryboardDecodingContext;
 
 @interface UnknownClass (_DUIVisibleDroppedItemVectorCoding)
-- (void);
-- (struct CAPoint3D);
-- (void);
-- (void);
+- (void)ge sync token to nil;
+- (struct CAPoint3D)c %@;
 - (void);
 - (void);
-- (CDStruct_39925896);
+- (void);
+- (void);
+- (CDStruct_bd34ff7f);
 - (struct UIOffset);
 - (struct NSDirectionalEdgeInsets);
 - (struct CGVector);
@@ -36,12 +36,12 @@
 - (void);
 - (void);
 - (struct UIEdgeInsets);
-- (struct CGAffineTransform);
+- (struct CGAffineTransform)�P;
 - (void);
-- (struct CGRect);
+- (struct CGRect)R;
 - (void);
 - (void);
-- (struct CGPoint)Splashboard:(id)arg1;
+- (struct CGPoint)setShouldRestrictViewsForSplashboard:(id)arg1;
 - (void)è;
 - (struct CGSize)scene command menu for identifier '%@';
 

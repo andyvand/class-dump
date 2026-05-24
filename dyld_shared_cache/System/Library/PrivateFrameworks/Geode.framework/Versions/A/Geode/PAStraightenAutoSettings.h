@@ -7,12 +7,6 @@
 @interface PAStraightenAutoSettings
 {
     double _yawAngleInDegreesCCW;
-    double _pitchAngleInDegreesCCW;
-    double _straightenAngleInDegreesCCW;
-    long long _xOrigin;
-    long long _yOrigin;
-    unsigned long long _width;
-    unsigned long long _height;
 }
 
 - (double);
@@ -24,8 +18,8 @@
 - (void);
 - (long long);
 - (void);
-- (void);
-- (long long);
+- (void)isPanoramaInDocument:(long long)arg1;
+- (long long)sionalMode;
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
@@ -33,12 +27,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long height; // @synthesize height=_height;
-@property(nonatomic) double pitchAngleInDegreesCCW; // @synthesize pitchAngleInDegreesCCW=_pitchAngleInDegreesCCW;
-@property(nonatomic) double straightenAngleInDegreesCCW; // @synthesize straightenAngleInDegreesCCW=_straightenAngleInDegreesCCW;
-@property(nonatomic) unsigned long long width; // @synthesize width=_width;
-@property(nonatomic) long long xOrigin; // @synthesize xOrigin=_xOrigin;
-@property(nonatomic) long long yOrigin; // @synthesize yOrigin=_yOrigin;
 @property(nonatomic) double yawAngleInDegreesCCW; // @synthesize yawAngleInDegreesCCW=_yawAngleInDegreesCCW;
 
 @end

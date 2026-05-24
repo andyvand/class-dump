@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECSubject, NSDate, NSString;
-@protocol IMAPAccount, IMAPMessageDataSource;
+@protocol IMAPAccount;
 
 @interface IMAPMessage
 {
     unsigned int _uid;
-    long long _originalFlags;
 }
 
 + (void);
-- (long long);
+- (long long);
 - (id);
 - (id);
 - (_Bool);
@@ -25,30 +23,11 @@
 - (unsigned int);
 - (void);
 - (void);
-- (id);
-- (id)chUnits: /* Error: Ran out of types for this method. */;
+- (id)!8(!!;
+- (id)setFetchUnits: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <IMAPAccount> account;
-@property(readonly) id <IMAPMessageDataSource> dataSource;
-@property(readonly) NSDate *dateReceived;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasAttachments;
-@property(readonly) unsigned long long hash;
-@property _Bool isPartial;
-@property(readonly, copy, nonatomic) NSString *mailboxName;
-@property(readonly, copy, nonatomic) NSString *messageID;
-@property(readonly) unsigned long long messageSize;
-@property(readonly, nonatomic) long long originalFlags; // @synthesize originalFlags=_originalFlags;
-@property _Bool partsHaveBeenCached;
-@property(readonly, nonatomic) _Bool shouldDeferBodyDownload;
-@property(readonly, copy) ECSubject *subject;
-@property(readonly) Class superclass;
-@property unsigned int uid;
 
 @end
 

@@ -9,18 +9,16 @@
 @interface ICMusicAccountNotificationsSettingsResponse
 {
     NSDictionary *_responseDictionary;
-    _Bool _wasSuccessful;
 }
 
-+ (id);
++ (id)n"16;
 - (id);
 - (id);
-- (void)ectionSessionDataSource;
+- (void)MSVQRConnectionSessionDataSource;
 - (_Bool)a;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *settingsSwitches;
-@property(readonly, nonatomic) _Bool wasSuccessful; // @synthesize wasSuccessful=_wasSuccessful;
 
 @end
 

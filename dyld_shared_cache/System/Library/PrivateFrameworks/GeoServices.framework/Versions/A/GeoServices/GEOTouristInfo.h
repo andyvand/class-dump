@@ -9,15 +9,9 @@
 @interface GEOTouristInfo
 {
     PBUnknownFields *_unknownFields;
-    double _fetchTimestamp;
-    _Bool _isTourist;
-    struct {
-        unsigned int has_fetchTimestamp:1;
-        unsigned int has_isTourist:1;
-    } _flags;
 }
 
-+ (_Bool)ttedAddress:(id)arg1;
++ (_Bool)setMerchantFormattedAddress:(id)arg1;
 - (double);
 - (void);
 - (id);
@@ -25,7 +19,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)getMitigationDecisionForRCIdWithCompletion:(id)arg1 requestId:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -34,9 +28,9 @@
 - (_Bool);
 - (void);
 - (id);
-- (id)stionMetadata;
+- (id)hasSuggestionMetadata;
 - (id)GEOResultRefinementMultiSelect;
-- (id)RECTIONS_STEP_WRONG_WAY;
+- (id)DIRECTIONS_STEP_WRONG_WAY;
 - (void);
 - (void)Ñ¶BAÆD¡e"P@;
 - (_Bool)W`ÈêVL@;
@@ -44,11 +38,7 @@
 - (void)@;
 
 // Remaining properties
-@property(nonatomic) double fetchTimestamp;
-@property(nonatomic) _Bool hasFetchTimestamp;
 @property(nonatomic) _Bool hasIsTourist;
-@property(nonatomic) _Bool isTourist;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

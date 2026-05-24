@@ -7,10 +7,6 @@
 @interface AppStoreKit.Footnote
 {
     id text;
-    id presentationStyle;
-    id id;
-    id automationMetadata;
-    id clickAction;
 }
 
 @end

@@ -5,5 +5,9 @@
 //
 
 @protocol IAMContextProvider
+- (id);
+
+@optional
+- (void)CA9	a;
 @end
 

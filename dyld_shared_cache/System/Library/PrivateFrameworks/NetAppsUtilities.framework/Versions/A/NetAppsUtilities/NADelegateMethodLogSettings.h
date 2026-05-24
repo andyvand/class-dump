@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_os_log;
-
 @interface NADelegateMethodLogSettings
 {
     unsigned char _logType;
-    NSObject<OS_os_log> *_log;
-    CDUnknownBlockType _argumentFormatter;
-    CDUnknownBlockType _logger;
 }
 
 - (id);
@@ -20,16 +14,13 @@
 - (CDUnknownBlockType);
 - (id);
 - (unsigned char);
-- (id);
+- (id);
 - (void);
 - (CDUnknownBlockType);
 - (void)Ñàê;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType argumentFormatter; // @synthesize argumentFormatter=_argumentFormatter;
-@property(readonly, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(readonly, nonatomic) unsigned char logType; // @synthesize logType=_logType;
-@property(copy, nonatomic) CDUnknownBlockType logger; // @synthesize logger=_logger;
 
 @end
 

@@ -6,25 +6,22 @@
 
 #import <CoreAutoLayout/NSLayoutXAxisAnchor.h>
 
-@class NSArray, NSLayoutDimension;
+@class NSArray;
 
 @interface _NSCompositeLayoutXAxisAnchor : NSLayoutXAxisAnchor
 {
     NSLayoutXAxisAnchor *_xAxisAnchor;
-    double _constant;
-    double _dimensionMultiplier;
-    NSLayoutDimension *_dimension;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (double);
-- (void);
+- (void)MLMultiArrayShapeConstraint;
 - (id);
-- (void);
+- (void)_initWithUserIdentity:(id)arg1;
 - (long long);
 
 // Remaining properties

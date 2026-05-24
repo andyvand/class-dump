@@ -4,34 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFTimer, NSHashTable;
+@class NSHashTable;
 @protocol HMDStatusChannelPayloadPublisher;
 
 __attribute__((visibility("hidden")))
 @interface HMDDomainInfo
 {
     NSHashTable *_observers;
-    id <HMDStatusChannelPayloadPublisher> _publisher;
-    unsigned long long _currentPublishCount;
-    HMFTimer *_resetTimer;
 }
 
-- (void);
+- (void)_MSPSharedTripSingleCapabilityLevelFetcher;
 - (id);
 - (unsigned long long);
-- (void);
+- (void)initWithDomain:(id)arg1 code:userInfo: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)del %@ in %@:%@ /* Error: Ran out of types for this method. */;
-- (void)led_writeVersion;
-- (id)Count;
+- (void)root_general_accessibility_interaction_touchAccommodations_enabled_writeVersion;
+- (id)bulletinNotificationsPostedCount;
 - (void)post;
 - (id)þÿÄò;
 
 // Remaining properties
-@property(nonatomic) unsigned long long currentPublishCount; // @synthesize currentPublishCount=_currentPublishCount;
-@property(readonly, nonatomic) NSHashTable *observers;
 @property(nonatomic) __weak id <HMDStatusChannelPayloadPublisher> publisher; // @synthesize publisher=_publisher;
-@property(retain, nonatomic) HMFTimer *resetTimer; // @synthesize resetTimer=_resetTimer;
 
 @end
 

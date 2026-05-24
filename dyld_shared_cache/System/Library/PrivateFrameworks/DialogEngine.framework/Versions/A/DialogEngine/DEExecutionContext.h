@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface DEExecutionContext
 {
     void *_This;
-    shared_ptr_3beef14e _SharedThis;
 }
 
 + (id);
@@ -26,7 +23,7 @@
 - (void *);
 - (void);
 - (id);
-- (shared_ptr_3beef14e);
+- (shared_ptr_296881ae);
 - (void);
 - (id);
 - (id);
@@ -37,10 +34,7 @@
 - (void)»ÐºÐµ;
 
 // Remaining properties
-@property shared_ptr_3beef14e SharedThis; // @synthesize SharedThis=_SharedThis;
-@property void *This; // @synthesize This=_This;
-@property(readonly) NSString *loadStatus;
-@property(readonly) NSString *locale;
+@property shared_ptr_296881ae SharedThis; // @synthesize SharedThis=_SharedThis;
 
 @end
 

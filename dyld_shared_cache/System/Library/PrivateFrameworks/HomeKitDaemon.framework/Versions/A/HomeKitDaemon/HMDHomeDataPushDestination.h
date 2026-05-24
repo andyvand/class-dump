@@ -4,32 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDUser, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomeDataPushDestination
 {
     _Bool _ignoreConfigCompare;
-    NSString *_username;
-    HMDUser *_user;
-    NSString *_destination;
 }
 
-- (void);
-- (id);
+- (void)unifiedContactWithIdentifier:(_Bool)arg1 keysToFetch:error: /* Error: Ran out of types for this method. */;
+- (id)q;
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)_;
 - (id)@;
 - (void)SUUID"16@?0@"HMDAccessory"8;
 - (id)î;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *destination; // @synthesize destination=_destination;
-@property(nonatomic) _Bool ignoreConfigCompare; // @synthesize ignoreConfigCompare=_ignoreConfigCompare;
-@property(readonly, nonatomic) NSString *pushDestination;
-@property(readonly, nonatomic) HMDUser *user; // @synthesize user=_user;
 @property(readonly, nonatomic) NSString *username; // @synthesize username=_username;
 
 @end

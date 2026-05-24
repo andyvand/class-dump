@@ -6,18 +6,14 @@
 
 #import <BiomeStreams/BMEventBase.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface BMContextualActionEvent : BMEventBase
 {
     NSString *_identifier;
-    NSString *_appName;
-    NSString *_actionName;
-    NSArray *_contents;
-    NSArray *_parameters;
 }
 
-+ (id);
++ (id);
 + (id);
 - (id);
 - (id);
@@ -29,29 +25,17 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
+- (id)A;
+- (id)(=;
+- (id)!;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)bigint;
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *actionName; // @synthesize actionName=_actionName;
-@property(readonly, copy, nonatomic) NSString *appName; // @synthesize appName=_appName;
-@property(readonly, nonatomic) NSArray *contents; // @synthesize contents=_contents;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSArray *parameters; // @synthesize parameters=_parameters;
-@property(readonly) Class superclass;
 
 @end
 

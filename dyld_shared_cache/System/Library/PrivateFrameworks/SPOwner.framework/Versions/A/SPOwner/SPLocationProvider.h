@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, SPHandle;
+@class NSDate;
 
 @interface SPLocationProvider
 {
     NSDate *_timestamp;
-    SPHandle *_provider;
 }
 
 + (_Bool);
@@ -19,15 +18,14 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (id);
+- (void)own paths for this guid:(id)arg1 %s;
+- (id)DowntimeConversationEntity;
 - (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) SPHandle *provider; // @synthesize provider=_provider;
 @property(copy, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end

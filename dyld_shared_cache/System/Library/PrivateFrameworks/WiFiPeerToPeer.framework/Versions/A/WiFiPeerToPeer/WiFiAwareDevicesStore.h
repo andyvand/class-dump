@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WiFiP2PXPCConnection;
+@class WiFiP2PXPCConnection;
 @protocol WiFiAwareDevicesStoreDelegate;
 
 @interface WiFiAwareDevicesStore
 {
     WiFiP2PXPCConnection *_xpcConnection;
-    id <WiFiAwareDevicesStoreDelegate> _delegate;
 }
 
 - (void);
@@ -20,13 +19,13 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)`;
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
@@ -37,22 +36,15 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)z;
+- (id);
+- (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id) ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <WiFiAwareDevicesStoreDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

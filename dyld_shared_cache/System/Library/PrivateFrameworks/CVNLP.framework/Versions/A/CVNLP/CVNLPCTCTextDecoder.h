@@ -6,7 +6,7 @@
 
 #import <CVNLP/CVNLPTextDecoder.h>
 
-@class CVNLPActivationMatrix, NSString;
+@class CVNLPActivationMatrix;
 
 @interface CVNLPCTCTextDecoder : CVNLPTextDecoder
 {
@@ -14,24 +14,17 @@
 }
 
 - (void);
+- (id)�';
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)4.5;
+- (id)1y;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) CVNLPActivationMatrix *activationMatrix; // @synthesize activationMatrix=_activationMatrix;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,28 +6,26 @@
 
 #import <ReminderKit/REMStoreInvocation.h>
 
-@class NSArray, REMObjectID;
+@class NSArray;
 
 @interface REMRemindersDataViewInvocation_fetchByExternalIdentifier : REMStoreInvocation
 {
     NSArray *_externalIdentifiers;
-    REMObjectID *_listObjectID;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)UC;
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *externalIdentifiers; // @synthesize externalIdentifiers=_externalIdentifiers;
-@property(readonly, nonatomic) REMObjectID *listObjectID; // @synthesize listObjectID=_listObjectID;
 
 @end
 

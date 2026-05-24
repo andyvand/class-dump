@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKMainEventHandler, AKPageController, NSMutableDictionary, NSString, UIPointerInteraction, UIScrollView;
+@class AKPageController;
 
 @interface AKOverlayView
 {
     _Bool _isObserving;
-    _Bool _deferWasMovedToSuperviewUntilMoveToWindow;
-    _Bool _scrollViewIsInLiveMagnify;
-    _Bool _isObservingEventHandling;
-    AKPageController *_pageController;
-    AKMainEventHandler *_mainEventHandler;
-    UIScrollView *_observedScrollView;
-    UIPointerInteraction *_pointerInteraction;
-    NSMutableDictionary *_pointerRegionToHandleViewDict;
 }
 
 + (void)IPopoverPresentationController"16;
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -53,7 +45,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)E?;
 - (_Bool);
 - (void);
 - (void);
@@ -73,22 +65,22 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
+- (void);
+- (void)@0:(id)arg1 8@16Q24;
+- (void);
+- (_Bool)Opacity(theNode) > 0 || rendererElement->_renderableAttributeKind == kC3DRenderableAttributeKindParticleSystem;
+- (id)rison func;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (void);
+- (void)#;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (_Bool);
-- (void);
+- (void)\;
 - (id);
 - (void);
 - (void);
@@ -97,22 +89,7 @@
 - (void)0:(id)arg1 8@"AKPopupAnnotation"16;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property _Bool deferWasMovedToSuperviewUntilMoveToWindow; // @synthesize deferWasMovedToSuperviewUntilMoveToWindow=_deferWasMovedToSuperviewUntilMoveToWindow;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property _Bool isObserving; // @synthesize isObserving=_isObserving;
-@property _Bool isObservingEventHandling; // @synthesize isObservingEventHandling=_isObservingEventHandling;
-@property __weak AKMainEventHandler *mainEventHandler; // @synthesize mainEventHandler=_mainEventHandler;
-@property(retain) UIScrollView *observedScrollView; // @synthesize observedScrollView=_observedScrollView;
 @property __weak AKPageController *pageController; // @synthesize pageController=_pageController;
-@property(retain, nonatomic) UIPointerInteraction *pointerInteraction; // @synthesize pointerInteraction=_pointerInteraction;
-@property(retain, nonatomic) NSMutableDictionary *pointerRegionToHandleViewDict; // @synthesize pointerRegionToHandleViewDict=_pointerRegionToHandleViewDict;
-@property _Bool scrollViewIsInLiveMagnify; // @synthesize scrollViewIsInLiveMagnify=_scrollViewIsInLiveMagnify;
-@property(readonly) Class superclass;
 
 @end
 

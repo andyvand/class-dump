@@ -9,27 +9,26 @@
 @interface CDPWalrusDaemonService
 {
     unsigned long long _entitlements;
-    CDPInternalWalrusStateController *_walrusStateController;
 }
 
-- (void);
+- (void)@} HandlerSet:(id)arg1 %@ RegisteredWithXPC:%@ /* Error: Ran out of types for this method. */;
 - (oneway void);
 - (void);
 - (_Bool);
 - (id);
 - (oneway void);
-- (_Bool);
+- (_Bool)?E;
 - (void);
 - (oneway void);
 - (id);
 - (oneway void);
 - (oneway void);
 - (oneway void);
-- (oneway void);
+- (oneway void)+;
 - (id);
 - (void);
 - (id);
-- (oneway void)er:(unsigned long long)arg1;
+- (oneway void)_requestToJoinAfterRestoreAndWaitForSuccessWithHandler:(unsigned long long)arg1;
 
 // Remaining properties
 @property(retain, nonatomic) CDPInternalWalrusStateController *walrusStateController; // @synthesize walrusStateController=_walrusStateController;

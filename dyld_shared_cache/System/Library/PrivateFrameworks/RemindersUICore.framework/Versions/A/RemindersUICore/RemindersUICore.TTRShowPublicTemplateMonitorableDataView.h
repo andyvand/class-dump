@@ -7,7 +7,6 @@
 @interface RemindersUICore.TTRShowPublicTemplateMonitorableDataView
 {
     id store;
-    id publicTemplateObjectID;
 }
 
 @end

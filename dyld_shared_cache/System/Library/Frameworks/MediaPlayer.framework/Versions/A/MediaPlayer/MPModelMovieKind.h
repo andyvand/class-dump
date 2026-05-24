@@ -9,10 +9,9 @@
 @interface MPModelMovieKind : MPModelKind
 {
     unsigned long long _variants;
-    unsigned long long _options;
 }
 
-+ (id);
++ (id);
 + (id);
 + (_Bool);
 - (id);
@@ -20,13 +19,12 @@
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)T;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)t;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
 @property(readonly, nonatomic) unsigned long long variants; // @synthesize variants=_variants;
 
 @end

@@ -7,12 +7,14 @@
 @class NSArray, _INPBIntentMetadata;
 
 @protocol _INPBAddCallParticipantIntent
-- (_Bool)sAllParameters;
++ (Class);
+- (unsigned long long);
+- (_INPBIntentMetadata *).private.directorycompletiondate;
+- (NSArray *)ING %d;
+- (void)\;
+- (_Bool)_resolvesAllParameters;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(copy, nonatomic) NSArray *participants;
-@property(readonly, nonatomic) unsigned long long participantsCount;
 @end
 

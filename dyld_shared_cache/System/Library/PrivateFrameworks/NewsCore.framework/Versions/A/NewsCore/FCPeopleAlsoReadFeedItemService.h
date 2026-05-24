@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol FCContentContext, FCNewsAppConfigurationManager, FCReadingHistoryType;
+@protocol FCNewsAppConfigurationManager;
 
 @interface FCPeopleAlsoReadFeedItemService
 {
     id <FCNewsAppConfigurationManager> _configurationManager;
-    id <FCContentContext> _contentContext;
-    id <FCReadingHistoryType> _readingHistory;
 }
 
 - (id);
@@ -23,8 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <FCNewsAppConfigurationManager> configurationManager; // @synthesize configurationManager=_configurationManager;
-@property(readonly, nonatomic) id <FCContentContext> contentContext; // @synthesize contentContext=_contentContext;
-@property(readonly, nonatomic) id <FCReadingHistoryType> readingHistory; // @synthesize readingHistory=_readingHistory;
 
 @end
 

@@ -4,59 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIScrollView, UIView, _UIFindNavigatorViewController;
+@class _UIFindNavigatorViewController;
 
 __attribute__((visibility("hidden")))
 @interface _UIFindNavigatorHarness
 {
     _Bool _isHoistingFindNavigator;
-    _Bool _interactionViewIsWebView;
-    UIView *_interactionView;
-    UIView *_hostView;
-    UIScrollView *_hostScrollView;
-    _UIFindNavigatorViewController *_findNavigatorViewController;
 }
 
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)sendNotifyRecipientCommandForMessage:(id)arg1 toChatGuid:(_Bool)arg2 identifier:(long long)arg3 style: /* Error: Ran out of types for this method. */;
+- (id)baseAttachmentController;
+- (void)_scheduledMessageRecordZoneID;
+- (void)_scheduledDate;
+- (id)_scheduleState;
+- (_Bool)_scheduleMetricOperation:(id)arg1;
+- (void)_postMessagesFromStorage:(_Bool)arg1;
+- (void)_postHubbleDownloadFailedForTransfer:(_Bool)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)_guidToListenersCache;
+- (void)IMDaemonListenerFileProviderProtocol;
 - (_Bool);
 - (void);
+- (void)ArchivedMessagesSync is YES, fetched max live record batches but will also fetch initial sync archived records if needed:%@ /* Error: Ran out of types for this method. */;
+- (id)ssage %@;
+- (void)s:%@) /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)_establishConnectionIfNeeded;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void)orActiveWindowingMode;
+- (void)_hidesCenterViewForActiveWindowingMode;
 - (id)43¥sþ;
 - (id);
 - (void)¤\;
 - (void)¢\Õ a;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) _UIFindNavigatorViewController *findNavigatorViewController; // @synthesize findNavigatorViewController=_findNavigatorViewController;
-@property(readonly, nonatomic, getter=isFindNavigatorVisible) _Bool findNavigatorVisible;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak UIScrollView *hostScrollView; // @synthesize hostScrollView=_hostScrollView;
-@property(nonatomic) __weak UIView *hostView; // @synthesize hostView=_hostView;
-@property(nonatomic) __weak UIView *interactionView; // @synthesize interactionView=_interactionView;
-@property(readonly) Class superclass;
 
 @end
 

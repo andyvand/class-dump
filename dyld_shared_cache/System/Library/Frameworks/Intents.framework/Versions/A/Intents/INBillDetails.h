@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INBillPayee, INCurrencyAmount, NSDateComponents, NSString;
+@class INBillPayee;
 
 @interface INBillDetails
 {
     INBillPayee *_billPayee;
-    INCurrencyAmount *_amountDue;
-    INCurrencyAmount *_minimumDue;
-    INCurrencyAmount *_lateFee;
-    NSDateComponents *_dueDate;
-    NSDateComponents *_paymentDate;
-    long long _billType;
-    long long _paymentStatus;
 }
 
 + (id);
@@ -34,36 +27,22 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)16^{CGColorSpace=}32@?40;
 - (void);
 - (id);
-- (id);
+- (id)@+;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)dler;
+- (void)NSNetworkWasCaptiveProperty(void);
 - (id);
-- (id);
-- (id)hes;
-- (void)nt;
+- (id);
+- (id)_disableSmartDashes;
+- (void)SetNumericSettingIntent;
 - (id);
 
 // Remaining properties
-@property(copy) INCurrencyAmount *amountDue; // @synthesize amountDue=_amountDue;
 @property(copy) INBillPayee *billPayee; // @synthesize billPayee=_billPayee;
-@property long long billType; // @synthesize billType=_billType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSDateComponents *dueDate; // @synthesize dueDate=_dueDate;
-@property(readonly) unsigned long long hash;
-@property(copy) INCurrencyAmount *lateFee; // @synthesize lateFee=_lateFee;
-@property(copy) INCurrencyAmount *minimumDue; // @synthesize minimumDue=_minimumDue;
-@property(copy) NSDateComponents *paymentDate; // @synthesize paymentDate=_paymentDate;
-@property long long paymentStatus; // @synthesize paymentStatus=_paymentStatus;
-@property(readonly) Class superclass;
 
 @end
 

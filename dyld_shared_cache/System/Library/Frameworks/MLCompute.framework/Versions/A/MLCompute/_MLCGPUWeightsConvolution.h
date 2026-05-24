@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLCActivationDescriptor, MLCConvolutionDescriptor, MLCTensor, MPSCNNConvolutionDescriptor, NSString;
+@class MLCTensor, MPSCNNConvolutionDescriptor;
 
 @interface _MLCGPUWeightsConvolution
 {
     MLCTensor *_weight;
-    MLCTensor *_biasTerm;
-    MLCTensor *_localWeight;
-    MLCTensor *_localBiasTerm;
-    MLCActivationDescriptor *_neuronDesc;
-    MPSCNNConvolutionDescriptor *_descMPS;
-    MLCConvolutionDescriptor *_desc;
 }
 
 + (id);
-+ (id);
++ (id)];
 - (void);
 - (id);
 - (id);
@@ -27,36 +21,23 @@
 - (id);
 - (void);
 - (id);
-- (unsigned int);
+- (unsigned int)_';
 - (float *);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (unsigned int);
 - (void *);
 - (unsigned int);
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) __weak MLCTensor *biasTerm; // @synthesize biasTerm=_biasTerm;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) MLCConvolutionDescriptor *desc; // @synthesize desc=_desc;
 @property(readonly, nonatomic) MPSCNNConvolutionDescriptor *descMPS; // @synthesize descMPS=_descMPS;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) MLCTensor *localBiasTerm; // @synthesize localBiasTerm=_localBiasTerm;
-@property(retain, nonatomic) MLCTensor *localWeight; // @synthesize localWeight=_localWeight;
-@property(readonly, nonatomic) MLCActivationDescriptor *neuronDesc; // @synthesize neuronDesc=_neuronDesc;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) __weak MLCTensor *weight; // @synthesize weight=_weight;
 
 @end
 

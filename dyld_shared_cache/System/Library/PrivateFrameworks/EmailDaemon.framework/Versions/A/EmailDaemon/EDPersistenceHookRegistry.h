@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface EDPersistenceHookRegistry
 {
     struct os_unfair_lock_s _lock;
-    struct __CFDictionary *_hookRespondersBySelector;
-    struct __CFDictionary *_methodSignaturesBySelector;
 }
 
 + (id);
@@ -19,18 +15,18 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
+- (void)u;
+- (void);
+- (void)%;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)Z;
 - (void);
 - (void);
 - (void);
@@ -38,20 +34,14 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)A;
+- (id);
 - (_Bool);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

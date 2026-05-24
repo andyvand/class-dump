@@ -4,45 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSSlider, NSStackView;
+@class NSStackView;
 @protocol CNPhotoLikenessEditorZoomDelegate;
 
 @interface CNPhotoLikenessEditorZoomSliderController
 {
     id <CNPhotoLikenessEditorZoomDelegate> _zoomDelegate;
-    NSStackView *_zoomStackView;
-    NSSlider *_zoomSlider;
-    NSButton *_zoomInButton;
-    NSButton *_zoomOutButton;
 }
 
-- (void);
+- (void)T;
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)xb;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void)MediaObject:(id)arg1;
-- (void)estrictions:(id)arg1;
+- (void)setMediaObject:(id)arg1;
+- (void)setIgnoresGuardianRestrictions:(id)arg1;
 
 // Remaining properties
-@property __weak id <CNPhotoLikenessEditorZoomDelegate> zoomDelegate; // @synthesize zoomDelegate=_zoomDelegate;
-@property(retain, nonatomic) NSButton *zoomInButton; // @synthesize zoomInButton=_zoomInButton;
-@property(retain, nonatomic) NSButton *zoomOutButton; // @synthesize zoomOutButton=_zoomOutButton;
-@property(retain, nonatomic) NSSlider *zoomSlider; // @synthesize zoomSlider=_zoomSlider;
 @property(retain, nonatomic) NSStackView *zoomStackView; // @synthesize zoomStackView=_zoomStackView;
 
 @end

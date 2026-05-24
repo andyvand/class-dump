@@ -5,5 +5,8 @@
 //
 
 @protocol CABackdropLayerDelegate
+
+@optional
+- (void);
 @end
 

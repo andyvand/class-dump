@@ -4,46 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CWDisplayedScanResult, NSArray, NSButton, NSImageView, NSProgressIndicator, NSScrollView, NSString, NSTableView, NSTextField;
+@class CWDisplayedScanResult;
 
 @interface CWBrowseDialog_SL
 {
     CWDisplayedScanResult *_scanResult;
-    id _delegate;
-    NSArray *_updateScanResults;
-    NSArray *_scanResults;
-    _Bool _showingNetworkBrowser;
-    NSString *_customTitle;
-    NSString *_customDescription;
-    long long _prevSelectedRow;
-    long long _selectedRow;
-    NSImageView *imageView;
-    NSTextField *windowTitleLabel;
-    NSTextField *windowDescriptionLabel;
-    NSButton *okButton;
-    NSButton *cancelButton;
-    NSTextField *statusMessageLabel;
-    NSButton *warningButton;
-    NSProgressIndicator *progressIndicator;
-    NSTableView *tableView;
-    NSScrollView *tableScrollView;
-    NSButton *helpButton;
 }
 
 + (id);
-- (void);
-- (void);
-- (id);
+- (void));
 - (void);
 - (id);
-- (void);
 - (void);
 - (id);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -56,26 +37,14 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)�;
 - (void);
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(copy) NSString *customDescription; // @synthesize customDescription=_customDescription;
-@property(copy) NSString *customTitle; // @synthesize customTitle=_customTitle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property id delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) CWDisplayedScanResult *scanResult; // @synthesize scanResult=_scanResult;
-@property(copy) NSArray *scanResults; // @synthesize scanResults=_scanResults;
-@property(readonly) Class superclass;
-@property(copy) NSArray *updateScanResults; // @synthesize updateScanResults=_updateScanResults;
 
 @end
 

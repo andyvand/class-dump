@@ -6,27 +6,25 @@
 
 #import <PassKitCore/PKPaymentWebServiceRequest.h>
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface PKPaymentCommonAvailableProductsRequest : PKPaymentWebServiceRequest
 {
     NSString *_preferredLanguage;
-    NSURL *_contentURL;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (id)resh of stored BAA (UCRT) keys and certificates;
-- (void)y;
+- (void)SFCreditCardSecurityCodeKey;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *contentURL; // @synthesize contentURL=_contentURL;
 @property(readonly, copy, nonatomic) NSString *preferredLanguage; // @synthesize preferredLanguage=_preferredLanguage;
 
 @end

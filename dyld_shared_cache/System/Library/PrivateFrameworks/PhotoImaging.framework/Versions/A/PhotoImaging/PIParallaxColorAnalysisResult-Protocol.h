@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol PIParallaxColorAnalysisResult
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *dominantColors;
 @property(readonly, nonatomic) double medianLuminance;
 @end
 

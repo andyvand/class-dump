@@ -7,16 +7,13 @@
 @class NSColor;
 
 @protocol NSControlStateContentStyle
-- (NSColor *)andler: /* Error: Ran out of types for this method. */;
-- (long long)erDefaultsControllerFlags;
+- (long long)4;
+- (NSColor *)initWithLanguages:selectedIndex:actionHandler: /* Error: Ran out of types for this method. */;
+- (long long)_userDefaultsControllerFlags;
 - (_Bool)K;
 - (void);
 
 // Remaining properties
-@property(getter=isEmphasized) _Bool emphasized;
-@property long long presentationState;
 @property long long state;
-@property(copy) NSColor *tintColor;
-@property long long value;
 @end
 

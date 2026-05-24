@@ -16,9 +16,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
+- (id)g"24C32@"IMItem"36;
 - (id);
-- (id);
-- (SEL)ble;
+- (SEL)flexible;
 - (void)ansitionP;
 - (id);
 

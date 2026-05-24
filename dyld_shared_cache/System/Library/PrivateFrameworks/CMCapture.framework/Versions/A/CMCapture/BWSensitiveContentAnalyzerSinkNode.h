@@ -12,14 +12,13 @@ __attribute__((visibility("hidden")))
 @interface BWSensitiveContentAnalyzerSinkNode : BWSinkNode
 {
     SCVideoStreamAnalyzer *_sensitiveContentAnalyzer;
-    _Bool _sensitiveContentAnalyzerEnabled;
 }
 
 + (void).98;
 - (id);
+- (void)OI_TSUImageM;
 - (void);
-- (void);
-- (void);
+- (void)7C;
 - (id);
 - (id)t >>>> %s:%{public}s Device cannot be stolen by the flashlight /* Error: Ran out of types for this method. */;
 - (void)Ê;ÙÿÑ<ÙÿÙ=Úÿá>Úÿ5½ÿ5½ÿ5½ÿ5¼ÿ5¼ÿ5¼ÿ&6¼ÿ.6¼ÿ56½ÿ>7¾ÿE7¿ÿL7ÁÿT8Âÿ[8Äÿc9Çÿj9Éÿq:(id)arg1 Ëÿx:(id)arg2 Íÿ;Ïÿ;Ðÿ<Òÿ<Óÿ=Ôÿ¥>Õÿ¬>Öÿ³?×ÿ»@ØÿÃAÙÿÊBÙÿÒBÚÿÙCÚÿáDÛÿ=½ÿ=½ÿ

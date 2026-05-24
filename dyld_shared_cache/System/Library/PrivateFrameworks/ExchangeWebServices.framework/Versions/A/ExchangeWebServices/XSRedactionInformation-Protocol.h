@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol XSRedactionInformation
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *allowedElementKeys;
 @property(readonly, nonatomic) _Bool elementsNeedRedaction;
 @end
 

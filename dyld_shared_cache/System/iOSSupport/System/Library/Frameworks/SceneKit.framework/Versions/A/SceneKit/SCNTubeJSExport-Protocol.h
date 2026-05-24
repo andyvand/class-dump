@@ -5,12 +5,10 @@
 //
 
 @protocol SCNTubeJSExport
+- (double);
+- (void)displayMode;
 
 // Remaining properties
-@property(nonatomic) double height;
-@property(nonatomic) long long heightSegmentCount;
 @property(nonatomic) double innerRadius;
-@property(nonatomic) double outerRadius;
-@property(nonatomic) long long radialSegmentCount;
 @end
 

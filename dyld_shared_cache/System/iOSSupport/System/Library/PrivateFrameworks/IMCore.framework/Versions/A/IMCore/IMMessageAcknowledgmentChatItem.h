@@ -16,6 +16,5 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *fileTransferGUIDs;
-@property(readonly, copy, nonatomic) IMMessage *message; // @synthesize message=_message;
 @end
 

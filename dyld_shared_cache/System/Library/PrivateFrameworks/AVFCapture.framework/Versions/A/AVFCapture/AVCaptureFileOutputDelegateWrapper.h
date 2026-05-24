@@ -4,54 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVWeakReferencingDelegateStorage, NSArray, NSString, NSURL;
-
 __attribute__((visibility("hidden")))
 @interface AVCaptureFileOutputDelegateWrapper
 {
     _Bool _recording;
-    _Bool _paused;
-    _Bool _trueVideoCaptureEnabled;
-    long long _settingsID;
-    NSURL *_outputFileURL;
-    NSString *_outputFileType;
-    NSArray *_metadata;
-    AVWeakReferencingDelegateStorage *_delegateStorage;
-    NSArray *_connections;
-    struct OpaqueFigCaptureSession *_pendingDidStopRecordingUnregistrationCaptureSession;
 }
 
-+ (id);
-- (void);
-- (struct OpaqueFigCaptureSession *);
++ (id)carry;
+- (void);
+- (struct OpaqueFigCaptureSession *)ement must be inside <songwriters>;
+- (id)}@];
+- (_Bool)rceImageToJPEGDestination:imageDestination cannot be NULL /* Error: Ran out of types for this method. */;
+- (id)kSymptomDiagnosticErrorDailyLimitExceeded;
+- (void)setShowRevisionMarksOnScreen:(id)arg1;
+- (id)setFloating: /* Error: Ran out of types for this method. */;
+- (void)accountStore:didSaveAccount:changeType: /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)meraCapture/CMCapture/Sources/Common/CMCaptureUserNotification.m;
 - (void);
 - (void);
 - (long long);
-- (void);
+- (void)escriptor"16;
 - (void);
 - (id)Ô^;
 - (_Bool)ity;
 - (_Bool)è;
 
 // Remaining properties
-@property(readonly) NSArray *connections; // @synthesize connections=_connections;
-@property(readonly) AVWeakReferencingDelegateStorage *delegateStorage; // @synthesize delegateStorage=_delegateStorage;
-@property(retain) NSArray *metadata; // @synthesize metadata=_metadata;
-@property(retain) NSString *outputFileType; // @synthesize outputFileType=_outputFileType;
-@property(readonly) NSURL *outputFileURL; // @synthesize outputFileURL=_outputFileURL;
-@property(nonatomic, getter=isPaused) _Bool paused; // @synthesize paused=_paused;
-@property(retain, nonatomic) struct OpaqueFigCaptureSession *pendingDidStopRecordingUnregistrationCaptureSession; // @synthesize pendingDidStopRecordingUnregistrationCaptureSession=_pendingDidStopRecordingUnregistrationCaptureSession;
-@property(nonatomic, getter=isRecording) _Bool recording; // @synthesize recording=_recording;
 @property(readonly) long long settingsID; // @synthesize settingsID=_settingsID;
-@property(nonatomic, getter=isTrueVideoCaptureEnabled) _Bool trueVideoCaptureEnabled; // @synthesize trueVideoCaptureEnabled=_trueVideoCaptureEnabled;
 
 @end
 

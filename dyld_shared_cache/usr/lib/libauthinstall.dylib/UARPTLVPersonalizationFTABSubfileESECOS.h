@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned short);
 - (id);
-- (id);
+- (id)startAnimation;
 
 // Remaining properties
 @property(readonly) unsigned short esec; // @synthesize esec=_esec;

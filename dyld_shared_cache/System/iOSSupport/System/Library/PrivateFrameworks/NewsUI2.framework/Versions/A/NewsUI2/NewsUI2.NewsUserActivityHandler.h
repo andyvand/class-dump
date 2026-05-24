@@ -7,10 +7,6 @@
 @interface NewsUI2.NewsUserActivityHandler
 {
     id patterns;
-    id navigator;
-    id userActivityDeserializer;
-    id tracker;
-    id resolver;
 }
 
 @end

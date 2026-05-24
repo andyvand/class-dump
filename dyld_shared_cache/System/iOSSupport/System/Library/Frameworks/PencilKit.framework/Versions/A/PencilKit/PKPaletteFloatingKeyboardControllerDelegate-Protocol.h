@@ -5,5 +5,8 @@
 //
 
 @protocol PKPaletteFloatingKeyboardControllerDelegate
+
+@optional
+- (void);
 @end
 

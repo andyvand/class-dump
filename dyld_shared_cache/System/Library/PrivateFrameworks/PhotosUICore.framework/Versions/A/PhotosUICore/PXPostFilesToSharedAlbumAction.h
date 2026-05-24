@@ -6,13 +6,11 @@
 
 #import <PhotosUICore/PXPhotosAction.h>
 
-@class NSArray, NSString, PHAssetCollection;
+@class PHAssetCollection;
 
 @interface PXPostFilesToSharedAlbumAction : PXPhotosAction
 {
     PHAssetCollection *_sharedAlbum;
-    NSArray *_fileURLs;
-    NSString *_comment;
 }
 
 - (id);

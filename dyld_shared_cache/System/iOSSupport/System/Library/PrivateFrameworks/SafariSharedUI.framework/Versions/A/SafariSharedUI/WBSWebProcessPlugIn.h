@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMapTable, NSString, WBSSearchProvider, WKWebProcessPlugInController;
+@class NSMapTable, WKWebProcessPlugInController;
 
 @interface WBSWebProcessPlugIn
 {
     NSMapTable *_browserContextControllersToWebProcessPlugInPageControllers;
-    WKWebProcessPlugInController *_plugInController;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -20,28 +19,15 @@
 - (_Bool);
 - (id);
 - (void);
+- (void)�;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)_setShouldHideArrow: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void)ifiedURLStringForDeduping;
-- (_Bool)dNumberFieldLabels;
+- (void)safari_simplifiedURLStringForDeduping;
+- (_Bool)nonCreditCardCardNumberFieldLabels;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long abGroupIdentifier;
-@property(readonly, nonatomic, getter=isABTestingEnabled) _Bool abTestingEnabled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) WBSSearchProvider *defaultSearchProvider;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isAutoFillDrivenByUIProcess;
-@property(readonly, nonatomic) _Bool isReaderViewInSeparateProcessEnabled;
 @property(readonly, nonatomic) WKWebProcessPlugInController *plugInController; // @synthesize plugInController=_plugInController;
-@property(readonly, nonatomic) NSArray *searchEnginesForRedirectToSafeSearch;
-@property(readonly) Class superclass;
 
 @end
 

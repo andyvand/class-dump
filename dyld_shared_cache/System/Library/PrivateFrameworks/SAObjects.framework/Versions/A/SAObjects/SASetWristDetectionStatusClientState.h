@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseCommand.h>
 
-@class NSString, SAWristDetectionStatusClientState;
+@class SAWristDetectionStatusClientState;
 
 @interface SASetWristDetectionStatusClientState : SABaseCommand
 {
@@ -17,20 +17,11 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceId; // @dynamic aceId;
 @property(retain, nonatomic) SAWristDetectionStatusClientState *clientState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *refId; // @dynamic refId;
-@property(readonly) Class superclass;
 
 @end
 

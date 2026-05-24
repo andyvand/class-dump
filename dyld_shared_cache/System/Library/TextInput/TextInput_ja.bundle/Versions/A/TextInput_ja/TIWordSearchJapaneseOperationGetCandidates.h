@@ -10,11 +10,6 @@
 {
     _Bool _flickUsed;
     _Bool _phraseBoundarySet;
-    _Bool _allowIncompleteRomaji;
-    _Bool _referenceMode;
-    _Bool _singlePhrase;
-    NSString *_contextString;
-    NSString *_previousCacheKey;
 }
 
 - (void);
@@ -30,19 +25,14 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)H;
 - (id);
 - (id);
-- (void);
+- (void)texture conformsToProtocol:@protocol(MTLTexture)] || [u.texture isKindOfClass:[UniImage class]]) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool allowIncompleteRomaji; // @synthesize allowIncompleteRomaji=_allowIncompleteRomaji;
 @property(readonly, nonatomic) NSString *contextString; // @synthesize contextString=_contextString;
-@property(nonatomic) _Bool flickUsed; // @synthesize flickUsed=_flickUsed;
-@property(nonatomic) _Bool phraseBoundarySet; // @synthesize phraseBoundarySet=_phraseBoundarySet;
 @property(copy, nonatomic) NSString *previousCacheKey; // @synthesize previousCacheKey=_previousCacheKey;
-@property(nonatomic) _Bool referenceMode; // @synthesize referenceMode=_referenceMode;
-@property(nonatomic) _Bool singlePhrase; // @synthesize singlePhrase=_singlePhrase;
 
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NFUnfairLock, NSMapTable;
+@class NFUnfairLock;
 
 @interface FCThreadSafeMapTable
 {
     NFUnfairLock *_lock;
-    NSMapTable *_mapTable;
 }
 
 + (id);
@@ -19,12 +18,12 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)topSuggestionsForSink:(id)arg1 count:queue:handler: /* Error: Ran out of types for this method. */;
+- (id)allKeysExceptWallpaper;
 - (id);
-- (id);
-- (void);
-- (unsigned long long)InStatus: /* Error: Ran out of types for this method. */;
-- (void)sionValue;
+- (void)0@9;
+- (unsigned long long)setIgnoreWebOptInStatus: /* Error: Ran out of types for this method. */;
+- (void)existingSubscriptionRelatedBaselineImpressionValue;
 - (void)ghlight_evergreen_articles;
 - (void)database, model=%{public}s, error=%{public}@;
 

@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSView;
-
 __attribute__((visibility("hidden")))
 @interface NSStepperAquaduckVisualProvider
 {
     id stepper;
-    id hostingView;
-    CDStruct_77becdfd currentDrawingState;
 }
 
-- (void);
+- (void)accept_didReceiveData_withoutCB;
 - (long long);
-- (void);
-- (void);
-- (id);
-- (CDStruct_77becdfd);
-- (int);
+- (void)ate;
+- (void)_secure,     is_hostOnly, is_httpOnly, same_site, creation_time, expires_time, last_access_time)     values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+- (id)pty cookie array;
+- (CDStruct_77becdfd)WHERE entry_ID=%s;;
+- (int)erver;
 - (void);
 - (id);
 - (struct CGSize);
@@ -29,11 +25,7 @@ __attribute__((visibility("hidden")))
 - (struct NSEdgeInsets)¸(©G;
 
 // Remaining properties
-@property(nonatomic, readonly) struct NSEdgeInsets alignmentRectInsets;
-@property(nonatomic, readonly) int blendModeForContextDrawing;
 @property(nonatomic) CDStruct_77becdfd currentDrawingState; // @synthesize currentDrawingState;
-@property(nonatomic, readonly) NSView *designatedFocusRingView;
-@property(nonatomic, readonly) struct CGSize intrinsicContentSize;
 
 @end
 

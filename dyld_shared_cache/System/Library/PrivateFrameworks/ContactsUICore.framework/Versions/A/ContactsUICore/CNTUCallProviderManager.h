@@ -4,32 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNLaunchServices, NSArray, NSDictionary, NSNumber, NSSet, NSString, TUCallProviderManager;
+@class CNLaunchServices, TUCallProviderManager;
 
 @interface CNTUCallProviderManager
 {
     TUCallProviderManager *_callProviderManager;
-    CNLaunchServices *_launchServices;
-    NSArray *_thirdPartyDefaultAppCallProvidersCache;
-    NSArray *_otherThirdPartyCallProvidersCache;
-    NSSet *_defaultCallingAppsBundleIdentifiersCache;
-    NSDictionary *_defaultCallingAppsBundleIdentifierScorerCache;
-    NSDictionary *_defaultVideoAppsBundleIdentifierScorerCache;
-    NSNumber *_hasDefaultCallProviderCache;
 }
 
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -40,39 +33,22 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)*!;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
+- (void);
 - (id);
-- (void)lderProviderFactory:contact: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void)silhouetteWithPlaceholderProviderFactory:contact: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) TUCallProviderManager *callProviderManager; // @synthesize callProviderManager=_callProviderManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy, nonatomic) NSDictionary *defaultCallingAppsBundleIdentifierScorer;
-@property(retain, nonatomic) NSDictionary *defaultCallingAppsBundleIdentifierScorerCache; // @synthesize defaultCallingAppsBundleIdentifierScorerCache=_defaultCallingAppsBundleIdentifierScorerCache;
-@property(retain, nonatomic) NSSet *defaultCallingAppsBundleIdentifiersCache; // @synthesize defaultCallingAppsBundleIdentifiersCache=_defaultCallingAppsBundleIdentifiersCache;
-@property(readonly, copy, nonatomic) NSDictionary *defaultVideoAppsBundleIdentifierScorer;
-@property(retain, nonatomic) NSDictionary *defaultVideoAppsBundleIdentifierScorerCache; // @synthesize defaultVideoAppsBundleIdentifierScorerCache=_defaultVideoAppsBundleIdentifierScorerCache;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasDefaultCallProvider;
-@property(retain, nonatomic) NSNumber *hasDefaultCallProviderCache; // @synthesize hasDefaultCallProviderCache=_hasDefaultCallProviderCache;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) CNLaunchServices *launchServices; // @synthesize launchServices=_launchServices;
-@property(retain, nonatomic) NSArray *otherThirdPartyCallProvidersCache; // @synthesize otherThirdPartyCallProvidersCache=_otherThirdPartyCallProvidersCache;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSArray *thirdPartyDefaultAppCallProvidersCache; // @synthesize thirdPartyDefaultAppCallProvidersCache=_thirdPartyDefaultAppCallProvidersCache;
 
 @end
 

@@ -21,10 +21,11 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)shing hose [%{ptr}] (%@):%f seconds flushed, new buffer level = %f
+ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void)ð;

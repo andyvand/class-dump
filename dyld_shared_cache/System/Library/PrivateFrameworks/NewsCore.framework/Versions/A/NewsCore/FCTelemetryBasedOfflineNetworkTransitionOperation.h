@@ -6,20 +6,12 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class FCMultiNetworkBehaviorMonitor, NFUnfairLock, NSDate, NSSet, NSString;
+@class NSDate;
 @protocol FCAppActivationMonitorType;
 
 @interface FCTelemetryBasedOfflineNetworkTransitionOperation : FCOperation
 {
     NSDate *_dateOfLastSuccess;
-    double _minimumSecondsSinceSuccessToOffline;
-    double _maximumDurationToCountAsSuccess;
-    CDUnknownBlockType _transitionBlock;
-    id <FCAppActivationMonitorType> _appActivationMonitor;
-    NSSet *_ignoredHosts;
-    FCMultiNetworkBehaviorMonitor *_networkBehaviorMonitor;
-    NFUnfairLock *_lock;
-    NSDate *_monitoringStartDate;
 }
 
 - (void);
@@ -27,7 +19,7 @@
 - (void);
 - (void);
 - (id);
-- (double);
+- (double);
 - (id);
 - (id);
 - (id);
@@ -38,28 +30,13 @@
 - (void);
 - (id);
 - (id)Ô;
-- (void)nValue;
+- (void)topicBoostForSourceRelatedFeedImpressionValue;
 - (void)Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCBundleSubscriptionManager.m;
-- (void)wvUEAiCNSI6RIUZN3DynBA;
+- (void)TwvUEAiCNSI6RIUZN3DynBA;
 - (id)e of the coreads article lists exist;
 
 // Remaining properties
 @property(readonly, nonatomic) id <FCAppActivationMonitorType> appActivationMonitor; // @synthesize appActivationMonitor=_appActivationMonitor;
-@property(copy, nonatomic) NSDate *dateOfLastSuccess; // @synthesize dateOfLastSuccess=_dateOfLastSuccess;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSSet *ignoredHosts; // @synthesize ignoredHosts=_ignoredHosts;
-@property(readonly, nonatomic) NFUnfairLock *lock; // @synthesize lock=_lock;
-@property(nonatomic) double maximumDurationToCountAsSuccess; // @synthesize maximumDurationToCountAsSuccess=_maximumDurationToCountAsSuccess;
-@property(nonatomic) double minimumSecondsSinceSuccessToOffline; // @synthesize minimumSecondsSinceSuccessToOffline=_minimumSecondsSinceSuccessToOffline;
-@property(copy, nonatomic) NSDate *monitoringStartDate; // @synthesize monitoringStartDate=_monitoringStartDate;
-@property(readonly, nonatomic) FCMultiNetworkBehaviorMonitor *networkBehaviorMonitor; // @synthesize networkBehaviorMonitor=_networkBehaviorMonitor;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) CDUnknownBlockType transitionBlock; // @synthesize transitionBlock=_transitionBlock;
 
 @end
 

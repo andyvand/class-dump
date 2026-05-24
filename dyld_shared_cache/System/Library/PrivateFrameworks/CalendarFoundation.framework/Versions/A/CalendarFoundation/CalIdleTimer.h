@@ -5,22 +5,18 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@protocol OS_dispatch_queue;
 
 @interface CalIdleTimer
 {
     NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _timeoutBlock;
-    NSObject<OS_dispatch_source> *_timer;
-    unsigned long long _timeoutInSeconds;
-    unsigned long long _leewayInSeconds;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 
 @end
 

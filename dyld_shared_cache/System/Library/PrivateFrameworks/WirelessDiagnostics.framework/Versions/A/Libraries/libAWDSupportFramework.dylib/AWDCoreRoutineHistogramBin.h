@@ -7,21 +7,16 @@
 @interface AWDCoreRoutineHistogramBin
 {
     unsigned int _count;
-    unsigned int _value;
-    struct {
-        unsigned int count:1;
-        unsigned int value:1;
-    } _has;
 }
 
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void));
+- (void)i>;
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -30,13 +25,10 @@
 - (unsigned int);
 - (id);
 - (void);
-- (unsigned int);
+- (unsigned int)setRootPath: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned int count; // @synthesize count=_count;
-@property(nonatomic) _Bool hasCount;
 @property(nonatomic) _Bool hasValue;
-@property(nonatomic) unsigned int value; // @synthesize value=_value;
 
 @end
 

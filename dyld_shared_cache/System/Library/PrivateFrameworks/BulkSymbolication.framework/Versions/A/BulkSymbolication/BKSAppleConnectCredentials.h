@@ -9,7 +9,6 @@
 @interface BKSAppleConnectCredentials
 {
     NSString *_userName;
-    NSString *_dawToken;
 }
 
 - (id);
@@ -18,7 +17,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *dawToken; // @synthesize dawToken=_dawToken;
 @property(readonly, nonatomic) NSString *userName; // @synthesize userName=_userName;
 
 @end

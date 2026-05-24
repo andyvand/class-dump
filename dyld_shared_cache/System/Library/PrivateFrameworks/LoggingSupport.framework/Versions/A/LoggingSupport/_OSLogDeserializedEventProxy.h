@@ -6,37 +6,22 @@
 
 #import <LoggingSupport/OSLogEventProxy.h>
 
-@class NSDictionary, _OSLogEventSerializationMetadata;
+@class _OSLogEventSerializationMetadata;
 
 __attribute__((visibility("hidden")))
 @interface _OSLogDeserializedEventProxy : OSLogEventProxy
 {
     _Bool _unixDateNeedsLookup;
-    _Bool _unixTimeZoneNeedsLookup;
-    struct timezone _unixTimeZone;
-    struct timeval _unixDate;
-    _Bool _lossStartUnixDateNeedsLookup;
-    _Bool _lossStartUnixTimeZoneNeedsLookup;
-    struct timeval _lossStartUnixDate;
-    struct timezone _lossStartUnixTimeZone;
-    _Bool _lossEndUnixDateNeedsLookup;
-    _Bool _lossEndUnixTimeZoneNeedsLookup;
-    struct timeval _lossEndUnixDate;
-    struct timezone _lossEndUnixTimeZone;
-    _Bool _needsTypeLookup;
-    NSDictionary *_curEventDictionary;
-    _OSLogEventSerializationMetadata *_metadata;
-    unsigned long long _type;
 }
 
 - (id);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
-- (id);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long)!;
+- (id)correctionEnabled;
+- (void)_taskManagerEndedNotification: /* Error: Ran out of types for this method. */;
+- (unsigned long long)IKCameraDeviceViewDestinationChanged;
 - (id);
 - (void);
 - (id);
@@ -44,7 +29,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (CDStruct_0dd72924);
 - (struct timeval *);
-- (id);
+- (id) ;
 - (struct timeval *);
 - (_Bool);
 - (void);
@@ -55,15 +40,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (const char *);
 - (id);
+- (unsigned long long)w;
 - (unsigned long long);
-- (unsigned long long);
-- (void);
+- (void)`-;
 - (int);
 - (unsigned long long);
 - (id);
@@ -75,7 +60,7 @@ __attribute__((visibility("hidden")))
 - (const char *);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (struct timeval *);
 - (id);
 - (struct timezone *);
@@ -91,9 +76,7 @@ __attribute__((visibility("hidden")))
 - (id)ence released before close;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *curEventDictionary; // @synthesize curEventDictionary=_curEventDictionary;
 @property(retain, nonatomic) _OSLogEventSerializationMetadata *metadata; // @synthesize metadata=_metadata;
-@property(nonatomic) _Bool needsTypeLookup; // @synthesize needsTypeLookup=_needsTypeLookup;
 
 @end
 

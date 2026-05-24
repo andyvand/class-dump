@@ -5,5 +5,7 @@
 //
 
 @protocol APPCLifecycleMetricsHelping
+- (void)editorAllowsMagnifier;
+- (void)j;
 @end
 

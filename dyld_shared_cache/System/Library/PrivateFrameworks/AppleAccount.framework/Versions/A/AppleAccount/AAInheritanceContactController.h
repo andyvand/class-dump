@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AAInheritanceController, CIImage, NSString;
-@protocol AAInheritanceContactInfo;
+@class NSString;
 
 @interface AAInheritanceContactController
 {
     long long _contactType;
-    AAInheritanceController *_inheritanceController;
-    id <AAInheritanceContactInfo> _contactInfo;
-    CIImage *_accessKeyQRCodeImage;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)codePolicy kPasscodeRequireAlphanumeric newpolicy = %s;
+- (void)eAllPasscodePolicies kPasscodeCustomRegex status error = %d;
+- (void)deChangeAtNextAuth status error = %d;
+- (id)cns;
+- (id)s = %d;
+- (id)onCreateFromPath failed for:%s (%d) /* Error: Ran out of types for this method. */;
+- (id)than EIR shape. Input = ;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void)tialsCFUPosted;
+- (void)isRenewCredentialsCFUPosted;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *accessKeyString;
 @property(readonly, nonatomic) NSString *claimTokenString;
 
 @end

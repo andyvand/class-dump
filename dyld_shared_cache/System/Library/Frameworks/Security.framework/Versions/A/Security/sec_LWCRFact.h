@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 __attribute__((visibility("hidden")))
 @interface sec_LWCRFact
 {
     struct Fact fact;
-    NSString *stringFactStorage;
-    NSData *dataFactStorage;
 }
 
 + (id);

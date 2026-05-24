@@ -6,45 +6,39 @@
 
 #import <InputMethodKit/IMKUICandidateWindowController.h>
 
-@class IMKUICandidateBarView, IMKUICandidateLineLayout, IMKUICandidateLineLayoutIterator, IMKUIEmojiItemView;
+@class IMKUICandidateBarView;
 
 @interface IMKUIEmojiLightweightCandidateWindowController : IMKUICandidateWindowController
 {
     IMKUICandidateBarView *_candidateBar;
-    IMKUICandidateLineLayout *_lineLayout;
-    IMKUICandidateLineLayoutIterator *_lineLayoutIterator;
-    IMKUIEmojiItemView *_itemView;
 }
 
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)+;
+- (void)";
 - (void);
 - (void);
 - (struct CGSize);
-- (void);
-- (void);
+- (void)k!;
+- (void);
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (struct CGPoint);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void)private}@' (length:%{public}ld) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) IMKUICandidateBarView *candidateBar; // @synthesize candidateBar=_candidateBar;
-@property(retain, nonatomic) IMKUIEmojiItemView *itemView; // @synthesize itemView=_itemView;
-@property(retain, nonatomic) IMKUICandidateLineLayout *lineLayout; // @synthesize lineLayout=_lineLayout;
-@property(retain, nonatomic) IMKUICandidateLineLayoutIterator *lineLayoutIterator; // @synthesize lineLayoutIterator=_lineLayoutIterator;
 
 @end
 

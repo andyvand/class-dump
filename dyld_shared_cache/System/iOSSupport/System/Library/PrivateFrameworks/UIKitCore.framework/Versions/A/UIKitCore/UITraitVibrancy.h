@@ -12,7 +12,7 @@
 + (_Bool);
 + (_Bool);
 + (id);
-+ (id)rvice;
++ (id)ViewService;
 + (long long)¸g;
 
 @end

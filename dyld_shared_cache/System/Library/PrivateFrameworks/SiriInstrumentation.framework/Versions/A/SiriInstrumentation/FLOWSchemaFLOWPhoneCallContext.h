@@ -6,28 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class FLOWSchemaFLOWContact, FLOWSchemaFLOWPhoneCallEmergencyContext, NSArray, NSData;
-
 @interface FLOWSchemaFLOWPhoneCallContext : SISchemaInstrumentationMessage
 {
     int _phoneCallType;
-    NSArray *_recipientTypes;
-    int _phoneCallAppType;
-    FLOWSchemaFLOWPhoneCallEmergencyContext *_emergencyContext;
-    NSArray *_personTypes;
-    _Bool _isThirdPartyFaceTime;
-    int _searchCallHistoryIntent;
-    int _userPersona;
-    FLOWSchemaFLOWContact *_contact;
-    struct {
-        unsigned int phoneCallType:1;
-        unsigned int phoneCallAppType:1;
-        unsigned int isThirdPartyFaceTime:1;
-        unsigned int searchCallHistoryIntent:1;
-        unsigned int userPersona:1;
-    } _has;
-    _Bool _hasEmergencyContext;
-    _Bool _hasContact;
 }
 
 - (int);
@@ -76,9 +57,10 @@
 - (_Bool);
 - (void);
 - (int);
-- (id);
-- (id);
-- (void);
+- (id)Write to SMC failed;
+- (id)mework/Versions/A/ProtocolBuffer;
+- (void)nverted address %@ -> %@, setting scopeID:(int)arg1 %d%?{end} from interfaceName %@
+;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -92,23 +74,7 @@
 - (void)°Ð¯É$;
 
 // Remaining properties
-@property(retain, nonatomic) FLOWSchemaFLOWContact *contact; // @synthesize contact=_contact;
-@property(retain, nonatomic) FLOWSchemaFLOWPhoneCallEmergencyContext *emergencyContext; // @synthesize emergencyContext=_emergencyContext;
-@property(nonatomic) _Bool hasContact; // @synthesize hasContact=_hasContact;
-@property(nonatomic) _Bool hasEmergencyContext; // @synthesize hasEmergencyContext=_hasEmergencyContext;
-@property(nonatomic) _Bool hasIsThirdPartyFaceTime;
-@property(nonatomic) _Bool hasPhoneCallAppType;
-@property(nonatomic) _Bool hasPhoneCallType;
-@property(nonatomic) _Bool hasSearchCallHistoryIntent;
-@property(nonatomic) _Bool hasUserPersona;
-@property(nonatomic) _Bool isThirdPartyFaceTime; // @synthesize isThirdPartyFaceTime=_isThirdPartyFaceTime;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *personTypes; // @synthesize personTypes=_personTypes;
-@property(nonatomic) int phoneCallAppType; // @synthesize phoneCallAppType=_phoneCallAppType;
 @property(nonatomic) int phoneCallType; // @synthesize phoneCallType=_phoneCallType;
-@property(copy, nonatomic) NSArray *recipientTypes; // @synthesize recipientTypes=_recipientTypes;
-@property(nonatomic) int searchCallHistoryIntent; // @synthesize searchCallHistoryIntent=_searchCallHistoryIntent;
-@property(nonatomic) int userPersona; // @synthesize userPersona=_userPersona;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCConnection;
+@class NSXPCConnection;
 
 @interface SecEscrowRequest
 {
@@ -16,11 +16,11 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)t a nonexistent property / You called GetControlProperty or a similar API with a property creator and property tag that does not currently exist on the given control.;
 - (id);
 - (id);
 - (_Bool);
@@ -30,13 +30,6 @@
 
 // Remaining properties
 @property(retain) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

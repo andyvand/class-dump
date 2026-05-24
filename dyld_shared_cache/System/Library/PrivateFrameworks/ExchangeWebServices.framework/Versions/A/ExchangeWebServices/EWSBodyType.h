@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface EWSBodyType
 {
     long long _BodyType;
-    NSString *_stringValue;
 }
 
-+ (id);
++ (id)tGQo__SSAEyA2__A2_tGAFQo_;
 - (void);
 - (long long);
 - (id);
@@ -22,14 +19,6 @@
 
 // Remaining properties
 @property(nonatomic) long long BodyType; // @synthesize BodyType=_BodyType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *stringValue; // @synthesize stringValue=_stringValue;
-@property(readonly) Class superclass;
 
 @end
 

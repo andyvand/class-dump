@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (DeviceCheck)
-+ (id);
-+ (id);
++ (id)initWithAccount:(long long)arg1 freeSetting:(id)arg2 paidSetting:delegate:bag: /* Error: Ran out of types for this method. */;
++ (id)initWithAccount:(long long)arg1 freeSetting:paidSetting:delegate:bag: /* Error: Ran out of types for this method. */;
 @end
 

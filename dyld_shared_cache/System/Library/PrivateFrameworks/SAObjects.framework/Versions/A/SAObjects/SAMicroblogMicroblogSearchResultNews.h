@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAMicroblogMicroblogSearchResultPost.h>
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface SAMicroblogMicroblogSearchResultNews : SAMicroblogMicroblogSearchResultPost
 {
@@ -25,8 +25,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *articleURL;
-@property(copy, nonatomic) NSString *descriptionText;
-@property(copy, nonatomic) NSString *title;
 
 @end
 

@@ -6,46 +6,24 @@
 
 #import <AuthKitUI/AKSignInPromptViewController.h>
 
-@class AKPaddedTextFieldCell, NSButton, NSImageCell, NSLayoutConstraint, NSProgressIndicator, NSTextField, NSView;
-
 @interface AKDefaultSignInPromptViewController : AKSignInPromptViewController
 {
     _Bool _showReauthentication;
-    long long _selectedButton;
-    NSImageCell *_imageView;
-    NSButton *_forgotButtonForReauthentication;
-    NSButton *_helpButton;
-    AKPaddedTextFieldCell *_paddedUsernameCell;
-    NSTextField *_passwordFieldForReauthentication;
-    NSButton *_rememberPasswordCheckbox;
-    NSView *_standardAuthenticationLoginView;
-    NSView *_reauthenticationLoginView;
-    NSProgressIndicator *_progressIndicatorForStandardAuthentication;
-    NSLayoutConstraint *_standardAuthenticationForgotPasswordBottom;
-    NSLayoutConstraint *_titleToMessageConstraint;
-    NSLayoutConstraint *_messageToErrorConstraint;
-    NSLayoutConstraint *_titleWidthConstraint;
-    NSLayoutConstraint *_usernameToForgotConstraint;
-    NSView *_standardAuthenticationLoginUsernamePassword;
-    NSLayoutConstraint *_messageToViewConstraint;
-    NSLayoutConstraint *_titleToViewConstraint;
-    NSLayoutConstraint *_titleToErrorConstraint;
-    NSLayoutConstraint *_errorToViewConstraint;
-    NSLayoutConstraint *_standardAuthenticationLoginViewHeight;
-    NSView *_authenticationView;
 }
 
 - (id);
+- (id);
+- (id);
+- (id);
+- (id)"A;
+- (void)(3;
+- (void)bc(;
 - (id);
 - (id);
 - (id);
-- (id);
+- (_Bool).;
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (void)E;
 - (void);
 - (void);
 - (void);
@@ -53,16 +31,14 @@
 - (void);
 - (void);
 - (void);
+- (void)JY;
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -70,7 +46,7 @@
 - (void);
 - (void);
 - (long long);
-- (id);
+- (id)v;
 - (id);
 - (id);
 - (id);
@@ -97,8 +73,9 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void):nothing to process for stats!
+ /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (void);
 - (void);
@@ -107,28 +84,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) NSView *authenticationView; // @synthesize authenticationView=_authenticationView;
-@property(retain, nonatomic) NSLayoutConstraint *errorToViewConstraint; // @synthesize errorToViewConstraint=_errorToViewConstraint;
-@property(retain, nonatomic) NSButton *forgotButtonForReauthentication; // @synthesize forgotButtonForReauthentication=_forgotButtonForReauthentication;
-@property(retain, nonatomic) NSButton *helpButton; // @synthesize helpButton=_helpButton;
-@property(retain, nonatomic) NSImageCell *imageView; // @synthesize imageView=_imageView;
-@property(retain, nonatomic) NSLayoutConstraint *messageToErrorConstraint; // @synthesize messageToErrorConstraint=_messageToErrorConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *messageToViewConstraint; // @synthesize messageToViewConstraint=_messageToViewConstraint;
-@property(retain, nonatomic) AKPaddedTextFieldCell *paddedUsernameCell; // @synthesize paddedUsernameCell=_paddedUsernameCell;
-@property(retain, nonatomic) NSTextField *passwordFieldForReauthentication; // @synthesize passwordFieldForReauthentication=_passwordFieldForReauthentication;
-@property(retain, nonatomic) NSProgressIndicator *progressIndicatorForStandardAuthentication; // @synthesize progressIndicatorForStandardAuthentication=_progressIndicatorForStandardAuthentication;
-@property(retain, nonatomic) NSView *reauthenticationLoginView; // @synthesize reauthenticationLoginView=_reauthenticationLoginView;
-@property(retain, nonatomic) NSButton *rememberPasswordCheckbox; // @synthesize rememberPasswordCheckbox=_rememberPasswordCheckbox;
 @property(nonatomic) _Bool showReauthentication; // @synthesize showReauthentication=_showReauthentication;
-@property(retain, nonatomic) NSLayoutConstraint *standardAuthenticationForgotPasswordBottom; // @synthesize standardAuthenticationForgotPasswordBottom=_standardAuthenticationForgotPasswordBottom;
-@property(retain, nonatomic) NSView *standardAuthenticationLoginUsernamePassword; // @synthesize standardAuthenticationLoginUsernamePassword=_standardAuthenticationLoginUsernamePassword;
-@property(retain, nonatomic) NSView *standardAuthenticationLoginView; // @synthesize standardAuthenticationLoginView=_standardAuthenticationLoginView;
-@property(retain, nonatomic) NSLayoutConstraint *standardAuthenticationLoginViewHeight; // @synthesize standardAuthenticationLoginViewHeight=_standardAuthenticationLoginViewHeight;
-@property(retain, nonatomic) NSLayoutConstraint *titleToErrorConstraint; // @synthesize titleToErrorConstraint=_titleToErrorConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *titleToMessageConstraint; // @synthesize titleToMessageConstraint=_titleToMessageConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *titleToViewConstraint; // @synthesize titleToViewConstraint=_titleToViewConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *titleWidthConstraint; // @synthesize titleWidthConstraint=_titleWidthConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *usernameToForgotConstraint; // @synthesize usernameToForgotConstraint=_usernameToForgotConstraint;
 
 @end
 

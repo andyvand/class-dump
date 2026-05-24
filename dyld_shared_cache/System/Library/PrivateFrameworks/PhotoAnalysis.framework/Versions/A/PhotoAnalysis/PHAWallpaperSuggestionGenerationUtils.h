@@ -8,7 +8,7 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)T?;
 + (unsigned char);
 + (id);
 + (id);

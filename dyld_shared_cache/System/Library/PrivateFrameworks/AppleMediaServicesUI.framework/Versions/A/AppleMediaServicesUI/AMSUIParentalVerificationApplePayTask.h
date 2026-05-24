@@ -4,25 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, AMSBiometricsSignatureRequest, AMSMutablePromise, AMSPromise, AMSUIPaymentVerificationMetrics, NSData, NSDictionary, NSError, NSString, NSViewController;
-@protocol AMSBagProtocol;
+@class ACAccount;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIParentalVerificationApplePayTask
 {
     ACAccount *_account;
-    NSDictionary *_accountParameters;
-    id <AMSBagProtocol> _bag;
-    AMSBiometricsSignatureRequest *_biometricsRequest;
-    AMSUIPaymentVerificationMetrics *_metrics;
-    ACAccount *_originalAccount;
-    NSViewController *_viewController;
-    AMSUIParentalVerificationApplePayTask *_strongSelf;
-    AMSPromise *_resultPromise;
-    AMSMutablePromise *_delegatePromise;
-    NSData *_paymentData;
-    NSError *_paymentError;
-    NSDictionary *_userInfo;
 }
 
 - (void);
@@ -30,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)B;
 - (id);
 - (id);
 - (id);
@@ -39,11 +26,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)URL:(id)arg1 %@, error:%@ /* Error: Ran out of types for this method. */;
+- (void)UHwjAM1cqBLCR1OuYouf8A;
+- (void)repair_reference;
+- (id)le.mobileslideshow.PersonInfoChanged;
+- (id)PhotosIDExtraction;
 - (id);
 - (id);
 - (id);
@@ -55,31 +42,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void)s_unfair_lock_opaque"I};
-- (id)ion: /* Error: Ran out of types for this method. */;
+- (id)setRemotePresentation: /* Error: Ran out of types for this method. */;
 - (void)SgGG_AAy_¾=AQGw¿=tGGGGG_q=Qo_3­=yÝ½=GG_AUtGGACGACGt;
 
 // Remaining properties
 @property(retain) ACAccount *account; // @synthesize account=_account;
-@property(retain) NSDictionary *accountParameters; // @synthesize accountParameters=_accountParameters;
-@property(retain) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(retain) AMSBiometricsSignatureRequest *biometricsRequest; // @synthesize biometricsRequest=_biometricsRequest;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain) AMSMutablePromise *delegatePromise; // @synthesize delegatePromise=_delegatePromise;
-@property(readonly, copy) NSString *description;
-@property(readonly) NSString *enablementBagKey;
-@property(readonly) unsigned long long hash;
-@property(retain) AMSUIPaymentVerificationMetrics *metrics; // @synthesize metrics=_metrics;
-@property(retain) ACAccount *originalAccount; // @synthesize originalAccount=_originalAccount;
-@property(retain) NSData *paymentData; // @synthesize paymentData=_paymentData;
-@property(retain) NSError *paymentError; // @synthesize paymentError=_paymentError;
-@property(retain) AMSPromise *resultPromise; // @synthesize resultPromise=_resultPromise;
-@property(retain) AMSUIParentalVerificationApplePayTask *strongSelf; // @synthesize strongSelf=_strongSelf;
-@property(readonly) Class superclass;
-@property(retain) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
-@property(retain) NSViewController *viewController; // @synthesize viewController=_viewController;
 
 @end
 

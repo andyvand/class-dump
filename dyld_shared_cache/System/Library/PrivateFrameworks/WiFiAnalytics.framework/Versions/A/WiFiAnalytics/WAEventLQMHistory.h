@@ -9,15 +9,6 @@
 @interface WAEventLQMHistory
 {
     NSMutableArray *_ccaHistory;
-    NSMutableArray *_rssiHistory;
-    NSMutableArray *_noiseHistory;
-    NSMutableArray *_snrHistory;
-    NSMutableArray *_txPerHistory;
-    NSMutableArray *_txFrameHistory;
-    NSMutableArray *_fwTxPerHistory;
-    NSMutableArray *_fwTxFramesHistory;
-    NSMutableArray *_beaconSchedHistory;
-    NSMutableArray *_beaconPerHistory;
 }
 
 - (id);
@@ -30,30 +21,21 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void);;
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id)removeItemAtURL:error: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *beaconPerHistory; // @synthesize beaconPerHistory=_beaconPerHistory;
-@property(retain, nonatomic) NSMutableArray *beaconSchedHistory; // @synthesize beaconSchedHistory=_beaconSchedHistory;
 @property(retain, nonatomic) NSMutableArray *ccaHistory; // @synthesize ccaHistory=_ccaHistory;
-@property(retain, nonatomic) NSMutableArray *fwTxFramesHistory; // @synthesize fwTxFramesHistory=_fwTxFramesHistory;
-@property(retain, nonatomic) NSMutableArray *fwTxPerHistory; // @synthesize fwTxPerHistory=_fwTxPerHistory;
-@property(retain, nonatomic) NSMutableArray *noiseHistory; // @synthesize noiseHistory=_noiseHistory;
-@property(retain, nonatomic) NSMutableArray *rssiHistory; // @synthesize rssiHistory=_rssiHistory;
-@property(retain, nonatomic) NSMutableArray *snrHistory; // @synthesize snrHistory=_snrHistory;
-@property(retain, nonatomic) NSMutableArray *txFrameHistory; // @synthesize txFrameHistory=_txFrameHistory;
-@property(retain, nonatomic) NSMutableArray *txPerHistory; // @synthesize txPerHistory=_txPerHistory;
 
 @end
 

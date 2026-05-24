@@ -6,23 +6,19 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class FCCachePolicy, FCCloudContext, NSArray, NSDictionary;
+@class FCCachePolicy;
 
 @interface FCIssueHeadlinesFetchOperation : FCOperation
 {
     FCCachePolicy *_cachePolicy;
-    CDUnknownBlockType _fetchCompletionHandler;
-    FCCloudContext *_context;
-    NSArray *_issueIDs;
-    NSDictionary *_resultHeadlinesByIssue;
 }
 
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (id);
+- (id)P;
 - (void);
-- (void)eedID;
+- (void)everythingFeedID;
 - (void)o %lu after applying blackout duration;
 - (void)utputName from configuration %{public}@;
 - (void);
@@ -31,7 +27,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) FCCachePolicy *cachePolicy; // @synthesize cachePolicy=_cachePolicy;
-@property(copy, nonatomic) CDUnknownBlockType fetchCompletionHandler; // @synthesize fetchCompletionHandler=_fetchCompletionHandler;
 
 @end
 

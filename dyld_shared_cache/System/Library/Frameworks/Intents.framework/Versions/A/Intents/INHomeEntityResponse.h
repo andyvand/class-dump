@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INHomeEntity, NSArray;
+@class INHomeEntity;
 
 @interface INHomeEntityResponse
 {
     INHomeEntity *_entity;
-    NSArray *_taskResponses;
 }
 
 + (id);

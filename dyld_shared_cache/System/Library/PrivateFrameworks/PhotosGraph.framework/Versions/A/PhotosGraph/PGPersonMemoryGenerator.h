@@ -6,16 +6,9 @@
 
 #import <PhotosGraph/PGOverTimeMemoryGenerator.h>
 
-@class PGFeaturedTimePeriodMemoryConfiguration, PGMemoryMomentRequirements, PGOverTheYearsMemoryConfiguration;
-
 @interface PGPersonMemoryGenerator : PGOverTimeMemoryGenerator
 {
     _Bool _requireSceneProcessingMeetsThresholdOverTime;
-    _Bool _requireFaceProcessingMeetsThresholdOverTime;
-    PGMemoryMomentRequirements *_momentRequirements;
-    PGOverTheYearsMemoryConfiguration *_overTheYearsConfiguration;
-    PGFeaturedTimePeriodMemoryConfiguration *_featuredYearConfiguration;
-    PGFeaturedTimePeriodMemoryConfiguration *_featuredSeasonConfiguration;
 }
 
 - (id);
@@ -30,13 +23,13 @@
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
-- (void)bility;
+- (id)isEditableTextUIElement:(id)arg1;
+- (id)lectedChildrenChangedNotification;
+- (id)FocusedWindowNotification;
+- (void)eDictionary",&,N,V_focusChains;
+- (unsigned long long)AXKScreenCursorManager;
+- (unsigned long long)AXKTextElementEditListenerElementInfo;
+- (void)mobility;
 
 @end
 

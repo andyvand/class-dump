@@ -20,12 +20,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void)0@ù
 × ;
-- (id)en:(struct CGRect)arg1;
-- (id)ged;
+- (id)_windowDidOrderOnScreen:(struct CGRect)arg1;
+- (id)GestureChanged;
 
 // Remaining properties
 @property(copy) NSColor *backgroundColor;

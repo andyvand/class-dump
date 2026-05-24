@@ -9,7 +9,6 @@
 @interface CalDAVCalendarUserAddress
 {
     NSURL *_address;
-    long long _preferred;
 }
 
 + (id);
@@ -24,14 +23,14 @@
 - (void);
 - (id);
 - (long long);
-- (id);
+- (id)G
+;
 - (void);
 - (void);
 - (long long);
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *address; // @synthesize address=_address;
-@property long long preferred; // @synthesize preferred=_preferred;
 
 @end
 

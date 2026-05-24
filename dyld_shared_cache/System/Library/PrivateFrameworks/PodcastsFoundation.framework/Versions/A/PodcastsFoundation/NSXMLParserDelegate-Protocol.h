@@ -5,5 +5,8 @@
 //
 
 @protocol NSXMLParserDelegate
+
+@optional
+- (void)@9q;
 @end
 

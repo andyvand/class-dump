@@ -7,8 +7,6 @@
 @interface NewsFeed.FeedTagFactory
 {
     id subscriptionController;
-    id tagController;
-    id puzzleTypeController;
 }
 
 @end

@@ -11,8 +11,8 @@
     NSUserNotificationCenter *_notificationCenter;
 }
 
-+ (id);
-- (void);
++ (id)@9?q;
+- (void)6		;
 - (void);
 - (void);
 - (void);
@@ -20,7 +20,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);

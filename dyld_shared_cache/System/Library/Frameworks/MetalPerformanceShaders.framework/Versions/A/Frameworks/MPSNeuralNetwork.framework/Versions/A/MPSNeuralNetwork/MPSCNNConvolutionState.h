@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MPSCNNConvolutionState
 {
     unsigned long long _originalConvolutionSourceWidth;
-    unsigned long long _originalConvolutionSourceHeight;
-    unsigned long long _kernelWidth;
-    unsigned long long _kernelHeight;
-    CDStruct_d6af7fc0 _srcOffset;
 }
 
-- (unsigned long long);
+- (unsigned long long);
 - (CDStruct_d6af7fc0);
 - (unsigned long long);
 - (id);
@@ -24,18 +18,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long kernelHeight; // @synthesize kernelHeight=_kernelHeight;
 @property(readonly, nonatomic) unsigned long long kernelWidth; // @synthesize kernelWidth=_kernelWidth;
-@property(readonly, nonatomic) unsigned long long sourceHeight; // @synthesize sourceHeight=_originalConvolutionSourceHeight;
-@property(readonly, nonatomic) CDStruct_d6af7fc0 sourceOffset; // @synthesize sourceOffset=_srcOffset;
-@property(readonly, nonatomic) unsigned long long sourceWidth; // @synthesize sourceWidth=_originalConvolutionSourceWidth;
-@property(readonly) Class superclass;
 
 @end
 

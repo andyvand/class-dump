@@ -6,44 +6,35 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
-
 @interface SISchemaRequestLinkInfo : SISchemaInstrumentationMessage
 {
     int _component;
-    SISchemaUUID *_uuid;
-    CDStruct_1513a5fc _has;
-    _Bool _hasUuid;
 }
 
 - (void);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)_;
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (int);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)_handlesViews;
+- (_Bool)oftlink:(id)arg1 r:path:/System/Library/Frameworks/Contacts.framework/Contacts /* Error: Ran out of types for this method. */;
+- (_Bool)) IS NULL     AND         (SELECT 1 from message WHERE other_handle = OLD.handle_id LIMIT 1) IS NULL; END;;
 - (id);
 - (id);
-- (id)HasInternalSpanData: /* Error: Ran out of types for this method. */;
-- (id)ressed;
-- (id)falseWakeWithTTMMitigationCount;
+- (id)setHasInternalSpanData: /* Error: Ran out of types for this method. */;
+- (id)deleteCrownPressed;
+- (id)_falseWakeWithTTMMitigationCount;
 - (void)|&(*Ð*|.X0;
 - (_Bool);
-- (void)TS_6_1_D;
+- (void)MWTFORMATLAYOUT_DTS_6_1_D;
 
 // Remaining properties
 @property(nonatomic) int component; // @synthesize component=_component;
-@property(nonatomic) _Bool hasComponent;
-@property(nonatomic) _Bool hasUuid; // @synthesize hasUuid=_hasUuid;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

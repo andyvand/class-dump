@@ -12,13 +12,13 @@ __attribute__((visibility("hidden")))
     struct sockaddr_in _in;
 }
 
+- (id)(;
+- (id)>		-;
+- (unsigned long long)(	>	;
 - (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (unsigned long long);
-- (id);
+- (_Bool)he current selection to include the specified number of characters after it.;
+- (unsigned long long)setPersonManagerSettings: /* Error: Ran out of types for this method. */;
+- (id);
 
 @end
 

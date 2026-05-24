@@ -5,5 +5,7 @@
 //
 
 @protocol MSPSharedTripServiceSendingObserver
+- (void);
+- (void);
 @end
 

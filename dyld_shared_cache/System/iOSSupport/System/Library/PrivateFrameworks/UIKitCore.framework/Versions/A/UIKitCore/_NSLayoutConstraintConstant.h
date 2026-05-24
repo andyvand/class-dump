@@ -13,13 +13,13 @@
 }
 
 + (id);
-- (id);
+- (id)synchronize;
 - (id);
 - (double);
 - (void);
 - (id);
-- (void)ngualSetForInputModeIdentifier:(id)arg1;
-- (id)s;
+- (void)multilingualSetForInputModeIdentifier:(id)arg1;
+- (id)controlsForKeys;
 
 // Remaining properties
 @property(readonly, nonatomic) double numericValue; // @synthesize numericValue=_numericValue;

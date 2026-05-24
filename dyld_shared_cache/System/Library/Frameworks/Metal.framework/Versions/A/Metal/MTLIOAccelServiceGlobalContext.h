@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSObject;
+@class NSMutableArray, NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface MTLIOAccelServiceGlobalContext
 {
     NSMutableArray *_pendingCreateAccelServiceRequests;
-    NSObject<OS_dispatch_queue> *_deviceNotifyQueue;
-    struct IONotificationPort *_deviceNotifyPort;
-    unsigned int _deviceNotifyIter;
-    NSMutableArray *_acceleratorServiceArray;
-    NSMutableDictionary *_acceleratorServicesByRegistryID;
 }
 
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (id);
 - (id);
@@ -28,8 +23,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly) NSMutableArray *acceleratorServiceArray;
-@property(readonly) NSMutableDictionary *acceleratorServicesByRegistryID;
 @property(readonly) NSObject<OS_dispatch_queue> *deviceNotifyQueue;
 
 @end

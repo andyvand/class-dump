@@ -5,5 +5,8 @@
 //
 
 @protocol PXPeopleSuggestionManagerDelegate
+
+@optional
+- (void);
 @end
 

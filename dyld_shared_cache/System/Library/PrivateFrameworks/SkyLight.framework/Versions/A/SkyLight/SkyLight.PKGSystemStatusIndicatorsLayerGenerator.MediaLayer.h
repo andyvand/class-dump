@@ -9,7 +9,6 @@
 @interface SkyLight.PKGSystemStatusIndicatorsLayerGenerator.MediaLayer : SkyLight.PKGSystemStatusIndicatorsLayerGenerator.IndicatorLayer
 {
     id $__lazy_storage_$__dotLayer;
-    id contrastBorderLayer;
 }
 
 - (id);

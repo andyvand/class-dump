@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSUUID, VTPreferences;
-@protocol CSVoiceTriggerUserSelectedPhraseDelegate, OS_dispatch_queue;
+@class VTPreferences;
 
 @interface CSVoiceTriggerUserSelectedPhrase
 {
     _Bool _mphSelected;
-    id <CSVoiceTriggerUserSelectedPhraseDelegate> _delegate;
-    VTPreferences *_vtPrefrences;
-    NSUUID *_endpointDeviceId;
-    unsigned long long _uSelectedPhraseType;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (id);
@@ -25,7 +19,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)J;
 - (id);
 - (id);
 - (void);
@@ -34,18 +28,13 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)setAlignedMeanShape:(id)arg1;
 - (void);
 - (id);
-- (void)aemonAudioSessionActivationFailedWithInsufficientPriority:activeSessionDisplayIDs:audioSessionCategory:audioSessionMode: /* Error: Ran out of types for this method. */;
+- (void)logMHAssistantDaemonAudioSessionActivationFailedWithInsufficientPriority:activeSessionDisplayIDs:audioSessionCategory:audioSessionMode: /* Error: Ran out of types for this method. */;
 - (id)saudio;
 
 // Remaining properties
-@property(nonatomic) __weak id <CSVoiceTriggerUserSelectedPhraseDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSUUID *endpointDeviceId; // @synthesize endpointDeviceId=_endpointDeviceId;
-@property(nonatomic) _Bool mphSelected; // @synthesize mphSelected=_mphSelected;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) unsigned long long uSelectedPhraseType; // @synthesize uSelectedPhraseType=_uSelectedPhraseType;
 @property(retain, nonatomic) VTPreferences *vtPrefrences; // @synthesize vtPrefrences=_vtPrefrences;
 
 @end

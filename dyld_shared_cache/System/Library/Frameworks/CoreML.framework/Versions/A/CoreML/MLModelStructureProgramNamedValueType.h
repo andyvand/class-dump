@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLModelStructureProgramValueType, NSString;
+@class NSString;
 
 @interface MLModelStructureProgramNamedValueType
 {
     NSString *_name;
-    MLModelStructureProgramValueType *_type;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)�H;
 - (void)ng rate.;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) MLModelStructureProgramValueType *type; // @synthesize type=_type;
 
 @end
 

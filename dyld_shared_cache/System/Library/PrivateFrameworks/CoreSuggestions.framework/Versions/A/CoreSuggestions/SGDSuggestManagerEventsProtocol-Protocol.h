@@ -4,10 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSArray, NSString, NSURL;
 
 @protocol SGDSuggestManagerEventsProtocol
-- (void)mailAddressesWithToAddresses:(NSURL *)arg1 ccAddresses:(NSString *)arg2 fromAddress:(_Bool)arg3 date:(void (^)(SGXPCResponse1 *))arg4 bounds:withCompletion: /* Error: Ran out of types for this method. */;
-- (void)countryCodeByRegionNameFromNormalizedAddress:(unsigned long long)arg1 withWords:(void (^)(SGXPCResponse1 *))arg2;
+- (void)I;
+- (void)setIndeterminate:(NSArray *)arg1;
+- (void)predictedToEmailAddressesWithToAddresses:(NSURL *)arg1 ccAddresses:(NSString *)arg2 fromAddress:(_Bool)arg3 date:(void (^)(SGXPCResponse1 *))arg4 bounds:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)_countryCodeByRegionNameFromNormalizedAddress:(unsigned long long)arg1 withWords:(void (^)(SGXPCResponse1 *))arg2;
 @end
 

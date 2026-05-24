@@ -5,5 +5,6 @@
 //
 
 @protocol _UIDigitizerGestureRecognizerImpDelegate
+- (void);
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol IANewAccountChooserControllerDelegateProtocol
+
+@optional
+- (void);
 @end
 

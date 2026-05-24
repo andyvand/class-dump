@@ -7,9 +7,6 @@
 @interface NewsUI2.MagazineFeedBlueprintLayoutBuilder
 {
     id feedLayoutSolver;
-    id decorationProviderFactory;
-    id baseStyler;
-    id embeddedSupplementaryBuilder;
 }
 
 @end

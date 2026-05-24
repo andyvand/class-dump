@@ -6,24 +6,15 @@
 
 #import <OfficeImport/OADProperties.h>
 
-@class NSNumber, PDTransitionOptions;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface PDTransition : OADProperties
 {
     _Bool mHasType;
-    int mType;
-    _Bool mHasSpeed;
-    int mSpeed;
-    _Bool mHasAdvanceOnClick;
-    _Bool mIsAdvanceOnClick;
-    _Bool mHasAdvanceAfterTime;
-    int mAdvanceAfterTime;
-    PDTransitionOptions *mOptions;
-    NSNumber *duration;
 }
 
-- (void);
+- (void)A;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -31,9 +22,9 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (int);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)dress. event external URL = %{public}@;
 - (void);
 - (id);
 - (void);

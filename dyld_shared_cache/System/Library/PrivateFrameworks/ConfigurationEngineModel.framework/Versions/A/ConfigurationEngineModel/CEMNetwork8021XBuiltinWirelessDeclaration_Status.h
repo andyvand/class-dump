@@ -11,11 +11,11 @@
 }
 
 + (id);
++ (id)__objc_imageinfo__DATA_CONST;
 + (id);
-+ (id);
-+ (id);
++ (id);
 - (id);
-- (_Bool);
+- (_Bool)speech.personalvoice;
 
 @end
 

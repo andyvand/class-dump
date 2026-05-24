@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView;
-
 @interface UIKit.BridgedProperty
 {
     id property;
 }
 
-- (void);
+- (void)gReplicatedMessageCache;
 - (void);
 - (_Bool);
 - (void);
@@ -21,7 +19,7 @@
 - (id);
 - (id)ù
 × ;
-- (id)gSizeDidChangeForChildContentContainer: /* Error: Ran out of types for this method. */;
+- (id)systemLayoutFittingSizeDidChangeForChildContentContainer: /* Error: Ran out of types for this method. */;
 - (id)¸;Ð;
 - (id) 
 ;
@@ -32,13 +30,7 @@
 - (void)d'rÿAÛÄÇm;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool isInvalidated;
-@property(nonatomic) _Bool isVelocityUsableForVFD;
-@property(nonatomic, copy) id presentationValue;
-@property(nonatomic, copy) id transformer;
 @property(nonatomic, copy) id value;
-@property(nonatomic, copy) id velocity;
-@property(nonatomic, readonly) UIView *view;
 
 @end
 

@@ -15,10 +15,10 @@
 
 + (id);
 + (void)distortionCenter:{%.2f,%.2f} /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
+- (void)%@, artistID:(id)arg1 %@;
+- (void)cancel method was called;
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (unsigned int);
 - (int);
@@ -28,15 +28,14 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)cfIntegrationTimeNumber;
 - (float);
-- (id)ureDeviceFormatInternal_Tundra;
+- (id)AVCaptureDeviceFormatInternal_Tundra;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *outputDeviceUniqueID;
-@property(nonatomic) float volume;
 
 @end
 

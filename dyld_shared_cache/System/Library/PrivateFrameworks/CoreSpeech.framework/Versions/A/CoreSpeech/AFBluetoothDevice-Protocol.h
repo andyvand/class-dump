@@ -4,7 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class AFBluetoothDeviceInfo;
+
 @protocol AFBluetoothDevice
+- (void)A;
+- (AFBluetoothDeviceInfo *)DirectoryService is already opened;
+- (void);
 - (void)e;
 @end
 

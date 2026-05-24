@@ -4,38 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString;
+@class NSDate;
 
 __attribute__((visibility("hidden")))
 @interface HMDBulletinCharacteristicTuple
 {
     _Bool _changedByThisDevice;
-    NSString *_serviceContextID;
-    NSString *_currentType;
-    id _targetValue;
-    NSDate *_lastPostingTime;
-    NSNumber *_targetStateNumber;
 }
 
 + (id);
-- (void);
+- (void)_capabilityTypeForContact:serviceName:isActiveReceiver: /* Error: Ran out of types for this method. */;
+- (id)MSPQuerySourceObserver;
+- (void)shield_color_string;
 - (id);
-- (void);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void)àIØ#;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool changedByThisDevice; // @synthesize changedByThisDevice=_changedByThisDevice;
-@property(readonly, nonatomic) NSString *currentType; // @synthesize currentType=_currentType;
 @property(retain, nonatomic) NSDate *lastPostingTime; // @synthesize lastPostingTime=_lastPostingTime;
-@property(readonly, nonatomic) NSString *serviceContextID; // @synthesize serviceContextID=_serviceContextID;
-@property(readonly, nonatomic) NSNumber *targetStateNumber; // @synthesize targetStateNumber=_targetStateNumber;
-@property(readonly, nonatomic) id targetValue; // @synthesize targetValue=_targetValue;
 
 @end
 

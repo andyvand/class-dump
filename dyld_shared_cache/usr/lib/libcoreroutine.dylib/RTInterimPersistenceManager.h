@@ -6,29 +6,22 @@
 
 #import <coreroutine/RTService.h>
 
-@class NSManagedObjectContext, NSManagedObjectModel, NSPersistentContainer, NSURL, RTDataProtectionManager, RTPlatform;
+@class RTDataProtectionManager;
 
 @interface RTInterimPersistenceManager : RTService
 {
     RTDataProtectionManager *_dataProtectionManager;
-    RTPlatform *_platform;
-    NSPersistentContainer *_persistentContainer;
-    NSManagedObjectModel *_managedObjectModel;
-    NSManagedObjectContext *_managedObjectContext;
-    NSURL *_modelsDirectory;
-    NSURL *_storesDirectory;
-    unsigned long long _availability;
 }
 
 + (id);
-+ (id);
-+ (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (int);
++ (id)s not for iCDP;
++ (id)@ not found;
+- (void)R;
+- (id)logSuccessForEventNamed:(id)arg1;
+- (id)logSoftFailureForEventNamed:(id)arg1 withAttributes:(id)arg2;
+- (void)n start];
+- (void)ng master key found;
+- (int)kPCSSetupCallbackMarkNegative;
 - (_Bool);
 - (_Bool);
 - (int);
@@ -49,13 +42,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long availability; // @synthesize availability=_availability;
-@property(readonly, nonatomic) RTDataProtectionManager *dataProtectionManager; // @synthesize dataProtectionManager=_dataProtectionManager;
-@property(readonly, nonatomic) NSManagedObjectContext *managedObjectContext; // @synthesize managedObjectContext=_managedObjectContext;
-@property(readonly, nonatomic) NSManagedObjectModel *managedObjectModel; // @synthesize managedObjectModel=_managedObjectModel;
-@property(readonly, nonatomic) NSURL *modelsDirectory; // @synthesize modelsDirectory=_modelsDirectory;
-@property(readonly, nonatomic) NSPersistentContainer *persistentContainer; // @synthesize persistentContainer=_persistentContainer;
-@property(readonly, nonatomic) RTPlatform *platform; // @synthesize platform=_platform;
-@property(readonly, nonatomic) NSURL *storesDirectory; // @synthesize storesDirectory=_storesDirectory;
 
 @end
 

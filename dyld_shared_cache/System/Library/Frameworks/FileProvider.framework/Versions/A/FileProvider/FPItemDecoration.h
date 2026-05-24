@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FPStringFormat, NSString;
+@class NSString;
 
 @interface FPItemDecoration
 {
     NSString *_decorationIdentifier;
-    FPStringFormat *_labelTitle;
-    NSString *_type;
-    NSString *_imageType;
-    NSString *_bundleIdentifier;
-    _Bool _dependsOnParent;
-    _Bool _dependsOnStyle;
 }
 
 + (id);
@@ -38,7 +32,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)clientValidity;
 - (id);
 - (id);
 - (id);
@@ -46,11 +40,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
 @property(readonly, copy, nonatomic) NSString *decorationIdentifier; // @synthesize decorationIdentifier=_decorationIdentifier;
-@property(readonly, copy, nonatomic) NSString *imageType; // @synthesize imageType=_imageType;
-@property(readonly, nonatomic) _Bool requiresFetchingInfoFirst;
-@property(readonly, copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

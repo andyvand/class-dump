@@ -7,8 +7,6 @@
 @interface RemindersUICore.TTRTimeZonePickerInteractor
 {
     id delegate;
-    id undoManager;
-    id undoObservationToken;
 }
 
 @end

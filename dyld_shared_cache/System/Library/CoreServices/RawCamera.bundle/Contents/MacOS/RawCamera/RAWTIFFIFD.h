@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface RAWTIFFIFD
 {
     NSMutableDictionary *mTagsByID;
-    NSMutableDictionary *mTagsByName;
-    NSDictionary *mNamespace;
-    NSDictionary *mNamespaceReverse;
 }
 
 - (void);
@@ -25,17 +22,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)_enqueuedSiteMetadataRequestForRecommendationItem:(id)arg1;
 - (id);
 - (void);
 - (void);
 - (id)8?;
 
 // Remaining properties
-@property(retain) NSDictionary *mNamespace; // @synthesize mNamespace;
-@property(retain) NSDictionary *mNamespaceReverse; // @synthesize mNamespaceReverse;
 @property(retain) NSMutableDictionary *mTagsByID; // @synthesize mTagsByID;
-@property(retain) NSMutableDictionary *mTagsByName; // @synthesize mTagsByName;
 
 @end
 

@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (UIKitCore)
-- (void);
+- (void)6;
 @end
 

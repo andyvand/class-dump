@@ -7,13 +7,6 @@
 @interface _PKFakeTapToFocusInfo
 {
     _Bool _shouldWaitForFirstResponderChange;
-    long long _type;
-    unsigned long long _interactionValue;
-    unsigned long long _firstSubviewValue;
-    unsigned long long _targetValue;
-    unsigned long long _actionValue;
-    unsigned long long _controlEvents;
-    unsigned long long _textInputValue;
 }
 
 + (id);
@@ -28,18 +21,11 @@
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)_configureQuickReplySendAnimationGroup:withSendAnimationContext: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long actionValue; // @synthesize actionValue=_actionValue;
-@property(nonatomic) unsigned long long controlEvents; // @synthesize controlEvents=_controlEvents;
-@property(readonly, nonatomic) unsigned long long firstSubviewValue; // @synthesize firstSubviewValue=_firstSubviewValue;
-@property(readonly, nonatomic) unsigned long long interactionValue; // @synthesize interactionValue=_interactionValue;
-@property(readonly, nonatomic) _Bool shouldWaitForFirstResponderChange; // @synthesize shouldWaitForFirstResponderChange=_shouldWaitForFirstResponderChange;
-@property(readonly, nonatomic) unsigned long long targetValue; // @synthesize targetValue=_targetValue;
-@property(readonly, nonatomic) unsigned long long textInputValue; // @synthesize textInputValue=_textInputValue;
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end

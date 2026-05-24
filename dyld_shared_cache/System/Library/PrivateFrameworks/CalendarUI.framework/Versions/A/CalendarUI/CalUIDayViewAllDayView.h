@@ -6,20 +6,11 @@
 
 #import <CalendarUI/CalUILayerBackedView.h>
 
-@class CalUIDayViewGadgetController, NSArray, NSLayoutConstraint, NSTextField;
-@protocol CalUIBoxOccurrenceContentViewDelegate, CalUIDayViewGadgetAppearanceDelegate, CalUIDayViewGadgetDataSource;
+@class NSArray;
 
 @interface CalUIDayViewAllDayView : CalUILayerBackedView
 {
     _Bool _hasNewOccurrenceViews;
-    id <CalUIDayViewGadgetDataSource> _dataSource;
-    CalUIDayViewGadgetController *_controller;
-    id <CalUIBoxOccurrenceContentViewDelegate> _boxOccurrenceContentDelegate;
-    NSArray *_occurrenceViews;
-    NSTextField *_allDayLabel;
-    NSLayoutConstraint *_noEventsConstraint;
-    id <CalUIDayViewGadgetAppearanceDelegate> _appearanceDelegate;
-    NSLayoutConstraint *_labelVerticalAlignmentConstraint;
 }
 
 + (_Bool);
@@ -36,33 +27,25 @@
 - (double);
 - (id);
 - (id);
-- (void);
-- (double);
+- (void);
+- (double);
 - (id);
 - (double);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)|;
 - (void);
 - (id);
 - (void);
-- (double);
-- (id);
+- (double)4;
+- (id);
 - (void)!ÜCùqÃ#°1Â0@ù
 × ;
-- (id)arkURL;
+- (id)bookmarkURL;
 
 // Remaining properties
-@property(readonly) NSTextField *allDayLabel; // @synthesize allDayLabel=_allDayLabel;
-@property(nonatomic) __weak id <CalUIDayViewGadgetAppearanceDelegate> appearanceDelegate; // @synthesize appearanceDelegate=_appearanceDelegate;
-@property(nonatomic) __weak id <CalUIBoxOccurrenceContentViewDelegate> boxOccurrenceContentDelegate; // @synthesize boxOccurrenceContentDelegate=_boxOccurrenceContentDelegate;
-@property(nonatomic) __weak CalUIDayViewGadgetController *controller; // @synthesize controller=_controller;
-@property(nonatomic) __weak id <CalUIDayViewGadgetDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property _Bool hasNewOccurrenceViews; // @synthesize hasNewOccurrenceViews=_hasNewOccurrenceViews;
-@property(retain, nonatomic) NSLayoutConstraint *labelVerticalAlignmentConstraint; // @synthesize labelVerticalAlignmentConstraint=_labelVerticalAlignmentConstraint;
-@property(retain) NSLayoutConstraint *noEventsConstraint; // @synthesize noEventsConstraint=_noEventsConstraint;
 @property(retain, nonatomic) NSArray *occurrenceViews; // @synthesize occurrenceViews=_occurrenceViews;
 
 @end

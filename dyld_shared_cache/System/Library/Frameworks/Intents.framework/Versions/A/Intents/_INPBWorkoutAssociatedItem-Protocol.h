@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDataString;
+@class _INPBDataString;
 
 @protocol _INPBWorkoutAssociatedItem
+- (void);
+- (_Bool);
+- (void);
 - (void)Â0@ù
 × ;
 - (_INPBDataString *)Observer>"24@?<v@?>32;
 
 // Remaining properties
 @property(nonatomic) int contentRating;
-@property(nonatomic) _Bool hasContentRating;
-@property(readonly, nonatomic) _Bool hasItemID;
-@property(nonatomic) _Bool hasItemLabel;
-@property(readonly, nonatomic) _Bool hasItemName;
-@property(copy, nonatomic) NSString *itemID;
-@property(nonatomic) int itemLabel;
-@property(retain, nonatomic) _INPBDataString *itemName;
 @end
 

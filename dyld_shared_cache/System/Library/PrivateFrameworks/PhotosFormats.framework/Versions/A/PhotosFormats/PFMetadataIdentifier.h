@@ -8,6 +8,20 @@
 {
 }
 
++ (id)estalt.dylib;
++ (id)%{public}@ excludes itself;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id)_updateDeviceCapabilitiesCompletionBlock;
++ (id)bytesListType;
++ (id)ithError:%@ /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (id);
@@ -19,21 +33,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)J;
 + (id);
 
 @end

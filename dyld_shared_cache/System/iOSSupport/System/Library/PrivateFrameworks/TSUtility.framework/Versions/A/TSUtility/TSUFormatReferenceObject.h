@@ -9,11 +9,11 @@
     CDStruct_95e644ef mFormatStruct;
 }
 
-- (CDStruct_95e644ef);
+- (CDStruct_95e644ef);
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 
 @end
 

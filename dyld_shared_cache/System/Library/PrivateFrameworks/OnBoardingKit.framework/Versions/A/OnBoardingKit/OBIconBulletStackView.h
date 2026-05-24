@@ -8,13 +8,12 @@ __attribute__((visibility("hidden")))
 @interface OBIconBulletStackView
 {
     double _itemSpacing;
-    double _iconTextPadding;
 }
 
 - (void);
 - (void);
 - (double);
-- (void);
+- (void)J;
 - (id);
 
 // Remaining properties

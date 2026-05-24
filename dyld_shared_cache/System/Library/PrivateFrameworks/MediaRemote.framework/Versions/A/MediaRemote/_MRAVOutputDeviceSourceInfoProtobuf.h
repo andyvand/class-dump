@@ -9,10 +9,6 @@
 @interface _MRAVOutputDeviceSourceInfoProtobuf
 {
     NSString *_routingContextUID;
-    _Bool _multipleBuiltInDevices;
-    struct {
-        unsigned int multipleBuiltInDevices:1;
-    } _has;
 }
 
 - (_Bool);
@@ -21,23 +17,20 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)timeRemainingToken;
+- (void);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)n getContextCollectorsInfoWithCompletion:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void)t];
+- (id)Hard-coded BT Proximity;
 - (void);
-- (id);
-- (void);
-- (_Bool);
+- (_Bool);
 - (void)eivedCount;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMultipleBuiltInDevices;
 @property(readonly, nonatomic) _Bool hasRoutingContextUID;
-@property(nonatomic) _Bool multipleBuiltInDevices; // @synthesize multipleBuiltInDevices=_multipleBuiltInDevices;
-@property(retain, nonatomic) NSString *routingContextUID; // @synthesize routingContextUID=_routingContextUID;
 
 @end
 

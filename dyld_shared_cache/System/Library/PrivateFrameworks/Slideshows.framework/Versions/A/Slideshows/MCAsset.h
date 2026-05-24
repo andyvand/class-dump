@@ -17,14 +17,13 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isInUse;
 @property(copy) NSString *path; // @synthesize path=mPath;
 
 @end

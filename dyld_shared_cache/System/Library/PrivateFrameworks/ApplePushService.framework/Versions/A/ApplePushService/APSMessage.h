@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface APSMessage
 {
     NSMutableDictionary *_plist;
-    NSMutableDictionary *_properties;
-    void *_xpcMessage;
-    struct os_unfair_lock_s _lock;
 }
 
 
 // Remaining properties
-@property(retain, nonatomic) NSString *correlationIdentifier;
-@property(nonatomic) unsigned long long identifier;
 @property(nonatomic) struct os_unfair_lock_s lock; // @synthesize lock=_lock;
-@property(nonatomic) unsigned long long sendRTT;
-@property(retain, nonatomic) NSString *topic;
-@property(retain, nonatomic) NSDictionary *userInfo;
 @end
 

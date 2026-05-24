@@ -6,27 +6,16 @@
 
 #import <Contacts/CNMultiValuePropertyDescription.h>
 
-@class CNContactRelationsDescriptionLabels, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CNContactRelationsDescription : CNMultiValuePropertyDescription
 {
     NSObject<OS_dispatch_queue> *_generationQueue;
-    CNContactRelationsDescriptionLabels *_cachedLabels;
-    Class _provider;
 }
 
 
 // Remaining properties
-@property(retain, nonatomic) CNContactRelationsDescriptionLabels *cachedLabels; // @synthesize cachedLabels=_cachedLabels;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) NSObject<OS_dispatch_queue> *generationQueue; // @synthesize generationQueue=_generationQueue;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) Class provider; // @synthesize provider=_provider;
-@property(readonly) Class superclass;
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASBMutableContainer, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class ASBMutableContainer, NSString;
 
 @interface ASBMutableContainerSynchronization
 {
     ASBMutableContainer *container;
-    struct container_object_s *mcmContainer;
-    NSObject<OS_dispatch_queue> *queue;
-    NSString *containerSyncId;
 }
 
 + (id);
@@ -29,10 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) ASBMutableContainer *container; // @synthesize container;
 @property(retain, nonatomic) NSString *containerSyncId; // @synthesize containerSyncId;
-@property(nonatomic) struct container_object_s *mcmContainer; // @synthesize mcmContainer;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue;
 
 @end
 

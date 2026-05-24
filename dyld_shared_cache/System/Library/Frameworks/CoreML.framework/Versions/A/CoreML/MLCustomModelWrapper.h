@@ -16,11 +16,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
+- (id)4;
 - (void);
 - (id);
 - (id);
-- (void)ompiledE5Bundle;
+- (void)usePrecompiledE5Bundle;
 
 // Remaining properties
 @property(retain) NSObject<MLCustomModel> *customModel; // @synthesize customModel=_customModel;

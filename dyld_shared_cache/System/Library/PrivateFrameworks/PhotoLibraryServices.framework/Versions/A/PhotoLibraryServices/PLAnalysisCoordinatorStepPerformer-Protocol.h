@@ -5,5 +5,7 @@
 //
 
 @protocol PLAnalysisCoordinatorStepPerformer
+- (id);
+- (id)PPZ0_cycleCount;
 @end
 

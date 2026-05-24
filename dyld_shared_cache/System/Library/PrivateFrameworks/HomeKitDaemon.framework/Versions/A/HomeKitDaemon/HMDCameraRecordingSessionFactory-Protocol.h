@@ -4,14 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol HMDFeaturesDataSource;
+@class HMDCameraRecordingSessionSignificantEventManager, HMDCameraRecordingSessionVariantFragmentManager, NSObject;
+@protocol HMDCameraClipUploading, HMDCameraRecordingSessionVideoAnalyzer, HMDFeaturesDataSource, OS_dispatch_queue;
 
 @protocol HMDCameraRecordingSessionFactory
-- (id <HMDFeaturesDataSource>)tRunTimeStateUpdateWithOptions:includeMediaAccessorySessionState:includeResidentDeviceState:completion: /* Error: Ran out of types for this method. */;
+- (double);
+- (_Bool);
+- (id <HMDCameraRecordingSessionVideoAnalyzer>)ot handle message %@;
+- (id <HMDCameraClipUploading>)ateGroupSessionStorage;
+- (HMDCameraRecordingSessionVariantFragmentManager *)addParticipants %{private}@ to %{public}@/%{public}@;
+- (HMDCameraRecordingSessionSignificantEventManager *)avigationListener location update:(NSObject<OS_dispatch_queue> *)arg1 %@;
+- (id <HMDFeaturesDataSource>)getRunTimeStateUpdateWithOptions:includeMediaAccessorySessionState:includeResidentDeviceState:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) id <HMDFeaturesDataSource> featuresDataSource;
-@property(readonly) double maximumClipDuration;
-@property(readonly) double recordingExtensionDuration;
 @end
 

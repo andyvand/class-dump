@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKPushMessage, NSData, NSDictionary, NSNumber, NSString, NSUUID;
+@class AKPushMessage;
 
 @interface AKCircleRequestPayload
 {
     _Bool _supportsPresence;
-    _Bool _presenceFallbackApproved;
-    _Bool _URLResponse;
-    NSString *_serverInfo;
-    NSData *_clientInfo;
-    long long _clientErrorCode;
-    NSString *_altDSID;
-    NSString *_transactionId;
-    NSUUID *_presenceSID;
-    long long _presenceMode;
-    NSNumber *_presenceCheckPassed;
-    NSNumber *_localPresenceFound;
-    AKPushMessage *_responseMessage;
-    NSDictionary *_responseInfo;
-    unsigned long long _circleStep;
-    unsigned long long _piggybackingContext;
 }
 
 + (id);
@@ -33,12 +18,12 @@
 - (id);
 - (_Bool);
 - (void);
+- (void);
+- (void);
+- (void),;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -46,7 +31,7 @@
 - (id);
 - (id);
 - (long long);
-- (_Bool);
+- (_Bool)|;
 - (id);
 - (unsigned long long);
 - (id);
@@ -57,13 +42,13 @@
 - (void);
 - (void);
 - (long long);
-- (void);
+- (void)#;
 - (id);
-- (id);
+- (id)l;
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)setInstantAnswersBundleIDs: /* Error: Ran out of types for this method. */;
 - (id)+Ð!ÌEùß.Ð1Â0@ù
 × ;
 - (void)¬ø3;
@@ -73,22 +58,7 @@
 :íx¦ª¼¤h×SÿWa½K^q~Ä£`_8;0vÉ¨å± /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, getter=isURLResponse) _Bool URLResponse; // @synthesize URLResponse=_URLResponse;
-@property(retain, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(nonatomic) unsigned long long circleStep; // @synthesize circleStep=_circleStep;
-@property(nonatomic) long long clientErrorCode; // @synthesize clientErrorCode=_clientErrorCode;
-@property(retain, nonatomic) NSData *clientInfo; // @synthesize clientInfo=_clientInfo;
-@property(copy, nonatomic) NSNumber *localPresenceFound; // @synthesize localPresenceFound=_localPresenceFound;
-@property(nonatomic) unsigned long long piggybackingContext; // @synthesize piggybackingContext=_piggybackingContext;
-@property(copy, nonatomic) NSNumber *presenceCheckPassed; // @synthesize presenceCheckPassed=_presenceCheckPassed;
-@property(nonatomic) _Bool presenceFallbackApproved; // @synthesize presenceFallbackApproved=_presenceFallbackApproved;
-@property(nonatomic) long long presenceMode; // @synthesize presenceMode=_presenceMode;
-@property(retain, nonatomic) NSUUID *presenceSID; // @synthesize presenceSID=_presenceSID;
-@property(retain, nonatomic) NSDictionary *responseInfo; // @synthesize responseInfo=_responseInfo;
 @property(retain, nonatomic) AKPushMessage *responseMessage; // @synthesize responseMessage=_responseMessage;
-@property(retain, nonatomic) NSString *serverInfo; // @synthesize serverInfo=_serverInfo;
-@property(nonatomic) _Bool supportsPresence; // @synthesize supportsPresence=_supportsPresence;
-@property(retain, nonatomic) NSString *transactionId; // @synthesize transactionId=_transactionId;
 
 @end
 

@@ -7,19 +7,17 @@
 @interface AMSObserver
 {
     CDUnknownBlockType _completionBlock;
-    CDUnknownBlockType _failureBlock;
-    CDUnknownBlockType _resultBlock;
 }
 
-- (void);
+- (void)C;
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)h;
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType)eRequestWithItem:authenticationResults: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)_handleAuthenticateRequestWithItem:authenticationResults: /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType)oreServiceProtocol>"8;
 - (void)4ÊÝ·Ö[->6äñtg§+×7ãu(uv*-ÔNwûóÿÕÒôH÷ª­B]_vt ÝéýÚßåT:& qyüîÑ /* Error: Ran out of types for this method. */;
 - (void)rEqòEpjEw2Ev·EuwEt¨E{EzÉEy¢ExýEE~E}ûE|êEcõEbVEa;E`½EgðEf±EemEdEkæEjáEifEhEoEnEmÀEluESERÑEQEPÐEW!EVåEUETtE[ÂEZ(EY8EXãE_+E^¦E]E\#EC«EBEA
@@ -27,8 +25,6 @@ E@ùEG*EFEEcED)EKEJkEI'EHEOqENEM\ELE^H2ÿ
 
 // Remaining properties
 @property(copy) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(copy) CDUnknownBlockType failureBlock; // @synthesize failureBlock=_failureBlock;
-@property(copy) CDUnknownBlockType resultBlock; // @synthesize resultBlock=_resultBlock;
 
 @end
 

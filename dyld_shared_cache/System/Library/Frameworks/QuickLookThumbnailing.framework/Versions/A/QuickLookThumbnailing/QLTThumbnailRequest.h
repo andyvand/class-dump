@@ -4,44 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID, QLCacheVersionedFileIdentifier;
+@class NSUUID;
 
 @interface QLTThumbnailRequest
 {
     _Bool _shouldProvideFoldedGenericIcon;
-    _Bool _iconMode;
-    _Bool _wantsBaseline;
-    int _flavor;
-    QLCacheVersionedFileIdentifier *_fileIdentifier;
-    NSUUID *_uuid;
-    double _scale;
-    NSString *_contentType;
-    unsigned long long _badgeType;
-    double _minimumDimension;
-    long long _generationBehavior;
-    unsigned long long _requestedTypes;
-    struct CGSize _size;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)K;
 + (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (float);
 - (id);
 - (_Bool);
 - (long long);
-- (id);
+- (id);
 - (_Bool);
 - (long long);
 - (void);
@@ -52,44 +40,25 @@
 - (void);
 - (double);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (double);
 - (struct CGSize);
-- (int);
+- (int)P;
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)1;
 - (void);
 - (id);
 - (long long);
 - (void);
-- (id);
+- (id)t;
 - (void);
-- (void);
+- (void)9;
 
 // Remaining properties
-@property(nonatomic) unsigned long long badgeType; // @synthesize badgeType=_badgeType;
-@property(copy, nonatomic) NSString *contentType; // @synthesize contentType=_contentType;
-@property(readonly) QLCacheVersionedFileIdentifier *fileIdentifier; // @synthesize fileIdentifier=_fileIdentifier;
-@property int flavor; // @synthesize flavor=_flavor;
-@property(readonly, nonatomic) _Bool forceGeneration;
-@property long long generationBehavior; // @synthesize generationBehavior=_generationBehavior;
-@property(readonly) _Bool iconMode; // @synthesize iconMode=_iconMode;
-@property(readonly) float maximumPixelSize;
-@property(nonatomic) double minimumDimension; // @synthesize minimumDimension=_minimumDimension;
-@property(readonly, nonatomic) _Bool provideCachedResultsOnly;
-@property(readonly, nonatomic) _Bool provideFullResolutionThumbnail;
-@property(readonly, nonatomic) _Bool provideGenericIcon;
-@property(readonly, nonatomic) _Bool provideLowQualityThumbnail;
-@property(readonly, nonatomic) long long requestedMostRepresentativeType;
-@property(nonatomic) unsigned long long requestedTypes; // @synthesize requestedTypes=_requestedTypes;
-@property(nonatomic) double scale; // @synthesize scale=_scale;
-@property(nonatomic) _Bool shouldProvideFoldedGenericIcon; // @synthesize shouldProvideFoldedGenericIcon=_shouldProvideFoldedGenericIcon;
-@property(nonatomic) struct CGSize size; // @synthesize size=_size;
 @property(retain) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property _Bool wantsBaseline; // @synthesize wantsBaseline=_wantsBaseline;
 
 @end
 

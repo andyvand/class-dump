@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class _GCDevicePhysicalInputBase;
+
 @protocol _GCDevicePhysicalInputDataSource
+- (_GCDevicePhysicalInputBase *);
+- (void);
+- (void)2;
 @end
 

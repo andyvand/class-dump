@@ -9,8 +9,6 @@
 @interface GEOTileEditionUpdate
 {
     NSMutableArray *_entries;
-    _Bool _flushEverything;
-    _Bool _invalidateEverything;
 }
 
 - (unsigned long long);
@@ -20,13 +18,12 @@
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)met;
 - (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool flushEverything; // @synthesize flushEverything=_flushEverything;
-@property(nonatomic) _Bool invalidateEverything; // @synthesize invalidateEverything=_invalidateEverything;
 
 @end
 

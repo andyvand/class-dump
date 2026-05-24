@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIAction, UITab, UITabGroup, _UITabOutlineNode;
+@class UITab, _UITabOutlineNode;
 
 __attribute__((visibility("hidden")))
 @interface _UITabSidebarContent
 {
     UITab *_tab;
-    UIAction *_action;
-    UITabGroup *_group;
-    _UITabOutlineNode *_node;
 }
 
 + (id);
@@ -23,16 +20,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (id)h;
+- (id)RotaryFocusRingArrowWidth;
 - (id)erSizeClassParametersClass(void)_block_invoke;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) UIAction *action; // @synthesize action=_action;
-@property(readonly, nonatomic) UITabGroup *group; // @synthesize group=_group;
 @property(retain, nonatomic) _UITabOutlineNode *node; // @synthesize node=_node;
-@property(readonly, nonatomic) UITab *tab; // @synthesize tab=_tab;
 
 @end
 

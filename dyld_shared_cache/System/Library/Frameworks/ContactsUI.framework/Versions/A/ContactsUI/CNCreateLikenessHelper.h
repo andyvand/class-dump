@@ -11,18 +11,18 @@
     id <CNUIParentContainerCache> _parentContainerCache;
 }
 
-+ (id);
++ (id)	;
 + (void);
 + (id);
 + (id);
 - (void);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) id <CNUIParentContainerCache> parentContainerCache; // @synthesize parentContainerCache=_parentContainerCache;

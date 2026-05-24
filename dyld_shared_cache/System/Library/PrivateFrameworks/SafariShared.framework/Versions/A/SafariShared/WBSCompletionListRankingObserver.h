@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SFRankingFeedback;
 @protocol WBSCompletionListRankingObserverDelegate, _CompletionListRankingObserverFeedbackGenerator;
 
 @interface WBSCompletionListRankingObserver
 {
     id <_CompletionListRankingObserverFeedbackGenerator> _feedbackGenerator;
-    id <WBSCompletionListRankingObserverDelegate> _delegate;
 }
 
 - (void);
@@ -23,21 +21,13 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void)È);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <WBSCompletionListRankingObserverDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) SFRankingFeedback *rankingFeedback;
-@property(readonly) Class superclass;
 
 @end
 

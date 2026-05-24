@@ -4,35 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSURL;
+@class NSString;
 
 @interface DEDNotifierConfiguration
 {
     _Bool _userNotificationShouldPlaySound;
-    _Bool _followupUseSpringboardNotification;
-    NSString *_hostAppIdentifier;
-    NSString *_localizedNotificationTitle;
-    NSString *_localizedNotificationBody;
-    NSString *_reviewActionLabel;
-    NSString *_sendActionLabel;
-    NSString *_followupUniqueIdentifier;
-    double _followupFrequency;
-    NSURL *_followupReviewActionURL;
-    NSURL *_followupSendActionURL;
-    NSDictionary *_followupReviewActionUserInfo;
-    NSDictionary *_followupSendActionUserInfo;
-    NSString *_followupLocalizedTitle;
-    NSString *_followupLocalizedInformativeText;
-    NSString *_followupExtensionIdentifier;
-    NSURL *_followupNotificationActionURL;
-    NSString *_followupNotificationActionTitle;
-    NSString *_followupNotificationBundlePath;
-    NSString *_followupNotificationBundleIconName;
 }
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)N3ctu14SharedLoggableIN3qmi6Server5StateENS_10LoggerBaseINSt3__110shared_ptrINS_9LogServerEEEEEEE;
 - (void);
 - (void);
 - (void);
@@ -53,7 +34,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -62,7 +43,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)?;
 - (id);
 - (id);
 - (id);
@@ -75,38 +56,12 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)LP:(id)arg1:LogEntry::PrivateData::DaemonLocationPrivate_MatchQualityType_IsValid(value) /* Error: Ran out of types for this method. */;
+- (void)ZN11cnframework12ActiveObjectIN5raven33RavenDeltaVIOEstimateActiveObjectEE41CreateAndStoreEventHandlerForActiveObjectINS1_19VLLocalizationEventEEEvvEUlPNS_16ActiveObjectBaseERKNS_12GenericEventEE_;
+- (void));
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSString *followupExtensionIdentifier; // @synthesize followupExtensionIdentifier=_followupExtensionIdentifier;
-@property double followupFrequency; // @synthesize followupFrequency=_followupFrequency;
-@property(retain) NSString *followupLocalizedInformativeText; // @synthesize followupLocalizedInformativeText=_followupLocalizedInformativeText;
-@property(retain) NSString *followupLocalizedTitle; // @synthesize followupLocalizedTitle=_followupLocalizedTitle;
-@property(retain) NSString *followupNotificationActionTitle; // @synthesize followupNotificationActionTitle=_followupNotificationActionTitle;
-@property(retain) NSURL *followupNotificationActionURL; // @synthesize followupNotificationActionURL=_followupNotificationActionURL;
-@property(retain) NSString *followupNotificationBundleIconName; // @synthesize followupNotificationBundleIconName=_followupNotificationBundleIconName;
-@property(retain) NSString *followupNotificationBundlePath; // @synthesize followupNotificationBundlePath=_followupNotificationBundlePath;
-@property(retain) NSURL *followupReviewActionURL; // @synthesize followupReviewActionURL=_followupReviewActionURL;
-@property(retain) NSDictionary *followupReviewActionUserInfo; // @synthesize followupReviewActionUserInfo=_followupReviewActionUserInfo;
-@property(retain) NSURL *followupSendActionURL; // @synthesize followupSendActionURL=_followupSendActionURL;
-@property(retain) NSDictionary *followupSendActionUserInfo; // @synthesize followupSendActionUserInfo=_followupSendActionUserInfo;
-@property(retain) NSString *followupUniqueIdentifier; // @synthesize followupUniqueIdentifier=_followupUniqueIdentifier;
-@property _Bool followupUseSpringboardNotification; // @synthesize followupUseSpringboardNotification=_followupUseSpringboardNotification;
-@property(readonly) unsigned long long hash;
 @property(retain) NSString *hostAppIdentifier; // @synthesize hostAppIdentifier=_hostAppIdentifier;
-@property(retain) NSString *localizedNotificationBody; // @synthesize localizedNotificationBody=_localizedNotificationBody;
-@property(retain) NSString *localizedNotificationTitle; // @synthesize localizedNotificationTitle=_localizedNotificationTitle;
-@property(retain) NSString *reviewActionLabel; // @synthesize reviewActionLabel=_reviewActionLabel;
-@property(retain) NSString *sendActionLabel; // @synthesize sendActionLabel=_sendActionLabel;
-@property(readonly) Class superclass;
-@property _Bool userNotificationShouldPlaySound; // @synthesize userNotificationShouldPlaySound=_userNotificationShouldPlaySound;
 
 @end
 

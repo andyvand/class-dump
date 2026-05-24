@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface AKServerBackoffContext
 {
     NSString *_proxiedAppBundleID;
-    NSString *_clientBundleID;
-    NSString *_appServerName;
-    NSURL *_url;
 }
 
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (void);
 - (id);
+- (void);
+- (id)%d;
 - (void)p0pXptp;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *appServerName; // @synthesize appServerName=_appServerName;
-@property(copy, nonatomic) NSString *clientBundleID; // @synthesize clientBundleID=_clientBundleID;
 @property(copy, nonatomic) NSString *proxiedAppBundleID; // @synthesize proxiedAppBundleID=_proxiedAppBundleID;
-@property(copy, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

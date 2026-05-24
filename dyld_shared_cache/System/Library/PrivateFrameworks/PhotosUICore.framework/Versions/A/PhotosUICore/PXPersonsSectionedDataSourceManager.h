@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PHPhotoLibrary, PXPersonsSectionedDataSource, PXPhotoLibraryLocalDefaults;
+@class PHPhotoLibrary;
 
 @interface PXPersonsSectionedDataSourceManager
 {
     unsigned long long _peopleHomeSortingType;
-    PHPhotoLibrary *_photoLibrary;
-    PXPhotoLibraryLocalDefaults *_localDefaults;
 }
 
 - (void);
@@ -18,24 +16,14 @@
 - (unsigned long long);
 - (long long);
 - (id);
-- (id);
-- (id)ngsProducer;
+- (id)DDXML:(id)arg1 LastError;
+- (id)curatedSongsProducer;
 - (void);
 - (id)p ÿÐp;
 - (void)>;
 
 // Remaining properties
-@property(readonly, nonatomic) PXPersonsSectionedDataSource *dataSource; // @dynamic dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PXPhotoLibraryLocalDefaults *localDefaults; // @synthesize localDefaults=_localDefaults;
-@property(nonatomic) unsigned long long peopleHomeSortingType; // @synthesize peopleHomeSortingType=_peopleHomeSortingType;
 @property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(readonly) Class superclass;
 
 @end
 

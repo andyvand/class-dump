@@ -6,15 +6,12 @@
 
 #import <Safari/Banner.h>
 
-@class NSLayoutConstraint, NSTextField, RolloverImageButton;
+@class NSTextField, RolloverImageButton;
 
 __attribute__((visibility("hidden")))
 @interface PrivateBrowsingExplanationBanner : Banner
 {
     RolloverImageButton *_closeButton;
-    NSTextField *_titleText;
-    NSTextField *_descriptionText;
-    NSLayoutConstraint *_bannerHeight;
 }
 
 + (int);
@@ -28,13 +25,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void)ì;
 
 // Remaining properties
-@property(nonatomic) __weak NSLayoutConstraint *bannerHeight; // @synthesize bannerHeight=_bannerHeight;
-@property(nonatomic) __weak RolloverImageButton *closeButton; // @synthesize closeButton=_closeButton;
-@property(nonatomic) __weak NSTextField *descriptionText; // @synthesize descriptionText=_descriptionText;
 @property(nonatomic) __weak NSTextField *titleText; // @synthesize titleText=_titleText;
 
 @end

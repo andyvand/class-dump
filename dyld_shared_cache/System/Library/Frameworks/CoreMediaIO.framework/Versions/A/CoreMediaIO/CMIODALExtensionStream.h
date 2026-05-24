@@ -4,42 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CMIOExtensionSessionStream, NSDictionary, NSString;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface CMIODALExtensionStream
 {
     void *_plugIn;
-    void *_stream;
-    CMIOExtensionSessionStream *_sessionStream;
-    struct os_unfair_lock_s _propertiesLock;
-    NSDictionary *_properties;
-    NSString *_description;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
-- (struct opaqueCMSampleBuffer *);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)T5;
+- (struct opaqueCMSampleBuffer *)u8;
 - (void);
 - (id);
+- (id);
+- (id);
+- (void);
+- (id)nabled;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) NSDictionary *properties;
-@property(readonly, retain) CMIOExtensionSessionStream *sessionStream; // @synthesize sessionStream=_sessionStream;
-@property(readonly) Class superclass;
 
 @end
 

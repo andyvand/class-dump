@@ -11,10 +11,10 @@
     int _maxSize;
 }
 
-- (id);
+- (id)C;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)v;
 - (int);
 - (void);
 

@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface RBInterpolatedDisplayListContents
 {
     struct objc_ptr<RBDisplayListInterpolator *> _interp;
-    float _progress;
-    struct spin_lock _contents_lock;
-    struct objc_ptr<id<_RBDisplayListContents>> _contents;
-    double _contentsScale;
 }
 
 + (id);
@@ -23,28 +17,16 @@ __attribute__((visibility("hidden")))
 - (float);
 - (const void *);
 - (const void *);
-- (struct CGRect);
+- (struct CGRect)%{public}@, send Peripheral didConnect;
 - (void);
 - (id);
 - (void);
 - (void);
 - (void)× ;
-- (id);
+- (id)beginUpdateWithRenderingMode:position:size:flags: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) const void *_rb_contents;
-@property(readonly, nonatomic) const void *_rb_xml_document;
-@property(readonly, nonatomic) struct CGRect boundingRect;
-@property(readonly, nonatomic) float contentHeadroom;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isEmpty) _Bool empty;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *xmlDescription;
 
 @end
 

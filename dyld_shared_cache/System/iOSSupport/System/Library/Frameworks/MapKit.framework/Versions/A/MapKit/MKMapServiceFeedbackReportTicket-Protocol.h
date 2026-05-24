@@ -7,6 +7,7 @@
 @class GEOMapServiceTraits;
 
 @protocol MKMapServiceFeedbackReportTicket
+- (void)_chat:(void (^)(GEORPFeedbackResponse *, NSData *, NSError *))arg1 sendHQAttachmentsForMessage:(void (^)(_Bool))arg2;
 
 // Remaining properties
 @property(readonly, nonatomic) GEOMapServiceTraits *traits;

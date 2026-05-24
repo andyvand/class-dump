@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASCredentialRequestPaneViewController, NSStackView, PMCredentialRequestPaneHeader;
+@class ASCredentialRequestPaneViewController, PMCredentialRequestPaneHeader;
 
 @interface ASCredentialRequestPaneContext
 {
     PMCredentialRequestPaneHeader *_header;
-    ASCredentialRequestPaneViewController *_paneViewController;
-    NSStackView *_stackView;
 }
 
 - (void);
@@ -19,12 +17,11 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)notificationCenter;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) __weak ASCredentialRequestPaneViewController *paneViewController; // @synthesize paneViewController=_paneViewController;
-@property(readonly, nonatomic) NSStackView *stackView; // @synthesize stackView=_stackView;
 
 @end
 

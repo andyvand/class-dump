@@ -4,30 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSObject, UINSTouchAccommodationVisualizer;
-@protocol OS_dispatch_source;
-
 __attribute__((visibility("hidden")))
 @interface UINSVirtualDigitizer
 {
     struct os_unfair_lock_s _spinLock;
-    NSObject<OS_dispatch_source> *_dispatchSource;
-    _Bool _dispatchIsActive;
-    UINSTouchAccommodationVisualizer *_touchVisualizer;
-    unsigned int _contextId;
-    NSMutableArray *_indexPool;
-    NSMutableDictionary *_fingers;
 }
 
 - (void);
-- (void);
+- (void)c;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)in";
 - (id);
 - (void);
 - (void)øF	;
@@ -35,7 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property unsigned int contextId; // @synthesize contextId=_contextId;
-@property __weak UINSTouchAccommodationVisualizer *touchVisualizer; // @synthesize touchVisualizer=_touchVisualizer;
 
 @end
 

@@ -6,15 +6,11 @@
 
 #import <Silex/SXComponentSizer.h>
 
-@class NSString, SXDataTableComponentController, SXDataTableLayouter;
-@protocol SXLayoutContext, SXTextComponentLayoutHosting;
+@protocol SXTextComponentLayoutHosting;
 
 @interface SXDataTableComponentSizer : SXComponentSizer
 {
     id <SXTextComponentLayoutHosting> _textComponentLayoutHosting;
-    SXDataTableLayouter *_layouter;
-    SXDataTableComponentController *_dataTableComponentController;
-    id <SXLayoutContext> _currentLayoutContext;
 }
 
 - (id);
@@ -36,16 +32,6 @@
 - (void)owIndex"Q"columnIndex"Q};
 
 // Remaining properties
-@property(retain, nonatomic) id <SXLayoutContext> currentLayoutContext; // @synthesize currentLayoutContext=_currentLayoutContext;
-@property(retain, nonatomic) SXDataTableComponentController *dataTableComponentController; // @synthesize dataTableComponentController=_dataTableComponentController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SXDataTableLayouter *layouter; // @synthesize layouter=_layouter;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) __weak id <SXTextComponentLayoutHosting> textComponentLayoutHosting; // @synthesize textComponentLayoutHosting=_textComponentLayoutHosting;
 
 @end

@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPBackgroundColorView, LPCaptionBarView, LPComponentView, LPContactsBadgeView, LPImageView, LPQuoteView;
+@class LPCaptionBarView;
 
 __attribute__((visibility("hidden")))
 @interface LPLinkViewComponents
 {
     LPCaptionBarView *_captionBar;
-    LPComponentView *_media;
-    LPBackgroundColorView *_mediaBackground;
-    LPCaptionBarView *_mediaTopCaptionBar;
-    LPCaptionBarView *_mediaBottomCaptionBar;
-    LPQuoteView *_quote;
-    LPImageView *_backgroundImage;
-    LPComponentView *_progressSpinner;
-    LPContactsBadgeView *_contactsBadge;
 }
 
 - (void);
@@ -30,27 +22,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)ncePeriodicSiriSamplingRateNumerator samplingNumerator from %u to %u;
+- (id)e:] /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
+- (void)ame:(id)arg1 %@ inferenceModelDescription:%@ inferenceModelConfigPath:%@ espresso.bin:%@ experimentId:%@ treatmentId:%@ isMLModelEnabled:%d} /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) LPImageView *backgroundImage; // @synthesize backgroundImage=_backgroundImage;
 @property(retain, nonatomic) LPCaptionBarView *captionBar; // @synthesize captionBar=_captionBar;
-@property(retain, nonatomic) LPContactsBadgeView *contactsBadge; // @synthesize contactsBadge=_contactsBadge;
-@property(retain, nonatomic) LPComponentView *media; // @synthesize media=_media;
-@property(retain, nonatomic) LPBackgroundColorView *mediaBackground; // @synthesize mediaBackground=_mediaBackground;
-@property(retain, nonatomic) LPCaptionBarView *mediaBottomCaptionBar; // @synthesize mediaBottomCaptionBar=_mediaBottomCaptionBar;
-@property(retain, nonatomic) LPCaptionBarView *mediaTopCaptionBar; // @synthesize mediaTopCaptionBar=_mediaTopCaptionBar;
-@property(retain, nonatomic) LPComponentView *progressSpinner; // @synthesize progressSpinner=_progressSpinner;
-@property(retain, nonatomic) LPQuoteView *quote; // @synthesize quote=_quote;
 
 @end
 

@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TSDGPUDataArrayBuffer, TSDGPUDataBuffer;
-
 @interface TSDGPUDataBufferAttribute
 {
     _Bool _isNormalized;
-    unsigned int _bufferUsage;
-    int _componentCount;
-    int _locationInShader;
-    NSString *_name;
-    long long _dataType;
-    unsigned long long _bufferOffset;
-    TSDGPUDataArrayBuffer *_dataArrayBuffer;
-    TSDGPUDataBuffer *_dataBuffer;
 }
 
 + (id);
@@ -28,7 +18,7 @@
 - (_Bool);
 - (id);
 - (unsigned int);
-- (id);
+- (id)!;
 - (void);
 - (int);
 - (void);
@@ -42,15 +32,7 @@
 - (void)SWPRep p_newSelectionPathForRange:headKnobRect:tailKnobRect:selectionType:selection:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned long long bufferOffset; // @synthesize bufferOffset=_bufferOffset;
-@property(readonly, nonatomic) unsigned int bufferUsage; // @synthesize bufferUsage=_bufferUsage;
-@property(readonly, nonatomic) int componentCount; // @synthesize componentCount=_componentCount;
-@property(nonatomic) TSDGPUDataArrayBuffer *dataArrayBuffer; // @synthesize dataArrayBuffer=_dataArrayBuffer;
-@property(nonatomic) TSDGPUDataBuffer *dataBuffer; // @synthesize dataBuffer=_dataBuffer;
-@property(readonly, nonatomic) long long dataType; // @synthesize dataType=_dataType;
-@property(readonly, nonatomic) _Bool isNormalized; // @synthesize isNormalized=_isNormalized;
 @property(nonatomic) int locationInShader; // @synthesize locationInShader=_locationInShader;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

@@ -4,9 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSControl;
+
 @protocol NSControlTextEditingDelegate
 
 @optional
+- (_Bool)_secureURLWithDomain:(NSControl *)arg1;
 - (void)0;
 - (_Bool)ÑÐ\70U;
 @end

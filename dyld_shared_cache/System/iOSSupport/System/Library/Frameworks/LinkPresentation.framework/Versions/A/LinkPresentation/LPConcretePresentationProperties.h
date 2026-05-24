@@ -12,25 +12,21 @@ __attribute__((visibility("hidden")))
 @interface LPConcretePresentationProperties : LPWebLinkPresentationProperties
 {
     LPCaptionButtonPresentationProperties *_captionButton;
-    LPCaptionButtonPresentationProperties *_captionTextButton;
-    LPCaptionButtonPresentationProperties *_secondaryCaptionButton;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)tableSeparatorLightColor;
+- (void)suppressesMutationsFromLocalDevice;
+- (void)suppressesAnimationsForLineUpdates;
+- (id)supportsPreviewMetadata;
+- (id)strikeImageAtPreviewSize:(id)arg1 scaleFactor:(id)arg2;
+- (id)startDeferredEditingPayload:forConversation: /* Error: Ran out of types for this method. */;
+- (id)startCommunicationForEntity:action:address:usePreferredRouteIfAvailable: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void)0@ù
 × ;
 
 // Remaining properties
 @property(retain, nonatomic) LPCaptionButtonPresentationProperties *captionButton; // @synthesize captionButton=_captionButton;
-@property(retain, nonatomic) LPCaptionButtonPresentationProperties *captionTextButton; // @synthesize captionTextButton=_captionTextButton;
-@property(retain, nonatomic) LPCaptionButtonPresentationProperties *secondaryCaptionButton; // @synthesize secondaryCaptionButton=_secondaryCaptionButton;
 
 @end
 

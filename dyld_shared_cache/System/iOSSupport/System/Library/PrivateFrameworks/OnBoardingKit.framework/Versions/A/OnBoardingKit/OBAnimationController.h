@@ -4,37 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAPackage, CAStateController, NSArray, NSString, OBAnimationState, OBAnimationView;
+@class CAPackage;
 
 @interface OBAnimationController
 {
     _Bool _canceled;
-    CAPackage *_package;
-    CAStateController *_stateController;
-    OBAnimationView *_animationView;
-    NSArray *_animatedStates;
-    unsigned long long _stateIndex;
-    OBAnimationState *_firstState;
 }
 
 + (id);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
+- (void)?;
+- (unsigned long long);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
+- (void);
+- (void);
+- (id);
+- (void)R;
 - (id);
 - (void);
 - (_Bool);
@@ -44,20 +38,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *animatedStates; // @synthesize animatedStates=_animatedStates;
-@property(retain, nonatomic) OBAnimationView *animationView; // @synthesize animationView=_animationView;
-@property(nonatomic) _Bool canceled; // @synthesize canceled=_canceled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) OBAnimationState *firstState; // @synthesize firstState=_firstState;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) CAPackage *package; // @synthesize package=_package;
-@property(retain, nonatomic) CAStateController *stateController; // @synthesize stateController=_stateController;
-@property(nonatomic) unsigned long long stateIndex; // @synthesize stateIndex=_stateIndex;
-@property(readonly) Class superclass;
 
 @end
 

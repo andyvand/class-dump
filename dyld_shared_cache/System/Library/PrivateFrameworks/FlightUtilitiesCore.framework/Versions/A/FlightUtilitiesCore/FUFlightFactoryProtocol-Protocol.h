@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSError;
+
 @protocol FUFlightFactoryProtocol
++ (NSError *);
++ (void)@9;
 @end
 

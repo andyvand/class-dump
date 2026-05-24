@@ -14,12 +14,12 @@ __attribute__((visibility("hidden")))
     id <UIKeyboardUIServiceProtocol> _remoteTarget;
 }
 
-+ (id)ntent;
++ (id)backButtonContent;
 + (id)`4l;
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)payloadAllowAutomaticAppUpdates;
 - (id);
 - (void)LçÿÚ°¬e;
 

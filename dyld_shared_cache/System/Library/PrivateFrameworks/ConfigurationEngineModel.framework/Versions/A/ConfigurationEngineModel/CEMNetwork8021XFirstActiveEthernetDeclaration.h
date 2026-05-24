@@ -6,7 +6,7 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface CEMNetwork8021XFirstActiveEthernetDeclaration : CEMConfigurationBase
 {
@@ -16,30 +16,23 @@
 + (id);
 + (id);
 + (id);
++ (id)__objc_imageinfo__DATA_CONST;
 + (id);
-+ (id);
-+ (id);
++ (id)#"#'())-;
 + (id);
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (int);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool).;
+- (id)yAmJ_pGGGAISo10SNDSPGraphC5graph_Si24outputFormatChannelCounttG;
+- (void)ssl/s23_clnt.c;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSDictionary *payloadANY; // @synthesize payloadANY=_payloadANY;
-@property(readonly) Class superclass;
 
 @end
 

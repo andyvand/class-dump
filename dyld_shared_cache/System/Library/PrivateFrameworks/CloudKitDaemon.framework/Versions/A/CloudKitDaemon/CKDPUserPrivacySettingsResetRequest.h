@@ -12,14 +12,14 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)udioEngine_resumeComplete(void *);
 - (_Bool);
 - (unsigned int);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (Class)roupContext:didGetFileMetadataItemReaderWriter:fileMetadata:error: /* Error: Ran out of types for this method. */;
+- (Class)itemGroupContext:didGetFileMetadataItemReaderWriter:fileMetadata:error: /* Error: Ran out of types for this method. */;
 
 @end
 

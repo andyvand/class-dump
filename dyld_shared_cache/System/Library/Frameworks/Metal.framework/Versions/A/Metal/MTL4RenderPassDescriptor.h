@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLRenderPassColorAttachmentDescriptorArray, MTLRenderPassDepthAttachmentDescriptor, MTLRenderPassStencilAttachmentDescriptor;
-@protocol MTLBuffer, MTLRasterizationRateMap;
+@class MTLRenderPassColorAttachmentDescriptorArray;
 
 @interface MTL4RenderPassDescriptor
 {
@@ -17,29 +16,30 @@
 - (void);
 - (void);
 - (long long);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (void);
+- (void)B;
+- (id);
+- (void);
+- (void)geCreateFromIOSurface - %g ms
+;
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (unsigned long long);
+- (_Bool);
+- (unsigned long long)hedPreviously:%d /* Error: Ran out of types for this method. */;
+- (unsigned long long)kEventWindowBecameModalTarget;
+- (id)Lx;
 - (unsigned long long);
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (unsigned long long);
-- (unsigned long long);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)`;
 - (void);
 - (unsigned long long);
 - (id);
@@ -55,20 +55,6 @@
 
 // Remaining properties
 @property(readonly) MTLRenderPassColorAttachmentDescriptorArray *colorAttachments;
-@property(nonatomic) unsigned long long defaultRasterSampleCount;
-@property(copy, nonatomic) MTLRenderPassDepthAttachmentDescriptor *depthAttachment;
-@property(nonatomic) unsigned long long imageblockSampleLength;
-@property(retain, nonatomic) id <MTLRasterizationRateMap> rasterizationRateMap;
-@property(nonatomic) unsigned long long renderTargetArrayLength;
-@property(nonatomic) unsigned long long renderTargetHeight;
-@property(nonatomic) unsigned long long renderTargetWidth;
-@property(copy, nonatomic) MTLRenderPassStencilAttachmentDescriptor *stencilAttachment;
-@property(nonatomic) _Bool supportColorAttachmentMapping;
-@property(nonatomic) unsigned long long threadgroupMemoryLength;
-@property(nonatomic) unsigned long long tileHeight;
-@property(nonatomic) unsigned long long tileWidth;
-@property(retain, nonatomic) id <MTLBuffer> visibilityResultBuffer;
-@property(nonatomic) long long visibilityResultType;
 
 @end
 

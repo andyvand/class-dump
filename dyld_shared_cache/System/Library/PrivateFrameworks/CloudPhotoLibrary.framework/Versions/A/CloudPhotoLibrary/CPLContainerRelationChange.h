@@ -6,12 +6,11 @@
 
 #import <CloudPhotoLibrary/CPLRecordChange.h>
 
-@class CPLContainerRelation, NSString;
+@class NSString;
 
 @interface CPLContainerRelationChange : CPLRecordChange
 {
     NSString *_itemIdentifier;
-    CPLContainerRelation *_relation;
 }
 
 + (_Bool);
@@ -23,26 +22,25 @@
 - (_Bool);
 - (id);
 - (id);
+- (void)o;
 - (void);
 - (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)ch score.;
+- (id);
+- (id)T�0;
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)ÁÚ;
 - (id);
 - (void);
 - (id)marker at %@ because initial sync date is set;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *itemIdentifier; // @synthesize itemIdentifier=_itemIdentifier;
-@property(retain, nonatomic) CPLContainerRelation *relation; // @synthesize relation=_relation;
 
 @end
 

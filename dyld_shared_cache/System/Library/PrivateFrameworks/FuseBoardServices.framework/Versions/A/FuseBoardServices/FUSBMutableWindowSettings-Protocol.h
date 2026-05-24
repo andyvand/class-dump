@@ -5,9 +5,9 @@
 //
 
 @protocol FUSBMutableWindowSettings
+- (unsigned int)apsidal;
 
 // Remaining properties
-@property(nonatomic) unsigned int contentState;
 @property(nonatomic) unsigned int displayID;
 @end
 

@@ -16,7 +16,7 @@
 + (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)mergeableDeltaMetadataRetrieveResponse;
 - (_Bool);
 - (void);
 - (id);

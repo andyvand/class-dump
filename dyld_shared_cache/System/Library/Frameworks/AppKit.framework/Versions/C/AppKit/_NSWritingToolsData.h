@@ -4,38 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary, NSValue, NSView, NSWritingToolsContextState, NSWritingToolsCoordinator, NSWritingToolsProofreadingController, WTSession;
-
 __attribute__((visibility("hidden")))
 @interface _NSWritingToolsData
 {
     long long nestedActionLevels;
-    NSMutableArray *_transactionQueues;
-    _Bool _isAborted;
-    _Bool _inWritingToolsDelegate;
-    _Bool _isCompositionSession;
-    _Bool _isListOrTableSession;
-    _Bool _sessionFinished;
-    _Bool _reflectingExternalEdits;
-    _Bool _containsAttachments;
-    NSWritingToolsCoordinator *_coordinator;
-    WTSession *_wtSession;
-    NSMutableDictionary *_rewrittenStateForSuggestionUUIDs;
-    NSArray *_contexts;
-    NSWritingToolsContextState *_contextState;
-    NSWritingToolsProofreadingController *_proofreadingController;
-    NSView *_underlinesView;
-    long long _externalEditAction;
-    NSMutableArray *_rollingSuggestions;
-    NSValue *_rollingSuggestionsRange;
-    long long _rollingDelta;
-    NSValue *_lastDeliveredPendingRange;
-    long long _lastDeliveredLength;
-    struct _NSRange _initialSelectionRange;
-    struct _NSRange _initialPonderingRange;
 }
 
-- (void);
+- (void)ILEGED) failed for delegate class %llu;
 - (id);
 - (void)ew missing column;
 

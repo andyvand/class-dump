@@ -9,20 +9,18 @@
 @interface IDSCKModifyRecordsOperation : IDSCKDatabaseOperation
 {
     CDUnknownBlockType _modifyRecordsCompletionBlock;
-    long long _savePolicy;
 }
 
-+ (Class);
++ (Class)7(6;
 + (id)ô_;
 - (CDUnknownBlockType);
 - (void)L7ÿÿ7ÿÿ7ÿÿ´7ÿÿÔ7ÿÿì7ÿÿ8ÿÿ,8ÿÿL8ÿÿl8ÿÿ8ÿÿ8ÿÿ¼8ÿÿÜ8ÿÿü8ÿÿ9ÿÿ,9ÿÿD9ÿÿ|9ÿÿ´9ÿÿ:(CDUnknownBlockType)arg1 ÿÿ(:ÿÿ:ÿÿ4;ÿÿT;ÿÿt;ÿÿÐ;ÿÿp<ÿÿ=ÿÿl=ÿÿ=ÿÿÔ=ÿÿÀ>ÿÿÌ?ÿÿì?ÿÿ@ÿÿ,@ÿÿL@ÿÿ@ÿÿ¼@ÿÿ /* Error: Ran out of types for this method. */;
-- (void)o;
+- (void)NameAndPhoto;
 - (long long);
-- (void)ream;
+- (void)Proto_SubscribedStream;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType modifyRecordsCompletionBlock; // @synthesize modifyRecordsCompletionBlock=_modifyRecordsCompletionBlock;
-@property(nonatomic) long long savePolicy; // @synthesize savePolicy=_savePolicy;
 
 @end
 

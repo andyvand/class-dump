@@ -6,8 +6,6 @@
 
 #import <MetalTools/MTLToolsObject.h>
 
-@class NSString;
-
 @interface MTLToolsTextureLayout : MTLToolsObject
 {
 }
@@ -22,17 +20,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly) unsigned long long alignment;
-@property(readonly) CDStruct_14f26992 copyGranularity;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) unsigned long long size;
-@property(readonly) Class superclass;
-@property(readonly) CDStruct_492b6082 watermark;
 
 @end
 

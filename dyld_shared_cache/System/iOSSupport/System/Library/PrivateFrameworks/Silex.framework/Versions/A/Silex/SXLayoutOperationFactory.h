@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol SXComponentSizerEngine, SXLayoutBlueprintFactory, SXLayoutContextFactory, SXLayouterFactory, SXUnitConverterFactory;
+@protocol SXComponentSizerEngine;
 
 @interface SXLayoutOperationFactory
 {
     id <SXComponentSizerEngine> _componentSizerEngine;
-    id <SXLayoutBlueprintFactory> _layoutBlueprintFactory;
-    id <SXLayouterFactory> _layouterFactory;
-    id <SXLayoutContextFactory> _layoutContextFactory;
-    id <SXUnitConverterFactory> _unitConverterFactory;
 }
 
 - (id);
@@ -28,17 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXComponentSizerEngine> componentSizerEngine; // @synthesize componentSizerEngine=_componentSizerEngine;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <SXLayoutBlueprintFactory> layoutBlueprintFactory; // @synthesize layoutBlueprintFactory=_layoutBlueprintFactory;
-@property(readonly, nonatomic) id <SXLayoutContextFactory> layoutContextFactory; // @synthesize layoutContextFactory=_layoutContextFactory;
-@property(readonly, nonatomic) id <SXLayouterFactory> layouterFactory; // @synthesize layouterFactory=_layouterFactory;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <SXUnitConverterFactory> unitConverterFactory; // @synthesize unitConverterFactory=_unitConverterFactory;
 
 @end
 

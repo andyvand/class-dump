@@ -4,30 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface C2MPGenericEvent
 {
     unsigned long long _timestampEnd;
-    unsigned long long _timestampStart;
-    NSMutableArray *_metrics;
-    NSString *_name;
-    int _type;
-    struct {
-        unsigned int timestampEnd:1;
-        unsigned int timestampStart:1;
-        unsigned int type:1;
-    } _has;
 }
 
 + (Class);
+- (_Bool)ank() == input_shape_ptr->rank() + 1;
+- (id);
 - (_Bool);
-- (id);
-- (_Bool);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -38,15 +27,15 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (unsigned long long);
-- (id);
+- (id)!;
 - (void);
 - (id);
 - (int);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
@@ -57,15 +46,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasName;
-@property(nonatomic) _Bool hasTimestampEnd;
-@property(nonatomic) _Bool hasTimestampStart;
 @property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) NSMutableArray *metrics; // @synthesize metrics=_metrics;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) unsigned long long timestampEnd; // @synthesize timestampEnd=_timestampEnd;
-@property(nonatomic) unsigned long long timestampStart; // @synthesize timestampStart=_timestampStart;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

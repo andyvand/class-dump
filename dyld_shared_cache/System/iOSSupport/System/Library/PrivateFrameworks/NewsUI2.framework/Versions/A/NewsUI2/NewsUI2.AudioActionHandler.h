@@ -7,10 +7,6 @@
 @interface NewsUI2.AudioActionHandler
 {
     id headlineConverter;
-    id audioUIMenuProvider;
-    id bundleSubscriptionManager;
-    id commandCenter;
-    id playbackState;
 }
 
 @end

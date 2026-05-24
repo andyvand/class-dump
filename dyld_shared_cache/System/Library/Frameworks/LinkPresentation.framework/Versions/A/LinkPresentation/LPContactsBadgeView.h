@@ -6,21 +6,17 @@
 
 #import <LinkPresentation/LPComponentView.h>
 
-@class CAShapeLayer, LPContactsBadgeStyle, NSImageView, NSView;
+@class LPContactsBadgeStyle;
 
 __attribute__((visibility("hidden")))
 @interface LPContactsBadgeView : LPComponentView
 {
     LPContactsBadgeStyle *_style;
-    NSView *_avatarView;
-    NSImageView *_highlightIndicatorView;
-    NSView *_highlightShadowView;
-    CAShapeLayer *_maskLayer;
 }
 
 - (struct CGRect);
 - (void);
-- (id);
+- (id)|;
 - (id);
 - (void);
 - (struct CGSize);

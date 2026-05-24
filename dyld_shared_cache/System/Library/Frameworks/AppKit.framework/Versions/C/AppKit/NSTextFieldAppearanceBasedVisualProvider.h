@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTextField, NSTextFieldBezelConfiguration, NSTextFieldBezelView, NSTextFieldCell, NSView, _NSBoxCustomView;
+@class NSTextField, NSTextFieldBezelConfiguration;
 
 __attribute__((visibility("hidden")))
 @interface NSTextFieldAppearanceBasedVisualProvider
 {
     NSTextFieldBezelConfiguration *_bezelConfiguration;
-    NSTextFieldBezelView *_bezelView;
-    _NSBoxCustomView *_borderView;
-    _Bool _cellOverridesDrawingMethods;
-    _Bool _textFieldOverridesDrawingMethods;
-    _Bool _usesSubviews;
-    NSTextField *textField;
-    NSTextFieldCell *textFieldCell;
-    NSView *_labelView;
 }
 
 + (id);
@@ -30,7 +22,7 @@ __attribute__((visibility("hidden")))
 + (struct CGSize);
 + (id);
 + (struct NSEdgeInsets);
-+ (double);
++ (double)kCFURLStorageSessionIdentifier;
 + (id);
 - (_Bool);
 - (_Bool);
@@ -52,48 +44,30 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (struct CGSize);
 - (id);
 - (id);
 - (struct CGRect);
-- (id);
+- (id);
 - (double);
 - (void);
 - (_Bool);
 - (struct CGRect);
-- (void);
+- (void)torage@%p<%p> { session %p, persistent %p };
 - (_Bool);
-- (void);
-- (id);
+- (void)l;
+- (id)`;
 - (id)Ô ;
-- (CDStruct_507282ca);
+- (CDStruct_c3b9c2ee);
 - (id)s immediately:%@] /* Error: Ran out of types for this method. */;
 - (void)ond:third:] /* Error: Ran out of types for this method. */;
 - (void);
 - (struct NSEdgeInsets)å;
 
 // Remaining properties
-@property(readonly) struct NSEdgeInsets alignmentRectInsets;
-@property(readonly) _Bool allowsTextTightening;
-@property(readonly) NSView *backgroundView;
-@property(readonly) double bezelCellSizeHeightPadding;
-@property(copy) NSTextFieldBezelConfiguration *bezelConfiguration;
-@property(retain, nonatomic) NSTextFieldBezelView *bezelView;
-@property(retain, nonatomic) _NSBoxCustomView *borderView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSView *labelView; // @synthesize labelView=_labelView;
-@property(readonly) Class superclass;
 @property(nonatomic) __weak NSTextField *textField; // @synthesize textField;
-@property(nonatomic) __weak NSTextFieldCell *textFieldCell; // @synthesize textFieldCell;
-@property(readonly) _Bool usesSubviews; // @synthesize usesSubviews=_usesSubviews;
-@property(readonly) _Bool wantsSeparatedSubviews;
 
 @end
 

@@ -9,10 +9,6 @@
 @interface NSSmartQuoteOptions
 {
     NSString *_leftSingleQuote;
-    NSString *_rightSingleQuote;
-    NSString *_apostrophe;
-    NSString *_leftDoubleQuote;
-    NSString *_rightDoubleQuote;
 }
 
 + (id);
@@ -23,21 +19,17 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)y output;
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *apostrophe;
-@property(readonly, copy) NSString *leftDoubleQuote;
 @property(readonly, copy) NSString *leftSingleQuote;
-@property(readonly, copy) NSString *rightDoubleQuote;
-@property(readonly, copy) NSString *rightSingleQuote;
 
 @end
 

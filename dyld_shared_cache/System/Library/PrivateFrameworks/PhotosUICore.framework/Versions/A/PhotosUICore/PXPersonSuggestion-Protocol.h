@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol PXPersonSuggestion
+- (NSString *)Q;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *localizedName;

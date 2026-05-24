@@ -4,41 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIButton, UIImageView, UILabel, UIView, _UIGrabber;
+@class UIImageView;
 @protocol CKAppGrabberViewDelegate;
 
 @interface CKAppGrabberView
 {
     UIImageView *_iconImageView;
-    UIImageView *_iconOutlineView;
-    UILabel *_pluginTitleLabel;
-    UIButton *_closeButton;
-    UIView *_headerView;
-    UIView *_grayLine;
-    _UIGrabber *_chevronView;
-    NSString *_appIdentifier;
-    _Bool _showsAppTitle;
-    _Bool _roundsTopCorners;
-    id <CKAppGrabberViewDelegate> _delegate;
 }
 
 + (double);
 + (double);
+- (double)ICTTTextStorage;
+- (double)ICTTTextStorageScrollClampingDelegate;
+- (void);
+- (void);
+- (void)K;
+- (_Bool)lazy_storage_$_managedObjectContextDidSavePublisher;
+- (_Bool)participants;
+- (void)Qo__ADSgtGG;
+- (void);
+- (void);
+- (_Bool)t;
 - (double);
 - (double);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (double);
-- (double);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -48,13 +38,7 @@
 - (id)L¥3;
 
 // Remaining properties
-@property(readonly, nonatomic) double chevronMaxYOffset;
-@property(readonly, nonatomic) UIButton *closeButton; // @synthesize closeButton=_closeButton;
 @property(nonatomic) __weak id <CKAppGrabberViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool roundsTopCorners; // @synthesize roundsTopCorners=_roundsTopCorners;
-@property(nonatomic) _Bool showsAppTitle; // @synthesize showsAppTitle=_showsAppTitle;
-@property(nonatomic) _Bool showsGrabberPill;
-@property(readonly, nonatomic) double visualOriginYOffset;
 
 @end
 

@@ -6,27 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ODFUNNELSiriSchemaODFUNNELCoreDimensions;
+@class ODFUNNELSiriSchemaODFUNNELCoreDimensions;
 
 @interface ODFUNNELSiriSchemaODFUNNELVoiceTriggerEnrollmentDimensions : SISchemaInstrumentationMessage
 {
     ODFUNNELSiriSchemaODFUNNELCoreDimensions *_coreDimensions;
-    int _enrollmentMode;
-    int _voiceTriggerType;
-    int _enrollmentOutcome;
-    unsigned int _pageNumberCompleted;
-    int _trainingOutcome;
-    struct {
-        unsigned int enrollmentMode:1;
-        unsigned int voiceTriggerType:1;
-        unsigned int enrollmentOutcome:1;
-        unsigned int pageNumberCompleted:1;
-        unsigned int trainingOutcome:1;
-    } _has;
-    _Bool _hasCoreDimensions;
 }
 
-- (int);
+- (int)?;
 - (void);
 - (void);
 - (void);
@@ -49,14 +36,14 @@
 - (int);
 - (void);
 - (void);
+- (void)p;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)Y ;
 - (int);
-- (id);
-- (int);
+- (id);
+- (int);
 - (id);
 - (void);
 - (unsigned long long);
@@ -71,18 +58,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) ODFUNNELSiriSchemaODFUNNELCoreDimensions *coreDimensions; // @synthesize coreDimensions=_coreDimensions;
-@property(nonatomic) int enrollmentMode; // @synthesize enrollmentMode=_enrollmentMode;
-@property(nonatomic) int enrollmentOutcome; // @synthesize enrollmentOutcome=_enrollmentOutcome;
-@property(nonatomic) _Bool hasCoreDimensions; // @synthesize hasCoreDimensions=_hasCoreDimensions;
-@property(nonatomic) _Bool hasEnrollmentMode;
-@property(nonatomic) _Bool hasEnrollmentOutcome;
-@property(nonatomic) _Bool hasPageNumberCompleted;
-@property(nonatomic) _Bool hasTrainingOutcome;
-@property(nonatomic) _Bool hasVoiceTriggerType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int pageNumberCompleted; // @synthesize pageNumberCompleted=_pageNumberCompleted;
-@property(nonatomic) int trainingOutcome; // @synthesize trainingOutcome=_trainingOutcome;
-@property(nonatomic) int voiceTriggerType; // @synthesize voiceTriggerType=_voiceTriggerType;
 
 @end
 

@@ -10,7 +10,7 @@
 {
 }
 
-- (id);
+- (id)o;
 - (unsigned long long);
 
 @end

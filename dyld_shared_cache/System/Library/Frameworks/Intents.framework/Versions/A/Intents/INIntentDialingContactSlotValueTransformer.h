@@ -13,7 +13,7 @@
 + (Class);
 + (long long)ozedTasks;
 - (id);
-- (id)dCallAudioRoutes:(id)arg1;
+- (id)StringAsPayloadCallAudioRoutes:(id)arg1;
 
 @end
 

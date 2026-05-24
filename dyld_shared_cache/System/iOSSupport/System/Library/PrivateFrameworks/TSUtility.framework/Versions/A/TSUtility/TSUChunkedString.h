@@ -7,8 +7,6 @@
 @interface TSUChunkedString
 {
     unsigned long long _length;
-    struct vector<std::shared_ptr<TSUStringChunk>, std::allocator<std::shared_ptr<TSUStringChunk>>> _chunks;
-    unsigned long long _chunkLength;
 }
 
 - (void);

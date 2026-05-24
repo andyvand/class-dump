@@ -4,37 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface UISScenePlacementConfiguration
 {
 }
 
 + (unsigned long long);
++ (_Bool)ateFrameworks/NeutrinoCore.framework/Versions/A/NeutrinoCore;
 + (_Bool);
-+ (_Bool);
+- (id)0;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)key;
+- (id)M;
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)out_of_order   %llu (%llu bytes)
+          no_load_info   %llu (%llu bytes)
+
+unknown   count          %llu (%llu bytes)
+          num_load_infos %llu
+          num_frames     %llu
+          duplicate      %llu (%llu bytes)
+          out_of_order   %llu (%llu bytes)
+          no_load_info   %llu (%llu bytes);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

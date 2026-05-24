@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     MLModel *_model;
 }
 
-+ (void);
++ (void);
 + (id);
-+ (void);
++ (void);
 - (id);
 - (id);
 - (id);
@@ -22,12 +22,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (id)Store.swift;
 - (id);
 - (id);
+- (id)g7;
 - (id);
-- (id);
-- (id);
-- (void)e: /* Error: Ran out of types for this method. */;
+- (void)isDocumentEquivalentBundle: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) MLModel *model; // @synthesize model=_model;

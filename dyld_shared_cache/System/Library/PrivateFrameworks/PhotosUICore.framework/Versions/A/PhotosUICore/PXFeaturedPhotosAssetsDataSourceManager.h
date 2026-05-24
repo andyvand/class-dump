@@ -6,19 +6,14 @@
 
 #import <PhotosUICore/PXPhotoKitAssetsDataSourceManager.h>
 
-@class NSCache, NSObject, NSString, PHAssetCollection, PXSuggestionsDataSource, PXSuggestionsDataSourceManager;
-@protocol OS_dispatch_queue;
+@class PXSuggestionsDataSourceManager;
 
 @interface PXFeaturedPhotosAssetsDataSourceManager : PXPhotoKitAssetsDataSourceManager
 {
     PXSuggestionsDataSourceManager *_suggestionsDataSourceManager;
-    PXSuggestionsDataSource *_suggestionsDataSource;
-    PHAssetCollection *_assetCollection;
-    NSCache *_keyAssetBySuggestionIdentifierCache;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
-- (void);
+- (void)?;
 - (_Bool);
 - (id);
 - (void);
@@ -27,24 +22,13 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id)omponentsSeparator;
 - (void)ø±pöþø±löþ=ø±´÷ÿ;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) PHAssetCollection *assetCollection; // @synthesize assetCollection=_assetCollection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSCache *keyAssetBySuggestionIdentifierCache; // @synthesize keyAssetBySuggestionIdentifierCache=_keyAssetBySuggestionIdentifierCache;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) PXSuggestionsDataSource *suggestionsDataSource; // @synthesize suggestionsDataSource=_suggestionsDataSource;
 @property(readonly, nonatomic) PXSuggestionsDataSourceManager *suggestionsDataSourceManager; // @synthesize suggestionsDataSourceManager=_suggestionsDataSourceManager;
-@property(readonly) Class superclass;
 
 @end
 

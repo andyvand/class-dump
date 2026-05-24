@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, PHAssetCollection, PHFetchResult;
+@class NSObject, PHAssetCollection;
 @protocol OS_dispatch_queue;
 
 @interface PXStoryPHAssetCollectionPersistableRecipeWriter
 {
     PHAssetCollection *_assetCollection;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    PHFetchResult *_referencePersons;
 }
 
 - (id);
@@ -23,8 +21,6 @@
 - (void)U;
 
 // Remaining properties
-@property(readonly, nonatomic) PHAssetCollection *assetCollection; // @synthesize assetCollection=_assetCollection;
-@property(readonly, nonatomic) PHFetchResult *referencePersons; // @synthesize referencePersons=_referencePersons;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

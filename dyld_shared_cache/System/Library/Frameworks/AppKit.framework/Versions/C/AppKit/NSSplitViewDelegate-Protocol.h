@@ -5,5 +5,11 @@
 //
 
 @protocol NSSplitViewDelegate
+
+@optional
+- (void)Z;
+- (double)Y;
+- (struct CGRect);
+- (_Bool)NSURLSessionDownloadTaskSubclass;
 @end
 

@@ -7,29 +7,24 @@
 @interface _NSCollectionLayoutAnchor
 {
     unsigned long long _edges;
-    struct CGPoint _offset;
-    struct CGPoint _anchorPoint;
-    _Bool _offsetIsUnitOffset;
 }
 
++ (id)___ZN19URLConnectionLoader22_loaderEvent_StartLoadEP16NSURLSessionTask_block_invoke;
++ (id)___ZN19URLConnectionLoader22_loaderEvent_StartLoadEP16NSURLSessionTask_block_invoke;
++ (id)B;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-- (id);
+- (id)ed to create a background AVAggregateAssetDownloadTask, as remote session is unavailable;
 - (id)0@ù
 × ;
-- (id)ttonLeadingSpacing;
+- (id)disclosureButtonLeadingSpacing;
 - (struct CGPoint);
 - (unsigned long long).apple.appkit.deprecated_document_apis;
 - (struct CGPoint)A;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGPoint anchorPoint;
 @property(readonly, nonatomic) unsigned long long edges;
-@property(readonly, nonatomic) struct CGPoint offset;
 
 @end
 

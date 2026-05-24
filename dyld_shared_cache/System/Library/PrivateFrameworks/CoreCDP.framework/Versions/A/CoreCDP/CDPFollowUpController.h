@@ -11,10 +11,10 @@
     CDPDaemonConnection *_daemonConn;
 }
 
-- (_Bool);
-- (void);
-- (id);
-- (void);
+- (_Bool)ntity.id END  AS masterEntityId FROM entity WHERE id IN _pas_nsset(:(id)arg1 candidates)     AND EXISTS (         SELECT value AS pattern             FROM _pas_nsarray(:(id *)arg2 patterns)             WHERE title LIKE pattern     );
+- (void)E;
+- (id)#;
+- (void):input simple buffer has %d lingering buffers /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NLLanguageModelSession, NSDictionary, NSMutableString, NSString;
+@class NLLanguageModelSession, NSDictionary;
 
 @interface NLLanguageModelState
 {
     NSDictionary *_options;
-    NSMutableString *_context;
-    NLLanguageModelSession *_session;
 }
 
 - (id);
@@ -23,13 +21,12 @@
 - (id);
 - (id);
 - (id);
+- (id)h;
 - (id);
-- (id);
-- (void);
+- (void)E;
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *context;
 @property(readonly, copy, nonatomic) NLLanguageModelSession *session; // @synthesize session=_session;
 
 @end

@@ -14,9 +14,9 @@
 - (_Bool);
 - (struct CGRect);
 - (_Bool);
-- (struct CGRect);
+- (struct CGRect)5;
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (id);

@@ -7,7 +7,6 @@
 @interface NewsUI2.DisposableFilterOptionsObserver__priv_096ED729D10D90FB09389BBC32961EE0
 {
     id observer;
-    id keepAliveObject;
 }
 
 @end

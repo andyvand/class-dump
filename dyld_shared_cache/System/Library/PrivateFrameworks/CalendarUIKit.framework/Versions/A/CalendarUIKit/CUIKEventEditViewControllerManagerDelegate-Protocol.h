@@ -4,41 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKEvent;
-@protocol CUIKEditor, EKAutocompleteSearchPasteboardItemProvider;
-
 @protocol CUIKEventEditViewControllerManagerDelegate
-- (void)øñªñÇåò0ÁÚCø3;
-- (_Bool)ÕöW½©ôO©ý{©ý;
-- (void)ìÒ0ÁÚãªà'R,;
-- (void)¸;
-- (void)Ò0ÁÚáªÐ¸ðFAùqÝÒ0
-ÁÚâªm;
-- (void)Pøàªâª¨#ÑPø©CÑ)Pø(	?×u;
-- (void)ÑP¸ÈÙ6àòàªáªÔ
-?×;
-- (void)ªâª¹UøCý¨Tø	@øàªáªñªàò1	?×¨Ã;
-- (id <EKAutocompleteSearchPasteboardItemProvider>)Cøéª	ìò©øàª!;
-- (EKEvent *)u;
-- (id <CUIKEditor>)ª·;
-- (void)u;
-- (void)?×ñª0_øñÇåò0ÁÚñªñGÁÚë@;
-- (void)ë@;
-- (void)Ä¨ÿ_ÖÀu;
-- (_Bool)éò
-?× ãÑõ	þ Uøáªâªñªéò
-?× Sø×ÿÿ#Õüøûk©ùc©÷[©ôO©ý{©ýCÿÃ;
-- (void)ªàò	?× ãÑ
-þºSøàª
-þõª¿CÑý{E©ôOD©÷[C©ùcB©ûkA©üFøÿ_Öh@øàªáªñªàò	?×TBø¸Røàªáª³[øâªñªéò
-?×¶Søàªáªâªñªéò
-?× ãÑõ	þ Uøáªâªñªéò
-?× Sø×ÿÿ#Õüøûk©ùc©÷[©ôO©ý{©ýCÿÃ;
+- (_Bool);
+- (void)hr;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool disregardInitialDateTimeOfEvent;
-@property(readonly, nonatomic) id <CUIKEditor> editorForViewControllerManager;
-@property(readonly, nonatomic) EKEvent *eventForViewControllerManager;
-@property(readonly, nonatomic) id <EKAutocompleteSearchPasteboardItemProvider> pasteboardItemProvider;
 @end
 

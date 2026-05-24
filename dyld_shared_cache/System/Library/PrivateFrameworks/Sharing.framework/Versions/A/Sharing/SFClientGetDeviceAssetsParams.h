@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SFClientGetDeviceAssetsParams
 {
     unsigned short _bluetoothProductID;
-    unsigned int _colorCode;
-    NSString *_model;
-    double _timeoutSeconds;
 }
 
 + (_Bool);
@@ -20,18 +15,15 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)4;
 - (double);
 - (void);
 - (id);
 - (unsigned int);
-- (void)orSensitiveContentResponse;
+- (void)waitingForSensitiveContentResponse;
 
 // Remaining properties
 @property(nonatomic) unsigned short bluetoothProductID; // @synthesize bluetoothProductID=_bluetoothProductID;
-@property(nonatomic) unsigned int colorCode; // @synthesize colorCode=_colorCode;
-@property(copy, nonatomic) NSString *model; // @synthesize model=_model;
-@property(nonatomic) double timeoutSeconds; // @synthesize timeoutSeconds=_timeoutSeconds;
 
 @end
 

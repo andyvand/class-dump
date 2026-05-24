@@ -4,34 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNUINavigationListItem, CNUINavigationListView, CNUINavigationListViewCellHeightEstimator, NSArray, NSString;
-@protocol CNUINavigationListStyle, CNUINavigationListViewControllerDelegate;
+@class CNUINavigationListView;
 
 @interface CNUINavigationListViewController
 {
     _Bool _showFirstSectionTopSeparator;
-    _Bool _ignoreParentControllerResize;
-    CNUINavigationListView *_navigationListView;
-    NSArray *_items;
-    CNUINavigationListItem *_expandedItem;
-    id <CNUINavigationListViewControllerDelegate> _delegate;
-    id <CNUINavigationListStyle> _navigationListStyle;
-    long long _contentAlignment;
-    CNUINavigationListViewCellHeightEstimator *_cellHeightEstimator;
-    CNUINavigationListItem *_displayedExpandedItem;
 }
 
 + (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)I	);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)};
+- (void);
 - (void);
 - (void);
 - (void);
@@ -43,55 +33,39 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)q@;
 - (_Bool);
-- (id);
+- (id)�K;
 - (id);
 - (id);
 - (id);
 - (struct CGSize);
 - (double);
 - (id);
+- (_Bool)qA;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (long long);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
+- (void));
+- (id)P enrollment:(id)arg1 No devices, No RK, but custodian recovery offered, trying recovery using custodian!;
+- (id)P;
 - (long long);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)stringByAppendingString: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
+- (id);
+- (void));
+- (void)Progress;
 - (id)CNSharingProfileLogger";
-- (void)oundColor: /* Error: Ran out of types for this method. */;
+- (void)attributedString:foregroundColor: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) CNUINavigationListViewCellHeightEstimator *cellHeightEstimator; // @synthesize cellHeightEstimator=_cellHeightEstimator;
-@property(nonatomic) long long contentAlignment; // @synthesize contentAlignment=_contentAlignment;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNUINavigationListViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CNUINavigationListItem *displayedExpandedItem; // @synthesize displayedExpandedItem=_displayedExpandedItem;
-@property(retain, nonatomic) CNUINavigationListItem *expandedItem; // @synthesize expandedItem=_expandedItem;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool ignoreParentControllerResize; // @synthesize ignoreParentControllerResize=_ignoreParentControllerResize;
-@property(copy, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(retain, nonatomic) id <CNUINavigationListStyle> navigationListStyle; // @synthesize navigationListStyle=_navigationListStyle;
 @property(retain, nonatomic) CNUINavigationListView *navigationListView; // @synthesize navigationListView=_navigationListView;
-@property(nonatomic) _Bool showFirstSectionTopSeparator; // @synthesize showFirstSectionTopSeparator=_showFirstSectionTopSeparator;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,38 +6,34 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class NSMutableArray, NSString, UICollectionView, UICollectionViewFlowLayout, UIView;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface UIDebuggingSpecViewController : UIViewController
 {
     UIView *_spec;
-    NSMutableArray *_specImages;
-    double _originalOpacity;
-    UICollectionView *_collectionView;
-    UICollectionViewFlowLayout *_flowLayout;
-    struct CGPoint _origin;
 }
 
-- (_Bool);
-- (id);
+- (_Bool)andleID:(id)arg1 "%@". Not fetching again;
+- (id)ord fetch requests for session:%@ /* Error: Ran out of types for this method. */;
+- (void)ey have turned off SMS Relay for us, revoking them now ;
+- (void)ce %@ Told us that they have turned off SMS Relay for us, revoking them now ;
+- (void)load;
+- (void)silently updating record ID for previously handled nickname %@;
+- (void)sage called for chatid %@ category %ld, subCategory %ld, extensionName %@;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)L
+;
 - (void);
 - (id);
 - (void);
 - (double);
 - (id);
 - (id);
-- (void);
-- (id)ithinBound: /* Error: Ran out of types for this method. */;
-- (void)Horizontally;
+- (void)_contentItemIDs;
+- (id)validPageWithinBound: /* Error: Ran out of types for this method. */;
+- (void)_canPanHorizontally;
 - (long long)tÀ;
 - (struct CGPoint)x½;
 - (void)systemUIService from the default system shell (attempt %u).;
@@ -47,19 +43,7 @@ __attribute__((visibility("hidden")))
 - (id)¸Gm;
 
 // Remaining properties
-@property(retain, nonatomic) UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UICollectionViewFlowLayout *flowLayout; // @synthesize flowLayout=_flowLayout;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct CGPoint origin; // @synthesize origin=_origin;
-@property(nonatomic) double originalOpacity; // @synthesize originalOpacity=_originalOpacity;
 @property(retain, nonatomic) UIView *spec; // @synthesize spec=_spec;
-@property(retain, nonatomic) NSMutableArray *specImages; // @synthesize specImages=_specImages;
-@property(readonly) Class superclass;
 
 @end
 

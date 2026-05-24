@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTableColumn;
+@class NSTableColumn;
 
 __attribute__((visibility("hidden")))
 @interface NSTableViewCellMockElement
 {
     NSTableColumn *_tableColumn;
-    long long _row;
-    id _childView;
 }
 
-+ (id);
-+ (id);
++ (id)__CFReadStream=}8C16;
++ (id)otocol_identifier=[32c]ii}12^i20;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -38,9 +36,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)lib/system/libcommonCrypto.dylib;
+- (_Bool)atform.dylib;
+- (_Bool)ibsystem_notify.dylib;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -66,25 +64,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (void)__nsurlrequest_proto_prop_obj_6;
+- (id);
+- (id);
+- (id)2E1;
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
+- (unsigned long long);
 - (long long);
 - (long long);
 - (_Bool);
 - (id)¤ÈTÿÎ`B;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

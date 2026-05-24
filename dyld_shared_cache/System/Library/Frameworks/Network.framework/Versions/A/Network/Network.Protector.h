@@ -7,7 +7,6 @@
 @interface Network.Protector
 {
     id isClient;
-    id sequenceNumber;
 }
 
 @end

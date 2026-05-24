@@ -7,7 +7,6 @@
 @interface _MRUnregisterGameControllerMessageProtobuf
 {
     unsigned long long _controllerID;
-    CDStruct_669c4a63 _has;
 }
 
 - (void);
@@ -17,15 +16,14 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)hf;
 - (void);
-- (id);
-- (id);
+- (id)lT;
+- (id)intent.recipient.crash;
 
 // Remaining properties
-@property(nonatomic) unsigned long long controllerID; // @synthesize controllerID=_controllerID;
 @property(nonatomic) _Bool hasControllerID;
 
 @end

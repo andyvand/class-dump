@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EWSResponseMessageType, EWSUserOofSettingsType, NSString;
+@class EWSResponseMessageType;
 
 @interface EWSGetUserOofSettingsResponseType
 {
     EWSResponseMessageType *_ResponseMessage;
-    EWSUserOofSettingsType *_OofSettings;
-    long long _AllowExternalOof;
 }
 
 + (id);
@@ -23,16 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long AllowExternalOof; // @synthesize AllowExternalOof=_AllowExternalOof;
-@property(retain, nonatomic) EWSUserOofSettingsType *OofSettings; // @synthesize OofSettings=_OofSettings;
 @property(retain, nonatomic) EWSResponseMessageType *ResponseMessage; // @synthesize ResponseMessage=_ResponseMessage;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

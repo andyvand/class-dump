@@ -13,7 +13,7 @@
 
 - (void);
 - (id);
-- (id);
+- (id)_';
 - (void)redentialShare"8;
 
 // Remaining properties

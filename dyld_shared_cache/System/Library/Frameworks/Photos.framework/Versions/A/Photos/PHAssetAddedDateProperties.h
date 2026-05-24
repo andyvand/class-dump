@@ -12,13 +12,13 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)wapi;
 + (id);
 + (long long);
 + (_Bool)1Â0@ù
 × ;
 + (long long)`;
-+ (id)eRangeVeryLarge;
++ (id)LibrarySizeRangeVeryLarge;
 - (id);
 
 // Remaining properties

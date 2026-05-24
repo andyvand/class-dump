@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _PASTempfileDescr
 {
     int _fd;
-    NSString *_path;
 }
 
-+ (id);
-- (_Bool);
++ (id)availabilityNotificationForSupportedAccessoriesFilePosted:(int)arg1 ];
+- (_Bool)=H;
 - (id);
-- (unsigned long long);
+- (unsigned long long)_kMDItemAllNewestSnapshotDates;
 - (_Bool);
 - (id);
 - (id);
@@ -25,7 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) int fd; // @synthesize fd=_fd;
-@property(readonly, nonatomic) NSString *path; // @synthesize path=_path;
 
 @end
 

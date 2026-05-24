@@ -4,6 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class IMChatItem, IMItem, NSArray, NSDate, NSMutableArray;
+
 @protocol IMChatItemRules
+- (_Bool)udio + %d ((%d/%d+%d)*%d/%d) header for mode=%d;
+- (_Bool)atingMode=%d and tierPickerMode=%d;
+- (_Bool)s:(IMChatItem *)arg1 %d VCAudioTransmitter[%p] Tier Table for operatingMode=%d and tierPickerMode=%d;
+- (_Bool)%u version=%u;
+- (void)nary;
+- (NSDate *)] %s:%d Wrong type of statistics message is processed by VCAudioStream type=%d /* Error: Ran out of types for this method. */;
+- (IMItem *)%s] %s:(NSArray *)arg1 %d Unknown transport stream type;
+- (void)s] %s:%d file no longer exists at %@ /* Error: Ran out of types for this method. */;
+- (id)ocate args dictionary;
+- (void)%d';
+- (NSArray *)s] %s:(IMItem *)arg1 %d %@(%p) Starting screen with sharing session=%@ SCStream=%@;
+- (NSMutableArray *)sion=%@ SCStream=%@;
+- (NSArray *)?;
 @end
 

@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject, NSSet;
-@protocol OS_os_log;
+@class NSMutableSet, NSSet;
 
 @interface UARPSupportedAccessoryManager
 {
     NSMutableSet *_setOfAccessories;
-    NSObject<OS_os_log> *_log;
 }
 
 + (id);
 - (id);
+- (id)AMSRestrictions;
+- (void);
+- (id)`";
 - (id);
 - (void);
-- (id);
-- (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)%#;
 
 // Remaining properties
 @property(readonly) NSSet *setOfAccessories;

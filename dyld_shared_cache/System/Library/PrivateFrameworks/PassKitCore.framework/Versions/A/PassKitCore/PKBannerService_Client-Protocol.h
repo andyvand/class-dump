@@ -5,5 +5,6 @@
 //
 
 @protocol PKBannerService_Client
+- (oneway void));
 @end
 

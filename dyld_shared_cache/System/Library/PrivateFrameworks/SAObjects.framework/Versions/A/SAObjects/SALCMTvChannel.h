@@ -6,17 +6,17 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface SALCMTvChannel : SADomainObject
 {
 }
 
-+ (id);
++ (id)h86{;
 + (id);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)?;
 - (void);
 - (id);
 - (id);
@@ -27,9 +27,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *callSign;
-@property(copy, nonatomic) NSString *channelIdentifier;
-@property(copy, nonatomic) NSString *name;
-@property(copy, nonatomic) NSURL *streamUrl;
 
 @end
 

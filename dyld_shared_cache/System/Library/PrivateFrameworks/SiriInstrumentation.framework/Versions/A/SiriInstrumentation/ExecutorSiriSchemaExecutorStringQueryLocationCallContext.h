@@ -6,36 +6,30 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class ExecutorSiriSchemaExecutorStringQueryLocationCallEnded, ExecutorSiriSchemaExecutorStringQueryLocationCallFailed, ExecutorSiriSchemaExecutorStringQueryLocationCallStarted, NSData;
+@class ExecutorSiriSchemaExecutorStringQueryLocationCallStarted;
 
 @interface ExecutorSiriSchemaExecutorStringQueryLocationCallContext : SISchemaInstrumentationMessage
 {
     ExecutorSiriSchemaExecutorStringQueryLocationCallStarted *_startedOrChanged;
-    ExecutorSiriSchemaExecutorStringQueryLocationCallEnded *_ended;
-    ExecutorSiriSchemaExecutorStringQueryLocationCallFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)B;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)ception_level_target(hwtrace_live_recording_system_options_t, hwtrace_live_recording_system_option_exception_level_target_t);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)_updateInternalStateWithArrayOfAccessories:(id)arg1;
+- (id)_boolValueOfEntitlement:(id)arg1 secTask: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (unsigned long long);
@@ -43,19 +37,12 @@
 - (_Bool);
 - (id);
 - (id)"NLXSchemaCDMAllServicesSetupFailed";
-- (id)yFailed;
+- (id)SMTSchemaSMTAppLanguageModelAssetCopyFailed;
 - (id)<XÄX;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) ExecutorSiriSchemaExecutorStringQueryLocationCallEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) ExecutorSiriSchemaExecutorStringQueryLocationCallFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) ExecutorSiriSchemaExecutorStringQueryLocationCallStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

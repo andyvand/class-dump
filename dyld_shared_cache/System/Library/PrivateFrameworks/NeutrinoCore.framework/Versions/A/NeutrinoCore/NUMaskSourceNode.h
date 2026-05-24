@@ -16,12 +16,11 @@
 - (id);
 - (CDStruct_996ac03c);
 - (id);
-- (id);
+- (id)jh8?;
 - (CDStruct_912cb5d2);
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_996ac03c croppedExtent;
-@property(readonly, nonatomic) CDStruct_912cb5d2 scale;
 
 @end
 

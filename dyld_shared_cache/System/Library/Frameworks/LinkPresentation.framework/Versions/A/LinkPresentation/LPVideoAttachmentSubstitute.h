@@ -14,9 +14,9 @@
 + (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)The connection to service named com.apple.securityd.general was invalidated.;
 - (void);
-- (long long);
+- (long long)W;
 - (void)tadata 'provider' with exception:(long long)arg1 %@;
 
 // Remaining properties

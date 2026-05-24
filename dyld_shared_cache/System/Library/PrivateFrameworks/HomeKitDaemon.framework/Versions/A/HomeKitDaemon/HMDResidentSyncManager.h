@@ -4,40 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, HMDResidentSyncClient, HMDResidentSyncServer, NSString;
+@class HMDHome, HMDResidentSyncClient;
 
 __attribute__((visibility("hidden")))
 @interface HMDResidentSyncManager
 {
     HMDHome *_home;
-    HMDResidentSyncClient *_client;
-    HMDResidentSyncServer *_server;
 }
 
 + (id)pB;
 - (void);
+- (void)requiresChangesForCompatibilityWithReceiverCapabilities:(id)arg1;
+- (id)MSPSharedTripService;
+- (id)MSPSharedTripServiceReceivingObserver;
+- (void);
 - (void);
 - (id);
-- (id);
 - (void);
-- (void);
+- (id)DerivableP;
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void)lor Temperature;
 
 // Remaining properties
 @property(readonly) HMDResidentSyncClient *client; // @synthesize client=_client;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) HMDResidentSyncServer *server; // @synthesize server=_server;
-@property(readonly) Class superclass;
 
 @end
 

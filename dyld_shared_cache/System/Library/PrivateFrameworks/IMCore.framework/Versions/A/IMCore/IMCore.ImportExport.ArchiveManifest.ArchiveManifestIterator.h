@@ -7,7 +7,6 @@
 @interface IMCore.ImportExport.ArchiveManifest.ArchiveManifestIterator
 {
     id currentIndex;
-    id archiveManifest;
 }
 
 @end

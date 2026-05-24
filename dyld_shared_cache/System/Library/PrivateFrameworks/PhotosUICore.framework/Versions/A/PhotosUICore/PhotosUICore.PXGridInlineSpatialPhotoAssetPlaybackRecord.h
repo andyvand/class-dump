@@ -7,15 +7,6 @@
 @interface PhotosUICore.PXGridInlineSpatialPhotoAssetPlaybackRecord
 {
     void pixelBufferDidChangeHandler;
-    void providePlaceholderHandler;
-    id spriteSize;
-    id displayScale;
-    id _currentPixelBuffer;
-    id _desiredPlayState;
-    id playbackQueue_player;
-    id playbackQueue_scene;
-    id playbackQueue_isLoadingScene;
-    id playbackQueue_generationTask;
 }
 
 - (double);
@@ -30,20 +21,14 @@
 - (id);
 - (long long);
 - (struct __CVBuffer *);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (struct CGAffineTransform);
 - (void)òOTt: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, retain) struct __CVBuffer *currentPixelBuffer;
 @property(nonatomic) long long desiredPlayState;
-@property(nonatomic, readonly) _Bool isPlaying;
-@property(nonatomic, copy) CDUnknownBlockType pixelBufferDidChangeHandler;
-@property(nonatomic, readonly) struct CGAffineTransform preferredTransform;
-@property(nonatomic, copy) CDUnknownBlockType providePlaceholderHandler;
-@property(nonatomic, readonly) double suppressContentsRect;
 
 @end
 

@@ -6,19 +6,17 @@
 
 #import <VideoSubscriberAccount/VSAsyncOperation.h>
 
-@class NSOperationQueue, VSAMSRequest, VSOptional;
+@class VSAMSRequest, VSOptional;
 
 @interface VSAMSRequestOperation : VSAsyncOperation
 {
     VSAMSRequest *_request;
-    VSOptional *_result;
-    NSOperationQueue *_privateQueue;
 }
 
 - (void);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)ialsLibrary(void);
 - (void);
 - (id);
 - (id);
@@ -29,8 +27,6 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSOperationQueue *privateQueue; // @synthesize privateQueue=_privateQueue;
-@property(copy, nonatomic) VSAMSRequest *request; // @synthesize request=_request;
 @property(retain, nonatomic) VSOptional *result; // @synthesize result=_result;
 
 @end

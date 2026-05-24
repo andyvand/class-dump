@@ -5,5 +5,9 @@
 //
 
 @protocol CKBrowserSwitcherViewControllerDelegate
+
+@optional
+- (void);
+- (_Bool);
 @end
 

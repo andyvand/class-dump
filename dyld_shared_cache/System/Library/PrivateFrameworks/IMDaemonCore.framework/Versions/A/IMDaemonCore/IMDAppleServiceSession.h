@@ -6,34 +6,33 @@
 
 #import <IMDaemonCore/IMDServiceSession.h>
 
-@class IDSAccount, IMDService, NSArray, NSString;
+@class IDSAccount, NSString;
 
 @interface IMDAppleServiceSession : IMDServiceSession
 {
     NSString *_serviceName;
-    NSString *_GUID;
 }
 
 + (id);
 - (id);
-- (void);
+- (void)isSecureEntry:(id)arg1 %@, suppressCandidates:%@> /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
+- (void)@;
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (long long);
-- (id);
-- (void);
+- (id)AProgressNotificationC__G;
+- (void)qqqqqqsqqqqqqqqqqqqqqrsqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqssssssssss6;
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (id);
+- (void), nil or empty string;
+- (id)PG_QUERY__SET_OP_STRATEGY__SETOP_HASHED;
 - (_Bool);
 - (void);
 - (void);
@@ -42,46 +41,26 @@
 - (long long);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
+- (id)>dataClassArray length (%ld) does not match dataClassArray (%ld);
 - (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (void)didUpdateChatStatus:chat:style:displayName:groupID:lastAddressedHandle:lastAddressedSIMID:handleInfo:account:category:spamExtensionName:isBlackholed: /* Error: Ran out of types for this method. */;
 - (id)C,N,V_replicationSourceServiceName;
 - (_Bool)Ø±;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSString *GUID; // @synthesize GUID=_GUID;
-@property(readonly, nonatomic) NSArray *accounts;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, retain, nonatomic) NSArray *aliases;
-@property(readonly, retain, nonatomic) NSString *callerURI;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, retain, nonatomic) IDSAccount *idsAccount;
-@property(readonly, nonatomic) NSArray *registeredURIs;
-@property(readonly, nonatomic) IMDService *service;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"IMDService",?,R,N
-
-@property(readonly) Class superclass;
-@property(readonly, retain, nonatomic) NSArray *vettedAliases;
 
 @end
 

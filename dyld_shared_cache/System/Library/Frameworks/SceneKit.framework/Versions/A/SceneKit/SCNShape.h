@@ -11,23 +11,17 @@
 @interface SCNShape : SCNGeometry
 {
     float _chamferRadius;
-    float _extrusionDepth;
-    float _discretizedStraightLineMaxLength;
-    NSBezierPath *_chamferProfile;
-    long long _primitiveType;
-    long long _chamferMode;
-    NSBezierPath *_path;
 }
 
 + (id);
 + (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (double);
-- (double);
+- (double);
 - (id);
 - (double);
 - (id);
@@ -40,11 +34,11 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (CDStruct_d3ce6806);
+- (CDStruct_d3ce6806)A(M'.A3M3;
 - (void);
 - (long long);
 - (void);
-- (id);
+- (id)4;
 - (id);
 - (id);
 - (void);
@@ -63,10 +57,6 @@
 ;
 
 // Remaining properties
-@property(nonatomic) long long chamferMode;
-@property(copy, nonatomic) NSBezierPath *chamferProfile;
-@property(nonatomic) double chamferRadius;
-@property(nonatomic) double extrusionDepth;
 @property(copy, nonatomic) NSBezierPath *path;
 
 @end

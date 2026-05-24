@@ -7,45 +7,6 @@
 @interface BlastDoor._BlastDoorCKShareParticipant
 {
     id participantID;
-    id inviterID;
-    id userIdentity;
-    id isCurrentUser;
-    id isOrgAdminUser;
-    id role;
-    id acceptanceStatus;
-    id permission;
-    id originalParticipantRole;
-    id originalAcceptanceStatus;
-    id originalPermission;
-    id protectionInfo;
-    id encryptedPersonalInfo;
-    id createdInProcess;
-    id acceptedInProcess;
-    id invitationToken;
-    id protectionInfoPublicKey;
-    id wantsNewInvitationToken;
-    id isAnonymousInvitedParticipant;
-    id invitationTokenStatus;
-    id ParticipantIDKey;
-    id InviterIDKey;
-    id UserIdentityKey;
-    id IsCurrentUserKey;
-    id IsOrgAdminUserKey;
-    id AcceptanceStatusKey;
-    id RoleKey;
-    id PermissionKey;
-    id OriginalParticipantRoleKey;
-    id OriginalAcceptanceStatusKey;
-    id OriginalPermissionKey;
-    id ProtectionInfoKey;
-    id EncryptedPersonalInfoKey;
-    id CreatedInProcessKey;
-    id AcceptedInProcessKey;
-    id DeviceToDeviceShareInvitationTokenKey;
-    id ProtectionInfoPublicIdentityKey;
-    id WantsNewInvitationTokenKey;
-    id MutableInvitationTokenStatus;
-    id IsAnonymousInvitedParticipant;
 }
 
 + (void);

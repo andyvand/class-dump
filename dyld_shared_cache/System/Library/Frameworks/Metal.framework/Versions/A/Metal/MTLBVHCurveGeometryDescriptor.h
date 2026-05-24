@@ -7,30 +7,16 @@
 #import <Metal/MTLBVHGeometryDescriptor.h>
 
 @class NSArray;
-@protocol MTLBuffer;
 
 @interface MTLBVHCurveGeometryDescriptor : MTLBVHGeometryDescriptor
 {
     NSArray *_controlPointBuffers;
-    unsigned long long _controlPointStride;
-    NSArray *_radiusBuffers;
-    unsigned long long _radiusStride;
-    id <MTLBuffer> _indexBuffer;
-    unsigned long long _indexBufferOffset;
-    unsigned long long _indexType;
-    unsigned long long _controlPointFormat;
-    unsigned long long _radiusFormat;
-    unsigned long long _segmentControlPointCount;
-    long long _curveType;
-    long long _curveBasis;
-    long long _curveEndCaps;
-    unsigned long long _controlPointCount;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)0 ;
 - (void);
 - (void);
 - (void);
@@ -60,19 +46,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak NSArray *controlPointBuffers; // @synthesize controlPointBuffers=_controlPointBuffers;
-@property(nonatomic) unsigned long long controlPointCount; // @synthesize controlPointCount=_controlPointCount;
-@property(nonatomic) unsigned long long controlPointFormat; // @synthesize controlPointFormat=_controlPointFormat;
-@property(nonatomic) unsigned long long controlPointStride; // @synthesize controlPointStride=_controlPointStride;
-@property(nonatomic) long long curveBasis; // @synthesize curveBasis=_curveBasis;
-@property(nonatomic) long long curveEndCaps; // @synthesize curveEndCaps=_curveEndCaps;
-@property(nonatomic) long long curveType; // @synthesize curveType=_curveType;
-@property(nonatomic) __weak id <MTLBuffer> indexBuffer; // @synthesize indexBuffer=_indexBuffer;
-@property(nonatomic) unsigned long long indexBufferOffset; // @synthesize indexBufferOffset=_indexBufferOffset;
-@property(nonatomic) unsigned long long indexType; // @synthesize indexType=_indexType;
-@property(nonatomic) __weak NSArray *radiusBuffers; // @synthesize radiusBuffers=_radiusBuffers;
-@property(nonatomic) unsigned long long radiusFormat; // @synthesize radiusFormat=_radiusFormat;
-@property(nonatomic) unsigned long long radiusStride; // @synthesize radiusStride=_radiusStride;
-@property(nonatomic) unsigned long long segmentControlPointCount; // @synthesize segmentControlPointCount=_segmentControlPointCount;
 
 @end
 

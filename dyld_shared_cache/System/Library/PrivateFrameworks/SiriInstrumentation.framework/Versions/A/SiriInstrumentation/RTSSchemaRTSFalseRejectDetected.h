@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface RTSSchemaRTSFalseRejectDetected : SISchemaInstrumentationMessage
 {
     unsigned int _assetVersion;
-    NSString *_gestureModelVersion;
-    NSString *_audioModelVersion;
-    NSString *_policyModelVersion;
-    CDStruct_2acdca82 _has;
-    _Bool _hasGestureModelVersion;
-    _Bool _hasAudioModelVersion;
-    _Bool _hasPolicyModelVersion;
 }
 
 - (void);
@@ -27,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)�;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -38,30 +29,22 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)UfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDPurgeAppsResponse_macOS.m:35 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)__kchatSMSCategoryKey;
 - (id);
 - (id);
 - (void)Qà1Â0@ù
 × ;
-- (id)eStateItem;
+- (id)audioQueueStateItem;
 - (id)Index;
-- (unsigned int)Identifier;
+- (unsigned int)bundleIdentifier;
 - (void)lectionDisambiguationSignalsGenerated;
 
 // Remaining properties
 @property(nonatomic) unsigned int assetVersion; // @synthesize assetVersion=_assetVersion;
-@property(copy, nonatomic) NSString *audioModelVersion; // @synthesize audioModelVersion=_audioModelVersion;
-@property(copy, nonatomic) NSString *gestureModelVersion; // @synthesize gestureModelVersion=_gestureModelVersion;
-@property(nonatomic) _Bool hasAssetVersion;
-@property(nonatomic) _Bool hasAudioModelVersion; // @synthesize hasAudioModelVersion=_hasAudioModelVersion;
-@property(nonatomic) _Bool hasGestureModelVersion; // @synthesize hasGestureModelVersion=_hasGestureModelVersion;
-@property(nonatomic) _Bool hasPolicyModelVersion; // @synthesize hasPolicyModelVersion=_hasPolicyModelVersion;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *policyModelVersion; // @synthesize policyModelVersion=_policyModelVersion;
 
 @end
 

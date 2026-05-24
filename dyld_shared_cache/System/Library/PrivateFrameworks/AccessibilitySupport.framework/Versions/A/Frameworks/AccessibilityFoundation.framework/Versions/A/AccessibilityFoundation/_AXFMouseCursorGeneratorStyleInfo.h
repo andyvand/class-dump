@@ -9,10 +9,6 @@
 @interface _AXFMouseCursorGeneratorStyleInfo
 {
     NSColor *_fillColor;
-    NSColor *_strokeColor;
-    NSColor *_shadowColor;
-    double _shadowBlur;
-    struct CGSize _shadowOffset;
 }
 
 + (id);
@@ -24,17 +20,13 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)setRemoteNATIP: /* Error: Ran out of types for this method. */;
 - (void);
 - (struct CGSize);
-- (void)izedAXAttribute:(struct CGSize)arg1 parameter: /* Error: Ran out of types for this method. */;
+- (void)integerForParameterizedAXAttribute:(struct CGSize)arg1 parameter: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSColor *fillColor; // @synthesize fillColor=_fillColor;
-@property(nonatomic) double shadowBlur; // @synthesize shadowBlur=_shadowBlur;
-@property(retain, nonatomic) NSColor *shadowColor; // @synthesize shadowColor=_shadowColor;
-@property(nonatomic) struct CGSize shadowOffset; // @synthesize shadowOffset=_shadowOffset;
-@property(retain, nonatomic) NSColor *strokeColor; // @synthesize strokeColor=_strokeColor;
 
 @end
 

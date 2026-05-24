@@ -6,16 +6,11 @@
 
 #import <MapsSync/MapsSync.MapsSyncObject.h>
 
-@class NSData, NSDate;
+@class NSData;
 
 @interface MSAnonymousCredential : MapsSync.MapsSyncObject
 {
     id _anonymousId;
-    id _mapsToken;
-    id _mapsTokenCreatedAt;
-    id _mapsTokenTTL;
-    id _positionIndex;
-    id _reviewedPlaceChanges;
 }
 
 + (Class);
@@ -23,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long)t;
 - (id);
 - (id);
 - (id);
@@ -35,16 +30,12 @@
 - (long long);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic, copy) NSData *anonymousId;
-@property(nonatomic, copy) NSData *mapsToken;
-@property(nonatomic, copy) NSDate *mapsTokenCreatedAt;
-@property(nonatomic) long long mapsTokenTTL;
-@property(nonatomic) long long positionIndex;
 
 @end
 

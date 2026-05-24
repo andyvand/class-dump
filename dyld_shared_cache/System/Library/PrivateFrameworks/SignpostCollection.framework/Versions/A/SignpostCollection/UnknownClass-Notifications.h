@@ -5,20 +5,20 @@
 //
 
 @interface UnknownClass (Notifications)
-+ (id);
-+ (_Bool);
-+ (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
++ (id)strokeColorSDR;
++ (_Bool)stringWithContentsOfFile:(id)arg1 encoding:(id *)arg2 error:(id *)arg3;
++ (_Bool)stringByTrimmingLeadingWhitespace;
+- (_Bool)textStorage:(id)arg1 didProcessEditing:(id)arg2 range:(id)arg3 changeInLength:(id *)arg4;
+- (_Bool)textStorage;
+- (_Bool)textEditorController;
+- (_Bool)textController;
+- (_Bool)textColorPopoverItem;
+- (_Bool)textAttributesViewController;
+- (_Bool)systemGreenColor;
+- (_Bool)synchronize;
+- (void)syncFontsToUI:(id)arg1;
+- (void)supportedStrings;
+- (_Bool)superclass;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType timedOutBeginEventProcessingBlock;

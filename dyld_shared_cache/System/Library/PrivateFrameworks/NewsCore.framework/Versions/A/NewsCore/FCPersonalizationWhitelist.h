@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet, NTPBPersonalizationWhitelist;
+@class NSDictionary, NTPBPersonalizationWhitelist;
 
 @interface FCPersonalizationWhitelist
 {
     NTPBPersonalizationWhitelist *_pbWhitelist;
-    NSSet *_portraitDisabledTagIDs;
-    NSDictionary *_whitelist;
 }
 
 + (_Bool);
@@ -30,10 +28,6 @@
 - (id).;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count;
-@property(readonly, nonatomic) NSDictionary *defaultTags;
-@property(readonly, nonatomic) NSDictionary *optionalTags;
-@property(retain, nonatomic) NSSet *portraitDisabledTagIDs; // @synthesize portraitDisabledTagIDs=_portraitDisabledTagIDs;
 @property(retain, nonatomic) NSDictionary *whitelist; // @synthesize whitelist=_whitelist;
 
 @end

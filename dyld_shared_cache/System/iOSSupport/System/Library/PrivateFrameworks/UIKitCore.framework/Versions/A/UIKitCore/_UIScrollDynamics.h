@@ -8,13 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _UIScrollDynamics
 {
     _Bool _shouldRoundCalculations;
-    struct CGSize _tolerance;
-    struct CGPoint _decelerationTarget;
-    struct CGPoint _initialContentOffset;
-    struct CGVector _initialVelocity;
-    struct CGPoint _contentOrigin;
-    struct CGSize _viewSize;
-    struct CGRect _contentFrame;
 }
 
 - (double);
@@ -25,9 +18,9 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (struct CGPoint);
 - (id);
-- (struct CGPoint);
-- (void);
-- (void);
+- (struct CGPoint)setUnformattedID: /* Error: Ran out of types for this method. */;
+- (void)registerForMessagesDeletionAwareTaskWithIdentifier:usingQueue:launchHandler: /* Error: Ran out of types for this method. */;
+- (void)registerForFiltrationSettingChangeNotifications;
 - (struct CGPoint);
 - (struct CGSize);
 - (void);
@@ -36,23 +29,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGPoint);
 - (double);
-- (void);
-- (id);
-- (struct CGSize)vigationController: /* Error: Ran out of types for this method. */;
+- (void)rror getting master volume:(struct CGRect)arg1 %{public}@;
+- (id)et ) VALUES (   @identifier, @personID, @source, @expirationDate, @type, @explicit, @payload, @identifierSet ) ON CONFLICT (identifier, person_id) DO UPDATE SET   source = excluded.source,   expiration_date = excluded.expiration_date,   type = excluded.type,   explicit = excluded.explicit,   payload = excluded.payload,   identifier_set = excluded.identifier_set;;
+- (struct CGSize)setLeadingTrailingWrapsNavigationController: /* Error: Ran out of types for this method. */;
 - (struct CGRect)âÎÿLîÜ×];
 - (void)@ d;
 - (struct CGVector)¸ÿ;
 
 // Remaining properties
-@property(nonatomic) struct CGRect contentFrame; // @synthesize contentFrame=_contentFrame;
-@property(nonatomic) struct CGPoint contentOrigin; // @synthesize contentOrigin=_contentOrigin;
-@property(nonatomic) struct CGPoint decelerationTarget; // @synthesize decelerationTarget=_decelerationTarget;
-@property(readonly, nonatomic) double durationUntilStop;
-@property(nonatomic) struct CGPoint initialContentOffset; // @synthesize initialContentOffset=_initialContentOffset;
-@property(nonatomic) struct CGVector initialVelocity; // @synthesize initialVelocity=_initialVelocity;
 @property(nonatomic) _Bool shouldRoundCalculations; // @synthesize shouldRoundCalculations=_shouldRoundCalculations;
-@property(readonly, nonatomic) struct CGSize tolerance; // @synthesize tolerance=_tolerance;
-@property(nonatomic) struct CGSize viewSize; // @synthesize viewSize=_viewSize;
 
 @end
 

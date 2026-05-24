@@ -9,9 +9,6 @@
 @interface AppStoreKit.ClickMetricsEvent : AppStoreKit.MetricsEvent
 {
     id targetId;
-    id targetType;
-    id includedFields;
-    id excludedFields;
 }
 
 @end

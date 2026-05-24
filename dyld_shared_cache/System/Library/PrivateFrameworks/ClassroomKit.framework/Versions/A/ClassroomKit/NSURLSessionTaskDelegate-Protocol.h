@@ -7,6 +7,7 @@
 @protocol NSURLSessionTaskDelegate
 
 @optional
+- (void)ylib;
 - (void)e device has been idle for the maximum allowable time.;
 - (void)ontroller.m;
 @end

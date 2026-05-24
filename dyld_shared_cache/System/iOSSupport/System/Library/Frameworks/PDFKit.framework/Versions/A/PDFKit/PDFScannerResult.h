@@ -20,8 +20,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (double);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)alloc IOHIDQueueInterface ** via allocQueue;
+- (_Bool)nterface;
 - (id);
 - (_Bool);
 - (struct CGRect);

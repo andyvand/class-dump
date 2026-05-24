@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIAction, UICollectionViewListCell, UITab;
+@class UICollectionViewListCell;
 
 @interface UITabSidebarItemRequest
 {
     UICollectionViewListCell *_cell;
-    unsigned long long _attributes;
-    UITab *_tab;
-    UIAction *_action;
 }
 
 - (id);
-- (id);
+- (id)0;
 - (id);
 - (id);
 - (id)UIContentUnavailableWrapperView.m;
@@ -24,9 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long _attributes; // @synthesize _attributes;
-@property(readonly, nonatomic) __weak UICollectionViewListCell *_cell; // @synthesize _cell;
-@property(readonly, nonatomic) UIAction *action; // @synthesize action=_action;
-@property(readonly, nonatomic) UITab *tab; // @synthesize tab=_tab;
 
 @end
 

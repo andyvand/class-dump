@@ -7,15 +7,6 @@
 @interface PhotoAnalysis.FeaturedPhotosOneUpSpatial3DGenerationTask
 {
     id worker;
-    id photoLibrary;
-    id taskProductivityReporter;
-    id periodicity;
-    id name;
-    id identifier;
-    id version;
-    id priority;
-    id incrementalKey;
-    id shouldRecordCompletion;
 }
 
 @end

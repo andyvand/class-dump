@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSSound, NSTimer, NSTrackingArea;
+@class NSMutableArray;
 
 @interface SFAnimatedLockButton
 {
     NSMutableArray *_animationArray;
-    int _animationIndex;
-    NSTimer *_timer;
-    _Bool _locked;
-    _Bool _mouseEntered;
-    NSTrackingArea *_trackingArea;
-    NSSound *_sfUnlockSound;
-    NSSound *_sfLockSound;
 }
 
 - (void);
@@ -23,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)ɚ;
 - (void);
 - (void);
 - (void);
@@ -32,10 +25,10 @@
 - (void);
 - (id);
 - (void);
+- (void)edPlaceTypeInferenceMO+CoreDataTransformable (in %s:(id)arg1 %d);
+- (void):(struct CGRect)arg1 %@ completed successfully, disabling erase install initialization.;
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)setStagingFromOSVersion:(struct CGRect)arg1;
 - (void);
 
 @end

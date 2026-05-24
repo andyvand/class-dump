@@ -8,10 +8,6 @@
 {
     id _cSession;
     id dataProviderArraysLock;
-    id ownedDataProviders;
-    id attemptingToRunDataProviders;
-    id eventsQueue;
-    id eventContinuations;
 }
 
 @end

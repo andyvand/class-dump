@@ -6,39 +6,20 @@
 
 #import <PencilKit/PKStroke.h>
 
-@class NSArray, NSUUID, PKInk, PKStrokeMask, PKStrokePath, _PKStrokeClipPlane;
+@class NSArray;
 
 @interface _PKStrokeConcrete : PKStroke
 {
     shared_ptr_ad015234 _unknownFields;
-    struct CGRect _cachedBounds;
-    PKInk *_ink;
-    CDStruct_3593b622 _flags;
-    NSUUID *_strokeUUID;
-    PKStrokePath *_strokeData;
-    struct _PKStrokeID _substrokesVersion;
-    NSArray *_substrokes;
-    _PKStrokeClipPlane *_clipPlane;
-    PKStrokeMask *_strokeMask;
-    NSUUID *_groupID;
-    NSUUID *_renderGroupID;
-    long long _shapeType;
-    struct CGAffineTransform _transform;
-    struct CGAffineTransform _inkTransform;
-    struct CGPoint _anchorPointForTexture;
-    double _particleOffset;
-    double _secondaryParticleOffset;
-    struct _PKStrokeID _sortID;
-    struct _PKStrokeID _version;
 }
 
 + (void);
 + (id);
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (unsigned int);
 - (unsigned int);
@@ -52,23 +33,23 @@
 - (struct CGPoint);
 - (id);
 - (id);
+- (id)6;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (id);
+- (void);
+- (id);
+- (id);
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id);
 - (struct _PKStrokeID);
 - (id);
 - (id);
@@ -89,7 +70,7 @@
 - (_Bool);
 - (void);
 - (struct CGAffineTransform);
-- (id);
+- (id)3;
 - (id);
 - (id);
 - (struct CGPoint);
@@ -107,11 +88,11 @@
 - (void);
 - (id);
 - (struct _PKStrokeID);
+- (void)__objc_classlist__DATA_CONST;
 - (void);
 - (void);
-- (void);
-- (CDStruct_3593b622);
-- (struct CGAffineTransform);
+- (CDStruct_b73f67e6);
+- (struct CGAffineTransform);
 - (id);
 - (id);
 - (id);
@@ -119,17 +100,13 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (id);
+- (id)';
+- (id)_dci_setIndicatorColorTransformer: /* Error: Ran out of types for this method. */;
 - (void)e",&,N,V_toolTipImageRight;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool _isFullyHidden;
-@property(nonatomic) struct _PKStrokeID _sortID; // @synthesize _sortID;
 @property(retain, nonatomic) NSArray *_substrokes; // @synthesize _substrokes;
-@property(nonatomic) struct _PKStrokeID _substrokesVersion; // @synthesize _substrokesVersion;
-@property(nonatomic) struct _PKStrokeID _version; // @synthesize _version;
 
 @end
 

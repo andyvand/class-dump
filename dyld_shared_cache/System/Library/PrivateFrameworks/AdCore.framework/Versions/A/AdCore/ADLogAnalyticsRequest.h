@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSString;
+@class NSString;
 
 @interface ADLogAnalyticsRequest
 {
     NSString *_bundleID;
-    NSData *_contentiAdID;
-    NSData *_dPID;
-    NSMutableArray *_events;
-    NSData *_iAdID;
 }
 
 + (Class);
@@ -28,34 +24,26 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
+- (void)k;
 - (id);
-- (id);
+- (id)B;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)(;
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)rowId;
 - (_Bool);
 - (_Bool);
 - (void);
+- (id)taging removal for record ID without a server version:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)';
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(retain, nonatomic) NSData *contentiAdID; // @synthesize contentiAdID=_contentiAdID;
-@property(retain, nonatomic) NSData *dPID; // @synthesize dPID=_dPID;
-@property(retain, nonatomic) NSMutableArray *events; // @synthesize events=_events;
-@property(readonly, nonatomic) _Bool hasBundleID;
-@property(readonly, nonatomic) _Bool hasContentiAdID;
-@property(readonly, nonatomic) _Bool hasDPID;
 @property(readonly, nonatomic) _Bool hasIAdID;
-@property(retain, nonatomic) NSData *iAdID; // @synthesize iAdID=_iAdID;
 
 @end
 

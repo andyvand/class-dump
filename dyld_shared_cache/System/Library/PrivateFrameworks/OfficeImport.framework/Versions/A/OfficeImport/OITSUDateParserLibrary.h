@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCondition, NSMutableArray, OITSULocale;
+@class OITSULocale;
 
 __attribute__((visibility("hidden")))
 @interface OITSUDateParserLibrary
 {
     OITSULocale *mLocale;
-    unsigned long long mMaxPermittedParsers;
-    unsigned long long mNumberOfUses;
-    unsigned long long mParsersCreated;
-    NSMutableArray *mAvailableDateParsers;
-    NSCondition *mParserLibraryConditionVariable;
 }
 
 - (void);

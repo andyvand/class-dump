@@ -7,6 +7,7 @@
 @interface HomeAccessoryControlUI.ColorPicker.ColorTemperatureSpectrum.Coordinator
 {
     id renderer;
+    id;
 }
 
 @end

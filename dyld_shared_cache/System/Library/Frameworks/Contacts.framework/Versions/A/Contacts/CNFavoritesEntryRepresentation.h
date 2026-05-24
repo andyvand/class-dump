@@ -9,27 +9,18 @@
 @interface CNFavoritesEntryRepresentation
 {
     NSString *_entryIdentifier;
-    NSString *_name;
-    NSString *_value;
-    NSString *_label;
-    NSString *_propertyKey;
-    NSString *_actionType;
-    NSString *_bundleIdentifier;
-    NSString *_actionChannel;
-    NSString *_contactIdentifier;
-    NSString *_labeledValueIdentifier;
 }
 
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (unsigned long long);
@@ -45,20 +36,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)4˟;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *actionChannel; // @synthesize actionChannel=_actionChannel;
-@property(readonly, nonatomic) NSString *actionType; // @synthesize actionType=_actionType;
-@property(readonly, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
 @property(readonly, nonatomic) NSString *entryIdentifier; // @synthesize entryIdentifier=_entryIdentifier;
-@property(readonly, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly, nonatomic) NSString *labeledValueIdentifier; // @synthesize labeledValueIdentifier=_labeledValueIdentifier;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSString *propertyKey; // @synthesize propertyKey=_propertyKey;
-@property(readonly, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol UITableViewDataSource;
-
 @interface _UIFilteredDataSource
 {
     _Bool _limitingWithSections;
-    long long _maxVisibleSection;
-    long long _numberOfVisibleItemsInLastSection;
-    long long _filterType;
-    id <UITableViewDataSource> _tableDataSource;
 }
 
-- (id);
-- (void);
+- (id)length;
+- (void)buildWithAllowed:(long long)arg1 withBundleID:withName: /* Error: Ran out of types for this method. */;
 - (id);
 - (long long);
 - (void);
@@ -32,15 +25,7 @@
 ÖHØØ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) long long filterType; // @synthesize filterType=_filterType;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic) id <UITableViewDataSource> tableDataSource; // @synthesize tableDataSource=_tableDataSource;
 
 @end
 

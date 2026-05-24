@@ -9,22 +9,20 @@
 @interface _KSTIUserDictionaryTransaction
 {
     _KSTIUserDictionaryEntryValue *_valueToDelete;
-    _KSTIUserDictionaryEntryValue *_valueToInsert;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
+- (void)`;
 - (void);
-- (void);
+- (id)ctsUICore.CNUIPlaceholderProviderFactory.HighPriority;
 - (id);
-- (id);
 - (void);
-- (void);
+- (void)@	;
 
 // Remaining properties
 @property(retain, nonatomic) _KSTIUserDictionaryEntryValue *valueToDelete; // @synthesize valueToDelete=_valueToDelete;
-@property(retain, nonatomic) _KSTIUserDictionaryEntryValue *valueToInsert; // @synthesize valueToInsert=_valueToInsert;
 
 @end
 

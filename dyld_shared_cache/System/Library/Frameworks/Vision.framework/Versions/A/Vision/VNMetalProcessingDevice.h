@@ -15,17 +15,17 @@ __attribute__((visibility("hidden")))
 }
 
 + (id)I¢;
-- (_Bool);
+- (_Bool)8;
 - (id);
 - (int);
 - (id);
-- (id);
+- (id)(%@) is contained in the layout more than once;
 - (unsigned long long);
 - (int);
 - (id);
 - (_Bool);
 - (int);
-- (void)er;
+- (void)FaceWarper;
 
 @end
 

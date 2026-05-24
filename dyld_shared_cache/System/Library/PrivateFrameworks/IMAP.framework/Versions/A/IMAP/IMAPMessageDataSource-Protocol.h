@@ -4,28 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDMessageChangeManager, EDServerMessagePersistence, IMAPCommandPipeline, IMAPDownloadCache, NSDate, NSString;
+@class EDServerMessagePersistence, NSArray;
 @protocol IMAPAccount;
 
 @protocol IMAPMessageDataSource
+- (NSArray *);
+- (EDServerMessagePersistence *);
+- (void);
+- (unsigned long long)_finalizeAndPersistFileWrapper:originalContentsURL:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <IMAPAccount> account;
-@property(nonatomic) unsigned long long allegedHighestModificationSequence;
-@property(readonly, nonatomic) IMAPDownloadCache *downloadCache;
-@property(readonly, nonatomic) IMAPCommandPipeline *fetchPipeline;
-@property(readonly, nonatomic) _Bool isAllMailMailbox;
-@property(readonly, nonatomic) _Bool isInbox;
-@property(readonly, nonatomic) _Bool isTrash;
-@property(retain) NSDate *lastSyncDate;
-@property(readonly, copy) NSString *mailboxName;
-@property(readonly, nonatomic) unsigned int maximumUID;
-@property(readonly) EDMessageChangeManager *messageChangeManager;
-@property(readonly, nonatomic) unsigned int permanentFlags;
-@property(readonly, nonatomic) unsigned long long serverMessageCount;
-@property(readonly) EDServerMessagePersistence *serverMessagePersistence;
-@property _Bool supportsModificationSequences;
-@property(nonatomic) unsigned int uidNext;
-@property(nonatomic) unsigned int uidValidity;
 @end
 

@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (SLSIconAppearance)
-- (void);
+- (void)Windows_NT;
 @end
 

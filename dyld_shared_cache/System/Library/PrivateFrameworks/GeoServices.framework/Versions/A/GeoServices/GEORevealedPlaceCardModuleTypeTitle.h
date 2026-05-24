@@ -9,10 +9,9 @@
 @interface GEORevealedPlaceCardModuleTypeTitle
 {
     PBUnknownFields *_unknownFields;
-    CDStruct_95bda58d _titleElements;
 }
 
-+ (_Bool)etManifestToken:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
++ (_Bool)setManifestToken:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (int);
 - (id);
@@ -26,23 +25,22 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)lTask %@ self=%@ key=%@;
+- (void)_createPeriodicalDownloadTimer;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)does not hold a completed matrix factorization.
+;
+- (_Bool)(;
 - (void);
 - (id){_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16;
-- (id): /* Error: Ran out of types for this method. */;
-- (id)eIdentifier;
-- (id)byPlacesMetadata;
+- (id)fileExistsAtPath:isDirectory: /* Error: Ran out of types for this method. */;
+- (id)GEOTransitRouteIdentifier;
+- (id)nearbyPlacesMetadata;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) int *titleElements;
 @property(readonly, nonatomic) unsigned long long titleElementsCount;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

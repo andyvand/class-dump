@@ -4,12 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@class MPCPlayerCommandRequest, NSArray;
 
 @protocol MPCPlayerSeekCommand
+- (NSArray *);
+- (MPCPlayerCommandRequest *);
+- (MPCPlayerCommandRequest *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *preferredBackwardJumpIntervals;
-@property(readonly, copy, nonatomic) NSArray *preferredForwardJumpIntervals;
 @end
 

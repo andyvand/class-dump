@@ -4,27 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AUAudioUnit, AVAudioFormat, NSArray, NSString;
-
 @interface AUAudioUnitBus
 {
     _Bool _removingObserverWithContext;
-    AVAudioFormat *_format;
-    NSArray *_supportedChannelCounts;
-    unsigned int _maximumChannelCount;
-    _Bool _enabled;
-    _Bool _shouldAllocateBuffer;
-    NSString *_name;
-    unsigned long long _index;
-    long long _busType;
-    AUAudioUnit *_ownerAudioUnit;
-    NSArray *_supportedChannelLayoutTags;
-    double _contextPresentationLatency;
-    vector_74f50afa _observers;
 }
 
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -35,18 +21,18 @@
 - (void);
 - (unsigned int);
 - (id);
-- (double);
+- (double)#;
+- (void)rH;
+- (void)SecKeychainItemGetData;
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)Configuration &)>=(type=[24C])^v}}16@0:8 /* Error: Ran out of types for this method. */;
+- (id)EEEvEEE;
 - (_Bool);
-- (id);
+- (id)h;
 - (void);
 - (void);
-- (id);
-- (vector_74f50afa);
+- (id);
+- (vector_964029cf);
 - (unsigned long long);
 - (void);
 - (void)AudioConverterV210fillBufferEPFiP20OpaqueA;
@@ -55,16 +41,7 @@
 - (void)¨;
 
 // Remaining properties
-@property(readonly) long long busType; // @synthesize busType=_busType;
-@property double contextPresentationLatency; // @synthesize contextPresentationLatency=_contextPresentationLatency;
-@property(getter=isEnabled) _Bool enabled;
-@property(readonly) AVAudioFormat *format;
-@property(readonly) unsigned long long index; // @synthesize index=_index;
-@property(copy) NSString *name; // @synthesize name=_name;
-@property(nonatomic) vector_74f50afa observers; // @synthesize observers=_observers;
-@property(readonly) AUAudioUnit *ownerAudioUnit; // @synthesize ownerAudioUnit=_ownerAudioUnit;
-@property _Bool shouldAllocateBuffer; // @synthesize shouldAllocateBuffer=_shouldAllocateBuffer;
-@property(readonly, copy) NSArray *supportedChannelLayoutTags; // @synthesize supportedChannelLayoutTags=_supportedChannelLayoutTags;
+@property(nonatomic) vector_964029cf observers; // @synthesize observers=_observers;
 
 @end
 

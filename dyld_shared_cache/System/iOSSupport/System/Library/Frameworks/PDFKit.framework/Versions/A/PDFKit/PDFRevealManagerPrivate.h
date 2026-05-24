@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PDFView, RVPresenter;
+@class PDFView;
 
 __attribute__((visibility("hidden")))
 @interface PDFRevealManagerPrivate
 {
     PDFView *pdfView;
-    RVPresenter *rvPresenter;
 }
 
 - (void);

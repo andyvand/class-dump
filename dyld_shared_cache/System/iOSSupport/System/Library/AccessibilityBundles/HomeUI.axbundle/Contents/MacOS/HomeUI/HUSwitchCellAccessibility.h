@@ -16,7 +16,7 @@
 - (struct CGPoint);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)stringByTrimmingCharactersInSet: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface FamilyCircle.FAFamilyFetchActivityProvider
 {
     id activityBlock;
-    id criteria;
 }
 
 @end

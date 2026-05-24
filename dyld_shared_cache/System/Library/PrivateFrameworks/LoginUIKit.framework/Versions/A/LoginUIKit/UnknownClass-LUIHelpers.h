@@ -6,7 +6,7 @@
 
 @interface UnknownClass (LUIHelpers)
 + (void);
-+ (id);
++ (id);
 + (struct CGPoint);
 @end
 

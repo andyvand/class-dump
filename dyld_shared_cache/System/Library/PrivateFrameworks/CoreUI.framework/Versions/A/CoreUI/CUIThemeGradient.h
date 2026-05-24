@@ -7,21 +7,18 @@
 @interface CUIThemeGradient
 {
     id gradientEvaluator;
-    struct CGFunction *colorShader;
-    struct CGColorSpace *colorSpace;
-    struct CGImage *_gradientImage;
 }
 
-- (double);
+- (double);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)$;
+- (id)_i;
 - (id);
 - (void);
+- (void)�;
 - (void);
-- (void);
-- (void);
+- (void)-;
 - (void);
 - (id);
 - (id);
@@ -30,8 +27,8 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
-- (int);
+- (_Bool)(;
+- (int)sting a SignOut event as a fallback;
 - (id);
 
 @end

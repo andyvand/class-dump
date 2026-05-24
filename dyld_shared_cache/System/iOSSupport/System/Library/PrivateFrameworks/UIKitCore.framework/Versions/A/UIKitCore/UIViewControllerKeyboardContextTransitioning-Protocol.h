@@ -8,13 +8,10 @@
 @protocol UIViewControllerContextTransitioning;
 
 @protocol UIViewControllerKeyboardContextTransitioning
+- (UIView *)_ր;
 - (id <UIViewControllerContextTransitioning>)dd}16d32;
 
 // Remaining properties
-@property(readonly, nonatomic) UIView *fromKeyboard;
-@property(readonly, nonatomic) struct CGRect fromKeyboardFrame;
 @property(readonly, nonatomic) id <UIViewControllerContextTransitioning> mainContext;
-@property(readonly, nonatomic) UIView *toKeyboard;
-@property(readonly, nonatomic) struct CGRect toKeyboardFrame;
 @end
 

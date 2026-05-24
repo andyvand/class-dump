@@ -15,14 +15,14 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)ii8J;
 - (void);
-- (_Bool);
+- (_Bool)hyperhidrosis;
 - (void);
 - (id);
 - (id);

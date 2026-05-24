@@ -7,16 +7,13 @@
 @interface BlastDoor._BlastDoorHKProfileIdentifier
 {
     id type;
-    id uuid;
-    id UuidKey;
-    id TypeKey;
 }
 
 + (void);
 + (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)#;
 - (void);
 
 @end

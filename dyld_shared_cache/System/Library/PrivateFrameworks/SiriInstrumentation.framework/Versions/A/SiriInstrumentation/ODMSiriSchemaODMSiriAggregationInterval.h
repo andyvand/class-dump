@@ -6,13 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ODMSiriSchemaODMSiriAggregationInterval : SISchemaInstrumentationMessage
 {
     unsigned int _aggregationIntervalInDays;
-    double _aggregationIntervalStartTimestampInSecondsSince2001;
-    CDStruct_b3bd87c1 _has;
 }
 
 - (void);
@@ -29,19 +25,15 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)H;
 - (id);
 - (id)1ÞÐ1Â0@ù
 × ;
 - (id)V_siriEngagementTaskSuccess;
-- (id)riggerConfigVersion;
+- (id)deleteVoiceTriggerConfigVersion;
 
 // Remaining properties
 @property(nonatomic) unsigned int aggregationIntervalInDays; // @synthesize aggregationIntervalInDays=_aggregationIntervalInDays;
-@property(nonatomic) double aggregationIntervalStartTimestampInSecondsSince2001; // @synthesize aggregationIntervalStartTimestampInSecondsSince2001=_aggregationIntervalStartTimestampInSecondsSince2001;
-@property(nonatomic) _Bool hasAggregationIntervalInDays;
-@property(nonatomic) _Bool hasAggregationIntervalStartTimestampInSecondsSince2001;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -11,7 +11,7 @@
 
 @optional
 - (void)UIHostedWindowHostingHandle"@"_UIHostedWindowHostingHandle">16;
-- (void)tSizeToFitWidth:(CALayer *)arg1;
+- (void)_setAdjustsFontSizeToFitWidth:(CALayer *)arg1;
 - (void);
 - (void)ITextEffectsWindow.;
 - (id <CAAction>)\;

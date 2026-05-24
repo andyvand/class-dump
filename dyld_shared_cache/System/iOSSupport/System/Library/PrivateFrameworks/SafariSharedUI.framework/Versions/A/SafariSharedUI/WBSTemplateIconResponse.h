@@ -6,14 +6,11 @@
 
 #import <SafariSharedUI/WBSSiteMetadataResponse.h>
 
-@class UIColor, UIImage;
+@class UIImage;
 
 @interface WBSTemplateIconResponse : WBSSiteMetadataResponse
 {
     _Bool _monogram;
-    UIImage *_image;
-    UIImage *_highlightedImage;
-    UIColor *_themeColor;
 }
 
 + (id);
@@ -21,15 +18,13 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)orLocaleIdentifier: /* Error: Ran out of types for this method. */;
+- (id)
+;
+- (id)8@16@24;
+- (void)safari_displayNameForLocaleIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) UIImage *highlightedImage; // @synthesize highlightedImage=_highlightedImage;
 @property(readonly, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(readonly, nonatomic, getter=isMonogram) _Bool monogram; // @synthesize monogram=_monogram;
-@property(readonly, nonatomic) UIColor *themeColor; // @synthesize themeColor=_themeColor;
 
 @end
 

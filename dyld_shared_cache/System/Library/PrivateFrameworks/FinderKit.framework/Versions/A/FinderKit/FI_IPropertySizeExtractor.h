@@ -10,26 +10,25 @@ __attribute__((visibility("hidden")))
 @interface FI_IPropertySizeExtractor : FI_IPropertyValueExtractor
 {
     struct TFENodeVector _nodesToSize;
-    struct map<TFENode, NSMutableDictionary *, std::less<TFENode>, std::allocator<std::pair<const TFENode, NSMutableDictionary *>>> _nodesAndSizeMap;
 }
 
 - (long long);
 - (_Bool);
 - (_Bool);
 - (long long);
+- (void)@;
 - (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (int);
+- (id);
+- (id);
+- (id);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (int);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)_L;
 - (void);
 
 @end

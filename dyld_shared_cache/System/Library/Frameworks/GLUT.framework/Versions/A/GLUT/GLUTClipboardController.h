@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSScrollView, NSString, NSTextField, NSTimer;
+@class NSScrollView;
 
 __attribute__((visibility("hidden")))
 @interface GLUTClipboardController
 {
     NSScrollView *_scrollView;
-    NSTextField *_infoText;
-    NSTimer *_updateTimer;
-    int _lastChangeCount;
-    _Bool _firstTime;
 }
 
 - (void);
@@ -35,13 +31,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

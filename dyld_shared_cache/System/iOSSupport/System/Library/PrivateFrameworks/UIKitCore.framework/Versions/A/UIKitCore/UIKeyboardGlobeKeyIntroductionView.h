@@ -6,23 +6,16 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSDate, UIButton, UILabel, UITextView, _UIBackdropView;
-
 __attribute__((visibility("hidden")))
 @interface UIKeyboardGlobeKeyIntroductionView : UIView
 {
     CDUnknownBlockType _completionBlock;
-    _UIBackdropView *_backdropView;
-    UILabel *_titleLabel;
-    UITextView *_descriptionLabel;
-    UIButton *_continueButton;
-    NSDate *_startDate;
 }
 
-- (id);
-- (void);
-- (long long);
-- (void);
+- (id)ss handle to be %@;
+- (void)FTCommandIDTranscriptBackgroundMessage;
+- (long long);
+- (void)Y`Z;
 - (id);
 - (void);
 - (id);
@@ -38,12 +31,7 @@ __attribute__((visibility("hidden")))
 - (void)$ni;
 
 // Remaining properties
-@property(retain, nonatomic) _UIBackdropView *backdropView; // @synthesize backdropView=_backdropView;
 @property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(retain, nonatomic) UIButton *continueButton; // @synthesize continueButton=_continueButton;
-@property(retain, nonatomic) UITextView *descriptionLabel; // @synthesize descriptionLabel=_descriptionLabel;
-@property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(retain, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end
 

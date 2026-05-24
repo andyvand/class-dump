@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface CMLengthProperty : CMProperty
 {
     double value;
-    int unitType;
 }
 
 + (id);
@@ -19,11 +18,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (int);
+- (int)@yJy_5;
 - (id);
 - (id);
 - (double);
-- (int);
+- (int)3;
 - (int)±3$ð1Â0@ù
 × ;
 

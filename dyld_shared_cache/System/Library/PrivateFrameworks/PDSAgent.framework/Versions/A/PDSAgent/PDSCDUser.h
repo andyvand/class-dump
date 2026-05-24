@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface PDSCDUser
@@ -14,13 +14,11 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *registrations; // @dynamic registrations;
 @property(copy, nonatomic) NSString *userID; // @dynamic userID;
-@property(nonatomic) short userType; // @dynamic userType;
 
 @end
 

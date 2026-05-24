@@ -5,5 +5,6 @@
 //
 
 @protocol _INSiriAuthorizationManagerExport
++ (void)evice_name != ((void*)0)" -> %llu;
 @end
 

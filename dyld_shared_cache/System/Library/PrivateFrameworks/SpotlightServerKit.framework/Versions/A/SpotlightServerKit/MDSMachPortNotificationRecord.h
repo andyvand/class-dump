@@ -7,15 +7,13 @@
 @interface MDSMachPortNotificationRecord
 {
     unsigned int _previousPort;
-    SEL _aSelector;
-    id _anObject;
 }
 
 - (unsigned int);
 - (id);
 - (void);
 - (id);
-- (SEL);
+- (SEL)P;
 
 @end
 

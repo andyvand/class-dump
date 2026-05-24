@@ -13,7 +13,7 @@
 
 + (double);
 - (id);
-- (id)ra;
+- (id)camera;
 
 // Remaining properties
 @property(readonly, nonatomic) NSView *contentView;

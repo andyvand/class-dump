@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString, UIImage;
+@class NSAttributedString;
 
 @interface NUTextAndGlyph
 {
     NSAttributedString *_attributedText;
-    NSString *_text;
-    UIImage *_glyph;
-    unsigned long long _alignment;
 }
 
 - (id);
@@ -21,15 +18,12 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)fireEventWithName:withContext: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void));
 
 // Remaining properties
-@property(nonatomic) unsigned long long alignment; // @synthesize alignment=_alignment;
 @property(readonly, nonatomic) NSAttributedString *attributedText; // @synthesize attributedText=_attributedText;
-@property(readonly, nonatomic) UIImage *glyph; // @synthesize glyph=_glyph;
-@property(readonly, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end
 

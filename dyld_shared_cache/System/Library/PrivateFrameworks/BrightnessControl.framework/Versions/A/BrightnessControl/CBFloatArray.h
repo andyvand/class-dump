@@ -7,8 +7,6 @@
 @interface CBFloatArray
 {
     float *_data;
-    unsigned long long _count;
-    unsigned long long _size;
 }
 
 - (float *);
@@ -20,7 +18,7 @@
 - (void);
 - (id);
 - (id);
-- (const float *);
+- (const float *);
 - (unsigned long long);
 - (id);
 

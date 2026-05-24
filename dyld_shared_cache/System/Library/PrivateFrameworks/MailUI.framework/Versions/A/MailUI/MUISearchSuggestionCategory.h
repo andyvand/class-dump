@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSImage, NSString;
+@class NSImage;
 
 @interface MUISearchSuggestionCategory
 {
     NSImage *_image;
-    _Bool _isLegacy;
-    NSString *_displayName;
-    NSImage *_atomImage;
-    NSString *_parsecCategory;
-    NSArray *_scopes;
-    MUISearchSuggestionCategory *_groupingCategory;
-    CDUnknownBlockType _imageInstantiationBlock;
 }
 
 + (id);
@@ -24,8 +17,8 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)T;
++ (id)�;
 + (id);
 + (id);
 + (id);
@@ -44,36 +37,17 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)4;
+- (id)	;
+- (id)IndexIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::IDBIndexIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WebCore::IndexKey>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::IDBIndexIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id)A;
 - (_Bool);
 - (void);
 - (id);
-- (void)ype: /* Error: Ran out of types for this method. */;
+- (void)setAccessibilityRulerMarkerType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSImage *atomImage; // @synthesize atomImage=_atomImage;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
 @property(nonatomic) __weak MUISearchSuggestionCategory *groupingCategory; // @synthesize groupingCategory=_groupingCategory;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(copy, nonatomic) CDUnknownBlockType imageInstantiationBlock; // @synthesize imageInstantiationBlock=_imageInstantiationBlock;
-@property(readonly, nonatomic) _Bool isLegacy; // @synthesize isLegacy=_isLegacy;
-@property(retain, nonatomic) NSString *parsecCategory; // @synthesize parsecCategory=_parsecCategory;
-@property(copy, nonatomic) NSArray *scopes; // @synthesize scopes=_scopes;
-@property(readonly) Class superclass;
 
 @end
 

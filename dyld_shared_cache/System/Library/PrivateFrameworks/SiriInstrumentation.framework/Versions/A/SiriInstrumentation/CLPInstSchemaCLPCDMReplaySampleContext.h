@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class CLPInstSchemaCLPCDMReplaySampleEnded, CLPInstSchemaCLPCDMReplaySampleFailed, CLPInstSchemaCLPCDMReplaySampleStarted, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface CLPInstSchemaCLPCDMReplaySampleContext : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_contextId;
-    CLPInstSchemaCLPCDMReplaySampleStarted *_startedOrChanged;
-    CLPInstSchemaCLPCDMReplaySampleEnded *_ended;
-    CLPInstSchemaCLPCDMReplaySampleFailed *_failed;
-    _Bool _hasContextId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -31,14 +23,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)#;
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)atorServices.framework/Versions/A/ReplicatorServices;
+- (id)stringWithFormat: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -48,7 +40,7 @@
 - (_Bool);
 - (id);
 - (id)ExecutorSiriSchemaExecutorStringQueryEntityCallContext";
-- (id)NKActionContext;
+- (id)FLOWLINKSchemaFLOWLINKActionContext;
 - (id)8ó;
 - (void)x¬ H&;
 - (void)ìê;
@@ -56,15 +48,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *contextId; // @synthesize contextId=_contextId;
-@property(retain, nonatomic) CLPInstSchemaCLPCDMReplaySampleEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) CLPInstSchemaCLPCDMReplaySampleFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasContextId; // @synthesize hasContextId=_hasContextId;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) CLPInstSchemaCLPCDMReplaySampleStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

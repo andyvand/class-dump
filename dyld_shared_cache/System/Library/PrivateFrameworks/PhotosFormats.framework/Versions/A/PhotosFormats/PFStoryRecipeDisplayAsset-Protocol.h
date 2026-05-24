@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol PFStoryRecipeDisplayAsset
 
 // Remaining properties
 @property(readonly, nonatomic) long long category;
-@property(readonly, nonatomic) NSString *cloudIdentifier;
-@property(readonly, nonatomic) NSString *scheme;
 @end
 

@@ -4,29 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface CPLPlaceAnnotation
 {
     NSNumber *_placeLevel;
-    NSString *_placeName;
 }
 
 + (_Bool);
-- (void);
+- (void)NSString",&,N,V_pid;
 - (id);
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool)ÿ#ÕÐÊP;
+- (_Bool);
 - (void);
-- (id);
+- (id)i;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *placeLevel; // @synthesize placeLevel=_placeLevel;
-@property(copy, nonatomic) NSString *placeName; // @synthesize placeName=_placeName;
 
 @end
 

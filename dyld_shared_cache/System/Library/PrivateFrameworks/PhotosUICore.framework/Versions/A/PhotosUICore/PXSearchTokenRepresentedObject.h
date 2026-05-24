@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PSIQueryToken;
+@class NSString;
 
 @interface PXSearchTokenRepresentedObject
 {
     NSString *_title;
-    PSIQueryToken *_queryToken;
-    NSString *_priorityAssetUUID;
 }
 
 + (id);
@@ -19,20 +17,18 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)S;
+- (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id)iewModel;
+- (id)viewModel;
 - (id)ntation item for best config for asset %s;
-- (void)SectionedFeedSectionProvider;
+- (void)LemonadeSectionedFeedSectionProvider;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *priorityAssetUUID; // @synthesize priorityAssetUUID=_priorityAssetUUID;
-@property(readonly, nonatomic) PSIQueryToken *queryToken; // @synthesize queryToken=_queryToken;
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

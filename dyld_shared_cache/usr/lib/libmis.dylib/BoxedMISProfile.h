@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface BoxedMISProfile
 {
     unsigned char ProvisionsAllDevices;
-    unsigned char AppleInternal;
-    unsigned char Local;
-    unsigned char Beta;
-    NSString *UUID;
-    NSString *TeamID;
-    NSString *Name;
-    NSDate *Expires;
 }
 
 + (id);
@@ -26,26 +19,19 @@
 - (unsigned char);
 - (unsigned char);
 - (unsigned char);
-- (unsigned char);
+- (unsigned char)s;
 - (void);
 - (id);
-- (id);
+- (id)A;
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)lastStrokeIdentifier;
 - (void);
-- (void);
+- (void)H;
 - (void);
 
 // Remaining properties
-@property unsigned char AppleInternal; // @synthesize AppleInternal;
-@property unsigned char Beta; // @synthesize Beta;
-@property(retain) NSDate *Expires; // @synthesize Expires;
-@property unsigned char Local; // @synthesize Local;
-@property(retain) NSString *Name; // @synthesize Name;
-@property unsigned char ProvisionsAllDevices; // @synthesize ProvisionsAllDevices;
-@property(retain) NSString *TeamID; // @synthesize TeamID;
 @property(retain) NSString *UUID; // @synthesize UUID;
 
 @end

@@ -6,29 +6,11 @@
 
 #import <ExchangeWebServices/EWSItemType.h>
 
-@class EWSSingleRecipientType, NSArray, NSString;
+@class EWSSingleRecipientType;
 
 @interface EWSMessageType : EWSItemType
 {
     _Bool _IsReadReceiptRequested;
-    _Bool _IsReadReceiptRequestedSpecified;
-    _Bool _IsDeliveryReceiptRequested;
-    _Bool _IsDeliveryReceiptRequestedSpecified;
-    _Bool _IsRead;
-    _Bool _IsReadSpecified;
-    _Bool _IsResponseRequested;
-    _Bool _IsResponseRequestedSpecified;
-    EWSSingleRecipientType *_Sender;
-    NSArray *_ToRecipients;
-    NSArray *_CcRecipients;
-    NSArray *_BccRecipients;
-    NSString *_ConversationTopic;
-    EWSSingleRecipientType *_From;
-    NSString *_InternetMessageId;
-    NSString *_References;
-    NSArray *_ReplyTo;
-    EWSSingleRecipientType *_ReceivedBy;
-    EWSSingleRecipientType *_ReceivedRepresenting;
 }
 
 + (id);
@@ -42,32 +24,32 @@
 - (void);
 - (void);
 - (void);
+- (void)?kB;
 - (void);
 - (void);
+- (_Bool)C;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id)kB;
+- (id);
+- (id);
+- (id);
+- (id)Th;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
 - (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -75,27 +57,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *BccRecipients; // @synthesize BccRecipients=_BccRecipients;
-@property(copy, nonatomic) NSArray *CcRecipients; // @synthesize CcRecipients=_CcRecipients;
-@property(copy, nonatomic) NSString *ConversationTopic; // @synthesize ConversationTopic=_ConversationTopic;
-@property(retain, nonatomic) EWSSingleRecipientType *From; // @synthesize From=_From;
-@property(copy, nonatomic) NSString *InternetMessageId; // @synthesize InternetMessageId=_InternetMessageId;
-@property(nonatomic) _Bool IsDeliveryReceiptRequested; // @synthesize IsDeliveryReceiptRequested=_IsDeliveryReceiptRequested;
-@property(nonatomic) _Bool IsDeliveryReceiptRequestedSpecified; // @synthesize IsDeliveryReceiptRequestedSpecified=_IsDeliveryReceiptRequestedSpecified;
-@property(nonatomic) _Bool IsRead; // @synthesize IsRead=_IsRead;
-@property(nonatomic) _Bool IsReadReceiptRequested; // @synthesize IsReadReceiptRequested=_IsReadReceiptRequested;
-@property(nonatomic) _Bool IsReadReceiptRequestedSpecified; // @synthesize IsReadReceiptRequestedSpecified=_IsReadReceiptRequestedSpecified;
-@property(nonatomic) _Bool IsReadSpecified; // @synthesize IsReadSpecified=_IsReadSpecified;
-@property(nonatomic) _Bool IsResponseRequested; // @synthesize IsResponseRequested=_IsResponseRequested;
-@property(nonatomic) _Bool IsResponseRequestedSpecified; // @synthesize IsResponseRequestedSpecified=_IsResponseRequestedSpecified;
-@property(retain, nonatomic) EWSSingleRecipientType *ReceivedBy; // @synthesize ReceivedBy=_ReceivedBy;
-@property(retain, nonatomic) EWSSingleRecipientType *ReceivedRepresenting; // @synthesize ReceivedRepresenting=_ReceivedRepresenting;
-@property(copy, nonatomic) NSString *References; // @synthesize References=_References;
-@property(copy, nonatomic) NSArray *ReplyTo; // @synthesize ReplyTo=_ReplyTo;
 @property(retain, nonatomic) EWSSingleRecipientType *Sender; // @synthesize Sender=_Sender;
-@property(copy, nonatomic) NSArray *ToRecipients; // @synthesize ToRecipients=_ToRecipients;
-@property(readonly, copy, nonatomic) NSArray *allowedElementKeys;
-@property(readonly, nonatomic) _Bool elementsNeedRedaction;
 
 @end
 

@@ -7,10 +7,6 @@
 @interface RemindersUICore.TTRMComponentViewSection
 {
     id enabledState;
-    id isResizable;
-    id sectionView;
-    id baselineAlignedComponent;
-    id children;
 }
 
 @end

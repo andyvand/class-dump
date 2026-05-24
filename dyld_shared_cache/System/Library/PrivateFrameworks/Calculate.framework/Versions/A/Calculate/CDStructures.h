@@ -16,7 +16,7 @@ struct TreeObject {
     struct TreeObject *_field3;
     struct TreeObject *_field4;
     double _field5;
-    CDStruct_bc361aee _field6;
+    CDStruct_492b6082 _field6;
     unsigned long long _field7;
     struct UnitCount _field8[16];
     _Bool _field9;
@@ -27,12 +27,12 @@ struct TreeObject {
 };
 
 struct UnitCount {
-    int unitID;
-    int exponent;
+    int _field1;
+    int _field2;
 };
 
 struct UnitCounts {
-    struct UnitCount types[16];
+    struct UnitCount _field1[16];
 };
 
 struct _NSRange {
@@ -43,17 +43,17 @@ struct _NSRange {
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    unsigned long long formats[17];
-} CDStruct_6db91a3e;
+    unsigned long long _field1[17];
+} CDStruct_83e2b949;
 
 typedef struct {
-    _Bool letters[26];
-    int count;
-} CDStruct_e8805669;
+    _Bool _field1[26];
+    int _field2;
+} CDStruct_caa30525;
 
 typedef struct {
-    unsigned long long w[2];
-} CDStruct_bc361aee;
+    unsigned long long _field1[2];
+} CDStruct_492b6082;
 
 typedef struct {
     unsigned int :24;

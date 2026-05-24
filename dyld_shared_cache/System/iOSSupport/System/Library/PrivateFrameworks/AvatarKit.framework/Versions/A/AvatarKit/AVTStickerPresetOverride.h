@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface AVTStickerPresetOverride
 {
     long long _category;
-    NSString *_presetIdentifier;
-    NSArray *_unlessIdentifiers;
 }
 
 + (id);
@@ -24,8 +20,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) long long category; // @synthesize category=_category;
-@property(readonly, copy, nonatomic) NSString *presetIdentifier; // @synthesize presetIdentifier=_presetIdentifier;
-@property(readonly, nonatomic) NSArray *unlessIdentifiers; // @synthesize unlessIdentifiers=_unlessIdentifiers;
 
 @end
 

@@ -11,11 +11,11 @@
 }
 
 - (struct CGImage *);
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets);
 - (struct CGRect);
 - (struct CGRect);
-- (struct CGRect);
-- (id);
+- (struct CGRect);
+- (id);
 - (id);
 - (void);
 - (void);

@@ -4,33 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface SCRCMathExpression
 {
     SCRCMathExpression *_parent;
-    unsigned long long _cachedMaximumDepth;
-    _Bool _isNumberOverride;
 }
 
 + (void);
 + (Class);
 + (id);
+- (id);
+- (id),-m;
+- (id);
+- (id),m;
+- (id),m;
+- (id);
+- (id)pb.m;
+- (id);
+- (id)m;
+- (id);
+- (id)m;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)m;
 - (unsigned long long);
 - (unsigned long long);
 - (id);
@@ -77,47 +73,19 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
-- (id);
-- (long long);
+- (id)h:y /* Error: Ran out of types for this method. */;
+- (long long)`;
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)?<v@?q>16;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool beginsWithSpace;
-@property(readonly, nonatomic) _Bool canBeUsedWithBase;
-@property(readonly, nonatomic) _Bool canBeUsedWithRange;
-@property(readonly, nonatomic) _Bool canBeWrappedInLatexMathIndicators;
-@property(readonly, nonatomic) NSArray *children;
-@property(readonly, nonatomic) _Bool endsWithSpace;
-@property(readonly, nonatomic) unsigned long long fractionLevel;
-@property(readonly, nonatomic) _Bool hasSimpleArrayOfChildren;
-@property(readonly, nonatomic) long long integerValue;
-@property(readonly, nonatomic) _Bool isBaseSubSuperscript;
-@property(readonly, nonatomic) _Bool isEllipsis;
-@property(readonly, nonatomic) _Bool isFenceDelimiter;
-@property(readonly, nonatomic) _Bool isFunctionName;
-@property(readonly, nonatomic) _Bool isInteger;
-@property(readonly, nonatomic) _Bool isMultiRowTable;
-@property(readonly, nonatomic) _Bool isNaturalSuperscript;
-@property(readonly, nonatomic) _Bool isNumber;
-@property(readonly, nonatomic) _Bool isNumberOverride; // @synthesize isNumberOverride=_isNumberOverride;
-@property(readonly, nonatomic) _Bool isOperationSymbol;
-@property(readonly, nonatomic) _Bool isRangeSubSuperscript;
-@property(readonly, nonatomic) _Bool isSimpleNumericalFraction;
-@property(readonly, nonatomic) _Bool isTermSeparator;
-@property(readonly, nonatomic) _Bool isUnlinedFraction;
-@property(readonly, nonatomic) _Bool isWordOrAbbreviation;
-@property(readonly, nonatomic) NSString *latexFormatStringAsOver;
-@property(readonly, nonatomic) NSString *latexFormatStringAsUnder;
 @property(nonatomic) __weak SCRCMathExpression *parent; // @synthesize parent=_parent;
-@property(readonly, nonatomic) NSArray *siblings;
-@property(readonly, nonatomic) NSArray *subExpressions;
 
 @end
 

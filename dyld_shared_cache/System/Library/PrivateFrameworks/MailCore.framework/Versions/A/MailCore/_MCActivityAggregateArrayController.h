@@ -8,7 +8,7 @@
 {
 }
 
-- (void);
+- (void)tsSectionInfo>"24Q32Q40;
 
 @end
 

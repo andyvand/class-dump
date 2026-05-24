@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol NSObject><NSCopying;
+
 @protocol VNSequencedRequestSupporting
+- (id <NSObject><NSCopying>)fo:] /* Error: Ran out of types for this method. */;
+- (_Bool)initWithImageData:thumbnailImageData:cropRect:memojiMetadata: /* Error: Ran out of types for this method. */;
 @end
 

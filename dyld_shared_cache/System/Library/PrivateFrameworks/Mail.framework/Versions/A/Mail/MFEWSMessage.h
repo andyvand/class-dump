@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCMessageHeaders, MFEWSAccount, MFLibraryCalendarEvent, MFMailbox, NSData, NSString;
+@class NSData, NSString;
 
 @interface MFEWSMessage
 {
     NSData *_headerData;
-    MCMessageHeaders *_headers;
-    NSString *_itemId;
-    NSString *_changeKey;
-    NSData *_fetchedBodyData;
-    MFLibraryCalendarEvent *_associatedCalendarEvent;
-    long long _libraryID;
 }
 
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
++ (id)T";
 + (id);
-+ (id);
-+ (id);
-+ (BOOL);
++ (BOOL)9;
 + (long long);
 + (id);
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -42,30 +38,28 @@
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
 - (void);
 - (void);
 - (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)	;
 - (void);
 - (id);
+- (id)moveParagraphForwardAndModifySelection: /* Error: Ran out of types for this method. */;
 - (id);
+- (id)b;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (long long);
 - (id);
 - (void);
@@ -74,15 +68,7 @@
 - (_Bool)SearchReturnOption;
 
 // Remaining properties
-@property(readonly, nonatomic) MFEWSAccount *account;
-@property(retain) MFLibraryCalendarEvent *associatedCalendarEvent; // @synthesize associatedCalendarEvent=_associatedCalendarEvent;
-@property(copy, nonatomic) NSString *changeKey; // @synthesize changeKey=_changeKey;
-@property(retain) NSData *fetchedBodyData; // @synthesize fetchedBodyData=_fetchedBodyData;
-@property(retain) NSData *headerData; // @synthesize headerData=_headerData;
-@property(retain) MCMessageHeaders *headers; // @synthesize headers=_headers;
 @property(copy, nonatomic) NSString *itemId; // @synthesize itemId=_itemId;
-@property(nonatomic) long long libraryID; // @synthesize libraryID=_libraryID;
-@property(readonly, nonatomic) MFMailbox *mailbox;
 
 @end
 

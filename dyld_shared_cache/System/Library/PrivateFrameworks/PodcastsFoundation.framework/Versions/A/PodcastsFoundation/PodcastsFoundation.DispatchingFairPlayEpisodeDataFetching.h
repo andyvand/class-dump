@@ -7,7 +7,6 @@
 @interface PodcastsFoundation.DispatchingFairPlayEpisodeDataFetching
 {
     id wrappedInstance;
-    id responseQueue;
 }
 
 - (id);

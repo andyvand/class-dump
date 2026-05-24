@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSMutableDictionary, NSString, TKTokenID;
+@class NSData, NSMutableDictionary;
 
 @interface TKTokenKeychainItem
 {
     NSData *_accessControl;
-    id _objectID;
-    NSString *_label;
-    NSDictionary *_constraints;
-    TKTokenID *_tokenID;
 }
 
 + (id);
@@ -20,27 +16,21 @@
 + (id);
 - (void);
 - (id);
+- (void)-;
+- (id)/TemporaryDirectory.fNM65P/Sources/Marisa/lib/marisa/keyset.cc:(id)arg1 159:MARISA_MEMORY_ERROR:new_block.get() == NULL /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)h^@9	;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void)@;
+- (void)lAuthentication.Authorization.rightForIdentifier;
+- (id)O;
 
 // Remaining properties
-@property(retain) NSData *accessControl;
-@property(copy) NSDictionary *constraints; // @synthesize constraints=_constraints;
-@property(readonly, copy) NSData *encodedObjectID; // @dynamic encodedObjectID;
 @property(readonly, copy) NSMutableDictionary *keychainAttributes; // @dynamic keychainAttributes;
-@property(copy) NSString *label; // @synthesize label=_label;
-@property(readonly, copy) id objectID; // @synthesize objectID=_objectID;
-@property(retain) TKTokenID *tokenID; // @synthesize tokenID=_tokenID;
 
 @end
 

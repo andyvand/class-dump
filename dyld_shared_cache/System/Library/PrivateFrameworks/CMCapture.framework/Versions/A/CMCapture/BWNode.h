@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWGraph, BWNodeInput, BWNodeOutput, NSArray, NSMutableArray, NSObject, NSString;
-@protocol BWNodeRenderDelegate, OS_dispatch_group;
+@class BWNodeInput;
 
 @interface BWNode
 {
     BWNodeInput *_input;
-    BWNodeOutput *_output;
-    NSMutableArray *_inputs;
-    NSMutableArray *_outputs;
-    NSString *_name;
-    NSString *_subgraphName;
-    _Bool _supportsConcurrentLiveInputCallbacks;
-    _Bool _supportsLiveReconfiguration;
-    _Bool _singleInput;
-    _Bool _singleOutput;
-    BWGraph *_graph;
-    int _deferredPreparePriority;
-    id <BWNodeRenderDelegate> _renderDelegate;
-    long long _requestedConfigurationID;
-    long long _preparedConfigurationID;
-    long long _liveConfigurationID;
-    NSObject<OS_dispatch_group> *_currentConfigurationGroup;
-    _Bool _supportsPrepareWhileRunning;
-    _Bool _requiresEndOfDataForConfigurationChanges;
 }
 
 + (void)eristics list for inputs;
@@ -51,28 +32,28 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)utedString=}16^{__CFArray=}24;
 - (void);
 - (long long);
 - (id);
 - (long long);
-- (id);
+- (id)B;
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (long long);
+- (void)apper:(id)arg1 modelGroundTruthFeatureUpperBounds accessed:size %lu, first element %@ /* Error: Ran out of types for this method. */;
+- (void);
+- (id)$;
 - (void);
 - (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
-- (void);
-- (id);
-- (void)meraTransitionFrameCount;
+- (void)_overCaptureCameraTransitionFrameCount;
 - (id)ðÛXÜ8Ý\Ý)à;
 - (id)ut pixel buffer %@;
 - (void)create bundle from %@;
@@ -94,30 +75,7 @@
 - (void)½%;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *briefName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) int deferredPreparePriority; // @synthesize deferredPreparePriority=_deferredPreparePriority;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) BWGraph *graph; // @synthesize graph=_graph;
-@property(readonly, nonatomic) _Bool hasNonLiveConfigurationChanges;
-@property(readonly) unsigned long long hash;
-@property(readonly) BWNodeInput *input;
-@property(readonly) NSArray *inputs;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) NSString *nodeSubType;
-@property(readonly) NSString *nodeType;
-@property(readonly) BWNodeOutput *output;
-@property(readonly) NSArray *outputs;
-@property(nonatomic) id <BWNodeRenderDelegate> renderDelegate; // @synthesize renderDelegate=_renderDelegate;
-@property(nonatomic) _Bool requiresEndOfDataForConfigurationChanges; // @synthesize requiresEndOfDataForConfigurationChanges=_requiresEndOfDataForConfigurationChanges;
-@property(copy, nonatomic) NSString *subgraphName; // @synthesize subgraphName=_subgraphName;
-@property(readonly) Class superclass;
 @property(nonatomic) _Bool supportsConcurrentLiveInputCallbacks; // @synthesize supportsConcurrentLiveInputCallbacks=_supportsConcurrentLiveInputCallbacks;
-@property(nonatomic) _Bool supportsLiveReconfiguration; // @synthesize supportsLiveReconfiguration=_supportsLiveReconfiguration;
-@property(nonatomic) _Bool supportsPrepareWhileRunning; // @synthesize supportsPrepareWhileRunning=_supportsPrepareWhileRunning;
 
 @end
 

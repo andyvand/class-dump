@@ -9,14 +9,6 @@
 @interface RemindersUICore.TTRShowCustomSmartListDataModelSource : RemindersUICore.TTRRemindersListDataModelSourceBase
 {
     id delegate;
-    id smartList;
-    id countCompleted;
-    id store;
-    id showCompletedContextInstance;
-    id layoutContextInstance;
-    id tipKitContextInstance;
-    id dataViewMonitor;
-    id userDefaults;
 }
 
 @end

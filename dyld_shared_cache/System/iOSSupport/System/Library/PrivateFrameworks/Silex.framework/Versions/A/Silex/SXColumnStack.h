@@ -19,7 +19,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)@;
 - (void)">72;
 
 // Remaining properties

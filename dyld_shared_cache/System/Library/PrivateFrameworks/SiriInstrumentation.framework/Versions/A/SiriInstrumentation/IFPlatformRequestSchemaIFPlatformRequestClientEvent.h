@@ -6,28 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class IFPlatformRequestSchemaIFPlanCycleGenerated, IFPlatformRequestSchemaIFPlatformRequestClientEventMetadata, IFPlatformRequestSchemaIFPlatformRequestContext, IFPlatformRequestSchemaIFPlatformRequestInvoked, IFPlatformRequestSchemaIFPlatformRequestStructuredError, NSData, SISchemaInstrumentationMessage;
+@class IFPlatformRequestSchemaIFPlatformRequestClientEventMetadata, SISchemaInstrumentationMessage;
 
 @interface IFPlatformRequestSchemaIFPlatformRequestClientEvent : SISchemaTopLevelUnionType
 {
     IFPlatformRequestSchemaIFPlatformRequestClientEventMetadata *_eventMetadata;
-    IFPlatformRequestSchemaIFPlatformRequestContext *_ifPlatformRequestContext;
-    IFPlatformRequestSchemaIFPlatformRequestInvoked *_ifPlatformRequestInvoked;
-    IFPlatformRequestSchemaIFPlanCycleGenerated *_ifPlanCycleGenerated;
-    IFPlatformRequestSchemaIFPlatformRequestStructuredError *_ifPlatformRequestStructuredError;
-    _Bool _hasEventMetadata;
-    _Bool _hasIfPlatformRequestContext;
-    _Bool _hasIfPlatformRequestInvoked;
-    _Bool _hasIfPlanCycleGenerated;
-    _Bool _hasIfPlatformRequestStructuredError;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
 + (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -50,40 +40,28 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)gAccountDetails]_block_invoke;
 - (void);
 - (id);
 - (id);
 - (int);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)invalidateMappingPackets:completion: /* Error: Ran out of types for this method. */;
 - (id)0@ù
 × ;
-- (id)condsAtIndex: /* Error: Ran out of types for this method. */;
+- (id)messageDurationsInSecondsAtIndex: /* Error: Ran out of types for this method. */;
 - (unsigned long long)maPLUSContactSuggestionUsageSummary",&,N,V_usageSummary;
 - (id)ESiriSchemaODSAMPLEClientEventMetadata",&,N,V_eventMetadata;
 - (id)pK;
-- (int)ANCE_LEVEL_1;
+- (int)JRBUCKETEDDISTANCE_LEVEL_1;
 - (void)Õ#;
 
 // Remaining properties
-@property(retain, nonatomic) IFPlatformRequestSchemaIFPlatformRequestClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasIfPlanCycleGenerated; // @synthesize hasIfPlanCycleGenerated=_hasIfPlanCycleGenerated;
-@property(nonatomic) _Bool hasIfPlatformRequestContext; // @synthesize hasIfPlatformRequestContext=_hasIfPlatformRequestContext;
-@property(nonatomic) _Bool hasIfPlatformRequestInvoked; // @synthesize hasIfPlatformRequestInvoked=_hasIfPlatformRequestInvoked;
-@property(nonatomic) _Bool hasIfPlatformRequestStructuredError; // @synthesize hasIfPlatformRequestStructuredError=_hasIfPlatformRequestStructuredError;
-@property(retain, nonatomic) IFPlatformRequestSchemaIFPlanCycleGenerated *ifPlanCycleGenerated; // @synthesize ifPlanCycleGenerated=_ifPlanCycleGenerated;
-@property(retain, nonatomic) IFPlatformRequestSchemaIFPlatformRequestContext *ifPlatformRequestContext; // @synthesize ifPlatformRequestContext=_ifPlatformRequestContext;
-@property(retain, nonatomic) IFPlatformRequestSchemaIFPlatformRequestInvoked *ifPlatformRequestInvoked; // @synthesize ifPlatformRequestInvoked=_ifPlatformRequestInvoked;
-@property(retain, nonatomic) IFPlatformRequestSchemaIFPlatformRequestStructuredError *ifPlatformRequestStructuredError; // @synthesize ifPlatformRequestStructuredError=_ifPlatformRequestStructuredError;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

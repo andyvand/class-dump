@@ -7,18 +7,14 @@
 @interface CRNMS
 {
     struct deque<nms::RectForest<unsigned short, double>, std::allocator<nms::RectForest<unsigned short, double>>> _preNMSForests;
-    struct PyramidNMS<unsigned short, double, unsigned char> _pyrNMS;
-    struct deque<nms::RectForest<unsigned short, double>, std::allocator<nms::RectForest<unsigned short, double>>> _postNMSForests;
-    unsigned long long _forestFeatureType;
-    unsigned long long _outputTextFeatureLevel;
 }
 
 - (_Bool);
+- (id)R(;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -28,9 +24,9 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
-- (id);
+- (id)ove Duplicate Passwords?;
 - (void)6;
 
 @end

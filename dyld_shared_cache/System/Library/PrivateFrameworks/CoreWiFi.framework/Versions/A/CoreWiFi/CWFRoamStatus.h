@@ -4,27 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString, NSUUID;
-
 @interface CWFRoamStatus
 {
     int _reason;
-    int _status;
-    NSUUID *_UUID;
-    NSString *_interfaceName;
-    unsigned long long _timeStarted;
-    unsigned long long _timeEnded;
-    NSDate *_startedAt;
-    NSDate *_endedAt;
-    NSData *_SSID;
-    NSString *_originOUI;
-    NSString *_targetOUI;
-    NSString *_fromBSSID;
-    NSString *_toBSSID;
-    unsigned long long _fromChannel;
-    unsigned long long _toChannel;
-    long long _fromRSSI;
-    long long _toRSSI;
 }
 
 + (_Bool);

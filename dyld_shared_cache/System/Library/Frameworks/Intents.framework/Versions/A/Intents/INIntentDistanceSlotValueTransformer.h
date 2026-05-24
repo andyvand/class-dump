@@ -9,12 +9,12 @@
 }
 
 + (_Bool);
++ (Class);
 + (Class);
 + (Class);
-+ (Class);
-+ (long long)ndCount:toSignificantFigure: /* Error: Ran out of types for this method. */;
++ (long long)roundCount:toSignificantFigure: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)ioSources:(id)arg1;
+- (id)StringAsPayloadCarAudioSources:(id)arg1;
 
 @end
 

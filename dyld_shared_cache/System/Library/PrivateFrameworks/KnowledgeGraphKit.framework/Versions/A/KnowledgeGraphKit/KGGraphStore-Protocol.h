@@ -7,10 +7,12 @@
 @class NSURL;
 
 @protocol KGGraphStore
-- (void)jacencyWithSources:(unsigned long long)arg1 relation: /* Error: Ran out of types for this method. */;
++ (_Bool);
+- (void)]E3$_1FvvEEE;
+- (_Bool)M;
+- (void)adjacencyWithSources:(unsigned long long)arg1 relation: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned long long graphVersion;
 @property(readonly, nonatomic) NSURL *url;
 @end
 

@@ -7,26 +7,23 @@
 @interface NTPBSubscriptionDetectionScreenView
 {
     int _countOfSubscriptionsDetected;
-    struct {
-        unsigned int countOfSubscriptionsDetected:1;
-    } _has;
 }
 
-- (void);
-- (void);
-- (int);
-- (_Bool);
+- (void)fetchMomentUUIDByAssetUUIDForAssets:(_Bool)arg1 options: /* Error: Ran out of types for this method. */;
+- (void)executeActionForActionType:(int)arg1 sender:completionHandler: /* Error: Ran out of types for this method. */;
+- (int)compositionDidUpdateForPlayerWrapper: /* Error: Ran out of types for this method. */;
+- (_Bool)changesPaused;
 - (id);
+- (void)lM;
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)_settings;
+- (_Bool)tate:(id)arg1 %@ (%@), Migration request:%@
+ /* Error: Ran out of types for this method. */;
+- (_Bool)will fetch global ESL feed items from Smarter Fetch, supplemental=%{public}s;
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) int countOfSubscriptionsDetected; // @synthesize countOfSubscriptionsDetected=_countOfSubscriptionsDetected;
 @property(nonatomic) _Bool hasCountOfSubscriptionsDetected;
 
 @end

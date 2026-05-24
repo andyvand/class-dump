@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor;
+@class UIColor;
 
 @interface PKSwatchColor
 {
     UIColor *_color;
-    NSString *_identifier;
 }
 
 + (id);
 - (id);
+- (id)K;
 - (id);
-- (id);
-- (void)ternativeStrokesAnimation: /* Error: Ran out of types for this method. */;
+- (void)setAlternativeStrokesAnimation: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *color; // @synthesize color=_color;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end
 

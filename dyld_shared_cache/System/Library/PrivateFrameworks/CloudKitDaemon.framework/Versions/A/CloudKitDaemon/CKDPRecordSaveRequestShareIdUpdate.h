@@ -16,18 +16,18 @@
 - (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)Ticks failed, err %#m
+;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)`;
 - (void)ü ð;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasShareId;
-@property(retain, nonatomic) CKDPShareIdentifier *shareId; // @synthesize shareId=_shareId;
 
 @end
 

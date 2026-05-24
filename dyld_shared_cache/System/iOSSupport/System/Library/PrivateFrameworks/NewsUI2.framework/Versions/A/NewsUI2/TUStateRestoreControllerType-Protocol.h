@@ -5,10 +5,10 @@
 //
 
 @protocol TUStateRestoreControllerType
+- (_Bool);
 - (void);
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool isStateRestorationAllowed;
-@property(nonatomic, readonly) _Bool isStateRestorationFeatureEnabled;
 @end
 

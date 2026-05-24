@@ -11,8 +11,6 @@ __attribute__((visibility("hidden")))
 @interface ClearBrowsingDataController
 {
     NSObject<OS_dispatch_queue> *_internalQueue;
-    NSArray *_availableClearingIntervals;
-    unsigned long long _tombstoneGenerationMethod;
 }
 
 + (id);
@@ -28,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)A;
 - (void);
 - (void);
 - (void);
@@ -36,7 +34,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) NSArray *availableClearingIntervals; // @synthesize availableClearingIntervals=_availableClearingIntervals;
-@property(readonly) unsigned long long tombstoneGenerationMethod; // @synthesize tombstoneGenerationMethod=_tombstoneGenerationMethod;
 
 @end
 

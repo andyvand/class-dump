@@ -6,34 +6,24 @@
 
 #import <VoiceShortcutClient/WFDatabaseObjectDescriptor.h>
 
-@class NSString;
-
 @interface VCConfiguredSleepWorkflow : WFDatabaseObjectDescriptor
 {
     _Bool _isAppLaunchWorkflow;
-    unsigned short _glyphCharacter;
-    NSString *_name;
-    NSString *_bundleIdentifierForDisplay;
-    NSString *_summaryString;
-    NSString *_actionIdentifier;
-    struct CGImage *_iconImage;
-    double _iconScale;
-    long long _backgroundColorValue;
 }
 
 + (struct CGSize);
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)<;
 - (id);
 - (unsigned short);
+- (id)ettingsPresetsResponse"@"NSError">;
 - (id);
-- (id);
-- (long long);
+- (long long)P;
 - (_Bool);
 - (struct CGImage *);
-- (void);
+- (void)sendStatusData:(id)arg1 toManagementSourceWithIdentifier:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -42,22 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *actionIdentifier; // @synthesize actionIdentifier=_actionIdentifier;
 @property(readonly, nonatomic) long long backgroundColorValue; // @synthesize backgroundColorValue=_backgroundColorValue;
-@property(readonly, copy, nonatomic) NSString *bundleIdentifierForDisplay; // @synthesize bundleIdentifierForDisplay=_bundleIdentifierForDisplay;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned short glyphCharacter; // @synthesize glyphCharacter=_glyphCharacter;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct CGImage *iconImage; // @synthesize iconImage=_iconImage;
-@property(readonly, nonatomic) double iconScale; // @synthesize iconScale=_iconScale;
-@property(readonly, nonatomic) _Bool isAppLaunchWorkflow; // @synthesize isAppLaunchWorkflow=_isAppLaunchWorkflow;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy, nonatomic) NSString *summaryString; // @synthesize summaryString=_summaryString;
-@property(readonly) Class superclass;
 
 @end
 

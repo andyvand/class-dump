@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface ILMediaObjectsArrayController
 {
     unsigned long long _currentMediaType;
-    NSMutableArray *_searchAttributeKeys;
-    NSString *_searchString;
-    id _filterDelegate;
 }
 
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (id)5;
 - (void);
 - (id);
 

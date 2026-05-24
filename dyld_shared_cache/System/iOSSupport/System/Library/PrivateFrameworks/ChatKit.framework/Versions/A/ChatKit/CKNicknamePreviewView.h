@@ -4,37 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKCNSharingProfileAvatarItemProvider, CKTextBalloonView, CNContact, CNSharingProfileAvatarItemProviderConfiguration, NSArray, UILabel;
+@class UILabel;
 
 @interface CKNicknamePreviewView
 {
     _Bool _shouldStopAnimation;
-    UILabel *_senderLabel;
-    NSArray *_avatarViews;
-    CKTextBalloonView *_balloonView;
-    NSArray *_senderStrings;
-    CKCNSharingProfileAvatarItemProvider *_avatarItemProvider;
-    CNContact *_contact;
 }
 
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)outlineStateData;
+- (_Bool)effectiveLayoutCornerRadius;
+- (void)attributedMarkdownStringFromPlainMarkdown:(_Bool)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)archiveLinkmetadata:(id)arg1;
+- (void)archiveEvernoteNotesFromFileURL:(_Bool)arg1 completionBlock:(CDUnknownBlockType)arg2;
+- (void)N,V_widthConstraint;
+- (id),V_configuration;
+- (id)closeUndoGroups;
+- (id)tyElement",&,N,V_accessibilityLearnMoreProxyElement;
+- (void)otes;
 - (id);
+- (id)o/9yՋ;
+- (id)r;
+- (id)%lu hasDefault %d hasDark %d;
+- (id)ot create ink color from serialized color string:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)account’s locked notes can provide additional security, but if you forget this password, there is no way to recover access to these locked notes.;
+- (void)password for locked notes can provide additional security, but if you forget this password, there is no way to recover access to these locked notes.;
 - (void);
 - (void);
 - (void);
@@ -42,21 +36,14 @@
 - (void);
 - (struct CGSize);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void)ViewController"16;
-- (void)emoveFromRunLoop:forMode: /* Error: Ran out of types for this method. */;
+- (void)removeFromRunLoop:forMode: /* Error: Ran out of types for this method. */;
 - (void)!;
 
 // Remaining properties
-@property(retain, nonatomic) CKCNSharingProfileAvatarItemProvider *avatarItemProvider; // @synthesize avatarItemProvider=_avatarItemProvider;
-@property(readonly, nonatomic) CNSharingProfileAvatarItemProviderConfiguration *avatarItemProviderConfiguration;
-@property(retain, nonatomic) NSArray *avatarViews; // @synthesize avatarViews=_avatarViews;
-@property(retain, nonatomic) CKTextBalloonView *balloonView; // @synthesize balloonView=_balloonView;
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
 @property(retain, nonatomic) UILabel *senderLabel; // @synthesize senderLabel=_senderLabel;
-@property(retain, nonatomic) NSArray *senderStrings; // @synthesize senderStrings=_senderStrings;
-@property(nonatomic) _Bool shouldStopAnimation; // @synthesize shouldStopAnimation=_shouldStopAnimation;
 
 @end
 

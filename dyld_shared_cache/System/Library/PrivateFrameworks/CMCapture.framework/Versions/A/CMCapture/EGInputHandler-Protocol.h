@@ -5,5 +5,6 @@
 //
 
 @protocol EGInputHandler
+- (void);
 @end
 

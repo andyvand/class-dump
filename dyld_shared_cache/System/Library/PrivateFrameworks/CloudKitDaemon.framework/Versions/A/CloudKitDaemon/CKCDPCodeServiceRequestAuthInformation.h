@@ -15,18 +15,17 @@
 - (_Bool);
 - (id);
 - (id);
+- (void)catalogDownloadStartedOn;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)nCreate(CFAllocatorRef, FigEndpointAudioSourceRef, const AudioStreamBasicDescription *, FigEndpointAudioSourceRef *);
 - (_Bool);
-- (_Bool);
+- (_Bool)updateCutoffForMailboxesWithMessages:(id)arg1;
 - (void);
 - (id);
 - (id);
 - (void)ccess token protection data on record %@;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *accountServiceSignedToken; // @synthesize accountServiceSignedToken=_accountServiceSignedToken;
 @property(readonly, nonatomic) _Bool hasAccountServiceSignedToken;
 
 @end

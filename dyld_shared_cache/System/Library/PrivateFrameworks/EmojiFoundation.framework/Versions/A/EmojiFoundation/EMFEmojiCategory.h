@@ -11,56 +11,56 @@
     NSString *_identifier;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (void);
-+ (id);
-+ (id);
-+ (id);
++ (id)ariWebBookmark"16;
++ (id)g the user if they want to allow a website to initiate a print;
++ (id)itiate a print;
++ (id)site to automatically start composiing an email;
++ (void)in-tab prompt asking the user if they want to allow a website to automatically start composiing an email;
++ (id)lculated from the website address with Apple. The actual web address is not shared with Apple until you request Highlights for the page.;
++ (id)ites.;
++ (id)irmation in Privacy preferences;
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
++ (_Bool)T;
++ (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (id)44;
++ (id)D4;
++ (id),4;
++ (id);
++ (id)p;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
++ (id)LP;
++ (id)|T;
 + (id);
++ (_Bool)<;
 + (id);
++ (id)hT;
 + (id);
++ (id)4;
++ (id);
++ (id);
++ (id)X;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 + (id);
-- (id);
-- (id);
+- (id)bpage With Metadata;
+- (id)external app.;
 - (void);
 - (id);
 - (id);
@@ -69,8 +69,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSString *localizedName;
-@property(readonly, nonatomic) NSString *shortLocalizedName;
 
 @end
 

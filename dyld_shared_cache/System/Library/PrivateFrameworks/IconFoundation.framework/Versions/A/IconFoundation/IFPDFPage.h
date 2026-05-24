@@ -9,9 +9,9 @@
     struct CGPDFPage *_pdfPage;
 }
 
-- (void);
+- (void)FyEFy;
 - (id);
-- (struct CGPDFPage *);
+- (struct CGPDFPage *)6H7;
 - (void);
 - (id);
 

@@ -4,22 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSValue;
-
 @interface _CNUILikenessFingerprintNonpersistedContactImpl
 {
     long long _contactType;
-    NSString *_givenName;
-    NSString *_middleName;
-    NSString *_familyName;
-    NSArray *_emailAddresses;
-    NSArray *_phoneNumbers;
-    NSValue *_imageDataPointer;
-    NSValue *_thumbnailImageDataPointer;
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (long long);
@@ -38,20 +29,6 @@
 
 // Remaining properties
 @property(readonly) long long contactType; // @synthesize contactType=_contactType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSArray *emailAddresses; // @synthesize emailAddresses=_emailAddresses;
-@property(readonly, copy) NSString *familyName; // @synthesize familyName=_familyName;
-@property(readonly, copy) NSString *givenName; // @synthesize givenName=_givenName;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSValue *imageDataPointer; // @synthesize imageDataPointer=_imageDataPointer;
-@property(readonly, copy) NSString *middleName; // @synthesize middleName=_middleName;
-@property(readonly, copy) NSArray *phoneNumbers; // @synthesize phoneNumbers=_phoneNumbers;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSValue *thumbnailImageDataPointer; // @synthesize thumbnailImageDataPointer=_thumbnailImageDataPointer;
 
 @end
 

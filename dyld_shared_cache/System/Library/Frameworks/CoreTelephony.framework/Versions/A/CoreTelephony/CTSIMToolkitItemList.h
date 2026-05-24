@@ -11,12 +11,12 @@
     NSArray *_itemList;
 }
 
-+ (_Bool);
++ (_Bool)cannot be called when using an AVAssetReaderOutput.Provider;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)initWithIdentifier:(id)arg1 credential:externalData: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)a&ð!Gùqª)Ð1Â0@ù
 × ;

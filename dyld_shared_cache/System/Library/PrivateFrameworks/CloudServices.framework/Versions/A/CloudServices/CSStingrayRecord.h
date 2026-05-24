@@ -4,27 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSStingrayRecordClientMetadata, NSData, NSString;
+@class NSData;
 
 @interface CSStingrayRecord
 {
     NSData *_backupKeybagDBRSHA256;
-    NSData *_backupKeybagDigest;
-    NSData *_backupKeybagFallbackSHA256;
-    NSData *_backupKeybagLRCSHA256;
-    NSData *_backupKeybagSHA256;
-    CSStingrayRecordClientMetadata *_clientMetadata;
-    NSData *_metadataHash;
-    NSString *_timestamp;
-    _Bool _containsiCloudIdentity;
-    _Bool _triggerUpdate;
-    struct {
-        unsigned int containsiCloudIdentity:1;
-        unsigned int triggerUpdate:1;
-    } _has;
 }
 
-+ (id);
++ (id)(;
 - (void);
 - (void);
 - (void);
@@ -39,7 +26,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)(;
 - (_Bool);
 - (id);
 - (id);
@@ -54,14 +41,14 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)get mailto url because cannot send mail. event external URL = %{public}@;
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)DOWNTIME_PICKER_CONTACT_CARD_WARNING_NO_USERNAME;
+- (_Bool)yu;
+- (void)5˿;
 - (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -70,26 +57,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *backupKeybagDBRSHA256; // @synthesize backupKeybagDBRSHA256=_backupKeybagDBRSHA256;
-@property(retain, nonatomic) NSData *backupKeybagDigest; // @synthesize backupKeybagDigest=_backupKeybagDigest;
-@property(retain, nonatomic) NSData *backupKeybagFallbackSHA256; // @synthesize backupKeybagFallbackSHA256=_backupKeybagFallbackSHA256;
-@property(retain, nonatomic) NSData *backupKeybagLRCSHA256; // @synthesize backupKeybagLRCSHA256=_backupKeybagLRCSHA256;
-@property(retain, nonatomic) NSData *backupKeybagSHA256; // @synthesize backupKeybagSHA256=_backupKeybagSHA256;
-@property(retain, nonatomic) CSStingrayRecordClientMetadata *clientMetadata; // @synthesize clientMetadata=_clientMetadata;
-@property(nonatomic) _Bool containsiCloudIdentity; // @synthesize containsiCloudIdentity=_containsiCloudIdentity;
-@property(readonly, nonatomic) _Bool hasBackupKeybagDBRSHA256;
-@property(readonly, nonatomic) _Bool hasBackupKeybagDigest;
-@property(readonly, nonatomic) _Bool hasBackupKeybagFallbackSHA256;
-@property(readonly, nonatomic) _Bool hasBackupKeybagLRCSHA256;
-@property(readonly, nonatomic) _Bool hasBackupKeybagSHA256;
 @property(readonly, nonatomic) _Bool hasClientMetadata;
-@property(nonatomic) _Bool hasContainsiCloudIdentity;
-@property(readonly, nonatomic) _Bool hasMetadataHash;
-@property(readonly, nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasTriggerUpdate;
-@property(retain, nonatomic) NSData *metadataHash; // @synthesize metadataHash=_metadataHash;
-@property(retain, nonatomic) NSString *timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) _Bool triggerUpdate; // @synthesize triggerUpdate=_triggerUpdate;
 
 @end
 

@@ -9,14 +9,12 @@
 @interface EMActivityRegistry
 {
     NSMapTable *_observerWrappersByObserver;
-    struct os_unfair_lock_s _lock;
-    EMRemoteConnection *_connection;
 }
 
-+ (id);
++ (id);
 + (id);
 - (id);
-- (id);
+- (id)|;
 - (void);
 - (id);
 - (void);

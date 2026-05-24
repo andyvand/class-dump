@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _SFKeySpecifier;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface SFIdentityAttributes_Ivars
 {
     NSString *localizedLabel;
-    NSString *localizedDescription;
-    _SFKeySpecifier *keySpecifier;
-    NSString *identityName;
-    NSString *privateKeyDomain;
-    _Bool hasCertificate;
 }
 
 - (void);

@@ -9,31 +9,27 @@
 @interface WiFiAnalyticsAWDWiFiNWActivityMpduLost
 {
     WiFiAnalyticsAWDWiFiNWActivityMpduWME *_bALost;
-    WiFiAnalyticsAWDWiFiNWActivityMpduWME *_nonBALost;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)i.8n	;
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)in CalDAV-Sync mode;
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)@;
 - (_Bool);
 - (void);
-- (id);
+- (id)tionEndpoint.m;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) WiFiAnalyticsAWDWiFiNWActivityMpduWME *bALost; // @synthesize bALost=_bALost;
 @property(readonly, nonatomic) _Bool hasBALost;
-@property(readonly, nonatomic) _Bool hasNonBALost;
-@property(retain, nonatomic) WiFiAnalyticsAWDWiFiNWActivityMpduWME *nonBALost; // @synthesize nonBALost=_nonBALost;
 
 @end
 

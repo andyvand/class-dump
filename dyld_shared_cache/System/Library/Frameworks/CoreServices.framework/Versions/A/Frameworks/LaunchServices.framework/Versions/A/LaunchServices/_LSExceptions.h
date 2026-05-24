@@ -9,9 +9,6 @@
 @interface _LSExceptions
 {
     NSDictionary *_additions;
-    NSDictionary *_overrides;
-    NSDictionary *_mergeDocumentTypes;
-    NSDictionary *_capabilityOverrides;
 }
 
 + (void);
@@ -19,7 +16,7 @@
 + (id);
 + (void)t is untrusted;
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (unsigned int);
 - (unsigned int);

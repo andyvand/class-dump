@@ -7,8 +7,6 @@
 @interface FamilyCircleUI.FamilyMemberViewModel
 {
     id member;
-    id image;
-    id addNavAppearance;
 }
 
 @end

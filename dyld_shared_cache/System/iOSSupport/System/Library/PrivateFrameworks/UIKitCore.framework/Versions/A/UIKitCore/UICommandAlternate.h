@@ -9,23 +9,20 @@
 @interface UICommandAlternate
 {
     NSString *_title;
-    SEL _action;
-    long long _modifierFlags;
-    id _sender;
 }
 
 + (id);
 + (_Bool)ViewDiffableDataSource. Table view:%@ /* Error: Ran out of types for this method. */;
+- (id)DeleteRecovery;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)$;
 - (long long);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool)tionMethod:(id)arg1 inputType: /* Error: Ran out of types for this method. */;
-- (void):(id)arg1 withDefaultProposal: /* Error: Ran out of types for this method. */;
+- (_Bool)emojiSearchWillInsertEmoji:(id)arg1 forSearchQuery:selectionMethod:inputType: /* Error: Ran out of types for this method. */;
+- (void)_updatedDropProposalForIndexPath:(id)arg1 dropSession:withDefaultProposal: /* Error: Ran out of types for this method. */;
 - (id) ;
 - (id)Uü23Ø¡þUü23Ô¡þUü23Ð¡þ;
 - (SEL);
@@ -33,19 +30,7 @@
 - (void)È;
 
 // Remaining properties
-@property(readonly, nonatomic) SEL action; // @synthesize action=_action;
-@property(readonly, nonatomic) UICommandAlternate *commandAlternate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) _UIMenuLeafAlternate *leafAlternate;
-@property(readonly, nonatomic) long long modifierFlags; // @synthesize modifierFlags=_modifierFlags;
-@property(readonly, nonatomic) id sender; // @synthesize sender=_sender;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

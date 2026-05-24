@@ -7,9 +7,6 @@
 @interface NewsUI2.SportsFavoritesSyncInteractor
 {
     id delegate;
-    id dataManager;
-    id sportsSyncManager;
-    id appConfigManager;
 }
 
 @end

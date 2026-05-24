@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObservation, NSURL;
-
 @interface FPProgressProxy
 {
     id _subscriber;
-    NSURL *_fileURL;
-    _Bool _shouldStopAccessingURL;
-    NSObservation *_totalUnitCountObservation;
-    NSObservation *_fractionCompletedObservation;
-    _Bool _didSetupParentProgress;
-    _Bool _isInSetup;
-    _Bool _updateFileCount;
 }
 
 - (void);
@@ -28,7 +19,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)cceeded!;
 - (void);
 
 // Remaining properties

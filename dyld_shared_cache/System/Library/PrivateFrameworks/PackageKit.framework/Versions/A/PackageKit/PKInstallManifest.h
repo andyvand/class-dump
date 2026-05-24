@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, PKInstallAnalyzer, PKInstallRequest;
+@class PKInstallRequest;
 
 @interface PKInstallManifest
 {
     PKInstallRequest *_installRequest;
-    PKInstallAnalyzer *_installAnalyzer;
-    NSArray *_actualInstallPathsForSystemContent;
-    NSSet *_actualInstallPathsTargetingReadOnlySystemLocations;
 }
 
 - (id);
@@ -20,13 +17,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (int);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)TUCollaborationManagerDelegate;
 
 @end
 

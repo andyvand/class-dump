@@ -16,8 +16,8 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)imageIsRightAligned;
++ (id)";
 + (id);
 - (_Bool);
 - (id);

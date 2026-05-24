@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WBSCyclerItemListRepresentation, WBSCyclerProfileRepresentation;
 @protocol WBSCyclerTestTarget;
 
 @interface WBSCyclerOperationContext
 {
     id <WBSCyclerTestTarget> _testTarget;
-    WBSCyclerItemListRepresentation *_topLevelItem;
-    WBSCyclerProfileRepresentation *_tabGroupsParent;
-    NSString *_titlePrefix;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)';
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -39,10 +35,7 @@
 - (void)´;
 
 // Remaining properties
-@property(retain, nonatomic) WBSCyclerProfileRepresentation *tabGroupsParent; // @synthesize tabGroupsParent=_tabGroupsParent;
 @property(retain, nonatomic) id <WBSCyclerTestTarget> testTarget; // @synthesize testTarget=_testTarget;
-@property(copy, nonatomic) NSString *titlePrefix; // @synthesize titlePrefix=_titlePrefix;
-@property(retain, nonatomic) WBSCyclerItemListRepresentation *topLevelItem; // @synthesize topLevelItem=_topLevelItem;
 
 @end
 

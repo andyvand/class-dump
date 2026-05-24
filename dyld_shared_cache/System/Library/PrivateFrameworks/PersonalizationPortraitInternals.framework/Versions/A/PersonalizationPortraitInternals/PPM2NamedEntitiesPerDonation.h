@@ -9,10 +9,6 @@
 @interface PPM2NamedEntitiesPerDonation
 {
     NSString *_activeTreatments;
-    int _algorithm;
-    int _donationSource;
-    NSString *_groupId;
-    CDStruct_e3b84e97 _has;
 }
 
 - (void);
@@ -36,8 +32,8 @@
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)_completionHandler;
+- (void), looking for next best operational account.;
 - (int);
 - (id);
 - (id);
@@ -45,14 +41,7 @@
 - (void)ntactStore:(int)arg1 no named entities retrieved, returning no contacts.;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *activeTreatments; // @synthesize activeTreatments=_activeTreatments;
-@property(nonatomic) int algorithm; // @synthesize algorithm=_algorithm;
-@property(nonatomic) int donationSource; // @synthesize donationSource=_donationSource;
-@property(retain, nonatomic) NSString *groupId; // @synthesize groupId=_groupId;
-@property(readonly, nonatomic) _Bool hasActiveTreatments;
-@property(nonatomic) _Bool hasAlgorithm;
 @property(nonatomic) _Bool hasDonationSource;
-@property(readonly, nonatomic) _Bool hasGroupId;
 
 @end
 

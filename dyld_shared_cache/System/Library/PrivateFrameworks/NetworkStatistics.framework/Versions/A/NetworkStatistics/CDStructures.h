@@ -30,15 +30,6 @@ struct activity_bitmap {
     unsigned long long bitmap[2];
 };
 
-struct combined_counts {
-    unsigned long long numRemoves;
-    unsigned long long numRemovesAfterDrop;
-    unsigned long long numRemovesAfterFilter;
-    unsigned long long numRemoveSources;
-    unsigned long long numRemoveSourcesAfterDrop;
-    unsigned long long numRemoveSourcesAfterFilter;
-};
-
 struct details_subset_for_deltas {
     unsigned long long savedRxPackets;
     unsigned long long savedRxBytes;
@@ -414,14 +405,6 @@ struct nstat_udp_descriptor {
     unsigned int ifnet_properties;
     unsigned char fallback_mode;
     unsigned char reserved[3];
-};
-
-struct provider_counts {
-    unsigned long long numSrcsAdded;
-    unsigned long long numDetailsOnOpen;
-    unsigned long long numDetailsOnPoll;
-    unsigned long long numDetailsOnEvent;
-    unsigned long long numDetailsOnClose;
 };
 
 struct sockaddr {

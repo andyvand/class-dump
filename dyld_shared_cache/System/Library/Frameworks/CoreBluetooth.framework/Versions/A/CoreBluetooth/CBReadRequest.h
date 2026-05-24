@@ -4,42 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSError, NSMutableData;
+@class NSMutableData;
 
 @interface CBReadRequest
 {
     char *_bufferPtr;
-    NSError *_error;
-    unsigned long long _length;
-    CDUnknownBlockType _completion;
-    NSData *_data;
-    unsigned long long _minLength;
-    unsigned long long _maxLength;
-    NSMutableData *_bufferData;
 }
 
 - (void);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)em.B.dylib;
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void)l);
 - (unsigned long long)nearbyActionFlags;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableData *bufferData; // @synthesize bufferData=_bufferData;
-@property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) unsigned long long length; // @synthesize length=_length;
-@property(nonatomic) unsigned long long maxLength; // @synthesize maxLength=_maxLength;
-@property(nonatomic) unsigned long long minLength; // @synthesize minLength=_minLength;
 
 @end
 

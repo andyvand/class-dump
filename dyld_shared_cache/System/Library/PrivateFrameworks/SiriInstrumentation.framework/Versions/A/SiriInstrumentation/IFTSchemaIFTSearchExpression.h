@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface IFTSchemaIFTSearchExpression : SISchemaInstrumentationMessage
 {
     _Bool _pickOne;
-    struct {
-        unsigned int pickOne:1;
-    } _has;
 }
 
 - (void);
@@ -24,17 +19,15 @@
 - (id);
 - (void);
 - (unsigned long long);
+- (_Bool)u;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id);
 - (id)0@ù
 × ;
 - (id)proactiveFeatures;
-- (id)onalizationExperimentStarted;
+- (id)DODMLASRSchemaDODMLASRPersonalizationExperimentStarted;
 
 // Remaining properties
-@property(nonatomic) _Bool hasPickOne;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) _Bool pickOne; // @synthesize pickOne=_pickOne;
 
 @end

@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSString, SAConnectionPolicy;
+@class NSString;
 
 @interface SASetConnectionHeader : SABaseClientBoundCommand
 {
@@ -22,12 +22,10 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)0x0 && "Shouldn't be a watch/scan entry with no flag set";
 
 // Remaining properties
 @property(copy, nonatomic) NSString *aceHostHeader;
-@property(retain, nonatomic) SAConnectionPolicy *connectionPolicy;
-@property(nonatomic) _Bool reconnectNow;
 
 @end
 

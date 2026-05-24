@@ -4,36 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface INConnectedCall
 {
     long long _audioRoute;
 }
 
-+ (id);
++ (id);
 + (_Bool);
-- (id);
-- (id);
+- (id)k;
+- (id)GCControllerMetaDefaultsObserver;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)__classDStorageSpecificPropertiesSet;
+- (void)abb0d9;
 - (long long);
 - (id);
 - (id);
-- (id)nsForClassName:(unsigned long long)arg1;
+- (id)_parameterCombinationsForClassName:(unsigned long long)arg1;
 - (id)Ë1;
 
 // Remaining properties
 @property(readonly) long long audioRoute; // @synthesize audioRoute=_audioRoute;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

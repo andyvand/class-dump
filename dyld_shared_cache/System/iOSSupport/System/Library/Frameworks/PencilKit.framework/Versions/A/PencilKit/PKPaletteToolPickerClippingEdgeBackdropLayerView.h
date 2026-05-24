@@ -9,7 +9,6 @@
 @interface PKPaletteToolPickerClippingEdgeBackdropLayerView
 {
     _Bool _isTopBackdropLayer;
-    CABackdropLayer *_backdropLayer;
 }
 
 + (Class);
@@ -18,11 +17,10 @@
 - (void);
 - (void);
 - (id);
-- (void)KImageWandTipControllerDelegate;
+- (void)PKImageWandTipControllerDelegate;
 
 // Remaining properties
 @property(readonly, nonatomic) CABackdropLayer *backdropLayer; // @synthesize backdropLayer=_backdropLayer;
-@property(readonly, nonatomic) _Bool isTopBackdropLayer; // @synthesize isTopBackdropLayer=_isTopBackdropLayer;
 
 @end
 

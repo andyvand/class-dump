@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactListActionConfiguration, NSArray;
-@protocol CNContactListActionDelegate;
+@class CNContactListActionConfiguration;
 
 __attribute__((visibility("hidden")))
 @interface CNContactListAction
 {
     CNContactListActionConfiguration *_configuration;
-    NSArray *_contacts;
-    id <CNContactListActionDelegate> _delegate;
 }
 
 - (_Bool);
@@ -25,13 +22,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)h;
 - (void)n;
 
 // Remaining properties
 @property(retain, nonatomic) CNContactListActionConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(retain, nonatomic) NSArray *contacts; // @synthesize contacts=_contacts;
-@property(nonatomic) __weak id <CNContactListActionDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end
 

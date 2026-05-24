@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPAVRoute, MPAVRoutingController, MPAVRoutingControllerSelection, MSVTimer, NSMapTable, NSMutableArray, NSMutableSet, NSObject, NSSet;
+@class MPAVRoutingController, NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface MPAVRoutingControllerSelectionQueue
 {
     NSObject<OS_dispatch_queue> *_serialQueue;
-    NSMutableArray *_selectionsEnqueued;
-    MPAVRoutingControllerSelection *_selectionInProgress;
-    NSMutableSet *_pendingRoutes;
-    MSVTimer *_selectionInProgressTimer;
-    NSMapTable *_pendingSelectionTimers;
-    _Bool _hasPendingPickedRoutes;
-    MPAVRoutingController *_routingController;
 }
 
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -31,19 +24,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
+- (void)@;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)twork__MAPPING_MISSING__;
+- (void)__MPModelPropertyMovieArtwork__MAPPING_MISSING__;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasPendingPickedRoutes; // @synthesize hasPendingPickedRoutes=_hasPendingPickedRoutes;
-@property(readonly, nonatomic) MPAVRoute *pendingPickedRoute;
-@property(readonly, nonatomic) NSSet *pendingPickedRoutes;
 @property(readonly, nonatomic) __weak MPAVRoutingController *routingController; // @synthesize routingController=_routingController;
 
 @end

@@ -6,22 +6,9 @@
 
 #import <CacheDelete/CacheDeleteListener.h>
 
-@class CacheDeleteServiceInfo, NSObject, NSXPCListenerEndpoint;
-@protocol OS_dispatch_queue;
-
 @interface CacheDeleteServiceListener : CacheDeleteListener
 {
     _Bool _legacyCallbacks;
-    _Bool _anonymous;
-    CacheDeleteServiceInfo *_serviceInfo;
-    NSXPCListenerEndpoint *_endpoint;
-    CDUnknownBlockType _purgeable;
-    CDUnknownBlockType _purge;
-    CDUnknownBlockType _periodic;
-    CDUnknownBlockType _cancel;
-    CDUnknownBlockType _notify;
-    CDUnknownBlockType _callback;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (id);
@@ -29,9 +16,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (CDUnknownBlockType);
-- (void);
+- (void)6;
 - (void);
 - (void);
 - (id);
@@ -40,10 +27,10 @@
 - (void);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (void);
-- (_Bool);
-- (id);
-- (CDUnknownBlockType);
+- (void)( ;
+- (_Bool);
+- (id)A;
+- (CDUnknownBlockType)l;
 - (CDUnknownBlockType);
 - (void);
 - (void);
@@ -53,20 +40,10 @@
 - (void);
 - (void);
 - (_Bool)to zero;
-- (CDUnknownBlockType)_TIMEOUT;
+- (CDUnknownBlockType)CACHE_DELETE_PURGE_TIMEOUT;
 
 // Remaining properties
-@property(readonly) _Bool anonymous; // @synthesize anonymous=_anonymous;
-@property(copy, nonatomic) CDUnknownBlockType callback; // @synthesize callback=_callback;
-@property(copy, nonatomic) CDUnknownBlockType cancel; // @synthesize cancel=_cancel;
-@property(readonly) NSXPCListenerEndpoint *endpoint; // @synthesize endpoint=_endpoint;
-@property(readonly) _Bool legacyCallbacks; // @synthesize legacyCallbacks=_legacyCallbacks;
-@property(copy, nonatomic) CDUnknownBlockType notify; // @synthesize notify=_notify;
-@property(copy, nonatomic) CDUnknownBlockType periodic; // @synthesize periodic=_periodic;
-@property(copy, nonatomic) CDUnknownBlockType purge; // @synthesize purge=_purge;
 @property(copy, nonatomic) CDUnknownBlockType purgeable; // @synthesize purgeable=_purgeable;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) CacheDeleteServiceInfo *serviceInfo; // @synthesize serviceInfo=_serviceInfo;
 
 @end
 

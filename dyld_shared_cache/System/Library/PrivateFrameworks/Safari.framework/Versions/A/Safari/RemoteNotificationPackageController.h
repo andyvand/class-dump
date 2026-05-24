@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSObject;
-@protocol OS_os_transaction;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface RemoteNotificationPackageController
 {
     NSMutableDictionary *_permissions;
-    NSMutableArray *_pendingPersistentNotificationEvents;
-    NSObject<OS_os_transaction> *_transactionForPendingPersistentNotificationEvents;
 }
 
-+ (id);
++ (id)requestEndpointForProxyingConnectionsWithReply: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);

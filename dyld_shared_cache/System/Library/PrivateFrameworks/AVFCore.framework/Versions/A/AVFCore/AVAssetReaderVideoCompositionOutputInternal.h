@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCustomVideoCompositorSession, AVVideoComposition, AVVideoOutputSettings, NSArray;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface AVAssetReaderVideoCompositionOutputInternal
 {
     NSArray *videoTracks;
-    NSArray *sampleDataTrackIDs;
-    AVVideoOutputSettings *videoOutputSettings;
-    AVVideoComposition *videoComposition;
-    void *figVideoCompositor;
-    AVCustomVideoCompositorSession *customVideoCompositorSession;
 }
 
 @end

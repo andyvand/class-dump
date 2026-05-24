@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSString, WPDeviceScanner, WPZoneTracker;
-@protocol CRKWiProxTrackerScannerDelegate;
+@class WPZoneTracker;
 
 @interface CRKWiProxTrackerScanner
 {
     _Bool _inRescanOffInterval;
-    WPZoneTracker *_zoneTracker;
-    WPDeviceScanner *_deviceScanner;
-    id <CRKWiProxTrackerScannerDelegate> _delegate;
-    NSMutableSet *_deviceScanRegistrations;
-    NSMutableSet *_zoneRegistrations;
-    NSMutableSet *_enteredZones;
-    NSMutableSet *_zonesPendingReentry;
 }
 
 - (id);
@@ -40,6 +32,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -47,11 +40,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)_CoreDuetKnowledgeSyncXPCListener;
 - (void);
 - (id);
-- (void);
+- (void)X;
 - (void);
 - (void);
 - (id);
@@ -59,23 +51,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CRKWiProxTrackerScannerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableSet *deviceScanRegistrations; // @synthesize deviceScanRegistrations=_deviceScanRegistrations;
-@property(retain, nonatomic) WPDeviceScanner *deviceScanner; // @synthesize deviceScanner=_deviceScanner;
-@property(readonly, nonatomic) long long deviceScannerState;
-@property(retain, nonatomic) NSMutableSet *enteredZones; // @synthesize enteredZones=_enteredZones;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isInRescanOffInterval) _Bool inRescanOffInterval; // @synthesize inRescanOffInterval=_inRescanOffInterval;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSMutableSet *zoneRegistrations; // @synthesize zoneRegistrations=_zoneRegistrations;
 @property(retain, nonatomic) WPZoneTracker *zoneTracker; // @synthesize zoneTracker=_zoneTracker;
-@property(readonly, nonatomic) long long zoneTrackerState;
-@property(retain, nonatomic) NSMutableSet *zonesPendingReentry; // @synthesize zonesPendingReentry=_zonesPendingReentry;
 
 @end
 

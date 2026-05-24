@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) __weak NSArray *allUsers;
-@property(readonly, nonatomic) __weak NSArray *allUsersUnfiltered;
 @end
 

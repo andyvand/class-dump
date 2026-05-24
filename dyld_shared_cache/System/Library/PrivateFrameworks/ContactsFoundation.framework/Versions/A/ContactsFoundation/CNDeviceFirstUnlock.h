@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNFuture, CNUnfairLock, NSMutableDictionary, NSOperationQueue;
+@class CNUnfairLock;
 
 @interface CNDeviceFirstUnlock
 {
     CNUnfairLock *_handlersLock;
-    NSMutableDictionary *_unlockHandlers;
-    NSOperationQueue *_workQueue;
-    CNFuture *_firstUnlockFuture;
 }
 
 + (id);
@@ -24,11 +21,11 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void),;
+- (void)@~;
+- (id)`;
 - (void);
 - (void);
 - (long long);
@@ -36,11 +33,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CNFuture *firstUnlockFuture; // @synthesize firstUnlockFuture=_firstUnlockFuture;
 @property(retain, nonatomic) CNUnfairLock *handlersLock; // @synthesize handlersLock=_handlersLock;
-@property(readonly, nonatomic) _Bool isUnlockedSinceBoot;
-@property(retain, nonatomic) NSMutableDictionary *unlockHandlers; // @synthesize unlockHandlers=_unlockHandlers;
-@property(retain, nonatomic) NSOperationQueue *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

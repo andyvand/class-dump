@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface UINSDocumentBrowserAction
 {
     _Bool _supportsMultipleItems;
-    NSArray *_supportedContentTypes;
-    NSString *_identifier;
-    NSString *_localizedTitle;
-    long long _availability;
-    CDUnknownBlockType _handler;
 }
 
 - (id);
@@ -22,7 +17,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (long long);
-- (id);
+- (id)it] ERR:[super init] failed
+ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -30,22 +26,10 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (id);
 - (void);
-- (id)estureRecognizer: /* Error: Ran out of types for this method. */;
+- (id)gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) long long availability; // @synthesize availability=_availability;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *supportedContentTypes; // @synthesize supportedContentTypes=_supportedContentTypes;
-@property(nonatomic) _Bool supportsMultipleItems; // @synthesize supportsMultipleItems=_supportsMultipleItems;
 
 @end
 

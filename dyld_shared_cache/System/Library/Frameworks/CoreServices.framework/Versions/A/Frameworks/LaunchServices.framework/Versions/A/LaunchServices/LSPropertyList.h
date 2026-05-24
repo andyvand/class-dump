@@ -9,7 +9,7 @@
 }
 
 + (id);
-+ (id);
++ (id)qA;
 + (id);
 + (id)egistering extension %@ but haven't yet registered extension point %@;
 

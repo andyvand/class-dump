@@ -11,26 +11,22 @@
 @interface _CRMatchTextPredicate : CRSearchPredicate
 {
     NSString *_key;
-    NSString *_text;
-    unsigned long long _comparison;
 }
 
-+ (_Bool);
++ (_Bool)lizeBlock;
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)d key is NULL or it does not have type CFStringGetTypeID;
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (unsigned long long);
-- (id);
+- (unsigned long long)__oslogstring;
+- (id)y year on the %@ %@;
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned long long comparison; // @synthesize comparison=_comparison;
 @property(readonly, copy) NSString *key; // @synthesize key=_key;
-@property(readonly, copy) NSString *text; // @synthesize text=_text;
 
 @end
 

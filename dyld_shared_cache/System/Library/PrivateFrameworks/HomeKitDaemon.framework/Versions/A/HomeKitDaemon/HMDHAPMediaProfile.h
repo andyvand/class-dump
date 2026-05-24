@@ -6,13 +6,10 @@
 
 #import <HomeKitDaemon/HMDMediaProfile.h>
 
-@class HMDCharacteristic, NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDHAPMediaProfile : HMDMediaProfile
 {
     long long _airPlayEnable;
-    NSString *_clientIdentifier;
 }
 
 + (_Bool)Ø;
@@ -21,9 +18,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void)_serviceCanAttemptConnection:(long long)arg1;
+- (void)rFile;
+- (id)gyController"8;
 - (id);
 - (id);
 - (void);
@@ -53,7 +50,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)@0:8@16o^@24@32@40@?48^@56 /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
 - (void);
@@ -62,9 +59,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property long long airPlayEnable; // @synthesize airPlayEnable=_airPlayEnable;
-@property(readonly) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(readonly) HMDCharacteristic *smartSpeakerCurrentMediaStateCharacteristic;
-@property(readonly) HMDCharacteristic *smartSpeakerVolumeCharacteristic;
 
 @end
 

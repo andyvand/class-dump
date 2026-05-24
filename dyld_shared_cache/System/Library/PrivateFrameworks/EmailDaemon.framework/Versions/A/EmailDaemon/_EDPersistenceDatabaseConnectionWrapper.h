@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDPersistenceDatabaseConnection, EFResource;
+@class EFResource;
 
 @interface _EDPersistenceDatabaseConnectionWrapper
 {
     EFResource *_resource;
-    EDPersistenceDatabaseConnection *_connection;
-    unsigned long long _generation;
-    unsigned long long _type;
 }
 
 - (id);
@@ -25,10 +22,7 @@
 VALUES ( :remote_id, :mailbox,                 0,          '',               '',                '',                 '',             0 ) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) EDPersistenceDatabaseConnection *connection; // @synthesize connection=_connection;
-@property(readonly, nonatomic) unsigned long long generation; // @synthesize generation=_generation;
 @property(retain, nonatomic) EFResource *resource; // @synthesize resource=_resource;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

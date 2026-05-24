@@ -4,30 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, CLLocationManager, NSBundle, NSDate, NSObject, NSString, NSTimer, geo_isolater;
-@protocol MKLocationProviderDelegate, OS_dispatch_queue;
+@class CLLocationManager;
 
 __attribute__((visibility("hidden")))
 @interface MKCoreLocationProvider
 {
     CLLocationManager *_clLocationManager;
-    id <MKLocationProviderDelegate> _delegate;
-    int _authorizationStatus;
-    long long _accuracyAuthorization;
-    NSBundle *_effectiveBundle;
-    NSString *_effectiveBundleIdentifier;
-    double _expectedGpsUpdateInterval;
-    unsigned long long _authFetchStatus;
-    NSDate *_beginWaitingTime;
-    NSTimer *_waitingForAuthCheckinTimer;
-    geo_isolater *_isolation;
-    geo_isolater *_clWaitIsolation;
-    NSObject<OS_dispatch_queue> *_coreLocationQueue;
-    double _desiredAccuracy;
-    double _distanceFilter;
-    _Atomic _Bool _avoidSynchronousLocationAuthQuery;
-    id _avoidSynchronousLocationAuthQueryListener;
-    _Bool _hasExternallyProvidedLocationManager;
 }
 
 - (_Bool);
@@ -39,22 +21,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)r/lib/libsqlite3.dylib;
+- (void)PrivateFrameworks/PowerLog.framework/Versions/A/PowerLog;
+- (void)__const;
+- (void)errorWithDomain:code:userInfo: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (int);
 - (void);
 - (long long);
-- (id);
+- (id)TH;
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)e is no level-1 cluster that contains faceId = %d;
 - (_Bool);
 - (id);
 - (void);
@@ -66,10 +48,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (_Bool);
-- (long long);
+- (void)registerMultilingualUaapApp:(_Bool)arg1 withAssetFiles:completion: /* Error: Ran out of types for this method. */;
+- (void)rDelegate>",W,N,V_delegate;
+- (_Bool)_remoteObjectProxy is nil;
+- (long long)dioFingerprintProvider _stopListening]_block_invoke;
 - (_Bool);
 - (long long);
 - (void);
@@ -79,13 +61,13 @@ __attribute__((visibility("hidden")))
 - (void)!ò&!üEùq *Ð1Â0@ù
 × ;
 - (double)d}48q80q88;
-- (void)e;
-- (void)le;
-- (void)ppearance;
-- (void)oundary:(double)arg1 animated: /* Error: Ran out of types for this method. */;
+- (void)extraStorage;
+- (void)bagSubProfile;
+- (void)_useDarkAppearance;
+- (void)_setCameraBoundary:(double)arg1 animated: /* Error: Ran out of types for this method. */;
 - (void)ationCoordinate2D=dd},N,V_centerCoordinate;
-- (void)nShowControls;
-- (void)nty: /* Error: Ran out of types for this method. */;
+- (void)canShowControls;
+- (void)_setMinimumAccuracyUncertainty: /* Error: Ran out of types for this method. */;
 - (void)ÿ ÿ;
 - (void)le. You can view driving directions without EV information.;
 - (double)è;
@@ -97,31 +79,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) CLLocationManager *_clLocationManager;
-@property(readonly, nonatomic) long long accuracyAuthorization;
-@property(readonly, nonatomic) int authorizationStatus;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MKLocationProviderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double desiredAccuracy;
-@property(nonatomic) double distanceFilter;
-@property(retain, nonatomic) NSBundle *effectiveBundle;
-@property(copy, nonatomic) NSString *effectiveBundleIdentifier;
-@property(readonly, nonatomic) double expectedGpsUpdateInterval; // @synthesize expectedGpsUpdateInterval=_expectedGpsUpdateInterval;
-@property(nonatomic) _Bool fusionInfoEnabled;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isTracePlayer;
-@property(readonly, nonatomic) CLLocation *lastLocation;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"CLLocation",?,R,N
-
-@property(nonatomic) _Bool matchInfoEnabled;
-@property(readonly, nonatomic) _Bool shouldShiftIfNecessary;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double timeScale;
-@property(readonly, nonatomic) _Bool usesCLMapCorrection;
 
 @end
 

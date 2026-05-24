@@ -7,9 +7,6 @@
 @interface TeaUI.ImageCache
 {
     id operationQueue;
-    id underlyingCache;
-    id fetchDeduper;
-    id mainLRU;
 }
 
 - (void);

@@ -13,7 +13,7 @@
     NSArray *_individualActions;
 }
 
-+ (_Bool);
++ (_Bool)A;
 - (id);
 - (id);
 - (id);

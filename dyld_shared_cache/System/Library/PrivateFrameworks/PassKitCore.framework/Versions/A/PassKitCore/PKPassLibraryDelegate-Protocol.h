@@ -5,5 +5,10 @@
 //
 
 @protocol PKPassLibraryDelegate
+
+@optional
+- (void);
+- (void)resultAtIndex:(long long)arg1;
+- (void);
 @end
 

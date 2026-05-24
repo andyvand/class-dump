@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol SWDatastoreFactory, SWDatastoreManager, SWLogger, SWScriptsManager, SWSessionManager;
+@protocol SWDatastoreFactory, SWDatastoreManager;
 
 @interface SWDatastoreSynchronizationManager
 {
     id <SWDatastoreManager> _datastoreManager;
-    id <SWDatastoreManager> _localDatastoreManager;
-    id <SWDatastoreFactory> _settingsFactory;
-    id <SWScriptsManager> _scriptsManager;
-    id <SWSessionManager> _sessionManager;
-    id <SWLogger> _logger;
 }
 
 - (void);
@@ -28,22 +22,10 @@
 - (void);
 - (id);
 - (void);
-- (id)etReadyToExecuteScripts: /* Error: Ran out of types for this method. */;
+- (id)setReadyToExecuteScripts: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak id <SWDatastoreManager> datastoreManager; // @synthesize datastoreManager=_datastoreManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak id <SWDatastoreManager> localDatastoreManager; // @synthesize localDatastoreManager=_localDatastoreManager;
-@property(readonly, nonatomic) id <SWLogger> logger; // @synthesize logger=_logger;
-@property(readonly, nonatomic) id <SWScriptsManager> scriptsManager; // @synthesize scriptsManager=_scriptsManager;
-@property(readonly, nonatomic) id <SWSessionManager> sessionManager; // @synthesize sessionManager=_sessionManager;
 @property(readonly, nonatomic) id <SWDatastoreFactory> settingsFactory; // @synthesize settingsFactory=_settingsFactory;
-@property(readonly) Class superclass;
 
 @end
 

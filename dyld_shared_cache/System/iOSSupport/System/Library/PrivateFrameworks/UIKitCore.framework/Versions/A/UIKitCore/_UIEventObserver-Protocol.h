@@ -9,6 +9,7 @@
 @protocol _UIEventObserver
 
 @optional
+- (void)etails"16@?<@"NSString"@?q>24;
 - (NSArray *);
 @end
 

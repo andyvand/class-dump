@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSMutableDictionary, NSMutableSet, NSURLCredential;
+@class NSLock, NSMutableDictionary;
 
 @interface SUSharedAuthenticationHandler
 {
     NSMutableDictionary *_certValidatedByHost;
-    _Bool _evCheckingDisabledByPref;
-    NSMutableSet *_disabledHosts;
-    NSURLCredential *_stashedURLCredential;
-    NSLock *_stateLock;
 }
 
 + (id);
 - (id);
 - (void);
 - (_Bool);
-- (CDUnknownBlockType);
-- (_Bool);
+- (CDUnknownBlockType);
+- (_Bool)-;
 - (void);
 - (void);
 - (CDUnknownBlockType);
@@ -33,7 +29,6 @@
 - (void);
 
 // Remaining properties
-@property(copy) NSURLCredential *stashedURLCredential; // @synthesize stashedURLCredential=_stashedURLCredential;
 @property(retain, nonatomic) NSLock *stateLock; // @synthesize stateLock=_stateLock;
 
 @end

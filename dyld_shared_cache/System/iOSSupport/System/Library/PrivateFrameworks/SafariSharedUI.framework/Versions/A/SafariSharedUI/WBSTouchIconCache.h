@@ -4,30 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSDictionary, NSMutableArray, NSMutableDictionary, NSMutableSet, NSObject, NSString, NSURL, WBSSiteMetadataImageCache, WBSTouchIconCacheSettingsSQLiteStore;
-@protocol OS_dispatch_queue, WBSSiteMetadataProviderDelegate;
+@class NSObject, NSURL;
+@protocol OS_dispatch_queue;
 
 @interface WBSTouchIconCache
 {
     NSObject<OS_dispatch_queue> *_internalQueue;
-    struct atomic<bool> _didLoadSettings;
-    WBSSiteMetadataImageCache *_imageCache;
-    NSMutableDictionary *_hostsToRequestSets;
-    NSMutableSet *_hostsWithActiveUserLoadedWebPageFetches;
-    struct os_unfair_lock_s _touchIconsDataForHostsAccessLock;
-    NSMutableDictionary *_touchIconsDataForHosts;
-    NSCache *_requestsToResponses;
-    NSMutableDictionary *_requestsToDelayedResponses;
-    NSMutableArray *_pendingSaveTouchIconToDiskBlocks;
-    NSMutableSet *_pendingTouchIconRequestHosts;
-    WBSTouchIconCacheSettingsSQLiteStore *_cacheSettingsStore;
-    _Bool _readOnly;
-    _Bool _allowFetchingOverCellularNetwork;
-    _Bool _canFetchOutsideOfUserLoadedWebpage;
-    id <WBSSiteMetadataProviderDelegate> _providerDelegate;
-    NSURL *_cacheDirectoryURL;
-    long long _protectionType;
-    long long _fileMappingStyle;
 }
 
 + (id);
@@ -41,7 +23,7 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)P;
 - (void);
 - (void);
 - (void);
@@ -70,7 +52,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (double);
 - (id);
@@ -81,8 +63,8 @@
 - (CDUnknownBlockType);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)F;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -97,44 +79,25 @@
 - (void);
 - (id);
 - (void);
+- (void)#;
 - (void);
-- (void);
+- (id);
+- (id)2;
+- (void)^;
 - (id);
 - (id);
+- (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (long long);
-- (void)rLocaleIdentifier:usingLanguageForLocalization: /* Error: Ran out of types for this method. */;
+- (void)safari_displayNameForLocaleIdentifier:usingLanguageForLocalization: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowFetchingOverCellularNetwork; // @synthesize allowFetchingOverCellularNetwork=_allowFetchingOverCellularNetwork;
-@property(readonly, nonatomic) NSURL *cacheDirectoryURL; // @synthesize cacheDirectoryURL=_cacheDirectoryURL;
-@property(readonly, nonatomic) _Bool canFetchOutsideOfUserLoadedWebpage; // @synthesize canFetchOutsideOfUserLoadedWebpage=_canFetchOutsideOfUserLoadedWebpage;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) long long fileMappingStyle; // @synthesize fileMappingStyle=_fileMappingStyle;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSURL *imageDirectoryURL;
-@property(readonly, nonatomic) long long protectionType; // @synthesize protectionType=_protectionType;
-@property __weak id <WBSSiteMetadataProviderDelegate> providerDelegate; // @synthesize providerDelegate=_providerDelegate;
-@property(readonly, nonatomic) _Bool providesFavicons;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic, getter=isReadOnly) _Bool readOnly; // @synthesize readOnly=_readOnly;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSDictionary *uuidStringToHost;
 
 @end
 

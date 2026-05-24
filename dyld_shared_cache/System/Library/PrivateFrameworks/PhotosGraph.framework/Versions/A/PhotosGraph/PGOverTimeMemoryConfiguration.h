@@ -7,15 +7,6 @@
 @interface PGOverTimeMemoryConfiguration
 {
     _Bool _allMomentsMustHaveScenesProcessed;
-    _Bool _allMomentsMustHaveFacesProcessed;
-    unsigned long long _minimumNumberOfMoments;
-    unsigned long long _minimumNumberOfMomentsInterestingWithAlternateJunking;
-    unsigned long long _minimumNumberOfMomentsInterestingForMemories;
-    unsigned long long _minimumNumberOfAssetsInExtendedCuration;
-    unsigned long long _minimumNumberOfRelevantAssets;
-    double _aboveMomentAverageContentScoreThreshold;
-    double _minimumOverallTimeIntervalOfMoments;
-    double _minimumMomentSpreadicityTimeInterval;
 }
 
 - (void);
@@ -40,16 +31,7 @@
 - (double);
 
 // Remaining properties
-@property(nonatomic) double aboveMomentAverageContentScoreThreshold; // @synthesize aboveMomentAverageContentScoreThreshold=_aboveMomentAverageContentScoreThreshold;
-@property(nonatomic) _Bool allMomentsMustHaveFacesProcessed; // @synthesize allMomentsMustHaveFacesProcessed=_allMomentsMustHaveFacesProcessed;
-@property(nonatomic) _Bool allMomentsMustHaveScenesProcessed; // @synthesize allMomentsMustHaveScenesProcessed=_allMomentsMustHaveScenesProcessed;
-@property(nonatomic) double minimumMomentSpreadicityTimeInterval; // @synthesize minimumMomentSpreadicityTimeInterval=_minimumMomentSpreadicityTimeInterval;
-@property(nonatomic) unsigned long long minimumNumberOfAssetsInExtendedCuration; // @synthesize minimumNumberOfAssetsInExtendedCuration=_minimumNumberOfAssetsInExtendedCuration;
 @property(nonatomic) unsigned long long minimumNumberOfMoments; // @synthesize minimumNumberOfMoments=_minimumNumberOfMoments;
-@property(nonatomic) unsigned long long minimumNumberOfMomentsInterestingForMemories; // @synthesize minimumNumberOfMomentsInterestingForMemories=_minimumNumberOfMomentsInterestingForMemories;
-@property(nonatomic) unsigned long long minimumNumberOfMomentsInterestingWithAlternateJunking; // @synthesize minimumNumberOfMomentsInterestingWithAlternateJunking=_minimumNumberOfMomentsInterestingWithAlternateJunking;
-@property(nonatomic) unsigned long long minimumNumberOfRelevantAssets; // @synthesize minimumNumberOfRelevantAssets=_minimumNumberOfRelevantAssets;
-@property(nonatomic) double minimumOverallTimeIntervalOfMoments; // @synthesize minimumOverallTimeIntervalOfMoments=_minimumOverallTimeIntervalOfMoments;
 
 @end
 

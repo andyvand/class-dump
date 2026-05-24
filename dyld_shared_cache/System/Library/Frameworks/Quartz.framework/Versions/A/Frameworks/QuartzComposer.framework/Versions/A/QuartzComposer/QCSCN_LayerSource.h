@@ -15,7 +15,7 @@
 
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)th invalid pid:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void)vice_id=}16@0:(id)arg1 8;
 

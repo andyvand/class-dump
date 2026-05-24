@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAsset, AVAudioMix, AVVideoComposition, NSDictionary, NSError, NSString, PLPhotoEditRenderer, PXVideoStabilizeOperationSpec;
+@class AVAudioMix, PXVideoStabilizeOperationSpec;
 
 @interface _PXVideoStabilizeResult
 {
     AVAudioMix *_outputAudioMix;
-    AVAsset *_outputVideoAsset;
-    AVVideoComposition *_outputVideoComposition;
-    PXVideoStabilizeOperationSpec *_spec;
-    NSError *_error;
-    unsigned long long _analysisType;
-    NSDictionary *_stabilizationRecipe;
-    NSDictionary *_debugInfo;
-    PLPhotoEditRenderer *_renderer;
 }
 
 - (id);
@@ -35,29 +27,13 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id)tCollection;
+- (void);
+- (id)_invalidateAssetCollection;
 - (id)ype;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long analysisType; // @synthesize analysisType=_analysisType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) NSDictionary *debugInfo; // @synthesize debugInfo=_debugInfo;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) AVAudioMix *outputAudioMix; // @synthesize outputAudioMix=_outputAudioMix;
-@property(retain, nonatomic) AVAsset *outputVideoAsset; // @synthesize outputVideoAsset=_outputVideoAsset;
-@property(retain, nonatomic) AVVideoComposition *outputVideoComposition; // @synthesize outputVideoComposition=_outputVideoComposition;
-@property(retain) PLPhotoEditRenderer *renderer; // @synthesize renderer=_renderer;
 @property(retain, nonatomic) PXVideoStabilizeOperationSpec *spec; // @synthesize spec=_spec;
-@property(retain, nonatomic) NSDictionary *stabilizationRecipe; // @synthesize stabilizationRecipe=_stabilizationRecipe;
-@property(readonly) Class superclass;
 
 @end
 

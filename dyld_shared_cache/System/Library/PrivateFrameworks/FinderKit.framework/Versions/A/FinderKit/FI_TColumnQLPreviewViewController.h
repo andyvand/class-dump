@@ -17,9 +17,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
+- (void)ze=dd}}56@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16d48 /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (_Bool)WithBundleIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool)runningApplicationsWithBundleIdentifier: /* Error: Ran out of types for this method. */;
 - (void)È1;
 
 // Remaining properties

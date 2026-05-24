@@ -5,6 +5,7 @@
 //
 
 @protocol UIWKTextInteractionAssistantDelegate
+- (void);
 - (void)¡°!$Dù1[ð1Â0@ù
 × ;
 @end

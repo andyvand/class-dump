@@ -11,7 +11,7 @@
     NSString *_providerIdentifier;
 }
 
-+ (id);
++ (id);
 - (id);
 - (id);
 - (void)!XEù±ç)°1Â0@ù

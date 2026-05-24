@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBURLValue;
+@class NSString;
 
 @protocol _INPBAnnouncement
+- (NSString *);
+- (unsigned long long);
 - (_Bool)nknown is not supported.;
 - (void)ualityOfService:(_Bool)arg1 scaled:storeType:completion:]_block_invoke /* Error: Ran out of types for this method. */;
-- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long endTime;
-@property(nonatomic) _Bool hasEndTime;
-@property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasSpeechDataTranscription;
-@property(readonly, nonatomic) _Bool hasSpeechDataURL;
-@property(nonatomic) _Bool hasStartTime;
-@property(copy, nonatomic) NSString *identifier;
-@property(copy, nonatomic) NSString *speechDataTranscription;
-@property(retain, nonatomic) _INPBURLValue *speechDataURL;
-@property(nonatomic) unsigned long long startTime;
 @end
 

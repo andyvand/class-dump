@@ -13,15 +13,15 @@
 + (id);
 + (id);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)CT;
 - (void);
-- (void);
+- (void)I;
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)z;
 - (id);
 - (id);
 - (void);

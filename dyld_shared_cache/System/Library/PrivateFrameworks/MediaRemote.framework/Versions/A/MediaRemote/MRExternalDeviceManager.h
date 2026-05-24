@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSPointerArray;
-@protocol OS_dispatch_queue;
+@class NSArray, NSPointerArray;
 
 __attribute__((visibility("hidden")))
 @interface MRExternalDeviceManager
 {
     NSPointerArray *_devicesPointerArray;
-    NSObject<OS_dispatch_queue> *_serialQueue;
 }
 
 + (id);
 - (void);
+- (id)remainingStatementBalanceForInterestCalculation;
 - (id);
-- (id);
-- (void);
-- (void)aybackSessionTypesType;
+- (void)te for imessage junk.;
+- (void)currentPlaybackSessionTypesType;
 - (id)°-õÿjcMª;
 
 // Remaining properties

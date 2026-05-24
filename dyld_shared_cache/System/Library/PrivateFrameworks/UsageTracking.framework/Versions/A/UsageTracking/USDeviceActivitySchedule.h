@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateComponents, NSDateInterval;
+@class NSDateComponents;
 
 @interface USDeviceActivitySchedule
 {
     _Bool _repeats;
-    NSDateComponents *_intervalStart;
-    NSDateComponents *_intervalEnd;
-    NSDateComponents *_warningTime;
 }
 
 + (id);
@@ -22,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)mm;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -31,11 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSDateComponents *intervalEnd; // @synthesize intervalEnd=_intervalEnd;
 @property(readonly, copy) NSDateComponents *intervalStart; // @synthesize intervalStart=_intervalStart;
-@property(readonly, copy) NSDateInterval *nextInterval;
-@property(readonly) _Bool repeats; // @synthesize repeats=_repeats;
-@property(readonly, copy) NSDateComponents *warningTime; // @synthesize warningTime=_warningTime;
 
 @end
 

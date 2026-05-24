@@ -5,5 +5,10 @@
 //
 
 @protocol _RWIClientToRelayMessageProxy
+
+@optional
+- (void)`;
+- (void);
+- (void)qA;
 @end
 

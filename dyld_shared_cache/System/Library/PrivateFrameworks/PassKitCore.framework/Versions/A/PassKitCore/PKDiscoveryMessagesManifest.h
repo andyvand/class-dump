@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface PKDiscoveryMessagesManifest
 {
     long long _version;
-    NSArray *_engagementMessages;
-    NSArray *_notifications;
 }
 
 - (id);
 - (long long);
-- (id)ionActive;
-- (void);
-- (id)nlock;
+- (id)_requiringUpgradedPasscodeAssertionActive;
+- (void)region;
+- (id)SBUserNotificationDontDismissOnUnlock;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *engagementMessages; // @synthesize engagementMessages=_engagementMessages;
-@property(readonly, nonatomic) NSArray *notifications; // @synthesize notifications=_notifications;
 @property(readonly, nonatomic) long long version; // @synthesize version=_version;
 
 @end

@@ -6,50 +6,34 @@
 
 #import <AVConference/VCMediaStreamMultiwayConfig.h>
 
-@class NSArray, NSMutableArray, NSMutableSet, NSSet;
-
 __attribute__((visibility("hidden")))
 @interface VCMediaStreamMultiwayConfigVideo : VCMediaStreamMultiwayConfig
 {
     long long _resolution;
-    NSMutableSet *_payloads;
-    unsigned int _framerate;
-    unsigned long long _keyFrameInterval;
-    NSMutableArray *_subStreamConfigs;
-    _Bool _isTemporalStream;
-    _Bool _isSubStream;
-    unsigned short _parentStreamID;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
-- (unsigned short);
+- (unsigned short)#;
 - (_Bool);
 - (_Bool);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (unsigned int);
+- (void)s no corresponding building for this venue group, and the venueGourp.building ID is :(unsigned long long)arg1 %llu .;
+- (void)eGroups is null or there is no corresponding building for this venue group, and the venueGourp.building ID is :(unsigned int)arg1 %llu .;
+- (unsigned long long)%i;
+- (unsigned int)Changed] Ignore all;
 - (id);
 - (void);
-- (void);
+- (void)@9;
 - (id);
 - (long long);
-- (void)daryKey:(long long)arg1 type: /* Error: Ran out of types for this method. */;
+- (void)valueForSecondaryKeyWithPrimaryKey:(long long)arg1 secondaryKey:type: /* Error: Ran out of types for this method. */;
 - (id)&;
 
 // Remaining properties
-@property(nonatomic) unsigned int framerate; // @synthesize framerate=_framerate;
-@property(nonatomic) _Bool isSubStream; // @synthesize isSubStream=_isSubStream;
-@property(nonatomic) _Bool isTemporalStream; // @synthesize isTemporalStream=_isTemporalStream;
-@property(nonatomic) unsigned long long keyFrameInterval; // @synthesize keyFrameInterval=_keyFrameInterval;
-@property(nonatomic) unsigned short parentStreamID; // @synthesize parentStreamID=_parentStreamID;
-@property(readonly, nonatomic) NSSet *payloads; // @synthesize payloads=_payloads;
 @property(nonatomic) long long resolution; // @synthesize resolution=_resolution;
-@property(readonly, nonatomic) NSArray *subStreamConfigs; // @synthesize subStreamConfigs=_subStreamConfigs;
 
 @end
 

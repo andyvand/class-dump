@@ -10,16 +10,16 @@
 }
 
 - (id);
-- (struct DRTaskObject *);
+- (struct DRTaskObject *);
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (id)_secureTermsNeeded;
+- (void),V_backupKeybagDigest;
 - (id);
-- (void);
-- (id);
-- (unsigned long long);
+- (unsigned long long)D;
 
 @end
 

@@ -6,19 +6,12 @@
 
 #import <MPSNeuralNetwork/MPSCNNKernel.h>
 
-@protocol MPSCNNGroupNormalizationDataSource;
-
 @interface MPSCNNGroupNormalization : MPSCNNKernel
 {
     void *_gamma;
-    void *_beta;
-    id <MPSCNNGroupNormalizationDataSource> _dataSource;
-    unsigned long long _numberOfFeatureChannels;
-    unsigned long long _numberOfGroups;
-    float _epsilon;
 }
 
-+ (const struct MPSLibraryInfo *);
++ (const struct MPSLibraryInfo *);
 - (void);
 - (void);
 - (void);
@@ -29,15 +22,14 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)loat32 are supported.;
 - (float);
 - (id);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) id <MPSCNNGroupNormalizationDataSource> dataSource; // @synthesize dataSource=_dataSource;
 @property(nonatomic) float epsilon; // @synthesize epsilon=_epsilon;
 
 @end

@@ -9,10 +9,6 @@
 @interface FCCKOrderFeedQueryResult
 {
     NSArray *_feedItemAndArticleRecords;
-    NSArray *_feedResponses;
-    NSArray *_tagRecords;
-    NSArray *_issueRecords;
-    NSArray *_networkEvents;
 }
 
 - (void)ry/BuildRoots/4~CNquugBHTJeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCPrivateZoneFeedDescriptor.m;

@@ -4,41 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTMassSpringDamperSystem, NSString, VFXNode;
+@class VFXNode;
 
 __attribute__((visibility("hidden")))
 @interface AVTSpringDynamic
 {
     VFXNode *_dynamicNode;
-    VFXNode *_dynamicPresentationNode;
-    VFXNode *_dynamicParentPresentationNode;
-    VFXNode *_targetPresentationNode;
-    _Bool _hasMaxOffsets;
-    id _maxOffsets;
-    AVTMassSpringDamperSystem *_system;
-    double _beginTime;
-    id _beginVelocity;
-    id _beginWorldPosition;
-    id _endWorldPosition;
-    double _lastEvaluationTime;
-    id _lastWorldPosition;
-    _Bool _shouldReset;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)erence, %.2lf,tolerance, %.2lf, consistency, %.2lf, threshold, %.2lf, solution_to_check_against_user_speed_unc, %.2lf, sol_user_speed_unc, %.2lf. Marking the RavenSolution as unhealthy. Exiting with check passed return value.;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

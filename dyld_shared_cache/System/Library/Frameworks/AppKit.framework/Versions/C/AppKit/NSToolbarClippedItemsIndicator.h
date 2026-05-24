@@ -12,10 +12,6 @@ __attribute__((visibility("hidden")))
 @interface NSToolbarClippedItemsIndicator : NSPopUpButton
 {
     NSArray *_clippedItems;
-    _Bool _cachedMenuIsValid;
-    _Bool _returnFocusToWindowAfterClick;
-    unsigned long long _displayMode;
-    long long _toolbarStyle;
 }
 
 + (void)ÿiØNH;
@@ -27,19 +23,19 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)Resource Blocked;
+- (void).m;
+- (void)oadURLSession does not support NSURLSessionUploadTask;
 - (void);
 - (_Bool);
-- (long long);
+- (long long)h;
 - (id);
 - (_Bool);
 - (struct CGSize);
@@ -53,9 +49,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy) NSArray *clippedItems;
-@property unsigned long long displayMode;
-@property(readonly) _Bool hasItemsToDisplayInPopUp;
-@property long long toolbarStyle;
 
 @end
 

@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCHLSKey, FCHLSMap, FCHLSStreamInf, NSMutableArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface FCHLSPlaylistState
 {
     NSMutableDictionary *_mutableGroups;
-    FCHLSMap *_currentMap;
-    double _currentDuration;
-    NSMutableArray *_mutableSegments;
-    FCHLSStreamInf *_currentStreamInf;
-    NSMutableArray *_mutableStreamInfs;
-    FCHLSKey *_currentKey;
-    NSMutableDictionary *_mutableSessionData;
 }
 
 - (id);
-- (void)dUpsellVariant;
+- (void)preferredUpsellVariant;
 
 @end
 

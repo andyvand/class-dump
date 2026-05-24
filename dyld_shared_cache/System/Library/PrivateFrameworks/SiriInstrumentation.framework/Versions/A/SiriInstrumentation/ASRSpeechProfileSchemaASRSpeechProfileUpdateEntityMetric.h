@@ -6,45 +6,34 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ASRSpeechProfileSchemaASRSpeechProfileUpdateEntityMetric : SISchemaInstrumentationMessage
 {
     int _entityCategory;
-    unsigned int _numEntities;
-    struct {
-        unsigned int entityCategory:1;
-        unsigned int numEntities:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (void);
 - (unsigned int);
-- (_Bool);
+- (_Bool)רC;
 - (_Bool);
 - (int);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)ggestionoutcome;
+- (id)whichDomainsuggestionoutcome;
 - (id)	
 ;
 - (id);
 
 // Remaining properties
 @property(nonatomic) int entityCategory; // @synthesize entityCategory=_entityCategory;
-@property(nonatomic) _Bool hasEntityCategory;
-@property(nonatomic) _Bool hasNumEntities;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int numEntities; // @synthesize numEntities=_numEntities;
 
 @end
 

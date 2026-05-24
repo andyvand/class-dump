@@ -6,20 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface IFTSchemaIFTActionFailureDeveloperDefinedError : SISchemaInstrumentationMessage
 {
     long long _code;
-    NSString *_domain;
-    CDStruct_9ab06576 _has;
-    _Bool _hasDomain;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)ctVersionExtra (%@; %@) are not equal;
 - (id);
 - (void);
 - (_Bool);
@@ -28,11 +23,11 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)NSError"@"NSString">40;
 - (id)qàð1Â0@ù
 × ;
 - (id)istantDaemonAudioConfigureStarted";
-- (id)nMetadata:(id)arg1;
+- (id)setHasDomainSuggestionMetadata:(id)arg1;
 - (id)g;
 - (long long)iml.siri.cda.CDAClientEvent.CDADeviceAdvertisingEndContext;
 - (void)àÌÿI'¶_¤#;
@@ -40,10 +35,6 @@
 
 // Remaining properties
 @property(nonatomic) long long code; // @synthesize code=_code;
-@property(copy, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(nonatomic) _Bool hasCode;
-@property(nonatomic) _Bool hasDomain; // @synthesize hasDomain=_hasDomain;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

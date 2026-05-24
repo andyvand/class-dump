@@ -5,12 +5,9 @@
 //
 
 @protocol CRKArrayDifferenceConfiguration
+- (_Bool (^)(id, id));
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CDUnknownBlockType incomingItemsIdentifierFunction;
-@property(copy, nonatomic) CDUnknownBlockType liftingFunction;
 @property(copy, nonatomic) CDUnknownBlockType publishedItemsComparator;
-@property(readonly, copy, nonatomic) CDUnknownBlockType publishedItemsIdentifierFunction;
-@property(copy, nonatomic) CDUnknownBlockType updateBlock;
 @end
 

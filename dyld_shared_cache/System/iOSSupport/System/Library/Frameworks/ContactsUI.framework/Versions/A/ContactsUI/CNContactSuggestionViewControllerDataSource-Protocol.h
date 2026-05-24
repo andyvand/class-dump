@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString, NSURL;
+@class NSString, NSURL;
 
 @protocol CNContactSuggestionViewControllerDataSource
+- (NSString *)3;
+- (NSURL *)(;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *appName;
-@property(readonly, nonatomic) NSString *date;
-@property(readonly, nonatomic) NSAttributedString *formattedSnippet;
-@property(readonly, nonatomic) NSString *title;
 @property(readonly, nonatomic) unsigned long long type;
-@property(readonly, nonatomic) NSURL *url;
-@property(readonly, nonatomic) NSString *with;
 @end
 

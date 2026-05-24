@@ -9,12 +9,11 @@
 @interface PXMemoriesFeedWidgetDataSourceManager : PXMemoriesFeedDataSourceManagerBase
 {
     _Bool _onlyFavorites;
-    unsigned long long _maxCount;
 }
 
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)SX;
 - (void);
 - (void);
 - (void);
@@ -23,12 +22,11 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (void)calStorage;
-- (unsigned long long)trySubtitle;
+- (void)PXCPLActionTypeManageLocalStorage;
+- (unsigned long long)MemoryCreationEntrySubtitle;
 
 // Remaining properties
 @property(nonatomic) unsigned long long maxCount; // @synthesize maxCount=_maxCount;
-@property(nonatomic) _Bool onlyFavorites; // @synthesize onlyFavorites=_onlyFavorites;
 
 @end
 

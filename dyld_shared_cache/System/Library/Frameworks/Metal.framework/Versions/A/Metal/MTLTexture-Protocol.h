@@ -7,52 +7,33 @@
 @protocol MTLBuffer, MTLResource, MTLTexture;
 
 @protocol MTLTexture
+- (_Bool)e(image, samplerTransform(image, d + vec2(-1.500, 0.0)));
+  vec4 p1 = sample(image, samplerTransform(image, d + vec2(-0.5, 0.0)));
+  vec4 p2 = sample(image, samplerTransform(image, d + vec2(+0.5, 0.0)));
+  vec4 p3 = sample(image, samplerTransform(image, d + vec2(+1.500, 0.0)));
+  p0 = ((d.x - 0.5) < bound) ? min(p0, p1) :p0;
+  p0 = ((d.x + 0.5) < bound) ? min(p0, p2) :p0;
+  p0 = ((d.x + 1.500) < bound) ? min(p0, p3) :p0;
+  return p0;
+}
+ /* Error: Ran out of types for this method. */;
+- (id <MTLTexture>)PositionerPrimaryAngleIncrement;
+- (id <MTLTexture>)#;
+- (void)AppleScrollBarVariant;
+- (id <MTLResource>);
+- (unsigned long long);
+- (struct __IOSurface *);
 - (unsigned long long)ng MTLPipelineOptionFailOnBinaryArchiveMiss and MTLPipelineLibrary.disableRunTimeCompilation;
 - (id <MTLBuffer>);
-- (unsigned long long);
 - (CDStruct_a06f635e)target is not blendable.;
-- (_Bool)DataTypeRGBA16Snorm;
-- (unsigned long long)VERSION_;
+- (_Bool)MTLDataTypeRGBA16Snorm;
+- (unsigned long long)_DB_VERSION_;
 - (unsigned long long)ch in MTLPrimitiveAccelerationStructureDescriptor (MTLPrimitiveAccelerationStructureDescriptor has %lu keyframes and one of the MTLAccelerationStructureMotionTriangleGeometryDescriptor has %lu keyframes).;
 
+@optional
+- (unsigned long long);
+
 // Remaining properties
-@property(readonly) _Bool allowGPUOptimizedContents;
-@property(readonly) unsigned long long arrayLength;
-@property(readonly) id <MTLBuffer> buffer;
-@property(readonly) unsigned long long bufferBytesPerRow;
-@property(readonly) unsigned long long bufferOffset;
-@property(readonly) long long compressionType;
-@property(readonly) unsigned long long depth;
-@property(readonly) unsigned long long firstMipmapInTail;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R
-
-@property(readonly, getter=isFramebufferOnly) _Bool framebufferOnly;
-@property(readonly) struct MTLResourceID gpuResourceID;
-@property(readonly) unsigned long long height;
-@property(readonly) struct __IOSurface *iosurface;
-@property(readonly) unsigned long long iosurfacePlane;
-@property(readonly) _Bool isSparse;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) unsigned long long mipmapLevelCount;
-@property(readonly) unsigned long long parentRelativeLevel;
-@property(readonly) unsigned long long parentRelativeSlice;
-@property(readonly) id <MTLTexture> parentTexture;
-@property(readonly) unsigned long long pixelFormat;
-@property(readonly) id <MTLTexture> remoteStorageTexture;
 @property(readonly) id <MTLResource> rootResource;
-@property(readonly) unsigned long long sampleCount;
-@property(readonly, getter=isShareable) _Bool shareable;
-@property(readonly) long long sparseTextureTier;
-@property(readonly, nonatomic) CDStruct_a06f635e swizzle;
-@property(readonly) unsigned long long tailSizeInBytes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R
-
-@property(readonly) unsigned long long textureType;
-@property(readonly) unsigned long long usage;
-@property(readonly) unsigned long long width;
 @end
 

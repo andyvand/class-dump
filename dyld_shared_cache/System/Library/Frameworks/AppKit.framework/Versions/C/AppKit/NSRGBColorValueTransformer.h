@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (long long);
-- (id);
+- (id)cloudKitMetrics;
 - (id)te it was in when you last opened it, or browse older versions. Recent changes will be saved in your version history.;
 
 // Remaining properties

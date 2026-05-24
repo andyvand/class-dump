@@ -4,47 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDMapsIdentifier, GEOPDQuickLinkItem, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDPlaceCollectionItem
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPDQuickLinkItem *_appClip;
-    NSMutableArray *_itemDescriptionBytes;
-    NSMutableArray *_itemDescriptionHtmls;
-    NSMutableArray *_itemDescriptions;
-    GEOPDMapsIdentifier *_itemId;
-    NSMutableArray *_photos;
-    NSMutableArray *_punchOutTexts;
-    NSString *_url;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _disableAppClipFallback;
-    _Bool _enableImageFallback;
-    struct {
-        unsigned int has_disableAppClipFallback:1;
-        unsigned int has_enableImageFallback:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_appClip:1;
-        unsigned int read_itemDescriptionBytes:1;
-        unsigned int read_itemDescriptionHtmls:1;
-        unsigned int read_itemDescriptions:1;
-        unsigned int read_itemId:1;
-        unsigned int read_photos:1;
-        unsigned int read_punchOutTexts:1;
-        unsigned int read_url:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)_handleAlertProvidingDelegateDidFinishAlertPlayback: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (_Bool);

@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKCrypto, MKSRPServer, NSObject, NSUUID, SMBluetoothServer;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SMPairingHandshakeController
 {
     NSObject<OS_dispatch_queue> *_queue;
-    MKSRPServer *_srp;
-    SMBluetoothServer *_bluetoothServer;
-    NSUUID *_centralID;
-    MKCrypto *_crypto;
 }
 
 - (_Bool);
@@ -38,16 +34,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)߅q#";
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain) SMBluetoothServer *bluetoothServer; // @synthesize bluetoothServer=_bluetoothServer;
-@property(retain) NSUUID *centralID; // @synthesize centralID=_centralID;
-@property(retain) MKCrypto *crypto; // @synthesize crypto=_crypto;
 @property(retain) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain) MKSRPServer *srp; // @synthesize srp=_srp;
 
 @end
 

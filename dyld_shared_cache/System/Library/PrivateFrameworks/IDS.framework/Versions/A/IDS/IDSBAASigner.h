@@ -10,7 +10,6 @@
 @interface IDSBAASigner
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_baaQueue;
 }
 
 + (_Bool);
@@ -36,19 +35,18 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)ortTrafficRegistrarRef, APTTrafficRegistrarTokenRef *)_block_invoke;
+- (_Bool);
 - (id);
 - (void)1,Ð1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *baaQueue; // @synthesize baaQueue=_baaQueue;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

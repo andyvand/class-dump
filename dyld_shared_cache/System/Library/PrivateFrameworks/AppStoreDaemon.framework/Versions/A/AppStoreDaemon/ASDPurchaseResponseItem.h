@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASDPurchase, NSArray, NSDictionary, NSError, NSNumber, NSString;
-
 @interface ASDPurchaseResponseItem
 {
     _Bool _success;
-    _Bool _cancelsPurchaseBatch;
-    NSError *_error;
-    ASDPurchase *_purchase;
-    NSString *_bundleID;
-    NSNumber *_itemID;
-    NSArray *_results;
-    double _requestStartTime;
-    double _responseEndTime;
-    double _responseStartTime;
-    NSDictionary *_responseMetrics;
-    NSDictionary *_transationIDs;
 }
 
 + (_Bool);
@@ -28,26 +15,26 @@
 - (_Bool);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)$;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)?;
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (double);
 - (id);
+- (void);
+- (void);
+- (void)}p;
+- (double)rent event;
+- (id)speed, speed_accuracy, course, raw_course, course_accuracy, type, reference_frame, raw_reference_frame, event_type, corrected_latitude, corrected_longitude, corrected_course, match_type, active_transport_type, speed_limit, shield_text, shield_type, match_info_quality, match_info_latitude, match_info_longitude, match_info_course, match_info_form_of_way, match_info_road_class, match_info_shifted) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
 - (id);
 - (_Bool);
 - (void);
@@ -55,18 +42,7 @@
 - (double)UfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDJob_macOS.m:28 :Not supported on macOS /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(readonly, nonatomic) _Bool cancelsPurchaseBatch; // @synthesize cancelsPurchaseBatch=_cancelsPurchaseBatch;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, copy, nonatomic) NSNumber *itemID; // @synthesize itemID=_itemID;
-@property(readonly, copy, nonatomic) ASDPurchase *purchase; // @synthesize purchase=_purchase;
 @property(nonatomic) double requestStartTime; // @synthesize requestStartTime=_requestStartTime;
-@property(nonatomic) double responseEndTime; // @synthesize responseEndTime=_responseEndTime;
-@property(readonly, nonatomic) NSDictionary *responseMetrics; // @synthesize responseMetrics=_responseMetrics;
-@property(nonatomic) double responseStartTime; // @synthesize responseStartTime=_responseStartTime;
-@property(readonly, nonatomic) NSArray *results; // @synthesize results=_results;
-@property(readonly, nonatomic) _Bool success; // @synthesize success=_success;
-@property(readonly, nonatomic) NSDictionary *transationIDs; // @synthesize transationIDs=_transationIDs;
 
 @end
 

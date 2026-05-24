@@ -4,46 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
-
 @interface SFLatLng
 {
     struct {
         unsigned int lat:1;
         unsigned int lng:1;
     } _has;
-    double _lat;
-    double _lng;
 }
 
 + (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
+- (void);
+- (id)setHasBiography:(id)arg1;
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)rForAlertType:(id)arg1 (%{public}@) […]. Persisted value was invalid, and fallback value is none. Ignoring fallback value. currentToneIdentifier = %{public}@.;
+- (id)8@16B24q28Q36d44@?52;
+- (id)eventTitle;
+- (id)rt Album doesn't allow nil query;
 - (id);
 - (double);
 - (double)ocation;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) double lat; // @synthesize lat=_lat;
-@property(nonatomic) double lng; // @synthesize lng=_lng;
-@property(readonly) Class superclass;
 
 @end
 

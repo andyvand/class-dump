@@ -7,8 +7,6 @@
 @interface TeaUI.CardContainerController.CardItem__priv_CDFA3C05CADE81D8D2E04D7172EA6525
 {
     id viewController;
-    id cardView;
-    id cardViewAnimationCoordinator;
 }
 
 @end

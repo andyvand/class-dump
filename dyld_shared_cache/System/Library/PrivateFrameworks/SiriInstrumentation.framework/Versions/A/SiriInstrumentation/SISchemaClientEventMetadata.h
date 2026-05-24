@@ -6,20 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSData;
 
 @interface SISchemaClientEventMetadata : SISchemaInstrumentationMessage
 {
     NSData *_turnID;
-    NSData *_siriDeviceID;
-    NSString *_eventGeneratedTimestampRefId;
-    long long _eventGeneratedRelativeToBootTimeTimestampNs;
-    struct {
-        unsigned int eventGeneratedRelativeToBootTimeTimestampNs:1;
-    } _has;
-    _Bool _hasTurnID;
-    _Bool _hasSiriDeviceID;
-    _Bool _hasEventGeneratedTimestampRefId;
 }
 
 - (id);
@@ -41,29 +32,25 @@
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)ders;
+- (_Bool)onNameKey(void);
 - (void);
-- (_Bool);
-- (id);
-- (id);
-- (id)teAppContactFreqForMessagesInf;
-- (id)dOfFirstWordReadyUpstream;
+- (_Bool)schedule_type;
+- (id)!;
+- (id)neg extension:%8f * x + %8f
+			pos extension:%8f * x + %8f
+			input range:[%6f, %6f]
+			output range:[%6f, %6f]
+			properties: /* Error: Ran out of types for this method. */;
+- (id)deleteAppContactFreqForMessagesInf;
+- (id)_audioPacketContainingEndOfFirstWordReadyUpstream;
 - (void)siri.mh.MHClientEvent.MHSiriLaunchRequestContext;
 
 // Remaining properties
-@property(nonatomic) long long eventGeneratedRelativeToBootTimeTimestampNs; // @synthesize eventGeneratedRelativeToBootTimeTimestampNs=_eventGeneratedRelativeToBootTimeTimestampNs;
-@property(copy, nonatomic) NSString *eventGeneratedTimestampRefId; // @synthesize eventGeneratedTimestampRefId=_eventGeneratedTimestampRefId;
-@property(nonatomic) _Bool hasEventGeneratedRelativeToBootTimeTimestampNs;
-@property(nonatomic) _Bool hasEventGeneratedTimestampRefId; // @synthesize hasEventGeneratedTimestampRefId=_hasEventGeneratedTimestampRefId;
-@property(nonatomic) _Bool hasSiriDeviceID; // @synthesize hasSiriDeviceID=_hasSiriDeviceID;
-@property(nonatomic) _Bool hasTurnID; // @synthesize hasTurnID=_hasTurnID;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSData *siriDeviceID; // @synthesize siriDeviceID=_siriDeviceID;
 @property(copy, nonatomic) NSData *turnID; // @synthesize turnID=_turnID;
 
 @end

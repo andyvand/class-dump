@@ -4,30 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDate, NSDecimalNumber, NSNumber, NSString;
-
 @interface PKTransitAppletHistoryRecord
 {
     unsigned long long _transitModifiers;
-    NSNumber *_historySequenceNumber;
-    unsigned long long _type;
-    unsigned long long _subtype;
-    unsigned long long _detail;
-    NSDate *_time;
-    NSDecimalNumber *_balance;
-    NSNumber *_loyaltyBalance;
-    NSDecimalNumber *_amount;
-    NSNumber *_loyaltyAmount;
-    NSNumber *_cityCode;
-    NSData *_startStation;
-    NSData *_endStation;
-    NSArray *_amounts;
-    NSArray *_plans;
-    NSString *_transitDetail;
-    long long _recordType;
 }
 
-+ (_Bool);
++ (_Bool)(;
 - (long long);
 - (unsigned long long);
 - (id);
@@ -36,9 +18,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void),;
+- (void)?q ;
+- (void)%;
 - (void);
 - (void);
 - (id);
@@ -62,42 +44,24 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)h;
 - (unsigned long long);
-- (long long);
+- (long long)SGTSpotlightCollectorWarmingQueryReserved;
 - (_Bool);
-- (void);
+- (void)associatedTime;
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id)aymentRewardsBalanceWithIdentifier:(id)arg1 completion: /* Error: Ran out of types for this method. */;
-- (void)chMapItem:(id)arg1 completion: /* Error: Ran out of types for this method. */;
-- (unsigned long long)nkToApp;
+- (id)paymentRewardsBalanceWithIdentifier:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void)_mapsDataWithResponse:(id)arg1 searchMapItem:completion: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_allowDeepLinkToApp;
 - (void)case passes are present, ignoring pass count so Apple pay setup will be offered.;
-- (void)tIdenfitier;
+- (void)secureElementIdenfitier;
 
 // Remaining properties
-@property(copy, nonatomic) NSDecimalNumber *amount; // @synthesize amount=_amount;
-@property(copy, nonatomic) NSArray *amounts; // @synthesize amounts=_amounts;
-@property(copy, nonatomic) NSDecimalNumber *balance; // @synthesize balance=_balance;
-@property(copy, nonatomic) NSNumber *cityCode; // @synthesize cityCode=_cityCode;
-@property(nonatomic) unsigned long long detail; // @synthesize detail=_detail;
-@property(copy, nonatomic) NSData *endStation; // @synthesize endStation=_endStation;
-@property(copy, nonatomic) NSNumber *historySequenceNumber; // @synthesize historySequenceNumber=_historySequenceNumber;
-@property(copy, nonatomic) NSNumber *loyaltyAmount; // @synthesize loyaltyAmount=_loyaltyAmount;
-@property(copy, nonatomic) NSNumber *loyaltyBalance; // @synthesize loyaltyBalance=_loyaltyBalance;
 @property(readonly, nonatomic) long long paymentTransactionType;
-@property(copy, nonatomic) NSArray *plans; // @synthesize plans=_plans;
-@property(nonatomic) long long recordType; // @synthesize recordType=_recordType;
-@property(copy, nonatomic) NSData *startStation; // @synthesize startStation=_startStation;
-@property(nonatomic) unsigned long long subtype; // @synthesize subtype=_subtype;
-@property(copy, nonatomic) NSDate *time; // @synthesize time=_time;
-@property(copy, nonatomic) NSString *transitDetail; // @synthesize transitDetail=_transitDetail;
-@property(readonly, nonatomic) unsigned long long transitTransactionModifier;
-@property(readonly, nonatomic) long long transitTransactionSubtype;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

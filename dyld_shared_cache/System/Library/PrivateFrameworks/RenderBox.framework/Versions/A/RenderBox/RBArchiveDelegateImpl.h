@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, RBEncoderSet;
-
 __attribute__((visibility("hidden")))
 @interface RBArchiveDelegateImpl
 {
     unsigned int _flags;
-    struct objc_ptr<NSData *> _metadata;
 }
 
 - (id);
-- (id);
+- (id)";
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)x;
 - (id);
 - (void *);
-- (id);
+- (id);
 - (unsigned int);
 - (struct CGFont *);
 - (_Bool);
@@ -29,21 +26,10 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, nonatomic) unsigned int deploymentFormat;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TI,?,R,N
 
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) RBEncoderSet *encoderSet;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"RBEncoderSet",?,R,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

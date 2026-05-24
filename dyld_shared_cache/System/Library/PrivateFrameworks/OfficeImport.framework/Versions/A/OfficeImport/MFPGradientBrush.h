@@ -6,18 +6,10 @@
 
 #import <OfficeImport/MFPBrush.h>
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface MFPGradientBrush : MFPBrush
 {
     struct CGAffineTransform mTransform;
-    NSArray *mBlend;
-    NSArray *mColorBlend;
-    int mWrapMode;
-    NSArray *mStops;
-    struct CGShading *mShading;
-    struct CGFunction *mShadingFunction;
 }
 
 - (void);
@@ -33,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)isValidValue: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);

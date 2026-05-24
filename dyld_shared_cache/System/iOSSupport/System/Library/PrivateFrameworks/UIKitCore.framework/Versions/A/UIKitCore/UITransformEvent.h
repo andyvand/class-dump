@@ -6,42 +6,30 @@
 
 #import <UIKitCore/UIEvent.h>
 
-@class BKSHIDEventPointerAttributes, NSMapTable;
+@class NSMapTable;
 
 @interface UITransformEvent : UIEvent
 {
     NSMapTable *_gestureRecognizersByWindow;
-    struct CGPoint _sceneReferenceLocation;
-    struct CGAffineTransform _transform;
-    double _scaleDelta;
-    double _rotationDelta;
-    double _translationMagDelta;
-    unsigned long long _scalePhase;
-    unsigned long long _rotationPhase;
-    unsigned long long _translationPhase;
-    BKSHIDEventPointerAttributes *_pointerAttributes;
-    double _scale;
-    double _rotation;
-    struct CGPoint _translation;
 }
 
-- (long long);
+- (long long)setRequiresExternalPower:(double)arg1;
 - (void);
 - (struct CGPoint);
-- (unsigned long long);
+- (unsigned long long)ineState>"8@"NSError"16;
 - (id);
-- (id);
-- (double);
+- (id)A;
+- (double)nd;
 - (struct CGAffineTransform);
 - (double);
 - (long long)á	!$@ù1f°1Â0@ù
 × ;
-- (void)eeded: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)Description;
+- (void)imageViewCreateIfNeeded: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)environmentDescription;
 - (id)rovider;
 - (_Bool);
-- (id)ontrollerDisableTypeAndTalk;
-- (long long)deErrorDomain;
+- (id)UIDictationControllerDisableTypeAndTalk;
+- (long long)UIAutonomousSingleAppModeErrorDomain;
 - (void)Ôw`;
 - (void)Ôd;
 - (void)|ãd;
@@ -49,10 +37,6 @@
 
 // Remaining properties
 @property(readonly) unsigned long long phase;
-@property(readonly, nonatomic) double rotation; // @synthesize rotation=_rotation;
-@property(readonly, nonatomic) double scale; // @synthesize scale=_scale;
-@property(readonly, nonatomic) struct CGAffineTransform transform;
-@property(readonly, nonatomic) struct CGPoint translation; // @synthesize translation=_translation;
 
 @end
 

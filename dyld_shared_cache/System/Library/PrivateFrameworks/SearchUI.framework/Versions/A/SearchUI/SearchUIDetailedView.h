@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, NSView, SearchUIAccessoryViewController, SearchUIButtonItemStackView, SearchUIDetailedRowModel, SearchUILeadingViewController, TLKDetailsView, TLKStackView;
-@protocol SearchUIDetailedViewDelegate, SearchUIFeedbackDelegate;
+@class SearchUIDetailedRowModel;
 
 @interface SearchUIDetailedView
 {
     _Bool _isVerticalAlignment;
-    _Bool _isCompactWidth;
-    id <SearchUIFeedbackDelegate> _feedbackDelegate;
-    id <SearchUIDetailedViewDelegate> _buttonDelegate;
-    SearchUIAccessoryViewController *_currentAccessoryViewController;
-    SearchUILeadingViewController *_currentLeadingViewController;
-    SearchUIDetailedRowModel *_rowModel;
-    TLKStackView *_innerContainer;
-    SearchUIButtonItemStackView *_buttonItemStackView;
-    TLKStackView *_buttonAndDetailViewStackView;
-    NSMutableArray *_leadingViewControllers;
-    TLKDetailsView *_detailsView;
-    NSMutableArray *_accessoryViewControllers;
 }
 
 + (id);
@@ -55,9 +42,9 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)constWeightsOfLength:value: /* Error: Ran out of types for this method. */;
+- (void)Key:ALLOW_PROFANITY] /* Error: Ran out of types for this method. */;
+- (id)ZATION_SELECTED_PSEUDOCOUNT_PER_SEMANTIC_CLASS];
 - (struct CGRect);
 - (void);
 - (void);
@@ -66,31 +53,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)?;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *accessoryViewControllers; // @synthesize accessoryViewControllers=_accessoryViewControllers;
-@property(retain, nonatomic) TLKStackView *buttonAndDetailViewStackView; // @synthesize buttonAndDetailViewStackView=_buttonAndDetailViewStackView;
-@property(nonatomic) __weak id <SearchUIDetailedViewDelegate> buttonDelegate; // @synthesize buttonDelegate=_buttonDelegate;
-@property(retain, nonatomic) SearchUIButtonItemStackView *buttonItemStackView; // @synthesize buttonItemStackView=_buttonItemStackView;
-@property(retain, nonatomic) SearchUIAccessoryViewController *currentAccessoryViewController; // @synthesize currentAccessoryViewController=_currentAccessoryViewController;
-@property(retain, nonatomic) SearchUILeadingViewController *currentLeadingViewController; // @synthesize currentLeadingViewController=_currentLeadingViewController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) TLKDetailsView *detailsView; // @synthesize detailsView=_detailsView;
-@property(nonatomic) __weak id <SearchUIFeedbackDelegate> feedbackDelegate; // @synthesize feedbackDelegate=_feedbackDelegate;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) TLKStackView *innerContainer; // @synthesize innerContainer=_innerContainer;
-@property(nonatomic) _Bool isCompactWidth; // @synthesize isCompactWidth=_isCompactWidth;
-@property(nonatomic) _Bool isVerticalAlignment; // @synthesize isVerticalAlignment=_isVerticalAlignment;
-@property(readonly, nonatomic) NSView *leadingTextView;
-@property(readonly, nonatomic) NSView *leadingView;
-@property(retain, nonatomic) NSMutableArray *leadingViewControllers; // @synthesize leadingViewControllers=_leadingViewControllers;
 @property(retain, nonatomic) SearchUIDetailedRowModel *rowModel; // @synthesize rowModel=_rowModel;
-@property(readonly) Class superclass;
 
 @end
 

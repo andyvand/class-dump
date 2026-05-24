@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessoryCategory, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryAdvertisement
 {
     NSString *_identifier;
-    NSString *_name;
-    HMAccessoryCategory *_category;
 }
 
 - (id);
-- (long long);
+- (long long)initWithSubtype:intervalsPresent:numberOfAssets:isMandatoryForKeyAsset:locationNode: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned long long);
@@ -26,10 +24,7 @@ __attribute__((visibility("hidden")))
 - (void)Sd=;
 
 // Remaining properties
-@property(readonly) long long associationOptions;
-@property(readonly, nonatomic) HMAccessoryCategory *category; // @synthesize category=_category;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

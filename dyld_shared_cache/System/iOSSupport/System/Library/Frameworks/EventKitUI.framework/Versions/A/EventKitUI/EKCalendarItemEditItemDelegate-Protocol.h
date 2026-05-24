@@ -4,6 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol EKCalendarItemEditItemDelegate
+
+@optional
+- (long long);
+- (void);
+- (void)&s;
+- (void)I+s;
+- (NSString *)s;
+- (void)ؒ&s;
+- (void)%s;
+- (void)X%s;
 @end
 

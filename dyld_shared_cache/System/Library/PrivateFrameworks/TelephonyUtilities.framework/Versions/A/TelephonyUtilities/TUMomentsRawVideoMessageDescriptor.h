@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID, TUSandboxExtendedURL;
+@class NSUUID;
 
 @interface TUMomentsRawVideoMessageDescriptor
 {
     NSUUID *_uuid;
-    TUSandboxExtendedURL *_videoURL;
 }
 
 + (_Bool);
 - (id);
-- (id);
-- (void);
+- (id)qA;
+- (void);
 - (id);
 - (id)
 × ;
-- (void)ntalInCallString;
+- (void)supplementalInCallString;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property(readonly, retain, nonatomic) TUSandboxExtendedURL *videoURL; // @synthesize videoURL=_videoURL;
 
 @end
 

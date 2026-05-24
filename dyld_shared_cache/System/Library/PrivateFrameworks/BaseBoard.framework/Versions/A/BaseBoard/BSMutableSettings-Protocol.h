@@ -5,5 +5,6 @@
 //
 
 @protocol BSMutableSettings
+- (void);
 @end
 

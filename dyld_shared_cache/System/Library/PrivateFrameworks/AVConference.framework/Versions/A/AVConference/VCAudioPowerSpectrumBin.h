@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface VCAudioPowerSpectrumBin
 {
     struct _VCRange _frequencyRange;
-    float _powerLevel;
 }
 
 - (void);
@@ -20,7 +19,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) struct _VCRange frequencyRange; // @synthesize frequencyRange=_frequencyRange;
-@property(nonatomic) float powerLevel; // @synthesize powerLevel=_powerLevel;
 
 @end
 

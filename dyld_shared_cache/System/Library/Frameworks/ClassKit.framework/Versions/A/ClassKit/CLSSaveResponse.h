@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface CLSSaveResponse
 {
     NSMutableDictionary *_objectsByID;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _completion;
 }
 
 - (id);
-- (oneway void);
-- (oneway void);
-- (oneway void);
+- (oneway void)[0];
+- (oneway void)command.
+;
+- (oneway void)e %zd too large. 
+;
 - (void);
 - (id);
 - (CDUnknownBlockType);
@@ -25,13 +24,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

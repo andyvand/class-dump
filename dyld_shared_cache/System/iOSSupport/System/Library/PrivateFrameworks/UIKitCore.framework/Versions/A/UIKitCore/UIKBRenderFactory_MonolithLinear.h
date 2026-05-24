@@ -13,13 +13,13 @@ __attribute__((visibility("hidden")))
 
 - (double);
 - (double);
-- (double);
-- (double);
-- (double);
-- (id);
-- (double);
-- (double);
-- (_Bool);
+- (double)with GUID=%@ as delivered quietly;
+- (double)D:%@   chats:%@ /* Error: Ran out of types for this method. */;
+- (double)GUID:%@ /* Error: Ran out of types for this method. */;
+- (id)elineComponent> Started processing for Message GUID:%@ /* Error: Ran out of types for this method. */;
+- (double)iveredQuietlyReceiptProcessingPipelineComponent> Started processing for Message GUID:%@ /* Error: Ran out of types for this method. */;
+- (double)> Sender sees us as off grid;
+- (_Bool)nCore.IncomingClientConnectionListener;
 - (void);
 - (void);
 - (void);

@@ -4,30 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPAppAttestInfo
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_anonymousUserId;
-    NSData *_assertion;
-    NSData *_attestation;
-    NSString *_keyId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_anonymousUserId:1;
-        unsigned int read_assertion:1;
-        unsigned int read_attestation:1;
-        unsigned int read_keyId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)ngInLowGuidance:(id)arg1;
++ (_Bool)setIsNavigatingInLowGuidance:(id)arg1;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -35,16 +19,16 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)secondPassDidStartForClient:deviceId:withFirstPassEstimate: /* Error: Ran out of types for this method. */;
+- (void)is %{public}lf;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -52,7 +36,7 @@
 - (id);
 - (void);
 - (id)Field"b1};
-- (id)lsType;
+- (id)actionButtonDetailsType;
 - (id)ü¯;
 - (id)ly be called once per object;
 - (id);
@@ -60,15 +44,7 @@
 - (void)ÈÿÿÿÿÿÿÿüÿÿÿõÿÿÿòÿÿÿôÿÿÿàÿÿÿÿÿÿÿÉÿÿÿÿÿÿÿÖÿÿÿÿÿÿÿÒÿÿÿÿÿÿÿÙÿÿÿÿÿÿÿËÿÿÿÿÿÿÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *anonymousUserId;
-@property(retain, nonatomic) NSData *assertion;
-@property(retain, nonatomic) NSData *attestation;
 @property(readonly, nonatomic) _Bool hasAnonymousUserId;
-@property(readonly, nonatomic) _Bool hasAssertion;
-@property(readonly, nonatomic) _Bool hasAttestation;
-@property(readonly, nonatomic) _Bool hasKeyId;
-@property(retain, nonatomic) NSString *keyId;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

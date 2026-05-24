@@ -6,16 +6,15 @@
 
 #import <AppKit/NSTouchBarItem.h>
 
-@class NSColor, NSImage, NSPickerTouchBarItemView, NSString;
+@class NSString;
 
 @interface NSPickerTouchBarItem : NSTouchBarItem
 {
     NSString *_customizationLabel;
-    NSPickerTouchBarItemView *_pickerView;
 }
 
 + (id);
-+ (id);
++ (id);
 - (void);
 - (void);
 - (void);
@@ -23,46 +22,36 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (long long);
 - (id);
 - (id);
+- (_Bool)*;
+- (id);
+- (id)onnection=};
+- (long long)r>, std::less<std::string>, std::allocator<std::pair<const std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>>>="__tree_"{__tree<std::__value_type<std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>, std::__map_value_compare<std::string, std::pair<const std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllIPAddresses"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_requestHostToConnectionKey"{map<std::string, std::shared_ptr<__CoalescingConnectionKey>, std::less<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__tree_"{__tree<std::__value_type<std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::__map_value_compare<std::string, std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllRequestHosts"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (id)sharedCookieStorageForGroupContainerIdentifier: /* Error: Ran out of types for this method. */;
+- (id)set_xpcActivityBudgeted: /* Error: Ran out of types for this method. */;
+- (long long);
+- (id);
+- (void);
+- (void);
+- (id);
+- (long long);
 - (_Bool);
-- (id);
-- (id);
-- (long long);
-- (id);
-- (id);
-- (long long);
-- (id);
-- (void);
 - (void);
 - (id);
-- (long long);
-- (_Bool);
-- (void);
-- (id);
-- (void);
+- (void)elineOffset;
 - (void)
 × ;
-- (id)ivar_setClickedRow:clickedColumn: /* Error: Ran out of types for this method. */;
+- (id)_ivar_setClickedRow:clickedColumn: /* Error: Ran out of types for this method. */;
 - (SEL)K|hGG¬hy.ÎhGG;
-- (void)invoke;
+- (void)_NSCopySendRightMonitoringForDeath_block_invoke;
 
 // Remaining properties
-@property SEL action;
-@property(retain) NSImage *collapsedRepresentationImage;
-@property(copy) NSString *collapsedRepresentationLabel;
 @property long long controlRepresentation;
-@property(copy) NSString *customizationLabel;
-@property(getter=isEnabled) _Bool enabled;
-@property long long numberOfOptions;
-@property long long selectedIndex;
-@property(copy) NSColor *selectionColor;
-@property long long selectionMode;
-@property __weak id target;
 
 @end
 

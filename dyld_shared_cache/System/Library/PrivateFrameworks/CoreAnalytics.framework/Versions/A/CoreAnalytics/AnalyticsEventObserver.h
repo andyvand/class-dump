@@ -5,25 +5,28 @@
 //
 
 @class NSObject;
-@protocol AnalyticsEventObserverDelegate, OS_dispatch_queue;
+@protocol OS_dispatch_queue;
 
 @interface AnalyticsEventObserver
 {
     struct shared_ptr<(anonymous namespace)::EventObserverImpl> observer;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <AnalyticsEventObserverDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
 }
 
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)default;
+- (id)tex_texcoord1, vertex_texcoord2;
+varying highp vec2 texcoord0;
+void main () {
+  gl_Position = vertex_matrix * vertex_position;
+  texcoord0 = vertex_texcoord0 - 0.5 * axis;
+}
+;
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
@@ -31,8 +34,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <AnalyticsEventObserverDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end

@@ -17,7 +17,8 @@ __attribute__((visibility("hidden")))
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)@(#)PROGRAM:FrontBoardServices  PROJECT:FrontBoard-1000.4.11
+ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) CTLazuliMessageEnvelope *messageEnvelope;

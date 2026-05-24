@@ -11,20 +11,15 @@
 
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
+- (id)nancialDataPersistentHistoryChange";
 - (id);
-- (id);
-- (id);
-- (void)singFileError;
+- (void)JetPackResourceBundleMissingFileError;
 
 // Remaining properties
 @property(nonatomic, readonly) id mescalCertificateURL;
-@property(nonatomic, readonly) id mescalPrimingURL;
-@property(nonatomic, readonly) id mescalSetupURL;
-@property(nonatomic, readonly) id mescalSignSapRequests;
-@property(nonatomic, readonly) id mescalSignSapResponses;
-@property(nonatomic, readonly) id mescalSignedActions;
 
 @end
 

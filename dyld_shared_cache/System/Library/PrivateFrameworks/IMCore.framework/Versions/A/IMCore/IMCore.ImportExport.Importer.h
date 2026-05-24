@@ -7,7 +7,6 @@
 @interface IMCore.ImportExport.Importer
 {
     id importStatistics;
-    id hasStarted;
 }
 
 @end

@@ -15,15 +15,15 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)SCNetworkServiceCopyAll;
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (void)orStage:(id)arg1 atIndex:stage: /* Error: Ran out of types for this method. */;
+- (void)_setBufferForStage:(id)arg1 atIndex:stage: /* Error: Ran out of types for this method. */;
 
 @end
 

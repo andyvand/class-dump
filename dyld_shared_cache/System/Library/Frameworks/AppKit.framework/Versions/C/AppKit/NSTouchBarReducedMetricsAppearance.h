@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct CGSize);
+- (struct CGSize)_backtrace;
 - (_Bool);
 
 @end

@@ -6,17 +6,11 @@
 
 #import <CoreDAV/CoreDAVTaskGroup.h>
 
-@class CoreDAVContainerMultiGetTask, NSError, NSMutableSet, NSSet, NSString;
-@protocol CoreDAVAccountInfoProvider, CoreDAVTaskManager;
+@class NSSet;
 
 @interface CoreDAVMultiGetWithFallbackTaskGroup : CoreDAVTaskGroup
 {
     _Bool _shouldIgnoreResponseErrors;
-    _Bool _usingMultiGet;
-    CoreDAVContainerMultiGetTask *_multiGetTask;
-    CDUnknownBlockType _getBlock;
-    NSMutableSet *_urls;
-    NSMutableSet *_parsedContents;
 }
 
 - (_Bool);
@@ -29,26 +23,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)tons;
 - (void);
 
 // Remaining properties
-@property(nonatomic) id <CoreDAVAccountInfoProvider> accountInfoProvider;
-@property(copy, nonatomic) CDUnknownBlockType completionBlock;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSSet *deletedURLs;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSError *error;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSSet *missingURLs;
-@property(readonly, nonatomic) NSSet *parsedContents;
-@property(nonatomic) _Bool shouldIgnoreResponseErrors; // @synthesize shouldIgnoreResponseErrors=_shouldIgnoreResponseErrors;
-@property(readonly) Class superclass;
-@property(nonatomic) id <CoreDAVTaskManager> taskManager;
-@property(nonatomic) double timeoutInterval;
 
 @end
 

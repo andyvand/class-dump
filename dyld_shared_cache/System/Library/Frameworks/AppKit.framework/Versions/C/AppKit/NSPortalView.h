@@ -6,29 +6,24 @@
 
 #import <AppKit/NSView.h>
 
-@protocol NSPortalViewImplementation;
-
 __attribute__((visibility("hidden")))
 @interface NSPortalView : NSView
 {
     NSView *_sourceView;
-    NSView<NSPortalViewImplementation> *_portalView;
-    unsigned int _hidesSourceLayer:1;
 }
 
-+ (_Bool);
++ (_Bool)rageURLCacheDB _setDBSchema:DB=%@ receiver_data recreate - %s. ErrCode:%d. /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)2oQ;
 - (void);
 - (void);
 - (void)× ;
-- (id)rtAttributedText:(struct CGRect)arg1;
-- (void)InsetsForState:(id)arg1;
+- (id)insertAttributedText:(struct CGRect)arg1;
+- (void)_starAlignmentRectInsetsForState:(id)arg1;
 - (_Bool)ø;
 - (void)extInputContext are mutually exclusive.;
 
 // Remaining properties
-@property _Bool hidesSourceLayer;
 @property(retain) NSView *sourceView;
 
 @end

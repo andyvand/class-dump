@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface AFBundleResourceManager
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_resourceURLProvidersByIdentifier;
 }
 
 + (id);
@@ -17,7 +14,7 @@
 - (id);
 - (id);
 - (id);
-- (void)ioSessionCoordinationDeviceInfoMutation;
+- (void)_AFAudioSessionCoordinationDeviceInfoMutation;
 
 @end
 

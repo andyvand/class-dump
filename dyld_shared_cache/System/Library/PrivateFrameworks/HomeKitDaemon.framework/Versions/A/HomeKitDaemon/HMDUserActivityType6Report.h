@@ -6,31 +6,27 @@
 
 #import <HomeKitDaemon/HMDUserActivityReport.h>
 
-@class NSDate;
-
 __attribute__((visibility("hidden")))
 @interface HMDUserActivityType6Report : HMDUserActivityReport
 {
     unsigned long long _state;
-    NSDate *_stateEnd;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)_invalidationHandler;
+- (id)$q;
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (id)edPrimaryResident:%@, isCurrentDeviceConnectedToNetwork:%@ /* Error: Ran out of types for this method. */;
-- (void)SiriEndpointProfileUpdatedNotification;
+- (void)HMDSiriEndpointProfileUpdatedNotification;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(readonly, nonatomic) NSDate *stateEnd; // @synthesize stateEnd=_stateEnd;
 
 @end
 

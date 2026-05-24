@@ -6,27 +6,20 @@
 
 #import <CoreBrightness/CBModule.h>
 
-@class CBDisplayModuleDFR, CBHIDEventManager, NSMutableArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface CBAutoBrightnessModuleDFR : CBModule
 {
     struct AABC *_AABC;
-    CBDisplayModuleDFR *_display;
-    NSMutableArray *_alsServiceClients;
-    NSMutableArray *_otherServiceClients;
-    CBHIDEventManager *_hidEventManager;
-    float _displayFactor;
 }
 
 - (_Bool);
 - (id);
 - (_Bool);
+- (void)`;
+- (id)*,ED;
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void));
+- (id)Histogram_RChannel;
 - (void);
 - (_Bool);
 - (void);
@@ -36,13 +29,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,33 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOLogMsgStateOfflineDownload
 {
     PBUnknownFields *_unknownFields;
-    NSString *_downloadCountry;
-    int _downloadSize;
-    int _entryTarget;
-    unsigned int _zoomLevel;
-    _Bool _automaticUpdates;
-    _Bool _downloadOnWifiOnly;
-    _Bool _isDownloadInHomeMetro;
-    _Bool _optimizeStorage;
-    _Bool _regionTilesWereResized;
-    struct {
-        unsigned int has_downloadSize:1;
-        unsigned int has_entryTarget:1;
-        unsigned int has_zoomLevel:1;
-        unsigned int has_automaticUpdates:1;
-        unsigned int has_downloadOnWifiOnly:1;
-        unsigned int has_isDownloadInHomeMetro:1;
-        unsigned int has_optimizeStorage:1;
-        unsigned int has_regionTilesWereResized:1;
-    } _flags;
 }
 
-+ (_Bool)pportsArMode:(id)arg1;
++ (_Bool)setHasSupportsArMode:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -41,14 +22,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
+- (_Bool)@9;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)ibrary/PrivateFrameworks/ContactsMetrics.framework/Versions/A/ContactsMetrics;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -57,16 +38,16 @@
 - (int);
 - (id);
 - (_Bool);
-- (_Bool);
-- (id);
-- (int);
+- (_Bool)stringWithCapacity: /* Error: Ran out of types for this method. */;
+- (id)URLPathAllowedCharacterSet;
+- (int)isInternalBuild;
+- (void)eComponents",C,N;
+- (_Bool)ager",R,N,V_fileManager;
+- (_Bool)>",R,N,V_strategy;
+- (int)CNMainQueueSchedulerCancelationToken;
 - (void);
-- (_Bool);
-- (_Bool);
-- (int);
-- (void);
 - (id);
-- (id);
+- (id)`2;
 - (void);
 - (void);
 - (void);
@@ -74,11 +55,11 @@
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (void);
+- (void)placeViewController:(_Bool)arg1 didSelectShareCurrentLocationWithCompletion: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (void);
-- (id)FindRoadsToNextIntersectionOf:(struct _NSZone *)arg1;
+- (_Bool)T;
+- (void)cmdID;
+- (id)synchronousFindRoadsToNextIntersectionOf:(struct _NSZone *)arg1;
 - (id)Score;
 - (id)o:[%{private}0.8f, %{private}0.8f]
  /* Error: Ran out of types for this method. */;
@@ -89,25 +70,7 @@
 - (int)l²9;
 
 // Remaining properties
-@property(nonatomic) _Bool automaticUpdates;
-@property(retain, nonatomic) NSString *downloadCountry;
-@property(nonatomic) _Bool downloadOnWifiOnly;
-@property(nonatomic) int downloadSize;
-@property(nonatomic) int entryTarget;
-@property(nonatomic) _Bool hasAutomaticUpdates;
 @property(readonly, nonatomic) _Bool hasDownloadCountry;
-@property(nonatomic) _Bool hasDownloadOnWifiOnly;
-@property(nonatomic) _Bool hasDownloadSize;
-@property(nonatomic) _Bool hasEntryTarget;
-@property(nonatomic) _Bool hasIsDownloadInHomeMetro;
-@property(nonatomic) _Bool hasOptimizeStorage;
-@property(nonatomic) _Bool hasRegionTilesWereResized;
-@property(nonatomic) _Bool hasZoomLevel;
-@property(nonatomic) _Bool isDownloadInHomeMetro;
-@property(nonatomic) _Bool optimizeStorage;
-@property(nonatomic) _Bool regionTilesWereResized;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) unsigned int zoomLevel;
 
 @end
 

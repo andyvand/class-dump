@@ -12,9 +12,9 @@
 + (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)@;
+- (id)TI;
+- (void)_isSpatialStereoGroup:(unsigned long long)arg1 inImageSource: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (_Bool);

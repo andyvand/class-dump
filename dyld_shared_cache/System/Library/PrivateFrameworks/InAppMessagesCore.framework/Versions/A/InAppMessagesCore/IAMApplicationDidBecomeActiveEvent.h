@@ -12,8 +12,8 @@
 
 - (id);
 - (id);
-- (long long);
-- (id);
+- (long long)experimentNotification;
+- (id);
 
 @end
 

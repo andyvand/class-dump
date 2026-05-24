@@ -5,5 +5,6 @@
 //
 
 @protocol SRUIFAceCommandRecordsDelegate
+- (void);
 @end
 

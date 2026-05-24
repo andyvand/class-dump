@@ -15,7 +15,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (void)chingUserTypedQuery: /* Error: Ran out of types for this method. */;
+- (void)isPredictionFromServerMatchingUserTypedQuery: /* Error: Ran out of types for this method. */;
 
 @end
 

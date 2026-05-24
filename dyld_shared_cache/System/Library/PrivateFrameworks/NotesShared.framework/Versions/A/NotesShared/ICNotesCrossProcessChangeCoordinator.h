@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectContext, NSPersistentStoreCoordinator;
-@protocol NSObject;
+@class NSPersistentStoreCoordinator;
 
 @interface ICNotesCrossProcessChangeCoordinator
 {
     NSPersistentStoreCoordinator *_sourceCoordinator;
-    NSManagedObjectContext *_destinationContext;
-    id <NSObject> _accountsNotificationsObserver;
 }
 
 - (id);
@@ -24,7 +21,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)6@"NSURLSessionTask"24@"NSURLAuthenticationChallenge"32@?<v@?q@"NSURLCredential">40;
 - (id);
 - (void);
 - (id);
@@ -32,8 +29,6 @@
 - (void)_;
 
 // Remaining properties
-@property(retain, nonatomic) id <NSObject> accountsNotificationsObserver; // @synthesize accountsNotificationsObserver=_accountsNotificationsObserver;
-@property(retain, nonatomic) NSManagedObjectContext *destinationContext; // @synthesize destinationContext=_destinationContext;
 @property(retain, nonatomic) NSPersistentStoreCoordinator *sourceCoordinator; // @synthesize sourceCoordinator=_sourceCoordinator;
 
 @end

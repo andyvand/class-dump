@@ -11,18 +11,12 @@
 @interface CHTextLineStrokeGroup : CHStrokeGroup
 {
     NSArray *_writingDirectionSortedSubstrokes;
-    struct CGVector _averageWritingOrientation;
-    struct CGVector _averageStrokeDeviation;
-    struct vector<CGVector, std::allocator<CGVector>> _localStrokeWritingOrientations;
-    long long _lastSubstrokeIndexBeforeMerge;
-    NSArray *_coalescedLastSubstrokes;
-    NSArray *_writingDirectionSortedStrokeIdentifiers;
 }
 
-+ (_Bool);
++ (_Bool)_indexesOfItemsDownloadedDuringDrag;
 - (id);
 - (id);
-- (id);
+- (id)KJ;
 - (struct CGPath *);
 - (struct CGPath *);
 - (struct CGVector);
@@ -32,8 +26,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (struct CGVector);
+- (id)%;
+- (struct CGVector)JO;
 - (struct CGVector);
 - (id);
 - (id);
@@ -42,7 +36,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *writingDirectionSortedStrokeIdentifiers; // @synthesize writingDirectionSortedStrokeIdentifiers=_writingDirectionSortedStrokeIdentifiers;
-@property(readonly, nonatomic) NSArray *writingDirectionSortedSubstrokes;
 
 @end
 

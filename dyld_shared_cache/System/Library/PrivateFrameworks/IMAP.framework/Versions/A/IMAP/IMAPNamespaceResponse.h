@@ -11,8 +11,6 @@
 @interface IMAPNamespaceResponse : IMAPResponse
 {
     NSArray *_privateNamespaces;
-    NSArray *_publicNamespaces;
-    NSArray *_sharedNamespaces;
 }
 
 + (_Bool);
@@ -27,8 +25,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *privateNamespaces; // @synthesize privateNamespaces=_privateNamespaces;
-@property(copy, nonatomic) NSArray *publicNamespaces; // @synthesize publicNamespaces=_publicNamespaces;
-@property(copy, nonatomic) NSArray *sharedNamespaces; // @synthesize sharedNamespaces=_sharedNamespaces;
 
 @end
 

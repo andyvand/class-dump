@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIViewController;
+@class NSArray;
 
 @interface ShouldShowBlockParameters
 {
     NSArray *_events;
-    UIViewController *_presentationController;
 }
 
-- (id);
+- (id)s;
 - (id);
 - (id);
 - (void):8@"NSIndexPath"16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *events; // @synthesize events=_events;
-@property(readonly, nonatomic) UIViewController *presentationController; // @synthesize presentationController=_presentationController;
 
 @end
 

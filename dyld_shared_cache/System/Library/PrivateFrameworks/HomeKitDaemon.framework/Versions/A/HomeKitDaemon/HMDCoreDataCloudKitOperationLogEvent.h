@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface HMDCoreDataCloudKitOperationLogEvent
 {
     unsigned long long _operationType;
-    double _interval;
 }
 
 - (id);
@@ -17,7 +16,6 @@ __attribute__((visibility("hidden")))
 - (unsigned long long)a break. Unable to create a brand new HH2 pairing key.;
 
 // Remaining properties
-@property(readonly) double interval; // @synthesize interval=_interval;
 @property(readonly) unsigned long long operationType; // @synthesize operationType=_operationType;
 
 @end

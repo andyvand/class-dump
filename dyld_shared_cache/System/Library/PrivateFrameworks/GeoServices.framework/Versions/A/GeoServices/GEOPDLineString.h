@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDLineString
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_points;
 }
 
 - (id);
@@ -19,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)OPDPlacecardEnrichmentParameters";
-- (id)perimentsChangedToken;
+- (id)_experimentsChangedToken;
 - (id)à:0; /* Error: Ran out of types for this method. */;
 - (void)Ë¡E¶³º@;
 

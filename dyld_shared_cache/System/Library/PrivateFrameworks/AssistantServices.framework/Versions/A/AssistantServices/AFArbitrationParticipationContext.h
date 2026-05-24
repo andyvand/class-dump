@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFMyriadRecord, CDASchemaCDAScoreBoosters, NSArray, NSDate, NSNumber;
+@class AFMyriadRecord;
 
 @interface AFArbitrationParticipationContext
 {
     _Bool _decisionIsWon;
-    unsigned char _deviceClass;
-    AFMyriadRecord *_ownAdvertisement;
-    NSArray *_advertisements;
-    NSDate *_requestStartDate;
-    NSDate *_voiceTriggerDate;
-    CDASchemaCDAScoreBoosters *_scoreBoosters;
-    NSNumber *_triggerType;
-    double _lastActivationTime;
 }
 
 - (id);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)J;
 - (id);
 - (id);
 - (double);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -36,19 +28,11 @@
 - (void);
 - (unsigned char);
 - (void);
-- (void)otMutability;
+- (void)AFMultiUserStateSnapshotMutability;
 - (void)öéÿ;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *advertisements; // @synthesize advertisements=_advertisements;
-@property(nonatomic) _Bool decisionIsWon; // @synthesize decisionIsWon=_decisionIsWon;
-@property(nonatomic) unsigned char deviceClass; // @synthesize deviceClass=_deviceClass;
-@property(nonatomic) double lastActivationTime; // @synthesize lastActivationTime=_lastActivationTime;
 @property(copy, nonatomic) AFMyriadRecord *ownAdvertisement; // @synthesize ownAdvertisement=_ownAdvertisement;
-@property(copy, nonatomic) NSDate *requestStartDate; // @synthesize requestStartDate=_requestStartDate;
-@property(retain, nonatomic) CDASchemaCDAScoreBoosters *scoreBoosters; // @synthesize scoreBoosters=_scoreBoosters;
-@property(copy, nonatomic) NSNumber *triggerType; // @synthesize triggerType=_triggerType;
-@property(copy, nonatomic) NSDate *voiceTriggerDate; // @synthesize voiceTriggerDate=_voiceTriggerDate;
 
 @end
 

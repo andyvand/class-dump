@@ -6,36 +6,28 @@
 
 #import <TrialServer/TRIBaseTask.h>
 
-@class NSArray, NSDate, NSMutableArray, NSSet, NSString;
-@protocol TRITaskAttributing, TRITaskQueueStateProviding;
+@class NSMutableArray;
 
 @interface TRIFetchRolloutNotificationListTask : TRIBaseTask
 {
     NSMutableArray *_metrics;
-    NSMutableArray *_dimensions;
-    NSMutableArray *_nextTasks;
-    NSDate *_startingFetchDateOverride;
-    NSSet *_namespaceNames;
-    id <TRITaskAttributing> _taskAttribution;
-    _Bool wasDeferred;
-    int retryCount;
 }
 
 + (id);
 + (_Bool);
-+ (id);
-- (id);
-- (void);
-- (id);
++ (id)personEntityRelevanceWiFiFeatures;
+- (id)mainDisplay;
+- (void)initForLimitedPropertiesWithPath:(id)arg1;
+- (id)tRecord that has a bad value for key '%@':(id)arg1 %@;
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)A;
 - (void);
 - (id);
 - (long long);
@@ -46,28 +38,14 @@
 - (_Bool)s Bucket Id.;
 - (id)ceIdentity options;
 - (unsigned long long)de end date (%@) in experiment %{public}@.;
-- (id)ces;
+- (id)globally_available_namespaces;
 - (int)n targeting error;
 - (void)FROM     maAutoAssets WHERE         type = :(int)arg1 type     AND specifier = :specifier     AND version = :version LIMIT 1; /* Error: Ran out of types for this method. */;
 - (int)ND deploymentId = :deployment_id /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSArray *dependencies;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) int retryCount; // @synthesize retryCount;
-@property(copy, nonatomic) NSDate *startTime;
-@property(nonatomic) __weak id <TRITaskQueueStateProviding> stateProvider;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *tags;
-@property(readonly, nonatomic) NSString *taskName;
-@property(readonly, nonatomic) int taskType;
-@property _Bool wasDeferred; // @synthesize wasDeferred;
 
 @end
 

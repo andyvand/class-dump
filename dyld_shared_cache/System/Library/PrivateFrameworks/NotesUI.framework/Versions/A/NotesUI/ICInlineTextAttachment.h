@@ -13,7 +13,7 @@
 }
 
 + (id);
-+ (Class);
++ (Class);
 + (id);
 
 // Remaining properties

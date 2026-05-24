@@ -12,7 +12,7 @@
 }
 
 + (id);
-+ (void)rsionMajor;
++ (void)VersionMajor;
 - (id);
 - (id);
 - (float);

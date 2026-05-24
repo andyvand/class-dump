@@ -6,46 +6,13 @@
 
 #import <NotesUI/ICTTTextController.h>
 
-@class ICAttachmentInsertionController, ICAuthorHighlightsController, ICHashtagController, ICMentionsController, ICNote, ICTTTextStorage, NSMutableArray, NSMutableDictionary;
-
 @interface ICTextController : ICTTTextController
 {
     _Bool _disableAddingExtraLinesIfNeeded;
-    _Bool _isForPrint;
-    _Bool _userChangedWritingDirection;
-    _Bool _trackAddedExtraNewlineRanges;
-    _Bool _isConvertingTables;
-    _Bool _shouldMergeNoteAfterScrolling;
-    _Bool _isAutoListInsertionDisabled;
-    ICNote *_note;
-    ICAttachmentInsertionController *_attachmentInsertionController;
-    NSMutableDictionary *_trackedToDoParagraphs;
-    NSMutableArray *_trackedRangesForAddedExtraNewlines;
-    unsigned long long _overrideAppearanceType;
-    ICAuthorHighlightsController *_authorHighlightsController;
-    ICMentionsController *_mentionsController;
-    ICHashtagController *_hashtagController;
-    unsigned long long _pauseMergeForScrollingCounter;
-    ICTTTextStorage *_emptyTextStorage;
 }
 
 
 // Remaining properties
-@property(nonatomic) __weak ICAttachmentInsertionController *attachmentInsertionController; // @synthesize attachmentInsertionController=_attachmentInsertionController;
-@property(nonatomic) __weak ICAuthorHighlightsController *authorHighlightsController; // @synthesize authorHighlightsController=_authorHighlightsController;
-@property(nonatomic) _Bool disableAddingExtraLinesIfNeeded; // @synthesize disableAddingExtraLinesIfNeeded=_disableAddingExtraLinesIfNeeded;
-@property(retain, nonatomic) ICTTTextStorage *emptyTextStorage; // @synthesize emptyTextStorage=_emptyTextStorage;
-@property(nonatomic) __weak ICHashtagController *hashtagController; // @synthesize hashtagController=_hashtagController;
-@property(nonatomic) _Bool isAutoListInsertionDisabled; // @synthesize isAutoListInsertionDisabled=_isAutoListInsertionDisabled;
-@property(nonatomic) _Bool isConvertingTables; // @synthesize isConvertingTables=_isConvertingTables;
-@property(nonatomic) __weak ICMentionsController *mentionsController; // @synthesize mentionsController=_mentionsController;
-@property(nonatomic) __weak ICNote *note; // @synthesize note=_note;
-@property(nonatomic) unsigned long long overrideAppearanceType; // @synthesize overrideAppearanceType=_overrideAppearanceType;
 @property(nonatomic) unsigned long long pauseMergeForScrollingCounter; // @synthesize pauseMergeForScrollingCounter=_pauseMergeForScrollingCounter;
-@property(nonatomic) _Bool shouldMergeNoteAfterScrolling; // @synthesize shouldMergeNoteAfterScrolling=_shouldMergeNoteAfterScrolling;
-@property(nonatomic) _Bool trackAddedExtraNewlineRanges; // @synthesize trackAddedExtraNewlineRanges=_trackAddedExtraNewlineRanges;
-@property(retain, nonatomic) NSMutableArray *trackedRangesForAddedExtraNewlines; // @synthesize trackedRangesForAddedExtraNewlines=_trackedRangesForAddedExtraNewlines;
-@property(readonly, nonatomic) NSMutableDictionary *trackedToDoParagraphs; // @synthesize trackedToDoParagraphs=_trackedToDoParagraphs;
-@property _Bool userChangedWritingDirection; // @synthesize userChangedWritingDirection=_userChangedWritingDirection;
 @end
 

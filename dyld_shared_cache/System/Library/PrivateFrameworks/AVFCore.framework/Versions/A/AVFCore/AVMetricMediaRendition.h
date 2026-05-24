@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface AVMetricMediaRendition
 {
     NSString *_stableID;
-    NSURL *_url;
 }
 
 + (_Bool);
@@ -22,7 +21,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly) NSURL *URL;
 @property(readonly) NSString *stableID;
 
 @end

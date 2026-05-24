@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBAppNames, _INPBIntentVocabulary, _INPBLanguageTag;
+@class _INPBAppNames;
 
 @interface _INPBLocalizedProject
 {
     struct _has;
-    _INPBAppNames *_appNames;
-    _INPBIntentVocabulary *_intentVocabulary;
-    _INPBLanguageTag *_language;
 }
 
 + (_Bool);
@@ -24,30 +21,18 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)`;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void)y;
-- (void)withCompletion:(id)arg1;
+- (void)INPlayVoicemailIntentResponseCodeReady;
+- (void)providePropertiesOptionsCollectionForCopyFile:(id)arg1 searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBAppNames *appNames; // @synthesize appNames=_appNames;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasAppNames;
-@property(readonly, nonatomic) _Bool hasIntentVocabulary;
-@property(readonly, nonatomic) _Bool hasLanguage;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentVocabulary *intentVocabulary; // @synthesize intentVocabulary=_intentVocabulary;
-@property(retain, nonatomic) _INPBLanguageTag *language; // @synthesize language=_language;
-@property(readonly) Class superclass;
 
 @end
 

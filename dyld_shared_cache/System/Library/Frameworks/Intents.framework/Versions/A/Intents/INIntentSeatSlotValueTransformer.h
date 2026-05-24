@@ -13,7 +13,7 @@
 + (Class);
 + (long long)ttyType;
 - (id);
-- (id)tringAsReadType:(id)arg1;
+- (id)StringAsReadType:(id)arg1;
 
 @end
 

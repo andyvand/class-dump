@@ -7,14 +7,6 @@
 @interface RemindersUICore.TTRMReminderCellHashtagPresenter
 {
     id delegate;
-    id moduleDelegate;
-    id hostCell;
-    id item;
-    id hashtagData;
-    id hashtagsOverrideFont;
-    id interactor;
-    id router;
-    id editingPresenter;
 }
 
 @end

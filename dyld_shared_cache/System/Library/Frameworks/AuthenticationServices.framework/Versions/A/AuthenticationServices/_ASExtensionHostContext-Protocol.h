@@ -7,6 +7,7 @@
 @protocol _ASExtensionHostContextDelegate;
 
 @protocol _ASExtensionHostContext
+- (id <_ASExtensionHostContextDelegate>);
 
 // Remaining properties
 @property(nonatomic) __weak id <_ASExtensionHostContextDelegate> delegate;

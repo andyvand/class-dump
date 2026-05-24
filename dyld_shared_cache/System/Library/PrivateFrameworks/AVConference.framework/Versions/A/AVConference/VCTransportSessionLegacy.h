@@ -6,62 +6,22 @@
 
 #import <AVConference/VCTransportSession.h>
 
-@class GKInterfaceListener, LoopbackSocketTunnel, NSCondition, NSData, NSDictionary, NSMutableDictionary, NSObject, NSString, TCPTunnelClient, VCTransport;
-@protocol OS_dispatch_source, VCConnectionProtocol, VCTransportSessionLegacyDelegate, VideoConferenceRealTimeChannel;
-
 __attribute__((visibility("hidden")))
 @interface VCTransportSessionLegacy : VCTransportSession
 {
     unsigned char _localU8Version;
-    long long relayState;
-    int pendingRelayCount;
-    float callerPreEmptiveTimeoutInSecs;
-    unsigned int _connectionSetupRTTEstimate;
-    _Bool allowsRelay;
-    _Bool initialSecondaryRelaySetupDone;
-    _Bool requestedTimeoutRelay;
-    _Bool _isCaller;
-    _Bool _didReceivePiggybackBlob;
-    _Bool _useLoopback;
-    _Bool _isRemoteOSPreLion;
-    _Bool _isStarted;
-    NSObject<OS_dispatch_source> *relaySetupTimer;
-    VCTransport *transport;
-    unsigned int _callID;
-    unsigned int _remoteCallID;
-    int _NATType;
-    NSMutableDictionary *_localRelayRequestResponse;
-    NSDictionary *_localRelayUpdate;
-    NSMutableDictionary *_remoteRelayRequestResponse;
-    NSDictionary *_remoteRelayUpdate;
-    NSData *_localConnectionData;
-    NSData *_localRelayConnectionData;
-    NSData *_remoteConnectionData;
-    NSData *_remoteRelayConnectionData;
-    NSString *_localParticipantID;
-    NSString *_remoteParticipantID;
-    NSString *_sessionID;
-    struct __SecIdentity *_identity;
-    TCPTunnelClient *_tcpTunnelClient;
-    NSObject<VideoConferenceRealTimeChannel> *rtChannel;
-    LoopbackSocketTunnel *_tunnel;
-    id <VCConnectionProtocol> _loopbackConnection;
-    NSCondition *_connectionDataTimeoutCondVar;
-    GKInterfaceListener *_interfaceListener;
-    int _operatingMode;
-    id _delegate;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)3;
 - (void);
 - (_Bool);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)T;
 - (void);
 - (void);
 - (void);
@@ -92,8 +52,8 @@ __attribute__((visibility("hidden")))
 - (int);
 - (int);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)";
 - (id);
 - (id);
 - (id);
@@ -120,7 +80,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (int);
 - (void);
-- (_Bool);
+- (_Bool)R;
 - (void);
 - (id);
 - (id);
@@ -129,7 +89,7 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (void);
 - (id);
-- (id);
+- (id)?;
 - (void);
 - (_Bool);
 - (void);
@@ -137,51 +97,26 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (struct tagIPPORT);
+- (struct tagIPPORT);
 - (int);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
 - (id);
+- (id));
 - (void);
+- (void);
+- (void)m;
+- (void);
+- (void);
+- (id);
+- (void)policies are not a dictionary;
 - (void);
 - (id);
 
 // Remaining properties
-@property int NATType; // @synthesize NATType=_NATType;
-@property _Bool allowsRelay; // @synthesize allowsRelay;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property id <VCTransportSessionLegacyDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool initialSecondaryRelaySetupDone; // @synthesize initialSecondaryRelaySetupDone;
-@property _Bool isCaller; // @synthesize isCaller=_isCaller;
-@property(retain) NSData *localConnectionData; // @synthesize localConnectionData=_localConnectionData;
-@property(copy) NSString *localParticipantID; // @synthesize localParticipantID=_localParticipantID;
-@property(retain) NSData *localRelayConnectionData; // @synthesize localRelayConnectionData=_localRelayConnectionData;
-@property(retain) NSMutableDictionary *localRelayRequestResponse; // @synthesize localRelayRequestResponse=_localRelayRequestResponse;
-@property(retain, nonatomic) NSDictionary *localRelayUpdate; // @synthesize localRelayUpdate=_localRelayUpdate;
-@property int operatingMode; // @synthesize operatingMode=_operatingMode;
 @property(nonatomic) int pendingRelayCount; // @synthesize pendingRelayCount;
-@property unsigned int remoteCallID; // @synthesize remoteCallID=_remoteCallID;
-@property(retain) NSData *remoteConnectionData; // @synthesize remoteConnectionData=_remoteConnectionData;
-@property(copy) NSString *remoteParticipantID; // @synthesize remoteParticipantID=_remoteParticipantID;
-@property(retain, nonatomic) NSData *remoteRelayConnectionData; // @synthesize remoteRelayConnectionData=_remoteRelayConnectionData;
-@property(retain, nonatomic) NSMutableDictionary *remoteRelayRequestResponse; // @synthesize remoteRelayRequestResponse=_remoteRelayRequestResponse;
-@property(retain, nonatomic) NSDictionary *remoteRelayUpdate; // @synthesize remoteRelayUpdate=_remoteRelayUpdate;
-@property(copy) NSString *sessionID; // @synthesize sessionID=_sessionID;
-@property(readonly) Class superclass;
 
 @end
 

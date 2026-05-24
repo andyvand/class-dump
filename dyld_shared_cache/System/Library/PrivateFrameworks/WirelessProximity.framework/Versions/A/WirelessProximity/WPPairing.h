@@ -6,27 +6,24 @@
 
 #import <WirelessProximity/WPClient.h>
 
-@class NSMutableSet;
 @protocol WPPairingDelegate;
 
 @interface WPPairing : WPClient
 {
     _Bool _allowScreenOffScanning;
-    id <WPPairingDelegate> _delegate;
-    NSMutableSet *_ignoredDevices;
 }
 
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)kIOGPUCommandBufferCallbackErrorNotPermitted;
+- (void)+;
 - (void);
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)tive}@ indexing failed with error %@;
 - (void);
 - (void);
 - (void);
@@ -42,9 +39,7 @@
 × ;
 
 // Remaining properties
-@property _Bool allowScreenOffScanning; // @synthesize allowScreenOffScanning=_allowScreenOffScanning;
 @property(nonatomic) __weak id <WPPairingDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) NSMutableSet *ignoredDevices; // @synthesize ignoredDevices=_ignoredDevices;
 
 @end
 

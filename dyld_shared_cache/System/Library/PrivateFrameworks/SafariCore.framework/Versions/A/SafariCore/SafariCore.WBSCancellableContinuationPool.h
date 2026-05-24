@@ -7,7 +7,6 @@
 @interface SafariCore.WBSCancellableContinuationPool
 {
     id $defaultActor;
-    id continuations;
 }
 
 @end

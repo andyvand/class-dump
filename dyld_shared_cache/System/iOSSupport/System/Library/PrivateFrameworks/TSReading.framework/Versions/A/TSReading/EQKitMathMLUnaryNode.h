@@ -12,7 +12,7 @@
 }
 
 - (const void *);
-- (_Bool);
+- (_Bool)P;
 - (id);
 - (id);
 - (void);

@@ -4,49 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIFont, UITableViewIndex;
+@class UITableViewIndex;
 
 @interface UITableViewIndexVisualStyle_iOS
 {
     UITableViewIndex *_tableViewIndex;
-    UIFont *_font;
-    double _verticalTextHeightEstimate;
 }
 
 + (id);
+- (void)isPlayed;
+- (double)initWithLocalDomain:remoteDomain:localStorageDelegate:remoteStorageDelegate:watchSyncDelegate:syncConfigurationDelegate: /* Error: Ran out of types for this method. */;
+- (void)didReceiveMessagePlayedReceiptForMessageID:date:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)didReceiveMessagePlayedReceiptForMessageID:date:completionBlock: /* Error: Ran out of types for this method. */;
+- (id)conversationManager:activitySessionsChangedForConversation: /* Error: Ran out of types for this method. */;
+- (void)_nicknameService;
+- (void)_handleFileTransferStopped:(id)arg1;
 - (void);
 - (double);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (double);
-- (void);
-- (id);
-- (double);
-- (void);
-- (void);
-- (double);
-- (double)UiStateTransitionProgress: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
-- (void)tionShortcutIconTypeHome;
+- (double);
+- (void);
+- (void)ing recent tasks from IMDPersistenceAgent:(long long)arg1 %@;
+- (double);
+- (double)setUiStateTransitionProgress: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)UIApplicationShortcutIconTypeHome;
 - (void)ÐÔ§ÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UIFont *font; // @synthesize font=_font;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double indexWidth;
-@property(readonly, nonatomic) double lineSpacing;
-@property(readonly, nonatomic) double minLineSpacing;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak UITableViewIndex *tableViewIndex; // @synthesize tableViewIndex=_tableViewIndex;
 @property(nonatomic) double verticalTextHeightEstimate; // @synthesize verticalTextHeightEstimate=_verticalTextHeightEstimate;
 
 @end

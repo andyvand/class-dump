@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 - (void)Ôð!Bù1[1Â0@ù
 × ;
-- (id)orderingOfIndexPath:cell: /* Error: Ran out of types for this method. */;
+- (id)_beginDragAndDropReorderingOfIndexPath:cell: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

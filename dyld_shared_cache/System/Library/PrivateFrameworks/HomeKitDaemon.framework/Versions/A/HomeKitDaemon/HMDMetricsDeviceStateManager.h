@@ -4,50 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMMDateProvider, NSDate, NSString;
-@protocol HAPSystemKeyCountProvider, HMDFileManager, HMMLogEventSubmitting;
+@protocol HMDFileManager;
 
 __attribute__((visibility("hidden")))
 @interface HMDMetricsDeviceStateManager
 {
     struct os_unfair_lock_s _lock;
-    _Bool _hh2SentinelZoneExists;
-    unsigned long long _currentDataSyncState;
-    unsigned long long _currentHomeManagerStatus;
-    unsigned long long _bitMappedMissingKeys;
-    unsigned long long _bitMappedDuplicateKeys;
-    id <HMMLogEventSubmitting> _logEventSubmitter;
-    NSDate *_lastSoftwareUpdateDate;
-    id <HMDFileManager> _fileManager;
-    HMMDateProvider *_dateProvider;
-    id <HAPSystemKeyCountProvider> _keyCountProvider;
-    unsigned long long _coreDataRootSizeKB;
-    unsigned long long _coreDataLocalStoreSizeKB;
-    unsigned long long _coreDataCloudStoreSizeKB;
-    unsigned long long _coreDataSharedCloudStoreSizeKB;
-    unsigned long long _legacyV1DatabaseSizeKB;
-    unsigned long long _legacyV3DatabaseSizeKB;
-    unsigned long long _eventStoreHH2SizeKB;
 }
 
 + (id);
++ (long long)C;
 + (long long);
-+ (long long);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)__objc_classname__TEXT;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
+- (unsigned long long)bileOptions",R,N;
+- (unsigned long long)_msp_blockedTestTripIdentifiers;
+- (id)SharedTripCapabilityFetching;
 - (id);
 - (_Bool);
 - (void);
@@ -60,49 +42,25 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
+- (unsigned long long)Rte;
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
-- (id);
+- (id)#	;
 - (id);
 - (void):(id)arg1 %{public}@;
 - (void)te audio group identifier:%@ for participant accessory identifier:%@ destination:%@ /* Error: Ran out of types for this method. */;
 - (void)has not been load from storage yet, no need to cleanup memory objects;
 - (void)s;
-- (void)ions;
+- (void)topicAdditions;
 - (id)=;
 - (id);
 - (id)mÿ­_;
 
 // Remaining properties
-@property(readonly) unsigned long long bitMappedDuplicateKeys; // @synthesize bitMappedDuplicateKeys=_bitMappedDuplicateKeys;
-@property(readonly) unsigned long long bitMappedMissingKeys; // @synthesize bitMappedMissingKeys=_bitMappedMissingKeys;
-@property unsigned long long coreDataCloudStoreSizeKB; // @synthesize coreDataCloudStoreSizeKB=_coreDataCloudStoreSizeKB;
-@property unsigned long long coreDataLocalStoreSizeKB; // @synthesize coreDataLocalStoreSizeKB=_coreDataLocalStoreSizeKB;
-@property unsigned long long coreDataRootSizeKB; // @synthesize coreDataRootSizeKB=_coreDataRootSizeKB;
-@property unsigned long long coreDataSharedCloudStoreSizeKB; // @synthesize coreDataSharedCloudStoreSizeKB=_coreDataSharedCloudStoreSizeKB;
-@property(readonly) unsigned long long currentDataSyncState; // @synthesize currentDataSyncState=_currentDataSyncState;
-@property(readonly) unsigned long long currentHomeManagerStatus; // @synthesize currentHomeManagerStatus=_currentHomeManagerStatus;
-@property(readonly, nonatomic) __weak HMMDateProvider *dateProvider; // @synthesize dateProvider=_dateProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) long long deviceDaysSinceSoftwareUpdate;
-@property unsigned long long eventStoreHH2SizeKB; // @synthesize eventStoreHH2SizeKB=_eventStoreHH2SizeKB;
 @property(readonly, nonatomic) id <HMDFileManager> fileManager; // @synthesize fileManager=_fileManager;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool hh2SentinelZoneExists; // @synthesize hh2SentinelZoneExists=_hh2SentinelZoneExists;
-@property(readonly, nonatomic) id <HAPSystemKeyCountProvider> keyCountProvider; // @synthesize keyCountProvider=_keyCountProvider;
-@property(readonly, nonatomic) NSDate *lastSoftwareUpdateDate; // @synthesize lastSoftwareUpdateDate=_lastSoftwareUpdateDate;
-@property unsigned long long legacyV1DatabaseSizeKB; // @synthesize legacyV1DatabaseSizeKB=_legacyV1DatabaseSizeKB;
-@property unsigned long long legacyV3DatabaseSizeKB; // @synthesize legacyV3DatabaseSizeKB=_legacyV3DatabaseSizeKB;
-@property(readonly, nonatomic) id <HMMLogEventSubmitting> logEventSubmitter; // @synthesize logEventSubmitter=_logEventSubmitter;
-@property(readonly) Class superclass;
 
 @end
 

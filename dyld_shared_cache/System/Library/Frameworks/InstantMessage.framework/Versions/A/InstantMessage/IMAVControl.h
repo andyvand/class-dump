@@ -16,12 +16,12 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)_currentController;
+- (id);
 - (_Bool);
 - (void);
 - (long long);
-- (long long);
+- (long long)characteristicType;
 - (double);
 - (id);
 - (float);

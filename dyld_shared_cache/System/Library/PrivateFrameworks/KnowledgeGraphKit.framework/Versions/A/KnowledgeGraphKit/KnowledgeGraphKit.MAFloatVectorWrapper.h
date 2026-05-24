@@ -4,37 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface KnowledgeGraphKit.MAFloatVectorWrapper
 {
     id _floatVector;
 }
 
 + (id);
++ (id);
 + (id);
-+ (id);
+- (id);
+- (id);
+- (float)h;
 - (id);
 - (id);
 - (float);
 - (id);
-- (id);
-- (float);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (float);
 - (float);
 - (float);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (id);
 - (_Bool);
@@ -43,15 +41,12 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)ize"{CGSize="width"d"height"d}};
 - (float);
 - (void);
 
 // Remaining properties
 @property(nonatomic, readonly) long long count;
-@property(nonatomic, readonly) NSString *debugDescription;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long hash;
 
 @end
 

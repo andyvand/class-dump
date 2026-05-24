@@ -7,9 +7,13 @@
 @class HMDCameraClipSignificantEventBulletin;
 
 @protocol HMDCameraBulletinBoard
+- (void)in;
 - (void)ÑÐ1Â0@ù
 × ;
-- (_Bool)ry;
+- (_Bool)isHAPAirPlay2Accessory;
 - (void)or device:(HMDCameraClipSignificantEventBulletin *)arg1 %@;
+
+@optional
+- (void);
 @end
 

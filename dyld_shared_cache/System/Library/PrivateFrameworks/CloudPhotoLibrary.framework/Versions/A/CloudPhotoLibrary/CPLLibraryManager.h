@@ -4,45 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLChangeSession, CPLConfiguration, CPLPlatformObject, CPLStatus, NSError, NSObject, NSString, NSURL, _CPLWeakLibraryManager;
-@protocol CPLLibraryManagerDelegate, CPLLibraryManagerForceSyncDelegate, CPLLibraryManagerOwner, CPLRecordComputeStateDelegate, CPLResourceProgressDelegate, OS_dispatch_queue;
+@class CPLChangeSession;
 
 @interface CPLLibraryManager
 {
     CPLChangeSession *_currentSession;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_sessionLock;
-    _Bool _sizeOfResourcesToUploadIsSet;
-    NSObject<OS_dispatch_queue> *_initLock;
-    CPLConfiguration *_configuration;
-    CPLStatus *_syncStatus;
-    _CPLWeakLibraryManager *_weakSelf;
-    _Bool _preventObserving;
-    _Bool _forManagement;
-    _Bool _hasFetchedBoundaryKey;
-    CPLPlatformObject *_platformObject;
-    NSURL *_clientLibraryBaseURL;
-    NSURL *_cloudLibraryStateStorageURL;
-    NSURL *_cloudLibraryResourceStorageURL;
-    NSString *_libraryIdentifier;
-    NSString *_mainScopeIdentifier;
-    unsigned long long _libraryOptions;
-    NSString *_libraryVersion;
-    unsigned long long _sizeOfResourcesToUpload;
-    unsigned long long _sizeOfOriginalResourcesToUpload;
-    unsigned long long _numberOfImagesToUpload;
-    unsigned long long _numberOfVideosToUpload;
-    unsigned long long _numberOfOtherItemsToUpload;
-    id <CPLLibraryManagerDelegate> _delegate;
-    id <CPLResourceProgressDelegate> _resourceProgressDelegate;
-    id <CPLLibraryManagerForceSyncDelegate> _forceSyncDelegate;
-    id <CPLLibraryManagerOwner> _owner;
-    unsigned long long _status;
-    NSError *_statusError;
-    unsigned long long _state;
-    NSString *_userOverride;
-    NSString *_effectiveClientBundleIdentifier;
-    id <CPLRecordComputeStateDelegate> _recordComputeStateDelegate;
 }
 
 + (id);
@@ -50,17 +16,17 @@
 + (id);
 + (id);
 + (id);
++ (id);
++ (id);
++ (id);
++ (unsigned long long);
 + (id);
 + (id);
-+ (id);
-+ (unsigned long long)èK@ù@ùë`;
-+ (id)8Ô#ÕÿÑüo©öW©ôO©ý{©ýC(ÐñEù@ù¨ø;
-+ (id);
-+ (id);
++ (id);
 + (void);
 + (id);
-+ (id);
-- (void);
++ (id)getLocalNetBIOSNameUsingHostName;
+- (void)inheritedContentPolicy;
 - (void);
 - (void);
 - (id);
@@ -97,8 +63,8 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)`>;
+- (void)!#;
 - (id);
 - (void);
 - (void);
@@ -106,39 +72,38 @@
 - (id);
 - (id);
 - (id);
-- (void)error:(id)arg1;
-- (void)ionsFromDescription: /* Error: Ran out of types for this method. */;
-- (void)0 Ä	È¨
-XÌ	 	¨ à¡t¦¦	§;
-- (void)%@ from %@;
-- (void):(id)arg1 %@;
-- (unsigned long long)2@ùè|ýª0Iö;
-- (void)àªm[àªk[É!Bùö#;
-- (unsigned long long)àªìmàªêmXñÿµàªYýªñmõ;
-- (unsigned long long)ø;
-- (void){©ýóªô;
-- (void)âª'2àªûàªûù@ùèC;
-- (void)Ðc`ä;
-- (void);
-- (void)ªþô;
-- (unsigned long long))@ù?ëÁ;
-- (void)ª÷Xõª;
-- (void)Ò	ýªRô;
-- (id)Þ1ýªÆ	ó;
-- (id)äC;
-- (id)àªì	#ÕöW½©ôO©ý{©ý;
+- (void)P;
 - (void);
 - (void);
 - (void);
 - (void);
+- (unsigned long long)G;
+- (void);
+- (unsigned long long);
+- (unsigned long long);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (unsigned long long);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)P;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)A/UserManagement;
 - (void);
-- (void);
+- (void)libtextproc/libmrec/src/dfutil/encrypt.cpp;
 - (void);
 - (id);
 - (unsigned long long);
@@ -156,6 +121,18 @@
 - (void);
 - (void);
 - (void);
+- (void));
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)";
+- (void);
+- (void);
+- (void)*;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -166,24 +143,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)8;
+- (void)NAME_LIST_REFERRAL!;
+- (void)readdirattr_off;
 - (void);
 - (id);
-- (id);
+- (id)*;
 - (void);
 - (void);
 - (void);
@@ -206,19 +171,19 @@
 - (void)
 × ;
 - (void)te>";
-- (void)MonitoringPowerEvents;
-- (id): /* Error: Ran out of types for this method. */;
-- (void)yHasBeenWiped:(CDUnknownBlockType)arg1;
-- (void)ier;
-- (void):(id)arg1 error:(_Bool)arg2;
-- (void)on: /* Error: Ran out of types for this method. */;
-- (void)ntifier:error: /* Error: Ran out of types for this method. */;
-- (void)eResourceType;
-- (void)error:(CDUnknownBlockType)arg1;
-- (void)lient;
-- (_Bool)Phase;
-- (void);
-- (void)kForResource:(id)arg1 withError:(CDUnknownBlockType)arg2 withCompletionHandler: /* Error: Ran out of types for this method. */;
+- (void)startMonitoringPowerEvents;
+- (id)setResource: /* Error: Ran out of types for this method. */;
+- (void)setICloudLibraryHasBeenWiped:(CDUnknownBlockType)arg1;
+- (void)realScopedIdentifier;
+- (void)mergerForBatch:(id)arg1 error:(_Bool)arg2;
+- (void)isBudgetTypeSupportedForProgressiveOverriding:withReason: /* Error: Ran out of types for this method. */;
+- (void)discardChangeWithScopedIdentifier:error: /* Error: Ran out of types for this method. */;
+- (void)baseDerivativeResourceType;
+- (void)addComputeState:(CDUnknownBlockType)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)_someScopeMightHaveToBePulledByClient;
+- (_Bool)_shouldRequestABackgroundDownloadSyncPhase;
+- (void)_ivar;
+- (void)_dispatchFailedInMemoryDownloadTaskForResource:(id)arg1 withError:(CDUnknownBlockType)arg2 withCompletionHandler: /* Error: Ran out of types for this method. */;
 - (void)ojectDocumentType;
 - (void)e>",W,N,V_delegateQueue;
 - (void)ä*ì*+Ü,|. /l02;
@@ -240,39 +205,7 @@
 - (void)d;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSURL *clientLibraryBaseURL; // @synthesize clientLibraryBaseURL=_clientLibraryBaseURL;
-@property(readonly, copy, nonatomic) NSURL *cloudLibraryResourceStorageURL; // @synthesize cloudLibraryResourceStorageURL=_cloudLibraryResourceStorageURL;
-@property(readonly, copy, nonatomic) NSURL *cloudLibraryStateStorageURL; // @synthesize cloudLibraryStateStorageURL=_cloudLibraryStateStorageURL;
-@property(readonly, nonatomic) CPLConfiguration *configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CPLLibraryManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *effectiveClientBundleIdentifier; // @synthesize effectiveClientBundleIdentifier=_effectiveClientBundleIdentifier;
-@property(nonatomic) __weak id <CPLLibraryManagerForceSyncDelegate> forceSyncDelegate; // @synthesize forceSyncDelegate=_forceSyncDelegate;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) _Bool isSystemLibrary;
-@property(readonly, copy, nonatomic) NSString *libraryIdentifier; // @synthesize libraryIdentifier=_libraryIdentifier;
-@property(readonly, nonatomic) unsigned long long libraryOptions; // @synthesize libraryOptions=_libraryOptions;
-@property(readonly, copy, nonatomic) NSString *libraryVersion; // @synthesize libraryVersion=_libraryVersion;
-@property(readonly, copy, nonatomic) NSString *mainScopeIdentifier; // @synthesize mainScopeIdentifier=_mainScopeIdentifier;
-@property(readonly, nonatomic) unsigned long long numberOfImagesToUpload; // @synthesize numberOfImagesToUpload=_numberOfImagesToUpload;
-@property(readonly, nonatomic) unsigned long long numberOfOtherItemsToUpload; // @synthesize numberOfOtherItemsToUpload=_numberOfOtherItemsToUpload;
-@property(readonly, nonatomic) unsigned long long numberOfVideosToUpload; // @synthesize numberOfVideosToUpload=_numberOfVideosToUpload;
-@property(nonatomic) __weak id <CPLLibraryManagerOwner> owner; // @synthesize owner=_owner;
-@property(readonly, nonatomic) CPLPlatformObject *platformObject; // @synthesize platformObject=_platformObject;
-@property(nonatomic) __weak id <CPLRecordComputeStateDelegate> recordComputeStateDelegate; // @synthesize recordComputeStateDelegate=_recordComputeStateDelegate;
-@property(nonatomic) __weak id <CPLResourceProgressDelegate> resourceProgressDelegate; // @synthesize resourceProgressDelegate=_resourceProgressDelegate;
-@property(readonly, nonatomic) unsigned long long sizeOfOriginalResourcesToUpload; // @synthesize sizeOfOriginalResourcesToUpload=_sizeOfOriginalResourcesToUpload;
-@property(readonly, nonatomic) unsigned long long sizeOfResourcesToUpload; // @synthesize sizeOfResourcesToUpload=_sizeOfResourcesToUpload;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(readonly, nonatomic) unsigned long long status; // @synthesize status=_status;
-@property(readonly, nonatomic) NSError *statusError; // @synthesize statusError=_statusError;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CPLStatus *syncStatus;
-@property(copy, nonatomic) NSString *userOverride; // @synthesize userOverride=_userOverride;
 
 @end
 

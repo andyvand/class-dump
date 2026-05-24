@@ -4,35 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEORoadAccessPoint
 {
     PBUnknownFields *_unknownFields;
-    GEOLatLng *_location;
-    int _cyclingDirection;
-    unsigned int _distanceCm;
-    int _drivingDirection;
-    int _parkingDirection;
-    unsigned int _significance;
-    int _source;
-    int _transitDirection;
-    int _walkingDirection;
-    _Bool _isApproximate;
-    struct {
-        unsigned int has_cyclingDirection:1;
-        unsigned int has_distanceCm:1;
-        unsigned int has_drivingDirection:1;
-        unsigned int has_parkingDirection:1;
-        unsigned int has_significance:1;
-        unsigned int has_source:1;
-        unsigned int has_transitDirection:1;
-        unsigned int has_walkingDirection:1;
-        unsigned int has_isApproximate:1;
-    } _flags;
 }
 
-+ (_Bool)tMapDisplayType:(id)arg1;
++ (_Bool)setMapDisplayType:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -53,41 +32,41 @@
 - (void);
 - (_Bool);
 - (unsigned int);
-- (int);
+- (int)456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz./;
 - (void);
+- (void)@ self=%@;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)_deviceAudioLoggingWithFileWriter:(id)arg1;
+- (void)ve;
+- (void)ltInVoiceTrigger CSMacWakeSleepMonitor:(_Bool)arg1 deviceTurnedOn:] /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)*;
 - (int);
-- (int);
+- (int)resetCompassFlatWithMapPitch:pitchEnabled:mapType:changeButtonTextWithPitch: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (_Bool);
-- (int);
+- (int)G{;
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)ection:Received kRDServerRunning message, setting fServerIsRunning = true /* Error: Ran out of types for this method. */;
 - (int)'!;
 - (int)eExperienceShown"b1"read_placeCardPossibleActions"b1"read_placeCardUnactionableUiElements"b1"read_account"b1"read_actionButtonDetailsState"b1"read_carPlayInfo"b1"read_curatedCollectionState"b1"read_deviceInputLocale"b1"read_deviceOutputLocale"b1"read_impressionObjectState"b1"read_lookAroundLocation"b1"read_mapLaunchLaunchUri"b1"read_mapLaunchReferringWebsite"b1"read_mapLaunchSourceAppId"b1"read_mapLaunchSourceHandoffDevice"b1"read_mapViewMapRegion"b1"read_mapsPlaceIdsState"b1"read_mapsServerMetadataSuggestionEntryDisplayeds"b1"read_mapsServerMetadataSuggestionEntryTappedOn"b1"read_mapsServerMetadata"b1"read_metroRegion"b1"read_photoSubmissionDetailsState"b1"read_placeCardPlaceActionDetailsActionUrl"b1"read_placeCardPlaceActionDetailsDestinationApp"b1"read_placeCardPlaceActionDetailsPhotoId"b1"read_placeCardPlaceActionDetailsRichProviderId"b1"read_placeCardPlaceActionDetailsShowcaseId"b1"read_placeCardPlaceActionDetailsTransitPlaceCardIncidentType"b1"read_placeCardPlaceActionDetailsTransitPlaceCardTransitDepartureSequenceUsageDirection"b1"read_placeCardPlaceActionDetailsTransitPlaceCardTransitDepartureSequenceUsageHeadsign"b1"read_placeCardPlaceActionDetailsTransitPlaceCardTransitSystemName"b1"read_placeCardPlaceCardCategory"b1"read_placeCardRevealedPlaceCardModules"b1"read_placeCardState"b1"read_predExTrainingData"b1"read_ratingPhotoSubmissionDetailsState"b1"read_ratingSubmissionDetailsState"b1"read_routeRouteDetails"b1"read_searchResultsState"b1"read_suggestionsDisplayedResults"b1"read_suggestionsSearchString"b1"read_tapEventState"b1"read_ugcPhotoState"b1"read_userHomeCountry"b1"read_userHomeMetro"b1"wrote_anyField"b1};
 - (id)has_poiFieldName"b1"has_poiImageCorrectionType"b1"has_workflowFieldName"b1};
 - (int)PDTransitIncidentFilter";
 - (void)b25b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}24I32(?=I{?=b8(?={?=b14b4b4b2}{?=b8b16})})36I40@44C52;
-- (id)wordIdentifier:(int)arg1;
-- (id)olygonHandler:completionHandler: /* Error: Ran out of types for this method. */;
-- (id)onfigStorageReadOnly;
-- (void)ate;
+- (id)initWithFilterKeywordIdentifier:(int)arg1;
+- (id)findFeatures:pointHandler:polygonHandler:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)GEOConfigStorageReadOnly;
+- (void)y_coordinate;
 - (void)Foundation;
-- (_Bool)eenPlaceFilter;
+- (_Bool)GEOPDPlaceCacheShouldUseRecentlySeenPlaceFilter;
 - (id)DTextItemContainerReadAllFrom can only be called once per object;
-- (int)Type;
+- (int)fillType;
 - (id);
 - (void)ì;
 - (void);
@@ -99,31 +78,11 @@
 - (id)iÞq@ñcÌ]k´®@;
 - (_Bool)°@¾Á&Sñ?ôÛ×s	@;
 - (int) ;
-- (_Bool)ddr_obj15V1AddressObjectEE27__shared_ptr_default_deleteIS2_S2_EE;
+- (_Bool)NSt3__110shared_ptrIN8addr_obj15V1AddressObjectEE27__shared_ptr_default_deleteIS2_S2_EE;
 - (void)àöÿG&:(id)arg1 ,	5;
 
 // Remaining properties
-@property(nonatomic) int cyclingDirection;
-@property(nonatomic) unsigned int distanceCm;
-@property(nonatomic) int drivingDirection;
-@property(nonatomic) _Bool hasCyclingDirection;
-@property(nonatomic) _Bool hasDistanceCm;
-@property(nonatomic) _Bool hasDrivingDirection;
-@property(nonatomic) _Bool hasIsApproximate;
 @property(readonly, nonatomic) _Bool hasLocation;
-@property(nonatomic) _Bool hasParkingDirection;
-@property(nonatomic) _Bool hasSignificance;
-@property(nonatomic) _Bool hasSource;
-@property(nonatomic) _Bool hasTransitDirection;
-@property(nonatomic) _Bool hasWalkingDirection;
-@property(nonatomic) _Bool isApproximate;
-@property(retain, nonatomic) GEOLatLng *location;
-@property(nonatomic) int parkingDirection;
-@property(nonatomic) unsigned int significance;
-@property(nonatomic) int source;
-@property(nonatomic) int transitDirection;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) int walkingDirection;
 
 @end
 

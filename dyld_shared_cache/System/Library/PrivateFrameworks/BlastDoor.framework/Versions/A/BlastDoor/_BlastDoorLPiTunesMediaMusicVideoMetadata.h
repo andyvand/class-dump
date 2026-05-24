@@ -6,16 +6,11 @@
 
 #import <BlastDoor/_BlastDoorLPSpecializationMetadata.h>
 
-@class NSString, _BlastDoorLPArtworkMetadata, _BlastDoorLPImage;
+@class NSString;
 
 @interface _BlastDoorLPiTunesMediaMusicVideoMetadata : _BlastDoorLPSpecializationMetadata
 {
     NSString *_storeFrontIdentifier;
-    NSString *_storeIdentifier;
-    NSString *_name;
-    NSString *_artist;
-    _BlastDoorLPImage *_artwork;
-    _BlastDoorLPArtworkMetadata *_artworkMetadata;
 }
 
 + (id);
@@ -25,13 +20,13 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)ently Deleted | removal completed;
 - (void);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)r sizes - %zu, %zu.;
 - (_Bool);
 - (void);
 - (void);
@@ -41,12 +36,7 @@
 - (id)¶$;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *artist; // @synthesize artist=_artist;
-@property(retain, nonatomic) _BlastDoorLPImage *artwork; // @synthesize artwork=_artwork;
-@property(copy, nonatomic) _BlastDoorLPArtworkMetadata *artworkMetadata; // @synthesize artworkMetadata=_artworkMetadata;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 @property(copy, nonatomic) NSString *storeFrontIdentifier; // @synthesize storeFrontIdentifier=_storeFrontIdentifier;
-@property(copy, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
 
 @end
 

@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (_Bool);
+- (_Bool)tateENS2_11Power_StateEE3$_0FvvEEE;
 - (_Bool);
 
 @end

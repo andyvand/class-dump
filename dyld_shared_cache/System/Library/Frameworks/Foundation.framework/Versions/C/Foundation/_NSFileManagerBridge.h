@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _NSFileManagerBridge
@@ -23,32 +23,32 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
+- (_Bool)`!;
+- (_Bool);
+- (id);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -56,8 +56,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *currentDirectoryPath;
-@property(nonatomic, readonly) NSURL *homeDirectoryForCurrentUser;
-@property(nonatomic, readonly) NSURL *temporaryDirectory;
 
 @end
 

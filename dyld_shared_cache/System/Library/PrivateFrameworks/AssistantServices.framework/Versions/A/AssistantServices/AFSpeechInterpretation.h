@@ -27,7 +27,7 @@
 - (void);
 - (id);
 - (id);
-- (void)sion;
+- (void)_advertisementContextVersion;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *tokens; // @synthesize tokens=_tokens;

@@ -4,24 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileManager, NSURL;
+@class NSURL;
 
 @interface CHSScreenshotManager
 {
     NSURL *_baseURL;
-    NSFileManager *_threadSafe_fileManager;
 }
 
 + (id);
-+ (id);
++ (id)taclass cannot be enabled %@ due to profile restrictions.;
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib;
 - (id);
 - (void);
-- (id);
+- (id)3;
 
 @end
 

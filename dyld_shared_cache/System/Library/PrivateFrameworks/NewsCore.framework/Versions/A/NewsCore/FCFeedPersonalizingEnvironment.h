@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface FCFeedPersonalizingEnvironment
 {
     unsigned long long _scoringVersion;
-    NSString *_tabiVersion;
 }
 
 - (id);
@@ -19,7 +16,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long scoringVersion; // @synthesize scoringVersion=_scoringVersion;
-@property(readonly, nonatomic) NSString *tabiVersion; // @synthesize tabiVersion=_tabiVersion;
 
 @end
 

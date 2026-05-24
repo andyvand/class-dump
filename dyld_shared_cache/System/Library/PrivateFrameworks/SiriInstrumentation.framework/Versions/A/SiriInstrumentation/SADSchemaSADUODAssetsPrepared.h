@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SADSchemaSADUODAssetsPrepared : SISchemaInstrumentationMessage
 {
     int _locale;
-    unsigned int _elapsedSeconds;
-    struct {
-        unsigned int locale:1;
-        unsigned int elapsedSeconds:1;
-    } _has;
 }
 
 - (void);
@@ -28,21 +21,17 @@
 - (unsigned int);
 - (_Bool);
 - (void);
-- (unsigned long long);
+- (unsigned long long)or %{public}@ status:%ld /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (_Bool);
-- (int);
+- (_Bool)ROM chat c         INNER JOIN chat_message_join j ON c.ROWID = j.chat_id         WHERE           j.message_id = OLD.message_id       )       WHERE         message.ROWID = OLD.message_id;  DELETE FROM message WHERE message.ROWID = OLD.message_id AND OLD.message_id NOT IN (SELECT chat_message_join.message_id from chat_message_join WHERE chat_message_join.message_id = OLD.message_id LIMIT 1) AND OLD.message_id NOT IN (SELECT chat_recoverable_message_join.message_id from chat_recoverable_message_join WHERE chat_recoverable_message_join.message_id = OLD.message_id LIMIT 1); END;
+- (int)d and display sound %@ ignoreDND %@ suppress screen light up %@;
 - (id);
 - (id);
-- (id)s;
+- (id)clearAthleteEntities;
 - (id)onent;
 
 // Remaining properties
-@property(nonatomic) unsigned int elapsedSeconds; // @synthesize elapsedSeconds=_elapsedSeconds;
-@property(nonatomic) _Bool hasElapsedSeconds;
-@property(nonatomic) _Bool hasLocale;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int locale; // @synthesize locale=_locale;
 
 @end

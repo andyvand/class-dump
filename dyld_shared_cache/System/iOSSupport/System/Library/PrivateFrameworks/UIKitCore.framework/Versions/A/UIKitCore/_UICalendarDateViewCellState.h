@@ -9,28 +9,21 @@
 @interface _UICalendarDateViewCellState
 {
     _Bool _outOfRange;
-    _Bool _overhangMonth;
-    _Bool _highlightsToday;
-    _Bool _today;
-    _Bool _selected;
-    _Bool _highlighted;
-    _Bool _forceEmphasizedFont;
-    UITraitCollection *_traits;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)untrustedContext;
+- (void)service:(_Bool)arg1 account:identifier:sentBytes:totalBytes: /* Error: Ran out of types for this method. */;
+- (void)service:(_Bool)arg1 account:identifier:alternateCallbackID:willSendToDestinations:skippedDestinations:registrationPropertyToDestinations: /* Error: Ran out of types for this method. */;
+- (void)primaryAccountCountryCode;
+- (void)pagedHistoryQuery:(_Bool)arg1 chatID:services:numberOfMessagesBefore:numberOfMessagesAfter:finishedWithResult:hasMessagesBefore:hasMessagesAfter: /* Error: Ran out of types for this method. */;
+- (_Bool)_convertIMMessageItemToIncomingRelayDictionary:chat:serviceName:overridingAttachmentData: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)2 ;
 - (_Bool);
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (_Bool)Attributes:(id)arg1 isMultiple: /* Error: Ran out of types for this method. */;
+- (_Bool)setSelectedAttributes:(id)arg1 isMultiple: /* Error: Ran out of types for this method. */;
 - (id),Vm_scaling;
 - (void);
 - (void)om view %@;
@@ -39,13 +32,6 @@
 - (_Bool)?ÿ¢óÏP­`;
 
 // Remaining properties
-@property(nonatomic) _Bool forceEmphasizedFont; // @synthesize forceEmphasizedFont=_forceEmphasizedFont;
-@property(nonatomic, getter=isHighlighted) _Bool highlighted; // @synthesize highlighted=_highlighted;
-@property(nonatomic) _Bool highlightsToday; // @synthesize highlightsToday=_highlightsToday;
-@property(nonatomic, getter=isOutOfRange) _Bool outOfRange; // @synthesize outOfRange=_outOfRange;
-@property(nonatomic, getter=isOverhangMonth) _Bool overhangMonth; // @synthesize overhangMonth=_overhangMonth;
-@property(nonatomic, getter=isSelected) _Bool selected; // @synthesize selected=_selected;
-@property(nonatomic, getter=isToday) _Bool today; // @synthesize today=_today;
 @property(readonly, nonatomic) UITraitCollection *traits; // @synthesize traits=_traits;
 
 @end

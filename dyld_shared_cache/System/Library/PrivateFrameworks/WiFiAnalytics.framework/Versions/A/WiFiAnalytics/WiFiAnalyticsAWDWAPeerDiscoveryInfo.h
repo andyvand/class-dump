@@ -7,52 +7,36 @@
 @interface WiFiAnalyticsAWDWAPeerDiscoveryInfo
 {
     unsigned int _iOSPeers;
-    unsigned int _macOSPeers;
-    unsigned int _numPeersDiscovered;
-    unsigned int _tvOSPeers;
-    struct {
-        unsigned int iOSPeers:1;
-        unsigned int macOSPeers:1;
-        unsigned int numPeersDiscovered:1;
-        unsigned int tvOSPeers:1;
-    } _has;
 }
 
 - (unsigned int);
 - (void);
+- (void)ib;
+- (void)conformsToProtocol:(unsigned int)arg1;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)ܸCܸCGytG;
 - (void);
 - (unsigned int);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int)m';
 - (_Bool);
+- (_Bool);;
+- (_Bool)A;
 - (_Bool);
+- (void)P;
+- (id)token for accountID (this is not an error). Returning nil {accountID:%{public}@, transactions:%@} /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (unsigned long long)P;
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
+- (id)auxOmegaInertial_Y;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasIOSPeers;
-@property(nonatomic) _Bool hasMacOSPeers;
 @property(nonatomic) _Bool hasNumPeersDiscovered;
-@property(nonatomic) _Bool hasTvOSPeers;
-@property(nonatomic) unsigned int iOSPeers; // @synthesize iOSPeers=_iOSPeers;
-@property(nonatomic) unsigned int macOSPeers; // @synthesize macOSPeers=_macOSPeers;
-@property(nonatomic) unsigned int numPeersDiscovered; // @synthesize numPeersDiscovered=_numPeersDiscovered;
-@property(nonatomic) unsigned int tvOSPeers; // @synthesize tvOSPeers=_tvOSPeers;
 
 @end
 

@@ -8,28 +8,18 @@ __attribute__((visibility("hidden")))
 @interface WFPlatformColorDefinition
 {
     _Bool _isDarkMode;
-    _Bool _isHighContrast;
-    double _red;
-    double _green;
-    double _blue;
-    double _alpha;
 }
 
 - (id);
 - (_Bool);
 - (_Bool);
+- (double)removeAllProfiles;
 - (double);
-- (double);
-- (double);
+- (double);
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) double alpha; // @synthesize alpha=_alpha;
-@property(readonly, nonatomic) double blue; // @synthesize blue=_blue;
-@property(readonly, nonatomic) double green; // @synthesize green=_green;
 @property(readonly, nonatomic) _Bool isDarkMode; // @synthesize isDarkMode=_isDarkMode;
-@property(readonly, nonatomic) _Bool isHighContrast; // @synthesize isHighContrast=_isHighContrast;
-@property(readonly, nonatomic) double red; // @synthesize red=_red;
 
 @end
 

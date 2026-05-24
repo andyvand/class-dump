@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSTimer;
-@protocol OS_dispatch_queue;
-
 @interface ADNetworkController
 {
     struct __SCDynamicStore *_store;
-    NSTimer *_notificationTimer;
-    int _networkType;
-    struct __SCNetworkReachability *_reachability;
-    unsigned int _reachabilityFlags;
-    NSObject<OS_dispatch_queue> *_queue;
-    _Bool _canReachTheNetwork;
-    _Bool _isUpdating;
 }
 
 + (id);
@@ -25,8 +15,8 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (int);
+- (void)lize adjustment dictionary:%@ /* Error: Ran out of types for this method. */;
+- (int)`;
 - (void);
 - (int);
 - (int);
@@ -36,7 +26,6 @@
 
 // Remaining properties
 @property _Bool canReachTheNetwork; // @synthesize canReachTheNetwork=_canReachTheNetwork;
-@property _Bool isUpdating; // @synthesize isUpdating=_isUpdating;
 
 @end
 

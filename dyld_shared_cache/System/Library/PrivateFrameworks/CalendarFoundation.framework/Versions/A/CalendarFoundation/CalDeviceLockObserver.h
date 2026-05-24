@@ -4,49 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalDarwinNotificationListener, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CalDeviceLockObserver
 {
     _Bool _internalHasBeenUnlockedSinceBoot;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    CalDarwinNotificationListener *_notificationListener;
-    CDUnknownBlockType _stateChangedCallback;
 }
 
 + (_Bool);
 + (id);
-- (void);
+- (void)e:(id)arg1 routeName:supportsLiveTraffic:currentTrafficDensity:trafficDensityDescription:travelState:travelSections: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id):0x%x
+ /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
-- (id);
+- (id)zationScaleFactor:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (CDUnknownBlockType);
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *callbackQueue; // @synthesize callbackQueue=_callbackQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasBeenUnlockedSinceBoot;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool internalHasBeenUnlockedSinceBoot; // @synthesize internalHasBeenUnlockedSinceBoot=_internalHasBeenUnlockedSinceBoot;
-@property(retain, nonatomic) CalDarwinNotificationListener *notificationListener; // @synthesize notificationListener=_notificationListener;
-@property(copy, nonatomic) CDUnknownBlockType stateChangedCallback; // @synthesize stateChangedCallback=_stateChangedCallback;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

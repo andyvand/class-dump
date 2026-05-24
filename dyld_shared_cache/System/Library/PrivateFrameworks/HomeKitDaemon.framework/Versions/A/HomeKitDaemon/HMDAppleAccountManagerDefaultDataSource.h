@@ -4,41 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNotificationCenter, NSObject, NSString;
-@protocol HMDACAccountStore, HMDAPSConnection, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDAppleAccountManagerDefaultDataSource
 {
     NSObject<OS_dispatch_queue> *_queue;
-    id <HMDAPSConnection> _apsConnection;
-    NSNotificationCenter *_notificationCenter;
-    id <HMDACAccountStore> _accountStore;
-    id _accountChangeObserver;
 }
 
 + (id);
-- (id);
-- (id)Factory;
+- (id)orted not in DR while entering;
+- (id)HMDAccessorySettingsMessengerFactory;
 - (id)her payload;
 - (id)rollerData"8;
-- (void)ntPayloadContainer;
+- (void)PersistentPayloadContainer;
 - (id)A;
 - (id)üOB;
 
 // Remaining properties
-@property(readonly) id accountChangeObserver; // @synthesize accountChangeObserver=_accountChangeObserver;
-@property(readonly) id <HMDACAccountStore> accountStore; // @synthesize accountStore=_accountStore;
-@property(readonly) id <HMDAPSConnection> apsConnection; // @synthesize apsConnection=_apsConnection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
 @property(readonly) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

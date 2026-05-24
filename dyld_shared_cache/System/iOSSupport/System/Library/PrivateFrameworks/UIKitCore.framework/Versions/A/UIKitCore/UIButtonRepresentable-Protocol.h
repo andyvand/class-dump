@@ -7,9 +7,11 @@
 @class NSColor, UIImage;
 
 @protocol UIButtonRepresentable
-- (void)rnal inconsistency:(UIImage *)arg1 cell prefetched for %@ already stored for %@. Cell:(unsigned long long)arg2 %@; Prefetched Cells:%@ /* Error: Ran out of types for this method. */;
+- (void)SoundDetectionCodingKeys;
 - (void);
-- (void)sFirstResponder;
+- (void)setPayloadXAuthName:(_Bool)arg1;
+- (void)rnal inconsistency:(UIImage *)arg1 cell prefetched for %@ already stored for %@. Cell:(unsigned long long)arg2 %@; Prefetched Cells:%@ /* Error: Ran out of types for this method. */;
+- (void)_containsFirstResponder;
 - (void)pPadding = %g;
 - (void)r for UIViewControllerBuiltinTransitionViewAnimator to work.;
 

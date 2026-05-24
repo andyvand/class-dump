@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)m property info array;
 
 @end
 

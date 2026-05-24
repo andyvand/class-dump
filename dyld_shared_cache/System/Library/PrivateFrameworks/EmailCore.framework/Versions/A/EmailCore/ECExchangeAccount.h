@@ -13,7 +13,7 @@
     NSDate *_lastSyncDate;
 }
 
-+ (id);
++ (id);
 + (id);
 - (id);
 - (void);
@@ -25,13 +25,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)bleNameRef or value.;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *folderHierarchySyncState;
 @property(copy, nonatomic) NSString *inboxMailboxName;
-@property(copy, nonatomic) NSString *journalMailboxName;
-@property(copy, nonatomic) NSDate *lastSyncDate; // @synthesize lastSyncDate=_lastSyncDate;
 
 @end
 

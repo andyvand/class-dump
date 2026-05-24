@@ -4,42 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSHashTable, NSMutableDictionary, UICollectionView, _UICollectionViewSubviewCollection;
+@class UICollectionView, _UICollectionViewSubviewCollection;
 
 __attribute__((visibility("hidden")))
 @interface _UICollectionViewSubviewManager
 {
     _UICollectionViewSubviewCollection *_visibleViews;
-    NSMutableDictionary *_reuseQueues;
-    NSHashTable *_dequeuedViews;
-    NSHashTable *_viewsPreparingForDisplay;
-    UICollectionView *_collectionView;
 }
 
 - (void);
 - (_Bool);
 - (void);
 - (id);
+- (void)D;
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
 - (void);
+- (void)k4;
 - (void);
+- (void)_determinedHasMovies;
+- (_Bool)ITLibPlaylistPropertyMPVendorTag;
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)?;
 - (void);
 - (id);
 - (void);
@@ -58,42 +54,32 @@ __attribute__((visibility("hidden")))
 × ;
 - (id)0@ù
 × ;
-- (void)tationBlock;
+- (void)updatedPresentationBlock;
 - (_Bool)shouldPerformMovementForCurrentProposal;
-- (void)ControllerWithRestorationIdentifierPath:(id)arg1 coder:(CDUnknownBlockType)arg2;
-- (_Bool)ackgroundTransitionProgressForScrollView:(id)arg1 tabBar:isNavigationTransitionUpdate: /* Error: Ran out of types for this method. */;
-- (void)ctionAlphaUpdate;
-- (void):(id)arg1 offset: /* Error: Ran out of types for this method. */;
-- (id)fv1: /* Error: Ran out of types for this method. */;
-- (id)eractionByItem;
+- (void)application:(id)arg1 viewControllerWithRestorationIdentifierPath:(CDUnknownBlockType)arg2 coder: /* Error: Ran out of types for this method. */;
+- (_Bool)_updateBackgroundTransitionProgressForScrollView:(id)arg1 tabBar:isNavigationTransitionUpdate: /* Error: Ran out of types for this method. */;
+- (void)_setNeedsSelectionAlphaUpdate;
+- (void)_performAction:(id)arg1 offset: /* Error: Ran out of types for this method. */;
+- (id)_internalDiffForDiffv1: /* Error: Ran out of types for this method. */;
+- (id)_dragSourceInteractionByItem;
 - (id)mutableTraitCollectionProvider:(id)arg1;
 - (id)onRefCount;
 - (id)fo;
 - (void)°ÈÑPñjÈÈÑTýjÜÈÑ´kðÈÑðk¨ÉÑèÉkìÉÑ lÌÊÑèKlìÊÑ m@ËÑàmËÑl¤môËÑ;
 - (_Bool)eType:(id)arg1 %lu;
 - (id)há©þt~þÿ;
-- (void)able;
+- (void)table;
 - (id)pple.UIKit.accountBasedValidation;
 - (id)keyboard suggestion options:%ld
  /* Error: Ran out of types for this method. */;
 - (id)shot:(id)arg1 %@;
 - (void)thSnapshot:(id)arg1 ].;
 - (void)"8q16^B24;
-- (id)tSplitViewControllerContext;
+- (id)UITraitSplitViewControllerContext;
 - (void)];
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allVisibleViews;
-@property(readonly, nonatomic) NSHashTable *allVisibleViewsHashTable;
-@property(readonly, nonatomic) _UICollectionViewSubviewCollection *allVisibleViewsSubviewCollection;
 @property(nonatomic) UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(readonly, nonatomic) NSArray *dequeuedViews;
-@property(readonly, nonatomic) _Bool hasVisibleCells;
-@property(nonatomic) _Bool indexPathValidationEnabled;
-@property(readonly, nonatomic) NSArray *indexPathsForVisibleCells;
-@property(readonly, nonatomic) NSArray *visibleCells;
-@property(readonly, nonatomic) NSArray *visibleDecorationViews;
-@property(readonly, nonatomic) NSArray *visibleSupplementaryViews;
 
 @end
 

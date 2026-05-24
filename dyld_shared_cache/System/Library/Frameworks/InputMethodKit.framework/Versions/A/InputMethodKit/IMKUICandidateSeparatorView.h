@@ -14,7 +14,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)C;
 
 // Remaining properties
 @property(retain, nonatomic) IMKUICandidate *candidateItem; // @synthesize candidateItem=_candidateItem;

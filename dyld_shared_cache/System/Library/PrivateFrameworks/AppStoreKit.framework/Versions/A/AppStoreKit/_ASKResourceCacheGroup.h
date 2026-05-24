@@ -9,14 +9,12 @@
 @interface _ASKResourceCacheGroup
 {
     NSMutableArray *_memberContents;
-    struct os_unfair_lock_s _guard;
-    _Bool _hasMultipleMembers;
 }
 
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);

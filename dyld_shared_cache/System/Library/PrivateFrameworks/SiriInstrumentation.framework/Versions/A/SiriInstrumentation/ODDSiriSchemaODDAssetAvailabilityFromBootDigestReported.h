@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, ODDSiriSchemaODDFixedDimensions;
+@class ODDSiriSchemaODDFixedDimensions;
 
 @interface ODDSiriSchemaODDAssetAvailabilityFromBootDigestReported : SISchemaInstrumentationMessage
 {
     ODDSiriSchemaODDFixedDimensions *_fixedDimensions;
-    NSArray *_digests;
-    _Bool _hasFixedDimensions;
 }
 
 - (void);
@@ -28,23 +26,20 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)0@ù
 × ;
-- (id)ationResolution;
+- (id)confirmationResolution;
 - (id)hedStopWordCount;
 - (id);
-- (void)OCOUNTRYCODE_IM;
+- (void)ISOCOUNTRYCODE_IM;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *digests; // @synthesize digests=_digests;
 @property(retain, nonatomic) ODDSiriSchemaODDFixedDimensions *fixedDimensions; // @synthesize fixedDimensions=_fixedDimensions;
-@property(nonatomic) _Bool hasFixedDimensions; // @synthesize hasFixedDimensions=_hasFixedDimensions;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -5,5 +5,7 @@
 //
 
 @protocol BiometricKitDelegateXpcProtocol
+- (_Bool)(@y(7X@9	;
+- (void);
 @end
 

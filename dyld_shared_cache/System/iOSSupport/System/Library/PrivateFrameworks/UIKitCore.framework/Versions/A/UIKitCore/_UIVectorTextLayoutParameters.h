@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString, UITraitCollection;
+@class NSAttributedString;
 
 __attribute__((visibility("hidden")))
 @interface _UIVectorTextLayoutParameters
 {
     NSAttributedString *_attributedText;
-    unsigned long long _numberOfLines;
-    UITraitCollection *_traitCollection;
-    long long _lineBreakMode;
-    struct CGSize _withinSize;
 }
 
-+ (id);
++ (id);
 - (struct CGSize);
 - (void);
-- (_Bool);
+- (_Bool)poolWithDescription:(id)arg1;
 - (void);
-- (id)rstRectForRange:(id)arg1;
-- (id)e;
+- (id)firstRectForRange:(id)arg1;
+- (id)_candidateListDelegate;
 - (id)x¬dt´ì	Ü
 L4ÀXô;
-- (void)ht;
+- (void)_Highlight;
 - (void)rRange;
 - (void)@; cell:(long long)arg1 %@;
 - (long long)oþÿ;
@@ -36,17 +32,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) NSAttributedString *attributedText; // @synthesize attributedText=_attributedText;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long lineBreakMode; // @synthesize lineBreakMode=_lineBreakMode;
-@property(nonatomic) unsigned long long numberOfLines; // @synthesize numberOfLines=_numberOfLines;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UITraitCollection *traitCollection; // @synthesize traitCollection=_traitCollection;
-@property(nonatomic) struct CGSize withinSize; // @synthesize withinSize=_withinSize;
 
 @end
 

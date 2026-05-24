@@ -7,18 +7,17 @@
 @class NSData, NSDate, NSString;
 
 @protocol SFEngagedResult
-- (NSString *)elegate;
+- (double)::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionControllerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (NSDate *)::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionControllerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionControllerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::WeakPtr<WebKit::WebExtensionController>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionControllerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (double)@32@40;
+- (NSString *)`;
+- (NSString *)receivingStreamDelegate;
+
+@optional
+- (void)tform/Developer/SDKs/MacOSX26.5.Internal.sdk/usr/local/include/wtf/ObjectIdentifier.h;
+- (NSData *)hMap<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionControllerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::WeakPtr<WebKit::WebExtensionController>>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionControllerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebKit::WebExtensionControllerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionControllerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::WeakPtr<WebKit::WebExtensionController>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionControllerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::WeakPtr<WebKit::WebExtensionController>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionControllerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionControllerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::WeakPtr<WebKit::WebExtensionController>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionControllerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *encodedNormalizedTopic;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSData",?,C,N
-
-@property(readonly, copy, nonatomic) NSDate *engagementTime;
-@property(readonly, nonatomic) double freshnessScore;
-@property(readonly, nonatomic) double score;
-@property(readonly, copy, nonatomic) NSString *searchString;
 @property(readonly, copy, nonatomic) NSString *title;
-@property(readonly, nonatomic) int type;
 @end
 

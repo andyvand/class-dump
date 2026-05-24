@@ -7,16 +7,14 @@
 @interface DESSeparatedDPParameters
 {
     long long _normBinCount;
-    double _maxNorm;
 }
 
-- (long long);
-- (double);
+- (long long)sponseGenerationRequest.statementResults.payload.outcome.parameterNotAllowed.value.value.enumeration.typeIdentifier.custom.bundleId;
+- (double)ues.enumeration.typeIdentifier.custom.bundleId;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) double maxNorm; // @synthesize maxNorm=_maxNorm;
 @property(readonly, nonatomic) long long normBinCount; // @synthesize normBinCount=_normBinCount;
 
 @end

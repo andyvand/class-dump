@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSSet;
-@protocol BTMBackgroundItemControllerDelegate, OS_dispatch_queue;
+@class NSSet;
+@protocol BTMBackgroundItemControllerDelegate;
 
 @interface BTMBackgroundItemController
 {
     id <BTMBackgroundItemControllerDelegate> _delegate;
-    NSSet *_internalItems;
-    NSObject<OS_dispatch_queue> *_internalQueue;
 }
 
 - (void);
@@ -25,16 +23,13 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)matrix size.;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property __weak id <BTMBackgroundItemControllerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain) NSSet *internalItems; // @synthesize internalItems=_internalItems;
-@property(readonly) NSObject<OS_dispatch_queue> *internalQueue; // @synthesize internalQueue=_internalQueue;
-@property(readonly) NSSet *items;
 
 @end
 

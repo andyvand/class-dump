@@ -18,14 +18,13 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)setLibraryShowFetchThresholdDefaultValue:(id)arg1;
+- (void)J;
 - (unsigned long long);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableSet *childActivities; // @synthesize childActivities=_childActivities;
-@property(readonly, nonatomic) unsigned long long childCount;
 
 @end
 

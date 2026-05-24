@@ -6,22 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class MHSchemaMHDarwinConnectedDeviceWakeEnded, MHSchemaMHDarwinConnectedDeviceWakeFailed, MHSchemaMHDarwinConnectedDeviceWakeStarted, NSData;
+@class MHSchemaMHDarwinConnectedDeviceWakeStarted;
 
 @interface MHSchemaMHDarwinConnectedDeviceWakeContext : SISchemaInstrumentationMessage
 {
     MHSchemaMHDarwinConnectedDeviceWakeStarted *_startedOrChanged;
-    MHSchemaMHDarwinConnectedDeviceWakeEnded *_ended;
-    MHSchemaMHDarwinConnectedDeviceWakeFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
 - (id);
-- (void);
+- (void)?	;
 - (_Bool);
 - (void);
 - (void);
@@ -36,27 +30,20 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)AppleInternal/Library/BuildRoots/4~CNqEugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/bn/bn_exp.c;
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)
 × ;
-- (id)uestContext:(id)arg1;
-- (id)ymizedContactIdentifier;
+- (id)setSsuBackgroundRequestContext:(id)arg1;
+- (id)_hasAnonymizedContactIdentifier;
 - (void)Gà;
 
 // Remaining properties
-@property(retain, nonatomic) MHSchemaMHDarwinConnectedDeviceWakeEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) MHSchemaMHDarwinConnectedDeviceWakeFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) MHSchemaMHDarwinConnectedDeviceWakeStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

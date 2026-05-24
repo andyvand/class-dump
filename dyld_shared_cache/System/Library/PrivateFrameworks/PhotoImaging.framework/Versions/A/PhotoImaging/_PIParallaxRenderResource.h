@@ -4,48 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, CIRenderTask, NSString, NUImageHistogram, PFParallaxColor;
-@protocol NUPurgeableStorage;
+@class NSString;
 
 @interface _PIParallaxRenderResource
 {
     NSString *_identifier;
-    id <NUPurgeableStorage> _destination;
-    CIImage *_image;
-    CIRenderTask *_task;
-    NUImageHistogram *_imageHistogram;
-    CDStruct_83984b6f _luminanceWeights;
-    CDStruct_83984b6f _luminanceThresholds;
 }
 
 - (void);
 - (id);
 - (id);
+- (void);
+- (void);
+- (CDStruct_818bb265);
+- (CDStruct_818bb265);
+- (id);
+- (id);
 - (void);
 - (void);
-- (CDStruct_83984b6f);
-- (CDStruct_83984b6f);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void)0:8@16{CGRect={CGPoint=dd}{CGSize=dd}}24f56@?60 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) id <NUPurgeableStorage> destination; // @synthesize destination=_destination;
-@property(readonly, nonatomic) PFParallaxColor *dominantColor;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) CIImage *image; // @synthesize image=_image;
-@property(retain, nonatomic) NUImageHistogram *imageHistogram; // @synthesize imageHistogram=_imageHistogram;
-@property(nonatomic) CDStruct_83984b6f luminanceThresholds; // @synthesize luminanceThresholds=_luminanceThresholds;
-@property(nonatomic) CDStruct_83984b6f luminanceWeights; // @synthesize luminanceWeights=_luminanceWeights;
-@property(readonly, nonatomic) PFParallaxColor *medianColor;
-@property(retain, nonatomic) CIRenderTask *task; // @synthesize task=_task;
 
 @end
 

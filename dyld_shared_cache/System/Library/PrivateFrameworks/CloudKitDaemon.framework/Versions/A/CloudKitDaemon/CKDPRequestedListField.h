@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPRecordFieldIdentifier, NSMutableArray;
+@class CKDPRecordFieldIdentifier;
 
 @interface CKDPRequestedListField
 {
     CKDPRecordFieldIdentifier *_fieldId;
-    NSMutableArray *_ranges;
 }
 
 + (Class);
@@ -17,27 +16,26 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)setShouldNotifyDelegateOnSelection: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long):%d for anchorTimeHostTime = %1.3f, anchorTimeHostTimeTicks = %llu
+ /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void)s/PassKitCore.framework/Versions/A/PassKitCore;
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id)ssetTransferOptions: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)_prepareAsset:record:recordKey:assetTransferOptions: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CKDPRecordFieldIdentifier *fieldId; // @synthesize fieldId=_fieldId;
 @property(readonly, nonatomic) _Bool hasFieldId;
-@property(retain, nonatomic) NSMutableArray *ranges; // @synthesize ranges=_ranges;
 
 @end
 

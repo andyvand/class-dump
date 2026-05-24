@@ -4,34 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFInterstitialConfiguration, NSMutableArray, NSObject, NSString;
-@protocol AFInterstitialProviderDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface AFInterstitialProvider
 {
     NSObject<OS_dispatch_queue> *_queue;
-    AFInterstitialConfiguration *_configuration;
-    NSMutableArray *_pendingActions;
-    id _context;
-    id <AFInterstitialProviderDelegate> _delegate;
 }
 
+- (id)k`;
 - (id);
-- (id);
+- (void);
+- (void)ificatesResponse"8@"NSError"16;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void)tDeviceGroup: /* Error: Ran out of types for this method. */;
+- (void)setDeviceGroup: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

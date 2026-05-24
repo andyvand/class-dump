@@ -5,5 +5,6 @@
 //
 
 @protocol FIBrowserOverlayStackViewTarget
+- (void)9;
 @end
 

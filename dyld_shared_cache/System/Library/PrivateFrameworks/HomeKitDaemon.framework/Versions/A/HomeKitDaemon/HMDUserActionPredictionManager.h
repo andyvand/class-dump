@@ -4,43 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMBLocalZone, HMDDatabaseZoneManager, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDUserActionPredictionManager
 {
     struct os_unfair_lock_s _lock;
-    HMBLocalZone *_localZone;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMDDatabaseZoneManager *_zoneManager;
 }
 
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)C;
 - (_Bool);
 - (id);
 - (id);
+- (id)the current session;
 - (id);
-- (id);
-- (id)ryRequest;
+- (id)_internalDiscoveryRequest;
 - (void),R,V_zoneDelegatesByLocalZone;
 - (void)ory:%@ /* Error: Ran out of types for this method. */;
 - (id)porting completion of session with UUID:%@ /* Error: Ran out of types for this method. */;
 - (void)ist for %@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) HMBLocalZone *localZone; // @synthesize localZone=_localZone;
-@property(readonly) Class superclass;
 @property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
-@property(readonly) HMDDatabaseZoneManager *zoneManager; // @synthesize zoneManager=_zoneManager;
 
 @end
 

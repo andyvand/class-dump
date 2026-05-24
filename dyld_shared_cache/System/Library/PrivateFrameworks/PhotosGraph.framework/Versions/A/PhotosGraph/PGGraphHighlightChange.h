@@ -11,10 +11,9 @@
 @interface PGGraphHighlightChange : PGGraphChange
 {
     NSString *_highlightUUID;
-    unsigned long long _updateTypes;
 }
 
-- (void);
+- (void)edElementSelectedElementControllers;
 - (id);
 - (id);
 - (unsigned long long);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *highlightUUID; // @synthesize highlightUUID=_highlightUUID;
-@property(readonly, nonatomic) unsigned long long updateTypes; // @synthesize updateTypes=_updateTypes;
 
 @end
 

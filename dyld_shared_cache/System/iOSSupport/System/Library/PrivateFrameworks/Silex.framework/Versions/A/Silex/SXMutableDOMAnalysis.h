@@ -6,7 +6,7 @@
 
 #import <Silex/SXDOMAnalysis.h>
 
-@class SXMutableConditionalObjectAnalysis, SXMutableNamespacedObjectReferences;
+@class SXMutableConditionalObjectAnalysis;
 
 @interface SXMutableDOMAnalysis : SXDOMAnalysis
 {
@@ -24,7 +24,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) SXMutableConditionalObjectAnalysis *conditionalObjectAnalysis;
-@property(readonly, copy, nonatomic) SXMutableNamespacedObjectReferences *namespacedObjectReferences;
 
 @end
 

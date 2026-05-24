@@ -7,18 +7,10 @@
 @interface CLPMotionActivity
 {
     int _confidence;
-    int _type;
-    struct {
-        unsigned int confidence:1;
-        unsigned int type:1;
-    } _has;
 }
 
 
 // Remaining properties
-@property(nonatomic) int confidence; // @synthesize confidence=_confidence;
-@property(nonatomic) _Bool hasConfidence;
 @property(nonatomic) _Bool hasType;
-@property(nonatomic) int type; // @synthesize type=_type;
 @end
 

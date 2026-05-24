@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainer, HMDManagedObjectContext, NSPersistentCloudKitContainer, NSPersistentStore, NSString;
+@class NSPersistentCloudKitContainer;
 
 __attribute__((visibility("hidden")))
 @interface HMDCoreDataCloudShareService
 {
     struct os_unfair_lock_s _lock;
-    CKContainer *_ckContainer;
-    NSPersistentCloudKitContainer *_container;
-    NSPersistentStore *_sharedStore;
-    NSPersistentStore *_privateStore;
-    HMDManagedObjectContext *_managedObjectContext;
 }
 
 + (id)Ntÿ;
 - (id);
-- (id);
-- (id);
+- (id)ring process;
+- (id)`;
 - (id);
 - (id);
 - (id);
@@ -45,23 +40,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id)1°1Â0@ù
 × ;
-- (id)eLegacyCloudDataSync;
+- (id)DisableLegacyCloudDataSync;
 - (id)class %s;
 - (void)teDemoApplicationData(for:payload:) /* Error: Ran out of types for this method. */;
 - (id)ÿ°H¸¸B;
 
 // Remaining properties
 @property(readonly) NSPersistentCloudKitContainer *container; // @synthesize container=_container;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) HMDManagedObjectContext *managedObjectContext; // @synthesize managedObjectContext=_managedObjectContext;
-@property(readonly) NSPersistentStore *privateStore; // @synthesize privateStore=_privateStore;
-@property(readonly) NSPersistentStore *sharedStore; // @synthesize sharedStore=_sharedStore;
-@property(readonly) Class superclass;
 
 @end
 

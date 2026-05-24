@@ -8,22 +8,20 @@ __attribute__((visibility("hidden")))
 @interface _ICValueHistoryItem
 {
     unsigned long long _timestamp;
-    id _value;
 }
 
 + (_Bool);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
+- (id);
 - (_Bool);
-- (void);
+- (void)P;
 - (id);
 - (void)N,GisDelegatedPlayback,V_delegatedPlayback;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(readonly, nonatomic) id value; // @synthesize value=_value;
 
 @end
 

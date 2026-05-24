@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAContext, CALayer;
-@protocol CARendererDelegate;
+@class CAContext;
 
 @interface CARenderer
 {
@@ -14,8 +13,8 @@
 
 + (id);
 + (id);
-- (void);
-- (double);
+- (void);
+- (double);
 - (void);
 - (void);
 - (id);
@@ -26,19 +25,16 @@
 - (void);
 - (struct CGRect);
 - (struct CGRect);
+- (id)"	;
+- (void);
+- (void)ble to create UUID from string;
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void)_LAYER_UPDATE_BACKTRACES;
+- (void)CA_ENABLE_LAYER_UPDATE_BACKTRACES;
 
 // Remaining properties
-@property struct CGRect bounds;
 @property(retain) CAContext *context;
-@property __weak id <CARendererDelegate> delegate;
-@property(retain) CALayer *layer;
 
 @end
 

@@ -6,8 +6,6 @@
 
 #import <ScreenTimeCore/STUniquedManagedObject.h>
 
-@class NSData, NSDate, NSSet, NSString, STCoreDevice, STCoreUser;
-
 @interface STUserDeviceState : STUniquedManagedObject
 {
 }
@@ -15,15 +13,15 @@
 + (id);
 + (id);
 + (_Bool);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)tPolicy:(id)arg1 failed to finalize SiDP measurements; this failure is fatal (%u);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -32,28 +30,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSData *capabilitiesPlist; // @dynamic capabilitiesPlist;
-@property(nonatomic) _Bool cloudSyncEnabled; // @dynamic cloudSyncEnabled;
-@property(copy, nonatomic) NSString *coreDuetIdentifier; // @dynamic coreDuetIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) STCoreDevice *device; // @dynamic device;
-@property(copy, nonatomic) NSData *deviceInfoPlist; // @dynamic deviceInfoPlist;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSSet *installedApps; // @dynamic installedApps;
-@property _Bool isLegacyUsageDisabled; // @dynamic isLegacyUsageDisabled;
-@property(copy, nonatomic) NSDate *lastFamilyCheckinDate; // @dynamic lastFamilyCheckinDate;
-@property(retain, nonatomic) STCoreDevice *localDevice; // @dynamic localDevice;
-@property(retain, nonatomic) STCoreUser *localUser; // @dynamic localUser;
-@property(nonatomic) _Bool managementEnabled; // @dynamic managementEnabled;
-@property(nonatomic) long long msInterventionPolicy; // @dynamic msInterventionPolicy;
-@property(copy, nonatomic) NSString *passcodeOwner; // @dynamic passcodeOwner;
 @property(nonatomic) _Bool screenTimeEnabled; // @dynamic screenTimeEnabled;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) STCoreUser *user; // @dynamic user;
 
 @end
 

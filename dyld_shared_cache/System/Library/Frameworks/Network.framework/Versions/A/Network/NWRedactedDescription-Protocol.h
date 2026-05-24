@@ -8,6 +8,9 @@
 
 @protocol NWRedactedDescription
 
+@optional
+- (NSString *);
+
 // Remaining properties
 @property(readonly, copy) NSString *redactedDescription;
 // Preceding property had unknown attributes: ?

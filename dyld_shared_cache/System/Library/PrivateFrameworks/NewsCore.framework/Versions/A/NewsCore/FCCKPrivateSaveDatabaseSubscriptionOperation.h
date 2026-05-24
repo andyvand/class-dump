@@ -6,16 +6,14 @@
 
 #import <NewsCore/FCCKPrivateDatabaseOperation.h>
 
-@class CKNotificationInfo, NSString;
+@class NSString;
 
 @interface FCCKPrivateSaveDatabaseSubscriptionOperation : FCCKPrivateDatabaseOperation
 {
     NSString *_subscriptionID;
-    CKNotificationInfo *_notificationInfo;
-    CDUnknownBlockType _saveDatabaseSubscriptionCompletionBlock;
 }
 
-- (void);
+- (void);
 - (CDUnknownBlockType);
 - (id);
 - (void);
@@ -27,8 +25,6 @@
 - (_Bool)á;
 
 // Remaining properties
-@property(copy, nonatomic) CKNotificationInfo *notificationInfo; // @synthesize notificationInfo=_notificationInfo;
-@property(copy, nonatomic) CDUnknownBlockType saveDatabaseSubscriptionCompletionBlock; // @synthesize saveDatabaseSubscriptionCompletionBlock=_saveDatabaseSubscriptionCompletionBlock;
 @property(copy, nonatomic) NSString *subscriptionID; // @synthesize subscriptionID=_subscriptionID;
 
 @end

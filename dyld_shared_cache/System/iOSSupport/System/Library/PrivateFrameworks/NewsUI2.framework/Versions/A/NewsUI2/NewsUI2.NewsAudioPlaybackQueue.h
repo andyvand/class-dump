@@ -7,10 +7,6 @@
 @interface NewsUI2.NewsAudioPlaybackQueue
 {
     id ephemeralQueue;
-    id queue;
-    id carplayTemplatesQueue;
-    id audioDataManager;
-    id bundleSubscriptionManager;
 }
 
 @end

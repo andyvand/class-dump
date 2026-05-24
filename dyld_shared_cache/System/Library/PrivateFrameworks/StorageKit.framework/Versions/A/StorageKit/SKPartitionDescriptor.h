@@ -4,33 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SKFilesystem, SKVolumeDescriptor;
+@class SKVolumeDescriptor;
 
 @interface SKPartitionDescriptor
 {
     unsigned long long _size;
-    SKVolumeDescriptor *_innerDescriptor;
 }
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)ode=%d;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)2;
+- (id)erence doBlockingConnectionCheck:] /* Error: Ran out of types for this method. */;
+- (unsigned long long)uo;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) SKFilesystem *filesystem;
 @property(retain, nonatomic) SKVolumeDescriptor *innerDescriptor; // @synthesize innerDescriptor=_innerDescriptor;
-@property(readonly, copy, nonatomic) NSString *name;
-@property(readonly, nonatomic) unsigned long long size; // @synthesize size=_size;
 
 @end
 

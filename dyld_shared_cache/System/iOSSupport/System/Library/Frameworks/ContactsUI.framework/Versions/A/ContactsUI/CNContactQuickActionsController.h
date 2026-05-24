@@ -4,34 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNContactActionsController, CNContactQuickActionsDisambiguationMenuPresentation, NSArray, NSDictionary, NSString, UIViewController;
-@protocol CNCancelable, CNContactQuickActionViewContainer, CNContactQuickActionsControllerDelegate, CNContactQuickActionsModelTrackingDelegate, CNSchedulerProvider, CNUINavigationListStyle, CNUIUserActionContext, CNUIUserActionListDataSource;
+@protocol CNUIUserActionListDataSource;
 
 @interface CNContactQuickActionsController
 {
     _Bool _isCarPlay;
-    id <CNContactQuickActionViewContainer> _contactQuickActionViewContainer;
-    id <CNContactQuickActionsControllerDelegate> _delegate;
-    NSArray *_actionTypes;
-    CNContact *_contact;
-    id <CNUIUserActionListDataSource> _userActionListDataSource;
-    id <CNSchedulerProvider> _schedulerProvider;
-    id <CNCancelable> _actionDiscoveryToken;
-    NSDictionary *_actionListModelsByActionType;
-    id <CNUIUserActionContext> _userActionContext;
-    CNContactActionsController *_disambiguationMenuController;
-    UIViewController *_disambiguationMenuViewController;
-    CNContactQuickActionsDisambiguationMenuPresentation *_disambiguationMenuPresentation;
-    NSArray *_currentMenuElements;
-    id <CNUINavigationListStyle> _navigationListStyle;
-    id <CNContactQuickActionsModelTrackingDelegate> _modelTrackingDelegate;
 }
 
 + (id);
 + (id)
 × ;
-+ (id)tity: /* Error: Ran out of types for this method. */;
-- (void);
++ (id)setVisualIdentity: /* Error: Ran out of types for this method. */;
+- (void)#;
 - (void);
 - (void);
 - (void);
@@ -43,7 +27,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -65,18 +49,18 @@
 - (void);
 - (void);
 - (id);
+- (id)9;
+- (void)C;
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)contentKeySessionContentProtectionSessionIdentifierDidChange: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -88,28 +72,6 @@
 - (void)TQ,N,V_meCardSharingStatus;
 
 // Remaining properties
-@property(retain, nonatomic) id <CNCancelable> actionDiscoveryToken; // @synthesize actionDiscoveryToken=_actionDiscoveryToken;
-@property(retain, nonatomic) NSDictionary *actionListModelsByActionType; // @synthesize actionListModelsByActionType=_actionListModelsByActionType;
-@property(readonly, nonatomic) NSArray *actionTypes; // @synthesize actionTypes=_actionTypes;
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly, nonatomic) __weak id <CNContactQuickActionViewContainer> contactQuickActionViewContainer; // @synthesize contactQuickActionViewContainer=_contactQuickActionViewContainer;
-@property(retain, nonatomic) NSArray *currentMenuElements; // @synthesize currentMenuElements=_currentMenuElements;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNContactQuickActionsControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CNContactActionsController *disambiguationMenuController; // @synthesize disambiguationMenuController=_disambiguationMenuController;
-@property(readonly, nonatomic) CNContactQuickActionsDisambiguationMenuPresentation *disambiguationMenuPresentation; // @synthesize disambiguationMenuPresentation=_disambiguationMenuPresentation;
-@property(retain, nonatomic) UIViewController *disambiguationMenuViewController; // @synthesize disambiguationMenuViewController=_disambiguationMenuViewController;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isCarPlay; // @synthesize isCarPlay=_isCarPlay;
-@property(nonatomic) __weak id <CNContactQuickActionsModelTrackingDelegate> modelTrackingDelegate; // @synthesize modelTrackingDelegate=_modelTrackingDelegate;
-@property(retain, nonatomic) id <CNUINavigationListStyle> navigationListStyle; // @synthesize navigationListStyle=_navigationListStyle;
-@property(readonly, nonatomic) id <CNSchedulerProvider> schedulerProvider; // @synthesize schedulerProvider=_schedulerProvider;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <CNUIUserActionContext> userActionContext; // @synthesize userActionContext=_userActionContext;
 @property(readonly, nonatomic) id <CNUIUserActionListDataSource> userActionListDataSource; // @synthesize userActionListDataSource=_userActionListDataSource;
 
 @end

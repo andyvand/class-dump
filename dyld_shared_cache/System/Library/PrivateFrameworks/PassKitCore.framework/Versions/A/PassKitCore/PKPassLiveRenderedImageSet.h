@@ -11,42 +11,16 @@
 @interface PKPassLiveRenderedImageSet : PKPassImageSet
 {
     PKImage *_diffuseMaterialPropertyImage;
-    PKImage *_ambientMaterialPropertyImage;
-    PKImage *_specularMaterialPropertyImage;
-    PKImage *_normalMaterialPropertyImage;
-    PKImage *_reflectiveMaterialPropertyImage;
-    PKImage *_emissionMaterialPropertyImage;
-    PKImage *_transparentMaterialPropertyImage;
-    PKImage *_multiplyMaterialPropertyImage;
-    PKImage *_displacementMaterialPropertyImage;
-    PKImage *_ambientOcclusionMaterialPropertyImage;
-    PKImage *_selfIlluminationMaterialPropertyImage;
-    PKImage *_metalnessMaterialPropertyImage;
-    PKImage *_roughnessMaterialPropertyImage;
-    PKImage *_overlayMaterialPropertyImage;
 }
 
-+ (long long);
++ (long long)h;
 + (id);
 + (_Bool);
 + (_Bool)ted suggested amount data for successful payment:%@ /* Error: Ran out of types for this method. */;
 + (unsigned int)Ù¨ÿçJ\";
 
 // Remaining properties
-@property(retain, nonatomic) PKImage *ambientMaterialPropertyImage; // @synthesize ambientMaterialPropertyImage=_ambientMaterialPropertyImage;
-@property(retain, nonatomic) PKImage *ambientOcclusionMaterialPropertyImage; // @synthesize ambientOcclusionMaterialPropertyImage=_ambientOcclusionMaterialPropertyImage;
 @property(retain, nonatomic) PKImage *diffuseMaterialPropertyImage; // @synthesize diffuseMaterialPropertyImage=_diffuseMaterialPropertyImage;
-@property(retain, nonatomic) PKImage *displacementMaterialPropertyImage; // @synthesize displacementMaterialPropertyImage=_displacementMaterialPropertyImage;
-@property(retain, nonatomic) PKImage *emissionMaterialPropertyImage; // @synthesize emissionMaterialPropertyImage=_emissionMaterialPropertyImage;
-@property(retain, nonatomic) PKImage *metalnessMaterialPropertyImage; // @synthesize metalnessMaterialPropertyImage=_metalnessMaterialPropertyImage;
-@property(retain, nonatomic) PKImage *multiplyMaterialPropertyImage; // @synthesize multiplyMaterialPropertyImage=_multiplyMaterialPropertyImage;
-@property(retain, nonatomic) PKImage *normalMaterialPropertyImage; // @synthesize normalMaterialPropertyImage=_normalMaterialPropertyImage;
-@property(retain, nonatomic) PKImage *overlayMaterialPropertyImage; // @synthesize overlayMaterialPropertyImage=_overlayMaterialPropertyImage;
-@property(retain, nonatomic) PKImage *reflectiveMaterialPropertyImage; // @synthesize reflectiveMaterialPropertyImage=_reflectiveMaterialPropertyImage;
-@property(retain, nonatomic) PKImage *roughnessMaterialPropertyImage; // @synthesize roughnessMaterialPropertyImage=_roughnessMaterialPropertyImage;
-@property(retain, nonatomic) PKImage *selfIlluminationMaterialPropertyImage; // @synthesize selfIlluminationMaterialPropertyImage=_selfIlluminationMaterialPropertyImage;
-@property(retain, nonatomic) PKImage *specularMaterialPropertyImage; // @synthesize specularMaterialPropertyImage=_specularMaterialPropertyImage;
-@property(retain, nonatomic) PKImage *transparentMaterialPropertyImage; // @synthesize transparentMaterialPropertyImage=_transparentMaterialPropertyImage;
 
 @end
 

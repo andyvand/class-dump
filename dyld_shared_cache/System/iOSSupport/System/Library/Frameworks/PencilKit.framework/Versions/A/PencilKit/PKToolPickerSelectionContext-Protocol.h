@@ -5,10 +5,9 @@
 //
 
 @protocol PKToolPickerSelectionContext
+- (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool colorSwatchesVisible;
-@property(nonatomic) _Bool prefersLargeContextualEditingUI;
 @property(nonatomic) unsigned long long selectionMask;
 @end
 

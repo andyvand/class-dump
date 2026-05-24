@@ -10,13 +10,11 @@
 {
     unsigned long long _insertKatakanaAtIndex;
     _Bool _supportsPairedPunctutationInput;
-    _Bool _flickOnly;
-    TIWordSearchCandidateResultSet *_candidateResultSet;
 }
 
 + (id);
 + (void);
-+ (CDUnknownBlockType);
++ (CDUnknownBlockType)7?A;
 + (void);
 - (_Bool);
 - (void);
@@ -25,7 +23,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -35,14 +33,13 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (int);
+- (id)6_;
+- (int)^;
 - (void);
-- (void);
+- (void).apple.ccportrait.EspressoWrapper.nscache;
 
 // Remaining properties
 @property(retain, nonatomic) TIWordSearchCandidateResultSet *candidateResultSet; // @synthesize candidateResultSet=_candidateResultSet;
-@property _Bool flickOnly; // @synthesize flickOnly=_flickOnly;
 @property _Bool supportsPairedPunctutationInput; // @synthesize supportsPairedPunctutationInput=_supportsPairedPunctutationInput;
 
 @end

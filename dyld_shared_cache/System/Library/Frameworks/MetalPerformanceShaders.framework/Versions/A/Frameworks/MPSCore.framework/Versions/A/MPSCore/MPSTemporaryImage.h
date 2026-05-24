@@ -11,14 +11,14 @@
     unsigned long long _readCount;
 }
 
-+ (id);
++ (id);
 + (id);
 + (void);
 + (id);
 + (id);
 - (void);
 - (void);
-- (void);
+- (void)RT;
 - (id);
 - (void);
 - (unsigned long long);

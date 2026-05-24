@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSDictionary;
 
 @interface FTRegion
 {
     NSDictionary *_dictionary;
-    NSArray *_subRegions;
-    FTRegion *_parentRegion;
 }
 
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (void)copyItemAtPath:(id)arg1 toPath:error: /* Error: Ran out of types for this method. */;
+- (id)convertVideoAtSourceURLCollection:(id)arg1 toDestinationURLCollection:options:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)contextAsLocationWithError:(id)arg1;
+- (id)contextAsListOfSongIdentifiersWithError: /* Error: Ran out of types for this method. */;
+- (id)contentOrThumbnailChangedForPHAssetOID: /* Error: Ran out of types for this method. */;
+- (void)contentOrThumbnailChangedForAsset:(id)arg1;
 - (id);
 - (id);
 - (id);
+- (id);
+- (id)have been accepted (%@) since the last maintenance task (%@).;
 - (void);
 - (id);
 - (id);
@@ -32,13 +30,6 @@
 
 // Remaining properties
 @property(retain) NSDictionary *_dictionary; // @synthesize _dictionary;
-@property(retain) FTRegion *_parentRegion; // @synthesize _parentRegion;
-@property(readonly) NSString *basePhoneNumber;
-@property(readonly) NSString *isoCode;
-@property(readonly) NSString *label;
-@property(readonly) FTRegion *parentRegion;
-@property(readonly) NSString *regionID;
-@property(readonly) NSArray *subRegions; // @synthesize subRegions=_subRegions;
 
 @end
 

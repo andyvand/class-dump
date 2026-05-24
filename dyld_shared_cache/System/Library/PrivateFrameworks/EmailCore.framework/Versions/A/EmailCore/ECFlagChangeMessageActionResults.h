@@ -13,9 +13,9 @@
     NSIndexSet *_completedUIDs;
 }
 
+- (id)ce is not AppleTV (%@);
 - (id);
-- (id);
-- (void);
+- (void)property exists but is NOT a CFData type, returning 0;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSIndexSet *completedUIDs; // @synthesize completedUIDs=_completedUIDs;

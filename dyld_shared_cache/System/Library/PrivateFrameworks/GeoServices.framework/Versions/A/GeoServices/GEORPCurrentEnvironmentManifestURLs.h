@@ -4,62 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPCurrentEnvironmentManifestURLs
 {
     PBDataReader *_reader;
-    NSString *_environmentDisplayName;
-    NSString *_environmentReleaseName;
-    NSMutableArray *_urls;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_environmentDisplayName:1;
-        unsigned int read_environmentReleaseName:1;
-        unsigned int read_urls:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool):(id)arg1;
++ (_Bool)setIsPermanentlyClosed:(id)arg1;
 - (unsigned long long);
-- (id);
-- (void);
-- (void);
+- (id);
+- (void)@"NSString",R,V_contactIdentifier;
+- (void)timestampedWithValue:(id)arg1 timestamp: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (id)setCsAssetsDictionary: /* Error: Ran out of types for this method. */;
+- (void)BTLE speech controller began waiting for Myriad decision;
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)geoMIFAutocompleteRequest;
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id)Data";
-- (id)ttedAddressLine: /* Error: Ran out of types for this method. */;
+- (id)addFormattedAddressLine: /* Error: Ran out of types for this method. */;
 - (id),n;
-- (void)re_guides_filter;
-- (id)mCategoriesURL_legacy;
+- (void)explore_guides_filter;
+- (id)problemCategoriesURL_legacy;
 - (void)"5íbL@;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *environmentDisplayName;
-@property(retain, nonatomic) NSString *environmentReleaseName;
 @property(readonly, nonatomic) _Bool hasEnvironmentDisplayName;
-@property(readonly, nonatomic) _Bool hasEnvironmentReleaseName;
-@property(retain, nonatomic) NSMutableArray *urls;
 
 @end
 

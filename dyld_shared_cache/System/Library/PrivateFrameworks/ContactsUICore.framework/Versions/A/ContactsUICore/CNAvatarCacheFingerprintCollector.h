@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableOrderedSet, NSString;
+@class NSArray, NSMutableOrderedSet;
 
 @interface CNAvatarCacheFingerprintCollector
 {
@@ -12,7 +12,9 @@
 }
 
 - (id);
-- (void);
+- (void)J,
+
+*;
 - (void);
 - (id);
 - (void);
@@ -20,14 +22,7 @@
 - (void)sharedProfileOracle;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, copy, nonatomic) NSArray *fingerprintsOfAffectedContacts;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

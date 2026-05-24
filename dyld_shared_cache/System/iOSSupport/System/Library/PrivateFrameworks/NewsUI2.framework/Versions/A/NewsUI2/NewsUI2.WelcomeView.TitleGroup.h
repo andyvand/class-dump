@@ -9,11 +9,9 @@
 @interface NewsUI2.WelcomeView.TitleGroup
 {
     id appIcon;
-    id welcomeTitleLabel;
-    id welcomeSubTitleLabel;
 }
 
-- (void);
+- (void)�;
 - (id);
 - (id);
 - (void);

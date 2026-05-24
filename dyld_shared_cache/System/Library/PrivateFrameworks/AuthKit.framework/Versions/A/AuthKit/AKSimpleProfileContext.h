@@ -9,30 +9,21 @@
 @interface AKSimpleProfileContext
 {
     NSString *_altDSID;
-    NSUUID *_identifier;
 }
 
 + (id);
 + (_Bool);
 - (void);
-- (id);
+- (id)H;
 - (void);
 - (void);
-- (id);
+- (id)H;
 - (id);
 - (void);
 - (id)7©Ñ	S6õ'(] ÓmfWnsçVÉ³ÝþÇU±@¾öµxû;
 
 // Remaining properties
 @property(retain, nonatomic) NSUUID *_identifier; // @synthesize _identifier;
-@property(copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

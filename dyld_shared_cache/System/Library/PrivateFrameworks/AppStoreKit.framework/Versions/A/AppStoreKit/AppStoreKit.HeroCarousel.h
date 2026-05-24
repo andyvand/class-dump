@@ -7,12 +7,6 @@
 @interface AppStoreKit.HeroCarousel
 {
     id items;
-    id autoScrollConfiguration;
-    id wantsTopGradient;
-    id wantsBottomGradient;
-    id id;
-    id impressionMetrics;
-    id automationMetadata;
 }
 
 @end

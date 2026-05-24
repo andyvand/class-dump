@@ -7,10 +7,10 @@
 @class NSSet, NSString;
 
 @protocol MRRouteRepresentable
+- (void)PEER_PAYMENT_ERROR_OVERAGE_TITLE;
+- (NSSet *)userPassword;
 
 // Remaining properties
-@property(nonatomic) _Bool donateAsCandidate;
-@property(retain, nonatomic) NSSet *nodes;
 @property(readonly, nonatomic) NSString *routeIdentifier;
 @end
 

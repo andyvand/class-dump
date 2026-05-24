@@ -9,8 +9,8 @@
     _Bool _calculatedKey2Value;
 }
 
-+ (id);
-- (void);
++ (id)`;
+- (void)~�`;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -21,10 +21,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool calculatedKey2Value; // @synthesize calculatedKey2Value=_calculatedKey2Value;
-@property(readonly, nonatomic) _Bool key1Value;
-@property(readonly, nonatomic) _Bool key2Value;
-@property(readonly, nonatomic) _Bool key3Value;
-@property(readonly, nonatomic) _Bool valuesFinalized;
 
 @end
 

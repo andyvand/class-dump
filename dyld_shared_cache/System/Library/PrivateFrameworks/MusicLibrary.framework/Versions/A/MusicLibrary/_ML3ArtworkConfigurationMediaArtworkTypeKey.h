@@ -8,10 +8,9 @@ __attribute__((visibility("hidden")))
 @interface _ML3ArtworkConfigurationMediaArtworkTypeKey
 {
     unsigned int _mediaType;
-    long long _artworkType;
 }
 
-+ (id);
++ (id)deleteCommentWithGUID:(unsigned int)arg1 personID:(long long)arg2;
 - (unsigned long long);
 - (_Bool);
 - (id);

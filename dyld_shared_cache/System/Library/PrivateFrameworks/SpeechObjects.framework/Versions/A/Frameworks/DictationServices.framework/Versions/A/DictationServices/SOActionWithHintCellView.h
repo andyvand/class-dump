@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     NSTextField *_hintTextField;
 }
 
-- (void);
-- (id);
+- (void)e share PCS from record PCS;
+- (id)ice %@ was unsuccessful;
 
 // Remaining properties
 @property(retain) NSTextField *hintTextField; // @synthesize hintTextField=_hintTextField;

@@ -4,27 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface VMUDirectedGraph
 {
     long long _graphCompatibilityVersion;
-    long long _graphVersion;
-    unsigned int _nodeCount;
-    unsigned int _edgeCount;
-    unsigned int _edgeCapacity;
-    unsigned int _externalEdges;
-    void *_deadNodes;
-    unsigned int _nextNodeName;
-    unsigned int _nextEdgeName;
-    unsigned int *_nodeAdjIndex;
-    struct _VMUDirectedGraphEdge *_edges;
-    NSDictionary *_additionalProperties;
-    unsigned int _indexedNodeSpace;
-    unsigned int _indexedEdges;
-    int _insideSearch;
-    _Bool _inverted;
-    _Bool _graphIs64bit;
 }
 
 + (_Bool);
@@ -33,7 +15,7 @@
 + (id);
 + (id);
 + (id);
-+ (void *);
++ (void *);
 - (void);
 - (void);
 - (void);
@@ -45,11 +27,13 @@
 - (unsigned int);
 - (id);
 - (unsigned int);
-- (_Bool);
+- (_Bool)@;
 - (id);
 - (void);
-- (id);
-- (_Bool);
+- (id)R
+*
+_	;
+- (_Bool);
 - (unsigned int);
 - (unsigned int);
 - (void);
@@ -64,9 +48,9 @@
 - (void);
 - (void);
 - (void);
-- (unsigned int);
+- (unsigned int);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -76,11 +60,11 @@
 - (unsigned int);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (unsigned int);
-- (void);
+- (void);
 - (_Bool);
 - (unsigned int);
 - (id);
@@ -93,17 +77,10 @@
 - (void);
 - (unsigned int)0@ù
 × ;
-- (void)sSwiftContent;
+- (void)hasSwiftContent;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *additionalProperties; // @synthesize additionalProperties=_additionalProperties;
-@property(readonly, nonatomic) unsigned int edgeCount;
-@property(readonly, nonatomic) unsigned int edgeNamespaceSize; // @synthesize edgeNamespaceSize=_nextEdgeName;
-@property(readonly, nonatomic) _Bool graphIs64bit; // @synthesize graphIs64bit=_graphIs64bit;
 @property(nonatomic) _Bool inverted;
-@property(readonly, nonatomic) unsigned int nodeCount; // @synthesize nodeCount=_nodeCount;
-@property(readonly, nonatomic) unsigned int nodeNamespaceSize; // @synthesize nodeNamespaceSize=_nextNodeName;
-@property(readonly, nonatomic) unsigned int pointerSize;
 
 @end
 

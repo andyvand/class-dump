@@ -9,7 +9,6 @@
 @interface IDSPushToken
 {
     NSData *_rawToken;
-    NSString *_serviceLoggingHint;
 }
 
 + (id);
@@ -22,15 +21,14 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)setListeningMode:(id)arg1;
 - (void);
-- (id);
-- (id);
+- (id)d default app does not support collaboration.;
+- (id);
 - (void)wantsAWDL:clientUUID:] /* Error: Ran out of types for this method. */;
 - (id)to find class %s;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *rawToken; // @synthesize rawToken=_rawToken;
 @property(retain, nonatomic) NSString *serviceLoggingHint; // @synthesize serviceLoggingHint=_serviceLoggingHint;
 
 @end

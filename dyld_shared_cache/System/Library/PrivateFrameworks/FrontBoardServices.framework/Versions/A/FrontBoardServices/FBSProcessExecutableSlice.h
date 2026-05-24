@@ -7,7 +7,6 @@
 @interface FBSProcessExecutableSlice
 {
     int _type;
-    int _subtype;
 }
 
 + (id);
@@ -21,7 +20,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) int subtype; // @synthesize subtype=_subtype;
 @property(readonly, nonatomic) int type; // @synthesize type=_type;
 
 @end

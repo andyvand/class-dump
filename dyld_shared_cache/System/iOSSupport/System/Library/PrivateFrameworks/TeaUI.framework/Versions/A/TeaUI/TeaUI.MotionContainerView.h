@@ -7,12 +7,11 @@
 @interface TeaUI.MotionContainerView
 {
     id motionTransforms;
-    id isMotionEnabled;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)internationalizationKeys;
+- (id)setTopicFeedChannelTopicDiversificationPenalty:(struct CGRect)arg1;
 - (void);
 
 @end

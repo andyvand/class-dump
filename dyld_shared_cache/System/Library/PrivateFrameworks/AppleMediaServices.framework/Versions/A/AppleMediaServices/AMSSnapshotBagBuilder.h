@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSProcessInfo, NSDate, NSDictionary, NSString;
+@class NSDictionary;
 
 @interface AMSSnapshotBagBuilder
 {
     NSDictionary *_data;
-    NSDictionary *_defaultValues;
-    NSDate *_expirationDate;
-    AMSProcessInfo *_processInfo;
-    NSString *_profile;
-    NSString *_profileVersion;
 }
 
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)lume"b1};
 - (id);
 - (id);
 - (id);
@@ -36,11 +31,6 @@
 
 // Remaining properties
 @property(retain) NSDictionary *data; // @synthesize data=_data;
-@property(retain) NSDictionary *defaultValues; // @synthesize defaultValues=_defaultValues;
-@property(retain) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(retain) AMSProcessInfo *processInfo; // @synthesize processInfo=_processInfo;
-@property(retain) NSString *profile; // @synthesize profile=_profile;
-@property(retain) NSString *profileVersion; // @synthesize profileVersion=_profileVersion;
 
 @end
 

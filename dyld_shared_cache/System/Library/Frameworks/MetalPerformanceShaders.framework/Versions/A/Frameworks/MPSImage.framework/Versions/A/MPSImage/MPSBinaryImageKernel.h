@@ -7,19 +7,11 @@
 @interface MPSBinaryImageKernel
 {
     CDStruct_1e3be3a8 _clipRect;
-    CDStruct_d6af7fc0 _primaryOffset;
-    CDStruct_d6af7fc0 _secondaryOffset;
-    unsigned long long _primaryEdgeMode;
-    unsigned long long _secondaryEdgeMode;
-    int _checkFlags;
-    CDUnknownFunctionPointerType _encode;
-    void *_encodeData;
-    const CDStruct_14f26992 *_preferredTileSize;
 }
 
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)k%;
 - (_Bool);
 - (void);
 - (void);
@@ -32,22 +24,18 @@
 - (void);
 - (void);
 - (CDStruct_1e3be3a8);
-- (CDStruct_d6af7fc0);
+- (CDStruct_d6af7fc0)   H;
 - (unsigned long long);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)onationProgress:(id)arg1 protectionClass:forBundleID:options:reason:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)´þÊ?ýÍ!îGÊ?-¼ºº?Ò´æ&Í±?ñ¬CûÓ?5V_âø?;
 
 // Remaining properties
-@property(nonatomic) CDStruct_1e3be3a8 clipRect; // @synthesize clipRect=_clipRect;
-@property(nonatomic) unsigned long long primaryEdgeMode; // @synthesize primaryEdgeMode=_primaryEdgeMode;
 @property(nonatomic) CDStruct_d6af7fc0 primaryOffset; // @synthesize primaryOffset=_primaryOffset;
-@property(nonatomic) unsigned long long secondaryEdgeMode; // @synthesize secondaryEdgeMode=_secondaryEdgeMode;
-@property(nonatomic) CDStruct_d6af7fc0 secondaryOffset; // @synthesize secondaryOffset=_secondaryOffset;
 
 @end
 

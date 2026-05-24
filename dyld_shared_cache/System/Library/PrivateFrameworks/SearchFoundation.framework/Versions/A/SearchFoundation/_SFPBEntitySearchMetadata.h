@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _SFPBEntitySearchMetadata
 {
     NSString *_entitySearchQuery;
-    NSString *_tokenQuery;
-    NSString *_entityIdentifier;
-    NSString *_viewConfigName;
 }
 
 - (id);
@@ -21,31 +18,20 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)*a;
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)E;
 - (_Bool);
 - (_Bool);
+- (id)loadSegmentationDataForAsset:(id)arg1 options:completion: /* Error: Ran out of types for this method. */;
+- (id)nd no photo or video resources to share for asset:%@, options:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void)ueIdentifierIsEncrypted: /* Error: Ran out of types for this method. */;
+- (id)a;
+- (void)setPlaybackRouteUniqueIdentifierIsEncrypted: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *entityIdentifier; // @synthesize entityIdentifier=_entityIdentifier;
 @property(copy, nonatomic) NSString *entitySearchQuery; // @synthesize entitySearchQuery=_entitySearchQuery;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *tokenQuery; // @synthesize tokenQuery=_tokenQuery;
-@property(copy, nonatomic) NSString *viewConfigName; // @synthesize viewConfigName=_viewConfigName;
 
 @end
 

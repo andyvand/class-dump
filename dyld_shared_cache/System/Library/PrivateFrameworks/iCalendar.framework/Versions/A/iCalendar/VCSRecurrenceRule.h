@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString, VCSDate;
-
 @interface VCSRecurrenceRule
 {
     _Bool _hasDuration;
-    unsigned long long _recurrenceType;
-    long long _interval;
-    long long _duration;
-    NSArray *_dayNumberList;
-    NSArray *_monthList;
-    NSArray *_dayList;
-    NSMutableArray *_occurrenceList;
-    NSMutableArray *_weekdayList;
-    VCSDate *_endDate;
 }
 
 - (id);
@@ -30,7 +19,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool),;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -52,28 +41,12 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)!;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *dayList; // @synthesize dayList=_dayList;
-@property(retain, nonatomic) NSArray *dayNumberList; // @synthesize dayNumberList=_dayNumberList;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long duration; // @synthesize duration=_duration;
-@property(retain, nonatomic) VCSDate *endDate; // @synthesize endDate=_endDate;
-@property(nonatomic) _Bool hasDuration; // @synthesize hasDuration=_hasDuration;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long interval; // @synthesize interval=_interval;
-@property(retain, nonatomic) NSArray *monthList; // @synthesize monthList=_monthList;
-@property(retain, nonatomic) NSMutableArray *occurrenceList; // @synthesize occurrenceList=_occurrenceList;
 @property(readonly, nonatomic) unsigned long long recurrenceType; // @synthesize recurrenceType=_recurrenceType;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSMutableArray *weekdayList; // @synthesize weekdayList=_weekdayList;
 
 @end
 

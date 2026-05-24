@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMObjectID, NSString;
+@class EMObjectID;
 
 @interface EMObject
 {
@@ -15,30 +15,18 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)B;
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)onPort=};
 - (void);
-- (id);
+- (id)utableDictionary",&,N,V_assetToAssetCollectionMap;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) EMObjectID *objectID; // @synthesize objectID=_objectID;
-@property(readonly) Class superclass;
 
 @end
 

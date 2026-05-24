@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSKeywordAnalyzerNDEAPI, CSShadowMicScoreCreator, NSMutableData, NSString;
-@protocol CSPhraseNDEAPIScorerDelegate;
+@class CSKeywordAnalyzerNDEAPI;
 
 @interface CSPhraseNDEAPIScorer
 {
     _Bool _hasReceivedNDEAPIResult;
-    unsigned char _hasReceivedEarlyDetectNDEAPIResult;
-    float _shadowMicScoreThresholdForVAD;
-    id <CSPhraseNDEAPIScorerDelegate> _delegate;
-    CSKeywordAnalyzerNDEAPI *_keywordAnalyzerNDEAPI;
-    CSShadowMicScoreCreator *_shadowMicScoreCreator;
-    NSMutableData *_dataBufferNDEAPI;
-    unsigned long long _dataBufferPositionNDEAPI;
-    unsigned long long _hearstNumberOfBytesPerChunk;
-    unsigned long long _hearstNumberOfSamplesPerChunk;
 }
 
 - (float);
@@ -33,7 +23,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)__cstring;
 - (_Bool);
 - (unsigned char);
 - (unsigned long long);
@@ -42,30 +32,14 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)uggesterSuggestions;
 - (unsigned long long);
 - (id);
 - (void);
-- (void)hancedEndpointer;
+- (void)enhancedEndpointer;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableData *dataBufferNDEAPI; // @synthesize dataBufferNDEAPI=_dataBufferNDEAPI;
-@property(nonatomic) unsigned long long dataBufferPositionNDEAPI; // @synthesize dataBufferPositionNDEAPI=_dataBufferPositionNDEAPI;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CSPhraseNDEAPIScorerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned char hasReceivedEarlyDetectNDEAPIResult; // @synthesize hasReceivedEarlyDetectNDEAPIResult=_hasReceivedEarlyDetectNDEAPIResult;
-@property(nonatomic) _Bool hasReceivedNDEAPIResult; // @synthesize hasReceivedNDEAPIResult=_hasReceivedNDEAPIResult;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long hearstNumberOfBytesPerChunk; // @synthesize hearstNumberOfBytesPerChunk=_hearstNumberOfBytesPerChunk;
-@property(nonatomic) unsigned long long hearstNumberOfSamplesPerChunk; // @synthesize hearstNumberOfSamplesPerChunk=_hearstNumberOfSamplesPerChunk;
 @property(retain, nonatomic) CSKeywordAnalyzerNDEAPI *keywordAnalyzerNDEAPI; // @synthesize keywordAnalyzerNDEAPI=_keywordAnalyzerNDEAPI;
-@property(retain, nonatomic) CSShadowMicScoreCreator *shadowMicScoreCreator; // @synthesize shadowMicScoreCreator=_shadowMicScoreCreator;
-@property(readonly, nonatomic) float shadowMicScoreThresholdForVAD; // @synthesize shadowMicScoreThresholdForVAD=_shadowMicScoreThresholdForVAD;
-@property(readonly) Class superclass;
 
 @end
 

@@ -11,51 +11,23 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct CGPoint {
-    double x;
-    double y;
+    double _field1;
+    double _field2;
 };
 
 struct CGRect {
-    struct CGPoint origin;
-    struct CGSize size;
+    struct CGPoint _field1;
+    struct CGSize _field2;
 };
 
 struct CGSize {
-    double width;
-    double height;
+    double _field1;
+    double _field2;
 };
 
 struct ProcessSerialNumber {
     unsigned int _field1;
     unsigned int _field2;
-};
-
-struct SCRCFingerState {
-    unsigned long long identifier;
-    long long xDirection;
-    long long yDirection;
-    struct SCRCMathAverageValue normalizedVelocityPerSample;
-    struct SCRCMathAverageValue deltaXPerSample;
-    struct SCRCMathAverageValue deltaYPerSample;
-    struct SCRCMathAverageValue distancePerSample;
-    double distanceTraveledWithInertiaApplied;
-    _Bool dragStalled;
-    long long type;
-    struct CGPoint startTouchPoint;
-    struct CGPoint mostRecentTouchPoint;
-    struct CGPoint lastDownPoint;
-    double pressure;
-    double altitude;
-    double azimuth;
-};
-
-struct SCRCMathAverageValue {
-    unsigned int samples;
-    double fifo[50];
-    int fifoIndex;
-    double sum;
-    double average;
-    double current;
 };
 
 struct _NSRange {
@@ -88,5 +60,5 @@ typedef struct {
     struct CGPoint _field20;
     struct CGPoint _field21;
     double _field22;
-} CDStruct_fc320275;
+} CDStruct_ddb67d13;
 

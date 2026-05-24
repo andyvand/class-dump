@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaHardwareButtonInvocationContext : SISchemaInstrumentationMessage
 {
     int _hardwareButtonLongPressBehavior;
-    float _hardwareButtonActivationThresholdInSec;
-    struct {
-        unsigned int hardwareButtonLongPressBehavior:1;
-        unsigned int hardwareButtonActivationThresholdInSec:1;
-    } _has;
 }
 
 - (void);
@@ -30,20 +23,16 @@
 - (int);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)@"NSURL",C,N,V_clipFullURL;
+- (_Bool)Entry"8;
+- (_Bool)RecordCopyDisplayName(CFAllocatorRef, IMDChatRecordRef);
 - (id);
 - (id);
-- (id)eCdmSetupLink;
-- (id)assificationManifests;
+- (id)deleteCdmSetupLink;
+- (id)_dataClassificationManifests;
 
 // Remaining properties
-@property(nonatomic) float hardwareButtonActivationThresholdInSec; // @synthesize hardwareButtonActivationThresholdInSec=_hardwareButtonActivationThresholdInSec;
 @property(nonatomic) int hardwareButtonLongPressBehavior; // @synthesize hardwareButtonLongPressBehavior=_hardwareButtonLongPressBehavior;
-@property(nonatomic) _Bool hasHardwareButtonActivationThresholdInSec;
-@property(nonatomic) _Bool hasHardwareButtonLongPressBehavior;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

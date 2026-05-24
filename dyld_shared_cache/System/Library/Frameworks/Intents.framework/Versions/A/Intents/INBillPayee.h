@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INSpeakableString, NSString;
+@class INSpeakableString;
 
 @interface INBillPayee
 {
     INSpeakableString *_nickname;
-    NSString *_accountNumber;
-    INSpeakableString *_organizationName;
 }
 
 + (id);
 + (_Bool);
 - (id);
+- (id)ramework/Versions/A/CoreGraphics;
 - (id);
 - (id);
+- (unsigned long long);
+- (_Bool)orkHandler;
+- (void)ctory.kPthP0/Sources/CoreWiFi/Framework/CWFPowerTableElectionTelemetry.m;
 - (id);
-- (unsigned long long);
-- (_Bool);
-- (void);
 - (id);
-- (id);
-- (id)stributionKeyForVocabularyStringType:(unsigned long long)arg1;
+- (id)_distributionKeyForVocabularyStringType:(unsigned long long)arg1;
 - (void)PauseWorkoutIntent;
 - (id);
 - (id)ÖÁÿ;
@@ -32,16 +30,7 @@
 - (id)øëñÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *accountNumber; // @synthesize accountNumber=_accountNumber;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) INSpeakableString *nickname; // @synthesize nickname=_nickname;
-@property(readonly, copy) INSpeakableString *organizationName; // @synthesize organizationName=_organizationName;
-@property(readonly) Class superclass;
 
 @end
 

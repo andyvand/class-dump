@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXStoryConfiguration;
 @protocol PFStoryRecipe;
 
 @interface PXStoryPersistableRecipeSongResourceProducer
 {
     id <PFStoryRecipe> _persistableRecipe;
-    PXStoryConfiguration *_configuration;
-    unsigned long long logContext;
 }
 
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void)ch;
-- (void)ers;
+- (void)_lastActiveSearch;
+- (void)MediaItemParameters;
 
 // Remaining properties
 @property(nonatomic) unsigned long long logContext; // @synthesize logContext;

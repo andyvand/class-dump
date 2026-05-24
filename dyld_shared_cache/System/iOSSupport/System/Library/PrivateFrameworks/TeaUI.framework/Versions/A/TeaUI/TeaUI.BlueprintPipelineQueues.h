@@ -7,9 +7,6 @@
 @interface TeaUI.BlueprintPipelineQueues
 {
     id operationQueue;
-    id sidecarOperationQueue;
-    id queue;
-    id sidecarQueue;
 }
 
 @end

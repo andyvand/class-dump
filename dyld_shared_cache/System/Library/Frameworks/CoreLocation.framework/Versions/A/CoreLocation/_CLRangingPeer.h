@@ -4,35 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface _CLRangingPeer
 {
     id _internal;
 }
 
-+ (unsigned long long);
++ (unsigned long long)BM;
 + (id);
 + (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)N;
+- (id);
+- (id)2j;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)lugin.cpp;
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
+- (id)setSamplePositions:(struct _NSZone *)arg1 count: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long macAddress;
-@property(readonly, copy, nonatomic) NSData *secureRangingKeyID;
 
 @end
 

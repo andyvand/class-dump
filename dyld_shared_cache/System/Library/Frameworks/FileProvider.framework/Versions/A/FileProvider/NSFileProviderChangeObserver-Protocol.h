@@ -5,6 +5,11 @@
 //
 
 @protocol NSFileProviderChangeObserver
+- (void);
+- (void)connection from %s;
+
+@optional
+- (long long)a delegate;
 
 // Remaining properties
 @property(readonly, nonatomic) long long suggestedBatchSize;

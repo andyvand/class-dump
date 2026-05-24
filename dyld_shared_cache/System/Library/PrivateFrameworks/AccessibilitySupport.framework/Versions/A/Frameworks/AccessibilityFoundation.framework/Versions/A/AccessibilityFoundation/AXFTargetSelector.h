@@ -7,20 +7,18 @@
 @interface AXFTargetSelector
 {
     id _target;
-    SEL _selector;
 }
 
 + (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (SEL);
-- (void);
+- (void)GKSRelayParameter_PeerRelayNatPort;
 - (void)þÿáAõEÃ;
 
 // Remaining properties
-@property(nonatomic) SEL selector; // @synthesize selector=_selector;
 @property(nonatomic) __weak id target; // @synthesize target=_target;
 
 @end

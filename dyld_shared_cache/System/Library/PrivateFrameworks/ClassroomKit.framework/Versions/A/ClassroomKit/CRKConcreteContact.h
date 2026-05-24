@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSData, NSString;
+@class CNContact;
 
 @interface CRKConcreteContact
 {
@@ -19,24 +19,10 @@
 - (id);
 - (id);
 - (void);
-- (id)rror: /* Error: Ran out of types for this method. */;
+- (id)applyProperties:toClass:error: /* Error: Ran out of types for this method. */;
 - (id)workReachability",R,N,V_networkReachability;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *familyName;
-@property(readonly, copy, nonatomic) NSString *givenName;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, copy, nonatomic) NSString *nickname;
-@property(readonly, copy, nonatomic) NSString *phoneticFamilyName;
-@property(readonly, copy, nonatomic) NSString *phoneticGivenName;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSData *thumbnailImageData;
 @property(readonly, nonatomic) CNContact *underlyingContact; // @synthesize underlyingContact=_underlyingContact;
 
 @end

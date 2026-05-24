@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSUUID;
+@protocol MKFAnalysisEventBulletinRegistration, MKFUser;
+
 @protocol MKFAppleMediaAccessoryPublicExtensions
+- (id <MKFAnalysisEventBulletinRegistration>)ed to block identifiers %@:(NSUUID *)arg1 error:(id <MKFUser>)arg2 %@;
 @end
 

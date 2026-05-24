@@ -9,7 +9,7 @@
     CDUnknownBlockType _completion;
 }
 
-- (void);
+- (void);
 - (void);
 
 @end

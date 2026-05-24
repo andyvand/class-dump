@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface BRTask
 {
     NSArray *_argv;
-    NSString *_redirectStdoutToFileAtPath;
-    int _redirectStdoutToFileDescriptor;
-    NSString *_redirectStderrToFileAtPath;
-    int _redirectStderrToFileDescriptor;
-    int _waitStatus;
 }
 
 + (id);
@@ -24,26 +19,21 @@
 - (void);
 - (void);
 - (void);
+- (void)!;
 - (void);
-- (void);
-- (void);
+- (void)/;
 - (int);
 - (id);
 - (int);
 - (id);
-- (int);
+- (int);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *argv; // @synthesize argv=_argv;
-@property(retain, nonatomic) NSString *redirectStderrToFileAtPath; // @synthesize redirectStderrToFileAtPath=_redirectStderrToFileAtPath;
-@property(nonatomic) int redirectStderrToFileDescriptor; // @synthesize redirectStderrToFileDescriptor=_redirectStderrToFileDescriptor;
-@property(retain, nonatomic) NSString *redirectStdoutToFileAtPath; // @synthesize redirectStdoutToFileAtPath=_redirectStdoutToFileAtPath;
-@property(nonatomic) int redirectStdoutToFileDescriptor; // @synthesize redirectStdoutToFileDescriptor=_redirectStdoutToFileDescriptor;
-@property(readonly, nonatomic) int waitStatus; // @synthesize waitStatus=_waitStatus;
 
 @end
 

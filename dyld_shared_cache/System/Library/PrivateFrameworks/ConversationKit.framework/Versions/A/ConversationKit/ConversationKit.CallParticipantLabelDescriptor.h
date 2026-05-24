@@ -4,47 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface ConversationKit.CallParticipantLabelDescriptor
 {
     void strings;
-    void secondaryString;
-    void sourceString;
-    void durationString;
-    long long layoutState;
-    _Bool isDynamic;
-    _Bool isCallIdentification;
-    void localizedSenderIdentity;
 }
 
 - (void);
+- (void)g{;
 - (void);
-- (void);
+- (id){;
+- (_Bool){;
+- (void)'p;
+- (void)m;
+- (id);
+- (void)n;
 - (id);
+- (id)){;
+- (id)vv;
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
+- (id)__cfstring;
+- (void)VOTEventCommandSpeechRotorNext;
 - (long long);
 - (void)wBÿÿ;
 
 // Remaining properties
-@property(nonatomic, copy) NSString *durationString;
-@property(nonatomic) _Bool isCallIdentification; // @synthesize isCallIdentification;
-@property(nonatomic) _Bool isDynamic; // @synthesize isDynamic;
-@property(nonatomic) long long layoutState; // @synthesize layoutState;
-@property(nonatomic, copy) NSString *localizedSenderIdentity;
-@property(nonatomic, copy) NSString *secondaryString;
-@property(nonatomic, copy) NSString *sourceString;
 @property(nonatomic, copy) NSArray *strings;
 
 @end

@@ -4,36 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateFormatter, NSMutableDictionary, NSString;
 @protocol SFSQLiteDelegate;
 
 @interface SFSQLite
 {
     id <SFSQLiteDelegate> _delegate;
-    NSString *_path;
-    NSString *_schema;
-    NSString *_schemaVersion;
-    NSMutableDictionary *_statementsBySQL;
-    NSString *_objectClassPrefix;
-    long long _synchronousMode;
-    int _userVersion;
-    struct sqlite3 *_db;
-    unsigned long long _openCount;
-    NSDateFormatter *_dateFormatter;
-    _Bool _hasMigrated;
-    _Bool _corrupt;
-    _Bool _traced;
-    NSDateFormatter *_oldDateFormatter;
 }
 
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)%;
 - (id);
 - (void);
 - (void);
@@ -59,11 +44,11 @@
 - (unsigned long long);
 - (long long);
 - (_Bool);
-- (void);
+- (void)b;
 - (id);
 - (struct sqlite3 *);
 - (void);
-- (void);
+- (void)˟;
 - (_Bool);
 - (void);
 - (void);
@@ -75,20 +60,20 @@
 - (void);
 - (void);
 - (void);
+- (void)fo.;
 - (void);
-- (void);
-- (void);
+- (void)																																																																																																																																																																																																																																																			00001700000000000001000000000000000000000077776602222200000000003333333333333333333333333333333333333333333333333333333333333333333333333333333333333322223332444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444424445555555555555555555555555555555555555555666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666600000000000000005555555555555555555555554444444444444444666666666666666666666666666666666666666666666660000000000000000000000000000000000006666666666666666666666666666666000000000000000000000000000000000000000000000000000000000000000000000000000000002222222222222222222222222222222222222222222222244444444444444444444444444444444444444444444444444444444444444444444444444444444444444440000000000000000000000000777770000000000000000000000000000000077777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777888888888888888888888888888888888888888888888888888888888888888888886666666666666666666666666666666666667777777777777777777777777777777777777777777777777777777777777777>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>0077203333333333444444444444777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777000000000000044444444444444444444444444444444444444444444444444444444446666666666666666666666666666666666666666666666666666;
 - (unsigned long long);
 - (void);
-- (void);
+- (void)a;
 - (void);
 - (int);
 - (id);
 - (id);
 - (void);
+- (void));
 - (void);
-- (void);
-- (id);
+- (id);
 - (long long);
 - (void)@<ì;
 - (id)d %d %d);
@@ -101,22 +86,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool corrupt; // @synthesize corrupt=_corrupt;
-@property(retain, nonatomic) NSDateFormatter *dateFormatter; // @synthesize dateFormatter=_dateFormatter;
 @property(nonatomic) struct sqlite3 *db; // @synthesize db=_db;
-@property(retain, nonatomic) id <SFSQLiteDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) _Bool hasMigrated; // @synthesize hasMigrated=_hasMigrated;
-@property(readonly, nonatomic) _Bool isOpen;
-@property(retain, nonatomic) NSString *objectClassPrefix; // @synthesize objectClassPrefix=_objectClassPrefix;
-@property(retain, nonatomic) NSDateFormatter *oldDateFormatter; // @synthesize oldDateFormatter=_oldDateFormatter;
-@property(nonatomic) unsigned long long openCount; // @synthesize openCount=_openCount;
-@property(readonly, nonatomic) NSString *path; // @synthesize path=_path;
-@property(readonly, nonatomic) NSString *schema; // @synthesize schema=_schema;
-@property(readonly, nonatomic) NSString *schemaVersion; // @synthesize schemaVersion=_schemaVersion;
-@property(readonly, nonatomic) NSMutableDictionary *statementsBySQL; // @synthesize statementsBySQL=_statementsBySQL;
-@property(nonatomic) long long synchronousMode; // @synthesize synchronousMode=_synchronousMode;
-@property(nonatomic) _Bool traced; // @synthesize traced=_traced;
-@property(nonatomic) int userVersion; // @synthesize userVersion=_userVersion;
 
 @end
 

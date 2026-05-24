@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHSRemoteDevicePredicate, NSArray, NSString;
+@class NSArray;
 
 @interface CHSControlConfiguration
 {
     id _controlItems;
-    id _replicationPredicate;
-    id _automaticallyOrphaned;
-    id _expirationTimeout;
 }
 
-+ (_Bool);
++ (_Bool)P;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)m߽	qn?;
 - (id);
 - (id);
 - (double);
@@ -32,19 +29,14 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)";
 - (id);
 - (id);
-- (id);
+- (id)validateCustodianRecoveryCodeWithContext:(id)arg1 completion: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool automaticallyOrphaned;
 @property(nonatomic, readonly) NSArray *controlItems;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) double expirationTimeout;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, readonly) CHSRemoteDevicePredicate *replicationPredicate;
 
 @end
 

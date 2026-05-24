@@ -5,5 +5,10 @@
 //
 
 @protocol _UIDocumentPickerRemoteViewControllerContaining
+- (void)24;
+- (void)IMChatSessionCloseProcessingParameter;
+- (void)IMDCarrierReportJunkHelper;
+- (void)IMDOneTimeCodeManager;
+- (void)IMService;
 @end
 

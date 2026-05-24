@@ -11,7 +11,6 @@
 @interface FCTagRecordSource : FCRecordSource
 {
     NSArray *_nonLocalizableKeys;
-    unsigned long long _desiredFieldOptions;
 }
 
 - (unsigned long long);
@@ -20,18 +19,18 @@
 - (id);
 - (id);
 - (void);
+- (id)“%{public}@” valid;
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)A;
 - (id)ñ(	Ð1Â0@ù
 × ;
 - (unsigned long long)ent:clientSideEngagementBoostFeaturedArticleMultiplier:clientSideEngagementBoostFeatureCandidateArticleMultiplier:clientSideEngagementBoostFreeCohortCTRCap:clientSideEngagementBoostPaidCohortCTRCap:clientSideEngagementBoostTagQualityMultiplier:clientSideEngagementBoostReduceVisibilityMultiplier:clientSideEngagementBoostANFMutiplier:dampenerEnabled:multiplierEnabled:peopleAlsoReadBaselineScore:peopleAlsoReadConditionalScoreCoefficient:peopleAlsoReadScoreCoefficient:recipeSeenPenalty:recipeViewedPenalty: /* Error: Ran out of types for this method. */;
 - (id)eTagIDs;
 - (unsigned long long);
-- (void)sToShowTheUser;
-- (id)one;
+- (void)extraHeadlinesToShowTheUser;
+- (id)privateZone;
 - (id);
 - (id);
 - (int);

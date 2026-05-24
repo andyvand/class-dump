@@ -4,28 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASKStorefrontChangeProvider, NSHashTable;
+@class ASKStorefrontChangeProvider;
 
 @interface ASKRebootstrapCoordinator
 {
     struct os_unfair_lock_s _handlerTokensLock;
-    _Bool _hasPendingNotification;
-    ASKStorefrontChangeProvider *_changeObserver;
-    NSHashTable *_handlerTokens;
-    CDUnknownBlockType _appBootstrapHandler;
-    long long _delayCount;
 }
 
-+ (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
++ (id);
+- (void)o;
+- (void)o;
+- (void)qo;
+- (void)o;
+- (id)o;
+- (void)ho;
 - (_Bool);
-- (void);
-- (void);
+- (void)o;
+- (void);
 - (CDUnknownBlockType);
 - (id);
 - (void);
@@ -36,11 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType appBootstrapHandler; // @synthesize appBootstrapHandler=_appBootstrapHandler;
 @property(readonly, nonatomic) ASKStorefrontChangeProvider *changeObserver; // @synthesize changeObserver=_changeObserver;
-@property(nonatomic) long long delayCount; // @synthesize delayCount=_delayCount;
-@property(readonly, nonatomic) NSHashTable *handlerTokens; // @synthesize handlerTokens=_handlerTokens;
-@property(nonatomic) _Bool hasPendingNotification; // @synthesize hasPendingNotification=_hasPendingNotification;
 
 @end
 

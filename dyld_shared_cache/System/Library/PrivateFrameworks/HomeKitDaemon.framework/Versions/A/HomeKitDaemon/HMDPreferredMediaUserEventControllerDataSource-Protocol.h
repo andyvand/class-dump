@@ -8,7 +8,8 @@
 @protocol HMEEventForwarder, HMELastEventStoreReadHandle;
 
 @protocol HMDPreferredMediaUserEventControllerDataSource
-- (id <HMELastEventStoreReadHandle>);
+- (void);
+- (id <HMELastEventStoreReadHandle>)evaluate;
 - (id <HMEEventForwarder>)e:%@ phase:%@ succeeded:%{BOOL}d /* Error: Ran out of types for this method. */;
 - (NSUUID *)nsMessage(_:) /* Error: Ran out of types for this method. */;
 @end

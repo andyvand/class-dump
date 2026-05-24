@@ -9,19 +9,17 @@
 @interface INVoiceCommandStepInfo
 {
     NSString *_applicationIdentifier;
-    long long _category;
-    NSString *_name;
 }
 
-+ (id);
++ (id);
 + (_Bool);
 - (id);
+- (id)Interface>";
 - (id);
-- (id);
-- (id);
+- (id)d1ede05-38c7-4a6a-9cc6-4bcca8b38c14:DefaultBackgroundColor /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)setServiceNames:(id)arg1;
+- (void)%@ at interval %ld seconds;
 - (long long);
 - (id);
 - (id);
@@ -32,15 +30,6 @@
 
 // Remaining properties
 @property(readonly, copy) NSString *applicationIdentifier; // @synthesize applicationIdentifier=_applicationIdentifier;
-@property(readonly) long long category; // @synthesize category=_category;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, RTDefaultsManager, RTDistanceCalculator, RTPersistenceManager;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface RTLearnedLocationReconcilerPerVisit
 {
     NSObject<OS_dispatch_queue> *_queue;
-    RTPersistenceManager *_persistenceManager;
-    RTDefaultsManager *_defaultsManager;
-    RTDistanceCalculator *_distanceCalculator;
-    NSArray *_reconciliationModels;
 }
 
 + (void);
@@ -24,17 +20,17 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)o enroll LRC Record:(id)arg1 %@;
+- (void)ne.;
+- (id)isolate;
+- (id)inside;
+- (void)v2Escrow;
+- (void)PCSBackupDBRv2Escrow;
+- (void)ng:(id)arg1 %@;
+- (void)NotifyChange;
+- (id)PCSSPKey:(id)arg1 _PCSExportRandomPCSSPKey(&share.tbs.shareList.val[n].key);
+- (id)mework;
+- (id);
 - (void);
 - (void);
 - (id);
@@ -42,16 +38,12 @@
 - (void);
 - (id)!tFùQB,1Â0@ù
 × ;
-- (void)DeviceName;
-- (id)Date;
+- (void)userAssignedDeviceName;
+- (id)VisitIncidentExitDate;
 - (void)lAccuracy >= 0;
 
 // Remaining properties
-@property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(retain, nonatomic) RTDistanceCalculator *distanceCalculator; // @synthesize distanceCalculator=_distanceCalculator;
-@property(retain, nonatomic) RTPersistenceManager *persistenceManager; // @synthesize persistenceManager=_persistenceManager;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain) NSArray *reconciliationModels; // @synthesize reconciliationModels=_reconciliationModels;
 
 @end
 

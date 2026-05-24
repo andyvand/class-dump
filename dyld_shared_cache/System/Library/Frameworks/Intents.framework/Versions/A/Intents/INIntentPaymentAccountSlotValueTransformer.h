@@ -8,12 +8,12 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)5;
++ (Class);
 + (Class);
-+ (Class);
-+ (long long)eepAlarmAttributes: /* Error: Ran out of types for this method. */;
++ (long long)setPayloadSleepAlarmAttributes: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)sIntentCategory:(id)arg1;
+- (id)StringAsIntentCategory:(id)arg1;
 
 @end
 

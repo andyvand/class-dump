@@ -15,7 +15,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)ion level (due to incompatible Part-2 downsampling factor style usage).  While these latter conditions might not be strictly illegal, they are clearly foolish.;
 
 // Remaining properties
 @property(retain) id <LFSessionLogoutListenerInterface><LFSessionLogoutListenerMessageHandler> messageHandler; // @dynamic messageHandler;

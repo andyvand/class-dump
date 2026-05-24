@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface CNSharingProfileRowItem
 {
     _Bool _isSelected;
-    NSString *_label;
-    UIView *_accessoryView;
 }
 
 - (id);
 - (void);
 - (id);
-- (void)tionaryRepresentation:withAllContainers:excludedContainers:excludedGroups: /* Error: Ran out of types for this method. */;
+- (void)addAddressBookUIKeysToDictionaryRepresentation:withAllContainers:excludedContainers:excludedGroups: /* Error: Ran out of types for this method. */;
 - (id)yMemberContactsControllerDelegate>",W,N,V_delegate;
-- (_Bool)int: /* Error: Ran out of types for this method. */;
+- (_Bool)cnui_tintedImageNamed:withTint: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) UIView *accessoryView; // @synthesize accessoryView=_accessoryView;
-@property(nonatomic) _Bool isSelected; // @synthesize isSelected=_isSelected;
 @property(readonly, nonatomic) NSString *label; // @synthesize label=_label;
 
 @end

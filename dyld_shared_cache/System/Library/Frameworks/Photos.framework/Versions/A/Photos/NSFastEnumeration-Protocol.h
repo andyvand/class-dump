@@ -5,6 +5,6 @@
 //
 
 @protocol NSFastEnumeration
-- (unsigned long long)merationPrioritizeSpeed;
+- (unsigned long long)ICEnumerationPrioritizeSpeed;
 @end
 

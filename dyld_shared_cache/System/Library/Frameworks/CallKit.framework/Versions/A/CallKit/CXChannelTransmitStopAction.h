@@ -14,14 +14,14 @@
 }
 
 + (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)eQuery";
+- (void)tion/serialQueue;
 - (id);
 - (void);
 

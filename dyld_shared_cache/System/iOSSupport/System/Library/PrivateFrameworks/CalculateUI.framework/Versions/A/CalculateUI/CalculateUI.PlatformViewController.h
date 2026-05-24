@@ -8,9 +8,6 @@
 {
     id editMenuInteraction;
     id handleKeypress;
-    id handlePasteboard;
-    id allowHighPrecision;
-    id textHeight;
 }
 
 - (void);
@@ -19,10 +16,10 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)A몃;
+- (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 

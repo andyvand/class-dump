@@ -15,13 +15,13 @@ __attribute__((visibility("hidden")))
     } _viewStateBinderFlags;
 }
 
-+ (_Bool);
-+ (id);
++ (_Bool)l %d;
++ (id)@;
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)interfaceWithProtocol:(id)arg1;
+- (void)aluation failed(%d);
+- (void)ection %llu:default TLS Trust evaluation failed(%d) /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

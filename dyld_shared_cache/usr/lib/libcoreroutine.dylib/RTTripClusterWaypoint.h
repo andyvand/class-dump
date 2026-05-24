@@ -9,44 +9,33 @@
 @interface RTTripClusterWaypoint
 {
     _Bool _followedByUTurn;
-    unsigned short _sequence;
-    NSUUID *_clusterID;
-    double _latitude;
-    double _longitude;
-    unsigned long long _clRoadID;
-    double _course;
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)switch;
++ (id)sure;
++ (id)FlagRepairedKeychainRecoveryTokenFromEscrowIdentity;
 + (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
-- (unsigned long long);
+- (_Bool)fix;
+- (unsigned long long)h:clearUITimers:%d clearInquiry:%d clearCurrentDevice:%d
+ /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)Initializing IDSGLLinkEngine with disconnectDelay:%ld (server bag:%s, defaults:%s), fallbackDelay:%ld (server bag:%s, defaults:%s) /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (double);
 - (id);
 - (id)qB,°1Â0@ù
 × ;
 - (unsigned short)valuator";
-- (double)mTripSegmentsProcessedInThisProcessingCycle: /* Error: Ran out of types for this method. */;
+- (double)setNumTripSegmentsProcessedInThisProcessingCycle: /* Error: Ran out of types for this method. */;
 - (void)sn't exist or the values are less than 10 mins each.;
 - (double)ltimeHighConfidence;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long clRoadID; // @synthesize clRoadID=_clRoadID;
 @property(readonly, nonatomic) NSUUID *clusterID; // @synthesize clusterID=_clusterID;
-@property(readonly, nonatomic) double course; // @synthesize course=_course;
-@property(readonly, nonatomic) _Bool followedByUTurn; // @synthesize followedByUTurn=_followedByUTurn;
-@property(readonly, nonatomic) double latitude; // @synthesize latitude=_latitude;
-@property(readonly, nonatomic) double longitude; // @synthesize longitude=_longitude;
-@property(readonly, nonatomic) unsigned short sequence; // @synthesize sequence=_sequence;
 
 @end
 

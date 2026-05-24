@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, UIImageAsset, UIImageConfiguration;
+@class UIImageAsset;
 
 __attribute__((visibility("hidden")))
 @interface NSUIImageAssetImageRep
 {
     UIImageAsset *_imageAsset;
-    UIImageConfiguration *_configuration;
-    UIColor *_tintColor;
 }
 
 - (id);
+- (id)n dictionary MIMEType to be a string. Got:(id)arg1 %@;
 - (id);
-- (id);
-- (id);
-- (void)chor;
+- (id)5;
+- (void)_topAnchor;
 - (_Bool);
 - (void)ìçÿì+;
 

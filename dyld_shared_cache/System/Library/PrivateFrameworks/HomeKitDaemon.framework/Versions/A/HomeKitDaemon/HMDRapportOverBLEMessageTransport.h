@@ -6,27 +6,17 @@
 
 #import <HomeKitDaemon/HMDRemoteMessageTransport.h>
 
-@class HMFTimer, NSMutableArray, NSMutableDictionary, NSObject, NSString, RPCompanionLinkClient;
-@protocol HMDFeaturesDataSource, HMDRapportOverBLEDeviceWrapperFactory, HMDRapportOverBLEDiscoveryClientFactory, HMDRemoteMessageListener, OS_dispatch_queue;
+@protocol HMDFeaturesDataSource, HMDRemoteMessageListener;
 
 __attribute__((visibility("hidden")))
 @interface HMDRapportOverBLEMessageTransport : HMDRemoteMessageTransport
 {
     id <HMDRemoteMessageListener> _remoteMessageListener;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    id <HMDFeaturesDataSource> _featuresDataSource;
-    NSString *_requestID;
-    id <HMDRapportOverBLEDiscoveryClientFactory> _discoClientFactory;
-    id <HMDRapportOverBLEDeviceWrapperFactory> _deviceWrapperFactory;
-    NSMutableDictionary *_deviceContextCache;
-    RPCompanionLinkClient *_discoveryClient;
-    NSMutableArray *_messageQueue;
-    HMFTimer *_discoveryIdleTimer;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)r"16;
 - (void);
 - (id);
 - (id);
@@ -34,27 +24,27 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id)endMessage error:%s /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)3_GASGGAXGtGG;
+- (id)_TtC13SiriInference14EuclidVectorDb;
 - (void);
 - (id);
 - (void)0@ù
 × ;
 - (id)ntProfileMetricsDispatcher";
-- (id)ompanion;
-- (_Bool)itTimeoutNanos;
-- (void)cessoryUUIDList;
+- (id)companion;
+- (_Bool)_commitTimeoutNanos;
+- (void)_accessoryUUIDList;
 - (id)store with UUID:(id)arg1 %@;
 - (void)Home Key"}] Homeutil command received to roll ACWG issuer key in this home;
 - (_Bool),y__SayÈu&GG;
@@ -73,23 +63,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSMutableDictionary *deviceContextCache; // @synthesize deviceContextCache=_deviceContextCache;
-@property(readonly, nonatomic) id <HMDRapportOverBLEDeviceWrapperFactory> deviceWrapperFactory; // @synthesize deviceWrapperFactory=_deviceWrapperFactory;
-@property(readonly, nonatomic) id <HMDRapportOverBLEDiscoveryClientFactory> discoClientFactory; // @synthesize discoClientFactory=_discoClientFactory;
-@property(retain, nonatomic) RPCompanionLinkClient *discoveryClient; // @synthesize discoveryClient=_discoveryClient;
-@property(copy, nonatomic) HMFTimer *discoveryIdleTimer; // @synthesize discoveryIdleTimer=_discoveryIdleTimer;
 @property(readonly, nonatomic) id <HMDFeaturesDataSource> featuresDataSource; // @synthesize featuresDataSource=_featuresDataSource;
-@property(readonly) unsigned long long hash;
-@property(retain) NSMutableArray *messageQueue; // @synthesize messageQueue=_messageQueue;
-@property(retain, nonatomic) id <HMDRemoteMessageListener> remoteMessageListener; // @synthesize remoteMessageListener=_remoteMessageListener;
-@property(readonly, nonatomic) NSString *requestID; // @synthesize requestID=_requestID;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

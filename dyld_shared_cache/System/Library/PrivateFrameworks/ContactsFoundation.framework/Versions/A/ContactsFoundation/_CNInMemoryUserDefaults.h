@@ -11,7 +11,7 @@
 }
 
 - (unsigned long long);
-- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long synchronizeCount;

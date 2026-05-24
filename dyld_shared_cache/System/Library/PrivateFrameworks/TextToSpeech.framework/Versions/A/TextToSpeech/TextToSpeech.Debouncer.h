@@ -7,8 +7,6 @@
 @interface TextToSpeech.Debouncer
 {
     id timer;
-    id debounce;
-    id timerQueue;
 }
 
 @end

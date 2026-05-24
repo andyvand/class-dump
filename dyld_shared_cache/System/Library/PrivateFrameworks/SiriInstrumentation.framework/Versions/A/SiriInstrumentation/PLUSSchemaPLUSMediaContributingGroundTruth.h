@@ -6,44 +6,33 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PLUSSchemaPLUSMediaContributingGroundTruth : SISchemaInstrumentationMessage
 {
     int _source;
-    int _entityFeedbackType;
-    struct {
-        unsigned int source:1;
-        unsigned int entityFeedbackType:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (_Bool);
 - (int);
-- (void);
+- (void)˟;
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)ersonAliasResolver:(id)arg1 Current Aqua session state:%u. /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (int);
 - (id)qÝð1Â0@ù
 × ;
-- (id)ributes;
+- (id)_hasTopicalityAttributes;
 - (id)mainExecutionContext;
-- (_Bool)EWOFFERNOTSHOWNREASON_CHURNED;
-- (void)ATE_COLD;
+- (_Bool)FLOWAPPLEMUSICVOICEPREVIEWOFFERNOTSHOWNREASON_CHURNED;
+- (void)ASRSTARTSTATE_COLD;
 
 // Remaining properties
-@property(nonatomic) int entityFeedbackType; // @synthesize entityFeedbackType=_entityFeedbackType;
-@property(nonatomic) _Bool hasEntityFeedbackType;
-@property(nonatomic) _Bool hasSource;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int source; // @synthesize source=_source;
 
 @end

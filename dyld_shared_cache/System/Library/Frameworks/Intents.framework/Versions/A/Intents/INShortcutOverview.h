@@ -4,51 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INImage, INSpeakableString, NSArray, NSString;
+@class INSpeakableString;
 
 @interface INShortcutOverview
 {
     INSpeakableString *_name;
-    INSpeakableString *_voiceCommand;
-    INImage *_icon;
-    INSpeakableString *_descriptiveText;
-    NSArray *_steps;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)";
 - (id);
 - (id);
 - (id);
+- (id)setKeyChangedHandler:(id)arg1;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)t;
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)setAutoJoinTriggerCounts:(id)arg1;
+- (void)wifi] <<<@[%llu.%06llu] %{public}s (%{public}s:(id)arg1 %u) ;
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id)gId;
-- (void)ultipleForPauseTimer: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)hasSettingId;
+- (void)defaultPauseMultipleForPauseTimer: /* Error: Ran out of types for this method. */;
 - (id)Ç;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) INSpeakableString *descriptiveText; // @synthesize descriptiveText=_descriptiveText;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy) INImage *icon; // @synthesize icon=_icon;
-@property(readonly, copy) INSpeakableString *name; // @synthesize name=_name;
-@property(readonly, copy) NSArray *steps; // @synthesize steps=_steps;
-@property(readonly) Class superclass;
-@property(readonly, copy) INSpeakableString *voiceCommand; // @synthesize voiceCommand=_voiceCommand;
 
 @end
 

@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NSTableRowViewSpringAnimation : NSSpringAnimation
 {
     double _startPercentage;
-    double _endPercentage;
 }
 
 - (void);
@@ -21,8 +20,6 @@ __attribute__((visibility("hidden")))
 - (id)Ô ;
 
 // Remaining properties
-@property double endPercentage; // @synthesize endPercentage=_endPercentage;
-@property(readonly) double percentage;
 @property double startPercentage; // @synthesize startPercentage=_startPercentage;
 
 @end

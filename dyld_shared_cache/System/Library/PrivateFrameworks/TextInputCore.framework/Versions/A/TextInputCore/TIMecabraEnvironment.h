@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSString, TIKeyboardLayout, TIMecabraEnvironmentContextWrapper;
+@class TIMecabraEnvironmentContextWrapper;
 
 @interface TIMecabraEnvironment
 {
     _Bool _shouldAdjustOnAnalyze;
-    _Bool _canSuggestSupplementalItems;
-    int _mecabraLanguage;
-    NSString *_leftDocumentContext;
-    NSString *_rightDocumentContext;
-    TIKeyboardLayout *_baseLayout;
-    TIMecabraEnvironmentContextWrapper *_mecabraContextWrapper;
-    NSMutableArray *_candidatesLeftOfCaret;
-    NSMutableArray *_candidatesRightOfCaret;
-    NSString *_leftDocumentContextCorrespondingToCandidates;
-    NSString *_rightDocumentContextCorrespondingToCandidates;
-    NSMutableArray *_candidatesToDelete;
-    struct _NSRange _leftDocumentContextCorrespondingToCandidatesRange;
-    struct _NSRange _rightDocumentContextCorrespondingToCandidatesRange;
 }
 
 + (void);
@@ -32,46 +19,46 @@
 + (void);
 + (void);
 + (void);
++ (id);
 + (id);
 + (id);
-+ (id);
+- (id)e";
+- (void)updateTranslation: /* Error: Ran out of types for this method. */;
+- (_Bool)retain;
+- (void)numberWithInteger:(int)arg1;
+- (void)newRapportClientWithDestinationDevice:(_Bool)arg1;
+- (void)managedObjectContext;
+- (void)localeWithLocaleIdentifier:(id)arg1;
+- (void)localSenderIdentityUUID;
+- (void)initWithUUIDString:(int)arg1;
+- (void)initWithTargetSerialQueue:(id)arg1;
+- (void)initWithListenerAddress:(struct _NSRange)arg1;
+- (void)initWithCoder:(id)arg1;
+- (void)initForReadingFromData:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)executeFetchRequest:(_Bool)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)emergencyRelayRTTIsSupported;
+- (void)device:(id)arg1 didReceiveText: /* Error: Ran out of types for this method. */;
+- (void)descriptorForRequiredKeysForStyle:(id)arg1;
+- (void)deleteIfNeeded;
+- (struct _NSRange)archivedDataWithRootObject:requiringSecureCoding:error: /* Error: Ran out of types for this method. */;
+- (id)appendStringFromOtherContactPath: /* Error: Ran out of types for this method. */;
+- (id)answerRTTCallAsMutedForCall: /* Error: Ran out of types for this method. */;
+- (id)allVoiceContexts;
+- (void)addObserver:selector:name:object: /* Error: Ran out of types for this method. */;
+- (void)addEntriesFromDictionary: /* Error: Ran out of types for this method. */;
+- (id)_cachedSubscriptionContexts;
+- (_Bool)_reloadContexts;
 - (id);
-- (void);
+- (struct _NSRange)ing bool value:%@ [%@] /* Error: Ran out of types for this method. */;
+- (id)ntext %@;
+- (id);
+- (void)remote device received text %@, %@;
+- (id)ving conversation to database;
+- (id)ibrary/PrivateFrameworks/AccessibilityUtilities.framework/Contents/MacOS/AccessibilityUtilities;
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct _NSRange);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (struct _NSRange);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
+- (id)ɥ;
 - (id);
 - (void);
 - (void);
@@ -103,38 +90,19 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)illegal or unsupported padding mode;
 - (struct __Mecabra *);
+- (void);
+- (void)NUJobQueue;
 - (void);
 - (void);
-- (void);
-- (void);
-- (int);
+- (int)_5;
 - (void)1Â0@ù
 × ;
-- (void)Count;
+- (void)_observerAssertionCount;
 
 // Remaining properties
-@property(readonly, nonatomic) TIKeyboardLayout *baseLayout; // @synthesize baseLayout=_baseLayout;
-@property(nonatomic) _Bool canSuggestSupplementalItems; // @synthesize canSuggestSupplementalItems=_canSuggestSupplementalItems;
-@property(retain, nonatomic) NSMutableArray *candidatesLeftOfCaret; // @synthesize candidatesLeftOfCaret=_candidatesLeftOfCaret;
-@property(retain, nonatomic) NSMutableArray *candidatesRightOfCaret; // @synthesize candidatesRightOfCaret=_candidatesRightOfCaret;
-@property(retain, nonatomic) NSMutableArray *candidatesToDelete; // @synthesize candidatesToDelete=_candidatesToDelete;
-@property(readonly, nonatomic) NSArray *contextCandidateSurfaces;
-@property(readonly, nonatomic) NSDictionary *environmentDebuggingInformation;
-@property(readonly, nonatomic) NSArray *inlineCandidateSurfaces;
-@property(copy, nonatomic) NSString *leftDocumentContext; // @synthesize leftDocumentContext=_leftDocumentContext;
-@property(copy, nonatomic) NSString *leftDocumentContextCorrespondingToCandidates; // @synthesize leftDocumentContextCorrespondingToCandidates=_leftDocumentContextCorrespondingToCandidates;
-@property(nonatomic) struct _NSRange leftDocumentContextCorrespondingToCandidatesRange; // @synthesize leftDocumentContextCorrespondingToCandidatesRange=_leftDocumentContextCorrespondingToCandidatesRange;
-@property(readonly, nonatomic) struct __Mecabra *mecabra;
 @property(retain, nonatomic) TIMecabraEnvironmentContextWrapper *mecabraContextWrapper; // @synthesize mecabraContextWrapper=_mecabraContextWrapper;
-@property(nonatomic) int mecabraLanguage; // @synthesize mecabraLanguage=_mecabraLanguage;
-@property(readonly, nonatomic) NSArray *rightCandidateSurfaces;
-@property(copy, nonatomic) NSString *rightDocumentContext; // @synthesize rightDocumentContext=_rightDocumentContext;
-@property(copy, nonatomic) NSString *rightDocumentContextCorrespondingToCandidates; // @synthesize rightDocumentContextCorrespondingToCandidates=_rightDocumentContextCorrespondingToCandidates;
-@property(nonatomic) struct _NSRange rightDocumentContextCorrespondingToCandidatesRange; // @synthesize rightDocumentContextCorrespondingToCandidatesRange=_rightDocumentContextCorrespondingToCandidatesRange;
-@property(nonatomic) _Bool shouldAdjustOnAnalyze; // @synthesize shouldAdjustOnAnalyze=_shouldAdjustOnAnalyze;
-@property(nonatomic) int textContentType;
 
 @end
 

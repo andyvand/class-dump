@@ -7,6 +7,7 @@
 @class NSFileProviderSearchQuery;
 
 @protocol FPSearchQueryResultsProviding
+- (NSFileProviderSearchQuery *):x /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSFileProviderSearchQuery *searchQuery;

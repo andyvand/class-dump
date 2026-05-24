@@ -8,14 +8,6 @@
 {
     id session;
     id form;
-    id formStub;
-    id shouldInitializeViews;
-    id setFeedbackFormReply;
-    id feedbackDraftNavigationController;
-    id xpcClient;
-    id localClient;
-    id showsCompletionPage;
-    id bugFormTableViewController;
 }
 
 - (void);
@@ -24,14 +16,14 @@
 - (void);
 - (void);
 - (void);
+- (void)5;
 - (void);
 - (void);
+- (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)setUserScrubbing:(id)arg1;
 - (id);
 - (void);
 - (void);

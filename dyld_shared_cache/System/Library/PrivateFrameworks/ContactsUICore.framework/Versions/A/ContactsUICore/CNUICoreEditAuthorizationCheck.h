@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNContainer;
-@protocol CNUICoreParentContainerProvider, CNUICoreScreentimePasscodeCheck;
+@class CNContact;
 
 @interface CNUICoreEditAuthorizationCheck
 {
     _Bool _ignoresParentalRestrictions;
-    CNContact *_contact;
-    CNContainer *_parentContainer;
-    id <CNUICoreScreentimePasscodeCheck> _screenTimePasscodeStatusCheck;
-    id <CNUICoreParentContainerProvider> _linkedParentContainerProvider;
 }
 
 + (_Bool);
@@ -32,15 +27,11 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)_travelAdvisoryDisabled;
 - (void)ions: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly, nonatomic) _Bool ignoresParentalRestrictions; // @synthesize ignoresParentalRestrictions=_ignoresParentalRestrictions;
-@property(readonly, nonatomic) id <CNUICoreParentContainerProvider> linkedParentContainerProvider; // @synthesize linkedParentContainerProvider=_linkedParentContainerProvider;
-@property(readonly, nonatomic) CNContainer *parentContainer; // @synthesize parentContainer=_parentContainer;
-@property(readonly, nonatomic) id <CNUICoreScreentimePasscodeCheck> screenTimePasscodeStatusCheck; // @synthesize screenTimePasscodeStatusCheck=_screenTimePasscodeStatusCheck;
 
 @end
 

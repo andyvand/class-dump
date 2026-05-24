@@ -4,35 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface _NSRemotePasteboardDataProvider
 {
     long long _generation;
-    long long _itemIdentifier;
-    struct __CFString *_flavorName;
-    NSUUID *_uuid;
 }
 
-- (id);
+- (id)|;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)!;
 - (void)40@0:(id)arg1 8@"FPItemID"16B24B28@?<v@?@"NSArray"@"NSError">32;
-- (id)irstNameDescription;
+- (id)ABCNPhoneticFirstNameDescription;
 - (void)ßÇàáâÒÀÓÀÔÀãÕÀÖÀ×ÀØÀäåæÙÀçÚÀÛÀèéÜÀêÝÀÞÀßÀëàÀìíîïð ÇáÀâÀñãÀäÀåÀæÀòóôõöçÀèÀ÷øéÀùúûêÀüýþA B C D ëÀìÀE íÀÀÇîÀïÀF G H I J K ðÀñÀL M òÀN óÀO ôÀP Q R S T U V õÀW X Y Z öÀa b àÇc d e f ÷Àg h i øÀj k l ùÀm n o p q r s t u v w x y z      ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *type;
 @property(copy, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end

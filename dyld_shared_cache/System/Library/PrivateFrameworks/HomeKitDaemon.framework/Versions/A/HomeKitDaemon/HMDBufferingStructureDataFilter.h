@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface HMDBufferingStructureDataFilter : HMDStructuredDataFoundationWriter
 {
     HMDStructuredWriter *_writer;
-    CDUnknownBlockType _block;
 }
 
 - (void);

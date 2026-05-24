@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDecimalNumber, NSString, PKCreditAccountStatement;
+@class NSString;
 
 @interface PKCreditInstallmentPlanPayment
 {
     NSString *_identifier;
-    NSString *_statementIdentifier;
-    NSString *_currencyCode;
-    NSDecimalNumber *_originalAmountDue;
-    NSDecimalNumber *_amountDue;
-    NSDecimalNumber *_amountPaid;
-    NSDate *_dueDate;
-    NSDate *_statementDate;
-    NSArray *_lineItems;
-    unsigned long long _paymentNumber;
-    unsigned long long _paymentCount;
-    PKCreditAccountStatement *_statement;
 }
 
 + (_Bool)X"°!DEùî%°1Â0@ù
@@ -34,47 +23,34 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)R#;
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (void);
+- (id)ʗ;
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (void)9;
+- (id);
+- (unsigned long long))}SI;
+- (_Bool)hasResultServerOrphanedCount;
 - (void);
 - (void);
 - (id);
 - (id)0@ù
 × ;
-- (id)etPaymentToken: /* Error: Ran out of types for this method. */;
-- (id)D;
+- (id)setPaymentToken: /* Error: Ran out of types for this method. */;
+- (id)_provisionedPassUniqueID;
 - (_Bool)oad key material;
-- (void)cibility;
+- (void)Reproducibility;
 - (void)Ï²ÿÐkX;
 - (id)ÉÿaÎ;
 
 // Remaining properties
-@property(retain, nonatomic) NSDecimalNumber *amountDue; // @synthesize amountDue=_amountDue;
-@property(retain, nonatomic) NSDecimalNumber *amountPaid; // @synthesize amountPaid=_amountPaid;
-@property(copy, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
-@property(retain, nonatomic) NSDate *dueDate; // @synthesize dueDate=_dueDate;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSArray *lineItems; // @synthesize lineItems=_lineItems;
-@property(readonly, nonatomic) NSString *localizedDisplay;
-@property(retain, nonatomic) NSDecimalNumber *originalAmountDue; // @synthesize originalAmountDue=_originalAmountDue;
-@property(readonly, nonatomic, getter=isPaid) _Bool paid;
-@property(nonatomic) unsigned long long paymentCount; // @synthesize paymentCount=_paymentCount;
-@property(nonatomic) unsigned long long paymentNumber; // @synthesize paymentNumber=_paymentNumber;
-@property(retain, nonatomic) PKCreditAccountStatement *statement; // @synthesize statement=_statement;
-@property(retain, nonatomic) NSDate *statementDate; // @synthesize statementDate=_statementDate;
-@property(copy, nonatomic) NSString *statementIdentifier; // @synthesize statementIdentifier=_statementIdentifier;
 
 @end
 

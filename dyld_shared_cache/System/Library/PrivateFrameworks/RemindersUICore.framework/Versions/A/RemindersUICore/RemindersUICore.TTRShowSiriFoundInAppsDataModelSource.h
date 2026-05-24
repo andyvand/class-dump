@@ -9,8 +9,6 @@
 @interface RemindersUICore.TTRShowSiriFoundInAppsDataModelSource : RemindersUICore.TTRRemindersListDataModelSourceBase
 {
     id delegate;
-    id store;
-    id dataViewMonitor;
 }
 
 @end

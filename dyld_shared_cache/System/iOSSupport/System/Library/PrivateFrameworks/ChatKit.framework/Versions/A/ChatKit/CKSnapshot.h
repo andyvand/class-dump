@@ -4,38 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIImage;
+@class NSString;
 
 @interface CKSnapshot
 {
     _Bool _isPreLuckSnapshot;
-    NSString *_guid;
-    UIImage *_image;
-    long long _userInterfaceStyle;
-    struct IMColorComponents _messageTintColor;
 }
 
 + (id);
 + (id);
++ (id)0#;
++ (id)— falling back to default preview thumbnail {accountId:(id)arg1 %s, noteId:(long long)arg2 %s};
++ (id)s, url:(id)arg1 %s};
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (struct IMColorComponents);
 + (struct IMColorComponents);
-- (void);
-- (void);
-- (struct IMColorComponents);
+- (void)ic_attachmentCharacterString;
+- (void)forgotCustomPasswordSwitchAnywayConfirmationAlert;
+- (struct IMColorComponents)ICAccessibility_Private;
 - (_Bool);
 - (id);
-- (id);
+- (id)IeyB_Sg;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (long long);
@@ -43,10 +39,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *guid; // @synthesize guid=_guid;
-@property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(nonatomic, setter=setPreLuckSnapshot:) _Bool isPreLuckSnapshot; // @synthesize isPreLuckSnapshot=_isPreLuckSnapshot;
-@property(nonatomic) struct IMColorComponents messageTintColor; // @synthesize messageTintColor=_messageTintColor;
-@property(nonatomic) long long userInterfaceStyle; // @synthesize userInterfaceStyle=_userInterfaceStyle;
 
 @end
 

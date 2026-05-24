@@ -7,9 +7,6 @@
 @interface NewsUI2.SavedRecipesSearchFeedGroupEmitter
 {
     id config;
-    id knobs;
-    id formatService;
-    id name;
 }
 
 @end

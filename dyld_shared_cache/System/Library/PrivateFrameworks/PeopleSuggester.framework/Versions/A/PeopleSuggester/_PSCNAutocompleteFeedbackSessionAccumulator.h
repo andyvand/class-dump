@@ -4,36 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, _CDInteraction, _PSCNAutocompleteFeedbackActionStatistics;
+@class _CDInteraction;
 
 @interface _PSCNAutocompleteFeedbackSessionAccumulator
 {
     _CDInteraction *_interaction;
-    NSMutableArray *_vendedSuggestionEvents;
-    NSMutableArray *_metricsForImpressions;
-    NSMutableArray *_metricsForSubmodelImpressions;
-    _PSCNAutocompleteFeedbackActionStatistics *_metricsForAction;
 }
 
-+ (id);
++ (id)_aggregationStats;
+- (id)_finalAudioPacketContainingSpeechReadyUpstream;
+- (void)_falseWakeWithLwSpkidMitigationCount;
+- (void)_falseWakeWithContextualMitigationCount;
+- (void)_falseWakeWithAcousticMitigationCount;
+- (void)_failures;
+- (id)_cirAlertKgWaBoostQa;
+- (id)_cirAlertEmergencyOverride;
+- (id)_cirAlertDomainFallback;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)P;
 
 // Remaining properties
 @property(readonly, nonatomic) _CDInteraction *interaction; // @synthesize interaction=_interaction;
-@property(readonly, nonatomic) _PSCNAutocompleteFeedbackActionStatistics *metricsForAction; // @synthesize metricsForAction=_metricsForAction;
-@property(readonly, nonatomic) NSMutableArray *metricsForImpressions; // @synthesize metricsForImpressions=_metricsForImpressions;
-@property(readonly, nonatomic) NSMutableArray *metricsForSubmodelImpressions; // @synthesize metricsForSubmodelImpressions=_metricsForSubmodelImpressions;
-@property(readonly, nonatomic) NSMutableArray *vendedSuggestionEvents; // @synthesize vendedSuggestionEvents=_vendedSuggestionEvents;
 
 @end
 

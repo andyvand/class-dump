@@ -8,22 +8,11 @@ __attribute__((visibility("hidden")))
 @interface _UINavigationAndToolbarBehaviorSettings
 {
     _Bool _enableLiftOnSelected;
-    _Bool _enableClippingBehavior;
-    double _titleControlPadding;
-    double _buttonMinimumWidth;
-    double _buttonMinimumHeight;
-    double _buttonHorizontalOffset;
-    double _buttonVerticalOffset;
-    double _buttonMinimumDistanceFromEdge;
-    double _buttonCornerRadius;
-    double _buttonHorizontalPadding;
-    double _buttonVerticalPadding;
-    double _backButtonLeadingPadding;
-    double _backButtonTrailingPadding;
 }
 
 + (id);
 - (double);
+- (void)Book;
 - (void);
 - (void);
 - (void);
@@ -36,35 +25,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (void)tHorizontallyCenteredFramesNeedUpdate: /* Error: Ran out of types for this method. */;
+- (_Bool)messagesPendingUpdateT1ToCloudKitWithLimit: /* Error: Ran out of types for this method. */;
+- (_Bool)messageWithGUID:registerAttachments: /* Error: Ran out of types for this method. */;
+- (double)tryCode:messageBody:foundChat:service:containsOneTimeCode:fileTransferGUIDs:completion: /* Error: Ran out of types for this method. */;
+- (double)checkingForSpam:myReceiverISOCountryCode:messageBody:foundChat:service:containsOneTimeCode:fileTransferGUIDs:completion: /* Error: Ran out of types for this method. */;
+- (double)categorizeIncomingRCSMessageGUID:sender:wasRelayed:chatIdentifier:participants:checkingForSpam:trustIndicator:myReceiverISOCountryCode:messageBody:foundChat:service:containsOneTimeCode:fileTransferGUIDs:isEncrypted:completion: /* Error: Ran out of types for this method. */;
+- (double)ompletion: /* Error: Ran out of types for this method. */;
+- (double)neTimeCode:fileTransferGUIDs:isEncrypted:completion: /* Error: Ran out of types for this method. */;
+- (double)rustIndicator:myReceiverISOCountryCode:messageBody:foundChat:service:containsOneTimeCode:fileTransferGUIDs:isEncrypted:completion: /* Error: Ran out of types for this method. */;
+- (double)fier:participants:checkingForSpam:trustIndicator:myReceiverISOCountryCode:messageBody:foundChat:service:containsOneTimeCode:fileTransferGUIDs:isEncrypted:completion: /* Error: Ran out of types for this method. */;
+- (double)caseInsensitiveCompare: /* Error: Ran out of types for this method. */;
+- (double)appendTranslation:toMessageItem:partIndex:toChatIdentifier:style:account: /* Error: Ran out of types for this method. */;
+- (double)appendInlineImageWithGUID:filename:width:height:isAnimoji:isAdaptiveImageGlyph: /* Error: Ran out of types for this method. */;
+- (void)setHorizontallyCenteredFramesNeedUpdate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double backButtonLeadingPadding; // @synthesize backButtonLeadingPadding=_backButtonLeadingPadding;
-@property(nonatomic) double backButtonTrailingPadding; // @synthesize backButtonTrailingPadding=_backButtonTrailingPadding;
-@property(nonatomic) double buttonCornerRadius; // @synthesize buttonCornerRadius=_buttonCornerRadius;
-@property(nonatomic) double buttonHorizontalOffset; // @synthesize buttonHorizontalOffset=_buttonHorizontalOffset;
-@property(nonatomic) double buttonHorizontalPadding; // @synthesize buttonHorizontalPadding=_buttonHorizontalPadding;
-@property(nonatomic) double buttonMinimumDistanceFromEdge; // @synthesize buttonMinimumDistanceFromEdge=_buttonMinimumDistanceFromEdge;
-@property(nonatomic) double buttonMinimumHeight; // @synthesize buttonMinimumHeight=_buttonMinimumHeight;
-@property(nonatomic) double buttonMinimumWidth; // @synthesize buttonMinimumWidth=_buttonMinimumWidth;
-@property(nonatomic) double buttonVerticalOffset; // @synthesize buttonVerticalOffset=_buttonVerticalOffset;
-@property(nonatomic) double buttonVerticalPadding; // @synthesize buttonVerticalPadding=_buttonVerticalPadding;
-@property(nonatomic) _Bool enableClippingBehavior; // @synthesize enableClippingBehavior=_enableClippingBehavior;
 @property(nonatomic) _Bool enableLiftOnSelected; // @synthesize enableLiftOnSelected=_enableLiftOnSelected;
-@property(nonatomic) double titleControlPadding; // @synthesize titleControlPadding=_titleControlPadding;
 
 @end
 

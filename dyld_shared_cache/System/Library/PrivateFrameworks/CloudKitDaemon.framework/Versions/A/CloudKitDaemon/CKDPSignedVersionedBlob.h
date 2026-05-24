@@ -9,16 +9,9 @@
 @interface CKDPSignedVersionedBlob
 {
     NSData *_serializedObject;
-    NSData *_signature;
-    int _version;
-    _Bool _canValidateWithKT;
-    struct {
-        unsigned int version:1;
-        unsigned int canValidateWithKT:1;
-    } _has;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -28,30 +21,23 @@
 - (int);
 - (id);
 - (void);
-- (void);
+- (void)z}r;
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)buffered_criticalWatermarkMs;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)chableIndexAnalyticsPersistence",&,V_analytics;
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (id)ailAddress: /* Error: Ran out of types for this method. */;
+- (_Bool)p;
+- (id)setEmailAddress: /* Error: Ran out of types for this method. */;
 - (void)àþüÿ,Ô¤;
 - (void)ä;
 
 // Remaining properties
-@property(nonatomic) _Bool canValidateWithKT; // @synthesize canValidateWithKT=_canValidateWithKT;
-@property(nonatomic) _Bool hasCanValidateWithKT;
-@property(readonly, nonatomic) _Bool hasSerializedObject;
-@property(readonly, nonatomic) _Bool hasSignature;
 @property(nonatomic) _Bool hasVersion;
-@property(retain, nonatomic) NSData *serializedObject; // @synthesize serializedObject=_serializedObject;
-@property(retain, nonatomic) NSData *signature; // @synthesize signature=_signature;
-@property(nonatomic) int version; // @synthesize version=_version;
 
 @end
 

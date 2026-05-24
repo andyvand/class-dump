@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, PKMetalResourceHandler;
-@protocol MTLDevice, OS_dispatch_queue;
+@class PKMetalResourceHandler;
 
 @interface PKMetalConfig
 {
     _Bool _privateResourceHandler;
-    PKMetalResourceHandler *_resourceHandler;
-    NSObject<OS_dispatch_queue> *_renderQueue;
-    id <MTLDevice> _device;
 }
 
 - (id);
@@ -21,11 +17,9 @@
 - (id);
 - (id);
 - (void)(r;
-- (id)ntroller;
+- (id)internalController;
 
 // Remaining properties
-@property(readonly, nonatomic) id <MTLDevice> device; // @synthesize device=_device;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *renderQueue; // @synthesize renderQueue=_renderQueue;
 @property(readonly, nonatomic) PKMetalResourceHandler *resourceHandler; // @synthesize resourceHandler=_resourceHandler;
 
 @end

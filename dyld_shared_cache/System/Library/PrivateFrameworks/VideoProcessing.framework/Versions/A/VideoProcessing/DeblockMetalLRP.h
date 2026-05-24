@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-@protocol MTLCommandQueue, MTLComputePipelineState, MTLDevice, MTLLibrary;
+@protocol MTLDevice;
 
 @interface DeblockMetalLRP
 {
     id <MTLDevice> _device;
-    id <MTLCommandQueue> _commandQueue;
-    id <MTLLibrary> _library;
-    id <MTLComputePipelineState> _inloopDeblockV;
-    id <MTLComputePipelineState> _inloopDeblockH;
-    unsigned int _horizontalOffset;
-    unsigned int _verticalOffset;
-    _Bool _gpuHasCompressedRMWSupport;
-    struct CF<__CVPixelBufferPool *> _bufPool;
-    struct CF<__CVMetalTextureCache *> _textureCacheChromaIn;
-    struct CF<__CVMetalTextureCache *> _textureCacheChromaOutV;
-    NSDictionary *_readWriteAttributes;
 }
 
 - (int);

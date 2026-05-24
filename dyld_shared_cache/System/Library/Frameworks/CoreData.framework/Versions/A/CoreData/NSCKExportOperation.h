@@ -6,7 +6,7 @@
 
 #import <CoreData/NSManagedObject.h>
 
-@class NSCKExportMetadata, NSNumber, NSSet, NSString;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface NSCKExportOperation : NSManagedObject
@@ -18,10 +18,6 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 
 // Remaining properties
-@property(retain, nonatomic) NSCKExportMetadata *exportMetadata; // @dynamic exportMetadata;
-@property(retain, nonatomic) NSString *identifier; // @dynamic identifier;
-@property(retain, nonatomic) NSSet *objects; // @dynamic objects;
-@property(nonatomic) unsigned long long status;
 @property(retain, nonatomic) NSNumber *statusNum; // @dynamic statusNum;
 
 @end

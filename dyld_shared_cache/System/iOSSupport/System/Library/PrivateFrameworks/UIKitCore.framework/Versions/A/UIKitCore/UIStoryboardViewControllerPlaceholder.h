@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
+- (id)applyClassifierToOverlappedSegments:(id)arg1 withCoefficientsDict:movieSize:firstIndex:lastIndex:stride:length:result:verbose:minThreshold: /* Error: Ran out of types for this method. */;
 
 @end
 

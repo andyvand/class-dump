@@ -7,14 +7,6 @@
 @interface _MTLIndirectDrawIndexedArguments
 {
     unsigned long long _primitiveType;
-    unsigned long long _indexCount;
-    unsigned long long _indexType;
-    void *_indexBufferVirtualAddress;
-    unsigned long long _indexBufferGPUVirtualAddress;
-    unsigned long long _indexBufferOffset;
-    unsigned long long _instanceCount;
-    unsigned long long _baseVertex;
-    unsigned long long _baseInstance;
 }
 
 - (void);
@@ -27,24 +19,16 @@
 - (void *);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (void);
 - (unsigned long long);
-- (unsigned long long)agmentPreloadedLibraries;
+- (unsigned long long)fragmentPreloadedLibraries;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long baseInstance; // @synthesize baseInstance=_baseInstance;
-@property(nonatomic) unsigned long long baseVertex; // @synthesize baseVertex=_baseVertex;
-@property(nonatomic) unsigned long long indexBufferGPUVirtualAddress; // @synthesize indexBufferGPUVirtualAddress=_indexBufferGPUVirtualAddress;
-@property(nonatomic) unsigned long long indexBufferOffset; // @synthesize indexBufferOffset=_indexBufferOffset;
-@property(nonatomic) void *indexBufferVirtualAddress;
-@property(nonatomic) unsigned long long indexCount; // @synthesize indexCount=_indexCount;
-@property(nonatomic) unsigned long long indexType; // @synthesize indexType=_indexType;
-@property(nonatomic) unsigned long long instanceCount; // @synthesize instanceCount=_instanceCount;
 @property(nonatomic) unsigned long long primitiveType; // @synthesize primitiveType=_primitiveType;
 
 @end

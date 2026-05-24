@@ -4,36 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableIndexSet, NSScrubberFlowLayout;
+@class NSScrubberFlowLayout;
 
 __attribute__((visibility("hidden")))
 @interface NSScrubberFlowLayoutSupport
 {
     id _layout;
-    _Bool _dynamicSizes;
-    struct CGRect *_frames;
-    long long _frameCount;
-    NSMutableIndexSet *_dirtyIndexes;
 }
 
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)o many entries;
+- (void)e kern.osversion sysctl value:[%d] %s /* Error: Ran out of types for this method. */;
 - (struct CGRect);
 - (void);
 - (void);
 - (_Bool);
 - (double);
-- (long long);
+- (long long)gResponse;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) double contentWidth;
-@property _Bool dynamicSizes; // @synthesize dynamicSizes=_dynamicSizes;
 @property(nonatomic) __weak NSScrubberFlowLayout *scrubberLayout;
 
 @end

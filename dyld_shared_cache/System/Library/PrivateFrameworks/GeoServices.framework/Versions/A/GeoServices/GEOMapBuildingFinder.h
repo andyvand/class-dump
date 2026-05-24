@@ -12,11 +12,9 @@ __attribute__((visibility("hidden")))
 @interface GEOMapBuildingFinder : GEOMapRequest
 {
     GEOMapTileFinder *_tileFinder;
-    CDStruct_2c43369c _centerCoordinate;
-    double _radius;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);

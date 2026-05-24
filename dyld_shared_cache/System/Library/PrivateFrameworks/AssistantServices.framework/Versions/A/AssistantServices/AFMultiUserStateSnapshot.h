@@ -4,48 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
+@class NSNumber;
 
 @interface AFMultiUserStateSnapshot
 {
     NSNumber *_vtSatScore;
-    NSArray *_confidenceScores;
 }
 
 + (id);
 + (_Bool);
+- (id)T);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)g>",C,N,V_value;
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)A;
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)evice 0x%012llX failed:%#m
+ /* Error: Ran out of types for this method. */;
+- (id)@;
 - (id);
 - (id);
 - (void)"AFAssertionContext",R,N;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *confidenceScores; // @synthesize confidenceScores=_confidenceScores;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSNumber *vtSatScore; // @synthesize vtSatScore=_vtSatScore;
 
 @end
 

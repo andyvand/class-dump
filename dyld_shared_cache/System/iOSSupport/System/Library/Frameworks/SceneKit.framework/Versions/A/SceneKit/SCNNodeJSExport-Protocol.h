@@ -4,16 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, SCNCamera, SCNGeometry, SCNLight, SCNMorpher, SCNNode, SCNPhysicsBody, SCNPhysicsField, SCNSkinner;
+@class CAAnimation, NSArray, NSString, SCNGeometry;
 @protocol SCNNodeRendererDelegate;
 
 @protocol SCNNodeJSExport
 + (id)t it's not specified for index :%d /* Error: Ran out of types for this method. */;
+- (void)R;
+- (void);
+- (void)T�`.;
+- (void);
+- (struct SCNMatrix4);
+- (id <SCNNodeRendererDelegate>)R";
+- (id)1"delegateSupportsCanvasViewWillBeginDrawingStartPoint"b1"delegateSupportsCanvasViewMaximumSupportedContentVersion"b1"delegateSupportsShouldDiscardTapStrokeAt"b1"delegateSupportsDrawingIsShared"b1"delegateSupportsScratchOutStrokes"b1};
+- (NSArray *)6;
+- (NSArray *)updateCurrentStrokeSelectionTransformForLocation:atLocation:offsetInTouchView: /* Error: Ran out of types for this method. */;
+- (CAAnimation *)updateCurrentSelectionTo:(NSString *)arg1 fromGesture:inState: /* Error: Ran out of types for this method. */;
+- (id)ed to schedule message GUIDs with error %@;
+- (struct SCNMatrix4);
+- (struct SCNVector3)`V;
+- (void)=;
 - (void)q§1Â0@ù
 × ;
 - (void)tAngularVelocity"d"motorMaximumTorque"d};
-- (void):(struct SCNVector3)arg1;
-- (void)eenFramebufferIfNeeded;
+- (void)newTextureViewWithDescriptor:(struct SCNVector3)arg1;
+- (void)_createOffscreenFramebufferIfNeeded;
 - (SCNGeometry *)ÀÁ;
 - (id)f 
 
@@ -100,40 +114,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *audioPlayers;
-@property(retain, nonatomic) SCNCamera *camera;
-@property(nonatomic) _Bool castsShadow;
-@property(nonatomic) unsigned long long categoryBitMask;
-@property(readonly, nonatomic) NSArray *childNodes;
-@property(copy) NSArray *constraints;
-@property(nonatomic) struct SCNVector3 eulerAngles;
-@property(copy, nonatomic) NSArray *filters;
-@property(retain, nonatomic) SCNGeometry *geometry;
-@property(nonatomic, getter=isHidden) _Bool hidden;
-@property(retain, nonatomic) SCNLight *light;
-@property(retain, nonatomic) SCNMorpher *morpher;
-@property(nonatomic) long long movabilityHint;
-@property(copy, nonatomic) NSString *name;
-@property(nonatomic) double opacity;
-@property(nonatomic) struct SCNVector4 orientation;
-@property(readonly, nonatomic) SCNNode *parentNode;
-@property(readonly) NSArray *particleSystems;
-@property(nonatomic, getter=isPaused) _Bool paused;
-@property(retain, nonatomic) SCNPhysicsBody *physicsBody;
-@property(retain, nonatomic) SCNPhysicsField *physicsField;
-@property(nonatomic) struct SCNMatrix4 pivot;
-@property(nonatomic) struct SCNVector3 position;
-@property(readonly, nonatomic) SCNNode *presentationNode;
-@property(nonatomic) id <SCNNodeRendererDelegate> rendererDelegate;
-@property(nonatomic) long long renderingOrder;
-@property(nonatomic) struct SCNVector4 rotation;
-@property(nonatomic) struct SCNVector3 scale;
-@property(retain, nonatomic) SCNSkinner *skinner;
-@property(nonatomic) struct SCNMatrix4 transform;
-@property(readonly, nonatomic) struct SCNVector3 worldFront;
-@property(nonatomic) struct SCNVector4 worldOrientation;
-@property(nonatomic) struct SCNVector3 worldPosition;
-@property(readonly, nonatomic) struct SCNVector3 worldRight;
-@property(readonly, nonatomic) struct SCNMatrix4 worldTransform;
-@property(readonly, nonatomic) struct SCNVector3 worldUp;
 @end
 

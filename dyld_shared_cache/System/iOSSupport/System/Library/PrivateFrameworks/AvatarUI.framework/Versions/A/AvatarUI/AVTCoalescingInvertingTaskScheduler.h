@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString;
-@protocol AVTTaskScheduler, OS_dispatch_queue;
+@class NSMutableArray;
 
 @interface AVTCoalescingInvertingTaskScheduler
 {
     NSMutableArray *_tasks;
-    NSObject<OS_dispatch_queue> *_coalescingQueue;
-    NSObject<OS_dispatch_queue> *_stateLock;
-    id <AVTTaskScheduler> _backingScheduler;
-    double _coalesingDelay;
 }
 
 - (void);
@@ -21,27 +16,16 @@
 - (id);
 - (double);
 - (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)f<;
 - (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <AVTTaskScheduler> backingScheduler; // @synthesize backingScheduler=_backingScheduler;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *coalescingQueue; // @synthesize coalescingQueue=_coalescingQueue;
-@property(readonly, nonatomic) double coalesingDelay; // @synthesize coalesingDelay=_coalesingDelay;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *stateLock; // @synthesize stateLock=_stateLock;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSMutableArray *tasks; // @synthesize tasks=_tasks;
 
 @end

@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKSHIDEventDisplay, NSString;
-
 @interface BKSHIDEventSenderDescriptor
 {
     long long _hardwareType;
-    BKSHIDEventDisplay *_associatedDisplay;
-    _Bool _authenticated;
-    unsigned int _primaryPage;
-    unsigned int _primaryUsage;
-    unsigned long long _senderID;
 }
 
 + (id);
@@ -22,14 +15,15 @@
 + (id);
 + (id);
 + (_Bool);
-+ (id);
++ (id)filesystem because it was not unmounted cleanly
+;
 - (id);
 - (_Bool);
 - (id);
+- (id)updateActivity:(id)arg1 withParameters: /* Error: Ran out of types for this method. */;
+- (id)nfiguration";
 - (id);
-- (id);
-- (id);
-- (id);
+- (id), yMap, xyCount) VALUES(%d, %d, NULL);;
 - (unsigned long long);
 - (id);
 - (void);
@@ -37,9 +31,9 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)problem:(id)arg1 The certificate chain had a certificate that is not yet valid;
 - (id);
-- (unsigned int);
+- (unsigned int)nstantiatorProbe:interface %2d, score  /* Error: Ran out of types for this method. */;
 - (long long);
 - (void);
 - (unsigned int)@ù
@@ -47,19 +41,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) BKSHIDEventDisplay *associatedDisplay; // @synthesize associatedDisplay=_associatedDisplay;
-@property(readonly, nonatomic, getter=isAuthenticated) _Bool authenticated; // @synthesize authenticated=_authenticated;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) long long hardwareType; // @synthesize hardwareType=_hardwareType;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned int primaryPage; // @synthesize primaryPage=_primaryPage;
-@property(readonly, nonatomic) unsigned int primaryUsage; // @synthesize primaryUsage=_primaryUsage;
-@property(readonly, nonatomic) unsigned long long senderID; // @synthesize senderID=_senderID;
-@property(readonly) Class superclass;
 
 @end
 

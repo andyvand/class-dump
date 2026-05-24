@@ -12,12 +12,12 @@
 }
 
 + (id);
-+ (id);
-+ (id);
++ (id)ecognitionResult with into math StrokeGroupRecognitionResult.;
++ (id)wR;
+- (id)ICScannerFunctionalUnit;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)_instanceDataProvider;
 
 // Remaining properties
 @property(readonly, nonatomic) id <CNDonationLoggerProvider> loggerProvider; // @synthesize loggerProvider=_loggerProvider;

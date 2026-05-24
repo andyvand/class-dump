@@ -4,43 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface RFMonogramImage
 {
     CDStruct_4c5297e4 _has;
-    int _image_style;
-    NSString *_letters;
 }
 
 + (_Bool);
 - (int);
 - (_Bool);
 - (void);
+- (id)isW2DeviceWithModelID:(id)arg1;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)@;
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)spotlightScenesFromDetectionTraits:(id)arg1 thumbnailMap: /* Error: Ran out of types for this method. */;
+- (void)autolaunchApplicationURL;
+- (id)ysisAttributes.characterRecognitionAttributes.characterRecognitionData;
 - (id);
 - (id);
 - (void)_imageOverlay;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int image_style; // @synthesize image_style=_image_style;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *letters; // @synthesize letters=_letters;
-@property(readonly) Class superclass;
 
 @end
 

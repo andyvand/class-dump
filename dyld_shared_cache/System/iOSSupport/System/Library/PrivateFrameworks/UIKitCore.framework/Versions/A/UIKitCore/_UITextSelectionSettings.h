@@ -6,23 +6,10 @@
 
 #import <UIKitCore/_UISettings.h>
 
-@class NSNumber;
-
 __attribute__((visibility("hidden")))
 @interface _UITextSelectionSettings : _UISettings
 {
     double _minPinkWidth;
-    double _maxPinkWidth;
-    double _pinkWidthFactor;
-    double _linear;
-    double _parabolic;
-    double _gain;
-    double _allowableSeparation;
-    double _allowableForceMovement;
-    NSNumber *_shouldUseAcceleration;
-    NSNumber *_shouldPreferEndOfWord;
-    NSNumber *_allowExtendingSelections;
-    NSNumber *_enableDeepPress;
 }
 
 + (id)¦ Ý$Dk;
@@ -30,12 +17,12 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (double);
-- (void);
-- (void);
+- (void)dEvent>"16@0:(id)arg1 8;
+- (void)describeRanges;
 - (double);
 - (double);
 - (id);
-- (double);
+- (double));
 - (void);
 - (void);
 - (void);
@@ -46,29 +33,18 @@ __attribute__((visibility("hidden")))
 - (double)FùñeÐ1Â0@ù
 × ;
 - (void)"UIControl"16;
-- (id)eTrackingElementsForOffset: /* Error: Ran out of types for this method. */;
-- (void)TwoFingerScrollingAtTouchLocation:andLocation: /* Error: Ran out of types for this method. */;
-- (void)tIAPayloadKeyMissingKeyboardSceneId;
-- (void)ntViewController:(id)arg1;
+- (id)updateTrackingElementsForOffset: /* Error: Ran out of types for this method. */;
+- (void)supportsTwoFingerScrollingAtTouchLocation:andLocation: /* Error: Ran out of types for this method. */;
+- (void)getIAPayloadKeyMissingKeyboardSceneId;
+- (void)_didMoveToParentViewController:(id)arg1;
 - (id);
 - (double)orking;
 - (void);
-- (void)p;
+- (void)_p;
 - (double)ý43´tþí43°tþ;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *allowExtendingSelections; // @synthesize allowExtendingSelections=_allowExtendingSelections;
-@property(nonatomic) double allowableForceMovement; // @synthesize allowableForceMovement=_allowableForceMovement;
-@property(nonatomic) double allowableSeparation; // @synthesize allowableSeparation=_allowableSeparation;
-@property(retain, nonatomic) NSNumber *enableDeepPress; // @synthesize enableDeepPress=_enableDeepPress;
-@property(nonatomic) double gain; // @synthesize gain=_gain;
-@property(nonatomic) double linear; // @synthesize linear=_linear;
-@property(nonatomic) double maxPinkWidth; // @synthesize maxPinkWidth=_maxPinkWidth;
 @property(nonatomic) double minPinkWidth; // @synthesize minPinkWidth=_minPinkWidth;
-@property(nonatomic) double parabolic; // @synthesize parabolic=_parabolic;
-@property(nonatomic) double pinkWidthFactor; // @synthesize pinkWidthFactor=_pinkWidthFactor;
-@property(retain, nonatomic) NSNumber *shouldPreferEndOfWord; // @synthesize shouldPreferEndOfWord=_shouldPreferEndOfWord;
-@property(retain, nonatomic) NSNumber *shouldUseAcceleration; // @synthesize shouldUseAcceleration=_shouldUseAcceleration;
 
 @end
 

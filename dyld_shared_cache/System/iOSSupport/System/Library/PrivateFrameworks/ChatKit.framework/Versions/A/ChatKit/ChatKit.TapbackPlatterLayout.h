@@ -7,13 +7,6 @@
 @interface ChatKit.TapbackPlatterLayout
 {
     id template;
-    id backgroundSolidStroke;
-    id parentFrame;
-    id contentBackground;
-    id mediumTail;
-    id mediumTailSolidStroke;
-    id smallTail;
-    id smallTailSolidStroke;
 }
 
 - (id);

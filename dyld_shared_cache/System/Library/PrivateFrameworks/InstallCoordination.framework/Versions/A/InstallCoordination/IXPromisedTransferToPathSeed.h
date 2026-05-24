@@ -11,8 +11,6 @@
 @interface IXPromisedTransferToPathSeed : IXOwnedDataPromiseSeed
 {
     _Bool _shouldCopy;
-    _Bool _tryDeltaCopy;
-    NSURL *_transferPath;
 }
 
 + (_Bool);
@@ -29,9 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool shouldCopy; // @synthesize shouldCopy=_shouldCopy;
 @property(retain, nonatomic) NSURL *transferPath; // @synthesize transferPath=_transferPath;
-@property(nonatomic) _Bool tryDeltaCopy; // @synthesize tryDeltaCopy=_tryDeltaCopy;
 
 @end
 

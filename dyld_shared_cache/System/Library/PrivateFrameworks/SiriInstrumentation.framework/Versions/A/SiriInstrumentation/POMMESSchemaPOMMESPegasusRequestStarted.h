@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface POMMESSchemaPOMMESPegasusRequestStarted : SISchemaInstrumentationMessage
 {
     double _payloadSizeInKB;
-    struct {
-        unsigned int payloadSizeInKB:1;
-    } _has;
 }
 
 - (void);
@@ -22,18 +17,16 @@
 - (void);
 - (double);
 - (id);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long)nal/Library/BuildRoots/4~CNq7ugDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDJobManifest_macOS.m:50 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id)gnizedTextStartIndex;
+- (id)_recognizedTextStartIndex;
 - (id)_isDormant;
 
 // Remaining properties
-@property(nonatomic) _Bool hasPayloadSizeInKB;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) double payloadSizeInKB; // @synthesize payloadSizeInKB=_payloadSizeInKB;
 
 @end

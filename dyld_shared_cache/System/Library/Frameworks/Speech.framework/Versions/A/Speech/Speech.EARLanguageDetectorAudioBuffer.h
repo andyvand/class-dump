@@ -7,8 +7,6 @@
 @interface Speech.EARLanguageDetectorAudioBuffer
 {
     id $defaultActor;
-    id id;
-    id actorSystem;
 }
 
 @end

@@ -6,8 +6,6 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSString;
-
 @interface SALocalSearchMapViewportVertex : AceObject
 {
 }
@@ -17,20 +15,12 @@
 - (id);
 - (id);
 - (void);
-- (double);
-- (void)wGlance;
-- (double)lLabelTemplateComponent;
+- (double);
+- (void)SAGLShowGlance;
+- (double)DetailLabelTemplateComponent;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) double latitude;
-@property(nonatomic) double longitude;
-@property(readonly) Class superclass;
 
 @end
 

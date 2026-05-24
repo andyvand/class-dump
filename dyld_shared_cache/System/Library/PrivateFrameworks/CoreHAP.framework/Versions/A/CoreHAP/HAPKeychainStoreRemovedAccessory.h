@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSError, NSString;
+@class NSString;
 
 @interface HAPKeychainStoreRemovedAccessory
 {
     NSString *_accessoryName;
-    NSDate *_creationDate;
-    NSError *_removeError;
 }
 
 + (id)h error:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void)<HAPEncryptedSession>"28;
@@ -24,15 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *accessoryName; // @synthesize accessoryName=_accessoryName;
-@property(readonly, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSError *removeError; // @synthesize removeError=_removeError;
-@property(readonly) Class superclass;
 
 @end
 

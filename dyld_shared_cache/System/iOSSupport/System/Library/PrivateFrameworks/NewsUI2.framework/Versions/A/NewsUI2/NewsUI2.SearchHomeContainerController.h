@@ -7,27 +7,13 @@
 @interface NewsUI2.SearchHomeContainerController
 {
     id searchBar;
-    id delegate;
-    id styler;
-    id searchHomeViewController;
-    id searchResultsViewController;
-    id filterBarHostingController;
-    id filterBarViewModel;
-    id currentSearchTerm;
-    id currentFilteredTagIDs;
-    id currentTopRated;
-    id searchOrigination;
-    id filterProvider;
-    id $__lazy_storage_$_tapGesture;
-    id featureAvailability;
-    id presentationState;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)~P;
 - (void);
 - (id);
 - (id);

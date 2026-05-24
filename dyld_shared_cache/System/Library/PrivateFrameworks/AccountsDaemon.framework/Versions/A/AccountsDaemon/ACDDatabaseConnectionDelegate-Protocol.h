@@ -5,5 +5,6 @@
 //
 
 @protocol ACDDatabaseConnectionDelegate
+- (void)P;
 @end
 

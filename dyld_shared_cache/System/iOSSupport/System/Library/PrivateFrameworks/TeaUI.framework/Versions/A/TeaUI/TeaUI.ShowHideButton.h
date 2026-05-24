@@ -9,11 +9,10 @@
 @interface TeaUI.ShowHideButton : TeaUI.TouchInsetsButton
 {
     id onTap;
-    id toggleState;
 }
 
 - (id);
-- (id);
+- (id)setTagSpecificityCoeffIPad:(struct CGRect)arg1;
 - (void)øÿÿº=þÿ;
 
 @end

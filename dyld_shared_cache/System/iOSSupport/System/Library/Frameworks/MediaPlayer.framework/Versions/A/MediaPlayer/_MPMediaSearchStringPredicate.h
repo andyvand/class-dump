@@ -6,39 +6,30 @@
 
 #import <MediaPlayer/MPMediaPredicate.h>
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface _MPMediaSearchStringPredicate : MPMediaPredicate
 {
     NSString *_searchString;
-    NSSet *_properties;
 }
 
-+ (id);
++ (id)objectType;
 + (_Bool);
 - (id);
 - (id);
 - (id);
+- (id)messages;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)ctionsMetricsTracker";
 - (void);
 - (_Bool);
 - (void);
-- (void)ncreteClass:mediaRemoteType: /* Error: Ran out of types for this method. */;
+- (void)_createRemoteCommandWithConcreteClass:mediaRemoteType: /* Error: Ran out of types for this method. */;
 - (void)¨;
 - (id)fers.0.durationInMillis;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSSet *properties; // @synthesize properties=_properties;
 @property(copy, nonatomic) NSString *searchString; // @synthesize searchString=_searchString;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,23 +7,16 @@
 #import <Network/nw_listener_inbox.h>
 
 @class NSObject;
-@protocol OS_nw_channel, OS_nw_path, OS_nw_path_flow;
+@protocol OS_nw_path;
 
 __attribute__((visibility("hidden")))
 @interface nw_ip_channel_inbox : nw_listener_inbox
 {
     NSObject<OS_nw_path> *_path;
-    NSObject<OS_nw_path_flow> *_flow;
-    NSObject<OS_nw_channel> *_channel;
-    const union sockaddr_in_4_6 *_local;
-    unsigned int _scopeid;
-    unsigned short _local_port;
-    unsigned char _ip_proto;
-    unsigned int _bound_local_address:1;
 }
 
-+ (id)alue;
-- (void);
++ (id)InvalidValue;
+- (void)%ld,	value:%ld,	dimension1:%ld,	dimension2:%ld,	state:%ld,	layer:%ld,	scale:%ld,	identifier:%ld /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void)@;

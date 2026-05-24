@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class TSDLayout, TSDLayoutGeometry;
+
 @protocol TSDLayoutGeometryProvider
+- (TSDLayoutGeometry *)ssion:(TSDLayout *)arg1;
+
+@optional
+- (TSDLayoutGeometry *);
 @end
 

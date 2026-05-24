@@ -9,9 +9,6 @@
 @interface SGCircularBufferArray
 {
     NSMutableArray *_backingStore;
-    unsigned long long _currentIndex;
-    unsigned long long _capacity;
-    unsigned long long _mutationDetector;
 }
 
 - (id);
@@ -19,7 +16,7 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (unsigned long long)ffEventLocationFrom:(CDStruct_70511ce9 *)arg1 to:(id *)arg2;
+- (unsigned long long)diffEventLocationFrom:(CDStruct_70511ce9 *)arg1 to:(id *)arg2;
 
 @end
 

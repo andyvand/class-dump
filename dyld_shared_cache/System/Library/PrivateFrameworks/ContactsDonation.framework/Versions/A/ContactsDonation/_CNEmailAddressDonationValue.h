@@ -11,7 +11,6 @@
 @interface _CNEmailAddressDonationValue : CNDonationValue
 {
     NSString *_emailAddress;
-    NSString *_label;
 }
 
 + (_Bool);
@@ -21,16 +20,15 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (void){;
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)setDelegate:(id)arg1;
+- (void)allValues;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *emailAddress; // @synthesize emailAddress=_emailAddress;
-@property(readonly, copy, nonatomic) NSString *label; // @synthesize label=_label;
 
 @end
 

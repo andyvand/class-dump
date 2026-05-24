@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSImage;
+@class NSImage;
 
 @interface NSCandidateBarCompositeCandidate
 {
     NSImage *_image;
-    NSAttributedString *_attributedString;
-    double _spacing;
-    unsigned char _flags;
 }
 
-- (_Bool);
-- (_Bool);
+- (_Bool)HTTPAdditionalHeaders;
+- (_Bool)nary",C,V_sslSettings;
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)uncachedEventValueFromManagedObject:readMetadata:excludedMetadataKeys:cache: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id)_filteredTabViewItems;
@@ -29,9 +26,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSAttributedString *attributedString;
 @property(readonly, copy) NSImage *image;
-@property(readonly) double spacing;
 
 @end
 

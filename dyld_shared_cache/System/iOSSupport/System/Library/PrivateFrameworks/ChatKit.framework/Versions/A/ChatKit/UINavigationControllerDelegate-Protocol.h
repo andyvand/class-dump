@@ -9,7 +9,7 @@
 @protocol UINavigationControllerDelegate
 
 @optional
-- (void)seToolbarItem;
+- (void)_configureNewComposeToolbarItem;
 - (id <UIViewControllerInteractiveTransitioning>)GAWâyAF_AWQo_GG_ATQo_ACGSgAByAcDyAfJGACGAByAcDyADyDD]yAFG¦\ySbGGAJGACGtG;
 @end
 

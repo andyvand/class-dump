@@ -9,17 +9,15 @@
 @interface TRIMaintenanceSubTask
 {
     NSString *_name;
-    CDUnknownBlockType _block;
 }
 
-- (id);
+- (id)nextTimedMetadataGroup;
 - (id);
 - (CDUnknownBlockType);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

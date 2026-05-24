@@ -11,7 +11,7 @@
 
 - (id);
 - (long long);
-- (void);
+- (void)downtimeWhitelistContainer;
 
 // Remaining properties
 @property long long code; // @synthesize code=_code;

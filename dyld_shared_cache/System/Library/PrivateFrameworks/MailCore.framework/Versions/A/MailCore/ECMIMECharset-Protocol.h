@@ -7,11 +7,9 @@
 @class NSString;
 
 @protocol ECMIMECharset
+- (NSString *);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canBeUsedForOutgoingMessages;
-@property(readonly, copy, nonatomic) NSString *charsetName;
-@property(readonly, copy, nonatomic) NSString *displayName;
 @property(readonly) unsigned long long encoding;
 @end
 

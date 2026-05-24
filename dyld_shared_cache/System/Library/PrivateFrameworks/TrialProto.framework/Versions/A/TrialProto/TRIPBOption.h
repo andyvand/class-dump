@@ -6,7 +6,7 @@
 
 #import <TrialProto/TRIPBMessage.h>
 
-@class NSString, TRIPBAny;
+@class NSString;
 
 @interface TRIPBOption : TRIPBMessage
 {
@@ -15,9 +15,7 @@
 + (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasValue; // @dynamic hasValue;
 @property(copy, nonatomic) NSString *name; // @dynamic name;
-@property(retain, nonatomic) TRIPBAny *value; // @dynamic value;
 
 @end
 

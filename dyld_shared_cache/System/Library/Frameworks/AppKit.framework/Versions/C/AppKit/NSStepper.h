@@ -6,17 +6,14 @@
 
 #import <AppKit/NSControl.h>
 
-@class NSString, NSTrackingArea, _NSStepperModel;
+@class NSTrackingArea;
 
 @interface NSStepper : NSControl
 {
     NSTrackingArea *_stepperTrackingArea;
-    CDStruct_8bbc296c _trackingState;
-    unsigned int _cellIsStepperCell:1;
-    unsigned int _hasDrawRectOverride:1;
 }
 
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -28,32 +25,32 @@
 - (void);
 - (id);
 - (long long);
-- (void);
-- (struct CGRect);
-- (void);
+- (void)delegate class %llu;
+- (struct CGRect)eled;
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)hared_ptr<TransportConnection>=^{TransportConnection}^{__shared_weak_count}}24@"NSObject<OS_dispatch_data>"40;
+- (void)outboundConnectionCompleteWithError:(id)arg1;
+- (void)archivedDataWithRootObject:(struct CGPoint)arg1 requiringSecureCoding:(struct CGPoint)arg2 error: /* Error: Ran out of types for this method. */;
+- (id)accept_didBecomeInputOutputStream;
+- (_Bool)_undeterminedUploadProgressState;
+- (void)URLSession:(id)arg1 task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend: /* Error: Ran out of types for this method. */;
+- (void)checked__alternatePathAvailable;
 - (_Bool);
-- (void);
-- (void);
+- (void)t load %{public}@;
 - (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (Class);
-- (id);
+- (void);
+- (void)/PRIVATE_CACHE_HACK;
+- (id)for socket %d;
+- (_Bool)_onqueue_bothSidesFinalized;
+- (void)6;
+- (_Bool)@8B16{?=qi}20@"NSObject<OS_nw_content_context>"36;
+- (Class)890-_[]: /* Error: Ran out of types for this method. */;
+- (id)@;
 - (void);
 - (void);
 - (void);
@@ -71,14 +68,14 @@
 - (id);
 - (void);
 - (void);
-- (CDStruct_507282ca);
-- (void);
+- (CDStruct_c3b9c2ee);
+- (void)"{CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}}"glyphsPerLineEstimate"Q"offsetPerLineEstimate"d};
 - (void);
 - (_Bool)!°Fùñß3Ð1Â0@ù
 × ;
-- (void)y:(id)arg1;
-- (id)ativeToView:(struct CGRect)arg1 animated:fromParentBoundsInWindow:withDelay: /* Error: Ran out of types for this method. */;
-- (void)eTextContainerSize;
+- (void)setVisibilityPriority:(id)arg1;
+- (id)presentAsSubmenuRelativeToView:(struct CGRect)arg1 animated:fromParentBoundsInWindow:withDelay: /* Error: Ran out of types for this method. */;
+- (void)_updateTextContainerSize;
 - (void);
 - (void)Ü;
 - (double);
@@ -91,22 +88,7 @@
 - (double)²ÿd|<D;
 
 // Remaining properties
-@property(readonly) _NSStepperModel *_controlModel;
-@property(retain, setter=_setPressureTrackingArea:) NSTrackingArea *_stepperTrackingArea; // @synthesize _stepperTrackingArea;
-@property _Bool autorepeat;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(getter=isHighlighted) _Bool highlighted;
-@property double increment;
-@property double maxValue;
-@property double minValue;
-@property(readonly) Class superclass;
 @property _Bool usesAquaduck;
-@property _Bool valueWraps;
 
 @end
 

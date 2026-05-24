@@ -7,7 +7,6 @@
 @interface FamilyCircleUI.ConfirmChildAgeViewModel
 {
     id childInfoService;
-    id children;
 }
 
 @end

@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface VNModelFileImpl
 {
@@ -20,22 +18,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) const void *baseAddress;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long length;
-@property(readonly) struct __sFILE *ptrFile;
-// Preceding property had unknown attributes: ?
-// Original attribute string (following type): ?,R
-
-@property(retain, nonatomic) NSString *resourcePath;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,&,N
-
-@property(readonly) Class superclass;
 
 @end
 

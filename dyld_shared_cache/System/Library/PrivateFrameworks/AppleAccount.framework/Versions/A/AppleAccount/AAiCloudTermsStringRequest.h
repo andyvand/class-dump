@@ -11,8 +11,8 @@
 }
 
 + (Class);
-- (id);
-- (id);
+- (id)indexOfFailedVerificationSigner;
+- (id)CP_CreateBootstrapTokenWithACMContext;
 - (id);
 
 @end

@@ -6,23 +6,11 @@
 
 #import <AppKit/NSView.h>
 
-@class NSMenuItem, NSString;
+@class NSMenuItem;
 
 @interface NSMenuItemViewer : NSView
 {
     NSMenuItem *_menuItem;
-    NSView *_menuItemView;
-    struct {
-        unsigned int settingSize:1;
-        unsigned int drawnFromCarbon:1;
-        unsigned int installedWidthConstraints:1;
-        unsigned int suppressingImplCallbacks:1;
-        unsigned int reserved:28;
-    } _menuItemViewerFlags;
-    void *_hiView;
-    struct CGSize _minimumViewSize;
-    id _rememberedFirstResponder;
-    _Bool _highlighted;
 }
 
 + (struct __CFString *);
@@ -33,18 +21,18 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)_requiresPowerPluggedIn;
+- (id)JSONObjectWithData:options:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)ream=%llu;
 - (struct CGSize);
-- (void);
-- (id);
-- (_Bool);
+- (void)AVAggregateAssetDownloadTaskIdentifierKey;
+- (id)AVAssetDownloadSessionMediaSelectionPrefersMultichannelKey;
+- (_Bool)__nsurlrequest_proto_prop_obj_26;
 - (id);
 - (void);
 - (void *);
@@ -55,19 +43,7 @@
 - (_Bool)C;
 
 // Remaining properties
-@property(retain, setter=_setMenuItemView:) NSView *_menuItemView;
-@property(readonly) struct CGSize _minimumViewSize;
-@property(readonly, nonatomic) _Bool canBeHighlighted;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, setter=setHighlighted:) _Bool isHighlighted; // @synthesize isHighlighted=_highlighted;
 @property(readonly) NSMenuItem *menuItem; // @synthesize menuItem=_menuItem;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool wantsSelectionMaterial;
 
 @end
 

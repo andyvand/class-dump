@@ -9,13 +9,6 @@
 @interface MTL4AccelerationStructureMotionTriangleGeometryDescriptor : MTL4AccelerationStructureGeometryDescriptor
 {
     unsigned long long _indexType;
-    unsigned long long _triangleCount;
-    unsigned long long _vertexStride;
-    unsigned long long _vertexFormat;
-    long long _transformationMatrixLayout;
-    struct MTL4BufferRange _vertexBuffers;
-    struct MTL4BufferRange _indexBuffer;
-    struct MTL4BufferRange _transformationMatrixBuffer;
 }
 
 - (void);
@@ -32,26 +25,19 @@
 - (struct MTL4BufferRange);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)0;
+- (id);
 - (unsigned long long);
 - (id);
 - (long long);
-- (_Bool);
+- (_Bool);
 - (id);
 - (unsigned long long)1Â0@ù
 × ;
-- (struct MTL4BufferRange)UChar;
+- (struct MTL4BufferRange)ConstantUChar;
 
 // Remaining properties
-@property(nonatomic) struct MTL4BufferRange indexBuffer; // @synthesize indexBuffer=_indexBuffer;
-@property(nonatomic) unsigned long long indexType; // @synthesize indexType=_indexType;
-@property(nonatomic) struct MTL4BufferRange transformationMatrixBuffer; // @synthesize transformationMatrixBuffer=_transformationMatrixBuffer;
-@property(nonatomic) long long transformationMatrixLayout; // @synthesize transformationMatrixLayout=_transformationMatrixLayout;
-@property(nonatomic) unsigned long long triangleCount; // @synthesize triangleCount=_triangleCount;
 @property(nonatomic) struct MTL4BufferRange vertexBuffers; // @synthesize vertexBuffers=_vertexBuffers;
-@property(nonatomic) unsigned long long vertexFormat; // @synthesize vertexFormat=_vertexFormat;
-@property(nonatomic) unsigned long long vertexStride; // @synthesize vertexStride=_vertexStride;
 
 @end
 

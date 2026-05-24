@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 × ;
 - (id)1Â0@ù
 × ;
-- (id)rength;
+- (id)contentsCDRStrength;
 
 @end
 

@@ -9,8 +9,6 @@
 @interface MKMultiPartAttributedString
 {
     NSAttributedString *_attributedString;
-    NSArray *_components;
-    NSArray *_separators;
 }
 
 + (id);
@@ -19,20 +17,18 @@
 + (id);
 + (id);
 - (id);
-- (id);
-- (id);
+- (id)initWithType:properties:value:permissions: /* Error: Ran out of types for this method. */;
+- (id)State, City, Country;
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)anager:didUpdateVehicleSpeed:timestamp: /* Error: Ran out of types for this method. */;
+- (id)`;
+- (id)as not found.;
+- (void)locationManager:didUpdateVehicleSpeed:timestamp: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSAttributedString *attributedString; // @synthesize attributedString=_attributedString;
 @property(readonly, copy, nonatomic) NSArray *components; // @synthesize components=_components;
-@property(readonly, copy, nonatomic) NSArray *separators; // @synthesize separators=_separators;
 
 @end
 

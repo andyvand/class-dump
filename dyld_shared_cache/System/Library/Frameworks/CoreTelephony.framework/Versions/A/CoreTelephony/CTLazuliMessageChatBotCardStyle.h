@@ -11,13 +11,13 @@
     NSURL *_uri;
 }
 
-+ (_Bool);
++ (_Bool)tSwitchEvent:%p %@ fromVariant:%@ toVariant:%@ videoRendition:%@ audioRendition:%@ subtitleRendition:%@ loadedTimeRanges:%@ didSucceed:%d> /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
-- (id);
+- (id)L;
 - (id);
 - (_Bool);
-- (void);
+- (void)_context;
 - (void);
 - (id);
 - (void)1Â0@ù

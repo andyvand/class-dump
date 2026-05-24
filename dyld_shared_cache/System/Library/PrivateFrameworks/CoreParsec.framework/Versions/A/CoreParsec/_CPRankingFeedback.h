@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
-
 @interface _CPRankingFeedback
 {
     int _spotlightQueryIntent;
-    unsigned long long _timestamp;
-    double _blendingDuration;
-    NSArray *_sections;
-    NSArray *_hiddenResults;
 }
 
 - (void);
@@ -21,7 +15,7 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -31,29 +25,17 @@
 - (unsigned long long);
 - (id);
 - (void);
+- (void)_linkMetadatablob;
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (int);
 - (void);
 - (double);
-- (void);
+- (void)P;
 
 // Remaining properties
-@property(nonatomic) double blendingDuration; // @synthesize blendingDuration=_blendingDuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *hiddenResults; // @synthesize hiddenResults=_hiddenResults;
-@property(readonly, nonatomic) NSData *jsonData; // @dynamic jsonData;
-@property(copy, nonatomic) NSArray *sections; // @synthesize sections=_sections;
-@property(nonatomic) int spotlightQueryIntent; // @synthesize spotlightQueryIntent=_spotlightQueryIntent;
-@property(readonly) Class superclass;
 @property(nonatomic) unsigned long long timestamp;
 
 @end

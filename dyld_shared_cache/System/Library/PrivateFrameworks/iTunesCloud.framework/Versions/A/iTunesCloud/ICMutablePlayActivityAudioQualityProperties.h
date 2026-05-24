@@ -6,8 +6,6 @@
 
 #import <iTunesCloud/ICPlayActivityAudioQualityProperties.h>
 
-@class NSString;
-
 @interface ICMutablePlayActivityAudioQualityProperties : ICPlayActivityAudioQualityProperties
 {
 }
@@ -15,19 +13,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)b;
 - (void);
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) long long bitDepth; // @dynamic bitDepth;
 @property(nonatomic) long long bitRate; // @dynamic bitRate;
-@property(nonatomic) NSString *channelLayoutDescription; // @dynamic channelLayoutDescription;
-@property(nonatomic) unsigned int codec; // @dynamic codec;
-@property(nonatomic) long long sampleRate; // @dynamic sampleRate;
-@property(nonatomic, getter=isSpatialized) _Bool spatialized; // @dynamic spatialized;
 
 @end
 

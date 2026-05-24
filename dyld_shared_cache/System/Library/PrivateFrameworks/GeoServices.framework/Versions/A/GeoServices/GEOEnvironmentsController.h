@@ -10,21 +10,18 @@
 @interface GEOEnvironmentsController
 {
     NSArray *_defaultEnvironmentInfos;
-    NSArray *_customEnvironmentInfos;
-    _Bool _enableCustomEnvironments;
-    id <GEOEnvironmentsControllerDelegate> _delegate;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)Comparator;
 - (void);
+- (id)(%@);
 - (id);
+- (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)_departureSequencesForSection:(id)arg1;
 - (void)l;
 
 // Remaining properties

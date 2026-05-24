@@ -7,17 +7,6 @@
 @interface CMCaptureLocalSessionVideoConfiguration
 {
     CDStruct_79c71658 _dimensions;
-    unsigned int _outputFormat;
-    _Bool _supportsCenterStage;
-    _Bool _cinematicFramingEnabled;
-    struct CGRect _centerStageRectOfInterest;
-    int _centerStageFramingMode;
-    double _manualFramingPanningAngleX;
-    double _manualFramingPanningAngleY;
-    double _manualFramingZoomFactor;
-    _Bool _temporalFilterLowLightBandingMitigationEnabled;
-    _Bool _ringLightAutoSupported;
-    _Bool _ringLightEnabled;
 }
 
 - (_Bool);
@@ -28,37 +17,26 @@
 - (void);
 - (_Bool);
 - (double);
-- (unsigned int);
+- (unsigned int)d,;
 - (id);
 - (double);
 - (void);
 - (_Bool);
-- (void)alanceCCT;
+- (void)_whiteBalanceCCT;
 - (void)nary",R,N,V_imageQueueUpdatedPayloadToBeSentAfterCommitConfiguration;
 - (double)±ÿ"ÿÁÿ!ÿÏÿÿÜÿÿéÿÿóÿÿýÿ>ÿÿÿHÿÿÿNÿÿÿQÿÿÿPÿÿÿNÿÿÿIÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿFøÿlÿ!ÿÿ#ÿÿ#ÿ«ÿ#ÿ»ÿ!ÿÊÿ ÿ×ÿÿåÿÿðÿÿúÿ3ÿÿÿEÿÿÿNÿÿÿRÿÿÿTÿÿÿTÿÿÿSÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿDøÿiþ!ÿÿ#ÿÿ#ÿ§ÿ#ÿ·ÿ"ÿÆÿ ÿÓÿÿáÿÿíÿÿ÷ÿÿÿÿ@ÿÿÿLÿÿÿRÿÿÿVÿÿÿXÿÿÿXÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿEøÿhþ!ÿ~ÿ#ÿÿ#ÿ¤ÿ#ÿ³ÿ"ÿÂÿ!ÿÐÿÿÞÿÿêÿÿõÿÿÿÿ;ÿÿÿJÿÿÿQÿÿÿVÿÿÿYÿÿÿZÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿJùÿiþ!ÿ~ÿ#ÿÿ#ÿ¢ÿ#ÿ±ÿ"ÿ¿ÿ!ÿÍÿÿÛÿÿçÿÿòÿÿüÿ4ÿÿÿFÿÿÿOÿÿÿUÿÿÿYÿÿÿ\ÿ;
 - (CDStruct_1ef3fb1f)}ÿÿ¢}ÿÿ­}ÿÿ·}ÿÿÀ|ÿÿÊ|ÿÿÓ|ÿÿÜ|ÿÿå{ÿÿí{ÿÿõ{ÿÿþ{ÿÿÿ{ÿÿÿ{ÿÿÿ{ÿÿÿ|ÿÿ;
 - (void);ñRÿLðSÿYðTÿfðUÿrïWÿïYÿï[ÿî]ÿ¢î`ÿ­îcÿ¹îfÿÄîiÿÏîmÿÙîoÿåïrÿïïtÿøïtÿÿïuÿÿðuÿ;
 - (struct CGRect)rNotification initNotificationWithTimeout:flags:dictionary:error:] /* Error: Ran out of types for this method. */;
 - (void)or input %@;
-- (void)ficationConfidencesChanged;
+- (void)SceneClassificationConfidencesChanged;
 - (void)aspectRatio == FigCaptureAspectRatioDefault ) || self.isDynamicAspectRatioSupported;
-- (_Bool)amControlTakenByAnotherClientNotification;
+- (_Bool)fcs_handleStreamControlTakenByAnotherClientNotification;
 - (int)`Ôÿ1£;
 - (void)x%;
 
 // Remaining properties
-@property(nonatomic) int centerStageFramingMode; // @synthesize centerStageFramingMode=_centerStageFramingMode;
-@property(nonatomic) struct CGRect centerStageRectOfInterest; // @synthesize centerStageRectOfInterest=_centerStageRectOfInterest;
-@property(nonatomic) _Bool cinematicFramingEnabled; // @synthesize cinematicFramingEnabled=_cinematicFramingEnabled;
 @property(nonatomic) CDStruct_1ef3fb1f dimensions; // @synthesize dimensions=_dimensions;
-@property(nonatomic) double manualFramingPanningAngleX; // @synthesize manualFramingPanningAngleX=_manualFramingPanningAngleX;
-@property(nonatomic) double manualFramingPanningAngleY; // @synthesize manualFramingPanningAngleY=_manualFramingPanningAngleY;
-@property(nonatomic) double manualFramingZoomFactor; // @synthesize manualFramingZoomFactor=_manualFramingZoomFactor;
-@property(nonatomic) unsigned int outputFormat; // @synthesize outputFormat=_outputFormat;
-@property(nonatomic) _Bool ringLightAutoSupported; // @synthesize ringLightAutoSupported=_ringLightAutoSupported;
-@property(nonatomic) _Bool ringLightEnabled; // @synthesize ringLightEnabled=_ringLightEnabled;
-@property(nonatomic) _Bool supportsCenterStage; // @synthesize supportsCenterStage=_supportsCenterStage;
-@property(nonatomic) _Bool temporalFilterLowLightBandingMitigationEnabled; // @synthesize temporalFilterLowLightBandingMitigationEnabled=_temporalFilterLowLightBandingMitigationEnabled;
 
 @end
 

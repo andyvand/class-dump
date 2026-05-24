@@ -6,31 +6,23 @@
 
 #import <CoreML/MLModel.h>
 
-@class MLAppleGazetteerParameters, NSString;
+@class MLAppleGazetteerParameters;
 
 @interface MLAppleGazetteer : MLModel
 {
     void *gazetteerModel;
-    MLAppleGazetteerParameters *_parameters;
 }
 
-+ (_Bool);
++ (_Bool);
 + (id);
-- (id);
+- (id)d;
 - (void);
 - (id);
 - (id);
 - (void)an use the direct binding path, but the pixel buffer's pixel format type is %c%c%c%c. This is a logic error.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) MLAppleGazetteerParameters *parameters; // @synthesize parameters=_parameters;
-@property(readonly) Class superclass;
 
 @end
 

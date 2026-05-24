@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIImage, _UILegibilitySettings;
+@class _UILegibilitySettings;
 
 __attribute__((visibility("hidden")))
 @interface _UILegibilityCachedShadow
 {
     _UILegibilitySettings *_settings;
-    double _strength;
-    UIImage *_shadow;
 }
 
-- (_Bool);
+- (_Bool)ayEnrollmentControllerDispatchDelegate>";
 - (void);
 - (void);
 - (double);
@@ -24,12 +22,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id)1Â0@ù
 × ;
-- (_Bool)t;
+- (_Bool)useRelaxedScopeLayout;
 
 // Remaining properties
 @property(retain, nonatomic) _UILegibilitySettings *settings; // @synthesize settings=_settings;
-@property(retain, nonatomic) UIImage *shadow; // @synthesize shadow=_shadow;
-@property(nonatomic) double strength; // @synthesize strength=_strength;
 
 @end
 

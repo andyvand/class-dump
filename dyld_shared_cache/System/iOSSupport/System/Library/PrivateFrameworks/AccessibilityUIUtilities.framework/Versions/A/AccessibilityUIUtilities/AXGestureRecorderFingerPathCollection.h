@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXMutableReplayableGesture, NSMutableArray, NSMutableDictionary;
-@protocol AXGestureRecorderFingerPathCollectionDelegate;
-
 @interface AXGestureRecorderFingerPathCollection
 {
     _Bool _shouldRecordRealTimeGesture;
-    id <AXGestureRecorderFingerPathCollectionDelegate> _delegate;
-    unsigned long long _maximumFingerPathsCount;
-    unsigned long long _referenceTimesArrayIndex;
-    NSMutableArray *_fingerPaths;
-    NSMutableArray *_pointsArrays;
-    NSMutableArray *_forcesArrays;
-    NSMutableDictionary *_touchPathIndicesToFingerPathIndices;
-    NSMutableArray *_timesArrays;
-    double _minimumFingerLineWidth;
-    double _maximumFingerLineWidth;
-    AXMutableReplayableGesture *_replayableGesture;
 }
 
 - (id);
@@ -29,16 +15,16 @@
 - (void);
 - (void);
 - (void);
+- (void)h|;
 - (void);
+- (void)|;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)h|;
 - (double);
 - (unsigned long long);
 - (double);
@@ -50,44 +36,30 @@
 - (id);
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
+- (id)N]h|;
 - (id);
-- (id);
-- (struct CGPoint);
+- (struct CGPoint);
+- (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)4z;
+- (void)|;
+- (unsigned long long)h|;
+- (void);
+- (void)h|;
+- (void);
+- (id)h|;
 - (double);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
+- (id);
+- (void)SubscriptionStatus"@"NSError">;
+- (void)`;
 
 // Remaining properties
-@property(nonatomic) __weak id <AXGestureRecorderFingerPathCollectionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSMutableArray *fingerPaths; // @synthesize fingerPaths=_fingerPaths;
-@property(readonly, nonatomic) unsigned long long fingerPathsCount;
-@property(retain, nonatomic) NSMutableArray *forcesArrays; // @synthesize forcesArrays=_forcesArrays;
-@property(nonatomic) double maximumFingerLineWidth; // @synthesize maximumFingerLineWidth=_maximumFingerLineWidth;
 @property(nonatomic) unsigned long long maximumFingerPathsCount; // @synthesize maximumFingerPathsCount=_maximumFingerPathsCount;
-@property(nonatomic) double minimumFingerLineWidth; // @synthesize minimumFingerLineWidth=_minimumFingerLineWidth;
-@property(retain, nonatomic) NSMutableArray *pointsArrays; // @synthesize pointsArrays=_pointsArrays;
-@property(readonly, nonatomic) NSMutableArray *referenceTimesArray;
-@property(nonatomic) unsigned long long referenceTimesArrayIndex; // @synthesize referenceTimesArrayIndex=_referenceTimesArrayIndex;
-@property(retain, nonatomic) AXMutableReplayableGesture *replayableGesture; // @synthesize replayableGesture=_replayableGesture;
-@property(nonatomic) _Bool shouldRecordRealTimeGesture; // @synthesize shouldRecordRealTimeGesture=_shouldRecordRealTimeGesture;
-@property(retain, nonatomic) NSMutableArray *timesArrays; // @synthesize timesArrays=_timesArrays;
-@property(readonly, nonatomic) unsigned long long timestampsCount;
-@property(retain, nonatomic) NSMutableDictionary *touchPathIndicesToFingerPathIndices; // @synthesize touchPathIndicesToFingerPathIndices=_touchPathIndicesToFingerPathIndices;
 
 @end
 

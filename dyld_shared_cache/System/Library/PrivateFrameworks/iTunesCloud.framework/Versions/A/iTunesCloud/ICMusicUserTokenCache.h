@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface ICMusicUserTokenCache
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    NSObject<OS_dispatch_queue> *_calloutQueue;
-    NSMutableDictionary *_cachedUserTokens;
 }
 
 + (void);
@@ -26,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void)tokens:error: /* Error: Ran out of types for this method. */;
+- (void)_finishWithResult:tokens:error: /* Error: Ran out of types for this method. */;
 
 @end
 

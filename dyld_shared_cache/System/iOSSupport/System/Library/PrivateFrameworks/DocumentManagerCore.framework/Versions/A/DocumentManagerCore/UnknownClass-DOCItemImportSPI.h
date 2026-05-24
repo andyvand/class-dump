@@ -6,6 +6,6 @@
 
 @interface UnknownClass (DOCItemImportSPI)
 - (id);
-- (_Bool);
+- (_Bool);
 @end
 

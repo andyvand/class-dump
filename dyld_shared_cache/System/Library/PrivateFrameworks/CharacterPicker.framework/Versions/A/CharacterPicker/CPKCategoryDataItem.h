@@ -4,37 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface CPKCategoryDataItem
 {
     NSString *_accessibilityIdentifier;
-    NSString *_identifier;
-    NSImage *_image;
-    NSString *_tooltipIdentifier;
-    NSString *_localizedIdentifier;
 }
 
-+ (id);
++ (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)	k;
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accessibilityIdentifier; // @synthesize accessibilityIdentifier=_accessibilityIdentifier;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(copy, nonatomic) NSString *localizedIdentifier; // @synthesize localizedIdentifier=_localizedIdentifier;
-@property(retain, nonatomic) NSString *tooltipIdentifier; // @synthesize tooltipIdentifier=_tooltipIdentifier;
 
 @end
 

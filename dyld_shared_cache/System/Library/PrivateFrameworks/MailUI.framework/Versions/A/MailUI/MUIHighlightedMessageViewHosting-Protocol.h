@@ -5,5 +5,6 @@
 //
 
 @protocol MUIHighlightedMessageViewHosting
+- (void));
 @end
 

@@ -16,13 +16,11 @@
 - (id);
 - (void);
 - (void);
-- (float);
+- (float)_;
 - (struct CGRect);
 
 // Remaining properties
-@property(readonly) struct CGRect boundingBox;
 @property(copy) NSAttributedString *overlayString;
-@property(readonly) float rotation;
 
 @end
 

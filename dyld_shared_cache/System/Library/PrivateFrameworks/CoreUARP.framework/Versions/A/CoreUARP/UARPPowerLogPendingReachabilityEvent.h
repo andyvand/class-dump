@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSString;
 
 @interface UARPPowerLogPendingReachabilityEvent
 {
     NSString *_modelNumber;
-    NSUUID *_uuid;
-    NSString *_activeFirmwareVersion;
-    NSString *_stagedFirmwareVersion;
 }
 
 - (id);
@@ -22,16 +19,12 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)�;
 - (void);
 - (id);
 
 // Remaining properties
-@property(copy) NSString *activeFirmwareVersion; // @synthesize activeFirmwareVersion=_activeFirmwareVersion;
-@property(readonly) _Bool allDataPresent;
 @property(readonly) NSString *modelNumber; // @synthesize modelNumber=_modelNumber;
-@property(copy) NSString *stagedFirmwareVersion; // @synthesize stagedFirmwareVersion=_stagedFirmwareVersion;
-@property(readonly) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

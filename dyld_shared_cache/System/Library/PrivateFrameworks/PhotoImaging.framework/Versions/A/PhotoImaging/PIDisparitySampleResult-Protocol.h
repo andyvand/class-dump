@@ -5,6 +5,7 @@
 //
 
 @protocol PIDisparitySampleResult
+- (float)C;
 
 // Remaining properties
 @property(readonly, nonatomic) float sampledDisparityValue;

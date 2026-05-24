@@ -12,12 +12,10 @@ __attribute__((visibility("hidden")))
 @interface MPConcreteMediaItem : MPMediaItem
 {
     MPMediaLibrary *_library;
-    unsigned long long _persistentID;
-    MPConcreteMediaEntityPropertiesCache *_propertiesCache;
 }
 
 + (id);
-+ (id);
++ (id)Ԫ#;
 + (id);
 + (_Bool);
 - (id);
@@ -29,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
@@ -43,8 +41,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
-- (void)oviderID__MAPPING_MISSING__;
+- (id);
+- (void)__MPModelPropertyRadioStationProviderID__MAPPING_MISSING__;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) MPConcreteMediaEntityPropertiesCache *cachedPropertyValues;

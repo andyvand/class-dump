@@ -7,6 +7,8 @@
 @protocol MPCQueueControllerSessionTypesInvalidatable;
 
 @protocol MPCQueueControllerBehaviorTransportableExtension
+- (id <MPCQueueControllerSessionTypesInvalidatable>)@?q@"NSError">40;
+- (_Bool)retain;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <MPCQueueControllerSessionTypesInvalidatable> sessionTypesInvalidatable;

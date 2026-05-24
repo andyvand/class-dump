@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSString;
 
 @interface _SFPBLinkPresentationCardSection
 {
     _Bool _isHighlighted;
-    NSString *_coreSpotlightIdentifier;
-    NSString *_url;
-    NSArray *_peopleToBadges;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (void);
@@ -30,27 +27,16 @@
 - (void);
 - (void);
 - (_Bool);
+- (id)onDemand_installAdjustedDeferredFullSizeVideoComplementResourceForAsset:(id)arg1;
+- (id)che UUID:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void)em;
-- (_Bool)nHandler: /* Error: Ran out of types for this method. */;
+- (id)$;
+- (void)textCopyItem;
+- (_Bool)loadCard:withCompletionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *coreSpotlightIdentifier; // @synthesize coreSpotlightIdentifier=_coreSpotlightIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isHighlighted; // @synthesize isHighlighted=_isHighlighted;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *peopleToBadges; // @synthesize peopleToBadges=_peopleToBadges;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *url; // @synthesize url=_url;
 
 @end
 

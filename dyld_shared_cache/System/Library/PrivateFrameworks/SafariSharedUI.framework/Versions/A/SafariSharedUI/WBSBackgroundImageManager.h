@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject, NSString, WBSBackgroundImageCache, WBTabGroupManager;
-@protocol OS_dispatch_queue, WBSSiteMetadataProviderDelegate;
+@class NSObject, WBTabGroupManager;
+@protocol OS_dispatch_queue;
 
 @interface WBSBackgroundImageManager
 {
     NSObject<OS_dispatch_queue> *_internalQueue;
-    NSObject<OS_dispatch_queue> *_imageOperationQueue;
-    WBSBackgroundImageCache *_backgroundImageCache;
-    WBSBackgroundImageCache *_backgroundImageThumbnailCache;
-    WBTabGroupManager *_tabGroupManager;
-    NSMutableSet *_profilesWithGeneratedBackgroundImages;
-    id <WBSSiteMetadataProviderDelegate> _providerDelegate;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)qA;
 - (void);
 - (_Bool);
 - (double);
@@ -33,43 +27,31 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)h;
 - (id);
 - (long long);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
+- (void)B&;
+- (void)T?;
+- (id)R;
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)%%%%%%%%%%%%%%%%%%%%%%%%%%%%%;
 - (id);
 - (void);
-- (void)atch_WBSResultRankerExtras;
+- (void)WBSURLCompletionMatch_WBSResultRankerExtras;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property __weak id <WBSSiteMetadataProviderDelegate> providerDelegate; // @synthesize providerDelegate=_providerDelegate;
-@property(readonly, nonatomic) _Bool providesFavicons;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) WBTabGroupManager *tabGroupManager; // @synthesize tabGroupManager=_tabGroupManager;
 
 @end

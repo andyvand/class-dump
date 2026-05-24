@@ -14,17 +14,17 @@
 + (id);
 + (id);
 + (id);
++ (id)iF;
 + (id);
 + (id);
-+ (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)#;
+- (void)_TtP16NetworkExtension41NEURLFilterControlProviderHostXPCProtocol_;
+- (id)P;
 - (id);
-- (id);
-- (id);
+- (id)bers detected in waypoint data;
 - (void);
 
 // Remaining properties

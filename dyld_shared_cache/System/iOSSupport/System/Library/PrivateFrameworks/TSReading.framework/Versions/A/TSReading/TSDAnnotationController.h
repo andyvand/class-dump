@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface TSDAnnotationController
 {
 }
@@ -13,20 +11,18 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)|;
+- (void);
 - (void);
 - (id);
-- (id);
+- (id)3;
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *annotationNavigationString;
 @property(readonly, nonatomic) _Bool hasAnnotations;
-@property(nonatomic) _Bool textSelectionChangeShouldDismissAnnotations;
 
 @end
 

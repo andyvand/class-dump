@@ -6,30 +6,11 @@
 
 #import <GeoServices/GEOTileRequester.h>
 
-@class GEODataURLSession, GEOTileKeyMap, GEOTileRequestBalancer, NSMutableArray, NSObject, NSString, geo_isolater;
-@protocol OS_dispatch_queue, OS_os_activity, OS_voucher;
+@class GEOTileRequestBalancer;
 
 @interface GEOSimpleTileRequester : GEOTileRequester
 {
     GEOTileRequestBalancer *_balancer;
-    NSMutableArray *_running;
-    NSMutableArray *_errors;
-    NSObject<OS_os_activity> *_activity;
-    GEODataURLSession *_dataSession;
-    unsigned int _qos;
-    struct GEOOnce_s _didStart;
-    struct GEOOnce_s _didCallDelegate;
-    _Bool _cancelled;
-    _Bool _hasRemainingTileKeys;
-    GEOTileKeyMap *_signpostIDs;
-    GEOTileKeyMap *_tileLoaderCreateTimes;
-    unsigned int _highestRunningOperationPriority;
-    geo_isolater *_highestRunningOperationPriorityIsolation;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    GEOTileKeyMap *_priorities;
-    _Bool _includeReasonHeader;
-    _Bool _allowTLSSessionTicketUse;
-    NSObject<OS_voucher> *_voucher;
 }
 
 - (id);
@@ -44,18 +25,18 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
-- (void);
+- (void)RL. error = %{public}@;
+- (unsigned long long)hing %{public}@:(struct _GEOTileKey)arg1 %{public}@ %{public}@;
+- (void)CNIOSLegacyIdentifierNamespace;
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned int);
-- (CDStruct_d1a7ebee);
+- (CDStruct_026435ec);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -65,8 +46,8 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
-- (CDUnion_20bcf645);
+- (_Bool)ctiveC.dylib;
+- (CDUnion_20bcf645)formRequest queue;
 - (int);
 - (id);
 - (void);
@@ -81,17 +62,7 @@
 - (void)l)BA333333&@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_os_activity> *activity; // @synthesize activity=_activity;
-@property(readonly, nonatomic) GEOTileRequestBalancer *balancer; // @synthesize balancer=_balancer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned int highestRunningOperationPriority;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

@@ -15,19 +15,17 @@ __attribute__((visibility("hidden")))
     UIAttachmentBehavior *_spring2;
 }
 
-- (id);
-- (void);
-- (void)etPreferredInputViewHeight:(double)arg1;
+- (id):(id)arg1 8i16@20C28@32@40@48@56@64@72;
+- (void)home:(struct CGPoint)arg1 didUpdateHomeActivityStateSchedule: /* Error: Ran out of types for this method. */;
+- (void)setPreferredInputViewHeight:(double)arg1;
 - (struct CGPoint)itemViewGenerator;
-- (void)gressAnimationState;
+- (void)InProcessProgressAnimationState;
 - (double)?;
 - (double)=ÿ;
 - (void)3ÔÎ`;
 
 // Remaining properties
-@property(nonatomic) struct CGPoint anchorPoint;
 @property(nonatomic) double damping;
-@property(nonatomic) double frequency;
 
 @end
 

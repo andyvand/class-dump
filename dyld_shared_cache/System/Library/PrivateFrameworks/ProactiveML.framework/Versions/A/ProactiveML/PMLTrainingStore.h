@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _PASSqliteDatabase;
+@class NSString;
 
 @interface PMLTrainingStore
 {
     NSString *_dbPath;
-    _PASSqliteDatabase *_db;
-    id _lockStateNotificationToken;
-    _Bool _allowSkipSchema;
-    unsigned long long _maxTimesAccessed;
 }
 
 + (void);
@@ -31,13 +27,13 @@
 - (void);
 - (long long);
 - (void);
+- (void)copyPublicKeyForService:(id)arg1 withError:(double)arg2;
+- (void)ontainer %@...;
+- (void);
+- (void)R;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (long long);
 - (_Bool);
 - (void);
@@ -51,7 +47,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)set_raw_type;
 - (void);
 - (id);
 - (void);
@@ -60,13 +56,13 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)_reconnectionTimer;
 - (_Bool);
 - (void);
-- (long long);
+- (long long)setQualifier: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (unsigned long long);
-- (void);
+- (void)teardownDeferredDiagnosticsWithIdentifier:(id)arg1 parameters:(id)arg2 session:(unsigned long long)arg3;
 - (void);
 - (void);
 - (void);

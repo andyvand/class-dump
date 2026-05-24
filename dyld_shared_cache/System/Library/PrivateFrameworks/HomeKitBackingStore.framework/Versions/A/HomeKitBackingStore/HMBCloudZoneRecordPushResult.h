@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSSet;
+@class NSSet;
 
 @interface HMBCloudZoneRecordPushResult
 {
     NSSet *_updatedRecords;
-    NSSet *_deletedRecordIDs;
-    NSSet *_conflicts;
-    NSError *_fatalError;
 }
 
 - (id);
@@ -24,9 +21,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSSet *conflicts; // @synthesize conflicts=_conflicts;
-@property(readonly, copy) NSSet *deletedRecordIDs; // @synthesize deletedRecordIDs=_deletedRecordIDs;
-@property(readonly, copy) NSError *fatalError; // @synthesize fatalError=_fatalError;
 @property(readonly, copy) NSSet *updatedRecords; // @synthesize updatedRecords=_updatedRecords;
 
 @end

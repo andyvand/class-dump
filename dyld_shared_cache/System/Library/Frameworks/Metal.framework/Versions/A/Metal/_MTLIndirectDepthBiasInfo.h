@@ -7,11 +7,6 @@
 @interface _MTLIndirectDepthBiasInfo
 {
     float depthBias;
-    float slopeScale;
-    float clamp;
-    float _depthBias;
-    float _slopeScale;
-    float _clamp;
 }
 
 - (float);
@@ -22,9 +17,7 @@
 - (float);
 
 // Remaining properties
-@property(nonatomic) float clamp; // @synthesize clamp=_clamp;
 @property(nonatomic) float depthBias; // @synthesize depthBias=_depthBias;
-@property(nonatomic) float slopeScale; // @synthesize slopeScale=_slopeScale;
 
 @end
 

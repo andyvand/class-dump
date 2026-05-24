@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSString;
 
 @interface PKPeerPaymentTransactionMetadata
 {
     NSString *_dpanIdentifier;
-    NSString *_serviceIdentifier;
-    NSUUID *_requestDeviceScoreIdentifier;
-    NSUUID *_sendDeviceScoreIdentifier;
 }
 
 + (_Bool);
@@ -23,19 +20,16 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)b1"antennaRequests"b1"beaconLostCnt"b1"envelopeLowToHighAccumulatedMsec"b1"guardTimeMicroseconds"b1"highUcodeLatency"b1"psRequestTxCnt"b1"psnullExceeded"b1"requestsA2DP"b1"requestsACL"b1"requestsBLE"b1"requestsBLEScan"b1"requestsInquiry"b1"requestsInquiryScan"b1"requestsMSS"b1"requestsOther"b1"requestsPARK"b1"requestsPage"b1"requestsPageScan"b1"requestsSCO"b1"requestsSniff"b1"requestseSCO"b1"resumeTimeAccumulatedMsec"b1"scoReservedSlotDenyCount"b1"scoRetransmission1DenyCount"b1"scoRetransmission2DenyCount"b1"timeTillResumeAccumulatedMsec"b1"timestamp"b1"txCTS2Self"b1"wlanPreempted"b1};
+- (void)lBytes;
 - (void);
-- (void);
-- (id)ccountStatementMetadataForAllAccountsWithCompletion: /* Error: Ran out of types for this method. */;
+- (id)accountStatementMetadataForAllAccountsWithCompletion: /* Error: Ran out of types for this method. */;
 - (void)AccountSuffix:'%@';  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic, setter=setDPANIdentifier:) NSString *dpanIdentifier; // @synthesize dpanIdentifier=_dpanIdentifier;
-@property(copy, nonatomic) NSUUID *requestDeviceScoreIdentifier; // @synthesize requestDeviceScoreIdentifier=_requestDeviceScoreIdentifier;
-@property(copy, nonatomic) NSUUID *sendDeviceScoreIdentifier; // @synthesize sendDeviceScoreIdentifier=_sendDeviceScoreIdentifier;
-@property(copy, nonatomic) NSString *serviceIdentifier; // @synthesize serviceIdentifier=_serviceIdentifier;
 
 @end
 

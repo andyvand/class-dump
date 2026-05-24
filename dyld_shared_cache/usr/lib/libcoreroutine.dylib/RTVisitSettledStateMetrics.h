@@ -6,32 +6,24 @@
 
 #import <coreroutine/RTMetric.h>
 
-@class NSString;
-
 @interface RTVisitSettledStateMetrics : RTMetric
 {
 }
 
 + (id);
 + (void);
-+ (id);
-+ (unsigned long long);
-+ (unsigned long long);
-+ (unsigned long long);
-+ (unsigned long long);
++ (id)identities;
++ (unsigned long long)anatee identity %@:(double)arg1 %d;
++ (unsigned long long)support for verification:(double)arg1 %@;
++ (unsigned long long)PCSUserPublicKeys:(unsigned long long)arg1 %d;
++ (unsigned long long)eptable;
 + (id);
 + (CDStruct_b8464340);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

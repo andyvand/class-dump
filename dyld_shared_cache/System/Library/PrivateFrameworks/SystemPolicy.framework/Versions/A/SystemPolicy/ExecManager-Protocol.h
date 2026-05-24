@@ -5,5 +5,23 @@
 //
 
 @protocol ExecManager
+- (void)PKStrokeSelectionImage;
+- (void)PKMetalUnpurgeableStrokeRenderCache;
+- (void)PKIndexableContent;
+- (void)PKInkFeatheringDescriptor;
+- (void)NSSecureCoding;
+- (void)_TtC9PencilKitP33_6129BC2112FDDAA772F08955274FEF4C19ResourceBundleClass;
+- (void)_TtC9PencilKit25RecognitionStrokeProvider;
+- (void);
+- (void);
+- (void);
+- (void)`;
+- (void);
+- (void)d	;
+- (void);
+- (void)HItK;
+- (void);
+- (void)xc;
+- (void);
 @end
 

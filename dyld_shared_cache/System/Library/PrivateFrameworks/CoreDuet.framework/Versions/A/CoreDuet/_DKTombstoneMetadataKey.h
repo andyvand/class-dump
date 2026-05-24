@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)ace %llu;
 + (id);
 
 @end

@@ -20,7 +20,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) unsigned long long attempt; // @synthesize attempt=_attempt;
-@property(readonly, nonatomic) _Bool invalidated;
 
 @end
 

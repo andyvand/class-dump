@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, NSView;
+@class NSView;
 
 @interface SOProgressBarViewController
 {
     _Bool _iMessageable;
-    _Bool _businessConversation;
-    NSView *_sendingView;
-    NSView *_progressBarView;
-    NSLayoutConstraint *_progressBarViewWidthConstraint;
 }
 
 - (void);
@@ -30,7 +26,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)a;
 - (void);
 - (void);
 - (id);
@@ -39,13 +35,9 @@
 - (void);
 - (void);
 - (void);
-- (void)tyle:selected:maskedByCircle: /* Error: Ran out of types for this method. */;
+- (void)optionsWithDiameter:backgroundStyle:selected:maskedByCircle: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, getter=isBusinessConversation) _Bool businessConversation; // @synthesize businessConversation=_businessConversation;
-@property(nonatomic, getter=isIMessageable) _Bool iMessageable; // @synthesize iMessageable=_iMessageable;
-@property(retain) NSView *progressBarView; // @synthesize progressBarView=_progressBarView;
-@property(retain) NSLayoutConstraint *progressBarViewWidthConstraint; // @synthesize progressBarViewWidthConstraint=_progressBarViewWidthConstraint;
 @property(retain) NSView *sendingView; // @synthesize sendingView=_sendingView;
 
 @end

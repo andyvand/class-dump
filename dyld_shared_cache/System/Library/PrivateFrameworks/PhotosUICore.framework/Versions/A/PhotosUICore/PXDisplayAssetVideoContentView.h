@@ -6,30 +6,15 @@
 
 #import <PhotosUICore/PXDisplayAssetContentView.h>
 
-@class AVAssetImageGenerator, AVPlayer, AVPlayerItem, AVPlayerView, NSImage, UXImageView, UXView;
-@protocol PXDisplayAsset;
+@class UXView;
 
 @interface PXDisplayAssetVideoContentView : PXDisplayAssetContentView
 {
     _Bool _wantsCurrentImageForPausedFrame;
-    id _playerTimeObserver;
-    _Bool _didAutoPlay;
-    _Bool _isPaused;
-    UXView *_contentContainerView;
-    UXImageView *_placeholderImageView;
-    AVPlayerView *_playerView;
-    AVPlayer *_player;
-    id <PXDisplayAsset> _playerItemAsset;
-    double _playerItemLoadingProgress;
-    AVPlayerItem *_playerItem;
-    NSImage *_pausedImage;
-    AVAssetImageGenerator *_currentImageGenerator;
-    long long _currentImageGeneration;
-    CDStruct_1b6d18a9 _currentTime;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -59,7 +44,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -69,15 +54,15 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)8;
 - (void);
 - (void);
 - (double);
 - (id)9Ð1Â0@ù
 × ;
-- (void)acingBetweenTitleTopAndPreviousCardBottom;
-- (id)urceKey: /* Error: Ran out of types for this method. */;
-- (CDStruct_1b6d18a9)w;
+- (void)spacingBetweenTitleTopAndPreviousCardBottom;
+- (id)setCurrentDataSourceKey: /* Error: Ran out of types for this method. */;
+- (CDStruct_1b6d18a9)_hostWindow;
 - (void)X;
 - (void)setActionManager.m;
 - (void);
@@ -86,18 +71,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) UXView *contentContainerView; // @synthesize contentContainerView=_contentContainerView;
-@property(nonatomic) long long currentImageGeneration; // @synthesize currentImageGeneration=_currentImageGeneration;
-@property(retain, nonatomic) AVAssetImageGenerator *currentImageGenerator; // @synthesize currentImageGenerator=_currentImageGenerator;
-@property(nonatomic) CDStruct_1b6d18a9 currentTime; // @synthesize currentTime=_currentTime;
-@property(nonatomic) _Bool didAutoPlay; // @synthesize didAutoPlay=_didAutoPlay;
-@property(nonatomic) _Bool isPaused; // @synthesize isPaused=_isPaused;
-@property(retain, nonatomic) NSImage *pausedImage; // @synthesize pausedImage=_pausedImage;
-@property(readonly, nonatomic) UXImageView *placeholderImageView; // @synthesize placeholderImageView=_placeholderImageView;
-@property(readonly, nonatomic) AVPlayer *player; // @synthesize player=_player;
-@property(retain, nonatomic) AVPlayerItem *playerItem; // @synthesize playerItem=_playerItem;
-@property(retain, nonatomic) id <PXDisplayAsset> playerItemAsset; // @synthesize playerItemAsset=_playerItemAsset;
-@property(nonatomic) double playerItemLoadingProgress; // @synthesize playerItemLoadingProgress=_playerItemLoadingProgress;
-@property(readonly, nonatomic) AVPlayerView *playerView; // @synthesize playerView=_playerView;
 
 @end
 

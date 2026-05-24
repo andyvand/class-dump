@@ -6,25 +6,21 @@
 
 #import <SkyLight/SLSAsynchronousBridgedWindowManagementOperation.h>
 
-@class NSArray;
-
 @interface SLSBridgedSpaceSetOwnersOperation : SLSAsynchronousBridgedWindowManagementOperation
 {
     unsigned long long _spaceID;
-    NSArray *_owners;
 }
 
 + (_Bool);
-- (id);
+- (id)NSCKExportedObject;
 - (void);
-- (id);
-- (unsigned long long);
+- (id)a configuration name (%@) - the configuration will be ignored.;
+- (unsigned long long)T;
 - (id);
 - (void);
 - (void)8;
 
 // Remaining properties
-@property(readonly, copy) NSArray *owners; // @synthesize owners=_owners;
 @property(readonly) unsigned long long spaceID; // @synthesize spaceID=_spaceID;
 
 @end

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURL, _BlastDoorLPAudioProperties;
+@class NSData;
 
 @interface _BlastDoorLPAudio
 {
     NSData *_data;
-    NSString *_MIMEType;
-    NSURL *_streamingURL;
-    _BlastDoorLPAudioProperties *_properties;
 }
 
 + (_Bool);
@@ -26,17 +23,14 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)PKPassViewController;
 - (_Bool);
 - (id);
 - (void);
 - (void)Ì?Ìÿõ_Lh~ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *MIMEType; // @synthesize MIMEType=_MIMEType;
 @property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(copy, nonatomic) _BlastDoorLPAudioProperties *properties; // @synthesize properties=_properties;
-@property(retain, nonatomic) NSURL *streamingURL; // @synthesize streamingURL=_streamingURL;
 
 @end
 

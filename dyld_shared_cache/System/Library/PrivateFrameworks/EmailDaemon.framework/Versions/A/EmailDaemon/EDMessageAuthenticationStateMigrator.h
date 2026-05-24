@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDCategoryPersistence, EDMessageAuthenticator, EDMessagePersistence, NSString;
+@class EDCategoryPersistence;
 
 @interface EDMessageAuthenticationStateMigrator
 {
     EDCategoryPersistence *_categoryPersistence;
-    EDMessagePersistence *_messagePersistence;
-    EDMessageAuthenticator *_authenticator;
 }
 
 + (id);
-+ (id);
-+ (id);
++ (id));
++ (id){;
 + (id)³ð1Â0@ù
 × ;
 - (void);
@@ -23,21 +21,12 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)Start Event E1Contents;
 - (id);
 - (void)32@?0@"NSSet"8@"NSSet"16@"NSSet"24;
 
 // Remaining properties
-@property(readonly, nonatomic) EDMessageAuthenticator *authenticator; // @synthesize authenticator=_authenticator;
 @property(readonly, nonatomic) EDCategoryPersistence *categoryPersistence; // @synthesize categoryPersistence=_categoryPersistence;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) EDMessagePersistence *messagePersistence; // @synthesize messagePersistence=_messagePersistence;
-@property(readonly) Class superclass;
 
 @end
 

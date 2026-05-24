@@ -6,31 +6,17 @@
 
 #import <SAObjects/SABaseCommand.h>
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface SAMetrics : SABaseCommand
 {
 }
 
-+ (id);
-+ (id);
++ (id)59;
++ (id)3;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceId; // @dynamic aceId;
 @property(copy, nonatomic) NSString *assistantId;
-@property(copy, nonatomic) NSString *category;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSDictionary *eventInformation;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *originalCommandId;
-@property(copy, nonatomic) NSString *refId; // @dynamic refId;
-@property(copy, nonatomic) NSString *speechId;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDictionary *timings;
 
 @end
 

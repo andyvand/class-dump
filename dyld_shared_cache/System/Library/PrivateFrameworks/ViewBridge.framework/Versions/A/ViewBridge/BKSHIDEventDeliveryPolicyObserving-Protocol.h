@@ -5,5 +5,8 @@
 //
 
 @protocol BKSHIDEventDeliveryPolicyObserving
+
+@optional
+- (void)�(O;
 @end
 

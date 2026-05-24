@@ -6,40 +6,22 @@
 
 #import <SafariSharedUI/WBSSiteMetadataResponse.h>
 
-@class NSString, UIColor, UIImage;
+@class UIImage;
 
 @interface WBSFaviconResponse : WBSSiteMetadataResponse
 {
     UIImage *_favicon;
-    unsigned long long _faviconType;
 }
 
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)systemWhiteColor;
 - (void)Radius: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) UIColor *extractedBackgroundColor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIColor",?,R,N
-
 @property(readonly, nonatomic) UIImage *favicon; // @synthesize favicon=_favicon;
-@property(readonly, nonatomic) unsigned long long faviconType; // @synthesize faviconType=_faviconType;
-@property(readonly, nonatomic, getter=isGenerated) _Bool generated;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,GisGenerated
-
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIImage *icon;
-@property(readonly) Class superclass;
 
 @end
 

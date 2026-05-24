@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSData *address;
-@property(readonly, copy, nonatomic) NSData *nearbyToken;
 @end
 

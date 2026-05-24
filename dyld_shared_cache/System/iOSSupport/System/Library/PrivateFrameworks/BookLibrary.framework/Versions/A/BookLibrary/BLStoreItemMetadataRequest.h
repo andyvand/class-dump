@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICBuyProductRequest, ICStoreMediaResponseItem, ICStoreRequestContext, MPMediaItem;
+@class ICStoreRequestContext, MPMediaItem;
 
 @interface BLStoreItemMetadataRequest
 {
     ICStoreRequestContext *_requestContext;
     MPMediaItem *_mediaItem;
-    ICBuyProductRequest *_buyProductRequest;
-    ICStoreMediaResponseItem *_storeMetadata;
 }
 
 - (id);

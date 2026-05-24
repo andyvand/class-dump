@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TDTemplateRenderingMode, TDThemeBitSource;
+@class NSString;
 
 @interface TDAsset
 {
@@ -21,16 +21,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)@Failed to sign data. error = %{public}@;
 - (unsigned int);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *baseName;
-@property(retain, nonatomic) NSString *category; // @dynamic category;
 @property(retain, nonatomic) NSString *name; // @dynamic name;
-@property(retain, nonatomic) TDThemeBitSource *source; // @dynamic source;
-@property(retain, nonatomic) TDTemplateRenderingMode *templateRenderingMode; // @dynamic templateRenderingMode;
 
 @end
 

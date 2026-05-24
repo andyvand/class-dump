@@ -7,11 +7,10 @@
 @class NSDate;
 
 @protocol _DKHistoricalMonitor
+- (void)	;
 - (NSDate *)daemon;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType historicalHandler;
-@property(readonly, nonatomic) NSDate *lastUpdate;
-@property(copy, nonatomic) CDUnknownBlockType shutdownHandler;
 @end
 

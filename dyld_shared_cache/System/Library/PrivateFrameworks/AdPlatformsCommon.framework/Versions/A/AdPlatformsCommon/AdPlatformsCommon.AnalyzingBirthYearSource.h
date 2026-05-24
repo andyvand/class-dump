@@ -7,7 +7,6 @@
 @interface AdPlatformsCommon.AnalyzingBirthYearSource
 {
     id analyzedSource;
-    id analytics;
 }
 
 @end

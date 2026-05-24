@@ -11,16 +11,16 @@
 }
 
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)9;
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)	;
 - (void);
 - (id);
 - (_Bool);

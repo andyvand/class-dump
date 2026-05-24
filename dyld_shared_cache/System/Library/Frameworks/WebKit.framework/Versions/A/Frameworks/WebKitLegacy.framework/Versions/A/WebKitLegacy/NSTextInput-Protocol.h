@@ -6,8 +6,8 @@
 
 @protocol NSTextInput
 - (long long)Ô ;
-- (void):(SEL)arg1 with: /* Error: Ran out of types for this method. */;
-- (struct _NSRange)esEnabled;
+- (void)tryToPerform:(SEL)arg1 with: /* Error: Ran out of types for this method. */;
+- (struct _NSRange)mockCaptureDevicesEnabled;
 - (void)TF::WeakRef<WebKit::StorageNamespaceImpl>>::KeyValuePairTraits, WTF::HashTraits<String>>::validateKey(const ValueType &) [Key = WTF::String, Value = WTF::KeyValuePair<WTF::String, WTF::WeakRef<WebKit::StorageNamespaceImpl>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::String, WTF::WeakRef<WebKit::StorageNamespaceImpl>>>, HashFunctions = WTF::DefaultHash<String>, Traits = WTF::HashMap<WTF::String, WTF::WeakRef<WebKit::StorageNamespaceImpl>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (_Bool);
 @end

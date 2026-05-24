@@ -5,6 +5,7 @@
 //
 
 @protocol SMActiveSessionZoneProtocol
+- (void);
 
 @optional
 - (void)Ð¦;

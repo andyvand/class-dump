@@ -4,33 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PKUIAnimationDelegate
 {
     CDUnknownBlockType _didStartHandler;
-    CDUnknownBlockType _completionHandler;
 }
 
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)hasAssocSuccess;
 - (void)adata;
 - (void)ioning.maids;
-- (void)ILABLE_REASON_VERIFICATION_TERMINATED;
+- (void)PAYMENT_OPTIONS_CARD_STATE_UNAVAILABLE_REASON_VERIFICATION_TERMINATED;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) CDUnknownBlockType didStartHandler; // @synthesize didStartHandler=_didStartHandler;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

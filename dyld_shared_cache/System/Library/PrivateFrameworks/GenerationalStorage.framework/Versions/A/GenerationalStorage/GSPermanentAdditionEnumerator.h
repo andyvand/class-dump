@@ -4,26 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GSDaemonProxySync, GSPermanentStorage, NSArray, NSError, NSString;
+@class GSPermanentStorage, NSError;
 
 __attribute__((visibility("hidden")))
 @interface GSPermanentAdditionEnumerator
 {
     GSPermanentStorage *_storage;
-    NSString *_nameSpace;
-    unsigned long long _withOptions;
-    unsigned long long _withoutOptions;
-    NSArray *_array;
-    unsigned long long _pos;
-    GSDaemonProxySync *_proxy;
-    NSError *_error;
-    id _token;
 }
 
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)baseItemWithDictionary:context: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

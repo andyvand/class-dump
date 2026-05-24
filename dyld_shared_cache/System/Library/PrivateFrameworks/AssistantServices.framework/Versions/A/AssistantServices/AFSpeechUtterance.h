@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFSpeechInterpretation, NSArray;
+@class NSArray;
 
 @interface AFSpeechUtterance
 {
     NSArray *_interpretationIndices;
-    long long _confidenceScore;
-    long long _source;
-    AFSpeechInterpretation *_interpretation;
 }
 
 + (_Bool);
@@ -27,17 +24,14 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (void);
+- (void)4C32@"NSArray"36@?<v@?@"NSArray">44;
 - (long long);
 - (id);
 - (id);
-- (void)orName;
+- (void)_colorName;
 
 // Remaining properties
-@property(nonatomic) long long confidenceScore; // @synthesize confidenceScore=_confidenceScore;
-@property(readonly, copy, nonatomic) AFSpeechInterpretation *interpretation; // @synthesize interpretation=_interpretation;
 @property(copy, nonatomic) NSArray *interpretationIndices; // @synthesize interpretationIndices=_interpretationIndices;
-@property(nonatomic) long long source; // @synthesize source=_source;
 
 @end
 

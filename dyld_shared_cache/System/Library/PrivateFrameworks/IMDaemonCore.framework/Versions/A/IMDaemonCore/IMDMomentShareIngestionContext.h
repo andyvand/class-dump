@@ -4,47 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDChat, IMMessageItem, NSDictionary, NSMutableDictionary, NSURL, PHFetchResult, PHMomentShare;
+@class NSMutableDictionary, NSURL;
 
 @interface IMDMomentShareIngestionContext
 {
     NSMutableDictionary *_assetUUIDsToFileTransfers;
-    NSURL *_shareURL;
-    IMMessageItem *_message;
-    IMDChat *_chat;
-    PHMomentShare *_momentShare;
-    PHFetchResult *_assetsFetch;
-    long long _fetchType;
-    long long _state;
 }
 
 - (void);
-- (id);
+- (id)(;
 - (void);
 - (void);
 - (id);
 - (id);
+- (void)D9i;
 - (void);
-- (void);
-- (id);
-- (void);
+- (id)[%s] %s:%d ioNumberDataPackets is nil /* Error: Ran out of types for this method. */;
+- (void)ilable after link is removed!;
 - (id);
 - (id);
 - (void);
 - (long long);
-- (id);
+- (id)= np.vectorize(looseMTIE)
+vTightMTIE = np.vectorize(tightMTIE)
+vGPTP7HopMTIE = np.vectorize(gPTP7HopMTIE)
+vGPTP1HopMTIE = np.vectorize(gPTP1HopMTIE)
+;
 - (void);
 - (long long)p:%@, isInExitState:%@, exitDate:%@, isStartingDisabledDisableDevice:%@, lastSyncDate:%@, isSyncingPaused:%@, startingChangingEnabledSetting:%@, isPaused:%@, syncControllerSyncState:%@, syncType:%@, syncStatus:%@, syncJobState:%@, syncControllerRecordType:%@, syncType:%@, accountStatus:%@, syncErrors:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *assetUUIDsToFileTransfers;
-@property(retain, nonatomic) PHFetchResult *assetsFetch; // @synthesize assetsFetch=_assetsFetch;
-@property(readonly, nonatomic) IMDChat *chat; // @synthesize chat=_chat;
-@property(nonatomic) long long fetchType; // @synthesize fetchType=_fetchType;
-@property(readonly, nonatomic) IMMessageItem *message; // @synthesize message=_message;
-@property(retain, nonatomic) PHMomentShare *momentShare; // @synthesize momentShare=_momentShare;
 @property(readonly, nonatomic) NSURL *shareURL; // @synthesize shareURL=_shareURL;
-@property(nonatomic) long long state; // @synthesize state=_state;
 
 @end
 

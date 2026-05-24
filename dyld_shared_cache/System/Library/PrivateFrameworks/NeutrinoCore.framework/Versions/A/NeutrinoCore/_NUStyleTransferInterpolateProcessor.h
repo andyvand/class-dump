@@ -9,14 +9,14 @@
 }
 
 + (id);
-+ (id);
++ (id)/;
 + (_Bool);
 + (_Bool);
 + (int);
 + (_Bool);
 + (int);
 + (_Bool);
-+ (struct CGRect);
++ (struct CGRect)Descriptor_BundleIndex;
 
 @end
 

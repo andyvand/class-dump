@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSOperationQueue;
+@class NSError;
 
 @interface STMOperation
 {
     _Bool _isExecuting;
-    _Bool _isFinished;
-    double _startTime;
-    double _finishTime;
-    NSError *_error;
-    NSOperationQueue *_operationQueue;
 }
 
 + (id);
@@ -25,7 +20,7 @@
 - (double);
 - (double);
 - (void);
-- (id);
+- (id)addLengthDelimited: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -34,14 +29,10 @@
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)numberWithFloat: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) double duration;
 @property(retain) NSError *error; // @synthesize error=_error;
-@property(readonly) double finishTime;
-@property __weak NSOperationQueue *operationQueue; // @synthesize operationQueue=_operationQueue;
-@property(readonly) double startTime;
 
 @end
 

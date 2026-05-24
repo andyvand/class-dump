@@ -20,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)eOperation will be retried;
 - (id);
 - (void);
 

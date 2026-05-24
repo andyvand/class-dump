@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableData, NSMutableIndexSet;
+@class NSMutableData;
 
 @interface CKOperationInMemoryAssetInfo
 {
     NSMutableData *_assetContent;
-    NSMutableIndexSet *_byteRanges;
 }
 
+- (void)hW9;
 - (void);
-- (void);
-- (void);
+- (void)R.;
 - (id);
 - (id);
 - (id);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableData *assetContent; // @synthesize assetContent=_assetContent;
-@property(retain, nonatomic) NSMutableIndexSet *byteRanges; // @synthesize byteRanges=_byteRanges;
 
 @end
 

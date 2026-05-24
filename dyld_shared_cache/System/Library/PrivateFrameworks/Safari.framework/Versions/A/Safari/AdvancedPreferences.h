@@ -6,42 +6,12 @@
 
 #import <Safari/PreferencesModule.h>
 
-@class EnableDevelopMenuButtonHostViewController, NSButton, NSComboBox, NSGridRow, NSGridView, NSLayoutConstraint, NSMenuItem, NSPopUpButton, NSString, NSTextField, NSView, WKWebpagePreferences;
+@class EnableDevelopMenuButtonHostViewController, NSGridView;
 
 __attribute__((visibility("hidden")))
 @interface AdvancedPreferences : PreferencesModule
 {
     EnableDevelopMenuButtonHostViewController *_remoteDevelopMenuButtonViewController;
-    _Bool _updatingMinFontSizeViews;
-    WKWebpagePreferences *_defaultWebpagePreferences;
-    NSButton *_browsingAssistantHighlightsCheckbox;
-    NSTextField *_browsingAssistantHighlightsSubtext;
-    NSTextField *_workerIDTextField;
-    NSGridView *_contentGridView;
-    NSButton *_smartSearchFieldShowsFullURLCheckbox;
-    NSButton *_minFontSizeCheckbox;
-    NSComboBox *_minFontSizeComboBox;
-    NSButton *_tabToAllButton;
-    NSTextField *_tabToAllOptionHint;
-    NSGridRow *_pressTabToHighlightSubtextRow;
-    NSButton *_showColorInTabBarButton;
-    NSButton *_enhancedPrivacyEnabledCheckbox;
-    NSPopUpButton *_enhancedPrivacyPolicyButton;
-    NSMenuItem *_enhancedPrivacyInPrivateBrowsingItem;
-    NSMenuItem *_enhancedPrivacyInAllBrowsingItem;
-    NSGridRow *_applePayCapabilityRow;
-    NSGridRow *_applePayCapabilitySubtextRow;
-    NSButton *_applePayCapabilityDisclosureAllowedCheckbox;
-    NSTextField *_applePaySubtextTextField;
-    NSButton *_privateAttributionAllowedCheckbox;
-    NSButton *_blockStorageAlwaysButton;
-    NSButton *_saveReadingListItemsAutomaticallyCheckbox;
-    NSPopUpButton *_styleSheetPopUp;
-    NSPopUpButton *_defaultCharacterSetMenu;
-    NSButton *_openProxyPreferencesButton;
-    NSView *_includeDevelopMenuButtonContainerView;
-    NSButton *_includeDevelopMenuButton;
-    NSLayoutConstraint *_minFontSizeComboBoxWidthConstraint;
 }
 
 + (void);
@@ -54,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -71,7 +41,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -115,79 +85,48 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (id)C;
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id)#;
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)+;
+- (id);
 - (void);
 - (void);
+- (void);
 - (void);
+- (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak NSButton *applePayCapabilityDisclosureAllowedCheckbox; // @synthesize applePayCapabilityDisclosureAllowedCheckbox=_applePayCapabilityDisclosureAllowedCheckbox;
-@property(nonatomic) __weak NSGridRow *applePayCapabilityRow; // @synthesize applePayCapabilityRow=_applePayCapabilityRow;
-@property(nonatomic) __weak NSGridRow *applePayCapabilitySubtextRow; // @synthesize applePayCapabilitySubtextRow=_applePayCapabilitySubtextRow;
-@property(nonatomic) __weak NSTextField *applePaySubtextTextField; // @synthesize applePaySubtextTextField=_applePaySubtextTextField;
-@property(nonatomic) __weak NSButton *blockStorageAlwaysButton; // @synthesize blockStorageAlwaysButton=_blockStorageAlwaysButton;
 @property(nonatomic) __weak NSGridView *contentGridView; // @synthesize contentGridView=_contentGridView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak NSPopUpButton *defaultCharacterSetMenu; // @synthesize defaultCharacterSetMenu=_defaultCharacterSetMenu;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak NSButton *enhancedPrivacyEnabledCheckbox; // @synthesize enhancedPrivacyEnabledCheckbox=_enhancedPrivacyEnabledCheckbox;
-@property(nonatomic) __weak NSMenuItem *enhancedPrivacyInAllBrowsingItem; // @synthesize enhancedPrivacyInAllBrowsingItem=_enhancedPrivacyInAllBrowsingItem;
-@property(nonatomic) __weak NSMenuItem *enhancedPrivacyInPrivateBrowsingItem; // @synthesize enhancedPrivacyInPrivateBrowsingItem=_enhancedPrivacyInPrivateBrowsingItem;
-@property(nonatomic) __weak NSPopUpButton *enhancedPrivacyPolicyButton; // @synthesize enhancedPrivacyPolicyButton=_enhancedPrivacyPolicyButton;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSButton *includeDevelopMenuButton; // @synthesize includeDevelopMenuButton=_includeDevelopMenuButton;
-@property(nonatomic) __weak NSView *includeDevelopMenuButtonContainerView; // @synthesize includeDevelopMenuButtonContainerView=_includeDevelopMenuButtonContainerView;
-@property(nonatomic) __weak NSButton *minFontSizeCheckbox; // @synthesize minFontSizeCheckbox=_minFontSizeCheckbox;
-@property(nonatomic) __weak NSComboBox *minFontSizeComboBox; // @synthesize minFontSizeComboBox=_minFontSizeComboBox;
-@property(nonatomic) __weak NSLayoutConstraint *minFontSizeComboBoxWidthConstraint; // @synthesize minFontSizeComboBoxWidthConstraint=_minFontSizeComboBoxWidthConstraint;
-@property(nonatomic) __weak NSButton *openProxyPreferencesButton; // @synthesize openProxyPreferencesButton=_openProxyPreferencesButton;
-@property(nonatomic) __weak NSGridRow *pressTabToHighlightSubtextRow; // @synthesize pressTabToHighlightSubtextRow=_pressTabToHighlightSubtextRow;
-@property(nonatomic) __weak NSButton *privateAttributionAllowedCheckbox; // @synthesize privateAttributionAllowedCheckbox=_privateAttributionAllowedCheckbox;
-@property(nonatomic) __weak NSButton *saveReadingListItemsAutomaticallyCheckbox; // @synthesize saveReadingListItemsAutomaticallyCheckbox=_saveReadingListItemsAutomaticallyCheckbox;
-@property(nonatomic) __weak NSButton *showColorInTabBarButton; // @synthesize showColorInTabBarButton=_showColorInTabBarButton;
-@property(nonatomic) __weak NSButton *smartSearchFieldShowsFullURLCheckbox; // @synthesize smartSearchFieldShowsFullURLCheckbox=_smartSearchFieldShowsFullURLCheckbox;
-@property(nonatomic) __weak NSPopUpButton *styleSheetPopUp; // @synthesize styleSheetPopUp=_styleSheetPopUp;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak NSButton *tabToAllButton; // @synthesize tabToAllButton=_tabToAllButton;
-@property(nonatomic) __weak NSTextField *tabToAllOptionHint; // @synthesize tabToAllOptionHint=_tabToAllOptionHint;
 
 @end
 

@@ -4,46 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORPDisplayDetails, GEORPRapNotification, GEORPUserFormDetails, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPRapResponse
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEORPDisplayDetails *_displayDetails;
-    GEORPRapNotification *_notification;
-    NSString *_responseId;
-    GEORPUserFormDetails *_userFormDetails;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _rapStateIcon;
-    struct {
-        unsigned int has_rapStateIcon:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_displayDetails:1;
-        unsigned int read_notification:1;
-        unsigned int read_responseId:1;
-        unsigned int read_userFormDetails:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)iceCategoryIds:(id)arg1;
++ (_Bool)setLinkedServiceCategoryIds:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (void);
+- (id)nameDelimiter;
+- (id)initWithContext:(int)arg1 delegate:notificationCenter: /* Error: Ran out of types for this method. */;
+- (int)initWithContext:delegate: /* Error: Ran out of types for this method. */;
+- (_Bool)CNVCardKey;
+- (_Bool);
+- (_Bool);
 - (id);
 - (id);
+- (_Bool);
 - (int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (int);
 - (void);
 - (void);
 - (id);
@@ -51,8 +33,8 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)DAPIResult";
+- (void)SSVCAAnnouncementStatusFetchTimeoutMs;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -60,26 +42,16 @@
 - (id);
 - (void);
 - (id)ng"b1"has_supportsCongestionZones"b1"has_supportsDefaultToNewRouteFlag"b1"has_supportsDisablingProgressBarFromBannerButtons"b1"has_supportsDodgeballCameraInput"b1"has_supportsElectricVehicleRoutes"b1"has_supportsEv2"b1"has_supportsEvRoutingPreconditioning"b1"has_supportsExtendedSpringfieldRegions"b1"has_supportsGenericCombinationsInstructionsForAllModes"b1"has_supportsGuidanceEventImportanceInfo"b1"has_supportsGuidanceEventPrivacyFilters"b1"has_supportsGuidanceEventsInlineShields"b1"has_supportsGuidanceEvents"b1"has_supportsInternalInfo"b1"has_supportsJunctionView"b1"has_supportsLicensePlateRestrictions"b1"has_supportsLongShieldStrings"b1"has_supportsNaturalGuidance"b1"has_supportsRoadComplexities"b1"has_supportsRouteCameraInputUpdates"b1"has_supportsRouteNameRanges"b1"has_supportsSilentRouteUpdates"b1"has_supportsSpeedTrapAnnouncements"b1"has_supportsTrafficCameras"b1"has_supportsUserIncidentReports"b1"has_supportsWalkingSuggestionsAfterParking"b1"has_supportsWaypointRoutes"b1"has_willSendEvDirectionsFeedback"b1"read_unknownFields"b1"read_supportedElevationModels"b1"read_supportedTransitFeatures"b1"read_supportsMultipointRoutings"b1"read_abAssignInfo"b1"read_advisoryClientCapabilities"b1"read_appMajorVersion"b1"read_appMinorVersion"b1"read_artworkCapabilities"b1"read_deviceCountryCode"b1"read_deviceSku"b1"read_displayLanguages"b1"read_displayRegion"b1"read_formattedStringClientCapabilities"b1"read_hardwareModel"b1"read_hardwareClass"b1"read_localizationCapabilities"b1"read_osVersion"b1"read_requestTime"b1"read_userCurrentTimezone"b1"read_walkingSupportedFeatures"b1"wrote_anyField"b1};
-- (_Bool)Settings;
-- (id)nent: /* Error: Ran out of types for this method. */;
-- (void)kupOrigins;
+- (_Bool)hasDebugSettings;
+- (id)configureWithPlaceInfoComponent: /* Error: Ran out of types for this method. */;
+- (void)_transitNearbyScheduleLookupOrigins;
 - (id)ð89ø9;
-- (id)ementReportingChannel_UNKNOWN;
+- (id)EngagementReportingChannel_UNKNOWN;
 - (id)ce per object;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) GEORPDisplayDetails *displayDetails;
-@property(readonly, nonatomic) _Bool hasDisplayDetails;
-@property(readonly, nonatomic) _Bool hasNotification;
-@property(nonatomic) _Bool hasRapStateIcon;
 @property(readonly, nonatomic) _Bool hasResponseId;
-@property(readonly, nonatomic) _Bool hasUserFormDetails;
-@property(retain, nonatomic) GEORPRapNotification *notification;
-@property(nonatomic) int rapStateIcon;
-@property(retain, nonatomic) NSString *responseId;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) GEORPUserFormDetails *userFormDetails;
 
 @end
 

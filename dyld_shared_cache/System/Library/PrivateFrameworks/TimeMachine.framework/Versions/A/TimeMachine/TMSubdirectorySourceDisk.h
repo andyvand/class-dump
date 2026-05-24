@@ -16,18 +16,17 @@
 - (id);
 - (void);
 - (id);
+- (_Bool)C;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(copy) NSString *baseDevice; // @dynamic baseDevice;
 @property(copy) NSString *subdirectoryPath; // @synthesize subdirectoryPath=_subdirectoryPath;
 
 @end

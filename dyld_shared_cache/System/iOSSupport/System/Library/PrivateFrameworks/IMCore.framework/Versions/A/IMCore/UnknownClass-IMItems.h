@@ -4,34 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMMessage, IMMessageItem;
+@class IMMessageItem;
 
 @interface UnknownClass (IMItems)
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)	R;
 - (void);
-- (id);
+- (id)T;
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)o;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) IMMessageItem *__imLastMessageItem;
-@property(readonly, nonatomic) IMMessage *firstMessage;
 @property(readonly, nonatomic) IMMessageItem *firstMessageItem;
-@property(readonly, nonatomic) IMMessage *lastFinishedMessage;
-@property(readonly, nonatomic) IMMessage *lastIncomingFinishedMessage;
-@property(readonly, nonatomic) IMMessage *lastIncomingMessage;
-@property(readonly, nonatomic) IMMessage *lastMessage;
-@property(readonly, nonatomic) IMMessageItem *lastMessageItem;
 @end
 

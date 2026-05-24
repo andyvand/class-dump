@@ -7,8 +7,6 @@
 @interface REMTemplatePublicLinkConfiguration
 {
     _Bool _shouldIncludeHashtags;
-    _Bool _shouldIncludeAlarmTriggersBasedOnDateOrTimeInterval;
-    _Bool _shouldIncludeAlarmTriggersBasedOnLocationOrVehicle;
 }
 
 + (_Bool);
@@ -21,12 +19,9 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool shouldIncludeAlarmTriggersBasedOnDateOrTimeInterval; // @synthesize shouldIncludeAlarmTriggersBasedOnDateOrTimeInterval=_shouldIncludeAlarmTriggersBasedOnDateOrTimeInterval;
-@property(readonly, nonatomic) _Bool shouldIncludeAlarmTriggersBasedOnLocationOrVehicle; // @synthesize shouldIncludeAlarmTriggersBasedOnLocationOrVehicle=_shouldIncludeAlarmTriggersBasedOnLocationOrVehicle;
-@property(readonly, nonatomic) _Bool shouldIncludeContactsHandleData;
 @property(readonly, nonatomic) _Bool shouldIncludeHashtags; // @synthesize shouldIncludeHashtags=_shouldIncludeHashtags;
 
 @end

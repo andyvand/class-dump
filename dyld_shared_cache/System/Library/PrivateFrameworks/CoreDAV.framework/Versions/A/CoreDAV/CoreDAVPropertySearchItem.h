@@ -6,19 +6,15 @@
 
 #import <CoreDAV/CoreDAVItem.h>
 
-@class CoreDAVLeafItem, NSString;
+@class CoreDAVLeafItem;
 
 @interface CoreDAVPropertySearchItem : CoreDAVItem
 {
     CoreDAVLeafItem *_prop;
-    NSString *_match;
-    NSString *_matchTypeAttribute;
 }
 
 
 // Remaining properties
-@property(retain, nonatomic) NSString *match; // @synthesize match=_match;
-@property(retain, nonatomic) NSString *matchTypeAttribute; // @synthesize matchTypeAttribute=_matchTypeAttribute;
 @property(retain, nonatomic) CoreDAVLeafItem *prop; // @synthesize prop=_prop;
 @end
 

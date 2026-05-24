@@ -15,12 +15,12 @@
 + (id)onViewDiffableDataSource",R,N,V_dataSource;
 + (id)tions=%@;
 + (id)¶ÿÇ¹Ð4@f;
+- (id):(id)arg1 In %s, puUTF16Str can't be NULL.;
 - (id);
-- (id);
-- (double);
+- (double);
 - (struct _NSRange)0@ù
 × ;
-- (void)onDidRevealPasteResult:(id)arg1;
+- (void)textPasteSessionDidRevealPasteResult:(id)arg1;
 - (id)ltiselectCheckmarkColor;
 - (id)l}¼}0Ü(;
 - (id)d}8d24;

@@ -4,27 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDOSAnalyticsSubmissions
 {
     unsigned long long _logs;
-    unsigned long long _seconds;
-    unsigned long long _sizeBytes;
-    unsigned long long _timestamp;
-    NSString *_connection;
-    int _response;
-    NSString *_routing;
-    struct {
-        unsigned int logs:1;
-        unsigned int seconds:1;
-        unsigned int sizeBytes:1;
-        unsigned int timestamp:1;
-        unsigned int response:1;
-    } _has;
 }
 
-- (void);
+- (void)mAKbmn&mh2mmmW;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -35,27 +20,27 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)#;
 - (_Bool);
 - (unsigned long long);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)9J;
 - (void);
 - (void);
-- (void);
+- (void)"b`$;
+- (unsigned long long)K;
 - (unsigned long long);
-- (unsigned long long);
 - (_Bool);
-- (int);
+- (int);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)1;
 - (id);
 - (id);
 - (void)0!÷ÿ
@@ -63,20 +48,7 @@
 - (unsigned long long)æ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *connection; // @synthesize connection=_connection;
-@property(readonly, nonatomic) _Bool hasConnection;
-@property(nonatomic) _Bool hasLogs;
-@property(nonatomic) _Bool hasResponse;
-@property(readonly, nonatomic) _Bool hasRouting;
-@property(nonatomic) _Bool hasSeconds;
-@property(nonatomic) _Bool hasSizeBytes;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long logs; // @synthesize logs=_logs;
-@property(nonatomic) int response; // @synthesize response=_response;
-@property(retain, nonatomic) NSString *routing; // @synthesize routing=_routing;
-@property(nonatomic) unsigned long long seconds; // @synthesize seconds=_seconds;
-@property(nonatomic) unsigned long long sizeBytes; // @synthesize sizeBytes=_sizeBytes;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

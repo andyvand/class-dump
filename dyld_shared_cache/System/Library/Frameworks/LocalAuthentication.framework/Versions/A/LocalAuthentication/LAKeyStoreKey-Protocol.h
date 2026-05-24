@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @protocol LAKeyStoreKey
+- (_Bool);
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *acl;
 @property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) NSData *publicKeyHash;
 @end
 

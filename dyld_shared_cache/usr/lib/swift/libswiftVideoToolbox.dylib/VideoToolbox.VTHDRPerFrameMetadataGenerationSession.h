@@ -7,6 +7,7 @@
 @interface VideoToolbox.VTHDRPerFrameMetadataGenerationSession
 {
     id session;
+    id;
 }
 
 @end

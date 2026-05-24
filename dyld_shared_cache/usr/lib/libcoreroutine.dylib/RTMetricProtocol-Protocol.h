@@ -5,5 +5,6 @@
 //
 
 @protocol RTMetricProtocol
++ (CDStruct_b8464340)cyManager;
 @end
 

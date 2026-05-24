@@ -5,5 +5,9 @@
 //
 
 @protocol UITableViewDragDelegate
+
+@optional
+- (_Bool);
+- (void);
 @end
 

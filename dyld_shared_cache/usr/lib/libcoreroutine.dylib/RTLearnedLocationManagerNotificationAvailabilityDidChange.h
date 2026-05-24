@@ -11,8 +11,8 @@
     _Bool _available;
 }
 
-- (id);
-- (id);
+- (id)setICDPHSMPlesio:(_Bool)arg1;
+- (id)endInfoList_AddItemAtIndex:failed to realloc list. /* Error: Ran out of types for this method. */;
 - (_Bool)}@;
 
 // Remaining properties

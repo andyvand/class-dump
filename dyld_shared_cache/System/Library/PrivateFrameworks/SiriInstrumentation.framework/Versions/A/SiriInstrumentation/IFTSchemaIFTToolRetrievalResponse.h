@@ -6,12 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface IFTSchemaIFTToolRetrievalResponse : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
@@ -24,16 +21,14 @@
 - (id);
 - (id);
 - (id)resent;
-- (id)equestEventEnded;
-- (_Bool)n;
+- (id)GATSchemaGATGenerativeRequestEventEnded;
+- (_Bool)PSESchemaPSETriggerOrigin;
 - (_Bool)2¹ÿ¦å¬
 %;
 - (void)ÿí¬h);
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

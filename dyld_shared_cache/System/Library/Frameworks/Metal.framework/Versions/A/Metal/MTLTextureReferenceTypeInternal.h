@@ -10,19 +10,15 @@ __attribute__((visibility("hidden")))
 @interface MTLTextureReferenceTypeInternal : MTLTextureReferenceType
 {
     unsigned long long _dataType;
-    unsigned long long _textureDataType;
-    unsigned long long _textureType;
-    unsigned long long _access;
-    _Bool _isDepthTexture;
 }
 
 - (void);
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)ULL(A);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)3cvascbcevaq3cva2cbcevaq1cvhcneccvhc1cvhscbccvhq1cvh2cbccvhq1vehcneccvhc1vehscbcvehq1veh2cbcvehq1hvdcnec1hdc1hvdscbc1hdq1hvd2cbc1hdqehvdcnec1hdcehvdscbcehdqehvd2cbcehdq10vascbc1vaq1vadscbcvadq90pvscbc9pvq1vdh2vdh3vdh4vdh5vdh6vdh7vdh8vdh9vdhavdh2vdx3vdx6vdx7vdx8vdx4vdx5vdx1vdxavdx9vdxbvdxcvdxdvdxevdxfvdxa5dx95dxb5dxc5dxd5dxe5dxf5dxdhdx2hdx45dx55dx15dx1zfx1v2m;
 - (id)NSString.;
 - (unsigned long long);
 

@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHDChart, OADDrawingTheme;
+@class CHDChart;
 
 __attribute__((visibility("hidden")))
 @interface CHAutoStyling
 {
     CHDChart *mChart;
-    OADDrawingTheme *mDrawingTheme;
 }
 
 + (id);

@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString, WCContentIndex;
+@class NSObject, NSString;
 @protocol OS_dispatch_queue;
 
 @interface WCFileStorage
 {
     NSString *_pairingID;
-    NSObject<OS_dispatch_queue> *_fileQueue;
-    NSArray *_outstandingFileTransfers;
-    WCContentIndex *_fileIndex;
-    WCContentIndex *_fileResultsIndex;
-    WCContentIndex *_userInfoIndex;
-    WCContentIndex *_userInfoResultsIndex;
 }
 
 + (id);
@@ -39,7 +33,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)C;
 - (void);
 - (void);
 - (void);
@@ -51,12 +45,13 @@
 - (void);
 - (void);
 - (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)j
+;
 - (id);
 - (void);
 - (id);
@@ -68,13 +63,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) WCContentIndex *fileIndex; // @synthesize fileIndex=_fileIndex;
 @property(retain) NSObject<OS_dispatch_queue> *fileQueue; // @synthesize fileQueue=_fileQueue;
-@property(retain) WCContentIndex *fileResultsIndex; // @synthesize fileResultsIndex=_fileResultsIndex;
-@property(retain) NSArray *outstandingFileTransfers; // @synthesize outstandingFileTransfers=_outstandingFileTransfers;
-@property(copy, nonatomic) NSString *pairingID; // @synthesize pairingID=_pairingID;
-@property(retain) WCContentIndex *userInfoIndex; // @synthesize userInfoIndex=_userInfoIndex;
-@property(retain) WCContentIndex *userInfoResultsIndex; // @synthesize userInfoResultsIndex=_userInfoResultsIndex;
 
 @end
 

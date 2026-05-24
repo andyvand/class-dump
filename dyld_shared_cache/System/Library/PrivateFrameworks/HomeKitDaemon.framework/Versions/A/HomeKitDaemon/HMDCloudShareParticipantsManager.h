@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, NSObject, NSString;
-@protocol HMDCloudShareParticipantManaging, HMDCloudShareParticipantsManagerDataSource, HMDCloudShareParticipantsManagerDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol HMDCloudShareParticipantsManagerDataSource, OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDCloudShareParticipantsManager
 {
     id <HMDCloudShareParticipantsManagerDataSource> _dataSource;
-    id <HMDCloudShareParticipantsManagerDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    id <HMDCloudShareParticipantManaging> _cloudShareManager;
-    HMDHome *_home;
 }
 
 + (id)EL¹B;
+- (void)d24@0:8@16 /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
@@ -36,7 +32,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id)!CùÑð1Â0@ù
@@ -46,17 +42,6 @@ __attribute__((visibility("hidden")))
 - (void)observe(rooms:with:) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) id <HMDCloudShareParticipantManaging> cloudShareManager; // @synthesize cloudShareManager=_cloudShareManager;
-@property __weak id <HMDCloudShareParticipantsManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDCloudShareParticipantsManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly) Class superclass;
 @property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

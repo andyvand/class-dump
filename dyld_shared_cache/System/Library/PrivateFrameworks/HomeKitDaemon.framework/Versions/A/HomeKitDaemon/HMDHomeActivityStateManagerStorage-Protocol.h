@@ -7,6 +7,8 @@
 @protocol HMDHomeActivityStateManagerStorageDelegate;
 
 @protocol HMDHomeActivityStateManagerStorage
+- (void)_messageForRoutePlanning;
+- (void)_maps_setNeedsUpdate:(void (^)(HMDHomeActivityStateDetails *))arg1 withSelector: /* Error: Ran out of types for this method. */;
 - (void)@Setting the execution from %{public}@ to %{public}@;
 
 // Remaining properties

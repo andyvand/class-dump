@@ -6,15 +6,12 @@
 
 #import <ContactsUI/CNPropertyAction.h>
 
-@class CNActionMenuHelper, CNContactActionsController, CNUIUserActionListDataSource, NSString, UIContextMenuInteraction;
+@class CNContactActionsController;
 
 __attribute__((visibility("hidden")))
 @interface CNPropertySendMessageAction : CNPropertyAction
 {
     CNContactActionsController *_actionsController;
-    CNUIUserActionListDataSource *_actionsDataSource;
-    CNActionMenuHelper *_actionMenuHelper;
-    UIContextMenuInteraction *_contextMenuInteraction;
 }
 
 - (void);
@@ -26,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -34,21 +31,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void)rection;
+- (void)_shouldReverseLayoutDirection;
 - (id)cle;
 
 // Remaining properties
-@property(retain, nonatomic) CNActionMenuHelper *actionMenuHelper; // @synthesize actionMenuHelper=_actionMenuHelper;
 @property(retain, nonatomic) CNContactActionsController *actionsController; // @synthesize actionsController=_actionsController;
-@property(retain, nonatomic) CNUIUserActionListDataSource *actionsDataSource; // @synthesize actionsDataSource=_actionsDataSource;
-@property(retain, nonatomic) UIContextMenuInteraction *contextMenuInteraction; // @synthesize contextMenuInteraction=_contextMenuInteraction;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

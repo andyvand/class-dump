@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MNTraceHeadingDataRow
 {
     double _timestamp;
-    double _trueHeading;
-    double _magneticHeading;
-    double _headingAccuracy;
 }
 
 - (void);
@@ -25,18 +20,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double headingAccuracy; // @synthesize headingAccuracy=_headingAccuracy;
-@property(nonatomic) double magneticHeading; // @synthesize magneticHeading=_magneticHeading;
 @property(readonly, nonatomic) double position;
-@property(readonly) Class superclass;
-@property(nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) double trueHeading; // @synthesize trueHeading=_trueHeading;
 
 @end
 

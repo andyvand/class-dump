@@ -8,7 +8,7 @@
 {
 }
 
-- (int);
+- (int)",&,N,V_className;
 
 @end
 

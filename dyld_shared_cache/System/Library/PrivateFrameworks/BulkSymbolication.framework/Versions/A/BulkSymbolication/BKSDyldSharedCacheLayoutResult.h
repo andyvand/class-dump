@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKSDyldSharedCacheLayoutRequest, NSArray, NSUUID;
+@class BKSDyldSharedCacheLayoutRequest;
 
 @interface BKSDyldSharedCacheLayoutResult
 {
     unsigned long long _dyldSharedCacheBaseAddress;
-    NSArray *_sortedSegments;
-    BKSDyldSharedCacheLayoutRequest *_request;
 }
 
 - (id);
@@ -22,11 +20,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long dyldSharedCacheBaseAddress; // @synthesize dyldSharedCacheBaseAddress=_dyldSharedCacheBaseAddress;
-@property(readonly, nonatomic) NSUUID *dyldSharedCacheUUID;
 @property(readonly, nonatomic) BKSDyldSharedCacheLayoutRequest *request; // @synthesize request=_request;
-@property(readonly, nonatomic) NSArray *sortedSegments; // @synthesize sortedSegments=_sortedSegments;
-@property(readonly, nonatomic) _Bool succeeded;
 
 @end
 

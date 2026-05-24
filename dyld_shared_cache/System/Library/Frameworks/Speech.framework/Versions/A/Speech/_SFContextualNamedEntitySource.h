@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate;
+@class NSArray;
 
 @interface _SFContextualNamedEntitySource
 {
     NSArray *_sourceApplications;
-    NSDate *_fromDate;
-    NSDate *_toDate;
-    long long _limit;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (void);
-- (id);
+- (id)@;
 - (long long);
 - (void);
-- (id)eCountsArtifact:version:locale:rawPhraseCountsPath:customPronunciationsPath:saveTo: /* Error: Ran out of types for this method. */;
+- (id)createPhraseCountsArtifact:version:locale:rawPhraseCountsPath:customPronunciationsPath:saveTo: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDate *fromDate; // @synthesize fromDate=_fromDate;
-@property(readonly, nonatomic) long long limit; // @synthesize limit=_limit;
 @property(readonly, copy, nonatomic) NSArray *sourceApplications; // @synthesize sourceApplications=_sourceApplications;
-@property(readonly, copy, nonatomic) NSDate *toDate; // @synthesize toDate=_toDate;
 
 @end
 

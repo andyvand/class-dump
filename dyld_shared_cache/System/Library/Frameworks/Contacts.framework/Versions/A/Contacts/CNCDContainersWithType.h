@@ -6,13 +6,10 @@
 
 #import <Contacts/CNPredicate.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface CNCDContainersWithType : CNPredicate
 {
     _Bool _includeDisabledContainers;
-    long long _type;
 }
 
 + (_Bool);
@@ -21,21 +18,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)NSt3__110__function6__funcIZN15SipSubscription22updateResubscribeTimerEjbE3$_0FvRNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEE;
 - (id);
 - (long long);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool includeDisabledContainers; // @synthesize includeDisabledContainers=_includeDisabledContainers;
-@property(readonly) Class superclass;
 @property long long type; // @synthesize type=_type;
 
 @end

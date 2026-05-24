@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NTPBVideoGroupsConfig;
+@class NTPBVideoGroupsConfig;
 
 @interface FCVideoGroupsConfig
 {
     unsigned long long _moreVideosGroupSortOption;
-    unsigned long long _moreVideosGroupFilterOption;
-    NTPBVideoGroupsConfig *_pbVideoGroupsConfig;
-    NSDictionary *_configDictionary;
 }
 
 + (_Bool);
@@ -31,24 +28,14 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)redirected to host %@.;
+- (id)",&,N,V__imageData;
 - (void)bundle_subscriptions.force_expire_bundle_subscriptions;
 - (id)fier:feedType:] /* Error: Ran out of types for this method. */;
 - (id)tialized as 'not subscribed' state;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *configDictionary; // @synthesize configDictionary=_configDictionary;
-@property(readonly, nonatomic) _Bool moreFromPublisherBarEnabled;
-@property(readonly, nonatomic) long long moreFromPublisherBarTime;
-@property(nonatomic) unsigned long long moreVideosGroupFilterOption; // @synthesize moreVideosGroupFilterOption=_moreVideosGroupFilterOption;
-@property(readonly, nonatomic) long long moreVideosGroupMaxNumberOfVideos;
-@property(readonly, nonatomic) long long moreVideosGroupMinNumberOfVideos;
-@property(nonatomic) unsigned long long moreVideosGroupSortOption; // @synthesize moreVideosGroupSortOption=_moreVideosGroupSortOption;
-@property(readonly, nonatomic) long long nowPlayingBarTime;
 @property(copy, nonatomic) NTPBVideoGroupsConfig *pbVideoGroupsConfig; // @synthesize pbVideoGroupsConfig=_pbVideoGroupsConfig;
-@property(readonly, nonatomic) _Bool playsMutedByDefault;
-@property(readonly, nonatomic) long long upNextBarTime;
 
 @end
 

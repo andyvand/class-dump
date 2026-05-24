@@ -4,30 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDSearchSectionList, NSMutableArray, PBDataReader, PBUnknownFields;
+@class NSMutableArray, PBDataReader;
 
 @interface GEOPDRefinementSessionState
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_relatedEntitySections;
-    GEOPDSearchSectionList *_searchSectionList;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_relatedEntitySections:1;
-        unsigned int read_searchSectionList:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)SegmentInfo:(id)arg1;
++ (_Bool)setIncludeRouteSegmentInfo:(id)arg1;
 - (void);
-- (void);
-- (id);
+- (void)se (%@):(id)arg1 Directory detected;
+- (id)N";
 - (unsigned long long);
 - (id);
 - (id);
@@ -36,11 +24,11 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)_startObservingSystemControllerLifecycle;
 - (void);
 - (id);
 - (unsigned long long);
@@ -49,16 +37,13 @@
 - (id);
 - (void);
 - (id)=If}{?=If}}16d32;
-- (id)omLevel;
+- (id)_minZoomLevel;
 - (id)4;
 - (id)isCarplayRequest;
 - (void)NÅÄæÃF@;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasSearchSectionList;
 @property(retain, nonatomic) NSMutableArray *relatedEntitySections;
-@property(retain, nonatomic) GEOPDSearchSectionList *searchSectionList;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

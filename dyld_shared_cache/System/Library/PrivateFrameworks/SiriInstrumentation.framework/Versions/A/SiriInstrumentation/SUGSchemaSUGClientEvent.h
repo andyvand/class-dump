@@ -6,37 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class NSData, SISchemaInstrumentationMessage, SUGSchemaSUGClientEventMetadata, SUGSchemaSUGEngagementMetricReported, SUGSchemaSUGEngagementReported, SUGSchemaSUGFilteringStepContext, SUGSchemaSUGGenerationStepContext, SUGSchemaSUGRankingStepContext, SUGSchemaSUGRequestContext, SUGSchemaSUGResolutionStepContext, SUGSchemaSUGSuggestionsGenerated, SUGSchemaSUGSuggestionsGeneratedTier1, SUGSchemaSUGSuggestionsUIActivity, SUGSchemaSUGSuggestionsUIActivityTier1, SUGSchemaSUGTypingWindowEnded;
+@class SISchemaInstrumentationMessage, SUGSchemaSUGClientEventMetadata;
 
 @interface SUGSchemaSUGClientEvent : SISchemaTopLevelUnionType
 {
     SUGSchemaSUGClientEventMetadata *_eventMetadata;
-    SUGSchemaSUGSuggestionsGenerated *_suggestionsGenerated;
-    SUGSchemaSUGEngagementReported *_engagementReported;
-    SUGSchemaSUGRequestContext *_requestContext;
-    SUGSchemaSUGGenerationStepContext *_generationStepContext;
-    SUGSchemaSUGResolutionStepContext *_resolutionStepContext;
-    SUGSchemaSUGFilteringStepContext *_filteringStepContext;
-    SUGSchemaSUGRankingStepContext *_rankingStepContext;
-    SUGSchemaSUGEngagementMetricReported *_engagementMetricReported;
-    SUGSchemaSUGSuggestionsUIActivity *_uiActivity;
-    SUGSchemaSUGTypingWindowEnded *_typingWindowEnded;
-    SUGSchemaSUGSuggestionsGeneratedTier1 *_sugGeneratedTier1;
-    SUGSchemaSUGSuggestionsUIActivityTier1 *_uiActivityTier1;
-    _Bool _hasEventMetadata;
-    _Bool _hasSuggestionsGenerated;
-    _Bool _hasEngagementReported;
-    _Bool _hasRequestContext;
-    _Bool _hasGenerationStepContext;
-    _Bool _hasResolutionStepContext;
-    _Bool _hasFilteringStepContext;
-    _Bool _hasRankingStepContext;
-    _Bool _hasEngagementMetricReported;
-    _Bool _hasUiActivity;
-    _Bool _hasTypingWindowEnded;
-    _Bool _hasSugGeneratedTier1;
-    _Bool _hasUiActivityTier1;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
@@ -52,6 +26,7 @@
 - (void);
 - (void);
 - (void);
+- (void)c\;
 - (void);
 - (void);
 - (void);
@@ -67,8 +42,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -88,6 +62,7 @@
 - (id);
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -95,67 +70,38 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (int);
 - (void);
-- (id);
+- (id)	?׍;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (int);
+- (int);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)?20;
+- (_Bool)contactHasName:(id)arg1;
+- (_Bool)lay_name to the display_name table.;
 - (id);
 - (id);
 - (id)ùÑß1Â0@ù
 × ;
-- (unsigned long long)p;
-- (id)erSubComponentHandleContext;
-- (id);
+- (unsigned long long)hasIsTrump;
+- (id)deleteNlRouterSubComponentHandleContext;
+- (id)_hasStLLMQueryUnderstandingContext;
 - (void)ÿÿ¤áöÿdë2ÿ;
-- (void)GuestsAccepted;
+- (void)numGuestsAccepted;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) SUGSchemaSUGEngagementMetricReported *engagementMetricReported; // @synthesize engagementMetricReported=_engagementMetricReported;
-@property(retain, nonatomic) SUGSchemaSUGEngagementReported *engagementReported; // @synthesize engagementReported=_engagementReported;
-@property(retain, nonatomic) SUGSchemaSUGClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(retain, nonatomic) SUGSchemaSUGFilteringStepContext *filteringStepContext; // @synthesize filteringStepContext=_filteringStepContext;
-@property(retain, nonatomic) SUGSchemaSUGGenerationStepContext *generationStepContext; // @synthesize generationStepContext=_generationStepContext;
-@property(nonatomic) _Bool hasEngagementMetricReported; // @synthesize hasEngagementMetricReported=_hasEngagementMetricReported;
-@property(nonatomic) _Bool hasEngagementReported; // @synthesize hasEngagementReported=_hasEngagementReported;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasFilteringStepContext; // @synthesize hasFilteringStepContext=_hasFilteringStepContext;
-@property(nonatomic) _Bool hasGenerationStepContext; // @synthesize hasGenerationStepContext=_hasGenerationStepContext;
-@property(nonatomic) _Bool hasRankingStepContext; // @synthesize hasRankingStepContext=_hasRankingStepContext;
-@property(nonatomic) _Bool hasRequestContext; // @synthesize hasRequestContext=_hasRequestContext;
-@property(nonatomic) _Bool hasResolutionStepContext; // @synthesize hasResolutionStepContext=_hasResolutionStepContext;
-@property(nonatomic) _Bool hasSugGeneratedTier1; // @synthesize hasSugGeneratedTier1=_hasSugGeneratedTier1;
-@property(nonatomic) _Bool hasSuggestionsGenerated; // @synthesize hasSuggestionsGenerated=_hasSuggestionsGenerated;
-@property(nonatomic) _Bool hasTypingWindowEnded; // @synthesize hasTypingWindowEnded=_hasTypingWindowEnded;
-@property(nonatomic) _Bool hasUiActivity; // @synthesize hasUiActivity=_hasUiActivity;
-@property(nonatomic) _Bool hasUiActivityTier1; // @synthesize hasUiActivityTier1=_hasUiActivityTier1;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SUGSchemaSUGRankingStepContext *rankingStepContext; // @synthesize rankingStepContext=_rankingStepContext;
-@property(retain, nonatomic) SUGSchemaSUGRequestContext *requestContext; // @synthesize requestContext=_requestContext;
-@property(retain, nonatomic) SUGSchemaSUGResolutionStepContext *resolutionStepContext; // @synthesize resolutionStepContext=_resolutionStepContext;
-@property(retain, nonatomic) SUGSchemaSUGSuggestionsGeneratedTier1 *sugGeneratedTier1; // @synthesize sugGeneratedTier1=_sugGeneratedTier1;
-@property(retain, nonatomic) SUGSchemaSUGSuggestionsGenerated *suggestionsGenerated; // @synthesize suggestionsGenerated=_suggestionsGenerated;
-@property(retain, nonatomic) SUGSchemaSUGTypingWindowEnded *typingWindowEnded; // @synthesize typingWindowEnded=_typingWindowEnded;
-@property(retain, nonatomic) SUGSchemaSUGSuggestionsUIActivity *uiActivity; // @synthesize uiActivity=_uiActivity;
-@property(retain, nonatomic) SUGSchemaSUGSuggestionsUIActivityTier1 *uiActivityTier1; // @synthesize uiActivityTier1=_uiActivityTier1;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

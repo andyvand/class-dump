@@ -8,10 +8,9 @@
 
 @protocol PKPaletteColorPicker
 - (void);
+- (void)setUsesAzimuthOrAltitude:(UIColor *)arg1;
 
 // Remaining properties
-@property(nonatomic) long long colorUserInterfaceStyle;
 @property(copy, nonatomic) UIColor *selectedColor;
-@property(nonatomic) _Bool supportsAlpha;
 @end
 

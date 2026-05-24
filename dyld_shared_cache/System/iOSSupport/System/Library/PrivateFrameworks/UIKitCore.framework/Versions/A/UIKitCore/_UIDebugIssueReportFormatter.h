@@ -12,29 +12,23 @@ __attribute__((visibility("hidden")))
 @interface _UIDebugIssueReportFormatter : _UIDebugReportFormatter
 {
     NSString *_header;
-    NSString *_footer;
-    NSString *_noIssuesDescription;
-    NSString *_defaultIssuePrefix;
 }
 
 - (id);
+- (void)g"24@"NSDictionary"32@"NSDictionary"40;
+- (void)updateChatUsingSyncData:(id)arg1;
+- (id)initWithChatStatus:chat:style:displayName:groupID:lastAddressedHandle:lastAddressedSIMID:handleInfo:account:category:spamExtensionName:isBlackholed:spamDetectionSource: /* Error: Ran out of types for this method. */;
+- (id)dispatch_group>",R,N,V_group;
+- (id)CorePhoneNumbers;
 - (void);
-- (void);
+- (id)PNowPlayingPlaybackQueueDataSource>",W,N;
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void)Id:(id)arg1;
+- (void)_setCGSDisplayId:(id)arg1;
 - (void)Ê^;
 - (id)ÿq;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *defaultIssuePrefix; // @synthesize defaultIssuePrefix=_defaultIssuePrefix;
-@property(copy, nonatomic) NSString *footer; // @synthesize footer=_footer;
 @property(copy, nonatomic) NSString *header; // @synthesize header=_header;
-@property(copy, nonatomic) NSString *noIssuesDescription; // @synthesize noIssuesDescription=_noIssuesDescription;
 
 @end
 

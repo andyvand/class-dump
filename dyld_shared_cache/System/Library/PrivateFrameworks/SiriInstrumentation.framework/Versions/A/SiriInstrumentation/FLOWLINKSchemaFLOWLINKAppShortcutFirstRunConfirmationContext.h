@@ -6,31 +6,27 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class FLOWLINKSchemaFLOWLINKAppShortcutFirstRunConfirmationEnded, FLOWLINKSchemaFLOWLINKAppShortcutFirstRunConfirmationStarted, NSData;
+@class FLOWLINKSchemaFLOWLINKAppShortcutFirstRunConfirmationStarted;
 
 @interface FLOWLINKSchemaFLOWLINKAppShortcutFirstRunConfirmationContext : SISchemaInstrumentationMessage
 {
     FLOWLINKSchemaFLOWLINKAppShortcutFirstRunConfirmationStarted *_startedOrChanged;
-    FLOWLINKSchemaFLOWLINKAppShortcutFirstRunConfirmationEnded *_ended;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)errorno}d, err_string:%{public}s /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)parseRecordUsingScanner:(id)arg1 header:type:identifier:payload: /* Error: Ran out of types for this method. */;
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -41,12 +37,7 @@
 - (void)lÉ¼ÿø;
 
 // Remaining properties
-@property(retain, nonatomic) FLOWLINKSchemaFLOWLINKAppShortcutFirstRunConfirmationEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) FLOWLINKSchemaFLOWLINKAppShortcutFirstRunConfirmationStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

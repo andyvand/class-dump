@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class INFERENCESchemaINFERENCEResolutionRequestEnded, INFERENCESchemaINFERENCEResolutionRequestFailed, INFERENCESchemaINFERENCEResolutionRequestStarted, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface INFERENCESchemaINFERENCEResolutionRequestContext : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_contextId;
-    INFERENCESchemaINFERENCEResolutionRequestStarted *_startedOrChanged;
-    INFERENCESchemaINFERENCEResolutionRequestEnded *_ended;
-    INFERENCESchemaINFERENCEResolutionRequestFailed *_failed;
-    _Bool _hasContextId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -32,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -50,22 +42,13 @@
 - (id)1Â0@ù
 × ;
 - (id)forms;
-- (id)nferencePluginCompleted;
+- (id)PLUSSchemaPLUSInferencePluginCompleted;
 - (void)ÁR";
 - (void)¿;
 - (id)º7);
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *contextId; // @synthesize contextId=_contextId;
-@property(retain, nonatomic) INFERENCESchemaINFERENCEResolutionRequestEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) INFERENCESchemaINFERENCEResolutionRequestFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasContextId; // @synthesize hasContextId=_hasContextId;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) INFERENCESchemaINFERENCEResolutionRequestStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

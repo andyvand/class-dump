@@ -7,7 +7,6 @@
 @interface ChronoServices.AuditedFileManager
 {
     id _lock;
-    id _lock_urls;
 }
 
 - (_Bool);

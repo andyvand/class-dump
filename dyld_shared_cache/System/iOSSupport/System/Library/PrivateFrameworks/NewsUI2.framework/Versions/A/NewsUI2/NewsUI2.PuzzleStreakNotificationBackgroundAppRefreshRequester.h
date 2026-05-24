@@ -7,7 +7,6 @@
 @interface NewsUI2.PuzzleStreakNotificationBackgroundAppRefreshRequester
 {
     id activityScheduler;
-    id configurationManager;
 }
 
 @end

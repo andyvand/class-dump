@@ -4,55 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMFEmojiLocaleData, NSArray, NSString;
+@class NSString;
 
 @interface EMFEmojiToken
 {
     struct __EmojiTokenWrapper *_emojiTokenRef;
-    _Bool _didFailCEM;
-    EMFEmojiLocaleData *_localeData;
-    NSString *_localeIdentifier;
-    NSString *_string;
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)removed, which may log you out of websites.;
++ (id)kies?;
++ (id)s. Are you sure you want to block all cookies?;
 + (id);
 + (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (struct __EmojiTokenWrapper *);
-- (id);
-- (id);
-- (_Bool);
-- (unsigned short);
-- (void);
+- (_Bool)AppleKeyboardUIMode;
+- (id)"16@?0@"BrowserTabPersistentState"8;
+- (id)@"NSArray"8@"NSError"16;
+- (id)ite Data);
+- (id)cOS. (You are seeing this because 'DebugTabLoss' flag is enabled.);
+- (id)http:(unsigned long long)arg1 //www.google.com, http://www.yahoo.com, http://www.macromedia.com, http://www.alistapart.com, http://www.msn.com /* Error: Ran out of types for this method. */;
+- (id)alwaysRestoreSessionSetting;
+- (id)ntentRuleList"8;
+- (id)identifier;
+- (_Bool)u;
+- (_Bool)With Metadata;
+- (id)Group;
+- (id)gearshape;
+- (id)NSScrollAnimationEnabled;
+- (struct __EmojiTokenWrapper *)e Oldest First order for sort option.;
+- (id)AlertDialogResultKey;
+- (id)want to allow a website to show a wallet order;
+- (_Bool)pass. Do you want to allow this?;
+- (unsigned short)tion;
+- (void)RemoveAllWebsiteDataAlert;
 - (int);
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)~#;
 - (_Bool);
 - (void);
 - (id);
+- (id)|~;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -63,30 +59,10 @@
 - (void);
 - (id)ÔA/°!¨Dù1Â0@ù
 × ;
-- (void)VariantForMultiPersonGrouping;
+- (void)longFormEncodedStringVariantForMultiPersonGrouping;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *_baseString;
-@property(readonly, nonatomic) unsigned short _emojiIndex;
-@property(readonly, nonatomic) _Bool _shouldHighlightEmoji;
-@property(readonly, copy, nonatomic) NSArray *_skinToneVariantStrings;
-@property(readonly, nonatomic) const struct __EmojiTokenWrapper *emojiTokenRef; // @synthesize emojiTokenRef=_emojiTokenRef;
-@property(readonly, nonatomic) int gender;
-@property(readonly, nonatomic) _Bool isCommon;
-@property(readonly, nonatomic) _Bool isNewEmoji;
-@property(readonly, nonatomic) _Bool isPerson;
-@property(readonly, nonatomic) _Bool isValid;
-@property(readonly, nonatomic) EMFEmojiLocaleData *localeData;
 @property(retain, nonatomic) NSString *localeIdentifier; // @synthesize localeIdentifier=_localeIdentifier;
-@property(readonly, nonatomic) NSString *longFormEncodedStringVariantForMultiPersonGrouping;
-@property(readonly, nonatomic) int presentationStyle;
-@property(readonly, nonatomic) NSString *shortFormEncodedStringVariantForMultiPersonGrouping;
-@property(readonly, nonatomic) int skinTone;
-@property(readonly, nonatomic) NSArray *skinToneChooserVariants;
-@property(readonly, nonatomic) NSArray *skinToneSpecifiers;
-@property(readonly, copy, nonatomic) NSArray *skinToneVariants;
-@property(copy, nonatomic) NSString *string; // @synthesize string=_string;
-@property(readonly, nonatomic) _Bool supportsSkinToneVariants;
 
 @end
 

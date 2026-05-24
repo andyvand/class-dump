@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface IMPersistentTaskExecutorStatusReport
 {
     NSString *_groupName;
-    unsigned long long _lane;
-    long long _runResult;
-    long long _status;
-    NSArray *_taskReports;
 }
 
 + (_Bool);
@@ -35,10 +31,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *groupName; // @synthesize groupName=_groupName;
-@property(readonly, nonatomic) unsigned long long lane; // @synthesize lane=_lane;
-@property(nonatomic) long long runResult; // @synthesize runResult=_runResult;
-@property(nonatomic) long long status; // @synthesize status=_status;
-@property(retain, nonatomic) NSArray *taskReports; // @synthesize taskReports=_taskReports;
 
 @end
 

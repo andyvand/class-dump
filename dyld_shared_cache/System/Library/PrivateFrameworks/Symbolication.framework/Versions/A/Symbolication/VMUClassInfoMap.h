@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface VMUClassInfoMap
 {
     struct unordered_map<unsigned long long, unsigned int, std::hash<unsigned long long>, std::equal_to<unsigned long long>, std::allocator<std::pair<const unsigned long long, unsigned int>>> _isaAddressToIndexMap;
-    struct unordered_map<VMUClassInfo *, unsigned int, std::hash<VMUClassInfo *>, std::equal_to<VMUClassInfo *>, std::allocator<std::pair<VMUClassInfo *const, unsigned int>>> _classInfoToIndexMap;
-    NSMutableArray *_linearClassInfos;
-    struct unordered_map<SwiftFieldKey, unsigned int, std::hash<SwiftFieldKey>, std::equal_to<SwiftFieldKey>, std::allocator<std::pair<const SwiftFieldKey, unsigned int>>> _swiftFieldToIndexMap;
-    struct unordered_map<VMUFieldInfo *, unsigned int, std::hash<VMUFieldInfo *>, std::equal_to<VMUFieldInfo *>, std::allocator<std::pair<VMUFieldInfo *const, unsigned int>>> _fieldInfoToIndexMap;
-    NSMutableArray *_linearFieldInfos;
 }
 
-+ (void);
++ (void)_performAuthenticatedRepairFlowWithContext:(id *)arg1 stateController:(unsigned int)arg2 completion: /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (unsigned int);
 - (id);
@@ -25,8 +18,8 @@
 - (unsigned int);
 - (id);
 - (_Bool);
-- (id);
-- (void);
+- (id);
+- (void)pushChangesFromRecord:(id)arg1 withIdentifier:(const char *)arg2 withDefaultedPropertyValues:(unsigned int)arg3;
 - (id);
 - (id);
 - (void);
@@ -42,8 +35,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int count;
-@property(readonly, nonatomic) unsigned int fieldInfoCount;
-@property(readonly, nonatomic) _Bool hasClassInfosDerivedFromStackBacktraces;
 
 @end
 

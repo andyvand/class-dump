@@ -4,39 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface UnknownClass (CACoderInitialization)
 + (_Bool);
 + (CDUnknownFunctionPointerType);
 + (CDUnknownFunctionPointerType);
 + (id);
-+ (_Bool);
++ (_Bool)=;
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (struct Object *);
 - (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
-- (unsigned long long);
-- (id);
-- (struct Object *);
+- (_Bool)initWithSubscriptionIDs:(id)arg1;
+- (unsigned long long)oneID",C,D;
+- (id)ths count (%ld);
+- (struct Object *)?32;
 - (void);
 - (_Bool);
-- (double);
+- (double);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

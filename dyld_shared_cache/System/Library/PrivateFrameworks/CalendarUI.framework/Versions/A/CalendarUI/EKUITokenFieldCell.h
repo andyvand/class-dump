@@ -19,7 +19,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain) NSTextView *fieldEditor; // @synthesize fieldEditor=_fieldEditor;

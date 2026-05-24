@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class RBProcess;
-@protocol RBAssertionManaging, RBAssertionOriginatorPidPersisting, RBDomainAttributeManaging, RBEntitlementManaging, RBExtensionDataProviding, RBHistoricalStatisticsMaintaining, RBJetsamPropertyManaging, RBProcessManaging, RBProcessMonitoring, RBRequestManaging, RBStateCaptureManaging;
+@protocol RBAssertionManaging, RBStateCaptureManaging;
 
 @protocol RBDaemonContextProviding
+- (id <RBStateCaptureManaging>);
 
 // Remaining properties
 @property(readonly, nonatomic) id <RBAssertionManaging> assertionManager;
-@property(readonly, nonatomic) id <RBAssertionOriginatorPidPersisting> assertionOriginatorPidStore;
-@property(readonly, nonatomic) id <RBDomainAttributeManaging> domainAttributeManager;
-@property(readonly, nonatomic) id <RBEntitlementManaging> entitlementManager;
-@property(readonly, nonatomic) id <RBExtensionDataProviding> extensionDataProvider;
-@property(readonly, nonatomic) id <RBHistoricalStatisticsMaintaining> historicalStatistics;
-@property(readonly, nonatomic) id <RBJetsamPropertyManaging> jetsamPropertyManager;
-@property(readonly, nonatomic) RBProcess *process;
-@property(readonly, nonatomic) id <RBProcessManaging> processManager;
-@property(readonly, nonatomic) id <RBProcessMonitoring> processMonitor;
-@property(readonly, nonatomic) id <RBRequestManaging> requestManager;
-@property(readonly, nonatomic) id <RBStateCaptureManaging> stateCaptureManager;
 @end
 

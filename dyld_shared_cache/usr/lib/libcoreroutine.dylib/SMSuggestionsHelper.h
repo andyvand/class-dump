@@ -6,36 +6,23 @@
 
 #import <coreroutine/RTService.h>
 
-@class NSString, RTAuthorizationManager, RTContactsManager, RTDeviceLocationPredictor, RTDistanceCalculator, RTHealthKitManager, RTLearnedLocationManager, RTLearnedLocationStore, RTLocation, RTLocationManager, RTMapServiceManager, RTNavigationManager, SMEligibilityChecker, SMSessionStore;
+@class RTAuthorizationManager;
 
 @interface SMSuggestionsHelper : RTService
 {
     _Bool _routineEnabled;
-    RTAuthorizationManager *_authorizationManager;
-    RTContactsManager *_contactsManager;
-    RTDeviceLocationPredictor *_deviceLocationPredictor;
-    RTDistanceCalculator *_distanceCalculator;
-    RTHealthKitManager *_healthKitManager;
-    RTLearnedLocationStore *_learnedLocationStore;
-    RTLearnedLocationManager *_learnedLocationManager;
-    RTLocationManager *_locationManager;
-    RTMapServiceManager *_mapServiceManager;
-    RTNavigationManager *_navigationManager;
-    RTLocation *_latestLocationOfTheDevice;
-    SMSessionStore *_sessionStore;
-    SMEligibilityChecker *_eligibilityChecker;
 }
 
 + (id);
-+ (_Bool);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (_Bool)lockAssertion;
++ (_Bool)getConfigData:(id)arg1;
++ (id)ration;
++ (id)does not match the record (%@) password generation;
++ (id)ing recovery because input (%@) password generation does not match the record (%@) password generation;
++ (id)@;
++ (id)able, silent recovery failed, needs repair;
++ (id)n CDP is disabled;
++ (id)iCDP, now checking Octagon CDP status;
 - (void);
 - (void);
 - (void);
@@ -45,32 +32,32 @@
 - (id);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)A	;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)";
 - (void);
 - (id);
 - (void);
 - (void);
+- (void);
+- (void)8@?<v@?@"NSArray"@"NSError">16;
+- (void)Error">24;
+- (void)NSDictionary"16@?<v@?@"NSString"@"NSData"@"NSData"@"NSArray"@"NSError">24;
+- (void)?I>24;
+- (id)setInsertWatchKey:(id)arg1;
+- (void)remoteObjectProxyWithErrorHandler:(id)arg1;
+- (void)B,V_accountsChanged;
 - (void);
 - (id);
 - (id);
@@ -79,8 +66,8 @@
 - (id);
 - (id);
 - (id);
-- (id)tionsWithContext:handler: /* Error: Ran out of types for this method. */;
-- (id)aceTypeProvider;
+- (id)_fetchTripClusterRoadTransitionsWithContext:handler: /* Error: Ran out of types for this method. */;
+- (id)RTPlaceTypeProvider;
 - (void),ä
 ;
 - (void)icationForGeneratedTripSegment:] /* Error: Ran out of types for this method. */;
@@ -90,26 +77,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) RTAuthorizationManager *authorizationManager; // @synthesize authorizationManager=_authorizationManager;
-@property(readonly, copy, nonatomic) RTContactsManager *contactsManager; // @synthesize contactsManager=_contactsManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) RTDeviceLocationPredictor *deviceLocationPredictor; // @synthesize deviceLocationPredictor=_deviceLocationPredictor;
-@property(readonly, copy, nonatomic) RTDistanceCalculator *distanceCalculator; // @synthesize distanceCalculator=_distanceCalculator;
-@property(copy, nonatomic) SMEligibilityChecker *eligibilityChecker; // @synthesize eligibilityChecker=_eligibilityChecker;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) RTHealthKitManager *healthKitManager; // @synthesize healthKitManager=_healthKitManager;
-@property(copy, nonatomic) RTLocation *latestLocationOfTheDevice; // @synthesize latestLocationOfTheDevice=_latestLocationOfTheDevice;
-@property(readonly, copy, nonatomic) RTLearnedLocationManager *learnedLocationManager; // @synthesize learnedLocationManager=_learnedLocationManager;
-@property(readonly, copy, nonatomic) RTLearnedLocationStore *learnedLocationStore; // @synthesize learnedLocationStore=_learnedLocationStore;
-@property(readonly, copy, nonatomic) RTLocationManager *locationManager; // @synthesize locationManager=_locationManager;
-@property(readonly, copy, nonatomic) RTMapServiceManager *mapServiceManager; // @synthesize mapServiceManager=_mapServiceManager;
-@property(readonly, copy, nonatomic) RTNavigationManager *navigationManager; // @synthesize navigationManager=_navigationManager;
-@property(nonatomic) _Bool routineEnabled; // @synthesize routineEnabled=_routineEnabled;
-@property(copy, nonatomic) SMSessionStore *sessionStore; // @synthesize sessionStore=_sessionStore;
-@property(readonly) Class superclass;
 
 @end
 

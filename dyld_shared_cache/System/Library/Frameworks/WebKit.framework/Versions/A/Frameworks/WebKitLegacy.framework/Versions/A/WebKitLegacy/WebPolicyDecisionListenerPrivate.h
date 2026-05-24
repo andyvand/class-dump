@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface WebPolicyDecisionListenerPrivate
 {
     struct RetainPtr<id> target;
-    SEL action;
 }
 
 - (id);

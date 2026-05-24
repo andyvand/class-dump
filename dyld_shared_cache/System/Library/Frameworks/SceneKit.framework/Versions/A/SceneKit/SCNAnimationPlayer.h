@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSString, SCNAnimation, SCNOrderedDictionary;
+@class SCNAnimation;
 
 @interface SCNAnimationPlayer
 {
     struct __C3DAnimationPlayer *_playerRef;
-    SCNAnimation *_animation;
-    float _weight;
-    float _speed;
-    _Bool _paused;
-    struct os_unfair_lock_s _animationsLock;
-    SCNOrderedDictionary *_animations;
-    NSMutableDictionary *_bindings;
 }
 
 + (id);
@@ -49,18 +42,18 @@
 - (void);
 - (void);
 - (void *);
-- (struct __C3DAnimationManager *);
-- (double);
+- (struct __C3DAnimationManager *);
+- (double)uery.retryCount;
+- (void)tocorrection.enabled;
 - (void);
 - (void);
-- (void);
+- (id)B24;
 - (id);
-- (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
-- (id);
+- (id)`;
 - (id);
 - (void);
 - (void);
@@ -78,17 +71,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) SCNAnimation *animation; // @synthesize animation=_animation;
-@property(readonly) NSArray *animationKeys;
-@property(nonatomic) double blendFactor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool paused;
-@property(nonatomic) double speed;
-@property(readonly) Class superclass;
 
 @end
 

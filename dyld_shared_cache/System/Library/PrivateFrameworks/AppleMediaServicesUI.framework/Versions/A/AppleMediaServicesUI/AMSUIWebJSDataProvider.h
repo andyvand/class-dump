@@ -4,47 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSUIWebClientContext, AMSUIWebJSAppQueryManager, AMSUIWebJSProperties, AMSUIWebView, NSString;
-@protocol AMSUIWebJSTelephonyProtocol;
+@class AMSUIWebJSAppQueryManager, AMSUIWebView;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebJSDataProvider
 {
     AMSUIWebJSAppQueryManager *_appQueryManager;
-    AMSUIWebView *_webView;
-    AMSUIWebClientContext *_context;
-    AMSUIWebJSProperties *_properties;
-    NSString *_otpIdentifier;
 }
 
+- (id)ublic}@);
+- (id)assertions for existing assertions;
+- (_Bool)th error:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)ixKey:(id)arg1 %{public}@, Evicted objects:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)nnot determine the latest auto asset version due to error:(id)arg1 %@;
+- (id)load latest version of auto asset:(id)arg1 %@;
+- (void)ir;
+- (id)or clientID, manager interface is nil for asset type:(id)arg1 %@;
+- (id)otification"8;
+- (id):[NSDate class]] /* Error: Ran out of types for this method. */;
+- (id)moteSyncState.m;
 - (id);
 - (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)bg;
 - (void);
+- (void)C;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (void);
 - (void);
 - (_Bool);
+- (void);
+- (void);
+- (_Bool);
 - (id);
 - (void);
 - (id);
@@ -53,23 +48,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)ing;
 - (void)r"16@"NSError"24;
 - (id);
 
 // Remaining properties
-@property(readonly) AMSUIWebJSAppQueryManager *appQueryManager;
-@property __weak AMSUIWebClientContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSString *otpIdentifier; // @synthesize otpIdentifier=_otpIdentifier;
-@property(retain) AMSUIWebJSProperties *properties; // @synthesize properties=_properties;
-@property(readonly) Class superclass;
-@property(readonly) id <AMSUIWebJSTelephonyProtocol> telephony;
 @property __weak AMSUIWebView *webView; // @synthesize webView=_webView;
 
 @end

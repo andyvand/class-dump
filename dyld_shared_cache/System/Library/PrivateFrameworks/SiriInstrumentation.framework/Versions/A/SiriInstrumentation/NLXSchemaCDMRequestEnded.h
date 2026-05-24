@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NLXSchemaCDMLanguageVariantResult, NSArray, NSData;
+@class NSArray;
 
 @interface NLXSchemaCDMRequestEnded : SISchemaInstrumentationMessage
 {
     NSArray *_parses;
-    NLXSchemaCDMLanguageVariantResult *_languageVariantClassifierResult;
-    _Bool _hasLanguageVariantClassifierResult;
 }
 
 - (void);
@@ -24,12 +22,12 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)T;
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)P;
+- (id);
+- (void)PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/rsa/rsa_sign.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -37,13 +35,10 @@
 - (id)1Â0@ù
 × ;
 - (id)N,V_hasSpeechResultSelected;
-- (id)TaskType: /* Error: Ran out of types for this method. */;
+- (id)setHasTaskType: /* Error: Ran out of types for this method. */;
 - (void)i×æ9üã>;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLanguageVariantClassifierResult; // @synthesize hasLanguageVariantClassifierResult=_hasLanguageVariantClassifierResult;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) NLXSchemaCDMLanguageVariantResult *languageVariantClassifierResult; // @synthesize languageVariantClassifierResult=_languageVariantClassifierResult;
 @property(copy, nonatomic) NSArray *parses; // @synthesize parses=_parses;
 
 @end

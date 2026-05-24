@@ -5,5 +5,6 @@
 //
 
 @protocol HMFAsyncContext
+- (void)N3fst10MemoryPoolINS_13PoolAllocatorINS_10CacheStateINS_6ArcTplINS_17TropicalWeightTplIfEEEENS1_IS6_EEEEE2TNILi8EEEEE;
 @end
 

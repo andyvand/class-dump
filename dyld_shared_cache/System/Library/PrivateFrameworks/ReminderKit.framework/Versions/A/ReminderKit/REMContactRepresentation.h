@@ -9,28 +9,26 @@
 @interface REMContactRepresentation
 {
     NSArray *_phones;
-    NSArray *_emails;
 }
 
-+ (id);
++ (id);
 + (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void)s Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *emails; // @synthesize emails=_emails;
 @property(copy, nonatomic) NSArray *phones; // @synthesize phones=_phones;
 
 @end

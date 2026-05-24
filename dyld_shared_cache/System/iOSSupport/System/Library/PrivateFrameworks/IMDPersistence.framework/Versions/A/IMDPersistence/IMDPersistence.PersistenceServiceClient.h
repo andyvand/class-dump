@@ -19,7 +19,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) id <IMDPersistenceService> remoteProxy;
-@property(nonatomic, readonly) id <IMDPersistenceService> synchronousRemoteProxy;
 
 @end
 

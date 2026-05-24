@@ -7,8 +7,6 @@
 @interface AppleMediaServices.MockAccountStore
 {
     id mockedAccounts;
-    id saveError;
-    id targetedSaveErrors;
 }
 
 @end

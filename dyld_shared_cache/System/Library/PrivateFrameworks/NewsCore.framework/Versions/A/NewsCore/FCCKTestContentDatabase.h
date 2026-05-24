@@ -6,23 +6,16 @@
 
 #import <NewsCore/FCCKContentDatabase.h>
 
-@class FCCKTestFeedQueryEndpoint, FCCKTestMultiFetchQueryEndpoint, FCCKTestOrderFeedQueryEndpoint, NSMutableArray, NSMutableSet, NSSet;
+@class NSMutableArray;
 
 @interface FCCKTestContentDatabase : FCCKContentDatabase
 {
     _Bool _simulateNetworkError;
-    NSSet *_fetchedKeys;
-    unsigned long long _countOfOperationsHandled;
-    NSMutableArray *_records;
-    NSMutableSet *_droppedFeeds;
-    FCCKTestFeedQueryEndpoint *_feedQueryEndpoint;
-    FCCKTestOrderFeedQueryEndpoint *_orderFeedQueryEndpoint;
-    FCCKTestMultiFetchQueryEndpoint *_multiFetchQueryEndpoint;
 }
 
-+ (id);
++ (id);
 - (id);
-- (void);
+- (void)(=;
 - (_Bool);
 - (void);
 - (id);
@@ -41,45 +34,52 @@
 - (void);
 - (void);
 - (id);
+- (id)/System/Library/PrivateFrameworks/PhotosPlayer.framework/Versions/A/PhotosPlayer;
+- (void);
+- (unsigned long long)l;
+	
+	// if too cold, draw blue (use 0.05% as a slop factor due to rounding)
+	coldPixel = (maxVal <= coldThreshold + 0.0005) ? blue :(id)arg1 hotPixel;
+	
+	// not sure if we should look for negative values or not (negative being supersaturated, not cold)
+	// not clear what to do if they are (e.g., one channel is hot, and one is negative, what to draw?)
+	
+	// now process choices for hot and cold
+	pixel = (showHotAndCold < 2.0) ? hotPixel :(id)arg2 pixel;		// showHotAndCold = 0 or 1
+	pixel = (showHotAndCold > 0.0) ? coldPixel:pixel;		// showHotAndCold = 1 or 2
+	
+	return premultiply(pixel); 
+	
+} /* Error: Ran out of types for this method. */;
+- (void)troller";
+- (id)rearrangingCoordinatorReloadLayout_;
+- (void)_significantLocationChanges;
+- (void);
+- (id);
+- (id);
+- (unsigned long long)MKCoordinateSpan;
+- (void);
+- (id);
+- (void)i;
 - (id);
 - (void);
-- (unsigned long long);
 - (void);
 - (id);
 - (void);
 - (void);
+- (void)(;
+- (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void)rivateDataContext;
-- (void)rdingTipBody;
+- (void)privateDataContext;
+- (void)_contentShortcutsOnboardingTipBody;
 - (void)tPresentationBaselineImpressionValue;
-- (void)guration;
-- (void)dIndices;
+- (void)FCOfflineDownloadsConfiguration;
+- (void)deletedIndices;
 - (void)xpectation:similarityEndExpectation:publisherDiversificationSlope:publisherDiversificationYIntercept:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void)rnal/Library/BuildRoots/4~CNquugBHTJeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCResource.m;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long countOfOperationsHandled; // @synthesize countOfOperationsHandled=_countOfOperationsHandled;
-@property(retain, nonatomic) NSMutableSet *droppedFeeds; // @synthesize droppedFeeds=_droppedFeeds;
-@property(retain, nonatomic) FCCKTestFeedQueryEndpoint *feedQueryEndpoint; // @synthesize feedQueryEndpoint=_feedQueryEndpoint;
-@property(copy, nonatomic) NSSet *fetchedKeys; // @synthesize fetchedKeys=_fetchedKeys;
-@property(retain, nonatomic) FCCKTestMultiFetchQueryEndpoint *multiFetchQueryEndpoint; // @synthesize multiFetchQueryEndpoint=_multiFetchQueryEndpoint;
-@property(retain, nonatomic) FCCKTestOrderFeedQueryEndpoint *orderFeedQueryEndpoint; // @synthesize orderFeedQueryEndpoint=_orderFeedQueryEndpoint;
 @property(retain, nonatomic) NSMutableArray *records; // @synthesize records=_records;
-@property(nonatomic) _Bool simulateNetworkError; // @synthesize simulateNetworkError=_simulateNetworkError;
 
 @end
 

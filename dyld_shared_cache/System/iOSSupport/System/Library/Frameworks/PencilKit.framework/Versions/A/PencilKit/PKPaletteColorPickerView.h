@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PKPaletteMulticolorSwatch, UICollectionView, UIColor, UILongPressGestureRecognizer;
-@protocol PKPaletteColorPickerController, PKPalettePopoverPresenting><PKPaletteColorPickerViewDelegate;
+@class UICollectionView;
 
 @interface PKPaletteColorPickerView
 {
     _Bool _supportsAlpha;
-    unsigned long long _edgeLocation;
-    unsigned long long _cornerLocation;
-    double _scalingFactor;
-    id <PKPalettePopoverPresenting><PKPaletteColorPickerViewDelegate> _delegate;
-    long long _colorUserInterfaceStyle;
-    PKPaletteMulticolorSwatch *_multicolorSwatch;
-    long long _colorPickerMode;
-    double _colorMaximumLinearExposure;
-    UICollectionView *_collectionView;
-    NSArray *_swatches;
-    NSArray *_swatchColors;
-    UILongPressGestureRecognizer *_longPressGestureRecognizer;
-    id <PKPaletteColorPickerController> _colorPickerController;
-    UIColor *_analyticsInitialColor;
-    long long _analyticsColorChangeCount;
-    double _selectedColorAlpha;
 }
 
 + (id);
@@ -77,62 +60,38 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)dler:(id)arg1;
 - (void);
 - (struct CGSize);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)9;
 - (struct CGSize);
 - (id);
-- (id);
+- (id)VW
+�To�\c;
 - (void);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id);
 - (id);
 - (void);
 - (_Bool);
-- (double);
+- (double);
 - (void);
 - (long long);
 - (void);
 - (void)A	°!<Fùq'Ð1Â0@ù
 × ;
-- (void)t:(id)arg1;
-- (void)cilKitP33_C07EB3BA79DD666E822D6A98FF7ECB3B33AutoRefineTaskCoordinatorDelegate;
-- (id)letteNamedDefaults;
+- (void)isEquivalentToElement:(id)arg1;
+- (void)_TtC9PencilKitP33_C07EB3BA79DD666E822D6A98FF7ECB3B33AutoRefineTaskCoordinatorDelegate;
+- (id)PKPaletteNamedDefaults;
 - (long long)Q-¬;
 
 // Remaining properties
-@property(nonatomic) long long analyticsColorChangeCount; // @synthesize analyticsColorChangeCount=_analyticsColorChangeCount;
-@property(retain, nonatomic) UIColor *analyticsInitialColor; // @synthesize analyticsInitialColor=_analyticsInitialColor;
 @property(retain, nonatomic) UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(nonatomic) double colorMaximumLinearExposure; // @synthesize colorMaximumLinearExposure=_colorMaximumLinearExposure;
-@property(retain, nonatomic) id <PKPaletteColorPickerController> colorPickerController; // @synthesize colorPickerController=_colorPickerController;
-@property(nonatomic) long long colorPickerMode; // @synthesize colorPickerMode=_colorPickerMode;
-@property(nonatomic) long long colorUserInterfaceStyle; // @synthesize colorUserInterfaceStyle=_colorUserInterfaceStyle;
-@property(nonatomic) unsigned long long cornerLocation; // @synthesize cornerLocation=_cornerLocation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PKPalettePopoverPresenting><PKPaletteColorPickerViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long edgeLocation; // @synthesize edgeLocation=_edgeLocation;
-@property(readonly, nonatomic, getter=_isExtendedColorPickerVisible) _Bool extendedColorPickerVisible;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UILongPressGestureRecognizer *longPressGestureRecognizer; // @synthesize longPressGestureRecognizer=_longPressGestureRecognizer;
-@property(retain, nonatomic) PKPaletteMulticolorSwatch *multicolorSwatch; // @synthesize multicolorSwatch=_multicolorSwatch;
-@property(nonatomic) double scalingFactor; // @synthesize scalingFactor=_scalingFactor;
-@property(retain, nonatomic) UIColor *selectedColor;
-@property(nonatomic) double selectedColorAlpha; // @synthesize selectedColorAlpha=_selectedColorAlpha;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool supportsAlpha; // @synthesize supportsAlpha=_supportsAlpha;
-@property(retain, nonatomic) NSArray *swatchColors; // @synthesize swatchColors=_swatchColors;
-@property(retain, nonatomic) NSArray *swatches; // @synthesize swatches=_swatches;
 
 @end
 

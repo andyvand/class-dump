@@ -6,13 +6,12 @@
 
 #import <CoreUI/CUIThemeRendition.h>
 
-@class MDLAsset, NSArray, NSMutableArray;
+@class MDLAsset, NSArray;
 
 __attribute__((visibility("hidden")))
 @interface _CUIThemeModelAssetRendition : CUIThemeRendition
 {
     MDLAsset *_asset;
-    NSMutableArray *_meshKeys;
 }
 
 - (unsigned long long);
@@ -21,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id)et;
-- (id)meOnePartTile;
+- (id)kCoreThemeOnePartTile;
 
 // Remaining properties
 @property(readonly) NSArray *meshKeys;

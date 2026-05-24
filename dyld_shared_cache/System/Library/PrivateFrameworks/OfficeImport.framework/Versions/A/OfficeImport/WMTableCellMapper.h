@@ -12,11 +12,6 @@ __attribute__((visibility("hidden")))
 @interface WMTableCellMapper : CMMapper
 {
     WDTableCell *mWdTableCell;
-    unsigned int mColSpan;
-    double mHeight;
-    double mWidth;
-    double mLeftPadding;
-    double mRightPadding;
 }
 
 - (id);

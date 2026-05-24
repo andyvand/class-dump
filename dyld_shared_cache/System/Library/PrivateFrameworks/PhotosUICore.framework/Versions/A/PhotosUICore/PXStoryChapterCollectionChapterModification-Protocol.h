@@ -10,7 +10,6 @@
 @protocol PXStoryChapterCollectionChapterModification
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType chapterChangeRequest;
 @property(readonly, nonatomic) NSObject<NSCopying> *editedChapterIdentifier;
 @end
 

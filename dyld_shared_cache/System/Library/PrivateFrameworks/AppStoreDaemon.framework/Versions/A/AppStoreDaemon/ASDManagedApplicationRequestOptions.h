@@ -6,40 +6,28 @@
 
 #import <AppStoreDaemon/ASDRequestOptions.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface ASDManagedApplicationRequestOptions : ASDRequestOptions
 {
     _Bool _skipDownloads;
-    NSNumber *_accountIdentifier;
-    NSString *_bundleIdentifier;
-    NSString *_bundleVersion;
-    NSNumber *_externalVersionIdentifier;
-    NSNumber *_itemIdentifier;
-    long long _requestType;
 }
 
 - (_Bool);
 - (id);
 - (id);
 - (id);
+- (id)IAPAppAccessoryDidDisconnectNotification;
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long)b;
 - (id)üÓ;
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, nonatomic) NSString *bundleVersion; // @synthesize bundleVersion=_bundleVersion;
-@property(readonly, nonatomic) NSNumber *externalVersionIdentifier; // @synthesize externalVersionIdentifier=_externalVersionIdentifier;
-@property(readonly, nonatomic) NSNumber *itemIdentifier; // @synthesize itemIdentifier=_itemIdentifier;
-@property(nonatomic) long long requestType; // @synthesize requestType=_requestType;
-@property(readonly, nonatomic) _Bool skipDownloads; // @synthesize skipDownloads=_skipDownloads;
 
 @end
 

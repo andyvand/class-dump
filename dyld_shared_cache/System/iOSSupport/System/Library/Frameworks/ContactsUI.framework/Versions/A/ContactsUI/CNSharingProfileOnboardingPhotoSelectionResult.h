@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, UIImage;
+@class UIImage;
 
 @interface CNSharingProfileOnboardingPhotoSelectionResult
 {
     _Bool _wasSelectedInFullPhotoPicker;
-    UIImage *_originalImage;
-    UIImage *_compositedImage;
-    NSString *_variantName;
-    long long _avatarType;
-    NSData *_memojiMetadata;
 }
 
 - (_Bool);
@@ -23,20 +18,15 @@
 - (void);
 - (void);
 - (long long);
-- (void);
+- (void)!;
 - (id);
 - (void);
 - (id);
 - (id);
-- (void)tionsManager;
+- (void)actionsManager;
 
 // Remaining properties
-@property(nonatomic) long long avatarType; // @synthesize avatarType=_avatarType;
-@property(retain, nonatomic) UIImage *compositedImage; // @synthesize compositedImage=_compositedImage;
-@property(nonatomic) NSData *memojiMetadata; // @synthesize memojiMetadata=_memojiMetadata;
 @property(retain, nonatomic) UIImage *originalImage; // @synthesize originalImage=_originalImage;
-@property(copy, nonatomic) NSString *variantName; // @synthesize variantName=_variantName;
-@property(nonatomic) _Bool wasSelectedInFullPhotoPicker; // @synthesize wasSelectedInFullPhotoPicker=_wasSelectedInFullPhotoPicker;
 
 @end
 

@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AXVWindowSpace
 {
     _Bool __wasSpaceCreatedByThisProcess;
-    unsigned int __cgsMainConnection;
-    NSString *_uuid;
-    unsigned long long __spaceID;
 }
 
 + (id);
@@ -43,10 +38,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned int _cgsMainConnection; // @synthesize _cgsMainConnection=__cgsMainConnection;
-@property(nonatomic) unsigned long long _spaceID; // @synthesize _spaceID=__spaceID;
-@property(nonatomic) _Bool _wasSpaceCreatedByThisProcess; // @synthesize _wasSpaceCreatedByThisProcess=__wasSpaceCreatedByThisProcess;
-@property(readonly, nonatomic) unsigned long long level;
-@property(readonly, copy, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end
 

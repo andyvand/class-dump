@@ -11,14 +11,6 @@
 @interface QCMemObject : QCResource
 {
     unsigned long long _identifier;
-    struct _cl_mem *_stream;
-    QCCLContext *_context;
-    int _status;
-    struct _cl_device_id *_device;
-    struct _cl_event *_event;
-    unsigned long long _flags;
-    unsigned int _acquired:1;
-    void *_unused2[4];
 }
 
 - (struct _cl_mem **);
@@ -27,7 +19,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (unsigned long long);
+- (unsigned long long)dictionaryForLocaleIdentifier:resourceFileName:resourceFileExtension: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -38,12 +30,7 @@
 - (void)Ñÿ0ÚR£;
 
 // Remaining properties
-@property(readonly) _Bool attached;
-@property(readonly) unsigned long long byteSize;
 @property(readonly) QCCLContext *context; // @synthesize context=_context;
-@property struct _cl_event *event; // @synthesize event=_event;
-@property(readonly) unsigned long long identifier; // @synthesize identifier=_identifier;
-@property(readonly) struct _cl_mem **memObject;
 
 @end
 

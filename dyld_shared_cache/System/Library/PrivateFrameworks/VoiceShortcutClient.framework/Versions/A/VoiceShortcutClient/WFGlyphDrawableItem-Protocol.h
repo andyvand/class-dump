@@ -5,6 +5,10 @@
 //
 
 @protocol WFGlyphDrawableItem
+- (unsigned short)eries={Metric=Bd{basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >={__compressed_pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::__rep, std::__1::allocator<char> >={__rep}}}}iiiiiiiiiiiii} /* Error: Ran out of types for this method. */;
+
+@optional
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned short glyphCharacter;

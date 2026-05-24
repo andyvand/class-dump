@@ -10,16 +10,13 @@ __attribute__((visibility("hidden")))
 @interface ConfidenceEstimatorStats
 {
     NSMutableDictionary *_edgeMappingStrength;
-    NSMutableDictionary *_edgeMappingConfidence;
-    unsigned int _modelID;
-    CBHistogramBuilder2D *_outputsCE;
 }
 
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly) CBHistogramBuilder2D *outputsCE; // @synthesize outputsCE=_outputsCE;

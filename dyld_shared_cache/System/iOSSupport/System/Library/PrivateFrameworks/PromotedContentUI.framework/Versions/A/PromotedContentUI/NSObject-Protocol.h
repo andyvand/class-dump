@@ -7,15 +7,14 @@
 @class NSString;
 
 @protocol NSObject
-- (struct _NSZone *)cription;
+- (oneway void)p
+;
+- (NSString *)loadArtworkEffectResultForEffectType:catalog:options:systemEffectHandler:completionHandler: /* Error: Ran out of types for this method. */;
+- (unsigned long long)11;
+- (_Bool)N,V_modelObject;
+- (struct _NSZone *)invalidCalendarDescription;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

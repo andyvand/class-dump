@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface CTIPFilterEndpoint
 {
     NSString *_addr;
-    NSNumber *_maskLen;
-    NSNumber *_port;
-    NSNumber *_portRange;
 }
 
-+ (_Bool);
++ (_Bool)at has already been added to the receiver;
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)J}_	;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (void);
 - (id);
 - (id);
@@ -32,9 +29,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *addr; // @synthesize addr=_addr;
-@property(retain, nonatomic) NSNumber *maskLen; // @synthesize maskLen=_maskLen;
-@property(retain, nonatomic) NSNumber *port; // @synthesize port=_port;
-@property(retain, nonatomic) NSNumber *portRange; // @synthesize portRange=_portRange;
 
 @end
 

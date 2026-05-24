@@ -9,11 +9,10 @@
 @interface PKAppAuthorizationInfo
 {
     NSMutableDictionary *_passLibraryAuthorizations;
-    NSString *_bundleIdentifier;
 }
 
 - (void);
-- (id);
+- (id);
 - (long long);
 - (id);
 - (void);

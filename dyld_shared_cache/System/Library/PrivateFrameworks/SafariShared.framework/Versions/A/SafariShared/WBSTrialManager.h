@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSObject, NSString, TRIClient, WBSDiagnosticStateCollector, WBSTrialIdentifiers;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary, TRIClient;
 
 @interface WBSTrialManager
 {
     NSMutableDictionary *_customFactorsDictionary;
-    WBSDiagnosticStateCollector *_stateCollector;
-    _Bool _ready;
-    struct os_unfair_lock_s _lock;
-    TRIClient *_trialClient;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSDictionary *_factors;
-    NSString *_experimentId;
-    NSString *_treatmentId;
 }
 
 + (id)¸ì;
@@ -41,17 +32,17 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)_threshold_BW_Slider;
 - (id);
 - (void);
 - (id);
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (_Bool);
+- (id)create_and_insert_lite_zone;
+- (id)@y;
+- (id);
 - (id);
 - (void);
 - (_Bool)1Â0@ù
@@ -65,16 +56,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *experimentId; // @synthesize experimentId=_experimentId;
-@property(retain, nonatomic) NSDictionary *factors; // @synthesize factors=_factors;
-@property(readonly, nonatomic) WBSTrialIdentifiers *identifiers;
-@property(readonly, nonatomic) _Bool isAllowFavoritesInFrequentlyVisitedEnabled;
-@property(readonly, nonatomic) _Bool isAllowLogOnURLsInFrequentlyVisitedEnabled;
-@property(readonly, nonatomic) _Bool isDropOutliersInFrequentlyVisitedEnabled;
-@property(nonatomic) struct os_unfair_lock_s lock; // @synthesize lock=_lock;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) _Bool ready; // @synthesize ready=_ready;
-@property(copy, nonatomic) NSString *treatmentId; // @synthesize treatmentId=_treatmentId;
 @property(retain, nonatomic) TRIClient *trialClient; // @synthesize trialClient=_trialClient;
 
 @end

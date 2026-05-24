@@ -12,10 +12,10 @@
 }
 
 + (id);
-- (_Bool);
+- (_Bool)#;
 - (void);
-- (id);
-- (void)ontroller;
+- (id)h~;
+- (void)WBSScribbleController;
 
 @end
 

@@ -10,7 +10,7 @@
 }
 
 - (id);
-- (long long);
+- (long long)0;
 
 // Remaining properties
 @property(readonly, nonatomic) long long status; // @synthesize status=_status;

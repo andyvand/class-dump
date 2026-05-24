@@ -9,25 +9,22 @@
 @interface _IMBalloonBundleApp : IMBalloonApp
 {
     long long _pluginLoadToken;
-    Class _bubbleClass;
-    Class _browserClass;
-    Class _dataSourceClass;
 }
 
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (double);
-- (_Bool);
-- (_Bool);
+- (_Bool)ghStartQSize=%f highStartMode=%d targetPercentileToCover=%f shortTermWindowSize=%f longTermWindowSize=%f filterDRXBundleEnabled=%d minQSize5G=%f minQSizeCellular=%f targetSynchronizer=%p spikeManagement=%d skipDecodeOnSilence=%d skipJBDumpCreation=%d enableEnhancedJBAdaptations=%d;
+- (_Bool)gy=%u outageState=%u estimatedOutagePeriod=%u;
+- (void)lidating the connection;
+- (void)%d Forcing WSOLA, time since silence:(Class)arg1 %f, Adjust = %f, time since low adjust:%f /* Error: Ran out of types for this method. */;
+- (void)esBaseband=%u became networkUplinkClockUsesBaseband=%u;
+- (double)locate multiway video config;
+- (_Bool)c;
+- (_Bool)m [%s] %s:%d error=%@ /* Error: Ran out of types for this method. */;
+- (Class)ed at [%@], after model download time [%@];
 - (Class);
-- (Class);
-- (void);
-- (void);
-- (long long);
-- (id);
+- (void)successfully created %@;
+- (void)es:(Class)arg1 %@ for targetBitrate:%d /* Error: Ran out of types for this method. */;
+- (long long)d %@(%p) Received State Update:transportSessionID=%u participantId=%@ participantUUID=%@ mediaType=%@ mediaState=%@ /* Error: Ran out of types for this method. */;
+- (id)@(%p) Receive State Update:(id)arg1 Failed to find message entry key for mediaType=%@;
 - (Class);
 - (void);
 - (void)4SXS;

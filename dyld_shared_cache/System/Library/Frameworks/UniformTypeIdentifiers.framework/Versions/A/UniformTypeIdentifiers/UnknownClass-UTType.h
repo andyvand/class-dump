@@ -18,6 +18,5 @@
 
 // Remaining properties
 @property(readonly, copy) NSArray *registeredContentTypes;
-@property(readonly, copy) NSArray *registeredContentTypesForOpenInPlace;
 @end
 

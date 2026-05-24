@@ -4,53 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSSceneConfidenceThresholdHelper, NSMutableDictionary, NSSet, NSString;
+@class CLSSceneConfidenceThresholdHelper, NSSet;
 
 @interface PGSceneAssetFilter
 {
     CLSSceneConfidenceThresholdHelper *_positiveScenesHelper;
-    CLSSceneConfidenceThresholdHelper *_secondaryPositiveScenesHelper;
-    CLSSceneConfidenceThresholdHelper *_negativeScenesHelper;
-    CLSSceneConfidenceThresholdHelper *_positiveDominantScenesHelper;
-    NSMutableDictionary *_confidenceThresholdByPositiveSceneIdentifierBySceneModelIdentifier;
-    NSMutableDictionary *_confidenceThresholdBySecondaryPositiveSceneIdentifierBySceneModelIdentifier;
-    NSMutableDictionary *_confidenceThresholdByNegativeSceneIdentifierBySceneModelIdentifier;
-    NSMutableDictionary *_confidenceThresholdByPositiveDominantSceneIdentifierBySceneModelIdentifier;
-    char *_typeOfSceneClassification;
-    NSMutableDictionary *_indexedConfidenceThresholdOfScenesBySceneModelIdentifier;
-    _Bool _requireDominantPositiveScenes;
-    CDUnknownBlockType _positiveSceneCustomSignalModelBlock;
-    CDUnknownBlockType _positiveDominantSceneCustomSignalModelBlock;
-    _Bool _useEntityNet;
-    NSSet *_positiveScenes;
-    NSSet *_secondaryPositiveScenes;
-    NSSet *_positiveDominantScenes;
-    NSSet *_positiveSemDevScenes;
-    NSSet *_negativeScenes;
-    NSSet *_positiveSemDevSceneIdentifiers;
 }
 
-+ (id);
++ (id)initWithURL:iconSize:fallbackType:iconDownloadingEnabled: /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)c;
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (_Bool);
+- (id);
+- (id);
+- (id)initWithElement:(id)arg1 applicationElement:(CDUnknownBlockType)arg2 windowElement:(id)arg3 topLevelElement:(id)arg4 content:(CDUnknownBlockType)arg5 contentTitle:(id)arg6 applicationIdentifier:(id)arg7 frame:(id)arg8;
+- (id)initWithDictionary:(id)arg1;
+- (id)_signalForElement:(id)arg1 cursorTraversedString:selectionRange:editTracker:isEditable: /* Error: Ran out of types for this method. */;
+- (id)N,V_focusDelegate;
+- (id)inLock;
+- (id)NSArray",R,C;
+- (id)AXKApplicationContentAccessorFactory;
+- (_Bool)or;
 - (id);
 - (void);
 - (void);
@@ -63,19 +44,7 @@
 - (void)ternal/Library/BuildRoots/4~CNrLugBm5mZzGZhQIi0idKaHXqMbtQ878o7HncI/Library/Caches/com.apple.xbs/TemporaryDirectory.52v2gD/Sources/Photos_Swift/workspaces/photoanalysis/PhotosGraph/Framework/Suggestions/Suggesters/Autobahn/PGPeopleWallpaperSuggester.m;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSSet *negativeScenes; // @synthesize negativeScenes=_negativeScenes;
-@property(readonly, nonatomic) NSSet *positiveDominantScenes; // @synthesize positiveDominantScenes=_positiveDominantScenes;
-@property(readonly, nonatomic) NSSet *positiveScenes; // @synthesize positiveScenes=_positiveScenes;
 @property(retain, nonatomic) NSSet *positiveSemDevSceneIdentifiers; // @synthesize positiveSemDevSceneIdentifiers=_positiveSemDevSceneIdentifiers;
-@property(readonly, nonatomic) NSSet *positiveSemDevScenes; // @synthesize positiveSemDevScenes=_positiveSemDevScenes;
-@property(readonly, nonatomic) NSSet *secondaryPositiveScenes; // @synthesize secondaryPositiveScenes=_secondaryPositiveScenes;
-@property(readonly) Class superclass;
 
 @end
 

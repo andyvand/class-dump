@@ -10,7 +10,7 @@
 {
 }
 
-+ (Class);
++ (Class)"ICNote"16@"NSAttributedString"24@"NSError"32;
 - (id);
 
 @end

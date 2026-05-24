@@ -9,36 +9,29 @@
 @interface NTPBViewArticleRequest
 {
     NSString *_feedUri;
-    NSString *_storeFrontId;
-    NSString *_webPageUri;
 }
 
+- (id)inlinePlaybackSimulateMainPresenterDisappearanceOnDismissal;
+- (id)initWithTitle:message:numberOfAssetResults:actionHandler: /* Error: Ran out of types for this method. */;
+- (void)initWithTemplateView:(id)arg1 firstButtonTitle:secondButtonTitle:linkButtonTitle: /* Error: Ran out of types for this method. */;
+- (void)initWithPixelBufferPool:(id)arg1;
+- (void);
+- (_Bool)feedbackStore;
+- (_Bool)displayAssetContentView:didChangeEffectivePreferredImageDynamicRange: /* Error: Ran out of types for this method. */;
+- (_Bool)contentSyndicationItemAtItemIndexPath: /* Error: Ran out of types for this method. */;
+- (id)contentModeForProposedContentMode: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)6@24Q32Q40^@48;
+- (_Bool)dleShortVersionString not found in SystemMigration.framework's Info.plist.;
+- (_Bool)shNotificationsCommand:(id)arg1 succeeded refreshing topics for groupID:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)aSyncOn"b1"progressivePersonalizationAllowed"b1"runningObsolete"b1"signedIntoITunes"b1"signedIntoIcloud"b1"upgradedFromObsolete"b1};
 
 // Remaining properties
-@property(retain, nonatomic) NSString *feedUri; // @synthesize feedUri=_feedUri;
-@property(readonly, nonatomic) _Bool hasFeedUri;
-@property(readonly, nonatomic) _Bool hasStoreFrontId;
 @property(readonly, nonatomic) _Bool hasWebPageUri;
-@property(retain, nonatomic) NSString *storeFrontId; // @synthesize storeFrontId=_storeFrontId;
-@property(retain, nonatomic) NSString *webPageUri; // @synthesize webPageUri=_webPageUri;
 
 @end
 

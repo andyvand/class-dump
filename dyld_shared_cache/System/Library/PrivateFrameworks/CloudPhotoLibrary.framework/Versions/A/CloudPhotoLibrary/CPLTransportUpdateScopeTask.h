@@ -6,16 +6,15 @@
 
 #import <CloudPhotoLibrary/CPLEngineScopedTask.h>
 
-@protocol CPLEngineTransportDeleteTransportScopeTask, CPLEngineTransportUpdateTransportScopeTask;
+@protocol CPLEngineTransportDeleteTransportScopeTask;
 
 @interface CPLTransportUpdateScopeTask : CPLEngineScopedTask
 {
     id <CPLEngineTransportDeleteTransportScopeTask> _deleteTask;
-    id <CPLEngineTransportUpdateTransportScopeTask> _updateTask;
 }
 
 - (_Bool);
-- (void)o©úg©ø_©öW©ôO©ý{©ýóªô;
+- (void);
 - (void);
 - (void)!Cù±ð1Â0@ù
 × ;

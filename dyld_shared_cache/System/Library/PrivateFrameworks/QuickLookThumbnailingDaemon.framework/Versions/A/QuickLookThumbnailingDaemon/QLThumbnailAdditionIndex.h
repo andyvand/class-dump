@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSURL, PQLConnection;
-@protocol OS_dispatch_source;
+@class NSURL, PQLConnection;
 
 @interface QLThumbnailAdditionIndex
 {
     NSURL *_url;
-    PQLConnection *_db;
-    NSObject<OS_dispatch_source> *_dbWatcher;
-    _Bool _exitsOnCorruption;
 }
 
 + (void);
 + (void);
 + (id);
-- (int);
-- (id);
+- (int)? ;
+- (id)H;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -47,27 +43,26 @@
 - (long long);
 - (id);
 - (void);
-- (void);
+- (void)B;
 - (id);
 - (_Bool);
 - (void);
 - (id);
+- (_Bool);
+- (id)P;
+- (void)1;
+- (id);
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (_Bool);
-- (id);
 - (void);
-- (void);
-- (void);
+- (void)_invoke;
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSURL *databaseURL;
 @property(readonly) PQLConnection *db; // @synthesize db=_db;
 
 @end

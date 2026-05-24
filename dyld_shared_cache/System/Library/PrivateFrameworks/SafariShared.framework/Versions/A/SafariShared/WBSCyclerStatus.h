@@ -9,11 +9,6 @@
 @interface WBSCyclerStatus
 {
     _Bool _connectedToTestTarget;
-    _Bool _running;
-    NSString *_activeTestSuiteName;
-    unsigned long long _seed;
-    unsigned long long _iterationCount;
-    double _executionTime;
 }
 
 + (_Bool);
@@ -22,7 +17,7 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (void);
 - (double);
 - (_Bool);
@@ -31,11 +26,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *activeTestSuiteName; // @synthesize activeTestSuiteName=_activeTestSuiteName;
-@property(readonly, nonatomic, getter=isConnectedToTestTarget) _Bool connectedToTestTarget; // @synthesize connectedToTestTarget=_connectedToTestTarget;
-@property(readonly, nonatomic) double executionTime; // @synthesize executionTime=_executionTime;
-@property(readonly, nonatomic) unsigned long long iterationCount; // @synthesize iterationCount=_iterationCount;
-@property(readonly, nonatomic, getter=isRunning) _Bool running; // @synthesize running=_running;
-@property(readonly, nonatomic) unsigned long long seed; // @synthesize seed=_seed;
 
 @end
 

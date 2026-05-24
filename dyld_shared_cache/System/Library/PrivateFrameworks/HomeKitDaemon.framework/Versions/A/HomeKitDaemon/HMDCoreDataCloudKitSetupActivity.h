@@ -4,32 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSError, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDCoreDataCloudKitSetupActivity
 {
     _Bool _succeeded;
-    NSString *_activityType;
-    NSUUID *_identifier;
-    NSUUID *_parentActivityIdentifier;
-    NSUUID *_storeIdentifier;
-    long long _eventType;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    NSString *_phase;
-    NSError *_error;
 }
 
 - (id);
-- (id);
+- (id)`C;
 - (void);
 - (id);
 - (id);
 - (long long);
 - (id);
-- (_Bool)ostProcessBundleIdentifier:isSPIClient:deviceSectionName:description:snapshotReason:snapshotRequestForBulletin:snapshotCharacteristicEventUUID:streamingTier: /* Error: Ran out of types for this method. */;
-- (id)vailableResident;
+- (_Bool)initWithUUID:hostProcessBundleIdentifier:isSPIClient:deviceSectionName:description:snapshotReason:snapshotRequestForBulletin:snapshotCharacteristicEventUUID:streamingTier: /* Error: Ran out of types for this method. */;
+- (id)currentDeviceAvailableResident;
 - (id)0¨\©üª;
 - (id)D;
 - (id)%@;
@@ -37,16 +26,7 @@ __attribute__((visibility("hidden")))
 - (id)xA;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *activityType; // @synthesize activityType=_activityType;
-@property(readonly, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
 @property(readonly, nonatomic) long long eventType; // @synthesize eventType=_eventType;
-@property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSUUID *parentActivityIdentifier; // @synthesize parentActivityIdentifier=_parentActivityIdentifier;
-@property(readonly, nonatomic) NSString *phase; // @synthesize phase=_phase;
-@property(readonly, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(readonly, nonatomic) NSUUID *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
-@property(readonly, nonatomic) _Bool succeeded; // @synthesize succeeded=_succeeded;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <HomeKit/HMSignificantTimeEvent.h>
 
-@class NSDateComponents, NSString;
+@class NSString;
 
 @interface HMMutableSignificantTimeEvent : HMSignificantTimeEvent
 {
@@ -14,7 +14,6 @@
 
 
 // Remaining properties
-@property(retain, nonatomic) NSDateComponents *offset; // @dynamic offset;
 @property(retain, nonatomic) NSString *significantEvent; // @dynamic significantEvent;
 @end
 

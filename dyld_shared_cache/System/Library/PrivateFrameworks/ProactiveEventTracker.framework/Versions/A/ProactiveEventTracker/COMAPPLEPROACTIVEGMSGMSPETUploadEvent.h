@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class COMAPPLEPETCOMMONPETMetadata, COMAPPLEPROACTIVEGMSGMSUberEvent;
+@class COMAPPLEPETCOMMONPETMetadata;
 
 @interface COMAPPLEPROACTIVEGMSGMSPETUploadEvent
 {
     COMAPPLEPETCOMMONPETMetadata *_metadata;
-    COMAPPLEPROACTIVEGMSGMSUberEvent *_uberEvent;
 }
 
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)	;
 - (void);
 - (void);
 - (unsigned long long);
@@ -31,9 +30,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasMetadata;
-@property(readonly, nonatomic) _Bool hasUberEvent;
-@property(retain, nonatomic) COMAPPLEPETCOMMONPETMetadata *metadata; // @synthesize metadata=_metadata;
-@property(retain, nonatomic) COMAPPLEPROACTIVEGMSGMSUberEvent *uberEvent; // @synthesize uberEvent=_uberEvent;
 
 @end
 

@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSVisualEffectView, PXCuratedLibraryOverlayButtonConfiguration, UXImageView, UXLabel, UXView;
-
 @interface PXCuratedLibraryOverlayButton
 {
     _Bool _isSizeCalculationButton;
-    PXCuratedLibraryOverlayButtonConfiguration *_userData;
-    unsigned long long _extendedHitTestInsetsEdges;
-    NSVisualEffectView *_effectView;
-    UXView *_contentView;
-    UXView *_customSolidBackgroundView;
-    UXImageView *_customIconImageView;
-    UXLabel *_customTitleLabel;
-    UXLabel *_customCaptionLabel;
-    NSString *_axLabel;
-    struct CGRect _clippingRect;
 }
 
 + (_Bool);
@@ -38,7 +26,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)xJ;
 - (id);
 - (id);
 - (void);
@@ -54,7 +42,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
@@ -68,40 +56,18 @@
 - (void);
 - (void);
 - (id)cale"i"flags"I"epoch"q}"maximumDuration"{?="value"q"timescale"i"flags"I"epoch"q}}};
-- (void)cription:(id)arg1 progress:forMode:itemCountsController:analysisStatus:cplUIStatus:inRebuild:reason: /* Error: Ran out of types for this method. */;
+- (void)_titleWithOptionalDescription:(id)arg1 progress:forMode:itemCountsController:analysisStatus:cplUIStatus:inRebuild:reason: /* Error: Ran out of types for this method. */;
 - (void);
-- (id)nPost;
+- (id)StoryExportSignPost;
 - (id), MaxTiles:%@, MaxASP:%.2f, MinASP:%.2f} /* Error: Ran out of types for this method. */;
-- (void)backDelegate;
+- (void)PhotosDynamicHeaderViewModelPlaybackDelegate;
 - (id)ªªn: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)³õ<;
 - (id)ä]Õÿ§ßN¨½>;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *axLabel; // @synthesize axLabel=_axLabel;
-@property(readonly, nonatomic) _Bool canUnloadWhenInvisible;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(nonatomic) struct CGRect clippingRect; // @synthesize clippingRect=_clippingRect;
-@property(retain, nonatomic) UXView *contentView; // @synthesize contentView=_contentView;
-@property(retain, nonatomic) UXLabel *customCaptionLabel; // @synthesize customCaptionLabel=_customCaptionLabel;
-@property(retain, nonatomic) UXImageView *customIconImageView; // @synthesize customIconImageView=_customIconImageView;
-@property(retain, nonatomic) UXView *customSolidBackgroundView; // @synthesize customSolidBackgroundView=_customSolidBackgroundView;
-@property(retain, nonatomic) UXLabel *customTitleLabel; // @synthesize customTitleLabel=_customTitleLabel;
-@property(retain, nonatomic) NSVisualEffectView *effectView; // @synthesize effectView=_effectView;
-@property(nonatomic) unsigned long long extendedHitTestInsetsEdges; // @synthesize extendedHitTestInsetsEdges=_extendedHitTestInsetsEdges;
-@property(readonly, nonatomic) _Bool isFloating;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(nonatomic) _Bool isSizeCalculationButton; // @synthesize isSizeCalculationButton=_isSizeCalculationButton;
-@property(readonly, nonatomic) _Bool shouldReuseWhenInvisible;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(copy, nonatomic) PXCuratedLibraryOverlayButtonConfiguration *userData; // @synthesize userData=_userData;
 
 @end
 

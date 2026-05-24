@@ -10,10 +10,10 @@
 
 - (void);
 - (id);
+- (void)h;
+- (struct CGSize)pected size;
 - (void);
-- (struct CGSize);
-- (void);
-- (_Bool)gBoxes;
+- (_Bool)showBoundingBoxes;
 
 @end
 

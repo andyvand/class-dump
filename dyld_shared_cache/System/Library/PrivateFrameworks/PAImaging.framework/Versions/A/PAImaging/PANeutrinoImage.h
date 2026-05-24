@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NUImageGeometry;
 @protocol NUTextureImage;
 
 @interface PANeutrinoImage
 {
     id <NUTextureImage> _foregroundImage;
-    NUImageGeometry *_foregroundGeometry;
-    id <NUTextureImage> _backgroundImage;
-    NUImageGeometry *_backgroundGeometry;
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -26,9 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(retain) NUImageGeometry *backgroundGeometry; // @synthesize backgroundGeometry=_backgroundGeometry;
-@property(retain) id <NUTextureImage> backgroundImage; // @synthesize backgroundImage=_backgroundImage;
-@property(retain) NUImageGeometry *foregroundGeometry; // @synthesize foregroundGeometry=_foregroundGeometry;
 @property(retain) id <NUTextureImage> foregroundImage; // @synthesize foregroundImage=_foregroundImage;
 
 @end

@@ -7,13 +7,6 @@
 @interface PKInkFeatheringDescriptor
 {
     double _startCapTime;
-    double _startCapDistance;
-    double _startCapFade;
-    double _startCapShrink;
-    double _endCapTime;
-    double _endCapDistance;
-    double _endCapFade;
-    double _endCapShrink;
 }
 
 + (id);
@@ -37,13 +30,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) double endCapDistance; // @synthesize endCapDistance=_endCapDistance;
-@property(nonatomic) double endCapFade; // @synthesize endCapFade=_endCapFade;
-@property(nonatomic) double endCapShrink; // @synthesize endCapShrink=_endCapShrink;
-@property(nonatomic) double endCapTime; // @synthesize endCapTime=_endCapTime;
-@property(nonatomic) double startCapDistance; // @synthesize startCapDistance=_startCapDistance;
-@property(nonatomic) double startCapFade; // @synthesize startCapFade=_startCapFade;
-@property(nonatomic) double startCapShrink; // @synthesize startCapShrink=_startCapShrink;
 @property(nonatomic) double startCapTime; // @synthesize startCapTime=_startCapTime;
 
 @end

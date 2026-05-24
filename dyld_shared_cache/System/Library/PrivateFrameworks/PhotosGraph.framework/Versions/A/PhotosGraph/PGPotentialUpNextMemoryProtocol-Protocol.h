@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PHAsset, PHMemory;
+@class NSString, PHMemory;
 
 @protocol PGPotentialUpNextMemoryProtocol
-- (NSString *)leToExtract: /* Error: Ran out of types for this method. */;
+- (_Bool)F;
+- (PHMemory *)z;
+- (NSString *)initWithNumberOfFrequentPeopleToExtract: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) PHAsset *keyAsset;
-@property(readonly, nonatomic) NSString *keyAssetLocalIdentifier;
 @property(readonly, nonatomic) PHMemory *memory;
-@property(readonly, nonatomic) NSString *memoryLocalIdentifier;
-@property(readonly, nonatomic) NSString *subtitle;
-@property(readonly, nonatomic) NSString *title;
 @end
 

@@ -7,8 +7,6 @@
 @interface LPSpecializationMetadata
 {
     _Bool __dummyPropertyForObservation;
-    _Bool __canDeferAsynchronousFieldsMetadataUpdateUntilCompletion;
-    _Bool __disallowsURLOverrideByDelegate;
 }
 
 + (id);
@@ -17,13 +15,11 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)6@"NSError"24;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool _canDeferAsynchronousFieldsMetadataUpdateUntilCompletion; // @synthesize _canDeferAsynchronousFieldsMetadataUpdateUntilCompletion=__canDeferAsynchronousFieldsMetadataUpdateUntilCompletion;
-@property(readonly, nonatomic) _Bool _disallowsURLOverrideByDelegate; // @synthesize _disallowsURLOverrideByDelegate=__disallowsURLOverrideByDelegate;
 @property(readonly, nonatomic) _Bool _dummyPropertyForObservation; // @synthesize _dummyPropertyForObservation=__dummyPropertyForObservation;
 
 @end

@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface RTTripSegmentInertialDataMO
 {
 }
 
-+ (id);
-+ (id);
++ (id)_PCSKeyData}^{__CFData}^{_PCSKeyData}^{__CFDictionary}II{PCSAttributes=I^{PCSTypeValue}}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I};
++ (id)(%@);
 
 // Remaining properties
-@property(nonatomic) double dataPeriodSec; // @dynamic dataPeriodSec;
-@property(nonatomic) double deltaCourseRad; // @dynamic deltaCourseRad;
 @property(nonatomic) double deltaCourseSpeedCovRadMps; // @dynamic deltaCourseSpeedCovRadMps;
-@property(nonatomic) double deltaCourseVarRad2; // @dynamic deltaCourseVarRad2;
-@property(nonatomic) double deltaSpeedMps; // @dynamic deltaSpeedMps;
-@property(nonatomic) double deltaSpeedVarMps2; // @dynamic deltaSpeedVarMps2;
-@property(copy, nonatomic) NSDate *timestamp; // @dynamic timestamp;
 
 @end
 

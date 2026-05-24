@@ -4,60 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSDictionary, NSString, NSTimer;
-@protocol MicaPlayerDelegate;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface MicaPlayer
 {
     _Bool _loopDuringPlayback;
-    float _preferredPlaybackSpeed;
-    id <MicaPlayerDelegate> _delegate;
-    NSString *_path;
-    NSDictionary *_publishedObjects;
-    CALayer *_rootLayer;
-    double _retinaScale;
-    double _documentDuration;
-    NSTimer *_playTimer;
 }
 
 + (id);
 + (id);
 + (_Bool);
+- (void)setType;
+- (void)s;
+- (void)initWithString:(id)arg1;
+- (void)anagerDataSource>",R,V_dataSource;
+- (void)assertionDueForUpdateSinceDate:(id)arg1;
+- (void)DDSAssertionTracker;
 - (void);
+- (void)ated the assets for asset type:(id)arg1 %@;
+- (double)rror:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)query:(%{public}@), DDSAssetUpdateStatus:(%ld) /* Error: Ran out of types for this method. */;
+- (id)rtions for existing assertions;
+- (float)or auto asset corresponding to asset type %@ ...;
+- (id)r:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)type:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)pdate all assertions:%{public}@ for asset type:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)@;
+- (void)state object not found for asset type:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)tions;
+- (_Bool)Stub:assertionIDsForClientID called (returning empty set) /* Error: Ran out of types for this method. */;
+- (_Bool)uery:%@.  Are you really, really sure you meant that? /* Error: Ran out of types for this method. */;
+- (id)PCConnectionOptions for macOS connection;
+- (id)ion to server interrupted.;
+- (id)ry:(id)arg1 %{public}@;
+- (id)te:(id)arg1 %f, date:(id)arg2 %@;
+- (double)24@?0@"DDSTrialAsset"8@"NSError"16;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
 - (id);
-- (id);
-- (float);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (double);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
+- (void)edTransportBundleId;
 - (double);
 - (void);
 - (void);
-- (void);
+- (void)rror">24;
 - (id);
 - (void);
 - (void);
@@ -70,18 +61,7 @@ __attribute__((visibility("hidden")))
 - (void)yqµ=yAAyÞ=SÙ=ySiSgGGACyLÝ=SgGG_Qo_;
 
 // Remaining properties
-@property(nonatomic) __weak id <MicaPlayerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) double documentDuration; // @synthesize documentDuration=_documentDuration;
-@property(readonly, nonatomic) _Bool isPlaybackAtEnd;
-@property(readonly, nonatomic) _Bool isPlaying;
-@property(nonatomic) _Bool loopDuringPlayback; // @synthesize loopDuringPlayback=_loopDuringPlayback;
 @property(retain, nonatomic) NSString *path; // @synthesize path=_path;
-@property(retain, nonatomic) NSTimer *playTimer; // @synthesize playTimer=_playTimer;
-@property(nonatomic) double playbackTime;
-@property(nonatomic) float preferredPlaybackSpeed; // @synthesize preferredPlaybackSpeed=_preferredPlaybackSpeed;
-@property(retain, nonatomic) NSDictionary *publishedObjects; // @synthesize publishedObjects=_publishedObjects;
-@property(nonatomic) double retinaScale; // @synthesize retinaScale=_retinaScale;
-@property(retain, nonatomic) CALayer *rootLayer; // @synthesize rootLayer=_rootLayer;
 
 @end
 

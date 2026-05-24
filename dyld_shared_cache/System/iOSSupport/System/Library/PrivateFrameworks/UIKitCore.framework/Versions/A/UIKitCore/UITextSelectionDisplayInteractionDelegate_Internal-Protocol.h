@@ -4,9 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UITextSelection;
+@class NSString, UITextSelection, UITextSelectionDisplayInteraction;
+@protocol UITextCursorAssertion;
 
 @protocol UITextSelectionDisplayInteractionDelegate_Internal
+
+@optional
+- (id <UITextCursorAssertion>)handleRepositionStickerCommandWithPipeline:(UITextSelectionDisplayInteraction *)arg1 input:(NSString *)arg2 completionBlock: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)handleRelayEncryptionFailureForRelayMessageID:(UITextSelectionDisplayInteraction *)arg1;
+- (struct CGPoint)handleRecordsFilteredByPredicate:(UITextSelectionDisplayInteraction *)arg1;
+- (id <UITextCursorAssertion>);
 
 // Remaining properties
 @property(readonly, nonatomic) UITextSelection *activeSelection;

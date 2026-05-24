@@ -7,18 +7,6 @@
 @interface ContactsUICore.ContactCardActionsViewModel
 {
     id _actionsProvider;
-    id _sendMessageMenuItems;
-    id _addToFavoritesMenuItems;
-    id _gameCenterAddFriendMenuItems;
-    id _addToEmergencyContactsMenuItems;
-    id placement;
-    id _viewControllerToPresent;
-    id $__lazy_storage_$_contactFormatter;
-    id $__lazy_storage_$_basicContactFormatter;
-    id _supportedSections;
-    id _sections;
-    id contact;
-    id _$observationRegistrar;
 }
 
 - (void);

@@ -13,8 +13,8 @@
 
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)C;
+- (id),N,V_wantsUpdates;
 - (void)
 × ;
 - (id)p;

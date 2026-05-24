@@ -19,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id)1Â0@ù
 × ;
-- (id)pplySnapshot:animatingDifferences:completion: /* Error: Ran out of types for this method. */;
+- (id)_applySnapshot:animatingDifferences:completion: /* Error: Ran out of types for this method. */;
 - (void)"yc;
 - (id);
 

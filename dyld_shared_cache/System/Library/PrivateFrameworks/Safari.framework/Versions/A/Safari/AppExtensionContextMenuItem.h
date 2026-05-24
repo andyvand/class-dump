@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AppExtensionContextMenu, NSString;
+@class AppExtensionContextMenu;
 
 __attribute__((visibility("hidden")))
 @interface AppExtensionContextMenuItem
 {
     AppExtensionContextMenu *_contextMenu;
-    NSString *_text;
-    NSString *_command;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)onWithIndex:(id)arg1;
-- (id)wToAttachOrphanedPinnedTabsToInProfileWithIdentifier: /* Error: Ran out of types for this method. */;
+- (void)_handleDroppingURLs:(id)arg1 onTabButtonWithIndex: /* Error: Ran out of types for this method. */;
+- (id)_firstWindowToAttachOrphanedPinnedTabsToInProfileWithIdentifier: /* Error: Ran out of types for this method. */;
 - (void)°ì;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *command; // @synthesize command=_command;
 @property(readonly, nonatomic) __weak AppExtensionContextMenu *contextMenu; // @synthesize contextMenu=_contextMenu;
-@property(copy, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end
 

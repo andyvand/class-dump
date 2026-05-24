@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSMessageContext, IDSService, IMDChatRegistry, IMDMessageFromStorageController, IMDMessageStore, IMDRecentsController;
+@class IMDMessageStore;
 
 @interface IMReadReceiptProcessingPipelineComponent
 {
     IMDMessageStore *_messageStore;
-    IMDChatRegistry *_chatRegistry;
-    IMDRecentsController *_recents;
-    IDSService *_service;
-    IDSMessageContext *_messageContext;
-    IMDMessageFromStorageController *_storageController;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void).;
 - (void);
 
 @end

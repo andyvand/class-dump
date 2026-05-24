@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAShapeLayer, LPCircularProgressIndicatorStyle;
+@class LPCircularProgressIndicatorStyle;
 
 __attribute__((visibility("hidden")))
 @interface LPCircularProgressIndicator
 {
     LPCircularProgressIndicatorStyle *_style;
-    CAShapeLayer *_borderLayer;
-    CAShapeLayer *_progressLayer;
-    double _progress;
 }
 
 - (void);
-- (id);
+- (id)stickerReactionVerticalOverlapPercentage;
 - (void);
 - (double);
-- (void);
+- (void)k.;
 - (void)qð1Â0@ù
 × ;
 

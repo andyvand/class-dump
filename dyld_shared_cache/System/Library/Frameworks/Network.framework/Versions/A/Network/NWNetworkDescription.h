@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, NSURL;
+@class NSSet;
 
 @interface NWNetworkDescription
 {
     NSSet *_interfaceTypeOptions;
-    NSSet *_ssidOptions;
-    NSSet *_dnsSearchDomainOptions;
-    NSSet *_dnsServerAddressOptions;
-    long long _roamingPreference;
-    NSURL *_probeURL;
-    long long _state;
 }
 
 + (long long);
@@ -22,10 +16,10 @@
 - (void);
 - (void);
 - (void);
+- (id)CA::Render::PerModeInfo>, std::equal_to<unsigned long long>, std::hash<unsigned long long>>, std::allocator<std::pair<const unsigned long long, CA::Render::PerModeInfo>>>={unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, CA::Render::PerModeInfo>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, CA::Render::PerModeInfo>, void *> *> *>>>={?=^^v{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, CA::Render::PerModeInfo>, void *> *> *>>={?=Q}}}}{?={__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, CA::Render::PerModeInfo>, void *> *>=^v}}{?=Q}{?=f}}}II}16@0:8 /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
-- (unsigned long long);
+- (void)9h;
+- (unsigned long long);
 - (void);
 - (id);
 - (void);
@@ -37,19 +31,12 @@
 - (void);
 - (id);
 - (_Bool);
-- (id)onProxyArray;
+- (id)_connectionProxyArray;
 - (id)nitWithData:clientID:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void)2cD;
 
 // Remaining properties
-@property(copy) NSSet *dnsSearchDomainOptions; // @synthesize dnsSearchDomainOptions=_dnsSearchDomainOptions;
-@property(copy) NSSet *dnsServerAddressOptions; // @synthesize dnsServerAddressOptions=_dnsServerAddressOptions;
-@property(copy) NSSet *interfaceTypeOptions; // @synthesize interfaceTypeOptions=_interfaceTypeOptions;
-@property(readonly, nonatomic) NSString *privateDescription;
-@property(copy) NSURL *probeURL; // @synthesize probeURL=_probeURL;
-@property long long roamingPreference; // @synthesize roamingPreference=_roamingPreference;
-@property(copy) NSSet *ssidOptions; // @synthesize ssidOptions=_ssidOptions;
 @property long long state; // @synthesize state=_state;
 
 @end

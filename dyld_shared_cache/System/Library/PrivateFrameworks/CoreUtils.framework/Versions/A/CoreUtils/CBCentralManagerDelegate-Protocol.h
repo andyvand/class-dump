@@ -5,8 +5,10 @@
 //
 
 @protocol CBCentralManagerDelegate
+- (void);
 
 @optional
+- (void);
 - (void)Ø¹@»T»;
 @end
 

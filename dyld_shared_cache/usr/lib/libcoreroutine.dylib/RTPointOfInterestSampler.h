@@ -6,72 +6,48 @@
 
 #import <coreroutine/RTService.h>
 
-@class NSMutableArray, NSMutableDictionary, RTDefaultsManager, RTLocationManager, RTPlaceInferenceManager, RTTimer, RTTimerManager, RTWiFiManager;
+@class RTDefaultsManager;
 
 @interface RTPointOfInterestSampler : RTService
 {
     _Bool _registeredForWifiScan;
-    _Bool _running;
-    _Bool _shouldRun;
-    RTDefaultsManager *_defaultsManager;
-    RTLocationManager *_locationManager;
-    RTPlaceInferenceManager *_placeInferenceManager;
-    RTTimerManager *_timerManager;
-    RTWiFiManager *_wifiManager;
-    double _samplingInterval;
-    NSMutableDictionary *_requesters;
-    RTTimer *_samplingTimer;
-    RTTimer *_wifiScanTimer;
-    NSMutableArray *_accessPoints;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
+- (void)k/AuthKit;
+- (void)L;
+- (void)s is %d;
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)k#ɚ_;
+- (id);
+- (_Bool);
+- (double)pseudonymForPseudonymURI: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (_Bool);
-- (double);
-- (id);
-- (id);
-- (_Bool);
 - (void);
 - (id);
-- (id)ficationDisconnected;
-- (id)RatioMax;
+- (id)RTBluetoothManagerNotificationDisconnected;
+- (id)affectedLOIRatioMax;
 - (id)erestMO managedObjectWithLocationOfInterest:managedObject:inManagedObjectContext:]_block_invoke /* Error: Ran out of types for this method. */;
-- (void)storicallyLocationStarved;
-- (id)isableBackgroundPOIMonitoring;
+- (void)IsLoiHistoricallyLocationStarved;
+- (id)RTDefaultsBluePOIMonitorEnablerDisableBackgroundPOIMonitoring;
 - (void)order;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *accessPoints; // @synthesize accessPoints=_accessPoints;
 @property(readonly, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(readonly, nonatomic) RTLocationManager *locationManager; // @synthesize locationManager=_locationManager;
-@property(readonly, nonatomic) RTPlaceInferenceManager *placeInferenceManager; // @synthesize placeInferenceManager=_placeInferenceManager;
-@property(nonatomic) _Bool registeredForWifiScan; // @synthesize registeredForWifiScan=_registeredForWifiScan;
-@property(retain, nonatomic) NSMutableDictionary *requesters; // @synthesize requesters=_requesters;
-@property(nonatomic) _Bool running; // @synthesize running=_running;
-@property(nonatomic) double samplingInterval; // @synthesize samplingInterval=_samplingInterval;
-@property(retain, nonatomic) RTTimer *samplingTimer; // @synthesize samplingTimer=_samplingTimer;
-@property(nonatomic) _Bool shouldRun; // @synthesize shouldRun=_shouldRun;
-@property(readonly, nonatomic) RTTimerManager *timerManager; // @synthesize timerManager=_timerManager;
-@property(readonly, nonatomic) RTWiFiManager *wifiManager; // @synthesize wifiManager=_wifiManager;
-@property(retain, nonatomic) RTTimer *wifiScanTimer; // @synthesize wifiScanTimer=_wifiScanTimer;
 
 @end
 

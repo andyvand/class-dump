@@ -4,28 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_data, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_data;
 
 __attribute__((visibility("hidden")))
 @interface NWConcrete_nw_ws_ping_request
 {
     NSObject<OS_dispatch_data> *contents;
-    NSObject<OS_dispatch_queue> *client_queue;
-    CDUnknownBlockType pong_handler;
 }
 
-- (void);
+- (void)CUIShapeEffectBevelEmboss;
 - (void)@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

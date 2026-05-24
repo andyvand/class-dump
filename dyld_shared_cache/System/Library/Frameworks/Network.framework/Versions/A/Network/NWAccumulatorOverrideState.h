@@ -10,21 +10,18 @@ __attribute__((visibility("hidden")))
 @interface NWAccumulatorOverrideState
 {
     struct os_unfair_lock_s _lock;
-    NSString *_state;
-    NSString *_name;
 }
 
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)<;
 - (void);
 - (id);
-- (void)pod_definition_block_invoke_2;
+- (void)nw_protocol_copy_qpod_definition_block_invoke_2;
 - (void)@;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
 @property(retain, nonatomic) NSString *state; // @synthesize state=_state;
 
 @end

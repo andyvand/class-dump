@@ -12,19 +12,19 @@
 }
 
 + (id);
-- (id);
-- (id);
-- (void);
+- (id)dit:(double)arg1 %@;
+- (id)to modify committed edit:(double)arg1 %@;
+- (void)lod:(double)arg1;
 - (unsigned long long);
-- (id);
+- (id)errides %{public}@;
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (unsigned long long)1Â0@ù
 × ;
 - (unsigned long long)irectory.AbPtYx/Sources/AlderShared/persistence/src/TSPFileManager.m;

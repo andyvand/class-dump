@@ -5,5 +5,17 @@
 //
 
 @protocol VideoConferenceDelegate
+
+@optional
+- (void);
+- (void);
+- (void);
+- (void)R;
+- (void)qA;
+- (void);
+- (void)A;
+- (void)|;
+- (void);
+- (void);
 @end
 

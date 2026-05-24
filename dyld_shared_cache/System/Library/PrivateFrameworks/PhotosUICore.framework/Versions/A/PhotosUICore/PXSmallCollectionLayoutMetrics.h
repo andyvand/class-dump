@@ -7,11 +7,6 @@
 @interface PXSmallCollectionLayoutMetrics
 {
     unsigned long long _style;
-    double _interitemSpacing;
-    unsigned long long _edgesForExtendedLayout;
-    double _headerAspectRatio;
-    struct NSEdgeInsets _safeAreaInsets;
-    struct NSEdgeInsets _padding;
 }
 
 - (void);
@@ -21,19 +16,14 @@
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (void);
-- (void);
-- (id)or:(struct _NSZone *)arg1;
+- (void);
+- (void)definedPlaceNameForPath:(unsigned long long)arg1;
+- (id)setDisabledColor:(struct _NSZone *)arg1;
 - (struct NSEdgeInsets)old data source):%{public}@ /* Error: Ran out of types for this method. */;
 - (struct NSEdgeInsets);
-- (void)ceObserver;
+- (void)PXUtilityAlbumVisibilityPreferenceObserver;
 
 // Remaining properties
-@property(nonatomic) unsigned long long edgesForExtendedLayout; // @synthesize edgesForExtendedLayout=_edgesForExtendedLayout;
-@property(nonatomic) double headerAspectRatio; // @synthesize headerAspectRatio=_headerAspectRatio;
-@property(nonatomic) double interitemSpacing; // @synthesize interitemSpacing=_interitemSpacing;
-@property(nonatomic) struct NSEdgeInsets padding; // @synthesize padding=_padding;
-@property(nonatomic) struct NSEdgeInsets safeAreaInsets; // @synthesize safeAreaInsets=_safeAreaInsets;
 @property(nonatomic) unsigned long long style; // @synthesize style=_style;
 
 @end

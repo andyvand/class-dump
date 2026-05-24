@@ -6,24 +6,10 @@
 
 #import <CMCapture/BWDeferredIntermediate.h>
 
-@class NSDictionary, NSString;
-
 __attribute__((visibility("hidden")))
 @interface BWDeferredBufferIntermediate : BWDeferredIntermediate
 {
     struct __CVBuffer *_buffer;
-    NSDictionary *_attributes;
-    NSString *_metadataTag;
-    unsigned long long _bufferType;
-    unsigned long long _captureFrameFlags;
-    NSString *_rawThumbnailsBufferTag;
-    NSString *_rawThumbnailsMetadataTag;
-    NSString *_mainRawThumbnailBufferTag;
-    NSString *_mainRawThumbnailMetadataTag;
-    NSString *_sifrRawThumbnailBufferTag;
-    NSString *_sifrRawThumbnailMetadataTag;
-    NSString *_portType;
-    int _compressionProfile;
 }
 
 + (_Bool)0@ù
@@ -31,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (int);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -45,7 +31,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)H;
 - (id);
 - (id);
 - (id);
@@ -57,19 +43,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *attributes; // @synthesize attributes=_attributes;
 @property(readonly, nonatomic) struct __CVBuffer *buffer; // @synthesize buffer=_buffer;
-@property(readonly, nonatomic) unsigned long long bufferType; // @synthesize bufferType=_bufferType;
-@property(readonly, nonatomic) unsigned long long captureFrameFlags; // @synthesize captureFrameFlags=_captureFrameFlags;
-@property(readonly, nonatomic) int compressionProfile; // @synthesize compressionProfile=_compressionProfile;
-@property(readonly, nonatomic) NSString *mainRawThumbnailBufferTag; // @synthesize mainRawThumbnailBufferTag=_mainRawThumbnailBufferTag;
-@property(readonly, nonatomic) NSString *mainRawThumbnailMetadataTag; // @synthesize mainRawThumbnailMetadataTag=_mainRawThumbnailMetadataTag;
-@property(readonly, nonatomic) NSString *metadataTag; // @synthesize metadataTag=_metadataTag;
-@property(readonly, nonatomic) NSString *portType; // @synthesize portType=_portType;
-@property(readonly, nonatomic) NSString *rawThumbnailsBufferTag; // @synthesize rawThumbnailsBufferTag=_rawThumbnailsBufferTag;
-@property(readonly, nonatomic) NSString *rawThumbnailsMetadataTag; // @synthesize rawThumbnailsMetadataTag=_rawThumbnailsMetadataTag;
-@property(readonly, nonatomic) NSString *sifrRawThumbnailBufferTag; // @synthesize sifrRawThumbnailBufferTag=_sifrRawThumbnailBufferTag;
-@property(readonly, nonatomic) NSString *sifrRawThumbnailMetadataTag; // @synthesize sifrRawThumbnailMetadataTag=_sifrRawThumbnailMetadataTag;
 
 @end
 

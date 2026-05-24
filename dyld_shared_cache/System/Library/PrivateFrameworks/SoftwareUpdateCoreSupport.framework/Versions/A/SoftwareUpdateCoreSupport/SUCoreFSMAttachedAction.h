@@ -9,8 +9,6 @@
 @interface SUCoreFSMAttachedAction
 {
     NSString *_fsmAction;
-    id _actionDelegate;
-    Class _eventInfoClass;
 }
 
 - (Class);
@@ -21,8 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) __weak id actionDelegate; // @synthesize actionDelegate=_actionDelegate;
-@property(readonly, retain, nonatomic) Class eventInfoClass; // @synthesize eventInfoClass=_eventInfoClass;
 @property(readonly, retain, nonatomic) NSString *fsmAction; // @synthesize fsmAction=_fsmAction;
 
 @end

@@ -6,41 +6,27 @@
 
 #import <ChatKit/CKTranscriptCell.h>
 
-@class ChatKit.QuickReplyButtonListConfiguration, NSArray, NSString, UIView;
-@protocol CKVisionReplyListTranscriptCellDelegate;
+@class NSArray, UIView;
 
 @interface CKVisionReplyListTranscriptCell : CKTranscriptCell
 {
     NSArray *_replies;
-    id <CKVisionReplyListTranscriptCellDelegate> _delegate;
-    ChatKit.QuickReplyButtonListConfiguration *_configuration;
-    UIView *_listView;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)setShouldShowSpinner:(id)arg1;
+- (void)iconSize;
+- (void)_currentRecordingDuration;
+- (id)ackground for %@;
+- (void)_layoutContainer;
+- (id)setForceWordWrapping:,V_forceWordWrapping /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void)TranscriptTailspinLoggingInterval;
+- (id)ect={CGPoint=dd}{CGSize=dd}}32@0:(struct CGRect)arg1 8@16@24;
+- (void)PushToTranscriptTailspinLoggingInterval;
 
 // Remaining properties
-@property(readonly, nonatomic) ChatKit.QuickReplyButtonListConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKVisionReplyListTranscriptCellDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) UIView *listView; // @synthesize listView=_listView;
-@property(retain, nonatomic) NSArray *replies; // @synthesize replies=_replies;
-@property(readonly) Class superclass;
 
 @end
 

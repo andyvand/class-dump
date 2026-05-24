@@ -6,8 +6,7 @@
 
 #import <HomeKitDaemon/_MKFModel.h>
 
-@class MKFMatterPathDatabaseID, NSArray, NSDate, NSNumber, NSSet, NSString, NSUUID;
-@protocol MKFHAPAccessory, MKFHome;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface _MKFMatterPath : _MKFModel
@@ -24,9 +23,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)intermediateArrivalWaypointPostedNotifications;
+- (id)ctionsSearch",&,N,V_directionsSearch;
+- (id)GEONavigationListenerDelegate;
 - (id);
 - (void);
 - (_Bool);
@@ -37,36 +36,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) id <MKFHAPAccessory> accessory; // @dynamic accessory;
-@property(readonly, retain, nonatomic) NSArray *actionCommands;
-@property(retain, nonatomic) NSSet *actionCommands_; // @dynamic actionCommands_;
 @property(copy, nonatomic) NSNumber *attributeID; // @dynamic attributeID;
-@property(copy, nonatomic) NSNumber *clusterID; // @dynamic clusterID;
-@property(copy, nonatomic) NSNumber *commandID; // @dynamic commandID;
-@property(readonly, copy, nonatomic) MKFMatterPathDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSNumber *endpointID; // @dynamic endpointID;
-@property(readonly, retain, nonatomic) NSArray *eventAttributes;
-@property(retain, nonatomic) NSSet *eventAttributes_; // @dynamic eventAttributes_;
-@property(copy, nonatomic) NSNumber *eventID; // @dynamic eventID;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSUUID *hmd_modelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(readonly, copy, nonatomic) NSUUID *hmd_parentModelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(readonly) id <MKFHome> home;
-@property(readonly, retain, nonatomic) NSArray *matterBulletinRegistrations;
-@property(readonly, copy, nonatomic) NSUUID *modelID; // @dynamic modelID;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDate *writerTimestamp; // @dynamic writerTimestamp;
 
 @end
 

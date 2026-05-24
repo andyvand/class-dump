@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSSegmentedCell, NSSegmentedControlBezelConfiguration, NSString, NSView;
+@class NSView;
 
 __attribute__((visibility("hidden")))
 @interface NSSegmentedControlAppearanceBasedVisualProvider
 {
     NSView *_controlView;
-    NSSegmentedCell *_segmentedCell;
-    NSSegmentedControlBezelConfiguration *_bezelConfiguration;
-    NSMutableArray *_segmentItems;
-    struct CGRect _lastBounds;
-    unsigned int _trimmedLabels:1;
-    unsigned int _overridesCoreUIDrawSegmentBackground:1;
-    unsigned int _overridesDrawMenuIndicator:1;
 }
 
-+ (id);
++ (id)s;
 - (_Bool);
 - (int);
 - (void);
@@ -44,69 +37,63 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (struct CGSize);
-- (struct CGRect);
+- (struct CGRect);
 - (id);
 - (_Bool);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void):(struct CGRect)arg1;
 - (struct CGSize);
 - (id);
 - (struct NSEdgeInsets);
-- (_Bool);
-- (_Bool);
-- (void);
-- (long long);
-- (id);
-- (long long);
-- (_Bool);
-- (void);
-- (struct CGRect);
-- (struct CGRect);
-- (void);
+- (_Bool)respondedToWillBeginDelayedRequestCallback;
+- (_Bool)getAllTasksWithCompletionHandler: /* Error: Ran out of types for this method. */;
+- (void)closeRead;
+- (long long)ion;
+- (id)Prefix rules. Cookie = %@;
+- (long long)he domain of the inURL. Cookie ignored = %@;
+- (_Bool)s %@ error %@;
+- (void)is no such task;
+- (struct CGRect)here;
+- (struct CGRect)):(long long)arg1 Asked to create from a NULL request!;
+- (void)llu:(long long)arg1 failed to clone trust, error %@ [%ld];
 - (struct CGSize);
 - (double);
 - (struct NSEdgeInsets);
-- (struct CGSize);
+- (struct CGSize)8$;
 - (struct CGRect);
-- (struct CGSize);
+- (struct CGSize)p;
 - (_Bool);
-- (_Bool);
-- (double);
-- (void);
+- (_Bool)_kCFNTimingDataNStatRXDuplicateBytes;
+- (double)0B8@"NSObject<OS_dispatch_data>"12B20{?=qi}24@"NSObject<OS_nw_content_context>"40;
+- (void).cpp;
 - (_Bool);
 - (struct __CFDictionary *);
-- (void);
+- (void)NNNN)N8NOO
+OOOO)O8OPP
+PPPP)P8PQ	QQ(QR	RR(RS	SS(ST	TT(TQQ
+QQQQ)Q8QRR
+RRRR)R8RSS
+SSSS)S8STT
+TTTT)T8T;
 - (struct CGRect);
 - (void);
 - (void);
 - (void);
-- (void);
-- (struct CGSize);
-- (struct CGRect);
-- (void);
+- (void)@;
+- (struct CGSize);
+- (struct CGRect)@;
+- (void) ;
 - (id);
 - (id);
-- (void);
+- (void)NSBinder;
 - (double)|+8ÿ;
-- (void)View;
+- (void)_NSPlatformLayerView;
 
 // Remaining properties
 @property(readonly) _Bool _usesItemViews;
-@property(copy) NSSegmentedControlBezelConfiguration *bezelConfiguration;
-@property __weak NSView *controlView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSArray *segmentItemConfigurations;
-@property __weak NSSegmentedCell *segmentedCell;
-@property(readonly) Class superclass;
-@property(readonly) _Bool wantsUpdateLayer;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface CRKZipOperation
 {
     NSURL *_directoryURL;
-    NSURL *_destinationZipFileURL;
 }
 
 - (_Bool);
@@ -20,7 +19,7 @@
 - (_Bool);
 - (const char *);
 - (_Bool);
-- (_Bool);
+- (_Bool)C;
 - (struct archive *);
 - (long long);
 - (id);
@@ -30,12 +29,11 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)%@;
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *destinationZipFileURL; // @synthesize destinationZipFileURL=_destinationZipFileURL;
 @property(readonly, nonatomic) NSURL *directoryURL; // @synthesize directoryURL=_directoryURL;
 
 @end

@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSSet;
-@protocol PKCloudStoreCoding;
+@class NSMutableDictionary, NSSet;
 
 @interface PKCloudRecordObject
 {
@@ -22,12 +21,11 @@
 - (id);
 - (id);
 - (void);
-- (id)geSet: /* Error: Ran out of types for this method. */;
+- (id)_initWithDisplayProfile:fileURL:screenScale:suffix:frontFaceImageSet: /* Error: Ran out of types for this method. */;
 - (void)tion;
 - (id)ÿþli|F!;
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<PKCloudStoreCoding> *item;
 @property(readonly, nonatomic) NSSet *records;
 
 @end

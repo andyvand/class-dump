@@ -12,13 +12,12 @@
 }
 
 - (unsigned long long);
-- (id);
+- (id)lastFullIndexSyndicationSyncStartDate;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long responseCount; // @dynamic responseCount;
-@property(readonly, nonatomic) NSDictionary *resultDictionary; // @dynamic resultDictionary;
 
 @end
 

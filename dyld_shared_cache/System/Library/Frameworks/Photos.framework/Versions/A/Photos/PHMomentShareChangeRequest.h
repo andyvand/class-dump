@@ -6,22 +6,11 @@
 
 #import <Photos/PHChangeRequest.h>
 
-@class NSData, NSDate, NSDictionary, NSManagedObjectID, NSOrderedSet, NSString, NSXPCConnection, PHMomentShare, PHObjectPlaceholder, PHShareAssetChangeRequestHelper, PHShareParticipantRelationshipChangeRequestHelper;
-@protocol PLChangesForServiceHandling;
+@class PHMomentShare, PHShareParticipantRelationshipChangeRequestHelper;
 
 @interface PHMomentShareChangeRequest : PHChangeRequest
 {
     PHMomentShare *_originalMomentShare;
-    NSXPCConnection *_clientConnection;
-    _Bool _changedAssets;
-    NSString *_keySourceAssetIdentifier;
-    NSOrderedSet *_sourceAssetIdentifiersForBatchedCreation;
-    NSOrderedSet *_sourceAssetIdentifiersForCurationSet;
-    NSDictionary *_sourceAssetCMMAssetMapForCreationRequest;
-    NSDictionary *_sourceAssetIdentifiersToAdjustmentBakeInOptionsDictionaryForBatchedCreation;
-    NSDictionary *_sourceAssetIdentifiersToMetadataCopyOptionsDictionaryForBatchedCreation;
-    PHShareParticipantRelationshipChangeRequestHelper *_participantsHelper;
-    PHShareAssetChangeRequestHelper *_assetsHelper;
 }
 
 + (id);
@@ -32,7 +21,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -40,7 +29,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id).A!;
 - (id);
 - (id);
 - (void);
@@ -55,45 +44,18 @@
 - (id);
 - (void);
 - (short);
-- (id);
-- (short);
+- (id)@;
+- (short)handler to existing list (%lu completion handlers).;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void)eInIfAdjustedByThirdParty;
 
 // Remaining properties
-@property(readonly, nonatomic) long long accessScopeOptionsRequirement;
-@property(readonly, nonatomic) PHShareAssetChangeRequestHelper *assetsHelper; // @synthesize assetsHelper=_assetsHelper;
-@property(readonly, nonatomic) NSString *changeTypeForSummary;
-@property(readonly, nonatomic) id <PLChangesForServiceHandling> changesForServiceHandler;
-@property(readonly, nonatomic) NSString *clientBundleID;
-@property(readonly, nonatomic, getter=isClientEntitled) _Bool clientEntitled;
-@property(readonly, nonatomic) NSString *clientName;
-@property(nonatomic) short compatibilityState;
-@property(retain, nonatomic) NSDate *creationDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isNewRequest;
-@property(readonly, nonatomic) NSString *managedEntityName;
-@property(readonly, getter=isMutated) _Bool mutated;
-@property(readonly, nonatomic) NSManagedObjectID *objectID;
-@property(retain, nonatomic) NSString *originatingScopeIdentifier;
 @property(readonly, nonatomic) PHShareParticipantRelationshipChangeRequestHelper *participantsHelper; // @synthesize participantsHelper=_participantsHelper;
-@property(readonly, nonatomic) PHObjectPlaceholder *placeholderForCreatedMomentShare;
-@property(retain, nonatomic) NSData *previewData;
-@property(nonatomic) _Bool shouldIgnoreBudgets;
-@property(nonatomic) _Bool shouldNotifyOnUploadCompletion;
-@property(nonatomic) _Bool shouldPerformConcurrentWork;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *title;
 
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary;
-
 @protocol SFApiResults
+- (void);
+- (int);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSArray *flights;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int resultType;
 @property(nonatomic) int status;
 @end
 

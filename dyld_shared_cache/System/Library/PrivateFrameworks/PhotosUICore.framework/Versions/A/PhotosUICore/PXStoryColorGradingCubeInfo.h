@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSDictionary, NSString;
 
 @interface PXStoryColorGradingCubeInfo
 {
@@ -18,16 +18,11 @@
 - (id);
 - (id);
 - (id);
-- (id)istManager;
+- (id)ItemListManager;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *categories;
-@property(readonly, nonatomic) _Bool isAutoSelectable;
-@property(readonly, nonatomic) _Bool isUserSelectable;
-@property(readonly, nonatomic) NSString *name;
 @property(readonly, nonatomic) NSString *resource;
-@property(readonly, nonatomic) NSString *tier;
 
 @end
 

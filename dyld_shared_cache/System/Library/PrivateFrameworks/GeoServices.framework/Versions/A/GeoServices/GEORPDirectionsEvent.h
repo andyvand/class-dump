@@ -4,64 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, NSData, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPDirectionsEvent
 {
     PBDataReader *_reader;
-    long long _errorCode;
-    NSString *_errorDomain;
-    GEOLatLng *_occurrenceLatLng;
-    NSData *_occurrenceRouteId;
-    NSData *_switchedToRouteId;
-    NSString *_synthesizedStepInstructions;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _occurrenceResponseIndex;
-    unsigned int _occurrenceStepIndex;
-    unsigned int _switchedToResponseIndex;
-    int _synthesizedStepManeuverType;
-    int _type;
-    struct {
-        unsigned int has_errorCode:1;
-        unsigned int has_occurrenceResponseIndex:1;
-        unsigned int has_occurrenceStepIndex:1;
-        unsigned int has_switchedToResponseIndex:1;
-        unsigned int has_synthesizedStepManeuverType:1;
-        unsigned int has_type:1;
-        unsigned int read_errorDomain:1;
-        unsigned int read_occurrenceLatLng:1;
-        unsigned int read_occurrenceRouteId:1;
-        unsigned int read_switchedToRouteId:1;
-        unsigned int read_synthesizedStepInstructions:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)nt:(id)arg1;
-- (id);
++ (_Bool)setIsPrimaryVariant:(id)arg1;
+- (id)/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration;
 - (int);
-- (id);
-- (id);
-- (unsigned int);
+- (id)rity.framework/Versions/A/Security;
+- (id)rivateFrameworks/PerformanceAnalysis.framework/Versions/A/PerformanceAnalysis;
+- (unsigned int)x;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned int);
-- (id);
-- (unsigned int);
-- (id);
+- (void)sendDidRepairPSCWithCountBefore:(_Bool)arg1 countAfter: /* Error: Ran out of types for this method. */;
+- (void)sendCurrentAccountsToTarget;
+- (void)isAnyValidContactsStoreTypeAttachedToPersistentStoreCoordinator:(_Bool)arg1;
+- (void)isAnyValidContactsStoreTypeAttachedToPersistentStoreCoordinator:(_Bool)arg1;
+- (unsigned int)bitwiseAnd:with: /* Error: Ran out of types for this method. */;
+- (id)ts.contactspersistence;
+- (unsigned int)NSURL"16@?0@8;
+- (id)ABCDAddressingGrammar;
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)%;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -71,16 +43,16 @@
 - (void);
 - (void);
 - (int);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (id)';
+- (void),;
+- (void)V;
+- (id)setEndReason: /* Error: Ran out of types for this method. */;
+- (void)found for request (%@);
 - (unsigned long long);
 - (_Bool);
 - (int);
@@ -89,11 +61,11 @@
 - (id);
 - (void);
 - (id)"b1"has_width"b1};
-- (void)nDay;
-- (id)IncidentBanner: /* Error: Ran out of types for this method. */;
+- (void)geo_julianDay;
+- (id)addLocalizedIncidentBanner: /* Error: Ran out of types for this method. */;
 - (int)ôìõ¨÷Pù;
 - (id)°V;
-- (id)APPENDED_MD5;
+- (id)CHECKSUM_TYPE_APPENDED_MD5;
 - (id)ÿÿ;
 - (_Bool)¡Ø
 IQ@;
@@ -103,28 +75,7 @@
 - (long long)«î7*5;
 
 // Remaining properties
-@property(nonatomic) long long errorCode;
-@property(retain, nonatomic) NSString *errorDomain;
-@property(nonatomic) _Bool hasErrorCode;
-@property(readonly, nonatomic) _Bool hasErrorDomain;
-@property(readonly, nonatomic) _Bool hasOccurrenceLatLng;
-@property(nonatomic) _Bool hasOccurrenceResponseIndex;
-@property(readonly, nonatomic) _Bool hasOccurrenceRouteId;
-@property(nonatomic) _Bool hasOccurrenceStepIndex;
-@property(nonatomic) _Bool hasSwitchedToResponseIndex;
-@property(readonly, nonatomic) _Bool hasSwitchedToRouteId;
-@property(readonly, nonatomic) _Bool hasSynthesizedStepInstructions;
-@property(nonatomic) _Bool hasSynthesizedStepManeuverType;
 @property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) GEOLatLng *occurrenceLatLng;
-@property(nonatomic) unsigned int occurrenceResponseIndex;
-@property(retain, nonatomic) NSData *occurrenceRouteId;
-@property(nonatomic) unsigned int occurrenceStepIndex;
-@property(nonatomic) unsigned int switchedToResponseIndex;
-@property(retain, nonatomic) NSData *switchedToRouteId;
-@property(retain, nonatomic) NSString *synthesizedStepInstructions;
-@property(nonatomic) int synthesizedStepManeuverType;
-@property(nonatomic) int type;
 
 @end
 

@@ -4,38 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol PMLTransformerProtocol;
 
 @interface SGSelectiveTransformer
 {
     id <PMLTransformerProtocol> _transformer;
-    NSString *_inputKey;
 }
 
 + (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
+- (id)getAppletStateAndHistory:(id)arg1 withTransceiver:withApplet:withPackage:withModule:withError: /* Error: Ran out of types for this method. */;
+- (id)generateContactEndEvent:(id)arg1 withDidError: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)iled with error:(id)arg1 %s
+;
+- (id)ef, const void *, CFStringRef, const void *, CFTypeRef);
+- (unsigned long long)_;
 - (_Bool);
-- (id);
+- (id)_worker;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSString *inputKey; // @synthesize inputKey=_inputKey;
-@property(readonly) Class superclass;
 @property(retain) id <PMLTransformerProtocol> transformer; // @synthesize transformer=_transformer;
 
 @end

@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSUUID;
+@class NSData;
 
 @interface RTTripClusterWaypointData
 {
     NSData *_waypoints;
-    NSUUID *_clusterID;
 }
 
-+ (id);
++ (id)nsufficient information;
 + (id);
 + (_Bool);
 - (_Bool);
@@ -29,15 +28,7 @@
 - (void)@, predicted probability for %@, %@, probability threshold for %@, %@, error, %@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSUUID *clusterID; // @synthesize clusterID=_clusterID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSData *waypoints; // @synthesize waypoints=_waypoints;
 
 @end
 

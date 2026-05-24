@@ -6,19 +6,14 @@
 
 #import <MailUI/MUISearchAtomSuggestion.h>
 
-@class CSSuggestion, MUISearchSuggestionCategory, NSArray, NSString;
+@class MUISearchSuggestionCategory, NSArray;
 
 @interface MUIContactSuggestion : MUISearchAtomSuggestion
 {
     MUISearchSuggestionCategory *_category;
-    NSString *_title;
-    NSArray *_contactEmailAddresses;
-    NSString *_contactIdentifier;
-    CSSuggestion *_spotlightSuggestion;
-    NSArray *_attributeValues;
 }
 
-+ (id);
++ (id);
 - (id);
 - (id);
 - (id);
@@ -27,12 +22,10 @@
 - (id);
 - (id);
 - (id);
-- (void)xWithType: /* Error: Ran out of types for this method. */;
+- (void)predicateForExcludingMessagesInMailboxWithType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *attributeValues; // @synthesize attributeValues=_attributeValues;
-@property(readonly, nonatomic) NSArray *contactEmailAddresses;
-@property(readonly, nonatomic) NSString *contactIdentifier;
 
 @end
 

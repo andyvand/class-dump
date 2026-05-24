@@ -5,5 +5,8 @@
 //
 
 @protocol CXChannelProviderHostProtocol
+- (oneway void);
+- (oneway void);
+- (oneway void);
 @end
 

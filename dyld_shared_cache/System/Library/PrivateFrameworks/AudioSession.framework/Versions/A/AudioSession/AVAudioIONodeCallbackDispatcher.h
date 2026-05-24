@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)retrieveIntegrityInformationForProduct:(unsigned int)arg1 withHandler:(_Bool)arg2;
 - (void);
 - (void);
 

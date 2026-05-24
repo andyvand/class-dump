@@ -6,32 +6,25 @@
 
 #import <coreroutine/RTMetric.h>
 
-@class NSArray, NSDate, NSString, RTLocation;
-
 @interface RTPlaceDataMetrics : RTMetric
 {
     double _distanceThreshold;
-    NSArray *_visitArray;
-    RTLocation *_locationHome;
-    RTLocation *_locationWork;
-    NSArray *_locationsOfOthers;
-    NSDate *_startDateTime;
-    NSDate *_endDateTime;
 }
 
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)licIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I}16;
++ (id)_context;
++ (id)_restartCounter;
++ (id)box;
++ (id)hould fix this;
++ (id)kPCSSetupHSMContent;
++ (id)reate PCSManateeShareableIdentity data;
++ (id)SHARE PROTECTION;
++ (id)pendingRollEpoch;
++ (id)m.apple.SafariShared.Bookmarks;
++ (id)R
+;
 + (id);
 + (CDStruct_b8464340);
 - (id);
@@ -40,11 +33,11 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (long long);
@@ -54,29 +47,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (long long);
-- (long long);
+- (id)updateSyncDevice:seen:version: /* Error: Ran out of types for this method. */;
+- (long long)lastError;
+- (long long)cations;
 - (void);
-- (void);
+- (void)nnot retrieve the current identity for %@ while a keyroll is pending;
 - (double);
 - (void)after filtering learned place, fused map item, %{sensitive}@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) double distanceThreshold; // @synthesize distanceThreshold=_distanceThreshold;
-@property(retain, nonatomic) NSDate *endDateTime; // @synthesize endDateTime=_endDateTime;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) RTLocation *locationHome; // @synthesize locationHome=_locationHome;
-@property(retain, nonatomic) RTLocation *locationWork; // @synthesize locationWork=_locationWork;
-@property(retain, nonatomic) NSArray *locationsOfOthers; // @synthesize locationsOfOthers=_locationsOfOthers;
-@property(retain, nonatomic) NSDate *startDateTime; // @synthesize startDateTime=_startDateTime;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSArray *visitArray; // @synthesize visitArray=_visitArray;
 
 @end
 

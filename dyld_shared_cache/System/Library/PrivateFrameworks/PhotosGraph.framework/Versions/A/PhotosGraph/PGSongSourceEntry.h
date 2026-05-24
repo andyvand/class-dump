@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSSet, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface PGSongSourceEntry
@@ -14,13 +14,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(nonatomic, copy) NSString *category; // @dynamic category;
-@property(nonatomic, copy) NSDate *date; // @dynamic date;
-@property(nonatomic, copy) NSDate *dateLastUpdated; // @dynamic dateLastUpdated;
-@property(nonatomic, copy) NSString *geohash; // @dynamic geohash;
 @property(nonatomic, copy) NSString *identifier; // @dynamic identifier;
-@property(nonatomic, copy) NSSet *songs; // @dynamic songs;
-@property(nonatomic, copy) NSString *version; // @dynamic version;
 
 @end
 

@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SGEvent;
-
 @interface SGRealtimeEvent
 {
     _Bool _isHarvested;
-    int _extractionSource;
-    int _state;
-    SGEvent *_event;
-    NSString *_eventIdentifier;
-    NSString *_sourceMessageId;
 }
 
 + (id);
++ (id)#;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)charge_start_soc_curr_static_bin;
 + (id);
 + (_Bool);
-+ (id);
++ (id)synchronousAppTitleOnlyForURL:(id)arg1 incomplete: /* Error: Ran out of types for this method. */;
 + (id);
 - (void);
 - (_Bool);
@@ -40,26 +33,14 @@
 - (id);
 - (unsigned long long);
 - (int);
-- (id);
+- (id)evaluateNudgeForLPM;
 - (_Bool);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) SGEvent *event; // @synthesize event=_event;
-@property(readonly, nonatomic) NSString *eventIdentifier; // @synthesize eventIdentifier=_eventIdentifier;
-@property(nonatomic) int extractionSource; // @synthesize extractionSource=_extractionSource;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isHarvested; // @synthesize isHarvested=_isHarvested;
-@property(readonly, nonatomic) NSString *sourceMessageId; // @synthesize sourceMessageId=_sourceMessageId;
 @property(readonly, nonatomic) int state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

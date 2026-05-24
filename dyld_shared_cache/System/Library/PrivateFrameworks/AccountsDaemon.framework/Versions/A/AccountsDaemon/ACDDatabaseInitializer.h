@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACDDatabaseConnection, NSArray;
+@class ACDDatabaseConnection;
 
 @interface ACDDatabaseInitializer
 {
     ACDDatabaseConnection *_databaseConnection;
-    NSArray *_dataclasses;
-    NSArray *_accountTypes;
-    NSArray *_accounts;
-    NSArray *_accessKeys;
 }
 
 + (id);
 - (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -24,12 +21,21 @@
 - (void);
 - (void);
 - (void);
+- (void)@;
+- (void);
+- (void);
+- (void)Δ;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -40,21 +46,11 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -70,6 +66,8 @@
 - (id);
 - (id);
 - (void);
+- (void);
+- (void)q`;
 - (void);
 - (void);
 - (void);
@@ -85,7 +83,9 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -93,18 +93,23 @@
 - (void);
 - (void);
 - (void);
+- (void)c;
 - (void);
 - (void);
+- (void)(;
 - (void);
 - (void);
 - (void);
+- (void)a;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)@;
 - (void);
+- (void)N-;
 - (void);
 - (void);
 - (void);
@@ -124,26 +129,30 @@
 - (void);
 - (void);
 - (void);
+- (void)h"@y	@q!;
 - (void);
 - (void);
 - (void);
+- (void)	+;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)qa;
 - (void);
 - (void);
 - (void);
@@ -154,19 +163,6 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
 - (id);
 - (void);
 - (void);
@@ -175,7 +171,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 
 @end

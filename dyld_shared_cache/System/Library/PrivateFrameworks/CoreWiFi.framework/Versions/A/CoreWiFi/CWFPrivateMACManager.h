@@ -4,50 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSMutableArray, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface CWFPrivateMACManager
 {
     unsigned long long _rotationInterval;
-    NSData *_deviceKey;
-    NSData *_rotationKey;
-    NSDate *_rotationKeyUpdatedAt;
-    NSMutableDictionary *_privateMACAddressCache;
-    NSMutableArray *_privateMACAddressCacheIDList;
-    NSMutableDictionary *_userJoinFailureTimestampMap;
-    NSMutableDictionary *_userJoinFailureCountMap;
-    NSMutableDictionary *_tempUserSettingMap;
-    long long _systemSetting;
-    NSString *_interfaceName;
-    NSString *_hardwareMACAddress;
-    CDUnknownBlockType _updatedSystemSettingHandler;
-    CDUnknownBlockType _updatedDeviceKeyHandler;
-    CDUnknownBlockType _updatedNetworkIDHandler;
-    CDUnknownBlockType _updatedRotationKeyHandler;
-    CDUnknownBlockType _effectiveHardwareMACAddress;
-    CDUnknownBlockType _allowRotationHandler;
-    NSObject<OS_dispatch_queue> *_targetQueue;
 }
 
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)R;
 - (CDUnknownBlockType);
 - (long long);
 - (long long);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)!;
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)h;
 - (id);
 - (long long);
 - (id);
@@ -59,31 +40,19 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
-- (id);
+- (id)7;
 - (id);
 - (void);
 - (id);
 - (id)Ô ;
-- (void)K;
+- (void)_PMK;
 - (void);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType allowRotationHandler; // @synthesize allowRotationHandler=_allowRotationHandler;
-@property(copy) NSData *deviceKey; // @dynamic deviceKey;
-@property(copy) CDUnknownBlockType effectiveHardwareMACAddress; // @synthesize effectiveHardwareMACAddress=_effectiveHardwareMACAddress;
-@property(readonly) NSString *hardwareMACAddress; // @synthesize hardwareMACAddress=_hardwareMACAddress;
 @property(readonly) NSString *interfaceName; // @synthesize interfaceName=_interfaceName;
-@property(copy) NSData *rotationKey; // @dynamic rotationKey;
-@property(copy) NSDate *rotationKeyUpdatedAt; // @dynamic rotationKeyUpdatedAt;
-@property long long systemSetting; // @dynamic systemSetting;
-@property(retain) NSObject<OS_dispatch_queue> *targetQueue; // @synthesize targetQueue=_targetQueue;
-@property(copy) CDUnknownBlockType updatedDeviceKeyHandler; // @synthesize updatedDeviceKeyHandler=_updatedDeviceKeyHandler;
-@property(copy) CDUnknownBlockType updatedNetworkIDHandler; // @synthesize updatedNetworkIDHandler=_updatedNetworkIDHandler;
-@property(copy) CDUnknownBlockType updatedRotationKeyHandler; // @synthesize updatedRotationKeyHandler=_updatedRotationKeyHandler;
-@property(copy) CDUnknownBlockType updatedSystemSettingHandler; // @synthesize updatedSystemSettingHandler=_updatedSystemSettingHandler;
 
 @end
 

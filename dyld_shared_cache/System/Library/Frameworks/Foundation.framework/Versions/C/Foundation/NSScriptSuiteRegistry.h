@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSMutableSet, NSScriptClassDescription, NSScriptCommandDescription;
+@class NSArray;
 
 @interface NSScriptSuiteRegistry
 {
     _Bool _isLoadingSDEFFiles;
-    _Bool _isLoadingSecurityOverride;
-    _Bool _hasLoadedIntrinsics;
-    char _reserved1[1];
-    NSMutableSet *_seenBundles;
-    NSMutableArray *_suiteDescriptionsBeingCollected;
-    NSScriptClassDescription *_classDescriptionNeedingRegistration;
-    NSMutableArray *_suiteDescriptions;
-    NSScriptCommandDescription *_commandDescriptionNeedingRegistration;
-    NSMutableDictionary *_cachedClassDescriptionsByAppleEventCode;
-    NSMutableDictionary *_cachedCommandDescriptionsByAppleEventCodes;
-    NSDictionary *_cachedSuiteDescriptionsByName;
-    NSMutableDictionary *_complexTypeDescriptionsByName;
-    NSMutableDictionary *_listTypeDescriptionsByName;
-    unsigned int _nextComplexTypeAppleEventCode;
-    void *_reserved2[4];
 }
 
 + (id);
@@ -33,7 +18,7 @@
 + (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -42,7 +27,7 @@
 - (id);
 - (id);
 - (unsigned int);
-- (id);
+- (id)a;
 - (id);
 - (id);
 - (id);
@@ -71,8 +56,8 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)ngBlock.framework/Versions/A/RemoteProcessingBlock;
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSArray *suiteNames;

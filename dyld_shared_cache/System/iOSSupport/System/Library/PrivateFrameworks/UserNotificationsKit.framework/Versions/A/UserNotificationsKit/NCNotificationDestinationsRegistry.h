@@ -4,31 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface NCNotificationDestinationsRegistry
 {
     NSMutableDictionary *_destinations;
     NSMutableDictionary *_activeDestinations;
-    NSMutableDictionary *_readyDestinations;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)rnessSiriInteraction"8;
+- (void)initHMCharacteristicMetadataFormatUInt64;
+- (void)leSubstitutableParameterState"16;
+- (void)itutableParameterState"8@"WFVariableSubstitutableParameterState"16;
+- (void)B24;
+- (void)m.apple.Home-private:(id)arg1 //homeHubUpdate;
+- (id)riptor"8Q16^B24;
+- (void)rs]_block_invoke;
+- (id)ids to root collection;
+- (id)ow ids;
+- (_Bool)WFAllowDeletingLargeAmountsOfDataKey;
+- (_Bool)WFSiriShortcutsMultipageDisambiguationEnabled;
+- (id)RunViewSource:(id)arg1 ]_block_invoke;
+- (id)xt:(id)arg1 completionHandler:]_block_invoke /* Error: Ran out of types for this method. */;
+- (id)"LNContentType"8Q16;
+- (id)ssageCoercionHandler]_block_invoke;
 - (void);
 - (void);
 - (id);
@@ -39,10 +38,7 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *activeDestinations; // @synthesize activeDestinations=_activeDestinations;
-@property(readonly, nonatomic) unsigned long long count;
 @property(retain, nonatomic) NSMutableDictionary *destinations; // @synthesize destinations=_destinations;
-@property(retain, nonatomic) NSMutableDictionary *readyDestinations; // @synthesize readyDestinations=_readyDestinations;
-@property(readonly, nonatomic) NSArray *registeredDestinations;
 
 @end
 

@@ -4,57 +4,75 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSString, NSURL;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface NSApplicationTestingController
 {
     NSMutableDictionary *_currentTests;
-    NSString *_quitTestName;
-    _Bool _isExtendedLaunch;
-    _Bool _checkForLeaks;
-    double _launchTime;
-    NSString *_aggregate;
-    NSString *_testNameForLiveTest;
-    CDUnknownBlockType _testCompletionHandler;
-    NSURL *_currentDocumentURL;
-    _Bool _waitingForDocumentWindow;
-    _Bool _waitingForLaunchComplete;
-    NSMutableSet *_testsDelayingReportingResults;
-    NSMutableDictionary *_delayedResults;
 }
 
-+ (id);
-+ (void);
++ (id)set_doesSZExtractorConsumeExtractedData: /* Error: Ran out of types for this method. */;
++ (void)reate ABQuery data %{public}@ error %@;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)connection:(id)arg1 didFinishLoadingWithError:(id)arg2;
+- (void)connection:(_Bool)arg1 challenged:authCallback: /* Error: Ran out of types for this method. */;
+- (void)connection:(_Bool)arg1 canAuthenticateAgainstProtectionSpace: /* Error: Ran out of types for this method. */;
+- (void)connected:(_Bool)arg1;
+- (_Bool)conformsToProtocol: /* Error: Ran out of types for this method. */;
+- (void)computeAdjustedPoolPriority;
+- (void)_URLSession:(id)arg1 downloadTaskNeedsDownloadDirectory:(id)arg2;
+- (void)_URLSession:(id)arg1 connectionEstablishedForStreamTask:(id)arg2;
+- (void)_CTDataConnectionServiceType;
+- (void)_CFURLCredentialStorage;
+- (void)URLSession:(id)arg1 streamTask:(CDUnknownBlockType)arg2 didBecomeInputStream:outputStream: /* Error: Ran out of types for this method. */;
+- (void)AVAssetDownloadTaskForURLAsset:(long long)arg1 assetTitle:(id)arg2 assetArtworkData:(CDUnknownBlockType)arg3 options:downloadConfiguration: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (_Bool)on <%{public}@> failed to retry background data task with identifier %lu;
+- (void)unable to determine interface without an established connection;
+- (void)terface from established connection;
+- (void)without a connection;
+- (void)established connection;
+- (void)lu:(id)arg1 unable to determine interface classification without an established connection;
+- (void)an established connection;
+- (void)ne interface type without an established connection;
+- (void)nnection %llu:(id)arg1 working for activity %@;
+- (void)ation=%u;
+- (void)gs for resumable upload, returning nil;
+- (void)ableUploadState:(id)arg1 too many repeated stream openings for resumable upload, returning nil;
+- (void)ssageForRequest with state:(id)arg1 %@;
+- (void)mableUploadState:(id)arg1 copyMessageForRequest with state:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (id)kCFURLProtectionSpaceKeyAuthenticationScheme;
+- (id)kNetworkProxyCredentialKeyViability;
+- (void)2aacceeiioo0	00(01	11(12	22(2a	aa(a00
+0000)08011
+1111)18122
+2222)282aa
+aaaa)a8ac	cc(ce	ee(ei	ii(io	oo(occ
+cccc)c8cee
+eeee)e8eii
+iiii)i8ioo
+oooo)o8osstt;
+- (id);
+- (_Bool);
+- (void);
+- (id);
+- (void)@;
 - (void);
 - (void);
 - (void);
 - (void);
+- (struct __CFMessagePort *);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -62,31 +80,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct __CFMessagePort *);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
+- (_Bool)@;
+- (void)@;
 - (void);
 - (void);
 - (_Bool);

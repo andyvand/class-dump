@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)_accessibilityShouldIncludeParentCustomContent;
 + (void);
 - (_Bool);
 - (id);

@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class ExecutorSiriSchemaExecutorStringQueryEntityMatcherCallEnded, ExecutorSiriSchemaExecutorStringQueryEntityMatcherCallFailed, ExecutorSiriSchemaExecutorStringQueryEntityMatcherCallStarted, NSData;
+@class ExecutorSiriSchemaExecutorStringQueryEntityMatcherCallStarted;
 
 @interface ExecutorSiriSchemaExecutorStringQueryEntityMatcherCallContext : SISchemaInstrumentationMessage
 {
     ExecutorSiriSchemaExecutorStringQueryEntityMatcherCallStarted *_startedOrChanged;
-    ExecutorSiriSchemaExecutorStringQueryEntityMatcherCallEnded *_ended;
-    ExecutorSiriSchemaExecutorStringQueryEntityMatcherCallFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -29,13 +23,13 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)wtrace_live_system_t);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)__wasFoundInLastUpdate;
+- (id)ess;
 - (void);
 - (_Bool);
 - (unsigned long long);
@@ -43,19 +37,12 @@
 - (_Bool);
 - (id);
 - (id)nGenAIMetadata";
-- (id)hemaUEIVisionSnippetDismissed;
+- (id)SISchemaUEIVisionSnippetDismissed;
 - (id)Ø§;
 - (void)@%;
 
 // Remaining properties
-@property(retain, nonatomic) ExecutorSiriSchemaExecutorStringQueryEntityMatcherCallEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) ExecutorSiriSchemaExecutorStringQueryEntityMatcherCallFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) ExecutorSiriSchemaExecutorStringQueryEntityMatcherCallStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

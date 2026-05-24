@@ -18,8 +18,8 @@
 + (id);
 + (id);
 + (id);
-+ (void);
-+ (_Bool);
++ (void){;
++ (_Bool)__objc_arraydata__DATA_CONST;
 
 // Remaining properties
 @property(retain, nonatomic) INPlayMediaIntent *intent; // @synthesize intent=_intent;

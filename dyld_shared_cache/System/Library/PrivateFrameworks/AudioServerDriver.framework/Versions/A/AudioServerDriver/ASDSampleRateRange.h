@@ -7,17 +7,16 @@
 @interface ASDSampleRateRange
 {
     double _minimum;
-    double _maximum;
 }
 
 + (id);
 + (id);
 - (id);
-- (double);
+- (double)f), max_size_in_use=%ld(%f), size_allocated=%ld(%f)
+;
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) double maximum; // @synthesize maximum=_maximum;
 @property(readonly, nonatomic) double minimum; // @synthesize minimum=_minimum;
 
 @end

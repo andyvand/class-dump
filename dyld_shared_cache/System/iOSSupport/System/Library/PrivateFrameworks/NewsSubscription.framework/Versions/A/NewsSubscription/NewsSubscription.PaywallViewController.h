@@ -7,32 +7,14 @@
 @interface NewsSubscription.PaywallViewController
 {
     id delegate;
-    id isBeingUsedAsPlugin;
-    id pluggableDelegate;
-    id layoutSize;
-    id viewProvider;
-    id eventHandler;
-    id paywallModel;
-    id layoutOptionsProvider;
-    id purchasingSpinnerViewControllerFactory;
-    id $__lazy_storage_$_verificationSpinner;
-    id $__lazy_storage_$_purchasingSpinner;
-    id purchasePresenter;
-    id sceneStateManager;
-    id webOptinFlowManager;
-    id paidAccessChecker;
-    id lastPaywallLayout;
-    id personalizedPaywallDataService;
-    id appearanceState;
-    id sessionState;
 }
 
 - (void);
-- (double);
+- (double);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);

@@ -9,17 +9,6 @@
 @interface PXLemonadeFeatureAvailabilityMonitor
 {
     id $__lazy_storage_$_fractionCompletedConsideredAsFinished;
-    PXObservable *observable;
-    id feature;
-    id __state;
-    id __progress;
-    id availabilityReporter;
-    id highlightAnalysisStatus;
-    id highlightAnalysisObservation;
-    id photoLibrary;
-    id monitoringEnabled;
-    id $__lazy_storage_$_updateInterval;
-    id _$observationRegistrar;
 }
 
 + (unsigned long long);
@@ -31,7 +20,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) PXObservable *observable; // @synthesize observable;
-@property(nonatomic) long long state;
 
 @end
 

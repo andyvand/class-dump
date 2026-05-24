@@ -6,20 +6,16 @@
 
 #import <Foundation/NSTextCheckingResult.h>
 
-@class NSDictionary;
-
 @interface NSAddressCheckingResult : NSTextCheckingResult
 {
     struct _NSRange _range;
-    NSDictionary *_components;
-    id _underlyingResult;
 }
 
 + (_Bool)icable to <plist> tag;
-- (void *);
+- (void *)s;
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (_Bool);

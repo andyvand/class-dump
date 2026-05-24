@@ -6,25 +6,21 @@
 
 #import <AppKit/NSAnimation.h>
 
-@class NSArray, NSMutableArray;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface NSWindowTabMergeAnimation : NSAnimation
 {
     NSMutableArray *_windowsToAnimate;
-    NSMutableArray *_coverWindows;
-    NSMutableArray *_windowFromRects;
-    NSArray *_targetTabFrames;
-    CDUnknownBlockType _completionHandler;
 }
 
-- (void);
+- (void)setUrl: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
+- (void);
 - (void)miancoding.sketch3;
 - (void)creen;
-- (void)riant;
+- (void)Variant;
 
 @end
 

@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PGManagerWorkingContext, PHFetchResult;
+@class PGManagerWorkingContext, PHFetchResult;
 
 @interface PGMergeCandidateQuestionFactory
 {
     PGManagerWorkingContext *_workingContext;
-    short _questionVersion;
-    PHFetchResult *_persons;
 }
 
-- (id);
+- (id)A;
 - (id);
 - (long long);
 - (unsigned short);
@@ -22,16 +20,7 @@
 - (void)Coarse Addresses:%lu /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) PHFetchResult *persons; // @synthesize persons=_persons;
-@property(readonly, nonatomic) long long questionOptions;
-@property(readonly, nonatomic) unsigned short questionType;
-@property(readonly) Class superclass;
 
 @end
 

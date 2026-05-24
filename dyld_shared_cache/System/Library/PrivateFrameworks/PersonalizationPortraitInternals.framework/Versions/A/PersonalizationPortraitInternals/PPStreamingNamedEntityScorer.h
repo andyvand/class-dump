@@ -9,20 +9,17 @@
 @interface PPStreamingNamedEntityScorer
 {
     PPScoreInterpreter *_aggregationScorer;
-    PPScoreInterpreter *_finalScorer;
-    PPScoreDict *_aggregationScoreInputs;
-    PPScoreDict *_currentAggResult;
 }
 
 + (id);
 + (unsigned long long);
 + (id);
-- (id);
+- (id)p;
+- (void);
+- (float)IMDRelayServiceReachabilityResponse;
 - (void);
 - (float);
-- (void);
-- (float);
-- (id);
+- (id)conversaton %@;
 - (void);
 - (void)A¡°!ìAù÷°1Â0@ù
 × ;

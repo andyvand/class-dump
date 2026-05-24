@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol MEPluginTypeVideo
+- (_Bool)_handleDroppedEnvelopesForLocalReasons:(NSString *)arg1;
 @end
 

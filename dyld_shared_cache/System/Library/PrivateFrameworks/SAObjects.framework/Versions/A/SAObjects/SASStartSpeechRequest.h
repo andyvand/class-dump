@@ -6,8 +6,6 @@
 
 #import <SAObjects/SASStartSpeech.h>
 
-@class NSArray, NSNumber, NSString, SASetRequestOrigin;
-
 @interface SASStartSpeechRequest : SASStartSpeech
 {
 }
@@ -24,40 +22,28 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)L;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)e;
+- (id)n;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)8$;
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)9;
 - (id);
 - (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool autoPunctuationEnabled;
-@property(copy, nonatomic) NSArray *bargeInModes;
-@property(copy, nonatomic) NSString *clientModelVersion;
-@property(copy, nonatomic) NSNumber *durationSincePreviousTTSFinish;
-@property(copy, nonatomic) NSNumber *durationSincePreviousTTSStart;
-@property(nonatomic) _Bool eyesFree;
-@property(nonatomic) _Bool handsFree;
-@property(copy, nonatomic) NSString *responseMode;
-@property(retain, nonatomic) SASetRequestOrigin *setRequestOrigin;
-@property(nonatomic) _Bool talkOnly;
-@property(nonatomic) _Bool textToSpeechIsMuted;
-@property(copy, nonatomic) NSArray *voiceTriggerPhrases;
-@property(nonatomic) _Bool wasLaunchedForRequest;
 
 @end
 

@@ -6,16 +6,9 @@
 
 #import <FMCore/FMCommandBase.h>
 
-@class NSDictionary, NSError, NSObject;
-@protocol OS_dispatch_queue;
-
 @interface FMJSONCommand : FMCommandBase
 {
     _Bool __hasParsedResponseBody;
-    NSError *_jsonResponseParseError;
-    NSDictionary *__responseBodyDict;
-    NSDictionary *__requestBodyDict;
-    NSObject<OS_dispatch_queue> *_responseQueue;
 }
 
 - (void);
@@ -26,12 +19,12 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)!;
 - (id);
 - (void);
-- (void);
+- (void)0;
 - (id);
-- (id);
+- (id)_accessorLock;
 - (id);
 - (void);
 - (id);
@@ -39,12 +32,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool _hasParsedResponseBody; // @synthesize _hasParsedResponseBody=__hasParsedResponseBody;
-@property(retain, nonatomic) NSDictionary *_requestBodyDict; // @synthesize _requestBodyDict=__requestBodyDict;
-@property(retain, nonatomic) NSDictionary *_responseBodyDict; // @synthesize _responseBodyDict=__responseBodyDict;
-@property(readonly, nonatomic) NSDictionary *jsonResponseDictionary;
-@property(retain, nonatomic) NSError *jsonResponseParseError; // @synthesize jsonResponseParseError=_jsonResponseParseError;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *responseQueue; // @synthesize responseQueue=_responseQueue;
-@property(readonly, nonatomic) NSDictionary *serverAlertInfo;
 
 @end
 

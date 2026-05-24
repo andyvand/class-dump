@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSSceneTaxonomyHierarchy, NSDictionary, NSObject;
-@protocol OS_os_log;
+@class NSDictionary;
 
 @interface PGPublicEventDisambiguator
 {
     NSDictionary *_publicEventCriteriaByCategory;
-    CLSSceneTaxonomyHierarchy *_sceneTaxonomy;
-    NSObject<OS_os_log> *_loggingConnection;
 }
 
 - (id);
-- (id);
-- (void);
-- (id);
+- (id)Range;
+- (void);
+- (id);
 - (id);
 - (id);
 - (void)aches/com.apple.xbs/TemporaryDirectory.52v2gD/Sources/Photos_Swift/workspaces/photoanalysis/PhotosGraph/Framework/Graph/Data Model Enrichment/PGRevGeocodeProcessor.m;

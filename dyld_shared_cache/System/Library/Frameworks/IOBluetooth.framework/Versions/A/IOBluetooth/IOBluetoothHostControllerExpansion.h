@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface IOBluetoothHostControllerExpansion
 {
     NSMutableDictionary *outstandingRequests;
-    NSString *delegateClassString;
 }
 
 - (void);
-- (id);
-- (void);
+- (id)#;
+- (void);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain) NSString *delegateClassString; // @synthesize delegateClassString;
 @property(retain) NSMutableDictionary *outstandingRequests; // @synthesize outstandingRequests;
 
 @end

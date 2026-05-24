@@ -6,8 +6,6 @@
 
 #import <WebInspector/RWIProtocolJSONObject.h>
 
-@class NSString, RWIProtocolNetworkHeaders;
-
 @interface RWIProtocolNetworkWebSocketResponse : RWIProtocolJSONObject
 {
 }
@@ -21,9 +19,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) RWIProtocolNetworkHeaders *headers;
 @property(nonatomic) int status;
-@property(copy, nonatomic) NSString *statusText;
 
 @end
 

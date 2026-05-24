@@ -6,28 +6,22 @@
 
 #import <Accessibility/AXMathExpression.h>
 
-@class NSArray;
-
 @interface AXMathExpressionSubSuperscript : AXMathExpression
 {
     AXMathExpression *_baseExpression;
-    NSArray *_subscriptExpressions;
-    NSArray *_superscriptExpressions;
 }
 
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)t) unmountDisk:entireDisk:force:timeout:errorDict:] /* Error: Ran out of types for this method. */;
+- (id)ict=%@;
+- (void)create DADisk=%p=%@;
+- (void)p;
+- (void)o on child disk;
+- (id)=%d;
+- (id)Lckd=%d NoOrIncmplCrypt=%d PassReq=%d EnDe=%d ENcrypting=%d DEcrypting=%d ACT=%d DoMnt=%d DoBoot=%d REposs=%d REverting=%d CONverting=%d;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) AXMathExpression *baseExpression; // @synthesize baseExpression=_baseExpression;
-@property(retain, nonatomic) NSArray *subscriptExpressions; // @synthesize subscriptExpressions=_subscriptExpressions;
-@property(retain, nonatomic) NSArray *superscriptExpressions; // @synthesize superscriptExpressions=_superscriptExpressions;
 
 @end
 

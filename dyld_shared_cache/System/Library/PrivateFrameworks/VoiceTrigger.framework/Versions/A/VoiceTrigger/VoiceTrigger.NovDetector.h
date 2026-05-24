@@ -7,8 +7,6 @@
 @interface VoiceTrigger.NovDetector
 {
     id novDetect;
-    id resourceData;
-    id name;
 }
 
 @end

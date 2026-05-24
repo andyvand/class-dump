@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface TabSnapshotCacheWithPersistence
 {
     id <TabSnapshotVending> _tabSnapshotVendor;
-    double _snapshotWidth;
 }
 
 - (id);
@@ -21,7 +20,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double snapshotWidth; // @synthesize snapshotWidth=_snapshotWidth;
 @property(readonly, nonatomic) id <TabSnapshotVending> tabSnapshotVendor; // @synthesize tabSnapshotVendor=_tabSnapshotVendor;
 
 @end

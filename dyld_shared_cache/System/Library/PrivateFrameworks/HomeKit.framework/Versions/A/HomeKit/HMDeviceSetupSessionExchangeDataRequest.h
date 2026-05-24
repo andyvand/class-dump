@@ -10,20 +10,16 @@ __attribute__((visibility("hidden")))
 @interface HMDeviceSetupSessionExchangeDataRequest
 {
     NSData *_exchangeData;
-    long long _qos;
-    CDUnknownBlockType _completionHandler;
 }
 
 - (id);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)c;
 - (long long);
 - (void)0;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
 @property(readonly, copy, nonatomic) NSData *exchangeData; // @synthesize exchangeData=_exchangeData;
-@property(readonly, nonatomic) long long qos; // @synthesize qos=_qos;
 
 @end
 

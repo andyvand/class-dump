@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CKRequiredFeatureSet
 {
     id _wrapped;
@@ -13,23 +11,19 @@
 
 + (_Bool);
 - (id);
+- (id)I;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (long long);
+- (long long)initializeAndvalidateObjectiveAndNumClassesWithConfiguration:error: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
 - (void)Ä«9;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) id fieldFeatures;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, readonly) id recordFeatures;
 @property(nonatomic, readonly) id zoneFeatures;
 
 @end

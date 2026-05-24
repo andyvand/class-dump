@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface UnknownClass (NSScriptClassDescription)
 - (unsigned int);
 - (id)DÚ: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) unsigned int classCode;
-@property(readonly, copy) NSString *className;
 @end
 

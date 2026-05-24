@@ -12,19 +12,19 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
+- (void);;
+- (void)FDR Multi Combined Format;
+- (void)not find data in multi combined format;
+- (void)%X;
+- (void)k.aop2apkernel;
+- (void)AppleLisaHIDEventDriver;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)KING power assertion.;
 
 @end
 

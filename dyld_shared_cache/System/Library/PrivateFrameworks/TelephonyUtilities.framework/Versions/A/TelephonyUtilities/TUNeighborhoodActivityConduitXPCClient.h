@@ -4,42 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCConnection;
-@protocol OS_dispatch_queue, TUNeighborhoodActivityConduitXPCClientDelegate;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface TUNeighborhoodActivityConduitXPCClient
 {
     int _token;
-    id <TUNeighborhoodActivityConduitXPCClientDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSXPCConnection *_xpcConnection;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id);
 - (oneway void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (oneway void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)(;
+- (oneway void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
 - (oneway void);
 - (void);
+- (void)P;
 - (void);
-- (void);
-- (void);
-- (id);
-- (oneway void);
-- (void);
-- (void);
-- (id);
-- (oneway void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)	;
+- (void)A;
+- (void)	;
 - (int);
 - (void);
 - (id);
@@ -48,22 +45,12 @@
 - (id);
 - (id);
 - (oneway void);
+- (void)lib;
 - (void);
-- (void);
-- (void)lingOverCellularData;
+- (void)supportsThumperCallingOverCellularData;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <TUNeighborhoodActivityConduitXPCClientDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
-@property(nonatomic) int token; // @synthesize token=_token;
-@property(retain, nonatomic) NSXPCConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
 
 @end
 

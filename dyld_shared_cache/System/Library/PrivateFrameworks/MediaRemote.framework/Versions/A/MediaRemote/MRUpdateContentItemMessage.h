@@ -6,19 +6,18 @@
 
 #import <MediaRemote/MRProtocolMessage.h>
 
-@class MRPlayerPath, NSArray;
+@class MRPlayerPath;
 
 @interface MRUpdateContentItemMessage : MRProtocolMessage
 {
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long)to %@;
 - (id);
-- (id)ctorPart2;
+- (id)supportPTOTRefactorPart2;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *contentItems;
 @property(readonly, nonatomic) MRPlayerPath *playerPath;
 
 @end

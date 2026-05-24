@@ -10,7 +10,7 @@
 {
 }
 
-- (id);
+- (id)@mR;
 - (id);
 
 // Remaining properties

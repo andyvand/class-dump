@@ -8,10 +8,9 @@ __attribute__((visibility("hidden")))
 @interface SCN_CAKeyframeAnimation
 {
     struct __C3DKeyframedAnimation *_c3dAnimation;
-    _Bool _caReady;
 }
 
-+ (_Bool);
++ (_Bool)ControlLastAutoFillButtonType;
 - (_Bool);
 - (void);
 - (void);
@@ -45,10 +44,10 @@ __attribute__((visibility("hidden")))
 - (float);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (double);
+- (void)teEdited:(id)arg1 dateRecovered:biaReferenceID:fallbackHash:scheduleType:scheduleState:cloudKitChatID: /* Error: Ran out of types for this method. */;
+- (id)deprecatedReferenceURLsForMessageGUID: /* Error: Ran out of types for this method. */;
+- (void)%@;
+- (double)C;
 - (void);
 - (id);
 - (void);
@@ -56,8 +55,8 @@ __attribute__((visibility("hidden")))
 - (float);
 - (id);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)descriptionForType: /* Error: Ran out of types for this method. */;
+- (void)_familyCircle;
 - (void);
 - (_Bool);
 - (void);
@@ -67,7 +66,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (double);
+- (double)_accessibilityIdentifier;
 - (void);
 
 @end

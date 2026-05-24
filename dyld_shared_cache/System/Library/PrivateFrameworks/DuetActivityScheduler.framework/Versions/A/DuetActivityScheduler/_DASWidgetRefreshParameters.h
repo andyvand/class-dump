@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface _DASWidgetRefreshParameters
 {
     NSString *_widgetIdentifier;
-    NSString *_widgetBudgetIdentifier;
-    NSString *_ratelimitConfigurationName;
-    NSString *_remoteDeviceIdentifier;
-    NSString *_appIdentifier;
-    NSDate *_refreshBeforeDate;
-    NSDate *_refreshAfterDate;
 }
 
 - (id);
@@ -30,17 +24,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)!;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *appIdentifier; // @synthesize appIdentifier=_appIdentifier;
-@property(retain, nonatomic) NSString *ratelimitConfigurationName; // @synthesize ratelimitConfigurationName=_ratelimitConfigurationName;
-@property(retain, nonatomic) NSDate *refreshAfterDate; // @synthesize refreshAfterDate=_refreshAfterDate;
-@property(retain, nonatomic) NSDate *refreshBeforeDate; // @synthesize refreshBeforeDate=_refreshBeforeDate;
-@property(retain, nonatomic) NSString *remoteDeviceIdentifier; // @synthesize remoteDeviceIdentifier=_remoteDeviceIdentifier;
-@property(retain, nonatomic) NSString *widgetBudgetIdentifier; // @synthesize widgetBudgetIdentifier=_widgetBudgetIdentifier;
 @property(retain, nonatomic) NSString *widgetIdentifier; // @synthesize widgetIdentifier=_widgetIdentifier;
 
 @end

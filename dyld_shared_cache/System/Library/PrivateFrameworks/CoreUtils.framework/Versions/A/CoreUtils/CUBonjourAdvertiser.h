@@ -4,80 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface CUBonjourAdvertiser
 {
     _Bool _activated;
-    struct BonjourAdvertiserPrivate *_bonjourAdvertiser;
-    _Bool _invalidateCalled;
-    _Bool _started;
-    struct LogCategory *_ucat;
-    _Bool _updatePending;
-    _Bool _advertiseFlagsChanged;
-    _Bool _domainChanged;
-    _Bool _interfaceIndexChanged;
-    _Bool _interfaceNameChanged;
-    _Bool _nameChanged;
-    _Bool _portChanged;
-    _Bool _serviceTypeChanged;
-    _Bool _txtDictionaryChanged;
-    unsigned int _interfaceIndex;
-    int _port;
-    unsigned long long _advertiseFlags;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSString *_domain;
-    NSString *_interfaceName;
-    NSString *_label;
-    NSString *_name;
-    NSString *_serviceType;
-    NSDictionary *_txtDictionary;
 }
 
 - (void);
 - (void);
+- (void)!``;
+- (unsigned long long);
 - (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void);
+- (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)SYSTEM_PREFS;
+- (void);
+- (void);
+- (id)initWithPassword:verifier:srpSalt:srpSaltData:srpIteration:srpPasswordVersion:srpProtocol:telemetryFlowID:altDSID: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
-- (void);
-- (int);
-- (void);
 - (id);
 - (void);
 - (void);
+- (id)using fp16 precision.
+;
+- (void);
+- (int)st.featureChannels - destinationFeatureChannelOffset) failed;
+- (void);
+- (id)+;
+- (void);
+- (void)nP;
 - (void);
 - (void);
 - (void)equest";
-- (unsigned int)pleRate;
+- (unsigned int)sampleRate;
 
 // Remaining properties
 @property(nonatomic) unsigned long long advertiseFlags; // @synthesize advertiseFlags=_advertiseFlags;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(nonatomic) unsigned int interfaceIndex; // @synthesize interfaceIndex=_interfaceIndex;
-@property(copy, nonatomic) NSString *interfaceName; // @synthesize interfaceName=_interfaceName;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) int port; // @synthesize port=_port;
-@property(copy, nonatomic) NSString *serviceType; // @synthesize serviceType=_serviceType;
-@property(copy, nonatomic) NSDictionary *txtDictionary; // @synthesize txtDictionary=_txtDictionary;
 
 @end
 

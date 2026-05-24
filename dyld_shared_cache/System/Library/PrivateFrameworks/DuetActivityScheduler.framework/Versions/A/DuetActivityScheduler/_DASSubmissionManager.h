@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, _DASSubmissionRateLimiter;
+@class NSObject;
 @protocol OS_os_log;
 
 @interface _DASSubmissionManager
 {
     int _dastoolToken;
-    NSObject<OS_os_log> *_log;
-    NSMutableDictionary *_activityGroupQueue;
-    NSMutableDictionary *_submittedActivities;
-    NSMutableDictionary *_activityGroups;
-    _DASSubmissionRateLimiter *_rateLimiter;
 }
 
 + (id);
 + (id);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void)9X;
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -31,30 +26,25 @@
 - (int);
 - (unsigned long long);
 - (void);
+- (id)?;
+- (id);
+- (void)r;
+- (void);
+- (void);
+- (void)ialized;
+- (void)NSt3__114default_deleteIKN4E5RT9E5OperandEEE;
+- (void);
 - (id);
 - (id);
+- (id)i|;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)H;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *activityGroupQueue; // @synthesize activityGroupQueue=_activityGroupQueue;
-@property(retain, nonatomic) NSMutableDictionary *activityGroups; // @synthesize activityGroups=_activityGroups;
-@property(nonatomic) int dastoolToken; // @synthesize dastoolToken=_dastoolToken;
 @property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(retain, nonatomic) _DASSubmissionRateLimiter *rateLimiter; // @synthesize rateLimiter=_rateLimiter;
-@property(retain, nonatomic) NSMutableDictionary *submittedActivities; // @synthesize submittedActivities=_submittedActivities;
 
 @end
 

@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPBTransitIncident, NSArray, NSDate, NSString;
-@protocol GEOTransitIconDataSource;
+@class GEOPBTransitIncident;
 
 __attribute__((visibility("hidden")))
 @interface _GEOTransitIncident
@@ -15,10 +14,10 @@ __attribute__((visibility("hidden")))
 
 + (_Bool)ps:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (int);
 - (id);
 - (id);
@@ -32,34 +31,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (id)rune;
-- (id)tifier;
+- (id)prune;
+- (id)referralIdentifier;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *affectedEntities;
-@property(readonly, nonatomic) id <GEOTransitIconDataSource> artworkDataSource;
-@property(readonly, nonatomic, getter=isBlockingIncident) _Bool blockingIncident;
-@property(readonly, nonatomic) NSDate *creationDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDate *endDate;
-@property(readonly, nonatomic) NSString *fullDescription;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) int iconType;
-@property(readonly, nonatomic) NSDate *lastUpdated;
-@property(readonly, nonatomic) NSString *messageForNonRoutable;
-@property(readonly, nonatomic) NSString *messageForRoutePlanning;
-@property(readonly, nonatomic) NSString *messageForRouteStepping;
 @property(readonly, nonatomic) unsigned long long muid;
-@property(readonly, nonatomic) NSDate *startDate;
-@property(readonly, nonatomic) NSString *summary;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *title;
 
 @end
 

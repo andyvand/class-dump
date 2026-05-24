@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDUbiquitousConversationManager, NSString;
 @protocol EDConversationDailyCloudExporterDelegate;
 
 @interface EDConversationDailyiCloudExporter
 {
     id <EDConversationDailyCloudExporterDelegate> _delegate;
-    EDUbiquitousConversationManager *_conversationManager;
 }
 
 + (id)tð!<@ù³ð1Â0@ù
@@ -23,15 +21,7 @@
 - (id)ÿsm;
 
 // Remaining properties
-@property(readonly, nonatomic) EDUbiquitousConversationManager *conversationManager; // @synthesize conversationManager=_conversationManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, nonatomic) id <EDConversationDailyCloudExporterDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -11,7 +11,7 @@
 + (struct UIEdgeInsets);
 + (id);
 + (id);
-+ (struct CGPoint);
++ (struct CGPoint)t;
 
 @end
 

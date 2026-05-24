@@ -9,12 +9,11 @@
 @interface MTDBExtensionAccess
 {
     NSHashTable *_observers;
-    _Bool _hasAttemptedToFix;
 }
 
 + (void);
 + (id)ÿ®GÃÿ;
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (id);

@@ -4,29 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, QLTBitmapFormat;
+@class NSData;
 
 @interface QLTBitmapImage
 {
     NSData *_data;
-    QLTBitmapFormat *_format;
 }
 
 + (id);
 + (id);
 + (_Bool);
 - (id);
-- (struct CGImage *);
+- (struct CGImage *)9h;
 - (void);
 - (id);
 - (void);
-- (id);
+- (id){_;
 - (void);
 - (void)º;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(retain, nonatomic) QLTBitmapFormat *format; // @synthesize format=_format;
 
 @end
 

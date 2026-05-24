@@ -4,32 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDSiriSessionLoadTimeout
 {
     unsigned long long _connectionTechnology;
-    unsigned long long _interfaceIndex;
-    unsigned long long _sendBufferSize;
-    unsigned long long _timestamp;
-    NSString *_connectionURL;
-    _Bool _wwanPreferred;
-    struct {
-        unsigned int connectionTechnology:1;
-        unsigned int interfaceIndex:1;
-        unsigned int sendBufferSize:1;
-        unsigned int timestamp:1;
-        unsigned int wwanPreferred:1;
-    } _has;
 }
 
 - (_Bool);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)R;
 - (void);
 - (void);
 - (_Bool);
@@ -38,38 +24,27 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (unsigned long long);
+- (void);
+- (void);
+- (id);
+- (void)(;
+- (void)S);
+- (unsigned long long);
+- (unsigned long long);
+- (_Bool);
+- (_Bool);
+- (_Bool)(;
+- (void);
 - (unsigned long long);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
 - (id);
-- (id);
-- (unsigned long long)rrupted;
+- (unsigned long long)corrupted;
 
 // Remaining properties
-@property(nonatomic) unsigned long long connectionTechnology; // @synthesize connectionTechnology=_connectionTechnology;
-@property(retain, nonatomic) NSString *connectionURL; // @synthesize connectionURL=_connectionURL;
-@property(nonatomic) _Bool hasConnectionTechnology;
-@property(readonly, nonatomic) _Bool hasConnectionURL;
-@property(nonatomic) _Bool hasInterfaceIndex;
-@property(nonatomic) _Bool hasSendBufferSize;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasWwanPreferred;
-@property(nonatomic) unsigned long long interfaceIndex; // @synthesize interfaceIndex=_interfaceIndex;
-@property(nonatomic) unsigned long long sendBufferSize; // @synthesize sendBufferSize=_sendBufferSize;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) _Bool wwanPreferred; // @synthesize wwanPreferred=_wwanPreferred;
 
 @end
 

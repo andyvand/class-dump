@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, HMFTimer, NSHashTable, NSMutableSet, NSObject, NSString;
-@protocol HMDNotificationRegistryAdapter, OS_dispatch_queue;
+@class NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface HMDNotificationRegistry
 {
     struct os_unfair_lock_s _lock;
-    NSHashTable *_delegates;
-    NSMutableSet *_chipRemoteSubscribers;
-    id <HMDNotificationRegistryAdapter> _registryAdapter;
-    HMFTimer *_pendingRequestsRetryTimer;
-    NSMutableSet *_pendingRequests;
-    HMDHome *_home;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 + (id)ÀB;
@@ -29,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)public}@;
 - (_Bool);
 - (id);
 - (id);
@@ -46,19 +38,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void)and no local triggers locally;
 - (void)ed attribute %@.%@;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *chipRemoteSubscribers; // @synthesize chipRemoteSubscribers=_chipRemoteSubscribers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

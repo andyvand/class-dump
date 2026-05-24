@@ -13,9 +13,6 @@ __attribute__((visibility("hidden")))
 @interface OITSUFakeProgress : OITSUBasicProgress
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    unsigned long long _currentStage;
-    unsigned long long _numberOfStages;
-    _Bool _stopped;
 }
 
 - (void);
@@ -23,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)_AEGGGG;
 
 @end
 

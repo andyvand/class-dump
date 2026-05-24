@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMDPredictionSubscriber, NSUUID;
+
 @protocol HMDPredictionSubscriberDataSource
+- (NSUUID *)initWithKeyframes:(HMDPredictionSubscriber *)arg1 stabCropRect:input: /* Error: Ran out of types for this method. */;
 @end
 

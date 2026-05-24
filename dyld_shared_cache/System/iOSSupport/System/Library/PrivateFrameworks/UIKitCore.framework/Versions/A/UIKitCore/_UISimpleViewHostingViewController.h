@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     UIView *_view;
 }
 
-- (void)rredScrollTruncationDetentForHeight;
+- (void)_computePreferredScrollTruncationDetentForHeight;
 - (void);
 - (id);
 

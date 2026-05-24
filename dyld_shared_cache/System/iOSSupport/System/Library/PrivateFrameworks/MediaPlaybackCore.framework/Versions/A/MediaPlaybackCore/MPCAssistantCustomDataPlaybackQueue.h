@@ -6,24 +6,22 @@
 
 #import <MediaPlaybackCore/MPCAssistantPlaybackQueue.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface MPCAssistantCustomDataPlaybackQueue : MPCAssistantPlaybackQueue
 {
     NSString *_identifier;
-    NSData *_customData;
 }
 
 + (id);
+- (id);
+- (struct _MRSystemAppPlaybackQueue *)rks/Sharing.framework/Versions/A/Sharing;
 - (id);
-- (struct _MRSystemAppPlaybackQueue *);
 - (id);
-- (id);
-- (id);
+- (id)rH;
 - (void)[AP] - %{public}@ - Not attaching tap [processor is not ready] - item:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *customData; // @synthesize customData=_customData;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end

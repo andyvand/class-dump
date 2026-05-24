@@ -6,27 +6,25 @@
 
 #import <AppKit/NSWindowController.h>
 
-@class NSString, NSThemeWidgetSharedWindowRemoteButton, NSWindow;
+@class NSWindow;
 
 __attribute__((visibility("hidden")))
 @interface NSLocalWindowSharingWindowController : NSWindowController
 {
     NSWindow *_sharedWindow;
-    NSWindow *_surrogateWindow;
-    NSThemeWidgetSharedWindowRemoteButton *_widget;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)@y+;
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)equest"16@"NSURLRequest"24@"NSString"32Q40@"NSUUID"48@?<v@?B>56;
+- (void)72Q80@88Q96B104@?108;
+- (void)v88@0:8@16@24@32@40@48Q56@64@72@?80 /* Error: Ran out of types for this method. */;
+- (void)set_allowsPowerNapScheduling: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -35,16 +33,7 @@ __attribute__((visibility("hidden")))
 - (void)ÿE ±A;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSWindow *hostWindow;
-@property(readonly) __weak NSWindow *sharedWindow; // @synthesize sharedWindow=_sharedWindow;
-@property(readonly) Class superclass;
-@property __weak NSWindow *surrogateWindow; // @synthesize surrogateWindow=_surrogateWindow;
 
 @end
 

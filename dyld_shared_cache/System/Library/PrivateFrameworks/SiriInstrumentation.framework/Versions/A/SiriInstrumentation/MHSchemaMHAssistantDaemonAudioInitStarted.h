@@ -6,34 +6,29 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MHSchemaMHAssistantDaemonAudioInitStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
+- (void));
 - (id);
 - (void);
-- (void);
+- (void)eoc;
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id)!ÀFùß°1Â0@ù
 × ;
 - (id)ion",&,N,V_responseHallucinationInferenceTime;
 - (id)ognized",&,N,V_localeNotRecognized;
-- (_Bool)HER;
+- (_Bool)FLOWBRIEFINGENABLEDFEATURES_WEATHER;
 - (_Bool)5$;
 - (void)±ÿ¤²W(;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

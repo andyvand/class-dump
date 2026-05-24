@@ -22,7 +22,7 @@
 + (_Bool);
 + (id);
 + (double);
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 + (double);
 + (_Bool);
@@ -40,9 +40,9 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (id);
++ (id);
 + (long long);
-+ (_Bool);
++ (_Bool)`b;
 + (_Bool);
 + (id);
 + (_Bool);

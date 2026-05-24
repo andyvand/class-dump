@@ -5,8 +5,10 @@
 //
 
 @protocol _DKSyncRemoteStorage
-- (long long)on;
-- (void)onsTriggeringSync;
+- (void);
+- (_Bool)`;
+- (long long)requiresManualMigration;
+- (void)_streamNamesWithAdditionsTriggeringSync;
 - (void)sForSync caught %@;
 @end
 

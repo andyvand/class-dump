@@ -4,34 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface MLParameterContainer
 {
     NSMutableDictionary *_currentParameterValues;
-    NSArray *_parameterKeys;
-    NSDictionary *_parameterDescriptions;
 }
 
 + (id);
-+ (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
++ (_Bool)`;
+- (_Bool)MTLLogBuffer;
+- (void)RenderTargetArg;
+- (void)FrontFacingArg;
+- (_Bool)cil;
+- (void)put;
+- (id)tal threads must be less than or equal to %d.;
+- (id)otalThreadsPerThreadgroup:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)NOT_CONNECTED;
+- (void)`;
 - (void)el buffer backed MLMultiArray for Float16 or Int8 currently.;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *currentParameterValues; // @synthesize currentParameterValues=_currentParameterValues;
-@property(retain, nonatomic) NSDictionary *parameterDescriptions; // @synthesize parameterDescriptions=_parameterDescriptions;
-@property(retain, nonatomic) NSArray *parameterKeys; // @synthesize parameterKeys=_parameterKeys;
 
 @end
 

@@ -7,14 +7,6 @@
 @interface PGPlaceZeroKeyword
 {
     id type;
-    id title;
-    id address;
-    id displayInfo;
-    id score;
-    id queryToken;
-    id addressNodeCollection;
-    id placeKind;
-    id photoLibrary;
 }
 
 - (id);

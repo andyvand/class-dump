@@ -19,12 +19,12 @@
 + (void);
 + (void);
 + (void);
++ (void)9;
 + (void);
-+ (void);
 + (id);
++ (id)=;
 + (id);
-+ (id);
-+ (id);
++ (id)=;
 
 @end
 

@@ -10,17 +10,15 @@ __attribute__((visibility("hidden")))
 @interface MKVKImageSourceCalculationParameters
 {
     NSArray *_imageSourceKeys;
-    double _scale;
 }
 
 - (id);
-- (id);
-- (double);
-- (void)sitLineMarker: /* Error: Ran out of types for this method. */;
+- (id)p;
+- (double);
+- (void)selectTransitLineMarker: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *imageSourceKeys; // @synthesize imageSourceKeys=_imageSourceKeys;
-@property(readonly, nonatomic) double scale; // @synthesize scale=_scale;
 
 @end
 

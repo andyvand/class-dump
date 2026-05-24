@@ -6,20 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
-
 @interface LRSchemaLRWindow : SISchemaInstrumentationMessage
 {
     unsigned long long _startTimeInNs;
-    unsigned long long _endTimeInNs;
-    NSArray *_activeRedactionPolicies;
-    CDStruct_b5935cb6 _has;
 }
 
 - (unsigned long long);
+- (void)K;
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -34,10 +29,10 @@
 - (void);
 - (int);
 - (id);
-- (void);
+- (void)*g*g*g*;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)1Â0@ù
 × ;
@@ -46,11 +41,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *activeRedactionPolicies; // @synthesize activeRedactionPolicies=_activeRedactionPolicies;
-@property(nonatomic) unsigned long long endTimeInNs; // @synthesize endTimeInNs=_endTimeInNs;
-@property(nonatomic) _Bool hasEndTimeInNs;
-@property(nonatomic) _Bool hasStartTimeInNs;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned long long startTimeInNs; // @synthesize startTimeInNs=_startTimeInNs;
 
 @end

@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (NSEqualObjectsForKeys)
-- (_Bool);
+- (_Bool)setTXTRecordData:(id)arg1;
 - (_Bool);
 - (_Bool);
 - (id);

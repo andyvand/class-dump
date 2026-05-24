@@ -9,20 +9,13 @@
 @interface CVNLPPerformanceResult
 {
     double maxpeak;
-    double peakdelta;
-    double recentpeak;
-    double current;
-    double cpuTime;
-    double cpuInstructions;
-    double timeInterval;
-    NSString *_name;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)M;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;

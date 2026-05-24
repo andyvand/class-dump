@@ -5,5 +5,8 @@
 //
 
 @protocol CATRemoteTransportDelegate
+
+@optional
+- (void)66;
 @end
 

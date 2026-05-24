@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol NSCopying><NSObject;
 
 @interface MFCacheDeleteAttachmentPurger
 {
     int _urgency;
-    id <NSCopying><NSObject> _volumeIdentifier;
-    NSString *_errorMessage;
-    unsigned long long _totalBytesPurged;
 }
 
 + (id);#y8,)y8,)_GG;
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)?;
 - (long long);
 - (void);
 - (_Bool);
@@ -35,10 +31,6 @@
 - (void)àÀø à ì¬¼¬;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *errorMessage; // @synthesize errorMessage=_errorMessage;
-@property(readonly, nonatomic) unsigned long long purgeableBytesAvailable;
-@property(nonatomic) unsigned long long totalBytesPurged; // @synthesize totalBytesPurged=_totalBytesPurged;
-@property(readonly, nonatomic) int urgency; // @synthesize urgency=_urgency;
 @property(readonly, copy, nonatomic) id <NSCopying><NSObject> volumeIdentifier; // @synthesize volumeIdentifier=_volumeIdentifier;
 
 @end

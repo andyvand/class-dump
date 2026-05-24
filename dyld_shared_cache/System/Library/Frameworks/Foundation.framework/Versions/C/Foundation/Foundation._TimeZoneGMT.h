@@ -7,7 +7,6 @@
 @interface Foundation._TimeZoneGMT
 {
     id offset;
-    id name;
 }
 
 @end

@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKImageWrapper, NSData, NSDictionary, NSImage, NSString;
+@class NSString;
 
 @interface IKPictureTakerRecentPicture
 {
     NSString *_originalImageName;
-    NSDictionary *_cropInfo;
-    struct CGSize _cropSize;
-    IKImageWrapper *_originalImage;
-    NSData *_smallIconData;
-    NSImage *_smallIconCache;
-    struct CGRect _crop;
-    int _version;
-    double _timeValue;
-    _Bool _isEmpty;
-    _Bool _isABMeImage;
-    _Bool _isPlaceholder;
-    _Bool _isForHUD;
-    _Bool _isCurrent;
-    void *_userInfo;
 }
 
 + (id);
@@ -32,9 +18,9 @@
 + (id);
 + (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)P;
 - (void);
 - (id);
 - (_Bool);
@@ -53,7 +39,7 @@
 - (void);
 - (void);
 - (void *);
-- (void);
+- (void)_;
 - (int);
 - (id);
 - (void);
@@ -65,11 +51,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool isABMeImage; // @synthesize isABMeImage=_isABMeImage;
-@property(nonatomic) _Bool isCurrent; // @synthesize isCurrent=_isCurrent;
-@property(nonatomic) _Bool isEmpty; // @synthesize isEmpty=_isEmpty;
-@property(nonatomic) _Bool isForHUD; // @synthesize isForHUD=_isForHUD;
-@property(nonatomic) _Bool isPlaceholder; // @synthesize isPlaceholder=_isPlaceholder;
 @property(retain) NSString *originalImageName; // @synthesize originalImageName=_originalImageName;
 
 @end

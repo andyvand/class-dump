@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
     NSObject<OS_dispatch_semaphore> *metadataWaitingSemaphore;
 }
 
-- (void)ByIdentifier: /* Error: Ran out of types for this method. */;
+- (void)metadataItemsFromArray:filteredByIdentifier: /* Error: Ran out of types for this method. */;
 
 @end
 

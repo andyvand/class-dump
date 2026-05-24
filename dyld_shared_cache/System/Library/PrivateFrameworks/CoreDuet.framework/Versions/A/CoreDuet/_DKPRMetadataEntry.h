@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _DKPRValue;
-
 @interface _DKPRMetadataEntry
 {
     unsigned int _index;
-    NSString *_key;
-    _DKPRValue *_value;
-    struct {
-        unsigned int index:1;
-    } _has;
 }
 
 - (id);

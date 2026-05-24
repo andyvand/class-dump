@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDiffableDataSourceSnapshot, NSString, PXSharedLibraryRule, PXSharedLibraryStatusProvider;
-@protocol PXSharedLibraryRulePeopleDataManagerDelegate;
+@class PXSharedLibraryRule, PXSharedLibraryStatusProvider;
 
 @interface PXSharedLibraryRulePeopleDataManager
 {
     PXSharedLibraryRule *_currentSharedLibraryRule;
-    NSDiffableDataSourceSnapshot *_currentSnapshot;
-    NSArray *_currentPersonIdentifiers;
-    NSString *_statusMessage;
-    id <PXSharedLibraryRulePeopleDataManagerDelegate> _delegate;
-    PXSharedLibraryStatusProvider *_statusProvider;
 }
 
 - (id);
@@ -26,23 +20,12 @@
 - (void);
 - (void)ù
 × ;
-- (void)ences_ParticipantLimitReached;
-- (id)llActionPerformer;
+- (void)PXSharedLibraryPreferences_ParticipantLimitReached;
+- (id)PXReorderListCellActionPerformer;
 - (void)hÊÕ7µP£;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *currentPersonIdentifiers; // @synthesize currentPersonIdentifiers=_currentPersonIdentifiers;
-@property(readonly, nonatomic) NSDiffableDataSourceSnapshot *currentSnapshot;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PXSharedLibraryRulePeopleDataManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *statusMessage; // @synthesize statusMessage=_statusMessage;
 @property(readonly, nonatomic) PXSharedLibraryStatusProvider *statusProvider; // @synthesize statusProvider=_statusProvider;
-@property(readonly) Class superclass;
 
 @end
 

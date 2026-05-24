@@ -5,5 +5,8 @@
 //
 
 @protocol WKDownloadDelegate
+
+@optional
+- (void);
 @end
 

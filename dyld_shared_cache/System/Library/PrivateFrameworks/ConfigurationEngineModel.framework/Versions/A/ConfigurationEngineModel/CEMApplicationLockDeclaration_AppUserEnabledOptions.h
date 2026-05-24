@@ -11,12 +11,9 @@
 @interface CEMApplicationLockDeclaration_AppUserEnabledOptions : CEMPayloadBase
 {
     NSNumber *_payloadVoiceOver;
-    NSNumber *_payloadZoom;
-    NSNumber *_payloadInvertColors;
-    NSNumber *_payloadAssistiveTouch;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 - (void);
@@ -33,10 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *payloadAssistiveTouch; // @synthesize payloadAssistiveTouch=_payloadAssistiveTouch;
-@property(copy, nonatomic) NSNumber *payloadInvertColors; // @synthesize payloadInvertColors=_payloadInvertColors;
 @property(copy, nonatomic) NSNumber *payloadVoiceOver; // @synthesize payloadVoiceOver=_payloadVoiceOver;
-@property(copy, nonatomic) NSNumber *payloadZoom; // @synthesize payloadZoom=_payloadZoom;
 
 @end
 

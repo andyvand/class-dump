@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFunctionRow, NSTouchBar;
+@class NSTouchBar;
 
 __attribute__((visibility("hidden")))
 @interface NSWorkflowsBar
 {
     NSTouchBar *_touchBar;
-    NSFunctionRow *_functionRow;
-    _Bool _isVisible;
-    _Bool _isEnabled;
 }
 
 + (id);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)countOfBytesClientExpectsToReceive;
++ (_Bool)uniqueIdentifierUUID;
++ (_Bool)_onqueue_responseHeadersArrived;
 + (_Bool) J;
-- (void);
+- (void)pportDigestSha256 failed;
 - (void);
 - (void);
 - (void);
@@ -30,9 +27,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, getter=isEnabled) _Bool enabled;
 @property(retain) NSTouchBar *touchBar;
-@property(readonly, getter=isVisible) _Bool visible;
 
 @end
 

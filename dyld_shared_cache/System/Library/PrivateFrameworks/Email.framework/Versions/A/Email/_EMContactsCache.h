@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, EFLazyCache;
+@class CNContactStore;
 
 @interface _EMContactsCache
 {
     CNContactStore *_store;
-    EFLazyCache *_addressesCache;
-    EFLazyCache *_namesCache;
 }
 
 - (id);
-- (id);
-- (id);
+- (id)HomeIntelligenceProtoPETActivityLoggerHomeActivityStateEvent;
+- (id)HomeIntelligenceProtoPETActivityLoggerHAPAccessoryEvent;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)/A/CoreFoundation;
 - (id)¤;
 
 // Remaining properties
-@property(readonly, nonatomic) EFLazyCache *addressesCache; // @synthesize addressesCache=_addressesCache;
-@property(readonly, nonatomic) EFLazyCache *namesCache; // @synthesize namesCache=_namesCache;
 @property(readonly, nonatomic) __weak CNContactStore *store; // @synthesize store=_store;
 
 @end

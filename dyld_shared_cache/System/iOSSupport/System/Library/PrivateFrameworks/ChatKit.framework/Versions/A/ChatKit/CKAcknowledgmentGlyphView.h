@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor;
-
 @interface CKAcknowledgmentGlyphView
 {
     double _animationDuration;
-    UIColor *_glyphColor;
-    struct CGPoint _glyphOffset;
 }
 
 + (id);
@@ -26,9 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long acknowledgmentType; // @dynamic acknowledgmentType;
-@property(readonly, nonatomic) double animationDuration; // @synthesize animationDuration=_animationDuration;
-@property(retain, nonatomic) UIColor *glyphColor; // @synthesize glyphColor=_glyphColor;
-@property(readonly, nonatomic) struct CGPoint glyphOffset; // @synthesize glyphOffset=_glyphOffset;
 
 @end
 

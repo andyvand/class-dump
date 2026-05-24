@@ -4,24 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDTransitIncident
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_transitIncidents;
 }
 
 + (id);
 + (id);
-- (id);
-- (void);
+- (id)`b;
+- (void)rowWithTitleKeyPath:(id)arg1 childSettingsKeyPath: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id):(struct _NSZone *)arg1 8d16@24;
-- (id)estMinute: /* Error: Ran out of types for this method. */;
+- (id)_secondsRoundedUpToNearestMinute: /* Error: Ran out of types for this method. */;
 - (id)(	4t	;
 - (void);
 

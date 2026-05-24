@@ -7,8 +7,6 @@
 @interface PodcastsFoundation.SearchResponse
 {
     id response;
-    id params;
-    id parsedObjectsCache;
 }
 
 - (id);

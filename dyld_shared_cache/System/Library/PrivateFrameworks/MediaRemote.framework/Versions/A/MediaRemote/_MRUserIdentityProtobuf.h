@@ -9,25 +9,22 @@
 @interface _MRUserIdentityProtobuf
 {
     NSString *_displayName;
-    NSString *_identifier;
-    int _type;
-    CDStruct_f953fb60 _has;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)";
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (int);
+- (id)IMCollaborationClearTransmission;
+- (int)le downloading %s. We will schedule a retry if necessary. Error:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)n;
+- (void), symbolName = %@};
+- (id)local.assistant.not-ready;
 - (id);
 - (int);
 - (_Bool);
@@ -35,16 +32,11 @@
 - (id);
 - (_Bool)ñ&ð1Â0@ù
 × ;
-- (void)handoffSourceDeviceType:(_Bool)arg1;
-- (void)gOutputDeviceUIDType;
+- (void)set_handoffSourceDeviceType:(_Bool)arg1;
+- (void)clusterAwareRemovingOutputDeviceUIDType;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) _Bool hasDisplayName;
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

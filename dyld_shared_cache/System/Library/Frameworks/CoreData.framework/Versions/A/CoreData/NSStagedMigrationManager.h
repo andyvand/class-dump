@@ -9,21 +9,19 @@
 @interface NSStagedMigrationManager
 {
     NSArray *_stages;
-    NSPersistentContainer *_container;
 }
 
 - (id);
 - (_Bool);
 - (_Bool);
 - (long long);
-- (id);
+- (id)@;
 - (void);
-- (id)ip:withError: /* Error: Ran out of types for this method. */;
+- (id)cloudKitSerializer:failedToUpdateRelationship:withError: /* Error: Ran out of types for this method. */;
 - (void)now; use [managedObjectContext assignObject:(id)arg1 toStore:] to straighten things out /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) NSPersistentContainer *container; // @synthesize container=_container;
-@property(readonly) NSArray *stages; // @synthesize stages=_stages;
 
 @end
 

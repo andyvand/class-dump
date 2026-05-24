@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMapTable, NSObject, NSString, TUCallProvider;
-@protocol OS_dispatch_queue, TUCallProviderManagerDataSource, TUFeatureFlags;
-
 @interface TUCallProviderManager
 {
     unsigned long long _type;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <TUCallProviderManagerDataSource> _dataSource;
-    NSMapTable *_delegateToQueue;
-    id <TUFeatureFlags> _featureFlags;
 }
 
 + (id);
@@ -29,60 +22,40 @@
 - (void);
 - (void);
 - (id);
+- (id)
+;
 - (id);
-- (id);
-- (void);
-- (id);
+- (void)(;
+- (id)!;
 - (id);
 - (id);
 - (unsigned long long);
+- (id)`s;
+- (id);
+- (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)h;
 - (id);
 - (void);
 - (id);
 - (id);
-- (id)completionHandler:(CDUnknownBlockType)arg1;
-- (void)rolClientSideCursorEnabled;
-- (id)URL;
-- (id)usServer;
+- (id)renewPseudonymHandle:(CDUnknownBlockType)arg1 forConversationProvider:expirationDate:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)remoteControlClientSideCursorEnabled;
+- (id)isEmergencyCallURL;
+- (id)asynchronousServer;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) id <TUCallProviderManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) TUCallProvider *defaultAppProvider;
-@property(readonly, nonatomic) TUCallProvider *defaultProvider;
-@property(retain, nonatomic) NSMapTable *delegateToQueue; // @synthesize delegateToQueue=_delegateToQueue;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) TUCallProvider *emergencyProvider;
-@property(readonly, nonatomic) TUCallProvider *faceTimeProvider;
-@property(readonly, nonatomic) id <TUFeatureFlags> featureFlags; // @synthesize featureFlags=_featureFlags;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSArray *providers;
-@property(readonly, copy, nonatomic) NSDictionary *providersByIdentifier;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, copy, nonatomic) NSArray *sortedProviders;
-@property(readonly, nonatomic) TUCallProvider *superboxProvider;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) TUCallProvider *telephonyProvider;
 @property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(readonly, nonatomic) TUCallProvider *voicemailProvider;
 
 @end
 

@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     HMDThreadNetworkObserver *_threadNetworkObserver;
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)ySearch>">16@?<v@?@"<MSPHistoryEntryRoute>">24@?<v@?@"<MSPHistoryEntryPlaceDisplay>">32@?<v@?@"<MSPHistoryEntryTransitLineItem>">40;
+- (id)%lu sessions are stale, re-saving remaining sessions;
+- (id)_loadStoredSessionsRulesUnarchiveError;
+- (id)icon_attribute_key;
 - (void);
 - (void);
 - (id);

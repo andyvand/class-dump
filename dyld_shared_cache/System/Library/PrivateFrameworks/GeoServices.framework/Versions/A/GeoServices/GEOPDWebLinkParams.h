@@ -4,33 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDIcon, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDWebLinkParams
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPDIcon *_icon;
-    NSString *_title;
-    NSString *_url;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _supportsEmbeddedWebBrowser;
-    struct {
-        unsigned int has_supportsEmbeddedWebBrowser:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_icon:1;
-        unsigned int read_title:1;
-        unsigned int read_url:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)initWithWordCount:trailingSilenceDuration:eosLikelihood:pauseCounts:silencePosterior:taskName:processedAudioDurationInMilliseconds:acousticEndpointerScore: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);

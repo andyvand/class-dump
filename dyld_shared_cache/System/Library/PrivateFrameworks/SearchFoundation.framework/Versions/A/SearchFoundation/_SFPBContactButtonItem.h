@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBPerson;
+@class NSString;
 
 @interface _SFPBContactButtonItem
 {
     NSString *_contactIdentifier;
-    _SFPBPerson *_person;
-    NSArray *_actionTypesToShows;
-    unsigned long long _uniqueId;
 }
 
 - (void);
@@ -28,29 +25,18 @@
 - (void);
 - (_Bool);
 - (id);
-- (unsigned long long);
-- (id);
-- (id);
+- (unsigned long long),&,V_cmykNames;
+- (id)isOriginalVideoComplementKnownUnsupportedFormatForAsset:(id)arg1 failureInfo: /* Error: Ran out of types for this method. */;
+- (id)vailable with asset:%{public}@, resource:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (void);
 - (void)outingCommand"16;
-- (void)gResults: /* Error: Ran out of types for this method. */;
+- (void)setHasEmbeddingResults: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *actionTypesToShows; // @synthesize actionTypesToShows=_actionTypesToShows;
 @property(copy, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBPerson *person; // @synthesize person=_person;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long uniqueId; // @synthesize uniqueId=_uniqueId;
 
 @end
 

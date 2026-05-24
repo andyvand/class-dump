@@ -12,8 +12,8 @@
 
 - (id);
 - (long long);
-- (id);
-- (id)Error;
+- (id)removeMetadataInfoForURLStrings:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)PGError;
 
 @end
 

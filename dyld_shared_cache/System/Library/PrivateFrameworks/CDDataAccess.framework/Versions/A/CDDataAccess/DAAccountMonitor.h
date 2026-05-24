@@ -4,29 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSObject;
-@protocol OS_dispatch_queue;
+@class NSHashTable;
 
 @interface DAAccountMonitor
 {
     NSHashTable *_accounts;
-    NSObject<OS_dispatch_queue> *_accountsQueue;
 }
 
 + (id);
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)google.protobuf.FileOptions.ruby_package;
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSHashTable *accounts; // @synthesize accounts=_accounts;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *accountsQueue; // @synthesize accountsQueue=_accountsQueue;
 
 @end
 

@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIInputViewAnimationStyle, UIKeyboardSceneDelegate;
-
 @interface _UIInputViewAnimationAssertion
 {
     _Bool _valid;
-    _Bool _animated;
-    int _direction;
-    UIKeyboardSceneDelegate *_sceneDelegate;
-    UIInputViewAnimationStyle *_style;
 }
 
 + (id);
+- (id)$;
+- (void)r<std::pair<const unsigned short, unsigned long>>>="__table_"{__hash_table<std::__hash_value_type<unsigned short, unsigned long>, std::__unordered_map_hasher<unsigned short, std::pair<const unsigned short, unsigned long>, std::hash<unsigned short>, std::equal_to<unsigned short>>, std::__unordered_map_equal<unsigned short, std::pair<const unsigned short, unsigned long>, std::equal_to<unsigned short>, std::hash<unsigned short>>, std::allocator<std::pair<const unsigned short, unsigned long>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned short, unsigned long>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned short, unsigned long>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned short, unsigned long>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned short, unsigned long>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void)!Fù1bÐ1Â0@ù
 × ;
@@ -29,13 +23,9 @@
 - (void)UICTFontTextStyleHeadline2;
 - (_Bool)ng;
 - (void);
-- (void)EffectRegion;
+- (void)N_UIIntelligenceEdgeLightEffectRegion;
 
 // Remaining properties
-@property(nonatomic) _Bool animated; // @synthesize animated=_animated;
-@property(readonly, nonatomic) int direction; // @synthesize direction=_direction;
-@property(nonatomic) __weak UIKeyboardSceneDelegate *sceneDelegate; // @synthesize sceneDelegate=_sceneDelegate;
-@property(retain, nonatomic) UIInputViewAnimationStyle *style; // @synthesize style=_style;
 @property(nonatomic) _Bool valid; // @synthesize valid=_valid;
 
 @end

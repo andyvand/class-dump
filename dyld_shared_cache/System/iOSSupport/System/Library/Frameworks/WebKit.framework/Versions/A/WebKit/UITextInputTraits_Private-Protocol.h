@@ -4,22 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet, NSString, UIColor, UIImage, UIInputContextHistory, UITextRange, _UISupplementalLexicon;
+@class NSString, UIColor, UIImage, UIInputContextHistory, _UISupplementalLexicon;
 
 @protocol UITextInputTraits_Private
-- (void)ts;
+- (void)updateContentScripts;
 
 @optional
+- (void);
+- (_Bool)showCollectionControls;
+- (_Bool)__objc_protorefs__DATA_CONST;
+- (void)_publicErrorForPrivateError:(_Bool)arg1;
+- (_UISupplementalLexicon *)R;
+- (_Bool)P;
+- (void)!;
+- (void),;
+- (UIColor *)hConfig:forStreamInfo:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void)c;
+- (UIColor *)proposedSharedTemporaryFileURLForFilename: /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool)PrivateFrameworks/SoftLinking.framework/Versions/A/SoftLinking;
+- (double)~	;
+- (_Bool)a;
+- (void)__objc_methlist;
+- (_Bool)$;
+- (void);
+- (void)I);
+- (_Bool)A;
+- (double)allowRapidSecurityResponseRemoval;
 - (void)_WKWebExtensionContextDelegate;
 - (void)0}	¸~(Ô;
 - (void) ;
 - (_Bool)ason to freeze layer tree (reason=%d, new=%d, old=%d);
 - (void)orage/CacheStorageCache.cpp 414:(_Bool)arg1 Invalid message dispatched %{public}s;
 - (_Bool)rate (id = %llu);
-- (_Bool);
-- (_Bool)bPage_UpdateCurrentModifierState;
-- (void)rFrame;
-- (void)SessionReply;
+- (_Bool)WebPage_UpdateCurrentModifierState;
+- (void)WebExtensionController_DidCommitLoadForFrame;
+- (void)RemoteCDMInstanceSessionProxy_LoadSessionReply;
 - (void)dentifierGeneric<WebCore:(_Bool)arg1:ServiceWorkerJobIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::CompletionHandler<void (std::experimental::expected<bool, WebCore::ExceptionData> &&)>>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::ServiceWorkerJobIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebCore::ServiceWorkerJobIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::ServiceWorkerJobIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::CompletionHandler<void (std::experimental::expected<bool, WebCore::ExceptionData> &&)>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::ServiceWorkerJobIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::CompletionHandler<void (std::experimental::expected<bool, WebCore::ExceptionData> &&)>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::ServiceWorkerJobIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::ServiceWorkerJobIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::CompletionHandler<void (std::experimental::expected<bool, WebCore::ExceptionData> &&)>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::ServiceWorkerJobIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void)tIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF:(int)arg1:HashMap<WTF::ObjectIdentifierGeneric<WebKit::WebUndoStepIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RefPtr<WebKit::WebUndoStep>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::WebUndoStepIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (long long)oxed iframe;
@@ -31,7 +51,7 @@
 - (UIImage *)e>>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::DOMCacheIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, WTF::WeakPtr<WebKit::CacheStorageCache>>>, WTF::DefaultHash<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::DOMCacheIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>, WTF::HashMap<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::DOMCacheIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, WTF::WeakPtr<WebKit::CacheStorageCache>>::KeyValuePairTraits, WTF::HashTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::DOMCacheIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>>::validateKey(const ValueType &) [Key = WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::DOMCacheIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Value = WTF::KeyValuePair<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::DOMCacheIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, WTF::WeakPtr<WebKit::CacheStorageCache>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::DOMCacheIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, WTF::WeakPtr<WebKit::CacheStorageCache>>>, HashFunctions = WTF::DefaultHash<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::DOMCacheIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>, Traits = WTF::HashMap<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::DOMCacheIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, WTF::WeakPtr<WebKit::CacheStorageCache>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::DOMCacheIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (NSString *)ObjectIdentifierGeneric<WebCore::DOMCacheIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Value = WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::DOMCacheIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Extractor = WTF::IdentityExtractor, HashFunctions = WTF::DefaultHash<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::DOMCacheIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>, Traits = WTF::HashTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::DOMCacheIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>, KeyTraits = WTF::HashTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::DOMCacheIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (long long)>, unsigned long long>, WTF::Ref<WebKit::ServiceWorkerDebuggableProxy>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::ServiceWorkerIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
-- (_Bool)e;
+- (_Bool)hasVideoInPictureInPictureDidChange;
 - (void)bjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>=Q}}{Markable<WebCore:(UIInputContextHistory *)arg1:ProcessQualified<WTF::UUID>, WTF::MarkableTraits<WebCore::ProcessQualified<UUID>>>={ProcessQualified<WTF::UUID>={UUID=T}{ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>=Q}}}{Markable<WTF::ObjectIdentifierGeneric<WebCore::NodeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::MarkableTraits<WTF::ObjectIdentifierGeneric<WebCore::NodeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>={ObjectIdentifierGeneric<WebCore::NodeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>=Q}}})B}}8 /* Error: Ran out of types for this method. */;
 - (NSString *)onverter>>, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::SamplesRendererTrackIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::SamplesRendererTrackIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WebCore::MediaSampleConverter>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::SamplesRendererTrackIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebCore::SamplesRendererTrackIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::SamplesRendererTrackIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WebCore::MediaSampleConverter>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::SamplesRendererTrackIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WebCore::MediaSampleConverter>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::SamplesRendererTrackIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::SamplesRendererTrackIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WebCore::MediaSampleConverter>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::SamplesRendererTrackIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void)long long>, WTF:(int)arg1:KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebCore::Filter>>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebCore::Filter>>>, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebCore::Filter>>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebCore::Filter>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebCore::Filter>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebCore::Filter>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
@@ -47,288 +67,12 @@
 - (_Bool)WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::IdentityExtractor, WTF::DefaultHash<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, WTF::HashTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, WTF::HashTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>>::validateKey(const ValueType &) [Key = WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Value = WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Extractor = WTF::IdentityExtractor, HashFunctions = WTF::DefaultHash<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Traits = WTF::HashTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, KeyTraits = WTF::HashTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void)sionAPIWebRequest, Source = WebKit:(NSString *)arg1:JSWebExtensionWrappable] /* Error: Ran out of types for this method. */;
 - (_Bool)Source *) [Target = WebKit::WebExtensionAPITabs, Source = WebKit::JSWebExtensionWrappable] /* Error: Ran out of types for this method. */;
-- (void)g_before_ready;
+- (void)nw_webtransport_options_set_allow_joining_before_ready;
 
 // Remaining properties
-@property(copy, nonatomic) NSIndexSet *PINEntrySeparatorIndexes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSIndexSet",?,C,N
-
-@property(nonatomic) _Bool acceptsDictationSearchResults;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool acceptsEmoji;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool acceptsFloatingKeyboard;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool acceptsInitialEmojiKeyboard;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool acceptsPayloads;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool acceptsSplitKeyboard;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) long long allowsTextAnimationsType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(copy, nonatomic) NSString *autocorrectionContext;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
-@property(nonatomic) _Bool contentsIsSingleValue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool deferBecomingResponder;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic, getter=isDevicePasscodeEntry) _Bool devicePasscodeEntry;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N,GisDevicePasscodeEntry
-
-@property(nonatomic) _Bool disableHandwritingKeyboard;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool disableInputBars;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool disablePrediction;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool displaySecureEditsUsingPlainText;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool displaySecureTextUsingPlainText;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) int emptyContentReturnKeyType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Ti,?,N
-
-@property(nonatomic) _Bool enablesReturnKeyOnNonWhiteSpaceContent;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) struct UIEdgeInsets floatingKeyboardEdgeInsets;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{UIEdgeInsets=dddd},?,N
-
-@property(nonatomic) _Bool forceDefaultDictationInfo;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) long long forceDictationKeyboardType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) _Bool forceDisableDictation;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool forceEnableDictation;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool forceFloatingKeyboard;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool forceSpellingDictation;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool hasDefaultContents;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool hidePrediction;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) long long inlineCompletionType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(retain, nonatomic) UIInputContextHistory *inputContextHistory;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIInputContextHistory",?,&,N
-
-@property(retain, nonatomic) UIColor *insertionPointColor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIColor",?,&,N
-
-@property(nonatomic) unsigned long long insertionPointWidth;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,N
-
-@property(nonatomic) _Bool isCarPlayIdiom;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool isSingleLineDocument;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) unsigned long long keyboardSuggestionOptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,N
-
-@property(nonatomic) _Bool learnsCorrections;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool loadKeyboardsForSiriLanguage;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) UIColor *matchHighlightColor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIColor",?,N
-
-@property(nonatomic) _Bool preferOnlineDictation;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) double preferredInputViewHeight;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,N
-
-@property(nonatomic) long long preferredKeyboardStyle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
 @property(copy, nonatomic) NSString *recentInputIdentifier;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,C,N
-
-@property(copy, nonatomic) NSString *responseContext;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
-@property(nonatomic) _Bool returnKeyGoesToNextResponder;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(retain, nonatomic) UIColor *selectionBarColor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIColor",?,&,N
-
-@property(retain, nonatomic) UIColor *selectionBorderColor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIColor",?,&,N
-
-@property(nonatomic) double selectionBorderWidth;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,N
-
-@property(nonatomic) double selectionCornerRadius;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,N
-
-@property(retain, nonatomic) UIImage *selectionDragDotImage;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIImage",?,&,N
-
-@property(nonatomic) struct UIEdgeInsets selectionEdgeInsets;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{UIEdgeInsets=dddd},?,N
-
-@property(retain, nonatomic) UIColor *selectionHighlightColor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIColor",?,&,N
-
-@property(nonatomic) int shortcutConversionType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Ti,?,N
-
-@property(nonatomic) _Bool showDictationButton;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(retain, nonatomic) _UISupplementalLexicon *supplementalLexicon;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"_UISupplementalLexicon",?,&,N
-
-@property(retain, nonatomic) UIImage *supplementalLexiconAmbiguousItemIcon;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIImage",?,&,N
-
-@property(nonatomic) _Bool suppressReturnKeyStyling;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) int textLoupeVisibility;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Ti,?,N
-
-@property(readonly, nonatomic) UITextRange *textRangeForServicesInteraction;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UITextRange",?,R,N
-
-@property(nonatomic) long long textScriptType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) int textSelectionBehavior;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Ti,?,N
-
-@property(nonatomic) id textSuggestionDelegate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@,?,N
-
-@property(nonatomic) struct __CFCharacterSet *textTrimmingSet;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T^{__CFCharacterSet=},?,N
-
-@property(nonatomic) _Bool typingAdaptationDisabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(retain, nonatomic) UIColor *underlineColorForSpelling;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIColor",?,&,N
-
-@property(retain, nonatomic) UIColor *underlineColorForTextAlternatives;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIColor",?,&,N
-
-@property(nonatomic) _Bool useAutomaticEndpointing;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool useInterfaceLanguageForLocalization;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) struct _NSRange validTextRange;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{_NSRange=QQ},?,N
-
-@property(readonly, nonatomic) _Bool wasEverSecureTextEntry;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property unsigned long long writingToolsAllowedInputOptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?
 
 @end
 

@@ -7,16 +7,12 @@
 @class NSData;
 
 @protocol MTLPipelineStateBinary
+- (unsigned long long));
 
 @optional
 - (unsigned long long)Q24@32Q40Q48@56;
 
 // Remaining properties
 @property(readonly) NSData *binary;
-@property(readonly) unsigned long long debugIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R
-
-@property(readonly) unsigned long long uniqueIdentifier;
 @end
 

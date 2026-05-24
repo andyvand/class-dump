@@ -9,7 +9,7 @@
 }
 
 + (_Bool);
-- (id);
+- (id)setHasCountOfPSUSAssetsInAssetSet:(id)arg1;
 - (id);
 - (void);
 

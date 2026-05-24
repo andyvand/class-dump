@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocationManager, NSString;
+@class CLLocationManager;
 
 @interface PKCoarseLocationMonitor
 {
     CLLocationManager *_locationManager;
-    _Bool _coarseLocationEnabled;
 }
 
 + (id);
@@ -20,13 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool coarseLocationEnabled; // @synthesize coarseLocationEnabled=_coarseLocationEnabled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

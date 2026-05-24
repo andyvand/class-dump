@@ -7,9 +7,6 @@
 @interface NewsUI2.NewIssueCheckNotificationCoordinator
 {
     id currentIssuesChecker;
-    id notificationScheduler;
-    id userInfo;
-    id bundleSubscriptionManager;
 }
 
 @end

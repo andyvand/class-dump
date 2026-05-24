@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSMutableDictionary, NSString, NSUndoManager;
-@protocol CUIKCommitDelegate, CUIKDecisionDelegate, CUIKEditorExtended;
+@class NSMutableDictionary;
 
 @interface CUIKUndoManager
 {
     _Bool _disableUndoForOrganizerScheduling;
-    id <CUIKCommitDelegate> _commitDelegate;
-    id <CUIKDecisionDelegate> _decisionDelegate;
-    CDUnknownBlockType _editingManagerProvider;
-    id <CUIKEditorExtended> _undoableEditor;
-    NSError *_lastError;
-    NSMutableDictionary *_undeletedObjectMap;
-    NSMutableDictionary *_specificIdentifierMapForUndo;
-    NSMutableDictionary *_specificIdentifierMapForRevert;
 }
 
 + (id);
@@ -28,7 +19,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
@@ -45,33 +36,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)4;
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void)bledDelegateSourcesFromStore: /* Error: Ran out of types for this method. */;
+- (id)gnoreOrigin;
+- (void)R,N;
+- (void)sortedEnabledDelegateSourcesFromStore: /* Error: Ran out of types for this method. */;
 - (id)ÿÿÿÿ;
 
 // Remaining properties
-@property(retain, nonatomic) id <CUIKCommitDelegate> commitDelegate; // @synthesize commitDelegate=_commitDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) id <CUIKDecisionDelegate> decisionDelegate; // @synthesize decisionDelegate=_decisionDelegate;
-@property(readonly, copy) NSString *description;
-@property _Bool disableUndoForOrganizerScheduling; // @synthesize disableUndoForOrganizerScheduling=_disableUndoForOrganizerScheduling;
-@property(copy, nonatomic) CDUnknownBlockType editingManagerProvider; // @synthesize editingManagerProvider=_editingManagerProvider;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSError *lastError; // @synthesize lastError=_lastError;
-@property(retain, nonatomic) NSMutableDictionary *specificIdentifierMapForRevert; // @synthesize specificIdentifierMapForRevert=_specificIdentifierMapForRevert;
-@property(retain, nonatomic) NSMutableDictionary *specificIdentifierMapForUndo; // @synthesize specificIdentifierMapForUndo=_specificIdentifierMapForUndo;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSUndoManager *systemUndoManager;
 @property(retain, nonatomic) NSMutableDictionary *undeletedObjectMap; // @synthesize undeletedObjectMap=_undeletedObjectMap;
-@property(retain, nonatomic) id <CUIKEditorExtended> undoableEditor; // @synthesize undoableEditor=_undoableEditor;
 
 @end
 

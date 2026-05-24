@@ -10,9 +10,6 @@
 - (long long)alid display type :%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect frame;
 @property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) long long level;
-@property(readonly, nonatomic) struct CGRect referenceFrame;
 @end
 

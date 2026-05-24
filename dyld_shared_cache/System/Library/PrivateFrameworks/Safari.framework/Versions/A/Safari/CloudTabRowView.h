@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSView, NSVisualEffectView;
+@class NSView;
 
 __attribute__((visibility("hidden")))
 @interface CloudTabRowView
 {
     NSView *_separatorView;
-    NSVisualEffectView *_backgroundVisualEffectView;
-    _Bool _shouldDrawSeparator;
-    _Bool _shouldUseVisualEffectViewBackground;
 }
 
 - (_Bool);
@@ -25,7 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) _Bool shouldDrawSeparator; // @synthesize shouldDrawSeparator=_shouldDrawSeparator;
-@property(nonatomic) _Bool shouldUseVisualEffectViewBackground; // @synthesize shouldUseVisualEffectViewBackground=_shouldUseVisualEffectViewBackground;
 
 @end
 

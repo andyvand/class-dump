@@ -4,39 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlaybackEngineEvent, NSString;
 @protocol MPCPlaybackEngineEventStreamSubscription;
 
 __attribute__((visibility("hidden")))
 @interface MPCPlaybackEngineLoggingConsumer
 {
     struct _MPCLoggingConsumerChartState _chartState;
-    struct _MPCLoggingConsumerChartStatus _chartStatus;
-    id <MPCPlaybackEngineEventStreamSubscription> _subscription;
-    MPCPlaybackEngineEvent *_lastTimeControlStatusEvent;
 }
 
 + (unsigned int);
 + (id);
+- (void)entifier:(id)arg1 %@;
+- (void)DisableRemindersiCloudSetting;
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)rk/Versions/A/AccountsDaemon;
 - (id);
 - (_Bool);
 - (id);
 - (void)public}@ô® MEDIASERVICES PURGE       %{public}@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) MPCPlaybackEngineEvent *lastTimeControlStatusEvent; // @synthesize lastTimeControlStatusEvent=_lastTimeControlStatusEvent;
 @property(readonly, nonatomic) id <MPCPlaybackEngineEventStreamSubscription> subscription; // @synthesize subscription=_subscription;
-@property(readonly) Class superclass;
 
 @end
 

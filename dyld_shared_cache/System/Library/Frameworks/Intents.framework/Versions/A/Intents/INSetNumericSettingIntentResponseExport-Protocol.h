@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INNumericSettingValue, NSString;
+@class INNumericSettingValue;
 
 @protocol INSetNumericSettingIntentResponseExport
-- (long long)onNil: /* Error: Ran out of types for this method. */;
+- (void)framework;
+- (INNumericSettingValue *)`8;
+- (INNumericSettingValue *));
+- (void);
+- (long long)if_addObjectIfNonNil: /* Error: Ran out of types for this method. */;
 - (INNumericSettingValue *);
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) NSString *errorDetail;
-@property(copy) INNumericSettingValue *maxValue;
-@property(copy) INNumericSettingValue *minValue;
-@property(copy) INNumericSettingValue *oldValue;
-@property(copy) INNumericSettingValue *updatedValue;
 @end
 

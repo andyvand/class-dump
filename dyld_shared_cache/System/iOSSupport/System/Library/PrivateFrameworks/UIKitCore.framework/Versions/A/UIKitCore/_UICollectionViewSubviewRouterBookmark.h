@@ -8,13 +8,11 @@ __attribute__((visibility("hidden")))
 @interface _UICollectionViewSubviewRouterBookmark
 {
     unsigned long long _count;
-    long long _zIndex;
-    long long _orderMode;
 }
 
 + (id);
 + (id);
-- (long long);
+- (long long)conversationManager:conversation:didChangeSceneAssociationForActivitySession: /* Error: Ran out of types for this method. */;
 - (id);
 - (long long)_setShouldAdjustLayoutToCollapseTopSpacing: /* Error: Ran out of types for this method. */;
 - (void)ryColWidth=%g;
@@ -22,8 +20,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) unsigned long long count; // @synthesize count=_count;
-@property(readonly, nonatomic) long long orderMode; // @synthesize orderMode=_orderMode;
-@property(readonly, nonatomic) long long zIndex; // @synthesize zIndex=_zIndex;
 
 @end
 

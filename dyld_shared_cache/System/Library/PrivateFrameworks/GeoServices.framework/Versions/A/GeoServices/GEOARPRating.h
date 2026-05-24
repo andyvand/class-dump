@@ -4,50 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOARPRating
 {
     PBUnknownFields *_unknownFields;
-    NSString *_displayedText;
-    _Bool _rating;
-    struct {
-        unsigned int has_rating:1;
-    } _flags;
 }
 
-+ (_Bool)ingsRouteHandoff:(id)arg1;
-- (void);
-- (void);
++ (_Bool)setHasMapSettingsRouteHandoff:(id)arg1;
+- (void)setCurrentValue:(_Bool)arg1;
+- (void)contentsOfDirectoryAtURL:(id)arg1 includingPropertiesForKeys:options:error: /* Error: Ran out of types for this method. */;
+- (_Bool)̝;
 - (_Bool);
-- (_Bool);
 - (void);
-- (void);
+- (void)*;
 - (id);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)_isSystemHapticEnabled;
 - (void);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void)Q·*Ð1Â0@ù
 × ;
-- (_Bool)entParameters: /* Error: Ran out of types for this method. */;
-- (id)IsLabelingShown;
+- (_Bool)setPlaceRefinementParameters: /* Error: Ran out of types for this method. */;
+- (id)lookAroundIsLabelingShown;
 - (id)àq°rs`u;
-- (id)OCanNavigate;
+- (id)GEOCanNavigate;
 - (id)ÿÿ;
 - (void)W<ÿÛ%;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *displayedText;
-@property(readonly, nonatomic) _Bool hasDisplayedText;
 @property(nonatomic) _Bool hasRating;
-@property(nonatomic) _Bool rating;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

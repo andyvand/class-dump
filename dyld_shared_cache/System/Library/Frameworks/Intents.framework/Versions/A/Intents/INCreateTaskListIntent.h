@@ -6,7 +6,7 @@
 
 #import <Intents/INIntent.h>
 
-@class INSpeakableString, NSArray, NSString;
+@class INSpeakableString;
 
 @interface INCreateTaskListIntent : INIntent
 {
@@ -20,30 +20,21 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (long long);
 - (void);
-- (id);
+- (id)8;
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id)dioStation:completion: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id)resolveChannelForSetRadioStation:completion: /* Error: Ran out of types for this method. */;
 - (void)ÞË®;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) INSpeakableString *groupName;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSArray *taskTitles;
 @property(readonly, copy) INSpeakableString *title;
 
 @end

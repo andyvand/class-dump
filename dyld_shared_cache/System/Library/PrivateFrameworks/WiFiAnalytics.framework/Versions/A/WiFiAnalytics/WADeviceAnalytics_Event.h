@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSEntityDescription, NSPredicate, NSSet, NSString;
+@class NSString;
 
 @interface WADeviceAnalytics_Event
 {
     NSString *_eventType;
-    NSDictionary *_properties;
-    NSPredicate *_entityFilter;
-    unsigned long long _useAs;
-    NSEntityDescription *_entity;
-    NSSet *_keyPathsToFetch;
-    NSArray *_propertiesToFetch;
-    NSArray *_relationshipKeyPathsToFetch;
 }
 
 + (_Bool);
@@ -25,7 +18,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -45,26 +38,19 @@
 - (void);
 - (id);
 - (id);
+- (id)ifier:inList:error:] called, without bounded by an REMList as param. /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void);
+- (void);
+- (void)_;
+- (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id)Than:withPredicate:findingAll: /* Error: Ran out of types for this method. */;
+- (id)findEventsIn:aroundIndex:noEarlierThan:noLaterThan:withPredicate:findingAll: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSEntityDescription *entity; // @synthesize entity=_entity;
-@property(retain) NSPredicate *entityFilter; // @synthesize entityFilter=_entityFilter;
 @property(retain) NSString *eventType; // @synthesize eventType=_eventType;
-@property(retain) NSSet *keyPathsToFetch; // @synthesize keyPathsToFetch=_keyPathsToFetch;
-@property(retain) NSDictionary *properties; // @synthesize properties=_properties;
-@property(retain) NSArray *propertiesToFetch; // @synthesize propertiesToFetch=_propertiesToFetch;
-@property(retain) NSArray *relationshipKeyPathsToFetch; // @synthesize relationshipKeyPathsToFetch=_relationshipKeyPathsToFetch;
-@property unsigned long long useAs; // @synthesize useAs=_useAs;
 
 @end
 

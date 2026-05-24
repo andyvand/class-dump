@@ -10,11 +10,10 @@ __attribute__((visibility("hidden")))
 @interface _MPMusicPlayerControllerArtworkToken
 {
     NSString *_artworkIdentifier;
-    NSString *_contentItemID;
 }
 
-- (id);
-- (void)entPlaylist;
+- (id)(c;
+- (void)_currentPlaylist;
 
 @end
 

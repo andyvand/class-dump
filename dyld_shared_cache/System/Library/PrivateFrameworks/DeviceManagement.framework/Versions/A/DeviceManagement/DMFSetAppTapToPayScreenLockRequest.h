@@ -21,7 +21,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)collectionView:draggingSession:willBeginAtPoint:forItemsAtIndexPaths: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *tapToPayScreenLock; // @synthesize tapToPayScreenLock=_tapToPayScreenLock;

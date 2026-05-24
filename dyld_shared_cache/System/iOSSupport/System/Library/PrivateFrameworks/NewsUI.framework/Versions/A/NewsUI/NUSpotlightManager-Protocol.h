@@ -7,6 +7,7 @@
 @protocol NUAppEntityAssociator;
 
 @protocol NUSpotlightManager
+- (id <NUAppEntityAssociator>)Q;
 
 // Remaining properties
 @property(retain, nonatomic) id <NUAppEntityAssociator> associator;

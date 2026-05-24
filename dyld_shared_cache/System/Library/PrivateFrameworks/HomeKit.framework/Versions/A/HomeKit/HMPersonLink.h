@@ -4,50 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSUUID;
+@class NSUUID;
 
 @interface HMPersonLink
 {
     NSUUID *_personUUID;
-    NSUUID *_personManagerUUID;
 }
 
 + (id);
 + (_Bool);
 - (id);
 - (id);
+- (id)N7morphun6dialog22DefaultDisplayFunctionE;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
+- (_Bool)negotiator;
+- (id)prediction;
 - (void);
 - (id);
 - (id);
 - (void)dëëøí;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSUUID *personManagerUUID; // @synthesize personManagerUUID=_personManagerUUID;
 @property(readonly, copy) NSUUID *personUUID; // @synthesize personUUID=_personUUID;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 
 @end
 

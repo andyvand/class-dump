@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface PETSchemaPETRawMessage : SISchemaInstrumentationMessage
 {
     unsigned int _type_id;
-    NSData *_raw_bytes;
-    NSString *_name;
-    struct {
-        unsigned int type_id:1;
-    } _has;
-    _Bool _hasRaw_bytes;
-    _Bool _hasName;
 }
 
 - (void);
@@ -27,7 +18,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)=;
 - (void);
 - (unsigned int);
 - (void);
@@ -38,22 +29,16 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)%@;
 - (id);
 - (id)±Ý°1Â0@ù
 × ;
-- (id)ercomMessageRecorded;
+- (id)_hasIntercomMessageRecorded;
 - (id);
-- (void)t;
-- (void)RENTITYTAGGERCATEGORY_UNKNOWN;
+- (void)SISchemaBluetoothCarInvocationContext;
+- (void)ASRENTITYTAGGERCATEGORY_UNKNOWN;
 
 // Remaining properties
-@property(nonatomic) _Bool hasName; // @synthesize hasName=_hasName;
-@property(nonatomic) _Bool hasRaw_bytes; // @synthesize hasRaw_bytes=_hasRaw_bytes;
-@property(nonatomic) _Bool hasType_id;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSData *raw_bytes; // @synthesize raw_bytes=_raw_bytes;
 @property(nonatomic) unsigned int type_id; // @synthesize type_id=_type_id;
 
 @end

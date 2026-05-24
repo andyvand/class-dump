@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSPHistoryEntryStorage, NSDate, NSString, NSUUID;
-
 @interface MSPMutableHistoryEntry
 {
     _Bool _immutable;
-    NSUUID *_storageIdentifier;
-    NSDate *_usageDate;
-    MSPHistoryEntryStorage *_storage;
 }
 
 + (id);
@@ -19,8 +14,8 @@
 + (id);
 + (id);
 + (Class);
-- (id);
-- (_Bool);
+- (id)l;
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
@@ -30,30 +25,20 @@
 - (void);
 - (_Bool);
 - (void);
+- (id)numberWithInteger: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)P;
 - (_Bool);
 - (id);
-- (id);
+- (id)ing"16@?<v@?@"NSString"@"NSImage"@"NSError">24;
 - (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic, getter=_isImmutable) _Bool immutable; // @synthesize immutable=_immutable;
-@property(readonly, nonatomic) MSPHistoryEntryStorage *storage; // @synthesize storage=_storage;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=tracksRAPReportingOnly) _Bool tracksRAPReportingOnly;
-@property(copy, nonatomic) NSDate *usageDate; // @synthesize usageDate=_usageDate;
 
 @end
 

@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FUArrivalInfo, FUDepartureInfo, FUFlightStep, NSDate;
-
 @interface FUFlightLeg
 {
     _Bool _legacy;
-    long long _status;
-    double _duration;
-    FUFlightStep *_departure;
-    FUFlightStep *_arrival;
-    long long _flightState;
-    FUDepartureInfo *_departureInfo;
-    FUArrivalInfo *_arrivalInfo;
-    NSDate *_dateLastUpdated;
 }
 
 + (_Bool);
@@ -24,8 +14,8 @@
 - (id);
 - (long long);
 - (id);
-- (id);
-- (long long);
+- (id);
+- (long long);
 - (id);
 - (double);
 - (double);
@@ -45,25 +35,15 @@
 - (id);
 - (id);
 - (double);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)`;
 - (long long);
 - (void);
 
 // Remaining properties
-@property(retain) FUFlightStep *arrival; // @synthesize arrival=_arrival;
-@property(retain) FUArrivalInfo *arrivalInfo; // @synthesize arrivalInfo=_arrivalInfo;
-@property(readonly) long long computedFlightState;
-@property(retain) NSDate *dateLastUpdated; // @synthesize dateLastUpdated=_dateLastUpdated;
-@property(readonly) NSDate *dateOfNextExpectedUpdate;
-@property(retain) FUFlightStep *departure; // @synthesize departure=_departure;
-@property(retain) FUDepartureInfo *departureInfo; // @synthesize departureInfo=_departureInfo;
-@property double duration; // @synthesize duration=_duration;
-@property long long flightState; // @synthesize flightState=_flightState;
-@property _Bool legacy; // @synthesize legacy=_legacy;
 @property long long status; // @synthesize status=_status;
 
 @end

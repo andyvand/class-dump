@@ -9,19 +9,18 @@
 @interface INCWidgetOptions
 {
     NSString *_extensionBundleIdentifier;
-    NSString *_intentType;
 }
 
 - (id);
 - (void);
-- (void);
+- (void)q
+;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *extensionBundleIdentifier; // @synthesize extensionBundleIdentifier=_extensionBundleIdentifier;
-@property(copy, nonatomic) NSString *intentType; // @synthesize intentType=_intentType;
 
 @end
 

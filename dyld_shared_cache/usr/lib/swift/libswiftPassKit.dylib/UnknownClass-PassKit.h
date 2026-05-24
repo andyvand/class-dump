@@ -8,6 +8,9 @@
 - (_Bool);
 
 // Remaining properties
+// Error: Property attributes should begin with the type ('T') attribute, property name: PassKit
+// Property attributes: (null)
+
 @property(nonatomic, readonly) _Bool isBlocked;
 @end
 

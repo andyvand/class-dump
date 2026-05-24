@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface CNPerContactPropertyKeyDescriptor
 {
@@ -15,11 +15,11 @@
 - (void);
 - (void);
 - (id);
+- (id)a;
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (void);
+- (unsigned long long)`;
+- (void);
 - (id);
 - (_Bool);
 - (void);
@@ -28,14 +28,7 @@
 - (id)cute save request;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSMutableDictionary *propertiesByIdentifier; // @synthesize propertiesByIdentifier=_propertiesByIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

@@ -9,21 +9,14 @@
 @interface NewsCore.PingBasedOnlineNetworkTransitionOperation : FCOperation
 {
     id log;
-    id pingInterval;
-    id pingTimeoutInterval;
-    id hostName;
-    id port;
-    id notificationBlock;
-    id probeLock;
-    id probe;
 }
 
 - (id);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)elegate;
+- (void);
 - (unsigned long long);
-- (void)SSOfr_sG7_9XpA;
+- (void)ThCM9KzMRSSOfr_sG7_9XpA;
 - (void)edPurchaseIDs:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties

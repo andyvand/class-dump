@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface INSpeakableString
 {
     NSString *_spokenPhrase;
-    NSString *_pronunciationHint;
-    NSString *_vocabularyIdentifier;
-    NSArray *_alternativeSpeakableMatches;
 }
 
 + (_Bool);

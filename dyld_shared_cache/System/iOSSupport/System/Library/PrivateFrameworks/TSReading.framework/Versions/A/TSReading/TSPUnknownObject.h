@@ -12,11 +12,10 @@
 @interface TSPUnknownObject : TSPObject
 {
     NSString *_packageLocator;
-    NSObject<OS_dispatch_data> *_serializedData;
 }
 
-- (void);
-- (id);
+- (void)nID:] /* Error: Ran out of types for this method. */;
+- (id)rack identifier. ;
 - (void);
 - (id);
 - (id)GPoint=dd}24;

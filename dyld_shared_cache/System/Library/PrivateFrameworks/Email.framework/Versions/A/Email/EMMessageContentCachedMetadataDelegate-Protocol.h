@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMContentRepresentation, EMMessage;
+@class EMContentRepresentation;
 
 @protocol EMMessageContentCachedMetadataDelegate
+- (EMContentRepresentation *);
 
 // Remaining properties
-@property(readonly, nonatomic) EMMessage *contentMessage;
 @property(readonly, nonatomic) EMContentRepresentation *contentRepresentation;
 @end
 

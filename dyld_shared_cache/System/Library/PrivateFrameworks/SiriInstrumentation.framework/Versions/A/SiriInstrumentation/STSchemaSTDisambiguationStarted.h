@@ -6,33 +6,29 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface STSchemaSTDisambiguationStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
+- (void)[%{ptr}] APSDataPacerCongestionControl created.
+;
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)setIsPendingApproval: /* Error: Ran out of types for this method. */;
+- (_Bool)ABPeoplePickerTableColumn;
+- (_Bool)id_attachment_message_index ON madrid_attachment(message_id);;
+- (id)@;
 - (id);
-- (id);
-- (id)me;
-- (id)damId;
-- (_Bool)mestampMs;
-- (_Bool)BRIEFINGTASKATTRIBUTE_PROMPT_TO_UNLOCK_FLOW;
+- (id)deleteItemDomainName;
+- (id)_hasPommesSelectedMediaEntityAdamId;
+- (_Bool)clientDeviceSamplingTimestampMs;
+- (_Bool)FLOWBRIEFINGTASKATTRIBUTE_PROMPT_TO_UNLOCK_FLOW;
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

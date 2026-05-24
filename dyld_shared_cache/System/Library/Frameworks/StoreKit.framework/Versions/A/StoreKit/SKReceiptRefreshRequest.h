@@ -13,12 +13,12 @@
     NSDictionary *_properties;
 }
 
+- (id)"A�v;
 - (id);
-- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)8u;
 - (void);
 - (void);
 

@@ -5,5 +5,6 @@
 //
 
 @protocol ISUIServiceClientRemoteObject
+- (void);
 @end
 

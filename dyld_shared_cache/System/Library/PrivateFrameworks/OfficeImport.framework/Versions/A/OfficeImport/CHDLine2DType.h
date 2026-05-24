@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface CHDLine2DType : CHDLineType
 {
     _Bool mShowMarker;
-    _Bool mStockType;
 }
 
 - (_Bool);

@@ -12,6 +12,5 @@
 
 // Remaining properties
 @property(readonly) id <MTL4Compiler> compiler;
-@property(readonly) long long status;
 @end
 

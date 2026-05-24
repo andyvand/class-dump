@@ -13,9 +13,9 @@
     PHPhotoLibrary *_photoLibrary;
 }
 
-- (id);
-- (void)ame;
-- (id)entNodes;
+- (id)keyboardFocusTracker:(id)arg1 selectedElementsChanged:(id)arg2;
+- (void)actionName;
+- (id)momentNodes;
 
 // Remaining properties
 @property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;

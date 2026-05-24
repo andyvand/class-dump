@@ -13,13 +13,13 @@
     NSArray *_listeners;
 }
 
-+ (id);
++ (id)];
 + (void);
-+ (id);
++ (id));
 + (id);
 - (id);
-- (id);
-- (_Bool);
+- (id)6gA;
+- (_Bool)h;
 - (void);
 - (_Bool);
 - (unsigned int);

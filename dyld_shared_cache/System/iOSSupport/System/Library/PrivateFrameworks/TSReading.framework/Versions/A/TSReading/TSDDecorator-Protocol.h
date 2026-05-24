@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol TSDDecorator
+
+@optional
+- (void)- %@;
+- (void)w frame for animated artwork preview frame request.;
+- (void)for animated artwork preview image request.;
+- (void)Cannot obtain hash from unknown hasher algorithm;
+- (NSArray *);
 @end
 

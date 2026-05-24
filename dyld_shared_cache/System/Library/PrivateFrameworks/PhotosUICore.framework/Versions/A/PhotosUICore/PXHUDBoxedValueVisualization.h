@@ -11,8 +11,8 @@
     id _value;
 }
 
-- (void);
-- (id)oreChanges:dataSourceAfterChanges:sublayoutProvider:outChangedSections:outSectionsWithItemChanges:changeMediaVersionHandler: /* Error: Ran out of types for this method. */;
+- (void)d;
+- (id)applySectionedChangeDetails:dataSourceBeforeChanges:dataSourceAfterChanges:sublayoutProvider:outChangedSections:outSectionsWithItemChanges:changeMediaVersionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

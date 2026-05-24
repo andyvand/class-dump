@@ -4,34 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADisplayLink, NSArray, NSString, UIView, UIViewPropertyAnimator, UIWindow, _UIGroupCompletion;
+@class NSArray, UIWindow;
 
 @interface _UIDragSetDownAnimation
 {
     NSArray *_itemAnimations;
-    _UIGroupCompletion *_groupCompletion;
-    _Bool _hasBegun;
-    UIView *_containerView;
-    CADisplayLink *_displayLink;
-    UIViewPropertyAnimator *_remainingItemsPropertyAnimator;
-    UIWindow *_coordinateContainerWindow;
 }
 
 + (CDUnknownBlockType);
 + (id);
-+ (CDUnknownBlockType);
++ (CDUnknownBlockType);
 + (CDUnknownBlockType);
 + (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)2B40B44B48B52@56;
+- (void)AddressedSIMID:(id)arg1 handleInfo:account:isBlackholed: /* Error: Ran out of types for this method. */;
+- (void)fileExistsAtPath:(id)arg1 isDirectory: /* Error: Ran out of types for this method. */;
+- (void)fileEligibleForCacheDelete:(id)arg1;
+- (id)createItemWithCKRecord:(id)arg1;
+- (void)_addTranscriptBackgroundToCKRecord:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (id)NSObject<OS_dispatch_queue>",R,N,V_noticeDataQueue;
 - (id);
 - (void);
 - (void)crollInteractionEnabled;
@@ -40,15 +34,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) UIView *containerView;
 @property(retain, nonatomic) UIWindow *coordinateContainerWindow; // @synthesize coordinateContainerWindow=_coordinateContainerWindow;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

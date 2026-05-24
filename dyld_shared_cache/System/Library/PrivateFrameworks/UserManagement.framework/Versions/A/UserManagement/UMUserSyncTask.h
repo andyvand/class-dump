@@ -12,7 +12,7 @@
 }
 
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 
 // Remaining properties
 @property(nonatomic) unsigned long long contentSize; // @synthesize contentSize=_contentSize;

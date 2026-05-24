@@ -6,20 +6,17 @@
 
 #import <AppKit/NSViewBuffer.h>
 
-@class NSImage, NSWindow;
+@class NSWindow;
 
 __attribute__((visibility("hidden")))
 @interface NSViewWindowBackingStoreBuffer : NSViewBuffer
 {
     NSWindow *_window;
-    struct CGRect _windowRect;
-    struct CGRect _savedRect;
-    NSImage *_savedImage;
 }
 
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)deviceActivityLevelStream;
 - (id);
 
 @end

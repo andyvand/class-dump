@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABGroup, NSPasteboard;
+@class NSPasteboard;
 
 @interface ABBookGroupCopyCommand
 {
     NSPasteboard *_pasteboard;
-    ABGroup *_group;
 }
 
 - (id);
 - (id);
-- (void);
+- (void));
 - (void)1ªð1Â0@ù
 × ;
 

@@ -10,23 +10,19 @@ __attribute__((visibility("hidden")))
 @interface CNQuickActionCell
 {
     _Bool _showTitle;
-    _Bool _showBackgroundPlatter;
-    CNQuickActionButton *_button;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (void)ntityVerified;
+- (id)ed long long, LocalMappingAndHitCount, std:(struct CGRect)arg1:hash<unsigned long long>, std::equal_to<unsigned long long>, std::allocator<std::pair<const unsigned long long, LocalMappingAndHitCount>>>="__table_"{__hash_table<std::__hash_value_type<unsigned long long, LocalMappingAndHitCount>, std::__unordered_map_hasher<unsigned long long, std::pair<const unsigned long long, LocalMappingAndHitCount>, std::hash<unsigned long long>, std::equal_to<unsigned long long>>, std::__unordered_map_equal<unsigned long long, std::pair<const unsigned long long, LocalMappingAndHitCount>, std::equal_to<unsigned long long>, std::hash<unsigned long long>>, std::allocator<std::pair<const unsigned long long, LocalMappingAndHitCount>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, LocalMappingAndHitCount>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, LocalMappingAndHitCount>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, LocalMappingAndHitCount>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, LocalMappingAndHitCount>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
+- (void)syncSkeletonsOperationFinished:(id)arg1 withFetchResponses:serverInterface: /* Error: Ran out of types for this method. */;
+- (void)_staticIdentityVerified;
 - (id)ÌØ;
 
 // Remaining properties
 @property(retain, nonatomic) CNQuickActionButton *button; // @synthesize button=_button;
-@property(nonatomic) _Bool showBackgroundPlatter; // @synthesize showBackgroundPlatter=_showBackgroundPlatter;
-@property(nonatomic) _Bool showTitle; // @synthesize showTitle=_showTitle;
 
 @end
 

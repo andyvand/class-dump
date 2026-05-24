@@ -11,14 +11,14 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (void)ecognizedSpeech;
++ (void)SAUIRevealRecognizedSpeech;
 - (unsigned long long);
 - (void);
 - (oneway void);
 - (id);
 - (id);
-- (double);
-- (id)ration;
+- (double)Od;
+- (id)GEOResourceManifestConfiguration;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol EDThreadMigratorObserver
+- (void)C;
 @end
 

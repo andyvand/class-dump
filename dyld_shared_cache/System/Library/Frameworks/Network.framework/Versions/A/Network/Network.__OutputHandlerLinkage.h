@@ -7,7 +7,6 @@
 @interface Network.__OutputHandlerLinkage
 {
     id linkage;
-    id correspondingInputHandlerLinkage;
 }
 
 - (id);

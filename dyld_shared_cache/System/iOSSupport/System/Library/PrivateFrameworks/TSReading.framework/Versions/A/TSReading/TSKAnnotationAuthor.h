@@ -6,12 +6,11 @@
 
 #import <TSReading/TSPObject.h>
 
-@class NSString, TSUColor;
+@class NSString;
 
 @interface TSKAnnotationAuthor : TSPObject
 {
     NSString *mName;
-    TSUColor *mColor;
 }
 
 + (unsigned long long);
@@ -27,39 +26,30 @@
 + (id);
 + (id);
 + (id);
-- (id);
+- (id)timeout: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
+- (id);
+- (id)Xp;
+- (id)]$U;
+- (id);
+- (id);
 - (id);
+- (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)h;
 - (id);
 - (void);
 - (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
+- (id)=;
+- (unsigned long long);
+- (_Bool)SKRemoteEngagementContainerViewController;
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) TSUColor *cellViolatorColor;
-@property(readonly, nonatomic) TSUColor *changeAdornmentsColor;
-@property(readonly, nonatomic) TSUColor *flagFillColor;
-@property(readonly, nonatomic) TSUColor *flagPressedColor;
-@property(readonly, nonatomic) TSUColor *flagStrokeColor;
 @property(copy, nonatomic) NSString *name;
-@property(readonly, nonatomic) TSUColor *popoverColor;
-@property(retain, nonatomic) TSUColor *storageColor;
-@property(readonly, nonatomic) TSUColor *textHighlightColor;
-@property(readonly, nonatomic) TSUColor *textMarkupColor;
 
 @end
 

@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CLSPublicEventCategory
 {
     NSString *_category;
-    NSString *_localizedName;
-    NSArray *_localizedSubcategories;
 }
 
 + (id);
 + (id);
++ (id)*;
++ (id);
++ (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -35,15 +33,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)?;
 - (id);
-- (void);
+- (void)ing"@"NSError">16;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *category; // @synthesize category=_category;
 @property(retain, nonatomic) NSString *localizedName; // @synthesize localizedName=_localizedName;
-@property(retain, nonatomic) NSArray *localizedSubcategories; // @synthesize localizedSubcategories=_localizedSubcategories;
 
 @end
 

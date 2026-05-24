@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet;
-
 @interface CLSCalendarEventsCacheDay
 {
     long long _day;
-    NSMutableSet *_events;
 }
 
 - (id);
-- (void);
+- (void)k=;
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -23,7 +20,6 @@
 
 // Remaining properties
 @property(nonatomic) long long day; // @synthesize day=_day;
-@property(readonly, nonatomic) NSMutableSet *events; // @synthesize events=_events;
 
 @end
 

@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 @interface FCNewsTabiEventAggregationBaseEventConditions
 {
     double _probability;
-    NSSet *_groupDenyList;
 }
 
 - (id);
@@ -24,7 +21,6 @@
 - (void)<%@ qos=%@, priority=%@>;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSSet *groupDenyList; // @synthesize groupDenyList=_groupDenyList;
 @property(readonly, nonatomic) double probability; // @synthesize probability=_probability;
 
 @end

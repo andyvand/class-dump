@@ -4,56 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NTPBConfig;
-
 @interface NTPBABConfig
 {
     long long _populationCeiling;
-    long long _populationFloor;
-    NSMutableArray *_configBuckets;
-    NTPBConfig *_configControl;
-    struct {
-        unsigned int populationCeiling:1;
-        unsigned int populationFloor:1;
-    } _has;
 }
 
-+ (Class);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
++ (Class)_postUpdateFlags;
+- (void)animateWithDuration:(long long)arg1 animations:completion: /* Error: Ran out of types for this method. */;
+- (void)animateTile:(long long)arg1 toGeometry:userData:withOptions:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_wantsNavigationButton;
+- (void)_wantsNaming;
+- (void)_updateControllers;
+- (void)_updateContentsRect;
+- (long long)_titleFontForStylePairing:scale:kind:internationalStyle: /* Error: Ran out of types for this method. */;
+- (_Bool)_simulateFromMyMacAlbums;
+- (_Bool)_simulateFeatureFlagState;
+- (_Bool)_separatorRotationAngle;
+- (id)_requestedMeContact;
+- (unsigned long long)_requestedEDRHeadroomFactorFilter;
+- (id)_requestedEDRHeadroomFactor;
+- (id)_requestWidgetTimelineReloadForWidgetKind:withError: /* Error: Ran out of types for this method. */;
+- (void)_reloadAndRestartBackgroundFetchesIfNeeded;
+- (void)_publishPendingCollectionChanges;
+- (long long)_previousDataSection;
 - (id);
+- (void);
+- (void);
 - (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (long long);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (void)achSectionAtIndex: /* Error: Ran out of types for this method. */;
+- (void)countOfArticlesExposedEachSectionAtIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *configBuckets; // @synthesize configBuckets=_configBuckets;
-@property(retain, nonatomic) NTPBConfig *configControl; // @synthesize configControl=_configControl;
-@property(readonly, nonatomic) _Bool hasConfigControl;
-@property(nonatomic) _Bool hasPopulationCeiling;
 @property(nonatomic) _Bool hasPopulationFloor;
-@property(nonatomic) long long populationCeiling; // @synthesize populationCeiling=_populationCeiling;
-@property(nonatomic) long long populationFloor; // @synthesize populationFloor=_populationFloor;
 
 @end
 

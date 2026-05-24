@@ -8,9 +8,9 @@
 {
 }
 
-- (unsigned int);
-- (id);
-- (id);
+- (unsigned int)url('%@-HiDPI.png') 2x);                 width:(id)arg1 %ldpx; height:%ldpx;                 background-size:%ldpx %ldpx;                 background-position:center bottom;             }             @media (prefers-dark-interface) {                 .keyboardLayout { background-image:-webkit-image-set(url('%@_dark.png') 1x, url('%@_dark-HiDPI.png') 2x); }             } /* Error: Ran out of types for this method. */;
+- (id)ch];
+- (id)Migrator systemLanguagesMismatch];
 - (void);
 
 @end

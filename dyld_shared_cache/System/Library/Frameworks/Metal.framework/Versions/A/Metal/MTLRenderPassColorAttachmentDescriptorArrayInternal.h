@@ -6,19 +6,17 @@
 
 #import <Metal/MTLRenderPassColorAttachmentDescriptorArray.h>
 
-@class MTLRenderPassColorAttachmentDescriptorInternal, MTLRenderPassDepthAttachmentDescriptorInternal, MTLRenderPassStencilAttachmentDescriptorInternal;
+@class MTLRenderPassColorAttachmentDescriptorInternal;
 
 __attribute__((visibility("hidden")))
 @interface MTLRenderPassColorAttachmentDescriptorArrayInternal : MTLRenderPassColorAttachmentDescriptorArray
 {
     MTLRenderPassColorAttachmentDescriptorInternal *_color_descriptors[8];
-    MTLRenderPassDepthAttachmentDescriptorInternal *_depth_descriptor;
-    MTLRenderPassStencilAttachmentDescriptorInternal *_stencil_descriptor;
 }
 
 - (void);
 - (id);
-- (void)rolPointIndexBufferVirtualAddress;
+- (void)_controlPointIndexBufferVirtualAddress;
 - (id)zÌÿÿ;
 
 @end

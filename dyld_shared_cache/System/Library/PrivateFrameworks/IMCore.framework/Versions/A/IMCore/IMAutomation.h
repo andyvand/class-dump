@@ -8,10 +8,10 @@
 {
 }
 
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)hen creating CMBlockBuffer!;
+- (_Bool)oPowerSpectrumMeter-registerPowerSpectrumForCellularTapType (%p) type=%u;
+- (id)[%s] %s:(id)arg1 %d AUIO=%p AudioUnitSetProperty(MicOut) Failed to allcoate the speaker audio buffer list;
+- (id)ce.subproj/Sources/AUIO/AUIO.mm:(id)arg1 %d:AUIO=%p AudioUnitGetProperty(MicOut) failed(%d) /* Error: Ran out of types for this method. */;
 
 @end
 

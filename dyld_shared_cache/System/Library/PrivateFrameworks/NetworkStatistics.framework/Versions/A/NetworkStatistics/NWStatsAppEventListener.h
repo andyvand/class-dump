@@ -11,15 +11,11 @@ __attribute__((visibility("hidden")))
 @interface NWStatsAppEventListener
 {
     NSObject<OS_dispatch_queue> *_queue;
-    Class _RBSProcessMonitorClass;
-    Class _RBSProcessPredicateClass;
-    Class _RBSProcessStateDescriptorClass;
-    void *_runningBoradDylibHandle;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)E;
 - (void);
 
 // Remaining properties

@@ -8,13 +8,6 @@ __attribute__((visibility("hidden")))
 @interface SCNMTLShadable
 {
     id _vertexBuffers[31];
-    id _fragmentBuffers[31];
-    id _vertexTextures[31];
-    id _fragmentTextures[31];
-    id _vertexSamplers[16];
-    id _fragmentSamplers[16];
-    long long materialModificationCount;
-    long long geometryModificationCount;
 }
 
 - (id);
@@ -28,7 +21,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long geometryModificationCount; // @synthesize geometryModificationCount;
 @property(nonatomic) long long materialModificationCount; // @synthesize materialModificationCount;
 
 @end

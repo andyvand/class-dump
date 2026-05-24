@@ -6,27 +6,23 @@
 
 #import <EventKit/EKObjectChange.h>
 
-@class EKObjectID, NSString;
+@class EKObjectID;
 
 @interface EKAttachmentChange : EKObjectChange
 {
     EKObjectID *_ownerID;
-    NSString *_uuid;
-    NSString *_externalID;
 }
 
 + (int);
-- (id);
-- (id);
+- (id)twork] Failed to determine dimensions for provided image data.;
+- (id)initWithFrozenDataSource: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)±2'ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *externalID; // @synthesize externalID=_externalID;
 @property(readonly, nonatomic) EKObjectID *ownerID; // @synthesize ownerID=_ownerID;
-@property(readonly, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end
 

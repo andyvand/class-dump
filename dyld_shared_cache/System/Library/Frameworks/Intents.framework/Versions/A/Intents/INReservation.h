@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INDateComponentsRange, INSpeakableString, NSArray, NSDate, NSString, NSURL;
+@class INDateComponentsRange, INSpeakableString;
 
 @interface INReservation
 {
     INSpeakableString *_itemReference;
-    NSString *_reservationNumber;
-    NSDate *_bookingTime;
-    long long _reservationStatus;
-    NSString *_reservationHolderName;
-    NSArray *_actions;
-    NSURL *_URL;
-    INDateComponentsRange *__duration;
 }
 
 - (long long);
@@ -26,28 +19,21 @@
 - (id);
 - (id);
 - (id);
+- (id)handleReport:(id)arg1 data: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (unsigned long long)w;
+- (id);
+- (_Bool)isEqualToANQPParameters:(id)arg1;
+- (void)blic}@';
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id)erVocabularyFromAllAppsAsync;
-- (void)ideTemporalEventTriggerTypesOptionsCollectionForSearchForNotebookItems:withCompletion: /* Error: Ran out of types for this method. */;
+- (id)deleteAllUserVocabularyFromAllAppsAsync;
+- (void)provideTemporalEventTriggerTypesOptionsCollectionForSearchForNotebookItems:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSURL *URL; // @synthesize URL=_URL;
 @property(readonly, copy, nonatomic) INDateComponentsRange *_duration; // @synthesize _duration=__duration;
-@property(readonly, copy) NSArray *actions; // @synthesize actions=_actions;
-@property(readonly, copy) NSDate *bookingTime; // @synthesize bookingTime=_bookingTime;
-@property(readonly, copy) INSpeakableString *itemReference; // @synthesize itemReference=_itemReference;
-@property(readonly, copy) NSString *reservationHolderName; // @synthesize reservationHolderName=_reservationHolderName;
-@property(readonly, copy) NSString *reservationNumber; // @synthesize reservationNumber=_reservationNumber;
-@property(readonly) long long reservationStatus; // @synthesize reservationStatus=_reservationStatus;
 
 @end
 

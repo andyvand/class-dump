@@ -8,7 +8,7 @@
 {
 }
 
-- (id);
+- (id)tagsForTagIDs:predicate: /* Error: Ran out of types for this method. */;
 - (void)yÿÿ8=þÿ;
 
 @end

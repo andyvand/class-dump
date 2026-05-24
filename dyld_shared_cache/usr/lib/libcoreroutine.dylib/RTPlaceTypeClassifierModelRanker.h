@@ -12,15 +12,15 @@ __attribute__((visibility("hidden")))
     MLModel *_model;
 }
 
-+ (void);
++ (void)completeOperation;
 + (id);
 + (void);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)ce peerPairingCompleted:(id)arg1 withError:(id)arg2 ];
+- (void)oothDevice peerUpdated:(id)arg1 withResults:(CDUnknownBlockType)arg2 ];
 - (id);
 - (id);
 - (id);

@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSArray, SALocalSearchBusiness2;
+@class SALocalSearchBusiness2;
 
 @interface SAMovieV2MovieTheater : SADomainObject
 {
@@ -18,12 +18,11 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) SALocalSearchBusiness2 *business;
-@property(copy, nonatomic) NSArray *movies;
 
 @end
 

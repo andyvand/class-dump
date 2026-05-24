@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface SAKTraceDataUnavailable
 {
     _Bool _runawayMitigation;
-    _Bool _effectiveJetsamPriority;
 }
 
 @end

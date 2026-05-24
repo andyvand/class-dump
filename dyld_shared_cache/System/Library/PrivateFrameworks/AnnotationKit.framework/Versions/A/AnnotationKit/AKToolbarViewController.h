@@ -9,11 +9,11 @@
 @interface AKToolbarViewController
 {
     AKController *_controller;
-    double _maxHDRGain;
 }
 
-+ (id);
-+ (id);
++ (id)0
+;
++ (id);
 + (unsigned long long);
 + (id);
 + (id);
@@ -23,21 +23,19 @@
 - (void);
 - (void);
 - (double);
-- (void);
+- (void);
 - (void);
 - (_Bool);
+- (void)%@ with error:(double)arg1 %@;
+- (id)%{public}@No destination found in destinations:(unsigned long long)arg1 %@ home:(unsigned long long)arg2 %@;
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)isAccessibilityElement;
 - (id);
 - (void);
 
 // Remaining properties
 @property __weak AKController *controller; // @synthesize controller=_controller;
-@property(readonly) _Bool isPresentingPopover;
-@property(nonatomic) double maxHDRGain; // @synthesize maxHDRGain=_maxHDRGain;
 
 @end
 

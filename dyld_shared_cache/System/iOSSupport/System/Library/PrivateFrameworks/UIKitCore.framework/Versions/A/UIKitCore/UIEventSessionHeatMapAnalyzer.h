@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, UIEventSessionHeatMapGesture;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface UIEventSessionHeatMapAnalyzer
 {
     NSMutableDictionary *_gesturesByTouchID;
-    UIEventSessionHeatMapGesture *_currentGesture;
-    NSMutableArray *_pendingGestures;
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)@];
++ (id)ay sound for downgraded message[%@];
++ (id)mToken:(long long)arg1 %@;
 + (double);
-+ (CDStruct_3f566597);
++ (CDStruct_a01601a5);
+- (void)(%@), error = (%@).;
+- (void)@).;
+- (void)n with error %@;
+- (void)ceived CommSafety response from Media-Analysis-Daemon with error %@;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ful;
 - (void);
 - (void);
 - (_Bool);

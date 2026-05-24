@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCNewsTabiEventAggregationArticleDislikedConditions, FCNewsTabiEventAggregationArticleLikedConditions, FCNewsTabiEventAggregationArticleReadConditions, FCNewsTabiEventAggregationArticleSavedConditions, FCNewsTabiEventAggregationArticleSeenConditions, FCNewsTabiEventAggregationArticleSharedConditions, FCNewsTabiEventAggregationArticleUndislikedConditions, FCNewsTabiEventAggregationArticleUnlikedConditions, FCNewsTabiEventAggregationArticleUnsavedConditions, FCNewsTabiEventAggregationArticleVisitedConditions, FCNewsTabiEventAggregationNotificationVendedConditions, FCNewsTabiEventAggregationTrackFinishedConditions, FCNewsTabiEventAggregationTrackListenedConditions, FCNewsTabiEventAggregationTrackVisitedConditions;
+@class FCNewsTabiEventAggregationArticleSeenConditions;
 
 @interface FCNewsTabiEventAggregationConditions
 {
     FCNewsTabiEventAggregationArticleSeenConditions *_articleSeenConditions;
-    FCNewsTabiEventAggregationArticleReadConditions *_articleReadConditions;
-    FCNewsTabiEventAggregationArticleVisitedConditions *_articleVisitedConditions;
-    FCNewsTabiEventAggregationArticleSharedConditions *_articleSharedConditions;
-    FCNewsTabiEventAggregationArticleLikedConditions *_articleLikedConditions;
-    FCNewsTabiEventAggregationArticleDislikedConditions *_articleDislikedConditions;
-    FCNewsTabiEventAggregationArticleSavedConditions *_articleSavedConditions;
-    FCNewsTabiEventAggregationTrackVisitedConditions *_trackVisitedConditions;
-    FCNewsTabiEventAggregationTrackListenedConditions *_trackListenedConditions;
-    FCNewsTabiEventAggregationTrackFinishedConditions *_trackFinishedConditions;
-    FCNewsTabiEventAggregationArticleUnlikedConditions *_articleUnlikedConditions;
-    FCNewsTabiEventAggregationArticleUndislikedConditions *_articleUndislikedConditions;
-    FCNewsTabiEventAggregationArticleUnsavedConditions *_articleUnsavedConditions;
-    FCNewsTabiEventAggregationNotificationVendedConditions *_notificationVendedConditions;
 }
 
 - (id);
@@ -44,20 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) FCNewsTabiEventAggregationArticleDislikedConditions *articleDislikedConditions; // @synthesize articleDislikedConditions=_articleDislikedConditions;
-@property(readonly, nonatomic) FCNewsTabiEventAggregationArticleLikedConditions *articleLikedConditions; // @synthesize articleLikedConditions=_articleLikedConditions;
-@property(readonly, nonatomic) FCNewsTabiEventAggregationArticleReadConditions *articleReadConditions; // @synthesize articleReadConditions=_articleReadConditions;
-@property(readonly, nonatomic) FCNewsTabiEventAggregationArticleSavedConditions *articleSavedConditions; // @synthesize articleSavedConditions=_articleSavedConditions;
 @property(readonly, nonatomic) FCNewsTabiEventAggregationArticleSeenConditions *articleSeenConditions; // @synthesize articleSeenConditions=_articleSeenConditions;
-@property(readonly, nonatomic) FCNewsTabiEventAggregationArticleSharedConditions *articleSharedConditions; // @synthesize articleSharedConditions=_articleSharedConditions;
-@property(readonly, nonatomic) FCNewsTabiEventAggregationArticleUndislikedConditions *articleUndislikedConditions; // @synthesize articleUndislikedConditions=_articleUndislikedConditions;
-@property(readonly, nonatomic) FCNewsTabiEventAggregationArticleUnlikedConditions *articleUnlikedConditions; // @synthesize articleUnlikedConditions=_articleUnlikedConditions;
-@property(readonly, nonatomic) FCNewsTabiEventAggregationArticleUnsavedConditions *articleUnsavedConditions; // @synthesize articleUnsavedConditions=_articleUnsavedConditions;
-@property(readonly, nonatomic) FCNewsTabiEventAggregationArticleVisitedConditions *articleVisitedConditions; // @synthesize articleVisitedConditions=_articleVisitedConditions;
-@property(readonly, nonatomic) FCNewsTabiEventAggregationNotificationVendedConditions *notificationVendedConditions; // @synthesize notificationVendedConditions=_notificationVendedConditions;
-@property(readonly, nonatomic) FCNewsTabiEventAggregationTrackFinishedConditions *trackFinishedConditions; // @synthesize trackFinishedConditions=_trackFinishedConditions;
-@property(readonly, nonatomic) FCNewsTabiEventAggregationTrackListenedConditions *trackListenedConditions; // @synthesize trackListenedConditions=_trackListenedConditions;
-@property(readonly, nonatomic) FCNewsTabiEventAggregationTrackVisitedConditions *trackVisitedConditions; // @synthesize trackVisitedConditions=_trackVisitedConditions;
 
 @end
 

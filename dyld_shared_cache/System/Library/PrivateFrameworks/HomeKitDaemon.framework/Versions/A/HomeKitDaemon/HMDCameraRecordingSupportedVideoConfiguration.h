@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraRecordingSupportedVideoConfiguration
@@ -24,7 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *codecConfigurations; // @synthesize codecConfigurations=_codecConfigurations;
-@property(readonly, copy) NSData *tlvData;
 
 @end
 

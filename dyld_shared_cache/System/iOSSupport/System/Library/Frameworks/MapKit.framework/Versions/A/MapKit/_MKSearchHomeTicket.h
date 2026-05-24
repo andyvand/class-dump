@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapServiceTraits, NSString;
+@class GEOMapServiceTraits;
 @protocol GEOMapServiceSearchHomeTicket;
 
 __attribute__((visibility("hidden")))
@@ -15,19 +15,12 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void):allowsAntialiasing:carDisplayType: /* Error: Ran out of types for this method. */;
+- (id)8;
+- (void);
+- (void)Bot;
+- (void)initWithFrame:andGlobe:shouldRasterize:allowsAntialiasing:carDisplayType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) GEOMapServiceTraits *traits;
 
 @end

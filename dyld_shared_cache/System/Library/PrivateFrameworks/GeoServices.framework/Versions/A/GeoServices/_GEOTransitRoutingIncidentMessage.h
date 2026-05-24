@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPBTransitRoutingIncidentMessage, NSArray, NSString;
+@class GEOPBTransitRoutingIncidentMessage, NSString;
 
 __attribute__((visibility("hidden")))
 @interface _GEOTransitRoutingIncidentMessage
 {
     GEOPBTransitRoutingIncidentMessage *_routingIncidentMessage;
-    NSArray *_transitIncidents;
 }
 
 + (_Bool)display ETA of %@;
@@ -19,8 +18,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)prepareReturnValue;
+- (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -28,15 +27,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *routingMessage;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *transitIncidents;
 
 @end
 

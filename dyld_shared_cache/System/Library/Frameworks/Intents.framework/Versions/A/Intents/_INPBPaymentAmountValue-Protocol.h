@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBCurrencyAmountValue;
-
 @protocol _INPBPaymentAmountValue
 
 // Remaining properties
 @property(nonatomic) int amountType;
-@property(nonatomic) _Bool hasAmountType;
-@property(readonly, nonatomic) _Bool hasValue;
-@property(retain, nonatomic) _INPBCurrencyAmountValue *value;
 @end
 

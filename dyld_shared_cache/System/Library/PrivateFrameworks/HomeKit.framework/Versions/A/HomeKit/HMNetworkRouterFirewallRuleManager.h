@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFMessageDestination, HMHomeManager;
+@class HMHomeManager;
 
 @interface HMNetworkRouterFirewallRuleManager
 {
     HMHomeManager *_homeManager;
-    HMFMessageDestination *_messageDestination;
 }
 
 - (void);
@@ -21,6 +20,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -29,8 +29,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)#;
 - (void);
 - (id);
 - (void)®	T¯	Ü¯\²	 ³ µ	d¶	ì¶à·t½è¾ô¿hÃÄèÄ<ÅôÅ;
@@ -39,7 +38,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) __weak HMHomeManager *homeManager; // @synthesize homeManager=_homeManager;
-@property(readonly, nonatomic) HMFMessageDestination *messageDestination; // @synthesize messageDestination=_messageDestination;
 
 @end
 

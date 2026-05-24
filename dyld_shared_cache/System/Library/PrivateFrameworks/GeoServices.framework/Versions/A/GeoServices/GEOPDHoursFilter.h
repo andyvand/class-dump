@@ -16,9 +16,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id)ldPlaceholderResult"b1"read_searchResult"b1"read_searchZeroKeywordCategorySuggestionResult"b1"read_searchZeroKeywordWithSearchResultsSuggestionResult"b1"read_siriSearchResult"b1"read_territoryLookupResult"b1"read_transitScheduleLookupResult"b1"read_vendorSpecificPlaceRefinementResult"b1"read_wifiFingerprintResult"b1"wrote_anyField"b1};
-- (id)thBlock: /* Error: Ran out of types for this method. */;
+- (id)_enumerateDeparturesValidForDate:withBlock: /* Error: Ran out of types for this method. */;
 - (id)ïñ;
 - (void);
 

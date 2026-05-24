@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface TIKeyboardInputManagerStub
 {
 }
@@ -28,6 +26,9 @@
 - (void);
 - (id);
 - (void);
+- (void)_removeAllBundlesFromProcessingSetForCriteriaShortCode:(id)arg1;
+- (void)ilt detected face;
+- (void)nceKeys...;
 - (void);
 - (void);
 - (void);
@@ -36,24 +37,16 @@
 - (void);
 - (void);
 - (void);
+- (void)m.apple.VideoProcessing vragpu_force_detile is set true.
+;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)lthy;
-- (void)orporator;
+- (void)filthy;
+- (void)incorporator;
 - (void)greece;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

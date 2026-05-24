@@ -5,5 +5,12 @@
 //
 
 @protocol CNChangeHistoryEventVisitor
+- (void);
+
+@optional
+- (void)fication count changed notification.;
+- (void)}
+	J;
+- (void)@;
 @end
 

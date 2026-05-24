@@ -9,22 +9,20 @@
 @interface TSUDateFormatter
 {
     NSString *mDateOnlyFormatString;
-    NSString *mTimeOnlyFormatString;
-    struct __CFDateFormatter *mFullDateFormatter;
 }
 
++ (id)P;
++ (id)gFeedBlueprintModifierFactoryTypeP;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (unsigned long long);
++ (unsigned long long)j;
 + (id);
 + (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)ficationsInteractorTypeP;
+- (void);
 - (id);
 
 @end

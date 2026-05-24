@@ -8,11 +8,6 @@ __attribute__((visibility("hidden")))
 @interface VCWRMHandler
 {
     int _localWRMLinkTypeSuggestion;
-    int _remoteWRMLinkTypeSuggestion;
-    _Bool _isRemoteDuplicating;
-    double _localLinkTypeSuggestionChangeTime;
-    double _lastConnectionUnstableTime;
-    double _WRMNotificationRequestTime;
 }
 
 - (void);
@@ -24,10 +19,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly) _Bool isRemoteDuplicating; // @synthesize isRemoteDuplicating=_isRemoteDuplicating;
-@property double localLinkTypeSuggestionChangeTime; // @synthesize localLinkTypeSuggestionChangeTime=_localLinkTypeSuggestionChangeTime;
 @property(readonly) int localWRMLinkTypeSuggestion; // @synthesize localWRMLinkTypeSuggestion=_localWRMLinkTypeSuggestion;
-@property(readonly) int remoteWRMLinkTypeSuggestion; // @synthesize remoteWRMLinkTypeSuggestion=_remoteWRMLinkTypeSuggestion;
 
 @end
 

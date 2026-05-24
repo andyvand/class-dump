@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKSaveOptionsHandler, NSDictionary, NSSavePanel, NSString;
+@class IKSaveOptionsHandler;
 
 @interface IKSaveOptions
 {
     void *_privateData;
-    id _saveOptionsView;
-    _Bool _rememberLastSetting;
-    id _delegate;
-    IKSaveOptionsHandler *_handler;
-    NSSavePanel *_savePanel;
-    NSString *_imageUTTypePriv;
-    NSDictionary *_imagePropertiesPriv;
 }
 
 - (void);
@@ -28,7 +21,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -55,7 +48,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)nextDateAfterDate:matchingUnit:value:options: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -64,15 +57,7 @@
 - (id){CGRect={CGPoint=dd}{CGSize=dd}}Bid}64;
 
 // Remaining properties
-@property(nonatomic) id delegate; // @synthesize delegate=_delegate;
 @property(retain) IKSaveOptionsHandler *handler; // @synthesize handler=_handler;
-@property(readonly, nonatomic) NSDictionary *imageProperties;
-@property(retain) NSDictionary *imagePropertiesPriv; // @synthesize imagePropertiesPriv=_imagePropertiesPriv;
-@property(readonly, nonatomic) NSString *imageUTType;
-@property(copy) NSString *imageUTTypePriv; // @synthesize imageUTTypePriv=_imageUTTypePriv;
-@property(nonatomic) _Bool rememberLastSetting; // @synthesize rememberLastSetting=_rememberLastSetting;
-@property __weak NSSavePanel *savePanel; // @synthesize savePanel=_savePanel;
-@property(readonly, nonatomic) NSDictionary *userSelection;
 
 @end
 

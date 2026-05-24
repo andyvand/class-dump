@@ -7,18 +7,13 @@
 @class ACAccount, NSString;
 
 @protocol EDAccount
+- (ACAccount *);
+- (NSString *)y/Caches/com.apple.xbs/TemporaryDirectory.7k1BDL/Sources/WiFiPolicy/frameworks/Sources/TrafficEngineering/WFTrafficEngManager.m;
 - (NSString *)Gù1´ð1Â0@ù
 × ;
 - (NSString *)D;
 
 // Remaining properties
-@property(readonly, copy) NSString *altDSID;
-@property(copy) NSString *displayName;
 @property(readonly, copy) NSString *identifier;
-@property(readonly) _Bool isActive;
-@property(readonly) _Bool primaryiCloudAccount;
-@property(readonly, copy, nonatomic) NSString *statisticsKind;
-@property(readonly) ACAccount *systemAccount;
-@property(readonly, copy) NSString *username;
 @end
 

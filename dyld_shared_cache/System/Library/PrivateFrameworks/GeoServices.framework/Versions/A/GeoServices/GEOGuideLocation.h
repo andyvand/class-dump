@@ -4,40 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapItemIdentifier, GEOPDEntity, GEOPDGuideGroup, GEOPDGuidesLocationEntry, GEOPDGuidesLocationEntryTypeWorldWide, NSString;
+@class GEOPDGuidesLocationEntry;
 
 @interface GEOGuideLocation
 {
     GEOPDGuidesLocationEntry *_guideLocation;
-    GEOPDGuidesLocationEntryTypeWorldWide *_worldwideGuideLocation;
-    GEOPDEntity *_placeEntity;
-    GEOPDGuideGroup *_guideGroup;
-    NSString *_country;
 }
 
 + (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)eworks/Foundation.framework/Versions/C/Foundation;
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)indexesOfObjectsPassingTest: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (long long);
+- (long long)getClusterAnnotationTextForClusterFeatureCount:text:locale: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id)ÿ- ¼PÄ¤è¬4;
 - (void)\pÿþ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *country; // @synthesize country=_country;
-@property(readonly, nonatomic) GEOMapItemIdentifier *guideLocationIdentifier;
-@property(readonly, nonatomic) unsigned long long numberOfGuides;
-@property(readonly, nonatomic) NSString *title;
 @property(readonly, nonatomic) long long type;
 
 @end

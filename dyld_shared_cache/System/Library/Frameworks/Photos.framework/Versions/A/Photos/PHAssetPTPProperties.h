@@ -6,41 +6,16 @@
 
 #import <Photos/PHAssetPropertySet.h>
 
-@class CLLocation, NSData, NSDate, NSNumber, NSString;
+@class NSString;
 
 @interface PHAssetPTPProperties : PHAssetPropertySet
 {
     short _kindSubType;
-    short _kind;
-    int _burstPickType;
-    NSData *_locationData;
-    short _hdrType;
-    _Bool _hidden;
-    _Bool _deferredProcessingNeeded;
-    NSString *_filename;
-    NSString *_burstIdentifier;
-    NSString *_livePhotoPairingIdentifier;
-    NSString *_originalFilename;
-    unsigned long long _originalFilesize;
-    unsigned long long _originalWidth;
-    unsigned long long _originalHeight;
-    NSString *_exifTimestampString;
-    NSString *_fingerprint;
-    NSString *_originatingAssetIdentifier;
-    NSNumber *_embeddedThumbnailOffset;
-    NSNumber *_embeddedThumbnailLength;
-    NSNumber *_embeddedThumbnailWidth;
-    NSNumber *_embeddedThumbnailHeight;
-    NSNumber *_originalDuration;
-    long long _ptpTrashedState;
-    double _timeZoneOffset;
-    NSDate *_dateCreated;
-    NSString *_codec;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)d,V_minValue;
 + (id)%K = %d;
 + (id);
 - (_Bool);
@@ -55,56 +30,28 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)rms->_affineValid == 1;
 - (unsigned long long);
-- (id);
+- (id)eID:transactionType:certificateData:assetIDData:completionHandler:]_block_invoke /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (id);
 - (id);
+- (id)_;
 - (id);
 - (id);
 - (id);
-- (id);
-- (long long)thWithLibraryBundle: /* Error: Ran out of types for this method. */;
-- (id)e;
-- (void)eature:error: /* Error: Ran out of types for this method. */;
+- (long long)shouldTryFastPathWithLibraryBundle: /* Error: Ran out of types for this method. */;
+- (id)_blacklistedFeature;
+- (void)_updateGraphAvailabilityInFeatureAvailability:forFeature:error: /* Error: Ran out of types for this method. */;
 - (id)ÿW;
 - (_Bool);
 - (double)m;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *burstIdentifier; // @synthesize burstIdentifier=_burstIdentifier;
-@property(readonly, nonatomic) NSString *codec; // @synthesize codec=_codec;
-@property(readonly, nonatomic) NSDate *dateCreated; // @synthesize dateCreated=_dateCreated;
-@property(readonly, nonatomic) _Bool deferredProcessingNeeded; // @synthesize deferredProcessingNeeded=_deferredProcessingNeeded;
-@property(readonly, nonatomic) NSNumber *embeddedThumbnailHeight; // @synthesize embeddedThumbnailHeight=_embeddedThumbnailHeight;
-@property(readonly, nonatomic) NSNumber *embeddedThumbnailLength; // @synthesize embeddedThumbnailLength=_embeddedThumbnailLength;
-@property(readonly, nonatomic) NSNumber *embeddedThumbnailOffset; // @synthesize embeddedThumbnailOffset=_embeddedThumbnailOffset;
-@property(readonly, nonatomic) NSNumber *embeddedThumbnailWidth; // @synthesize embeddedThumbnailWidth=_embeddedThumbnailWidth;
-@property(readonly, copy, nonatomic) NSString *exifTimestampString; // @synthesize exifTimestampString=_exifTimestampString;
 @property(readonly, copy, nonatomic) NSString *filename; // @synthesize filename=_filename;
-@property(readonly, copy, nonatomic) NSString *fingerprint; // @synthesize fingerprint=_fingerprint;
-@property(readonly, nonatomic) _Bool hidden; // @synthesize hidden=_hidden;
-@property(readonly, nonatomic) _Bool isBurstFavorite;
-@property(readonly, nonatomic) _Bool isBurstFirstPicked;
-@property(readonly, nonatomic) _Bool isBurstPicked;
-@property(readonly, nonatomic) _Bool isHDR;
-@property(readonly, nonatomic) _Bool isHighFrameRateVideo;
-@property(readonly, nonatomic) _Bool isLivePhoto;
-@property(readonly, nonatomic) _Bool isTimelapseVideo;
-@property(readonly, copy, nonatomic) NSString *livePhotoPairingIdentifier; // @synthesize livePhotoPairingIdentifier=_livePhotoPairingIdentifier;
-@property(readonly, nonatomic) CLLocation *location;
-@property(readonly, nonatomic) NSNumber *originalDuration; // @synthesize originalDuration=_originalDuration;
-@property(readonly, copy, nonatomic) NSString *originalFilename; // @synthesize originalFilename=_originalFilename;
-@property(readonly, nonatomic) unsigned long long originalFilesize; // @synthesize originalFilesize=_originalFilesize;
-@property(readonly, nonatomic) unsigned long long originalHeight; // @synthesize originalHeight=_originalHeight;
-@property(readonly, nonatomic) unsigned long long originalWidth; // @synthesize originalWidth=_originalWidth;
-@property(readonly, copy, nonatomic) NSString *originatingAssetIdentifier; // @synthesize originatingAssetIdentifier=_originatingAssetIdentifier;
-@property(readonly, nonatomic) long long ptpTrashedState; // @synthesize ptpTrashedState=_ptpTrashedState;
-@property(readonly, nonatomic) double timeZoneOffset; // @synthesize timeZoneOffset=_timeZoneOffset;
 
 @end
 

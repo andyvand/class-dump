@@ -6,22 +6,20 @@
 
 #import <SafariSharedUI/WBSJavaScriptInjectionController.h>
 
-@class NSMapTable, NSMutableDictionary, NSString;
+@class NSMapTable;
 
 @interface WBSAutoFillJavaScriptInjectionController : WBSJavaScriptInjectionController
 {
     NSMapTable *_observers;
-    _Bool _isCurrentlyFilling;
-    NSMutableDictionary *_documentsInjectionStatus;
 }
 
 + (id);
 + (void);
 + (_Bool);
 + (id);
-+ (_Bool)ticsServiceDomainTrackingClearHistoryStartDate;
++ (_Bool)kSymptomAnalyticsServiceDomainTrackingClearHistoryStartDate;
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -36,7 +34,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
@@ -77,13 +75,7 @@
 - (void)isReadyToUse;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

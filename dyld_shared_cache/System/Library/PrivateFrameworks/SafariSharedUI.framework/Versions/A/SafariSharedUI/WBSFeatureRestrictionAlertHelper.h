@@ -7,7 +7,6 @@
 @interface WBSFeatureRestrictionAlertHelper
 {
     id fallbackAlertMessage;
-    id screenTimeSettingsURLString;
 }
 
 - (void);

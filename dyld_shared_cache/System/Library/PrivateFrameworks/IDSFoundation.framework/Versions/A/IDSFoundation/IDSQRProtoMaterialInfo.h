@@ -9,18 +9,12 @@
 @interface IDSQRProtoMaterialInfo
 {
     NSData *_materialContent;
-    NSData *_materialId;
-    int _materialType;
-    unsigned int _shortMaterialIdLength;
-    struct {
-        unsigned int shortMaterialIdLength:1;
-    } _has;
 }
 
 - (unsigned int);
 - (void);
 - (void);
-- (void);
+- (void)h8hjh8?;
 - (void);
 - (void);
 - (id);
@@ -34,18 +28,14 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)28@0:(id)arg1 8S16C20S24;
+- (void)rvice _interrupted]_block_invoke;
 - (id);
 - (id);
 - (void)SRegistrationEventTracing.swift;
 
 // Remaining properties
-@property(nonatomic) _Bool hasShortMaterialIdLength;
-@property(retain, nonatomic) NSData *materialContent; // @synthesize materialContent=_materialContent;
 @property(retain, nonatomic) NSData *materialId; // @synthesize materialId=_materialId;
-@property(nonatomic) int materialType; // @synthesize materialType=_materialType;
-@property(nonatomic) unsigned int shortMaterialIdLength; // @synthesize shortMaterialIdLength=_shortMaterialIdLength;
 
 @end
 

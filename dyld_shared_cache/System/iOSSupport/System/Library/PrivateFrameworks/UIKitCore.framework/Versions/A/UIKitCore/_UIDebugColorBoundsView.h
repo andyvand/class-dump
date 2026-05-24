@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void);
-- (id);
+- (void)em:%@ /* Error: Ran out of types for this method. */;
+- (id)UseOldProfilesContainer;
 - (id);
 
 @end

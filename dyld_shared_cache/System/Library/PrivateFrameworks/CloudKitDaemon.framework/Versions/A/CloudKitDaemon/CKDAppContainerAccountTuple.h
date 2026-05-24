@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDAppContainerTuple, NSString;
+@class CKDAppContainerTuple;
 
 @interface CKDAppContainerAccountTuple
 {
     CKDAppContainerTuple *_appContainerTuple;
-    NSString *_accountID;
 }
 
 - (id);
-- (unsigned long long);
-- (id);
-- (_Bool);
+- (unsigned long long)apsession_setPropertyInternal;
+- (id)SDate",&,N,V_lastTriggered;
+- (_Bool)ionary"24@0:(id)arg1 8@"NSString"16;
 - (id);
 - (id);
 - (id);
@@ -23,7 +22,6 @@
 - (void)ticipant %@ with missing public key to share;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accountID; // @synthesize accountID=_accountID;
 @property(readonly, copy, nonatomic) CKDAppContainerTuple *appContainerTuple; // @synthesize appContainerTuple=_appContainerTuple;
 
 @end

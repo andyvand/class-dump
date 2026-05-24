@@ -7,15 +7,15 @@
 __attribute__((visibility("hidden")))
 @interface VCStatsRecorder
 {
-    struct _opaque_pthread_rwlock_t _stateRWLock;
-    CDStruct_b5e1e8f2 _localStats[128];
-    unsigned short _currentLocalStatsIndex;
-    unsigned int _uplinkServerStatsByteUsed;
+    struct _opaque_pthread_rwlock_t {
+        long long __sig;
+        char __opaque[192];
+    } _stateRWLock;
 }
 
 - (void);
 - (int);
-- (CDStruct_b5e1e8f2);
+- (CDStruct_572d0fca);
 - (void);
 - (void);
 - (id);

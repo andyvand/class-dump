@@ -13,7 +13,7 @@
     MPModelResponse *_modelResponse;
 }
 
-+ (id);
++ (id)tore %@;
 - (void);
 - (id);
 - (id);

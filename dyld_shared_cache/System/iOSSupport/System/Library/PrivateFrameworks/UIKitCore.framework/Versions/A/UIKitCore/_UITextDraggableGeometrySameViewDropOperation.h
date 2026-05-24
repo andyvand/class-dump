@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSString, UITextRange;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface _UITextDraggableGeometrySameViewDropOperation
 {
     NSArray *_sourceRanges;
-    UITextRange *_targetRange;
-    NSAttributedString *_text;
-    unsigned long long _operation;
 }
 
 - (id);
@@ -26,17 +23,7 @@ __attribute__((visibility("hidden")))
 - (void)";
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long operation; // @synthesize operation=_operation;
 @property(retain, nonatomic) NSArray *sourceRanges; // @synthesize sourceRanges=_sourceRanges;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UITextRange *targetRange; // @synthesize targetRange=_targetRange;
-@property(retain, nonatomic) NSAttributedString *text; // @synthesize text=_text;
 
 @end
 

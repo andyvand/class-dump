@@ -4,43 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBDataReader, PBUnknownFields;
+@class NSMutableArray, PBDataReader;
 
 @interface GEORPAccessPointCorrections
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_addeds;
-    NSMutableArray *_editeds;
-    NSMutableArray *_removeds;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_addeds:1;
-        unsigned int read_editeds:1;
-        unsigned int read_removeds:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
 + (Class);
 + (Class);
-+ (_Bool):(id)arg1;
++ (_Bool)setIsManuallyEntered:(id)arg1;
+- (void);
+- (void);
+- (void)rop hash;
+- (unsigned long long)ner"24@?0@"NSString"8@"NSPersistentStore"16;
+- (id)8Q16^B24;
+- (unsigned long long);
+- (id);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
-- (unsigned long long);
-- (id);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
+- (id)A;
 - (id);
 - (void);
 - (void);
@@ -52,26 +38,23 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)__bss;
+- (id)reqStartMachAbsTime;
+- (void)tedRequestType:(id)arg1 %@, isFFUserDisabled:%@, isTypeToSiriEnabled:%@, isLocaleInDenyList:%@, isSAEEnabled:%@, isLocaleUnsupportedWithSAE:%@ isLocaleCoupledWithSAE:%@ /* Error: Ran out of types for this method. */;
+- (id)P;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)P;
 - (id)sWithVendorTopPhoto"b1"read_unknownFields"b1"read_contextualPhotoLabels"b1"read_contextualPhotos"b1"wrote_anyField"b1};
-- (id)e;
+- (id)_wpsResponseType;
 - (id);
-- (id)BOUT_EXIT_14;
+- (id)ROUNDABOUT_EXIT_14;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *addeds;
-@property(retain, nonatomic) NSMutableArray *editeds;
-@property(retain, nonatomic) NSMutableArray *removeds;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

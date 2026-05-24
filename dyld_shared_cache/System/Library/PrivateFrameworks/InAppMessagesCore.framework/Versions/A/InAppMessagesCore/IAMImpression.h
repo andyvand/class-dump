@@ -4,36 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICInAppMessageEntry, NSDate, NSString;
+@class NSString;
 
 @interface IAMImpression
 {
     NSString *_targetIdentifier;
-    ICInAppMessageEntry *_messageEntry;
-    NSDate *_displayStartTime;
-    NSDate *_displayEndTime;
 }
 
-- (void);
-- (id);
-- (id);
+- (void)V_responseQueue;
+- (id);
+- (id)swiftAsyncPrintLeafyCCallstackOnTopOfSwiftAsyncCallstacksAlways;
 - (void);
 - (id);
 - (id);
 - (id);
 - (int);
-- (void);
-- (id);
-- (void);
+- (void)notifyDelegateDidPerformCommandIfNecessary;
+- (id);
+- (void)kMDItemEventFlightDepartureAirportPostalCode;
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *displayEndTime; // @synthesize displayEndTime=_displayEndTime;
-@property(copy, nonatomic) NSDate *displayStartTime; // @synthesize displayStartTime=_displayStartTime;
-@property(copy, nonatomic) ICInAppMessageEntry *messageEntry; // @synthesize messageEntry=_messageEntry;
-@property(readonly, nonatomic) NSString *messageIdentifier;
-@property(readonly, nonatomic) int messageType;
 @property(copy, nonatomic) NSString *targetIdentifier; // @synthesize targetIdentifier=_targetIdentifier;
 
 @end

@@ -8,9 +8,9 @@
 @protocol OS_dispatch_queue;
 
 @protocol AVCaptureDataOutputDelegateOverride
+- (NSObject<OS_dispatch_queue> *)adataUtilities >>>>;
 
 // Remaining properties
 @property(readonly, nonatomic) id delegateOverride;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *delegateOverrideCallbackQueue;
 @end
 

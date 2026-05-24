@@ -7,8 +7,6 @@
 @interface (extension in LinkPresentation):__C.LPCustomizationPickerViewController.VariantLinkView
 {
     id $__lazy_storage_$_checkmark;
-    id isSelectedVariant;
-    id linkView;
 }
 
 - (id);

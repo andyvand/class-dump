@@ -7,7 +7,6 @@
 @protocol AMPLocalLibraryIdentifiers
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long containedPersistentID;
 @property(readonly, nonatomic) unsigned long long persistentID;
 @end
 

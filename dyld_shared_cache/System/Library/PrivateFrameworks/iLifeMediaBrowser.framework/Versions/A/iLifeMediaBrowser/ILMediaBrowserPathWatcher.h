@@ -4,39 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSMutableArray, NSMutableDictionary, NSObject, NSOperationQueue, NSSet, NSString, NSURL;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary, NSURL;
 
 @interface ILMediaBrowserPathWatcher
 {
     NSMutableDictionary *watchedNodes;
-    NSMutableDictionary *watchedQueryNodes;
-    NSMutableDictionary *gatheredNotifications;
-    NSMutableDictionary *watchedUnmountedNodes;
-    NSMutableDictionary *watchedForCreationNodes;
-    NSMutableDictionary *watchedMasterList;
-    struct __MDQuery *watchedForCreationQuery;
-    _Bool watchedForCreationQueryNeedsUpdate;
-    NSMutableArray *spotlightToDoQueue;
-    NSMutableArray *watchedQueryToDoQueue;
-    NSLock *_watchedQueryToDoLock;
-    _Bool _terminating;
-    NSMutableDictionary *spotlightQueriesByPath;
-    _Bool alwaysNotify;
-    long long startingFDCount;
-    long long usedFDCount;
-    struct __FSEventStream *watcherStreamRef;
-    struct __DASession *diskArbSession;
-    NSObject<OS_dispatch_queue> *dispatch_queue_fsevents;
-    NSObject<OS_dispatch_queue> *dispatch_queue_spotlight;
-    NSObject<OS_dispatch_queue> *dispatch_queue_diskArb;
-    unsigned long long _latestFSEventId;
-    NSOperationQueue *_presentedItemOperationQueue;
-    NSURL *_presentedItemURL;
-    NSString *_originaliAppsPlistPath;
 }
 
-+ (id);
++ (id)`";
 - (struct __FSEventStream *);
 - (_Bool);
 - (void);
@@ -96,7 +71,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -106,33 +81,17 @@
 - (void);
 - (_Bool);
 - (void);
+- (void)",&,N,V_promise;
 - (void);
 - (void);
-- (void);
+- (id)h;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)initWithEvent: /* Error: Ran out of types for this method. */;
+- (id)Օ;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSSet *observedPresentedItemUbiquityAttributes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R
-
-@property(readonly, retain) NSOperationQueue *presentedItemOperationQueue;
 @property(readonly, copy) NSURL *presentedItemURL;
-@property(readonly, copy) NSURL *primaryPresentedItemURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSURL",?,R,C
-
-@property(readonly) Class superclass;
 
 @end
 

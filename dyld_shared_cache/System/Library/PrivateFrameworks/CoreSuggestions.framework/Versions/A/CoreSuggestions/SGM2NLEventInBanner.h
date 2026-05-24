@@ -4,51 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SGM2NLEventInBanner
 {
     int _actionType;
-    NSString *_addedAttendeesCount;
-    NSString *_calendarAppUsageLevel;
-    unsigned int _confidenceScore;
-    int _dateAdj;
-    unsigned int _daysFromStartDate;
-    int _duraAdj;
-    NSString *_eventType;
-    int _extractionLevel;
-    int _interface;
-    NSString *_key;
-    NSString *_languageID;
-    int _locationAdj;
-    int _mailAppUsageLevel;
-    int _messagesAppUsageLevel;
-    unsigned int _participantCount;
-    int _significantSender;
-    int _titleAdj;
-    int _titleSource;
-    unsigned int _usedBubblesCount;
-    struct {
-        unsigned int actionType:1;
-        unsigned int confidenceScore:1;
-        unsigned int dateAdj:1;
-        unsigned int daysFromStartDate:1;
-        unsigned int duraAdj:1;
-        unsigned int extractionLevel:1;
-        unsigned int interface:1;
-        unsigned int locationAdj:1;
-        unsigned int mailAppUsageLevel:1;
-        unsigned int messagesAppUsageLevel:1;
-        unsigned int participantCount:1;
-        unsigned int significantSender:1;
-        unsigned int titleAdj:1;
-        unsigned int titleSource:1;
-        unsigned int usedBubblesCount:1;
-    } _has;
 }
 
 - (unsigned int);
-- (id);
+- (id);
 - (int);
 - (id);
 - (int);
@@ -58,6 +20,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -70,8 +33,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
@@ -89,7 +51,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -124,78 +86,40 @@
 - (int);
 - (int);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
-- (_Bool);
-- (unsigned int);
+- (_Bool)performUpdate;
+- (unsigned int)_performAuthenticateTaskWithPaymentSheetResult: /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (id);
-- (id);
+- (id)q
+?׋;
 - (void);
 - (_Bool);
 - (void);
 - (int);
 - (unsigned long long);
 - (_Bool);
-- (int);
+- (int)use non-array for TLV %lx;
 - (id);
 - (id);
 - (_Bool);
-- (int);
+- (int)charge_duration_p_0_75_at_charge_start_secs_curr_static_bin;
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)RTCReportingAVCLegacySupport;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) int actionType; // @synthesize actionType=_actionType;
-@property(retain, nonatomic) NSString *addedAttendeesCount; // @synthesize addedAttendeesCount=_addedAttendeesCount;
-@property(retain, nonatomic) NSString *calendarAppUsageLevel; // @synthesize calendarAppUsageLevel=_calendarAppUsageLevel;
-@property(nonatomic) unsigned int confidenceScore; // @synthesize confidenceScore=_confidenceScore;
-@property(nonatomic) int dateAdj; // @synthesize dateAdj=_dateAdj;
-@property(nonatomic) unsigned int daysFromStartDate; // @synthesize daysFromStartDate=_daysFromStartDate;
-@property(nonatomic) int duraAdj; // @synthesize duraAdj=_duraAdj;
-@property(retain, nonatomic) NSString *eventType; // @synthesize eventType=_eventType;
-@property(nonatomic) int extractionLevel; // @synthesize extractionLevel=_extractionLevel;
-@property(nonatomic) _Bool hasActionType;
-@property(readonly, nonatomic) _Bool hasAddedAttendeesCount;
-@property(readonly, nonatomic) _Bool hasCalendarAppUsageLevel;
-@property(nonatomic) _Bool hasConfidenceScore;
-@property(nonatomic) _Bool hasDateAdj;
-@property(nonatomic) _Bool hasDaysFromStartDate;
-@property(nonatomic) _Bool hasDuraAdj;
-@property(readonly, nonatomic) _Bool hasEventType;
-@property(nonatomic) _Bool hasExtractionLevel;
-@property(nonatomic) _Bool hasInterface;
 @property(readonly, nonatomic) _Bool hasKey;
-@property(readonly, nonatomic) _Bool hasLanguageID;
-@property(nonatomic) _Bool hasLocationAdj;
-@property(nonatomic) _Bool hasMailAppUsageLevel;
-@property(nonatomic) _Bool hasMessagesAppUsageLevel;
-@property(nonatomic) _Bool hasParticipantCount;
-@property(nonatomic) _Bool hasSignificantSender;
-@property(nonatomic) _Bool hasTitleAdj;
-@property(nonatomic) _Bool hasTitleSource;
-@property(nonatomic) _Bool hasUsedBubblesCount;
-@property(nonatomic) int interface; // @synthesize interface=_interface;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(retain, nonatomic) NSString *languageID; // @synthesize languageID=_languageID;
-@property(nonatomic) int locationAdj; // @synthesize locationAdj=_locationAdj;
-@property(nonatomic) int mailAppUsageLevel; // @synthesize mailAppUsageLevel=_mailAppUsageLevel;
-@property(nonatomic) int messagesAppUsageLevel; // @synthesize messagesAppUsageLevel=_messagesAppUsageLevel;
-@property(nonatomic) unsigned int participantCount; // @synthesize participantCount=_participantCount;
-@property(nonatomic) int significantSender; // @synthesize significantSender=_significantSender;
-@property(nonatomic) int titleAdj; // @synthesize titleAdj=_titleAdj;
-@property(nonatomic) int titleSource; // @synthesize titleSource=_titleSource;
-@property(nonatomic) unsigned int usedBubblesCount; // @synthesize usedBubblesCount=_usedBubblesCount;
 
 @end
 

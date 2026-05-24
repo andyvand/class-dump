@@ -9,6 +9,12 @@
 @protocol NSWindowDelegate
 
 @optional
+- (void)q@;
+- (void);
+- (void);
+- (void);
+- (void)appLaunchLinkDidPresentForBundleIdentifier:(NSWindow *)arg1;
+- (void)nnection unregisterAccount:(NSNotification *)arg1 fromiCloudNotificationsWithError:] /* Error: Ran out of types for this method. */;
 - (void)#Ð1Â0@ù
 × ;
 - (id)0@ù
@@ -27,17 +33,16 @@
 × ;
 - (void)Panel";
 - (void)Point=dd}{CGSize=dd}}16@0:(NSNotification *)arg1 8;
-- (void)SuggestionWindowNeedsInitialFrameUpdate:(NSNotification *)arg1;
-- (unsigned long long)derFront:(NSWindow *)arg1;
-- (void)arContainer;
-- (void)reviewEventsAsTentative;
-- (void)Constraint;
+- (void)setSuggestionWindowNeedsInitialFrameUpdate:(NSNotification *)arg1;
+- (unsigned long long)makeKeyAndOrderFront:(NSWindow *)arg1;
+- (void)colorBarContainer;
+- (void)_shouldDisplayPreviewEventsAsTentative;
+- (void)_scrollViewMaxHeightConstraint;
 - (struct CGRect)alue;
-- (void)Disappear;
-- (void)ZonePicker;
+- (void)viewControllerViewWillDisappear;
+- (void)CalUITimeZonePicker;
 - (_Bool)X½½t¾è¾ø¿DÂÂxÄäÅ;
 - (void)ÀT;
 - (void)uest full access to events. Please stop calling this method.;
-- (struct CGSize);
 @end
 

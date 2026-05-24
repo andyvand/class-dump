@@ -6,7 +6,7 @@
 
 #import <HomeKitBackingStore/HMBModel.h>
 
-@class NSNumber, NSUUID;
+@class NSUUID;
 
 @interface HMBCloudZoneRebuilderModel : HMBModel
 {
@@ -17,7 +17,6 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *hasCompleted; // @dynamic hasCompleted;
 @property(retain, nonatomic) NSUUID *uniqueToken; // @dynamic uniqueToken;
 
 @end

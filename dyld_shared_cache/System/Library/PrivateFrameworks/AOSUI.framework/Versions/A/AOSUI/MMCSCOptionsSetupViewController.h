@@ -4,33 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSButtonCell, NSImageView, NSMatrix, NSString, NSTextField, NSTouchBar, iCloudTouchBarController;
+@class iCloudTouchBarController;
 @protocol MMCSCOptionsSetupViewControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface MMCSCOptionsSetupViewController
 {
     id <MMCSCOptionsSetupViewControllerDelegate> _delegate;
-    NSImageView *_optionsViewImageView;
-    NSTextField *_optionsViewTitle;
-    NSTextField *_optionsViewMessage;
-    NSMatrix *_optionsViewRadioMatrix;
-    NSButtonCell *_optionsViewComplexRadioButton;
-    NSButtonCell *_optionsViewRandomRadioButton;
-    NSButtonCell *_optionsViewOptOutRadionButton;
-    NSTextField *_optionsViewOptOutInfoLabel;
-    NSButton *_optionsViewHelpButton;
-    NSButton *_optionsViewCancelButton;
-    NSButton *_optionsViewAlternateButton;
-    NSButton *_optionsViewConfirmButton;
-    iCloudTouchBarController *_touchBarController;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)2;
 - (void);
 - (void);
 - (void);
@@ -47,16 +34,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id)	
+k3;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (long long);
-- (void);
+- (id))?q	3;
 - (id);
 - (void);
+- (void);
+- (long long)b(b@ ae;
+- (void)onerousantentmentementelyA;
+- (id)?;
+- (void)@9*;
 - (id);
 - (void);
 - (void)!HEù1YÐ1Â0@ù
@@ -64,28 +52,6 @@ __attribute__((visibility("hidden")))
 - (id)ndDesktopWithDialogCompletion:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) long long advancedOption;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property id <MMCSCOptionsSetupViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property __weak NSButton *optionsViewAlternateButton; // @synthesize optionsViewAlternateButton=_optionsViewAlternateButton;
-@property __weak NSButton *optionsViewCancelButton; // @synthesize optionsViewCancelButton=_optionsViewCancelButton;
-@property __weak NSButtonCell *optionsViewComplexRadioButton; // @synthesize optionsViewComplexRadioButton=_optionsViewComplexRadioButton;
-@property __weak NSButton *optionsViewConfirmButton; // @synthesize optionsViewConfirmButton=_optionsViewConfirmButton;
-@property __weak NSButton *optionsViewHelpButton; // @synthesize optionsViewHelpButton=_optionsViewHelpButton;
-@property __weak NSImageView *optionsViewImageView; // @synthesize optionsViewImageView=_optionsViewImageView;
-@property __weak NSTextField *optionsViewMessage; // @synthesize optionsViewMessage=_optionsViewMessage;
-@property __weak NSTextField *optionsViewOptOutInfoLabel; // @synthesize optionsViewOptOutInfoLabel=_optionsViewOptOutInfoLabel;
-@property __weak NSButtonCell *optionsViewOptOutRadionButton; // @synthesize optionsViewOptOutRadionButton=_optionsViewOptOutRadionButton;
-@property __weak NSMatrix *optionsViewRadioMatrix; // @synthesize optionsViewRadioMatrix=_optionsViewRadioMatrix;
-@property __weak NSButtonCell *optionsViewRandomRadioButton; // @synthesize optionsViewRandomRadioButton=_optionsViewRandomRadioButton;
-@property __weak NSTextField *optionsViewTitle; // @synthesize optionsViewTitle=_optionsViewTitle;
-@property(readonly) Class superclass;
-@property(readonly) NSTouchBar *touchBar;
 @property(retain) iCloudTouchBarController *touchBarController; // @synthesize touchBarController=_touchBarController;
 
 @end

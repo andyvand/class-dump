@@ -5,10 +5,10 @@
 //
 
 @interface UnknownClass (MSStringUtilities)
-+ (int);
++ (int)stop thread accessory pairing, error %@;
++ (id)is null.;
 + (id);
-+ (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)te, error %@;
+- (id)iled to start thread accessory pairing with emac %@, error %@;
 @end
 

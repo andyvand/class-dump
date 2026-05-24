@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCListener;
+@class NSXPCListener;
 
 @interface CDPDXPCListener
 {
@@ -17,21 +17,14 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)K11?z;
 - (id);
 - (_Bool);
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSXPCListener *listener; // @synthesize listener=_listener;
-@property(readonly) Class superclass;
 
 @end
 

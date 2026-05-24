@@ -6,18 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector, NSDictionary, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CILensModelCalculator : CIFilter
 {
     CIImage *inputImage;
-    CIImage *inputMinMaxImage;
-    CIVector *inputOriginalSize;
-    CIVector *inputFocusRect;
-    NSNumber *inputSimulatedAperture;
-    NSNumber *inputIntrinsicMatrixFocalLength;
-    NSDictionary *inputTuningParameters;
 }
 
 + (id);
@@ -29,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)S;
 - (id);
 - (id);
 - (id);
@@ -41,13 +35,7 @@ __attribute__((visibility("hidden")))
 - (id)zzzznnnnblhlvusvs|~doku^jdr}}}}Mni||||^c\gSTGYZZUZ`hch~zw~yªªªª¬¬¬¬¥¦¦esovllllllllsurvs}}xxxxMaZgT\Shtzy{¢¢¢¢OrjMfYvWi^tguoqmyyy8J=Y>F8LPSKSJZS^]d`jnsssnnnnKWOY5A2GCD7DGM@Odfefsx§§§§¡©®®¨¨¨¨Rld{mzw|u{{{{hhhhYYYYXXXXddddqqqqwwwwxxxxm}p}Qc]pRYP[OOGO9L@Ullll{{{{lrovbh`puutuyyyyftsxvvvvssssppnpssssuuuullllH[SerrprQphvyrl}s{yGhaxkrnwi{z|yuzv~zwpzXvo©©©©nnnnV_VbkkkkUicrVZO`KSGVZZTZ`ebeimipXpk^zxoevrxxxxO`Xe[bYf||||vsYjduqqqqqqqqtttttyx|l~cyyjxw~h{|~viyy~bsoybnguwpgww~¦¦¦¦zzzzL_XcAK=VP\Uc}}}}¢¢¢¢ftn}?UEjNdZpZurzmmgmenhp~~~~sspsVibs¡¡¡¡¢¢¢^vt}}}}Wh`p_cZkepjpnzzzeqoxiidlbb_bMXP\^`Z``gakQnj~°°°°¥¯¯l}zapjssrs8PB_AQE[eeeefihiU`Yd;
 
 // Remaining properties
-@property(copy, nonatomic) CIVector *inputFocusRect; // @synthesize inputFocusRect;
 @property(retain) CIImage *inputImage; // @synthesize inputImage;
-@property(copy, nonatomic) NSNumber *inputIntrinsicMatrixFocalLength; // @synthesize inputIntrinsicMatrixFocalLength;
-@property(retain) CIImage *inputMinMaxImage; // @synthesize inputMinMaxImage;
-@property(copy, nonatomic) CIVector *inputOriginalSize; // @synthesize inputOriginalSize;
-@property(copy, nonatomic) NSNumber *inputSimulatedAperture; // @synthesize inputSimulatedAperture;
-@property(retain, nonatomic) NSDictionary *inputTuningParameters; // @synthesize inputTuningParameters;
 
 @end
 

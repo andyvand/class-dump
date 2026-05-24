@@ -7,14 +7,6 @@
 @interface AWDCoreRoutinePersistenceMirroringTickleFight
 {
     CDStruct_95bda58d _tickleTimes;
-    unsigned long long _timestamp;
-    int _operationType;
-    int _recordType;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int operationType:1;
-        unsigned int recordType:1;
-    } _has;
 }
 
 - (unsigned long long);
@@ -22,14 +14,14 @@
 - (int *);
 - (void);
 - (void);
-- (void);
+- (void)@yh;
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)@;
+- (void)c.;
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
@@ -47,14 +39,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool hasOperationType;
-@property(nonatomic) _Bool hasRecordType;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) int operationType; // @synthesize operationType=_operationType;
-@property(nonatomic) int recordType; // @synthesize recordType=_recordType;
-@property(readonly, nonatomic) int *tickleTimes;
-@property(readonly, nonatomic) unsigned long long tickleTimesCount;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

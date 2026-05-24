@@ -9,19 +9,17 @@
 @interface TIMecabraSegment
 {
     NSString *_reading;
-    NSString *_surface;
 }
 
 + (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)v;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *reading; // @synthesize reading=_reading;
-@property(retain, nonatomic) NSString *surface; // @synthesize surface=_surface;
 
 @end
 

@@ -9,20 +9,19 @@
 @interface GEORPFeedbackIdLookupResult
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_feedbackInfos;
 }
 
 + (Class);
-+ (_Bool)etIsWeatherShown:(id)arg1;
-- (void);
++ (_Bool)setIsWeatherShown:(id)arg1;
+- (void)dateComponents;
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -33,14 +32,13 @@
 - (_Bool);
 - (void);
 - (id)uggestionEntryMetadataTappedOn"b1"wrote_anyField"b1};
-- (id)e;
+- (id)appShortName;
 - (id)­;
-- (id);
+- (id)step_group;
 - (void)Öã¾Õ:M@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *feedbackInfos;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

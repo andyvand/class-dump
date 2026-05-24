@@ -6,15 +6,12 @@
 
 #import <ContactsUI/CNPhotoPickerProviderItem.h>
 
-@class CNPhotoPickerColorVariant, NSData, NSString, UIColor;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface CNPhotoPickerEmojiProviderItem : CNPhotoPickerProviderItem
 {
     NSString *_stringRepresentation;
-    NSData *_dataRepresentation;
-    CNPhotoPickerColorVariant *_backgroundColorVariant;
-    struct CGSize _size;
 }
 
 + (id);
@@ -29,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)c;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -45,15 +42,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void)ullscreenForOutOfProcess;
+- (void)_isPresentingFullscreenForOutOfProcess;
 
 // Remaining properties
-@property(readonly, nonatomic) UIColor *backgroundColor;
-@property(retain, nonatomic) CNPhotoPickerColorVariant *backgroundColorVariant; // @synthesize backgroundColorVariant=_backgroundColorVariant;
-@property(retain, nonatomic) NSData *dataRepresentation; // @synthesize dataRepresentation=_dataRepresentation;
-@property(readonly, nonatomic) NSString *itemText;
 @property(nonatomic) struct CGSize size; // @synthesize size=_size;
-@property(retain, nonatomic) NSString *stringRepresentation; // @synthesize stringRepresentation=_stringRepresentation;
 
 @end
 

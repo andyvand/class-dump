@@ -4,36 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface MFAttachmentMarkup
 {
     NSData *_attachmentData;
-    NSString *_contentID;
-    NSString *_mimeType;
-    NSString *_filename;
-    NSString *_contextID;
 }
 
 + (id);
 - (void);
 - (void);
-- (id);
+- (id)2;
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)@24B32@36@44@52@60;
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSData *attachmentData; // @synthesize attachmentData=_attachmentData;
-@property(retain, nonatomic) NSString *contentID; // @synthesize contentID=_contentID;
-@property(retain, nonatomic) NSString *contextID; // @synthesize contextID=_contextID;
-@property(retain, nonatomic) NSString *filename; // @synthesize filename=_filename;
-@property(retain, nonatomic) NSString *mimeType; // @synthesize mimeType=_mimeType;
 
 @end
 

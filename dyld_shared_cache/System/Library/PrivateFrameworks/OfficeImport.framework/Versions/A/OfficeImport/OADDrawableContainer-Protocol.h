@@ -5,5 +5,7 @@
 //
 
 @protocol OADDrawableContainer
+- (void);
+- (struct CGRect)	;
 @end
 

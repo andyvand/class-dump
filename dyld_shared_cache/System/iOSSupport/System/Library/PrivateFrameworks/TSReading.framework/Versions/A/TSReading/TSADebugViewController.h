@@ -6,22 +6,21 @@
 
 #import <TSReading/TSKPopoverBasedViewController.h>
 
-@class TSADebugTableViewController, UIViewController;
+@class UIViewController;
 
 @interface TSADebugViewController : TSKPopoverBasedViewController
 {
     UIViewController *_delegate;
-    TSADebugTableViewController *_debugTableViewController;
 }
 
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void)ColorForState:(_Bool)arg1;
+- (id)ad fast user event session, id=%{public}s, error=%{public}@;
+- (void)@;
+- (void)titleShadowColorForState:(_Bool)arg1;
 - (void)ä¸ãÿ Y4;
 
 @end

@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface AFPluginBundle
 {
     Class _factoryClass;
-    id _factoryInstance;
-    NSMutableDictionary *_classIdentifiers;
 }
 
 - (_Bool);
@@ -18,16 +14,14 @@
 - (void);
 - (void);
 - (void);
-- (Class);
+- (Class);
 - (id);
 - (id);
 - (id);
-- (void)tory;
+- (void)getKeepsHistory;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *classIdentifiers; // @synthesize classIdentifiers=_classIdentifiers;
 @property(retain, nonatomic) Class factoryClass; // @synthesize factoryClass=_factoryClass;
-@property(retain, nonatomic) id factoryInstance; // @synthesize factoryInstance=_factoryInstance;
 
 @end
 

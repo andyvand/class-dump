@@ -14,17 +14,17 @@
 }
 
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)sortUsingFunction:context: /* Error: Ran out of types for this method. */;
+- (void)@;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (long long);
+- (id);
+- (id);
+- (long long)^;
 - (unsigned short);
 - (void);
 

@@ -9,25 +9,6 @@
 @interface CASDFKeyFillHighlightEffect : CASDFEffect
 {
     _Bool _global;
-    struct CGColor *_keyColor;
-    double _keyHeightScale;
-    double _keyHeightOffset;
-    double _keySpreadScale;
-    double _keySpreadOffset;
-    struct CGColor *_fillColor;
-    double _fillHeightScale;
-    double _fillHeightOffset;
-    double _fillSpreadScale;
-    double _fillSpreadOffset;
-    double _keyHeight;
-    double _keyAngle;
-    double _keySpread;
-    double _keyAmount;
-    double _fillHeight;
-    double _fillAngle;
-    double _fillSpread;
-    double _fillAmount;
-    double _curvature;
 }
 
 + (id);
@@ -35,17 +16,17 @@
 + (id);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)qh;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)h;
 - (void);
 - (void);
 - (void);
@@ -54,11 +35,12 @@
 - (void);
 - (double);
 - (double);
+- (double)q#;
 - (double);
+- (struct CGColor *)�
+;
 - (double);
-- (struct CGColor *);
-- (double);
-- (double);
+- (double);
 - (_Bool);
 - (double);
 - (double);
@@ -73,31 +55,12 @@
 - (double);
 - (double);
 - (void);
-- (id);
+- (id);
 - (struct CGColor *);
 - (void);
 
 // Remaining properties
-@property(nonatomic) double curvature; // @synthesize curvature=_curvature;
-@property(nonatomic) double fillAmount; // @synthesize fillAmount=_fillAmount;
-@property(nonatomic) double fillAngle; // @synthesize fillAngle=_fillAngle;
-@property(retain, nonatomic) struct CGColor *fillColor; // @synthesize fillColor=_fillColor;
-@property(nonatomic) double fillHeight; // @synthesize fillHeight=_fillHeight;
-@property(nonatomic) double fillHeightOffset; // @synthesize fillHeightOffset=_fillHeightOffset;
-@property(nonatomic) double fillHeightScale; // @synthesize fillHeightScale=_fillHeightScale;
-@property(nonatomic) double fillSpread; // @synthesize fillSpread=_fillSpread;
-@property(nonatomic) double fillSpreadOffset; // @synthesize fillSpreadOffset=_fillSpreadOffset;
-@property(nonatomic) double fillSpreadScale; // @synthesize fillSpreadScale=_fillSpreadScale;
-@property(nonatomic) _Bool global; // @synthesize global=_global;
-@property(nonatomic) double keyAmount; // @synthesize keyAmount=_keyAmount;
-@property(nonatomic) double keyAngle; // @synthesize keyAngle=_keyAngle;
 @property(retain, nonatomic) struct CGColor *keyColor; // @synthesize keyColor=_keyColor;
-@property(nonatomic) double keyHeight; // @synthesize keyHeight=_keyHeight;
-@property(nonatomic) double keyHeightOffset; // @synthesize keyHeightOffset=_keyHeightOffset;
-@property(nonatomic) double keyHeightScale; // @synthesize keyHeightScale=_keyHeightScale;
-@property(nonatomic) double keySpread; // @synthesize keySpread=_keySpread;
-@property(nonatomic) double keySpreadOffset; // @synthesize keySpreadOffset=_keySpreadOffset;
-@property(nonatomic) double keySpreadScale; // @synthesize keySpreadScale=_keySpreadScale;
 
 @end
 

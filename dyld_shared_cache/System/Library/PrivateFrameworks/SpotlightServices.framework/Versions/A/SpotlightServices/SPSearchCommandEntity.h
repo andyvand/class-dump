@@ -6,20 +6,17 @@
 
 #import <SpotlightServices/SPSearchEntity.h>
 
-@class CSSuggestion, NSString, SFCommand, SFImage;
+@class NSString;
 
 @interface SPSearchCommandEntity : SPSearchEntity
 {
     NSString *_symbolName;
-    SFImage *_tokenImage;
-    SFCommand *_performCommand;
-    CSSuggestion *_searchModel;
 }
 
 + (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)singleLineStringFromPostalAddress:(id)arg1 addCountryName:(id)arg2;
+- (id)generateHTMLFragmentString:(id)arg1;
 - (id);
 - (id);
 - (_Bool);
@@ -28,12 +25,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)@;
+- (void)PAMediaConversionServiceOptionAVMetadataOriginatingSignatureKey;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void)ry_norm_min_unordered_span:qr_query_min_pair_dist_in_title:prefix_match_norm_count: /* Error: Ran out of types for this method. */;
 
 @end

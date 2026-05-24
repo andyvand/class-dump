@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSMutableDictionary, NSString, NSURL;
+@class NSURL;
 
 @interface CalDAVAddManagedAttachmentsTaskGroup
 {
     NSURL *_postURLWithQuery;
-    _Bool _hadPreconditionFailure;
-    int _state;
-    NSString *_previousETag;
-    NSString *_previousScheduleTag;
-    NSData *_updatedResourcePayload;
-    NSString *_updatedETag;
-    NSString *_updatedScheduleTag;
-    NSDictionary *_postFailureSizes;
-    NSURL *_resourceURL;
-    NSDictionary *_attachments;
-    NSDictionary *_contentTypes;
-    NSMutableDictionary *_filenamesToServerLocation;
 }
 
 - (id);
@@ -44,12 +32,12 @@
 - (id);
 - (void);
 - (void);
-- (int);
-- (void);
+- (int)7X;
+- (void)signalEventWithValue:(id)arg1 symbolIndex:eventType:sharedEvent: /* Error: Ran out of types for this method. */;
+- (id)_setShouldCreateRenderers: /* Error: Ran out of types for this method. */;
+- (void)re:(id)arg1:HistoryItem>, Value = WTF::RefPtr<WebCore::HistoryItem>, Extractor = WTF::IdentityExtractor, HashFunctions = WTF::DefaultHash<WTF::RefPtr<WebCore::HistoryItem>>, Traits = WTF::HashTraits<WTF::RefPtr<WebCore::HistoryItem>>, KeyTraits = WTF::HashTraits<WTF::RefPtr<WebCore::HistoryItem>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (id);
-- (id);
+- (id)	;
 - (void);
 - (id);
 - (id);
@@ -58,18 +46,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *attachments; // @synthesize attachments=_attachments;
-@property(retain, nonatomic) NSDictionary *contentTypes; // @synthesize contentTypes=_contentTypes;
-@property(retain, nonatomic) NSMutableDictionary *filenamesToServerLocation; // @synthesize filenamesToServerLocation=_filenamesToServerLocation;
-@property(nonatomic) _Bool hadPreconditionFailure; // @synthesize hadPreconditionFailure=_hadPreconditionFailure;
-@property(retain, nonatomic) NSDictionary *postFailureSizes; // @synthesize postFailureSizes=_postFailureSizes;
-@property(retain, nonatomic) NSString *previousETag; // @synthesize previousETag=_previousETag;
-@property(retain, nonatomic) NSString *previousScheduleTag; // @synthesize previousScheduleTag=_previousScheduleTag;
-@property(retain, nonatomic) NSURL *resourceURL; // @synthesize resourceURL=_resourceURL;
 @property(nonatomic) int state; // @synthesize state=_state;
-@property(retain, nonatomic) NSString *updatedETag; // @synthesize updatedETag=_updatedETag;
-@property(retain, nonatomic) NSData *updatedResourcePayload; // @synthesize updatedResourcePayload=_updatedResourcePayload;
-@property(retain, nonatomic) NSString *updatedScheduleTag; // @synthesize updatedScheduleTag=_updatedScheduleTag;
 
 @end
 

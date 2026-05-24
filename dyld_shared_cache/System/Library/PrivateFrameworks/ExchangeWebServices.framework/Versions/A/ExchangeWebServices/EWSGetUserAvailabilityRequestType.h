@@ -6,27 +6,23 @@
 
 #import <ExchangeWebServices/EWSBaseRequestType.h>
 
-@class EWSFreeBusyViewOptionsType, EWSSerializableTimeZone, NSArray;
+@class EWSSerializableTimeZone;
 
 @interface EWSGetUserAvailabilityRequestType : EWSBaseRequestType
 {
     EWSSerializableTimeZone *_TimeZone;
-    NSArray *_MailboxDataArray;
-    EWSFreeBusyViewOptionsType *_FreeBusyViewOptions;
 }
 
 + (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) EWSFreeBusyViewOptionsType *FreeBusyViewOptions; // @synthesize FreeBusyViewOptions=_FreeBusyViewOptions;
-@property(copy, nonatomic) NSArray *MailboxDataArray; // @synthesize MailboxDataArray=_MailboxDataArray;
 @property(retain, nonatomic) EWSSerializableTimeZone *TimeZone; // @synthesize TimeZone=_TimeZone;
 
 @end

@@ -7,17 +7,11 @@
 @interface TeaTemplate.ColumnDebugView
 {
     id columnSystem;
-    id layoutOptions;
-    id showMargins;
-    id showColumns;
-    id columnViews;
-    id leftMarginView;
-    id rightMarginView;
 }
 
-- (id);
+- (id)indexFromPoint:(id)arg1;
 - (void);
-- (id);
+- (id)containsObject:(struct CGRect)arg1;
 - (void);
 
 @end

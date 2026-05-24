@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
 @protocol AVOutputDeviceDescription;
 
 @interface MRAVConcreteOutputDeviceDescriptionImpl
@@ -15,8 +14,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)_TtC10LoginUIKit17LUI2GlassTextView;
 - (id);
 - (id);
 - (_Bool);
@@ -29,24 +28,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <AVOutputDeviceDescription> avDescription; // @synthesize avDescription=_avDescription;
-@property(readonly, nonatomic, getter=isClusterLeader) _Bool clusterLeader;
-@property(readonly, nonatomic) unsigned int clusterType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned int deviceSubtype;
-@property(readonly, nonatomic) unsigned int deviceType;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *modelID;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) NSString *roomID;
-@property(readonly, nonatomic) NSString *roomName;
-@property(readonly, nonatomic) NSArray *subComponents;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsEngageOnClusterActivation;
-@property(readonly, nonatomic) NSString *uid;
 
 @end
 

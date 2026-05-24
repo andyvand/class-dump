@@ -10,46 +10,36 @@ __attribute__((visibility("hidden")))
 @interface NSSearchFieldAquaduckVisualProvider
 {
     NSTextFieldBezelConfiguration *bezelConfiguration;
-    id textFieldCell;
-    id textField;
-    id _hostingViewIfExists;
-    id $__lazy_storage_$_labelView;
-    id cellOverridesDrawingMethods;
-    id searchFieldOverridesDrawingMethods;
 }
 
 - (_Bool);
 - (int);
-- (void);
+- (void)@	;
 - (struct CGRect);
-- (void);
+- (void)lock_invoke;
+- (id)proxy auth from response handle %p;
+- (int)blic}@> FAILED to UNLINK download file:(id)arg1 %s, errno:%d, desc:%s /* Error: Ran out of types for this method. */;
 - (id);
-- (int);
-- (id);
-- (struct CGRect);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGSize);
-- (struct CGRect);
-- (id);
-- (double);
+- (struct CGRect)HTTPServer}C^{__CFReadStream}^{__CFWriteStream}ddqqC^{HTTPServerRequest}^{PendingQueue}^{ActiveResponseInfo}^{__CFData}^{LeftoverBuffer}q@@^{__CFRunLoopTimer}}8;
+- (void)%s is %s;
+- (void)privacyProxyFailClosedForUnreachableHosts;
+- (void)t:(struct CGRect)arg1 with nil cached response;
+- (void)xt%;
+- (struct CGSize)@?0Q8@"NSObject<OS_nw_object>"16;
+- (struct CGRect)v32@?0@"NSURLResponse"8^{__CFData=}16^{__CFError=}24;
+- (id)__nsurlrequest_proto_prop_obj_24;
+- (double)__nsurlrequest_proto_prop_obj_21;
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (CDStruct_507282ca)Hyperlink:(struct CGSize)arg1;
+- (void);
+- (CDStruct_c3b9c2ee)addHyperlink:(struct CGSize)arg1;
 - (void)¼ôA;
 - (void)4¨E;
 - (struct NSEdgeInsets)jÿ;
 
 // Remaining properties
-@property(nonatomic, readonly) struct NSEdgeInsets alignmentRectInsets;
-@property(nonatomic, readonly) _Bool allowsTextTightening;
-@property(nonatomic, readonly) double bezelCellSizeHeightPadding;
 @property(nonatomic, retain) NSTextFieldBezelConfiguration *bezelConfiguration; // @synthesize bezelConfiguration;
-@property(nonatomic, readonly) _Bool wantsSeparatedSubviews;
 
 @end
 

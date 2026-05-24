@@ -5,5 +5,7 @@
 //
 
 @protocol AVPictureInPictureControllerMacHelperDelegate
+- (void)Bt;
+- (void);
 @end
 

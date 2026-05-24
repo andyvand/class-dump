@@ -9,8 +9,6 @@
 @interface NURenderPipelineVideoSampleSlice
 {
     NSDictionary *_videoFrames;
-    NSDictionary *_metadataSamples;
-    CDStruct_1b6d18a9 _frameTime;
 }
 
 - (id);
@@ -20,15 +18,13 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (CDStruct_1b6d18a9);
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_1b6d18a9 frameTime; // @synthesize frameTime=_frameTime;
-@property(readonly, copy, nonatomic) NSDictionary *metadataSamples; // @synthesize metadataSamples=_metadataSamples;
 @property(readonly, copy, nonatomic) NSDictionary *videoFrames; // @synthesize videoFrames=_videoFrames;
 
 @end

@@ -7,16 +7,6 @@
 @interface PXSnappingController
 {
     _Bool _accumulateOffsetWhileSnapped;
-    _Bool _snappedToTarget;
-    _Bool __hasEnteredAttractionThreshold;
-    _Bool __hasEnteredRetentionThreshold;
-    _Bool __previousOffsetInvalid;
-    double _snappingTarget;
-    double _retentionOffsetThreshold;
-    double _attractionOffsetThreshold;
-    double _attractionVelocityThreshold;
-    double __previousOffset;
-    double __accumulatedOffset;
 }
 
 - (void);
@@ -24,7 +14,7 @@
 - (void);
 - (void);
 - (void);
-- (double);
+- (double)?;
 - (_Bool);
 - (void);
 - (void);
@@ -41,7 +31,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (double);
 - (void);
@@ -50,17 +40,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, setter=_setAccumulatedOffset:) double _accumulatedOffset; // @synthesize _accumulatedOffset=__accumulatedOffset;
 @property(nonatomic, setter=_setHasEnteredAttractionThreshold:) _Bool _hasEnteredAttractionThreshold; // @synthesize _hasEnteredAttractionThreshold=__hasEnteredAttractionThreshold;
-@property(nonatomic, setter=_setHasEnteredRetentionThreshold:) _Bool _hasEnteredRetentionThreshold; // @synthesize _hasEnteredRetentionThreshold=__hasEnteredRetentionThreshold;
-@property(nonatomic, setter=_setPreviousOffset:) double _previousOffset; // @synthesize _previousOffset=__previousOffset;
-@property(nonatomic, getter=_isPreviousOffsetInvalid, setter=_setPreviousOffsetInvalid:) _Bool _previousOffsetInvalid; // @synthesize _previousOffsetInvalid=__previousOffsetInvalid;
-@property(nonatomic) _Bool accumulateOffsetWhileSnapped; // @synthesize accumulateOffsetWhileSnapped=_accumulateOffsetWhileSnapped;
-@property(nonatomic) double attractionOffsetThreshold; // @synthesize attractionOffsetThreshold=_attractionOffsetThreshold;
-@property(nonatomic) double attractionVelocityThreshold; // @synthesize attractionVelocityThreshold=_attractionVelocityThreshold;
-@property(nonatomic) double retentionOffsetThreshold; // @synthesize retentionOffsetThreshold=_retentionOffsetThreshold;
-@property(readonly, nonatomic, getter=isSnappedToTarget) _Bool snappedToTarget; // @synthesize snappedToTarget=_snappedToTarget;
-@property(readonly, nonatomic) double snappingTarget; // @synthesize snappingTarget=_snappingTarget;
 
 @end
 

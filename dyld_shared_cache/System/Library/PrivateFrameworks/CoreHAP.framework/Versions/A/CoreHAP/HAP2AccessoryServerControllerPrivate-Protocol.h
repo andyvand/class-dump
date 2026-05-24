@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPPairingIdentity;
-@protocol HAP2AccessoryServerEncoding, HAP2AccessoryServerPrivate;
+@protocol HAP2AccessoryServerPrivate;
 
 @protocol HAP2AccessoryServerControllerPrivate
+- (id <HAP2AccessoryServerPrivate>);
 
 // Remaining properties
 @property(nonatomic) __weak id <HAP2AccessoryServerPrivate> accessoryServer;
-@property(readonly, nonatomic) HAPPairingIdentity *currentLocalPairingIdentity;
-@property(readonly, nonatomic) id <HAP2AccessoryServerEncoding> encoding;
-@property(readonly, nonatomic) _Bool managesConnectionStateExternally;
 @end
 

@@ -7,8 +7,6 @@
 @interface NewsFeed.SportsTaxonomyGraphManager
 {
     id sportsDataService;
-    id fetchDeduper;
-    id _taxonomyGraph;
 }
 
 @end

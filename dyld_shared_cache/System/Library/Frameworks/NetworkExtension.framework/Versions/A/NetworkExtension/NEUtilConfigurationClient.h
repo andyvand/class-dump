@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NEAppPush, NEConfiguration, NEConfigurationManager, NEDNSProxyProviderProtocol, NEDNSSettingsBundle, NEFilterProviderConfiguration, NSArray, NSMutableArray, NSString;
-
 @interface NEUtilConfigurationClient
 {
     _Bool _isAlwaysOn;
-    NSString *_clientName;
-    NEConfigurationManager *_manager;
-    NSMutableArray *_createdConfigurations;
-    NSMutableArray *_currentConfigurations;
-    NSMutableArray *_identities;
-    NEConfiguration *_currentConfiguration;
-    struct AuthorizationOpaqueRef *_authorization;
 }
 
 + (void);
 + (id);
+- (_Bool)c;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -31,20 +23,19 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -65,9 +56,9 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (void);
+- (id);
+- (id)uid_t}.16P file invalid;
+- (void);
 - (void);
 - (_Bool);
 - (id);
@@ -75,24 +66,7 @@
 - (void)?@"NSInputStream">32;
 
 // Remaining properties
-@property(readonly) NEAppPush *appPush;
-@property(readonly) NSString *clientName; // @synthesize clientName=_clientName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool disconnectOnDemandEnabled;
-@property(readonly) NEDNSProxyProviderProtocol *dnsProxyConfiguration;
-@property(readonly) NEDNSSettingsBundle *dnsSettingsBundle;
 @property _Bool enabled;
-@property(readonly) NEFilterProviderConfiguration *filterConfiguration;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isAlwaysOn; // @synthesize isAlwaysOn=_isAlwaysOn;
-@property _Bool onDemandEnabled;
-@property(copy) NSArray *onDemandRules;
-@property _Bool onDemandUserOverrideDisabled;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,9 +7,11 @@
 @class NSData;
 
 @protocol _SFPBFlightDetails
+- (void)tableArray",&,N,V_invitationRecordGUIDsToUpdate;
+- (NSData *)V_synonyms;
+- (id)#;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned long long timestamp;
 @end
 

@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor;
 @protocol _PKColorAlphaSliderDelegate;
 
 @protocol _PKColorAlphaSlider
+- (void)archBarBackgroundColor;
+- (double)?;
+- (double);
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *color;
-@property(nonatomic) long long colorUserInterfaceStyle;
 @property(nonatomic) __weak id <_PKColorAlphaSliderDelegate> delegate;
-@property(nonatomic) double maxAlpha;
-@property(nonatomic) double minAlpha;
 @end
 

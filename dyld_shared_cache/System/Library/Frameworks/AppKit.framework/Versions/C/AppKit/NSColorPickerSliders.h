@@ -6,41 +6,32 @@
 
 #import <AppKit/NSColorPicker.h>
 
-@class NSColorSpaceSliders, NSView;
+@class NSView;
 
 @interface NSColorPickerSliders : NSColorPicker
 {
     id sliderModePopUp;
-    NSView *_slidersView;
-    NSColorSpaceSliders *_greySliders;
-    NSColorSpaceSliders *_rgbSliders;
-    NSColorSpaceSliders *_hsbSliders;
-    NSColorSpaceSliders *_cmykSliders;
-    id currViewObject;
-    id sliderContainer;
-    id colorProfileButton;
-    long long modeMask;
 }
 
 - (_Bool);
+- (void)l size %d;
+- (_Bool)ne_trie_insert;
+- (id);
+- (void);
 - (void);
-- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
+- (id)__connectionTiming;
+- (id)t",&,V_URLAsset;
+- (id)d;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (id)task with identifier %lu because there is no such task;
+- (id)untered write timeout event;
+- (void)$;
 - (void);
 - (long long);
 - (void);
@@ -48,21 +39,17 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (id)s6;
 - (void);
-- (id);
 - (void);
-- (void);
-- (double);
+- (double);
 - (void);
 - (long long);
-- (void);
-- (void)xpression:(id)arg1;
+- (void)of the attributed string length.;
+- (void)visitPredicateExpression:(id)arg1;
 
 // Remaining properties
-@property(retain) NSColorSpaceSliders *cmykSliders; // @synthesize cmykSliders=_cmykSliders;
-@property(retain) NSColorSpaceSliders *greySliders; // @synthesize greySliders=_greySliders;
-@property(retain) NSColorSpaceSliders *hsbSliders; // @synthesize hsbSliders=_hsbSliders;
-@property(retain) NSColorSpaceSliders *rgbSliders; // @synthesize rgbSliders=_rgbSliders;
 @property(retain) NSView *slidersView; // @synthesize slidersView=_slidersView;
 
 @end

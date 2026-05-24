@@ -7,7 +7,6 @@
 @interface NewsUI2.SavedFeedServiceContextFactory
 {
     id dataProvider;
-    id appConfigManager;
 }
 
 @end

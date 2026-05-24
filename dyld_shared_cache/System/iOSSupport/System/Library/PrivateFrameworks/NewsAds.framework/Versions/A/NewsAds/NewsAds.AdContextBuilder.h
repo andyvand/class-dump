@@ -7,9 +7,6 @@
 @interface NewsAds.AdContextBuilder
 {
     id parent;
-    id name;
-    id lock;
-    id dataStack;
 }
 
 @end

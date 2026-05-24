@@ -4,30 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, WFAQIScaleGradient;
+@class NSString;
 
 @interface WFAQIScale
 {
     _Bool _numerical;
-    _Bool _ascending;
-    NSString *_identifier;
-    NSString *_displayName;
-    NSString *_displayLabel;
-    NSArray *_categories;
-    WFAQIScaleGradient *_gradient;
-    struct _NSRange _range;
 }
 
 + (_Bool);
 - (void);
-- (_Bool);
+- (_Bool){_CGLPixelFormatObject=}16@0:(id)arg1 8;
 - (void);
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)!;
 - (id);
 - (struct _NSRange);
 - (id);
@@ -45,14 +38,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=isAscending) _Bool ascending; // @synthesize ascending=_ascending;
-@property(copy, nonatomic) NSArray *categories; // @synthesize categories=_categories;
-@property(copy, nonatomic) NSString *displayLabel; // @synthesize displayLabel=_displayLabel;
-@property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(copy, nonatomic) WFAQIScaleGradient *gradient; // @synthesize gradient=_gradient;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic, getter=isNumerical) _Bool numerical; // @synthesize numerical=_numerical;
-@property(nonatomic) struct _NSRange range; // @synthesize range=_range;
 
 @end
 

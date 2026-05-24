@@ -12,23 +12,20 @@
 @interface SCNAvoidOccluderConstraint : SCNConstraint
 {
     SCNNode *_target;
-    unsigned long long _categoryBitMask;
-    float _offset;
-    id _delegate;
 }
 
 + (id);
-+ (id);
-+ (_Bool);
++ (id)T;
++ (_Bool)mMetadata.js;
 - (void);
 - (unsigned long long);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
+- (void);
 - (id);
 - (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -37,10 +34,7 @@
 - (double);
 
 // Remaining properties
-@property(nonatomic) double bias;
 @property(nonatomic) id <SCNAvoidOccluderConstraintDelegate> delegate;
-@property(nonatomic) unsigned long long occluderCategoryBitMask;
-@property(retain, nonatomic) SCNNode *target;
 
 @end
 

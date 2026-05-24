@@ -9,19 +9,17 @@
 @interface ChatKit.CKTextEffectExplodeConfiguration
 {
     UIColor *sourceColor;
-    UIColor *targetColor;
 }
 
 + (id)¯x°²H³0´@·ºDº;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)B;
 - (void)LegacySendMenuOrderProvider;
 
 // Remaining properties
 @property(nonatomic, readonly) UIColor *sourceColor; // @synthesize sourceColor;
-@property(nonatomic, readonly) UIColor *targetColor; // @synthesize targetColor;
 
 @end
 

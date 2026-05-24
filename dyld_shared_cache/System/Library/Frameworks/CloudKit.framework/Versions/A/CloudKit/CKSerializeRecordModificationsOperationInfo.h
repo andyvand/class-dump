@@ -11,7 +11,6 @@
 @interface CKSerializeRecordModificationsOperationInfo : CKDatabaseOperationInfo
 {
     NSArray *_recordsToSave;
-    NSArray *_recordIDsToDelete;
 }
 
 + (_Bool);
@@ -25,7 +24,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *recordIDsToDelete; // @synthesize recordIDsToDelete=_recordIDsToDelete;
 @property(retain, nonatomic) NSArray *recordsToSave; // @synthesize recordsToSave=_recordsToSave;
 
 @end

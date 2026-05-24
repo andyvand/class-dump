@@ -5,5 +5,8 @@
 //
 
 @protocol UITextDragDelegate
+
+@optional
+- (void);
 @end
 

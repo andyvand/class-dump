@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class C2RequestOptions, NSMutableURLRequest, NSString, NSURLSessionTask;
-
 __attribute__((visibility("hidden")))
 @interface C2WarmRequest
 {
     CDUnknownBlockType _callback;
-    NSMutableURLRequest *_warmRequest;
-    C2RequestOptions *_warmOptions;
-    NSURLSessionTask *_warmTask;
 }
 
 - (id);
@@ -20,35 +15,25 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
+- (void)O0;
 - (void);
 - (void);
+- (void)hasCheckedDefaultHandleCapabilities;
 - (void);
+- (void)pletion"8;
+- (void)RTRoutineManager;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)A;
 - (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (void)Response;
+- (void)kMMCSAuthorizeSimulcastResponse;
 - (void)ler;
 - (void)em_create_FileOpaqueReferenceData must have CFDataRef referenceObject.;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType callback; // @synthesize callback=_callback;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) C2RequestOptions *warmOptions; // @synthesize warmOptions=_warmOptions;
-@property(retain, nonatomic) NSMutableURLRequest *warmRequest; // @synthesize warmRequest=_warmRequest;
-@property(retain, nonatomic) NSURLSessionTask *warmTask; // @synthesize warmTask=_warmTask;
 
 @end
 

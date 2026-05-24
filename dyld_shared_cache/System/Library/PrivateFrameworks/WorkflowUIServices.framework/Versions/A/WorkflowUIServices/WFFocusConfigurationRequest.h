@@ -4,53 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LNAction, LNFocusConfigurationSuggestionContext, LNFullyQualifiedActionIdentifier, NSArray, WFColor, WFContextualAction;
+@class LNAction;
 
 @interface WFFocusConfigurationRequest
 {
     _Bool _showsEnablementButton;
-    _Bool _enabled;
-    unsigned long long _mode;
-    LNFullyQualifiedActionIdentifier *_actionIdentifier;
-    LNAction *_action;
-    LNFocusConfigurationSuggestionContext *_suggestionContext;
-    NSArray *_footerButtons;
-    WFColor *_mastheadTintColor;
-    WFContextualAction *_contextualAction;
 }
 
 + (_Bool);
-- (id);
-- (_Bool);
-- (id);
+- (id)g;
+- (_Bool)T;
+- (id)*T;
 - (void);
 - (id);
+- (id)zg;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)didz;
 - (unsigned long long);
 - (id);
+- (id)ze=dd};
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)sInfo";
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) LNAction *action; // @synthesize action=_action;
-@property(readonly, copy, nonatomic) LNFullyQualifiedActionIdentifier *actionIdentifier; // @synthesize actionIdentifier=_actionIdentifier;
-@property(readonly, nonatomic) WFContextualAction *contextualAction; // @synthesize contextualAction=_contextualAction;
-@property(readonly, nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly, copy, nonatomic) NSArray *footerButtons; // @synthesize footerButtons=_footerButtons;
-@property(readonly, nonatomic) _Bool isValid;
-@property(readonly, copy, nonatomic) WFColor *mastheadTintColor; // @synthesize mastheadTintColor=_mastheadTintColor;
-@property(readonly, nonatomic) unsigned long long mode; // @synthesize mode=_mode;
-@property(readonly, nonatomic) _Bool showsEnablementButton; // @synthesize showsEnablementButton=_showsEnablementButton;
-@property(readonly, copy, nonatomic) LNFocusConfigurationSuggestionContext *suggestionContext; // @synthesize suggestionContext=_suggestionContext;
 
 @end
 

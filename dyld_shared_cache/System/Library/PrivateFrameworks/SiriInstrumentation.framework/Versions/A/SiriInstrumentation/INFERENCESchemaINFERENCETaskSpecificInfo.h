@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class INFERENCESchemaINFERENCELongRunningTaskInfo, NSData;
+@class INFERENCESchemaINFERENCELongRunningTaskInfo;
 
 @interface INFERENCESchemaINFERENCETaskSpecificInfo : SISchemaInstrumentationMessage
 {
     INFERENCESchemaINFERENCELongRunningTaskInfo *_longRunningTaskInfo;
-    _Bool _hasLongRunningTaskInfo;
-    unsigned long long _whichTaskinfo;
 }
 
 - (unsigned long long);
@@ -22,23 +20,20 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id)!,EùÑßÐ1Â0@ù
 × ;
-- (id)BundleIdDomain;
-- (id)etricsAndDims;
+- (id)deleteOnScreenAppBundleIdDomain;
+- (id)PNRODSchemaPnRODSiriMetricsAndDims;
 - (void)¼]óÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLongRunningTaskInfo; // @synthesize hasLongRunningTaskInfo=_hasLongRunningTaskInfo;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) INFERENCESchemaINFERENCELongRunningTaskInfo *longRunningTaskInfo; // @synthesize longRunningTaskInfo=_longRunningTaskInfo;
-@property(readonly, nonatomic) unsigned long long whichTaskinfo; // @synthesize whichTaskinfo=_whichTaskinfo;
 
 @end
 

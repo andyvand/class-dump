@@ -7,10 +7,6 @@
 @interface AppStoreKit.TodayCardMedia
 {
     id kind;
-    id titleBackingGradient;
-    id otdTextStyle;
-    id id;
-    id impressionMetrics;
 }
 
 @end

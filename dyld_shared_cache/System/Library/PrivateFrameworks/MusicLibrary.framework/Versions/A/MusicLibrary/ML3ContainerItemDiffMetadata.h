@@ -4,49 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ML3ContainerItemDiffMetadata
 {
     long long _persistentID;
-    long long _containerPersistentID;
-    long long _itemPersistentID;
-    long long _newPosition;
-    long long _previousPosition;
-    NSString *_uuid;
-    NSString *_positionUUID;
-    NSString *_occurrenceID;
 }
 
-+ (id);
-+ (id);
-- (void);
-- (void);
-- (void);
-- (void);
++ (id)PhotoKitAddService_applyChangesRequest:(long long)arg1 libraryToken:reply: /* Error: Ran out of types for this method. */;
++ (id)erArray",&,N,V_observers;
+- (void)=b8b2b3},N,V_keyStruct;
+- (void)trategy_FilePath_KeyStruct_V1=b8b2b3},N,V_keyStruct;
+- (void)s;
+- (void)mallLibraryThresholdRatio;
+- (long long),N,V_assetPayloadVersion;
+- (id),V_initialUpload;
+- (id)ePerson;
 - (long long);
+- (long long)historyTokenURL;
+- (void)V_cloudResourceInitialMinimumFreeDiskSpaceForOptimizeRatio;
+- (void)valid moments with error:(long long)arg1 %@;
+- (long long)MomentCollectionYearClustering;
+- (void);
+- (long long)ateProfileLevelDict) failed!;
 - (id);
-- (id);
-- (long long);
-- (long long);
-- (void);
-- (void);
-- (long long);
-- (void);
-- (long long);
-- (id);
-- (void)alue;
+- (void)floatValue;
 - (void)ailable_artwork_token IS NULL);
 
 // Remaining properties
-@property(nonatomic) long long containerPersistentID; // @synthesize containerPersistentID=_containerPersistentID;
-@property(nonatomic) long long itemPersistentID; // @synthesize itemPersistentID=_itemPersistentID;
-@property(nonatomic) long long newPosition; // @synthesize newPosition=_newPosition;
-@property(copy, nonatomic) NSString *occurrenceID; // @synthesize occurrenceID=_occurrenceID;
 @property(nonatomic) long long persistentID; // @synthesize persistentID=_persistentID;
-@property(copy, nonatomic) NSString *positionUUID; // @synthesize positionUUID=_positionUUID;
-@property(nonatomic) long long previousPosition; // @synthesize previousPosition=_previousPosition;
-@property(copy, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end
 

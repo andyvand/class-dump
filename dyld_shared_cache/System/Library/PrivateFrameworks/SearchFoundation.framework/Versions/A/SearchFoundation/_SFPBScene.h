@@ -4,39 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface _SFPBScene
 {
     int _sceneType;
-    unsigned long long _sceneIdentifier;
 }
 
 - (void);
 - (int);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (void);
+- (id)sendChangesRequest:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (id)tionStatus:waiting for authorization (%@) /* Error: Ran out of types for this method. */;
+- (void)cts/PhotoKit/Sources/Import/PHImportController.m;
 - (id);
 - (id);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned long long sceneIdentifier; // @synthesize sceneIdentifier=_sceneIdentifier;
-@property(nonatomic) int sceneType; // @synthesize sceneType=_sceneType;
-@property(readonly) Class superclass;
 
 @end
 

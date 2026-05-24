@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKQueryOperation;
+
 @protocol TRISQLiteCKDatabaseDelegate
+- (_Bool)#16@0:(CKQueryOperation *)arg1 8;
+- (_Bool)utput";
 @end
 

@@ -7,11 +7,6 @@
 @interface NewsUI2.FeedPaywallConfigFactory
 {
     id priceToken;
-    id priceDeltaToken;
-    id defaultSubscribeButtonDestination;
-    id configurationManager;
-    id offerOverrideProvider;
-    id offerManager;
 }
 
 @end

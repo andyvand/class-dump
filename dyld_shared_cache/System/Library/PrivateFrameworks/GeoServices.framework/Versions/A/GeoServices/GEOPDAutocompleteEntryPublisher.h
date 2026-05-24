@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDMapsIdentifier, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOPDAutocompleteEntryPublisher
 {
     PBUnknownFields *_unknownFields;
-    GEOPDMapsIdentifier *_publisherId;
 }
 
 + (_Bool)setHasWaypointLocationSource:(id)arg1;
@@ -22,22 +21,20 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)riAudioPlaybackSessionImplAVAudioPlayerBased _stop:(id)arg1 ];
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)count}};
-- (id)ccessInfoFilter;
+- (id)_accessInfoFilter;
 - (id)hÍ²´*Í²T(*¬Í²ì0*ÀÍ²X9*Î²Ø=* Î²h@*DÎ²A*XÎ²0D*Î²DL*¤Î²PP*äÎ²hm*Ï²4o*$Ï²u*8Ï²*LÏ²(*`Ï²h*Ï²<* Ï²ø*´Ï²´*ÈÏ²à*Ð²¥*8Ð²;
 - (id)SELECT data_pk                FROM tiles                WHERE insert_timestamp < @insert_timestamp    ) AND ext_uuid IS NOT NULL;;
 - (void)8;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasPublisherId;
-@property(retain, nonatomic) GEOPDMapsIdentifier *publisherId;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

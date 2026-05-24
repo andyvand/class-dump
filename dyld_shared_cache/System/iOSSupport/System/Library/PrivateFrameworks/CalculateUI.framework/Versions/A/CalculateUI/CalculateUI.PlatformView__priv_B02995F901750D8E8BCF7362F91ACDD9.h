@@ -10,7 +10,7 @@
 
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)@;
 - (id);
 
 // Remaining properties

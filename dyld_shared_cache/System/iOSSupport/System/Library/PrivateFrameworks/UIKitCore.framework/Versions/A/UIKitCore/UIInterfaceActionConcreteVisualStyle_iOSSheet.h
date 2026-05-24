@@ -11,12 +11,12 @@ __attribute__((visibility("hidden")))
 {
 }
 
+- (id)c sync and deviceConditionstoCheck is set to IMCheckNoDeviceConditions, changing it to IMCheckAllDeviceConditions;
+- (struct CGSize)%@;
+- (double)V;
 - (id);
-- (struct CGSize);
-- (double);
 - (id);
-- (id);
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets)A256;
 - (double);
 
 @end

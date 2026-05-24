@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSViewController;
+@class NSViewController;
 
 @interface NSViewControllerPresentationAnimatorObject
 {
     NSViewController *_fromViewController;
-    NSViewController *_toViewController;
-    CDUnknownBlockType _completionHandler;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (id);
 - (CDUnknownBlockType);
 - (id)0@ù
@@ -25,16 +23,7 @@
 - (void)ngPostShareViewController"8@"NSError"16;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain) NSViewController *fromViewController; // @synthesize fromViewController=_fromViewController;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain) NSViewController *toViewController; // @synthesize toViewController=_toViewController;
 
 @end
 

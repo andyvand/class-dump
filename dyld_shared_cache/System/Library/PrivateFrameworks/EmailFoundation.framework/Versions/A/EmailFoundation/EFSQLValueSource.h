@@ -5,15 +5,13 @@
 //
 
 @class NSString;
-@protocol EFSQLValueExpressable;
 
 @interface EFSQLValueSource
 {
     NSString *_tableName;
-    NSString *_selectResultAlias;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -21,8 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *selectResultAlias; // @synthesize selectResultAlias=_selectResultAlias;
-@property(readonly, nonatomic) id <EFSQLValueExpressable> selectResultExpression;
 @property(readonly, nonatomic) NSString *tableName; // @synthesize tableName=_tableName;
 
 @end

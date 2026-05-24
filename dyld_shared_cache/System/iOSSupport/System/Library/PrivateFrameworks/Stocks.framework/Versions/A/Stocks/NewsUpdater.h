@@ -6,17 +6,11 @@
 
 #import <Stocks/YQLRequest.h>
 
-@class Stock, StockNewsItemCollection;
 @protocol NewsUpdaterDelegate;
 
 @interface NewsUpdater : YQLRequest
 {
     id <NewsUpdaterDelegate> _delegate;
-    _Bool _firstLoad;
-    double _lastResponseTimestamp;
-    StockNewsItemCollection *_lastNewsItemCollection;
-    Stock *_stock;
-    CDUnknownBlockType _updateCompletionHandler;
 }
 
 + (id);
@@ -32,7 +26,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)scriptor";
 - (void);
 - (void);
 

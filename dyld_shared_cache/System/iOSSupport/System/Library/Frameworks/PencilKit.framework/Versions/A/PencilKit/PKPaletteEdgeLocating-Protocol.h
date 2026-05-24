@@ -5,9 +5,9 @@
 //
 
 @protocol PKPaletteEdgeLocating
+- (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) unsigned long long cornerLocation;
 @property(nonatomic) unsigned long long edgeLocation;
 @end
 

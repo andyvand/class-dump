@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIView;
+
 @protocol AVVolumeControlsControllerDelegate
+- (UIView *)._p;
+
+@optional
+- (void);
 @end
 

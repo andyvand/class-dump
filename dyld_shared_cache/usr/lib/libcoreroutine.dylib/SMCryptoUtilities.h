@@ -8,13 +8,13 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)viable;
++ (id)salute;
++ (id), needs repair;
++ (id)PCSMigrationEngine;
++ (id)alrus account;
++ (id)metadata keys failure:%@ /* Error: Ran out of types for this method. */;
++ (id)data.;
 + (id);
 
 @end

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDatabase, NSArray;
+@class CKDatabase;
 
 @interface FCCKPrivateDatabaseCKProperties
 {
     CKDatabase *_database;
-    CKDatabase *_databaseWithZoneWidePCS;
-    CKDatabase *_secureDatabase;
-    NSArray *_containers;
 }
 
 - (void)ed request;

@@ -38,7 +38,10 @@ struct __DDResult {
         struct __DDQueryOffset _field1;
         struct __DDQueryOffset _field2;
     } _field2;
-    CDStruct_627e0f85 _field3;
+    struct {
+        long long _field1;
+        long long _field2;
+    } _field3;
     long long _field4;
     struct __CFArray *_field5;
     struct __CFString *_field6;
@@ -64,9 +67,4 @@ struct __DDScanQuery {
 typedef struct {
     unsigned int val[8];
 } CDStruct_4c969caf;
-
-typedef struct {
-    long long location;
-    long long length;
-} CDStruct_627e0f85;
 

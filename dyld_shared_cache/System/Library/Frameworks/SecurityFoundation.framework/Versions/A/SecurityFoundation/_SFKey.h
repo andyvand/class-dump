@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFKeySpecifier;
+@class NSData;
 
 @interface _SFKey
 {
     id _keyInternal;
-    NSData *_keyData;
 }
 
 + (Class);
@@ -25,8 +24,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *keyData; // @synthesize keyData=_keyData;
-@property(readonly, copy, nonatomic) NSString *keyDomain;
-@property(readonly, copy, nonatomic) _SFKeySpecifier *keySpecifier;
 
 @end
 

@@ -4,29 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOLogMsgEventPressureData
 {
     PBUnknownFields *_unknownFields;
-    NSData *_pressureData;
 }
 
-+ (_Bool)hargeDiff:(id)arg1;
++ (_Bool)setHasStateOfChargeDiff:(id)arg1;
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)o;
 - (void);
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)_deviceDescriptor;
 - (_Bool);
 - (void);
-- (id)teSet:(struct _NSZone *)arg1;
+- (id)setTransitFavoriteSet:(struct _NSZone *)arg1;
 - (id)PThirdPartyPhotoSharingPreferenceUpdate",&,N;
 - (id)write analytic data of size %llu;
 - (id);
@@ -35,8 +34,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasPressureData;
-@property(retain, nonatomic) NSData *pressureData;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

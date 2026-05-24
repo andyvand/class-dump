@@ -12,12 +12,12 @@
 {
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (void)could not be performed because a dispatcher does not have an implementation for the intent. Did you forget to register the implementation in your Swift or JavaScript code?;
+- (void)onRequest;
+- (id)missing from global object;
+- (id)to daemon to retrieve asset with url:(id)arg1;
+- (_Bool)nce has become invalid;
+- (id)ontHeader` field, no active account.;
 - (void);
 - (void);
 - (void);
@@ -35,12 +35,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *appIdentifier; // @dynamic appIdentifier;
-@property(retain, nonatomic) NSString *campaignToken; // @dynamic campaignToken;
-@property(retain, nonatomic) NSString *customProductPageIdentifier;
-@property(retain, nonatomic) NSString *latestReleaseID;
-@property(nonatomic) long long position; // @dynamic position;
-@property(retain, nonatomic) NSString *providerToken;
-@property(nonatomic) _Bool userDismissible; // @dynamic userDismissible;
 
 @end
 

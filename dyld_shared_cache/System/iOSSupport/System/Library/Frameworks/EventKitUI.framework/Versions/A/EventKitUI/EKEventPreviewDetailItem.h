@@ -6,42 +6,35 @@
 
 #import <EventKitUI/EKEventDetailItem.h>
 
-@class CUIKCalendarModel, EKDayPreviewController, NSDate, UITableViewCell;
+@class UITableViewCell;
 
 __attribute__((visibility("hidden")))
 @interface EKEventPreviewDetailItem : EKEventDetailItem
 {
     UITableViewCell *_cell;
-    EKDayPreviewController *_containedDayViewController;
-    CUIKCalendarModel *_model;
-    _Bool _inlineDayViewRespectsSelectedCalendarsFilter;
-    _Bool _hideBottomSeparator;
-    NSDate *_proposedTime;
 }
 
 - (void);
-- (void);
-- (id);
+- (void)V	L;
+- (id);
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)sharedAccountsStorefrontConfig;
 - (void);
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (void);
-- (id);
+- (void)_TtC9TeaCharts38LineSeriesAccessibilityElementProvider;
+- (id)textView:(struct CGRect)arg1 completions:(unsigned long long)arg2 forPartialWordRange:indexOfSelectedItem: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool);
 - (double);
-- (void)eDashPhase: /* Error: Ran out of types for this method. */;
+- (void)setLineDashPhase: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool hideBottomSeparator; // @synthesize hideBottomSeparator=_hideBottomSeparator;
 @property(nonatomic) _Bool inlineDayViewRespectsSelectedCalendarsFilter; // @synthesize inlineDayViewRespectsSelectedCalendarsFilter=_inlineDayViewRespectsSelectedCalendarsFilter;
-@property(retain, nonatomic) NSDate *proposedTime; // @synthesize proposedTime=_proposedTime;
 
 @end
 

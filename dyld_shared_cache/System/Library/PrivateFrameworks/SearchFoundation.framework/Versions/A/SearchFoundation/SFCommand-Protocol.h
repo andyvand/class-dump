@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, SFCommandReference, SFTopic;
+@class NSString;
 
 @protocol SFCommand
 
 // Remaining properties
-@property(copy, nonatomic) NSData *backendData;
 @property(copy, nonatomic) NSString *commandDetail;
-@property(retain, nonatomic) SFCommandReference *commandReference;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFTopic *normalizedTopic;
 @end
 

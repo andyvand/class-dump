@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ORCHSchemaORCHExecuteOnRemoteRequestEnded, ORCHSchemaORCHExecuteOnRemoteRequestFailed, ORCHSchemaORCHExecuteOnRemoteRequestStarted, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ORCHSchemaORCHExecuteOnRemoteRequestContext : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_contextId;
-    ORCHSchemaORCHExecuteOnRemoteRequestStarted *_startedOrChanged;
-    ORCHSchemaORCHExecuteOnRemoteRequestEnded *_ended;
-    ORCHSchemaORCHExecuteOnRemoteRequestFailed *_failed;
-    _Bool _hasContextId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichCommandevent;
 }
 
 - (unsigned long long);
@@ -49,7 +41,7 @@
 - (id);
 - (id)!EùÞÐ1Â0@ù
 × ;
-- (id)esult;
+- (id)_audioFileResult;
 - (id)xt;
 - (void)actionResolverRequestCreated.resolvedParameters.parameters.candidate.value.collection.values.query.typeIdentifier.custom.bundleId;
 - (void)Ö°$;
@@ -57,15 +49,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *contextId; // @synthesize contextId=_contextId;
-@property(retain, nonatomic) ORCHSchemaORCHExecuteOnRemoteRequestEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) ORCHSchemaORCHExecuteOnRemoteRequestFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasContextId; // @synthesize hasContextId=_hasContextId;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) ORCHSchemaORCHExecuteOnRemoteRequestStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichCommandevent; // @synthesize whichCommandevent=_whichCommandevent;
 
 @end
 

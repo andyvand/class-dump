@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFBulletinTimeSpecificationDatabaseID, NSDate;
+@class NSDate;
 @protocol MKFTimePeriodBulletinCondition;
 
 @protocol MKFBulletinTimeSpecification
+- (void);
+- (id <MKFTimePeriodBulletinCondition>)hasLocationDisplayString;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFBulletinTimeSpecificationDatabaseID *databaseID;
-@property(retain, nonatomic) id <MKFTimePeriodBulletinCondition> endCondition;
-@property(retain, nonatomic) id <MKFTimePeriodBulletinCondition> startCondition;
 @property(copy, nonatomic) NSDate *writerTimestamp;
 @end
 

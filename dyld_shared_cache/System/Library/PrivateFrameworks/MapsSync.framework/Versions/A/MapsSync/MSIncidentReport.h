@@ -11,27 +11,23 @@
 @interface MSIncidentReport : MapsSync.MapsSyncObject
 {
     id _countryCode;
-    id _positionIndex;
-    id _type;
 }
 
 + (Class);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)Ӊ;
 - (void);
 - (long long);
 - (short);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic, copy) NSString *countryCode;
-@property(nonatomic) long long positionIndex;
-@property(nonatomic) short type;
 
 @end
 

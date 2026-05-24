@@ -11,10 +11,6 @@
 @interface ICLinkUIModel : ICInlineAttachmentUIModel
 {
     NSString *paragraphStyleAttributeName;
-    NSString *foregroundColorAttributeName;
-    NSString *ttforegroundColorAttributeName;
-    NSString *ttEmphasisAttributeName;
-    NSString *ttAttributeNameDerivedAuthorHighlight;
 }
 
 - (id);
@@ -27,17 +23,12 @@
 - (id);
 - (id);
 - (id);
+- (id)entHandler";
 - (id);
-- (id);
-- (void);
+- (void)drawing;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *foregroundColorAttributeName; // @synthesize foregroundColorAttributeName;
 @property(nonatomic, readonly) NSColor *labelColor;
-@property(nonatomic, readonly) NSString *paragraphStyleAttributeName; // @synthesize paragraphStyleAttributeName;
-@property(nonatomic, readonly) NSString *ttAttributeNameDerivedAuthorHighlight; // @synthesize ttAttributeNameDerivedAuthorHighlight;
-@property(nonatomic, readonly) NSString *ttEmphasisAttributeName; // @synthesize ttEmphasisAttributeName;
-@property(nonatomic, readonly) NSString *ttforegroundColorAttributeName; // @synthesize ttforegroundColorAttributeName;
 
 @end
 

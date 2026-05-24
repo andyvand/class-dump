@@ -15,12 +15,12 @@
 
 + (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id)bscribedTopicsScoreCoefficient;
-- (void)ineFeedScoringConfig;
+- (void)newspaperMagazineFeedScoringConfig;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *personalizationVector; // @synthesize personalizationVector=_personalizationVector;

@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface _INPBIntentSupport
 {
     struct _has;
-    NSArray *_intentsRestrictedWhileLockeds;
-    NSArray *_intentsSupporteds;
-    NSArray *_supportedMediaCategories;
 }
 
-+ (Class);
++ (Class);
 + (Class);
 + (_Bool);
 - (unsigned long long);
@@ -31,34 +28,23 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)j;
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)onInImage:APM setting finalGap to %qd
+ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void)IntentResponseParameterMetadataTrueDisplayNameID;
+- (void)INIntentResponseParameterMetadataTrueDisplayNameID;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSArray *intentsRestrictedWhileLockeds; // @synthesize intentsRestrictedWhileLockeds=_intentsRestrictedWhileLockeds;
-@property(readonly, nonatomic) unsigned long long intentsRestrictedWhileLockedsCount;
-@property(copy, nonatomic) NSArray *intentsSupporteds; // @synthesize intentsSupporteds=_intentsSupporteds;
-@property(readonly, nonatomic) unsigned long long intentsSupportedsCount;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *supportedMediaCategories; // @synthesize supportedMediaCategories=_supportedMediaCategories;
-@property(readonly, nonatomic) unsigned long long supportedMediaCategoriesCount;
 
 @end
 

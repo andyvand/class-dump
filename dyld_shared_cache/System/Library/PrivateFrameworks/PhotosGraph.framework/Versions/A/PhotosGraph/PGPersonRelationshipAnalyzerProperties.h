@@ -7,30 +7,6 @@
 @interface PGPersonRelationshipAnalyzerProperties
 {
     _Bool _hasParentContactName;
-    _Bool _hasSameFamilyNameAsMePerson;
-    _Bool _hasAnniversaryDate;
-    _Bool _isTopTwoPersonSocialGroup;
-    _Bool _isTopPerson;
-    _Bool _personAgeDifferentThanMeNode;
-    _Bool _personInferredToBeChild;
-    _Bool _personOldEnoughToBeMeNodeParentOrGrandparent;
-    _Bool _personInferredToBeMeNodeChild;
-    double _oneOnOneTripAttendanceRatio;
-    double _tripAttendanceRatio;
-    double _familyHolidayAttendanceRatio;
-    unsigned long long _numberOfMomentsAtHome;
-    double _ratioOfOfMomentsAtHome;
-    unsigned long long _numberOfLoveEmojisExchanged;
-    double _friendNightOutAttendanceRatio;
-    double _weekendAppearanceRatio;
-    double _calendarEventAttendanceRatio;
-    double _momentsAtWorkAppearancesRatio;
-    double _partnerScore;
-    double _familyScore;
-    double _parentScore;
-    double _friendScore;
-    double _coworkerScore;
-    double _childScore;
 }
 
 - (double);
@@ -41,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -82,17 +58,17 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (double);
-- (double);
-- (double);
-- (double);
-- (id);
-- (double);
-- (double);
-- (double);
+- (_Bool)_insertEmptyRowIntoColumns:atIndex: /* Error: Ran out of types for this method. */;
+- (_Bool)_inputMarkingSessionActive;
+- (_Bool)fo: /* Error: Ran out of types for this method. */;
+- (double)_currentReadingElement;
+- (double)_currentLineContent;
+- (double)ring",C,N,V_deletionCandidateText;
+- (double)election;
+- (id)AXKElementBasedTextProvider;
+- (double)o arguments. This is not supported.;
+- (double)n/LibCallBlock.c;
+- (double)?0@"AXKElementController"8;
 - (void);
 - (void);
 - (void);
@@ -101,33 +77,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) double calendarEventAttendanceRatio; // @synthesize calendarEventAttendanceRatio=_calendarEventAttendanceRatio;
-@property(readonly, nonatomic) double childScore; // @synthesize childScore=_childScore;
-@property(readonly, nonatomic) double coworkerScore; // @synthesize coworkerScore=_coworkerScore;
 @property(nonatomic) double familyHolidayAttendanceRatio; // @synthesize familyHolidayAttendanceRatio=_familyHolidayAttendanceRatio;
-@property(readonly, nonatomic) double familyScore; // @synthesize familyScore=_familyScore;
-@property(nonatomic) double friendNightOutAttendanceRatio; // @synthesize friendNightOutAttendanceRatio=_friendNightOutAttendanceRatio;
-@property(readonly, nonatomic) double friendScore; // @synthesize friendScore=_friendScore;
-@property(nonatomic) _Bool hasAnniversaryDate; // @synthesize hasAnniversaryDate=_hasAnniversaryDate;
-@property(nonatomic) _Bool hasParentContactName; // @synthesize hasParentContactName=_hasParentContactName;
-@property(nonatomic) _Bool hasSameFamilyNameAsMePerson; // @synthesize hasSameFamilyNameAsMePerson=_hasSameFamilyNameAsMePerson;
-@property(readonly, nonatomic) _Bool isInferredHighRecallChild;
-@property(readonly, nonatomic) _Bool isInferredHighRecallHouseholdMember;
-@property(nonatomic) _Bool isTopPerson; // @synthesize isTopPerson=_isTopPerson;
-@property(nonatomic) _Bool isTopTwoPersonSocialGroup; // @synthesize isTopTwoPersonSocialGroup=_isTopTwoPersonSocialGroup;
-@property(nonatomic) double momentsAtWorkAppearancesRatio; // @synthesize momentsAtWorkAppearancesRatio=_momentsAtWorkAppearancesRatio;
-@property(nonatomic) unsigned long long numberOfLoveEmojisExchanged; // @synthesize numberOfLoveEmojisExchanged=_numberOfLoveEmojisExchanged;
-@property(nonatomic) unsigned long long numberOfMomentsAtHome; // @synthesize numberOfMomentsAtHome=_numberOfMomentsAtHome;
-@property(nonatomic) double oneOnOneTripAttendanceRatio; // @synthesize oneOnOneTripAttendanceRatio=_oneOnOneTripAttendanceRatio;
-@property(readonly, nonatomic) double parentScore; // @synthesize parentScore=_parentScore;
-@property(readonly, nonatomic) double partnerScore; // @synthesize partnerScore=_partnerScore;
-@property(nonatomic) _Bool personAgeDifferentThanMeNode; // @synthesize personAgeDifferentThanMeNode=_personAgeDifferentThanMeNode;
-@property(nonatomic) _Bool personInferredToBeChild; // @synthesize personInferredToBeChild=_personInferredToBeChild;
-@property(nonatomic) _Bool personInferredToBeMeNodeChild; // @synthesize personInferredToBeMeNodeChild=_personInferredToBeMeNodeChild;
-@property(nonatomic) _Bool personOldEnoughToBeMeNodeParentOrGrandparent; // @synthesize personOldEnoughToBeMeNodeParentOrGrandparent=_personOldEnoughToBeMeNodeParentOrGrandparent;
-@property(nonatomic) double ratioOfOfMomentsAtHome; // @synthesize ratioOfOfMomentsAtHome=_ratioOfOfMomentsAtHome;
-@property(nonatomic) double tripAttendanceRatio; // @synthesize tripAttendanceRatio=_tripAttendanceRatio;
-@property(nonatomic) double weekendAppearanceRatio; // @synthesize weekendAppearanceRatio=_weekendAppearanceRatio;
 
 @end
 

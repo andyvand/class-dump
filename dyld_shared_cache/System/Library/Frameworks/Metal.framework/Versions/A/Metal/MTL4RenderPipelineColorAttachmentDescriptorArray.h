@@ -12,8 +12,8 @@
 }
 
 - (id *);
-- (void);
-- (void);
+- (void)itWithImageTextureProvider:width:height:format:colorSpace:options:] /* Error: Ran out of types for this method. */;
+- (void)s"@�)\@9*;
 - (id);
 - (unsigned long long);
 - (_Bool);

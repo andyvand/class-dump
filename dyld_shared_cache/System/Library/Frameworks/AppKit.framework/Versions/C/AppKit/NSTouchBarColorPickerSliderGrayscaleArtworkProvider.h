@@ -11,12 +11,12 @@ __attribute__((visibility("hidden")))
 {
 }
 
+- (double)IsComputeNode;
+- (void)DeviceDisablesAODByDefault;
+- (id)APeknA55ZAcu0FcufqVN4Q;
 - (double);
-- (void);
 - (id);
-- (double);
-- (id);
-- (id);
+- (id)ed;
 - (_Bool);
 
 @end

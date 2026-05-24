@@ -7,17 +7,15 @@
 @interface MediaPlaybackCore.PodcastsPlayActivityFeedConsumer
 {
     id playbackEngine;
-    id subscription;
-    id workQueue;
 }
 
 + (void);
 + (unsigned int);
 + (void);
-+ (id);
++ (id);
+- (void)__objc_catlist;
 - (void);
-- (void);
-- (void);
+- (void)(;
 - (id);
 - (void)odings (decode):route UID decoding table /* Error: Ran out of types for this method. */;
 

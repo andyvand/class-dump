@@ -9,7 +9,7 @@
 }
 
 + (_Bool);
-+ (_Bool);
++ (_Bool)$P;
 + (_Bool);
 + (_Bool);
 

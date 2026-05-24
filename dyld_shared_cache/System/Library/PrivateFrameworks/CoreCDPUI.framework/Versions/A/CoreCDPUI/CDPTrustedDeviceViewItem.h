@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImageView, NSTextField;
+@class NSTextField;
 
 @interface CDPTrustedDeviceViewItem
 {
     _Bool _hideSelectedState;
-    NSTextField *_mainTextField;
-    NSTextField *_subTextField;
-    NSImageView *_mainImageView;
 }
 
 + (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)/;
 - (void);
 - (void);
 - (id);
@@ -27,11 +24,7 @@
 - (void);
 
 // Remaining properties
-@property _Bool hideSelectedState; // @synthesize hideSelectedState=_hideSelectedState;
-@property NSImageView *mainImageView; // @synthesize mainImageView=_mainImageView;
 @property NSTextField *mainTextField; // @synthesize mainTextField=_mainTextField;
-@property(readonly) _Bool shouldDrawSelected;
-@property NSTextField *subTextField; // @synthesize subTextField=_subTextField;
 
 @end
 

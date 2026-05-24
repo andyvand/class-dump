@@ -7,7 +7,7 @@
 @interface UnknownClass (NSAppKitTranslations)
 + (id);
 + (id);
-+ (id);
++ (id)@;
 + (id);
 - (void);
 @end

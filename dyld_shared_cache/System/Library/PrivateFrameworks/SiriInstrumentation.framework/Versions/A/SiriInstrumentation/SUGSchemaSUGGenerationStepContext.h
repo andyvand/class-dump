@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SUGSchemaSUGGenerationStepEnded, SUGSchemaSUGGenerationStepStarted;
+@class SUGSchemaSUGGenerationStepStarted;
 
 @interface SUGSchemaSUGGenerationStepContext : SISchemaInstrumentationMessage
 {
     SUGSchemaSUGGenerationStepStarted *_startedOrChanged;
-    SUGSchemaSUGGenerationStepEnded *_ended;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -31,22 +27,17 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)<v@?@"<ASDPurchaseServiceProtocol><NSXPCProxyCreating>"@"NSError">16;
+- (_Bool)isLocalToWindow;
+- (_Bool)LT 0;
 - (id);
 - (id);
-- (id)textsFetched;
-- (id)sToolboxSizeReported;
-- (void)vailabilityFromBootDigestReported;
+- (id)deleteNumDeviceContextsFetched;
+- (id)_hasToolboxSizeReported;
+- (void)assetAvailabilityFromBootDigestReported;
 
 // Remaining properties
-@property(retain, nonatomic) SUGSchemaSUGGenerationStepEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SUGSchemaSUGGenerationStepStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

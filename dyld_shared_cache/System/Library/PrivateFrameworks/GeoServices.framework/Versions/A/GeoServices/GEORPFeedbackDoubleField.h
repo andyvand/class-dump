@@ -7,18 +7,16 @@
 @interface GEORPFeedbackDoubleField
 {
     double _edited;
-    double _original;
-    CDStruct_ccf110de _flags;
 }
 
-+ (_Bool)sitedToWalking:(id)arg1;
++ (_Bool)setIsTransitedToWalking:(id)arg1;
 - (void);
-- (void);
+- (void)initWithContactIdentifiers:(_Bool)arg1 groupIdentifiers:containerIdentifiers:infoIdentifiers:multivalueIdentifiers: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)=;
 - (double);
 - (void);
-- (void);
+- (void)ontext:(double)arg1 error:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -30,15 +28,12 @@
 - (void);
 - (id)distance"b1"has_heading"b1"has_pitch"b1"read_unknownFields"b1"read_targetPoint"b1"read_viewTargetBounds"b1"wrote_anyField"b1};
 - (double)"GEOPDTextItemContainer";
-- (id)e;
+- (id)advisoryCardType;
 - (id)¬°;
-- (id)rs;
+- (id)preferred_for_multiple_maneuvers;
 
 // Remaining properties
-@property(nonatomic) double edited;
-@property(nonatomic) _Bool hasEdited;
 @property(nonatomic) _Bool hasOriginal;
-@property(nonatomic) double original;
 
 @end
 

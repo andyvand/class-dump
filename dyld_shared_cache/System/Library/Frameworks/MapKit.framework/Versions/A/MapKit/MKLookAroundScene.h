@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOCameraFrame, GEOMuninViewState, MKMapItem;
-
 @interface MKLookAroundScene
 {
     _Bool _wantsCloseUpView;
-    unsigned long long _type;
-    GEOCameraFrame *_cameraFrameOverride;
-    GEOMuninViewState *_muninViewState;
-    MKMapItem *_mapItem;
 }
 
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)%@ as exception for type %@;
+- (id)y;
+- (id)ing",C,N,V_databaseDirectory;
 - (id);
 - (id);
 - (unsigned long long)Ô¡ñ&!ÌGùÑ*°1Â0@ù
@@ -29,11 +23,7 @@
 - (void)initExcludingCategories: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=_cameraFrameOverride) GEOCameraFrame *cameraFrameOverride; // @synthesize cameraFrameOverride=_cameraFrameOverride;
-@property(readonly, nonatomic, getter=_mapItem) MKMapItem *mapItem; // @synthesize mapItem=_mapItem;
-@property(readonly, nonatomic, getter=_muninViewState) GEOMuninViewState *muninViewState; // @synthesize muninViewState=_muninViewState;
 @property(readonly, nonatomic, getter=_type) unsigned long long type; // @synthesize type=_type;
-@property(nonatomic, getter=_wantsCloseUpView, setter=_setWantsCloseUpView:) _Bool wantsCloseUpView; // @synthesize wantsCloseUpView=_wantsCloseUpView;
 
 @end
 

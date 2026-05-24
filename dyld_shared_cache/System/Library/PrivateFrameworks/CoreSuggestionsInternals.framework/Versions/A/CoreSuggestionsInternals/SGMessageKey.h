@@ -9,13 +9,12 @@
 @interface SGMessageKey
 {
     NSString *_uniqueIdentifier;
-    NSString *_source;
 }
 
 + (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)_lp_hasCaseInsensitiveSubstring:(id)arg1 startingAt:(id)arg2;
+- (id)stringByAppendingPathComponent:(id)arg1;
 - (id);
 - (id);
 - (id);
@@ -26,14 +25,6 @@
 - (void)ÈÍüÍÌÎ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *source; // @synthesize source=_source;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSString *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end

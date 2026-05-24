@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXComponentDependencyDescriptor;
+@class NSString;
 
 @interface SXComponentDependency
 {
     NSString *_fromComponentIdentifier;
-    NSString *_toComponentIdentifier;
-    long long _fromDependencyAttribute;
-    long long _toDependencyAttribute;
-    SXComponentDependencyDescriptor *_descriptor;
 }
 
 - (id);

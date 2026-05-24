@@ -7,19 +7,14 @@
 @class UIImage, UIView;
 
 @protocol CNCardTransitioning
+- (UIImage *);
+- (struct CGRect)8H;
 - (struct CGRect)elegate:%{public}@ /* Error: Ran out of types for this method. */;
-- (UIView *);
+
+@optional
+- (UIView *);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect transitioningContentFrame;
-@property(readonly, nonatomic) UIView *transitioningContentView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIView",?,R,N
-
-@property(readonly, nonatomic) struct CGRect transitioningFrame;
-@property(readonly, nonatomic) UIImage *transitioningImage;
-@property(readonly, nonatomic) struct CGRect transitioningImageFrame;
-@property _Bool transitioningImageVisible;
 @property(readonly, nonatomic) UIView *transitioningView;
 @end
 

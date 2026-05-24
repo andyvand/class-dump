@@ -6,18 +6,11 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class ACAccount, ACAccountStore, AMSProcessInfo, AMSURLRequestEncoder, AMSURLSession, NSString;
-@protocol AMSBagProtocol;
+@class ACAccount, AMSURLSession;
 
 @interface AMSAccountDeviceInfoTask : AMSTask
 {
     ACAccount *_account;
-    id <AMSBagProtocol> _bag;
-    AMSProcessInfo *_clientInfo;
-    AMSURLSession *_session;
-    AMSURLRequestEncoder *_requestEncoder;
-    NSString *_serialNumber;
-    ACAccountStore *_accountStore;
 }
 
 + (id)7h¹cvNèÏ#/ ´em9}áfC<ô¿'¦7ôsXò[¢.×l³f4m·bÊðêtÐÒ=?¶FR¾Y8¥½òjf-PX3';K¯üºAicÕ2Z-1ón2-j¢lÓDÞÃB@7ÃÒ¢6zDøâçyÌm£U øm¯ÝØ-bÄ\K7¿eão­©Cxy­¦½(¡ÍVÔÙq´¤îKÂ[ïK|þ¨ôQBWDª6L<C1LÑåÈ?Í\8ÓMØÖt_Fð¢D=ªQÝ#É¨N1¯Ú¬<lG¥ÒUwù¶W×-&âÇÃcR´U3F$à	Å"ôÍmC.òztBù.!?tobóA¡±Eh¾·çL`ò¼sç×V¿n×¦±³ÄÿÉa]nÎxK7ÃA¶ºtÀ¾UbîO¡Ã8Ué§9szfnø¥p¶ÑÏðjWç; ÿaSÖ£Ä/~Àè{ø}Ié²YöÊ±*Ð¦éèqÃHËpgÌ¯r0è°[¹ÅuÉÌvR¹u:ÈrR²Õ½äÊ?ÓIÿE¯mp7
@@ -30,7 +23,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)%@;
 - (id);
 - (id);
 - (void);
@@ -48,20 +41,7 @@ K;n$+;	jëÔ<z{b;ºoUáxÿ:\!½j?JQEBU0ï*¦ÝQ}9¨³ü3ÑJ
 K$@<xVH+zò;
 
 // Remaining properties
-@property(readonly) ACAccount *account; // @synthesize account=_account;
-@property(retain) ACAccountStore *accountStore; // @synthesize accountStore=_accountStore;
-@property(readonly) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(retain) AMSProcessInfo *clientInfo; // @synthesize clientInfo=_clientInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) AMSURLRequestEncoder *requestEncoder; // @synthesize requestEncoder=_requestEncoder;
-@property(retain) NSString *serialNumber; // @synthesize serialNumber=_serialNumber;
 @property(retain) AMSURLSession *session; // @synthesize session=_session;
-@property(readonly) Class superclass;
 
 @end
 

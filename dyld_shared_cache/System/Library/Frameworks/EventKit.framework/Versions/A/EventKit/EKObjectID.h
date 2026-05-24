@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADObjectID, NSDictionary, NSString, NSURL;
+@class NSString;
 
 @interface EKObjectID
 {
     _Bool _temporary;
-    int _entityType;
-    int _rowID;
-    int _databaseID;
 }
 
++ (id);
 + (id);
 + (id);
 + (id);
@@ -21,11 +19,10 @@
 + (id);
 + (id);
 + (id);
++ (id)ailed to fetch the invitation REMList object:(int)arg1 {listID:(int)arg2 %{public}@, extID:(int)arg3 %@, account:%@} /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (_Bool);
++ (_Bool)WebKitAuthorAndUserStylesEnabledPreferenceKey;
 - (id);
 - (id);
 - (id);
@@ -42,21 +39,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id) ;
 - (int);
 - (id)Enumeration attempt for events that were fetched is complete.  Predicate:[%@] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) CADObjectID *CADObjectID;
-@property(readonly, nonatomic) NSURL *URIRepresentation;
-@property(readonly, nonatomic) int databaseID; // @synthesize databaseID=_databaseID;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(readonly, nonatomic) NSString *entityName;
-@property(readonly, nonatomic) long long entityType;
-@property(readonly, nonatomic) _Bool isTemporary;
-@property(readonly, nonatomic) _Bool isVirtual;
-@property(readonly, nonatomic) int rowID;
-@property(readonly, nonatomic) NSString *stringRepresentation;
 
 @end
 

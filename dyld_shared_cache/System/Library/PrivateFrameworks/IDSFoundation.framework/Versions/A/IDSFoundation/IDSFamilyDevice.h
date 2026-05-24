@@ -9,11 +9,6 @@
 @interface IDSFamilyDevice
 {
     NSString *_ownerHandle;
-    NSString *_deviceName;
-    long long _deviceType;
-    NSString *_deviceColor;
-    NSString *_buildVersion;
-    NSString *_deviceUniqueID;
 }
 
 - (void);
@@ -24,7 +19,7 @@
 - (void);
 - (id);
 - (id);
-- (long long);
+- (long long)b;
 - (id)et",&,N,V_opportunisticTopics;
 - (void)/Caches/com.apple.xbs/TemporaryDirectory.f61k3U/Sources/IdentityServices_legacy/IDSFoundation/IDSTCPLink.m;
 - (id)e pair %@.;
@@ -34,11 +29,6 @@
 - (void)q;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *buildVersion; // @synthesize buildVersion=_buildVersion;
-@property(retain, nonatomic) NSString *deviceColor; // @synthesize deviceColor=_deviceColor;
-@property(retain, nonatomic) NSString *deviceName; // @synthesize deviceName=_deviceName;
-@property(nonatomic) long long deviceType; // @synthesize deviceType=_deviceType;
-@property(retain, nonatomic) NSString *deviceUniqueID; // @synthesize deviceUniqueID=_deviceUniqueID;
 @property(retain, nonatomic) NSString *ownerHandle; // @synthesize ownerHandle=_ownerHandle;
 
 @end

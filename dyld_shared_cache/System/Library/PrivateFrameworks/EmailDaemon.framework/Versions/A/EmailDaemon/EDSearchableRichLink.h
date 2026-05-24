@@ -14,7 +14,7 @@
 + (id);
 - (id);
 - (void);
-- (id);
+- (id)UsoTaskBuilder_noVerb_common_JournalEntry;
 - (void)preparing statement for query %@;
 
 @end

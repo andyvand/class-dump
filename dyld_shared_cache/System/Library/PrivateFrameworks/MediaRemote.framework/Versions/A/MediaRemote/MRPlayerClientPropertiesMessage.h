@@ -6,20 +6,19 @@
 
 #import <MediaRemote/MRProtocolMessage.h>
 
-@class MRPlayerPath, NSDate;
+@class NSDate;
 
 @interface MRPlayerClientPropertiesMessage : MRProtocolMessage
 {
 }
 
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *lastPlayingDate;
-@property(readonly, nonatomic) MRPlayerPath *playerPath;
 
 @end
 

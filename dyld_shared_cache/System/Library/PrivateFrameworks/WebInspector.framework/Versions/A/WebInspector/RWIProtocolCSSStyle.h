@@ -6,7 +6,7 @@
 
 #import <WebInspector/RWIProtocolJSONObject.h>
 
-@class NSArray, NSString, RWIProtocolCSSSourceRange, RWIProtocolCSSStyleId;
+@class NSArray;
 
 @interface RWIProtocolCSSStyle : RWIProtocolJSONObject
 {
@@ -14,28 +14,22 @@
 
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (id);
+- (void)	;
+- (id)߈h;
+- (id);
+- (id);
+- (id)J;
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)4;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *cssProperties;
-@property(copy, nonatomic) NSString *cssText;
-@property(copy, nonatomic) NSString *height;
-@property(retain, nonatomic) RWIProtocolCSSSourceRange *range;
-@property(copy, nonatomic) NSArray *shorthandEntries;
-@property(retain, nonatomic) RWIProtocolCSSStyleId *styleId;
-@property(copy, nonatomic) NSString *width;
 
 @end
 

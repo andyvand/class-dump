@@ -7,41 +7,30 @@
 @interface _CDPModelTuningState
 {
     int _i;
-    int _j;
-    float _bestLogLambda;
-    float _bestW0;
-    float _bestScore;
-    float _bestThreshold;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)A;
 - (void);
-- (void);
+- (void)`n;
 - (void);
 - (void);
 - (void);
 - (float);
 - (float);
 - (float);
-- (int);
-- (int);
+- (int)O;
+- (int)E;
 - (id);
 - (id);
 - (float);
-- (void);
-- (id);
+- (void)w;
+- (id);
 - (void);
 - (float);
 
 // Remaining properties
-@property(nonatomic) float bestLogLambda; // @synthesize bestLogLambda=_bestLogLambda;
-@property(nonatomic) float bestScore; // @synthesize bestScore=_bestScore;
-@property(nonatomic) float bestThreshold; // @synthesize bestThreshold=_bestThreshold;
-@property(nonatomic) float bestW0; // @synthesize bestW0=_bestW0;
 @property(nonatomic) int i; // @synthesize i=_i;
-@property(nonatomic) int j; // @synthesize j=_j;
-@property(readonly, nonatomic) float progress;
 
 @end
 

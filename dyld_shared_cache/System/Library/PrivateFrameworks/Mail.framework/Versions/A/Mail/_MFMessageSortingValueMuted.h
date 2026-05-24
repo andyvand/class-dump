@@ -13,7 +13,7 @@
 
 - (void);
 - (unsigned long long);
-- (id);
+- (id)selectSentence: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) unsigned long long conversationFlags; // @synthesize conversationFlags=_conversationFlags;

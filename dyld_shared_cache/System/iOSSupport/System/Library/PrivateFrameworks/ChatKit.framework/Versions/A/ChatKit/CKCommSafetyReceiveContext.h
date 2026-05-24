@@ -10,20 +10,18 @@ __attribute__((visibility("hidden")))
 @interface CKCommSafetyReceiveContext
 {
     _Bool _shouldTargetAssociatedMessages;
-    NSIndexPath *_indexPath;
 }
 
 + (id);
 + (id);
 + (id);
 - (_Bool);
-- (id);
+- (id)object:(id)arg1 %@;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSIndexPath *indexPath; // @synthesize indexPath=_indexPath;
-@property(readonly, nonatomic) _Bool shouldTargetAssociatedMessages; // @synthesize shouldTargetAssociatedMessages=_shouldTargetAssociatedMessages;
 
 @end
 

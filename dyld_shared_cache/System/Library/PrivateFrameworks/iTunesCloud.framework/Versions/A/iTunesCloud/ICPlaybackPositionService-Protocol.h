@@ -5,5 +5,6 @@
 //
 
 @protocol ICPlaybackPositionService
+- (void);
 @end
 

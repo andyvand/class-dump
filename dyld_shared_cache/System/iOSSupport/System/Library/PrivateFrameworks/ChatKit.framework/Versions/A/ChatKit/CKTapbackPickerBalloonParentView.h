@@ -4,51 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKTapbackPickerBalloonDisplayConfiguration, CKTapbackPickerViewController, UIColor, UIView;
-@protocol CKGradientReferenceView, CKTapbackPickerBalloonParentViewDelegate;
-
 @interface CKTapbackPickerBalloonParentView
 {
     id bottomPileMetaballContainer;
-    id bottomPileContentContainer;
-    id primaryContainer;
-    id messageBalloonContainer;
-    id frontPileMetaballContainer;
-    id frontPileContentContainer;
-    id backgroundMaskContainer;
-    id accessoryItemsContainer;
-    id sentTapbackContainer;
-    id strokeMaskContainer;
-    id gradientBufferSize;
-    id inputController;
-    id presentationTintColor;
-    void delegate;
-    id strokeContainerView;
-    id backgroundContainerView;
-    void gradientReferenceView;
-    id motionManager;
-    id timer;
-    id ignoreGyro;
-    CKTapbackPickerViewController *tapbackPickerViewController;
-    CKTapbackPickerBalloonDisplayConfiguration *displayConfiguration;
-    long long currentDisplayMode;
-    id wantsPileDestOut;
-    id wantsMaterialBackground;
 }
 
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (double);
+- (void)updateAttachmentPreviewImageWithImageData:size:scale:appearanceType:scaleWhenDrawing:metadata:sendNotification: /* Error: Ran out of types for this method. */;
+- (id)setDidAuthenticateWithBiometrics: /* Error: Ran out of types for this method. */;
+- (void)passesVisibilityTesting:forSearchResult: /* Error: Ran out of types for this method. */;
+- (void)dataSourceIdentifier;
+- (void)_urlSchemeHandler;
+- (double)SString",C,N,V_fallbackButtonTitle;
 - (void);
 - (void);
 - (void);
 - (id);
 - (long long);
-- (void);
-- (void);
+- (void)achment is referenced twice in note body {attachmentIdentifier:(id)arg1 %@, attachmentUTI:%@} /* Error: Ran out of types for this method. */;
+- (void);
 - (_Bool);
 - (id);
 - (void);
@@ -61,7 +34,7 @@
 - (void);
 - (struct CGRect);
 - (void);
-- (id);
+- (id)_dragInteraction:(struct CGRect)arg1 canExcludeCompetingGestureRecognizer: /* Error: Ran out of types for this method. */;
 - (id)0@ù
 × ;
 - (id)× ;
@@ -72,13 +45,7 @@
 - (void)¨/;
 
 // Remaining properties
-@property(nonatomic) long long currentDisplayMode; // @synthesize currentDisplayMode;
-@property(nonatomic) __weak id <CKTapbackPickerBalloonParentViewDelegate> delegate; // @synthesize delegate;
-@property(nonatomic, retain) CKTapbackPickerBalloonDisplayConfiguration *displayConfiguration; // @synthesize displayConfiguration;
 @property(nonatomic) struct CGRect frame;
-@property(nonatomic) __weak UIView<CKGradientReferenceView> *gradientReferenceView; // @synthesize gradientReferenceView;
-@property(nonatomic, retain) CKTapbackPickerViewController *tapbackPickerViewController; // @synthesize tapbackPickerViewController;
-@property(nonatomic, retain) UIColor *tintColor;
 
 @end
 

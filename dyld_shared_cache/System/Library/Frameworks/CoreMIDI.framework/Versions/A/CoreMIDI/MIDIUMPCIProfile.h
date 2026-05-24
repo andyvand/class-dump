@@ -4,27 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MIDICIDevice, NSData, NSString;
+@class MIDICIDevice, NSString;
 
 @interface MIDIUMPCIProfile
 {
     NSString *_name;
-    NSData *_profileID;
-    unsigned char _profileType;
-    unsigned char _groupOffset;
-    unsigned char _firstChannel;
-    unsigned short _enabledChannelCount;
-    unsigned short _totalChannelCount;
-    _Bool _isEnabled;
-    unsigned int _ownerClientRef;
-    struct unfair_recursive_lock mMutex;
-    unsigned int _ownerObjectRef;
-    unsigned int _objectRef;
-    MIDICIDevice *_ciDevice;
 }
 
 + (id);
-- (unsigned short);
+- (unsigned short)'@�;
 - (_Bool);
 - (void);
 - (void);
@@ -36,7 +24,7 @@
 - (unsigned int);
 - (_Bool);
 - (id);
-- (unsigned char);
+- (unsigned char)!;
 - (unsigned char);
 - (unsigned short);
 - (void);
@@ -46,7 +34,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (unsigned char);
 - (void);
@@ -54,17 +42,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak MIDICIDevice *ciDevice; // @synthesize ciDevice=_ciDevice;
-@property(readonly, nonatomic) unsigned short enabledChannelCount;
-@property(readonly, nonatomic) unsigned char firstChannel;
-@property(readonly, nonatomic) unsigned char groupOffset;
-@property(readonly, nonatomic) _Bool isEnabled;
-@property(readonly, nonatomic) _Bool isMine;
-@property(readonly, nonatomic) NSString *name;
-@property(nonatomic) unsigned int objectRef; // @synthesize objectRef=_objectRef;
-@property(nonatomic) unsigned int ownerObjectRef; // @synthesize ownerObjectRef=_ownerObjectRef;
-@property(readonly, nonatomic) CDUnion_2eee4515 profileID;
-@property(readonly, nonatomic) unsigned char profileType;
-@property(readonly, nonatomic) unsigned short totalChannelCount;
 
 @end
 

@@ -6,17 +6,15 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class CEMSystemAllowedMediaDeclaration_MediaItems, NSString;
+@class CEMSystemAllowedMediaDeclaration_MediaItems;
 
 @interface CEMSystemAllowedMediaDeclaration : CEMConfigurationBase
 {
     CEMSystemAllowedMediaDeclaration_MediaItems *_payloadLogoutEject;
-    CEMSystemAllowedMediaDeclaration_MediaItems *_payloadMountControls;
-    CEMSystemAllowedMediaDeclaration_MediaItems *_payloadUnmountControls;
 }
 
 + (id);
-+ (id);
++ (id)a;
 + (id);
 + (id);
 + (id);
@@ -33,21 +31,12 @@
 - (_Bool);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool)iled to speak request with error:(id)arg1 %@. Attempting to speak again with fallback identifier:(id *)arg2 %@;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) CEMSystemAllowedMediaDeclaration_MediaItems *payloadLogoutEject; // @synthesize payloadLogoutEject=_payloadLogoutEject;
-@property(copy, nonatomic) CEMSystemAllowedMediaDeclaration_MediaItems *payloadMountControls; // @synthesize payloadMountControls=_payloadMountControls;
-@property(copy, nonatomic) CEMSystemAllowedMediaDeclaration_MediaItems *payloadUnmountControls; // @synthesize payloadUnmountControls=_payloadUnmountControls;
-@property(readonly) Class superclass;
 
 @end
 

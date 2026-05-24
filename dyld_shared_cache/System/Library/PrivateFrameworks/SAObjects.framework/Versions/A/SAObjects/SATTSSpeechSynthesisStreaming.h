@@ -14,11 +14,11 @@
 
 + (id);
 + (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)userActivityPayloadWithDictionary:context: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *streamId;

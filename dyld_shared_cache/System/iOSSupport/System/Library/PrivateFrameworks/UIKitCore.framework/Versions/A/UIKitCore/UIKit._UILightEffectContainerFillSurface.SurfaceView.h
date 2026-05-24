@@ -12,7 +12,7 @@
 
 - (id);
 - (void);
-- (id)oard;
+- (id)UIStoryboard;
 
 @end
 

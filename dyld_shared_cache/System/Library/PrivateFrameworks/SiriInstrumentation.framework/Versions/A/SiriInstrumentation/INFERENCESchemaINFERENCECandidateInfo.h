@@ -6,24 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface INFERENCESchemaINFERENCECandidateInfo : SISchemaInstrumentationMessage
 {
     int _searchProvider;
-    unsigned int _rank;
-    float _score;
-    _Bool _isShownToUser;
-    NSString *_anonymizedEntityIdentifier;
-    int _candidateType;
-    struct {
-        unsigned int searchProvider:1;
-        unsigned int rank:1;
-        unsigned int score:1;
-        unsigned int isShownToUser:1;
-        unsigned int candidateType:1;
-    } _has;
-    _Bool _hasAnonymizedEntityIdentifier;
 }
 
 - (void);
@@ -38,15 +23,15 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (int);
+- (int)diameter:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)J;
 - (_Bool);
 - (void);
 - (void);
@@ -57,30 +42,18 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)8;
 - (id);
 - (id)àð1Â0@ù
 × ;
-- (float)groundAppBundleId: /* Error: Ran out of types for this method. */;
+- (float)setForegroundAppBundleId: /* Error: Ran out of types for this method. */;
 - (id)ATGenerativeRequestEventFailed",&,N,V_failed;
-- (id)TSchemaIFTPlanGenerationError;
-- (void)BLUETOOTHSTATE_RESETTING;
+- (id)IFTSchemaIFTPlanGenerationError;
+- (void)ORCHBLUETOOTHSTATE_RESETTING;
 - (unsigned int)ad.outcome.valueDisambiguation.items.value.primitive.app.bundleId;
 - (void)§ú­¦ä";
 
 // Remaining properties
-@property(copy, nonatomic) NSString *anonymizedEntityIdentifier; // @synthesize anonymizedEntityIdentifier=_anonymizedEntityIdentifier;
-@property(nonatomic) int candidateType; // @synthesize candidateType=_candidateType;
-@property(nonatomic) _Bool hasAnonymizedEntityIdentifier; // @synthesize hasAnonymizedEntityIdentifier=_hasAnonymizedEntityIdentifier;
-@property(nonatomic) _Bool hasCandidateType;
-@property(nonatomic) _Bool hasIsShownToUser;
-@property(nonatomic) _Bool hasRank;
-@property(nonatomic) _Bool hasScore;
-@property(nonatomic) _Bool hasSearchProvider;
-@property(nonatomic) _Bool isShownToUser; // @synthesize isShownToUser=_isShownToUser;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int rank; // @synthesize rank=_rank;
-@property(nonatomic) float score; // @synthesize score=_score;
 @property(nonatomic) int searchProvider; // @synthesize searchProvider=_searchProvider;
 
 @end

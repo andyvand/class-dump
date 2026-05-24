@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EGGraph, EGOutput, NSArray, NSDictionary, NSMutableDictionary, NSString;
-@protocol EGElement, EGInputPort, EGNodeInput, EGOutputPort;
+@class NSDictionary, NSString;
 
 @interface EGNode
 {
     NSString *_name;
-    EGGraph *_parentGraph;
-    NSMutableDictionary *_outputs;
-    NSMutableDictionary *_inputs;
-    NSMutableDictionary *_inputPorts;
-    id <EGNodeInput> _egNodeInput;
-    id <EGInputPort> _egInputPort;
-    EGOutput *_egOutput;
 }
 
 + (void)avfoundation.avcapturedevice.built-in_video:1 /* Error: Ran out of types for this method. */;
@@ -28,17 +20,17 @@
 - (void);
 - (void);
 - (id);
+- (id)tb;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)E;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)Text;
 - (id);
 - (id);
 - (id);
@@ -46,25 +38,7 @@
 - (void)ï;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <EGInputPort> egInputPort;
-@property(readonly, nonatomic) NSDictionary *egInputPortsByName;
 @property(readonly, nonatomic) NSDictionary *egInputsByName;
-@property(readonly, nonatomic) NSArray *egInputsFlat;
-@property(readonly, nonatomic) id <EGNodeInput> egNodeInput;
-@property(readonly, nonatomic) EGOutput *egOutput;
-@property(readonly, nonatomic) id <EGOutputPort> egOutputPort;
-@property(readonly, nonatomic) NSDictionary *egOutputPortsByName;
-@property(readonly, nonatomic) NSDictionary *egOutputsByName;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) __weak id <EGElement> parent;
-@property(readonly, nonatomic) __weak EGGraph *parentGraph;
-@property(readonly) Class superclass;
 
 @end
 

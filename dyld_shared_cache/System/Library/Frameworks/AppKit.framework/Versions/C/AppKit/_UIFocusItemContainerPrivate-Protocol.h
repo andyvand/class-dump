@@ -5,5 +5,8 @@
 //
 
 @protocol _UIFocusItemContainerPrivate
+
+@optional
+- (unsigned long long).dylib;
 @end
 

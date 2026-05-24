@@ -9,11 +9,6 @@
 @interface IMDPersistence.AttachmentStorageInspector : IMDPersistence.ForegroundStorageInspectorScheduler
 {
     id attachmentURL;
-    id stickerCacheURL;
-    id inspectionReport;
-    id databaseContext;
-    id attachmentPathsTable;
-    id orphanedAttachmentPathsTable;
 }
 
 @end

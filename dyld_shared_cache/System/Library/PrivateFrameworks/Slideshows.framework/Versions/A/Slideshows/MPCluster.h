@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSMutableSet, NSString;
+@class NSMutableArray;
 
 @interface MPCluster
 {
     NSMutableArray *mSlides;
-    NSMutableSet *mPathsInCluster;
-    NSString *mName;
-    double mRating;
-    NSMutableDictionary *mUsageCounterPerLayer;
 }
 
 - (id);
 - (double);
 - (id);
-- (void);
-- (void);
+- (void)8@"NSArray"16;
+- (void)"NSNumber"8@"NTPBAnalyticsEnvelopeContentTypeConfig"16^B24;
 - (void);
 - (_Bool);
 - (id);
@@ -33,10 +29,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (double);
 - (void);
-- (void);
+- (void)H;
 - (void)0.); 
 			diffuseLight = ambientLightColor + diffuseLightColor * dotProd; 
 			if(dotProd > 0.) { 
@@ -52,9 +48,6 @@
 
 // Remaining properties
 @property(retain) NSMutableArray *items; // @synthesize items=mSlides;
-@property(copy) NSString *name; // @synthesize name=mName;
-@property double rating; // @synthesize rating=mRating;
-@property(retain) NSMutableDictionary *usageCounterPerLayer; // @synthesize usageCounterPerLayer=mUsageCounterPerLayer;
 
 @end
 

@@ -14,8 +14,8 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (void)setState: /* Error: Ran out of types for this method. */;
+- (void)FileManagerProxy;
 
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectModel, NSPersistentStoreCoordinator;
+@class NSManagedObjectModel;
 
 @interface CNCDTestPersistenceStack
 {
     NSManagedObjectModel *_model;
-    NSPersistentStoreCoordinator *_coordinator;
 }
 
 - (id);
@@ -20,13 +19,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) NSPersistentStoreCoordinator *coordinator; // @synthesize coordinator=_coordinator;
 @property(readonly) NSManagedObjectModel *model; // @synthesize model=_model;
 
 @end

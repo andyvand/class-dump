@@ -4,37 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableSet, NSString;
+@class NSMutableSet;
 @protocol MCActivityTarget;
 
 @interface _MCActivityMonitorMultiTarget
 {
     NSMutableSet *_allTargets;
-    id <MCActivityTarget> _primaryTarget;
 }
 
 - (void);
 - (_Bool);
-- (id);
+- (id)B;
 - (_Bool);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *allTargets;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *displayName;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) id <MCActivityTarget> primaryTarget; // @synthesize primaryTarget=_primaryTarget;
-@property(readonly) Class superclass;
 
 @end
 

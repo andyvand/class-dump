@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessCodeValue, HMAccessory, NSString;
+@class HMAccessCodeValue;
 
 @interface HMAccessCodeAddRequest
 {
     HMAccessCodeValue *_accessCodeValue;
-    HMAccessory *_accessory;
 }
 
 - (id);
@@ -20,14 +19,6 @@
 
 // Remaining properties
 @property(readonly, copy) HMAccessCodeValue *accessCodeValue; // @synthesize accessCodeValue=_accessCodeValue;
-@property(readonly) HMAccessory *accessory; // @synthesize accessory=_accessory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

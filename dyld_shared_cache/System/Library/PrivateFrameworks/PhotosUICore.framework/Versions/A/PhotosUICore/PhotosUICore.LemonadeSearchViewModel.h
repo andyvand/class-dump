@@ -7,10 +7,6 @@
 @interface PhotosUICore.LemonadeSearchViewModel
 {
     id updater;
-    id photoLibrary;
-    id __searchIsActive;
-    id __suggestedQueryFetcher;
-    id _$observationRegistrar;
 }
 
 @end

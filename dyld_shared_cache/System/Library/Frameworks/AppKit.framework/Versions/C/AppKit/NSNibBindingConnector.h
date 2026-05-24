@@ -6,18 +6,11 @@
 
 #import <AppKit/NSNibConnector.h>
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface NSNibBindingConnector : NSNibConnector
 {
     NSString *_binding;
-    NSString *_keyPath;
-    NSDictionary *_options;
-    struct __nibBindingConnectorFlags {
-        unsigned int _hasEstablishedConnection:1;
-        unsigned int _reservedNibBindingConnector:31;
-    } _nibBindingConnectorFlags;
-    NSNibBindingConnector *_previousConnector;
 }
 
 + (void)ÅÈçºH;
@@ -25,18 +18,18 @@
 - (void);
 - (void);
 - (void);
+- (void)_ZN12SocketStream4readEP14__CFReadStreamPhlP13CFStreamErrorS2_;
+- (void);
+- (id)METRIC_DATE;
+- (id)2q0;
+- (void)2jc;
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)ic}s(%d) %{public}s[%p] %{public}s handshake started;
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)_normalizedContentSizeCategory:default: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 

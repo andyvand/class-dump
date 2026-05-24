@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id);
+- (id)j#;
 - (long long)GSgAEÔ¾éGyAN_Qo_AAyAAyAPHüéGySbGGAKGtGGAEtGGòéGyêGGG;
 
 @end

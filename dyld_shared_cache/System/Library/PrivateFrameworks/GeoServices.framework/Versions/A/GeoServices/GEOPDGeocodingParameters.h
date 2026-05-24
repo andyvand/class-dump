@@ -4,49 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDAddressResultSubTypeFilter, GEOPDSPunchInHints, GEOPDViewportInfo, GEOStructuredAddress, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDGeocodingParameters
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPDAddressResultSubTypeFilter *_addressResultSubTypeFilter;
-    GEOPDSPunchInHints *_punchInHints;
-    NSString *_queryString;
-    GEOStructuredAddress *_structuredAddress;
-    GEOPDViewportInfo *_viewportInfo;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _maxResults;
-    _Bool _isStrictMapRegion;
-    _Bool _requestAddressesForPostCode;
-    struct {
-        unsigned int has_maxResults:1;
-        unsigned int has_isStrictMapRegion:1;
-        unsigned int has_requestAddressesForPostCode:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_addressResultSubTypeFilter:1;
-        unsigned int read_punchInHints:1;
-        unsigned int read_queryString:1;
-        unsigned int read_structuredAddress:1;
-        unsigned int read_viewportInfo:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)Enabled;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)nFields"b1"read_mapsSearchHomeSections"b1"read_naturalSearchSupportedLanguageCacheKey"b1"wrote_anyField"b1};
-- (id)displayNameInBar;
+- (id)_displayNameInBar;
 - (id)Ð¥;
 - (id);
 - (void)®Gáz@Ház®7V@;

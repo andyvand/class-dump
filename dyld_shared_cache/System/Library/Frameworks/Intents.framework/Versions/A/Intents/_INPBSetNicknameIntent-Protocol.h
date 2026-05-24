@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBIntentMetadata, _INPBModifyNickname;
+@class _INPBIntentMetadata;
 
 @protocol _INPBSetNicknameIntent
-- (_Bool)nferred:audioSearchResults:privateMediaIntentData:appSelectionSignalsEnabled:appSelectionSignalsFrequencyDenominator:shouldSuppressCommonWholeHouseAudioRoutes:immediatelyStartPlayback:isAmbiguousPlay:isPersonalizedRequest: /* Error: Ran out of types for this method. */;
+- (_INPBIntentMetadata *)TMExtensions;
+- (_Bool)initWithAppSelectionEnabled:appInferred:audioSearchResults:privateMediaIntentData:appSelectionSignalsEnabled:appSelectionSignalsFrequencyDenominator:shouldSuppressCommonWholeHouseAudioRoutes:immediatelyStartPlayback:isAmbiguousPlay:isPersonalizedRequest: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasTargetNickname;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(retain, nonatomic) _INPBModifyNickname *targetNickname;
 @end
 

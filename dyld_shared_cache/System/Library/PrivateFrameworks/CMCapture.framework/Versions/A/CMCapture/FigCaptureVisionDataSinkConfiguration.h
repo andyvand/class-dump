@@ -6,29 +6,9 @@
 
 #import <CMCapture/FigCaptureSinkConfiguration.h>
 
-@class NSData, NSDictionary;
-
 @interface FigCaptureVisionDataSinkConfiguration : FigCaptureSinkConfiguration
 {
     float _maxFrameRate;
-    float _maxBurstFrameRate;
-    CDStruct_1b6d18a9 _maxBurstDuration;
-    unsigned int _gaussianPyramidOctavesCount;
-    float _gaussianPyramidBaseOctaveDownscalingFactor;
-    unsigned int _maxKeypointsCount;
-    float _keypointDetectionThreshold;
-    _Bool _featureBinningEnabled;
-    _Bool _featureOrientationAssignmentEnabled;
-    _Bool _dynamicThresholdingEnabled;
-    unsigned int _keypointDetectionFlowType;
-    unsigned long long _subPixelThreshold;
-    _Bool _featureMatchingEnabled;
-    int _featureMatchingDescriptorSize;
-    float _orientationDistanceThreshold;
-    float _sigmaDistanceThreshold;
-    float _squareDistanceDisparityFraction;
-    unsigned long long _hammingDistanceThreshold;
-    NSData *_laccConfigAndMetadata;
 }
 
 - (float);
@@ -36,18 +16,18 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (float);
+- (float)F2;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)j1;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)QI}S);
 - (void);
 - (void);
 - (void);
@@ -67,8 +47,8 @@
 - (float);
 - (int);
 - (void);
-- (float);
-- (void);
+- (float)p;
+- (void)ath;
 - (id);
 - (void);
 - (_Bool);
@@ -79,26 +59,7 @@
 - (id)°1ÿ¶0ÿ½.ÿÃ-ÿÊ,ÿÐ,ÿ×.ÿÞ1ÿã5ÿä7ÿå8 ÿå:(id)arg1 !ÿ;
 
 // Remaining properties
-@property(nonatomic, getter=isDynamicThresholdingEnabled) _Bool dynamicThresholdingEnabled; // @synthesize dynamicThresholdingEnabled=_dynamicThresholdingEnabled;
-@property(readonly, nonatomic) NSDictionary *embeddedCaptureDeviceConfiguration;
-@property(nonatomic) _Bool featureBinningEnabled; // @synthesize featureBinningEnabled=_featureBinningEnabled;
-@property(nonatomic) int featureMatchingDescriptorSize; // @synthesize featureMatchingDescriptorSize=_featureMatchingDescriptorSize;
-@property(nonatomic, getter=isFeatureMatchingEnabled) _Bool featureMatchingEnabled; // @synthesize featureMatchingEnabled=_featureMatchingEnabled;
-@property(nonatomic) _Bool featureOrientationAssignmentEnabled; // @synthesize featureOrientationAssignmentEnabled=_featureOrientationAssignmentEnabled;
-@property(nonatomic) float gaussianPyramidBaseOctaveDownscalingFactor; // @synthesize gaussianPyramidBaseOctaveDownscalingFactor=_gaussianPyramidBaseOctaveDownscalingFactor;
-@property(nonatomic) unsigned int gaussianPyramidOctavesCount; // @synthesize gaussianPyramidOctavesCount=_gaussianPyramidOctavesCount;
-@property(nonatomic) unsigned long long hammingDistanceThreshold; // @synthesize hammingDistanceThreshold=_hammingDistanceThreshold;
-@property(nonatomic) unsigned int keypointDetectionFlowType; // @synthesize keypointDetectionFlowType=_keypointDetectionFlowType;
-@property(nonatomic) float keypointDetectionThreshold; // @synthesize keypointDetectionThreshold=_keypointDetectionThreshold;
-@property(retain, nonatomic) NSData *laccConfigAndMetadata; // @synthesize laccConfigAndMetadata=_laccConfigAndMetadata;
-@property(nonatomic) CDStruct_1b6d18a9 maxBurstDuration; // @synthesize maxBurstDuration=_maxBurstDuration;
-@property(nonatomic) float maxBurstFrameRate; // @synthesize maxBurstFrameRate=_maxBurstFrameRate;
 @property(nonatomic) float maxFrameRate; // @synthesize maxFrameRate=_maxFrameRate;
-@property(nonatomic) unsigned int maxKeypointsCount; // @synthesize maxKeypointsCount=_maxKeypointsCount;
-@property(nonatomic) float orientationDistanceThreshold; // @synthesize orientationDistanceThreshold=_orientationDistanceThreshold;
-@property(nonatomic) float sigmaDistanceThreshold; // @synthesize sigmaDistanceThreshold=_sigmaDistanceThreshold;
-@property(nonatomic) float squareDistanceDisparityFraction; // @synthesize squareDistanceDisparityFraction=_squareDistanceDisparityFraction;
-@property(nonatomic) unsigned long long subPixelThreshold; // @synthesize subPixelThreshold=_subPixelThreshold;
 
 @end
 

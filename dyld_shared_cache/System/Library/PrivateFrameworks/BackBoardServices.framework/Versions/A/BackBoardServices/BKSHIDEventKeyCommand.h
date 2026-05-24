@@ -9,12 +9,6 @@
 @interface BKSHIDEventKeyCommand
 {
     NSString *_input;
-    long long _keyCode;
-    long long _modifierFlags;
-    NSString *_unmodifiedInput;
-    NSString *_shiftModifiedInput;
-    NSString *_commandModifiedInput;
-    long long _usagePage;
 }
 
 + (id);
@@ -23,55 +17,40 @@
 + (id);
 + (_Bool);
 + (id);
-+ (_Bool);
++ (_Bool)*=;
 + (void);
 + (id);
 - (_Bool);
-- (long long);
+- (long long);
 - (void);
 - (id);
 - (void);
+- (id)source;
 - (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
+- (_Bool)getLocalSecretWithWindow:withTitle:withMessage:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)R(;
+- (id)numberInputFeatures;
 - (id);
 - (unsigned long long);
 - (long long);
-- (long long);
+- (long long)c;
 - (_Bool);
 - (id);
-- (id);
+- (id)scheduleAction;
 - (long long);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)HA256;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *commandModifiedInput; // @synthesize commandModifiedInput=_commandModifiedInput;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *input; // @synthesize input=_input;
-@property(readonly) _Bool isRoutableKeyCommand;
-@property(readonly, nonatomic) _Bool isTextualKeyCommand;
-@property(readonly, nonatomic) long long keyCode; // @synthesize keyCode=_keyCode;
-@property(readonly, nonatomic) long long modifierFlags; // @synthesize modifierFlags=_modifierFlags;
-@property(retain, nonatomic) NSString *shiftModifiedInput; // @synthesize shiftModifiedInput=_shiftModifiedInput;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSString *unmodifiedInput; // @synthesize unmodifiedInput=_unmodifiedInput;
-@property(nonatomic) long long usagePage; // @synthesize usagePage=_usagePage;
 
 @end
 

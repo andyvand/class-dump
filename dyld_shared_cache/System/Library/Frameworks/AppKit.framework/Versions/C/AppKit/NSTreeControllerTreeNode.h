@@ -6,39 +6,30 @@
 
 #import <AppKit/NSTreeNode.h>
 
-@class NSString, NSTreeController;
+@class NSString;
 
 @interface NSTreeControllerTreeNode : NSTreeNode
 {
     NSString *_childrenKeyPath;
-    NSString *_leafKeyPath;
-    NSString *_countKeyPath;
-    NSTreeController *_treeController;
-    struct __NSTreeControllerTreeNodeFlags {
-        unsigned int _observingIsSetup:1;
-        unsigned int _isUpdatingChildNodes:1;
-        unsigned int _observingRepresentedObjectChildren:1;
-        unsigned int reserved:29;
-    } _NSTreeControllerTreeNodeFlags;
 }
 
 - (void);
-- (void);
+- (void)nitialized;
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (void);
+- (void)uploadTaskWithRequest:(id)arg1 fromData:completionHandler: /* Error: Ran out of types for this method. */;
+- (long long),R,V_secure;
+- (void)consistent with xpc activity configuration. If this is intended, please reach out to cfnetwork / duetactivityscheduler;
 - (void);
-- (long long);
+- (void);
+- (unsigned long long)ConnectionProtocolAddInputHandler;
+- (id)bodyStartProvidingData_block_invoke;
 - (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (void);
-- (void);
+- (void)tionalConnectionSIMSupport.cpp;
 - (void);
 - (void);
 - (void);

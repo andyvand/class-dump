@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABBookGroupCopyCommand, ABBookGroupDeleteCommand;
+@class ABBookGroupCopyCommand;
 
 @interface ABBookGroupCutCommand
 {
     ABBookGroupCopyCommand *_copyCommand;
-    ABBookGroupDeleteCommand *_deleteCommand;
-    _Bool ignoresGuardianRestrictions;
 }
 
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);

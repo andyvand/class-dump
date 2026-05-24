@@ -11,13 +11,12 @@
 @interface BRSharingCopyShareInfoOperation : BROperation
 {
     NSURL *_fileURL;
-    CDUnknownBlockType _copyShareInfoCompletionBlock;
 }
 
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)H;
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 

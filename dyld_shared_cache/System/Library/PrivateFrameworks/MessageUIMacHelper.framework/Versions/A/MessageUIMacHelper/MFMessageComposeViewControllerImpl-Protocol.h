@@ -5,5 +5,8 @@
 //
 
 @protocol MFMessageComposeViewControllerImpl
+- (_Bool);
+- (void)canGetBundleSubscriptionToChannel:(_Bool)arg1;
+- (void)canComposeMail;
 @end
 

@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, NSURL, SFActionItem;
+@class NSString;
 
 @protocol SFTrack
+- (void)ANGLE;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSString *duration;
-@property(nonatomic) _Bool highlighted;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *number;
-@property(retain, nonatomic) SFActionItem *playAction;
-@property(copy, nonatomic) NSURL *preview;
 @property(copy, nonatomic) NSString *title;
 @end
 

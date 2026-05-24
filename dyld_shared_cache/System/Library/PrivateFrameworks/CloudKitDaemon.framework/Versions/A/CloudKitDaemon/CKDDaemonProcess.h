@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class C2Multipeer, NSString;
-
 @interface CKDDaemonProcess
 {
     _Bool _isSystemInstalledBinary;
-    long long _processType;
-    C2Multipeer *_multipeer;
 }
 
 + (void);
@@ -18,23 +14,14 @@
 - (long long);
 - (_Bool);
 - (id);
-- (id);
-- (void);
-- (id);
+- (id);
+- (void)ustWake:(id)arg1 callback: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (void)after we've already finished;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isSystemInstalledBinary; // @synthesize isSystemInstalledBinary=_isSystemInstalledBinary;
-@property(retain, nonatomic) C2Multipeer *multipeer; // @synthesize multipeer=_multipeer;
 @property(readonly, nonatomic) long long processType; // @synthesize processType=_processType;
-@property(readonly) Class superclass;
 
 @end
 

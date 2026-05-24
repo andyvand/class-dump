@@ -7,8 +7,6 @@
 @interface IdentityLookup.BlockingInfoSnapshot
 {
     id extensionIdentifier;
-    id shouldBlock;
-    id expiration;
 }
 
 - (id);

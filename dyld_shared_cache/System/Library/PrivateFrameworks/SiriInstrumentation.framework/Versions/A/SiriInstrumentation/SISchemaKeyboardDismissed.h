@@ -6,28 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaKeyboardDismissed : SISchemaInstrumentationMessage
 {
     _Bool _keyboardUsed;
-    int _lengthInWords;
-    int _lengthInChars;
-    int _numCharsAdded;
-    int _numCharsDeleted;
-    int _editDistance;
-    _Bool _emojiUsed;
-    int _keyboardLocale;
-    struct {
-        unsigned int keyboardUsed:1;
-        unsigned int lengthInWords:1;
-        unsigned int lengthInChars:1;
-        unsigned int numCharsAdded:1;
-        unsigned int numCharsDeleted:1;
-        unsigned int editDistance:1;
-        unsigned int emojiUsed:1;
-        unsigned int keyboardLocale:1;
-    } _has;
 }
 
 - (void);
@@ -69,35 +50,19 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)wc;
 - (_Bool);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (void);
+- (unsigned long long)ds;
+- (_Bool)g] %@ asked to provide data for %@ (unhandled);
+- (_Bool)D   ) = 0 ;
 - (id);
 - (id);
-- (id)ration;
-- (id)y;
+- (id)deleteCommandDuration;
+- (id)_domainsToSearchForHistory;
 
 // Remaining properties
-@property(nonatomic) int editDistance; // @synthesize editDistance=_editDistance;
-@property(nonatomic) _Bool emojiUsed; // @synthesize emojiUsed=_emojiUsed;
-@property(nonatomic) _Bool hasEditDistance;
-@property(nonatomic) _Bool hasEmojiUsed;
-@property(nonatomic) _Bool hasKeyboardLocale;
-@property(nonatomic) _Bool hasKeyboardUsed;
-@property(nonatomic) _Bool hasLengthInChars;
-@property(nonatomic) _Bool hasLengthInWords;
-@property(nonatomic) _Bool hasNumCharsAdded;
-@property(nonatomic) _Bool hasNumCharsDeleted;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int keyboardLocale; // @synthesize keyboardLocale=_keyboardLocale;
 @property(nonatomic) _Bool keyboardUsed; // @synthesize keyboardUsed=_keyboardUsed;
-@property(nonatomic) int lengthInChars; // @synthesize lengthInChars=_lengthInChars;
-@property(nonatomic) int lengthInWords; // @synthesize lengthInWords=_lengthInWords;
-@property(nonatomic) int numCharsAdded; // @synthesize numCharsAdded=_numCharsAdded;
-@property(nonatomic) int numCharsDeleted; // @synthesize numCharsDeleted=_numCharsDeleted;
 
 @end
 

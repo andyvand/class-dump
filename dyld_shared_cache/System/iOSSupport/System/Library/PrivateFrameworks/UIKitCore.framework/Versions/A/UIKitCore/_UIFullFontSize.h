@@ -8,17 +8,15 @@ __attribute__((visibility("hidden")))
 @interface _UIFullFontSize
 {
     double _value;
-    _Bool _isDefault;
-    _Bool _needsEvaluation;
 }
 
 + (id)uéÿäð<|g;
 + (id);
 - (double);
 - (id)ble"24;
-- (_Bool)WillBegin:(id)arg1;
+- (_Bool)textSelectionInteractionWillBegin:(id)arg1;
 - (id)T{CGSize=dd},N,V_footerReferenceSize;
-- (_Bool)on;
+- (_Bool)_focusDirection;
 - (_Bool);
 
 @end

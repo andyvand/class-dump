@@ -7,9 +7,6 @@
 @interface _MRReceivedCommandAppOptionsProtobuf
 {
     _Bool _launchApplication;
-    struct {
-        unsigned int launchApplication:1;
-    } _has;
 }
 
 - (void);
@@ -17,18 +14,17 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)FVoiceCommandGrammarParamMatch"16^B24;
 
 // Remaining properties
 @property(nonatomic) _Bool hasLaunchApplication;
-@property(nonatomic) _Bool launchApplication; // @synthesize launchApplication=_launchApplication;
 
 @end
 

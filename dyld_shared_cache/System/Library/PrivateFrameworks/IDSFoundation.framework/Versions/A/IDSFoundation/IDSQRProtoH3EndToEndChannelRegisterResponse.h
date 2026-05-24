@@ -9,7 +9,6 @@
 @interface IDSQRProtoH3EndToEndChannelRegisterResponse
 {
     IDSQRProtoH3EndToEndChannelRegisterE2EChannelInfo *_channelInfo;
-    NSData *_virtualQuicServerConnectionId;
 }
 
 - (id);
@@ -17,18 +16,17 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)I}S@;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)withType:(id)arg1 sizeDescriptor:size:value: /* Error: Ran out of types for this method. */;
+- (void)ret=%ld;
 - (id);
 - (id);
 - (void)ation_Private.IDSGLP2PLinkEngineHandle;
 
 // Remaining properties
-@property(retain, nonatomic) IDSQRProtoH3EndToEndChannelRegisterE2EChannelInfo *channelInfo; // @synthesize channelInfo=_channelInfo;
 @property(retain, nonatomic) NSData *virtualQuicServerConnectionId; // @synthesize virtualQuicServerConnectionId=_virtualQuicServerConnectionId;
 
 @end

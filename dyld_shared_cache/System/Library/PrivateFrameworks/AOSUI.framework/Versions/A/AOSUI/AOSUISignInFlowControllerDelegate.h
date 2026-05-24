@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccountStore, CDPContext, NSSet, NSString, NSWindow;
+@class ACAccountStore, NSWindow;
 
 @interface AOSUISignInFlowControllerDelegate
 {
     ACAccountStore *_accountStore;
-    _Bool skipCDPEnablement;
-    _Bool backgroundDataclassEnablement;
-    _Bool skipDataclassEnablement;
-    _Bool shouldStashLoginResponse;
-    CDPContext *cdpContext;
-    NSSet *requiredTerms;
-    unsigned long long findMyActivationAction;
-    NSWindow *_presentingWindow;
-    NSString *_deviceOSVersion;
 }
 
 - (void);
@@ -36,7 +27,7 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)};
 - (id);
 - (id);
 - (void);
@@ -48,55 +39,7 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool backgroundDataclassEnablement; // @synthesize backgroundDataclassEnablement;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N,VbackgroundDataclassEnablement
-
-@property(retain, nonatomic) CDPContext *cdpContext; // @synthesize cdpContext;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"CDPContext",?,&,N,VcdpContext
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *deviceOSVersion; // @synthesize deviceOSVersion=_deviceOSVersion;
-@property(nonatomic) unsigned long long findMyActivationAction; // @synthesize findMyActivationAction;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,N,VfindMyActivationAction
-
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool newSignInFlow;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool newSignInReauth;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
 @property(nonatomic) __weak NSWindow *presentingWindow; // @synthesize presentingWindow=_presentingWindow;
-@property(copy, nonatomic) NSSet *requiredTerms; // @synthesize requiredTerms;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,C,N,VrequiredTerms
-
-@property(nonatomic) _Bool shouldStashLoginResponse; // @synthesize shouldStashLoginResponse;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N,VshouldStashLoginResponse
-
-@property(nonatomic) _Bool skipCDPEnablement; // @synthesize skipCDPEnablement;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N,VskipCDPEnablement
-
-@property(nonatomic) _Bool skipDataclassEnablement; // @synthesize skipDataclassEnablement;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N,VskipDataclassEnablement
-
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *telemetryFlowID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
 
 @end
 

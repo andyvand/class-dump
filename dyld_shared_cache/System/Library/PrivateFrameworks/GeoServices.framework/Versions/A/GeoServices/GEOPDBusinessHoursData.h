@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDBusinessHours, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDBusinessHoursData
 {
     PBUnknownFields *_unknownFields;
-    GEOPDBusinessHours *_businessHours;
 }
 
 - (id);
@@ -19,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)b1"wrote_anyField"b1};
-- (id)taRoute:initializerData: /* Error: Ran out of types for this method. */;
+- (id)_buildIncidentsForRoute:etaRoute:initializerData: /* Error: Ran out of types for this method. */;
 - (id)¨Ve¬´XaeÀ´ eÔ´eè´Üe	´¸eH	´üe\	´´ep	´Ä e	´°e	´`´e¬	´P¸eØ	´Ðºe
 ´Æe 
 ´àÇe4

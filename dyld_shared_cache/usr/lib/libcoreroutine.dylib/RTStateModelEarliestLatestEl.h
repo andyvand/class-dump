@@ -7,7 +7,6 @@
 @interface RTStateModelEarliestLatestEl
 {
     double _earliestEl_s;
-    double _latestEl_s;
 }
 
 + (_Bool);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(nonatomic) double earliestEl_s; // @synthesize earliestEl_s=_earliestEl_s;
-@property(nonatomic) double latestEl_s; // @synthesize latestEl_s=_latestEl_s;
 
 @end
 

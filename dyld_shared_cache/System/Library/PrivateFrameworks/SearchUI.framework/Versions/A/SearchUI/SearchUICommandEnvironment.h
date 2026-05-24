@@ -4,78 +4,49 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSView, NSViewController, SFResultSection;
-@protocol SearchUICardViewDelegate, SearchUICommandDelegate, SearchUIFeedbackDelegate, SearchUIRowModelViewDelegate, SearchUIWatchListDelegate;
+@protocol SearchUIFeedbackDelegate;
 
 @interface SearchUICommandEnvironment
 {
     _Bool _shouldUseInsetRoundedSections;
-    _Bool _shouldUseStandardSectionInsets;
-    _Bool _threeDTouchEnabled;
-    id <SearchUIFeedbackDelegate> _feedbackDelegate;
-    id <SearchUICommandDelegate> _commandDelegate;
-    id <SearchUIRowModelViewDelegate> _rowModelViewDelegate;
-    id <SearchUICardViewDelegate> _cardViewDelegate;
-    id <SearchUIWatchListDelegate> _watchListDelegate;
-    long long _selectableGridPunchoutIndex;
-    NSString *_searchString;
-    NSString *_sectionTitle;
-    unsigned long long _queryId;
-    SFResultSection *_section;
-    NSViewController *_presentingViewController;
-    NSView *_sourceView;
 }
 
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (long long);
 - (id);
 - (void);
+- (id)_espressoPlan;
+- (void);
+- (id)STTranscriberSingleSegmentResult;
+- (void)3;
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (_Bool)_q,;
+- (_Bool)parseStackshotsFromKTraceFile:warningsOut:errorOut: /* Error: Ran out of types for this method. */;
+- (void)yB;
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)gregation";
 - (unsigned long long);
-- (id);
+- (id)setIsOnDemand: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void)del:(id)arg1;
+- (void)supportsConfigurationForCombinedRowModel:(id)arg1;
 - (id)kgroundStyle;
 
 // Remaining properties
-@property(nonatomic) __weak id <SearchUICardViewDelegate> cardViewDelegate; // @synthesize cardViewDelegate=_cardViewDelegate;
-@property(nonatomic) __weak id <SearchUICommandDelegate> commandDelegate; // @synthesize commandDelegate=_commandDelegate;
 @property(nonatomic) __weak id <SearchUIFeedbackDelegate> feedbackDelegate; // @synthesize feedbackDelegate=_feedbackDelegate;
-@property(nonatomic) __weak NSViewController *presentingViewController; // @synthesize presentingViewController=_presentingViewController;
-@property(nonatomic) unsigned long long queryId; // @synthesize queryId=_queryId;
-@property(nonatomic) __weak id <SearchUIRowModelViewDelegate> rowModelViewDelegate; // @synthesize rowModelViewDelegate=_rowModelViewDelegate;
-@property(copy, nonatomic) NSString *searchString; // @synthesize searchString=_searchString;
-@property(retain, nonatomic) SFResultSection *section; // @synthesize section=_section;
-@property(copy, nonatomic) NSString *sectionTitle; // @synthesize sectionTitle=_sectionTitle;
-@property(nonatomic) long long selectableGridPunchoutIndex; // @synthesize selectableGridPunchoutIndex=_selectableGridPunchoutIndex;
-@property(nonatomic) _Bool shouldUseInsetRoundedSections; // @synthesize shouldUseInsetRoundedSections=_shouldUseInsetRoundedSections;
-@property(nonatomic) _Bool shouldUseStandardSectionInsets; // @synthesize shouldUseStandardSectionInsets=_shouldUseStandardSectionInsets;
-@property(nonatomic) __weak NSView *sourceView; // @synthesize sourceView=_sourceView;
-@property(nonatomic) _Bool threeDTouchEnabled; // @synthesize threeDTouchEnabled=_threeDTouchEnabled;
-@property(nonatomic) __weak id <SearchUIWatchListDelegate> watchListDelegate; // @synthesize watchListDelegate=_watchListDelegate;
 
 @end
 

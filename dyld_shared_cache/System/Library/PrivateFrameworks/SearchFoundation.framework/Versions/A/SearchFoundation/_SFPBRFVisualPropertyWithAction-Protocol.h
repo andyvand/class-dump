@@ -7,11 +7,11 @@
 @class NSArray, NSData, _SFPBCommandButtonItem;
 
 @protocol _SFPBRFVisualPropertyWithAction
+- (unsigned long long);
+- (_SFPBCommandButtonItem *)%;
+- (NSData *)newUnclusteredFacesFetchOptions;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBCommandButtonItem *commandItem;
-@property(nonatomic) _Bool is_safe_for_logging;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *visual_elements;
 @end
 

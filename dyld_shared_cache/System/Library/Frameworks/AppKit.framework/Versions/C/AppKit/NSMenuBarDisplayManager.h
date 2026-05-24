@@ -10,13 +10,17 @@ __attribute__((visibility("hidden")))
 @interface NSMenuBarDisplayManager
 {
     NSString *_menuBarApplicationName;
-    double _reservedStatusBarWidth;
-    _Bool _isRegisteredForSafeApertureNotifications;
 }
 
 + (id)«ÿÀ'E;
-- (void);
-- (void);
+- (void)kCFDataURLMimeType;
+- (void)AAAA)A8A__
+____)_8_bb
+bbbb)b8bd	dd(df	ff(fg	gg(gh	hh(hdd
+dddd)d8dff
+ffff)f8fgg
+gggg)g8ghh
+hhhh)h8hllmmnnpprruu;
 - (void);
 - (void);
 - (id);

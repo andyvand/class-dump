@@ -7,34 +7,21 @@
 @interface EKUIContextMenuActionInfo
 {
     CDUnknownBlockType _selectionStateBlock;
-    _Bool _showsInEditMenu;
-    unsigned long long _action;
-    unsigned long long _group;
-    unsigned long long _positionInGroup;
-    CDUnknownBlockType _shouldShowBlock;
-    CDUnknownBlockType _configureUIActionBlock;
-    CDUnknownBlockType _actionBlock;
 }
 
+- (id)%s;
 - (id);
-- (id);
+- (CDUnknownBlockType)s;
+- (_Bool)s;
 - (CDUnknownBlockType);
-- (_Bool);
+- (unsigned long long)G&s;
 - (CDUnknownBlockType);
 - (unsigned long long);
-- (CDUnknownBlockType);
 - (unsigned long long);
-- (unsigned long long);
-- (void):totalBytes: /* Error: Ran out of types for this method. */;
+- (void)subscribedCalendarProgressedTo:totalBytes: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long action; // @synthesize action=_action;
-@property(readonly, nonatomic) CDUnknownBlockType actionBlock; // @synthesize actionBlock=_actionBlock;
-@property(readonly, nonatomic) CDUnknownBlockType configureUIActionBlock; // @synthesize configureUIActionBlock=_configureUIActionBlock;
-@property(readonly, nonatomic) unsigned long long group; // @synthesize group=_group;
-@property(readonly, nonatomic) unsigned long long positionInGroup; // @synthesize positionInGroup=_positionInGroup;
-@property(readonly, nonatomic) CDUnknownBlockType shouldShowBlock; // @synthesize shouldShowBlock=_shouldShowBlock;
-@property(readonly, nonatomic) _Bool showsInEditMenu; // @synthesize showsInEditMenu=_showsInEditMenu;
 
 @end
 

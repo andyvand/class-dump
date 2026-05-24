@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMIFaceRecognition, NSArray, NSUUID;
+@class HMIFaceRecognition;
 
 @interface HMITorsoAnnotation
 {
     HMIFaceRecognition *_faceRecognition;
-    NSArray *_torsoprints;
-    NSUUID *_torsoModelVersion;
 }
 
 + (_Bool);
@@ -18,18 +16,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id));
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)@;
 
 // Remaining properties
 @property(readonly) HMIFaceRecognition *faceRecognition; // @synthesize faceRecognition=_faceRecognition;
-@property(readonly) NSUUID *torsoModelVersion; // @synthesize torsoModelVersion=_torsoModelVersion;
-@property(readonly) NSArray *torsoprints; // @synthesize torsoprints=_torsoprints;
 
 @end
 

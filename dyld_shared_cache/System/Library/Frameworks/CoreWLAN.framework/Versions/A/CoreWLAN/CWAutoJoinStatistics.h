@@ -4,40 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSError, NSNumber, NSString;
+@class NSString;
 
 @interface CWAutoJoinStatistics
 {
     NSString *_interfaceName;
-    long long _trigger;
-    NSDate *_startedAt;
-    NSDate *_endedAt;
-    long long _scannedChannelCount;
-    double _scanDuration;
-    NSArray *_joinAttempts;
-    NSError *_error;
-    _Bool _result;
 }
 
 + (_Bool);
 - (void);
 - (void);
-- (long long);
+- (long long)h^;
 - (id);
 - (id);
-- (void);
+- (void)donateRelevantActions:(id)arg1 bundleID:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
 - (double);
 - (id);
-- (void);
+- (void)thStencilState>"24@0:(double)arg1 8@"MTLDepthStencilDescriptor"16;
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (id);
+- (void)J;
+- (void)encodeCopyWeightsToCommandBuffer:(id)arg1 weights:matrixId:matrix:copyFromWeightsToMatrix:matrixOffset: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (_Bool);
 - (id);
@@ -49,16 +41,7 @@
 - (void);
 
 // Remaining properties
-@property(copy) NSDate *endedAt; // @synthesize endedAt=_endedAt;
-@property(copy) NSError *error; // @synthesize error=_error;
 @property(copy) NSString *interfaceName; // @synthesize interfaceName=_interfaceName;
-@property(copy) NSArray *joinAttempts; // @synthesize joinAttempts=_joinAttempts;
-@property _Bool result; // @synthesize result=_result;
-@property double scanDuration; // @synthesize scanDuration=_scanDuration;
-@property long long scannedChannelCount; // @synthesize scannedChannelCount=_scannedChannelCount;
-@property(copy) NSDate *startedAt; // @synthesize startedAt=_startedAt;
-@property(readonly, nonatomic) NSNumber *totalDuration;
-@property long long trigger; // @synthesize trigger=_trigger;
 
 @end
 

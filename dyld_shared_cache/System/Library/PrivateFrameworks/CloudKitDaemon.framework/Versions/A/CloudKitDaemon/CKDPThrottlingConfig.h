@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPThrottlingConfigCriteria, CKDPThrottlingConfigRateLimit, NSString;
+@class CKDPThrottlingConfigCriteria;
 
 @interface CKDPThrottlingConfig
 {
     CKDPThrottlingConfigCriteria *_criteria;
-    NSString *_label;
-    CKDPThrottlingConfigRateLimit *_rateLimit;
-    int _ttlSec;
-    struct {
-        unsigned int ttlSec:1;
-    } _has;
 }
 
 - (int);
@@ -27,29 +21,22 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (id);
+- (unsigned long long)realTimeAudioEngine_audioHoseRegistrarDeregisterHose;
+- (id)ayClock> %###s:Starting network clock [%{ptr}] for session start, usage=%d /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (void)apabilityUsageSQLCacheForTesting:(id)arg1 withDatabase: /* Error: Ran out of types for this method. */;
-- (id)BundleIdentifierForContainerAccess;
+- (void)deviceCapabilityUsageSQLCacheForTesting:(id)arg1 withDatabase: /* Error: Ran out of types for this method. */;
+- (id)_applicationBundleIdentifierForContainerAccess;
 - (void)T@"NSString",&,N,V_processName;
 - (void);
-- (_Bool)atch;
+- (_Bool)potentialMatch;
 
 // Remaining properties
-@property(retain, nonatomic) CKDPThrottlingConfigCriteria *criteria; // @synthesize criteria=_criteria;
-@property(readonly, nonatomic) _Bool hasCriteria;
 @property(readonly, nonatomic) _Bool hasLabel;
-@property(readonly, nonatomic) _Bool hasRateLimit;
-@property(nonatomic) _Bool hasTtlSec;
-@property(retain, nonatomic) NSString *label; // @synthesize label=_label;
-@property(retain, nonatomic) CKDPThrottlingConfigRateLimit *rateLimit; // @synthesize rateLimit=_rateLimit;
-@property(nonatomic) int ttlSec; // @synthesize ttlSec=_ttlSec;
 
 @end
 

@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface RGSiriSchemaRGOverrideEnded : SISchemaInstrumentationMessage
 {
     int _overrideType;
-    NSString *_overrideId;
-    struct {
-        unsigned int overrideType:1;
-    } _has;
-    _Bool _hasOverrideId;
 }
 
 - (void);
@@ -25,25 +18,21 @@
 - (void);
 - (void);
 - (id);
-- (int);
+- (int)C;
 - (_Bool);
 - (void);
-- (unsigned long long);
+- (unsigned long long)y/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDExternalManifestRequest_macOS.m:20 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)leType(IMDMessageRecordRef, Boolean);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id)ToUufrInMs:(id)arg1;
+- (id)addTimeToUufrInMs:(id)arg1;
 - (id)eIntervalSince1970;
 - (void)PlatformRequest.IFPlatformRequestClientEvent.IFPlanCycleGenerated;
 
 // Remaining properties
-@property(nonatomic) _Bool hasOverrideId; // @synthesize hasOverrideId=_hasOverrideId;
-@property(nonatomic) _Bool hasOverrideType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *overrideId; // @synthesize overrideId=_overrideId;
 @property(nonatomic) int overrideType; // @synthesize overrideType=_overrideType;
 
 @end

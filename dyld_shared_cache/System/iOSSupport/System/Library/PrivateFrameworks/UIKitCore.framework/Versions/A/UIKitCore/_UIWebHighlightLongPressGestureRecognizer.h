@@ -13,8 +13,8 @@
 - (id)
 ð!LBù1g1Â0@ù
 × ;
-- (void)ActionView: /* Error: Ran out of types for this method. */;
-- (_Bool)TouchForceMessage;
+- (void)setTrailingPreviewActionView: /* Error: Ran out of types for this method. */;
+- (_Bool)_UITouchForceMessage;
 
 @end
 

@@ -10,12 +10,11 @@ __attribute__((visibility("hidden")))
 @interface NSEphemeralMorphingWindow : _NSSlideAndCrossFadeAnimationProjectionWindow
 {
     id sourceView;
-    id destinationWindow;
 }
 
-- (void);
+- (void)setConfiguration:(double)arg1;
 - (id);
-- (id);
+- (id) ;
 - (id);
 - (id);
 - (struct CGRect);

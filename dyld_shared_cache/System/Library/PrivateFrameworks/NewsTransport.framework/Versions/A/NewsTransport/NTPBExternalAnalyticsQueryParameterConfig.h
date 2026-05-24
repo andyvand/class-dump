@@ -9,30 +9,26 @@
 @interface NTPBExternalAnalyticsQueryParameterConfig
 {
     NSString *_name;
-    NSString *_value;
 }
 
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)15InputTranscoder22PathKeyLayoutProcessor29input_feature_stream_for_pathERKNS_4PathEbjbjE3$_0;
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)";
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void)ongLong: /* Error: Ran out of types for this method. */;
+- (void)NSConcreteAttributedStringAccessibility;
+- (void)numberWithUnsignedLongLong: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasName;
-@property(readonly, nonatomic) _Bool hasValue;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

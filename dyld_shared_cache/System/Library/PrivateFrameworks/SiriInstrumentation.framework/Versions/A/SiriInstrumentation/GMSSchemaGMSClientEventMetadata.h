@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface GMSSchemaGMSClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_gmsId;
-    _Bool _hasGmsId;
 }
 
 - (void);
@@ -21,11 +20,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)6;
+- (unsigned long long)outlineViewItemWillExpand: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)FMFollowingRemovedNotification;
 - (id)Trace";
 - (id)arted",&,N,V_startedOrChanged;
 - (id)Ð¨;
@@ -33,8 +32,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *gmsId; // @synthesize gmsId=_gmsId;
-@property(nonatomic) _Bool hasGmsId; // @synthesize hasGmsId=_hasGmsId;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

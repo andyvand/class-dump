@@ -5,5 +5,10 @@
 //
 
 @protocol AFServiceCommand
+
+@optional
+- (void)z;
+- (void);
+- (id)MutableDictionary",&,N,V_compiledPatterns;
 @end
 

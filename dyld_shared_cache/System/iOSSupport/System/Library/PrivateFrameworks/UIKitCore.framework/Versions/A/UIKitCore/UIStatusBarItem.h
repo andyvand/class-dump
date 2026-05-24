@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface UIStatusBarItem
 {
@@ -13,19 +11,19 @@ __attribute__((visibility("hidden")))
     int _type;
 }
 
-+ (_Bool);
++ (_Bool)lume:(int)arg1 %@ is running on main thread:%@ /* Error: Ran out of types for this method. */;
 + (id);
 + (_Bool);
 + (_Bool);
 + (_Bool);
-- (id);
-- (long long);
-- (long long);
-- (long long);
-- (int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (id)batch, has more work to do, but blocked by low power mode;
+- (long long)y have a chat to upload for groupID:(id)arg1 %@ so we need to compare last message time's;
+- (long long)ed to send to client %@;
+- (long long)user default.;
+- (int)receipt for message:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)only to:%@ from:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)kname to chat;
+- (_Bool)led, not sending personal nickname to chat;
 - (_Bool);
 - (Class);
 - (int);
@@ -39,12 +37,7 @@ __attribute__((visibility("hidden")))
 - (int)4(tþ{Ò©h;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *indicatorName;
-@property(readonly, nonatomic) int leftOrder;
-@property(readonly, nonatomic) int priority;
-@property(readonly, nonatomic) int rightOrder;
 @property(readonly, nonatomic) int type; // @synthesize type=_type;
-@property(readonly, nonatomic) Class viewClass;
 
 @end
 

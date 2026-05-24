@@ -8,18 +8,16 @@ __attribute__((visibility("hidden")))
 @interface AutoCropper
 {
     _Bool shouldFavorBottom;
-    _Bool shouldFavorTop;
-    struct CGSize originalImageSize;
 }
 
 - (_Bool);
-- (_Bool);
+- (_Bool)2;
 - (void);
 - (void);
 - (void);
+- (struct CGRect)ޗ;
 - (struct CGRect);
-- (struct CGRect);
-- (struct CGRect);
+- (struct CGRect)8h;
 - (struct CGRect);
 - (struct CGSize);
 - (struct CGRect);
@@ -29,13 +27,11 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (struct CGRect);
 - (id);
-- (int);
-- (id);
+- (int);
+- (id)+;
 
 // Remaining properties
-@property(nonatomic) struct CGSize originalImageSize; // @synthesize originalImageSize;
 @property(nonatomic) _Bool shouldFavorBottom; // @synthesize shouldFavorBottom;
-@property(nonatomic) _Bool shouldFavorTop; // @synthesize shouldFavorTop;
 
 @end
 

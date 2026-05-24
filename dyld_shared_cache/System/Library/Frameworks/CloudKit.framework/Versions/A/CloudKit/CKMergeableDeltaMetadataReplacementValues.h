@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKMergeableDeltaMetadata, NSDictionary, NSSet;
+@class NSDictionary;
 
 @interface CKMergeableDeltaMetadataReplacementValues
 {
     NSDictionary *_replacementDeltaMetadatas;
-    NSSet *_removableDeltaMetadatas;
-    CKMergeableDeltaMetadata *_updatedNextDeltaMetadata;
 }
 
 - (id);
@@ -24,9 +22,7 @@
 - (void)	;
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *removableDeltaMetadatas; // @synthesize removableDeltaMetadatas=_removableDeltaMetadatas;
 @property(retain, nonatomic) NSDictionary *replacementDeltaMetadatas; // @synthesize replacementDeltaMetadatas=_replacementDeltaMetadatas;
-@property(retain, nonatomic) CKMergeableDeltaMetadata *updatedNextDeltaMetadata; // @synthesize updatedNextDeltaMetadata=_updatedNextDeltaMetadata;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <UIKitServices/UISApplicationInitializationContext.h>
 
-@class FBSSceneIdentityToken, NSSet, UISCompatibilityContext, UISDeviceContext, UISDisplayContext;
+@class UISDisplayContext;
 
 @interface UISMutableApplicationInitializationContext : UISApplicationInitializationContext
 {
@@ -14,23 +14,16 @@
 
 - (void);
 - (void);
+- (void)`39;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)B;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UISCompatibilityContext *compatibilityContext; // @dynamic compatibilityContext;
-@property(retain, nonatomic) FBSSceneIdentityToken *defaultSceneToken; // @dynamic defaultSceneToken;
-@property(retain, nonatomic) UISDeviceContext *deviceContext; // @dynamic deviceContext;
 @property(retain, nonatomic) UISDisplayContext *displayContext; // @dynamic displayContext;
-@property(retain, nonatomic) UISDisplayContext *launchDisplayContext; // @dynamic launchDisplayContext;
-@property(retain, nonatomic) UISDisplayContext *mainDisplayContext; // @dynamic mainDisplayContext;
-@property(retain, nonatomic) NSSet *persistedSceneIdentifiers; // @dynamic persistedSceneIdentifiers;
-@property(nonatomic) _Bool supportAppSceneRequests; // @dynamic supportAppSceneRequests;
 
 @end
 

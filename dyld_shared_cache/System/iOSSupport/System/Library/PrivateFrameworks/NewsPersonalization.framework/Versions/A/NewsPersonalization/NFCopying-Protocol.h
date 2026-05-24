@@ -5,6 +5,6 @@
 //
 
 @protocol NFCopying
-- (id)bleWithKeyOptions:valueOptions: /* Error: Ran out of types for this method. */;
+- (id)mapTableWithKeyOptions:valueOptions: /* Error: Ran out of types for this method. */;
 @end
 

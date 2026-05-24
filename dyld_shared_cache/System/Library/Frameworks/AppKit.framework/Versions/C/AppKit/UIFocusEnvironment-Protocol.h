@@ -5,19 +5,16 @@
 //
 
 @class NSArray, NSString;
-@protocol UIFocusEnvironment, UIFocusItemContainer;
 
 @protocol UIFocusEnvironment
+- (void);
 - (NSArray *);
-- (_Bool)m;
+- (_Bool)NSUtilityZoom;
+
+@optional
+- (NSString *);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *focusGroupIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) id <UIFocusItemContainer> focusItemContainer;
-@property(readonly, nonatomic) __weak id <UIFocusEnvironment> parentFocusEnvironment;
 @property(readonly, copy, nonatomic) NSArray *preferredFocusEnvironments;
 @end
 

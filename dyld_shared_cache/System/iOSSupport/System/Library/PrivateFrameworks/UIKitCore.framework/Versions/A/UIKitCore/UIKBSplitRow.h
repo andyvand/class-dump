@@ -4,39 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableArray, UIKBTree;
-
 __attribute__((visibility("hidden")))
 @interface UIKBSplitRow
 {
     unsigned char _rowIndex;
-    double _rowOffset;
-    double _rowWidth;
-    struct CGSize _defaultKeySize;
-    NSMutableArray *_keys;
-    NSMutableArray *_vacancies;
-    NSDictionary *_hints;
-    UIKBTree *_keylistLeft;
-    UIKBTree *_geolistLeft;
-    UIKBTree *_attrlistLeft;
-    UIKBTree *_keylistRight;
-    UIKBTree *_geolistRight;
-    UIKBTree *_attrlistRight;
 }
 
+- (void);
 - (void);
-- (void);
-- (void);
-- (double);
-- (id);
-- (struct CGSize);
+- (void)ning invalid for this notice. error:(struct CGSize)arg1 %@;
+- (double)omplete  (Succeeded:%@) /* Error: Ran out of types for this method. */;
+- (id)%@ account %@ %@;
+- (struct CGSize)nd chats to sync; fetched chats failed to encode as CKRecord;
 - (void);
 - (id);
 - (double);
 - (void);
 - (unsigned char);
-- (id);
-- (void);
+- (id)payloadAllowCloudReminders;
+- (void)nfiguration.account.subscribedcalendar;
 - (id);
 - (id);
 - (id)canOnlyHandleReordering;
@@ -44,12 +30,7 @@ __attribute__((visibility("hidden")))
 - (void)£f;
 
 // Remaining properties
-@property struct CGSize defaultKeySize; // @synthesize defaultKeySize=_defaultKeySize;
-@property(retain) NSDictionary *hints; // @synthesize hints=_hints;
-@property(readonly) NSMutableArray *keys; // @synthesize keys=_keys;
 @property(nonatomic) unsigned char rowIndex; // @synthesize rowIndex=_rowIndex;
-@property double rowOffset; // @synthesize rowOffset=_rowOffset;
-@property double rowWidth; // @synthesize rowWidth=_rowWidth;
 
 @end
 

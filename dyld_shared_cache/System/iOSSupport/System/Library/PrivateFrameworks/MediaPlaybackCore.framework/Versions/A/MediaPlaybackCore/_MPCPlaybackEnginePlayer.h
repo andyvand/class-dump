@@ -4,44 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayerViewController, MPAVItem, MPCAVItemTrace, MPCExternalPlaybackController, MPCItemBookmarker, MPCLeaseController, MPCPlaybackEngine, MPCPlaybackErrorController, MPCPlayerItemConfigurator, NSDictionary, NSMutableArray, NSNumber, NSString;
-@protocol MFAssetLoading, MFPlaybackStackController><MFQueueManagement><MFPlaybackStackController_IPI, MFQueueControlling;
+@class NSMutableArray;
+@protocol MFPlaybackStackController><MFQueueManagement><MFPlaybackStackController_IPI;
 
 __attribute__((visibility("hidden")))
 @interface _MPCPlaybackEnginePlayer
 {
     NSMutableArray *_mediaServicesWaitingBlocks;
-    id _avPlayerItemMetricSubscription;
-    _Bool _autoPlayWhenLikelyToKeepUp;
-    _Bool _reloadingPlaybackContext;
-    _Bool _lastReportedVocalAttenuationEnabledState;
-    MPCPlaybackEngine *_playbackEngine;
-    long long _jumpIdentifier;
-    id <MFPlaybackStackController><MFQueueManagement><MFPlaybackStackController_IPI> _playbackStackController;
-    MPCItemBookmarker *_bookmarker;
-    id <MFQueueControlling> _translator;
-    MPCPlaybackErrorController *_errorController;
-    MPCExternalPlaybackController *_externalPlaybackController;
-    id <MFAssetLoading> _assetLoader;
-    MPCLeaseController *_leaseController;
-    MPCPlayerItemConfigurator *_configurator;
-    unsigned long long _stateHandle;
-    MPCAVItemTrace *_playbackStartTrace;
-    NSNumber *_currentRelativeVolume;
-    NSNumber *_currentIsMuted;
-    long long _applicationMusicPlayerTransitionType;
-    double _applicationMusicPlayerCrossFadeDuration;
-    NSMutableArray *_criticalSectionAssertions;
 }
 
 + (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
+- (void)ccountCredential"48@0:(id)arg1 8@"ACAccount"16@"ACDClient"24@"ACDAccountStore"32^@40;
+- (void)16@0:(long long)arg1 8;
+- (void)debugDescription;
+- (void)_accountAccessIsAllowedForAccount:(id)arg1 client:(id)arg2;
+- (void)_accountAccessIsAllowedForAccount:(id)arg1 client: /* Error: Ran out of types for this method. */;
+- (void)or CloudKit Accounts;
+- (double)t!;
 - (void);
 - (void);
 - (void);
@@ -56,6 +35,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)Management.framework/Versions/A/DeviceManagement;
+- (void);
+- (void);
+- (void)__DATA_CONST;
 - (void);
 - (void);
 - (void);
@@ -66,31 +49,27 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)6@?24;
+- (void)tring"16@0:(_Bool)arg1 8;
+- (void)canSaveAccount:(long long)arg1 inStore:(id)arg2 error: /* Error: Ran out of types for this method. */;
+- (void)account:(float)arg1 willPerformActionsForDataclasses:(id)arg2;
+- (void)|S;
+- (void)nabling mail dataclass;
+- (void)IMAP Mail Account change:(double)arg1 Cannot auto enable mail dataclass;
+- (id)MAP Mail Account change:Mail dataclass not provisioned /* Error: Ran out of types for this method. */;
+- (id)ange:Parent account is not an Apple Account /* Error: Ran out of types for this method. */;
+- (void)ail Account change:(float)arg1 Account wasn't added;
+- (void);
+- (void)DisableCloudSync;
+- (void)DisableRemindersiCloudSetting;
+- (void)DisableBookmarksiCloudSetting;
+- (void)nt.dataclass-enable.txn;
+- (void)ccount:(id)arg1 completion:] /* Error: Ran out of types for this method. */;
+- (void)dataclass;
+- (void)Manager _isDataclassSupportedForCurrentRegion:(float)arg1 ];
+- (void).stocks;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)-;
 - (void);
 - (void);
 - (void);
@@ -104,11 +83,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)L;
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)4;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -126,13 +105,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
+- (void)(;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -144,35 +123,35 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)ions/A/AccountsDaemon;
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (long long);
-- (double);
+- (double)__DATA_CONST;
+- (void);
+- (void);
+- (_Bool),;
+- (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
 - (_Bool);
-- (_Bool);
-- (void);
-- (double);
+- (void)setCloudPhotoLibraryEnabled:(id)arg1;
+- (double)rary bundle %@;
+- (id)lbum for modified account %@;
+- (void)und library:(id)arg1 %@;
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)speed;
+- (void)AppStoreKit;
 - (float);
 - (void);
 - (id);
@@ -182,54 +161,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (void);
-- (void);
+- (void);
 - (id);
 - (double);
 - (void);
-- (void)tPreferredFormat:(unsigned long long)arg1;
+- (void)setPreferredFormat:(unsigned long long)arg1;
 - (_Bool);
 - (unsigned long long);
 - (void)completion:| committing edit [update for move before] /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *_stateDictionary;
-@property(nonatomic) double applicationMusicPlayerCrossFadeDuration; // @synthesize applicationMusicPlayerCrossFadeDuration=_applicationMusicPlayerCrossFadeDuration;
-@property(nonatomic) long long applicationMusicPlayerTransitionType; // @synthesize applicationMusicPlayerTransitionType=_applicationMusicPlayerTransitionType;
-@property(retain, nonatomic) id <MFAssetLoading> assetLoader; // @synthesize assetLoader=_assetLoader;
-@property(nonatomic) _Bool autoPlayWhenLikelyToKeepUp; // @synthesize autoPlayWhenLikelyToKeepUp=_autoPlayWhenLikelyToKeepUp;
-@property(retain, nonatomic) MPCItemBookmarker *bookmarker; // @synthesize bookmarker=_bookmarker;
-@property(retain, nonatomic) MPCPlayerItemConfigurator *configurator; // @synthesize configurator=_configurator;
-@property(retain, nonatomic) NSMutableArray *criticalSectionAssertions; // @synthesize criticalSectionAssertions=_criticalSectionAssertions;
-@property(copy, nonatomic) NSNumber *currentIsMuted; // @synthesize currentIsMuted=_currentIsMuted;
-@property(readonly, nonatomic) MPAVItem *currentItem;
-@property(readonly, nonatomic) float currentRate;
-@property(copy, nonatomic) NSNumber *currentRelativeVolume; // @synthesize currentRelativeVolume=_currentRelativeVolume;
-@property(readonly, nonatomic) double currentTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) MPCPlaybackErrorController *errorController; // @synthesize errorController=_errorController;
-@property(retain, nonatomic) MPCExternalPlaybackController *externalPlaybackController; // @synthesize externalPlaybackController=_externalPlaybackController;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isMuted;
-@property(nonatomic) long long jumpIdentifier; // @synthesize jumpIdentifier=_jumpIdentifier;
-@property(nonatomic) _Bool lastReportedVocalAttenuationEnabledState; // @synthesize lastReportedVocalAttenuationEnabledState=_lastReportedVocalAttenuationEnabledState;
-@property(retain, nonatomic) MPCLeaseController *leaseController; // @synthesize leaseController=_leaseController;
-@property(readonly, nonatomic) __weak MPCPlaybackEngine *playbackEngine; // @synthesize playbackEngine=_playbackEngine;
 @property(retain, nonatomic) id <MFPlaybackStackController><MFQueueManagement><MFPlaybackStackController_IPI> playbackStackController; // @synthesize playbackStackController=_playbackStackController;
-@property(retain, nonatomic) MPCAVItemTrace *playbackStartTrace; // @synthesize playbackStartTrace=_playbackStartTrace;
-@property(readonly, nonatomic) AVPlayerViewController *playerViewController;
-@property(nonatomic) float relativeVolume;
-@property(readonly, nonatomic, getter=isReloadingPlaybackContext) _Bool reloadingPlaybackContext; // @synthesize reloadingPlaybackContext=_reloadingPlaybackContext;
-@property(readonly, nonatomic) long long state;
-@property(readonly, nonatomic) long long stateBeforeInterruption;
-@property(nonatomic) unsigned long long stateHandle; // @synthesize stateHandle=_stateHandle;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <MFQueueControlling> translator; // @synthesize translator=_translator;
-@property(readonly, nonatomic) _Bool videoEnabled;
 
 @end
 

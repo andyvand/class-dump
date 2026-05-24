@@ -15,12 +15,12 @@
 + (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)!;
 - (struct CGPoint);
 - (_Bool);
 - (id);
-- (id);
-- (unsigned long long);
+- (id);
+- (unsigned long long)(;
 - (id);
 
 @end

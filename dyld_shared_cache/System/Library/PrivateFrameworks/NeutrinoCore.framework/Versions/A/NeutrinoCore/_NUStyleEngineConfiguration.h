@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CMIStyleEngineConfiguration, NSDictionary, NSString;
+@class CMIStyleEngineConfiguration;
 
 @interface _NUStyleEngineConfiguration
 {
     CMIStyleEngineConfiguration *_styleEngineConfiguration;
-    NSString *_usage;
 }
 
 + (struct CGSize);
@@ -19,7 +18,7 @@
 - (struct CGSize);
 - (CDStruct_912cb5d2);
 - (unsigned long long);
-- (id);
+- (id)ze;
 - (id);
 - (_Bool);
 - (id);
@@ -31,12 +30,7 @@
 - (void)!= NULL;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long coefficientBufferSize;
-@property(readonly, nonatomic) struct CGSize coefficientTextureSize;
-@property(readonly, nonatomic) NSDictionary *configurationDictionary;
 @property(readonly, nonatomic) CMIStyleEngineConfiguration *styleEngineConfiguration; // @synthesize styleEngineConfiguration=_styleEngineConfiguration;
-@property(readonly, nonatomic) struct CGSize thumbnailSize;
-@property(copy, nonatomic) NSString *usage; // @synthesize usage=_usage;
 
 @end
 

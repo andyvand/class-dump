@@ -5,5 +5,6 @@
 //
 
 @protocol ClientCallsAuxiliary
+- (void)B;
 @end
 

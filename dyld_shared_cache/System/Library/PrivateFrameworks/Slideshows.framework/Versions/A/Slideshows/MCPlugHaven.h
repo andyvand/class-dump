@@ -6,16 +6,15 @@
 
 #import <Slideshows/MCPlug.h>
 
-@class MCAction, MCContainerNavigator, NSString;
+@class NSString;
 
 @interface MCPlugHaven : MCPlug
 {
     NSString *mIDInSupercontainer;
-    MCContainerNavigator *mSupercontainer;
 }
 
 - (id);
-- (void);
+- (void){;
 - (void);
 - (void);
 - (id);
@@ -27,9 +26,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) MCAction *actionOnCompletion;
 @property(copy, getter=idInSupercontainer, setter=setIDInSupercontainer:) NSString *idInSupercontainer; // @synthesize idInSupercontainer=mIDInSupercontainer;
-@property MCContainerNavigator *supercontainer; // @synthesize supercontainer=mSupercontainer;
 
 @end
 

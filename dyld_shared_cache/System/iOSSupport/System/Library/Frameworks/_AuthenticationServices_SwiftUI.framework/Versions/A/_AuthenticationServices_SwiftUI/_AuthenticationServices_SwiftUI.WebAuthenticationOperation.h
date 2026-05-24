@@ -8,13 +8,9 @@
 {
     id authenticationCompletionHandler;
     id presentationAnchorProvider;
-    id requestContext;
-    id stateStorage;
-    id authenticationSession;
-    id presentationContextProvider;
 }
 
-- (id);
+- (id)cachedDate;
 - (void);
 - (void);
 - (_Bool);
@@ -25,7 +21,6 @@
 // Remaining properties
 @property(nonatomic, readonly) _Bool asynchronous;
 @property(nonatomic, readonly) _Bool executing;
-@property(nonatomic, readonly) _Bool finished;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol MSPQuerySourceObserver
+- (void)l;
 @end
 

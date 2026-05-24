@@ -6,18 +6,15 @@
 
 #import <EmbeddedAcousticRecognition/_EARLmModel.h>
 
-@class NSString;
-
 @interface _EARNgramLmModel : _EARLmModel
 {
     shared_ptr_33ae5576 _ngramModel;
-    shared_ptr_638ae3ea _ngramBuildConfig;
 }
 
 + (void)U;
 - (_Bool);
-- (shared_ptr_33ae5576);
-- (shared_ptr_638ae3ea);
+- (shared_ptr_33ae5576);
+- (shared_ptr_e6ed261e);
 - (id);
 - (id);
 - (id);
@@ -28,8 +25,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *arpaFileName;
-@property(readonly, nonatomic) shared_ptr_638ae3ea ngramBuildConfig; // @synthesize ngramBuildConfig=_ngramBuildConfig;
 @property(readonly, nonatomic) shared_ptr_33ae5576 ngramModel; // @synthesize ngramModel=_ngramModel;
 
 @end

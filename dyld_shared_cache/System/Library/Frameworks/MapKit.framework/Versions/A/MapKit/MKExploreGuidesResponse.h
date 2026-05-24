@@ -4,33 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOExploreGuides, GEOExploreGuidesLookupResult, NSString, NSURL;
+@class GEOExploreGuides, GEOExploreGuidesLookupResult;
 
 @interface MKExploreGuidesResponse
 {
     GEOExploreGuidesLookupResult *_exploreGuidesLookupResult;
-    GEOExploreGuides *_exploreGuides;
-    NSString *_title;
-    NSString *_subtitle;
-    NSString *_imageTemplateURL;
-    NSURL *_punchInURL;
 }
 
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)_vendorIDSource;
+- (id)ctivate completed;
+- (id)_kM;
 - (_Bool);
 - (id);
 - (id);
-- (void)idStopPanning:willDecelerate: /* Error: Ran out of types for this method. */;
+- (void)gestureControllerDidStopPanning:willDecelerate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) GEOExploreGuides *exploreGuides; // @synthesize exploreGuides=_exploreGuides;
-@property(readonly, copy, nonatomic) NSString *imageTemplateURL; // @synthesize imageTemplateURL=_imageTemplateURL;
-@property(readonly, nonatomic) NSURL *punchInURL; // @synthesize punchInURL=_punchInURL;
-@property(readonly, copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

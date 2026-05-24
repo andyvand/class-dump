@@ -10,10 +10,9 @@ __attribute__((visibility("hidden")))
 @interface MLProbabilityDictionaryArrayStorage
 {
     NSArray *_array;
-    unsigned long long _count;
 }
 
-- (id);
+- (id)MTLRenderPipelineDescriptor;
 - (unsigned long long);
 - (id);
 - (unsigned long long)!Fù±þ0ð1Â0@ù

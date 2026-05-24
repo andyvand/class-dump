@@ -4,43 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView, VKMapView;
+@class UIView, VKMapView;
 
 __attribute__((visibility("hidden")))
 @interface MKBasicMapView
 {
     UIView *_hostView;
-    VKMapView *_mapView;
-    double _mapModeStartTime;
-    double _trafficStartTime;
-    long long _changingViewSizeCount;
-    _Bool _inactive;
-    _Bool _hasRenderedSomething;
-    _Bool _inBackground;
-    _Bool _fullyEnteredBackground;
 }
 
 - (void);
+- (void)`;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)qa;
 - (void);
 - (id);
-- (void);
-- (struct UIEdgeInsets);
-- (void);
-- (void);
+- (void)qA;
+- (struct UIEdgeInsets)9;
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool))Q;
 - (void);
 - (_Bool);
 - (void);
@@ -52,47 +44,32 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (struct CGPoint);
-- (void);
+- (void)b;
 - (void);
 - (struct CGSize);
 - (void);
-- (struct CGPoint);
+- (struct CGPoint)navigationController;
+- (void)_disclosureImageView;
+- (_Bool);
+- (void)aliases;
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)4;
 - (double);
 - (void)áâ
 °!HGùqð1Â0@ù
 × ;
-- (_Bool)ndBatchOfCollections: /* Error: Ran out of types for this method. */;
+- (_Bool)appendBatchOfCollections: /* Error: Ran out of types for this method. */;
 - (void)_polygons;
-- (id)ler: /* Error: Ran out of types for this method. */;
-- (struct CLLocationCoordinate2D):(struct CGPoint)arg1;
+- (id)URLSession:task:didReceiveChallenge:completionHandler: /* Error: Ran out of types for this method. */;
+- (struct CLLocationCoordinate2D)zoomIn:(struct CGPoint)arg1;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isChangingViewSize) _Bool changingViewSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) struct UIEdgeInsets edgeInsets;
-@property(nonatomic) _Bool hasRenderedSomething; // @synthesize hasRenderedSomething=_hasRenderedSomething;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isInBackground) _Bool inBackground; // @synthesize inBackground=_inBackground;
-@property(nonatomic) _Bool inactive; // @synthesize inactive=_inactive;
-@property(nonatomic) double mapModeStartTime; // @synthesize mapModeStartTime=_mapModeStartTime;
 @property(readonly, nonatomic) VKMapView *mapView; // @synthesize mapView=_mapView;
-@property(nonatomic) _Bool rendersInBackground;
-@property(readonly) Class superclass;
-@property(nonatomic) double trafficStartTime; // @synthesize trafficStartTime=_trafficStartTime;
 
 @end
 

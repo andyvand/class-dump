@@ -4,32 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioSession, MPNowPlayingInfoCenter, MPRemoteCommandCenter, MRPlayerPath, NSArray, NSDictionary, NSMutableSet, NSObject, NSSet, NSString;
-@protocol MPNowPlayingSessionDelegate, OS_dispatch_queue;
-
 @interface MPNowPlayingSession
 {
     _Bool _invalidated;
-    AVAudioSession *_audioSession;
-    _Bool _automaticallyPublishesNowPlayingInfo;
-    _Bool _canBecomeActive;
-    _Bool _active;
-    _Bool _pictureInPictureEnabled;
-    id <MPNowPlayingSessionDelegate> _delegate;
-    MPNowPlayingInfoCenter *_nowPlayingInfoCenter;
-    MPRemoteCommandCenter *_remoteCommandCenter;
-    NSMutableSet *_playerSet;
-    NSArray *_currentAdTimeRanges;
-    double _currentAssetNetDuration;
-    double _currentAssetNetCreditsStartTime;
-    NSDictionary *_baseNowPlayingInfo;
-    NSObject<OS_dispatch_queue> *_privateQueue;
-    id _creditsTimeObserverToken;
-    id _adTimeRangesStartObserverToken;
-    id _adTimeRangesEndObserverToken;
-    NSSet *_mxSessionIDs;
-    NSString *_routingContextID;
-    MRPlayerPath *_playerPath;
 }
 
 + (id);
@@ -64,13 +41,13 @@
 - (id);
 - (id);
 - (_Bool);
+- (void)C;
 - (void);
-- (void);
-- (float);
+- (float);
 - (double);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
@@ -84,45 +61,25 @@
 - (id);
 - (double);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void);
+- (id);
+- (void)m %@ as it is not enabled.;
 - (void);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (void);
-- (id);
+- (id)unsafePublisher;
+- (void);
+- (id)@;
 - (_Bool);
 - (void);
-- (void)dList;
-- (void)ISSING__;
+- (void)_shuffledList;
+- (void)__MPModelPropertyPlaylistIsFavorite__MAPPING_MISSING__;
 - (id)\hü;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
-@property(retain, nonatomic) id adTimeRangesEndObserverToken; // @synthesize adTimeRangesEndObserverToken=_adTimeRangesEndObserverToken;
-@property(retain, nonatomic) id adTimeRangesStartObserverToken; // @synthesize adTimeRangesStartObserverToken=_adTimeRangesStartObserverToken;
-@property(readonly, nonatomic) AVAudioSession *audioSession;
-@property(nonatomic) _Bool automaticallyPublishesNowPlayingInfo; // @synthesize automaticallyPublishesNowPlayingInfo=_automaticallyPublishesNowPlayingInfo;
-@property(retain, nonatomic) NSDictionary *baseNowPlayingInfo; // @synthesize baseNowPlayingInfo=_baseNowPlayingInfo;
 @property(nonatomic) _Bool canBecomeActive; // @synthesize canBecomeActive=_canBecomeActive;
-@property(retain, nonatomic) id creditsTimeObserverToken; // @synthesize creditsTimeObserverToken=_creditsTimeObserverToken;
-@property(retain, nonatomic) NSArray *currentAdTimeRanges; // @synthesize currentAdTimeRanges=_currentAdTimeRanges;
-@property(nonatomic) double currentAssetNetCreditsStartTime; // @synthesize currentAssetNetCreditsStartTime=_currentAssetNetCreditsStartTime;
-@property(nonatomic) double currentAssetNetDuration; // @synthesize currentAssetNetDuration=_currentAssetNetDuration;
-@property(nonatomic) __weak id <MPNowPlayingSessionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NSSet *mxSessionIDs; // @synthesize mxSessionIDs=_mxSessionIDs;
-@property(retain, nonatomic) MPNowPlayingInfoCenter *nowPlayingInfoCenter; // @synthesize nowPlayingInfoCenter=_nowPlayingInfoCenter;
-@property(nonatomic, getter=isPictureInPictureEnabled) _Bool pictureInPictureEnabled; // @synthesize pictureInPictureEnabled=_pictureInPictureEnabled;
-@property(readonly, nonatomic) MRPlayerPath *playerPath; // @synthesize playerPath=_playerPath;
-@property(retain, nonatomic) NSMutableSet *playerSet; // @synthesize playerSet=_playerSet;
-@property(readonly, nonatomic) NSArray *players;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *privateQueue; // @synthesize privateQueue=_privateQueue;
-@property(readonly, nonatomic) MPRemoteCommandCenter *remoteCommandCenter; // @synthesize remoteCommandCenter=_remoteCommandCenter;
-@property(readonly, nonatomic) NSString *routingContextID; // @synthesize routingContextID=_routingContextID;
 
 @end
 

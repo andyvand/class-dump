@@ -6,46 +6,12 @@
 
 #import <AVConference/VCVideoCapture.h>
 
-@class NSMutableDictionary, NSObject, NSString;
-@protocol VCScreenCaptureSource;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface VCScreenCapture : VCVideoCapture
 {
     NSMutableDictionary *_options;
-    NSObject<VCScreenCaptureSource> *_screenCapture;
-    long long _captureSourceID;
-    struct _opaque_pthread_mutex_t _screenCaptureLock;
-    _Bool _isClearScreenThreadRunning;
-    struct _opaque_pthread_t *_clearScreenProc;
-    struct _opaque_pthread_cond_t _clearScreenChanged;
-    struct opaqueCMSampleBuffer *_blackFrame;
-    _Bool _isPreviewing;
-    _Bool _isCapturing;
-    _Bool _capturePaused;
-    int _captureFramerate;
-    struct _opaque_pthread_mutex_t _clearScreenLock;
-    _Bool _shouldSendBlackFramesOnClearScreen;
-    _Bool _isPreviousCompleteFrameBlack;
-    struct opaqueCMSampleBuffer *_previousCompleteFrame;
-    unsigned int _previousCompleteFrameTransform;
-    CDStruct_1b6d18a9 _previousFrameTime;
-    _Bool _shouldClearScreen;
-    struct __CVPixelBufferPool *_resizeBufferPool;
-    struct OpaqueVTPixelTransferSession *_resizeTransferSession;
-    struct OpaqueVTPixelRotationSession *_rotationSession;
-    struct __CVPixelBufferPool *_rotationBufferPool;
-    int _captureWidth;
-    int _captureHeight;
-    unsigned int _currentTransform;
-    _Bool _enableIdleFrameTimeAdjustments;
-    int _frameCount;
-    _Bool _receivedFirstFrame;
-    int _resolutionScaling;
-    _Bool _shouldResize;
-    _Bool _shouldResizeInitialized;
-    _Bool _shouldValidateFrameTimingAfterIdle;
-    unsigned int _nonIdleFramesDropped;
 }
 
 - (int);
@@ -57,14 +23,14 @@ __attribute__((visibility("hidden")))
 - (int);
 - (void);
 - (void);
-- (void);
+- (void)N;
 - (void);
 - (struct opaqueCMSampleBuffer *);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id){;
 - (int);
 - (int);
 - (int);
@@ -76,18 +42,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (int);
 - (int);
-- (void);
+- (void);
 - (int);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) _Bool isClearScreenThreadRunning; // @synthesize isClearScreenThreadRunning=_isClearScreenThreadRunning;
-@property(readonly) Class superclass;
 
 @end
 

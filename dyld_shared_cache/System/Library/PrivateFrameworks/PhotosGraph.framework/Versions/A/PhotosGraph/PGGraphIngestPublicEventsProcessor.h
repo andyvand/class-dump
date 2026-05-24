@@ -4,34 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PGGraphBuilder, PGPublicEventDisambiguator;
+@class PGGraphBuilder;
 
 @interface PGGraphIngestPublicEventsProcessor
 {
     PGGraphBuilder *_graphBuilder;
-    PGPublicEventDisambiguator *_disambiguator;
 }
 
-+ (unsigned long long);
++ (unsigned long long)"16;
 - (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)sharedMultipleLinesTracker;
+- (id);
+- (void)H@9x;
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (void)ode<PGGraphEvent>"24;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

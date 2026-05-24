@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSImage;
+@class NSImage;
 
 __attribute__((visibility("hidden")))
 @interface FavoritesPickerImageResponse
 {
     NSImage *_image;
-    NSColor *_themeColor;
 }
 
-+ (id);
++ (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)ottom;
+- (id)dictionaryWithObjects:(id)arg1 forKeys:count: /* Error: Ran out of types for this method. */;
 - (void)Ð;
 
 // Remaining properties
 @property(readonly, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(readonly, nonatomic) NSColor *themeColor; // @synthesize themeColor=_themeColor;
 
 @end
 

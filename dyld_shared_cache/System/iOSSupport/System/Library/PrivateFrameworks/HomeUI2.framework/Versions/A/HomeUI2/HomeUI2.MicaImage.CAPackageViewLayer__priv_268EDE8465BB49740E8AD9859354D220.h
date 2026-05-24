@@ -7,6 +7,7 @@
 @interface HomeUI2.MicaImage.CAPackageViewLayer__priv_268EDE8465BB49740E8AD9859354D220
 {
     id packageLayer;
+    id;
 }
 
 - (id);

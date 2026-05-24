@@ -12,15 +12,15 @@
 }
 
 + (id);
+- (void)_widthConstraint;
+- (id);
+- (void)e;
 - (void);
-- (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)me for mentions without a note;
+- (id)want to move these shared folders?;
+- (id)|;
+- (id)ng display name for %{public}@ %p:(struct CGRect)arg1 %{private}@;
 - (void)8&$ÿ;
 
 // Remaining properties

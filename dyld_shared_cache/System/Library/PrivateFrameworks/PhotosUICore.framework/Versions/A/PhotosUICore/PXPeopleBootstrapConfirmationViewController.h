@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString, NSTimer, PXPeopleBootstrapContext, PXPeopleBootstrapPreviewItem, PXPeopleSuggestionManager;
-@protocol OS_dispatch_queue, PXPeopleFlowViewControllerActionDelegate;
+@class PXPeopleSuggestionManager;
 
 @interface PXPeopleBootstrapConfirmationViewController
 {
     _Bool _useLowMemoryMode;
-    _Bool _suggestionsPresented;
-    _Bool _willAppear;
-    _Bool _hasSelectionEverChanged;
-    PXPeopleBootstrapContext *_bootstrapContext;
-    id <PXPeopleFlowViewControllerActionDelegate> actionDelegate;
-    PXPeopleSuggestionManager *_suggestionManager;
-    NSArray *_currentSuggestions;
-    NSTimer *_loadingDelayTimer;
-    unsigned long long _viewState;
-    unsigned long long _type;
-    PXPeopleBootstrapPreviewItem *_previewItem;
-    NSObject<OS_dispatch_queue> *_presentationQueue;
-    struct CGSize _lastSize;
 }
 
 - (void);
@@ -33,7 +19,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)R;
 - (void);
 - (void);
 - (void);
@@ -72,17 +58,17 @@
 - (struct CGSize);
 - (id);
 - (unsigned long long);
-- (void);
+- (void);
 - (void);
 - (struct CGSize);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)t;
 - (id);
 - (void);
-- (struct CGRect);
+- (struct CGRect)Ԉ;
 - (unsigned long long);
 - (_Bool);
 - (struct CGSize);
@@ -90,60 +76,27 @@
 × ;
 - (void)0@ù
 × ;
-- (id)ckRequired;
-- (long long)auseResolutionActionConfirmationAlertTitle:(id)arg1;
-- (long long):(id)arg1;
-- (struct NSEdgeInsets)uldHorizontallyCenterPlayButton;
-- (void)icDiagnostics:(unsigned long long)arg1;
+- (id)userSafetyInterventionCheckRequired;
+- (long long)setPauseResolutionActionConfirmationAlertTitle:(id)arg1;
+- (long long)hitTest:(id)arg1;
+- (struct NSEdgeInsets)_shouldHorizontallyCenterPlayButton;
+- (void)_addCinematicDiagnostics:(unsigned long long)arg1;
 - (struct CGSize)SelectionDataSource",&,N,V_dataSource;
 - (long long)N,V_selectedIndexPaths;
 - (void),R,V_collectionsFetchResult;
 - (id)\&÷ÿ;
 - (void)Ü;÷ÿ
 ûÿ;
-- (struct CGSize)IntroCompactLandscape;
+- (struct CGSize)_cameraZIntroCompactLandscape;
 - (void)dex %ld;
-- (_Bool)UntitledAlbums;
+- (_Bool)LemonadeCollectionCustomizationCollectionTitleUntitledAlbums;
 - (void)¬È;
 - (id)AMTÏ;;
 - (id)IûS X=;
 - (void)ÔÛ¬ÿ;
 
 // Remaining properties
-@property(nonatomic) __weak id <PXPeopleFlowViewControllerActionDelegate> actionDelegate; // @synthesize actionDelegate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<PXPeopleFlowViewControllerActionDelegate>",?,W,N,VactionDelegate
-
-@property(readonly, nonatomic) PXPeopleBootstrapContext *bootstrapContext; // @synthesize bootstrapContext=_bootstrapContext;
-@property(retain, nonatomic) NSArray *currentSuggestions; // @synthesize currentSuggestions=_currentSuggestions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasSelectionEverChanged; // @synthesize hasSelectionEverChanged=_hasSelectionEverChanged;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct CGSize lastSize; // @synthesize lastSize=_lastSize;
-@property(retain, nonatomic) NSTimer *loadingDelayTimer; // @synthesize loadingDelayTimer=_loadingDelayTimer;
-@property(readonly, nonatomic) struct CGSize preferredSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGSize=dd},?,R,N
-
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *presentationQueue; // @synthesize presentationQueue=_presentationQueue;
-@property(readonly, nonatomic) NSArray *presentationStatuses;
-@property(retain, nonatomic) PXPeopleBootstrapPreviewItem *previewItem; // @synthesize previewItem=_previewItem;
-@property(readonly, nonatomic) _Bool shouldConfirmAdvancement;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(readonly, nonatomic) PXPeopleSuggestionManager *suggestionManager; // @synthesize suggestionManager=_suggestionManager;
-@property(nonatomic) _Bool suggestionsPresented; // @synthesize suggestionsPresented=_suggestionsPresented;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(nonatomic) _Bool useLowMemoryMode; // @synthesize useLowMemoryMode=_useLowMemoryMode;
-@property(nonatomic) unsigned long long viewState; // @synthesize viewState=_viewState;
-@property(readonly, nonatomic) _Bool wantsCancelButton;
-@property(nonatomic) _Bool willAppear; // @synthesize willAppear=_willAppear;
 
 @end
 

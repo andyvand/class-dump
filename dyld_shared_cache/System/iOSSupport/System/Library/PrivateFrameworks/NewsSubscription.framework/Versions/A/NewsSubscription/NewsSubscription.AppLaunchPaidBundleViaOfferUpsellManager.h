@@ -7,12 +7,6 @@
 @interface NewsSubscription.AppLaunchPaidBundleViaOfferUpsellManager
 {
     id configurationManager;
-    id appLaunchUpsellTracker;
-    id router;
-    id completionEventManager;
-    id paidBundleViaOfferFeatureAvailability;
-    id paidBundleViaOfferHandler;
-    id offlineProvider;
 }
 
 - (void);

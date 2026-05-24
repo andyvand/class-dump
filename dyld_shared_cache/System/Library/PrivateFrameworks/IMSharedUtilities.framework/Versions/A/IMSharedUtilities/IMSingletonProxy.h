@@ -7,8 +7,6 @@
 @interface IMSingletonProxy
 {
     id _singleton;
-    id _singletonOverride;
-    Class _overrideClass;
 }
 
 + (void)ramework/Contents/MacOS/IMFoundation;
@@ -19,7 +17,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)_wastedTokens;
 - (void);
 
 @end

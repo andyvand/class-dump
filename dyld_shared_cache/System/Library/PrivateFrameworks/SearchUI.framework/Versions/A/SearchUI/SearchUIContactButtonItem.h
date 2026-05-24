@@ -11,7 +11,6 @@
 @interface SearchUIContactButtonItem : SearchUIButtonItem
 {
     CNContactQuickActionsController *_quickActionsController;
-    NSString *_actionType;
 }
 
 - (void);
@@ -22,13 +21,12 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (void);
+- (void)queryOperationWithCursor:(id)arg1 desiredKeys:options:recordMatchedBlock:queryCompletionBlock: /* Error: Ran out of types for this method. */;
+- (id)iled to create reference-managed directory at %{public}@ for factor;
+- (void)`;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *actionType; // @synthesize actionType=_actionType;
-@property(retain, nonatomic) CNContactQuickActionsController *quickActionsController; // @synthesize quickActionsController=_quickActionsController;
 
 @end
 

@@ -10,7 +10,7 @@
 {
 }
 
-+ (const char *);
++ (const char *)rateLimits;
 + (long long);
 + (id);
 

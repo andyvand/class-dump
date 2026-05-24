@@ -7,31 +7,25 @@
 @interface W5WiFiLinkQualityUpdate
 {
     float _cca;
-    long long _rssi;
-    long long _txRate;
-    double _timestamp;
 }
 
 + (_Bool);
-- (id);
-- (id);
-- (void);
+- (id)$f;
+- (id).dylib;
+- (void)r"8@"NSError"16;
 - (double);
 - (void);
-- (void);
+- (void)setRequestsPerSubscription:(double)arg1;
 - (id);
-- (long long);
+- (long long);
 - (_Bool);
 - (void);
 - (void);
-- (long long)esults: /* Error: Ran out of types for this method. */;
-- (float)tDiagnosticsMode:wifiState:megaWiFiProfileState:noLoggingWiFiProfileState:eapolState:bluetoothState: /* Error: Ran out of types for this method. */;
+- (long long)setCachedScanResults: /* Error: Ran out of types for this method. */;
+- (float)initDiagnosticsMode:wifiState:megaWiFiProfileState:noLoggingWiFiProfileState:eapolState:bluetoothState: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) float cca; // @synthesize cca=_cca;
 @property(nonatomic) long long rssi; // @synthesize rssi=_rssi;
-@property(nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) long long txRate; // @synthesize txRate=_txRate;
 
 @end
 

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface RTVisitPipelineModuleStats
 {
     NSMutableDictionary *_iterationDurations;
-    NSMutableDictionary *_iterationLocationCounts;
-    NSMutableDictionary *_iterationLocationIntervals;
-    NSMutableDictionary *_iterationMaxLocationOutageIntervals;
-    NSMutableDictionary *_iterationVistCount;
-    NSDate *_startDate;
 }
 
 - (unsigned long long);
@@ -29,7 +24,7 @@
 - (id);
 - (unsigned long long);
 - (double);
-- (unsigned long long);
+- (unsigned long long);
 - (double);
 - (unsigned long long);
 - (double);

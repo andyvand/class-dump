@@ -7,29 +7,21 @@
 @interface TSDGPUVoronoiTriangleDataCell
 {
     unsigned long long _triangleCount;
-    unsigned long long _vertexCount;
-    CDStruct_6e3f967a *_vertexData;
-    CDStruct_6e3f967a _centerPoint;
-    struct CGRect _bounds;
 }
 
 - (void);
 - (id);
 - (id);
-- (CDStruct_6e3f967a *);
-- (CDStruct_6e3f967a);
+- (CDStruct_b2fbf00d *);
+- (CDStruct_b2fbf00d);
 - (unsigned long long);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (struct CGRect);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect bounds; // @synthesize bounds=_bounds;
-@property(readonly, nonatomic) CDStruct_6e3f967a centerPoint; // @synthesize centerPoint=_centerPoint;
 @property(readonly, nonatomic) unsigned long long triangleCount; // @synthesize triangleCount=_triangleCount;
-@property(readonly, nonatomic) unsigned long long vertexCount; // @synthesize vertexCount=_vertexCount;
-@property(readonly, nonatomic) CDStruct_6e3f967a *vertexData; // @synthesize vertexData=_vertexData;
 
 @end
 

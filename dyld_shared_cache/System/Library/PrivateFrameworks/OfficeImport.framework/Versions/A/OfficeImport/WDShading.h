@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class OITSUColor;
-
 __attribute__((visibility("hidden")))
 @interface WDShading
 {
     int mStyle;
-    OITSUColor *mForegroundColor;
-    OITSUColor *mBackgroundColor;
 }
 
 + (id);
@@ -19,14 +15,14 @@ __attribute__((visibility("hidden")))
 + (id);
 - (void);
 - (_Bool);
-- (int);
+- (int)After;
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (id);
+- (id)created database [mutation allowed];
 - (id);
 - (void)that is not backed by file.;
 - (void);

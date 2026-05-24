@@ -5,5 +5,9 @@
 //
 
 @protocol UINavigationControllerDelegate
+
+@optional
+- (void);
+- (void)eObserver>"16@"EMObjectID"24;
 @end
 

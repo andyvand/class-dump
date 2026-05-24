@@ -20,7 +20,6 @@
 
 // Remaining properties
 @property int highlightSides;
-@property _Bool showsState;
 
 @end
 

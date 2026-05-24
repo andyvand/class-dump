@@ -5,5 +5,8 @@
 //
 
 @protocol _EXHostViewControllerDelegate
+
+@optional
+- (_Bool)A;
 @end
 

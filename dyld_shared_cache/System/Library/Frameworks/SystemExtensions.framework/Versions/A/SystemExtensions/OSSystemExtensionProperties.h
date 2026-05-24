@@ -4,37 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface OSSystemExtensionProperties
 {
     _Bool _isEnabled;
-    _Bool _isAwaitingUserApproval;
-    _Bool _isUninstalling;
-    NSURL *_URL;
-    NSString *_bundleIdentifier;
-    NSString *_bundleVersion;
-    NSString *_bundleShortVersion;
-    NSString *_displayName;
-    NSString *_usageDescription;
 }
 
 + (_Bool);
+- (id)failed;
+- (void)with %@ attributes %@ fd %d messageUUID %@;
+- (void)ocketPairResourceTransferSender:(_Bool)arg1 path:%@  attributes:%@  metadata:%@  sentFirstMessage:%@  nextbyte:%llu  totalbytes:%llu  messageUUID:%@  filedescriptor:%d expiryDate:%@ /* Error: Ran out of types for this method. */;
+- (void)eTransferSender:(_Bool)arg1 file too big %llu;
+- (_Bool)chunk does not have sufficient data (%lu);
+- (_Bool)rResourceTransferReceiver:incoming chunk does not have sufficient data (%lu) /* Error: Ran out of types for this method. */;
+- (id)d %u length %u from %u pieces;
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
+- (id);
+- (void)`;
+- (id);
 - (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
+- (id)d,V_enabled;
+- (void)eIntervals count, %lu;
 - (void);
 - (id);
 - (void);
@@ -44,15 +36,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSURL *URL; // @synthesize URL=_URL;
 @property(retain) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(retain) NSString *bundleShortVersion; // @synthesize bundleShortVersion=_bundleShortVersion;
-@property(retain) NSString *bundleVersion; // @synthesize bundleVersion=_bundleVersion;
-@property(retain) NSString *displayName; // @synthesize displayName=_displayName;
-@property _Bool isAwaitingUserApproval; // @synthesize isAwaitingUserApproval=_isAwaitingUserApproval;
-@property _Bool isEnabled; // @synthesize isEnabled=_isEnabled;
-@property _Bool isUninstalling; // @synthesize isUninstalling=_isUninstalling;
-@property(retain) NSString *usageDescription; // @synthesize usageDescription=_usageDescription;
 
 @end
 

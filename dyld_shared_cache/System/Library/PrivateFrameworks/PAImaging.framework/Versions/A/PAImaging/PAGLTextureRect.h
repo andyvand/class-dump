@@ -6,8 +6,6 @@
 
 #import <PAImaging/PAGLTexture.h>
 
-@protocol PAPixelFormat;
-
 @interface PAGLTextureRect : PAGLTexture
 {
     struct PFIntSize_st _size;
@@ -24,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (int);
 - (void);
 - (void);
@@ -37,9 +35,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int height;
-@property(readonly, nonatomic) id <PAPixelFormat> pixelFormat;
-@property(readonly, nonatomic) struct CGSize size;
 @property(readonly, nonatomic) unsigned int width;
 
 @end

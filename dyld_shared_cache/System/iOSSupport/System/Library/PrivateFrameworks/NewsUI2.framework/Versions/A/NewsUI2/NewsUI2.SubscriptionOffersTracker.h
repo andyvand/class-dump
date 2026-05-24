@@ -7,7 +7,6 @@
 @interface NewsUI2.SubscriptionOffersTracker
 {
     id tracker;
-    id channelDataFactory;
 }
 
 @end

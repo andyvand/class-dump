@@ -21,12 +21,11 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)ring error alert;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *providerQueue; // @synthesize providerQueue=_providerQueue;
-@property(readonly) int userTemperatureUnit;
 
 @end
 

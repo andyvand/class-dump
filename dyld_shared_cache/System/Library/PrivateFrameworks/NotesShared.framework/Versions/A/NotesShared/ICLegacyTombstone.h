@@ -6,7 +6,7 @@
 
 #import <NotesShared/ICCloudSyncingObject.h>
 
-@class ICAccount, NSDate, NSString;
+@class ICAccount;
 
 @interface ICLegacyTombstone : ICCloudSyncingObject
 {
@@ -26,15 +26,15 @@
 + (void);
 + (void);
 + (void);
-+ (id);
++ (id)C;
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)locale record - unable to remove subnet;
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)componentsSeparatedByString: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -42,9 +42,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) ICAccount *account; // @dynamic account;
-@property(retain, nonatomic) NSString *contentHashAtImport; // @dynamic contentHashAtImport;
-@property(retain, nonatomic) NSDate *modificationDateAtImport; // @dynamic modificationDateAtImport;
-@property(nonatomic) short type; // @dynamic type;
 
 @end
 

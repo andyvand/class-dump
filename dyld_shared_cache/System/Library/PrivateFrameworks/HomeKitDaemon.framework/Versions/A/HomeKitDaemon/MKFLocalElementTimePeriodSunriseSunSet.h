@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/MKFLocalElementTimePeriod.h>
 
-@class NSDateComponents, NSNumber, NSString;
+@class NSDateComponents;
 
 __attribute__((visibility("hidden")))
 @interface MKFLocalElementTimePeriodSunriseSunSet : MKFLocalElementTimePeriod
@@ -17,8 +17,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSDateComponents *offset; // @dynamic offset;
-@property(copy, nonatomic) NSNumber *offsetSeconds; // @dynamic offsetSeconds;
-@property(copy, nonatomic) NSString *significantEvent; // @dynamic significantEvent;
 
 @end
 

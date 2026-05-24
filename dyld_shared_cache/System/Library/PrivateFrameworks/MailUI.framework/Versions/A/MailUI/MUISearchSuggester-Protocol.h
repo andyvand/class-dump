@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @protocol MUISearchSuggester
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *categories;
 @property(readonly, nonatomic) NSString *logIdentifier;
-@property(readonly, nonatomic) _Bool shouldQueryForAsYouType;
 @end
 

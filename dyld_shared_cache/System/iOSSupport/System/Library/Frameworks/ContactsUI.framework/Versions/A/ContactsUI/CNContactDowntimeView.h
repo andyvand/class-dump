@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSTextAttachment, UILabel;
+@class NSDictionary, UILabel;
 
 __attribute__((visibility("hidden")))
 @interface CNContactDowntimeView
 {
     NSDictionary *_ab_textAttributes;
-    long long _elements;
-    UILabel *_downtimeLabel;
-    NSTextAttachment *_imageAttachment;
 }
 
 + (id);
@@ -23,17 +20,14 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 - (struct CGSize);
 - (void);
-- (id);
+- (id)VMUDirectedGraph;
 - (void);
 - (void);
 - (void)dDisplayName;
 - (long long)OldFramework/Sources/ContactsUI_Internal.m;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *ab_textAttributes; // @synthesize ab_textAttributes=_ab_textAttributes;
 @property(readonly, nonatomic) UILabel *downtimeLabel; // @synthesize downtimeLabel=_downtimeLabel;
-@property(nonatomic) long long elements; // @synthesize elements=_elements;
-@property(readonly, nonatomic) NSTextAttachment *imageAttachment; // @synthesize imageAttachment=_imageAttachment;
 
 @end
 

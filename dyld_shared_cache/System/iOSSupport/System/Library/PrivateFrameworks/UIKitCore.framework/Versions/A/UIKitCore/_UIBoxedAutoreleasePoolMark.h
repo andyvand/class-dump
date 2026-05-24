@@ -10,9 +10,9 @@ __attribute__((visibility("hidden")))
     void *_mark;
 }
 
-- (id);
+- (id)IMDMessageFromStorageMonitor;
 - (void);
-- (void *)WithSearchBarHostedByNavBarDidEnd: /* Error: Ran out of types for this method. */;
+- (void *)_presentationTransitionWithSearchBarHostedByNavBarDidEnd: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) void *mark; // @synthesize mark=_mark;

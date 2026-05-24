@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOApplicationAuditToken, GEODataRequestThrottlerToken, GEOPeer, NSDictionary, NSObject, NSString;
+@class NSObject, NSString;
 @protocol OS_xpc_object;
 
 @interface GEOMessage
 {
     NSObject<OS_xpc_object> *_xpcMessage;
-    NSString *_messageName;
-    NSDictionary *_userInfo;
-    GEOPeer *_peer;
-    GEOApplicationAuditToken *_preferredAuditToken;
-    GEODataRequestThrottlerToken *_throttleToken;
-    unsigned long long _signpostId;
 }
 
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)type received;
 - (id);
 - (id);
 - (void);
@@ -34,11 +28,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *messageName; // @synthesize messageName=_messageName;
-@property(readonly, nonatomic) GEOPeer *peer; // @synthesize peer=_peer;
-@property(readonly, nonatomic) GEOApplicationAuditToken *preferredAuditToken; // @synthesize preferredAuditToken=_preferredAuditToken;
-@property(nonatomic) unsigned long long signpostId; // @synthesize signpostId=_signpostId;
-@property(readonly, nonatomic) GEODataRequestThrottlerToken *throttleToken; // @synthesize throttleToken=_throttleToken;
-@property(readonly, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

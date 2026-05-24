@@ -5,14 +5,9 @@
 //
 
 @protocol IMTypingCriteriaProviding
+- (_Bool)?;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasEditedParts;
-@property(readonly, nonatomic) _Bool hasRetractedParts;
-@property(readonly, nonatomic) _Bool isEmpty;
-@property(readonly, nonatomic) _Bool isFinished;
-@property(readonly, nonatomic) _Bool isFromMe;
-@property(readonly, nonatomic) _Bool isLocatingMessage;
 @property(readonly, nonatomic) _Bool wasDetonated;
 @end
 

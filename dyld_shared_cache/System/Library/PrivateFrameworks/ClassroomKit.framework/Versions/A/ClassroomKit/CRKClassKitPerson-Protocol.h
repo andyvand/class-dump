@@ -7,20 +7,13 @@
 @class NSDate, NSString;
 
 @protocol CRKClassKitPerson
-- (NSString *)nterface;
+- (_Bool);
+- (_Bool);
+- (NSString *);
+- (NSDate *)8;
+- (NSString *)mCurrentInterface;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAccountATOLocked) _Bool accountATOLocked;
-@property(readonly, nonatomic, getter=isAccountFailedPasswordLocked) _Bool accountFailedPasswordLocked;
-@property(readonly, copy, nonatomic) NSString *appleID;
-@property(readonly, nonatomic) NSDate *dateCreated;
-@property(readonly, nonatomic) NSDate *dateLastModified;
-@property(readonly, copy, nonatomic) NSString *familyName;
-@property(readonly, nonatomic, getter=isFederatedAccount) _Bool federatedAccount;
-@property(readonly, copy, nonatomic) NSString *givenName;
 @property(readonly, copy, nonatomic) NSString *objectID;
-@property(readonly, copy, nonatomic) NSString *orgID;
-@property(readonly, copy, nonatomic) NSString *phoneticFamilyName;
-@property(readonly, copy, nonatomic) NSString *phoneticGivenName;
 @end
 

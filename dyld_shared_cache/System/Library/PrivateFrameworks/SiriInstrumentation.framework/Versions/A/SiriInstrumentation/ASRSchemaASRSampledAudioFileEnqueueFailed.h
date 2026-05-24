@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ASRSchemaASRSampledAudioFileEnqueueFailed : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_originalAsrId;
-    int _errorCode;
-    NSString *_errorDomain;
-    int _underlyingErrorCode;
-    NSString *_underlyingErrorDomain;
-    CDStruct_2818be66 _has;
-    _Bool _hasOriginalAsrId;
-    _Bool _hasErrorDomain;
-    _Bool _hasUnderlyingErrorDomain;
 }
 
 - (void);
@@ -29,29 +21,94 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)u;
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (_Bool);
-- (id);
-- (int);
-- (void);
-- (id);
+- (void)#;
 - (_Bool);
 - (id);
+- (int);
 - (void);
+- (id);
+- (_Bool)affic_updates
+
+CREATE VIEW etau_view AS
+    SELECT
+        id,
+        PRINTF("%.3f", request_timestamp) AS request_time,
+        PRINTF("%.3f", response_timestamp) AS response_time,
+        LENGTH(request_data) AS request,
+        LENGTH(response_data) AS response,
+        LENGTH(response_error_data) AS error,
+        destination_name AS destination
+    FROM
+        eta_traffic_updates;
+
+-- navigation_events
+
+CREATE VIEW navigation_events_view AS
+    SELECT
+        PRINTF("%.3f", relative_timestamp) AS relative_time,
+        PRINTF("%d", absolute_timestamp) AS absolute_time,
+        strftime('%H:%M:%S', time(absolute_timestamp, 'unixepoch', 'localtime')) AS time,
+        last_location_id AS location,
+        event_name,
+        event_description
+    FROM
+        navigation_events INNER JOIN navigation_event_types ON navigation_events.event_id = navigation_event_types.event_id;
+
+-- ev_data
+
+CREATE VIEW ev_data_view as
+    SELECT
+        PRINTF("%.1f", relative_timestamp) AS time,
+        strftime('%H:%M:%S', time(absolute_timestamp, 'unixepoch', 'localtime')) AS date,
+        PRINTF("%.0f%%", battery_percentage * 100) AS "battery%",
+        PRINTF("%.1f", current_range_m) AS "range (meters)",
+        PRINTF("%.1f", current_battery_capacity_kwh) AS "capacity (kwh)",
+        is_charging,
+        CASE WHEN length(vehicle_data) > 0 THEN identifier END as identifier
+    FROM
+        ev_data;
+
+-- custom_route_creation_actions
+
+CREATE VIEW route_creation_actions_view AS
+    SELECT
+        rowid AS 'Index',
+        PRINTF("%.3f", request_timestamp) AS 'Request Time',
+        PRINTF("%.3f", response_timestamp) AS 'Response Time',
+        LENGTH(request_data) AS 'Request',
+        LENGTH(response_data) AS 'Response',
+        LENGTH(response_error_data) AS 'Error',
+        LENGTH(anchor_points_data) AS 'Anchor Points',
+        CASE action
+            WHEN 0 THEN 'Unset'
+            WHEN 1 THEN 'Append Anchor'
+            WHEN 2 THEN 'Delete Anchor'
+            WHEN 101 THEN 'Reverse'
+            WHEN 102 THEN 'Out and Back'
+            WHEN 103 THEN 'Close Loop'
+            WHEN 1001 THEN 'Undo'
+            WHEN 1002 THEN 'Redo'
+            ELSE 'Unknown'
+        END AS 'Action'
+    FROM
+        custom_route_creation_actions;
+ /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
+- (void)$;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (id)e;
+- (id)c;
+- (id)unsignedIntegerValue;
 - (id)@h@d <!`"¨"#Ð#À$%x&À&0(P)X+À,|./1Ä24X5È6 7\94:(id)arg1 ¤;Ä<>È>¨?8@A\AÌBCôC<DäJ,KèL0MNTN0OxOTPPXRxSèTVxWÀW0YxYXZ0[ \0]T^^|_T`bXbÈcXd|eÄe¤f|g8ii lhlHmm;
 - (id)J¯÷ÿüÿÿ;
 - (void)Ç°5È&;
@@ -59,17 +116,7 @@
 - (int)@³;
 
 // Remaining properties
-@property(nonatomic) int errorCode; // @synthesize errorCode=_errorCode;
-@property(copy, nonatomic) NSString *errorDomain; // @synthesize errorDomain=_errorDomain;
-@property(nonatomic) _Bool hasErrorCode;
-@property(nonatomic) _Bool hasErrorDomain; // @synthesize hasErrorDomain=_hasErrorDomain;
-@property(nonatomic) _Bool hasOriginalAsrId; // @synthesize hasOriginalAsrId=_hasOriginalAsrId;
-@property(nonatomic) _Bool hasUnderlyingErrorCode;
-@property(nonatomic) _Bool hasUnderlyingErrorDomain; // @synthesize hasUnderlyingErrorDomain=_hasUnderlyingErrorDomain;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *originalAsrId; // @synthesize originalAsrId=_originalAsrId;
-@property(nonatomic) int underlyingErrorCode; // @synthesize underlyingErrorCode=_underlyingErrorCode;
-@property(copy, nonatomic) NSString *underlyingErrorDomain; // @synthesize underlyingErrorDomain=_underlyingErrorDomain;
 
 @end
 

@@ -6,24 +6,14 @@
 
 #import <HomeKit/_HMAccessoryProfile.h>
 
-@class HMCameraClipManager, HMCameraIndexingManager, HMCameraProfile, HMCameraRecordingEventManager, HMCameraRecordingReachabilityEventManager, HMCameraUserSettings, NSArray, _HMCameraAudioControl, _HMCameraSettingsControl, _HMCameraSnapshotControl, _HMCameraStreamControl;
+@class HMCameraProfile, NSArray;
 
 @interface _HMCameraProfile : _HMAccessoryProfile
 {
     HMCameraProfile *_accessoryProfile;
-    _HMCameraStreamControl *_streamControl;
-    _HMCameraSnapshotControl *_snapshotControl;
-    _HMCameraSettingsControl *_settingsControl;
-    _HMCameraAudioControl *_speakerControl;
-    _HMCameraAudioControl *_microphoneControl;
-    HMCameraUserSettings *_userSettings;
-    HMCameraClipManager *_clipManager;
-    HMCameraIndexingManager *_indexingManager;
-    HMCameraRecordingReachabilityEventManager *_reachabilityEventManager;
-    HMCameraRecordingEventManager *_recordingEventManager;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (void);
@@ -42,26 +32,15 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)(;
 - (void);
 - (void);
-- (id)eKey;
+- (id)HMHomePerformMediaGroupReadinessCheckResponseKey;
 
 // Remaining properties
-@property __weak HMCameraProfile *accessoryProfile; // @synthesize accessoryProfile=_accessoryProfile;
-@property(retain) HMCameraClipManager *clipManager; // @synthesize clipManager=_clipManager;
 @property(readonly, copy) NSArray *controls;
-@property(retain) HMCameraIndexingManager *indexingManager; // @synthesize indexingManager=_indexingManager;
-@property(readonly) _HMCameraAudioControl *microphoneControl; // @synthesize microphoneControl=_microphoneControl;
-@property(retain) HMCameraRecordingReachabilityEventManager *reachabilityEventManager; // @synthesize reachabilityEventManager=_reachabilityEventManager;
-@property(retain) HMCameraRecordingEventManager *recordingEventManager; // @synthesize recordingEventManager=_recordingEventManager;
-@property(readonly) _HMCameraSettingsControl *settingsControl; // @synthesize settingsControl=_settingsControl;
-@property(readonly) _HMCameraSnapshotControl *snapshotControl; // @synthesize snapshotControl=_snapshotControl;
-@property(readonly) _HMCameraAudioControl *speakerControl; // @synthesize speakerControl=_speakerControl;
-@property(readonly) _HMCameraStreamControl *streamControl; // @synthesize streamControl=_streamControl;
-@property(retain) HMCameraUserSettings *userSettings; // @synthesize userSettings=_userSettings;
 
 @end
 

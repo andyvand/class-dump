@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSString, SALocation;
+@class SALocation;
 
 @interface SALocalSearchStartNavigation : SABaseClientBoundCommand
 {
@@ -14,20 +14,18 @@
 
 + (id);
 + (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)RPHIDTouchSession;
 - (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) SALocation *destination;
-@property(copy, nonatomic) NSString *directionsType;
-@property(retain, nonatomic) SALocation *origin;
 
 @end
 

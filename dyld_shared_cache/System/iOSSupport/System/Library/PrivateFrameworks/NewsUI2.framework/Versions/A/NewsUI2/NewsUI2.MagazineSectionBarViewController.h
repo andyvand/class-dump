@@ -7,25 +7,15 @@
 @interface NewsUI2.MagazineSectionBarViewController
 {
     id styler;
-    id eventHandler;
-    id blueprintViewController;
-    id blueprintLayoutProvider;
-    id config;
-    id featureAvailability;
-    id offlineProvider;
-    id isBeingUsedAsPlugin;
-    id pluggableDelegate;
-    id previousSelectedIndexPath;
-    id blueprintHorizontalShimView;
 }
 
-- (void);
+- (void)Pq;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void)<.ÿÿÿÿÿ|;
-- (void)eedGroupDataSource;
+- (void)SportsEventTopicTagFeedGroupDataSource;
 - (void);
 
 @end

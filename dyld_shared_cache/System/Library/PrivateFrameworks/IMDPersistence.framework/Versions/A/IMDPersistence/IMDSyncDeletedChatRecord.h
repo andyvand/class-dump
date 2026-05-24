@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface IMDSyncDeletedChatRecord
 {
     void guid;
-    void ckRecordID;
-    long long rawDate;
 }
 
 + (_Bool);
@@ -19,19 +17,16 @@
 - (long long);
 - (void);
 - (id);
-- (id);
+- (id)initWithAccountManager:(id)arg1 context: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
-- (id)gregateMessageIndexingJob;
+- (id)_IMDAggregateMessageIndexingJob;
 - (void)' OR m.service == 'SMS') AND a.ck_sync_state == 1 AND a.transfer_state == 0 AND a.ROWID > ? ORDER BY a.ROWID LIMIT ? ;
 - (void);
 
 // Remaining properties
-@property(nonatomic, copy) NSString *ckRecordID;
-@property(nonatomic, readonly) NSDate *date;
 @property(nonatomic, copy) NSString *guid;
-@property(nonatomic) long long rawDate; // @synthesize rawDate;
 
 @end
 

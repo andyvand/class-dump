@@ -6,41 +6,20 @@
 
 #import <UIKitCore/UIDynamicBehavior.h>
 
-@class NSArray, NSMapTable;
+@class NSArray;
 
 @interface UIDynamicItemBehavior : UIDynamicBehavior
 {
     _Bool _useDefaultViewPropertiesApplier;
-    struct {
-        unsigned int elasticityChanged:1;
-        unsigned int frictionChanged:1;
-        unsigned int densityChanged:1;
-        unsigned int resistanceChanged:1;
-        unsigned int angularResistanceChanged:1;
-        unsigned int rotationEnabledChanged:1;
-        unsigned int useDefaultViewPropertiesApplierChanged:1;
-        unsigned int chargeChanged:1;
-        unsigned int dynamicChanged:1;
-    } _stateFlags;
-    NSMapTable *_cachedAngularVelocities;
-    NSMapTable *_cachedLinearVelocities;
-    _Bool _anchored;
-    _Bool _allowsRotation;
-    double _elasticity;
-    double _friction;
-    double _density;
-    double _resistance;
-    double _angularResistance;
-    double _charge;
 }
 
 + (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGPoint);
+- (void)nsfer matching groupPhotoGuid:(_Bool)arg1 %@. FileTransfer:%@ /* Error: Ran out of types for this method. */;
+- (void)sender;
+- (void)d %lu messages needing T1 update with limit;
+- (void)updating, retunring;
+- (void)Is already updating file sizes, returning;
+- (struct CGPoint)pluginpayloadattachment;
 - (_Bool);
 - (double);
 - (void);
@@ -67,7 +46,7 @@
 - (double);
 - (void);
 - (double);
-- (void);
+- (void)dEntityStore:(_Bool)arg1 feedback logging failed:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (double);
@@ -75,23 +54,15 @@
 - (id);
 - (id)áÐ!xAùñ\°1Â0@ù
 × ;
-- (void)placingDOMRange:(id)arg1 givenAction: /* Error: Ran out of types for this method. */;
-- (id)dateReplacementPostCandidateInsertedText;
+- (void)webView:(id)arg1 shouldInsertText:replacingDOMRange:givenAction: /* Error: Ran out of types for this method. */;
+- (id)_nextCandidateReplacementPostCandidateInsertedText;
 - (void);
 - (void)&Ö;
 - (double)l|vÿ;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowsRotation; // @synthesize allowsRotation=_allowsRotation;
-@property(nonatomic, getter=isAnchored) _Bool anchored; // @synthesize anchored=_anchored;
-@property(nonatomic) double angularResistance; // @synthesize angularResistance=_angularResistance;
-@property(nonatomic) double charge; // @synthesize charge=_charge;
-@property(nonatomic) double density; // @synthesize density=_density;
-@property(nonatomic) double elasticity; // @synthesize elasticity=_elasticity;
-@property(nonatomic) double friction; // @synthesize friction=_friction;
 @property(readonly, copy, nonatomic) NSArray *items;
-@property(nonatomic) double resistance; // @synthesize resistance=_resistance;
 
 @end
 

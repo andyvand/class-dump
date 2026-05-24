@@ -6,43 +6,21 @@
 
 #import <AVConference/VCObject.h>
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface VCRateControlSmartBrake : VCObject
 {
     float _previousInputTime;
-    float _isStartTimeSet;
-    struct tagVCRateControlSmartBrakeInputTensor _inputTensor;
-    struct tagVCRateControlSmartBrakeOutputTensor _outputTensor;
-    struct tagVCRateControlSmartBrakeInputBuffers _inputBuffers;
-    struct tagVCRateControlSmartBrakeOutputBuffers _outputBuffers;
-    float *_dataLSTM;
-    unsigned long long _dataLSTMSize;
-    CDStruct_0a65202a _bufferLSTMStateIn;
-    CDStruct_0a65202a _bufferLSTMStateOut;
-    struct {
-        void *plan;
-        int network_index;
-    } _net;
-    void *_context;
-    void *_plan;
-    int _compilationStatus;
-    NSObject<OS_dispatch_queue> *_compilationQueue;
-    CDUnknownBlockType _completionHandler;
-    struct tagVCRateControlSmartBrakeConfig _config;
 }
 
 - (int);
-- (int);
-- (void);
-- (int);
+- (int);
+- (void);
+- (int)6;
 - (int);
 - (int);
 - (void);
 - (id);
-- (id);
+- (id)u,;
 - (struct tagVCRateControlSmartBrakeConfig)Conference/AVConference.subproj/Sources/VCAudioStreamReceiveGroup.m:%d:ActiveCount:%d audioPriority:%d audioActive:%d /* Error: Ran out of types for this method. */;
 
 // Remaining properties

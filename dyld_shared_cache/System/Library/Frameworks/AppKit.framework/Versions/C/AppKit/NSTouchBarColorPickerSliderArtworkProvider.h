@@ -9,15 +9,15 @@ __attribute__((visibility("hidden")))
 {
 }
 
+- (double)hidpi;
+- (void)CoreRoutineCapability;
+- (id)FFFFFF-FFFFFFFFFFFFFFFF;
+- (long long)a CFNumber!;
+- (id)kuITg6XPwXl8zbpx+hoCw;
 - (double);
-- (void);
 - (id);
-- (long long);
-- (id);
-- (double);
-- (id);
-- (id);
-- (id)a:(struct _NSZone *)arg1 assumeInside:useTrackingNum: /* Error: Ran out of types for this method. */;
+- (id)spatch_data>"16r^{?=qi}24;
+- (id)addTrackingRect:(struct _NSZone *)arg1 owner:userData:assumeInside:useTrackingNum: /* Error: Ran out of types for this method. */;
 
 @end
 

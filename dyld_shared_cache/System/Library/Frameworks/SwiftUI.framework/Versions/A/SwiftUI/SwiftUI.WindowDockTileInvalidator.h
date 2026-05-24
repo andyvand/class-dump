@@ -7,9 +7,6 @@
 @interface SwiftUI.WindowDockTileInvalidator
 {
     id window;
-    id runloopObserverAdded;
-    id lastUpdateTime;
-    id invalidationTimer;
 }
 
 @end

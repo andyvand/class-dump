@@ -4,11 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATTransport;
+@class CATMessage, CATTransport;
 
 @protocol CATTransportDelegate
 
 @optional
-- (void)yWithCertificate:(CATTransport *)arg1 privateKey: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)withClientID:(CATTransport *)arg1 withProcessName:(CATMessage *)arg2 withKey:withPayload:]_block_invoke_2 /* Error: Ran out of types for this method. */;
+- (void);
+- (void)makeIdentityWithCertificate:(CATTransport *)arg1 privateKey: /* Error: Ran out of types for this method. */;
 @end
 

@@ -17,9 +17,9 @@
 - (long long)!ÀBù±a1Â0@ù
 × ;
 - (_Bool)16@0:(id)arg1 8;
-- (void)kippedEndInputSession;
-- (id)forView: /* Error: Ran out of types for this method. */;
-- (id)CommandAction;
+- (void)skippedEndInputSession;
+- (id)drawViewLinesAtPoint:forView: /* Error: Ran out of types for this method. */;
+- (id)_allowsTriggeringSidebarKeyCommandAction;
 - (void)ngBarConfiguration",C,N;
 
 // Remaining properties

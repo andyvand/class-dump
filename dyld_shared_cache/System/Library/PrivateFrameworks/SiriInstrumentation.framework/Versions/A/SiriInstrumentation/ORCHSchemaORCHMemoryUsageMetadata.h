@@ -6,18 +6,13 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHMemoryUsageMetadata : SISchemaInstrumentationMessage
 {
     unsigned long long _maxRSS;
-    struct {
-        unsigned int maxRSS:1;
-    } _has;
 }
 
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -28,12 +23,10 @@
 - (_Bool);
 - (id);
 - (id);
-- (id)endent;
+- (id)_commonIndependent;
 - (id)ailed;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMaxRSS;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned long long maxRSS; // @synthesize maxRSS=_maxRSS;
 
 @end

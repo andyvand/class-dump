@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlayerItemConfigurator;
 @protocol MPCAssetLoaderDelegate;
 
 __attribute__((visibility("hidden")))
 @interface MPCAssetLoader
 {
     id <MPCAssetLoaderDelegate> _delegate;
-    MPCPlayerItemConfigurator *_configurator;
 }
 
 - (void);
@@ -19,14 +17,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (double);
+- (double);
 - (id);
 - (void);
 - (id);
 - (void)%{public}@ - Records creation successful at %{public}@;
 
 // Remaining properties
-@property(retain, nonatomic) MPCPlayerItemConfigurator *configurator; // @synthesize configurator=_configurator;
 @property(nonatomic) __weak id <MPCAssetLoaderDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end

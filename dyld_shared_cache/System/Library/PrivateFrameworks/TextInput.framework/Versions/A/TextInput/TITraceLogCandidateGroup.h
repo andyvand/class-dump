@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface TITraceLogCandidateGroup
 {
     NSMutableArray *_candidates;
-    double _probability;
-    NSString *_sequenceString;
-    NSString *_omegaFactorsString;
-    double _omegaWordScore;
-    double _omegaLanguagePowerScore;
-    double _omegaTypingScore;
-    double _omegaGeometryScore;
 }
 
 + (id);
@@ -32,9 +25,10 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void)H1/J
+;
+- (void)s;
+- (id)nitialMessageForDownload:] /* Error: Ran out of types for this method. */;
 - (double);
 - (id);
 - (id);
@@ -42,22 +36,7 @@ __attribute__((visibility("hidden")))
 ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *candidates;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *omegaFactorsString; // @synthesize omegaFactorsString=_omegaFactorsString;
-@property(nonatomic) double omegaGeometryScore; // @synthesize omegaGeometryScore=_omegaGeometryScore;
-@property(nonatomic) double omegaLanguagePowerScore; // @synthesize omegaLanguagePowerScore=_omegaLanguagePowerScore;
-@property(nonatomic) double omegaTypingScore; // @synthesize omegaTypingScore=_omegaTypingScore;
-@property(nonatomic) double omegaWordScore; // @synthesize omegaWordScore=_omegaWordScore;
 @property(nonatomic) double probability; // @synthesize probability=_probability;
-@property(retain, nonatomic) NSString *sequenceString; // @synthesize sequenceString=_sequenceString;
-@property(readonly) Class superclass;
 
 @end
 

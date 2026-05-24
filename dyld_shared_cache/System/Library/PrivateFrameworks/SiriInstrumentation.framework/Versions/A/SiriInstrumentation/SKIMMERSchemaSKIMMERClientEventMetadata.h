@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface SKIMMERSchemaSKIMMERClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_skimmerId;
-    SISchemaUUID *_ifRequestId;
-    _Bool _hasSkimmerId;
-    _Bool _hasIfRequestId;
 }
 
 - (id);
@@ -29,20 +26,16 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)numberWithInteger: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)liesMessageDonationJob.m;
 - (id);
 - (id);
-- (id)Signal;
-- (id)onsistentStateDetected;
+- (id)deleteIsAsrE3Signal;
+- (id)_hasInconsistentStateDetected;
 - (void)etricsReported;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIfRequestId; // @synthesize hasIfRequestId=_hasIfRequestId;
-@property(nonatomic) _Bool hasSkimmerId; // @synthesize hasSkimmerId=_hasSkimmerId;
-@property(retain, nonatomic) SISchemaUUID *ifRequestId; // @synthesize ifRequestId=_ifRequestId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *skimmerId; // @synthesize skimmerId=_skimmerId;
 
 @end

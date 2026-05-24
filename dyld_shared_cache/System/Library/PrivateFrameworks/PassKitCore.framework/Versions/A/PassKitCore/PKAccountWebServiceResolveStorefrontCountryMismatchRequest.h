@@ -6,28 +6,24 @@
 
 #import <PassKitCore/PKAccountWebServiceRequest.h>
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface PKAccountWebServiceResolveStorefrontCountryMismatchRequest : PKAccountWebServiceRequest
 {
     NSString *_accountIdentifier;
-    NSURL *_baseURL;
-    NSString *_countryCode;
 }
 
 - (id);
-- (id)URL;
+- (id)messageServiceRegistrationURL;
 - (void), using legacy validation with topLevelNetworks:(id)arg1 %@, issuerCountryCodes:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)DELETE;
 - (void);
 - (id)µ-à+;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(copy, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
 
 @end
 

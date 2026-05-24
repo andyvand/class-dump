@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate;
-
 @protocol INListRideOptionsIntentResponseExport
-- (long long)stanceRemainingFuel;
+- (void);
+- (long long)hasDistanceRemainingFuel;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) NSDate *expirationDate;
-@property(copy) NSArray *paymentMethods;
-@property(copy) NSArray *rideOptions;
 @end
 

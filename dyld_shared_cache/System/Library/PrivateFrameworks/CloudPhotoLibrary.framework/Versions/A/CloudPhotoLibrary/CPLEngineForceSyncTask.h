@@ -6,26 +6,12 @@
 
 #import <CloudPhotoLibrary/CPLForceSyncTask.h>
 
-@class CPLBackgroundActivity, CPLEngineLibrary, CPLEngineSyncTask, CPLScopeFilter, CPLSyncSession, NSDate, NSEnumerator, NSError, NSObject, NSString;
-@protocol CPLEngineForceSyncTaskDelegate, CPLEngineStoreUserIdentifier, CPLSyncSessionConfiguration, OS_dispatch_queue;
+@class NSObject;
+@protocol CPLEngineStoreUserIdentifier, OS_dispatch_queue;
 
 @interface CPLEngineForceSyncTask : CPLForceSyncTask
 {
     NSObject<OS_dispatch_queue> *_queue;
-    struct os_unfair_lock_s _currentTaskLock;
-    _Bool _reallyLaunched;
-    _Bool _reallyCancelled;
-    CPLEngineSyncTask *_currentTask;
-    CPLSyncSession *_fakeSession;
-    NSEnumerator *_syncTaskEnumerator;
-    id <CPLSyncSessionConfiguration> _configuration;
-    _Bool _bypassForceSyncLimitations;
-    id <CPLEngineStoreUserIdentifier> _transportUserIdentifier;
-    NSDate *_creationDate;
-    CPLScopeFilter *_filter;
-    CPLEngineLibrary *_engineLibrary;
-    id <CPLEngineForceSyncTaskDelegate> _delegate;
-    CDUnknownBlockType _taskDidFinishWithErrorBlock;
 }
 
 - (id);
@@ -37,9 +23,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (_Bool);
+- (_Bool)";
 - (long long);
 - (_Bool);
 - (_Bool);
@@ -53,7 +39,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -62,47 +48,20 @@
 - (id);
 - (id);
 - (_Bool);
-- (long long)!ü;
-- (void)ÁýªIõ;
-- (_Bool)ÒèC@ù@ùë`;
+- (long long);
+- (void);
+- (_Bool);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)C;
+- (void), syserr = %s;
 - (void);
 - (id)Ív;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsBackgroundDispatch;
-@property(readonly, nonatomic) _Bool allowsForcedTaskQueuing;
-@property(readonly) _Bool allowsLocalConflictResolution;
-@property(readonly) _Bool allowsLocalConflictResolutionWhenOverQuota;
-@property(nonatomic) _Bool bypassForceSyncLimitations; // @synthesize bypassForceSyncLimitations=_bypassForceSyncLimitations;
-@property(readonly, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CPLEngineForceSyncTaskDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSError *discardedError;
-@property(retain, nonatomic) CPLEngineLibrary *engineLibrary; // @synthesize engineLibrary=_engineLibrary;
-@property(retain, nonatomic) CPLScopeFilter *filter; // @synthesize filter=_filter;
-@property(readonly, nonatomic) _Bool forBackup;
-@property(readonly, nonatomic) _Bool forDownload;
-@property(readonly, nonatomic) long long forcedTaskPriority;
-@property(readonly, nonatomic) _Bool forcingProcessedStagedScopes;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isComputeStateTaskUploadEnabled;
-@property(readonly) long long maximumComputeStatesToUploadPerBatch;
-@property(readonly, nonatomic) _Bool shouldCheckEPPCapability;
-@property(readonly, nonatomic) NSString *simpleDescription;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) CPLBackgroundActivity *taskActivity;
-@property(copy, nonatomic) CDUnknownBlockType taskDidFinishWithErrorBlock; // @synthesize taskDidFinishWithErrorBlock=_taskDidFinishWithErrorBlock;
-@property(retain, nonatomic) id <CPLEngineStoreUserIdentifier> transportUserIdentifier; // @synthesize transportUserIdentifier=_transportUserIdentifier;
+@property(retain, nonatomic) id <CPLEngineStoreUserIdentifier> transportUserIdentifier;
 
 @end
 

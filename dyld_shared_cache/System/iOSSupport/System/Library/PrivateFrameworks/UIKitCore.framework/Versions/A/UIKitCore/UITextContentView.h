@@ -6,50 +6,25 @@
 
 #import <UIKitCore/UIView.h>
 
-@class DOMHTMLElement, NSAttributedString, NSDictionary, NSString, UIColor, UIConversationContext, UIDragInteraction, UIDropInteraction, UIFont, UITextInputPasswordRules, UITextInteractionAssistant, UITextPosition, UITextRange, UIWebDocumentView, WebFrame;
-@protocol UITextContentViewDelegate, UITextInputDelegate, UITextInputTokenizer;
-
 @interface UITextContentView : UIView
 {
     id m_delegate;
-    WebFrame *m_frame;
-    DOMHTMLElement *m_body;
-    int m_marginTop;
-    struct UIEdgeInsets m_selectionInset;
-    double m_bottomBufferHeight;
-    _Bool m_editable;
-    _Bool m_editing;
-    _Bool m_becomesEditableWithGestures;
-    _Bool m_becomingFirstResponder;
-    _Bool m_reentrancyGuard;
-    _Bool m_scrollsSelectionOnWebDocumentChanges;
-    _Bool m_hasExplicitTextAlignment;
-    _Bool m_allowsEditingTextAttributes;
-    _Bool m_usesAttributedText;
-    UITextInteractionAssistant *m_interactionAssistant;
-    UIWebDocumentView *m_webView;
-    UIFont *m_font;
-    UIColor *m_textColor;
-    long long m_textAlignment;
-    UIDragInteraction *m_dragInteraction;
-    UIDropInteraction *m_dropInteraction;
-    _Bool _dragInteractionEnabled;
 }
 
-+ (id)Transition;
-- (_Bool);
++ (id)_currentDismissTransition;
+- (_Bool)logMessageReceivedWithGUID:(struct CGPoint)arg1 fromIdentifier:toIdentifier:conversationType:messageType:messageProtocol: /* Error: Ran out of types for this method. */;
+- (void)isBeingSetup;
+- (void)initWithChatStatus:(struct CGPoint)arg1 chat:style:displayName:groupID:originalGroupID:lastAddressedHandle:lastAddressedSIMID:handleInfo:account:isBlackholed: /* Error: Ran out of types for this method. */;
+- (void)cachedOffGridModeAndLastPublisherWithCompletion:(struct CGPoint)arg1;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)broadcasterForSyncedSettingsListeners;
+- (_Bool)account:chat:style:chatProperties:updateProperties: /* Error: Ran out of types for this method. */;
+- (void)_fetchedExitDateOnLaunch;
+- (void)_fetchedChatsDuringLastSync;
+- (void)_fetchExitRecordDateWithCompletion:(_Bool)arg1;
+- (void)_doesWRMRecommendDisablingLQM;
+- (void)IMCrossServiceAssociationMessagePipelineParameter;
+- (void)SyndicationActions;
 - (_Bool);
 - (void);
 - (struct CGRect);
@@ -63,51 +38,51 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (struct CGPoint);
-- (void);
-- (struct CGRect);
-- (struct CGRect);
-- (void);
-- (void);
-- (double);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (id)};
+- (id)tering:(long long)arg1 Successfully processed image through preview generator, saved to %s;
+- (void)s;
+- (id)tionToken:fromSender:completion: /* Error: Ran out of types for this method. */;
+- (id)sSubscriptionMatchesSubscriptionValidationToken:fromSender:completion: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)assword notification dialog for:(struct CGPoint)arg1 %@   (has pass:%@   has login:%@  bad pass:%@) /* Error: Ran out of types for this method. */;
+- (void)@ to %@, payload=%{sensitive}@;
+- (struct CGRect)Outgoing Read Reciept Message;
+- (struct CGRect)lace to prevent FindMyLocate from crashing your process with a fatalError if you do not have the required entitlement.;
+- (void)Not pregenerating preview, no filePath for transfer %@;
+- (void)remote file response message %@;
+- (double)hile writing up record %@;
+- (_Bool)s for availability reply from %ld messages to %ld messages.;
+- (void)Siri Vocab.;
+- (void)successful.;
+- (void)wnload file transfer with guid:(_Bool)arg1 %@, transfer:%@, total bytes:%@ /* Error: Ran out of types for this method. */;
+- (void)er, (check %d, errno %d) client with audit token:%u not allowed to access request path:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)ast-name;
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)eadOriginatorMessagePartID:(long long)arg1;
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (int);
 - (void);
 - (void);
 - (struct UIEdgeInsets);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)32@0:8@16@?24 /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)-p;
 - (void);
 - (_Bool);
 - (id);
@@ -116,14 +91,14 @@
 - (struct CGRect);
 - (id);
 - (void);
-- (_Bool);
-- (struct _NSRange);
+- (_Bool)@0:(id)arg1 8@"NSEnumerator"16@"MPPropertySet"24;
+- (struct _NSRange)importArtistHeroImageForPersistentID:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)audioTraits;
+- (void);
+- (void)<p;
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
+- (_Bool)W6;
 - (void);
 - (_Bool);
 - (void);
@@ -158,21 +133,21 @@
 - (_Bool){?=@@@Q}16@0:(id)arg1 8;
 - (void)iewController"b1"isSuspended"b1"wantsFullScreenLayout"b1"shouldUseFullScreenLayout"b1"allowsAutorotation"b1"searchControllerRetained"b1"oldModalInPopover"b1"isModalInPresentation"b1"isInWillRotateCallback"b1"isFinishingModalTransition"b1"definesPresentationContext"b1"providesPresentationContextTransitionStyle"b1"containmentSupport"b1"isSettingAppearState"b1"isInAnimatedVCTransition"b1"presentationIsChanging"b1"isBeingPresented"b1"containmentIsChanging"b1"explicitTransitionIsAppearing"b1"disableAppearanceTransitions"b1"needsDidMoveCleanup"b1"suppressesBottomBar"b1"isExecutingAfterAppearance"b1"rootResignationNeeded"b1"viewConstraintsNeedUpdateOnAppearance"b1"shouldForceNonAnimatedTransition"b1"isInCustomTransition"b1"mayForwardPresentationsToPresentedViewController"b1"usesSharedView"b1"extendedLayoutIncludesOpaqueBars"b1"automaticallyAdjustInsets"b1"previousShouldUnderlapUnderStatusBar"b1"freezeShouldUnderlapUnderStatusBar"b1"shouldNotFreezeUnderlapsStatusBar"b1"monitorsSystemLayoutFittingSize"b1"shouldLoadInputAccessoryViewsOnAppearance"b1"useViewBasedTopAndBottomGuides"b1"didConfirmLayoutGuideClass"b1"restoresFocusAfterTransition"b2"hasFocusGroupIdentifier"b2"freezeLayoutForOrientationChangeOnDismissal"b1"viewRespectsSystemMinimumLayoutMargins"b1"ignoresWrapperViewForContentOverlayInsets"b1"overridesSetContentOverlayInsets"b1"isViewAttachedToWindow"b1"sendViewIsAppearingOnNextLayout"b1"isPerformingViewIsAppearing"b1"overridesContentScrollView"b1"overridesContentScrollViewForEdge"b1"didCheckContentScrollViewReturnValue"b1"usingContentScrollViewForUnknownPurpose"b1"hasTraitStorageList"b1"overrideUserInterfaceStyle"b2"overrideHorizontalSizeClass"b2"overrideUserInterfaceRenderingMode"b2"needsContentUnavailableConfigurationStateUpdate"b1"isInSupportedInterfaceOrientations"b1"isCounterRotating"b1"isDeallocInitiated"b1"isInternalSetParentViewController"b1"checkedDemoteUserInterfaceIdiomFromMac"b1"shouldDemoteUserInterfaceIdiomFromMac"b1"bridgedPresentationWasPresented"b1};
 - (void)xt"28;
-- (void)animate:(_Bool)arg1;
-- (void):(id)arg1;
-- (void)ht:(id)arg1 atIndexPath: /* Error: Ran out of types for this method. */;
-- (void)n;
-- (void)odeToMergeCapsLockKey;
-- (void)rSize:(id)arg1 clipRect: /* Error: Ran out of types for this method. */;
+- (void)setDate:(_Bool)arg1 animate: /* Error: Ran out of types for this method. */;
+- (void)setActionsReversed:(id)arg1;
+- (void)restoreReorderedRowWithHeight:(id)arg1 atIndexPath: /* Error: Ran out of types for this method. */;
+- (void)jiggleLockIcon;
+- (void)inputModeToMergeCapsLockKey;
+- (void)initWithLayoutFragment:(id)arg1 containerOrigin:containerSize:clipRect: /* Error: Ran out of types for this method. */;
 - (void)ntainerView: /* Error: Ran out of types for this method. */;
-- (long long)wSet: /* Error: Ran out of types for this method. */;
-- (struct CGRect)tString:forKeyEvent: /* Error: Ran out of types for this method. */;
-- (id)etButtonBackgroundImage:(id)arg1 mini:(long long)arg2 forStates: /* Error: Ran out of types for this method. */;
-- (void)ddItems:(struct CGRect)arg1 forInteraction:(_Bool)arg2;
-- (void)e;
-- (void)Item;
-- (void)egy:(struct CGRect)arg1;
-- (id)nts;
+- (long long)changeToInputViewSet: /* Error: Ran out of types for this method. */;
+- (struct CGRect)_shouldEmitString:forKeyEvent: /* Error: Ran out of types for this method. */;
+- (id)_setButtonBackgroundImage:(id)arg1 mini:(long long)arg2 forStates: /* Error: Ran out of types for this method. */;
+- (void)_session:(struct CGRect)arg1 willAddItems:(_Bool)arg2 forInteraction: /* Error: Ran out of types for this method. */;
+- (void)_pendingStateQueue;
+- (void)_isProminentSearchItem;
+- (void)_initWithWindowScene:(struct CGRect)arg1 evaluationStrategy: /* Error: Ran out of types for this method. */;
+- (id)_informContainerThatSubviewsNeedUpdateConstraints;
 - (id)TB,S_setUsesToolbarSemanticContext:(struct CGRect)arg1;
 - (id)V_identifier;
 - (void)»
@@ -183,16 +158,16 @@ x¼Ø¿üÃ
 - (id)8®þÔþÿ;
 - (id);
 - (id)Ôþÿ;
-- (id)ds;
+- (id)bounds;
 - (void);
-- (id)ActionURLAttribute;
+- (id)UIWebPDFLinkActionURLAttribute;
 - (void)for key %@ from requested class %@, to class %@;
 - (void)== finalIdentifiers.count;
 - (void)cement tracker is rewriting;
 - (void)esClass(void)_block_invoke;
 - (void)d deleted). Collection view:(id)arg1 %@;
-- (void)rk;
-- (_Bool)g;
+- (void)UIVibrancyEffectColorMatrixDark;
+- (_Bool)B519_RotaryScrollCentering;
 - (void)itionView;
 - (_Bool)PromptSuggestionView;
 - (void)ÅþÿÅþÿ6Óþÿ8Óþÿ;
@@ -272,130 +247,7 @@ x¼Ø¿üÃ
 - (void)G];
 
 // Remaining properties
-@property unsigned long long allowedWritingToolsResultOptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?
-
-@property(nonatomic) _Bool allowsEditingTextAttributes;
-@property(nonatomic) _Bool allowsNumberPadPopover;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(copy, nonatomic) NSAttributedString *attributedText;
-@property(nonatomic) long long autocapitalizationType; // @dynamic autocapitalizationType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,D,N
-
-@property(nonatomic) long long autocorrectionType; // @dynamic autocorrectionType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,D,N
-
-@property(readonly, nonatomic) UITextPosition *beginningOfDocument;
-@property(retain, nonatomic) UIConversationContext *conversationContext;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIConversationContext",?,&,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <UITextContentViewDelegate> delegate; // @synthesize delegate=m_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isDragInteractionEnabled) _Bool dragInteractionEnabled; // @synthesize dragInteractionEnabled=_dragInteractionEnabled;
-@property(nonatomic, getter=isEditable) _Bool editable;
 @property(nonatomic, getter=isEditing) _Bool editing; // @synthesize editing=m_editing;
-@property(nonatomic) _Bool enablesReturnKeyAutomatically; // @dynamic enablesReturnKeyAutomatically;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,D,N
-
-@property(readonly, nonatomic) UITextPosition *endOfDocument;
-@property(retain, nonatomic) UIFont *font;
-@property(readonly, nonatomic) _Bool hasText;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long inlinePredictionType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) __weak id <UITextInputDelegate> inputDelegate;
-@property(readonly, nonatomic) id insertDictationResultPlaceholder;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@,?,R,N
-
-@property(nonatomic) long long keyboardAppearance; // @dynamic keyboardAppearance;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,D,N
-
-@property(nonatomic) long long keyboardType; // @dynamic keyboardType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,D,N
-
-@property(readonly, nonatomic) UITextRange *markedTextRange;
-@property(copy, nonatomic) NSDictionary *markedTextStyle;
-@property(nonatomic) long long mathExpressionCompletionType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(copy, nonatomic) UITextInputPasswordRules *passwordRules;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UITextInputPasswordRules",?,C,N
-
-@property(nonatomic) long long returnKeyType; // @dynamic returnKeyType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,D,N
-
-@property(nonatomic) _Bool scrollsSelectionOnWebDocumentChanges; // @synthesize scrollsSelectionOnWebDocumentChanges=m_scrollsSelectionOnWebDocumentChanges;
-@property(nonatomic, getter=isSecureTextEntry) _Bool secureTextEntry; // @dynamic secureTextEntry;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,D,N,GisSecureTextEntry
-
-@property(nonatomic) struct _NSRange selectedRange;
-@property(copy) UITextRange *selectedTextRange;
-@property(nonatomic) long long selectionAffinity;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) struct UIEdgeInsets selectionInset; // @synthesize selectionInset=m_selectionInset;
-@property(nonatomic) long long smartDashesType; // @dynamic smartDashesType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,D,N
-
-@property(nonatomic) long long smartInsertDeleteType; // @dynamic smartInsertDeleteType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,D,N
-
-@property(nonatomic) long long smartQuotesType; // @dynamic smartQuotesType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,D,N
-
-@property(nonatomic) long long spellCheckingType; // @dynamic spellCheckingType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,D,N
-
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool supportsAdaptiveImageGlyph;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(copy, nonatomic) NSString *text;
-@property(nonatomic) long long textAlignment;
-@property(retain, nonatomic) UIColor *textColor;
-@property(copy, nonatomic) NSString *textContentType; // @dynamic textContentType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,D,N
-
-@property(readonly, nonatomic) UIView *textInputView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIView",?,R,N
-
-@property(readonly, nonatomic) id <UITextInputTokenizer> tokenizer;
-@property(readonly, nonatomic) struct CGRect unobscuredContentRect;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N
-
-@property long long writingToolsBehavior;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?
-
 
 @end
 

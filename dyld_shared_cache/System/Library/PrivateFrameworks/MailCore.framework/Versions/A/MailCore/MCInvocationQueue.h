@@ -4,30 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOperationQueue, NSPort;
+@class NSOperationQueue;
 
 @interface MCInvocationQueue
 {
     id _runLoopCancelPortOnceLock;
-    NSPort *_runLoopCancelPort;
-    NSOperationQueue *_secondaryQueue;
 }
 
 + (void);
 + (_Bool);
 + (void);
 - (id);
+- (id)8ka;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)reasonForSnapshot;
+- (void)showListShowsAllShowsKey;
+- (id);
 - (unsigned long long);
 - (void);
 

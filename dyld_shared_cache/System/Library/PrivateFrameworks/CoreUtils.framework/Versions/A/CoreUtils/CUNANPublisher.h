@@ -4,41 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUNANEndpoint, NSArray, NSData, NSDictionary, NSMutableDictionary, NSObject, NSString, WiFiAwarePublisher;
-@protocol OS_dispatch_queue;
-
 @interface CUNANPublisher
 {
     _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    _Bool _retryPending;
-    NSMutableDictionary *_sessions;
-    WiFiAwarePublisher *_wfaPublisher;
-    _Bool _dataPathEnabled;
-    unsigned int _controlFlags;
-    int _port;
-    unsigned int _trafficFlags;
-    NSData *_customData;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CUNANEndpoint *_mockEndpoint;
-    NSString *_mockID;
-    NSString *_mockPeerEndpointString;
-    NSString *_name;
-    NSString *_pairingBundleID;
-    long long _pairingClient;
-    NSString *_serviceType;
-    NSDictionary *_textInfo;
-    CDUnknownBlockType _interruptionHandler;
-    CDUnknownBlockType _invalidationHandler;
-    CDUnknownBlockType _dataSessionStartedHandler;
-    CDUnknownBlockType _dataSessionEndedHandler;
-    CDUnknownBlockType _pairingShowHandler;
-    CDUnknownBlockType _receiveHandler;
 }
 
-- (void);
-- (unsigned int);
-- (id);
+- (void)__DATA_CONST;
+- (unsigned int);
+- (id)__unwind_info;
 - (void);
 - (void);
 - (void);
@@ -66,72 +39,46 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)a;
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (_Bool);
+- (id)CL_SPACE;
+- (_Bool)error;
+- (void);
+- (void)?;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)legacyAnisetteDataForContext:DSID:withCompletion: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)(	;
 - (id);
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (void);
+- (void);
 - (void);
-- (void);
-- (int);
-- (unsigned int);
+- (int)@"
+convolution descriptor:%@neuron descriptor:%@ /* Error: Ran out of types for this method. */;
+- (unsigned int);
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (void);
+- (void)interAppAudioStreaming;
 - (void)<v@?q@"NSData">40;
 
 // Remaining properties
 @property(nonatomic) unsigned int controlFlags; // @synthesize controlFlags=_controlFlags;
-@property(copy, nonatomic) NSData *customData; // @synthesize customData=_customData;
-@property(nonatomic) _Bool dataPathEnabled; // @synthesize dataPathEnabled=_dataPathEnabled;
-@property(copy, nonatomic) CDUnknownBlockType dataSessionEndedHandler; // @synthesize dataSessionEndedHandler=_dataSessionEndedHandler;
-@property(copy, nonatomic) CDUnknownBlockType dataSessionStartedHandler; // @synthesize dataSessionStartedHandler=_dataSessionStartedHandler;
-@property(readonly, copy) NSArray *dataSessions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType interruptionHandler; // @synthesize interruptionHandler=_interruptionHandler;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(retain, nonatomic) CUNANEndpoint *mockEndpoint; // @synthesize mockEndpoint=_mockEndpoint;
-@property(copy, nonatomic) NSString *mockID; // @synthesize mockID=_mockID;
-@property(copy, nonatomic) NSString *mockPeerEndpointString; // @synthesize mockPeerEndpointString=_mockPeerEndpointString;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSString *pairingBundleID; // @synthesize pairingBundleID=_pairingBundleID;
-@property(nonatomic) long long pairingClient; // @synthesize pairingClient=_pairingClient;
-@property(copy, nonatomic) CDUnknownBlockType pairingShowHandler; // @synthesize pairingShowHandler=_pairingShowHandler;
-@property(nonatomic) int port; // @synthesize port=_port;
-@property(copy, nonatomic) CDUnknownBlockType receiveHandler; // @synthesize receiveHandler=_receiveHandler;
-@property(copy, nonatomic) NSString *serviceType; // @synthesize serviceType=_serviceType;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDictionary *textInfo; // @synthesize textInfo=_textInfo;
-@property(nonatomic) unsigned int trafficFlags; // @synthesize trafficFlags=_trafficFlags;
 
 @end
 

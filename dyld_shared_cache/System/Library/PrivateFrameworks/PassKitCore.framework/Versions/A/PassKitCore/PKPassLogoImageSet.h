@@ -11,19 +11,6 @@
 @interface PKPassLogoImageSet : PKPassImageSet
 {
     PKImage *_logoImage;
-    PKImage *_backgroundImage;
-    PKImage *_thumbnailImage;
-    PKImage *_stripImage;
-    PKImage *_footerImage;
-    PKImage *_altImage;
-    PKImage *_bankLogoImage;
-    PKImage *_networkLogoImage;
-    PKImage *_cobrandLogoImage;
-    PKImage *_cardBackgroundImage;
-    PKImage *_cardBackgroundCombinedImage;
-    PKImage *_compactBankLogoDarkImage;
-    PKImage *_compactBankLogoLightImage;
-    PKImage *_secondaryLogoImage;
 }
 
 + (long long);
@@ -34,20 +21,7 @@
 + (unsigned int)Ú¨ÿd+h";
 
 // Remaining properties
-@property(retain, nonatomic) PKImage *altImage; // @synthesize altImage=_altImage;
-@property(retain, nonatomic) PKImage *backgroundImage; // @synthesize backgroundImage=_backgroundImage;
-@property(retain, nonatomic) PKImage *bankLogoImage; // @synthesize bankLogoImage=_bankLogoImage;
-@property(retain, nonatomic) PKImage *cardBackgroundCombinedImage; // @synthesize cardBackgroundCombinedImage=_cardBackgroundCombinedImage;
-@property(retain, nonatomic) PKImage *cardBackgroundImage; // @synthesize cardBackgroundImage=_cardBackgroundImage;
-@property(retain, nonatomic) PKImage *cobrandLogoImage; // @synthesize cobrandLogoImage=_cobrandLogoImage;
-@property(retain, nonatomic) PKImage *compactBankLogoDarkImage; // @synthesize compactBankLogoDarkImage=_compactBankLogoDarkImage;
-@property(retain, nonatomic) PKImage *compactBankLogoLightImage; // @synthesize compactBankLogoLightImage=_compactBankLogoLightImage;
-@property(retain, nonatomic) PKImage *footerImage; // @synthesize footerImage=_footerImage;
 @property(retain, nonatomic) PKImage *logoImage; // @synthesize logoImage=_logoImage;
-@property(retain, nonatomic) PKImage *networkLogoImage; // @synthesize networkLogoImage=_networkLogoImage;
-@property(retain, nonatomic) PKImage *secondaryLogoImage; // @synthesize secondaryLogoImage=_secondaryLogoImage;
-@property(retain, nonatomic) PKImage *stripImage; // @synthesize stripImage=_stripImage;
-@property(retain, nonatomic) PKImage *thumbnailImage; // @synthesize thumbnailImage=_thumbnailImage;
 
 @end
 

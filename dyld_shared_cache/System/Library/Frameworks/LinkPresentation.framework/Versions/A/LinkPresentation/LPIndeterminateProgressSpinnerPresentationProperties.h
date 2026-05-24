@@ -11,7 +11,7 @@
     NSString *_text;
 }
 
-- (id);
+- (id)num_tracks,%d,num_lanes,%d,num_lane_coordinates,%d,is_sparse_event,%d;
 - (void);
 - (void)0@ù
 × ;

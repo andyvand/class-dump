@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SFAuthenticateAccountInfo
 {
     unsigned int _type;
-    NSString *_altDSID;
 }
 
 - (id);
 - (id);
 - (unsigned int);
-- (void)sFeatureFlag;
+- (void)hasFeatureFlag;
 - (id)nts
 ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
 @property(readonly, nonatomic) unsigned int type; // @synthesize type=_type;
 
 @end

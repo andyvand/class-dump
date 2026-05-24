@@ -9,8 +9,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
-- (struct CGPoint)edItems;
+- (id)IMWritePushNotificationSettingsService;
+- (struct CGPoint)_addedItems;
 
 @end
 

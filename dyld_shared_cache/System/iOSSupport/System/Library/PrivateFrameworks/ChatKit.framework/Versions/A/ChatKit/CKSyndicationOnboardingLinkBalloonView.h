@@ -6,18 +6,17 @@
 
 #import <ChatKit/CKTranscriptPluginBalloonView.h>
 
-@class LPLinkMetadata, LPLinkView;
+@class LPLinkView;
 
 @interface CKSyndicationOnboardingLinkBalloonView : CKTranscriptPluginBalloonView
 {
     LPLinkView *_linkView;
-    LPLinkMetadata *_linkMetadata;
 }
 
 + (id);
 + (id);
-+ (id);
-- (void);
++ (id)reaching HTML converter service:%@ /* Error: Ran out of types for this method. */;
+- (void)ic_isAppExtension;
 - (id);
 - (void);
 - (id);
@@ -26,7 +25,6 @@
 - (void)ÿ5&;
 
 // Remaining properties
-@property(retain, nonatomic) LPLinkMetadata *linkMetadata; // @synthesize linkMetadata=_linkMetadata;
 @property(retain, nonatomic) LPLinkView *linkView; // @synthesize linkView=_linkView;
 
 @end

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSString;
+@class NSString;
 
 @interface LPImageProperties
 {
     _Bool _hasSingleDominantColor;
-    NSString *_accessibilityText;
-    long long _type;
-    NSColor *_overlaidTextColor;
-    NSColor *_dominantColor;
 }
 
 - (void);
@@ -33,10 +29,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accessibilityText; // @synthesize accessibilityText=_accessibilityText;
-@property(retain, nonatomic) NSColor *dominantColor; // @synthesize dominantColor=_dominantColor;
-@property(nonatomic) _Bool hasSingleDominantColor; // @synthesize hasSingleDominantColor=_hasSingleDominantColor;
-@property(retain, nonatomic) NSColor *overlaidTextColor; // @synthesize overlaidTextColor=_overlaidTextColor;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

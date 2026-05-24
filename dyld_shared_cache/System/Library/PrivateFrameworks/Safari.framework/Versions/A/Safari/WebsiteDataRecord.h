@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, NSString, WKWebsiteDataRecord;
+@class NSString, WKWebsiteDataRecord;
 
 __attribute__((visibility("hidden")))
 @interface WebsiteDataRecord
 {
     NSString *_displayName;
-    NSArray *_identitiesURLs;
-    NSString *_profileIdentifier;
-    WKWebsiteDataRecord *_wkWebsiteDataRecord;
 }
 
 - (id);
@@ -25,17 +22,6 @@ __attribute__((visibility("hidden")))
 - (void)$;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSSet *dataTypes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSArray *identitiesURLs; // @synthesize identitiesURLs=_identitiesURLs;
-@property(readonly, copy, nonatomic) NSString *profileIdentifier; // @synthesize profileIdentifier=_profileIdentifier;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) WKWebsiteDataRecord *wkWebsiteDataRecord; // @synthesize wkWebsiteDataRecord=_wkWebsiteDataRecord;
 
 @end

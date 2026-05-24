@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSString;
 
 @interface BSDispatchTimer
 {
     NSString *_identifier;
-    struct os_unfair_lock_s _lock;
-    NSObject<OS_dispatch_queue> *_lock_queue;
-    NSObject<OS_dispatch_source> *_lock_source;
-    id _lock_context;
-    CDUnknownBlockType _lock_handler;
-    unsigned long long _lock_fireTime;
-    long long _lock_repeatNanoseconds;
-    long long _lock_leewayNanoseconds;
-    unsigned long long _lock_fireCount;
-    unsigned int _lock_scheduleToken;
-    _Bool _lock_invalidated;
 }
 
 - (void);

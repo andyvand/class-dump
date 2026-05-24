@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue, OS_xpc_object;
-
 __attribute__((visibility("hidden")))
 @interface CMIOProprietaryDefaultsSource
 {
     CDUnknownBlockType _defaultChangedHandler;
-    CDUnknownBlockType _frameSenderEndpointsChangedHandler;
-    CDUnknownBlockType _connectionBrokenHandler;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_xpc_object> *_registerExtensionServiceConnection;
-    _Bool _connectionIsValid;
 }
 
-- (int);
-- (int);
-- (int);
-- (int);
-- (int);
-- (id);
-- (int);
-- (int);
+- (int)setTertiaryTextColorLight:(id)arg1;
+- (int)setSubcoders:(id)arg1;
+- (int)setShowAsTopmost:(id)arg1;
+- (int)parser:(_Bool)arg1 foundInternalEntityDeclarationWithName:value: /* Error: Ran out of types for this method. */;
+- (int)initWithBytesNoCopy:(CDStruct_6ad76789)arg1 length:(id *)arg2 freeWhenDone: /* Error: Ran out of types for this method. */;
+- (id)_gradientColorStart;
+- (int)URLByAppendingPathComponent:(id *)arg1 isDirectory: /* Error: Ran out of types for this method. */;
+- (int),N,V_characterRange;
 - (void);
 - (int);
 - (int);
 - (id);
-- (id);
+- (id)TotalZoomFactor;
 - (id);
 - (int);
 - (struct __CVBuffer *);

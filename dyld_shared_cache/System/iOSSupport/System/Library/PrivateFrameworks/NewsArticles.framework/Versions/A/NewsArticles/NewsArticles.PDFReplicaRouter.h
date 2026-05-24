@@ -7,9 +7,6 @@
 @interface NewsArticles.PDFReplicaRouter
 {
     id controller;
-    id linkHandler;
-    id webViewControllerFactory;
-    id resolver;
 }
 
 @end

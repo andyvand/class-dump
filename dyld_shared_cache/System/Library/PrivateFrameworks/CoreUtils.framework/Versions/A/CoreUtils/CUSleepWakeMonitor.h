@@ -4,47 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CUSleepWakeMonitor
 {
     _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    struct __IOPMConnection *_powerCnx;
-    unsigned int _sleepWakeFlags;
-    int _sleepWakeState;
-    struct LogCategory *_ucat;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _invalidationHandler;
-    NSString *_label;
-    CDUnknownBlockType _sleepWakeHandler;
 }
 
 - (void);
+- (CDUnknownBlockType)syndicatedContentServerDate;
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
+- (void)NSSet"24;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(copy, nonatomic) CDUnknownBlockType sleepWakeHandler; // @synthesize sleepWakeHandler=_sleepWakeHandler;
 
 @end
 

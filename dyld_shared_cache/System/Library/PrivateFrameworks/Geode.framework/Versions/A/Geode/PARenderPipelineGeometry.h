@@ -7,14 +7,6 @@
 @interface PARenderPipelineGeometry
 {
     _Bool _wantsCrop;
-    _Bool _wantsStraighten;
-    double _inStraightenAngleInDegreesCCW;
-    struct PFIntRect_st _inCropRect;
-    struct PFIntRect_st _preCrop;
-    struct PFIntRect_st _crop;
-    struct PFIntRect_st _extent;
-    struct CGAffineTransform _straightenTransform;
-    struct CGAffineTransform _rotateFlipTransform;
 }
 
 - (_Bool);
@@ -25,7 +17,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@�
+;
 - (struct CGAffineTransform);
 - (struct CGAffineTransform);
 - (struct CGAffineTransform);
@@ -34,20 +27,12 @@
 - (struct PFIntRect_st);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (struct PFIntRect_st);
 - (struct PFIntRect_st);
 
 // Remaining properties
-@property struct PFIntRect_st crop; // @synthesize crop=_crop;
-@property struct PFIntRect_st extent; // @synthesize extent=_extent;
-@property struct PFIntRect_st inCropRect; // @synthesize inCropRect=_inCropRect;
-@property double inStraightenAngleInDegreesCCW; // @synthesize inStraightenAngleInDegreesCCW=_inStraightenAngleInDegreesCCW;
-@property struct PFIntRect_st preCrop; // @synthesize preCrop=_preCrop;
-@property struct CGAffineTransform rotateFlipTransform; // @synthesize rotateFlipTransform=_rotateFlipTransform;
-@property struct CGAffineTransform straightenTransform; // @synthesize straightenTransform=_straightenTransform;
 @property _Bool wantsCrop; // @synthesize wantsCrop=_wantsCrop;
-@property _Bool wantsStraighten; // @synthesize wantsStraighten=_wantsStraighten;
 
 @end
 

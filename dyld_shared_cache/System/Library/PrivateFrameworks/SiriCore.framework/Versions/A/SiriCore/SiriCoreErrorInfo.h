@@ -9,22 +9,18 @@
 @interface SiriCoreErrorInfo
 {
     _Bool _isPeerConnectionError;
-    _Bool _isPeerNotNearbyError;
-    NSError *_error;
 }
 
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)QueryComponentCd;
+- (void)QueryComponentCs;
+- (_Bool)4px; display:inline-block; min-width:159px; font-family:'Helvetica Neue',sans-serif;"><a href="%@" style="text-align:center; text-decoration:none; font-size:14px; color:#007AFF; display:block; margin:40px 10px 0px">%@</a><div style="text-align:center; font-size:12px; color:#808080"><div style="margin:4px 10px 0px">%@</div><div style="margin:3px 10px 0px">%@</div></div></div> /* Error: Ran out of types for this method. */;
+- (_Bool)border:1px solid #CACACA; border-radius:15px; height:134px; display:inline-block; min-width:159px; font-family:'Helvetica Neue',sans-serif;"><a href="%@" style="text-align:center; text-decoration:none; font-size:14px; color:#007AFF; display:block; margin:40px 10px 0px">%@</a><div style="text-align:center; font-size:12px; color:#808080"><div style="margin:4px 10px 0px">%@</div><div style="margin:3px 10px 0px">%@</div></div></div> /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(nonatomic) _Bool isPeerConnectionError; // @synthesize isPeerConnectionError=_isPeerConnectionError;
-@property(nonatomic) _Bool isPeerNotNearbyError; // @synthesize isPeerNotNearbyError=_isPeerNotNearbyError;
 
 @end
 

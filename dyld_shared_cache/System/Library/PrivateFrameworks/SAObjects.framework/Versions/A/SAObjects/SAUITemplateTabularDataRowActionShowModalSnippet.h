@@ -14,10 +14,10 @@
 
 + (id);
 + (id);
-- (void);
+- (void)';
 - (id);
 - (id);
-- (id);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) id <SAServerBoundCommand> fetchContentCommand;

@@ -6,34 +6,31 @@
 
 #import <Metal/MTLHeapDescriptor.h>
 
-@class MTLResourceAddressRangeArray;
-
 __attribute__((visibility("hidden")))
 @interface MTLHeapDescriptorInternal : MTLHeapDescriptor
 {
     struct MTLHeapDescriptorPrivate *_private;
-    MTLResourceAddressRangeArray *_addressRanges;
 }
 
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)#;
 - (long long);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)IrradiationEventIdentificationSequence;
 - (id);
 - (const struct MTLHeapDescriptorPrivate *);
 - (void);
 - (unsigned long long);
-- (void);
-- (unsigned long long);
+- (void)Set"16;
+- (unsigned long long)attributesForCharacterIndex:lineHeightRectangle: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
 - (long long);
-- (long long);
+- (long long)H;
 - (id);
 - (_Bool);
 - (void);
@@ -43,8 +40,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long)ogramInfoBuffer:capacity: /* Error: Ran out of types for this method. */;
-- (unsigned long long)ilySupportsFloat16BCubicFiltering;
+- (unsigned long long)sampledAccelerationStructureCommandEncoderWithDescriptor:programInfoBuffer:capacity: /* Error: Ran out of types for this method. */;
+- (unsigned long long)familySupportsFloat16BCubicFiltering;
 - (unsigned long long)¡;
 - (unsigned long long)NOTFOUND:Requested page not found /* Error: Ran out of types for this method. */;
 - (unsigned long long);
@@ -52,7 +49,6 @@ __attribute__((visibility("hidden")))
 - (void)hé*;
 
 // Remaining properties
-@property(nonatomic) _Bool sparsePageAccessCountersEnabled;
 @property(nonatomic) long long sparsePageSize;
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSSet, NSString, NSURL, NSUUID;
+@class NSDate;
 
 @interface _CDAttachmentRecord
 {
@@ -12,18 +12,6 @@
 
 
 // Remaining properties
-@property(retain, nonatomic) NSUUID *cloudIdentifier; // @dynamic cloudIdentifier;
-@property(retain, nonatomic) NSArray *contentKeywords; // @dynamic contentKeywords;
-@property(retain, nonatomic) NSString *contentText; // @dynamic contentText;
-@property(retain, nonatomic) NSString *contentTitle; // @dynamic contentTitle;
-@property(retain, nonatomic) NSURL *contentURL; // @dynamic contentURL;
 @property(retain, nonatomic) NSDate *creationDate; // @dynamic creationDate;
-@property(retain, nonatomic) NSUUID *identifier; // @dynamic identifier;
-@property(retain, nonatomic) NSSet *interactions; // @dynamic interactions;
-@property(retain, nonatomic) NSString *personInPhoto; // @dynamic personInPhoto;
-@property(retain, nonatomic) NSString *photoLocalIdentifier; // @dynamic photoLocalIdentifier;
-@property(retain, nonatomic) NSString *photoSceneDescriptor; // @dynamic photoSceneDescriptor;
-@property(nonatomic) long long sizeInBytes; // @dynamic sizeInBytes;
-@property(retain, nonatomic) NSString *uti; // @dynamic uti;
 @end
 

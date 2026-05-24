@@ -7,9 +7,6 @@
 @interface FCNewsPersonalizationFeatureConfiguration
 {
     long long _articleLengthMediumThreshold;
-    long long _articleLengthLongThreshold;
-    long long _publisherTopicPairPublisherEventCountThreshold;
-    long long _publisherTopicPairTopicEventCountThreshold;
 }
 
 + (long long);
@@ -18,21 +15,18 @@
 + (long long);
 - (long long);
 - (long long);
-- (id);
+- (id)@;
 - (void);
 - (long long);
 - (long long);
 - (void);
 - (void);
-- (void);
+- (void)setLocalCertificate:(long long)arg1;
 - (id)Á°!üDùq(	1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) long long articleLengthLongThreshold; // @synthesize articleLengthLongThreshold=_articleLengthLongThreshold;
 @property(nonatomic) long long articleLengthMediumThreshold; // @synthesize articleLengthMediumThreshold=_articleLengthMediumThreshold;
-@property(nonatomic) long long publisherTopicPairPublisherEventCountThreshold; // @synthesize publisherTopicPairPublisherEventCountThreshold=_publisherTopicPairPublisherEventCountThreshold;
-@property(nonatomic) long long publisherTopicPairTopicEventCountThreshold; // @synthesize publisherTopicPairTopicEventCountThreshold=_publisherTopicPairTopicEventCountThreshold;
 
 @end
 

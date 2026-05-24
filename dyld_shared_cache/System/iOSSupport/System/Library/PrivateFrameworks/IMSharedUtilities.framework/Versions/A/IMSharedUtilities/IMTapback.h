@@ -4,26 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface IMTapback
 {
     long long _associatedMessageType;
-    NSString *_languageIdentifier;
 }
 
-+ (id);
++ (id);
 + (_Bool);
 + (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) long long associatedMessageType; // @synthesize associatedMessageType=_associatedMessageType;
-@property(readonly, nonatomic) IMTapback *counterpart;
-@property(retain, nonatomic) NSString *languageIdentifier; // @synthesize languageIdentifier=_languageIdentifier;
-@property(readonly, nonatomic, getter=isRemoved) _Bool removed;
-@property(readonly, nonatomic) IMTapback *removedTapbackCounterpart;
-@property(readonly, nonatomic, getter=isSendable) _Bool sendable;
-@property(readonly, nonatomic) IMTapback *visibleTapbackCounterpart;
 
 @end
 

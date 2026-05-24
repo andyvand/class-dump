@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool);
++ (_Bool)te>"@"NSError">24;
 - (void);
 
 @end

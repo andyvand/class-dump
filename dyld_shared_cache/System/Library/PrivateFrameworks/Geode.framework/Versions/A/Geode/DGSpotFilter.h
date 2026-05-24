@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSArray;
+@class CIImage;
 
 @interface DGSpotFilter
 {
     CIImage *inputImage;
-    NSArray *inputSpots;
 }
 
 + (id);
-+ (void)rovider;
++ (void)PA2DBufferCIImageProvider;
 - (id);
 - (struct CGRect);
 - (id);

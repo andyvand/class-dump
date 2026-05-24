@@ -10,24 +10,19 @@ __attribute__((visibility("hidden")))
 @interface _NSSidecarTouchFilterLeftDragRecognizer : _NSSidecarTouchFilterRecognizer
 {
     long long _trackingIdx;
-    long long _tapCount;
-    struct CGPoint _initialWinLoc;
-    struct CGPoint _currentWinLoc;
-    unsigned long long _lastUpTimestamp;
-    unsigned int _postedMouseDown:1;
 }
 
+- (void)onCopyFirmwareSecurityInfo returned NULL;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)due to overlong name %@;
+- (void)%llu ignore empty incoming stream;
+- (void)closed but connection is alive;
+- (void).24;
 - (id);
 - (void);
 - (void)H;
-- (void)Restore;
+- (void)NSGraphicsContextAllowOverRestore;
 - (void)softlink:r:path:/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics /* Error: Ran out of types for this method. */;
 
 @end

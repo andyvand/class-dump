@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface SGQuickResponse
 {
     _Bool _isCustomResponse;
-    _Bool _isRobotResponse;
-    _Bool _isConfident;
-    NSString *_text;
-    NSString *_lang;
-    unsigned long long _replyTextId;
-    unsigned long long _styleGroupId;
-    unsigned long long _semanticClassId;
-    unsigned long long _modelId;
-    unsigned long long _categoryId;
-    NSDictionary *_proactiveTrigger;
 }
 
 - (unsigned long long);
@@ -34,22 +24,12 @@
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)CloudKitOperationInfo;
 - (id);
 - (unsigned long long);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long categoryId; // @synthesize categoryId=_categoryId;
-@property(readonly, nonatomic) _Bool isConfident; // @synthesize isConfident=_isConfident;
-@property(readonly, nonatomic) _Bool isCustomResponse; // @synthesize isCustomResponse=_isCustomResponse;
-@property(readonly, nonatomic) _Bool isRobotResponse; // @synthesize isRobotResponse=_isRobotResponse;
-@property(readonly, copy, nonatomic) NSString *lang; // @synthesize lang=_lang;
-@property(readonly, nonatomic) unsigned long long modelId; // @synthesize modelId=_modelId;
-@property(readonly, nonatomic) NSDictionary *proactiveTrigger; // @synthesize proactiveTrigger=_proactiveTrigger;
-@property(readonly, nonatomic) unsigned long long replyTextId; // @synthesize replyTextId=_replyTextId;
-@property(readonly, nonatomic) unsigned long long semanticClassId; // @synthesize semanticClassId=_semanticClassId;
-@property(readonly, nonatomic) unsigned long long styleGroupId; // @synthesize styleGroupId=_styleGroupId;
 @property(readonly, copy, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end

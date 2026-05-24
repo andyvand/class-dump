@@ -7,9 +7,6 @@
 @interface AppKit.ScreenProviderCoordinator
 {
     id _providers;
-    id observer;
-    id _lock;
-    id _latestArrangement;
 }
 
 @end

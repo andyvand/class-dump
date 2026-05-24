@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface IFPlatformRequestSchemaIFPlatformRequestClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_ifRequestId;
-    unsigned long long _postingSpanId;
-    CDStruct_b8d36928 _has;
-    _Bool _hasIfRequestId;
 }
 
 - (void);
@@ -32,18 +29,14 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (id)isPhoneNumber;
 - (id);
-- (id);
-- (id)ions;
+- (id)planGenerations;
 - (id)ìÀ;
 - (void)¤ÃÊÿo2´qÓ#;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIfRequestId; // @synthesize hasIfRequestId=_hasIfRequestId;
-@property(nonatomic) _Bool hasPostingSpanId;
 @property(retain, nonatomic) SISchemaUUID *ifRequestId; // @synthesize ifRequestId=_ifRequestId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned long long postingSpanId; // @synthesize postingSpanId=_postingSpanId;
 
 @end
 

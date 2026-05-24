@@ -4,31 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EAAccessory, EASession, NSRecursiveLock;
-
 @interface EAOutputStream
 {
     id _delegate;
-    int _sock;
-    EAAccessory *_accessory;
-    EASession *_session;
-    NSRecursiveLock *_statusLock;
-    NSRecursiveLock *_runloopLock;
-    _Bool _useSocket;
-    struct __CFSocket *_cfSocket;
-    _Bool _isOpenCompletedEventSent;
-    _Bool _hasSpaceAvailableEventSent;
-    _Bool _hasSpaceAvailable;
-    _Bool _isAtEndEventSent;
-    unsigned long long _streamStatus;
-    struct __CFRunLoop *_runLoop;
-    struct __CFRunLoopSource *_runLoopSource;
-    struct __CFRunLoopSource *_socketRunLoopSource;
 }
 
 - (void);
+- (id)O7fc;
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -37,12 +20,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)N!;
 - (long long);
 - (id);
 - (void);

@@ -4,29 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet;
+@class NSDictionary;
 
 @interface RBInheritanceCollection
 {
     NSDictionary *_inheritancesByEnvironment;
-    NSSet *_inheritances;
-    NSSet *_namespaces;
 }
 
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)raceTimeMs;
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)X;
+- (id)eAssetsTimer;
 - (unsigned long long);
 - (void);
-- (unsigned long long)originatorHasExited:(CDStruct_70511ce9 *)arg1;
+- (unsigned long long)_lock_originatorHasExited:(CDStruct_70511ce9 *)arg1;
 
 @end
 

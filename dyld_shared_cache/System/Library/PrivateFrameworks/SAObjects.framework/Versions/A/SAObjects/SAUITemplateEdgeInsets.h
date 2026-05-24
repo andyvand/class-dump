@@ -6,20 +6,18 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSString;
-
 @interface SAUITemplateEdgeInsets : AceObject
 {
 }
 
 + (id);
-+ (id);
++ (id)Q;
 - (void);
 - (void);
 - (float);
 - (void);
 - (id);
-- (id);
+- (id)@;
 - (float);
 - (float);
 - (float);
@@ -27,16 +25,6 @@
 
 // Remaining properties
 @property(nonatomic) float bottom;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) float left;
-@property(nonatomic) float right;
-@property(readonly) Class superclass;
-@property(nonatomic) float top;
 
 @end
 

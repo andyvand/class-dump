@@ -11,23 +11,20 @@ __attribute__((visibility("hidden")))
 @interface HMDSiriEndpointOnboardingManager
 {
     NSMutableDictionary *_onboardingSelections;
-    NSMutableDictionary *_onboardingUserUUID;
-    struct os_unfair_lock_s _lock;
-    id <HMDSiriEndpointOnboardingManagerDataSource> _dataSource;
 }
 
 - (void);
-- (void);
+- (void)a;
 - (void);
 - (id);
-- (void);
+- (void)?2, ?3, ?4, ?5, ?6, ?7, ?8, ?9, ?10, ?11, ?12, ?13, ?14, ?15, ?16);
 - (void);
 - (void);
 - (_Bool);
 - (void)notification:(id)arg1 %@;
 - (void)rate preferred thread network credentials record :(id)arg1 %@;
 - (id)deRegistrations:(id)arg1 %@ remoteAccessModeRegistrations:%@ /* Error: Ran out of types for this method. */;
-- (void);
+- (void)numberOwnedSharedHomes;
 
 // Remaining properties
 @property __weak id <HMDSiriEndpointOnboardingManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;

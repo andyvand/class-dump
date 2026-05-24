@@ -5,5 +5,9 @@
 //
 
 @protocol IDSAccountDelegate
+
+@optional
+- (void)c;
+- (void)*;
 @end
 

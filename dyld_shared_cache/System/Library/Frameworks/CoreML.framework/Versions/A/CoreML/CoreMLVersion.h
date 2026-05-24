@@ -11,8 +11,9 @@
     NSNumber *_frameworkVersionNumber;
 }
 
-+ (id);
-- (void);
++ (id)@}
+;
+- (void)0D;
 - (id);
 - (id);
 - (void)on-main function is not supported.;

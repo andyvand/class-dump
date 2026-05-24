@@ -4,7 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSString, _SWPendingCollaboration;
+
 @protocol CKSMSComposeViewServiceProtocol
-- (void)lternate;
+- (void);
+- (void)GRect={CGPoint=dd}{CGSize=dd}}20@"NSView"52;
+- (void)GSize=dd}}16@"NSView"48;
+- (void)on";
+- (void)e>"44@0:(NSString *)arg1 8@"NSString"16@"NSAttributedString"24B32^@36;
+- (void)44@0:(NSString *)arg1 8@16@24B32^@36;
+- (void):(NSString *)arg1 8I16@20B28;
+- (void)@0:(_Bool)arg1 8Q16@24@32;
+- (void)";
+- (void):(NSString *)arg1 8@16Q24{_NSRange=QQ}32q48;
+- (void)updateDivergedCustomPasswordModeActionAlertWithAccount:(NSArray *)arg1 incompatibilityMessage: /* Error: Ran out of types for this method. */;
+- (void)updateAttachmentPreviewImageWithImageData:(NSArray *)arg1 size:scale:appearanceType:scaleWhenDrawing:metadata:sendNotification: /* Error: Ran out of types for this method. */;
+- (void)setUndoneWidthConstraint:(NSArray *)arg1;
+- (void)setUndoneHeightConstraint:(void (^)(void))arg1;
+- (void)setInvalidHighlightsTextStorage:(NSArray *)arg1;
+- (void)_previouslyHadMarkedText;
+- (void)_preventEditingUpdatesCount;
+- (void)_prepareForImmediateActionAnimationForWebView:(_SWPendingCollaboration *)arg1;
+- (void)_pasteboardTypes;
+- (void)_passwordHintWarningLabel;
+- (void)_passwordAndVerifyDoNotMatchLabel;
+- (void)_orientedImageTransform;
+- (void)_onlyAcceptsCustomZooms;
+- (void)_oldPasswordIncorrectTextViewHeightConstraint;
+- (void)_observedButtons;
+- (void)_needsUpdateManagedObjectIDsSerialQueue;
+- (void)_mustZoomTextBeforeReplacingCharactersInRange;
+- (void)_modernViewContext;
+- (void)_modernManagedObjectContext;
+- (void)topButtonTitle;
+- (void)ICDrawingHashtagsAndMentionsController;
+- (void)ect for share metadata %@;
+- (void)ching share %@ with %@;
+- (void);
+- (void)SidebarCloseAlternate;
 @end
 

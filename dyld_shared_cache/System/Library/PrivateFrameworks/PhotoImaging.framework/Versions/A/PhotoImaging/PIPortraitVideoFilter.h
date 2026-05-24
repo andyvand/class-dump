@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber, NUCVPixelBuffer, PIPortraitVideoMetadataSample, PTGlobalRenderingMetadata;
+@class CIImage;
 
 @interface PIPortraitVideoFilter
 {
     _Bool _inputIsHDR;
-    CIImage *_inputImage;
-    CIImage *_inputDisparityImage;
-    NUCVPixelBuffer *_inputColorPixelBuffer;
-    NUCVPixelBuffer *_inputDisparityPixelBuffer;
-    NSNumber *_inputRenderQuality;
-    NSNumber *_inputRenderDebugMode;
-    PTGlobalRenderingMetadata *_inputGlobalRenderingMetadata;
-    PIPortraitVideoMetadataSample *_inputTimedRenderingMetadata;
-    NSNumber *_inputAperture;
-    NSNumber *_inputFocusedDisparity;
 }
 
 - (void);
@@ -27,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (id);
 - (id);
 - (id);
@@ -44,20 +34,10 @@
 - (id);
 - (void);
 - (id);
-- (void)Scores: /* Error: Ran out of types for this method. */;
+- (void)settlingEffectLayoutDecisionForSegmentationScores: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *inputAperture; // @synthesize inputAperture=_inputAperture;
-@property(retain, nonatomic) NUCVPixelBuffer *inputColorPixelBuffer; // @synthesize inputColorPixelBuffer=_inputColorPixelBuffer;
-@property(retain, nonatomic) CIImage *inputDisparityImage; // @synthesize inputDisparityImage=_inputDisparityImage;
-@property(retain, nonatomic) NUCVPixelBuffer *inputDisparityPixelBuffer; // @synthesize inputDisparityPixelBuffer=_inputDisparityPixelBuffer;
-@property(retain, nonatomic) NSNumber *inputFocusedDisparity; // @synthesize inputFocusedDisparity=_inputFocusedDisparity;
-@property(retain, nonatomic) PTGlobalRenderingMetadata *inputGlobalRenderingMetadata; // @synthesize inputGlobalRenderingMetadata=_inputGlobalRenderingMetadata;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage=_inputImage;
-@property(nonatomic) _Bool inputIsHDR; // @synthesize inputIsHDR=_inputIsHDR;
-@property(retain, nonatomic) NSNumber *inputRenderDebugMode; // @synthesize inputRenderDebugMode=_inputRenderDebugMode;
-@property(retain, nonatomic) NSNumber *inputRenderQuality; // @synthesize inputRenderQuality=_inputRenderQuality;
-@property(retain, nonatomic) PIPortraitVideoMetadataSample *inputTimedRenderingMetadata; // @synthesize inputTimedRenderingMetadata=_inputTimedRenderingMetadata;
 
 @end
 

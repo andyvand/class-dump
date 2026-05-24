@@ -6,36 +6,34 @@
 
 #import <NotesShared/ICFilterTypeSelection.h>
 
-@class NSArray, NSManagedObjectContext, NSString;
+@class NSManagedObjectContext;
 
 @interface ICFoldersFilterTypeSelection : ICFilterTypeSelection
 {
     NSManagedObjectContext *_managedObjectContext;
-    unsigned long long _inclusionType;
-    NSArray *_folderIdentifiers;
 }
 
 + (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)C;
+- (id)/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration;
 - (_Bool);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)connectionLock;
+- (id)componentsSeparatedByString: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)e;
 - (long long);
 - (_Bool);
 - (id);
@@ -43,10 +41,6 @@
 - (id)ÈË;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool containsSharedFolder;
-@property(retain, nonatomic) NSArray *folderIdentifiers; // @synthesize folderIdentifiers=_folderIdentifiers;
-@property(readonly, copy, nonatomic) NSString *folderSummaryList;
-@property(nonatomic) unsigned long long inclusionType; // @synthesize inclusionType=_inclusionType;
 @property(readonly, nonatomic) NSManagedObjectContext *managedObjectContext; // @synthesize managedObjectContext=_managedObjectContext;
 
 @end

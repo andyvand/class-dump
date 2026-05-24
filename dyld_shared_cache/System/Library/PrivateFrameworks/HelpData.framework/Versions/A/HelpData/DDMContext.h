@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSProcessInfo, NSString, PPCRedirect;
+@class NSProcessInfo;
 
 @interface DDMContext
 {
     NSProcessInfo *_processInfo;
-    NSDictionary *_systemVersionDictionary;
-    PPCRedirect *_urlRedirector;
-    CDStruct_f6aba300 _osVersionSystem;
 }
 
 + (id);
@@ -20,17 +17,17 @@
 - (void);
 - (void);
 - (id);
+- (long long)*;
 - (long long);
-- (long long);
-- (long long);
+- (long long)q`;
+- (id);
+- (id);
+- (id)!;
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (CDStruct_f6aba300);
+- (CDStruct_2ec95fd7);
 - (id);
 - (id);
 - (id);
@@ -40,27 +37,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)setStringValue: /* Error: Ran out of types for this method. */;
+- (id);
 - (_Bool);
 
 // Remaining properties
-@property(readonly) NSString *hardware;
-@property(readonly) _Bool isInternalBuild;
-@property(readonly) NSString *languages;
-@property(readonly) NSString *mappingDescription;
-@property(readonly) NSString *osProductName;
-@property(readonly) NSString *osVersion;
-@property(readonly) NSString *osVersionBuild;
-@property(readonly) long long osVersionMajor;
-@property(readonly) long long osVersionMinor;
-@property(readonly) long long osVersionPatch;
-@property(readonly) NSString *osVersionString;
-@property CDStruct_f6aba300 osVersionSystem; // @synthesize osVersionSystem=_osVersionSystem;
-@property(readonly) NSString *platform;
 @property(retain) NSProcessInfo *processInfo; // @synthesize processInfo=_processInfo;
-@property(retain) NSDictionary *systemVersionDictionary; // @synthesize systemVersionDictionary=_systemVersionDictionary;
-@property(retain, nonatomic) PPCRedirect *urlRedirector; // @synthesize urlRedirector=_urlRedirector;
 
 @end
 

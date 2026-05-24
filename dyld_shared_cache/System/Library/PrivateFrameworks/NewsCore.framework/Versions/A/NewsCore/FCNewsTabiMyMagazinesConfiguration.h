@@ -6,14 +6,9 @@
 
 #import <NewsCore/FCNewsTabiEndpointConfiguration.h>
 
-@class NSString;
-
 @interface FCNewsTabiMyMagazinesConfiguration : FCNewsTabiEndpointConfiguration
 {
     long long _maxTopicIds;
-    long long _titleEmbeddingDimension;
-    long long _fullBodyEmbeddingDimension;
-    NSString *_scoreOutputName;
 }
 
 - (long long);
@@ -31,9 +26,6 @@
 
 // Remaining properties
 @property(nonatomic) long long fullBodyEmbeddingDimension; // @synthesize fullBodyEmbeddingDimension=_fullBodyEmbeddingDimension;
-@property(nonatomic) long long maxTopicIds; // @synthesize maxTopicIds=_maxTopicIds;
-@property(retain, nonatomic) NSString *scoreOutputName; // @synthesize scoreOutputName=_scoreOutputName;
-@property(nonatomic) long long titleEmbeddingDimension; // @synthesize titleEmbeddingDimension=_titleEmbeddingDimension;
 
 @end
 

@@ -15,10 +15,10 @@
 + (id);
 + (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) id <SAAlarmAlarmAction> alarmAction;

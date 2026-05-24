@@ -16,7 +16,7 @@
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)cification5ModelEE3$_0FbS6_EEE;
 - (void);
 - (void);
 - (void);
@@ -24,15 +24,15 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void)shed waiting for complete;
+- (_Bool)g;
 - (void);
 - (_Bool);
 - (void);
@@ -40,7 +40,7 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)(=;
 - (id);
 - (unsigned long long);
 - (void);
@@ -48,21 +48,15 @@
 - (void);
 - (unsigned long long);
 - (unsigned int);
-- (long long);
+- (long long)|;
 - (unsigned long long);
 - (id);
 - (void)
 × ;
-- (void)ions;
+- (void)_resendPubSubSubscriptions;
 - (void)nelSubscriptionsFailedWithFailures:(id)arg1;
 
 // Remaining properties
-@property(nonatomic) _Bool ackReceived; // @synthesize ackReceived=_ackReceived;
-@property(nonatomic) unsigned long long ackTimestamp;
-@property(nonatomic, getter=isCritical) _Bool critical;
-@property(nonatomic) unsigned long long payloadFormat;
-@property(nonatomic) unsigned long long payloadLength;
-@property(nonatomic) _Bool sendRetried;
 @property(nonatomic) unsigned long long timeout;
 
 @end

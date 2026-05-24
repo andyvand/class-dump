@@ -4,43 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOCity, GEOCityPickerViewPrivController, NSButton, NSComboBox, NSObject, NSProgressIndicator;
-@protocol GEOCityPickerViewDelegate;
+@class GEOCity, GEOCityPickerViewPrivController;
 
 @interface GEOCityPickerView
 {
     GEOCityPickerViewPrivController *viewPrivController;
-    GEOCity *selectedCity;
-    _Bool enabled;
-    NSObject<GEOCityPickerViewDelegate> *delegate;
-    _Bool isUIBounded;
-    NSComboBox *comboBox;
-    NSButton *timeZoneButton;
-    NSProgressIndicator *progressIndicator;
 }
 
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)c}@. We'll make the account active if we successfully authenticate it.;
+- (void)ublic}@ | DSID = %{public}@ | username = %{public}@;
+- (id)ic}@] Did not find an account matching the given authentication results. authenticationResults = %{public}@;
+- (void)%{public}@;
+- (void)ion results. authenticationResults = %{public}@;
+- (void)ata proivsioning;
+- (id)vious acknowledgement will not be fetched because AMSDefaults.disablePrivacyAcknowledgement is true.;
+- (void)dVersion = %{public}@ | currentVersion = %{public}@;
+- (void)c}@;
+- (void)need to prompt for acknowledgement. acknowledgedVersion = %{public}@;
+- (void)MSDevice.isRunningInStoreDemoMode is true.;
+- (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (void)CompositingRepaintCountersVisible;
+- (void)arrayWithObjects:(id)arg1 count: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property NSObject<GEOCityPickerViewDelegate> *delegate; // @synthesize delegate;
-@property(getter=isEnabled) _Bool enabled; // @synthesize enabled;
 @property(retain, nonatomic) GEOCity *selectedCity;
 
 @end

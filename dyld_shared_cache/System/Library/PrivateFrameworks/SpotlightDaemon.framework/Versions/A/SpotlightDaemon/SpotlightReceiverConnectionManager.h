@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, SpotlightSenderState;
+@class NSArray, SpotlightSenderState;
 
 @interface SpotlightReceiverConnectionManager
 {
     SpotlightSenderState *_state;
-    NSDictionary *_connections;
-    NSArray *_connectionIdentifiers;
 }
 
-+ (id);
-+ (id);
-- (void);
-- (id);
-- (id);
-- (id);
++ (id)handleConfigureTargets:responseHandler: /* Error: Ran out of types for this method. */;
++ (id)handleConfigureAccessoriesWithDeviceCredentialKeyMessage: /* Error: Ran out of types for this method. */;
+- (void)handleRemoveHomeAccessCodeMessage:(id)arg1;
+- (id)handleRecordOperationLogEvent:(id)arg1;
+- (id)handlePrimaryResidentDeviceManagerUpdatePrimaryResidentWithNotification: /* Error: Ran out of types for this method. */;
+- (id).AvatarH;
 - (id);
 - (void);
 

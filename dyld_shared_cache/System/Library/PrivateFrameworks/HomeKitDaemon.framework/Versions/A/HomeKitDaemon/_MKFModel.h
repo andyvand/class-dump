@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/_MKFObject.h>
 
-@class MKFModelDatabaseID, NSDate, NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface _MKFModel : _MKFObject
@@ -20,26 +20,17 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)initWithObserver: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
-- (id);
-- (void)er;
+- (id)U;
+- (void)Scheduler;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFModelDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSUUID *modelID; // @dynamic modelID;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDate *writerTimestamp; // @dynamic writerTimestamp;
 
 @end
 

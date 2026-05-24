@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPRecordZoneIdentifier, NSString;
+@class NSString;
 
 @interface CKDPZoneEtagValidationInformationAncestorInformation
 {
     NSString *_zoneEtag;
-    CKDPRecordZoneIdentifier *_zoneIdentifier;
 }
 
 - (id);
@@ -18,8 +17,8 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)A;
+- (unsigned long long)FigEndpointStreamAirPlaySetRateAndAnchorTimeCallback, void *);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -31,10 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasZoneEtag;
 @property(readonly, nonatomic) _Bool hasZoneIdentifier;
-@property(retain, nonatomic) NSString *zoneEtag; // @synthesize zoneEtag=_zoneEtag;
-@property(retain, nonatomic) CKDPRecordZoneIdentifier *zoneIdentifier; // @synthesize zoneIdentifier=_zoneIdentifier;
 
 @end
 

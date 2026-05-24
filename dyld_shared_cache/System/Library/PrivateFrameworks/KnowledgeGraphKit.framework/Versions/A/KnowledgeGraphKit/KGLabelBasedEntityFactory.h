@@ -9,28 +9,24 @@
 @interface KGLabelBasedEntityFactory
 {
     NSMutableDictionary *_classByNodeLabels;
-    NSMutableDictionary *_classByEdgeLabels;
-    Class _defaultNodeClass;
-    Class _defaultEdgeClass;
 }
 
 - (void);
 - (Class);
-- (Class);
+- (Class)>={__value_func<bool (FI_TNewFolderOperation *, const TFENode &)>=(type=[24C])^v}},V_processNewFolder;
 - (id);
-- (Class);
+- (Class)@;
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (Class);
 - (Class);
-- (void);
+- (void)com.apple.controlcenter.controlcentermodule;
 
 // Remaining properties
-@property(retain, nonatomic) Class defaultEdgeClass; // @synthesize defaultEdgeClass=_defaultEdgeClass;
 @property(retain, nonatomic) Class defaultNodeClass; // @synthesize defaultNodeClass=_defaultNodeClass;
 
 @end

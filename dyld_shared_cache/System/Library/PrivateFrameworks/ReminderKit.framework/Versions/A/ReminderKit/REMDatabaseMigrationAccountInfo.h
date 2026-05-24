@@ -9,21 +9,18 @@
 @interface REMDatabaseMigrationAccountInfo
 {
     NSString *_identifier;
-    NSString *_name;
-    long long _type;
 }
 
 - (id);
-- (id);
-- (_Bool);
+- (id)i
+;
+- (_Bool)MSU update already prepared;
 - (long long);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

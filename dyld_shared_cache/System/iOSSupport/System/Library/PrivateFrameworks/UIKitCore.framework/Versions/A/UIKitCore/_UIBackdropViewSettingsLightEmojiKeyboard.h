@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
-- (id);
+- (_Bool)uest, but we are no longer the default text app, routing to %@;
+- (id)8;
 
 @end
 

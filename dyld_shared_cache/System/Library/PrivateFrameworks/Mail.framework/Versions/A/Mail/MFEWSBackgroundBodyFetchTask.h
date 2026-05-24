@@ -6,19 +6,11 @@
 
 #import <Mail/MFEWSTask.h>
 
-@class MFEWSBodyFetchOperation, MFEWSBodyPersistOperation, MFEWSGetMessagesNeedingBodiesOperation, NSMutableDictionary, NSMutableSet, NSString;
+@class MFEWSGetMessagesNeedingBodiesOperation, NSMutableSet;
 
 @interface MFEWSBackgroundBodyFetchTask : MFEWSTask
 {
     NSMutableSet *_mailboxesNeedingChecking;
-    NSMutableSet *_mandatoryMessagesNeedingBodies;
-    NSMutableSet *_discretionaryMessagesNeedingBodies;
-    NSMutableDictionary *_fetchedBodiesByMessage;
-    NSMutableDictionary *_fetchedCalendarEventsByMessage;
-    MFEWSGetMessagesNeedingBodiesOperation *_getMessagesNeedingBodiesOperation;
-    MFEWSBodyFetchOperation *_mandatoryBodyFetchOperation;
-    MFEWSBodyFetchOperation *_discretionaryBodyFetchOperation;
-    MFEWSBodyPersistOperation *_bodyPersistOperation;
 }
 
 - (void);
@@ -26,35 +18,25 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (id)";
 - (id);
 - (id);
 - (void);
+- (id);
+- (void);
+- (void)(;
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void)constraintWithAttribute:(id)arg1 relativeTo:attribute: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) MFEWSBodyPersistOperation *bodyPersistOperation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) MFEWSBodyFetchOperation *discretionaryBodyFetchOperation;
 @property(retain, nonatomic) MFEWSGetMessagesNeedingBodiesOperation *getMessagesNeedingBodiesOperation;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) MFEWSBodyFetchOperation *mandatoryBodyFetchOperation;
-@property(readonly) Class superclass;
 
 @end
 

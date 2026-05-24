@@ -8,31 +8,16 @@
 {
     id _apiType;
     id blockPresentationDetentUsage;
-    id __presentAsEmbeddedView;
-    id _evaluationState;
-    id _delegate;
-    id customSmallDetentForSwiftUI;
-    id _swiftUIDetent;
-    id _isFeedbackFormPresented;
-    id _interaction;
-    id __evaluation;
-    id __evaluationCompletionHandler;
-    id _subject;
-    id __cachedInteraction;
-    id _formContext;
-    id _actionPerformed;
-    id __shouldShortenForRemoteView;
-    id _$observationRegistrar;
 }
 
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)Ș;
 - (void);
 
 @end

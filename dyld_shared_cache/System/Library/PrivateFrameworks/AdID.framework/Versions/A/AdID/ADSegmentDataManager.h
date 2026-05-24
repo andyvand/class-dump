@@ -9,25 +9,24 @@
 @interface ADSegmentDataManager
 {
     _Bool _segmentUpdateInProgress;
-    NSNumber *_pendingJingleRequestToken;
 }
 
 + (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (void)8z;
+- (id)N18cnbuildinggeometry35FindNearestIntersectingFacetVisitorIdEE;
 - (id);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void)setInactiveStrategy:(id)arg1;
+- (id);
 - (void);
-- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void)directionsSourceLocationName;
 - (id);
 - (void);
 - (void);
@@ -40,8 +39,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *pendingJingleRequestToken; // @synthesize pendingJingleRequestToken=_pendingJingleRequestToken;
-@property(readonly, nonatomic) _Bool segmentRetrievalInProgress;
-@property(nonatomic) _Bool segmentUpdateInProgress; // @synthesize segmentUpdateInProgress=_segmentUpdateInProgress;
 
 @end
 

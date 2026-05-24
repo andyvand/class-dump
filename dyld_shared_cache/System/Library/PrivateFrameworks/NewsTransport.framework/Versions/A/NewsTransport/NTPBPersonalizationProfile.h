@@ -9,36 +9,34 @@
 @interface NTPBPersonalizationProfile
 {
     NSMutableArray *_aggregates;
-    NSMutableArray *_histories;
 }
 
-+ (Class);
-+ (Class);
++ (Class)_showReviewPhotosObjectType;
++ (Class)_persistenceConfirmationPresentationDate;
+- (void)enableBrowseViewColorNormalization;
+- (void)contentSyndicationHighlightCenterDidChange:(id)arg1;
+- (unsigned long long)collectionView:canDragItemsAtIndexPaths:withEvent: /* Error: Ran out of types for this method. */;
+- (id)collectionView:(unsigned long long)arg1 acceptDrop:indexPath:dropOperation: /* Error: Ran out of types for this method. */;
+- (void)ambiguousTokensPauseStoryGeneration;
+- (id)allAssetCollections;
+- (id)allAlbumsCollection;
+- (void)adjustGeometry:(id)arg1 forContentTileWithIndexPath: /* Error: Ran out of types for this method. */;
+- (void)addValueWithLabel:(id)arg1 boolValue:positiveValue:positiveHighlighted:negativeHighlighted: /* Error: Ran out of types for this method. */;
+- (void)addComment:toAsset:completionHandler: /* Error: Ran out of types for this method. */;
+- (unsigned long long)addClipWithTimeRange:frame:resource:playbackStyle:transitionInfo: /* Error: Ran out of types for this method. */;
+- (id)PhotosUICore/LemonadeRootViewController.swift;
+- (void);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)uldn't load required error content, skipping.;
+- (_Bool)gXw;
 - (id);
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *aggregates; // @synthesize aggregates=_aggregates;
-@property(retain, nonatomic) NSMutableArray *histories; // @synthesize histories=_histories;
 
 @end
 

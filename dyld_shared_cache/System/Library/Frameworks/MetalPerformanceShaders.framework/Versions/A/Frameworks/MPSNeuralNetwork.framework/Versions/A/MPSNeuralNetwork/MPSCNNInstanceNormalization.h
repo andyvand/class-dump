@@ -6,37 +6,30 @@
 
 #import <MPSNeuralNetwork/MPSCNNKernel.h>
 
-@protocol MPSCNNInstanceNormalizationDataSource;
-
 @interface MPSCNNInstanceNormalization : MPSCNNKernel
 {
     void *_gamma;
-    void *_beta;
-    id <MPSCNNInstanceNormalizationDataSource> _dataSource;
-    unsigned long long _numberOfFeatureChannels;
-    float _epsilon;
 }
 
 + (const struct MPSLibraryInfo *);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)*h	a:(id)arg1;
+- (id);
+- (void)h ;
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)urce matrix origin z component must be 0;
 - (float);
 - (id);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) id <MPSCNNInstanceNormalizationDataSource> dataSource; // @synthesize dataSource=_dataSource;
 @property(nonatomic) float epsilon; // @synthesize epsilon=_epsilon;
 
 @end

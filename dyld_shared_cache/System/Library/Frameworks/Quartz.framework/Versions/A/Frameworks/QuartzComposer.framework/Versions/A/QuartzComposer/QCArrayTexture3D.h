@@ -6,16 +6,9 @@
 
 #import <QuartzComposer/QCArray.h>
 
-@class QCCGLContext;
-
 @interface QCArrayTexture3D : QCArray
 {
     unsigned int _name;
-    unsigned long long _width;
-    unsigned long long _height;
-    unsigned long long _depth;
-    QCCGLContext *_context;
-    void *_unused2[4];
 }
 
 - (void);
@@ -24,16 +17,15 @@
 - (id);
 - (id);
 - (void);
+- (void)';
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)vision;
 - (void);
 - (unsigned int);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) QCCGLContext *context; // @synthesize context=_context;
 @property(readonly) unsigned int name; // @synthesize name=_name;
 
 @end

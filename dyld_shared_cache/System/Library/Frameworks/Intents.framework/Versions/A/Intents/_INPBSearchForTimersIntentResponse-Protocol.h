@@ -7,15 +7,12 @@
 @class NSArray;
 
 @protocol _INPBSearchForTimersIntentResponse
+- (unsigned long long);
+- (unsigned long long)6a;
 - (void)expected exception handling Intent;
 - (NSArray *)Oê_;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *matchedTimers;
-@property(readonly, nonatomic) unsigned long long matchedTimersCount;
-@property(copy, nonatomic) NSArray *timers;
-@property(readonly, nonatomic) unsigned long long timersCount;
-@property(copy, nonatomic) NSArray *unmatchedTimers;
-@property(readonly, nonatomic) unsigned long long unmatchedTimersCount;
 @end
 

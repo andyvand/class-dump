@@ -7,8 +7,6 @@
 @interface NewsUI2.ChannelCategoryRenderer
 {
     id imageApplier;
-    id styler;
-    id iconImageCache;
 }
 
 @end

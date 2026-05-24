@@ -4,23 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, NSString;
-@protocol TBScore;
+@class NSString;
 
 @interface UnknownClass (Serialization)
-+ (_Bool);
++ (_Bool)ActivationTimingInformation;
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)";
 - (id);
 - (id);
 - (id);
+- (_Bool)ility-change notification;
+- (_Bool)UsoEntity_common_SiriAlias;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (void);
 - (id);
@@ -29,45 +28,6 @@
 - (_Bool)obably stale or incorrect %@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *SSID;
-@property(readonly, nonatomic) unsigned long long accessPointCount;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly, nonatomic) NSSet *accessPoints;
-@property(readonly, nonatomic) NSString *attributesDescription;
-@property(readonly, nonatomic) NSString *authDescription;
-@property(readonly, nonatomic) unsigned long long authMask;
-@property(readonly, nonatomic, getter=isCaptive) _Bool captive;
-@property(readonly, nonatomic) double centroidLat;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) double centroidLng;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isLowQuality) _Bool lowQuality;
-@property(readonly, nonatomic, getter=isMoving) _Bool moving;
-@property(readonly, nonatomic) NSArray *ownerIdentifiers;
-@property(readonly, nonatomic) id <TBScore> popularityScore;
-@property(readonly, nonatomic, getter=isPublic) _Bool public;
-@property(readonly, nonatomic) id <TBScore> qualityScore;
 @property(readonly, nonatomic) NSString *remoteIdentifier;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic, getter=isSuspicious) _Bool suspicious;
-@property(readonly, nonatomic) unsigned long long tileKey;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly, nonatomic) unsigned long long type; // @dynamic type;
-@property(readonly, nonatomic) unsigned long long venueGroup;
-@property(readonly, nonatomic) unsigned int venueType;
 @end
 

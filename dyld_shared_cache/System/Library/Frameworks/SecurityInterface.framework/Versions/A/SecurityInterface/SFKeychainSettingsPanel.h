@@ -11,6 +11,7 @@
 
 + (id);
 + (id);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -19,8 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (long long);
@@ -64,9 +64,9 @@
 - (id);
 - (void);
 - (_Bool);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);

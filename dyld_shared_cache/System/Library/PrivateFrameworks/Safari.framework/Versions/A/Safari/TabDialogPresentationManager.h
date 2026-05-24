@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrowserViewController, NSString, TabDialogDimmingView, TabDialogInstaller, TabDialogViewController, WBSTabDialogManager;
-@protocol TabDialogPresentationManagerDelegate;
+@class BrowserViewController, TabDialogViewController;
 
 __attribute__((visibility("hidden")))
 @interface TabDialogPresentationManager
 {
     BrowserViewController *_browserViewController;
-    WBSTabDialogManager *_tabDialogManager;
-    TabDialogDimmingView *_dimmingView;
-    TabDialogInstaller *_tabDialogInstallerForRedirection;
-    unsigned long long _browsingMode;
-    TabDialogViewController *_tabDialogViewController;
-    id <TabDialogPresentationManagerDelegate> _delegate;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -31,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -41,10 +34,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (long long);
-- (CDStruct_497cfc99);
+- (CDStruct_fca5f1f5);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -53,16 +46,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long currentTabDialogType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <TabDialogPresentationManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isShowingTabDialog) _Bool showingTabDialog;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) TabDialogViewController *tabDialogViewController; // @synthesize tabDialogViewController=_tabDialogViewController;
 
 @end

@@ -13,8 +13,8 @@
 }
 
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)H;
 - (id);
 
 // Remaining properties

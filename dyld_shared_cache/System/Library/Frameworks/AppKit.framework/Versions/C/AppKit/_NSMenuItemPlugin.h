@@ -11,12 +11,12 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool);
++ (_Bool)Coalescing TCP Conn [%llu] may go into %@;
 - (id);
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)ֱ;
 - (void);
 - (_Bool);
 

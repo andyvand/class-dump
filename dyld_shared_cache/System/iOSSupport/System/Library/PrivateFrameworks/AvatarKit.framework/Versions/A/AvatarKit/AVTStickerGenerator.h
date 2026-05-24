@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatar, AVTRenderer, AVTSnapshotHelper, AVTStickerConfigurationReversionContext, NSObject;
-@protocol OS_dispatch_queue;
+@class AVTAvatar, AVTRenderer;
 
 @interface AVTStickerGenerator
 {
     AVTRenderer *_renderer;
-    AVTSnapshotHelper *_snapshotHelper;
-    AVTStickerConfigurationReversionContext *_context;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    _Bool _async;
-    AVTAvatar *_avatar;
 }
 
 + (id);
@@ -32,14 +26,13 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool async; // @synthesize async=_async;
 @property(retain, nonatomic) AVTAvatar *avatar; // @synthesize avatar=_avatar;
 
 @end

@@ -4,61 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDecimalNumber, NSNumberFormatter, NSString;
+@class NSDecimalNumber, NSNumberFormatter;
 
 @interface PKSavingsAccountSummary
 {
     NSNumberFormatter *_apyFormatter;
-    _Bool _hasWithdrawalLimit;
-    NSDecimalNumber *_currentBalance;
-    NSDecimalNumber *_availableBalance;
-    NSDecimalNumber *_pendingBalance;
-    NSDecimalNumber *_interestYTD;
-    NSDecimalNumber *_interestTotal;
-    NSDecimalNumber *_apy;
-    unsigned long long _withdrawalsRemaining;
 }
 
 + (_Bool);
-- (unsigned long long);
+- (unsigned long long)hL;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)V;
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)_multipathBytesOutInitial;
 - (id);
-- (id)rCountryCode:(id)arg1;
-- (void)mumFee;
+- (id)localizedStringForCountryCode:(id)arg1;
+- (void)minimumFee;
 
 // Remaining properties
-@property(copy, nonatomic, setter=setAPY:) NSDecimalNumber *apy; // @synthesize apy=_apy;
-@property(readonly, nonatomic) NSNumberFormatter *apyFormatter; // @synthesize apyFormatter=_apyFormatter;
-@property(copy, nonatomic) NSDecimalNumber *availableBalance; // @synthesize availableBalance=_availableBalance;
 @property(copy, nonatomic) NSDecimalNumber *currentBalance; // @synthesize currentBalance=_currentBalance;
-@property(readonly, nonatomic) NSString *formattedAPY;
-@property(nonatomic) _Bool hasWithdrawalLimit; // @synthesize hasWithdrawalLimit=_hasWithdrawalLimit;
-@property(copy, nonatomic) NSDecimalNumber *interestTotal; // @synthesize interestTotal=_interestTotal;
-@property(copy, nonatomic) NSDecimalNumber *interestYTD; // @synthesize interestYTD=_interestYTD;
-@property(copy, nonatomic) NSDecimalNumber *pendingBalance; // @synthesize pendingBalance=_pendingBalance;
-@property(nonatomic) unsigned long long withdrawalsRemaining; // @synthesize withdrawalsRemaining=_withdrawalsRemaining;
 
 @end
 

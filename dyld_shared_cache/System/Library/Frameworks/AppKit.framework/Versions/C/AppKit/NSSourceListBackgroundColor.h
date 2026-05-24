@@ -12,14 +12,14 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (id);
+- (id)iled to get the state of notification %s, token %d:(id)arg1 %u;
 - (void);
 - (_Bool);
+- (id)n result=%d;
+- (Class)lic}@peer %{public}@%{public}@ on transport %{public}@;
+- (id)e to load plist from path:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (Class);
-- (id);
-- (id);
-- (id)iptors;
+- (id)_sortDescriptors;
 
 @end
 

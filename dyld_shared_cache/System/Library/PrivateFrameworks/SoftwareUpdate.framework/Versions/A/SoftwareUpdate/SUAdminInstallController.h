@@ -4,30 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface SUAdminInstallController
 {
     NSObject<OS_dispatch_queue> *_installQueue;
-    NSObject<OS_dispatch_queue> *_updateInfoQueue;
-    _Bool _deferredOSInstallEnabled;
-    _Bool _deferredNonOSInstallEnabled;
-    _Bool _deferredMajorOSInstallEnabled;
-    NSMutableArray *_overriddenDeferralProductKeys;
 }
 
-+ (id);
-+ (_Bool);
++ (id);
++ (_Bool)1$;
+- (void)Ћ;
 - (void);
-- (void);
-- (void);
+- (void)p;
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void);
 - (_Bool);
 - (void);
 - (void);

@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDPrototypeContainer
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_prototypes;
 }
 
 - (id);
@@ -19,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)<v@?B>24;
-- (id)nment;
+- (id)_mapsEnvironment;
 - (id)¸%	&	Ì'	ä(		D+	t,	Ä.	;
 - (void);
 

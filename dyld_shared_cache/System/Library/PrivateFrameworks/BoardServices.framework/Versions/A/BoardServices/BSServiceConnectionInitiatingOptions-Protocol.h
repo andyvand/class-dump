@@ -5,5 +5,6 @@
 //
 
 @protocol BSServiceConnectionInitiatingOptions
+- (void)eader=IISSI{DTXMessageRoutingInfo=IIIb1b31}}16r^v48Q56@?64;
 @end
 

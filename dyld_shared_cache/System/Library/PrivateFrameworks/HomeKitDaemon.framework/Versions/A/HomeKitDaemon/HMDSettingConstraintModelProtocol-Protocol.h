@@ -7,15 +7,12 @@
 @class NSData, NSNumber, NSString;
 
 @protocol HMDSettingConstraintModelProtocol
-- (NSString *)ckgroundOperationManagerHelper;
-- (void)nErrors;
-- (void)nterAccessoryConnections;
+- (NSString *)backgroundOperationManagerHelper;
+- (void)_numSessionErrors;
+- (void)_allowInterAccessoryConnections;
 - (NSData *)=;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *dataValue;
-@property(copy, nonatomic) NSNumber *numberValue;
-@property(copy, nonatomic) NSString *stringValue;
 @property(copy, nonatomic) NSNumber *type;
 @end
 

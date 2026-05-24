@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (IMPluginPayloadHelper)
-- (id);
+- (id)[%s] %s:%d @:@ VCVideoStream-initialized VCVideoStream[%p] init %@ queue=%p for idsParticipantID=%llu streamToken=%u transportSessionID=%d /* Error: Ran out of types for this method. */;
 @end
 

@@ -9,12 +9,10 @@
 @interface UIGraphicsPDFRendererContext : UIGraphicsRendererContext
 {
     _Bool _inPage;
-    struct CGRect _documentBounds;
-    struct CGRect _pageBounds;
 }
 
 - (void);
-- (struct CGRect);
+- (struct CGRect);
 - (void);
 - (void);
 - (void);
@@ -26,15 +24,12 @@
 × ;
 - (void)@ù
 × ;
-- (void)AnimatedFrameOrBoundsChange;
+- (void)_shouldPerformLayoutForAnimatedFrameOrBoundsChange;
 - (struct CGRect);
 - (void);
 
 // Remaining properties
 @property struct CGRect documentBounds; // @synthesize documentBounds=_documentBounds;
-@property _Bool inPage; // @synthesize inPage=_inPage;
-@property struct CGRect pageBounds; // @synthesize pageBounds=_pageBounds;
-@property(readonly, nonatomic) struct CGRect pdfContextBounds;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet;
+@class NSMutableDictionary;
 
 @interface _EDThreadPositionChangeSet
 {
     NSMutableDictionary *_objectIDsToAddByBeforeObjectID;
-    NSMutableDictionary *_objectIDsToMoveByBeforeObjectID;
-    NSMutableSet *_objectIDsToDelete;
 }
 
 - (void);
@@ -26,7 +24,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)UsoEntityBuilderProtocol_common_AppAction;
 - (id);
 - (void)BLOB NOT NULL,
     UNIQUE(key) ON CONFLICT ABORT
@@ -34,8 +32,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *objectIDsToAddByBeforeObjectID; // @synthesize objectIDsToAddByBeforeObjectID=_objectIDsToAddByBeforeObjectID;
-@property(retain, nonatomic) NSMutableSet *objectIDsToDelete; // @synthesize objectIDsToDelete=_objectIDsToDelete;
-@property(retain, nonatomic) NSMutableDictionary *objectIDsToMoveByBeforeObjectID; // @synthesize objectIDsToMoveByBeforeObjectID=_objectIDsToMoveByBeforeObjectID;
 
 @end
 

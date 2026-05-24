@@ -7,8 +7,6 @@
 @interface SwiftUI.Drop.PhaseHandler
 {
     id controller;
-    id configuration;
-    id lastDropSession;
 }
 
 @end

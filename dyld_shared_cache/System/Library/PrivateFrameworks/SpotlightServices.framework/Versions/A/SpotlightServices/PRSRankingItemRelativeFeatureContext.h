@@ -4,37 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPredicate;
-
 @interface PRSRankingItemRelativeFeatureContext
 {
     unsigned short _relRankFeature;
-    unsigned short _absRankFeature;
-    NSPredicate *_predicate;
-    CDUnknownBlockType _comparator;
 }
 
-+ (id);
-+ (id);
-+ (CDUnknownBlockType);
-+ (id);
-+ (id);
-+ (void);
++ (id)setCanAdjustHorizontalPaddingForFixedSize:(double)arg1;
++ (id)setByteRangeAccessSupported:(id)arg1;
++ (CDUnknownBlockType)_lp_strictlyDecodeTopLevelObjectOfClasses:(unsigned long long)arg1 forKey:error: /* Error: Ran out of types for this method. */;
++ (id)_lp_strictlyDecodeObjectOfClass:(id)arg1 forKey:(double)arg2;
++ (id)_lp_strictlyDecodeArrayOfObjectsOfClass:(unsigned long long)arg1 forKey:(double)arg2;
++ (void)_lp_coderType;
 - (void);
-- (void);
-- (unsigned short);
-- (id);
-- (unsigned short);
-- (id);
+- (void)@0:(unsigned short)arg1 8@16@24^@32;
+- (unsigned short)udioPlayerClient>"16;
+- (id)setAllowsPlaybackControls:(unsigned long long)arg1;
+- (unsigned short)getPromisedItemResourceValue:forKey:error: /* Error: Ran out of types for this method. */;
+- (id), but NULL array;
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void)Ds;
+- (void)bundleIDs;
 
 // Remaining properties
-@property(nonatomic) unsigned short absRankFeature; // @synthesize absRankFeature=_absRankFeature;
-@property(copy, nonatomic) CDUnknownBlockType comparator; // @synthesize comparator=_comparator;
-@property(retain, nonatomic) NSPredicate *predicate; // @synthesize predicate=_predicate;
 @property(nonatomic) unsigned short relRankFeature; // @synthesize relRankFeature=_relRankFeature;
 
 @end

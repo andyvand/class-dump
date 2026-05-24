@@ -13,8 +13,8 @@
     ChatKit.CKEffectPickerStylingMetrics *_stylingMetrics;
 }
 
-- (id);
-- (void);
+- (id)_folderListSectionIdentifiersToFolderItemIdentifiers;
+- (void)ntext",&,N,V_mainContext;
 - (void);
 - (double);
 - (double);

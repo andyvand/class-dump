@@ -4,32 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPIdentifierSet, MPModelGenericObject, NSMutableArray;
-@protocol MPObjectDatabaseProgressiveResult;
+@class MPIdentifierSet;
 
 __attribute__((visibility("hidden")))
 @interface _MPCAccumulatorProgressiveResult
 {
     unsigned int _piaTag;
-    CDStruct_1328dfc9 _sodToken;
-    CDStruct_1328dfc9 _lodToken;
-    MPIdentifierSet *_requestedIdentifiers;
-    _MPCAccumulatorProgressiveResult *_parentResult;
-    NSMutableArray *_prioritizedStoreIDs;
-    NSMutableArray *_loadingStoreIDs;
-    NSMutableArray *_loadedStoreIDs;
-    NSMutableArray *_failedStoreIDs;
-    MPIdentifierSet *_sodIdentifiers;
-    MPIdentifierSet *_lodIdentifiers;
-    _Bool _hasSodToken;
-    _Bool _hasLodToken;
-    MPModelGenericObject *_requestedModelObject;
 }
 
-- (CDStruct_1328dfc9);
+- (CDStruct_e426e184);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -37,7 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, copy, nonatomic) MPIdentifierSet *inputIdentifiers;
-@property(readonly, nonatomic) id <MPObjectDatabaseProgressiveResult> parentResult;
 
 @end
 

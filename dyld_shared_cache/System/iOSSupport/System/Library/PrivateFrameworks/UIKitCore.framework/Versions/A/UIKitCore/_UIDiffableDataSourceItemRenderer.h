@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _UIDiffableDataSourceItemRenderer
 {
     id _rendererIdentifier;
-    Class _cellClass;
-    NSString *_cellReuseIdentifier;
-    CDUnknownBlockType _handler;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)account:(id)arg1 avAction:(Class)arg2 withArguments:(CDUnknownBlockType)arg3 toAVChat:isVideo: /* Error: Ran out of types for this method. */;
 - (id);
 - (Class)× ;
 - (CDUnknownBlockType)udesSafeAreaInsetWhenInset: /* Error: Ran out of types for this method. */;
@@ -24,9 +19,6 @@
 - (void)°½\;
 
 // Remaining properties
-@property(readonly, nonatomic) Class cellClass; // @synthesize cellClass=_cellClass;
-@property(readonly, nonatomic) NSString *cellReuseIdentifier; // @synthesize cellReuseIdentifier=_cellReuseIdentifier;
-@property(readonly, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
 @property(readonly, nonatomic) id rendererIdentifier; // @synthesize rendererIdentifier=_rendererIdentifier;
 
 @end

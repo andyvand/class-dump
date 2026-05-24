@@ -15,12 +15,12 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id);
+- (id)tion",R,C,N;
 - (unsigned long long);
 - (_Bool);
+- (id)lE;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)imer;
 - (id);
 - (id);
 - (void);

@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSImageView, NSLayoutConstraint, NSProgress, NSProgressIndicator, NSTextField, NSTimer, SSFileTransfer;
+@class NSProgress;
 @protocol SSFileTransferTableCellViewDelegate;
 
 @interface SSFileTransferTableCellView
 {
     id <SSFileTransferTableCellViewDelegate> delegate;
-    SSFileTransfer *fileTransfer;
-    NSProgressIndicator *progressIndicator;
-    NSButton *cancelButton;
-    NSButton *revealButton;
-    NSTextField *lowerTextField;
-    NSProgress *progress;
-    NSImageView *_documentImageView;
-    NSTextField *_upperTextField;
-    NSLayoutConstraint *_lowerTextBottomConstraint;
-    NSLayoutConstraint *_upperTextTopConstraint;
-    NSTimer *_progressUpdateTimer;
 }
 
 - (id);
@@ -52,24 +41,13 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)personLocalIdentifierMatchingContactPictureForContactIdentifier: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (void)ime == 0 ;
 
 // Remaining properties
-@property NSButton *cancelButton; // @synthesize cancelButton;
-@property id <SSFileTransferTableCellViewDelegate> delegate; // @synthesize delegate;
-@property NSImageView *documentImageView; // @synthesize documentImageView=_documentImageView;
-@property(retain) SSFileTransfer *fileTransfer;
-@property(retain) NSLayoutConstraint *lowerTextBottomConstraint; // @synthesize lowerTextBottomConstraint=_lowerTextBottomConstraint;
-@property NSTextField *lowerTextField; // @synthesize lowerTextField;
 @property(retain) NSProgress *progress; // @synthesize progress;
-@property NSProgressIndicator *progressIndicator; // @synthesize progressIndicator;
-@property(retain) NSTimer *progressUpdateTimer; // @synthesize progressUpdateTimer=_progressUpdateTimer;
-@property NSButton *revealButton; // @synthesize revealButton;
-@property NSTextField *upperTextField; // @synthesize upperTextField=_upperTextField;
-@property(retain) NSLayoutConstraint *upperTextTopConstraint; // @synthesize upperTextTopConstraint=_upperTextTopConstraint;
 
 @end
 

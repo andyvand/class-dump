@@ -5,5 +5,7 @@
 //
 
 @protocol AFUISiriSessionDelegate
+- (void);
+- (void);
 @end
 

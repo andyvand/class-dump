@@ -4,32 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAutocompleteSearchControllerOptions, CNAutocompleteStore, NSArray, NSMutableArray, NSMutableDictionary, NSNumber, NSOperationQueue, NSString;
-@protocol CNAutocompleteUIFetchDelegate;
+@class NSArray, NSMutableDictionary;
 
 @interface CNAutocompleteSearchManager
 {
     NSMutableDictionary *_taskContextsByTaskID;
-    CNAutocompleteStore *_autocompleteStore;
-    NSOperationQueue *_queue;
-    unsigned int _genNumber;
-    unsigned long long _searchTypes;
-    CNAutocompleteSearchControllerOptions *_searchControllerOptions;
-    NSArray *_explicitSearchAccountIDs;
-    NSArray *_searchAccounts;
-    int _contactSearchAccountChangedToken;
-    _Bool _registeredForAddressBookChanges;
-    NSNumber *_shouldIncludeGroupResultsImpl;
-    NSMutableArray *_corecipientSearchTaskIDs;
-    NSString *_sendingAddress;
-    _Bool _includeUpcomingEventMembers;
-    _Bool _shouldUnifyResults;
-    _Bool _simulatedResultsEnabled;
-    NSString *_recentsBundleIdentifier;
-    id <CNAutocompleteUIFetchDelegate> _fetchDelegate;
-    unsigned long long _implicitGroupCreationThreshold;
-    unsigned long long _autocompleteSearchType;
-    NSString *_sendingAccountIdentifier;
 }
 
 - (void);
@@ -45,7 +24,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (_Bool);
@@ -61,31 +40,20 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)setPresentsWithGesture: /* Error: Ran out of types for this method. */;
+- (void)setPreferredSplitBehavior:(id)arg1;
+- (id)setName: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
 - (_Bool);
-- (void);
+- (void)$;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long autocompleteSearchType; // @synthesize autocompleteSearchType=_autocompleteSearchType;
-@property __weak id <CNAutocompleteUIFetchDelegate> fetchDelegate; // @synthesize fetchDelegate=_fetchDelegate;
-@property(nonatomic) unsigned long long implicitGroupCreationThreshold; // @synthesize implicitGroupCreationThreshold=_implicitGroupCreationThreshold;
-@property(nonatomic) _Bool includeUpcomingEventMembers; // @synthesize includeUpcomingEventMembers=_includeUpcomingEventMembers;
-@property(copy, nonatomic) NSString *recentsBundleIdentifier; // @synthesize recentsBundleIdentifier=_recentsBundleIdentifier;
-@property(retain) NSArray *searchAccountIDs; // @synthesize searchAccountIDs=_explicitSearchAccountIDs;
 @property(readonly, nonatomic) NSArray *searchAccounts; // @synthesize searchAccounts=_searchAccounts;
-@property(copy, nonatomic) NSString *sendingAccountIdentifier; // @synthesize sendingAccountIdentifier=_sendingAccountIdentifier;
-@property(copy, nonatomic) NSString *sendingAddress; // @synthesize sendingAddress=_sendingAddress;
-@property(nonatomic) _Bool shouldIncludeGroupResults;
-@property(nonatomic) _Bool shouldUnifyResults; // @synthesize shouldUnifyResults=_shouldUnifyResults;
-@property(nonatomic, getter=isSimulatedResultsEnabled) _Bool simulatedResultsEnabled; // @synthesize simulatedResultsEnabled=_simulatedResultsEnabled;
 
 @end
 

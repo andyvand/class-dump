@@ -6,38 +6,33 @@
 
 #import <PhotosGraph/PGAbstractSuggester.h>
 
-@class CLSSceneConfidenceThresholdHelper, NSString, PGCityscapeWallpaperSuggesterDistancingContext, PGCityscapeWallpaperSuggesterFilteringContext, PGCityscapeWallpaperSuggesterScoringContext, PGWallpaperSuggestionAssetGater;
+@class PGCityscapeWallpaperSuggesterScoringContext, PGWallpaperSuggestionAssetGater;
 
 @interface PGCityscapeWallpaperSuggester : PGAbstractSuggester
 {
     PGWallpaperSuggestionAssetGater *_assetGater;
-    CLSSceneConfidenceThresholdHelper *_peopleSceneConfidenceThresholdHelper;
-    PGCityscapeWallpaperSuggesterFilteringContext *_primaryFilteringContext;
-    PGCityscapeWallpaperSuggesterFilteringContext *_secondaryFilteringContext;
-    PGCityscapeWallpaperSuggesterScoringContext *_scoringContext;
-    PGCityscapeWallpaperSuggesterDistancingContext *_distancingContext;
 }
 
++ (id)usedWindowNotification;
 + (id);
-+ (id);
++ (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
 + (id);
 + (_Bool);
 + (id);
-+ (id);
++ (id);
+- (void)hasSuffix: /* Error: Ran out of types for this method. */;
+- (void)describeContentOfFocusedWindow;
+- (void)descendantMatchingBlock:(id)arg1 depth: /* Error: Ran out of types for this method. */;
+- (void)applicationControllerWindowDidResize:(id)arg1 windowElement: /* Error: Ran out of types for this method. */;
+- (void)_deletionCandidateText;
+- (id)__attributesToExclude;
+- (id)=dd}{CGSize=dd}},N,S_setMenuExtrasBounds:,V__menuExtrasBounds /* Error: Ran out of types for this method. */;
+- (id)AXKSimpleStringTextProvider;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)h-;
 - (id);
 - (id);
 - (id);
@@ -45,17 +40,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) PGCityscapeWallpaperSuggesterDistancingContext *distancingContext; // @synthesize distancingContext=_distancingContext;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) PGCityscapeWallpaperSuggesterFilteringContext *primaryFilteringContext; // @synthesize primaryFilteringContext=_primaryFilteringContext;
 @property(retain, nonatomic) PGCityscapeWallpaperSuggesterScoringContext *scoringContext; // @synthesize scoringContext=_scoringContext;
-@property(retain, nonatomic) PGCityscapeWallpaperSuggesterFilteringContext *secondaryFilteringContext; // @synthesize secondaryFilteringContext=_secondaryFilteringContext;
-@property(readonly) Class superclass;
 
 @end
 

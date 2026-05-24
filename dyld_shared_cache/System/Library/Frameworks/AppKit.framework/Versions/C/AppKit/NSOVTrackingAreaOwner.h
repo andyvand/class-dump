@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     NSOutlineView *_owner;
 }
 
-- (void);
+- (void)2sE;
 - (void);
 - (id)HierarchyListViewController";
-- (void);
+- (void)_setActionImageByName:(id)arg1 hierarchical: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) NSOutlineView *owner; // @synthesize owner=_owner;

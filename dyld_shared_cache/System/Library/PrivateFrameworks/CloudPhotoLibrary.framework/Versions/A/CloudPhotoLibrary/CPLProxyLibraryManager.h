@@ -6,97 +6,63 @@
 
 #import <CloudPhotoLibrary/CPLPlatformObject.h>
 
-@class CPLFingerprintContext, NSCountedSet, NSDate, NSMutableArray, NSMutableDictionary, NSObject, NSString, NSXPCConnection;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CPLProxyLibraryManager : CPLPlatformObject
 {
     struct os_unfair_lock_s _realConnectionLock;
-    NSXPCConnection *_realConnection;
-    NSMutableDictionary *_downloadTasks;
-    NSMutableDictionary *_inMemoryDownloadTasks;
-    NSMutableDictionary *_uploadTasks;
-    NSMutableDictionary *_forceSyncTasks;
-    NSMutableDictionary *_vouchersPerTaskIdentifier;
-    unsigned long long _foregroundCalls;
-    _Bool _foregroundCallsHaveBeenQuiet;
-    NSCountedSet *_disablingReasons;
-    unsigned long long _disablingMinglingCount;
-    unsigned long long _significantWorkCalls;
-    NSMutableDictionary *_outstandingInvocations;
-    unsigned long long _outstandingInvocationsCount;
-    NSMutableDictionary *_syncOutstandingInvocations;
-    unsigned long long _syncOutstandingInvocationsCount;
-    NSMutableArray *_pendingBlocksAfterOpening;
-    int _openingStatus;
-    NSDate *_backoffRetryingConnectionDate;
-    int _notifyToken;
-    _Bool _killed;
-    _Bool _logKilled;
-    _Bool _firstTryOpeningLibrary;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (id);
-+ (id);
++ (id);
+- (void)NSIGNED NULL,
+  metadata_is_hidden BOOL NOT NULL,
+  metadata_extension_hidden BOOL NOT NULL,
+  metadata_child_item_count INT NULL,
+  metadata_extended_attributes BLOB NULL,
+  metadata_is_locked BOOL NOT NULL,
+  metadata_physical_size UNSIGNED BIG INT NULL,
+  metadata_is_evictable BOOL NOT NULL,
+  metadata_is_pinned BOOL NOT NULL,
+  metadata_is_in_pinned_folder BOOL NOT NULL,
+  metadata_before_bounce_filename TEXT DEFAULT NULL,
+  metadata_quarantine_blob BLOB NULL,
+  metadata_is_syncroot BOOL NOT NULL,
+
+  captured_content BLOB NULL,
+
+  ;
+- (void)ON containing the # of items for each effective content policy;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)#ÕÿÑöW©ôO©ý{©ýCô;
-- (void)àªº;
-- (void)á;
+- (void);
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)';
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
@@ -109,8 +75,35 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)_};
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)i;
+- (void);
+- (void)`2;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void)B;
+- (void);
+- (void);
+- (void);
+- (void)|;
+- (void)syserr = %s;
+- (void)got %s;
+- (id);
+- (void): /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -133,29 +126,29 @@
 - (void)0@ù
 × ;
 - (void)ComputeStatePushQueue";
-- (void)ze:(id)arg1 assetCount:(id)arg2 forScope:(CDUnknownBlockType)arg3 error: /* Error: Ran out of types for this method. */;
-- (void)uldOnlyUploadNewResources;
-- (void)IdentifierForLocalScopeIndex:(id)arg1;
-- (void)ifierForItemScopedIdentifier:(id)arg1;
-- (void)ngerprintScheme;
-- (void)atusDictionary:forScopeWithIdentifier:appendString:appendTopLevelStatus:appendLineStatus: /* Error: Ran out of types for this method. */;
+- (void)updateInitialSyncTransportGroupEstimatedSize:(id)arg1 assetCount:(id)arg2 forScope:(CDUnknownBlockType)arg3 error: /* Error: Ran out of types for this method. */;
+- (void)shouldOnlyUploadNewResources;
+- (void)scopeIdentifierForLocalScopeIndex:(id)arg1;
+- (void)proposedScopedIdentifierForItemScopedIdentifier:(id)arg1;
+- (void)nonPrivateFingerprintScheme;
+- (void)formatStatusDictionary:forScopeWithIdentifier:appendString:appendTopLevelStatus:appendLineStatus: /* Error: Ran out of types for this method. */;
+- (void)cplEncodePropertiesWithCoder:(id)arg1;
+- (void)checkPushedChange:(CDUnknownBlockType)arg1;
+- (void)addServerDropDerivativesRecipes:(id)arg1;
 - (void)r:(id)arg1;
-- (void)ange:(CDUnknownBlockType)arg1;
-- (void)cipes:(id)arg1;
-- (void)r:(id)arg1;
-- (void)omputeStatesToUpload;
+- (void)_localComputeStatesToUpload;
 - (void)__setError:(_Bool)arg1;
 - (void)er",R,N,V_proposedPrivateScopedIdentifier;
-- (id)ents;
-- (void)e;
+- (id)_nameComponents;
+- (void)CPLEngineDerivativesCache;
 - (void)ÌFÜF;
 - (void)ÔJL(LM	øM;
-- (void)ouldValidateStableHashOnUpload;
+- (void)CPLShouldValidateStableHashOnUpload;
 - (void)own assertion;
 - (void)<v@?>16^B24;
-- (void)ntSecondaryData_;
-- (void)PLErrorScopeIdentifiers;
-- (void)bledSource;
+- (void)AdjustmentSecondaryData_;
+- (void)CPLErrorScopeIdentifiers;
+- (void)CPLEPPEnabledSource;
 - (void);
 - (void)ent (%{public}@) recovery result for (cloud) %@ is:(id)arg1 %@;
 - (void)Current session not finished;
@@ -165,15 +158,7 @@
 - (void)4B;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) CPLFingerprintContext *fingerprintContextIfKnown;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

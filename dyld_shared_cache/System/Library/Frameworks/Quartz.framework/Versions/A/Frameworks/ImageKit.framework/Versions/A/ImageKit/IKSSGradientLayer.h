@@ -10,17 +10,15 @@ __attribute__((visibility("hidden")))
 @interface IKSSGradientLayer
 {
     NSColor *_middleGradientColor;
-    NSColor *_borderGradientColor;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(retain) NSColor *borderGradientColor; // @synthesize borderGradientColor=_borderGradientColor;
 @property(retain) NSColor *middleGradientColor; // @synthesize middleGradientColor=_middleGradientColor;
 
 @end

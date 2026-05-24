@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IPAColorProfile, NSArray, NSError, NSString, NSUUID, PACompositionEditController;
-@protocol NUScalePolicy, PFCanceler;
+@class NSError;
 
 @interface PAImageRenderRequest
 {
     _Bool _bakeOrientation;
-    NSString *_name;
-    id <NUScalePolicy> _scalePolicy;
-    IPAColorProfile *_colorProfile;
-    id <PFCanceler> _canceler;
-    PACompositionEditController *_compositionProvider;
-    NSUUID *_adjustmentUUID;
-    NSString *_adjustmentIdentifier;
-    NSString *_adjustmentKey;
-    NSArray *_adjustmentValues;
-    NSError *_error;
 }
 
 + (id);
@@ -38,7 +27,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
@@ -55,17 +44,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly) NSString *adjustmentIdentifier; // @synthesize adjustmentIdentifier=_adjustmentIdentifier;
-@property(copy) NSString *adjustmentKey; // @synthesize adjustmentKey=_adjustmentKey;
-@property(copy) NSUUID *adjustmentUUID; // @synthesize adjustmentUUID=_adjustmentUUID;
-@property(copy) NSArray *adjustmentValues; // @synthesize adjustmentValues=_adjustmentValues;
-@property _Bool bakeOrientation; // @synthesize bakeOrientation=_bakeOrientation;
-@property(retain) id <PFCanceler> canceler; // @synthesize canceler=_canceler;
-@property(retain) IPAColorProfile *colorProfile; // @synthesize colorProfile=_colorProfile;
-@property(retain) PACompositionEditController *compositionProvider; // @synthesize compositionProvider=_compositionProvider;
 @property(retain) NSError *error; // @synthesize error=_error;
-@property(copy) NSString *name; // @synthesize name=_name;
-@property(retain) id <NUScalePolicy> scalePolicy; // @synthesize scalePolicy=_scalePolicy;
 
 @end
 

@@ -9,29 +9,27 @@
 @interface WFToggleSettingContextualAction : WFContextualAction
 {
     unsigned long long _setting;
-    unsigned long long _operation;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)__DATA;
 - (_Bool);
+- (id){;
+- (id){;
+- (id);
+- (_Bool)|;
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)|;
+- (id)4;
 - (unsigned long long);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
+- (id)R,N,V_minIntervalSinceLastSync;
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long operation; // @synthesize operation=_operation;
 @property(readonly, nonatomic) unsigned long long setting; // @synthesize setting=_setting;
 
 @end

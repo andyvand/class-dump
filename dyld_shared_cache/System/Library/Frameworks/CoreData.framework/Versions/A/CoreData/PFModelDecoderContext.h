@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSEntityDescription, NSManagedObjectModel, NSMutableSet;
+@class NSManagedObjectModel;
 
 __attribute__((visibility("hidden")))
 @interface PFModelDecoderContext
 {
     NSManagedObjectModel *model;
-    NSEntityDescription *entity;
-    NSMutableSet *objectPool;
 }
 
 + (id);

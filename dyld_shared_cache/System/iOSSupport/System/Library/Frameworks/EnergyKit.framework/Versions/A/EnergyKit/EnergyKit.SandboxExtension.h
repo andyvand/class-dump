@@ -8,8 +8,6 @@
 {
     id context;
     id token;
-    id state;
-    id fileURL;
 }
 
 @end

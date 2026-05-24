@@ -12,7 +12,7 @@
 }
 
 + (_Bool);
-+ (id)ithIdentifier:(id)arg1 conversationIdentifier:(id *)arg2 content:dateSent:sender:recipients:groupName:dateMessageWasLastRead:numberOfAttachments:messageType:messageEffectType:referencedMessage:serviceName: /* Error: Ran out of types for this method. */;
++ (id)initWithIdentifier:(id)arg1 conversationIdentifier:(id *)arg2 content:dateSent:sender:recipients:groupName:dateMessageWasLastRead:numberOfAttachments:messageType:messageEffectType:referencedMessage:serviceName: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) long long type; // @synthesize type=_type;

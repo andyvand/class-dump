@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _SWCPattern
 {
     _Bool _freeWhenDone;
-    const struct SWCPatternStorage *_storage;
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)'E12;
 - (unsigned long long);
-- (id);
+- (id)(;
 - (void);
 - (id);
 - (id);
@@ -34,10 +31,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, getter=isBlocking) _Bool blocking;
-@property(readonly, getter=isCaseSensitive) _Bool caseSensitive;
-@property(readonly, getter=isPercentEncoded) _Bool percentEncoded;
-@property(readonly) NSString *requiredEntitlement;
 @property(nonatomic) const struct SWCPatternStorage *storage; // @synthesize storage=_storage;
 
 @end

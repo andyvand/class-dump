@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary;
+@class NSMutableArray;
 
 @interface MRTransactionPacketizer
 {
     NSMutableArray *_outgoingPackets;
-    NSMutableDictionary *_incomingPackets;
 }
 
 - (void);
-- (void);
+- (void)869;
 - (_Bool);
 - (void)scoveredOnSameInfra;
 

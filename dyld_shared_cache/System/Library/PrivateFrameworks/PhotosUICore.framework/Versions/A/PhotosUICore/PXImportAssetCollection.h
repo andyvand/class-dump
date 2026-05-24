@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableSet, NSObject, NSString;
+@class NSObject, NSString;
 @protocol OS_dispatch_queue;
 
 @interface PXImportAssetCollection
 {
     NSObject<OS_dispatch_queue> *_assetQueue;
-    NSMutableArray *_assetList;
-    NSArray *_arrangedAssetList;
-    NSMutableSet *_assetUUIDs;
-    _Bool _needsSorting;
-    _Bool _alreadyImportedGroup;
-    NSString *_identifier;
 }
 
 + (id);
@@ -32,19 +26,18 @@
 - (_Bool);
 - (void)q7°1Â0@ù
 × ;
-- (id)SelectionOrderAtSpriteIndex:(struct _NSZone *)arg1 inLayout: /* Error: Ran out of types for this method. */;
-- (void)ntainerTitle;
+- (id)overallSelectionOrderAtSpriteIndex:(struct _NSZone *)arg1 inLayout: /* Error: Ran out of types for this method. */;
+- (void)containerTitle;
 - (void);
 - (id);
 - (void)Däÿü>ÿìöÿäøÿpÿÌÿäÿÄÿ,ÿ!ÿ<õâþ8õâþ@ÿÿLÿ,ÿÿÿäõÿüÿìÿ¸ÿ*ÿüÿäÿÔÿ4ÿHªÿ»ÿ$½ÿ´½ÿd¾ÿÀÿ´ÀÿøÍÿ Ï	ÿÐ	ÿ Ø	ÿÐôâþ,ø	ÿ;
 - (void)playbackQueue_player;
-- (long long)hotosView_smartImported;
+- (long long)PhotosView_smartImported;
 - (id);
 - (void);
 - (id)*d<;
 
 // Remaining properties
-@property(nonatomic) _Bool alreadyImportedGroup; // @synthesize alreadyImportedGroup=_alreadyImportedGroup;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end

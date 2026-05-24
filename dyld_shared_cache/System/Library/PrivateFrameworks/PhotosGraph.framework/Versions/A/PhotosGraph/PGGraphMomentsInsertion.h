@@ -11,21 +11,19 @@
 @interface PGGraphMomentsInsertion : PGGraphChange
 {
     NSSet *_momentUUIDs;
-    NSSet *_moments;
 }
 
+- (id)e for reason %li;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)truncatePointDataForPrivacy_EarlyExit_NumberOfCoordinates;
 - (unsigned long long);
 - (void)nalysis/PhotosGraph/Framework/Suggestions/Suggesters/Single Asset Suggester/PGRecentPersonCentricSuggester.m;
 - (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *momentUUIDs; // @synthesize momentUUIDs=_momentUUIDs;
-@property(readonly, nonatomic) NSSet *moments; // @synthesize moments=_moments;
 
 @end
 

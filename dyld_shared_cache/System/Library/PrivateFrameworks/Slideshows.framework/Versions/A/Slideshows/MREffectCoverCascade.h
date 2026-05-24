@@ -6,19 +6,11 @@
 
 #import <Slideshows/MREffect.h>
 
-@class MREffectCoverCascadeSlideStory, NSMutableArray;
+@class NSMutableArray;
 
 @interface MREffectCoverCascade : MREffect
 {
     NSMutableArray *_slideStories;
-    MREffectCoverCascadeSlideStory *_grid[7][4];
-    struct _NSRange _previousNewSlideRange;
-    unsigned long long _numberOfStoriesRemoved;
-    double _previousStartTime;
-    unsigned char _previousScenarioType;
-    unsigned char _previousStartX;
-    unsigned char _currentComplexityLevel;
-    _Bool _previousWasCombo;
 }
 
 + (unsigned long long);
@@ -26,14 +18,14 @@
 + (id);
 + (_Bool);
 - (long long);
+- (_Bool)NSURLSessionTask"24@"NSHTTPURLResponse"32;
+- (double)sessionManager;
+- (double)scheduleUploadInWindow:(unsigned long long)arg1 withForegroundUploadCompletion: /* Error: Ran out of types for this method. */;
+- (void)appAnalyticsNotificationReceiptEndpointUrlForEnvironment:(double)arg1;
+- (void)_reportEnvelopesToNewsAutomationIfNeeded:(struct _NSRange)arg1;
+- (void);
 - (_Bool);
-- (double);
-- (double);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (double);
+- (double)ildRoots/4~CNrLugCE8UX-AzDlcf3V1M_lrZzemFpoZKYL49I/Library/Caches/com.apple.xbs/TemporaryDirectory.AP33Sb/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NDAnalyticsPayloadUploader.m;
 - (unsigned long long);
 - (double);
 - (double);
@@ -44,9 +36,7 @@
 - (void)"NSArray",&,N,Vsublayers;
 
 // Remaining properties
-@property(readonly, nonatomic) double mainDuration; // @dynamic mainDuration;
 @property(readonly, nonatomic) double phaseInDuration; // @dynamic phaseInDuration;
-@property(readonly, nonatomic) double phaseOutDuration; // @dynamic phaseOutDuration;
 
 @end
 

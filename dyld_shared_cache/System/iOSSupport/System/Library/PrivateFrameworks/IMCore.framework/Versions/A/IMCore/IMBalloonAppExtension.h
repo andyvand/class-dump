@@ -6,14 +6,9 @@
 
 #import <IMCore/IMBalloonPlugin.h>
 
-@class LSPlugInKitProxy, NSExtension, NSUUID;
-
 @interface IMBalloonAppExtension : IMBalloonPlugin
 {
     _Bool _canSendDataPayloads;
-    NSExtension *_extension;
-    LSPlugInKitProxy *_proxy;
-    NSUUID *_requestIdentifier;
 }
 
 @end

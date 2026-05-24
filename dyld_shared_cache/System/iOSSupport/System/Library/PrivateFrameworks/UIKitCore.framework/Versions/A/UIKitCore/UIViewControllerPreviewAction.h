@@ -14,8 +14,8 @@
 
 + (id);
 - (id);
-- (void)PredictionsWithEvent:(CDUnknownBlockType)arg1;
-- (void)ations;
+- (void)_updatePredictionsWithEvent:(CDUnknownBlockType)arg1;
+- (void)_disableGroupOpacityInAnimations;
 - (CDUnknownBlockType)artView",&,N,V_leftEdge;
 - (id)ocale",&,D,N;
 - (id)eshold;

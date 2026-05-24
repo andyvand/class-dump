@@ -5,6 +5,7 @@
 //
 
 @protocol _EXMainConnectionHandler
+- (id)!;
 
 // Remaining properties
 @property(readonly) id principalObject;

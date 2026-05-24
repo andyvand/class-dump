@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface VNFgBgE5MLProcess
 {
     NSURL *_modelURL;
-    NSString *_inputImageName;
-    NSArray *_inputTensorNames;
-    NSArray *_outputTensorNames;
 }
 
 + (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -25,10 +22,7 @@ __attribute__((visibility("hidden")))
 - (id)9Æ§TÈÒ	;
 
 // Remaining properties
-@property(readonly) NSString *inputImageName; // @synthesize inputImageName=_inputImageName;
-@property(readonly) NSArray *inputTensorNames; // @synthesize inputTensorNames=_inputTensorNames;
 @property(readonly) NSURL *modelURL; // @synthesize modelURL=_modelURL;
-@property(readonly) NSArray *outputTensorNames; // @synthesize outputTensorNames=_outputTensorNames;
 
 @end
 

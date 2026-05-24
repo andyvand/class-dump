@@ -9,8 +9,6 @@
 @interface PKPhysicsJointRevolute : PKPhysicsJoint
 {
     struct b2RevoluteJointDef _jointDef;
-    struct b2RevoluteJoint *_joint;
-    struct CGPoint _anchor;
 }
 
 + (id);
@@ -19,7 +17,7 @@
 - (void);
 - (void);
 - (double);
-- (_Bool);
+- (_Bool)A;
 - (id);
 - (struct b2JointDef *);
 - (struct b2Joint *);
@@ -27,22 +25,17 @@
 - (double);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (double);
 - (id);
 - (id);
-- (void);
+- (void)DeletionDownloadConsistencyIssueResolutionStrategy;
 - (void);
 - (struct CGPoint);
 
 // Remaining properties
-@property(readonly) struct CGPoint anchor; // @synthesize anchor=_anchor;
-@property(nonatomic) double frictionTorque;
-@property(nonatomic) double lowerAngleLimit;
-@property(nonatomic) double rotationSpeed;
 @property(nonatomic) _Bool shouldEnableLimits;
-@property(nonatomic) double upperAngleLimit;
 
 @end
 

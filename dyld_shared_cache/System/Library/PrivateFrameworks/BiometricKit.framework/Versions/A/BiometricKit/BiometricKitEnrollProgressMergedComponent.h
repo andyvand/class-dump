@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BiometricKitEnrollProgressCoordinates;
-
 @interface BiometricKitEnrollProgressMergedComponent
 {
     long long _componentID;
-    BiometricKitEnrollProgressCoordinates *_transformationCoordinates;
 }
 
 - (id);
@@ -22,7 +19,6 @@
 
 // Remaining properties
 @property(nonatomic) long long componentID; // @synthesize componentID=_componentID;
-@property(retain, nonatomic) BiometricKitEnrollProgressCoordinates *transformationCoordinates; // @synthesize transformationCoordinates=_transformationCoordinates;
 
 @end
 

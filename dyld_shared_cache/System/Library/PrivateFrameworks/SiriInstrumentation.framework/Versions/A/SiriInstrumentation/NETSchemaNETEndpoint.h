@@ -6,25 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NETSchemaNETEndpoint : SISchemaInstrumentationMessage
 {
     int _type;
-    unsigned int _port;
-    struct {
-        unsigned int type:1;
-        unsigned int port:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)ReqTBEX;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)#;
 - (int);
 - (_Bool);
 - (void);
@@ -34,16 +27,12 @@
 - (id)1Â0@ù
 × ;
 - (id)essageRecorded;
-- (id)nAllowed;
-- (_Bool)ent;
+- (id)isCrossDeviceArbitrationAllowed;
+- (_Bool)advertisement;
 - (void)peIdentifier.custom.bundleId;
 - (void)Ìÿ]%e#;
 
 // Remaining properties
-@property(nonatomic) _Bool hasPort;
-@property(nonatomic) _Bool hasType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int port; // @synthesize port=_port;
 @property(nonatomic) int type; // @synthesize type=_type;
 
 @end

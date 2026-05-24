@@ -4,29 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPersonNameComponents, NSString;
+@class NSPersonNameComponents;
 
 @interface TUCollaborationInitiator
 {
     NSPersonNameComponents *_nameComponents;
-    NSString *_handle;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void)emoteController:controlRevokedByPresenterWithError: /* Error: Ran out of types for this method. */;
+- (void)screenSharingRemoteController:controlRevokedByPresenterWithError: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *handle; // @synthesize handle=_handle;
 @property(readonly, copy, nonatomic) NSPersonNameComponents *nameComponents; // @synthesize nameComponents=_nameComponents;
 
 @end

@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (void);
+- (void)4;
 - (void)kname-based relationship match.;
 
 @end

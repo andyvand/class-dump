@@ -12,12 +12,11 @@ __attribute__((visibility("hidden")))
 @interface HAP2AccessoryServerTransportBaseOperationClose : HAP2AccessoryServerTransportBaseOperation
 {
     NSError *_desiredError;
-    CDUnknownBlockType _clientCompletion;
 }
 
 - (id);
 - (void);
-- (void)ionOpening;
+- (void)securitySessionOpening;
 
 @end
 

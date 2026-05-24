@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, SFImage, SFRichText;
+@class NSString, SFRichText;
 
 @protocol SFVerticalLayoutCardSection
+- (void);
+- (NSString *)c;
+- (SFRichText *);
 - (void)e",&,N;
 
 // Remaining properties
-@property(nonatomic) _Bool contentsLeading;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(retain, nonatomic) SFRichText *footnote;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFImage *thumbnail;
-@property(retain, nonatomic) SFRichText *thumbnailOverlayText;
-@property(retain, nonatomic) SFRichText *title;
 @property(copy, nonatomic) NSString *type;
-@property(nonatomic) _Bool useAppIconMetrics;
 @end
 

@@ -4,27 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHomeManager, HMDProcessInfo, NSMutableSet, NSObject, NSString;
-@protocol MTRDeviceControllerClientProtocol, OS_dispatch_queue;
+@protocol MTRDeviceControllerClientProtocol;
 
 __attribute__((visibility("hidden")))
 @interface HMDCHIPXPCClientConnection
 {
     _Bool _backgroundModeEntitled;
-    int _pid;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMDProcessInfo *_processInfo;
-    id <MTRDeviceControllerClientProtocol> _remoteObjectProxy;
-    HMDHomeManager *_homeManager;
-    NSMutableSet *_subscribedHomeUUIDs;
 }
 
 + (id)íB;
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)editByMergingStateSnapshot:(id)arg1 mergeOptions:(unsigned long long)arg2 context:(id)arg3 completionQueue:(id)arg4 completion:(id)arg5;
+- (id)_MSPContainerEditContentUpdate;
+- (void)MSPContainerEditAddition;
+- (void)MSPSharedTripCapabilityFetchingQueue;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -37,29 +30,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (int);
-- (id);
+- (id)H;
 - (id)1ð1Â0@ù
 × ;
-- (id)rcentageOfParticipantsHaveAccepted;
+- (id)percentageOfParticipantsHaveAccepted;
 - (id)is not of expected type:%@ /* Error: Ran out of types for this method. */;
-- (void)tersManagerDelegate;
+- (void)CountersManagerDelegate;
 - (id)=;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool backgroundModeEntitled; // @synthesize backgroundModeEntitled=_backgroundModeEntitled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) __weak HMDHomeManager *homeManager; // @synthesize homeManager=_homeManager;
-@property(readonly, nonatomic) int pid; // @synthesize pid=_pid;
-@property(readonly, nonatomic) HMDProcessInfo *processInfo; // @synthesize processInfo=_processInfo;
 @property(readonly, nonatomic) id <MTRDeviceControllerClientProtocol> remoteObjectProxy; // @synthesize remoteObjectProxy=_remoteObjectProxy;
-@property(readonly, nonatomic) NSMutableSet *subscribedHomeUUIDs; // @synthesize subscribedHomeUUIDs=_subscribedHomeUUIDs;
-@property(readonly) Class superclass;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

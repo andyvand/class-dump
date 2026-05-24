@@ -5,5 +5,14 @@
 //
 
 @protocol UIWritingToolsCoordinatorDelegate
+- (void)SayypGGAFGypG;
+- (void)SdGGSSSgSaySiG_SitGSSG;
+- (void)G;
+- (void)SfGڇ 2_pGypG;
+- (void)_;
+
+@optional
+- (void);
+- (void);
 @end
 

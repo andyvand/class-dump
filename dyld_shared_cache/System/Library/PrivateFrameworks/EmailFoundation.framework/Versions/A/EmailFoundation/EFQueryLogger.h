@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileHandle, NSString;
+@class NSFileHandle;
 
 @interface EFQueryLogger
 {
     NSFileHandle *_lookasideFileHandle;
-    NSString *_lookasideFilePath;
-    _Bool _didFlushLogs;
-    NSString *_baseFileName;
-    NSString *_logDirectory;
 }
 
 + (id);
@@ -25,7 +21,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 

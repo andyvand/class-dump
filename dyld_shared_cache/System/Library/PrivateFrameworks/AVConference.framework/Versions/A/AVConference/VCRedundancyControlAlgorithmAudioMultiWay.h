@@ -4,23 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface VCRedundancyControlAlgorithmAudioMultiWay
 {
     unsigned int _redundancyPercentage;
-    double _redundancyInterval;
-    unsigned int _packetLossPercentageIncreaseThresholds[3];
-    unsigned int _packetLossPercentageDecreaseThresholds[3];
-    _Bool _isPacketLossIncreasing;
-    double _packetLossPercentage;
-    double _packetLossPercentageThreshold;
-    double _plrEnvelope;
-    unsigned int _burstLossPacketCount;
-    _Bool _isUplinkRecentlyCongested;
-    float _offChannelTimeRatio;
-    _Bool _isOffChannelActivityHigh;
 }
 
 - (void);
@@ -33,15 +20,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double redundancyInterval; // @synthesize redundancyInterval=_redundancyInterval;
 @property(readonly, nonatomic) unsigned int redundancyPercentage; // @synthesize redundancyPercentage=_redundancyPercentage;
-@property(readonly) Class superclass;
 
 @end
 

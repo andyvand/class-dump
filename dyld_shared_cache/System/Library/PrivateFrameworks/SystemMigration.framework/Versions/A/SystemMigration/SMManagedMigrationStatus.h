@@ -6,20 +6,9 @@
 
 #import <SystemMigration/SMManagedMigrationXPCClient.h>
 
-@class NSArray, NSDate, NSNumber, NSString;
-
 @interface SMManagedMigrationStatus : SMManagedMigrationXPCClient
 {
     long long _migrationState;
-    NSString *_sourceUser;
-    NSString *_targetUser;
-    NSDate *_migrationStartTime;
-    NSDate *_migrationCompletionTime;
-    NSNumber *_completedFileCount;
-    NSNumber *_totalFileCount;
-    NSNumber *_totalDataSize;
-    NSNumber *_completedDataSize;
-    NSArray *_errors;
 }
 
 + (_Bool);
@@ -50,22 +39,13 @@
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void)indexAtPosition:(id)arg1;
 - (void);
 - (void)áÐ!Bùñ	1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *completedDataSize; // @synthesize completedDataSize=_completedDataSize;
-@property(retain, nonatomic) NSNumber *completedFileCount; // @synthesize completedFileCount=_completedFileCount;
-@property(retain, nonatomic) NSArray *errors; // @synthesize errors=_errors;
-@property(retain, nonatomic) NSDate *migrationCompletionTime; // @synthesize migrationCompletionTime=_migrationCompletionTime;
-@property(retain, nonatomic) NSDate *migrationStartTime; // @synthesize migrationStartTime=_migrationStartTime;
 @property(nonatomic) long long migrationState; // @synthesize migrationState=_migrationState;
-@property(retain, nonatomic) NSString *sourceUser; // @synthesize sourceUser=_sourceUser;
-@property(retain, nonatomic) NSString *targetUser; // @synthesize targetUser=_targetUser;
-@property(retain, nonatomic) NSNumber *totalDataSize; // @synthesize totalDataSize=_totalDataSize;
-@property(retain, nonatomic) NSNumber *totalFileCount; // @synthesize totalFileCount=_totalFileCount;
 
 @end
 

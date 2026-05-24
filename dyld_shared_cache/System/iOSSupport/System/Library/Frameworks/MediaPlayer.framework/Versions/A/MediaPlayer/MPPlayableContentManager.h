@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPPlayableContentManagerContext, NSArray, NSMutableSet, NSObject, NSOperationQueue;
-@protocol MPPlayableContentDataSource, MPPlayableContentDelegate, OS_dispatch_queue;
+@class NSMutableSet;
+@protocol MPPlayableContentDataSource;
 
 @interface MPPlayableContentManager
 {
     NSMutableSet *_mutatedContentItems;
-    NSMutableSet *_contentItemIdentifiersSentToMediaRemote;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    NSOperationQueue *_artworkUpdateQueue;
-    _Bool _coalescingUpdates;
-    _Bool _scheduledSupportedAPIsChange;
-    id <MPPlayableContentDataSource> _dataSource;
-    id <MPPlayableContentDelegate> _delegate;
-    MPPlayableContentManagerContext *_context;
-    NSArray *_nowPlayingIdentifiers;
 }
 
 + (id);
@@ -30,33 +21,30 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)aexprOp;
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (void)_MPModelPropertyPodcastEpisodeTitle__MAPPING_MISSING__;
+- (void)evice"8I16;
+- (void);
+- (void)ConfidenceThreshold;
+- (id);
+- (void);
+- (void)__MPModelPropertyPodcastEpisodeTitle__MAPPING_MISSING__;
 - (void)ïÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) MPPlayableContentManagerContext *context; // @synthesize context=_context;
 @property(nonatomic) __weak id <MPPlayableContentDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(nonatomic) __weak id <MPPlayableContentDelegate> delegate; // @synthesize delegate=_delegate;
-@property(copy, nonatomic) NSArray *nowPlayingIdentifiers; // @synthesize nowPlayingIdentifiers=_nowPlayingIdentifiers;
 
 @end
 

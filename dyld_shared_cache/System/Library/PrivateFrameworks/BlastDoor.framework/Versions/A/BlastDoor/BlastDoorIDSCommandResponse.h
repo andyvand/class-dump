@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface BlastDoorIDSCommandResponse
 {
@@ -26,10 +26,10 @@
 - (id);
 - (_Bool);
 - (long long);
-- (long long);
+- (long long)SiriUISnippetTransformer;
 - (id);
-- (long long);
-- (_Bool)e;
+- (long long)5;
+- (_Bool)RawValue;
 - (long long)Íÿÿÿÿÿ;
 - (void);
 - (id);
@@ -37,28 +37,7 @@
 - (long long)K¢ÜÔÿ;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *applicationId;
-@property(nonatomic, readonly) long long command;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long failReason;
-@property(nonatomic, readonly) _Bool has_failReason;
-@property(nonatomic, readonly) _Bool has_internalBuild;
-@property(nonatomic, readonly) _Bool has_loggingProfile;
-@property(nonatomic, readonly) _Bool has_messageId;
-@property(nonatomic, readonly) _Bool has_protocolVersion;
-@property(nonatomic, readonly) _Bool has_requestType;
-@property(nonatomic, readonly) _Bool has_responseStatus;
-@property(nonatomic, readonly) _Bool has_sharedSession;
-@property(nonatomic, readonly) NSData *idsSessionId;
-@property(nonatomic, readonly) _Bool internalBuild;
-@property(nonatomic, readonly) _Bool loggingProfile;
-@property(nonatomic, readonly) long long messageId;
-@property(nonatomic, readonly) NSData *messageUUID;
-@property(nonatomic, readonly) long long protocolVersion;
-@property(nonatomic, readonly) long long requestType;
-@property(nonatomic, readonly) long long responseStatus;
-@property(nonatomic, readonly) _Bool sharedSession;
-@property(nonatomic, readonly) NSData *token;
 
 @end
 

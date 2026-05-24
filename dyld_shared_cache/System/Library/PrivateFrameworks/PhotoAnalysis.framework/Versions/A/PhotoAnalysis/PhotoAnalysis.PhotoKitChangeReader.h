@@ -7,8 +7,6 @@
 @interface PhotoAnalysis.PhotoKitChangeReader
 {
     id $defaultActor;
-    id photoLibraryManager;
-    id photoLibrary;
 }
 
 @end

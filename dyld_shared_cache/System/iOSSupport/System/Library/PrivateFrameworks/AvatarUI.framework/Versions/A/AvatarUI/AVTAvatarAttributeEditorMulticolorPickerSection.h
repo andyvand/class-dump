@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatarAttributeEditorSectionOptions, NSArray, NSString;
-@protocol AVTAvatarAttributeEditorSectionSupplementalPicker;
+@class NSArray, NSString;
 
 @interface AVTAvatarAttributeEditorMulticolorPickerSection
 {
     NSString *_localizedName;
-    NSArray *_sectionItems;
-    NSString *_identifier;
-    AVTAvatarAttributeEditorSectionOptions *_options;
-    unsigned long long _intendedDestination;
-    id <AVTAvatarAttributeEditorSectionSupplementalPicker> _supplementalPicker;
-    NSArray *_items;
 }
 
 - (id);
@@ -29,29 +22,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)o bind '%s' in '%s' (at offset 0x%llx in %.*s, %.*s) as could not find a kext which exports this symbol;
 - (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) unsigned long long intendedDestination; // @synthesize intendedDestination=_intendedDestination;
 @property(readonly, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(copy, nonatomic) NSString *localizedName; // @synthesize localizedName=_localizedName;
-@property(readonly, nonatomic) AVTAvatarAttributeEditorSectionOptions *options; // @synthesize options=_options;
-@property(readonly, copy, nonatomic) NSArray *sectionItems; // @synthesize sectionItems=_sectionItems;
-@property(readonly, copy, nonatomic) NSArray *sections;
-@property(readonly, nonatomic) struct UIEdgeInsets separatorInsets;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <AVTAvatarAttributeEditorSectionSupplementalPicker> supplementalPicker; // @synthesize supplementalPicker=_supplementalPicker;
 
 @end
 

@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrowserViewController, DimmingView, NSArray, NSString, NSView, TabDialogViewController;
-@protocol TabDialogView;
+@class BrowserViewController, DimmingView;
 
 __attribute__((visibility("hidden")))
 @interface TabDialogInstaller
 {
     DimmingView *_dimmingView;
-    NSView<TabDialogView> *_tabDialogView;
-    TabDialogViewController *_tabDialogViewController;
-    double _verticalOffset;
-    NSArray *_dialogPlacementConstraints;
-    long long _tabDialogVerticalPlacement;
-    BrowserViewController *_browserViewController;
-    NSView *_hostingView;
 }
 
 - (void);
@@ -37,16 +29,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) __weak BrowserViewController *browserViewController; // @synthesize browserViewController=_browserViewController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) DimmingView *dimmingView;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) __weak NSView *hostingView; // @synthesize hostingView=_hostingView;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSView<TabDialogView> *tabDialogView;
 
 @end
 

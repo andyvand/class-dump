@@ -4,80 +4,66 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKChangeListener, EKEventStore, NSMutableDictionary, NSMutableSet;
+@class EKEventStore, NSMutableSet;
 
 @interface CUIKEditingManager
 {
     NSMutableSet *_hiddenObjects;
-    NSMutableDictionary *_uuidAliases;
-    struct os_unfair_lock_s _lock;
-    EKEventStore *_eventStore;
-    NSMutableSet *_editingContextGroups;
-    EKChangeListener *_changeListener;
-    NSMutableDictionary *_changeHistory;
-    NSMutableDictionary *_changedObjectMap;
 }
 
-- (void)ªßòýâ;
-- (void)ÿ;
-- (void)tâC9àªà/ÿ´;
-- (void)ªáªñªq)ðò1	?×À;
-- (void)ªáªñ	ª±ðéòQ	?×»òA©àªáªj÷ýéª*Køèªô;
-- (id)­Ê<­Æ<;
-- (id)
-?×é;
-- (_Bool)ªáªâªD;
-- (void)CÑ;
-- (id);
-- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
 - (_Bool);
-- (void)=;
-- (void)ò0ÁÚ"@ùéª±Úð10@ù
-?×é;
-- (id)?×;
-- (id)èª	Cøàª!;
-- (id)ÁÚ	"@ù(=;
-- (void)?;
-- (void)ø?;
-- (void)ua@ù;
+- (void);
+- (id);
 - (id);
-- (id)ëA;
-- (id)ÊP;
-- (_Bool)ªý{A©ôOÂ¨ÿ#ÕÐÊP;
-- (_Bool)ª×(;
 - (_Bool);
-- (id)Ag;
-- (void)(;
-- (id)LÒ®¬¬òÎÀòüÒPR°®¬rÎ­;
-- (_Bool);
-- (id)ø¨ÑPøów°s¢4
-;
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (void)redactedDescription;
+- (id)s/cloudphotolibrary/Engine/Storage/CPLChangedRecordStorageView.m;
+- (id)e.xbs/TemporaryDirectory.3GkaPH/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLChangedRecordStorageView.m;
+- (_Bool)DownloadDecryptionErrorCount;
+- (_Bool)ConsoleModeBlockedCount;
+- (_Bool)DeviceActivityEarlyThermalWarningBlockedCount;
+- (_Bool)DeviceActivityBlockedCount;
+- (_Bool)ThermalPressureBlockedCount;
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
+- (id)R;
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
 - (void)onnections: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSMutableDictionary *changeHistory; // @synthesize changeHistory=_changeHistory;
-@property(retain) EKChangeListener *changeListener; // @synthesize changeListener=_changeListener;
-@property(retain) NSMutableDictionary *changedObjectMap; // @synthesize changedObjectMap=_changedObjectMap;
-@property(retain) NSMutableSet *editingContextGroups; // @synthesize editingContextGroups=_editingContextGroups;
 @property __weak EKEventStore *eventStore; // @synthesize eventStore=_eventStore;
 
 @end

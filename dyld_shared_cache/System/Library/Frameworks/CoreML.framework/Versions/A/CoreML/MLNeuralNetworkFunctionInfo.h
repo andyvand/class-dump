@@ -4,30 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface MLNeuralNetworkFunctionInfo
 {
     _Bool _isClassifier;
-    NSArray *_classLabels;
-    NSString *_classScoreVectorName;
-    NSArray *_outputNames;
 }
 
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)l.;
 - (id);
 - (id)words according to set {;
 - (void)e models that have parameter for requested key %@. Use parameter scoping to disambiguate.;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *classLabels; // @synthesize classLabels=_classLabels;
-@property(readonly, copy, nonatomic) NSString *classScoreVectorName; // @synthesize classScoreVectorName=_classScoreVectorName;
 @property(readonly, nonatomic) _Bool isClassifier; // @synthesize isClassifier=_isClassifier;
-@property(readonly, copy, nonatomic) NSArray *outputNames; // @synthesize outputNames=_outputNames;
 
 @end
 

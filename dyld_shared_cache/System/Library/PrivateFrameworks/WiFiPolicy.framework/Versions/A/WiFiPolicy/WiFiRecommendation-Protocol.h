@@ -5,16 +5,11 @@
 //
 
 @class NSString;
-@protocol WiFiCandidateNetwork, WiFiScannedNetwork;
 
 @protocol WiFiRecommendation
 - (long long)RemovedForSsid:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *SSID;
-@property(readonly, nonatomic) id <WiFiCandidateNetwork> network;
-@property(readonly, nonatomic) long long priority;
-@property(readonly, nonatomic) id <WiFiScannedNetwork> scannedNetwork;
-@property(readonly, nonatomic) _Bool unwantedNetworkName;
 @end
 

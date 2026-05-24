@@ -15,11 +15,11 @@
 
 + (id);
 + (id);
++ (id)favoriteAlbumWithPersistentID:cloudLibraryID:time:completionHandler: /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id)fetchDictionariesByWorkerType;
++ (id)_fetchDictionariesByWorkerType;
 + (_Bool)hf3;
 + (id);
 - (id);

@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface PBMasterLayoutMap
 {
     NSMutableDictionary *mMasterIdToMasterInfoMap;
-    NSMutableDictionary *mTitleIdToMasterIdMap;
 }
 
 + (id);

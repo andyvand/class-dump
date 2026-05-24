@@ -5,9 +5,11 @@
 //
 
 @protocol PLAssetsdResourceServiceProtocol
+- (id){public}@;
+- (id)e;
 - (id)áVÐ!\AùQÊ1Â0@ù
 × ;
 - (id)Ô ;
-- (id)t: /* Error: Ran out of types for this method. */;
+- (id)_noteDidReceiveSharedAsset: /* Error: Ran out of types for this method. */;
 @end
 

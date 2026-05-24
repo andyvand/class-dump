@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (CNAutocompleteUI)
-- (struct CGPoint);
+- (struct CGPoint);
 - (struct CGPoint);
 - (struct CGPoint);
 - (struct CGPoint);

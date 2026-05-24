@@ -9,6 +9,6 @@
 @protocol NSCollectionViewDataSource
 
 @optional
-- (NSView *)eJR19TThumbnailCacheTypeEENS_10shared_ptrIT_EEDpOT0_E19MakeInstanceEnablerNS_9allocatorISB_EEEE;
+- (NSView *)NSt3__120__shared_ptr_emplaceIZL10MakeSharedI15TThumbnailCacheJR19TThumbnailCacheTypeEENS_10shared_ptrIT_EEDpOT0_E19MakeInstanceEnablerNS_9allocatorISB_EEEE;
 @end
 

@@ -11,9 +11,6 @@
 @interface ICFullDeviceInfo : ICMigrationDeviceInfo
 {
     NSString *_model;
-    NSString *_modelDisplayName;
-    NSString *_softwareVersion;
-    struct ICDeviceHardwareInfo _hardwareInfo;
 }
 
 - (_Bool);
@@ -21,31 +18,28 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)Ru;
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (unsigned long long);
 - (struct ICDeviceHardwareInfo);
-- (_Bool);
+- (_Bool)/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation;
 - (struct ICDeviceHardwareInfo);
+- (id)xyc;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)ous password to view the attachment.;
 - (void)à4;
 
 // Remaining properties
 @property(readonly, nonatomic) struct ICDeviceHardwareInfo hardwareInfo; // @synthesize hardwareInfo=_hardwareInfo;
-@property(readonly, nonatomic) NSString *model; // @synthesize model=_model;
-@property(readonly, nonatomic) NSString *modelDisplayName; // @synthesize modelDisplayName=_modelDisplayName;
-@property(readonly, nonatomic) NSString *softwareVersion; // @synthesize softwareVersion=_softwareVersion;
 
 @end
 

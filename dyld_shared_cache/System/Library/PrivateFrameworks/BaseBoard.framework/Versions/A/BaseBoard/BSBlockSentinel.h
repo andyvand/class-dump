@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface BSBlockSentinel
 {
     struct os_unfair_lock_s _lock;
-    CDUnknownBlockType _lock_handler;
-    unsigned long long _lock_signalCount;
-    unsigned long long _lock_expectedSignals;
-    NSString *_lock_identifier;
-    NSObject<OS_dispatch_queue> *_explicitQueue;
 }
 
 + (id);
@@ -24,7 +16,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 - (void);
 - (_Bool);

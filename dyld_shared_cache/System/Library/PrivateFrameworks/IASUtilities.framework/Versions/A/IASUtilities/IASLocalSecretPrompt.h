@@ -4,34 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSLayoutConstraint, NSSecureTextField, NSString, NSTextField;
-@protocol IASLocalSecretDelegate;
+@class NSTextField;
 
 @interface IASLocalSecretPrompt
 {
     _Bool _shouldHideUsername;
-    id <IASLocalSecretDelegate> _delegate;
-    NSString *_userFullName;
-    NSImage *_sheetIcon;
-    NSString *_sheetPrompt;
-    NSString *_messageText;
-    NSString *_localPassword;
-    NSTextField *_userNameLabel;
-    NSTextField *_userNameTextField;
-    NSSecureTextField *_passwordTextField;
-    NSTextField *_messageTextField;
-    NSLayoutConstraint *_messageTextTitleConstraint;
-    NSLayoutConstraint *_messageTextUserNameConstraint;
-    NSLayoutConstraint *_messageTextPasswordConstraint;
-    NSLayoutConstraint *_titleTextUsernameConstraint;
-    NSLayoutConstraint *_usernamePasswordConstraint;
-    NSLayoutConstraint *_titleTextPasswordConstraint;
-    NSTextField *_deprecationMessage;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)6;
 - (id);
 - (id);
 - (_Bool);
@@ -44,26 +26,27 @@
 - (void);
 - (void);
 - (void);
+- (void)v
+;
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void)#D9;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (void)L;
+- (id)B;
+- (id)~Sx0x;
 - (void);
 - (void);
 - (id);
@@ -74,24 +57,7 @@
 - (void);
 
 // Remaining properties
-@property __weak id <IASLocalSecretDelegate> delegate; // @synthesize delegate=_delegate;
-@property __weak NSTextField *deprecationMessage; // @synthesize deprecationMessage=_deprecationMessage;
-@property(copy) NSString *localPassword; // @synthesize localPassword=_localPassword;
-@property(copy) NSString *messageText; // @synthesize messageText=_messageText;
-@property __weak NSTextField *messageTextField; // @synthesize messageTextField=_messageTextField;
-@property __weak NSLayoutConstraint *messageTextPasswordConstraint; // @synthesize messageTextPasswordConstraint=_messageTextPasswordConstraint;
-@property __weak NSLayoutConstraint *messageTextTitleConstraint; // @synthesize messageTextTitleConstraint=_messageTextTitleConstraint;
-@property __weak NSLayoutConstraint *messageTextUserNameConstraint; // @synthesize messageTextUserNameConstraint=_messageTextUserNameConstraint;
-@property __weak NSSecureTextField *passwordTextField; // @synthesize passwordTextField=_passwordTextField;
-@property(copy) NSImage *sheetIcon; // @synthesize sheetIcon=_sheetIcon;
-@property(copy) NSString *sheetPrompt; // @synthesize sheetPrompt=_sheetPrompt;
-@property(nonatomic) _Bool shouldHideUsername; // @synthesize shouldHideUsername=_shouldHideUsername;
-@property __weak NSLayoutConstraint *titleTextPasswordConstraint; // @synthesize titleTextPasswordConstraint=_titleTextPasswordConstraint;
-@property __weak NSLayoutConstraint *titleTextUsernameConstraint; // @synthesize titleTextUsernameConstraint=_titleTextUsernameConstraint;
-@property(copy) NSString *userFullName; // @synthesize userFullName=_userFullName;
 @property __weak NSTextField *userNameLabel; // @synthesize userNameLabel=_userNameLabel;
-@property __weak NSTextField *userNameTextField; // @synthesize userNameTextField=_userNameTextField;
-@property __weak NSLayoutConstraint *usernamePasswordConstraint; // @synthesize usernamePasswordConstraint=_usernamePasswordConstraint;
 
 @end
 

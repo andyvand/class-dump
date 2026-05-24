@@ -5,11 +5,11 @@
 //
 
 @interface UnknownClass (PKMerge)
+- (void)F;
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)1'E;
+- (id)E;
+- (id)ADE;
 @end
 

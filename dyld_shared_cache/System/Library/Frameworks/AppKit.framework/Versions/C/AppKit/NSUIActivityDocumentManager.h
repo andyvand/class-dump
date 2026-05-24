@@ -10,9 +10,9 @@ __attribute__((visibility("hidden")))
 }
 
 + (id)lled with autoshow already enabled;
-- (id);
-- (_Bool);
-- (void);
+- (id)ed key;
+- (_Bool)ct unset);
+- (void)iled to parse certificate dictionary;
 - (void);
 - (_Bool);
 - (void);

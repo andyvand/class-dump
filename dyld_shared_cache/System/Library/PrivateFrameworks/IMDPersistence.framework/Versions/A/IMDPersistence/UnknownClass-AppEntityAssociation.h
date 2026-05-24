@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (AppEntityAssociation)
-- (void);
+- (void);
 - (void);
 @end
 

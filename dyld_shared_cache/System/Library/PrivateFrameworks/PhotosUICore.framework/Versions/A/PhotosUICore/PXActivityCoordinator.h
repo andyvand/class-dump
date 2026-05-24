@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface PXActivityCoordinator
 {
     NSMutableArray *_records;
-    NSString *_activityName;
 }
 
 + (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void)`;
+- (void);
+- (id);
 - (id);
 - (void);
 

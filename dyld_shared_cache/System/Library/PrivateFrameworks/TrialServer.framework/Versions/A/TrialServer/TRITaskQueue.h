@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, TRIClient, TRIServerContext, _PASLock;
-@protocol OS_dispatch_group, OS_dispatch_queue;
+@class _PASLock;
 
 @interface TRITaskQueue
 {
     _PASLock *_lock;
-    TRIServerContext *_serverContext;
-    NSObject<OS_dispatch_queue> *_opQueue;
-    NSObject<OS_dispatch_group> *_opGroup;
-    NSObject<OS_dispatch_queue> *_asyncQueue;
-    TRIClient *_client;
 }
 
 - (void);
 - (void);
 - (id);
-- (CDStruct_6b48f683);
+- (CDStruct_6b48f683)tallPlatformCreateDataFromMappedFileURL returned %d;
 - (void);
 - (void);
 - (void);
@@ -31,10 +25,10 @@
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)P;
 - (void);
-- (void);
-- (_Bool);
+- (void)CHE FLUSH;
+- (_Bool)composition for input node;
 - (id);
 - (CDStruct_6b48f683);
 - (_Bool);
@@ -42,7 +36,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -50,15 +44,15 @@
 - (void);
 - (id);
 - (CDStruct_6b48f683);
-- (id);
+- (id)eVertexCount less than 3, ignoring mesh:(id)arg1 %s.;
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)r",R,N,V_formatVersion;
 - (_Bool);
-- (_Bool);
+- (_Bool)`;
 - (void)a×°!HFù!Ð1Â0@ù
 × ;
 

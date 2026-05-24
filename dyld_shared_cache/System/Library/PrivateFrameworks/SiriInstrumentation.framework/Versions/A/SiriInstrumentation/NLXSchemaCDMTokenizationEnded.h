@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface NLXSchemaCDMTokenizationEnded : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_contextId;
-    NSArray *_tokenChains;
-    int _inputType;
-    struct {
-        unsigned int inputType:1;
-    } _has;
-    _Bool _hasContextId;
 }
 
 - (unsigned long long);
@@ -29,14 +23,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)H;
+- (void)!;
 - (_Bool);
 - (int);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)supported certificate purpose;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -52,11 +46,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *contextId; // @synthesize contextId=_contextId;
-@property(nonatomic) _Bool hasContextId; // @synthesize hasContextId=_hasContextId;
-@property(nonatomic) _Bool hasInputType;
-@property(nonatomic) int inputType; // @synthesize inputType=_inputType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *tokenChains; // @synthesize tokenChains=_tokenChains;
 
 @end
 

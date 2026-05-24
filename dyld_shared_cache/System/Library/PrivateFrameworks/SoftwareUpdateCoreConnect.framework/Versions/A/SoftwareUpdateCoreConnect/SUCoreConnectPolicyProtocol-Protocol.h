@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSSet, NSString;
+
 @protocol SUCoreConnectPolicyProtocol
++ (void)processReceptionReportBlock:(NSSet *)arg1 blockCount:(NSString *)arg2 arrivalNTPTime: /* Error: Ran out of types for this method. */;
 @end
 

@@ -6,7 +6,7 @@
 
 #import <HomeKit/HMPerson.h>
 
-@class NSSet, NSString, NSUUID;
+@class NSString;
 
 @interface HMMutablePerson : HMPerson
 {
@@ -15,9 +15,7 @@
 - (id);
 
 // Remaining properties
-@property(copy) NSUUID *externalPersonUUID; // @dynamic externalPersonUUID;
 @property(copy) NSString *name; // @dynamic name;
-@property(copy) NSSet *personLinks; // @dynamic personLinks;
 
 @end
 

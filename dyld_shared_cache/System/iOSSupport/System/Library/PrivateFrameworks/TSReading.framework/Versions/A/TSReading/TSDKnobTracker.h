@@ -4,47 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TSDAutoscroll, TSDInteractiveCanvasController, TSDKnob, TSDRep;
+@class TSDRep;
 
 @interface TSDKnobTracker
 {
     TSDRep *mRep;
-    TSDKnob *mKnob;
-    struct CGPoint mCurrentPosition;
-    struct CGPoint mKnobOffset;
-    _Bool mDidBegin;
-    _Bool mDidDrag;
-    _Bool mDragEnding;
-    _Bool mEndedOperationDueToESC;
-    _Bool mIsInspectorDrivenTracking;
-    TSDAutoscroll *mAutoscroll;
 }
 
+- (void)odcast fallback asset;
+- (void)SetQueue - identifier:(id)arg1;
+- (double)serEvent.play - rate: /* Error: Ran out of types for this method. */;
+- (_Bool)played;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (double);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (struct CGPoint);
 - (id);
-- (_Bool);
+- (_Bool)~;
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (struct CGRect);
 - (struct CGPoint);
 - (void);
@@ -60,27 +51,16 @@
 - (void);
 - (id);
 - (id);
+- (void)Config.foodHubFeedRules.maxGroups;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (struct CGPoint);
 - (double);
 
 // Remaining properties
-@property(retain, nonatomic) TSDAutoscroll *autoscroll; // @synthesize autoscroll=mAutoscroll;
-@property(nonatomic) struct CGPoint currentPosition; // @synthesize currentPosition=mCurrentPosition;
-@property(readonly, nonatomic) double delay;
-@property(readonly, nonatomic) _Bool didBegin; // @synthesize didBegin=mDidBegin;
 @property(nonatomic) _Bool didDrag; // @synthesize didDrag=mDidDrag;
-@property(nonatomic) _Bool dragEnding; // @synthesize dragEnding=mDragEnding;
-@property(readonly, nonatomic) _Bool endedOperationDueToESC; // @synthesize endedOperationDueToESC=mEndedOperationDueToESC;
-@property(readonly, nonatomic) TSDInteractiveCanvasController *icc;
-@property(nonatomic) _Bool isInspectorDrivenTracking; // @synthesize isInspectorDrivenTracking=mIsInspectorDrivenTracking;
-@property(retain, nonatomic) TSDKnob *knob; // @synthesize knob=mKnob;
-@property(readonly, nonatomic) struct CGPoint knobOffset; // @synthesize knobOffset=mKnobOffset;
-@property(retain, nonatomic) TSDRep *rep; // @synthesize rep=mRep;
 
 @end
 

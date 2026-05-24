@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
 + (Class);
 + (Class);
 - (unsigned long long);
-- (oneway void);
-- (unsigned long long);
+- (oneway void)!;
+- (unsigned long long)pA9;
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)*;
 - (unsigned long long);
 - (_Bool);
 

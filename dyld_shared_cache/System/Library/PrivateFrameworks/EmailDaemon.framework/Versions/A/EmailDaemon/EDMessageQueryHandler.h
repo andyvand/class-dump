@@ -6,30 +6,11 @@
 
 #import <EmailDaemon/EDMessageRepositoryQueryHandler.h>
 
-@class EDMessageQueryHelper, EDSectionQueryItemHelper, EFDebouncer, EFLocked, EMCollectionItemIDStateCapturer, NSMutableDictionary, NSObject, NSString;
-@protocol EDResumable, EDSearchProvider, EFScheduler, OS_dispatch_queue;
+@protocol EDSearchProvider;
 
 @interface EDMessageQueryHandler : EDMessageRepositoryQueryHandler
 {
     struct EFAtomicObject _updateOldestMessagesCancelationToken;
-    _Bool _didCancel;
-    _Bool _didFindRequestedItemForInitialBatch;
-    _Bool _isInitialized;
-    _Bool _hasEverReconciledJournal;
-    _Bool _hasUrgentPredicate;
-    id <EDSearchProvider> _searchProvider;
-    EDMessageQueryHelper *_currentQueryHelper;
-    id <EFScheduler> _scheduler;
-    NSObject<OS_dispatch_queue> *_contentProtectionQueue;
-    NSObject<OS_dispatch_queue> *_resultQueue;
-    NSMutableDictionary *_oldestMessageIDsByMailboxObjectIDs;
-    EMCollectionItemIDStateCapturer *_stateCapturer;
-    id <EDResumable> _observerResumer;
-    EFDebouncer *_resumeClientDebouncer;
-    id <EFScheduler> _resumeClientScheduler;
-    EDSectionQueryItemHelper *_sectionQueryHelper;
-    CDUnknownBlockType _comparator;
-    EFLocked *_messageList;
 }
 
 + (id);
@@ -58,13 +39,13 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)";
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (long long);
 - (void);
@@ -82,21 +63,21 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (void);
-- (void);
 - (id);
-- (id);
-- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
+- (void);
+- (id)makeDPKey: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void) ;
 - (id);
 - (_Bool);
 - (id);
@@ -105,37 +86,13 @@
 - (id);
 - (void);
 - (void);
-- (CDUnknownBlockType)ldFindSelectedDecoder;
+- (CDUnknownBlockType)_setShouldFindSelectedDecoder;
 - (void)unk_level, flag_color, remote_id;
 - (_Bool)ð;
 - (_Bool)$Ðúÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType comparator; // @synthesize comparator=_comparator;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *contentProtectionQueue; // @synthesize contentProtectionQueue=_contentProtectionQueue;
-@property(retain, nonatomic) EDMessageQueryHelper *currentQueryHelper; // @synthesize currentQueryHelper=_currentQueryHelper;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didCancel; // @synthesize didCancel=_didCancel;
-@property(nonatomic) _Bool didFindRequestedItemForInitialBatch; // @synthesize didFindRequestedItemForInitialBatch=_didFindRequestedItemForInitialBatch;
-@property(nonatomic) _Bool hasEverReconciledJournal; // @synthesize hasEverReconciledJournal=_hasEverReconciledJournal;
-@property(nonatomic) _Bool hasUrgentPredicate; // @synthesize hasUrgentPredicate=_hasUrgentPredicate;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isInitialized; // @synthesize isInitialized=_isInitialized;
-@property(readonly, nonatomic) EFLocked *messageList; // @synthesize messageList=_messageList;
-@property(readonly, nonatomic) id <EDResumable> observerResumer; // @synthesize observerResumer=_observerResumer;
-@property(readonly, copy, nonatomic) NSMutableDictionary *oldestMessageIDsByMailboxObjectIDs; // @synthesize oldestMessageIDsByMailboxObjectIDs=_oldestMessageIDsByMailboxObjectIDs;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *resultQueue; // @synthesize resultQueue=_resultQueue;
-@property(retain, nonatomic) EFDebouncer *resumeClientDebouncer; // @synthesize resumeClientDebouncer=_resumeClientDebouncer;
-@property(retain, nonatomic) id <EFScheduler> resumeClientScheduler; // @synthesize resumeClientScheduler=_resumeClientScheduler;
-@property(readonly, nonatomic) id <EFScheduler> scheduler; // @synthesize scheduler=_scheduler;
 @property(readonly, nonatomic) id <EDSearchProvider> searchProvider; // @synthesize searchProvider=_searchProvider;
-@property(readonly, nonatomic) EDSectionQueryItemHelper *sectionQueryHelper; // @synthesize sectionQueryHelper=_sectionQueryHelper;
-@property(readonly, nonatomic) EMCollectionItemIDStateCapturer *stateCapturer; // @synthesize stateCapturer=_stateCapturer;
-@property(readonly) Class superclass;
 
 @end
 

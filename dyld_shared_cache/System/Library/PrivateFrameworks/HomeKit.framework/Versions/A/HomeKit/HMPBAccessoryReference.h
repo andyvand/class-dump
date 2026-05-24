@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMPBHomeReference, NSData;
+@class HMPBHomeReference;
 
 @interface HMPBAccessoryReference
 {
     HMPBHomeReference *_homeReference;
-    NSData *_uniqueIdentifier;
 }
 
 + (id);
@@ -22,7 +21,7 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)frivolity;
 - (void);
 - (id);
 - (_Bool);
@@ -33,9 +32,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasHomeReference;
-@property(readonly, nonatomic) _Bool hasUniqueIdentifier;
-@property(retain, nonatomic) HMPBHomeReference *homeReference; // @synthesize homeReference=_homeReference;
-@property(retain, nonatomic) NSData *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end
 

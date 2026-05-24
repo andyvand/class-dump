@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
+- (id)are not supported;
 - (int);
 
 @end

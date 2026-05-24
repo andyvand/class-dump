@@ -13,7 +13,7 @@
 + (id);
 + (id);
 - (_Bool);
-- (id);
+- (id)B(fB(gB(pB(qB(rB(sB(tB(uB(vB(w;
 - (id);
 - (long long);
 - (long long);

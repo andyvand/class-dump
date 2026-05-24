@@ -7,16 +7,6 @@
 @interface CalendarUIKit.UpdatedEventProperties
 {
     id title;
-    id location;
-    id allDay;
-    id startDate;
-    id startTime;
-    id endDate;
-    id endTime;
-    id startTimeZone;
-    id endTimeZone;
-    id recurrenceRule;
-    id participants;
 }
 
 @end

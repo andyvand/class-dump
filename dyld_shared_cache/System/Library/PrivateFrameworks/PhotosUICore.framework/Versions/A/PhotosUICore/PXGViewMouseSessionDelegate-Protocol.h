@@ -6,6 +6,9 @@
 
 @protocol PXGViewMouseSessionDelegate
 
+@optional
+- (void);
+
 // Remaining properties
 @property(nonatomic) __weak id sourceForDraggingSession;
 // Preceding property had unknown attributes: ?

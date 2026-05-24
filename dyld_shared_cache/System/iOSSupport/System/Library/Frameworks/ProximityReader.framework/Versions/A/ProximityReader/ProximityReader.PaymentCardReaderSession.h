@@ -8,9 +8,6 @@
 {
     id id;
     id uuid;
-    id options;
-    id currentOSVersionDeprecationDate;
-    id configuredCountryCode;
 }
 
 @end

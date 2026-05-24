@@ -7,11 +7,6 @@
 @interface ContentKit.WFAskLLMModelSession
 {
     id conversation;
-    id tokenGenerator;
-    id model;
-    id registeredDocuments;
-    id locale;
-    id responseCache;
 }
 
 @end

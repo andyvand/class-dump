@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface AppSandboxFolderRedirector
 {
     NSString *_homedir;
-    NSSet *_redirectedPaths;
 }
 
 + (id);

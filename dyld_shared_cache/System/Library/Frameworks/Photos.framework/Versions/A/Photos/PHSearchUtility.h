@@ -8,12 +8,12 @@
 {
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 + (unsigned long long);
 + (id);
-+ (id);
++ (id)(;
 + (id);
 + (_Bool);
 + (id);
@@ -21,12 +21,12 @@
 + (_Bool);
 + (_Bool);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (void);
 + (id);
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 + (id);
 + (struct _NSRange);

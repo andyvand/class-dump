@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOpenGLPixelFormat, NSView;
+@class NSView;
 
 @interface NSOpenGLContext
 {
     NSView *_view;
-    struct _CGLContextObject *_CGLContext;
 }
 
 
 // Remaining properties
-@property(readonly) struct _CGLContextObject *CGLContextObj;
-@property int currentVirtualScreen;
 @property(readonly) struct CGSize defaultFramebufferDimensions;
-@property(readonly) _Bool hasDefaultFramebuffer;
-@property(readonly) NSOpenGLPixelFormat *pixelFormat;
-@property __weak NSView *view;
 @end
 

@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface PKAccountEntityOrdering
 {
     unsigned long long _type;
-    unsigned long long _context;
-    NSArray *_ordering;
 }
 
 + (_Bool)±î%1Â0@ù
@@ -24,18 +20,16 @@
 - (id);
 - (id);
 - (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
-- (_Bool);
+- (_Bool)_sendToDaemonDuration;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void)ion on remote device;
 
 // Remaining properties
-@property(nonatomic) unsigned long long context; // @synthesize context=_context;
-@property(retain, nonatomic) NSArray *ordering; // @synthesize ordering=_ordering;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (DESExtensions)
-- (_Bool);
+- (_Bool)rescoringDeliberationResultTier1;
 @end
 

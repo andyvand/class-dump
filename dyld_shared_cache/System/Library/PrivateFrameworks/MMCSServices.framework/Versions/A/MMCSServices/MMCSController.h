@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSRecursiveLock, NSTimer;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface MMCSController
 {
     long long _connectionBehavior;
-    id _powerAssertion;
-    NSTimer *_powerAssertionTimer;
-    struct _mmcs_engine *_engine;
-    struct __CFURL *_chunkStoreURL;
-    unsigned long long _currentItemID;
-    NSMutableDictionary *_requestIDToBlockMap;
-    NSMutableDictionary *_requestIDToTransfersMap;
-    NSMutableDictionary *_requestIDToRemainingTransfersMap;
-    NSMutableDictionary *_transferToRequestIDsMap;
-    _Bool _allowUltraConstrainedAttachments;
-    NSMutableDictionary *_transfers;
-    NSMutableDictionary *_transferIDToContextMap;
-    NSRecursiveLock *_transferIDContextMapLock;
-    NSObject<OS_dispatch_queue> *_replyQueue;
 }
 
 + (id);
@@ -69,7 +54,7 @@
 - (void);
 - (struct _mmcs_engine *);
 - (void);
-- (void);
+- (void)ve a view from its delegate, %@.;
 - (void);
 - (id);
 - (id);
@@ -79,12 +64,6 @@
 - (void)path found!;
 
 // Remaining properties
-@property(nonatomic) _Bool allowUltraConstrainedAttachments; // @synthesize allowUltraConstrainedAttachments=_allowUltraConstrainedAttachments;
-@property long long connectionBehavior; // @synthesize connectionBehavior=_connectionBehavior;
-@property(readonly) _Bool isActive;
-@property(retain) NSObject<OS_dispatch_queue> *replyQueue; // @synthesize replyQueue=_replyQueue;
-@property(retain) NSRecursiveLock *transferIDContextMapLock; // @synthesize transferIDContextMapLock=_transferIDContextMapLock;
-@property(readonly) NSMutableDictionary *transferIDToContextMap; // @synthesize transferIDToContextMap=_transferIDToContextMap;
 @property(readonly) NSMutableDictionary *transfers; // @synthesize transfers=_transfers;
 
 @end

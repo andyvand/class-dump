@@ -10,15 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _NSSplitViewCollapsedInteractionsView : NSView
 {
     CDUnknownBlockType _springLoadingHandler;
-    CDUnknownBlockType _canSpringLoadHandler;
-    CDUnknownBlockType _proactivePeekHandler;
-    CDUnknownBlockType _canProactivePeekHandler;
-    long long _orientation;
-    _Bool _didSpringLoad;
-    _Bool _onLeftSide;
-    _Bool _mouseInside;
-    CDUnknownBlockType _rolloverTimer;
-    CDUnknownBlockType _nonInteractiveTimer;
 }
 
 - (void);
@@ -26,15 +17,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool)9K;
 - (void);
 - (void);
+- (void)__DATA_CONST;
 - (void);
 - (void);
-- (void);
-- (CDUnknownBlockType);
-- (_Bool);
-- (_Bool);
+- (CDUnknownBlockType)v7h4TrJdmukTl8gpzVl3DQ;
+- (_Bool)tton-type;
+- (_Bool)WXi7NQbOKnEX4vPQFeZAdQ;
 - (void);
 - (void);
 - (CDUnknownBlockType);
@@ -48,31 +39,27 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (id);
 - (id);
+- (void)ray",R,C;
+- (_Bool)Storage;
+- (void)
+;
+- (void);
+- (void);
 - (void);
 - (_Bool);
+- (struct CGSize);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (struct CGSize);
-- (void);
-- (void);
+- (void)`;
 - (void);
 - (long long)0@ù
 × ;
 - (id);
-- (void)ingAndReload;
+- (void)invalidateEverythingAndReload;
 - (void);
 - (void)ssers. It should not call super.;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType canProactivePeekHandler; // @synthesize canProactivePeekHandler=_canProactivePeekHandler;
-@property(copy) CDUnknownBlockType canSpringLoadHandler; // @synthesize canSpringLoadHandler=_canSpringLoadHandler;
-@property _Bool onLeftSide; // @synthesize onLeftSide=_onLeftSide;
 @property long long orientation;
-@property(copy) CDUnknownBlockType proactivePeekHandler; // @synthesize proactivePeekHandler=_proactivePeekHandler;
-@property(copy) CDUnknownBlockType springLoadingHandler; // @synthesize springLoadingHandler=_springLoadingHandler;
 
 @end
 

@@ -7,46 +7,26 @@
 @interface RTMapItemProviderLearnedPlaceParameters
 {
     double _maxDistanceThreshold;
-    double _minDistanceThreshold;
-    double _softDistanceThreshold;
-    double _homeConfidence;
-    double _workConfidence;
-    double _schoolConfidence;
-    double _gymConfidence;
-    double _nonRevGeoConfidence;
-    double _revGeoConfidence;
-    unsigned long long _revGeoSourceMask;
-    unsigned long long _removeSourceMask;
 }
 
 - (id);
-- (double);
-- (id);
+- (double);
+- (id)get data protection class from fullLegacyIdentity {error:%{public}@, fullIdentity:%{private}@} /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (double);
+- (double)";
 - (double);
 - (double);
 - (double);
 - (double);
-- (double);
-- (double);
+- (double)_connectionState;
 - (unsigned long long);
 - (double)ndpoints. origin, identifier, %@, visit, %{sensitive}@, destination, identifier, %@, visit, %{sensitive}@;
 - (id)or missing TripSegment sequence,min,%d,max,%d,seq,%d,prev,%d;
 
 // Remaining properties
-@property(readonly, nonatomic) double gymConfidence; // @synthesize gymConfidence=_gymConfidence;
-@property(readonly, nonatomic) double homeConfidence; // @synthesize homeConfidence=_homeConfidence;
 @property(readonly, nonatomic) double maxDistanceThreshold; // @synthesize maxDistanceThreshold=_maxDistanceThreshold;
-@property(readonly, nonatomic) double minDistanceThreshold; // @synthesize minDistanceThreshold=_minDistanceThreshold;
-@property(readonly, nonatomic) double nonRevGeoConfidence; // @synthesize nonRevGeoConfidence=_nonRevGeoConfidence;
-@property(readonly, nonatomic) unsigned long long removeSourceMask; // @synthesize removeSourceMask=_removeSourceMask;
-@property(readonly, nonatomic) double revGeoConfidence; // @synthesize revGeoConfidence=_revGeoConfidence;
-@property(readonly, nonatomic) unsigned long long revGeoSourceMask; // @synthesize revGeoSourceMask=_revGeoSourceMask;
-@property(readonly, nonatomic) double schoolConfidence; // @synthesize schoolConfidence=_schoolConfidence;
-@property(readonly, nonatomic) double softDistanceThreshold; // @synthesize softDistanceThreshold=_softDistanceThreshold;
-@property(readonly, nonatomic) double workConfidence; // @synthesize workConfidence=_workConfidence;
 
 @end
 

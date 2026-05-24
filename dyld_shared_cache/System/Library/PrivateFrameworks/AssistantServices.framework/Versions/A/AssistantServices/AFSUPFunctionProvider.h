@@ -6,12 +6,11 @@
 
 #import <AssistantServices/AFSpeakableUtteranceParser.h>
 
-@class NSDateFormatter, NSString;
+@class NSDateFormatter;
 
 @interface AFSUPFunctionProvider : AFSpeakableUtteranceParser
 {
     NSDateFormatter *_dateFormatter;
-    NSDateFormatter *_timeFormatter;
 }
 
 + (_Bool);
@@ -19,8 +18,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)2		=;
 - (id);
 - (id);
 - (id);
@@ -43,13 +42,7 @@
 - (void)hasBatteryLevelHeadphoneRight;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

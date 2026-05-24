@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLRUDictionaryNode;
-
 @interface CPLRUDictionary
 {
     struct __CFDictionary *_dictionary;
-    unsigned long long _maxCount;
-    CPLRUDictionaryNode *_head;
-    CPLRUDictionaryNode *_tail;
 }
 
 + (id);
@@ -27,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)onManagement/KernelCollections/;
 - (void);
 - (void);
 - (id);

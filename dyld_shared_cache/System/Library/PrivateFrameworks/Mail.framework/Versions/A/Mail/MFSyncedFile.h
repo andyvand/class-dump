@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOperationQueue, NSSet, NSString, NSURL;
+@class NSURL;
 
 @interface MFSyncedFile
 {
     NSURL *_cloudURL;
-    id _cloudURLLock;
-    id _cloudFileLock;
-    NSURL *_URL;
-    long long _syncState;
 }
 
 + (void);
@@ -20,17 +16,17 @@
 + (id);
 + (id);
 + (void);
-+ (void);
++ (void);
 + (id);
 + (id)#yM©;
-+ (void)C_2231;
++ (void)RFC_2231;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -40,26 +36,26 @@
 - (_Bool);
 - (id);
 - (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (void);
 - (_Bool);
 - (void);
-- (void);
 - (id);
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)G_dataOperationTextIndicator;
 - (id);
 - (void);
 - (long long);
@@ -69,26 +65,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(readonly) NSURL *cloudURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasMigratedFromLegacy;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSSet *observedPresentedItemUbiquityAttributes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R
-
-@property(readonly, retain) NSOperationQueue *presentedItemOperationQueue;
-@property(readonly, copy) NSURL *presentedItemURL;
-@property(readonly, copy) NSURL *primaryPresentedItemURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSURL",?,R,C
-
-@property(readonly) Class superclass;
-@property long long syncState; // @synthesize syncState=_syncState;
 
 @end
 

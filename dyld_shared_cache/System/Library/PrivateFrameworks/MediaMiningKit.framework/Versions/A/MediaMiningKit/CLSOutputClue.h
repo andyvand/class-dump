@@ -11,7 +11,6 @@
 @interface CLSOutputClue : CLSClue
 {
     NSMutableArray *_relatedInputLocationClues;
-    CLSPersonIdentity *_relatedPerson;
 }
 
 + (id);
@@ -21,7 +20,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)apeWallpaperSuggester] Found %d candidates after postfiltering;
 - (void);
 
 // Remaining properties

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSWindowController;
+@class NSWindowController;
 
 @interface CNLikenessEditorPresentationSheetStrategy
 {
@@ -15,19 +15,12 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)(;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) NSWindowController *sheetWindowController; // @synthesize sheetWindowController=_sheetWindowController;
-@property(readonly) Class superclass;
 
 @end
 

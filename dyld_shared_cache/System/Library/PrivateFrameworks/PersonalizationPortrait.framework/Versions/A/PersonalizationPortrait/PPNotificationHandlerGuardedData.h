@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableSet;
-
 @interface PPNotificationHandlerGuardedData
 {
     _Bool _delayedFiringInProgress;
-    double _lastFiringTimeSince1970;
-    NSMapTable *_blockMap;
-    NSMutableSet *_objects;
 }
 
 - (id);
-- (void);
+- (void)ȵ;
 
 @end
 

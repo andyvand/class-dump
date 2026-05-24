@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSNumber, NSString;
+@class NSString;
 
 @interface ASDJob
 {
     NSString *_bundleID;
-    NSNumber *_externalOrderKey;
-    NSError *_failureError;
-    NSNumber *_orderKey;
-    double _percentComplete;
-    long long _persistentID;
-    long long _phase;
-    long long _purchaseID;
-    long long _storeItemID;
-    long long _type;
 }
 
 + (_Bool);
@@ -30,7 +21,7 @@
 - (id);
 - (long long);
 - (void);
-- (id);
+- (id)MNNavigationServiceLocalProxy recordTraceBookmarkAtCurrentPositionWthScreenshotData:(struct _NSZone *)arg1 ];
 - (long long);
 - (id);
 - (void);
@@ -39,15 +30,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(readonly, nonatomic) NSNumber *externalOrderKey; // @synthesize externalOrderKey=_externalOrderKey;
-@property(readonly, nonatomic) NSError *failureError; // @synthesize failureError=_failureError;
-@property(readonly, nonatomic) NSNumber *orderKey; // @synthesize orderKey=_orderKey;
-@property(readonly, nonatomic) double percentComplete; // @synthesize percentComplete=_percentComplete;
-@property(readonly, nonatomic) long long persistentID; // @synthesize persistentID=_persistentID;
-@property(readonly, nonatomic) long long phase; // @synthesize phase=_phase;
-@property(readonly, nonatomic) long long purchaseID; // @synthesize purchaseID=_purchaseID;
-@property(readonly, nonatomic) long long storeItemID; // @synthesize storeItemID=_storeItemID;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

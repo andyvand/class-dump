@@ -4,16 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FMFDevice, NSString;
+@class FMFDevice, FMFHandle, NSString;
 
 @protocol FMFSessionDelegate
 
 @optional
-- (void)ryResult:(FMFDevice *)arg1;
-- (void)ramC;
-- (void)ForService:(NSString *)arg1;
-- (void)ryNetworkSignature;
+- (void);
+- (void);
 - (void);
+- (void)TMq@;
+- (void)J}JJ;
+- (void)primaryStrideInPixels;
+- (void);
+- (void)subscriber:(FMFDevice *)arg1 receivedDiscoveryResult: /* Error: Ran out of types for this method. */;
+- (void)paramC;
+- (void)accessory:(NSString *)arg1 didUpdateServiceSubtypeForService:(FMFHandle *)arg2;
+- (void)_primaryNetworkSignature;
 - (void)@;
 - (void)lock_invoke;
 - (void)yMatching array contained non-dictionary (%@);

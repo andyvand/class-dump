@@ -5,5 +5,6 @@
 //
 
 @protocol NSCopying
+- (id)setIsMLBackgroundActivity:(struct _NSZone *)arg1;
 @end
 

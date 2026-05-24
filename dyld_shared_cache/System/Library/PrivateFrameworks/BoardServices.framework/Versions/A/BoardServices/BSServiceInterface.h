@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSObjCProtocol, NSString;
+@class NSString;
 
 @interface BSServiceInterface
 {
     NSString *_identifier;
-    BSObjCProtocol *_server;
-    BSObjCProtocol *_client;
-    struct __CFBoolean *_clientWaitsForActivation;
 }
 
 + (id);
@@ -32,22 +29,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)3;
+- (id)createUser:recoveryCredential:volume:error: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) BSObjCProtocol *client;
-@property(readonly, nonatomic) long long clientMessagingExpectation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, copy, nonatomic) BSObjCProtocol *server;
-@property(readonly) Class superclass;
 
 @end
 

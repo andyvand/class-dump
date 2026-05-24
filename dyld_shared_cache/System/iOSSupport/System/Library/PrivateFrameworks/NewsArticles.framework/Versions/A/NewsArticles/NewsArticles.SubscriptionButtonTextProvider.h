@@ -9,15 +9,12 @@
 @interface NewsArticles.SubscriptionButtonTextProvider
 {
     id headline;
-    id coreConfigurationManager;
-    id offerManager;
-    id $__lazy_storage_$_title;
 }
 
 - (id);
-- (void);
+- (void)!;
 - (id);
-- (void)uration;
+- (void)missingAppConfiguration;
 
 // Remaining properties
 @property(nonatomic, copy) NSString *title;

@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class TSSStyle, TSSStylesheet;
+
 @protocol TSKStyleMapper
+- (void)LIVE_LINK_UNABLE_TO_SHAREPLAY_ALERT_TITLE;
+- (void)Sonic;
+- (TSSStylesheet *)from playback intent %@;
+- (void)missing item model class] for identifiers:(id)arg1 %@;
+- (void)copy a placeholder as deferred;
+- (TSSStyle *)called on a managed session;
+- (TSSStyle *);
 @end
 

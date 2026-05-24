@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (ParameterGrouping)
-- (id);
+- (id)z;
 @end
 

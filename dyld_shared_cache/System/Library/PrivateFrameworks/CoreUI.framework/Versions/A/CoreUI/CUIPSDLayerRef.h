@@ -21,7 +21,7 @@
 - (struct CGImage *);
 - (id);
 - (id);
-- (void);
+- (void)f;
 - (id);
 - (id);
 

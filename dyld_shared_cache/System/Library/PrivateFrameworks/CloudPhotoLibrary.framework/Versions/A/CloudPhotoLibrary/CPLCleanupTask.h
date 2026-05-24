@@ -11,10 +11,10 @@
 }
 
 - (void);
+- (void): /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (id)toEnable;
+- (void);
+- (id)EPPAutoEnable;
 
 @end
 

@@ -6,17 +6,9 @@
 
 #import <AudioToolboxCore/AUParameterNode.h>
 
-@class NSArray, NSString, _AUStaticParameterInfo;
-
 @interface AUParameter : AUParameterNode
 {
     struct atomic<bool> _localValueStale;
-    struct atomic<int> _numUIObservers;
-    struct atomic<int> _numRecordingObservers;
-    float _value;
-    unsigned long long _address;
-    NSArray *_dependentParameters;
-    _AUStaticParameterInfo *_info;
 }
 
 + (_Bool);
@@ -27,11 +19,11 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (float);
-- (void);
+- (void).dylib;
+- (float)vE3$_0JNSt3__15tupleIJPKciEEEEEE;
+- (void)date_core_commonERNS_4Core13Operation_SetEE3$_0;
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (unsigned int);
@@ -40,13 +32,13 @@
 - (float);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (float);
+- (float)B;
 - (void);
 - (unsigned int);
-- (id);
+- (id);
 - (id);
 - (id);
 - (float);
@@ -54,7 +46,7 @@
 - (unsigned long long);
 - (float);
 - (void)ails15erased_call;
-- (id)gs;
+- (id)SupportedChannelLayoutTags;
 - (unsigned int);
 - (float)Á×ÃTf0ÃlEÆAû½BÉ'dÂ¨íÂ£ÍÂäCª*CBþj3Cæ]ÝÂ2vB¯ÒqBlB¯ØC8õÂsT¦BßBýHÂØËÃKÔ°Bì»Â{ÁB.ÂÂüýÂ×ª±BB¼Ã¤AwÂ\B)cÃfR?B)Ö+C#ÂÏHÝBFm0C
 aAÚÃ	B¨Â|òúÁ/cnÂyB|klAJCÖ'*Ãöé·B¡éCFÃÂÑ°ÂJ9ÅÁ5¡Á$HÃB35ÖÂ
@@ -62,15 +54,6 @@ aAÚÃ	B¨Â|òúÁ/cnÂyB|klAJCÖ'*Ãöé·B¡éCFÃÂÑ°Â
 
 // Remaining properties
 @property unsigned long long address; // @synthesize address=_address;
-@property(readonly, copy) NSArray *dependentParameters; // @synthesize dependentParameters=_dependentParameters;
-@property(readonly) unsigned int flags;
-@property(retain, nonatomic) _AUStaticParameterInfo *info; // @synthesize info=_info;
-@property(readonly) float maxValue;
-@property(readonly) float minValue;
-@property(readonly) unsigned int unit;
-@property(readonly, copy) NSString *unitName;
-@property float value; // @synthesize value=_value;
-@property(readonly, copy) NSArray *valueStrings;
 
 @end
 

@@ -7,24 +7,21 @@
 #import <HomeAI/HMITask.h>
 
 @class HMIPersonFaceCrop;
-@protocol HMIHomePersonManagerDataSource;
 
 @interface HMIFaceMisclassificationTask : HMITask
 {
     HMIPersonFaceCrop *_faceCrop;
-    id <HMIHomePersonManagerDataSource> _dataSource;
 }
 
 + (id)t;
+- (void)@9Jy_IqA;
 - (void);
-- (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly) id <HMIHomePersonManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
 @property(readonly) HMIPersonFaceCrop *faceCrop; // @synthesize faceCrop=_faceCrop;
 
 @end

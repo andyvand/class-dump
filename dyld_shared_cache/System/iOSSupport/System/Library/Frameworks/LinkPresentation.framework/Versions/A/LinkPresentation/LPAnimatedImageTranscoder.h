@@ -4,33 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetWriter, AVAssetWriterInput, AVAssetWriterInputPixelBufferAdaptor, LPImage, NSURL;
+@class LPImage;
 
 __attribute__((visibility("hidden")))
 @interface LPAnimatedImageTranscoder
 {
     LPImage *_sourceImage;
-    CDUnknownBlockType _completionHandler;
-    struct CGImageSource *_imageSource;
-    NSURL *_outputURL;
-    unsigned long long _frameCount;
-    unsigned long long _currentFrame;
-    double _nextFrameTime;
-    AVAssetWriterInputPixelBufferAdaptor *_adaptor;
-    AVAssetWriter *_writer;
-    AVAssetWriterInput *_input;
-    _Bool _stopEncoding;
-    _Bool _hasReadyForDataObserver;
-    unsigned int _loggingID;
 }
 
-+ (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
++ (id)showPhotosExtension;
+- (void)stickerViewForStickerChatItem:snapshotEffectView:completion: /* Error: Ran out of types for this method. */;
+- (id)splitViewController:(id)arg1 didHideColumn: /* Error: Ran out of types for this method. */;
+- (void)smsComposeControllerShouldSendMessageWithText:toRecipients:completion: /* Error: Ran out of types for this method. */;
+- (void)showScreenSharingButton;
+- (void)shouldHideFromField;
+- (void)shouldExpire;
 - (void);
 - (void);
 - (void);

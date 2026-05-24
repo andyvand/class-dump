@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface PXAssetsSectionButton
 {
     id configuration;
-    id button;
-    id <NSCopying> userData;
-    struct CGRect clippingRect;
 }
 
 + (double);
@@ -26,11 +23,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id)eGuide;
+- (id)styleGuide;
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct CGRect clippingRect; // @synthesize clippingRect;
 @property(nonatomic, retain) id <NSCopying> userData; // @synthesize userData;
 
 @end

@@ -14,9 +14,9 @@
 }
 
 - (long long);
-- (void);
+- (void)"NSDictionary"24@0:(id)arg1 8^@16;
 - (id);
-- (void)MergeableDeltaMetadataOperationCallbacks;
+- (void)CKFetchMergeableDeltaMetadataOperationCallbacks;
 - (id)R;
 
 // Remaining properties

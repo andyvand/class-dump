@@ -9,31 +9,23 @@
 @interface _UIFluidSliderInteractionConfiguration
 {
     NSArray *_customDrivers;
-    double _stretchAmount;
-    double _velocityMultiplier;
-    unsigned long long _stepCount;
-    unsigned long long _preferredInputMethods;
-    double _neutralPosition;
-    double _minValue;
-    double _maxValue;
-    struct CGSize _trackSize;
 }
 
 + (id);
-- (double);
+- (double)releaseBufferId:fromPoolWithName: /* Error: Ran out of types for this method. */;
 - (struct CGSize);
 - (double);
 - (void);
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
-- (id);
-- (id);
+- (unsigned long long)setGroupPhotoCreationTime: /* Error: Ran out of types for this method. */;
+- (id)_calculateHandlersForMessage:(double)arg1 messageGUID:fromIdentifier:command:completionBlock: /* Error: Ran out of types for this method. */;
+- (id)_calculateHandlersForMatchType:(struct CGSize)arg1 routingBehaviors:message:messageGUID:fromIdentifier:completionBlock: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)using fallback hash;
 - (double);
-- (void);
+- (void)CEMApplicationAppStoreDeclaration_Status;
 - (id);
 - (id);
 - (double);
@@ -48,14 +40,6 @@
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setCustomDrivers:) NSArray *_customDrivers; // @synthesize _customDrivers;
-@property(nonatomic) double maxValue; // @synthesize maxValue=_maxValue;
-@property(nonatomic) double minValue; // @synthesize minValue=_minValue;
-@property(nonatomic) double neutralPosition; // @synthesize neutralPosition=_neutralPosition;
-@property(nonatomic) unsigned long long preferredInputMethods; // @synthesize preferredInputMethods=_preferredInputMethods;
-@property(nonatomic) unsigned long long stepCount; // @synthesize stepCount=_stepCount;
-@property(nonatomic) double stretchAmount; // @synthesize stretchAmount=_stretchAmount;
-@property(readonly, nonatomic) struct CGSize trackSize; // @synthesize trackSize=_trackSize;
-@property(nonatomic) double velocityMultiplier; // @synthesize velocityMultiplier=_velocityMultiplier;
 
 @end
 

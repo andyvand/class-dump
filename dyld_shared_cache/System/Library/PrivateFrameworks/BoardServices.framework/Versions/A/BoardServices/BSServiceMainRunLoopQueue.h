@@ -6,17 +6,11 @@
 
 #import <BoardServices/BSServiceQueue.h>
 
-@class NSArray, NSMutableArray, NSObject;
-@protocol OS_dispatch_queue;
+@class NSArray;
 
 @interface BSServiceMainRunLoopQueue : BSServiceQueue
 {
     NSArray *_modes;
-    NSObject<OS_dispatch_queue> *_queue;
-    struct __CFRunLoopSource *_source;
-    NSMutableArray *_queue_blocks;
-    BSServiceMainRunLoopQueue *_queue_keepAliveForBlocks;
-    _Bool _main_callingOut;
 }
 
 + (id);
@@ -25,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)h;
 - (id);
 - (_Bool);
 - (void);

@@ -6,34 +6,20 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, UIColor, _UIAssertionController;
 @protocol UILayoutContainerViewDelegate;
 
 __attribute__((visibility("hidden")))
 @interface UILayoutContainerView : UIView
 {
     UIView *_shadowView;
-    _UIAssertionController *_assertionController;
-    struct {
-        unsigned int delegateRespondsToSemanticContentAttributeChanged:1;
-        unsigned int delegateRespondsToViewWillLayoutSubviews:1;
-        unsigned int delegateRespondsToWillMoveToWindow:1;
-        unsigned int delegateRespondsToDidMoveToWindow:1;
-        unsigned int backgroundColorIsDefault:1;
-        unsigned int disableUserInteraction:1;
-    } _layoutContainerViewFlags;
-    _Bool _usesInnerShadow;
-    _Bool _usesRoundedCorners;
-    id <UILayoutContainerViewDelegate> _delegate;
-    UIColor *_defaultBackgroundColor;
 }
 
 - (_Bool);
-- (void);
+- (void)ge",C,N,V_payloadAppPackage;
 - (_Bool);
+- (id)setSnippetModernizationEnabled: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
+- (void)spatched, timed out];
 - (void);
 - (void)Á;
 - (id)
@@ -44,14 +30,14 @@ __attribute__((visibility("hidden")))
 - (id)0@ù
 × ;
 - (void)@0:(id)arg1 8{?={CGPoint=dd}d}16;
-- (void)geTitleHeightRange: /* Error: Ran out of types for this method. */;
-- (id)ionLeadingAnchor;
+- (void)setLargeTitleHeightRange: /* Error: Ran out of types for this method. */;
+- (id)maskExtensionLeadingAnchor;
 - (void)contentViewMaxHeightConstraint;
-- (void)itiveBoundsWithInfiniteEdges:(id)arg1;
-- (void)OffsetForNewFrame:(struct CGRect)arg1 oldFrame:newContentSize:andOldContentSize: /* Error: Ran out of types for this method. */;
+- (void)_visualAltitudeSensitiveBoundsWithInfiniteEdges:(id)arg1;
+- (void)_contentOffsetForNewFrame:(struct CGRect)arg1 oldFrame:newContentSize:andOldContentSize: /* Error: Ran out of types for this method. */;
 - (id)Input;
 - (void)chControl;
-- (void)ider;
+- (void)_UIPreviewInteractionDecayTouchForceProvider;
 - (void)<;
 - (void)ÿÿ;
 - (void)d dequeued view to be returned to the collection view in preparation for display. When the collection view's data source is asked to provide a view for a given index path, ensure that a single view is dequeued and returned to the collection view. Avoid flushing layout before returning the view to the collection view. Avoid dequeuing views without a request from the collection view. For retrieving an existing view in the collection view, use -[UICollectionView cellForItemAtIndexPath:] or -[UICollectionView supplementaryViewForElementKind:atIndexPath:]. Dequeued view:%@; Collection view:%@ This will become an assert in a future version. /* Error: Ran out of types for this method. */;
@@ -65,18 +51,7 @@ __attribute__((visibility("hidden")))
 - (void)­;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool backgroundColorIsDefault;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) UIColor *defaultBackgroundColor; // @synthesize defaultBackgroundColor=_defaultBackgroundColor;
 @property(nonatomic) __weak id <UILayoutContainerViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool usesInnerShadow; // @synthesize usesInnerShadow=_usesInnerShadow;
-@property(nonatomic) _Bool usesRoundedCorners; // @synthesize usesRoundedCorners=_usesRoundedCorners;
 
 @end
 

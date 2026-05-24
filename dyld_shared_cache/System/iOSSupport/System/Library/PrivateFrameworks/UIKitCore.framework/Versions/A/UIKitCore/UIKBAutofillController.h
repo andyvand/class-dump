@@ -4,38 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, UIColor;
+@class UIColor;
 @protocol AFUITargetDetectionController_Staging;
 
 __attribute__((visibility("hidden")))
 @interface UIKBAutofillController
 {
     id <AFUITargetDetectionController_Staging> _targetDetectionController;
-    long long _delegateNeedsAutofillMode;
-    _Bool _shouldSaveAutofill;
-    NSMutableDictionary *_autofillGroup;
-    NSMutableDictionary *_fallbackAutofillGroup;
-    _Bool _didOptOutOfAutofillSignup;
-    UIColor *_textFieldOrigColor;
 }
 
-+ (unsigned long long)er;
++ (unsigned long long)_cellObserver;
 + (id)C;
 + (long long)þ?`;
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)!;
+- (id)_payloadAllowOpenFromManagedToUnmanaged;
+- (void)CEMSystemAirPlayDestinationsDeclaration_WhitelistItem;
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
+- (void);
+- (void)ier;
+- (_Bool);
 - (long long);
 - (void);
 - (long long);
@@ -44,30 +38,30 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
+- (long long);
 - (long long);
-- (long long);
-- (id);
+- (id)__unwind_info;
 - (id);
 - (void)aÐ1Â0@ù
 × ;
 - (long long);
 - (id)erationAssistant";
 - (id)plete"b1"hasSearchFieldContainerLayoutCustomizationDelegate"b1"floatingSearchIconViewHasBeenSetUp"b1"requiresSearchTextField"b1"showsClearButtonWhenEmpty"b1"isPinnedInNavigationBar"b1"isSearchingInNavigationBarOrIsStandalone"b1"isSettingUpSearchField"b1"cancelButtonIsUINavigationButton"b1"suppressFirstResponderOnTransitionToLayoutStateSearching"b1"enforcedMaximumContentSizeWhileLendingView"b1"showsLargeContentViewerBeforeLendingView"b1};
-- (long long)ncyEffect;
-- (void)alLayer;
-- (id)tEyedropperOnStart;
-- (id)sformedFrame: /* Error: Ran out of types for this method. */;
-- (id)ller;
-- (id):animated:reset: /* Error: Ran out of types for this method. */;
-- (id)oller:edges: /* Error: Ran out of types for this method. */;
-- (_Bool)nallyManaged;
-- (id)rContainerView;
+- (long long)selectedSegmentContentDefaultVibrancyEffect;
+- (void)materialLayer;
+- (id)floatEyedropperOnStart;
+- (id)_sheetLayoutInfoDidInvalidateUntransformedFrame: /* Error: Ran out of types for this method. */;
+- (id)_sharingViewPresentationController;
+- (id)_preserveInputViewsWithId:animated:reset: /* Error: Ran out of types for this method. */;
+- (id)_observableScrollViewDidChangeFrom:forViewController:edges: /* Error: Ran out of types for this method. */;
+- (_Bool)_isVisibilityExternallyManaged;
+- (id)_floatingBarContainerView;
 - (id)ETextInputDelegate>",W,N;
 - (void);
 - (id);
-- (_Bool)ioCustom;
+- (_Bool)AudioCustom;
 - (_Bool)e %@, variable name %@, and runtime collection class name %@.;
-- (long long);
+- (long long)focusedItem;
 - (void)Ïüï[;
 - (void);
 - (id)Dd;
@@ -78,10 +72,6 @@ __attribute__((visibility("hidden")))
 - (void)=n;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSMutableDictionary *autofillGroup;
-@property(nonatomic) long long delegateNeedsAutofillMode;
-@property(copy, nonatomic) NSMutableDictionary *fallbackAutofillGroup;
-@property(nonatomic) _Bool shouldSaveAutofill; // @synthesize shouldSaveAutofill=_shouldSaveAutofill;
 @property(copy, nonatomic) UIColor *textFieldOrigColor; // @synthesize textFieldOrigColor=_textFieldOrigColor;
 
 @end

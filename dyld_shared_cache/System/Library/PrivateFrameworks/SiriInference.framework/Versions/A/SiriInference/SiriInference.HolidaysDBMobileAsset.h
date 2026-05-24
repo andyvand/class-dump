@@ -7,11 +7,6 @@
 @interface SiriInference.HolidaysDBMobileAsset
 {
     id asset;
-    id version;
-    id $__lazy_storage_$_assetURL;
-    id $__lazy_storage_$_versiondate;
-    id $__lazy_storage_$_holiday;
-    id $__lazy_storage_$_country;
 }
 
 @end

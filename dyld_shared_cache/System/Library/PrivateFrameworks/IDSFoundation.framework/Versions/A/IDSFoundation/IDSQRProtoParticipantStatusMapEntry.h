@@ -7,10 +7,6 @@
 @interface IDSQRProtoParticipantStatusMapEntry
 {
     CDStruct_62a50c50 _participantIds;
-    int _participantStatus;
-    struct {
-        unsigned int participantStatus:1;
-    } _has;
 }
 
 - (void);
@@ -28,19 +24,17 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool);
+- (_Bool)luetoothDeviceInquiry";
+- (void)08X from %@, service %s
+;
 - (id);
 - (id);
 
 // Remaining properties
 @property(nonatomic) _Bool hasParticipantStatus;
-@property(readonly, nonatomic) unsigned long long *participantIds;
-@property(readonly, nonatomic) unsigned long long participantIdsCount;
-@property(nonatomic) int participantStatus; // @synthesize participantStatus=_participantStatus;
 
 @end
 

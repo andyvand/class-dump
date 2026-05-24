@@ -4,48 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIConversationContext, UIResponder, UITextInputPasswordRules, UITextInputTraits, UITextInteractionAssistant, UITextInteractionSelectableInputDelegate, UITextSelectionDisplayInteraction, UIView;
-@protocol UIAsyncTextInputClient, UIKeyInput, UIKeyboardImplStateProtocol, UIKeyboardInput;
+@class UIResponder;
+@protocol UIKeyInput;
 
 __attribute__((visibility("hidden")))
 @interface UIKBInputDelegateManager
 {
     unsigned long long m_delegateConformanceType;
-    unsigned long long m_originalDelegateConformanceType;
-    _Bool _forwardingInputDelegateConformsToWKInteraction;
-    _Bool _forwardingInputDelegateConformsToAsyncTextInputClient;
-    _Bool _forwardingInputDelegateConformsToBETextInput;
-    _Bool m_firstResponderAdoptsTextInput;
-    _Bool _shouldRespectForwardingInputDelegate;
-    _Bool _insideKeyInputDelegateCall;
-    id <UIKeyboardImplStateProtocol> _keyboardStateDelegate;
-    UIResponder<UIKeyInput> *_keyInputDelegate;
-    UITextInteractionSelectableInputDelegate *_selectableDelegate;
-    UIResponder<UIKeyInput> *_forwardingInputDelegate;
-    UIResponder<UIAsyncTextInputClient> *_asyncInputDelegate;
 }
 
 + (struct _NSRange);
 + (_Bool);
+- (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)setRoundedCornerLabel: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)ifierList"16@"NSString"24;
+- (void)MPStoreLibraryPersonalizationResponse;
 - (id);
+- (void)merateRelatedTokensForResult:(id)arg1 childKey:(_Bool)arg2 | matching any parent [no version hash] result=%@;
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)+;
 - (id);
 - (id);
 - (void);
@@ -66,32 +54,32 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void)56@0:(id)arg1 8@16q24d32{CGSize=dd}40;
-- (_Bool)hText:(id)arg1;
-- (_Bool)ForFooterInSection: /* Error: Ran out of types for this method. */;
+- (_Bool)textSuggestionWithInputText:(id)arg1 searchText:(id)arg2;
+- (_Bool)tableView:heightForFooterInSection: /* Error: Ran out of types for this method. */;
 - (void)setLanguage:(id)arg1;
-- (_Bool)ingTouch:(unsigned long long)arg1;
-- (void)eCount;
-- (SEL)omBackgroundBlurEffect;
-- (unsigned long long)tentInsets;
-- (void);
-- (void)aryViewController;
-- (void)terfaceOrientationLocked;
-- (_Bool)taLevel;
-- (void)ene;
-- (void)itFormElement:inFrame: /* Error: Ran out of types for this method. */;
+- (_Bool)notifyDelegateOfIgnoringTouch:(unsigned long long)arg1;
+- (void)m_autoDeleteCount;
+- (SEL)disabledAtomBackgroundBlurEffect;
+- (unsigned long long)defaultTableContentInsets;
+- (void)contentBackgroundColor;
+- (void)_supplementaryViewController;
+- (void)_super_prefersInterfaceOrientationLocked;
+- (_Bool)_ignoreDataLevel;
+- (void)_hostedWindowScene;
+- (void)_didEditFormElement:inFrame: /* Error: Ran out of types for this method. */;
 - (void)IColor",C,N,V_unselectedTextColor;
 - (id)@"<_UICollectionLayoutAuxillaryItem>",R,N;
-- (id)ettingsATVDark;
+- (id)_UIBackdropViewSettingsATVDark;
 - (void)q;
-- (unsigned long long)vertedWhenFloating;
+- (unsigned long long)wantsInvertedWhenFloating;
 - (void)ShapeLayer"8;
 - (void)rchy: /* Error: Ran out of types for this method. */;
 - (id)%@;
 - (void)BackButtonAccessibilityBackgroundLandscape.png;
 - (void)5UIKit28UIReducedLaunchSceneDelegateP;
 - (id);
-- (_Bool)iding;
-- (id)t;
+- (_Bool)CoreListMetricsStateProviding;
+- (id)_UIVisualEffectCornerMaskTrait;
 - (_Bool)æ­;
 - (void)òKÔxòa;
 - (_Bool)Lâb;
@@ -183,107 +171,7 @@ __attribute__((visibility("hidden")))
 - (void)¬ÒDÿ´0;
 
 // Remaining properties
-@property unsigned long long allowedWritingToolsResultOptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?
-
-@property(nonatomic) _Bool allowsNumberPadPopover;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(readonly, nonatomic) id asyncCapableInputDelegate;
-@property(retain, nonatomic) UIResponder<UIAsyncTextInputClient> *asyncInputDelegate; // @synthesize asyncInputDelegate=_asyncInputDelegate;
-@property(nonatomic) long long autocapitalizationType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) long long autocorrectionType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(readonly, nonatomic) UIView *automaticallySelectedOverlay;
-@property(nonatomic) _Bool continuousSpellCheckingEnabled;
-@property(retain, nonatomic) UIConversationContext *conversationContext;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIConversationContext",?,&,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) unsigned long long delegateConformanceType;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool enablesReturnKeyAutomatically;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) __weak UIResponder<UIKeyInput> *forwardingInputDelegate; // @synthesize forwardingInputDelegate=_forwardingInputDelegate;
-@property(readonly, nonatomic) _Bool hasAsyncCapableInputDelegate;
-@property(readonly, nonatomic) _Bool hasText;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long inlinePredictionType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) _Bool insideKeyInputDelegateCall; // @synthesize insideKeyInputDelegateCall=_insideKeyInputDelegateCall;
 @property(retain, nonatomic) UIResponder<UIKeyInput> *keyInputDelegate; // @synthesize keyInputDelegate=_keyInputDelegate;
-@property(nonatomic) long long keyboardAppearance;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) __weak id <UIKeyboardImplStateProtocol> keyboardStateDelegate; // @synthesize keyboardStateDelegate=_keyboardStateDelegate;
-@property(nonatomic) long long keyboardType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(readonly, nonatomic) id <UIKeyboardInput> legacyInputDelegate;
-@property(nonatomic) long long mathExpressionCompletionType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(copy, nonatomic) UITextInputPasswordRules *passwordRules;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UITextInputPasswordRules",?,C,N
-
-@property(nonatomic) long long returnKeyType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic, getter=isSecureTextEntry) _Bool secureTextEntry;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N,GisSecureTextEntry
-
-@property(retain, nonatomic) UITextInteractionSelectableInputDelegate *selectableDelegate; // @synthesize selectableDelegate=_selectableDelegate;
-@property(readonly, nonatomic) struct CGRect selectionClipRect;
-@property(readonly, nonatomic) UITextSelectionDisplayInteraction *selectionDisplayInteraction;
-@property(nonatomic) _Bool shouldRespectForwardingInputDelegate; // @synthesize shouldRespectForwardingInputDelegate=_shouldRespectForwardingInputDelegate;
-@property(nonatomic) long long smartDashesType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) long long smartInsertDeleteType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) long long smartQuotesType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) long long spellCheckingType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *textContentType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
-@property(readonly, nonatomic) UITextInputTraits *textInputTraits;
-@property(readonly, nonatomic) UITextInteractionAssistant *textInteractionAssistant;
-@property long long writingToolsBehavior;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?
-
 
 @end
 

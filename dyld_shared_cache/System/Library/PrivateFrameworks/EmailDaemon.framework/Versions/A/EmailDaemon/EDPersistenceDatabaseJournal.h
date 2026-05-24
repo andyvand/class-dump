@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDPersistenceDatabaseJournalManager, NSString;
+@class EDPersistenceDatabaseJournalManager;
 
 @interface EDPersistenceDatabaseJournal
 {
     struct os_unfair_lock_s _referenceCountLock;
-    unsigned long long _referenceCount;
-    unsigned long long _number;
-    EDPersistenceDatabaseJournalManager *_journalManager;
 }
 
 - (id);
@@ -20,15 +17,12 @@
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)ber, found:%@ /* Error: Ran out of types for this method. */;
 - (void)nce _enumerateThreadObjectIDsForThreadScope:filterClause:sortKeys:batchBlock:] /* Error: Ran out of types for this method. */;
 - (void)ð;
 
 // Remaining properties
 @property(readonly, nonatomic) EDPersistenceDatabaseJournalManager *journalManager; // @synthesize journalManager=_journalManager;
-@property(readonly, nonatomic) unsigned long long number; // @synthesize number=_number;
-@property(readonly, copy, nonatomic) NSString *path;
-@property(readonly) unsigned long long referenceCount;
 
 @end
 

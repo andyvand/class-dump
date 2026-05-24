@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAsset, NSDictionary;
+@class AVAsset;
 
 @interface PIAutoLoopAnalysisJob
 {
     AVAsset *_videoSource;
-    NSDictionary *_recipe;
 }
 
 - (id);
@@ -24,11 +23,10 @@
 - (id);
 - (void);
 - (id);
-- (void)lter:redEyeAdjustment: /* Error: Ran out of types for this method. */;
+- (void)performRedeyeOnImage:useHDRFilter:redEyeAdjustment: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *recipe; // @synthesize recipe=_recipe;
 @property(retain, nonatomic) AVAsset *videoSource; // @synthesize videoSource=_videoSource;
 
 @end

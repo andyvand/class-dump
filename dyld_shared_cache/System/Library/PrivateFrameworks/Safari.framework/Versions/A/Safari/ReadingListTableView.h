@@ -6,51 +6,35 @@
 
 #import <Safari/TableViewPlus.h>
 
-@class NSSearchField, NSString, NSTableCellView, SidebarSearchFieldView;
-@protocol ReadingListTableViewLiveResizeDelegate;
+@class NSTableCellView;
 
 __attribute__((visibility("hidden")))
 @interface ReadingListTableView : TableViewPlus
 {
     NSTableCellView *_lastCellView;
-    long long _highlightedRowIndex;
-    _Bool _handlingMouseDown;
-    SidebarSearchFieldView *_searchFieldView;
-    id <ReadingListTableViewLiveResizeDelegate> _liveResizeDelegate;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (long long);
-- (void);
+- (void)A;
 - (id);
 - (id);
 - (void);
 - (id);
 - (double);
 - (struct CGRect);
-- (void);
-- (id);
+- (void)vidingP;
+- (id);
 - (void)Ô;
 - (id)ÿÿ;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic, getter=isHandlingMouseDown) _Bool handlingMouseDown; // @synthesize handlingMouseDown=_handlingMouseDown;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long highlightedRowIndex; // @synthesize highlightedRowIndex=_highlightedRowIndex;
-@property(nonatomic) __weak id <ReadingListTableViewLiveResizeDelegate> liveResizeDelegate; // @synthesize liveResizeDelegate=_liveResizeDelegate;
-@property(readonly, retain, nonatomic) NSSearchField *searchField;
-@property(readonly, retain, nonatomic) SidebarSearchFieldView *searchFieldView;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,19 +6,11 @@
 
 #import <MetalTools/MTLToolsAccelerationStructureCommandEncoder.h>
 
-@class MTLAccelerationStructurePassDescriptor, MTLGPUDebugCommandBuffer;
-@protocol MTLFence, MTLLibrary;
+@class MTLGPUDebugCommandBuffer;
 
 @interface MTLGPUDebugAccelerationStructureCommandEncoder : MTLToolsAccelerationStructureCommandEncoder
 {
     MTLGPUDebugCommandBuffer *_commandBuffer;
-    struct list<resourceAndUsage, std::allocator<resourceAndUsage>> _resourceAndUsageList;
-    struct list<id<MTLHeap>, std::allocator<id<MTLHeap>>> _heapList;
-    MTLAccelerationStructurePassDescriptor *_accelerationStructurePassDescriptor;
-    id <MTLLibrary> _accelerationStructureSupportLibrary;
-    id <MTLFence> _serializationFence;
-    struct vector<id<MTLFence>, std::allocator<id<MTLFence>>> _fencesToUpdate;
-    struct vector<id<MTLFence>, std::allocator<id<MTLFence>>> _fencesToWaitFor;
 }
 
 - (void);
@@ -39,12 +31,13 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)hN;
 - (void);
 - (void);
 - (void);
@@ -57,8 +50,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)"	;
 - (void);
 - (void);
 - (void);

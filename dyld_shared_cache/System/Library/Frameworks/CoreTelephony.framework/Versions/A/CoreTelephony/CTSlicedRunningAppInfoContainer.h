@@ -11,11 +11,11 @@
     NSArray *_appsInfo;
 }
 
-+ (_Bool);
++ (_Bool)MERIC;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (void);
 - (id);
 - (void)a&ð!ð@ùqª)°1Â0@ù

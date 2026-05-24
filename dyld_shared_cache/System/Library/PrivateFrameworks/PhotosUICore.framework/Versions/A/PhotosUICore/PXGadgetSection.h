@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PXGadgetSpec;
+@class NSString;
 
 @interface PXGadgetSection
 {
     long long _changeCount;
-    NSString *_identifier;
-    NSArray *_gadgets;
-    PXGadgetSpec *_gadgetSpec;
 }
 
 - (void);
@@ -24,8 +21,6 @@
 - (void)StoryChromeLayoutSpec;
 
 // Remaining properties
-@property(retain, nonatomic) PXGadgetSpec *gadgetSpec; // @synthesize gadgetSpec=_gadgetSpec;
-@property(readonly, nonatomic) NSArray *gadgets; // @synthesize gadgets=_gadgets;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end

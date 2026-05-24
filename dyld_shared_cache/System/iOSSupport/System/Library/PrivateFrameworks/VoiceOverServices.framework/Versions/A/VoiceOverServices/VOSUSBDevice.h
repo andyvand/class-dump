@@ -9,35 +9,24 @@
 @interface VOSUSBDevice
 {
     NSString *_name;
-    NSString *_identifier;
-    NSString *_address;
 }
 
-- (void);
+- (void){;
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)SCRCategories_SCRCategoryStatus_SCRSpeechLanguages_default_SCRSpeechComponentSettings_SCRVolumeAsPercent;
+- (void)o base URL;
 - (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool)itField;
+- (_Bool)VOTEventCommandNextEditField;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *address; // @synthesize address=_address;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
 
 @end
 

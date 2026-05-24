@@ -4,24 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-@protocol AXEHIDDeviceDelegate;
-
 @interface AXEHIDDevice
 {
     _Bool _isLoaded;
-    _Bool __canceled;
-    id <AXEHIDDeviceDelegate> _delegate;
-    unsigned long long _vendorID;
-    unsigned long long _productID;
-    NSString *_manufacturer;
-    NSString *_product;
-    double __minX;
-    double __minY;
-    double __maxX;
-    double __maxY;
-    struct __IOHIDDevice *__hidDevice;
-    char *__hidReportBuffer;
 }
 
 + (id);
@@ -38,17 +23,17 @@
 - (void);
 - (double);
 - (double);
-- (double);
+- (double)	;
 - (double);
 - (id);
 - (char *);
 - (struct __IOHIDDevice *);
-- (void);
+- (void)(;
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)H;
 - (void);
 - (id);
 - (void);
@@ -63,20 +48,7 @@
 - (id)4;
 
 // Remaining properties
-@property(nonatomic) _Bool _canceled; // @synthesize _canceled=__canceled;
-@property(nonatomic) struct __IOHIDDevice *_hidDevice; // @synthesize _hidDevice=__hidDevice;
-@property(nonatomic) char *_hidReportBuffer; // @synthesize _hidReportBuffer=__hidReportBuffer;
-@property(nonatomic) double _maxX; // @synthesize _maxX=__maxX;
-@property(nonatomic) double _maxY; // @synthesize _maxY=__maxY;
-@property(nonatomic) double _minX; // @synthesize _minX=__minX;
-@property(nonatomic) double _minY; // @synthesize _minY=__minY;
-@property(nonatomic) __weak id <AXEHIDDeviceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy, nonatomic) NSDictionary *deviceInfo;
 @property(nonatomic) _Bool isLoaded; // @synthesize isLoaded=_isLoaded;
-@property(copy, nonatomic) NSString *manufacturer; // @synthesize manufacturer=_manufacturer;
-@property(copy, nonatomic) NSString *product; // @synthesize product=_product;
-@property(nonatomic) unsigned long long productID; // @synthesize productID=_productID;
-@property(nonatomic) unsigned long long vendorID; // @synthesize vendorID=_vendorID;
 
 @end
 

@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface CKBackgroundGalleryFetchRequest
 {
     long long _preferredSuggestionCount;
-    NSArray *_primaryExtensionIdentifiers;
-    NSArray *_fallbackExtensionIdentifiers;
 }
 
 - (void);
 - (void);
-- (id);
-- (long long);
-- (id);
-- (id);
-- (void);
-- (void)ickerContentProvider;
+- (id)a;
+- (long long)i;
+- (id)ntainer.;
+- (id)nt from remote file wrapper;
+- (void)#;
+- (void)TapbackPickerContentProvider;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *fallbackExtensionIdentifiers; // @synthesize fallbackExtensionIdentifiers=_fallbackExtensionIdentifiers;
 @property(nonatomic) long long preferredSuggestionCount; // @synthesize preferredSuggestionCount=_preferredSuggestionCount;
-@property(retain, nonatomic) NSArray *primaryExtensionIdentifiers; // @synthesize primaryExtensionIdentifiers=_primaryExtensionIdentifiers;
 
 @end
 

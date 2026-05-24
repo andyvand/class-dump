@@ -4,44 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDGmailLabelPersistence, EDMailboxPersistence, EDMessagePersistenceStatistics, EDMessageQueryParser, EDMessageTransformer, EDPersistenceDatabase, EDPersistenceHookRegistry, EMBlockedSenderManager, NSNumber, NSObject, NSString;
-@protocol EFSQLValueExpressable, EFScheduler, EMUserProfileProvider, EMVIPReader, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface EDMessagePersistence
 {
     int _cachedMetadataUpdatesSinceLastCheck;
-    EDMailboxPersistence *_mailboxPersistence;
-    EDMessagePersistenceStatistics *_persistenceStatistics;
-    NSObject<OS_dispatch_queue> *_cachedMetadataIsolation;
-    NSNumber *_cachedMetadataEstimatedRowCount;
-    EMBlockedSenderManager *_blockedSenderManager;
-    id <EMUserProfileProvider> _userProfileProvider;
-    id <EMVIPReader> _vipReader;
-    EDGmailLabelPersistence *_gmailLabelPersistence;
-    id <EFScheduler> _asyncPersistenceScheduler;
-    EDPersistenceHookRegistry *_hookRegistry;
-    EDPersistenceDatabase *_database;
-    EDMessageTransformer *_messageTransformer;
-    EDMessageQueryParser *_queryParser;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)_flagChange;
 + (void);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
++ (id)schedulerWithRecordDataSource: /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (long long)�;
 + (long long);
-+ (long long);
-+ (void);
++ (void)appleCalendarEvent_CalendarEventAttribute_CalendarEventAttributesTravelTime;
 + (id);
 + (id);
 + (id);
@@ -58,6 +45,8 @@
 + (id);
 + (id);
 + (id);
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -65,50 +54,48 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)bject"24;
 + (id);
 + (id);
 + (id);
 + (id);
 + (void);
-+ (id);
-+ (id);
++ (id)TLS:(id)arg1 initialPayload:(id)arg2 ];
++ (id)while parsing extended IE %u (HE TX MCS Map 160Mhz);
 + (id);
 + (id);
 + (id);
 + (id)!(Aù³Ð1Â0@ù
 × ;
-+ (id)es: /* Error: Ran out of types for this method. */;
++ (id)_dataSourceDeleteTombstones: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)=;
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool),;
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -128,12 +115,12 @@
 - (id);
 - (id);
 - (id);
+- (id)<@;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (_Bool);
@@ -149,25 +136,25 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
-- (CDStruct_7ad7028e);
+- (CDStruct_f4b747e6);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (long long);
+- (long long)BA9Ȃ;
 - (long long);
 - (long long);
 - (id);
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -197,7 +184,7 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -205,7 +192,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)R;
 - (id);
 - (id);
 - (id);
@@ -221,41 +208,16 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (void)ls;
+- (void)server_labels;
 - (id)¼;
 
 // Remaining properties
-@property(readonly, nonatomic) id <EFScheduler> asyncPersistenceScheduler; // @synthesize asyncPersistenceScheduler=_asyncPersistenceScheduler;
-@property(readonly, nonatomic) EMBlockedSenderManager *blockedSenderManager; // @synthesize blockedSenderManager=_blockedSenderManager;
-@property(retain, nonatomic) NSNumber *cachedMetadataEstimatedRowCount; // @synthesize cachedMetadataEstimatedRowCount=_cachedMetadataEstimatedRowCount;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *cachedMetadataIsolation; // @synthesize cachedMetadataIsolation=_cachedMetadataIsolation;
-@property(nonatomic) int cachedMetadataUpdatesSinceLastCheck; // @synthesize cachedMetadataUpdatesSinceLastCheck=_cachedMetadataUpdatesSinceLastCheck;
-@property(readonly, nonatomic) EDPersistenceDatabase *database; // @synthesize database=_database;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <EFSQLValueExpressable> expressionForFilteringUnavailableMessages;
-@property(readonly, nonatomic) id <EFSQLValueExpressable> expressionForFilteringUnavailableMessagesFromCount;
-@property(readonly, nonatomic) id <EFSQLValueExpressable> expressionForFilteringUnavailableMessagesFromCountForGlobalMessageQuery;
-@property(readonly, nonatomic) id <EFSQLValueExpressable> expressionForFindingOnlyJournaledMessages;
-@property(readonly, nonatomic) EDGmailLabelPersistence *gmailLabelPersistence; // @synthesize gmailLabelPersistence=_gmailLabelPersistence;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) EDPersistenceHookRegistry *hookRegistry; // @synthesize hookRegistry=_hookRegistry;
-@property(readonly, nonatomic) __weak EDMailboxPersistence *mailboxPersistence; // @synthesize mailboxPersistence=_mailboxPersistence;
-@property(retain, nonatomic) EDMessageTransformer *messageTransformer; // @synthesize messageTransformer=_messageTransformer;
-@property(readonly, nonatomic) EDMessagePersistenceStatistics *persistenceStatistics; // @synthesize persistenceStatistics=_persistenceStatistics;
-@property(retain, nonatomic) EDMessageQueryParser *queryParser; // @synthesize queryParser=_queryParser;
-@property(readonly) unsigned long long signpostID;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <EMUserProfileProvider> userProfileProvider; // @synthesize userProfileProvider=_userProfileProvider;
-@property(readonly, nonatomic) id <EMVIPReader> vipReader; // @synthesize vipReader=_vipReader;
 
 @end
 

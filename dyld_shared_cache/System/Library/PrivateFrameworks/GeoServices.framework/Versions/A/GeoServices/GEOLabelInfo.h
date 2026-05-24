@@ -4,56 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOFormattedString, GEOPBTransitArtwork, GEOStyleAttributes, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOLabelInfo
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOFormattedString *_detail;
-    GEOPBTransitArtwork *_iconArtwork;
-    GEOStyleAttributes *_labelStyleAttributes;
-    GEOFormattedString *_title;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_detail:1;
-        unsigned int read_iconArtwork:1;
-        unsigned int read_labelStyleAttributes:1;
-        unsigned int read_title:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)umber:(id)arg1;
++ (_Bool)setHasSequenceNumber:(id)arg1;
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (_Bool)B24;
+- (_Bool)"NSURLSessionTask"24@"NSError"32;
+- (_Bool)skipUntil: /* Error: Ran out of types for this method. */;
+- (void)NCFStringRef;
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
+- (void);
+- (id)_speechControllerDidStartRecording:successfully:error:] /* Error: Ran out of types for this method. */;
+- (void)>`	;
 - (id);
 - (unsigned long long);
-- (void);
+- (void)#;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)nView",R,W,N,V_clusterAnnotationView;
+- (_Bool)-;
 - (id);
 - (void);
 - (void)0@ù
 × ;
-- (id)Id:(struct _NSZone *)arg1;
+- (id)setOccurrenceRouteId:(struct _NSZone *)arg1;
 - (id)StringAsLocationCadence: /* Error: Ran out of types for this method. */;
 - (id).
  Publisher hasPublisherId:%s, hasVendorId:%s /* Error: Ran out of types for this method. */;
@@ -62,15 +46,7 @@
 - (void)TY4;
 
 // Remaining properties
-@property(retain, nonatomic) GEOFormattedString *detail;
-@property(readonly, nonatomic) _Bool hasDetail;
-@property(readonly, nonatomic) _Bool hasIconArtwork;
-@property(readonly, nonatomic) _Bool hasLabelStyleAttributes;
 @property(readonly, nonatomic) _Bool hasTitle;
-@property(retain, nonatomic) GEOPBTransitArtwork *iconArtwork;
-@property(retain, nonatomic) GEOStyleAttributes *labelStyleAttributes;
-@property(retain, nonatomic) GEOFormattedString *title;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

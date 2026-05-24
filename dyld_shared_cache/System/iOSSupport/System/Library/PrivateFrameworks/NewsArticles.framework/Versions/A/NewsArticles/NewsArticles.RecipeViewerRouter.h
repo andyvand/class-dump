@@ -7,8 +7,6 @@
 @interface NewsArticles.RecipeViewerRouter
 {
     id controller;
-    id resolver;
-    id tracker;
 }
 
 @end

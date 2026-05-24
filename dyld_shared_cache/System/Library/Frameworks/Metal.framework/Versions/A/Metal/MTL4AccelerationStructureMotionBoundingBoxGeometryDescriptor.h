@@ -9,8 +9,6 @@
 @interface MTL4AccelerationStructureMotionBoundingBoxGeometryDescriptor : MTL4AccelerationStructureGeometryDescriptor
 {
     unsigned long long _boundingBoxCount;
-    unsigned long long _boundingBoxStride;
-    struct MTL4BufferRange _boundingBoxBuffers;
 }
 
 - (void);
@@ -24,13 +22,11 @@
 - (unsigned long long);
 - (id);
 - (long long);
-- (_Bool);
+- (_Bool)];
 - (id);
 
 // Remaining properties
 @property(nonatomic) struct MTL4BufferRange boundingBoxBuffers; // @synthesize boundingBoxBuffers=_boundingBoxBuffers;
-@property(nonatomic) unsigned long long boundingBoxCount; // @synthesize boundingBoxCount=_boundingBoxCount;
-@property(nonatomic) unsigned long long boundingBoxStride; // @synthesize boundingBoxStride=_boundingBoxStride;
 
 @end
 

@@ -7,10 +7,12 @@
 @class NSArray, NSData;
 
 @protocol MDLSkinDeformerComponent
+- (CDStruct_34f00414)sessionsItemIds.sessionId AND sessions.sessionDescriptorId = (SELECT id FROM sessionsDescriptors WHERE name = :name AND version = :version AND locale = :locale) AND sessionsItemIds.lastUsed <= :lastUsedMax AND sessionsItemIds.timesAccessed < :timesUsedMax AND sessions.id > :rowId %@ ORDER BY sessions.id limit :limit /* Error: Ran out of types for this method. */;
+- (NSArray *)EVALUATION_POINTS;
+- (NSData *)MULTI_LABEL_REGRESSION_MODEL_TYPE;
+- (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jointBindTransforms;
 @property(readonly, nonatomic) NSArray *jointPaths;
-@property(readonly, nonatomic) CDStruct_95fa7c00 meshBindTransform;
 @end
 

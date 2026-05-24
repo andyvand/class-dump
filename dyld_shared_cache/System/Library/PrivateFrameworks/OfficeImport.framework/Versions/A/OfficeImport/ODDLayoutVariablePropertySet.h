@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface ODDLayoutVariablePropertySet : OADProperties
 {
     int mDirection;
-    _Bool mHasDirection;
 }
 
 + (id);

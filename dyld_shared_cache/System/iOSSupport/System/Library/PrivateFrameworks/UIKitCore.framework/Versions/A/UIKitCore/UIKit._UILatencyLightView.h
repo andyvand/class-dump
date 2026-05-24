@@ -13,7 +13,7 @@
 
 - (id);
 - (void);
-- (void)eCellsRecords;
+- (void)updateVisibleCellsRecords;
 - (void)¹l;
 
 @end

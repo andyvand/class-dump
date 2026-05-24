@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface APPCContentDepiction
 {
     void identifier;
-    unsigned long long adjacentPosition;
-    long long placement;
-    void language;
-    void locale;
-    void searchTerms;
-    void keywords;
-    void categories;
 }
 
 - (id);
@@ -32,14 +25,7 @@
 - (long long)T#,R;
 
 // Remaining properties
-@property(nonatomic, readonly) unsigned long long adjacentPosition; // @synthesize adjacentPosition;
-@property(nonatomic, readonly) NSArray *categories;
 @property(nonatomic, readonly) NSString *identifier;
-@property(nonatomic, readonly) NSArray *keywords;
-@property(nonatomic, readonly) NSString *language;
-@property(nonatomic, readonly) NSString *locale;
-@property(nonatomic, readonly) long long placement; // @synthesize placement;
-@property(nonatomic, readonly) NSArray *searchTerms;
 
 @end
 

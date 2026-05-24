@@ -4,30 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLayoutDimension, NSMapTable, NSMutableArray, NSMutableDictionary, NSStackViewContainer;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface _NSStackViewPrivateData
 {
     NSArray *views;
-    NSArray *detachedViews;
-    NSMutableArray *viewsDetachedWithDeferredNotifications;
-    NSMutableArray *viewsReattachedWithDeferredNotifications;
-    NSStackViewContainer *leadingOrTopViewsManager;
-    NSStackViewContainer *centerViewsManager;
-    NSStackViewContainer *trailingOrBottomViewsManager;
-    long long distribution;
-    NSMutableDictionary *stackConstraintsDictionary;
-    NSLayoutDimension *idealSizeLayoutDimension;
-    float alignmentPriority;
-    NSMapTable *overriddenHoldingPriorities;
-    struct {
-        unsigned int stackViewShouldNotAddConstraints:1;
-        unsigned int stackViewFinishedDecoding:1;
-        unsigned int stackViewDecodedWantingFlatHierarchy:1;
-        unsigned int finishedFirstUpdateConstraintsPass:1;
-        unsigned int reserved:28;
-    } _svFlags;
 }
 
 - (void);

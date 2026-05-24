@@ -5,5 +5,6 @@
 //
 
 @protocol CNDonationAccountLogger
+- (void);
 @end
 

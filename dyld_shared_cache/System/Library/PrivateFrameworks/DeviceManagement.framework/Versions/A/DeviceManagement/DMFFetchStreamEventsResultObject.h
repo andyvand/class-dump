@@ -14,10 +14,10 @@
 + (_Bool);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)qA;
+- (void)collectionView:draggingImageForItemsAtIndexes:withEvent:offset: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *eventStatuses; // @synthesize eventStatuses=_eventStatuses;

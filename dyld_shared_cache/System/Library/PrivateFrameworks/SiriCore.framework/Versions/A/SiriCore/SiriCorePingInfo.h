@@ -9,20 +9,17 @@
 @interface SiriCorePingInfo
 {
     NSMapTable *_outstandingPings;
-    long long _pingAcknowledgedCount;
-    double _avgPingTime;
 }
 
-- (long long);
-- (unsigned long long);
-- (void);
-- (void);
-- (double);
-- (id);
+- (long long)BiomeSearchQuery;
+- (unsigned long long)QueryComponentCs;
+- (void):(long long)arg1 displayEnded reason:%ld sections:%lu /* Error: Ran out of types for this method. */;
+- (void)d sections:(long long)arg1 %lu;
+- (double)%p %@];
+- (id)*;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double avgPingTime; // @synthesize avgPingTime=_avgPingTime;
 @property(readonly, nonatomic) long long pingAcknowledgedCount; // @synthesize pingAcknowledgedCount=_pingAcknowledgedCount;
 
 @end

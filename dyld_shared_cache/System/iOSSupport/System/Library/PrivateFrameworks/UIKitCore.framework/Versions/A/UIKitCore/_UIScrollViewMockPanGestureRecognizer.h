@@ -10,20 +10,17 @@ __attribute__((visibility("hidden")))
 @interface _UIScrollViewMockPanGestureRecognizer
 {
     struct CGPoint _translation;
-    struct CGPoint _velocity;
-    long long _state;
-    UIScrollViewPanGestureRecognizer *_gestureRecognizer;
 }
 
-- (void);
+- (void);
 - (void);
 - (id);
 - (struct CGPoint);
 - (void)±\ð1Â0@ù
 × ;
 - (long long);
-- (struct CGPoint)String:(id)arg1;
-- (void)e:(id)arg1 privateStyle: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)setClearAllString:(id)arg1;
+- (void)initWithFrame:(id)arg1 privateStyle: /* Error: Ran out of types for this method. */;
 - (void) 13;
 - (id)r;
 - (struct CGPoint)(;

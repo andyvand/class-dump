@@ -9,32 +9,22 @@
 @interface GEORouteLegRange
 {
     PBUnknownFields *_unknownFields;
-    unsigned int _endValidDistanceOffsetCm;
-    unsigned int _endValidSegmentIndex;
-    unsigned int _startValidDistanceOffsetCm;
-    unsigned int _startValidSegmentIndex;
-    struct {
-        unsigned int has_endValidDistanceOffsetCm:1;
-        unsigned int has_endValidSegmentIndex:1;
-        unsigned int has_startValidDistanceOffsetCm:1;
-        unsigned int has_startValidSegmentIndex:1;
-    } _flags;
 }
 
-+ (_Bool)ttingsLabelEnabled:(id)arg1;
++ (_Bool)setMapSettingsLabelEnabled:(id)arg1;
 - (unsigned int);
 - (unsigned int);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)n;
+- (_Bool)"<CNOpenDirectoryFacade>",&,D;
+- (_Bool)or all entries (%p):account URLs:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)-Fall-2022 app;
 - (unsigned int);
 - (unsigned int);
 - (void);
@@ -43,28 +33,20 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)_keywordDetector;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)"b1"read_mapsAbClientMetadata"b1"read_parsecClientMetadata"b1"read_rapClientMetadata"b1"read_requestGuid"b1"read_siriClientMetadata"b1"read_sourceURL"b1"wrote_anyField"b1};
-- (id)yticsOptOut;
-- (id)PDSTransportHint;
+- (id)hasAnalyticsOptOut;
+- (id)GEOPDSTransportHint;
 - (id)^B24;
 - (void)Ä_ÍP@;
 
 // Remaining properties
-@property(nonatomic) unsigned int endValidDistanceOffsetCm;
-@property(nonatomic) unsigned int endValidSegmentIndex;
-@property(nonatomic) _Bool hasEndValidDistanceOffsetCm;
-@property(nonatomic) _Bool hasEndValidSegmentIndex;
-@property(nonatomic) _Bool hasStartValidDistanceOffsetCm;
 @property(nonatomic) _Bool hasStartValidSegmentIndex;
-@property(nonatomic) unsigned int startValidDistanceOffsetCm;
-@property(nonatomic) unsigned int startValidSegmentIndex;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

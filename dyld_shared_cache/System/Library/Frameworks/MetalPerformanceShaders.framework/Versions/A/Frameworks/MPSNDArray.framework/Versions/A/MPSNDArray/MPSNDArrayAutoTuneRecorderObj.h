@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileManager, NSMutableDictionary, NSString, NSURL;
+@class NSMutableDictionary;
 
 @interface MPSNDArrayAutoTuneRecorderObj
 {
     NSMutableDictionary *_nodeDictionary;
-    NSFileManager *_fileManager;
-    NSString *_modelFileArchivePath;
-    NSURL *_autoTuneNodesDirURL;
 }
 
 - (void);

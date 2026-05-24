@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, SPDataIntegrityCheck, SPSharedSecretsDataCheck;
+@class SPDataIntegrityCheck;
 
 @interface SPMemberCircleDataIntegrity
 {
     SPDataIntegrityCheck *_circleRecord;
-    SPDataIntegrityCheck *_sharedBeaconRecord;
-    SPDataIntegrityCheck *_sharedBeaconNameRecord;
-    SPDataIntegrityCheck *_sharedBeaconOwnerName;
-    NSArray *_peerTrusts;
-    SPSharedSecretsDataCheck *_sharedSecrets;
-    SPDataIntegrityCheck *_keySyncRecord;
-    NSArray *_observations;
-    NSArray *_itemSharingKey;
-    NSArray *_estimatedLocations;
 }
 
 + (_Bool);
@@ -33,31 +24,22 @@
 - (void);
 - (void);
 - (void);
+- (void)	Li;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void)-e¸;
-- (id);
-- (id);
 - (void);
-- (id);
+- (id)MessagesCompression;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) SPDataIntegrityCheck *circleRecord; // @synthesize circleRecord=_circleRecord;
-@property(copy, nonatomic) NSArray *estimatedLocations; // @synthesize estimatedLocations=_estimatedLocations;
-@property(copy, nonatomic) NSArray *itemSharingKey; // @synthesize itemSharingKey=_itemSharingKey;
-@property(copy, nonatomic) SPDataIntegrityCheck *keySyncRecord; // @synthesize keySyncRecord=_keySyncRecord;
-@property(copy, nonatomic) NSArray *observations; // @synthesize observations=_observations;
-@property(copy, nonatomic) NSArray *peerTrusts; // @synthesize peerTrusts=_peerTrusts;
-@property(copy, nonatomic) SPDataIntegrityCheck *sharedBeaconNameRecord; // @synthesize sharedBeaconNameRecord=_sharedBeaconNameRecord;
-@property(copy, nonatomic) SPDataIntegrityCheck *sharedBeaconOwnerName; // @synthesize sharedBeaconOwnerName=_sharedBeaconOwnerName;
-@property(copy, nonatomic) SPDataIntegrityCheck *sharedBeaconRecord; // @synthesize sharedBeaconRecord=_sharedBeaconRecord;
-@property(copy, nonatomic) SPSharedSecretsDataCheck *sharedSecrets; // @synthesize sharedSecrets=_sharedSecrets;
 
 @end
 

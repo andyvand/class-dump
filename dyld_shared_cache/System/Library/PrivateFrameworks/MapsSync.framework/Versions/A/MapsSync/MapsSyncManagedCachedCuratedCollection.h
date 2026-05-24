@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString, NSUUID;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface MapsSyncManagedCachedCuratedCollection
@@ -16,21 +16,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic, copy) NSString *collectionDescription; // @dynamic collectionDescription;
-@property(nonatomic, copy) NSDate *createTime; // @dynamic createTime;
-@property(nonatomic) long long curatedCollectionIdentifier; // @dynamic curatedCollectionIdentifier;
-@property(nonatomic, copy) NSUUID *identifier; // @dynamic identifier;
-@property(nonatomic, copy) NSData *image; // @dynamic image;
-@property(nonatomic, copy) NSString *imageUrl; // @dynamic imageUrl;
-@property(nonatomic) _Bool isTombstone; // @dynamic isTombstone;
-@property(nonatomic, copy) NSDate *lastFetchedDate; // @dynamic lastFetchedDate;
-@property(nonatomic, copy) NSDate *lastSignificantChangeDate; // @dynamic lastSignificantChangeDate;
-@property(nonatomic, copy) NSDate *modificationTime; // @dynamic modificationTime;
-@property(nonatomic) int placesCount; // @dynamic placesCount;
-@property(nonatomic) long long positionIndex; // @dynamic positionIndex;
-@property(nonatomic, copy) NSString *publisherAttribution; // @dynamic publisherAttribution;
-@property(nonatomic) int resultProviderIdentifier; // @dynamic resultProviderIdentifier;
-@property(nonatomic, copy) NSString *title; // @dynamic title;
-@property(nonatomic, copy) NSString *titleLocale; // @dynamic titleLocale;
 
 @end
 

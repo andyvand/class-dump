@@ -5,5 +5,6 @@
 //
 
 @protocol PGCoordinatableSuggester
+- (void)tionIFvvEEENS_9allocatorIS6_EEEERK13TFENodeVectorRKNS3_I7TStringNS7_ISE_EEEEbbP6NSData16VerifyAuditTokenbP19FI_TRenameOperationE3$_1S5_EE;
 @end
 

@@ -7,19 +7,11 @@
 @interface RemindersUICore.TTRMReminderCellAttachmentCollectionViewController
 {
     id presenter;
-    id scrollView;
-    id collectionView;
-    id linkItemSize;
-    id hidesClippedItems;
-    id linkItemSizeClass;
-    id dynamicTypeSizeObserver;
-    id imageSizeCancellable;
-    id imageSizeCache;
 }
 
-- (void);
-- (id);
-- (void);
+- (void)alLoadForFrame:(id)arg1;
+- (id)stMessage(showSmartReplySuggestions))};;
+- (void)decodeObjectOfClass:(id)arg1 forKey: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -29,12 +21,12 @@
 - (void);
 - (struct CGRect);
 - (_Bool);
-- (struct CGSize);
+- (struct CGSize)3;
 - (void);
 - (id);
 - (void);
 - (long long);
-- (long long);
+- (long long)`;
 - (long long);
 - (id);
 - (void);

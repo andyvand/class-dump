@@ -4,30 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol LACContextExternalizing;
-
 @interface ACMContextRecord
 {
     unsigned int _passphrasePurpose;
-    struct __ACMHandle *_context;
-    id <LACContextExternalizing> _contextExternalizer;
-    unsigned long long _flags;
 }
 
-- (id);
-- (id);
+- (id)remainingGroupStrokes:(struct __ACMHandle *)arg1 remainingStrokes:(id)arg2 strokeProvider: /* Error: Ran out of types for this method. */;
+- (id)_coalescedLastSubstrokes;
 - (struct __ACMHandle *);
 - (void);
 - (unsigned long long);
 - (void);
-- (unsigned int);
+- (unsigned int)P;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) struct __ACMHandle *context; // @synthesize context=_context;
-@property(readonly, nonatomic) __weak id <LACContextExternalizing> contextExternalizer; // @synthesize contextExternalizer=_contextExternalizer;
-@property(nonatomic) unsigned long long flags; // @synthesize flags=_flags;
-@property(nonatomic) unsigned int passphrasePurpose; // @synthesize passphrasePurpose=_passphrasePurpose;
 
 @end
 

@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBSSceneClientIdentity, FBSSceneClientSettings, FBSSceneSettings, FBSSceneSpecification, FBSSceneTransitionContext, NSString;
-
 @interface FBSWorkspaceSceneRequestOptions
 {
     _Bool _keyboardScene;
-    _Bool _clientFuture;
-    NSString *_identifier;
-    NSString *_workspaceIdentifier;
-    FBSSceneClientIdentity *_clientIdentity;
-    FBSSceneSpecification *_specification;
-    FBSSceneClientSettings *_initialClientSettings;
-    FBSSceneTransitionContext *_transitionContext;
-    FBSSceneSettings *_initialSettings;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (void);
 - (void);
@@ -27,9 +17,9 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)v24@0:(_Bool)arg1 8@?16;
 - (id);
-- (void);
+- (void)_sessionIDCounter;
 - (void);
 - (id);
 - (id);
@@ -39,27 +29,12 @@
 - (void);
 - (_Bool)!t@ù)Ð1Â0@ù
 × ;
-- (_Bool)ettings;
+- (_Bool)_changedLegacySettings;
 - (id);
 - (id)@?0@"BSProcessHandle"8@"NSError"16;
 
 // Remaining properties
 @property(nonatomic, getter=isClientFuture) _Bool clientFuture; // @synthesize clientFuture=_clientFuture;
-@property(copy, nonatomic) FBSSceneClientIdentity *clientIdentity; // @synthesize clientIdentity=_clientIdentity;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) FBSSceneClientSettings *initialClientSettings; // @synthesize initialClientSettings=_initialClientSettings;
-@property(retain, nonatomic) FBSSceneSettings *initialSettings; // @synthesize initialSettings=_initialSettings;
-@property(nonatomic, getter=isKeyboardScene) _Bool keyboardScene; // @synthesize keyboardScene=_keyboardScene;
-@property(copy, nonatomic) FBSSceneSpecification *specification; // @synthesize specification=_specification;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) FBSSceneTransitionContext *transitionContext; // @synthesize transitionContext=_transitionContext;
-@property(copy, nonatomic) NSString *workspaceIdentifier; // @synthesize workspaceIdentifier=_workspaceIdentifier;
 
 @end
 

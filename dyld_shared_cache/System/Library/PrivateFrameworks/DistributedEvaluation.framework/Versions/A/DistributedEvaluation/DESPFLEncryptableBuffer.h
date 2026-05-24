@@ -9,13 +9,12 @@
     unsigned long long _count;
 }
 
-- (float *);
+- (float *)arameterConfirmation.item.collection.values.primitive.app.bundleId;
+- (id)mentResults.payload.outcome.parameterConfirmation.item.value.enumeration.typeIdentifier.custom.bundleId;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)lts %@;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count; // @synthesize count=_count;
 @property(readonly, nonatomic) float *mutableDataNumbers;
 
 @end

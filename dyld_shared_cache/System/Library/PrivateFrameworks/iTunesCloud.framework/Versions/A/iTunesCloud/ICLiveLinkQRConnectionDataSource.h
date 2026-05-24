@@ -4,25 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICSharedListeningConnectionReport, IDSAccount, IDSPseudonym, IDSService, MSVTimer, NSDictionary, NSObject, NSString, NSURL, NSUUID;
-@protocol OS_dispatch_queue;
+@class IDSService;
 
 __attribute__((visibility("hidden")))
 @interface ICLiveLinkQRConnectionDataSource
 {
     IDSService *_service;
-    IDSAccount *_account;
-    NSUUID *_groupSessionIdentifier;
-    NSDictionary *_groupSessionOptions;
-    NSURL *_sharedListeningSessionInviteURL;
-    NSString *_sharedListeningSessionIdentifier;
-    NSString *_sharedSessionToken;
-    ICSharedListeningConnectionReport *_report;
-    CDUnknownBlockType _dataSourceErrorHandler;
-    IDSPseudonym *_pseudonym;
-    MSVTimer *_pseudonymRenewalTimer;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSString *_externalIdentifier;
 }
 
 + (id);
@@ -51,49 +38,26 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void);
+- (id)NAnimationPlayer"24@0:8@"NSString"16 /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
-- (id):completionHandler: /* Error: Ran out of types for this method. */;
-- (void)ountNotificationsSettingsManager;
+- (id)importCloudAlbumArtworkForPersistentID:artworkVariantType:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)ICMusicAccountNotificationsSettingsManager;
 - (void)ï1
 ;
 
 // Remaining properties
-@property(retain, nonatomic) IDSAccount *account; // @synthesize account=_account;
-@property(readonly, nonatomic) NSString *applicationProtocol;
-@property(copy, nonatomic) CDUnknownBlockType dataSourceErrorHandler; // @synthesize dataSourceErrorHandler=_dataSourceErrorHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSString *externalIdentifier; // @synthesize externalIdentifier=_externalIdentifier;
-@property(retain, nonatomic) NSUUID *groupSessionIdentifier; // @synthesize groupSessionIdentifier=_groupSessionIdentifier;
-@property(retain, nonatomic) NSDictionary *groupSessionOptions; // @synthesize groupSessionOptions=_groupSessionOptions;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *pluginIdentifier;
-@property(retain, nonatomic) IDSPseudonym *pseudonym; // @synthesize pseudonym=_pseudonym;
-@property(retain, nonatomic) MSVTimer *pseudonymRenewalTimer; // @synthesize pseudonymRenewalTimer=_pseudonymRenewalTimer;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) __weak ICSharedListeningConnectionReport *report; // @synthesize report=_report;
-@property(readonly, nonatomic) NSString *rpcPath;
 @property(retain, nonatomic) IDSService *service; // @synthesize service=_service;
-@property(copy, nonatomic) NSString *sharedListeningSessionIdentifier; // @synthesize sharedListeningSessionIdentifier=_sharedListeningSessionIdentifier;
-@property(retain, nonatomic) NSURL *sharedListeningSessionInviteURL; // @synthesize sharedListeningSessionInviteURL=_sharedListeningSessionInviteURL;
-@property(retain, nonatomic) NSString *sharedSessionToken; // @synthesize sharedSessionToken=_sharedSessionToken;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CDUnknownBlockType trustHandler;
 
 @end
 

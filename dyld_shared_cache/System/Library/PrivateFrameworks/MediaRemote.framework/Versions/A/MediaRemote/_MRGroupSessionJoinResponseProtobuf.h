@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _MRGroupSessionJoinResponseProtobuf
 {
     NSString *_joinURL;
-    NSData *_publicSigningKeyData;
 }
 
 - (void);
 - (void);
 - (id);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -26,14 +25,11 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void)atchingEndpointsFound;
+- (id)disablePersistentIDLoggingHomePod;
+- (void)_matchingEndpointsFound;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasJoinURL;
 @property(readonly, nonatomic) _Bool hasPublicSigningKeyData;
-@property(retain, nonatomic) NSString *joinURL; // @synthesize joinURL=_joinURL;
-@property(retain, nonatomic) NSData *publicSigningKeyData; // @synthesize publicSigningKeyData=_publicSigningKeyData;
 
 @end
 

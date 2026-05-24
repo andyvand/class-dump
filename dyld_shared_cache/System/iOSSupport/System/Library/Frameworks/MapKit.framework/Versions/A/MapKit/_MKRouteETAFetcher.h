@@ -4,26 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOAutomobileOptions, GEOCyclingOptions, GEOTransitOptions, GEOWalkingOptions, MKDirections, MKMapItem, NSMutableDictionary;
+@class GEOAutomobileOptions, NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface _MKRouteETAFetcher
 {
     NSMutableDictionary *_etaResults;
-    struct CLLocationCoordinate2D _lastUpdatedETAOriginCoordinate;
-    double _lastUpdatedETATime;
-    double _lastRequestTime;
-    MKDirections *_inProgressETAUpdate;
-    _Bool _lastETAUpdateHadError;
-    double _staleDistance;
-    double _staleTimeInterval;
-    _Bool _optionsHaveChangedSinceLastUpdate;
-    MKMapItem *_mapItem;
-    MKMapItem *_originMapItem;
-    GEOAutomobileOptions *_automobileOptions;
-    GEOWalkingOptions *_walkingOptions;
-    GEOTransitOptions *_transitOptions;
-    GEOCyclingOptions *_cyclingOptions;
 }
 
 - (_Bool);
@@ -38,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (struct CLLocationCoordinate2D);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -48,22 +34,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (void);
 - (void);
-- (void);
-- (void)tion:start:end: /* Error: Ran out of types for this method. */;
+- (void)initWithEtaDescription:start:end: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) GEOAutomobileOptions *automobileOptions; // @synthesize automobileOptions=_automobileOptions;
-@property(copy, nonatomic) GEOCyclingOptions *cyclingOptions; // @synthesize cyclingOptions=_cyclingOptions;
-@property(readonly, nonatomic) struct CLLocationCoordinate2D destinationCoordinate;
-@property(readonly, nonatomic) NSMutableDictionary *etaResults; // @synthesize etaResults=_etaResults;
-@property(retain, nonatomic) MKMapItem *mapItem; // @synthesize mapItem=_mapItem;
-@property(readonly, nonatomic) struct CLLocationCoordinate2D originCoordinate;
-@property(retain, nonatomic) MKMapItem *originMapItem; // @synthesize originMapItem=_originMapItem;
-@property(copy, nonatomic) GEOTransitOptions *transitOptions; // @synthesize transitOptions=_transitOptions;
-@property(copy, nonatomic) GEOWalkingOptions *walkingOptions; // @synthesize walkingOptions=_walkingOptions;
 
 @end
 

@@ -11,7 +11,7 @@
 }
 
 + (id);
-- (id);
+- (id)xpcUnsafeSendMessageWithData:proxy:completionHandler: /* Error: Ran out of types for this method. */;
 
 @end
 

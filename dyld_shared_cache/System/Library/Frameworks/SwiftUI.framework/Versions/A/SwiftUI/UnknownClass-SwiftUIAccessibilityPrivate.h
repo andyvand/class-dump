@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, SwiftUI.AccessibilityNode;
-
 @interface UnknownClass (SwiftUIAccessibilityPrivate)
 + (_Bool);
 - (id);
@@ -16,14 +14,11 @@
 - (void);
 - (void);
 - (id);
-- (long long);
+- (long long);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool _accessibilityAllowsAutomationElements;
-@property(nonatomic, retain) SwiftUI.AccessibilityNode *accessibilityNodeForPlatformElement;
-@property(retain, nonatomic) NSAttributedString *swiftUI_accessibilityStoredLabel;
 @property(retain, nonatomic) id swiftUI_accessibilityStoredLinkRotor;
 @end
 

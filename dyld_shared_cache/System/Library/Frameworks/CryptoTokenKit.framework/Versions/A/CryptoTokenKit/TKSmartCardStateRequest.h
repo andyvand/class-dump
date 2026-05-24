@@ -8,26 +8,20 @@ __attribute__((visibility("hidden")))
 @interface TKSmartCardStateRequest
 {
     unsigned long long _activeStateNotifications;
-    long long _stateWhenRequested;
-    CDUnknownBlockType _replyNextState;
-    CDUnknownBlockType _replyFlushedState;
 }
 
 - (long long);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (unsigned long long);
-- (void);
+- (void):) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property unsigned long long activeStateNotifications; // @synthesize activeStateNotifications=_activeStateNotifications;
-@property(copy) CDUnknownBlockType replyFlushedState; // @synthesize replyFlushedState=_replyFlushedState;
-@property(copy) CDUnknownBlockType replyNextState; // @synthesize replyNextState=_replyNextState;
-@property long long stateWhenRequested; // @synthesize stateWhenRequested=_stateWhenRequested;
 
 @end
 

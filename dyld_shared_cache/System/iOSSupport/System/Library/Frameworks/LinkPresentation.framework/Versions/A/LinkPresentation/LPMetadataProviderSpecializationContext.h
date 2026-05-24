@@ -4,32 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPEvent, NSString, NSURL, WKWebView;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface LPMetadataProviderSpecializationContext
 {
     _Bool _hasLoadedResource;
-    _Bool _shouldFetchSubresources;
-    _Bool _fetchIsNotUserInitiated;
-    NSURL *_originalURL;
-    NSURL *_postRedirectURL;
-    NSString *_MIMEType;
-    WKWebView *_webView;
-    unsigned long long _allowedSpecializations;
-    LPEvent *_event;
-    CDUnknownBlockType _eventGenerator;
 }
 
 - (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (CDUnknownBlockType);
-- (void);
-- (unsigned long long);
-- (id);
+- (void)tiInputContextHistory;
+- (id)tapbackPileExistsForParentChatItemGUID:(id)arg1;
+- (_Bool)tailedBubble;
+- (_Bool)tableView:shouldSpringLoadRowAtIndexPath:withContext: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)tableView:sectionForSectionIndexTitle:atIndex: /* Error: Ran out of types for this method. */;
+- (void)tableView:(unsigned long long)arg1 performPrimaryActionForRowAtIndexPath: /* Error: Ran out of types for this method. */;
+- (unsigned long long)swiftBanner;
+- (id): /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -38,16 +29,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *MIMEType; // @synthesize MIMEType=_MIMEType;
-@property(readonly, nonatomic) unsigned long long allowedSpecializations; // @synthesize allowedSpecializations=_allowedSpecializations;
-@property(retain, nonatomic) LPEvent *event; // @synthesize event=_event;
-@property(copy, nonatomic) CDUnknownBlockType eventGenerator; // @synthesize eventGenerator=_eventGenerator;
-@property(readonly, nonatomic) _Bool fetchIsNotUserInitiated; // @synthesize fetchIsNotUserInitiated=_fetchIsNotUserInitiated;
-@property(readonly, nonatomic) _Bool hasLoadedResource; // @synthesize hasLoadedResource=_hasLoadedResource;
 @property(readonly, copy, nonatomic) NSURL *originalURL; // @synthesize originalURL=_originalURL;
-@property(readonly, copy, nonatomic) NSURL *postRedirectURL; // @synthesize postRedirectURL=_postRedirectURL;
-@property(readonly, nonatomic) _Bool shouldFetchSubresources; // @synthesize shouldFetchSubresources=_shouldFetchSubresources;
-@property(readonly, retain, nonatomic) WKWebView *webView; // @synthesize webView=_webView;
 
 @end
 

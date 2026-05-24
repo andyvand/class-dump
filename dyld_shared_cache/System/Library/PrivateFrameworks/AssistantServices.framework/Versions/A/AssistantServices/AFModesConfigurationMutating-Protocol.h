@@ -5,5 +5,8 @@
 //
 
 @protocol AFModesConfigurationMutating
+- (void)0;
+- (void);
+- (void)+;
 @end
 

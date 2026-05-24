@@ -6,15 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber, NSString;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIImageWriter : CIFilter
 {
     CIImage *inputImage;
-    NSString *inputFilename;
-    NSNumber *inputShouldDumpInputValues;
-    CIFilter *inputOriginalFilter;
 }
 
 + (id);
@@ -23,16 +20,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id)Jc`o}}}}xxxxed^eH^Vg||||l{}zv~{{y^ojvppnpmmmmLfaoQkhtjrqtdlinYf`mitr{~|v~{|v~izxjkaz^wr¡¡¡¡¤¤¤¤xjtpxnnnnXnmnuuuu~~~~kkikPN?T 9%JCRFWnnnnkvuyXpl    ^{y{{y{yyyyyyyypppp\\Rdajdodrpr[d]iZgblmtttvvvvppppiiiiX`Xfpnkps~ozw_so{ooooLVK\ML>QY[U[ooootzza~}]rkxzzzzJ]Re5K9]I\QizzzzxxxxO^RmQf\tpvcnfzLdZyk{zrrnr`f^j[d\hYf_jac]j^gfg]]]]2F:O8H<N[[Z[cnjq±±±±¸¸¸¸¤¤¤¤`voTi^w~~|~czxkwvzMe_kUSFX=J<SQb]dwwwwvvvv /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSString *inputFilename; // @synthesize inputFilename;
 @property(retain) CIImage *inputImage; // @synthesize inputImage;
-@property(retain) CIFilter *inputOriginalFilter; // @synthesize inputOriginalFilter;
-@property(retain) NSNumber *inputShouldDumpInputValues; // @synthesize inputShouldDumpInputValues;
 
 @end
 

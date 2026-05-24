@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _NSGenerationTokenMapEntry
 {
     _NSQueryGenerationToken *_token;
-    int _refCount;
 }
 
 - (void);

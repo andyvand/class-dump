@@ -4,9 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIScrollView;
+
 @protocol UIScrollViewDelegate
 
 @optional
+- (void)0;
+- (_Bool)setShadowEnabled:(UIScrollView *)arg1;
+- (void)B;
 - (void);
+- (void)siwaCredentialUploader;
 @end
 

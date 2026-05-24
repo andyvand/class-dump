@@ -7,10 +7,6 @@
 @interface ChatKit.CKBackgroundMotionEventsManager
 {
     id viewController;
-    id delegate;
-    id managedMotionEventsGenerator;
-    id isSendingMotionEvents;
-    id logger;
 }
 
 - (void);

@@ -5,5 +5,6 @@
 //
 
 @protocol ABAccountConfiguration
+- (_Bool)aMapper>",R,&,N,V_mapper;
 @end
 

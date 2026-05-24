@@ -4,35 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOMuninBucket
 {
     PBUnknownFields *_unknownFields;
-    NSString *_bucketURL;
-    unsigned int _bucketID;
-    unsigned int _lodLevel;
-    struct {
-        unsigned int has_bucketID:1;
-        unsigned int has_lodLevel:1;
-    } _flags;
 }
 
-+ (_Bool);
-- (void);
-- (id);
++ (_Bool)setHasTransitAdvisoryBanner:(id)arg1;
+- (void)\;
+- (id);
 - (unsigned int);
 - (void);
 - (id);
-- (void);
+- (void)appendFormat:(_Bool)arg1;
 - (_Bool);
 - (void);
-- (void);
+- (void):(id)arg1 forChannel:] /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool)`
+;
 - (_Bool);
 - (unsigned int);
 - (void);
@@ -41,20 +35,14 @@
 - (void);
 - (id)ode<geo:(struct _NSZone *)arg1:TransitEdgePiece, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<geo::TransitEdgePiece, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<geo::TransitEdgePiece, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
 - (id)paymentMethodRegionMuid;
-- (id)meZoneName;
+- (id)hasTimeZoneName;
 - (id)t+;
 - (id)Internal/Library/BuildRoots/4~CNqLugBredD1EtXl51SgzMTmS7goLVwemzrdnqY/Library/Caches/com.apple.xbs/TemporaryDirectory.wsazt5/Sources/GeoServices/libprotobuf/src/google/protobuf/map_field.h;
 - (void)À;@gffffæ9@ÍÌÌÌÌ8@4333336@Y4@gffff¦0@433333&@;
 - (void)ã>;
 
 // Remaining properties
-@property(nonatomic) unsigned int bucketID;
-@property(retain, nonatomic) NSString *bucketURL;
 @property(nonatomic) _Bool hasBucketID;
-@property(readonly, nonatomic) _Bool hasBucketURL;
-@property(nonatomic) _Bool hasLodLevel;
-@property(nonatomic) unsigned int lodLevel;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

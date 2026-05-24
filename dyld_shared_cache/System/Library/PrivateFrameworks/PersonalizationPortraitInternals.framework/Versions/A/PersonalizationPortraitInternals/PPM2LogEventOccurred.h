@@ -7,14 +7,11 @@
 @interface PPM2LogEventOccurred
 {
     int _event;
-    struct {
-        unsigned int event:1;
-    } _has;
 }
 
 - (id);
-- (int);
-- (_Bool);
+- (int);
+- (_Bool)(;
 - (id);
 - (void);
 - (void);
@@ -24,12 +21,11 @@
 - (int);
 - (_Bool);
 - (void);
-- (id);
+- (id)!;
 - (id);
 - (void)K;
 
 // Remaining properties
-@property(nonatomic) int event; // @synthesize event=_event;
 @property(nonatomic) _Bool hasEvent;
 
 @end

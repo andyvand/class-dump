@@ -7,6 +7,7 @@
 @interface StocksAnalytics.TimestampJitterFactory
 {
     id appConfiguration;
+    id;
 }
 
 @end

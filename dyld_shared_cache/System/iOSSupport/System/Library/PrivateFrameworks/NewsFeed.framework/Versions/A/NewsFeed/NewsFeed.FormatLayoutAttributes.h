@@ -7,13 +7,6 @@
 @interface NewsFeed.FormatLayoutAttributes
 {
     id frame;
-    id identifier;
-    id itemIdentifier;
-    id layoutIdentifier;
-    id nodeIdentifier;
-    id layoutValues;
-    id accessibilityValues;
-    id accessibilityRole;
 }
 
 @end

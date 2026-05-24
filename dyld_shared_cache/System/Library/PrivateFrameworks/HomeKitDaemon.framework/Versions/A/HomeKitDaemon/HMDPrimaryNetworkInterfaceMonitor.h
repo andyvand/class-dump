@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, HMDNetworkInfoController, HMDPrimaryNetworkInterfaceDetails, NSObject;
-@protocol OS_dispatch_queue, OS_nw_path, OS_nw_path_evaluator, OS_nw_path_monitor;
+@class HMDHome;
 
 __attribute__((visibility("hidden")))
 @interface HMDPrimaryNetworkInterfaceMonitor
 {
     struct os_unfair_lock_s _lock;
-    struct __SCDynamicStore *scDynamicStore;
-    HMDPrimaryNetworkInterfaceDetails *_interfaceDetails;
-    HMDHome *_home;
-    HMDNetworkInfoController *_networkInfoController;
-    NSObject<OS_nw_path_evaluator> *_defaultEvaluator;
-    NSObject<OS_nw_path> *_defaultPath;
-    NSObject<OS_nw_path_monitor> *_pathMonitor;
-    NSObject<OS_dispatch_queue> *_pathMonitorQueue;
 }
 
 + (id)`B;
@@ -27,9 +18,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)_timeoutInterval;
+- (id)_deviceHandlesByVersion;
+- (id)addNewSession %@;
 - (void);
 - (void);
 - (void);
@@ -37,31 +28,25 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)R;
 - (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id)pipelineState:(id)arg1 error:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)A;
 - (id)1Â0@ù
 × ;
-- (void)lyingErrorCode;
+- (void)addAccessoryUnderlyingErrorCode;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_nw_path_evaluator> *defaultEvaluator; // @synthesize defaultEvaluator=_defaultEvaluator;
-@property(retain, nonatomic) NSObject<OS_nw_path> *defaultPath; // @synthesize defaultPath=_defaultPath;
 @property(readonly) __weak HMDHome *home; // @synthesize home=_home;
-@property(retain) HMDPrimaryNetworkInterfaceDetails *interfaceDetails; // @synthesize interfaceDetails=_interfaceDetails;
-@property(retain) HMDNetworkInfoController *networkInfoController; // @synthesize networkInfoController=_networkInfoController;
-@property(retain, nonatomic) NSObject<OS_nw_path_monitor> *pathMonitor; // @synthesize pathMonitor=_pathMonitor;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *pathMonitorQueue; // @synthesize pathMonitorQueue=_pathMonitorQueue;
 
 @end
 

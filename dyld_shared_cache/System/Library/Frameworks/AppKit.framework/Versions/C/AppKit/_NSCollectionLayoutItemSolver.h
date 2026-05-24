@@ -4,25 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSCollectionLayoutItem, NSObject, NSString, _NSCollectionLayoutItemSolverState;
-@protocol NSCollectionLayoutContainer, _NSCollectionLayoutAuxiliaryOffsets, _NSCollectionLayoutSupplementaryEnrolling, _NSCollectionPreferredSizes;
+@class _NSCollectionLayoutItemSolverState;
 
 __attribute__((visibility("hidden")))
 @interface _NSCollectionLayoutItemSolver
 {
     _Bool _layoutRTL;
-    int _layoutAxis;
-    NSCollectionLayoutItem *_item;
-    id <NSCollectionLayoutContainer> _container;
-    NSObject *_traitCollection;
-    _NSCollectionLayoutItemSolverState *_solveResult;
-    id <_NSCollectionPreferredSizes> _preferredSizes;
-    id <_NSCollectionLayoutSupplementaryEnrolling> _supplementaryEnroller;
-    long long _solutionRecursionDepth;
-    long long _maxFrameCount;
 }
 
-- (void);
+- (void)AN image '%c%c%c%c' (IOConnectCallScalarMethod kAppleNVMeEANRead returned 0x%X);
 - (_Bool);
 - (id);
 - (id);
@@ -36,20 +26,20 @@ __attribute__((visibility("hidden")))
 - (struct CGPoint);
 - (long long);
 - (void);
-- (void);
-- (void);
+- (void)face-ftype;
+- (void)face;
 - (id);
+- (struct CGSize)URLByAppendingPathExtension:(id)arg1;
+- (struct CGRect)ransfer daemon:(struct CGRect)arg1 %@;
+- (double)to foreground;
 - (struct CGSize);
-- (struct CGRect);
-- (double);
-- (struct CGSize);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)q;
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -68,9 +58,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)|;
 - (long long);
-- (id);
+- (id);
 - (struct CGPoint);
 - (id)0@ù
 × ;
@@ -81,20 +71,20 @@ __attribute__((visibility("hidden")))
 × ;
 - (id)LM"b1"_inputLocaleGeneration"b16"_blockTSM"b1"_keyProcess"b1"_preflight"b1"_bindingFound"b1"_unmarkbeforeinsert"b1"_completionHandlingClient"b1};
 - (void)t=dd}40Q56@64;
-- (id)vent:(long long)arg1 atIndex:(struct CGPoint)arg2;
-- (int)gToolsAction:(id)arg1;
-- (id)layNameForType:(struct _NSZone *)arg1;
-- (void)e:(id)arg1 forKeyPath:(int)arg2 ofObject:mode:validateImmediately:raisesForNotApplicableKeys:error: /* Error: Ran out of types for this method. */;
-- (id)ticDetaching;
-- (void)W: /* Error: Ran out of types for this method. */;
-- (id)ataSourceUpdatesController;
+- (id)textView:(long long)arg1 draggedCell:(struct CGPoint)arg2 inRect:(double)arg3 event:(int)arg4 atIndex: /* Error: Ran out of types for this method. */;
+- (int)supportsWritingToolsAction:(id)arg1;
+- (id)displayNameForType:(struct _NSZone *)arg1;
+- (void)_setValue:(id)arg1 forKeyPath:(int)arg2 ofObject:mode:validateImmediately:raisesForNotApplicableKeys:error: /* Error: Ran out of types for this method. */;
+- (id)_needsSecondUpdateConstraintsPassForAutomaticDetaching;
+- (void)_beginAcceleratorPeriodicActionsUsingLegacyHW: /* Error: Ran out of types for this method. */;
+- (id)NSTableViewDataSourceUpdatesController;
 - (struct CGRect)D;
 - (id)
 t¤ô
 X¬Ì;
 - (id)Ô;
 - (id)¯þÿ´ÀüÿrÀüÿ¼Àüÿ;
-- (id);
+- (id)F32;
 - (void)ueSmartRepliesDismissTypeUnspecified(void);
 - (id);
 - (id);
@@ -106,31 +96,7 @@ X¬Ì;
 - (int);
 
 // Remaining properties
-@property(readonly, nonatomic) long long auxiliaryFrameCount;
-@property(readonly, nonatomic) NSArray *auxiliaryFrames;
-@property(readonly, nonatomic) id <NSCollectionLayoutContainer> container; // @synthesize container=_container;
-@property(readonly, nonatomic) struct CGRect contentFrame;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) long long frameCount;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSCollectionLayoutItem *item; // @synthesize item=_item;
-@property(readonly, nonatomic) long long itemFrameCount;
-@property(readonly, nonatomic) NSArray *itemFrames;
-@property(readonly, nonatomic) int layoutAxis; // @synthesize layoutAxis=_layoutAxis;
-@property(readonly, nonatomic) struct CGRect layoutFrame;
-@property(readonly, nonatomic) _Bool layoutRTL; // @synthesize layoutRTL=_layoutRTL;
-@property(readonly, nonatomic) long long maxFrameCount; // @synthesize maxFrameCount=_maxFrameCount;
-@property(retain, nonatomic) id <_NSCollectionPreferredSizes> preferredSizes; // @synthesize preferredSizes=_preferredSizes;
-@property(readonly, nonatomic) long long solutionRecursionDepth; // @synthesize solutionRecursionDepth=_solutionRecursionDepth;
 @property(retain, nonatomic) _NSCollectionLayoutItemSolverState *solveResult; // @synthesize solveResult=_solveResult;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <_NSCollectionLayoutSupplementaryEnrolling> supplementaryEnroller; // @synthesize supplementaryEnroller=_supplementaryEnroller;
-@property(readonly, nonatomic) id <_NSCollectionLayoutAuxiliaryOffsets> supplementaryOffsets;
-@property(readonly, nonatomic) NSObject *traitCollection; // @synthesize traitCollection=_traitCollection;
 
 @end
 

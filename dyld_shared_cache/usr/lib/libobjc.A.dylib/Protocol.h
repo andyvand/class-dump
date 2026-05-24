@@ -10,10 +10,10 @@
 {
 }
 
-- (const char *);
+- (const char *)";
 - (unsigned long long);
-- (_Bool);
-- (struct objc_method_description *);
+- (_Bool)QFilterCellImageMonoResolution;
+- (struct objc_method_description *)rary/CoreServices/SystemFolderLocalizations/;
 - (_Bool);
 - (struct objc_method_description *);
 

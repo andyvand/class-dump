@@ -21,7 +21,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long recurrenceDays;
 @property(copy, nonatomic) NSArray *recurrences;
 
 @end

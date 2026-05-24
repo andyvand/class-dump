@@ -7,9 +7,9 @@
 @class NSString;
 
 @protocol FCBlockedExplicitContentAccessCheckable
+- (NSString *)(;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) _Bool isBlockedExplicitContent;
 @end
 

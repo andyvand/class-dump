@@ -8,30 +8,22 @@ __attribute__((visibility("hidden")))
 @interface UIEventSessionTouchEventDetail
 {
     long long _upDownState;
-    long long _tapDragState;
-    long long _windowSection;
-    double _dragDistanceSquared;
-    struct CGPoint _lastLocation;
 }
 
 - (long long);
 - (long long);
 - (long long);
-- (void);
-- (void);
-- (void);
+- (void)ar-------*/;
+- (void)of update records:(long long)arg1 %@;
+- (void)@;
 - (double);
 - (void);
 - (id);
-- (struct CGPoint)nsets;
+- (struct CGPoint)_contentOverlayInsets;
 - (void)|aÜbÈd;
 
 // Remaining properties
-@property(nonatomic) double dragDistanceSquared; // @synthesize dragDistanceSquared=_dragDistanceSquared;
-@property(nonatomic) struct CGPoint lastLocation; // @synthesize lastLocation=_lastLocation;
-@property(nonatomic) long long tapDragState; // @synthesize tapDragState=_tapDragState;
 @property(nonatomic) long long upDownState; // @synthesize upDownState=_upDownState;
-@property(nonatomic) long long windowSection; // @synthesize windowSection=_windowSection;
 
 @end
 

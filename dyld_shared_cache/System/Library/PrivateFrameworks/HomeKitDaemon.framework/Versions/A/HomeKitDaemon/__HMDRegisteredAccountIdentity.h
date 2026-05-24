@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (id);
+- (id)U;
 - (void)EFAULT 1;;
 
 // Remaining properties

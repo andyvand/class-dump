@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface CodeRequirement
 {
     struct __SecRequirement *_secRequirementRef;
-    NSData *_data;
-    NSString *_text;
 }
 
 - (struct __SecRequirement *);
@@ -18,7 +14,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)A;
 - (id);
 - (unsigned long long);
 - (_Bool);

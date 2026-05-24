@@ -5,5 +5,8 @@
 //
 
 @protocol PIPSafariViewControllerDelegate
+
+@optional
+- (_Bool)openPanel;
 @end
 

@@ -6,14 +6,12 @@
 
 #import <OfficeImport/TCXmlTextWriterProvider.h>
 
-@class NSString, OISFUZipArchiveOutputStream;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface TCZipEntryTextWriterProvider : TCXmlTextWriterProvider
 {
     _Bool _isCompressed;
-    NSString *_entryName;
-    OISFUZipArchiveOutputStream *_outputStream;
 }
 
 - (id);
@@ -26,8 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *entryName; // @synthesize entryName=_entryName;
-@property(readonly, nonatomic) _Bool isCompressed; // @synthesize isCompressed=_isCompressed;
-@property(readonly, nonatomic) OISFUZipArchiveOutputStream *outputStream; // @synthesize outputStream=_outputStream;
 
 @end
 

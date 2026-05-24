@@ -7,17 +7,15 @@
 @interface TSTimeErrorValue
 {
     unsigned long long _timestamp;
-    long long _error;
 }
 
 + (id);
 - (id);
 - (long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long)ndex %ld;
 
 // Remaining properties
-@property(readonly, nonatomic) long long error; // @synthesize error=_error;
 @property(readonly, nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end

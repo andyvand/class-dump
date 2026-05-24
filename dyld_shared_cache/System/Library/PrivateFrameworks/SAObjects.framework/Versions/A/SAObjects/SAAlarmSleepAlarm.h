@@ -17,7 +17,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)(;
 - (id);
 - (id);
 - (id);
@@ -26,9 +26,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *bedtimeHour;
-@property(copy, nonatomic) NSNumber *bedtimeMinute;
-@property(copy, nonatomic) NSNumber *isFiringNext;
-@property(copy, nonatomic) NSNumber *isOverride;
 
 @end
 

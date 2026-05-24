@@ -7,7 +7,6 @@
 @interface ASCredentialIdentityStoreState
 {
     _Bool _enabled;
-    _Bool _supportsIncrementalUpdates;
 }
 
 - (_Bool);
@@ -17,7 +16,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly, nonatomic) _Bool supportsIncrementalUpdates; // @synthesize supportsIncrementalUpdates=_supportsIncrementalUpdates;
 
 @end
 

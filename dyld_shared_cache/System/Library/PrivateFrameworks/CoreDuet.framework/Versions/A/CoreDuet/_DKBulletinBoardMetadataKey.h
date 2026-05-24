@@ -12,7 +12,7 @@
 + (id);
 + (id);
 + (id);
-+ (id)domain;
++ (id)_domain;
 
 @end
 

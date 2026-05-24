@@ -4,31 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOComposedRoute, GEOComposedRouteLeg, NSArray, NSMutableDictionary;
+@class GEOComposedRoute, NSArray;
 
 __attribute__((visibility("hidden")))
 @interface MNDepartureUpdater
 {
     NSArray *_conditions;
-    NSMutableDictionary *_conditionScores;
-    GEOComposedRoute *_route;
-    GEOComposedRouteLeg *_arrivalLeg;
 }
 
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)BorderlessPullDownMenuButtonStyle;
+- (id)G4;
 - (id);
-- (id);
-- (id);
+- (id)erStyleWriter;
 - (void);
-- (id);
+- (id)tent;
 - (void)state_hints_s=I*II}16;
 
 // Remaining properties
-@property(readonly, nonatomic) GEOComposedRouteLeg *arrivalLeg; // @synthesize arrivalLeg=_arrivalLeg;
-@property(readonly, nonatomic) unsigned long long arrivalWaypointLegIndex;
 @property(readonly, nonatomic) GEOComposedRoute *route; // @synthesize route=_route;
 
 @end

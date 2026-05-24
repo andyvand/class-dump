@@ -12,16 +12,14 @@ __attribute__((visibility("hidden")))
 @interface NSMorphingDragImageView : NSView
 {
     NSImageView *_previousImageView;
-    NSImageView *_currentImageView;
-    NSImage *_image;
 }
 
 - (void);
 - (id);
 - (void);
 - (id);
-- (id)State:(struct CGRect)arg1;
-- (void)View;
+- (id)indicatorSizeForState:(struct CGRect)arg1;
+- (void)NSPDFPanelAccessoryView;
 - (void)ºH¤;
 
 // Remaining properties

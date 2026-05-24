@@ -9,7 +9,6 @@
 @interface PromotedContentUI.AppSearchAdRequestPayload : PromotedContentUI.SearchAdRequestPayload
 {
     id canaryID;
-    id userTargetingID;
 }
 
 @end

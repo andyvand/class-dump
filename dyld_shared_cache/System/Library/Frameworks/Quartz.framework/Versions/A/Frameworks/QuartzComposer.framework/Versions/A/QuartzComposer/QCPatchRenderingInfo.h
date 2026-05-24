@@ -9,21 +9,6 @@
 @interface QCPatchRenderingInfo
 {
     QCContext *_context;
-    double _profilingStats[9];
-    int flags;
-    unsigned long long pausedRendering;
-    unsigned long long frameID;
-    unsigned long long lastRenderedFrameID;
-    double frameTime;
-    double executionDuration;
-    double nextExecutionTime;
-    unsigned long long patchTotalCount;
-    unsigned long long patchActiveCount;
-    unsigned long long patchTraversedCount;
-    unsigned long long patchExecutedCount;
-    _Bool abortExecution;
-    _Bool suspendExecution;
-    struct _opaque_pthread_mutex_t suspendMutex;
 }
 
 - (void);

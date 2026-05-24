@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (id);
 - (void);
-- (void);
+- (void)es_name_order_section INTEGER NOT NULL DEFAULT 0, album_pid INTEGER NOT NULL DEFAULT 0, album_order INTEGER NOT NULL DEFAULT 0, album_order_section INTEGER NOT NULL DEFAULT 0, album_artist_pid INTEGER NOT NULL DEFAULT 0, album_artist_order INTEGER NOT NULL DEFAULT 0, album_artist_order_section INTEGER NOT NULL DEFAULT 0, composer_pid INTEGER NOT NULL DEFAULT 0, composer_order INTEGER NOT NULL DEFAULT 0, composer_order_section INTEGER NOT NULL DEFAULT 0, genre_id INTEGER NOT NULL DEFAULT 0, genre_order INTEGER NOT NULL DEFAULT 0, genre_order_section INTEGER NOT NULL DEFAULT 0, disc_number INTEGER DEFAULT 0, track_number INTEGER DEFAULT 0, episode_sort_id INTEGER DEFAULT 0, base_location_id INTEGER NOT NULL DEFAULT 0, remote_location_id INTEGER NOT NULL DEFAULT 0, exclude_from_shuffle INTEGER NOT NULL DEFAULT 0, is_video INTEGER NOT NULL DEFAULT 0, is_podcast INTEGER NOT NULL DEFAULT 0, is_itunes_u INTEGER NOT NULL DEFAULT 0;
 - (id);
 
 @end

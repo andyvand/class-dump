@@ -4,30 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
-
 @interface MLAppleTextClassifierParameters
 {
     unsigned long long _revision;
-    NSString *_language;
-    NSString *_inputFeatureName;
-    NSString *_outputFeatureName;
-    NSData *_modelParameterData;
-    NSArray *_labelNames;
-    NSDictionary *_metadata;
 }
 
 - (void);
 - (void);
+- (void) `;
 - (void);
-- (void);
+- (id);
+- (id)D;
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -36,12 +28,6 @@
 - (void)r~Ù²~Ýò}ñ¿2~õÇr}é¯²}í·ò|à2}èr|ùÏ²|ý×ò{;
 
 // Remaining properties
-@property(retain) NSString *inputFeatureName; // @synthesize inputFeatureName=_inputFeatureName;
-@property(retain) NSArray *labelNames; // @synthesize labelNames=_labelNames;
-@property(retain) NSString *language; // @synthesize language=_language;
-@property(retain) NSDictionary *metadata; // @synthesize metadata=_metadata;
-@property(retain) NSData *modelParameterData; // @synthesize modelParameterData=_modelParameterData;
-@property(retain) NSString *outputFeatureName; // @synthesize outputFeatureName=_outputFeatureName;
 @property unsigned long long revision; // @synthesize revision=_revision;
 
 @end

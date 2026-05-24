@@ -5,7 +5,7 @@
 //
 
 @protocol INSetProfileInCarIntentResponseExport
-- (long long)darWithLanguageCode: /* Error: Ran out of types for this method. */;
+- (long long)if_currentCalendarWithLanguageCode: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;

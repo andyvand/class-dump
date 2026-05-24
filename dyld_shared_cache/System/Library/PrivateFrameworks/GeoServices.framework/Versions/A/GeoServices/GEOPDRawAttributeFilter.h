@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDRawAttributeFilter
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_keys;
 }
 
 - (id);
@@ -19,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)}16;
-- (id)eDates:withConverter: /* Error: Ran out of types for this method. */;
+- (id)_migrateDates:withConverter: /* Error: Ran out of types for this method. */;
 - (id)¸àøP;
 - (void);
 

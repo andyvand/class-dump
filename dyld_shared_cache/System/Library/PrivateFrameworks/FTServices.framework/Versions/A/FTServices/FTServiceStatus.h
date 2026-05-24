@@ -7,33 +7,26 @@
 @interface FTServiceStatus
 {
     unsigned long long _supportedServicesFlags;
-    int _supportedServicesToken;
-    _Bool _blockPost;
 }
 
 + (id);
 - (unsigned long long);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool);;
 - (void);
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)-;
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (int);
+- (int)kOperationNotificationDelegate>";
 
 // Remaining properties
-@property(nonatomic) _Bool blockPost; // @synthesize blockPost=_blockPost;
-@property(readonly, nonatomic) _Bool faceTimeAudioSupported;
-@property(readonly, nonatomic) _Bool faceTimeMultiwaySupported;
-@property(readonly, nonatomic) _Bool iMessageSupported;
-@property unsigned long long supportedServicesFlags; // @synthesize supportedServicesFlags=_supportedServicesFlags;
 @property(nonatomic) int supportedServicesToken; // @synthesize supportedServicesToken=_supportedServicesToken;
 
 @end

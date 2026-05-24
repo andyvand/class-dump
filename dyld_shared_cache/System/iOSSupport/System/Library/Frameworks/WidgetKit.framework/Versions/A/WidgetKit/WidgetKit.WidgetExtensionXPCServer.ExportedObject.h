@@ -7,24 +7,21 @@
 @interface WidgetKit.WidgetExtensionXPCServer.ExportedObject
 {
     id previewAgent;
-    id urlHandlers;
-    id xpcConnection;
-    id _queue;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)addTextFieldWithConfigurationHandler:(id)arg1;
+- (void)addPopupToDictionaryRef:(id)arg1;
+- (void)addObserver:forKeyPath:options:context: /* Error: Ran out of types for this method. */;
+- (void)addFieldFlagsToDictionaryRef:(id)arg1;
+- (void)addDisplayList:(id)arg1 toPage:(CDUnknownBlockType)arg2;
+- (void)addDetectedAnnotations:(id)arg1;
+- (void)addDefaultAppearanceDictionaryRef:(id)arg1;
+- (void)addCharactersInString:(CDUnknownBlockType)arg1;
+- (void)addBorderToDictionaryRef:(id)arg1;
+- (void)addBezierPath:(CDUnknownBlockType)arg1;
+- (void)addAppearanceForKey:(CDUnknownBlockType)arg1 toDictionaryRef: /* Error: Ran out of types for this method. */;
+- (void)activeTextStorage;
+- (void)accessibilityParent;
 - (id);
 - (void);
 - (void)$;

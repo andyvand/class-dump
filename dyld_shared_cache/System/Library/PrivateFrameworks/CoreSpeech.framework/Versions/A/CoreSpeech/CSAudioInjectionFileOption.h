@@ -9,12 +9,9 @@
 @interface CSAudioInjectionFileOption
 {
     float _scaleFactor;
-    NSURL *_audioURL;
-    struct OpaqueExtAudioFile *_fFile;
-    struct AudioStreamBasicDescription _outASBD;
 }
 
-- (void);
+- (void)4bb;
 - (void);
 - (id);
 - (struct OpaqueExtAudioFile *);
@@ -22,13 +19,10 @@
 - (struct AudioStreamBasicDescription);
 - (id);
 - (float);
-- (void)endAudioData: /* Error: Ran out of types for this method. */;
+- (void)appendAudioData: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *audioURL; // @synthesize audioURL=_audioURL;
-@property(nonatomic) struct OpaqueExtAudioFile *fFile; // @synthesize fFile=_fFile;
-@property(nonatomic) struct AudioStreamBasicDescription outASBD; // @synthesize outASBD=_outASBD;
-@property(readonly, nonatomic) float scaleFactor; // @synthesize scaleFactor=_scaleFactor;
 
 @end
 

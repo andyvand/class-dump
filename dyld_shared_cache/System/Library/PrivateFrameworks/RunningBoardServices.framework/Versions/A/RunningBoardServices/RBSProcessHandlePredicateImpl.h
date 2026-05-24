@@ -12,11 +12,10 @@ __attribute__((visibility("hidden")))
 @interface RBSProcessHandlePredicateImpl : RBSProcessPredicateImpl
 {
     RBSProcessIdentity *_identity;
-    int _pid;
 }
 
 + (_Bool);
-- (id);
+- (id)CT;
 - (unsigned long long);
 - (_Bool);
 - (id);

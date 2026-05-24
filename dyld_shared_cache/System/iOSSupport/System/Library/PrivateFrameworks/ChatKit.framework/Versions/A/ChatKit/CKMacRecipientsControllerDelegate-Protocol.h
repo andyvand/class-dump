@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol CKMacRecipientsControllerDelegate
+- (void)attributesForInlineAttachmentUIModel;
+- (NSString *)_displayingAttributedSnippet;
 @end
 

@@ -7,7 +7,6 @@
 @interface NewsUI2.SportsDateHeader
 {
     id title;
-    id eyebrow;
 }
 
 @end

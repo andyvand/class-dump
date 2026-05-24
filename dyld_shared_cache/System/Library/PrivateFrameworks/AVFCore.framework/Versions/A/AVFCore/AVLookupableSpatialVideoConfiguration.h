@@ -9,18 +9,16 @@
 @interface AVLookupableSpatialVideoConfiguration
 {
     AVSpatialVideoConfiguration *_spatialVideoConfiguration;
-    NSNumber *_lookupID;
 }
 
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *lookupID; // @synthesize lookupID=_lookupID;
-@property(readonly, nonatomic) AVSpatialVideoConfiguration *spatialVideoConfiguration; // @synthesize spatialVideoConfiguration=_spatialVideoConfiguration;
 
 @end
 

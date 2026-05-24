@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PHPhotoLibrary, PXFetchResultBasedMemoriesDataSourceManager, PXLibraryFilterState, PXUpdater;
+@class PXUpdater;
 
 @interface PXStoryMemoryFeedDataSourceManager
 {
     _Bool _isActive;
-    _Bool _hasAnyFavorites;
-    _Bool _wantsFavoritesOnly;
-    PXUpdater *_updater;
-    PXFetchResultBasedMemoriesDataSourceManager *_allMemoriesDataSourceManager;
-    PXFetchResultBasedMemoriesDataSourceManager *_favoriteMemoriesDataSourceManager;
-    PXLibraryFilterState *_libraryFilterState;
-    PHPhotoLibrary *_photoLibrary;
 }
 
-- (_Bool);
+- (_Bool)=;
 - (void);
 - (void);
 - (void);
@@ -36,12 +29,12 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)r: /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)render1To3DownAtTime:andProgress:inContext:withArguments:inRect:withAttributes: /* Error: Ran out of types for this method. */;
+- (id)_hitBlob;
+- (void)PlainTexture1;
 - (id)nt Recipes;
 - (void)isappearing/hiding;
 - (void);
@@ -50,22 +43,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) PXFetchResultBasedMemoriesDataSourceManager *allMemoriesDataSourceManager; // @synthesize allMemoriesDataSourceManager=_allMemoriesDataSourceManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) PXFetchResultBasedMemoriesDataSourceManager *favoriteMemoriesDataSourceManager; // @synthesize favoriteMemoriesDataSourceManager=_favoriteMemoriesDataSourceManager;
-@property(readonly, nonatomic) _Bool hasAnyFavorites; // @synthesize hasAnyFavorites=_hasAnyFavorites;
-@property(readonly, nonatomic) _Bool hasAnyMemories;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isActive; // @synthesize isActive=_isActive;
-@property(readonly, nonatomic) PXLibraryFilterState *libraryFilterState; // @synthesize libraryFilterState=_libraryFilterState;
-@property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) PXUpdater *updater; // @synthesize updater=_updater;
-@property(readonly, nonatomic) _Bool wantsFavoritesOnly; // @synthesize wantsFavoritesOnly=_wantsFavoritesOnly;
 
 @end
 

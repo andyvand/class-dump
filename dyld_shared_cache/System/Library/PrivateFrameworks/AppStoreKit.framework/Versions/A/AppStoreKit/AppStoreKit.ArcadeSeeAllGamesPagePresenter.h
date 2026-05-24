@@ -9,12 +9,6 @@
 @interface AppStoreKit.ArcadeSeeAllGamesPagePresenter : AppStoreKit.BaseShelfPresenter
 {
     id pageUrl;
-    id pageTitle;
-    id displayStyle;
-    id facetsPresenter;
-    id automaticallyManageFacetChanges;
-    id seeAllGamesContentPresenter;
-    id view;
 }
 
 @end

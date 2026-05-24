@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol EMCollectionItemIDStateCapturerDelegate;
 
 @interface EMCollectionItemIDStateCapturer
@@ -13,22 +12,15 @@
 }
 
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)bjectForKey;
 - (id);
 - (void)1=1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, nonatomic) __weak id <EMCollectionItemIDStateCapturerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

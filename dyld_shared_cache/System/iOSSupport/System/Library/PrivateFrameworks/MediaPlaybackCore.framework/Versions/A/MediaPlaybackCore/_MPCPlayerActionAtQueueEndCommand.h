@@ -6,32 +6,21 @@
 
 #import <MediaPlaybackCore/_MPCPlayerCommand.h>
 
-@class NSArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface _MPCPlayerActionAtQueueEndCommand : _MPCPlayerCommand
 {
     long long _actionAtQueueEnd;
-    NSArray *_supportedActions;
 }
 
 - (void);
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void)tForAutoPlay was nil];
 
 // Remaining properties
 @property(nonatomic) long long actionAtQueueEnd; // @synthesize actionAtQueueEnd=_actionAtQueueEnd;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSArray *supportedActions; // @synthesize supportedActions=_supportedActions;
 
 @end
 

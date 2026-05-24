@@ -11,14 +11,12 @@
 @interface UIKit._UISliderColorVisualElement : UIKit._UISliderGlassVisualElement
 {
     id colorKnobView;
-    id checkerboardView;
-    id gradientView;
 }
 
+- (id);
 - (id);
-- (id);
-- (void)olIconSize;
-- (id);
+- (void)emojiCategoryControlIconSize;
+- (id)UISceneSizeRestrictions;
 - (void)$GÿóWÚH¼l;
 
 // Remaining properties

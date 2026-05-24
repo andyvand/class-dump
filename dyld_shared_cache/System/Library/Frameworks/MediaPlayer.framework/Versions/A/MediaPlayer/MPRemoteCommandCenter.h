@@ -4,73 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPAdvanceRepeatModeCommand, MPAdvanceShuffleModeCommand, MPChangePlaybackPositionCommand, MPChangePlaybackRateCommand, MPChangeQueueEndActionCommand, MPChangeRepeatModeCommand, MPChangeShuffleModeCommand, MPEnhanceDialogueCommand, MPFeedbackCommand, MPInsertIntoPlaybackQueueCommand, MPPreloadPlaybackSessionCommand, MPPrepareForSetPlaybackQueueCommand, MPRatingCommand, MPRemoteCommand, MPReorderQueueCommand, MPSetPlaybackQueueCommand, MPSetPlaybackSessionCommand, MPSetPriorityForPlaybackSessionCommand, MPSetSleepTimerCommand, MPSkipIntervalCommand, MPToggleTransitionsCommand, MPVocalsControlCommand, MRPlayerPath, NSMutableArray;
-@protocol MPRemoteCommandCenterDelegate;
+@class MRPlayerPath;
 
 @interface MPRemoteCommandCenter
 {
     MRPlayerPath *_playerPath;
-    struct os_unfair_lock_s _lock;
-    NSMutableArray *_activeCommands;
-    id _mediaRemoteCommandHandler;
-    _Bool _invalidated;
-    _Bool _scheduledSupportedCommandsChangedNotification;
-    _Bool _anyCommandHandlersRegistered;
-    _Bool _canBeNowPlayingApplication;
-    NSMutableArray *_eventQueue;
-    unsigned long long _stateHandler;
-    _Bool _disableAutomaticCanBeNowPlaying;
-    _Bool _wantsSerializedEventDelivery;
-    MPRemoteCommand *_pauseCommand;
-    MPRemoteCommand *_playCommand;
-    MPRemoteCommand *_stopCommand;
-    MPRemoteCommand *_togglePlayPauseCommand;
-    MPRemoteCommand *_enableLanguageOptionCommand;
-    MPRemoteCommand *_disableLanguageOptionCommand;
-    MPRemoteCommand *_nextTrackCommand;
-    MPRemoteCommand *_previousTrackCommand;
-    MPSkipIntervalCommand *_skipForwardCommand;
-    MPSkipIntervalCommand *_skipBackwardCommand;
-    MPRemoteCommand *_seekForwardCommand;
-    MPRemoteCommand *_seekBackwardCommand;
-    MPRatingCommand *_ratingCommand;
-    MPRemoteCommand *_performDialogActionCommand;
-    MPChangePlaybackRateCommand *_changePlaybackRateCommand;
-    MPFeedbackCommand *_likeCommand;
-    MPFeedbackCommand *_dislikeCommand;
-    MPFeedbackCommand *_bookmarkCommand;
-    MPChangePlaybackPositionCommand *_changePlaybackPositionCommand;
-    MPChangeRepeatModeCommand *_changeRepeatModeCommand;
-    MPChangeShuffleModeCommand *_changeShuffleModeCommand;
-    MPRemoteCommand *_specialSeekForwardCommand;
-    MPRemoteCommand *_specialSeekBackwardCommand;
-    MPAdvanceShuffleModeCommand *_advanceShuffleModeCommand;
-    MPAdvanceRepeatModeCommand *_advanceRepeatModeCommand;
-    MPRemoteCommand *_createRadioStationCommand;
-    MPSetPlaybackQueueCommand *_setPlaybackQueueCommand;
-    MPPrepareForSetPlaybackQueueCommand *_prepareForSetPlaybackQueueCommand;
-    MPInsertIntoPlaybackQueueCommand *_insertIntoPlaybackQueueCommand;
-    MPRemoteCommand *_removeFromPlaybackQueueCommand;
-    MPReorderQueueCommand *_reorderQueueCommand;
-    MPRemoteCommand *_playItemInQueueCommand;
-    MPFeedbackCommand *_addNowPlayingItemToLibraryCommand;
-    MPFeedbackCommand *_addItemToLibraryCommand;
-    MPSetPlaybackSessionCommand *_setPlaybackSessionCommand;
-    MPPreloadPlaybackSessionCommand *_preloadPlaybackSessionCommand;
-    MPSetPriorityForPlaybackSessionCommand *_setPriorityForPlaybackSessionCommand;
-    MPRemoteCommand *_discardPlaybackSessionCommand;
-    MPRemoteCommand *_reshuffleCommand;
-    MPChangeQueueEndActionCommand *_changeQueueEndActionCommand;
-    MPRemoteCommand *_leaveSharedPlaybackSessionCommand;
-    MPRemoteCommand *_postEventNoticeCommand;
-    MPRemoteCommand *_prepareVocalsControlCommand;
-    MPVocalsControlCommand *_vocalsControlCommand;
-    MPSetSleepTimerCommand *_setSleepTimerCommand;
-    MPRemoteCommand *_clearUpNextCommand;
-    MPRemoteCommand *_delegateAccountCommand;
-    MPToggleTransitionsCommand *_toggleTransitionsCommand;
-    MPEnhanceDialogueCommand *_enhanceDialogueCommand;
-    id <MPRemoteCommandCenterDelegate> _delegate;
 }
 
 + (void);

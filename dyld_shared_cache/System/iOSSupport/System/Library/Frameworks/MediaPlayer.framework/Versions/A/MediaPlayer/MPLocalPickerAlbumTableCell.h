@@ -6,29 +6,25 @@
 
 #import <MediaPlayer/MPLocalPickerCollectionTableCell.h>
 
-@class UIImageView, UILabel;
+@class UILabel;
 
 __attribute__((visibility("hidden")))
 @interface MPLocalPickerAlbumTableCell : MPLocalPickerCollectionTableCell
 {
     UILabel *_titleLabel;
-    UILabel *_artistLabel;
-    UIImageView *_artworkView;
 }
 
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)TTSSegmentGenerator;
 - (id);
 - (void);
-- (void)etWindowLevel: /* Error: Ran out of types for this method. */;
-- (id)fiers: /* Error: Ran out of types for this method. */;
+- (void)setWindowLevel: /* Error: Ran out of types for this method. */;
+- (id)setIdentifiers: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak UILabel *artistLabel; // @synthesize artistLabel=_artistLabel;
-@property(nonatomic) __weak UIImageView *artworkView; // @synthesize artworkView=_artworkView;
 @property(nonatomic) __weak UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end

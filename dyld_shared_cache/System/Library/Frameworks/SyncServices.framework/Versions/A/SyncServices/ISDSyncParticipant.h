@@ -4,36 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISDClient, ISDFileReference, NSArray, NSDate, NSMutableArray, NSMutableDictionary, NSMutableSet, NSNumber, NSString;
-@protocol ISyncSessionCallback;
+@class ISDClient;
 
 @interface ISDSyncParticipant
 {
     ISDClient *_client;
-    NSString *_clientId;
-    NSArray *_entityNames;
-    NSMutableDictionary *_transientSyncModes;
-    NSMutableArray *_entityNamesHavingTruthPulled;
-    NSMutableSet *_pushTruthApprovalTable;
-    NSArray *_clientSyncStates;
-    id <ISyncSessionCallback> _callbackTarget;
-    id _clientState;
-    int _phase;
-    _Bool _alerted;
-    NSDate *_responseDate;
-    ISDFileReference *_formatterBundle;
-    NSNumber *_useLocalIdsForGuids;
-    _Bool _synchronizesAllEntities;
 }
 
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (int);
 - (int);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -45,20 +30,20 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)*;
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)";
 - (void);
 - (id);
 - (id);

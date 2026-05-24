@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableString, NSSet, NSString, PRSRankingConfiguration;
+@class NSString;
 
 @interface SSRankingManager
 {
     _Bool _isCancelled;
-    _Bool _bullseyeRankingEnabled;
-    PRSRankingConfiguration *_rankingConfiguration;
-    NSMutableString *_logValues;
-    NSDictionary *_groupedResults;
-    NSString *_query;
-    NSSet *_allowedTopHitSections;
 }
 
 + (id);
@@ -31,15 +25,15 @@
 + (void);
 + (void);
 + (void);
-+ (void);
++ (void)"{?="__cap_"^v}}"_keyedRotation"{vector<std:(id)arg1:(id)arg2 pair<double, float __attribute__((ext_vector_type(3)))>, std:(id)arg3:allocator<std::pair<double, float __attribute__((ext_vector_type(3)))>>>="__begin_"^v"__end_"^v""{?="__cap_"^v}}"_keyedShear"{vector<std::pair<double, float __attribute__((ext_vector_type(3)))>, std::allocator<std::pair<double, float __attribute__((ext_vector_type(3)))>>>="__begin_"^v"__end_"^v""{?="__cap_"^v}}"_keyedScale"{vector<std::pair<double, float __attribute__((ext_vector_type(3)))>, std::allocator<std::pair<double, float __attribute__((ext_vector_type(3)))>>>="__begin_"^v"__end_"^v""{?="__cap_"^v}}"_startTime"d"_greatestTime"d"_identity"B"_resetTransformStack"B"_evaluationTime"d"_transform"{float4x4="columns"[4]}"_invTransform"{float4x4="columns"[4]}"_jacobiRotation"{float4x4="columns"[4]}"_invJacobiRotation"{float4x4="columns"[4]}} /* Error: Ran out of types for this method. */;
 + (float);
-+ (long long);
++ (long long);
 + (float);
 + (void);
 + (id);
 + (id);
 + (id);
-+ (void);
++ (void)setVideoConversionServiceClient:(id)arg1;
 + (void);
 + (void);
 + (void);
@@ -47,7 +41,7 @@
 + (void);
 + (void);
 + (void);
-+ (void)ndleL2eFeatureCountObjectKey;
++ (void)_withinBundleL2eFeatureCountObjectKey;
 - (void);
 - (void);
 - (float);
@@ -65,49 +59,43 @@
 - (void);
 - (float);
 - (_Bool);
+- (void)Image";
+- (long long)trailingIconBadgeProperties;
+- (_Bool)shouldApplyFallbackFontForTruncatedSingleLine;
+- (void)setSourceContextIcon:(id)arg1;
+- (float)setShouldIgnoreAppStoreMetadata:(float)arg1;
+- (float)setShouldCollapseWhenCompressed:(float)arg1;
+- (id)setShouldApplyFallbackFontForTruncatedSingleLine: /* Error: Ran out of types for this method. */;
+- (void)setRightView: /* Error: Ran out of types for this method. */;
+- (void)setRemoteVideoURL:(id)arg1;
+- (float)setBackgroundImageProperties:(id)arg1;
+- (id)setAddresses: /* Error: Ran out of types for this method. */;
 - (void);
-- (long long);
-- (_Bool);
-- (void);
-- (float);
-- (float);
-- (id);
-- (void);
-- (void);
-- (float);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
 - (void);
 - (_Bool);
-- (void)sInRange: /* Error: Ran out of types for this method. */;
-- (void)nre_TermFrequencies_Sum_Word;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (_Bool)P;
+- (void)indexSetWithIndexesInRange: /* Error: Ran out of types for this method. */;
+- (void)kMDItemGenre_TermFrequencies_Sum_Word;
 
 // Remaining properties
-@property(retain) NSSet *allowedTopHitSections; // @synthesize allowedTopHitSections=_allowedTopHitSections;
-@property(nonatomic) _Bool bullseyeRankingEnabled; // @synthesize bullseyeRankingEnabled=_bullseyeRankingEnabled;
-@property(retain, nonatomic) NSDictionary *groupedResults; // @synthesize groupedResults=_groupedResults;
-@property _Bool isCancelled; // @synthesize isCancelled=_isCancelled;
-@property(retain, nonatomic) NSMutableString *logValues; // @synthesize logValues=_logValues;
 @property(retain) NSString *query; // @synthesize query=_query;
-@property(retain, nonatomic) PRSRankingConfiguration *rankingConfiguration; // @synthesize rankingConfiguration=_rankingConfiguration;
 
 @end
 

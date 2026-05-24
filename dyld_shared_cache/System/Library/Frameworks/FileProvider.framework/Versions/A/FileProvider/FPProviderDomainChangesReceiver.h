@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FPPacer, NSDictionary, NSMutableSet, NSObject;
-@protocol OS_dispatch_queue;
+@class NSDictionary, NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface FPProviderDomainChangesReceiver
 {
     NSMutableSet *_changesHandlers;
-    NSDictionary *_providerDomainsByID;
-    NSObject<OS_dispatch_queue> *_notifyQueue;
-    int _notifyToken;
-    int _settingsChangedToken;
-    FPPacer *_pacer;
-    _Bool _dontLoadCacheFromDisk;
-    _Bool _ignoreUpdateNotifications;
 }
 
 + (id);
@@ -27,7 +19,7 @@ __attribute__((visibility("hidden")))
 + (id);
 - (void);
 - (void);
-- (id);
+- (id)Connection"16;
 - (_Bool);
 - (void);
 - (void);

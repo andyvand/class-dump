@@ -4,70 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, UIFont;
+@class UIFont;
 
 @interface CNContactStyle
 {
     _Bool _usesOpaqueBackground;
-    _Bool _usesTranslucentBarStyle;
-    _Bool _shouldPresentInCurrentContext;
-    _Bool _blurSupported;
-    UIColor *_textColor;
-    UIColor *_sectionHeaderTextColor;
-    UIColor *_taglineTextColor;
-    UIColor *_disabledTextColor;
-    UIColor *_blueSelectionSecondaryTextColor;
-    UIColor *_placeholderTextColor;
-    UIColor *_highlightedTextColor;
-    UIColor *_highlightedTextLightColor;
-    UIColor *_suggestedLabelTextColor;
-    UIColor *_suggestedValueTextColor;
-    UIColor *_readOnlyTextColor;
-    UIColor *_notesTextColor;
-    UIColor *_backgroundColor;
-    UIColor *_sectionIndexBackgroundColor;
-    long long _separatorBackdropOverlayBlendMode;
-    UIColor *_searchBarBackgroundColor;
-    UIColor *_transportBackgroundColor;
-    UIColor *_transportBorderColor;
-    UIColor *_transportBoldBackgroundColor;
-    UIColor *_contactHeaderBackgroundColor;
-    UIColor *_contactHeaderDropShadowColor;
-    UIColor *_tintColorOverride;
-    UIColor *_headerBackgroundColor;
-    UIColor *_separatorColor;
-    long long _separatorStyle;
-    UIColor *_sectionBackgroundColor;
-    UIColor *_selectedCellBackgroundColor;
-    UIColor *_groupedBackgroundColor;
-    UIColor *_searchCellBackgroundColor;
-    UIColor *_listTextColor;
-    long long _barStyle;
-    long long _keyboardAppearance;
-    long long _modalTransitionStyle;
-    long long _topActionsViewStyle;
-    long long _inlineActionsViewStyle;
-    long long _contactViewPlatterStyle;
-    double _sectionMaximumPlatterWidth;
-    double _sectionCornerRadius;
-    double _sectionContentInset;
-    struct UIEdgeInsets _separatorInset;
 }
 
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)'H)	k;
++ (id);
 + (id);
 + (void);
 + (id);
 + (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
-- (void);
+- (void)	;
 - (id);
 - (void);
 - (void);
@@ -79,22 +36,22 @@
 - (void);
 - (double);
 - (void);
-- (void);
+- (void)enumeratePropertyChangesUsingBlock:(long long)arg1;
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void)mt_implicitlyAnimatableKeys;
+- (long long)B;
 - (void);
-- (long long);
-- (void);
-- (void);
-- (id);
+- (void)^;
+- (id)defaultEnhanceDialogueEnabled;
 - (double);
-- (void);
+- (void)G;
 - (id);
 - (_Bool);
-- (void);
+- (void)LA;
 - (id);
 - (id);
 - (void);
@@ -129,31 +86,31 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)`;
 - (double);
-- (void);
-- (void);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)coreFileMachVmRegionRecurseSubmapShort64:(id)arg1 size:nestingDepth:info:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (long long);
 - (id);
+- (id));
+- (id);
+- (id);
 - (void);
+- (id);
 - (void);
+- (long long);
+- (id);
+- (void)isProgressIndeterminate;
+- (void)hread:(id)arg1 %p;
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)mimeEncodedContentLength;
 - (void);
 - (long long);
 - (void)aratorBackdropOverlayBlendMode;
-- (id)Height;
+- (id)posterMaxHeight;
 - (void);
 - (id);
 - (id)ÿÿ´­ÿÿ,'Óÿ;
@@ -162,53 +119,7 @@
 - (long long)¹ëÿq;
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(nonatomic) long long barStyle; // @synthesize barStyle=_barStyle;
-@property(retain, nonatomic) UIColor *blueSelectionSecondaryTextColor; // @synthesize blueSelectionSecondaryTextColor=_blueSelectionSecondaryTextColor;
-@property(nonatomic) _Bool blurSupported; // @synthesize blurSupported=_blurSupported;
-@property(readonly, nonatomic) UIFont *boldTextFont;
-@property(retain, nonatomic) UIColor *contactHeaderBackgroundColor; // @synthesize contactHeaderBackgroundColor=_contactHeaderBackgroundColor;
-@property(retain, nonatomic) UIColor *contactHeaderDropShadowColor; // @synthesize contactHeaderDropShadowColor=_contactHeaderDropShadowColor;
-@property(nonatomic) long long contactViewPlatterStyle; // @synthesize contactViewPlatterStyle=_contactViewPlatterStyle;
-@property(retain, nonatomic) UIColor *disabledTextColor; // @synthesize disabledTextColor=_disabledTextColor;
-@property(retain, nonatomic) UIColor *groupedBackgroundColor; // @synthesize groupedBackgroundColor=_groupedBackgroundColor;
-@property(retain, nonatomic) UIColor *headerBackgroundColor; // @synthesize headerBackgroundColor=_headerBackgroundColor;
-@property(retain, nonatomic) UIColor *highlightedTextColor; // @synthesize highlightedTextColor=_highlightedTextColor;
-@property(retain, nonatomic) UIColor *highlightedTextLightColor; // @synthesize highlightedTextLightColor=_highlightedTextLightColor;
-@property(nonatomic) long long inlineActionsViewStyle; // @synthesize inlineActionsViewStyle=_inlineActionsViewStyle;
-@property(nonatomic) long long keyboardAppearance; // @synthesize keyboardAppearance=_keyboardAppearance;
-@property(retain, nonatomic) UIColor *listTextColor; // @synthesize listTextColor=_listTextColor;
-@property(nonatomic) long long modalTransitionStyle; // @synthesize modalTransitionStyle=_modalTransitionStyle;
-@property(retain, nonatomic) UIColor *notesTextColor; // @synthesize notesTextColor=_notesTextColor;
-@property(retain, nonatomic) UIColor *placeholderTextColor; // @synthesize placeholderTextColor=_placeholderTextColor;
-@property(retain, nonatomic) UIColor *readOnlyTextColor; // @synthesize readOnlyTextColor=_readOnlyTextColor;
-@property(retain, nonatomic) UIColor *searchBarBackgroundColor; // @synthesize searchBarBackgroundColor=_searchBarBackgroundColor;
-@property(retain, nonatomic) UIColor *searchCellBackgroundColor; // @synthesize searchCellBackgroundColor=_searchCellBackgroundColor;
-@property(retain, nonatomic) UIColor *sectionBackgroundColor; // @synthesize sectionBackgroundColor=_sectionBackgroundColor;
-@property(nonatomic) double sectionContentInset; // @synthesize sectionContentInset=_sectionContentInset;
-@property(nonatomic) double sectionCornerRadius; // @synthesize sectionCornerRadius=_sectionCornerRadius;
-@property(retain, nonatomic) UIColor *sectionHeaderTextColor; // @synthesize sectionHeaderTextColor=_sectionHeaderTextColor;
-@property(retain, nonatomic) UIColor *sectionIndexBackgroundColor; // @synthesize sectionIndexBackgroundColor=_sectionIndexBackgroundColor;
-@property(nonatomic) double sectionMaximumPlatterWidth; // @synthesize sectionMaximumPlatterWidth=_sectionMaximumPlatterWidth;
-@property(retain, nonatomic) UIColor *selectedCellBackgroundColor; // @synthesize selectedCellBackgroundColor=_selectedCellBackgroundColor;
-@property(nonatomic) long long separatorBackdropOverlayBlendMode; // @synthesize separatorBackdropOverlayBlendMode=_separatorBackdropOverlayBlendMode;
-@property(retain, nonatomic) UIColor *separatorColor; // @synthesize separatorColor=_separatorColor;
-@property(nonatomic) struct UIEdgeInsets separatorInset; // @synthesize separatorInset=_separatorInset;
-@property(nonatomic) long long separatorStyle; // @synthesize separatorStyle=_separatorStyle;
-@property(nonatomic) _Bool shouldPresentInCurrentContext; // @synthesize shouldPresentInCurrentContext=_shouldPresentInCurrentContext;
-@property(retain, nonatomic) UIColor *suggestedLabelTextColor; // @synthesize suggestedLabelTextColor=_suggestedLabelTextColor;
-@property(retain, nonatomic) UIColor *suggestedValueTextColor; // @synthesize suggestedValueTextColor=_suggestedValueTextColor;
-@property(retain, nonatomic) UIColor *taglineTextColor; // @synthesize taglineTextColor=_taglineTextColor;
-@property(retain, nonatomic) UIColor *textColor; // @synthesize textColor=_textColor;
 @property(readonly, nonatomic) UIFont *textFont;
-@property(retain, nonatomic) UIColor *tintColorOverride; // @synthesize tintColorOverride=_tintColorOverride;
-@property(nonatomic) long long topActionsViewStyle; // @synthesize topActionsViewStyle=_topActionsViewStyle;
-@property(retain, nonatomic) UIColor *transportBackgroundColor; // @synthesize transportBackgroundColor=_transportBackgroundColor;
-@property(retain, nonatomic) UIColor *transportBoldBackgroundColor; // @synthesize transportBoldBackgroundColor=_transportBoldBackgroundColor;
-@property(retain, nonatomic) UIColor *transportBorderColor; // @synthesize transportBorderColor=_transportBorderColor;
-@property(readonly, nonatomic) _Bool usesInsetPlatterStyle;
-@property(nonatomic) _Bool usesOpaqueBackground; // @synthesize usesOpaqueBackground=_usesOpaqueBackground;
-@property(nonatomic) _Bool usesTranslucentBarStyle; // @synthesize usesTranslucentBarStyle=_usesTranslucentBarStyle;
 
 @end
 

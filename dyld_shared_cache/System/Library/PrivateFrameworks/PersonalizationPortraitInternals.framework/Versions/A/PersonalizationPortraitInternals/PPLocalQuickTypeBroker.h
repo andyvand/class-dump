@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PPQuickTypeConnectionsServant, PPQuickTypeContactsServant, PPQuickTypeEventsServant, PPQuickTypeNavigationServant, PPQuickTypeURLServant, _PASLock;
+@class PPQuickTypeNavigationServant;
 
 @interface PPLocalQuickTypeBroker
 {
     PPQuickTypeNavigationServant *_navigationServant;
-    PPQuickTypeContactsServant *_contactsServant;
-    PPQuickTypeEventsServant *_eventsServant;
-    PPQuickTypeConnectionsServant *_connectionsServant;
-    PPQuickTypeURLServant *_urlServant;
-    _PASLock *_cacheLock;
 }
 
-+ (id): /* Error: Ran out of types for this method. */;
-- (void);
++ (id)removeObject: /* Error: Ran out of types for this method. */;
+- (void)RESERVED_KEYWORD;
 - (void);
 - (void);
 - (id);

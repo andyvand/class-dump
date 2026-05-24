@@ -6,8 +6,7 @@
 
 #import <AppleMediaServicesUI/AMSUICommonViewController.h>
 
-@class ACAccount, AMSProcessInfo, AMSUIWebViewController, NSDictionary;
-@protocol AMSBagProtocol;
+@class AMSUIWebViewController;
 
 @interface AMSUIAddFundsViewController : AMSUICommonViewController
 {
@@ -15,30 +14,38 @@
 }
 
 + (id);
-+ (id)tting;
++ (id)submitting;
 + (id)ationTokenResultCÑ;=_pG;
 + (id)dentifier request failed with error:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
+- (void)d a master identifier without a stableHash for %@;
+- (id)cs_vec_float8;
+- (id)ation != nil;
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void)taButtons: /* Error: Ran out of types for this method. */;
-- (id)illFinishWithError: /* Error: Ran out of types for this method. */;
+- (void)Custom kernel cache
+           --override, -O TAG=PATH         Specify a custom override using full image4 tag (i.e. kAMAuthInstallBuildIdentity*
+                                           key) and absolute path to the boot object to be measured; this option may be
+                                           specified multiple times
+
+       Examples:(_Bool)arg1 sudo %s --volume /Volumes/Macintosh\ HD
+               Personalize the system located at /Volumes/Macintosh HD
+
+           sudo %s --bundle /usr/standalone/i386/SecureBoot.bundle --variant CustomerInstall --output /tmp/personalized
+               Personalize the "CustomerInstall" variant in the specified secure boot bundle for the currently booted
+               system and write the resulting image4 manifests to relative paths in the given output directory.
+
+;
+- (id)v>;
+- (void)setCtaButtons: /* Error: Ran out of types for this method. */;
+- (id)paymentAuthorizationController:willFinishWithError: /* Error: Ran out of types for this method. */;
 - (void)ÛÝ=yAAyAAyÉ=yù=yAAy`=£Ã=G_AAy¡	=yËÄ=yÈ=yïÇ=yAAyAAyCÉ=yADGz=y|=SgGGù=y­ô=GG_Qo__Qo__Qo__SSQo_AEGtGGöÛ=GAYGAYG;
 - (void)¼èÿÍ¡¡;
 
 // Remaining properties
-@property(retain) ACAccount *account;
-@property(retain) id <AMSBagProtocol> bag;
-@property(retain) AMSProcessInfo *clientInfo;
-@property(retain) NSDictionary *metricsOverlay;
 @property(readonly) AMSUIWebViewController *webViewController; // @synthesize webViewController=_webViewController;
 
 @end

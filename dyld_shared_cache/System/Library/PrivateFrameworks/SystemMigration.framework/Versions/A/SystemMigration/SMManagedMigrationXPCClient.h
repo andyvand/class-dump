@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCConnection, NSXPCInterface;
-@protocol SMDManagementProtocol;
+@class NSXPCInterface;
 
 @interface SMManagedMigrationXPCClient
 {
     _Bool _isForTesting;
-    NSXPCInterface *_daemonInterface;
-    NSXPCInterface *_exportedInterface;
-    NSXPCConnection *_daemonConnection;
-    id <SMDManagementProtocol> _daemonProxy;
-    NSString *_lastProcessName;
 }
 
 - (void);
@@ -23,7 +17,7 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool):attribute, public}ld resourceType=%{signpost.description:attribute, public}@ asset=%{signpost.description:attribute, public}@ timeRange=%{signpost.description:attribute, public}@ targetSize=%{signpost.description:attribute, public}@ videoSegmentTimeRange=%{signpost.description:attribute, public}@  /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -33,16 +27,11 @@
 - (void);
 - (void)ñ	1Â0@ù
 × ;
-- (id)ssPoint: /* Error: Ran out of types for this method. */;
+- (id)startAccessPoint: /* Error: Ran out of types for this method. */;
 - (id)okenForUser:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSXPCConnection *daemonConnection; // @synthesize daemonConnection=_daemonConnection;
 @property(retain) NSXPCInterface *daemonInterface; // @synthesize daemonInterface=_daemonInterface;
-@property(retain) id <SMDManagementProtocol> daemonProxy; // @synthesize daemonProxy=_daemonProxy;
-@property(retain) NSXPCInterface *exportedInterface; // @synthesize exportedInterface=_exportedInterface;
-@property _Bool isForTesting; // @synthesize isForTesting=_isForTesting;
-@property(retain) NSString *lastProcessName; // @synthesize lastProcessName=_lastProcessName;
 
 @end
 

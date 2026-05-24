@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface OSASymbolInfo
 {
     unsigned char _uuid[16];
-    NSString *legacy_arch;
-    _Bool _isAppleCode;
-    unsigned long long _start;
-    unsigned long long _size;
-    NSString *_path;
-    NSString *_name;
-    NSString *_cpuArch;
 }
 
 - (_Bool);
@@ -36,11 +27,6 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSString *cpuArch; // @synthesize cpuArch=_cpuArch;
-@property _Bool isAppleCode; // @synthesize isAppleCode=_isAppleCode;
-@property(retain) NSString *name; // @synthesize name=_name;
-@property(readonly) NSString *path; // @synthesize path=_path;
-@property unsigned long long size; // @synthesize size=_size;
 @property unsigned long long start; // @synthesize start=_start;
 
 @end

@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface NSSQLPredicateAnalyser
 {
     _Bool _compoundPredicate;
-    NSMutableArray *_keys;
-    NSMutableArray *_allModifierPredicates;
-    NSMutableArray *_setExpressions;
-    NSMutableArray *_subqueries;
 }
 
 - (void);
 - (id);
 - (void)Coordinator removeUbiquitousContentAndPersistentStoreAtURL:(id)arg1 options:error:] is no longer supported and the symbol will be removed in a future release. Please adopt %@ instead. /* Error: Ran out of types for this method. */;
-- (void)y;
+- (void)NSObjectsChangedByMergeChangesKey;
 - (void)jÒÿ;
 
 @end

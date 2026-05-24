@@ -33,13 +33,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)9;
 - (BOOL);
-- (long long);
+- (long long);
 - (int);
 - (short);
 - (float);
-- (id);
+- (id)j;
 - (id);
 - (double);
 - (id);
@@ -51,7 +51,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)H;
 - (id);
 
 @end

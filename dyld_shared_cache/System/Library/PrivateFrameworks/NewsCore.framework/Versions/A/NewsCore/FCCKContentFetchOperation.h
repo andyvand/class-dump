@@ -6,20 +6,9 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class FCCKContentDatabase, NSArray, NSDictionary;
-
 @interface FCCKContentFetchOperation : FCOperation
 {
     _Bool _getPermanentAssetURLs;
-    int _networkEventType;
-    FCCKContentDatabase *_database;
-    NSArray *_recordIDs;
-    NSDictionary *_recordIDsToETags;
-    NSArray *_desiredKeys;
-    long long _optimizationPolicy;
-    CDUnknownBlockType _perRecordCompletionBlock;
-    CDUnknownBlockType _fetchRecordsCompletionBlock;
-    NSArray *_requestUUIDs;
 }
 
 - (id);

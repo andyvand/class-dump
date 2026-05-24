@@ -8,24 +8,18 @@ __attribute__((visibility("hidden")))
 @interface WSEventAnnotationParams
 {
     _Bool _shouldProcessEvent;
-    _Bool _setTarget;
-    _Bool _forceRouting;
-    _Bool _noBackground;
 }
 
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)%@;
+- (_Bool)[NSCloudKitMirroringDelegate applicationStateMonitorEnteredBackground:]_block_invoke_2 /* Error: Ran out of types for this method. */;
+- (void)a.voucher.expire;
+- (void)nvoke;
+- (void)pple.coredata.cloudkit.schema.initialize;
+- (void)mpletionHandler:(_Bool)arg1 ]_block_invoke;
+- (_Bool)tup Reset;
+- (_Bool)QLAttributeTrigger.m;
 
 // Remaining properties
-@property(nonatomic) _Bool forceRouting; // @synthesize forceRouting=_forceRouting;
-@property(nonatomic) _Bool noBackground; // @synthesize noBackground=_noBackground;
-@property(nonatomic) _Bool setTarget; // @synthesize setTarget=_setTarget;
 @property(nonatomic) _Bool shouldProcessEvent; // @synthesize shouldProcessEvent=_shouldProcessEvent;
 
 @end

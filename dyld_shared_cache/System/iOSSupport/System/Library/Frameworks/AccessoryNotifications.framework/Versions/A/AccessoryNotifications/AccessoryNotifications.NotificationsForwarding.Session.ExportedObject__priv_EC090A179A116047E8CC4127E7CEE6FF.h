@@ -7,13 +7,14 @@
 @interface AccessoryNotifications.NotificationsForwarding.Session.ExportedObject__priv_EC090A179A116047E8CC4127E7CEE6FF
 {
     id outer;
+    id;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)A;
 
 @end
 

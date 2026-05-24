@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 - (vector_1399404a);
 - (id);
 - (id);
-- (void)uptIndex:prefix:path:readOnly:reason: /* Error: Ran out of types for this method. */;
+- (void)sendIndexDropEventWithCorruptIndex:prefix:path:readOnly:reason: /* Error: Ran out of types for this method. */;
 
 @end
 

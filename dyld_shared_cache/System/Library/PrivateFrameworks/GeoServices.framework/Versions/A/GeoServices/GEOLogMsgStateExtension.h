@@ -9,19 +9,9 @@
 @interface GEOLogMsgStateExtension
 {
     PBUnknownFields *_unknownFields;
-    _Bool _hasRideBookingAppEnabled;
-    _Bool _hasRideBookingAppInstalled;
-    _Bool _hasTableBookingAppEnabled;
-    _Bool _hasTableBookingAppInstalled;
-    struct {
-        unsigned int has_hasRideBookingAppEnabled:1;
-        unsigned int has_hasRideBookingAppInstalled:1;
-        unsigned int has_hasTableBookingAppEnabled:1;
-        unsigned int has_hasTableBookingAppInstalled:1;
-    } _flags;
 }
 
-+ (_Bool)kingFeatureMetadata:(id)arg1;
++ (_Bool)setHasSupportClientRankingFeatureMetadata:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -29,22 +19,22 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void)",&,N,V_clientBundleIdentifierCachedValue;
 - (void);
-- (void);
+- (id),;
 - (id);
-- (id);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)oken:(_Bool)arg1 %{public}@;
+- (void)#~;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)Versions/A/CoreFoundation;
+- (_Bool)S_setShowsNightMode: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (id)ectsMapTable;
+- (id)strongToStrongObjectsMapTable;
 - (id)t;
 - (id)entifier that is not present in the mapsResults array, or mapsResults contains an item that we were not able to create a GEOPublisherResult from.;
 - (id)	;
@@ -56,15 +46,7 @@
 - (_Bool)þÎ¦5®E6;
 
 // Remaining properties
-@property(nonatomic) _Bool hasHasRideBookingAppEnabled;
 @property(nonatomic) _Bool hasHasRideBookingAppInstalled;
-@property(nonatomic) _Bool hasHasTableBookingAppEnabled;
-@property(nonatomic) _Bool hasHasTableBookingAppInstalled;
-@property(nonatomic) _Bool hasRideBookingAppEnabled;
-@property(nonatomic) _Bool hasRideBookingAppInstalled;
-@property(nonatomic) _Bool hasTableBookingAppEnabled;
-@property(nonatomic) _Bool hasTableBookingAppInstalled;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

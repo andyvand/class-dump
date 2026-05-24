@@ -6,34 +6,26 @@
 
 #import <EventKitUI/EKCalendarButtonEditItem.h>
 
-@class NSString, UIActivityIndicatorView, UILabel, UITableViewCell;
+@class UITableViewCell;
 
 @interface EKCalendarValidateEditItem : EKCalendarButtonEditItem
 {
     UITableViewCell *_cell;
-    NSString *_buttonTitle;
-    UIActivityIndicatorView *_spinner;
-    UILabel *_buttonTextLabel;
-    _Bool _showError;
-    _Bool _animateSpinner;
-    _Bool _URLIsSpam;
 }
 
-- (_Bool);
+- (_Bool)s&s;
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
+- (id)>;
 - (id);
-- (id);
-- (void)rContactDictionary;
+- (void)organizerContactDictionary;
 
 // Remaining properties
-@property(nonatomic) _Bool URLIsSpam; // @synthesize URLIsSpam=_URLIsSpam;
-@property(nonatomic) _Bool animateSpinner; // @synthesize animateSpinner=_animateSpinner;
 @property(nonatomic) _Bool showError; // @synthesize showError=_showError;
 
 @end

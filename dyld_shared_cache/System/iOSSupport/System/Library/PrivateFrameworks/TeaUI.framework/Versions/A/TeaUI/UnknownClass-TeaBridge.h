@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TSTransitionContainerViewController, UIViewController;
+@class UIViewController;
 
 @interface UnknownClass (TeaBridge)
 + (void);
@@ -14,6 +14,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) UIViewController *ts_parentVC;
-@property(nonatomic, readonly) TSTransitionContainerViewController *ts_transitionContainerViewController;
 @end
 

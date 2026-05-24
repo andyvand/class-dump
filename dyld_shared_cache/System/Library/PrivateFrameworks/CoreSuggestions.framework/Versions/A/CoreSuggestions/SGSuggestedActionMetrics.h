@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SGMContactConfirmed, SGMContactDetailConfirmed, SGMContactDetailConversationTurn, SGMContactDetailRejected, SGMContactDetailUsed, SGMContactInBanner, SGMContactRejected, SGMEventBannerConfirmed, SGMEventBannerRejected, SGMEventInBanner, SGMMaybeInformationShown, SGMUnknownContactInformationShown;
+@class SGMContactInBanner;
 
 @interface SGSuggestedActionMetrics
 {
     SGMContactInBanner *_contactInBanner;
-    SGMContactConfirmed *_contactConfirmed;
-    SGMContactRejected *_contactRejected;
-    SGMContactDetailConfirmed *_contactDetailConfirmed;
-    SGMContactDetailRejected *_contactDetailRejected;
-    SGMContactDetailUsed *_contactDetailUsed;
-    SGMEventInBanner *_eventInBanner;
-    SGMEventBannerConfirmed *_eventBannerConfirmed;
-    SGMEventBannerRejected *_eventBannerRejected;
-    SGMMaybeInformationShown *_maybeInformationShown;
-    SGMUnknownContactInformationShown *_unknownContactInformationShown;
-    SGMContactDetailConversationTurn *_contactDetailConversationTurn;
 }
 
 + (void);
@@ -31,10 +20,11 @@
 + (void);
 + (void);
 + (void);
-+ (id);
++ (id)loadTrialUpdates;
 - (id);
 - (void);
 - (void);
+- (void)b;
 - (void);
 - (void);
 - (void);
@@ -44,34 +34,22 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)#;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) SGMContactConfirmed *contactConfirmed; // @synthesize contactConfirmed=_contactConfirmed;
-@property(retain, nonatomic) SGMContactDetailConfirmed *contactDetailConfirmed; // @synthesize contactDetailConfirmed=_contactDetailConfirmed;
-@property(retain, nonatomic) SGMContactDetailConversationTurn *contactDetailConversationTurn; // @synthesize contactDetailConversationTurn=_contactDetailConversationTurn;
-@property(retain, nonatomic) SGMContactDetailRejected *contactDetailRejected; // @synthesize contactDetailRejected=_contactDetailRejected;
-@property(retain, nonatomic) SGMContactDetailUsed *contactDetailUsed; // @synthesize contactDetailUsed=_contactDetailUsed;
 @property(retain, nonatomic) SGMContactInBanner *contactInBanner; // @synthesize contactInBanner=_contactInBanner;
-@property(retain, nonatomic) SGMContactRejected *contactRejected; // @synthesize contactRejected=_contactRejected;
-@property(retain, nonatomic) SGMEventBannerConfirmed *eventBannerConfirmed; // @synthesize eventBannerConfirmed=_eventBannerConfirmed;
-@property(retain, nonatomic) SGMEventBannerRejected *eventBannerRejected; // @synthesize eventBannerRejected=_eventBannerRejected;
-@property(retain, nonatomic) SGMEventInBanner *eventInBanner; // @synthesize eventInBanner=_eventInBanner;
-@property(retain, nonatomic) SGMMaybeInformationShown *maybeInformationShown; // @synthesize maybeInformationShown=_maybeInformationShown;
-@property(retain, nonatomic) SGMUnknownContactInformationShown *unknownContactInformationShown; // @synthesize unknownContactInformationShown=_unknownContactInformationShown;
 
 @end
 

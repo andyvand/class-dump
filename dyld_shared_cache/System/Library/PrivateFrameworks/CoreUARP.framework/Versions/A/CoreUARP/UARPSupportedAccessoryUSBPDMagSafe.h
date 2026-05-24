@@ -12,7 +12,7 @@
 
 + (long long);
 + (long long);
-- (id);
+- (id)AMSServerDataCacheService;
 
 @end
 

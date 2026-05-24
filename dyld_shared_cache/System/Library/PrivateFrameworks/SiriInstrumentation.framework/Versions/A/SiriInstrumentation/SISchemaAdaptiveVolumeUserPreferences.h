@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaAdaptiveVolumeUserPreferences : SISchemaInstrumentationMessage
 {
     int _mostRecentIntent;
-    _Bool _isPermanentOffsetEnabled;
-    float _permanentOffsetFactor;
-    struct {
-        unsigned int mostRecentIntent:1;
-        unsigned int isPermanentOffsetEnabled:1;
-        unsigned int permanentOffsetFactor:1;
-    } _has;
 }
 
 - (void);
@@ -35,24 +26,19 @@
 - (void);
 - (void);
 - (float);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)ScannerResult"8;
+- (_Bool)age_join AS cmj   JOIN message AS m   ON m.ROWID = cmj.message_id AND m.guid = ?;;
 - (id);
-- (id);
-- (id)ntextualEntityRetrievalContext;
-- (id)lDisambiguationHistory;
+- (id)elBuffer error:cvPixelBuffer may not be NULL
+ /* Error: Ran out of types for this method. */;
+- (id)contextualEntityRetrievalContext;
+- (id)_actionLevelDisambiguationHistory;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsPermanentOffsetEnabled;
-@property(nonatomic) _Bool hasMostRecentIntent;
-@property(nonatomic) _Bool hasPermanentOffsetFactor;
-@property(nonatomic) _Bool isPermanentOffsetEnabled; // @synthesize isPermanentOffsetEnabled=_isPermanentOffsetEnabled;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int mostRecentIntent; // @synthesize mostRecentIntent=_mostRecentIntent;
-@property(nonatomic) float permanentOffsetFactor; // @synthesize permanentOffsetFactor=_permanentOffsetFactor;
 
 @end
 

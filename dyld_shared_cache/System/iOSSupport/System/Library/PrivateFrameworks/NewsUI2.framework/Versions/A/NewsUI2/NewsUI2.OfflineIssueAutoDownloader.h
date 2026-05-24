@@ -7,10 +7,6 @@
 @interface NewsUI2.OfflineIssueAutoDownloader
 {
     id currentIssuesChecker;
-    id offlineIssueManager;
-    id issueReadingHistory;
-    id offlineFeatures;
-    id triggerDeduper;
 }
 
 - (void);

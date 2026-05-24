@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PPPBExtractedDonationRecord
 {
     double _score;
-    unsigned long long _topicId;
-    unsigned long long _unixTimestampSec;
-    NSString *_algorithm;
-    NSString *_namedEntity;
-    NSString *_sourceBundleId;
-    struct {
-        unsigned int score:1;
-        unsigned int topicId:1;
-        unsigned int unixTimestampSec:1;
-    } _has;
 }
 
 - (unsigned long long);
@@ -33,10 +21,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)PG_QUERY__QUERY_SOURCE__QSRC_QUAL_INSTEAD_RULE;
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)@;
 - (id);
 - (void);
 - (void);
@@ -48,24 +36,13 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (double);
+- (double)=;
 - (void);
 - (void);
 - (void)s donating a city;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *algorithm; // @synthesize algorithm=_algorithm;
-@property(readonly, nonatomic) _Bool hasAlgorithm;
-@property(readonly, nonatomic) _Bool hasNamedEntity;
-@property(nonatomic) _Bool hasScore;
 @property(readonly, nonatomic) _Bool hasSourceBundleId;
-@property(nonatomic) _Bool hasTopicId;
-@property(nonatomic) _Bool hasUnixTimestampSec;
-@property(retain, nonatomic) NSString *namedEntity; // @synthesize namedEntity=_namedEntity;
-@property(nonatomic) double score; // @synthesize score=_score;
-@property(retain, nonatomic) NSString *sourceBundleId; // @synthesize sourceBundleId=_sourceBundleId;
-@property(nonatomic) unsigned long long topicId; // @synthesize topicId=_topicId;
-@property(nonatomic) unsigned long long unixTimestampSec; // @synthesize unixTimestampSec=_unixTimestampSec;
 
 @end
 

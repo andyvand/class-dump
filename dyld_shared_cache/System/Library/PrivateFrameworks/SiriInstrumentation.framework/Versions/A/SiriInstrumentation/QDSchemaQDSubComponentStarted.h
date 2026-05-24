@@ -6,34 +6,27 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface QDSchemaQDSubComponentStarted : SISchemaInstrumentationMessage
 {
     int _subComponent;
-    struct {
-        unsigned int subComponent:1;
-    } _has;
 }
 
-- (int);
+- (int);
+- (void)A;
+- (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)=;
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)4~CNq7ugDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDCreatePlaceholdersRequestOptions_macOS.m:24 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)_id, last_addressed_sim_id, is_blackholed, syndication_date, syndication_type, is_recovered, is_deleting_incoming_messages FROM chat LEFT OUTER JOIN chat_message_join ON    chat_message_join.chat_id == chat.rowid    AND chat_message_join.message_date = (       SELECT MAX(cmj_inner.message_date)        FROM chat_message_join cmj_inner        INNER JOIN message m ON m.ROWID = cmj_inner.message_id        WHERE cmj_inner.chat_id = chat.rowid            AND m.is_finished = 1 AND m.item_type = 0 AND m.associated_message_type != 3 AND NOT (m.schedule_type = 2 AND (m.schedule_state = 1 OR m.schedule_state = 2)) )WHERE    chat.is_archived = 0 %@ GROUP BY    chat.rowid ORDER BY    chat_message_join.message_date %@ LIMIT    ?;;
 - (id);
 - (id);
-- (id)entDonationTimeInSecondsSince2001;
+- (id)_userFollowupEventDonationTimeInSecondsSince2001;
 - (id)eviewed;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSubComponent;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int subComponent; // @synthesize subComponent=_subComponent;
 
 @end

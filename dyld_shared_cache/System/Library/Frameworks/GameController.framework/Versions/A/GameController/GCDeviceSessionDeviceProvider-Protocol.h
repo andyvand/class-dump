@@ -4,9 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
+@class GCFuture, NSSet;
 
 @protocol GCDeviceSessionDeviceProvider
+
+@optional
+- (GCFuture *);
 
 // Remaining properties
 @property(readonly, copy) NSSet *devices;

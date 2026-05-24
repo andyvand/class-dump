@@ -4,68 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface HMDBackingStoreLocal
 {
     struct sqlite3 *connection;
-    struct sqlite3_stmt *insertZone;
-    struct sqlite3_stmt *deleteZone;
-    struct sqlite3_stmt *selectZones;
-    struct sqlite3_stmt *insertStore;
-    struct sqlite3_stmt *selectStores;
-    struct sqlite3_stmt *insertGroup;
-    struct sqlite3_stmt *deleteGroup;
-    struct sqlite3_stmt *selectGroups;
-    struct sqlite3_stmt *updateGroupToken;
-    struct sqlite3_stmt *updateGroupSubscription;
-    struct sqlite3_stmt *insertShare;
-    struct sqlite3_stmt *updateShareShare;
-    struct sqlite3_stmt *updateShareUsers;
-    struct sqlite3_stmt *deleteShare;
-    struct sqlite3_stmt *selectShares;
-    struct sqlite3_stmt *insertRecord;
-    struct sqlite3_stmt *updateRecordSchema;
-    struct sqlite3_stmt *selectRecordCountGroup;
-    struct sqlite3_stmt *selectRecordGroupTypeSchema;
-    struct sqlite3_stmt *selectRecordGroup;
-    struct sqlite3_stmt *selectRecordGroupMap;
-    struct sqlite3_stmt *selectRecordUUID;
-    struct sqlite3_stmt *selectRecordParentUUID;
-    struct sqlite3_stmt *selectRecordParent;
-    struct sqlite3_stmt *selectRecordName;
-    struct sqlite3_stmt *selectRecordUUIDNoShare;
-    struct sqlite3_stmt *selectRecordParentNoShare;
-    struct sqlite3_stmt *selectRecordNameNoShare;
-    struct sqlite3_stmt *selectRecords;
-    struct sqlite3_stmt *selectStoreRecords;
-    struct sqlite3_stmt *deleteRecord;
-    struct sqlite3_stmt *flushPushedXact;
-    struct sqlite3_stmt *insertLog;
-    struct sqlite3_stmt *updateLogToDiskCommited;
-    struct sqlite3_stmt *updateLogXactID;
-    struct sqlite3_stmt *selectLog;
-    struct sqlite3_stmt *selectChangeExistsLog;
-    struct sqlite3_stmt *selectAllLog;
-    struct sqlite3_stmt *insertLogOptions;
-    struct sqlite3_stmt *selectLogOptions;
-    struct sqlite3_stmt *updateLog;
-    struct sqlite3_stmt *deleteLog;
-    struct sqlite3_stmt *insertArchive;
-    struct sqlite3_stmt *selectArchive;
-    struct sqlite3_stmt *commit;
-    struct sqlite3_stmt *rollback;
-    struct sqlite3_stmt *begin;
-    NSString *_datastoreFile;
-    NSMutableArray *_zoneCache;
-    NSMutableDictionary *_storeCache;
 }
 
 + (void);
 + (id)Üÿ;
-- (id);
-- (void);
+- (id)_startMonitoringSystemBlockListIfNeeded;
+- (void)equesting %lu %{public}@ handles;
 - (id);
 - (id);
 - (id);
@@ -80,7 +30,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)8);
 - (void);
 - (id);
 - (void);
@@ -124,15 +74,6 @@ __attribute__((visibility("hidden")))
 - (id)Ùÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *datastoreFile; // @synthesize datastoreFile=_datastoreFile;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableDictionary *storeCache; // @synthesize storeCache=_storeCache;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSMutableArray *zoneCache; // @synthesize zoneCache=_zoneCache;
 
 @end

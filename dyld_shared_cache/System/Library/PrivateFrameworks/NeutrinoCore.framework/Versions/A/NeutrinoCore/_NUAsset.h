@@ -10,7 +10,6 @@
 @interface _NUAsset
 {
     id <NUAssetMedia> _media;
-    NSString *_identifier;
 }
 
 - (id);
@@ -18,15 +17,13 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)_eapol;
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) id <NUAssetMedia> media;
-@property(readonly, nonatomic) long long type;
 
 @end
 

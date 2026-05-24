@@ -8,7 +8,7 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)layerWithSession:(long long)arg1;
 
 @end
 

@@ -11,10 +11,9 @@
 @interface CKDApplyZoneAttributeChangesOperation : CKDDatabaseOperation
 {
     unsigned long long _pcsKeysRemoved;
-    CKRecordZone *_zone;
 }
 
-+ (id);
++ (id)setRoamStatus_Failed_Count_BeforeTDWait:(unsigned long long)arg1;
 - (void);
 - (void);
 - (void);
@@ -22,16 +21,14 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
+- (id)setSuppress_UserInput_Duration: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
-- (id);
+- (void);
+- (id)P;
 - (void)@?0@"CKMovePhotosChange"8;
 - (id): /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned long long pcsKeysRemoved; // @synthesize pcsKeysRemoved=_pcsKeysRemoved;
-@property(nonatomic) unsigned long long state; // @dynamic state;
 @property(retain, nonatomic) CKRecordZone *zone; // @synthesize zone=_zone;
 
 @end

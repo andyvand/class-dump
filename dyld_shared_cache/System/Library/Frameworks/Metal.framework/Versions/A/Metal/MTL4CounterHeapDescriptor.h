@@ -7,10 +7,9 @@
 @interface MTL4CounterHeapDescriptor
 {
     long long _type;
-    unsigned long long _count;
 }
 
-- (void);
+- (void)fullSizeImage;
 - (id);
 - (unsigned long long);
 - (long long);
@@ -23,7 +22,6 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) unsigned long long count; // @synthesize count=_count;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

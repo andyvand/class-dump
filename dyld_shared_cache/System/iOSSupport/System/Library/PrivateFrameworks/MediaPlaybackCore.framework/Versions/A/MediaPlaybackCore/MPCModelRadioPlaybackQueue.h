@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCModelGenericAVItemUserIdentityPropertySet, MPCPlaybackRequestEnvironment, MPModelRadioStation, MPPropertySet, MPSectionedCollection, NSHashTable;
+@class MPCModelGenericAVItemUserIdentityPropertySet;
 
 __attribute__((visibility("hidden")))
 @interface MPCModelRadioPlaybackQueue
 {
     struct os_unfair_lock_s _lock;
-    NSHashTable *_activeModelGenericAVItems;
-    _Bool _isSiriInitiated;
-    _Bool _prioritizeStartupOverQuality;
-    MPPropertySet *_itemProperties;
-    MPCPlaybackRequestEnvironment *_playbackRequestEnvironment;
-    MPSectionedCollection *_trackModels;
-    MPSectionedCollection *_tracks;
-    MPCModelGenericAVItemUserIdentityPropertySet *_identityPropertySet;
-    MPModelRadioStation *_radioStation;
 }
 
 - (id);
@@ -28,8 +19,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (id);
+- (void)updateStartUsingiCloudFollowupForAccountStore:(id)arg1 account:oldAccount: /* Error: Ran out of types for this method. */;
+- (id)aa_needsToVerifyTerms;
 - (void);
 - (id);
 - (id);
@@ -41,10 +32,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) MPCModelGenericAVItemUserIdentityPropertySet *identityPropertySet;
-@property(readonly, nonatomic) long long numberOfItems;
-@property(retain, nonatomic) MPModelRadioStation *radioStation;
-@property(readonly, nonatomic) MPSectionedCollection *trackModels;
-@property(readonly, nonatomic) MPSectionedCollection *tracks;
 
 @end
 

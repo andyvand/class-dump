@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IXApplicationIdentity, NSUUID;
+@class NSUUID;
 
 @interface IXAppInstallCoordinatorSeed
 {
     unsigned int _creatorEUID;
-    NSUUID *_uniqueIdentifier;
-    unsigned long long _creator;
-    unsigned long long _intent;
-    IXApplicationIdentity *_identity;
-    unsigned long long _installationDomain;
 }
 
-+ (_Bool);
++ (_Bool)0;
 - (void);
 - (unsigned long long);
 - (unsigned int);
@@ -29,17 +24,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)windowDidResignKey:(id)arg1;
 - (id);
 - (void);
-- (unsigned long long)AppAssetPromise: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_remote_IXSCoordinatedAppInstall:getAppAssetPromise: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned long long creator; // @synthesize creator=_creator;
-@property(nonatomic) unsigned int creatorEUID; // @synthesize creatorEUID=_creatorEUID;
-@property(retain, nonatomic) IXApplicationIdentity *identity; // @synthesize identity=_identity;
-@property(nonatomic) unsigned long long installationDomain; // @synthesize installationDomain=_installationDomain;
-@property(nonatomic) unsigned long long intent; // @synthesize intent=_intent;
 @property(retain, nonatomic) NSUUID *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end

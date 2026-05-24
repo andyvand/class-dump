@@ -6,17 +6,11 @@
 
 #import <QuartzComposer/QCImageProvider.h>
 
-@class NSArray, QCRegion, QCStream;
+@class QCStream;
 
 @interface QCProvider_OpenCL : QCImageProvider
 {
     QCStream *_stream;
-    struct CGColorSpace *_colorSpace;
-    struct CGSize _size;
-    QCRegion *_domainOfDefinition;
-    NSArray *_pixelFormats;
-    _Bool _isImage;
-    _Bool _textureBacking;
 }
 
 + (_Bool);

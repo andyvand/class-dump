@@ -7,18 +7,6 @@
 @interface AppStoreKit.ArcadeSubscribePage
 {
     id pageType;
-    id details;
-    id offerButtonAction;
-    id subscribedOfferButtonAction;
-    id offerDisplayProperties;
-    id dismissButtonTitle;
-    id openAppAction;
-    id dismissingPostSubscribeAction;
-    id nonDismissingPostSubscribeAction;
-    id askToBuyMessage;
-    id askToBuyId;
-    id pageMetrics;
-    id pageRenderEvent;
 }
 
 @end

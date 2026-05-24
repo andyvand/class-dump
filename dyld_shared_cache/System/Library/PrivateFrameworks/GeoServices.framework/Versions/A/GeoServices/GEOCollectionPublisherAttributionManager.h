@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPublisherAttributionManifestIndex, NSCache, geo_isolater;
+@class NSCache;
 
 @interface GEOCollectionPublisherAttributionManager
 {
     NSCache *_manifestsCache;
-    geo_isolater *_isolator;
-    GEOPublisherAttributionManifestIndex *_index;
 }
 
 + (id)Ô×ÂþÛ%;
 - (id);
 - (id);
-- (id);
+- (id)cessfully:option:withEventUUID:forAccessory:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void)Øõ°ÿ½
 6 6;
 

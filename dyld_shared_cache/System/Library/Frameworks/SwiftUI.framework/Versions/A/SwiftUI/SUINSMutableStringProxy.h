@@ -12,11 +12,11 @@
 }
 
 - (id);
-- (void);
-- (unsigned long long);
+- (void)g language correction. Requested locale '%@'.;
+- (unsigned long long)r*r�;
 - (id);
-- (unsigned short)OfSelectedItem;
-- (void)ets;
+- (unsigned short)indexOfSelectedItem;
+- (void)nonScrollableEdgeInsets;
 - (void);
 
 @end

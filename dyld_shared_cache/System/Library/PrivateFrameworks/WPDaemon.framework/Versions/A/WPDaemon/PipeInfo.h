@@ -4,28 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBScalablePipe, NSObject, PipeDataTransfer;
-@protocol OS_dispatch_source, OS_voucher;
+@class NSObject;
+@protocol OS_dispatch_source;
 
 @interface PipeInfo
 {
     struct pthread_override_s *_qosOverride;
-    struct pthread_override_s *_socketThreadQOSOverride;
-    _Bool _newProtocol;
-    _Bool _versionInfoSent;
-    _Bool _versionInfoReceived;
-    _Bool _pipeDidConnectSent;
-    unsigned char _version;
-    unsigned char _localVersion;
-    _Bool _useConnectStatusPDU;
-    _Bool _connectionInitiator;
-    unsigned int _supportedFeatures;
-    unsigned int _localSupportedFeatures;
-    NSObject<OS_dispatch_source> *_pipeReadSource;
-    CBScalablePipe *_pipe;
-    NSObject<OS_voucher> *_voucher;
-    PipeDataTransfer *_pipeDataTransfer;
-    PipeDataTransfer *_ackData;
 }
 
 - (_Bool);
@@ -47,39 +31,25 @@
 - (_Bool);
 - (unsigned int);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)N;
 - (unsigned char);
-- (void);
+- (void);
 - (void);
 - (unsigned char);
 - (id);
 - (void);
 - (id);
-- (unsigned int);
+- (unsigned int)t NSSecureCodable:%@:%@! /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain) PipeDataTransfer *ackData; // @synthesize ackData=_ackData;
-@property _Bool connectionInitiator; // @synthesize connectionInitiator=_connectionInitiator;
-@property unsigned int localSupportedFeatures; // @synthesize localSupportedFeatures=_localSupportedFeatures;
-@property unsigned char localVersion; // @synthesize localVersion=_localVersion;
-@property _Bool newProtocol; // @synthesize newProtocol=_newProtocol;
-@property(retain) CBScalablePipe *pipe; // @synthesize pipe=_pipe;
-@property(retain) PipeDataTransfer *pipeDataTransfer; // @synthesize pipeDataTransfer=_pipeDataTransfer;
-@property _Bool pipeDidConnectSent; // @synthesize pipeDidConnectSent=_pipeDidConnectSent;
 @property(retain) NSObject<OS_dispatch_source> *pipeReadSource; // @synthesize pipeReadSource=_pipeReadSource;
-@property unsigned int supportedFeatures; // @synthesize supportedFeatures=_supportedFeatures;
-@property _Bool useConnectStatusPDU; // @synthesize useConnectStatusPDU=_useConnectStatusPDU;
-@property unsigned char version; // @synthesize version=_version;
-@property _Bool versionInfoReceived; // @synthesize versionInfoReceived=_versionInfoReceived;
-@property _Bool versionInfoSent; // @synthesize versionInfoSent=_versionInfoSent;
-@property(retain) NSObject<OS_voucher> *voucher; // @synthesize voucher=_voucher;
 
 @end
 

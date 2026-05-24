@@ -10,16 +10,16 @@
 
 + (id);
 - (id);
+- (void)enumerateKeysAndObjectsUsingBlock:(id)arg1;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)bufferedAudioEngine_setPlaybackStartTimeArrayForRTC;
 - (_Bool);
 - (unsigned int);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (Class)edZonePCSData:withInvitedPCS:error: /* Error: Ran out of types for this method. */;
+- (Class)decryptSharedZonePCSData:withInvitedPCS:error: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -20,7 +20,7 @@
 - (id);
 - (long long);
 - (long long);
-- (long long);
+- (long long);
 - (void);
 - (id);
 - (id);
@@ -32,10 +32,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long cellX;
-@property(readonly, nonatomic) long long cellY;
-@property(readonly, nonatomic) float relativeToEnclosingRegionX;
-@property(readonly, nonatomic) float relativeToEnclosingRegionY;
-@property(readonly, nonatomic) long long unitType;
 
 @end
 

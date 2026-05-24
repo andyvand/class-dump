@@ -6,16 +6,11 @@
 
 #import <Silex/SXMediaComponentView.h>
 
-@class NSString, SXAnimatedImageController, SXDragManager, SXImageView;
-@protocol SXImageViewFactory, SXMediaSharingPolicyProvider;
+@protocol SXImageViewFactory;
 
 @interface SXImageComponentView : SXMediaComponentView
 {
     id <SXImageViewFactory> _imageViewFactory;
-    id <SXMediaSharingPolicyProvider> _mediaSharingPolicyProvider;
-    SXImageView *_imageView;
-    SXAnimatedImageController *_animatedImageController;
-    SXDragManager *_dragManager;
 }
 
 - (id);
@@ -32,35 +27,24 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (struct CGRect);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void)TSDiOSCanvasViewController"16{CGPoint=dd}24;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) SXAnimatedImageController *animatedImageController; // @synthesize animatedImageController=_animatedImageController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) SXDragManager *dragManager; // @synthesize dragManager=_dragManager;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) SXImageView *imageView; // @synthesize imageView=_imageView;
 @property(readonly, nonatomic) id <SXImageViewFactory> imageViewFactory; // @synthesize imageViewFactory=_imageViewFactory;
-@property(readonly, nonatomic) id <SXMediaSharingPolicyProvider> mediaSharingPolicyProvider; // @synthesize mediaSharingPolicyProvider=_mediaSharingPolicyProvider;
-@property(readonly) Class superclass;
 
 @end
 

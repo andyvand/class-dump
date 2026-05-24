@@ -7,11 +7,6 @@
 @interface NewsUI2.InterludeContentView
 {
     id image;
-    id $__lazy_storage_$_iconImageView;
-    id iconContainer;
-    id titleLabel;
-    id subtitleLabel;
-    id $__lazy_storage_$_maskImageView;
 }
 
 - (id);

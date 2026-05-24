@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTIntelligenceFlowError, NSData;
+@class IFTSchemaIFTIntelligenceFlowError;
 
 @interface IFTSchemaIFTPlanGenerationModelOutputError : SISchemaInstrumentationMessage
 {
     IFTSchemaIFTIntelligenceFlowError *_error;
-    _Bool _hasError;
 }
 
 - (void);
@@ -23,19 +22,17 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id)S;
 - (id)!äDùQàÐ1Â0@ù
 × ;
 - (id)emaUUID",&,N,V_executorTraceID;
-- (id)maASRFrameProcessingReady;
+- (id)ASRSchemaASRFrameProcessingReady;
 - (void)@³;
 - (void)à³»ÿ>®J;%;
 - (_Bool)øs¡ÿ;
 
 // Remaining properties
 @property(retain, nonatomic) IFTSchemaIFTIntelligenceFlowError *error; // @synthesize error=_error;
-@property(nonatomic) _Bool hasError; // @synthesize hasError=_hasError;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

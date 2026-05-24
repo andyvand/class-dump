@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLPointerType, MTLStructType;
+@class MTLStructType;
 
 @protocol MTLBufferBinding
+- (MTLStructType *);
 
 // Remaining properties
 @property(readonly) unsigned long long bufferAlignment;
-@property(readonly) unsigned long long bufferDataSize;
-@property(readonly) unsigned long long bufferDataType;
-@property(readonly) MTLPointerType *bufferPointerType;
-@property(readonly) MTLStructType *bufferStructType;
 @end
 

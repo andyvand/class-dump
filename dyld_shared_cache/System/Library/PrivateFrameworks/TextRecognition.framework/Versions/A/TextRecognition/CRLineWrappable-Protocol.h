@@ -7,9 +7,13 @@
 @class NSLocale;
 
 @protocol CRLineWrappable
+- (void);
+- (NSLocale *);
+
+@optional
+- (void)V;
 
 // Remaining properties
 @property unsigned long long lineWrappingType;
-@property(readonly) NSLocale *locale;
 @end
 

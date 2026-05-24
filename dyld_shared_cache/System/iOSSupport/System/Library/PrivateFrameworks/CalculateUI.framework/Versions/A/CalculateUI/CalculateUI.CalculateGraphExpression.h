@@ -8,9 +8,6 @@
 {
     id expression;
     id _color;
-    id isRemoving;
-    id _graph;
-    id _$observationRegistrar;
 }
 
 @end

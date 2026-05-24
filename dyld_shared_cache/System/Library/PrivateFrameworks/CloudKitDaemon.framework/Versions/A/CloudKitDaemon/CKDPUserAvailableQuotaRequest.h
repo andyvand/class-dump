@@ -9,17 +9,17 @@
 }
 
 + (id);
-- (id);
+- (id)t;
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)ushing all hoses (seq:%u, ts:%u) /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (unsigned int);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (Class)Fetch:error: /* Error: Ran out of types for this method. */;
+- (Class)isManateeAvailableForAccount:isSecondaryAccount:allowFetch:error: /* Error: Ran out of types for this method. */;
 
 @end
 

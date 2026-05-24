@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString, NSUUID;
+@class NSString;
 
 @interface CATapDescription
 {
     _Bool _mono;
-    _Bool _exclusive;
-    _Bool _mixdown;
-    _Bool _privateTap;
-    _Bool _processRestoreEnabled;
-    NSString *_name;
-    NSUUID *_UUID;
-    NSArray *_processes;
-    NSArray *_bundleIDs;
-    long long _muteBehavior;
-    NSString *_deviceUID;
-    NSNumber *_stream;
 }
 
 - (void);
@@ -41,7 +30,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)Y ;
 - (id);
 - (_Bool);
 - (id);
@@ -61,18 +50,7 @@
 - (id)4HALS_IOContextEEE;
 
 // Remaining properties
-@property(copy) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(copy) NSArray *bundleIDs; // @synthesize bundleIDs=_bundleIDs;
-@property(copy) NSString *deviceUID; // @synthesize deviceUID=_deviceUID;
-@property(getter=isExclusive) _Bool exclusive; // @synthesize exclusive=_exclusive;
-@property(getter=isMixdown) _Bool mixdown; // @synthesize mixdown=_mixdown;
-@property(getter=isMono) _Bool mono; // @synthesize mono=_mono;
-@property(getter=isMuted) long long muteBehavior; // @synthesize muteBehavior=_muteBehavior;
 @property(copy) NSString *name; // @synthesize name=_name;
-@property(getter=isPrivate, setter=setPrivate:) _Bool privateTap; // @synthesize privateTap=_privateTap;
-@property(getter=isProcessRestoreEnabled) _Bool processRestoreEnabled; // @synthesize processRestoreEnabled=_processRestoreEnabled;
-@property(copy) NSArray *processes; // @synthesize processes=_processes;
-@property(copy) NSNumber *stream; // @synthesize stream=_stream;
 
 @end
 

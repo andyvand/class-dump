@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetReaderOutputMetadataAdaptor, AVAssetReaderTrackOutput;
+@class AVAssetReaderTrackOutput;
 
 @interface AVAssetReaderOutputAnnotationAdaptor
 {
     AVAssetReaderTrackOutput *_trackOutput;
-    AVAssetReaderOutputMetadataAdaptor *_assetReaderOutputMetadataAdaptor;
 }
 
 + (id);
 - (id);
 - (id);
 - (int);
-- (id);
-- (void);
+- (id);{;
+- (void);
 - (id);
 
 // Remaining properties

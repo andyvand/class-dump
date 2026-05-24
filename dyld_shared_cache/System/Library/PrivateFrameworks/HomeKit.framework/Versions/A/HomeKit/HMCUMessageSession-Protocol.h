@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary, NSString;
+
 @protocol HMCUMessageSession
+- (void)_updateDeletionRecordListForKey:(NSString *)arg1 removingRecordID:(NSDictionary *)arg2;
+- (void)s not have an image file, redirecting to original asset (uuid:(NSString *)arg1 %@);
 @end
 

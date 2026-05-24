@@ -5,10 +5,10 @@
 //
 
 @interface UnknownClass (GEODataRequest)
-- (void);
+- (void)0;
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)__AUTH_CONST;
+- (void)__objc_superrefs__DATA_CONST;
+- (void)_cacheEntryForKey:createIfNeeded: /* Error: Ran out of types for this method. */;
 @end
 

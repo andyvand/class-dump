@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary;
-
 @interface FaceCoreFace
 {
     CDStruct_ac082cae face;
-    CDStruct_ac082cae leftEye;
-    CDStruct_ac082cae rightEye;
-    CDStruct_ac082cae mouth;
-    double faceSize;
-    double faceAngle;
-    long long trackID;
-    unsigned long long trackDuration;
-    NSData *faceprint;
-    int faceType;
-    NSDictionary *faceLandmarkPoints;
-    NSDictionary *expressionFeatures;
-    NSDictionary *additionalInfo;
 }
 
 - (void);
@@ -36,12 +22,12 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
-- (double);
-- (id);
+- (void)tentBlockersEnabled:(id)arg1 wasLoadedWithAdvancedPrivacyProtectionsEnabled: /* Error: Ran out of types for this method. */;
+- (id)changedAttributes;
+- (double)changeUserWebSearchProviderInfoTo:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)center;
 - (int);
-- (void);
+- (void);
 - (CDStruct_ac082cae);
 - (unsigned long long);
 - (CDStruct_ac082cae);
@@ -51,27 +37,12 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void)ZdÛ?'1¬Zà?¼tVæ?yé&1¬è?1¬Zdç?+ÙÞ?òÒMbXÙ?5^ºIË?ð§ÆK7Á?shí|?µ?+ÙÎ·?hí|?5¾?;
 - (long long)ecore5utils3aev9AEVGImageE;
 
 // Remaining properties
-@property(retain) NSDictionary *additionalInfo; // @synthesize additionalInfo;
-@property(retain) NSDictionary *expressionFeatures; // @synthesize expressionFeatures;
 @property CDStruct_ac082cae face; // @synthesize face;
-@property double faceAngle; // @synthesize faceAngle;
-@property(retain) NSDictionary *faceLandmarkPoints; // @synthesize faceLandmarkPoints;
-@property double faceSize; // @synthesize faceSize;
-@property int faceType; // @synthesize faceType;
-@property(retain) NSData *faceprint; // @synthesize faceprint;
-@property(readonly) _Bool hasLeftEyeBounds;
-@property(readonly) _Bool hasMouthBounds;
-@property(readonly) _Bool hasRightEyeBounds;
-@property CDStruct_ac082cae leftEye; // @synthesize leftEye;
-@property CDStruct_ac082cae mouth; // @synthesize mouth;
-@property CDStruct_ac082cae rightEye; // @synthesize rightEye;
-@property unsigned long long trackDuration; // @synthesize trackDuration;
-@property long long trackID; // @synthesize trackID;
 
 @end
 

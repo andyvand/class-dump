@@ -4,51 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSArray;
 
 @protocol MTLCommandQueueSPI
+- (unsigned long long)atticeE11UTF16StringS6_RiE3$_1;
+- (int);
+- (void)+;
+- (unsigned long long)?;
+- (void);
 - (void)6@24r^v32Q40;
 
 @optional
-- (unsigned long long)ceLevel:sourceOrigin:sourceSize:toBuffer:destinationOffset:destinationBytesPerRow:destinationBytesPerImage /* Error: Ran out of types for this method. */;
+- (NSArray *)B9h: /* Error: Ran out of types for this method. */;
+- (int)k;
+- (void)@;
+- (unsigned long long)NSt3__110__function6__funcIZNK4trie9DartsTrieIicE20enumerateCompletionsENS_17basic_string_viewIcNS_11char_traitsIcEEEERKNS_8functionIFviS8_RbEEEiEUlRKiS8_SA_E_SB_EE;
+- (unsigned long long);
+- (int)1 ;
+- (unsigned long long)copyFromTexture:sourceSlice:sourceLevel:sourceOrigin:sourceSize:toBuffer:destinationOffset:destinationBytesPerRow:destinationBytesPerImage /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, getter=isStatEnabled) _Bool StatEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N,GisStatEnabled
-
-@property(nonatomic, getter=getStatLocations) unsigned long long StatLocations;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,N,GgetStatLocations
-
-@property(nonatomic, getter=getStatOptions) unsigned long long StatOptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,N,GgetStatOptions
-
 @property int backgroundTrackingPID;
-@property(readonly) NSObject<OS_dispatch_queue> *commitQueue;
-@property(readonly) _Bool commitSynchronously;
-@property(readonly) _Bool commitsWithQoS;
-@property(readonly) NSObject<OS_dispatch_queue> *completionQueue;
-@property(retain, getter=counterInfo) NSMutableDictionary *counterInfo;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSMutableDictionary",?,&,GcounterInfo
-
-@property(readonly) _Bool disableCrossQueueHazardTracking;
-@property _Bool executionEnabled;
-@property(readonly) _Bool isOpenGLQueue;
-@property(readonly) unsigned long long maxCommandBufferCount;
-@property(nonatomic, getter=numInternalSampleCounters) unsigned long long numInternalSampleCounters;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,N,GnumInternalSampleCounters
-
-@property(nonatomic, getter=numRequestedCounters) unsigned long long numRequestedCounters;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,N,GnumRequestedCounters
-
-@property(getter=isProfilingEnabled) _Bool profilingEnabled;
-@property(readonly) unsigned long long qosLevel;
-@property _Bool skipRender;
 @end
 

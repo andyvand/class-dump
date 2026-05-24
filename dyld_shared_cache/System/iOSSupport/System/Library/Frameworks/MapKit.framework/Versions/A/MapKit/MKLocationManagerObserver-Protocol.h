@@ -5,5 +5,7 @@
 //
 
 @protocol MKLocationManagerObserver
+- (void);
+- (void)	;
 @end
 

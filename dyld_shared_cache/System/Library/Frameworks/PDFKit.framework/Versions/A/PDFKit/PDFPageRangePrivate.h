@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface PDFPageRangePrivate
 {
     PDFPage *page;
-    struct _NSRange range;
 }
 
 - (void);

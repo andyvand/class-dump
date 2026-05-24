@@ -10,7 +10,7 @@
 }
 
 + (id);
-+ (id);
++ (id)ld, After:%ld /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);

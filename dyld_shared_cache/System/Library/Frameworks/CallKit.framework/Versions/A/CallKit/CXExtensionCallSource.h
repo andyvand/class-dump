@@ -7,17 +7,14 @@
 #import <CallKit/CXCallSource.h>
 
 @class CXProviderExtensionHostContext, NSExtension;
-@protocol NSCopying;
 
 __attribute__((visibility("hidden")))
 @interface CXExtensionCallSource : CXCallSource
 {
     CXProviderExtensionHostContext *_extensionContext;
-    NSExtension *_extension;
-    id <NSCopying> _requestIdentifier;
 }
 
-- (id);
+- (id)animationDidStart;
 - (void);
 - (void);
 - (id);
@@ -25,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)Properties"16;
 - (int);
 - (id);
 - (id);
@@ -34,8 +31,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSExtension *extension; // @synthesize extension=_extension;
-@property(retain, nonatomic) CXProviderExtensionHostContext *extensionContext; // @synthesize extensionContext=_extensionContext;
-@property(copy, nonatomic) id <NSCopying> requestIdentifier; // @synthesize requestIdentifier=_requestIdentifier;
 
 @end
 

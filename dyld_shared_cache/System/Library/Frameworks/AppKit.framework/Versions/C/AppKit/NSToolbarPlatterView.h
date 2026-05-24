@@ -6,61 +6,47 @@
 
 #import <AppKit/NSView.h>
 
-@class NSArray, NSColor, NSGlassEffectView;
+@class NSGlassEffectView;
 
 __attribute__((visibility("hidden")))
 @interface NSToolbarPlatterView : NSView
 {
     NSGlassEffectView *_glassView;
-    NSArray *_containedItems;
-    struct CGRect _targetFrame;
-    long long _originAnimationCount;
-    long long _sizeAnimationCount;
-    unsigned int _wantsOriginAnimation:1;
-    unsigned int _wantsSizeAnimation:1;
-    unsigned int _animationsEnabled:1;
-    unsigned int _inPaletteView:1;
 }
 
-- (struct CGRect);
-- (long long);
+- (struct CGRect)sLe8lqXRlqZM74MNUoVcyQ;
+- (long long)nXbrTiBAf1dbo4sCn7xs2w;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)to allocate %lu bytes;
+- (void)%llu received unknown message:(struct CGPoint)arg1 %s;
+- (long long)set_connectionCacheMinimumFastLanePriority: /* Error: Ran out of types for this method. */;
+- (_Bool)Can't stat:%s, errno:%d parentInfo:%@ } /* Error: Ran out of types for this method. */;
+- (_Bool)_delegate_didReceiveDataArray;
+- (void)v16@?0^{_CFURLRequest=}8;
+- (void)CachedState;
 - (void);
-- (long long);
-- (_Bool);
-- (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id)yPaths:(struct CGRect)arg1;
-- (id)sibilityFunctionRowTopLevelElements;
+- (id)setKeyPaths:(struct CGRect)arg1;
+- (id)accessibilityFunctionRowTopLevelElements;
 - (id)yInWindowConcreteObservation` should only be observing one view, so it should not get a view other than its own.;
-- (void)t;
+- (void)IconShortcut;
 - (void)rceSnapshotter *__strong _Nonnull, BOOL)_block_invoke;
-- (long long)Morph;
+- (long long)_NSLiquidMorph;
 - (id)\;
 - (void)¬ÿÊÿJ
 hõB;
 
 // Remaining properties
-@property(copy) NSArray *containedItems;
 @property(readonly, retain) NSView *contentView;
-@property(getter=isInPaletteView) _Bool inPaletteView;
-@property long long subduedState;
-@property struct CGRect targetFrame;
-@property(copy) NSColor *tintColor;
-@property long long variant;
 
 @end
 

@@ -4,39 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDBusinessHours, GEOPDEntity, GEOPDPhoto, GEOPDTrailHeadTrailFactoidData, NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDTrail
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPDBusinessHours *_businessHours;
-    GEOPDEntity *_entity;
-    GEOPDTrailHeadTrailFactoidData *_factoid;
-    NSMutableArray *_hoursOfOperations;
-    NSMutableArray *_mapsIds;
-    GEOPDPhoto *_photo;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _shouldHighlight;
-    struct {
-        unsigned int has_shouldHighlight:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_businessHours:1;
-        unsigned int read_entity:1;
-        unsigned int read_factoid:1;
-        unsigned int read_hoursOfOperations:1;
-        unsigned int read_mapsIds:1;
-        unsigned int read_photo:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-- (id);
-- (void);
-- (id);
+- (id);
+- (void)recipeWithTitle:(id)arg1 toggleAction: /* Error: Ran out of types for this method. */;
+- (id)initWithAssetHanlder: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);

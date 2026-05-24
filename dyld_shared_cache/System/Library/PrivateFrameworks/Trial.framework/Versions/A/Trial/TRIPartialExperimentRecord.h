@@ -4,38 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString, TRIExperimentDeployment;
-@protocol TRIFactorPackSetId;
-
 @interface TRIPartialExperimentRecord
 {
     int _deploymentEnvironment;
-    int _type;
-    int _experimentType;
-    TRIExperimentDeployment *_experimentDeployment;
-    NSString *_treatmentId;
-    NSString<TRIFactorPackSetId> *_factorPackSetId;
-    long long _status;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    NSArray *_namespaces;
-    NSArray *_counterfactualTreatmentIds;
 }
 
-+ (id);
++ (id);
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id),;
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
+- (id)>�;
 - (id);
-- (id);
-- (id);
+- (id)@;
 - (int);
 - (int);
 - (id);
@@ -44,11 +31,11 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)entAgeLast14Days;
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -58,17 +45,7 @@
 - (id)ey "activeFactorPackSetId" (expected %@, decoded %@);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *counterfactualTreatmentIds; // @synthesize counterfactualTreatmentIds=_counterfactualTreatmentIds;
 @property(readonly, nonatomic) int deploymentEnvironment; // @synthesize deploymentEnvironment=_deploymentEnvironment;
-@property(readonly, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(readonly, nonatomic) TRIExperimentDeployment *experimentDeployment; // @synthesize experimentDeployment=_experimentDeployment;
-@property(readonly, nonatomic) int experimentType; // @synthesize experimentType=_experimentType;
-@property(readonly, nonatomic) NSString<TRIFactorPackSetId> *factorPackSetId; // @synthesize factorPackSetId=_factorPackSetId;
-@property(readonly, nonatomic) NSArray *namespaces; // @synthesize namespaces=_namespaces;
-@property(readonly, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(readonly, nonatomic) long long status; // @synthesize status=_status;
-@property(readonly, nonatomic) NSString *treatmentId; // @synthesize treatmentId=_treatmentId;
-@property(readonly, nonatomic) int type; // @synthesize type=_type;
 
 @end
 

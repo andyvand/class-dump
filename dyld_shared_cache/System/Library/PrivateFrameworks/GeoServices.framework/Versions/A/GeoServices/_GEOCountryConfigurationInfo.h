@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString;
+@class NSString;
 
 @interface _GEOCountryConfigurationInfo
 {
     unsigned int _source;
-    NSString *_countryCode;
-    NSDate *_dateOfLastUpdate;
-    NSDictionary *_metadata;
 }
 
 + (id);
@@ -22,7 +19,7 @@
 - (id);
 - (id);
 - (unsigned int)6b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}40;
-- (id)rReasonAtIndex: /* Error: Ran out of types for this method. */;
+- (id)endStateErrorReasonAtIndex: /* Error: Ran out of types for this method. */;
 - (id)edbackCoordinateField",&,N;
 - (id)Ì¶¯ä^;
 - (void)y again in %llu seconds;
@@ -32,9 +29,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(readonly, nonatomic) NSDate *dateOfLastUpdate; // @synthesize dateOfLastUpdate=_dateOfLastUpdate;
-@property(retain, nonatomic) NSDictionary *metadata; // @synthesize metadata=_metadata;
-@property(readonly, nonatomic) unsigned int source; // @synthesize source=_source;
 
 @end
 

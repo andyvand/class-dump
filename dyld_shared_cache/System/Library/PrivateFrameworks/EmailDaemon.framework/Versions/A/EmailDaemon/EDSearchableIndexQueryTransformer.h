@@ -11,10 +11,10 @@
     EDSearchableIndexManager *_searchableIndexManager;
 }
 
-+ (id);
++ (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void):thread AND   :date > (SELECT date_received FROM temp_persisted_messages WHERE temp_persisted_messages.ROWID = threads.newest_read_message); /* Error: Ran out of types for this method. */;
 
 // Remaining properties

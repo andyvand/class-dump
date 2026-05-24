@@ -9,7 +9,6 @@
 @interface SPLastOnlineLocationInfo
 {
     NSDate *_timestamp;
-    NSDate *_updatedOn;
 }
 
 + (_Bool);
@@ -19,13 +18,12 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)attachment policy:(id)arg1 %s, mock ultra constrained:%{bool}d /* Error: Ran out of types for this method. */;
+- (id)AKUserInfoChangedNotification;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
-@property(copy, nonatomic) NSDate *updatedOn; // @synthesize updatedOn=_updatedOn;
 
 @end
 

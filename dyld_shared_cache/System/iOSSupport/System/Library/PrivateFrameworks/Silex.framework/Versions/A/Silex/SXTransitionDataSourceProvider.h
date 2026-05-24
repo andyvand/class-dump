@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXTransitionDataSourceNode, UIScrollView;
-@protocol SXComponentController, SXDocumentMetadataProviding;
+@protocol SXComponentController;
 
 @interface SXTransitionDataSourceProvider
 {
     id <SXComponentController> _componentController;
-    UIScrollView *_scrollView;
-    id <SXDocumentMetadataProviding> _documentMetadataProvider;
-    SXTransitionDataSourceNode *_currentNode;
 }
 
 - (id);
@@ -20,22 +16,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)-;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXComponentController> componentController; // @synthesize componentController=_componentController;
-@property(retain, nonatomic) SXTransitionDataSourceNode *currentNode; // @synthesize currentNode=_currentNode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <SXDocumentMetadataProviding> documentMetadataProvider; // @synthesize documentMetadataProvider=_documentMetadataProvider;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIScrollView *scrollView; // @synthesize scrollView=_scrollView;
-@property(readonly) Class superclass;
 
 @end
 

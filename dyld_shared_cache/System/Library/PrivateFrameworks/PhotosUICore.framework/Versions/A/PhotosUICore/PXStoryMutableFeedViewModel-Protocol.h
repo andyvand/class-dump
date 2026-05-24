@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol PXAnonymousViewController, PXAssetCollectionActionPerformerDelegate, PXFeedViewActionPerformer;
-
 @protocol PXStoryMutableFeedViewModel
-- (void)kerRow;
+- (_Bool);
+- (void)MusicPickerRow;
 
 // Remaining properties
-@property(nonatomic) __weak id <PXFeedViewActionPerformer> actionPerformer;
-@property(nonatomic) __weak id <PXAssetCollectionActionPerformerDelegate> assetCollectionActionPerformerDelegate;
 @property(nonatomic) _Bool isActive;
-@property(nonatomic) __weak NSObject<PXAnonymousViewController> *presentingViewController;
-@property(copy, nonatomic) NSString *subtitle;
 @end
 

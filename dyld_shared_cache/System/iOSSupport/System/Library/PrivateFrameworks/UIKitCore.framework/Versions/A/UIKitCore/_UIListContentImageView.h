@@ -12,20 +12,17 @@ __attribute__((visibility("hidden")))
 @interface _UIListContentImageView : UIImageView
 {
     _Bool _hadStroke;
-    UIColor *_strokeColor;
-    double _strokeWidth;
-    CDUnknownBlockType _tintFilterGenerator;
 }
 
 - (void);
-- (void);
+- (void)e error type;
 - (id);
-- (id)er;
-- (id)ription:(id)arg1 recoverySuggestion:recoveryAttempter: /* Error: Ran out of types for this method. */;
+- (id)_evaluationHandler;
+- (id)_customizationOfError:(id)arg1 withDescription:recoverySuggestion:recoveryAttempter: /* Error: Ran out of types for this method. */;
 - (id)ð;
 - (void)set unexpectedly nil. Interpreted as 0.;
 - (double)Â;
-- (void)End;
+- (void)NavigationBarAnimateOnEnd;
 - (void)order:(double)arg1 top, left, bottom, right;
 - (id)rIdentifiersCount;
 - (void);
@@ -34,8 +31,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setStrokeColor:) UIColor *_strokeColor; // @synthesize _strokeColor;
-@property(nonatomic, setter=_setStrokeWidth:) double _strokeWidth; // @synthesize _strokeWidth;
-@property(copy, nonatomic, setter=_setTintFilterGenerator:) CDUnknownBlockType _tintFilterGenerator; // @synthesize _tintFilterGenerator;
 
 @end
 

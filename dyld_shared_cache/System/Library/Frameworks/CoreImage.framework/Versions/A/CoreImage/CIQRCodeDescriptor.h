@@ -11,9 +11,6 @@
 @interface CIQRCodeDescriptor : CIBarcodeDescriptor
 {
     NSData *errorCorrectedPayload;
-    long long symbolVersion;
-    unsigned char maskPattern;
-    long long errorCorrectionLevel;
 }
 
 + (id);
@@ -22,7 +19,7 @@
 - (unsigned char);
 - (long long);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (_Bool);
@@ -31,9 +28,6 @@
 
 // Remaining properties
 @property(readonly) NSData *errorCorrectedPayload; // @synthesize errorCorrectedPayload;
-@property(readonly) long long errorCorrectionLevel; // @synthesize errorCorrectionLevel;
-@property(readonly) unsigned char maskPattern; // @synthesize maskPattern;
-@property(readonly) long long symbolVersion; // @synthesize symbolVersion;
 
 @end
 

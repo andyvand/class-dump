@@ -4,57 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject, NSString, RBClientInheritanceManager, RBConnectionListener, RBProcess, RBProcessMonitorObserver, RBSAssertionIdentifier, RBSProcessHandle, RBSProcessIdentifier, RBSProcessIdentity;
-@protocol OS_xpc_object, RBAssertionManaging, RBDaemonContextProviding, RBEntitlementManaging, RBEntitlementPossessing, RBProcessManaging, RBProcessMonitoring, RBRequestManaging, RBStateCaptureManaging;
+@class NSObject;
+@protocol OS_xpc_object;
 
 __attribute__((visibility("hidden")))
 @interface RBConnectionClient
 {
     NSObject<OS_xpc_object> *_connection;
-    struct os_unfair_lock_s _lock;
-    struct os_unfair_lock_s _deathMonitorsLock;
-    id <RBAssertionManaging> _assertionManager;
-    id <RBEntitlementManaging> _entitlementManager;
-    id <RBProcessManaging> _processManager;
-    id <RBProcessMonitoring> _processMonitor;
-    id <RBStateCaptureManaging> _stateCaptureManager;
-    id <RBDaemonContextProviding> _daemonContext;
-    id <RBRequestManaging> _requestManager;
-    RBConnectionListener *_listener;
-    RBProcess *_containingProcess;
-    _Bool _ready;
-    NSString *_shortDescription;
-    RBProcess *_process;
-    RBSProcessHandle *_processHandle;
-    RBSProcessIdentity *_processIdentity;
-    RBSProcessIdentifier *_processIdentifier;
-    unsigned int _euid;
-    RBClientInheritanceManager *_inheritanceManager;
-    id <RBEntitlementPossessing> _entitlements;
-    NSMutableSet *_assertionIdentifiers;
-    NSMutableSet *_deathMonitors;
-    RBProcessMonitorObserver *_stateObserver;
-    RBSAssertionIdentifier *_expirationBoostAssertionIdentifier;
 }
 
 - (void);
 - (_Bool);
 - (_Bool);
+- (id)processUniqueID;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)angedAt:%@, approxDateOfBuildInstall:%@ /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *stateCaptureTitle;
-@property(readonly) Class superclass;
 
 @end
 

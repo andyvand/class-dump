@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSString;
 
 @interface _SFPBPerson
 {
     NSString *_personIdentifier;
-    NSString *_contactIdentifier;
-    NSString *_displayName;
-    NSArray *_phoneNumbers;
-    NSArray *_emailAddresses;
-    NSString *_photosIdentifier;
 }
 
 - (void);
@@ -31,15 +26,15 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (_Bool);
+- (id)q;
+- (_Bool)P;
 - (unsigned long long);
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)predicateForAssetsInAssetCollectionWithID:(id)arg1;
+- (void)H;
+- (id)d to decode autonamingUserFeedback object:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -48,20 +43,7 @@
 - (id)ØN OØOQ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(copy, nonatomic) NSArray *emailAddresses; // @synthesize emailAddresses=_emailAddresses;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *personIdentifier; // @synthesize personIdentifier=_personIdentifier;
-@property(copy, nonatomic) NSArray *phoneNumbers; // @synthesize phoneNumbers=_phoneNumbers;
-@property(copy, nonatomic) NSString *photosIdentifier; // @synthesize photosIdentifier=_photosIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

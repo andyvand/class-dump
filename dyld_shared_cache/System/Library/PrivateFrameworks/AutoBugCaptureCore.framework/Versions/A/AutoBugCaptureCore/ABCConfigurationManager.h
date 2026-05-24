@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABCPreferences, NSDictionary, NSNumber, NSString;
+@class ABCPreferences;
 
 @interface ABCConfigurationManager
 {
     _Bool _autoBugCaptureEnabled;
-    _Bool _apns_enable;
-    _Bool _apns_dev_environment;
-    ABCPreferences *_preferences;
-    NSNumber *_disable_internal_build;
-    NSNumber *_carrier_seed_flag;
-    NSNumber *_seed_flag;
-    NSNumber *_vendor_flag;
-    NSNumber *_npi_flag;
-    NSDictionary *_previousConfiguration;
 }
 
 + (id);
@@ -38,11 +29,11 @@
 - (double);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)__got;
 - (id);
-- (id);
+- (id)@0:8@"MMCSCRecoveryController"16@"NSError"24 /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -50,103 +41,49 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)intentDataAsData;
 - (unsigned long long);
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (double);
+- (void)CPKDelegate;
+- (double)due to %@;
 - (_Bool);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)l_install) VALUES (:(id)arg1 trace_type, :version, :original_version, :recording_start_time, :directions_url, :is_internal_install) /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (double);
+- (unsigned int)P;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id)__AUTH_CONST;
+- (_Bool);
+- (id);
+- (id);
+- (unsigned long long);
+- (int)ss;
+- (_Bool)rnal/Library/BuildRoots/4~CNqEugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/asn1/t_x509.c;
+- (id);
+- (void);
+- (_Bool);
+- (void)aches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDPurgeAppsResponse_macOS.m:(id)arg1 24 :Not supported on macOS /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (double);
+- (id);
+- (unsigned long long);
 - (unsigned int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (unsigned long long);
-- (int);
-- (_Bool);
-- (id);
 - (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (double);
-- (id);
-- (unsigned long long);
-- (unsigned int);
-- (void);
-- (void);
+- (void)i;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double apiLimitWindow;
-@property(readonly, nonatomic) double apiRateLimit;
-@property(readonly, nonatomic) _Bool apnsEnabled;
-@property(readonly, nonatomic) _Bool apnsSandboxEnvironment;
-@property(nonatomic) _Bool apns_dev_environment; // @synthesize apns_dev_environment=_apns_dev_environment;
-@property(nonatomic) _Bool apns_enable; // @synthesize apns_enable=_apns_enable;
-@property(readonly, nonatomic) unsigned long long arbitratorDailyCountLimit;
-@property(readonly, nonatomic) _Bool arbitratorDisableDampening;
-@property(readonly, nonatomic) _Bool autoBugCaptureAvailable; // @dynamic autoBugCaptureAvailable;
-@property(readonly, nonatomic) _Bool autoBugCaptureEnabled; // @synthesize autoBugCaptureEnabled=_autoBugCaptureEnabled;
-@property(readonly, nonatomic) _Bool autoBugCaptureRegularPayloads; // @dynamic autoBugCaptureRegularPayloads;
-@property(readonly, nonatomic) _Bool autoBugCaptureSensitivePayloads; // @dynamic autoBugCaptureSensitivePayloads;
-@property(readonly, nonatomic) _Bool autoBugCaptureSignature; // @dynamic autoBugCaptureSignature;
-@property(readonly, nonatomic) _Bool autoBugCaptureUploadPreapproved; // @dynamic autoBugCaptureUploadPreapproved;
-@property(readonly, nonatomic) _Bool autoFeedbackAssistantEnable; // @dynamic autoFeedbackAssistantEnable;
-@property(retain, nonatomic) NSNumber *carrier_seed_flag; // @synthesize carrier_seed_flag=_carrier_seed_flag;
-@property(readonly, nonatomic) _Bool caseSummaryEnabled;
-@property(readonly, nonatomic) NSString *cloudKitContainerIdentifier;
-@property(readonly, nonatomic) _Bool cloudKitEnabled;
-@property(readonly, nonatomic) unsigned long long cloudKitFallbackMaximumLogCount;
-@property(readonly, nonatomic) NSString *cloudKitInvernessService;
-@property(readonly, nonatomic) _Bool cloudKitPrefersAnonymous;
-@property(readonly, nonatomic) _Bool cloudKitSandboxEnvironment;
-@property(readonly, nonatomic) double cloudKitTimeoutIntervalForRequest;
-@property(readonly, nonatomic) double cloudKitTimeoutIntervalForResource;
-@property(readonly, nonatomic) unsigned long long dampenedIPSLimit;
-@property(readonly, nonatomic) unsigned long long dampeningRestrictionFactor;
-@property(readonly, nonatomic) NSString *databaseContainerPath; // @dynamic databaseContainerPath;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double diagnosticPipelineSubmissionRate;
-@property(readonly, nonatomic) _Bool disableAPIRateLimit;
-@property(retain, nonatomic) NSNumber *disable_internal_build; // @synthesize disable_internal_build=_disable_internal_build;
-@property(readonly, nonatomic) _Bool hasAppleEmail;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isAutomatedDeviceGroup;
-@property(readonly, nonatomic) _Bool isCarryDevice;
-@property(readonly, nonatomic) _Bool isDeviceUnderTest;
-@property(readonly, nonatomic) unsigned int logArchiveGID; // @dynamic logArchiveGID;
-@property(readonly, nonatomic) NSString *logArchivePath; // @dynamic logArchivePath;
-@property(readonly, nonatomic) unsigned int logArchiveUID; // @dynamic logArchiveUID;
-@property(readonly, nonatomic) unsigned long long maxCaseSummaryPerSubmission;
-@property(readonly, nonatomic) unsigned long long maxUploadRetryCount;
-@property(retain, nonatomic) NSNumber *npi_flag; // @synthesize npi_flag=_npi_flag;
 @property(retain, nonatomic) ABCPreferences *preferences; // @synthesize preferences=_preferences;
-@property(retain, nonatomic) NSDictionary *previousConfiguration; // @synthesize previousConfiguration=_previousConfiguration;
-@property(retain, nonatomic) NSNumber *seed_flag; // @synthesize seed_flag=_seed_flag;
-@property(readonly, nonatomic) _Bool submitToDiagnosticPipeline;
-@property(readonly, nonatomic) unsigned long long submittedCaseSummaryRetentionDays;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long unsubmittedCaseSummaryRetentionDays;
-@property(retain, nonatomic) NSNumber *vendor_flag; // @synthesize vendor_flag=_vendor_flag;
 
 @end
 

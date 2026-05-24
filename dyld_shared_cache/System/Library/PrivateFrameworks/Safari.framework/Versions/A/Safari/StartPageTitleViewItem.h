@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAppearance, NSButton, NSStackView, NSTextField;
-@protocol StartPageTitleViewItemDelegate;
+@class NSAppearance, NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface StartPageTitleViewItem
 {
     NSTextField *_titleLabel;
-    NSButton *_backButton;
-    NSStackView *_contentStackView;
-    NSAppearance *_appearance;
-    id <StartPageTitleViewItemDelegate> _delegate;
 }
 
 - (void);
@@ -24,12 +19,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSAppearance *appearance; // @synthesize appearance=_appearance;
-@property(nonatomic) __weak id <StartPageTitleViewItemDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end
 

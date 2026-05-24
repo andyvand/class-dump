@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _NSCollectionPreferredSizes;
 @protocol _NSCollectionLayoutSectionSolver;
 
 __attribute__((visibility("hidden")))
 @interface _NSCollectionCompositionalSolverPreferredSizesRebaseInfo
 {
     id <_NSCollectionLayoutSectionSolver> _solution;
-    _NSCollectionPreferredSizes *_preferredSizes;
 }
 
 - (id);
@@ -20,7 +18,6 @@ __attribute__((visibility("hidden")))
 - (id)þ@;
 
 // Remaining properties
-@property(readonly, nonatomic) _NSCollectionPreferredSizes *preferredSizes; // @synthesize preferredSizes=_preferredSizes;
 @property(readonly, nonatomic) id <_NSCollectionLayoutSectionSolver> solution; // @synthesize solution=_solution;
 
 @end

@@ -10,7 +10,7 @@
 {
 }
 
-- (void);
+- (void)!;
 - (_Bool),N,V_containerByContactIdentifier;
 
 @end

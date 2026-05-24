@@ -12,11 +12,10 @@ __attribute__((visibility("hidden")))
 @interface GEOMapTransitGeometryFinder : GEOMapRequest
 {
     GEOMapTileFinder *_tileFinder;
-    unsigned long long _transitID;
 }
 
 - (id);
-- (void);
+- (void)removeObserver:(CDUnknownBlockType)arg1 forKeyPath:context: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)¦¢2;
 

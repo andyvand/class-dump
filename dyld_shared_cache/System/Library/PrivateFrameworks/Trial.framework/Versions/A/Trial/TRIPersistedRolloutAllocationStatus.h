@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface TRIPersistedRolloutAllocationStatus
 {
@@ -13,13 +13,6 @@
 + (id);
 
 // Remaining properties
-@property(nonatomic) int deploymentId; // @dynamic deploymentId;
-@property(nonatomic) _Bool hasDeploymentId; // @dynamic hasDeploymentId;
-@property(nonatomic) _Bool hasRampId; // @dynamic hasRampId;
-@property(nonatomic) _Bool hasRolloutId; // @dynamic hasRolloutId;
-@property(retain, nonatomic) NSMutableArray *namespaceFactorPackArray; // @dynamic namespaceFactorPackArray;
-@property(readonly, nonatomic) unsigned long long namespaceFactorPackArray_Count; // @dynamic namespaceFactorPackArray_Count;
-@property(copy, nonatomic) NSString *rampId; // @dynamic rampId;
 @property(copy, nonatomic) NSString *rolloutId; // @dynamic rolloutId;
 
 @end

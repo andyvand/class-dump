@@ -13,21 +13,19 @@ __attribute__((visibility("hidden")))
 @interface CNGroupMembershipCell : CNLabeledCell
 {
     id <CNPropertyCellDelegate> _delegate;
-    UILabel *_parentGroupNameLabel;
 }
 
-+ (_Bool);
-- (void);
++ (_Bool)@9?qA;
+- (void);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
-- (void)stantConstraints;
+- (void)_constantConstraints;
 
 // Remaining properties
-@property(nonatomic) __weak id <CNPropertyCellDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) UILabel *parentGroupNameLabel; // @synthesize parentGroupNameLabel=_parentGroupNameLabel;
 
 @end

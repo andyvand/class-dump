@@ -4,57 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDVenueIdentifier
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_62a50c50 _containedBys;
-    CDStruct_62a50c50 _sectionIds;
-    unsigned long long _buildingId;
-    unsigned long long _featureId;
-    unsigned long long _fixtureId;
-    unsigned long long _geminiId;
-    unsigned long long _levelId;
-    unsigned long long _unitId;
-    unsigned long long _venueGeminiId;
-    unsigned long long _venueId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _levelOrdinal;
-    struct {
-        unsigned int has_buildingId:1;
-        unsigned int has_featureId:1;
-        unsigned int has_fixtureId:1;
-        unsigned int has_geminiId:1;
-        unsigned int has_levelId:1;
-        unsigned int has_unitId:1;
-        unsigned int has_venueGeminiId:1;
-        unsigned int has_venueId:1;
-        unsigned int has_levelOrdinal:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_containedBys:1;
-        unsigned int read_sectionIds:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)8@16@24@32@40;
+- (id)initWithSpeechRecordingMode:clientConfiguration:experimentContext: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
 - (id)rchEntry";
-- (id)ouldUseConditionalRequest;
+- (id)_shouldUseConditionalRequest;
 - (id)ÄP	T°U;
 - (void);
 

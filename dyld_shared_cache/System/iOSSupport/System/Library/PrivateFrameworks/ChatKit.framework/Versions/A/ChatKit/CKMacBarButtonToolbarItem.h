@@ -13,7 +13,7 @@
     UIBarButtonItem *_barButtonItem;
 }
 
-- (id);
+- (id)o;
 - (id)1Â0@ù
 × ;
 - (void);

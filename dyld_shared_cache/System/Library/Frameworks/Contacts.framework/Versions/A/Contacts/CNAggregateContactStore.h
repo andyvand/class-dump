@@ -6,90 +6,85 @@
 
 #import <Contacts/CNContactStore.h>
 
-@class NSArray, NSObject;
-@protocol OS_dispatch_queue;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface CNAggregateContactStore : CNContactStore
 {
     CNContactStore *_mainStore;
-    NSArray *_contactStores;
-    CNContactStore *_contactStoreForMatchingDictionaryWork;
-    NSArray *_postFetchDecoratorBlocks;
-    NSObject<OS_dispatch_queue> *_concurrentQueue;
 }
 
 + (id);
 - (id);
-- (_Bool);
+- (_Bool)P;
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
+- (id)__objc_const;
+- (id),&,N,V_userName;
+- (id)kCTSettingCallBarringFacilityIncomingNotOnSim;
 - (id);
 - (_Bool);
-- (id);
+- (void)?;
+- (void);
 - (id);
 - (_Bool);
 - (id);
 - (id);
+- (_Bool);
+- (id)session. Don't need to hold it.;
+- (id)without oneShot directive.  Assuming oneShot.;
 - (id);
 - (_Bool);
 - (id);
-- (int);
+- (int)h;
 - (void);
+- (id);
+- (void);
+- (_Bool);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id)h;
+- (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
 - (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)fp_trashItemAtURL:(id)arg1 resultingItemURL:error: /* Error: Ran out of types for this method. */;
+- (_Bool)_equivalentMetadataVersions;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (_Bool);
-- (_Bool);
+- (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)o;
+- (id)_clientDASession;
 - (void);
-- (_Bool);
 - (id);
-- (_Bool);
-- (void);
 - (_Bool);
 - (_Bool);
 - (id);
+- (id);
+- (id);
 - (_Bool);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)renewCredentialsForAccount:(id)arg1 options:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)setting age range settings:(id)arg1 %@.;
+- (id);
+- (_Bool);
+- (void));
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
+- (void)ssForPhoneNumber:(id)arg1 desiredFreshness:(id)arg2 completion:(id)arg3 ];
 - (void);
 - (id);
 - (void)1Â0@ù
@@ -97,13 +92,13 @@ __attribute__((visibility("hidden")))
 - (id)°1Â0@ù
 × ;
 - (id)eTransform=dddddd}16@0:(id)arg1 8;
-- (void)tervalSinceDate: /* Error: Ran out of types for this method. */;
-- (id)ID;
-- (_Bool)ionshipKey;
-- (_Bool)nalIdentifier;
+- (void)timeIntervalSinceDate: /* Error: Ran out of types for this method. */;
+- (id)cnRootFolderID;
+- (_Bool)_relationshipKey;
+- (_Bool)_externalIdentifier;
 - (id)GivenName;
 - (id)ap_connection>",R,N,V_connection;
-- (id)rivate;
+- (id)CNNicknameProviderPrivate;
 - (id)Ô Ä¡p¢;
 - (_Bool)xK;
 - (_Bool)|³;
@@ -112,7 +107,7 @@ __attribute__((visibility("hidden")))
 - (void)reate mail URL;
 - (id)emote favorites with contactsd;
 - (void)k/AddressBookCore;
-- (id)sitive;
+- (id)isContentSensitive;
 - (id)e.contacts.donation;
 - (_Bool)tched>;
 - (id);
@@ -121,11 +116,7 @@ __attribute__((visibility("hidden")))
 - (id)|;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *concurrentQueue; // @synthesize concurrentQueue=_concurrentQueue;
-@property(retain, nonatomic) CNContactStore *contactStoreForMatchingDictionaryWork; // @synthesize contactStoreForMatchingDictionaryWork=_contactStoreForMatchingDictionaryWork;
 @property(copy, nonatomic) NSArray *contactStores; // @synthesize contactStores=_contactStores;
-@property(readonly, nonatomic) __weak CNContactStore *mainStore;
-@property(retain, nonatomic) NSArray *postFetchDecoratorBlocks; // @synthesize postFetchDecoratorBlocks=_postFetchDecoratorBlocks;
 
 @end
 

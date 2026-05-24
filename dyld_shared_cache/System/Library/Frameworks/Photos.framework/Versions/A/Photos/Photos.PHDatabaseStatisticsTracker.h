@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface Photos.PHDatabaseStatisticsTracker
 {
     id lockedState;
@@ -16,7 +14,7 @@
 - (void);
 - (void);
 - (long long);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -24,7 +22,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) long long currentByteCount;
-@property(nonatomic, readonly) NSArray *sqlStatements;
 
 @end
 

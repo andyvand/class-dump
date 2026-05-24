@@ -7,23 +7,6 @@
 @interface PGTripFeatureProcessor
 {
     id processorHelper;
-    id momentNodes;
-    id graph;
-    id tripDateInterval;
-    id locationHelper;
-    id scoresByLevel;
-    id scoreByAOI;
-    id scorePerMoment;
-    id locationFrequency;
-    id finalTripLocationScoreByLevel;
-    id totalScoreAvailable;
-    id highScoreCityNodes;
-    id totalNumberOfAssets;
-    id currentFrequentLocationNodes;
-    id frequentStateLocationNodes;
-    id currentTripLevel;
-    id scoreModifierNamesMet;
-    id currentError;
 }
 
 - (void);

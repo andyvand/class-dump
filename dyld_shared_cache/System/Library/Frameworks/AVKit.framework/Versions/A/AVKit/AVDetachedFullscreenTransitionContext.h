@@ -4,19 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVDetachedFullscreenTransitionInfo;
-
 __attribute__((visibility("hidden")))
 @interface AVDetachedFullscreenTransitionContext
 {
     _Bool _transitioning;
-    AVDetachedFullscreenTransitionInfo *_transitionInfo;
-    unsigned long long _transitionTypeUsed;
-    id _userInfo;
-    struct CGRect _initialFrameForWindow;
-    struct CGRect _destinationFrameForWindow;
-    struct CGRect _initialFrameForContentView;
-    struct CGRect _destinationFrameForContentView;
 }
 
 + (id);
@@ -31,7 +22,7 @@ __attribute__((visibility("hidden")))
 + (struct CGRect);
 - (unsigned long long);
 - (struct CGRect);
-- (struct CGRect);
+- (struct CGRect)__DATA_DIRTY;
 - (struct CGRect);
 - (struct CGRect);
 - (void);
@@ -39,18 +30,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect destinationFrameForContentView; // @synthesize destinationFrameForContentView=_destinationFrameForContentView;
-@property(readonly, nonatomic) struct CGRect destinationFrameForWindow; // @synthesize destinationFrameForWindow=_destinationFrameForWindow;
-@property(readonly, nonatomic) struct CGRect initialFrameForContentView; // @synthesize initialFrameForContentView=_initialFrameForContentView;
-@property(readonly, nonatomic) struct CGRect initialFrameForWindow; // @synthesize initialFrameForWindow=_initialFrameForWindow;
-@property(readonly, nonatomic) AVDetachedFullscreenTransitionInfo *transitionInfo; // @synthesize transitionInfo=_transitionInfo;
-@property(nonatomic, setter=_setTransitionTypeUsed:) unsigned long long transitionTypeUsed; // @synthesize transitionTypeUsed=_transitionTypeUsed;
 @property(nonatomic, getter=isTransitioning, setter=_setTransitioning:) _Bool transitioning; // @synthesize transitioning=_transitioning;
-@property(retain, nonatomic) id userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

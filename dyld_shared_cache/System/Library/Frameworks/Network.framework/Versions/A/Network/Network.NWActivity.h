@@ -7,8 +7,6 @@
 @interface Network.NWActivity
 {
     id _nw;
-    id domain;
-    id label;
 }
 
 @end

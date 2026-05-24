@@ -5,5 +5,6 @@
 //
 
 @protocol SUOSUNotificationManagerServiceClientProtocol
+- (void);
 @end
 

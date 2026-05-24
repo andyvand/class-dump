@@ -4,36 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class OADDrawableProperties;
-@protocol OADClient, OADDrawableContainer;
+@protocol OADDrawableContainer;
 
 __attribute__((visibility("hidden")))
 @interface OADDrawable
 {
     _Bool mHidden;
-    unsigned int mId;
-    unsigned int mAltId;
-    OADDrawableProperties *mDrawableProperties;
-    id <OADClient> mClientData;
-    OADDrawable<OADDrawableContainer> *mParent;
 }
 
 + (unsigned int);
 - (void);
 - (void);
-- (void);
+- (void)a;
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (unsigned int);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (unsigned int);
+- (unsigned int)onary",&,V_disabledTitleAttributes;
 - (id);
 - (id);
 - (_Bool);

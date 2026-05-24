@@ -4,32 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface PPPBContactNameRecord
 {
     double _score;
-    unsigned char _changeType;
-    NSMutableArray *_cityNames;
-    NSString *_firstName;
-    NSString *_identifier;
-    NSString *_jobTitle;
-    NSString *_lastName;
-    NSString *_middleName;
-    NSString *_nickname;
-    NSString *_organizationName;
-    NSString *_phoneticFirstName;
-    NSString *_phoneticLastName;
-    NSString *_phoneticMiddleName;
-    NSMutableArray *_relatedNames;
-    unsigned char _source;
-    NSString *_sourceIdentifier;
-    NSMutableArray *_streetNames;
-    struct {
-        unsigned int score:1;
-        unsigned int changeType:1;
-        unsigned int source:1;
-    } _has;
 }
 
 + (Class);
@@ -49,7 +26,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)PgQuery__CoercionForm;
 - (id);
 - (id);
 - (_Bool);
@@ -58,18 +35,18 @@
 - (_Bool);
 - (id);
 - (_Bool);
+- (_Bool)(;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)`;
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
-- (_Bool);
+- (void)userNotificationCenter:(id)arg1 willPresentNotification:withCompletionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)_updateNameOnlyUpdateForMessage:fromHandleID: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
@@ -78,16 +55,16 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (_Bool)dProgress",&,N,V_sendProgress;
 - (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)OOL}d);
 - (id);
 - (unsigned char);
 - (void);
 - (unsigned char);
 - (void);
-- (id);
+- (id)a;
 - (id);
 - (void);
 - (id);
@@ -108,7 +85,7 @@
 - (void)!DBù1÷°1Â0@ù
 × ;
 - (void)Present"b1"isCollaboration"b1"isConversationAutoDonating"b1"isPrimary"b1"isTopKResult"b1};
-- (id)thm:(unsigned char)arg1 txnWitness:atLeastOneRecordClusterRemoved:deletedCount:error: /* Error: Ran out of types for this method. */;
+- (id)deleteAllRecordsSourcedFromBundleId:(unsigned char)arg1 groupIds:algorithm:txnWitness:atLeastOneRecordClusterRemoved:deletedCount:error: /* Error: Ran out of types for this method. */;
 - (id)ü;
 - (unsigned char)tiesWithQuery returned an error:(id)arg1 %@;
 - (id).;
@@ -116,37 +93,7 @@
 - (id)ÌLêÿ;
 
 // Remaining properties
-@property(nonatomic) unsigned char changeType; // @synthesize changeType=_changeType;
-@property(retain, nonatomic) NSMutableArray *cityNames; // @synthesize cityNames=_cityNames;
-@property(retain, nonatomic) NSString *firstName; // @synthesize firstName=_firstName;
-@property(nonatomic) _Bool hasChangeType;
-@property(readonly, nonatomic) _Bool hasFirstName;
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasJobTitle;
-@property(readonly, nonatomic) _Bool hasLastName;
-@property(readonly, nonatomic) _Bool hasMiddleName;
-@property(readonly, nonatomic) _Bool hasNickname;
-@property(readonly, nonatomic) _Bool hasOrganizationName;
-@property(readonly, nonatomic) _Bool hasPhoneticFirstName;
-@property(readonly, nonatomic) _Bool hasPhoneticLastName;
-@property(readonly, nonatomic) _Bool hasPhoneticMiddleName;
-@property(nonatomic) _Bool hasScore;
-@property(nonatomic) _Bool hasSource;
-@property(readonly, nonatomic) _Bool hasSourceIdentifier;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSString *jobTitle; // @synthesize jobTitle=_jobTitle;
-@property(retain, nonatomic) NSString *lastName; // @synthesize lastName=_lastName;
-@property(retain, nonatomic) NSString *middleName; // @synthesize middleName=_middleName;
-@property(retain, nonatomic) NSString *nickname; // @synthesize nickname=_nickname;
-@property(retain, nonatomic) NSString *organizationName; // @synthesize organizationName=_organizationName;
-@property(retain, nonatomic) NSString *phoneticFirstName; // @synthesize phoneticFirstName=_phoneticFirstName;
-@property(retain, nonatomic) NSString *phoneticLastName; // @synthesize phoneticLastName=_phoneticLastName;
-@property(retain, nonatomic) NSString *phoneticMiddleName; // @synthesize phoneticMiddleName=_phoneticMiddleName;
-@property(retain, nonatomic) NSMutableArray *relatedNames; // @synthesize relatedNames=_relatedNames;
-@property(nonatomic) double score; // @synthesize score=_score;
-@property(nonatomic) unsigned char source; // @synthesize source=_source;
-@property(retain, nonatomic) NSString *sourceIdentifier; // @synthesize sourceIdentifier=_sourceIdentifier;
-@property(retain, nonatomic) NSMutableArray *streetNames; // @synthesize streetNames=_streetNames;
 
 @end
 

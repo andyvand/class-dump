@@ -4,54 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MFSyncedSignatureContentsFile, NSData, NSString, WebArchive;
+@class NSString;
 
 @interface MFSignature
 {
     NSString *_name;
-    NSData *_webArchiveData;
-    _Bool _isRich;
-    _Bool _isSavedAsRich;
-    _Bool _isDirty;
-    NSString *_uniqueId;
-    MFSyncedSignatureContentsFile *_syncedFile;
 }
 
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
+- (void),;
 - (void);
-- (void);
 - (_Bool);
 - (_Bool);
-- (id);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
 - (id);
+- (void);
 - (id);
-- (unsigned long long);
+- (id);
+- (id);
+- (unsigned long long)_addFloatingDebuggable:forApplicationIdentifier: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id)le;
-- (void)LTTMBARANI;
+- (id)MFSyncedSignatureContentsFile;
+- (void)TAM_LTTMBARANI;
 - (void)¸;
 
 // Remaining properties
-@property(nonatomic) _Bool isDirty; // @synthesize isDirty=_isDirty;
-@property(nonatomic) _Bool isRich;
 @property(readonly, nonatomic) _Bool isSavedAsRich; // @synthesize isSavedAsRich=_isSavedAsRich;
-@property(copy, nonatomic) NSString *name;
-@property(readonly, nonatomic) MFSyncedSignatureContentsFile *syncedFile; // @synthesize syncedFile=_syncedFile;
-@property(readonly, copy, nonatomic) NSString *uniqueId; // @synthesize uniqueId=_uniqueId;
-@property(copy, nonatomic) WebArchive *webArchive;
-@property(readonly, copy, nonatomic) NSData *webArchiveData;
 
 @end
 

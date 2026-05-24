@@ -6,21 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ORCHSchemaORCHCDMRequestEnded, ORCHSchemaORCHCDMRequestFailed, ORCHSchemaORCHCDMRequestStarted, SISchemaUUID;
+@class ORCHSchemaORCHCDMRequestStarted;
 
 @interface ORCHSchemaORCHCDMBridgeContext : SISchemaInstrumentationMessage
 {
     ORCHSchemaORCHCDMRequestStarted *_startedOrChanged;
-    ORCHSchemaORCHCDMRequestEnded *_ended;
-    ORCHSchemaORCHCDMRequestFailed *_failed;
-    SISchemaUUID *_trpId;
-    SISchemaUUID *_subRequestId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    _Bool _hasTrpId;
-    _Bool _hasSubRequestId;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -37,7 +27,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -47,34 +37,23 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)];
 - (id);
 - (id);
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id)
 × ;
-- (id)tFreqForMessages1Day;
+- (id)_appContactFreqForMessages1Day;
 - (id)String",C,N,V_unit;
 - (void)eDatas.linkedUsoEntitySpans.properties.valueInt;
 
 // Remaining properties
-@property(retain, nonatomic) ORCHSchemaORCHCDMRequestEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) ORCHSchemaORCHCDMRequestFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(nonatomic) _Bool hasSubRequestId; // @synthesize hasSubRequestId=_hasSubRequestId;
-@property(nonatomic) _Bool hasTrpId; // @synthesize hasTrpId=_hasTrpId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) ORCHSchemaORCHCDMRequestStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(retain, nonatomic) SISchemaUUID *subRequestId; // @synthesize subRequestId=_subRequestId;
-@property(retain, nonatomic) SISchemaUUID *trpId; // @synthesize trpId=_trpId;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

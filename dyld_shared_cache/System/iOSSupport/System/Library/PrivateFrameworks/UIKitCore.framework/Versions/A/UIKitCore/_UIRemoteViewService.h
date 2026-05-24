@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
-@protocol PKPlugIn;
+@class NSString;
 
 @interface _UIRemoteViewService
 {
@@ -13,26 +12,17 @@
 
 + (id)EOÿ¨É×ûo;
 - (id);
+- (id), error:(id)arg1 %@;
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (void)P;
+- (id)mmcs_request_type_as_c_string;
+- (id)MPModelPropertyTVEpisodeKeepLocalConstraints;
 - (id)
 × ;
-- (void)nager:(CDUnknownBlockType)arg1 configureProgressUIWithError: /* Error: Ran out of types for this method. */;
+- (void)activityContinuationManager:(CDUnknownBlockType)arg1 configureProgressUIWithError: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSUUID *contextToken; // @dynamic contextToken;
-@property(readonly, nonatomic) NSString *extensionPointIdentifier;
 @property(readonly, nonatomic) NSString *identifier; // @dynamic identifier;
-@property(readonly, nonatomic) NSUUID *multipleInstanceUUID; // @dynamic multipleInstanceUUID;
-@property(readonly, nonatomic) _Bool multipleInstances; // @dynamic multipleInstances;
-@property(readonly, nonatomic) _Bool overridesHostAppearance; // @dynamic overridesHostAppearance;
-@property(readonly, nonatomic) id <PKPlugIn> plugin;
-@property(readonly, nonatomic) int processIdentifier; // @dynamic processIdentifier;
-@property(readonly, nonatomic) NSString *viewControllerClassName; // @dynamic viewControllerClassName;
-@property(readonly, nonatomic) NSString *xpcServiceNameRoot; // @dynamic xpcServiceNameRoot;
 
 @end
 

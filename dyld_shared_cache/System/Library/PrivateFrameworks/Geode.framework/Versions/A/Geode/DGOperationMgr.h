@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSSet;
+@class NSMutableDictionary;
 
 @interface DGOperationMgr
 {
     NSMutableDictionary *_operationInfoByIdentifier;
-    NSMutableDictionary *_operationInfoByClassName;
-    NSMutableDictionary *_namesByIdentifier;
-    NSSet *_nonReorderableOperationIds;
 }
 
 + (id);
 + (id);
-+ (void)leBuffer;
++ (void)PA2DMutableBuffer;
 - (unsigned long long);
-- (id);
+- (id)6;
 - (id);
 - (id);
 - (void);

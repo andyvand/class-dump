@@ -7,8 +7,6 @@
 @interface PhotoAnalysis.KnownResources
 {
     id $defaultActor;
-    id logger;
-    id knownResources;
 }
 
 @end

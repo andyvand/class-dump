@@ -9,19 +9,19 @@ __attribute__((visibility("hidden")))
 {
 }
 
+- (void)primaryDataConnection;
+- (void)modelConstruction;
+- (void)primaryDataResponse;
 - (void);
+- (void)intentReplayIgnoreList;
+- (void)wift;
+- (void)`;
+- (void)de MediaArtwork;
+- (void)t supported on macCatalyst;
+- (id)ould not provide `app` field because ;
+- (long long)of evicted assets;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (long long);
-- (void);
-- (void);
+- (void)ation for the intent. Did you forget to register the implementation in your Swift or JavaScript code?;
 - (void);
 - (void);
 - (void);

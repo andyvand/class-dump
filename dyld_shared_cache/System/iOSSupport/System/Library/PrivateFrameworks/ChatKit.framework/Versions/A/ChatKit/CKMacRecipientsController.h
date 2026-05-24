@@ -6,54 +6,45 @@
 
 #import <ChatKit/CKViewController.h>
 
-@class CKConversation, CKDetailsContactsManager, CKManualUpdater, CNComposeRecipientTextView, NSString, STConversationContext, UIScrollView, UIView;
-@protocol CKMacRecipientsControllerDelegate;
+@class STConversationContext;
 
 __attribute__((visibility("hidden")))
 @interface CKMacRecipientsController : CKViewController
 {
     _Bool _allowedByScreenTime;
-    CKConversation *_conversation;
-    CNComposeRecipientTextView *_toField;
-    UIView *_detailsPopoverPresentationSourceView;
-    STConversationContext *_currentConversationContext;
-    id <CKMacRecipientsControllerDelegate> _delegate;
-    CKDetailsContactsManager *_contactsManager;
-    UIScrollView *_toFieldScrollView;
-    CKManualUpdater *_addressBookNotificationUpdater;
-    unsigned long long _numberOfRowsInToField;
 }
 
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (unsigned long long);
-- (struct CGRect);
-- (struct CGRect);
-- (struct CGRect);
-- (struct CGRect);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)imageDataWithMarkupModelData:sourceImageURL: /* Error: Ran out of types for this method. */;
+- (id)didAuthenticateCustomPasswordWithPrompt:result:displayWindow:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)_userIDToColorsDict;
+- (void)_attachment;
+- (void)_metadata;
+- (void)ditorDelegate>",W,N,V_linkDelegate;
+- (void)dateObject;
 - (void);
 - (void);
 - (double);
+- (unsigned long long)ObjectWillChangePublisher;
+- (struct CGRect);
+- (struct CGRect);
+- (struct CGRect);
+- (struct CGRect);
+- (id);
+- (id)e;
+- (void)hare %@;
+- (void)bility alert for device password mode;
+- (id)ty alert for device password mode…;
+- (id)-thumbnail-queue;
+- (void)t, incomplete;
+- (void)xx;
+- (_Bool)Styles;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (double)/
+;
 - (id);
 - (id);
 - (unsigned long long);
@@ -64,9 +55,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void))!;
 - (id);
 - (void);
 - (void);
@@ -74,7 +65,7 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)áú°!lAùÑð1Â0@ù
 × ;
-- (id)nButtonPlaybackPausedNotification;
+- (id)CKAudioProgressTableViewActionButtonPlaybackPausedNotification;
 - (void)l;
 - (id);
 - (_Bool);
@@ -82,23 +73,7 @@ __attribute__((visibility("hidden")))
 - (void)PÿE­6@ª1;
 
 // Remaining properties
-@property(retain, nonatomic) CKManualUpdater *addressBookNotificationUpdater; // @synthesize addressBookNotificationUpdater=_addressBookNotificationUpdater;
-@property(nonatomic) _Bool allowedByScreenTime; // @synthesize allowedByScreenTime=_allowedByScreenTime;
-@property(retain, nonatomic) CKDetailsContactsManager *contactsManager; // @synthesize contactsManager=_contactsManager;
-@property(nonatomic) __weak CKConversation *conversation; // @synthesize conversation=_conversation;
 @property(retain, nonatomic) STConversationContext *currentConversationContext; // @synthesize currentConversationContext=_currentConversationContext;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKMacRecipientsControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UIView *detailsPopoverPresentationSourceView; // @synthesize detailsPopoverPresentationSourceView=_detailsPopoverPresentationSourceView;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long numberOfRowsInToField; // @synthesize numberOfRowsInToField=_numberOfRowsInToField;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CNComposeRecipientTextView *toField; // @synthesize toField=_toField;
-@property(retain, nonatomic) UIScrollView *toFieldScrollView; // @synthesize toFieldScrollView=_toFieldScrollView;
 
 @end
 

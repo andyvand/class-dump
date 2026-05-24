@@ -4,18 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSSet;
 
 @interface ECAuthScheme
 {
 }
 
-+ (id);
++ (id)DeviceAsync:(unsigned int)arg1 no grouped devices:localDevice = %@ /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (id)ñU1Â0@ù
 × ;
-- (id);
+- (id)ed - success:%@, error:%@. /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (id);
 - (id);
@@ -23,11 +23,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int applescriptScheme;
-@property(readonly, copy, nonatomic) NSString *humanReadableName;
-@property(readonly, copy, nonatomic) NSString *name;
-@property(readonly, nonatomic) _Bool requiresPassword;
-@property(readonly, nonatomic) _Bool requiresUsername;
 @property(readonly, copy, nonatomic) NSSet *supportedSASLMechanisms;
 
 @end

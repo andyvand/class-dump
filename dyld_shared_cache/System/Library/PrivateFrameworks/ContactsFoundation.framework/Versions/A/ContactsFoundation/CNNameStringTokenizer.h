@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNUnfairLock, NSObject;
-@protocol OS_dispatch_queue;
-
 @interface CNNameStringTokenizer
 {
     struct __CFStringTokenizer *_tokenizer;
-    NSObject<OS_dispatch_queue> *_syncQueue;
-    CNUnfairLock *_lock;
 }
 
 + (id);
@@ -20,13 +15,12 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)distributionIdentifierForEmailAddressesOfContact:(id)arg1 inGroup:error: /* Error: Ran out of types for this method. */;
+- (id)registrationsForTargetRecords:registrar:error: /* Error: Ran out of types for this method. */;
 - (void);
-- (struct __CFStringTokenizer *)ithTimeout: /* Error: Ran out of types for this method. */;
+- (struct __CFStringTokenizer *)awaitOnSemaphoreWithTimeout: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) CNUnfairLock *lock; // @synthesize lock=_lock;
 @property(readonly, nonatomic) struct __CFStringTokenizer *tokenizer; // @synthesize tokenizer=_tokenizer;
 
 @end

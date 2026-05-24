@@ -4,36 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MFEWSAccount, MFEWSConnection, NSDictionary, NSMutableArray, NSOperationQueue;
-@protocol EFScheduler;
+@class MFEWSConnection, NSMutableArray;
 
 @interface MFEWSGateway
 {
     NSMutableArray *_offlineRequests;
-    MFEWSAccount *_account;
-    NSDictionary *_savedOfflineToRealEWSIdStrings;
-    id <EFScheduler> _commitScheduler;
 }
 
 + (id);
 + (id);
 + (id);
 + (_Bool);
-- (_Bool);
+- (_Bool)T;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)qA;
 - (_Bool);
 - (unsigned long long);
 - (void);
@@ -50,27 +46,22 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)locationManager:didDetermineState:forRegion: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
+- (void)So6NSFontC;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) __weak MFEWSAccount *account; // @synthesize account=_account;
-@property(readonly, nonatomic) id <EFScheduler> commitScheduler; // @synthesize commitScheduler=_commitScheduler;
 @property(readonly, nonatomic) MFEWSConnection *connection;
-@property(readonly, nonatomic) unsigned long long maxRequestsToSend;
-@property(readonly, nonatomic) NSOperationQueue *requestResponseQueue;
-@property(copy, nonatomic) NSDictionary *savedOfflineToRealEWSIdStrings; // @synthesize savedOfflineToRealEWSIdStrings=_savedOfflineToRealEWSIdStrings;
 
 @end
 

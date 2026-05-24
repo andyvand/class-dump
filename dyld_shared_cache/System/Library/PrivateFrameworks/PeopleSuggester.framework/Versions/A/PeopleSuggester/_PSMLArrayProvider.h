@@ -9,23 +9,19 @@
 @interface _PSMLArrayProvider
 {
     int _clusteringCount;
-    int _recencyCount;
-    MLArrayBatchProvider *_MLArrayProvider;
 }
 
-- (void);
-- (void);
-- (void);
-- (int);
-- (id);
-- (int);
-- (id);
+- (void)_hasAssistantDeviceBirthday;
+- (void)_hasAnonymizedLocationTypeId;
+- (void)_generationTag;
+- (int)_flowDomainExecutionContext;
+- (id)_downloadState;
+- (int)_appLanguageModelLoadContext;
+- (id)_appAffinityScoreForMessagesUsingSiri;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) MLArrayBatchProvider *MLArrayProvider; // @synthesize MLArrayProvider=_MLArrayProvider;
-@property(nonatomic) int clusteringCount; // @synthesize clusteringCount=_clusteringCount;
-@property(nonatomic) int recencyCount; // @synthesize recencyCount=_recencyCount;
 
 @end
 

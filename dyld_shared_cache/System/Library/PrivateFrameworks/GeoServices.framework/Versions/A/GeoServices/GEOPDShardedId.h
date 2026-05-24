@@ -4,29 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOPDShardedId
 {
     PBUnknownFields *_unknownFields;
-    unsigned long long _basemapId;
-    GEOLatLng *_center;
-    unsigned long long _muid;
-    int _mapsResultType;
-    int _resultProviderId;
-    unsigned int _sourceId;
-    _Bool _isExternalVisibleId;
-    struct {
-        unsigned int has_basemapId:1;
-        unsigned int has_muid:1;
-        unsigned int has_mapsResultType:1;
-        unsigned int has_resultProviderId:1;
-        unsigned int has_sourceId:1;
-        unsigned int has_isExternalVisibleId:1;
-    } _flags;
 }
 
-+ (_Bool)tchedStrings:(id)arg1;
++ (_Bool)setIncludeUnmatchedStrings:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -39,33 +24,33 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)_disableObservationIfNecessary;
+- (void)on;
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (int);
 - (_Bool);
 - (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void)_handleMapItems:(_Bool)arg1 withOptions:url:sourceApplication:context: /* Error: Ran out of types for this method. */;
+- (_Bool)ified a key '%@', but that key is not present or not a string or attributed string in the replacements dictionary (value:%@) /* Error: Ran out of types for this method. */;
+- (_Bool)k7;
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (id)"read_identifier"b1"read_position"b1"wrote_anyField"b1};
 - (int)feedbackSubmissionURL;
-- (void)ivalStepID;
-- (id)quiredVersion;
+- (void)arrivalStepID;
+- (id)_requiredVersion;
 - (id)ØÜ@;
-- (void);
-- (id)USE_NEXT_BUTTONS;
+- (void)venueInfoFilter;
+- (id)DISPLAY_PAUSE_NEXT_BUTTONS;
 - (void)À;
 - (void)<Ì;
 - (_Bool);
@@ -75,21 +60,7 @@
 - (id)ÀÊ¡u@@;
 
 // Remaining properties
-@property(nonatomic) unsigned long long basemapId;
-@property(retain, nonatomic) GEOLatLng *center;
-@property(nonatomic) _Bool hasBasemapId;
-@property(readonly, nonatomic) _Bool hasCenter;
-@property(nonatomic) _Bool hasIsExternalVisibleId;
-@property(nonatomic) _Bool hasMapsResultType;
 @property(nonatomic) _Bool hasMuid;
-@property(nonatomic) _Bool hasResultProviderId;
-@property(nonatomic) _Bool hasSourceId;
-@property(nonatomic) _Bool isExternalVisibleId;
-@property(nonatomic) int mapsResultType;
-@property(nonatomic) unsigned long long muid;
-@property(nonatomic) int resultProviderId;
-@property(nonatomic) unsigned int sourceId;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, NSURL, SFActionItem;
+@class NSString;
 
 @interface SFTrack
 {
     struct {
         unsigned int highlighted:1;
     } _has;
-    _Bool _highlighted;
-    NSString *_title;
-    NSString *_number;
-    NSString *_duration;
-    NSURL *_preview;
-    SFActionItem *_playAction;
 }
 
 + (_Bool);
@@ -25,39 +19,25 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)k";
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)B;
+- (void)setBeingDeemphasized:(id)arg1;
+- (id);
+- (id);
+- (void)"PFParallaxAssetRequestOptions"16@?<v@?@"NSArray"@"NSArray"@"NSError">24;
+- (id)ckDataCache:Finished loading persons for checking merge candidates, %tu people found. /* Error: Ran out of types for this method. */;
+- (id):%@,  /* Error: Ran out of types for this method. */;
+- (id)ay;
+- (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void)ress_text_2_if_text_1_exceeds_a_single_line;
+- (void)hasSuppress_text_2_if_text_1_exceeds_a_single_line;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSString *duration; // @synthesize duration=_duration;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool highlighted; // @synthesize highlighted=_highlighted;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *number; // @synthesize number=_number;
-@property(retain, nonatomic) SFActionItem *playAction; // @synthesize playAction=_playAction;
-@property(copy, nonatomic) NSURL *preview; // @synthesize preview=_preview;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

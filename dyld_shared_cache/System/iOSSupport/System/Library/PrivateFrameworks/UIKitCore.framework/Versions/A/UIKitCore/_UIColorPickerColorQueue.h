@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADisplayLink, _UIColorPickerColorQueueContainer;
+@class CADisplayLink;
 @protocol _UIColorPickerColorQueueDelegate;
 
 __attribute__((visibility("hidden")))
 @interface _UIColorPickerColorQueue
 {
     id <_UIColorPickerColorQueueDelegate> _delegate;
-    CADisplayLink *_displayLink;
-    _UIColorPickerColorQueueContainer *_latestObject;
 }
 
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)sizeOfAssetForRecord:(id)arg1;
+- (id)er:account: /* Error: Ran out of types for this method. */;
+- (void)rphaned:(id)arg1 not in message(nil:(id)arg2 %{BOOL}d), bundle %@;
+- (void)hing eligibility for truth zone before attempting to sync;
+- (void)ExistingMergedChatsWithChatTTR;
 - (id);
 - (void);
 - (id);
@@ -29,9 +27,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(nonatomic) __weak id <_UIColorPickerColorQueueDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) CADisplayLink *displayLink; // @synthesize displayLink=_displayLink;
-@property(retain, nonatomic) _UIColorPickerColorQueueContainer *latestObject; // @synthesize latestObject=_latestObject;
 
 @end
 

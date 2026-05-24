@@ -10,7 +10,7 @@
 
 + (_Bool);
 - (Class);
-- (id);
+- (id)alternateContentsURLWrapperForItemID:(id)arg1;
 - (id);
 - (void);
 - (id);

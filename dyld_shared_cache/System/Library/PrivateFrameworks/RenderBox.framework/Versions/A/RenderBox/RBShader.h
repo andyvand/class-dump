@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, RBShaderLibrary;
+@class RBShaderLibrary;
 
 @interface RBShader
 {
     struct objc_ptr<RBShaderLibrary *> _library;
-    struct Closure _fn_args;
-    struct unique_ptr<CGAffineTransform, std::default_delete<CGAffineTransform>> _cifilter_ctm;
-    int _type;
 }
 
 + (id);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (float);
 - (CDUnknownBlockType);
@@ -33,27 +30,15 @@
 - (id);
 - (int);
 - (_Bool);
-- (id);
+- (id)@;
 - (void);
 - (CDStruct_d420724a);
 - (id);
-- (id);
+- (id)#;
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct CGAffineTransform CIFilterCTM;
-@property(copy, nonatomic) CDUnknownBlockType CIFilterProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *function;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) RBShaderLibrary *library;
-@property(readonly, nonatomic) unsigned long long numberOfArguments;
-@property(readonly) Class superclass;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

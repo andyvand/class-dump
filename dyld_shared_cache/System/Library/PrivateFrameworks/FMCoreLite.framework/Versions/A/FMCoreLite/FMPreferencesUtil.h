@@ -10,10 +10,10 @@
 
 + (id);
 + (void);
-+ (id);
++ (id);
 + (long long);
 + (void);
-+ (id);
++ (id)addReason:(id)arg1;
 + (_Bool);
 + (void);
 + (void);
@@ -22,7 +22,7 @@
 + (id);
 + (void);
 + (id);
-+ (id);
++ (id);
 + (void);
 + (id);
 + (void);

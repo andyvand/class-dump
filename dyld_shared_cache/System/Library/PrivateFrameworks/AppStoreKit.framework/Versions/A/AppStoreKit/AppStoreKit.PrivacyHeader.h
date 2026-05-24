@@ -7,10 +7,6 @@
 @interface AppStoreKit.PrivacyHeader
 {
     id bodyText;
-    id supplementaryItems;
-    id isDetailHeader;
-    id id;
-    id automationMetadata;
 }
 
 @end

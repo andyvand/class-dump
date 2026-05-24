@@ -4,31 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSPerson, NSArray, NSDate, NSString, SGHarvestQueueMetrics, _PASCachedResult;
+@class NSString, _PASCachedResult;
 
 @interface SGMessage
 {
     _PASCachedResult *_isInhumanSenderCached;
-    _PASCachedResult *_isInhumanContentCached;
-    _PASCachedResult *_taggedCharacterRangesCached;
-    _PASCachedResult *_messageSubjectDetectedDataCached;
-    _PASCachedResult *_dataDetectorMatchesWithSignatureForContentCached;
-    _PASCachedResult *_textContentLanguageIdentifierCached;
-    _Bool _isSent;
-    _Bool _isStoredEncrypted;
-    NSString *_subject;
-    NSString *_textContent;
-    NSString *_source;
-    NSDate *_date;
-    NSString *_bundleIdentifier;
-    NSString *_uniqueIdentifier;
-    NSString *_mailConversationIdentifier;
-    NSString *_domainIdentifier;
-    NSArray *_attachments;
-    NSArray *_accountHandles;
-    NSString *_accountType;
-    SGHarvestQueueMetrics *_harvestMetrics;
-    NSString *_contentProtection;
 }
 
 + (id);
@@ -37,7 +17,7 @@
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -45,7 +25,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)4_&;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -53,11 +33,11 @@
 - (id);
 - (id);
 - (struct _NSRange);
-- (id);
+- (id)T;
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)$a;
 - (void);
 - (_Bool);
 - (void);
@@ -68,9 +48,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)h;
 - (id);
 - (void);
 - (id);
@@ -78,7 +56,9 @@
 - (id);
 - (void);
 - (id);
+- (void);
 - (id);
+- (id)P;
 - (void);
 - (id);
 - (long long);
@@ -95,37 +75,7 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *accountHandles; // @synthesize accountHandles=_accountHandles;
-@property(copy, nonatomic) NSString *accountType; // @synthesize accountType=_accountType;
-@property(readonly, nonatomic) NSArray *attachments; // @synthesize attachments=_attachments;
-@property(readonly, nonatomic) CSPerson *author;
-@property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, nonatomic) long long contentLength;
-@property(copy, nonatomic) NSString *contentProtection; // @synthesize contentProtection=_contentProtection;
-@property(copy, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) struct _NSRange detectedDataSignatureRange;
-@property(copy, nonatomic) NSString *domainIdentifier; // @synthesize domainIdentifier=_domainIdentifier;
-@property(retain, nonatomic) SGHarvestQueueMetrics *harvestMetrics; // @synthesize harvestMetrics=_harvestMetrics;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isInhumanContent;
-@property(readonly, nonatomic) _Bool isInhumanSender;
-@property(nonatomic) _Bool isSent; // @synthesize isSent=_isSent;
-@property(nonatomic) _Bool isStoredEncrypted; // @synthesize isStoredEncrypted=_isStoredEncrypted;
-@property(copy, nonatomic) NSString *mailConversationIdentifier; // @synthesize mailConversationIdentifier=_mailConversationIdentifier;
-@property(readonly, nonatomic) NSArray *messageSubjectDetectedData;
-@property(readonly, nonatomic) NSArray *plainTextDetectedData;
-@property(copy, nonatomic) NSString *source; // @synthesize source=_source;
 @property(copy, nonatomic) NSString *subject; // @synthesize subject=_subject;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *taggedCharacterRanges;
-@property(copy, nonatomic) NSString *textContent; // @synthesize textContent=_textContent;
-@property(readonly, nonatomic) NSString *textContentLanguageIdentifier;
-@property(copy, nonatomic) NSString *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end
 

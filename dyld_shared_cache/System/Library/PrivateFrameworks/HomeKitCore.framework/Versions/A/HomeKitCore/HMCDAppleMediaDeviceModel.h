@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMCDAccessoryModel, NSString, NSUUID;
+@class NSUUID;
 
 @interface HMCDAppleMediaDeviceModel
 {
@@ -13,9 +13,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, retain) HMCDAccessoryModel *accessory; // @dynamic accessory;
-@property(nonatomic, copy) NSString *idsDestination; // @dynamic idsDestination;
-@property(nonatomic) _Bool isCurrentDevice; // @dynamic isCurrentDevice;
 @property(nonatomic, copy) NSUUID *modelID; // @dynamic modelID;
 
 @end

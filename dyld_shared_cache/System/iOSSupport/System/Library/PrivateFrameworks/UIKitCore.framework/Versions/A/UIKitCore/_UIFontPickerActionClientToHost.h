@@ -12,7 +12,7 @@
 
 + (id);
 + (id);
-- (void);
+- (void)setServiceDisconnectReason:(id)arg1;
 
 @end
 

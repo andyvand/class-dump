@@ -4,33 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSMutableArray, NSView, _NSFullScreenTileOverlayWindow;
+@class NSView;
 
 __attribute__((visibility("hidden")))
 @interface _NSFullScreenTileOverlayLayer
 {
     unsigned long long _tileID;
-    unsigned long long _parentSpaceID;
-    _NSFullScreenTileOverlayWindow *_window;
-    _Bool _active;
-    NSMutableArray *_windowLayers;
-    CALayer *_windowContentLayer;
-    NSView *_auxiliaryView;
-    unsigned long long _dividerDirections;
-    CALayer *_eastDivider;
-    CALayer *_westDivider;
 }
 
 - (void);
 - (void);
-- (unsigned long long);
-- (void);
+- (unsigned long long);
+- (void)WiFiCallingCapability;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)data task with identifier %lu because there is no such task;
 - (void);
 
 // Remaining properties

@@ -16,10 +16,10 @@
 - (struct CGSize);
 - (long long);
 - (id);
+- (id)@;
 - (id);
 - (id);
-- (id);
-- (double);
+- (double)ificates;
 - (id);
 - (void);
 

@@ -13,7 +13,7 @@
 + (Class);
 + (long long)thodValues;
 - (id);
-- (id)nectorPower;
+- (id)INCarChargingConnectorPower;
 
 @end
 

@@ -7,18 +7,6 @@
 @interface PowerlogLiteOperators.ACDiagnosticsClient
 {
     id container;
-    id codeService;
-    id client;
-    id serialNumber;
-    id build;
-    id buildVariant;
-    id device;
-    id productCode;
-    id platform;
-    id isBeta;
-    id isInternal;
-    id isAuthorizedToUpload;
-    id taskManager;
 }
 
 - (void);

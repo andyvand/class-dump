@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLayoutConstraint, NSStackView, NSView;
+@class NSStackView;
 
 @interface ASNavigationControllerBarView
 {
     NSStackView *_containerStackView;
-    NSStackView *_itemsStackView;
-    NSView *_separatorView;
-    NSLayoutConstraint *_separatorHeightConstraint;
-    long long _separatorPlacement;
 }
 
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (long long);
+- (long long)`;
 - (id);
 - (id);
 - (id);
@@ -29,9 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *leadingViews;
 @property(nonatomic) long long separatorPlacement; // @synthesize separatorPlacement=_separatorPlacement;
-@property(copy, nonatomic) NSArray *trailingViews;
 
 @end
 

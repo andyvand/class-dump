@@ -5,10 +5,10 @@
 //
 
 @interface UnknownClass (AttendeeUtils)
+- (id)Y%s;
+- (id)s;
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (long long);
+- (_Bool)s;
+- (long long)S%s;
 @end
 

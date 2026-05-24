@@ -16,24 +16,24 @@
 + (void);
 - (id);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool)addValue:toAttribute:error: /* Error: Ran out of types for this method. */;
+- (void)et locales;
+- (void)Processing network interfaces and creating necessary subnet locales;
+- (void)and subnet locale(s);
+- (void)%d);
+- (void)tribute to '%@' config record:(id)arg1 %@ (%d);
+- (id)ales,olcDatabase={-1}frontend,cn=config;
+- (id)ocale failed:%@ (%d) /* Error: Ran out of types for this method. */;
+- (id)d an IP address for server '%@', computer record not updated;
+- (id)Plist in computer record '%@';
+- (id)rver;
+- (id)name supplied - unable to add server;
+- (unsigned long long)locale record - unable to remove subnet;
+- (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)6;
 - (id);
 
 // Remaining properties

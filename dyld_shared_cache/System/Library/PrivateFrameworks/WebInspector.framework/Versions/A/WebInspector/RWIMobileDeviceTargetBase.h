@@ -6,30 +6,27 @@
 
 #import <WebInspector/RWITarget.h>
 
-@class NSArray, NSMutableArray, NSObject, NSString, RWIMobileDeviceConnection;
-@protocol OS_dispatch_queue;
+@class NSArray, NSMutableArray;
 
 @interface RWIMobileDeviceTargetBase : RWITarget
 {
     NSMutableArray *_mobileDeviceConnections;
-    NSObject<OS_dispatch_queue> *_deviceAccessQueue;
-    NSString *_anonymousIdentifier;
 }
 
 + (void);
 + (id);
 + (void);
 - (void);
+- (id)c;
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)�;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)9h;
+- (id);
+- (id);
 - (id);
 - (void);
 - (_Bool);
@@ -37,15 +34,10 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isConnected) _Bool connected;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *deviceAccessQueue;
-@property(readonly, nonatomic) _Bool hasWiredConnection;
-@property(readonly, nonatomic) _Bool hasWirelessConnection;
 @property(readonly, copy, nonatomic) NSArray *mobileDeviceConnections;
-@property(readonly, nonatomic) RWIMobileDeviceConnection *primaryMobileDeviceConnection;
 
 @end
 

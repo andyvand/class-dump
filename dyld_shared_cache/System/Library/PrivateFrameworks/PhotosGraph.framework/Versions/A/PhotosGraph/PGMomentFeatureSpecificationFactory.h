@@ -4,19 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSSceneTaxonomyHierarchy, CSUCLIPTextEncoderV3, NSObject, PHPhotoLibrary, PNBackgroundMemoriesEmbeddingSearcher;
-@protocol OS_os_log;
+@class CLSSceneTaxonomyHierarchy;
 
 @interface PGMomentFeatureSpecificationFactory
 {
     CLSSceneTaxonomyHierarchy *_sceneTaxonomy;
-    PHPhotoLibrary *_photoLibrary;
-    NSObject<OS_os_log> *_loggingConnection;
-    CSUCLIPTextEncoderV3 *_CLIPTextEncoder;
-    PNBackgroundMemoriesEmbeddingSearcher *_embeddingsBasedAssetFetcher;
 }
 
 - (id);
+- (id)isPluggedIn;
+- (id)MRequirementDataAnd;
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (id)c;
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -24,19 +31,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)Q;
 - (id);
 - (id);
 - (void)assets %lu

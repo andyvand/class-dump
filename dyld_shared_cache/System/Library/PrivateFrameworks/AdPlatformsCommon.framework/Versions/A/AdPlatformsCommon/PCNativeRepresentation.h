@@ -6,28 +6,9 @@
 
 #import <AdPlatformsCommon/APRepresentationData.h>
 
-@class NSArray, NSString, NSURL, PCNativeButton, PCNativeStyle;
-
 @interface PCNativeRepresentation : APRepresentationData
 {
     long long _adType;
-    NSString *_accessibleAdCopy;
-    NSString *_accessibleHeadline;
-    NSString *_adCopy;
-    PCNativeStyle *_defaultStyle;
-    NSArray *_elements;
-    NSString *_headline;
-    NSString *_localeIdentifier;
-    NSString *_sponsor;
-    long long _adFormatType;
-    NSURL *_sponsoredByAssetURL;
-    NSURL *_sponsoredByAssetURLForDarkMode;
-    NSArray *_localizedHeadlines;
-    PCNativeButton *_button;
-    NSURL *_actionURL;
-    NSString *_caption;
-    NSString *_accessibleCaption;
-    NSString *_sponsorshipIdentifier;
 }
 
 + (_Bool);
@@ -52,44 +33,27 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
+- (void)initWithQueue:(id)arg1;
 - (void);
+- (id)8*36;
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id)orRequester:forContext:placement:completionHandler: /* Error: Ran out of types for this method. */;
-- (void)Engine;
+- (id)ation;
+- (id)sendAndRankContent:forRequester:forContext:placement:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_capabilityEngine;
 - (id);
 - (void)BitField;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *accessibleAdCopy; // @synthesize accessibleAdCopy=_accessibleAdCopy;
-@property(retain, nonatomic) NSString *accessibleCaption; // @synthesize accessibleCaption=_accessibleCaption;
-@property(retain, nonatomic) NSString *accessibleHeadline; // @synthesize accessibleHeadline=_accessibleHeadline;
-@property(retain, nonatomic) NSURL *actionURL; // @synthesize actionURL=_actionURL;
-@property(retain, nonatomic) NSString *adCopy; // @synthesize adCopy=_adCopy;
-@property(nonatomic) long long adFormatType; // @synthesize adFormatType=_adFormatType;
 @property(nonatomic) long long adType; // @synthesize adType=_adType;
-@property(retain, nonatomic) PCNativeButton *button; // @synthesize button=_button;
-@property(retain, nonatomic) NSString *caption; // @synthesize caption=_caption;
-@property(retain, nonatomic) PCNativeStyle *defaultStyle; // @synthesize defaultStyle=_defaultStyle;
-@property(retain, nonatomic) NSArray *elements; // @synthesize elements=_elements;
-@property(retain, nonatomic) NSString *headline; // @synthesize headline=_headline;
-@property(retain, nonatomic) NSString *localeIdentifier; // @synthesize localeIdentifier=_localeIdentifier;
-@property(retain, nonatomic) NSArray *localizedHeadlines; // @synthesize localizedHeadlines=_localizedHeadlines;
-@property(retain, nonatomic) NSString *sponsor; // @synthesize sponsor=_sponsor;
-@property(retain, nonatomic) NSURL *sponsoredByAssetURL; // @synthesize sponsoredByAssetURL=_sponsoredByAssetURL;
-@property(retain, nonatomic) NSURL *sponsoredByAssetURLForDarkMode; // @synthesize sponsoredByAssetURLForDarkMode=_sponsoredByAssetURLForDarkMode;
-@property(retain, nonatomic) NSString *sponsorshipIdentifier; // @synthesize sponsorshipIdentifier=_sponsorshipIdentifier;
 
 @end
 

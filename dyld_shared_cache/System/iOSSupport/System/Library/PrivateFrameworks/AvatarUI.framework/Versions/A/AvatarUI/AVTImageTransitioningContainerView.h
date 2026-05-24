@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTUIAnimatingImageView, UIImage, UIView;
+@class AVTUIAnimatingImageView, UIView;
 
 @interface AVTImageTransitioningContainerView
 {
     UIView *_liveView;
-    UIImage *_staticImage;
-    long long _layoutMode;
-    AVTUIAnimatingImageView *_imageViewsContainer;
-    UIView *_borderMaskView;
-    struct CGSize _aspectRatio;
 }
 
 + (struct CGRect);
@@ -32,20 +27,14 @@
 - (long long);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (struct CGSize);
 
 // Remaining properties
-@property(nonatomic) struct CGSize aspectRatio; // @synthesize aspectRatio=_aspectRatio;
-@property(readonly, nonatomic) UIView *borderMaskView; // @synthesize borderMaskView=_borderMaskView;
 @property(readonly, nonatomic) AVTUIAnimatingImageView *imageViewsContainer; // @synthesize imageViewsContainer=_imageViewsContainer;
-@property(readonly, nonatomic) long long layoutMode; // @synthesize layoutMode=_layoutMode;
-@property(retain, nonatomic) UIView *liveView; // @synthesize liveView=_liveView;
-@property(retain, nonatomic) UIImage *staticImage; // @synthesize staticImage=_staticImage;
-@property(readonly, nonatomic) UIView *staticView;
 
 @end
 

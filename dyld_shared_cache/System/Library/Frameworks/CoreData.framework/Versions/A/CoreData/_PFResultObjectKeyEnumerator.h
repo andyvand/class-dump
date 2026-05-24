@@ -8,10 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _PFResultObjectKeyEnumerator
 {
     id _target;
-    const id *_keys;
-    unsigned long long *_referenceItems;
-    struct _NSRange _range;
-    unsigned long long _index;
 }
 
 - (id);

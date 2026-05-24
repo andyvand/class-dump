@@ -7,9 +7,6 @@
 @interface TeaUI.PillViewModel
 {
     id title;
-    id titleColor;
-    id icon;
-    id size;
 }
 
 @end

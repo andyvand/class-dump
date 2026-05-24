@@ -11,8 +11,6 @@
 @interface MPSCNNConvolutionNode : MPSNNFilterNode
 {
     id <MPSCNNConvolutionDataSource> _weights;
-    unsigned long long _accumulatorPrecision;
-    unsigned long long _trainingStyle;
 }
 
 @end

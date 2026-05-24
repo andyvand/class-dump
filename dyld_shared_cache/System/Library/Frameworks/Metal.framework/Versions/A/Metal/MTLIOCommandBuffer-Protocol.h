@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString;
+@class NSString;
 
 @protocol MTLIOCommandBuffer
+- (void)14; float hi = max(r, max(g, b)); float lo = min(r, min(g, b)); float rng = hi - lo; float y = lum*(1.0 - rng)*(1.0 - (r - g)*(r - b)*params.r) - params.g; return vec4(y, y, y, 1.0); };
 - (void)4IQQ}{?=b8b24IQQ})24Q32;
 - (void);
 
 // Remaining properties
-@property(readonly) NSError *error;
 @property(copy) NSString *label;
-@property(readonly) long long status;
 @end
 

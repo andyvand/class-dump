@@ -9,10 +9,10 @@
     double _targetJPEGCompressionValue;
 }
 
-- (double);
-- (void);
-- (_Bool);
-- (id);
+- (double)Ref, CFStringRef, CFDictionaryRef);
+- (void)apPlayback_handleEventWithMessageID;
+- (_Bool)*);
+- (id)ointPlaybackSessionAirPlay.%{ptr}.event;
 
 // Remaining properties
 @property(nonatomic) double targetJPEGCompressionValue; // @synthesize targetJPEGCompressionValue=_targetJPEGCompressionValue;

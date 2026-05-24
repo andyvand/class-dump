@@ -10,12 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NGMPBInnerMessage
 {
     unsigned int _counter;
-    NSData *_debugInfo;
-    NSData *_ktGossipData;
-    NSData *_message;
-    struct {
-        unsigned int counter:1;
-    } _has;
 }
 
 - (void);
@@ -28,13 +22,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (_Bool);
+- (_Bool)Updated:%1.64@
+ /* Error: Ran out of types for this method. */;
+- (void)!;
+- (id)p;
 - (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
+- (void);
+- (void)__kIMDMessageServicesExpireStateDictionaryKey;
+- (id).framework/Contents/MacOS/PowerLog;
 - (id);
 - (unsigned int);
 - (id);
@@ -43,12 +38,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int counter; // @synthesize counter=_counter;
-@property(retain, nonatomic) NSData *debugInfo; // @synthesize debugInfo=_debugInfo;
-@property(nonatomic) _Bool hasCounter;
-@property(readonly, nonatomic) _Bool hasDebugInfo;
-@property(readonly, nonatomic) _Bool hasKtGossipData;
-@property(retain, nonatomic) NSData *ktGossipData; // @synthesize ktGossipData=_ktGossipData;
 @property(retain, nonatomic) NSData *message; // @synthesize message=_message;
 
 @end

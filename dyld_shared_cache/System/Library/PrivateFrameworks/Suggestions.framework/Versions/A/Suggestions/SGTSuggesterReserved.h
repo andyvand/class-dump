@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SGTCategory, SGTQueryGenius;
-@protocol SGTSuggesterDelegate;
+@class SGTQueryGenius;
 
 __attribute__((visibility("hidden")))
 @interface SGTSuggesterReserved
 {
     SGTQueryGenius *genius;
-    SGTCategory *category;
-    id <SGTSuggesterDelegate> delegate;
 }
 
-- (void);
+- (void)controller:setFormFillingEnabled: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSImageView, NSSlider, NSSpeechSynthesizer, NSString, SOVoicePopUpButton;
+@class NSButton;
 
 __attribute__((visibility("hidden")))
 @interface VoiceSettingsWindowController
 {
     NSButton *_useCustomRateCheckbox;
-    NSButton *_useCustomVolumeCheckbox;
-    NSButton *_startStopSpeakingButton;
-    NSSlider *_rateSlider;
-    NSSlider *_volumeSlider;
-    NSImageView *_volumeQuietIcon;
-    NSImageView *_volumeLoudIcon;
-    SOVoicePopUpButton *_voicePopupMenu;
-    NSSpeechSynthesizer *_speechSynthesizer;
-    id _modalDelegate;
-    NSString *_playDisplayString;
-    NSString *_currentVoiceId;
 }
 
 - (float);
@@ -37,19 +26,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (float);
 - (void);
-- (void);
+- (void)::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::String, WTF::RefPtr<WebCore::WebKitBuffer>>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::String, WTF::RefPtr<WebCore::WebKitBuffer>>>>, HashFunctions = WTF::DefaultHash<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Traits = WTF::HashMap<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::String, WTF::RefPtr<WebCore::WebKitBuffer>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

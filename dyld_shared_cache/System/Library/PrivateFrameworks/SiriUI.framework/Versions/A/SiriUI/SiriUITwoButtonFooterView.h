@@ -11,9 +11,6 @@
 @interface SiriUITwoButtonFooterView : SiriUIReusableFooterView
 {
     SiriUIKeyline *_verticalKeyline;
-    SiriUIKeyline *_horizontalKeyline;
-    SiriUIContentButton *_leftButton;
-    SiriUIContentButton *_rightButton;
 }
 
 + (double);
@@ -27,7 +24,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) SiriUIContentButton *leftButton; // @synthesize leftButton=_leftButton;
-@property(readonly, nonatomic) SiriUIContentButton *rightButton; // @synthesize rightButton=_rightButton;
 
 @end
 

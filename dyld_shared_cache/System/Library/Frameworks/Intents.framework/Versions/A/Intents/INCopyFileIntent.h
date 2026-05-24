@@ -6,7 +6,7 @@
 
 #import <Intents/INIntent.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface INCopyFileIntent : INIntent
 {
@@ -24,9 +24,9 @@
 - (void);
 - (void);
 - (void);
+- (id)setCreateButtonAction: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)\;
 - (void);
 - (id);
 - (void);
@@ -41,20 +41,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSString *destinationName;
-@property(readonly, copy) NSString *destinationType;
-@property(readonly, copy) NSString *entityName;
 @property(readonly, copy) NSString *entityType;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSArray *properties;
-@property(readonly, copy) NSString *sourceName;
-@property(readonly, copy) NSString *sourceType;
-@property(readonly) Class superclass;
 
 @end
 

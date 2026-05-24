@@ -4,27 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class NSData, NSString;
 
 @protocol WBSBookmarkDBAccess
+- (long long);
+- (void);
+- (struct __CFString *);
+- (long long);
+- (NSData *)`;
+- (void);
+- (NSString *)letion;
 - (long long)!C°! Cùq¤Ð1Â0@ù
 × ;
 - (void *)0@ù
 × ;
 - (void *)¥°1Â0@ù
 × ;
-- (int):(void *)arg1;
-- (void)tentController;
-- (void)ewURL;
-- (struct __CFArray *)Domain:(void *)arg1 parentDomain:(const void **)arg2 originStringForAccessibility: /* Error: Ran out of types for this method. */;
-- (_Bool)ame:(void *)arg1 completionHandler:(NSString *)arg2;
-- (void *);
+- (int)setCurrentPageView:(void *)arg1;
+- (void)safari_readingListFetcherUserContentController;
+- (void)safari_isTabOverviewURL;
+- (struct __CFArray *)initWithDomain:(void *)arg1 parentDomain:(const void **)arg2 originStringForAccessibility: /* Error: Ran out of types for this method. */;
+- (_Bool)getMetadataForTextField:(void *)arg1 inFrame:(NSString *)arg2 completionHandler: /* Error: Ran out of types for this method. */;
+- (void *)_useStopModalWithCodeToEndAuthenticationDialog;
 - (void *)_dropOffGradientModes;
-- (_Bool)oon;
+- (_Bool)_animateToResignFirstResponderSoon;
 - (_Bool)V_delegate;
 - (void)}@;
-- (void)okmarksCompactViewModePreference;
-- (long long)ml;
+- (void)SidebarBookmarksCompactViewModePreference;
+- (long long)xml;
 - (_Bool);
 - (long long)ÿ;
 - (NSString *)è	;

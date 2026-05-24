@@ -8,7 +8,7 @@
 {
 }
 
-- (_Bool);
+- (_Bool)C,N,V_model;
 - (void);
 
 @end

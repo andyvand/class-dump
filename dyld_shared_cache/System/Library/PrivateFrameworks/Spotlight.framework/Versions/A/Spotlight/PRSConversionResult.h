@@ -6,13 +6,11 @@
 
 #import <Spotlight/PRSCalculatorResult.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface PRSConversionResult : PRSCalculatorResult
 {
     NSString *_localizedInputValueAndUnit;
-    NSString *_conversionType;
-    NSArray *_conversions;
 }
 
 + (_Bool);
@@ -24,11 +22,11 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)eType &) [Key = WTF:(id)arg1:WeakRef<WebKit::WebStorageNamespaceProvider>, Value = WTF::WeakRef<WebKit::WebStorageNamespaceProvider>, Extractor = WTF::IdentityExtractor, HashFunctions = WTF::DefaultHash<WTF::WeakRef<WebKit::WebStorageNamespaceProvider>>, Traits = WTF::HashTraits<WTF::WeakRef<WebKit::WebStorageNamespaceProvider>>, KeyTraits = WTF::HashTraits<WTF::WeakRef<WebKit::WebStorageNamespaceProvider>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (int);
-- (void);
+- (int)b;
+- (void)tent<A>:(id)arg1:value, int> IVFVectorIndexTemplate<float, 256>::VectorStore<vi_onefixedsize_disk_allocator, vi_disk_postings>::indexVersion(int, const std::string &) [ELEM_TYPE = float, D = 256, ALLOCATOR = vi_onefixedsize_disk_allocator, POSTINGS_DATA = vi_disk_postings, A = vi_onefixedsize_disk_allocator] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -36,8 +34,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *conversionType; // @synthesize conversionType=_conversionType;
-@property(retain, nonatomic) NSArray *conversions; // @synthesize conversions=_conversions;
 @property(retain, nonatomic) NSString *localizedInputValueAndUnit; // @synthesize localizedInputValueAndUnit=_localizedInputValueAndUnit;
 
 @end

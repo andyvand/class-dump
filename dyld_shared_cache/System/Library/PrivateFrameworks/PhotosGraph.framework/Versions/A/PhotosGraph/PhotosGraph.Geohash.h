@@ -7,7 +7,6 @@
 @interface PhotosGraph.Geohash
 {
     id $__lazy_storage_$_bitCodeByCharacter;
-    id $__lazy_storage_$_characterByBitCode;
 }
 
 @end

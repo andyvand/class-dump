@@ -14,7 +14,7 @@
 + (id);
 + (void);
 + (id);
-+ (void)InContainerOfContactWithIdentifier: /* Error: Ran out of types for this method. */;
++ (void)canCreateCustomLabelsInContainerOfContactWithIdentifier: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -24,7 +24,7 @@
 - (id);
 - (void)! FùQª1Â0@ù
 × ;
-- (_Bool)ommand;
+- (_Bool)ABBookGroupCutCommand;
 
 @end
 

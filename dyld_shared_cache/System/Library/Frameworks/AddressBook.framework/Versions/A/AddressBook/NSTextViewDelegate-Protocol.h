@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSDictionary;
+
 @protocol NSTextViewDelegate
+
+@optional
+- (void);
+- (void);
+- (NSArray *);
+- (struct _NSRange);
+- (NSDictionary *);
 @end
 

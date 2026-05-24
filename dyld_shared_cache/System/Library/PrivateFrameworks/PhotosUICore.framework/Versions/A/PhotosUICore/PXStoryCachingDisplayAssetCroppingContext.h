@@ -4,27 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-@protocol PXDisplayAsset, PXStoryDisplayAssetCroppingContext;
+@protocol PXStoryDisplayAssetCroppingContext;
 
 @interface PXStoryCachingDisplayAssetCroppingContext
 {
     id <PXStoryDisplayAssetCroppingContext> _croppingContext;
-    id <PXDisplayAsset> _cachedAsset;
-    unsigned long long _cachedOptions;
-    long long _cachedFaceCount;
-    long long _cachedFeaturedFaceCount;
-    struct CGRect *_cachedNormalizedFaceRects;
-    id <PXDisplayAsset> _cachedPanoramaAsset;
-    NSArray *_cachedPanoramaCropContentRects;
-    long long _cachedPanoramaAxis;
-    double _cachedPanoramaCropContentsRectsApectRatio;
 }
 
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)aigcMaxExceeded;
 - (id);
 - (void)mÇ;
 

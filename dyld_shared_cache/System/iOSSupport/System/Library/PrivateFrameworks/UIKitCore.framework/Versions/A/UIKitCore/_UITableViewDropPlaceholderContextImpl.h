@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID, UIDragItem;
-@protocol UIDragAnimating, _UITableViewPlaceholderContextDelegate;
+@class NSString;
+@protocol _UITableViewPlaceholderContextDelegate;
 
 __attribute__((visibility("hidden")))
 @interface _UITableViewDropPlaceholderContextImpl
 {
     NSString *_reuseIdentifier;
-    double _rowHeight;
-    CDUnknownBlockType _cellUpdateHandler;
-    id <UIDragAnimating> _animator;
-    NSUUID *_shadowUpdateIdentifier;
-    id <_UITableViewPlaceholderContextDelegate> _delegate;
-    UIDragItem *_dragItem;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (CDUnknownBlockType);
-- (id);
-- (void);
+- (_Bool)36;
+- (CDUnknownBlockType)8@0:8@"NSString"16I24 /* Error: Ran out of types for this method. */;
+- (id)conversationManager:avModeChangedForConversation: /* Error: Ran out of types for this method. */;
+- (void)attachmentSyncController;
 - (void);
 - (id);
 - (id);
@@ -44,20 +38,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic, getter=_animator, setter=_setAnimator:) id <UIDragAnimating> animator; // @synthesize animator=_animator;
-@property(copy, nonatomic) CDUnknownBlockType cellUpdateHandler; // @synthesize cellUpdateHandler=_cellUpdateHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <_UITableViewPlaceholderContextDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UIDragItem *dragItem; // @synthesize dragItem=_dragItem;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *reuseIdentifier; // @synthesize reuseIdentifier=_reuseIdentifier;
-@property(nonatomic) double rowHeight; // @synthesize rowHeight=_rowHeight;
-@property(retain, nonatomic, getter=_shadowUpdateIdentifier, setter=_setShadowUpdateIdentifier:) NSUUID *shadowUpdateIdentifier; // @synthesize shadowUpdateIdentifier=_shadowUpdateIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

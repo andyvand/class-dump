@@ -7,6 +7,57 @@
 @protocol NSStandardKeyBindingResponding
 
 @optional
+- (void);
+- (void);
+- (void)y;
+- (void)g_prid) failed.;
+- (void)ecodeGetPropertyData(kFDRTag_prid) failed.;
+- (void)ag_inst) failed.;
+- (void)as) failed.;
+- (void)odeGetPropertyData(kFDRTag_clas) failed.;
+- (void)s:(id)arg1 FDR Trust Object digest mismatch.;
+- (void)orted. digest is of size %zu;
+- (void)valid DER.;
+- (void)did not terminate properly.;
+- (void)for property 0x%llX;
+- (void)failed for property 0x%llX - tag present;
+- (void)roperty '%c%c%c%c';
+- (void)ect property length does not match;
+- (void)nd property in the manifest;
+- (void)ate property;
+- (void)certificate dictionary;
+- (void)ted tag 0x%llX in certificate properties;
+- (void)_AMFDRDecodeEvaluateCertificateProperties;
+- (void)ailed to init certificate sequence;
+- (void)lid key length:(id)arg1 %lu;
+- (void)x;
+- (void)sion not supported:(id)arg1 0x%x;
+- (void)e;
+- (void)ntainer;
+- (void)L and ctx->inDataLength must be non 0;
+- (void)inData must be non NULL and ctx->inDataLength must be non 0;
+- (void)AMFDRDecodeCheckCertRevocation;
+- (void)a256 failed;
+- (void)FaceTimeFrontCameraTemporalNoiseReductionMode;
+- (void)FaceTimeCameraSupportsHardwareFaceDetection;
+- (void)FaceTimeCameraRequiresFastSwitchOptions;
+- (void)Fam17Ufz3CiHdZPcma0AeQ;
+- (void)ch7KBY7aSsznfICVzjFldw;
+- (void)cYhEo8URqAG7WXq16D9i6w;
+- (void)^B12;
+- (void)F/tpjeAln1I0f3g0K3w;
+- (void)AppleBiometricServices;
+- (void)fpOvV6m6o+Ou1w;
+- (void)pid %d entitlement is not an array;
+- (void)URLSession:(id)arg1 webSocketTask:didOpenWithProtocol: /* Error: Ran out of types for this method. */;
+- (void){_CFHSTSPolicy=},R;
+- (void)ation;
+- (void)d;
+- (void)kip_download_unlink;
+- (void)nIdleConnections;
+- (void)set_attributedBundleIdentifier:(id)arg1;
+- (void);
+- (void)max_version;
 - (void)!ðAùqà3°1Â0@ù
 × ;
 - (void):(id)arg1 8{CGPoint=dd}16q32@40;

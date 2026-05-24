@@ -4,33 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString, NSURL, PKMerchantTokenUsageMetadata;
+@class NSString;
 
 @interface PKMerchantToken
 {
     _Bool _isDeferredPayment;
-    _Bool _disallowUserRevoke;
-    _Bool _needsMerchantTokenPublicKey;
-    NSString *_primaryAccountIdentifier;
-    NSString *_primaryAccountDisplayName;
-    NSString *_primaryAccountSuffix;
-    NSString *_merchantTokenId;
-    NSString *_appleMerchantId;
-    NSString *_merchantName;
-    NSString *_merchantDomain;
-    NSString *_merchantApplicationIdentifier;
-    NSURL *_merchantIconURL;
-    NSURL *_merchantTokenManagementURL;
-    NSString *_tokenCategory;
-    NSDate *_tokenIssuanceDate;
-    NSURL *_issuerServiceURL;
-    NSString *_issuerName;
-    NSData *_currentMerchantTokenPublicKeyHash;
-    NSURL *_primaryAccountPassArtURL;
-    PKMerchantTokenUsageMetadata *_usageMetadata;
 }
 
-+ (id);
++ (id)o;
 - (id);
 - (id);
 - (id);
@@ -46,43 +27,22 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)ki	;
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id)ccountResults;
+- (id)accountResults;
 - (void)@'; ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *appleMerchantId; // @synthesize appleMerchantId=_appleMerchantId;
-@property(readonly, copy, nonatomic) NSData *currentMerchantTokenPublicKeyHash; // @synthesize currentMerchantTokenPublicKeyHash=_currentMerchantTokenPublicKeyHash;
-@property(readonly, nonatomic) _Bool disallowUserRevoke; // @synthesize disallowUserRevoke=_disallowUserRevoke;
-@property(readonly, nonatomic) _Bool isAMPPaymentToken;
-@property(readonly, nonatomic) _Bool isAppleCashPaymentToken;
-@property(readonly, nonatomic) _Bool isDeferredPayment; // @synthesize isDeferredPayment=_isDeferredPayment;
-@property(readonly, copy, nonatomic) NSString *issuerName; // @synthesize issuerName=_issuerName;
-@property(readonly, nonatomic) NSURL *issuerServiceURL; // @synthesize issuerServiceURL=_issuerServiceURL;
-@property(readonly, copy, nonatomic) NSString *merchantApplicationIdentifier; // @synthesize merchantApplicationIdentifier=_merchantApplicationIdentifier;
-@property(readonly, copy, nonatomic) NSString *merchantDomain; // @synthesize merchantDomain=_merchantDomain;
-@property(readonly, nonatomic) NSURL *merchantIconURL; // @synthesize merchantIconURL=_merchantIconURL;
-@property(readonly, copy, nonatomic) NSString *merchantName; // @synthesize merchantName=_merchantName;
-@property(readonly, copy, nonatomic) NSString *merchantTokenId; // @synthesize merchantTokenId=_merchantTokenId;
-@property(readonly, nonatomic) NSURL *merchantTokenManagementURL; // @synthesize merchantTokenManagementURL=_merchantTokenManagementURL;
-@property(readonly, nonatomic) _Bool needsMerchantTokenPublicKey; // @synthesize needsMerchantTokenPublicKey=_needsMerchantTokenPublicKey;
-@property(readonly, copy, nonatomic) NSString *primaryAccountDisplayName; // @synthesize primaryAccountDisplayName=_primaryAccountDisplayName;
 @property(readonly, copy, nonatomic) NSString *primaryAccountIdentifier; // @synthesize primaryAccountIdentifier=_primaryAccountIdentifier;
-@property(readonly, nonatomic) NSURL *primaryAccountPassArtURL; // @synthesize primaryAccountPassArtURL=_primaryAccountPassArtURL;
-@property(readonly, copy, nonatomic) NSString *primaryAccountSuffix; // @synthesize primaryAccountSuffix=_primaryAccountSuffix;
-@property(readonly, copy, nonatomic) NSString *tokenCategory; // @synthesize tokenCategory=_tokenCategory;
-@property(readonly, nonatomic) NSDate *tokenIssuanceDate; // @synthesize tokenIssuanceDate=_tokenIssuanceDate;
-@property(readonly, nonatomic) PKMerchantTokenUsageMetadata *usageMetadata; // @synthesize usageMetadata=_usageMetadata;
 
 @end
 

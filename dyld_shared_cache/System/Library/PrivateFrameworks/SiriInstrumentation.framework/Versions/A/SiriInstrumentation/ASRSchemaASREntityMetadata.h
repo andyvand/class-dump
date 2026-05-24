@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ASRSchemaASREntityMetadata : SISchemaInstrumentationMessage
 {
     unsigned int _entityRank;
-    struct {
-        unsigned int entityRank:1;
-    } _has;
 }
 
 - (void);
@@ -21,20 +16,18 @@
 - (_Bool);
 - (unsigned int);
 - (void);
-- (id);
+- (id)setClassType:(id)arg1;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)s;
+- (id)siriDataSharingOptInStatus;
 - (id)¼;
 - (id);
 
 // Remaining properties
 @property(nonatomic) unsigned int entityRank; // @synthesize entityRank=_entityRank;
-@property(nonatomic) _Bool hasEntityRank;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

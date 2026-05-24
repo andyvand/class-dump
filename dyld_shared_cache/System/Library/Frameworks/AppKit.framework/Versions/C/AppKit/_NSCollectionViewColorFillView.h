@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
     NSColor *_fillColor;
 }
 
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)o access device tree;
 - (id);
 - (void);
-- (void);
+- (void)M	;
 - (id);
 - (void);
 

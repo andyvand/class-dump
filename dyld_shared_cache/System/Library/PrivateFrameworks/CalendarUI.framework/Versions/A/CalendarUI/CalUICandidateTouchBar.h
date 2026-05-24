@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSCandidateListTouchBarItem, NSMutableParagraphStyle, NSString, NSTouchBar;
+@class NSTouchBar;
 
 @interface CalUICandidateTouchBar
 {
     CDUnknownBlockType _titleBlock;
-    CDUnknownBlockType _subtitleBlock;
-    CDUnknownBlockType _imageBlock;
-    NSArray *_candidates;
-    NSTouchBar *_touchBar;
-    NSCandidateListTouchBarItem *_candidateListTouchBarItem;
-    NSMutableParagraphStyle *_subtitleParagraphStyle;
 }
 
 - (CDUnknownBlockType);
@@ -27,30 +21,17 @@
 - (void);
 - (id);
 - (CDUnknownBlockType);
-- (id);
+- (id)$;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void)qÃ#Ð1Â0@ù
 × ;
-- (void)er;
+- (void)accessibilityIdentifier;
 - (id))-|;
 
 // Remaining properties
-@property(retain) NSCandidateListTouchBarItem *candidateListTouchBarItem; // @synthesize candidateListTouchBarItem=_candidateListTouchBarItem;
-@property(retain) NSArray *candidates; // @synthesize candidates=_candidates;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType imageBlock; // @synthesize imageBlock=_imageBlock;
-@property(copy, nonatomic) CDUnknownBlockType subtitleBlock; // @synthesize subtitleBlock=_subtitleBlock;
-@property(retain) NSMutableParagraphStyle *subtitleParagraphStyle; // @synthesize subtitleParagraphStyle=_subtitleParagraphStyle;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) CDUnknownBlockType titleBlock; // @synthesize titleBlock=_titleBlock;
 @property(retain) NSTouchBar *touchBar; // @synthesize touchBar=_touchBar;
 
 @end

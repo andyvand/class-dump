@@ -8,16 +8,9 @@ __attribute__((visibility("hidden")))
 @interface ICPAPlayModeDictionary
 {
     int _autoPlayMode;
-    int _repeatPlayMode;
-    int _shufflePlayMode;
-    struct {
-        unsigned int autoPlayMode:1;
-        unsigned int repeatPlayMode:1;
-        unsigned int shufflePlayMode:1;
-    } _has;
 }
 
-- (id);
+- (id)k	;
 - (void);
 - (unsigned long long);
 - (_Bool);

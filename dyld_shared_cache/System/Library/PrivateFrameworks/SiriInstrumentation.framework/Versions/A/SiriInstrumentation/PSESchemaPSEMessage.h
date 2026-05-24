@@ -6,26 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PSESchemaPSEMessage : SISchemaInstrumentationMessage
 {
     _Bool _hasUserInitiatedFollowup;
-    double _userFollowupEventDonationTimeInSecondsSince2001;
-    int _messageUserFollowupAction;
-    int _contactMatch;
-    double _contactFullNamePhoneticScore;
-    double _contactFirstNamePhoneticScore;
-    double _contactLastNamePhoneticScore;
-    struct {
-        unsigned int hasUserInitiatedFollowup:1;
-        unsigned int userFollowupEventDonationTimeInSecondsSince2001:1;
-        unsigned int messageUserFollowupAction:1;
-        unsigned int contactMatch:1;
-        unsigned int contactFullNamePhoneticScore:1;
-        unsigned int contactFirstNamePhoneticScore:1;
-        unsigned int contactLastNamePhoneticScore:1;
-    } _has;
 }
 
 - (double);
@@ -39,56 +22,42 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (int);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (double);
+- (double);
+- (double);
+- (_Bool);
+- (void);
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (double);
-- (double);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (int);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long).apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDAggregateClusterMappingData_macOS.m:106 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)for guid %s;
 - (id);
 - (id);
-- (id)meSinceLastEligibleChangeInSeconds;
+- (id)_timeSinceLastEligibleChangeInSeconds;
 - (id)anularBoostValue;
 
 // Remaining properties
-@property(nonatomic) double contactFirstNamePhoneticScore; // @synthesize contactFirstNamePhoneticScore=_contactFirstNamePhoneticScore;
-@property(nonatomic) double contactFullNamePhoneticScore; // @synthesize contactFullNamePhoneticScore=_contactFullNamePhoneticScore;
-@property(nonatomic) double contactLastNamePhoneticScore; // @synthesize contactLastNamePhoneticScore=_contactLastNamePhoneticScore;
-@property(nonatomic) int contactMatch; // @synthesize contactMatch=_contactMatch;
-@property(nonatomic) _Bool hasContactFirstNamePhoneticScore;
-@property(nonatomic) _Bool hasContactFullNamePhoneticScore;
-@property(nonatomic) _Bool hasContactLastNamePhoneticScore;
-@property(nonatomic) _Bool hasContactMatch;
-@property(nonatomic) _Bool hasHasUserInitiatedFollowup;
-@property(nonatomic) _Bool hasMessageUserFollowupAction;
-@property(nonatomic) _Bool hasUserFollowupEventDonationTimeInSecondsSince2001;
 @property(nonatomic) _Bool hasUserInitiatedFollowup; // @synthesize hasUserInitiatedFollowup=_hasUserInitiatedFollowup;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int messageUserFollowupAction; // @synthesize messageUserFollowupAction=_messageUserFollowupAction;
-@property(nonatomic) double userFollowupEventDonationTimeInSecondsSince2001; // @synthesize userFollowupEventDonationTimeInSecondsSince2001=_userFollowupEventDonationTimeInSecondsSince2001;
 
 @end
 

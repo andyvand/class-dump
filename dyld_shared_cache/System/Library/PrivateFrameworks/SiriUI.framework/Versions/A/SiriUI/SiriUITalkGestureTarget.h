@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)r;
 - (id);
 - (id);
-- (id);
+- (id)AuthorizationHostProtocol>";
 - (void)!HFùQ°1Â0@ù
 × ;
 - (id)× ;

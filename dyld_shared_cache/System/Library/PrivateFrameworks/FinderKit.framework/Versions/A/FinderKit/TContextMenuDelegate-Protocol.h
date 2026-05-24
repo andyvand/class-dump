@@ -4,9 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSView;
+@class NSArray, NSObject, NSView;
 
 @protocol TContextMenuDelegate
+- (_Bool)nM9;
+- (NSObject *);
+- (NSArray *);
+- (const struct TFENode *);
 
 // Remaining properties
 @property(retain, nonatomic) NSView *anchoringViewForSharingService;

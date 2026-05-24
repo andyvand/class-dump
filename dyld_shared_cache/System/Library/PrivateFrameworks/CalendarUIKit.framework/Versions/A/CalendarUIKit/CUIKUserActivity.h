@@ -4,48 +4,103 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
-
 @interface CUIKUserActivity
 {
     unsigned long long _type;
-    NSString *_activityTitle;
-    NSString *_activitySubtitle;
-    NSSet *_activityKeywords;
-    unsigned long long _version;
 }
 
-+ (id)°A/;
 + (id);
-+ (unsigned long long)	@ù*;
-+ (unsigned long long)Ð10@ù
-?×é;
-+ (id)C;
-+ (long long)fß;
-+ (double)ü;
-+ (_Bool)Ì²ýp;
-- (void)#Ñøàªáª";
-- (void)à;
-- (void)ð;
-- (id)qÐÒ0ÁÚôªàªáªâª{;
-- (void)_Ö#Õý{¿©ý;
-- (id);
-- (id);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
++ (id);
++ (unsigned long long);
++ (unsigned long long);
++ (id);
++ (long long);
++ (double);
++ (_Bool);
+- (void);
 - (void);
 - (void);
 - (id);
+- (void);
+- (id)tring)Version:$(bundleInfo.CFBundleVersion|"???")
+^(bundleInfo.DTAppStoreToolsBuild)AppStoreTools:$(bundleInfo.DTAppStoreToolsBuild)
+^(storeInfo.applicationVariant)AppVariant:$(storeInfo.applicationVariant)
+^(isBeta)Beta:YES
+^(!*translated)Code Type:$(cpuType) (Native)
+^(*translated)Code Type:$(cpuType) (Translated)
+Role:$(procRole|"Unspecified")
+Parent Process:$(parentProc|"???") [$(parentPid|"Unknown")]
+Coalition:$(coalitionName|"<none>") [$(coalitionID)]
+^(responsiblePid)Responsible Process:$(responsibleProc) [$(responsiblePid)]
+
+Date/Time:$(captureTime)
+Launch Time:$(procLaunch)
+OS Version:$(osVersion.train) ($(osVersion.build))
+Release Type:$(osVersion.releaseType)
+^(basebandVersion)Baseband Version:$(basebandVersion)
+^(systemID)UDID:$(systemID)
+Report Version:104
+
+^(exception.signal)Exception Type:$(exception.type) ($(exception.signal))
+^(!exception.signal)Exception Type:$(exception.type)
+^(exception.subtype)Exception Subtype:$(exception.subtype)
+^(exception.message)Exception Message:$(exception.message)
+^(exception.rawCodes)Exception Codes:$(exception.rawCodes)
+^(vmRegionInfo)VM Region Info:$(vmRegionInfo)
+^(simulatedCaller)Exception Note:SIMULATED (this is NOT a crash) requested by $(simulatedCaller)
+^(!simulatedCaller&isSimulated)Exception Note:SIMULATED (this is NOT a crash)
+^(!isSimulated&isCorpse)Exception Note:EXC_CORPSE_NOTIFY
+^(!isSimulated&isNonFatal)Exception Note:NON-FATAL CONDITION (this is NOT a crash)
+^(termination)Termination Reason:$(termination.namespace) $(termination.code) $(termination.indicator)
+^(termination.reasons)$(termination.reasons)
+^(termination.details)$(termination.details)
+^(termination.byPid)Terminating Process:$(termination.byProc|"<unknown>") [$(termination.byPid)]
+^(termination)
+^(faultingThread)Triggered by Thread:$(faultingThread)
+^(!faultingThread&legacyInfo.threadHighlighted)Highlighted by Thread:$(legacyInfo.threadHighlighted)
+^(!faultingThread&!legacyInfo.threadHighlighted)Triggered by Thread:Unknown
+
+^(asi)Application Specific Information:#(format_asi
+$(<value>)
+)#
+^(asi)$(format_asi#asi)
+^(asi)
+^(dyldMessages)Dyld Error Message:$(dyldMessages)
+^(dyldMessages)
+^(lastExceptionBacktrace)Last Exception Backtrace:^(lastExceptionBacktrace)$(lastExceptionBacktrace)
+^(lastExceptionBacktrace)
+^(ktriageinfo)Kernel Triage:^(ktriageinfo)$(ktriageinfo)
+^(ktriageinfo)
+$(threads|"Backtrace not available")
+
+$(threadState|"No thread state (register information) available")
+
+Binary Images:$(usedImages|"Binary images description not available")
+
+^(reportNotes)Error Formulating Crash Report:^(reportNotes)$(reportNotes)
+^(reportNotes)
+^(filteredLog)Filtered syslog:^(filteredLog)$(filteredLog)
+^(filteredLog)
+#(format_diagnosticOutput
+Diagnostic Output:$(<key>)
+$(<value>)
+)#
+^(diagnosticOutput)$(format_diagnosticOutput#diagnosticOutput)
+^(diagnosticOutput)
+EOF
+ /* Error: Ran out of types for this method. */;
 - (id);
+- (unsigned long long);
+- (unsigned long long)h@9;
+- (id);
+- (void)needsRestoreFromBackup;
+- (void);
+- (id)getVerticalScalingTableTapNumber;
+- (id)H;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *activityKeywords; // @synthesize activityKeywords=_activityKeywords;
-@property(retain, nonatomic) NSString *activitySubtitle; // @synthesize activitySubtitle=_activitySubtitle;
-@property(retain, nonatomic) NSString *activityTitle; // @synthesize activityTitle=_activityTitle;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(nonatomic) unsigned long long version; // @synthesize version=_version;
 
 @end
 

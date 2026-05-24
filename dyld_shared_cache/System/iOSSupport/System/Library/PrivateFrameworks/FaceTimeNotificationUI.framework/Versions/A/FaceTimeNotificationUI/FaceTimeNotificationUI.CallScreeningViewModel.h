@@ -8,24 +8,6 @@
 {
     id logger;
     id _isShowingTranscripts;
-    id _receptionistReplyStarted;
-    id _shouldShowBlockButtonForUnknownCallerWhileScreening;
-    id _prepareToShowCall;
-    id _onLiveReplyTap;
-    id _onReceptionistViewTap;
-    id _activity;
-    id _statusLabel;
-    id _typeToSpeakEnabled;
-    id featureFlags;
-    id answeringMachine;
-    id call;
-    id callCenter;
-    id isLiveReply;
-    id lockStateMonitor;
-    id lockStateCancellable;
-    id userInputStateCancellable;
-    id transcriptViewController;
-    id _$observationRegistrar;
 }
 
 @end

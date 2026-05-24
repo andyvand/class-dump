@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIColor, CIImage, CIVector, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CUIInnerGlowFilterLocal
 {
     CIImage *inputImage;
-    CIVector *inputOffset;
-    NSNumber *inputRange;
-    NSNumber *inputRadius;
-    CIColor *inputColor;
 }
 
 + (id);

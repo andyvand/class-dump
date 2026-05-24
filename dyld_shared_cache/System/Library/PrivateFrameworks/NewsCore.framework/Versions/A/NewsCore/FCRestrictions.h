@@ -7,8 +7,6 @@
 @interface FCRestrictions
 {
     _Bool _testing;
-    long long _buildVersionNumber;
-    long long _isExplicitContentAllowedOverride;
 }
 
 + (long long)y:(id)arg1 ];
@@ -24,14 +22,11 @@
 - (void);
 - (long long);
 - (void);
-- (long long)Level;
+- (long long)ontologyLevel;
 - (void)es/feldsparcore/Classes/FCFeedRequestOperation.m;
-- (void)ingAfterEncounteringNonMatchingEmbeddingsInSession;
+- (void)haltEmbeddingProcessingAfterEncounteringNonMatchingEmbeddingsInSession;
 
 // Remaining properties
-@property(nonatomic) long long buildVersionNumber; // @synthesize buildVersionNumber=_buildVersionNumber;
-@property(readonly, nonatomic) _Bool isExplicitContentAllowed;
-@property(nonatomic) long long isExplicitContentAllowedOverride; // @synthesize isExplicitContentAllowedOverride=_isExplicitContentAllowedOverride;
 @property(nonatomic) _Bool testing; // @synthesize testing=_testing;
 
 @end

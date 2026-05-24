@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface KGElementFilter
 {
     _Bool _includeTombstones;
-    NSArray *_requiredLabels;
-    NSArray *_optionalLabels;
-    NSDictionary *_properties;
 }
 
 + (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)@;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -30,10 +27,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool includeTombstones; // @synthesize includeTombstones=_includeTombstones;
-@property(readonly, nonatomic) _Bool noLabelsOrProperties;
-@property(readonly, nonatomic) NSArray *optionalLabels; // @synthesize optionalLabels=_optionalLabels;
-@property(readonly, nonatomic) NSDictionary *properties; // @synthesize properties=_properties;
 @property(readonly, nonatomic) NSArray *requiredLabels; // @synthesize requiredLabels=_requiredLabels;
 
 @end

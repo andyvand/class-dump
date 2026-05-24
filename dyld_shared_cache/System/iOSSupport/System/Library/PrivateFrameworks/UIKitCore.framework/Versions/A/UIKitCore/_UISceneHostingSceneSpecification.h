@@ -12,9 +12,9 @@
 
 - (id);
 - (Class);
+- (id)sioningManager";
 - (id);
-- (id);
-- (id);
+- (id)_invalidateAuxiliaryChildTraits;
 
 @end
 

@@ -10,8 +10,8 @@
 }
 
 - (id);
-- (void);
-- (id);
+- (void)navigationChromeBackgroundDarkModeImageCompact;
+- (id)setTimeIntervalSince1970:(struct CGRect)arg1;
 - (_Bool);
 
 @end

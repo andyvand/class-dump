@@ -5,5 +5,6 @@
 //
 
 @protocol NSCoding
+- (id)Y;
 @end
 

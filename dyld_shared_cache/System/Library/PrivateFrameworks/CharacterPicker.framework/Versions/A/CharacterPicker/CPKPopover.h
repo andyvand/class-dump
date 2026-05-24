@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPKPrivateStorage, NSUUID;
-@protocol CPKPopoverDelegate, CPKTargetProvider;
-
 @interface CPKPopover
 {
     _Bool _notifyDelegatesOnChangeEvents;
-    id <CPKTargetProvider> _CPKTargetProvider;
-    id <CPKPopoverDelegate> _CPKDelegate;
-    id _CPKUserInfo;
-    long long _reason;
-    NSUUID *_identifier;
-    CPKPrivateStorage *_privateStorage;
 }
 
 + (id);
@@ -26,11 +17,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)8;
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)?;
 - (void);
 - (void);
 - (void);
@@ -40,21 +31,21 @@
 - (void);
 - (void);
 - (long long);
-- (void);
+- (void)#;
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (void);
+- (id);
+- (void);
+- (void)T$;
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
@@ -67,9 +58,9 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)q`;
 - (_Bool);
 - (id);
 - (id);
@@ -87,25 +78,19 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)@;
 - (void);
 - (id);
 - (void);
+- (void);
+- (id);
+- (void)P;
 - (void);
 - (void);
 - (id)!!0GùQr°1Â0@ù
 × ;
 
 // Remaining properties
-@property __weak id <CPKPopoverDelegate> CPKDelegate; // @synthesize CPKDelegate=_CPKDelegate;
-@property __weak id <CPKTargetProvider> CPKTargetProvider; // @synthesize CPKTargetProvider=_CPKTargetProvider;
-@property(retain) id CPKUserInfo; // @synthesize CPKUserInfo=_CPKUserInfo;
-@property(copy, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool notifyDelegatesOnChangeEvents; // @synthesize notifyDelegatesOnChangeEvents=_notifyDelegatesOnChangeEvents;
-@property(retain, nonatomic) CPKPrivateStorage *privateStorage; // @synthesize privateStorage=_privateStorage;
 @property(nonatomic) long long reason; // @synthesize reason=_reason;
 
 @end

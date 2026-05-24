@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NCNotificationSectionSettings, NSSet, NSString;
+@protocol NCNotificationDestination;
+
 @protocol NCNotificationSectionSettingsProvider
+- (NSSet *)enter asked to perform Siri request %@ but there were no matching interactions found;
+- (NCNotificationSectionSettings *)esenter showDialogRequest:(id <NCNotificationDestination>)arg1 runningContext:(NSString *)arg2 completionHandler:]_block_invoke /* Error: Ran out of types for this method. */;
 @end
 

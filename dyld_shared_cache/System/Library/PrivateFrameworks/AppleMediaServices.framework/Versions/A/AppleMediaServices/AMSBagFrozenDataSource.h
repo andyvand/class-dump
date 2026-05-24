@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSProcessInfo, NSDate, NSDictionary, NSString;
+@class NSDate, NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface AMSBagFrozenDataSource
 {
     NSDate *_expirationDate;
-    AMSProcessInfo *_processInfo;
-    NSString *_profile;
-    NSString *_profileVersion;
-    NSDictionary *_data;
-    NSDictionary *_defaultValues;
 }
 
 + (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)MMetricsCollectorEventCKSyncingAllStartedViaManual;
+- (id)P;
+- (id)requestNowPlayingItemLanguageOptionsOnQueue:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -30,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool)station style for options:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (id)uthorizationAction;
+- (id)UserNotificationAuthorizationAction;
 - (void)Proxy.framework/NetworkServiceProxy;
 - (id)(,ÇæoÍnÓï¢¼xCÃá?¢jÔCé5ýyÈEã¾B¤J>W`ïmþU #ÔÁ(¨w?kÞ
 î&¡|©ÇIÕIXNòàm2¿u^6.	i3ôÀ2O¹¿DXqtp¥¢¯ÙÜÝÙ=tìâv+ÅØð¤Úýã;T³Ñá0§7}ØAÚqt¦×.]6hà{ø§Q+Û²LÀ
@@ -45,34 +40,7 @@ jÅi89p°P 7vDÔíBåÁmÛOË;
 - (id)ÿò;
 
 // Remaining properties
-@property(readonly, copy) NSString *bagLoadingPartialIdentifier;
 @property(readonly) NSDictionary *data; // @synthesize data=_data;
-@property(copy) CDUnknownBlockType dataSourceChangedHandler;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@?,?,C
-
-@property(copy) CDUnknownBlockType dataSourceDataInvalidatedHandler;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@?,?,C
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) NSDictionary *defaultValues; // @synthesize defaultValues=_defaultValues;
-@property(readonly, copy) NSString *description;
-@property(retain) NSString *descriptionExtended;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,&
-
-@property(readonly, nonatomic) NSDictionary *dictionary;
-@property(readonly) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(readonly) unsigned long long hash;
-@property(readonly, getter=isLoaded) _Bool loaded;
-@property(readonly, copy) AMSProcessInfo *processInfo; // @synthesize processInfo=_processInfo;
-@property(readonly, copy) NSString *profile; // @synthesize profile=_profile;
-@property(readonly, copy) NSString *profileVersion; // @synthesize profileVersion=_profileVersion;
-@property(readonly) Class superclass;
 
 @end
 

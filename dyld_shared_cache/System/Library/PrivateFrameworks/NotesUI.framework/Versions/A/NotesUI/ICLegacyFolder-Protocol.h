@@ -4,26 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSManagedObjectContext, NSManagedObjectID, NSSet, NSString;
-@protocol ICLegacyAccount, ICLegacyFolder;
+@protocol ICLegacyAccount;
 
 @protocol ICLegacyFolder
-- (_Bool)tachmentInsertionController;
+- (_Bool)0;
+- (_Bool)ICAttachmentInsertionController;
 - (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) id <ICLegacyAccount> account;
-@property(readonly, nonatomic) NSArray *ancestorFolders;
-@property(readonly, nonatomic) NSSet *changes;
-@property(readonly, nonatomic) long long depth;
-@property(readonly, nonatomic) NSString *externalIdentifier;
-@property(readonly, nonatomic) _Bool isCustomFolder;
-@property(readonly, nonatomic) _Bool isDefaultFolder;
-@property(readonly, nonatomic) _Bool isDeletedOrInTrash;
-@property(readonly, nonatomic) _Bool isTrashFolder;
-@property(readonly, nonatomic) NSManagedObjectContext *managedObjectContext;
-@property(readonly, copy, nonatomic) NSString *name;
-@property(readonly, nonatomic) NSManagedObjectID *objectID;
-@property(readonly, nonatomic) id <ICLegacyFolder> parentFolder;
 @end
 

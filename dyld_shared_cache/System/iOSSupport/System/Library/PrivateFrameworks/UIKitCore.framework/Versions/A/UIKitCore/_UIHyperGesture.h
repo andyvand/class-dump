@@ -13,10 +13,10 @@
     id <_UIHyperGestureDelegate> __delegate;
 }
 
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)isGroupMessagingEnabledFor:(id)arg1;
+- (void)ndling request (autoReport %@) to mark IDs (%@) for services (%@) as spam for chatGUID (%@);
+- (void)pID from (%@) to (%@) for chat %@;
+- (void)IMPersistentTaskExecutorStatus;
 - (id);
 - (void)B][64c][64c][256c]iiii[100c][100c][100c][100c][2[100c]][1024c]IIb1b1iib1IIiI[150c]iib1b1b1[256c]b1b1b1b2b2b1Ib1b1b1[256c][256c][100c]b1b1b1b1b1db1b1b1[100c][100c][256c][256c]}16r^{?=[46B][64c][64c][256c]iiii[100c][100c][100c][100c][2[100c]][1024c]IIb1b1iib1IIiI[150c]iib1b1b1[256c]b1b1b1b2b2b1Ib1b1b1[256c][256c][100c]b1b1b1b1b1db1b1b1[100c][100c][256c][256c]}24r^{?=[46B]b1b1b1b1b1b1b1b1b2b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1Ib1b1b1b1b1b1b1b1{?=[46B][64c][64c][256c]iiii[100c][100c][100c][100c][2[100c]][1024c]IIb1b1iib1IIiI[150c]iib1b1b1[256c]b1b1b1b2b2b1Ib1b1b1[256c][256c][100c]b1b1b1b1b1db1b1b1[100c][100c][256c][256c]}}32;
 - (void);

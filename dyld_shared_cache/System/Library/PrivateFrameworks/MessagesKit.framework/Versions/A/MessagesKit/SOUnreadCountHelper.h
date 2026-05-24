@@ -6,13 +6,9 @@
 
 #import <MessagesKit/SOHelper.h>
 
-@class NSString;
-@protocol SOUnreadCountHelperDelegate;
-
 @interface SOUnreadCountHelper : SOHelper
 {
     unsigned long long _unreadCount;
-    id <SOUnreadCountHelperDelegate> _unreadCountDelegate;
 }
 
 + (id);
@@ -33,20 +29,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)_TtC12SiriOntology47UsoTaskBuilder_checkExistence_apple_PhotoMemory;
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) unsigned long long unreadCount; // @synthesize unreadCount=_unreadCount;
-@property(nonatomic) __weak id <SOUnreadCountHelperDelegate> unreadCountDelegate; // @synthesize unreadCountDelegate=_unreadCountDelegate;
 
 @end
 

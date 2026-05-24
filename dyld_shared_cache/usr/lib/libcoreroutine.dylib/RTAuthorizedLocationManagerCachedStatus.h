@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSLock, RTAuthorizedLocationStatus;
+@class RTAuthorizedLocationStatus;
 
 @interface RTAuthorizedLocationManagerCachedStatus
 {
     RTAuthorizedLocationStatus *_lastAuthLocConfirmationStatus;
-    long long _lastAuthLocConfirmationStatusCode;
-    NSDate *_lastAuthLocConfirmationComputedTime;
-    NSLock *_statusCacheLock;
-    long long _lastZDRLocationStatus;
-    long long _lastZDRLocationStatusCode;
-    NSDate *_lastZDRLocationStatusComputationTime;
 }
 
 - (void);
@@ -26,30 +20,24 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (long long);
-- (long long);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (long long);
-- (id);
-- (long long);
-- (id);
+- (id)__CFDictionary}II{PCSAttributes=I^{PCSTypeValue}}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I}16@0:8 /* Error: Ran out of types for this method. */;
+- (long long)PCSKeyData}^{__CFData}^{_PCSKeyData}^{__CFDictionary}II{PCSAttributes=I^{PCSTypeValue}}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I}16@0:8 /* Error: Ran out of types for this method. */;
+- (long long)__CFData}^{__CFData}^{__CFData}^{_PCSKeyData}^{__CFData}^{_PCSKeyData}^{__CFDictionary}II{PCSAttributes=I^{PCSTypeValue}}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I}16@0:8 /* Error: Ran out of types for this method. */;
+- (long long)}^{__CFData}^{__CFData}^{_PCSKeyData}^{__CFData}^{_PCSKeyData}^{__CFDictionary}II{PCSAttributes=I^{PCSTypeValue}}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I}16;
+- (id)ry}^{__CFArray}^{__CFDictionary}^{__CFData}^{__CFData}^{__CFData}^{_PCSKeyData}^{__CFData}^{_PCSKeyData}^{__CFDictionary}II{PCSAttributes=I^{PCSTypeValue}}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I}16;
+- (id)meBase=QAQ}^{_PCSIdentitySetData}^{_PCSIdentitySetData}^{_PCSIdentitySetData}^{__CFDictionary}^{__CFArray}^{__CFDictionary}^{__CFData}^{__CFData}^{__CFData}^{_PCSKeyData}^{__CFData}^{_PCSKeyData}^{__CFDictionary}II{PCSAttributes=I^{PCSTypeValue}}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I}16;
+- (id)R Record!;
+- (long long)hash in existing records match our DBR Record!;
+- (long long)d;
+- (id)orts bad state for active views (%{public}@);
+- (long long)tity %@ expiration %d;
+- (id)olling zone key %@;
 - (id);
 - (id);
 - (void)rror, %@;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *lastAuthLocConfirmationComputedTime; // @synthesize lastAuthLocConfirmationComputedTime=_lastAuthLocConfirmationComputedTime;
 @property(retain, nonatomic) RTAuthorizedLocationStatus *lastAuthLocConfirmationStatus; // @synthesize lastAuthLocConfirmationStatus=_lastAuthLocConfirmationStatus;
-@property(nonatomic) long long lastAuthLocConfirmationStatusCode; // @synthesize lastAuthLocConfirmationStatusCode=_lastAuthLocConfirmationStatusCode;
-@property(nonatomic) long long lastZDRLocationStatus; // @synthesize lastZDRLocationStatus=_lastZDRLocationStatus;
-@property(nonatomic) long long lastZDRLocationStatusCode; // @synthesize lastZDRLocationStatusCode=_lastZDRLocationStatusCode;
-@property(retain, nonatomic) NSDate *lastZDRLocationStatusComputationTime; // @synthesize lastZDRLocationStatusComputationTime=_lastZDRLocationStatusComputationTime;
-@property(retain, nonatomic) NSLock *statusCacheLock; // @synthesize statusCacheLock=_statusCacheLock;
 
 @end
 

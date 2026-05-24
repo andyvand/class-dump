@@ -7,7 +7,6 @@
 @interface AVTCoreModelPickerDisplayCondition
 {
     unsigned long long _targetSectionIndex;
-    unsigned long long _value;
 }
 
 + (id);
@@ -18,7 +17,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long targetSectionIndex; // @synthesize targetSectionIndex=_targetSectionIndex;
-@property(readonly, nonatomic) unsigned long long value; // @synthesize value=_value;
 
 @end
 

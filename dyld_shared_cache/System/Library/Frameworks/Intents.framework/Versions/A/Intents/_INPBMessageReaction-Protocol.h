@@ -7,15 +7,9 @@
 @class NSString, _INPBSticker;
 
 @protocol _INPBMessageReaction
+- (_INPBSticker *);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *emoji;
-@property(readonly, nonatomic) _Bool hasEmoji;
-@property(readonly, nonatomic) _Bool hasReactionDescription;
-@property(nonatomic) _Bool hasReactionType;
-@property(readonly, nonatomic) _Bool hasSticker;
-@property(copy, nonatomic) NSString *reactionDescription;
-@property(nonatomic) int reactionType;
-@property(retain, nonatomic) _INPBSticker *sticker;
 @end
 

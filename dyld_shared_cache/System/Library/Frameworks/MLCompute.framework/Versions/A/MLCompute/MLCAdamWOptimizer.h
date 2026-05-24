@@ -6,16 +6,11 @@
 
 #import <MLCompute/MLCOptimizer.h>
 
-@class MLCOptimizerDescriptor, NSString;
+@class MLCOptimizerDescriptor;
 
 @interface MLCAdamWOptimizer : MLCOptimizer
 {
     _Bool _usesAMSGrad;
-    float _beta1;
-    float _beta2;
-    float _epsilon;
-    unsigned long long _timeStep;
-    MLCOptimizerDescriptor *_optimizerDescriptor;
 }
 
 + (id);
@@ -31,22 +26,10 @@
 - (id);
 - (id);
 - (float);
-- (void);
+- (void)mpositionCholesky.mm;
 
 // Remaining properties
-@property(readonly, nonatomic) float beta1; // @synthesize beta1=_beta1;
-@property(readonly, nonatomic) float beta2; // @synthesize beta2=_beta2;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) float epsilon; // @synthesize epsilon=_epsilon;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) MLCOptimizerDescriptor *optimizerDescriptor; // @synthesize optimizerDescriptor=_optimizerDescriptor;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long timeStep; // @synthesize timeStep=_timeStep;
-@property(readonly, nonatomic) _Bool usesAMSGrad; // @synthesize usesAMSGrad=_usesAMSGrad;
 
 @end
 

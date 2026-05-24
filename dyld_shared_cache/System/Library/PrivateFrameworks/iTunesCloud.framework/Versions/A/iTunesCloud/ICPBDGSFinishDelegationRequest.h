@@ -15,11 +15,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)#;
 - (_Bool);
 - (id);
 - (id);
-- (void)yDidUpdateControllable: /* Error: Ran out of types for this method. */;
+- (void)accessoryDidUpdateControllable: /* Error: Ran out of types for this method. */;
 
 @end
 

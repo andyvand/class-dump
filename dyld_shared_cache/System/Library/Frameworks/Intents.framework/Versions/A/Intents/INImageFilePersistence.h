@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INImageBundle, NSArray, NSString;
+@class INImageBundle, NSArray;
 
 @interface INImageFilePersistence
 {
     INImageBundle *_imageBundle;
-    NSArray *__supportedClasses;
 }
 
 + (void);
@@ -22,25 +21,16 @@
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void)<v@?@"NSDictionary"@"NSError">16;
-- (void)ithCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideEnableCoolingOptionsCollectionForSetSeatSettingsInCar:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic, setter=_setSupportedClasses:) NSArray *_supportedClasses; // @synthesize _supportedClasses=__supportedClasses;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *serviceIdentifier;
-@property(readonly, nonatomic) unsigned long long servicePriority;
-@property(readonly) Class superclass;
 
 @end
 

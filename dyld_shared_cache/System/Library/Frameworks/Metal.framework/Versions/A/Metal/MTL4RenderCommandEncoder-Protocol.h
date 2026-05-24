@@ -5,9 +5,10 @@
 //
 
 @protocol MTL4RenderCommandEncoder
+- (void)v|[tr~syyykkkk=SH_W_Wg{{{{`yyjpkxttpt;
+- (unsigned long long);
 
 // Remaining properties
-@property(readonly) unsigned long long tileHeight;
 @property(readonly) unsigned long long tileWidth;
 @end
 

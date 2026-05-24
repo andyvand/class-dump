@@ -15,23 +15,24 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)CTPerAppDataUsage;
 - (long long);
 - (void);
 - (void);
-- (void);
+- (void)s>
+<gs:(id)arg1 semiMajorAxis uom="urn:ogc:def:uom:EPSG::9001"> /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
-- (long long);
+- (long long);
 - (_Bool);
 - (long long);
 - (void);
 - (void);
-- (void);
+- (void)A9(;
 - (id);
 - (_Bool);
-- (long long);
+- (long long)@;
 - (id);
 - (void)16@0:8 /* Error: Ran out of types for this method. */;
 

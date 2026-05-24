@@ -9,7 +9,6 @@
 @interface CKDPMergeableDeltaRetrieveResponse
 {
     NSData *_continuation;
-    NSMutableArray *_deltas;
 }
 
 + (Class);
@@ -22,10 +21,10 @@
 - (id);
 - (id);
 - (id);
+- (void)parseDalData:(id)arg1 withCityCode:withStateDict:withError: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)r}] not found during SetMagicCookie completion callback.;
+- (_Bool)P;
 - (void);
 - (_Bool);
 - (void);
@@ -34,9 +33,7 @@
 - (void)sic %@;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *continuation; // @synthesize continuation=_continuation;
 @property(retain, nonatomic) NSMutableArray *deltas; // @synthesize deltas=_deltas;
-@property(readonly, nonatomic) _Bool hasContinuation;
 
 @end
 

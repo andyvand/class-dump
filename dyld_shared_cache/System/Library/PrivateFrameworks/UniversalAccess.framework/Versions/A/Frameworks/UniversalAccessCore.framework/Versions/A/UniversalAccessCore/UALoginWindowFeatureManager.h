@@ -11,14 +11,14 @@
 }
 
 + (id);
-+ (id);
++ (id)R9+;
 - (void);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)<;
 - (id);
 - (id);
 - (void);
@@ -26,7 +26,7 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)�;
 - (id);
 - (id);
 - (id);

@@ -9,14 +9,6 @@
 @interface RemindersUICore.TTRListBadgeView.BackgroundLayer__priv_3DF80B16FE3BCF93F419A82E393676A4 : RemindersUICore.TTRNoDefaultImplicitActionLayer
 {
     id shape;
-    id gradientAndBorderSettings;
-    id userInterfaceLayoutDirection;
-    id disableSublayerUpdates;
-    id fillLayer;
-    id lighteningLayer;
-    id darkeningLayer;
-    id customSmartListMaskLayer;
-    id borderLayer;
 }
 
 - (id);

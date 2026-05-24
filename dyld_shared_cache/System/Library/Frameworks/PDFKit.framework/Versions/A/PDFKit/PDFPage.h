@@ -4,65 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSData, NSDictionary, NSLock, NSMutableArray, NSMutableDictionary, NSMutableSet, NSString, PDFAKPageAdaptor, PDFDetectedForm, PDFDocument, PDFRenderingProperties, PDFView;
+@class PDFDocument;
 
 @interface PDFPage
 {
     PDFDocument *_document;
-    struct CGPDFPage *_page;
-    struct os_unfair_lock_s _pageLock;
-    struct CGColor *_pageBackgroundColorHint;
-    PDFView *_view;
-    NSString *_label;
-    struct CGImage *_pageImage;
-    NSDictionary *_pageImageOptions;
-    struct os_unfair_lock_s _layoutLock;
-    struct CGPDFPageLayout *_layout;
-    _Atomic _Bool _builtLayout;
-    struct os_unfair_lock_s _dataDetectorsLock;
-    _Bool _ranDataDetectors;
-    NSString *_text;
-    NSAttributedString *_attributedString;
-    _Bool _displaysAnnotations;
-    _Bool _displaysMarkups;
-    NSMutableArray *_annotations;
-    _Atomic _Bool _loadedAnnotations;
-    NSLock *_lock_getAnnotations;
-    NSLock *_lock_accessAnnotations;
-    NSMutableArray *_detectedAnnotations;
-    long long _rotation;
-    struct CGRect _mediaBox;
-    struct CGRect _cropBox;
-    struct CGRect _bleedBox;
-    struct CGRect _trimBox;
-    struct CGRect _artBox;
-    struct CGDisplayList *_displayList;
-    _Bool _creatingDisplayList;
-    NSMutableArray *_createDisplayListCompletionBlocks;
-    struct os_unfair_lock_s _displayListMutex;
-    _Bool _bookmarked;
-    _Bool _isFullyConstructed;
-    _Bool _colorWidgetBackgrounds;
-    PDFAKPageAdaptor *_akPageAdaptor;
-    _Bool _akDidSetupRealPageModelController;
-    NSMutableArray *_annotationChanges;
-    NSMutableSet *_changedAnnotations;
-    NSMutableDictionary *_widgetAnnotationLookup;
-    struct os_unfair_lock_s _widgetAnnotationLookupLock;
-    NSMutableArray *_scannerResults;
-    _Bool _didChangeBounds;
-    BOOL _candidateForOCR;
-    _Bool _requestedOCR;
-    _Bool _textFromOCR;
-    _Bool _didPerformOCR;
-    BOOL _candidateForFormDetection;
-    _Bool _didPerformFormDetection;
-    unsigned long long _detectedFormFieldsRecognitionConfidence;
-    PDFDetectedForm *_detectedForm;
-    NSMutableArray *_formFieldGroups;
-    NSMutableDictionary *_persistentApplicationData;
-    unsigned long long _pageNumber;
-    struct CGDisplayList *_effectLayerOCRContent;
 }
 
 + (_Bool);
@@ -105,7 +51,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)5;
 - (id);
 - (id);
 - (id);
@@ -121,14 +67,14 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)<;
 - (void);
 - (id);
-- (id);
+- (id))A;
 - (_Bool);
 - (struct CGPDFPageLayout *);
 - (struct CGColor *);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (_Bool);
@@ -226,32 +172,32 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (struct CGRect);
+- (long long);
+- (id);
+- (id);
+- (void);
+- (void);
+- (struct CGPDFPage *)V;
+- (void);
+- (struct CGRect)$;
+- (void);
+- (id)<OS_dispatch_queue>",&,V_queue;
+- (id);
+- (unsigned long long)setHomeManagerCreationTimeStamp: /* Error: Ran out of types for this method. */;
+- (void)setCurrentProtectionMode:(id)arg1;
+- (void);
+- (struct CGPDFPageLayout *)file %@:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)ctivityState:(struct CGPoint)arg1 completionHandler:] /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (id);
+- (id);
 - (long long);
 - (id);
-- (id);
-- (void);
-- (void);
-- (struct CGPDFPage *);
-- (void);
-- (struct CGRect);
-- (void);
-- (id);
-- (id);
-- (unsigned long long);
-- (void);
-- (void);
-- (struct CGPDFPageLayout *);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (long long);
-- (id);
-- (id);
-- (void);
+- (id)FLABCReporter;
+- (void).;
 - (id);
 - (id);
 - (id);
@@ -260,41 +206,17 @@
 - (id);
 - (struct CGDisplayList *);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)lKit;
 - (void)Qäð1Â0@ù
 × ;
 - (id)ù
 × ;
-- (id)aceAndNewlineCharacterSet;
+- (id)whitespaceAndNewlineCharacterSet;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *annotations;
-@property(readonly, nonatomic) NSAttributedString *attributedString;
-@property(nonatomic, getter=isBookmarked) _Bool bookmarked;
-@property(nonatomic, getter=isCandidateForFormDetection) BOOL candidateForFormDetection;
-@property(nonatomic, getter=isCandidateForOCR) BOOL candidateForOCR;
-@property(readonly, nonatomic) _Bool containsDetectedFormFields;
-@property(readonly, nonatomic) _Bool containsFormFields;
-@property(readonly, nonatomic) _Bool containsFormFieldsWithContentType;
-@property(readonly, nonatomic) NSData *dataRepresentation;
-@property(retain, nonatomic) PDFDetectedForm *detectedForm;
-@property(nonatomic) unsigned long long detectedFormFieldsRecognitionConfidence;
-@property(nonatomic) _Bool didPerformFormDetection;
-@property(nonatomic) _Bool didPerformOCR;
-@property(nonatomic) _Bool displaysAnnotations;
-@property(readonly, nonatomic) __weak PDFDocument *document;
-@property(retain) struct CGDisplayList *effectLayerOCRContent; // @synthesize effectLayerOCRContent=_effectLayerOCRContent;
-@property(readonly, nonatomic) NSString *label;
-@property(readonly, nonatomic) unsigned long long numberOfCharacters;
 @property(readonly) unsigned long long pageNumber; // @synthesize pageNumber=_pageNumber;
-@property(readonly, nonatomic) struct CGPDFPage *pageRef;
-@property(readonly) PDFRenderingProperties *renderingProperties;
-@property(readonly, nonatomic) _Bool requestedOCR;
-@property(nonatomic) long long rotation;
-@property(readonly, nonatomic) NSString *string;
-@property(readonly, nonatomic, getter=isTextFromOCR) _Bool textFromOCR;
 
 @end
 

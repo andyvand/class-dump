@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccountStore, NSArray, NSMutableArray;
+@class ACAccountStore;
 
 @interface CalAccountsProvider
 {
     _Bool _runningUnitTests;
-    NSMutableArray *_accountsWhenRunningUnitTests;
-    ACAccountStore *_accountStore;
 }
 
 + (id);
@@ -20,8 +18,8 @@
 + (id);
 + (id);
 + (id);
++ (id)J*;
 + (id);
-+ (id);
 - (id);
 - (void);
 - (void);
@@ -39,10 +37,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)J;
+- (id)ƜQB;
+- (id)ib8E;
+- (id)Jc;
 - (id);
 - (id);
 - (id);
@@ -63,7 +61,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)G;
 - (id);
 - (id);
 - (void);
@@ -72,12 +70,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) ACAccountStore *accountStore; // @synthesize accountStore=_accountStore;
-@property(readonly, nonatomic) NSArray *accountsEnabledForCalendar;
-@property(readonly, nonatomic) NSArray *accountsEnabledForReminders;
-@property(retain, nonatomic) NSMutableArray *accountsWhenRunningUnitTests; // @synthesize accountsWhenRunningUnitTests=_accountsWhenRunningUnitTests;
-@property(readonly, nonatomic) NSArray *allAccounts;
-@property(readonly, nonatomic) NSArray *enabledAccounts;
-@property(nonatomic) _Bool runningUnitTests; // @synthesize runningUnitTests=_runningUnitTests;
 
 @end
 

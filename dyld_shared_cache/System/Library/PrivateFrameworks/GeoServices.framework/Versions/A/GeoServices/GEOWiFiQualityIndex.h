@@ -7,14 +7,9 @@
 @interface GEOWiFiQualityIndex
 {
     int _type;
-    unsigned int _value;
-    struct {
-        unsigned int has_type:1;
-        unsigned int has_value:1;
-    } _flags;
 }
 
-+ (_Bool)on:(id)arg1;
++ (_Bool)setOriginalDescription:(id)arg1;
 
 @end
 

@@ -5,5 +5,7 @@
 //
 
 @protocol MPGeometrySupport
+- (struct CGSize);
+- (double)H;
 @end
 

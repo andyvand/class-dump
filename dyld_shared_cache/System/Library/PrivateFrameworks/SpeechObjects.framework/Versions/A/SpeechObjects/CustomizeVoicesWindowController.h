@@ -4,33 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSButton, NSMutableSet, NSSearchField, NSSound, NSSpeechSynthesizer, NSString, NSTableView, NSTextField, NSTimer;
+@class NSTableView;
 
 @interface CustomizeVoicesWindowController
 {
     NSTableView *_voiceSelectionTableView;
-    NSButton *_okButton;
-    NSButton *_playStopButton;
-    NSSearchField *_searchField;
-    NSTextField *_selectedDownloadSizeTextField;
-    NSTextField *_noResultsFoundTextField;
-    NSSpeechSynthesizer *_synthesizer;
-    NSSound *_audioChannel;
-    NSArray *_allVoicesObjects;
-    NSArray *_currentlyDisplayedVoiceRows;
-    NSArray *_voiceIdentifiersNotToBeRemoved;
-    NSMutableSet *_markedForUpgradeSet;
-    NSMutableSet *_markedForDeletionSet;
-    NSTimer *_downloadStatusUpdateTimer;
-    _Bool _showIndividualVoiceQualities;
-    _Bool _popUpWasInitiallyBeenBuilt;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -42,29 +27,23 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
+- (_Bool)~;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)qa;
 - (void);
 - (long long);
-- (void);
+- (void)h2;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

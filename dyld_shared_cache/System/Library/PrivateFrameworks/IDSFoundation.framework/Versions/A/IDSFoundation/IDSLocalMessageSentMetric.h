@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, PBCodable;
-@protocol NSCopying;
+@class NSString;
 
 @interface IDSLocalMessageSentMetric
 {
     NSString *_service;
-    _Bool _isToDefaultPairedDevice;
-    long long _messageSize;
-    unsigned long long _linkType;
-    long long _priority;
 }
 
 - (_Bool);
@@ -30,22 +25,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly) unsigned int awdIdentifier;
-@property(readonly, nonatomic) PBCodable<NSCopying> *awdRepresentation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isToDefaultPairedDevice; // @synthesize isToDefaultPairedDevice=_isToDefaultPairedDevice;
-@property(readonly, nonatomic) unsigned long long linkType; // @synthesize linkType=_linkType;
-@property(readonly, nonatomic) long long messageSize; // @synthesize messageSize=_messageSize;
 @property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) long long priority; // @synthesize priority=_priority;
-@property(readonly, nonatomic) NSString *service; // @synthesize service=_service;
-@property(readonly) Class superclass;
 
 @end
 

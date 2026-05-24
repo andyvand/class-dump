@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATOperationQueue, CATSharingDevice, NSError, NSString;
-@protocol CATSharingBroadcastPrimitives, CATSharingConnectionDelegate, CATTimer, CATTimerSource;
+@protocol CATSharingBroadcastPrimitives;
 
 __attribute__((visibility("hidden")))
 @interface CATSharingBroadcastConnection
 {
     id <CATSharingBroadcastPrimitives> mBroadcastPrimitives;
-    _Bool mIsClosing;
-    id <CATTimerSource> mTimerSource;
-    id <CATTimer> mTombstoneTimer;
-    CATOperationQueue *mOutgoingQueue;
-    CATOperationQueue *mCatalystQueue;
-    _Bool _closed;
-    id <CATSharingConnectionDelegate> _delegate;
-    NSError *_closedError;
 }
 
 - (void);
@@ -33,30 +24,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)UserCuratedAssetsInMemory only supports memory;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)__ustring;
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
+- (void)@9V;
 - (_Bool);
-- (void)InvitationOutbox:receivedARejectionFrom:connectionIdentifier:userInfo:error: /* Error: Ran out of types for this method. */;
+- (void)connectionInvitationOutbox:receivedARejectionFrom:connectionIdentifier:userInfo:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, getter=isClosed) _Bool closed; // @synthesize closed=_closed;
-@property(retain, nonatomic) NSError *closedError; // @synthesize closedError=_closedError;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CATSharingConnectionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CATSharingDevice *remoteDevice;
-@property(readonly) Class superclass;
 
 @end
 

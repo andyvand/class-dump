@@ -7,13 +7,6 @@
 @interface ChatKit.BusinessDetailsViewModel
 {
     id _sendsReadReceipts;
-    id _isMuted;
-    id _senderIsBlocked;
-    id _showingLeaveConversationConfirmation;
-    id _showingBlockSenderConfirmation;
-    id conversation;
-    id keysForBlockList;
-    id _$observationRegistrar;
 }
 
 - (id);

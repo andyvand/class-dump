@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, PDFRenderingProperties, PDFTimer;
+@class PDFRenderingProperties;
 
 __attribute__((visibility("hidden")))
 @interface PDFCoachMarkManagerPrivate
 {
     PDFRenderingProperties *renderingProperties;
-    NSMutableDictionary *coachMarks;
-    PDFTimer *timer;
 }
 
 - (void);

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSUserDefaults;
-@protocol OS_os_log;
+@class NSUserDefaults;
 
 @interface DEDPersistence
 {
     NSUserDefaults *_userDefaults;
-    NSObject<OS_os_log> *_log;
 }
 
 + (id);
@@ -18,20 +16,19 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)t serialize zoneish PCS for share roll:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)`;
+- (void)setAllowUserAttachmentSelection:(id)arg1;
+- (void)URLForResource:(id)arg1 withExtension:subdirectory: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSObject<OS_os_log> *log; // @synthesize log=_log;
 @property(retain) NSUserDefaults *userDefaults; // @synthesize userDefaults=_userDefaults;
 
 @end

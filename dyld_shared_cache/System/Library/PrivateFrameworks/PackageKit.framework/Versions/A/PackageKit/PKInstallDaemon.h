@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSObject, NSString, NSXPCListener;
-@protocol OS_dispatch_queue;
+@class NSXPCListener;
 
 @interface PKInstallDaemon
 {
     NSXPCListener *_listener;
-    NSString *_connectionName;
-    NSMutableDictionary *_tokenToInstallDictionary;
-    NSMutableDictionary *_tokenToDoneBlockDictionary;
-    NSMutableDictionary *_tokenToQualityOfServiceClassDictionary;
-    id _currentToken;
-    NSMutableArray *_tokenQueue;
-    NSMutableDictionary *_validatedAuthorizations;
-    NSMutableArray *_clients;
-    NSObject<OS_dispatch_queue> *_queueQueue;
-    NSObject<OS_dispatch_queue> *_serviceQueue;
-    NSObject<OS_dispatch_queue> *_clientNotifyQueue;
-    NSObject<OS_dispatch_queue> *_stateQueue;
-    int _daemonState;
-    int _idleCount;
 }
 
 + (id);
@@ -45,7 +30,7 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -69,13 +54,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

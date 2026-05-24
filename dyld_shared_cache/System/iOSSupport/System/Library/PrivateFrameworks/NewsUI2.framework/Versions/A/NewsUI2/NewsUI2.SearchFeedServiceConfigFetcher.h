@@ -7,10 +7,6 @@
 @interface NewsUI2.SearchFeedServiceConfigFetcher
 {
     id name;
-    id appConfigManager;
-    id configManager;
-    id origination;
-    id featureAvailability;
 }
 
 @end

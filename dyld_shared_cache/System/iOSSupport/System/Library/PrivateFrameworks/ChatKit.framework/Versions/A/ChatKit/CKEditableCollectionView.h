@@ -7,26 +7,22 @@
 @interface CKEditableCollectionView
 {
     _Bool __ck_editing;
-    struct UIEdgeInsets _marginInsets;
-    struct UIEdgeInsets _initialSafeAreaInsets;
 }
 
+- (void)zR;
 - (void);
-- (void);
 - (struct UIEdgeInsets);
-- (struct UIEdgeInsets);
-- (struct UIEdgeInsets);
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets)A;
+- (struct UIEdgeInsets):%@}%s:%d /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)Authenticated biometrics with prompt {prompt:%@, error:%@}%s:%d /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (struct UIEdgeInsets)Z´ZSgG_çQo_ãnZG|ZyALyALyZys-[yACyAdEGG_APSg¨-[APtGAMyAP_AqprPtGGALyAMyAP_ArPtGZGGAWGG@çGZ`ZG;
 
 // Remaining properties
-@property(nonatomic, getter=_ck_isEditing, setter=_ck_setEditing:) _Bool _ck_editing; // @synthesize _ck_editing=__ck_editing;
-@property(nonatomic) struct UIEdgeInsets initialSafeAreaInsets; // @synthesize initialSafeAreaInsets=_initialSafeAreaInsets;
 @property(nonatomic) struct UIEdgeInsets marginInsets; // @synthesize marginInsets=_marginInsets;
 
 @end

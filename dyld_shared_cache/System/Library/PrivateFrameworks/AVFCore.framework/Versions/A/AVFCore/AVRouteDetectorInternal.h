@@ -4,22 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVOutputDeviceDiscoverySession, NSObject;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface AVRouteDetectorInternal
 {
     _Bool routeDetectionEnabled;
-    _Bool multipleRoutesDetected;
-    _Bool detectsCustomRoutes;
-    NSObject<OS_dispatch_queue> *ivarAccessQueue;
-    AVOutputDeviceDiscoverySession *outputDeviceDiscoverySession;
-    id outputDevicesChangeNotificationToken;
-    id didEnterBackgroundNotificationToken;
-    id didEnterForegroundNotificationToken;
-    _Bool customRoutesPresent;
-    _Bool routeDetectionSuspended;
 }
 
 @end

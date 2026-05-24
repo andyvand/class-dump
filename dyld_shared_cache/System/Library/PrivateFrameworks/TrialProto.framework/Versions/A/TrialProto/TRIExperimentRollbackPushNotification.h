@@ -6,7 +6,7 @@
 
 #import <TrialProto/TRIPBMessage.h>
 
-@class NSString, TRIPBUInt32Array;
+@class NSString;
 
 @interface TRIExperimentRollbackPushNotification : TRIPBMessage
 {
@@ -15,10 +15,7 @@
 + (id);
 
 // Remaining properties
-@property(retain, nonatomic) TRIPBUInt32Array *deploymentIdArray; // @dynamic deploymentIdArray;
-@property(readonly, nonatomic) unsigned long long deploymentIdArray_Count; // @dynamic deploymentIdArray_Count;
 @property(copy, nonatomic) NSString *experimentId; // @dynamic experimentId;
-@property(nonatomic) _Bool hasExperimentId; // @dynamic hasExperimentId;
 
 @end
 

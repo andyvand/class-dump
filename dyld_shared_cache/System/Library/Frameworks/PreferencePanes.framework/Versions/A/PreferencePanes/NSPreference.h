@@ -6,17 +6,11 @@
 
 #import <PreferencePanes/NSPreferencePane.h>
 
-@class NSArray, NSCFPrefManager, NSDictionary, NSMutableArray, NSPrefTabsController;
+@class NSPrefTabsController;
 
 @interface NSPreference : NSPreferencePane
 {
     NSPrefTabsController *_prefTabsController;
-    _Bool _isDirty;
-    _Bool _isEditable;
-    NSCFPrefManager *_prefs;
-    NSMutableArray *_relevantDomains;
-    NSArray *_macManagerSettings;
-    NSDictionary *_taggedControls;
 }
 
 - (void);
@@ -25,21 +19,21 @@
 - (void);
 - (void);
 - (unsigned long long);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (long long);
 - (void);
 - (float);
 - (id);
 - (void);
-- (double);
+- (double);
 - (void);
 - (void);
 - (void);
@@ -51,36 +45,36 @@
 - (void);
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)entation isEqualToGeometryTransformOrientation:(long long)arg1 ];
+- (void);
+- (void)index mappings and WS updates. Bailing...;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool).apple.PressAndHold;
 - (id);
-- (void);
-- (void);
+- (void)LOB NOT NULL,     UNIQUE(evaluationId) );;
+- (void)b;
 - (id);
-- (long long);
+- (long long)SearchUIImageDerivedColorFetchColors;
 - (float);
 - (void);
 - (id);
 - (double);
-- (void);
-- (void);
-- (void);
+- (void)setMaxSearchToolResultsCountPerBundle:(id)arg1;
+- (void)s;
+- (void);
 - (long long);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)weakObjectsHashTable;
 - (void);
 
 @end

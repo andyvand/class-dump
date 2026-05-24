@@ -9,14 +9,6 @@
 @interface IMDiskSpaceFileInfo
 {
     _Bool _isAttachment;
-    _Bool _isSyncAsset;
-    _Bool _isPurgableOnDisk;
-    _Bool _isDirectory;
-    _Bool _isSticker;
-    NSString *_path;
-    NSString *_guid;
-    NSString *_fileExtension;
-    struct IMFileSize _fileSize;
 }
 
 - (_Bool);
@@ -25,7 +17,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -36,14 +28,6 @@
 - (struct IMFileSize)È®;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *fileExtension; // @synthesize fileExtension=_fileExtension;
-@property(readonly, nonatomic) struct IMFileSize fileSize; // @synthesize fileSize=_fileSize;
-@property(readonly, nonatomic) NSString *guid; // @synthesize guid=_guid;
-@property(readonly, nonatomic) _Bool isAttachment; // @synthesize isAttachment=_isAttachment;
-@property(readonly, nonatomic) _Bool isDirectory; // @synthesize isDirectory=_isDirectory;
-@property(readonly, nonatomic) _Bool isPurgableOnDisk; // @synthesize isPurgableOnDisk=_isPurgableOnDisk;
-@property(readonly, nonatomic) _Bool isSticker; // @synthesize isSticker=_isSticker;
-@property(readonly, nonatomic) _Bool isSyncAsset; // @synthesize isSyncAsset=_isSyncAsset;
 @property(readonly, nonatomic) NSString *path; // @synthesize path=_path;
 
 @end

@@ -10,20 +10,18 @@ __attribute__((visibility("hidden")))
 @interface UIStatusBarCarPlayRadarTimeItemView : UIStatusBarCarPlayTimeItemView
 {
     _Bool _isInternalInstall;
-    _Bool _radarItemEnabled;
-    _Bool _currentlyGatheringLogs;
 }
 
 - (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool)isFeatureEnabled;
+- (id)s from spotlight:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)ious batch of attachment filesize updates completed, setting new watermark to be %@;
+- (id)ipping.;
+- (_Bool)__kIMDChatParticipantsDidChangeRemovedParticipantsKey;
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)buildWithIdentifier:withOnlyMount:withDenyMount:withDenyDLC:withPreferDLC:withUseDLC: /* Error: Ran out of types for this method. */;
 - (id)PropagationEnabled,V_visibilityPropagationEnabled;
 - (long long)¾»ÿæßÒj;
 

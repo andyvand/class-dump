@@ -6,7 +6,7 @@
 
 #import <FrontBoardServices/FBSCoreSettingsExtension.h>
 
-@class BSKeyedSettings, FBSSceneIdentityToken, NSString;
+@class BSKeyedSettings;
 
 __attribute__((visibility("hidden")))
 @interface FBSSceneClientSettingsCore : FBSCoreSettingsExtension
@@ -29,10 +29,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) BSKeyedSettings *layers;
-@property(nonatomic) long long preferredInterfaceOrientation;
-@property(nonatomic) double preferredLevel;
-@property(copy, nonatomic) NSString *preferredSceneHostIdentifier;
-@property(copy, nonatomic) FBSSceneIdentityToken *preferredSceneHostIdentity;
 
 @end
 

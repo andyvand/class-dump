@@ -11,14 +11,14 @@
     id <MKSystemControllerOpenURLDelegate> _openURLDelegate;
 }
 
-+ (id)ForCurrentRegion;
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
++ (id)attributionsForCurrentRegion;
+- (_Bool)Key:%@ withPayload:%@ sent! /* Error: Ran out of types for this method. */;
+- (_Bool)WithRateLimitingforClient:%d withKey:%@ message %@ /* Error: Ran out of types for this method. */;
+- (_Bool)withPayload:%@ sent! /* Error: Ran out of types for this method. */;
+- (_Bool)ient:client id:%d withKey:%@ withPayload:%@ sent! /* Error: Ran out of types for this method. */;
+- (_Bool)tionary Intervals:(id)arg1;
+- (_Bool)gy report after querying powerlog;
+- (void)pple.rawPowerlogRetrieval.failCopy;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -29,12 +29,12 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (int);
 - (double);
 - (struct CGSize);
 - (_Bool);
-- (void)allPercentageFont;
+- (void)ratingOverallPercentageFont;
 - (_Bool)zer:%{public}f /* Error: Ran out of types for this method. */;
 
 // Remaining properties

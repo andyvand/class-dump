@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSError, NSMutableDictionary, NSNumber, NSString;
+@class NSNumber;
 
 @interface ADJingleRequest
 {
     NSNumber *_token;
-    NSData *_responseBody;
-    NSDictionary *_responseHeaders;
-    NSError *_error;
-    long long _statusCode;
-    NSString *_DSID;
-    CDUnknownBlockType _completionHandler;
-    NSString *_bagKey;
-    NSData *_requestBody;
-    NSMutableDictionary *_requestHeaders;
 }
 
 + (id);
@@ -29,17 +20,17 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)";
 - (id);
 - (void);
+- (id);
 - (void);
+- (void);
 - (CDUnknownBlockType);
 - (id);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (id);
@@ -49,15 +40,6 @@
 - (void)ttempting to fetch the DPID from iCloud.;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *DSID; // @synthesize DSID=_DSID;
-@property(retain, nonatomic) NSString *bagKey; // @synthesize bagKey=_bagKey;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(copy) NSError *error; // @synthesize error=_error;
-@property(retain, nonatomic) NSData *requestBody; // @synthesize requestBody=_requestBody;
-@property(retain, nonatomic) NSMutableDictionary *requestHeaders; // @synthesize requestHeaders=_requestHeaders;
-@property(retain) NSData *responseBody; // @synthesize responseBody=_responseBody;
-@property(retain) NSDictionary *responseHeaders; // @synthesize responseHeaders=_responseHeaders;
-@property long long statusCode; // @synthesize statusCode=_statusCode;
 @property(retain, nonatomic) NSNumber *token; // @synthesize token=_token;
 
 @end

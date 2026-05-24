@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface TCFontFamily
 {
     NSDictionary *_namesByLanguage;
-    NSArray *_members;
 }
 
 - (id);
@@ -30,14 +29,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)leAuthTokenManager webView:decidePolicyForNavigationAction:request:frame:decisionListener:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void)play name returned for locale ID %@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *members; // @synthesize members=_members;
 @property(readonly, nonatomic) NSDictionary *namesByLanguage; // @synthesize namesByLanguage=_namesByLanguage;
 
 @end

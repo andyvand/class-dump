@@ -7,14 +7,12 @@
 @interface AWDSidecarHistogramBin
 {
     double _binEnd;
-    double _binStart;
-    double _value;
-    CDStruct_7f1046b5 _has;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)R?
+ka;
 - (_Bool);
 - (_Bool);
 - (double);
@@ -24,7 +22,7 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)_;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -35,12 +33,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) double binEnd; // @synthesize binEnd=_binEnd;
-@property(nonatomic) double binStart; // @synthesize binStart=_binStart;
-@property(nonatomic) _Bool hasBinEnd;
 @property(nonatomic) _Bool hasBinStart;
-@property(nonatomic) _Bool hasValue;
-@property(nonatomic) double value; // @synthesize value=_value;
 
 @end
 

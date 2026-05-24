@@ -4,94 +4,59 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSSecurityScopedURLWrapper, NSString, STMIconConstructor;
+@class NSString;
 
 @interface STMRowItem
 {
     _Bool _hasViewedState;
-    _Bool _hasBeenViewed;
-    _Bool _isDeletable;
-    NSString *_uuid;
-    NSSecurityScopedURLWrapper *_fileURLWrapper;
-    NSString *_name;
-    NSString *_sectionName;
-    NSString *_version;
-    NSString *_category;
-    NSDate *_dateLastOpened;
-    long long _size;
-    long long _appSize;
-    long long _dataSize;
-    long long _deletableSize;
-    NSString *_bundleID;
-    double _percentViewed;
-    NSString *_localizedCategoryShortName;
-    STMIconConstructor *_iconConstructor;
-    NSString *_revealButtonTitle;
 }
 
 + (_Bool);
 - (void);
 - (void);
 - (void);
+- (void)6;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (double);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)@;
 - (long long);
 - (id);
 - (void);
 - (id);
 - (long long);
-- (id);
-- (void);
-- (_Bool);
+- (id)setDuplexSupportLevel: /* Error: Ran out of types for this method. */;
+- (void):(id)arg1 %g
+;
+- (_Bool)&,N,V_watchListCardSection;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (long long);
-- (void);
-- (void);
+- (void)setPermissonsRowVisible:(long long)arg1;
+- (void);
 - (void);
 - (long long);
-- (id);
+- (id)_inputNames;
 - (void);
 - (id);
+- (void)X;
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long appSize; // @synthesize appSize=_appSize;
-@property(copy, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(copy, nonatomic) NSString *category; // @synthesize category=_category;
-@property(nonatomic) long long dataSize; // @synthesize dataSize=_dataSize;
-@property(retain, nonatomic) NSDate *dateLastOpened; // @synthesize dateLastOpened=_dateLastOpened;
-@property(nonatomic) long long deletableSize; // @synthesize deletableSize=_deletableSize;
-@property(retain, nonatomic) NSSecurityScopedURLWrapper *fileURLWrapper; // @synthesize fileURLWrapper=_fileURLWrapper;
-@property(nonatomic) _Bool hasBeenViewed; // @synthesize hasBeenViewed=_hasBeenViewed;
-@property(nonatomic) _Bool hasViewedState; // @synthesize hasViewedState=_hasViewedState;
-@property(retain, nonatomic) STMIconConstructor *iconConstructor; // @synthesize iconConstructor=_iconConstructor;
-@property(nonatomic) _Bool isDeletable; // @synthesize isDeletable=_isDeletable;
-@property(copy, nonatomic) NSString *localizedCategoryShortName; // @synthesize localizedCategoryShortName=_localizedCategoryShortName;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) double percentViewed; // @synthesize percentViewed=_percentViewed;
-@property(retain, nonatomic) NSString *revealButtonTitle; // @synthesize revealButtonTitle=_revealButtonTitle;
-@property(copy, nonatomic) NSString *sectionName; // @synthesize sectionName=_sectionName;
-@property(nonatomic) long long size; // @synthesize size=_size;
 @property(retain, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
-@property(copy, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end
 

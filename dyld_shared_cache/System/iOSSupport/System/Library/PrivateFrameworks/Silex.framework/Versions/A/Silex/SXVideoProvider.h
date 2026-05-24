@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, SVTimeline;
-@protocol SVVideoMetadata, SXAnalyticsReporting;
+@class NSURL;
+@protocol SVVideoMetadata;
 
 @interface SXVideoProvider
 {
     NSURL *_URL;
-    id <SXAnalyticsReporting> _analyticsReporter;
-    id <SVVideoMetadata> _metadata;
-    SVTimeline *_timeline;
-    double _pausedAtTime;
-    NSString *_mediaIdentifier;
-    unsigned long long _playMethod;
 }
 
 - (void);
@@ -23,44 +17,27 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (double);
 - (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (void);
+- (void)non-text number format!;
 - (unsigned long long);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void)ï1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(retain, nonatomic) id <SXAnalyticsReporting> analyticsReporter; // @synthesize analyticsReporter=_analyticsReporter;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double impressionThreshold;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) NSString *mediaIdentifier; // @synthesize mediaIdentifier=_mediaIdentifier;
 @property(nonatomic) __weak id <SVVideoMetadata> metadata; // @synthesize metadata=_metadata;
-@property(nonatomic) double pausedAtTime; // @synthesize pausedAtTime=_pausedAtTime;
-@property(nonatomic) unsigned long long playMethod; // @synthesize playMethod=_playMethod;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) SVTimeline *timeline; // @synthesize timeline=_timeline;
 
 @end
 

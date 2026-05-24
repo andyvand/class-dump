@@ -4,39 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WFWidgetConfigurationHostContext;
-@protocol WFWidgetConfigurationRemoteViewControllerDelegate;
+@class WFWidgetConfigurationHostContext;
 
 __attribute__((visibility("hidden")))
 @interface WFWidgetConfigurationRemoteViewController
 {
     WFWidgetConfigurationHostContext *_serviceContext;
-    id <WFWidgetConfigurationRemoteViewControllerDelegate> _delegate;
 }
 
 - (void);
 - (void);
+- (void)S*T;
 - (void);
-- (void);
-- (void);
+- (void)zg;
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <WFWidgetConfigurationRemoteViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) WFWidgetConfigurationHostContext *serviceContext; // @synthesize serviceContext=_serviceContext;
-@property(readonly) Class superclass;
 
 @end
 

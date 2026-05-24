@@ -6,13 +6,11 @@
 
 #import <BiomeStreams/BMEventBase.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface BMSiriIntentEvent : BMEventBase
 {
     NSString *_intentId;
-    NSString *_eventType;
-    NSData *_eventData;
 }
 
 + (id);
@@ -23,26 +21,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);;
 - (unsigned long long);
-- (id);
+- (id)keyboardStateDidChange;
 - (id);
 - (_Bool);
-- (id)p_table_space_stmt__pack_to_buffer;
+- (id)pg_query__drop_table_space_stmt__pack_to_buffer;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSData *eventData; // @synthesize eventData=_eventData;
-@property(readonly, copy, nonatomic) NSString *eventType; // @synthesize eventType=_eventType;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *intentId; // @synthesize intentId=_intentId;
-@property(readonly) Class superclass;
 
 @end
 

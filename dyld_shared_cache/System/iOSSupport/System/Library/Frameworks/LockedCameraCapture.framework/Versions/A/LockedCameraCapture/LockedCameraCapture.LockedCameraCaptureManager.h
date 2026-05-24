@@ -8,10 +8,6 @@
 {
     id _sessionContentURLs;
     id sessionContentUpdatesStream;
-    id sessionContentUpdatesContinuation;
-    id didEnterBackgroundObserver;
-    id willEnterForegroundObserver;
-    id didBecomeActiveObserver;
 }
 
 @end

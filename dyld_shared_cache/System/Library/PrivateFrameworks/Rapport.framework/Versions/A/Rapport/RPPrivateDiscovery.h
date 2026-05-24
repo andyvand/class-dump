@@ -4,28 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCConnection;
-@protocol OS_dispatch_queue;
-
 @interface RPPrivateDiscovery
 {
     _Bool _activateCalled;
-    _Bool _changesPending;
-    _Bool _direct;
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    struct LogCategory *_ucat;
-    NSXPCConnection *_xpcCnx;
-    unsigned int _clientID;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _endpointFoundHandler;
-    CDUnknownBlockType _endpointLostHandler;
-    CDUnknownBlockType _endpointChangedHandler;
-    CDUnknownBlockType _errorHandler;
-    CDUnknownBlockType _interruptionHandler;
-    CDUnknownBlockType _invalidationHandler;
-    NSString *_label;
-    NSString *_serviceType;
 }
 
 + (_Bool);
@@ -33,36 +14,36 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)[;
+- (void)`;
 - (void);
 - (void);
 - (CDUnknownBlockType);
+- (CDUnknownBlockType)#;
+- (CDUnknownBlockType);
 - (void);
 - (void);
+- (id)stration predicate even though value is same value as previous value.;
+- (id)l/__QNNI__length_penalty_weight;
+- (void)e '*', 'unconstrained', 'reduced', or 'avoid': /* Error: Ran out of types for this method. */;
+- (id)4;
+- (id)llicMapperIS6_LS7_4EEEEENS_3FstIS6_EEEE;
+- (id)+;
+- (id);
+- (void)@;
 - (void);
 - (void);
+- (CDUnknownBlockType);
 - (void);
 - (void);
+- (void)a;
 - (void);
+- (void);
+- (void);
+- (void)S;
 - (CDUnknownBlockType);
 - (unsigned int);
-- (void);
+- (void)b;
 - (void);
 - (CDUnknownBlockType);
 - (void);
@@ -71,15 +52,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned int clientID; // @synthesize clientID=_clientID;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType endpointChangedHandler; // @synthesize endpointChangedHandler=_endpointChangedHandler;
-@property(copy, nonatomic) CDUnknownBlockType endpointFoundHandler; // @synthesize endpointFoundHandler=_endpointFoundHandler;
-@property(copy, nonatomic) CDUnknownBlockType endpointLostHandler; // @synthesize endpointLostHandler=_endpointLostHandler;
-@property(copy, nonatomic) CDUnknownBlockType errorHandler; // @synthesize errorHandler=_errorHandler;
-@property(copy, nonatomic) CDUnknownBlockType interruptionHandler; // @synthesize interruptionHandler=_interruptionHandler;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(copy, nonatomic) NSString *serviceType; // @synthesize serviceType=_serviceType;
 
 @end
 

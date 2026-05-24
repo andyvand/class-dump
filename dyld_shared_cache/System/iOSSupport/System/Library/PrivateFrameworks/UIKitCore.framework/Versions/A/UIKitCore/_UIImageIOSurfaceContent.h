@@ -10,27 +10,26 @@ __attribute__((visibility("hidden")))
 @interface _UIImageIOSurfaceContent : _UIImageContent
 {
     struct __IOSurface *_surface;
-    struct __IOSurface *_hdrSurface;
-    double _headroom;
 }
 
 - (void);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (_Bool);
+- (id)i;
+- (id)%lld
+;
+- (_Bool)LengthCheck != CKFileDigestResultsFileLength(fileDigestResults);
 - (unsigned long long);
 - (double);
 - (id);
-- (_Bool)sNeedUpdate;
-- (id)ithFont:(struct __IOSurface *)arg1 scale:(double)arg2;
-- (struct __IOSurface *)ctiveFocusLayers;
-- (void)ontentRatio;
-- (struct __IOSurface *)reviewTransitionController;
+- (_Bool)trackingElementsNeedUpdate;
+- (id)configurationWithFont:(struct __IOSurface *)arg1 scale:(double)arg2;
+- (struct __IOSurface *)_updateActiveFocusLayers;
+- (void)_contentRatio;
+- (struct __IOSurface *)_UIPreviewTransitionController;
 - (_Bool)contained in its documentStorageURL (%@);
 - (id).06fs;
-- (_Bool)Controller;
+- (_Bool)UnloadedViewController;
 - (id).Ü¼±\;
 - (struct CGSize);
 - (id)}<ÿ;

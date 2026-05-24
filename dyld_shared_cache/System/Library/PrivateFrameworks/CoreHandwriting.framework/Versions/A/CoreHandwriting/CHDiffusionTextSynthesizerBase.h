@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CHDiffusionTextSynthesizerBase
 {
     struct optional<CHCachedStylePrediction> _cachedStylePrediction;
@@ -20,21 +18,15 @@
 - (id);
 - (id);
 - (id);
-- (shared_ptr_4bf3f4cc);
-- (shared_ptr_2ddbf9ba);
+- (shared_ptr_4bf3f4cc)MŀRM;
+- (shared_ptr_2ddbf9ba)v!;
 - (id);
 - (shared_ptr_c5865da5);
 - (_Bool);
 - (void)àI;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

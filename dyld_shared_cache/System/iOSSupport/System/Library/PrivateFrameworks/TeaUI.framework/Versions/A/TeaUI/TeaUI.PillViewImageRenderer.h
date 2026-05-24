@@ -7,7 +7,6 @@
 @interface TeaUI.PillViewImageRenderer
 {
     id imageCache;
-    id imageRequestFactory;
 }
 
 @end

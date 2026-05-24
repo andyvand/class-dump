@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol CBPairingAgentDelegate, CBPairingAgentParentDelegate;
+@protocol CBPairingAgentParentDelegate;
 
 @interface CBPairingAgent
 {
     _Bool _useOOBMode;
-    id <CBPairingAgentDelegate> _delegate;
-    id <CBPairingAgentParentDelegate> _parentManager;
 }
 
+- (void)localizedName;
+- (void);
+- (void);
+- (void)]@9?;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)s;
 - (void);
 - (void);
 - (id);
@@ -29,24 +27,22 @@
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)_setDisconnectionOptions:(id)arg1;
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)Finished initializing DiscretionaryIntervalManager;
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <CBPairingAgentDelegate> delegate; // @synthesize delegate=_delegate;
 @property(nonatomic) __weak id <CBPairingAgentParentDelegate> parentManager; // @synthesize parentManager=_parentManager;
-@property(nonatomic) _Bool useOOBMode; // @synthesize useOOBMode=_useOOBMode;
 
 @end
 

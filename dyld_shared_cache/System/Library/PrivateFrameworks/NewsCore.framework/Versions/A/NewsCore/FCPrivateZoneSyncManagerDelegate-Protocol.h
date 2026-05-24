@@ -5,5 +5,6 @@
 //
 
 @protocol FCPrivateZoneSyncManagerDelegate
+- (void);
 @end
 

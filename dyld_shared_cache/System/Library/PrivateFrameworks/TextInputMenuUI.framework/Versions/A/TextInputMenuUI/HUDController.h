@@ -4,32 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class InputView, NSArray, NSArrayController, NSCollectionView, NSCollectionViewItem, NSMutableArray, NSPanel, NSScrollView, NSVisualEffectView;
-@protocol HUDDataSource;
+@class NSArray;
 
 @interface HUDController
 {
     NSArray *inputs;
-    long long inputsCount;
-    NSCollectionView *ibCollectionView;
-    NSCollectionViewItem *ibCollectionViewItem;
-    NSPanel *inputsWindow;
-    InputView *templateView;
-    InputView *largeTemplateView;
-    InputView *mediumTemplateView;
-    InputView *smallMediumTemplateView;
-    InputView *smallTemplateView;
-    InputView *extraSmallTemplateView;
-    InputView *tinyTemplateView;
-    NSScrollView *containingScrollView;
-    NSVisualEffectView *visualEffectView;
-    id <HUDDataSource> dataSource;
-    NSArrayController *inputsController;
-    NSArray *sortedInputs;
-    NSMutableArray *recentInputs;
-    double cachedFrameHeight;
-    double cachedPointSize;
-    double cachedTextFieldFrameHeight;
 }
 
 - (id);
@@ -44,7 +23,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (long long);
+- (long long);
 - (id);
 - (void);
 - (void);
@@ -55,7 +34,7 @@
 - (void);
 - (double);
 - (double);
-- (id);
+- (id)B>;
 - (id);
 - (double);
 - (void);
@@ -64,7 +43,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (id);
 - (void);
 - (id);
@@ -72,14 +51,7 @@
 - (void);
 
 // Remaining properties
-@property double cachedFrameHeight; // @synthesize cachedFrameHeight;
-@property double cachedPointSize; // @synthesize cachedPointSize;
-@property double cachedTextFieldFrameHeight; // @synthesize cachedTextFieldFrameHeight;
-@property(readonly) NSCollectionView *ibCollectionView; // @synthesize ibCollectionView;
 @property(retain) NSArray *inputs;
-@property long long inputsCount; // @synthesize inputsCount;
-@property(readonly) NSPanel *inputsWindow; // @synthesize inputsWindow;
-@property(retain) NSArray *sortedInputs; // @synthesize sortedInputs;
 
 @end
 

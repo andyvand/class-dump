@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface NEIKEv2CustomData
 {
     unsigned long long _customType;
-    NSData *_customData;
 }
 
 - (void);
 - (unsigned long long);
-- (void);
+- (void)|	;
 - (id);
-- (id);
-- (id);
-- (void)etPreferInitiatorProposalOrder: /* Error: Ran out of types for this method. */;
+- (id)peerPayment;
+- (id)h;
+- (void)setPreferInitiatorProposalOrder: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSData *customData; // @synthesize customData=_customData;
 @property unsigned long long customType; // @synthesize customType=_customType;
 
 @end

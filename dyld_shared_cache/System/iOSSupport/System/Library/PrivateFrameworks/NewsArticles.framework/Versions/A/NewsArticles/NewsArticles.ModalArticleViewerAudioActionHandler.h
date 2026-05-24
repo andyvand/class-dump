@@ -7,7 +7,6 @@
 @interface NewsArticles.ModalArticleViewerAudioActionHandler
 {
     id audioActionHandler;
-    id router;
 }
 
 @end

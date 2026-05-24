@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFPersonDatabaseID, NSDate, NSString;
+@class NSString;
 
 @protocol MKFPerson
 - (void)ng for tvos update mode on non-atv device;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFPersonDatabaseID *databaseID;
 @property(copy, nonatomic) NSString *name;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 @end
 

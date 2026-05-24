@@ -4,40 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAFilter, EKExpandedReminderDayCircleView, UILabel;
+@class EKExpandedReminderDayCircleView;
 
 @interface EKExpandedReminderDateView
 {
     EKExpandedReminderDayCircleView *_dateNumberView;
-    UILabel *_dateLabel;
-    UILabel *_weekdayLabel;
-    UILabel *_monthYearLabel;
-    CAFilter *_blurFilter;
 }
 
 + (id);
+- (void)Y%s;
+- (void).%s;
 - (void);
 - (void);
+- (id)&s;
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)Ŵ#{;
+- (_Bool)didReceiveNotificationForStream:(id)arg1 notificationName: /* Error: Ran out of types for this method. */;
+- (id)_siri_UUIDWithDomainObjectIdentifier:(struct CGRect)arg1;
 - (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)setSource: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) CAFilter *blurFilter; // @synthesize blurFilter=_blurFilter;
-@property(retain, nonatomic) UILabel *dateLabel; // @synthesize dateLabel=_dateLabel;
 @property(retain, nonatomic) EKExpandedReminderDayCircleView *dateNumberView; // @synthesize dateNumberView=_dateNumberView;
-@property(retain, nonatomic) UILabel *monthYearLabel; // @synthesize monthYearLabel=_monthYearLabel;
-@property(retain, nonatomic) UILabel *weekdayLabel; // @synthesize weekdayLabel=_weekdayLabel;
 
 @end
 

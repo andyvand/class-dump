@@ -6,15 +6,11 @@
 
 #import <Vision/VNObservation.h>
 
-@class NSArray, NSUUID;
+@class NSArray;
 
 @interface VNTrajectoryObservation : VNObservation
 {
     NSArray *_detectedPoints;
-    NSArray *_projectedPoints;
-    double _movingAverageRadius;
-    NSUUID *_requestUUID;
-    id _equationCoefficients;
 }
 
 + (_Bool);
@@ -25,7 +21,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)isAnyDocumentRecentlyUsed:(id)arg1 excludedFileTypes:allowedFileProviderIdentifiers: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -33,9 +29,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *detectedPoints; // @synthesize detectedPoints=_detectedPoints;
-@property(readonly, nonatomic) id equationCoefficients; // @synthesize equationCoefficients=_equationCoefficients;
-@property(readonly, nonatomic) double movingAverageRadius; // @synthesize movingAverageRadius=_movingAverageRadius;
-@property(readonly, copy, nonatomic) NSArray *projectedPoints; // @synthesize projectedPoints=_projectedPoints;
 
 @end
 

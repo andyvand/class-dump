@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface AVAssetPlannerIncrementalState
 {
     NSString *_sessionName;
-    NSArray *_trackStates;
 }
 
 + (id);
@@ -22,12 +21,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)hh;
 
 // Remaining properties
 @property(copy) NSString *sessionName; // @synthesize sessionName=_sessionName;
-@property(copy) NSArray *trackStates; // @synthesize trackStates=_trackStates;
 
 @end
 

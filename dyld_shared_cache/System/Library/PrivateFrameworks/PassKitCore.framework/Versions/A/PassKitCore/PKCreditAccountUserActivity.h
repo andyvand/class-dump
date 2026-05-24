@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDecimalNumber, NSString;
+@class NSString;
 
 @interface PKCreditAccountUserActivity
 {
     NSString *_accountUserAltDSID;
-    NSDecimalNumber *_purchases;
-    NSDecimalNumber *_adjustedPurchases;
-    NSDecimalNumber *_pendingPurchases;
-    NSDecimalNumber *_rewardsBalance;
-    NSDecimalNumber *_rewardsEarned;
-    NSDecimalNumber *_rewardsRedeemed;
 }
 
 + (_Bool)î%Ð1Â0@ù
@@ -23,7 +17,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)!
+A;
 - (void);
 - (void);
 - (void);
@@ -34,26 +29,19 @@
 - (id);
 - (id);
 - (id);
+- (id)(@9;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id).;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)hasRecordsChanged;
 - (void);
 - (id);
-- (id)nsactionsWithTransactions:(id)arg1 synchronous:currentMonthOnly:sendTransactionsBlock: /* Error: Ran out of types for this method. */;
-- (void)EFTPOS_CARD_NAME;
+- (id)_processPaymentPassTransactionsWithTransactions:(id)arg1 synchronous:currentMonthOnly:sendTransactionsBlock: /* Error: Ran out of types for this method. */;
+- (void)NETWORK_NAME_EFTPOS_CARD_NAME;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountUserAltDSID; // @synthesize accountUserAltDSID=_accountUserAltDSID;
-@property(retain, nonatomic) NSDecimalNumber *adjustedPurchases; // @synthesize adjustedPurchases=_adjustedPurchases;
-@property(retain, nonatomic) NSDecimalNumber *pendingPurchases; // @synthesize pendingPurchases=_pendingPurchases;
-@property(retain, nonatomic) NSDecimalNumber *purchases; // @synthesize purchases=_purchases;
-@property(retain, nonatomic) NSDecimalNumber *rewardsBalance; // @synthesize rewardsBalance=_rewardsBalance;
-@property(retain, nonatomic) NSDecimalNumber *rewardsEarned; // @synthesize rewardsEarned=_rewardsEarned;
-@property(retain, nonatomic) NSDecimalNumber *rewardsRedeemed; // @synthesize rewardsRedeemed=_rewardsRedeemed;
-@property(readonly, nonatomic) NSDecimalNumber *totalSpending;
 
 @end
 

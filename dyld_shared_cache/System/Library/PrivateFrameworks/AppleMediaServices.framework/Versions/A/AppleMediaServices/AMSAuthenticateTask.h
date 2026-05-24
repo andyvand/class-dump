@@ -6,29 +6,11 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class ACAccountStore, AMSAuthenticateOptions, AMSMutablePromise, NSDictionary, NSMutableArray, NSNumber, NSString, NSUUID;
-@protocol AMSAuthenticateMetricsProtocol, AMSAuthenticateTaskDelegate, AMSBagProtocol;
+@class NSDictionary;
 
 @interface AMSAuthenticateTask : AMSTask
 {
     _Bool _isLocalAccountProvided;
-    _Bool _isServerRequested;
-    ACAccountStore *_accountStore;
-    id <AMSBagProtocol> _bag;
-    id <AMSAuthenticateTaskDelegate> _delegate;
-    AMSAuthenticateOptions *_options;
-    NSString *_password;
-    NSString *_multiUserToken;
-    NSString *_rawPassword;
-    NSString *_altDSID;
-    NSNumber *_DSID;
-    NSUUID *_homeIdentifier;
-    NSUUID *_homeUserIdentifier;
-    NSString *_username;
-    NSDictionary *_initialAuthenticationResults;
-    AMSMutablePromise *_resultPromise;
-    NSMutableArray *_errors;
-    id <AMSAuthenticateMetricsProtocol> _metrics;
 }
 
 + (id);
@@ -48,7 +30,7 @@ QÏgÌrHêâÌq¿a% 6=fØ4Ïý+Ë¯à	l@¢HNØA¿øi{ñ¬ËºéQ>2®º
 + (id)UÁÿ;
 + (id)Mbäð;
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -67,7 +49,7 @@ QÏgÌrHêâÌq¿a% 6=fØ4Ïý+Ë¯à	l@¢HNØA¿øi{ñ¬ËºéQ>2®º
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -79,7 +61,7 @@ QÏgÌrHêâÌq¿a% 6=fØ4Ïý+Ë¯à	l@¢HNØA¿øi{ñ¬ËºéQ>2®º
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -100,13 +82,13 @@ QÏgÌrHêâÌq¿a% 6=fØ4Ïý+Ë¯à	l@¢HNØA¿øi{ñ¬ËºéQ>2®º
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)isInfoDomainsRFEnabled;
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id)igureRequestHandler;
+- (id)_reconfigureRequestHandler;
 - (void);
 - (id)rties in the map table:%{public}@ /* Error: Ran out of types for this method. */;
 - (id)public}@] Someone attempted to set an account property to its existing value. key = %{public}@;
@@ -126,31 +108,7 @@ $C²Í&C²£8C²:C²$C²3&C²8C²v:C²$C²{&C²®8C²Â:C²lÄL²`ÆL²ÄØ
 - (id);
 
 // Remaining properties
-@property(retain) NSNumber *DSID; // @synthesize DSID=_DSID;
-@property(retain) ACAccountStore *accountStore; // @synthesize accountStore=_accountStore;
-@property(copy) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(retain) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <AMSAuthenticateTaskDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain) NSMutableArray *errors; // @synthesize errors=_errors;
-@property(readonly) unsigned long long hash;
-@property(retain) NSUUID *homeIdentifier; // @synthesize homeIdentifier=_homeIdentifier;
-@property(retain) NSUUID *homeUserIdentifier; // @synthesize homeUserIdentifier=_homeUserIdentifier;
 @property(readonly) NSDictionary *initialAuthenticationResults; // @synthesize initialAuthenticationResults=_initialAuthenticationResults;
-@property _Bool isLocalAccountProvided; // @synthesize isLocalAccountProvided=_isLocalAccountProvided;
-@property _Bool isServerRequested; // @synthesize isServerRequested=_isServerRequested;
-@property(retain) id <AMSAuthenticateMetricsProtocol> metrics; // @synthesize metrics=_metrics;
-@property(copy) NSString *multiUserToken; // @synthesize multiUserToken=_multiUserToken;
-@property(readonly) AMSAuthenticateOptions *options; // @synthesize options=_options;
-@property(copy) NSString *password; // @synthesize password=_password;
-@property(copy) NSString *rawPassword; // @synthesize rawPassword=_rawPassword;
-@property(retain) AMSMutablePromise *resultPromise; // @synthesize resultPromise=_resultPromise;
-@property(readonly) Class superclass;
-@property(copy) NSString *username; // @synthesize username=_username;
 
 @end
 

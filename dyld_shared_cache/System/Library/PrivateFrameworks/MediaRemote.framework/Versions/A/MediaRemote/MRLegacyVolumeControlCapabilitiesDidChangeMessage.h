@@ -12,7 +12,7 @@
 
 - (id);
 - (unsigned long long);
-- (unsigned int);
+- (unsigned int)ge between turnID:%@ and RequestID:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int capabilities;

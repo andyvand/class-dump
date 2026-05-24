@@ -7,9 +7,6 @@
 @interface Sharing.SFAirDropClient
 {
     id $defaultActor;
-    id connection;
-    id clientIdentifier;
-    id queue;
 }
 
 - (id);

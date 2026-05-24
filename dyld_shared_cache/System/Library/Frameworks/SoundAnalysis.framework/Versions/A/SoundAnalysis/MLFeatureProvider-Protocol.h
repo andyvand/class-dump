@@ -7,6 +7,7 @@
 @class MLFeatureValue, NSSet;
 
 @protocol MLFeatureProvider
+- (NSSet *);
 - (MLFeatureValue *);
 
 // Remaining properties

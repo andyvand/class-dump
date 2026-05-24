@@ -7,9 +7,6 @@
 @interface SwiftUI.PPTTestBridge
 {
     id host;
-    id shouldUpdateEnvironment;
-    id initialViewSizeCacheStats;
-    id testCase;
 }
 
 @end

@@ -4,30 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSString;
+@class NSString;
 
 @interface FARecommendedFamilyMember
 {
     NSString *_handle;
-    NSString *_displayName;
-    CNContact *_contact;
-    NSString *_iMessageHandle;
 }
 
 + (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)RemoveOutputDevicesFromGroupResponse;
+- (id)Destructive;
+- (id)timezoneId;
+- (id)personaAccessLevel;
+- (id)FaceTimeRestricted;
+- (id)group;
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)[8;
 - (id);
 - (id);
 - (id);
@@ -35,10 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) CNContact *contact; // @synthesize contact=_contact;
-@property(copy) NSString *displayName; // @synthesize displayName=_displayName;
 @property(copy) NSString *handle; // @synthesize handle=_handle;
-@property(copy) NSString *iMessageHandle; // @synthesize iMessageHandle=_iMessageHandle;
 
 @end
 

@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface ML3ClientImportResult
 {
     _Bool _success;
-    NSDictionary *_resultingDatabasePersistentIDs;
 }
 
 + (_Bool);
-- (id);
-- (id);
+- (id)erOfResultsForNextTokenGeneration;
+- (id)chSuggestion",R,N,V_suggestion;
 - (id);
 - (void);
 - (_Bool);
 - (void)ative_item_pid IN (SELECT entity_pid FROM artwork_token WHERE entity_type = %d);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *resultingDatabasePersistentIDs; // @synthesize resultingDatabasePersistentIDs=_resultingDatabasePersistentIDs;
 @property(readonly, nonatomic) _Bool success; // @synthesize success=_success;
 
 @end

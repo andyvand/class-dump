@@ -9,7 +9,6 @@
 @interface SCRCMathRowFormatter
 {
     _Bool _isNumberOverride;
-    NSMutableArray *_childrenStack;
 }
 
 - (void);
@@ -18,13 +17,13 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)0cdm;
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void){;
+- (void){;
 - (void);
 - (id);
 - (void);
@@ -32,7 +31,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *childrenStack; // @synthesize childrenStack=_childrenStack;
-@property(nonatomic) _Bool isNumberOverride; // @synthesize isNumberOverride=_isNumberOverride;
 
 @end
 

@@ -6,31 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ORCHSchemaORCHNLClassicDeprecationFlags, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ORCHSchemaORCHRequestStarted : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_orchestratorSessionId;
-    int _requestType;
-    _Bool _siriUODEnabled;
-    int _siriUODMode;
-    int _siriAsrMode;
-    int _siriNlMode;
-    ORCHSchemaORCHNLClassicDeprecationFlags *_nlv3DeprecationFlags;
-    _Bool _isAssistantEngineRequest;
-    struct {
-        unsigned int requestType:1;
-        unsigned int siriUODEnabled:1;
-        unsigned int siriUODMode:1;
-        unsigned int siriAsrMode:1;
-        unsigned int siriNlMode:1;
-        unsigned int isAssistantEngineRequest:1;
-    } _has;
-    _Bool _hasOrchestratorSessionId;
-    _Bool _hasNlv3DeprecationFlags;
 }
 
-- (int);
+- (int)_;
 - (_Bool);
 - (int);
 - (int);
@@ -68,14 +51,14 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
-- (id)pe;
+- (id)_dialogType;
 - (id),V_responsePreparationTime;
 - (void);
 - (void)tEvaluated.payload.outcome.parameterCandidatesNotFounds.value.value.primitive.app.bundleId;
@@ -83,23 +66,7 @@
 - (int)Ç;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsAssistantEngineRequest;
-@property(nonatomic) _Bool hasNlv3DeprecationFlags; // @synthesize hasNlv3DeprecationFlags=_hasNlv3DeprecationFlags;
-@property(nonatomic) _Bool hasOrchestratorSessionId; // @synthesize hasOrchestratorSessionId=_hasOrchestratorSessionId;
-@property(nonatomic) _Bool hasRequestType;
-@property(nonatomic) _Bool hasSiriAsrMode;
-@property(nonatomic) _Bool hasSiriNlMode;
-@property(nonatomic) _Bool hasSiriUODEnabled;
-@property(nonatomic) _Bool hasSiriUODMode;
-@property(nonatomic) _Bool isAssistantEngineRequest; // @synthesize isAssistantEngineRequest=_isAssistantEngineRequest;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) ORCHSchemaORCHNLClassicDeprecationFlags *nlv3DeprecationFlags; // @synthesize nlv3DeprecationFlags=_nlv3DeprecationFlags;
 @property(retain, nonatomic) SISchemaUUID *orchestratorSessionId; // @synthesize orchestratorSessionId=_orchestratorSessionId;
-@property(nonatomic) int requestType; // @synthesize requestType=_requestType;
-@property(nonatomic) int siriAsrMode; // @synthesize siriAsrMode=_siriAsrMode;
-@property(nonatomic) int siriNlMode; // @synthesize siriNlMode=_siriNlMode;
-@property(nonatomic) _Bool siriUODEnabled; // @synthesize siriUODEnabled=_siriUODEnabled;
-@property(nonatomic) int siriUODMode; // @synthesize siriUODMode=_siriUODMode;
 
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol XPCServiceListenerDelegate
+
+@optional
+- (_Bool);
 @end
 

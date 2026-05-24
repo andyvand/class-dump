@@ -6,20 +6,18 @@
 
 #import <iTunesCloud/ICRemoteRequestOperation.h>
 
-@class ICClientInfo, NSString;
+@class ICClientInfo;
 
 @interface ICMusicUserTokenFetchRequest : ICRemoteRequestOperation
 {
     ICClientInfo *_clientInfo;
-    NSString *_developerToken;
-    unsigned long long _options;
 }
 
 + (_Bool);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)0;
 - (void);
 - (void);
 - (void);

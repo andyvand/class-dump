@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
+@class NSArray, NSString;
 
 @protocol SFTextColumnsCardSection
-- (NSArray *)entifier;
+- (void);
+- (NSArray *)_localMediaIdentifier;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *columns;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *title;
-@property(nonatomic) unsigned long long titleWeight;
 @property(copy, nonatomic) NSString *type;
 @end
 

@@ -7,8 +7,6 @@
 @interface PodcastsFoundation.AlignmentStorage
 {
     id $defaultActor;
-    id alignments;
-    id audioSegmentTracker;
 }
 
 @end

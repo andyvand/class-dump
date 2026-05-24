@@ -5,5 +5,6 @@
 //
 
 @protocol IMServiceReachabilityResponseHandler
+- (void);
 @end
 

@@ -4,23 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface BWAFResonanceCalibrationAnalyticsPayload
 {
     long long _magneticFieldMagnitude;
-    NSString *_portType;
-    unsigned int _calibrationStatus;
-    int _afAxisResonantFreq;
-    int _deltaAFAxisResonantFreq;
-    int _afAxisDampingCoefficient;
-    int _deltaAFAxisDampingCoefficient;
-    int _afLoopGain;
-    int _afGelModelD1Coefficient;
-    int _afGelModelD2Coefficient;
-    int _afGelModelP1Coefficient;
-    int _afGelModelP2Coefficient;
 }
 
 - (void);
@@ -39,40 +26,22 @@ __attribute__((visibility("hidden")))
 - (int);
 - (unsigned int);
 - (int);
+- (int)iz;
 - (int);
-- (int);
-- (int);
+- (int)0;
 - (int);
 - (int);
 - (int);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)>;
 - (id);
 - (id);
 - (id)çÿbí;
 
 // Remaining properties
-@property(nonatomic) int afAxisDampingCoefficient; // @synthesize afAxisDampingCoefficient=_afAxisDampingCoefficient;
-@property(nonatomic) int afAxisResonantFreq; // @synthesize afAxisResonantFreq=_afAxisResonantFreq;
-@property(nonatomic) int afGelModelD1Coefficient; // @synthesize afGelModelD1Coefficient=_afGelModelD1Coefficient;
-@property(nonatomic) int afGelModelD2Coefficient; // @synthesize afGelModelD2Coefficient=_afGelModelD2Coefficient;
-@property(nonatomic) int afGelModelP1Coefficient; // @synthesize afGelModelP1Coefficient=_afGelModelP1Coefficient;
-@property(nonatomic) int afGelModelP2Coefficient; // @synthesize afGelModelP2Coefficient=_afGelModelP2Coefficient;
-@property(nonatomic) int afLoopGain; // @synthesize afLoopGain=_afLoopGain;
-@property(nonatomic) unsigned int calibrationStatus; // @synthesize calibrationStatus=_calibrationStatus;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) int deltaAFAxisDampingCoefficient; // @synthesize deltaAFAxisDampingCoefficient=_deltaAFAxisDampingCoefficient;
-@property(nonatomic) int deltaAFAxisResonantFreq; // @synthesize deltaAFAxisResonantFreq=_deltaAFAxisResonantFreq;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) long long magneticFieldMagnitude; // @synthesize magneticFieldMagnitude=_magneticFieldMagnitude;
-@property(retain, nonatomic) NSString *portType; // @synthesize portType=_portType;
-@property(readonly) Class superclass;
 
 @end
 

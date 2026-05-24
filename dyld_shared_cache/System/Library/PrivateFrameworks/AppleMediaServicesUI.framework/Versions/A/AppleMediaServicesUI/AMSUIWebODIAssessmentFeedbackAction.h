@@ -6,34 +6,24 @@
 
 #import <AppleMediaServicesUI/AMSUIWebAction.h>
 
-@class AMSUIWebClientContext, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebODIAssessmentFeedbackAction : AMSUIWebAction
 {
     NSString *_cacheIdentifier;
-    unsigned long long _outcome;
 }
 
-- (id);
+- (id)ce is using sync remote server:(%{public}@) /* Error: Ran out of types for this method. */;
+- (id)NO;
+- (void)_PSCachedFaceTimeableHandle;
 - (id);
 - (void);
-- (id);
-- (void);
-- (unsigned long long);
+- (unsigned long long)UnitTestingAdditions;
 - (void)<v@?@@"NSString">32;
 
 // Remaining properties
 @property(retain) NSString *cacheIdentifier; // @synthesize cacheIdentifier=_cacheIdentifier;
-@property(readonly) AMSUIWebClientContext *context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property unsigned long long outcome; // @synthesize outcome=_outcome;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber, NSValue;
+@class CIImage;
 
 @interface DGChromaticAberrationFilter
 {
     CIImage *inputImage;
-    NSNumber *inputRedCyan;
-    NSNumber *inputBlueYellow;
-    NSValue *inputExtent;
 }
 
 + (id);

@@ -10,14 +10,11 @@
 @interface MSVMessageParser
 {
     id <MSVMessageParserDelegate> _delegate;
-    NSMutableData *_unhandledPartialObjectData;
-    long long _unhandledObjectDataExpectedLength;
-    NSMutableData *_unhandledPartialData;
 }
 
 + (id);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (void);
 - (void);
@@ -29,9 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <MSVMessageParserDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) long long unhandledObjectDataExpectedLength; // @synthesize unhandledObjectDataExpectedLength=_unhandledObjectDataExpectedLength;
-@property(retain, nonatomic) NSMutableData *unhandledPartialData; // @synthesize unhandledPartialData=_unhandledPartialData;
 @property(retain, nonatomic) NSMutableData *unhandledPartialObjectData; // @synthesize unhandledPartialObjectData=_unhandledPartialObjectData;
 
 @end

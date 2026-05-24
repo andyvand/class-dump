@@ -11,21 +11,19 @@
 @interface TKSmartCardUserInteractionForStringEntry : TKSmartCardUserInteraction
 {
     NSString *_result;
-    TKSmartCardSlot *_slot;
 }
 
-+ (_Bool);
++ (_Bool)getSpokenNotificationsEnabledWithDictionary:context: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)ication_Private.LARecoveryKeyIdentifier;
 - (id)ÿÿ;
 
 // Remaining properties
-@property(retain) NSString *result; // @synthesize result=_result;
 @property __weak TKSmartCardSlot *slot; // @synthesize slot=_slot;
 
 @end

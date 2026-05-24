@@ -9,8 +9,6 @@
 @interface EARAudioResult
 {
     NSData *_audioResultMat;
-    unsigned long long _audioResultsNumVectors;
-    unsigned long long _audioResultsVectorSize;
 }
 
 - (void);
@@ -24,8 +22,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSData *audioResultMat; // @synthesize audioResultMat=_audioResultMat;
-@property(nonatomic) unsigned long long audioResultsNumVectors; // @synthesize audioResultsNumVectors=_audioResultsNumVectors;
-@property(nonatomic) unsigned long long audioResultsVectorSize; // @synthesize audioResultsVectorSize=_audioResultsVectorSize;
 
 @end
 

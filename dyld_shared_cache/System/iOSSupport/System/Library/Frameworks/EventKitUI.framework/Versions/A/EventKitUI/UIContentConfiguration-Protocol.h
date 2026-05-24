@@ -8,7 +8,7 @@
 @protocol UIConfigurationState, UIContentView;
 
 @protocol UIContentConfiguration
-- (id)PresentationOptionsAsString:(id <UIConfigurationState>)arg1;
-- (UIView<UIContentView> *)emBlueColor;
+- (id)atomPresentationOptionsAsString:(id <UIConfigurationState>)arg1;
+- (UIView<UIContentView> *)systemBlueColor;
 @end
 

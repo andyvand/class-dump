@@ -11,12 +11,10 @@
 @interface CKDArchiveRecordsURLRequest : CKDURLRequest
 {
     CDUnknownBlockType _recordArchivedBlock;
-    NSMutableDictionary *_zoneIDToRecordIDs;
-    NSMutableDictionary *_recordZoneIDByRequestID;
 }
 
 - (id);
-- (void);
+- (void)`;
 - (id);
 - (void);
 - (CDUnknownBlockType);
@@ -33,8 +31,6 @@
 - (void)Ä¥ÿKè;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType recordArchivedBlock; // @synthesize recordArchivedBlock=_recordArchivedBlock;
-@property(retain, nonatomic) NSMutableDictionary *recordZoneIDByRequestID; // @synthesize recordZoneIDByRequestID=_recordZoneIDByRequestID;
 @property(retain, nonatomic) NSMutableDictionary *zoneIDToRecordIDs; // @synthesize zoneIDToRecordIDs=_zoneIDToRecordIDs;
 
 @end

@@ -5,5 +5,6 @@
 //
 
 @protocol NSSavePanelCustomActionDelegate
+- (void)manifest or object property length does not match;
 @end
 

@@ -7,12 +7,6 @@
 @interface DAAction
 {
     int _changeId;
-    unsigned long long _itemChangeType;
-    id _serverId;
-    id _instanceId;
-    id _changedItem;
-    id _forwardedAttendees;
-    id _forwardedAttendeeUUIDs;
 }
 
 + (_Bool);
@@ -30,8 +24,8 @@
 - (int);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)t of updated symptom state:(id)arg1 %@;
+- (id)perational dataset, error:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned long long);
@@ -42,13 +36,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) int changeId; // @synthesize changeId=_changeId;
-@property(retain, nonatomic, setter=_setChangedItem:) id changedItem; // @synthesize changedItem=_changedItem;
-@property(retain, nonatomic) id forwardedAttendeeUUIDs; // @synthesize forwardedAttendeeUUIDs=_forwardedAttendeeUUIDs;
-@property(retain, nonatomic) id forwardedAttendees; // @synthesize forwardedAttendees=_forwardedAttendees;
-@property(retain, nonatomic) id instanceId; // @synthesize instanceId=_instanceId;
 @property(nonatomic) unsigned long long itemChangeType; // @synthesize itemChangeType=_itemChangeType;
-@property(retain, nonatomic) id serverId; // @synthesize serverId=_serverId;
 
 @end
 

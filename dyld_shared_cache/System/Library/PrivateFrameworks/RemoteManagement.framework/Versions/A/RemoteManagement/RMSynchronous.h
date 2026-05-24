@@ -11,10 +11,10 @@
     NSConditionLock *_lock;
 }
 
-- (_Bool);
+- (_Bool)q;
 - (id);
 - (void);
-- (void);
+- (void)`B;
 - (void);
 
 @end

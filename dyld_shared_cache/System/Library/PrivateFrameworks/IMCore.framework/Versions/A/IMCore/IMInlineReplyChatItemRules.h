@@ -11,39 +11,28 @@
 @interface IMInlineReplyChatItemRules : IMTranscriptChatItemRules
 {
     NSString *_threadIdentifier;
-    NSString *_threadOriginatorMessageGUID;
-    struct _NSRange _threadOriginatorRange;
 }
 
-- (struct _NSRange);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (_Bool);
+- (struct _NSRange)peSettingsDict=%@;
+- (id)gs for mediaType=%@;
+- (void)%s] %s:(struct _NSRange)arg1 %d VCVideoRules:Failed to create supported payload array /* Error: Ran out of types for this method. */;
+- (id)to force ACC24 bitrate to unsupported value=%d. Using default=%d instead.;
+- (_Bool)ge:encryption failed. Dropping the message... /* Error: Ran out of types for this method. */;
+- (_Bool)opriate mode %d for VCRedundancyController;
+- (_Bool)ation completionHandler error=%@;
+- (_Bool)=%@, _contentFilter=%@;
+- (_Bool)VCAudioPowerSpectrumMeter-unregisterPowerSpectrumForCellularTapType;
+- (_Bool)ror=%@;
+- (id)tchedUpdateQRProbingResult failed:(id)arg1 QR probing result is empty;
+- (id)incorrect (%d >= %lu);
+- (void)odeEnabled=%d;
+- (_Bool):%d %@(%p) Negotiated 1:1 screen rules:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void)cÄeLf;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *threadIdentifier; // @synthesize threadIdentifier=_threadIdentifier;
-@property(copy, nonatomic) NSString *threadOriginatorMessageGUID; // @synthesize threadOriginatorMessageGUID=_threadOriginatorMessageGUID;
-@property(nonatomic) struct _NSRange threadOriginatorRange; // @synthesize threadOriginatorRange=_threadOriginatorRange;
 
 @end
 

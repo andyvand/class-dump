@@ -9,7 +9,6 @@
 @interface NUImageTransformAffine : NUImageTransform
 {
     struct CGAffineTransform _transformInv;
-    struct CGAffineTransform _transform;
 }
 
 - (CDStruct_95fa7c00);
@@ -23,7 +22,7 @@
 - (id);
 - (struct CGPoint);
 - (id);
-- (struct CGAffineTransform);
+- (struct CGAffineTransform)a;
 - (id);
 - (unsigned long long);
 - (_Bool);

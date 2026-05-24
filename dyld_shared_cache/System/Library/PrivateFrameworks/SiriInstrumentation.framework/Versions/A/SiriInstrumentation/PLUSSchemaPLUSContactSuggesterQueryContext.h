@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PLUSSchemaPLUSContactSuggesterQueryFailed, PLUSSchemaPLUSContactSuggesterQueryResponseReceived, PLUSSchemaPLUSContactSuggesterQueryStarted;
+@class PLUSSchemaPLUSContactSuggesterQueryStarted;
 
 @interface PLUSSchemaPLUSContactSuggesterQueryContext : SISchemaInstrumentationMessage
 {
     PLUSSchemaPLUSContactSuggesterQueryStarted *_startedOrChanged;
-    PLUSSchemaPLUSContactSuggesterQueryResponseReceived *_ended;
-    PLUSSchemaPLUSContactSuggesterQueryFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -30,7 +24,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -40,23 +34,16 @@
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)es (%@) provided to %s;
 - (id);
 - (id)!°GùÝ1Â0@ù
 × ;
-- (id)nsor;
+- (id)_hasSensor;
 - (id)ed;
 - (void)searchContext;
 
 // Remaining properties
-@property(retain, nonatomic) PLUSSchemaPLUSContactSuggesterQueryResponseReceived *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) PLUSSchemaPLUSContactSuggesterQueryFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) PLUSSchemaPLUSContactSuggesterQueryStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

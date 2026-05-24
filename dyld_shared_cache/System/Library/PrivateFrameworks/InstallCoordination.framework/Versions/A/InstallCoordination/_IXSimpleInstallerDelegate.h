@@ -4,42 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IXAppInstallCoordinator, NSString, NSURL;
-@protocol IXInitiatingOrUpdatingCoordinator;
-
 __attribute__((visibility("hidden")))
 @interface _IXSimpleInstallerDelegate
 {
     CDUnknownBlockType _completion;
-    NSString *_bundleID;
-    IXAppInstallCoordinator<IXInitiatingOrUpdatingCoordinator> *_coordinator;
-    NSURL *_moveResultToURL;
 }
 
-- (void);
-- (void);
+- (void)NH;
+- (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (id);
+- (id)UserPreferenceForTransportType;
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
 @property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(retain, nonatomic) IXAppInstallCoordinator<IXInitiatingOrUpdatingCoordinator> *coordinator; // @synthesize coordinator=_coordinator;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSURL *moveResultToURL; // @synthesize moveResultToURL=_moveResultToURL;
-@property(readonly) Class superclass;
 
 @end
 

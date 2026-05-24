@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface JWTValidator
 {
     NSString *_rawHeader;
-    NSString *_rawPayload;
-    NSString *_rawSignature;
-    NSData *_decodedHeader;
-    NSData *_decodedPayload;
-    NSData *_decodedSignature;
-    id _headerJSONObject;
-    id _payloadJSONObject;
 }
 
 + (id);
@@ -29,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)R;
 - (id);
 - (id);
 - (id);
@@ -40,19 +33,12 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *decodedHeader; // @synthesize decodedHeader=_decodedHeader;
-@property(retain, nonatomic) NSData *decodedPayload; // @synthesize decodedPayload=_decodedPayload;
-@property(retain, nonatomic) NSData *decodedSignature; // @synthesize decodedSignature=_decodedSignature;
-@property(retain, nonatomic) id headerJSONObject; // @synthesize headerJSONObject=_headerJSONObject;
-@property(retain, nonatomic) id payloadJSONObject; // @synthesize payloadJSONObject=_payloadJSONObject;
 @property(retain, nonatomic) NSString *rawHeader; // @synthesize rawHeader=_rawHeader;
-@property(retain, nonatomic) NSString *rawPayload; // @synthesize rawPayload=_rawPayload;
-@property(retain, nonatomic) NSString *rawSignature; // @synthesize rawSignature=_rawSignature;
 
 @end
 

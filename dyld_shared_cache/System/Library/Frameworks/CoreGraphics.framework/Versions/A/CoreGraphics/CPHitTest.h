@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPPage, NSMutableArray;
+@class CPPage;
 
 __attribute__((visibility("hidden")))
 @interface CPHitTest
 {
     CPPage *page;
-    NSMutableArray *objectsOnPage;
-    float mapTemp;
 }
 
+- (id)";
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)h;
 - (id);
 - (id);
 - (_Bool);
@@ -29,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (id);
 - (void);
-- (id);
+- (id)�;
 
 @end
 

@@ -4,43 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBAppIconImage, _SFPBCalendarImage, _SFPBClockImage, _SFPBContactImage, _SFPBDefaultPunchoutAppIconImage, _SFPBGraphicalFloat, _SFPBImage, _SFPBLocalImage, _SFPBMediaArtworkImage, _SFPBMonogramImage, _SFPBPhotosAlbumImage, _SFPBPhotosLibraryImage, _SFPBPhotosMemoryImage, _SFPBPointSize, _SFPBQuickLookThumbnailImage, _SFPBShortcutsImage, _SFPBSymbolImage, _SFPBURLImage;
+@class NSData, NSString, _SFPBGraphicalFloat, _SFPBLocalImage, _SFPBQuickLookThumbnailImage, _SFPBShortcutsImage, _SFPBSymbolImage;
 
 @protocol _SFPBImage
+- (_Bool)%;
+- (_SFPBShortcutsImage *);
+- (void)!%;
+- (void)@;
+- (_SFPBQuickLookThumbnailImage *)B;
+- (_SFPBLocalImage *);
+- (_SFPBSymbolImage *)f;
+- (_SFPBGraphicalFloat *)ez2;
+- (_Bool)>;
+- (void)SString",C,V_documentName;
+- (NSData *)",C,N,V_creationDate;
+- (int)ight == %@;
+- (NSString *)A;
 - (NSString *)data"16@0:8 /* Error: Ran out of types for this method. */;
-- (void)s;
-- (void);
+- (void)_contact_ids;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityLabel;
-@property(retain, nonatomic) _SFPBAppIconImage *appIconImage;
-@property(retain, nonatomic) _SFPBImage *badgingImage;
-@property(retain, nonatomic) _SFPBCalendarImage *calendarImage;
-@property(retain, nonatomic) _SFPBClockImage *clockImage;
-@property(retain, nonatomic) _SFPBContactImage *contactImage;
-@property(copy, nonatomic) NSString *contentType;
-@property(retain, nonatomic) _SFPBGraphicalFloat *cornerRadius;
-@property(nonatomic) int cornerRoundingStyle;
-@property(retain, nonatomic) _SFPBDefaultPunchoutAppIconImage *defaultPunchoutAppIconImage;
-@property(copy, nonatomic) NSString *identifier;
 @property(copy) NSData *imageData;
-@property(nonatomic) _Bool isTemplate;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *keyColor;
-@property(retain, nonatomic) _SFPBLocalImage *localImage;
-@property(retain, nonatomic) _SFPBMediaArtworkImage *mediaArtworkImage;
-@property(retain, nonatomic) _SFPBMonogramImage *monogramImage;
-@property(retain, nonatomic) _SFPBPhotosAlbumImage *photosAlbumImage;
-@property(retain, nonatomic) _SFPBPhotosLibraryImage *photosLibraryImage;
-@property(retain, nonatomic) _SFPBPhotosMemoryImage *photosMemoryImage;
-@property(retain, nonatomic) _SFPBQuickLookThumbnailImage *quickLookThumbnailImage;
-@property(retain, nonatomic) _SFPBGraphicalFloat *scale;
-@property(retain, nonatomic) _SFPBShortcutsImage *shortcutsImage;
-@property(nonatomic) _Bool shouldCropToCircle;
-@property(retain, nonatomic) _SFPBPointSize *size;
-@property(nonatomic) int source;
-@property(retain, nonatomic) _SFPBSymbolImage *symbolImage;
-@property(nonatomic) int type;
-@property(retain, nonatomic) _SFPBURLImage *urlImage;
 @end
 

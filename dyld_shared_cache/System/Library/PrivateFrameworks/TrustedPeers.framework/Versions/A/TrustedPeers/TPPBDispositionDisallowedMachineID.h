@@ -14,8 +14,8 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
+- (void)length %zx for shared secret;
+- (id)%{ptr};
 - (id);
 
 @end

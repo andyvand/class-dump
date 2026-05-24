@@ -12,8 +12,8 @@
 }
 
 + (id);
-+ (id);
-- (float);
++ (id)or:cornerRadius:title:url:shouldGenerateGlyph: /* Error: Ran out of types for this method. */;
+- (float)accessibilityRangeForPosition: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);

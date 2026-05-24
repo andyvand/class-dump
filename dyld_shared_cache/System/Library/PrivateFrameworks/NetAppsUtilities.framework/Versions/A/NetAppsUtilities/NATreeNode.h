@@ -4,30 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSEnumerator, NSMutableSet, NSSet, NSString;
+@class NSMutableSet;
 
 @interface NATreeNode
 {
     id _representedObject;
-    NSMutableSet *_internalChildNodes;
 }
 
 + (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSSet *childNodes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSEnumerator *deepNodeEnumerator;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSMutableSet *internalChildNodes; // @synthesize internalChildNodes=_internalChildNodes;
-@property(retain, nonatomic) id representedObject; // @synthesize representedObject=_representedObject;
-@property(readonly, nonatomic) NSEnumerator *shallowNodeEnumerator;
-@property(readonly, nonatomic) NSEnumerator *shallowRepresentedObjectEnumerator;
-@property(readonly) Class superclass;
 
 @end
 

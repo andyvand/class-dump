@@ -6,15 +6,12 @@
 
 #import <CoreData/NSSQLIntermediate.h>
 
-@class NSArray, NSExpression, NSSQLEntity;
+@class NSSQLEntity;
 
 __attribute__((visibility("hidden")))
 @interface NSSQLRTreeIndexQueryIntermediate : NSSQLIntermediate
 {
     NSSQLEntity *_entity;
-    NSExpression *_indexName;
-    NSArray *_properties;
-    NSArray *_ranges;
 }
 
 - (id);

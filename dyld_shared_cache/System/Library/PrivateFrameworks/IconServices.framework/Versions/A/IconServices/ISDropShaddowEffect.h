@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IFColor, NSString;
-
 __attribute__((visibility("hidden")))
 @interface ISDropShaddowEffect
 {
     double _scale;
-    double _blur;
-    double _spread;
-    IFColor *_color;
-    struct CGSize _offset;
 }
 
 - (id);
 - (double);
-- (void);
-- (void);
+- (void)';
+- (void)SecondaryScaler;
 - (id);
 - (double);
 - (id);
@@ -31,18 +25,7 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 
 // Remaining properties
-@property double blur; // @synthesize blur=_blur;
-@property(retain) IFColor *color; // @synthesize color=_color;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property struct CGSize offset; // @synthesize offset=_offset;
 @property double scale; // @synthesize scale=_scale;
-@property double spread; // @synthesize spread=_spread;
-@property(readonly) Class superclass;
 
 @end
 

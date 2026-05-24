@@ -17,11 +17,11 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (Class)´p´Ä´Hµµ ¶t¶ø¶t·ø·L¸¹Ø¹\º°º4»»¼`¼ä¼8½¼½ÁdÁ;
-- (_Bool);
+- (_Bool)2;
 - (_Bool);
 - (id);
 - (id);
-- (void)CP;
+- (void)indexMCP;
 
 @end
 

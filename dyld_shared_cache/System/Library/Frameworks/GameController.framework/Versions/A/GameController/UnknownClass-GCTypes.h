@@ -6,7 +6,7 @@
 
 @interface UnknownClass (GCTypes)
 + (id);
-- (struct GCPoint2);
+- (struct GCPoint2);
 
 // Remaining properties
 @property(readonly, nonatomic) struct GCPoint2 GCPoint2Value;

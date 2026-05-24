@@ -6,35 +6,29 @@
 
 #import <TextInputCore/TIWordSearchOperation.h>
 
-@class NSString, TILanguageModelAdaptationContext, TIMecabraWrapper;
+@class TIMecabraWrapper;
 
 __attribute__((visibility("hidden")))
 @interface TIWordSearchOperationAdaptOffline : TIWordSearchOperation
 {
     TIMecabraWrapper *_mecabraWrapper;
-    TILanguageModelAdaptationContext *_adaptationContext;
-    NSString *_paragraph;
-    double _timeStamp;
 }
 
-- (id);
+- (id)performSelector:(id)arg1 withObject:(id)arg2 withObject:(id)arg3;
 - (void);
 - (id);
+- (void)llback at %@ and preward duration:(id)arg1 %f;
+- (id)Items:requestOptions has %tu keys. /* Error: Ran out of types for this method. */;
+- (double)mutableCopy;
+- (void)_propertiesByOptionCache;
 - (void);
-- (id);
-- (double);
-- (void);
-- (void);
-- (void);
+- (void)book;
 - (void);
 - (void);
 - (id)@"NSString",C,N,V_inputStem;
 
 // Remaining properties
-@property(copy, nonatomic) TILanguageModelAdaptationContext *adaptationContext; // @synthesize adaptationContext=_adaptationContext;
 @property(retain, nonatomic) TIMecabraWrapper *mecabraWrapper; // @synthesize mecabraWrapper=_mecabraWrapper;
-@property(copy, nonatomic) NSString *paragraph; // @synthesize paragraph=_paragraph;
-@property(nonatomic) double timeStamp; // @synthesize timeStamp=_timeStamp;
 
 @end
 

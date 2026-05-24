@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceQueue, NSMutableDictionary, WSEventDeliveryManager;
-
 __attribute__((visibility("hidden")))
 @interface CPXRemoteViewEventManager
 {
     struct os_unfair_lock_s _clientLock;
-    NSMutableDictionary *_clientLock_clientsByPid;
-    WSEventDeliveryManager *_deliveryManager;
-    BSServiceQueue *_queue;
 }
 
-- (void);
-- (int);
-- (oneway void);
-- (void);
-- (id);
-- (void);
+- (void)ELECT MAX(%@) FROM %@ WHERE %@ >= 16000;
+- (int)pdating max pk for entityID = %u with old = %qd and new = %qd;
+- (oneway void)ions in the SQLite database.;
+- (void)te table migration statements;
+- (id)l eligible for checkpointing in -disconnect due to its large size (%lld);
+- (void)d:(id)arg1 %d;
 - (unsigned long long);
 - (void)Ì;
 

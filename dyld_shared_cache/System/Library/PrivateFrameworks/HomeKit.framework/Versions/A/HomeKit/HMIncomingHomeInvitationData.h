@@ -6,27 +6,21 @@
 
 #import <HomeKit/HMHomeInvitationData.h>
 
-@class NSString, NSUUID;
+@class NSString;
 
 @interface HMIncomingHomeInvitationData : HMHomeInvitationData
 {
     struct os_unfair_lock_s _lock;
-    NSString *_inviterName;
-    NSString *_inviterUserID;
-    NSString *_homeName;
-    NSUUID *_homeUUID;
-    NSUUID *_inviterUUID;
-    NSString *_inviterMergeID;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id));
+- (id);
 - (void);
-- (id);
+- (id)writeToFile:atomically:encoding:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -34,12 +28,7 @@
 - (void),||è|0~;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *homeName; // @synthesize homeName=_homeName;
-@property(readonly, copy, nonatomic) NSUUID *homeUUID; // @synthesize homeUUID=_homeUUID;
-@property(readonly, copy, nonatomic) NSString *inviterMergeID; // @synthesize inviterMergeID=_inviterMergeID;
 @property(copy, nonatomic) NSString *inviterName; // @synthesize inviterName=_inviterName;
-@property(readonly, copy, nonatomic) NSUUID *inviterUUID; // @synthesize inviterUUID=_inviterUUID;
-@property(readonly, nonatomic) NSString *inviterUserID; // @synthesize inviterUserID=_inviterUserID;
 
 @end
 

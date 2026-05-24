@@ -5,30 +5,25 @@
 //
 
 @class NSXPCConnection;
-@protocol BCSyncICloudSettingsProtocol;
 
 @interface BKSyncCloudSettingsAgent
 {
     NSXPCConnection *_serviceConnection;
-    id <BCSyncICloudSettingsProtocol> _syncService;
-    id <BCSyncICloudSettingsProtocol> _asyncService;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)@;
+- (void)TJ;
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)r/lib/libSystem.B.dylib;
 
 // Remaining properties
-@property(retain, nonatomic) id <BCSyncICloudSettingsProtocol> asyncService; // @synthesize asyncService=_asyncService;
 @property(retain, nonatomic) NSXPCConnection *serviceConnection; // @synthesize serviceConnection=_serviceConnection;
-@property(retain, nonatomic) id <BCSyncICloudSettingsProtocol> syncService; // @synthesize syncService=_syncService;
 
 @end
 

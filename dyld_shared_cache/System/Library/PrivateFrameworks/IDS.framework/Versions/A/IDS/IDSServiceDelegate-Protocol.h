@@ -9,6 +9,10 @@
 @protocol IDSServiceDelegate
 
 @optional
+- (void);
+- (void);
+- (void)@;
+- (void)lugins):(IDSService *)arg1;
 - (void)nology:(IDSService *)arg1 %d;
 @end
 

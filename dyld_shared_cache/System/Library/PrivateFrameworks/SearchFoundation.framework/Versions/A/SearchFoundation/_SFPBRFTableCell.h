@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBRFTextProperty, _SFPBRFVisualProperty;
+@class _SFPBRFTextProperty;
 
 @interface _SFPBRFTableCell
 {
     _Bool _applySmallCaps;
-    int _column_span;
-    int _horizontal_alignment;
-    _SFPBRFTextProperty *_text;
-    _SFPBRFVisualProperty *_visual;
-    unsigned long long _whichContent;
 }
 
 - (unsigned long long);
@@ -31,28 +26,15 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id)er:(id)arg1;
+- (id)g actionData from Suggestion:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (void)dCardSection"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool applySmallCaps; // @synthesize applySmallCaps=_applySmallCaps;
-@property(nonatomic) int column_span; // @synthesize column_span=_column_span;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int horizontal_alignment; // @synthesize horizontal_alignment=_horizontal_alignment;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) _SFPBRFTextProperty *text; // @synthesize text=_text;
-@property(retain, nonatomic) _SFPBRFVisualProperty *visual; // @synthesize visual=_visual;
-@property(readonly, nonatomic) unsigned long long whichContent; // @synthesize whichContent=_whichContent;
 
 @end
 

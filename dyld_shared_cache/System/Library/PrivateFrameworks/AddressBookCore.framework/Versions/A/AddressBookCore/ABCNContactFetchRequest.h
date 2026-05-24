@@ -6,34 +6,28 @@
 
 #import <AddressBookCore/ABCNFetchRequest.h>
 
-@class NSArray, NSPredicate;
+@class NSPredicate;
 
 @interface ABCNContactFetchRequest : ABCNFetchRequest
 {
     NSPredicate *_predicate;
-    NSArray *_keysToFetch;
-    _Bool _unifyResults;
-    _Bool _mutableObjects;
 }
 
 - (void);
 - (void);
+- (void)ر;
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)D;
 - (_Bool);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *keysToFetch; // @synthesize keysToFetch=_keysToFetch;
-@property(nonatomic) _Bool mutableObjects; // @synthesize mutableObjects=_mutableObjects;
 @property(copy, nonatomic) NSPredicate *predicate; // @synthesize predicate=_predicate;
-@property(nonatomic) _Bool unifyResults; // @synthesize unifyResults=_unifyResults;
 
 @end
 

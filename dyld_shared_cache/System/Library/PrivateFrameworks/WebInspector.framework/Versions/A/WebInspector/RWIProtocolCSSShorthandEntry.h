@@ -20,7 +20,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *name;
-@property(copy, nonatomic) NSString *value;
 
 @end
 

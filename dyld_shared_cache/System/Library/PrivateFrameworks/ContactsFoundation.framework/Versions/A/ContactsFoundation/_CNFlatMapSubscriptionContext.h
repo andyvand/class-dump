@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNQueue, CNWeakArray;
-@protocol CNScheduler;
+@class CNQueue;
 
 @interface _CNFlatMapSubscriptionContext
 {
     _Bool _operatorReceiving;
-    _Bool _observerReceiving;
-    CNQueue *_decorators;
-    CNWeakArray *_tokens;
-    id <CNScheduler> _downstream;
-    id <CNScheduler> _resourceLock;
 }
 
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)nCurrentItem;
 - (id);
 - (void);
 - (id);
@@ -30,11 +24,6 @@
 
 // Remaining properties
 @property(readonly) CNQueue *decorators; // @synthesize decorators=_decorators;
-@property(readonly) id <CNScheduler> downstream; // @synthesize downstream=_downstream;
-@property(getter=isObserverReceiving) _Bool observerReceiving; // @synthesize observerReceiving=_observerReceiving;
-@property(getter=isOperatorReceiving) _Bool operatorReceiving; // @synthesize operatorReceiving=_operatorReceiving;
-@property(readonly) id <CNScheduler> resourceLock; // @synthesize resourceLock=_resourceLock;
-@property(readonly) CNWeakArray *tokens; // @synthesize tokens=_tokens;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface ReminderKitInternal.REMTrialClient
 {
     id client;
-    id projectId;
 }
 
 @end

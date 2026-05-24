@@ -5,5 +5,8 @@
 //
 
 @protocol _UIAlertActionMutablePropertyObservering
+- (void);
+- (void)L;
+- (void)T;
 @end
 

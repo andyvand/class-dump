@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKSignInWithAppleAccount, NSSet, NSString;
-
 @interface AKSignInWithAppleRequestContext
 {
     _Bool __simulateAccountSharingResponse;
-    _Bool __isMoveAccountRequest;
-    NSString *_altDSID;
-    AKSignInWithAppleAccount *_signInWithAppleAccount;
-    NSString *_currentGroupID;
-    NSSet *__groups;
 }
 
 + (_Bool);
@@ -38,12 +31,7 @@
 R-EÖi¬ã)Èe^¯ÐÔ­â½Òßyw_úÕb».Pl\¸"Êò>üêMðÅë7©Ñ	S6õ'(] ÓmfWnsçVÉ³ÝþÇU±@¾öµxû /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *_groups; // @synthesize _groups=__groups;
-@property(nonatomic) _Bool _isMoveAccountRequest; // @synthesize _isMoveAccountRequest=__isMoveAccountRequest;
 @property(nonatomic) _Bool _simulateAccountSharingResponse; // @synthesize _simulateAccountSharingResponse=__simulateAccountSharingResponse;
-@property(readonly, copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(copy, nonatomic) NSString *currentGroupID; // @synthesize currentGroupID=_currentGroupID;
-@property(copy, nonatomic) AKSignInWithAppleAccount *signInWithAppleAccount; // @synthesize signInWithAppleAccount=_signInWithAppleAccount;
 
 @end
 

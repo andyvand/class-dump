@@ -7,16 +7,11 @@
 @class NSArray, NSString;
 
 @protocol FCChannelProviding
+- (NSString *)!;
+- (NSArray *);
 - (NSString *)pÿÿbýÿ\óýÿÑýÿ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *backIssuesListID;
-@property(readonly, nonatomic) unsigned long long channelType;
-@property(readonly, copy, nonatomic) NSArray *currentIssueIDs;
-@property(readonly, copy, nonatomic) NSString *defaultSectionID;
-@property(readonly, nonatomic) _Bool isWhitelisted;
-@property(readonly, copy, nonatomic) NSArray *recentIssueIDs;
 @property(readonly, copy, nonatomic) NSArray *sectionIDs;
-@property(readonly, nonatomic) _Bool supportsNotifications;
 @end
 

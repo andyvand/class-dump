@@ -9,21 +9,15 @@
 @interface RBSDurationAttribute : RBSAttribute
 {
     double _invalidationDuration;
-    double _warningDuration;
-    unsigned long long _startPolicy;
-    unsigned long long _endPolicy;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)H;
 
 // Remaining properties
-@property(nonatomic) unsigned long long endPolicy; // @synthesize endPolicy=_endPolicy;
 @property(nonatomic) double invalidationDuration; // @synthesize invalidationDuration=_invalidationDuration;
-@property(nonatomic) unsigned long long startPolicy; // @synthesize startPolicy=_startPolicy;
-@property(nonatomic) double warningDuration; // @synthesize warningDuration=_warningDuration;
 
 @end
 

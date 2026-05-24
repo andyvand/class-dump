@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SGContact, SGExtractionInfo;
-
 @interface SGRealtimeContact
 {
     _Bool _isHarvested;
-    int _extractionSource;
-    int _state;
-    int _updatedFields;
-    SGContact *_contact;
-    NSString *_cnContactIdentifier;
-    SGExtractionInfo *_extractionInfo;
 }
 
 + (id);
@@ -39,23 +31,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)P;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *cnContactIdentifier; // @synthesize cnContactIdentifier=_cnContactIdentifier;
-@property(readonly, nonatomic) SGContact *contact; // @synthesize contact=_contact;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) SGExtractionInfo *extractionInfo; // @synthesize extractionInfo=_extractionInfo;
-@property(nonatomic) int extractionSource; // @synthesize extractionSource=_extractionSource;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isHarvested; // @synthesize isHarvested=_isHarvested;
 @property(readonly, nonatomic) int state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) int updatedFields; // @synthesize updatedFields=_updatedFields;
 
 @end
 

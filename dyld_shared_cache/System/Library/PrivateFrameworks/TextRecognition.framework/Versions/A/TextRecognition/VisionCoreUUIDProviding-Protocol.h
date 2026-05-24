@@ -7,6 +7,9 @@
 @class NSUUID;
 
 @protocol VisionCoreUUIDProviding
+- (NSUUID *)escriptor:%@
+               additionalInfo:%@
+<<<] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *UUID;

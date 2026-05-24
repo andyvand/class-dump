@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSPersistentContainer, NSURL;
+@class NSURL;
 
 @interface CNContactPosterDataPersistentStoreManager
 {
     NSURL *_storeLocation;
-    NSPersistentContainer *_container;
-    NSError *_loadPersistentStoresError;
 }
 
 + (void);
@@ -35,7 +33,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
@@ -43,12 +41,10 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)sWithUniqueID:completion:] /* Error: Ran out of types for this method. */;
 - (void)4@32B40B44;
 
 // Remaining properties
-@property(readonly, nonatomic) NSPersistentContainer *container; // @synthesize container=_container;
-@property(retain, nonatomic) NSError *loadPersistentStoresError; // @synthesize loadPersistentStoresError=_loadPersistentStoresError;
 @property(readonly, nonatomic) NSURL *storeLocation; // @synthesize storeLocation=_storeLocation;
 
 @end

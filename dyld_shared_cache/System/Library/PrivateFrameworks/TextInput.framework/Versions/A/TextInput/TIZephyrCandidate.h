@@ -6,31 +6,9 @@
 
 #import <TextInput/TIKeyboardCandidateSingle.h>
 
-@class NSNumber, NSString, TIProactiveTrigger, _ICPredictedItem;
-
 @interface TIZephyrCandidate : TIKeyboardCandidateSingle
 {
     _Bool _isFromPhraseDictionary;
-    _Bool _isFromTextChecker;
-    _Bool _isSecureContentCandidate;
-    _Bool _continuousPathConversion;
-    _Bool _shouldAccept;
-    _Bool _shouldInsertSpaceAfterSelection;
-    _Bool _toucanInlineCompletionCandidate;
-    unsigned int _usageTrackingMask;
-    int _dynamicUsageCount;
-    int _dynamicPenaltyCount;
-    unsigned long long _wordOriginFeedbackID;
-    TIProactiveTrigger *_proactiveTrigger;
-    NSString *_responseKitCategory;
-    NSString *_fromBundleId;
-    unsigned long long _ageForConnectionsMetrics;
-    double _excessPathRatio;
-    _ICPredictedItem *_proactivePredictedItem;
-    NSString *_label;
-    NSNumber *_staticLinguisticLikelihood;
-    double _geometryScore;
-    double _wordScore;
 }
 
 + (int);
@@ -63,7 +41,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -82,7 +60,7 @@
 - (_Bool);
 - (double);
 - (id);
-- (id);
+- (id)recordAdditionalAssetAttributesForMomentUpdate: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -95,22 +73,7 @@
 ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long ageForConnectionsMetrics; // @synthesize ageForConnectionsMetrics=_ageForConnectionsMetrics;
-@property(nonatomic, getter=isContinuousPathConversion) _Bool continuousPathConversion; // @synthesize continuousPathConversion=_continuousPathConversion;
-@property(nonatomic) int dynamicPenaltyCount; // @synthesize dynamicPenaltyCount=_dynamicPenaltyCount;
-@property(nonatomic) int dynamicUsageCount; // @synthesize dynamicUsageCount=_dynamicUsageCount;
-@property(nonatomic) double excessPathRatio; // @synthesize excessPathRatio=_excessPathRatio;
-@property(copy, nonatomic) NSString *fromBundleId; // @synthesize fromBundleId=_fromBundleId;
-@property(nonatomic) double geometryScore; // @synthesize geometryScore=_geometryScore;
 @property(nonatomic) _Bool isFromPhraseDictionary; // @synthesize isFromPhraseDictionary=_isFromPhraseDictionary;
-@property(nonatomic) _Bool isFromTextChecker; // @synthesize isFromTextChecker=_isFromTextChecker;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(copy, nonatomic) _ICPredictedItem *proactivePredictedItem; // @synthesize proactivePredictedItem=_proactivePredictedItem;
-@property(nonatomic, getter=shouldAccept) _Bool shouldAccept; // @synthesize shouldAccept=_shouldAccept;
-@property(nonatomic, getter=shouldInsertSpaceAfterSelection) _Bool shouldInsertSpaceAfterSelection; // @synthesize shouldInsertSpaceAfterSelection=_shouldInsertSpaceAfterSelection;
-@property(copy, nonatomic) NSNumber *staticLinguisticLikelihood; // @synthesize staticLinguisticLikelihood=_staticLinguisticLikelihood;
-@property(nonatomic, getter=isToucanInlineCompletionCandidate) _Bool toucanInlineCompletionCandidate; // @synthesize toucanInlineCompletionCandidate=_toucanInlineCompletionCandidate;
-@property(nonatomic) double wordScore; // @synthesize wordScore=_wordScore;
 
 @end
 

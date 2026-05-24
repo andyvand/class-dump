@@ -5,8 +5,8 @@
 //
 
 @interface UnknownClass (PerformanceTrace)
-+ (id);
-+ (id);
-+ (id);
++ (id)IMWorkoutPreviewGenerator;
++ (id)IMHandleOffGridStateManager;
++ (id)IMFileTransfer_MomentShare;
 @end
 

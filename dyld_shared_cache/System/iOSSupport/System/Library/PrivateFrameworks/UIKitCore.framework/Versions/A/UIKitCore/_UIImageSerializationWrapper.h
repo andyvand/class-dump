@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 + (_Bool)keyboard type:%ld
  /* Error: Ran out of types for this method. */;
 - (id);
-- (Class);
-- (void)ultCriticallyDampedValues;
+- (Class);
+- (void)setDefaultCriticallyDampedValues;
 - (id)eHandler:(id)arg1 completion: /* Error: Ran out of types for this method. */;
 - (void);
 

@@ -7,10 +7,6 @@
 @interface CAPresentationModifierGroup
 {
     void *_shmem;
-    unsigned long long _capacity;
-    unsigned long long _count;
-    unsigned long long _totalSize;
-    unsigned int _localId;
 }
 
 + (id);
@@ -22,21 +18,19 @@
 - (id);
 - (void *);
 - (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
+- (void)isSystemPersona;
+- (unsigned long long)&f;
+- (void)?d;
+- (void)U;
 - (void);
 - (_Bool);
-- (void);
+- (void)is a view service;
 - (void);
 - (void);
 - (unsigned long long);
 
 // Remaining properties
 @property(readonly) unsigned long long capacity;
-@property(readonly) unsigned long long count;
-@property(nonatomic) _Bool updatesAsynchronously;
 
 @end
 

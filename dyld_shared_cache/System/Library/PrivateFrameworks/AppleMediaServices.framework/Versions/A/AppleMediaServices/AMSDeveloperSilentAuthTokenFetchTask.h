@@ -6,21 +6,17 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class ACAccount, NSString;
-@protocol AMSBagProtocol;
+@class NSString;
 
 @interface AMSDeveloperSilentAuthTokenFetchTask : AMSTask
 {
     NSString *_bundleId;
-    ACAccount *_account;
-    id <AMSBagProtocol> _bag;
-    NSString *_mediaType;
 }
 
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)IMAKUserInfoChangedNotification;
+- (id)tch fetch contacts without caching, because the fetch result was not an array or a dictionary.;
 - (id);
 - (id);
 - (void)ªWòV]Ýn~ÔÎæþOõòÖ)öm:H(ki@iîÝöð¯_YÈ¤ /* Error: Ran out of types for this method. */;
@@ -30,10 +26,7 @@ eé¬v×
 A}is:,tÙICÿ¡:.@ötþØÞ~¨b|÷åª#R§"µ©E¦hi*¦1]çmZØ:)bçr°¦j]¦qÇuM¡®æ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) ACAccount *account; // @synthesize account=_account;
-@property(readonly) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
 @property(readonly, copy) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(readonly) NSString *mediaType; // @synthesize mediaType=_mediaType;
 
 @end
 

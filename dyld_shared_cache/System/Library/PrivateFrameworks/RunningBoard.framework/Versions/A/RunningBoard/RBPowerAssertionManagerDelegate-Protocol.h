@@ -5,5 +5,6 @@
 //
 
 @protocol RBPowerAssertionManagerDelegate
+- (void);
 @end
 

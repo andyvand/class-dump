@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, NSString;
+@class CNContactStore;
 
 @interface CNUIUndoableCommand
 {
     _Bool _ignoresGuardianRestrictions;
-    CNContactStore *_contactStore;
 }
 
 - (id);
@@ -19,29 +18,18 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)v;
 - (void);
 - (void)ook;
 - (id)°ü;
 
 // Remaining properties
 @property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool ignoresGuardianRestrictions; // @synthesize ignoresGuardianRestrictions=_ignoresGuardianRestrictions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N,V_ignoresGuardianRestrictions
-
-@property(readonly) Class superclass;
 
 @end
 

@@ -9,54 +9,40 @@
 @interface GEOTimeGap
 {
     PBUnknownFields *_unknownFields;
-    unsigned int _seconds;
-    unsigned int _subsequentEventId;
-    _Bool _ifChained;
-    struct {
-        unsigned int has_seconds:1;
-        unsigned int has_subsequentEventId:1;
-        unsigned int has_ifChained:1;
-    } _flags;
 }
 
-+ (_Bool)rchantCanl:(id)arg1;
++ (_Bool)setMerchantCanl:(id)arg1;
 - (unsigned int);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)tenerEndpoint"@"NSError">24;
+- (_Bool)namespaceIdentifier;
 - (unsigned int);
 - (void);
+- (id);
 - (id);
-- (id);
 - (void);
-- (void);
-- (void);
+- (void);;
+- (void)getAudioRecordRouteAndDeviceIdentificationWithCompletion:(id)arg1;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)read_unknownFields"b1"read_actionRichProviderId"b1"read_moduleInfo"b1"read_userActionEventKey"b1"read_userActionEventValue"b1"wrote_anyField"b1};
-- (id)eUrl;
-- (id)avRoutePreloadTileType;
+- (id)hasSourceUrl;
+- (id)_GEONavRoutePreloadTileType;
 - (id)PResolutionReadAllFrom can only be called once per object;
 - (void)éòæp­UQ@;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIfChained;
-@property(nonatomic) _Bool hasSeconds;
 @property(nonatomic) _Bool hasSubsequentEventId;
-@property(nonatomic) _Bool ifChained;
-@property(nonatomic) unsigned int seconds;
-@property(nonatomic) unsigned int subsequentEventId;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

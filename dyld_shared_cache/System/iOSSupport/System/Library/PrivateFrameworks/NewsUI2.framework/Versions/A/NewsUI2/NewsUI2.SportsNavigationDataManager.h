@@ -7,9 +7,6 @@
 @interface NewsUI2.SportsNavigationDataManager
 {
     id backingTag;
-    id sportsGraphManager;
-    id tagService;
-    id sportsNavigationTitleStringBuilder;
 }
 
 @end

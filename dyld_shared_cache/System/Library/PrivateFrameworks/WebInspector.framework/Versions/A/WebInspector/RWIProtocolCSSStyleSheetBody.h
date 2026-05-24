@@ -6,13 +6,13 @@
 
 #import <WebInspector/RWIProtocolJSONObject.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface RWIProtocolCSSStyleSheetBody : RWIProtocolJSONObject
 {
 }
 
-- (id);
+- (id)H;
 - (void);
 - (id);
 - (id);
@@ -21,9 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *rules;
 @property(copy, nonatomic) NSString *styleSheetId;
-@property(copy, nonatomic) NSString *text;
 
 @end
 

@@ -15,20 +15,19 @@
 
 + (id);
 + (void)ize:%.3f mm%@, ref:{%.0fx%.0f} /* Error: Ran out of types for this method. */;
-- (void);
+- (void)ated Line;
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)4;
 - (void);
-- (void);
+- (void)ckDynamicToneCurveNow failed;
 - (float);
-- (id)ureSystemPressureState;
-- (_Bool)utsSupported;
+- (id)AVCaptureSystemPressureState;
+- (_Bool)AVGQCaptureMultipleAudioDataOutputsSupported;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *outputDeviceUniqueID;
-@property(nonatomic) float volume;
 
 @end
 

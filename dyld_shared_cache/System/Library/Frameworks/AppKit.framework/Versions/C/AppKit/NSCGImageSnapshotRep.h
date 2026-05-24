@@ -6,44 +6,41 @@
 
 #import <AppKit/NSImageRep.h>
 
-@class NSSnapshotContextSignature;
-
 __attribute__((visibility("hidden")))
 @interface NSCGImageSnapshotRep : NSImageRep
 {
     struct CGImage *_cgImage;
-    NSSnapshotContextSignature *_signature;
 }
 
 + (id);
 + (struct CGImage *);
-+ (void);
-+ (void);
++ (void)ublic}@> Invalid URL scheme for background tasks:(struct CGRect)arg1 %@. Valid schemes are http or https;
++ (void)o NSURLSessionTask creation, reconnect=%c, invalid=%c;
 + (struct CGImage *);
 + (void);
 + (id);
 + (_Bool);
-- (long long);
-- (long long);
+- (long long)canHandleRequest: /* Error: Ran out of types for this method. */;
+- (long long)cameIntoForeground: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
+- (id)C;
+- (_Bool)%@;
 - (long long);
 - (_Bool);
 - (struct CGImage *);
 - (id);
-- (struct CGImage *);
+- (struct CGImage *)6hV;
 - (void);
 - (id);
-- (id);
+- (id)slotFromMidnightWithTotalSlotsInDay: /* Error: Ran out of types for this method. */;
 - (id);
 - (Class);
 - (id);
 - (struct CGImage *);
 - (void)1Â0@ù
 × ;
-- (id)mnAtIndex:(struct _NSZone *)arg1;
+- (id)_expandMergeBounds:(struct _NSZone *)arg1 ifNeededForColumnAtIndex: /* Error: Ran out of types for this method. */;
 - (_Bool)ü½;
 - (_Bool)%ld is outside post-update bounds [0,%ld) for section %ld;
 - (id)';

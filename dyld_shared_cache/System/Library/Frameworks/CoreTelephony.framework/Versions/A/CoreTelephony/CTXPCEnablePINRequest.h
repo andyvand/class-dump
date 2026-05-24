@@ -6,14 +6,12 @@
 
 #import <CoreTelephony/CTXPCSubscriptionContextRequest.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface CTXPCEnablePINRequest : CTXPCSubscriptionContextRequest
 {
 }
 
-+ (id);
++ (id);
 - (void);
 - (id);
 - (id);
@@ -23,7 +21,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool enable;
-@property(readonly, nonatomic) NSString *pin;
 
 @end
 

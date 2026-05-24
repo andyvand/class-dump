@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PFPosterEditConfiguration;
-
 @interface PFPosterMedia
 {
     long long _mediaType;
-    NSString *_subpath;
-    NSString *_assetUUID;
-    unsigned long long _version;
-    PFPosterEditConfiguration *_editConfiguration;
 }
 
 + (_Bool);
+- (void)p;
 - (void);
-- (void);
 - (id);
 - (id);
-- (id);
+- (id)`p;
 - (void);
 - (id);
 - (unsigned long long);
 - (id);
 - (long long);
+- (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)mergeRequiredFeatureSetValidationFailureTypes: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
@@ -37,11 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *assetUUID; // @synthesize assetUUID=_assetUUID;
-@property(retain, nonatomic) PFPosterEditConfiguration *editConfiguration; // @synthesize editConfiguration=_editConfiguration;
 @property(nonatomic) long long mediaType; // @synthesize mediaType=_mediaType;
-@property(retain, nonatomic) NSString *subpath; // @synthesize subpath=_subpath;
-@property(nonatomic) unsigned long long version; // @synthesize version=_version;
 
 @end
 

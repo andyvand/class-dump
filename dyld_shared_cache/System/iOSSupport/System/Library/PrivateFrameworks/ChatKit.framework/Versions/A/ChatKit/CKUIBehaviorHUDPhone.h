@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (_Bool);
+- (_Bool)utedString",R,N;
 - (struct UIEdgeInsets);
 - (struct UIEdgeInsets);
-- (_Bool);
+- (_Bool)notewkwebview.getSelectionRects();
 - (id);
 
 @end

@@ -4,46 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBL2CAPChannel, IOBluetoothDevice, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class CBL2CAPChannel;
 
 @interface CUBluetoothClassicConnection
 {
     CDUnknownBlockType _activateCompletion;
-    _Bool _connectionObserving;
-    IOBluetoothDevice *_btDevice;
-    _Bool _btConnected;
-    char _btDeviceAddrStr[32];
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    int _state;
-    NSObject<OS_dispatch_source> *_timeoutTimer;
-    struct LogCategory *_ucat;
-    unsigned int _connectionFlags;
-    unsigned int _requiredServices;
-    NSString *_destinationPeer;
-    NSString *_destinationService;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _errorHandler;
-    CDUnknownBlockType _invalidationHandler;
-    NSString *_label;
-    CBL2CAPChannel *_l2capChannel;
-    CDUnknownBlockType _serverInvalidationHandler;
 }
 
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)6;
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
 - (id);
+- (void);
+- (id)ION (%u) in MH_OBJECT kext:(platform:%d) /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (unsigned int);
-- (void);
+- (void)ng accounts of type %@ failed, retrying once...;
 - (void);
 - (id);
 - (id);
@@ -53,12 +33,12 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)B;
+- (void)uM;
+- (void)MNMKkBLi7l_mFxe7szyKNeR6JxM/Library/Caches/com.apple.xbs/TemporaryDirectory.BsrFNm/Sources/MetalPerformanceShaders/MPSNDArray/Kernels/MPSNDArrayMatrixMultiplication.mm;
 - (CDUnknownBlockType);
 - (_Bool);
-- (void);
+- (void)layerWithDevice:(CDUnknownBlockType)arg1 descriptor:inputWeights:hiddenWeights:peepholeWeights:biasTerms:gateActivations:outputResultActivation:inferenceOnly: /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (_Bool);
 - (void);
@@ -67,21 +47,12 @@
 - (void);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)$;
 - (void);
 - (void)4;
 
 // Remaining properties
-@property(nonatomic) unsigned int connectionFlags; // @synthesize connectionFlags=_connectionFlags;
-@property(copy, nonatomic) NSString *destinationPeer; // @synthesize destinationPeer=_destinationPeer;
-@property(copy, nonatomic) NSString *destinationService; // @synthesize destinationService=_destinationService;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType errorHandler; // @synthesize errorHandler=_errorHandler;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
 @property(retain, nonatomic) CBL2CAPChannel *l2capChannel; // @synthesize l2capChannel=_l2capChannel;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(nonatomic) unsigned int requiredServices; // @synthesize requiredServices=_requiredServices;
-@property(copy, nonatomic) CDUnknownBlockType serverInvalidationHandler; // @synthesize serverInvalidationHandler=_serverInvalidationHandler;
 
 @end
 

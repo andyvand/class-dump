@@ -12,7 +12,7 @@
 {
 }
 
-- (id);
+- (id)P;
 - (id);
 - (void);
 - (id);
@@ -21,9 +21,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly) NSNumber *maximumValue;
 @property(readonly) NSNumber *minimumValue;
-@property(readonly) NSNumber *stepValue;
 
 @end
 

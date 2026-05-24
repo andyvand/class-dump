@@ -4,45 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL;
+@class NSArray;
 
 @interface INCallInvite
 {
     NSArray *_participants;
-    long long _inviteType;
-    NSURL *_callURL;
 }
 
 + (id);
 + (_Bool);
 - (id);
-- (id);
+- (id):8@16@24@32^@40 /* Error: Ran out of types for this method. */;
 - (long long);
-- (id);
+- (id)0;
 - (id);
 - (unsigned long long);
-- (id);
-- (_Bool);
+- (id)CCachedBackingStore;
+- (_Bool)canDurationToMaxAge;
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id)rs:(unsigned long long)arg1 error: /* Error: Ran out of types for this method. */;
+- (id)_grantForBundleIdentifiers:(unsigned long long)arg1 error: /* Error: Ran out of types for this method. */;
 - (void)nt.media.PlayMediaIntent;
 - (id)k;
 
 // Remaining properties
-@property(readonly, copy) NSURL *callURL; // @synthesize callURL=_callURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) long long inviteType; // @synthesize inviteType=_inviteType;
-@property(readonly, copy) NSArray *participants; // @synthesize participants=_participants;
-@property(readonly) Class superclass;
 
 @end
 

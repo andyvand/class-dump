@@ -9,10 +9,9 @@
 @interface EQKitVShift : EQKitBox
 {
     EQKitBox *mBox;
-    double mOffset;
 }
 
-- (void);
+- (void).|;
 - (_Bool);
 - (id);
 - (struct CGRect);
@@ -24,13 +23,12 @@
 - (double);
 - (double);
 - (_Bool);
-- (id);
+- (id)!;
 - (double);
 - (double)L°öÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) EQKitBox *box; // @synthesize box=mBox;
-@property(readonly, nonatomic) double offset; // @synthesize offset=mOffset;
 
 @end
 

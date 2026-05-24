@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PLUSSchemaPLUSInferencePluginFailed : SISchemaInstrumentationMessage
 {
     int _reason;
-    CDStruct_6555f803 _has;
 }
 
 - (id);
-- (int);
+- (int)fficBannerText:[%@] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)ng to create location update item with GUID:(id)arg1 %@;
 - (void);
 - (id);
 - (id)!BùqÝð1Â0@ù
 × ;
-- (id)ncTokenReceived;
+- (id)_hasSyncTokenReceived;
 - (id)nRequest;
-- (void)OWLEDGE_FALLBACK;
+- (void)IFTACTIONCONFIRMATIONSYSTEMSTYLEGENERATIVEAIENABLEMENTSOURCE_KNOWLEDGE_FALLBACK;
 
 // Remaining properties
-@property(nonatomic) _Bool hasReason;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int reason; // @synthesize reason=_reason;
 
 @end

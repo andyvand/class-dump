@@ -11,9 +11,6 @@ __attribute__((visibility("hidden")))
 @interface CATConcreteIDSServiceConnectionDataChunker
 {
     NSObject<OS_dispatch_queue> *mWorkQueue;
-    long long mMaxDataLength;
-    unsigned long long mNextDataNumber;
-    unsigned long long mNextSequenceNumber;
 }
 
 - (id);

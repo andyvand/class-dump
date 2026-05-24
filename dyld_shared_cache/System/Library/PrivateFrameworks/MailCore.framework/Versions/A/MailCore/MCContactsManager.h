@@ -4,48 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAvatarCache, CNContact, CNContactStore, NSMutableDictionary, NSObject, NSOperationQueue, NSString;
+@class CNContactStore, NSMutableDictionary;
 
 @interface MCContactsManager
 {
     NSMutableDictionary *_contactsCache;
-    NSObject *_contactsCacheLock;
-    CNAvatarCache *_avatarCache;
-    CNContactStore *_contactStore;
-    NSOperationQueue *_contactsUpdateQueue;
 }
 
 + (void);
 + (id);
 + (id);
 + (id);
-+ (id)rDate;
++ (id)sendLaterDate;
+- (id)@;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (id)cK9;
 - (id);
 - (void);
 - (id);
+- (void)!;
+- (void);
+- (id);
+- (void);
+- (id)isPartialStringValid:newEditingString:errorDescription: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)üG;
 
 // Remaining properties
-@property(readonly, nonatomic) CNAvatarCache *avatarCache; // @synthesize avatarCache=_avatarCache;
 @property(readonly, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(readonly, nonatomic) NSOperationQueue *contactsUpdateQueue; // @synthesize contactsUpdateQueue=_contactsUpdateQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) CNContact *meContact;
-@property(readonly) Class superclass;
 
 @end
 

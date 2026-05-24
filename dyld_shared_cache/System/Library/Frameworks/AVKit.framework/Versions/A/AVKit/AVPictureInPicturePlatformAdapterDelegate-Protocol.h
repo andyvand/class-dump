@@ -5,5 +5,6 @@
 //
 
 @protocol AVPictureInPicturePlatformAdapterDelegate
+- (void);
 @end
 

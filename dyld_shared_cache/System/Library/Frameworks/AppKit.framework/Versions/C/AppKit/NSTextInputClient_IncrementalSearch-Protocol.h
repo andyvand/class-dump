@@ -5,5 +5,6 @@
 //
 
 @protocol NSTextInputClient_IncrementalSearch
+- (unsigned long long)rriddenDelegateOptions;
 @end
 

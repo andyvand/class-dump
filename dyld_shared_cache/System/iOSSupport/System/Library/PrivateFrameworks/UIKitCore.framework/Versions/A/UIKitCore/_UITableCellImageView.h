@@ -12,13 +12,10 @@ __attribute__((visibility("hidden")))
 @interface _UITableCellImageView : _UIListContentImageView
 {
     _Bool _updatingTintColor;
-    _Bool _tintColorOverridden;
-    UIColor *_savedOverriddenTintColor;
-    UIColor *_forcedTintColor;
 }
 
 + (id);
-- (void);
+- (void):(id)arg1 shouldDisableScreenTimeRestrictions:hasAttachments:requiredCapabilities: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)îoþ;
 - (void)À®];

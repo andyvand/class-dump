@@ -6,8 +6,6 @@
 
 #import <TrialProto/TRIPBMessage.h>
 
-@class NSString, TRIPBListValue, TRIPBStruct;
-
 @interface TRIPBValue : TRIPBMessage
 {
 }
@@ -15,13 +13,7 @@
 + (id);
 
 // Remaining properties
-@property(nonatomic) _Bool boolValue; // @dynamic boolValue;
 @property(readonly, nonatomic) int kindOneOfCase; // @dynamic kindOneOfCase;
-@property(retain, nonatomic) TRIPBListValue *listValue; // @dynamic listValue;
-@property(nonatomic) int nullValue; // @dynamic nullValue;
-@property(nonatomic) double numberValue; // @dynamic numberValue;
-@property(copy, nonatomic) NSString *stringValue; // @dynamic stringValue;
-@property(retain, nonatomic) TRIPBStruct *structValue; // @dynamic structValue;
 
 @end
 

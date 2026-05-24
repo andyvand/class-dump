@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber;
-
 @interface SGReminderTrialClientWrapperGuardedData
 {
     _Bool _confirmationOptional;
-    _Bool _triggerOptional;
-    _Bool _actionVerbOptional;
-    NSNumber *_messagesBannerLimit;
-    NSDictionary *_reminderOverrides;
-    NSDictionary *_reminderEnrichments;
-    NSDictionary *_reminderInputMapping;
-    NSDictionary *_reminderOutputMapping;
 }
 
 - (void)4;

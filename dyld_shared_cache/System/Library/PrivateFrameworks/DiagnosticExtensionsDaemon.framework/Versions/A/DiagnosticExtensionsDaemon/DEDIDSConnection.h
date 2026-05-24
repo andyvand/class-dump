@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSService, NSObject, NSString;
-@protocol DEDClientProtocol, IDSServiceDelegate, OS_dispatch_queue;
+@class IDSService;
+@protocol DEDClientProtocol;
 
 @interface DEDIDSConnection
 {
     id <DEDClientProtocol> _remoteSideDelegate;
-    IDSService *_service;
-    NSObject<OS_dispatch_queue> *_run_queue;
-    NSObject<OS_dispatch_queue> *_discovery_queue;
-    id <IDSServiceDelegate> _incomingDelegate;
-    CDUnknownBlockType _deviceStatusCallback;
 }
 
 + (id);
@@ -22,16 +17,16 @@
 + (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
+- (void);
+- (id);
+- (_Bool)it has a share PCS on it. Setting signing PCS for our record to be the per-participant PCS;
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool)A;
 - (id);
 - (void);
 - (void);
@@ -45,19 +40,7 @@
 - (void)[DEDController sharingInbound_promptPINForDevice:(id)arg1 fromInbound:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) CDUnknownBlockType deviceStatusCallback; // @synthesize deviceStatusCallback=_deviceStatusCallback;
-@property(retain) NSObject<OS_dispatch_queue> *discovery_queue; // @synthesize discovery_queue=_discovery_queue;
-@property(readonly) unsigned long long hash;
-@property(retain) id <IDSServiceDelegate> incomingDelegate; // @synthesize incomingDelegate=_incomingDelegate;
-@property __weak id <DEDClientProtocol> remoteSideDelegate; // @synthesize remoteSideDelegate=_remoteSideDelegate;
-@property(retain) NSObject<OS_dispatch_queue> *run_queue; // @synthesize run_queue=_run_queue;
 @property(retain) IDSService *service; // @synthesize service=_service;
-@property(readonly) Class superclass;
 
 @end
 

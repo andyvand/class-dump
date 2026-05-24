@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _UINSLifecycleWatchdogInternal;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface UINSLifecycleWatchdog
 {
     NSString *_name;
-    _UINSLifecycleWatchdogInternal *_innerWatchdog;
 }
 
 - (void);
@@ -24,7 +23,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) _UINSLifecycleWatchdogInternal *innerWatchdog; // @synthesize innerWatchdog=_innerWatchdog;
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

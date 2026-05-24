@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSString;
+
 @protocol UITableViewDataSource
+
+@optional
+- (NSString *);
+- (void)8;
+- (NSArray *);
+- (long long)a@9;
 @end
 

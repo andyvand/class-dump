@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
     NSString *_sourceID;
 }
 
-+ (void)rameRate;
-- (void);
++ (void)MinFrameRate;
+- (void)tHash;
 
 @end
 

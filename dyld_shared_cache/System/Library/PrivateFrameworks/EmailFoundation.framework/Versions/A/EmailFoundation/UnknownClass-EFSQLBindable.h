@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFSQLBinding, NSString;
+@class EFSQLBinding;
 
 @interface UnknownClass (EFSQLBindable)
 - (id);
 - (id);
 - (id);
-- (void)tive:(id)arg1;
+- (void)contains:(id)arg1 caseSensitive: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) EFSQLBinding *ef_SQLBinding;
-@property(readonly, copy, nonatomic) NSString *ef_SQLExpression;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

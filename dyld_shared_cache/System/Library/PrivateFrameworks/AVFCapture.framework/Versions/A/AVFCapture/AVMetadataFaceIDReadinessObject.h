@@ -9,23 +9,19 @@
 @interface AVMetadataFaceIDReadinessObject : AVMetadataObject
 {
     _Bool _ready;
-    long long _coachingStatus;
-    long long _userEngagementStatus;
 }
 
 + (id);
-- (long long);
+- (long long)removeObjectsAtIndexes: /* Error: Ran out of types for this method. */;
+- (id)ty;
+- (id)setAlertHeader:(id)arg1;
+- (long long)MSVQRConnection;
 - (id);
-- (id);
-- (long long);
-- (id);
-- (_Bool);
+- (_Bool)commandQueue;
 - (id);
 
 // Remaining properties
-@property(readonly) long long coachingStatus;
 @property(readonly, getter=isReady) _Bool ready;
-@property(readonly) long long userEngagementStatus;
 
 @end
 

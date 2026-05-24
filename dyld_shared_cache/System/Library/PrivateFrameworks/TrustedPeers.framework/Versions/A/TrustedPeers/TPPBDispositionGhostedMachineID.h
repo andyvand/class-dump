@@ -12,10 +12,11 @@
 - (void);
 - (void);
 - (unsigned long long);
+- (_Bool)`;
 - (_Bool);
-- (_Bool);
-- (void);
-- (id);
+- (void)ct signed state;
+- (id)).
+;
 - (id);
 
 @end

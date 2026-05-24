@@ -11,15 +11,13 @@
 @interface WiFiUsageLQMKernelSampleBTCoex : WiFiUsageLQMSample
 {
     NSDate *_timestamp;
-    double _duration;
-    unsigned long long _btAntennaDurationPerc;
 }
 
 + (id);
 - (void);
 - (id);
 - (unsigned long long);
-- (double);
+- (double)logRenderingModelPreset: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -27,8 +25,6 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long btAntennaDurationPerc; // @synthesize btAntennaDurationPerc=_btAntennaDurationPerc;
-@property(nonatomic) double duration; // @synthesize duration=_duration;
 @property(retain, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end

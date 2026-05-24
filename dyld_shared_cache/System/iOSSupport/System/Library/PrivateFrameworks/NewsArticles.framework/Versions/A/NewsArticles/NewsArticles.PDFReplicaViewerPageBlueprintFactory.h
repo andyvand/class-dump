@@ -7,7 +7,6 @@
 @interface NewsArticles.PDFReplicaViewerPageBlueprintFactory
 {
     id resolver;
-    id tracker;
 }
 
 @end

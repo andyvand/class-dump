@@ -6,62 +6,40 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSMutableArray, NSString, UIColor, UIContextualAction, UISwipeActionButton;
-@protocol UISwipeActionPullViewDelegate, UISwipeActionVisualStyle;
+@protocol UISwipeActionVisualStyle;
 
 @interface UISwipeActionPullView : UIView
 {
     UIView *_clippingView;
-    NSMutableArray *_buttons;
-    NSArray *_actions;
-    UISwipeActionButton *_pressedButton;
-    _Bool _swipeActionsDidChange;
-    _Bool _isTentative;
-    double _openThreshold;
-    double _confirmationThreshold;
-    double _minimumOffset;
-    unsigned long long _style;
-    _Bool _buttonsUnderlapSwipedView;
-    _Bool _autosizesButtons;
-    unsigned long long _cellEdge;
-    double _currentOffset;
-    id <UISwipeActionPullViewDelegate> _delegate;
-    UIColor *_backgroundPullColor;
-    unsigned long long _state;
-    id <UISwipeActionVisualStyle> _visualStyle;
-    double _roundedStyleCornerRadius;
-    struct UIEdgeInsets _contentInsets;
-    struct UIEdgeInsets _pullViewInsets;
-    struct UIEdgeInsets _extraInsets;
 }
 
+- (void)_handlerForServiceName:(id)arg1;
+- (id)notifyInternalSecurity:(id)arg1 completionBlock: /* Error: Ran out of types for this method. */;
+- (void)IMDaemonListenerChatDatabaseProtocol;
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (struct UIEdgeInsets);
-- (id);
+- (id);
 - (_Bool);
-- (id);
+- (id);
 - (double);
 - (void);
-- (id);
-- (struct UIEdgeInsets);
-- (double);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (double);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
+- (id)p;
+- (struct UIEdgeInsets)ccount change notifications;
+- (double)an incompatible message earlier (%@):%@ /* Error: Ran out of types for this method. */;
+- (void)@;
+- (unsigned long long)@, was newer data? %@);
+- (_Bool)Adding handle %@ handleCNID  %@ to chat %@;
+- (id)moved out of Junk. Chat with guid:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)o length chat identifier, guid:%@ /* Error: Ran out of types for this method. */;
+- (void)OOL}d, isInProxyMode %{BOOL}d ;
+- (double)length:%d   to path:%@ /* Error: Ran out of types for this method. */;
+- (void)the share;
+- (unsigned long long)sAndCheckForAccountNeedsRepairWithCompletion failed with error:%@ /* Error: Ran out of types for this method. */;
+- (void)NicknameLowResWallpaperDataTag;
+- (void)activeNicknameRecords;
+- (void)esult;
 - (void);
 - (double);
 - (void);
@@ -74,9 +52,9 @@
 - (void);
 - (void);
 - (void);
-- (double);
-- (_Bool);
-- (id);
+- (double)C,N,V_payloadBlankdvd;
+- (_Bool)computeTruncationForAlignments:indexForFirstTrailingColumn:totalEqualColumns: /* Error: Ran out of types for this method. */;
+- (id)@;
 - (void);
 - (id)Z1Â0@ù
 × ;
@@ -88,7 +66,7 @@
 - (id);
 - (void);
 - (unsigned long long)w"24@"NSString"32@"NSIndexPath"40;
-- (void)rabberDot;
+- (void)_grabberDot;
 - (void)ì)ä+(,;
 - (void);
 - (id);
@@ -96,31 +74,6 @@
 - (void)T;
 
 // Remaining properties
-@property(nonatomic) _Bool autosizesButtons; // @synthesize autosizesButtons=_autosizesButtons;
-@property(copy, nonatomic) UIColor *backgroundPullColor; // @synthesize backgroundPullColor=_backgroundPullColor;
-@property(nonatomic) _Bool buttonsUnderlapSwipedView; // @synthesize buttonsUnderlapSwipedView=_buttonsUnderlapSwipedView;
-@property(readonly, nonatomic) unsigned long long cellEdge; // @synthesize cellEdge=_cellEdge;
-@property(readonly, nonatomic) double confirmationThreshold;
-@property(nonatomic) struct UIEdgeInsets contentInsets; // @synthesize contentInsets=_contentInsets;
-@property(readonly, nonatomic) double currentOffset; // @synthesize currentOffset=_currentOffset;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <UISwipeActionPullViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) struct UIEdgeInsets extraInsets; // @synthesize extraInsets=_extraInsets;
-@property(readonly, nonatomic) _Bool hasActions;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double openThreshold;
-@property(nonatomic) _Bool primaryActionCanBeTriggeredBySwipe;
-@property(readonly, nonatomic) UIColor *primaryActionColor;
-@property(readonly, nonatomic) _Bool primaryActionIsDestructive;
-@property(readonly, nonatomic) UIContextualAction *primarySwipeAction;
-@property(nonatomic) struct UIEdgeInsets pullViewInsets; // @synthesize pullViewInsets=_pullViewInsets;
-@property(nonatomic, getter=_roundedStyleCornerRadius, setter=_setRoundedStyleCornerRadius:) double roundedStyleCornerRadius; // @synthesize roundedStyleCornerRadius=_roundedStyleCornerRadius;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) id <UISwipeActionVisualStyle> visualStyle; // @synthesize visualStyle=_visualStyle;
 
 @end

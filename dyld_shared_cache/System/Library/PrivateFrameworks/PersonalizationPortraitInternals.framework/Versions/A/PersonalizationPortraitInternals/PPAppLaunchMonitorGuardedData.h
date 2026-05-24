@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, _CDClientContext;
+@class NSMutableDictionary;
 
 @interface PPAppLaunchMonitorGuardedData
 {
     NSMutableDictionary *handlers;
-    unsigned long long nextToken;
-    _Bool isRegistered;
-    _CDClientContext *clientContext;
 }
 
-- (void)d: /* Error: Ran out of types for this method. */;
+- (void)topDirectoryCreateIfNeeded: /* Error: Ran out of types for this method. */;
 
 @end
 

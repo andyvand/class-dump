@@ -6,30 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NLXSchemaCDMCorrectionOutcome, NLXSchemaCDMParser, NLXSchemaCDMRepetitionResult, NSArray, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface NLXSchemaCDMUserParse : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_id;
-    NSArray *_userDialogActs;
-    double _probability;
-    NLXSchemaCDMRepetitionResult *_repetitionResult;
-    NLXSchemaCDMParser *_parser;
-    double _comparableProbability;
-    NLXSchemaCDMCorrectionOutcome *_correctionOutcome;
-    struct {
-        unsigned int probability:1;
-        unsigned int comparableProbability:1;
-    } _has;
-    _Bool _hasId;
-    _Bool _hasRepetitionResult;
-    _Bool _hasParser;
-    _Bool _hasCorrectionOutcome;
 }
 
 - (unsigned long long);
-- (id);
-- (id);
+- (id)R_;
+- (id)0;
 - (void);
 - (void);
 - (void);
@@ -50,7 +36,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -62,15 +48,15 @@
 - (void);
 - (void);
 - (double);
+- (id)ublic}@;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id);
+- (void)P Address;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)";
 - (id)1Â0@ù
 × ;
 - (id)toPunctuation;
@@ -78,20 +64,7 @@
 - (void)Éµ>;
 
 // Remaining properties
-@property(nonatomic) double comparableProbability; // @synthesize comparableProbability=_comparableProbability;
-@property(retain, nonatomic) NLXSchemaCDMCorrectionOutcome *correctionOutcome; // @synthesize correctionOutcome=_correctionOutcome;
-@property(nonatomic) _Bool hasComparableProbability;
-@property(nonatomic) _Bool hasCorrectionOutcome; // @synthesize hasCorrectionOutcome=_hasCorrectionOutcome;
-@property(nonatomic) _Bool hasId; // @synthesize hasId=_hasId;
-@property(nonatomic) _Bool hasParser; // @synthesize hasParser=_hasParser;
-@property(nonatomic) _Bool hasProbability;
-@property(nonatomic) _Bool hasRepetitionResult; // @synthesize hasRepetitionResult=_hasRepetitionResult;
 @property(retain, nonatomic) SISchemaUUID *id; // @synthesize id=_id;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) NLXSchemaCDMParser *parser; // @synthesize parser=_parser;
-@property(nonatomic) double probability; // @synthesize probability=_probability;
-@property(retain, nonatomic) NLXSchemaCDMRepetitionResult *repetitionResult; // @synthesize repetitionResult=_repetitionResult;
-@property(copy, nonatomic) NSArray *userDialogActs; // @synthesize userDialogActs=_userDialogActs;
 
 @end
 

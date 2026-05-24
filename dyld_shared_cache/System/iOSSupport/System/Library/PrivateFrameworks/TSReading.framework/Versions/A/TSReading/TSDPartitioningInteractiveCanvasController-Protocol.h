@@ -5,6 +5,8 @@
 //
 
 @protocol TSDPartitioningInteractiveCanvasController
+- (_Bool)MPCPlaybackEngineFirstAudioFrameNotification;
+- (void)ontrols for Podcasts;
 
 // Remaining properties
 @property(nonatomic) _Bool shouldUseCachedPartitionRendering;

@@ -9,18 +9,13 @@
 @interface ICIAMMessagePresentationTrigger
 {
     NSString *_bundleIdentifier;
-    int _kind;
-    NSString *_triggerName;
-    struct {
-        unsigned int kind:1;
-    } _has;
 }
 
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)t:hasBezierCurveDeformer: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -28,24 +23,19 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (void)<;
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)colorWithCalibratedRed:(int)arg1 green:blue:alpha: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (int);
-- (int);
+- (int);
+- (int);
 - (void);
 - (void)Ph;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, nonatomic) _Bool hasBundleIdentifier;
-@property(nonatomic) _Bool hasKind;
 @property(readonly, nonatomic) _Bool hasTriggerName;
-@property(nonatomic) int kind; // @synthesize kind=_kind;
-@property(retain, nonatomic) NSString *triggerName; // @synthesize triggerName=_triggerName;
 
 @end
 

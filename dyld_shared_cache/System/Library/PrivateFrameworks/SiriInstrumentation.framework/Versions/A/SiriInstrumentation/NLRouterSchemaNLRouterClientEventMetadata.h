@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface NLRouterSchemaNLRouterClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_nlRouterId;
-    SISchemaUUID *_requestId;
-    SISchemaUUID *_trpId;
-    _Bool _hasNlRouterId;
-    _Bool _hasRequestId;
-    _Bool _hasTrpId;
 }
 
 - (id);
@@ -24,16 +19,16 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)ources/libressl/libressl-2.2/crypto/ocsp/ocsp_cl.c;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -41,18 +36,12 @@
 - (id);
 - (id);
 - (id)TB,N,V_hasParameterNotAllowed;
-- (id)ity10Min: /* Error: Ran out of types for this method. */;
+- (id)setAppUsageCountForEntity10Min: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)ÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasNlRouterId; // @synthesize hasNlRouterId=_hasNlRouterId;
-@property(nonatomic) _Bool hasRequestId; // @synthesize hasRequestId=_hasRequestId;
-@property(nonatomic) _Bool hasTrpId; // @synthesize hasTrpId=_hasTrpId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *nlRouterId; // @synthesize nlRouterId=_nlRouterId;
-@property(retain, nonatomic) SISchemaUUID *requestId; // @synthesize requestId=_requestId;
-@property(retain, nonatomic) SISchemaUUID *trpId; // @synthesize trpId=_trpId;
 
 @end
 

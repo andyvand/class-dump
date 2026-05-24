@@ -8,16 +8,16 @@
 {
 }
 
++ (Class)s;
++ (Class);
++ (Class);
++ (Class)%s;
 + (Class);
 + (Class);
++ (Class)s;
 + (Class);
 + (Class);
-+ (Class);
-+ (Class);
-+ (Class);
-+ (Class);
-+ (Class);
-+ (Class);
++ (Class)%s;
 
 @end
 

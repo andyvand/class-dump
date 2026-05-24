@@ -5,5 +5,9 @@
 //
 
 @protocol XPCWriteConfigSync
+
+@optional
+- (oneway void);
+- (oneway void)9h;
 @end
 

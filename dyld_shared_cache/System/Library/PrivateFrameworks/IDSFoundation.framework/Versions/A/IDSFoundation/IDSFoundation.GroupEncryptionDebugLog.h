@@ -7,11 +7,6 @@
 @interface IDSFoundation.GroupEncryptionDebugLog
 {
     id sessionID;
-    id startTime;
-    id startTimeIntervalSinceReferenceDate;
-    id contextIDs;
-    id batchState;
-    id writeFn;
 }
 
 @end

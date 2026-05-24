@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioFormat, NSArray, NSString, NSUUID;
-
 @interface ATAudioTapDescription
 {
     long long _tapType;
-    NSArray *_processIdentifiers;
-    NSArray *_excludedPIDs;
-    NSString *_name;
-    NSUUID *_UUID;
-    AVAudioFormat *_format;
-    long long _muteBehavior;
 }
 
 + (_Bool);
-- (id);
+- (id)areaHighlightId;
 - (id);
 - (id);
 - (id);
@@ -32,7 +24,7 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)totalStagerDetermineJobsFinished;
 - (id);
 - (void);
 - (id);
@@ -41,17 +33,10 @@
 - (id);
 - (int);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(copy, nonatomic) NSArray *excludedPIDs; // @synthesize excludedPIDs=_excludedPIDs;
-@property(readonly, nonatomic) AVAudioFormat *format; // @synthesize format=_format;
-@property(nonatomic) long long muteBehavior; // @synthesize muteBehavior=_muteBehavior;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) int processIdentifier;
-@property(copy, nonatomic) NSArray *processIdentifiers; // @synthesize processIdentifiers=_processIdentifiers;
 @property(readonly, nonatomic) long long tapType; // @synthesize tapType=_tapType;
 
 @end

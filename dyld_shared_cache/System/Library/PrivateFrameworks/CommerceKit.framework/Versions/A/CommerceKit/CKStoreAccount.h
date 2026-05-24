@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface CKStoreAccount
 {
     NSString *_clientIdentifier;
-    long long _serverType;
-    NSString *_token;
-    unsigned char _kind;
-    _Bool _isManagedStudent;
-    NSNumber *_dsID;
-    NSString *_firstName;
-    NSString *_identifier;
-    NSString *_lastName;
-    NSString *_credit;
 }
 
 + (id);
@@ -25,24 +16,24 @@
 + (id);
 + (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (long long);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (id)-;
+- (id);
+- (_Bool);
+- (id);
+- (unsigned long long)C;
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned char);
@@ -51,15 +42,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly) NSString *credit; // @synthesize credit=_credit;
-@property(readonly) NSNumber *dsID; // @synthesize dsID=_dsID;
-@property(readonly) NSString *firstName; // @synthesize firstName=_firstName;
-@property(readonly) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) _Bool isManagedStudent; // @synthesize isManagedStudent=_isManagedStudent;
-@property(readonly) _Bool isPrimary;
-@property(readonly) _Bool isSignedIn;
 @property(readonly) unsigned char kind; // @synthesize kind=_kind;
-@property(readonly) NSString *lastName; // @synthesize lastName=_lastName;
 
 @end
 

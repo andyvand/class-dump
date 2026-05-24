@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (_Bool);
-- (id);
+- (id)=[64S]^{__CFString}^S*{?=qq}qq}16q24@32^{?=[64S]^{__CFString}^S*{?=qq}qq}40q48@56;
 - (void);
 - (void);
-- (id);
+- (id)Z;
 - (void);
 
 // Remaining properties

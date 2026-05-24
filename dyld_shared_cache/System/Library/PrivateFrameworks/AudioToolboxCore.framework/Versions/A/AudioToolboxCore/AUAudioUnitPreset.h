@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AUAudioUnitPreset
 {
     long long _number;
-    NSString *_name;
 }
 
 + (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)MutationRequestConfiguration &)>="__buf_"(type="__data"[24C])"__f_"^v}};
 - (void);
 - (long long);
 - (void);
-- (void)dioConverterOOP17fillComplexBufferEPFiP20OpaqueAudioConverterPjP15AudioBufferListPP28AudioStreamPacketDescripti;
+- (void)_ZN8original17AudioConverterOOP17fillComplexBufferEPFiP20OpaqueAudioConverterPjP15AudioBufferListPP28AudioStreamPacketDescripti;
 
 // Remaining properties
-@property(copy) NSString *name; // @synthesize name=_name;
 @property long long number; // @synthesize number=_number;
 
 @end

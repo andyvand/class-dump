@@ -6,47 +6,34 @@
 
 #import <AppKit/NSView.h>
 
-@class NSColor, NSString;
+@class NSColor;
 
 __attribute__((visibility("hidden")))
 @interface _NSBoxCustomView : NSView
 {
     NSColor *_fillColor;
-    NSColor *_borderColor;
-    double _borderWidth;
-    double _cornerRadius;
 }
 
-+ (id);
++ (id)rno}d;
+- (_Bool);
+- (_Bool)Ѐ;
+- (void);
+- (void)aches/com.apple.xbs/TemporaryDirectory.WBOEkW/Sources/boringssl/crypto/fipsmodule/ec/simple.c.inc;
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id)te:(struct CGRect)arg1 forceControlStrip: /* Error: Ran out of types for this method. */;
-- (id)led;
+- (void)eout, updating items manually;
+- (id)toggleCustomizationPalette:(struct CGRect)arg1 forceControlStrip: /* Error: Ran out of types for this method. */;
+- (id)_isScrollingBehaviorEnabled;
 - (double)à`ÿÿ;
-- (id)onLock;
+- (id)transactionLock;
 - (void);
 - (void)ttempted to append a range that does not follow the preceeding range.;
 - (double)_stopCollectingNSResponderDebugInfo but no collection ongoing. (array);
-- (void)ntrollerConfigurationBinder;
+- (void)NSControllerConfigurationBinder;
 - (void)4%A;
 
 // Remaining properties
-@property(copy) NSColor *borderColor; // @synthesize borderColor=_borderColor;
-@property double borderWidth; // @synthesize borderWidth=_borderWidth;
-@property double cornerRadius; // @synthesize cornerRadius=_cornerRadius;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy) NSColor *fillColor; // @synthesize fillColor=_fillColor;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

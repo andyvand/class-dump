@@ -14,7 +14,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)ouble, double, double);
 - (id);
 - (id)alified;
 - (void)ðÊ>;

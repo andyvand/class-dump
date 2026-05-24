@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapItemStorage, GEOPDPlace, NSString, _INPBValueMetadata;
+@class GEOMapItemStorage;
 
 @interface _INPBLocationValue
 {
     struct _has;
-    GEOMapItemStorage *_mapItemStorage;
-    GEOPDPlace *_place;
-    _INPBValueMetadata *_valueMetadata;
 }
 
 + (_Bool);
@@ -25,29 +22,17 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)h;
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (_Bool)è ;
 - (void)e URL;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasMapItemStorage;
-@property(readonly, nonatomic) _Bool hasPlace;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) GEOMapItemStorage *mapItemStorage; // @synthesize mapItemStorage=_mapItemStorage;
-@property(retain, nonatomic) GEOPDPlace *place; // @synthesize place=_place;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata; // @synthesize valueMetadata=_valueMetadata;
 
 @end
 

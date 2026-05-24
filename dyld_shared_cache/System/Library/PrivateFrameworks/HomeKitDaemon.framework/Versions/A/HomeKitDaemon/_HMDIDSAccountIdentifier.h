@@ -16,10 +16,10 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (_Bool)HÄL!W) ,-X¤-ì-;
-- (_Bool);
+- (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)eboard enabled;
+- (id);
 - (id);
 - (_Bool);
 - (void);

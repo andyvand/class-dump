@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)SettingsActionsClientResponse"@"NSError">;
 - (id);
 - (void);
 

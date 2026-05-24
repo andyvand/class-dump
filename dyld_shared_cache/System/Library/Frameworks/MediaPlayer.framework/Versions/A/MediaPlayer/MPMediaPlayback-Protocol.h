@@ -5,11 +5,11 @@
 //
 
 @protocol MPMediaPlayback
-- (void)ginalObject;
+- (float);
+- (void)=ddd},R,N;
+- (void)effectiveOriginalObject;
 
 // Remaining properties
-@property(nonatomic) float currentPlaybackRate;
-@property(nonatomic) double currentPlaybackTime;
 @property(readonly, nonatomic) _Bool isPreparedToPlay;
 @end
 

@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
+- (void)_NSURLSessionLocal _getCookieHeadersForTask:completionHandler:] /* Error: Ran out of types for this method. */;
 - (_Bool);
 
 @end

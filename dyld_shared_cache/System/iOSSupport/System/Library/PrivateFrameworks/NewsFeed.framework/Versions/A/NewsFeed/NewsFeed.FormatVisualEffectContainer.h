@@ -7,7 +7,6 @@
 @interface NewsFeed.FormatVisualEffectContainer
 {
     id blurEffectView;
-    id vibrancyEffectView;
 }
 
 @end

@@ -5,5 +5,8 @@
 //
 
 @protocol NSEditorRegistration
+
+@optional
+- (void);
 @end
 

@@ -9,10 +9,6 @@
 @interface TUCallTranslationRequestConfiguration
 {
     int _translationLinks;
-    int _remoteAudioMode;
-    int _translationMode;
-    NSLocale *_localLocale;
-    NSLocale *_remoteLocale;
 }
 
 + (_Bool);
@@ -26,22 +22,19 @@
 - (_Bool);
 - (id);
 - (int);
-- (void);
+- (void)h�d� ;
 - (int);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)
+;
 - (void);
 - (id);
-- (void)on;
+- (void)requiresUserAttentionReason;
 
 // Remaining properties
 @property(retain, nonatomic) NSLocale *localLocale; // @synthesize localLocale=_localLocale;
-@property(nonatomic) int remoteAudioMode; // @synthesize remoteAudioMode=_remoteAudioMode;
-@property(retain, nonatomic) NSLocale *remoteLocale; // @synthesize remoteLocale=_remoteLocale;
-@property(nonatomic) int translationLinks; // @synthesize translationLinks=_translationLinks;
-@property(nonatomic) int translationMode; // @synthesize translationMode=_translationMode;
 
 @end
 

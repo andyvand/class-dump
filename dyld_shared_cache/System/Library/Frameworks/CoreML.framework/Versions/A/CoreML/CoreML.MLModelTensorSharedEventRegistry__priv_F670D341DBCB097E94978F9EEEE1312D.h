@@ -7,7 +7,6 @@
 @interface CoreML.MLModelTensorSharedEventRegistry__priv_F670D341DBCB097E94978F9EEEE1312D
 {
     id mtlDevice;
-    id sharedModelEventPool;
 }
 
 @end

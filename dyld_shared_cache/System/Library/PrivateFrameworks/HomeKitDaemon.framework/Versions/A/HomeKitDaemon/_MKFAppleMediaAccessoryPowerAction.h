@@ -6,8 +6,7 @@
 
 #import <HomeKitDaemon/_MKFAction.h>
 
-@class MKFAppleMediaAccessoryPowerActionDatabaseID, NSDate, NSNumber, NSString, NSUUID;
-@protocol MKFActionSet, MKFAppleMediaAccessory, MKFHome;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface _MKFAppleMediaAccessoryPowerAction : _MKFAction
@@ -24,28 +23,10 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) id <MKFAppleMediaAccessory> accessory; // @dynamic accessory;
-@property(readonly, retain, nonatomic) id <MKFActionSet> actionSet;
-@property(readonly, copy, nonatomic) MKFAppleMediaAccessoryPowerActionDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSUUID *hmd_modelID;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSUUID",?,R,C,N
 
-@property(readonly, copy, nonatomic) NSUUID *hmd_parentModelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(readonly) id <MKFHome> home;
-@property(readonly, copy, nonatomic) NSUUID *modelID;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSNumber *targetSleepWakeState; // @dynamic targetSleepWakeState;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 
 @end
 

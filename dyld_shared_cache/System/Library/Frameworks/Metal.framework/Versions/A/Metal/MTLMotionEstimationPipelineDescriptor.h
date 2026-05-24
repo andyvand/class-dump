@@ -13,7 +13,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long textureHeight; // @dynamic textureHeight;
 @property(nonatomic) unsigned long long textureWidth; // @dynamic textureWidth;
 
 @end

@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AutoFillAuthorizationController, AutoFillLocalAuthenticationManager, NSMutableDictionary, WBSCoalescedAsynchronousWriter, WBSSavedAccount;
-@protocol WBSEncryptionProvider;
+@class WBSCoalescedAsynchronousWriter, WBSSavedAccount;
 
 __attribute__((visibility("hidden")))
 @interface FormDataController
 {
     WBSCoalescedAsynchronousWriter *_formDataWriter;
-    AutoFillAuthorizationController *_autoFillAuthorizationController;
-    id <WBSEncryptionProvider> _encryptionProvider;
-    NSMutableDictionary *_threadUnsafeDeniedCredentialsByProtectionSpace;
-    _Bool _hasAuthenticatedForPasswordAutoFillInClamshellMode;
-    WBSSavedAccount *_recentlyUsedSavedAccount;
-    AutoFillLocalAuthenticationManager *_localAuthenticationManager;
 }
 
 + (id);
@@ -42,7 +35,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)#;
 - (void);
 - (void);
 - (id);
@@ -75,7 +68,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)R!;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -93,8 +86,6 @@ __attribute__((visibility("hidden")))
 - (void)¼;
 
 // Remaining properties
-@property(nonatomic) _Bool hasAuthenticatedForPasswordAutoFillInClamshellMode; // @synthesize hasAuthenticatedForPasswordAutoFillInClamshellMode=_hasAuthenticatedForPasswordAutoFillInClamshellMode;
-@property(readonly, nonatomic) AutoFillLocalAuthenticationManager *localAuthenticationManager; // @synthesize localAuthenticationManager=_localAuthenticationManager;
 @property(retain, nonatomic) WBSSavedAccount *recentlyUsedSavedAccount; // @synthesize recentlyUsedSavedAccount=_recentlyUsedSavedAccount;
 
 @end

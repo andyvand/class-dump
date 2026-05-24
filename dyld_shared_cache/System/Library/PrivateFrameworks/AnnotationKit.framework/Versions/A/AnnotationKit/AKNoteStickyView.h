@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAnnotationTheme, NSBox, NSColor, NSTrackingArea;
-@protocol AKNoteStickyViewDelegate;
+@class NSBox;
 
 @interface AKNoteStickyView
 {
     _Bool _isNoteMarker;
-    _Bool _mouseInView;
-    _Bool _clickPossible;
-    AKAnnotationTheme *_theme;
-    NSColor *_themeColor;
-    id <AKNoteStickyViewDelegate> _delegate;
-    NSBox *_boxView;
-    NSTrackingArea *_mouseTrackingArea;
 }
 
 - (void);
@@ -27,32 +19,25 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
+- (void);
+- (id);
 - (_Bool);
 - (void);
+- (id);
+- (void);
+- (id)rchase_history_token;
+- (void);
+- (id)h";
+- (void);
+- (void);
 - (id);
 - (void);
-- (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void)Cursor:(id)arg1;
+- (void)setCurrentCursorOrNil:(id)arg1 updateSystemCursor: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSBox *boxView; // @synthesize boxView=_boxView;
-@property _Bool clickPossible; // @synthesize clickPossible=_clickPossible;
-@property(nonatomic) __weak id <AKNoteStickyViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool isNoteMarker; // @synthesize isNoteMarker=_isNoteMarker;
-@property _Bool mouseInView; // @synthesize mouseInView=_mouseInView;
-@property(retain, nonatomic) NSTrackingArea *mouseTrackingArea; // @synthesize mouseTrackingArea=_mouseTrackingArea;
-@property(retain, nonatomic) AKAnnotationTheme *theme; // @synthesize theme=_theme;
-@property(retain, nonatomic) NSColor *themeColor; // @synthesize themeColor=_themeColor;
 
 @end
 

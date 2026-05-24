@@ -11,7 +11,7 @@
     HMIVideoEventBuffer *_buffer;
 }
 
-- (double);
+- (double)3;
 - (id);
 - (void);
 - (id);

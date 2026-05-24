@@ -6,18 +6,12 @@
 
 #import <AppKit/NSRootMenuWindowBackgroundView.h>
 
-@class NSMutableArray, NSRemoteView, NSWindow;
-@protocol NSContextMenuServerProtocol, NSMenuRemoteViewDelegate;
+@class NSRemoteView, NSWindow;
 
 __attribute__((visibility("hidden")))
 @interface NSMenuRemoteView : NSRootMenuWindowBackgroundView
 {
     NSRemoteView *_remoteView;
-    _Bool _isRunning;
-    _Bool _isValid;
-    NSMutableArray *_readySemaphores;
-    id <NSMenuRemoteViewDelegate> _delegate;
-    NSWindow *_hostWindow;
 }
 
 + (id);
@@ -28,18 +22,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
+- (id)quested;
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)set_updatedStreamingZipModificationDate: /* Error: Ran out of types for this method. */;
+- (void)set_uniqueIdentifier: /* Error: Ran out of types for this method. */;
+- (void)ic}@;
 - (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)set_hasAnchoredTextAttachments: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool);
@@ -47,16 +41,7 @@ __attribute__((visibility("hidden")))
 - (id)Ä#B;
 
 // Remaining properties
-@property __weak id <NSMenuRemoteViewDelegate> delegate; // @synthesize delegate=_delegate;
 @property __weak NSWindow *hostWindow; // @synthesize hostWindow=_hostWindow;
-@property(readonly) _Bool isRunning;
-@property(readonly) _Bool isValid;
-@property(readonly) NSRemoteView *remoteView;
-@property(readonly) __weak id <NSContextMenuServerProtocol> serviceProxy;
-@property(readonly) _Bool shouldRetainExportedObject;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
 
 @end
 

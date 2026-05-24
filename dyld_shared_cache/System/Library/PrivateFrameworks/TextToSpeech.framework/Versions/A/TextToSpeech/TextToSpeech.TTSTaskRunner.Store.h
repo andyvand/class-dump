@@ -7,12 +7,6 @@
 @interface TextToSpeech.TTSTaskRunner.Store
 {
     id _$tasks_Storage;
-    id _$lock_tasks;
-    id _$currentBootTime_Storage;
-    id _$lock_currentBootTime;
-    id encoder;
-    id decoder;
-    id store;
 }
 
 @end

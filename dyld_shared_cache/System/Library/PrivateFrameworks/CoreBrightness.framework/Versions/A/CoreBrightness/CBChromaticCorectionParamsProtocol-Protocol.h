@@ -5,15 +5,10 @@
 //
 
 @protocol CBChromaticCorectionParamsProtocol
+- (float);
+- (float)a;
 
 // Remaining properties
-@property(readonly) float aodRampDuration;
 @property(readonly) float luxActivationThreshold;
-@property(readonly) float nitsActivationThreshold;
-@property(readonly) float rampDownDuration;
-@property(readonly) float rampDownLuxDeltaThreshold;
-@property(readonly) float rampUpDuration;
-@property(readonly) float rampUpLuxDeltaThreshold;
-@property(readonly) float rampUpdateRate;
 @end
 

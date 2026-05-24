@@ -6,16 +6,11 @@
 
 #import <GameController/GCPhysicalInputProfile.h>
 
-@class NSArray, NSSet, NSString;
+@class NSArray;
 
 @interface GCKeyboardInput : GCPhysicalInputProfile
 {
     NSArray *_keys;
-    NSSet *_allCodes;
-    int _numberOfKeysPressed;
-    id _keyboardEventObservation;
-    CDUnknownBlockType _keyChangedHandler;
-    CDUnknownBlockType _keyChangedHandlerPrivate;
 }
 
 - (void);
@@ -28,20 +23,11 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)preFPFSDownloadOrGenerateThumbnailAtTaggedURL:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAnyKeyPressed) _Bool anyKeyPressed;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType keyChangedHandler; // @synthesize keyChangedHandler=_keyChangedHandler;
-@property(copy, nonatomic) CDUnknownBlockType keyChangedHandlerPrivate; // @synthesize keyChangedHandlerPrivate=_keyChangedHandlerPrivate;
-@property(readonly) Class superclass;
 
 @end
 

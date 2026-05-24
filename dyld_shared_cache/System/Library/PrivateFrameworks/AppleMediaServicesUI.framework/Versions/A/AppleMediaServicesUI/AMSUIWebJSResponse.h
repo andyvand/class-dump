@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSUIWebJSRequest, NSDictionary;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebJSResponse
 {
     NSDictionary *_body;
-    double _duration;
-    AMSUIWebJSRequest *_originalRequest;
 }
 
 + (_Bool);
+- (id)8@16^B24;
 - (id);
-- (id);
-- (id);
-- (double);
+- (id)touchEventWithStage:location:radius:timestamp:pathIndex:fingerID:forcedKeyCode:continuousPathState:UUID: /* Error: Ran out of types for this method. */;
+- (double);
 - (void);
-- (void);
+- (void)_notifyDelegateOfUpdatedProtectionMode;
 - (void)e";
-- (id)ed:completion: /* Error: Ran out of types for this method. */;
+- (id)ams_dismissViewControllerAnimated:includePresented:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) NSDictionary *body; // @synthesize body=_body;
-@property(readonly) double duration; // @synthesize duration=_duration;
-@property(readonly) AMSUIWebJSRequest *originalRequest; // @synthesize originalRequest=_originalRequest;
 
 @end
 

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 @protocol MTLDevice;
 
 @interface MPSSVGFDefaultTextureAllocator
 {
     NSMutableArray *_textures;
-    id <MTLDevice> _device;
-    unsigned long long _allocatedTextureCount;
 }
 
 - (id);
@@ -23,15 +21,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long allocatedTextureCount; // @synthesize allocatedTextureCount=_allocatedTextureCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) id <MTLDevice> device; // @synthesize device=_device;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

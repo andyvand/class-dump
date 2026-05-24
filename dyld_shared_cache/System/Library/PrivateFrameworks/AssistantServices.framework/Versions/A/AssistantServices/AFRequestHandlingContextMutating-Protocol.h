@@ -5,5 +5,6 @@
 //
 
 @protocol AFRequestHandlingContextMutating
+- (void);
 @end
 

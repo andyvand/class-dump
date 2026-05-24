@@ -13,9 +13,9 @@
 
 + (_Bool);
 - (id);
-- (unsigned long long);
-- (id);
-- (id);
+- (unsigned long long);
+- (id)h;
+- (id)pluginProxyWithIdentifier:(id)arg1 type:pluginClass:extensionPoint: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

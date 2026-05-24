@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EWSEmailAddress, NSString;
+@class EWSEmailAddress;
 
 @interface EWSMailboxData
 {
     _Bool _ExcludeConflicts;
-    EWSEmailAddress *_Email;
-    long long _AttendeeType;
 }
 
 + (id);
@@ -23,16 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long AttendeeType; // @synthesize AttendeeType=_AttendeeType;
 @property(retain, nonatomic) EWSEmailAddress *Email; // @synthesize Email=_Email;
-@property(nonatomic) _Bool ExcludeConflicts; // @synthesize ExcludeConflicts=_ExcludeConflicts;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

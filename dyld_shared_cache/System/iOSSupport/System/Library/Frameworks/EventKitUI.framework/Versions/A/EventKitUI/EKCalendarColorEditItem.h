@@ -6,51 +6,37 @@
 
 #import <EventKitUI/EKCalendarEditItem.h>
 
-@class EKCalendarColorViewController, NSMutableArray, NSString, UIColorPickerViewController;
-@protocol EKCalendarColorEditItemDelegate;
+@class UIColorPickerViewController;
 
 @interface EKCalendarColorEditItem : EKCalendarEditItem
 {
     UIColorPickerViewController *_customColorPicker;
-    NSMutableArray *_cells;
-    unsigned long long _checkedRow;
-    EKCalendarColorViewController *_layoutInlineViewController;
-    _Bool _layoutInline;
-    id <EKCalendarColorEditItemDelegate> _colorEditItemDelegate;
 }
 
+- (void)s;
 - (void);
-- (void);
+- (void);
+- (_Bool);
+- (_Bool)y*s;
+- (unsigned long long);
 - (void);
 - (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (void);
-- (_Bool);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)s;
 - (void);
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)_TtCV20SiriOntologyProtobuf38Google_Protobuf_ServiceDescriptorProtoP33_B62C77B489B1F84E4650498C184D518013_StorageClass;
 - (id);
-- (void)rediction;
+- (void)locationsWithoutPrediction;
 
 // Remaining properties
-@property(nonatomic) __weak id <EKCalendarColorEditItemDelegate> colorEditItemDelegate; // @synthesize colorEditItemDelegate=_colorEditItemDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool layoutInline; // @synthesize layoutInline=_layoutInline;
-@property(readonly) Class superclass;
 
 @end
 

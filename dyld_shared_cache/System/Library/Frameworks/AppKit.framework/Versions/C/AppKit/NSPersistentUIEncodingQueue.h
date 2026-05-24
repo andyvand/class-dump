@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id)NecessaryShouldApplyTransmitWorkaround;
+- (id)NSSplitViewAdjustArrangedViewsIfNecessaryShouldApplyTransmitWorkaround;
 - (void)Ø@;
 
 // Remaining properties

@@ -4,14 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIContextMenuInteraction, UITargetedPreview;
+@class UIContextMenuConfiguration, UIContextMenuInteraction, UITargetedPreview;
 
 @protocol UIContextMenuInteractionDelegate
 
 @optional
+- (void);
 - (UITargetedPreview *)0@ù
 × ;
 - (void){_NSRange=QQ}16;
-- (UITargetedPreview *)set:(UIContextMenuInteraction *)arg1;
+- (UITargetedPreview *)collectionView:(UIContextMenuInteraction *)arg1 targetContentOffsetForProposedContentOffset:(UIContextMenuConfiguration *)arg2;
 @end
 

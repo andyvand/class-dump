@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PDSCDUser;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface PDSCDRegistration
@@ -13,22 +13,17 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
++ (id)shouldBeUnregisteredBeforeDeleted;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)estimator_delta_heading_rate_constraint_not_turning_with_high_confidence_dps;
 + (id);
 + (id);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *clientID; // @dynamic clientID;
-@property(nonatomic) short entryState; // @dynamic entryState;
-@property(nonatomic) short environment; // @dynamic environment;
 @property(copy, nonatomic) NSString *qualifier; // @dynamic qualifier;
-@property(retain, nonatomic) NSString *topic; // @dynamic topic;
-@property(retain, nonatomic) PDSCDUser *user; // @dynamic user;
 
 @end
 

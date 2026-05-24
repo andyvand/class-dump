@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAnnotation, AKController, AKShapeDetectionController, AKSmoothPathView, NSMutableArray, NSString;
+@class AKController;
 
 @interface AKLegacyDoodleController
 {
     _Bool _preferDoodle;
-    _Bool _coalescesDoodles;
-    _Bool _shapeDetectionEnabled;
-    _Bool _selectNewlyCreatedAnnotations;
-    _Bool _pressureSensitiveDoodleMode;
-    _Bool _ignoreAnnotationAndSelectionKVO;
-    _Bool _isShowingOverlay;
-    _Bool _isWaitingToCoalesceStrokes;
-    AKSmoothPathView *_intelligentSketchOverlayView;
-    AKShapeDetectionController *_shapeDetectionController;
-    AKController *_controller;
-    CDUnknownBlockType _performRecognitionBlock;
-    AKAnnotation *_coalescedAnnotation;
-    NSMutableArray *_recentDoodlesAnnotations;
-    NSMutableArray *_recentDoodlePaths;
-    struct CGRect _recentDrawingBoundsInInputView;
 }
 
 - (void);
@@ -33,11 +18,11 @@
 - (struct CGRect);
 - (_Bool);
 - (id);
+- (void)#;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)$;
 - (void);
 - (void);
 - (void);
@@ -71,7 +56,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -90,29 +75,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) AKAnnotation *coalescedAnnotation; // @synthesize coalescedAnnotation=_coalescedAnnotation;
-@property(nonatomic) _Bool coalescesDoodles; // @synthesize coalescesDoodles=_coalescesDoodles;
 @property __weak AKController *controller; // @synthesize controller=_controller;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property _Bool ignoreAnnotationAndSelectionKVO; // @synthesize ignoreAnnotationAndSelectionKVO=_ignoreAnnotationAndSelectionKVO;
-@property(retain, nonatomic) AKSmoothPathView *intelligentSketchOverlayView; // @synthesize intelligentSketchOverlayView=_intelligentSketchOverlayView;
-@property _Bool isShowingOverlay; // @synthesize isShowingOverlay=_isShowingOverlay;
-@property _Bool isWaitingToCoalesceStrokes; // @synthesize isWaitingToCoalesceStrokes=_isWaitingToCoalesceStrokes;
-@property(copy, nonatomic) CDUnknownBlockType performRecognitionBlock; // @synthesize performRecognitionBlock=_performRecognitionBlock;
-@property(nonatomic) _Bool preferDoodle; // @synthesize preferDoodle=_preferDoodle;
-@property _Bool pressureSensitiveDoodleMode; // @synthesize pressureSensitiveDoodleMode=_pressureSensitiveDoodleMode;
-@property(retain) NSMutableArray *recentDoodlePaths; // @synthesize recentDoodlePaths=_recentDoodlePaths;
-@property(retain) NSMutableArray *recentDoodlesAnnotations; // @synthesize recentDoodlesAnnotations=_recentDoodlesAnnotations;
-@property struct CGRect recentDrawingBoundsInInputView; // @synthesize recentDrawingBoundsInInputView=_recentDrawingBoundsInInputView;
-@property(nonatomic) _Bool selectNewlyCreatedAnnotations; // @synthesize selectNewlyCreatedAnnotations=_selectNewlyCreatedAnnotations;
-@property(retain, nonatomic) AKShapeDetectionController *shapeDetectionController; // @synthesize shapeDetectionController=_shapeDetectionController;
-@property(nonatomic, getter=shapeDetectionEnabled) _Bool shapeDetectionEnabled; // @synthesize shapeDetectionEnabled=_shapeDetectionEnabled;
-@property(readonly) Class superclass;
 
 @end
 

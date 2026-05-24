@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSMutableSet, NSObject, NSString, NSURL, WBSCacheRetainReleasePolicy, WBSLPLinkMetadataCache;
-@protocol OS_dispatch_queue, WBSSiteMetadataProviderDelegate;
+@class NSMutableDictionary, NSURL;
 
 @interface WBSLPLinkMetadataProvider
 {
     NSMutableDictionary *_requestsToResponses;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    WBSLPLinkMetadataCache *_cache;
-    _Bool _isCacheSetUpPending;
-    NSMutableArray *_pendingRequests;
-    WBSCacheRetainReleasePolicy *_cachedResponsePolicy;
-    NSMutableSet *_cancelledRequestsForRetainedURLStrings;
-    NSMutableSet *_urlsWithActiveWebViewFetches;
-    NSMutableArray *_pendingUpdatesUsingWebViews;
-    id <WBSSiteMetadataProviderDelegate> _providerDelegate;
-    NSURL *_cacheDirectoryURL;
 }
 
 + (id);
@@ -59,28 +48,16 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)�;
 - (CDUnknownBlockType);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (void)mberOfConcurrentWebViews;
+- (void)preferredNumberOfConcurrentWebViews;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSURL *cacheDirectoryURL; // @synthesize cacheDirectoryURL=_cacheDirectoryURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property __weak id <WBSSiteMetadataProviderDelegate> providerDelegate; // @synthesize providerDelegate=_providerDelegate;
-@property(readonly, nonatomic) _Bool providesFavicons;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly) Class superclass;
 
 @end
 

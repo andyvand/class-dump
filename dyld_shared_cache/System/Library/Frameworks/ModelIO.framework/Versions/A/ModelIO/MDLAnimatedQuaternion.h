@@ -14,7 +14,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)A;
 - (void);
 - (unsigned long long);
 - (struct);

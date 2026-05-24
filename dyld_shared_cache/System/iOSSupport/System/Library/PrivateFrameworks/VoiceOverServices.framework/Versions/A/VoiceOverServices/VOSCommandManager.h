@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, VOSCommandProfile;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface VOSCommandManager
 {
     NSObject<OS_dispatch_queue> *_queue;
-    VOSCommandProfile *_activeProfile;
-    NSString *_siriShortCutToken;
-    _Bool _activeProfileIsUserProfile;
-    _Bool _loadShortcuts;
 }
 
 - (_Bool);
-- (void);
+- (void)лf;
 - (id);
 - (unsigned long long);
 - (void);
@@ -31,14 +27,14 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)x	{;
 - (_Bool);
 - (id);
 - (unsigned long long);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)nnaire"@"NSError">;
 - (id);
 - (unsigned long long);
 - (id);
@@ -53,23 +49,14 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)setSampleRate:(id)arg1;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) VOSCommandProfile *activeProfile; // @synthesize activeProfile=_activeProfile;
 @property(nonatomic) _Bool activeProfileIsUserProfile; // @synthesize activeProfileIsUserProfile=_activeProfileIsUserProfile;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool loadShortcuts; // @synthesize loadShortcuts=_loadShortcuts;
-@property(readonly) Class superclass;
 
 @end
 

@@ -9,14 +9,6 @@
 @interface MAAbsoluteAssetId
 {
     NSString *_allAttributesHash;
-    NSString *_assetIdHash;
-    NSString *_nonAssetIdHash;
-    NSString *_downloadContentHash;
-    NSString *_downloadUrlHash;
-    NSString *_downloadPolicyHash;
-    NSString *_pallasAssetIdHash;
-    NSString *_assetId;
-    NSString *_assetType;
 }
 
 + (_Bool);
@@ -25,16 +17,16 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)findRuleWithSameDomains:(id)arg1 matchSigningIdentifier:startIndex: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (_Bool);
@@ -49,7 +41,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *assetId; // @synthesize assetId=_assetId;
-@property(retain, nonatomic) NSString *assetType; // @synthesize assetType=_assetType;
 
 @end
 

@@ -7,15 +7,27 @@
 @class NSString;
 
 @protocol NSObject
+- (Class);
+- (_Bool)_updateItemWithZoneRow:blockRow:type:externalID:externalData:modelEncoding:modelData:error: /* Error: Ran out of types for this method. */;
+- (oneway void));
+- (_Bool)c>;
+- (_Bool);
+- (_Bool);
 - (struct _NSZone *)blished, establishing lazily and queuing list-pairing;
 
-// Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
+@optional
+- (NSString *)tMCugKaAnhiVodHRwOi8vd3d3LmFw
+cGxlLmNvbS9hcHBsZWNhL3Jvb3QuY3JsMA0GCSqGSIb3DQEBBQUAA4IBAQA0xQzF
+DlkRL6bCnzJ452QyadutwiXKt0eDt5I8cVOgsq0wlYBQvW1fTNzOeA1MSRBQOBA1
+v0WBrGZYLCEj+JZegOnTxkz9ha45YfYoqkTtFZs/R8BXrGccjM3Uk41P22pUp3tC
+Ww+Zxtc4q1KnoYMdhTB06g0d2miEj+KEfsu5QW7Vn6hCtf8ztnF/6qO53UkDYIV2
+ED6OqOE24xLdhWztZlOwW0ibL3/2yhzwXZgtdK3wSEfF4ZpnsiIPsA4CoOG6amK5
+tLVx9CXhs+Wg7cgaQLX4MRUFpFw4I0yQnUcDgIDUMpBFjw+vm/wC7u3L5jH2nxXm
+fStXQw7iD6GgrYna
+-----END CERTIFICATE-----
+;
 
-@property(readonly, copy) NSString *description;
+// Remaining properties
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

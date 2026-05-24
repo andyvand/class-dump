@@ -10,15 +10,12 @@ __attribute__((visibility("hidden")))
 @interface _LSValidationToken
 {
     NSData *_payload;
-    NSData *_nonce;
-    NSData *_HMAC;
-    id _owner;
 }
 
-+ (_Bool);
++ (_Bool)LFunction>"@"NSError">24;
 - (id);
 - (void);
-- (id);
+- (id)dispatchThreadgroupsWithIndirectBuffer:(id)arg1 indirectBufferOffset:threadsPerThreadgroup /* Error: Ran out of types for this method. */;
 - (void)¨X;
 
 @end

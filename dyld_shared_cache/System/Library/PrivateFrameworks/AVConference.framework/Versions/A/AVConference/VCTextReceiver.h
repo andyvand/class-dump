@@ -4,25 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, VCTextJitterBuffer;
 @protocol VCTextReceiverDelegate;
 
 __attribute__((visibility("hidden")))
 @interface VCTextReceiver
 {
     struct tagHANDLE *_rtpHandle;
-    unsigned int _sampleRate;
-    id <VCTextReceiverDelegate> _delegate;
-    struct tagVCRealTimeThread *_receiverThread;
-    NSArray *_supportedPayloads;
-    VCTextJitterBuffer *_jitterBuffer;
-    double _lastReceivedRTPPacketTime;
-    double _lastReceivedRTCPPacketTime;
-    struct OpaqueVCTransportStreamRunLoop *_runLoop;
 }
 
-- (void);
-- (id);
+- (void)H;
+- (id);
 - (void);
 - (void);
 - (void);
@@ -41,17 +32,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct tagAudioFrame *);
 - (void);
+- (_Bool)?;
 - (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id)ils;
+- (id)@;
+- (void)ministratively-disabled;
+- (id)VCArrayUtils;
 
 // Remaining properties
 @property(nonatomic) id <VCTextReceiverDelegate> delegate;
-@property(nonatomic) double lastReceivedRTCPPacketTime; // @synthesize lastReceivedRTCPPacketTime=_lastReceivedRTCPPacketTime;
-@property(nonatomic) double lastReceivedRTPPacketTime; // @synthesize lastReceivedRTPPacketTime=_lastReceivedRTPPacketTime;
-@property(retain, nonatomic) NSArray *supportedPayloads; // @synthesize supportedPayloads=_supportedPayloads;
 
 @end
 

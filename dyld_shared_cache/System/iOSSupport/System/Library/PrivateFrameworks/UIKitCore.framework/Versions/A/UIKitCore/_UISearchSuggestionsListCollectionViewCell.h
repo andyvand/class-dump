@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (id)ateRestingTouchRecoveryTimerIfNecessary;
+- (id)_invalidateRestingTouchRecoveryTimerIfNecessary;
 - (void);
 
 // Remaining properties

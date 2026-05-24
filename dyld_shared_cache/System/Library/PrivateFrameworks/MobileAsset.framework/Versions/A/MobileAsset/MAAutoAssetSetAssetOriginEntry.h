@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MAAutoAssetSelector, NSString;
+@class MAAutoAssetSelector;
 
 @interface MAAutoAssetSetAssetOriginEntry
 {
     MAAutoAssetSelector *_fullAssetSelector;
-    long long _assetOriginType;
-    NSString *_assetDownloadedOSBuild;
-    NSString *_assetAvailableOSBuild;
 }
 
 + (id);
@@ -26,14 +23,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (long long);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *assetAvailableOSBuild; // @synthesize assetAvailableOSBuild=_assetAvailableOSBuild;
-@property(retain, nonatomic) NSString *assetDownloadedOSBuild; // @synthesize assetDownloadedOSBuild=_assetDownloadedOSBuild;
-@property(nonatomic) long long assetOriginType; // @synthesize assetOriginType=_assetOriginType;
 @property(retain, nonatomic) MAAutoAssetSelector *fullAssetSelector; // @synthesize fullAssetSelector=_fullAssetSelector;
 
 @end

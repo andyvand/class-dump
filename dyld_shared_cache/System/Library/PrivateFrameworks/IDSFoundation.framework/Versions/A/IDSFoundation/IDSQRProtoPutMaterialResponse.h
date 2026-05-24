@@ -13,9 +13,9 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
-- (id);
+- (_Bool)uetoothL2CAPChannel"16;
+- (void)setEncryptionReadKey:(id)arg1 readKeyLen:writeKey:writeKeyLen:] /* Error: Ran out of types for this method. */;
+- (id)A	;
 - (id);
 
 @end

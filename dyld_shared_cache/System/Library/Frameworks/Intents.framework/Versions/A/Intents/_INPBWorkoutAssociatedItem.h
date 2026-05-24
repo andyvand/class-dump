@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDataString;
-
 @interface _INPBWorkoutAssociatedItem
 {
     struct {
         unsigned int contentRating:1;
         unsigned int itemLabel:1;
     } _has;
-    int _contentRating;
-    int _itemLabel;
-    NSString *_itemID;
-    _INPBDataString *_itemName;
 }
 
 + (_Bool);
@@ -25,14 +19,14 @@
 - (void);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool)A;
 - (_Bool);
 - (_Bool);
 - (id);
 - (int);
 - (int);
-- (void);
-- (int);
+- (void)autoupdatingCurrentLocale;
+- (int)CreateEnabled;
 - (id);
 - (void);
 - (unsigned long long);
@@ -43,26 +37,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (void)peOptions:(id)arg1;
-- (id)sCount;
+- (void)successWithResolvedFileEntityTypeOptions:(id)arg1;
+- (id)payloadTaskListsCount;
 - (void)e initWithCode:userActivity:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) int contentRating; // @synthesize contentRating=_contentRating;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasContentRating;
-@property(readonly, nonatomic) _Bool hasItemID;
-@property(nonatomic) _Bool hasItemLabel;
-@property(readonly, nonatomic) _Bool hasItemName;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *itemID; // @synthesize itemID=_itemID;
-@property(nonatomic) int itemLabel; // @synthesize itemLabel=_itemLabel;
-@property(retain, nonatomic) _INPBDataString *itemName; // @synthesize itemName=_itemName;
-@property(readonly) Class superclass;
 
 @end
 

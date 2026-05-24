@@ -6,28 +6,21 @@
 
 #import <LinkPresentation/LPMetadataProviderSpecialization.h>
 
-@class LPMapCollectionMetadata, LPMapCollectionPublisherMetadata, LPMapMetadata, MKLinkPreviewMetadataRequest, MKLinkPreviewSnapshotRequest;
-
 __attribute__((visibility("hidden")))
 @interface LPAppleMapsMetadataProviderSpecialization : LPMetadataProviderSpecialization
 {
     _Bool _cancelled;
-    MKLinkPreviewMetadataRequest *_request;
-    MKLinkPreviewSnapshotRequest *_snapshotRequest;
-    LPMapMetadata *_mapMetadata;
-    LPMapCollectionMetadata *_collectionMetadata;
-    LPMapCollectionPublisherMetadata *_publisherMetadata;
 }
 
-+ (id);
++ (id)nager:(id)arg1;
 + (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)stickerDetailViewController:(id)arg1 deletedStickerWithTransferGUID: /* Error: Ran out of types for this method. */;
+- (id)stickerDetailViewController:(id)arg1 deletedStickerWithTransferGUID:(id)arg2;
+- (id)stickerCenterForIndex:(id)arg1 inFrame:(id)arg2 alignLeft:stickerSize: /* Error: Ran out of types for this method. */;
+- (id)stickerCenterForIndex:(id)arg1 inFrame:alignLeft:stickerSize: /* Error: Ran out of types for this method. */;
+- (id)splitViewCoordinator;
+- (void)shouldShowTipsWithAlignment:(CDUnknownBlockType)arg1;
+- (id)shouldDrawOverNavigationBar;
 - (void);
 - (void);
 - (void);

@@ -6,14 +6,9 @@
 
 #import <TextRecognition/CRFormFieldOutputRegion.h>
 
-@class NSString;
-
 @interface CRFormTextFieldOutputRegion : CRFormFieldOutputRegion
 {
     _Bool _autofillNewContextStart;
-    unsigned long long _maxCharacterCount;
-    unsigned long long _textContentType;
-    double _suggestedLineHeight;
 }
 
 - (id);
@@ -22,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)!;
 - (double);
 - (void);
 - (void);
@@ -34,11 +29,7 @@
 - (void)ÿÿ";
 
 // Remaining properties
-@property(readonly) _Bool autofillNewContextStart; // @synthesize autofillNewContextStart=_autofillNewContextStart;
-@property(readonly) unsigned long long maxCharacterCount; // @synthesize maxCharacterCount=_maxCharacterCount;
-@property(readonly) double suggestedLineHeight; // @synthesize suggestedLineHeight=_suggestedLineHeight;
 @property(readonly) unsigned long long textContentType; // @synthesize textContentType=_textContentType;
-@property(readonly) NSString *textContentTypeString;
 
 @end
 

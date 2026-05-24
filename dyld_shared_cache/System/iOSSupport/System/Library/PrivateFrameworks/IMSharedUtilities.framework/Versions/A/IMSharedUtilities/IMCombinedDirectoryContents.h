@@ -17,7 +17,7 @@
 - (void);
 - (id);
 - (id);
-- (void)BIeyBya_;
+- (void)So18NSAttributedStringCABIeyBya_;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *directoryContents; // @synthesize directoryContents=_directoryContents;

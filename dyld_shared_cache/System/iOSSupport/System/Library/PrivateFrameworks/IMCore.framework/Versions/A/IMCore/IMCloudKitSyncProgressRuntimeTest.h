@@ -9,25 +9,21 @@
 @interface IMCloudKitSyncProgressRuntimeTest : IMCloudKitEventNotificationManagerRuntimeTest
 {
     unsigned long long _progressCount;
-    unsigned long long _maxProgressCount;
-    double _progressRescheduleDelay;
 }
 
-- (void);
-- (void);
+- (void)IU;
+- (void)S;
 - (double);
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (void)r:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property unsigned long long maxProgressCount; // @synthesize maxProgressCount=_maxProgressCount;
 @property unsigned long long progressCount; // @synthesize progressCount=_progressCount;
-@property double progressRescheduleDelay; // @synthesize progressRescheduleDelay=_progressRescheduleDelay;
 
 @end
 

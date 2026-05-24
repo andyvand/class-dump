@@ -6,44 +6,36 @@
 
 #import <UIKitCore/_UIBarAppearanceData.h>
 
-@class UIColor, UIImage;
+@class UIColor;
 
 __attribute__((visibility("hidden")))
 @interface _UITabBarLayoutData : _UIBarAppearanceData
 {
     UIColor *_selectionIndicatorTintColor;
-    UIImage *_selectionIndicatorImage;
-    long long _itemPositioning;
-    double _itemWidth;
-    double _itemSpacing;
 }
 
 + (id);
 + (id);
-- (void);
+- (void)N,V_commandRequiresNetworkTether;
 - (void);
 - (double);
-- (long long);
-- (long long);
+- (long long)_objectForRelationshipKey:(id)arg1 propertySet:source:context: /* Error: Ran out of types for this method. */;
+- (long long)P;
 - (double)¡!ÐCùÑað1Â0@ù
 × ;
-- (void)gationItemUpdatedBottomPalette:(double)arg1 oldPalette: /* Error: Ran out of types for this method. */;
+- (void)navigationItemUpdatedBottomPalette:(double)arg1 oldPalette: /* Error: Ran out of types for this method. */;
 - (long long)application enviroment context;
 - (_Bool);
 - (id)bPDFView.m;
 - (void)Library(void);
 - (id)youtState.m;
 - (void)mationForNextPendingRequest;
-- (void);
+- (void)paused;
 - (void)tInput.framework/RemoteTextInput;
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) long long itemPositioning; // @synthesize itemPositioning=_itemPositioning;
-@property(nonatomic) double itemSpacing; // @synthesize itemSpacing=_itemSpacing;
-@property(nonatomic) double itemWidth; // @synthesize itemWidth=_itemWidth;
-@property(retain, nonatomic) UIImage *selectionIndicatorImage; // @synthesize selectionIndicatorImage=_selectionIndicatorImage;
 @property(copy, nonatomic) UIColor *selectionIndicatorTintColor; // @synthesize selectionIndicatorTintColor=_selectionIndicatorTintColor;
 
 @end

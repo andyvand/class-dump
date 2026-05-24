@@ -4,17 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NSObject
+- (Class){CGSize=dd}}20@0:8i16 /* Error: Ran out of types for this method. */;
+- (id)Rect={CGPoint=dd}{CGSize=dd}}20@0:8i16 /* Error: Ran out of types for this method. */;
+- (id)6;
+- (id)4@32@40@48@56@64@72;
+- (id)0:(SEL)arg1 8@16@24q32@?40;
+- (Class)stodiansListViewModel";
+- (_Bool);
+- (_Bool)verable Message count:(Class)arg1;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

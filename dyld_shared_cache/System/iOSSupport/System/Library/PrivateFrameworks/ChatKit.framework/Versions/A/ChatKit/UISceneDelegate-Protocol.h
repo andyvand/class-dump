@@ -4,12 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSUserActivity, UIScene;
+
 @protocol UISceneDelegate
 
 @optional
+- (void);
+- (NSUserActivity *)componentsSeparatedByString:(UIScene *)arg1;
 - (void)× ;
 - (void)_yU<]SgGGA2_GGGG_Qo_Í;
-- (void)Insets;
-- (void);
+- (void)entryViewContentInsets;
 @end
 

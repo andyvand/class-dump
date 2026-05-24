@@ -6,61 +6,35 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSMutableDictionary, NSString, NSTimer, UIButton, UIImageView, UIViewPropertyAnimator;
-@protocol UIStepperControl;
-
 __attribute__((visibility("hidden")))
 @interface UIStepperHorizontalVisualElement : UIView
 {
     _Bool _isRtoL;
-    UIImageView *_leftBackground;
-    UIImageView *_rightBackground;
-    UIImageView *_leftHighlight;
-    UIImageView *_rightHighlight;
-    UIImageView *_middleView;
-    UIButton *_plusButton;
-    UIButton *_minusButton;
-    NSTimer *_repeatTimer;
-    long long _repeatCount;
-    NSMutableDictionary *_dividerImages;
-    UIViewPropertyAnimator *_leftAlphaAnimator;
-    UIViewPropertyAnimator *_rightAlphaAnimator;
-    UIViewPropertyAnimator *_leftFrameAnimator;
-    UIViewPropertyAnimator *_rightFrameAnimator;
-    _Bool _autorepeat;
-    _Bool _continuous;
-    _Bool _enabled;
-    _Bool _wraps;
-    double _value;
-    double _maximumValue;
-    double _minimumValue;
-    id <UIStepperControl> _stepperControl;
-    double _stepValue;
 }
 
 + (struct CGSize);
-+ (struct CGSize);
++ (struct CGSize)C;
 + (struct UIEdgeInsets);
 + (id);
 + (id);
-- (id);
+- (id)_createWrapperForTransfer: /* Error: Ran out of types for this method. */;
+- (struct CGSize)_automation_sendDictionary:(struct CGSize)arg1 options:(id)arg2 toHandles: /* Error: Ran out of types for this method. */;
+- (void)es;
+- (void);
+- (void);
+- (void)l	lL	X;
 - (struct CGSize);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGSize);
-- (id);
-- (id);
-- (id);
-- (struct UIEdgeInsets);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGRect);
+- (id)%s is the latest, existing [%s %s rcptVer %ld hadQOI %{bool}d] incoming [%s %s rcptVer %ld hadQOI %{bool}d];
+- (id)Success:(unsigned long long)arg1 %{BOOL}d;
+- (id)d:(unsigned long long)arg1 YES);
+- (struct UIEdgeInsets)ady have one in cloudkit. Broadcasting to my other devices.;
+- (void)@;
+- (void)t found, nothing to converge;
+- (void)tion for zoneID we haven't set up:%@ subscriptionID:%@ /* Error: Ran out of types for this method. */;
+- (void)ved an empty message guid;
+- (void)articipants;
+- (void)participants we do not have now %@;
+- (struct CGRect)c;
 - (struct CGRect);
 - (struct CGRect);
 - (struct CGRect);
@@ -71,7 +45,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)newResidencySetWithDescriptor:(double)arg1 error: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (struct CGSize);
@@ -88,14 +62,14 @@ __attribute__((visibility("hidden")))
 - (void)UISearchControllerTrackableState";
 - (void)hroughInteraction;
 - (id),N,S_setPaletteOverridesPinningBar:(struct CGRect)arg1;
-- (void)InputMode;
-- (double)ageControlTimerProgress;
+- (void)UISpecializedInputMode;
+- (double)UIPageControlTimerProgress;
 - (double);
 - (struct CGSize)ith '%{private}@';
 - (void)n(UITableViewRowData *__unsafe_unretained, NSInteger);
-- (id)orHWRBackground;
-- (double)nalCandidateBarReset;
-- (void)VisibilityWhenScrolling;
+- (id)UIKBColorHWRBackground;
+- (double)IASignalCandidateBarReset;
+- (void)UINavigationItemSearchBarVisibilityWhenScrolling;
 - (_Bool)UIKitCore/_UIGradientCarouselView.swift;
 - (id);
 - (void)öa;
@@ -109,22 +83,7 @@ __attribute__((visibility("hidden")))
 - (void)¤i;
 
 // Remaining properties
-@property(nonatomic) _Bool autorepeat; // @synthesize autorepeat=_autorepeat;
-@property(nonatomic, getter=isContinuous) _Bool continuous; // @synthesize continuous=_continuous;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
 @property(readonly) unsigned long long hash;
-@property(nonatomic) double maximumValue; // @synthesize maximumValue=_maximumValue;
-@property(nonatomic) double minimumValue; // @synthesize minimumValue=_minimumValue;
-@property(nonatomic) double stepValue; // @synthesize stepValue=_stepValue;
-@property(nonatomic) __weak id <UIStepperControl> stepperControl; // @synthesize stepperControl=_stepperControl;
-@property(readonly) Class superclass;
-@property(nonatomic) double value; // @synthesize value=_value;
-@property(nonatomic) _Bool wraps; // @synthesize wraps=_wraps;
 
 @end
 

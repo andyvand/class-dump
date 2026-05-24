@@ -4,59 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICNote, ICTrackedParagraph, NSColor, NSImage, NSImageView, NSLayoutConstraint, NSTrackingArea;
-@protocol ICTodoButtonDragDelegate;
-
 @interface ICTodoButton
 {
     _Bool _done;
-    _Bool _trackedParagraphIsRTL;
-    _Bool _useConstraintBasedRendering;
-    ICTrackedParagraph *_trackedParagraph;
-    ICNote *_note;
-    NSColor *_highlightColor;
-    NSColor *_overrideTintColor;
-    double _zoomFactor;
-    id <ICTodoButtonDragDelegate> _dragDelegate;
-    NSImage *_doneImage;
-    NSImage *_undoneImage;
-    NSImageView *_undoneImageView;
-    NSImageView *_doneImageView;
-    NSTrackingArea *_cursorTrackingArea;
-    NSLayoutConstraint *_doneEdgeConstraint;
-    NSLayoutConstraint *_undoneEdgeConstraint;
-    NSLayoutConstraint *_doneWidthConstraint;
-    NSLayoutConstraint *_doneHeightConstraint;
-    NSLayoutConstraint *_undoneWidthConstraint;
-    NSLayoutConstraint *_undoneHeightConstraint;
-    struct CGSize _defaultImageSize;
 }
 
 + (struct CGSize);
 + (struct CGSize);
 
 // Remaining properties
-@property(retain) NSTrackingArea *cursorTrackingArea; // @synthesize cursorTrackingArea=_cursorTrackingArea;
 @property(nonatomic) struct CGSize defaultImageSize; // @synthesize defaultImageSize=_defaultImageSize;
-@property(nonatomic, getter=isDone) _Bool done; // @synthesize done=_done;
-@property(retain, nonatomic) NSLayoutConstraint *doneEdgeConstraint; // @synthesize doneEdgeConstraint=_doneEdgeConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *doneHeightConstraint; // @synthesize doneHeightConstraint=_doneHeightConstraint;
-@property(retain, nonatomic) NSImage *doneImage; // @synthesize doneImage=_doneImage;
-@property(retain) NSImageView *doneImageView; // @synthesize doneImageView=_doneImageView;
-@property(retain, nonatomic) NSLayoutConstraint *doneWidthConstraint; // @synthesize doneWidthConstraint=_doneWidthConstraint;
-@property(nonatomic) __weak id <ICTodoButtonDragDelegate> dragDelegate; // @synthesize dragDelegate=_dragDelegate;
-@property(copy, nonatomic) NSColor *highlightColor; // @synthesize highlightColor=_highlightColor;
-@property(nonatomic) __weak ICNote *note; // @synthesize note=_note;
-@property(copy, nonatomic) NSColor *overrideTintColor; // @synthesize overrideTintColor=_overrideTintColor;
-@property(nonatomic) __weak ICTrackedParagraph *trackedParagraph; // @synthesize trackedParagraph=_trackedParagraph;
-@property(nonatomic) _Bool trackedParagraphIsRTL; // @synthesize trackedParagraphIsRTL=_trackedParagraphIsRTL;
-@property(retain, nonatomic) NSLayoutConstraint *undoneEdgeConstraint; // @synthesize undoneEdgeConstraint=_undoneEdgeConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *undoneHeightConstraint; // @synthesize undoneHeightConstraint=_undoneHeightConstraint;
-@property(retain, nonatomic) NSImage *undoneImage; // @synthesize undoneImage=_undoneImage;
-@property(retain) NSImageView *undoneImageView; // @synthesize undoneImageView=_undoneImageView;
-@property(retain, nonatomic) NSLayoutConstraint *undoneWidthConstraint; // @synthesize undoneWidthConstraint=_undoneWidthConstraint;
-@property(nonatomic) _Bool useConstraintBasedRendering; // @synthesize useConstraintBasedRendering=_useConstraintBasedRendering;
-@property(nonatomic) double zoomFactor; // @synthesize zoomFactor=_zoomFactor;
 
 @end
 

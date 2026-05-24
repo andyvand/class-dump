@@ -6,44 +6,35 @@
 
 #import <CalendarUI/EKUIIsolateableSingleViewGadget.h>
 
-@class EKUIResizingTextField, NSColor, NSString;
+@class EKUIResizingTextField, NSColor;
 
 @interface EKUISingleTextFieldGadget : EKUIIsolateableSingleViewGadget
 {
     EKUIResizingTextField *_textField;
-    NSColor *_previousFontColor;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)R;
 - (void);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
+- (void)(;
 - (void);
-- (void);
-- (void);
+- (void)INNextFreshmintRefreshDateKey;
 - (void)× ;
-- (_Bool)ffset:(id)arg1;
+- (_Bool)setRelativeOffset:(id)arg1;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) NSColor *previousFontColor; // @synthesize previousFontColor=_previousFontColor;
-@property(readonly) Class superclass;
-@property(retain) EKUIResizingTextField *textField; // @synthesize textField=_textField;
 
 @end
 

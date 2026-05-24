@@ -7,18 +7,6 @@
 @interface PhotosUICore.LemonadeActiveSearchViewModel
 {
     id _isEditing;
-    id _canShowSearchSuggestions;
-    id _includesInitialSuggestionsInSearchSuggestions;
-    id _container;
-    id _searchText;
-    id _selectedSuggestionIndex;
-    id _selectedRange;
-    id _parsecAssetRetrievalTypeMap;
-    id _searchSuggestionGroups;
-    id _searchResults;
-    id _searchManager;
-    id _initialSuggestionFetcher;
-    id _$observationRegistrar;
 }
 
 @end

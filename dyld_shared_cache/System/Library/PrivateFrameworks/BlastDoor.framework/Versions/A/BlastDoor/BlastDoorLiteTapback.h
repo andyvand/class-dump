@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSString;
 
 @interface BlastDoorLiteTapback
 {
@@ -12,16 +12,13 @@
 }
 
 - (id);
-- (long long);
-- (id);
+- (long long)"16;
+- (id)ViewController"16@"NSURL"24@"NSString"32;
 - (id);
 - (id);
 - (void)y®`;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *associatedMessageEmoji;
-@property(nonatomic, readonly) long long associatedMessageType;
-@property(nonatomic, readonly) NSUUID *associatedMessageUUID;
 @property(nonatomic, readonly) NSString *description;
 
 @end

@@ -9,12 +9,11 @@
 @interface SWConfigurationScript
 {
     WKUserScript *userScript;
-    NSString *_configuration;
 }
 
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -22,17 +21,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *executableScript;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) _Bool queueable;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) WKUserScript *userScript; // @synthesize userScript;
 
 @end
 

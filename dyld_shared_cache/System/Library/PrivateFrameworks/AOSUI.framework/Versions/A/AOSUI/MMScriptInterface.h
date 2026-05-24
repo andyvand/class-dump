@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class Protocol, _MMScriptInterfaceMetadata;
+@class Protocol;
 
 @interface MMScriptInterface
 {
     Protocol *_protocol;
-    _MMScriptInterfaceMetadata *__metadata;
 }
 
 + (id);
 - (void);
-- (void);
+- (void)r;
 - (void);
 - (void);
 - (_Bool);
@@ -28,12 +27,13 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)R?
+k)3;
+- (id);
+- (id)K)?Eq)3;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)aŦ;
 - (id);
 - (void);
 - (_Bool);
@@ -42,12 +42,10 @@
 - (id);
 - (void)0@ù
 × ;
-- (id)ButtonLabel;
+- (id)_infoButtonLabel;
 - (void)ollowupUIController;
 
 // Remaining properties
-@property(retain, nonatomic) _MMScriptInterfaceMetadata *_metadata; // @synthesize _metadata=__metadata;
-@property(nonatomic, getter=isCachingEnabledByDefault) _Bool cachingEnabledByDefault;
 @property(retain, nonatomic) Protocol *protocol; // @synthesize protocol=_protocol;
 
 @end

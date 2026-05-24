@@ -9,14 +9,13 @@
 @interface MSHistoryItem : MapsSync.MapsSyncObject
 {
     id _position;
-    id _positionIndex;
 }
 
 + (void);
 + (id);
 + (id);
 + (Class);
-+ (_Bool);
++ (_Bool)(`;
 - (void);
 - (id);
 - (id);
@@ -28,7 +27,6 @@
 
 // Remaining properties
 @property(nonatomic) double position;
-@property(nonatomic) long long positionIndex;
 
 @end
 

@@ -7,26 +7,20 @@
 @interface ICLiveLinkQueueEventPlaybackModeChanged
 {
     long long _kind;
-    CDUnknownBlockType _shuffleType;
-    CDUnknownBlockType _repeatType;
-    CDUnknownBlockType _autoPlayEnabled;
 }
 
 - (id);
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)8@"NSString"16;
 - (CDUnknownBlockType);
 - (id);
 - (long long);
-- (void)istenerEndpointProvider;
+- (void)ICCloudServerListenerEndpointProvider;
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType autoPlayEnabled; // @synthesize autoPlayEnabled=_autoPlayEnabled;
 @property(readonly, nonatomic) long long kind; // @synthesize kind=_kind;
-@property(readonly, nonatomic) CDUnknownBlockType repeatType; // @synthesize repeatType=_repeatType;
-@property(readonly, nonatomic) CDUnknownBlockType shuffleType; // @synthesize shuffleType=_shuffleType;
 
 @end
 

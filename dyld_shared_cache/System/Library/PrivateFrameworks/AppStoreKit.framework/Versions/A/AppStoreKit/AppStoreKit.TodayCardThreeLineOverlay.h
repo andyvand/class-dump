@@ -9,8 +9,6 @@
 @interface AppStoreKit.TodayCardThreeLineOverlay : AppStoreKit.TodayCardOverlay
 {
     id heading;
-    id title;
-    id description;
 }
 
 @end

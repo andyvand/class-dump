@@ -16,7 +16,7 @@
 + (id);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSData *destinationIPv6Address; // @dynamic destinationIPv6Address;

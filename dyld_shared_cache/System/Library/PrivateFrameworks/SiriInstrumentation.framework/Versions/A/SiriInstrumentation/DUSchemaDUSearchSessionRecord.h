@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface DUSchemaDUSearchSessionRecord : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_sessionId;
-    unsigned long long _sessionStartTimestampMs;
-    struct {
-        unsigned int sessionStartTimestampMs:1;
-    } _has;
-    _Bool _hasSessionId;
 }
 
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)ied in xpc message!;
+- (id)Failed to recurse children of constructed (?) tag 0x%x, returning as simple;
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)BufferStartTimeOffsetInNs"b1};
-- (id)chemaPGModelInferenceContext;
+- (id)PGSchemaPGModelInferenceContext;
 - (id)ÌCPDTE¸E`GH;
 - (void)z¼;
 - (void)|¨Ûÿ;
@@ -41,11 +36,7 @@
 - (void)%;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSessionId; // @synthesize hasSessionId=_hasSessionId;
-@property(nonatomic) _Bool hasSessionStartTimestampMs;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *sessionId; // @synthesize sessionId=_sessionId;
-@property(nonatomic) unsigned long long sessionStartTimestampMs; // @synthesize sessionStartTimestampMs=_sessionStartTimestampMs;
 
 @end
 

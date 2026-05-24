@@ -7,15 +7,6 @@
 @interface _MRVirtualTouchDeviceDescriptorProtobuf
 {
     float _screenSizeHeight;
-    float _screenSizeWidth;
-    _Bool _absolute;
-    _Bool _integratedDisplay;
-    struct {
-        unsigned int screenSizeHeight:1;
-        unsigned int screenSizeWidth:1;
-        unsigned int absolute:1;
-        unsigned int integratedDisplay:1;
-    } _has;
 }
 
 - (void);
@@ -25,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (float);
+- (float)hh8);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -35,24 +26,17 @@
 - (float);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)addEvent;
+- (id)ilure;
 
 // Remaining properties
-@property(nonatomic) _Bool absolute; // @synthesize absolute=_absolute;
 @property(nonatomic) _Bool hasAbsolute;
-@property(nonatomic) _Bool hasIntegratedDisplay;
-@property(nonatomic) _Bool hasScreenSizeHeight;
-@property(nonatomic) _Bool hasScreenSizeWidth;
-@property(nonatomic) _Bool integratedDisplay; // @synthesize integratedDisplay=_integratedDisplay;
-@property(nonatomic) float screenSizeHeight; // @synthesize screenSizeHeight=_screenSizeHeight;
-@property(nonatomic) float screenSizeWidth; // @synthesize screenSizeWidth=_screenSizeWidth;
 
 @end
 

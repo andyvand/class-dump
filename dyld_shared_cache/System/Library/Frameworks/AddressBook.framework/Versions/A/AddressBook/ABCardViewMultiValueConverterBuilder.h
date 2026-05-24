@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABCardViewPersonMapper, CNContact;
-@protocol ABCardViewProperty;
+@class CNContact;
 
 @interface ABCardViewMultiValueConverterBuilder
 {
     _Bool _shouldShowPrivateMeFields;
-    _Bool _isEditing;
-    CNContact *_contact;
-    ABCardViewPersonMapper *_personMapper;
-    id <ABCardViewProperty> _property;
 }
 
 - (_Bool);
@@ -29,7 +24,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)initWithDictionary:forAppAdamID:segment:hasFamily: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool)Á@Ð!HEùª°1Â0@ù
 × ;
@@ -40,10 +35,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(nonatomic) _Bool isEditing; // @synthesize isEditing=_isEditing;
-@property(retain, nonatomic) ABCardViewPersonMapper *personMapper; // @synthesize personMapper=_personMapper;
-@property(retain, nonatomic) id <ABCardViewProperty> property; // @synthesize property=_property;
-@property(nonatomic) _Bool shouldShowPrivateMeFields; // @synthesize shouldShowPrivateMeFields=_shouldShowPrivateMeFields;
 
 @end
 

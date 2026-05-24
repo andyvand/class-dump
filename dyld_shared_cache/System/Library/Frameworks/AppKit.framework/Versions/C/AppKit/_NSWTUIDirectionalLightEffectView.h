@@ -6,13 +6,11 @@
 
 #import <AppKit/_NSWTUIView.h>
 
-@class CAGradientLayer, NSArray, NSTimer;
+@class CAGradientLayer, NSArray;
 
 @interface _NSWTUIDirectionalLightEffectView : _NSWTUIView
 {
     NSArray *_palette;
-    CAGradientLayer *_gradientLayer;
-    NSTimer *_effectTimer;
 }
 
 - (void);
@@ -20,20 +18,18 @@
 - (void);
 - (id);
 - (id);
+- (void)accept_sessionDidFinishEventsForBackgroundURLSession;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)d;
 - (id);
 - (id)g_ABt;
 - (void)hed dealloc but still has a super view. Super views strongly reference their children, so this is being over-released, or has been over-released in the past.;
 - (void)ment;
 
 // Remaining properties
-@property(retain, nonatomic) NSTimer *effectTimer; // @synthesize effectTimer=_effectTimer;
 @property(retain, nonatomic) CAGradientLayer *gradientLayer; // @synthesize gradientLayer=_gradientLayer;
-@property(copy, nonatomic) NSArray *palette; // @synthesize palette=_palette;
 
 @end
 

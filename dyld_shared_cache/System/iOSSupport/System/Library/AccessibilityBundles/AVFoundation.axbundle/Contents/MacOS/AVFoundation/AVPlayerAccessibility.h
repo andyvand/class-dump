@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)/lib/libSystem.B.dylib;
 + (void);
 - (void);
 

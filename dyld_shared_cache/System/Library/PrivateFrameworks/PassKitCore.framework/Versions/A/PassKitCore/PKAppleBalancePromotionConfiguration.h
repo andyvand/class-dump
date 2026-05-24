@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDecimalNumber, NSString;
-
 @interface PKAppleBalancePromotionConfiguration
 {
     long long _promotionType;
-    NSString *_programIdentifier;
-    NSString *_versionIdentifier;
-    long long _generationIdentifier;
-    long long _stamp;
-    NSDecimalNumber *_bonusMinAmount;
-    NSDecimalNumber *_bonusMaxAmount;
-    NSString *_offerText;
-    NSString *_conditionText;
-    NSDate *_lastUpdatedDate;
 }
 
 + (_Bool)X"ð!¨Bùî%ð1Â0@ù
@@ -28,13 +17,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)?=;
 - (void);
 - (long long);
+- (id);
 - (id);
 - (id);
-- (id);
-- (long long);
+- (long long)%;
 - (id);
 - (id);
 - (id);
@@ -45,25 +34,16 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
-- (_Bool);
+- (id)@;
+- (_Bool)corrects;
 - (void);
 - (id);
-- (id);
-- (id)taForImageWithKey:(id)arg1 format: /* Error: Ran out of types for this method. */;
-- (void)eRequest;
+- (id);
+- (id)_imageDataForImageWithKey:(id)arg1 format: /* Error: Ran out of types for this method. */;
+- (void)PKExpressTransactionBannerHandleRequest;
 
 // Remaining properties
-@property(copy, nonatomic) NSDecimalNumber *bonusMaxAmount; // @synthesize bonusMaxAmount=_bonusMaxAmount;
-@property(copy, nonatomic) NSDecimalNumber *bonusMinAmount; // @synthesize bonusMinAmount=_bonusMinAmount;
-@property(copy, nonatomic) NSString *conditionText; // @synthesize conditionText=_conditionText;
-@property(nonatomic) long long generationIdentifier; // @synthesize generationIdentifier=_generationIdentifier;
-@property(copy, nonatomic) NSDate *lastUpdatedDate; // @synthesize lastUpdatedDate=_lastUpdatedDate;
-@property(copy, nonatomic) NSString *offerText; // @synthesize offerText=_offerText;
-@property(copy, nonatomic) NSString *programIdentifier; // @synthesize programIdentifier=_programIdentifier;
 @property(nonatomic) long long promotionType; // @synthesize promotionType=_promotionType;
-@property(nonatomic) long long stamp; // @synthesize stamp=_stamp;
-@property(copy, nonatomic) NSString *versionIdentifier; // @synthesize versionIdentifier=_versionIdentifier;
 
 @end
 

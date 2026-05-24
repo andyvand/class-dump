@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface PAOpenGLProgram
 {
     NSString *_name;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSString *_vertexShaderSource;
-    NSString *_fragmentShaderSource;
-    NSString *_geometryShaderSource;
-    unsigned int _geometryVertexOutCount;
-    NSMutableDictionary *_attributes;
-    NSMutableDictionary *_executables;
 }
 
 - (id);
@@ -26,7 +18,7 @@
 - (void);
 - (void);
 - (unsigned int);
-- (id);
+- (id)e;
 - (unsigned int);
 - (id);
 - (id);
@@ -43,10 +35,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *fragmentShaderSource; // @synthesize fragmentShaderSource=_fragmentShaderSource;
-@property(copy, nonatomic) NSString *geometryShaderSource; // @synthesize geometryShaderSource=_geometryShaderSource;
-@property(nonatomic) unsigned int geometryVertexOutCount; // @synthesize geometryVertexOutCount=_geometryVertexOutCount;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 @property(copy, nonatomic) NSString *vertexShaderSource; // @synthesize vertexShaderSource=_vertexShaderSource;
 
 @end

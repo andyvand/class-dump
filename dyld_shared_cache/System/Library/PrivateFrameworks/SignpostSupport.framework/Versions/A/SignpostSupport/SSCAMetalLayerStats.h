@@ -4,51 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, SSCAMLDurationStats, SSCAMetalLayerFrameStats, SignpostAggregation;
+@class SignpostAggregation;
 
 @interface SSCAMetalLayerStats
 {
     unsigned long long _intervalCount;
-    SSCAMetalLayerFrameStats *_presentedFrameStats;
-    SSCAMetalLayerFrameStats *_skippedFrameStats;
-    SSCAMLDurationStats *_frameOnGlassIntervalStats;
-    SSCAMLDurationStats *_lateClientPresentStats;
-    SSCAMLDurationStats *_lateOnGlassPresentStats;
-    SignpostAggregation *_presentedFrameStatsAggregation;
-    SignpostAggregation *_skippedFrameStatsAggregation;
-    SignpostAggregation *_lateClientPresentStatsAggregation;
-    SignpostAggregation *_latePresentOnGlassStatsAggregation;
-    unsigned long long _startMachContinuousTime;
-    unsigned long long _endMachContinuousTime;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    double _timebaseRatio;
 }
 
-+ (id);
++ (id)B;
 - (double);
 - (double);
 - (double);
-- (unsigned long long);
+- (unsigned long long)@8?E;
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id);
+- (id)q;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)*%;
 - (_Bool);
 - (id);
 - (double);
-- (unsigned long long);
+- (unsigned long long)!	;
 - (double);
 - (unsigned long long);
 - (double);
@@ -71,34 +57,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)h;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double activeSeconds;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(nonatomic) unsigned long long endMachContinuousTime; // @synthesize endMachContinuousTime=_endMachContinuousTime;
-@property(readonly, nonatomic) SSCAMLDurationStats *frameOnGlassIntervalStats; // @synthesize frameOnGlassIntervalStats=_frameOnGlassIntervalStats;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long intervalCount; // @synthesize intervalCount=_intervalCount;
-@property(readonly, nonatomic) SSCAMLDurationStats *lateClientPresentStats; // @synthesize lateClientPresentStats=_lateClientPresentStats;
-@property(retain, nonatomic) SignpostAggregation *lateClientPresentStatsAggregation; // @synthesize lateClientPresentStatsAggregation=_lateClientPresentStatsAggregation;
-@property(readonly, nonatomic) SSCAMLDurationStats *lateOnGlassPresentStats; // @synthesize lateOnGlassPresentStats=_lateOnGlassPresentStats;
-@property(retain, nonatomic) SignpostAggregation *latePresentOnGlassStatsAggregation; // @synthesize latePresentOnGlassStatsAggregation=_latePresentOnGlassStatsAggregation;
-@property(readonly, nonatomic) SSCAMetalLayerFrameStats *presentedFrameStats; // @synthesize presentedFrameStats=_presentedFrameStats;
 @property(retain, nonatomic) SignpostAggregation *presentedFrameStatsAggregation; // @synthesize presentedFrameStatsAggregation=_presentedFrameStatsAggregation;
-@property(readonly, nonatomic) SSCAMetalLayerFrameStats *skippedFrameStats; // @synthesize skippedFrameStats=_skippedFrameStats;
-@property(retain, nonatomic) SignpostAggregation *skippedFrameStatsAggregation; // @synthesize skippedFrameStatsAggregation=_skippedFrameStatsAggregation;
-@property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(nonatomic) unsigned long long startMachContinuousTime; // @synthesize startMachContinuousTime=_startMachContinuousTime;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double timebaseRatio; // @synthesize timebaseRatio=_timebaseRatio;
-@property(readonly, nonatomic) double totalDurationSeconds;
 
 @end
 

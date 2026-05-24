@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL, UIAction, UIBackgroundConfiguration, UIColor, UIDocumentBrowserViewController, UIDocumentViewController, UIMenu, UIView, _UIDocumentUnavailableConfiguration;
+@class UIDocumentBrowserViewController;
 
 @interface UIDocumentViewControllerLaunchOptions
 {
@@ -13,59 +13,42 @@
         unsigned int hasUpdatedDocumentTargetView:1;
         unsigned int isCreatingDocument:1;
     } _flags;
-    UIView *_documentTargetView;
-    UIColor *_tintColor;
-    UIMenu *_primaryMenu;
-    UIMenu *_secondaryMenu;
-    NSArray *_overridePasteActionUTTypes;
-    UIDocumentBrowserViewController *_browserViewController;
-    NSString *_title;
-    UIAction *_primaryAction;
-    UIAction *_secondaryAction;
-    UIView *_foregroundAccessoryView;
-    UIView *_backgroundAccessoryView;
-    UIBackgroundConfiguration *_background;
-    UIDocumentBrowserViewController *_defaultBrowserViewController;
-    NSURL *_documentURL;
-    NSURL *_createdDocumentURL;
-    NSString *_documentCreationIntent;
-    UIDocumentViewController *__documentViewController;
 }
 
 + (id);
+- (void)<=>%@ in chat:(id)arg1 %@;
+- (void)h non-iMessage chat %@;
+- (void)orInput:(id)arg1 Message %@ date %@ was lower than the high watermark for chat %@ in storageController's cache;
+- (void)}d;
+- (void)ckname for pending upload %@;
+- (void)lpaperTag %@;
+- (void)sender payload update for key %@ error %@;
+- (void)ic device %@;
+- (void)y:(id)arg1 %@, class:%@} /* Error: Ran out of types for this method. */;
+- (id)e#;
+- (id);
 - (void);
+- (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -93,34 +76,7 @@
 - (unsigned long long)À;
 
 // Remaining properties
-@property(retain, nonatomic) UIView *_documentTargetView; // @synthesize _documentTargetView;
-@property(readonly, nonatomic) _UIDocumentUnavailableConfiguration *_documentUnavailableConfiguration;
-@property(nonatomic) __weak UIDocumentViewController *_documentViewController; // @synthesize _documentViewController=__documentViewController;
-@property(copy, nonatomic, setter=_setOverridePasteActionUTTypes:) NSArray *_overridePasteActionUTTypes;
-@property(readonly, nonatomic) NSArray *_pasteActionUTTypes;
-@property(copy, nonatomic, setter=_setPrimaryMenu:) UIMenu *_primaryMenu;
-@property(copy, nonatomic, setter=_setSecondaryMenu:) UIMenu *_secondaryMenu;
-@property(retain, nonatomic, setter=_setTintColor:) UIColor *_tintColor;
-@property(retain, nonatomic) UIBackgroundConfiguration *background; // @synthesize background=_background;
-@property(retain, nonatomic) UIView *backgroundAccessoryView; // @synthesize backgroundAccessoryView=_backgroundAccessoryView;
-@property(retain, nonatomic) UIDocumentBrowserViewController *browserViewController; // @synthesize browserViewController=_browserViewController;
-@property(retain, nonatomic) NSURL *createdDocumentURL; // @synthesize createdDocumentURL=_createdDocumentURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(retain, nonatomic) UIDocumentBrowserViewController *defaultBrowserViewController; // @synthesize defaultBrowserViewController=_defaultBrowserViewController;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSString *documentCreationIntent; // @synthesize documentCreationIntent=_documentCreationIntent;
-@property(readonly, nonatomic) unsigned long long documentState;
-@property(retain, nonatomic) UIView *documentTargetView;
-@property(retain, nonatomic) NSURL *documentURL; // @synthesize documentURL=_documentURL;
-@property(retain, nonatomic) UIView *foregroundAccessoryView; // @synthesize foregroundAccessoryView=_foregroundAccessoryView;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) UIAction *primaryAction; // @synthesize primaryAction=_primaryAction;
-@property(copy, nonatomic) UIAction *secondaryAction; // @synthesize secondaryAction=_secondaryAction;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

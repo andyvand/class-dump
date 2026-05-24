@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol TUGameOverlayControllerDelegate;
-
 @interface TUGameOverlayController
 {
     int _gameOverlayVisibilityChangedNotificationToken;
-    id <TUGameOverlayControllerDelegate> _delegate;
 }
 
-- (void);
+- (void);
 - (_Bool);
 - (int);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void)thCapacity: /* Error: Ran out of types for this method. */;
+- (void)setWithCapacity: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak id <TUGameOverlayControllerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(nonatomic) int gameOverlayVisibilityChangedNotificationToken; // @synthesize gameOverlayVisibilityChangedNotificationToken=_gameOverlayVisibilityChangedNotificationToken;
-@property(readonly, nonatomic) _Bool overlayOpen;
 
 @end
 

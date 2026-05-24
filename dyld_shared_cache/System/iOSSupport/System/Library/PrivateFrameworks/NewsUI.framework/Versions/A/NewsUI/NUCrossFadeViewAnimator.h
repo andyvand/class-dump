@@ -9,7 +9,7 @@
     double _duration;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

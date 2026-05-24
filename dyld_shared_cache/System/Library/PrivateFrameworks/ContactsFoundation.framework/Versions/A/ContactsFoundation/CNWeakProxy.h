@@ -7,17 +7,16 @@
 @interface CNWeakProxy
 {
     Class _targetClass;
-    id _weakReference;
 }
 
 + (id);
 - (Class);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)on for requestAgeRange returned an error:(id)arg1 %@.;
 - (_Bool);
 - (id);
 - (_Bool);

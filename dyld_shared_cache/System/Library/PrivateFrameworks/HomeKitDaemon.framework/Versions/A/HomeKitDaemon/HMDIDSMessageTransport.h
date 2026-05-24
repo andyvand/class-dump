@@ -6,37 +6,24 @@
 
 #import <HomeKitDaemon/HMDRemoteMessageTransport.h>
 
-@class HMDAppleAccountManager, HMDRemoteAccountManager, HMFOperationBudget, NSMutableArray, NSMutableDictionary, NSMutableOrderedSet, NSObject, NSString;
-@protocol HMDFeaturesDataSource, HMDIDSService, OS_dispatch_queue;
+@class HMDAppleAccountManager;
+@protocol HMDIDSService;
 
 __attribute__((visibility("hidden")))
 @interface HMDIDSMessageTransport : HMDRemoteMessageTransport
 {
     id <HMDIDSService> _service;
-    _Bool _legacyTransport;
-    HMDAppleAccountManager *_appleAccountManager;
-    HMDRemoteAccountManager *_remoteAccountManager;
-    id <HMDFeaturesDataSource> _featuresDataSource;
-    HMFOperationBudget *_sendMessageBudget;
-    NSMutableDictionary *_pendingResponses;
-    NSMutableDictionary *_receivedResponses;
-    NSMutableDictionary *_requestedCapabilities;
-    NSMutableDictionary *_destinationAddress;
-    NSMutableDictionary *_pendingResponseTimers;
-    NSMutableOrderedSet *_messageDedupBuffer;
-    NSMutableArray *_messageContexts;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 + (struct _HMFRate);
 + (id);
 + (unsigned long long);
 + (long long);
-+ (id);
++ (id)9;
 + (unsigned long long)faceprints message payload:%@ /* Error: Ran out of types for this method. */;
 + (id)ðÿØ;
 - (id);
-- (long long);
+- (long long)__TEXT;
 - (id);
 - (id);
 - (id);
@@ -44,7 +31,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void)0@ù
 × ;
-- (id)ntentProfileEnabled;
+- (id)accessoriesWithMediaContentProfileEnabled;
 - (_Bool),N,V_databaseSize;
 - (id)peer device to dismiss bulletin with record ID %@;
 - (void)ublic}@Analysis timelapse video init fragment changed from %@ to %@;
@@ -61,16 +48,16 @@ __attribute__((visibility("hidden")))
 - (id)all other responses counters;
 - (id)t handle;
 - (void)l}d for %@;
-- (id)ndCount;
-- (void)iaSessionStateChangedNotificationName;
+- (id)autoEndCount;
+- (void)HMDMediaProfileHasMediaSessionStateChangedNotificationName;
 - (_Bool)traint replacement for child to a second homepod;
 - (id)HMFMessage"8;
-- (id)dateReasonUserPrivilegeChanged;
-- (id)_accessibility_interaction_holdDuration_enabled_readVersion;
+- (id)HMDUserActivityStateDetectorUpdateReasonUserPrivilegeChanged;
+- (id)root_general_accessibility_interaction_holdDuration_enabled_readVersion;
 - (_Bool)Migrate UninitializedSettings;
-- (void)ns;
+- (void)relations;
 - (double)HMD.S.BU;
-- (void)tification;
+- (void)HMDAccessorySupportsAdaptiveTemperatureAutomationsDidChangeNotification;
 - (_Bool)ge failed to load;
 - (int);
 - (void);
@@ -83,26 +70,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) HMDAppleAccountManager *appleAccountManager; // @synthesize appleAccountManager=_appleAccountManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSMutableDictionary *destinationAddress; // @synthesize destinationAddress=_destinationAddress;
-@property(readonly, nonatomic) id <HMDFeaturesDataSource> featuresDataSource; // @synthesize featuresDataSource=_featuresDataSource;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isLegacyTransport) _Bool legacyTransport; // @synthesize legacyTransport=_legacyTransport;
-@property(readonly) NSMutableArray *messageContexts; // @synthesize messageContexts=_messageContexts;
-@property(readonly, nonatomic) NSMutableOrderedSet *messageDedupBuffer; // @synthesize messageDedupBuffer=_messageDedupBuffer;
-@property(readonly, nonatomic) NSMutableDictionary *pendingResponseTimers; // @synthesize pendingResponseTimers=_pendingResponseTimers;
-@property(readonly, nonatomic) NSMutableDictionary *pendingResponses; // @synthesize pendingResponses=_pendingResponses;
-@property(readonly, nonatomic) NSMutableDictionary *receivedResponses; // @synthesize receivedResponses=_receivedResponses;
-@property(readonly, nonatomic) HMDRemoteAccountManager *remoteAccountManager; // @synthesize remoteAccountManager=_remoteAccountManager;
-@property(readonly, nonatomic) NSMutableDictionary *requestedCapabilities; // @synthesize requestedCapabilities=_requestedCapabilities;
-@property(readonly) HMFOperationBudget *sendMessageBudget; // @synthesize sendMessageBudget=_sendMessageBudget;
-@property(readonly, nonatomic) id <HMDIDSService> service; // @synthesize service=_service;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

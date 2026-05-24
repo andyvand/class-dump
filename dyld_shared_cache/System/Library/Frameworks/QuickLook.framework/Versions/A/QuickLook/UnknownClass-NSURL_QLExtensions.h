@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (NSURL_QLExtensions)
-- (_Bool);
+- (_Bool);
 @end
 

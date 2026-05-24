@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDNetworkRouterFirewallRuleAccessoryIdentifier, NSArray, NSDate, NSDictionary, NSString;
+@class HMDNetworkRouterFirewallRuleAccessoryIdentifier;
 
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterFirewallRuleConfiguration
 {
     _Bool _fullAccessLAN;
-    _Bool _fullAccessWAN;
-    HMDNetworkRouterFirewallRuleAccessoryIdentifier *_accessoryIdentifier;
-    NSDate *_lastModifiedTime;
-    NSArray *_lanRules;
-    NSArray *_wanRules;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)E;
 + (_Bool);
 + (id)?Ïÿ;
 - (id);
-- (id);
-- (id);
+- (id):8@"NSString"16@"NSString"24 /* Error: Ran out of types for this method. */;
+- (id)g",R,N,V_mapsDirectory;
 - (id);
 - (id);
 - (_Bool);
@@ -32,26 +27,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)`;
 - (id)ata streams so registering bulk send listener because we were waiting for accessory;
 - (void)pped;
 
 // Remaining properties
 @property(readonly, nonatomic) HMDNetworkRouterFirewallRuleAccessoryIdentifier *accessoryIdentifier; // @synthesize accessoryIdentifier=_accessoryIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=hasFullAccessToLAN) _Bool fullAccessLAN; // @synthesize fullAccessLAN=_fullAccessLAN;
-@property(readonly, nonatomic, getter=hasFullAccessToWAN) _Bool fullAccessWAN; // @synthesize fullAccessWAN=_fullAccessWAN;
-@property(readonly, nonatomic) _Bool hasAirplayRules;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *lanRules; // @synthesize lanRules=_lanRules;
-@property(readonly, nonatomic) NSDate *lastModifiedTime; // @synthesize lastModifiedTime=_lastModifiedTime;
-@property(readonly, nonatomic) NSDictionary *prettyJSONDictionary;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *wanRules; // @synthesize wanRules=_wanRules;
 
 @end
 

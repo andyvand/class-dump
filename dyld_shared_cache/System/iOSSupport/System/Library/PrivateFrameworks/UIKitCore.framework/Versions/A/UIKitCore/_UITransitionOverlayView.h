@@ -9,19 +9,16 @@
 @interface _UITransitionOverlayView : UIView
 {
     id state;
-    id snapshot;
-    id backdrop;
-    void transitionCompletionBlock;
 }
 
-- (CDUnknownBlockType);
-- (void);
+- (CDUnknownBlockType)dicationAction ok:%@ /* Error: Ran out of types for this method. */;
+- (void)onfiguring>"8;
 - (void);
 - (void);
 - (id);
 - (void);
-- (id)putValueForFormatter:(id)arg1;
-- (id);
+- (id)_sanitizeInputValueForFormatter:(id)arg1;
+- (id)_UICommandDiffv1;
 - (void)pDl;
 
 // Remaining properties

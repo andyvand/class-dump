@@ -9,7 +9,6 @@
 @interface PHMemoryFeature
 {
     NSObject *_subtypeSpecificAttribute;
-    unsigned long long _type;
 }
 
 + (id);
@@ -24,7 +23,7 @@
 + (id);
 + (id);
 + (_Bool);
-- (id);
+- (id)+E;
 - (id);
 - (id);
 - (_Bool);
@@ -33,18 +32,18 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)libraryAuthTokenStatus;
 - (id);
 - (unsigned long long);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)#;
+- (_Bool)=;
 - (void);
-- (id);
+- (id);
 - (void)B,N,V_dontAllowRAW;
 
 // Remaining properties

@@ -15,9 +15,9 @@
 
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
-- (id)essTitle_Plural;
+- (id)PXSharedLibraryAddingParticipantsProgressTitle_Plural;
 - (void)u®;
 
 // Remaining properties

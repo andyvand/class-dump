@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID, RTDistanceCalculator, RTInferredMapItemDeduper, RTInferredMapItemFuserParameters, RTLearnedLocationStore;
+@class RTDistanceCalculator, RTInferredMapItemDeduper;
 
 @interface RTInferredMapItemFuser
 {
     RTDistanceCalculator *_distanceCalculator;
-    RTInferredMapItemFuserParameters *_parameters;
-    RTLearnedLocationStore *_learnedLocationStore;
-    RTInferredMapItemDeduper *_deduper;
-    NSUUID *_placeholderUUID;
 }
 
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (_Bool);
+- (id)tData:(id)arg1 sendTime:(id *)arg2 stunTransport:packetBuffer: /* Error: Ran out of types for this method. */;
+- (id)lloc %@, isAllocbindInProcess:(id)arg1 %@, inResponseToNoSessionState:(id)arg2 %@, pendingInResponseToNoSessionState:(id *)arg3 %@;
+- (_Bool)/;
 - (void);
 - (id);
 - (double);
@@ -28,36 +24,32 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id);
+- (id)P;
 - (_Bool);
 - (id);
 - (id);
+- (_Bool)nd %@ - not handling;
+- (void)(;
 - (_Bool);
+- (id);
+- (id)al count %u;
 - (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id)0@ù
 × ;
 - (id)B60;
-- (id)sConsumedByClustering;
+- (id)isConsumedByClustering;
 - (id);
 - (void)ncy for cluster ID,%@,error,%@;
 - (id)%@ invoked;
 
 // Remaining properties
 @property(retain, nonatomic) RTInferredMapItemDeduper *deduper; // @synthesize deduper=_deduper;
-@property(retain, nonatomic) RTDistanceCalculator *distanceCalculator; // @synthesize distanceCalculator=_distanceCalculator;
-@property(retain, nonatomic) RTLearnedLocationStore *learnedLocationStore; // @synthesize learnedLocationStore=_learnedLocationStore;
-@property(retain, nonatomic) RTInferredMapItemFuserParameters *parameters; // @synthesize parameters=_parameters;
-@property(readonly, nonatomic) NSUUID *placeholderUUID; // @synthesize placeholderUUID=_placeholderUUID;
 
 @end
 

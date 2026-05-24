@@ -5,5 +5,6 @@
 //
 
 @protocol TSKPulseAnimationControllerProtocol
+- (void)MPCModelStorePlaybackItemsRequestStoreIDs;
 @end
 

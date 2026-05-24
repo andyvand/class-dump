@@ -6,15 +6,12 @@
 
 #import <AVConference/VCAudioCaptions.h>
 
-@class NSString, SFSpeechAudioBufferRecognitionRequest, SFSpeechRecognitionTask, SFSpeechRecognizer;
+@class SFSpeechRecognizer;
 
 __attribute__((visibility("hidden")))
 @interface VCAudioCaptionsSpeechRecognizer : VCAudioCaptions
 {
     SFSpeechRecognizer *_recognizer;
-    SFSpeechAudioBufferRecognitionRequest *_recognizerRequest;
-    SFSpeechRecognitionTask *_recognizerTask;
-    _Bool _isSpeechModelLoaded;
 }
 
 - (void);
@@ -22,13 +19,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)T*;
+- (void)�;
 - (_Bool);
-- (void);
+- (void)q);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -41,13 +38,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

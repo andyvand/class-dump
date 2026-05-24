@@ -7,7 +7,6 @@
 @interface RemindersUICore.TTRMRemindersListBackgroundClickView
 {
     id delegate;
-    id firstClickWasTracked;
 }
 
 - (id);

@@ -5,5 +5,7 @@
 //
 
 @protocol MNRouteGeniusProxy
+- (void)received an XPC_ERROR_CONNECTION_INVALID error.
+;
 @end
 

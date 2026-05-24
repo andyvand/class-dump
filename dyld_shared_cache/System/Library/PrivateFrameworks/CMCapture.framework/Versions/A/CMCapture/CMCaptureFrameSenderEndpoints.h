@@ -19,8 +19,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)T@"NSCharacterSet",R,V_separatorPunctuationCharacterSet;
+- (id)b;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSDictionary *endpointsByPID;

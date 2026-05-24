@@ -4,81 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBDevice, CBPacketLoggerClient, NSArray, NSDate, NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSArray;
 
 @interface CBHIDPerformanceMonitor
 {
     _Bool _activateCalled;
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    _Bool _finishWait;
-    struct IOHIDDeviceInterface **_hidInterface;
-    struct __IOHIDManager *_hidManager;
-    _Bool _hidOpen;
-    struct IOCFPlugInInterfaceStruct **_hidPluginInterface;
-    unsigned int _hidProductID;
-    unsigned int _hidService;
-    _Bool _hidStartedErrorRateMode;
-    CBPacketLoggerClient *_packetLoggerClient;
-    _Bool _startWait;
-    CBDevice *_targetDevice;
-    NSString *_targetBTAddrData;
-    NSString *_targetBTAddrKey;
-    unsigned long long _targetDeviceIndex;
-    NSArray *_targetDevices;
-    double _testSecondsActual;
-    NSObject<OS_dispatch_source> *_timeoutTimer;
-    BOOL _statsLastRSSI;
-    unsigned short _statsLastConnectionHandle;
-    unsigned long long _statsPacketMicsStart;
-    unsigned long long _statsPacketMicsEnd;
-    unsigned long long _statsPacketMicsStartInterim;
-    unsigned long long _statsPacketMicsPrevious;
-    unsigned long long _statsPacketCountActual;
-    unsigned long long _statsPacketCountExpected;
-    unsigned long long _statsPacketCountInterim;
-    unsigned long long _statsPacketIntervalMicsExpected;
-    unsigned long long _statsPacketIntervalMicsMax;
-    double _statsPacketP50Max;
-    double _statsPacketP75Max;
-    double _statsPacketP90Max;
-    double _statsPacketP95Max;
-    double _statsPacketP99Max;
-    NSMutableArray *_statsPacketDeltaMics;
-    NSMutableArray *_intrmPacketDeltaMics;
-    unsigned long long _statsPacketExcessiveInterval;
-    NSDate *_slidingWindowDate;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _invalidationHandler;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSArray *_devices;
-    CDUnknownBlockType _excessiveIntervalHandler;
-    double _excessiveMs;
-    double _intervalMs;
-    double _slideWindowSec;
-    CDUnknownBlockType _summaryHandler;
-    double _testSeconds;
 }
 
-- (double);
+- (double);
 - (CDUnknownBlockType);
 - (double);
 - (void);
 - (void);
 - (void);
 - (void);
-- (double);
+- (double)k@yk;
 - (double);
 - (CDUnknownBlockType);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)[;
 - (void);
 - (void);
 - (void);
-- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -86,38 +36,29 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (double);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)b";
 - (id);
 - (id);
+- (id)<;
+- (void);
+- (void);
+- (void);
+- (void);
+- (CDUnknownBlockType)l container size limit due to a very recent rise in this limit (perhaps caused by APFS Snapshot usage by Time Machine);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (id);
-- (void);
-- (void);
+- (void)E: /* Error: Ran out of types for this method. */;
 - (void)Dºv;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *devices; // @synthesize devices=_devices;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType excessiveIntervalHandler; // @synthesize excessiveIntervalHandler=_excessiveIntervalHandler;
-@property(nonatomic) double excessiveMs; // @synthesize excessiveMs=_excessiveMs;
-@property(nonatomic) double intervalMs; // @synthesize intervalMs=_intervalMs;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(nonatomic) double slideWindowSec; // @synthesize slideWindowSec=_slideWindowSec;
-@property(copy, nonatomic) CDUnknownBlockType summaryHandler; // @synthesize summaryHandler=_summaryHandler;
-@property(nonatomic) double testSeconds; // @synthesize testSeconds=_testSeconds;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

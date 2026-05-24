@@ -6,21 +6,11 @@
 
 #import <PhotosUICore/PXStoryController.h>
 
-@class NSError, NSString, PXStoryModel, PXStoryResourcesPreloader;
+@class PXStoryResourcesPreloader;
 
 @interface PXStoryResourcesPreloadingController : PXStoryController
 {
     PXStoryResourcesPreloader *_preloader;
-    _Bool _isCompleted;
-    _Bool _isPreloadingEnabled;
-    _Bool _isActive;
-    _Bool _isSongResourcesPreloadingEnabled;
-    _Bool _shouldSkipInitialSegment;
-    _Bool _canStartPreloading;
-    float _loadingFractionComplete;
-    PXStoryModel *_model;
-    NSError *_error;
-    long long _bufferingEvents;
 }
 
 - (_Bool);
@@ -40,41 +30,30 @@
 - (void);
 - (_Bool);
 - (void);
+- (void)l=;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (long long);
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)sultHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)er: /* Error: Ran out of types for this method. */;
-- (void)ence:(_Bool)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_handleCanNavigate:(_Bool)arg1 toDestination:objectReference:completionHandler: /* Error: Ran out of types for this method. */;
 - (void)s.meaningfulMemories;
 - (id)ß®;
 - (void);
 - (void)M6,<;
 
 // Remaining properties
-@property(nonatomic) long long bufferingEvents; // @synthesize bufferingEvents=_bufferingEvents;
 @property(nonatomic) _Bool canStartPreloading; // @synthesize canStartPreloading=_canStartPreloading;
-@property(readonly, nonatomic) NSString *diagnosticDescription;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) _Bool isActive; // @synthesize isActive=_isActive;
-@property(readonly, nonatomic) _Bool isCompleted; // @synthesize isCompleted=_isCompleted;
-@property(readonly, nonatomic) unsigned long long isCompletedChangeDescriptor;
-@property(nonatomic) _Bool isPreloadingEnabled; // @synthesize isPreloadingEnabled=_isPreloadingEnabled;
-@property(readonly, nonatomic) _Bool isSongResourcesPreloadingEnabled; // @synthesize isSongResourcesPreloadingEnabled=_isSongResourcesPreloadingEnabled;
-@property(readonly, nonatomic) float loadingFractionComplete; // @synthesize loadingFractionComplete=_loadingFractionComplete;
-@property(readonly, nonatomic) __weak PXStoryModel *model; // @synthesize model=_model;
-@property(readonly, nonatomic) _Bool shouldSkipInitialSegment; // @synthesize shouldSkipInitialSegment=_shouldSkipInitialSegment;
 
 @end
 

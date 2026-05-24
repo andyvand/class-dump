@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString, PKCurrencyAmount;
+@class NSArray;
 
 @interface PKAccountServicingEventStatusDetails
 {
     NSArray *_statusReasons;
-    NSDate *_customerResponseByDate;
-    NSDate *_merchantResponseByDate;
-    NSArray *_evidenceDocumentTypes;
-    NSString *_resolutionReason;
-    PKCurrencyAmount *_partiallyApprovedAmount;
-    NSDate *_resolutionDate;
 }
 
 + (_Bool)î%ð1Â0@ù
@@ -22,10 +16,10 @@
 - (id);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
@@ -34,23 +28,17 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)T;
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)_wifiRadioTechnology;
 - (void);
 - (id);
-- (id);
+- (id);
 - (void)awaitingPaymentResultEvent;
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *customerResponseByDate; // @synthesize customerResponseByDate=_customerResponseByDate;
-@property(copy, nonatomic) NSArray *evidenceDocumentTypes; // @synthesize evidenceDocumentTypes=_evidenceDocumentTypes;
-@property(copy, nonatomic) NSDate *merchantResponseByDate; // @synthesize merchantResponseByDate=_merchantResponseByDate;
-@property(copy, nonatomic) PKCurrencyAmount *partiallyApprovedAmount; // @synthesize partiallyApprovedAmount=_partiallyApprovedAmount;
-@property(copy, nonatomic) NSDate *resolutionDate; // @synthesize resolutionDate=_resolutionDate;
-@property(copy, nonatomic) NSString *resolutionReason; // @synthesize resolutionReason=_resolutionReason;
 @property(copy, nonatomic) NSArray *statusReasons; // @synthesize statusReasons=_statusReasons;
 
 @end

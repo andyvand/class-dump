@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NFUnfairLock, NSError, NSMutableArray;
-
 @interface NFPromiseSeal
 {
     id _value;
-    NSError *_error;
-    unsigned long long _state;
-    NSMutableArray *_handlers;
-    NFUnfairLock *_lock;
 }
 
 - (id);
 - (void);
-- (void);
+- (void)currentAutoIdentifier;
 - (void);
 - (id);
 - (void);
@@ -37,10 +31,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(retain, nonatomic) NSMutableArray *handlers; // @synthesize handlers=_handlers;
-@property(readonly, nonatomic) NFUnfairLock *lock; // @synthesize lock=_lock;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
 @property(retain, nonatomic) id value; // @synthesize value=_value;
 
 @end

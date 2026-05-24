@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface HMDEventTriggerDevice
 {
     _Bool _currentDevice;
-    HMDDevice *_device;
 }
 
 - (id);
@@ -23,7 +22,6 @@ __attribute__((visibility("hidden")))
 - (void)ten pink;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isCurrentDevice) _Bool currentDevice; // @synthesize currentDevice=_currentDevice;
 @property(readonly, nonatomic) HMDDevice *device; // @synthesize device=_device;
 
 @end

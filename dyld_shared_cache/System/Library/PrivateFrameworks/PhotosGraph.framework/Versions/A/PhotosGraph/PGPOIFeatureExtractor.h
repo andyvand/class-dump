@@ -14,8 +14,8 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-- (id);
++ (id)_accountType;
+- (id)set_inlineSessionTracker:(long long)arg1;
 - (id);
 
 @end

@@ -4,80 +4,57 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MROrigin, NSArray, NSString;
+@class NSString;
 
 @interface MPCAssistantRemoteControlDestination
 {
     NSString *_appBundleID;
-    NSString *_playerID;
-    void *_origin;
-    NSArray *_outputDeviceUIDs;
-    NSArray *_hashedOutputDeviceUIDs;
-    NSArray *_outputGroups;
-    NSString *_outputGroupID;
-    NSString *_originatingOutputDeviceUID;
-    _Bool _singleGroup;
-    _Bool _originatingDeviceControl;
-    _Bool _isCompanion;
-    _Bool _isLocal;
 }
 
 + (id);
++ (id)_setiCPLEnabled:forBundle: /* Error: Ran out of types for this method. */;
 + (id);
-+ (id);
-+ (id);
++ (id);
 + (_Bool);
 - (_Bool);
+- (id)performSelector:withObject:withObject: /* Error: Ran out of types for this method. */;
+- (void)isKindOfClass:(id)arg1;
+- (void)debugDescription;
+- (void)canSaveAccount:(id)arg1 inStore:(id)arg2 error:(_Bool)arg3;
+- (void)arrayWithObjects:(id)arg1 count:(id)arg2;
+- (void)accountType;
+- (void)account:(id)arg1 didPerformActionsForDataclasses:(id)arg2;
+- (void)account:(id)arg1 didChangeWithType:(CDUnknownBlockType)arg2 inStore:oldAccount: /* Error: Ran out of types for this method. */;
+- (void)_appleIDAuthenticationAccountsMatchingAppleAccount:(id)arg1 inStore:(CDStruct_8024420c)arg2;
+- (void)canRemoveAccount:(id)arg1 inStore:(id)arg2 error:(CDUnknownBlockType)arg3;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
+- (id);
+- (_Bool);
+- (id)-;
+- (id);
+- (id);
+- (void *);
+- (void)StartUsing follow up...;
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (void *);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
 - (void);
 - (id);
 - (void *);
 - (id);
 - (id);
-- (_Bool)rWithUnsignedLongLong: /* Error: Ran out of types for this method. */;
+- (_Bool)numberWithUnsignedLongLong: /* Error: Ran out of types for this method. */;
 - (void)}@ - State changed:%{public}@ -> %{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *appBundleID; // @synthesize appBundleID=_appBundleID;
-@property(readonly, nonatomic) NSArray *hashedOutputDeviceUIDs; // @synthesize hashedOutputDeviceUIDs=_hashedOutputDeviceUIDs;
-@property(readonly, nonatomic) _Bool isCompanion; // @synthesize isCompanion=_isCompanion;
-@property(readonly, nonatomic) _Bool isLocal; // @synthesize isLocal=_isLocal;
-@property(readonly, nonatomic) void *origin; // @synthesize origin=_origin;
-@property(readonly, nonatomic) _Bool originatingDeviceControl; // @synthesize originatingDeviceControl=_originatingDeviceControl;
-@property(readonly, nonatomic) NSString *originatingOutputDeviceUID; // @synthesize originatingOutputDeviceUID=_originatingOutputDeviceUID;
-@property(readonly, nonatomic) NSArray *outputDeviceUIDs; // @synthesize outputDeviceUIDs=_outputDeviceUIDs;
-@property(readonly, nonatomic) NSString *outputGroupID; // @synthesize outputGroupID=_outputGroupID;
-@property(readonly, nonatomic) NSArray *outputGroups; // @synthesize outputGroups=_outputGroups;
-@property(readonly, nonatomic) NSString *playerID; // @synthesize playerID=_playerID;
-@property(readonly, nonatomic) MROrigin *resolvedOrigin;
-@property(readonly, nonatomic) _Bool singleGroup; // @synthesize singleGroup=_singleGroup;
 
 @end
 

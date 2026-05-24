@@ -6,31 +6,27 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class NSData, ODFUNNELSiriSchemaODFUNNELClientEventMetadata, ODFUNNELSiriSchemaODFUNNELVoiceTriggerEnrollmentFunnel, SISchemaInstrumentationMessage;
+@class ODFUNNELSiriSchemaODFUNNELClientEventMetadata, SISchemaInstrumentationMessage;
 
 @interface ODFUNNELSiriSchemaODFUNNELSiriClientEvent : SISchemaTopLevelUnionType
 {
     ODFUNNELSiriSchemaODFUNNELClientEventMetadata *_eventMetadata;
-    ODFUNNELSiriSchemaODFUNNELVoiceTriggerEnrollmentFunnel *_voiceTriggerEnrollmentFunnelReported;
-    _Bool _hasEventMetadata;
-    _Bool _hasVoiceTriggerEnrollmentFunnelReported;
-    unsigned long long _whichEvent_Type;
 }
 
 + (id);
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (int);
-- (_Bool);
+- (_Bool)textView:shouldUpdateTouchBarItemIdentifiers: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id);
 - (id);
 - (int);
 - (id);
@@ -41,20 +37,14 @@
 - (id);
 - (id)
 × ;
-- (id)esAtIndex: /* Error: Ran out of types for this method. */;
-- (unsigned long long)ed;
+- (id)tupleInteractionsAlignmentShapesAtIndex: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_numberOfTurnsReviewed;
 - (id)N,V_rawNowPlaying2Minutes;
 - (id)olRanks;
 - (void)ClientEvent.userEditExperimentEndedTier1.confusionPairs.correctedTokens;
 
 // Remaining properties
-@property(retain, nonatomic) ODFUNNELSiriSchemaODFUNNELClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasVoiceTriggerEnrollmentFunnelReported; // @synthesize hasVoiceTriggerEnrollmentFunnelReported=_hasVoiceTriggerEnrollmentFunnelReported;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) ODFUNNELSiriSchemaODFUNNELVoiceTriggerEnrollmentFunnel *voiceTriggerEnrollmentFunnelReported; // @synthesize voiceTriggerEnrollmentFunnelReported=_voiceTriggerEnrollmentFunnelReported;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

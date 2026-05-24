@@ -10,7 +10,7 @@
 
 + (id);
 - (id);
-- (void);
+- (void)SLSZeroingWeakContainer",R,&,N,V_zeroingContainer;
 
 @end
 

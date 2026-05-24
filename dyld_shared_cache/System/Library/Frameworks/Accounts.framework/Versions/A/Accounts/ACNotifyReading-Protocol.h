@@ -5,6 +5,7 @@
 //
 
 @protocol ACNotifyReading
+- (void)UA;
 
 // Remaining properties
 @property(nonatomic) unsigned long long cachedValue;

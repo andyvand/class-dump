@@ -15,10 +15,10 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (void);
+- (unsigned long long)AVQueuePlayer. This should not be necessary if you are setting loopingEnabled or loopTimeRange.;
+- (_Bool)DDBAccess removeValue:(id)arg1 forKey:atPath:] /* Error: Ran out of types for this method. */;
+- (_Bool)__maxExposedVersion;
+- (void);
 - (id);
 - (id);
 - (_Bool);
@@ -26,7 +26,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasPaywallDescription;
-@property(retain, nonatomic) NTPBPaywallDescription *paywallDescription; // @synthesize paywallDescription=_paywallDescription;
 
 @end
 

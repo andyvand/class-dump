@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 __attribute__((visibility("hidden")))
 @interface NWPBCommandMessage
 {
     int _command;
-    NSData *_messageData;
-    struct {
-        unsigned int command:1;
-    } _has;
 }
 
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)A;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)_disableAppSSO;
 - (id);
 - (void)@;
 

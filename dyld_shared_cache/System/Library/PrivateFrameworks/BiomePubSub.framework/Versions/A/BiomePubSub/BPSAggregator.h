@@ -7,7 +7,6 @@
 @interface BPSAggregator
 {
     id _accumulator;
-    CDUnknownBlockType _closure;
 }
 
 - (id);
@@ -17,7 +16,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id accumulator; // @synthesize accumulator=_accumulator;
-@property(readonly, nonatomic) CDUnknownBlockType closure; // @synthesize closure=_closure;
 
 @end
 

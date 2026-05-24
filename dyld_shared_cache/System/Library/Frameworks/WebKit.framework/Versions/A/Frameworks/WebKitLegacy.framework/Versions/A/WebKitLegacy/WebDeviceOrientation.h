@@ -13,7 +13,7 @@
 
 - (id);
 - (id);
-- (void);
+- (void)c}@] Error getting result:%{public}@ /* Error: Ran out of types for this method. */;
 
 @end
 

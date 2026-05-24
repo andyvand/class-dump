@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CNContactsUserDefaults
 {
 }
 
 + (void);
 + (id);
+- (void)CTCarrier;
+- (id)$;
+- (long long);
 - (void);
+- (void);
+- (_Bool);
 - (id);
 - (long long);
-- (void);
-- (void);
 - (_Bool);
-- (id);
-- (long long);
-- (_Bool);
-- (long long);
+- (long long);
 - (void);
 - (void);
 - (id);
@@ -29,13 +27,7 @@
 - (long long);
 
 // Remaining properties
-@property(readonly, copy) NSString *countryCode;
 @property(nonatomic) long long displayNameOrder;
-@property(nonatomic) long long shortNameFormat;
-@property(nonatomic, getter=isShortNameFormatEnabled) _Bool shortNameFormatEnabled;
-@property(nonatomic) _Bool shortNameFormatPrefersNicknames;
-@property(nonatomic) _Bool showContactPhotos;
-@property(readonly) long long sortOrder;
 
 @end
 

@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MDLAnimatedVector3, NSString;
-
 @interface MDLTransformTranslateOp
 {
     _Bool _inverse;
-    NSString *_name;
-    MDLAnimatedVector3 *_animatedValue;
 }
 
 - (id);
-- (CDStruct_95fa7c00);
+- (CDStruct_34f00414);
 - (id);
-- (CDStruct_95fa7c00);
+- (CDStruct_34f00414);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)M;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) MDLAnimatedVector3 *animatedValue; // @synthesize animatedValue=_animatedValue;
 @property(nonatomic) _Bool inverse; // @synthesize inverse=_inverse;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

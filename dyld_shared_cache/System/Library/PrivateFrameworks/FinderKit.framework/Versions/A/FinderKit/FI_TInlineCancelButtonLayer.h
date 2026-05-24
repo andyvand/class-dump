@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool)
 × ;
-- (void)olvesAliases;
+- (void)keyPathsForValuesAffectingResolvesAliases;
 
 // Remaining properties
 @property(nonatomic) _Bool pressed; // @synthesize pressed=_pressed;

@@ -7,15 +7,12 @@
 @class NSString, UIImage;
 
 @protocol UILargeContentViewerItem
-- (_Bool)KeysOrdered: /* Error: Ran out of types for this method. */;
-- (NSString *)tonConfiguration;
+- (struct UIEdgeInsets);
+- (_Bool)setEndKeysOrdered: /* Error: Ran out of types for this method. */;
+- (NSString *)compactLabelBackgroundButtonConfiguration;
 - (UIImage *)l to _UIResponderChainFinishCollectingDebugInfo but no collection ongoing. (array);
 
 // Remaining properties
-@property(readonly, nonatomic) UIImage *largeContentImage;
-@property(readonly, nonatomic) struct UIEdgeInsets largeContentImageInsets;
-@property(readonly, copy, nonatomic) NSString *largeContentTitle;
-@property(readonly, nonatomic) _Bool scalesLargeContentImage;
 @property(readonly, nonatomic) _Bool showsLargeContentViewer;
 @end
 

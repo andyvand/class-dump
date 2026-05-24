@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MAAutoAssetSelector, MAAutoAssetStatus, NSDictionary, NSURL;
+@class MAAutoAssetSelector;
 
 @interface MAAutoAssetInfoFound
 {
     MAAutoAssetSelector *_fullAssetSelector;
-    NSURL *_localContentURL;
-    NSDictionary *_assetAttributes;
-    MAAutoAssetStatus *_currentStatus;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id)eue:(id)arg1 delegate:delegateQueue: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id)mpletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSDictionary *assetAttributes; // @synthesize assetAttributes=_assetAttributes;
-@property(readonly, retain, nonatomic) MAAutoAssetStatus *currentStatus; // @synthesize currentStatus=_currentStatus;
 @property(readonly, retain, nonatomic) MAAutoAssetSelector *fullAssetSelector; // @synthesize fullAssetSelector=_fullAssetSelector;
-@property(readonly, retain, nonatomic) NSURL *localContentURL; // @synthesize localContentURL=_localContentURL;
 
 @end
 

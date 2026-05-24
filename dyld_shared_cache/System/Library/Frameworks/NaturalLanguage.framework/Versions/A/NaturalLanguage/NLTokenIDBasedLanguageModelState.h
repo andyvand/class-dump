@@ -13,8 +13,8 @@
     NSMutableArray *_contextTokenIDArray;
 }
 
-- (id);
-- (id);
+- (id)onOfObjects.identifier;
+- (id)%@;
 - (void);
 - (id);
 - (unsigned long long);
@@ -24,7 +24,7 @@
 - (unsigned int *);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 

@@ -4,19 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKLocationManager, NSString, NSTimer;
-
 __attribute__((visibility("hidden")))
 @interface MKLocationManagerSingleUpdater
 {
     CDUnknownBlockType _handler;
-    _Bool _active;
-    double _desiredAccuracy;
-    double _timeout;
-    MKLocationManagerSingleUpdater *_selfReference;
-    MKLocationManager *_locationManager;
-    NSTimer *_timeoutTimer;
-    double _maxLocationAge;
 }
 
 - (_Bool);
@@ -27,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -37,18 +28,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (CDUnknownBlockType);
 - (double);
-- (void)ndex: /* Error: Ran out of types for this method. */;
+- (void)incidentsOnRoutesAtIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic) double timeout; // @synthesize timeout=_timeout;
 
 @end
 

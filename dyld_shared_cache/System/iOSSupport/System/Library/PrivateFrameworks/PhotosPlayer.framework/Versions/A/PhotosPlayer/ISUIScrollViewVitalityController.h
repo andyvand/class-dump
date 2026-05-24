@@ -6,43 +6,35 @@
 
 #import <PhotosPlayer/ISScrollViewVitalityController.h>
 
-@class ISUIVisibilityOffsetHelper, NSString, UIScrollView;
+@class ISUIVisibilityOffsetHelper, UIScrollView;
 
 @interface ISUIScrollViewVitalityController : ISScrollViewVitalityController
 {
     ISUIVisibilityOffsetHelper *_visibilityOffsetHelper;
-    UIScrollView *__scrollView;
 }
 
-- (id);
+- (id)_metaData;
+- (_Bool)_componentViewFrame;
+- (void)_accessibilityFindDescendant:(id)arg1;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)\;
+- (void)me;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic, setter=_setScrollView:) __weak UIScrollView *_scrollView; // @synthesize _scrollView=__scrollView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

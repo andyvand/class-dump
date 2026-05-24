@@ -4,25 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORouteDetails, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOLogMsgStateRoute
 {
     PBUnknownFields *_unknownFields;
-    GEORouteDetails *_routeDetails;
 }
 
-+ (_Bool)ultToNewRouteFlag:(id)arg1;
++ (_Bool)setHasSupportsDefaultToNewRouteFlag:(id)arg1;
+- (void);
+- (id);
+- (_Bool)ptions>",R,N,V_messageOptionsForAsyncPrompt;
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id))A;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -35,8 +34,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasRouteDetails;
-@property(retain, nonatomic) GEORouteDetails *routeDetails;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

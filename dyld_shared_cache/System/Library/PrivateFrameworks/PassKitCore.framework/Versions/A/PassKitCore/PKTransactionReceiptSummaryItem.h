@@ -4,42 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDecimalNumber, NSString, PKCurrencyAmount;
-
 @interface PKTransactionReceiptSummaryItem
 {
     long long _type;
-    NSString *_label;
-    NSDecimalNumber *_amount;
-    NSString *_currencyCode;
 }
 
-+ (_Bool);
++ (_Bool)8;
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)9;
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (long long);
+- (long long);
 - (_Bool);
-- (void);
+- (void)addServices:(id)arg1;
 - (id);
-- (void);
+- (void)hh8I7I7I;
 - (id)
 × ;
 - (void)y '%@';
 - (void)thumb/Purple113/v4/dd/3c/04/dd3c047c-fe85-6b79-441b-73bbf107b09d/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/258x258.png;
 
 // Remaining properties
-@property(retain, nonatomic) NSDecimalNumber *amount; // @synthesize amount=_amount;
-@property(readonly, nonatomic) PKCurrencyAmount *currencyAmount;
-@property(copy, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

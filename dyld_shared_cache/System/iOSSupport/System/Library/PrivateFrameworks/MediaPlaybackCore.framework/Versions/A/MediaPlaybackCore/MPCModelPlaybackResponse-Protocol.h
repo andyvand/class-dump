@@ -5,10 +5,10 @@
 //
 
 @protocol MPCModelPlaybackResponse
+- (long long);
+- (long long)aida_alternateDSID;
 
 // Remaining properties
-@property(readonly, nonatomic) long long failedIDsCount;
 @property(readonly, nonatomic, getter=isFinalResponse) _Bool finalResponse;
-@property(readonly, nonatomic) long long pendingIDsCount;
 @end
 

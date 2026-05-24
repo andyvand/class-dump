@@ -27,7 +27,7 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool)qh;
 + (_Bool);
 + (_Bool);
 + (void);

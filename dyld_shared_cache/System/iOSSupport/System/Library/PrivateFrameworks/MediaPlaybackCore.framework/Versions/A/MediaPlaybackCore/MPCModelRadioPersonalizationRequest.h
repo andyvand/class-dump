@@ -10,17 +10,16 @@ __attribute__((visibility("hidden")))
 @interface MPCModelRadioPersonalizationRequest
 {
     MPSectionedCollection *_radioStationTracks;
-    _Bool _analyticsSignpostsEnabled;
 }
 
 + (_Bool);
 + (_Bool);
-- (void);
+- (void);
 - (id);
 - (_Bool);
+- (id){;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void)}@ %{public}@                   â %{public}@;
 
 // Remaining properties

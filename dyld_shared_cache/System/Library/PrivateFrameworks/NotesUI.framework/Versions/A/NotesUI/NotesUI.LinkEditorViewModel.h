@@ -7,15 +7,6 @@
 @interface NotesUI.LinkEditorViewModel
 {
     id _linkText;
-    id _showResults;
-    id _selectedSuggestion;
-    id _useNoteTitle;
-    id _linkName;
-    id _editingExistingLink;
-    id _noteSuggestions;
-    id _urlSuggestions;
-    id _noteSelection;
-    id _linkTextFrame;
 }
 
 @end

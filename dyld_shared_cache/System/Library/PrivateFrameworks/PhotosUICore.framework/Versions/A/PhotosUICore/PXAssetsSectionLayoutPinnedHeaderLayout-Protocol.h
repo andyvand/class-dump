@@ -8,6 +8,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) double assetsSectionCrossfadeTop;
-@property(nonatomic) double buttonsAlpha;
 @end
 

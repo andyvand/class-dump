@@ -6,16 +6,11 @@
 
 #import <PhotosUICore/PXWidgetCompositionElement.h>
 
-@class NSMutableSet, NSString, PXBasicTileAnimator, PXTilingController, PXWidgetCompositionViewElementLayout;
+@class PXBasicTileAnimator;
 
 @interface PXWidgetCompositionViewElement : PXWidgetCompositionElement
 {
     _Bool _isCheckingInTile;
-    PXBasicTileAnimator *__tileAnimator;
-    PXWidgetCompositionViewElementLayout *__layout;
-    NSMutableSet *__tilesInUse;
-    PXTilingController *__tilingController;
-    struct CGPoint __anchorOffset;
 }
 
 - (id);
@@ -29,7 +24,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)=;
 - (void);
 - (void);
 - (struct CGPoint);
@@ -38,19 +33,7 @@
 - (id)´·$e	ÿ!´·Xýÿ;
 
 // Remaining properties
-@property(nonatomic, setter=_setAnchorOffset:) struct CGPoint _anchorOffset; // @synthesize _anchorOffset=__anchorOffset;
-@property(readonly, nonatomic) PXWidgetCompositionViewElementLayout *_layout; // @synthesize _layout=__layout;
 @property(readonly, nonatomic) PXBasicTileAnimator *_tileAnimator; // @synthesize _tileAnimator=__tileAnimator;
-@property(readonly, nonatomic) NSMutableSet *_tilesInUse; // @synthesize _tilesInUse=__tilesInUse;
-@property(readonly, nonatomic) PXTilingController *_tilingController; // @synthesize _tilingController=__tilingController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isCheckingInTile; // @synthesize isCheckingInTile=_isCheckingInTile;
-@property(readonly) Class superclass;
 
 @end
 

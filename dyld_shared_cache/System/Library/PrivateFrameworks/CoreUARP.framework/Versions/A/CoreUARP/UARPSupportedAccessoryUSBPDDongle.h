@@ -11,7 +11,7 @@
 }
 
 + (long long);
-- (id);
+- (id)AMSServerDataCacheServiceProtocol;
 
 @end
 

@@ -14,10 +14,10 @@
 }
 
 + (id);
-- (id);
+- (id)_elementStack;
 - (void);
 - (id);
-- (id);
+- (id)setSmallestFaceHeight: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties

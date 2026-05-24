@@ -12,7 +12,7 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void)uniformTypeIdentifier;
 - (_Bool);
 - (_Bool);
 - (id);

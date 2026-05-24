@@ -7,12 +7,6 @@
 @interface NewsSubscription.PaywallTypeProvider
 {
     id configurationManager;
-    id bundleSubscriptionManager;
-    id subscriptionAccessMeter;
-    id paidAccessChecker;
-    id bundleArticleSoftPaywallMeter;
-    id alacarteArticleSoftPaywallMeter;
-    id appConfigurationManager;
 }
 
 @end

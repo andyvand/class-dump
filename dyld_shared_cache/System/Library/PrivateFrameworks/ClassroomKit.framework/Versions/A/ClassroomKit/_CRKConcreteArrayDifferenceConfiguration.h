@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _CRKConcreteArrayDifferenceConfiguration
 {
     CDUnknownBlockType _publishedItemsComparator;
-    CDUnknownBlockType _incomingItemsIdentifierFunction;
-    CDUnknownBlockType _publishedItemsIdentifierFunction;
-    CDUnknownBlockType _liftingFunction;
-    CDUnknownBlockType _updateBlock;
 }
 
 - (void);
+- (void)";
 - (void);
-- (void);
-- (void);
+- (void)A;
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
@@ -28,18 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) CDUnknownBlockType incomingItemsIdentifierFunction; // @synthesize incomingItemsIdentifierFunction=_incomingItemsIdentifierFunction;
-@property(copy, nonatomic) CDUnknownBlockType liftingFunction; // @synthesize liftingFunction=_liftingFunction;
-@property(copy, nonatomic) CDUnknownBlockType publishedItemsComparator; // @synthesize publishedItemsComparator=_publishedItemsComparator;
-@property(copy, nonatomic) CDUnknownBlockType publishedItemsIdentifierFunction; // @synthesize publishedItemsIdentifierFunction=_publishedItemsIdentifierFunction;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) CDUnknownBlockType updateBlock; // @synthesize updateBlock=_updateBlock;
 
 @end
 

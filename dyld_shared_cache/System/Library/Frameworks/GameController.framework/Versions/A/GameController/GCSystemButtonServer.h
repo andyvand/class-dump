@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSSet, NSString, _GCSystemButton;
+@class NSMutableArray, _GCSystemButton;
 
 @interface GCSystemButtonServer
 {
     NSMutableArray *_buttons;
-    NSMutableArray *_responders;
-    NSMutableArray *_clients;
 }
 
 - (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (id)";
 - (id);
 - (_Bool);
+- (id)@;
+- (id);
+- (_Bool);
 - (void);
 - (id);
 - (void);
@@ -27,15 +25,6 @@
 
 // Remaining properties
 @property(readonly) _GCSystemButton *activeButton;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) _Bool hasButtonThief;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSSet *responders;
-@property(readonly) Class superclass;
 
 @end
 

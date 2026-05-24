@@ -8,9 +8,6 @@
 {
     id handler;
     id capabilitySession;
-    id accessory;
-    id connection;
-    id connectionArbitrator;
 }
 
 @end

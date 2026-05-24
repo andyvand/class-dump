@@ -4,29 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString, NSUUID;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraRecordingLoadBalancerLogEvent
 {
     _Bool _selectedResidentHasActiveSessionWithCamera;
-    NSNumber *_numberOfResidents;
-    NSNumber *_numberOfRetries;
-    NSNumber *_totalNumberOfJobSlots;
-    NSNumber *_remainingNumberOfJobSlots;
-    NSString *_selectedResidentDeviceType;
-    NSNumber *_selectedResidentSystemResourceUsageLevel;
-    NSNumber *_selectedResidentNumberOfActiveStreams;
-    NSNumber *_selectedResidentJobSlots;
-    NSNumber *_selectedResidentPartialJobSlots;
 }
 
-- (id);
-- (id);
+- (id)_startMonitoringSystemBlockListIfNeeded;
+- (id)<;
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -38,38 +29,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
 @property(readonly, copy) NSNumber *numberOfResidents; // @synthesize numberOfResidents=_numberOfResidents;
-@property(readonly, copy) NSNumber *numberOfRetries; // @synthesize numberOfRetries=_numberOfRetries;
-@property(readonly, copy) NSNumber *remainingNumberOfJobSlots; // @synthesize remainingNumberOfJobSlots=_remainingNumberOfJobSlots;
-@property(readonly, copy) NSString *selectedResidentDeviceType; // @synthesize selectedResidentDeviceType=_selectedResidentDeviceType;
-@property(readonly) _Bool selectedResidentHasActiveSessionWithCamera; // @synthesize selectedResidentHasActiveSessionWithCamera=_selectedResidentHasActiveSessionWithCamera;
-@property(readonly, copy) NSNumber *selectedResidentJobSlots; // @synthesize selectedResidentJobSlots=_selectedResidentJobSlots;
-@property(readonly, copy) NSNumber *selectedResidentNumberOfActiveStreams; // @synthesize selectedResidentNumberOfActiveStreams=_selectedResidentNumberOfActiveStreams;
-@property(readonly, copy) NSNumber *selectedResidentPartialJobSlots; // @synthesize selectedResidentPartialJobSlots=_selectedResidentPartialJobSlots;
-@property(readonly, copy) NSNumber *selectedResidentSystemResourceUsageLevel; // @synthesize selectedResidentSystemResourceUsageLevel=_selectedResidentSystemResourceUsageLevel;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSNumber *totalNumberOfJobSlots; // @synthesize totalNumberOfJobSlots=_totalNumberOfJobSlots;
 
 @end
 

@@ -4,28 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSMutableArray, NSNumber, NSString;
+@class NSString;
 
 @interface SSRVoiceProfile
 {
     NSString *_locale;
-    NSString *_appDomain;
-    NSDate *_dateAdded;
-    NSString *_profileID;
-    NSString *_siriProfileId;
-    NSString *_enrollmentId;
-    NSString *_personaID;
-    NSNumber *_profilePitch;
-    NSString *_profileBasePath;
-    NSString *_profileBasePathExclave;
-    NSMutableArray *_donationIds;
-    NSArray *_enrollmentSNR;
-    NSArray *_enrollmentWER;
-    NSArray *_enrollmentSimilarityScores;
-    NSString *_userName;
 }
 
-+ (_Bool);
++ (_Bool)oo;
 - (unsigned long long);
 - (id);
 - (id);
@@ -52,8 +38,8 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -66,7 +52,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -80,7 +66,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)C;
 - (id);
 - (id);
 - (unsigned long long);
@@ -89,10 +75,10 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)y;
 - (unsigned long long);
 - (void);
-- (id);
+- (id)endpoint for a NULL address?;
 - (id);
 - (id);
 - (id);
@@ -106,30 +92,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *appDomain; // @synthesize appDomain=_appDomain;
-@property(readonly, nonatomic) NSDate *dateAdded; // @synthesize dateAdded=_dateAdded;
-@property(retain, nonatomic) NSMutableArray *donationIds; // @synthesize donationIds=_donationIds;
-@property(readonly, nonatomic) NSString *enrollmentId; // @synthesize enrollmentId=_enrollmentId;
-@property(retain, nonatomic) NSArray *enrollmentSNR; // @synthesize enrollmentSNR=_enrollmentSNR;
-@property(retain, nonatomic) NSArray *enrollmentSimilarityScores; // @synthesize enrollmentSimilarityScores=_enrollmentSimilarityScores;
-@property(retain, nonatomic) NSArray *enrollmentWER; // @synthesize enrollmentWER=_enrollmentWER;
-@property(readonly, nonatomic) NSString *locale; // @synthesize locale=_locale;
-@property(readonly, nonatomic) NSString *personaID; // @synthesize personaID=_personaID;
-@property(readonly, nonatomic) unsigned long long productCategory;
 @property(retain, nonatomic) NSString *profileBasePath; // @synthesize profileBasePath=_profileBasePath;
-@property(retain, nonatomic) NSString *profileBasePathExclave; // @synthesize profileBasePathExclave=_profileBasePathExclave;
-@property(readonly, nonatomic) NSString *profileID; // @synthesize profileID=_profileID;
-@property(readonly, nonatomic) _Bool profileLocallyAvailable;
-@property(retain, nonatomic) NSNumber *profilePitch; // @synthesize profilePitch=_profilePitch;
-@property(readonly, nonatomic) NSString *pruningCookie;
-@property(readonly, nonatomic) NSString *siriProfileId; // @synthesize siriProfileId=_siriProfileId;
-@property(readonly, nonatomic) NSArray *tdEnrollmentUtterances;
-@property(readonly, nonatomic) NSArray *tdtiEnrollmentUtterances;
-@property(retain, nonatomic) NSString *userName; // @synthesize userName=_userName;
-@property(readonly, nonatomic) NSString *voiceProfileBasePath;
-@property(readonly, nonatomic) NSString *voiceProfileIdentity;
-@property(readonly, nonatomic) NSString *voiceProfileImplicitCacheDirPath;
-@property(readonly, nonatomic) unsigned long long voiceProfileVersion;
 
 @end
 

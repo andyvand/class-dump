@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSSet, PQLConnection, PQLStatement;
+@class NSError, PQLStatement;
 
 @interface PQLResultSet
 {
     PQLStatement *_stmt;
-    Class _objectsClass;
-    SEL _objectsClassInitializer;
-    _Bool _hasValuable;
-    CDUnknownBlockType _objectsConstructor;
-    id _lastEnumeratedObject;
-    _Bool _inTransaction;
-    unsigned long long _executionTime;
-    unsigned long long _preparationTime;
-    NSSet *_defaultUnarchivingAllowedClasses;
-    NSError *_error;
-    unsigned long long _rowNumber;
-    unsigned long long _columns;
-    PQLConnection *_db;
 }
 
 - (id);
@@ -39,7 +26,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (long long);
 - (_Bool);
@@ -50,25 +37,25 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (const char *);
-- (id);
+- (id)_prepareSHKSharingServicePicker;
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)6;
 - (id);
 - (id);
 - (BOOL);
 - (id);
-- (id);
+- (id)	;
 - (id);
 - (void);
 - (id);
 - (int);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool).;
 - (id);
 - (id);
 - (id);
@@ -77,18 +64,13 @@
 - (struct sqlite3_stmt *);
 - (void);
 - (id);
+- (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
-- (_Bool);
+- (_Bool)C;
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long columns; // @synthesize columns=_columns;
-@property(readonly, nonatomic) PQLConnection *db; // @synthesize db=_db;
-@property(retain, nonatomic) NSSet *defaultUnarchivingAllowedClasses; // @synthesize defaultUnarchivingAllowedClasses=_defaultUnarchivingAllowedClasses;
 @property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) unsigned long long rowNumber; // @synthesize rowNumber=_rowNumber;
-@property(readonly, nonatomic) struct sqlite3_stmt *stmt;
 
 @end
 

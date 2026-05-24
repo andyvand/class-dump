@@ -4,42 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCFuture, MPCMediaRemoteMiddleware, NSArray, NSError, NSString;
+@class MPCMediaRemoteMiddleware;
 
 __attribute__((visibility("hidden")))
 @interface MPCMediaRemoteMiddlewareParticipantsOperation
 {
     CDUnknownBlockType _invalidationHandler;
-    NSArray *_invalidationObservers;
-    MPCMediaRemoteMiddleware *_middleware;
-    MPCFuture *_participantsFuture;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)nd iCPL for modified account %@;
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (CDUnknownBlockType);
-- (void)e;
+- (void)isAvailable;
 - (void)blic}@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSError *error;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(readonly, nonatomic) NSArray *invalidationObservers; // @synthesize invalidationObservers=_invalidationObservers;
 @property(retain, nonatomic) MPCMediaRemoteMiddleware *middleware; // @synthesize middleware=_middleware;
-@property(retain, nonatomic) MPCFuture *participantsFuture; // @synthesize participantsFuture=_participantsFuture;
-@property(readonly) Class superclass;
 
 @end
 

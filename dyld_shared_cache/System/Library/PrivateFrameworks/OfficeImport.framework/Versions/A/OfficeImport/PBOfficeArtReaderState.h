@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface PBOfficeArtReaderState : OABReaderState
 {
     PXPresentationState *mXmlDocumentState;
-    PBPresentationReaderState *mPresentationState;
 }
 
 - (id);

@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorColor, BlastDoorPassPreview_PassBackground, BlastDoorPassPreview_PassImage, BlastDoorPassPreview_PassText, NSString;
+@class NSString;
 
 @interface BlastDoorPassPreview
 {
     id passPreview;
 }
 
-- (id);
-- (id);
+- (id)ze=dd}16d32d40d48d56;
+- (id);
 - (id);
 - (id);
 - (id);
@@ -23,14 +23,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) BlastDoorPassPreview_PassBackground *background;
-@property(nonatomic, readonly) BlastDoorColor *backgroundColor;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) BlastDoorPassPreview_PassImage *headerImage;
-@property(nonatomic, readonly) BlastDoorPassPreview_PassImage *icon;
-@property(nonatomic, readonly) BlastDoorPassPreview_PassText *primaryText;
-@property(nonatomic, readonly) BlastDoorPassPreview_PassText *secondaryText;
-@property(nonatomic, readonly) BlastDoorPassPreview_PassText *tertiaryText;
 
 @end
 

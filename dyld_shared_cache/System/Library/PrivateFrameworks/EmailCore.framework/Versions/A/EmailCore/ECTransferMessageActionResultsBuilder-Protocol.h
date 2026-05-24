@@ -7,12 +7,15 @@
 @class NSArray, NSDictionary;
 
 @protocol ECTransferMessageActionResultsBuilder
+- (void)M;
+- (NSArray *)be set once on an AVMobileGlassControlsView.;
+- (NSDictionary *)e called from a background thread;
+- (NSArray *)does not match the given contentTabsPresentationHeight.;
+- (long long)ll begin.;
+- (void)ted AVMobileControlsViewController:(NSArray *)arg1 %@;
+- (void)iome.BMStoreEvent;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *completedItems;
-@property(copy, nonatomic) NSArray *createdServerMessages;
-@property(copy, nonatomic) NSDictionary *downloadedDataByCopyItems;
-@property(copy, nonatomic) NSArray *failedItems;
 @property(nonatomic) long long phaseForResults;
 @end
 

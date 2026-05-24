@@ -7,7 +7,6 @@
 @interface NewsArticles.EndOfArticleBlueprintViewCellProvider
 {
     id delegate;
-    id feedItemRenderer;
 }
 
 @end

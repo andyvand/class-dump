@@ -10,7 +10,7 @@
 {
 }
 
-- (_Bool);
+- (_Bool):(id)arg1 %d In-appropriate mode %d for VCRedundancyController;
 
 @end
 

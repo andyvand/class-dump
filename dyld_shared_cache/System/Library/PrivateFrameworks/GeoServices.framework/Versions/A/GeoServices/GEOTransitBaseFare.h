@@ -4,40 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOTransitPrice, NSArray, NSDecimalNumber, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class NSDecimalNumber, PBDataReader;
 
 @interface GEOTransitBaseFare
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_9f2792e4 _supportedPaymentMethodIndexs;
-    GEOTransitPrice *_price;
-    NSMutableArray *_supportedPaymentMethods;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _numberOfLegs;
-    int _paymentType;
-    _Bool _cashOnly;
-    struct {
-        unsigned int has_numberOfLegs:1;
-        unsigned int has_paymentType:1;
-        unsigned int has_cashOnly:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_supportedPaymentMethodIndexs:1;
-        unsigned int read_price:1;
-        unsigned int read_supportedPaymentMethods:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)tMinNumGuides:(id)arg1;
++ (_Bool)setMinNumGuides:(id)arg1;
 - (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long)#;
 - (unsigned int *);
-- (unsigned int);
+- (unsigned int)P;
 - (id);
 - (id);
 - (void);
@@ -46,13 +26,13 @@
 - (void);
 - (void);
 - (void);
-- (unsigned int);
+- (unsigned int)S;
 - (_Bool);
-- (_Bool);
+- (_Bool)migration_os_log;
+- (void)?0@;
 - (void);
-- (void);
-- (_Bool);
-- (void);
+- (_Bool)from the specified URL. error = %{public}@;
+- (void)alResult"8@"NSError"16;
 - (void);
 - (void);
 - (_Bool);
@@ -61,10 +41,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
-- (void);
+- (void)initWithMachService:(id)arg1 withServiceInterface:withServiceObject:withDelegateInterface:queue:delegate: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned long long);
@@ -79,36 +59,14 @@
 - (id)n"b1"has_toFreeway"b1"has_tollAhead"b1"has_tollPrior"b1"read_unknownFields"b1"read_junctionElements"b1"read_artworkOverride"b1"read_chargingInfo"b1"read_evInfo"b1"read_evStateInfo"b1"read_exitNumber"b1"read_guidanceEvents"b1"read_instructionSet"b1"read_instructions"b1"read_maneuverNames"b1"read_notice"b1"read_roadDescriptions"b1"read_signposts"b1"read_stopWaypoint"b1"read_timeCheckpoints"b1"wrote_anyField"b1};
 - (int)rage";
 - (id)d}56{?=ddd}80@104;
-- (id)getBounds;
-- (id)EORedactedDirectionsClientMetadata;
+- (id)hasViewTargetBounds;
+- (id)GEORedactedDirectionsClientMetadata;
 - (id)lF±Ävä;
-- (id)oadedOfflineRegionState;
-- (_Bool)PROMPT_TIME_ELAPSED;
+- (id)downloadedOfflineRegionState;
+- (_Bool)NOTIFICATION_CONSENT_REPROMPT_TIME_ELAPSED;
 - (void)¤äÕ9WQ@;
 
 // Remaining properties
-@property(nonatomic) _Bool cashOnly;
-@property(readonly, copy, nonatomic) NSString *currencyCode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasCashOnly;
-@property(nonatomic) _Bool hasNumberOfLegs;
-@property(nonatomic) _Bool hasPaymentType;
-@property(readonly, nonatomic) _Bool hasPrice;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned int numberOfLegs;
-@property(nonatomic) int paymentType;
-@property(retain, nonatomic) GEOTransitPrice *price;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *supportedICCardProviders;
-@property(readonly, nonatomic) unsigned int *supportedPaymentMethodIndexs;
-@property(readonly, nonatomic) unsigned long long supportedPaymentMethodIndexsCount;
-@property(retain, nonatomic) NSMutableArray *supportedPaymentMethods;
-@property(readonly, nonatomic) long long type;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 @property(readonly, nonatomic) NSDecimalNumber *value;
 
 @end

@@ -5,5 +5,8 @@
 //
 
 @protocol INSearchForMessagesIntentHandling
+
+@optional
+- (void);
 @end
 

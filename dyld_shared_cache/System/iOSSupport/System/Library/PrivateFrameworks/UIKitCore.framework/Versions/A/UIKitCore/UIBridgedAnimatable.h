@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, CAPresentationModifier, NSString;
-@protocol UIVectorOperatable;
+@class CALayer;
 
 @interface UIBridgedAnimatable
 {
     struct os_unfair_lock_s _lock;
-    _Bool _isFinished;
-    CALayer *_layer;
-    NSString *_key;
-    id <UIVectorOperatable> _fromValue;
-    id <UIVectorOperatable> _toValue;
-    CAPresentationModifier *_presentationModifier;
-    CDUnknownBlockType _completion;
 }
 
+- (void)%@, payload:(id)arg1 %@, combinedPayloadAttachmentDictionary:%@) /* Error: Ran out of types for this method. */;
+- (id)8@16@"IMDiMessageIDSTrustedData"24@"IMDiMessagePipelineResources"32@"IDSMessageContext"40@"IMPowerAssertion"48;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)volumeControlLabel;
 - (id)dLayerContentProvider>"16@0:8 /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType)<¹¹Ü¹TºRLÓ°Ó2àÚ&ÛlÜÐÜ7ÞLßß\àÔàPá;
 - (_Bool)´ÈDÀÜ;
@@ -40,13 +32,7 @@
 - (void)ÿ<ÄÏØÌi;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(retain, nonatomic) id <UIVectorOperatable> fromValue; // @synthesize fromValue=_fromValue;
-@property(nonatomic) _Bool isFinished; // @synthesize isFinished=_isFinished;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
 @property(retain, nonatomic) CALayer *layer; // @synthesize layer=_layer;
-@property(retain, nonatomic) CAPresentationModifier *presentationModifier; // @synthesize presentationModifier=_presentationModifier;
-@property(retain, nonatomic) id <UIVectorOperatable> toValue; // @synthesize toValue=_toValue;
 
 @end
 

@@ -6,36 +6,29 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PGSchemaPGOverridesMatchMetadata : SISchemaInstrumentationMessage
 {
     _Bool _isMatched;
-    struct {
-        unsigned int isMatched:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)ion is not remote eligible:%s /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)�;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)p [%lld] with an invalid row id.;
 - (id);
 - (id)ÝÐ1Â0@ù
 × ;
-- (id)rtraitExperimentVariantName;
+- (id)_hasPortraitExperimentVariantName;
 - (id)ySampleContext;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsMatched;
 @property(nonatomic) _Bool isMatched; // @synthesize isMatched=_isMatched;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface CDPRecoveryKeySecretValidatorProxyImpl
 {
     id <CDPRemoteDeviceSecretValidatorProtocol> _validator;
-    unsigned long long supportedEscapeOfferMask;
 }
 
 - (void);
@@ -19,11 +18,11 @@
 - (void);
 - (id);
 - (unsigned long long);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties

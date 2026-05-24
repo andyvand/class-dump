@@ -7,7 +7,7 @@
 @class DOMNode;
 
 @protocol UIWebSelectedItemPrivate
-- (void)Effects;
+- (void)focusTogglesIntelligenceEffects;
 - (DOMNode *);
 - (_Bool)Ã23Ð ;
 @end

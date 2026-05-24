@@ -4,70 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSDictionary, NSNumber, NSString, OTEscrowRecord;
+@class NSString;
 
 @interface CDPDevice
 {
     NSString *_localizedName;
-    NSString *_model;
-    NSString *_modelVersion;
-    NSString *_modelClass;
-    unsigned long long _platform;
-    NSString *_recordID;
-    NSString *_machineID;
-    NSData *_simplePublicKey;
-    NSDate *_recordDate;
-    NSDictionary *_recordInfo;
-    OTEscrowRecord *_record;
-    _Bool _hasRandomSecret;
-    _Bool _hasNumericSecret;
-    NSNumber *_numericSecretLength;
-    _Bool _isUsingMultipleiCSC;
-    unsigned long long _remainingAttempts;
-    NSString *_deviceColor;
-    NSString *_enclosureColor;
-    NSString *_serialNumber;
-    _Bool _isCurrentDevice;
-    NSString *_localizedDescription;
-    unsigned long long _recoveryStatus;
-    NSNumber *_coolOffPeriod;
 }
 
 + (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *coolOffPeriod; // @synthesize coolOffPeriod=_coolOffPeriod;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *deviceColor; // @synthesize deviceColor=_deviceColor;
-@property(copy, nonatomic) NSString *enclosureColor; // @synthesize enclosureColor=_enclosureColor;
-@property(nonatomic) _Bool hasNumericSecret; // @synthesize hasNumericSecret=_hasNumericSecret;
-@property(nonatomic) _Bool hasRandomSecret; // @synthesize hasRandomSecret=_hasRandomSecret;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isCurrentDevice; // @synthesize isCurrentDevice=_isCurrentDevice;
-@property(nonatomic) _Bool isUsingMultipleiCSC; // @synthesize isUsingMultipleiCSC=_isUsingMultipleiCSC;
-@property(readonly, nonatomic) _Bool isVirtualMachine;
-@property(readonly, nonatomic) unsigned long long localSecretType;
-@property(copy, nonatomic) NSString *localizedDescription; // @synthesize localizedDescription=_localizedDescription;
 @property(copy, nonatomic) NSString *localizedName; // @synthesize localizedName=_localizedName;
-@property(copy, nonatomic) NSString *machineID; // @synthesize machineID=_machineID;
-@property(copy, nonatomic) NSString *model; // @synthesize model=_model;
-@property(copy, nonatomic) NSString *modelClass; // @synthesize modelClass=_modelClass;
-@property(copy, nonatomic) NSString *modelVersion; // @synthesize modelVersion=_modelVersion;
-@property(copy, nonatomic) NSNumber *numericSecretLength; // @synthesize numericSecretLength=_numericSecretLength;
-@property(nonatomic) unsigned long long platform; // @synthesize platform=_platform;
-@property(copy, nonatomic) OTEscrowRecord *record; // @synthesize record=_record;
-@property(copy, nonatomic) NSDate *recordDate; // @synthesize recordDate=_recordDate;
-@property(copy, nonatomic) NSString *recordID; // @synthesize recordID=_recordID;
-@property(copy, nonatomic) NSDictionary *recordInfo; // @synthesize recordInfo=_recordInfo;
-@property(nonatomic) unsigned long long recoveryStatus; // @synthesize recoveryStatus=_recoveryStatus;
-@property(nonatomic) unsigned long long remainingAttempts; // @synthesize remainingAttempts=_remainingAttempts;
-@property(copy, nonatomic) NSString *serialNumber; // @synthesize serialNumber=_serialNumber;
-@property(copy, nonatomic) NSData *simplePublicKey; // @synthesize simplePublicKey=_simplePublicKey;
-@property(readonly) Class superclass;
 
 @end
 

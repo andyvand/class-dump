@@ -7,9 +7,6 @@
 @interface RemindersUICore.TTRShowGroupPrintingDataModelSource
 {
     id group;
-    id store;
-    id showCompleted;
-    id sortingStyle;
 }
 
 @end

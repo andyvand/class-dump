@@ -6,37 +6,11 @@
 
 #import <CMCapture/BWNode.h>
 
-@class BWFigVideoCaptureDevice, BWNodeInput, BWNodeOutput, NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSString;
-@protocol RTSCProcessor;
+@class NSDictionary;
 
 @interface BWSmartCropNode : BWNode
 {
     NSDictionary *_cameraInfoByPortType;
-    float _teleNondisruptiveSwitchingZoomFactor;
-    int _horizontalSensorBinningFactor;
-    int _verticalSensorBinningFactor;
-    int _maxLossyCompressionLevel;
-    CDStruct_1fe29af2 _cameraExtrinsicMatrix;
-    CDStruct_79c71658 _outputDimensions;
-    struct opaqueCMFormatDescription *_outputFormatDescription;
-    NSArray *_portTypes;
-    id <RTSCProcessor> _rtscProcessor;
-    _Bool _videoOutputFormatIsLive;
-    _Bool _liveReconfigurationInProgress;
-    int _processingMode;
-    BWFigVideoCaptureDevice *_captureDevice;
-    _Bool _stillCaptureEnabled;
-    NSMutableArray *_stillPTSQueue;
-    NSMutableDictionary *_stillHomographyByPTS;
-    struct os_unfair_lock_s _stillHomographyQueueLock;
-    BWNodeInput *_detectionMetadataInput;
-    BWNodeOutput *_detectionMetadataOutput;
-    _Bool _detectionMetadataIsLive;
-    struct os_unfair_lock_s _bufferServicingLock;
-    long long _singleFaceDetectedCumulativeTime;
-    long long _multipleFacesDetectedCumulativeTime;
-    long long _faceDetectionStartTime;
-    unsigned int _numFacesDetected;
 }
 
 + (void)ode _driveStateMachineWithBuffer:forInputIndex:sampleBufferAlreadyAtHeadOfQueue:] /* Error: Ran out of types for this method. */;
@@ -49,20 +23,20 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)@;
 - (CDUnknownBlockType);
-- (struct CGRect);
+- (struct CGRect)(;
 - (long long);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (CDStruct_a536cad7);
+- (CDStruct_60336a4d);
 - (void);
 - (void);
 - (int);
@@ -70,15 +44,15 @@
 - (id);
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)U;
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)SFUInputBundle;
 - (CDStruct_1ef3fb1f);
 - (void);
 - (void);
@@ -90,24 +64,7 @@
 - (void)¾Z;
 
 // Remaining properties
-@property(nonatomic) CDStruct_a536cad7 cinematicFramingControls;
-@property(nonatomic) _Bool cinematicFramingControlsSuspended;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) BWNodeInput *detectionMetadataInput; // @synthesize detectionMetadataInput=_detectionMetadataInput;
-@property(readonly, nonatomic) BWNodeOutput *detectionMetadataOutput; // @synthesize detectionMetadataOutput=_detectionMetadataOutput;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long multipleFacesDetectedCumulativeTime; // @synthesize multipleFacesDetectedCumulativeTime=_multipleFacesDetectedCumulativeTime;
 @property(nonatomic) CDStruct_1ef3fb1f outputDimensions; // @synthesize outputDimensions=_outputDimensions;
-@property(readonly, nonatomic) struct CGRect regionOfInterestForCameraControls;
-@property(nonatomic) CDUnknownBlockType regionOfInterestForCameraControlsChangedHandler;
-@property(nonatomic, getter=isRegionOfInterestForCameraControlsFeedbackEnabled) _Bool regionOfInterestForCameraControlsFeedbackEnabled;
-@property(retain, nonatomic) id rtscProcessor; // @synthesize rtscProcessor=_rtscProcessor;
-@property(readonly, nonatomic) long long singleFaceDetectedCumulativeTime; // @synthesize singleFaceDetectedCumulativeTime=_singleFaceDetectedCumulativeTime;
-@property(readonly) Class superclass;
 
 @end
 

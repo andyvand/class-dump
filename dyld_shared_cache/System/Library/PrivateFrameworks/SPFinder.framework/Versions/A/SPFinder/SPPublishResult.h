@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSUUID;
+@class NSUUID;
 
 @interface SPPublishResult
 {
     NSUUID *_requestUUID;
-    NSData *_aaaPubKeyHash;
 }
 
 + (_Bool);
 - (void);
 - (id);
+- (id)RG;
+- (id);
+- (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)l;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSData *aaaPubKeyHash; // @synthesize aaaPubKeyHash=_aaaPubKeyHash;
 @property(copy, nonatomic) NSUUID *requestUUID; // @synthesize requestUUID=_requestUUID;
 
 @end

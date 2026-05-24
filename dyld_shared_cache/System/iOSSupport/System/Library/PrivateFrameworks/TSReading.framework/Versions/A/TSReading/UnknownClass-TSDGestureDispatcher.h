@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TSDRep;
-@protocol TSDGestureDelegate, TSDGestureTarget;
+@protocol TSDGestureTarget;
 
 @interface UnknownClass (TSDGestureDispatcher)
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
+- (struct CGPoint)]H;
+- (id);
+- (id)F;
 - (struct CGPoint);
-- (id);
-- (id);
-- (struct CGPoint);
-- (id);
+- (id)];
 - (void);
 - (struct CGPoint);
 - (id);
@@ -25,16 +24,5 @@
 
 // Remaining properties
 @property(retain, nonatomic) id <TSDGestureTarget> cachedGestureTarget;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) id <TSDGestureDelegate> gestureDelegate;
-@property(retain, nonatomic) NSString *gestureKind;
-@property(readonly, nonatomic) int gestureState;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) TSDRep *targetRep;
 @end
 

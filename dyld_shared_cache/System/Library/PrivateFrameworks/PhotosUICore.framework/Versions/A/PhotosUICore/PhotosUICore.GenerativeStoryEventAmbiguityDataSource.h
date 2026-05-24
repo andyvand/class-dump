@@ -7,13 +7,6 @@
 @interface PhotosUICore.GenerativeStoryEventAmbiguityDataSource
 {
     id _eventFetchState;
-    id _suggestedEvents;
-    id _selectedEvents;
-    id _currentAmbiguousToken;
-    id _currentSelectedIdentifiers;
-    id _tokenToSelectedEvents;
-    id logger;
-    id _$observationRegistrar;
 }
 
 @end

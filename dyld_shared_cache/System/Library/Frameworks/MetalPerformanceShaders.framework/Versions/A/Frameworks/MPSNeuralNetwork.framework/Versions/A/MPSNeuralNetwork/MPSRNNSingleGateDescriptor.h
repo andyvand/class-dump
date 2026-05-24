@@ -11,21 +11,19 @@
 @interface MPSRNNSingleGateDescriptor : MPSRNNDescriptor
 {
     id <MPSCNNConvolutionDataSource> _inputWeights;
-    id <MPSCNNConvolutionDataSource> _recurrentWeights;
 }
 
 + (id);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)0 ;
 - (id);
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) id <MPSCNNConvolutionDataSource> inputWeights; // @synthesize inputWeights=_inputWeights;
-@property(retain, nonatomic) id <MPSCNNConvolutionDataSource> recurrentWeights; // @synthesize recurrentWeights=_recurrentWeights;
 
 @end
 

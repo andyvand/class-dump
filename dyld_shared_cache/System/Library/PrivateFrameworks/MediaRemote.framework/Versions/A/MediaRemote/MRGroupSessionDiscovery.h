@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRGroupSessionInfo, MRGroupSessionXPCConnection, NSObject, NSSet;
-@protocol MRGroupSessionDiscoveryDelegate, OS_dispatch_queue;
+@class MRGroupSessionXPCConnection;
 
 @interface MRGroupSessionDiscovery
 {
     struct os_unfair_lock_s _lock;
-    NSSet *_discoveredSessions;
-    MRGroupSessionInfo *_activeSession;
-    MRGroupSessionXPCConnection *_connection;
-    id <MRGroupSessionDiscoveryDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
 }
 
 - (void);
@@ -23,30 +16,24 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
+- (void);
+- (id)removeFromSuperview;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (struct os_unfair_lock_s)ingData:fromID:context: /* Error: Ran out of types for this method. */;
+- (struct os_unfair_lock_s)service:account:incomingData:fromID:context: /* Error: Ran out of types for this method. */;
 - (void)nCommandInfo;
 
 // Remaining properties
-@property(retain, nonatomic) MRGroupSessionInfo *activeSession; // @synthesize activeSession=_activeSession;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *callbackQueue; // @synthesize callbackQueue=_callbackQueue;
 @property(retain, nonatomic) MRGroupSessionXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, nonatomic) __weak id <MRGroupSessionDiscoveryDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSSet *discoveredSessions; // @synthesize discoveredSessions=_discoveredSessions;
-@property(readonly, nonatomic) struct os_unfair_lock_s lock; // @synthesize lock=_lock;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

@@ -5,6 +5,8 @@
 //
 
 @protocol AFMediaPlaybackStateSnapshotMutating
+- (void)_isBeginningMatching;
+- (void);
 - (void)!Õ"°!¸Aùqn&Ð1Â0@ù
 × ;
 @end

@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void)eFromContentFrame:(id)arg1 toContentFrame: /* Error: Ran out of types for this method. */;
+- (void)window:(id)arg1 willAnimateFromContentFrame:toContentFrame: /* Error: Ran out of types for this method. */;
 - (void)ggg_;
 
 @end

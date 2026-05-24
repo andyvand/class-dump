@@ -9,21 +9,13 @@
 @interface GEOLogMsgEventProactiveSuggestionInteractionSession
 {
     NSMutableArray *_proactiveItems;
-    int _duration;
-    int _interactedItemIndex;
-    int _listType;
-    struct {
-        unsigned int has_duration:1;
-        unsigned int has_interactedItemIndex:1;
-        unsigned int has_listType:1;
-    } _flags;
 }
 
-+ (Class);
-+ (_Bool)ChargeDiffAtDest:(id)arg1;
++ (Class)ic}@;
++ (_Bool)setHasStateOfChargeDiffAtDest:(id)arg1;
 - (void);
 - (void);
-- (void);
+- (void)#;
 - (unsigned long long);
 - (id);
 - (id);
@@ -31,11 +23,11 @@
 - (int);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (int);
-- (void);
+- (void)observableWithFuture:schedulerProvider: /* Error: Ran out of types for this method. */;
+- (void)addChildWithDelegateInfo:(id)arg1;
+- (void)_CNObservableTakeUntilInputObserver;
+- (int)take runningboard assertion, error:(id)arg1 %{public}@;
+- (void);
 - (int);
 - (void);
 - (id);
@@ -45,25 +37,19 @@
 - (void);
 - (void);
 - (unsigned long long);
+- (_Bool)_interruptProducerIndex;
 - (_Bool);
-- (_Bool);
-- (void);
-- (id)ansitLineTileInfo:(struct _NSZone *)arg1;
-- (_Bool)ryRegionAllowlists;
+- (void)A;
+- (id)setTransitLineTileInfo:(struct _NSZone *)arg1;
+- (_Bool)clearCountryRegionAllowlists;
 - (id)rmDetails",&,N;
 - (id)val error :%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (void)nal12ExtensionSet9ExtensionENS_4lessIiEENS_9allocatorINS_4pairIKiS5_EEEEEE;
+- (void)NSt3__13mapIiN6google8protobuf8internal12ExtensionSet9ExtensionENS_4lessIiEENS_9allocatorINS_4pairIKiS5_EEEEEE;
 - (void);
 
 // Remaining properties
-@property(nonatomic) int duration;
-@property(nonatomic) _Bool hasDuration;
-@property(nonatomic) _Bool hasInteractedItemIndex;
 @property(nonatomic) _Bool hasListType;
-@property(nonatomic) int interactedItemIndex;
-@property(nonatomic) int listType;
-@property(retain, nonatomic) NSMutableArray *proactiveItems;
 
 @end
 

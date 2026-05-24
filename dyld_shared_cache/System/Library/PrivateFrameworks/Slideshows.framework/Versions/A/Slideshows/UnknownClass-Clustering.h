@@ -6,9 +6,9 @@
 
 @interface UnknownClass (Clustering)
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 @end
 

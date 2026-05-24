@@ -4,56 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol ChatKit.CKTextEffectCoordinatorDelegate, ChatKit.CKTextEffectCoordinatorEffectConfigurationDelegate, _NSCustomTextRenderingDisplayLink;
+@protocol _NSCustomTextRenderingDisplayLink;
 
 @interface ChatKit.CKTextEffectCoordinator
 {
     id startedTextAnimation;
-    id startedIdentifiers;
-    id isWaitingForInvalidOrIdleAnimator;
-    id isWaitingForInvalidAnimation;
-    id continuationState;
-    id displayLink;
-    id displayLinkToken;
-    id logger;
-    id resumeDate;
-    _Bool isPaused;
-    id now;
-    id configuration;
-    id loopCount;
-    id updateCount;
-    id tickCounter;
-    void delegate;
-    void configurationDelegate;
 }
 
 + (_Bool);
++ (_Bool)if you forget this password, there is no way to recover access to these locked notes.;
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)CustomPasswordButton;
 - (void);
+- (void)A;
+- (void);
+- (void)ack audio:(id)arg1 No asset - attachment:%s /* Error: Ran out of types for this method. */;
+- (id);
+- (void)ListRepresentable;
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)=;
 - (void);
 - (id)x~(ð h¸	p;
 - (void);
 - (_Bool) Èÿ;
 
 // Remaining properties
-@property(nonatomic) __weak id <ChatKit.CKTextEffectCoordinatorEffectConfigurationDelegate> configurationDelegate; // @synthesize configurationDelegate;
 @property(nonatomic, readonly) id <_NSCustomTextRenderingDisplayLink> customRenderDisplayLink;
-@property(nonatomic) __weak id <ChatKit.CKTextEffectCoordinatorDelegate> delegate; // @synthesize delegate;
-@property(nonatomic) _Bool isPaused; // @synthesize isPaused;
 
 @end
 

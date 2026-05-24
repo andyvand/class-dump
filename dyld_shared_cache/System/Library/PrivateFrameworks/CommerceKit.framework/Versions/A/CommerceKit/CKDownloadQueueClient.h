@@ -7,7 +7,6 @@
 @interface CKDownloadQueueClient
 {
     long long _downloadTypesMask;
-    CDUnknownBlockType _observerBlock;
 }
 
 - (void);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property long long downloadTypesMask; // @synthesize downloadTypesMask=_downloadTypesMask;
-@property(copy) CDUnknownBlockType observerBlock; // @synthesize observerBlock=_observerBlock;
 
 @end
 

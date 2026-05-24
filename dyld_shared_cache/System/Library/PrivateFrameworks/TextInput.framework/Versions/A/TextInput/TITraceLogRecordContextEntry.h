@@ -9,12 +9,13 @@
 @interface TITraceLogRecordContextEntry
 {
     NSString *_token;
-    NSString *_wordID;
 }
 
 - (id);
-- (id);
-- (void);
+- (id)E'F
+;
+- (void)E*J
+;
 - (id);
 - (void);
 - (void)
@@ -26,7 +27,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *token; // @synthesize token=_token;
-@property(retain, nonatomic) NSString *wordID; // @synthesize wordID=_wordID;
 
 @end
 

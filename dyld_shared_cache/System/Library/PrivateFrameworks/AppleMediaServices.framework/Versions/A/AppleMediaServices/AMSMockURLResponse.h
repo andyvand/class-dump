@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSError, NSMutableArray, NSURLRequest, NSURLSessionTask;
+@class NSMutableArray;
 
 @interface AMSMockURLResponse
 {
     _Bool _performActualRequest;
-    NSError *_error;
-    unsigned long long _statusCode;
-    NSDictionary *_headers;
-    NSData *_body;
-    NSURLRequest *_originalRequest;
-    NSMutableArray *_responseHandlerBlocks;
-    NSURLSessionTask *_runningTask;
 }
 
 + (id);
@@ -46,14 +39,7 @@
 - (void)c;
 
 // Remaining properties
-@property(retain) NSData *body; // @synthesize body=_body;
-@property(retain) NSError *error; // @synthesize error=_error;
-@property(retain) NSDictionary *headers; // @synthesize headers=_headers;
-@property(retain) NSURLRequest *originalRequest; // @synthesize originalRequest=_originalRequest;
-@property _Bool performActualRequest; // @synthesize performActualRequest=_performActualRequest;
 @property(retain) NSMutableArray *responseHandlerBlocks; // @synthesize responseHandlerBlocks=_responseHandlerBlocks;
-@property(retain) NSURLSessionTask *runningTask; // @synthesize runningTask=_runningTask;
-@property unsigned long long statusCode; // @synthesize statusCode=_statusCode;
 
 @end
 

@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
+- (id)929`b;
 - (void);
 - (void);
 - (CDStruct_4c969caf);

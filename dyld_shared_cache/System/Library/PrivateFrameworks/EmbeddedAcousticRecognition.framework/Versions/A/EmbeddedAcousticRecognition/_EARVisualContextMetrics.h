@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface _EARVisualContextMetrics
 {
     NSString *_entityTaggerCategory;
-    NSArray *_visualContextCategories;
-    NSArray *_speechProfileCategories;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)A;
 - (void)¨	;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *entityTaggerCategory; // @synthesize entityTaggerCategory=_entityTaggerCategory;
-@property(readonly, nonatomic) NSArray *speechProfileCategories; // @synthesize speechProfileCategories=_speechProfileCategories;
-@property(readonly, nonatomic) NSArray *visualContextCategories; // @synthesize visualContextCategories=_visualContextCategories;
 
 @end
 

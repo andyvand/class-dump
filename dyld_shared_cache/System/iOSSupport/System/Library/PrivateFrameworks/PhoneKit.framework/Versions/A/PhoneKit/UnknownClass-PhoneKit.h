@@ -11,6 +11,6 @@
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)SymbolPriceChangeData;
 @end
 

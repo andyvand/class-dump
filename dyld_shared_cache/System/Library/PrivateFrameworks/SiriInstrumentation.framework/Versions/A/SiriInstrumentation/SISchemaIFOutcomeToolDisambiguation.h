@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SISchemaIFOutcomeToolDisambiguation : SISchemaInstrumentationMessage
 {
     NSString *_assistantSchemaKind;
-    _Bool _hasAssistantSchemaKind;
 }
 
 - (void);
@@ -22,19 +21,17 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)B,N,V_autoRenewStatus;
+- (_Bool)herClass(void)_block_invoke;
+- (_Bool)oveMessage(IMDChatRecordRef, IMDMessageRecordRef);
 - (id);
 - (id);
-- (id)ebPre;
-- (id)imity;
-- (void)MEWORKREQUESTTYPE_UNKNOWN;
+- (id)deleteCirAlertKgWaBoostWebPre;
+- (id)_deviceProximity;
+- (void)MTFRAMEWORKREQUESTTYPE_UNKNOWN;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *assistantSchemaKind; // @synthesize assistantSchemaKind=_assistantSchemaKind;
-@property(nonatomic) _Bool hasAssistantSchemaKind; // @synthesize hasAssistantSchemaKind=_hasAssistantSchemaKind;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

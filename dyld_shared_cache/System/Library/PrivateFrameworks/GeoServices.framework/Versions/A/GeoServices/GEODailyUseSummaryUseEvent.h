@@ -4,55 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEODailyUseSummaryUseEvent
 {
     PBUnknownFields *_unknownFields;
-    NSString *_usageString;
-    int _appType;
-    unsigned int _count;
-    int _eventType;
-    _Bool _usageBool;
-    struct {
-        unsigned int has_appType:1;
-        unsigned int has_count:1;
-        unsigned int has_eventType:1;
-        unsigned int has_usageBool:1;
-    } _flags;
 }
 
-+ (_Bool)Time:(id)arg1;
++ (_Bool)setHasPredictedExitTime:(id)arg1;
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)dictionaryWithContentsOfFile: /* Error: Ran out of types for this method. */;
+- (_Bool)dictionaryWithCapacity: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
-- (void);
+- (void) ;
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)setDelayInSamplesRequiredForChannelSelection:(id)arg1;
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (int);
+- (int)jobTitle;
+- (_Bool)lections;
 - (_Bool);
-- (_Bool);
-- (void);
-- (id)idStairs:(struct _NSZone *)arg1;
-- (int)ion;
-- (void)ExperimentAssignment:(int)arg1;
-- (id)igurationServerProxyDelegate;
+- (void)k!;
+- (id)setHasAvoidStairs:(struct _NSZone *)arg1;
+- (int)hasProtocolVersion;
+- (void)setTilesAbExperimentAssignment:(int)arg1;
+- (id)_GEOCountryConfigurationServerProxyDelegate;
 - (_Bool)­Ô79;
-- (id)ITION_THUNDERSTORMS;
+- (id)MSG_WEATHER_TYPE_CONDITION_THUNDERSTORMS;
 - (id);
 - (void);
 - (void);
@@ -64,17 +53,7 @@
 - (int)d¸Pÿw4"T<;
 
 // Remaining properties
-@property(nonatomic) int appType;
-@property(nonatomic) unsigned int count;
-@property(nonatomic) int eventType;
-@property(nonatomic) _Bool hasAppType;
-@property(nonatomic) _Bool hasCount;
 @property(nonatomic) _Bool hasEventType;
-@property(nonatomic) _Bool hasUsageBool;
-@property(readonly, nonatomic) _Bool hasUsageString;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) _Bool usageBool;
-@property(retain, nonatomic) NSString *usageString;
 
 @end
 

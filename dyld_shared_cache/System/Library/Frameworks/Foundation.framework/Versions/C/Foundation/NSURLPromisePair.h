@@ -10,13 +10,12 @@ __attribute__((visibility("hidden")))
 @interface NSURLPromisePair
 {
     NSURL *_logicalURL;
-    NSURL *_physicalURL;
 }
 
-+ (id);
-+ (id);
-+ (_Bool)t;
-- (void);
++ (id);
++ (id)s;
++ (_Bool)NSBitmapObject;
+- (void);
 - (id);
 - (id);
 - (id);
@@ -25,8 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, copy) NSURL *URL;
-@property(readonly) NSURL *logicalURL; // @synthesize logicalURL=_logicalURL;
-@property(readonly) NSURL *physicalURL; // @synthesize physicalURL=_physicalURL;
 
 @end
 

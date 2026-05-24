@@ -11,14 +11,14 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
-- (id);
-- (double);
-- (double);
-- (struct CGSize);
-- (id);
-- (id);
-- (void);
+- (id)ClientRequestHandlingP;
+- (id)p;
+- (double)So21IMDPersistenceServiceCm;
+- (double)_GSg;
+- (struct CGSize)d Date is > 30 days old and we need to upload the asset to CloudKit;
+- (id)e. Dropping record:%@ /* Error: Ran out of types for this method. */;
+- (id)while syncing or recordID does not have a record name. Dropping record:%@ /* Error: Ran out of types for this method. */;
+- (void)IMAssociatedMessageType;
 - (void);
 - (void);
 - (id);

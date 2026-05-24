@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSOrderedSet;
+@class NSDictionary;
 
 @interface CWConfiguration
 {
     NSDictionary *_info;
-    NSOrderedSet *_networkProfiles;
-    _Bool _rememberJoinedNetworks;
-    _Bool _requireAdministratorForAssociation;
-    _Bool _requireAdministratorForPower;
-    _Bool _requireAdministratorForIBSSMode;
 }
 
 + (id);
@@ -25,13 +20,13 @@
 - (void);
 - (void);
 - (void);
+- (_Bool)Xn;
+- (_Bool)4_;
 - (_Bool);
-- (_Bool);
-- (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -40,12 +35,12 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)y%;
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool)Ð1Â0@ù
@@ -53,11 +48,6 @@
 
 // Remaining properties
 @property(copy) NSDictionary *info; // @synthesize info=_info;
-@property(copy, nonatomic) NSOrderedSet *networkProfiles; // @synthesize networkProfiles=_networkProfiles;
-@property(nonatomic) _Bool rememberJoinedNetworks; // @synthesize rememberJoinedNetworks=_rememberJoinedNetworks;
-@property(nonatomic) _Bool requireAdministratorForAssociation; // @synthesize requireAdministratorForAssociation=_requireAdministratorForAssociation;
-@property(nonatomic) _Bool requireAdministratorForIBSSMode; // @synthesize requireAdministratorForIBSSMode=_requireAdministratorForIBSSMode;
-@property(nonatomic) _Bool requireAdministratorForPower; // @synthesize requireAdministratorForPower=_requireAdministratorForPower;
 
 @end
 

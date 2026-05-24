@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CHHapticEvent
 {
     NSString *_type;
-    unsigned long long _audioResID;
-    NSArray *_eventParams;
-    double _time;
-    double _duration;
 }
 
-+ (_Bool);
++ (_Bool)`;
 - (id);
 - (void);
 - (double);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -29,43 +25,22 @@
 - (double);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (double);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id)rExternalResources: /* Error: Ran out of types for this method. */;
+- (id)clearExternalResources: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSString *audioPowerUsage;
 @property(readonly) unsigned long long audioResID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property double duration; // @synthesize duration=_duration;
-@property(readonly) NSArray *eventParameters; // @synthesize eventParameters=_eventParams;
-@property(readonly) NSArray *events;
-@property(readonly) double fullDuration;
-@property(readonly) NSString *hapticPowerUsage;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *locality;
-@property(readonly) NSArray *parameterCurves;
-@property(readonly) NSArray *parameters;
-@property(readonly) NSString *patternID;
-@property(readonly) NSString *priority;
-@property double relativeTime; // @synthesize relativeTime=_time;
-@property(readonly) Class superclass;
-@property(readonly) NSString *type; // @synthesize type=_type;
-@property(readonly) NSString *usageCategory;
 
 @end
 

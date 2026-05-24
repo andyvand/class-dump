@@ -10,7 +10,6 @@
         unsigned int _evaluationBlocked:1;
         unsigned int _reservedPredicateFlags:31;
     } _predicateFlags;
-    unsigned int reserved;
 }
 
 @end

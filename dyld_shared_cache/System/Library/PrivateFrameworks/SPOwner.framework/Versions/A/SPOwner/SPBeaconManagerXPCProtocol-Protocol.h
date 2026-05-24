@@ -5,5 +5,9 @@
 //
 
 @protocol SPBeaconManagerXPCProtocol
+- (void);
+- (void)s;
+- (void)messageUID:%@ /* Error: Ran out of types for this method. */;
+- (void)act's cache is not populated.;
 @end
 

@@ -9,7 +9,7 @@
 @protocol CAAnimationDelegate
 
 @optional
-- (void)ayerViewDidStartPictureInPicture:(CAAnimation *)arg1;
-- (void);
+- (void)playerViewDidStartPictureInPicture:(CAAnimation *)arg1;
+- (void)_baselineAnchor;
 @end
 

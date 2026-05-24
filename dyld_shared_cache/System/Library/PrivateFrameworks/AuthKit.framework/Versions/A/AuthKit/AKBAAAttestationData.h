@@ -4,42 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface AKBAAAttestationData
 {
     _Bool _clientOrHostExcludesBAA;
-    _Bool _isVM;
-    _Bool _isInternalBuild;
-    NSString *_machineID;
-    NSString *_oneTimePassword;
-    unsigned long long _routingInfo;
-    NSString *_baaTime;
-    NSString *_additionalBAAHeaders;
-    NSString *_baaCert;
-    NSString *_baaSignature;
-    NSString *_baaAltSignature;
-    NSString *_baaError;
-    NSString *_hostBAACert;
-    NSString *_hostBAASignature;
-    NSString *_hostBAAAltSignature;
-    NSString *_hostBAAError;
-    NSString *_internalDigest;
-    NSString *_internalDigestNoBody;
-    NSString *_internalDebugTime;
-    NSString *_baaDeviceToken;
-    NSString *_signingErrorString;
-    NSString *_baaVersion;
 }
 
 + (_Bool);
 - (void);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void))!;
 - (void);
 - (void);
 - (void);
@@ -57,15 +34,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -75,23 +44,31 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (id)�;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
+- (id);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)(i;
 - (unsigned long long);
-- (id);
+- (id)kMDItemUserPrintedDate;
 - (void);
 - (void)ì;
 - (_Bool)8ïÓß¡;äòÏC5GËÊÒnZ@Ââý~§¨óÈÛ×¶Ä¾ÀM%6xû&4¯D2Ö=ÃuXÁ#gtT_Ì9 Íç¹WFé2)5õÆ¬®îhã¯;
@@ -99,34 +76,7 @@
 &Rõ­Ù×£û5AmcO;ÿÓ§©ÝñK?gi1EâºÎÀ´ì"Vz;
 
 // Remaining properties
-@property(copy) NSString *additionalBAAHeaders; // @synthesize additionalBAAHeaders=_additionalBAAHeaders;
-@property(readonly, copy) NSDictionary *allHeaders;
-@property(readonly, copy) NSDictionary *anisetteHeaders;
-@property(copy) NSString *baaAltSignature; // @synthesize baaAltSignature=_baaAltSignature;
-@property(readonly, copy) NSDictionary *baaAttestationHeaders;
-@property(copy) NSString *baaCert; // @synthesize baaCert=_baaCert;
-@property(copy) NSString *baaDeviceToken; // @synthesize baaDeviceToken=_baaDeviceToken;
-@property(copy) NSString *baaError; // @synthesize baaError=_baaError;
-@property(copy) NSString *baaSignature; // @synthesize baaSignature=_baaSignature;
-@property(copy) NSString *baaTime; // @synthesize baaTime=_baaTime;
-@property(copy) NSString *baaVersion; // @synthesize baaVersion=_baaVersion;
-@property _Bool clientOrHostExcludesBAA; // @synthesize clientOrHostExcludesBAA=_clientOrHostExcludesBAA;
-@property(readonly, copy) NSDictionary *companionAttestationHeaders;
-@property(readonly, copy) NSDictionary *headersForSigning;
-@property(copy) NSString *hostBAAAltSignature; // @synthesize hostBAAAltSignature=_hostBAAAltSignature;
-@property(copy) NSString *hostBAACert; // @synthesize hostBAACert=_hostBAACert;
-@property(copy) NSString *hostBAAError; // @synthesize hostBAAError=_hostBAAError;
-@property(copy) NSString *hostBAASignature; // @synthesize hostBAASignature=_hostBAASignature;
-@property(copy) NSString *internalDebugTime; // @synthesize internalDebugTime=_internalDebugTime;
-@property(copy) NSString *internalDigest; // @synthesize internalDigest=_internalDigest;
-@property(copy) NSString *internalDigestNoBody; // @synthesize internalDigestNoBody=_internalDigestNoBody;
-@property(nonatomic) _Bool isInternalBuild; // @synthesize isInternalBuild=_isInternalBuild;
 @property(nonatomic) _Bool isVM; // @synthesize isVM=_isVM;
-@property(copy) NSString *machineID; // @synthesize machineID=_machineID;
-@property(copy) NSString *oneTimePassword; // @synthesize oneTimePassword=_oneTimePassword;
-@property(readonly, copy) NSDictionary *proxiedAttestationHeaders;
-@property unsigned long long routingInfo; // @synthesize routingInfo=_routingInfo;
-@property(copy) NSString *signingErrorString; // @synthesize signingErrorString=_signingErrorString;
 
 @end
 

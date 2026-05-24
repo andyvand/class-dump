@@ -4,32 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMCategory, EMSearchableMessageID;
+@class EMSearchableMessageID;
 
 @interface EMBiomeMessage
 {
     _Bool _isTopHit;
-    _Bool _isInstantAnswer;
-    EMSearchableMessageID *_messageID;
-    EMCategory *_category;
-    unsigned long long _indexInSection;
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long)ScheduleType;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)(;
 - (void);
 - (id) ;
 
 // Remaining properties
-@property(readonly, nonatomic) EMCategory *category; // @synthesize category=_category;
-@property(readonly, nonatomic) unsigned long long indexInSection; // @synthesize indexInSection=_indexInSection;
-@property(readonly, nonatomic) _Bool isInstantAnswer; // @synthesize isInstantAnswer=_isInstantAnswer;
-@property(readonly, nonatomic) _Bool isPrimary;
-@property(readonly, nonatomic) _Bool isTopHit; // @synthesize isTopHit=_isTopHit;
 @property(readonly, copy, nonatomic) EMSearchableMessageID *messageID; // @synthesize messageID=_messageID;
 
 @end

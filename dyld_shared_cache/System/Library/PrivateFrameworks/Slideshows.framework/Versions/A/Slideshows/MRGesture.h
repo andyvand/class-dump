@@ -9,15 +9,6 @@
 @interface MRGesture
 {
     MRHitBlob *_hitBlob;
-    double _linearScaleAtStart;
-    double _slideRotationAtStart;
-    double _slideScaleAtStart;
-    double _currentRotation;
-    double _currentScale;
-    struct CGPoint _locationInViewAtStart;
-    struct CGPoint _locationInSlideAtStart;
-    struct CGPoint _slideCenterAtStart;
-    struct CGPoint _currentTranslation;
 }
 
 - (double);
@@ -29,12 +20,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)iguration><FCJSONEncodableObjectProviding>"16@0:(id)arg1 8;
+- (void)6;
 - (struct CGPoint);
 - (struct CGPoint);
 - (double);
-- (id);
+- (id)icsEnvelopeTracker _registerContentTypes:(id)arg1 withEventName:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (double);
@@ -44,16 +35,7 @@
 - (void);
 
 // Remaining properties
-@property double currentRotation; // @synthesize currentRotation=_currentRotation;
-@property double currentScale; // @synthesize currentScale=_currentScale;
-@property struct CGPoint currentTranslation; // @synthesize currentTranslation=_currentTranslation;
 @property(retain) MRHitBlob *hitBlob; // @synthesize hitBlob=_hitBlob;
-@property double linearScaleAtStart; // @synthesize linearScaleAtStart=_linearScaleAtStart;
-@property struct CGPoint locationInSlideAtStart; // @synthesize locationInSlideAtStart=_locationInSlideAtStart;
-@property struct CGPoint locationInViewAtStart; // @synthesize locationInViewAtStart=_locationInViewAtStart;
-@property struct CGPoint slideCenterAtStart; // @synthesize slideCenterAtStart=_slideCenterAtStart;
-@property double slideRotationAtStart; // @synthesize slideRotationAtStart=_slideRotationAtStart;
-@property double slideScaleAtStart; // @synthesize slideScaleAtStart=_slideScaleAtStart;
 
 @end
 

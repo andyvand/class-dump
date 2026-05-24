@@ -4,34 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NEProxyServer, NSArray, NSString, NSURL;
+@class NEProxyServer;
 
 @interface NEProxySettings
 {
     NEProxyServer *_HTTPServer;
-    NEProxyServer *_HTTPSServer;
-    _Bool _autoProxyConfigurationEnabled;
-    _Bool _HTTPEnabled;
-    _Bool _HTTPSEnabled;
-    _Bool _excludeSimpleHostnames;
-    _Bool _autoProxyDiscovery;
-    _Bool _FTPEnabled;
-    _Bool _SOCKSEnabled;
-    _Bool _RTSPEnabled;
-    _Bool _gopherEnabled;
-    _Bool _usePassiveFTP;
-    NSArray *_exceptionList;
-    NSURL *_proxyAutoConfigURL;
-    NSString *_proxyAutoConfigJavaScript;
-    NEProxyServer *_FTPServer;
-    NEProxyServer *_SOCKSServer;
-    NEProxyServer *_RTSPServer;
-    NEProxyServer *_gopherServer;
-    NSArray *_supplementalMatchDomains;
-    NSArray *_supplementalMatchOrders;
 }
 
-+ (_Bool);
++ (_Bool)setStatus: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -40,13 +20,13 @@
 - (void);
 - (void);
 - (void);
+- (void)R;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -72,7 +52,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -81,7 +61,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)Transferring;
 - (id);
 - (id);
 - (void);
@@ -90,36 +70,11 @@
 - (void);
 - (void)w_listener>";
 - (_Bool)setDisconnectOnWake:(id)arg1;
-- (id)wIdentifier;
+- (id)_filterFlowIdentifier;
 - (id)ic selectors;
 
 // Remaining properties
-@property _Bool FTPEnabled; // @synthesize FTPEnabled=_FTPEnabled;
-@property(copy) NEProxyServer *FTPServer; // @synthesize FTPServer=_FTPServer;
-@property _Bool HTTPEnabled; // @synthesize HTTPEnabled=_HTTPEnabled;
-@property _Bool HTTPSEnabled; // @synthesize HTTPSEnabled=_HTTPSEnabled;
-@property(copy) NEProxyServer *HTTPSServer;
-@property(copy) NEProxyServer *HTTPServer;
-@property _Bool RTSPEnabled; // @synthesize RTSPEnabled=_RTSPEnabled;
-@property(copy) NEProxyServer *RTSPServer; // @synthesize RTSPServer=_RTSPServer;
-@property _Bool SOCKSEnabled; // @synthesize SOCKSEnabled=_SOCKSEnabled;
-@property(copy) NEProxyServer *SOCKSServer; // @synthesize SOCKSServer=_SOCKSServer;
-@property _Bool autoProxyConfigurationEnabled; // @synthesize autoProxyConfigurationEnabled=_autoProxyConfigurationEnabled;
-@property _Bool autoProxyDiscovery; // @synthesize autoProxyDiscovery=_autoProxyDiscovery;
-@property(readonly) _Bool enabled;
-@property(copy) NSArray *exceptionList; // @synthesize exceptionList=_exceptionList;
-@property _Bool excludeSimpleHostnames; // @synthesize excludeSimpleHostnames=_excludeSimpleHostnames;
-@property _Bool gopherEnabled; // @synthesize gopherEnabled=_gopherEnabled;
-@property(copy) NEProxyServer *gopherServer; // @synthesize gopherServer=_gopherServer;
-@property(copy) NSArray *matchDomains;
-@property(copy) NSString *proxyAutoConfigJavaScript; // @synthesize proxyAutoConfigJavaScript=_proxyAutoConfigJavaScript;
-@property(copy) NSURL *proxyAutoConfigURL; // @synthesize proxyAutoConfigURL=_proxyAutoConfigURL;
-@property(copy) NSString *proxyAutoConfigurationJavaScript;
-@property(copy) NSURL *proxyAutoConfigurationURL;
-@property(copy) NSArray *supplementalMatchDomains; // @synthesize supplementalMatchDomains=_supplementalMatchDomains;
-@property(copy) NSArray *supplementalMatchOrders; // @synthesize supplementalMatchOrders=_supplementalMatchOrders;
 @property(readonly, nonatomic) _Bool useForAllDomains;
-@property _Bool usePassiveFTP; // @synthesize usePassiveFTP=_usePassiveFTP;
 
 @end
 

@@ -6,24 +6,18 @@
 
 #import <ProactiveSupport/_PASLazyResult.h>
 
-@class NSObject;
-@protocol OS_dispatch_source;
-
 @interface _PASLazyPurgeableResult : _PASLazyResult
 {
     id _weakData;
-    NSObject<OS_dispatch_source> *_memoryPressureSource;
-    NSObject<OS_dispatch_source> *_idleTimeoutSource;
-    double _idleTimeout;
-    _Atomic _Bool _nil;
 }
 
-- (void);
+- (void)removeEvent;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)omb_FG = %d
+;
+- (id)otificationListener",&,N,V_notificationListener;
+- (void)setX_calendarserver_extended_freebusy: /* Error: Ran out of types for this method. */;
 
 @end
 

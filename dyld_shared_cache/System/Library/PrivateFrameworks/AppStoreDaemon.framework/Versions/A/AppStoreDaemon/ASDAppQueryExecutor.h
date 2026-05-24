@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASDDispatchQueue, ASDServiceBroker, NSMutableDictionary;
+@class ASDDispatchQueue;
 
 __attribute__((visibility("hidden")))
 @interface ASDAppQueryExecutor
 {
     ASDDispatchQueue *_dispatchQueue;
-    NSMutableDictionary *_queryPromises;
-    ASDServiceBroker *_serviceBroker;
-    long long _queryOptions;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)_chsCreateExtensionIdentityBufUsingBlock:(_Bool)arg1;
 - (long long);
 - (void);
 - (id);

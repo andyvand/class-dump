@@ -4,37 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapItemStorage, GEOSharedNavChargingStationInfo, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOSharedNavWaypointInfo
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOSharedNavChargingStationInfo *_chargingStationInfo;
-    GEOMapItemStorage *_mapItemStorage;
-    NSString *_uniqueIdentifier;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_chargingStationInfo:1;
-        unsigned int read_mapItemStorage:1;
-        unsigned int read_uniqueIdentifier:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)State:(id)arg1;
++ (_Bool)setMapsPlaceIdsState:(id)arg1;
 
 // Remaining properties
-@property(retain, nonatomic) GEOSharedNavChargingStationInfo *chargingStationInfo;
-@property(readonly, nonatomic) _Bool hasChargingStationInfo;
 @property(readonly, nonatomic) _Bool hasMapItemStorage;
-@property(readonly, nonatomic) _Bool hasUniqueIdentifier;
-@property(retain, nonatomic) GEOMapItemStorage *mapItemStorage;
-@property(retain, nonatomic) NSString *uniqueIdentifier;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

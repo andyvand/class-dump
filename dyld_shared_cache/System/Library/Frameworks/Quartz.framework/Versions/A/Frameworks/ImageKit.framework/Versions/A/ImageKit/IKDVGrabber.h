@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureSession, NSMutableArray, NSString, NSTimer;
+@class NSMutableArray;
 
 @interface IKDVGrabber
 {
     NSMutableArray *_listeners;
-    struct __CVBuffer *_currentImage;
-    AVCaptureSession *_session;
-    char *_baseAddr;
-    long long _length;
-    struct CGImage *_imageRef;
-    NSTimer *_timer;
-    _Bool _mirrorMode;
-    _Bool _locked;
-    id _framesProvider;
-    _Bool _providerIsGrabbing;
-    int _frameIndex;
 }
 
 + (void);
@@ -46,19 +35,13 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void));
 - (void);
 - (void)?sÇ;
 - (void)ZÎÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

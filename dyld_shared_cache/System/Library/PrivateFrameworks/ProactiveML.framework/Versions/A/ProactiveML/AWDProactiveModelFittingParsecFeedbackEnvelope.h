@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AWDProactiveModelFittingEvaluation, AWDProactiveModelFittingLinRegFeatureMatrix, AWDProactiveModelFittingLinRegObjectiveFeatures, AWDProactiveModelFittingLogRegGradient, AWDProactiveModelFittingLogRegWeights;
+@class AWDProactiveModelFittingEvaluation;
 
 @interface AWDProactiveModelFittingParsecFeedbackEnvelope
 {
     AWDProactiveModelFittingEvaluation *_evaluation;
-    AWDProactiveModelFittingLinRegFeatureMatrix *_linRegFeatureMatrix;
-    AWDProactiveModelFittingLinRegObjectiveFeatures *_linRegObjectiveFeatures;
-    AWDProactiveModelFittingLogRegGradient *_logRegGradient;
-    AWDProactiveModelFittingLogRegWeights *_logRegWeights;
 }
 
 - (void);
@@ -29,29 +25,20 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
-- (id);
+- (id);
+- (id)submittedInfos;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)T;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) AWDProactiveModelFittingEvaluation *evaluation; // @synthesize evaluation=_evaluation;
 @property(readonly, nonatomic) _Bool hasEvaluation;
-@property(readonly, nonatomic) _Bool hasLinRegFeatureMatrix;
-@property(readonly, nonatomic) _Bool hasLinRegObjectiveFeatures;
-@property(readonly, nonatomic) _Bool hasLogRegGradient;
-@property(readonly, nonatomic) _Bool hasLogRegWeights;
-@property(retain, nonatomic) AWDProactiveModelFittingLinRegFeatureMatrix *linRegFeatureMatrix; // @synthesize linRegFeatureMatrix=_linRegFeatureMatrix;
-@property(retain, nonatomic) AWDProactiveModelFittingLinRegObjectiveFeatures *linRegObjectiveFeatures; // @synthesize linRegObjectiveFeatures=_linRegObjectiveFeatures;
-@property(retain, nonatomic) AWDProactiveModelFittingLogRegGradient *logRegGradient; // @synthesize logRegGradient=_logRegGradient;
-@property(retain, nonatomic) AWDProactiveModelFittingLogRegWeights *logRegWeights; // @synthesize logRegWeights=_logRegWeights;
 
 @end
 

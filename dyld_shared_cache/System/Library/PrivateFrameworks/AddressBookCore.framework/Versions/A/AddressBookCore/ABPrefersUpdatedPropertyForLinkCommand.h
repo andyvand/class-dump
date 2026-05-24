@@ -7,12 +7,10 @@
 #import <AddressBookCore/ABBookCommand.h>
 
 @class NSArray;
-@protocol ABLinkingInfoDataSource;
 
 @interface ABPrefersUpdatedPropertyForLinkCommand : ABBookCommand
 {
     NSArray *_updatedPeople;
-    id <ABLinkingInfoDataSource> _adapter;
 }
 
 + (id);
@@ -23,11 +21,11 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)c;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)SS3key_yp5valuet;
 
 @end
 

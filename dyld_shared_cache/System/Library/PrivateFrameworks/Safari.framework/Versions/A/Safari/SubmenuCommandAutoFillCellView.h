@@ -6,14 +6,12 @@
 
 #import <Safari/ColorInvertingTableCellView.h>
 
-@class NSImageView, NSString, NSTextField;
+@class NSString, NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface SubmenuCommandAutoFillCellView : ColorInvertingTableCellView
 {
     NSString *_titleText;
-    NSTextField *_titleTextField;
-    NSImageView *_chevronImageView;
 }
 
 + (struct CGSize);
@@ -30,8 +28,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property __weak NSImageView *chevronImageView; // @synthesize chevronImageView=_chevronImageView;
-@property(copy, nonatomic) NSString *titleText; // @synthesize titleText=_titleText;
 @property __weak NSTextField *titleTextField; // @synthesize titleTextField=_titleTextField;
 
 @end

@@ -9,28 +9,20 @@
 @interface NTPBCKQuery
 {
     NSMutableArray *_filters;
-    int _queryOperator;
-    NSMutableArray *_sorts;
-    NSMutableArray *_types;
-    _Bool _distinct;
-    struct {
-        unsigned int queryOperator:1;
-        unsigned int distinct:1;
-    } _has;
 }
 
 + (Class);
 + (Class);
 + (Class);
 - (void);
-- (unsigned long long);
+- (unsigned long long)inputShadowDstRed;
 - (void);
 - (unsigned long long);
-- (void);
+- (void)er _requestETAsToEntries:(id)arg1 completion:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (id);
 - (void);
@@ -38,13 +30,13 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
-- (id);
+- (void)wirelessAccessPointCreated:(_Bool)arg1 password: /* Error: Ran out of types for this method. */;
+- (id)Shoving %@ -> %@.;
 - (_Bool);
+- (void)_sportsTagSeenBaselineClickValue;
 - (void);
-- (void);
-- (id);
-- (id);
+- (id)_recordName;
+- (id)ice=1;presence=1;records=1;sharing=1;subscriptions=1;users=1;;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -53,18 +45,12 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)__DATA_CONST;
 - (_Bool);
-- (void);
-- (id)DLINE_TREATMENT_STATE;
+- (void)hasPublisherDiversityMinArticleCount;
+- (id)UNKNOWN_ARTICLE_HEADLINE_TREATMENT_STATE;
 
 // Remaining properties
-@property(nonatomic) _Bool distinct; // @synthesize distinct=_distinct;
-@property(retain, nonatomic) NSMutableArray *filters; // @synthesize filters=_filters;
-@property(nonatomic) _Bool hasDistinct;
-@property(nonatomic) _Bool hasQueryOperator;
-@property(nonatomic) int queryOperator; // @synthesize queryOperator=_queryOperator;
-@property(retain, nonatomic) NSMutableArray *sorts; // @synthesize sorts=_sorts;
 @property(retain, nonatomic) NSMutableArray *types; // @synthesize types=_types;
 
 @end

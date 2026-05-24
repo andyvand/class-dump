@@ -4,36 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _InMemoryArchiveReader
 {
     shared_ptr_d082c67d _network;
-    NSArray *_layerInfos;
 }
 
 + (id);
 + (id);
-- (id);
+- (id)vice supports %lu bytes.;
 - (void);
 - (id);
-- (id);
+- (id)`;
 - (id);
 - (id)put;
 - (void)not the expected %@;
 - (id)¯|ÊÂú2@·ìÍåk´¶GG^;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *layerInfos; // @synthesize layerInfos=_layerInfos;
 @property(readonly, copy, nonatomic) NSString *modelPath;
-@property(readonly) Class superclass;
 
 @end
 

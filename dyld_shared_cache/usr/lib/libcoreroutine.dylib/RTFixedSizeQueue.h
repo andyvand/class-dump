@@ -9,11 +9,10 @@
 @interface RTFixedSizeQueue
 {
     NSMutableArray *_objects;
-    unsigned long long _capacity;
 }
 
 + (_Bool);
-- (id);
+- (id)_rollIdentity;
 - (id);
 - (id);
 - (id);
@@ -26,11 +25,10 @@
 - (id);
 - (id)B,Ð1Â0@ù
 × ;
-- (unsigned long long)anager;
+- (unsigned long long)_lifecycleManager;
 - (void)ate estimate;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long capacity; // @synthesize capacity=_capacity;
 @property(readonly, copy, nonatomic) NSMutableArray *objects; // @synthesize objects=_objects;
 
 @end

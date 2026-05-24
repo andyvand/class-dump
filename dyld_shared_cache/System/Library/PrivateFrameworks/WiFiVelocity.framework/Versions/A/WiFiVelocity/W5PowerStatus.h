@@ -7,9 +7,6 @@
 @interface W5PowerStatus
 {
     int _batteryWarningLevel;
-    unsigned int _powerStateCaps;
-    long long _powerSourceType;
-    double _internalBatteryLevel;
 }
 
 + (_Bool);

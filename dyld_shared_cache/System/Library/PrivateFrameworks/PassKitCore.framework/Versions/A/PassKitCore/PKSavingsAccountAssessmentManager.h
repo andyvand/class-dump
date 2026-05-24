@@ -14,7 +14,7 @@
 - (void);
 - (void);
 - (long long);
-- (id)cessary;
+- (id)_createAndPopulateAutomaticSelectionCriteriaIfNecessary;
 
 @end
 

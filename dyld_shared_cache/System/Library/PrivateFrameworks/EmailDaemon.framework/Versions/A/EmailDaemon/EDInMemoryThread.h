@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFLocked, EMQuery, EMThread, EMThreadScope, NSArray, NSString;
+@class EMThreadScope;
 
 @interface EDInMemoryThread
 {
     EMThreadScope *_threadScope;
-    EMQuery *_originatingQuery;
-    EFLocked *_state;
 }
 
 + (id);
@@ -18,7 +16,7 @@
 × ;
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -33,17 +31,6 @@
 - (id)$¨;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSArray *messages;
-@property(readonly, nonatomic) EMQuery *originatingQuery; // @synthesize originatingQuery=_originatingQuery;
-@property(retain, nonatomic) EFLocked *state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) EMThread *thread;
 @property(readonly, nonatomic) EMThreadScope *threadScope; // @synthesize threadScope=_threadScope;
 
 @end

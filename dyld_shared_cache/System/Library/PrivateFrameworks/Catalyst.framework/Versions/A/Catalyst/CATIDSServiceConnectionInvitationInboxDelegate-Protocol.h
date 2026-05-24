@@ -5,5 +5,6 @@
 //
 
 @protocol CATIDSServiceConnectionInvitationInboxDelegate
+- (void)z8;
 @end
 

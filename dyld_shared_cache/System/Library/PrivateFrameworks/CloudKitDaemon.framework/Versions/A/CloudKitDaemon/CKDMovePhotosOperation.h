@@ -6,15 +6,11 @@
 
 #import <CloudKitDaemon/CKDModifyRecordsOperation.h>
 
-@class CKRecordZoneID, NSDictionary;
-@protocol CKMovePhotosOperationCallbacks><CKDOperationCallbackProxy;
+@class NSDictionary;
 
 @interface CKDMovePhotosOperation : CKDModifyRecordsOperation
 {
     CDUnknownBlockType _moveCompletionBlock;
-    NSDictionary *_moveChangesByDestinationRecordID;
-    CKRecordZoneID *_sourceZoneID;
-    long long _sourceDatabaseScope;
 }
 
 - (void);
@@ -24,27 +20,23 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)Ref, FigEndpointRef, CFDictionaryRef, FigEndpointActivationCompletionCallback, void *)_block_invoke;
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
+- (void)_categorySubsystem;
+- (id);
+- (void);
 - (void);
 - (int);
 - (id);
 - (id);
-- (void)serPurge:(id)arg1;
-- (void)ringKey;
+- (void)setHasUserPurge:(id)arg1;
+- (void)encryptedPublicSharingKey;
 - (long long)ing service identity in zone PCS for zone %@;
 - (id)reports that manatee availability has changed from %{public}@ to %{public}@ for account ID %@. Posting a notification for it;
 
 // Remaining properties
-@property(retain, nonatomic) id <CKMovePhotosOperationCallbacks><CKDOperationCallbackProxy> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
 @property(copy, nonatomic) NSDictionary *moveChangesByDestinationRecordID; // @synthesize moveChangesByDestinationRecordID=_moveChangesByDestinationRecordID;
-@property(copy, nonatomic) CDUnknownBlockType moveCompletionBlock; // @synthesize moveCompletionBlock=_moveCompletionBlock;
-@property(nonatomic) long long sourceDatabaseScope; // @synthesize sourceDatabaseScope=_sourceDatabaseScope;
-@property(copy, nonatomic) CKRecordZoneID *sourceZoneID; // @synthesize sourceZoneID=_sourceZoneID;
 
 @end
 

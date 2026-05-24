@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (_Bool);
+- (void)messageDispatcher;
 - (void);
 - (void);
-- (void);
-- (id)rementallyWithComputeContext:positions:normals: /* Error: Ran out of types for this method. */;
+- (id)morphIncrementallyWithComputeContext:positions:normals: /* Error: Ran out of types for this method. */;
 - (void)owMap.sample_compare(scn_shadow_sampler, pos_ls.xyz, z_ndc);
         } else {
             
@@ -704,7 +704,7 @@ __attribute__((visibility("hidden")))
 
 #endif 
  /* Error: Ran out of types for this method. */;
-- (_Bool)ints;
+- (_Bool)a_skinningJoints;
 
 @end
 

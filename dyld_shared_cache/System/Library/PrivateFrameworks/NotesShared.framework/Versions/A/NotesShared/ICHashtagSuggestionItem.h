@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface ICHashtagSuggestionItem
 {
     NSString *_displayText;
-    NSString *_tokenContentIdentifier;
-    NSDate *_lastUsedDate;
 }
 
 + (id);
@@ -23,14 +21,12 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)ICSearchResultsDidUpdateNotification;
 - (long long);
 - (void)ÀÈÉ¨É;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *displayText; // @synthesize displayText=_displayText;
-@property(retain, nonatomic) NSDate *lastUsedDate; // @synthesize lastUsedDate=_lastUsedDate;
-@property(retain, nonatomic) NSString *tokenContentIdentifier; // @synthesize tokenContentIdentifier=_tokenContentIdentifier;
 
 @end
 

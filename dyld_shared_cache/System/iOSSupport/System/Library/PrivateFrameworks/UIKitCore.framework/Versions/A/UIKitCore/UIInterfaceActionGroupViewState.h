@@ -13,16 +13,16 @@ __attribute__((visibility("hidden")))
     long long _resolvedPresentationStyle;
 }
 
-- (long long);
-- (_Bool);
+- (long long)participants %@;
+- (_Bool)pelineComponent will create it.;
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (_Bool)exPathForDragAndDropInsertion;
-- (id)tFragmentSurfaceHostingView;
+- (_Bool)indexPathForDragAndDropInsertion;
+- (id)_UITextLayoutFragmentSurfaceHostingView;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isVerticalLayoutAxis; // @synthesize isVerticalLayoutAxis=_isVerticalLayoutAxis;

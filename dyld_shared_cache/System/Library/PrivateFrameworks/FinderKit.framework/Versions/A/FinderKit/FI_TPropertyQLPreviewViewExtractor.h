@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     struct vector<TString, std::allocator<TString>> _nodeSuffixes;
 }
 
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);

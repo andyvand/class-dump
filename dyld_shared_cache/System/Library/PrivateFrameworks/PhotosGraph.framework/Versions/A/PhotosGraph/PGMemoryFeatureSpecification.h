@@ -4,31 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSSet, PGGraphFeatureNodeCollection;
+@class NSObject;
 @protocol OS_os_log;
 
 @interface PGMemoryFeatureSpecification
 {
     NSObject<OS_os_log> *_loggingConnection;
-    _Bool _combineFeatureNodes;
-    long long _featureType;
-    NSSet *_typeSpecificIdentifiers;
-    PGGraphFeatureNodeCollection *_featureNodes;
 }
 
 - (id);
-- (id);
+- (id)_isCurrentLineNewLine:(long long)arg1 textElement:(id)arg2;
 - (id);
 - (_Bool);
 - (id);
-- (void)GraphHighlightUpdateTypeNone;
-- (long long)t;
+- (void)PGGraphHighlightUpdateTypeNone;
+- (long long)swimsuit;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool combineFeatureNodes; // @synthesize combineFeatureNodes=_combineFeatureNodes;
-@property(readonly, nonatomic) PGGraphFeatureNodeCollection *featureNodes; // @synthesize featureNodes=_featureNodes;
 @property(readonly, nonatomic) long long featureType; // @synthesize featureType=_featureType;
-@property(readonly, nonatomic) NSSet *typeSpecificIdentifiers; // @synthesize typeSpecificIdentifiers=_typeSpecificIdentifiers;
 
 @end
 

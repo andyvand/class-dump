@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, PHPhotoLibrary, PXLibraryFilterState, PXPlacesMapController, PXPlacesMapPipeline, PXPlacesMapThumbnailLocationCurator, PXPlacesMapView, PXPlacesMapViewController, PXPlacesPhotoAssetsStore;
-@protocol OS_dispatch_queue, PXPlacesMapGeotaggableInfoDelegate;
+@class PXPlacesMapViewController;
 
 @interface PXPlacesMapFetchResultController
 {
     _Bool _isPreloaded;
-    PXPlacesMapViewController *_mapViewController;
-    PXPlacesMapThumbnailLocationCurator *_thumbnailLocationCurator;
-    unsigned long long _contentMode;
-    id <PXPlacesMapGeotaggableInfoDelegate> _geotaggableInfoDelegate;
-    PXPlacesPhotoAssetsStore *_providedAssetStore;
-    PXPlacesMapPipeline *_providedPipeline;
-    PXPlacesPhotoAssetsStore *_albumAssetStore;
-    PXPlacesMapPipeline *_albumPipeline;
-    PXPlacesMapPipeline *_currentPipeline;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    PHPhotoLibrary *_photoLibrary;
-    PXLibraryFilterState *_libraryFilterState;
 }
 
 - (id);
@@ -56,7 +43,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)es.WebViewControllerFactory;
 - (id);
 - (void);
 - (id);
@@ -70,28 +57,7 @@
 - (id)®+·;
 
 // Remaining properties
-@property(retain, nonatomic) PXPlacesPhotoAssetsStore *albumAssetStore; // @synthesize albumAssetStore=_albumAssetStore;
-@property(retain, nonatomic) PXPlacesMapPipeline *albumPipeline; // @synthesize albumPipeline=_albumPipeline;
-@property(nonatomic) unsigned long long contentMode; // @synthesize contentMode=_contentMode;
-@property(retain, nonatomic) PXPlacesMapPipeline *currentPipeline; // @synthesize currentPipeline=_currentPipeline;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) id <PXPlacesMapGeotaggableInfoDelegate> geotaggableInfoDelegate; // @synthesize geotaggableInfoDelegate=_geotaggableInfoDelegate;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isPreloaded; // @synthesize isPreloaded=_isPreloaded;
-@property(readonly, nonatomic) PXLibraryFilterState *libraryFilterState; // @synthesize libraryFilterState=_libraryFilterState;
-@property(readonly, nonatomic) PXPlacesMapController *mapController;
-@property(readonly, nonatomic) PXPlacesMapView *mapView;
 @property(retain, nonatomic) PXPlacesMapViewController *mapViewController; // @synthesize mapViewController=_mapViewController;
-@property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(retain) PXPlacesPhotoAssetsStore *providedAssetStore; // @synthesize providedAssetStore=_providedAssetStore;
-@property(retain) PXPlacesMapPipeline *providedPipeline; // @synthesize providedPipeline=_providedPipeline;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *serialQueue; // @synthesize serialQueue=_serialQueue;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak PXPlacesMapThumbnailLocationCurator *thumbnailLocationCurator; // @synthesize thumbnailLocationCurator=_thumbnailLocationCurator;
 
 @end
 

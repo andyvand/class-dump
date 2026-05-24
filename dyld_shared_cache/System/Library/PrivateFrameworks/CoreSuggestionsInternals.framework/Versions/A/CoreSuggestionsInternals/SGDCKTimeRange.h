@@ -7,29 +7,18 @@
 @interface SGDCKTimeRange
 {
     double _end;
-    long long _endUTCOffsetSeconds;
-    double _start;
-    long long _startUTCOffsetSeconds;
-    _Bool _floating;
-    struct {
-        unsigned int end:1;
-        unsigned int endUTCOffsetSeconds:1;
-        unsigned int start:1;
-        unsigned int startUTCOffsetSeconds:1;
-        unsigned int floating:1;
-    } _has;
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
+- (void)=;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (long long);
-- (long long);
+- (void)headerLogoWithDetails;
+- (long long)ple.calendar.datePicker.accessory.dateScrubber;
+- (long long)(>=0)-[repeatPicker]-(>=0)-|;
 - (void);
 - (void);
 - (_Bool);
@@ -41,26 +30,17 @@
 - (double);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)8;
 - (void);
-- (double);
+- (double);
 - (void);
 - (id);
 - (id);
-- (void)ction:(double)arg1 didReceiveURLTokenError:forInfo: /* Error: Ran out of types for this method. */;
+- (void)connection:(double)arg1 didReceiveURLTokenError:forInfo: /* Error: Ran out of types for this method. */;
 - (void)ly Removed event in a curated calendar. [SGStorageEvent (%{public}@)];
 
 // Remaining properties
-@property(nonatomic) double end; // @synthesize end=_end;
-@property(nonatomic) long long endUTCOffsetSeconds; // @synthesize endUTCOffsetSeconds=_endUTCOffsetSeconds;
-@property(nonatomic) _Bool floating; // @synthesize floating=_floating;
-@property(nonatomic) _Bool hasEnd;
-@property(nonatomic) _Bool hasEndUTCOffsetSeconds;
-@property(nonatomic) _Bool hasFloating;
 @property(nonatomic) _Bool hasStart;
-@property(nonatomic) _Bool hasStartUTCOffsetSeconds;
-@property(nonatomic) double start; // @synthesize start=_start;
-@property(nonatomic) long long startUTCOffsetSeconds; // @synthesize startUTCOffsetSeconds=_startUTCOffsetSeconds;
 
 @end
 

@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLocale, TESTriggerPhraseCollection;
+@class TESTriggerPhraseCollection;
 
 @interface TESTriggerPhraseMatcher
 {
     TESTriggerPhraseCollection *_phrases;
-    NSLocale *_locale;
 }
 
-- (id);
-- (id);
+- (id)l windows, your changes will be lost. Do you want to close all windows anyway?;
+- (id)h Metadata;
 - (void);
 - (id);
 - (id);
@@ -21,7 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
 @property(retain, nonatomic) TESTriggerPhraseCollection *phrases; // @synthesize phrases=_phrases;
 
 @end

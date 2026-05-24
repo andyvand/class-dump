@@ -4,33 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSFetchedResultsController, NSString;
+@class NSFetchedResultsController;
 
 __attribute__((visibility("hidden")))
 @interface _NSDefaultSectionInfo
 {
     NSFetchedResultsController *_controller;
-    NSString *_name;
-    NSString *_indexTitle;
-    unsigned long long _sectionOffset;
-    unsigned long long _numberOfObjects;
-    unsigned long long _oldSectionNumber;
-    NSArray *_sectionObjects;
-    id _sectionId;
 }
 
 - (void);
 - (id);
-- (id);
+- (id): /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *indexTitle; // @synthesize indexTitle=_indexTitle;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) unsigned long long numberOfObjects; // @synthesize numberOfObjects=_numberOfObjects;
-@property(readonly, nonatomic) NSArray *objects;
 @property(readonly, nonatomic) id sectionId; // @synthesize sectionId=_sectionId;
 
 @end

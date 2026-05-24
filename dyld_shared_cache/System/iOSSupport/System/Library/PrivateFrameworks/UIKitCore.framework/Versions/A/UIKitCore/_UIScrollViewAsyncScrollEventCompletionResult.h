@@ -8,25 +8,19 @@ __attribute__((visibility("hidden")))
 @interface _UIScrollViewAsyncScrollEventCompletionResult
 {
     _Bool _handled;
-    _Bool _finishedDecelerating;
-    double _lastUpdateTime;
-    double _updateTime;
 }
 
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)@24C32@36@44@52i60@64;
+- (_Bool)d:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (double)× ;
-- (void)onAction:(double)arg1 request:frame:decisionListener: /* Error: Ran out of types for this method. */;
+- (void)webView:(double)arg1 decidePolicyForNavigationAction:request:frame:decisionListener: /* Error: Ran out of types for this method. */;
 - (double)33Éþ;
 
 // Remaining properties
-@property(nonatomic) _Bool finishedDecelerating; // @synthesize finishedDecelerating=_finishedDecelerating;
-@property(nonatomic) _Bool handled; // @synthesize handled=_handled;
 @property(nonatomic) double lastUpdateTime; // @synthesize lastUpdateTime=_lastUpdateTime;
-@property(nonatomic) double updateTime; // @synthesize updateTime=_updateTime;
 
 @end
 

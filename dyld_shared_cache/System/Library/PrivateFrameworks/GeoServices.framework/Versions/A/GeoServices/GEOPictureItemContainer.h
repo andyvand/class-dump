@@ -9,18 +9,16 @@
 @interface GEOPictureItemContainer
 {
     NSArray *_pictureItems;
-    _Bool _allowFullScreenPhoto;
 }
 
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)isMagusSupportedWithAudioRecordContext:recordRoute:playbackRoute:audioSessionId:recordDeviceInfo: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowFullScreenPhoto; // @synthesize allowFullScreenPhoto=_allowFullScreenPhoto;
 @property(readonly, nonatomic) NSArray *pictureItems; // @synthesize pictureItems=_pictureItems;
 
 @end

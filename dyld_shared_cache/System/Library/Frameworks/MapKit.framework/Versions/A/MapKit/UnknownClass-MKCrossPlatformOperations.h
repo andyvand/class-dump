@@ -7,7 +7,7 @@
 @interface UnknownClass (MKCrossPlatformOperations)
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (void);
 - (long long);
 @end

@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (id)geStats;
+- (id)_skipImageStats;
 - (void)l;
 
 @end

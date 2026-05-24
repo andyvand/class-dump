@@ -15,9 +15,9 @@
 - (struct CGRect);
 - (struct CGRect);
 - (_Bool);
+- (void)originalZPosition;
 - (void);
-- (void);
-- (struct CGRect);
+- (struct CGRect)using router <%{public}@>;
 - (void);
 - (void);
 - (id);

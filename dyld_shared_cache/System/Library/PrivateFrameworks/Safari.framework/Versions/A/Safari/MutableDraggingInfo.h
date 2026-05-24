@@ -4,26 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MorphingDragImageController, NSArray, NSImage, NSPasteboard, NSString, NSWindow;
+@class MorphingDragImageController;
 
 __attribute__((visibility("hidden")))
 @interface MutableDraggingInfo
 {
     _Bool _animatesToDestination;
-    id _localContext;
-    NSWindow *_draggingDestinationWindow;
-    unsigned long long _draggingSourceOperationMask;
-    NSImage *_draggedImage;
-    id _draggingSource;
-    NSArray *_draggingItems;
-    NSPasteboard *_draggingPasteboard;
-    long long _draggingSequenceNumber;
-    long long _numberOfValidItemsForDrop;
-    long long _draggingFormation;
-    long long _springLoadingHighlight;
-    MorphingDragImageController *_controller;
-    struct CGPoint _draggingLocation;
-    struct CGPoint _draggedImageLocation;
 }
 
 - (void);
@@ -31,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)C;
 - (long long);
 - (void);
 - (void);
@@ -49,42 +35,21 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (id);
-- (struct CGPoint);
+- (struct CGPoint);
 - (long long);
 - (id);
-- (struct CGPoint);
+- (struct CGPoint)k;
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id)ControllerOptionsMenu;
+- (id)FeedBackAlertControllerOptionsMenu;
 - (void);
 
 // Remaining properties
-@property _Bool animatesToDestination; // @synthesize animatesToDestination=_animatesToDestination;
 @property(nonatomic) __weak MorphingDragImageController *controller; // @synthesize controller=_controller;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSImage *draggedImage; // @synthesize draggedImage=_draggedImage;
-@property struct CGPoint draggedImageLocation; // @synthesize draggedImageLocation=_draggedImageLocation;
-@property(retain, nonatomic) NSWindow *draggingDestinationWindow; // @synthesize draggingDestinationWindow=_draggingDestinationWindow;
-@property long long draggingFormation; // @synthesize draggingFormation=_draggingFormation;
-@property(copy, nonatomic) NSArray *draggingItems; // @synthesize draggingItems=_draggingItems;
-@property(nonatomic) struct CGPoint draggingLocation; // @synthesize draggingLocation=_draggingLocation;
-@property(retain) NSPasteboard *draggingPasteboard; // @synthesize draggingPasteboard=_draggingPasteboard;
-@property long long draggingSequenceNumber; // @synthesize draggingSequenceNumber=_draggingSequenceNumber;
-@property(retain, nonatomic) id draggingSource; // @synthesize draggingSource=_draggingSource;
-@property(nonatomic) unsigned long long draggingSourceOperationMask; // @synthesize draggingSourceOperationMask=_draggingSourceOperationMask;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id localContext; // @synthesize localContext=_localContext;
-@property long long numberOfValidItemsForDrop; // @synthesize numberOfValidItemsForDrop=_numberOfValidItemsForDrop;
-@property long long springLoadingHighlight; // @synthesize springLoadingHighlight=_springLoadingHighlight;
-@property(readonly) Class superclass;
 
 @end
 

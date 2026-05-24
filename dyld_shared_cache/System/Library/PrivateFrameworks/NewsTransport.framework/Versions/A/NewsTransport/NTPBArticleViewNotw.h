@@ -9,37 +9,27 @@
 @interface NTPBArticleViewNotw
 {
     NSString *_articleId;
-    int _articleViewType;
-    float _maxScrollDepth;
-    NSString *_referringSite;
-    NSString *_referringUrl;
-    NSString *_sourceChannelId;
-    NSString *_windowId;
-    struct {
-        unsigned int articleViewType:1;
-        unsigned int maxScrollDepth:1;
-    } _has;
 }
 
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (float);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (int);
-- (id);
-- (void);
+- (id)configureWithRange:resourcesDataSource:timelineStyle:nUpPlaybackStyleMapping: /* Error: Ran out of types for this method. */;
+- (void)collectionView:(id)arg1 layout:insetForSectionAtIndex: /* Error: Ran out of types for this method. */;
+- (void)exesBeforeChanges:(id)arg1 countAfterChanges:anchorIndexAfterChanges:headerIndexesAfterChanges:reloadAllIncludingAnchor: /* Error: Ran out of types for this method. */;
+- (void)nges:(id)arg1 anchorFan:anchorReload: /* Error: Ran out of types for this method. */;
+- (void)boundingRect;
+- (void)appendSectionsWithIdentifiers:(_Bool)arg1;
+- (void)addValue:(_Bool)arg1 metric:forMeasure:configuration: /* Error: Ran out of types for this method. */;
+- (void)_windowDidChangeScreen:(int)arg1;
+- (id)_viewTileReusePool;
+- (id)_viewSpec;
+- (float)_updateTextLegibilityEffect;
+- (_Bool)_updateRemoveButton;
+- (_Bool)_updateCreateMemoryButton;
+- (_Bool)_toggleAspectFitButtonTitle;
+- (_Bool)_storyHitTestResultAtPoint: /* Error: Ran out of types for this method. */;
+- (_Bool)_setupKeySegmentDisplayAssetClips;
+- (int)_setPromise:forContainer: /* Error: Ran out of types for this method. */;
+- (id)performWithoutAnimation: /* Error: Ran out of types for this method. */;
+- (void)erseGeocodeCoordinate:(id)arg1 shiftIfNeeded:completion:] /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
@@ -48,27 +38,14 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (void)ration from configuration %{public}@;
 - (_Bool);
 - (id);
 - (id);
-- (void)SubscriptionGroup;
+- (void)hasMaxTimesHeadlineInPaidSubscriptionGroup;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *articleId; // @synthesize articleId=_articleId;
-@property(nonatomic) int articleViewType; // @synthesize articleViewType=_articleViewType;
-@property(readonly, nonatomic) _Bool hasArticleId;
 @property(nonatomic) _Bool hasArticleViewType;
-@property(nonatomic) _Bool hasMaxScrollDepth;
-@property(readonly, nonatomic) _Bool hasReferringSite;
-@property(readonly, nonatomic) _Bool hasReferringUrl;
-@property(readonly, nonatomic) _Bool hasSourceChannelId;
-@property(readonly, nonatomic) _Bool hasWindowId;
-@property(nonatomic) float maxScrollDepth; // @synthesize maxScrollDepth=_maxScrollDepth;
-@property(retain, nonatomic) NSString *referringSite; // @synthesize referringSite=_referringSite;
-@property(retain, nonatomic) NSString *referringUrl; // @synthesize referringUrl=_referringUrl;
-@property(retain, nonatomic) NSString *sourceChannelId; // @synthesize sourceChannelId=_sourceChannelId;
-@property(retain, nonatomic) NSString *windowId; // @synthesize windowId=_windowId;
 
 @end
 

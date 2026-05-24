@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _DKPRValueType;
-
 @interface _DKPRValue
 {
     double _dateValue;
-    double _doubleValue;
-    long long _integerValue;
-    NSData *_blobValue;
-    NSString *_stringValue;
-    _DKPRValueType *_type;
-    struct {
-        unsigned int dateValue:1;
-        unsigned int doubleValue:1;
-        unsigned int integerValue:1;
-    } _has;
 }
 
 - (id);

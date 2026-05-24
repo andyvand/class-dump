@@ -7,6 +7,8 @@
 @protocol UIKeyboardInput
 
 @optional
+- (void)b;
+- (_Bool)kMMCSRequestOptionServerProtocolVersion;
 - (_Bool)0@ù
 × ;
 - (_Bool)!D@ù±c°1Â0@ù

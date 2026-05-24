@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface ABCNSocialProfile
 {
     NSString *_urlString;
-    NSString *_username;
-    NSString *_userIdentifier;
-    NSString *_service;
-    NSString *_displayname;
-    NSArray *_bundleIdentifiers;
-    NSString *_teamIdentifier;
 }
 
-+ (_Bool);
++ (_Bool)RevertToCustom;
 - (id);
 - (id);
 - (id);
@@ -25,7 +19,7 @@
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)setIdmsRecovery: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
@@ -37,13 +31,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *bundleIdentifiers; // @synthesize bundleIdentifiers=_bundleIdentifiers;
-@property(readonly, copy, nonatomic) NSString *displayname; // @synthesize displayname=_displayname;
-@property(readonly, copy, nonatomic) NSString *service; // @synthesize service=_service;
-@property(readonly, copy, nonatomic) NSString *teamIdentifier; // @synthesize teamIdentifier=_teamIdentifier;
 @property(readonly, copy, nonatomic) NSString *urlString; // @synthesize urlString=_urlString;
-@property(readonly, copy, nonatomic) NSString *userIdentifier; // @synthesize userIdentifier=_userIdentifier;
-@property(readonly, copy, nonatomic) NSString *username; // @synthesize username=_username;
 
 @end
 

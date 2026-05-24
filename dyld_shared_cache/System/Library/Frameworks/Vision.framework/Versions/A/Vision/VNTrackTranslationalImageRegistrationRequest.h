@@ -6,18 +6,17 @@
 
 #import <Vision/VNStatefulRequest.h>
 
-@class NSArray, VNImageRegistrationSignature;
+@class NSArray;
 
 @interface VNTrackTranslationalImageRegistrationRequest : VNStatefulRequest
 {
     unsigned long long _previousRequestRevision;
-    VNImageRegistrationSignature *_previousImageRegistrationSignature;
 }
 
 + (const CDStruct_3a02d5a8 *);
 - (id);
 - (_Bool);
-- (id);
+- (id)currentPendingSetSyncAnchorWithCompletionHandler:(CDUnknownBlockType)arg1;
 - (id);
 - (void)nitialization Failure:Unsupported Faceprint revision /* Error: Ran out of types for this method. */;
 - (_Bool)¿ÿ;

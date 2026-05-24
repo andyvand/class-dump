@@ -4,29 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXUpdater;
+@class PXUpdater;
 
 @interface PXStoryAnimation
 {
     _Bool _isStopped;
-    _Bool _canBePaused;
-    _Bool _isPaused;
-    NSString *_identifier;
-    PXUpdater *_updater;
-    double _velocity;
-    double _pauseDeceleration;
-    double _pausedVelocity;
-    double _resumeAcceleration;
-    CDStruct_1b6d18a9 _time;
-    CDStruct_1b6d18a9 _lastElapsedTime;
-    CDStruct_1b6d18a9 _elapsedTime;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (double);
@@ -39,15 +28,23 @@
 - (CDStruct_1b6d18a9);
 - (id);
 - (void);
-- (void);
+- (void)_presentationEnvironment;
 - (id);
-- (void);
+- (void)TableOfContentsModel;
 - (id);
 - (id);
-- (double);
-- (void);
+- (double)ture0_2D; 
+		varying mediump vec3 vAttributes; 
+		void main() 
+		{ 
+			lowp vec4 color = SampleTexture0_2D; 
+			color = min(vAttributes.y * color + vAttributes.z, 1.); 
+			gl_FragColor = color * vAttributes.x; 
+		} 
+		;
+- (void)ClampToEdge;
 - (_Bool)× ;
-- (id)uratedLibraryCurationDebugActionPerformer;
+- (id)PXCuratedLibraryCurationDebugActionPerformer;
 - (CDStruct_1b6d18a9)WX
 LY;
 - (void)t.m;
@@ -60,20 +57,7 @@ LY;
 - (void)XOÖÿû©PèF=;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canBePaused; // @synthesize canBePaused=_canBePaused;
-@property(readonly, nonatomic) NSString *diagnosticDescription;
-@property(nonatomic) CDStruct_1b6d18a9 elapsedTime; // @synthesize elapsedTime=_elapsedTime;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool isPaused; // @synthesize isPaused=_isPaused;
-@property(nonatomic) _Bool isStopped; // @synthesize isStopped=_isStopped;
-@property(nonatomic) CDStruct_1b6d18a9 lastElapsedTime; // @synthesize lastElapsedTime=_lastElapsedTime;
-@property(nonatomic) double pauseDeceleration; // @synthesize pauseDeceleration=_pauseDeceleration;
-@property(nonatomic) double pausedVelocity; // @synthesize pausedVelocity=_pausedVelocity;
-@property(nonatomic) double resumeAcceleration; // @synthesize resumeAcceleration=_resumeAcceleration;
-@property(readonly, nonatomic) NSString *shortDescription;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 time; // @synthesize time=_time;
 @property(readonly, nonatomic) PXUpdater *updater; // @synthesize updater=_updater;
-@property(nonatomic) double velocity; // @synthesize velocity=_velocity;
 
 @end
 

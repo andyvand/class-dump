@@ -14,8 +14,8 @@
 + (_Bool);
 - (Class);
 - (void);
-- (id);
-- (id);
+- (id)andPredicateWithSubpredicates:(id)arg1;
+- (id)A;
 - (_Bool);
 - (void);
 - (long long)(t;

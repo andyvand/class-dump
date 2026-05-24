@@ -7,10 +7,6 @@
 @interface NewsFeed.DebugFormatBindingTreeItem
 {
     id feedItem;
-    id feedItemAuxiliary;
-    id options;
-    id selectors;
-    id _isExpanded;
 }
 
 @end

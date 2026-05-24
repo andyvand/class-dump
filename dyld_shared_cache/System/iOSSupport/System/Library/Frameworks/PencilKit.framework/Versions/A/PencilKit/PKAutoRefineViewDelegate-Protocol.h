@@ -5,5 +5,7 @@
 //
 
 @protocol PKAutoRefineViewDelegate
+- (void);
+- (void);
 @end
 

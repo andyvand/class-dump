@@ -4,30 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface IDSHandleListUpdatedMetric
 {
     NSString *_service;
 }
 
+- (id);
+- (id)81;
+- (id)|	;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)ComponentName;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *name;
 @property(readonly, nonatomic) NSString *service; // @synthesize service=_service;
-@property(readonly) Class superclass;
 
 @end
 

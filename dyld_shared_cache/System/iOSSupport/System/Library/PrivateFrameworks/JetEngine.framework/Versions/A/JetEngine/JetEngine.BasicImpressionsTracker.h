@@ -7,9 +7,6 @@
 @interface JetEngine.BasicImpressionsTracker
 {
     id journalsByElementID;
-    id impressionTimeThreshold;
-    id queueName;
-    id onDataSerialized;
 }
 
 @end

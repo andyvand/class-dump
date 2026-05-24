@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-@protocol MTLBuffer, MTLCommandQueue, MTLComputePipelineState, MTLDevice, MTLLibrary;
+@protocol MTLDevice;
 
 @interface FrameChecksumMetal
 {
     id <MTLDevice> _device;
-    id <MTLCommandQueue> _commandQueue;
-    id <MTLLibrary> _library;
-    id <MTLComputePipelineState> _calcChecksumTexture;
-    _Bool _offsetsConfigured;
-    unsigned int _horizontalOffsetLuma;
-    unsigned int _horizontalOffsetChroma;
-    unsigned int _verticalOffsetLuma;
-    unsigned int _verticalOffsetChroma;
-    unsigned int _startRow;
-    unsigned int _verticalStepsLuma;
-    unsigned int _verticalStepsChroma;
-    struct CF<__CVMetalTextureCache *> _textureCacheLuma;
-    struct CF<__CVMetalTextureCache *> _textureCacheChroma;
-    id <MTLBuffer> _checksum[2];
-    NSDictionary *_readAttributes;
-    int _deviceGeneration;
-    _Bool _H13P_H17P_UnormWorkaroundRequired;
 }
 
 - (id);

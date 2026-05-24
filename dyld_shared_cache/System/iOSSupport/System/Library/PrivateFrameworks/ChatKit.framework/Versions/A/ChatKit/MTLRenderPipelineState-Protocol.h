@@ -5,34 +5,19 @@
 //
 
 @class MTLRenderPipelineReflection, NSString;
-@protocol MTLDevice, MTLIntersectionFunctionTable;
+@protocol MTLIntersectionFunctionTable;
 
 @protocol MTLRenderPipelineState
+- (NSString *);
 - (id <MTLIntersectionFunctionTable>)Ô ;
 - (struct MTLResourceID);
-- (unsigned long long)ter;
+- (unsigned long long)secondarySelectionColorFilter;
 - (MTLRenderPipelineReflection *);
-- (CDStruct_aa0b146f)llaborationHighlightForURL failed with error:%@ /* Error: Ran out of types for this method. */;
+- (CDStruct_14f26992)llaborationHighlightForURL failed with error:%@ /* Error: Ran out of types for this method. */;
 - (_Bool)kGÿu¢k´n©ÿ½¢kGÿ¥¢kGÿ½¢k°Ø¨ÿe¢k´Ø¨ÿ;
 - (long long);
 
 // Remaining properties
-@property(readonly) id <MTLDevice> device;
-@property(readonly) struct MTLResourceID gpuResourceID;
-@property(readonly) unsigned long long imageblockSampleLength;
 @property(readonly) NSString *label;
-@property(readonly) unsigned long long maxTotalThreadgroupsPerMeshGrid;
-@property(readonly) unsigned long long maxTotalThreadsPerMeshThreadgroup;
-@property(readonly) unsigned long long maxTotalThreadsPerObjectThreadgroup;
-@property(readonly) unsigned long long maxTotalThreadsPerThreadgroup;
-@property(readonly) unsigned long long meshThreadExecutionWidth;
-@property(readonly) unsigned long long objectThreadExecutionWidth;
-@property(readonly) MTLRenderPipelineReflection *reflection;
-@property(readonly) CDStruct_aa0b146f requiredThreadsPerMeshThreadgroup;
-@property(readonly) CDStruct_aa0b146f requiredThreadsPerObjectThreadgroup;
-@property(readonly) CDStruct_aa0b146f requiredThreadsPerTileThreadgroup;
-@property(readonly, nonatomic) long long shaderValidation;
-@property(readonly) _Bool supportIndirectCommandBuffers;
-@property(readonly) _Bool threadgroupSizeMatchesTileSize;
 @end
 

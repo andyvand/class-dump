@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactKeyVector, NSArray, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface CNAggregateKeyDescriptor
 {
     NSArray *_keyDescriptors;
-    NSString *_privateDescription;
-    CNContactKeyVector *_unauthorizedKeys;
-    CNContactKeyVector *_requiredKeys;
 }
 
 + (id);
 + (_Bool);
+- (id)T;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)object;
+- (id)SCallStatusInactive;
 - (id);
 - (id);
 - (void);
@@ -37,23 +34,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
-- (void)ersForValue:inUnifiedMap:forProperty: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)unifiedIdentifiersForValue:inUnifiedMap:forProperty: /* Error: Ran out of types for this method. */;
 - (id)ckerPackPoses;
-- (id)ier;
+- (id)_suggestionIdentifier;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSArray *keyDescriptors; // @synthesize keyDescriptors=_keyDescriptors;
-@property(copy, nonatomic) NSString *privateDescription; // @synthesize privateDescription=_privateDescription;
-@property(retain, nonatomic) CNContactKeyVector *requiredKeys; // @synthesize requiredKeys=_requiredKeys;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) CNContactKeyVector *unauthorizedKeys; // @synthesize unauthorizedKeys=_unauthorizedKeys;
 
 @end
 

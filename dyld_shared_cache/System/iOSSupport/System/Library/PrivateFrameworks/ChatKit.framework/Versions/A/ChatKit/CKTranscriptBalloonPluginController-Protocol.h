@@ -8,63 +8,30 @@
 @protocol CKTranscriptLinkCustomizationPickerDelegate, CKTranscriptPluginView;
 
 @protocol CKTranscriptBalloonPluginController
+- (UIView<CKTranscriptPluginView> *)initWithAppearance:preferredSizeClass:maximumSize:scale: /* Error: Ran out of types for this method. */;
 
 @optional
+- (void);
+- (void)int="x"d"y"d};
+- (void)setSearchResultsBySection:(_Bool)arg1;
+- (void)saveAttachmentsToNewNote:inFolder:isSystemPaper:textBefore:textAfter: /* Error: Ran out of types for this method. */;
+- (void)primaryICloudACAccount;
+- (void)mergeableStringForColumnID:rowID: /* Error: Ran out of types for this method. */;
+- (void)isTagAnOrder: /* Error: Ran out of types for this method. */;
+- (void)isSystemFolder;
+- (UIViewController *)isSwitchControlEnabledObservation;
+- (void)initWithSourceObjects:destination:allowsManagedToUnmanagedMove:allowsUnmanagedToManagedMove: /* Error: Ran out of types for this method. */;
+- (void)initWithSource:injectionTime:forMainFrameOnly: /* Error: Ran out of types for this method. */;
+- (UIColor *)ic_enclosingRangeContainingCharactersInSet:forRange: /* Error: Ran out of types for this method. */;
+- (_Bool)QQ},N,V_ttEditedRange;
+- (_Bool)lingCounter;
+- (void)fier",R,N;
+- (id <CKTranscriptLinkCustomizationPickerDelegate>)ICAuthentication;
+- (void);
+- (UIColor *)r;
 - (_Bool)spinner in Settings;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsOpeningSensitiveURLs;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(readonly, nonatomic) UIColor *balloonOutlineColor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIColor",?,R,N
-
-@property(readonly, nonatomic) UIViewController *contentViewController;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIViewController",?,R,N
-
-@property(nonatomic) __weak id <CKTranscriptLinkCustomizationPickerDelegate> customizationPickerDelegate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<CKTranscriptLinkCustomizationPickerDelegate>",?,W,N
-
-@property(readonly, nonatomic) _Bool hasSizingInfo;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool isInteractive;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) UIColor *messageTintColor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIColor",?,R,N
-
 @property(readonly, nonatomic) UIView<CKTranscriptPluginView> *pluginContentView;
-@property(readonly, nonatomic) UIViewController *pluginContentViewController;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIViewController",?,R,N
-
-@property(copy, nonatomic) CDUnknownBlockType updateSnapshot;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@?,?,C,N
-
-@property(readonly, nonatomic) _Bool wantsBalloonGradient;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool wantsOutline;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool wantsTranscriptGroupMonograms;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool wantsTranscriptTimestampDrawer;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @end
 

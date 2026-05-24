@@ -4,39 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSNumber, NSString;
+@class NSString;
 
 @interface INPrivateMediaItemValueData
 {
     NSString *_recommendationId;
-    NSString *_assetInfo;
-    NSString *_sharedUserIdFromPlayableMusicAccount;
-    NSString *_punchoutURI;
-    NSNumber *_requiresSubscription;
-    NSString *_provider;
-    NSNumber *_isAvailable;
-    NSNumber *_isHardBan;
-    NSString *_bundleId;
-    NSString *_universalResourceLink;
-    NSString *_providerAppName;
-    NSArray *_internalSignals;
-    NSNumber *_ampConfidenceScore;
-    long long _ampConfidenceLevel;
-    NSData *_pegasusMetaData;
-    NSArray *_mediaSubItems;
 }
 
-+ (id);
++ (id)(	;
 + (_Bool);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)?ր;
 - (id);
 - (id);
 - (id);
@@ -44,47 +29,25 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)_hitAdditionsOnURL:size:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)P;
+- (id)_ְ;
+- (id)determineTouchStateWithDigitizerX:(id)arg1 digitizerY:touchDown: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
+- (id)ionMultiplexer"24;
+- (_Bool)home:(id)arg1 didAddTrigger: /* Error: Ran out of types for this method. */;
+- (void)[OTA_SET] %s:(id)arg1 Running on internal build;
 - (id);
 - (id);
+- (id);
+- (id)confirmationRequiredWithTaskListToConfirm:(unsigned long long)arg1 forReason: /* Error: Ran out of types for this method. */;
 - (id)key (expected NSSet<NSString *> *, but received:%@ /* Error: Ran out of types for this method. */;
-- (void)ntOptionsCollectionForAppendToNote:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideContentOptionsCollectionForAppendToNote:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 - (id)wÊÿóQQkP;
 
 // Remaining properties
-@property(readonly) long long ampConfidenceLevel; // @synthesize ampConfidenceLevel=_ampConfidenceLevel;
-@property(readonly, copy) NSNumber *ampConfidenceScore; // @synthesize ampConfidenceScore=_ampConfidenceScore;
-@property(readonly, copy) NSString *assetInfo; // @synthesize assetInfo=_assetInfo;
-@property(readonly, copy) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSArray *internalSignals; // @synthesize internalSignals=_internalSignals;
-@property(readonly, copy) NSNumber *isAvailable; // @synthesize isAvailable=_isAvailable;
-@property(readonly, copy) NSNumber *isHardBan; // @synthesize isHardBan=_isHardBan;
-@property(readonly, copy) NSArray *mediaSubItems; // @synthesize mediaSubItems=_mediaSubItems;
-@property(readonly, copy) NSData *pegasusMetaData; // @synthesize pegasusMetaData=_pegasusMetaData;
-@property(readonly, copy) NSString *provider; // @synthesize provider=_provider;
-@property(readonly, copy) NSString *providerAppName; // @synthesize providerAppName=_providerAppName;
-@property(readonly, copy) NSString *punchoutURI; // @synthesize punchoutURI=_punchoutURI;
 @property(readonly, copy) NSString *recommendationId; // @synthesize recommendationId=_recommendationId;
-@property(readonly, copy) NSNumber *requiresSubscription; // @synthesize requiresSubscription=_requiresSubscription;
-@property(readonly, copy) NSString *sharedUserIdFromPlayableMusicAccount; // @synthesize sharedUserIdFromPlayableMusicAccount=_sharedUserIdFromPlayableMusicAccount;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSString *universalResourceLink; // @synthesize universalResourceLink=_universalResourceLink;
 
 @end
 

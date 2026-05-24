@@ -11,7 +11,7 @@
     _Bool _conflict;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);

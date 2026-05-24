@@ -7,22 +7,6 @@
 @interface TeaUI.PresentationOperationManager
 {
     id presentationProcessingStatus;
-    id bootstrapper;
-    id registeredHandlers;
-    id presentationOperations;
-    id appLaunchCount;
-    id disablePresentationProcessing;
-    id presentationCount;
-    id presentationAttempts;
-    id retryCounts;
-    id successfulPresentations;
-    id launchPresentationConfigurationProvider;
-    id dataStore;
-    id launchConditionProvider;
-    id didEnterBackground;
-    id waitingForAppLaunch;
-    id keyboardObserver;
-    id keyboardIsHidden;
 }
 
 @end

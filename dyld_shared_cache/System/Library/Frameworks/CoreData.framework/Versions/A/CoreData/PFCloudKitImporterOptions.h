@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDatabase, NSCloudKitMirroringDelegateOptions, NSObject, NSURL, PFCloudKitStoreMonitor;
-@protocol OS_dispatch_queue;
+@class CKDatabase;
 
 __attribute__((visibility("hidden")))
 @interface PFCloudKitImporterOptions
 {
     CKDatabase *_database;
-    PFCloudKitStoreMonitor *_monitor;
-    NSCloudKitMirroringDelegateOptions *_options;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSURL *_assetStorageURL;
 }
 
 - (void);

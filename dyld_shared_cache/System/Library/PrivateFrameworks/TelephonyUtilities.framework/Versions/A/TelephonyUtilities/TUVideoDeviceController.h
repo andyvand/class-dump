@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureDevice, CALayer, NSArray, NSObject, TUVideoEffect;
-@protocol OS_dispatch_queue, TUFeatureFlags, TUVideoDeviceControllerProvider><TUVideoEffectsProvider;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface TUVideoDeviceController
 {
     _Bool _ignoreStartPreview;
-    _Bool _wantsPreview;
-    _Bool _hasRefreshedPreviewAfterError;
-    _Bool _hasBeganRetryingAfterUninitializedClientError;
-    _Bool _retryAfterLocalCameraUIDChange;
-    CALayer *_localFrontLayerHost;
-    CALayer *_localBackLayerHost;
-    CDUnknownBlockType _reapplyCameraZoom;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    id <TUVideoDeviceControllerProvider><TUVideoEffectsProvider> _provider;
-    id <TUFeatureFlags> _featureFlags;
-    CDUnknownBlockType _previewStartBlock;
-    long long _uninitializedClientRetrySeconds;
 }
 
 + (int);
@@ -59,14 +47,14 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -77,9 +65,9 @@
 - (CDUnknownBlockType);
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)9	;
 - (void);
 - (struct CGSize);
 - (struct CGSize);
@@ -112,7 +100,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (long long);
@@ -120,7 +108,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -131,54 +119,13 @@
 - (id);
 - (void);
 - (void)e>"16;
-- (id)ionBackedConversationCreationMode: /* Error: Ran out of types for this method. */;
+- (id)setNonSessionBackedConversationCreationMode: /* Error: Ran out of types for this method. */;
 - (void)ing",C,N,V_ongoingDescription;
 - (void)sn't running:(_Bool)arg1 %@;
 - (_Bool)tionCenterToken;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *availableVideoEffects;
-@property(nonatomic) _Bool backgroundReplacementEnabled;
-@property(nonatomic) _Bool cameraBlurEnabled;
-@property(readonly, nonatomic, getter=isCinematicFramingEnabled) _Bool cinematicFramingEnabled;
-@property(nonatomic) int currentBackgroundBlurControlMode;
-@property(retain, nonatomic) AVCaptureDevice *currentInputDevice;
-@property(readonly, nonatomic) _Bool currentInputIsExternal;
-@property(readonly, nonatomic) _Bool currentInputSupportsCinematicFraming;
-@property(readonly, nonatomic) _Bool currentInputSupportsReactionEffects;
-@property(readonly, nonatomic) _Bool currentInputSupportsStudioLight;
-@property(readonly, nonatomic) _Bool currentInputSupportsTrueDepth;
-@property(readonly, nonatomic) _Bool currentInputSupportsUltraWide;
-@property(retain, nonatomic) TUVideoEffect *currentVideoEffect;
-@property(nonatomic) int currentVideoOrientation;
-@property(readonly, nonatomic) id <TUFeatureFlags> featureFlags; // @synthesize featureFlags=_featureFlags;
-@property(nonatomic, getter=isFollowSystemCameraEnabled) _Bool followSystemCameraEnabled;
-@property(readonly, nonatomic) _Bool hasAvailableDeskViewCameras;
-@property(nonatomic) _Bool hasBeganRetryingAfterUninitializedClientError; // @synthesize hasBeganRetryingAfterUninitializedClientError=_hasBeganRetryingAfterUninitializedClientError;
-@property(nonatomic) _Bool hasRefreshedPreviewAfterError; // @synthesize hasRefreshedPreviewAfterError=_hasRefreshedPreviewAfterError;
-@property(nonatomic, getter=shouldIgnoreStartPreview) _Bool ignoreStartPreview; // @synthesize ignoreStartPreview=_ignoreStartPreview;
-@property(readonly, copy, nonatomic) NSArray *inputDevices;
-@property(retain, nonatomic) CALayer *localBackLayer;
-@property(retain, nonatomic) CALayer *localBackLayerHost; // @synthesize localBackLayerHost=_localBackLayerHost;
-@property(retain, nonatomic) CALayer *localFrontLayer;
-@property(retain, nonatomic) CALayer *localFrontLayerHost; // @synthesize localFrontLayerHost=_localFrontLayerHost;
-@property(readonly, nonatomic) struct CGRect localScreenContentsRect;
-@property(readonly, nonatomic) struct CGSize localScreenLandscapeAspectRatio;
-@property(readonly, nonatomic) struct CGSize localScreenPortraitAspectRatio;
-@property(readonly, nonatomic) struct CGSize localVideoLandscapeAspectRatio;
-@property(readonly, nonatomic) struct CGSize localVideoPortraitAspectRatio;
-@property(readonly, nonatomic, getter=isPreviewRunning) _Bool previewRunning;
-@property(copy, nonatomic) CDUnknownBlockType previewStartBlock; // @synthesize previewStartBlock=_previewStartBlock;
-@property(readonly, nonatomic) id <TUVideoDeviceControllerProvider><TUVideoEffectsProvider> provider; // @synthesize provider=_provider;
-@property(nonatomic, getter=isReactionEffectGestureEnabled) _Bool reactionEffectGestureEnabled;
-@property(copy, nonatomic) CDUnknownBlockType reapplyCameraZoom; // @synthesize reapplyCameraZoom=_reapplyCameraZoom;
-@property(nonatomic) _Bool retryAfterLocalCameraUIDChange; // @synthesize retryAfterLocalCameraUIDChange=_retryAfterLocalCameraUIDChange;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *serialQueue; // @synthesize serialQueue=_serialQueue;
-@property(nonatomic, getter=isStudioLightEnabled) _Bool studioLightEnabled;
-@property(readonly, nonatomic) _Bool supportsCameraBlur;
-@property(nonatomic) long long uninitializedClientRetrySeconds; // @synthesize uninitializedClientRetrySeconds=_uninitializedClientRetrySeconds;
-@property(readonly, nonatomic) AVCaptureDevice *userPreferredCamera;
-@property(nonatomic) _Bool wantsPreview; // @synthesize wantsPreview=_wantsPreview;
 
 @end
 

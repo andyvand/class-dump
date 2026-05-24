@@ -4,26 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface HMPBMediaPlaybackAction
 {
     NSData *_actionUUID;
-    int _mediaPlaybackState;
-    NSMutableArray *_mediaProfiles;
-    NSData *_playbackArchive;
-    NSData *_volume;
-    struct {
-        unsigned int mediaPlaybackState:1;
-    } _has;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)insight;
 - (id);
 - (id);
 - (void)xÔ;

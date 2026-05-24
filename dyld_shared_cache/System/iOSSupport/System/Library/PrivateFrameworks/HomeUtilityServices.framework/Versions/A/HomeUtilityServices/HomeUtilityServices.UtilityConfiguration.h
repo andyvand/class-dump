@@ -4,11 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HomeUtilityServices.UtilityOrganization, NSArray, NSDictionary, NSString, NSURL;
+@class NSString;
 
 @interface HomeUtilityServices.UtilityConfiguration
 {
     id config;
+    id name;
 }
 
 - (void);
@@ -17,8 +18,8 @@
 - (id);
 - (id);
 - (long long);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool);
 - (long long);
 - (long long);
 - (id);
@@ -29,24 +30,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)=;
 
 // Remaining properties
-@property(nonatomic, readonly) NSURL *OAuthURL;
-@property(nonatomic, readonly) long long accessTokenValidity;
-@property(nonatomic, readonly) NSDictionary *alternateSuppliers;
-@property(nonatomic, readonly) long long authorizationRefreshPeriod;
-@property(nonatomic, readonly) long long initialPollDelayInSeconds;
-@property(nonatomic, readonly) _Bool missingDataRetryEnabled;
 @property(nonatomic, readonly) NSString *name;
-@property(nonatomic, readonly) HomeUtilityServices.UtilityOrganization *organizationInformation;
-@property(nonatomic, readonly) long long refreshTokenValidity;
-@property(nonatomic, readonly) NSString *registerPublicKeyEndpoint;
 @property(nonatomic, readonly) NSString *shortName;
-@property(nonatomic, readonly) _Bool supportsEncryption;
-@property(nonatomic, readonly) NSArray *tafFields;
-@property(nonatomic, readonly) NSArray *tafSections;
-@property(nonatomic, readonly) NSString *termsAndAgreement;
 
 @end
 

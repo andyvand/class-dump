@@ -4,50 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAppleAccountManager, HMDHome, HMDProcessMonitor, HMFPreferences, NSBackgroundActivityScheduler, NSNotificationCenter, NSObject, NSString;
-@protocol HMDFeaturesDataSource, HMFTimerProvider, OS_dispatch_queue;
+@class NSNotificationCenter;
 
 __attribute__((visibility("hidden")))
 @interface HMDResidentStatusChannelManagerDefaultDataSource
 {
     NSNotificationCenter *_notificationCenter;
-    NSObject<OS_dispatch_queue> *_queue;
-    HMDHome *_home;
 }
 
 - (id);
+- (id)MSPExtras;
 - (id);
-- (id);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (id);
 - (id)±1Â0@ù
 × ;
 - (id);
-- (id)twareUpdateEventProviderIfNecessary;
+- (id)createOrUpdateSoftwareUpdateEventProviderIfNecessary;
 - (id)"NSString",R,C,N,V_bundleIdentifier;
-- (id)ngDevice;
-- (void)DeviceLocalToHome;
+- (id)submittingDevice;
+- (void)isCurrentDeviceLocalToHome;
 - (id);
 
 // Remaining properties
-@property(readonly) HMDAppleAccountManager *appleAccountManager;
-@property(readonly) NSBackgroundActivityScheduler *commonToDedicatedTopicMigrationScheduler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <HMDFeaturesDataSource> featuresDataSource;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) __weak HMDHome *home; // @synthesize home=_home;
 @property(readonly) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly) HMFPreferences *preferences;
-@property(readonly) HMDProcessMonitor *processMonitor;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
-@property(readonly) id <HMFTimerProvider> timerProvider;
 
 @end
 

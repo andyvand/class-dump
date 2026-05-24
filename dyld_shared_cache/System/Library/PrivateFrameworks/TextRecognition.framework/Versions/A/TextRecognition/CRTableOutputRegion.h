@@ -6,12 +6,11 @@
 
 #import <TextRecognition/CROutputRegion.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface CRTableOutputRegion : CROutputRegion
 {
     NSArray *_rowQuads;
-    NSArray *_colQuads;
 }
 
 - (void);
@@ -29,16 +28,7 @@
 - (void):8{ObjectRef<const CGPath *>=^{CGPath}}16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSArray *cells;
-@property(retain, nonatomic) NSArray *colQuads; // @synthesize colQuads=_colQuads;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSArray *rowQuads; // @synthesize rowQuads=_rowQuads;
-@property(readonly) Class superclass;
 
 @end
 

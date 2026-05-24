@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableCharacterSet, NSNumberFormatter;
+@class NSNumberFormatter;
 
 __attribute__((visibility("hidden")))
 @interface GEORisonParser
 {
     NSNumberFormatter *_formatter;
-    NSMutableCharacterSet *_risonTerminators;
-    NSMutableCharacterSet *_risonEscapes;
 }
 
 - (id);
@@ -19,12 +17,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)egacyIdentifierRegistrarState";
+- (id)@44@0:(id)arg1 8@16@24B32B36B40;
+- (id)tabaseRemovalRequest";
+- (id)Request"16;
+- (id)primitiveMiddleName;
+- (id);
 - (id);
 - (id);
 - (id);

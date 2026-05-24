@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAccount, ABAddressBook, ABDictionaryImporter, ABSimilarRecordMerger, NSMutableArray, NSOperationQueue, NSString;
+@class ABAddressBook;
 
 @interface ABImportsAddressBookData
 {
     ABAddressBook *_addressBook;
-    ABAccount *_sourceAccount;
-    ABAccount *_destinationAccount;
-    ABDictionaryImporter *_importer;
-    NSOperationQueue *_imageMover;
-    NSMutableArray *_newRecords;
-    NSString *_meCardIdentifier;
-    ABSimilarRecordMerger *_merger;
-    _Bool _deleteOriginalRecords;
 }
 
 + (id);

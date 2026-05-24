@@ -7,10 +7,6 @@
 @interface PromotedContent.AdRequestManager
 {
     id coordinator;
-    id responseHandlers;
-    id sessionLock;
-    id requesterID;
-    id isSessionActive;
 }
 
 @end

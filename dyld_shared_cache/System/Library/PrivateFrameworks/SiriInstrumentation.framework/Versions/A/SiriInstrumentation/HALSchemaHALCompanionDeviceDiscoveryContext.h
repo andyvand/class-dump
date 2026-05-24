@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class HALSchemaHALCompanionDeviceDiscoveryEnded, NSData;
+@class HALSchemaHALCompanionDeviceDiscoveryEnded;
 
 @interface HALSchemaHALCompanionDeviceDiscoveryContext : SISchemaInstrumentationMessage
 {
     HALSchemaHALCompanionDeviceDiscoveryEnded *_ended;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -27,7 +25,7 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)FMFXPCInternalServerProtocol;
 - (id)"TTMSchemaTTMRequestEnded";
 - (id)action;
 - (id)m;
@@ -35,9 +33,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) HALSchemaHALCompanionDeviceDiscoveryEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

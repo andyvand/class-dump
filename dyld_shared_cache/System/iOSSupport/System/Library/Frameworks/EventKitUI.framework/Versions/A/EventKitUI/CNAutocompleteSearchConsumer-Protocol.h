@@ -5,5 +5,11 @@
 //
 
 @protocol CNAutocompleteSearchConsumer
+
+@optional
+- (void);
+- (void)B!z;
+- (void);
+- (void)l;
 @end
 

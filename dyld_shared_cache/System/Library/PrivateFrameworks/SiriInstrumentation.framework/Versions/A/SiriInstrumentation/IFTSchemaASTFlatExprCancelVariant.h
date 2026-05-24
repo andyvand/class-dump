@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
-
 @interface IFTSchemaASTFlatExprCancelVariant : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    SISchemaUUID *_rawEventId;
-    CDStruct_b33ad018 _has;
-    _Bool _hasRawEventId;
 }
 
 - (void);
@@ -24,12 +19,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)`;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)schedule;
 - (id);
 - (id)ateQuerySuggestion;
 - (id)Ô;
@@ -40,10 +35,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(nonatomic) _Bool hasRawEventId; // @synthesize hasRawEventId=_hasRawEventId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *rawEventId; // @synthesize rawEventId=_rawEventId;
 
 @end
 

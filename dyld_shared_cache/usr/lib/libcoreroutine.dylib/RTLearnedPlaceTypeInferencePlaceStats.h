@@ -4,35 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, RTLearnedLocationStore, RTLearnedPlace, RTLearnedPlaceTypeInferenceStats;
+@class RTLearnedLocationStore, RTLearnedPlaceTypeInferenceStats;
 
 @interface RTLearnedPlaceTypeInferencePlaceStats
 {
     RTLearnedPlaceTypeInferenceStats *_stats;
-    RTLearnedLocationStore *_learnedLocationStore;
-    RTLearnedPlace *_place;
-    unsigned long long _visitsCount;
-    NSArray *_visitIntervals;
-    NSDictionary *_mlFeatures;
 }
 
 + (id);
-+ (id);
-+ (double);
-+ (id);
-- (id);
++ (id)%@%s;
++ (double)nt;
++ (id)for ValidateiCDP migration;
+- (id)!;
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)fetchRecordZoneChanges;
 - (void);
-- (id);
-- (id);
+- (id)y peer;
+- (id);
 - (void);
 - (id);
 - (void);
@@ -42,11 +37,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) RTLearnedLocationStore *learnedLocationStore; // @synthesize learnedLocationStore=_learnedLocationStore;
-@property(retain, nonatomic) NSDictionary *mlFeatures; // @synthesize mlFeatures=_mlFeatures;
-@property(retain, nonatomic) RTLearnedPlace *place; // @synthesize place=_place;
-@property(readonly, nonatomic) RTLearnedPlaceTypeInferenceStats *stats; // @synthesize stats=_stats;
-@property(retain, nonatomic) NSArray *visitIntervals; // @synthesize visitIntervals=_visitIntervals;
-@property(nonatomic) unsigned long long visitsCount; // @synthesize visitsCount=_visitsCount;
 
 @end
 

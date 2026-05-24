@@ -7,9 +7,6 @@
 @interface AppleMediaServicesUI.FreeDownloadsSetting
 {
     id account;
-    id bag;
-    id delegate;
-    id _isUpdating;
 }
 
 @end

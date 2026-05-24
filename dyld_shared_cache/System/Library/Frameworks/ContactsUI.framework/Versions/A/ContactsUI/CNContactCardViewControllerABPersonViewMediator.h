@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactCardViewController, CNContactCardViewControllerDataSourceDelegate, CNContactNameViewController;
+@class CNContactCardViewController;
 
 @interface CNContactCardViewControllerABPersonViewMediator
 {
     CNContactCardViewController *_contactCardViewController;
-    CNContactNameViewController *_contactNameViewController;
-    CNContactCardViewControllerDataSourceDelegate *_dataSourceDelegate;
 }
 
 - (void);
-- (void);
-- (id);
+- (void);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -27,8 +25,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak CNContactCardViewController *contactCardViewController; // @synthesize contactCardViewController=_contactCardViewController;
-@property(nonatomic) __weak CNContactNameViewController *contactNameViewController; // @synthesize contactNameViewController=_contactNameViewController;
-@property(nonatomic) __weak CNContactCardViewControllerDataSourceDelegate *dataSourceDelegate; // @synthesize dataSourceDelegate=_dataSourceDelegate;
 
 @end
 

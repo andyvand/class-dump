@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface PBFontEntity
 {
     NSString *mFaceName;
-    int mCharSet;
-    int mType;
-    int mFamily;
 }
 
 - (id);

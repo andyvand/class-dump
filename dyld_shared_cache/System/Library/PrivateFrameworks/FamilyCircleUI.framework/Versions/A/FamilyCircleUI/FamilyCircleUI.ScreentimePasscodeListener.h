@@ -7,8 +7,6 @@
 @interface FamilyCircleUI.ScreentimePasscodeListener
 {
     id delegate;
-    id _state;
-    id ageRangeStateUpdateAction;
 }
 
 - (void);

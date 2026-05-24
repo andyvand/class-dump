@@ -7,8 +7,6 @@
 @interface NewsUI2.UpNextAudioFeedGroupEmitter
 {
     id config;
-    id knobs;
-    id formatService;
 }
 
 @end

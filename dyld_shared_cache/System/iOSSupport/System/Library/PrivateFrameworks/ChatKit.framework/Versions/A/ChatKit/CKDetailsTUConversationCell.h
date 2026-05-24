@@ -6,37 +6,32 @@
 
 #import <ChatKit/CKDetailsCell.h>
 
-@class NSString, TUConversation, UIButton, UIImageView, UILabel;
+@class TUConversation;
 
 __attribute__((visibility("hidden")))
 @interface CKDetailsTUConversationCell : CKDetailsCell
 {
     TUConversation *_conversation;
-    UILabel *_titleLabel;
-    UILabel *_subtitleLabel;
-    UIImageView *_iconView;
-    UIButton *_actionButton;
-    unsigned long long _state;
 }
 
 + (_Bool);
 + (id);
-- (double);
-- (id);
+- (double));
+- (id)m;
+- (void)p;
 - (void);
+- (void)a;
+- (void)n;
+- (void)ody></html>;
+- (void)ICDocCamOCRDisabledDefaultsKey;
+- (void)d Notes;
+- (double)t initialized;
+- (double)humbnailView setHairlineColor:forEdges:] /* Error: Ran out of types for this method. */;
+- (double)video icon;
+- (void);
+- (void)isMathPaperSolvingAllowed;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (double);
-- (double);
-- (void);
-- (void);
-- (void);
-- (double);
+- (double)1;
 - (void);
 - (id);
 - (void);
@@ -52,30 +47,13 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id)0@ù
 × ;
-- (id)gViewMaximumDBLevel;
-- (void)e;
+- (id)audioRecordingViewMaximumDBLevel;
+- (void)AudioMessageRecordingAppendButtonDelegate;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UIButton *actionButton; // @synthesize actionButton=_actionButton;
-@property(readonly, nonatomic) double buttonInteritemSpacing;
-@property(readonly, nonatomic) double buttonTitleHorizontalSpacing;
-@property(readonly, nonatomic) double buttonTitleVerticalSpacing;
 @property(retain, nonatomic) TUConversation *conversation; // @synthesize conversation=_conversation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIImageView *iconView; // @synthesize iconView=_iconView;
-@property(readonly, nonatomic) double insetPadding;
-@property(readonly, nonatomic) double interitemSpacing;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(retain, nonatomic) UILabel *subtitleLabel; // @synthesize subtitleLabel=_subtitleLabel;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end
 

@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
++ (id);
++ (id)v;
++ (id)Ԁ;
++ (_Bool)Ќ;
 
 @end
 

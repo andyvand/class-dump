@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKConversationConfirmationAlertsDisplayConfiguration, CKSafetyCheckHelper, NSArray;
+@class CKConversationConfirmationAlertsDisplayConfiguration;
 
 @interface CKConversationConfirmationAlertsController
 {
     _Bool _shouldPromptBusinessChatSpamReason;
-    _Bool _shouldPromptStopBusinessChat;
-    CKConversationConfirmationAlertsDisplayConfiguration *_configuration;
-    NSArray *_junkConversations;
-    CKSafetyCheckHelper *_safetyCheckHelper;
 }
 
 - (_Bool);
@@ -20,14 +16,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void));
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)tGIegynr_;
 - (id);
 - (void);
 - (id);
@@ -46,14 +42,14 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)I?p,;
 - (id);
 - (id);
 - (_Bool);
@@ -68,10 +64,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CKConversationConfirmationAlertsDisplayConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(retain, nonatomic) NSArray *junkConversations; // @synthesize junkConversations=_junkConversations;
-@property(retain, nonatomic) CKSafetyCheckHelper *safetyCheckHelper; // @synthesize safetyCheckHelper=_safetyCheckHelper;
-@property(nonatomic) _Bool shouldPromptBusinessChatSpamReason; // @synthesize shouldPromptBusinessChatSpamReason=_shouldPromptBusinessChatSpamReason;
-@property(nonatomic) _Bool shouldPromptStopBusinessChat; // @synthesize shouldPromptStopBusinessChat=_shouldPromptStopBusinessChat;
 
 @end
 

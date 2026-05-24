@@ -7,12 +7,6 @@
 @interface TextToSpeech.VoiceDatabaseDaemon
 {
     id additionalLoaders;
-    id $__lazy_storage_$_server;
-    id $__lazy_storage_$_database;
-    id $__lazy_storage_$_sseManager;
-    id startTransaction;
-    id endTransaction;
-    id executor;
 }
 
 @end

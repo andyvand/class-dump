@@ -6,23 +6,21 @@
 
 #import <CloudKitDaemon/CKDURLRequest.h>
 
-@class NSArray, NSMutableDictionary;
+@class NSArray;
 
 @interface CKDLeaveSharesURLRequest : CKDURLRequest
 {
     CDUnknownBlockType _shareLeftBlock;
-    NSArray *_shareIDsToLeave;
-    NSMutableDictionary *_shareIDByRequestID;
 }
 
 - (CDUnknownBlockType);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)c;
+- (void)/D�?;
 - (void);
 - (id);
-- (id)Token;
+- (void);
+- (id);
+- (id)userToken;
 - (void)with a nil zone PCS;
 - (id)rFtQ/Library/Caches/com.apple.xbs/TemporaryDirectory.ch2LMp/Sources/CloudKitTools/Sources/CloudKitDaemon/IPCMessaging/CKDContainer.m;
 - (id)req:%{public}@, "Failed to get location name from mergeable delta change %@" /* Error: Ran out of types for this method. */;
@@ -33,9 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *shareIDByRequestID; // @synthesize shareIDByRequestID=_shareIDByRequestID;
 @property(retain, nonatomic) NSArray *shareIDsToLeave; // @synthesize shareIDsToLeave=_shareIDsToLeave;
-@property(copy, nonatomic) CDUnknownBlockType shareLeftBlock; // @synthesize shareLeftBlock=_shareLeftBlock;
 
 @end
 

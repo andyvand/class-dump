@@ -16,7 +16,7 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
+- (id);
 
 // Remaining properties
 @property(nonatomic) unsigned long long options; // @synthesize options=_options;

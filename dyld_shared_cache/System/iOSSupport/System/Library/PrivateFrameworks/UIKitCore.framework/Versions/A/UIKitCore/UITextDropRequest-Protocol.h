@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UITextDropProposal, UITextPosition;
-@protocol UIDropSession;
+@class UITextPosition;
 
 @protocol UITextDropRequest
 
 // Remaining properties
 @property(readonly, nonatomic) UITextPosition *dropPosition;
-@property(readonly, nonatomic) id <UIDropSession> dropSession;
-@property(readonly, nonatomic, getter=isSameView) _Bool sameView;
-@property(readonly, nonatomic) UITextDropProposal *suggestedProposal;
 @end
 

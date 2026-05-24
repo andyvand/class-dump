@@ -6,9 +6,6 @@
 
 #import <MetalTools/MTLToolsResource.h>
 
-@class NSString;
-@protocol MTLBuffer, MTLDevice, MTLHeap;
-
 @interface MTLToolsVisibleFunctionTable : MTLToolsResource
 {
 }
@@ -17,12 +14,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)qA;
 - (unsigned long long);
 - (void);
 - (unsigned long long);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long);
 - (struct MTLResourceID);
 - (void);
 - (unsigned long long);
@@ -30,40 +27,9 @@
 × ;
 
 // Remaining properties
-@property(readonly) unsigned long long allocatedSize;
-@property(readonly) unsigned long long cpuCacheMode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <MTLDevice> device;
-@property(retain, nonatomic) id <MTLBuffer> globalBuffer;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<MTLBuffer>",?,&,N
-
-@property(nonatomic) unsigned long long globalBufferOffset;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,N
-
-@property(readonly, nonatomic) unsigned long long gpuAddress;
-@property(readonly) unsigned long long gpuHandle;
-@property(readonly) struct MTLResourceID gpuResourceID;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long hazardTrackingMode;
-@property(readonly) id <MTLHeap> heap;
-@property(readonly) unsigned long long heapOffset;
-@property(copy) NSString *label;
 @property(readonly, nonatomic) unsigned long long resourceIndex;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TQ,?,R,N
-
-@property(readonly) unsigned long long resourceOptions;
-@property(readonly) unsigned long long storageMode;
-@property(readonly) Class superclass;
-@property(readonly) unsigned long long uniqueIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R
 
 
 @end

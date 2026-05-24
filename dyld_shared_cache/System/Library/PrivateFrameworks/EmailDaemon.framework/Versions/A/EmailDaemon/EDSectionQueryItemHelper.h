@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFLocked, EFOrderedDictionary, EMQuery;
+@class EFLocked;
 
 @interface EDSectionQueryItemHelper
 {
     EFLocked *_sectionIndexesByID;
-    EFOrderedDictionary *_sectionPredicates;
-    EMQuery *_query;
-    CDUnknownBlockType _sectionComparator;
 }
 
 + (id);
@@ -24,21 +21,18 @@
 - (id);
 - (CDUnknownBlockType);
 - (void);
-- (id);
+- (id)!;
 - (id);
 - (CDUnknownBlockType);
 - (unsigned long long);
 - (id);
 - (CDUnknownBlockType);
-- (id);
+- (id)"NSURL",R,N,V_zipFileURL;
 - (id);
 - (void)VIEW temp_persisted_messages AS SELECT * FROM messages WHERE ROWID IN (%@);;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) EMQuery *query; // @synthesize query=_query;
 @property(readonly, copy, nonatomic) CDUnknownBlockType sectionComparator; // @synthesize sectionComparator=_sectionComparator;
-@property(readonly, nonatomic) EFOrderedDictionary *sectionPredicates; // @synthesize sectionPredicates=_sectionPredicates;
-@property(readonly, nonatomic) _Bool shouldSectionItemsRemainInSection;
 
 @end
 

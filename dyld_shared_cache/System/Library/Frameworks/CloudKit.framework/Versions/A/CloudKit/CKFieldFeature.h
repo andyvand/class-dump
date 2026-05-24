@@ -12,11 +12,11 @@
 }
 
 + (_Bool);
+- (id)1A;
 - (id);
 - (id);
 - (id);
-- (id);
-- (long long);
+- (long long)initWithTotalCoreCount: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
@@ -24,10 +24,7 @@
 - (void)\y9;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic, readonly) NSString *name;
-@property(nonatomic, readonly) NSString *value;
 
 @end
 

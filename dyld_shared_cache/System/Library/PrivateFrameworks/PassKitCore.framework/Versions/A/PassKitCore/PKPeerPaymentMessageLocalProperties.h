@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface PKPeerPaymentMessageLocalProperties
 {
     unsigned long long _source;
-    NSData *_analyticsSessionToken;
 }
 
 + (_Bool)áW"Ð!8Fùqî%°1Â0@ù
 × ;
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)k;
+- (void)setTddDuration:(id)arg1;
 - (void);
 - (unsigned long long);
-- (void)riteriaType;
-- (id)rentBalance;
+- (void)criteriaType;
+- (id)OneNinthOfCurrentBalance;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *analyticsSessionToken; // @synthesize analyticsSessionToken=_analyticsSessionToken;
 @property(nonatomic) unsigned long long source; // @synthesize source=_source;
 
 @end

@@ -6,24 +6,15 @@
 
 #import <HomeKitDaemon/HMDCameraRecordingSessionSignificantEvent.h>
 
-@class NSData, NSDate, NSSet, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDMutableCameraRecordingSessionSignificantEvent : HMDCameraRecordingSessionSignificantEvent
 {
 }
 
-- (id)yEventBulletinForAccessory:(struct _NSZone *)arg1 reachable:date: /* Error: Ran out of types for this method. */;
+- (id)insertReachabilityEventBulletinForAccessory:(struct _NSZone *)arg1 reachable:date: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property unsigned long long confidenceLevel; // @dynamic confidenceLevel;
-@property(copy) NSDate *dateOfOccurrence; // @dynamic dateOfOccurrence;
-@property(copy) NSSet *faceClassifications; // @dynamic faceClassifications;
-@property(retain) NSData *faceCropData; // @dynamic faceCropData;
-@property(retain) NSData *heroFrameData; // @dynamic heroFrameData;
 @property unsigned long long reason; // @dynamic reason;
-@property(copy) NSUUID *sessionEntityUUID; // @dynamic sessionEntityUUID;
-@property double timeOffsetWithinClip; // @dynamic timeOffsetWithinClip;
 
 @end
 

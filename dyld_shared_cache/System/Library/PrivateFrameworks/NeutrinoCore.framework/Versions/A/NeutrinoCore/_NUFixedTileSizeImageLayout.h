@@ -9,8 +9,6 @@
 @interface _NUFixedTileSizeImageLayout : NUImageLayout
 {
     CDStruct_d58201db _tileSize;
-    CDStruct_d58201db _borderSize;
-    CDStruct_d58201db _tileCounts;
 }
 
 - (id);

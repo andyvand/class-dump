@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary;
+@class NSDictionary;
 
 @interface CalDAVMultiMoveWithFallbackTaskGroup
 {
     NSDictionary *_sourceEntityScheduleTags;
-    _Bool _isAutoScheduleSupported;
-    NSMutableDictionary *_destinationEntityScheduleTags;
 }
 
 - (id);
@@ -25,8 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *destinationEntityScheduleTags; // @synthesize destinationEntityScheduleTags=_destinationEntityScheduleTags;
-@property(nonatomic) _Bool isAutoScheduleSupported; // @synthesize isAutoScheduleSupported=_isAutoScheduleSupported;
 @property(retain, nonatomic) NSDictionary *sourceEntityScheduleTags; // @synthesize sourceEntityScheduleTags=_sourceEntityScheduleTags;
 
 @end

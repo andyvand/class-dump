@@ -6,8 +6,7 @@
 
 #import <HomeKitDaemon/_MKFModel.h>
 
-@class MKFEventDatabaseID, NSDate, NSNumber, NSString, NSUUID;
-@protocol MKFEventTrigger, MKFHome;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface _MKFEvent : _MKFModel
@@ -18,36 +17,19 @@ __attribute__((visibility("hidden")))
 + (id);
 + (Class);
 + (id);
-+ (id);
++ (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)_;
 - (id);
 - (id)Aáð!Ð@ù1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFEventDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSNumber *endEvent; // @dynamic endEvent;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSUUID *hmd_modelID;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSUUID",?,R,C,N
 
-@property(readonly, copy, nonatomic) NSUUID *hmd_parentModelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(readonly) id <MKFHome> home;
-@property(readonly, copy, nonatomic) NSUUID *modelID; // @dynamic modelID;
-@property(readonly) Class superclass;
-@property(readonly, retain, nonatomic) id <MKFEventTrigger> trigger; // @dynamic trigger;
-@property(copy, nonatomic) NSDate *writerTimestamp; // @dynamic writerTimestamp;
 
 @end
 

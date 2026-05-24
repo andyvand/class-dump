@@ -22,9 +22,6 @@
             unsigned int supportsSetPhraseBoundary:1;
         } fields;
     } _inputSourceStateMask;
-    NSString *_inputMode;
-    struct CGRect _leftSplitFrame;
-    struct CGRect _rightSplitFrame;
 }
 
 + (_Bool);
@@ -39,40 +36,29 @@
 - (_Bool);
 - (id);
 - (id);
+- (_Bool)initWithSearchPropertyNameSpace:andName: /* Error: Ran out of types for this method. */;
+- (id)readTableStyle:drawingState: /* Error: Ran out of types for this method. */;
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool)Eùñ$1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool centerFilled;
-@property(nonatomic) _Bool floating;
-@property(nonatomic) _Bool hardwareKeyboardMode;
 @property(retain, nonatomic) NSString *inputMode; // @synthesize inputMode=_inputMode;
-@property(nonatomic) struct CGRect leftSplitFrame; // @synthesize leftSplitFrame=_leftSplitFrame;
-@property(nonatomic) _Bool minimized;
-@property(nonatomic) struct CGRect rightSplitFrame; // @synthesize rightSplitFrame=_rightSplitFrame;
-@property(nonatomic) _Bool showingEmojiSearch;
-@property(nonatomic) _Bool showsCandidateBar;
-@property(nonatomic) _Bool split;
-@property(nonatomic) _Bool supportsSetPhraseBoundary;
-@property(nonatomic) _Bool usesCandidateSelection;
 
 @end
 

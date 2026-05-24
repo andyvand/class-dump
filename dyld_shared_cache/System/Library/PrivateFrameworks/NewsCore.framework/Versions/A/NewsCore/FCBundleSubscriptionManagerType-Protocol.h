@@ -5,14 +5,17 @@
 //
 
 @class FCBundleSubscription;
-@protocol FCEntitlementsOverrideProviderType;
 
 @protocol FCBundleSubscriptionManagerType
+- (void)C;
+- (FCBundleSubscription *)ic}s:%d, %{public}s forbids:%{public}s. MapsSuggestionsDurationSinceLastTransitRouteBlock handler cannot be nil! /* Error: Ran out of types for this method. */;
+- (void)peerDataAddress;
+- (void);
+- (void)m;
+- (void)_attemptingWirelessNetworkSwitch;
 - (void)quirement;
 
 // Remaining properties
 @property(readonly, nonatomic) FCBundleSubscription *cachedSubscription;
-@property(retain, nonatomic) id <FCEntitlementsOverrideProviderType> entitlementsOverrideProvider;
-@property(readonly, nonatomic) FCBundleSubscription *validatedCachedSubscription;
 @end
 

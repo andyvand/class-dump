@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class HMDHome, NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryReachabilityChangedLogEventManager
 {
     NSMutableDictionary *_transportReachabilityChangeDatesByUUID;
-    _Bool _enabled;
-    HMDHome *_home;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 + (id)C;
+- (void)er createXPCListener];
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -38,15 +34,7 @@ __attribute__((visibility("hidden")))
 - (id)A;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly) Class superclass;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

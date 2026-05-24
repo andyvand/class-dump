@@ -10,7 +10,6 @@
 @interface PKTiledGestureView
 {
     PKTiledView *_tiledView;
-    id <PKDrawingPaletteStatistics> _drawingPaletteStatistics;
 }
 
 - (id);
@@ -40,11 +39,10 @@
 - (id)Q'°1Â0@ù
 × ;
 - (id)_resourceCacheSize;
-- (void)mConstraint;
+- (void)buttonStackViewBottomConstraint;
 
 // Remaining properties
 @property(retain, nonatomic) id <PKDrawingPaletteStatistics> drawingPaletteStatistics; // @synthesize drawingPaletteStatistics=_drawingPaletteStatistics;
-@property(nonatomic) __weak PKTiledView *tiledView; // @synthesize tiledView=_tiledView;
 
 @end
 

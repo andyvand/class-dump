@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface CNVSchemaCNVActionCandidatesCollated : SISchemaInstrumentationMessage
 {
@@ -20,21 +20,20 @@
 - (id);
 - (void);
 - (void);
+- (id)TA;
 - (id);
-- (id);
-- (void);
+- (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)5;
 - (_Bool);
 - (id);
 - (id)ialogName"b1"requestedAgent"b1};
-- (id)ndidate;
+- (id)IFTSchemaIFTCandidate;
 - (id)Ð;
 - (void)¦&;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *collatedActionCandidates; // @synthesize collatedActionCandidates=_collatedActionCandidates;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

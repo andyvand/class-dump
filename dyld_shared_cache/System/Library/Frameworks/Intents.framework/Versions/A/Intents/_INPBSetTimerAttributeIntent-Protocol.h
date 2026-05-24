@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBDataString, _INPBIntentMetadata, _INPBTimer;
+@class _INPBIntentMetadata;
 
 @protocol _INPBSetTimerAttributeIntent
+- (void);
+- (_INPBIntentMetadata *)_isTerminalNode;
 - (_Bool)lCapability: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasTargetTimer;
-@property(nonatomic) _Bool hasToDuration;
-@property(readonly, nonatomic) _Bool hasToLabel;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(retain, nonatomic) _INPBTimer *targetTimer;
-@property(nonatomic) double toDuration;
-@property(retain, nonatomic) _INPBDataString *toLabel;
 @end
 

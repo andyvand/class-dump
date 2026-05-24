@@ -7,7 +7,6 @@
 @interface RemindersUICore.ResourceDirectoryAssertion__priv_8D3AD9A7C739B7114BFFF4D89520C33A
 {
     id interactor;
-    id resourceDirectoryToRemove;
 }
 
 @end

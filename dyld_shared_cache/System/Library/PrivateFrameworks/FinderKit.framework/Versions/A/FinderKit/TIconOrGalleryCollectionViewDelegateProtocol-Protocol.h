@@ -5,5 +5,6 @@
 //
 
 @protocol TIconOrGalleryCollectionViewDelegateProtocol
+- (void)k;
 @end
 

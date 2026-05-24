@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIInputViewSetPlacement, UIView;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface UIInputViewAnimationControllerSlideContext
 {
     UIView *_snapshot;
-    UIInputViewSetPlacement *_endPlacement;
-    struct CGRect _snapshotEndFrame;
 }
 
-- (struct CGRect);
-- (void);
-- (void);
+- (struct CGRect)`;
+- (void)ed for iMessage, skipping adding to group:(struct CGRect)arg1 %@;
+- (void)ring;
 - (id);
 - (void);
 - (void)¬ñi;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) UIInputViewSetPlacement *endPlacement; // @synthesize endPlacement=_endPlacement;
 @property(retain, nonatomic) UIView *snapshot; // @synthesize snapshot=_snapshot;
-@property(nonatomic) struct CGRect snapshotEndFrame; // @synthesize snapshotEndFrame=_snapshotEndFrame;
 
 @end
 

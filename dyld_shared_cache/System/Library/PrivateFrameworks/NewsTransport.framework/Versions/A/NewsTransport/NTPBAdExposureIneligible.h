@@ -4,57 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NTPBAdExposureIneligible
 {
     int _exposureIneligibleLocationType;
-    NSString *_exposureIneligibleLocationTypeId;
-    int _exposureIneligibleReason;
-    int _feedType;
-    struct {
-        unsigned int exposureIneligibleLocationType:1;
-        unsigned int exposureIneligibleReason:1;
-        unsigned int feedType:1;
-    } _has;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void)_usePreferredDynamicRangeAPI;
+- (void)_updateMovieHighlights;
+- (void)_updateMostRecentSeenSuggestedAssetAddedDate;
+- (void)_updateMostRecentAddedDateEverSeen;
+- (_Bool)_shouldCrossfadeLivePhotosWhenLooping;
+- (_Bool)_shouldAspectFitContent;
+- (_Bool)_shouldAlwaysShowUnlockButtonInContentUnavailableViews;
+- (_Bool)_shouldAlwaysShowFloatingVersion;
+- (id)_searchDebugStringWithPersons:(int)arg1;
+- (int)_scrollToTopAnimationDuration;
+- (id)_scrollToTargetMemoryUUIDWhenReady: /* Error: Ran out of types for this method. */;
+- (int)_scrollThresholdForTopCenteredTitle;
+- (void)_pressedFractionAnimator;
+- (void)_presentingViewController;
+- (int)_prefetchingStarted;
 - (id);
-- (int);
-- (id);
-- (int);
-- (void);
-- (void);
-- (int);
-- (id);
-- (void);
+- (void)D;
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (int);
-- (void)IDsType;
+- (void)editorialArticleListIDsType;
 
 // Remaining properties
-@property(nonatomic) int exposureIneligibleLocationType; // @synthesize exposureIneligibleLocationType=_exposureIneligibleLocationType;
-@property(retain, nonatomic) NSString *exposureIneligibleLocationTypeId; // @synthesize exposureIneligibleLocationTypeId=_exposureIneligibleLocationTypeId;
-@property(nonatomic) int exposureIneligibleReason; // @synthesize exposureIneligibleReason=_exposureIneligibleReason;
-@property(nonatomic) int feedType; // @synthesize feedType=_feedType;
 @property(nonatomic) _Bool hasExposureIneligibleLocationType;
-@property(readonly, nonatomic) _Bool hasExposureIneligibleLocationTypeId;
-@property(nonatomic) _Bool hasExposureIneligibleReason;
-@property(nonatomic) _Bool hasFeedType;
 
 @end
 

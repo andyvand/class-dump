@@ -7,13 +7,6 @@
 @interface AWDCoreRoutineFMCVehicleConnectionEventInstance
 {
     unsigned long long _timestamp;
-    int _eventType;
-    int _value;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int eventType:1;
-        unsigned int value:1;
-    } _has;
 }
 
 @end

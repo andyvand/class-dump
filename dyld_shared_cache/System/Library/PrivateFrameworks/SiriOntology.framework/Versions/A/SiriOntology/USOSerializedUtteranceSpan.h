@@ -7,11 +7,6 @@
 @interface USOSerializedUtteranceSpan
 {
     unsigned int _startIndex;
-    unsigned int _endIndex;
-    unsigned int _startUnicodeScalarIndex;
-    unsigned int _endUnicodeScalarIndex;
-    int _startMilliSeconds;
-    int _endMilliSeconds;
 }
 
 + (_Bool);
@@ -27,12 +22,7 @@
 - (unsigned int);
 
 // Remaining properties
-@property(readonly) unsigned int endIndex; // @synthesize endIndex=_endIndex;
-@property(readonly) int endMilliSeconds; // @synthesize endMilliSeconds=_endMilliSeconds;
-@property(readonly) unsigned int endUnicodeScalarIndex; // @synthesize endUnicodeScalarIndex=_endUnicodeScalarIndex;
 @property(readonly) unsigned int startIndex; // @synthesize startIndex=_startIndex;
-@property(readonly) int startMilliSeconds; // @synthesize startMilliSeconds=_startMilliSeconds;
-@property(readonly) unsigned int startUnicodeScalarIndex; // @synthesize startUnicodeScalarIndex=_startUnicodeScalarIndex;
 
 @end
 

@@ -6,21 +6,20 @@
 
 #import <MapsSuggestions/MapsSuggestionsBaseSource.h>
 
-@class MapsSuggestionsRoutine, NSString;
+@class MapsSuggestionsRoutine;
 @protocol MapsSuggestionsSourceDelegate;
 
 @interface MapsSuggestionsPLCRoutineSource : MapsSuggestionsBaseSource
 {
     MapsSuggestionsRoutine *_routine;
-    struct Queue _queue;
 }
 
-+ (_Bool);
++ (_Bool)X�;
 + (unsigned long long);
 - (BOOL);
 - (double);
 - (id);
-- (void);
+- (void)4;
 - (void);
 - (id);
 - (BOOL);
@@ -29,15 +28,7 @@
 - (void)32;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <MapsSuggestionsSourceDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *uniqueName;
 
 @end
 

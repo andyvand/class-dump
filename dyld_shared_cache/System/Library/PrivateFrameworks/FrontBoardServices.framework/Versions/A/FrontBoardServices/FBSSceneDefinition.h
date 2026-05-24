@@ -4,28 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBSSceneClientIdentity, FBSSceneIdentity, FBSSceneSpecification, NSString;
+@class FBSSceneIdentity;
 
 @interface FBSSceneDefinition
 {
     FBSSceneIdentity *_identity;
-    FBSSceneClientIdentity *_clientIdentity;
-    FBSSceneSpecification *_specification;
 }
 
 + (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id);
+- (id)confirmationOptionWithDictionary:context: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -33,16 +31,7 @@
 - (id)invalid display type :%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) FBSSceneClientIdentity *clientIdentity; // @synthesize clientIdentity=_clientIdentity;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) FBSSceneIdentity *identity; // @synthesize identity=_identity;
-@property(copy, nonatomic) FBSSceneSpecification *specification; // @synthesize specification=_specification;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,29 +6,24 @@
 
 #import <ChatKit/CKRecipientSelectionController.h>
 
-@class IMService, NSString, UIBarButtonItem, UIButton;
+@class UIButton;
 
 @interface CKGroupRecipientSelectionController : CKRecipientSelectionController
 {
     _Bool _resolvedEncryption;
-    UIBarButtonItem *_cancelButton;
-    UIBarButtonItem *_doneButton;
-    UIButton *_macDialogCancelButton;
-    UIButton *_macDialogAddButton;
-    IMService *_resolvedService;
 }
 
-- (double);
-- (void);
-- (double);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (double)ic_encryptedInlineableDataAssetForKeyPrefix:(id)arg1;
+- (void)ic_characterCountIncludingSpaces: /* Error: Ran out of types for this method. */;
+- (double)biometricsType;
+- (_Bool)acceptShareWithMetadata:attemptNumber:container:accountID:fetchObjectWithCompletionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)_imageDidLoadBlock;
+- (_Bool)_dataDetectionContextForWebView: /* Error: Ran out of types for this method. */;
+- (_Bool)ibutedStringInsideFrame;
+- (void)setStringValue:(id)arg1;
+- (void)N,V_activityIndicator;
+- (void)te>",W,D;
+- (void)r;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -39,7 +34,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -47,32 +42,32 @@
 - (void);
 - (void);
 - (struct UIEdgeInsets);
+- (id)_߉87elementtG;
+- (id);
+- (_Bool)l;
+- (_Bool)o;
+- (void);
+- (void)p;
+- (void)r;
+- (void)able text content for system paper attachment %s;
+- (id)s:%d /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool);
+- (void);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id);
+- (id)d,;
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)8;
 - (id);
 - (_Bool);
 - (void);
@@ -85,19 +80,7 @@
 - (void)ÿ);
 
 // Remaining properties
-@property(retain, nonatomic) UIBarButtonItem *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UIBarButtonItem *doneButton; // @synthesize doneButton=_doneButton;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIButton *macDialogAddButton; // @synthesize macDialogAddButton=_macDialogAddButton;
 @property(retain, nonatomic) UIButton *macDialogCancelButton; // @synthesize macDialogCancelButton=_macDialogCancelButton;
-@property(nonatomic) _Bool resolvedEncryption; // @synthesize resolvedEncryption=_resolvedEncryption;
-@property(nonatomic) __weak IMService *resolvedService; // @synthesize resolvedService=_resolvedService;
-@property(readonly) Class superclass;
 
 @end
 

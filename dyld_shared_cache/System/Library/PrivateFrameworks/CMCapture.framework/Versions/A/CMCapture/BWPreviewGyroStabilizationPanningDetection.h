@@ -8,18 +8,14 @@ __attribute__((visibility("hidden")))
 @interface BWPreviewGyroStabilizationPanningDetection
 {
     id _translationVector[10];
-    int _inputIndex;
-    int _ringCount;
-    float _panningSpeedThreshold;
-    _Bool _isPanning;
 }
 
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (float);
 - (void);
-- (_Bool);
+- (_Bool)5	;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isPanning; // @synthesize isPanning=_isPanning;

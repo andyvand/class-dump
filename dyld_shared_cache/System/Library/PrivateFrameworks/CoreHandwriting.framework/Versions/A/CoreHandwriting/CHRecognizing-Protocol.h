@@ -7,8 +7,6 @@
 @protocol CHRecognizing
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool enableCachingIfAvailable;
 @property(nonatomic) unsigned long long maxRecognitionResultCount;
-@property(nonatomic) struct CGSize minimumDrawingSize;
 @end
 

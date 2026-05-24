@@ -12,21 +12,18 @@
 }
 
 - (id);
-- (id);
+- (id)ion;
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (id);
+- (id)c%;
 - (id);
-- (id);
-- (void)dServerNames: /* Error: Ran out of types for this method. */;
+- (void)setTrustedServerNames: /* Error: Ran out of types for this method. */;
 - (id)];
 
 // Remaining properties
-@property(readonly) NSData *identifierData; // @synthesize identifierData=_identifierData;
-@property(readonly) unsigned long long identifierType;
 @property(readonly) NSString *stringValue;
-@property(readonly) NSString *typeDescription;
 
 @end
 

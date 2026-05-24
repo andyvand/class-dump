@@ -4,61 +4,49 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CPLFingerprintScheme
 {
     long long _zeroByteFileFingerprintOnce;
-    struct os_unfair_lock_s _lock;
-    NSString *_zeroByteFileFingerprint;
 }
 
 + (_Bool);
 + (_Bool);
 + (void);
++ (id)M+;
++ (_Bool)-;
++ (_Bool);
++ (_Bool);
++ (_Bool);
 + (id);
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
++ (id)ues.;
++ (_Bool)>= prefixMatchIndicies.count (%lu), queryTermCount = %lu, propertyName = %@, propertyValue.length = %lu, keyboardLanguage = %@, matchedType = %lu, attributeRange.location = %lu, attributeRange.length = %lu, tokenType = %lu, matchedTokenIndex:(id)arg1 %lu;
++ (id)nalty:%f /* Error: Ran out of types for this method. */;
++ (id)dIn;
 + (_Bool);
 + (void)NSCountedSet"16^B24;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void **);
-- (id);
+- (void **);
+- (id)scoringConfig;
+- (_Bool)#;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool)local_bundle_id_max_prefix_field_coverage_abs_rank;
 - (_Bool);
 - (id);
+- (_Bool);
+- (_Bool)Cm[l;
 - (id);
 - (id);
+- (id);
 - (id);
-- (_Bool)SString",R,N,V_uploadIdentifier;
+- (_Bool);
 - (void)Â°!ôCùñÐ1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsStreaming;
 @property(readonly, nonatomic) _Bool canMatchSignatureToFingerprint;
-@property(readonly, nonatomic) NSString *fingerprintSchemeDescription;
-@property(readonly, nonatomic, getter=isForStableHash) _Bool forStableHash;
-@property(readonly, nonatomic) _Bool isMMCSv2;
-@property(readonly, nonatomic) _Bool providesEnhancedPrivacy;
-@property(readonly, nonatomic) _Bool shouldUseEncryptedPropertiesIfPossible;
-@property(readonly, nonatomic, getter=isValid) _Bool valid;
-@property(readonly, nonatomic) NSString *zeroByteFileFingerprint; // @synthesize zeroByteFileFingerprint=_zeroByteFileFingerprint;
 
 @end
 

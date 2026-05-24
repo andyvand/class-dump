@@ -10,12 +10,10 @@ __attribute__((visibility("hidden")))
 @interface CIFilterClassInfo
 {
     NSArray *inputKeys;
-    NSArray *inputClasses;
-    NSArray *outputKeys;
 }
 
 + (id);
-+ (void);
++ (void);
 + (id)vxxxx]mlneeee____WWWW5F9OFSKYoooo||||Zts|uyw{`wuqzNodjtj~Lmeqvs|xxxxkj`meldto^piw_qky}}}}otnw~xr~{££££_lcxSf[uty|||SUL['<.I<G<NZ^\^jjjjjmmmjmkmvvvvz{|||||||}}}}Vokyttttsssszzzzg}}|vxxxwwww}}}}wwwwDTH^3J?@,O[bZj\|yOmh}qqqqjjjjZb^bEYNfdso}    ryv<N>c=K:X9M?[GZRaddcdCYPfgolwj~hhhhAPDSIF6KDOBUK_Wii|y|x~xttttWf_lyyyydyyYkgt]nlrssssssssrtstv~±±±±©¨©©pwwwwrrrrnyv{£¦««····¯¯¯¯~~~~hrqvmqoty~~~{w¢¢¢¢««««i|wewqy{w}?bVws~¡¡¡¡z]vn|Gf\rikcqgvq}j|ys}{nnmn\d\fPcZo¦¦¦¦ZmhrW]UeLXP^YYYYRRRRFJFJFFFFMMLMVc_d~{s|zq|yne{vnTd_kKM@`Nb]lwwwwhhfh0A1QRM@SiiiiqqqqOa[hffffnnnnTkesJha{q]e`eAL>QYYYYlllljvux~~~~~~~~`snenjvBXNd]]\]W\[\__Z__b\eXe_oetr~wfd]hCPCY\\R\agaiyyyy /* Error: Ran out of types for this method. */;
 - (void);
 - (id);

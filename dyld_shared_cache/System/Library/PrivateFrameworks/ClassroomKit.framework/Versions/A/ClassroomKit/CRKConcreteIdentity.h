@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol CRKCertificate, CRKPrivateKey;
+@protocol CRKCertificate;
 
 @interface CRKConcreteIdentity
 {
@@ -16,22 +15,13 @@
 + (id);
 - (struct __SecIdentity *);
 - (void);
+- (id)a;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)!;
 
 // Remaining properties
 @property(readonly, nonatomic) id <CRKCertificate> certificate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <CRKPrivateKey> privateKey;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) struct __SecIdentity *underlyingIdentity; // @synthesize underlyingIdentity=_underlyingIdentity;
 
 @end
 

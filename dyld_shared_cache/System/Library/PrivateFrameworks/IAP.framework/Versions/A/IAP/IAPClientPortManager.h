@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue, OS_xpc_object;
+@class NSMutableDictionary;
 
 @interface IAPClientPortManager
 {
     NSMutableDictionary *_portList;
-    NSObject<OS_dispatch_queue> *_portListQueue;
-    _Bool _iaptransportdIsRunning;
-    NSObject<OS_xpc_object> *_iaptransportdXPCConnection;
 }
 
 + (id);
@@ -23,7 +19,7 @@
 - (void);
 - (_Bool);
 - (int);
-- (void);
+- (void)@;
 - (id);
 
 // Remaining properties

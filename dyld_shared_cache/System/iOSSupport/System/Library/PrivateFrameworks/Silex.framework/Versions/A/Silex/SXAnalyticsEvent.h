@@ -9,7 +9,6 @@
 @interface SXAnalyticsEvent
 {
     NSDate *_startDate;
-    NSDate *_endDate;
 }
 
 - (void);
@@ -20,7 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
 @property(readonly, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end

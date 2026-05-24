@@ -4,28 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioSession, AVInputPickerPresenterViewController, NSString, UIView;
 @protocol AVInputPickerInteractionDelegate;
 
 @interface AVInputPickerInteraction
 {
     _Bool _presented;
-    UIView *_view;
-    AVAudioSession *_audioSession;
-    AVInputPickerPresenterViewController *_modalViewController;
-    id <AVInputPickerInteractionDelegate> _delegate;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)recordWithUnknownShareUsagesWithMaxCount:withError: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
-- (id);
 - (void);
 - (void);
-- (void);
+- (void)setCachedRequiresDataClassBAccessToRun: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -33,17 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) AVAudioSession *audioSession; // @synthesize audioSession=_audioSession;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <AVInputPickerInteractionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isPresented) _Bool presented;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) __weak UIView *view;
 
 @end
 

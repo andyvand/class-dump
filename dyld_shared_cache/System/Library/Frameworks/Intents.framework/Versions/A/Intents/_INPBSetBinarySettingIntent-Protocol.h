@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBIntentMetadata, _INPBSettingMetadata, _INPBTemporalEventTrigger;
+@class _INPBTemporalEventTrigger;
 
 @protocol _INPBSetBinarySettingIntent
-- (_Bool)Type:organizationName:requestedBalanceType: /* Error: Ran out of types for this method. */;
+- (_INPBTemporalEventTrigger *);
+- (void)H;
+- (_Bool)initWithAccountNickname:accountType:organizationName:requestedBalanceType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) int binaryValue;
-@property(nonatomic) _Bool hasBinaryValue;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasSettingMetadata;
-@property(readonly, nonatomic) _Bool hasTemporalEventTrigger;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(retain, nonatomic) _INPBSettingMetadata *settingMetadata;
-@property(retain, nonatomic) _INPBTemporalEventTrigger *temporalEventTrigger;
 @end
 

@@ -5,5 +5,10 @@
 //
 
 @protocol ASDUpdatesServiceProtocol
+- (void)׿
+;
+- (void);
+- (void)";
+- (void)=;
 @end
 

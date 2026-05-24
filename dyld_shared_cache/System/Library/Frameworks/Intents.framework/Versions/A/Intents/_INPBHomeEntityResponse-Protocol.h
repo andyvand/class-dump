@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBHomeEntity;
+@class _INPBHomeEntity, _INPBHomeUserTaskResponse;
 
 @protocol _INPBHomeEntityResponse
+- (_INPBHomeUserTaskResponse *)=);
+- (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) _INPBHomeEntity *entity;
-@property(readonly, nonatomic) _Bool hasEntity;
-@property(copy, nonatomic) NSArray *taskResponses;
-@property(readonly, nonatomic) unsigned long long taskResponsesCount;
 @end
 

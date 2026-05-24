@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHSChronoServicesConnection, CHSWidgetExtensionProvider, NSDictionary, NSMutableSet, NSSet, NSString;
+@class CHSWidgetExtensionProvider;
 
 @interface CHSWidgetDescriptorProvider
 {
     CHSWidgetExtensionProvider *_extensionProvider;
-    struct os_unfair_lock_s _lock;
-    _Bool _lock_observing;
-    CHSChronoServicesConnection *_lock_connection;
-    NSDictionary *_lock_descriptorsByExtensionIdentifier;
-    NSMutableSet *_lock_observers;
-    CDUnknownBlockType _eduModeProvider;
 }
 
 - (id);
+- (void)c;
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
@@ -32,7 +26,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (CDUnknownBlockType);
@@ -41,25 +35,15 @@
 - (id);
 - (void);
 - (id);
+- (void)sizeWithAttributes:(id)arg1;
+- (void)firms to protocol, create provider:(id)arg1 %@;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool)hProposedURLs:protectedURLs:deletedURLs: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithProposedURLs:protectedURLs:deletedURLs: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSSet *descriptors;
-@property(readonly, copy, nonatomic) NSDictionary *descriptorsByExtensionIdentifier;
-@property(copy, nonatomic) CDUnknownBlockType eduModeProvider; // @synthesize eduModeProvider=_eduModeProvider;
 @property(retain, nonatomic) CHSWidgetExtensionProvider *extensionProvider; // @synthesize extensionProvider=_extensionProvider;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

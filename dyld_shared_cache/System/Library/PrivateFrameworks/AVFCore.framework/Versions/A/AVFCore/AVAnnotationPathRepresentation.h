@@ -11,24 +11,20 @@
 @interface AVAnnotationPathRepresentation : AVAnnotationRepresentation
 {
     NSArray *_paths;
-    struct CGColor *_strokeColor;
-    long long _strokeWidth;
-    _Bool _dashed;
-    _Bool _hasShadow;
 }
 
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (void);
+- (id)օ;
+- (void)9h;
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (struct CGColor *);
-- (_Bool);
+- (_Bool);
+- (id)H;
+- (struct CGColor *)eneSettingsDiff";
+- (_Bool)actionClasses: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (long long);
@@ -36,11 +32,7 @@
 - (id)OugDasRFtsuTFQyntsybJDAel77ovxhnQAy4/Library/Caches/com.apple.xbs/TemporaryDirectory.hxtA0m/Sources/AVFoundation_AVFCore/Fig/AVDelegatingPlaybackCoordinator.m %s:States aren't distinguishable. Assuming existing state is better for %{public}@. /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool dashed; // @synthesize dashed=_dashed;
-@property(nonatomic) _Bool hasShadow; // @synthesize hasShadow=_hasShadow;
 @property(copy, nonatomic) NSArray *paths; // @synthesize paths=_paths;
-@property(nonatomic) struct CGColor *strokeColor;
-@property(nonatomic) long long strokeWidth; // @synthesize strokeWidth=_strokeWidth;
 
 @end
 

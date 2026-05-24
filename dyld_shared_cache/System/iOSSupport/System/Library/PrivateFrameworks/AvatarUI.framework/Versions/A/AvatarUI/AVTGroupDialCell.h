@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTimer, UILabel;
+@class NSString, UILabel;
 
 @interface AVTGroupDialCell
 {
     NSString *_string;
-    UILabel *_label;
-    NSTimer *_shimmerTimer;
 }
 
 + (id);
@@ -32,8 +30,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) UILabel *label; // @synthesize label=_label;
-@property(retain, nonatomic) NSTimer *shimmerTimer; // @synthesize shimmerTimer=_shimmerTimer;
-@property(copy, nonatomic) NSString *string; // @synthesize string=_string;
 
 @end
 

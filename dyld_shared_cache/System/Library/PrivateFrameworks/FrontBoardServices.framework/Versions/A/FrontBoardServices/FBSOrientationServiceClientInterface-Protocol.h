@@ -5,5 +5,6 @@
 //
 
 @protocol FBSOrientationServiceClientInterface
+- (oneway void);
 @end
 

@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface IDSStallDetector
 {
     _Bool _verboseLogging;
-    struct os_unfair_lock_s _lock;
-    CDUnknownBlockType _stallDetectedBlock;
-    CDUnknownBlockType _stallWarningBlock;
-    unsigned long long _consumeDelayThreshold;
-    double _byteMovementDelayThreshold;
-    NSMutableArray *_bytesHistory;
-    NSMutableArray *_bytesTimestamps;
 }
 
 + (void);
@@ -29,15 +20,13 @@
 - (unsigned long long);
 - (void);
 - (double);
-- (_Bool);
+- (_Bool)Q;
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void)sourceTransferReceiver:error writing %lu (%llu total) to file %@ (errno:%d (%s)) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double byteMovementDelayThreshold;
-@property(nonatomic) unsigned long long consumeDelayThreshold;
 @property(nonatomic) _Bool verboseLogging; // @synthesize verboseLogging=_verboseLogging;
 
 @end

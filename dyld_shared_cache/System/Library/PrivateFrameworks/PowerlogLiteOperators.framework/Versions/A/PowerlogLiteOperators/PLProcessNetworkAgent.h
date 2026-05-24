@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSMutableSet, PLCFNotificationOperatorComposition, PLEntryNotificationOperatorComposition, PLMonotonicTimer, PLNSNotificationOperatorComposition, UsageFeed;
-
 @interface PLProcessNetworkAgent
 {
     struct __NStatManager *_statManagerRef;
-    UsageFeed *_usageFeed;
-    PLEntryNotificationOperatorComposition *_batteryLevelChanged;
-    PLEntryNotificationOperatorComposition *_batteryLevelChangedListenerForNetworkBitmap;
-    PLMonotonicTimer *_logUsageTimer;
-    NSDictionary *_lastProcessNameToNetworkUsageEntry;
-    NSDate *_lastEntryDate;
-    NSMutableSet *_processes;
-    unsigned long long _lastNetworkBitmapTimestamp;
-    unsigned long long _curNetworkBitmapTimestampForSysdiagnoseTrigger;
-    PLCFNotificationOperatorComposition *_flushNetworkBitmapsListener;
-    PLNSNotificationOperatorComposition *_sysdiagnoseListener;
 }
 
 + (id);
@@ -35,7 +22,7 @@
 + (id);
 + (_Bool);
 + (id);
-+ (void)_Transitions;
++ (void)GPU_CLTM_P6_Transitions;
 - (id);
 - (void);
 - (void);
@@ -47,8 +34,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -56,7 +43,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -76,29 +63,18 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)7@;
 - (void);
 - (id);
+- (void);
+- (id);
 - (void);
-- (void)playXPCListener;
+- (void)SecondaryDisplayXPCListener;
 - (id)BufferToCxt:dspExceptionParameter121(4248):Error adding 1 elements to context /* Error: Ran out of types for this method. */;
 - (void)Waterfall(483) cannot add 1 element to context;
 
 // Remaining properties
-@property(retain) PLEntryNotificationOperatorComposition *batteryLevelChanged; // @synthesize batteryLevelChanged=_batteryLevelChanged;
-@property(retain) PLEntryNotificationOperatorComposition *batteryLevelChangedListenerForNetworkBitmap; // @synthesize batteryLevelChangedListenerForNetworkBitmap=_batteryLevelChangedListenerForNetworkBitmap;
-@property unsigned long long curNetworkBitmapTimestampForSysdiagnoseTrigger; // @synthesize curNetworkBitmapTimestampForSysdiagnoseTrigger=_curNetworkBitmapTimestampForSysdiagnoseTrigger;
-@property(retain) PLCFNotificationOperatorComposition *flushNetworkBitmapsListener; // @synthesize flushNetworkBitmapsListener=_flushNetworkBitmapsListener;
-@property(retain) NSDate *lastEntryDate; // @synthesize lastEntryDate=_lastEntryDate;
-@property unsigned long long lastNetworkBitmapTimestamp; // @synthesize lastNetworkBitmapTimestamp=_lastNetworkBitmapTimestamp;
-@property(retain) NSDictionary *lastProcessNameToNetworkUsageEntry; // @synthesize lastProcessNameToNetworkUsageEntry=_lastProcessNameToNetworkUsageEntry;
-@property(retain) PLMonotonicTimer *logUsageTimer; // @synthesize logUsageTimer=_logUsageTimer;
-@property(retain) NSMutableSet *processes; // @synthesize processes=_processes;
 @property struct __NStatManager *statManagerRef; // @synthesize statManagerRef=_statManagerRef;
-@property(retain) PLNSNotificationOperatorComposition *sysdiagnoseListener; // @synthesize sysdiagnoseListener=_sysdiagnoseListener;
-@property(retain) UsageFeed *usageFeed; // @synthesize usageFeed=_usageFeed;
 
 @end
 

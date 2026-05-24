@@ -4,37 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface LPLyricExcerptMetadata
 {
     NSString *_lyrics;
-    NSString *_language;
-    NSNumber *_startTime;
-    NSNumber *_endTime;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id)@"CKDPResponseOperationResult"24;
 - (unsigned long long);
-- (void);
+- (void)(;
 - (_Bool);
+- (void)a;
 - (void);
-- (void);
+- (id)metadataItemsFromArray:withKey:keySpace: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (void);
-- (void)ts:(id)arg1 count: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)countByEnumeratingWithState:(id)arg1 objects:count: /* Error: Ran out of types for this method. */;
 - (id)video/ogg;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *endTime; // @synthesize endTime=_endTime;
-@property(copy, nonatomic) NSString *language; // @synthesize language=_language;
 @property(copy, nonatomic) NSString *lyrics; // @synthesize lyrics=_lyrics;
-@property(retain, nonatomic) NSNumber *startTime; // @synthesize startTime=_startTime;
 
 @end
 

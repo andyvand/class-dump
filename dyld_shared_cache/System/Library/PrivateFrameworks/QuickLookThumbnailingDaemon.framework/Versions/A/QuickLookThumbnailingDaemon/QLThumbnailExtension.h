@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _EXExtensionIdentity;
-
 @interface QLThumbnailExtension
 {
     id identity;
-    _Bool supportsInteractiveThumbnailBadges;
-    void generatorIdentifier;
-    void generatorVersion;
-    double minimumThumbnailDimension;
-    id externalResourcesAccessAllowed;
-    id supportedConcurrencyLevel;
-    id queueLock;
 }
 
 - (_Bool);
@@ -23,20 +14,13 @@
 - (double);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)setHasSpokenNotificationsWhitelistSettings: /* Error: Ran out of types for this method. */;
+- (id)H;
 - (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *debugDescription;
-@property(nonatomic, readonly) _Bool enabled;
-@property(nonatomic, readonly) _EXExtensionIdentity *exIdentity;
-@property(nonatomic, readonly) NSString *generatorIdentifier;
-@property(nonatomic, readonly) NSString *generatorVersion;
-@property(nonatomic, readonly) double minimumThumbnailDimension; // @synthesize minimumThumbnailDimension;
-@property(nonatomic, readonly) _Bool supportsConcurrentRequests;
 @property(nonatomic, readonly) _Bool supportsInteractiveThumbnailBadges; // @synthesize supportsInteractiveThumbnailBadges;
 
 @end

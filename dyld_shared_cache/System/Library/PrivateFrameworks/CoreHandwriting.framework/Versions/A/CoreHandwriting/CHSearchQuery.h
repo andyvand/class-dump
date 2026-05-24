@@ -6,34 +6,28 @@
 
 #import <CoreHandwriting/CHQuery.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CHSearchQuery : CHQuery
 {
     _Bool _caseMatchingOnly;
-    _Bool _fullWordsOnly;
-    NSArray *_foundItems;
-    NSString *_queryString;
 }
 
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
+- (void)c;
+- (id)c;
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (void);
+- (_Bool);
 - (id);
+- (void);
+- (void);
+- (id);
 - (void)Ô;
 
 // Remaining properties
-@property(nonatomic) _Bool caseMatchingOnly; // @synthesize caseMatchingOnly=_caseMatchingOnly;
-@property(readonly, copy, nonatomic) NSArray *foundItems;
-@property(nonatomic) _Bool fullWordsOnly; // @synthesize fullWordsOnly=_fullWordsOnly;
 @property(copy, nonatomic) NSString *queryString; // @synthesize queryString=_queryString;
 
 @end

@@ -6,28 +6,23 @@
 
 #import <SafariShared/WBSRetryableCKOperation.h>
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface WBSRetryableCKFetchShareMetadataOperation : WBSRetryableCKOperation
 {
     _Bool _shouldFetchRootRecord;
-    NSArray *_shareURLs;
-    NSDictionary *_shareInvitationTokensByShareURL;
-    NSArray *_rootRecordDesiredKeys;
-    CDUnknownBlockType _perShareMetadataBlock;
-    CDUnknownBlockType _fetchShareMetadataCompletionBlock;
 }
 
 - (void);
 - (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (CDUnknownBlockType);
+- (_Bool)D as the treatment ID:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)astFactorLevels object for rollout:%{public}@ deployment:%d, factor-pack:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)iled to open factor pack:(_Bool)arg1 %@;
+- (void)PS ID found trying to resolve factors state %@;
+- (void)actor removal.;
+- (void)dateMLRuntimeEvaluationId(NSString * _Nonnull __strong);
+- (id)eName:queue:usingBlock:] /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)tation;
 - (CDUnknownBlockType);
 - (id);
 - (void);
@@ -35,12 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType fetchShareMetadataCompletionBlock; // @synthesize fetchShareMetadataCompletionBlock=_fetchShareMetadataCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType perShareMetadataBlock; // @synthesize perShareMetadataBlock=_perShareMetadataBlock;
-@property(copy, nonatomic) NSArray *rootRecordDesiredKeys; // @synthesize rootRecordDesiredKeys=_rootRecordDesiredKeys;
-@property(copy, nonatomic) NSDictionary *shareInvitationTokensByShareURL; // @synthesize shareInvitationTokensByShareURL=_shareInvitationTokensByShareURL;
 @property(copy, nonatomic) NSArray *shareURLs; // @synthesize shareURLs=_shareURLs;
-@property(nonatomic) _Bool shouldFetchRootRecord; // @synthesize shouldFetchRootRecord=_shouldFetchRootRecord;
 
 @end
 

@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCEdgeCacheHint, NSArray, NSObject;
+@class NSObject;
 @protocol NSCopying;
 
 @interface FCFeedPrewarmRequest
 {
     NSObject<NSCopying> *_requestKey;
-    NSArray *_feedRequests;
-    long long _options;
-    FCEdgeCacheHint *_edgeCacheHint;
 }
 
 - (id);
@@ -23,13 +20,10 @@
 - (_Bool);
 - (id);
 - (id);
-- (id)ken: /* Error: Ran out of types for this method. */;
+- (id)initWithFilePath:holdToken: /* Error: Ran out of types for this method. */;
 - (void)ry/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCUserEventHistoryStorage.m;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) FCEdgeCacheHint *edgeCacheHint; // @synthesize edgeCacheHint=_edgeCacheHint;
-@property(readonly, copy, nonatomic) NSArray *feedRequests; // @synthesize feedRequests=_feedRequests;
-@property(readonly, nonatomic) long long options; // @synthesize options=_options;
 @property(readonly, copy, nonatomic) NSObject<NSCopying> *requestKey; // @synthesize requestKey=_requestKey;
 
 @end

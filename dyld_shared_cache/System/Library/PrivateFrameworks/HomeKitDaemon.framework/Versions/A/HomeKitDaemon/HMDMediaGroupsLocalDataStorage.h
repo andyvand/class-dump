@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDMediaGroupsAggregatorBackupSender, NSArray, NSMutableDictionary, NSString, NSUUID;
-@protocol HMDMediaGroupsLocalDataStorageDataSource;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDMediaGroupsLocalDataStorage
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_groups;
-    NSMutableDictionary *_participantAccessoryUUIDToAssociatedGroupIdentifier;
-    id <HMDMediaGroupsLocalDataStorageDataSource> _dataSource;
-    NSUUID *_identifier;
-    HMDMediaGroupsAggregatorBackupSender *_backupDataSender;
 }
 
 + (id)eÿ+ì¢ wB;
@@ -25,24 +19,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (void)Container"16@"NSArray"24@"NSArray"32q40@"<NSObject><NSCopying>"48;
+- (void)D"16@0:(id)arg1 8;
+- (id)showTrafficIncidentAlertWithID:(id)arg1 withReroute:(id)arg2 title:description: /* Error: Ran out of types for this method. */;
+- (id)showSharedTripNotification:(id)arg1 ofType:forState: /* Error: Ran out of types for this method. */;
+- (id)cancel;
+- (id)ailable:(id)arg1 ];
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (id);
+- (id);
+- (void)h;
+- (void);
+- (id)requiresAudioMix;
 - (void);
 - (void);
 - (void);
@@ -52,17 +46,7 @@ __attribute__((visibility("hidden")))
 - (id).Event;
 
 // Remaining properties
-@property(readonly) HMDMediaGroupsAggregatorBackupSender *backupDataSender; // @synthesize backupDataSender=_backupDataSender;
-@property __weak id <HMDMediaGroupsLocalDataStorageDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSArray *groups;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly) Class superclass;
 
 @end
 

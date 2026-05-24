@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id)ize;
-- (void);
+- (id)desiredFontSize;
+- (void)So35NSDiffableDataSourceSectionSnapshotC;
 - (void)¾];
 
 @end

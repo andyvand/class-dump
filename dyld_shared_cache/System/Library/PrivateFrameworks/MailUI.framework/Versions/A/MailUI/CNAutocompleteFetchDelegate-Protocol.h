@@ -5,5 +5,8 @@
 //
 
 @protocol CNAutocompleteFetchDelegate
+
+@optional
+- (long long (^)(id, id));
 @end
 

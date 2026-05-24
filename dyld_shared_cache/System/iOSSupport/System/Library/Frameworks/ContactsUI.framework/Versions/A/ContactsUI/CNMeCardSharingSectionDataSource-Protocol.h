@@ -4,7 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol CNMeCardSharingSectionDataSource
+- (NSString *)a;
+
+@optional
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long selectedIndex;

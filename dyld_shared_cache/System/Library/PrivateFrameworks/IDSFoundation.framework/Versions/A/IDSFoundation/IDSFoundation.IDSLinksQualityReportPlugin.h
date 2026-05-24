@@ -7,7 +7,6 @@
 @interface IDSFoundation.IDSLinksQualityReportPlugin
 {
     id weakEngine;
-    id name;
 }
 
 @end

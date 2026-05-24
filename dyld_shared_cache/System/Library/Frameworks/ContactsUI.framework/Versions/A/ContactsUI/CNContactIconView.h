@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSView;
+@class NSView;
 @protocol CNContactIconUpdating;
 
 @interface CNContactIconView
 {
     NSView<CNContactIconUpdating> *_representativeView;
-    long long _iconViewAppearance;
 }
 
 + (Class);
@@ -20,7 +19,7 @@
 - (void);
 - (id);
 - (long long);
-- (id);
+- (id)X;
 - (void);
 - (void);
 - (id);
@@ -28,15 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long iconViewAppearance; // @synthesize iconViewAppearance=_iconViewAppearance;
 @property(retain, nonatomic) NSView<CNContactIconUpdating> *representativeView; // @synthesize representativeView=_representativeView;
-@property(readonly) Class superclass;
 
 @end
 

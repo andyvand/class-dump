@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface DODMLASRSchemaDODMLASRUserEditExperimentEndedTier1 : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    NSArray *_confusionPairs;
-    _Bool _hasLinkId;
 }
 
 - (void);
@@ -26,23 +24,20 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool);
+- (id)Client:(id)arg1 capabilities 0x%x;
+- (id)overCurrentErrorCount;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)JRSchemaJRModelInputShapes";
-- (id)VisionPowerState;
+- (id)ORCHSchemaORCHVisionPowerState;
 - (id);
 - (void)%;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *confusionPairs; // @synthesize confusionPairs=_confusionPairs;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
 
 @end

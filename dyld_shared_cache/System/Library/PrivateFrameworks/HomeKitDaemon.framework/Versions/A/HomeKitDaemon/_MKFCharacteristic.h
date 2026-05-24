@@ -6,8 +6,7 @@
 
 #import <HomeKitDaemon/_MKFObject.h>
 
-@class HMDCharacteristicMetadata, MKFCharacteristicDatabaseID, NSArray, NSData, NSDictionary, NSNumber, NSSet, NSString, NSUUID;
-@protocol MKFHome, MKFService;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface _MKFCharacteristic : _MKFObject
@@ -23,34 +22,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)w;
 - (id);
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSData *authorizationData; // @dynamic authorizationData;
-@property(readonly, retain, nonatomic) NSArray *bulletinRegistrations;
-@property(retain, nonatomic) NSSet *bulletinRegistrations_; // @dynamic bulletinRegistrations_;
-@property(readonly, copy, nonatomic) MKFCharacteristicDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *format; // @dynamic format;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <MKFHome> home;
-@property(readonly, copy, nonatomic) NSNumber *instanceID; // @dynamic instanceID;
-@property(copy, nonatomic) NSString *manufacturerDescription; // @dynamic manufacturerDescription;
-@property(readonly, retain, nonatomic) NSArray *notificationRegistrations;
-@property(retain, nonatomic) NSSet *notificationRegistrations_; // @dynamic notificationRegistrations_;
-@property(readonly, copy) NSDictionary *pr_dictionaryRepresentation;
-@property(readonly, copy) HMDCharacteristicMetadata *pr_hapMetadata;
-@property(copy, nonatomic) NSNumber *properties; // @dynamic properties;
-@property(readonly, retain, nonatomic) id <MKFService> service; // @dynamic service;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSUUID *type; // @dynamic type;
-@property(copy, nonatomic) NSString *units; // @dynamic units;
 
 @end
 

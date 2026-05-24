@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, PFPosterLayout;
-@protocol NURenderStatistics;
+@class PFPosterLayout;
 
 @interface _PIPosterLayoutResult
 {
     PFPosterLayout *_layout;
-    NSDictionary *_scores;
 }
 
 - (void);
@@ -21,16 +19,7 @@
 - (void)40@48@?56;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) PFPosterLayout *layout; // @synthesize layout=_layout;
-@property(copy, nonatomic) NSDictionary *scores; // @synthesize scores=_scores;
-@property(readonly) id <NURenderStatistics> statistics;
-@property(readonly) Class superclass;
 
 @end
 

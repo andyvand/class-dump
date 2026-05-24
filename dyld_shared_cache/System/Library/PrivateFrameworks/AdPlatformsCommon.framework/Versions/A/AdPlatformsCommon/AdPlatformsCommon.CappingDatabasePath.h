@@ -9,7 +9,6 @@
 @interface AdPlatformsCommon.CappingDatabasePath
 {
     void databaseName;
-    id directory;
 }
 
 - (id);

@@ -4,27 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHDChart, CHDChartType, CHDData, CHDDataLabel, CHDDataValue, CHDErrorBar, CHDFormula, EDCollection, EDKeyedCollection, NSString, OADGraphicProperties;
+@class CHDChart;
 
 __attribute__((visibility("hidden")))
 @interface CHDSeries
 {
     CHDChart *mChart;
-    CHDChartType *mChartType;
-    unsigned long long mOrder;
-    unsigned long long mStyleIndex;
-    CHDFormula *mName;
-    CHDDataValue *mLastCachedName;
-    CHDData *mValueData;
-    CHDData *mCategoryData;
-    EDKeyedCollection *mDataValuePropertiesCollection;
-    EDCollection *mTrendlinesCollection;
-    CHDErrorBar *mErrorBarX;
-    CHDErrorBar *mErrorBarY;
-    CHDDataLabel *mDefaultDataLabel;
-    OADGraphicProperties *mGraphicProperties;
-    _Bool mDateTimeFormattingFlag;
-    _Bool mHiddenFlag;
 }
 
 + (id);
@@ -32,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -50,17 +35,17 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)_;
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (long long);
 - (unsigned long long);
 - (void);
@@ -69,18 +54,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (unsigned long long)1Â0@ù
 × ;
-- (void)tBiDiOverridden:(id)arg1;
+- (void)setBiDiOverridden:(id)arg1;
 - (void);
-- (void);
+- (void)F;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

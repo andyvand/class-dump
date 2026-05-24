@@ -7,23 +7,12 @@
 @interface NewsFeed.DebugFormatDebuggerSourceViewController
 {
     id sourceFile;
-    id sourceMetrics;
-    id editor;
-    id textView;
-    id scrollView;
-    id $__lazy_storage_$_highlightView;
-    id lineNumberLabel;
-    id edgeView;
-    id edgeViewPadding;
-    id lineAndHighlightSize;
-    id $__lazy_storage_$_charSize;
-    id $__lazy_storage_$_breakpointView;
 }
 
 - (id);
 - (id);
 - (void);
-- (void)er;
+- (void)fetchDeduper;
 - (void)ð$;
 - (void)Üeg¹: / /* Error: Ran out of types for this method. */;
 - (void)Èp@;

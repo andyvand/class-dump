@@ -8,12 +8,6 @@ __attribute__((visibility("hidden")))
 @interface PDFTileSurface
 {
     int tileId;
-    int pageNumber;
-    int tileSize;
-    int tilePadding;
-    int type;
-    struct __IOSurface *ioSurfaceRef;
-    struct CGImage *cgImageRef;
 }
 
 - (void);

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRCameraReaderOutputInternal, NSString;
+@class CRCameraReaderOutputInternal;
 
 @interface CRCameraReaderOutput
 {
@@ -15,17 +15,14 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)kCellularPlanErrorCreatingRequest;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *formattedStringValue;
 @property(retain) CRCameraReaderOutputInternal *objectInternal; // @synthesize objectInternal=_objectInternal;
-@property(readonly) NSString *stringValue;
-@property(readonly) NSString *type;
 
 @end
 

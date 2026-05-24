@@ -6,43 +6,22 @@
 
 #import <AVConference/VCConnection.h>
 
-@class IDSDataChannelLinkContext, NSData, NSString, NSUUID, VCDatagramChannelIDS;
+@class IDSDataChannelLinkContext;
 
 __attribute__((visibility("hidden")))
 @interface VCConnectionIDS : VCConnection
 {
     IDSDataChannelLinkContext *_linkContext;
-    unsigned int _datagramChannelToken;
-    VCDatagramChannelIDS *_datagramChannel;
-    unsigned int _type;
-    int _localCellTech;
-    int _remoteCellTech;
-    int _connectionMTU;
-    int _maxConnectionMTU;
-    unsigned int _uplinkBitrateCap;
-    unsigned int _downlinkBitrateCap;
-    unsigned int _uplinkAudioBitrateCapOneToOne;
-    unsigned int _uplinkBitrateCapOneToOne;
-    _Bool _isLocalDelegated;
-    _Bool _isRemoteDelegated;
-    _Bool _isVirtualRelayLink;
-    _Bool _isQUICPod;
-    unsigned char _localLinkTechnology;
-    unsigned short _pathMTU;
-    NSString *_relayProtocolStackDescription;
-    NSString *_channelDataBaseProtocolStackDescription;
-    _Bool _p2pEncryptionEnabled;
-    _Bool _p2pEncryptionExperimentEnabled;
-    long long _linkConnectionType;
 }
 
-+ (unsigned int);
++ (unsigned int)R;
 + (id);
-+ (id);
++ (id)ki;
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
 - (unsigned short);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -51,12 +30,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (int);
 - (id);
-- (int);
+- (int);
 - (long long);
 - (_Bool);
 - (_Bool);
@@ -71,14 +49,15 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (unsigned int);
 - (id);
-- (int);
+- (int)R
+;
 - (int);
 - (id);
 - (unsigned short);
-- (id);
+- (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (int);
 - (id);
@@ -94,44 +73,7 @@ __attribute__((visibility("hidden")))
 - (id){&;
 
 // Remaining properties
-@property(copy) NSString *channelDataBaseProtocolStackDescription; // @synthesize channelDataBaseProtocolStackDescription=_channelDataBaseProtocolStackDescription;
-@property int connectionMTU;
-@property(readonly) NSUUID *connectionUUID;
-@property(readonly) VCDatagramChannelIDS *datagramChannel; // @synthesize datagramChannel=_datagramChannel;
 @property(readonly) unsigned int datagramChannelToken; // @synthesize datagramChannelToken=_datagramChannelToken;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property unsigned int downlinkBitrateCap; // @synthesize downlinkBitrateCap=_downlinkBitrateCap;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isLocalDelegated; // @synthesize isLocalDelegated=_isLocalDelegated;
-@property(readonly) _Bool isLocalOn5G;
-@property _Bool isQUICPod; // @synthesize isQUICPod=_isQUICPod;
-@property(readonly) _Bool isRemoteDelegated; // @synthesize isRemoteDelegated=_isRemoteDelegated;
-@property(readonly) _Bool isRemoteOn5G;
-@property(readonly) _Bool isVPN;
-@property(readonly) _Bool isVirtualRelayLink; // @synthesize isVirtualRelayLink=_isVirtualRelayLink;
-@property(readonly) _Bool isWifiToWifi;
-@property(readonly) long long linkConnectionType; // @synthesize linkConnectionType=_linkConnectionType;
-@property(readonly) int localConnectionType;
-@property(readonly) NSString *localInterfaceName;
-@property(readonly) NSString *localInterfaceTypeString;
-@property int maxConnectionMTU; // @synthesize maxConnectionMTU=_maxConnectionMTU;
-@property(getter=isP2PEncryptionExperimentEnabled) _Bool p2pEncryptionExperimentEnabled; // @synthesize p2pEncryptionExperimentEnabled=_p2pEncryptionExperimentEnabled;
-@property unsigned short pathMTU; // @synthesize pathMTU=_pathMTU;
-@property(copy) NSString *relayProtocolStackDescription; // @synthesize relayProtocolStackDescription=_relayProtocolStackDescription;
-@property(readonly) NSString *relaySessionToken;
-@property(readonly) int remoteConnectionType;
-@property(readonly) NSString *remoteInterfaceTypeString;
-@property(readonly) _Bool serverIsDegraded;
-@property(readonly) NSData *sharedDigestKey;
-@property(readonly) Class superclass;
-@property(readonly) unsigned int type; // @synthesize type=_type;
-@property unsigned int uplinkAudioBitrateCapOneToOne; // @synthesize uplinkAudioBitrateCapOneToOne=_uplinkAudioBitrateCapOneToOne;
-@property unsigned int uplinkBitrateCap; // @synthesize uplinkBitrateCap=_uplinkBitrateCap;
-@property unsigned int uplinkBitrateCapOneToOne; // @synthesize uplinkBitrateCapOneToOne=_uplinkBitrateCapOneToOne;
 
 @end
 

@@ -10,7 +10,7 @@
 
 + (_Bool);
 + (Class);
-- (id);
+- (id)property %@;
 
 @end
 

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAsset, ILMediaObject, NSError, NSMutableDictionary, NSString;
+@class NSString;
 
 @interface ILMediaBrowserImageManagerLoadAttributesRequest
 {
     NSString *_path;
-    ILMediaObject *_mediaObject;
-    AVAsset *_asset;
-    NSError *_error;
-    _Bool _doneWithMovieLoading;
-    NSMutableDictionary *_cacheInfo;
 }
 
 - (void);
@@ -23,20 +18,15 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)n one should be available;
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)!;
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain) AVAsset *asset; // @synthesize asset=_asset;
-@property(retain) NSMutableDictionary *cacheInfo; // @synthesize cacheInfo=_cacheInfo;
-@property _Bool doneWithMovieLoading; // @synthesize doneWithMovieLoading=_doneWithMovieLoading;
-@property(retain) NSError *error; // @synthesize error=_error;
-@property(retain) ILMediaObject *mediaObject; // @synthesize mediaObject=_mediaObject;
 @property(retain) NSString *path; // @synthesize path=_path;
 
 @end

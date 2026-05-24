@@ -7,8 +7,6 @@
 @interface NewsFeed.DebugSportsScoreDataVisualization
 {
     id selection;
-    id following;
-    id favored;
 }
 
 @end

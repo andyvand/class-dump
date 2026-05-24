@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface GEOSearchFoundationFeedbackListener
 {
     int _uiTarget;
-    NSArray *_mapsResultsIdentifiers;
-    NSArray *_resultCardIdentifiers;
 }
 
-+ (id);
-+ (id);
++ (id)@40d48@56q64d72B80;
++ (id)isOutputDevice:relatedToInputDevice: /* Error: Ran out of types for this method. */;
 + (id);
 - (id);
 - (void);
@@ -23,7 +19,7 @@
 - (void)
 × ;
 - (void);
-- (void)Builder_ConvertToNavigableRoute;
+- (void)_GEODirectionsServiceRequestBuilder_ConvertToNavigableRoute;
 - (void)ïÆÂ ¨P@;
 - (void)£p@=
 ×£p@;
@@ -31,13 +27,7 @@
 ×@Ñ"Ûù~p@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

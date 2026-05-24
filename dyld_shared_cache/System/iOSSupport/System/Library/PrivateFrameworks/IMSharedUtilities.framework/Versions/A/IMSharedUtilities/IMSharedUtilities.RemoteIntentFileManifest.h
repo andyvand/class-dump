@@ -7,9 +7,6 @@
 @interface IMSharedUtilities.RemoteIntentFileManifest
 {
     id delegate;
-    id cacheLimit;
-    id storeURL;
-    id cache;
 }
 
 @end

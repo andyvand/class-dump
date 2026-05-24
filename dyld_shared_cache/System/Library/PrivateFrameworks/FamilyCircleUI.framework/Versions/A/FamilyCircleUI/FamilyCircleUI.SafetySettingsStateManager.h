@@ -7,9 +7,6 @@
 @interface FamilyCircleUI.SafetySettingsStateManager
 {
     id hasShownSafetySettings;
-    id hasCompletedScreenTimeFlow;
-    id passcodeWasLocked;
-    id _showLockAlert;
 }
 
 @end

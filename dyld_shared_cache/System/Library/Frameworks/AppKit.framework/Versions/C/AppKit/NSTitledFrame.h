@@ -6,13 +6,9 @@
 
 #import <AppKit/NSFrameView.h>
 
-@class NSDocumentDragButton;
-
 @interface NSTitledFrame : NSFrameView
 {
     long long resizeFlags;
-    NSDocumentDragButton *fileButton;
-    struct CGSize titleCellSize;
 }
 
 + (double);
@@ -21,43 +17,45 @@
 + (double);
 + (struct CGSize);
 + (struct CGSize);
-+ (struct CGRect);
-+ (struct CGRect);
-+ (double);
-+ (double);
++ (struct CGRect);
++ (struct CGRect)xy.framework/Versions/A/NetworkServiceProxy;
++ (double)SessionAVAssetDownloadTask in a non-background session;
++ (double)
+)8
+)8;
 + (double);
 + (struct CGSize);
 + (double);
 + (double);
 + (double);
 + (double);
-+ (double);
-+ (double);
++ (double);
++ (double);
 + (double);
 + (double);
 + (_Bool);
 + (void)5"H;
-- (_Bool);
-- (double);
-- (id);
-- (_Bool);
-- (struct CGRect);
-- (struct CGRect);
-- (id);
-- (id);
-- (id);
-- (void);
+- (_Bool)iled to decode 'aptk';
+- (double));
+- (id)qC9+75568xA1E3I+r+dg;
+- (_Bool)N+suOIwkPvg;
+- (struct CGRect)ot70pYg;
+- (struct CGRect)fkWvcjYnYzGRhVKiBoYzgA;
+- (id)cBy4BcYs5YWtFHbBpt4C6A;
+- (id)MWduuAGptrl7qIzWqBmOqQ;
+- (id)KIU2+6yTgQg;
+- (void)E9a3UzlfYjWEB9viQCHNAA;
 - (struct CGSize);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (long long);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (struct CGSize);
 - (struct CGSize);
 - (id);
@@ -66,7 +64,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (struct CGPoint);
+- (struct CGPoint)-;
 - (double);
 - (double);
 - (double);
@@ -86,44 +84,44 @@
 - (double);
 - (double);
 - (double);
+- (double);
+- (double);
+- (double)L;
 - (double);
 - (double);
-- (double);
-- (double);
-- (double);
-- (double);
+- (double)h;
 - (struct CGRect);
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (struct CGPoint);
-- (_Bool);
+- (_Bool)op:(id)arg1 %{bool}d);
+- (_Bool)es:(id)arg1 %zu);
+- (void)ntered bidirectional stream limit updated event;
+- (struct CGPoint)onnection %llu:generating ENOTCONN, since in an error state with no error and no connection /* Error: Ran out of types for this method. */;
+- (_Bool)or is removable %@, falling back to in memory alt-svc storage:(id)arg1 %@;
 - (void);
 - (id);
-- (double);
+- (double)`;
 - (double);
 - (double);
 - (double);
 - (struct CGPoint);
 - (struct CGPoint);
 - (void);
-- (struct CGRect);
-- (struct CGRect);
-- (double);
-- (double);
-- (void);
-- (void);
-- (struct CGRect);
-- (struct CGRect);
+- (struct CGRect)*16;
+- (struct CGRect)_kCFHTTPCookiePolicyPropertyIsSafeRequest;
+- (double)s;
+- (double)storage %p, session %p, persistent %p;
+- (void)rage@%p<%p> { session %p, persistent %p };
+- (void)ntication required;
+- (struct CGRect)wed;
+- (struct CGRect)forbidden;
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)_blockSecondary;
 - (void)0:(id)arg1 8@16I24I28i32i36I40I44I48;
-- (void)postID;
-- (struct CGRect)ontroller;
+- (void)_signpostID;
+- (struct CGRect)_NSFullScreenModalStackController;
 - (void)|åZÿø¤<ë@;
 - (void)îC;
 

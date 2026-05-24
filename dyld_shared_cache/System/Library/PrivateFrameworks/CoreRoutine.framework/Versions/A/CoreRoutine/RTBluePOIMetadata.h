@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSUUID;
+@class NSUUID;
 
 @interface RTBluePOIMetadata
 {
     NSUUID *_identifier;
-    NSArray *_categoryDenyList;
-    NSData *_geoCacheInfo;
-    NSDictionary *_modelCalibrationParameters;
 }
 
 @end

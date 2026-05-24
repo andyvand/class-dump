@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSFileProviderDomain;
+@class NSFileProviderDomain;
 
 @interface UnknownClass (Private)
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property(readonly) NSArray *FPDomainItem;
 @property(readonly) NSFileProviderDomain *domain; // @dynamic domain;
 @end
 

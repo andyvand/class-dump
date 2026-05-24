@@ -5,5 +5,6 @@
 //
 
 @protocol PXGDisplayAssetPixelBufferSourcesProvider
+- (_Bool)˪c;
 @end
 

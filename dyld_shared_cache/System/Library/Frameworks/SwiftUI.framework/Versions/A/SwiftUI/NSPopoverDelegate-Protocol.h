@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSNotification;
+
 @protocol NSPopoverDelegate
+
+@optional
+- (void));
+- (_Bool);
+- (void)fetchCredentialIdentitiesForService:(NSNotification *)arg1 serviceIdentifierType:credentialIdentityTypes:completion: /* Error: Ran out of types for this method. */;
 @end
 

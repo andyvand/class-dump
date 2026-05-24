@@ -6,14 +6,11 @@
 
 #import <PhotosUICore/PXAction.h>
 
-@class NSDictionary, PXCinematicEditController;
+@class PXCinematicEditController;
 
 @interface PXEditAppliedCinematicStateAction : PXAction
 {
     PXCinematicEditController *_cinematicController;
-    NSDictionary *_sourceCinematographyState;
-    NSDictionary *_targetCinematographyState;
-    CDUnknownBlockType _changeBlock;
 }
 
 - (void);

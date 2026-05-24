@@ -13,11 +13,11 @@
 
 - (id);
 - (id);
-- (id);
+- (id)c;
 - (void);
+- (id);
 - (id);
-- (id);
-- (void)putHueTarget: /* Error: Ran out of types for this method. */;
+- (void)setInputHueTarget: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NURuleSystem *system; // @synthesize system=_system;

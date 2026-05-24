@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayerItemErrorLog, NSArray, NSData;
+@class AVPlayerItemErrorLog, NSData;
 
 @interface MPMovieErrorLog
 {
@@ -19,9 +19,7 @@
 - (void)entationSize;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *events;
 @property(readonly, nonatomic) NSData *extendedLogData;
-@property(readonly, nonatomic) unsigned long long extendedLogDataStringEncoding;
 
 @end
 

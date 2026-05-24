@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     NSArray *_replacementElements;
 }
 
-- (id);
-- (void);
+- (id)MessageGUID:associatedMessageType:associatedMessageRange:messageSummaryInfo:threadIdentifier: /* Error: Ran out of types for this method. */;
+- (void)to send.;
 - (void)à];
 
 // Remaining properties

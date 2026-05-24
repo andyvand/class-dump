@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPerformanceEventLogger, MNDispatchTimer, MNSimulatedLocationGenerator, NSMutableArray, NSString;
 @protocol MNLocationProviderDelegate;
 
 __attribute__((visibility("hidden")))
 @interface MNSimulationLocationProvider
 {
     id <MNLocationProviderDelegate> _delegate;
-    MNDispatchTimer *_locationUpdateTimer;
-    long long _simulationType;
-    MNSimulatedLocationGenerator *_locationGenerator;
-    _Bool _simulateGeoFences;
-    NSMutableArray *_monitoredGeoFences;
-    NSMutableArray *_currentGeoFences;
-    double _updateIntervalSpeedMultiplier;
-    GEOPerformanceEventLogger *_performanceEventLogger;
 }
 
 - (void);
@@ -29,17 +20,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)TextEditingCommands;
 - (id);
-- (void);
+- (void)@;
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
-- (double);
+- (void)@;
+- (double)EATimeSyncInfoMeasurementInterval;
 - (void)1Â0@ù
 × ;
 - (void)aÐ!EùQÐ1Â0@ù
@@ -47,9 +38,9 @@ __attribute__((visibility("hidden")))
 - (void)6d32d40d48d56i64;
 - (void)ProviderDelegate>"16;
 - (_Bool)navigationServiceWillResumeFromPause: /* Error: Ran out of types for this method. */;
-- (void)alTimeTransitUpdateManager;
+- (void)_realTimeTransitUpdateManager;
 - (void)SUUID",N,R;
-- (void)NArrivalRegionTimer;
+- (void)MNArrivalRegionTimer;
 - (void) ;
 - (void)ably a server error. Full ETAU response:%@ /* Error: Ran out of types for this method. */;
 - (double)cationTracker _handleWaypointRerouteForLocation:] /* Error: Ran out of types for this method. */;
@@ -87,26 +78,10 @@ CREATE VIEW route_creation_actions_view AS
     FROM
         custom_route_creation_actions;
 ;
-- (void)inate2D;
+- (void)GEOLocationCoordinate2D;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool coarseModeEnabled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MNLocationProviderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double expectedGpsUpdateInterval;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int headingOrientation;
-@property(readonly, nonatomic) _Bool isAuthorized;
-@property(readonly, nonatomic) _Bool isTracePlayer;
 @property(nonatomic) double speedOverride;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double timeScale;
-@property(readonly, nonatomic) unsigned long long traceVersion;
-@property(nonatomic) double updateIntervalSpeedMultiplier; // @synthesize updateIntervalSpeedMultiplier=_updateIntervalSpeedMultiplier;
 
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol PKDrawingGestureRecognizerDelegate
+
+@optional
+- (void);
 @end
 

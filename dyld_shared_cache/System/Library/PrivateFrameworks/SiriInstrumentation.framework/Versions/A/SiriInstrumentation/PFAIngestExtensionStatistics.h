@@ -6,20 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PFAIngestExtensionStatistics : SISchemaInstrumentationMessage
 {
     NSString *_bundleId;
-    int _result;
-    unsigned int _messageCount;
-    unsigned int _missingTimestampCount;
-    struct {
-        unsigned int result:1;
-        unsigned int messageCount:1;
-        unsigned int missingTimestampCount:1;
-    } _has;
-    _Bool _hasBundleId;
 }
 
 - (void);
@@ -39,31 +30,23 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (_Bool);
+- (id)reminderAlertCount;
+- (_Bool)tIndex:(id)arg1 %@;
 - (id);
 - (id)!Gù±Ý1Â0@ù
 × ;
 - (_Bool)viceCohortsReported";
-- (void)cFinished:(id)arg1;
-- (void)itiveInt:(_Bool)arg1;
-- (id)ePrompted;
+- (void)setHasVoiceProfileICloudSyncFinished:(id)arg1;
+- (void)setHasPrimitiveInt:(_Bool)arg1;
+- (id)_hasLastWhenRePrompted;
 - (_Bool)eModelEnrollmentDurationInMs;
 - (id),V_hasActionPromptForValueContext;
 - (int)¬'X(Ü(t+(.4/;
-- (void)ASON_ADVERTISEMENT_MITIGATION;
-- (void)BERATIONEVENTTYPE_PHONETIC_ALTERNATIVES_GENERATED;
+- (void)SERVERGENERATEDDISMISSALREASON_ADVERTISEMENT_MITIGATION;
+- (void)ASRRESCORINGDELIBERATIONEVENTTYPE_PHONETIC_ALTERNATIVES_GENERATED;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(nonatomic) _Bool hasBundleId; // @synthesize hasBundleId=_hasBundleId;
-@property(nonatomic) _Bool hasMessageCount;
-@property(nonatomic) _Bool hasMissingTimestampCount;
-@property(nonatomic) _Bool hasResult;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int messageCount; // @synthesize messageCount=_messageCount;
-@property(nonatomic) unsigned int missingTimestampCount; // @synthesize missingTimestampCount=_missingTimestampCount;
-@property(nonatomic) int result; // @synthesize result=_result;
 
 @end
 

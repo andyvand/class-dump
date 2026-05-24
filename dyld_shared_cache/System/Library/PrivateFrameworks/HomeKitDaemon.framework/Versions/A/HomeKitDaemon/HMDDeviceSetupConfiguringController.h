@@ -4,31 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAppleMediaAccessoryDiagnosticInfoController, NSObject, NSString, RPCompanionLinkClient;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDDeviceSetupConfiguringController
 {
     NSObject<OS_dispatch_queue> *_workQueue;
-    CDUnknownBlockType _rpCompanionLinkClientFactory;
-    HMDAppleMediaAccessoryDiagnosticInfoController *_diagnosticInfoController;
-    RPCompanionLinkClient *_client;
-    unsigned long long _requestIDRegistrationDelay;
-    unsigned long long _restartRPClientDelay;
 }
 
 + (id)ÿpÍ;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (unsigned long long);
-- (unsigned long long);
-- (void);
-- (void);
+- (void)pushDaemonProxyReceivedNotificationData:forType:recordIdentifier: /* Error: Ran out of types for this method. */;
+- (void)endRouteCoordinate;
+- (void)clearBlockedTripIdentifiers;
+- (void)affectedEntitiesCount;
+- (void)GEONavigationListenerPrivateDelegate;
+- (CDUnknownBlockType)destinations %@;
+- (unsigned long long)e;
+- (unsigned long long)blic}@] _needToSendETARefresh for %{private}@:NO, interval is < 0 /* Error: Ran out of types for this method. */;
+- (void)MSPContainerClearDiscardableData;
+- (void)synced marker file:(id)arg1 %@;
 - (id);
 - (id);
 - (id);
@@ -36,7 +31,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -49,18 +44,6 @@ __attribute__((visibility("hidden")))
 - (void)ve automation deletions detected;
 
 // Remaining properties
-@property(retain, nonatomic) RPCompanionLinkClient *client; // @synthesize client=_client;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) HMDAppleMediaAccessoryDiagnosticInfoController *diagnosticInfoController; // @synthesize diagnosticInfoController=_diagnosticInfoController;
-@property(readonly) unsigned long long hash;
-@property unsigned long long requestIDRegistrationDelay; // @synthesize requestIDRegistrationDelay=_requestIDRegistrationDelay;
-@property unsigned long long restartRPClientDelay; // @synthesize restartRPClientDelay=_restartRPClientDelay;
-@property(copy, nonatomic) CDUnknownBlockType rpCompanionLinkClientFactory; // @synthesize rpCompanionLinkClientFactory=_rpCompanionLinkClientFactory;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

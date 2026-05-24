@@ -7,21 +7,19 @@
 @interface MLOptimizationHints
 {
     long long _reshapeFrequency;
-    long long _specializationStrategy;
-    double _hotHandDuration;
 }
 
 + (_Bool);
-- (long long);
-- (void);
-- (void);
-- (void);
+- (long long)TextureBuffer1dType;
+- (void)GeometryIntersectionFunctionTableOffsetArg;
+- (void)BarycentricCoordArg;
+- (void)WorkgroupMaxSizeFnAttr;
+- (id)ndex (%lu) must be < %lu.;
+- (long long)ubscript:] /* Error: Ran out of types for this method. */;
+- (double);
 - (id);
-- (long long);
-- (double);
 - (id);
-- (id);
-- (id);
+- (id)->OnStreamsResetPerformed(...):Outgoing stream reset /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -30,8 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) double hotHandDuration; // @synthesize hotHandDuration=_hotHandDuration;
-@property(nonatomic) long long reshapeFrequency; // @synthesize reshapeFrequency=_reshapeFrequency;
-@property(nonatomic) long long specializationStrategy; // @synthesize specializationStrategy=_specializationStrategy;
 
 @end
 

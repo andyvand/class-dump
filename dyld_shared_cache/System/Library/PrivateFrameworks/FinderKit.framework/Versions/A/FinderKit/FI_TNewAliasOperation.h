@@ -10,18 +10,6 @@ __attribute__((visibility("hidden")))
 @interface FI_TNewAliasOperation : FI_TRenameOperation
 {
     struct unordered_map<TFENode, std::vector<std::pair<TFENode, TFENodePropertyList>>, std::hash<TFENode>, std::equal_to<TFENode>, std::allocator<std::pair<const TFENode, std::vector<std::pair<TFENode, TFENodePropertyList>>>>> _recordsTable;
-    struct __hash_map_const_iterator<std::__hash_const_iterator<std::__hash_node<std::__hash_value_type<TFENode, std::vector<std::pair<TFENode, TFENodePropertyList>>>, void *>*>> {
-        struct __hash_const_iterator<std::__hash_node<std::__hash_value_type<TFENode, std::vector<std::pair<TFENode, TFENodePropertyList>>>, void *>*> {
-            void *__node_;
-        } __i_;
-    } _recordsTableIter;
-    struct __wrap_iter<const std::pair<TFENode, TFENodePropertyList>*> {
-        void *__i_;
-    } _recordIter;
-    _Bool _addAliasSuffix;
-    _Bool _creatingAliasInPBF;
-    _Bool _isRenaming;
-    _Bool _redirectedToDesktop;
 }
 
 + (id);

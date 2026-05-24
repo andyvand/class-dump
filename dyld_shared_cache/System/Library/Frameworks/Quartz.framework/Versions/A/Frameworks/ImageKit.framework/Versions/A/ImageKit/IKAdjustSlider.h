@@ -10,9 +10,9 @@
 {
 }
 
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)6;
+- (void);
+- (void);
 
 @end
 

@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDCompositeSettingIntegerConstraint
 {
     long long _min;
-    long long _max;
-    long long _step;
 }
 
 - (id);
@@ -21,16 +17,7 @@ __attribute__((visibility("hidden")))
 - (long long)Û¢TA?;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) long long max; // @synthesize max=_max;
 @property(readonly) long long min; // @synthesize min=_min;
-@property(readonly) long long step; // @synthesize step=_step;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SMUserMatch
 {
     _Bool _isAdmin;
-    _Bool _isFileVaultEnabled;
-    double _confidenceScore;
-    NSString *_matchReason;
-    NSString *_displayName;
-    NSString *_shortName;
-    long long _uid;
 }
 
 - (id);
@@ -31,12 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) double confidenceScore; // @synthesize confidenceScore=_confidenceScore;
-@property(readonly, copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) _Bool isAdmin; // @synthesize isAdmin=_isAdmin;
-@property(readonly, nonatomic) _Bool isFileVaultEnabled; // @synthesize isFileVaultEnabled=_isFileVaultEnabled;
-@property(readonly, copy, nonatomic) NSString *matchReason; // @synthesize matchReason=_matchReason;
-@property(readonly, copy, nonatomic) NSString *shortName; // @synthesize shortName=_shortName;
-@property(readonly, nonatomic) long long uid; // @synthesize uid=_uid;
 
 @end
 

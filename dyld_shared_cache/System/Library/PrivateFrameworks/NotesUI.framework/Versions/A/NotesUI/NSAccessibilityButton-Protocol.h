@@ -4,9 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NSAccessibilityButton
-- (NSString *);
+- (_Bool);
 @end
 

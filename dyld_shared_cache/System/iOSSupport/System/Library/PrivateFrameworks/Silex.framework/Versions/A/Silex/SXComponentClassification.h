@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, SXComponentLayoutRules, SXComponentTextRules;
+@class NSArray, SXComponentLayoutRules;
 
 @interface SXComponentClassification
 {
     SXComponentLayoutRules *_layoutRules;
-    SXComponentTextRules *_textRules;
-    NSArray *_defaultStyleIdentifiers;
 }
 
 + (void);
@@ -26,7 +24,7 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -39,12 +37,7 @@
 - (void)out";
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long contentRelevance;
-@property(readonly, nonatomic) NSArray *defaultComponentStyleIdentifiers;
 @property(readonly, nonatomic) NSArray *defaultStyleIdentifiers; // @synthesize defaultStyleIdentifiers=_defaultStyleIdentifiers;
-@property(readonly, nonatomic) NSArray *defaultTextStyleIdentifiers;
-@property(readonly, nonatomic) SXComponentLayoutRules *layoutRules; // @synthesize layoutRules=_layoutRules;
-@property(readonly, nonatomic) SXComponentTextRules *textRules; // @synthesize textRules=_textRules;
 
 @end
 

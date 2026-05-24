@@ -4,40 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INImage, NSArray, NSDictionary, NSNumber, NSString;
+@class NSString;
 
 @interface _PSSuggestionTemplate
 {
     NSString *_bundleID;
-    NSString *_interactionRecipients;
-    INImage *_image;
-    NSString *_groupName;
-    NSArray *_recipientContactIDs;
-    NSArray *_recipientEmailAddresses;
-    NSArray *_recipientPhoneNumbers;
-    NSArray *_recipientDisplayNames;
-    NSDictionary *_contactIdToHandleMapping;
-    NSDictionary *_handleToDisplayNameMapping;
-    NSString *_reason;
-    NSString *_reasonType;
-    NSNumber *_modelScore;
 }
 
+- (id)_hasDictationAlternativesPresent;
+- (id)_hasAsrOutputToUserEdit;
+- (id)_hasAsrEuclidEmbedding;
+- (id)_hasAsrAudioConfigureStarted;
+- (id)_flightsCount;
+- (id)_enrollmentUtteranceCount;
+- (id)_enrollmentId;
+- (id)_enforcer;
+- (id)_curareAppIntentTaskClassificationContext;
+- (id)_commonIndependent;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)dation18_ErrorCodeProtocolP;
 - (id);
 - (id);
 - (id);
@@ -45,18 +33,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(readonly, nonatomic) NSDictionary *contactIdToHandleMapping; // @synthesize contactIdToHandleMapping=_contactIdToHandleMapping;
-@property(readonly, nonatomic) NSString *groupName; // @synthesize groupName=_groupName;
-@property(readonly, nonatomic) NSDictionary *handleToDisplayNameMapping; // @synthesize handleToDisplayNameMapping=_handleToDisplayNameMapping;
-@property(readonly, nonatomic) INImage *image; // @synthesize image=_image;
-@property(readonly, nonatomic) NSString *interactionRecipients; // @synthesize interactionRecipients=_interactionRecipients;
-@property(readonly, copy, nonatomic) NSNumber *modelScore; // @synthesize modelScore=_modelScore;
-@property(readonly, nonatomic) NSString *reason; // @synthesize reason=_reason;
-@property(readonly, nonatomic) NSString *reasonType; // @synthesize reasonType=_reasonType;
-@property(readonly, nonatomic) NSArray *recipientContactIDs; // @synthesize recipientContactIDs=_recipientContactIDs;
-@property(readonly, nonatomic) NSArray *recipientDisplayNames; // @synthesize recipientDisplayNames=_recipientDisplayNames;
-@property(readonly, nonatomic) NSArray *recipientEmailAddresses; // @synthesize recipientEmailAddresses=_recipientEmailAddresses;
-@property(readonly, nonatomic) NSArray *recipientPhoneNumbers; // @synthesize recipientPhoneNumbers=_recipientPhoneNumbers;
 
 @end
 

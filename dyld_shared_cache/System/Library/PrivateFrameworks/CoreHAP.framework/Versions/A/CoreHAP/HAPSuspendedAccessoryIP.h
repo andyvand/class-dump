@@ -6,15 +6,9 @@
 
 #import <CoreHAP/HAPSuspendedAccessory.h>
 
-@class NSArray, NSString;
-
 @interface HAPSuspendedAccessoryIP : HAPSuspendedAccessory
 {
     struct AsyncConnection *_connection;
-    _Bool _shouldWake;
-    NSArray *_wakeTuples;
-    NSString *_dnsName;
-    unsigned long long _timeout;
 }
 
 + (id)pleted with err:%d - MFi Cert %@ /* Error: Ran out of types for this method. */;
@@ -25,19 +19,16 @@
 - (id);
 - (id);
 - (id);
+- (void)itial send queue of %zd messages;
+- (void)ed;
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)7T;
 - (void);
 - (unsigned long long);
 - (void)eStatusWrapper";
 
 // Remaining properties
-@property(retain, nonatomic) NSString *dnsName; // @synthesize dnsName=_dnsName;
-@property(nonatomic) _Bool shouldWake; // @synthesize shouldWake=_shouldWake;
 @property(nonatomic) unsigned long long timeout; // @synthesize timeout=_timeout;
-@property(readonly, nonatomic) NSArray *wakeTuples; // @synthesize wakeTuples=_wakeTuples;
 
 @end
 

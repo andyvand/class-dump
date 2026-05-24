@@ -9,17 +9,15 @@
 @interface OTBottleIDs
 {
     NSArray *_preferredBottleIDs;
-    NSArray *_partialRecoveryBottleIDs;
 }
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain) NSArray *partialRecoveryBottleIDs; // @synthesize partialRecoveryBottleIDs=_partialRecoveryBottleIDs;
 @property(retain) NSArray *preferredBottleIDs; // @synthesize preferredBottleIDs=_preferredBottleIDs;
 
 @end

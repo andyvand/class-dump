@@ -6,14 +6,11 @@
 
 #import <ImageKit/IKScanUIController.h>
 
-@class IKScanUIViewSimple, NSIndexSet;
+@class IKScanUIViewSimple;
 
 @interface IKScanUIControllerSimple : IKScanUIController
 {
     IKScanUIViewSimple *_scanUIViewSimple;
-    NSIndexSet *_supportedDocumentTypes;
-    unsigned long long _documentType;
-    _Bool hasOverviewScanResult;
 }
 
 - (unsigned long long);
@@ -35,7 +32,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)3;
 - (void);
 - (void);
 - (void);
@@ -50,7 +47,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -63,6 +60,9 @@
 - (void);
 - (void);
 - (void);
+- (void)HJ;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -72,10 +72,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)9H;
 - (void);
 - (void);
 - (void);
@@ -85,14 +82,11 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void)geEditDSHandler;
+- (void)IKImageEditDSHandler;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long documentType; // @synthesize documentType=_documentType;
-@property _Bool hasOverviewScanResult; // @synthesize hasOverviewScanResult;
 @property IKScanUIViewSimple *scanUIViewSimple; // @synthesize scanUIViewSimple=_scanUIViewSimple;
-@property(copy) NSIndexSet *supportedDocumentTypes; // @synthesize supportedDocumentTypes=_supportedDocumentTypes;
 
 @end
 

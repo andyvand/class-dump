@@ -12,7 +12,7 @@
 
 + (id);
 + (id);
-+ (id);
++ (id)ons/A/ANEServices;
 - (id);
 - (id);
 

@@ -5,5 +5,6 @@
 //
 
 @protocol CKDeclineSharesOperationCallbacks
+- (void);
 @end
 

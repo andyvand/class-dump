@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
 @protocol PXPlacesGeotaggedItemDataSourceDelegate;
 
 @protocol PXPlacesGeotaggedItemDataSource
+- (id <PXPlacesGeotaggedItemDataSourceDelegate>);
 - (long long)isabled for testing.;
 
 // Remaining properties
-@property(readonly) NSSet *allItems;
 @property __weak id <PXPlacesGeotaggedItemDataSourceDelegate> delegate;
-@property(readonly, nonatomic) long long numberOfItems;
 @end
 

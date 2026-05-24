@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSArray;
 
 @interface RBSTerminateContext
 {
     unsigned char _maximumTerminationResistance;
-    _Bool _preventIfBeingDebugged;
-    unsigned int _exceptionDomain;
-    NSDictionary *_additionalPayload;
-    NSString *_explanation;
-    unsigned long long _reportType;
-    unsigned long long _exceptionCode;
-    NSArray *_attributes;
 }
 
 + (_Bool);
@@ -39,31 +32,16 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)`;
 - (void);
 - (void);
 - (void);
 - (void);
 - (unsigned int);
-- (void);
+- (void)a;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *additionalPayload; // @synthesize additionalPayload=_additionalPayload;
 @property(copy, nonatomic) NSArray *attributes; // @synthesize attributes=_attributes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long exceptionCode; // @synthesize exceptionCode=_exceptionCode;
-@property(nonatomic) unsigned int exceptionDomain; // @synthesize exceptionDomain=_exceptionDomain;
-@property(copy, nonatomic) NSString *explanation; // @synthesize explanation=_explanation;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned char maximumTerminationResistance; // @synthesize maximumTerminationResistance=_maximumTerminationResistance;
-@property(nonatomic) _Bool preventIfBeingDebugged; // @synthesize preventIfBeingDebugged=_preventIfBeingDebugged;
-@property(nonatomic) unsigned long long reportType; // @synthesize reportType=_reportType;
-@property(readonly, nonatomic) _Bool shouldTerminatePlugIns;
-@property(readonly) Class superclass;
 
 @end
 

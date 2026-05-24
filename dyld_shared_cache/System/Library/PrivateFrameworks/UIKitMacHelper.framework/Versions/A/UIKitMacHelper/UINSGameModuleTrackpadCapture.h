@@ -6,18 +6,12 @@
 
 #import <UIKitMacHelper/UINSGameModule.h>
 
-@class NSEvent, NSTimer, UINSTouchAccommodationVisualizer;
+@class UINSTouchAccommodationVisualizer;
 
 __attribute__((visibility("hidden")))
 @interface UINSGameModuleTrackpadCapture : UINSGameModule
 {
     UINSTouchAccommodationVisualizer *_touchVisualizer;
-    _Bool _trackpadCaptured;
-    NSTimer *_captureDebounceTimer;
-    unsigned long long _lastSeenTouchSenderID;
-    NSEvent *_lastTrackPadEvent;
-    id _deactiveNotificationObserver;
-    id _resignKeyNotificationObserver;
 }
 
 + (id);
@@ -37,7 +31,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)t={CGPoint=dd}{CGSize=dd}}32;
 - (void);
 
 // Remaining properties

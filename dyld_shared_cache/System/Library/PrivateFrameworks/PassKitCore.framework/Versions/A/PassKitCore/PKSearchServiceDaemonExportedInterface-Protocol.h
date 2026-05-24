@@ -5,5 +5,8 @@
 //
 
 @protocol PKSearchServiceDaemonExportedInterface
+- (void);
+- (void)(;
+- (void)7@9;
 @end
 

@@ -7,14 +7,6 @@
 @interface TextToSpeech.TTSAudioEffect.Manager
 {
     id $defaultActor;
-    id effects;
-    id specs;
-    id parameterMaps;
-    id propertyMaps;
-    id graphText;
-    id graphParameters;
-    id graphProperties;
-    id _audioUnit;
 }
 
 @end

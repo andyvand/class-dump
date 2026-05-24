@@ -6,8 +6,6 @@
 
 #import <ChatKit/CKDetailsCell.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface CKDetailsLanguageSelectionCell : CKDetailsCell
 {
@@ -17,16 +15,10 @@ __attribute__((visibility("hidden")))
 + (id);
 - (void);
 - (void);
-- (id)ttributedText:(long long)arg1 fitsInRect:(id)arg2;
+- (id)attributedText:(long long)arg1 fitsInRect:(id)arg2;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

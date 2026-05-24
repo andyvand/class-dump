@@ -4,26 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXTextExclusionPathWrapper;
-
 @interface SXTextExclusionPath
 {
     _Bool _fullBleed;
-    int _type;
-    int _lineVerticalAlignment;
-    double _padding;
-    double _verticalAlignmentFactor;
-    NSString *_componentIdentifier;
-    CDUnknownBlockType _startBlock;
-    CDUnknownBlockType _minYBlock;
-    CDUnknownBlockType _completionBlock;
-    SXTextExclusionPathWrapper *_wrapper;
-    struct CGPoint _actualPosition;
-    struct CGPoint _position;
-    struct CGPoint _anchorPoint;
-    struct _NSRange _range;
-    struct UIEdgeInsets _insets;
-    struct CGRect _exclusionRect;
 }
 
 - (id);

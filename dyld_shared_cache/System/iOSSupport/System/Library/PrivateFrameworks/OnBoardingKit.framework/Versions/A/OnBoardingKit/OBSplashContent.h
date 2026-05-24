@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface OBSplashContent
 {
     NSString *_text;
-    NSArray *_bullets;
 }
 
 - (void);
@@ -19,7 +18,6 @@
 - (void);
 
 // Remaining properties
-@property(copy) NSArray *bullets; // @synthesize bullets=_bullets;
 @property(copy) NSString *text; // @synthesize text=_text;
 
 @end

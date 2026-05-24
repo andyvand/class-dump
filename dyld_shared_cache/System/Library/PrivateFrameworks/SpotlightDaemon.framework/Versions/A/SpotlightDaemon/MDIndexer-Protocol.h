@@ -4,9 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CSUserAction, NSString;
 @protocol CSIndexExtensionDelegate;
 
 @protocol MDIndexer
+- (void)handleResidentDeviceAddedOrRemovedNotification:(CSUserAction *)arg1;
+
+@optional
+- (void)handlePrimaryResidentDidBecomeCurrentDeviceWithCompletion:(NSString *)arg1;
+-     // Error parsing type: @"SPCoreSpotlightTask"56@0:8@"NSString"16@"CSSearchQueryContext"24@?<^v@?i{?=(?={?=^vI}{?=^vQ}{?=*Q}{?=*I}*BCSIQTcsiqtdfdq^v)}Q^v>32@?<v@?iQ^{__MDStoreOIDArray=}^{__MDPlistBytes=}@"NSString">40@?<v@?@"NSError">48, name: 
+- (void)b;
+- (void)ry.plist in %s has has older version "%s" than that in %s with version "%s" and but differential update has newer minimum version "%s", preferring built in asset;
+- (void)2+;
+- (void)P writeMix exceeds ringbuffer capacity %d on input streams
+;
+- (void)ure=%s;
+- (void);
 
 // Remaining properties
 @property __weak id <CSIndexExtensionDelegate> extensionDelegate;

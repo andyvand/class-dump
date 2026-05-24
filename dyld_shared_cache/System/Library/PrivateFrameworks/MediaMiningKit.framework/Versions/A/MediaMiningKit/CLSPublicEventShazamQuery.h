@@ -9,27 +9,20 @@
 @interface CLSPublicEventShazamQuery
 {
     id logger;
-    void invalidationTokens;
-    id internalResolvedPublicEventsByTimeLocationTupleIdentifier;
-    id unresolvedRequestByRequestIdentifier;
-    id timeLocationTupleByRequestIdentifier;
-    id radius;
-    id service;
 }
 
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)the user;
 - (void);
-- (void);
+- (void)";
 - (_Bool);
 - (void);
 
 // Remaining properties
 @property(nonatomic, readonly) NSDictionary *invalidationTokens;
-@property(nonatomic, readonly) NSDictionary *resolvedPublicEventsByTimeLocationTupleIdentifier;
 
 @end
 

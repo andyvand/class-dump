@@ -5,5 +5,7 @@
 //
 
 @protocol CDPDeviceCapabilityProvider
+- (_Bool);
+- (_Bool)>",W,V_delegate;
 @end
 

@@ -6,15 +6,9 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class HMFNetworkService, NSObject;
-@protocol HMFNetworkDiagnosticDelegate, OS_dispatch_queue;
-
 @interface HMFNetworkDiagnostic : HMFObject
 {
     _Bool _started;
-    HMFNetworkService *_device;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    id <HMFNetworkDiagnosticDelegate> _delegate;
 }
 
 + (id);
@@ -22,10 +16,10 @@
 × ;
 - (id);
 - (id);
-- (void);
+- (void)#;
 - (id);
 - (id);
-- (void);
+- (void)N;
 - (id);
 - (id);
 - (void);
@@ -37,10 +31,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) __weak id <HMFNetworkDiagnosticDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) HMFNetworkService *device; // @synthesize device=_device;
 @property(nonatomic, getter=isStarted) _Bool started; // @synthesize started=_started;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

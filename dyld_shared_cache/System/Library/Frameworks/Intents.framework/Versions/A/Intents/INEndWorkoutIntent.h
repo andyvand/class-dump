@@ -6,7 +6,7 @@
 
 #import <Intents/INIntent.h>
 
-@class INSpeakableString, NSString;
+@class INSpeakableString;
 
 @interface INEndWorkoutIntent : INIntent
 {
@@ -20,24 +20,17 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)(!;
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)basic_string;
 - (void);
-- (id);
+- (id)7;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, copy) INSpeakableString *workoutName;
 
 @end

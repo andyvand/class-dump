@@ -4,24 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSNumber, NSObject, NSString;
-@protocol OS_dispatch_source;
-
 __attribute__((visibility("hidden")))
 @interface RPSendEntry
 {
     unsigned int _xid;
-    unsigned int _xpcID;
-    CDUnknownBlockType _completion;
-    NSData *_eventData;
-    NSString *_eventID;
-    NSDictionary *_options;
-    unsigned long long _queueTicks;
-    NSString *_requestID;
-    NSDictionary *_request;
-    CDUnknownBlockType _responseHandler;
-    NSObject<OS_dispatch_source> *_timer;
-    NSNumber *_xidObj;
 }
 
 - (unsigned int);
@@ -31,20 +17,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned int);
+- (unsigned int);
 - (void);
 - (CDUnknownBlockType);
 - (id);
+- (id)std::allocator<bool>>={__tree<bool, std::less<bool>, std::allocator<bool>>=^v{?={__tree_end_node<std::__tree_node_base<void *> *>=^v}}{?=Q}}})B}{optional<std::set<std::string>>=(?=c{set<std::string, std::less<std::string>, std::allocator<std::string>>={__tree<std::string, std::less<std::string>, std::allocator<std::string>>=^v{?={__tree_end_node<std::__tree_node_base<void *> *>=^v}}{?=Q}}})B}{optional<std::set<std::string>>=(?=c{set<std::string, std::less<std::string>, std::allocator<std::string>>={__tree<std::string, std::less<std::string>, std::allocator<std::string>>=^v{?={__tree_end_node<std::__tree_node_base<void *> *>=^v}}{?=Q}}})B}{optional<std::set<std::string>>=(?=c{set<std::string, std::less<std::string>, std::allocator<std::string>>={__tree<std::string, std::less<std::string>, std::allocator<std::string>>=^v{?={__tree_end_node<std::__tree_node_base<void *> *>=^v}}{?=Q}}})B}}16@0:8 /* Error: Ran out of types for this method. */;
+- (void)out) fail - data is not assigned as std:(CDUnknownBlockType)arg1:vector<float> /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)h
+;
 - (id);
 - (void);
 - (void);
@@ -52,17 +39,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(copy, nonatomic) NSData *eventData; // @synthesize eventData=_eventData;
-@property(copy, nonatomic) NSString *eventID; // @synthesize eventID=_eventID;
-@property(copy, nonatomic) NSDictionary *options; // @synthesize options=_options;
-@property(nonatomic) unsigned long long queueTicks; // @synthesize queueTicks=_queueTicks;
-@property(copy, nonatomic) NSDictionary *request; // @synthesize request=_request;
-@property(copy, nonatomic) NSString *requestID; // @synthesize requestID=_requestID;
-@property(copy, nonatomic) CDUnknownBlockType responseHandler; // @synthesize responseHandler=_responseHandler;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *timer; // @synthesize timer=_timer;
-@property(nonatomic) unsigned int xid; // @synthesize xid=_xid;
-@property(retain, nonatomic) NSNumber *xidObj; // @synthesize xidObj=_xidObj;
-@property(nonatomic) unsigned int xpcID; // @synthesize xpcID=_xpcID;
 
 @end
 

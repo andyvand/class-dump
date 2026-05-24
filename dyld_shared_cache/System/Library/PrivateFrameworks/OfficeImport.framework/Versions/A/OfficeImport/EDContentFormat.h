@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDString, NSString;
+@class EDString;
 
 __attribute__((visibility("hidden")))
 @interface EDContentFormat
 {
     EDString *mFormatString;
-    unsigned long long mFormatId;
-    _Bool mBuiltIn;
-    _Bool mReferenced;
 }
 
 + (id);
@@ -21,11 +18,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (unsigned long long);
+- (_Bool)	;
+- (unsigned long long)q@";
 - (_Bool);
 - (id);
-- (id);
+- (id)@?0I8^B12;
 - (unsigned long long);
 - (long long);
 - (_Bool);
@@ -34,13 +31,7 @@ __attribute__((visibility("hidden")))
 - (void)ø;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -12,13 +12,13 @@
 }
 
 + (Class);
-- (void);
-- (void);
+- (void);
+- (void)p=;
 - (id);
 - (_Bool);
-- (void);
+- (void)odernSearchIndexerDataSource synapseItemsForObject:(_Bool)arg1 ];
 - (id);
-- (void);
+- (void)tem/Library/Frameworks/WebKit.framework/Versions/A/WebKit;
 - (void)P2(;
 
 // Remaining properties

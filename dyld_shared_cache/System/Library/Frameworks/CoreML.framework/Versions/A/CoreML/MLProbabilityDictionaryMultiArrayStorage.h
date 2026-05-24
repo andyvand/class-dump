@@ -10,10 +10,9 @@ __attribute__((visibility("hidden")))
 @interface MLProbabilityDictionaryMultiArrayStorage
 {
     MLMultiArray *_multiArray;
-    unsigned long long _count;
 }
 
-- (id);
+- (id)specialized;
 - (id);
 - (unsigned long long);
 - (unsigned long long)

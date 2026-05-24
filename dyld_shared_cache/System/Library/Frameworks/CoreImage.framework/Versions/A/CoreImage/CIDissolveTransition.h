@@ -6,21 +6,19 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIDissolveTransition : CIFilter
 {
     CIImage *inputImage;
-    CIImage *inputTargetImage;
-    NSNumber *inputTime;
 }
 
 + (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)A;
 - (void);
 - (id);
 - (void);
@@ -29,8 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) CIImage *inputTargetImage; // @synthesize inputTargetImage;
-@property(retain, nonatomic) NSNumber *inputTime; // @synthesize inputTime;
 
 @end
 

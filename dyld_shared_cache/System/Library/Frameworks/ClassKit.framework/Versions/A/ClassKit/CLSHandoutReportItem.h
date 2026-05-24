@@ -6,50 +6,36 @@
 
 #import <ClassKit/CLSReportItem.h>
 
-@class CLSActivityReport, NSArray, NSDate, NSString;
-
 @interface CLSHandoutReportItem : CLSReportItem
 {
     _Bool _completed;
-    int _type;
-    int _granularity;
-    NSString *_studentID;
-    NSString *_classID;
-    NSString *_handoutID;
-    NSString *_attachmentID;
-    NSString *_reportID;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    unsigned long long _changeHash;
-    CLSActivityReport *_primaryActivityReport;
-    NSArray *_additionalActivityReports;
 }
 
-+ (_Bool);
++ (_Bool)_dataclassActionsForPostCDPSaveForAccount: /* Error: Ran out of types for this method. */;
 - (id);
+- (void)__AUTH_CONST;
+- (void)__DATA_CONST;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
+- (id)orceStop=%d;
+- (id)al program parameter = NULL;
+- (unsigned long long)decomp_data_cache_hit;
+- (id)beat_count_in_64B;
+- (id)dma_src1_read_intra_conflict_cycle;
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)h;
+- (id)s;
 - (void);
 - (_Bool);
 - (int);
 - (void);
-- (id);
+- (id)PrintUtilsTimeDuration;
 - (void);
 - (id);
 - (void);
@@ -62,18 +48,6 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *additionalActivityReports; // @synthesize additionalActivityReports=_additionalActivityReports;
-@property(copy, nonatomic) NSString *attachmentID; // @synthesize attachmentID=_attachmentID;
-@property(readonly, nonatomic) unsigned long long changeHash; // @synthesize changeHash=_changeHash;
-@property(copy, nonatomic) NSString *classID; // @synthesize classID=_classID;
-@property(nonatomic, getter=isCompleted) _Bool completed; // @synthesize completed=_completed;
-@property(retain, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(nonatomic) int granularity; // @synthesize granularity=_granularity;
-@property(copy, nonatomic) NSString *handoutID; // @synthesize handoutID=_handoutID;
-@property(copy, nonatomic) CLSActivityReport *primaryActivityReport; // @synthesize primaryActivityReport=_primaryActivityReport;
-@property(copy, nonatomic) NSString *reportID; // @synthesize reportID=_reportID;
-@property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(copy, nonatomic) NSString *studentID; // @synthesize studentID=_studentID;
 @property(nonatomic) int type; // @synthesize type=_type;
 
 @end

@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDIDSRealTimeEncryptionMembershipChangeEventFirstMKMTimeDelta
 {
     long long _timeDelta;
-    unsigned long long _timestamp;
-    unsigned int _activeParticipantBucket;
-    NSString *_serviceName;
-    CDStruct_6572937b _has;
 }
 
 - (long long);
@@ -23,15 +17,15 @@
 - (_Bool);
 - (_Bool);
 - (unsigned int);
+- (id)@;
+- (void)|�P;
 - (id);
 - (void);
-- (id);
 - (void);
-- (void);
+- (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
@@ -39,17 +33,10 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
-@property(nonatomic) unsigned int activeParticipantBucket; // @synthesize activeParticipantBucket=_activeParticipantBucket;
-@property(nonatomic) _Bool hasActiveParticipantBucket;
-@property(readonly, nonatomic) _Bool hasServiceName;
-@property(nonatomic) _Bool hasTimeDelta;
 @property(nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(nonatomic) long long timeDelta; // @synthesize timeDelta=_timeDelta;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

@@ -16,17 +16,17 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)__gcc_except_tab__TEXT;
 
 @end
 

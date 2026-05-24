@@ -6,20 +6,15 @@
 
 #import <Silex/SXComponent.h>
 
-@class NSString, NSURL;
-
 @interface SXEmbedVideoComponent : SXComponent
 {
 }
 
 + (id);
-- (unsigned long long);
+- (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *URL; // @dynamic URL;
-@property(readonly, nonatomic) NSString *accessibilityCaption; // @dynamic accessibilityCaption;
 @property(readonly, nonatomic) double aspectRatio; // @dynamic aspectRatio;
-@property(readonly, nonatomic) NSString *caption; // @dynamic caption;
 
 @end
 

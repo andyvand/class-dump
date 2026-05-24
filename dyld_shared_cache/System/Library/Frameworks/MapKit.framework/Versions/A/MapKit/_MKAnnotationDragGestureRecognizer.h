@@ -8,12 +8,11 @@ __attribute__((visibility("hidden")))
 @interface _MKAnnotationDragGestureRecognizer
 {
     struct CGPoint _dragLocation;
-    _Bool _hasCustomDragLocation;
 }
 
 - (void);
 - (struct CGPoint);
-- (void);
+- (void)applySettings:(id)arg1;
 - (double);
 
 @end

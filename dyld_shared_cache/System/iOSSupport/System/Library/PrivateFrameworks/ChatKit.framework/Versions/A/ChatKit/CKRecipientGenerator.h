@@ -12,11 +12,11 @@
 }
 
 + (id);
-- (void);
+- (void)defaultParagraphStyleWithWritingDirection:(id)arg1;
 - (id);
+- (id)V_reason;
 - (id);
-- (id);
-- (id);
+- (id)perIdentifierBeforeAttachmentIsSet;
 - (void);
 - (void)èx;
 

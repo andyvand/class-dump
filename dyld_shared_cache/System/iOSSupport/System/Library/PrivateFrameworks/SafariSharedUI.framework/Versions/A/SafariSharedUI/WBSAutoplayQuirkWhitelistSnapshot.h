@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface WBSAutoplayQuirkWhitelistSnapshot
 {
@@ -15,18 +15,12 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)ORDER BY a.ROWID LIMIT ? ;
 - (_Bool);
-- (void)s;
+- (void)languages;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,33 +6,29 @@
 
 #import <HelpKit/HLPRemoteDataController.h>
 
-@class CSPrivateSearchableIndex, CSSearchQuery, HLPHelpBookController, NSArray, NSDictionary, NSMutableArray;
+@class CSPrivateSearchableIndex, CSSearchQuery, NSMutableArray;
 
 @interface HLPHelpSearchIndexController : HLPRemoteDataController
 {
     CSSearchQuery *_spotlightSearchQuery;
     _Bool _useCSSearch;
-    HLPHelpBookController *_helpBookController;
-    NSDictionary *_searchIndex;
-    CSPrivateSearchableIndex *_privateSearchableIndex;
-    NSMutableArray *_spotlightSearchScores;
 }
 
-+ (id);
++ (id)N;
 - (_Bool);
 - (id);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
 - (id);
 - (id);
 - (id);
@@ -40,26 +36,22 @@
 - (void);
 - (id);
 - (id);
-- (double);
+- (double);
+- (id);
+- (void);
+- (id);
+- (id)qN;
+- (void));
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)tical.open;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) HLPHelpBookController *helpBookController; // @synthesize helpBookController=_helpBookController;
 @property(retain, nonatomic) CSPrivateSearchableIndex *privateSearchableIndex; // @synthesize privateSearchableIndex=_privateSearchableIndex;
-@property(retain, nonatomic) NSDictionary *searchIndex; // @synthesize searchIndex=_searchIndex;
-@property(readonly, nonatomic) NSArray *spotlightSearchResults; // @dynamic spotlightSearchResults;
 @property(retain, nonatomic) NSMutableArray *spotlightSearchScores; // @synthesize spotlightSearchScores=_spotlightSearchScores;
-@property(nonatomic) _Bool useCSSearch; // @synthesize useCSSearch=_useCSSearch;
 
 @end
 

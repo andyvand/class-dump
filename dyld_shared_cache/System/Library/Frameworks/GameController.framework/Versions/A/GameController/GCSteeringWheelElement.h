@@ -6,19 +6,9 @@
 
 #import <GameController/_GCDevicePhysicalInputElement.h>
 
-@class NSSet, NSString;
-@protocol GCAxisInput, GCRelativeInput;
-
 @interface GCSteeringWheelElement : _GCDevicePhysicalInputElement
 {
     unsigned long long _sourcesSlot;
-    unsigned long long _maximumDegreesOfRotationSlot;
-    unsigned long long _rotationValueFieldSlot;
-    unsigned long long _valueChangedHandlerSlot;
-    unsigned long long _deltaChangedHandlerSlot;
-    unsigned long long _valueSlot;
-    unsigned long long _deltaSlot;
-    unsigned long long _timestampSlot;
 }
 
 + (unsigned short);
@@ -30,7 +20,7 @@
 - (id);
 - (void);
 - (void);
-- (float);
+- (float)DT;
 - (double);
 - (double);
 - (double);
@@ -40,7 +30,7 @@
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -49,30 +39,7 @@
 - (float)@:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) id <GCAxisInput> absoluteInput;
-@property(readonly, copy) NSSet *aliases;
-@property(readonly, getter=isAnalog) _Bool analog;
-@property(readonly) _Bool canWrap;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) float delta;
-@property(copy) CDUnknownBlockType deltaDidChangeHandler;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) double lastDeltaLatency;
-@property(readonly) double lastDeltaTimestamp;
-@property(readonly) double lastValueLatency;
-@property(readonly) double lastValueTimestamp;
-@property(readonly, copy) NSString *localizedName;
 @property(readonly) float maximumDegreesOfRotation;
-@property(readonly) id <GCRelativeInput> relativeInput;
-@property(readonly, copy) NSString *sfSymbolsName;
-@property(readonly, copy) NSSet *sources;
-@property(readonly) Class superclass;
-@property(readonly) float value;
-@property(copy) CDUnknownBlockType valueDidChangeHandler;
 
 @end
 

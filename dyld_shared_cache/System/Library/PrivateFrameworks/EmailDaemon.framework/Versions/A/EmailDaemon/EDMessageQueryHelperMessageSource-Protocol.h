@@ -7,6 +7,7 @@
 @class EMQuery;
 
 @protocol EDMessageQueryHelperMessageSource
+- (EMQuery *);
 
 // Remaining properties
 @property(readonly, nonatomic) EMQuery *query;

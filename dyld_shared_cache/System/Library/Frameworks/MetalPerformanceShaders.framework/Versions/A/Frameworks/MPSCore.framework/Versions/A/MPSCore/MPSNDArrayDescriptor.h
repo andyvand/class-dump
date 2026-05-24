@@ -7,21 +7,11 @@
 @interface MPSNDArrayDescriptor
 {
     id _dimensionLengths;
-    id _sliceOffsets;
-    id _sliceLengths;
-    id _dimensionOrder;
-    unsigned long long _numberOfDimensions;
-    unsigned long long _rowBytes;
-    unsigned int _dataType;
-    MPSNDArrayDescriptor *_child;
-    MPSNDArrayDescriptor *_parent;
-    int _transitionOp;
-    _Bool _preferPackedRows;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)cast compatible with broadcasted operands's shapes ;
 - (void);
 - (struct MPSDimensionSlice);
 - (void);
@@ -34,20 +24,17 @@
 - (unsigned long long);
 - (id);
 - (unique_ptr_e50a97f0);
-- (id);
+- (id)Bn	;
 - (id);
 - (void);
-- (unsigned long long);
-- (void);
-- (unsigned long long);
+- (unsigned long long)LM;
+- (void)oth be not NULL;
+- (unsigned long long)(';
 - (void);
 - (unsigned int);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int dataType; // @synthesize dataType=_dataType;
-@property(nonatomic) unsigned long long numberOfDimensions; // @synthesize numberOfDimensions=_numberOfDimensions;
-@property(nonatomic) _Bool preferPackedRows; // @synthesize preferPackedRows=_preferPackedRows;
 @property(nonatomic) unsigned long long rowBytes; // @synthesize rowBytes=_rowBytes;
 
 @end

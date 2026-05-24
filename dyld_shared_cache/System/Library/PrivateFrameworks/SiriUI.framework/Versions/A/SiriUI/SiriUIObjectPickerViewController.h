@@ -10,7 +10,6 @@
 @interface SiriUIObjectPickerViewController
 {
     id <SiriUIObjectPickerViewControllerDelegate> _pickerDelegate;
-    SAUIDomainObjectPicker *_picker;
 }
 
 + (id);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_picker) SAUIDomainObjectPicker *picker; // @synthesize picker=_picker;
-@property(nonatomic) __weak id <SiriUIObjectPickerViewControllerDelegate> pickerDelegate; // @synthesize pickerDelegate=_pickerDelegate;
 
 @end
 

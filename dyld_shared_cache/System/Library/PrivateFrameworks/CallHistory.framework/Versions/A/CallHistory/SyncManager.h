@@ -6,15 +6,12 @@
 
 #import <CallHistory/CHLogger.h>
 
-@class NSString;
-@protocol CHFeatureFlags, CallHistoryDBClientHandleProtocol, TransactionManagerProtocol;
+@protocol CallHistoryDBClientHandleProtocol;
 
 __attribute__((visibility("hidden")))
 @interface SyncManager : CHLogger
 {
     id <CallHistoryDBClientHandleProtocol> _dbHandle;
-    id <CHFeatureFlags> _featureFlags;
-    id <TransactionManagerProtocol> _transactionManager;
 }
 
 - (id);
@@ -25,14 +22,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (long long);
-- (id);
-- (id);
+- (id)thumbnailBytesAtIndex:(id)arg1;
+- (id)_videoDerivativeForVideoAtURL:(id)arg1 outputURL:withPreset:reason:outputFileType: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)A;
 - (id);
-- (void);
-- (double);
-- (double);
+- (void)Є;
+- (double)@;
+- (double);
 - (id);
 - (unsigned long long);
 - (id);
@@ -44,14 +41,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)@;
 - (double);
 - (void);
-- (id);
+- (id)P;
 - (void);
-- (id);
+- (id);
 - (long long);
-- (id);
+- (id)setIsSendCurrentLocation: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id)0@ù
@@ -59,15 +56,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) id <CallHistoryDBClientHandleProtocol> dbHandle; // @synthesize dbHandle=_dbHandle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <CHFeatureFlags> featureFlags; // @synthesize featureFlags=_featureFlags;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <TransactionManagerProtocol> transactionManager; // @synthesize transactionManager=_transactionManager;
 
 @end
 

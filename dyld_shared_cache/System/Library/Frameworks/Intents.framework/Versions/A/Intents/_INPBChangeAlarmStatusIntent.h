@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBAlarmSearch, _INPBIntentMetadata;
+@class _INPBAlarmSearch;
 
 @interface _INPBChangeAlarmStatusIntent
 {
     CDStruct_ae16c3b5 _has;
-    int _operation;
-    _INPBAlarmSearch *_alarmSearch;
-    NSArray *_alarms;
-    _INPBIntentMetadata *_intentMetadata;
 }
 
 + (Class);
 + (_Bool);
 - (void);
-- (id);
+- (id)C;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -27,40 +23,26 @@
 - (id);
 - (void);
 - (int);
-- (void);
-- (id);
+- (void)4;
+- (id)c_object>"I@"NSError">16;
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)FRequestParameters"24@?<v@?@"NSError">32;
+- (void)to update IP config for known network '%{public}@' (error=%{public}@, network=%{public}@);
 - (id);
 - (id);
 - (void);
-- (_Bool)tShortcutsIntent;
-- (void)es;
+- (_Bool)_INPBListShortcutsIntent;
+- (void)alternatives;
 - (id)â0Qeî;
 - (int);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) _INPBAlarmSearch *alarmSearch; // @synthesize alarmSearch=_alarmSearch;
-@property(copy, nonatomic) NSArray *alarms; // @synthesize alarms=_alarms;
-@property(readonly, nonatomic) unsigned long long alarmsCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasAlarmSearch;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasOperation;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(nonatomic) int operation; // @synthesize operation=_operation;
-@property(readonly) Class superclass;
 
 @end
 

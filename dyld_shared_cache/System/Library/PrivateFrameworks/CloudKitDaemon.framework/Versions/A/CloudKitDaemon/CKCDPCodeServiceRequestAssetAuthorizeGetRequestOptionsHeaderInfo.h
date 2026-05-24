@@ -9,19 +9,18 @@
 @interface CKCDPCodeServiceRequestAssetAuthorizeGetRequestOptionsHeaderInfo
 {
     NSString *_headerKey;
-    NSString *_headerValue;
 }
 
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
+- (void)SimulatedCounter3;
 - (void);
+- (unsigned long long)rted;
+- (_Bool);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool)updateAssociationTableForMessageID:(id)arg1 dateSent:conversationID: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -32,9 +31,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasHeaderKey;
-@property(readonly, nonatomic) _Bool hasHeaderValue;
-@property(retain, nonatomic) NSString *headerKey; // @synthesize headerKey=_headerKey;
-@property(retain, nonatomic) NSString *headerValue; // @synthesize headerValue=_headerValue;
 
 @end
 

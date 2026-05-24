@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSArray, NSNumber;
+@class CIImage;
 
 @interface GUBWBilateralConvolution
 {
     CIImage *_inputImage;
-    NSArray *_inputPoints;
-    NSArray *_inputWeights;
-    NSNumber *_inputEdgeDetail;
-    NSNumber *_inputBorder;
 }
 
 + (id);
@@ -20,7 +16,7 @@
 + (id);
 + (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -32,14 +28,10 @@
 - (id);
 - (void);
 - (id);
-- (void)aitV2ExportFilter;
+- (void)oneShotPortraitV2ExportFilter;
 
 // Remaining properties
-@property(retain) NSNumber *inputBorder; // @synthesize inputBorder=_inputBorder;
-@property(retain) NSNumber *inputEdgeDetail; // @synthesize inputEdgeDetail=_inputEdgeDetail;
 @property(retain) CIImage *inputImage; // @synthesize inputImage=_inputImage;
-@property(retain) NSArray *inputPoints; // @synthesize inputPoints=_inputPoints;
-@property(retain) NSArray *inputWeights; // @synthesize inputWeights=_inputWeights;
 
 @end
 

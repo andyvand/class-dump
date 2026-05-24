@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, RGSiriSchemaRGGMSCallEnded, RGSiriSchemaRGGMSCallFailed, RGSiriSchemaRGGMSCallStarted, SISchemaUUID;
+@class RGSiriSchemaRGGMSCallStarted;
 
 @interface RGSiriSchemaRGGMSCallContext : SISchemaInstrumentationMessage
 {
     RGSiriSchemaRGGMSCallStarted *_startedOrChanged;
-    RGSiriSchemaRGGMSCallEnded *_ended;
-    RGSiriSchemaRGGMSCallFailed *_failed;
-    SISchemaUUID *_traceId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    _Bool _hasTraceId;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -27,7 +19,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -39,32 +31,25 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)c;
 - (void);
 - (id);
-- (void);
+- (void)H]H
+?
+j;
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)y/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDDebug_macOS.m:48 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)LETE CASCADE, delete_date INTEGER, ck_sync_state INTEGER DEFAULT 0, PRIMARY KEY (chat_id, message_id), CHECK (delete_date != 0);
 - (id);
-- (id);
-- (id)ddLogOfIntervalUntilStartTimeInSeconds:(id)arg1;
+- (id)W!;
+- (id)addLogOfIntervalUntilStartTimeInSeconds:(id)arg1;
 - (id)TQ,R,N,V_whichPatternitemcontent;
-- (void)ioTopology;
+- (void)audioTopology;
 - (id)éÿ¿;
 
 // Remaining properties
-@property(retain, nonatomic) RGSiriSchemaRGGMSCallEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) RGSiriSchemaRGGMSCallFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(nonatomic) _Bool hasTraceId; // @synthesize hasTraceId=_hasTraceId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) RGSiriSchemaRGGMSCallStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(retain, nonatomic) SISchemaUUID *traceId; // @synthesize traceId=_traceId;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

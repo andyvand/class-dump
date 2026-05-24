@@ -4,9 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HAP2SerializedOperationQueue, HAPDeviceID;
 @protocol HAP2Storage;
 
 @protocol HAP2AccessoryServerBrowserPrivate
+- (HAP2SerializedOperationQueue *)_collaborationType;
+- (void)localZone:(HAPDeviceID *)arg1 didProcessModelUpdate:(void (^)(NSError *))arg2;
+- (id <HAP2Storage>);
 
 // Remaining properties
 @property(readonly, nonatomic) id <HAP2Storage> storage;

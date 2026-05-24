@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol NURenderStatistics;
-
 @interface _PIPosterLayoutPropertiesResult
 {
     unsigned long long _layoutVariant;
-    double _maxClockShift;
-    struct CGRect _adaptiveVisibleFrame;
-    struct CGRect _adaptiveTimeFrame;
-    struct CGRect _visibleFrame;
 }
 
 - (void);
@@ -21,7 +14,7 @@
 - (void);
 - (void);
 - (double);
-- (struct CGRect);
+- (struct CGRect)3;
 - (struct CGRect);
 - (unsigned long long);
 - (id);
@@ -29,19 +22,7 @@
 - (struct CGRect);
 
 // Remaining properties
-@property(nonatomic) struct CGRect adaptiveTimeFrame; // @synthesize adaptiveTimeFrame=_adaptiveTimeFrame;
-@property(nonatomic) struct CGRect adaptiveVisibleFrame; // @synthesize adaptiveVisibleFrame=_adaptiveVisibleFrame;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) unsigned long long layoutVariant; // @synthesize layoutVariant=_layoutVariant;
-@property(nonatomic) double maxClockShift; // @synthesize maxClockShift=_maxClockShift;
-@property(readonly) id <NURenderStatistics> statistics;
-@property(readonly) Class superclass;
-@property(nonatomic) struct CGRect visibleFrame; // @synthesize visibleFrame=_visibleFrame;
 
 @end
 

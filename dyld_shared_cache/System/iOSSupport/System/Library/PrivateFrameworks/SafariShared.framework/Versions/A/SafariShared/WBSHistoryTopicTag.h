@@ -22,7 +22,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)initWithIgnoreCanSendText;
 - (void);
 - (void)08;
 

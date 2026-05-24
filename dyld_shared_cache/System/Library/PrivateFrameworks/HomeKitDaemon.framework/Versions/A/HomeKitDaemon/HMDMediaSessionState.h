@@ -4,20 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDMediaSessionState
 {
     struct os_unfair_lock_s _lock;
-    NSString *_sessionIdentifier;
-    long long _playbackState;
-    long long _shuffleState;
-    long long _repeatState;
-    NSNumber *_volume;
-    NSNumber *_muted;
-    NSString *_mediaUniqueIdentifier;
-    unsigned long long _sleepWakeState;
 }
 
 - (unsigned long long);
@@ -40,25 +30,11 @@ __attribute__((visibility("hidden")))
 - (void)ublic}@[Flow:(id)arg1 %@] Processing attribute report for bleUWBSupportedVersions. Current value bleUWBSupportedVersions:%@, value from attribute report:%@ /* Error: Ran out of types for this method. */;
 - (void)cteristic uniqueIdentifier;
 - (id)ðn÷ÿE;
-- (void)RMED_AWAY;
+- (void)BULLETIN_SECURITY_SYSTEM_ACTION_ARMED_AWAY;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *mediaUniqueIdentifier; // @synthesize mediaUniqueIdentifier=_mediaUniqueIdentifier;
-@property(copy) NSNumber *muted; // @synthesize muted=_muted;
 @property(nonatomic) long long playbackState; // @synthesize playbackState=_playbackState;
-@property(nonatomic) long long repeatState; // @synthesize repeatState=_repeatState;
-@property(readonly, copy, nonatomic) NSString *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
-@property(nonatomic) long long shuffleState; // @synthesize shuffleState=_shuffleState;
-@property(nonatomic) unsigned long long sleepWakeState; // @synthesize sleepWakeState=_sleepWakeState;
-@property(readonly) Class superclass;
-@property(copy) NSNumber *volume; // @synthesize volume=_volume;
 
 @end
 

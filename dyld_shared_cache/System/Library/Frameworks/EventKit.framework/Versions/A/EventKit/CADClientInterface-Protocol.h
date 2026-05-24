@@ -5,5 +5,7 @@
 //
 
 @protocol CADClientInterface
+- (void);
+- (void);
 @end
 

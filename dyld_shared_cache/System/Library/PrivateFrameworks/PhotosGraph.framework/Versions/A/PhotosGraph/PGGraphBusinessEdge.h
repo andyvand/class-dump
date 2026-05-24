@@ -6,17 +6,12 @@
 
 #import <PhotosGraph/PGGraphOptimizedEdge.h>
 
-@class NSDate;
-
 @interface PGGraphBusinessEdge : PGGraphOptimizedEdge
 {
     _Bool _hasRoutineInfo;
-    double _confidence;
-    NSDate *_universalStartDate;
-    NSDate *_universalEndDate;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -26,14 +21,11 @@
 - (id);
 - (id);
 - (double);
-- (_Bool)des;
-- (void)geType;
+- (_Bool)inferredMotherPersonNodes;
+- (void)FaceAgeType;
 
 // Remaining properties
 @property(readonly) double confidence; // @synthesize confidence=_confidence;
-@property(readonly, nonatomic) _Bool hasRoutineInfo; // @synthesize hasRoutineInfo=_hasRoutineInfo;
-@property(readonly, nonatomic) NSDate *universalEndDate; // @synthesize universalEndDate=_universalEndDate;
-@property(readonly, nonatomic) NSDate *universalStartDate; // @synthesize universalStartDate=_universalStartDate;
 
 @end
 

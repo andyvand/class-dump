@@ -7,15 +7,13 @@
 @interface CalLocationAuthorizationStatus
 {
     int _status;
-    unsigned long long _precision;
 }
 
 - (id);
-- (int);
+- (int)d,%lu,%lu);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long precision; // @synthesize precision=_precision;
 @property(readonly, nonatomic) int status; // @synthesize status=_status;
 
 @end

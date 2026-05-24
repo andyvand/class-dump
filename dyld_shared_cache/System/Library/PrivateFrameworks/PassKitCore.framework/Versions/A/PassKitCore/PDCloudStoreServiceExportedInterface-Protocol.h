@@ -5,5 +5,13 @@
 //
 
 @protocol PDCloudStoreServiceExportedInterface
+- (void)(;
+- (void);
+- (void);
+- (void)
+I	)qS$;
+- (void);
+- (void);;
+- (void);
 @end
 

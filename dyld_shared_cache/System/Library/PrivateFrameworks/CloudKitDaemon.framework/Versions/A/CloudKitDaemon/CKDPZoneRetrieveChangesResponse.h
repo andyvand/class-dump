@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray;
+@class NSMutableArray;
 
 @interface CKDPZoneRetrieveChangesResponse
 {
     NSMutableArray *_changedZones;
-    int _status;
-    NSData *_syncContinuationToken;
-    CDStruct_47fe53f2 _has;
 }
 
 + (Class);
-- (id);
+- (id)UsoTaskBuilder_restart_common_SafetySession;
 - (void);
 - (id);
 - (void);
@@ -24,7 +21,7 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -33,20 +30,16 @@
 - (void);
 - (id);
 - (int);
-- (id);
+- (id)P;
 - (id);
 - (id);
 - (_Bool);
-- (void)ype:(_Bool)arg1;
+- (void)needsUserKeySyncToPopulateCurrentIdentityForServiceType:(_Bool)arg1;
 - (int);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *changedZones; // @synthesize changedZones=_changedZones;
-@property(nonatomic) _Bool hasStatus;
-@property(readonly, nonatomic) _Bool hasSyncContinuationToken;
-@property(nonatomic) int status; // @synthesize status=_status;
-@property(retain, nonatomic) NSData *syncContinuationToken; // @synthesize syncContinuationToken=_syncContinuationToken;
 
 @end
 

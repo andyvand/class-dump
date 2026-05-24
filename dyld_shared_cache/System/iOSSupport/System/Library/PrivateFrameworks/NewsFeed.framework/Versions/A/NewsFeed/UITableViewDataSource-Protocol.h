@@ -5,5 +5,10 @@
 //
 
 @protocol UITableViewDataSource
+- (long long);
+
+@optional
+- (void)L(;
+- (long long)articleModalBrandBarConfig;
 @end
 

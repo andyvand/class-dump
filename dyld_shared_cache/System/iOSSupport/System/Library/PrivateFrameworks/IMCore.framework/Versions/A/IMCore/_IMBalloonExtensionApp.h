@@ -6,12 +6,11 @@
 
 #import <IMCore/IMBalloonApp.h>
 
-@class LSPlugInKitProxy, NSExtension;
+@class NSExtension;
 
 @interface _IMBalloonExtensionApp : IMBalloonApp
 {
     NSExtension *_extension;
-    LSPlugInKitProxy *_proxy;
 }
 
 - (_Bool);
@@ -21,13 +20,13 @@
 - (_Bool);
 - (double);
 - (_Bool);
-- (_Bool);
+- (_Bool)\@;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)L;
+- (id)h;
 - (id);
 - (id);
 - (id);
@@ -49,7 +48,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSExtension *extension; // @synthesize extension=_extension;
-@property(retain, nonatomic) LSPlugInKitProxy *proxy; // @synthesize proxy=_proxy;
 
 @end
 

@@ -7,11 +7,6 @@
 @interface NewsFeed.FormatItemBindingsNode
 {
     id _identifier;
-    id itemIdentifier;
-    id _selectors;
-    id _options;
-    id _styles;
-    id _children;
 }
 
 @end

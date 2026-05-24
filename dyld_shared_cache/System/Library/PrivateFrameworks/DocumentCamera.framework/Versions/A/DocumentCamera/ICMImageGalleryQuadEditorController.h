@@ -4,37 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICMImageGalleryQuadEditorOverlayView, ICMImageGalleryQuadEditorScrollView, NSImage, NSLayoutConstraint, NSString, NSView;
-@protocol ICMImageGalleryQuadEditorControllerDelegate, ICMImageQuad, ICMQuadAttachment;
+@protocol ICMQuadAttachment;
 
 @interface ICMImageGalleryQuadEditorController
 {
     _Bool _didAdjustQuad;
-    _Bool _stickyZoomToFit;
-    _Bool _isAnimating;
-    id <ICMImageGalleryQuadEditorControllerDelegate> _delegate;
-    id <ICMQuadAttachment> _attachment;
-    id <ICMImageQuad> _quad;
-    id <ICMImageQuad> _flippedQuad;
-    NSImage *_image;
-    ICMImageGalleryQuadEditorScrollView *_imageScrollView;
-    ICMImageGalleryQuadEditorOverlayView *_overlay;
-    NSView *_backgroundView;
-    NSLayoutConstraint *_backgroundTopInsetConstraint;
-    long long _orientation;
 }
 
 + (id);
 + (id);
 + (id);
-- (struct CGRect);
+- (struct CGRect);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -45,7 +32,7 @@
 - (struct CGRect);
 - (id);
 - (void);
-- (struct CGRect);
+- (struct CGRect);
 - (_Bool);
 - (id);
 - (id);
@@ -55,7 +42,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -63,7 +50,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -72,8 +59,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)eue size is negative! Current size:(struct NSEdgeInsets)arg1 %f, new size:%f, jitter samples:%d, total samples:%f /* Error: Ran out of types for this method. */;
+- (void)streamTokenDidCleanupAllRequests:(id)arg1 ]_block_invoke;
 - (id);
 - (void);
 - (void);
@@ -89,31 +76,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <ICMImageQuad> adjustedQuad;
 @property(retain, nonatomic) id <ICMQuadAttachment> attachment; // @synthesize attachment=_attachment;
-@property(nonatomic) __weak NSLayoutConstraint *backgroundTopInsetConstraint; // @synthesize backgroundTopInsetConstraint=_backgroundTopInsetConstraint;
-@property(nonatomic) __weak NSView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(readonly, nonatomic) _Bool canScaleDown;
-@property(readonly, nonatomic) _Bool canScaleToActualSize;
-@property(readonly, nonatomic) _Bool canScaleUp;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <ICMImageGalleryQuadEditorControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didAdjustQuad; // @synthesize didAdjustQuad=_didAdjustQuad;
-@property(readonly, nonatomic) id <ICMImageQuad> finalQuad;
-@property(retain, nonatomic) id <ICMImageQuad> flippedQuad; // @synthesize flippedQuad=_flippedQuad;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(nonatomic) __weak ICMImageGalleryQuadEditorScrollView *imageScrollView; // @synthesize imageScrollView=_imageScrollView;
-@property(nonatomic) _Bool isAnimating; // @synthesize isAnimating=_isAnimating;
-@property(nonatomic) long long orientation; // @synthesize orientation=_orientation;
-@property(nonatomic) __weak ICMImageGalleryQuadEditorOverlayView *overlay; // @synthesize overlay=_overlay;
-@property(retain, nonatomic) id <ICMImageQuad> quad; // @synthesize quad=_quad;
-@property(nonatomic) _Bool stickyZoomToFit; // @synthesize stickyZoomToFit=_stickyZoomToFit;
-@property(readonly) Class superclass;
 
 @end
 

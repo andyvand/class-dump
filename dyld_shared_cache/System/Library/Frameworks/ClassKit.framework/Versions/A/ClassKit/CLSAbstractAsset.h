@@ -6,80 +6,57 @@
 
 #import <ClassKit/CLSObject.h>
 
-@class NSDate, NSError, NSMutableArray, NSString, NSURL, UTType;
-
 @interface CLSAbstractAsset : CLSObject
 {
     long long _type;
-    NSURL *_URL;
-    NSURL *_thumbnailURL;
-    NSURL *_compressedURL;
-    _Bool _URLIsSecurityScoped;
-    _Bool _compressedURLIsSecurityScoped;
-    _Bool _original;
-    _Bool _downloaded;
-    double _fractionDownloaded;
-    NSError *_downloadError;
-    NSMutableArray *_downloadObservers;
-    long long _schoolworkSyncStatus;
-    long long _fileSizeInBytes;
-    UTType *_fileUTType;
-    NSString *_title;
-    NSString *_originalFilename;
-    long long _displayOrder;
-    double _durationInSeconds;
-    NSString *_ownerPersonID;
-    long long _parentEntityType;
-    NSString *_brItemID;
-    NSString *_brOwnerName;
-    NSString *_brZoneName;
-    NSString *_brShareName;
-    NSString *_ubiquitousContainerName;
-    NSString *_relativePathWithinContainer;
-    struct atomic_flag _thumbnailURLRequested;
-    struct atomic_flag _URLRequested;
-    struct atomic_flag _streamingURLRequested;
-    NSMutableArray *_pendingURLCompletions;
-    NSMutableArray *_pendingStreamingURLCompletions;
-    NSMutableArray *_pendingThumbnailURLCompletions;
-    NSDate *_urlExpirationDate;
-    NSString *_filenameExtension;
 }
 
-+ (_Bool);
-- (void);
++ (_Bool)_allowedPluginBundleIDs;
+- (void)n failed result= 0x%x
+;
+- (void)%d
+;
+- (id)ing service:ANEDriver
+ /* Error: Ran out of types for this method. */;
+- (id)ANEServicesDeviceSendRequest;
+- (void)rror:(CDUnknownBlockType)arg1 Invalid perf tracer category;
+- (id)d
+;
+- (void)ent buffer overrun;
+- (void)ment buffer overrun.;
+- (void)ead_policy_set(...,THREAD_EXTENDED_POLICY,...) failed, err=%d
+;
+- (void)ss();
+- (void)ANEServicesSessionHintRequest;
+- (void)ANEServicesProgramCreate;
+- (void)x 
+;
+- (void)id:(id)arg1 %d 
+;
+- (void)tsRecorded:(id)arg1 %d 
+;
+- (void)tsReceived:(id)arg1 %d 
+;
+- (void)%x 
+;
+- (void), numArgs=%d doesn't match kernel side size:(double)arg1 %d, No action
+;
+- (void)%s:(id)arg1 ANE_CreateClientLoggingSession returned 0x%08x 
+;
+- (void)SetupDeviceController;
+- (void)ding customer FW;
+- (long long)firmware/ane/ane1.bin;
+- (void)ne_stall;
+- (id)@;
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (Class);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -90,39 +67,39 @@
 - (double);
 - (void);
 - (id);
+- (_Bool)#;
+- (id);
+- (void);
+- (void);
+- (oneway void);
+- (oneway void);
+- (oneway void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (long long);
+- (void)N8Espresso9MPSEngine20meta_texarray_kernelINS_17MetalLowmemEngine17transplant_kernelEEE;
 - (id);
-- (void);
-- (void);
-- (oneway void);
-- (oneway void);
-- (oneway void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
 - (void);
 - (void);
 - (long long);
-- (void);
 - (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (long long);
-- (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -138,39 +115,7 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *URL;
-@property(copy, nonatomic) NSString *brItemID; // @synthesize brItemID=_brItemID;
-@property(copy, nonatomic) NSString *brOwnerName; // @synthesize brOwnerName=_brOwnerName;
-@property(copy, nonatomic) NSString *brShareName; // @synthesize brShareName=_brShareName;
-@property(copy, nonatomic) NSString *brZoneName; // @synthesize brZoneName=_brZoneName;
-@property(retain, nonatomic) NSURL *compressedURL; // @synthesize compressedURL=_compressedURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long displayOrder;
-@property(copy, nonatomic) NSError *downloadError; // @synthesize downloadError=_downloadError;
-@property(nonatomic, getter=isDownloaded) _Bool downloaded;
-@property(nonatomic) double durationInSeconds; // @synthesize durationInSeconds=_durationInSeconds;
-@property(nonatomic) long long fileSizeInBytes; // @synthesize fileSizeInBytes=_fileSizeInBytes;
-@property(copy, nonatomic) UTType *fileUTType;
-@property(copy, nonatomic) NSString *filenameExtension; // @synthesize filenameExtension=_filenameExtension;
-@property(nonatomic) double fractionDownloaded; // @synthesize fractionDownloaded=_fractionDownloaded;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isOriginal) _Bool original; // @synthesize original=_original;
-@property(copy, nonatomic) NSString *originalFilename; // @synthesize originalFilename=_originalFilename;
-@property(copy, nonatomic) NSString *ownerPersonID; // @synthesize ownerPersonID=_ownerPersonID;
-@property(readonly, nonatomic) Class parentEntityClass;
-@property(nonatomic) long long parentEntityType; // @synthesize parentEntityType=_parentEntityType;
-@property(copy, nonatomic) NSString *relativePathWithinContainer; // @synthesize relativePathWithinContainer=_relativePathWithinContainer;
-@property(nonatomic) long long schoolworkSyncStatus;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSURL *thumbnailURL;
-@property(copy, nonatomic) NSString *title;
 @property(nonatomic) long long type; // @synthesize type=_type;
-@property(copy, nonatomic) NSString *ubiquitousContainerName; // @synthesize ubiquitousContainerName=_ubiquitousContainerName;
-@property(retain, nonatomic) NSDate *urlExpirationDate; // @synthesize urlExpirationDate=_urlExpirationDate;
 
 @end
 

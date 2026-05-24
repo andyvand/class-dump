@@ -4,7 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MKAnnotationView;
+@protocol MKAnnotationRepresentation;
+
 @protocol MKAnnotationRepresentation
+- (MKAnnotationView<MKAnnotationRepresentation> *)`;
 - (_Bool);
+- (void)C;
+- (_Bool)`;
 @end
 

@@ -9,8 +9,6 @@
 @interface PXImportImageCacheIdentifier
 {
     NSString *_assetUuid;
-    unsigned long long _sizeType;
-    long long _cacheIndex;
 }
 
 - (unsigned long long);
@@ -23,8 +21,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *assetUuid; // @synthesize assetUuid=_assetUuid;
-@property(nonatomic) long long cacheIndex; // @synthesize cacheIndex=_cacheIndex;
-@property(nonatomic) unsigned long long sizeType; // @synthesize sizeType=_sizeType;
 
 @end
 

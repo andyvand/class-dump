@@ -4,48 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSNumber, NSSet, NSString;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface HMDCHIPAccessoryStorage
 {
     _Bool _wedSupport;
-    NSNumber *_nodeID;
-    NSNumber *_vendorID;
-    NSNumber *_productID;
-    NSData *_attributeDatabase;
-    NSSet *_pairings;
-    NSString *_extendedMACAddress;
-    NSNumber *_softwareVersionNumber;
-    NSNumber *_supportedLinkLayerTypes;
 }
 
 + (_Bool)dl­;
 + (id)ÐB;
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (_Bool)allocWithZone: /* Error: Ran out of types for this method. */;
+- (_Bool)_maps_isAuthorized;
+- (void)navigationListenerRouteUpdated:(id)arg1;
+- (id)ion:%@ /* Error: Ran out of types for this method. */;
+- (void)gSelf3 went away in %s line %d;
+- (void)ssion %@ is stale:(id)arg1 arrived %@ closed %@ etaInPast %@;
+- (void)BarrierBlock:(id)arg1 context:completionQueue:completion:]_block_invoke_3 /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id)h_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::BufferObject>>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::BufferObject>>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::BufferObject>>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::BufferObject>>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
+- (void):(id)arg1 8@16@24q32@40;
+- (void)ng"24@0:(id)arg1 8@"NSArray"16;
+- (id)textFeaturesFromString:synonyms:type:weight:options: /* Error: Ran out of types for this method. */;
+- (void)essionMessageFromID with invalid dictionary - ignoring ;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)
+;
 - (id);
-- (id)apability;
-- (id)alCount;
+- (id)percentageOfNonAcceptedParticipantsWithKnownCapability;
+- (id)expectedRemovalCount;
 - (id)ream session with error:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
@@ -53,16 +46,7 @@ __attribute__((visibility("hidden")))
 - (void)];
 
 // Remaining properties
-@property(copy) NSData *attributeDatabase; // @synthesize attributeDatabase=_attributeDatabase;
-@property(readonly, copy) NSDictionary *debugDictionaryRepresentation;
-@property(copy) NSString *extendedMACAddress; // @synthesize extendedMACAddress=_extendedMACAddress;
 @property(copy) NSNumber *nodeID; // @synthesize nodeID=_nodeID;
-@property(copy) NSSet *pairings; // @synthesize pairings=_pairings;
-@property(copy) NSNumber *productID; // @synthesize productID=_productID;
-@property(copy) NSNumber *softwareVersionNumber; // @synthesize softwareVersionNumber=_softwareVersionNumber;
-@property(copy) NSNumber *supportedLinkLayerTypes; // @synthesize supportedLinkLayerTypes=_supportedLinkLayerTypes;
-@property(copy) NSNumber *vendorID; // @synthesize vendorID=_vendorID;
-@property _Bool wedSupport; // @synthesize wedSupport=_wedSupport;
 
 @end
 

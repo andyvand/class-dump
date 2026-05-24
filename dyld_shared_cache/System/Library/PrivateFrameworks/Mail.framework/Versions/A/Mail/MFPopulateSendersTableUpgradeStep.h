@@ -15,8 +15,8 @@
 
 + (unsigned long long);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)viewControllerForPresenter:item:documentContext:presentingContext:options: /* Error: Ran out of types for this method. */;
 - (void)¸;
 
 // Remaining properties

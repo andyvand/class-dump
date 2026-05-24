@@ -6,21 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface CloudKitSchemaCKChangeReported : SISchemaInstrumentationMessage
 {
     int _changeType;
-    _Bool _changeTokenExpired;
-    struct {
-        unsigned int changeType:1;
-        unsigned int changeTokenExpired:1;
-    } _has;
 }
 
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)=;
 - (void);
 - (void);
 - (_Bool);
@@ -31,19 +24,15 @@
 - (_Bool);
 - (id);
 - (id)FTSchemaIFTSessionCoordinatorError";
-- (void)sageCount1Day;
+- (void)appUsageCount1Day;
 - (int)tByRelationship;
-- (_Bool)ncyAmount;
-- (id);
+- (_Bool)_currencyAmount;
+- (id)MHSchemaMHSelfTriggerSuppressionSession;
 - (void)P;
 - (id)ÜÖ;
 
 // Remaining properties
-@property(nonatomic) _Bool changeTokenExpired; // @synthesize changeTokenExpired=_changeTokenExpired;
 @property(nonatomic) int changeType; // @synthesize changeType=_changeType;
-@property(nonatomic) _Bool hasChangeTokenExpired;
-@property(nonatomic) _Bool hasChangeType;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

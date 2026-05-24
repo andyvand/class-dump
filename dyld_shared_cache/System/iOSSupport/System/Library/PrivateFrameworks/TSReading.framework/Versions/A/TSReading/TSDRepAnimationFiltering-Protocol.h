@@ -5,5 +5,8 @@
 //
 
 @protocol TSDRepAnimationFiltering
+
+@optional
+- (id);
 @end
 

@@ -10,12 +10,11 @@ __attribute__((visibility("hidden")))
 @interface _NSBinderPluginRegistry
 {
     NSMapTable *_registry;
-    NSMapTable *_cachedRegistry;
 }
 
-+ (id)dCloudTabs;
++ (id)marginBetweenThumbnailsAndCloudTabs;
 - (void);
-- (Class);
+- (Class)h;
 - (void);
 - (id);
 

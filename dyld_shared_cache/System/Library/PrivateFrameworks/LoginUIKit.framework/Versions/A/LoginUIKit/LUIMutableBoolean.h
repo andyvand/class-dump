@@ -9,7 +9,7 @@
     _Bool _value;
 }
 
-+ (id);
++ (id)jN;
 - (void);
 - (id);
 - (_Bool);

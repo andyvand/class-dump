@@ -7,6 +7,7 @@
 @protocol CRCardSection;
 
 @protocol CRCardSectionViewDisappearanceFeedback
+- (id <CRCardSection>);
 
 // Remaining properties
 @property(retain, nonatomic) id <CRCardSection> cardSection;

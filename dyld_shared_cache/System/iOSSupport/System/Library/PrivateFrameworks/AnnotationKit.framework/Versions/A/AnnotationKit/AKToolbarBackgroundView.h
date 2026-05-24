@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, UIView, UIVisualEffectView;
+@class UIView, UIVisualEffectView;
 
 @interface AKToolbarBackgroundView
 {
     UIVisualEffectView *_visualEffectView;
-    _Bool _translucent;
-    UIView *_separatorLine;
-    UIColor *_separatorColor;
-    long long _blurStyle;
 }
 
 - (void);
@@ -22,22 +18,19 @@
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long)";
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id)ù1ê°1Â0@ù
 × ;
-- (void)t:(id)arg1;
+- (void)horizontalFlipTransformForRect:(id)arg1;
 
 // Remaining properties
-@property(nonatomic) long long blurStyle; // @synthesize blurStyle=_blurStyle;
-@property(retain, nonatomic) UIColor *separatorColor; // @synthesize separatorColor=_separatorColor;
 @property(retain, nonatomic) UIView *separatorLine; // @synthesize separatorLine=_separatorLine;
-@property(nonatomic, getter=isTranslucent) _Bool translucent; // @synthesize translucent=_translucent;
 
 @end
 

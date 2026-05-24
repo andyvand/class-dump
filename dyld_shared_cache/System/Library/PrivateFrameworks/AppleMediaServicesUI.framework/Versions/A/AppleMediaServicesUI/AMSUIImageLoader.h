@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSUIAssetQueue, NSCache, NSObject, NSURLSession;
-@protocol OS_dispatch_queue;
+@class NSCache;
 
 @interface AMSUIImageLoader
 {
     NSCache *_imageCache;
-    AMSUIAssetQueue *_fetchQueue;
-    NSURLSession *_urlSession;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 + (id);
@@ -23,26 +19,23 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
+- (id)fetchSignificantEventsWithDateInterval:limit:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void)70;
+- (void);
+- (id);
+- (void)timeIntervalSince1970;
 
 // Remaining properties
-@property(retain) AMSUIAssetQueue *fetchQueue; // @synthesize fetchQueue=_fetchQueue;
 @property(retain) NSCache *imageCache; // @synthesize imageCache=_imageCache;
-@property(retain) NSURLSession *urlSession; // @synthesize urlSession=_urlSession;
-@property(retain) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

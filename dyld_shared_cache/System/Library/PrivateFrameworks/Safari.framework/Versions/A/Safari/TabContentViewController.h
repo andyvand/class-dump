@@ -6,21 +6,12 @@
 
 #import <Safari/BrowserContainerViewController.h>
 
-@class BrowserViewController, BrowserWindowController, ContinuousReadingListPageItem, ContinuousReadingListViewController, NSHashTable, NSMutableSet, NSString, NSView, NSViewController, ReaderContainerViewController, TabContentView;
+@class BrowserViewController, TabContentView;
 
 __attribute__((visibility("hidden")))
 @interface TabContentViewController : BrowserContainerViewController
 {
     BrowserViewController *_browserViewController;
-    ReaderContainerViewController *_readerContainerViewController;
-    NSHashTable *_nativeContentViewControllersThatWereShownInWindow;
-    CDUnknownBlockType _updateVisualTabPickerSnapshotBlock;
-    NSMutableSet *_browserViewControllersForBackgroundLoads;
-    _Bool _didFireCloseEvent;
-    BrowserViewController *_currentBrowserViewController;
-    double _topContentInset;
-    NSViewController *_currentViewController;
-    ContinuousReadingListViewController *_continuousReadingListViewController;
 }
 
 - (void);
@@ -42,7 +33,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)P;
 - (_Bool);
 - (void);
 - (void);
@@ -56,7 +47,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -69,13 +60,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)];
 - (id);
 - (void);
+- (id);
 - (void);
 - (void);
+- (void)PCFileManager.temporaryFileHandleWithProtection:error: /* Error: Ran out of types for this method. */;
 - (void)Ì;
 - (_Bool)¤;
 - (double)Ø;
@@ -83,33 +74,6 @@ __attribute__((visibility("hidden")))
 - (_Bool)´íÿzßÈ(-;
 
 // Remaining properties
-@property(readonly, nonatomic) BrowserWindowController *browserWindowController;
-@property(readonly, nonatomic) struct CGRect contentVisibleBounds;
-@property(readonly, nonatomic) _Bool continuousPageViewIsHandlingPageTransitionOrLoadingPageItem;
-@property(readonly, nonatomic) ContinuousReadingListViewController *continuousReadingListViewController; // @synthesize continuousReadingListViewController=_continuousReadingListViewController;
-@property(readonly, nonatomic) BrowserViewController *currentBrowserViewController; // @synthesize currentBrowserViewController=_currentBrowserViewController;
-@property(readonly, nonatomic) ContinuousReadingListPageItem *currentContinuousReadingListPageItem;
-@property(readonly, nonatomic) NSView *currentDialogOrContentView;
-@property(readonly, nonatomic) NSViewController *currentViewController; // @synthesize currentViewController=_currentViewController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didFireCloseEvent; // @synthesize didFireCloseEvent=_didFireCloseEvent;
-@property(readonly, nonatomic) NSView *dockedInspectorView;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isInContinuousMode) _Bool inContinuousMode;
-@property(readonly, nonatomic) _Bool isActiveWebViewMagnified;
-@property(readonly, nonatomic) _Bool isShowingNativeViewController;
-@property(readonly, nonatomic) _Bool shouldDisableTitlebarBlurringForCurrentContentView;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) TabContentView *tabContentView;
-@property(readonly, nonatomic) NSView *thumbnailContentView;
-@property(readonly, nonatomic) long long thumbnailContentViewType;
-@property(readonly, nonatomic) struct CGRect thumbnailContentViewVisibleBounds;
-@property(readonly, nonatomic) _Bool thumbnailContentViewWasShownInWindow;
-@property(nonatomic) double topContentInset; // @synthesize topContentInset=_topContentInset;
 @property(retain) TabContentView *view; // @dynamic view;
 
 @end

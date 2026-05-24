@@ -7,9 +7,6 @@
 @interface _DKSyncedFeatures
 {
     _Bool _isDigitalHealthDisabledInitialized;
-    _Bool _isDigitalHealthDisabledPreviousResult;
-    _Bool _isSingleDevice;
-    long long _screenTimeSyncState;
 }
 
 - (id);

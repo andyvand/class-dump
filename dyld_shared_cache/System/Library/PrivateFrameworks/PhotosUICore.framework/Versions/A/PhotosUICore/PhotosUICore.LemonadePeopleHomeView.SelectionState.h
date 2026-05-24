@@ -7,10 +7,6 @@
 @interface PhotosUICore.LemonadePeopleHomeView.SelectionState
 {
     id _canRemove;
-    id _canFavorite;
-    id _canMerge;
-    id _canCreateNewGroup;
-    id _$observationRegistrar;
 }
 
 @end

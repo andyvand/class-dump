@@ -4,42 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _UIHyperplane
 {
     double *__point;
-    double *__normal;
-    unsigned long long __dimensions;
 }
 
-+ (id)Model: /* Error: Ran out of types for this method. */;
++ (id)setCarPlayPrimaryInteractionModel: /* Error: Ran out of types for this method. */;
 + (_Bool)onth;
 - (const double *);
-- (void);
-- (void);
+- (void)CloudSync dependencies;
+- (void)for deletes only ;
 - (const double *);
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool)oundImage;
+- (_Bool)topBackgroundImage;
 - (void)setCurrentCommitEffectWindow:(id)arg1;
-- (id)tHidden:(unsigned long long)arg1;
+- (id)_backing_setHidden:(unsigned long long)arg1;
 - (id)n;
 - (void)xPath:(double *)arg1 or -dequeueReusableSupplementaryViewOfKind:(const double *)arg2 withReuseIdentifier:forIndexPath:. Collection view:%@; element kind:%@; index path:%@; supplementary view:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long _dimensions; // @synthesize _dimensions=__dimensions;
-@property(readonly, nonatomic) const double *_normal;
 @property(readonly, nonatomic) const double *_point;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

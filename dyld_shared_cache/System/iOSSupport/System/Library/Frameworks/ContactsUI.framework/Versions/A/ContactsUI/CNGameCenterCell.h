@@ -6,19 +6,12 @@
 
 #import <ContactsUI/CNLabeledCell.h>
 
-@class NSString, UILabel, UIView, UIViewController;
-@protocol CNPresenterDelegate;
+@class UILabel;
 
 __attribute__((visibility("hidden")))
 @interface CNGameCenterCell : CNLabeledCell
 {
     _Bool _showsGameCenterLabel;
-    UILabel *_gameCenterLabel;
-    UIView *_playerViewContainer;
-    UIView *_playerView;
-    NSString *_playerID;
-    UIViewController *_profileViewController;
-    id <CNPresenterDelegate> _presentingDelegate;
 }
 
 + (void);
@@ -29,34 +22,28 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void);
+- (void)R$ﲗH);
+- (void)qa;
 - (void);
 - (id);
 - (id);
 - (id);
+- (void);
 - (id);
+- (id);
+- (id);
+- (id)R;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)_cn_isIdenticalToArray: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) UILabel *gameCenterLabel; // @synthesize gameCenterLabel=_gameCenterLabel;
-@property(retain, nonatomic) NSString *playerID; // @synthesize playerID=_playerID;
-@property(retain, nonatomic) UIView *playerView; // @synthesize playerView=_playerView;
-@property(retain, nonatomic) UIView *playerViewContainer; // @synthesize playerViewContainer=_playerViewContainer;
-@property(nonatomic) __weak id <CNPresenterDelegate> presentingDelegate; // @synthesize presentingDelegate=_presentingDelegate;
-@property(retain, nonatomic) UIViewController *profileViewController; // @synthesize profileViewController=_profileViewController;
-@property(nonatomic) _Bool showsGameCenterLabel; // @synthesize showsGameCenterLabel=_showsGameCenterLabel;
 
 @end
 

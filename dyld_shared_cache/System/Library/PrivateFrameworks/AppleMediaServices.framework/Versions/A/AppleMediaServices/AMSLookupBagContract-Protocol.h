@@ -13,9 +13,5 @@
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"AMSBagValue",?,R
 
-@property(readonly) AMSBagValue *unpersonalizedLookupURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AMSBagValue",?,R
-
 @end
 

@@ -6,27 +6,25 @@
 
 #import <SearchFoundation/SFFeedback.h>
 
-@class NSArray, SFCardSection;
+@class NSArray;
 
 @interface SFDynamicButtonVisibilityFeedback : SFFeedback
 {
     NSArray *_buttons;
-    SFCardSection *_cardSection;
 }
 
 + (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)TU;
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)searchWeightForIndexPath:(id)arg1;
+- (void)haringPostTone.caf;
 - (void)V_rating;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *buttons; // @synthesize buttons=_buttons;
-@property(retain, nonatomic) SFCardSection *cardSection; // @synthesize cardSection=_cardSection;
 
 @end
 

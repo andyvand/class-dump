@@ -10,7 +10,8 @@ __attribute__((visibility("hidden")))
     _Bool isMixedReplace;
 }
 
-- (void);
+- (void)d %.4f (limit %.4f)
+;
 - (id);
 - (void);
 

@@ -7,6 +7,8 @@
 @protocol UITextInputMultiDocument
 
 @optional
+- (void);
+- (void)SgxcSg;
 - (void);
 - (_Bool)GGL03_pG;
 @end

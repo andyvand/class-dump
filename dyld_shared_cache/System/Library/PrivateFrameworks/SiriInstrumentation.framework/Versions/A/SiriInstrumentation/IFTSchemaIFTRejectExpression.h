@@ -6,15 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTStatementId, NSData;
+@class IFTSchemaIFTStatementId;
 
 @interface IFTSchemaIFTRejectExpression : SISchemaInstrumentationMessage
 {
     IFTSchemaIFTStatementId *_statementId;
-    _Bool _hasStatementId;
 }
 
-- (id);
+- (id)9	;
 - (void);
 - (_Bool);
 - (void);
@@ -29,12 +28,10 @@
 - (id)1Â0@ù
 × ;
 - (id)rivalEnded",&,N,V_ended;
-- (id)maCHEvaluatorMetadata;
+- (id)CHSchemaCHEvaluatorMetadata;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasStatementId; // @synthesize hasStatementId=_hasStatementId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) IFTSchemaIFTStatementId *statementId; // @synthesize statementId=_statementId;
 
 @end

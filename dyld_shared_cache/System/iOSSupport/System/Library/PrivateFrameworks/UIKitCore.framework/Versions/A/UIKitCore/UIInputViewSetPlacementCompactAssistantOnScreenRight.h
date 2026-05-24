@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool)nd blocks to show and dismiss the keyboard for the keyboard show/hide test;
-- (id);
+- (id)2@?0@"NSString"8@"NSString"16@"NSString"24;
 - (double);
 
 @end

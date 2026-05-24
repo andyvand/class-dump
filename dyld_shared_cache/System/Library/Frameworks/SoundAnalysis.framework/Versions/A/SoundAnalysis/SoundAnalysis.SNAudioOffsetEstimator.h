@@ -7,9 +7,6 @@
 @interface SoundAnalysis.SNAudioOffsetEstimator
 {
     id graphStorage;
-    id offset;
-    id minimumObservableOffset;
-    id maximumObservableOffset;
 }
 
 @end

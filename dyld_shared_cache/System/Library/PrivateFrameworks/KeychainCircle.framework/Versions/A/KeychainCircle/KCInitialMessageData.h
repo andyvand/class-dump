@@ -14,7 +14,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)v32@0:8q16@?24 /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (unsigned long long);
@@ -22,12 +22,11 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)K;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasPrepareMessage;
-@property(retain, nonatomic) NSData *prepareMessage; // @synthesize prepareMessage=_prepareMessage;
 
 @end
 

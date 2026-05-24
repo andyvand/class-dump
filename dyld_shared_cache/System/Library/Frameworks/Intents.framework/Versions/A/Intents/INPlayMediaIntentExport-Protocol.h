@@ -4,27 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INMediaItem, INMediaSearch, INPrivatePlayMediaIntentData, NSArray, NSDate, NSNumber, NSString;
+@class NSArray, NSNumber, NSString;
 
 @protocol INPlayMediaIntentExport
+- (void);
+- (void);
+- (long long)#;
+- (NSNumber *)6;
+- (NSArray *)9h;
+- (void)SString",?,R,C;
+- (NSString *)_alignUsernameAndPasswordFields;
 
 // Remaining properties
-@property(copy) NSArray *alternativeResults;
-@property(copy) NSArray *audioSearchResults;
-@property(copy) NSArray *buckets;
-@property(copy) NSDate *expirationDate;
-@property(copy) NSArray *hashedRouteUIDs;
-@property(copy) INMediaItem *mediaContainer;
 @property(copy) NSArray *mediaItems;
-@property(copy) INMediaSearch *mediaSearch;
-@property long long parsecCategory;
-@property(copy) NSNumber *playShuffled;
-@property long long playbackQueueLocation;
-@property long long playbackRepeatMode;
-@property(copy) NSNumber *playbackSpeed;
-@property(copy) INPrivatePlayMediaIntentData *privatePlayMediaIntentData;
-@property(copy) NSString *proxiedBundleIdentifier;
-@property(copy) NSString *recoID;
-@property(copy) NSNumber *resumePlayback;
 @end
 

@@ -7,16 +7,13 @@
 @class NSString;
 
 @protocol PXMutableProgressIndicatorAlertController
+- (double)P;
 - (void);
 - (NSString *)MessagePayloadP;
-- (void)veMemoryPlaybackSummaryPauseCount;
-- (void)onEntity;
+- (void)interactiveMemoryPlaybackSummaryPauseCount;
+- (void)PersonEntity;
 
 // Remaining properties
 @property(nonatomic) double delay;
-@property(nonatomic) _Bool isInternalUIAllowed;
-@property(copy, nonatomic) NSString *label;
-@property(nonatomic) double minimumDisplayDuration;
-@property(copy, nonatomic) NSString *title;
 @end
 

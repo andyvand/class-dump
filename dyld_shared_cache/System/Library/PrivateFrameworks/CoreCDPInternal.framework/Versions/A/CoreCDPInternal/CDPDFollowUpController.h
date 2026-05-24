@@ -4,51 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CDPDFollowUpFactory, FLFollowUpController, NSString;
+@class FLFollowUpController;
 
 @interface CDPDFollowUpController
 {
     FLFollowUpController *_followUpController;
-    CDPDFollowUpFactory *_followUpFactory;
 }
 
++ (id)LibraryItemVerticalTab;
++ (id)BackgroundLoadControllerDelegate;
 + (id);
-+ (id);
-+ (id);
-- (_Bool);
-- (void);
+- (_Bool)3;
+- (void)extractY:neutralFactors: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)#;
 - (void);
 - (id);
 - (id);
-- (id);
 - (_Bool);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (id);
+- (_Bool)i-;
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)@ aE!;
 - (id)
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) FLFollowUpController *followUpController; // @synthesize followUpController=_followUpController;
-@property(retain, nonatomic) CDPDFollowUpFactory *followUpFactory; // @synthesize followUpFactory=_followUpFactory;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,43 +7,35 @@
 @class UIColor, UIScrollView;
 
 @protocol UITable
+- (double)@0:8@"NSArray"16C24@"NSArray"28@"NSArray"36q44B52 /* Error: Ran out of types for this method. */;
+- (_Bool)ce"16@"IDSAccount"24@"IDSGroupSessionParticipantUpdate"32@"IDSMessageContext"40;
+- (_Bool):8@"IDSService"16@"IDSAccount"24@"NSString"32@"NSString"40@"NSData"48@"NSError"56 /* Error: Ran out of types for this method. */;
+- (_Bool)syncTaskCompletionBlock;
+- (_Bool)syncResumer;
+- (void)relayRetroTranslationWithMessageGUIDs:(_Bool)arg1 sourceLocaleIdentifier:destinationLocaleIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool)messageForTransferGUID:shouldLoadAttachments: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (double)loadIsDownloadingPurgedAttachmentsForChatWithGUID:chatIdentifiers:style:services:reply: /* Error: Ran out of types for this method. */;
+- (_Bool)ier:chatID:queryID: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)loadHistoryForIDs:style:onServices:limit:beforeGUID:afterGUID:threadIdentifier:chatID:queryID: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)endowmentNamespaces;
+- (long long)account:handleID:updatedLastReceivedOnGridMessageDate: /* Error: Ran out of types for this method. */;
+- (long long)account:(long long)arg1 displayNameChanged: /* Error: Ran out of types for this method. */;
+- (UIColor *)_shouldDropIncomingMessageOnService:guid:trustedData: /* Error: Ran out of types for this method. */;
+- (struct CGRect)c;
+- (double)haveDeferredUpdateRequest;
+- (void)teCaptureAssistant",&,N,V_stateCaptureAssistant;
+- (double)shouldBeUpdated;
+- (UIColor *)|;
+- (_Bool);
+- (double)oad, identifier_set ) VALUES (   @identifier, @personID, @source, @expirationDate, @type, @explicit, @payload, @identifierSet ) ON CONFLICT (identifier, person_id) DO UPDATE SET   source = excluded.source,   expiration_date = excluded.expiration_date,   type = excluded.type,   explicit = excluded.explicit,   payload = excluded.payload,   identifier_set = excluded.identifier_set;;
 - (double)1Â0@ù
 × ;
-- (double)ns;
+- (double)_shouldAnimateImmediateTransitions;
 - (UIScrollView *); ;
-- (struct UIEdgeInsets)ion;
+- (struct UIEdgeInsets)Configuration;
 
 // Remaining properties
-@property(nonatomic, setter=_setHeadersHugContent:) _Bool _sectionHeadersHugContent;
-@property(readonly, nonatomic, getter=_accessoryBaseColor) UIColor *accessoryBaseColor;
-@property(readonly, nonatomic) _Bool allowsMultipleSelection;
-@property(readonly, nonatomic) _Bool allowsMultipleSelectionDuringEditing;
-@property(readonly, nonatomic, getter=_backgroundInset) double backgroundInset;
-@property(readonly, nonatomic, getter=_bottomPadding) double bottomPadding;
-@property(readonly, nonatomic) _Bool cellLayoutMarginsFollowReadableWidth;
-@property(readonly, nonatomic, getter=_cellSafeAreaInsets) struct UIEdgeInsets cellSafeAreaInsets;
-@property(readonly, nonatomic) double estimatedRowHeight;
-@property(readonly, nonatomic) double estimatedSectionFooterHeight;
-@property(readonly, nonatomic) double estimatedSectionHeaderHeight;
-@property(readonly, nonatomic, getter=_indexBarExtentFromEdge) double indexBarExtentFromEdge;
-@property(readonly, nonatomic, getter=_indexFrame) struct CGRect indexFrame;
-@property(readonly, nonatomic, getter=_multiselectCheckmarkColor) UIColor *multiselectCheckmarkColor;
-@property(readonly, nonatomic, getter=_numberOfSections) long long numberOfSections;
-@property(readonly, nonatomic) _Bool overlapsSectionHeaderViews;
-@property(readonly, nonatomic, getter=_rawSectionContentInset) struct UIEdgeInsets rawSectionContentInset;
-@property(readonly, nonatomic) double rowHeight;
 @property(readonly, nonatomic, getter=_scrollView) UIScrollView *scrollView;
-@property(readonly, nonatomic, getter=_sectionContentInset) struct UIEdgeInsets sectionContentInset;
-@property(readonly, nonatomic, getter=_sectionContentInsetFollowsLayoutMargins) _Bool sectionContentInsetFollowsLayoutMargins;
-@property(readonly, nonatomic, getter=_sectionCornerRadius) double sectionCornerRadius;
-@property(readonly, nonatomic) double sectionFooterHeight;
-@property(readonly, nonatomic) double sectionHeaderHeight;
-@property(readonly, nonatomic) struct UIEdgeInsets separatorInset;
-@property(readonly, nonatomic, getter=_separatorInsetIsRelativeToCellEdges) _Bool separatorInsetIsRelativeToCellEdges;
-@property(readonly, nonatomic, getter=_isShowingIndex) _Bool showingIndex;
-@property(readonly, nonatomic, getter=_supplementariesFollowSectionContentInsets) _Bool supplementariesFollowSectionContentInsets;
-@property(readonly, nonatomic, getter=_supplementarySectionHeadersHugContent) _Bool supplementarySectionHeadersHugContent;
-@property(readonly, nonatomic, getter=_topPadding) double topPadding;
-@property(readonly, nonatomic) _Bool usesVariableMargins;
 @end
 

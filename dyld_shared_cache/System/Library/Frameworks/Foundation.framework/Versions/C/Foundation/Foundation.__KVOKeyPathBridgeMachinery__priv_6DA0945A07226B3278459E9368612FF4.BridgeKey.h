@@ -12,7 +12,7 @@
 - (id);
 - (long long);
 - (_Bool);
-- (id)ror:(void *)arg1;
+- (id)newWithContentsOf:(void *)arg1 immutable:error: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

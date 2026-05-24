@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, ACAccountStore, NFPromise, NSArray, NSHashTable, NSString;
+@class NSString;
 
 @interface FCAppleAccount
 {
     _Bool _runningPPT;
-    ACAccountStore *_accountStore;
-    ACAccount *_primaryAccount;
-    ACAccount *_iTunesAccount;
-    NSString *_overrideContentStoreFrontID;
-    NFPromise *_base64GSTokenPromise;
-    NSHashTable *_observers;
-    NSString *_DSID;
-    NSString *_userStoreFrontID;
-    NSString *_contentStoreFrontID;
-    NSString *_altDSID;
 }
 
 + (void);
@@ -31,36 +21,36 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (long long);
+- (id)DGImageCompositeScaledOperation;
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)olbarItemGroup",&,N,V_centerToolbarItemGroup;
+- (id)2;
 - (void);
 - (void);
+- (id)#;
+- (id)ck_invoke;
+- (id);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (_Bool);
 - (id);
 - (_Bool);
 - (void);
-- (void);
 - (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)initWithFileDescriptor:closeOnDealloc: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long)local directory node:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
@@ -68,15 +58,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)e-selection:start",MFHtmlTemporaryEditingElement="AppleTemporaryEditingElement",MFHtmlTemporaryPresentationElement="AppleTemporaryPresentationElement",MFMailDropBannerClass="x-apple-maildropbanner",MFMailDropItemClass="x-apple-maildrop",MFHtmlIDSignature="AppleMailSignature",MFHtmlIDLineBreakAtSignature="lineBreakAtBeginningOfSignature",MFHtmlIDLineBreakAtBeginning="lineBreakAtBeginningOfMessage",MFRichLinkClass="apple-rich-link",MFLPRichLinkClassPrefix="lp-rich-link",MFMailTemporaryAttachmentWrapper="x-apple-attachment-mark",MFHtmlIDQuickReplyStyle="x-mail-quick-reply-style",HtmlClassOriginalContent="AppleOriginalContents",linkPlaceHolderClass="linkPlaceholder",MFMailBigEmojiAttribute="AppleMailBigEmoji",bigEmojiFontSize="-webkit-xxx-large",defaultEmojiFontSize="-apple-system-body",maxNumberBigEmoji=3,largeInheritedFontSize=7; /* Error: Ran out of types for this method. */;
 - (_Bool),N,GisPrivateDataEncryptionAllowed;
 - (id);
 - (id)articleUndislikedConditions;
-- (id)formationFeedThrottle;
-- (void)lePrivateDataStorage;
+- (id)FCFeedTransformationFeedThrottle;
+- (void)FCReadablePrivateDataStorage;
 - (id)FCPingBasedOnlineNetworkTransitionMonitor;
 - (void)nal/Library/BuildRoots/4~CNquugBHTJeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCNotificationController.m;
-- (void)usBannerDeviceOfflineTitle;
+- (void)offlineStatusBannerDeviceOfflineTitle;
 - (_Bool);
 - (void);
 - (id)Ih;
@@ -88,46 +78,6 @@ b;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *DSID; // @synthesize DSID=_DSID;
-@property(readonly, nonatomic) ACAccount *activeiTunesAccount;
-@property(readonly, nonatomic) long long ageCategory;
-@property(readonly, nonatomic) NSArray *allEmailAddresses;
-@property(copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(readonly, nonatomic) NSString *appStoreEmailAddress;
-@property(copy, nonatomic) NSString *contentStoreFrontID; // @synthesize contentStoreFrontID=_contentStoreFrontID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) long long dynamicSupportedContentLanguage;
-@property(readonly, nonatomic) NSString *endpointConnectionClientID;
-@property(readonly, nonatomic) NSString *firstName;
-@property(readonly, nonatomic) NSString *formattedUsername;
-@property(readonly, nonatomic) NSString *fullName;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isContentStoreFrontSupported;
-@property(readonly, nonatomic) _Bool isFamilyEligible;
-@property(readonly, nonatomic) _Bool isFamilySuspended;
-@property(readonly, nonatomic) _Bool isSignedInStoreFrontSupported;
-@property(readonly, nonatomic) _Bool isSuspended;
-@property(readonly, nonatomic) _Bool isiCloudSuspended;
-@property(readonly, nonatomic) NSString *lastName;
-@property(readonly, nonatomic) NSString *localizedContentStoreFrontID;
-@property(readonly, nonatomic) NSString *middleName;
-@property(readonly, nonatomic) NSString *normalizedPersonId;
-@property(readonly, nonatomic) NSString *personID;
-@property(readonly, nonatomic) NSArray *preferredLanguageCodes;
-@property(readonly, nonatomic) NSString *primaryEmailAddress;
-@property(readonly, nonatomic) NSString *primaryLanguageCode;
-@property(readonly, nonatomic, getter=isPrivateDataSyncingEnabled) _Bool privateDataSyncingEnabled;
-@property(getter=isRunningPPT) _Bool runningPPT; // @synthesize runningPPT=_runningPPT;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long supportedContentLanguage;
-@property(readonly, nonatomic) NSString *supportedContentStoreFrontID;
-@property(readonly, nonatomic) NSString *supportedLocalizedContentStoreFrontID;
-@property(readonly, nonatomic, getter=isUserSignedInToiCloud) _Bool userSignedInToiCloud;
-@property(copy, nonatomic) NSString *userStoreFrontID; // @synthesize userStoreFrontID=_userStoreFrontID;
-@property(readonly, nonatomic) NSString *username;
 
 @end
 

@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (CKUtilsAdditions)
-- (_Bool);
+- (_Bool);
 - (void);
 - (unsigned long long);
 - (void);

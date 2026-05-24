@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface MHSchemaFirstPassChannelSelectionScore : SISchemaInstrumentationMessage
 {
     NSString *_channelString;
-    float _firstPassScore;
-    struct {
-        unsigned int firstPassScore:1;
-    } _has;
-    _Bool _hasChannelString;
 }
 
 - (void);
@@ -29,11 +24,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)ssl/libressl-2.2/crypto/asn1/a_d2i_fp.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id)
 × ;
 - (id)tcomeReported",&,N,V_contactSuggestionOutcomeReported;
@@ -42,10 +37,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *channelString; // @synthesize channelString=_channelString;
-@property(nonatomic) float firstPassScore; // @synthesize firstPassScore=_firstPassScore;
-@property(nonatomic) _Bool hasChannelString; // @synthesize hasChannelString=_hasChannelString;
-@property(nonatomic) _Bool hasFirstPassScore;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

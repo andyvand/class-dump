@@ -6,7 +6,7 @@
 
 #import <FrontBoardServices/FBSSceneParameters.h>
 
-@class FBSDisplayConfiguration, FBSSceneClientSettings, FBSSceneSettings, FBSSceneSpecification;
+@class FBSDisplayConfiguration, FBSSceneSpecification;
 
 @interface FBSMutableSceneParameters : FBSSceneParameters
 {
@@ -17,16 +17,14 @@
 - (void);
 - (void);
 - (void);
+- (void)B;
 - (void);
-- (void);
-- (void);
+- (void)!;
 - (id);
 - (void);
-- (void)ed:(CDUnknownBlockType)arg1;
+- (void)setCloningSupported:(CDUnknownBlockType)arg1;
 
 // Remaining properties
-@property(copy, nonatomic) FBSSceneClientSettings *clientSettings; // @dynamic clientSettings;
-@property(copy, nonatomic) FBSSceneSettings *settings; // @dynamic settings;
 @property(copy, nonatomic, setter=_setSpecification:) FBSSceneSpecification *specification; // @dynamic specification;
 
 @end

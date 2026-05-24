@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 __attribute__((visibility("hidden")))
 @interface _LSPersonaDatabase
 {
     struct os_unfair_lock_s _ivarLock;
-    struct os_unfair_lock_s _uncachedCalloutLock;
-    NSDictionary *_cachedBundleIDToPersonasMap;
-    NSString *_cachedSystemPersonaUniqueString;
-    NSString *_cachedPersonalPersonaUniqueString;
-    unsigned long long _userManagementGenerationNumber;
 }
 
 - (void);

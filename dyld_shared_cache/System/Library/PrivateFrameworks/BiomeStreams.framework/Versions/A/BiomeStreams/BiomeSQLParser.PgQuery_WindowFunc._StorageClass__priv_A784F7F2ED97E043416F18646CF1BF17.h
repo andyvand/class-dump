@@ -7,16 +7,6 @@
 @interface BiomeSQLParser.PgQuery_WindowFunc._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _xpr;
-    id _winfnoid;
-    id _wintype;
-    id _wincollid;
-    id _inputcollid;
-    id _args;
-    id _aggfilter;
-    id _winref;
-    id _winstar;
-    id _winagg;
-    id _location;
 }
 
 @end

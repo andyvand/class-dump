@@ -6,19 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MTSchemaMTLanguageDisambiguationUISelected : SISchemaInstrumentationMessage
 {
     int _locale;
-    CDStruct_0129e3ec _has;
 }
 
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)CNqEugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/objects/o_names.c;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -31,8 +28,6 @@
 - (id)V_anonymizedContactIdentifier;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLocale;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int locale; // @synthesize locale=_locale;
 
 @end

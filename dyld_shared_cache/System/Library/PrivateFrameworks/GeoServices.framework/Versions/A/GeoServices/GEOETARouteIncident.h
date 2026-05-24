@@ -4,50 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORouteIncident, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOETARouteIncident
 {
     PBUnknownFields *_unknownFields;
-    GEORouteIncident *_routeIncident;
-    unsigned int _distanceFromStartCm;
-    struct {
-        unsigned int has_distanceFromStartCm:1;
-    } _flags;
 }
 
-+ (_Bool)nt:(id)arg1;
-- (void);
++ (_Bool)setHasRatingsCount:(id)arg1;
+- (void);
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (_Bool);
-- (unsigned int);
+- (_Bool)logContactsDataAccessEventWithAssetIdentifiers: /* Error: Ran out of types for this method. */;
+- (_Bool)accountsWithAccountType: /* Error: Ran out of types for this method. */;
+- (unsigned int)CNDictionaryPrimitiveUserDefaults;
 - (void);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)(;
+- (id);
 - (void);
-- (void);
+- (void)startRecordingSettingsWithRecordRoute:(id)arg1 recordingInfo:playbackRoute: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id)riants:(struct _NSZone *)arg1;
-- (id)eedbackInfo;
+- (id)setHasNumChainedVariants:(struct _NSZone *)arg1;
+- (id)GEOEVStepFeedbackInfo;
 - (id)8GEODirectionsErrorCtG;
 - (id)ø;
 - (void)º;
 
 // Remaining properties
-@property(nonatomic) unsigned int distanceFromStartCm;
-@property(nonatomic) _Bool hasDistanceFromStartCm;
 @property(readonly, nonatomic) _Bool hasRouteIncident;
-@property(retain, nonatomic) GEORouteIncident *routeIncident;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

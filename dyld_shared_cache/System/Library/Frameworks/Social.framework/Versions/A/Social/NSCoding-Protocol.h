@@ -5,5 +5,7 @@
 //
 
 @protocol NSCoding
+- (id)tained info lock;
+- (void)P;
 @end
 

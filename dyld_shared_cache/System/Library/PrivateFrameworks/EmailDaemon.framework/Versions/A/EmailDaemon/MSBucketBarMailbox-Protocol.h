@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol MSBucketBarMailbox
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *bucketBarConfigurationIdentifier;
 @property(readonly, nonatomic) _Bool isInboxMailbox;
 @end
 

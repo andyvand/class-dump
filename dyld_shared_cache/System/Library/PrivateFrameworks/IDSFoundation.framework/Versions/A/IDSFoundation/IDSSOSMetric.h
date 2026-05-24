@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface IDSSOSMetric
 {
     unsigned long long _sosDomain;
-    unsigned long long _sosType;
-    long long _sosError;
-    NSString *_operationID;
 }
 
 + (id);
@@ -22,24 +17,13 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (void);
-- (id);
-- (id);
+- (void);
+- (id)h*;
+- (id)setNotifyOnMouse: /* Error: Ran out of types for this method. */;
 - (void)t nexus:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *name;
-@property(retain, nonatomic) NSString *operationID; // @synthesize operationID=_operationID;
 @property(nonatomic) unsigned long long sosDomain; // @synthesize sosDomain=_sosDomain;
-@property(nonatomic) long long sosError; // @synthesize sosError=_sosError;
-@property(nonatomic) unsigned long long sosType; // @synthesize sosType=_sosType;
-@property(readonly) Class superclass;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface IMDPersistence.StorageInspector
 {
     id options;
-    id schedulingBehavior;
 }
 
 + (id);

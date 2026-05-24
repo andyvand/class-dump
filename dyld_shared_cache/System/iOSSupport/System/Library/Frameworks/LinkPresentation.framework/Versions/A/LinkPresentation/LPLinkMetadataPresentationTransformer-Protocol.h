@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class LPWebLinkPresentationProperties, NSURL;
+
 @protocol LPLinkMetadataPresentationTransformer
+- (LPWebLinkPresentationProperties *)transcriptNavigationBarController;
+- (_Bool)trackBackgroundChangedFrom:(NSURL *)arg1 to:inConversation:context: /* Error: Ran out of types for this method. */;
 @end
 

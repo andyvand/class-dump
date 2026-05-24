@@ -7,18 +7,10 @@
 @interface ChatKit.EditorOverlayViewModel__priv_F7EA248AA0ED494224E5816BFBB9B75C
 {
     id _safeAreaInsets;
-    id _hostedContentSettings;
-    id titleConfiguration;
-    id headerImage;
-    id isGroupConversation;
-    id sampleContent;
-    id _backgroundLuminance;
-    id _invalidatable;
-    id _$observationRegistrar;
 }
 
-- (void);
-- (void);
+- (void)managedObjectContextChangeController:(id)arg1 performUpdatesForManagedObjectIDs:(id)arg2;
+- (void)managedObjectContextChangeController:(id)arg1 managedObjectIDsToUpdateForUpdatedManagedObjects:(id)arg2;
 - (void);
 - (id);
 - (void)y and Paste;

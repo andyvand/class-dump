@@ -11,7 +11,6 @@
 @interface MCActionForEachPlug : MCAction
 {
     MCAction *_action;
-    NSString *_prefix;
 }
 
 + (id);
@@ -27,7 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(retain) MCAction *action; // @synthesize action=_action;
 @property(copy) NSString *prefix; // @synthesize prefix=_prefix;
 
 @end

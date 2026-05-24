@@ -6,24 +6,22 @@
 
 #import <VideoSubscriberAccount/VSAsyncOperation.h>
 
-@class VSDeveloperServiceConnection, VSOptional;
+@class VSOptional;
 
 @interface VSDeveloperSettingsFetchOperation : VSAsyncOperation
 {
     VSOptional *_result;
-    VSDeveloperServiceConnection *_connection;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)ProgressAnimationSetup:(id)arg1 ]E3$_5FvP19FI_TMouseOverButtonEEE;
+- (id)D);
 - (void);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) VSDeveloperServiceConnection *connection; // @synthesize connection=_connection;
 @property(retain, nonatomic) VSOptional *result; // @synthesize result=_result;
 
 @end

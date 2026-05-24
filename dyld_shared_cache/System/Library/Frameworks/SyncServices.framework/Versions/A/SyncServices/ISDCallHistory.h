@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface ISDCallHistory
 {
     NSMutableArray *_callHistory;
-    NSString *_filename;
-    NSString *_clientIdentifier;
-    _Bool _saveCallHistoryAggressively;
 }
 
 - (void);

@@ -7,9 +7,9 @@
 @class CHSExtensionIdentity, NSString;
 
 @protocol CHSWidgetIdentifiable
+- (NSString *);
 
 // Remaining properties
 @property(readonly, nonatomic) CHSExtensionIdentity *extensionIdentity;
-@property(readonly, nonatomic) NSString *kind;
 @end
 

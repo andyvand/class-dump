@@ -8,7 +8,7 @@
 {
 }
 
-- (void);
+- (void), bundle_id, usage_id, is_system_client) VALUES (;
 - (id);
 - (void);
 - (void);

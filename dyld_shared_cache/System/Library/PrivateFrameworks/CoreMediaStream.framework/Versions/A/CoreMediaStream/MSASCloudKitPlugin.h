@@ -8,10 +8,10 @@
 {
 }
 
-+ (id);
-+ (void);
-+ (void);
-+ (id);
++ (id)ublic}@Failed to take a snapshot for session %{public,uuid_t}.16P:%@ /* Error: Ran out of types for this method. */;
++ (void)on payload is:(id)arg1 %@;
++ (void)ime period element found :(id)arg1 %@;
++ (id)accessory type %{public}@;
 
 @end
 

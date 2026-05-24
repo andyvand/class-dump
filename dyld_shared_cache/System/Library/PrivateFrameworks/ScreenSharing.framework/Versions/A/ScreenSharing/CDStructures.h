@@ -10,28 +10,19 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 
 #pragma mark Named Structures
 
-struct CGAffineTransform {
-    double a;
-    double b;
-    double c;
-    double d;
-    double tx;
-    double ty;
-};
-
 struct CGPoint {
-    double x;
-    double y;
+    double _field1;
+    double _field2;
 };
 
 struct CGRect {
-    struct CGPoint origin;
-    struct CGSize size;
+    struct CGPoint _field1;
+    struct CGSize _field2;
 };
 
 struct CGSize {
-    double width;
-    double height;
+    double _field1;
+    double _field2;
 };
 
 struct Point {
@@ -65,10 +56,10 @@ struct Rect {
 };
 
 struct SSOrientationDetails {
-    unsigned long long time_received;
-    _Bool disable_J99_hack;
-    struct CGSize dimensions;
-    int orientation;
+    unsigned long long _field1;
+    _Bool _field2;
+    struct CGSize _field3;
+    int _field4;
 };
 
 struct SSPoint {
@@ -77,8 +68,8 @@ struct SSPoint {
 };
 
 struct SSRect {
-    struct SSPoint origin;
-    struct SSSize size;
+    struct SSPoint _field1;
+    struct SSSize _field2;
 };
 
 struct SSSize {
@@ -124,17 +115,12 @@ struct __SecKey {
     void *_field3;
 };
 
-struct _opaque_pthread_mutex_t {
-    long long __sig;
-    char __opaque[56];
-};
-
 struct in6_addr {
     union {
-        unsigned char __u6_addr8[16];
-        unsigned short __u6_addr16[8];
-        unsigned int __u6_addr32[4];
-    } __u6_addr;
+        unsigned char _field1[16];
+        unsigned short _field2[8];
+        unsigned int _field3[4];
+    } _field1;
 };
 
 struct sockaddr {

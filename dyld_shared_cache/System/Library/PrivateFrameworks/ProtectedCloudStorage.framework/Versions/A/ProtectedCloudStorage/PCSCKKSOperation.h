@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSMutableArray;
+@class NSMutableArray;
 
 @interface PCSCKKSOperation
 {
     _Bool executing;
-    _Bool finished;
-    _Bool cancelled;
-    NSError *_error;
-    NSMutableArray *_successDependencies;
 }
 
 + (id);
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void);
@@ -27,16 +23,12 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)@;
 - (void);
 - (_Bool);
 - (void)cord, needs rpd;
 
 // Remaining properties
-@property(getter=isCancelled) _Bool cancelled; // @synthesize cancelled;
-@property(retain) NSError *error; // @synthesize error=_error;
-@property(getter=isExecuting) _Bool executing; // @synthesize executing;
-@property(getter=isFinished) _Bool finished; // @synthesize finished;
 @property(retain) NSMutableArray *successDependencies; // @synthesize successDependencies=_successDependencies;
 
 @end

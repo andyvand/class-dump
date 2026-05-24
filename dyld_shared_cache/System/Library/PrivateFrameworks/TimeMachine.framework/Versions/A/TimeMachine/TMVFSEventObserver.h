@@ -4,23 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore, OS_dispatch_source;
+@class NSDictionary, NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface TMVFSEventObserver
 {
     NSObject<OS_dispatch_queue> *_eventMonitorQueue;
-    NSObject<OS_dispatch_source> *_eventMonitor;
-    NSObject<OS_dispatch_semaphore> *_eventMonitorStoppedSemaphore;
-    _Bool _isMonitoring;
-    struct __DASession *_daSession;
-    NSDictionary *_lastMountedVolumesMap;
-    CDUnknownBlockType _diskWillAppearBlock;
-    CDUnknownBlockType _diskAppearedBlock;
-    CDUnknownBlockType _diskDisappearedBlock;
-    CDUnknownBlockType _diskPeekBlock;
-    NSMutableDictionary *_volumeTransactions;
 }
 
 - (id);
@@ -29,26 +19,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)!;
+- (id);
+- (CDUnknownBlockType);
+- (CDUnknownBlockType);
+- (CDUnknownBlockType)8h;
+- (CDUnknownBlockType);
 - (void);
 - (id);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (void);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType diskAppearedBlock; // @synthesize diskAppearedBlock=_diskAppearedBlock;
-@property(copy) CDUnknownBlockType diskDisappearedBlock; // @synthesize diskDisappearedBlock=_diskDisappearedBlock;
-@property(copy) CDUnknownBlockType diskPeekBlock; // @synthesize diskPeekBlock=_diskPeekBlock;
-@property(copy) CDUnknownBlockType diskWillAppearBlock; // @synthesize diskWillAppearBlock=_diskWillAppearBlock;
 @property(copy, nonatomic) NSDictionary *lastMountedVolumesMap; // @synthesize lastMountedVolumesMap=_lastMountedVolumesMap;
-@property(readonly) NSMutableDictionary *volumeTransactions; // @synthesize volumeTransactions=_volumeTransactions;
 
 @end
 

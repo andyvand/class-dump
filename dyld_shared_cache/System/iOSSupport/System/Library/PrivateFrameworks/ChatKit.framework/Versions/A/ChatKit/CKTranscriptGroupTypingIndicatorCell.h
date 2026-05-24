@@ -6,54 +6,45 @@
 
 #import <ChatKit/CKTranscriptTypingIndicatorCell.h>
 
-@class CNGroupAvatarViewController, NSArray, UIView;
+@class NSArray, UIView;
 
 @interface CKTranscriptGroupTypingIndicatorCell : CKTranscriptTypingIndicatorCell
 {
     NSArray *_typingHandles;
-    UIView *_avatarView;
-    CNGroupAvatarViewController *_groupAvatarViewController;
-    NSArray *_pendingTypingHandles;
-    long long _currentTypingCount;
-    struct CGRect _lastRemovedContactImageFrame;
 }
 
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (struct CGRect);
-- (id);
+- (_Bool)bnailConfiguration"16;
+- (void)postAlertForOwnerStoppedSharingCurrentFolderWithCompletionHandler:(id)arg1;
+- (void)isDeletingDictationAttachmentWithReplacementRange:(id)arg1 replacementLength: /* Error: Ran out of types for this method. */;
+- (void)initWithContentsOfURL:(struct CGRect)arg1;
+- (void)ic_preferredFontForDateText;
+- (void)ic_animatableTokenCharacterSet;
+- (void)_mergeableStringDelegates;
+- (void)_isCalculateResultAttachmentView;
+- (id)ingFixup;
+- (void)ICThumbnailCaching;
+- (struct CGRect)ICAttachmentThumbnailOperationQueue;
+- (id)q
+;
 - (long long);
-- (struct CGRect);
-- (double);
-- (struct CGRect);
+- (struct CGRect)patch_queueCGShyA1_GGA4_G;
+- (double)CGAKGGSo6ICNoteCGGSo0aB2IDCGSo17OS_dispatch_queueCGShyA1_GGA4_G;
+- (struct CGRect)e;
+- (void)s;
+- (void)alue for '%s';
+- (void);
+- (id)R;
+- (id);
+- (id)_accessibilityMediaAnalysisElement;
+- (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)convertPoint:(struct CGRect)arg1 toView: /* Error: Ran out of types for this method. */;
 - (void)!;
 - (void)e(void);
 
 // Remaining properties
 @property(retain, nonatomic) UIView *avatarView; // @synthesize avatarView=_avatarView;
-@property(nonatomic) long long currentTypingCount; // @synthesize currentTypingCount=_currentTypingCount;
-@property(retain, nonatomic) CNGroupAvatarViewController *groupAvatarViewController; // @synthesize groupAvatarViewController=_groupAvatarViewController;
-@property(nonatomic) struct CGRect lastRemovedContactImageFrame; // @synthesize lastRemovedContactImageFrame=_lastRemovedContactImageFrame;
-@property(retain, nonatomic) NSArray *pendingTypingHandles; // @synthesize pendingTypingHandles=_pendingTypingHandles;
-@property(readonly, copy, nonatomic) NSArray *typingHandles; // @synthesize typingHandles=_typingHandles;
 
 @end
 

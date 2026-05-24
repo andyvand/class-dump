@@ -4,38 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAGradientLayer, NSMapTable, NSMutableArray, NSString, VisualScrubberViewLayout;
-@protocol AccordionHostableExpansionRequestHandler, VisualScrubberViewControllerDelegate;
-
 __attribute__((visibility("hidden")))
 @interface VisualScrubberViewController
 {
     _Bool _shouldIgnoreTouchesWhenLoadingScrubber;
-    VisualScrubberViewLayout *_scrubberLayout;
-    NSMapTable *_itemsToItemViews;
-    CAGradientLayer *_leftDropOffGradient;
-    CAGradientLayer *_rightDropOffGradient;
-    NSMutableArray *_deferredOperations;
-    NSMutableArray *_functionBarSelectionTimestamps;
-    long long _functionBarProposedIndex;
-    id <VisualScrubberViewControllerDelegate> _delegate;
-    unsigned long long _selectedIndex;
-    unsigned long long _dropOffGradientModes;
-    NSMutableArray *_items;
 }
 
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (double);
+- (double);
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -54,7 +40,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)initWithType:domain:user:useCase:options: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)ôHH;
 - (unsigned long long)e;
@@ -63,22 +49,7 @@ __attribute__((visibility("hidden")))
 - (void)Ü;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <VisualScrubberViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(nonatomic) unsigned long long dropOffGradientModes; // @synthesize dropOffGradientModes=_dropOffGradientModes;
-@property(nonatomic) __weak id <AccordionHostableExpansionRequestHandler> expansionRequestHandler;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<AccordionHostableExpansionRequestHandler>",?,W,N
-
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableArray *items; // @synthesize items=_items;
-@property(readonly, nonatomic) unsigned long long numberOfItems;
-@property(nonatomic) unsigned long long selectedIndex; // @synthesize selectedIndex=_selectedIndex;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol IPAEditOperationOrdering
+- (unsigned long long)So18AVVideoCompositionC;
 @end
 

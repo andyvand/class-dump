@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCConnection;
+@class NSXPCConnection;
 
 @interface PMPrintServiceExtension
 {
     NSXPCConnection *_xpcConnection;
-    PMPrintServiceExtension *_extensionImplementation;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -22,22 +21,13 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) PMPrintServiceExtension *extensionImplementation; // @synthesize extensionImplementation=_extensionImplementation;
-@property(readonly) unsigned long long hash;
-@property(readonly) id principalObject; // @dynamic principalObject;
-@property(readonly) Class superclass;
 @property(retain) NSXPCConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
 
 @end

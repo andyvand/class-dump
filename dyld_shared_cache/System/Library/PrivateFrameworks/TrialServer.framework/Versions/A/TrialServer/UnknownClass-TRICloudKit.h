@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (TRICloudKit)
-+ (id);
-+ (id);
++ (id)identifierForKey:(id)arg1 keySpace:(long long)arg2;
++ (id)icoIdentifier;
 @end
 

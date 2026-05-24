@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HIDUserDevice, NSObject;
-@protocol OS_dispatch_queue;
-
 @interface AXEPhysicalMouse
 {
     _Bool __activated;
-    HIDUserDevice *__hidUserDevice;
-    NSObject<OS_dispatch_queue> *__hidUserDeviceQueue;
-    NSObject<OS_dispatch_queue> *__reportingQueue;
 }
 
++ (id);
 + (id);
 + (id);
-+ (id);
 - (void);
 - (void);
 - (void);
@@ -31,16 +25,13 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)_replaceSelectionWithFragment:selectReplacement:smartReplace:matchStyle: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool _activated; // @synthesize _activated=__activated;
-@property(retain, nonatomic) HIDUserDevice *_hidUserDevice; // @synthesize _hidUserDevice=__hidUserDevice;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *_hidUserDeviceQueue; // @synthesize _hidUserDeviceQueue=__hidUserDeviceQueue;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *_reportingQueue; // @synthesize _reportingQueue=__reportingQueue;
 
 @end
 

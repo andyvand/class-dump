@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INSpeakableString, NSNumber;
+@class NSNumber;
 
 @protocol INSetCarLockStatusIntentExport
+- (void);
 
 // Remaining properties
-@property(copy) INSpeakableString *carName;
 @property(copy) NSNumber *locked;
 @end
 

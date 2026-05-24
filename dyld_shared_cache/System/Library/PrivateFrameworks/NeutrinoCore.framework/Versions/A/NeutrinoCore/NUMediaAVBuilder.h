@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAsset, AVVideoComposition;
 @protocol NUContainerMedia;
 
 @interface NUMediaAVBuilder
 {
     id <NUContainerMedia> _container;
-    AVAsset *_videoAsset;
-    AVVideoComposition *_videoComposition;
 }
 
 - (_Bool);
@@ -19,13 +16,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)ferent auth data:(id)arg1 %@ vs. %@;
 - (void)UDevice>"24@?<B@?@"<MTLTexture>">32;
 
 // Remaining properties
 @property(readonly, nonatomic) id <NUContainerMedia> container; // @synthesize container=_container;
-@property(readonly, nonatomic) AVAsset *videoAsset; // @synthesize videoAsset=_videoAsset;
-@property(readonly, nonatomic) AVVideoComposition *videoComposition; // @synthesize videoComposition=_videoComposition;
 
 @end
 

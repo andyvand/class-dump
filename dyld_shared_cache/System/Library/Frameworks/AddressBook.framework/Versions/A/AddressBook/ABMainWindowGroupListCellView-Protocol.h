@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTextField, NSView;
+@class NSView;
 
 @protocol ABMainWindowGroupListCellView
 - (NSView *)1Â0@ù
@@ -13,6 +13,5 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSView *accessoryView;
-@property(nonatomic) NSTextField *textField;
 @end
 

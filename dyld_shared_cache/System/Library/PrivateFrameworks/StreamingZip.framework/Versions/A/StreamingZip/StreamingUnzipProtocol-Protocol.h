@@ -5,5 +5,7 @@
 //
 
 @protocol StreamingUnzipProtocol
+- (void);
+- (void);
 @end
 

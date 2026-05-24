@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSXPCInterface;
+
 @protocol TransparencyXPCProtocol
++ (NSXPCInterface *)o;
 @end
 

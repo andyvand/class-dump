@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSXPCConnection, NSXPCInterface;
+@class NSXPCInterface;
 
 @interface SPInstallationPolicy
 {
     NSXPCInterface *_interface;
-    NSXPCConnection *_connection;
-    _Bool _requireDaemon;
 }
 
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);

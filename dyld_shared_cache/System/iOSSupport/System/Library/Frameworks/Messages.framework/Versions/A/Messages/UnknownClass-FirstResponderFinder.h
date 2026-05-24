@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (FirstResponderFinder)
-+ (id);
++ (id);
 - (void);
 @end
 

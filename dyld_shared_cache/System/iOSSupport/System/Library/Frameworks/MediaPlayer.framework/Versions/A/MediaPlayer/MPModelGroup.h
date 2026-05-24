@@ -12,9 +12,9 @@
 {
 }
 
-+ (long long);
++ (long long)So12BMStreamBaseC;
 + (id);
-+ (void);
++ (void)%@;
 + (id);
 
 // Remaining properties

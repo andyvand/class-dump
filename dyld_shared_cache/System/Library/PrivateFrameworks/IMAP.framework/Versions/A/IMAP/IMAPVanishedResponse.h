@@ -6,25 +6,21 @@
 
 #import <IMAP/IMAPResponse.h>
 
-@class NSIndexSet;
-
 @interface IMAPVanishedResponse : IMAPResponse
 {
     _Bool _earlier;
-    NSIndexSet *_uids;
 }
 
 + (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)A;
 
 // Remaining properties
 @property(nonatomic) _Bool earlier; // @synthesize earlier=_earlier;
-@property(copy, nonatomic) NSIndexSet *uids; // @synthesize uids=_uids;
 
 @end
 

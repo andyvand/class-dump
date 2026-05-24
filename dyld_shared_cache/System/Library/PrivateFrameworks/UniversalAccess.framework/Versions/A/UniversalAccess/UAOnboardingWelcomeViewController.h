@@ -6,62 +6,44 @@
 
 #import <UniversalAccess/UAOnboardingViewController.h>
 
-@class NSButton, UAOnboardingWelcomeCategoryViewController, UAOnboardingWelcomeFeature;
-@protocol WelcomeViewControllerDelegate;
+@class NSButton, UAOnboardingWelcomeCategoryViewController;
 
 @interface UAOnboardingWelcomeViewController : UAOnboardingViewController
 {
     UAOnboardingWelcomeCategoryViewController *_visionCategoryViewController;
-    UAOnboardingWelcomeCategoryViewController *_hearingCategoryViewController;
-    UAOnboardingWelcomeCategoryViewController *_motorCategoryViewController;
-    UAOnboardingWelcomeCategoryViewController *_cognitiveCategoryViewController;
-    id <WelcomeViewControllerDelegate> _delegate;
-    NSButton *__visionButtonOverlay;
-    NSButton *__motorButtonOverlay;
-    NSButton *__hearingButtonOverlay;
-    NSButton *__cognitiveButtonOverlay;
 }
 
+- (id)SchemaHALForceFetchFailed";
+- (void)ly"b1"siriInputLocale"b1"powerState"b1};
+- (void)Ended";
+- (void)chemaHALCompanionDeviceDiscoveryContext";
+- (void)onds"b1};
+- (void)ed";
+- (void)ientEvent";
+- (void)ClientEvent";
+- (void)tEvent";
+- (id)ClientEvent";
+- (id)lis"b1"extendLatencyMillis"b1"outputTokensCount"b1"inputTokensCount"b1};
+- (void)maGATPnRMetrics";
+- (void)GATSchemaGATRequestStarted";
+- (id)maGATRegisterMediaEventFailed";
+- (void)ted";
+- (id)emaGATGenerativeRequestEventStarted";
+- (void)ed";
+- (id)ATSchemaGATCreateSessionEventStarted";
+- (void)TSchemaGATRegisterMediaContext";
+- (id)TSchemaGATImageResizingContext";
+- (void)eractionDonationContext";
+- (id)aFLClientEventMetadata";
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)s;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSButton *_cognitiveButtonOverlay; // @synthesize _cognitiveButtonOverlay=__cognitiveButtonOverlay;
-@property(retain, nonatomic) NSButton *_hearingButtonOverlay; // @synthesize _hearingButtonOverlay=__hearingButtonOverlay;
-@property(retain, nonatomic) NSButton *_motorButtonOverlay; // @synthesize _motorButtonOverlay=__motorButtonOverlay;
 @property(retain, nonatomic) NSButton *_visionButtonOverlay; // @synthesize _visionButtonOverlay=__visionButtonOverlay;
-@property(retain, nonatomic) UAOnboardingWelcomeCategoryViewController *cognitiveCategoryViewController; // @synthesize cognitiveCategoryViewController=_cognitiveCategoryViewController;
-@property(nonatomic) __weak id <WelcomeViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) UAOnboardingWelcomeFeature *feature; // @dynamic feature;
-@property(retain, nonatomic) UAOnboardingWelcomeCategoryViewController *hearingCategoryViewController; // @synthesize hearingCategoryViewController=_hearingCategoryViewController;
-@property(retain, nonatomic) UAOnboardingWelcomeCategoryViewController *motorCategoryViewController; // @synthesize motorCategoryViewController=_motorCategoryViewController;
-@property(retain, nonatomic) UAOnboardingWelcomeCategoryViewController *visionCategoryViewController; // @synthesize visionCategoryViewController=_visionCategoryViewController;
 
 @end
 

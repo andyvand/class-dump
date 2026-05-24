@@ -5,12 +5,10 @@
 //
 
 @protocol SCNConeJSExport
+- (void);
+- (void)_centersIgnoringContentInsets;
 
 // Remaining properties
-@property(nonatomic) double bottomRadius;
-@property(nonatomic) double height;
-@property(nonatomic) long long heightSegmentCount;
-@property(nonatomic) long long radialSegmentCount;
 @property(nonatomic) double topRadius;
 @end
 

@@ -6,13 +6,9 @@
 
 #import <NotesUI/ICBaseLayoutManager.h>
 
-@class NSTextStorage;
-
 @interface ICPreviewLayoutManager : ICBaseLayoutManager
 {
     _Bool _insideSystemPaper;
-    unsigned long long _maxCharacterCount;
-    NSTextStorage *_strongTextStorage;
 }
 
 - (id);
@@ -27,12 +23,10 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (void)wDidEnterFullscreen: /* Error: Ran out of types for this method. */;
+- (void)_webViewDidEnterFullscreen: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, getter=isInsideSystemPaper) _Bool insideSystemPaper; // @synthesize insideSystemPaper=_insideSystemPaper;
 @property(nonatomic) unsigned long long maxCharacterCount; // @synthesize maxCharacterCount=_maxCharacterCount;
-@property(retain, nonatomic) NSTextStorage *strongTextStorage; // @synthesize strongTextStorage=_strongTextStorage;
 
 @end
 

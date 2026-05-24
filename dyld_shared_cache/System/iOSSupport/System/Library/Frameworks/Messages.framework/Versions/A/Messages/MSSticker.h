@@ -4,95 +4,61 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSError, NSString, NSURL, NSUUID, UIImage;
+@class NSURL;
 @protocol IMImageDataProtocol;
 
 @interface MSSticker
 {
     NSURL *_imageFileURL;
-    NSString *_localizedDescription;
-    NSData *_data;
-    unsigned long long _stickerEffectType;
-    NSUUID *_stickerIdentifier;
-    NSString *_stickerName;
-    NSArray *_representations;
-    NSString *_externalURI;
-    NSDictionary *_attributionInfo;
-    NSData *_metadata;
-    NSString *_stickerPackGUID;
-    id <IMImageDataProtocol> __imageData;
-    NSError *__stickerError;
-    UIImage *__thumbnail;
 }
 
-+ (id);
-+ (id);
++ (id)Lb;
++ (id)E;
 + (_Bool);
 + (_Bool);
 + (struct CGSize);
 + (id);
-+ (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
++ (id)numberOfTapsRequired;
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)textField:insertInputSuggestion: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id)_initWithProviderIdentifier:groupName: /* Error: Ran out of types for this method. */;
+- (void)PXFeedTestCommentsSectionInfo;
+- (id)PXSharedLibrary_InvitationAlertTitle_HasSharedLibrary_macOS;
 - (id);
 - (unsigned long long);
+- (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (id);
 - (id);
 - (void);
 - (id);
+- (id);
+- (id)?;
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id)ns"24@?<v@?B>32;
 
 // Remaining properties
 @property(retain, nonatomic) id <IMImageDataProtocol> _imageData; // @synthesize _imageData=__imageData;
-@property(retain, nonatomic) NSError *_stickerError; // @synthesize _stickerError=__stickerError;
-@property(retain, nonatomic) UIImage *_thumbnail; // @synthesize _thumbnail=__thumbnail;
-@property(readonly, nonatomic) NSURL *animatedImageCacheURL;
-@property(readonly, nonatomic) NSDictionary *attributionInfo; // @synthesize attributionInfo=_attributionInfo;
-@property(readonly, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *externalURI; // @synthesize externalURI=_externalURI;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSURL *imageFileURL; // @synthesize imageFileURL=_imageFileURL;
-@property(readonly, copy, nonatomic) NSString *localizedDescription; // @synthesize localizedDescription=_localizedDescription;
-@property(readonly, nonatomic) NSData *metadata; // @synthesize metadata=_metadata;
-@property(readonly, nonatomic) NSArray *representations; // @synthesize representations=_representations;
-@property(nonatomic) unsigned long long stickerEffectType; // @synthesize stickerEffectType=_stickerEffectType;
-@property(readonly, nonatomic) NSUUID *stickerIdentifier; // @synthesize stickerIdentifier=_stickerIdentifier;
-@property(readonly, nonatomic) NSString *stickerName; // @synthesize stickerName=_stickerName;
-@property(retain, nonatomic) NSString *stickerPackGUID; // @synthesize stickerPackGUID=_stickerPackGUID;
-@property(readonly) Class superclass;
 
 @end
 

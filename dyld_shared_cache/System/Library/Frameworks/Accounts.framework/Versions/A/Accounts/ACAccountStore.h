@@ -4,24 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccountStoreCache, ACNotifyAccountCache, ACRemoteAccountStoreSession, ACTimedExpirer, NSMutableDictionary, NSObject, NSString, NSXPCListenerEndpoint;
-@protocol OS_dispatch_queue;
-
 @interface ACAccountStore
 {
     id _daemonAccountStoreDidChangeObserver;
-    NSMutableDictionary *_accountCache;
-    NSXPCListenerEndpoint *_endpoint;
-    ACRemoteAccountStoreSession *_remoteAccountStoreSession;
-    struct os_unfair_lock_s _remoteAccountStoreSessionLock;
-    ACTimedExpirer *_remoteAccountStoreSessionExpirer;
-    ACRemoteAccountStoreSession *_longLivedRemoteAccountStoreSession;
-    struct os_unfair_lock_s _longLivedRemoteAccountStoreSessionLock;
-    ACTimedExpirer *_longLivedRemoteAccountStoreSessionExpirer;
-    NSObject<OS_dispatch_queue> *_replyQueue;
-    ACNotifyAccountCache *__primaryAppleAccountCache;
-    ACAccountStoreCache *__testCache;
-    NSString *_effectiveBundleID;
 }
 
 @end

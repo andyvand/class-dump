@@ -6,31 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLXSchemaMARRSRepetitionDetectionEvaluated : SISchemaInstrumentationMessage
 {
     int _repetitionType;
-    int _ruleType;
-    float _noRepetitionConfidence;
-    float _fullRepetitionConfidence;
-    float _partialRepetitionConfidence;
-    struct {
-        unsigned int repetitionType:1;
-        unsigned int ruleType:1;
-        unsigned int noRepetitionConfidence:1;
-        unsigned int fullRepetitionConfidence:1;
-        unsigned int partialRepetitionConfidence:1;
-    } _has;
 }
 
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)n;
 - (int);
 - (float);
 - (float);
@@ -50,10 +37,10 @@
 - (void);
 - (int);
 - (id);
-- (void);
+- (void)SXNET_add_id_asc;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)0@ù
 × ;
@@ -61,17 +48,7 @@
 - (id)CarPlayDimensions",&,N,V_dimensions;
 
 // Remaining properties
-@property(nonatomic) float fullRepetitionConfidence; // @synthesize fullRepetitionConfidence=_fullRepetitionConfidence;
-@property(nonatomic) _Bool hasFullRepetitionConfidence;
-@property(nonatomic) _Bool hasNoRepetitionConfidence;
-@property(nonatomic) _Bool hasPartialRepetitionConfidence;
-@property(nonatomic) _Bool hasRepetitionType;
-@property(nonatomic) _Bool hasRuleType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) float noRepetitionConfidence; // @synthesize noRepetitionConfidence=_noRepetitionConfidence;
-@property(nonatomic) float partialRepetitionConfidence; // @synthesize partialRepetitionConfidence=_partialRepetitionConfidence;
 @property(nonatomic) int repetitionType; // @synthesize repetitionType=_repetitionType;
-@property(nonatomic) int ruleType; // @synthesize ruleType=_ruleType;
 
 @end
 

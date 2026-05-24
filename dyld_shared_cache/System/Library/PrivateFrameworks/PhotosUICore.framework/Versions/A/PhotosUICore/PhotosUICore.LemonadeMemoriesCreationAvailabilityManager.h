@@ -7,19 +7,6 @@
 @interface PhotosUICore.LemonadeMemoriesCreationAvailabilityManager
 {
     id __availabilityState;
-    id _featureAvailabilityMonitorState;
-    id __cardVisibilityState;
-    id logger;
-    id photoLibrary;
-    id id;
-    id _didStartPolling;
-    id sharedLibraryStatusProvider;
-    id sharedLibraryFilterState;
-    id _sharedLibraryStatusObservation;
-    id _sharedLibraryFilterStateObservation;
-    id _sharedLibraryViewMode;
-    id _featureAvailabilityMonitor;
-    id _$observationRegistrar;
 }
 
 - (void);

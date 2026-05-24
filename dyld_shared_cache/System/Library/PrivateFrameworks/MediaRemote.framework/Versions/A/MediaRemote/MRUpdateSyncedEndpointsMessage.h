@@ -14,14 +14,13 @@
 }
 
 - (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)or %@;
+- (id)IMNicknameAvatar;
 - (unsigned int);
 - (void)nesStoreSubscriptionIdentifier;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *endpoints;
-@property(readonly, nonatomic) unsigned int features;
 
 @end
 

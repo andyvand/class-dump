@@ -6,22 +6,12 @@
 
 #import <OfficeImport/PDSlideBase.h>
 
-@class NSMutableArray, OADColorMap, OADTextListStyle, OADTheme, PDPresentation;
+@class NSMutableArray, PDPresentation;
 
 __attribute__((visibility("hidden")))
 @interface PDSlideMaster : PDSlideBase
 {
     NSMutableArray *mSlideLayouts;
-    OADTheme *mTheme;
-    OADColorMap *mColorMap;
-    OADTextListStyle *mTitleTextStyle;
-    OADTextListStyle *mBodyTextStyle;
-    OADTextListStyle *mOtherTextStyle;
-    _Bool mHeaderPlaceholderIsVisible;
-    _Bool mFooterPlaceholderIsVisible;
-    _Bool mSlideNumberPlaceholderIsVisible;
-    _Bool mDateTimePlaceholderIsVisible;
-    PDPresentation *mPresentation;
 }
 
 - (id);
@@ -30,51 +20,46 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (id);
+- (void)%;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)$qw;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
+- (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (_Bool))(;
+- (_Bool)";
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
+- (id)J;
+- (_Bool)�:qC /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)A;
 - (void);
+- (id)	1;
 - (id);
-- (id);
-- (id);
+- (id)_coordinate;
 - (id);
 - (id);
 - (void)¤;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool dateTimePlaceholderIsVisible; // @synthesize dateTimePlaceholderIsVisible=mDateTimePlaceholderIsVisible;
-@property(nonatomic) _Bool footerPlaceholderIsVisible; // @synthesize footerPlaceholderIsVisible=mFooterPlaceholderIsVisible;
-@property(nonatomic) _Bool headerPlaceholderIsVisible; // @synthesize headerPlaceholderIsVisible=mHeaderPlaceholderIsVisible;
 @property(readonly, nonatomic) __weak PDPresentation *presentation; // @synthesize presentation=mPresentation;
-@property(retain, nonatomic) NSMutableArray *slideLayouts; // @synthesize slideLayouts=mSlideLayouts;
-@property(nonatomic) _Bool slideNumberPlaceholderIsVisible; // @synthesize slideNumberPlaceholderIsVisible=mSlideNumberPlaceholderIsVisible;
 
 @end
 

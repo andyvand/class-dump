@@ -9,37 +9,33 @@
 @interface RTLearnedLocation
 {
     RTLocation *_location;
-    unsigned long long _dataPointCount;
-    double _confidence;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)w, sizeOfNewListSize = %lu;
 + (double);
 + (id);
 + (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)calling completion handler (isDone:%@) /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)(;
 - (id);
-- (id);
+- (id)d and unauthenticated encryption protocols in the same proposal;
 - (id);
 - (double);
-- (void)veTimeFromDateTime:(double *)arg1 withCalendar:(double *)arg2;
-- (id)inatedUUIDs;
+- (void)removeTimeFromDateTime:(double *)arg1 withCalendar:(double *)arg2;
+- (id)_hallucinatedUUIDs;
 - (void),%@,failed to fetch active session details after retries with recoverable error %@;
 
 // Remaining properties
-@property(readonly, nonatomic) double confidence; // @synthesize confidence=_confidence;
-@property(readonly, nonatomic) unsigned long long dataPointCount; // @synthesize dataPointCount=_dataPointCount;
 @property(readonly, nonatomic) RTLocation *location; // @synthesize location=_location;
 
 @end

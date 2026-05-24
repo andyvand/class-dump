@@ -7,8 +7,6 @@
 @interface NewsCore.FeedItemDatabase
 {
     id fileURL;
-    id logger;
-    id storage;
 }
 
 @end

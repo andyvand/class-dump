@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)egister class %@, which is not an %@ subclass. This is not supported.;
 
 @end
 

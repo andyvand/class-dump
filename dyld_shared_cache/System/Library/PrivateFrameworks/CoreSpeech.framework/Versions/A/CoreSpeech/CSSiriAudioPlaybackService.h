@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSAudioSessionController, CSManualDuckingHandler, NSHashTable, NSMutableDictionary, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CSSiriAudioPlaybackService
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSHashTable *_listeners;
-    NSMutableDictionary *_activeSessionsByRequest;
-    NSMutableDictionary *_reusableSessionsByRequest;
-    CSAudioSessionController *_audioSessionController;
-    CSManualDuckingHandler *_manualDuckingHandler;
 }
 
 + (id);
@@ -24,11 +19,16 @@
 - (void);
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)Size=dd}60B76^@80;
 - (id);
+- (void);
+- (void)bottomLeft;
+- (void);
+- (void);
+- (void)noseCrest;
 - (void);
 - (void);
 - (void);
@@ -36,26 +36,15 @@
 - (void);
 - (void);
 - (void);
+- (void)*;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)etType:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)getTrialIdsForAssetType:withCompletion: /* Error: Ran out of types for this method. */;
 - (void)ndPass _notifySecondPassReject:(id)arg1 result:isSecondChanceCandidate:] /* Error: Ran out of types for this method. */;
 - (void)¸îùÿ¡=Ù²;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

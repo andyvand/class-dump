@@ -5,6 +5,6 @@
 //
 
 @protocol ATLStatefulDecoder
-- (void)hPublicKey:withEncryptionScheme:withError: /* Error: Ran out of types for this method. */;
+- (void)getServiceProviderData:withPublicKey:withEncryptionScheme:withError: /* Error: Ran out of types for this method. */;
 @end
 

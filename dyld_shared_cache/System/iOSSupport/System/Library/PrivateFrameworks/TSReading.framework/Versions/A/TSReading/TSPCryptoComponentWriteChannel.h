@@ -4,34 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol TSPComponentWriteChannel;
 
 @interface TSPCryptoComponentWriteChannel
 {
     id <TSPComponentWriteChannel> _writeChannel;
-    struct _CCCryptor *_cryptor;
-    char *_buffer;
-    struct {
-        unsigned int ctx[96];
-    } _ccHmacContext;
 }
 
-- (id);
+- (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void)jectToken;
+- (void)_modifyObjectToken;
 - (void)Õ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

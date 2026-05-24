@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSScene, NSSceneConfiguration, NSString;
+@class NSString;
 
 @interface NSSceneSession
 {
     id underlyingPersistentIdentifier;
-    id underlyingScene;
-    id underlyingConfiguration;
-    void userInfo;
 }
 
 + (_Bool)ÿÿ;
@@ -28,10 +25,7 @@
 - (void)X¥ÿ¤c*©E;
 
 // Remaining properties
-@property(nonatomic, readonly) NSSceneConfiguration *configuration;
 @property(nonatomic, readonly) NSString *persistentIdentifier;
-@property(nonatomic, readonly) NSScene *scene;
-@property(nonatomic, copy) NSDictionary *userInfo;
 
 @end
 

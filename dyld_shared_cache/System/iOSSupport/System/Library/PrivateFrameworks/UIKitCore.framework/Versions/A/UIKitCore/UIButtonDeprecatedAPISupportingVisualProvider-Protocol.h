@@ -7,9 +7,11 @@
 @class UIFont;
 
 @protocol UIButtonDeprecatedAPISupportingVisualProvider
+- (_Bool);
+- (struct CGSize)nousRemoteObject %{public}@;
 - (_Bool)]Ð1Â0@ù
 × ;
-- (void)ayoutAxis;
+- (void)auxillaryHostLayoutAxis;
 - (UIFont *)¼);
 - (void)UISplitViewController, %@;
 - (long long)the navigation bar (activeLayout is nil with non-nil inactiveLayout). ;

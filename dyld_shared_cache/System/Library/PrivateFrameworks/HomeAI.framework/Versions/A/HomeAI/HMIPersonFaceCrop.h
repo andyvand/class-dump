@@ -11,7 +11,6 @@
 @interface HMIPersonFaceCrop : HMIFaceCrop
 {
     NSUUID *_personUUID;
-    long long _source;
 }
 
 + (_Bool);
@@ -19,16 +18,15 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
-- (id);
-- (long long);
+- (id)>, KeyTraits = WTF:(struct _NSZone *)arg1:HashTraits<WebCore::SecurityOriginData>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (long long);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, copy) NSUUID *personUUID; // @synthesize personUUID=_personUUID;
-@property(readonly) long long source; // @synthesize source=_source;
 
 @end
 

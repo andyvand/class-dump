@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDXPCMessageSendPolicyParameters
 {
@@ -13,17 +11,16 @@ __attribute__((visibility("hidden")))
 }
 
 - (unsigned long long);
-- (_Bool);
+- (_Bool)h�\�$�(;
 - (unsigned long long)±1Â0@ù
 × ;
-- (id)rror:(struct _NSZone *)arg1;
+- (id)queryCompleteForAccessory:(struct _NSZone *)arg1 productionMode:error: /* Error: Ran out of types for this method. */;
 - (id)sponse resulted with error %@;
 - (id)itation request to user, %@, due to error:%@ /* Error: Ran out of types for this method. */;
-- (id)itorConfirmedDeviceIdentifierChangeNotification;
+- (id)HMDPrimaryResidentChangeMonitorConfirmedDeviceIdentifierChangeNotification;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long entitlements; // @synthesize entitlements=_entitlements;
-@property(readonly, copy) NSString *signature;
 
 @end
 

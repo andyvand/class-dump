@@ -6,7 +6,7 @@
 
 #import <ContactsUI/CNPropertySimpleEditingCell.h>
 
-@class CNSocialProfile, NSString;
+@class CNSocialProfile;
 
 __attribute__((visibility("hidden")))
 @interface CNPropertySocialProfileEditingCell : CNPropertySimpleEditingCell
@@ -14,19 +14,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
+- (void)qa;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) CNSocialProfile *profile;
-@property(readonly) Class superclass;
 
 @end
 

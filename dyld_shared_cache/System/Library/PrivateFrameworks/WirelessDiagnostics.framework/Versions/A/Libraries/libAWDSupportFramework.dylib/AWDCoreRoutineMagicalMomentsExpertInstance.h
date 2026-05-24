@@ -9,35 +9,24 @@
 @interface AWDCoreRoutineMagicalMomentsExpertInstance
 {
     NSMutableArray *_addons;
-    int _confidence;
-    int _expertType;
-    NSMutableArray *_instances;
-    int _modelType;
-    int _sampleCounts;
-    struct {
-        unsigned int confidence:1;
-        unsigned int expertType:1;
-        unsigned int modelType:1;
-        unsigned int sampleCounts:1;
-    } _has;
 }
 
 + (Class);
 + (Class);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (int);
-- (id);
+- (id),;
 - (_Bool);
 - (_Bool);
 - (int);
-- (void);
-- (void);
+- (void));
+- (void)Q;
 - (unsigned long long);
 - (id);
 - (id);
@@ -52,9 +41,9 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long))?;
 - (_Bool);
-- (_Bool);
+- (_Bool)(;
 - (void);
 - (void);
 - (id);
@@ -65,16 +54,7 @@
 ;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *addons; // @synthesize addons=_addons;
-@property(nonatomic) int confidence; // @synthesize confidence=_confidence;
-@property(nonatomic) int expertType; // @synthesize expertType=_expertType;
-@property(nonatomic) _Bool hasConfidence;
-@property(nonatomic) _Bool hasExpertType;
 @property(nonatomic) _Bool hasModelType;
-@property(nonatomic) _Bool hasSampleCounts;
-@property(retain, nonatomic) NSMutableArray *instances; // @synthesize instances=_instances;
-@property(nonatomic) int modelType; // @synthesize modelType=_modelType;
-@property(nonatomic) int sampleCounts; // @synthesize sampleCounts=_sampleCounts;
 
 @end
 

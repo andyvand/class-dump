@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSDictionary;
 
 @interface PKSecureElementPassFieldCollection
 {
     NSDictionary *_fieldsDictionary;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)IN_PLAN_COMPLETION_DATE_TITLE;
+- (void)ACCOUNT_SERVICE_BILL_PAYMENT_CATEGORY_PAY_IN_PLAN_COMPLETION_DATE_TITLE;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *balanceFields;
-@property(readonly, copy, nonatomic) NSArray *commutePlans;
 @property(copy, nonatomic) NSDictionary *fieldsDictionary; // @synthesize fieldsDictionary=_fieldsDictionary;
 
 @end

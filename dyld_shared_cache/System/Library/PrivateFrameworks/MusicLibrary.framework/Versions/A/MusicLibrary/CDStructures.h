@@ -17,8 +17,6 @@ struct CGSize {
     double _field2;
 };
 
-struct DAAPParserDelegate;
-
 struct Element;
 
 struct ML3DAAPDeleteImportItem;
@@ -30,8 +28,8 @@ struct ML3ImportItem;
 struct ML3VirtualTableDataSource;
 
 struct _NSRange {
-    unsigned long long location;
-    unsigned long long length;
+    unsigned long long _field1;
+    unsigned long long _field2;
 };
 
 struct __shared_weak_count;
@@ -49,12 +47,7 @@ struct map<unsigned int, unsigned long, std::less<unsigned int>, std::allocator<
 };
 
 struct os_unfair_lock_s {
-    unsigned int _os_unfair_lock_opaque;
-};
-
-struct shared_ptr<DAAPParserDelegate> {
-    struct DAAPParserDelegate *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    unsigned int _field1;
 };
 
 struct shared_ptr<ML3CPP::Element> {
@@ -78,8 +71,8 @@ struct shared_ptr<ML3ImportItem> {
 };
 
 struct shared_ptr<ML3VirtualTableDataSource> {
-    struct ML3VirtualTableDataSource *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    struct ML3VirtualTableDataSource *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 struct sqlite3_module {
@@ -170,14 +163,6 @@ struct vector<std::unordered_set<std::string>, std::allocator<std::unordered_set
     } _field3;
 };
 
-struct vector<unsigned char, std::allocator<unsigned char>> {
-    char *__begin_;
-    char *__end_;
-    struct {
-        char *__cap_;
-    } ;
-};
-
 #pragma mark Typedef'd Structures
 
 typedef struct {
@@ -219,9 +204,9 @@ typedef struct shared_ptr<ML3ImportItem> {
 } shared_ptr_de333b55;
 
 typedef struct shared_ptr<ML3VirtualTableDataSource> {
-    struct ML3VirtualTableDataSource *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} shared_ptr_c3e79333;
+    struct ML3VirtualTableDataSource *_field1;
+    struct __shared_weak_count *_field2;
+} shared_ptr_51413f64;
 
 typedef struct vector<long long, std::allocator<long long>> {
     long long *__begin_;

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSSet, NSString;
+@class NSData, NSSet;
 
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterFirewallRuleManagerBackingStoreMirrorInternalStateModel
@@ -13,24 +13,16 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id);
++ (id)fatherInLawOriya;
 + (id)mÔä;
 + (id)Æ¼;
 - (void);
+- (id)_fullDescription;
 - (id);
-- (id);
-- (void)RIDGE_ACCESSORIES_HOME_BEHAVIOR_TITLE;
+- (void)BRIDGE_ACCESSORIES_HOME_BEHAVIOR_TITLE;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *archivedLastSynchronizedRecordIDs; // @dynamic archivedLastSynchronizedRecordIDs;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSSet *lastSynchronizedRecordIDs; // @synthesize lastSynchronizedRecordIDs=_lastSynchronizedRecordIDs;
-@property(readonly) Class superclass;
 
 @end
 

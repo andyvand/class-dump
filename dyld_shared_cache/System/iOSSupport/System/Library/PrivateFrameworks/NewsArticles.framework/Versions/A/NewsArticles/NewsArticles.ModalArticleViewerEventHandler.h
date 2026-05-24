@@ -7,10 +7,6 @@
 @interface NewsArticles.ModalArticleViewerEventHandler
 {
     id delegate;
-    id interactor;
-    id router;
-    id tracker;
-    id brandBarConfigManager;
 }
 
 @end

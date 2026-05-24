@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
-
 @interface FontParser.AnyVectorFont
 {
 }
@@ -37,7 +35,7 @@
 - (long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -47,18 +45,18 @@
 - (struct CGRect);
 - (struct CGFloat2);
 - (void);
+- (long long);
 - (long long);
-- (long long);
-- (long long);
+- (long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)!;
 - (void);
 - (struct CGRect);
 - (struct CGSize);
 - (_Bool);
 - (struct FPFontInfo);
-- (long long);
+- (long long);
 - (long long);
 - (void);
 - (id);
@@ -68,53 +66,25 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)}
+;
 - (id);
 - (id);
 - (id);
 - (id);
 - (const struct __CFCharacterSet *);
-- (unsigned int);
+- (unsigned int)=;
 - (unsigned int)þÿLþÿxþÿ¬þÿÄþÿÜþÿôþÿ(þÿþÿ<þÿTþÿlþÿþÿþÿPþÿhþÿþÿ¸þÿØþÿðþÿ þÿ  þÿ8 þÿP þÿh þÿ þÿ  þÿ¸ þÿÐ þÿð þÿ¡þÿ0¡þÿH¡þÿh¡þÿ¡þÿØ¡þÿ¢þÿT¢þÿ¢þÿ¬¢þÿÄ¢þÿÜ¢þÿô¢þÿ£þÿ$£þÿ<£þÿT£þÿl£þÿ£þÿ£þÿ¼£þÿÜ£þÿô£þÿ¤þÿ¤þÿ´¤þÿÌ¤þÿä¤þÿü¤þÿ¥þÿ,¥þÿD¥þÿ\¥þÿt¥þÿ¥þÿ¬¥þÿÌ¥þÿì¥þÿ¦þÿ$¦þÿ<¦þÿT¦þÿl¦þÿ¦þÿ°¦þÿÜ¦þÿô¦þÿ,§þÿd§þÿ8¨þÿ|¨þÿÀ¨þÿØ¨þÿü¨þÿ©þÿ,©þÿD©þÿ\©þÿt©þÿ©þÿ¤©þÿ¼©þÿ«þÿ<«þÿ«þÿÜ«þÿô«þÿ¬þÿt¬þÿ¬þÿ¤¬þÿô¬þÿ ­þÿÜ­þÿô­þÿ®þÿ$®þÿ<®þÿT®þÿl®þÿ®þÿ®þÿÜ¯þÿ±þÿ,±þÿ|±þÿÈ°þÿì¯þÿ°þÿ,°þÿL°þÿØ°þÿh°þÿ°þÿ,²þÿD²þÿ\²þÿt²þÿ²þÿ¤²þÿÜ²þÿü²þÿ³þÿ´þÿ,´þÿL´þÿl´þÿ´þÿ¤´þÿ¼´þÿÜ´þÿô´þÿµþÿ,µþÿDµþÿdµþÿµþÿ¤µþÿ¼µþÿX¶þÿp¶þÿ¶þÿ ¶þÿ¸¶þÿÐ¶þÿ·þÿ4·þÿL·þÿd·þÿ|·þÿ·þÿ¬·þÿÄ·þÿÜ·þÿô·þÿ¬¹þÿÄ¹þÿÜ¹þÿ4ºþÿLºþÿlºþÿºþÿ¤ºþÿ¼ºþÿÜºþÿ°¼þÿÈ¼þÿ;
 - (id)A204A205A206A207A208A209A20AA20BA20CA20DA20EA20FA210A211A212A213A214A215A216A217A218A219A21AA21BA21CA21DA21EA21FA220A221A222A223A224A225A226A227A228A229A22AA22BA22CA22DA22EA22FA230A231A232A233A234A235A236A237A238A239A23AA23BA23CA23DA23EA23FA240A241A242A243A244A245A246A247A248A249A24AA24BA24CA24DA24EA24FA250A251A252A253A254A255A256A257A258A259A25AA25BA25CA25DA25EA25FA260A261A262A263A264A265A266A267A268A269A26AA26BA26CA26DA26EA26FA270A271A272A273A274A275A276A277A278A279A27AA27BA27CA27DA27EA27FA280A281A282A283A284A285A286A287A288A289A28AA28BA28CA28DA28EA28FA290A291A292A293A294A295A296A297A298A299A29AA29BA29CA29DA29EA29FA2A0A2A1A2A2A2A3A2A4A2A5A2A6A2A7A2A8A2A9A2AAA2ABA2ACA2ADA2AEA2AFA2B0A2B1A2B2A2B3A2B4A2B5A2B6A2B7A2B8A2B9A2BAA2BBA2BCA2BDA2BEA2BFA2C0A2C1A2C2A2C3A2C4A2C5A2C6A2C7A2C8A2C9A2CAA2CBA2CCA2CDA2CEA2CFA2D0A2D1A2D2A2D3A2D4A2D5A2D6A2D7A2D8A2D9A2DAA2DBA2DCA2DDA2DEA2DFA2E0A2E1A2E2A2E3A2E4A2E5A2E6A2E7A2E8A2E9A2EAA2EBA2ECA2EDA2EEA2EFA2F0A2F1A2F2A2F3A2F4A2F5A2F6A2F7A2F8A2F9A2FAA2FBA2FCA2FDA2FEA2FFA300A301A302A303A304A305A306A307A308A309A30AA30BA30CA30DA30EA30FA310A311A312A313A314A315A316A317A318A319A31AA31BA31CA31DA31EA31FA320A321A322A323A324A325A326A327A328A329A32AA32BA32CA32DA32EA32FA330A331A332A333A334A335A336A337A338A339A33AA33BA33CA33DA33EA33FA340A341A342A343A344A345A346A347A348A349A34AA34BA34CA34DA34EA34FA350A351A352A353A354A355A356A357A358A359A35AA35BA35CA35DA35EA35FA360A361A362A363A364A365A366A367A368A369A36AA36BA36CA36DA36EA36FA370A371A372A373A374A375A376A377A378A379A37AA37BA37CA37DA37EA37FA380A381A382A383A384A385A386A387A388A389A38AA38BA38CA38DA38EA38FA390A391A392A393A394A395A396A397A398A399A39AA39BA39CA39DA39EA39FA3A0A3A1A3A2A3A3A3A4A3A5A3A6A3A7A3A8A3A9A3AAA3ABA3ACA3ADA3AEA3AFA3B0A3B1A3B2A3B3A3B4A3B5A3B6A3B7A3B8A3B9A3BAA3BBA3BCA3BDA3BEA3BFA3C0A3C1A3C2A3C3A3C4A3C5A3C6A3C7A3C8A3C9A3CAA3CBA3CCA3CDA3CEA3CFA3D0A3D1A3D2A3D3A3D4A3D5A3D6A3D7A3D8A3D9A3DAA3DBA3DCA3DDA3DEA3DFA3E0A3E1A3E2A3E3A3E4A3E5A3E6A3E7A3E8A3E9A3EAA3EBA3ECA3EDA3EEA3EFA3F0A3F1A3F2A3F3A3F4A3F5A3F6A3F7A3F8A3F9A3FAA3FBA3FCA3FDA3FEA3FFA400A401A402A403A404A405A406A407A408A409A40AA40BA40CA40DA40EA40FA410A411A412A413A414A415A416A417A418A419A41AA41BA41CA41DA41EA41FA420A421A422A423A424A425A426A427A428A429A42AA42BA42CA42DA42EA42FA430A431A432A433A434A435A436A437A438A439A43AA43BA43CA43DA43EA43FA440A441A442A443A444A445A446A447A448A449A44AA44BA44CA44DA44EA44FA450A451A452A453A454A455A456A457A458A459A45AA45BA45CA45DA45EA45FA460A461A462A463A464A465A466A467A468A469A46AA46BA46CA46DA46EA46FA470A471A472A473A474A475A476A477A478A479A47AA47BA47CA47DA47EA47FA480A481A482A483A484A485A486A487A488A489A48AA48BA48CA490A491A492A493A494A495A496A497A498A499A49AA49BA49CA49DA49EA49FA4A0A4A1A4A2A4A3A4A4A4A5A4A6A4A7A4A8A4A9A4AAA4ABA4ACA4ADA4AEA4AFA4B0A4B1A4B2A4B3A4B4A4B5A4B6A4B7A4B8A4B9A4BAA4BBA4BCA4BDA4BEA4BFA4C0A4C1A4C2A4C3A4C4A4C5A4C6;
 - (const struct __CFDictionary *)nív;
 
 // Remaining properties
-@property(nonatomic, readonly) NSArray *additionalPostScriptNames;
-@property(nonatomic, readonly) NSArray *allNames;
-@property(nonatomic, readonly) const struct __CFCharacterSet *characterSet;
-@property(nonatomic, readonly) long long dataResidence;
-@property(nonatomic, readonly) FontParser.AnyVectorFont *defaultInstance;
-@property(nonatomic, readonly) long long encodingType;
-@property(nonatomic, readonly) NSString *familyName;
-@property(nonatomic, readonly) struct FPFontInfo fontInfo;
-@property(nonatomic, readonly) NSString *fullName;
-@property(nonatomic, readonly) _Bool hasNamedInstanceWithOpticalSize;
-@property(nonatomic, readonly) NSString *instanceName;
-@property(nonatomic, readonly) unsigned short instanceNameID;
-@property(nonatomic, readonly) _Bool isBitmapOnly;
-@property(nonatomic, readonly) _Bool isNamedInstance;
-@property(nonatomic, readonly) _Bool isSFNT;
-@property(nonatomic, readonly) _Bool isSuitcase;
-@property(nonatomic, readonly) NSDictionary *metadata;
-@property(nonatomic, readonly) NSString *nameTablePostScriptName;
-@property(nonatomic, readonly) const struct __CFDictionary *names;
 @property(nonatomic, readonly) unsigned int numberOfGlyphs;
-@property(nonatomic, readonly) NSString *postScriptName;
-@property(nonatomic, readonly) unsigned int protectionInfo;
-@property(nonatomic, readonly) NSData *sfntData;
-@property(nonatomic, readonly) NSDictionary *splicedStash;
-@property(nonatomic, readonly) NSArray *tableTags;
-@property(nonatomic, readonly) NSArray *type1Encoding;
-@property(nonatomic, readonly) unsigned short unitsPerEm;
-@property(nonatomic, readonly) struct FPFontVMetrics vMetrics;
-@property(nonatomic, readonly) NSString *variationPostScriptNamePrefix;
-@property(nonatomic, readonly) NSArray *variationScalars;
 
 @end
 

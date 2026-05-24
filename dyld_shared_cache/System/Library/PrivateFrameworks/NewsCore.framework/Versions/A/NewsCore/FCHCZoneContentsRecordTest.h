@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSString;
 
 @interface FCHCZoneContentsRecordTest
 {
     NSString *_recordType;
-    NSArray *_unencryptedFields;
-    NSArray *_encryptedFields;
-    NSDictionary *_expectedValues;
 }
 
 - (id);
@@ -22,13 +19,10 @@
 - (id);
 - (id);
 - (void);
-- (void)tadata;
+- (void)stocksMetadata;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *encryptedFields; // @synthesize encryptedFields=_encryptedFields;
-@property(copy, nonatomic) NSDictionary *expectedValues; // @synthesize expectedValues=_expectedValues;
 @property(copy, nonatomic) NSString *recordType; // @synthesize recordType=_recordType;
-@property(copy, nonatomic) NSArray *unencryptedFields; // @synthesize unencryptedFields=_unencryptedFields;
 
 @end
 

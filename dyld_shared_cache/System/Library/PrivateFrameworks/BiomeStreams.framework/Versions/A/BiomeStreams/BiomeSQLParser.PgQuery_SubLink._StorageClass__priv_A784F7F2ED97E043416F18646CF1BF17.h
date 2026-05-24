@@ -7,12 +7,6 @@
 @interface BiomeSQLParser.PgQuery_SubLink._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _xpr;
-    id _subLinkType;
-    id _subLinkID;
-    id _testexpr;
-    id _operName;
-    id _subselect;
-    id _location;
 }
 
 @end

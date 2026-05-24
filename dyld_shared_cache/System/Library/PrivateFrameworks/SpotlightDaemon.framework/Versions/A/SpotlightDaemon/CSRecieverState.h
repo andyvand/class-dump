@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSReceiverPreferences, NSSet;
+@class CSReceiverPreferences;
 
 @interface CSRecieverState
 {
     int _notifyToken;
-    CSReceiverPreferences *_receiverPreferences;
-    NSSet *_enabledBundleIdentifiers;
-    NSSet *_disabledBundleIdentifiers;
 }
 
 + (id);
 - (_Bool);
+- (id)ak_count}}16@0:8 /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)tel duikertje;
 - (void);
 - (id);
 - (int);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *disabledBundleIdentifiers; // @synthesize disabledBundleIdentifiers=_disabledBundleIdentifiers;
-@property(readonly, nonatomic) NSSet *enabledBundleIdentifiers; // @synthesize enabledBundleIdentifiers=_enabledBundleIdentifiers;
-@property(readonly, nonatomic) int notifyToken; // @synthesize notifyToken=_notifyToken;
 @property(readonly, nonatomic) CSReceiverPreferences *receiverPreferences; // @synthesize receiverPreferences=_receiverPreferences;
 
 @end

@@ -7,36 +7,28 @@
 @interface AWDIDSConnectedAfterPipeConnectedTimeInMs
 {
     long long _connectionTimeInMs;
-    unsigned long long _timestamp;
-    struct {
-        unsigned int connectionTimeInMs:1;
-        unsigned int timestamp:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (long long);
+- (long long)Q;
 - (id);
 - (void);
 - (void);
+- (unsigned long long)";
 - (unsigned long long);
-- (unsigned long long);
 - (_Bool);
+- (_Bool)t;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) long long connectionTimeInMs; // @synthesize connectionTimeInMs=_connectionTimeInMs;
-@property(nonatomic) _Bool hasConnectionTimeInMs;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

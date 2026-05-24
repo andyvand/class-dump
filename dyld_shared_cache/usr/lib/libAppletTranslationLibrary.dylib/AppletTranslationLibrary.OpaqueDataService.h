@@ -9,7 +9,9 @@
 }
 
 + (id);
-- (id);
+- (id)ID        text,
+   event       text,
+   timestamp   float);;
 
 @end
 

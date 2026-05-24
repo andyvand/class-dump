@@ -4,38 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SGQuickResponsesModel, SGQuickResponsesPersonalization, SGQuickResponsesRanking, SGQuickResponsesStore, _PASRng;
+@class SGQuickResponsesStore;
 
 @interface SGQuickResponsesInference
 {
     SGQuickResponsesStore *_store;
-    SGQuickResponsesModel *_model;
-    SGQuickResponsesRanking *_ranking;
-    SGQuickResponsesPersonalization *_personalization;
-    _PASRng *_rng;
 }
 
 + (id);
++ (void);
 + (void);
-+ (void);
++ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)P;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

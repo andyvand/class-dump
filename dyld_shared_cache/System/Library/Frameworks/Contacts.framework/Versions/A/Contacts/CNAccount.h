@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CNAccount
 {
     int _iOSLegacyIdentifier;
-    NSString *_identifier;
-    NSString *_externalIdentifierString;
 }
 
 @end

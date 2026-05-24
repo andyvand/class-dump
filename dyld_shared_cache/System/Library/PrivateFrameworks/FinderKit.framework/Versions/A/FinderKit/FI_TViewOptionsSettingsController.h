@@ -10,32 +10,25 @@ __attribute__((visibility("hidden")))
 @interface FI_TViewOptionsSettingsController
 {
     FI_TNodeViewSettings *_targetedViewOptionsSettings;
-    int _viewStyleForViewOptions;
-    _Bool _shouldShowLibraryFolderButton;
-    _Bool _shouldShowLibraryFolder;
 }
 
 + (void);
 + (id);
 - (int);
 - (id);
+- (_Bool)qA;
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)subjects ON messages.subject = subjects.ROWID         LEFT OUTER JOIN addresses AS sender ON messages.sender = sender.ROWID         LEFT OUTER JOIN mailboxes AS remote ON messages.remote_mailbox = remote.ROWID         LEFT OUTER JOIN conversations as conversation ON messages.conversation_id = conversation.conversation_id         WHERE messages.ROWID = ?;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool shouldShowLibraryFolder; // @synthesize shouldShowLibraryFolder=_shouldShowLibraryFolder;
-@property(nonatomic) _Bool shouldShowLibraryFolderButton; // @synthesize shouldShowLibraryFolderButton=_shouldShowLibraryFolderButton;
-@property(nonatomic) _Bool shouldShowPreviewPane;
 @property(retain, nonatomic) FI_TNodeViewSettings *targetedViewOptionsSettings;
-@property(nonatomic) int viewStyleForViewOptions; // @synthesize viewStyleForViewOptions=_viewStyleForViewOptions;
 
 @end
 

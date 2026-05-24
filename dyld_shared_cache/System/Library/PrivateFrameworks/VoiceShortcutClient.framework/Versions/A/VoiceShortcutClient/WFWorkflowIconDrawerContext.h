@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 @interface WFWorkflowIconDrawerContext
 {
     struct CGFont *_glyphFont;
-    struct __CTFont *_glyphTestFont;
-    NSSet *_coreGlyphsCatalogs;
 }
 
-+ (double);
++ (double);
 + (id);
 - (struct __CTFont *);
 - (struct __CTFont *);
@@ -24,9 +20,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *coreGlyphsCatalogs; // @synthesize coreGlyphsCatalogs=_coreGlyphsCatalogs;
 @property(readonly, nonatomic) struct CGFont *glyphFont; // @synthesize glyphFont=_glyphFont;
-@property(readonly, nonatomic) struct __CTFont *glyphTestFont; // @synthesize glyphTestFont=_glyphTestFont;
 
 @end
 

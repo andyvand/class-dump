@@ -6,27 +6,18 @@
 
 #import <BiomeStreams/BMEventBase.h>
 
-@class NSString;
-
 @interface BMEventBinarySteppingImplementor : BMEventBase
 {
     _Bool starting;
 }
 
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)I;
+- (_Bool);
 - (void)windowClause":(_Bool)arg1;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic, getter=isStarting) _Bool starting; // @synthesize starting;
-@property(readonly) Class superclass;
 
 @end
 

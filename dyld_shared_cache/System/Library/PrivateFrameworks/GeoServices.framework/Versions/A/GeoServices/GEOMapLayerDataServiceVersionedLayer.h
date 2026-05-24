@@ -4,32 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapLayerDataServiceLayer, GEOMapLayerDataServiceVersion, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOMapLayerDataServiceVersionedLayer
 {
     PBDataReader *_reader;
-    GEOMapLayerDataServiceLayer *_layer;
-    GEOMapLayerDataServiceVersion *_version;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_layer:1;
-        unsigned int read_version:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)alidationTimer fired :VoiceTriggerEnabled(%d), shouldBeAOPMode(%d), currentState(%d) /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id)sCount;
+- (_Bool)mC@9ka;
+- (id)`";
+- (id)versionDomainsCount;
 - (id)N;
 - (id)øCC;
 - (void)q;

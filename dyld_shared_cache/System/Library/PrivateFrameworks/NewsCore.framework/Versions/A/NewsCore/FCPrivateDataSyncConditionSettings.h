@@ -9,7 +9,7 @@
 }
 
 - (_Bool);
-- (id);
+- (id)9;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isSatisfied) _Bool satisfied;

@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     struct __IOHIDManager *_hidManager;
 }
 
-- (void);
-- (void);
+- (void)d;
+- (void);
 - (id);
 - (_Bool);
-- (void)wnScale;
+- (void)verticalVolumeDownScale;
 
 @end
 

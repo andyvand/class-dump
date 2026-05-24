@@ -10,7 +10,7 @@
 {
 }
 
-- (void);
+- (void)ublic}@, domain:%{public}@) /* Error: Ran out of types for this method. */;
 - (unsigned short);
 
 // Remaining properties

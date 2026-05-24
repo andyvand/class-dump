@@ -4,27 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSString;
 
 @interface DMFProfile
 {
     _Bool _isManaged;
-    _Bool _isLocked;
-    _Bool _hasRemovalPasscode;
-    _Bool _isEncrypted;
-    NSString *_UUID;
-    unsigned long long _type;
-    NSString *_identifier;
-    long long _profileVersion;
-    NSString *_displayName;
-    NSString *_organization;
-    NSString *_profileDescription;
-    NSArray *_signerCertificates;
-    NSArray *_payloads;
-    NSDictionary *_restrictions;
 }
 
-+ (_Bool);
++ (_Bool)*!;
 - (id);
 - (id);
 - (id);
@@ -42,27 +29,14 @@
 - (void);
 - (id);
 - (id);
-- (long long);
+- (long long)ʢ@�;
 - (id);
-- (void);
+- (void)_onlyEmailFormat;
 - (_Bool);
 - (id)DMFRemoveProvisioningProfileRequest;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *UUID; // @synthesize UUID=_UUID;
-@property(readonly, copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) _Bool hasRemovalPasscode; // @synthesize hasRemovalPasscode=_hasRemovalPasscode;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isEncrypted; // @synthesize isEncrypted=_isEncrypted;
-@property(readonly, nonatomic) _Bool isLocked; // @synthesize isLocked=_isLocked;
-@property(readonly, nonatomic) _Bool isManaged; // @synthesize isManaged=_isManaged;
-@property(readonly, copy, nonatomic) NSString *organization; // @synthesize organization=_organization;
-@property(readonly, copy, nonatomic) NSArray *payloads; // @synthesize payloads=_payloads;
-@property(readonly, copy, nonatomic) NSString *profileDescription; // @synthesize profileDescription=_profileDescription;
-@property(readonly, nonatomic) long long profileVersion; // @synthesize profileVersion=_profileVersion;
-@property(readonly, copy, nonatomic) NSDictionary *restrictions; // @synthesize restrictions=_restrictions;
-@property(readonly, copy, nonatomic) NSArray *signerCertificates; // @synthesize signerCertificates=_signerCertificates;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

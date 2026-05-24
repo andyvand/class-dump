@@ -6,27 +6,17 @@
 
 #import <ChatKit/CKTranscriptCell.h>
 
-@class CKTranscriptLegibilityLabel, NSAttributedString, NSLayoutConstraint, UIButton, UIView;
 @protocol CKAutomaticTranslationIndicatorCellDelegate;
 
 @interface CKAutomaticTranslationIndicatorCell : CKTranscriptCell
 {
     void delegate;
-    UIView *containerView;
-    CKTranscriptLegibilityLabel *titleLabel;
-    UIButton *toggleButton;
-    UIView *progressIndicator;
-    _Bool buttonPresentsMenu;
-    NSLayoutConstraint *titleToButtonVerticalConstraint;
-    id displayState;
-    NSAttributedString *titleAttributedString;
-    NSAttributedString *buttonAttributedString;
 }
 
 + (id);
 + (id);
 + (id);
-- (void);
+- (void)ICCollaborationControllerRetryCloudKitOperations;
 - (void);
 - (void);
 - (id);
@@ -34,27 +24,27 @@
 - (_Bool);
 - (void);
 - (void);
+- (void)e;
+- (void)o;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (double);
+- (void)with Your Login Password;
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
+- (id)v;
+- (void);
+- (double)w;
+- (void)x;
+- (_Bool);
 - (id);
+- (void);
+- (void);
+- (void);
 - (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -63,17 +53,7 @@
 - (id)Ã';¤è/;
 
 // Remaining properties
-@property(nonatomic, retain) NSAttributedString *buttonAttributedString; // @synthesize buttonAttributedString;
-@property(nonatomic) _Bool buttonPresentsMenu; // @synthesize buttonPresentsMenu;
-@property(nonatomic, readonly) UIView *containerView; // @synthesize containerView;
 @property(nonatomic) __weak id <CKAutomaticTranslationIndicatorCellDelegate> delegate; // @synthesize delegate;
-@property(nonatomic, retain) UIView *progressIndicator; // @synthesize progressIndicator;
-@property(nonatomic, readonly) _Bool shouldShowTitleLabel;
-@property(nonatomic, readonly) _Bool shouldShowToggleButton;
-@property(nonatomic, retain) NSAttributedString *titleAttributedString; // @synthesize titleAttributedString;
-@property(nonatomic, retain) CKTranscriptLegibilityLabel *titleLabel; // @synthesize titleLabel;
-@property(nonatomic, retain) NSLayoutConstraint *titleToButtonVerticalConstraint; // @synthesize titleToButtonVerticalConstraint;
-@property(nonatomic, retain) UIButton *toggleButton; // @synthesize toggleButton;
 
 @end
 

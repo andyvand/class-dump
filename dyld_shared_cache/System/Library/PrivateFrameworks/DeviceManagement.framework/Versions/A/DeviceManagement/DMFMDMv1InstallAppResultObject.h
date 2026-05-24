@@ -9,21 +9,19 @@
 @interface DMFMDMv1InstallAppResultObject
 {
     NSString *_bundleIdentifier;
-    unsigned long long _state;
 }
 
-+ (_Bool);
-- (id);
++ (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
-- (void);
+- (void)	k;
+- (void)collectionView:willDisplayItem:forRepresentedObjectAtIndexPath: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, nonatomic) unsigned long long state; // @synthesize state=_state;
 
 @end
 

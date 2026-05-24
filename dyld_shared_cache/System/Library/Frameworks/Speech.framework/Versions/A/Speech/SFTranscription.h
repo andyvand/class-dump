@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SFTranscription
 {
     NSString *_formattedString;
-    NSArray *_segments;
-    double _speakingRate;
-    double _averagePauseDuration;
 }
 
 + (_Bool);
@@ -20,19 +17,16 @@
 - (double);
 - (id);
 - (id);
-- (id);
+- (id)onnectionHttpHeaderCreated:]_block_invoke /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)_morpherOverrides;
 - (void);
 - (id);
-- (id);
+- (id)R�F;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double averagePauseDuration; // @synthesize averagePauseDuration=_averagePauseDuration;
 @property(readonly, copy, nonatomic) NSString *formattedString; // @synthesize formattedString=_formattedString;
-@property(readonly, copy, nonatomic) NSArray *segments; // @synthesize segments=_segments;
-@property(readonly, nonatomic) double speakingRate; // @synthesize speakingRate=_speakingRate;
 
 @end
 

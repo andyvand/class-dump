@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface CKDZoneGatekeeperImplementation
 {
     NSMutableDictionary *_zoneIDsToGateHolders;
-    NSMutableArray *_waiterWrappers;
 }
 
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)104;
+- (void)results;
 - (void);
 - (void)ð1Â0@ù
 × ;
@@ -25,7 +24,6 @@
 - (_Bool)e invited PCS for share %@:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *waiterWrappers; // @synthesize waiterWrappers=_waiterWrappers;
 @property(retain, nonatomic) NSMutableDictionary *zoneIDsToGateHolders; // @synthesize zoneIDsToGateHolders=_zoneIDsToGateHolders;
 
 @end

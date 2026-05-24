@@ -6,20 +6,12 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
-
 @interface PFAAnyEventTypeStatistics : SISchemaInstrumentationMessage
 {
     int _anyEventType;
-    unsigned int _messageCount;
-    NSArray *_eventStatistics;
-    struct {
-        unsigned int anyEventType:1;
-        unsigned int messageCount:1;
-    } _has;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
@@ -27,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (unsigned int);
@@ -35,26 +27,21 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)? ;
 - (void);
-- (void);
-- (_Bool);
-- (int);
+- (void)IMDChatRecordBatchFetcher;
+- (_Bool)manently deleting junk messages for %lu chatGUIDs;
+- (int)8;
 - (id);
 - (id);
-- (_Bool)tcherEndedTier1;
-- (id)1;
+- (_Bool)_marrsContextualSpanMatcherEndedTier1;
+- (id)_hasJitLanguageModelEnrollmentEndedTier1;
 - (void)N,V_hasServerGeneratedDismissal;
 - (id)iewId;
-- (void)izationRuns;
+- (void)numberOfInverseTextNormalizationRuns;
 
 // Remaining properties
 @property(nonatomic) int anyEventType; // @synthesize anyEventType=_anyEventType;
-@property(copy, nonatomic) NSArray *eventStatistics; // @synthesize eventStatistics=_eventStatistics;
-@property(nonatomic) _Bool hasAnyEventType;
-@property(nonatomic) _Bool hasMessageCount;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int messageCount; // @synthesize messageCount=_messageCount;
 
 @end
 

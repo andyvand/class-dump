@@ -5,5 +5,7 @@
 //
 
 @protocol MSVSQLExecutable
+- (_Bool);
+- (void)mCancelButton;
 @end
 

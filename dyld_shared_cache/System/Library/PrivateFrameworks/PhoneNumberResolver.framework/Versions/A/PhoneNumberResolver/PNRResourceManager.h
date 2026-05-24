@@ -4,43 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSDate, NSMutableSet, NSObject;
-@protocol OS_os_log;
+@class NSDate;
 
 @interface PNRResourceManager
 {
     NSDate *_lastCatalogLoadTime;
-    unsigned int _catalogLoadRetryMultiplier;
-    NSCache *_fileDataCache;
-    NSCache *_maCache;
-    unsigned long long _stateCaptureHandle;
-    NSObject<OS_os_log> *_log;
-    NSMutableSet *_downloadsInflight;
-    struct os_unfair_lock_s _downloadsInflightLock;
 }
 
 + (id);
 - (void);
+- (void);
+- (void);
+- (void){;
+- (void);
+- (void)!z;
+- (void)*z;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (id);
+- (id);
+- (id){;
+- (void)xdgz;
 - (void);
 - (id);
 - (void);
+- (void)KValueAddedServiceTransaction";
+- (id);
+- (void)RL"36@0:8@"NSURL"16^B24B32 /* Error: Ran out of types for this method. */;
 
 @end
 

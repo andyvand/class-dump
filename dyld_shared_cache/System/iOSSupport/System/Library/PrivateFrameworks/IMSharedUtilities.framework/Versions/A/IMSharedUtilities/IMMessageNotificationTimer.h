@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber;
+@class NSDate;
 
 @interface IMMessageNotificationTimer
 {
     NSDate *_date;
-    NSNumber *_numberDingsLeft;
 }
 
 - (void);
@@ -21,9 +20,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool areDingsRemaining;
 @property(retain, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, nonatomic) NSNumber *numberDingsLeft; // @synthesize numberDingsLeft=_numberDingsLeft;
 
 @end
 

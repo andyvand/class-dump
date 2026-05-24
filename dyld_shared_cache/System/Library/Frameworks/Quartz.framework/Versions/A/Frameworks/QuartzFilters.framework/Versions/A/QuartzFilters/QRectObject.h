@@ -7,28 +7,21 @@
 @interface QRectObject
 {
     double _left;
-    double _bottom;
-    double _width;
-    double _height;
 }
 
 - (void);
 - (double);
-- (void);
+- (void)setRequestCachePolicy:(double)arg1;
 - (double);
 - (double);
 - (void);
-- (double);
+- (double)openAndCheckIntegrity:createIfNeeded:fallBackToMemoryStoreIfError:lockingPolicy:completionHandler: /* Error: Ran out of types for this method. */;
 - (struct CGRect);
 - (id);
-- (void);
+- (void)_fetchRestrictionsForUserDSID:(double)arg1 inManagedObjectContext:allowImageCreation:withError: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property double bottom; // @synthesize bottom=_bottom;
-@property double height; // @synthesize height=_height;
 @property double left; // @synthesize left=_left;
-@property(readonly, nonatomic) struct CGRect rect;
-@property double width; // @synthesize width=_width;
 
 @end
 

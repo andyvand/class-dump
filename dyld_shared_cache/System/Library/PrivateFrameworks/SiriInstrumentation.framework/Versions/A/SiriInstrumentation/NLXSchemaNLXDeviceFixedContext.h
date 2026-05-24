@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLXSchemaNLXDeviceFixedContext : SISchemaInstrumentationMessage
 {
     _Bool _isTestEvent;
-    struct {
-        unsigned int isTestEvent:1;
-    } _has;
 }
 
 - (void);
@@ -33,9 +28,7 @@
 - (id)easonCategory;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsTestEvent;
 @property(nonatomic) _Bool isTestEvent; // @synthesize isTestEvent=_isTestEvent;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -4,33 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSImage, NSObject, NSProgressIndicator, NSString;
+@class NSProgressIndicator;
 
 @interface LUIPinFieldView
 {
     NSProgressIndicator *_progressView;
-    NSButton *_tryButton;
-    NSImage *_digitField;
-    NSImage *_digitFieldHightlight;
-    struct CGRect *_digitRects;
-    struct CGRect _progressRect;
-    NSString *_localizedString;
-    NSString *_pinString;
-    int _position;
-    double _maxFontHeight;
-    _Bool _enabled;
-    NSObject *_target;
-    SEL _action;
 }
 
 + (void);
-+ (struct CGSize);
++ (struct CGSize);
 + (int);
-+ (struct CGSize);
++ (struct CGSize);
 - (void);
 - (struct CGRect);
 - (void);
-- (int);
+- (int);
 - (void);
 - (id);
 - (void);

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableDictionary, NSURL;
+@class NSURL;
 
 @interface PKRemoteAssetManifest
 {
     NSURL *_fileURL;
-    NSURL *_passURL;
-    NSMutableDictionary *_remoteAssets;
-    NSArray *_encryptedDeviceSpecificRemoteAssetFilenames;
 }
 
 + (Class);
@@ -21,13 +18,11 @@
 - (id);
 - (id);
 - (id);
-- (void)OrdersAvailable;
+- (void)recentOrdersAvailable;
 - (id)e:billPaymentSuggestedAmountDataEvent:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *encryptedDeviceSpecificRemoteAssetFilenames; // @synthesize encryptedDeviceSpecificRemoteAssetFilenames=_encryptedDeviceSpecificRemoteAssetFilenames;
 @property(readonly, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(readonly, nonatomic) NSDictionary *remoteAssets; // @synthesize remoteAssets=_remoteAssets;
 
 @end
 

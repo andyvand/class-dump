@@ -4,46 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _CPTCPInfo;
+@class NSString;
 
 @protocol _CPNetworkTimingData
+- (unsigned int);
+- (void);
+- (void)@;
+- (unsigned int)isUnwantedSoftware;
 - (unsigned int)Ôá9Ð!TCù1Æ!ð1Â0@ù
 × ;
 - (unsigned int)eedback";
 - (void)_uuidBytes;
 - (void)ing image %s with timeout %f;
-- (NSString *)_lines;
+- (NSString *)text_lines;
 
 // Remaining properties
-@property(nonatomic) _Bool QUICWhitelistedDomain;
-@property(nonatomic) _Bool TFOSuccess;
-@property(nonatomic) unsigned int connectEnd;
-@property(nonatomic) unsigned int connectStart;
-@property(nonatomic) _Bool connectionRace;
-@property(nonatomic) _Bool connectionReused;
-@property(copy, nonatomic) NSString *connectionUUID;
-@property(nonatomic) unsigned int domainLookupEnd;
-@property(nonatomic) unsigned int domainLookupStart;
-@property(nonatomic) unsigned int fetchStart;
 @property(copy, nonatomic) NSString *interfaceIdentifier;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *networkProtocolName;
-@property(copy, nonatomic) NSData *peerAddress;
-@property(nonatomic) unsigned int redirectCount;
-@property(nonatomic) unsigned int redirectCountW3C;
-@property(nonatomic) unsigned int redirectEnd;
-@property(nonatomic) unsigned int redirectStart;
-@property(nonatomic) unsigned int requestEnd;
-@property(nonatomic) unsigned int requestHeaderSize;
-@property(nonatomic) unsigned int requestStart;
-@property(nonatomic) unsigned int responseBodyBytesDecoded;
-@property(nonatomic) unsigned int responseBodyBytesReceived;
-@property(nonatomic) unsigned int responseEnd;
-@property(nonatomic) unsigned int responseHeaderSize;
-@property(nonatomic) unsigned int responseStart;
-@property(nonatomic) unsigned int secureConnectStart;
-@property(retain, nonatomic) _CPTCPInfo *startTimeCounts;
-@property(retain, nonatomic) _CPTCPInfo *stopTimeCounts;
-@property(nonatomic) double timingDataInit;
 @end
 

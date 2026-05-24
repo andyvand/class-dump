@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKAvatarView, CKConversation, CKLabel, NSString;
+@class NSString;
 
 @interface CKConversationAvatarSearchResultCell
 {
     _Bool _ck_editing;
-    NSString *_resultIdentifier;
-    CKAvatarView *_avatarView;
-    CKLabel *_nameLabel;
-    CKConversation *_conversation;
-    struct UIEdgeInsets marginInsets;
 }
 
 + (long long);
 + (id);
+- (void),D`D;
 - (void);
-- (void);
-- (struct UIEdgeInsets);
-- (void);
+- (struct UIEdgeInsets)s;
+- (void)ringDelegate for a row that already has one.;
 - (void);
 - (void);
 - (_Bool);
@@ -40,23 +35,11 @@
 - (id)!<AùQð1Â0@ù
 × ;
 - (void);
-- (id)BackgroundEffects;
+- (id)replyTranscriptBlurBackgroundEffects;
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=_ck_isEditing, setter=_ck_setEditing:) _Bool _ck_editing; // @synthesize _ck_editing;
-@property(retain, nonatomic) CKAvatarView *avatarView; // @synthesize avatarView=_avatarView;
-@property(retain, nonatomic) CKConversation *conversation; // @synthesize conversation=_conversation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct UIEdgeInsets marginInsets; // @synthesize marginInsets;
-@property(retain, nonatomic) CKLabel *nameLabel; // @synthesize nameLabel=_nameLabel;
 @property(copy, nonatomic) NSString *resultIdentifier; // @synthesize resultIdentifier=_resultIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

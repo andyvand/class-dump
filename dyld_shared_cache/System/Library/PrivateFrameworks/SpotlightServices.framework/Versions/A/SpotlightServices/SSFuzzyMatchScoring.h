@@ -8,11 +8,11 @@
 {
 }
 
-+ (id);
-+ (_Bool);
-+ (id);
-+ (int);
-+ (int);
++ (id)Style";
++ (_Bool)preferredFontForTextStyle:(id)arg1 options:(id)arg2;
++ (id)completeRetrievingThumbnailForShareMetadata:(id)arg1 application:(id)arg2 kind:title:icon: /* Error: Ran out of types for this method. */;
++ (int)_storefrontIdentifier;
++ (int)_setFetchIsNotUserInitiated:(int)arg1;
 
 @end
 

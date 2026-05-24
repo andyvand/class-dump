@@ -5,5 +5,8 @@
 //
 
 @protocol RMXPCService
+- (void);
+- (void);;
+- (void);
 @end
 

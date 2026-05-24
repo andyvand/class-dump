@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSTimer, SSNotificationOverlayViewController;
-@protocol SSFadeViewDelegate;
+@class NSTimer;
 
 @interface SSFadeView
 {
     float currentAlpha;
-    _Bool wantsSpinner;
-    float maxAlpha;
-    NSObject<SSFadeViewDelegate> *delegate;
-    NSString *_message;
-    NSTimer *_animationTimer;
-    SSNotificationOverlayViewController *_overlayNotificationViewController;
 }
 
 - (_Bool);
@@ -33,23 +26,19 @@
 - (void);
 - (float);
 - (void);
-- (void);
+- (void)8
+;
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)relevantUntilDate;
+- (void)_mergeCandidateConfidenceThreshold;
 - (id);
 - (void);
-- (id);
+- (id)0;
 - (id);
 
 // Remaining properties
 @property(retain) NSTimer *animationTimer; // @synthesize animationTimer=_animationTimer;
-@property NSObject<SSFadeViewDelegate> *delegate; // @synthesize delegate;
-@property float maxAlpha; // @synthesize maxAlpha;
-@property(retain) NSString *message; // @synthesize message=_message;
-@property(retain) SSNotificationOverlayViewController *overlayNotificationViewController; // @synthesize overlayNotificationViewController=_overlayNotificationViewController;
-@property _Bool wantsSpinner;
 
 @end
 

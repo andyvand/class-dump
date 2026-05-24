@@ -7,13 +7,10 @@
 @interface PGMemoryDate
 {
     long long _era;
-    long long _year;
-    long long _month;
-    long long _day;
 }
 
 - (id);
-- (id);
+- (id)_performAsyncOnDelegateQueue:(id)arg1;
 
 @end
 

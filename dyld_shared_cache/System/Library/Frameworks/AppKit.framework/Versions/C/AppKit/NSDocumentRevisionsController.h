@@ -4,108 +4,59 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDocument, NSDocumentRevisionsWindow, NSFileVersion, NSMutableArray, NSMutableSet, NSOperationQueue, NSSet, NSString, NSURL, NSWindow, _NSDocumentRevisionsCache;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface NSDocumentRevisionsController
 {
     struct CGRect oldWindowRect;
-    struct CGRect resizedWindowRect;
-    unsigned long long oldWindowMask;
-    unsigned long long oldWindowCollectionBehavior;
-    long long oldWindowLevel;
-    _Bool oldIsMovable;
-    unsigned long long oldPresentationOptions;
-    _Bool windowWasFullScreen;
-    unsigned long long fullScreenTileParentSpaceID;
-    _Bool windowWasLeftTile;
-    unsigned long long oldWMWindowType;
-    NSDocument *originalDocument;
-    NSWindow *originalDocumentWindow;
-    NSWindow *revisionWindow;
-    NSArray *inspectorWindows;
-    long long windowSheetCount;
-    _Bool unfocusOriginalAfterSheet;
-    _Bool unfocusRevisionAfterSheet;
-    _Bool suppressUnfocusingOriginalAfterSheet;
-    _Bool revisionWindowWasKey;
-    id starfield;
-    NSDocumentRevisionsWindow *window;
-    unsigned long long currentStackItemIndex;
-    NSArray *otherWindowRestorationBlocks;
-    _Bool gotBackupVersions;
-    _Bool gotNonLocalVersions;
-    NSMutableSet *versionSet;
-    _Bool observingRevisions;
-    _Bool hasAttemptedAsynchronousLookup;
-    CDUnknownBlockType cancelAsyncVersionLookupBlock;
-    _Bool preloadRevisions;
-    NSOperationQueue *asyncDocumentOpeningQueue;
-    _NSDocumentRevisionsCache *revisionCache;
-    unsigned long long windowFocusState;
-    _Bool ending;
-    _Bool reverting;
-    _Bool preparedForRevert;
-    _Bool needToRestoreLiveEnvironment;
-    long long outcome;
-    unsigned long long options;
-    NSFileVersion *revertingToVersion;
-    _Bool scheduledCorrectionBlock;
-    CDUnknownBlockType _eventMonitorUninstaller;
-    NSMutableArray *_stackItems;
-    NSMutableArray *_transitoryAnimations;
-    double _originalWindowCornerRadius;
 }
 
-+ (void);
++ (void)tionalSupport;
 + (id);
 + (void);
 + (void);
 + (void);
 + (id);
-+ (void);
-+ (id)ts;
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (void);
++ (void)6wn;
++ (id)_shouldUseBoundsOutsets;
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
+- (id);
+- (_Bool)2@?40;
+- (_Bool)Q16@24@?32;
+- (_Bool)streamTaskWithNetService:(id)arg1;
+- (void)_onqueue_stopSecureConnection;
+- (void)_onqueue_startSecureConnection;
+- (void)_onqueue_setupNextEffectiveConfigurationWithCompletionHandler: /* Error: Ran out of types for this method. */;
+- (void)_onqueue_setupNextEffectiveConfigurationWithCompletionHandler:(id)arg1;
+- (void)_onqueue_setTransportConnection:(id)arg1;
+- (void)ock_s=I}},V__cf_resp_data;
+- (void)FDictionary}^{__CFDictionary}i^{__CFData}^{HTTPResponse}{os_unfair_lock_s=I}},V__cf_resp_data;
+- (void)__CFURL}^{__CFString}^{__CFString}qdd^{__CFDictionary}^{__CFDictionary}i^{__CFData}^{HTTPResponse}{os_unfair_lock_s=I}},V__cf_resp_data;
+- (void)sponse}{os_unfair_lock_s=I}},R,D;
+- (void)ctionary}i^{__CFData}^{HTTPResponse}{os_unfair_lock_s=I}},R,D;
+- (void)ootCertificate;
+- (void)HTTPExtraCookies;
+- (unsigned long long)(|;
+- (_Bool);
+- (_Bool);
+- (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
 - (id);
+- (id)X;
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (struct CGImage *);
-- (void);
-- (void);
-- (void);
-- (void);
+- (struct CGImage *)l;
 - (void);
 - (void);
 - (void);
@@ -116,29 +67,40 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)d;
+- (void);
+- (void);
+- (void)t;
 - (CDUnknownBlockType);
-- (void);
-- (id);
-- (struct CGImage *);
-- (void);
+- (void)sions/A/AOSKit;
+- (id)size (%zd) is smaller than requested (%zd);
+- (struct CGImage *)header_out_write_value;
+- (void)lu is too short (%zd byte%.*s);
+- (_Bool)data length];
+- (void)_100ContinueTimerFired;
+- (void)trailerData;
+- (void)name:(struct CGSize)arg1 %s, path:(id)arg2 %s, value:%s, session:%c, secure:%c, httponly? %c, expires:%@, created:%@, accessed:%@ } /* Error: Ran out of types for this method. */;
+- (void)writeDBwithCachedResponse-ERROR with UPDATE for item:(id)arg1 %@.  Error-code:(id)arg2 %d;
+- (id)August;
+- (void)URLProtocolClient@%p:%p { %@ } /* Error: Ran out of types for this method. */;
+- (void)n=%@
+ Path=%@
+ Expiry=%@
+ Secure=%d
+ HttpOnly=%d
+ HostOnly=%d
+ sameSite=%ld
+>;
+- (struct CGRect)NSURLDownloadBinHexRepeatByte;
+- (void)no longer implemented and should not be called;
+- (void)x%x, stream_id=%d> error_code=%d;
+- (void)@;
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (struct CGRect);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)@;
 - (void);
 - (struct CGSize);
-- (void);
+- (void)@;
 - (void);
 - (long long);
 - (id);
@@ -149,7 +111,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (struct CGRect);
@@ -160,7 +122,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)
+;
 - (struct CGRect);
 - (struct CGRect);
 - (void);
@@ -181,7 +144,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -189,30 +152,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void)Pçÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSSet *observedPresentedItemUbiquityAttributes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R
-
-@property(readonly, retain) NSOperationQueue *presentedItemOperationQueue;
 @property(readonly, copy) NSURL *presentedItemURL;
-@property(readonly, copy) NSURL *primaryPresentedItemURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSURL",?,R,C
-
-@property(readonly) Class superclass;
 
 @end
 

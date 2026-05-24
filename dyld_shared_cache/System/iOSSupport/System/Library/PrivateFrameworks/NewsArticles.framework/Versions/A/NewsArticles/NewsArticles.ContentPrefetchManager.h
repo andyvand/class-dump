@@ -7,7 +7,6 @@
 @interface NewsArticles.ContentPrefetchManager
 {
     id unthrottledPrefetchManager;
-    id throttleQueue;
 }
 
 @end

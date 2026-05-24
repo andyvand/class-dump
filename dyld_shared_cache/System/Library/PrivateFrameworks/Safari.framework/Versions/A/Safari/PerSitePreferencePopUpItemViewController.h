@@ -6,18 +6,12 @@
 
 #import <Safari/PreferencesPopoverPopUpItemViewController.h>
 
-@class NSString, NSTextField, PerSitePreferencePopUpButton, WBSPerSitePreference;
-@protocol WBSPerSitePreferenceManager;
+@class WBSPerSitePreference;
 
 __attribute__((visibility("hidden")))
 @interface PerSitePreferencePopUpItemViewController : PreferencesPopoverPopUpItemViewController
 {
     WBSPerSitePreference *_perSitePreference;
-    id <WBSPerSitePreferenceManager> _perSitePreferenceManager;
-    NSString *_title;
-    NSString *_domain;
-    NSTextField *_preferenceTitleTextField;
-    PerSitePreferencePopUpButton *_permissionsPopUpButton;
 }
 
 - (void);
@@ -37,13 +31,7 @@ __attribute__((visibility("hidden")))
 - (void)Ø;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

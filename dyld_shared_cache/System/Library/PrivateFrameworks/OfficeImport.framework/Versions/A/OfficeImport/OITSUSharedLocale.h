@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface OITSUSharedLocale
 {
     struct __CFLocale *mCurrentLocale;
-    NSArray *mObserverObjects;
 }
 
 + (id);
@@ -19,7 +16,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (void);
-- (oneway void);
+- (oneway void)	
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijk /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);

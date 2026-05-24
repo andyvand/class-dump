@@ -11,11 +11,11 @@
 }
 
 + (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
+- (void)tative object:%@ /* Error: Ran out of types for this method. */;
+- (void)e model object or error;
+- (id)Engine.implementation.playerViewController;
+- (_Bool)16;
+- (id)n-going - ignoring request to create a new one;
 - (id);
 - (id);
 - (void);

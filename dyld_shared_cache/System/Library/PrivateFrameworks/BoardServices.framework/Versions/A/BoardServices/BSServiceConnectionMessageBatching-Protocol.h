@@ -5,5 +5,6 @@
 //
 
 @protocol BSServiceConnectionMessageBatching
+- (_Bool)moveOutputGroupToDevicesWithDictionary:context: /* Error: Ran out of types for this method. */;
 @end
 

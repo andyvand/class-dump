@@ -6,20 +6,17 @@
 
 #import <AuthenticationServices/_ASExtensionViewController.h>
 
-@class NSExtension, NSString;
 @protocol ASCredentialRequest, _ASCredentialAuthenticationViewControllerDelegate;
 
 @interface _ASCredentialAuthenticationViewController : _ASExtensionViewController
 {
     id <ASCredentialRequest> _credentialRequest;
-    NSExtension *_extension;
-    id <_ASCredentialAuthenticationViewControllerDelegate> _delegate;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -27,7 +24,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -40,14 +37,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <_ASCredentialAuthenticationViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

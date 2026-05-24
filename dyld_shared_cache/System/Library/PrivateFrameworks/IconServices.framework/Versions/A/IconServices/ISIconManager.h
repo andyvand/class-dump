@@ -4,45 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISIconCache, NSHashTable, NSObject, NSXPCConnection;
-@protocol OS_dispatch_queue;
+@class ISIconCache;
 
 __attribute__((visibility("hidden")))
 @interface ISIconManager
 {
     struct os_unfair_lock_s _lock;
-    ISIconCache *_iconCache;
-    NSHashTable *_iconRegistry;
-    NSHashTable *_observers;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    NSXPCConnection *_connection;
 }
 
 + (id);
 + (id);
-- (void);
+- (void)<;
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)tp:(id)arg1 //ns.apple.com/semanticSegmentationMatte/1.0/;
+- (id)qA;
 - (void);
 - (void);
 - (id);
+- (id)ter from bundle %{public}@ (deviceID 0x%llX);
+- (void);
+- (void);
 - (id);
+- (id);
 - (void);
-- (void);
+- (void)he- %s:(id)arg1 Endpoint is dissociated, so excluded from available endpoints:name=%{public}@, uid=%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain) NSXPCConnection *connection; // @synthesize connection=_connection;
 @property(retain) ISIconCache *iconCache; // @synthesize iconCache=_iconCache;
-@property(retain) NSHashTable *iconRegistry; // @synthesize iconRegistry=_iconRegistry;
-@property(retain) NSObject<OS_dispatch_queue> *internalQueue; // @synthesize internalQueue=_internalQueue;
-@property(retain) NSHashTable *observers; // @synthesize observers=_observers;
 
 @end
 

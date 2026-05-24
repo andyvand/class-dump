@@ -13,12 +13,12 @@
     IMMessagePartHistoricalContent *_historicalContent;
 }
 
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)YDevice:notified client %p of didStart started[%d] /* Error: Ran out of types for this method. */;
+- (id)ue;
+- (_Bool)de:%d /* Error: Ran out of types for this method. */;
+- (_Bool)s:%d Invalid video mode:%d /* Error: Ran out of types for this method. */;
+- (_Bool)iled to allocate slotsForModes dictionary;
+- (id)%s:(id)arg1 %d microTime=%f lastDecodedFrameTime=%f currentFrameTimeDiff=%f videoIsPaused=%d;
 - (_Bool);
 - (void)ìE;
 

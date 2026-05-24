@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICMusicLibraryAuthToken, NSDate, NSError;
+@class ICMusicLibraryAuthToken, NSError;
 
 @protocol ICMutableMusicLibraryAuthTokenStatus
 - (NSError *)r=%{public}@;
 
 // Remaining properties
-@property(copy, nonatomic) NSError *lastError;
-@property(copy, nonatomic) NSDate *lastUpdatedDate;
-@property(nonatomic) _Bool shouldExcludeFromBackgroundRefresh;
 @property(retain, nonatomic) ICMusicLibraryAuthToken *token;
 @end
 

@@ -5,26 +5,23 @@
 //
 
 @class NSObject;
-@protocol OS_nw_interface, OS_nw_path_flow, OS_nw_path_flow_registration;
+@protocol OS_nw_interface;
 
 __attribute__((visibility("hidden")))
 @interface nw_interpose_flow
 {
     NSObject<OS_nw_interface> *_interface;
-    NSObject<OS_nw_path_flow_registration> *_registration;
-    NSObject<OS_nw_path_flow> *_flow;
-    CDUnknownBlockType _eventHandler;
 }
 
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)size_t);
 - (void);
 - (void)@;
 

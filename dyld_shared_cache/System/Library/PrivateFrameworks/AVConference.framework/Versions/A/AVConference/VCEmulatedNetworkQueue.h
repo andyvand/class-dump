@@ -6,15 +6,12 @@
 
 #import <AVConference/VCEmulatedNetworkElement.h>
 
-@class VCEmulatedNetworkAlgorithmQueueBandwidth, VCEmulatedNetworkAlgorithmQueueDelay, VCEmulatedNetworkAlgorithmQueueLoss;
+@class VCEmulatedNetworkAlgorithmQueueBandwidth;
 
 __attribute__((visibility("hidden")))
 @interface VCEmulatedNetworkQueue : VCEmulatedNetworkElement
 {
     VCEmulatedNetworkAlgorithmQueueBandwidth *_queueBandwidthAlgorithm;
-    VCEmulatedNetworkAlgorithmQueueLoss *_queueLossAlgorithm;
-    VCEmulatedNetworkAlgorithmQueueDelay *_queueDelayAlgorithm;
-    double _lastPolicyLoadingTime;
 }
 
 - (void);
@@ -22,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (int);
 - (int);
 - (void);
-- (void);
+- (void)B;
 - (int);
 - (id);
 

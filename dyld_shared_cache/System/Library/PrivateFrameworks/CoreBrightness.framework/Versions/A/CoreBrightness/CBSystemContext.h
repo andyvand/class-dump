@@ -4,29 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBPowerManagementModule, NSString;
+@class CBPowerManagementModule;
 @protocol CBPowerManagement;
 
 __attribute__((visibility("hidden")))
 @interface CBSystemContext
 {
     CBPowerManagementModule *_pm;
-    id <CBPowerManagement> _cbpm;
 }
 
 - (void);
-- (id);
+- (id)';
 - (void);
 
 // Remaining properties
 @property(readonly) id <CBPowerManagement> cbpm; // @synthesize cbpm=_cbpm;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

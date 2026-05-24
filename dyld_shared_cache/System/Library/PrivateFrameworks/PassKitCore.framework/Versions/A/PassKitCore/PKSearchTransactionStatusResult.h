@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PKSearchTransactionStatusResult
 {
     long long _transactionStatus;
@@ -16,19 +14,12 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)_	;
+- (unsigned long long)1;
 - (_Bool);
-- (void);
+- (void)_percentageWcpsDisabled;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) long long transactionStatus; // @synthesize transactionStatus=_transactionStatus;
 
 @end

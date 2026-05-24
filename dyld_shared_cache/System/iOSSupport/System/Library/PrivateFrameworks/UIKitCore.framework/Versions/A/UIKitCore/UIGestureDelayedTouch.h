@@ -4,31 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIEvent, UITouch;
+@class UITouch;
 
 __attribute__((visibility("hidden")))
 @interface UIGestureDelayedTouch
 {
     long long _delayCount;
-    _Bool _clonedForSecondDelivery;
-    UITouch *_touch;
-    UITouch *_stateWhenDelayed;
-    UITouch *_stateWhenDelivered;
-    UIEvent *_event;
 }
 
 - (void);
 - (long long);
 - (double);
-- (id);
-- (id);
+- (id);
+- (id)mapping for MPModelRelationshipPlaylistEntrySocialContributor;
 - (id);
 - (void);
 - (long long)Â0@ù
 × ;
 - (id)1Â0@ù
 × ;
-- (id)CornerRadius:cornerCurve: /* Error: Ran out of types for this method. */;
+- (id)rectShapeWithCornerRadius:cornerCurve: /* Error: Ran out of types for this method. */;
 - (long long)tring",C,N,V_nextCandidateReplacementInsertedText;
 - (id);
 - (id)ndex:(id)arg1 ];
@@ -37,17 +32,6 @@ __attribute__((visibility("hidden")))
 - (id)¨%òþË«×;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool clonedForSecondDelivery; // @synthesize clonedForSecondDelivery=_clonedForSecondDelivery;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) UIEvent *event; // @synthesize event=_event;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UITouch *stateWhenDelayed; // @synthesize stateWhenDelayed=_stateWhenDelayed;
-@property(readonly, nonatomic) UITouch *stateWhenDelivered; // @synthesize stateWhenDelivered=_stateWhenDelivered;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) UITouch *touch; // @synthesize touch=_touch;
 
 @end

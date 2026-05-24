@@ -4,54 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFMessage, NSMutableArray, NSString;
+@class HMFMessage;
 
 __attribute__((visibility("hidden")))
 @interface HMDPendingResponse
 {
     HMFMessage *_requestMessage;
-    NSString *_originalRequestIdentifier;
-    unsigned long long _pendingResponseCount;
-    unsigned long long _totalRequestsCount;
-    NSMutableArray *_allResponses;
-    NSMutableArray *_latestResponses;
-    CDUnknownBlockType _responseHandler;
-    double _creationTime;
 }
 
 + (id);
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)8Q16^@24;
+- (id)ils"16;
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)R;
 - (id);
 - (void);
 - (CDUnknownBlockType);
 - (id);
 - (void)"HMDRemoteMessage"16@"HMDDevice"24@"HMDRemoteMessageTransport"32;
 - (double);
-- (void)sonalRequestsEnabled_;
+- (void)accessoriesWithPersonalRequestsEnabled_;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *allResponses; // @synthesize allResponses=_allResponses;
-@property(nonatomic) double creationTime; // @synthesize creationTime=_creationTime;
-@property(retain, nonatomic) NSMutableArray *latestResponses; // @synthesize latestResponses=_latestResponses;
-@property(retain, nonatomic) NSString *originalRequestIdentifier; // @synthesize originalRequestIdentifier=_originalRequestIdentifier;
-@property(nonatomic) unsigned long long pendingResponseCount; // @synthesize pendingResponseCount=_pendingResponseCount;
 @property(retain, nonatomic) HMFMessage *requestMessage; // @synthesize requestMessage=_requestMessage;
-@property(copy, nonatomic) CDUnknownBlockType responseHandler; // @synthesize responseHandler=_responseHandler;
-@property(nonatomic) unsigned long long totalRequestsCount; // @synthesize totalRequestsCount=_totalRequestsCount;
 
 @end
 

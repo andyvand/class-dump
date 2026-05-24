@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSDictionary, NSString;
 
 @interface ABContactSectionHeader
 {
     NSDictionary *_info;
-    NSString *_nameTransform;
 }
 
 - (id);
@@ -18,13 +17,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)8;
 
 // Remaining properties
 @property(readonly) NSString *firstCharacterAfterLanguage;
-@property(readonly) NSArray *headers;
-@property(readonly) NSString *lastCharacter;
-@property(readonly) NSString *nameTransform; // @synthesize nameTransform=_nameTransform;
 
 @end
 

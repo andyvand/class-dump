@@ -8,10 +8,10 @@
 {
 }
 
-+ (id);
++ (id)_returnedExistingIdentity;
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)s.framework/Versions/A/CoreGraphics;
 - (id);
 
 @end

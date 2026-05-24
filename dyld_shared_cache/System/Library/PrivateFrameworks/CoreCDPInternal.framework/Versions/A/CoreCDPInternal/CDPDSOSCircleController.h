@@ -4,40 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CDPDCircleStateObserver, NSObject, NSString;
-@protocol CDPDCircleDelegate, CDPDCircleProxy, CDPStateUIProviderInternal, OS_dispatch_queue;
+@class CDPDCircleStateObserver;
+@protocol CDPStateUIProviderInternal;
 
 @interface CDPDSOSCircleController
 {
     CDPDCircleStateObserver *_circleJoinObserver;
-    NSObject<OS_dispatch_queue> *_requestSynchronizationQueue;
-    id <CDPDCircleProxy> _circleProxy;
-    id <CDPStateUIProviderInternal> _uiProvider;
-    id <CDPDCircleDelegate> _delegate;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (long long);
-- (int);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
+- (void)VisualTabPickerTileContainerViewTransitionCoordinatorDataSource;
+- (void)BrowserToolbarDelegate;
+- (void)TabCreationPolicyDecider;
+- (void)StartPageUtilities;
+- (void)ClickGestureRecognizer;
+- (void)StartPageTouchIconSectionProvider;
+- (id)StartPagePopoverTogglesDataSource;
+- (long long)SnapshotFetchOperation;
+- (int)SiriSuggestionsStartPageReadingListDataSource;
+- (id)SiriSuggestionsStartPageBookmarksDataSource;
+- (void)SheetRequest;
+- (void)NSScrollViewDelegate;
+- (void)SafariNSEventExtras;
+- (void)SafariNSPrintInfoExtras;
+- (void)SafariNSButtonExtras;
+- (void)SafariFrameworkBundleLocator;
+- (void)SafariNSApplicationExtras;
+- (id)SafariNotificationAgent;
+- (unsigned long long)RemoteNotificationUnregistrationRequest;
+- (void)ReadingListFetcherInfo;
+- (void)HTTPAuthenticationDialogViewController;
+- (void)numberWithFloat: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -46,18 +42,9 @@
 - (void);
 - (void)@ù
 × ;
-- (id)in1;
+- (id)underlyingErrorDomain1;
 
 // Remaining properties
-@property(retain, nonatomic) id <CDPDCircleProxy> circleProxy; // @synthesize circleProxy=_circleProxy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CDPDCircleDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) id <CDPStateUIProviderInternal> uiProvider; // @synthesize uiProvider=_uiProvider;
 
 @end

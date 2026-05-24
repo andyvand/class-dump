@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, TRIExcessiveStaleFactorsUsageTimer, TRITrackingId;
+@class TRITrackingId;
 
 @interface TRIClientGuardedData
 {
     TRITrackingId *trackingId;
-    NSMutableDictionary *namespaceUpdateHandlerTokens;
-    NSMutableDictionary *namespaceCallbacks;
-    TRIExcessiveStaleFactorsUsageTimer *excessiveStaleFactorUsageTimer;
-    _Bool isLazyInitComplete;
 }
 
-- (void);
+- (void)5;
 
 @end
 

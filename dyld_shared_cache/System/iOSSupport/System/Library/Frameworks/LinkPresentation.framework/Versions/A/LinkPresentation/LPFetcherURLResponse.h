@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     NSURL *_URL;
 }
 
-- (id);
+- (id)suggestionCategoryId;
 - (id);
 - (void)qÐ1Â0@ù
 × ;

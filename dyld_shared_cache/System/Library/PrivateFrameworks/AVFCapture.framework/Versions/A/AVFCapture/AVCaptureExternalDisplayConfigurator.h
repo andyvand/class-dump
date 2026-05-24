@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureDevice, AVCaptureExternalDisplayConfiguration, AVWeakReference, CALayer, NSObject, NSUUID;
-@protocol OS_dispatch_queue;
+@class AVWeakReference;
 
 @interface AVCaptureExternalDisplayConfigurator
 {
     AVWeakReference *_configuratorWeakReference;
-    AVWeakReference *_deviceWeakReference;
-    AVWeakReference *_previewLayerWeakReference;
-    NSObject<OS_dispatch_queue> *_queue;
-    AVCaptureExternalDisplayConfiguration *_configuration;
-    CDUnknownBlockType _configurationBlock;
-    CDUnknownBlockType _configurationTimeoutBlock;
-    _Bool _active;
-    _Bool _retryConfiguration;
-    _Bool _observingDeviceColorspace;
-    _Bool _observingDeviceFramerate;
-    _Bool _registered;
-    double _activeExternalDisplayFrameRate;
-    NSUUID *_identifier;
 }
 
 + (void);
@@ -31,53 +17,44 @@
 + (_Bool);
 + (_Bool);
 + (void)base AVCaptureDevice class.;
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)%{public}@;
+- (void)tion] <%p> Connection state .waiting. Error %{public}@;
+- (void)ate .failed. Error %{public}@;
+- (void)er] Setting timer <%@> for <%lf> seconds;
+- (_Bool)acquire process assertion for task %@;
+- (void)CGFloat, CGImageDestinationRef);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)kSymptomDiagnosticReplySessionID;
+- (_Bool)DiagnosticReplySessionID(void);
+- (id)iTunesMetadata;
+- (void)rviceColorAnalysisOperation only supports requests of type MSVArtworkServiceColorAnalysisRequest;
+- (_Bool)6;
+- (void)rMaps() - invalid height (%ud) or width (%ud) parameter;
+- (double)ό;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)_launchDialogContainerAppForAccount:shouldConfirm:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (_Bool);
 - (void);
-- (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)_supplementalPointCloudData;
+- (_Bool)_localIDsForDetectedCatHeads_BE;
 - (id);
 - (id);
 - (void)_stopFigCaptureSession];
 - (_Bool)Uninitialize for setRunning;
 
 // Remaining properties
-@property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
-@property(nonatomic) double activeExternalDisplayFrameRate; // @synthesize activeExternalDisplayFrameRate=_activeExternalDisplayFrameRate;
-@property(readonly, nonatomic) __weak AVCaptureDevice *device;
-@property(readonly, nonatomic) _Bool externalDisplayAndCaptureDeviceSynchronized;
-@property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool observingDeviceColorspace; // @synthesize observingDeviceColorspace=_observingDeviceColorspace;
-@property(nonatomic) _Bool observingDeviceFramerate; // @synthesize observingDeviceFramerate=_observingDeviceFramerate;
-@property(readonly, nonatomic) __weak CALayer *previewLayer;
-@property(nonatomic) _Bool registered; // @synthesize registered=_registered;
 @property(nonatomic) _Bool retryConfiguration; // @synthesize retryConfiguration=_retryConfiguration;
 
 @end

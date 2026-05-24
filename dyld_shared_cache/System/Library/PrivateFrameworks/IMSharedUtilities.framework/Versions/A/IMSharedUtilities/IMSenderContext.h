@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMSenderContext_Impl, NSString;
+@class IMSenderContext_Impl;
 
 @interface IMSenderContext
 {
@@ -16,11 +16,11 @@
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
 + (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -29,9 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isFromMe;
 @property(readonly, nonatomic) _Bool isTrustedSender;
-@property(readonly, nonatomic) NSString *serviceName;
 
 @end
 

@@ -9,15 +9,14 @@
 @interface PKBOM
 {
     NSData *_bomData;
-    struct _BOMBom *_BOMBom;
 }
 
 + (_Bool);
 + (id);
 + (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)#;
 - (unsigned long long);
 - (id);
 - (id);

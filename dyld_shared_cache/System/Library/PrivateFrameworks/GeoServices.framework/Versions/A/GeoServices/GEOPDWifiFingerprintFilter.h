@@ -16,9 +16,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
-- (id)enPrompt;
+- (id)_spokenPrompt;
 - (id)|0,1|23°4;
 - (void)¬éÖJ@;
 

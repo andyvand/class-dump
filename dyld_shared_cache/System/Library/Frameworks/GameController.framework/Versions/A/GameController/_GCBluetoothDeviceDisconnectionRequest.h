@@ -11,13 +11,12 @@ __attribute__((visibility("hidden")))
 @interface _GCBluetoothDeviceDisconnectionRequest
 {
     _GCBluetoothDeviceIdentifier *_deviceIdentifier;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void)le"16@0:(CDUnknownBlockType)arg1 8;
 

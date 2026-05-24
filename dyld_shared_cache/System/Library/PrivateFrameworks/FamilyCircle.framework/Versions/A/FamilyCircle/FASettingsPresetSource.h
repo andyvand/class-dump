@@ -4,28 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FASettingsPresetConfiguration, NSString;
+@class NSString;
 
 @interface FASettingsPresetSource
 {
     NSString *_identifier;
-    FASettingsPresetConfiguration *_configuration;
 }
 
 + (_Bool);
-- (id);
+- (id)SERIOUS_BUG;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
+- (id)`;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) FASettingsPresetConfiguration *configuration; // @synthesize configuration=_configuration;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end

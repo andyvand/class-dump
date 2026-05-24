@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol NSCoding, NSObject><NSCoding;
-
 @interface MSObjectWrapper
 {
     long long _size;
-    long long _uniqueID;
-    id <NSObject><NSCoding> _object;
-    int _errorCount;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (long long);
++ (id)otification registrations with resident due to primary resident enabled;
++ (id)%@;
++ (id)pairing from the HAP accessory :(id)arg1 %@;
++ (long long)d.;
+- (id)apshot requests;
 - (id);
-- (id);
-- (void);
+- (void);
 - (long long);
-- (int);
-- (void);
+- (int)_lastSMCThermalTrigger;
+- (void)rUserSrcValidityHisto(361):(long long)arg1 Cannot add 16 elements to context;
 - (long long);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) int errorCount; // @synthesize errorCount=_errorCount;
-@property(readonly, nonatomic) id <NSCoding> object; // @synthesize object=_object;
 @property(nonatomic) long long size; // @synthesize size=_size;
-@property(nonatomic) long long uniqueID; // @synthesize uniqueID=_uniqueID;
 
 @end
 

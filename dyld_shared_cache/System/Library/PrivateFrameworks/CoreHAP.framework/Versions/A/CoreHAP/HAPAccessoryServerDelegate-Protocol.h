@@ -4,6 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HAPAccessoryServer, NSUUID;
+
 @protocol HAPAccessoryServerDelegate
+- (void)n;
+- (void)AVDataValueTransformer;
+- (void);
+- (void)ct:(HAPAccessoryServer *)arg1 err=[%{public}d]:(NSUUID *)arg2 %{public}s;
+- (void);
+- (void)mote_connection";
+- (void)s.factoryproxysync;
+
+@optional
+- (void);
 @end
 

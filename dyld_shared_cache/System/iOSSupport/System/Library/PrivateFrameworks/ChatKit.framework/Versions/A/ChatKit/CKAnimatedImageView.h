@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKAnimatedImage, NSArray, NSString;
+@class NSArray;
 
 @interface CKAnimatedImageView
 {
     _Bool _automaticallyObserveWindowForAnimationTimer;
-    _Bool _userExplicitlyUnpausedAnimation;
-    CKAnimatedImage *_animatedImage;
-    NSArray *_frames;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)n;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -25,22 +22,12 @@
 - (id);
 - (void);
 - (id);
-- (void)ndColor: /* Error: Ran out of types for this method. */;
+- (void)image:withBackgroundColor: /* Error: Ran out of types for this method. */;
 - (void)èÄDÿÈ5\;
 - (void)ÿü¨:(id)arg1 \B3;
 
 // Remaining properties
-@property(retain, nonatomic) CKAnimatedImage *animatedImage; // @synthesize animatedImage=_animatedImage;
-@property(nonatomic) _Bool automaticallyObserveWindowForAnimationTimer; // @synthesize automaticallyObserveWindowForAnimationTimer=_automaticallyObserveWindowForAnimationTimer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSArray *frames; // @synthesize frames=_frames;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool userExplicitlyUnpausedAnimation; // @synthesize userExplicitlyUnpausedAnimation=_userExplicitlyUnpausedAnimation;
 
 @end
 

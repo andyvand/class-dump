@@ -6,50 +6,36 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class INTermsAndConditions, NSArray, NSString;
+@class NSString;
 
 @interface INGetAvailableRestaurantReservationBookingsIntentResponse : INIntentResponse
 {
     NSString *_localizedRestaurantDescriptionText;
-    NSString *_localizedBookingAdvisementText;
-    INTermsAndConditions *_termsAndConditions;
-    NSArray *_availableBookings;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
+- (void);
 - (void);
 - (void);
+- (id);
+- (id)B;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)SettingsXPCProxyServerEndpointDelegate>",W,N,V_delegate;
+- (_Bool)__updateCachedMDMManagedProfileUUIDs:(id)arg1;
+- (void)naged.F0345DDE-4BF5-4493-B3BC-66AB9E10CDCA;
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (long long)IntentResponse;
-- (void)fileNumberOptionsForSaveProfileInCar:withCompletion: /* Error: Ran out of types for this method. */;
+- (long long)_INPBTransferMoneyIntentResponse;
+- (void)provideProfileNumberOptionsForSaveProfileInCar:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSArray *availableBookings; // @synthesize availableBookings=_availableBookings;
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *localizedBookingAdvisementText; // @synthesize localizedBookingAdvisementText=_localizedBookingAdvisementText;
-@property(copy) NSString *localizedRestaurantDescriptionText; // @synthesize localizedRestaurantDescriptionText=_localizedRestaurantDescriptionText;
-@property(readonly) Class superclass;
-@property(copy) INTermsAndConditions *termsAndConditions; // @synthesize termsAndConditions=_termsAndConditions;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface IDSEndpointTransparencyState
 {
     NSData *_pushToken;
-    long long _verificationState;
 }
 
 + (_Bool);
@@ -18,16 +17,15 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long),;
+- (_Bool)doUnArchivingWithOptions:(id)arg1;
 - (void);
 - (id);
-- (void)AccKey;
+- (void)KTOptStatusDataPubAccKey;
 - (id)ùKáW¨Íÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *pushToken; // @synthesize pushToken=_pushToken;
-@property(readonly, nonatomic) long long verificationState; // @synthesize verificationState=_verificationState;
 
 @end
 

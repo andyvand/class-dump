@@ -11,15 +11,15 @@
 }
 
 + (id)chTermsMatchIdSubType;
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)8@16@24B32;
+- (id)setResponseClass: /* Error: Ran out of types for this method. */;
+- (id)reasonForWaitingToPlay;
+- (id)radioPlaybackInformationWithStoreIdentifier:(id)arg1 storefrontIdentifier: /* Error: Ran out of types for this method. */;
+- (id)playButtonPadding;
 - (id);
 - (void);
 - (id);
-- (_Bool)sRegion;
+- (_Bool)kMDItemEventStartLocationAddressRegion;
 
 @end
 

@@ -4,47 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
+@class NSString;
 
 @interface EspressoFDOverfeatNetwork
 {
     struct vector<std::shared_ptr<Espresso::net>, std::allocator<std::shared_ptr<Espresso::net>>> gpu_nets;
-    struct vector<std::shared_ptr<Espresso::net>, std::allocator<std::shared_ptr<Espresso::net>>> ecpu_nets;
-    struct vector<std::pair<unsigned long long, unsigned long long>, std::allocator<std::pair<unsigned long long, unsigned long long>>> net_scales;
-    struct vector<std::pair<unsigned long long, unsigned long long>, std::allocator<std::pair<unsigned long long, unsigned long long>>> full_scales;
-    struct vector<double, std::allocator<double>> scalesc;
-    struct vector<std::shared_ptr<Espresso::fast_pyramid_resizer>, std::allocator<std::shared_ptr<Espresso::fast_pyramid_resizer>>> resizers_for_batching;
-    int n_resizers_for_batching;
-    struct vector<std::shared_ptr<Espresso::blob<float, 3>>, std::allocator<std::shared_ptr<Espresso::blob<float, 3>>>> probBlobs;
-    struct vector<std::shared_ptr<Espresso::blob<float, 3>>, std::allocator<std::shared_ptr<Espresso::blob<float, 3>>>> boxBlobs;
-    NSMutableDictionary *_errorForLayers;
-    struct pair<unsigned long long, unsigned long long> cropDims;
-    struct CGColorSpace *colorSpace;
-    struct net_strides_configuration strideConf;
-    int retile_stride;
-    int retile_tile_sz;
-    struct vector<int, std::allocator<int>> retile_n_outputs_v;
-    int tile_w_1;
-    int tile_h_1;
-    NSObject<OS_dispatch_queue> *cpu_queue_0;
-    NSObject<OS_dispatch_semaphore> *cpu_semaphore;
-    _Bool _useGPUScaler;
-    int _scalingMode;
-    float _maxScale;
-    int _forceMaxNScales;
-    int _scaleConfig;
-    int _mode;
-    int _cpin;
-    NSString *_basename;
-    NSString *_weights;
-    shared_ptr_ae8b808b _context_metal;
-    shared_ptr_ae8b808b _context_cpu;
 }
 
 - (void);
 - (_Bool);
-- (struct net_strides_configuration);
+- (struct net_strides_configuration);
 - (void);
 - (void);
 - (void);
@@ -88,8 +57,8 @@
 - (shared_ptr_7fb9d9f9);
 - (int);
 - (void);
-- (void);
-- (void);
+- (void)setAutocompleteStore:(id)arg1;
+- (void);
 - (void);
 - (float);
 - (int);
@@ -101,16 +70,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *basename; // @synthesize basename=_basename;
-@property(nonatomic) shared_ptr_ae8b808b context_cpu; // @synthesize context_cpu=_context_cpu;
-@property(nonatomic) shared_ptr_ae8b808b context_metal; // @synthesize context_metal=_context_metal;
-@property(nonatomic) int cpin; // @synthesize cpin=_cpin;
-@property(nonatomic) int forceMaxNScales; // @synthesize forceMaxNScales=_forceMaxNScales;
-@property(nonatomic) float maxScale; // @synthesize maxScale=_maxScale;
-@property(nonatomic) int mode; // @synthesize mode=_mode;
-@property(nonatomic) int scaleConfig; // @synthesize scaleConfig=_scaleConfig;
-@property(nonatomic) int scalingMode; // @synthesize scalingMode=_scalingMode;
-@property(nonatomic) _Bool useGPUScaler; // @synthesize useGPUScaler=_useGPUScaler;
-@property(retain, nonatomic) NSString *weights; // @synthesize weights=_weights;
 
 @end
 

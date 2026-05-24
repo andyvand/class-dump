@@ -5,5 +5,9 @@
 //
 
 @protocol HMMediaSystemDelegate
+
+@optional
+- (void);
+- (void);
 @end
 

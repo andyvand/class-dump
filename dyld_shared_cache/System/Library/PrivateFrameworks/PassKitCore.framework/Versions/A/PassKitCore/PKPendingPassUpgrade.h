@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSURL, PKPassUpgradeRequest, PKPaymentPass;
+@class PKPassUpgradeRequest;
 
 @interface PKPendingPassUpgrade
 {
     _Bool _appletDidUpgrade;
-    _Bool _webRequestFinished;
-    _Bool _requiresAppletUpgrade;
-    _Bool _passUpgradeInProgress;
-    PKPassUpgradeRequest *_upgradeRequest;
-    NSMutableArray *_completionHandlers;
-    PKPaymentPass *_upgradedPass;
-    NSURL *_upgradePassURL;
 }
 
 - (_Bool);
@@ -23,10 +16,10 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)";
+- (void)߈);
+- (void);
+- (void)ԡV;
 - (void);
 - (void);
 - (_Bool);
@@ -35,18 +28,10 @@
 - (_Bool);
 - (id);
 - (void);
-- (void)S;
+- (void)TEMPLATE_NAME_COUPONS;
 
 // Remaining properties
-@property(nonatomic) _Bool appletDidUpgrade; // @synthesize appletDidUpgrade=_appletDidUpgrade;
-@property(retain, nonatomic) NSMutableArray *completionHandlers; // @synthesize completionHandlers=_completionHandlers;
-@property(nonatomic) _Bool passUpgradeInProgress; // @synthesize passUpgradeInProgress=_passUpgradeInProgress;
-@property(nonatomic) _Bool requiresAppletUpgrade; // @synthesize requiresAppletUpgrade=_requiresAppletUpgrade;
-@property(readonly, nonatomic) _Bool upgradeIsComplete;
-@property(copy, nonatomic) NSURL *upgradePassURL; // @synthesize upgradePassURL=_upgradePassURL;
 @property(readonly, nonatomic) PKPassUpgradeRequest *upgradeRequest; // @synthesize upgradeRequest=_upgradeRequest;
-@property(retain, nonatomic) PKPaymentPass *upgradedPass; // @synthesize upgradedPass=_upgradedPass;
-@property(nonatomic) _Bool webRequestFinished; // @synthesize webRequestFinished=_webRequestFinished;
 
 @end
 

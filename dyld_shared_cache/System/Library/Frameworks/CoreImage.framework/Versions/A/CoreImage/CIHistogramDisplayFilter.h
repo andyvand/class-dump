@@ -6,34 +6,28 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIHistogramDisplayFilter : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputHeight;
-    NSNumber *inputHighLimit;
-    NSNumber *inputLowLimit;
 }
 
 + (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (id);
+- (id)?=;
 - (void);
 - (id);
 - (id)ukup]oi{{zx{x~~~}}}}jsssP`XjJc]pp~;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *inputHeight; // @synthesize inputHeight;
-@property(retain, nonatomic) NSNumber *inputHighLimit; // @synthesize inputHighLimit;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputLowLimit; // @synthesize inputLowLimit;
 
 @end
 

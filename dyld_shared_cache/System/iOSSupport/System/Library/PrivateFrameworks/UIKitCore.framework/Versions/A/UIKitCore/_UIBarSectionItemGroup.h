@@ -13,11 +13,11 @@
 }
 
 - (id);
-- (id);
+- (id)oad;
 - (unsigned long long);
 - (id);
-- (_Bool)achTime:(id)arg1;
-- (id)SafariSignal:payload: /* Error: Ran out of types for this method. */;
+- (_Bool)setRemoteInputMachTime:(id)arg1;
+- (id)asyncSendSafariSignal:payload: /* Error: Ran out of types for this method. */;
 - (id)iew * _Nullable _viewFromCoordinateSpace(__strong id<UICoordinateSpace> _Nullable);
 - (void)o¡;
 

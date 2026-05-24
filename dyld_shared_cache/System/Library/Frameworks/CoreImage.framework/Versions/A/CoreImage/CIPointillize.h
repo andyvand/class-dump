@@ -6,14 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIPointillize : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputRadius;
-    CIVector *inputCenter;
 }
 
 + (id);
@@ -22,14 +20,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
+- (id),	;
 - (void);
 - (id)££££ hbsqzhlhmjjgjemlmjjjjN\Ua:OC]]gbjwwwwQnjzuuq}q{|}^iep<VLeTfak{{{{koyyyyAYPd3H8Ya`Wfs}}}u~|NdZrij`knnnnZqj{s¥¥¥¥lvp_aUk`cXeffdfR^TeRd_n||||ssssOODS1AJJ>JZZTZYb[fppmr~yyyyLaZgP_Vdhnjplrozfsp{uvsywyyyxxxxhojs\mhs||||}}}}WkguZd\nZgblmmmmhhhh>WMdYd^hppppqqqqRibrazv¦¬¬¬ªªªªZsn{{{{s¦¦¦¦¢¢yyyy]]]]PPIP[[[[mmmm_pmw_oi~j}{Viay{{{{s|smth~| /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) CIVector *inputCenter; // @synthesize inputCenter;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputRadius; // @synthesize inputRadius;
 
 @end
 

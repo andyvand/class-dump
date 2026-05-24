@@ -5,5 +5,7 @@
 //
 
 @protocol _MKInfoCardAnalyticsDelegate
+- (void)(;
+- (void);
 @end
 

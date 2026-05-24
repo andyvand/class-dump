@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSObject, NSSet, WBSCache, WBSPrivacyProxyAvailabilityManager, WBSSiteMetadataManager;
-@protocol OS_dispatch_queue;
-
 @interface _ASPasswordManagerIconController
 {
     _Bool _hasLoadedHistory;
-    _Bool _canEnableIconDownload;
-    NSObject<OS_dispatch_queue> *_iconFetchingQueue;
-    WBSSiteMetadataManager *_siteMetadataManager;
-    NSSet *_domainsEligibleForIconFetching;
-    NSMutableArray *_blocksAwaitingHistoryItems;
-    NSMutableDictionary *_activeRequestIDToRequestToken;
-    WBSCache *_iconCache;
-    WBSCache *_monogramCache;
-    WBSPrivacyProxyAvailabilityManager *_availabilityManager;
-    NSMutableArray *_blocksAwaitingAvailabilityManager;
-    CDUnknownBlockType _allowNetworkFetchingBlock;
 }
 
 + (id);
@@ -32,9 +18,9 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
-- (void);
+- (void)%;
 - (void);
 - (void);
 - (void);

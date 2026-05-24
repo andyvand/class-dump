@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface WKRemoteObject
 {
     struct RetainPtr<_WKRemoteObjectRegistry> _objectRegistry;
-    struct RetainPtr<_WKRemoteObjectInterface> _interface;
 }
 
 - (id);

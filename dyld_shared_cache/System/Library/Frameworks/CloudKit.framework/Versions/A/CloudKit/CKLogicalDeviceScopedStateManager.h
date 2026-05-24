@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKLogicalDeviceContext, NSMapTable, NSMutableSet;
+@class NSMapTable;
 
 @interface CKLogicalDeviceScopedStateManager
 {
     NSMapTable *_assetsByUUID;
-    CKLogicalDeviceContext *_deviceContext;
-    NSMutableSet *_completedLongLivedOperationIDs;
-    NSMutableSet *_outstandingOperationIDs;
 }
 
-- (id);
+- (id)L;
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)9;
 - (id);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)unable to get PNG representation for %@%@;
 - (id);
 - (void)@nÈqüqtèu;
 - (void);
@@ -31,9 +28,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSMapTable *assetsByUUID; // @synthesize assetsByUUID=_assetsByUUID;
-@property(readonly, nonatomic) NSMutableSet *completedLongLivedOperationIDs; // @synthesize completedLongLivedOperationIDs=_completedLongLivedOperationIDs;
-@property(readonly, nonatomic) __weak CKLogicalDeviceContext *deviceContext; // @synthesize deviceContext=_deviceContext;
-@property(readonly, nonatomic) NSMutableSet *outstandingOperationIDs; // @synthesize outstandingOperationIDs=_outstandingOperationIDs;
 
 @end
 

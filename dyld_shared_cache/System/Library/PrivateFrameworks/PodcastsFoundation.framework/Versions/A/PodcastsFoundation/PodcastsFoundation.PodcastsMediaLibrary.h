@@ -7,7 +7,6 @@
 @interface PodcastsFoundation.PodcastsMediaLibrary
 {
     id config;
-    id $__lazy_storage_$_signpostID;
 }
 
 @end

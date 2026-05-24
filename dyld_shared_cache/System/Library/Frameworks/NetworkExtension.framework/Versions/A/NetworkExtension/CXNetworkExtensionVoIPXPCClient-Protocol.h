@@ -5,5 +5,8 @@
 //
 
 @protocol CXNetworkExtensionVoIPXPCClient
+
+@optional
+- (void);
 @end
 

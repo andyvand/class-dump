@@ -9,25 +9,6 @@
 @interface AppStoreKit.ProductPresenter : AppStoreKit.BasePresenter
 {
     id appStateController;
-    id completeMyBundleController;
-    id purchaseHistory;
-    id restrictions;
-    id fullProductFetchedAction;
-    id referrerData;
-    id view;
-    id isFetchingShelves;
-    id numberOfActiveRequests;
-    id sidepackedProduct;
-    id fullProduct;
-    id productUrl;
-    id hasBeenPurchasedForReviewsContainer;
-    id isLocalApplicationForAppEvents;
-    id shouldDisplayBetaBanner;
-    id currentBetaBundleVersion;
-    id isPurchased;
-    id isMediaExpanded;
-    id didAskToBuy;
-    id currentlyObservedAdamId;
 }
 
 - (void);

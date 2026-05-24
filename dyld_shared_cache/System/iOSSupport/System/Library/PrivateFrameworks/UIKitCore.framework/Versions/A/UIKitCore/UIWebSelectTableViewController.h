@@ -6,135 +6,39 @@
 
 #import <UIKitCore/UITableViewController.h>
 
-@class DOMHTMLSelectElement, NSArray, NSString, UIConversationContext, UITextInputPasswordRules, UIWebSelectPopover;
+@class DOMHTMLSelectElement;
 
 __attribute__((visibility("hidden")))
 @interface UIWebSelectTableViewController : UITableViewController
 {
     DOMHTMLSelectElement *_selectionNode;
-    NSArray *_cachedItems;
-    NSArray *_groupsAndOptions;
-    unsigned long long _singleSelectionIndex;
-    unsigned long long _singleSelectionSection;
-    _Bool _allowsMultipleSelection;
-    double _fontSize;
-    double _maximumTextWidth;
-    long long _textAlignment;
-    UIWebSelectPopover *_popover;
 }
 
+- (id)setUpdateMessageCache:(id)arg1;
+- (void)receiverIsCandidateForAppleSMSFilter;
+- (void)processName;
+- (void)predicateMatching:(id)arg1;
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (void)all IMDChats;
+- (id)ason=(%@);
+- (id)Relay is %{BOOL}d;
 - (id);
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)ble to find dh parameters;
 - (id);
 - (long long);
 - (void);
 - (void);
 - (long long);
-- (void)ntBasedLayoutAnimations;
-- (void)tedPlaceholderSupportC;
+- (void)_runConstraintBasedLayoutAnimations;
+- (void)So37_UITextViewAnimatedPlaceholderSupportC;
 - (_Bool)X\;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *_cachedItems; // @synthesize _cachedItems;
-@property(retain, nonatomic) NSArray *_groupsAndOptions; // @synthesize _groupsAndOptions;
-@property(nonatomic) UIWebSelectPopover *_popover; // @synthesize _popover;
 @property(retain, nonatomic) DOMHTMLSelectElement *_selectionNode; // @synthesize _selectionNode;
-@property unsigned long long allowedWritingToolsResultOptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?
-
-@property(nonatomic) _Bool allowsNumberPadPopover;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) long long autocapitalizationType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) long long autocorrectionType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(retain, nonatomic) UIConversationContext *conversationContext;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIConversationContext",?,&,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool enablesReturnKeyAutomatically;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(readonly, nonatomic) _Bool hasText;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long inlinePredictionType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) long long keyboardAppearance;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) long long keyboardType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) long long mathExpressionCompletionType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(copy, nonatomic) UITextInputPasswordRules *passwordRules;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UITextInputPasswordRules",?,C,N
-
-@property(nonatomic) long long returnKeyType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic, getter=isSecureTextEntry) _Bool secureTextEntry;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N,GisSecureTextEntry
-
-@property(nonatomic) long long smartDashesType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) long long smartInsertDeleteType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) long long smartQuotesType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) long long spellCheckingType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *textContentType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
-@property long long writingToolsBehavior;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?
-
 
 @end
 

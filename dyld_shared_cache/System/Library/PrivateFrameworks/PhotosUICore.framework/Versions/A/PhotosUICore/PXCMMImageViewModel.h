@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol PXDisplayAsset, PXUIImageProvider;
+@protocol PXDisplayAsset;
 
 @interface PXCMMImageViewModel
 {
     _Bool _highlighted;
-    id <PXDisplayAsset> _asset;
-    id <PXUIImageProvider> _mediaProvider;
 }
 
 - (void);
-- (id);
+- (id));
 - (void);
 - (void)@øÿÖúÿRî÷ÿ;
-- (void)ntVersion;
-- (id)erOfItems;
+- (void)faceAdjustmentVersion;
+- (id)PXRenderingNumberOfItems;
 - (void)derView;
 - (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXDisplayAsset> asset; // @synthesize asset=_asset;
-@property(readonly, nonatomic, getter=isHighlighted) _Bool highlighted; // @synthesize highlighted=_highlighted;
-@property(readonly, nonatomic) id <PXUIImageProvider> mediaProvider; // @synthesize mediaProvider=_mediaProvider;
 
 @end
 

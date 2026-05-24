@@ -11,13 +11,13 @@
     id <AAKeychainManagerStore> _keychainManager;
 }
 
+- (void)m.apple.quicklook.preview;
+- (id)t = %d;;
+- (id)ManagedClient;
 - (void);
+- (id)vationLockAllowed:Disallowing because MDM protocol version > 1 /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void)n: /* Error: Ran out of types for this method. */;
+- (void)setAction: /* Error: Ran out of types for this method. */;
 
 @end
 

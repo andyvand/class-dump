@@ -9,7 +9,6 @@
 @interface AAIdentity
 {
     AAIdentityAvatar *avatar;
-    id nameComponents;
 }
 
 + (void);
@@ -18,7 +17,7 @@
 - (id);
 - (id);
 - (void);
-- (void)untInfo;
+- (void)appleAccountInfo;
 
 // Remaining properties
 @property(nonatomic, readonly) AAIdentityAvatar *avatar; // @synthesize avatar;

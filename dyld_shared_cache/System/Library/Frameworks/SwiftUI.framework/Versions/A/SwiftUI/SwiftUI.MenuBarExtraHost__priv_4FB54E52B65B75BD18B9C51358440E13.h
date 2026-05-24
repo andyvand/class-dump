@@ -7,15 +7,6 @@
 @interface SwiftUI.MenuBarExtraHost__priv_4FB54E52B65B75BD18B9C51358440E13
 {
     id viewGraph;
-    id valuesNeedingUpdate;
-    id renderingPhase;
-    id currentTimestamp;
-    id externalUpdateCount;
-    id delegate;
-    id accessibilityEnabled;
-    id rootView;
-    id environment;
-    id focusedValues;
 }
 
 @end

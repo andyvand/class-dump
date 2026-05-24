@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHTextCorrectionResult, NSArray, NSNumber;
+@class NSNumber;
 
 @interface CHTextInputQueryItem
 {
     NSNumber *_itemIdentifier;
-    NSNumber *_itemStableIdentifier;
-    NSArray *_strokeIdentifiers;
-    CHTextCorrectionResult *_correctionResult;
 }
 
 - (id);
@@ -25,10 +22,7 @@
 - (id)erage from the inventory to trigger the character inventory preparation :%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) CHTextCorrectionResult *correctionResult; // @synthesize correctionResult=_correctionResult;
 @property(readonly, nonatomic) NSNumber *itemIdentifier; // @synthesize itemIdentifier=_itemIdentifier;
-@property(readonly, nonatomic) NSNumber *itemStableIdentifier; // @synthesize itemStableIdentifier=_itemStableIdentifier;
-@property(readonly, copy, nonatomic) NSArray *strokeIdentifiers; // @synthesize strokeIdentifiers=_strokeIdentifiers;
 
 @end
 

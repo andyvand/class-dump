@@ -4,27 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
-@protocol MFSearchableIndexQueryResultProcessorDelegate;
+@class NSMutableDictionary;
 
 @interface MFSearchableIndexThreadedQueryResultProcessor
 {
     _Bool _cancelled;
-    id <MFSearchableIndexQueryResultProcessorDelegate> _delegate;
-    NSMutableDictionary *_primaryLibraryIDsByConversationID;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)h;
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)Q;
 - (void);
 - (void);
-- (id);
+- (id)A;
 - (id);
 - (void);
 - (void);
@@ -35,17 +32,7 @@
 - (id)À;
 
 // Remaining properties
-@property(nonatomic, getter=isCancelled) _Bool cancelled; // @synthesize cancelled=_cancelled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MFSearchableIndexQueryResultProcessorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSMutableDictionary *primaryLibraryIDsByConversationID; // @synthesize primaryLibraryIDsByConversationID=_primaryLibraryIDsByConversationID;
-@property(readonly) _Bool shouldCancel;
-@property(readonly) Class superclass;
 
 @end
 

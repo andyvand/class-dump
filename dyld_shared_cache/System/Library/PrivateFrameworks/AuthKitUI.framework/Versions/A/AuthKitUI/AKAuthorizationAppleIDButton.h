@@ -6,21 +6,15 @@
 
 #import <AuthKitUI/AKAuthorizationButton.h>
 
-@class CAFilter, NSString;
-
 @interface AKAuthorizationAppleIDButton : AKAuthorizationButton
 {
     long long _type;
-    long long _style;
-    CAFilter *_highlightFilter;
-    _Bool _changesInterfaceStyle;
-    double _cornerRadius;
 }
 
 + (id);
 + (long long);
 + (_Bool);
-+ (double);
++ (double);
 + (Class);
 - (id);
 - (void);
@@ -42,21 +36,14 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)Y(;
 - (void);
 - (id);
-- (void)wordCache:(id)arg1;
+- (void)setIgnorePasswordCache:(id)arg1;
 - (void)ÿùzUR¥;
 
 // Remaining properties
 @property(nonatomic) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

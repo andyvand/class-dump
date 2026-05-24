@@ -5,5 +5,7 @@
 //
 
 @protocol UMUserBootStrapUserManagement
+- (_Bool)h.;
+- (_Bool);
 @end
 

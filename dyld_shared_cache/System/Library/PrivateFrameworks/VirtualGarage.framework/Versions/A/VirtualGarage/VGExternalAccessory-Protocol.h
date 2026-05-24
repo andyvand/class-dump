@@ -5,5 +5,6 @@
 //
 
 @protocol VGExternalAccessory
+- (_Bool)!i;
 @end
 

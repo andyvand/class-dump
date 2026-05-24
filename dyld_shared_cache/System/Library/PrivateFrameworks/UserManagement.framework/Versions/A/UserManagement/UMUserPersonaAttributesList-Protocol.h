@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol UMUserPersonaAttributesList
+- (NSArray *)9;
+- (NSArray *);
 @end
 

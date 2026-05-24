@@ -4,33 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString, NSURL, _CDContact;
-
 @interface _CDInteraction
 {
     id _recipients;
-    NSString *_bundleId;
-    NSString *_targetBundleId;
-    NSString *_account;
-    NSString *_derivedIntentIdentifier;
-    NSString *_domainIdentifier;
-    NSString *_groupName;
-    _CDContact *_sender;
-    NSURL *_contentURL;
-    NSString *_nsUserName;
-    _Bool _isResponse;
-    _Bool _forcePersistInteraction;
-    _Bool _mailShareSheetDeletionCandidate;
-    NSDate *_startDate;
-    NSDate *_updateDate;
-    NSDate *_endDate;
-    NSString *_uuid;
-    NSString *_locationUUID;
-    long long _mechanism;
-    long long _direction;
-    NSArray *_keywords;
-    NSArray *_attachments;
-    long long _selfParticipantStatus;
 }
 
 @end

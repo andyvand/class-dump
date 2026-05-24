@@ -5,5 +5,9 @@
 //
 
 @protocol UIMovieScrubberDelegate
+
+@optional
+- (void);
+- (void);
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableDictionary, NSUUID;
+@class NSArray, NSUUID;
 
 @interface W5DiagnosticsMode
 {
     NSUUID *_uuid;
-    long long _state;
-    NSArray *_peers;
-    NSDictionary *_info;
-    NSMutableDictionary *_timestamps;
 }
 
 + (_Bool);
@@ -22,18 +18,18 @@
 - (id);
 - (long long);
 - (void);
+- (void);
+- (id)setXPCServer: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (unsigned long long)lScreen;
 - (void);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (void);
-- (long long);
+- (long long)ring"24;
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)need to choose a best frame for downgrade from multiframe to single frame.;
 - (id);
 - (id);
 - (id);
@@ -41,11 +37,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *info; // @synthesize info=_info;
 @property(retain, nonatomic) NSArray *peers; // @synthesize peers=_peers;
-@property(readonly, nonatomic) long long state; // @synthesize state=_state;
-@property(retain, nonatomic) NSMutableDictionary *timestamps; // @synthesize timestamps=_timestamps;
-@property(retain, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

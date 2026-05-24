@@ -4,37 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSScrollingBehaviorConcurrentVBL, _NSScrollingConcurrentConstantData, _NSScrollingConcurrentSharedData;
+@class NSObject;
 @protocol OS_dispatch_source;
 
 __attribute__((visibility("hidden")))
 @interface _NSScrollingConcurrentMainThreadSynchronizer
 {
     NSObject<OS_dispatch_source> *_dispatchSource;
-    _NSScrollingConcurrentSharedData *_sharedData;
-    _NSScrollingConcurrentConstantData *_constantData;
-    NSScrollingBehaviorConcurrentVBL *_scrollingBehavior;
-    CDUnknownBlockType _preCommitHandler;
-    CDUnknownBlockType _completionHandler;
-    _Bool _isSuspended;
-    struct {
-        unsigned int isSynchronizing:1;
-        unsigned int unexpectedScrollDetected:1;
-        unsigned int reserved:30;
-    } _flags;
-    struct CGPoint _lastSetOrigin;
 }
 
-- (void);
-- (void);
+- (void)_	;
+- (void)d gestalt cache;
 - (id);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)on %llu:creating secure tcp or quic connection /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void)ation;
+- (void)_updateTitleAndImageConfiguration;
 - (void)ersion history.;
 - (void);
 

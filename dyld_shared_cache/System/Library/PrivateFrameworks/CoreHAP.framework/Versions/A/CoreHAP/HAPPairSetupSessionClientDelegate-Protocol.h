@@ -5,5 +5,8 @@
 //
 
 @protocol HAPPairSetupSessionClientDelegate
+
+@optional
+- (void);
 @end
 

@@ -4,32 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID, UIColor, UIView, _UINavigationInteractiveTransitionBase, _UIParallaxDimmingView, _UIViewControllerAnimatedTransitionHandoffData, _UIVisualEffectBackdropView;
-@protocol UIViewControllerContextTransitioning, UIViewImplicitlyAnimating, _UIInvalidatable;
+@protocol UIViewImplicitlyAnimating;
 
 @interface _UINavigationParallaxTransition
 {
     id <UIViewImplicitlyAnimating> _propertyAnimator;
-    NSUUID *_currentRunningAnimationsUUID;
-    NSUUID *_currentTrackingAnimatorsAnimationsUUID;
-    id <_UIInvalidatable> _keyboardLayoutGuideTransitionAssertion;
-    _UIVisualEffectBackdropView *_captureBackdropView;
-    _Bool _clipUnderlapWhileTransitioning;
-    _Bool __shouldReverseLayoutDirection;
-    long long _operation;
-    id <UIViewControllerContextTransitioning> _transitionContext;
-    _UINavigationInteractiveTransitionBase *_interactionController;
-    _UIParallaxDimmingView *_borderDimmingView;
-    _UIParallaxDimmingView *_contentDimmingView;
-    UIView *_containerFromView;
-    UIView *_containerToView;
-    UIView *_clipUnderView;
-    long long _transitionStyle;
-    double _transitionGap;
-    UIColor *_overrideDimmingColor;
-    _UIViewControllerAnimatedTransitionHandoffData *_preemptionHandoffData;
-    UIView *_fromOverlayView;
-    UIView *_toOverlayView;
 }
 
 + (void);
@@ -39,16 +18,16 @@
 - (void);
 - (void);
 - (void);
-- (double);
+- (double){?=QQQ},R;
 - (id);
-- (_Bool);
+- (_Bool)v48@0:8@"NSURLSession"16@"NSURLSessionTask"24@"NSURLRequest"32@?<v@?q@"NSURLRequest">40 /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)dialog;
+- (id)_volumeChangeCoalescingCount;
+- (void)_descriptionHeightConstraint;
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)!;
 - (void);
 - (id);
 - (void);
@@ -68,22 +47,22 @@
 - (id)8q16@"UIScreen"24;
 - (void)gateDidCancelEditing"b1"delegateEditingAnimationFinished"b1"delegateWidthDeltaOriginXDelta"b1"delegateDidBeginAnimatingZoom"b1"delegateDidEndAnimatingZoom"b1"delegateWillZoom"b1"dataSourceRequestThumbnailImageIsSummmary"b1};
 - (id)@"UIDragInteraction"16@"<UIDragSession>"24@?<v@?>32;
-- (void)toresizesToFit:(_Bool)arg1;
-- (void)s:(id)arg1;
-- (void)ndexPath;
-- (void)rrentUpdate:(id)arg1 disappearingAnimations:(_Bool)arg2;
-- (id);
-- (id)earchLayoutState: /* Error: Ran out of types for this method. */;
+- (void)setTitleAutoresizesToFit:(_Bool)arg1;
+- (void)_setModifierFlags:(id)arg1;
+- (void)_selectedIndexPath;
+- (void)_createAndAppendViewAnimationsForDeletesInCurrentUpdate:(id)arg1 disappearingAnimations:(_Bool)arg2;
+- (id)_animationFenceEnabled;
+- (id)_animateTransitionToSearchLayoutState: /* Error: Ran out of types for this method. */;
 - (void)r;
 - (id)",R,N,V_maximumDateComponents;
 - (void)>îÿ¹uþÿÅîÿ;
-- (void)ons;
-- (long long)nerRadius;
+- (void)animations;
+- (long long)cornerRadius;
 - (void)ack;
 - (void)ect:(id)arg1 %@,
 ;
-- (_Bool)rStyle;
-- (id)UIAllowDictationFromPlayPause;
+- (_Bool)UISeparatorStyle;
+- (id)_UIAllowDictationFromPlayPause;
 - (void)de the backgroundEffects property. Switch to using backgroundEffects exclusively.;
 - (double)size;
 - (void);
@@ -95,53 +74,10 @@
 - (id)wJÜLé_;
 
 // Remaining properties
-@property(readonly, nonatomic) UIView *_navigationBarTransitionOverlay;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIView",?,R,N
-
-@property(readonly, nonatomic) long long _navigationBarTransitionVariant;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) _Bool _shouldAnimateBottomBarVisibility;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool _shouldCrossFadeBottomBars;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool _shouldCrossFadeNavigationBarVisibility;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(nonatomic, setter=_setShouldReverseLayoutDirection:) _Bool _shouldReverseLayoutDirection; // @synthesize _shouldReverseLayoutDirection=__shouldReverseLayoutDirection;
-@property(retain, nonatomic) _UIParallaxDimmingView *borderDimmingView; // @synthesize borderDimmingView=_borderDimmingView;
-@property(retain, nonatomic) UIView *clipUnderView; // @synthesize clipUnderView=_clipUnderView;
-@property(nonatomic) _Bool clipUnderlapWhileTransitioning; // @synthesize clipUnderlapWhileTransitioning=_clipUnderlapWhileTransitioning;
-@property(retain, nonatomic) UIView *containerFromView; // @synthesize containerFromView=_containerFromView;
-@property(retain, nonatomic) UIView *containerToView; // @synthesize containerToView=_containerToView;
-@property(retain, nonatomic) _UIParallaxDimmingView *contentDimmingView; // @synthesize contentDimmingView=_contentDimmingView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UIView *fromOverlayView; // @synthesize fromOverlayView=_fromOverlayView;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak _UINavigationInteractiveTransitionBase *interactionController; // @synthesize interactionController=_interactionController;
-@property(nonatomic) long long operation; // @synthesize operation=_operation;
-@property(retain, nonatomic) UIColor *overrideDimmingColor; // @synthesize overrideDimmingColor=_overrideDimmingColor;
-@property(retain, nonatomic) _UIViewControllerAnimatedTransitionHandoffData *preemptionHandoffData; // @synthesize preemptionHandoffData=_preemptionHandoffData;
 @property(readonly, nonatomic) _Bool prefersPreemptionEnabledForPresentations;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TB,?,R,N
 
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIView *toOverlayView; // @synthesize toOverlayView=_toOverlayView;
-@property(retain, nonatomic) id <UIViewControllerContextTransitioning> transitionContext; // @synthesize transitionContext=_transitionContext;
-@property(nonatomic) double transitionGap; // @synthesize transitionGap=_transitionGap;
-@property(nonatomic) long long transitionStyle; // @synthesize transitionStyle=_transitionStyle;
 
 @end
 

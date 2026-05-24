@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSNumber;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraRecordingVideoCodecParameters
 {
     NSArray *_profiles;
-    NSArray *_levels;
-    NSNumber *_bitRate;
-    NSNumber *_iFrameInterval;
 }
 
 + (_Bool)`8;Ð/Ì;
@@ -21,19 +18,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
+- (id)@;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (id)meters;
 - (void)8ÿ ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSNumber *bitRate; // @synthesize bitRate=_bitRate;
-@property(readonly, copy, nonatomic) NSNumber *iFrameInterval; // @synthesize iFrameInterval=_iFrameInterval;
-@property(readonly, copy, nonatomic) NSArray *levels; // @synthesize levels=_levels;
 @property(readonly, copy, nonatomic) NSArray *profiles; // @synthesize profiles=_profiles;
-@property(readonly, copy) NSData *tlvData;
 
 @end
 

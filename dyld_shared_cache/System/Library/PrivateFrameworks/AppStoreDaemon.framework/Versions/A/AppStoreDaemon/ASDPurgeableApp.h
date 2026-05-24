@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface ASDPurgeableApp
 {
     NSString *_bundleID;
-    NSString *_purgeableReason;
-    long long _purgeableType;
-    long long _staticDiskUsage;
-    NSNumber *_storeItemID;
 }
 
 + (_Bool);
@@ -23,17 +19,13 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)ta, max_route_course_delta, route_course_match_score, route_course_weight, road_width_on_route, distance_from_road, road_course_delta, distance_from_nearest_junction) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(readonly, nonatomic) NSString *purgeableReason; // @synthesize purgeableReason=_purgeableReason;
-@property(readonly, nonatomic) long long purgeableType; // @synthesize purgeableType=_purgeableType;
-@property(readonly, nonatomic) long long staticDiskUsage; // @synthesize staticDiskUsage=_staticDiskUsage;
-@property(readonly, nonatomic) NSNumber *storeItemID; // @synthesize storeItemID=_storeItemID;
 
 @end
 

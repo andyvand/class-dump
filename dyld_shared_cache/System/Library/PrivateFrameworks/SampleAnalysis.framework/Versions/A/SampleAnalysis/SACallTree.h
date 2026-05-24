@@ -11,14 +11,13 @@
     NSArray *_rootObjects;
 }
 
-- (id);
-- (id);
-- (id);
+- (id)t;
+- (id);
+- (id)A;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly) NSArray *rootFrames;
 @property(readonly) NSArray *rootObjects; // @synthesize rootObjects=_rootObjects;
 
 @end

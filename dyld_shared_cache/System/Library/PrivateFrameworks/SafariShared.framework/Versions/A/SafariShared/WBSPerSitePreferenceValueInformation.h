@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface WBSPerSitePreferenceValueInformation
 {
     NSString *_domain;
-    id _value;
-    NSDate *_creationDate;
 }
 
 - (id);
-- (id);
+- (id)setPreviewStrokeMaxPoints: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
 @property(readonly, copy, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(readonly, nonatomic) id value; // @synthesize value=_value;
 
 @end
 

@@ -4,30 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SGM2FoundInMailModelScore
 {
     int _contactDetail;
-    NSString *_key;
-    int _mode;
-    int _model;
-    int _supervision;
-    _Bool _correct;
-    _Bool _result;
-    struct {
-        unsigned int contactDetail:1;
-        unsigned int mode:1;
-        unsigned int model:1;
-        unsigned int supervision:1;
-        unsigned int correct:1;
-        unsigned int result:1;
-    } _has;
 }
 
 - (id);
 - (int);
-- (void);
+- (void)__objc_protorefs__DATA_CONST;
 - (void);
 - (void);
 - (void);
@@ -39,25 +23,25 @@
 - (_Bool);
 - (id);
 - (int);
+- (_Bool)0:8@"NSTableView"16 /* Error: Ran out of types for this method. */;
+- (int)6q24q32;
+- (void)w"16@"NSURLAuthenticationChallenge"24@?<v@?B>32;
+- (int)SDraggingSession"24{CGPoint=dd}32Q48;
+- (int)6@0:(id)arg1 8@"NSTableView"16@"NSDraggingSession"24{CGPoint=dd}32@"NSIndexSet"48;
 - (_Bool);
-- (int);
 - (void);
 - (int);
 - (int);
-- (_Bool);
-- (void);
-- (int);
-- (int);
-- (id);
+- (id)A;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (id);
+- (id)mNextVmlShapeIdToTextBoxMap;
+- (void)t;
+- (id)L;
 - (_Bool);
-- (void);
+- (void)@;
 - (void);
 - (id);
 - (int);
@@ -70,24 +54,11 @@
 × ;
 - (void)ÁÚ °!°GùQm$1Â0@ù
 × ;
-- (void)tPasses:(id)arg1;
+- (void)setWalletPasses:(id)arg1;
 - (void)Äz;
 
 // Remaining properties
-@property(nonatomic) int contactDetail; // @synthesize contactDetail=_contactDetail;
-@property(nonatomic) _Bool correct; // @synthesize correct=_correct;
-@property(nonatomic) _Bool hasContactDetail;
-@property(nonatomic) _Bool hasCorrect;
 @property(readonly, nonatomic) _Bool hasKey;
-@property(nonatomic) _Bool hasMode;
-@property(nonatomic) _Bool hasModel;
-@property(nonatomic) _Bool hasResult;
-@property(nonatomic) _Bool hasSupervision;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(nonatomic) int mode; // @synthesize mode=_mode;
-@property(nonatomic) int model; // @synthesize model=_model;
-@property(nonatomic) _Bool result; // @synthesize result=_result;
-@property(nonatomic) int supervision; // @synthesize supervision=_supervision;
 
 @end
 

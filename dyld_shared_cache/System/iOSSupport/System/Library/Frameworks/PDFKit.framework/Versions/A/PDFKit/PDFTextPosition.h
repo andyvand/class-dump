@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PDFPage;
-
 __attribute__((visibility("hidden")))
 @interface PDFTextPosition
 {
     long long _offset;
-    PDFPage *_page;
 }
 
 - (id);
@@ -22,7 +19,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) long long offset; // @synthesize offset=_offset;
-@property(readonly) __weak PDFPage *page; // @synthesize page=_page;
 
 @end
 

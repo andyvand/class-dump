@@ -4,29 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface BWCameraAppLaunchAnalyticsPayload
 {
     _Bool _isPrewarmed;
-    NSString *_launchMode;
-    int _devicePosition;
-    NSString *_prewarmReason;
-    int _launchDuration;
-    int _memoryStatusLevel;
-    int _thermalLevel;
-    int _numberOfGraphStartsDuringLaunch;
-    _Bool _deviceIsLocked;
-    int _deviceStolenDuration;
-    _Bool _isColdLaunch;
-    int _deviceStolenCondition;
-    int _ispStartDuration;
 }
 
 - (int);
 - (void);
-- (int);
+- (int)addDefaultWithNSString:formatId: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -39,13 +25,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)sharedKeySetForKeys:(id)arg1;
 - (_Bool);
 - (void);
 - (id);
 - (int);
 - (void);
-- (id);
+- (id)2,;
 - (id);
 - (void);
 - (void);
@@ -57,26 +43,7 @@ __attribute__((visibility("hidden")))
 - (int);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool deviceIsLocked; // @synthesize deviceIsLocked=_deviceIsLocked;
-@property(nonatomic) int devicePosition; // @synthesize devicePosition=_devicePosition;
-@property(nonatomic) int deviceStolenCondition; // @synthesize deviceStolenCondition=_deviceStolenCondition;
-@property(nonatomic) int deviceStolenDuration; // @synthesize deviceStolenDuration=_deviceStolenDuration;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isColdLaunch; // @synthesize isColdLaunch=_isColdLaunch;
 @property(nonatomic) _Bool isPrewarmed; // @synthesize isPrewarmed=_isPrewarmed;
-@property(nonatomic) int ispStartDuration; // @synthesize ispStartDuration=_ispStartDuration;
-@property(nonatomic) int launchDuration; // @synthesize launchDuration=_launchDuration;
-@property(copy, nonatomic) NSString *launchMode; // @synthesize launchMode=_launchMode;
-@property(nonatomic) int memoryStatusLevel; // @synthesize memoryStatusLevel=_memoryStatusLevel;
-@property(nonatomic) int numberOfGraphStartsDuringLaunch; // @synthesize numberOfGraphStartsDuringLaunch=_numberOfGraphStartsDuringLaunch;
-@property(copy, nonatomic) NSString *prewarmReason; // @synthesize prewarmReason=_prewarmReason;
-@property(readonly) Class superclass;
-@property(nonatomic) int thermalLevel; // @synthesize thermalLevel=_thermalLevel;
 
 @end
 

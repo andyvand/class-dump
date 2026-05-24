@@ -7,8 +7,6 @@
 @interface PXPhotosFileProviderRegister
 {
     id configuration;
-    id fileProviderManager;
-    id domain;
 }
 
 + (id);
@@ -17,7 +15,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);

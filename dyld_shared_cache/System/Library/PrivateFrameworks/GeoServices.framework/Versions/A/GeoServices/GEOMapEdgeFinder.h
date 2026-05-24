@@ -6,31 +6,26 @@
 
 #import <GeoServices/GEOMapRequest.h>
 
-@class GEOMapAccess, GEOMapTileFinder, NSMutableSet;
+@class GEOMapTileFinder;
 
 __attribute__((visibility("hidden")))
 @interface GEOMapEdgeFinder : GEOMapRequest
 {
     GEOMapTileFinder *_tileFinder;
-    CDStruct_34734122 _centerPoint;
-    double _mapRadius;
-    CDUnknownBlockType _edgeHandler;
-    NSMutableSet *_edgeBuilders;
 }
 
-- (id);
+- (id)";
 - (void);
 - (CDUnknownBlockType);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)initWithLeft:(const void *)arg1 right: /* Error: Ran out of types for this method. */;
+- (void)initWithEmailAddresses:(id)arg1 phoneNumbers:(const void *)arg2 unknown:(float)arg3;
+- (void)_cn_rangeOfAnchoredCharacters:(CDUnknownBlockType)arg1 options: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void)v4IU3;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType edgeHandler; // @synthesize edgeHandler=_edgeHandler;
-@property(readonly, nonatomic) GEOMapAccess *map;
 
 @end
 

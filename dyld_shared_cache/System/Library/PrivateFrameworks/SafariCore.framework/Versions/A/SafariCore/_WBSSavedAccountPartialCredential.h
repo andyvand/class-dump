@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString, NSURLProtectionSpace;
+@class NSURLProtectionSpace;
 
 __attribute__((visibility("hidden")))
 @interface _WBSSavedAccountPartialCredential
 {
     _Bool _defaultCredentialForProtectionSpace;
-    NSURLProtectionSpace *_protectionSpace;
-    NSDate *_modificationDate;
-    NSDate *_creationDate;
-    NSData *_persistentIdentifier;
-    NSString *_recoveryKeyUniqueIdentifier;
 }
 
 - (id);
@@ -28,12 +23,7 @@ __attribute__((visibility("hidden")))
 - (id)d credentials back to personal keychain from group ID:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(readonly, nonatomic, getter=isDefaultCredentialForProtectionSpace) _Bool defaultCredentialForProtectionSpace; // @synthesize defaultCredentialForProtectionSpace=_defaultCredentialForProtectionSpace;
-@property(readonly, nonatomic) NSDate *modificationDate; // @synthesize modificationDate=_modificationDate;
-@property(readonly, nonatomic) NSData *persistentIdentifier; // @synthesize persistentIdentifier=_persistentIdentifier;
 @property(readonly, nonatomic) NSURLProtectionSpace *protectionSpace; // @synthesize protectionSpace=_protectionSpace;
-@property(copy, nonatomic) NSString *recoveryKeyUniqueIdentifier; // @synthesize recoveryKeyUniqueIdentifier=_recoveryKeyUniqueIdentifier;
 
 @end
 

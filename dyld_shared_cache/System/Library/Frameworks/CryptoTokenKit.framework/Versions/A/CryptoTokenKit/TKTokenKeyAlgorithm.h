@@ -14,8 +14,8 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (void);
+- (id)k;
+- (void)etion;
 
 @end
 

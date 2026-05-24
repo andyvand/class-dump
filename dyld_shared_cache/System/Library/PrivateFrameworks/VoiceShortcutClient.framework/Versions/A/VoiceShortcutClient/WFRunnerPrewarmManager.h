@@ -12,11 +12,11 @@
 }
 
 + (id);
-- (void);
-- (void);
-- (id);
+- (void)2|;
 - (void);
 - (id);
+- (void);
+- (id)or";
 - (void);
 
 // Remaining properties

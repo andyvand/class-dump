@@ -4,34 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDate, NSDecimalNumber, NSString, NSURL, PKCurrencyAmount;
+@class NSString, NSURL;
 
 @interface PKTransactionReceipt
 {
     NSString *_uniqueID;
-    NSString *_receiptProviderIdentifier;
-    NSString *_receiptIdentifier;
-    NSDate *_lastUpdatedDate;
-    NSURL *_supportURL;
-    long long _state;
-    NSDecimalNumber *_subtotalAmount;
-    NSDecimalNumber *_totalAmount;
-    NSString *_currencyCode;
-    NSArray *_headerFields;
-    NSArray *_lineItems;
-    NSArray *_summaryItems;
-    NSData *_pdfReceiptData;
-    NSData *_htmlReceiptData;
-    NSURL *_fileURL;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)Q;
 - (void);
 - (void);
 - (void);
@@ -46,42 +32,26 @@
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
-- (id);
+- (id);
 - (void);
 - (long long);
-- (_Bool);
+- (_Bool);
+- (id)questsACL"b1"requestsBLE"b1"requestsBLEScan"b1"requestsInquiry"b1"requestsInquiryScan"b1"requestsMSS"b1"requestsOther"b1"requestsPARK"b1"requestsPage"b1"requestsPageScan"b1"requestsSCO"b1"requestsSniff"b1"requestseSCO"b1"resumeTimeAccumulatedMsec"b1"scoReservedSlotDenyCount"b1"scoRetransmission1DenyCount"b1"scoRetransmission2DenyCount"b1"timeTillResumeAccumulatedMsec"b1"timestamp"b1"txCTS2Self"b1"wlanPreempted"b1};
+- (void)addMostUsedNetworks:(id)arg1;
 - (id);
-- (void);
 - (id);
-- (id);
-- (void);
+- (void);
 - (id)!üDùqð%Ð1Â0@ù
 × ;
-- (id)eason:(id)arg1 forDeviceCredential:passCredential: /* Error: Ran out of types for this method. */;
+- (id)addCleanupActions:(id)arg1 cleanupReason:forDeviceCredential:passCredential: /* Error: Ran out of types for this method. */;
 - (void)FMtA/o.jpg;
-- (id)entIdentifier;
+- (id)paymentIdentifier;
 - (id)rs post provisioning ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
 @property(readonly, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(readonly, nonatomic) NSArray *headerFields; // @synthesize headerFields=_headerFields;
-@property(readonly, nonatomic) NSData *htmlReceiptData; // @synthesize htmlReceiptData=_htmlReceiptData;
-@property(retain, nonatomic) NSDate *lastUpdatedDate; // @synthesize lastUpdatedDate=_lastUpdatedDate;
-@property(readonly, nonatomic) NSArray *lineItems; // @synthesize lineItems=_lineItems;
-@property(readonly, nonatomic) NSData *pdfReceiptData; // @synthesize pdfReceiptData=_pdfReceiptData;
-@property(copy, nonatomic) NSString *receiptIdentifier; // @synthesize receiptIdentifier=_receiptIdentifier;
-@property(copy, nonatomic) NSString *receiptProviderIdentifier; // @synthesize receiptProviderIdentifier=_receiptProviderIdentifier;
-@property(nonatomic) long long state; // @synthesize state=_state;
-@property(retain, nonatomic) NSDecimalNumber *subtotalAmount; // @synthesize subtotalAmount=_subtotalAmount;
-@property(readonly, nonatomic) PKCurrencyAmount *subtotalCurrencyAmount;
-@property(readonly, nonatomic) NSArray *summaryItems; // @synthesize summaryItems=_summaryItems;
-@property(retain, nonatomic) NSURL *supportURL; // @synthesize supportURL=_supportURL;
-@property(retain, nonatomic) NSDecimalNumber *totalAmount; // @synthesize totalAmount=_totalAmount;
-@property(readonly, nonatomic) PKCurrencyAmount *totalCurrencyAmount;
-@property(copy, nonatomic) NSString *uniqueID; // @synthesize uniqueID=_uniqueID;
 
 @end
 

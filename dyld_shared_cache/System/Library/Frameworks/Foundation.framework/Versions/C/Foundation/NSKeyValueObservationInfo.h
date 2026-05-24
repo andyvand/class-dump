@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NSKeyValueObservationInfo
 {
     NSArray *_observances;
-    unsigned long long _cachedHash;
-    _Bool _cachedIsShareable;
 }
 
 - (void);
@@ -20,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool)ngeFinderAttributes:forFileAtPath: /* Error: Ran out of types for this method. */;
+- (_Bool)_web_changeFinderAttributes:forFileAtPath: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties

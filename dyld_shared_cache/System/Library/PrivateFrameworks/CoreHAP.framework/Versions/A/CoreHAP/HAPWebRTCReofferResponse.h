@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPWebRTCStreamingStatusWrapper, NSData, NSString;
+@class NSData;
 
 @interface HAPWebRTCReofferResponse
 {
     NSData *_sessionIdentifier;
-    NSData *_SDPAnswer;
-    HAPWebRTCStreamingStatusWrapper *_status;
 }
 
 + (id);
@@ -30,16 +28,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *SDPAnswer; // @synthesize SDPAnswer=_SDPAnswer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSData *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
-@property(retain, nonatomic) HAPWebRTCStreamingStatusWrapper *status; // @synthesize status=_status;
-@property(readonly) Class superclass;
 
 @end
 

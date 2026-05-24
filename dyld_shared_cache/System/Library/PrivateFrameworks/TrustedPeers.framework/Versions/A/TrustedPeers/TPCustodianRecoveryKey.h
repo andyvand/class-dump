@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSUUID;
-@protocol TPPublicKey;
+@class NSUUID;
 
 @interface TPCustodianRecoveryKey
 {
     int _kind;
-    NSUUID *_uuid;
-    NSString *_peerID;
-    id <TPPublicKey> _signingPublicKey;
-    id <TPPublicKey> _encryptionPublicKey;
-    NSData *_data;
-    NSData *_sig;
 }
 
-+ (id);
++ (id);
 + (id);
 - (void);
 - (id);
@@ -32,21 +25,15 @@
 - (void);
 - (_Bool);
 - (id);
+- (id)pointDescriptionRef, CFNumberRef *);
 - (id);
 - (id);
-- (id);
-- (int);
+- (int)_betterPathAvailableNotificationMachTime;
 - (void);
 - (void);
-- (id);
+- (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *data; // @synthesize data=_data;
-@property(retain, nonatomic) id <TPPublicKey> encryptionPublicKey; // @synthesize encryptionPublicKey=_encryptionPublicKey;
-@property(nonatomic) int kind; // @synthesize kind=_kind;
-@property(retain, nonatomic) NSString *peerID; // @synthesize peerID=_peerID;
-@property(readonly, nonatomic) NSData *sig; // @synthesize sig=_sig;
-@property(retain, nonatomic) id <TPPublicKey> signingPublicKey; // @synthesize signingPublicKey=_signingPublicKey;
 @property(retain, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end

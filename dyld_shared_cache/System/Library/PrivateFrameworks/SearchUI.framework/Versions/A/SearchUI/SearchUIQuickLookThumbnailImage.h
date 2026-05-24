@@ -6,17 +6,11 @@
 
 #import <SearchUI/SearchUIImage.h>
 
-@class FPItemID, NSURL, QLThumbnailGenerationRequest, SearchUIAppIconImage;
+@class NSURL;
 
 @interface SearchUIQuickLookThumbnailImage : SearchUIImage
 {
     _Bool _isCompact;
-    unsigned long long _variant;
-    NSURL *_url;
-    FPItemID *_fpItemID;
-    QLThumbnailGenerationRequest *_request;
-    long long _bestRepresentationTypeLoaded;
-    SearchUIAppIconImage *_appIconImage;
 }
 
 - (void);
@@ -27,9 +21,9 @@
 - (int);
 - (long long);
 - (void);
-- (_Bool);
-- (void);
-- (id);
+- (_Bool)!;
+- (void).aa;
+- (id)ong_down_sidePart_AO.heic;
 - (unsigned long long);
 - (void);
 - (void);
@@ -39,21 +33,15 @@
 - (void);
 - (id);
 - (Class);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)(;
 
 // Remaining properties
-@property(retain) SearchUIAppIconImage *appIconImage; // @synthesize appIconImage=_appIconImage;
-@property long long bestRepresentationTypeLoaded; // @synthesize bestRepresentationTypeLoaded=_bestRepresentationTypeLoaded;
-@property(retain, nonatomic) FPItemID *fpItemID; // @synthesize fpItemID=_fpItemID;
-@property _Bool isCompact; // @synthesize isCompact=_isCompact;
-@property __weak QLThumbnailGenerationRequest *request; // @synthesize request=_request;
 @property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
-@property(nonatomic) unsigned long long variant; // @synthesize variant=_variant;
 
 @end
 

@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol HMDHouseholdMetricsLogEventFactory
+- (NSArray *);
+- (void)MSPIdentifiable;
+- (void)MSPHistoryEntry;
 @end
 

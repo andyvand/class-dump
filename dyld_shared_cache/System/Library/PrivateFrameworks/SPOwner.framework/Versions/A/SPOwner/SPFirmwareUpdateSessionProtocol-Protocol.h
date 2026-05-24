@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDateInterval, NSUUID;
+
 @protocol SPFirmwareUpdateSessionProtocol
+- (void)oller _currentCachedRemoteDevicesForDestinations:(NSUUID *)arg1 service:(NSDateInterval *)arg2 preferredFromID:(void (^)(NSArray *))arg3 listenerID:] /* Error: Ran out of types for this method. */;
 @end
 

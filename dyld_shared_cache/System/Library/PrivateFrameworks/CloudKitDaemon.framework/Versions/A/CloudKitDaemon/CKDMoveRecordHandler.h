@@ -6,30 +6,26 @@
 
 #import <CloudKitDaemon/CKDModifyRecordHandler.h>
 
-@class CKDMovePhotosOperation, CKMovePhotosChange, CKRecord;
+@class CKMovePhotosChange;
 
 @interface CKDMoveRecordHandler : CKDModifyRecordHandler
 {
     CKMovePhotosChange *_moveChange;
-    CKRecord *_serverMoveMarkerRecord;
 }
 
 + (id);
 - (void);
+- (id)4	;
 - (id);
-- (id);
-- (id);
+- (id)h;
 - (void);
-- (id);
+- (id)nessPersistence removeAllUserOverrides];
 - (void);
-- (void)cordsRequest;
+- (void)fetchArchivedRecordsRequest;
 - (id)try %{public}@ PCS decryption due to error:(id)arg1 %@.;
 
 // Remaining properties
 @property(retain, nonatomic) CKMovePhotosChange *moveChange; // @synthesize moveChange=_moveChange;
-@property(nonatomic) __weak CKDMovePhotosOperation *operation; // @dynamic operation;
-@property(retain, nonatomic) CKRecord *serverDestinationRecord;
-@property(retain, nonatomic) CKRecord *serverMoveMarkerRecord; // @synthesize serverMoveMarkerRecord=_serverMoveMarkerRecord;
 
 @end
 

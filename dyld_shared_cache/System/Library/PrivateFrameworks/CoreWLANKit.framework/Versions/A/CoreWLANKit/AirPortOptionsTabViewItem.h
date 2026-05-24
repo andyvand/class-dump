@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AirPortOptionsTabView, CWInterface, CWWiFiClient, CWWiFiUIProxyClient, NSString;
+@class AirPortOptionsTabView, NSString;
 
 @interface AirPortOptionsTabViewItem
 {
     AirPortOptionsTabView *_AirPortOptionsTabView;
-    id _owner;
-    CWWiFiClient *_wifiClient;
-    CWWiFiUIProxyClient *_wifiUIClient;
-    NSString *_interfaceName;
-    _Bool _isWiFiNetworkSyncEnabled;
-    unsigned long long _modifierFlags;
 }
 
 - (id);
@@ -31,25 +25,13 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)/;
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) CWInterface *interface; // @dynamic interface;
 @property(copy) NSString *interfaceName; // @synthesize interfaceName=_interfaceName;
-@property(readonly) _Bool isWiFiNetworkSyncEnabled; // @synthesize isWiFiNetworkSyncEnabled=_isWiFiNetworkSyncEnabled;
-@property(readonly) unsigned long long modifierFlags; // @synthesize modifierFlags=_modifierFlags;
-@property(readonly) Class superclass;
-@property(readonly) CWWiFiClient *wifiClient; // @synthesize wifiClient=_wifiClient;
-@property(readonly) CWWiFiUIProxyClient *wifiUIClient; // @synthesize wifiUIClient=_wifiUIClient;
 
 @end
 

@@ -4,41 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SGM2SuggestdExitReason
 {
     unsigned int _exitCode;
-    NSString *_key;
-    struct {
-        unsigned int exitCode:1;
-    } _has;
 }
 
-- (void);
+- (void)__swift5_protos;
 - (_Bool);
 - (void);
 - (unsigned int);
 - (id);
-- (void);
+- (void)m;
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (id);
+- (_Bool)Bw;
+- (id)mPresetSubType;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (_Bool)ql$Ð1Â0@ù
 × ;
-- (void)pletion:(id)arg1;
+- (void)sleepWithCompletion:(id)arg1;
 - (void)­;
 
 // Remaining properties
-@property(nonatomic) unsigned int exitCode; // @synthesize exitCode=_exitCode;
-@property(nonatomic) _Bool hasExitCode;
 @property(readonly, nonatomic) _Bool hasKey;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
 
 @end
 

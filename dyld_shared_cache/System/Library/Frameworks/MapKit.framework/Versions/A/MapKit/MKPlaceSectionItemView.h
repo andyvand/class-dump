@@ -17,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)jectAudio:(struct CGRect)arg1 toDeviceWithUUID:withNumChannels:withUserIntentOptions:handlingDaemon:started:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, getter=isHairlineFullWidth) _Bool fullWidthHairline; // @synthesize fullWidthHairline=_fullWidthHairline;

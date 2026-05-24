@@ -7,14 +7,10 @@
 @class NSManagedObjectID;
 
 @protocol PHThumbnailAsset
-- (_Bool)equestsByObjectID:error: /* Error: Ran out of types for this method. */;
+- (_Bool)validateForDeleteWithRequestsByObjectID:error: /* Error: Ran out of types for this method. */;
 - (unsigned long long)@;
 
 // Remaining properties
-@property(readonly, nonatomic) long long compactSCSensitivityAnalysis;
-@property(readonly, nonatomic) _Bool complete;
 @property(readonly, nonatomic) NSManagedObjectID *objectID;
-@property(readonly, nonatomic) unsigned long long sourceType;
-@property(readonly, nonatomic) unsigned long long thumbnailIndex;
 @end
 

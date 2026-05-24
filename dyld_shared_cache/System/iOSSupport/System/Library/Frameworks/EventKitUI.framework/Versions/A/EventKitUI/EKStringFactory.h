@@ -7,16 +7,15 @@
 @interface EKStringFactory
 {
     struct __CFDateFormatter *_standardTimeFormatter;
-    struct __CFDateFormatter *_customFormatter;
 }
 
-+ (id)itialSource;
++ (id)fetchInitialSource;
+- (id)Y%s;
+- (id)&s;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id){;
+- (id)C{;
 
 @end
 

@@ -9,11 +9,6 @@
 @interface RTVisitRedactionDetails
 {
     NSMutableArray *_visitsRedactedForAge;
-    NSMutableArray *_visitsRedactedForAuthorizedLocation;
-    NSMutableArray *_visitsRedactedForCategory;
-    NSMutableArray *_visitsRedactedForConfidence;
-    NSMutableArray *_visitsRedactedForPlaceType;
-    NSMutableArray *_visitsRedactedForRegion;
 }
 
 - (id);
@@ -28,19 +23,13 @@
 - (void);
 - (void);
 - (long long);
-- (void);
+- (void)dentitySetCreateAllManateeIdentities:(id)arg1 %{public}@;
 - (id);
 - (id);
 - (void)urning to the queue of the SessionManager, error, %@;
 
 // Remaining properties
-@property(readonly, nonatomic) long long redactedVisitCount;
 @property(retain, nonatomic) NSMutableArray *visitsRedactedForAge; // @synthesize visitsRedactedForAge=_visitsRedactedForAge;
-@property(retain, nonatomic) NSMutableArray *visitsRedactedForAuthorizedLocation; // @synthesize visitsRedactedForAuthorizedLocation=_visitsRedactedForAuthorizedLocation;
-@property(retain, nonatomic) NSMutableArray *visitsRedactedForCategory; // @synthesize visitsRedactedForCategory=_visitsRedactedForCategory;
-@property(retain, nonatomic) NSMutableArray *visitsRedactedForConfidence; // @synthesize visitsRedactedForConfidence=_visitsRedactedForConfidence;
-@property(retain, nonatomic) NSMutableArray *visitsRedactedForPlaceType; // @synthesize visitsRedactedForPlaceType=_visitsRedactedForPlaceType;
-@property(retain, nonatomic) NSMutableArray *visitsRedactedForRegion; // @synthesize visitsRedactedForRegion=_visitsRedactedForRegion;
 
 @end
 

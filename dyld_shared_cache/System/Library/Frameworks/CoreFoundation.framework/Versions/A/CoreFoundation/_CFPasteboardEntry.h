@@ -4,46 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_group, OS_xpc_object;
-
 __attribute__((visibility("hidden")))
 @interface _CFPasteboardEntry
 {
     struct __CFString *_flavorName;
-    struct __CFUUID *_uuid;
-    struct __CFData *_data;
-    NSObject<OS_xpc_object> *_xpcData;
-    unsigned long long _dataFlags;
-    CDStruct_4c969caf _sourceAuditToken;
-    char *_sourceCodeSigningIdentity;
-    CDUnknownBlockType _localPromisor;
-    CDUnknownBlockType _remotePromisor;
-    _Atomic unsigned char _localPromiseState;
-    _Atomic unsigned char _remotePromiseState;
-    NSObject<OS_dispatch_group> *_promiseGroup;
-    NSObject<OS_xpc_object> *_promisorConnection;
-    struct os_unfair_lock_s _lock;
-    int _itemIdentifier;
-    unsigned char _isHidden;
-    unsigned char _isPendingFlush;
-    unsigned char _didLeakExtension;
 }
 
 - (char *);
-- (CDStruct_4c969caf);
+- (CDStruct_6ad76789);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (unsigned char);
+- (unsigned char)( `a;
 - (struct __CFUUID *);
 - (void);
 - (void);
 - (unsigned char);
 - (id);
-- (id);
+- (id)T;
 - (struct __CFString *);
 - (unsigned char);
 - (unsigned long long);
@@ -56,25 +36,14 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (void);
 - (id);
-- (void);
+- (void)/{;
 - (unsigned char);
 - (unsigned char);
 - (void);
 - (int);
 
 // Remaining properties
-@property unsigned long long dataFlags; // @synthesize dataFlags=_dataFlags;
-@property unsigned char didLeakExtension; // @synthesize didLeakExtension=_didLeakExtension;
 @property(readonly) struct __CFString *flavorName; // @synthesize flavorName=_flavorName;
-@property(readonly) unsigned char hasData;
-@property(readonly) unsigned char hasLocalPromise;
-@property(getter=isHidden) unsigned char hidden; // @synthesize hidden=_isHidden;
-@property unsigned char isPendingFlush; // @synthesize isPendingFlush=_isPendingFlush;
-@property(readonly) int itemIdentifier; // @synthesize itemIdentifier=_itemIdentifier;
-@property(readonly) struct __CFUUID *promiseUUID; // @synthesize promiseUUID=_uuid;
-@property(readonly) unsigned char promisorExistsInCurrentProcess;
-@property(readonly) CDStruct_4c969caf sourceAuditToken;
-@property(readonly) char *sourceCodeSigningIdentity;
 
 @end
 

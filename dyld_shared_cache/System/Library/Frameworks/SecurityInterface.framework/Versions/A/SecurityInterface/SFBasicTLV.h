@@ -9,11 +9,6 @@
 @interface SFBasicTLV
 {
     NSData *mInputData;
-    unsigned int mLength;
-    const char *mBytePtr;
-    unsigned char mTag;
-    unsigned int mOutputLength;
-    unsigned int mLastLength;
 }
 
 + (unsigned int);
@@ -24,7 +19,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 
 @end
 

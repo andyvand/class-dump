@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _HMPrivacySettingsProvider
 {
@@ -15,17 +13,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)text.;
 
 // Remaining properties
 @property(readonly) unsigned long long cachedAuthorizationStatus; // @synthesize cachedAuthorizationStatus=_cachedAuthorizationStatus;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

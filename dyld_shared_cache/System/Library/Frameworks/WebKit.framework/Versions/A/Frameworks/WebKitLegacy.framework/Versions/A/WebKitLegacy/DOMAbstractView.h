@@ -13,8 +13,8 @@
 }
 
 - (void);
-- (void);
-- (id)ount;
+- (void)%{public}@] [%{public}@] Unexpected attempt to retrieve data before first unlock;
+- (id)cachedPageCount;
 
 // Remaining properties
 @property(readonly) DOMDocument *document;

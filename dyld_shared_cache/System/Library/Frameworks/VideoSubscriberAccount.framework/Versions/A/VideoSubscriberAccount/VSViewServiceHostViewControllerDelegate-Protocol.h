@@ -5,5 +5,8 @@
 //
 
 @protocol VSViewServiceHostViewControllerDelegate
+- (void)q;
+- (void);
+- (void);
 @end
 

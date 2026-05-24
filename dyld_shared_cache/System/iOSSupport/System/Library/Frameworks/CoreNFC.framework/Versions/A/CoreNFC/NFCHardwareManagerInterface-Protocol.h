@@ -5,5 +5,6 @@
 //
 
 @protocol NFCHardwareManagerInterface
+- (oneway void);
 @end
 

@@ -6,17 +6,10 @@
 
 #import <TemplateKit/TLKArrangementItem.h>
 
-@class NSString, NUISizeCache;
-
 __attribute__((visibility("hidden")))
 @interface TLKGridImageItem : TLKArrangementItem
 {
     unsigned long long row;
-    double horizontalHuggingPriority;
-    double horizontalCompressionResistance;
-    NUISizeCache *sizeCache;
-    struct _NSRange columnRange;
-    struct CGRect frame;
 }
 
 - (struct CGSize);
@@ -36,19 +29,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct _NSRange columnRange; // @synthesize columnRange;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) struct CGRect frame; // @synthesize frame;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double horizontalCompressionResistance; // @synthesize horizontalCompressionResistance;
-@property(nonatomic) double horizontalHuggingPriority; // @synthesize horizontalHuggingPriority;
-@property(nonatomic) unsigned long long row; // @synthesize row;
-@property(retain, nonatomic) NUISizeCache *sizeCache; // @synthesize sizeCache;
-@property(readonly) Class superclass;
 
 @end
 

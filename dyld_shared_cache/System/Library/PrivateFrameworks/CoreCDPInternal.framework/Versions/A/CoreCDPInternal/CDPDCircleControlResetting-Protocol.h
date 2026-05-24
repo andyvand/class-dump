@@ -5,5 +5,6 @@
 //
 
 @protocol CDPDCircleControlResetting
+- (void)_TtC6Safari35CompletionListCalculationResultData;
 @end
 

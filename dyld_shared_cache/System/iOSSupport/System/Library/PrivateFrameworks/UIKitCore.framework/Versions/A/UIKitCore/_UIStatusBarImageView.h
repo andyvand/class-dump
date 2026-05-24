@@ -6,25 +6,20 @@
 
 #import <UIKitCore/UIImageView.h>
 
-@class NSString, UIAccessibilityHUDItem, UIImage;
-
 @interface _UIStatusBarImageView : UIImageView
 {
     _Bool _useDisabledAppearanceForAccessibilityHUD;
-    long long _fontStyle;
-    UIImage *_accessibilityHUDImage;
-    double _iconScale;
 }
 
 - (long long);
-- (void);
+- (void)buildWithIdentifier:(id)arg1 withAutoJoin:withSSIDSTR:withHIDDENNETWORK:withProxyType:withEncryptionType:withPassword:withPayloadCertificateUUID:withEAPClientConfiguration:withDisplayedOperatorName:withDomainName:withRoamingConsortiumOIs:withServiceProviderRoamingEnabled:withIsHotspot:withHESSID:withNAIRealmNames:withMCCAndMNCs:withCaptiveBypass:withQoSMarkingPolicy:withInterface:withSetupModes:withPriority:withEnableIPv6:withTLSCertificateRequired:withProxyServer:withProxyServerPort:withProxyUsername:withProxyPassword:withProxyPACURL:withProxyPACFallbackAllowed: /* Error: Ran out of types for this method. */;
 - (struct CGSize);
 - (_Bool);
 - (void);
-- (_Bool)lExtent;
-- (id)dLabel;
+- (_Bool)initialExtent;
+- (id)_keyboardLimitedLabel;
 - (id)parators;
-- (void)em;
+- (void)_UIWindowToolbarLabelItem;
 - (double)m/Library/Frameworks/StickerKit.framework/StickerKit;
 - (void);
 - (void);
@@ -33,37 +28,7 @@
 - (void):(id)arg1 0;
 
 // Remaining properties
-@property(retain, nonatomic) UIImage *accessibilityHUDImage; // @synthesize accessibilityHUDImage=_accessibilityHUDImage;
-@property(readonly, nonatomic) UIAccessibilityHUDItem *accessibilityHUDRepresentation;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIAccessibilityHUDItem",?,R,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long fontStyle; // @synthesize fontStyle=_fontStyle;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) double iconScale; // @synthesize iconScale=_iconScale;
-@property(readonly, nonatomic) long long overriddenVerticalAlignment;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) _Bool prefersBaselineAlignment;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool prefersCenterVerticalAlignment;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool useDisabledAppearanceForAccessibilityHUD; // @synthesize useDisabledAppearanceForAccessibilityHUD=_useDisabledAppearanceForAccessibilityHUD;
-@property(readonly, nonatomic) _Bool wantsCrossfade;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 
 @end
 

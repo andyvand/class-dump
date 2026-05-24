@@ -5,5 +5,6 @@
 //
 
 @protocol AKFidoRVSRemoteDelegate
+- (void);
 @end
 

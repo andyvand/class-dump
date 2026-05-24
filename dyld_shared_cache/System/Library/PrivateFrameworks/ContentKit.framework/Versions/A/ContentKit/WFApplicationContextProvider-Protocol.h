@@ -4,16 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol WFApplicationContextProvider
+- (NSString *);
 
 @optional
+- (long long);
 - (long long)è;
 
 // Remaining properties
-@property(readonly, nonatomic) long long userInterfaceStyle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
 @property(nonatomic) _Bool wfIdleTimerDisabled;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TB,?,N

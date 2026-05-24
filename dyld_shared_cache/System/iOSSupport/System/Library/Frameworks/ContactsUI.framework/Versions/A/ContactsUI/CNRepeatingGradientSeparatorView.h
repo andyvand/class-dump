@@ -10,28 +10,23 @@ __attribute__((visibility("hidden")))
 @interface CNRepeatingGradientSeparatorView
 {
     UIColor *_startColor;
-    UIColor *_endColor;
-    long long _lineCount;
 }
 
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (long long);
 - (struct CGSize);
-- (id);
-- (void)TextAttributes;
+- (id):(struct CGRect)arg1:__hash_value_type<unsigned long long, unsigned long long>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, unsigned long long>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, unsigned long long>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
+- (void)_titleTextAttributes;
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *endColor; // @synthesize endColor=_endColor;
 @property(readonly, nonatomic) NSArray *gradientColors;
-@property(nonatomic) long long lineCount; // @synthesize lineCount=_lineCount;
-@property(retain, nonatomic) UIColor *startColor; // @synthesize startColor=_startColor;
 
 @end
 

@@ -7,6 +7,7 @@
 @class NSData;
 
 @protocol _SFPBRFTableSpacerColumnDefinition
+- (NSData *)isTable;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *jsonData;

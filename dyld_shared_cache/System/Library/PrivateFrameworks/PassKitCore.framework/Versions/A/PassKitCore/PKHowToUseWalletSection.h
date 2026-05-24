@@ -4,34 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL, PKHowToUseWalletRequirements;
+@class NSString, NSURL;
 
 @interface PKHowToUseWalletSection
 {
     NSURL *_localizationBundleURL;
-    NSString *_identifier;
-    NSString *_titleKey;
-    PKHowToUseWalletRequirements *_requirements;
-    NSArray *_cards;
 }
 
-+ (id);
++ (id);
 + (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (void)ingIDSManager service:account:identifier:didSendWithSuccess:error:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *cards; // @synthesize cards=_cards;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) PKHowToUseWalletRequirements *requirements; // @synthesize requirements=_requirements;
-@property(readonly, nonatomic) NSString *titleKey; // @synthesize titleKey=_titleKey;
 
 @end
 

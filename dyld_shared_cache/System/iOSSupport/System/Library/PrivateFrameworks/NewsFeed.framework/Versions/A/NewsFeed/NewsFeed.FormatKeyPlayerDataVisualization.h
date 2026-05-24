@@ -7,10 +7,6 @@
 @interface NewsFeed.FormatKeyPlayerDataVisualization
 {
     id eventIdentifier;
-    id tagIdentifier;
-    id _selectors;
-    id _properties;
-    id _query;
 }
 
 @end

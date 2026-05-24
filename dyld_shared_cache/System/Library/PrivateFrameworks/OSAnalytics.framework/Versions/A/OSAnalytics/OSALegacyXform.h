@@ -11,25 +11,25 @@
     NSMutableDictionary *_templates;
 }
 
-+ (id);
-+ (id);
-+ (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
++ (id)View",&,N,V_buttonAndDetailViewStackView;
++ (id)T@"TLKStackView",&,D,N;
++ (id),V_appearance;
+- (_Bool)ts;
+- (_Bool)nsetRoundedSections;
+- (_Bool)_floatingHeaders;
+- (id)LKStackView",&,D,N;
+- (id)"TLKSectionHeaderView",&,D,N;
+- (id)eView",&,V_unempasizedSelectionHaloView;
+- (id)w",&,V_prominenceView;
+- (id)ceView",&,N,V_highlightView;
+- (id)bel;
+- (id)ridgeLabel;
+- (id)el",&,V_tlkTitleLabel;
+- (id)tchListState;
+- (id)te",&,V_state;
+- (id)ectionView;
+- (id);
+- (void)@;
 
 @end
 

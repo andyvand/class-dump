@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NLParameterBundle, NSData, NSDictionary, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface PRDictionary
 {
     NSURL *_url;
-    NSData *_data;
-    NSDictionary *_offsetsDictionary;
-    NSDictionary *_numEntriesDictionary;
-    NSDictionary *_dictionariesDictionary;
-    NLParameterBundle *_parameterBundle;
-    NLParameterBundle *_transformerParameterBundle;
-    PRDictionary *_fallbackDictionary;
 }
 
 - (id);

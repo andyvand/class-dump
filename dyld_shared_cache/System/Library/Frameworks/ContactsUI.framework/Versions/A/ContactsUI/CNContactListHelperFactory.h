@@ -11,7 +11,7 @@
     CNContactPickerScope *_scope;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

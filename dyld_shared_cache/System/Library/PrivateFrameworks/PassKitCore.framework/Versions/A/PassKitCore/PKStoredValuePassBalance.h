@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDecimalNumber, NSString;
+@class NSDecimalNumber, NSString;
 
 @interface PKStoredValuePassBalance
 {
     NSDecimalNumber *_amount;
-    NSString *_currencyCode;
-    NSString *_balanceType;
-    NSDate *_expiryDate;
-    NSString *_identifier;
 }
 
-+ (_Bool);
-- (_Bool);
++ (_Bool);
+- (_Bool)C;
 - (_Bool);
 - (id);
 - (id);
@@ -27,20 +23,16 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)/System/Library/Frameworks/AddressBook.framework/Versions/A/AddressBook;
+- (void)_wifidBootTimeDiff;
+- (void);
 - (id);
 - (id)1Â0@ù
 × ;
-- (_Bool)tentWithAcknowledgement: /* Error: Ran out of types for this method. */;
+- (_Bool)spotlightReindexAllContentWithAcknowledgement: /* Error: Ran out of types for this method. */;
 - (void)hCompletion:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDecimalNumber *amount; // @synthesize amount=_amount;
-@property(readonly, copy, nonatomic) NSString *balanceType; // @synthesize balanceType=_balanceType;
-@property(readonly, copy, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
-@property(readonly, nonatomic) NSDate *expiryDate; // @synthesize expiryDate=_expiryDate;
 @property(copy) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end

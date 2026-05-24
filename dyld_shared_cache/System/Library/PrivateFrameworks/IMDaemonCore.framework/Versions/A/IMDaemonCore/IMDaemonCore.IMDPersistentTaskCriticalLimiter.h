@@ -7,10 +7,6 @@
 @interface IMDaemonCore.IMDPersistentTaskCriticalLimiter
 {
     id $defaultActor;
-    id delegate;
-    id defaults;
-    id groups;
-    id timers;
 }
 
 @end

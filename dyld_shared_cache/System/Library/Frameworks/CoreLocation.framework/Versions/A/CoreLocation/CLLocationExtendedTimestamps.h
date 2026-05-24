@@ -4,32 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSDate;
+@class CLLocation;
 
 @interface CLLocationExtendedTimestamps
 {
     CLLocation *_location;
-    NSDate *_systemTimeNotUserTime;
-    double _machContinuousTimeSec;
 }
 
 + (_Bool);
 - (id);
-- (void);
-- (void);
+- (void)t;
+- (void)Ȑ;
 - (double);
 - (id);
-- (void);
+- (void)ainerAndCopyBacking:[session:%p]  err=%d
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (id);
+- (id)serializeRenderPipelineDescriptor:(struct _NSZone *)arg1;
 - (id);
 - (void)ð;
 
 // Remaining properties
 @property(copy, nonatomic) CLLocation *location; // @synthesize location=_location;
-@property(nonatomic) double machContinuousTimeSec; // @synthesize machContinuousTimeSec=_machContinuousTimeSec;
-@property(copy, nonatomic) NSDate *systemTimeNotUserTime; // @synthesize systemTimeNotUserTime=_systemTimeNotUserTime;
 
 @end
 

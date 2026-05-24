@@ -5,5 +5,8 @@
 //
 
 @protocol NSXPCListenerDelegate
+
+@optional
+- (_Bool)com_apple_mobilesms_momentShareURL;
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol AKFidoRVSServiceDelegate
+- (void);
 @end
 

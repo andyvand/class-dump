@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOComposedRoute, MNDisplayETAInfo, NSUUID;
+@class NSUUID;
 
 @interface MNVehicleParkingInfo
 {
     NSUUID *_routeID;
-    long long _parkingType;
-    GEOComposedRoute *_remainingWalkingRoute;
-    MNDisplayETAInfo *_walkingRouteDisplayETAInfo;
 }
 
 + (_Bool);
-- (id);
+- (id)PlaybackButtonStyle;
 - (void);
 - (void);
 - (id);
@@ -23,14 +20,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)_cachedDisplayNameForBundleID:(id)arg1;
 - (void)0@ù
 × ;
 
 // Remaining properties
 @property(nonatomic) long long parkingType; // @synthesize parkingType=_parkingType;
-@property(retain, nonatomic) GEOComposedRoute *remainingWalkingRoute; // @synthesize remainingWalkingRoute=_remainingWalkingRoute;
-@property(retain, nonatomic) MNDisplayETAInfo *walkingRouteDisplayETAInfo; // @synthesize walkingRouteDisplayETAInfo=_walkingRouteDisplayETAInfo;
 
 @end
 

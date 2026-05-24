@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIPreviewInteraction, UITargetedPreview, UIViewController, _UIPreviewInteractionHighlighter, _UIPreviewInteractionViewControllerPresentation;
+
 @protocol UIPreviewInteractionDelegatePrivate
+
+@optional
+- (_Bool)_updateWatchdogTimerWithInterval:(UIPreviewInteraction *)arg1;
+- (_Bool)_updateV1RecordType;
+- (_UIPreviewInteractionHighlighter *)_updateTransitionedListHandlesVersion;
+- (_UIPreviewInteractionViewControllerPresentation *)_updateTransferUsingCKRecord:(UIPreviewInteraction *)arg1 wasFetched:(UIViewController *)arg2 dispatchToMain: /* Error: Ran out of types for this method. */;
+- (UITargetedPreview *)_updateTransferGUID:(UIPreviewInteraction *)arg1 toGUID:(struct CGPoint)arg2;
 @end
 

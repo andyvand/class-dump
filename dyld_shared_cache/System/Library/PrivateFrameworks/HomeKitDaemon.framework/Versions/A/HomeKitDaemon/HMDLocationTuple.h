@@ -10,14 +10,11 @@ __attribute__((visibility("hidden")))
 @interface HMDLocationTuple
 {
     CLLocation *_location;
-    unsigned long long _reachableIPAccessoryCount;
-    unsigned long long _reachableBTLEAccessoryCount;
-    unsigned long long _reachableMediaAccessoryCount;
 }
 
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)enumerateKeysAndObjectsUsingBlock: /* Error: Ran out of types for this method. */;
+- (unsigned long long)enumerateContactsWithFetchRequest:error:usingBlock: /* Error: Ran out of types for this method. */;
+- (unsigned long long)entireContentsQuerySource;
 - (id);
 - (id)%@;
 - (id)stale update from legacy BLE devices;
@@ -25,9 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, copy) CLLocation *location; // @synthesize location=_location;
-@property(readonly) unsigned long long reachableBTLEAccessoryCount; // @synthesize reachableBTLEAccessoryCount=_reachableBTLEAccessoryCount;
-@property(readonly) unsigned long long reachableIPAccessoryCount; // @synthesize reachableIPAccessoryCount=_reachableIPAccessoryCount;
-@property(readonly) unsigned long long reachableMediaAccessoryCount; // @synthesize reachableMediaAccessoryCount=_reachableMediaAccessoryCount;
 
 @end
 

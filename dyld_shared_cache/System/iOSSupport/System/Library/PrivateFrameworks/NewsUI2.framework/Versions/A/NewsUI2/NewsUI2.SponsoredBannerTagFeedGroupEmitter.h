@@ -7,10 +7,6 @@
 @interface NewsUI2.SponsoredBannerTagFeedGroupEmitter
 {
     id config;
-    id knobs;
-    id formatService;
-    id sponsoredAdService;
-    id name;
 }
 
 @end

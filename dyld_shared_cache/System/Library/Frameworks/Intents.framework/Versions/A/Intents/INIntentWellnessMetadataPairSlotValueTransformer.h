@@ -12,7 +12,7 @@
 + (Class);
 + (Class);
 - (id);
-- (id)upportedReason:(id)arg1;
+- (id)StringAsUpdateMediaAffinityIntentMediaItemsUnsupportedReason:(id)arg1;
 
 @end
 

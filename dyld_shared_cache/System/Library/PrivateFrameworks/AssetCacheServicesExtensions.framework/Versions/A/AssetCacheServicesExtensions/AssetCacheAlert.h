@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString;
+@class NSDate;
 
 @interface AssetCacheAlert
 {
@@ -20,23 +20,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)BridgedSceneUpdater;
 - (void);
 - (id);
 - (double);
 - (id);
 - (id);
-- (void);
+- (void)CPKCharacterPickerWindowWillOpenNotification;
 
 // Remaining properties
-@property(readonly) NSString *briefText;
-@property(readonly) NSString *briefTitle;
-@property(readonly) NSDictionary *externalRepresentation;
-@property(readonly) double interval;
 @property(retain) NSDate *postDate; // @synthesize postDate=_postDate;
-@property(readonly) NSString *sharingPrefsAnchor;
-@property(readonly) NSString *verboseText;
-@property(readonly) NSString *verboseTitle;
 
 @end
 

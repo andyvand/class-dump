@@ -5,5 +5,6 @@
 //
 
 @protocol CPLEngineTransientRepositoryObserver
+- (void)commute30MinWarningEntityRelevanceMicroLocationAndCoarseTimeOfDayFeatures;
 @end
 

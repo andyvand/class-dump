@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDMapsIdentifier, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDVisitedPlacesMetaData
 {
     PBUnknownFields *_unknownFields;
-    GEOPDMapsIdentifier *_visitedPlacesContainerId;
 }
 
-- (id);
+- (id)H;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)ad_negativeCategorys"b1"read_tokenSet"b1"read_trigger"b1"wrote_anyField"b1};
-- (id)orAnalysis;
+- (id)_siriUserConsentsForAnalysis;
 - (id)<;
 - (void);
 

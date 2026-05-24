@@ -4,33 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMIMDFREmojiListMatrixView, NSBox, NSButton, NSMutableArray, NSString;
+@class NSButton;
 
 __attribute__((visibility("hidden")))
 @interface EMIMDFREmojiListCoupleSkinToneView
 {
     _Bool _gestureCanceled;
-    NSButton *_closeButton;
-    NSBox *_backgroundBox;
-    id _firstTouchID;
-    NSString *_normalizedCoupleString;
-    NSMutableArray *_combinedCharacterCells;
-    NSMutableArray *_leftSkinToneCells;
-    NSMutableArray *_rightSkinToneCells;
-    long long _highlightedCombinedCharacterIndex;
-    long long _highlightedLeftSkinToneCellIndex;
-    long long _highlightedRightSkinToneCellIndex;
-    long long _selectedLeftSkinToneCellIndex;
-    long long _selectedRightSkinToneCellIndex;
-    EMIMDFREmojiListMatrixView *_sourceMatrixView;
 }
 
-- (void);
+- (void)h;
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)kl;
+- (void)M;
 - (void);
 - (void);
 - (void);
@@ -43,7 +30,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (long long);
-- (id);
+- (id);
 - (id);
 - (id);
 - (long long);
@@ -67,20 +54,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property NSBox *backgroundBox; // @synthesize backgroundBox=_backgroundBox;
 @property NSButton *closeButton; // @synthesize closeButton=_closeButton;
-@property(retain) NSMutableArray *combinedCharacterCells; // @synthesize combinedCharacterCells=_combinedCharacterCells;
-@property(retain) id firstTouchID; // @synthesize firstTouchID=_firstTouchID;
-@property _Bool gestureCanceled; // @synthesize gestureCanceled=_gestureCanceled;
-@property long long highlightedCombinedCharacterIndex; // @synthesize highlightedCombinedCharacterIndex=_highlightedCombinedCharacterIndex;
-@property long long highlightedLeftSkinToneCellIndex; // @synthesize highlightedLeftSkinToneCellIndex=_highlightedLeftSkinToneCellIndex;
-@property long long highlightedRightSkinToneCellIndex; // @synthesize highlightedRightSkinToneCellIndex=_highlightedRightSkinToneCellIndex;
-@property(retain) NSMutableArray *leftSkinToneCells; // @synthesize leftSkinToneCells=_leftSkinToneCells;
-@property(retain) NSString *normalizedCoupleString; // @synthesize normalizedCoupleString=_normalizedCoupleString;
-@property(retain) NSMutableArray *rightSkinToneCells; // @synthesize rightSkinToneCells=_rightSkinToneCells;
-@property long long selectedLeftSkinToneCellIndex; // @synthesize selectedLeftSkinToneCellIndex=_selectedLeftSkinToneCellIndex;
-@property long long selectedRightSkinToneCellIndex; // @synthesize selectedRightSkinToneCellIndex=_selectedRightSkinToneCellIndex;
-@property EMIMDFREmojiListMatrixView *sourceMatrixView; // @synthesize sourceMatrixView=_sourceMatrixView;
 
 @end
 

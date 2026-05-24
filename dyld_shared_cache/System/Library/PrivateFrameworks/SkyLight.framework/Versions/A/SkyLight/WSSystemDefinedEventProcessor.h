@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
-- (int);
+- (_Bool)needsRecoveryFromIdentityLoss;
+- (int)boolValueNum;
 
 @end
 

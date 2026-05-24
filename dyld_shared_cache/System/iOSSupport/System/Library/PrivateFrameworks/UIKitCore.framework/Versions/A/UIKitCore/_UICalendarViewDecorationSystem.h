@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     NSMutableDictionary *_decorationViewFeed;
 }
 
+- (void)loginStatus;
+- (void)_callHistoryManager;
+- (id)B;
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)ile transfers to delete;
 - (void);
 - (id);
 - (void)0^;

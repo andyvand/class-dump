@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _OSLogChunkStore
 {
     const void *_ptr;
-    unsigned long long _sz;
-    NSString *fileName;
 }
 
 - (id);

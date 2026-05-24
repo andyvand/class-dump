@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFDictationConnection, NSString;
+@class AFDictationConnection;
 
 @interface AFDictationConnectionServiceDelegate
 {
@@ -21,7 +21,7 @@
 - (oneway void);
 - (oneway void);
 - (oneway void);
-- (oneway void);
+- (oneway void);
 - (oneway void);
 - (oneway void);
 - (oneway void);
@@ -37,13 +37,7 @@
 - (void)Context;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

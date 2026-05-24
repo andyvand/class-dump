@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class LTSchemaTask, NSData, NSString;
+@class LTSchemaTask;
 
 @interface LTSchemaSafariFeedbackEvent : SISchemaInstrumentationMessage
 {
     LTSchemaTask *_task;
-    NSString *_sessionID;
-    NSString *_userFeedbackContentSource;
-    NSString *_userFeedbackContentTarget;
-    _Bool _hasTask;
-    _Bool _hasSessionID;
-    _Bool _hasUserFeedbackContentSource;
-    _Bool _hasUserFeedbackContentTarget;
 }
 
 - (id);
@@ -34,11 +27,11 @@
 - (void);
 - (void);
 - (_Bool);
+- (void)itions:(_Bool)arg1;
+- (id)tchQueue;
+- (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)�#;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -46,7 +39,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)to server invalidated! Session:%@ /* Error: Ran out of types for this method. */;
 - (id)!ÄBùßð1Â0@ù
 × ;
 - (id)cutionStarted",&,N,V_startedOrChanged;
@@ -54,15 +47,7 @@
 - (void)<ÁàÿúCpÜ!;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSessionID; // @synthesize hasSessionID=_hasSessionID;
-@property(nonatomic) _Bool hasTask; // @synthesize hasTask=_hasTask;
-@property(nonatomic) _Bool hasUserFeedbackContentSource; // @synthesize hasUserFeedbackContentSource=_hasUserFeedbackContentSource;
-@property(nonatomic) _Bool hasUserFeedbackContentTarget; // @synthesize hasUserFeedbackContentTarget=_hasUserFeedbackContentTarget;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *sessionID; // @synthesize sessionID=_sessionID;
 @property(retain, nonatomic) LTSchemaTask *task; // @synthesize task=_task;
-@property(copy, nonatomic) NSString *userFeedbackContentSource; // @synthesize userFeedbackContentSource=_userFeedbackContentSource;
-@property(copy, nonatomic) NSString *userFeedbackContentTarget; // @synthesize userFeedbackContentTarget=_userFeedbackContentTarget;
 
 @end
 

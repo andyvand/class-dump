@@ -7,20 +7,14 @@
 @interface NewsUI2.LocalDraftsDeviceListener
 {
     id localFiles;
-    id deviceInfo;
-    id delegate;
-    id previewServiceType;
-    id myPeerId;
-    id serviceBrowser;
-    id $__lazy_storage_$_session;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);

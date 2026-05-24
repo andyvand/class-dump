@@ -4,23 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, UITextPosition, UITextRange, UIView;
+@class NSArray, NSAttributedString, NSDictionary, UITextPosition, UITextRange, UIView;
 @protocol UITextInputDelegate, UITextInputTokenizer;
 
 @protocol UITextInput
-- (id <UITextInputDelegate>);
-- (id <UITextInputTokenizer>)y;
-- (void)nPoint:(id <UITextInputDelegate>)arg1;
-- (struct CGRect)erAccessibilityStoredValueSortDirection;
-- (void)SceneRequestedForActiveSpeakScreenSession;
-- (UITextRange *)essibilitySetValue:(struct CGPoint)arg1 forKey:storageMode: /* Error: Ran out of types for this method. */;
+- (UITextRange *)"k;
+- (void);
+- (NSArray *);
+- (long long)*;
 - (UITextRange *);
-- (UITextPosition *)ccessibilityFindDescendant:(UITextRange *)arg1 shouldStopAtLeafNodes:(long long)arg2;
-- (UITextPosition *)DescriptorAuxiliaryDictionary;
-- (void)t:(NSDictionary *)arg1;
-- (void)curedScreenAllowedViews;
+- (struct CGRect)G;
+- (void)@;
+- (id <UITextInputTokenizer>)category;
+- (void)accessibilityActivationPoint:(id <UITextInputDelegate>)arg1;
+- (struct CGRect)_browserAccessibilityStoredValueSortDirection;
+- (void)_accessibilitySpeakThisViewsFromSceneRequestedForActiveSpeakScreenSession;
+- (UITextRange *)_accessibilitySetValue:(struct CGPoint)arg1 forKey:storageMode: /* Error: Ran out of types for this method. */;
+- (UITextRange *)_accessibilitySelectedChildren;
+- (UITextPosition *)_accessibilityFindDescendant:(UITextRange *)arg1 shouldStopAtLeafNodes:(long long)arg2;
+- (UITextPosition *)_accessibilityDropPointDescriptorAuxiliaryDictionary;
+- (void)_accessibilityCompareElement:(NSDictionary *)arg1 toElement: /* Error: Ran out of types for this method. */;
+- (void)_accessibilitySetObscuredScreenAllowedViews;
 
 @optional
+- (void);
+- (NSAttributedString *)es/com.apple.xbs/TemporaryDirectory.xZu52n/Sources/Maps/iOS/Suggestions/MapsSuggestionsFlight.mm;
+- (long long)notifyListenersOfPromptForUnlockingCurrentLostSource: /* Error: Ran out of types for this method. */;
+- (void)2;
 - (UIView *)1Â0@ù
 × ;
 - (struct CGRect)t a known type of bundle;
@@ -28,36 +38,6 @@
 - (_Bool)en more leaf descendants than needed.;
 
 // Remaining properties
-@property(readonly, nonatomic) UITextPosition *beginningOfDocument;
-@property(readonly, nonatomic, getter=isEditable) _Bool editable;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,GisEditable
-
-@property(readonly, nonatomic) UITextPosition *endOfDocument;
-@property(nonatomic) __weak id <UITextInputDelegate> inputDelegate;
-@property(readonly, nonatomic) id insertDictationResultPlaceholder;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@,?,R,N
-
-@property(readonly, nonatomic) UITextRange *markedTextRange;
-@property(copy, nonatomic) NSDictionary *markedTextStyle;
 @property(copy) UITextRange *selectedTextRange;
-@property(nonatomic) long long selectionAffinity;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) _Bool supportsAdaptiveImageGlyph;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(readonly, nonatomic) UIView *textInputView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIView",?,R,N
-
-@property(readonly, nonatomic) id <UITextInputTokenizer> tokenizer;
-@property(readonly, nonatomic) struct CGRect unobscuredContentRect;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N
-
 @end
 

@@ -8,8 +8,6 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long bannerType;
-@property(readonly, nonatomic) struct _SXConvertibleValue distanceFromMedia;
 @property(readonly, nonatomic) unsigned long long frequency;
 @end
 

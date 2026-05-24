@@ -9,23 +9,20 @@
 @interface _CDDateRange
 {
     NSDate *_startDate;
-    NSDate *_endDate;
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)kxmS;
++ (id)!;
++ (id)kxmJ;
 - (id);
 - (id);
 - (double);
 - (id);
-- (id);
+- (id);
 - (void);
-- (_Bool)ntactWithPersonId:(id)arg1 personIdType: /* Error: Ran out of types for this method. */;
+- (_Bool)predicateForContactWithPersonId:(id)arg1 personIdType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) double duration;
-@property(readonly) NSDate *endDate; // @synthesize endDate=_endDate;
 @property(readonly) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end

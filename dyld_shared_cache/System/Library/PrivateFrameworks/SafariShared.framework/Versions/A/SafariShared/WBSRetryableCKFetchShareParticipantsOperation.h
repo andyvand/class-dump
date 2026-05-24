@@ -11,23 +11,19 @@
 @interface WBSRetryableCKFetchShareParticipantsOperation : WBSRetryableCKOperation
 {
     NSArray *_userIdentityLookupInfos;
-    CDUnknownBlockType _perShareParticipantCompletionBlock;
-    CDUnknownBlockType _fetchShareParticipantsCompletionBlock;
 }
 
 - (void);
 - (id);
-- (id);
-- (void);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (id)ceId of length %tu;
+- (void)egister_dispatch error:(id)arg1 %lu;
+- (CDUnknownBlockType)open "%@":%s (%d) /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)J@;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType fetchShareParticipantsCompletionBlock; // @synthesize fetchShareParticipantsCompletionBlock=_fetchShareParticipantsCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType perShareParticipantCompletionBlock; // @synthesize perShareParticipantCompletionBlock=_perShareParticipantCompletionBlock;
 @property(copy, nonatomic) NSArray *userIdentityLookupInfos; // @synthesize userIdentityLookupInfos=_userIdentityLookupInfos;
 
 @end

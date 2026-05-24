@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @protocol _SFPBNamedProtobufMessage
+- (NSData *)SString",R,C,V_context;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSData *protobufMessageData;
-@property(copy, nonatomic) NSString *protobufMessageName;
 @end
 

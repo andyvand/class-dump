@@ -4,52 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFDeleteSiriHistoryContext, NSString;
+@class AFDeleteSiriHistoryContext;
 
 @interface _AFDeleteSiriHistoryContextMutation
 {
     AFDeleteSiriHistoryContext *_base;
-    NSString *_successTitle;
-    NSString *_successBody;
-    NSString *_successButtonText;
-    NSString *_errorTitle;
-    NSString *_errorBody;
-    NSString *_errorButtonText;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasSuccessTitle:1;
-        unsigned int hasSuccessBody:1;
-        unsigned int hasSuccessButtonText:1;
-        unsigned int hasErrorTitle:1;
-        unsigned int hasErrorBody:1;
-        unsigned int hasErrorButtonText:1;
-    } _mutationFlags;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)@y_=;
 - (void);
-- (id);
-- (void);
+- (id)H;
+- (void)hasTcpiSndCwnd;
 - (_Bool);
-- (id)RecordingDidFail:(id)arg1;
-- (void)msIndices;
+- (id)speechRecordingDidFail:(id)arg1;
+- (void)_itemsIndices;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

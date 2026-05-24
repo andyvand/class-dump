@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAuthorizationCredential, NSError;
+@class AKAuthorizationCredential;
 
 @interface SKPaymentTransactionAuthorizationResponse
 {
     AKAuthorizationCredential *_authorizationAppleIDCredential;
-    NSError *_accountSignupError;
 }
 
 - (id);
@@ -18,7 +17,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *accountSignupError; // @synthesize accountSignupError=_accountSignupError;
 @property(readonly, nonatomic) AKAuthorizationCredential *authorizationAppleIDCredential; // @synthesize authorizationAppleIDCredential=_authorizationAppleIDCredential;
 
 @end

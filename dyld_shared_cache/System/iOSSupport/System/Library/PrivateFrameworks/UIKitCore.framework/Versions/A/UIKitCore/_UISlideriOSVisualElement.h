@@ -6,37 +6,15 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSString, UIImageView, UISlider, UISliderDataModel;
+@class UIImageView;
 
 __attribute__((visibility("hidden")))
 @interface _UISlideriOSVisualElement : UIView
 {
     UIImageView *_innerThumbView;
-    UIImageView *_minValueImageView;
-    UIImageView *_maxValueImageView;
-    UIImageView *_thumbView;
-    UIImageView *_minTrackView;
-    UIImageView *_maxTrackView;
-    UIView *_minTrackClipView;
-    UIView *_maxTrackClipView;
-    struct {
-        unsigned int animating:1;
-        unsigned int preparingToAnimate:1;
-        unsigned int overridesModifiedTrackRect:1;
-        unsigned int hasTickConfiguration:1;
-    } _sliderFlags;
-    struct CGPoint _beginPoint;
-    double _hitOffset;
-    UIView *_thumbViewNeue;
-    NSArray *_trackColors;
-    _Bool _trackIsArtworkBased;
-    _Bool _thumbIsArtworkBased;
-    _Bool _maxColorIsValid;
-    UISliderDataModel *_data;
-    UISlider *_slider;
 }
 
-+ (CDStruct_6024001e);
++ (CDStruct_6024001e)initWithDeviceType:deviceSubtype:uid: /* Error: Ran out of types for this method. */;
 + (id)ð!lFùQdÐ1Â0@ù
 × ;
 - (void);
@@ -45,30 +23,30 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
+- (void)2$;
+- (id)nderPipelineState>"48@0:8@"MTLTileRenderPipelineDescriptor"16Q24^@32^@40 /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)CEMPredicateCompositeBudget_Monitors;
 - (id);
 - (struct CGSize);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)CHUNKSERVER__FILE_CHECKSUM_AUTHORIZATION__CONTAINER_ELEMENT_REQUESTED__ONLY_FORD;
+- (void)gister request;
+- (void)t;
 - (id);
 - (void);
 - (void);
+- (void)volumeControlIsAvailable;
+- (void)initWithURL:(_Bool)arg1 resolvingAgainstBaseURL: /* Error: Ran out of types for this method. */;
+- (void)fier;
+- (void),N,V_videoCacheStoragePolicy;
+- (void)MPMovieErrorLog;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
+- (id)MPNowPlayingInfoProperty3x4AnimatedArtwork;
+- (_Bool)om.apple.mediaplayer.MPMediaLibrary.connectionAssertions;
+- (id)lt;
 - (id);
 - (void);
 - (id);
@@ -107,23 +85,23 @@ __attribute__((visibility("hidden")))
 - (id)ge"24;
 - (void)24@?32;
 - (struct UIEdgeInsets)ts";
-- (id)gressTray: /* Error: Ran out of types for this method. */;
-- (_Bool)WithTransformVisibleItemsHandler: /* Error: Ran out of types for this method. */;
-- (void)icItemRect: /* Error: Ran out of types for this method. */;
-- (struct CGRect)View;
+- (id)setShowProgressTray: /* Error: Ran out of types for this method. */;
+- (_Bool)setNumberOfSectionsWithTransformVisibleItemsHandler: /* Error: Ran out of types for this method. */;
+- (void)setLeadingStaticItemRect: /* Error: Ran out of types for this method. */;
+- (struct CGRect)_updatesScrollView;
 - (void)lock:(struct CGRect)arg1;
-- (_Bool)aints;
+- (_Bool)_updateHavingDescriptiveLabelConstraints;
 - (void)_stifledDelta;
-- (id)ewService;
-- (void)dicator;
-- (void)ctionAction;
-- (_Bool)eringLogsDidChangeStatusNotification:(struct CGPoint)arg1;
-- (double)ionThreshold;
+- (id)_isForViewService;
+- (void)_inactiveLanguageIndicator;
+- (void)_hasCustomSelectionAction;
+- (_Bool)_gatheringLogsDidChangeStatusNotification:(struct CGPoint)arg1;
+- (double)_confirmationThreshold;
 - (void)esize,S_setInLiveResize:,V_inLiveResize /* Error: Ran out of types for this method. */;
 - (id)urationProvider: /* Error: Ran out of types for this method. */;
 - (void)dDragPreview",&,N,V_targetedDropPreview;
 - (struct CGRect)UIListContentTextPropertiesInternal>",R,N,V_labelProperties;
-- (void)erDetent;
+- (void)UISheetPresentationControllerDetent;
 - (struct CGSize)e;
 - (void)A;
 - (void) D	;
@@ -145,24 +123,12 @@ __attribute__((visibility("hidden")))
 - (struct CGRect)ÿp;
 - (id)33ðRwþ;
 - (struct UIEdgeInsets)_;
-- (void)lePropertyType;
+- (void)AnimatablePropertyType;
 - (_Bool)D¬;
 - (_Bool)ÒÊÛL];
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *additionalTrackingViews;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(retain, nonatomic) UISliderDataModel *data; // @synthesize data=_data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(nonatomic) __weak UISlider *slider; // @synthesize slider=_slider;
-@property(readonly) Class superclass;
 
 @end
 

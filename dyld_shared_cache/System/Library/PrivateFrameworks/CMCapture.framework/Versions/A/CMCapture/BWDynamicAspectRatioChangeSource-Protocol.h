@@ -5,6 +5,7 @@
 //
 
 @protocol BWDynamicAspectRatioChangeSource
+- (void);
 
 // Remaining properties
 @property int activeAspectRatio;

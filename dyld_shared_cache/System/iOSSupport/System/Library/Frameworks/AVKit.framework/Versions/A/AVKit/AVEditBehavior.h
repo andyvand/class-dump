@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVEditBehaviorContext, NSString;
-@protocol AVEditBehaviorDelegate;
+@class AVEditBehaviorContext;
 
 @interface AVEditBehavior
 {
     AVEditBehaviorContext *_behaviorContext;
-    id <AVEditBehaviorDelegate> _delegate;
 }
 
 + (Class);
@@ -26,14 +24,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak AVEditBehaviorContext *behaviorContext; // @synthesize behaviorContext=_behaviorContext;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AVEditBehaviorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

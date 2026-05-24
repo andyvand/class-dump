@@ -21,7 +21,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
@@ -30,7 +30,6 @@
 
 // Remaining properties
 @property(readonly) NSArray *favoritedLocations;
-@property(readonly) _Bool isGathering;
 
 @end
 

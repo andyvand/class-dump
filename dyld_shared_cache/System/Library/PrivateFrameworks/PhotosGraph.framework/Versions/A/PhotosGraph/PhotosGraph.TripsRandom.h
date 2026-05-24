@@ -7,9 +7,6 @@
 @interface PhotosGraph.TripsRandom
 {
     id priority;
-    id triggerResults;
-    id supportsFutureLookup;
-    id futureLookupResults;
 }
 
 @end

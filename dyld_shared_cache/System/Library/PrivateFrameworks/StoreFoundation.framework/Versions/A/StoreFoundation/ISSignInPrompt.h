@@ -4,36 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISAuthenticationContext, ISDialog, ISStoreClient, NSButton, NSImageView, NSNumber, NSProgressIndicator, NSString, NSTextField, NSURL, NSWindow;
+@class NSString, NSTextField;
 
 @interface ISSignInPrompt
 {
     NSTextField *titleField;
-    NSTextField *messageField;
-    NSImageView *imageView;
-    NSButton *defaultButton;
-    NSButton *otherButton;
-    NSButton *alternateButton;
-    NSButton *forgotButton;
-    NSButton *helpButton;
-    NSProgressIndicator *progressIndicator;
-    NSTextField *usernameField;
-    NSTextField *passwordField;
-    NSTextField *errorField;
-    struct CGRect windowFactoryFrame;
-    struct CGRect titleFieldFactoryFrame;
-    struct CGRect defaultButtonFactoryFrame;
-    NSURL *authenticateAccountURL;
-    NSString *mSuppressionCheckboxTitle;
-    NSNumber *mSuppressionCheckboxState;
-    _Bool mForceActivate;
-    ISAuthenticationContext *context;
-    long long attempts;
-    ISStoreClient *storeClient;
-    ISDialog *dialog;
-    long long mExitCode;
-    id authentication;
-    NSWindow *_sheetWindow;
 }
 
 - (_Bool);
@@ -53,14 +28,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)B�;
 - (void);
 - (void);
 - (void);
@@ -71,9 +39,16 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
+- (void)ven;
+- (void);
+- (id);
+- (void);
+- (void)_ka;
 - (id);
 - (void);
 - (void);
@@ -88,18 +63,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *authenticateAccountURL; // @synthesize authenticateAccountURL;
-@property(readonly) id authentication; // @synthesize authentication;
-@property(retain, nonatomic) ISAuthenticationContext *context; // @synthesize context;
-@property(retain, nonatomic) ISDialog *dialog; // @synthesize dialog;
-@property _Bool forceActivate; // @synthesize forceActivate=mForceActivate;
-@property(readonly) NSString *password;
-@property(retain, nonatomic) NSWindow *sheetWindow; // @synthesize sheetWindow=_sheetWindow;
-@property(retain, nonatomic) ISStoreClient *storeClient; // @synthesize storeClient;
-@property(retain, nonatomic) NSNumber *suppressionCheckboxState; // @synthesize suppressionCheckboxState=mSuppressionCheckboxState;
-@property(retain, nonatomic) NSString *suppressionCheckboxTitle; // @synthesize suppressionCheckboxTitle=mSuppressionCheckboxTitle;
 @property(retain, nonatomic) NSString *username;
-@property _Bool usernameFieldIsEnabled;
 
 @end
 

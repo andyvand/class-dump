@@ -4,39 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSMachPortSendRight, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class BSMachPortSendRight, NSObject;
+@protocol OS_dispatch_queue;
 
 @interface BSPortDeathSentinel
 {
     BSMachPortSendRight *_sendRight;
-    struct os_unfair_lock_s _lock;
-    NSObject<OS_dispatch_source> *_source;
-    _Bool _activated;
-    _Bool _invalidated;
-    NSObject<OS_dispatch_queue> *_callOutQueue;
 }
 
-+ (void);
++ (void)9E;
 - (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_callOutQueue;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic, getter=isValid) _Bool valid;
 
 @end
 

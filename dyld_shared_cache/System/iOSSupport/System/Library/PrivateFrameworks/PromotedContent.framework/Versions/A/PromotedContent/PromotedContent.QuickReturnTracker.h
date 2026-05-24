@@ -7,9 +7,6 @@
 @interface PromotedContent.QuickReturnTracker
 {
     id userReturnedFromInteractionClosure;
-    id clock;
-    id currentState;
-    id interactionTime;
 }
 
 @end

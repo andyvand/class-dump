@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSAbstractAsset, NSError;
+@class CLSAbstractAsset;
 
 @interface CLSAssetDownloadObserver
 {
     _Bool _downloaded;
-    double downloadProgress;
-    NSError *downloadError;
-    CLSAbstractAsset *_asset;
-    CDUnknownBlockType _onDownloadProgress;
-    CDUnknownBlockType _onDownloadComplete;
 }
 
+- (void)error = 0x%x
+;
 - (void);
-- (void);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)inComputeProgramSection **);
+- (CDUnknownBlockType)inComputeProgram *, uint32_t, ZinComputeProgramSection **);
 - (void);
 - (_Bool);
-- (void);
+- (void));
 - (void);
 - (double);
 - (void);
@@ -33,11 +29,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CLSAbstractAsset *asset; // @synthesize asset=_asset;
-@property(readonly) NSError *downloadError; // @synthesize downloadError;
-@property(readonly) double downloadProgress; // @synthesize downloadProgress;
-@property(nonatomic, getter=isDownloaded) _Bool downloaded; // @synthesize downloaded=_downloaded;
-@property(copy, nonatomic) CDUnknownBlockType onDownloadComplete; // @synthesize onDownloadComplete=_onDownloadComplete;
-@property(copy, nonatomic) CDUnknownBlockType onDownloadProgress; // @synthesize onDownloadProgress=_onDownloadProgress;
 
 @end
 

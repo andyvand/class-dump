@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface WebCDMSessionAVContentKeySessionDelegate
 {
     struct ThreadSafeWeakPtr<WebCore::CDMSessionAVContentKeySession, WTF::NoTaggingTraits<WebCore::CDMSessionAVContentKeySession>> m_parent;
 }
 
+- (void)!;
 - (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void)ï	ónôàá=(houläìlåp¶
@@ -23,13 +21,7 @@ __attribute__((visibility("hidden")))
 ðäiown®p#ÉàÖÍåxaóðTåï,ó	`.4ïóßõà.istaiîéN­ôðãategõãTðî.Öorôç(ìïðûXãiaìì¨'cåï*mokinçîikiîðº¶áy.sõðLççwÔquicëðb¬ðraùê¾sïà.3etandyou.åê(Ðáò`.BðAintconsuìðöDîð÷;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

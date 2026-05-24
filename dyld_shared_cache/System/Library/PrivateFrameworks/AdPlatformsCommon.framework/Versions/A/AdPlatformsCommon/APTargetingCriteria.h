@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface APTargetingCriteria
 {
     NSString *_identifier;
-    NSArray *_values;
 }
 
 + (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)colorWithCalibratedWhite:(id)arg1 alpha: /* Error: Ran out of types for this method. */;
+- (id)inishAcousticIDRequestWithSuccess:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain) NSArray *values; // @synthesize values=_values;
 
 @end
 

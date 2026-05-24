@@ -7,6 +7,7 @@
 @protocol DDSTrialClientDelegate;
 
 @protocol DDSTrialClient
+- (void)(;
 
 // Remaining properties
 @property __weak id <DDSTrialClientDelegate> delegate;

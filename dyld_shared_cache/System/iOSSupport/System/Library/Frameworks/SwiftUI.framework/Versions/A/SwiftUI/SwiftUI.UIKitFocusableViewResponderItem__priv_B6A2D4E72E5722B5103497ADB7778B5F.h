@@ -6,43 +6,28 @@
 
 #import <SwiftUI/UIKitFocusableViewResponderItemBase.h>
 
-@class NSArray, NSString, UIFocusEffect, UIResponder;
-@protocol UIFocusEnvironment, UIFocusItemContainer;
-
 @interface SwiftUI.UIKitFocusableViewResponderItem__priv_B6A2D4E72E5722B5103497ADB7778B5F : UIKitFocusableViewResponderItemBase
 {
     id base;
-    id host;
-    id frameAttr;
-    id contentPath;
-    id $__lazy_storage_$_defaultFocusGroupIdentifier;
-    id frameChangeDetector;
 }
 
 - (id);
 - (void);
 - (void);
-- (id);
-- (_Bool);
+- (id)-#;
+- (_Bool)`;
 - (id);
 - (id);
 - (id);
 - (struct CGRect);
 - (id);
-- (void)onTask;
+- (void)formattingUIValidationTask;
 - (_Bool);
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool canBecomeFocused;
-@property(nonatomic, readonly) UIFocusEffect *focusEffect;
-@property(nonatomic, readonly) id <UIFocusItemContainer> focusItemContainer;
 @property(nonatomic, readonly) struct CGRect frame;
-@property(nonatomic, readonly) UIResponder *nextResponder;
-@property(nonatomic, readonly) id <UIFocusEnvironment> parentFocusEnvironment;
-@property(nonatomic, readonly) NSArray *preferredFocusEnvironments;
-@property(nonatomic, readonly) NSString *swiftui_focusGroupIdentifier;
 
 @end
 

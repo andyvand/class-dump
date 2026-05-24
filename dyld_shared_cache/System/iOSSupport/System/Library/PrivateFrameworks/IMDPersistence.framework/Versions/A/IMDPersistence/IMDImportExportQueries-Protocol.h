@@ -5,5 +5,6 @@
 //
 
 @protocol IMDImportExportQueries
+- (void);
 @end
 

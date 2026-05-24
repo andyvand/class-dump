@@ -7,6 +7,7 @@
 @protocol FBSceneLayerManagerObserver
 
 @optional
-- (void)onDisabled;
+- (void);
+- (void)_isInterfaceAutorotationDisabled;
 @end
 

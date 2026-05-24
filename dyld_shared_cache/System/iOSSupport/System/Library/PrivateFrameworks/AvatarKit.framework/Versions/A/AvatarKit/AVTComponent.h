@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTMaterial, NSArray, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface AVTComponent
 {
     long long _type;
-    NSArray *_assets;
-    AVTMaterial *_materials[3];
-    float _morphVariantIntensity;
-    float _bodyPoseVariantIntensity;
-    float _textureAssetPresence;
-    NSString *_morphVariant;
-    NSString *_imageVariant;
-    NSString *_materialVariant;
 }
 
 - (float);
@@ -26,23 +18,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (float);
+- (float);
 - (id);
-- (id);
-- (id);
+- (id)f. Marking the RavenSolution as unhealthy. Exiting with check passed return value.;
+- (id)�;
 - (long long);
-- (id);
+- (id));;
 - (void);
 
 // Remaining properties
 @property(readonly) NSArray *assets; // @synthesize assets=_assets;
-@property(readonly, nonatomic) float bodyPoseVariantIntensity; // @synthesize bodyPoseVariantIntensity=_bodyPoseVariantIntensity;
-@property(readonly, nonatomic) NSString *imageVariant; // @synthesize imageVariant=_imageVariant;
-@property(readonly, nonatomic) NSString *materialVariant; // @synthesize materialVariant=_materialVariant;
-@property(readonly, nonatomic) NSString *morphVariant; // @synthesize morphVariant=_morphVariant;
-@property(readonly, nonatomic) float morphVariantIntensity; // @synthesize morphVariantIntensity=_morphVariantIntensity;
-@property(readonly, nonatomic) float textureAssetPresence; // @synthesize textureAssetPresence=_textureAssetPresence;
-@property(readonly) long long type;
 
 @end
 

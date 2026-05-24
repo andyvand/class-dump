@@ -5,5 +5,9 @@
 //
 
 @protocol LNActionExecutorDelegate
+
+@optional
+- (void);
+- (void);
 @end
 

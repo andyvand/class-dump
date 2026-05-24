@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-@protocol GEOTransitDepartureSequence;
-
 @interface GEOMapItemTransitLineResumeResult
 {
     _Bool _blocked;
-    id <GEOTransitDepartureSequence> _departureSequence;
-    NSDate *_earliestNextDepartureDate;
 }
 
 - (void);
@@ -19,13 +14,11 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)initWithDomain:message: /* Error: Ran out of types for this method. */;
 - (void)¤ÕþÞÂ4v"3;
 
 // Remaining properties
 @property(nonatomic) _Bool blocked; // @synthesize blocked=_blocked;
-@property(retain, nonatomic) id <GEOTransitDepartureSequence> departureSequence; // @synthesize departureSequence=_departureSequence;
-@property(retain, nonatomic) NSDate *earliestNextDepartureDate; // @synthesize earliestNextDepartureDate=_earliestNextDepartureDate;
 
 @end
 

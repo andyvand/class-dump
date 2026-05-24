@@ -9,23 +9,21 @@
 @interface PKAppletSubcredentialSharingInvitationMetadata
 {
     _Bool _shouldRequestInvitation;
-    NSString *_anonymizationSalt;
 }
 
 + (_Bool)î%ð1Â0@ù
 × ;
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void)nFailedSecurityCode;
+- (void)t+;
+- (void)verificationFailedSecurityCode;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *anonymizationSalt; // @synthesize anonymizationSalt=_anonymizationSalt;
-@property(nonatomic) _Bool shouldRequestInvitation; // @synthesize shouldRequestInvitation=_shouldRequestInvitation;
 
 @end
 

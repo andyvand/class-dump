@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 
 + (void)elineStage:mrcPipelineStage] /* Error: Ran out of types for this method. */;
 - (int);
-- (struct __CVBuffer *);
+- (struct __CVBuffer *)clearRightIndent;
 - (void);
 - (id);
 - (id);
@@ -36,8 +36,6 @@ __attribute__((visibility("hidden")))
 - (void)æXÿ¯æXÿ´æYÿºæZÿÀæ[ÿÆç\ÿÌç\ÿÒç]ÿØç^ÿßç^ÿæè_ÿìè`ÿóè`ÿúèaÿÿèaÿÿèaÿÿéaÿÿébÿÿébÿìSÿìSÿìTÿìTÿìTÿìTÿìTÿìUÿìUÿíVÿíVÿ£íWÿ¨íWÿ­íXÿ³íYÿ¸îYÿ½îZÿÃî[ÿÉî[ÿÏî\ÿÕï]ÿÛï^ÿáï^ÿéï_ÿïï`ÿõð`ÿüðaÿÿðaÿÿðaÿÿðaÿÿðbÿÿðbÿôTÿôTÿôTÿôTÿõUÿõUÿõUÿõUÿõVÿ õVÿ¤õWÿ¨õWÿ­öXÿ±öXÿ·öYÿ¼öYÿÁöZÿÇ÷[ÿÍ÷[ÿÓ÷\ÿÙ÷]ÿß÷]ÿå÷^ÿìø_ÿòø_ÿøø`ÿÿø`ÿÿøaÿÿøaÿÿøaÿÿøbÿÿùbÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) struct __CVPixelBufferPool *cvPixelBufferPool;
-@property(readonly, nonatomic) struct __CFDictionary *cvPixelBufferPoolAuxAttributes;
 @property(readonly, nonatomic) BWVideoFormat *videoFormat; // @synthesize videoFormat=_videoFormat;
 
 @end

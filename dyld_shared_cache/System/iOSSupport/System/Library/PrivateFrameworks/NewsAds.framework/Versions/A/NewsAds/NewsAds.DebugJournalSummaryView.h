@@ -7,19 +7,6 @@
 @interface NewsAds.DebugJournalSummaryView
 {
     id placementIdentifierLabel;
-    id placementIdentifier;
-    id contentIdentifierLabel;
-    id contentIdentifier;
-    id statusLabel;
-    id status;
-    id statusIndicator;
-    id moreDetailsButton;
-    id onTapMoreDetails;
-    id buttonSeparator;
-    id reportIssueButton;
-    id onTapReportIssue;
-    id topSeparator;
-    id bottomSeparator;
 }
 
 - (id);

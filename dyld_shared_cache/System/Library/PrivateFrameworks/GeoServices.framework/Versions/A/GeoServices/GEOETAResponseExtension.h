@@ -9,13 +9,13 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
-- (void);
+- (id)};
+- (void)speechCapturingDidRecordSpeechPackets:(id)arg1 atTimestamp:totalPacketCount: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)k?;
 - (_Bool);
 - (id)setHasMapSettingsWalkingAvoidBusyRoads:(struct _NSZone *)arg1;
-- (id)etadata;
+- (id)GEOPDSearchPlaceContextMetadata;
 - (id)th message.;
 
 @end

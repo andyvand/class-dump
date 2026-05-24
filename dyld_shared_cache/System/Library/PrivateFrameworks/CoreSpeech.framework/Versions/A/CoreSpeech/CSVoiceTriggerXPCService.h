@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSVoiceTriggerXPCClient, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CSVoiceTriggerXPCService
 {
     NSObject<OS_dispatch_queue> *_queue;
-    CSVoiceTriggerXPCClient *_xpcClient;
 }
 
 + (id);
@@ -19,30 +18,22 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)Z;
 - (void);
 - (id);
 - (void);
-- (void)pRecordingStarted:withADStopRecordingEvent: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void);
+- (void)setCancellationSemaphore:(id)arg1;
+- (void);
+- (void);
+- (id)@;
+- (void);
+- (void)logMHAssistantDaemonAudioStopRecordingContextWithMHUUID:withStopRecordingStarted:withADStopRecordingEvent: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) CSVoiceTriggerXPCClient *xpcClient; // @synthesize xpcClient=_xpcClient;
 
 @end
 

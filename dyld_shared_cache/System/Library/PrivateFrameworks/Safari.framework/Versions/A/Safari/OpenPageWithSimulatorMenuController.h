@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMenu;
+@class NSMenu;
 
 __attribute__((visibility("hidden")))
 @interface OpenPageWithSimulatorMenuController
 {
     struct optional<unsigned long long> _notificationHandlerID;
-    NSMenu *_menu;
-    NSArray *_leadingItems;
 }
 
 - (void);
@@ -22,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)A;
 - (id);
 - (void);
 - (void);
@@ -32,7 +30,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *leadingItems; // @synthesize leadingItems=_leadingItems;
 @property(readonly, nonatomic) NSMenu *menu; // @synthesize menu=_menu;
 
 @end

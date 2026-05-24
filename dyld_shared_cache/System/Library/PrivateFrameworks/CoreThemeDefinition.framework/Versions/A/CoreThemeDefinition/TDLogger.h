@@ -10,8 +10,6 @@
 @interface TDLogger
 {
     NSObject<OS_dispatch_queue> *_loggingQueue;
-    int _verbosity;
-    int _logMaxVerbosity;
 }
 
 + (id);
@@ -25,7 +23,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (int);
 - (void);

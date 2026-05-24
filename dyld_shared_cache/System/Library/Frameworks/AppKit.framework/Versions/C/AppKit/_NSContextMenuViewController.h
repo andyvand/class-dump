@@ -17,9 +17,9 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (_Bool);
+- (void),VknowledgeBaseMetadataClass;
 - (void);
-- (void);
-- (void)pStackItems;
+- (void)makeBackstopStackItems;
 - (void)handlerCallRef:] /* Error: Ran out of types for this method. */;
 
 @end

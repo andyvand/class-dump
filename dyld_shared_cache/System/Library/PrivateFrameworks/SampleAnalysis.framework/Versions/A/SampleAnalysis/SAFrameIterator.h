@@ -4,47 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSString, SAExclaveFrame, SAFrame, SASharedCache;
+@class SAFrame;
 
 __attribute__((visibility("hidden")))
 @interface SAFrameIterator
 {
     SAFrame *_frame;
-    SAExclaveFrame *_exclaveFrame;
-    _Bool _assumeUserBinaryLoadInfosContainMainBinary;
-    _Bool _isUserStackTruncated;
-    _Bool _isSwiftAsyncStackTruncated;
-    _Bool _isKernelStackTruncated;
-    _Bool _checkLR;
-    unsigned int _numUserFrames;
-    unsigned int _numSwiftAsyncFrames;
-    unsigned int _swiftAsyncStitchIndex;
-    unsigned int _numKernelFrames;
-    unsigned int _exclaveInsertionIndex;
-    unsigned long long _backtracer;
-    NSArray *_userBinaryLoadInfos;
-    NSArray *_kernelBinaryLoadInfos;
-    SASharedCache *_sharedCache;
-    unsigned long long *_userFrames;
-    unsigned long long *_swiftAsyncFrames;
-    unsigned long long *_kernelFrames;
-    unsigned long long _continuation;
-    NSMutableDictionary *_addressTranslations;
-    void *_aotSession;
-    NSArray *_aotInfos;
 }
 
-- (void);
-- (void);
+- (void)activateAudioSessionWithReason:(unsigned long long *)arg1 dynamicAttribute:bundleID:error: /* Error: Ran out of types for this method. */;
+- (void)UITwoPassKeywordDetectorHelper - Cannot create CSVTUITwoPassKeywordDetectorHelper since we cannot access secureConfigDataNdapiString;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
+- (void)setDelayBeforeAutomaticallyShowingNumberedLabels: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (unsigned int);
-- (void);
+- (unsigned int)NSError">24;
+- (void)dictationConnection:(_Bool)arg1 didRecognizeFinalResultCandidatePackage: /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (unsigned long long);
 - (void);
@@ -55,12 +33,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (unsigned long long *);
-- (_Bool);
+- (unsigned long long *)16@0:8 /* Error: Ran out of types for this method. */;
+- (_Bool)parsedFromData:error: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)A;
 - (void);
 - (void);
 - (void);
@@ -78,45 +56,18 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (unsigned int);
 - (_Bool);
 - (unsigned int);
 - (id);
-- (void);
+- (void)applicationIdentifier;
 - (_Bool);
 - (void);
 - (void)fd_set no longer set for bks_fd %d;
 
 // Remaining properties
-@property(retain) NSMutableDictionary *addressTranslations; // @synthesize addressTranslations=_addressTranslations;
-@property(retain) NSArray *aotInfos; // @synthesize aotInfos=_aotInfos;
-@property void *aotSession; // @synthesize aotSession=_aotSession;
-@property _Bool assumeUserBinaryLoadInfosContainMainBinary; // @synthesize assumeUserBinaryLoadInfosContainMainBinary=_assumeUserBinaryLoadInfosContainMainBinary;
 @property unsigned long long backtracer; // @synthesize backtracer=_backtracer;
-@property _Bool checkLR; // @synthesize checkLR=_checkLR;
-@property unsigned long long continuation; // @synthesize continuation=_continuation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property unsigned int exclaveInsertionIndex; // @synthesize exclaveInsertionIndex=_exclaveInsertionIndex;
-@property(readonly) unsigned long long hash;
-@property _Bool isKernelStackTruncated; // @synthesize isKernelStackTruncated=_isKernelStackTruncated;
-@property _Bool isSwiftAsyncStackTruncated; // @synthesize isSwiftAsyncStackTruncated=_isSwiftAsyncStackTruncated;
-@property _Bool isUserStackTruncated; // @synthesize isUserStackTruncated=_isUserStackTruncated;
-@property(retain) NSArray *kernelBinaryLoadInfos; // @synthesize kernelBinaryLoadInfos=_kernelBinaryLoadInfos;
-@property unsigned long long *kernelFrames; // @synthesize kernelFrames=_kernelFrames;
-@property unsigned int numKernelFrames; // @synthesize numKernelFrames=_numKernelFrames;
-@property unsigned int numSwiftAsyncFrames; // @synthesize numSwiftAsyncFrames=_numSwiftAsyncFrames;
-@property unsigned int numUserFrames; // @synthesize numUserFrames=_numUserFrames;
-@property(retain) SASharedCache *sharedCache; // @synthesize sharedCache=_sharedCache;
-@property(readonly) Class superclass;
-@property unsigned long long *swiftAsyncFrames; // @synthesize swiftAsyncFrames=_swiftAsyncFrames;
-@property unsigned int swiftAsyncStitchIndex; // @synthesize swiftAsyncStitchIndex=_swiftAsyncStitchIndex;
-@property(retain) NSArray *userBinaryLoadInfos; // @synthesize userBinaryLoadInfos=_userBinaryLoadInfos;
-@property unsigned long long *userFrames; // @synthesize userFrames=_userFrames;
 
 @end
 

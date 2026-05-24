@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSXPCListener;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface LSDPluginManager
 {
     NSDictionary *_pluginsByBundleIentifier;
-    NSXPCListener *_listener;
 }
 
 + (id)(\;
@@ -21,19 +20,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)l ;
 - (void)8ì;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSXPCListener *listener; // @synthesize listener=_listener;
 @property(retain) NSDictionary *pluginsByBundleIentifier; // @synthesize pluginsByBundleIentifier=_pluginsByBundleIentifier;
-@property(readonly) Class superclass;
 
 @end
 

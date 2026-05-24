@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactPickerHostViewController, NSString;
+@class CNContactPickerHostViewController;
 
 __attribute__((visibility("hidden")))
 @interface CNContactPickerExtensionHostContext
@@ -14,26 +14,19 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
+- (void);
+- (void)e@9;
+- (void)A;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)h;
 - (void);
 - (id);
 - (void)soloSelect;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) __weak CNContactPickerHostViewController *viewController; // @synthesize viewController=_viewController;
 
 @end

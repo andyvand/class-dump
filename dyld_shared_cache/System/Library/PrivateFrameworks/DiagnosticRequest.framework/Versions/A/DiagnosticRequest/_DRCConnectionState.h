@@ -5,13 +5,12 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, OS_xpc_object;
+@protocol OS_xpc_object;
 
 __attribute__((visibility("hidden")))
 @interface _DRCConnectionState
 {
     NSObject<OS_xpc_object> *_connection;
-    NSObject<OS_dispatch_queue> *_connectionQueue;
 }
 
 + (id);
@@ -22,11 +21,9 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)P;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_xpc_object> *connection; // @synthesize connection=_connection;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *connectionQueue; // @synthesize connectionQueue=_connectionQueue;
 @property(readonly, nonatomic) _Bool hasConnection;
 
 @end

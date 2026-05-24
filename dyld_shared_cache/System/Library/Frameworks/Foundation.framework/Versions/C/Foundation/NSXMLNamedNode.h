@@ -12,24 +12,22 @@ __attribute__((visibility("hidden")))
 @interface NSXMLNamedNode : NSXMLNode
 {
     NSString *_name;
-    NSString *_URI;
-    long long _prefixIndex;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)I;
 - (long long);
-- (_Bool);
+- (_Bool)h;
 - (long long);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)6@"NSDictionary"48;
 - (unsigned long long);
 - (_Bool);
 - (id);

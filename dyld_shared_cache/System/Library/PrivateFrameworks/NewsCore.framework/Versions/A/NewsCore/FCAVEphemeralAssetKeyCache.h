@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCThreadSafeMutableDictionary, NSData;
+@class NSData;
 
 @interface FCAVEphemeralAssetKeyCache
 {
     NSData *_keyServerCertificate;
-    FCThreadSafeMutableDictionary *_dictionary;
 }
 
 - (void);
@@ -21,7 +20,7 @@
 - (void);
 - (id);
 - (id);
-- (void)dingsEnabled;
+- (void)articleEmbeddingsEnabled;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSData *keyServerCertificate; // @synthesize keyServerCertificate=_keyServerCertificate;

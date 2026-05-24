@@ -18,14 +18,14 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)Z;
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)setPlayPauseMediaButtonColor:(id)arg1;
 - (long long);
-- (id);
+- (id)P;
 
 @end
 

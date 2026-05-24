@@ -6,22 +6,15 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIRippleTransition : CIFilter
 {
     CIImage *inputImage;
-    CIImage *inputTargetImage;
-    CIImage *inputShadingImage;
-    CIVector *inputCenter;
-    CIVector *inputExtent;
-    NSNumber *inputTime;
-    NSNumber *inputWidth;
-    NSNumber *inputScale;
 }
 
-+ (id);
++ (id)|n;
 - (void);
 - (void);
 - (id);
@@ -33,8 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) CIImage *inputShadingImage; // @synthesize inputShadingImage;
-@property(retain, nonatomic) CIImage *inputTargetImage; // @synthesize inputTargetImage;
 
 @end
 

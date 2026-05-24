@@ -7,26 +7,6 @@
 @interface SystemAdministrationInterface.PasswordController
 {
     id user;
-    id _userIsCurrent;
-    id _oldPassword;
-    id _oldPasswordNote;
-    id _newPassword;
-    id _newPasswordNote;
-    id _verifyPassword;
-    id _verifyPasswordNote;
-    id _passwordHint;
-    id _showPasswordAlert;
-    id _passwordAlertTitle;
-    id _passwordAlertMessage;
-    id _showPasswordWarning;
-    id _passwordWarningTitle;
-    id _passwordWarningMessage;
-    id _showPasswordError;
-    id _passwordErrorTitle;
-    id _passwordErrorMessage;
-    id passwordOptions;
-    id $__lazy_storage_$_funcPKGetSecureElementOwnershipState;
-    id $__lazy_storage_$_laContextClass;
 }
 
 @end

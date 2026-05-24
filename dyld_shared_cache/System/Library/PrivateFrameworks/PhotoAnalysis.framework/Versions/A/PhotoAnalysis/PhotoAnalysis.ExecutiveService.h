@@ -7,11 +7,6 @@
 @interface PhotoAnalysis.ExecutiveService
 {
     id $defaultActor;
-    id identifier;
-    id executive;
-    id stateHolder;
-    id operationManager;
-    id associatedWorkers;
 }
 
 - (void);

@@ -7,15 +7,6 @@
 @interface AWDProactiveModelFittingQuantizedSparseVector
 {
     CDStruct_9f2792e4 _indices;
-    CDStruct_9f2792e4 _values;
-    float _bucketSize;
-    unsigned int _length;
-    float _minValue;
-    struct {
-        unsigned int bucketSize:1;
-        unsigned int length:1;
-        unsigned int minValue:1;
-    } _has;
 }
 
 + (id);
@@ -33,13 +24,13 @@
 - (void);
 - (unsigned int);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (unsigned int);
-- (unsigned long long);
+- (id)syncUserKeysForService:context:bundleID:serviceIsManatee:accountDSID:accountType:shouldThrottle:testOverrideProvider:requestorOperationID:completionHandler: /* Error: Ran out of types for this method. */;
+- (unsigned int)_contextToPutSectionItem:operation:options:progress:completionHandler: /* Error: Ran out of types for this method. */;
+- (unsigned long long)or containerID %@, error:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (unsigned long long);
@@ -49,24 +40,16 @@
 - (void);
 - (void);
 - (unsigned int *);
+- (id)d;
+- (void)rames (%d %d) vs (%d %d)
+;
 - (id);
 - (void);
-- (id);
-- (void);
-- (float)fBuckets;
+- (float)quantizationNumberOfBuckets;
 - (unsigned int *));
 
 // Remaining properties
-@property(nonatomic) float bucketSize; // @synthesize bucketSize=_bucketSize;
-@property(nonatomic) _Bool hasBucketSize;
-@property(nonatomic) _Bool hasLength;
-@property(nonatomic) _Bool hasMinValue;
-@property(readonly, nonatomic) unsigned int *indices;
 @property(readonly, nonatomic) unsigned long long indicesCount;
-@property(nonatomic) unsigned int length; // @synthesize length=_length;
-@property(nonatomic) float minValue; // @synthesize minValue=_minValue;
-@property(readonly, nonatomic) unsigned int *values;
-@property(readonly, nonatomic) unsigned long long valuesCount;
 
 @end
 

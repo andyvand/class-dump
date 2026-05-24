@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject, NSString, PHFetchResult, PHPhotoLibrary;
-@protocol OS_dispatch_queue;
-
 @interface PXMacSyncedAssetsStatusProvider
 {
     _Bool _shouldShowBanner;
-    NSDate *_bannerDismissalDate;
-    NSObject<OS_dispatch_queue> *_queue;
-    PHPhotoLibrary *_photoLibrary;
-    PHFetchResult *_assetsFetchResult;
 }
 
 - (_Bool);
@@ -25,35 +18,42 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)׀ ;
 - (void);
 - (void);
 - (id);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)riteCoordinates; 
+		DeclareForeColorU; 
+		uniform mediump vec2 borderSize, invRadii; 
+		uniform lowp vec4 borderColor; 
+		void main() 
+		{ 
+			mediump vec2 b1 = -.5 - borderSize; 
+			mediump vec2 a1 = .5 + borderSize - b1; 
+			mediump vec2 p1 = vInSpriteCoordinates * a1 + b1, absP1 = abs(p1); 
+			lowp vec4 color; 
+			if(all(lessThanEqual(absP1, vec2(.5)))) { 
+					mediump vec2 borderAlphaXY = 1. - (.5 - absP1) * invRadii; 
+					lowp float borderAlpha = clamp(max(borderAlphaXY.x, borderAlphaXY.y), 0., 1.); 
+					color = SampleTexture0; 
+					DoFilter0(color); 
+					color = mix(color, borderColor, borderAlpha); 
+				} 
+			else 
+				color = borderColor * SpriteEdgeSoftenerPremultiplied(vInSpriteCoordinates, invRadii); 
+			gl_FragColor = uColor * color; 
+		} 
+		;
 - (id)eloadingRequest",R,N;
 - (void)NetworkErrorInternalExplanation;
-- (void)pIntentsViewAnnotations;
+- (void)PXAppIntentsViewAnnotations;
 - (id)|KÔÿ8½NîÐ;;
 
 // Remaining properties
-@property(retain, nonatomic) PHFetchResult *assetsFetchResult; // @synthesize assetsFetchResult=_assetsFetchResult;
-@property(copy, nonatomic) NSDate *bannerDismissalDate; // @synthesize bannerDismissalDate=_bannerDismissalDate;
-@property(readonly, nonatomic) NSString *bannerSubtitle;
-@property(readonly, nonatomic) NSString *bannerTitle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasAnyAssets;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property(nonatomic) _Bool shouldShowBanner; // @synthesize shouldShowBanner=_shouldShowBanner;
-@property(readonly) Class superclass;
 
 @end
 

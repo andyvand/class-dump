@@ -7,10 +7,9 @@
 @class NSUUID;
 
 @protocol SFProxy
-- (_Bool);
+- (_Bool)batteryState;
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *identifier;
-@property(readonly, nonatomic) _Bool isDisabled;
 @end
 

@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id);
+- (id)ative component size change from resolution level to resolution level (due to incompatible Part-2 downsampling factor style usage).  While these latter conditions might not be strictly illegal, they are clearly foolish.;
 - (id)ame;
 
 @end

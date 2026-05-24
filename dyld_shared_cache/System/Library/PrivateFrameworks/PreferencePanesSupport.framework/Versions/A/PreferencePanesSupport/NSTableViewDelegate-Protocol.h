@@ -4,6 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSCell, NSTableRowView;
+
 @protocol NSTableViewDelegate
+
+@optional
+- (_Bool);
+- (_Bool);
+- (NSTableRowView *);
+- (NSArray *);
+- (long long)`;
+- (NSCell *);
+- (void);
 @end
 

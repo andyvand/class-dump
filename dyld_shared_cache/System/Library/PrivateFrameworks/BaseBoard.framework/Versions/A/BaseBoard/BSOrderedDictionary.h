@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSOrderedDictionaryKeyStrategy, NSArray, NSDictionary, NSString;
+@class NSArray;
 
 @interface BSOrderedDictionary
 {
     NSArray *_keys;
-    NSDictionary *_values;
-    BSOrderedDictionaryKeyStrategy *_keyOrderingStrategy;
 }
 
 + (_Bool);
@@ -23,7 +21,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (id);
 - (unsigned long long);
 - (id);
@@ -31,9 +29,9 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)v;
 - (id);
 - (id);
 - (unsigned long long);
@@ -42,13 +40,6 @@
 
 // Remaining properties
 @property(readonly) unsigned long long count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

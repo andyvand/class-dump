@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AXMDataPointValue
 {
     _Bool _isEmptyValue;
-    double _number;
-    NSString *_category;
 }
 
 + (id);
@@ -27,8 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *category; // @synthesize category=_category;
-@property(readonly, nonatomic) _Bool isEmptyValue; // @synthesize isEmptyValue=_isEmptyValue;
 @property(nonatomic) double number; // @synthesize number=_number;
 
 @end

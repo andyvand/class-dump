@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEONavigationProxy, NSString;
+@class GEONavigationProxy;
 
 __attribute__((visibility("hidden")))
 @interface MNNavigationProxyUpdater
@@ -14,21 +14,21 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
+- (void)SearchFieldToolbarItemPlacementKey;
+- (void);
+- (void);
+- (void)UpdateEnvironment;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)SearchEnvironmentTransformModifier;
+- (void);
+- (void)StartSearchAction;
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)SearchCompletion;
 - (void);
 - (void);
 - (void);
@@ -42,13 +42,7 @@ __attribute__((visibility("hidden")))
 - (void)ineCoordinate=If}56o^{PolylineCoordinate=If}64o^{PolylineCoordinate=If}72o^{PolylineCoordinate=If}80;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

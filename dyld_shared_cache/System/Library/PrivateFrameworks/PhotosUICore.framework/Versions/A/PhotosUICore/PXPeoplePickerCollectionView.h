@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol PXPeoplePickerCollectionViewDelegate;
-
 @interface PXPeoplePickerCollectionView
 {
     _Bool _togglesSelectionWithoutModifierKey;
@@ -23,7 +21,6 @@
 - (void);
 
 // Remaining properties
-@property __weak id <PXPeoplePickerCollectionViewDelegate> delegate; // @dynamic delegate;
 @property(nonatomic) _Bool togglesSelectionWithoutModifierKey; // @synthesize togglesSelectionWithoutModifierKey=_togglesSelectionWithoutModifierKey;
 
 @end

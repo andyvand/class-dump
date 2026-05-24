@@ -4,38 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTIPFilterEndpoint, NSNumber;
-
 @interface CTIPFilter
 {
     unsigned long long _filterId;
-    unsigned long long _precedence;
-    unsigned long long _ipProtocol;
-    unsigned long long _ipFamilyProtocol;
-    CTIPFilterEndpoint *_src;
-    CTIPFilterEndpoint *_dst;
-    NSNumber *_tos;
-    NSNumber *_tosMask;
-    NSNumber *_flowLabel;
 }
 
-+ (_Bool);
++ (_Bool)fter reading has started;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (unsigned long long)?;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)";
+- (_Bool);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (id);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -43,7 +33,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)h";
 - (id);
 - (void);
 - (id);
@@ -52,21 +42,7 @@
 - (unsigned long long)üÕ;
 
 // Remaining properties
-@property(retain, nonatomic) CTIPFilterEndpoint *dst; // @synthesize dst=_dst;
 @property(nonatomic) unsigned long long filterId; // @synthesize filterId=_filterId;
-@property(retain, nonatomic) NSNumber *flowLabel; // @synthesize flowLabel=_flowLabel;
-@property(nonatomic) unsigned long long ipFamilyProtocol; // @synthesize ipFamilyProtocol=_ipFamilyProtocol;
-@property(nonatomic) unsigned long long ipProtocol; // @synthesize ipProtocol=_ipProtocol;
-@property(readonly, nonatomic) _Bool isAnyIpFamilyProtocol;
-@property(readonly, nonatomic) _Bool isAnyIpProtocol;
-@property(readonly, nonatomic) _Bool isIpv4;
-@property(readonly, nonatomic) _Bool isIpv6;
-@property(readonly, nonatomic) _Bool isTcp;
-@property(readonly, nonatomic) _Bool isUdp;
-@property(nonatomic) unsigned long long precedence; // @synthesize precedence=_precedence;
-@property(retain, nonatomic) CTIPFilterEndpoint *src; // @synthesize src=_src;
-@property(retain, nonatomic) NSNumber *tos; // @synthesize tos=_tos;
-@property(retain, nonatomic) NSNumber *tosMask; // @synthesize tosMask=_tosMask;
 
 @end
 

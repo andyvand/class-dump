@@ -13,10 +13,10 @@
 
 - (void);
 - (id);
+- (id).3gpp;
+- (void)_holderIZN18TSidebarController11GetOpenNodeERK7TFENodeP25FI_TSidebarViewControllerE3$_1vJiS5_S5_EEE;
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)!;
 
 // Remaining properties
 @property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;

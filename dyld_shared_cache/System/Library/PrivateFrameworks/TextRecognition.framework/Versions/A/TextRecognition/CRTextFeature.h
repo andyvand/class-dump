@@ -4,55 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRImage, CRNormalizedPolyline, CRNormalizedQuad, NSArray, NSDictionary, NSLocale, NSNumber, NSString, NSUUID;
-@protocol CRScriptCategory;
-
 @interface CRTextFeature
 {
     _Bool _shouldExpandToFullWidth;
-    unsigned char _sizeHint;
-    _Bool _shouldRotate180;
-    _Bool _shouldRotate180DetectorOrientationFallBack;
-    _Bool _isCurved;
-    _Bool _isVerticalLayout;
-    _Bool _useSequenceScriptLocale;
-    _Bool _useSequenceOrientation;
-    _Bool _appliedOrientationCorrection;
-    _Bool _whitespaceInjected;
-    _Bool _contextSet;
-    float _baselineAngle;
-    float _textlineHeight;
-    int _featureMapID;
-    int _featureID;
-    unsigned long long _type;
-    NSArray *_subFeatures;
-    NSArray *_stringValueCandidates;
-    NSArray *_candidateProbs;
-    NSArray *_candidateActivationProbs;
-    NSArray *_subFeatureCandidates;
-    long long _bestCandidateIndex;
-    NSString *_stringValue;
-    NSString *_gtStringValue;
-    CRImage *_imageCut;
-    NSNumber *_confidence;
-    NSArray *_scriptCategoryResults;
-    id <CRScriptCategory> _selectedScriptCategory;
-    NSDictionary *_scriptCounts;
-    NSString *_selectedLocale;
-    NSString *_sequenceScriptOutputResult;
-    NSUUID *_uuid;
-    CRNormalizedPolyline *_polygon;
-    unsigned long long _lineWrappingType;
-    unsigned long long _nmsOutputScale;
-    unsigned long long _textType;
-    struct CGPoint _topLeft;
-    struct CGPoint _topRight;
-    struct CGPoint _bottomLeft;
-    struct CGPoint _bottomRight;
-    struct CGPoint _toplineOrigin;
-    struct CGPoint _baselineOrigin;
-    struct CGSize _originalImageSize;
-    struct CGRect _bounds;
 }
 
 + (id);
@@ -86,7 +40,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -109,7 +63,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -123,14 +77,14 @@
 - (id);
 - (id);
 - (float);
-- (long long);
+- (long long)Ԫ#;
 - (struct CGPoint);
 - (float);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
@@ -150,13 +104,13 @@
 - (_Bool);
 - (double);
 - (void);
-- (id);
-- (void);
-- (struct CGSize);
-- (unsigned char);
-- (unsigned long long);
-- (id);
-- (id);
+- (id)validate_toggleAutomationSession: /* Error: Ran out of types for this method. */;
+- (void)userVisibleWebsiteAccessWithWebsiteAccessLevel:(struct CGSize)arg1 allowedDomains:allowedDomainsForHeaderInjection:hasInjectedContent:allowedInPrivateBrowsing: /* Error: Ran out of types for this method. */;
+- (struct CGSize)unifiedFieldPerSitePreferencesContextMenuItemWasSelected: /* Error: Ran out of types for this method. */;
+- (unsigned char)getVisibleContentsSnapshotWithCompletionHandler: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_updateStartPageSectionVisibilityPreferenceKey:withRecord: /* Error: Ran out of types for this method. */;
+- (id)_updateAuthenticationDescriptionTextFieldStringValue;
+- (id)StartPageTouchIconSectionProvider;
 - (id);
 - (id);
 - (void);
@@ -165,18 +119,18 @@
 - (struct CGPoint);
 - (struct CGPoint);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)B;
 - (struct CGRect);
 - (id);
 - (struct CGPoint);
 - (void);
 - (id);
+- (void)SHKExtensions;
 - (void);
-- (void);
-- (id);
+- (id)ion;
 - (void);
 - (void);
 - (id);
@@ -191,62 +145,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property _Bool appliedOrientationCorrection; // @synthesize appliedOrientationCorrection=_appliedOrientationCorrection;
-@property float baselineAngle; // @synthesize baselineAngle=_baselineAngle;
-@property(readonly) struct CGPoint baselineOrigin; // @synthesize baselineOrigin=_baselineOrigin;
-@property long long bestCandidateIndex; // @synthesize bestCandidateIndex=_bestCandidateIndex;
-@property struct CGPoint bottomLeft; // @synthesize bottomLeft=_bottomLeft;
-@property struct CGPoint bottomRight; // @synthesize bottomRight=_bottomRight;
-@property(readonly) CRNormalizedQuad *boundingQuad;
-@property struct CGRect bounds; // @synthesize bounds=_bounds;
-@property(retain) NSArray *candidateActivationProbs; // @synthesize candidateActivationProbs=_candidateActivationProbs;
-@property(retain) NSArray *candidateProbs; // @synthesize candidateProbs=_candidateProbs;
-@property(retain) NSNumber *confidence; // @synthesize confidence=_confidence;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property int featureID; // @synthesize featureID=_featureID;
-@property int featureMapID; // @synthesize featureMapID=_featureMapID;
-@property(retain, nonatomic) NSString *gtStringValue; // @synthesize gtStringValue=_gtStringValue;
-@property(readonly) unsigned long long hash;
-@property(retain) CRImage *imageCut; // @synthesize imageCut=_imageCut;
-@property _Bool isCurved; // @synthesize isCurved=_isCurved;
-@property _Bool isVerticalLayout; // @synthesize isVerticalLayout=_isVerticalLayout;
-@property(readonly) unsigned long long layoutDirection;
-@property unsigned long long lineWrappingType; // @synthesize lineWrappingType=_lineWrappingType;
-@property(readonly) NSLocale *locale;
-@property unsigned long long nmsOutputScale; // @synthesize nmsOutputScale=_nmsOutputScale;
-@property struct CGSize originalImageSize; // @synthesize originalImageSize=_originalImageSize;
-@property(retain) CRNormalizedPolyline *polygon; // @synthesize polygon=_polygon;
-@property(retain) NSArray *scriptCategoryResults; // @synthesize scriptCategoryResults=_scriptCategoryResults;
-@property(retain) NSDictionary *scriptCounts; // @synthesize scriptCounts=_scriptCounts;
-@property(retain) NSString *selectedLocale; // @synthesize selectedLocale=_selectedLocale;
-@property(retain) id <CRScriptCategory> selectedScriptCategory; // @synthesize selectedScriptCategory=_selectedScriptCategory;
-@property(retain) NSString *sequenceScriptOutputResult; // @synthesize sequenceScriptOutputResult=_sequenceScriptOutputResult;
-@property _Bool shouldExpandToFullWidth; // @synthesize shouldExpandToFullWidth=_shouldExpandToFullWidth;
-@property _Bool shouldRotate180; // @synthesize shouldRotate180=_shouldRotate180;
-@property _Bool shouldRotate180DetectorOrientationFallBack; // @synthesize shouldRotate180DetectorOrientationFallBack=_shouldRotate180DetectorOrientationFallBack;
-@property unsigned char sizeHint; // @synthesize sizeHint=_sizeHint;
-@property(retain, nonatomic) NSString *stringValue; // @synthesize stringValue=_stringValue;
-@property(retain) NSArray *stringValueCandidates; // @synthesize stringValueCandidates=_stringValueCandidates;
-@property(retain) NSArray *subFeatureCandidates; // @synthesize subFeatureCandidates=_subFeatureCandidates;
-@property(readonly) unsigned long long subFeatureType;
-@property(retain) NSArray *subFeatures; // @synthesize subFeatures=_subFeatures;
-@property(readonly) Class superclass;
-@property(readonly) NSString *text;
-@property(readonly) unsigned long long textRegionType;
-@property unsigned long long textType; // @synthesize textType=_textType;
-@property float textlineHeight; // @synthesize textlineHeight=_textlineHeight;
-@property struct CGPoint topLeft; // @synthesize topLeft=_topLeft;
-@property struct CGPoint topRight; // @synthesize topRight=_topRight;
-@property(readonly) struct CGPoint toplineOrigin; // @synthesize toplineOrigin=_toplineOrigin;
 @property unsigned long long type; // @synthesize type=_type;
-@property _Bool useSequenceOrientation; // @synthesize useSequenceOrientation=_useSequenceOrientation;
-@property _Bool useSequenceScriptLocale; // @synthesize useSequenceScriptLocale=_useSequenceScriptLocale;
-@property(retain) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property _Bool whitespaceInjected; // @synthesize whitespaceInjected=_whitespaceInjected;
 
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FMXPCServiceDescription, FMXPCSession, NSObject;
-@protocol OS_dispatch_queue, SPSchedulerXPCProtocol;
+@class FMXPCServiceDescription;
 
 @interface SPScheduler
 {
     FMXPCServiceDescription *_serviceDescription;
-    FMXPCSession *_session;
-    id <SPSchedulerXPCProtocol> _proxy;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);
@@ -20,21 +16,18 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)b;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <SPSchedulerXPCProtocol> proxy; // @synthesize proxy=_proxy;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property(retain, nonatomic) FMXPCServiceDescription *serviceDescription; // @synthesize serviceDescription=_serviceDescription;
-@property(retain, nonatomic) FMXPCSession *session; // @synthesize session=_session;
 
 @end
 

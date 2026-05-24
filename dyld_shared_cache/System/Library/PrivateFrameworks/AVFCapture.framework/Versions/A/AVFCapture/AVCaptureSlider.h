@@ -6,56 +6,36 @@
 
 #import <AVFCapture/AVCaptureControl.h>
 
-@class NSArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface AVCaptureSlider : AVCaptureControl
 {
     float _value;
-    NSString *_localizedValueFormat;
-    NSArray *_prominentValues;
-    float _minValue;
-    float _maxValue;
-    NSString *_localizedTitle;
-    NSString *_symbolName;
-    NSString *_accessibilityIdentifier;
-    struct os_unfair_lock_s _actionLock;
-    NSObject<OS_dispatch_queue> *_actionQueue;
-    CDUnknownBlockType _action;
 }
 
 + (void){®Gáz?yuv2v024f024;
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)_scheduleTimeout;
+- (void)_lastCallback;
+- (void)_keyToObjectDictionary;
+- (void)estValue;
+- (id),&,N,V_outputBuffer;
 - (id);
+- (id)<Y;
+- (id)Q;
+- (id)e;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)@Q;
 - (void);
-- (void);
-- (void);
+- (void)tetheredSyncSourceTypeForDataclass:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (float);
-- (void);
+- (void)$;
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)4;
 - (id);
 - (void);
 - (id)deHistory = %c (based on %{private}@), new user preferred camera override history %{private}@;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityIdentifier; // @synthesize accessibilityIdentifier=_accessibilityIdentifier;
 @property(copy, nonatomic) CDUnknownBlockType action; // @synthesize action=_action;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *actionQueue; // @synthesize actionQueue=_actionQueue;
-@property(readonly, copy, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
-@property(copy, nonatomic) NSString *localizedValueFormat; // @synthesize localizedValueFormat=_localizedValueFormat;
-@property(copy, nonatomic) NSArray *prominentValues; // @synthesize prominentValues=_prominentValues;
-@property(readonly, copy, nonatomic) NSString *symbolName; // @synthesize symbolName=_symbolName;
-@property(nonatomic) float value; // @synthesize value=_value;
 
 @end
 

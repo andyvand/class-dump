@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (int);
-- (id)operty;
+- (id)kSettingsModelGetProperty;
 
 // Remaining properties
 @property(readonly, nonatomic) CTLazuliMessageID *messageID;

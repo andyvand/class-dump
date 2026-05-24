@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCColor, FCColorGradient, NSArray, NSDictionary, NSString;
+@class FCColor, NSDictionary;
 
 @interface FCGroupConfig
 {
     FCColor *_groupTitleColor;
-    FCColor *_groupDarkStyleTitleColor;
-    NSArray *_groupFonts;
-    unsigned long long _cutoffTimeSecs;
-    unsigned long long _cutoffCount;
-    FCColorGradient *_groupBackgroundColorGradient;
-    FCColorGradient *_groupDarkStyleBackgroundColorGradient;
-    NSDictionary *_dictionary;
-    NSDictionary *_articleMetadataByArticleID;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -40,51 +32,26 @@
 - (id);
 - (id);
 - (id);
+- (unsigned long long)=;
 - (unsigned long long);
-- (unsigned long long);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
+- (id)SuggestionsFlight.mm;
+- (id)B;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);;
 - (id);
 - (id);
 - (id)0@ù
 × ;
 - (id)sCompletionBlock;
-- (void)hortExcerpt;
+- (void)shortExcerpt;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *articleListID;
-@property(retain, nonatomic) NSDictionary *articleMetadataByArticleID; // @synthesize articleMetadataByArticleID=_articleMetadataByArticleID;
-@property(readonly, nonatomic) NSString *channelID;
-@property(nonatomic) unsigned long long cutoffCount; // @synthesize cutoffCount=_cutoffCount;
-@property(nonatomic) unsigned long long cutoffTimeSecs; // @synthesize cutoffTimeSecs=_cutoffTimeSecs;
 @property(retain, nonatomic) NSDictionary *dictionary; // @synthesize dictionary=_dictionary;
-@property(readonly, nonatomic) NSString *feedID;
-@property(readonly, nonatomic) NSString *groupActionTitle;
-@property(readonly, nonatomic) NSString *groupActionURLString;
-@property(retain, nonatomic) FCColorGradient *groupBackgroundColorGradient; // @synthesize groupBackgroundColorGradient=_groupBackgroundColorGradient;
-@property(retain, nonatomic) FCColorGradient *groupDarkStyleBackgroundColorGradient; // @synthesize groupDarkStyleBackgroundColorGradient=_groupDarkStyleBackgroundColorGradient;
-@property(retain, nonatomic) FCColor *groupDarkStyleTitleColor; // @synthesize groupDarkStyleTitleColor=_groupDarkStyleTitleColor;
-@property(retain, nonatomic) NSArray *groupFonts; // @synthesize groupFonts=_groupFonts;
-@property(readonly, nonatomic) NSString *groupName;
-@property(readonly, nonatomic) NSString *groupSubtitle;
-@property(retain, nonatomic) FCColor *groupTitleColor; // @synthesize groupTitleColor=_groupTitleColor;
-@property(readonly, nonatomic) NSString *groupTitleFontName;
-@property(readonly, nonatomic) double groupTitleFontSize;
-@property(readonly, nonatomic) double groupTitleFontSizeiPad;
-@property(readonly, nonatomic) double groupTitleFontTracking;
-@property(readonly, nonatomic) double groupTitleFontTrackingiPad;
-@property(readonly, nonatomic) double groupTitleOffsetHeight;
-@property(readonly, nonatomic) double groupTitleOffsetHeightiPad;
-@property(readonly, nonatomic) double groupTitleOffsetY;
-@property(readonly, nonatomic) double groupTitleOffsetYiPad;
-@property(readonly, nonatomic) NSString *sectionID;
 
 @end
 

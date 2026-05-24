@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUMessageSessionServer, NSMutableSet, NSObject, NSXPCConnection;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface CUMessageSessionXPCConnection
 {
     NSObject<OS_dispatch_queue> *_dispatchQueue;
-    _Bool _invalidated;
-    NSMutableSet *_registeredRequestIDs;
-    CUMessageSessionServer *_server;
-    NSXPCConnection *_xpcCnx;
 }
 
 - (void);

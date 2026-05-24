@@ -8,9 +8,9 @@
 {
 }
 
-+ (id);
-- (void);
-- (void);
++ (id)Index value is %d ;
+- (void)@0:8d16@24 /* Error: Ran out of types for this method. */;
+- (void)}@;
 
 @end
 

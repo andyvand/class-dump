@@ -12,7 +12,7 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void)&,N,V_view;
 - (id);
 
 @end

@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-
 @interface PODEpisodePlayMetadata
 {
     long long _syncID;
-    unsigned long long _playCount;
-    double _playheadPosition;
-    long long _playedStatus;
-    NSDate *_lastDatePlayed;
 }
 
-+ (_Bool);
++ (_Bool)5;
 - (long long);
 - (double);
 - (long long);
@@ -23,21 +17,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)validateBGTaskRequestWithActivity: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSDate *lastDatePlayed; // @synthesize lastDatePlayed=_lastDatePlayed;
-@property(readonly, nonatomic) unsigned long long playCount; // @synthesize playCount=_playCount;
-@property(readonly, nonatomic) long long playedStatus; // @synthesize playedStatus=_playedStatus;
-@property(readonly, nonatomic) double playheadPosition; // @synthesize playheadPosition=_playheadPosition;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) long long syncID; // @synthesize syncID=_syncID;
 
 @end

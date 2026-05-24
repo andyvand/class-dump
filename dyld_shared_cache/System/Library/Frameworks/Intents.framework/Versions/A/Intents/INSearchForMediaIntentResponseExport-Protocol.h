@@ -7,10 +7,10 @@
 @class NSArray;
 
 @protocol INSearchForMediaIntentResponseExport
-- (long long)der;
+- (NSArray *);
+- (long long)hasSortOrder;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) NSArray *mediaItems;
 @end
 

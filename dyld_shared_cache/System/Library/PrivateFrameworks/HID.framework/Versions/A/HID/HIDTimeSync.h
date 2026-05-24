@@ -4,28 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HIDDevice, HIDEventService, HIDServiceClient, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface HIDTimeSync
 {
     _Atomic unsigned int _state;
-    HIDDevice *_device;
-    HIDEventService *_service;
-    HIDServiceClient *_client;
-    struct IONotificationPort *_propertyPort;
-    unsigned int _propertyNotify;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _eventHandler;
-    CDUnknownBlockType _cancelHandler;
 }
 
++ (id)7;
 + (id);
-+ (id);
-+ (id);
++ (id)	;
 + (id);
 + (unsigned int);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -43,17 +35,14 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (id)7J;
+- (CDUnknownBlockType)dReadDataBlock;
+- (CDUnknownBlockType)equired.;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType cancelHandler; // @synthesize cancelHandler=_cancelHandler;
-@property(readonly, nonatomic) CDUnknownBlockType eventHandler; // @synthesize eventHandler=_eventHandler;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) unsigned int state;
 
 @end
 

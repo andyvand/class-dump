@@ -13,14 +13,14 @@
     NSArray *_records;
 }
 
-+ (_Bool);
-- (id);
++ (_Bool)APSenderSessionUtilityFetchInitialVolume(FigTransportStreamRef, float *);
+- (id)_hasMoreContent;
 - (id);
 - (void);
-- (id);
+- (id)c;
 - (void)afÐ!DDù1¥1Â0@ù
 × ;
-- (void)xVOMaxRetriesPerc;
+- (void)txVOMaxRetriesPerc;
 - (id)1;
 
 // Remaining properties

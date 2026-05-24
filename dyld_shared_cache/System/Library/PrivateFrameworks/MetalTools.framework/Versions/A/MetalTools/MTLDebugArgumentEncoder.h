@@ -11,19 +11,17 @@
 @interface MTLDebugArgumentEncoder : MTLToolsArgumentEncoder
 {
     id <MTLBuffer> _currentBuffer;
-    unsigned long long _currentOffset;
-    void *_reflectionParser;
 }
 
 - (void);
 - (void);
+- (void)5;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)A9	A;
 - (void);
 - (void);
 - (void);
@@ -38,9 +36,9 @@
 - (id);
 - (void *);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)ɚ);
 - (void);
 - (void);
 - (void);

@@ -4,29 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFTimer, NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface HMDBonjourBrowserHelper
 {
     struct os_unfair_lock_s _lock;
-    unsigned long long _state;
-    double _browsingInterval;
-    double _browsingPeriodicity;
-    HMFTimer *_timer;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSArray *_serviceTypes;
-    NSMutableArray *_browsers;
-    NSDictionary *_latestDiscoveredServices;
-    NSMutableDictionary *_internalDiscoveredServices;
-    NSMutableArray *_browsingCompletions;
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)ta %@, (coords %@pt, routingPathLegs %@), traffic colors %@, muted %@, resumed %@;
+- (void)ate %@ 
+hasMadeFinalPush %@;
+- (void)`u;
 - (void);
 - (void);
 - (id);
@@ -41,42 +29,25 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
+- (void)memoryFeatureNodes;
+- (void)memoryDebugInformationWithMoments:(id)arg1 meaningLabels:(id)arg2;
+- (void)memoryDebugInformationWithMomentNodes:(id)arg1 meaningLabels:(id)arg2 serviceManager: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (id)logger;
+- (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)*;
 - (unsigned long long);
 - (void);
 - (id);
-- (void)ntStream;
+- (void)eventStream;
 - (_Bool)eKit.daemon.trustManager.adoption.owner;
 - (void)l ;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *browsers; // @synthesize browsers=_browsers;
-@property(retain, nonatomic) NSMutableArray *browsingCompletions; // @synthesize browsingCompletions=_browsingCompletions;
 @property(nonatomic) double browsingInterval; // @synthesize browsingInterval=_browsingInterval;
-@property(nonatomic) double browsingPeriodicity; // @synthesize browsingPeriodicity=_browsingPeriodicity;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableDictionary *internalDiscoveredServices; // @synthesize internalDiscoveredServices=_internalDiscoveredServices;
-@property(retain, nonatomic) NSDictionary *latestDiscoveredServices; // @synthesize latestDiscoveredServices=_latestDiscoveredServices;
-@property(retain, nonatomic) NSArray *serviceTypes; // @synthesize serviceTypes=_serviceTypes;
-@property(readonly, nonatomic, getter=isStarted) _Bool started;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) HMFTimer *timer; // @synthesize timer=_timer;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

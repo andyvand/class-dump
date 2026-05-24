@@ -13,9 +13,9 @@
 
 - (_Bool);
 - (id);
+- (void)getBalanceForPass:(id)arg1 withRiderClass:withTransitSummary:withRTAData:forCity:withError: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)bufferedAudioEngine_setCryptorForAllHoses;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -27,7 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasRange;
-@property(retain, nonatomic) CKDPListRange *range; // @synthesize range=_range;
 
 @end
 

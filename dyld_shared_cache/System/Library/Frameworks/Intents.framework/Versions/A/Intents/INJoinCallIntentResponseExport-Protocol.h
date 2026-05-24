@@ -5,7 +5,7 @@
 //
 
 @protocol INJoinCallIntentResponseExport
-- (long long)e;
+- (long long)hasDeviceName;
 
 // Remaining properties
 @property(readonly) long long code;

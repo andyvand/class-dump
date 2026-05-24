@@ -4,24 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, TRIRolloutDatabase;
+@class TRIRolloutDatabase;
 
 @interface TRILatencyMetricTelemetryValidator
 {
     TRIRolloutDatabase *_rolloutDb;
-    NSSet *_namespacesAllowedForLogging;
 }
 
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)!
+;
+- (id)removeAllObserversForApplication:(id)arg1;
 - (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *namespacesAllowedForLogging; // @synthesize namespacesAllowedForLogging=_namespacesAllowedForLogging;
 @property(readonly, nonatomic) TRIRolloutDatabase *rolloutDb; // @synthesize rolloutDb=_rolloutDb;
 
 @end

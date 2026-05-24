@@ -6,25 +6,21 @@
 
 #import <WebKitLegacy/DOMHTMLElement.h>
 
-@class NSString;
-
 @interface DOMHTMLOListElement : DOMHTMLElement
 {
 }
 
 - (_Bool);
-- (int);
+- (int)P;
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (void)@0:(int)arg1 8{CGPoint=dd}16@32@40;
-- (void)hBarUpdates;
+- (void)_isDeferringTextTouchBarUpdates;
 
 // Remaining properties
 @property _Bool compact;
-@property int start;
-@property(copy) NSString *type;
 
 @end
 

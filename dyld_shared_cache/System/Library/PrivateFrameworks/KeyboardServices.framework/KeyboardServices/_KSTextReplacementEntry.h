@@ -4,60 +4,48 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString;
+@class NSData;
 
 @interface _KSTextReplacementEntry
 {
     _Bool _needsSaveToCloud;
-    _Bool _wasDeleted;
-    NSString *_phrase;
-    NSString *_shortcut;
-    NSDate *_timestamp;
-    NSString *_cloudID;
-    _KSTextReplacementEntry *_priorValue;
-    NSData *_cloudData;
 }
 
 + (id);
 + (_Bool);
 - (id);
-- (id);
+- (id)
+;
 - (void);
 - (void);
 - (id);
+- (id)SHARE_LOCATION_ONE_HOUR_TEXT;
+- (id)phoneNumbers;
+- (void);
+- (id);
+- (_Bool)h
+;
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void)x];
+- (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)countNoSave:withDataclassActions:error:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSData *cloudData; // @synthesize cloudData=_cloudData;
-@property(copy, nonatomic) NSString *cloudID; // @synthesize cloudID=_cloudID;
-@property _Bool needsSaveToCloud; // @synthesize needsSaveToCloud=_needsSaveToCloud;
-@property(copy, nonatomic) NSString *phrase; // @synthesize phrase=_phrase;
-@property(retain, nonatomic) _KSTextReplacementEntry *priorValue; // @synthesize priorValue=_priorValue;
-@property(copy, nonatomic) NSString *shortcut; // @synthesize shortcut=_shortcut;
-@property(copy, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
-@property _Bool wasDeleted; // @synthesize wasDeleted=_wasDeleted;
 
 @end
 

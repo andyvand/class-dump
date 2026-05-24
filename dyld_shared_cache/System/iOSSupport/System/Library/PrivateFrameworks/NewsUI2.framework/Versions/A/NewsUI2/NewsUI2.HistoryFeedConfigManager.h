@@ -7,8 +7,6 @@
 @interface NewsUI2.HistoryFeedConfigManager
 {
     id decoder;
-    id appConfigManager;
-    id resourceService;
 }
 
 @end

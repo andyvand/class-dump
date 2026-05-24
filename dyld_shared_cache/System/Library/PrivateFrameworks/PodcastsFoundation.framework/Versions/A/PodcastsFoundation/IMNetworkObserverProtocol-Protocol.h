@@ -7,10 +7,9 @@
 @class NSString;
 
 @protocol IMNetworkObserverProtocol
+- (NSString *)T;
 
 // Remaining properties
-@property(readonly) NSString *connectionTypeHeader;
-@property(readonly) unsigned int networkReachabilityFlags;
 @property(readonly) long long networkType;
 @end
 

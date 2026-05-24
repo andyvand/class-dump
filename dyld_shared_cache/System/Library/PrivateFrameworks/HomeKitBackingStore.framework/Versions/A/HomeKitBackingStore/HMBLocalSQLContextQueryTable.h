@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSSet;
+@class NSMutableDictionary, NSSet;
 
 @interface HMBLocalSQLContextQueryTable
 {
     NSSet *_columnNames;
-    NSMutableDictionary *_mutableIndexes;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)nTask"24@"NSURLAuthenticationChallenge"32@?<v@?q@"NSURLCredential">40;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *columnNames; // @synthesize columnNames=_columnNames;
-@property(readonly, nonatomic) NSDictionary *indexes;
 @property(readonly, nonatomic) NSMutableDictionary *mutableIndexes; // @synthesize mutableIndexes=_mutableIndexes;
 
 @end

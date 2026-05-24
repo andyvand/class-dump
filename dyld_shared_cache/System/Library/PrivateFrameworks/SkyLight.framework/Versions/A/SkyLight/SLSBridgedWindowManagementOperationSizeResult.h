@@ -13,8 +13,9 @@
 
 + (_Bool);
 - (id);
-- (struct CGSize);
-- (void);
+- (struct CGSize)from x [%.2f .. %.2f] y[%.2f .. %.2f]
+;
+- (void)a;
 - (id);
 
 // Remaining properties

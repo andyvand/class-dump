@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDBrandLogoEmbedding
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_embeddings;
 }
 
 - (id);
@@ -19,9 +18,9 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)oInsideLevel"b1"read_unknownFields"b1"read_filterElements"b1"read_itemList"b1"read_locatedInside"b1"read_venueFeatureIds"b1"wrote_anyField"b1};
-- (id)rPlaceCardHeaderDisplay:allowSmaller: /* Error: Ran out of types for this method. */;
+- (id)_bestIconForPlaceCardHeaderDisplay:allowSmaller: /* Error: Ran out of types for this method. */;
 - (id)À{Y¸Ø³|YÌØ³h}YàØ³<~YôØ³YÙ³äYÙ³¸Y0Ù³`YDÙ³TYÌÙ³HÇYàÙ³ÊYôÙ³ÐÍYÚ³`ÖYÚ³¨ØY0Ú³hÚYDÚ³(ÜYXÚ³|ÝYlÚ³âYÚ³ÐãYÚ³æY¨Ú³ØçY¼Ú³¤ëYÐÚ³ÌòYäÚ³ôYøÚ³Ø÷YÛ³ùY Û³XûY4Û³ýYHÛ³Z\Û³ZpÛ³àZ Û³PZ°Û³ÀZÀÛ³LZÐÛ³ZàÛ³ ZðÛ³)ZÜ³(GZÜ³h]ZÜ³ÐtZÝ³èZpÝ³P ZüÝ³«ZÞ³è¬Z(Þ³¼¯Z<Þ³¤±ZXÞ³¼ZlÞ³@¾ZÞ³\ÇZÞ³ØÜZìÞ³ìúZ|ß³ð[èß³\;[à³ÐL[á³Y[$á³l[[<á³t^[Pá³|`[lá³0j[á³l[á³°|[¨á³Ð\8â³\â³ô&\Üâ³@:\@ã³¤W\¤ã³4~\@ä³T\¨ä³°Â\¼ä³dÄ\Ðä³èÊ\då³Ì\|å³Ð\Ôå³¨Õ\Læ³Ø\æ³ÈÙ\°æ³pÛ\Äæ³8Ý\Üæ³Ôæ\¨ç³ ê\ /* Error: Ran out of types for this method. */;
-- (void)Definition;
+- (void)TaxonomyDefinition;
 
 @end
 

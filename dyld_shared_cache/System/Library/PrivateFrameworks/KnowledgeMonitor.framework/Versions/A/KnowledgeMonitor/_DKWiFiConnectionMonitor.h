@@ -6,14 +6,11 @@
 
 #import <KnowledgeMonitor/_DKMonitor.h>
 
-@class BMSource, CWFInterface, NSString;
+@class BMSource;
 
 @interface _DKWiFiConnectionMonitor : _DKMonitor
 {
     BMSource *_source;
-    CWFInterface *_interface;
-    NSString *_currentSSID;
-    CDUnknownBlockType historicalDeletingHandler;
 }
 
 + (_Bool);
@@ -25,17 +22,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)(;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) CDUnknownBlockType historicalDeletingHandler; // @synthesize historicalDeletingHandler;
-@property(readonly) Class superclass;
 
 @end
 

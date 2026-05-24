@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTXPCServiceSubscriptionContext, CoreTelephonyClient, NSObject, NSString;
+@class NSObject, NSString;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface ICTelephonyController
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    NSObject<OS_dispatch_queue> *_telephonyCallbackQueue;
-    NSString *_phoneNumber;
-    CoreTelephonyClient *_telephonyClient;
-    CTXPCServiceSubscriptionContext *_telephonySubscriptionContext;
 }
 
 + (id);
@@ -31,24 +27,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (void)C3DFramebufferGetFBOCount;
+- (id)";
 - (void);
-- (id);
-- (void);
-- (void)ItemResponseDictionary: /* Error: Ran out of types for this method. */;
+- (void)initWithItemResponseDictionary: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *IMEI;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *mobileSubscriberCountryCode;
-@property(readonly, copy, nonatomic) NSString *mobileSubscriberNetworkCode;
 @property(readonly, copy, nonatomic) NSString *phoneNumber;
-@property(readonly, copy, nonatomic) NSString *providerName;
-@property(readonly) Class superclass;
 
 @end
 

@@ -9,21 +9,19 @@
 @interface AKFormFeature
 {
     AKPageController *_page;
-    struct CGRect _rect;
 }
 
 + (id);
 - (id);
 - (id);
 - (id);
-- (struct CGRect);
+- (struct CGRect)lorSpace:options:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
-- (void)etLenient:(id)arg1;
+- (void)setLenient:(id)arg1;
 
 // Remaining properties
-@property(nonatomic) __weak AKPageController *page; // @synthesize page=_page;
 @property(nonatomic) struct CGRect rect; // @synthesize rect=_rect;
 
 @end

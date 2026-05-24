@@ -7,8 +7,6 @@
 @interface ProactiveSupport.AsyncFIFOQueue
 {
     id $defaultActor;
-    id _streamContinuation;
-    id _task;
 }
 
 @end

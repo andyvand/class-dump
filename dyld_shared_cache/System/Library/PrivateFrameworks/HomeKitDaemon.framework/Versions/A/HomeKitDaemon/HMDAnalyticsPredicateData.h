@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface HMDAnalyticsPredicateData
 {
     _Bool _containsCalendarTime;
-    _Bool _containsCharacteristicValue;
-    _Bool _containsSignificantTime;
-    _Bool _containsSignificantTimeOffset;
-    NSMutableArray *_presenceEvents;
 }
 
 - (id);

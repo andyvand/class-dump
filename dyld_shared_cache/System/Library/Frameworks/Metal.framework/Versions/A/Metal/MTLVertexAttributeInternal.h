@@ -6,15 +6,10 @@
 
 #import <Metal/MTLVertexAttribute.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface MTLVertexAttributeInternal : MTLVertexAttribute
 {
     unsigned char _flags;
-    NSString *_name;
-    unsigned long long _attributeIndex;
-    unsigned long long _attributeType;
 }
 
 - (void);
@@ -24,9 +19,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)h;
 - (_Bool);
-- (id);
+- (id);
 - (unsigned long long);
 
 @end

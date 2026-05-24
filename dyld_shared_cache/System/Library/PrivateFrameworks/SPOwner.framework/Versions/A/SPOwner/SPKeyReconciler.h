@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableArray;
+@class NSDictionary;
 
 @interface SPKeyReconciler
 {
     NSDictionary *_backingDictionary;
-    NSMutableArray *_keyIndices;
 }
 
 - (id);

@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 + (id);
 - (id);
 - (unsigned long long);
-- (_Bool)ttingLanguage:(id)arg1;
+- (_Bool)traitCollectionWithTypesettingLanguage:(id)arg1;
 - (void);
 
 @end

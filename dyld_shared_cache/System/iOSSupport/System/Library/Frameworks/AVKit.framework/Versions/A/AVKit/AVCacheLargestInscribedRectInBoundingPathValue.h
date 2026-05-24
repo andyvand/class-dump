@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (struct CGRect);
-- (id);
+- (id)t;
 
 // Remaining properties
 @property(nonatomic) struct CGRect largestInscribedRect; // @synthesize largestInscribedRect=_largestInscribedRect;

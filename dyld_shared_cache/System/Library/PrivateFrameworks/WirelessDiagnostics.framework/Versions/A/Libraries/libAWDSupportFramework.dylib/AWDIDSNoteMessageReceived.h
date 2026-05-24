@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDIDSNoteMessageReceived
 {
     unsigned long long _localtimedelta;
-    unsigned long long _servertimestamp;
-    unsigned long long _timestamp;
-    int _accountType;
-    NSString *_serviceIdentifier;
-    _Bool _fromStorage;
-    struct {
-        unsigned int localtimedelta:1;
-        unsigned int servertimestamp:1;
-        unsigned int timestamp:1;
-        unsigned int accountType:1;
-        unsigned int fromStorage:1;
-    } _has;
 }
 
 - (void);
@@ -28,7 +14,7 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)3P;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -45,7 +31,7 @@
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)`;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -58,18 +44,7 @@
 - (_Bool),V_vmnetStart;
 
 // Remaining properties
-@property(nonatomic) int accountType; // @synthesize accountType=_accountType;
-@property(nonatomic) _Bool fromStorage; // @synthesize fromStorage=_fromStorage;
-@property(nonatomic) _Bool hasAccountType;
-@property(nonatomic) _Bool hasFromStorage;
-@property(nonatomic) _Bool hasLocaltimedelta;
-@property(nonatomic) _Bool hasServertimestamp;
-@property(readonly, nonatomic) _Bool hasServiceIdentifier;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long localtimedelta; // @synthesize localtimedelta=_localtimedelta;
-@property(nonatomic) unsigned long long servertimestamp; // @synthesize servertimestamp=_servertimestamp;
-@property(retain, nonatomic) NSString *serviceIdentifier; // @synthesize serviceIdentifier=_serviceIdentifier;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

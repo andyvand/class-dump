@@ -19,7 +19,6 @@
 - (unsigned char);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *gmailLabelsToClear;
 @property(readonly, copy, nonatomic) NSArray *gmailLabelsToSet;
 
 @end

@@ -4,42 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXFeedAutoplayController, PXFeedSublayoutComposition, PXFeedViewModel, PXSectionedDataSource, PXSectionedDataSourceChangeDetails;
-@protocol PXFeedItemLayoutFactory;
+@class PXFeedSublayoutComposition;
 
 @interface PXFeedSectionContentLayout
 {
     CDStruct_af00bf4e _updateFlags;
-    PXSectionedDataSourceChangeDetails *_lastChangeDetails;
-    PXSectionedDataSource *_presentedDataSource;
-    struct {
-        _Bool setItemLayoutShouldAutoplayContentVideoTimeRange;
-        _Bool setItemLayoutIsTouched;
-        _Bool setItemLayoutIsHovered;
-        _Bool shouldReloadItemLayoutForChangedItemFromIndexPathInDataSourceToIndexPathInDataSource;
-        _Bool configureItemLayoutForChangedItemFromIndexPathInDataSourceToIndexPathInDataSource;
-        _Bool decorationOverlayAnchorSpriteIndexForItemLayout;
-        _Bool itemPlacementControllerForItemReferenceItemLayout;
-    } _itemLayoutFactoryRespondsTo;
-    PXFeedViewModel *_viewModel;
-    PXSectionedDataSource *_dataSource;
-    id <PXFeedItemLayoutFactory> _itemLayoutFactory;
-    PXFeedAutoplayController *_autoplayController;
-    long long _presentedRootLayoutOrientation;
-    struct PXSimpleIndexPath _sectionIndexPath;
 }
 
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)!;
 - (void);
 - (long long);
-- (unsigned int);
+- (unsigned int)Ț;
 - (void);
 - (struct PXSimpleIndexPath);
 - (long long);
 - (long long);
-- (id);
+- (id)=;
 - (void);
 - (id);
 - (struct CGSize);
@@ -47,7 +29,7 @@
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id)a;
 - (id);
 - (void);
 - (void);
@@ -58,7 +40,7 @@
 - (_Bool);
 - (id);
 - (double);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -75,29 +57,16 @@
 - (unsigned long long);
 - (void);
 - (void);
+- (id)policyValidator;
 - (id);
-- (id);
-- (void);
+- (void)8;
 - (void);
 - (void);
 - (void);
 - (id)ÀIÉÿmRÀ>;
 
 // Remaining properties
-@property(readonly, nonatomic) PXFeedAutoplayController *autoplayController; // @synthesize autoplayController=_autoplayController;
 @property(readonly, nonatomic) PXFeedSublayoutComposition *composition; // @dynamic composition;
-@property(readonly, nonatomic) PXSectionedDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <PXFeedItemLayoutFactory> itemLayoutFactory; // @synthesize itemLayoutFactory=_itemLayoutFactory;
-@property(nonatomic) long long presentedRootLayoutOrientation; // @synthesize presentedRootLayoutOrientation=_presentedRootLayoutOrientation;
-@property(readonly, nonatomic) struct PXSimpleIndexPath sectionIndexPath; // @synthesize sectionIndexPath=_sectionIndexPath;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PXFeedViewModel *viewModel; // @synthesize viewModel=_viewModel;
 
 @end
 

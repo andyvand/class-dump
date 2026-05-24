@@ -13,6 +13,5 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *callUID; // @dynamic callUID;
-@property(retain, nonatomic) NSString *contactID; // @dynamic contactID;
 @end
 

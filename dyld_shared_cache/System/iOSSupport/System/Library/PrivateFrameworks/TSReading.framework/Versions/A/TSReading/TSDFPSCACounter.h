@@ -6,12 +6,9 @@
 
 #import <TSReading/TSDFPSCounter.h>
 
-@class NSTimer;
-
 @interface TSDFPSCACounter : TSDFPSCounter
 {
     unsigned int mCAFrameCount;
-    NSTimer *mTimer;
 }
 
 - (void);

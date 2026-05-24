@@ -4,47 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface SFText
 {
     struct {
         unsigned int maxLines:1;
     } _has;
-    NSString *_text;
-    unsigned long long _maxLines;
 }
 
 + (id);
 + (_Bool);
+- (id)LSession"16@"NSURLAuthenticationChallenge"24@?<v@?q@"NSURLCredential">32;
+- (_Bool)MPModelGroup;
+- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (_Bool);
-- (unsigned long long);
-- (unsigned long long);
+- (void)loadValuesAsynchronouslyForKeys:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)CHECK:Looking for size:%@, name:%@ (%@), date:%@:No change in DB since last check, %@ is a dup%@ /* Error: Ran out of types for this method. */;
+- (id)photo_full;
 - (id);
 - (unsigned short);
 - (void);
 - (void);
 - (unsigned long long);
-- (void)sIsWinner;
+- (void)hasIsWinner;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned long long maxLines; // @synthesize maxLines=_maxLines;
-@property(readonly) Class superclass;
 @property(copy) NSString *text; // @synthesize text=_text;
 
 @end

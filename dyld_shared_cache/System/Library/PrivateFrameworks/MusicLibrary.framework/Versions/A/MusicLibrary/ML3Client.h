@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCConnection;
+@class NSXPCConnection;
 
 @interface ML3Client
 {
     int _processID;
-    NSXPCConnection *_connection;
-    NSString *_bundleID;
 }
 
-+ (id);
-+ (id);
-- (_Bool);
++ (id)debugDescriptionOfValue:forKey: /* Error: Ran out of types for this method. */;
++ (id)updatePanoramosityWithMetadata: /* Error: Ran out of types for this method. */;
+- (_Bool)setPenultimateRenderedJPEGData: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -25,10 +23,7 @@
 - (int)¨;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
 @property(readonly, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, nonatomic, getter=isDaemonClient) _Bool daemonClient;
-@property(readonly, nonatomic) int processID; // @synthesize processID=_processID;
 
 @end
 

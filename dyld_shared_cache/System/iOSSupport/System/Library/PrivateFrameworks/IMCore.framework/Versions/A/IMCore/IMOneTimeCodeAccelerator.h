@@ -9,18 +9,16 @@
 @interface IMOneTimeCodeAccelerator
 {
     CDUnknownBlockType _settingUpdateBlock;
-    id <IMDaemonMultiplexedConnectionManaging> _daemonConnection;
-    CDUnknownBlockType _updateBlock;
 }
 
-+ (id);
++ (id);
 + (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);
+- (void),;
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -29,14 +27,12 @@
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void);
 - (void)Ä]_`a;
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) id <IMDaemonMultiplexedConnectionManaging> daemonConnection; // @synthesize daemonConnection=_daemonConnection;
-@property(copy, nonatomic) CDUnknownBlockType settingUpdateBlock; // @synthesize settingUpdateBlock=_settingUpdateBlock;
-@property(copy, nonatomic) CDUnknownBlockType updateBlock; // @synthesize updateBlock=_updateBlock;
 
 @end
 

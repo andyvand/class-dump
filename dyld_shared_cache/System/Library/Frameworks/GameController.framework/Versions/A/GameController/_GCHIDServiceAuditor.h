@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GCHIDServiceInfo;
-
 __attribute__((visibility("hidden")))
 @interface _GCHIDServiceAuditor
 {
     unsigned long long _receivedEventCount;
-    unsigned long long _publishedEventCount;
-    struct {
-        unsigned long long eventTimestampMAT;
-    } _latestReceivedEvents[5];
-    GCHIDServiceInfo *_serviceInfo;
 }
 
 - (id);

@@ -6,18 +6,16 @@
 
 #import <CMCapture/FigCaptureSourcePipeline.h>
 
-@class BWNode, BWSynchronizerNode;
+@class BWNode;
 
 __attribute__((visibility("hidden")))
 @interface FigCaptureMetadataSourcePipeline : FigCaptureSourcePipeline
 {
     BWNode *_sourceNode;
-    BWSynchronizerNode *_synchronizerNode;
-    struct OpaqueCMClock *_masterClock;
 }
 
-+ (void)OSpecialDeviceType;
-- (void);
++ (void)CMIOSpecialDeviceType;
+- (void)mHasRightMargin;
 
 @end
 

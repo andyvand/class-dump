@@ -7,16 +7,15 @@
 @interface PPPBFeedbackItem
 {
     int _feedbackType;
-    CDStruct_00b579d7 _has;
 }
 
-- (_Bool);
-- (id);
+- (_Bool)@;
+- (id)";
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -25,7 +24,6 @@
 - (int)_joinResults: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) int feedbackType; // @synthesize feedbackType=_feedbackType;
 @property(nonatomic) _Bool hasFeedbackType;
 
 @end

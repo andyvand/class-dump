@@ -8,25 +8,25 @@
 {
 }
 
+- (void)6;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void)ttachment:(id)arg1 URL:(id)arg2 contentProtection:(CDUnknownBlockType)arg3 isNew:isTwoFactorCode:isFromMe:isGroupThread:isJunk:isRead:isPinned:isBusinessChat:tapbackAssociatedMessageID:tapbackType:messageType:messagesService:messageEffect:isKnownSender:conversationUUID: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)A;
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)lbackHash:(id)arg1;
+- (void)setAssociatedMessageFallbackHash:(id)arg1;
 - (void)8T;
 - (void)to %@ unique records;
 

@@ -10,7 +10,7 @@
 
 + (id);
 - (void);
-- (void);
+- (void)a;
 - (void);
 - (void);
 

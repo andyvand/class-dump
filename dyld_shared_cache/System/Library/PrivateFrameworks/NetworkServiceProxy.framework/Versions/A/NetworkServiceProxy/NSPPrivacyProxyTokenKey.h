@@ -9,16 +9,6 @@
 @interface NSPPrivacyProxyTokenKey
 {
     unsigned long long _expiration;
-    unsigned long long _rotation;
-    NSData *_key;
-    unsigned int _metadataSize;
-    unsigned int _tokenType;
-    struct {
-        unsigned int expiration:1;
-        unsigned int rotation:1;
-        unsigned int metadataSize:1;
-        unsigned int tokenType:1;
-    } _has;
 }
 
 - (void);
@@ -29,8 +19,8 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
-- (unsigned int);
+- (void)n had unexpected type %{public}@;
+- (unsigned int)SProcessIdentity"8@"RBSProcessState"16^B24;
 - (unsigned int);
 - (void);
 - (void);
@@ -42,24 +32,16 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)00s %.500s;
 - (void);
-- (id);
-- (id);
+- (id));
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) unsigned long long expiration; // @synthesize expiration=_expiration;
-@property(nonatomic) _Bool hasExpiration;
-@property(nonatomic) _Bool hasMetadataSize;
-@property(nonatomic) _Bool hasRotation;
-@property(nonatomic) _Bool hasTokenType;
 @property(retain, nonatomic) NSData *key; // @synthesize key=_key;
-@property(nonatomic) unsigned int metadataSize; // @synthesize metadataSize=_metadataSize;
-@property(nonatomic) unsigned long long rotation; // @synthesize rotation=_rotation;
-@property(nonatomic) unsigned int tokenType; // @synthesize tokenType=_tokenType;
 
 @end
 

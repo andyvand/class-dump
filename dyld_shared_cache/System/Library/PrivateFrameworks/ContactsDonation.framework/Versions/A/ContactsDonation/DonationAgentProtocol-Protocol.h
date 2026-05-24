@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol DonationAgentProtocol
+- (void)ontext;
+- (void)SMutableDictionary",&,N,V_scanParams;
+- (void)ctionary",&,N,V_devices;
+- (void)T@"ICScannerImageRep",&,N,V_overviewImageBufferRep;
+- (void);
+- (void)dddddddddddddddd}16;
+- (void)getScreenshotOfVisibleAreaForPage:(NSString *)arg1 completionHandler:(void (^)(NSError *))arg2;
 @end
 

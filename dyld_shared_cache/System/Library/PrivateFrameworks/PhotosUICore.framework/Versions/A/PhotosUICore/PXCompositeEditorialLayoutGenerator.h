@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, PXCompositeEditorialLayoutMetrics;
+@class PXCompositeEditorialLayoutMetrics;
 
 @interface PXCompositeEditorialLayoutGenerator
 {
     struct _PXLayoutGeometry *_geometries;
-    unsigned long long _geometriesCount;
-    double *_layoutItemWeights;
-    unsigned long long _layoutItemWeightsCount;
-    struct CGSize _contentSize;
-    _Bool _isPrepared;
-    NSDictionary *_templatesByTileCount;
-    long long _minTemplateItemCount;
-    long long _maxTemplateItemCount;
-    long long _minNumberOfColumns;
 }
 
 - (void);
@@ -28,7 +19,7 @@
 - (struct _PXLayoutGeometry);
 - (void);
 - (void);
-- (void);
+- (void)7;
 - (void);
 - (struct CGSize);
 - (void);

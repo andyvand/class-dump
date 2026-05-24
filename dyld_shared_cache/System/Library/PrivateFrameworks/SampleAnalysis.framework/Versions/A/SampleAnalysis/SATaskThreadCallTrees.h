@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, SATask;
+@class SATask;
 
 @interface SATaskThreadCallTrees
 {
     SATask *_task;
-    NSArray *_threadCallTrees;
 }
 
 - (id);
@@ -18,7 +17,6 @@
 
 // Remaining properties
 @property(readonly) SATask *task; // @synthesize task=_task;
-@property(readonly) NSArray *threadCallTrees; // @synthesize threadCallTrees=_threadCallTrees;
 
 @end
 

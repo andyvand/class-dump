@@ -25,9 +25,9 @@
 - (unsigned long long);
 - (unsigned long long);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)initWithDictionary:(id)arg1 desiredSizeToScale:itemManager:operationServicer: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)dMouthLocalization;
 

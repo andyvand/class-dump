@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIImage;
+@class UIImage;
 
 @interface WBSPrivateBrowsingExplanationItem
 {
     _Bool _limitedToPrivateBrowsing;
-    UIImage *_image;
-    NSString *_message;
-    NSString *_title;
 }
 
 + (id);
 - (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)TACH '%@' AS source;;
+- (id)6y"A�7;
 - (_Bool);
 - (id);
-- (id);
-- (void)meRequest:priority:queue:responseHandler: /* Error: Ran out of types for this method. */;
+- (id)insertSubview:belowSubview: /* Error: Ran out of types for this method. */;
+- (void)registerOneTimeRequest:priority:queue:responseHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(readonly, nonatomic, getter=isLimitedToPrivateBrowsing) _Bool limitedToPrivateBrowsing; // @synthesize limitedToPrivateBrowsing=_limitedToPrivateBrowsing;
-@property(readonly, copy, nonatomic) NSString *message; // @synthesize message=_message;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

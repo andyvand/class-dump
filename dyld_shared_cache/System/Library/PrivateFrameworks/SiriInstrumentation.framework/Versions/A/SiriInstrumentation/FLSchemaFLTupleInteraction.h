@@ -6,28 +6,26 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface FLSchemaFLTupleInteraction : SISchemaInstrumentationMessage
 {
     NSArray *_identifiers;
-    int _alignment;
-    CDStruct_14ec7c27 _has;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)overy code from user w/ custodian UUID:(_Bool)arg1 %@;
+- (unsigned long long)ystemVersion.plist;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)thingSelected;
 - (_Bool);
 - (int);
 - (_Bool);
@@ -35,15 +33,12 @@
 - (id)"b1};
 - (id)ntSignals",&,N,V_independentSignal;
 - (id)ð¤t¥t¦¼¦ð¨ ©;
-- (void)R;
+- (void)ISOCOUNTRYCODE_CR;
 - (void);
 - (id)Aÿ;
 
 // Remaining properties
-@property(nonatomic) int alignment; // @synthesize alignment=_alignment;
-@property(nonatomic) _Bool hasAlignment;
 @property(copy, nonatomic) NSArray *identifiers; // @synthesize identifiers=_identifiers;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

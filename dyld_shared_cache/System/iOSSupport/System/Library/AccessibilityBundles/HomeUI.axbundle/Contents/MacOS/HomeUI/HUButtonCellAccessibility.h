@@ -12,7 +12,7 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void)Wx;
 - (unsigned long long);
 
 @end

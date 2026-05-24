@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, NSObject, NSString;
-@protocol HMDThreadRadioClient, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDThreadNetworkStatusReporter
 {
     unsigned long long _threadNetworkPeriodicCheckFrequencyInMins;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMDHome *_home;
-    id <HMDThreadRadioClient> _threadRadioClient;
 }
 
 + (id)lBB;
@@ -28,28 +25,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)S;
+- (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (id)Could not load metadata version info:(id)arg1 %@;
 - (id);
 - (id);
-- (id);
-- (void)xpired_BOOL;
+- (void)expired_BOOL;
 - (void)light slate gray;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long threadNetworkPeriodicCheckFrequencyInMins; // @synthesize threadNetworkPeriodicCheckFrequencyInMins=_threadNetworkPeriodicCheckFrequencyInMins;
-@property(readonly, nonatomic) id <HMDThreadRadioClient> threadRadioClient; // @synthesize threadRadioClient=_threadRadioClient;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

@@ -7,10 +7,13 @@
 @class NSArray;
 
 @protocol _INPBBool
++ (Class)4.4s
+;
+- (void);
+- (NSArray *);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *values;
-@property(readonly, nonatomic) unsigned long long valuesCount;
 @end
 

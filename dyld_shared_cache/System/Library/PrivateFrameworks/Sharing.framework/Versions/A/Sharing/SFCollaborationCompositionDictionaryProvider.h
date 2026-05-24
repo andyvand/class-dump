@@ -4,43 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DummySFCollaborationService, NSObject, NSString, SFCollaborationItemsProvider;
-@protocol OS_dispatch_queue, SFCollaborationCompositionDictionaryProviderDelegate;
+@class SFCollaborationItemsProvider;
 
 @interface SFCollaborationCompositionDictionaryProvider
 {
     SFCollaborationItemsProvider *_collaborationItemsProvider;
-    NSObject<OS_dispatch_queue> *_queue;
-    DummySFCollaborationService *_collaborationService;
-    id <SFCollaborationCompositionDictionaryProviderDelegate> _delegate;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void)ID;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id)e developer path ("%s") %s
+Use `sudo xcode-select --switch path/to/Xcode.app` to specify the Xcode that you wish to use for command line developer tools, or use `xcode-select --install` to install the standalone command line developer tools.
+See `man xcode-select` for more details.
+;
+- (void)accountID;
 
 // Remaining properties
 @property(retain, nonatomic) SFCollaborationItemsProvider *collaborationItemsProvider; // @synthesize collaborationItemsProvider=_collaborationItemsProvider;
-@property(retain, nonatomic) DummySFCollaborationService *collaborationService; // @synthesize collaborationService=_collaborationService;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) id <SFCollaborationCompositionDictionaryProviderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

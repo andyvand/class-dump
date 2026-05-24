@@ -5,15 +5,13 @@
 //
 
 @class NSString;
-@protocol TRIPaths;
 
 @interface TRILogTreatmentReader
 {
     int _projectId;
-    id <TRIPaths> _paths;
 }
 
-+ (id);
++ (id)uttonItem",&,N,V_primary_button;
 - (id);
 - (id);
 - (id);

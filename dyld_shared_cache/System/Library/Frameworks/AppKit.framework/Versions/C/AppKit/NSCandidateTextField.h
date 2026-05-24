@@ -6,44 +6,34 @@
 
 #import <AppKit/NSTextField.h>
 
-@class NSAttributedString, NSColor, NSImage;
+@class NSColor;
 
 __attribute__((visibility("hidden")))
 @interface NSCandidateTextField : NSTextField
 {
     NSColor *_candidateColor;
-    _Bool _trimOnLeft;
-    _Bool _trimOnRight;
-    NSImage *_candidateImage;
-    NSAttributedString *_candidateString;
-    long long correctionPanelType;
-    long long _correctionPanelType;
 }
 
 + (Class);
+- (_Bool)#;
 - (_Bool);
-- (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (long long);
-- (id);
+- (long long)nalRequest with nil request;
+- (id);
+- (id)P;
+- (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id)EB8E781FFE22747790FC22932B124FontPanelBIUSPopUpButton;
+- (id)_TtC6AppKitP33_05EA0EB8E781FFE22747790FC22932B124FontPanelBIUSPopUpButton;
 - (void)cusProxy didUpdateFocusInContext:(_Bool)arg1 ];
 
 // Remaining properties
-@property(retain) NSImage *candidateImage; // @synthesize candidateImage=_candidateImage;
-@property(retain) NSAttributedString *candidateString; // @synthesize candidateString=_candidateString;
-@property long long correctionPanelType; // @synthesize correctionPanelType=_correctionPanelType;
 @property _Bool trimOnLeft; // @synthesize trimOnLeft=_trimOnLeft;
-@property _Bool trimOnRight; // @synthesize trimOnRight=_trimOnRight;
 
 @end
 

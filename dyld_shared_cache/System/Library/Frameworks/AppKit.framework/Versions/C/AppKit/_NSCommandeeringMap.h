@@ -8,18 +8,16 @@ __attribute__((visibility("hidden")))
 @interface _NSCommandeeringMap
 {
     id _observerID;
-    CDUnknownBlockType _handler;
 }
 
-- (void);
+- (void)*__single);
 - (id);
 - (void);
 - (void)!àAùá3°1Â0@ù
 × ;
-- (CDUnknownBlockType)ce: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)initWithAppearance: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType handler; // @synthesize handler=_handler;
 @property id observerID; // @synthesize observerID=_observerID;
 
 @end

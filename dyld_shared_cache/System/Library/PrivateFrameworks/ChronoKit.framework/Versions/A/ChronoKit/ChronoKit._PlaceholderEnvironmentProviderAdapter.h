@@ -9,7 +9,6 @@
 @interface ChronoKit._PlaceholderEnvironmentProviderAdapter : ChronoKit.EnvironmentProvider
 {
     id _cancellable;
-    id _sourceEnvironmentProvider;
 }
 
 @end

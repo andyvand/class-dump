@@ -7,10 +7,6 @@
 @interface TextToSpeech.VoiceDatabase.Preferences
 {
     id _$lastLoadedOn_Storage;
-    id _$lock_lastLoadedOn;
-    id encoder;
-    id decoder;
-    id store;
 }
 
 @end

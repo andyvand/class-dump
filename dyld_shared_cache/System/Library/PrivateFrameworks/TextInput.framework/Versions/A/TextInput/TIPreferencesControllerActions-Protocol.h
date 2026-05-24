@@ -7,6 +7,10 @@
 @class NSArray;
 
 @protocol TIPreferencesControllerActions
+- (NSArray *);
+- (unsigned long long);
+- (_Bool)));
+- (void);
 - (void)¦;
 - (void)
 °
@@ -15,26 +19,20 @@
 - (struct CGPoint);
 - (void)t ;
 - (_Bool)mu;
-- (void)ectivity;
+- (void)subjectivity;
 - (_Bool)lethargy;
-- (void)l;
-- (void)e;
-- (_Bool);
-- (void)unctions;
-- (void)rus;
-- (struct CGPoint)nion;
-- (void)t;
-- (void)felt;
-- (void)ewSession;
+- (void)downhill;
+- (void)favorable;
+- (_Bool)internist;
+- (void)functions;
+- (void)virus;
+- (struct CGPoint)onion;
+- (void)installment;
+- (void)heartfelt;
+- (void)benami;
+- (void)DictationAsPrimaryInputModeResetAtNewSession;
 
 // Remaining properties
-@property(nonatomic) _Bool autocorrectionEnabled;
-@property(nonatomic) _Bool automaticMinimizationEnabled;
-@property(nonatomic) unsigned long long floatingKeyboardDockedEdge;
-@property(nonatomic) struct CGPoint floatingKeyboardPosition;
 @property(copy, nonatomic) NSArray *inputModeSelectionSequence;
-@property(nonatomic) struct CGPoint keyboardPosition;
-@property(nonatomic) _Bool keyboardShownByTouch;
-@property(nonatomic) _Bool predictionEnabled;
 @end
 

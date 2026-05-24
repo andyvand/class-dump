@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface AMSLookupItemArtwork
 {
@@ -22,10 +22,7 @@
 - (id)äÇÅÎÌ%',.jhcaB@KIXZQSpry{?=64èêáã§¥®¬ÀÂÉËÚØÓÑ½¿´¶òðûù&$/-ik`bACHJ[YRPsqzx<>57ëéâà¤¦­¯ÃÁÊÈÙÛÐÒ¾¼·µñóøú\^UW;920tv}nlge!#(*	;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *URLString;
 @property(readonly, nonatomic) NSDictionary *artworkDictionary; // @synthesize artworkDictionary=_artworkDictionary;
-@property(readonly, nonatomic) double height;
-@property(readonly, nonatomic) double width;
 
 @end
 

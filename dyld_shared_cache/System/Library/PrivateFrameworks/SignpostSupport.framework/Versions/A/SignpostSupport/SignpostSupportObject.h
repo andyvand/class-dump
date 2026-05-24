@@ -4,31 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface SignpostSupportObject
 {
     NSString *_subsystem;
-    NSString *_category;
-    double _timebaseRatio;
 }
 
 + (id);
 + (id);
 - (double);
 - (double);
-- (unsigned long long);
+- (unsigned long long)B;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)B;
 - (id);
 - (_Bool);
 - (double);
 - (unsigned long long);
 - (double);
 - (unsigned long long);
-- (id);
+- (id)qK;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -39,58 +37,37 @@
 - (double);
 - (double);
 - (_Bool);
-- (float);
+- (float)�#;
 - (_Bool);
+- (int);
+- (id);
+- (id);
+- (unsigned long long);
+- (void);
+- (id);
+- (unsigned long long);
+- (_Bool);
+- (unsigned long long);
+- (id)h;
+- (unsigned long long);
+- (id);
+- (_Bool);
+- (_Bool);
+- (id);
+- (int);
 - (int);
 - (id);
-- (id);
-- (unsigned long long);
-- (void);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (int);
-- (int);
-- (id);
-- (long long);
+- (long long);
 - (void);
 - (id);
 - (void);
 - (id);
+- (void)#;
 - (void);
-- (void);
-- (id);
+- (id)1;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *beginDate;
-@property(retain, nonatomic) NSString *category; // @synthesize category=_category;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned long long durationMachContinuousTime;
-@property(readonly, nonatomic) float durationSeconds;
-@property(readonly, nonatomic) NSDate *endDate;
-@property(readonly, nonatomic) unsigned long long endMachContinuousTime;
-@property(readonly, nonatomic) unsigned long long endNanoseconds;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long startMachContinuousTime;
-@property(readonly, nonatomic) unsigned long long startNanoseconds;
-@property(retain, nonatomic) NSString *subsystem; // @synthesize subsystem=_subsystem;
-@property(readonly) Class superclass;
-@property(nonatomic) double timebaseRatio; // @synthesize timebaseRatio=_timebaseRatio;
-@property(readonly, nonatomic) long long tv_sec;
-@property(readonly, nonatomic) int tv_usec;
-@property(readonly, nonatomic) int tz_dsttime;
-@property(readonly, nonatomic) int tz_minuteswest;
 
 @end
 

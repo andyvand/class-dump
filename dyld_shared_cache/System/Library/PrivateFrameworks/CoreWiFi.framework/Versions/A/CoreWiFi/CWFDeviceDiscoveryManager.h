@@ -4,25 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSObject, NSRegularExpression, NSString, RPCompanionLinkClient;
-@protocol OS_dispatch_queue, OS_dispatch_source;
-
 @interface CWFDeviceDiscoveryManager
 {
     unsigned long long _setupReason;
-    RPCompanionLinkClient *_rapportClient;
-    unsigned long long _rapportClientActivationFailCount;
-    NSMutableSet *_activeDevices;
-    NSMutableDictionary *_retryDevices;
-    NSObject<OS_dispatch_source> *_wifiInfoRetryRequestTimer;
-    NSObject<OS_dispatch_source> *_rapportTeardownTimer;
-    NSObject<OS_dispatch_queue> *_rapportQueue;
-    NSString *_thisDeviceMACAddress;
-    NSMutableSet *_delegates;
-    NSRegularExpression *_rapportErrorRegex;
 }
 
-- (id);
+- (id)˵B;
 - (id);
 - (void);
 - (unsigned long long);
@@ -37,7 +24,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)hb;
 - (id);
 - (unsigned long long);
 - (id);
@@ -45,12 +32,12 @@
 - (id);
 - (id);
 - (void);
+- (void)A;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)?;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -61,26 +48,16 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)metadataForGeneratedThumbnailForURL:(id)arg1 maximumDimension: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
+- (void)removeCustomAudioEvent:(id)arg1 reply: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableSet *activeDevices; // @synthesize activeDevices=_activeDevices;
-@property(retain, nonatomic) NSMutableSet *delegates; // @synthesize delegates=_delegates;
-@property(retain, nonatomic) RPCompanionLinkClient *rapportClient; // @synthesize rapportClient=_rapportClient;
-@property(nonatomic) unsigned long long rapportClientActivationFailCount; // @synthesize rapportClientActivationFailCount=_rapportClientActivationFailCount;
-@property(retain, nonatomic) NSRegularExpression *rapportErrorRegex; // @synthesize rapportErrorRegex=_rapportErrorRegex;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *rapportQueue; // @synthesize rapportQueue=_rapportQueue;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *rapportTeardownTimer; // @synthesize rapportTeardownTimer=_rapportTeardownTimer;
-@property(retain, nonatomic) NSMutableDictionary *retryDevices; // @synthesize retryDevices=_retryDevices;
 @property(nonatomic) unsigned long long setupReason; // @synthesize setupReason=_setupReason;
-@property(copy, nonatomic) NSString *thisDeviceMACAddress; // @synthesize thisDeviceMACAddress=_thisDeviceMACAddress;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *wifiInfoRetryRequestTimer; // @synthesize wifiInfoRetryRequestTimer=_wifiInfoRetryRequestTimer;
 
 @end
 

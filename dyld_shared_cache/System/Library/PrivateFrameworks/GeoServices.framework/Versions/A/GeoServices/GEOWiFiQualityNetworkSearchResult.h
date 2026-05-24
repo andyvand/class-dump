@@ -12,27 +12,27 @@
 }
 
 + (Class);
-+ (_Bool)alMuids:(id)arg1 count: /* Error: Ran out of types for this method. */;
++ (_Bool)setOriginalMuids:(id)arg1 count: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (void);
-- (void);
-- (id);
+- (void)IOSLegacyIdentifierRegistration>"16@0:8 /* Error: Ran out of types for this method. */;
+- (void)inProcessPreparationTaskWithRequest:(id)arg1;
+- (id)om property definitions in store;
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)startOfSpeechDetectedAtFrame:(id)arg1;
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)`;
+- (_Bool)F;
 - (void);
 - (id)0@ù
 × ;
 - (id)!ÐBùÑ¹*Ð1Â0@ù
 × ;
 - (void)void *>="__prev_"^v"__next_"^v}""{?="__size_"Q}}"_map"{unordered_map<_GEOTileKey, std:(id)arg1:__list_iterator<geo::detail::_CacheItem<_GEOTileKey, GEOTileData *, geo::detail::_GEOGenericContainer<_GEOTileKey, GEOTileData *, std::hash<GEOTileKey>, std::equal_to<GEOTileKey>, geo::GEOGenericContainerWeakReferenceTag, 0, 0>::_value_ptr>, void *>, std::hash<GEOTileKey>, std::equal_to<GEOTileKey>, std::allocator<std::pair<const _GEOTileKey, std::__list_iterator<geo::detail::_CacheItem<_GEOTileKey, GEOTileData *, geo::detail::_GEOGenericContainer<_GEOTileKey, GEOTileData *, std::hash<GEOTileKey>, std::equal_to<GEOTileKey>, geo::GEOGenericContainerWeakReferenceTag, 0, 0>::_value_ptr>, void *>>>>="__table_"{__hash_table<std::__hash_value_type<_GEOTileKey, std::__list_iterator<geo::detail::_CacheItem<_GEOTileKey, GEOTileData *, geo::detail::_GEOGenericContainer<_GEOTileKey, GEOTileData *, std::hash<GEOTileKey>, std::equal_to<GEOTileKey>, geo::GEOGenericContainerWeakReferenceTag, 0, 0>::_value_ptr>, void *>>, std::__unordered_map_hasher<_GEOTileKey, std::pair<const _GEOTileKey, std::__list_iterator<geo::detail::_CacheItem<_GEOTileKey, GEOTileData *, geo::detail::_GEOGenericContainer<_GEOTileKey, GEOTileData *, std::hash<GEOTileKey>, std::equal_to<GEOTileKey>, geo::GEOGenericContainerWeakReferenceTag, 0, 0>::_value_ptr>, void *>>, std::hash<GEOTileKey>, std::equal_to<GEOTileKey>>, std::__unordered_map_equal<_GEOTileKey, std::pair<const _GEOTileKey, std::__list_iterator<geo::detail::_CacheItem<_GEOTileKey, GEOTileData *, geo::detail::_GEOGenericContainer<_GEOTileKey, GEOTileData *, std::hash<GEOTileKey>, std::equal_to<GEOTileKey>, geo::GEOGenericContainerWeakReferenceTag, 0, 0>::_value_ptr>, void *>>, std::equal_to<GEOTileKey>, std::hash<GEOTileKey>>, std::allocator<std::pair<const _GEOTileKey, std::__list_iterator<geo::detail::_CacheItem<_GEOTileKey, GEOTileData *, geo::detail::_GEOGenericContainer<_GEOTileKey, GEOTileData *, std::hash<GEOTileKey>, std::equal_to<GEOTileKey>, geo::GEOGenericContainerWeakReferenceTag, 0, 0>::_value_ptr>, void *>>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<_GEOTileKey, std::__list_iterator<geo::detail::_CacheItem<_GEOTileKey, GEOTileData *, geo::detail::_GEOGenericContainer<_GEOTileKey, GEOTileData *, std::hash<GEOTileKey>, std::equal_to<GEOTileKey>, geo::GEOGenericContainerWeakReferenceTag, 0, 0>::_value_ptr>, void *>>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<_GEOTileKey, std::__list_iterator<geo::detail::_CacheItem<_GEOTileKey, GEOTileData *, geo::detail::_GEOGenericContainer<_GEOTileKey, GEOTileData *, std::hash<GEOTileKey>, std::equal_to<GEOTileKey>, geo::GEOGenericContainerWeakReferenceTag, 0, 0>::_value_ptr>, void *>>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<_GEOTileKey, std::__list_iterator<geo::detail::_CacheItem<_GEOTileKey, GEOTileData *, geo::detail::_GEOGenericContainer<_GEOTileKey, GEOTileData *, std::hash<GEOTileKey>, std::equal_to<GEOTileKey>, geo::GEOGenericContainerWeakReferenceTag, 0, 0>::_value_ptr>, void *>>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<_GEOTileKey, std::__list_iterator<geo::detail::_CacheItem<_GEOTileKey, GEOTileData *, geo::detail::_GEOGenericContainer<_GEOTileKey, GEOTileData *, std::hash<GEOTileKey>, std::equal_to<GEOTileKey>, geo::GEOGenericContainerWeakReferenceTag, 0, 0>::_value_ptr>, void *>>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}}"_maxCapacity"Q"_maxCost"Q"_currentCost"Q"_currentCount"Q} /* Error: Ran out of types for this method. */;
-- (id)FromAppEnabled;
+- (id)learnFromAppEnabled;
 - (id)SessionWithMaps;
 - (id)externalreqcountdata (    startTime REAL NOT NULL,    endTime REAL NOT NULL,    xmitbytes INT,    recvbytes INT,    interface INT,    appid TEXT NOT NULL,    requesttype TEXT NOT NULL,    requestsubtype TEXT,    source TEXT    );;
 - (void)ÿÿÿÿ;

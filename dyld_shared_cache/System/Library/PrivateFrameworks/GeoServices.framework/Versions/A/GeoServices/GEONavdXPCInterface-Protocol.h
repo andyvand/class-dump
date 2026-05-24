@@ -5,5 +5,6 @@
 //
 
 @protocol GEONavdXPCInterface
+- (void)$;
 @end
 

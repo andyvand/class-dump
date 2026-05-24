@@ -9,33 +9,27 @@
 @interface PKPeerPaymentAccountInvitation
 {
     NSString *_altDSID;
-    long long _status;
-    unsigned long long _registrationResult;
-    long long _remoteRegistrationRequestLevel;
 }
 
 + (_Bool);
-- (void);
+- (void)끘T)M;
 - (void);
 - (long long);
 - (id);
 - (id);
 - (void);
+- (unsigned long long)A;
 - (unsigned long long);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)"timestamp"b1"interfaceType"b1"protocolType"b1"requestType"b1};
+- (void)V_locationDBFR2Count;
+- (void);
 - (long long);
-- (id)ential:(id)arg1 revocationAttestation: /* Error: Ran out of types for this method. */;
-- (void)ialAction;
+- (id)initWithCredential:(id)arg1 revocationAttestation: /* Error: Ran out of types for this method. */;
+- (void)initialAction;
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(nonatomic) unsigned long long registrationResult; // @synthesize registrationResult=_registrationResult;
-@property(nonatomic) long long remoteRegistrationRequestLevel; // @synthesize remoteRegistrationRequestLevel=_remoteRegistrationRequestLevel;
-@property(nonatomic) long long status; // @synthesize status=_status;
 
 @end
 

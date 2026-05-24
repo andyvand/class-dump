@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ADMLoginPrefs, NSPopUpButton, NSSecureTextField, NSTextField, NSWindow;
+@class NSWindow;
 
 @interface ADMAutoLoginController
 {
     NSWindow *_autologinSheet;
-    NSPopUpButton *_autologinSheetPopUp;
-    NSSecureTextField *_autologinSheetPassword;
-    NSTextField *_autologinNameSingle;
-    NSTextField *_autologinSheetPasswordLabel;
-    long long _guestUserIndex;
-    ADMLoginPrefs *_loginPrefs;
 }
 
 + (id);
+- (void)7;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (long long);
-- (void);
+- (void)	;
 - (id);
 - (id);
 - (id);
@@ -40,14 +34,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSTextField *autologinNameSingle; // @synthesize autologinNameSingle=_autologinNameSingle;
-@property(retain) NSWindow *autologinSheet; // @synthesize autologinSheet=_autologinSheet;
-@property(retain) NSSecureTextField *autologinSheetPassword; // @synthesize autologinSheetPassword=_autologinSheetPassword;
-@property(retain) NSTextField *autologinSheetPasswordLabel; // @synthesize autologinSheetPasswordLabel=_autologinSheetPasswordLabel;
-@property(retain) NSPopUpButton *autologinSheetPopUp; // @synthesize autologinSheetPopUp=_autologinSheetPopUp;
 @property long long guestUserIndex; // @synthesize guestUserIndex=_guestUserIndex;
-@property(retain) ADMLoginPrefs *loginPrefs; // @synthesize loginPrefs=_loginPrefs;
-@property(readonly) unsigned long long numberOfAutologinUsers; // @dynamic numberOfAutologinUsers;
 
 @end
 

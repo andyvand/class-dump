@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKChangeListener, EKEventStore, NSMutableDictionary, NSMutableSet;
+@class EKEventStore, NSMutableSet;
 
 @interface CUIKEditingManager
 {
     NSMutableSet *_hiddenObjects;
-    NSMutableDictionary *_uuidAliases;
-    struct os_unfair_lock_s _lock;
-    EKEventStore *_eventStore;
-    NSMutableSet *_editingContextGroups;
-    EKChangeListener *_changeListener;
-    NSMutableDictionary *_changeHistory;
-    NSMutableDictionary *_changedObjectMap;
 }
 
 - (void);
@@ -45,7 +38,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (id);
@@ -53,28 +46,24 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)F;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
+- (void);
+- (id)menuFont;
+- (id)a;
+- (id);
+- (id);
 - (void);
+- (void)@;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void)ddingObject: /* Error: Ran out of types for this method. */;
+- (void)setByAddingObject: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSMutableDictionary *changeHistory; // @synthesize changeHistory=_changeHistory;
-@property(retain) EKChangeListener *changeListener; // @synthesize changeListener=_changeListener;
-@property(retain) NSMutableDictionary *changedObjectMap; // @synthesize changedObjectMap=_changedObjectMap;
-@property(retain) NSMutableSet *editingContextGroups; // @synthesize editingContextGroups=_editingContextGroups;
 @property __weak EKEventStore *eventStore; // @synthesize eventStore=_eventStore;
 
 @end

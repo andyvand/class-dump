@@ -9,7 +9,7 @@
 }
 
 - (id);
-- (id);
+- (id)setVideoCallToActionURL:(struct CGRect)arg1;
 - (void);
 
 @end

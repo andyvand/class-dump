@@ -10,9 +10,9 @@
 {
 }
 
-+ (Class);
++ (Class)_artworkColorAnalysisOperations;
 - (id);
-- (id)eferencePropagationHostComponent;
+- (id)_UISceneHostingViewControllerPreferencePropagationHostComponent;
 
 @end
 

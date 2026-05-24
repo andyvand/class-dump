@@ -5,5 +5,8 @@
 //
 
 @protocol TUScreenSharingRemoteControlProvider
+- (void);
+- (void)Q;
+- (void);
 @end
 

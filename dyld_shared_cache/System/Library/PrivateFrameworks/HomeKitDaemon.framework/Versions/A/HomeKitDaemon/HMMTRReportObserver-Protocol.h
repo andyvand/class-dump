@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MTRAttributeReport, NSDictionary;
+
 @protocol HMMTRReportObserver
+- (void)SPSharedTripGroupSession"16@"NSString"24;
+- (void)4;
+- (void)stopSharingWithReason:(MTRAttributeReport *)arg1 error:(NSDictionary *)arg2;
 @end
 

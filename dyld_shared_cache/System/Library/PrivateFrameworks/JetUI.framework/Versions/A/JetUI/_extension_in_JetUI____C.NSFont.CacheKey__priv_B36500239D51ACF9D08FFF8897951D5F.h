@@ -7,11 +7,10 @@
 @interface (extension in JetUI):__C.NSFont.CacheKey__priv_B36500239D51ACF9D08FFF8897951D5F
 {
     id textStyle;
-    id sizeCategory;
 }
 
-- (id);
-- (long long);
+- (id)kup.launcher;
+- (long long)ignoreLetMeInRequestsSubject;
 - (_Bool);
 - (void);
 

@@ -6,34 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface STSchemaTopicalityAttributes : SISchemaInstrumentationMessage
 {
     unsigned int _countAttributeQPQUMatch;
-    unsigned int _countAttributeQPQUprefixMatch;
-    unsigned int _countAttributeUnigramMatch;
-    unsigned int _countAttributeBigramMatch;
-    unsigned int _countAttributeNgramMatch;
-    unsigned int _countAttributeUnigramPrefixMatch;
-    unsigned int _countAttributeBigramPrefixMatch;
-    unsigned int _countAttributeNgramPrefixMatch;
-    float _unCalibratedEmbeddingSimilarity;
-    float _calibratedEmbeddingSimilarity;
-    NSString *_embeddingModelId;
-    struct {
-        unsigned int countAttributeQPQUMatch:1;
-        unsigned int countAttributeQPQUprefixMatch:1;
-        unsigned int countAttributeUnigramMatch:1;
-        unsigned int countAttributeBigramMatch:1;
-        unsigned int countAttributeNgramMatch:1;
-        unsigned int countAttributeUnigramPrefixMatch:1;
-        unsigned int countAttributeBigramPrefixMatch:1;
-        unsigned int countAttributeNgramPrefixMatch:1;
-        unsigned int unCalibratedEmbeddingSimilarity:1;
-        unsigned int calibratedEmbeddingSimilarity:1;
-    } _has;
-    _Bool _hasEmbeddingModelId;
 }
 
 - (void);
@@ -49,23 +24,23 @@
 - (void);
 - (void);
 - (void);
+- (void)x;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -74,9 +49,9 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned int);
@@ -94,39 +69,17 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)ror">24;
+- (_Bool)allowsScrolling;
+- (_Bool)message table.;
 - (id);
-- (id);
-- (id)uxBridgeContext;
-- (id)sSmsAttachmentMetadataTier1;
-- (void)istenForHeySiriEnabled;
+- (id)p;
+- (id)deleteMuxBridgeContext;
+- (id)_hasSmsAttachmentMetadataTier1;
+- (void)isAlwaysListenForHeySiriEnabled;
 
 // Remaining properties
-@property(nonatomic) float calibratedEmbeddingSimilarity; // @synthesize calibratedEmbeddingSimilarity=_calibratedEmbeddingSimilarity;
-@property(nonatomic) unsigned int countAttributeBigramMatch; // @synthesize countAttributeBigramMatch=_countAttributeBigramMatch;
-@property(nonatomic) unsigned int countAttributeBigramPrefixMatch; // @synthesize countAttributeBigramPrefixMatch=_countAttributeBigramPrefixMatch;
-@property(nonatomic) unsigned int countAttributeNgramMatch; // @synthesize countAttributeNgramMatch=_countAttributeNgramMatch;
-@property(nonatomic) unsigned int countAttributeNgramPrefixMatch; // @synthesize countAttributeNgramPrefixMatch=_countAttributeNgramPrefixMatch;
 @property(nonatomic) unsigned int countAttributeQPQUMatch; // @synthesize countAttributeQPQUMatch=_countAttributeQPQUMatch;
-@property(nonatomic) unsigned int countAttributeQPQUprefixMatch; // @synthesize countAttributeQPQUprefixMatch=_countAttributeQPQUprefixMatch;
-@property(nonatomic) unsigned int countAttributeUnigramMatch; // @synthesize countAttributeUnigramMatch=_countAttributeUnigramMatch;
-@property(nonatomic) unsigned int countAttributeUnigramPrefixMatch; // @synthesize countAttributeUnigramPrefixMatch=_countAttributeUnigramPrefixMatch;
-@property(copy, nonatomic) NSString *embeddingModelId; // @synthesize embeddingModelId=_embeddingModelId;
-@property(nonatomic) _Bool hasCalibratedEmbeddingSimilarity;
-@property(nonatomic) _Bool hasCountAttributeBigramMatch;
-@property(nonatomic) _Bool hasCountAttributeBigramPrefixMatch;
-@property(nonatomic) _Bool hasCountAttributeNgramMatch;
-@property(nonatomic) _Bool hasCountAttributeNgramPrefixMatch;
-@property(nonatomic) _Bool hasCountAttributeQPQUMatch;
-@property(nonatomic) _Bool hasCountAttributeQPQUprefixMatch;
-@property(nonatomic) _Bool hasCountAttributeUnigramMatch;
-@property(nonatomic) _Bool hasCountAttributeUnigramPrefixMatch;
-@property(nonatomic) _Bool hasEmbeddingModelId; // @synthesize hasEmbeddingModelId=_hasEmbeddingModelId;
-@property(nonatomic) _Bool hasUnCalibratedEmbeddingSimilarity;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) float unCalibratedEmbeddingSimilarity; // @synthesize unCalibratedEmbeddingSimilarity=_unCalibratedEmbeddingSimilarity;
 
 @end
 

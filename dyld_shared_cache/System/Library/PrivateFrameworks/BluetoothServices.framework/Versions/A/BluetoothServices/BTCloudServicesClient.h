@@ -4,47 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSXPCConnection, NSXPCListenerEndpoint;
-@protocol OS_dispatch_queue;
-
 @interface BTCloudServicesClient
 {
     _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    NSXPCConnection *_xpcCnx;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _interruptionHandler;
-    CDUnknownBlockType _invalidationHandler;
-    struct __SCDynamicStore *_systemConfigStore;
-    NSXPCListenerEndpoint *_testListenerEndpoint;
 }
 
-- (struct __SCDynamicStore *);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned int);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (struct __SCDynamicStore *)wf_stringByTrimmingTrailingCharactersInSet: /* Error: Ran out of types for this method. */;
+- (void)wf_securelyArchivedDataWithRootObject:(struct __SCDynamicStore *)arg1 fileCoder: /* Error: Ran out of types for this method. */;
+- (void)wf_localizedDisplayName;
+- (void)wf_linkMetadataIdentifier;
+- (void)wf_isUnsupportedUserInterfaceError;
+- (void)wf_isLinkEnabled;
+- (void)wf_initWithDaysAfterCurrentDate:(CDUnknownBlockType)arg1;
+- (void)wf_iconIsDefaultVisible;
+- (void)wf_fileIsOnSameVolumeAsURL:(id)arg1;
+- (void)wf_enumerateClassMethodsWithPrefix:(CDUnknownBlockType)arg1 usingBlock: /* Error: Ran out of types for this method. */;
+- (void)wfSerializedRepresentationWithPrivateItemIdentifiers;
+- (void)wfSerializedRepresentation;
+- (void)wfObjectOfClass:(CDUnknownBlockType)arg1 forKey: /* Error: Ran out of types for this method. */;
+- (void)wfNameWithMaximumFractionDigits:(id)arg1;
+- (void)webViewWebContentProcessDidTerminate:(CDUnknownBlockType)arg1;
+- (void)webView:(id)arg1 shouldGoToBackForwardListItem:(CDUnknownBlockType)arg2 willUseInstantBack:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)webView:(id)arg1 shouldGoToBackForwardListItem:(CDUnknownBlockType)arg2 willUseInstantBack:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)webView:(id)arg1 navigationResponse:(CDUnknownBlockType)arg2 didBecomeDownload: /* Error: Ran out of types for this method. */;
+- (unsigned int)webView:navigationAction:didBecomeDownload: /* Error: Ran out of types for this method. */;
+- (void)webView:(id)arg1 didStartProvisionalNavigation:(CDUnknownBlockType)arg2;
+- (void)webView:(id)arg1 didReceiveServerRedirectForProvisionalNavigation:(CDUnknownBlockType)arg2;
+- (void)webView:(id)arg1 didReceiveAuthenticationChallenge:(CDUnknownBlockType)arg2 completionHandler: /* Error: Ran out of types for this method. */;
+- (void)webView:(id)arg1 didFailProvisionalNavigation:(CDUnknownBlockType)arg2 withError: /* Error: Ran out of types for this method. */;
+- (void)webView:(id)arg1 didCommitNavigation:(CDUnknownBlockType)arg2;
+- (_Bool)waitUntilFinished;
+- (void)visitedStates;
 - (void);
 - (void);
 - (id);
@@ -54,20 +44,16 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (id);
-- (void)vailable;
+- (id)qa;
+- (void)_manateeAvailable;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType interruptionHandler; // @synthesize interruptionHandler=_interruptionHandler;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
 @property struct __SCDynamicStore *systemConfigStore; // @synthesize systemConfigStore=_systemConfigStore;
-@property(retain, nonatomic) NSXPCListenerEndpoint *testListenerEndpoint; // @synthesize testListenerEndpoint=_testListenerEndpoint;
 
 @end
 

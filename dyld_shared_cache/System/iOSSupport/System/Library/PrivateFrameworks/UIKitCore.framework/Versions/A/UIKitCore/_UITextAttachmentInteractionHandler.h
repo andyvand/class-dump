@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)@;
+- (id)sfers.;
+- (id)`;
 - (void)@!/3GG;
 
 // Remaining properties

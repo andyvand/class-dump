@@ -11,9 +11,10 @@
 + (Class);
 - (void);
 - (void *);
-- (id);
+- (id)n't allocate device for %s
+;
 - (int);
-- (id);
+- (id)=;
 
 @end
 

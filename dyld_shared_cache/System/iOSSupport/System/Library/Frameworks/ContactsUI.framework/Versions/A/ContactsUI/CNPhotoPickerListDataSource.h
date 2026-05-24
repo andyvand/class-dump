@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (struct CGSize);
++ (struct CGSize)`;
 + (double);
-- (unsigned long long);
-- (long long)adingLayoutMargin;
+- (unsigned long long);
+- (long long)cellLeadingLayoutMargin;
 
 @end
 

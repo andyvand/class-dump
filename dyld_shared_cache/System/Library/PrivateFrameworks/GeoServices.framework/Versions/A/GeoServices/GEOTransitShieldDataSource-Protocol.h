@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol GEOTransitShieldDataSource
 - (long long)1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *shieldColorString;
-@property(readonly, nonatomic) NSString *shieldText;
 @property(readonly, nonatomic) long long shieldType;
 @end
 

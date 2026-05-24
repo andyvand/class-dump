@@ -12,13 +12,13 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
+- (id)objectForKey:(id)arg1;
+- (id)fetchMessageRecordsForChatRecordWithGUID:(id)arg1 filteredUsingPredicate:sortedUsingDescriptors:limit:completionHandler: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)lE;
 - (id);
 - (id);
-- (CDUnknownBlockType);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id):(id)arg1 isSyncingEnabled %@ didRestore %@ accountsMatch %@ hasEnabled %@, MiC was enabled before uninstalling %@;
+- (id)econnectTimer]:%@ /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

@@ -7,8 +7,6 @@
 @interface AppStoreKit.SearchResultsContextCard
 {
     id automationMetadata;
-    id message;
-    id action;
 }
 
 @end

@@ -4,43 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, UITableView;
+@class NSObject, UITableView;
 @protocol CNPhotoPickerListCollectionViewCellDelegate;
 
 __attribute__((visibility("hidden")))
 @interface CNPhotoPickerListCollectionViewCell
 {
     NSObject<CNPhotoPickerListCollectionViewCellDelegate> *_selectionDelegate;
-    UITableView *_tableView;
-    struct UIEdgeInsets _contentInset;
 }
 
 + (id);
 - (double);
 - (void);
-- (id);
+- (id)R;
 - (void);
 - (id);
-- (long long);
-- (void);
+- (long long)planIdentifier;
+- (void)pleInternal/Library/BuildRoots/4~CNqXugB1VGBGxt45sY2ccG7b5IwaEdiue_L0728/Library/Caches/com.apple.xbs/TemporaryDirectory.QC0Hdk/Sources/SyncServices2/SyncServices/ISDEntity.m;
 - (struct UIEdgeInsets);
 - (void);
-- (id);
+- (id)setUpForFormatFrame:(struct CGRect)arg1;
 - (void)_lastShownOnboardingVersion;
-- (void)w15SlotCoordinator;
+- (void)_TtCV10ContactsUI21RepresentableSlotView15SlotCoordinator;
 - (id)ameProvider, me card will show shared profile photo and poster;
 - (void)#èÇ;
 
 // Remaining properties
-@property(nonatomic) struct UIEdgeInsets contentInset; // @synthesize contentInset=_contentInset;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSObject<CNPhotoPickerListCollectionViewCellDelegate> *selectionDelegate; // @synthesize selectionDelegate=_selectionDelegate;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) UITableView *tableView; // @synthesize tableView=_tableView;
 
 @end

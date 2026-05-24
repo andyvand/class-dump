@@ -7,10 +7,9 @@
 @class NSString;
 
 @protocol CNHandle
+- (NSString *)ComposeRecipientContactIdentifierAppEntityRepresentation;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *customIdentifier;
 @property(readonly, copy, nonatomic) NSString *stringValue;
-@property(readonly, nonatomic) unsigned long long type;
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol UIBarPositioningDelegate
+
+@optional
+- (long long);
 @end
 

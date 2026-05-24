@@ -7,11 +7,6 @@
 @interface NewsSubscription.PaywallEventHandler
 {
     id delegate;
-    id tracker;
-    id interactor;
-    id router;
-    id urlHandler;
-    id purchaseSessionID;
 }
 
 @end

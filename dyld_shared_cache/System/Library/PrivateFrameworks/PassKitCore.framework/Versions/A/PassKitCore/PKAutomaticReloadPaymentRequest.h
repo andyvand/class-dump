@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, PKAutomaticReloadPaymentSummaryItem;
+@class NSString;
 
 @interface PKAutomaticReloadPaymentRequest
 {
     NSString *_paymentDescription;
-    PKAutomaticReloadPaymentSummaryItem *_automaticReloadBilling;
-    NSString *_billingAgreement;
-    NSURL *_managementURL;
-    NSURL *_tokenNotificationURL;
 }
 
 + (id);
@@ -26,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
@@ -35,20 +31,16 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)hasCellularDataRxBytes;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)onDescription;
+- (void)applicationDescription;
 
 // Remaining properties
-@property(retain, nonatomic) PKAutomaticReloadPaymentSummaryItem *automaticReloadBilling; // @synthesize automaticReloadBilling=_automaticReloadBilling;
-@property(copy, nonatomic) NSString *billingAgreement; // @synthesize billingAgreement=_billingAgreement;
-@property(retain, nonatomic) NSURL *managementURL; // @synthesize managementURL=_managementURL;
 @property(copy, nonatomic) NSString *paymentDescription; // @synthesize paymentDescription=_paymentDescription;
-@property(retain, nonatomic) NSURL *tokenNotificationURL; // @synthesize tokenNotificationURL=_tokenNotificationURL;
 
 @end
 

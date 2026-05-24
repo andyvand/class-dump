@@ -23,18 +23,11 @@
 - (long long);
 - (id);
 - (void);
-- (id);
-- (id)yframeControllerSetupKeyTimesForPacedMode;
+- (id);
+- (id)C3DKeyframeControllerSetupKeyTimesForPacedMode;
 
 // Remaining properties
-@property(readonly, nonatomic) long long faceIndex;
-@property(readonly, nonatomic) long long geometryIndex;
-@property(readonly, nonatomic) struct _SCNVector3 localCoordinates;
-@property(readonly, nonatomic) struct _SCNVector3 localNormal;
-@property(readonly, nonatomic) struct CATransform3D modelTransform;
 @property(readonly, nonatomic) QCSCN_Node *node;
-@property(readonly, nonatomic) struct _SCNVector3 worldCoordinates;
-@property(readonly, nonatomic) struct _SCNVector3 worldNormal;
 
 @end
 

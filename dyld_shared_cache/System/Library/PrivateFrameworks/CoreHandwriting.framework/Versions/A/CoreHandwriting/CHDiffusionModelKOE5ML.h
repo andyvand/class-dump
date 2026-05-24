@@ -13,7 +13,7 @@
     VisionCoreE5RTInferenceFunctionDescriptor *_functionDescriptor;
 }
 
-+ (id);
++ (id)J0J0K0;
 + (id);
 + (id);
 + (id);

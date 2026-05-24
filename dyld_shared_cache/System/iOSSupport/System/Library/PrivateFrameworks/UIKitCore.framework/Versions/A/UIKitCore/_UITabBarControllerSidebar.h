@@ -6,39 +6,24 @@
 
 #import <UIKitCore/UITabBarControllerSidebar.h>
 
-@class NSArray, NSString, UIView;
-@protocol UIContentConfiguration, _UITabBarControllerSidebarDelegate;
-
 @interface _UITabBarControllerSidebar : UITabBarControllerSidebar
 {
     _Bool __visible;
-    _Bool __editable;
-    _Bool __editing;
-    NSString *__customizationIdentifier;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)_loadChatsIncludingAllChats:(_Bool)arg1;
+- (void)_highlightURLsForChatGUID;
+- (void)_acceptIncomingPushes;
+- (void)__stringByStrippingAttachmentAndControlCharacters;
+- (void)IMCloudKitErrorProgressTest;
 - (_Bool);
 - (void);
 - (_Bool);
-- (id)plementaryShown:shouldUseOverlay:dimMainIfNecessary: /* Error: Ran out of types for this method. */;
+- (id)_setPanelConfigurationWithIsPrimaryShown:isSupplementaryShown:shouldUseOverlay:dimMainIfNecessary: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void)ðÿyD;
 
 // Remaining properties
-@property(retain, nonatomic, setter=_setBottomBarView:) UIView *_bottomBarView; // @dynamic _bottomBarView;
-@property(copy, nonatomic, setter=_setCustomizationIdentifier:) NSString *_customizationIdentifier; // @synthesize _customizationIdentifier=__customizationIdentifier;
-@property(nonatomic, setter=_setDelegate:) __weak id <_UITabBarControllerSidebarDelegate> _delegate; // @dynamic _delegate;
-@property(nonatomic, getter=_isEditable, setter=_setEditable:) _Bool _editable; // @synthesize _editable=__editable;
-@property(nonatomic, getter=_isEditing, setter=_setEditing:) _Bool _editing; // @synthesize _editing=__editing;
-@property(copy, nonatomic, setter=_setFooterContentConfiguration:) id <UIContentConfiguration> _footerContentConfiguration; // @dynamic _footerContentConfiguration;
-@property(copy, nonatomic, setter=_setHeaderContentConfiguration:) id <UIContentConfiguration> _headerContentConfiguration; // @dynamic _headerContentConfiguration;
-@property(nonatomic, setter=_setPreferredLayout:) long long _preferredLayout; // @dynamic _preferredLayout;
-@property(copy, nonatomic, setter=_setToolbarItems:) NSArray *_toolbarItems; // @dynamic _toolbarItems;
 @property(nonatomic, getter=_isVisible, setter=_setVisible:) _Bool _visible; // @synthesize _visible=__visible;
 
 @end

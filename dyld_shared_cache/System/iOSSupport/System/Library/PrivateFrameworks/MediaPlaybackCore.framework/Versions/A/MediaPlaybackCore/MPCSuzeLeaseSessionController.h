@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface MPCSuzeLeaseSessionController
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    NSObject<OS_dispatch_queue> *_calloutQueue;
-    NSMapTable *_leaseIDToLeaseSessionInfo;
 }
 
 + (id);
-- (void);
+- (void)__TEXT;
 - (void);
 - (void);
 - (id);
 - (void)%p sectionID=%{public}@ error=%{public}@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

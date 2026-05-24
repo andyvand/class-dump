@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NSObject
+- (id);
+- (Class);
+- (unsigned long long)P;
+- (id)[G�A;
 - (_Bool)4@"UIGestureRecognizer"32@"PKAttachmentView"40;
 - (struct _NSZone *)d:%{BOOL}d /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

@@ -6,36 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class INFERENCESchemaINFERENCEPrivatizedHistoryStats, NSData;
-
 @interface INFERENCESchemaINFERENCEContactHandleSignalSet : SISchemaInstrumentationMessage
 {
     _Bool _isSuggestedHandle;
-    _Bool _isFavorite;
-    _Bool _isQueryExactMatch;
-    _Bool _isQueryMatch;
-    _Bool _isPartialQueryValueMatch;
-    INFERENCESchemaINFERENCEPrivatizedHistoryStats *_historyStats;
-    _Bool _isRecentInAnyGroup;
-    _Bool _isRecentInSameGroup;
-    _Bool _isPreferredType;
-    _Bool _isAllowedType;
-    _Bool _isFaceTimeable;
-    _Bool _isNotFaceTimeable;
-    struct {
-        unsigned int isSuggestedHandle:1;
-        unsigned int isFavorite:1;
-        unsigned int isQueryExactMatch:1;
-        unsigned int isQueryMatch:1;
-        unsigned int isPartialQueryValueMatch:1;
-        unsigned int isRecentInAnyGroup:1;
-        unsigned int isRecentInSameGroup:1;
-        unsigned int isPreferredType:1;
-        unsigned int isAllowedType:1;
-        unsigned int isFaceTimeable:1;
-        unsigned int isNotFaceTimeable:1;
-    } _has;
-    _Bool _hasHistoryStats;
 }
 
 - (void);
@@ -94,9 +67,9 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
-- (_Bool);
+- (void)openRecoveryKeyVerificationWindow:(_Bool)arg1 __JS_EXPORT_AS__openRecoveryKeyVerificationWindow: /* Error: Ran out of types for this method. */;
+- (void)featureName;
+- (_Bool)y copied to general pasteboard;
 - (id);
 - (id);
 - (void);
@@ -104,38 +77,14 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)ssistantDaemonAudioFetchRouteContext",&,N,V_assistantDaemonAudioFetchRouteContext;
 - (id)NETSchemaNETSessionConnectionSnapshotCaptured;
 - (void)r£";
 
 // Remaining properties
-@property(nonatomic) _Bool hasHistoryStats; // @synthesize hasHistoryStats=_hasHistoryStats;
-@property(nonatomic) _Bool hasIsAllowedType;
-@property(nonatomic) _Bool hasIsFaceTimeable;
-@property(nonatomic) _Bool hasIsFavorite;
-@property(nonatomic) _Bool hasIsNotFaceTimeable;
-@property(nonatomic) _Bool hasIsPartialQueryValueMatch;
-@property(nonatomic) _Bool hasIsPreferredType;
-@property(nonatomic) _Bool hasIsQueryExactMatch;
-@property(nonatomic) _Bool hasIsQueryMatch;
-@property(nonatomic) _Bool hasIsRecentInAnyGroup;
-@property(nonatomic) _Bool hasIsRecentInSameGroup;
-@property(nonatomic) _Bool hasIsSuggestedHandle;
-@property(retain, nonatomic) INFERENCESchemaINFERENCEPrivatizedHistoryStats *historyStats; // @synthesize historyStats=_historyStats;
-@property(nonatomic) _Bool isAllowedType; // @synthesize isAllowedType=_isAllowedType;
-@property(nonatomic) _Bool isFaceTimeable; // @synthesize isFaceTimeable=_isFaceTimeable;
-@property(nonatomic) _Bool isFavorite; // @synthesize isFavorite=_isFavorite;
-@property(nonatomic) _Bool isNotFaceTimeable; // @synthesize isNotFaceTimeable=_isNotFaceTimeable;
-@property(nonatomic) _Bool isPartialQueryValueMatch; // @synthesize isPartialQueryValueMatch=_isPartialQueryValueMatch;
-@property(nonatomic) _Bool isPreferredType; // @synthesize isPreferredType=_isPreferredType;
-@property(nonatomic) _Bool isQueryExactMatch; // @synthesize isQueryExactMatch=_isQueryExactMatch;
-@property(nonatomic) _Bool isQueryMatch; // @synthesize isQueryMatch=_isQueryMatch;
-@property(nonatomic) _Bool isRecentInAnyGroup; // @synthesize isRecentInAnyGroup=_isRecentInAnyGroup;
-@property(nonatomic) _Bool isRecentInSameGroup; // @synthesize isRecentInSameGroup=_isRecentInSameGroup;
 @property(nonatomic) _Bool isSuggestedHandle; // @synthesize isSuggestedHandle=_isSuggestedHandle;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

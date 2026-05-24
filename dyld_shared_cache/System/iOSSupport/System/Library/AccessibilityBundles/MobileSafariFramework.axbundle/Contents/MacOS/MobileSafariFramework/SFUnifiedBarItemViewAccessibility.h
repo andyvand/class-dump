@@ -11,10 +11,10 @@
 }
 
 + (Class);
-+ (id);
++ (id)keyEnumerator;
 + (void);
 - (id);
-- (id);
+- (id)PKPaymentSetupAssistantRegistrationViewControllerAccessibility;
 
 @end
 

@@ -7,25 +7,23 @@
 @interface OTWalrus
 {
     _Bool _enabled;
-    CDStruct_513ff01d _has;
 }
 
-- (void);
+- (void)<NSData %p | %u bytes> ;
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)served"I};
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)P;
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)?;
 
 // Remaining properties
-@property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
 @property(nonatomic) _Bool hasEnabled;
 
 @end

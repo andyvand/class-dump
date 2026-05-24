@@ -7,15 +7,6 @@
 @interface AWDIDSCloudLinkReEstablished
 {
     unsigned long long _linkTimeDelta;
-    unsigned long long _timestamp;
-    unsigned int _linkType;
-    unsigned int _priorLinkType;
-    struct {
-        unsigned int linkTimeDelta:1;
-        unsigned int timestamp:1;
-        unsigned int linkType:1;
-        unsigned int priorLinkType:1;
-    } _has;
 }
 
 - (void);
@@ -31,8 +22,8 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)?;
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -45,14 +36,7 @@
 - (unsigned int)¨°èÿ*n¢å;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLinkTimeDelta;
-@property(nonatomic) _Bool hasLinkType;
-@property(nonatomic) _Bool hasPriorLinkType;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long linkTimeDelta; // @synthesize linkTimeDelta=_linkTimeDelta;
-@property(nonatomic) unsigned int linkType; // @synthesize linkType=_linkType;
-@property(nonatomic) unsigned int priorLinkType; // @synthesize priorLinkType=_priorLinkType;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

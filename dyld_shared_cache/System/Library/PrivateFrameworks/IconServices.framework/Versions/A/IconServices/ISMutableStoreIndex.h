@@ -6,31 +6,26 @@
 
 #import <IconServices/ISStoreIndex.h>
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface ISMutableStoreIndex : ISStoreIndex
 {
     unsigned long long _initialCapacity;
-    NSObject<OS_dispatch_queue> *_serialQueue;
 }
 
-- (void);
+- (void)moveFile;
 - (_Bool);
 - (id);
-- (void);
-- (void);
+- (void)yB;
+- (void)`;
 - (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
-- (void);
+- (unsigned long long)eMainVolume=%1.10f;
+- (void);
 - (_Bool)ouldApplyMask;
 - (void)ß?Âß?Òß?ôß?à?à?&à?7à?Hà?Yà?zà?à?à?¬à?½à?Îà?ßà?;
 
 // Remaining properties
 @property(readonly) unsigned long long initialCapacity; // @synthesize initialCapacity=_initialCapacity;
-@property(readonly) NSObject<OS_dispatch_queue> *serialQueue; // @synthesize serialQueue=_serialQueue;
 
 @end
 

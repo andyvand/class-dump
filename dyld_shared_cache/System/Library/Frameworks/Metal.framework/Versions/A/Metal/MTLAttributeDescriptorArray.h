@@ -10,7 +10,7 @@
 
 + (id)ü0;
 + (id)ñÿ;
-- (void)ex:(id)arg1 bufferIndex:(unsigned long long)arg2 bufferOffset:length: /* Error: Ran out of types for this method. */;
+- (void)deallocBufferSubData:(id)arg1 heapIndex:(unsigned long long)arg2 bufferIndex:bufferOffset:length: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

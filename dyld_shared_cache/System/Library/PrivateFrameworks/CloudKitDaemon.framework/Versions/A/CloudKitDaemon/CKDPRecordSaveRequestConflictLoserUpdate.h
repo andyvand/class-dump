@@ -18,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)ime);
 - (_Bool);
 - (_Bool);
 - (void);

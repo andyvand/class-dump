@@ -10,17 +10,15 @@ __attribute__((visibility("hidden")))
 @interface GEOPDSearchTokenImportance
 {
     NSString *_token;
-    float _score;
-    CDStruct_f58e6c32 _flags;
 }
 
 - (id);
-- (void);
+- (void)ucture;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)"has_muid"b1"read_unknownFields"b1"read_name"b1"read_position"b1"read_styleAttributes"b1"wrote_anyField"b1};
-- (id)eplacementValueForFrequencyRange;
+- (id)_replacementValueForFrequencyRange;
 - (id)ì3À6;
 - (void);
 

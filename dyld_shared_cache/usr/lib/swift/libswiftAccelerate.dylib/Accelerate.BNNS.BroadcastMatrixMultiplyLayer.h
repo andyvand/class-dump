@@ -9,7 +9,6 @@
 @interface Accelerate.BNNS.BroadcastMatrixMultiplyLayer : Accelerate.BNNS.Layer
 {
     id aIsWeights;
-    id bIsWeights;
 }
 
 @end

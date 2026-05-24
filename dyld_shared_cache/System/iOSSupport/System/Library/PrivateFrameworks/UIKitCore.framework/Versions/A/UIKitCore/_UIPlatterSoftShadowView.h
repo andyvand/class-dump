@@ -6,35 +6,25 @@
 
 #import <UIKitCore/UIView.h>
 
-@class UIBezierPath, _UIPlatterShadowView;
-
 __attribute__((visibility("hidden")))
 @interface _UIPlatterSoftShadowView : UIView
 {
     _Bool _needsPunchOut;
-    UIBezierPath *_shadowPath;
-    UIView *_backgroundView;
-    _UIPlatterShadowView *_diffuseShadowView;
-    _UIPlatterShadowView *_rimShadowView;
 }
 
-- (void);
+- (void):(_Bool)arg1 8@16@24;
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (void)ronizeSystemAnimationFencesWithCleanUpBlock:(id)arg1;
+- (id)48;
+- (id)requestRoutingWithDowngradableServices:completion: /* Error: Ran out of types for this method. */;
+- (void)_messageRequestsServiceForSendingBypass: /* Error: Ran out of types for this method. */;
+- (void)synchronizeSystemAnimationFencesWithCleanUpBlock:(id)arg1;
 - (id)f);
 - (id)r=%li%@%@;
 - (void)P;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(readonly, nonatomic) _UIPlatterShadowView *diffuseShadowView; // @synthesize diffuseShadowView=_diffuseShadowView;
-@property(nonatomic) _Bool needsPunchOut; // @synthesize needsPunchOut=_needsPunchOut;
-@property(readonly, nonatomic) _UIPlatterShadowView *rimShadowView; // @synthesize rimShadowView=_rimShadowView;
-@property(copy, nonatomic) UIBezierPath *shadowPath; // @synthesize shadowPath=_shadowPath;
 
 @end
 

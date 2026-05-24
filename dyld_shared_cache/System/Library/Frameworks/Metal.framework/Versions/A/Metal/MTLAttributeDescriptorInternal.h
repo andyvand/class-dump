@@ -10,14 +10,12 @@ __attribute__((visibility("hidden")))
 @interface MTLAttributeDescriptorInternal : MTLAttributeDescriptor
 {
     unsigned long long _vertexFormat;
-    unsigned long long _offset;
-    unsigned long long _bufferIndex;
 }
 
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (void);
+- (void);
 - (void)setLabel:(unsigned long long)arg1;
 - (unsigned long long)escriptor.;
 - (void)+;

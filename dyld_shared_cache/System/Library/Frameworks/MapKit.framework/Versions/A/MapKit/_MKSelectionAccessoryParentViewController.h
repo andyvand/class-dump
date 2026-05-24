@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     MKPlaceCardRemoteUIHostViewController *_childViewController;
 }
 
-- (void);
+- (void)cleanCache;
 - (id);
 - (id);
 - (void);
-- (void)orth: /* Error: Ran out of types for this method. */;
+- (void)setSnappedToNorth: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) MKPlaceCardRemoteUIHostViewController *childViewController; // @synthesize childViewController=_childViewController;

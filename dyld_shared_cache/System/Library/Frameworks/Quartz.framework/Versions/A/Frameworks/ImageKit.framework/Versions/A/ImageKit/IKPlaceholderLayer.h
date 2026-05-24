@@ -11,13 +11,10 @@
 @interface IKPlaceholderLayer : IKNCustomLayer
 {
     CALayer *clipLayer;
-    CALayer *imageLayer;
-    CALayer *gradientLayer;
-    double progress;
 }
 
-- (id);
-- (void);
+- (id));
+- (void)writeData:(struct CGRect)arg1 error: /* Error: Ran out of types for this method. */;
 - (double);
 - (void);
 - (void)¨Ä;

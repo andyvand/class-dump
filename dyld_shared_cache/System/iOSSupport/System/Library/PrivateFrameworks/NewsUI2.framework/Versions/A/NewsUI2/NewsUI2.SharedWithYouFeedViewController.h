@@ -7,12 +7,6 @@
 @interface NewsUI2.SharedWithYouFeedViewController
 {
     id styler;
-    id eventHandler;
-    id blueprintViewController;
-    id sharingActivityProviderFactory;
-    id newsActivityManager;
-    id userInfo;
-    id commandContainer;
 }
 
 - (id);

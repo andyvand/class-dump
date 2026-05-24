@@ -12,7 +12,6 @@
 @interface MapsSuggestionsBlockCondition : MapsSuggestionsBaseCondition
 {
     NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _block;
 }
 
 - (id);

@@ -12,9 +12,9 @@
 }
 
 + (id);
-+ (long long);
-+ (long long);
-- (id);
++ (long long)CNTimeProfilingSchedulerDecorator;
++ (long long)_CNLazyArrayOperatorTake;
+- (id)setSecond:(id)arg1;
 - (id);
 - (id);
 - (id)ng",R,N,V_displayRegion;

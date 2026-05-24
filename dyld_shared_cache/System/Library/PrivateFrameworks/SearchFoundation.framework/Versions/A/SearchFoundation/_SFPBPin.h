@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBColor, _SFPBLatLng;
+@class _SFPBLatLng;
 
 @interface _SFPBPin
 {
     int _pinBehavior;
-    _SFPBLatLng *_location;
-    _SFPBColor *_pinColor;
-    NSString *_label;
-    NSString *_resultID;
-    NSData *_mapsData;
-    NSString *_pinText;
 }
 
 - (void);
@@ -32,8 +26,8 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)predicateWithFormat:(id)arg1;
+- (id)suggestion:found a matching suggestion (%@) - unique suggestion matching NLP Context /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -43,21 +37,7 @@
 - (void)2»$;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
 @property(retain, nonatomic) _SFPBLatLng *location; // @synthesize location=_location;
-@property(copy, nonatomic) NSData *mapsData; // @synthesize mapsData=_mapsData;
-@property(nonatomic) int pinBehavior; // @synthesize pinBehavior=_pinBehavior;
-@property(retain, nonatomic) _SFPBColor *pinColor; // @synthesize pinColor=_pinColor;
-@property(copy, nonatomic) NSString *pinText; // @synthesize pinText=_pinText;
-@property(copy, nonatomic) NSString *resultID; // @synthesize resultID=_resultID;
-@property(readonly) Class superclass;
 
 @end
 

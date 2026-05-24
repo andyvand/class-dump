@@ -4,35 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSString;
-@protocol HMBAPSConnection;
-
 @interface HMBCloudPushHandler
 {
     struct os_unfair_lock_s _lock;
-    struct os_unfair_lock_s _apsLock;
-    id <HMBAPSConnection> _apsConnection;
-    NSMapTable *_bundleIdentifiersByObservers;
 }
 
-+ (id);
-+ (id)eychainAvailability;
++ (id)at sending device capabilities or share/zone usage to the server will be in %{public}@.;
++ (id)waitForKeychainAvailability;
 - (void);
 - (void);
+- (void)_addCustomResponseToDb:(id)arg1 reply:(id)arg2 language:embedding:sentAt:recipient:messagesRowId:onError: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
+- (void)4;
 - (void);
 - (id)Ô ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

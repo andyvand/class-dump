@@ -4,43 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEODataRequest, GEODataURLSession, GEODataURLSessionTask, NSData, NSObject, NSString, NSURL;
-@protocol GEOSimpleTileRequesterOperationDelegate, OS_dispatch_queue, OS_os_activity;
+@class GEODataRequest;
 
 __attribute__((visibility("hidden")))
 @interface _GEOSimpleTileRequesterOperation
 {
     GEODataRequest *_request;
-    NSData *_data;
-    GEODataURLSessionTask *_task;
-    NSString *_responseEtag;
-    struct _GEOTileKey _key;
-    _GEOSimpleTileRequesterOperation *_baseTile;
-    _GEOSimpleTileRequesterOperation *_localizationTile;
-    id <GEOSimpleTileRequesterOperationDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    NSObject<OS_os_activity> *_activity;
-    NSObject<OS_os_activity> *_parentTileActivity;
-    double _timeout;
-    double _startTime;
-    double _endTime;
-    GEODataURLSession *_dataSession;
-    unsigned long long _signpostID;
-    int _attempts;
-    int _checksumMethod;
-    _Atomic unsigned int _priority;
-    _Bool _finished;
-    _Bool _existingCachedDataCurrent;
-    NSString *_requestingBundleId;
-    NSString *_requestingBundleVersion;
-    double _tileLoaderCreateTime;
-    _Bool _shouldDownloadToDisk;
-    _Bool _isRunning;
 }
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -50,18 +24,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (double);
 - (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
+- (id)(=;
 - (id);
 - (void);
 - (_Bool);
+- (id);
+- (_Bool)$;
 - (void);
+- (id);
+- (void)ic}@;
+- (_Bool);
 - (void);
+- (void)!;
 - (id);
 - (id);
 - (id);
@@ -69,13 +43,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (struct _GEOTileKey);
+- (id)__TEXT;
+- (void);
+- (void)_setZoomScale:(id)arg1 centerCoordinate:duration:animated: /* Error: Ran out of types for this method. */;
+- (void)t={CGPoint=dd}{CGSize=dd}}8#40;
 - (id);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (void);
+- (void)P;
 - (void);
 - (id);
 - (void);
@@ -85,9 +59,9 @@ __attribute__((visibility("hidden")))
 - (unsigned long long)ñ¹*Ð1Â0@ù
 × ;
 - (id)ead_mapsId"b1"wrote_anyField"b1};
-- (id)tionDetailsTargetId:(id)arg1;
-- (void)s;
-- (unsigned long long)oupIdentifier;
+- (id)setHasPlaceCardPlaceActionDetailsTargetId:(id)arg1;
+- (void)hasMapSettingsAvoidHighways;
+- (unsigned long long)_tileGroupIdentifier;
 - (int)T­8°L¹º¬»H½ÌÃÄ$ÅôÅ¸ÆPÇxÈ`ÊË|Í;
 - (void)ve:(id)arg1 %@);
 - (double)lÄ;
@@ -96,40 +70,7 @@ __attribute__((visibility("hidden")))
 - (unsigned int)®Gáz$@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *URL;
-@property(retain, nonatomic) NSObject<OS_os_activity> *activity; // @synthesize activity=_activity;
-@property(retain, nonatomic) _GEOSimpleTileRequesterOperation *baseTile; // @synthesize baseTile=_baseTile;
-@property(readonly, nonatomic) unsigned long long contentLength;
-@property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(retain, nonatomic) GEODataURLSession *dataSession; // @synthesize dataSession=_dataSession;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) __weak id <GEOSimpleTileRequesterOperationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSURL *downloadedFileURL;
-@property(readonly, nonatomic, getter=isExistingCachedDataCurrent) _Bool existingCachedDataCurrent; // @synthesize existingCachedDataCurrent=_existingCachedDataCurrent;
-@property(readonly, nonatomic) _Bool finished; // @synthesize finished=_finished;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) int httpResponseStatusCode;
-@property(nonatomic) struct _GEOTileKey key; // @synthesize key=_key;
-@property(retain, nonatomic) _GEOSimpleTileRequesterOperation *localizationTile; // @synthesize localizationTile=_localizationTile;
-@property(retain, nonatomic) NSObject<OS_os_activity> *parentTileActivity; // @synthesize parentTileActivity=_parentTileActivity;
-@property unsigned int priority;
 @property(readonly, nonatomic) GEODataRequest *request; // @synthesize request=_request;
-@property(retain, nonatomic) NSString *requestingBundleId; // @synthesize requestingBundleId=_requestingBundleId;
-@property(retain, nonatomic) NSString *requestingBundleVersion; // @synthesize requestingBundleVersion=_requestingBundleVersion;
-@property(retain, nonatomic) NSString *responseEtag; // @synthesize responseEtag=_responseEtag;
-@property(readonly, nonatomic) _Bool responseIsCacheable;
-@property(readonly, nonatomic) unsigned long long responseMaxAge;
-@property(nonatomic) _Bool shouldDownloadToDisk; // @synthesize shouldDownloadToDisk=_shouldDownloadToDisk;
-@property(nonatomic) unsigned long long signpostID; // @synthesize signpostID=_signpostID;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) GEODataURLSessionTask *task; // @synthesize task=_task;
-@property(nonatomic) double tileLoaderCreateTime; // @synthesize tileLoaderCreateTime=_tileLoaderCreateTime;
-@property(nonatomic) double timeout; // @synthesize timeout=_timeout;
 
 @end
 

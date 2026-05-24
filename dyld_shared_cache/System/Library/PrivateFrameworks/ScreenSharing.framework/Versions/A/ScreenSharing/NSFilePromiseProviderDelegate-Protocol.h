@@ -5,5 +5,6 @@
 //
 
 @protocol NSFilePromiseProviderDelegate
+- (void)K1J;
 @end
 

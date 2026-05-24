@@ -26,11 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly) unsigned long long numCameraAccessories;
-@property(readonly) unsigned long long numCameraAccessoriesRecordingEnabled;
-@property(readonly) unsigned long long numCriticalSensorAccessories;
-@property(readonly) unsigned long long numHAPAccessories;
-@property(readonly) unsigned long long numSecurityClassAccessories;
 
 @end
 

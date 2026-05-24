@@ -4,36 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WFContextualAction, _NSShortcutsQuickAction;
-@protocol NSServicesRequestor, _NSQuickActionItemSource;
+@protocol _NSQuickActionItemSource;
 
 __attribute__((visibility("hidden")))
 @interface _NSShortcutsQuickActionInvocation
 {
     id <_NSQuickActionItemSource> _itemSource;
-    id <NSServicesRequestor> _requestor;
-    WFContextualAction *_action;
-    _NSShortcutsQuickAction *_quickAction;
-    _Bool _notifiedWillPerform;
-    _NSShortcutsQuickActionInvocation *_self;
 }
 
 - (void);
-- (id);
-- (void);
+- (id)with signature (success);
+- (void)lNumber:(id)arg1 cfScreenSN %@;
 - (id);
 - (void);
 - (void);
 - (void)changes to this document, click Edit.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,8 +4,8 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMapTable, NSString, NSTextStorage, UIDragInteraction, UIDragItem, UIDropInteraction, UITargetedDragPreview, UITextDraggableGeometrySameViewDropOperationResult, UITextDropProposal, UITextPasteController, UITextRange, UIView, _UITextDragCaretView;
-@protocol UIDragSession, UIDropSession, UITextDragSupporting><UITextDropSupporting, UITextDraggableGeometry, UITextDraggableGeometrySameViewDropOperation, UITextDropPasteSession;
+@class UIView;
+@protocol UITextDragSupporting><UITextDropSupporting;
 
 __attribute__((visibility("hidden")))
 @interface UITextDragAssistant
@@ -32,48 +32,23 @@ __attribute__((visibility("hidden")))
         unsigned int defaultDropHandling:1;
         unsigned int didHandleSameViewDropOperation:1;
     } _flags;
-    id <UITextDraggableGeometry> _geometry;
-    id <UIDragSession> _currentDragSession;
-    UIDragInteraction *_currentDragInteraction;
-    NSArray *_draggedTextRanges;
-    UITextRange *_initialDragSelectedRange;
-    struct CGPoint _initialDragLocation;
-    NSArray *_movedItemsInView;
-    NSMapTable *_targetedPreviewProviders;
-    NSMapTable *_previewProviders;
-    NSTextStorage *_observingStorage;
-    id <UIDropSession> _currentDropSession;
-    _UITextDragCaretView *_dropCaret;
-    UITextRange *_currentDropRange;
-    UIDragItem *_topmostDropItem;
-    UITargetedDragPreview *_topmostDropPreview;
-    UITextDropProposal *_currentDropProposal;
-    UITextRange *_preDropSelectionRange;
-    id <UITextDraggableGeometrySameViewDropOperation> _sameViewDropOperation;
-    UITextDraggableGeometrySameViewDropOperationResult *_sameViewDropOperationResult;
-    UITextPasteController *_dropPasteController;
-    id <UITextDropPasteSession> _dropPasteSession;
-    CDUnknownBlockType _delayedPreviewProvider;
-    UIView<UITextDragSupporting><UITextDropSupporting> *_view;
-    UIDragInteraction *_dragInteraction;
-    UIDropInteraction *_dropInteraction;
 }
 
 - (long long);
-- (long long);
-- (id);
+- (long long);
+- (id)ContentFilter;
 - (void);
 - (void);
 - (void);
+- (_Bool)i24@0:8@16 /* Error: Ran out of types for this method. */;
+- (void)setShowsRouteButton:(id)arg1;
+- (id)_sectionDataSources;
+- (void)_lastSectionContentItemID;
+- (id)and;
 - (_Bool);
-- (void);
 - (id);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
+- (void)tput device volume:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)to mutate immutable change details;
 - (void);
 - (void);
 - (id);
@@ -99,16 +74,16 @@ __attribute__((visibility("hidden")))
 - (void)youtEngineHostConstraints"b1"isExpectingToFlushPendingLayoutChangeNotifications"b1"invalidatesIntrinsicContentSizeForSubviewAutoLayoutChanges"b1"systemLayoutFittingSizeNeedsUpdate"b1"systemLayoutFittingSizeNeedsUpdateInWholeSubtree"b1"isCalculatingSystemLayoutFittingSize"b1"suppressEncapsulationConstraints"b1"suppressAutoresizingMaskConstraintsUpdate"b1"isFetchingSizeForTAMIC_NOEngineHost"b1"internallyHiddenForReason"b2"stayHiddenAfterBeingInternallyHiddenForReason"b1"skippedPreLayoutWhileInternallyHiddenForReason"b1"skippedLayoutWhileInternallyHiddenForReason"b1"isPendingHiddenForAnimation"b1"hasMaskView"b1"isSettingMaskView"b1"hasVisualAltitude"b1"hasBackdropMaskViews"b1"backdropMaskViewFlags"b5"delaysTouchesForSystemGestures"b1"subclassShouldDelayTouchForSystemGestures"b1"hasMotionEffects"b1"backdropOverlayMode"b2"tintAdjustmentMode"b2"isReferenceView"b1"focusState"b2"hasUserInterfaceIdiom"b1"userInterfaceIdiom"b3"ancestorDefinesTintColor"b1"ancestorDefinesTintAdjustmentMode"b1"ancestorIgnoresInvertColors"b1"needsUpdateProperties"b1"needsTraitCollectionDidChangePropagation"b1"isRootOfTraitCollectionDidChangePropagation"b1"implementsTraitCollectionForChildEnvironment"b1"implementsBaselineOffsetsAtSize"b1"coloredViewBounds"b1"coloredAlignmentRects"b1"preservesSuperviewMargins"b4"insettingLayoutMarginsFromSafeArea"b4"safeAreaInsetsFrozen"b1"viewDelegateContentOverlayInsetsAreClean"b1"hasGeometryObservers"b1"notifyObserversForBaselineChanges"b1"notifySuperviewForBaselineChanges"b1"observingGeometryChangesForSelfCount"b4"isObservingBoundingPathRotationNotificationsForWindow"b1"hasTraitStorageList"b1"cachedTraitCollectionIsValid"b1"hasTraitOverrides"b1"dontUpdateInferredLayoutMargins"b1"areLayoutMarginsDirectional"b1"implementsViewForBaselineLayout"b1"tracksFocusedAncestors"b1"hasLayoutArrangements"b1"isHiddenManagedByLayoutArrangement"b1"hasAddedFocusGuides"b1"hasFocusSpeedBumpEdges"b1"hasFocusableContentMargins"b1"focusInteractionDisabled"b1"shouldReverseLayoutDirection"b1"cannotBeParentTraitEnvironment"b1"needsContentsFormatUpdate"b1"accessibilityIgnoresInvertColors"b1"ignoresLayerTransformForSafeAreaInsets"b1"accessibilityInterfaceStyleIntent"b2"accessibilityResolvedInterfaceStyle"b2"shouldArchiveUIAppearanceTags"b1"wantsDeepColorDrawing"b1"preferredContentsFormat"b3"sceneDraggingBehaviorOnPan"b2"tagEnabled"b1"chargeSet"b1"ignoreBackdropViewsWhenHiding"b1"hasInteractionsArray"b1"hasHitTestDirectionalInsets"b1"hasLayoutDebuggingIdentifier"b1"hasAppIntentsIntelligenceProvider"b1"hasContentSizeNotificationToken"b1"hasPresentationControllerToNotifyOnLayoutSubviews"b1"hasWritingToolsCoordinator"b1"semanticContentAttribute"b3"hasDynamicBackgroundColor"b1"forceEffectiveThemeDidChange"b1"allowsHighContrastForBackgroundColor"b1"hasPendingTraitStorageConstraints"b1"hasPendingLayoutAfterTraitStorageConstraintsUpdate"b1"hasEverBeenInAWindow"b1"hasFocusGroupIdentifier"b2"hasFocusGroupPriority"b1"hasFocusEffect"b2"conformsToUIFocusItemScrollableContainer"b2"allowsSkippingLayout"b1"isResolvingTraitCollection"b1"needsLayoutAndDisplayOnTintColorChanges"b1"subviewNeedsAnimationRestorationMessage"b1"isHostingTrackingForAnimationRestoration"b1"implementsFocusItemsInRect"b1"isPrivateSubview"b1"wasPrivateSubview"b1"shouldAdaptToMaterials"b1"hasMultiLayerDelegate"b1"useMinimumSafeArea"b1"useMinimumSafeAreaFrozen"b1"minimumSafeAreaAccessed"b1"minimumSafeAreaIsClassicSafeArea"b1"minimumSafeAreaNeedsUpdate"b1"mt_hasCustomizedCaptureGroup"b1"mt_backgroundMergeBehavior"b2"shouldContinueRemovingFromSuperview"b1"isMaskingIntermediateLayer"b1"hasLayoutRules"b1"needsCornersUpdate"b1"invalidatesCornersForGeometryChange"b1"suppressesBackground"b1"glassBackgroundNeedsUpdate"b1"hasChildrenRequestingSubduing"b1"safeAreaCornerAdaptation"b3"isRenderedHorizontallyFlipped"b1"needsLayoutDuringTransactionCommitting"b1"selfOrDescendantNeedsToBeNotifiedOfVisibilityChange"b1"isInHiddenAncestor"b1};
 - (_Bool)te>"16@0:8 /* Error: Ran out of types for this method. */;
 - (void)UIControlEventsGestureRecognizerDelegate>";
-- (void)tsDictationHandlingMethods;
+- (void)delegateImplementsDictationHandlingMethods;
 - (void)orReordering:(unsigned long long)arg1 animator:(id)arg2 animationHandler:(id)arg3;
-- (id)te:(id)arg1 alpha: /* Error: Ran out of types for this method. */;
-- (_Bool)dItemSufficientlyIntersectsPresentedView;
-- (void)w:(unsigned long long)arg1;
+- (id)_flatImageWithWhite:(id)arg1 alpha: /* Error: Ran out of types for this method. */;
+- (_Bool)_autoDismissIfFocusedItemSufficientlyIntersectsPresentedView;
+- (void)setPinchShadow:(unsigned long long)arg1;
 - (id)@"UITapGestureRecognizer",&,N,V_selectGestureRecognizer;
 - (void)NSString",&,N,V_keycapsFallback;
-- (id)ntainerView;
-- (id)ityHUDPositionManager;
-- (id)7CF9F242_UITextFormattingViewControllerDelegateBox;
+- (id)_existingSelectionContainerView;
+- (id)UIAccessibilityHUDPositionManager;
+- (id)_TtC5UIKitP33_B50EEBA0FD25BA8C617D8B9D7A7CF9F242_UITextFormattingViewControllerDelegateBox;
 - (id);
 - (void)4;
 - (long long) ;
@@ -118,8 +93,8 @@ __attribute__((visibility("hidden")))
 - (id)tionTitleAppearanceDefaultLargeSubtitleTextAttributesWithProvider(_UINavigationBarTitleFontProvider *__strong);
 - (_Bool)ernal inconsistency:(id)arg1 the current index path of an inserted shadow update should never be nil;
 - (void)CollectionViewUpdateExpandCollapseAnimationContext> _Nonnull)_block_invoke_3;
-- (void)LightControlSymbolActiveColor;
-- (void)olor;
+- (void)UIKBEmojiLightControlSymbolActiveColor;
+- (void)tableSeparatorLightColor;
 - (void)>;
 - (_Bool)ontroller hierarchy.;
 - (id)nalScrollView"16^B24;
@@ -130,7 +105,7 @@ __attribute__((visibility("hidden")))
 - (id)3yÂ;
 - (id)þ;
 - (void);
-- (void)yle;
+- (void)ItemStyle;
 - (id)e[;
 - (void);
 - (void);
@@ -149,18 +124,6 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isDragActive) _Bool dragActive;
-@property(readonly, nonatomic) __weak UIDragInteraction *dragInteraction; // @synthesize dragInteraction=_dragInteraction;
-@property(readonly, nonatomic, getter=isDropActive) _Bool dropActive;
-@property(readonly, nonatomic) __weak UIDropInteraction *dropInteraction; // @synthesize dropInteraction=_dropInteraction;
-@property(readonly, nonatomic) id <UITextDraggableGeometry> geometry;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) __weak UIView<UITextDragSupporting><UITextDropSupporting> *view; // @synthesize view=_view;
 
 @end

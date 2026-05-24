@@ -8,8 +8,8 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id)rocessSwitcherListElementController;
++ (id)oller",&,N,S_setKeyboardFocusedApplicationController:(id)arg1 ,V__keyboardFocusedApplicationController;
 + (id);
 - (id);
 

@@ -9,8 +9,6 @@
 @interface LUIAuthenticationManager
 {
     LUIAuthenticationServiceProvider *_localAuth_ServiceProvider;
-    LUIAuthenticationServiceProvider *_continuity_ServiceProvider;
-    LUIAuthenticationServiceProvider *_smartcard_ServiceProvider;
 }
 
 + (_Bool);
@@ -19,12 +17,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)j;
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)jN;
 - (void);
 - (void);
 - (void);
@@ -34,9 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) LUIAuthenticationServiceProvider *continuity_ServiceProvider; // @synthesize continuity_ServiceProvider=_continuity_ServiceProvider;
 @property(retain) LUIAuthenticationServiceProvider *localAuth_ServiceProvider; // @synthesize localAuth_ServiceProvider=_localAuth_ServiceProvider;
-@property(retain) LUIAuthenticationServiceProvider *smartcard_ServiceProvider; // @synthesize smartcard_ServiceProvider=_smartcard_ServiceProvider;
 
 @end
 

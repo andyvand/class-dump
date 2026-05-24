@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PETRawMessage;
-
 @interface PETAggregationKey
 {
     double _bucket;
-    unsigned int _datestamp;
-    PETRawMessage *_rawMessage;
-    int _type;
-    struct {
-        unsigned int bucket:1;
-        unsigned int datestamp:1;
-        unsigned int type:1;
-    } _has;
 }
 
 - (id);
@@ -32,30 +22,23 @@
 - (_Bool);
 - (double);
 - (void);
-- (void);
+- (void)EKUICompositeGadget;
 - (id);
 - (unsigned int);
 - (void);
 - (_Bool);
 - (id);
 - (int);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)tion identifier could not be created with record's source identifier and record's source client identifier. Record source identifier:(int)arg1 %{public}@. Record source client identifier:%{public}@. /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) double bucket; // @synthesize bucket=_bucket;
-@property(nonatomic) unsigned int datestamp; // @synthesize datestamp=_datestamp;
-@property(nonatomic) _Bool hasBucket;
-@property(nonatomic) _Bool hasDatestamp;
-@property(readonly, nonatomic) _Bool hasRawMessage;
 @property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) PETRawMessage *rawMessage; // @synthesize rawMessage=_rawMessage;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

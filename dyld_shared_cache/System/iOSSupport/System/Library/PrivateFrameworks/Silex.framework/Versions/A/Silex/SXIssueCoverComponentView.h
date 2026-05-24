@@ -6,13 +6,11 @@
 
 #import <Silex/SXComponentView.h>
 
-@class UIView;
 @protocol SXIssueCoverViewProvider;
 
 @interface SXIssueCoverComponentView : SXComponentView
 {
     id <SXIssueCoverViewProvider> _viewProvider;
-    UIView *_coverView;
 }
 
 - (void);
@@ -26,7 +24,6 @@
 - (void)Wà;
 
 // Remaining properties
-@property(retain, nonatomic) UIView *coverView; // @synthesize coverView=_coverView;
 @property(readonly, nonatomic) id <SXIssueCoverViewProvider> viewProvider; // @synthesize viewProvider=_viewProvider;
 
 @end

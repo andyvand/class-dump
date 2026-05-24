@@ -4,56 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFAnalyticsEvent, AFAnalyticsTurnBasedInstrumentationContext, AFAudioPowerUpdater, AFCallSiteInfo, AFInstanceContext, AFSpeechRequestOptions, NSArray, NSMutableData, NSMutableDictionary, NSObject, NSSet, NSString, NSXPCConnection;
-@protocol AFDictationDelegate, OS_dispatch_group, OS_dispatch_queue, OS_dispatch_source;
+@class NSXPCConnection;
 
 @interface AFDictationConnection
 {
     NSXPCConnection *_connection;
-    NSString *_lastUsedLanguage;
-    NSSet *_knownOfflineInstalledLanguages;
-    id <AFDictationDelegate> _delegate;
-    AFCallSiteInfo *_initiationCallSiteInfo;
-    AFAudioPowerUpdater *_inputAudioPowerUpdater;
-    _Bool _isCapturingSpeech;
-    _Bool _hasActiveRequest;
-    _Bool _isWaitingForAudioFile;
-    _Bool _recognizingIncrementally;
-    _Bool _shouldClassifyIntent;
-    _Bool _shouldRecognizeCommands;
-    NSObject<OS_dispatch_group> *_speechCallbackGroup;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    NSObject<OS_dispatch_source> *_timeoutTimer;
-    NSObject<OS_dispatch_source> *_bufferTimer;
-    _Bool _forceOfflineRecognition;
-    AFSpeechRequestOptions *_stopOptions;
-    NSMutableData *_buffer;
-    double _audioStartTime;
-    double _amountDataSent;
-    _Bool _narrowband;
-    NSString *_requestIdString;
-    NSArray *_previouslyRecognizedPhrases;
-    NSString *_onDeviceDictationUIInteractionIdentifier;
-    AFInstanceContext *_instanceContext;
-    AFAnalyticsEvent *_preheatEvent;
-    AFAnalyticsTurnBasedInstrumentationContext *_intstrumentationContext;
-    _Bool _isDetectingUtterances;
-    NSMutableDictionary *_languagesLoggingInfo;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
 }
 
++ (void)ngDeviceWebService;
 + (void);
-+ (void);
 + (_Bool);
++ (_Bool)markedAsReadForMessageGUID:success:queryID: /* Error: Ran out of types for this method. */;
 + (_Bool);
-+ (_Bool);
-- (void);
+- (void)@"PKPaymentProvisioningControllerCredentialQueue",R,N,V_credentialProvisioningQueue;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)mocking applet from SE;
+- (void). section=%@ otherSection=%@;
+- (void)PKSharingForceNilVehicleDataInPreTrackRequestKey;
+- (void)l-numbers;
+- (void)shareURL;
 - (void);
 - (void);
 - (void);
@@ -64,27 +33,27 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (float);
 - (void);
-- (void);
+- (void)@9;
 - (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)o;
 - (void);
 - (id);
 - (float);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -115,34 +84,34 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)characterSetWithCharactersInString:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void)@80@88Q96@104q112@120@128@136@144@152@160@168q176@184@192@200@208I216@220q228{_NSRange=QQ}236@252@260@268@276Q284@292@300;
+- (void);
+- (void);
+- (void);
+- (void)downloadedFromCloudKitSuccessfully;
+- (void)R:(CDUnknownBlockType)arg1 AR;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -153,20 +122,12 @@
 - (void)Reranking;
 - (void)commandGrammarParsePackage;
 - (void)"8;
-- (id)cked;
+- (id)isCallerIDBlocked;
 - (id)lu %@);
 - (void)stitial Style;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AFDictationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

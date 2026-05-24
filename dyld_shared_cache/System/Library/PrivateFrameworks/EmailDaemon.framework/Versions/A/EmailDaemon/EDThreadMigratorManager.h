@@ -4,36 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface EDThreadMigratorManager
 {
     NSMutableDictionary *_threadMigrators;
-    NSMutableDictionary *_queryHandlers;
-    struct os_unfair_lock_s _lock;
 }
 
 + (id)tÐ!èBù³Ð1Â0@ù
 × ;
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)UsoEntityBuilder_appleWriting_WritingAttribute;
 - (void)e_donations_identified_item_started_at_index
           ON indexing_analytics_message_donations_identified(item, started_at);;
 - (void)$l;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

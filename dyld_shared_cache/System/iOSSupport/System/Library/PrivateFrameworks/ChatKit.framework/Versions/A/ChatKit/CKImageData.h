@@ -4,36 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURL, UIImage;
+@class NSData;
 
 @interface CKImageData
 {
     _Bool _initializedProperties;
-    NSData *_data;
-    long long _orientation;
-    UIImage *_image;
-    unsigned long long _count;
-    NSURL *_url;
-    struct CGImageSource *_imageSource;
-    struct CGSize _pxSize;
 }
 
 + (id);
 + (_Bool)¥91;
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (struct CGSize);
-- (void);
-- (void);
+- (id)canZoomIn;
+- (id)canUpdateFullscreenSketchAttachment:(struct CGSize)arg1;
+- (id)canMoveAddOrDeleteContents;
+- (id)canInsertInlineAttachmentType:(struct CGSize)arg1 intoNote:parentAttachment: /* Error: Ran out of types for this method. */;
+- (id)canInsertInlineAttachmentType:(struct CGSize)arg1 intoNote:parentAttachment: /* Error: Ran out of types for this method. */;
+- (id)canConvertLinkAtLocationToAttachment:(unsigned long long)arg1;
+- (struct CGSize)_shouldIncludeDefaultFolder;
+- (void)ICMonostyledBorderColor;
+- (void)_TtC7NotesUIP33_D37299C035145D658E3B6DC04AF9ADBF19ResourceBundleClass;
 - (struct CGSize);
 - (struct CGSize);
 - (_Bool);
 - (id);
-- (id);
+- (id)K;
 - (id);
 - (id);
 - (id);
@@ -46,7 +39,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (long long);
 - (id);
 - (id);
@@ -58,24 +51,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *MIMEType;
-@property(readonly, copy, nonatomic) NSString *UTIType;
-@property(nonatomic) unsigned long long count; // @synthesize count=_count;
 @property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(nonatomic) struct CGImageSource *imageSource; // @synthesize imageSource=_imageSource;
-@property(nonatomic) _Bool initializedProperties; // @synthesize initializedProperties=_initializedProperties;
-@property(nonatomic) long long orientation; // @synthesize orientation=_orientation;
-@property(readonly, nonatomic) struct CGSize ptSize;
-@property(nonatomic) struct CGSize pxSize; // @synthesize pxSize=_pxSize;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

@@ -4,35 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface PKPredefinedSharedEntitlementSelection
 {
     NSString *_identifier;
-    NSString *_localizedTitle;
-    NSString *_localizedPreshareDescription;
-    NSString *_localizedPostshareDescription;
-    NSString *_iconName;
-    NSArray *_sharedEntitlements;
 }
 
 - (id);
 - (id);
 - (id);
+- (id)W;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)k;
-- (id)firmedSingleCard;
+- (void)ok;
+- (id)fraudConfirmedSingleCard;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *iconName; // @synthesize iconName=_iconName;
 @property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) NSString *localizedPostshareDescription; // @synthesize localizedPostshareDescription=_localizedPostshareDescription;
-@property(readonly, nonatomic) NSString *localizedPreshareDescription; // @synthesize localizedPreshareDescription=_localizedPreshareDescription;
-@property(readonly, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
-@property(readonly, nonatomic) NSArray *sharedEntitlements; // @synthesize sharedEntitlements=_sharedEntitlements;
 
 @end
 

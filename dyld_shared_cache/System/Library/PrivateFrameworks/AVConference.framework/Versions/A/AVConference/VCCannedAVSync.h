@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface VCCannedAVSync
 {
     double _base;
-    double _modulo;
 }
 
 + (id);
@@ -22,7 +21,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) double base; // @synthesize base=_base;
-@property(nonatomic) double modulo; // @synthesize modulo=_modulo;
 
 @end
 

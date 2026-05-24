@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface RBSProcessBeforeTranslocationBundlePathPredicate : RBSProcessStringPredicate
 {
     NSString *_beforeTranslocationBundlePath;
-    struct os_unfair_lock_s _lock;
 }
 
 - (id);

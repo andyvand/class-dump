@@ -5,12 +5,10 @@
 //
 
 @class TRIDatabase;
-@protocol TRITaskSetProviding;
 
 @interface TRITaskDatabase
 {
     TRIDatabase *_db;
-    id <TRITaskSetProviding> _taskSetProvider;
 }
 
 - (struct _PASDBTransactionCompletion_);
@@ -22,20 +20,21 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (id)calculating size of item:(id)arg1 %@. %@;
 - (id);
+- (id)abs %llu (kernel leaf frame 0x%llx, user leaf frame 0x%llx)
+;
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (int);
-- (unsigned long long);
-- (id);
+- (unsigned long long)NSNumber",R,N,V_averageMemoryLimitHeadroomMiB;
+- (id)markLivePhotoPairingIdentifierAsCheckedWithValue: /* Error: Ran out of types for this method. */;
 - (id)@ù
 × ;
 - (void)!(Fù!Ð1Â0@ù
 × ;
-- (struct _PASDBTransactionCompletion_)dynamic_enrollment;
+- (struct _PASDBTransactionCompletion_)retargeting_by_dynamic_enrollment;
 
 @end
 

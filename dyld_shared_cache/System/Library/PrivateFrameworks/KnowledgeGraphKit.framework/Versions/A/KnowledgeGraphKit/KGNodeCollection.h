@@ -12,14 +12,14 @@
 
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)VSSubscriptionSourceKindPropertyListValueTransformer;
 - (void);
 - (void);
 

@@ -14,7 +14,7 @@
 - (struct CGSize);
 - (void);
 - (id);
-- (void)ousOutlineIconForURL:isBroadcast:outImageName:incomplete: /* Error: Ran out of types for this method. */;
+- (void)synchronousOutlineIconForURL:isBroadcast:outImageName:incomplete: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property __weak EKUIDividedGridViewController *viewController; // @synthesize viewController=_viewController;

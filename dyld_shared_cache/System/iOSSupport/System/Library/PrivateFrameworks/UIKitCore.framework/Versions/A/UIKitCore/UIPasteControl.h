@@ -12,30 +12,26 @@
 @interface UIPasteControl : UIControl
 {
     _UISecureController *_secureController;
-    _Bool _pasteboardObserved;
-    _Bool _internallyEnabled;
-    UIPasteControlConfiguration *_configuration;
-    id <UIPasteConfigurationSupporting> _target;
 }
 
 - (_Bool);
-- (_Bool);
+- (_Bool)b;
 - (unsigned int);
 - (id);
 - (void);
 - (id);
 - (void);
-- (struct CGSize);
+- (struct CGSize)newBufferWithBytesNoCopy:(struct CGSize)arg1 length:options:deallocator: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (struct CGSize);
 - (void)1Â0@ù
 × ;
-- (void)cationInWindow:(id)arg1 withWindowBounds: /* Error: Ran out of types for this method. */;
+- (void)determineWindowSectionWithLocationInWindow:(id)arg1 withWindowBounds: /* Error: Ran out of types for this method. */;
 - (id)"_UIContentUnavailableWrapperView",&,N,V_contentUnavailableWrapperView;
 - (void)rdui;
-- (id)ntWhiteColor;
+- (id)__halfTransparentWhiteColor;
 - (void)Gÿ×\d;
 - (id)Ó¬If;
 - (void)ø9g;

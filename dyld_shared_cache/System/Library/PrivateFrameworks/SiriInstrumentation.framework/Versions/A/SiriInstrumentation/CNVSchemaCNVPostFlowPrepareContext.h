@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class CNVSchemaCNVPostFlowPrepareEnded, CNVSchemaCNVPostFlowPrepareStarted, NSData;
+@class CNVSchemaCNVPostFlowPrepareStarted;
 
 @interface CNVSchemaCNVPostFlowPrepareContext : SISchemaInstrumentationMessage
 {
     CNVSchemaCNVPostFlowPrepareStarted *_startedOrChanged;
-    CNVSchemaCNVPostFlowPrepareEnded *_ended;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -28,25 +24,20 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)(a;
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)`;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)ression";
-- (id)maMHAssistantDaemonAudioSessionSetInactiveStarted;
+- (id)MHSchemaMHAssistantDaemonAudioSessionSetInactiveStarted;
 - (id)¬åèå;
 - (void)8¼´ÿÇ;
 
 // Remaining properties
-@property(retain, nonatomic) CNVSchemaCNVPostFlowPrepareEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) CNVSchemaCNVPostFlowPrepareStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

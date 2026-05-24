@@ -6,37 +6,28 @@
 
 #import <PhotosGraph/PGAbstractSuggester.h>
 
-@class NSArray, NSEnumerator, NSString, PGSuggestionOptions;
+@class PGSuggestionOptions;
 
 @interface PGRecentFavoriteSuggester : PGAbstractSuggester
 {
     PGSuggestionOptions *_options;
-    NSArray *_suggestedAssets;
-    NSEnumerator *_suggestedAssetEnumerator;
 }
 
-+ (id);
++ (id)extrasMenuBarController;
 + (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (id)_elementCacheLock;
+- (_Bool)ause request already pending;
 - (id);
 - (void);
-- (void)nReview;
+- (void)YearInReview;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool lastSuggestionWasColliding;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSUUID, WTContext;
-
 @interface UIWritingToolsCoordinatorContext
 {
     struct _NSRange _proposedRange;
-    WTContext *_wtContext;
-    struct _NSRange _resolvedRange;
 }
 
 - (struct _NSRange);
 - (id);
-- (void);
+- (void)erval:(struct _NSRange)arg1 %f) - found message:%@ similar to:%@ /* Error: Ran out of types for this method. */;
 - (struct _NSRange);
-- (void);
-- (id);
+- (void);
+- (id)%@;
 - (id);
 - (struct _NSRange)!ÐAù±g1Â0@ù
 × ;
@@ -27,12 +23,7 @@
 - (void)°4_;
 
 // Remaining properties
-@property(retain, nonatomic, setter=_setWTContext:) WTContext *_wtContext; // @synthesize _wtContext;
-@property(readonly, copy, nonatomic) NSAttributedString *attributedString;
 @property(nonatomic, setter=_setEvaluatedRange:) struct _NSRange evaluatedRange;
-@property(readonly, nonatomic) NSUUID *identifier;
-@property(readonly, nonatomic) struct _NSRange range;
-@property(readonly, nonatomic) struct _NSRange resolvedRange; // @synthesize resolvedRange=_resolvedRange;
 
 @end
 

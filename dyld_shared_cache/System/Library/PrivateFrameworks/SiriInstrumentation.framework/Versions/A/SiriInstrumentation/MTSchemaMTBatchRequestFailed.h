@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class MTSchemaMTError, NSData;
-
 @interface MTSchemaMTBatchRequestFailed : SISchemaInstrumentationMessage
 {
     unsigned int _numParagraphFailures;
-    MTSchemaMTError *_error;
-    struct {
-        unsigned int numParagraphFailures:1;
-    } _has;
-    _Bool _hasError;
 }
 
 - (void);
@@ -27,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)o/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/evp/p5_crpt.c;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -36,16 +29,12 @@
 - (id)
 × ;
 - (id)sCirAlertKgWaBoost;
-- (id)00Meters;
+- (id)deleteLocationAffinity300Meters;
 - (void)MWTSchemaMWTFormatCodec;
 - (void)Âí";
 - (_Bool)p¤õÿ>õ°P%;
 
 // Remaining properties
-@property(retain, nonatomic) MTSchemaMTError *error; // @synthesize error=_error;
-@property(nonatomic) _Bool hasError; // @synthesize hasError=_hasError;
-@property(nonatomic) _Bool hasNumParagraphFailures;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned int numParagraphFailures; // @synthesize numParagraphFailures=_numParagraphFailures;
 
 @end

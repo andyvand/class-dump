@@ -4,70 +4,49 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, GEOMapRegion, GEOPDMapsIdentifier, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPFeedbackLayoutConfigParameters
 {
     PBDataReader *_reader;
-    GEOLatLng *_coordinate;
-    GEOMapRegion *_mapRegion;
-    GEOPDMapsIdentifier *_mapsId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _formType;
-    struct {
-        unsigned int has_formType:1;
-        unsigned int read_coordinate:1;
-        unsigned int read_mapRegion:1;
-        unsigned int read_mapsId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)RoadsByMuid:(id)arg1;
-- (void);
++ (_Bool)setJoinAllRoadsByMuid:(id)arg1;
+- (void)fetchContainersMatchingPredicate:(int)arg1;
 - (_Bool);
 - (id);
 - (int);
 - (void);
 - (int);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)sharedAggregator;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)nameSuffix;
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (id)etId"b1};
-- (id)mes;
+- (id)arrivalTimes;
 - (id)xç;
-- (id)niusTitle;
-- (_Bool)taRequestBEGIN;
+- (id)routeGeniusTitle;
+- (_Bool)GEOPPTTest_PlaceRequestTicket_PlaceDataRequestBEGIN;
 - (id)T\Ðr;
 - (void)êÉM@;
 - (void)øAA333333,@;
 
 // Remaining properties
-@property(retain, nonatomic) GEOLatLng *coordinate;
-@property(nonatomic) int formType;
-@property(readonly, nonatomic) _Bool hasCoordinate;
 @property(nonatomic) _Bool hasFormType;
-@property(readonly, nonatomic) _Bool hasMapRegion;
-@property(readonly, nonatomic) _Bool hasMapsId;
-@property(retain, nonatomic) GEOMapRegion *mapRegion;
-@property(retain, nonatomic) GEOPDMapsIdentifier *mapsId;
 
 @end
 

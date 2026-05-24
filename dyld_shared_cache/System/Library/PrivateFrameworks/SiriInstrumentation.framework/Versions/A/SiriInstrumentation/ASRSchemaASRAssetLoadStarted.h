@@ -6,23 +6,20 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ASRSchemaASRAssetLoadStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
-- (id);
+- (void);
+- (id)nectionID;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id)mentScoresReported: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)setTurnRestatementScoresReported: /* Error: Ran out of types for this method. */;
 - (id)l;
 - (id);
 - (_Bool)ø;
@@ -31,8 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -11,7 +11,7 @@
 + (double);
 + (double);
 + (double);
-+ (double);
++ (double)>;;
 + (double);
 + (struct UIEdgeInsets);
 + (double);
@@ -30,6 +30,7 @@
 + (double);
 + (double);
 + (double);
++ (double);
 + (double);
 + (double);
 + (double);
@@ -38,18 +39,17 @@
 + (double);
 + (double);
 + (double);
++ (double)f;
 + (double);
 + (double);
 + (double);
++ (double);
 + (double);
-+ (double);
-+ (double);
-+ (double);
-+ (double);
++ (double)N;
 + (struct CGSize);
 + (double);
 + (double);
-+ (struct CGSize);
++ (struct CGSize));
 
 @end
 

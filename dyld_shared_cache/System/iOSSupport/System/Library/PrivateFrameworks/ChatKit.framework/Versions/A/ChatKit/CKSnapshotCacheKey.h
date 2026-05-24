@@ -9,14 +9,12 @@
 @interface CKSnapshotCacheKey
 {
     NSString *_identifier;
-    long long _interfaceStyle;
-    struct CGRect _bounds;
 }
 
-+ (id);
++ (id)ICMFontPanelWillChangeFontNotification;
+- (id)`;
 - (id);
-- (id);
-- (struct CGRect);
+- (struct CGRect)T;
 - (_Bool);
 - (void);
 - (void);
@@ -24,16 +22,13 @@
 × ;
 - (id)Q1Â0@ù
 × ;
-- (id)Display;
+- (id)isLocationAvailableForDisplay;
 - (void);
 - (void)03æÿ%j¼3æÿj4æÿ;
-- (long long)PickerMaskedViewContainer;
+- (long long)TapbackPickerMaskedViewContainer;
 
 // Remaining properties
-@property(nonatomic) struct CGRect bounds; // @synthesize bounds=_bounds;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) long long interfaceStyle; // @synthesize interfaceStyle=_interfaceStyle;
-@property(readonly, nonatomic) NSString *stringValue;
 
 @end
 

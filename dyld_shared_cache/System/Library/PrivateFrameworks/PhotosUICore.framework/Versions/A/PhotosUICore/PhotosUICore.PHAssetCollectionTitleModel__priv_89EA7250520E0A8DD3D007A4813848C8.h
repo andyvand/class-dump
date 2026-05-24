@@ -7,14 +7,6 @@
 @interface PhotosUICore.PHAssetCollectionTitleModel__priv_89EA7250520E0A8DD3D007A4813848C8
 {
     id _title;
-    id _subtitle;
-    id _symbolName;
-    id assetCount;
-    id additionalInfo;
-    id assetCollection;
-    id displayIntent;
-    id photoLibraryObservation;
-    id _$observationRegistrar;
 }
 
 @end

@@ -6,49 +6,38 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, _UIPassthroughScrollInteraction;
-
 __attribute__((visibility("hidden")))
 @interface _UIContextMenuContainerView : UIView
 {
     _Bool _lastHitTestWasPassedThroughToInteraction;
-    _Bool _inPassthroughViewHitTest;
-    _Bool _didDismiss;
-    _UIPassthroughScrollInteraction *_passthroughInteraction;
-    _Bool _passesBackgroundViewTouchesThrough;
-    _Bool _allowsDragEventsToPassthrough;
-    UIView *_contentWrapperView;
-    CDUnknownBlockType _dismissalHandler;
-    CDUnknownBlockType _subtreeTraitPropagationHandler;
-    CDUnknownBlockType _sizeChangeHandler;
 }
 
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)40q48@"NSArray"56B64B68;
+- (void)ing"44@"NSString"52@?<v@?>60;
+- (void)"32@"NSNumber"40;
+- (void)sendResourceAtURL:(id)arg1 metadata:toDestinations:priority:options:identifier:error: /* Error: Ran out of types for this method. */;
+- (void)entHandler:(_Bool)arg1;
+- (_Bool)endTransfer: /* Error: Ran out of types for this method. */;
+- (id)_generatePreviewForTransfer:(struct CGRect)arg1 message:(_Bool)arg2;
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void), don't wake me up. ;
+- (void)essing for Message GUID:(id)arg1 %@;
+- (void)nding read receipts to process after storage timer fired, delaying by 15s;
+- (void)q;
 - (void);
 - (void);
 - (void);
 - (id);
-- (CDUnknownBlockType)ileScale: /* Error: Ran out of types for this method. */;
-- (void)emoveGuideAndConstraintGroupsAsNecessary;
-- (void)PasteButton;
+- (CDUnknownBlockType)setCurrentTileScale: /* Error: Ran out of types for this method. */;
+- (void)_removeGuideAndConstraintGroupsAsNecessary;
+- (void)_UISecurePasteButton;
 - (void)Ó;
 - (_Bool);
-- (void)ISheetPresentationMetricsC;
+- (void)So27_UISheetPresentationMetricsC;
 - (_Bool)ùp;
 - (void)m];
 - (_Bool)0ÊÕÿoèÚ`;
@@ -56,19 +45,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)Ñÿ}Ødc;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsDragEventsToPassthrough; // @synthesize allowsDragEventsToPassthrough=_allowsDragEventsToPassthrough;
 @property(nonatomic) __weak UIView *contentWrapperView; // @synthesize contentWrapperView=_contentWrapperView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType dismissalHandler; // @synthesize dismissalHandler=_dismissalHandler;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool passesBackgroundViewTouchesThrough; // @synthesize passesBackgroundViewTouchesThrough=_passesBackgroundViewTouchesThrough;
-@property(copy, nonatomic) CDUnknownBlockType sizeChangeHandler; // @synthesize sizeChangeHandler=_sizeChangeHandler;
-@property(copy, nonatomic) CDUnknownBlockType subtreeTraitPropagationHandler; // @synthesize subtreeTraitPropagationHandler=_subtreeTraitPropagationHandler;
-@property(readonly) Class superclass;
 
 @end
 

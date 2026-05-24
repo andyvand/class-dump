@@ -9,7 +9,6 @@
 @interface TRIFBCloudKitAssetRecordAssetBuilder
 {
     AFBBufferBuilder *_owner;
-    struct CloudKitAssetRecordAssetBuilder *_bldr;
 }
 
 - (void);

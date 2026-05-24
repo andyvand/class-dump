@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (double);
-- (_Bool);
-- (_Bool);
+- (_Bool)setSelectedOrigin: /* Error: Ran out of types for this method. */;
+- (_Bool)setSchedulingPriority: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)pe:(struct _NSZone *)arg1;
+- (id)didDeleteBackwardCount:(struct _NSZone *)arg1 withType: /* Error: Ran out of types for this method. */;
 
 @end
 

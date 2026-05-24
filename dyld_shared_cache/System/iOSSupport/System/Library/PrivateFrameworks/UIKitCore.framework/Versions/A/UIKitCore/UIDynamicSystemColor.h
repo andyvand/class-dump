@@ -6,23 +6,20 @@
 
 #import <UIKitCore/UIDynamicColor.h>
 
-@class NSDictionary, UIColor;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface UIDynamicSystemColor : UIDynamicColor
 {
     NSDictionary *_colorsByThemeKey;
-    struct os_unfair_lock_s _cachedColorLock;
-    UIColor *_cachedColor;
-    unsigned long long _cachedThemeKey;
 }
 
-- (id);
+- (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id)ÔA;
-- (id)DueToRotation: /* Error: Ran out of types for this method. */;
-- (_Bool);
+- (id)setDueToRotation: /* Error: Ran out of types for this method. */;
+- (_Bool)forceObeyNavigationBarInsets;
 - (id)Loþÿÿÿÿp;
 - (void)üAh;
 - (id)tPn;

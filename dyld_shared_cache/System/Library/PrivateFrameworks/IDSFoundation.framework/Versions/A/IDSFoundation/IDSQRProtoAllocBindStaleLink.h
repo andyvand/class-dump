@@ -9,11 +9,6 @@
 @interface IDSQRProtoAllocBindStaleLink
 {
     NSString *_clientAddress;
-    unsigned int _linkId;
-    NSString *_serverAddress;
-    struct {
-        unsigned int linkId:1;
-    } _has;
 }
 
 - (void);
@@ -21,7 +16,7 @@
 - (void);
 - (unsigned int);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (void);
@@ -31,19 +26,15 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
-- (id);
+- (_Bool)sortedAttributes;
+- (void)o peer device or service
+;
+- (id);
 - (id);
 - (void)ge;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *clientAddress; // @synthesize clientAddress=_clientAddress;
-@property(readonly, nonatomic) _Bool hasClientAddress;
-@property(nonatomic) _Bool hasLinkId;
 @property(readonly, nonatomic) _Bool hasServerAddress;
-@property(nonatomic) unsigned int linkId; // @synthesize linkId=_linkId;
-@property(retain, nonatomic) NSString *serverAddress; // @synthesize serverAddress=_serverAddress;
 
 @end
 

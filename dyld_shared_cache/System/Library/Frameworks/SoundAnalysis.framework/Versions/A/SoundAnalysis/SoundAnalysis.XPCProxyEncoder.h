@@ -7,7 +7,6 @@
 @interface SoundAnalysis.XPCProxyEncoder
 {
     id item;
-    id connectionState;
 }
 
 @end

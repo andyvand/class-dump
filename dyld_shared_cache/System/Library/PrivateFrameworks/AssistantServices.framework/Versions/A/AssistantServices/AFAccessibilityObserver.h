@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFAccessibilityState, NSHashTable, NSObject;
+@class AFAccessibilityState, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface AFAccessibilityObserver
 {
     NSObject<OS_dispatch_queue> *_queue;
-    struct os_unfair_lock_s _stateLock;
-    AFAccessibilityState *_state;
-    unsigned long long _stateDirtyFlags;
-    NSHashTable *_listeners;
 }
 
 + (id);
@@ -21,14 +17,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void)ter;
+- (void)AFPreferencesNotificationCenter;
 - (void)°PçÿÙ9e«
 ;
 - (void)j;

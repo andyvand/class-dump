@@ -5,20 +5,15 @@
 //
 
 @class NSString;
-@protocol OspreyRPC;
 
 @interface OspreyMethodCall
 {
     NSString *_methodName;
-    id <OspreyRPC> _channel;
-    CDUnknownBlockType _serializeRequest;
-    CDUnknownBlockType _deserializeResponse;
-    CDUnknownBlockType _defaultRequestBuilder;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)x);
 - (void)mx774WýÕ»U#ÁBX3)dìêøYÏ@*`ûqÄ´`$q+8«î]ÅEEÉ7d<WZ\®¥AÉ¯¢ f«Q¥?Ñ»é3²9ì£ªBF{»[íLWÇÞlÓ¼Í§Ãà>®÷,;
 
 @end

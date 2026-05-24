@@ -4,40 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet;
+@class NSArray;
 
 @interface ISURLResourcePropertySpecification
 {
     NSArray *_generalProperties;
-    NSArray *_applicationProperties;
-    NSArray *_volumeProperties;
-    NSSet *_allowedMissingProperties;
-    NSArray *_folderConfigurationProperties;
-    NSArray *_otherProperties;
-    NSArray *_folderAdornmentProperties;
 }
 
-+ (id);
++ (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)'H131�D;
+- (id)F-'D;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) NSSet *allowedMissingProperties; // @synthesize allowedMissingProperties=_allowedMissingProperties;
-@property(readonly) NSArray *applicationProperties; // @synthesize applicationProperties=_applicationProperties;
-@property(readonly) NSArray *folderAdornmentProperties; // @synthesize folderAdornmentProperties=_folderAdornmentProperties;
-@property(readonly) NSArray *folderConfigurationProperties; // @synthesize folderConfigurationProperties=_folderConfigurationProperties;
-@property(readonly) NSArray *generalProperties; // @synthesize generalProperties=_generalProperties;
-@property(readonly) NSArray *iconInitWithURLProperties; // @dynamic iconInitWithURLProperties;
 @property(readonly) NSArray *otherProperties; // @synthesize otherProperties=_otherProperties;
-@property(readonly) NSArray *volumeProperties; // @synthesize volumeProperties=_volumeProperties;
 
 @end
 

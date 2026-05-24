@@ -7,7 +7,6 @@
 @interface _DPRandomizedBit
 {
     unsigned long long _index;
-    long long _value;
 }
 
 + (id);
@@ -19,7 +18,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long index; // @synthesize index=_index;
-@property(readonly, nonatomic) long long value; // @synthesize value=_value;
 
 @end
 

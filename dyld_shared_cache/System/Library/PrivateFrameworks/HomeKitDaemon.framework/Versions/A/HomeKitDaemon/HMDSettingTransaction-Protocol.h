@@ -4,7 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol HMDSettingModelBaseProtocol;
+
 @protocol HMDSettingTransaction
+- (void)PSharedTripCapabilityFetchingServer cancelFetchCapabilitiesForContacts:(id <HMDSettingModelBaseProtocol>)arg1 ];
 - (void)g of message due to message already being dequeued on different thread;
 @end
 

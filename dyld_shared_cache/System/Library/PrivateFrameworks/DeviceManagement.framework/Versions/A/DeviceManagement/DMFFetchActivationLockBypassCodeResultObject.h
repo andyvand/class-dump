@@ -16,8 +16,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)T;
+- (void)ange=QQ}16;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *bypassCode; // @synthesize bypassCode=_bypassCode;

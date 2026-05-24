@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FMXPCServiceDescription, FMXPCSession, NSObject;
-@protocol OS_dispatch_queue, SPSecureLocationsXPCProtocol;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface SPSecureLocationsManager
 {
     NSObject<OS_dispatch_queue> *_queue;
-    FMXPCServiceDescription *_serviceDescription;
-    FMXPCSession *_session;
-    id <SPSecureLocationsXPCProtocol> _proxy;
 }
 
 + (id);
@@ -34,9 +31,9 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -51,10 +48,7 @@
 - (void)e.icloud.searchpartyuseragent.ownersession;
 
 // Remaining properties
-@property(retain, nonatomic) id <SPSecureLocationsXPCProtocol> proxy; // @synthesize proxy=_proxy;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) FMXPCServiceDescription *serviceDescription; // @synthesize serviceDescription=_serviceDescription;
-@property(retain, nonatomic) FMXPCSession *session; // @synthesize session=_session;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface CEMNetworkUsageRulesDeclaration : CEMConfigurationBase
 {
@@ -25,21 +25,14 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)b;
 - (int);
-- (_Bool);
+- (_Bool)chManager availableVoices:(id)arg1 ]_block_invoke;
 - (id);
-- (void);
+- (void)unknown;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSArray *payloadApplicationRules; // @synthesize payloadApplicationRules=_payloadApplicationRules;
-@property(readonly) Class superclass;
 
 @end
 

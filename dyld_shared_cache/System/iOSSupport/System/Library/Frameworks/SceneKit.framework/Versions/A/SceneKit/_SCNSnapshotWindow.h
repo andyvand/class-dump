@@ -9,11 +9,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct CGPoint);
-- (id);
-- (struct CGPoint);
-- (_Bool);
-- (void);
+- (struct CGPoint)setCurrentSpeakingIdentifier:(struct CGPoint)arg1;
+- (id)setContinuerSuggestions: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)BlastDoorPreviewAudio;
+- (_Bool)rial.wrapMode;
+- (void)o;
 - (_Bool);
 - (id);
 - (void):(id)arg1 "clamp"

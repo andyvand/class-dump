@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIColor;
+@class UIColor;
 
 @interface _UIViewControllerTransitionOptions
 {
     UIColor *dimmingColor;
-    void dimmingVisualEffects;
-    struct CGRect frameOfSourceInDestination;
-    _Bool popPreemptsPushInSwiftUIEnabled;
 }
 
+- (void)InitialChatSyncInitiated;
 - (void);
-- (void);
-- (void);
+- (void)l(;
 - (struct CGRect);
 - (id);
 - (_Bool);
@@ -27,9 +24,6 @@
 
 // Remaining properties
 @property(nonatomic, retain) UIColor *dimmingColor; // @synthesize dimmingColor;
-@property(nonatomic, copy) NSArray *dimmingVisualEffects;
-@property(nonatomic) struct CGRect frameOfSourceInDestination; // @synthesize frameOfSourceInDestination;
-@property(nonatomic) _Bool popPreemptsPushInSwiftUIEnabled; // @synthesize popPreemptsPushInSwiftUIEnabled;
 
 @end
 

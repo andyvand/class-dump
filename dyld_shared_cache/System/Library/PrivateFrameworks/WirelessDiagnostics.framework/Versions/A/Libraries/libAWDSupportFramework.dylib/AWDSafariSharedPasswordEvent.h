@@ -7,26 +7,17 @@
 @interface AWDSafariSharedPasswordEvent
 {
     unsigned long long _timestamp;
-    int _initiatedSharePasswordOutcome;
-    int _passwordSharingMechanism;
-    int _receivedSharedPasswordOutcome;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int initiatedSharePasswordOutcome:1;
-        unsigned int passwordSharingMechanism:1;
-        unsigned int receivedSharedPasswordOutcome:1;
-    } _has;
 }
 
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
 - (id);
 - (int);
 - (id);
-- (int);
+- (int)q;
 - (id);
 - (int);
 - (_Bool);
@@ -36,29 +27,22 @@
 - (int);
 - (int);
 - (int);
-- (id);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)Wa;
+- (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasInitiatedSharePasswordOutcome;
-@property(nonatomic) _Bool hasPasswordSharingMechanism;
-@property(nonatomic) _Bool hasReceivedSharedPasswordOutcome;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) int initiatedSharePasswordOutcome; // @synthesize initiatedSharePasswordOutcome=_initiatedSharePasswordOutcome;
-@property(nonatomic) int passwordSharingMechanism; // @synthesize passwordSharingMechanism=_passwordSharingMechanism;
-@property(nonatomic) int receivedSharedPasswordOutcome; // @synthesize receivedSharedPasswordOutcome=_receivedSharedPasswordOutcome;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

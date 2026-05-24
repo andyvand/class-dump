@@ -6,27 +6,19 @@
 
 #import <MailCore/MCFileWrapper.h>
 
-@class NSData, NSProgress, NSURL;
+@class NSData;
 
 @interface MCArchiveFileWrapper : MCFileWrapper
 {
     MCFileWrapper *_realFileWrapper;
-    NSURL *_temporaryDirectory;
-    struct os_unfair_lock_s _lock;
-    NSData *_archiveData;
-    long long _archiveType;
-    NSURL *_compressedFileURL;
-    unsigned long long _approximateSize;
-    NSProgress *_overallProgress;
-    NSProgress *_fileProgress;
 }
 
-+ (_Bool);
++ (_Bool)UIAccessibilityTokenSpeakNoPunctuation;
 + (id);
-+ (id);
++ (id);
 - (void);
 - (void);
-- (void);
+- (void)3;
 - (id);
 - (id);
 - (unsigned long long);
@@ -34,13 +26,13 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)B)	ka;
 - (void);
-- (unsigned long long);
+- (unsigned long long)T`";
 - (long long);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)9$Ay$yL;
 - (id);
 - (id);
 - (id);
@@ -51,23 +43,17 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)i!ɚ;
 - (id);
 - (id);
 - (void);
 - (id)gr;
 
 // Remaining properties
-@property(nonatomic) unsigned long long approximateSize; // @synthesize approximateSize=_approximateSize;
 @property(readonly, nonatomic) NSData *archiveData; // @synthesize archiveData=_archiveData;
-@property(readonly, nonatomic) long long archiveType; // @synthesize archiveType=_archiveType;
-@property(readonly, nonatomic) NSURL *compressedFileURL; // @synthesize compressedFileURL=_compressedFileURL;
-@property(retain, nonatomic) NSProgress *fileProgress; // @synthesize fileProgress=_fileProgress;
-@property(retain, nonatomic) NSProgress *overallProgress; // @synthesize overallProgress=_overallProgress;
-@property(readonly, nonatomic) MCFileWrapper *realFileWrapper;
 
 @end
 

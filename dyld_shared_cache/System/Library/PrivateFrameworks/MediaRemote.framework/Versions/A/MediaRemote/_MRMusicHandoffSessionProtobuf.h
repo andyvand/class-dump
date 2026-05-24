@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _MRNowPlayingPlayerPathProtobuf;
+@class _MRNowPlayingPlayerPathProtobuf;
 
 @interface _MRMusicHandoffSessionProtobuf
 {
     _MRNowPlayingPlayerPathProtobuf *_destinationPlayerPath;
-    NSString *_identifier;
-    _MRNowPlayingPlayerPathProtobuf *_sourcePlayerPath;
 }
 
 - (id);
@@ -27,19 +25,14 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)&;
+- (id)xt:] /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
-- (void)de;
+- (void)_previousOutputDevicesDiscoveryMode;
 
 // Remaining properties
-@property(retain, nonatomic) _MRNowPlayingPlayerPathProtobuf *destinationPlayerPath; // @synthesize destinationPlayerPath=_destinationPlayerPath;
-@property(readonly, nonatomic) _Bool hasDestinationPlayerPath;
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasSourcePlayerPath;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) _MRNowPlayingPlayerPathProtobuf *sourcePlayerPath; // @synthesize sourcePlayerPath=_sourcePlayerPath;
 
 @end
 

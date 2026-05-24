@@ -11,13 +11,13 @@
     NSMutableDictionary *_extensions;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)ue;
 - (id);
 - (void);
 

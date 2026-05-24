@@ -14,17 +14,17 @@
 }
 
 + (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)s_container_type_active_target, orig_date_modified, store_cloud_id, has_cloud_play_order, keep_local, keep_local_status FROM container;
+- (void)smart_limit_value, smart_reverse_limit_order, smart_criteria, play_order, is_reversed, album_field_order, repeat_mode, shuffle_items, has_been_shuffled, filepath, is_saveable, is_src_remote, is_ignored_syncing, container_type, is_container_type_active_target, orig_date_modified, store_cloud_id, has_cloud_play_order, keep_local, keep_local_status) SELECT container_pid, distinguished_kind, date_created, date_modified, name, name_order, parent_pid, contained_media_type, workout_template_id, is_hidden, is_ignorable_itunes_playlist, description, smart_evaluation_order, smart_is_folder, smart_is_dynamic, smart_is_filtered, smart_is_genius, smart_enabled_only, smart_is_limited, smart_limit_kind, smart_limit_order, smart_limit_value, smart_reverse_limit_order, smart_criteria, play_order, is_reversed, album_field_order, repeat_mode, shuffle_items, has_been_shuffled, filepath, is_saveable, is_src_remote, is_ignored_syncing, container_type, is_container_type_active_target, orig_date_modified, store_cloud_id, has_cloud_play_order, keep_local, keep_local_status FROM container;
+- (void)s_limited, smart_limit_kind, smart_limit_order, smart_limit_value, smart_reverse_limit_order, smart_criteria, play_order, is_reversed, album_field_order, repeat_mode, shuffle_items, has_been_shuffled, filepath, is_saveable, is_src_remote, is_ignored_syncing, container_type, is_container_type_active_target, orig_date_modified, store_cloud_id, has_cloud_play_order, keep_local, keep_local_status) SELECT container_pid, distinguished_kind, date_created, date_modified, name, name_order, parent_pid, contained_media_type, workout_template_id, is_hidden, is_ignorable_itunes_playlist, description, smart_evaluation_order, smart_is_folder, smart_is_dynamic, smart_is_filtered, smart_is_genius, smart_enabled_only, smart_is_limited, smart_limit_kind, smart_limit_order, smart_limit_value, smart_reverse_limit_order, smart_criteria, play_order, is_reversed, album_field_order, repeat_mode, shuffle_items, has_been_shuffled, filepath, is_saveable, is_src_remote, is_ignored_syncing, container_type, is_container_type_active_target, orig_date_modified, store_cloud_id, has_cloud_play_order, keep_local, keep_local_status FROM container;
+- (id)accessed, 0), IFNULL(is_alarm, 0), IFNULL(skip_count_user, 0), IFNULL(skip_count_recent, 0), IFNULL(remember_bookmark, 0), IFNULL(bookmark_time_ms, 0.0), IFNULL(hidden, 0), IFNULL(chosen_by_auto_fill, 0) FROM item_stats;
+- (void)ce_type));
 - (id);
 - (id);
 - (void);
+- (id)setPerformanceMetrics: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *localizedUserNotificationBodyKey; // @synthesize localizedUserNotificationBodyKey=_localizedUserNotificationBodyKey;

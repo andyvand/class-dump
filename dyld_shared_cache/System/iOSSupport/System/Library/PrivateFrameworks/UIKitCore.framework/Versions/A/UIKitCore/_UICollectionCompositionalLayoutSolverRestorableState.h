@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexSet, NSString;
+@class NSArray, NSIndexSet;
 
 __attribute__((visibility("hidden")))
 @interface _UICollectionCompositionalLayoutSolverRestorableState
@@ -14,17 +14,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void)xtInRange:(id)arg1 animated:preferredUUID: /* Error: Ran out of types for this method. */;
+- (void)_underlineTextInRange:(id)arg1 animated:preferredUUID: /* Error: Ran out of types for this method. */;
 - (void)Pú];
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

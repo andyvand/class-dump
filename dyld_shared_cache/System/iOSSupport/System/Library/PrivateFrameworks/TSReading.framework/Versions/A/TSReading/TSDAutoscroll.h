@@ -4,25 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSTimer;
+@class NSObject;
 @protocol TSDAutoscrollDelegate;
 
 @interface TSDAutoscroll
 {
     NSObject<TSDAutoscrollDelegate> *mTarget;
-    struct CGPoint mPoint;
-    int mDirections;
-    double mRepeatInterval;
-    NSTimer *mTimer;
-    unsigned long long mCount;
-    _Bool mActive;
-    struct CGPoint mLastAutoscrollDelta;
-    double mLastFired;
-    _Bool mTargetIsAutoscrolling;
 }
 
 + (void);
-- (_Bool);
+- (_Bool)8;
 - (_Bool);
 - (void);
 - (unsigned long long);
@@ -34,7 +25,7 @@
 - (id);
 - (void);
 - (void);
-- (double);
+- (double);
 - (void);
 - (void);
 - (void);
@@ -48,14 +39,7 @@
 - (_Bool)¹;
 
 // Remaining properties
-@property(nonatomic) _Bool active; // @synthesize active=mActive;
-@property(nonatomic) unsigned long long count; // @synthesize count=mCount;
-@property(nonatomic) int directions; // @synthesize directions=mDirections;
-@property(readonly, nonatomic) struct CGPoint lastAutoscrollDelta; // @synthesize lastAutoscrollDelta=mLastAutoscrollDelta;
-@property(nonatomic) struct CGPoint point; // @synthesize point=mPoint;
-@property(nonatomic) double repeatInterval; // @synthesize repeatInterval=mRepeatInterval;
 @property(retain, nonatomic) NSObject<TSDAutoscrollDelegate> *target; // @synthesize target=mTarget;
-@property(nonatomic) _Bool targetIsAutoscrolling; // @synthesize targetIsAutoscrolling=mTargetIsAutoscrolling;
 
 @end
 

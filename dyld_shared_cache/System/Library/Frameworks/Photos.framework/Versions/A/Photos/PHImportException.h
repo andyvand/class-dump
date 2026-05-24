@@ -4,36 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSError, NSString;
+@class NSDate;
 
 @interface PHImportException
 {
     NSDate *_createDate;
-    long long _type;
-    NSString *_path;
-    NSString *_sourceCodeFile;
-    unsigned long long _lineNumber;
-    NSError *_underlyingError;
 }
 
 + (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (long long);
 - (id);
-- (void)Render: /* Error: Ran out of types for this method. */;
+- (void)setLargeRender: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *createDate; // @synthesize createDate=_createDate;
-@property(readonly, nonatomic) unsigned long long lineNumber; // @synthesize lineNumber=_lineNumber;
-@property(readonly, nonatomic) NSString *path; // @synthesize path=_path;
-@property(readonly, nonatomic) NSString *sourceCodeFile; // @synthesize sourceCodeFile=_sourceCodeFile;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
-@property(readonly, nonatomic) NSError *underlyingError; // @synthesize underlyingError=_underlyingError;
 
 @end
 

@@ -6,44 +6,24 @@
 
 #import <AppKit/NSView.h>
 
-@class NSColor, NSString, NSViewCornerConfiguration;
-
 @interface NSGlassEffectView : NSView
 {
     long long _variant;
-    void _subvariant;
-    long long _interactionState;
-    long long _subduedState;
-    long long _scrimState;
-    long long _contentLensing;
-    long long _adaptiveAppearance;
-    _Bool _useReducedShadowRadius;
-    void _groupIdentifier;
-    id _tintColor;
-    id _actualCornerRadius;
-    id __path;
-    id _contentViewConstraints;
-    id _contentView;
-    id _contentHolderView;
-    id _effectsViewIfExists;
-    id _enclosingGlassEffectContainerView;
-    long long _disableEmbeddingCount;
-    id _swiftStorage;
 }
 
-+ (id);
++ (id)NAME<CFNACOAuthSigner>:(id)arg1:GET() [OBJTYPE = CFNACOAuthSigner] /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)creationTime;
+- (void)createSessionWithConfiguration:(_Bool)arg1 clientProxy:cachesDirectory:options:reply: /* Error: Ran out of types for this method. */;
+- (void)countOfRequestBodyBytesBeforeEncoding;
+- (void)connectionLock;
+- (void)connection:(id)arg1 willSendRequestForEstablishedConnection:properties: /* Error: Ran out of types for this method. */;
+- (void)connection:(long long)arg1 sentBodyBytes:totalBytes:expectedBytes: /* Error: Ran out of types for this method. */;
+- (void)connection:(long long)arg1 didSendBodyData:totalBytesWritten:totalBytesExpectedToWrite: /* Error: Ran out of types for this method. */;
+- (void)connection:(long long)arg1 conditionalRequirementsChanged: /* Error: Ran out of types for this method. */;
+- (void)id *;
 - (void);
 - (void);
 - (long long);
@@ -51,35 +31,35 @@
 - (id);
 - (long long);
 - (void);
-- (void);
+- (void)@;
 - (long long);
-- (long long);
-- (void);
-- (id);
-- (long long);
-- (void);
-- (long long);
-- (id);
-- (void);
+- (long long);
+- (void);
+- (id);
 - (long long);
 - (void);
-- (unsigned long long);
 - (long long);
 - (id);
+- (void):(long long)arg1 &3;
+- (long long)>V*;
+- (void)2Ta;
+- (unsigned long long)2N1;
 - (long long);
+- (id);
+- (long long);
+- (void)Error from collection status observer on reuse;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (const struct CGPath *);
 - (void)0@ù
 × ;
 - (_Bool)!DCùã31Â0@ù
 × ;
 - (id)_shouldScrollStartOfColumnToVisible;
-- (id)atingScrollTargetOrigin;
-- (void)TitlebarContainerView;
+- (id)_animatingScrollTargetOrigin;
+- (void)NSTitlebarContainerView;
 - (double)ents only;
 - (void);
 - (id);
@@ -91,26 +71,7 @@
 - (void)0~L;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *_adaptationDebugDescription;
-@property(nonatomic) long long _adaptiveAppearance; // @synthesize _adaptiveAppearance;
-@property(nonatomic) long long _contentLensing; // @synthesize _contentLensing;
-@property(nonatomic, readonly) NSViewCornerConfiguration *_cornerConfiguration;
-@property(nonatomic) long long _disableEmbeddingCount; // @synthesize _disableEmbeddingCount;
-@property(nonatomic, copy) NSString *_groupIdentifier;
-@property(nonatomic) long long _interactionState; // @synthesize _interactionState;
-@property(nonatomic, retain) const struct CGPath *_path;
-@property(nonatomic) long long _scrimState; // @synthesize _scrimState;
-@property(nonatomic, readonly) long long _scrollPocketElementStyle;
-@property(nonatomic) long long _subduedState; // @synthesize _subduedState;
-@property(nonatomic, copy) NSString *_subvariant;
-@property(nonatomic) _Bool _useReducedShadowRadius; // @synthesize _useReducedShadowRadius;
 @property(nonatomic) long long _variant; // @synthesize _variant;
-@property(nonatomic) unsigned long long _vibrantBlendingStyleForSubtree;
-@property(nonatomic) _Bool clipsToBounds;
-@property(nonatomic, retain) NSView *contentView;
-@property(nonatomic) double cornerRadius;
-@property(nonatomic) long long style;
-@property(nonatomic, retain) NSColor *tintColor;
 
 @end
 

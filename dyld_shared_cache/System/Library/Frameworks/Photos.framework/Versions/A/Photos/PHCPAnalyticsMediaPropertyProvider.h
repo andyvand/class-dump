@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PFSceneTaxonomy, PHPhotoLibrary;
+@class PHPhotoLibrary;
 
 @interface PHCPAnalyticsMediaPropertyProvider
 {
     PHPhotoLibrary *_photoLibrary;
-    PFSceneTaxonomy *_sceneTaxonomy84;
-    PFSceneTaxonomy *_sceneTaxonomy99;
 }
 
 + (id);
@@ -18,7 +16,7 @@
 + (id);
 + (id);
 - (_Bool);
-- (id);
+- (id)_;
 - (id);
 - (id);
 - (id);
@@ -27,22 +25,22 @@
 - (id);
 - (void);
 - (id);
+- (id);
 - (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id)|J;
+- (id)vicesCore.AuthenticationServicesAgent;
+- (id)sWereUpdatedOnServer;
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -53,16 +51,7 @@
 - (id)ArchivalComponents == nil || photoLibrary == nil;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) __weak PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(retain, nonatomic) PFSceneTaxonomy *sceneTaxonomy84; // @synthesize sceneTaxonomy84=_sceneTaxonomy84;
-@property(retain, nonatomic) PFSceneTaxonomy *sceneTaxonomy99; // @synthesize sceneTaxonomy99=_sceneTaxonomy99;
-@property(readonly) Class superclass;
 
 @end
 

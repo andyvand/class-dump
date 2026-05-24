@@ -11,9 +11,6 @@
 @interface PKVerifyMASPayloadInstallOperation : PKInstallOperation
 {
     PKPackageSpecifier *_currentPackageSpecifier;
-    _Bool _appStoreRequest;
-    _Bool _testFlightRequest;
-    _Bool _atomicUpdate;
 }
 
 - (id);

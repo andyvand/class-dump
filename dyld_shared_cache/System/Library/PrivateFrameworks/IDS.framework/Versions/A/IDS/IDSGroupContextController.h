@@ -4,36 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUTPromiseSeal, NSObject, NSString;
+@class NSObject;
 @protocol IDSGroupContextControllerDelegate, OS_dispatch_queue;
 
 @interface IDSGroupContextController
 {
     id <IDSGroupContextControllerDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_queue;
-    CUTPromiseSeal *_seal;
-    NSString *_serviceName;
 }
 
 - (id);
+- (void)J;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)customMessage:(id)arg1 length:(id)arg2 message:(CDUnknownBlockType)arg3 AAP: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)(;
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)rashed for credential request:(id)arg1 %@;
 - (void);
 - (void);
 - (id);
@@ -45,17 +42,7 @@
 - (id)ilityFlag¸9X0A4Typet;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) id <IDSGroupContextControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) CUTPromiseSeal *seal; // @synthesize seal=_seal;
-@property(retain, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(readonly) Class superclass;
 
 @end
 

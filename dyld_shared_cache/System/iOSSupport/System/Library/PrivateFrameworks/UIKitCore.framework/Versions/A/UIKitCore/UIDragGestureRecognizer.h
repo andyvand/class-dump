@@ -6,8 +6,7 @@
 
 #import <UIKitCore/UIGestureRecognizer.h>
 
-@class UIDragEvent, _UIDropSessionImpl, _UIInternalDraggingSessionDestination;
-@protocol UIDragGestureRecognizerDelegate;
+@class UIDragEvent;
 
 __attribute__((visibility("hidden")))
 @interface UIDragGestureRecognizer : UIGestureRecognizer
@@ -18,9 +17,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool)
 × ;
-- (id)teractionBegan:(id)arg1 allowSwipeToDismiss:(SEL)arg2;
-- (id)etion: /* Error: Ran out of types for this method. */;
-- (_Bool)ctationButton;
+- (id)platterPanInteractionBegan:(id)arg1 allowSwipeToDismiss:(SEL)arg2;
+- (id)imageWithData:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)canShowDictationButton;
 - (struct CGPoint)EndDecelerating:(id)arg1;
 - (_Bool)5;
 - (id)X>?h@
@@ -30,10 +29,7 @@ __attribute__((visibility("hidden")))
 - (void)h;
 
 // Remaining properties
-@property(nonatomic) __weak id <UIDragGestureRecognizerDelegate> delegate; // @dynamic delegate;
 @property(readonly, nonatomic, getter=_dragEvent) __weak UIDragEvent *dragEvent; // @synthesize dragEvent=_dragEvent;
-@property(readonly, nonatomic) _UIDropSessionImpl *dropSession;
-@property(readonly, nonatomic) _UIInternalDraggingSessionDestination *sessionDestination;
 
 @end
 

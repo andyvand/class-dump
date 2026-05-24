@@ -6,13 +6,11 @@
 
 #import <NeutrinoCore/NUExportJob.h>
 
-@class NUDigest;
 @protocol NUVideoProperties;
 
 @interface NUVideoExportJob : NUExportJob
 {
     id <NUVideoProperties> _videoProperties;
-    NUDigest *_digest;
 }
 
 - (_Bool);
@@ -40,7 +38,6 @@
 - (id)ce does not have properties for given auxiliaryImageType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NUDigest *digest; // @synthesize digest=_digest;
 @property(retain, nonatomic) id <NUVideoProperties> videoProperties; // @synthesize videoProperties=_videoProperties;
 
 @end

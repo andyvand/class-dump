@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TSClock;
+@class TSClock;
 
 @interface TSClockPulser
 {
     TSClock *_pulseClock;
-    _Bool _hasLastTimestamp;
-    _Bool _holdoverMode;
-    int _lastLockState;
-    _Bool _threadIsRunning;
-    _Bool _threadShouldBeRunning;
-    unsigned int _startSemaphore;
-    unsigned int _stopSemaphore;
-    _Bool _useRealtimePriority;
-    int _pulseOffset;
-    CDUnknownBlockType _pulseHandler;
-    unsigned long long _pulsePeriod;
 }
 
 - (_Bool);
@@ -39,21 +28,11 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) CDUnknownBlockType pulseHandler; // @synthesize pulseHandler=_pulseHandler;
-@property(nonatomic) int pulseOffset; // @synthesize pulseOffset=_pulseOffset;
-@property(nonatomic) unsigned long long pulsePeriod; // @synthesize pulsePeriod=_pulsePeriod;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool useRealtimePriority; // @synthesize useRealtimePriority=_useRealtimePriority;
 
 @end
 

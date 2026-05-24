@@ -6,46 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class MHSchemaMHEndpointFeaturesAtEndpoint, MHSchemaMHEndpointerTimeoutMetadata, MHSchemaMHStatisticDistributionInfo, NSData, SISchemaUUID, SISchemaVersion;
-
 @interface MHSchemaMHEndpointDetected : SISchemaInstrumentationMessage
 {
     int _endpointerType;
-    unsigned long long _endpointAudioDurationInNs;
-    unsigned long long _firstBufferTimeInNs;
-    unsigned long long _endpointedBufferTimeInNs;
-    MHSchemaMHEndpointFeaturesAtEndpoint *_endpointFeaturesAtEndpoint;
-    unsigned long long _endpointerDecisionLagInNs;
-    unsigned long long _extraDelayInNs;
-    SISchemaVersion *_endpointModelConfigVersion;
-    _Bool _derivedBufferTimeFromHistoricalAudio;
-    float _endpointerThreshold;
-    float _endpointerScore;
-    unsigned long long _audioSkippedDurationInNs;
-    unsigned long long _endpointResetPositionInNs;
-    MHSchemaMHStatisticDistributionInfo *_asrFeatureLatencyDistribution;
-    MHSchemaMHEndpointerTimeoutMetadata *_timeoutMetadata;
-    int _trpDetectionType;
-    SISchemaUUID *_trpId;
-    struct {
-        unsigned int endpointerType:1;
-        unsigned int endpointAudioDurationInNs:1;
-        unsigned int firstBufferTimeInNs:1;
-        unsigned int endpointedBufferTimeInNs:1;
-        unsigned int endpointerDecisionLagInNs:1;
-        unsigned int extraDelayInNs:1;
-        unsigned int derivedBufferTimeFromHistoricalAudio:1;
-        unsigned int endpointerThreshold:1;
-        unsigned int endpointerScore:1;
-        unsigned int audioSkippedDurationInNs:1;
-        unsigned int endpointResetPositionInNs:1;
-        unsigned int trpDetectionType:1;
-    } _has;
-    _Bool _hasEndpointFeaturesAtEndpoint;
-    _Bool _hasEndpointModelConfigVersion;
-    _Bool _hasAsrFeatureLatencyDistribution;
-    _Bool _hasTimeoutMetadata;
-    _Bool _hasTrpId;
 }
 
 - (id);
@@ -59,12 +22,12 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -76,7 +39,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -116,13 +79,13 @@
 - (void);
 - (void);
 - (void);
+- (void)+;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -133,55 +96,21 @@
 - (id);
 - (float);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)rary/BuildRoots/4~CNqEugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/bn/bn_mpi.c;
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool).;
 - (_Bool);
 - (id);
 - (id)
 × ;
 - (id)ptionTokenized",&,N,V_ueiDictationTranscriptionTokenized;
-- (id)asDictationAlternativesViewed;
+- (id)_hasDictationAlternativesViewed;
 - (void)äÿ;
 
 // Remaining properties
-@property(retain, nonatomic) MHSchemaMHStatisticDistributionInfo *asrFeatureLatencyDistribution; // @synthesize asrFeatureLatencyDistribution=_asrFeatureLatencyDistribution;
-@property(nonatomic) unsigned long long audioSkippedDurationInNs; // @synthesize audioSkippedDurationInNs=_audioSkippedDurationInNs;
-@property(nonatomic) _Bool derivedBufferTimeFromHistoricalAudio; // @synthesize derivedBufferTimeFromHistoricalAudio=_derivedBufferTimeFromHistoricalAudio;
-@property(nonatomic) unsigned long long endpointAudioDurationInNs; // @synthesize endpointAudioDurationInNs=_endpointAudioDurationInNs;
-@property(retain, nonatomic) MHSchemaMHEndpointFeaturesAtEndpoint *endpointFeaturesAtEndpoint; // @synthesize endpointFeaturesAtEndpoint=_endpointFeaturesAtEndpoint;
-@property(retain, nonatomic) SISchemaVersion *endpointModelConfigVersion; // @synthesize endpointModelConfigVersion=_endpointModelConfigVersion;
-@property(nonatomic) unsigned long long endpointResetPositionInNs; // @synthesize endpointResetPositionInNs=_endpointResetPositionInNs;
-@property(nonatomic) unsigned long long endpointedBufferTimeInNs; // @synthesize endpointedBufferTimeInNs=_endpointedBufferTimeInNs;
-@property(nonatomic) unsigned long long endpointerDecisionLagInNs; // @synthesize endpointerDecisionLagInNs=_endpointerDecisionLagInNs;
-@property(nonatomic) float endpointerScore; // @synthesize endpointerScore=_endpointerScore;
-@property(nonatomic) float endpointerThreshold; // @synthesize endpointerThreshold=_endpointerThreshold;
 @property(nonatomic) int endpointerType; // @synthesize endpointerType=_endpointerType;
-@property(nonatomic) unsigned long long extraDelayInNs; // @synthesize extraDelayInNs=_extraDelayInNs;
-@property(nonatomic) unsigned long long firstBufferTimeInNs; // @synthesize firstBufferTimeInNs=_firstBufferTimeInNs;
-@property(nonatomic) _Bool hasAsrFeatureLatencyDistribution; // @synthesize hasAsrFeatureLatencyDistribution=_hasAsrFeatureLatencyDistribution;
-@property(nonatomic) _Bool hasAudioSkippedDurationInNs;
-@property(nonatomic) _Bool hasDerivedBufferTimeFromHistoricalAudio;
-@property(nonatomic) _Bool hasEndpointAudioDurationInNs;
-@property(nonatomic) _Bool hasEndpointFeaturesAtEndpoint; // @synthesize hasEndpointFeaturesAtEndpoint=_hasEndpointFeaturesAtEndpoint;
-@property(nonatomic) _Bool hasEndpointModelConfigVersion; // @synthesize hasEndpointModelConfigVersion=_hasEndpointModelConfigVersion;
-@property(nonatomic) _Bool hasEndpointResetPositionInNs;
-@property(nonatomic) _Bool hasEndpointedBufferTimeInNs;
-@property(nonatomic) _Bool hasEndpointerDecisionLagInNs;
-@property(nonatomic) _Bool hasEndpointerScore;
-@property(nonatomic) _Bool hasEndpointerThreshold;
-@property(nonatomic) _Bool hasEndpointerType;
-@property(nonatomic) _Bool hasExtraDelayInNs;
-@property(nonatomic) _Bool hasFirstBufferTimeInNs;
-@property(nonatomic) _Bool hasTimeoutMetadata; // @synthesize hasTimeoutMetadata=_hasTimeoutMetadata;
-@property(nonatomic) _Bool hasTrpDetectionType;
-@property(nonatomic) _Bool hasTrpId; // @synthesize hasTrpId=_hasTrpId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) MHSchemaMHEndpointerTimeoutMetadata *timeoutMetadata; // @synthesize timeoutMetadata=_timeoutMetadata;
-@property(nonatomic) int trpDetectionType; // @synthesize trpDetectionType=_trpDetectionType;
-@property(retain, nonatomic) SISchemaUUID *trpId; // @synthesize trpId=_trpId;
 
 @end
 

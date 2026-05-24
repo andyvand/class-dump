@@ -14,16 +14,15 @@
 
 + (id);
 + (id);
-- (void);
+- (void)duration;
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *property;
-@property(copy, nonatomic) NSString *value;
 
 @end
 

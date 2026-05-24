@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UINSToolbarItemEngineHostingView, UINSToolbarItemSceneHostingView, UIView;
+@class UIView;
 
 @interface NSUIViewToolbarItem
 {
     UIView *_uiView;
-    UINSToolbarItemEngineHostingView *_engineHostingView;
-    UINSToolbarItemSceneHostingView *_sceneHostingView;
 }
 
-- (void);
+- (void)t;
 - (id);
-- (id);
-- (id);
+- (id)_registerTopicReadWriteListener;
+- (id) ;
 - (void)8úÿ%4;
 
 // Remaining properties

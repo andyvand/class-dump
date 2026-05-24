@@ -13,13 +13,13 @@ __attribute__((visibility("hidden")))
 + (id);
 + (struct CGSize);
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)T;
 + (void);
 + (void);
 + (void);

@@ -4,38 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface _NSCollectionViewCompositionalLayoutMutableConfiguration
 {
     long long _scrollDirection;
-    double _interSectionSpacing;
-    NSArray *_boundarySupplementaryItems;
 }
 
-+ (id)a;
++ (id)contentLuma;
 - (id);
-- (id);
+- (id)called with a NULL request;
+- (void)8x;
 - (void);
-- (void);
-- (id);
-- (long long)lConfiguration: /* Error: Ran out of types for this method. */;
-- (id)BezelWithFrame:(struct _NSZone *)arg1 inView: /* Error: Ran out of types for this method. */;
+- (id)ex %ld is out-of-bounds for %@;
+- (long long)setImageSymbolConfiguration: /* Error: Ran out of types for this method. */;
+- (id)drawBezelWithFrame:(struct _NSZone *)arg1 inView: /* Error: Ran out of types for this method. */;
 - (double)q,R,V_tag;
 - (void)FlowLayout - please file against NSCollectionView;
 - (void)NSSpellCheckerDidChangeLanguageNotification;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *boundarySupplementaryItems; // @synthesize boundarySupplementaryItems=_boundarySupplementaryItems;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double interSectionSpacing; // @synthesize interSectionSpacing=_interSectionSpacing;
 @property(nonatomic) long long scrollDirection; // @synthesize scrollDirection=_scrollDirection;
-@property(readonly) Class superclass;
 
 @end
 

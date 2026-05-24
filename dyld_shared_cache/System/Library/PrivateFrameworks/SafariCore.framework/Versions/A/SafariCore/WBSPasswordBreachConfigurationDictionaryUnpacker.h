@@ -9,7 +9,6 @@
 @interface WBSPasswordBreachConfigurationDictionaryUnpacker
 {
     NSDictionary *_dictionary;
-    _Bool _errorOccurred;
 }
 
 - (id);

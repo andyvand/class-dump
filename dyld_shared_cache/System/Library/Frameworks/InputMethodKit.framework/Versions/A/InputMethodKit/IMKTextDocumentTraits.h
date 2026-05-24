@@ -7,9 +7,6 @@
 @interface IMKTextDocumentTraits
 {
     unsigned long long _autoCapitalizationType;
-    _Bool _autoPeriodEnabled;
-    _Bool _secureTextEntry;
-    _Bool _suppressCandidates;
 }
 
 - (_Bool);
@@ -18,14 +15,11 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)addFeatureString:payload: /* Error: Ran out of types for this method. */;
 - (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long autoCapitalizationType; // @synthesize autoCapitalizationType=_autoCapitalizationType;
-@property(readonly, nonatomic, getter=isAutoPeriodEnabled) _Bool autoPeriodEnabled; // @synthesize autoPeriodEnabled=_autoPeriodEnabled;
-@property(readonly, nonatomic, getter=isSecureTextEntry) _Bool secureTextEntry; // @synthesize secureTextEntry=_secureTextEntry;
-@property(readonly, nonatomic, getter=shouldSuppressCandidates) _Bool suppressCandidates; // @synthesize suppressCandidates=_suppressCandidates;
 
 @end
 

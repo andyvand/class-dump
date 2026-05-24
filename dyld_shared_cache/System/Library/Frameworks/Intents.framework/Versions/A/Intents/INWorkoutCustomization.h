@@ -9,35 +9,26 @@
 @interface INWorkoutCustomization
 {
     NSString *_focus;
-    NSString *_environment;
 }
 
 + (id);
 + (_Bool);
 - (id);
-- (id);
+- (id):(id)arg1 8@16@24i32i36i40i44i48i52;
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)setUpdatedDeviceKeyHandler:(id)arg1;
+- (void)blic}@);
 - (id);
 - (id);
 - (id)ame:audioMessageFile: /* Error: Ran out of types for this method. */;
-- (id)tWithFocus:(unsigned long long)arg1 environment: /* Error: Ran out of types for this method. */;
+- (id)initWithFocus:(unsigned long long)arg1 environment: /* Error: Ran out of types for this method. */;
 - (void)iceCommandIntentResponse initWithCode:userActivity:] /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSString *environment; // @synthesize environment=_environment;
 @property(readonly, copy) NSString *focus; // @synthesize focus=_focus;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

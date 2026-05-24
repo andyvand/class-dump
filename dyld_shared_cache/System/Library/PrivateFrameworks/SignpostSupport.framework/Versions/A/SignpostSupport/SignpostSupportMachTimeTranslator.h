@@ -4,27 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableArray;
 
 @interface SignpostSupportMachTimeTranslator
 {
     _Bool _isMonitoringSleepWake;
-    NSMutableArray *_translationRanges;
-    NSMutableArray *_startMachAbsoluteTimes;
-    NSMutableArray *_startMachContinuousTimes;
-    unsigned long long _maxEntries;
-    NSObject<OS_dispatch_queue> *_synchronizationQueue;
 }
 
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool containsContinuousTimeJumps;
-@property _Bool isMonitoringSleepWake; // @synthesize isMonitoringSleepWake=_isMonitoringSleepWake;
-@property(nonatomic) unsigned long long maxEntries; // @synthesize maxEntries=_maxEntries;
-@property(readonly, nonatomic) NSMutableArray *startMachAbsoluteTimes; // @synthesize startMachAbsoluteTimes=_startMachAbsoluteTimes;
-@property(readonly, nonatomic) NSMutableArray *startMachContinuousTimes; // @synthesize startMachContinuousTimes=_startMachContinuousTimes;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *synchronizationQueue; // @synthesize synchronizationQueue=_synchronizationQueue;
 @property(readonly, nonatomic) NSMutableArray *translationRanges; // @synthesize translationRanges=_translationRanges;
 @end
 

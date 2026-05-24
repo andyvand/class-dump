@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface PKCAAnimatedLayoutTracker
 {
     unsigned long long _started;
-    unsigned long long _interrupted;
-    unsigned long long _finished;
-    unsigned long long _suspended;
-    PKCAAnimatedLayoutTracker *_effectiveTracker;
-    NSMutableArray *_completions;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (void);
+- (void)q;
 - (void);
 - (void);
 - (id);
-- (void)ct_product;
+- (void)payment_setup_select_product;
 - (void)Øxßÿ;
 
 @end

@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOWifiAccessPoint
 {
     PBUnknownFields *_unknownFields;
-    NSString *_macId;
-    unsigned long long _scanTimestamp;
-    unsigned int _age;
-    int _channel;
-    int _rssi;
-    CDStruct_e664d718 _flags;
 }
 
-+ (_Bool)hPoints:(id)arg1;
++ (_Bool)setOriginalRouteZilchPoints:(id)arg1;
 - (void);
 - (void);
 - (id);
@@ -28,12 +22,12 @@
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)submitAudioIssueReport:(id)arg1;
+- (id)on:]_block_invoke /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -43,30 +37,20 @@
 - (id)Ñ¹*°1Â0@ù
 × ;
 - (int)te_anyField"b1};
-- (void)irationDate:(unsigned long long)arg1;
-- (id);
-- (_Bool)sSupportStructuredRapAffordance;
-- (void)e;
-- (unsigned int)ettingsVisitedPlaces: /* Error: Ran out of types for this method. */;
+- (void)setHasExpirationDate:(unsigned long long)arg1;
+- (id)loadAttributionInfoForIdentifiers:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)hasSupportStructuredRapAffordance;
+- (void)_centerCoordinate;
+- (unsigned int)StringAsMapSettingsVisitedPlaces: /* Error: Ran out of types for this method. */;
 - (id),N,GisBlockingIncident;
-- (_Bool)onsNumberForDisplayIndexList;
+- (_Bool)GEOVenuesMinimumSectionsNumberForDisplayIndexList;
 - (id)SetEvent, void *> *, long>=^v}8;
 - (int)goryFilterReadAllFrom can only be called once per object;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int age;
-@property(nonatomic) int channel;
-@property(nonatomic) _Bool hasAge;
-@property(nonatomic) _Bool hasChannel;
 @property(readonly, nonatomic) _Bool hasMacId;
-@property(nonatomic) _Bool hasRssi;
-@property(nonatomic) _Bool hasScanTimestamp;
-@property(retain, nonatomic) NSString *macId;
-@property(nonatomic) int rssi;
-@property(nonatomic) unsigned long long scanTimestamp;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

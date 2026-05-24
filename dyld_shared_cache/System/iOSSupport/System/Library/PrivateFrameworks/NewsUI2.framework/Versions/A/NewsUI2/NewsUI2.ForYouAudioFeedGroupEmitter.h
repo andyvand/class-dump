@@ -7,8 +7,6 @@
 @interface NewsUI2.ForYouAudioFeedGroupEmitter
 {
     id config;
-    id knobs;
-    id formatService;
 }
 
 @end

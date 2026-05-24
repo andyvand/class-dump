@@ -10,12 +10,9 @@ __attribute__((visibility("hidden")))
 @interface _ICLLPlaybackSyncCommand
 {
     NSString *_participantState;
-    int _payload;
-    NSString *_transportControlState;
-    CDStruct_69063d38 _has;
 }
 
-- (id);
+- (id)B;
 - (void);
 - (unsigned long long);
 - (_Bool);

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MFContactsSearchManager, NSNumber, NSString;
+@class MFContactsSearchManager;
 
 @interface MFContactsSearchOperation
 {
     MFContactsSearchManager *_owner;
-    NSNumber *_taskID;
-    NSString *_text;
-    NSString *_sendingAddress;
 }
 
 + (id);
@@ -20,14 +17,10 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)T;
 
 // Remaining properties
 @property(readonly, nonatomic) MFContactsSearchManager *owner; // @synthesize owner=_owner;
-@property(readonly, nonatomic) NSString *sendingAddress; // @synthesize sendingAddress=_sendingAddress;
-@property(readonly, nonatomic) NSNumber *taskID; // @synthesize taskID=_taskID;
-@property(readonly, nonatomic) NSString *text; // @synthesize text=_text;
-@property(readonly, nonatomic) unsigned long long type;
 
 @end
 

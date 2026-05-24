@@ -7,10 +7,10 @@
 @class ICStoreDialogResponse, NSError;
 
 @protocol ICStoreResponseProtocol
+- (ICStoreDialogResponse *)mountPointURL;
 - (NSError *)JèK;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) ICStoreDialogResponse *dialog;
 @property(readonly, copy, nonatomic) NSError *serverError;
 @end
 

@@ -4,36 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactViewCache, CNUIContactsEnvironment, CNVisualIdentity;
-@protocol AVTAvatarStore;
-
 __attribute__((visibility("hidden")))
 @interface CNPhotoPickerProviderGroupsBuilder
 {
     _Bool _includeContactImage;
-    _Bool _includeUnifiedContactImages;
-    _Bool _includeTakePhotoItem;
-    _Bool _includePhotoFromLibraryItem;
-    _Bool _includeMonograms;
-    _Bool _includeFaces;
-    _Bool _includeAnimoji;
-    _Bool _includeAddAnimojiItem;
-    _Bool _includeRecents;
-    _Bool _shouldOrderEmojiBeforeAnimoji;
-    _Bool _includesEmojiContent;
-    _Bool _includeAddEmojiItem;
-    CNVisualIdentity *_visualIdentity;
-    id <AVTAvatarStore> _avatarStore;
-    CNContactViewCache *_contactViewCache;
-    CNUIContactsEnvironment *_environment;
 }
 
 + (id);
 - (id);
 - (_Bool);
+- (void)8?};
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -51,14 +33,14 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)kb;
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)+J;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -69,23 +51,7 @@ __attribute__((visibility("hidden")))
 - (void)_menuTitle;
 
 // Remaining properties
-@property(readonly, nonatomic) id <AVTAvatarStore> avatarStore; // @synthesize avatarStore=_avatarStore;
-@property(readonly, nonatomic) CNContactViewCache *contactViewCache; // @synthesize contactViewCache=_contactViewCache;
-@property(readonly, nonatomic) CNUIContactsEnvironment *environment; // @synthesize environment=_environment;
-@property(nonatomic) _Bool includeAddAnimojiItem; // @synthesize includeAddAnimojiItem=_includeAddAnimojiItem;
-@property(nonatomic) _Bool includeAddEmojiItem; // @synthesize includeAddEmojiItem=_includeAddEmojiItem;
-@property(nonatomic) _Bool includeAnimoji; // @synthesize includeAnimoji=_includeAnimoji;
 @property(nonatomic) _Bool includeContactImage; // @synthesize includeContactImage=_includeContactImage;
-@property(nonatomic) _Bool includeFaces; // @synthesize includeFaces=_includeFaces;
-@property(nonatomic) _Bool includeMonograms; // @synthesize includeMonograms=_includeMonograms;
-@property(nonatomic) _Bool includePhotoFromLibraryItem; // @synthesize includePhotoFromLibraryItem=_includePhotoFromLibraryItem;
-@property(nonatomic) _Bool includeRecents; // @synthesize includeRecents=_includeRecents;
-@property(nonatomic) _Bool includeTakePhotoItem; // @synthesize includeTakePhotoItem=_includeTakePhotoItem;
-@property(nonatomic) _Bool includeUnifiedContactImages; // @synthesize includeUnifiedContactImages=_includeUnifiedContactImages;
-@property(readonly, nonatomic) _Bool includesAnyPhotoContent;
-@property(nonatomic) _Bool includesEmojiContent; // @synthesize includesEmojiContent=_includesEmojiContent;
-@property(nonatomic) _Bool shouldOrderEmojiBeforeAnimoji; // @synthesize shouldOrderEmojiBeforeAnimoji=_shouldOrderEmojiBeforeAnimoji;
-@property(readonly, nonatomic) CNVisualIdentity *visualIdentity; // @synthesize visualIdentity=_visualIdentity;
 
 @end
 

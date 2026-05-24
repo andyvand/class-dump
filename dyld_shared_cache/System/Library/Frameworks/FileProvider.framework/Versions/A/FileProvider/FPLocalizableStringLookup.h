@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSBundle, NSString;
+@class NSBundle;
 
 @interface FPLocalizableStringLookup
 {
     NSBundle *_bundle;
-    id _cfBundle;
-    NSArray *_tableNames;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)4H;
 - (id);
 - (id);
 - (void);
@@ -26,9 +24,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSBundle *bundle; // @synthesize bundle=_bundle;
-@property(retain, nonatomic) id cfBundle; // @synthesize cfBundle=_cfBundle;
-@property(copy, nonatomic) NSString *tableName;
-@property(copy, nonatomic) NSArray *tableNames; // @synthesize tableNames=_tableNames;
 
 @end
 

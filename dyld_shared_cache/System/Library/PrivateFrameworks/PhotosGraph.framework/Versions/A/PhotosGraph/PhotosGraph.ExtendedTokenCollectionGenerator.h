@@ -7,8 +7,6 @@
 @interface PhotosGraph.ExtendedTokenCollectionGenerator
 {
     id graph;
-    id storyPhotoLibraryContext;
-    id safeTokenAnalyzer;
 }
 
 @end

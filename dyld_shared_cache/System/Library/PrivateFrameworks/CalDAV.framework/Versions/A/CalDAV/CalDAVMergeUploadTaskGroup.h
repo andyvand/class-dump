@@ -5,14 +5,10 @@
 //
 
 @class CalDAVBulkUploadTaskGroup;
-@protocol CalDAVCalendar, CalDAVPrincipal;
 
 @interface CalDAVMergeUploadTaskGroup
 {
     _Bool _shouldTrySyncTokenForBulkUpload;
-    CalDAVBulkUploadTaskGroup *_uploadTaskGroup;
-    id <CalDAVCalendar> _calendar;
-    id <CalDAVPrincipal> _principal;
 }
 
 - (void);
@@ -27,16 +23,13 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)ionShown;
 - (void);
 - (void)ð1Â0@ù
 × ;
-- (id);
+- (id)initWithCapacity: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) id <CalDAVCalendar> calendar; // @synthesize calendar=_calendar;
-@property(retain, nonatomic) id <CalDAVPrincipal> principal; // @synthesize principal=_principal;
-@property(nonatomic) _Bool shouldTrySyncTokenForBulkUpload; // @synthesize shouldTrySyncTokenForBulkUpload=_shouldTrySyncTokenForBulkUpload;
 @property(retain, nonatomic) CalDAVBulkUploadTaskGroup *uploadTaskGroup; // @synthesize uploadTaskGroup=_uploadTaskGroup;
 
 @end

@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AKPanGestureRecognizer
 {
     _Bool _penGestureDetected;
-    double _currentWeight;
-    double _currentMaxWeight;
-    struct CGPoint _locationOfFirstTouch;
 }
 
 - (void);
@@ -26,17 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double currentMaxWeight; // @synthesize currentMaxWeight=_currentMaxWeight;
-@property(nonatomic) double currentWeight; // @synthesize currentWeight=_currentWeight;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) struct CGPoint locationOfFirstTouch; // @synthesize locationOfFirstTouch=_locationOfFirstTouch;
-@property(nonatomic) _Bool penGestureDetected; // @synthesize penGestureDetected=_penGestureDetected;
-@property(readonly) Class superclass;
 
 @end
 

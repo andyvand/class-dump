@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBundle, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NSColorListAuxiliary
 {
     NSString *_localizedCopyRightString;
-    struct CMNamedColorPageInfoType *_cmPageInfoPtr;
-    double _lastEditableCheck;
-    NSBundle *_bundleForColorListDirectory;
 }
 
 - (void);

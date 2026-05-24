@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSObject, NSString, NSURL, WBSFaviconProviderDatabaseController, WBSFaviconProviderPrivateCache, WBSFaviconProviderRecordCache, WBSOnDiskDataCache;
-@protocol OS_dispatch_queue;
+@class NSURL, WBSOnDiskDataCache;
 
 @interface WBSFaviconProviderPersistenceController
 {
     WBSOnDiskDataCache *_faviconDiskCache;
-    WBSFaviconProviderDatabaseController *_faviconDatabase;
-    WBSFaviconProviderRecordCache *_recordsCache;
-    WBSFaviconProviderPrivateCache *_privateCache;
-    NSMapTable *_inMemoryImageCache;
-    CDUnknownBlockType _setUpCompletionHandler;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    long long _controllerState;
-    struct CGSize _preferredIconSize;
-    _Bool _isReadOnly;
-    NSURL *_databaseURL;
-    NSURL *_diskCacheURL;
 }
 
 - (void);
@@ -29,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (void);
@@ -46,25 +34,17 @@
 - (void);
 - (void);
 - (long long);
+- (void):(id)arg1;
+- (void);
 - (void);
-- (void);
-- (void);
+- (id)_isSystemGroup;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
-- (void)rAllFormsInAllFramesOfWebView:requestType:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)metadataForAllFormsInAllFramesOfWebView:requestType:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *databaseURL; // @synthesize databaseURL=_databaseURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSURL *diskCacheURL; // @synthesize diskCacheURL=_diskCacheURL;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

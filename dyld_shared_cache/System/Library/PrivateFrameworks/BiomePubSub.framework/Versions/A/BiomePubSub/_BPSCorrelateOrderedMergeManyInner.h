@@ -13,7 +13,7 @@
 
 - (long long);
 - (id);
-- (void);
+- (void)ioflag;
 - (CDUnknownBlockType);
 - (void);
 

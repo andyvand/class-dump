@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString, PKPendingProvisioning;
+@class NSString;
 
 @interface PKPendingProvisioningReceipt
 {
     NSString *_identifier;
-    long long _type;
-    double _createdAt;
-    PKPendingProvisioning *_pendingProvisioning;
-    NSString *_passUniqueID;
-    NSError *_error;
 }
 
 + (id);
@@ -23,29 +18,24 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)s;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (long long);
+- (long long);
 - (void);
-- (void);
-- (void);
+- (void)ue;
+- (void)卹;
 - (void);
 - (id);
-- (void)visioningCertificates;
+- (void)issuerProvisioningCertificates;
 - (double)#Ýÿ;
 
 // Remaining properties
-@property(nonatomic) double createdAt; // @synthesize createdAt=_createdAt;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSString *passUniqueID; // @synthesize passUniqueID=_passUniqueID;
-@property(retain, nonatomic) PKPendingProvisioning *pendingProvisioning; // @synthesize pendingProvisioning=_pendingProvisioning;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

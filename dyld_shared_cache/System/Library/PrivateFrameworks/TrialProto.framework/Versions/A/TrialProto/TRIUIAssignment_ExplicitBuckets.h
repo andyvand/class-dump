@@ -16,7 +16,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) TRIPBUInt32Array *bucketArray; // @dynamic bucketArray;
-@property(readonly, nonatomic) unsigned long long bucketArray_Count; // @dynamic bucketArray_Count;
 
 @end
 

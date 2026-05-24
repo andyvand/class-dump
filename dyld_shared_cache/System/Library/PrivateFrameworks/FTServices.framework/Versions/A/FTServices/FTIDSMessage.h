@@ -4,45 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSNumber, NSString;
-
 @interface FTIDSMessage
 {
     _Bool _wantsPushSignatures;
-    NSData *_pushCert;
-    struct __SecKey *_identityKey;
-    NSData *_identityCert;
-    struct __SecKey *_identityPublicKey;
-    struct __SecKey *_pushKey;
-    struct __SecKey *_pushPublicKey;
-    NSData *_pushToken;
-    NSString *_selfURI;
-    NSMutableArray *_certDataArray;
-    NSMutableArray *_publicKeyArray;
-    NSMutableArray *_privateKeyArray;
-    NSMutableArray *_userIDArray;
-    NSNumber *_serverTimestamp;
-    NSNumber *_serverTimestampReceivedDate;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)completionSuggestionDateComponentsForQueryString:(id)arg1 locationInQueryString:completion: /* Error: Ran out of types for this method. */;
+- (void)completeTransactionScope:(struct __SecKey *)arg1;
+- (void)compatibilityState;
+- (void)comparisonPredicateModifier;
+- (void)collidesWithPersonWithLocalIdentifier:(id)arg1;
+- (id)collectionShareUUID;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -62,7 +46,7 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)_showsLinkToUnifiedAbout;
 - (void);
 - (id);
 - (_Bool);
@@ -76,20 +60,7 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSData *IDCertificate; // @synthesize IDCertificate=_identityCert;
-@property(copy, nonatomic) NSMutableArray *certDataArray; // @synthesize certDataArray=_certDataArray;
-@property(nonatomic) struct __SecKey *identityPrivateKey; // @synthesize identityPrivateKey=_identityKey;
-@property(nonatomic) struct __SecKey *identityPublicKey; // @synthesize identityPublicKey=_identityPublicKey;
-@property(copy, nonatomic) NSMutableArray *privateKeyArray; // @synthesize privateKeyArray=_privateKeyArray;
-@property(copy, nonatomic) NSMutableArray *publicKeyArray; // @synthesize publicKeyArray=_publicKeyArray;
-@property(copy, nonatomic) NSData *pushCertificate; // @synthesize pushCertificate=_pushCert;
 @property(nonatomic) struct __SecKey *pushPrivateKey; // @synthesize pushPrivateKey=_pushKey;
-@property(nonatomic) struct __SecKey *pushPublicKey; // @synthesize pushPublicKey=_pushPublicKey;
-@property(copy, nonatomic) NSData *pushToken; // @synthesize pushToken=_pushToken;
-@property(copy, nonatomic) NSString *selfURI; // @synthesize selfURI=_selfURI;
-@property(copy, nonatomic) NSMutableArray *userIDArray; // @synthesize userIDArray=_userIDArray;
-@property(readonly) _Bool wantsIDSProtocolVersion;
-@property(nonatomic) _Bool wantsPushSignatures; // @synthesize wantsPushSignatures=_wantsPushSignatures;
 
 @end
 

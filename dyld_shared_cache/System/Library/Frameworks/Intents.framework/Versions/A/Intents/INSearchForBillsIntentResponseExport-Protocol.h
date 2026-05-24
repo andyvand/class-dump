@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol INSearchForBillsIntentResponseExport
-- (long long)ortedReason;
+- (long long)hasSetTaskAttributeIntentTemporalEventTriggerUnsupportedReason;
 
 // Remaining properties
-@property(copy) NSArray *bills;
 @property(readonly) long long code;
 @end
 

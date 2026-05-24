@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSString;
+@class NSString;
 
 @interface UnknownClass (MUIAdditions)
 - (id);
@@ -13,7 +13,7 @@
 - (struct CGRect);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -25,7 +25,7 @@
 - (void);
 - (double);
 - (_Bool);
-- (_Bool);
+- (_Bool)}�;
 - (void);
 - (void);
 - (void);
@@ -38,8 +38,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSColor *mui_backgroundColor;
-@property(nonatomic) _Bool mui_clipsToBounds;
 @property(readonly, copy, nonatomic) NSString *subtreeDescriptionWithoutPII;
 @end
 

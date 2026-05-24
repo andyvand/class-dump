@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKUIEmojiLightweightCandidateWindowController, NSImageView;
-
 @interface IMKUIEmojiItemView
 {
     long long _alignment;
-    NSImageView *_emojiImageView;
-    IMKUIEmojiLightweightCandidateWindowController *_windowController;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)!;
 - (long long);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void)iedEvent:(id)arg1;
-- (void)cessibilityAttributeValue: /* Error: Ran out of types for this method. */;
+- (void)modifiedEvent:(id)arg1;
+- (void)accessibilityAttributeValue: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) long long alignment; // @synthesize alignment=_alignment;
-@property(retain, nonatomic) NSImageView *emojiImageView; // @synthesize emojiImageView=_emojiImageView;
-@property(nonatomic) __weak IMKUIEmojiLightweightCandidateWindowController *windowController; // @synthesize windowController=_windowController;
 
 @end
 

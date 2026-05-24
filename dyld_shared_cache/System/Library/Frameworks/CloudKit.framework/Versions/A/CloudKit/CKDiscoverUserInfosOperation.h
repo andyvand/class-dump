@@ -11,13 +11,11 @@
 @interface CKDiscoverUserInfosOperation : CKOperation
 {
     NSArray *_emailAddresses;
-    NSArray *_userRecordIDs;
-    CDUnknownBlockType _discoverUserInfosCompletionBlock;
 }
 
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (CDUnknownBlockType);
 - (void);
@@ -26,9 +24,7 @@
 - (id)ntacts;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType discoverUserInfosCompletionBlock; // @synthesize discoverUserInfosCompletionBlock=_discoverUserInfosCompletionBlock;
 @property(copy, nonatomic) NSArray *emailAddresses; // @synthesize emailAddresses=_emailAddresses;
-@property(copy, nonatomic) NSArray *userRecordIDs; // @synthesize userRecordIDs=_userRecordIDs;
 
 @end
 

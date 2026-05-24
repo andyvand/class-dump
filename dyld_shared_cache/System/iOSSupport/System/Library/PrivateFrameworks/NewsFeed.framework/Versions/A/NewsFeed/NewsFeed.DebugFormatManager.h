@@ -7,14 +7,6 @@
 @interface NewsFeed.DebugFormatManager
 {
     id lock;
-    id packageCache;
-    id workspaceCache;
-    id sourceCache;
-    id service;
-    id fontManager;
-    id cacheManager;
-    id $__lazy_storage_$_environment;
-    id queue;
 }
 
 @end

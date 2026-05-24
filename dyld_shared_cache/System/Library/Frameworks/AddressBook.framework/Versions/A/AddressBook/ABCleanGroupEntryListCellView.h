@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTextField, NSView;
+@class NSView;
 
 @interface ABCleanGroupEntryListCellView
 {
 }
 
-- (void);
-- (void);
+- (void)6;
+- (void)E;
 - (void);
 - (void);
 - (id)ewItem"16B24;
@@ -19,14 +19,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSView *accessoryView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic) NSTextField *textField;
 
 @end
 

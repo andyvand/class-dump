@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PFARepackagingExecutionFBFFailure : SISchemaInstrumentationMessage
 {
     int _flErrorCode;
-    struct {
-        unsigned int flErrorCode:1;
-    } _has;
 }
 
 - (void);
@@ -24,18 +19,16 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)migrated %@ to %@;
 - (id);
 - (id)0@ù
 × ;
-- (id)sOnDeviceIndexSearchContext;
+- (id)_hasOnDeviceIndexSearchContext;
 - (id)AudioStartRecordingContext;
 
 // Remaining properties
 @property(nonatomic) int flErrorCode; // @synthesize flErrorCode=_flErrorCode;
-@property(nonatomic) _Bool hasFlErrorCode;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

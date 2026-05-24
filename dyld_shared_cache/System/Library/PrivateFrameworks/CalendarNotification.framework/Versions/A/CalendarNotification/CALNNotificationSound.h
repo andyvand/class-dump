@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CALNNotificationSound
 {
     long long _alertType;
-    NSString *_alertTopic;
 }
 
 + (id);
@@ -25,11 +22,10 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id)"EKUIResizingTextField",R,V_textField;
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *alertTopic; // @synthesize alertTopic=_alertTopic;
 @property(readonly, nonatomic) long long alertType; // @synthesize alertType=_alertType;
 
 @end

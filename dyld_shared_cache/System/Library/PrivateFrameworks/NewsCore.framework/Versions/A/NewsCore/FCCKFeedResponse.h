@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
-
 @interface FCCKFeedResponse
 {
     _Bool _reachedEnd;
-    _Bool _reachedOrderLimit;
-    _Bool _wasDropped;
-    NSString *_feedID;
-    NSArray *_feedItemAndArticleRecords;
-    unsigned long long _extent;
-    NSData *_cursor;
 }
 
-- (id);
+- (id)";
 - (void)parServices/feldsparcore/Classes/FCFeaturedArticlesOperation.m;
 
 @end

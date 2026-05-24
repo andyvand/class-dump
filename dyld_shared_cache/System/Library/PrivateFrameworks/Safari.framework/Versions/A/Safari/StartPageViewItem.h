@@ -4,38 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSView, StartPageViewItemVisualEffect;
-@protocol StartPageBackgroundImageIdentifierProvider;
+@class StartPageViewItemVisualEffect;
 
 __attribute__((visibility("hidden")))
 @interface StartPageViewItem
 {
     StartPageViewItemVisualEffect *_visualEffectBackground;
-    NSView *_safariBoxShadow;
-    _Bool _usesCompactAppearance;
-    _Bool _usesBoxShadow;
-    id <StartPageBackgroundImageIdentifierProvider> _backgroundImageIdentifierProvider;
 }
 
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)kA;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)dShowContentsMenuFromEvent:(id)arg1 waitedForDragDelay: /* Error: Ran out of types for this method. */;
+- (void)Invalid source user;
+- (void)shouldShowContentsMenuFromEvent:(id)arg1 waitedForDragDelay: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void)ÿÿ;
 - (void)ÿX.;
 
 // Remaining properties
-@property(nonatomic) __weak id <StartPageBackgroundImageIdentifierProvider> backgroundImageIdentifierProvider; // @synthesize backgroundImageIdentifierProvider=_backgroundImageIdentifierProvider;
-@property(nonatomic) _Bool usesBoxShadow; // @synthesize usesBoxShadow=_usesBoxShadow;
 @property(nonatomic) _Bool usesCompactAppearance; // @synthesize usesCompactAppearance=_usesCompactAppearance;
 
 @end

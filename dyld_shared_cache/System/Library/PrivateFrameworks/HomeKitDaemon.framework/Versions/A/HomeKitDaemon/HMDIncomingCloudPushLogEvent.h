@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 + (id);
 - (id);
 - (id);
-- (void)ModeAtHome;
+- (void)cameraAccessModeAtHome;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *topic; // @synthesize topic=_topic;

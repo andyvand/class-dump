@@ -4,6 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKBalloonView, UIAlertController;
+
 @protocol CKBalloonViewDelegate
+- (void)_webView:(CKBalloonView *)arg1 queryPermission:forOrigin:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)V_minSize;
+- (void)tringInsideFrame;
+- (void)Qo__AASgt;
+
+@optional
+- (void)requiresNetworkToGeneratePreview;
+- (void)addChildWindow:(CKBalloonView *)arg1 ordered: /* Error: Ran out of types for this method. */;
+- (void)ICAudioController",R,N;
+- (void),V_attachment;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)o;
+- (void){error:(CKBalloonView *)arg1 %s};
+- (void)ror getting the CGImageRef or PDFPage ready.;
+- (void){prompt:(CKBalloonView *)arg1 %@}%s:(UIAlertController *)arg2 %d;
 @end
 

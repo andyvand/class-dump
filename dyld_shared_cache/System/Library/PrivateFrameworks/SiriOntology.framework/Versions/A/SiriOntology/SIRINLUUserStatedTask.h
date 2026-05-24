@@ -9,7 +9,6 @@
 @interface SIRINLUUserStatedTask
 {
     USOSerializedGraph *_task;
-    USOSerializedGraph *_goal;
 }
 
 + (_Bool);
@@ -25,7 +24,6 @@
 - (void)orise_common_App;
 
 // Remaining properties
-@property(retain, nonatomic) USOSerializedGraph *goal; // @synthesize goal=_goal;
 @property(retain, nonatomic) USOSerializedGraph *task; // @synthesize task=_task;
 
 @end

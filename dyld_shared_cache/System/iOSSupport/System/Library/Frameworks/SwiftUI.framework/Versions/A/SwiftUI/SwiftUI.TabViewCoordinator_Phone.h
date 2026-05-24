@@ -9,22 +9,6 @@
 @interface SwiftUI.TabViewCoordinator_Phone : SwiftUI.PlatformViewCoordinator
 {
     id tabs;
-    id tabCache;
-    id selectionCache;
-    id viewControllers;
-    id groupHostCache;
-    id currentTabIdentifiers;
-    id selected;
-    id lastSizeClass;
-    id lastSelection;
-    id sidebarConfiguration;
-    id isUIKitSidebarVisible;
-    id customization;
-    id popoverBridge;
-    id nextPopoverSeed;
-    id searchState;
-    id searchIndex;
-    id currentTabDropTarget;
 }
 
 - (void);
@@ -39,7 +23,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)=;
 - (void);
 - (unsigned long long);
 - (id);

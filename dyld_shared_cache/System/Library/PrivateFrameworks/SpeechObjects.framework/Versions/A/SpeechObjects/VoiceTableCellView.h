@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTextField, SOVoiceRowCheckboxButton;
+@class SOVoiceRowCheckboxButton;
 
 @interface VoiceTableCellView
 {
     SOVoiceRowCheckboxButton *_activeCheckbox;
-    SOVoiceRowCheckboxButton *_downloadCheckbox;
-    NSTextField *_downloadMessageTextField;
 }
 
 - (id);
@@ -19,8 +17,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) SOVoiceRowCheckboxButton *activeCheckbox; // @synthesize activeCheckbox=_activeCheckbox;
-@property(readonly, nonatomic) SOVoiceRowCheckboxButton *downloadCheckbox; // @synthesize downloadCheckbox=_downloadCheckbox;
-@property(readonly, nonatomic) NSTextField *downloadMessageTextField; // @synthesize downloadMessageTextField=_downloadMessageTextField;
 
 @end
 

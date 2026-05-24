@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBSProcessAssertion, FBSProcessExecutionPolicy, FBSProcessWatchdog, NSString;
-@protocol FBSProcess, FBSSceneHandle;
+@class NSString;
 
 @interface FBSSceneActivitySession
 {
     NSString *_name;
-    NSString *_identifier;
-    id <FBSSceneHandle> _scene;
-    FBSProcessExecutionPolicy *_executionPolicy;
-    CDUnknownBlockType _errorHandler;
-    _Bool _open;
-    _Bool _invalidated;
-    id <FBSProcess> _process;
-    FBSProcessAssertion *_assertion;
-    FBSProcessWatchdog *_watchdog;
 }
 
 - (void);
@@ -26,7 +16,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)?	;
 - (void);
 - (id);
 - (id);
@@ -34,32 +24,19 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (id)competingTeamPlayDetailHeaderItem;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)T7;
 - (_Bool);
-- (_Bool);
+- (_Bool)commit finished;
 - (void);
 - (CDUnknownBlockType);
 - (void);
 - (_Bool)ping property "%@" in <%@> to BSCanonicalOrientationMapResolver;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType errorHandler; // @dynamic errorHandler;
-@property(copy, nonatomic) FBSProcessExecutionPolicy *executionPolicy; // @synthesize executionPolicy=_executionPolicy;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic, getter=isInvalidated) _Bool invalidated; // @synthesize invalidated=_invalidated;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic, getter=isOpen) _Bool open; // @synthesize open=_open;
-@property(nonatomic) __weak id <FBSSceneHandle> scene; // @synthesize scene=_scene;
-@property(readonly) Class superclass;
 
 @end
 

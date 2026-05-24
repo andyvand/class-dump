@@ -6,6 +6,8 @@
 
 @interface ARKit.VisualDepthProvider
 {
+    id _cVisualDepthProvider;
+    id _cVisualDepthConfiguration;
 }
 
 @end

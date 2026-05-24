@@ -9,14 +9,32 @@
 }
 
 + (id);
-+ (id);
-+ (id);
-+ (id);
-- (double);
-- (double);
++ (id)basePrioritySetExplicitly;
++ (id)downloadFileURL;
++ (id)6z9;
+- (double)E	EE(EF	FF(FG	GG(GH	HH(HEE
+EEEE)E8EFF
+FFFF)F8FGG
+GGGG)G8GHH
+HHHH)H8HI	II(IJ	JJ(JK	KK(KL	LL(LII
+IIII)I8IJJ
+JJJJ)J8JKK
+KKKK)K8KLL
+LLLL)L8LMMNNOOPPQQRRSSTTM	MM(MN	NN(NO	OO(OP	PP(PMM
+MMMM)M8MNN
+NNNN)N8NOO
+OOOO)O8OPP
+PPPP)P8PQ	QQ(QR	RR(RS	SS(ST	TT(TQQ
+QQQQ)Q8QRR
+RRRR)R8RSS
+SSSS)S8STT
+TTTT)T8T;
+- (double)B)B8BCC
+CCCC)C8CDD
+DDDD)D8D,;
 - (_Bool);
 - (_Bool);
-- (id)ceGrayColorSpace;
+- (id)_invertedDeviceGrayColorSpace;
 
 @end
 

@@ -9,13 +9,13 @@ __attribute__((visibility("hidden")))
 {
 }
 
++ (id)b;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)historyQuery:(id)arg1 chatID:(id)arg2 services:(id)arg3 finishedWithResult:(id)arg4 limit:(id)arg5;
 + (id);
 + (id);
 

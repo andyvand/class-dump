@@ -33,17 +33,9 @@ struct LogCategoryPrivate;
 
 struct LogOutput;
 
-struct PairingSubstate {
-    int contacts;
-    int homeKit;
-    int visual;
-    int pairVerify;
-    int pin;
-};
-
 struct _NSRange {
-    unsigned long long location;
-    unsigned long long length;
+    unsigned long long _field1;
+    unsigned long long _field2;
 };
 
 struct __SecKey {
@@ -53,11 +45,6 @@ struct __SecKey {
     } _field1;
     struct __SecKeyDescriptor *_field2;
     void *_field3;
-};
-
-struct __sbuf {
-    char *_field1;
-    int _field2;
 };
 
 #pragma mark Typedef'd Structures

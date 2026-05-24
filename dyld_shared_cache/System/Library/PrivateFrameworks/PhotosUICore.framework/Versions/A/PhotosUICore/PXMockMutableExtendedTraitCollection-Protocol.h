@@ -5,21 +5,14 @@
 //
 
 @protocol PXMockMutableExtendedTraitCollection
+- (long long)n!;
+- (void)RecipeArticleDrawerViewController;
 - (double);
 - (struct NSEdgeInsets);
-- (void)r;
+- (void)ActionWrapper;
 - (long long)Ì:Nlo: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) long long contentSizeCategory;
-@property(nonatomic) double displayScale;
-@property(nonatomic) long long formFactor;
-@property(nonatomic) long long layoutOrientation;
-@property(nonatomic) struct CGSize layoutReferenceSize;
-@property(nonatomic) long long layoutSizeClass;
-@property(nonatomic) struct NSEdgeInsets safeAreaInsets;
 @property(nonatomic) long long userInterfaceIdiom;
-@property(nonatomic) unsigned long long visibleChromeElements;
-@property(nonatomic) long long windowOrientation;
 @end
 

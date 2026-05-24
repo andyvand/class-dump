@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaUUID;
+@class NSArray;
 
 @interface NLXSchemaMARRSContextualSpanMatcherEnded : SISchemaInstrumentationMessage
 {
     NSArray *_contextualSpans;
-    SISchemaUUID *_linkId;
-    _Bool _hasLinkId;
 }
 
 - (void);
@@ -23,17 +21,18 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
+- (_Bool)K
+;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)";
 - (id);
 - (id)isFromSRRSearch;
 - (id)esolverConfig",&,N,V_resolverConfig;
@@ -41,9 +40,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *contextualSpans; // @synthesize contextualSpans=_contextualSpans;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
 
 @end
 

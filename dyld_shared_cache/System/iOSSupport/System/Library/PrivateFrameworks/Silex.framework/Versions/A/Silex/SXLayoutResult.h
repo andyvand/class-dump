@@ -5,13 +5,10 @@
 //
 
 @class SXLayoutBlueprint;
-@protocol SXDOM;
 
 @interface SXLayoutResult
 {
     SXLayoutBlueprint *_blueprint;
-    id <SXDOM> _DOM;
-    double _duration;
 }
 
 - (id);
@@ -22,9 +19,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) id <SXDOM> DOM; // @synthesize DOM=_DOM;
 @property(readonly, nonatomic) SXLayoutBlueprint *blueprint; // @synthesize blueprint=_blueprint;
-@property(readonly, nonatomic) double duration; // @synthesize duration=_duration;
 
 @end
 

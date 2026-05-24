@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateInterval, NSNumber, NSSet, NSString;
-
 @interface MapsSuggestionsStoredVisitFetchOptions
 {
     _Bool _ascending;
-    _Bool _labelVisit;
-    long long _confidence;
-    NSDateInterval *_dateInterval;
-    NSNumber *_limit;
-    NSSet *_sources;
 }
 
 - (id);
@@ -32,19 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool ascending; // @synthesize ascending=_ascending;
-@property(readonly, nonatomic) long long confidence; // @synthesize confidence=_confidence;
-@property(copy, nonatomic) NSDateInterval *dateInterval; // @synthesize dateInterval=_dateInterval;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool labelVisit; // @synthesize labelVisit=_labelVisit;
-@property(readonly, nonatomic) NSNumber *limit; // @synthesize limit=_limit;
-@property(readonly, nonatomic) NSSet *sources; // @synthesize sources=_sources;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *uniqueName;
 
 @end
 

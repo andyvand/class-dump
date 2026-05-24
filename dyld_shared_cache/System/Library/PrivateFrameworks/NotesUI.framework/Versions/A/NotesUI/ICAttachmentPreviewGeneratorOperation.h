@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICAttachmentModel, NSManagedObjectContext, NSManagedObjectID;
+@class NSManagedObjectID;
 
 @interface ICAttachmentPreviewGeneratorOperation
 {
     NSManagedObjectID *_attachmentID;
-    NSManagedObjectContext *_managedObjectContext;
-    ICAttachmentModel *_attachmentModel;
 }
 
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -28,9 +26,6 @@
 
 // Remaining properties
 @property(retain) NSManagedObjectID *attachmentID; // @synthesize attachmentID=_attachmentID;
-@property(retain) ICAttachmentModel *attachmentModel; // @synthesize attachmentModel=_attachmentModel;
-@property(retain) NSManagedObjectContext *managedObjectContext; // @synthesize managedObjectContext=_managedObjectContext;
-@property(readonly, nonatomic) unsigned long long type;
 
 @end
 

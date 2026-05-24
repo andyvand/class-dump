@@ -7,6 +7,7 @@
 @interface HomeAccessoryControlUI.TransitionTileHelper
 {
     id shouldDisableCellRefresh;
+    id;
 }
 
 @end

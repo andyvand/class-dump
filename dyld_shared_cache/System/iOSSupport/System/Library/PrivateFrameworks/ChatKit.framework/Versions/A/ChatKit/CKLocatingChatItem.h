@@ -14,13 +14,13 @@
 
 - (id);
 - (struct CGSize);
-- (void);
-- (Class);
+- (void)lineAttachment:(id)arg1 atTextRange:with an out of bound range:%@. Adding token attachment to the end of text storage instead, %lu. /* Error: Ran out of types for this method. */;
+- (Class)creation for %@;
 - (_Bool);
 - (id);
-- (id)sistentMenuManager;
-- (id)eAdditionalItemsCount;
-- (id)ght;
+- (id)chatBotPersistentMenuManager;
+- (id)_updateAdditionalItemsCount;
+- (id)sectionSpacerHeight;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *locationText;

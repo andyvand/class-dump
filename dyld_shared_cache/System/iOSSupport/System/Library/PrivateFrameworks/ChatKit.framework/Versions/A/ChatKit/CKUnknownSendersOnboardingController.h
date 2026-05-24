@@ -12,12 +12,12 @@
 }
 
 - (void);
-- (id);
+- (id)CTagAllTagsItemIdentifier",R,N;
 - (void);
 - (void);
 - (id);
 - (void);
-- (void)ggleBoolKey;
+- (void)kAppStoreAutoEnableToggleBoolKey;
 
 // Remaining properties
 @property(nonatomic) __weak id <CKUnknownSendersOnboardingControllerDelegate> delegate; // @synthesize delegate=_delegate;

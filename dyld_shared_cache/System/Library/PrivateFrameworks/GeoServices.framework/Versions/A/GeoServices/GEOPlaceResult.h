@@ -4,58 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOAddress, GEOPlace, GEOPlaceSearchRequest, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class GEOPlace, PBDataReader;
 
 @interface GEOPlaceResult
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_additionalPlaces;
-    NSMutableArray *_disambiguationLabels;
-    unsigned long long _flyoverTourMuid;
-    NSMutableArray *_matchedTokens;
-    NSMutableArray *_namedFeatures;
-    NSMutableArray *_namedFields;
-    GEOPlace *_place;
-    NSString *_quad;
-    GEOPlaceSearchRequest *_revgeoRequestTemplate;
-    NSString *_suggestedQuery;
-    GEOAddress *_tokenEntity;
-    NSMutableArray *_unmatchedStrings;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _cacheControl;
-    unsigned int _travelDistance;
-    unsigned int _travelTime;
-    struct {
-        unsigned int has_flyoverTourMuid:1;
-        unsigned int has_cacheControl:1;
-        unsigned int has_travelDistance:1;
-        unsigned int has_travelTime:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_additionalPlaces:1;
-        unsigned int read_disambiguationLabels:1;
-        unsigned int read_matchedTokens:1;
-        unsigned int read_namedFeatures:1;
-        unsigned int read_namedFields:1;
-        unsigned int read_place:1;
-        unsigned int read_quad:1;
-        unsigned int read_revgeoRequestTemplate:1;
-        unsigned int read_suggestedQuery:1;
-        unsigned int read_tokenEntity:1;
-        unsigned int read_unmatchedStrings:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
++ (Class)Soft Link:/System/Library/Frameworks/Accounts.framework/Accounts (%d) /* Error: Ran out of types for this method. */;
++ (Class)ailed to Soft Link:/System/Library/PrivateFrameworks/CrashReporterSupport.framework/CrashReporterSupport (%d) /* Error: Ran out of types for this method. */;
++ (Class)join-date-epoch;
 + (Class);
 + (Class);
-+ (Class);
-+ (Class);
-+ (Class);
-+ (_Bool)Viewport:(id)arg1;
++ (_Bool)setIsContainedInViewport:(id)arg1;
 - (unsigned long long);
 - (id);
 - (id);
@@ -64,23 +26,20 @@
 - (id);
 - (void);
 - (void);
+- (void)@16;
+- (void)setRelationshipKeyPathsForPrefetching:(id)arg1;
+- (void)setCreationDate:(id)arg1;
+- (void)metadataForPersistentStore:(id)arg1;
+- (void)isPristine;
+- (void)builderWithStoreDescription:(_Bool)arg1;
+- (void)bucketKey;
+- (void)CNCDIOSLegacyIdentifierRegistration;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (void)ic}@);
+- (void)%d;
+- (void)contactPictureAttachmentId;
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
@@ -88,6 +47,9 @@
 - (unsigned long long);
 - (id);
 - (id);
+- (unsigned long long);
+- (id);
+- (id)R;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -113,7 +75,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (void);
@@ -122,55 +84,32 @@
 - (int);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
+- (id)multiUserConfidentScoreThresholdForPhId: /* Error: Ran out of types for this method. */;
+- (void)D_Latency_V2 (ms):(id)arg1 %{public}f;
+- (void)SiriClientBehaviorMonitor notifyWillStartStreamWithContext:(unsigned long long)arg1 option:forAccessory:]_block_invoke /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)>;
 - (unsigned int);
 - (_Bool);
 - (id);
 - (void);
 - (id)6b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}24@32;
 - (void)__bucket_list_deallocator<std:(id)arg1:allocator<std::__hash_node_base<std::__hash_node<geo::TransitEdgePiece, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<geo::TransitEdgePiece, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
-- (id)omMapsSuggesions: /* Error: Ran out of types for this method. */;
-- (id)RadiusVector;
+- (id)setIsFromMapsSuggesions: /* Error: Ran out of types for this method. */;
+- (id)_topocentricRadiusVector;
 - (id)t¼P;
 - (id)in (7, 6);
 - (id)t¨;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *additionalPlaces;
-@property(nonatomic) int cacheControl;
-@property(retain, nonatomic) NSMutableArray *disambiguationLabels;
-@property(nonatomic) unsigned long long flyoverTourMuid;
-@property(nonatomic) _Bool hasCacheControl;
-@property(nonatomic) _Bool hasFlyoverTourMuid;
-@property(readonly, nonatomic) _Bool hasQuad;
-@property(readonly, nonatomic) _Bool hasRevgeoRequestTemplate;
-@property(readonly, nonatomic) _Bool hasSuggestedQuery;
-@property(readonly, nonatomic) _Bool hasTokenEntity;
-@property(nonatomic) _Bool hasTravelDistance;
-@property(nonatomic) _Bool hasTravelTime;
-@property(retain, nonatomic) NSMutableArray *matchedTokens;
-@property(retain, nonatomic) NSMutableArray *namedFeatures;
-@property(retain, nonatomic) NSMutableArray *namedFields;
 @property(retain, nonatomic) GEOPlace *place;
-@property(retain, nonatomic) NSString *quad;
-@property(retain, nonatomic) GEOPlaceSearchRequest *revgeoRequestTemplate;
-@property(retain, nonatomic) NSString *suggestedQuery;
-@property(retain, nonatomic) GEOAddress *tokenEntity;
-@property(nonatomic) unsigned int travelDistance;
-@property(nonatomic) unsigned int travelTime;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) NSMutableArray *unmatchedStrings;
 
 @end
 

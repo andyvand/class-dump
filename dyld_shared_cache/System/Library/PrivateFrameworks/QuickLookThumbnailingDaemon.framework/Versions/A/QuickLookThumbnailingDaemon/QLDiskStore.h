@@ -11,11 +11,6 @@ __attribute__((visibility("hidden")))
 @interface QLDiskStore
 {
     NSObject<OS_dispatch_queue> *_afterInit;
-    unsigned char _disableQuickLook;
-    _Bool _isExternalEncrypted;
-    unsigned char _disableCache;
-    struct statfs _fs_stat;
-    _Bool _encrypted;
 }
 
 + (id);
@@ -28,28 +23,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (unsigned char);
-- (void);
+- (void)@;
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
 - (void);
+- (void)ment:(unsigned char)arg1 request:error:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
-- (void);
-- (void);
-- (const char *)bnailGenerationIconVariant;
+- (const char *)QLThumbnailGenerationIconVariant;
 
 // Remaining properties
-@property(readonly) _Bool acceptsThumbnails;
-@property(readonly) unsigned long long availableDiskSpace;
-@property unsigned char disableCache; // @synthesize disableCache=_disableCache;
 @property unsigned char disableQuickLook; // @synthesize disableQuickLook=_disableQuickLook;
-@property(readonly) _Bool distant;
-@property(readonly) _Bool encrypted; // @synthesize encrypted=_encrypted;
-@property struct statfs fs_stat; // @synthesize fs_stat=_fs_stat;
-@property(readonly) _Bool hasThumbnailCache;
-@property(nonatomic) _Bool isExternalEncrypted; // @synthesize isExternalEncrypted=_isExternalEncrypted;
-@property(readonly) const char *mountPath;
 
 @end
 

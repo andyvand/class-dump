@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKShareParticipant, HMDShareInvitation, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDShareParticipant
 {
     _Bool _hasWriteAccess;
-    _Bool _hasAccepted;
-    NSUUID *_clientIdentifier;
-    CKShareParticipant *_ckShareParticipant;
-    HMDShareInvitation *_pendingInvitation;
 }
 
-- (id);
+- (id)ageController",&,N,V_storageController;
 - (id);
 - (id);
 - (_Bool);
@@ -25,16 +21,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id)opyWithZone:(struct _NSZone *)arg1;
+- (id)mutableCopyWithZone:(struct _NSZone *)arg1;
 - (id)ated to:%@ (%@/%@) /* Error: Ran out of types for this method. */;
 - (void)er;
 
 // Remaining properties
-@property(readonly, copy) CKShareParticipant *ckShareParticipant; // @synthesize ckShareParticipant=_ckShareParticipant;
 @property(readonly, copy) NSUUID *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(readonly) _Bool hasAccepted; // @synthesize hasAccepted=_hasAccepted;
-@property(readonly) _Bool hasWriteAccess; // @synthesize hasWriteAccess=_hasWriteAccess;
-@property(readonly) HMDShareInvitation *pendingInvitation; // @synthesize pendingInvitation=_pendingInvitation;
 
 @end
 

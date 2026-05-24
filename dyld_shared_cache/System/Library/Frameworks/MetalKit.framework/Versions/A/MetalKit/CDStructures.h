@@ -4,9 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-#pragma mark Function Pointers and Blocks
-
-typedef void (*CDUnknownFunctionPointerType)(void); // return type and parameters are unknown
+#pragma mark Blocks
 
 typedef void (^CDUnknownBlockType)(void); // return type and parameters are unknown
 
@@ -23,33 +21,8 @@ struct CGRect {
 };
 
 struct CGSize {
-    double width;
-    double height;
-};
-
-struct MTLCompressedPixelFormatInfo {
-    unsigned long long blockBytes;
-    unsigned long long blockWidth;
-    unsigned long long blockHeight;
-    unsigned long long blockDepth;
-};
-
-struct MTLNormalPixelFormatInfo {
-    unsigned long long pixelBytes;
-    unsigned char componentCount;
-    unsigned char alignment;
-    unsigned long long pixelBytesRender;
-    unsigned long long pixelBytesRenderMSAA;
-};
-
-struct MTLPixelFormatInfo {
-    char *name;
-    unsigned int flags;
-    unsigned long long castClass;
-    union {
-        struct MTLNormalPixelFormatInfo normal;
-        struct MTLCompressedPixelFormatInfo compressed;
-    } type;
+    double _field1;
+    double _field2;
 };
 
 #pragma mark Typedef'd Structures
@@ -61,11 +34,11 @@ typedef struct {
 } CDStruct_14f26992;
 
 typedef struct {
-    double red;
-    double green;
-    double blue;
-    double alpha;
-} CDStruct_3ead2808;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
+} CDStruct_d2b197d1;
 
 typedef struct {
     CDStruct_14f26992 _field1;

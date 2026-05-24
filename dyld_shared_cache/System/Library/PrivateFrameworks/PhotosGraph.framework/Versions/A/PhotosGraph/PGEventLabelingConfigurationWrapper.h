@@ -11,12 +11,12 @@
     PGEventLabelingConfiguration *_configuration;
 }
 
-+ (_Bool);
++ (_Bool)�;
 + (_Bool);
 - (id);
 - (double);
 - (double);
-- (id);
+- (id);
 - (void)de"8^@16;
 
 @end

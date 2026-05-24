@@ -8,10 +8,6 @@ __attribute__((visibility("hidden")))
 @interface VCCCMessageAcknowledgment
 {
     unsigned long long _transactionID;
-    unsigned int _status;
-    struct {
-        unsigned int status:1;
-    } _has;
 }
 
 - (id);
@@ -21,7 +17,8 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool);
 - (unsigned long long);
-- (void);
+- (void)lx %s :(unsigned long long)arg1 format (%d) %c%c%c%c [%c%c%c%c]is not supported yet
+;
 - (_Bool);
 - (void);
 - (id);
@@ -32,8 +29,6 @@ __attribute__((visibility("hidden")))
 - (void)e interfaces (already retried %d times);
 
 // Remaining properties
-@property(nonatomic) _Bool hasStatus;
-@property(nonatomic) unsigned int status; // @synthesize status=_status;
 @property(nonatomic) unsigned long long transactionID; // @synthesize transactionID=_transactionID;
 
 @end

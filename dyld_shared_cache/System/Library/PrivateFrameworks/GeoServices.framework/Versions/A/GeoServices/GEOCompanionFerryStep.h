@@ -4,28 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPBTransitArtwork, NSMutableArray, NSString, PBDataReader;
-@protocol GEOTransitArtworkDataSource;
+@class PBDataReader;
 
 @interface GEOCompanionFerryStep
 {
     PBDataReader *_reader;
-    struct GEOJunctionElement *_junctionElements;
-    unsigned long long _junctionElementsCount;
-    unsigned long long _junctionElementsSpace;
-    GEOPBTransitArtwork *_artworkOverride;
-    NSMutableArray *_maneuverNames;
-    NSMutableArray *_signposts;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _junctionType;
-    int _maneuverType;
-    CDStruct_9011fabd _flags;
 }
 
-+ (Class);
-+ (_Bool)erOfLegs:(id)arg1;
++ (Class)By;
++ (_Bool)setHasNumberOfLegs:(id)arg1;
 + (Class)7;
 - (unsigned long long);
 - (id);
@@ -38,68 +25,51 @@
 - (void);
 - (void);
 - (void);
+- (id)keychainFacade;
+- (int)keyForEntitlement:auditToken: /* Error: Ran out of types for this method. */;
+- (unsigned long long)isUnitTestingCachedValue;
+- (id)isUnitTesting;
+- (id)isStringPhoneNumber:(unsigned long long)arg1;
+- (id)isObserverReceiving;
+- (id)initWithBackgroundScheduler:(int)arg1 mainThreadScheduler:immediateScheduler:serialSchedulerProvider:synchronousSerialSchedulerProvider:readerWriterSchedulerProvider: /* Error: Ran out of types for this method. */;
+- (int)initWithBackgroundScheduler:mainThreadScheduler:immediateScheduler:serialSchedulerProvider:synchronousSerialSchedulerProvider:readerWriterSchedulerProvider: /* Error: Ran out of types for this method. */;
+- (unsigned long long)initWithAuditToken:assumedIdentity:tccServices: /* Error: Ran out of types for this method. */;
+- (struct GEOJunctionElement *)initWithAuditToken:assumedIdentity:tccServices: /* Error: Ran out of types for this method. */;
+- (struct GEOJunctionElement)initWithAuditToken:(unsigned long long)arg1 assumedIdentity: /* Error: Ran out of types for this method. */;
+- (_Bool)CNDataEncryptor;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
 - (id);
 - (int);
+- (int)�;;
+- (void);
+- (void);
+- (id)`
+;
+- (id);
+- (void)injectAudio:(id)arg1 toDeviceWithUUID:withNumChannels:withUserIntentOptions:completion: /* Error: Ran out of types for this method. */;
+- (id)ationTraining:forResultCandidateId:sharedUserId:] /* Error: Ran out of types for this method. */;
+- (void)4d;
 - (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (int);
-- (unsigned long long);
-- (struct GEOJunctionElement *);
-- (struct GEOJunctionElement);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (int);
-- (int);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (id)ctionIdentifier;
+- (id)sectionIdentifier;
 - (id)\7;
-- (id)cation;
+- (id)arrivedAtChargeLocation;
 - (id)ÿÿ;
 - (void)_ÿø;
 - (int)iÁþ;
 
 // Remaining properties
-@property(retain, nonatomic) GEOPBTransitArtwork *artworkOverride;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasArtworkOverride;
-@property(nonatomic) _Bool hasJunctionType;
 @property(nonatomic) _Bool hasManeuverType;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct GEOJunctionElement *junctionElements;
-@property(readonly, nonatomic) unsigned long long junctionElementsCount;
-@property(nonatomic) int junctionType;
-@property(readonly, nonatomic) id <GEOTransitArtworkDataSource> maneuverArtworkOverride;
-@property(retain, nonatomic) NSMutableArray *maneuverNames;
-@property(nonatomic) int maneuverType;
-@property(retain, nonatomic) NSMutableArray *signposts;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) int transportType;
 
 @end
 

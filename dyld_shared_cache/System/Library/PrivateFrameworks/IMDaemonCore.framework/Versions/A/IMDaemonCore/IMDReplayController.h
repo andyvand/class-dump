@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDReplayStorageController, IMDReplayStorageIterationContext, NSDictionary;
+@class IMDReplayStorageController, NSDictionary;
 
 @interface IMDReplayController
 {
     IMDReplayStorageController *_suspendedStorageController;
-    _Bool _isRecordingReplayDB;
-    NSDictionary *_syncTaskByServiceName;
-    IMDReplayStorageIterationContext *_heldDeletionContext;
-    CDUnknownBlockType _automationCompletionBlock;
-    IMDReplayStorageController *_storageController;
 }
 
 + (long long);
@@ -28,12 +23,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)0q;
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)FGHIJKLMNOPQRSTUVWXYa;
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (_Bool);
 - (CDUnknownBlockType);
@@ -43,10 +38,6 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType automationCompletionBlock; // @synthesize automationCompletionBlock=_automationCompletionBlock;
-@property(retain, nonatomic) IMDReplayStorageIterationContext *heldDeletionContext; // @synthesize heldDeletionContext=_heldDeletionContext;
-@property(readonly, nonatomic) _Bool isRecordingReplayDB; // @synthesize isRecordingReplayDB=_isRecordingReplayDB;
-@property(retain, nonatomic) IMDReplayStorageController *storageController; // @synthesize storageController=_storageController;
 @property(retain, nonatomic) NSDictionary *syncTaskByServiceName; // @synthesize syncTaskByServiceName=_syncTaskByServiceName;
 
 @end

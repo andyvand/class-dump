@@ -6,40 +6,32 @@
 
 #import <UIKitCore/UIView.h>
 
-@class CAShapeLayer, UIColor;
+@class UIColor;
 
 __attribute__((visibility("hidden")))
 @interface UITextSelectionRectView : UIView
 {
     UIColor *_selectionColor;
-    UIColor *_selectionBorderColor;
-    double _selectionBorderWidth;
-    double _selectionCornerRadius;
 }
 
-+ (Class);
++ (Class)_endTimes;
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)_replyEcho;
+- (void)CXDockSpecialFolders;
 - (void);
 - (id);
 - (double);
-- (void)eVisibility:(id)arg1;
-- (double)IKeyboardEmojiVariantViewCell;
+- (void)setTextLoupeVisibility:(id)arg1;
+- (double)UIKeyboardEmojiVariantViewCell;
 - (id)view is non-nil. self = %@, superview = %@;
 - (void)Fÿ>*;
 - (void)0ßg;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasPath;
-@property(readonly, nonatomic) CAShapeLayer *pathLayer;
-@property(retain, nonatomic) UIColor *selectionBorderColor; // @synthesize selectionBorderColor=_selectionBorderColor;
-@property(nonatomic) double selectionBorderWidth; // @synthesize selectionBorderWidth=_selectionBorderWidth;
-@property(retain, nonatomic) UIColor *selectionColor; // @synthesize selectionColor=_selectionColor;
-@property(nonatomic) double selectionCornerRadius; // @synthesize selectionCornerRadius=_selectionCornerRadius;
 
 @end
 

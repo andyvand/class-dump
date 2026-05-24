@@ -4,26 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRPlaybackQueue, MRPlaybackQueueSubscriptionController, MRPlayer, MRPlayerPath, NSArray, NSMutableArray, NSMutableDictionary, NSObject, NSOperationQueue;
-@protocol OS_dispatch_queue;
+@class MRPlaybackQueue, MRPlayerPath;
 
 __attribute__((visibility("hidden")))
 @interface MRNowPlayingPlayerClientRequests
 {
     MRPlaybackQueue *_playbackQueue;
-    unsigned int _playbackState;
-    NSArray *_supportedCommands;
-    MRPlayer *_playerProperties;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    NSObject<OS_dispatch_queue> *_responseQueue;
-    NSMutableDictionary *_playbackQueueCompletions;
-    NSMutableArray *_supportedCommandsCompletions;
-    NSMutableArray *_playbackStateCompletions;
-    NSMutableArray *_playerPropertiesCompletions;
-    NSOperationQueue *_enquedNowPlayingInfoRequests;
-    NSOperationQueue *_enquedNowPlayingInfoAssetRequests;
-    MRPlayerPath *_playerPath;
-    MRPlaybackQueueSubscriptionController *_subscriptionController;
 }
 
 - (unsigned int);
@@ -53,12 +39,7 @@ __attribute__((visibility("hidden")))
 - (void)resolvePlayerPath;
 
 // Remaining properties
-@property(copy, nonatomic) MRPlaybackQueue *playbackQueue;
-@property(nonatomic) unsigned int playbackState;
 @property(readonly, nonatomic) MRPlayerPath *playerPath; // @synthesize playerPath=_playerPath;
-@property(copy, nonatomic) MRPlayer *playerProperties;
-@property(readonly, nonatomic) MRPlaybackQueueSubscriptionController *subscriptionController; // @synthesize subscriptionController=_subscriptionController;
-@property(copy, nonatomic) NSArray *supportedCommands;
 
 @end
 

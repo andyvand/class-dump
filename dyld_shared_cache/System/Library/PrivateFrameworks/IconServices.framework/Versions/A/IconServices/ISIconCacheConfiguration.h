@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface ISIconCacheConfiguration
 {
     NSURL *_url;
-    NSString *_sandboxExtension;
-    NSString *_salt;
 }
 
 + (_Bool);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)$xXh|9k?9{ ($yXh|Zk?@{ ;
+- (id)�;
 - (void);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)objectForKeyedSubscript:(id)arg1;
 - (void);
 
 // Remaining properties
-@property(retain) NSString *salt; // @synthesize salt=_salt;
-@property(retain) NSString *sandboxExtension; // @synthesize sandboxExtension=_sandboxExtension;
 @property(retain) NSURL *url; // @synthesize url=_url;
 
 @end

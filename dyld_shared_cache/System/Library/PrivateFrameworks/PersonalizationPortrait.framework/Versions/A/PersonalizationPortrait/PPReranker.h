@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PPClientFeedbackHelper, PPNamedEntityStore, _PASLock;
+@class NSString, PPNamedEntityStore;
 
 @interface PPReranker
 {
     PPNamedEntityStore *_namedEntityStore;
-    PPClientFeedbackHelper *_clientFeedbackHelper;
-    _PASLock *_dataLock;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)`;
 - (id);
 - (void);
 - (void)Donation;

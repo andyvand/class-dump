@@ -7,16 +7,11 @@
 @interface _REMAppStoreReviewCloudConfigurationStorage
 {
     unsigned long long _appStoreReviewCreatedOrCompletedRemindersCountThreshold;
-    unsigned long long _appStoreReviewNumberOfForegroundsThreshold;
-    double _appStoreReviewTimeIntervalOfInterest;
-    double _appStoreReviewTimeIntervalSinceInitialForeground;
-    double _appStoreReviewTimeIntervalSinceLastPrompt;
-    double _appStoreReviewTimeIntervalSinceLastFetch;
 }
 
 - (id);
 - (double);
-- (double);
+- (double);
 - (double);
 - (double);
 - (unsigned long long);
@@ -24,11 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long appStoreReviewCreatedOrCompletedRemindersCountThreshold; // @synthesize appStoreReviewCreatedOrCompletedRemindersCountThreshold=_appStoreReviewCreatedOrCompletedRemindersCountThreshold;
-@property(readonly, nonatomic) unsigned long long appStoreReviewNumberOfForegroundsThreshold; // @synthesize appStoreReviewNumberOfForegroundsThreshold=_appStoreReviewNumberOfForegroundsThreshold;
-@property(readonly, nonatomic) double appStoreReviewTimeIntervalOfInterest; // @synthesize appStoreReviewTimeIntervalOfInterest=_appStoreReviewTimeIntervalOfInterest;
-@property(readonly, nonatomic) double appStoreReviewTimeIntervalSinceInitialForeground; // @synthesize appStoreReviewTimeIntervalSinceInitialForeground=_appStoreReviewTimeIntervalSinceInitialForeground;
-@property(readonly, nonatomic) double appStoreReviewTimeIntervalSinceLastFetch; // @synthesize appStoreReviewTimeIntervalSinceLastFetch=_appStoreReviewTimeIntervalSinceLastFetch;
-@property(readonly, nonatomic) double appStoreReviewTimeIntervalSinceLastPrompt; // @synthesize appStoreReviewTimeIntervalSinceLastPrompt=_appStoreReviewTimeIntervalSinceLastPrompt;
 
 @end
 

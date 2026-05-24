@@ -6,13 +6,12 @@
 
 #import <Vision/VNRequest.h>
 
-@class NSArray, NSNumber;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface VNCompoundRequest : VNRequest
 {
     NSArray *_originalRequests;
-    NSNumber *_cachedDependencyProcessingOrdinality;
 }
 
 + (_Bool);
@@ -27,16 +26,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)zero; try a more modest change in size;
 - (_Bool);
-- (id)ldKey_FullBody;
-- (void)erageRadius;
-- (long long)eptingOperation;
+- (id)VNShotflowDetectorFilterThresholdKey_FullBody;
+- (void)movingAverageRadius;
+- (long long)FaceInputAcceptingOperation;
 - (_Bool);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *originalRequests; // @synthesize originalRequests=_originalRequests;
-@property(readonly, nonatomic) struct CGRect regionOfInterest;
 
 @end
 

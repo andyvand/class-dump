@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)e a favorite;
 
 @end
 

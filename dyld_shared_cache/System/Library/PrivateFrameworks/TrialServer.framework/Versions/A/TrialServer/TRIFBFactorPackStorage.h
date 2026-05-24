@@ -4,47 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol TRIAssetExtracting, TRIPaths;
+@protocol TRIPaths;
 
 @interface TRIFBFactorPackStorage
 {
     id <TRIPaths> _paths;
-    id <TRIAssetExtracting> _extractor;
 }
 
 + (id);
-- (void);
+- (void)proResVideoCodecTypesEligibleForBackwardsCompatibilityTranscoding;
+- (_Bool)preflight;
+- (_Bool)preferredFilenameExtension;
+- (_Bool)notifyDataAvailableToHandler:(id)arg1 ignoreMinimumChunkLength:(id)arg2;
+- (void)nextValuePassingTest:(id)arg1;
+- (_Bool)needsCurrentEncodingBitRateUpdate;
+- (_Bool)mutableImagePropertyDictionaryForMetadata:(unsigned int *)arg1;
+- (id)livePhotoMinimumClientVersion;
+- (id)layoutByUpdatingClockIntersection:(id)arg1;
+- (id)layoutByUpdatingAdaptiveTimeFrame:(id)arg1;
+- (id)layoutByConformingGenericConfigurationToDevice:(id)arg1;
+- (id)initWithAVAsset:(id)arg1 options:(id)arg2 timeZoneLookup:(id)arg3;
+- (void)getCropRectForPortraitImage:(id)arg1 size:(id)arg2 imgWidth:(id)arg3 imgHeight:centerX:centerY: /* Error: Ran out of types for this method. */;
+- (id)firstVideoTrackFormatDebugDescriptionForAsset:(id)arg1;
+- (id)fingerprintWithAssetAdjustmentFingerprintData:(id)arg1;
+- (id)f1Threshold;
+- (id)extendedSceneClassId;
+- (id)exposureTime;
+- (id)exifSubsecTimeFromDate: /* Error: Ran out of types for this method. */;
+- (id)deserializeParameter:(id)arg1 forKey:(id)arg2 error:(id)arg3;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)ervices.framework/Versions/A/CoreServices;
 - (id);
 - (void)×°!¬Dù1!ð1Â0@ù
 × ;

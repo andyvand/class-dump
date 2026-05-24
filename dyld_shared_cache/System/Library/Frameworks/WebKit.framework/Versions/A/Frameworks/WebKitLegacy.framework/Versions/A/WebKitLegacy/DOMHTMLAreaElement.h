@@ -6,22 +6,18 @@
 
 #import <WebKitLegacy/DOMHTMLElement.h>
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface DOMHTMLAreaElement : DOMHTMLElement
 {
 }
 
 - (void);
-- (void);
+- (void)&;
 - (void);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)r;
 - (id);
 - (void);
 - (id);
@@ -29,34 +25,24 @@
 - (id);
 - (void);
 - (id);
+- (id)createDraft:forProcessNamed:withDisplayReason:error: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
+- (id)(<;
 - (id);
-- (id);
-- (void)indowFeatures:(id)arg1;
+- (void)webView:(id)arg1 createWebViewWithRequest:windowFeatures: /* Error: Ran out of types for this method. */;
 - (void)of using those delivered by the system;
 - (id)RemoteSnapshottingEnabled;
 - (id)ent.mm;
 - (id)= WebCore::Node] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSURL *absoluteLinkURL;
-@property(copy) NSString *accessKey;
 @property(copy) NSString *alt;
-@property(copy) NSString *coords;
-@property(readonly, copy) NSString *hashName;
-@property(readonly, copy) NSString *host;
-@property(readonly, copy) NSString *hostname;
-@property(copy) NSString *href;
-@property _Bool noHref;
-@property(readonly, copy) NSString *pathname;
-@property(readonly, copy) NSString *port;
-@property(readonly, copy) NSString *protocol;
-@property(readonly, copy) NSString *search;
-@property(copy) NSString *shape;
-@property(copy) NSString *target;
 
 @end
 

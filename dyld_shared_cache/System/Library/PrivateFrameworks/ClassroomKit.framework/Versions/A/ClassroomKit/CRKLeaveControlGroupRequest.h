@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DMFControlGroupIdentifier, NSArray;
+@class DMFControlGroupIdentifier;
 
 @interface CRKLeaveControlGroupRequest
 {
     DMFControlGroupIdentifier *_groupIdentifier;
-    NSArray *_leaderIdentifiers;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (id);
 - (id);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) DMFControlGroupIdentifier *groupIdentifier; // @synthesize groupIdentifier=_groupIdentifier;
-@property(copy, nonatomic) NSArray *leaderIdentifiers; // @synthesize leaderIdentifiers=_leaderIdentifiers;
 
 @end
 

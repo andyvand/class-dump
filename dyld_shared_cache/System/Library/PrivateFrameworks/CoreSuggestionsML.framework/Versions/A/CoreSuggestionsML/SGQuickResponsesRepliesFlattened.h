@@ -6,13 +6,11 @@
 
 #import <CoreSuggestionsML/SGQuickResponsesReplies.h>
 
-@class NSArray, _PASLock;
+@class NSArray;
 
 @interface SGQuickResponsesRepliesFlattened : SGQuickResponsesReplies
 {
     NSArray *_replyTexts;
-    _PASLock *_normalizedReplyTextsSet;
-    unsigned long long _replyTextStringsCount;
 }
 
 + (id);
@@ -21,7 +19,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)x;
 - (id);
 - (unsigned long long);
 - (unsigned long long);

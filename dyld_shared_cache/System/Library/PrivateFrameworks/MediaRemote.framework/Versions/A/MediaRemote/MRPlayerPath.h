@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRClient, MROrigin, MRPlayer, NSData, _MRNowPlayingPlayerPathProtobuf;
+@class MROrigin, _MRNowPlayingPlayerPathProtobuf;
 
 @interface MRPlayerPath
 {
     MROrigin *_origin;
-    MRClient *_client;
-    MRPlayer *_player;
 }
 
 + (id);
-+ (id);
-+ (id);
-+ (_Bool);
++ (id))};
++ (id)setPolicySummary: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -24,24 +22,24 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)setCmfItem:(id)arg1;
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
+- (id);
+- (id);
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (_Bool);
 - (void);
-- (id);
-- (void);
+- (id)T@"NSString",R,C,N,V_siriLanguage;
+- (void)ing>"8;
 - (id);
 - (id)@16B24@28@?36;
 - (void)uestMessage;
@@ -49,19 +47,7 @@
 - (id)id MRNowPlayingClientSetProcessIdentifier(MRNowPlayingClientRef, pid_t);
 
 // Remaining properties
-@property(copy, nonatomic) MRClient *client; // @synthesize client=_client;
-@property(readonly, copy, nonatomic) NSData *data;
-@property(readonly, nonatomic, getter=isHomepodDemoApplication) _Bool homepodDemoApplication;
-@property(readonly, nonatomic, getter=isLocal) _Bool local;
-@property(readonly, nonatomic) MRPlayerPath *localResolvedPlayerPath;
-@property(copy, nonatomic) MROrigin *origin; // @synthesize origin=_origin;
-@property(copy, nonatomic) MRPlayer *player; // @synthesize player=_player;
 @property(readonly, nonatomic) _MRNowPlayingPlayerPathProtobuf *protobuf;
-@property(readonly, nonatomic, getter=isResolved) _Bool resolved;
-@property(readonly, nonatomic) MRPlayerPath *skeleton;
-@property(readonly, nonatomic, getter=isSystemBooksApplication) _Bool systemBooksApplication;
-@property(readonly, nonatomic, getter=isSystemMediaApplication) _Bool systemMediaApplication;
-@property(readonly, nonatomic, getter=isSystemPodcastsApplication) _Bool systemPodcastsApplication;
 
 @end
 

@@ -4,25 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface SwiftUI.ListTableCellView
 {
     id selectionBehavior;
-    id secondaryBehavior;
-    id secondaryNavigationBehavior;
-    id dropCountSeed;
-    id viewListID;
-    id preview;
-    id host;
-    id enclosingTableView;
-    id delegate;
-    id dataSource;
-    id activeTracker;
 }
 
 - (void);
-- (long long);
+- (long long);
 - (id);
 - (double);
 - (id);
@@ -31,8 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSArray *draggingImageComponents;
-@property(nonatomic, readonly) double firstBaselineOffsetFromTop;
 @property(nonatomic) long long rowSizeStyle;
 
 @end

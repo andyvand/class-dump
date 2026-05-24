@@ -4,68 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrowserTabViewController, BrowserViewController, BrowserWindowController, ContinuousReadingListViewController, DelayedPopUpRolloverImageButton, FormTextStatusWatcher, NSArray, NSColor, NSImage, NSImageView, NSLayoutConstraint, NSMutableArray, NSMutableDictionary, NSSet, NSString, NSTimer, NSURL, NSUUID, NSView, SearchState, TabContentViewController, UnifiedTabBarItem, WBSHostTabProvider, WBSSiriIntelligenceDonorPersonalizationData, WBSTranslationContext, WBTab;
-@protocol ThumbnailSnapshotProviding, WBSWebExtensionTab;
+@class BrowserTabViewController, BrowserViewController;
 
 __attribute__((visibility("hidden")))
 @interface BrowserTabViewItem
 {
     BrowserViewController *_currentBrowserViewController;
-    NSMutableArray *_accessoryViews;
-    NSString *_urlFromScript;
-    DelayedPopUpRolloverImageButton *_muteButton;
-    NSImageView *_viewedIndicator;
-    NSView *_contactsView;
-    NSMutableArray *_contactSubviews;
-    NSArray *_displayedContactSubviews;
-    NSMutableArray *_avatarViewControllers;
-    NSMutableDictionary *_avatarViewControllersIndexMap;
-    NSArray *_visibleContacts;
-    _Bool _contactsViewNeedsUpdate;
-    NSLayoutConstraint *_leadingContactsConstraint;
-    NSImageView *_overflowAvatarView;
-    NSTimer *_siteIconUpdateTimer;
-    id _templateIconRequestToken;
-    id _faviconRequestToken;
-    unsigned long long _currentIconType;
-    NSTimer *_fireOnUpdatedWebExtensionEventTimer;
-    FormTextStatusWatcher *_formTextStatusWatcherForClose;
-    FormTextStatusWatcher *_formTextStatusWatcherForReload;
-    NSURL *_urlForLastUserInitiatedLoad;
-    NSString *_titleForLastUserInitiatedLoad;
-    _Bool _pinned;
-    _Bool _showIcon;
-    _Bool _prefersCachedTabSnapshotForTouchBar;
-    _Bool _userStartedTheaterMode;
-    _Bool _showingMonogram;
-    _Bool _showingMuteButton;
-    _Bool _tabViewedIndicatorVisible;
-    _Bool _sessionStateNeedsSave;
-    NSUUID *_uuid;
-    WBTab *_tabGroupTab;
-    UnifiedTabBarItem *_unifiedTabBarItem;
-    BrowserWindowController *_browserWindowController;
-    TabContentViewController *_tabContentViewController;
-    NSString *_fullLabel;
-    NSString *_editedUnifiedFieldString;
-    SearchState *_lastSearchState;
-    WBSSiriIntelligenceDonorPersonalizationData *_personalizationData;
-    long long _stateWhenConsolidating;
-    NSUUID *_contentUUID;
-    WBSHostTabProvider *_hostTabProvider;
-    NSString *_templateIconHost;
-    NSImage *_highlightedImage;
-    NSColor *_themeColor;
-    NSURL *_pinnedPageURL;
-    NSString *_pinnedPageTitle;
-    BrowserTabViewItem *_representedPinnedTab;
-    ContinuousReadingListViewController *_continuousReadingListViewController;
-    long long _muteButtonState;
-    NSString *_lastUsedBookmarkFolderUUID;
-    NSArray *_avatarContacts;
 }
 
-+ (id);
++ (id);
 + (id);
 - (void);
 - (void);
@@ -85,7 +32,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -119,7 +66,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -133,7 +80,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
@@ -158,8 +105,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)P;
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -173,7 +120,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -196,9 +143,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (void);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -226,7 +173,7 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (void);
 - (id);
-- (id);
+- (id)G;
 - (void);
 - (id);
 - (id);
@@ -235,7 +182,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -245,11 +192,11 @@ __attribute__((visibility("hidden")))
 - (id)!GùÑ¢1Â0@ù
 × ;
 - (void)@0:(id)arg1 8@16q24;
-- (id)ousTabKeyEquivalent: /* Error: Ran out of types for this method. */;
-- (_Bool)ptedPrivateKey:unpaddedIV:entrySalt:globalSalt:masterPassword: /* Error: Ran out of types for this method. */;
+- (id)eventIsSelectPreviousTabKeyEquivalent: /* Error: Ran out of types for this method. */;
+- (_Bool)_test_AESDecryptedPrivateKeyFromEncryptedPrivateKey:unpaddedIV:entrySalt:globalSalt:masterPassword: /* Error: Ran out of types for this method. */;
 - (id)meType;
 - (id)ed tab states for restoration;
-- (id)havior;
+- (id)NewTabBehavior;
 - (void)À
 ;
 - (void)´;
@@ -267,81 +214,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *accessoryViews; // @synthesize accessoryViews=_accessoryViews;
-@property(retain, nonatomic) NSString *activeLabel;
-@property(readonly, copy, nonatomic) NSSet *allBrowserViewControllers;
-@property(readonly, copy, nonatomic) NSArray *ancestorTabIdentifiers;
-@property(copy, nonatomic) NSArray *avatarContacts; // @synthesize avatarContacts=_avatarContacts;
-@property(readonly, nonatomic) BrowserViewController *browserViewController;
-@property(nonatomic) __weak BrowserWindowController *browserWindowController; // @synthesize browserWindowController=_browserWindowController;
-@property(readonly, nonatomic) _Bool canBePersisted;
-@property(readonly, nonatomic) _Bool canBeRemovedInBrowserDocumentShouldClose;
-@property(copy, nonatomic) NSUUID *contentUUID; // @synthesize contentUUID=_contentUUID;
-@property(retain, nonatomic) ContinuousReadingListViewController *continuousReadingListViewController; // @synthesize continuousReadingListViewController=_continuousReadingListViewController;
-@property(readonly, nonatomic) BrowserViewController *currentBrowserViewController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *editedUnifiedFieldString; // @synthesize editedUnifiedFieldString=_editedUnifiedFieldString;
-@property(readonly, nonatomic) NSURL *expectedOrCurrentURL;
-@property(readonly, nonatomic) NSURL *expectedOrCurrentURLOrLastActiveURL;
-@property(readonly, nonatomic) NSURL *failedOrCurrentURL;
-@property(readonly, nonatomic, getter=isFrontmost) _Bool frontmost;
-@property(copy, nonatomic) NSString *fullLabel; // @synthesize fullLabel=_fullLabel;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSImage *highlightedImage; // @synthesize highlightedImage=_highlightedImage;
-@property(retain, nonatomic) WBSHostTabProvider *hostTabProvider; // @synthesize hostTabProvider=_hostTabProvider;
-@property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) NSImage *image;
-@property(readonly, nonatomic, getter=isInContinuousMode) _Bool inContinuousMode;
-@property(readonly, nonatomic) _Bool isPinnedTab;
-@property(readonly, nonatomic) _Bool isPrivate;
-@property(readonly, copy, nonatomic) NSString *label;
-@property(readonly, nonatomic) double lastActivationTime;
-@property(retain, nonatomic) SearchState *lastSearchState; // @synthesize lastSearchState=_lastSearchState;
-@property(copy, nonatomic) NSString *lastUsedBookmarkFolderUUID; // @synthesize lastUsedBookmarkFolderUUID=_lastUsedBookmarkFolderUUID;
-@property(nonatomic) long long muteButtonState; // @synthesize muteButtonState=_muteButtonState;
-@property(readonly, nonatomic) long long pageStatus;
-@property(readonly, copy, nonatomic) NSString *pageTitle;
-@property(readonly, nonatomic) WBSSiriIntelligenceDonorPersonalizationData *personalizationData; // @synthesize personalizationData=_personalizationData;
-@property(nonatomic, getter=isPinned) _Bool pinned; // @synthesize pinned=_pinned;
-@property(readonly, copy, nonatomic) NSString *pinnedPageTitle; // @synthesize pinnedPageTitle=_pinnedPageTitle;
-@property(readonly, nonatomic) NSURL *pinnedPageURL; // @synthesize pinnedPageURL=_pinnedPageURL;
-@property(retain, nonatomic) NSImage *placeholderImage;
-@property(retain, nonatomic) NSString *placeholderLabel;
-@property(readonly, nonatomic, getter=isPlaceholderTab) _Bool placeholderTab;
-@property(readonly, nonatomic) _Bool prefersCachedTabSnapshotForTouchBar; // @synthesize prefersCachedTabSnapshotForTouchBar=_prefersCachedTabSnapshotForTouchBar;
-@property(retain, nonatomic) BrowserTabViewItem *representedPinnedTab; // @synthesize representedPinnedTab=_representedPinnedTab;
-@property(readonly, nonatomic) BrowserTabViewItem *representedTab;
-@property(readonly, nonatomic) BrowserWindowController *representedTabBrowserWindowController;
-@property(readonly, nonatomic) TabContentViewController *representedTabContentViewController;
-@property(nonatomic) _Bool sessionStateNeedsSave; // @synthesize sessionStateNeedsSave=_sessionStateNeedsSave;
-@property(readonly, nonatomic) _Bool shouldSelectOriginatingTabWhenClosed;
-@property(nonatomic) _Bool showIcon; // @synthesize showIcon=_showIcon;
-@property(readonly, nonatomic, getter=isShowingMonogram) _Bool showingMonogram; // @synthesize showingMonogram=_showingMonogram;
-@property(nonatomic, getter=isShowingMuteButton) _Bool showingMuteButton; // @synthesize showingMuteButton=_showingMuteButton;
-@property(nonatomic) long long stateWhenConsolidating; // @synthesize stateWhenConsolidating=_stateWhenConsolidating;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) TabContentViewController *tabContentViewController; // @synthesize tabContentViewController=_tabContentViewController;
-@property(readonly, nonatomic) WBTab *tabGroupTab; // @synthesize tabGroupTab=_tabGroupTab;
-@property(readonly, copy, nonatomic) CDUnknownBlockType tabSetLastVisitTimeToNowBlock;
-@property(readonly, copy, nonatomic) CDUnknownBlockType tabUpdateBlock;
-@property(readonly, nonatomic) struct CGSize tabViewSize;
-@property(nonatomic) _Bool tabViewedIndicatorVisible; // @synthesize tabViewedIndicatorVisible=_tabViewedIndicatorVisible;
-@property(copy, nonatomic) NSString *templateIconHost; // @synthesize templateIconHost=_templateIconHost;
-@property(retain, nonatomic) NSColor *themeColor; // @synthesize themeColor=_themeColor;
-@property(readonly, nonatomic) id <ThumbnailSnapshotProviding> thumbnailSnapshotProvider;
-@property(readonly, copy, nonatomic) NSString *toolTip;
-@property(readonly, nonatomic) WBSTranslationContext *translationContext;
-@property(readonly, nonatomic) UnifiedTabBarItem *unifiedTabBarItem; // @synthesize unifiedTabBarItem=_unifiedTabBarItem;
-@property(readonly, nonatomic) NSURL *urlForExtensions;
-@property(nonatomic) _Bool userStartedTheaterMode; // @synthesize userStartedTheaterMode=_userStartedTheaterMode;
-@property(copy, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 @property(retain) BrowserTabViewController *viewController; // @dynamic viewController;
-@property(readonly, nonatomic) id <WBSWebExtensionTab> webExtensionTab;
-@property(readonly, copy, nonatomic) NSString *windowIdentifier;
 
 @end
 

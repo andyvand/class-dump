@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ODDSiriSchemaODDDeviceSegment : SISchemaInstrumentationMessage
 {
     int _segmentType;
-    int _segmentDataAvailabilityState;
-    struct {
-        unsigned int segmentType:1;
-        unsigned int segmentDataAvailabilityState:1;
-    } _has;
 }
 
 - (void);
@@ -27,9 +20,9 @@
 - (void);
 - (_Bool);
 - (int);
-- (void);
+- (void){CGSize=dd}24{CGSize=dd}40;
 - (id);
-- (void);
+- (void)\[\w+\]);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -40,10 +33,6 @@
 - (id)afariFeedbackEvent",&,N,V_safariFeedbackEvent;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSegmentDataAvailabilityState;
-@property(nonatomic) _Bool hasSegmentType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int segmentDataAvailabilityState; // @synthesize segmentDataAvailabilityState=_segmentDataAvailabilityState;
 @property(nonatomic) int segmentType; // @synthesize segmentType=_segmentType;
 
 @end

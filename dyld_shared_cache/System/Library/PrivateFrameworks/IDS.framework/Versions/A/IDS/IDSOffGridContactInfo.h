@@ -9,11 +9,10 @@
 @interface IDSOffGridContactInfo
 {
     IDSURI *_uri;
-    long long _type;
 }
 
 + (_Bool);
-- (id);
+- (id)E;
 - (id);
 - (id);
 - (long long);
@@ -23,7 +22,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 @property(readonly, nonatomic) IDSURI *uri; // @synthesize uri=_uri;
 
 @end

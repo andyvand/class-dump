@@ -4,32 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NEAppProxyProvider, NSMutableDictionary, NSObject;
-@protocol NEAppProxyProviderContainerDelegate, OS_dispatch_queue;
+@class NEAppProxyProvider;
 
 @interface NEAppProxyProviderContainer
 {
     unsigned int _delegateInterfaceIndex;
-    NEAppProxyProvider *_provider;
-    id <NEAppProxyProviderContainerDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_flowQueue;
-    struct _NEFlowDirector *_director;
-    CDUnknownBlockType _stopCompletionHandler;
-    NSMutableDictionary *_guardProxyFlows;
 }
 
-- (void);
+- (void)presentsWithTransaction;
 - (id);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (id);
-- (void)uration: /* Error: Ran out of types for this method. */;
+- (void)overlapsWithConfiguration: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) NEAppProxyProvider *provider; // @synthesize provider=_provider;

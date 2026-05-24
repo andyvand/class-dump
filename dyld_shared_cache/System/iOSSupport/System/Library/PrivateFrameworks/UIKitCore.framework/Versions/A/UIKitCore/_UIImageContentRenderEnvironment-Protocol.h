@@ -4,10 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIImageSymbolConfiguration, UITraitCollection;
+@class UIImageSymbolConfiguration, UITraitCollection, _UIImageContentRenditionEffects;
 
 @protocol _UIImageContentRenderEnvironment
-- (UIImageSymbolConfiguration *)tStyleTertiaryLabel;
+- (long long)b/swift/libswiftCompression.dylib;
+- (_UIImageContentRenditionEffects *);
+- (UIImageSymbolConfiguration *)UIVibrancyEffectStyleTertiaryLabel;
 - (UITraitCollection *);
 
 // Remaining properties

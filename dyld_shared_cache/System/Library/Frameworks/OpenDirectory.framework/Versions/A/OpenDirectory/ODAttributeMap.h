@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSDictionary, NSString;
 
 @interface ODAttributeMap
 {
     NSString *customQueryFunction;
-    NSString *customTranslationFunction;
-    NSArray *customAttributes;
-    NSString *value;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 - (void);
@@ -22,20 +19,17 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)T`
+;
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)e type:(id)arg1 %@;
+- (void)ocatorIS2_EEEE;
 - (id);
 - (id);
 
 // Remaining properties
-@property(copy) NSArray *customAttributes; // @synthesize customAttributes;
-@property(copy) NSString *customQueryFunction; // @synthesize customQueryFunction;
-@property(copy) NSString *customTranslationFunction; // @synthesize customTranslationFunction;
 @property(readonly, copy) NSDictionary *dictionary;
-@property(copy) NSString *value; // @synthesize value;
 
 @end
 

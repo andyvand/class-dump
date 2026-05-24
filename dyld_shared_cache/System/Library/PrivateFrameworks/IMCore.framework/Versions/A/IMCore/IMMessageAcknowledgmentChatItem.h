@@ -13,11 +13,11 @@
     IMMessage *_message;
 }
 
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)iled (%d);
+- (_Bool)layer [%s] %s:(id)arg1 %d bytesPerFrame is zero while calculating input samples;
+- (_Bool)mitter is nil;
+- (id)%p] audioTxBitrate=%ukbps, audioFecTx=%f, primaryAudioTxRate=%ukbps, audioStreamRedundancyLevel=%u, _qualityIndex=%u, payload=%u, totalPacketsSent=%d %@ _targetBitrate=%u _currentTargetBitrate=%u _supportsAdaptation=%d audioTxRedRate=%ukbps;
+- (id)d to setup the stream controller;
 - (id);
 - (id);
 - (id);
@@ -25,7 +25,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *fileTransferGUIDs;
-@property(readonly, copy, nonatomic) IMMessage *message; // @synthesize message=_message;
 
 @end
 

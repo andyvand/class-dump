@@ -9,20 +9,18 @@
 @interface GEOSearchSectionList
 {
     NSArray *_searchSections;
-    NSArray *_geoMapItemIdentifiers;
 }
 
 + (id);
 - (id);
+- (id)24@0:(id)arg1 8@16;
 - (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)isFileURL;
+- (id)blic}@;
 - (id);
 - (void)zÂ(°P@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *geoMapItemIdentifiers; // @synthesize geoMapItemIdentifiers=_geoMapItemIdentifiers;
 @property(readonly, nonatomic) NSArray *searchSections; // @synthesize searchSections=_searchSections;
 
 @end

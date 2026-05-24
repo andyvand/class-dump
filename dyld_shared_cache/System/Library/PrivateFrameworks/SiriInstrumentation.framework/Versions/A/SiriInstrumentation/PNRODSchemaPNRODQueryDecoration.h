@@ -6,42 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PNRODSchemaPNRODFailureInfo, PNRODSchemaPNRODMetricDuration, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PNRODSchemaPNRODQueryDecoration : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_queryDecorationID;
-    int _queryDecorationSource;
-    PNRODSchemaPNRODMetricDuration *_queryDecorationHandleTime;
-    PNRODSchemaPNRODMetricDuration *_queryDecorationSpanRetrievalTime;
-    PNRODSchemaPNRODMetricDuration *_queryDecorationContextRetrievalTime;
-    PNRODSchemaPNRODMetricDuration *_queryDecorationToolRetrievalTime;
-    PNRODSchemaPNRODMetricDuration *_queryDecorationRankingTime;
-    PNRODSchemaPNRODMetricDuration *_queryDecorationOutputBuildingTime;
-    PNRODSchemaPNRODMetricDuration *_queryDecorationTupleBuildingTime;
-    PNRODSchemaPNRODMetricDuration *_queryDecorationTupleRankingTime;
-    PNRODSchemaPNRODMetricDuration *_queryDecorationInputCollectionTime;
-    PNRODSchemaPNRODMetricDuration *_queryDecorationToolRetrievalContextTime;
-    PNRODSchemaPNRODMetricDuration *_queryDecorationFetchDynamicEnumerationTime;
-    PNRODSchemaPNRODMetricDuration *_queryDecorationFullPlannerBlockingTime;
-    PNRODSchemaPNRODFailureInfo *_failureInfo;
-    struct {
-        unsigned int queryDecorationSource:1;
-    } _has;
-    _Bool _hasQueryDecorationID;
-    _Bool _hasQueryDecorationHandleTime;
-    _Bool _hasQueryDecorationSpanRetrievalTime;
-    _Bool _hasQueryDecorationContextRetrievalTime;
-    _Bool _hasQueryDecorationToolRetrievalTime;
-    _Bool _hasQueryDecorationRankingTime;
-    _Bool _hasQueryDecorationOutputBuildingTime;
-    _Bool _hasQueryDecorationTupleBuildingTime;
-    _Bool _hasQueryDecorationTupleRankingTime;
-    _Bool _hasQueryDecorationInputCollectionTime;
-    _Bool _hasQueryDecorationToolRetrievalContextTime;
-    _Bool _hasQueryDecorationFetchDynamicEnumerationTime;
-    _Bool _hasQueryDecorationFullPlannerBlockingTime;
-    _Bool _hasFailureInfo;
 }
 
 - (void);
@@ -69,13 +38,13 @@
 - (void);
 - (void);
 - (void);
+- (void)(;
 - (void);
 - (void);
 - (void);
-- (void);
+- (id)k	;
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (int);
 - (id);
@@ -83,32 +52,32 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)7;
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)W;
 - (void);
 - (void);
 - (void);
@@ -124,45 +93,15 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)ror during selective reindexing of %ld chats:(id)arg1 %@;
 - (id);
-- (id);
-- (id)messageType;
+- (id)__auth_stubs;
+- (id)_messageType;
 - (id),V_hasRssClientEvent;
-- (void)ITINGS;
+- (void)PEGASUSDOMAIN_WRITINGS;
 
 // Remaining properties
-@property(retain, nonatomic) PNRODSchemaPNRODFailureInfo *failureInfo; // @synthesize failureInfo=_failureInfo;
-@property(nonatomic) _Bool hasFailureInfo; // @synthesize hasFailureInfo=_hasFailureInfo;
-@property(nonatomic) _Bool hasQueryDecorationContextRetrievalTime; // @synthesize hasQueryDecorationContextRetrievalTime=_hasQueryDecorationContextRetrievalTime;
-@property(nonatomic) _Bool hasQueryDecorationFetchDynamicEnumerationTime; // @synthesize hasQueryDecorationFetchDynamicEnumerationTime=_hasQueryDecorationFetchDynamicEnumerationTime;
-@property(nonatomic) _Bool hasQueryDecorationFullPlannerBlockingTime; // @synthesize hasQueryDecorationFullPlannerBlockingTime=_hasQueryDecorationFullPlannerBlockingTime;
-@property(nonatomic) _Bool hasQueryDecorationHandleTime; // @synthesize hasQueryDecorationHandleTime=_hasQueryDecorationHandleTime;
-@property(nonatomic) _Bool hasQueryDecorationID; // @synthesize hasQueryDecorationID=_hasQueryDecorationID;
-@property(nonatomic) _Bool hasQueryDecorationInputCollectionTime; // @synthesize hasQueryDecorationInputCollectionTime=_hasQueryDecorationInputCollectionTime;
-@property(nonatomic) _Bool hasQueryDecorationOutputBuildingTime; // @synthesize hasQueryDecorationOutputBuildingTime=_hasQueryDecorationOutputBuildingTime;
-@property(nonatomic) _Bool hasQueryDecorationRankingTime; // @synthesize hasQueryDecorationRankingTime=_hasQueryDecorationRankingTime;
-@property(nonatomic) _Bool hasQueryDecorationSource;
-@property(nonatomic) _Bool hasQueryDecorationSpanRetrievalTime; // @synthesize hasQueryDecorationSpanRetrievalTime=_hasQueryDecorationSpanRetrievalTime;
-@property(nonatomic) _Bool hasQueryDecorationToolRetrievalContextTime; // @synthesize hasQueryDecorationToolRetrievalContextTime=_hasQueryDecorationToolRetrievalContextTime;
-@property(nonatomic) _Bool hasQueryDecorationToolRetrievalTime; // @synthesize hasQueryDecorationToolRetrievalTime=_hasQueryDecorationToolRetrievalTime;
-@property(nonatomic) _Bool hasQueryDecorationTupleBuildingTime; // @synthesize hasQueryDecorationTupleBuildingTime=_hasQueryDecorationTupleBuildingTime;
-@property(nonatomic) _Bool hasQueryDecorationTupleRankingTime; // @synthesize hasQueryDecorationTupleRankingTime=_hasQueryDecorationTupleRankingTime;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *queryDecorationContextRetrievalTime; // @synthesize queryDecorationContextRetrievalTime=_queryDecorationContextRetrievalTime;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *queryDecorationFetchDynamicEnumerationTime; // @synthesize queryDecorationFetchDynamicEnumerationTime=_queryDecorationFetchDynamicEnumerationTime;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *queryDecorationFullPlannerBlockingTime; // @synthesize queryDecorationFullPlannerBlockingTime=_queryDecorationFullPlannerBlockingTime;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *queryDecorationHandleTime; // @synthesize queryDecorationHandleTime=_queryDecorationHandleTime;
 @property(retain, nonatomic) SISchemaUUID *queryDecorationID; // @synthesize queryDecorationID=_queryDecorationID;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *queryDecorationInputCollectionTime; // @synthesize queryDecorationInputCollectionTime=_queryDecorationInputCollectionTime;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *queryDecorationOutputBuildingTime; // @synthesize queryDecorationOutputBuildingTime=_queryDecorationOutputBuildingTime;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *queryDecorationRankingTime; // @synthesize queryDecorationRankingTime=_queryDecorationRankingTime;
-@property(nonatomic) int queryDecorationSource; // @synthesize queryDecorationSource=_queryDecorationSource;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *queryDecorationSpanRetrievalTime; // @synthesize queryDecorationSpanRetrievalTime=_queryDecorationSpanRetrievalTime;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *queryDecorationToolRetrievalContextTime; // @synthesize queryDecorationToolRetrievalContextTime=_queryDecorationToolRetrievalContextTime;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *queryDecorationToolRetrievalTime; // @synthesize queryDecorationToolRetrievalTime=_queryDecorationToolRetrievalTime;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *queryDecorationTupleBuildingTime; // @synthesize queryDecorationTupleBuildingTime=_queryDecorationTupleBuildingTime;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *queryDecorationTupleRankingTime; // @synthesize queryDecorationTupleRankingTime=_queryDecorationTupleRankingTime;
 
 @end
 

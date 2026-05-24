@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSMutableOrderedSet, NSTimer;
-@protocol BrowserViewControllerLoading;
+@class NSHashTable;
 
 __attribute__((visibility("hidden")))
 @interface BrowserViewControllerNavigationManager
 {
     NSHashTable *_loadingBrowserViewControllers;
-    NSMutableOrderedSet *_browserViewControllersWithQueuedNavigation;
-    id <BrowserViewControllerLoading> _mostRecentlyLoadingBrowserViewController;
-    NSTimer *_dequeueTimer;
-    double _queuedRequestInitialDelay;
-    double _queuedRequestDelay;
 }
 
 - (void);
@@ -33,12 +27,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (_Bool);
-- (id);
+- (id)";
 - (void)¨;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasQueuedNavigations;
-@property(readonly, nonatomic) unsigned long long numberOfLoadingBrowserViewControllers;
 
 @end
 

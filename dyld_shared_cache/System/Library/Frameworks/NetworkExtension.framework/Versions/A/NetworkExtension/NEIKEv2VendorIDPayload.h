@@ -17,8 +17,8 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (unsigned long long);
-- (void)gRules: /* Error: Ran out of types for this method. */;
+- (unsigned long long);
+- (void)updatePerAppMappingRules: /* Error: Ran out of types for this method. */;
 - (id)DIATE reply (connect intermediate);
 
 @end

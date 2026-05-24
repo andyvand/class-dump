@@ -4,35 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDeviceToDeviceShareInvitationToken, CKRecordID, CKUserIdentity, NSData, NSDate, NSString;
-
 @interface CKShareParticipant
 {
     _Bool _isApprovedRequester;
-    _Bool _wantsNewInvitationToken;
-    _Bool _isCurrentUser;
-    _Bool _isOrgAdminUser;
-    _Bool _createdInProcess;
-    _Bool _acceptedInProcess;
-    _Bool _isAnonymousInvitedParticipant;
-    _Bool _forceSendPublicKeyForAnonymousParticipants;
-    _Bool _usesOneTimeURL;
-    long long _permission;
-    CKUserIdentity *_userIdentity;
-    long long _role;
-    long long _acceptanceStatus;
-    NSString *_participantID;
-    long long _mutableInvitationTokenStatus;
-    CKRecordID *_shareID;
-    NSString *_inviterID;
-    long long _originalParticipantRole;
-    NSData *_protectionInfo;
-    NSData *_protectionInfoPublicKey;
-    NSData *_encryptedPersonalInfo;
-    NSDate *_invitationDate;
-    NSDate *_acceptanceDate;
-    NSData *_oneTimeURLSharingKeySeed;
-    CKDeviceToDeviceShareInvitationToken *_invitationToken;
 }
 
 @end

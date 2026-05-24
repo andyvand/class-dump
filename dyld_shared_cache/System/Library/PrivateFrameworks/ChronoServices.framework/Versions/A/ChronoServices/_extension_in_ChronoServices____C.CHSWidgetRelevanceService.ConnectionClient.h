@@ -7,7 +7,6 @@
 @interface (extension in ChronoServices):__C.CHSWidgetRelevanceService.ConnectionClient
 {
     id timelineRelevanceDidChangeHandler;
-    id widgetRelevanceEventHandler;
 }
 
 - (void);

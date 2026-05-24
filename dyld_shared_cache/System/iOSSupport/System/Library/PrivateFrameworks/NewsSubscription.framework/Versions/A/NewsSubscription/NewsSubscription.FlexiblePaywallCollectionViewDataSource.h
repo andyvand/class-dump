@@ -7,13 +7,9 @@
 @interface NewsSubscription.FlexiblePaywallCollectionViewDataSource
 {
     id layoutProvider;
-    id feedItemRenderer;
-    id feedItemSupplementaryRenderer;
-    id delegate;
-    id subscribeButtonDebouncer;
 }
 
-- (id);
+- (id)wables to indexes, not all drawables are in this group.;
 - (long long);
 - (void);
 - (id);

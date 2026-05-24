@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
-@protocol OS_dispatch_queue, OS_xpc_object;
+@class NSObject;
+@protocol OS_xpc_object;
 
 @interface IOSurfaceRemoteServer
 {
     NSObject<OS_xpc_object> *_listener;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableArray *_clients;
 }
 
 - (id);
@@ -23,14 +21,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *clients; // @synthesize clients=_clients;
 @property(retain, nonatomic) NSObject<OS_xpc_object> *listener; // @synthesize listener=_listener;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

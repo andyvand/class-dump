@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDataString, _INPBIntentExecutionResult, _INPBIntentMetadata, _INPBVoiceCommandDeviceInformation;
+@class _INPBDataString, _INPBIntentExecutionResult, _INPBVoiceCommandDeviceInformation;
 
 @protocol _INPBRunVoiceCommandIntent
-- (_Bool)r;
+- (_INPBDataString *);
+- (_INPBVoiceCommandDeviceInformation *);
+- (_Bool)hasPayer;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBIntentExecutionResult *executionResult;
-@property(readonly, nonatomic) _Bool hasExecutionResult;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasOriginDevice;
-@property(readonly, nonatomic) _Bool hasPreviousIntentIdentifier;
-@property(readonly, nonatomic) _Bool hasVoiceCommand;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(retain, nonatomic) _INPBVoiceCommandDeviceInformation *originDevice;
-@property(copy, nonatomic) NSString *previousIntentIdentifier;
-@property(retain, nonatomic) _INPBDataString *voiceCommand;
 @end
 

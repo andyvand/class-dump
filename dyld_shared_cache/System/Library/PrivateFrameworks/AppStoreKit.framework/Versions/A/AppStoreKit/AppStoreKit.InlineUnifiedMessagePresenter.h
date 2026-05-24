@@ -7,12 +7,6 @@
 @interface AppStoreKit.InlineUnifiedMessagePresenter
 {
     id actionHandler;
-    id engagement;
-    id objectGraph;
-    id metricsPipeline;
-    id onReceivedRequestToShowUnifiedMessage;
-    id onReceivedRequestToHideUnifiedMessage;
-    id inlineViewControllers;
 }
 
 - (void);

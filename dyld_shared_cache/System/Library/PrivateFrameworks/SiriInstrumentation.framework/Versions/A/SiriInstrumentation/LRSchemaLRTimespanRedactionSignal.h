@@ -6,22 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface LRSchemaLRTimespanRedactionSignal : SISchemaInstrumentationMessage
 {
     unsigned long long _startTimeInNs;
-    unsigned long long _endTimeInNs;
-    CDStruct_b5935cb6 _has;
 }
 
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void)<;
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)=;
 - (void);
 - (void);
 - (void);
@@ -37,10 +33,6 @@
 - (id)nguageModelLoadStarted",&,N,V_startedOrChanged;
 
 // Remaining properties
-@property(nonatomic) unsigned long long endTimeInNs; // @synthesize endTimeInNs=_endTimeInNs;
-@property(nonatomic) _Bool hasEndTimeInNs;
-@property(nonatomic) _Bool hasStartTimeInNs;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned long long startTimeInNs; // @synthesize startTimeInNs=_startTimeInNs;
 
 @end

@@ -9,7 +9,6 @@
 @interface PPMockRTLocationOfInterestVisit
 {
     NSDate *_entryDate;
-    NSDate *_exitDate;
 }
 
 + (id);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *entryDate; // @synthesize entryDate=_entryDate;
-@property(retain, nonatomic) NSDate *exitDate; // @synthesize exitDate=_exitDate;
 
 @end
 

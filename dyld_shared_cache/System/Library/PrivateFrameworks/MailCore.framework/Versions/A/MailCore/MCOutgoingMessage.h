@@ -6,15 +6,11 @@
 
 #import <MailCore/MCMessage.h>
 
-@class MCMutableMessageHeaders, NSData, NSString;
+@class MCMutableMessageHeaders;
 
 @interface MCOutgoingMessage : MCMessage
 {
     unsigned long long _localAttachmentsSize;
-    NSString *_remoteID;
-    MCMutableMessageHeaders *_mutableHeaders;
-    NSString *_existingRemoteID;
-    NSData *_rawData;
 }
 
 - (void);
@@ -26,19 +22,16 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id);
+- (void)";
+- (id)+;
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)@;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *existingRemoteID; // @synthesize existingRemoteID=_existingRemoteID;
 @property(retain, nonatomic) MCMutableMessageHeaders *mutableHeaders; // @synthesize mutableHeaders=_mutableHeaders;
-@property(retain, nonatomic) NSData *rawData; // @synthesize rawData=_rawData;
-@property(copy) NSString *remoteID; // @synthesize remoteID=_remoteID;
 
 @end
 

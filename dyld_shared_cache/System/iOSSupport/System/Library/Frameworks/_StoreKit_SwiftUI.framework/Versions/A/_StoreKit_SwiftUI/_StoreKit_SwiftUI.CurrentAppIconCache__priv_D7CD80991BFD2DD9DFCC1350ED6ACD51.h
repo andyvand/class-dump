@@ -7,6 +7,7 @@
 @interface _StoreKit_SwiftUI.CurrentAppIconCache__priv_D7CD80991BFD2DD9DFCC1350ED6ACD51
 {
     id cachedValue;
+    id;
 }
 
 @end

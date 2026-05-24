@@ -7,18 +7,12 @@
 @interface SwiftUI.PencilEventsBridge
 {
     id host;
-    id wantsPencilEventsSeed;
-    id pencilInteraction;
-    id preferredTapActionContext;
-    id preferredSqueezeActionContext;
-    id pencilDoubleTapSerial;
-    id pencilSqueezeSerial;
 }
 
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)I16@0:8 /* Error: Ran out of types for this method. */;
+- (void)`;
 - (void)X5	;
 
 @end

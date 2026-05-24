@@ -9,16 +9,14 @@
 @interface UIKit._UISharedTextureViewport : UIView
 {
     id _texture;
-    id _portal;
-    id _connection;
 }
 
+- (void)?רc;
 - (void);
-- (void);
+- (id)A;
 - (id);
-- (id);
 - (void);
-- (id)on;
+- (id)UIPasteControlConfiguration;
 - (void)ISplitViewControllerAdaptiveImpl _updatePreferredColumnsSplitBehavior:] /* Error: Ran out of types for this method. */;
 - (void)Àwôþ;
 - (void)XÑFÿ&#x;

@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @protocol _CPNewsUsagePropensity
+- (int)::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::HashSet<WTF::Ref<WebKit::RemoteMonotonicTimeline>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)ePair<WTF:(int)arg1:UUID, WTF::Ref<WebKit::WebNotification>>>, WTF::DefaultHash<WTF::UUID>, WTF::HashMap<WTF::UUID, WTF::Ref<WebKit::WebNotification>>::KeyValuePairTraits, WTF::HashTraits<UUID>>::validateKey(const ValueType &) [Key = WTF::UUID, Value = WTF::KeyValuePair<WTF::UUID, WTF::Ref<WebKit::WebNotification>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::UUID, WTF::Ref<WebKit::WebNotification>>>, HashFunctions = WTF::DefaultHash<WTF::UUID>, Traits = WTF::HashMap<WTF::UUID, WTF::Ref<WebKit::WebNotification>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<UUID>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)dateKey:(float)arg1:Yes] /* Error: Ran out of types for this method. */;
+- (float)ype:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) float other;
-@property(nonatomic) int totalEngagements;
 @end
 

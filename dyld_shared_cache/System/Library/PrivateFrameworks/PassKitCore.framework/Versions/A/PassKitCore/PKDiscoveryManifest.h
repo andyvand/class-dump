@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PKDiscoveryMessagesMetadata;
-
 @interface PKDiscoveryManifest
 {
     long long _version;
-    NSArray *_rules;
-    NSArray *_discoveryItems;
-    PKDiscoveryMessagesMetadata *_messagesMetadata;
 }
 
 + (id);
@@ -19,18 +14,15 @@
 × ;
 - (id);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (id);
-- (id);
+- (id)Qi2)k;
 - (void);
-- (id)eIDVImageCaptureUpload;
-- (void)os;
+- (id)_requiresCoreIDVImageCaptureUpload;
+- (void)MarketGeos;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *discoveryItems; // @synthesize discoveryItems=_discoveryItems;
-@property(readonly, nonatomic) PKDiscoveryMessagesMetadata *messagesMetadata; // @synthesize messagesMetadata=_messagesMetadata;
-@property(readonly, nonatomic) NSArray *rules; // @synthesize rules=_rules;
 @property(readonly, nonatomic) long long version; // @synthesize version=_version;
 
 @end

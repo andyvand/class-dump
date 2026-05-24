@@ -7,8 +7,6 @@
 @interface ReminderKitInternal.REMStoreObjectsContainer
 {
     id remStore;
-    id storages;
-    id decodedObjectsCache;
 }
 
 @end

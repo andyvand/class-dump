@@ -7,9 +7,6 @@
 @interface AppStoreKit.VideoObserver
 {
     id delegate;
-    id playerItemObserversAdded;
-    id playerObserversAdded;
-    id timeBoundaryObserver;
 }
 
 - (void);

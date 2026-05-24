@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PPXPCServerPipelinedBatchQueryManager, _PASBundleIdResolver;
+@class NSString;
 @protocol PPNamedEntityClientProtocol;
 
 @interface PPNamedEntityReadOnlyServerRequestHandler
 {
     id <PPNamedEntityClientProtocol> _clientProxy;
-    PPXPCServerPipelinedBatchQueryManager *_queryManager;
-    NSString *_clientProcessName;
-    _PASBundleIdResolver *_bundleIdResolver;
 }
 
 - (void);
@@ -20,7 +17,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)NetworkConnectionType, NSNumber *, BOOL, BOOL, FTAWDConferenceMessageResultCode, NSNumber *, NSNumber *, NSNumber *, BOOL)_block_invoke;
 - (void);
 - (void)0@ù
 × ;
@@ -30,7 +27,6 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) _PASBundleIdResolver *bundleIdResolver; // @synthesize bundleIdResolver=_bundleIdResolver;
 @property(copy, nonatomic) NSString *clientProcessName; // @synthesize clientProcessName=_clientProcessName;
 
 @end

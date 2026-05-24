@@ -6,27 +6,20 @@
 
 #import <QuartzComposer/GFGraphView.h>
 
-@class QCPatch;
-
 @interface QCPatchView : GFGraphView
 {
     _Bool _hasSelectedPatches;
-    struct CGPoint _triggerPatchLinkStart;
-    struct CGPoint _triggerPatchLinkEnd;
-    QCPatch *_triggerPatchLinkCandidate;
-    double _cascadeDistance;
-    void *_unused2[4];
 }
 
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (int);
-- (Class);
+- (Class)hj;
 - (_Bool);
 - (void);
 - (void);
@@ -43,10 +36,10 @@
 - (id);
 - (struct CGRect);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (void);
 - (void);

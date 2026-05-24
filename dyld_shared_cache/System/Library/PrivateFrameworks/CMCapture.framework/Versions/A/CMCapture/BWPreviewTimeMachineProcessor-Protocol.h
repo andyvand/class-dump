@@ -5,6 +5,7 @@
 //
 
 @protocol BWPreviewTimeMachineProcessor
+- (void)WPClient can't reach bluetoothd to register endpoint. ERROR:(CDStruct_e83c9415)arg1 %@;
 
 // Remaining properties
 @property(readonly) CDStruct_1ef3fb1f frameDimensions;

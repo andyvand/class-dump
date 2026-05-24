@@ -12,8 +12,8 @@
 }
 
 + (id);
-+ (id);
-+ (_Bool);
++ (id)ԐR(;
++ (_Bool)getTvSubscriptionsClientStateWithDictionary:context: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -25,14 +25,13 @@
 - (_Bool);
 - (void);
 - (id);
+- (id)ction with no accept handler:(id)arg1 ID '%@', FD %d
+;
 - (id);
-- (id);
-- (void);
+- (void)ication.Authorization.authorizeWithLocalizedReason;
 - (id);
 
 // Remaining properties
-@property(readonly) NSString *classID;
-@property(readonly) NSString *instanceID;
 @property(readonly) NSString *stringRepresentation; // @synthesize stringRepresentation=_stringRepresentation;
 
 @end

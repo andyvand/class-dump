@@ -6,13 +6,9 @@
 
 #import <HomeAI/HMIVideoAnalyzerEvent.h>
 
-@class HMIVideoAnalyzerEventFace, HMIVideoAnalyzerEventTorso, NSUUID;
-
 @interface HMIVideoAnalyzerEventPerson : HMIVideoAnalyzerEvent
 {
     _Bool _isBoundingBoxEstimated;
-    HMIVideoAnalyzerEventFace *_face;
-    HMIVideoAnalyzerEventTorso *_torso;
 }
 
 + (_Bool);
@@ -27,7 +23,7 @@
 - (id);
 - (struct CGRect);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -37,15 +33,11 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)%h;
 - (void);
 
 // Remaining properties
-@property(readonly) struct CGRect boundingBoxForTracker;
-@property(readonly) HMIVideoAnalyzerEventFace *face; // @synthesize face=_face;
 @property(readonly, getter=hasEstimatedBoundingBox) _Bool isBoundingBoxEstimated; // @synthesize isBoundingBoxEstimated=_isBoundingBoxEstimated;
-@property(readonly) NSUUID *sessionEntityUUID;
-@property(readonly) HMIVideoAnalyzerEventTorso *torso; // @synthesize torso=_torso;
 
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSString;
 
 @interface MFFontMetricCache
 {
     NSString *_preferredSizeValidationKey;
-    NSMutableDictionary *_metricCacheDictionary;
-    NSMutableDictionary *_bodyLeadingDictionary;
-    NSMutableDictionary *_defaultBodyLeadingDictionary;
 }
 
 + (id);
@@ -26,7 +23,7 @@
 - (double);
 - (void);
 - (id);
-- (id);
+- (id)_initWithVideo: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 

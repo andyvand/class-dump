@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface APBonjourCacheHomeKitItem
 {
     NSDictionary *_deviceInfo;
-    NSDictionary *_userInfo;
 }
 
 + (id);
@@ -22,7 +21,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *deviceInfo; // @synthesize deviceInfo=_deviceInfo;
-@property(retain, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

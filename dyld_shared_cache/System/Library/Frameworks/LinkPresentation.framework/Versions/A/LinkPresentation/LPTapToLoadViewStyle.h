@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPPointUnit, LPTextViewStyle, NSColor;
+@class NSColor;
 
 __attribute__((visibility("hidden")))
 @interface LPTapToLoadViewStyle
 {
     NSColor *_backgroundColor;
-    NSColor *_tapHighlightColor;
-    LPTextViewStyle *_caption;
-    LPPointUnit *_width;
-    LPPointUnit *_height;
 }
 
 - (void);
 - (id);
+- (id)_TtC12SiriOntology35UsoEntity_appleAlarm_AlarmAttribute;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -30,10 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(readonly, nonatomic) LPTextViewStyle *caption; // @synthesize caption=_caption;
-@property(retain, nonatomic) LPPointUnit *height; // @synthesize height=_height;
-@property(retain, nonatomic) NSColor *tapHighlightColor; // @synthesize tapHighlightColor=_tapHighlightColor;
-@property(retain, nonatomic) LPPointUnit *width; // @synthesize width=_width;
 
 @end
 

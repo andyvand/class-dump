@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
-
 @interface AVCMediaRecorderRequestConfiguration
 {
     unsigned char _mediaType;
-    unsigned char _requestMode;
-    NSString *_requesteeID;
-    NSURL *_directoryURL;
-    CDStruct_1b6d18a9 _movieFragmentInterval;
 }
 
 - (id);
@@ -21,9 +15,9 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)`;
 - (unsigned char);
-- (CDStruct_1b6d18a9);
+- (CDStruct_198678f7);
 - (id);
 - (unsigned char);
 - (id);
@@ -31,16 +25,10 @@
 - (void)=%d configuring for samplesPerFrame=%d;
 - (void).apple.xbs/TemporaryDirectory.ZMSfoZ/Sources/AVConference/AVConference.subproj/Sources/SIP/SipHdr.c:(unsigned char)arg1 %d:No '%c' in the header[%s] /* Error: Ran out of types for this method. */;
 - (void)0r^v8I16B20@"NSError"24;
-- (void)SessionWithProperties:(CDStruct_1b6d18a9)arg1 interruptSuccessful:] /* Error: Ran out of types for this method. */;
+- (void)SessionWithProperties:(CDStruct_198678f7)arg1 interruptSuccessful:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *directoryURL; // @synthesize directoryURL=_directoryURL;
 @property(nonatomic) unsigned char mediaType; // @synthesize mediaType=_mediaType;
-@property(nonatomic) CDStruct_1b6d18a9 movieFragmentInterval; // @synthesize movieFragmentInterval=_movieFragmentInterval;
-@property(copy, nonatomic) NSURL *movieURL;
-@property(nonatomic) unsigned char requestMode; // @synthesize requestMode=_requestMode;
-@property(copy, nonatomic) NSString *requesteeID; // @synthesize requesteeID=_requesteeID;
-@property(copy, nonatomic) NSURL *stillImageURL;
 
 @end
 

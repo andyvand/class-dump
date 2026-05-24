@@ -4,107 +4,67 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface MIPArtist
 {
     long long _likedStateChangedDate;
-    long long _persistentId;
-    long long _sortOrder;
-    long long _sortOrderSection;
-    long long _storeId;
-    NSString *_artworkId;
-    NSString *_cloudUniversalLibraryId;
-    NSMutableArray *_libraryIdentifiers;
-    int _likedState;
-    NSString *_name;
-    NSString *_sortName;
-    struct {
-        unsigned int likedStateChangedDate:1;
-        unsigned int persistentId:1;
-        unsigned int sortOrder:1;
-        unsigned int sortOrderSection:1;
-        unsigned int storeId:1;
-        unsigned int likedState:1;
-    } _has;
 }
 
-+ (Class);
++ (Class)agedObjectContext",R,N,V_sourceContext;
+- (long long)AllAfterSave;
+- (void),V_shouldCopyLocationData;
+- (void)videoResourcesMatchingVersions:(id)arg1;
+- (void)ctionHasUnreadComments;
+- (void)mpleted;
+- (void),N,V_progressBlock;
+- (void)setPhotosVideoEmbeddingVersion:(_Bool)arg1;
+- (void)dateFilter;
+- (void)reParticipant",R,N;
+- (void)rovider;
+- (void)LSearchIndexSceneTaxonomyProvider",R,N,V_sceneTaxonomyProvider;
+- (void),&,N;
+- (void)@"PLLibraryServicesManager",&,N;
+- (long long),N,V_bundleIdentifier;
+- (long long)SString",&,N,V_payloadID;
+- (unsigned long long)geometryRequestWithComposition: /* Error: Ran out of types for this method. */;
+- (id)",&,N,V_importSessionID;
+- (id)freeDistancesMatrix:forDataset: /* Error: Ran out of types for this method. */;
+- (_Bool)Array",&,N,V_container;
+- (_Bool)eArray",&,N,V_collectionShareChanges;
+- (_Bool)_textUnderstandingGatingVersion;
+- (_Bool)__originalAutoPickIndexes;
+- (_Bool)_scenesForAsset:fetchHelper:sceneTaxonomyProvider:thumbnailMap: /* Error: Ran out of types for this method. */;
+- (_Bool)nfoDictionary;
+- (_Bool)_persistedFaceMetadataWithFaces:keyFace:clusterRejectedFaceIDs: /* Error: Ran out of types for this method. */;
+- (id)d},R,N;
+- (id)tings;
+- (void)uploadTaskWithRequest:(id)arg1 fromFile: /* Error: Ran out of types for this method. */;
+- (_Bool)",R,V_resourceUTI;
+- (id)copedIdentifier %@;
+- (void)ailed to add reupdate change for inserted asset for payload ID %{public}@ %@;
+- (int)notifications;
+- (void)ompute sync resource downloads for phase:%{public}@, checking additional resources for prefetch /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool);
+- (void);
 - (long long);
+- (id);
+- (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (long long);
+- (void);
+- (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)tate:(id)arg1;
 - (void);
 - (_Bool);
-- (id);
-- (void);
-- (int);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)vice will publish;
+- (id)ier;
+- (id)V;
 - (long long);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (long long);
-- (void);
-- (void)mples;
+- (void)_applicationIdentifier;
+- (void)durationInSamples;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *artworkId; // @synthesize artworkId=_artworkId;
-@property(retain, nonatomic) NSString *cloudUniversalLibraryId; // @synthesize cloudUniversalLibraryId=_cloudUniversalLibraryId;
-@property(readonly, nonatomic) _Bool hasArtworkId;
-@property(readonly, nonatomic) _Bool hasCloudUniversalLibraryId;
-@property(nonatomic) _Bool hasLikedState;
-@property(nonatomic) _Bool hasLikedStateChangedDate;
-@property(readonly, nonatomic) _Bool hasName;
-@property(nonatomic) _Bool hasPersistentId;
-@property(readonly, nonatomic) _Bool hasSortName;
-@property(nonatomic) _Bool hasSortOrder;
-@property(nonatomic) _Bool hasSortOrderSection;
 @property(nonatomic) _Bool hasStoreId;
-@property(retain, nonatomic) NSMutableArray *libraryIdentifiers; // @synthesize libraryIdentifiers=_libraryIdentifiers;
-@property(nonatomic) int likedState; // @synthesize likedState=_likedState;
-@property(nonatomic) long long likedStateChangedDate; // @synthesize likedStateChangedDate=_likedStateChangedDate;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) long long persistentId; // @synthesize persistentId=_persistentId;
-@property(retain, nonatomic) NSString *sortName; // @synthesize sortName=_sortName;
-@property(nonatomic) long long sortOrder; // @synthesize sortOrder=_sortOrder;
-@property(nonatomic) long long sortOrderSection; // @synthesize sortOrderSection=_sortOrderSection;
-@property(nonatomic) long long storeId; // @synthesize storeId=_storeId;
 
 @end
 

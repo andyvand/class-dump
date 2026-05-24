@@ -7,14 +7,6 @@
 @interface NewsUI2.MagazineGridModelLoaderFactory
 {
     id assetHandleFactory;
-    id offlineIssueManager;
-    id issueModelFactory;
-    id issueService;
-    id magazineCategoryConfigService;
-    id magazineCategoryService;
-    id paidBundleConfigManager;
-    id tagService;
-    id myMagazineStore;
 }
 
 @end

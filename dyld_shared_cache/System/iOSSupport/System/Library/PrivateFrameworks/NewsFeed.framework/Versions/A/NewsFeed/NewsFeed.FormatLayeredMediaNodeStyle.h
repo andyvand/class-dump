@@ -7,17 +7,6 @@
 @interface NewsFeed.FormatLayeredMediaNodeStyle
 {
     id _identifier;
-    id class;
-    id _selectors;
-    id alpha;
-    id background;
-    id borders;
-    id cornerRadius;
-    id shadow;
-    id video;
-    id motion;
-    id ignoresSmartInvertColors;
-    id filters;
 }
 
 @end

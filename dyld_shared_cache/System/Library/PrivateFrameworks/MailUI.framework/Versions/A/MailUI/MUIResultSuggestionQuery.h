@@ -4,31 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMMessageRepository, EMSearchableIndexUserQuery, MUISearchSenderQueryManager, MUISearchSuggestionPhraseManager, NSString;
-@protocol MUISearchResultsSuggesterConfiguration;
+@class MUISearchSuggestionPhraseManager;
 
 @interface MUIResultSuggestionQuery
 {
     MUISearchSuggestionPhraseManager *_phraseManager;
-    CDUnknownBlockType _handler;
-    NSString *_bundleID;
-    EMMessageRepository *_messageRepository;
-    MUISearchSenderQueryManager *_senderQueryManager;
-    id <MUISearchResultsSuggesterConfiguration> _configuration;
-    EMSearchableIndexUserQuery *_underlyingQuery;
 }
 
 - (void);
-- (void)efaultForItemIDs: /* Error: Ran out of types for this method. */;
+- (void)selectionModel:countShouldArchiveByDefaultForItemIDs: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

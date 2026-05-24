@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface WBSTabDialogCancellationContext
 {
     NSString *_reason;
-    NSDictionary *_userInfo;
 }
 
 + (id);
 + (id);
++ (id);
 + (id);
-+ (id);
 - (id);
 - (id);
-- (id);
+- (id)setApplicationShouldSuppressHDRContent: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)0´;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *reason; // @synthesize reason=_reason;
-@property(readonly, copy, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

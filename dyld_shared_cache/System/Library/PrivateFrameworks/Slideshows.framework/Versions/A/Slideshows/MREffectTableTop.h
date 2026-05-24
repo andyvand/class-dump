@@ -6,35 +6,22 @@
 
 #import <Slideshows/MREffect.h>
 
-@class MRCAMLBezierData, MRCroppingSprite, MRImage, MRImageProvider, MRTextRenderer, NSArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface MREffectTableTop : MREffect
 {
     NSMutableDictionary *mSprites;
-    MRCroppingSprite *mExtraSprites[2];
-    MRImageProvider *mPhotoBackProvider;
-    MRTextRenderer *mTextRenderer;
-    MRImage *mTextImage;
-    MRCroppingSprite *mTextSprite;
-    MRCroppingSprite *mPhotoBackSprite;
-    float mLocalMatrix[16];
-    struct CGSize mMaxTextSize;
-    _Bool mIsBreak;
-    _Bool mIsLoaded;
-    NSArray *mShuffledIndicies;
-    MRCAMLBezierData *mBezierData;
-    _Bool mNeedsToUpdateSizes;
 }
 
 + (void),8;
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)ntentType;
+- (_Bool);
+- (_Bool)anBeUploaded(NSDate *__strong _Nonnull, NSDate *__strong _Nonnull, NSDate * _Nullable __strong, NTPBAnalyticsEnvelopeContentTypeConfig *__strong _Nonnull);
+- (id)Caches/com.apple.xbs/TemporaryDirectory.AP33Sb/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NAUAnalyticsEnvelopeTracker.m;
+- (_Bool)Array<id<NDAnalyticsEnvelopeStoreEntry>> *__strong _Nonnull);
+- (_Bool)droppedEntriesByLocalReason;
 - (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (struct CGSize);
+- (struct CGSize);
 - (long long);
 - (void);
 - (void);

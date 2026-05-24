@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface UINSGameModuleScrollDrag : UINSGameModuleDigitizer
 {
     _Bool _scrollTrackingInProgress;
-    _Bool _scrollTranslationInProgress;
-    struct CGPoint _scrollInitialPoint;
-    struct CGPoint _scrollCumulativeDelta;
 }
 
 + (id);

@@ -10,18 +10,16 @@
 
 + (id);
 + (id)IÿÝDKr;
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)lastPathComponent;
+- (void)_ensureNoExistingGroupForSyncData:(_Bool)arg1;
+- (void)cGroupedChatsCache;
+- (void)trackSpamEvent:(_Bool)arg1;
+- (_Bool)-;
 - (_Bool);
 - (_Bool);
 - (_Bool)Ñÿ;
 
 // Remaining properties
-@property(nonatomic, getter=isDictationInputExpected) _Bool dictationInputExpected;
-@property(nonatomic, getter=isHardwareKeyboardInputExpected) _Bool hardwareKeyboardInputExpected;
 @property(nonatomic, getter=isPencilInputExpected) _Bool pencilInputExpected;
 
 @end

@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIImageView, UILabel, UIView;
-@protocol CKAppMenuCollectionViewCellDelegate;
+@class UILabel;
 
 __attribute__((visibility("hidden")))
 @interface CKAppMenuCollectionViewCell
 {
     UILabel *_titleLabel;
-    UIImageView *_imageView;
-    id <CKAppMenuCollectionViewCellDelegate> _delegate;
-    UIView *_selectionView;
 }
 
 - (void);
@@ -28,15 +24,12 @@ __attribute__((visibility("hidden")))
 × ;
 - (id)1Â0@ù
 × ;
-- (void)UISticker:(id)arg1 sourceRect:browserViewController: /* Error: Ran out of types for this method. */;
+- (void)_addStickerToStoreWithUISticker:(id)arg1 sourceRect:browserViewController: /* Error: Ran out of types for this method. */;
 - (void)GAYGAYGSgGG+Ó\yAAyB5µ\GGG;
 - (void)]ujØLÄÿmuj4MÄÿmujÌú§ÿujMÄÿ;
 - (id)·ÿßjØu·ÿAßjÔu·ÿßjÐu·ÿßjðu·ÿßjìu·ÿßjèu·ÿáÞjäu·ÿ;
 
 // Remaining properties
-@property(nonatomic) __weak id <CKAppMenuCollectionViewCellDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;
-@property(retain, nonatomic) UIView *selectionView; // @synthesize selectionView=_selectionView;
 @property(retain, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end

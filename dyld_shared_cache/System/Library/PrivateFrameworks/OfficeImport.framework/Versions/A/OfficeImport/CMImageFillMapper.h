@@ -12,17 +12,16 @@ __attribute__((visibility("hidden")))
 @interface CMImageFillMapper : CMMapper
 {
     OADFill *mFill;
-    struct CGRect mBounds;
 }
 
-- (struct CGRect);
+- (struct CGRect)q`;
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)(;
 - (id);
 - (id);
 - (void),0;

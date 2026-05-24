@@ -5,6 +5,9 @@
 //
 
 @protocol PKAccountServiceExportedInterface
+- (void)#;
+- (void);
+- (void)!;
 - (void)ùñî%°1Â0@ù
 × ;
 @end

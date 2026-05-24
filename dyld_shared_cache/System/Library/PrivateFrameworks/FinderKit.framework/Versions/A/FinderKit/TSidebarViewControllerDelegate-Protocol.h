@@ -5,5 +5,7 @@
 //
 
 @protocol TSidebarViewControllerDelegate
+- (struct TFENode)(;
+- (struct TFENode)㚔`;
 @end
 

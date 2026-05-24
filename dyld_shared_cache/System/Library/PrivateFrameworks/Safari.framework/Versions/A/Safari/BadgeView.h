@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSTextField, NSView;
+@class NSTextField, NSView;
 
 __attribute__((visibility("hidden")))
 @interface BadgeView
 {
     NSTextField *_badgeTextLabel;
-    NSArray *_activeConstraints;
-    NSView *_anchorView;
 }
 
 - (void);
@@ -22,12 +20,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void)PendingCompletionBlock;
+- (void)_imageHopControllerWithPendingCompletionBlock;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSView *anchorView;
-@property(copy, nonatomic) NSString *text;
 
 @end
 

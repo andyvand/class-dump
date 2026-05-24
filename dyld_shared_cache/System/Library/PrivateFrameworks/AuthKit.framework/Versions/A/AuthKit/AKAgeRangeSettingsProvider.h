@@ -9,10 +9,9 @@
 @interface AKAgeRangeSettingsProvider
 {
     AKAgeRangeSettingsCache *_ageRangeCache;
-    AKAppleIDAuthenticationController *_authController;
 }
 
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -20,7 +19,6 @@
 - (void)´;
 
 // Remaining properties
-@property(readonly, nonatomic) AKAgeRangeSettingsCache *ageRangeCache; // @synthesize ageRangeCache=_ageRangeCache;
 @property(retain, nonatomic) AKAppleIDAuthenticationController *authController; // @synthesize authController=_authController;
 
 @end

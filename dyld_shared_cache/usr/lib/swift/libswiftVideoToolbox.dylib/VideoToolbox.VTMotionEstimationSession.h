@@ -7,6 +7,7 @@
 @interface VideoToolbox.VTMotionEstimationSession
 {
     id session;
+    id;
 }
 
 @end

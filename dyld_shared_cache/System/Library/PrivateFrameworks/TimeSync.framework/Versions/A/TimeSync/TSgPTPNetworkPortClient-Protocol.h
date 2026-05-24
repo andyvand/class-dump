@@ -5,5 +5,8 @@
 //
 
 @protocol TSgPTPNetworkPortClient
+
+@optional
+- (void);
 @end
 

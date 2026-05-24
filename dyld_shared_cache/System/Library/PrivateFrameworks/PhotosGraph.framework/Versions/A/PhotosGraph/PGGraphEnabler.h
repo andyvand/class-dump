@@ -12,7 +12,7 @@
 }
 
 - (_Bool);
-- (_Bool);
+- (_Bool)f;
 - (void)and aesthetic score %.3f is lower than %.3f;
 - (id)GLçõ$_pGIegg_;
 - (id);

@@ -10,17 +10,13 @@ __attribute__((visibility("hidden")))
 @interface FMFSessionDataManager
 {
     NSSet *_followers;
-    NSSet *_following;
-    NSSet *_locations;
-    NSSet *_fences;
-    NSMutableDictionary *_locationsCache;
 }
 
 + (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)pdate brain bundle path:(id)arg1 %{public}@;
+- (id)tion |     Exit request from %s;
+- (id)ras/GEORouteAttributes+MNExtras.m;
 - (void);
 - (void);
 - (void);
@@ -31,17 +27,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void)1Â0@ù
 × ;
 - (void)%@:spanDays should have been >= 0 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *fences; // @synthesize fences=_fences;
-@property(retain, nonatomic) NSSet *followers; // @synthesize followers=_followers;
-@property(retain, nonatomic) NSSet *following; // @synthesize following=_following;
-@property(retain, nonatomic) NSSet *locations; // @synthesize locations=_locations;
 @property(retain, nonatomic) NSMutableDictionary *locationsCache; // @synthesize locationsCache=_locationsCache;
 
 @end

@@ -7,9 +7,6 @@
 @interface ContactsPersistence.CNCDFileSystemPhotoMigrator.FileManagerProxy
 {
     id filemanager;
-    id logger;
-    id files;
-    id cropRects;
 }
 
 @end

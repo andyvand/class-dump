@@ -12,7 +12,7 @@
 
 + (id);
 + (id);
-+ (id);
++ (id)thumbnailDataForKey:(id)arg1;
 - (id);
 - (id);
 

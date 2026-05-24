@@ -5,5 +5,7 @@
 //
 
 @protocol NSXPCProxyCreating
+- (id)workshop;
+- (id);
 @end
 

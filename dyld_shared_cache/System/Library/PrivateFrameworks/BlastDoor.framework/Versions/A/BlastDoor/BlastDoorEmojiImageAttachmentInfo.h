@@ -14,7 +14,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)7;
 - (id);
 - (id);
 - (id);
@@ -24,13 +24,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *emojiImageContentIdentifer;
-@property(nonatomic, readonly) NSString *emojiImageShortDescription;
-@property(nonatomic, readonly) NSString *stickerBalloonBundleID;
-@property(nonatomic, readonly) NSString *stickerExternalURI;
-@property(nonatomic, readonly) NSString *stickerHash;
-@property(nonatomic, readonly) NSString *stickerIdentifier;
-@property(nonatomic, readonly) NSString *stickerPackIdentifier;
 
 @end
 

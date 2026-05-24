@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INCurrencyAmount, NSUserActivity;
+@class NSUserActivity;
 
 @protocol INRideCompletionStatusExport
 + (id)ñ¾(°1Â0@ù
 × ;
-- (_Bool)t;
+- (_Bool)INGetVisualCodeIntentResponseExport;
 
 // Remaining properties
-@property(readonly, getter=isCanceled) _Bool canceled;
-@property(nonatomic, getter=isCanceledByService) _Bool canceledByService;
-@property(getter=isCompleted) _Bool completed;
 @property(retain) NSUserActivity *completionUserActivity;
-@property(getter=isMissedPickup) _Bool missedPickup;
-@property(getter=isOutstanding) _Bool outstanding;
-@property(retain) INCurrencyAmount *paymentAmount;
 @end
 

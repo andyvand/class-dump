@@ -4,36 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSSet;
+@class NSArray, NSMutableArray;
 
 @interface _WBSBookmarkFolderTouchIconProviderRequestInfo
 {
     NSMutableArray *_thumbnailImages;
-    NSMutableArray *_backgroundColors;
-    _Bool _hasScheduledCoalescedUpdate;
-    NSArray *_subrequests;
-    NSSet *_subrequestTokens;
 }
 
 - (id);
 - (void);
+- (void)S;
 - (void);
+- (_Bool)qA;
 - (void);
-- (_Bool);
+- (id)*i@9*;
 - (void);
-- (id);
-- (void);
-- (id);
+- (id);
 - (id);
 - (id);
-- (void)tring;
+- (void)_cachedCanonicalURLStringForWebPageURLString;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *backgroundColors;
-@property(nonatomic) _Bool hasScheduledCoalescedUpdate; // @synthesize hasScheduledCoalescedUpdate=_hasScheduledCoalescedUpdate;
-@property(copy, nonatomic) NSSet *subrequestTokens; // @synthesize subrequestTokens=_subrequestTokens;
 @property(copy, nonatomic) NSArray *subrequests; // @synthesize subrequests=_subrequests;
-@property(readonly, copy, nonatomic) NSArray *thumbnailImages;
 
 @end
 

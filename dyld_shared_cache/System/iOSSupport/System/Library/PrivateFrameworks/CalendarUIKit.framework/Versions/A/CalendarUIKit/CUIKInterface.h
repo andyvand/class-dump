@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CUIKInterface
 {
     long long _overrideLayoutDirection;
-    NSString *_overridePreferredContentSizeCategory;
 }
 
-+ (id)oposedTimeEvent;
++ (id)isProposedTimeEvent;
 - (_Bool);
 - (void);
 - (void);
@@ -24,12 +21,11 @@
 - (long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (void)tKeepRedundantDesignator: /* Error: Ran out of types for this method. */;
+- (id)_setShowsRuler: /* Error: Ran out of types for this method. */;
+- (void)setKeepRedundantDesignator: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property long long overrideLayoutDirection; // @synthesize overrideLayoutDirection=_overrideLayoutDirection;
-@property(retain) NSString *overridePreferredContentSizeCategory; // @synthesize overridePreferredContentSizeCategory=_overridePreferredContentSizeCategory;
 
 @end
 

@@ -4,30 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORPCuratedCollectionContext, GEORPCuratedCollectionCorrections, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPCuratedCollectionFeedback
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEORPCuratedCollectionContext *_curatedCollectionContext;
-    GEORPCuratedCollectionCorrections *_curatedCollectionCorrections;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_curatedCollectionContext:1;
-        unsigned int read_curatedCollectionCorrections:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool):(id)arg1;
-- (void);
-- (void);
++ (_Bool)setIsPartiallyClientizedSearchResult:(id)arg1;
+- (void)CNACAccountCollection;
+- (void)ABCDContainerDiff;
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
@@ -35,26 +23,22 @@
 - (id);
 - (void);
 - (void);
+- (id)setComponent: /* Error: Ran out of types for this method. */;
+- (void)tly playing alert;
 - (id);
-- (void);
-- (id);
-- (unsigned long long);
+- (unsigned long long)P;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id)ields"b1"read_subTitle"b1"read_title"b1"wrote_anyField"b1};
-- (id)ntCapabilities: /* Error: Ran out of types for this method. */;
+- (id)addFeedbackClientCapabilities: /* Error: Ran out of types for this method. */;
 - (id)°+;
-- (id)gacy;
+- (id)addressCorrectionUpdateURLLegacy;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) GEORPCuratedCollectionContext *curatedCollectionContext;
-@property(retain, nonatomic) GEORPCuratedCollectionCorrections *curatedCollectionCorrections;
 @property(readonly, nonatomic) _Bool hasCuratedCollectionContext;
-@property(readonly, nonatomic) _Bool hasCuratedCollectionCorrections;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

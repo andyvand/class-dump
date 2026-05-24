@@ -6,27 +6,19 @@
 
 #import <PhotosGraph/PGTopPeopleWallpaperSuggester.h>
 
-@class NSString, PGPeopleWallpaperSuggesterFilteringContext;
+@class PGPeopleWallpaperSuggesterFilteringContext;
 
 @interface PGMeWallpaperSuggester : PGTopPeopleWallpaperSuggester
 {
 }
 
-+ (id);
++ (id)accessibilityMinValue;
 + (_Bool);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) PGPeopleWallpaperSuggesterFilteringContext *primaryFilteringContext;
-@property(retain, nonatomic) PGPeopleWallpaperSuggesterFilteringContext *secondaryFilteringContext;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,22 +7,17 @@
 @interface CGVirtualDisplayMode
 {
     unsigned int _width;
-    unsigned int _height;
-    double _refreshRate;
-    unsigned int _transferFunction;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)*+;
+- (unsigned int)h;
 - (unsigned int);
-- (unsigned int);
-- (unsigned int);
+- (unsigned int)encodeBatchToCommandBuffer:sourceImages:destinationMatrix: /* Error: Ran out of types for this method. */;
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int height; // @synthesize height=_height;
-@property(readonly, nonatomic) double refreshRate; // @synthesize refreshRate=_refreshRate;
 @property(readonly, nonatomic) unsigned int width; // @synthesize width=_width;
 
 @end

@@ -7,11 +7,6 @@
 @interface AppStoreKit.EditorialLink
 {
     id descriptionText;
-    id summaryText;
-    id linkPresentationEnabled;
-    id clickAction;
-    id id;
-    id impressionMetrics;
 }
 
 @end

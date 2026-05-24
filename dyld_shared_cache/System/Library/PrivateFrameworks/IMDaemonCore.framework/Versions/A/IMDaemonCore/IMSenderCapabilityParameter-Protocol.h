@@ -5,5 +5,6 @@
 //
 
 @protocol IMSenderCapabilityParameter
+- (void)R;
 @end
 

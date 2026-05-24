@@ -12,8 +12,8 @@
 }
 
 - (void);
-- (void);
-- (id);
+- (void);
+- (id);
 
 // Remaining properties
 @property(copy) NSDictionary *configDictionary; // @synthesize configDictionary;

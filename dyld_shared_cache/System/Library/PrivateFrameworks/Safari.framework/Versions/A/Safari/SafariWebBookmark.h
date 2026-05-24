@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BookmarkImportInfo, NSArray, NSData, NSDate, NSDictionary, NSImage, NSString, NSURL, SHA256Hash, SafariWebBookmarkList, WebBookmarkGroup;
+@class NSArray;
 
 @interface SafariWebBookmark
 {
     _Bool _threadUnsafeShouldOmitFromUI;
-    _Bool _threadUnsafeShowIconOnly;
-    _Bool _canOpenInTabs;
-    _Bool _persistedSeparately;
-    _Bool _managed;
-    NSString *_UUID;
-    NSString *_threadUnsafeTitle;
-    NSDictionary *_threadUnsafeReadingListItemAttributes;
-    NSDictionary *_threadUnsafeReadingListItemNonSyncAttributes;
-    BookmarkImportInfo *_threadUnsafeImportInfo;
-    NSDate *_threadUnsafeDateAdded;
-    WebBookmarkGroup *_group;
-    SafariWebBookmarkList *_parent;
-    NSString *_identifier;
-    NSString *_syncServerID;
-    NSString *_syncKey;
-    NSData *_syncData;
-    NSString *_webBookmarkUUIDString;
 }
 
 + (id);
@@ -51,7 +34,7 @@
 + (Class);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)B;
 + (id);
 + (unsigned long long);
 + (id);
@@ -83,8 +66,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -155,7 +138,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)H;
 - (void);
 - (_Bool);
 - (void);
@@ -171,7 +154,7 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)`;
 - (void);
 - (id);
 - (void);
@@ -183,11 +166,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)C;
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -195,14 +178,14 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)_tagWithStringRepresentation:(id)arg1 length:error: /* Error: Ran out of types for this method. */;
+- (void)__im_isEmojiStickerID;
 - (void);
 - (id);
-- (id);
+- (id)�;
 - (id);
 - (id)@?32;
-- (id)keyAssertionUsingCredentialIdentity:requestParameters: /* Error: Ran out of types for this method. */;
+- (id)performPasskeyAssertionUsingCredentialIdentity:requestParameters: /* Error: Ran out of types for this method. */;
 - (void)W@g5ySSG;
 - (id);
 - (id)Ðóßÿ;
@@ -210,58 +193,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *UUID; // @synthesize UUID=_UUID;
-@property(readonly, nonatomic) long long bookmarkType;
-@property(readonly, nonatomic) _Bool canOpenInTabs; // @synthesize canOpenInTabs=_canOpenInTabs;
-@property(copy, nonatomic) NSDate *dateAdded; // @synthesize dateAdded=_threadUnsafeDateAdded;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(readonly, copy, nonatomic) NSArray *flattenedDescendants;
-@property(nonatomic) __weak WebBookmarkGroup *group; // @synthesize group=_group;
-@property(readonly, nonatomic) _Bool hasUUID;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSImage *icon;
-@property(readonly, nonatomic) NSString *iconURLString;
-@property(copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain) BookmarkImportInfo *importInfo; // @synthesize importInfo=_threadUnsafeImportInfo;
-@property(readonly, nonatomic) _Bool isList;
-@property(readonly, nonatomic) _Bool isTabGroupFavoritesFolder;
-@property(readonly, nonatomic) NSArray *leafChildren;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) _Bool looksLikeBookmarksBar;
-@property(readonly, nonatomic) _Bool looksLikeBookmarksMenu;
-@property(readonly, nonatomic) _Bool looksLikeReadingList;
-@property(nonatomic, getter=isManaged) _Bool managed; // @synthesize managed=_managed;
-@property(readonly, nonatomic) unsigned long long numberOfAncestors;
-@property(readonly, nonatomic) unsigned long long numberOfChildren;
-@property(setter=_setParent:) __weak SafariWebBookmarkList *parent; // @synthesize parent=_parent;
-@property(nonatomic, getter=isPersistedSeparately) _Bool persistedSeparately; // @synthesize persistedSeparately=_persistedSeparately;
-@property(readonly, nonatomic) long long preferredIconType;
-@property(copy) NSDictionary *readingListItemAttributes; // @synthesize readingListItemAttributes=_threadUnsafeReadingListItemAttributes;
-@property(retain) NSDate *readingListItemDateAdded;
-@property(retain) NSDate *readingListItemDateLastViewed;
-@property(copy) NSDictionary *readingListItemNonSyncAttributes; // @synthesize readingListItemNonSyncAttributes=_threadUnsafeReadingListItemNonSyncAttributes;
-@property(copy) NSString *readingListItemPreviewText;
-@property _Bool shouldOmitFromUI; // @synthesize shouldOmitFromUI=_threadUnsafeShouldOmitFromUI;
-@property(readonly, nonatomic) _Bool shouldOmitFromUIOrHasOmittedAncestor;
-@property(nonatomic) _Bool showIconOnly; // @synthesize showIconOnly=_threadUnsafeShowIconOnly;
-@property(readonly, nonatomic) SHA256Hash *stateHash;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSData *syncData; // @synthesize syncData=_syncData;
-@property(copy, nonatomic) NSString *syncKey; // @synthesize syncKey=_syncKey;
-@property(copy, nonatomic) NSString *syncServerID; // @synthesize syncServerID=_syncServerID;
-@property(readonly, copy) NSString *title; // @synthesize title=_threadUnsafeTitle;
-@property(readonly, nonatomic) NSURL *url;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSURL",?,R,N
-
-@property(copy, nonatomic) NSString *webBookmarkUUIDString; // @synthesize webBookmarkUUIDString=_webBookmarkUUIDString;
 
 @end
 

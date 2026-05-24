@@ -4,29 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString;
+@class NSDate, NSString;
 
 @interface SSCAMetalLayerConfiguration
 {
     NSString *_layerName;
-    NSNumber *_heightPixels;
-    NSNumber *_widthPixels;
-    NSNumber *_mtlPixelFormat;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    unsigned long long _startMachContinuousTime;
-    unsigned long long _endMachContinuousTime;
-    double _timebaseRatio;
 }
 
 - (id);
-- (void);
+- (void)4)|S(;
 - (double);
 - (double);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
-- (id);
+- (id)Tr;
 - (id);
 - (_Bool);
 - (id);
@@ -42,33 +34,18 @@
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
+- (id)@@;
 - (unsigned long long);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(nonatomic) unsigned long long endMachContinuousTime; // @synthesize endMachContinuousTime=_endMachContinuousTime;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSNumber *heightPixels; // @synthesize heightPixels=_heightPixels;
-@property(readonly, nonatomic) NSString *layerName; // @synthesize layerName=_layerName;
-@property(readonly, nonatomic) NSNumber *mtlPixelFormat; // @synthesize mtlPixelFormat=_mtlPixelFormat;
 @property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(nonatomic) unsigned long long startMachContinuousTime; // @synthesize startMachContinuousTime=_startMachContinuousTime;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double timebaseRatio; // @synthesize timebaseRatio=_timebaseRatio;
-@property(readonly, nonatomic) NSNumber *widthPixels; // @synthesize widthPixels=_widthPixels;
 
 @end
 

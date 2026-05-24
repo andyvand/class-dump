@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSLock, NSMutableDictionary, NSMutableSet, NSSet;
+@class NSDictionary, NSMutableDictionary;
 
 @interface TIMetricDescriptorRegistry
 {
     NSMutableDictionary *_metricDescriptors;
-    NSMutableSet *_invalidMetricNames;
-    NSLock *_lock;
-    _Bool _loaded;
-    NSDictionary *_config;
 }
 
 + (id);
 + (id);
 + (id);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)ius:(id)arg1;
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -30,16 +26,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)le.sharepointmanager;
 - (void)Qi°1Â0@ù
 × ;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *config; // @synthesize config=_config;
-@property(readonly, nonatomic) NSSet *invalidMetricNames;
-@property(nonatomic) _Bool loaded; // @synthesize loaded=_loaded;
-@property(readonly, nonatomic) NSDictionary *metricDescriptors;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol CNObjectValidation
+- (_Bool)keyPathsForValuesAffectingDRDeviceCurrentWriteSpeedKey;
 @end
 

@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, PHFetchResult, PHPhotoLibrary;
+@class NSObject, PHPhotoLibrary;
 @protocol OS_dispatch_queue;
 
 @interface PXCPLSharedLibraryActivity
 {
     NSObject<OS_dispatch_queue> *_serialQueue;
-    PHFetchResult *_libraryScopeFetchResult;
-    PHPhotoLibrary *_photoLibrary;
-    long long _state;
-    unsigned long long _movingToShared;
-    unsigned long long _movingToPersonal;
 }
 
-+ (id)omplete;
++ (id)PXSharedLibrary_InvitationAlertMessage_InitialSyncNotComplete;
 - (void);
 - (void);
 - (unsigned long long);
@@ -27,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)?;
 - (id);
 - (void);
 - (id);
@@ -37,17 +32,7 @@
 - (id)=;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long movingToPersonal; // @synthesize movingToPersonal=_movingToPersonal;
-@property(readonly, nonatomic) unsigned long long movingToShared; // @synthesize movingToShared=_movingToShared;
 @property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(readonly, nonatomic) long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

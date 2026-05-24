@@ -4,41 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSString;
 
 @interface DEAnnotatedGroup
 {
     NSString *_displayName;
-    NSString *_localizedDescription;
-    NSString *_iconType;
-    NSDictionary *_additionalInfo;
-    NSArray *_items;
 }
 
-+ (_Bool);
++ (_Bool)�J;
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void));
+- (id)$;
 - (id);
 - (id);
+- (void)eeding DBR re-auth.;
+- (id)<	;
+- (void)los_estimator_enable_use_of_mpf_evidence;
 - (id);
-- (void);
+- (void)32@40@48^{__CFString=}56^@64;
+- (id)PFAmbientPosterData;
 - (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(retain) NSDictionary *additionalInfo; // @synthesize additionalInfo=_additionalInfo;
 @property(retain) NSString *displayName; // @synthesize displayName=_displayName;
-@property(retain) NSString *iconType; // @synthesize iconType=_iconType;
-@property(retain) NSArray *items; // @synthesize items=_items;
-@property(retain) NSString *localizedDescription; // @synthesize localizedDescription=_localizedDescription;
 
 @end
 

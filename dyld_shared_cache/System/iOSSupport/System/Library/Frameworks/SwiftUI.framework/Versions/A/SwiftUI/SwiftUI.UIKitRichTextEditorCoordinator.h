@@ -9,13 +9,6 @@
 @interface SwiftUI.UIKitRichTextEditorCoordinator : SwiftUI.UIKitTextEditorCoordinatorBase
 {
     id _storage;
-    id environment;
-    id systemShortcutBarItems;
-    id editorModifications;
-    id disabledEditorModifications;
-    id textView;
-    id formattingController;
-    id formattingUIValidationTask;
 }
 
 - (void);

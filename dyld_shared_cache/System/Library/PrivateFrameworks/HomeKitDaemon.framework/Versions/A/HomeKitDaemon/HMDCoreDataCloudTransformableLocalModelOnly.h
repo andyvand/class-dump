@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDCoreDataCloudTransformableLocalModelOnly
 {
@@ -13,28 +11,22 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-+ (void);
++ (void);
 + (_Bool);
-+ (_Bool);
++ (_Bool)wConnectDidFailUI:(id)arg1 ];
 + (id);
 + (_Bool)ùñð1Â0@ù
 × ;
-+ (_Bool)ationalKeyPair;
++ (_Bool)storedOperationalKeyPair;
 + (_Bool)isAdaptiveTemperatureAutomationsEnabledInHome:(id)arg1 shouldWaitToConfigure:(id)arg2;
 + (_Bool)ivate settings for shared user to Core Data;
 + (id)¸B;
-- (id);
+- (id)a;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

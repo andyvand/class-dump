@@ -4,90 +4,71 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMBCloudDatabase, HMBLocalDatabase, NSHashTable, NSMapTable, NSString;
-@protocol HMMLogEventSubmitting;
+@class NSHashTable;
 
 __attribute__((visibility("hidden")))
 @interface HMDDatabase
 {
     struct os_unfair_lock_s _lock;
-    _Bool _hasStarted;
-    HMBLocalDatabase *_localDatabase;
-    HMBCloudDatabase *_cloudDatabase;
-    NSHashTable *_delegates;
-    NSMapTable *_zoneDelegatesByLocalZone;
-    id <HMMLogEventSubmitting> _logEventSubmitter;
 }
 
 + (void);
-+ (id);
++ (id)8;
 + (id);
 + (void);
 + (id);
-+ (id)etion: /* Error: Ran out of types for this method. */;
++ (id)_runUpdateTransactionWithValue:setting:completion: /* Error: Ran out of types for this method. */;
 + (id)¬B;
 + (id)v¨$D;
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void);
+- (void)al cursor already set;
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
 - (void);
+- (id)a;
 - (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)o;
 - (id);
 - (id)0@ù
 × ;
 - (void)!(Aù1Â0@ù
 × ;
-- (void)mPairedSensors:(id)arg1 sensorStatus:(id)arg2 numPairedSensorAutomations:numMediaAutomations: /* Error: Ran out of types for this method. */;
+- (void)initWithNumPairedSensors:(id)arg1 sensorStatus:(id)arg2 numPairedSensorAutomations:numMediaAutomations: /* Error: Ran out of types for this method. */;
 - (void)èC;
 - (id)\;
 - (id)K;
 - (id)ome -> %@);
-- (void)butorTypeComingHome;
-- (id)SON;
+- (void)HMDHomeActivityStateContributorTypeComingHome;
+- (id)BULLETIN_LOCK_MESSAGE_WITH_PERSON;
 - (void)item;
 - (id)ÿ¿ä#?;
 - (_Bool)ÿS¾¨f@;
 - (void);
 
 // Remaining properties
-@property(readonly) HMBCloudDatabase *cloudDatabase; // @synthesize cloudDatabase=_cloudDatabase;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly) NSHashTable *delegates; // @synthesize delegates=_delegates;
-@property(readonly, copy) NSString *description;
-@property _Bool hasStarted; // @synthesize hasStarted=_hasStarted;
-@property(readonly) unsigned long long hash;
-@property(readonly) HMBLocalDatabase *localDatabase; // @synthesize localDatabase=_localDatabase;
-@property(readonly) id <HMMLogEventSubmitting> logEventSubmitter; // @synthesize logEventSubmitter=_logEventSubmitter;
-@property(readonly) Class superclass;
-@property(readonly) NSMapTable *zoneDelegatesByLocalZone; // @synthesize zoneDelegatesByLocalZone=_zoneDelegatesByLocalZone;
 
 @end
 

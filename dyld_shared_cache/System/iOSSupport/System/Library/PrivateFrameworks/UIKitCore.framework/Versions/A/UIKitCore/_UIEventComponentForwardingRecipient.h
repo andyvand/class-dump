@@ -10,17 +10,14 @@ __attribute__((visibility("hidden")))
 @interface _UIEventComponentForwardingRecipient
 {
     UIResponder *fromResponder;
-    UIResponder *responder;
-    long long recordedPhase;
-    long long autocompletedPhase;
 }
 
 - (void);
-- (void);
-- (void);
-- (long long);
-- (id);
-- (id);
+- (void)aemonListenerServiceProtocol>"24@0:(id)arg1 8@"IMDService"16;
+- (void)"IMDRelayPushHandler"16@"NSString"24B32@"NSNumber"36@"NSNumber"44;
+- (long long)service:sendMessage:fromAccount:toDestinations:priority:options:identifier:error: /* Error: Ran out of types for this method. */;
+- (id)dataRepresentation;
+- (id)_resetAndBroadcastBlackholeErrorStateIfNeededForChatIdentifier:chatStyle: /* Error: Ran out of types for this method. */;
 - (long long);
 - (void);
 - (id);
@@ -28,10 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long autocompletedPhase; // @synthesize autocompletedPhase;
 @property(nonatomic) __weak UIResponder *fromResponder; // @synthesize fromResponder;
-@property(nonatomic) long long recordedPhase; // @synthesize recordedPhase;
-@property(nonatomic) __weak UIResponder *responder; // @synthesize responder;
 
 @end
 

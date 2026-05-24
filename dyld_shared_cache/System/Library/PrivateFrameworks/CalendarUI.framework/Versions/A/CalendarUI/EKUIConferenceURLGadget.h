@@ -6,19 +6,16 @@
 
 #import <CalendarUI/EKUISingleViewGadget.h>
 
-@class EKUIConferenceToken, EKUIVirtualConference, NSButton, NSString, NSView;
+@class NSView;
 
 @interface EKUIConferenceURLGadget : EKUISingleViewGadget
 {
     NSView *_controlView;
-    NSButton *_actionButton;
-    EKUIConferenceToken *_tokenButton;
-    EKUIVirtualConference *_currentConference;
 }
 
 + (id);
 - (void);
-- (id);
+- (id)B;
 - (_Bool);
 - (void);
 - (id);
@@ -37,20 +34,10 @@
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)selectPreviousKeyViewHidingPanel:(id)arg1;
 
 // Remaining properties
-@property(retain) NSButton *actionButton; // @synthesize actionButton=_actionButton;
 @property(retain) NSView *controlView; // @synthesize controlView=_controlView;
-@property(retain) EKUIVirtualConference *currentConference; // @synthesize currentConference=_currentConference;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain) EKUIConferenceToken *tokenButton; // @synthesize tokenButton=_tokenButton;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface TrackingAttributes
 {
     unsigned short flags;
-    unsigned long long identifier;
 }
 
 - (id);
@@ -15,12 +14,11 @@
 - (id);
 - (id);
 - (void);
-- (unsigned short);
+- (unsigned short)ei runtime;
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) unsigned short flags; // @synthesize flags;
 @property(nonatomic) unsigned long long identifier; // @synthesize identifier;
 
 @end

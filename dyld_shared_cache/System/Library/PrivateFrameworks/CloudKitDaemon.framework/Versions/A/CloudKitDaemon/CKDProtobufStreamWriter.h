@@ -4,37 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSFileHandle, NSInputStream, NSMutableArray, NSObject, NSOutputStream, NSString;
-@protocol OS_dispatch_queue;
+@class NSMutableArray;
 
 @interface CKDProtobufStreamWriter
 {
     NSMutableArray *_allObjects;
-    NSData *_curData;
-    unsigned long long _curDataPos;
-    NSInputStream *_inputStream;
-    NSOutputStream *_outputStream;
-    struct z_stream_s _zlibStream;
-    _Bool _haveFlushedZlib;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    _Bool _shouldCompress;
-    _Bool _hasInitedCompression;
-    _Bool _haveFinishedCompression;
-    _Bool _haveFinishedStreaming;
-    unsigned long long _bufferSize;
-    CDUnknownBlockType _logRequestObjectBlock;
-    NSFileHandle *_binaryLogFileHandle;
 }
 
 + (id);
 + (id);
-- (void);
+- (void)state:(id)arg1:common_UserSocialAction /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (long long);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
@@ -57,20 +42,7 @@
 - (void)or decrypting PCS for zone %@:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSFileHandle *binaryLogFileHandle; // @synthesize binaryLogFileHandle=_binaryLogFileHandle;
-@property(nonatomic) unsigned long long bufferSize; // @synthesize bufferSize=_bufferSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasInitedCompression; // @synthesize hasInitedCompression=_hasInitedCompression;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool haveFinishedCompression; // @synthesize haveFinishedCompression=_haveFinishedCompression;
-@property _Bool haveFinishedStreaming; // @synthesize haveFinishedStreaming=_haveFinishedStreaming;
-@property(copy, nonatomic) CDUnknownBlockType logRequestObjectBlock; // @synthesize logRequestObjectBlock=_logRequestObjectBlock;
 @property(nonatomic) _Bool shouldCompress; // @synthesize shouldCompress=_shouldCompress;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,8 +6,6 @@
 
 #import <Silex/SXJSONObject.h>
 
-@class NSSet, NSString, SXFollowingCondition;
-
 @interface SXCondition : SXJSONObject
 {
 }
@@ -30,42 +28,10 @@
 - (long long);
 - (id);
 - (id);
-- (id)rdHeight;
+- (id)_keyboardHeight;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *app; // @dynamic app;
-@property(readonly, nonatomic) NSString *configurationKey; // @dynamic configurationKey;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *experimentTreatmentGroup; // @dynamic experimentTreatmentGroup;
-@property(readonly, nonatomic) SXFollowingCondition *following; // @dynamic following;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long horizontalSizeClass; // @dynamic horizontalSizeClass;
-@property(readonly, nonatomic) unsigned long long maxColumns; // @dynamic maxColumns;
-@property(readonly, nonatomic) NSString *maxContentSizeCategory; // @dynamic maxContentSizeCategory;
-@property(readonly, nonatomic) NSString *maxSpecVersion; // @dynamic maxSpecVersion;
-@property(readonly, nonatomic) double maxViewportAspectRatio; // @dynamic maxViewportAspectRatio;
-@property(readonly, nonatomic) double maxViewportWidth; // @dynamic maxViewportWidth;
-@property(readonly, nonatomic) unsigned long long minColumns; // @dynamic minColumns;
-@property(readonly, nonatomic) NSString *minContentSizeCategory; // @dynamic minContentSizeCategory;
-@property(readonly, nonatomic) NSString *minSpecVersion; // @dynamic minSpecVersion;
-@property(readonly, nonatomic) double minViewportAspectRatio; // @dynamic minViewportAspectRatio;
 @property(readonly, nonatomic) double minViewportWidth; // @dynamic minViewportWidth;
-@property(readonly, nonatomic) unsigned long long newsletterSubscriptionStatus; // @dynamic newsletterSubscriptionStatus;
-@property(readonly, nonatomic) NSString *offerIdentifier; // @dynamic offerIdentifier;
-@property(readonly, nonatomic) long long offerUpsellScenario; // @dynamic offerUpsellScenario;
-@property(readonly, nonatomic) NSString *platform; // @dynamic platform;
-@property(readonly, nonatomic) unsigned long long preferredColorScheme; // @dynamic preferredColorScheme;
-@property(readonly, nonatomic) long long subscriptionActivationEligibility; // @dynamic subscriptionActivationEligibility;
-@property(readonly, nonatomic) NSString *subscriptionStatus; // @dynamic subscriptionStatus;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long testing; // @dynamic testing;
-@property(readonly, nonatomic) NSSet *types;
-@property(readonly, nonatomic) long long verticalSizeClass; // @dynamic verticalSizeClass;
-@property(readonly, nonatomic) NSString *viewLocation; // @dynamic viewLocation;
 
 @end
 

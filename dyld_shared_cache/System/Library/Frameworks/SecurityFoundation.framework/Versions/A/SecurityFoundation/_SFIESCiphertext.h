@@ -6,7 +6,7 @@
 
 #import <SecurityFoundation/_SFCiphertext.h>
 
-@class NSData, _SFECPublicKey;
+@class _SFECPublicKey;
 
 @interface _SFIESCiphertext : _SFCiphertext
 {
@@ -14,8 +14,8 @@
 }
 
 + (_Bool);
-- (id);
-- (id);
+- (id)kQPQUOutputTokenRange;
+- (id);
 - (id);
 - (_Bool);
 - (void);
@@ -23,7 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSData *authenticationCode;
 @property(readonly) _SFECPublicKey *ephemeralSenderPublicKey;
 
 @end

@@ -4,42 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface MLSubtractBroadcastableBrick
 {
     _Bool _shapeInfoNeeded;
-    NSArray *_inputRanks;
-    NSArray *_outputRanks;
-    NSArray *_inputShapes;
-    NSArray *_outputShapes;
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)refitInstanceLeafNodeUserIDKernel;
+- (id)logicOperation;
+- (id)vertexDepthCompareClampMask;
+- (id)ngMode =;
+- (id)erThreadgroup =;
+- (_Bool);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)h;
 - (void). E5RT:%s (%d) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *inputRanks; // @synthesize inputRanks=_inputRanks;
-@property(readonly, nonatomic) NSArray *inputShapes; // @synthesize inputShapes=_inputShapes;
-@property(readonly, nonatomic) NSArray *outputRanks; // @synthesize outputRanks=_outputRanks;
-@property(readonly, nonatomic) NSArray *outputShapes; // @synthesize outputShapes=_outputShapes;
 @property(readonly, nonatomic) _Bool shapeInfoNeeded; // @synthesize shapeInfoNeeded=_shapeInfoNeeded;
-@property(readonly) Class superclass;
 
 @end
 

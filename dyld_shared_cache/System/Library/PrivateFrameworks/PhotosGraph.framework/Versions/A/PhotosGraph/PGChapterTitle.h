@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateInterval, NSString;
+@class NSString;
 
 @interface PGChapterTitle
 {
     NSString *_localizedTitleString;
-    NSDateInterval *_chapterDateInterval;
 }
 
 - (id);
@@ -20,7 +19,6 @@
 - (void)PGMeaningAggregationMemoryGenerator.m;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDateInterval *chapterDateInterval; // @synthesize chapterDateInterval=_chapterDateInterval;
 @property(readonly, nonatomic) NSString *localizedTitleString; // @synthesize localizedTitleString=_localizedTitleString;
 
 @end

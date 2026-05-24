@@ -6,23 +6,20 @@
 
 #import <UIKitCore/UISegmentedControlDefaultStyleProvider.h>
 
-@class NSString, UIBlurEffect, UIColor, UIFont, UIVibrancyEffect;
-@protocol _UIViewMaterial;
-
 __attribute__((visibility("hidden")))
 @interface UISegmentedControlGlassStyleProvider : UISegmentedControlDefaultStyleProvider
 {
 }
 
+- (_Bool)_numReadReceiptsV1NoQOIMarkedMessageAfterInitial;
+- (_Bool)_nicknameIsUploadingToCK;
+- (double);
+- (id)g dictionary:%@ /* Error: Ran out of types for this method. */;
+- (double)account check after upgrade;
+- (id)received telemetry metrics for message guid:%@, samplingUUID:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)%@;
 - (_Bool);
-- (_Bool);
-- (double);
-- (id);
-- (double);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)Kinds;
 - (double);
 - (double)@ù
 × ;
@@ -30,69 +27,7 @@ __attribute__((visibility("hidden")))
 - (id)lâã éäéëìì;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowFreeSelectionSliding;
 @property(readonly, nonatomic) _Bool alwaysUseConcentricCornerRadius;
-@property(readonly, nonatomic) _Bool animateHighlightingSelectionByDefault;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool animateSlidingSelectionByDefault;
-@property(readonly, nonatomic) _Bool apportionsSegmentWidthsByContentByDefault;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) UIBlurEffect *backgroundBlurEffect;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIBlurEffect",?,R,N
-
-@property(readonly, nonatomic) id <_UIViewMaterial> backgroundMaterial;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) UIColor *defaultBackgroundTintColor;
-@property(readonly, nonatomic) double defaultContentPaddingWidth;
-@property(readonly, nonatomic) double defaultHeightWithBackgroundMaterial;
-@property(readonly, nonatomic) double defaultInterSegmentSpacing;
-@property(readonly, nonatomic) double defaultTextContentPaddingWidth;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool disablePointerEffects;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) UIFont *fontWithBackgroundMaterial;
-@property(readonly, nonatomic) _Bool hasShadowWithSelectedSegmentEffect;
-@property(readonly, nonatomic) _Bool hasTransparentBackgroundByDefault;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIVibrancyEffect *highlightedSegmentDefaultVibrancyEffect;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIVibrancyEffect",?,R,N
-
-@property(readonly, nonatomic) _Bool limitInternalLayoutAndInteractionToDefaultHeight;
-@property(readonly, nonatomic) double mostlyInsideMargin;
-@property(readonly, nonatomic) double segmentHidingFinalScaleFactor;
-@property(readonly, nonatomic) double segmentSelectionScaleFactor;
-@property(readonly, nonatomic) UIVibrancyEffect *selectedSegmentContentDefaultVibrancyEffect;
-@property(readonly, nonatomic) UIBlurEffect *selectedSegmentDefaultBlurEffect;
-@property(readonly, nonatomic) UIVibrancyEffect *selectedSegmentDefaultVibrancyEffect;
-@property(readonly, nonatomic) _Bool shouldHideSelectionOnFocusUpdate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsAXPopover;
-@property(readonly, nonatomic) _Bool supportsDynamicTypeByDefault;
-@property(readonly, nonatomic) UIVibrancyEffect *unselectedSegmentContentDefaultVibrancyEffect;
-@property(readonly, nonatomic) _Bool useC2Animation;
-@property(readonly, nonatomic) _Bool useGeneratedImages;
-@property(readonly, nonatomic) _Bool useLensView;
-@property(readonly, nonatomic) _Bool useSelectionIndicatorStyling;
-@property(readonly, nonatomic) _Bool useTVStyleFocusSelection;
-@property(readonly, nonatomic) _Bool usesContinuousCurveCorners;
-@property(readonly, nonatomic) _Bool wantsFocusWithoutSelection;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 
 @end
 

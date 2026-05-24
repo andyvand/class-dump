@@ -7,8 +7,8 @@
 @class NSAttributeDescription;
 
 @interface UnknownClass (VSSubscriptionAdditions)
-+ (id);
-- (void);
++ (id)C;
+- (void);
 - (void);
 - (id);
 

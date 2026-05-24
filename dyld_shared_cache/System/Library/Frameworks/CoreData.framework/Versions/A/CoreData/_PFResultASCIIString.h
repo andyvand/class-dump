@@ -15,15 +15,15 @@ __attribute__((visibility("hidden")))
 + (unsigned long long);
 + (void)ssetFiles];
 - (void);
-- (void);
+- (void)q	;
 - (void);
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (unsigned short);
-- (const char *);
+- (const char *)ɒ;
 - (unsigned long long)rsistentStoreDidChangeNotification for store  %@ ;
 
 @end

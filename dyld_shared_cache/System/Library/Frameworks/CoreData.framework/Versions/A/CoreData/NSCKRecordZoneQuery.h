@@ -6,7 +6,7 @@
 
 #import <CoreData/NSManagedObject.h>
 
-@class CKQueryCursor, NSCKRecordZoneMetadata, NSDate, NSPredicate, NSString;
+@class NSCKRecordZoneMetadata;
 
 __attribute__((visibility("hidden")))
 @interface NSCKRecordZoneQuery : NSManagedObject
@@ -16,11 +16,6 @@ __attribute__((visibility("hidden")))
 + (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *lastFetchDate; // @dynamic lastFetchDate;
-@property(retain, nonatomic) NSDate *mostRecentRecordModificationDate; // @dynamic mostRecentRecordModificationDate;
-@property(retain, nonatomic) NSPredicate *predicate; // @dynamic predicate;
-@property(retain, nonatomic) CKQueryCursor *queryCursor; // @dynamic queryCursor;
-@property(retain, nonatomic) NSString *recordType; // @dynamic recordType;
 @property(retain, nonatomic) NSCKRecordZoneMetadata *recordZone; // @dynamic recordZone;
 
 @end

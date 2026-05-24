@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSObject, NSString;
-@protocol OS_xpc_object;
+@class NSData;
 
 @interface PKImageSetXPCContainer
 {
     _Bool _invalidated;
-    unsigned long long _length;
-    _Bool _isShmem;
-    unsigned long long _offset;
-    NSObject<OS_xpc_object> *_data;
-    NSData *_imageSetHash;
 }
 
 + (_Bool)î%1Â0@ù
@@ -22,24 +16,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)?%;
+- (id)_#;
+- (id)H;
 - (void);
-- (void);
-- (_Bool)ount;
-- (void)EARCH_OBJECT_TYPE_BARCODE_PASSES;
+- (void)learned_nongeocodable_events;
+- (_Bool)paymentSummaryItemsCount;
+- (void)SEARCH_OBJECT_TYPE_BARCODE_PASSES;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSData *imageSetHash; // @synthesize imageSetHash=_imageSetHash;
-@property(readonly, nonatomic, getter=isInvalidated) _Bool invalidated;
-@property(readonly) Class superclass;
 
 @end
 

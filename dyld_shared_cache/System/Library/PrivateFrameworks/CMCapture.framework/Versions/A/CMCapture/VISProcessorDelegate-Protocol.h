@@ -5,5 +5,8 @@
 //
 
 @protocol VISProcessorDelegate
+
+@optional
+- (void)P;
 @end
 

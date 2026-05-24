@@ -6,19 +6,10 @@
 
 #import <iTunesCloud/ICSharedListeningConnectionController.h>
 
-@class ICLiveLinkQRConnectionDataSource, ICSharedListeningConnectionReport, MSVQRConnection, MSVTaskAssertion, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface ICDirectSharedListeningConnectionController : ICSharedListeningConnectionController
 {
     struct os_unfair_lock_s _lock;
-    long long _state;
-    MSVQRConnection *_connection;
-    ICLiveLinkQRConnectionDataSource *_dataSource;
-    ICSharedListeningConnectionReport *_report;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    MSVTaskAssertion *_assertion;
 }
 
 - (id);
@@ -34,31 +25,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (void);
 - (id);
 - (void);
 - (id);
-- (struct os_unfair_lock_s)y: /* Error: Ran out of types for this method. */;
-- (id)ant: /* Error: Ran out of types for this method. */;
+- (struct os_unfair_lock_s)setAssetPrefetchStrategy: /* Error: Ran out of types for this method. */;
+- (id)eventWithPlaybackEvent:participant: /* Error: Ran out of types for this method. */;
 - (void)Ô_;
 - (void)DSID to save. err=%{public}@;
 
 // Remaining properties
-@property(retain, nonatomic) MSVTaskAssertion *assertion; // @synthesize assertion=_assertion;
-@property(retain, nonatomic) MSVQRConnection *connection; // @synthesize connection=_connection;
-@property(readonly, nonatomic) ICLiveLinkQRConnectionDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) struct os_unfair_lock_s lock; // @synthesize lock=_lock;
-@property(retain, nonatomic) ICSharedListeningConnectionReport *report; // @synthesize report=_report;
-@property(nonatomic) long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

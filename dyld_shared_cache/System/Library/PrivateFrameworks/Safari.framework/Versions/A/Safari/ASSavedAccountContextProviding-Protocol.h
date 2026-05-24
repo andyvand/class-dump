@@ -5,5 +5,6 @@
 //
 
 @protocol ASSavedAccountContextProviding
+- (void);
 @end
 

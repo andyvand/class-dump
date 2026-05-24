@@ -4,37 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOTransitSection
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_9f2792e4 _actionSheetArtworkIndexs;
-    CDStruct_9f2792e4 _routeDetailsArtworkIndexs;
-    CDStruct_9f2792e4 _stepIndexs;
-    NSString *_actionSheetName;
-    NSMutableArray *_ticketingSegments;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _nextOptionsIndex;
-    _Bool _disableAlightNotifications;
-    struct {
-        unsigned int has_nextOptionsIndex:1;
-        unsigned int has_disableAlightNotifications:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_actionSheetArtworkIndexs:1;
-        unsigned int read_routeDetailsArtworkIndexs:1;
-        unsigned int read_stepIndexs:1;
-        unsigned int read_actionSheetName:1;
-        unsigned int read_ticketingSegments:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool):(id)arg1;
++ (_Bool)setNavTraceData:(id)arg1;
 - (unsigned long long);
 - (id);
 - (id);
@@ -54,30 +32,30 @@
 - (unsigned int);
 - (int);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool):8@16@24@32@40@48 /* Error: Ran out of types for this method. */;
+- (_Bool)setRequestedGroupIdentifierCount: /* Error: Ran out of types for this method. */;
+- (_Bool)databaseFileIsReadOnly;
+- (void)tentStoreBuilder",R,N,V_storeBuilder;
+- (void)",R,C,V_recordType;
+- (void)ABCDDeletedRecordLog;
+- (void)}@;
+- (void)t;
+- (void)build persistent store coordinator:(unsigned int)arg1 %{public}@;
+- (void)d an error in last-chance selection of a home container for the contact. Without a container, this save will fail with a contact constraint violation. Core Data returned error:(unsigned int)arg1 %{public}@ from MOC %{public}@;
 - (unsigned long long);
-- (unsigned int *);
+- (unsigned int *)Preferences/AddressBookMe.plist;
 - (unsigned long long);
 - (id);
 - (void);
 - (unsigned int);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)B;
 - (id);
 - (void);
+- (void);
+- (id);
+- (void)listMockRemoteDeviecesWithCompletion:(id)arg1;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -86,26 +64,13 @@
 - (void);
 - (id)0@ù
 × ;
-- (id)terminalCode:gateCode:traits: /* Error: Ran out of types for this method. */;
+- (id)initWithAirportCode:terminalCode:gateCode:traits: /* Error: Ran out of types for this method. */;
 - (id)N;
 - (id):(id)arg1 tile:(%f, %f) | world:(%.1f, %.1f) /* Error: Ran out of types for this method. */;
 - (void)üdHQ@;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int *actionSheetArtworkIndexs;
-@property(readonly, nonatomic) unsigned long long actionSheetArtworkIndexsCount;
-@property(retain, nonatomic) NSString *actionSheetName;
-@property(nonatomic) _Bool disableAlightNotifications;
-@property(readonly, nonatomic) _Bool hasActionSheetName;
-@property(nonatomic) _Bool hasDisableAlightNotifications;
-@property(nonatomic) _Bool hasNextOptionsIndex;
-@property(nonatomic) int nextOptionsIndex;
-@property(readonly, nonatomic) unsigned int *routeDetailsArtworkIndexs;
-@property(readonly, nonatomic) unsigned long long routeDetailsArtworkIndexsCount;
-@property(readonly, nonatomic) unsigned int *stepIndexs;
 @property(readonly, nonatomic) unsigned long long stepIndexsCount;
-@property(retain, nonatomic) NSMutableArray *ticketingSegments;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

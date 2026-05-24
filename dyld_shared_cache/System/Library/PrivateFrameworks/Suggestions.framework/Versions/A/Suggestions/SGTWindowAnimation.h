@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)A;
 - (float);
 - (id);
 - (void);
-- (void);
+- (void)documentDidCloseTeardown;
 
 // Remaining properties
 @property(readonly) SGTAnimationWindowEffect *windowEffect;

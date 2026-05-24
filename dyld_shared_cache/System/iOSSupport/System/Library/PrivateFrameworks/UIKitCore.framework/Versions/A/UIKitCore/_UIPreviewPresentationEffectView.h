@@ -21,8 +21,8 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (_Bool);
-- (double)rKeyboardState: /* Error: Ran out of types for this method. */;
-- (id)ghtRowAtIndexPath:(struct CGRect)arg1 animated:scrollPosition:usingPresentationValues:playFeedback: /* Error: Ran out of types for this method. */;
+- (double)tokenForKeyboardState: /* Error: Ran out of types for this method. */;
+- (id)_highlightRowAtIndexPath:(struct CGRect)arg1 animated:scrollPosition:usingPresentationValues:playFeedback: /* Error: Ran out of types for this method. */;
 - (id)d e;
 - (double)dy saved. Skipping save of stateRestorationActivity for scene session %@;
 - (void)side it so that its size is not ambiguous, or you need to manually compute and return a valid size. Content view:(double)arg1 %@;
@@ -35,12 +35,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) double blurRadius; // @dynamic blurRadius;
-@property(nonatomic) double cornerRadius;
-@property(nonatomic) double shadowAlpha;
-@property(copy, nonatomic) UIColor *shadowColor; // @synthesize shadowColor=_shadowColor;
-@property(nonatomic) struct CGSize shadowOffset;
-@property(nonatomic) double shadowRadius;
-@property(nonatomic) _Bool shouldRasterizeForTransition; // @synthesize shouldRasterizeForTransition=_shouldRasterizeForTransition;
 
 @end
 

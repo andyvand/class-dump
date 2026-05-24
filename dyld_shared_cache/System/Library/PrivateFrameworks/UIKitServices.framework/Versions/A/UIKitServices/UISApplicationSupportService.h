@@ -4,29 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceConnectionListener, BSServiceQueue, NSMutableArray, NSString, UISApplicationInitializationContext;
-@protocol UISApplicationSupportServiceDelegate;
-
 @interface UISApplicationSupportService
 {
     struct os_unfair_lock_s _lock;
-    BSServiceConnectionListener *_listener;
-    BSServiceQueue *_targetQueue;
-    id <UISApplicationSupportServiceDelegate> _lock_delegate;
-    UISApplicationInitializationContext *_lock_defaultContext;
-    NSMutableArray *_lock_launchPendedRequests;
-    _Bool _lock_started;
-    _Bool _lock_finishedLaunching;
-    struct {
-        unsigned int defaultContext:1;
-        unsigned int overrideInitialize:1;
-        unsigned int initializeClientSync:1;
-        unsigned int initializeClientSyncWithParameters:1;
-        unsigned int initializeClientAsync:1;
-        unsigned int initializeClientLegacy:1;
-        unsigned int requestPasscodeUnlockUI:1;
-        unsigned int destroyScenes:1;
-    } _lock_delegateFlags;
 }
 
 + (id);
@@ -42,7 +22,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)ia;
 - (void);
 - (oneway void);
 - (_Bool);
@@ -50,16 +30,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy) UISApplicationInitializationContext *defaultContext; // @synthesize defaultContext=_lock_defaultContext;
-@property(retain) id <UISApplicationSupportServiceDelegate> delegate; // @synthesize delegate=_lock_delegate;
-@property(readonly, copy) NSString *description;
 @property(readonly) _Bool hasFinishedLaunching;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

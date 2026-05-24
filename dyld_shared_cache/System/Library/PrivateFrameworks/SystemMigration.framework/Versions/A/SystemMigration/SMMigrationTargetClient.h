@@ -9,7 +9,6 @@
 @interface SMMigrationTargetClient
 {
     NSXPCConnection *_connection;
-    unsigned long long _state;
 }
 
 - (void);
@@ -22,7 +21,7 @@
 - (void)á!pEùÑ	Ð1Â0@ù
 × ;
 - (void)me;
-- (void)rogress_Client;
+- (void)SMProgress_Client;
 
 // Remaining properties
 @property(nonatomic) unsigned long long state; // @synthesize state=_state;

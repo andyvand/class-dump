@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor;
+@class NSArray, NSString, _SFPBColor;
 
 @protocol _SFPBAppIconCardSection
-- (int);
+- (void);
+- (NSString *)p;
+- (_Bool)discoveryModeEligible;
+- (_Bool)deprioritizeItemArtworkForPurchaseHistoryID:configuration: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void)atedToValue:(_SFPBColor *)arg1 (%ld) for %{public}@. Tone could not be prepared for playback. Start over with fallback tone.;
+- (NSString *)curatedAssetsHelper;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *applicationBundleIdentifier;
-@property(retain, nonatomic) _SFPBColor *backgroundColor;
-@property(nonatomic) _Bool canBeHidden;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(nonatomic) int separatorStyle;
-@property(copy, nonatomic) NSString *title;
-@property(copy, nonatomic) NSString *type;
 @end
 

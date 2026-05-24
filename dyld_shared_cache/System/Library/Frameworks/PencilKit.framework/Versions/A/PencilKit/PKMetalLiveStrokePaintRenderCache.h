@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSArray, NSMutableArray;
 
 @interface PKMetalLiveStrokePaintRenderCache
 {
     NSMutableArray *_buffers;
-    unsigned long long _totalCost;
-    long long _renderZoomFactor;
-    double _startTime;
-    double _duration;
-    struct CGRect _animatedStrokeBounds;
 }
 
 - (void);
@@ -32,17 +27,7 @@
 - (id)ÿÿ´;
 
 // Remaining properties
-@property(nonatomic) struct CGRect animatedStrokeBounds; // @synthesize animatedStrokeBounds=_animatedStrokeBounds;
 @property(readonly, nonatomic) NSArray *buffers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double startTime; // @synthesize startTime=_startTime;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <SocialUI/SOAttachmentsViewController.h>
 
-@class NSCollectionViewFlowLayout, NSString, QLPreviewPanel, SOContentAttachmentCollectionView;
+@class QLPreviewPanel, SOContentAttachmentCollectionView;
 
 @interface SOContentAttachmentsViewController : SOAttachmentsViewController
 {
@@ -24,8 +24,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)initWithSearchOperationRankingFeedBack:(id)arg1;
+- (void)&,N,V_notificationItemListRecordSource;
 - (void);
 - (void);
 - (struct CGRect);
@@ -37,19 +37,10 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)inputLineTextColor;
 
 // Remaining properties
 @property(readonly) SOContentAttachmentCollectionView *collectionView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSCollectionViewFlowLayout *flowLayout;
-@property(readonly) unsigned long long hash;
-@property(retain) QLPreviewPanel *previewPanel; // @synthesize previewPanel=_previewPanel;
-@property(readonly) Class superclass;
 
 @end
 

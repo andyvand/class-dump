@@ -6,16 +6,12 @@
 
 #import <AccessibilityVisuals/AXVVoiceOverStyleWindow.h>
 
-@class AXVCaptionTextView, NSString, NSTextView, NSWindow;
+@class AXVCaptionTextView;
 @protocol AXVCaptionWindowActionDelegate;
 
 @interface AXVCaptionWindow : AXVVoiceOverStyleWindow
 {
     id <AXVCaptionWindowActionDelegate> _actionDelegate;
-    AXVCaptionTextView *__captionTextView;
-    long long __numberOfCaptionTextLinesToShow;
-    NSWindow *__captionTextHistoryWindow;
-    NSTextView *__captionTextHistoryTextView;
 }
 
 - (_Bool);
@@ -31,9 +27,9 @@
 - (void);
 - (void);
 - (long long);
+- (double);
 - (double);
-- (double);
-- (double);
+- (double)Th;
 - (void);
 - (id);
 - (id);
@@ -50,18 +46,12 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (struct CGSize)leWord",C,N,V_brailleWord;
 
 // Remaining properties
-@property(retain, nonatomic, setter=_setCaptionTextHistoryTextView:) NSTextView *_captionTextHistoryTextView; // @synthesize _captionTextHistoryTextView=__captionTextHistoryTextView;
-@property(retain, nonatomic, setter=_setCaptionTextHistoryWindow:) NSWindow *_captionTextHistoryWindow; // @synthesize _captionTextHistoryWindow=__captionTextHistoryWindow;
 @property(retain, nonatomic, setter=_setCaptionTextView:) AXVCaptionTextView *_captionTextView; // @synthesize _captionTextView=__captionTextView;
-@property(nonatomic, setter=_setNumberOfCaptionTextLinesToShow:) long long _numberOfCaptionTextLinesToShow; // @synthesize _numberOfCaptionTextLinesToShow=__numberOfCaptionTextLinesToShow;
-@property(nonatomic) __weak id <AXVCaptionWindowActionDelegate> actionDelegate; // @synthesize actionDelegate=_actionDelegate;
-@property(nonatomic) double captionFontSize;
-@property(copy, nonatomic) NSString *captionText;
 
 @end
 

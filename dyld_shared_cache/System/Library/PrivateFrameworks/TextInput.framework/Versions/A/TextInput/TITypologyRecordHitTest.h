@@ -6,26 +6,23 @@
 
 #import <TextInput/TITypologyRecord.h>
 
-@class TIKeyboardLayout, TIKeyboardState, TIKeyboardTouchEvent;
+@class TIKeyboardTouchEvent;
 
 @interface TITypologyRecordHitTest : TITypologyRecord
 {
     TIKeyboardTouchEvent *_touchEvent;
-    TIKeyboardState *_keyboardState;
-    TIKeyboardLayout *_keyLayout;
-    long long _keyCode;
 }
 
 + (_Bool);
 - (id);
-- (void);
+- (void)R(;
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)selectLookupGroupId;
 - (long long);
 - (void);
 - (id);
@@ -34,13 +31,10 @@
 ¸
 
 ;
-- (id)ected;
+- (id)uninflected;
 - (void)signer;
 
 // Remaining properties
-@property(nonatomic) long long keyCode; // @synthesize keyCode=_keyCode;
-@property(retain, nonatomic) TIKeyboardLayout *keyLayout; // @synthesize keyLayout=_keyLayout;
-@property(retain, nonatomic) TIKeyboardState *keyboardState; // @synthesize keyboardState=_keyboardState;
 @property(retain, nonatomic) TIKeyboardTouchEvent *touchEvent; // @synthesize touchEvent=_touchEvent;
 
 @end

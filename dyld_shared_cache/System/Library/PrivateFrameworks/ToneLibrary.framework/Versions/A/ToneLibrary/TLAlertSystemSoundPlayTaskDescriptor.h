@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TLAlert, TLAlertSystemSoundContext, TLSystemSound;
+@class TLAlert;
 
 @interface TLAlertSystemSoundPlayTaskDescriptor
 {
     _Bool _deemphasized;
-    TLAlert *_alert;
-    TLSystemSound *_sound;
-    TLAlertSystemSoundContext *_alertSystemSoundContext;
 }
 
 - (_Bool);
@@ -23,9 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) TLAlert *alert; // @synthesize alert=_alert;
-@property(readonly, nonatomic) TLAlertSystemSoundContext *alertSystemSoundContext; // @synthesize alertSystemSoundContext=_alertSystemSoundContext;
-@property(readonly, nonatomic, getter=isDeemphasized) _Bool deemphasized; // @synthesize deemphasized=_deemphasized;
-@property(readonly, nonatomic) TLSystemSound *sound; // @synthesize sound=_sound;
 
 @end
 

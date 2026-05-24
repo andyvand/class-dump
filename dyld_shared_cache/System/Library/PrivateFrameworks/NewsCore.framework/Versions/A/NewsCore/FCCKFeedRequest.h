@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface FCCKFeedRequest
 {
     NSString *_feedID;
-    NSData *_startCursor;
-    unsigned long long _startOrder;
-    unsigned long long _orderLimit;
-    unsigned long long _softResultsLimit;
-    unsigned long long _hardResultsLimit;
 }
 
 - (id);

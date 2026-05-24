@@ -11,13 +11,12 @@ __attribute__((visibility("hidden")))
 @interface MPDispatchQueueExclusiveAccessToken
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    id _owner;
 }
 
 + (id);
 - (void);
-- (id);
-- (void)PING_MISSING__;
+- (id)convertRect:fromPage:forScaleFactor: /* Error: Ran out of types for this method. */;
+- (void)__MPModelPropertySongHasVideo__MAPPING_MISSING__;
 
 @end
 

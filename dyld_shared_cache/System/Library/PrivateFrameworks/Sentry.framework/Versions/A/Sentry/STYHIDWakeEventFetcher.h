@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateFormatter;
-
 @interface STYHIDWakeEventFetcher
 {
     struct __IOHIDEventSystemClient *_eventSystemRef;
-    NSDateFormatter *_formatter;
 }
 
 - (unsigned long long);

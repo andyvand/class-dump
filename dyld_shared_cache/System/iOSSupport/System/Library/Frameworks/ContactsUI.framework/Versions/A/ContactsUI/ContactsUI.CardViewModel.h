@@ -7,16 +7,6 @@
 @interface ContactsUI.CardViewModel
 {
     id _contact;
-    id _needsFetchForMissingData;
-    id _propertyDetail;
-    id _scrollToType;
-    id _scrollToLabel;
-    id _context;
-    id _audioCallCallback;
-    id _faceTimeVideoCallback;
-    id _contactEntity;
-    id $__lazy_storage_$_contactFormatter;
-    id _$observationRegistrar;
 }
 
 @end

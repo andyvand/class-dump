@@ -5,5 +5,6 @@
 //
 
 @protocol NUURLHandlerDelegate
+- (void);
 @end
 

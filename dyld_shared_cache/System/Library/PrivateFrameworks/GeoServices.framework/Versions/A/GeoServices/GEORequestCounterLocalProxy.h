@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORequestCounterPersistence, NSString;
+@class GEORequestCounterPersistence;
 
 @interface GEORequestCounterLocalProxy
 {
@@ -14,12 +14,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)voke;
 - (void);
 - (void);
 - (id);
@@ -32,13 +32,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool countersEnabled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -11,7 +11,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)newIOHandleWithURL:(id)arg1 compressionMethod:error: /* Error: Ran out of types for this method. */;
 
 @end
 

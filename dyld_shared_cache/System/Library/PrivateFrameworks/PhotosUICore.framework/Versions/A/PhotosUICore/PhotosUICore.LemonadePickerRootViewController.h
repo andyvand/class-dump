@@ -9,12 +9,9 @@
 @interface PhotosUICore.LemonadePickerRootViewController
 {
     id rootModel;
-    id navigationContext;
-    id pickerConfiguration;
-    id hostingResponder;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);

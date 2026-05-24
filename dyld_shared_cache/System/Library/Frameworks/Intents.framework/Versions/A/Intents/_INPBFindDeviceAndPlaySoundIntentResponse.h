@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface _INPBFindDeviceAndPlaySoundIntentResponse
 {
     struct _has;
-    NSArray *_devicesFounds;
 }
 
 + (Class);
@@ -22,24 +21,16 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (void)ilableRestaurantReservationBookingsIntentResponse;
+- (void)update, waiting for previous ack (clientID=%{public}@, update=%{public}@);
+- (id)(	;
+- (id);
+- (void)GetAvailableRestaurantReservationBookingsIntentResponse;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSArray *devicesFounds; // @synthesize devicesFounds=_devicesFounds;
-@property(readonly, nonatomic) unsigned long long devicesFoundsCount;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

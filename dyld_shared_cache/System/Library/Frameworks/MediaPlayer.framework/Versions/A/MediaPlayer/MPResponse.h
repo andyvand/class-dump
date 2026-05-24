@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface MPResponse
 {
     _Bool _valid;
-    id _request;
-    NSArray *_middleware;
-    id _builder;
 }
 
 + (id);
@@ -26,20 +23,10 @@
 - (void);
 - (_Bool);
 - (id);
-- (void)RecordForPlaylistGlobalID: /* Error: Ran out of types for this method. */;
+- (void)_pendingUpdateRecordForPlaylistGlobalID: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) id builder; // @synthesize builder=_builder;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSArray *middleware; // @synthesize middleware=_middleware;
-@property(readonly, copy, nonatomic) id request; // @synthesize request=_request;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic, getter=isValid) _Bool valid; // @synthesize valid=_valid;
 
 @end
 

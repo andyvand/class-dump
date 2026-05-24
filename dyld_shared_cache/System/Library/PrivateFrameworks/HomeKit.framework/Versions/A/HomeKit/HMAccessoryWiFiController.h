@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID, _HMContext;
+@class _HMContext;
 
 @interface HMAccessoryWiFiController
 {
     _HMContext *_context;
-    NSUUID *_messageTargetUUID;
 }
 
 - (void);
@@ -22,15 +21,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
+- (void).apple.networking.captivenetworksupport.startserver;
+- (id).	A	&	M	0		-;
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain) _HMContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSUUID *messageTargetUUID; // @synthesize messageTargetUUID=_messageTargetUUID;
 
 @end
 

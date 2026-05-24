@@ -7,8 +7,6 @@
 @interface PhotosUICore.TTRWorkflowSheetHostingView.ViewModel
 {
     id _workflow;
-    id _hostingViewController;
-    id _$observationRegistrar;
 }
 
 @end

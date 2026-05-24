@@ -6,34 +6,29 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PEGASUSSchemaPEGASUSRequestFailed : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
+- (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)frame of multiframe preview;
 - (id);
 - (id)!4AùÑÝ1Â0@ù
 × ;
-- (id)evalContext;
+- (id)_hasContextualEntityRetrievalContext;
 - (id)tainer;
-- (_Bool)ec;
+- (_Bool)timeDeltaToTextInputInSec;
 - (_Bool)(ç9$%>;
 - (void)²$;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

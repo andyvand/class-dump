@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface PISegmentationLayoutRegions
 {
     NSArray *_faceRegions;
-    NSArray *_petRegions;
-    struct CGRect _acceptableCropRect;
-    struct CGRect _preferredCropRect;
-    struct CGRect _gazeAreaRect;
 }
 
 + (id);
@@ -26,21 +22,10 @@
 - (struct CGRect);
 - (id);
 - (id);
-- (void)ctsMapTable;
+- (void)strongToStrongObjectsMapTable;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect acceptableCropRect; // @synthesize acceptableCropRect=_acceptableCropRect;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *faceRegions; // @synthesize faceRegions=_faceRegions;
-@property(readonly, nonatomic) struct CGRect gazeAreaRect; // @synthesize gazeAreaRect=_gazeAreaRect;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *petRegions; // @synthesize petRegions=_petRegions;
-@property(readonly, nonatomic) struct CGRect preferredCropRect; // @synthesize preferredCropRect=_preferredCropRect;
-@property(readonly) Class superclass;
 
 @end
 

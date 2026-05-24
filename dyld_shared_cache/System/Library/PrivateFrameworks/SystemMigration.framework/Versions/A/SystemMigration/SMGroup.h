@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
+@class NSString;
 
 @interface SMGroup
 {
     unsigned int _gid;
-    NSString *_name;
-    NSNumber *_groupID;
-    NSString *_generatedUID;
-    NSArray *_users;
-    NSArray *_groupMembers;
-    NSArray *_groupMembership;
-    NSArray *_nestedGroups;
 }
 
 - (void);
@@ -29,23 +22,16 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)/Foundation.framework/Versions/C/Foundation;
 - (void);
 - (id);
 - (void)áÐ!øGùñ	°1Â0@ù
 × ;
-- (void)oDelegates;
+- (void)_progressInfoDelegates;
 - (unsigned int)Ö;
 
 // Remaining properties
-@property(retain) NSString *generatedUID; // @synthesize generatedUID=_generatedUID;
-@property unsigned int gid; // @synthesize gid=_gid;
-@property(retain) NSNumber *groupID; // @synthesize groupID=_groupID;
-@property(retain) NSArray *groupMembers; // @synthesize groupMembers=_groupMembers;
-@property(retain) NSArray *groupMembership; // @synthesize groupMembership=_groupMembership;
 @property(retain) NSString *name; // @synthesize name=_name;
-@property(retain) NSArray *nestedGroups; // @synthesize nestedGroups=_nestedGroups;
-@property(retain) NSArray *users; // @synthesize users=_users;
 
 @end
 

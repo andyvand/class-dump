@@ -9,34 +9,25 @@
 @interface CHSubstroke
 {
     vector_9651d273 _convexHull;
-    CHEncodedStrokeIdentifier *_strokeIdentifier;
-    double _startTimestamp;
-    double _endTimestamp;
-    double _curvature;
-    struct CGRect _bounds;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)_imageLoaded;
 - (id);
 - (_Bool);
 - (id);
 - (double);
 - (void *);
 - (id);
-- (id);
+- (id)Z;
 - (struct CGRect);
 - (_Bool);
-- (void);
+- (void);
 - (double);
 - (void);
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect bounds; // @synthesize bounds=_bounds;
-@property(readonly, nonatomic) double curvature; // @synthesize curvature=_curvature;
-@property(readonly, nonatomic) double endTimestamp; // @synthesize endTimestamp=_endTimestamp;
-@property(readonly, nonatomic) double startTimestamp; // @synthesize startTimestamp=_startTimestamp;
 @property(readonly, nonatomic) CHEncodedStrokeIdentifier *strokeIdentifier; // @synthesize strokeIdentifier=_strokeIdentifier;
 
 @end

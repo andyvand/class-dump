@@ -15,8 +15,8 @@
 - (id);
 - (void);
 - (long long);
-- (id);
-- (void);
+- (id)wirelessDisplayRouteIsPicked;
+- (void)defaultToneIdentifierForAlertType:(id)arg1 topic: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) long long productPageResult; // @synthesize productPageResult=_productPageResult;

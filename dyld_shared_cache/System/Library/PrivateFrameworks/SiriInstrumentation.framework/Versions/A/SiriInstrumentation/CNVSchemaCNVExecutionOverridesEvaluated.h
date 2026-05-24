@@ -6,18 +6,13 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface CNVSchemaCNVExecutionOverridesEvaluated : SISchemaInstrumentationMessage
 {
     int _executionOverrideDecision;
-    struct {
-        unsigned int executionOverrideDecision:1;
-    } _has;
 }
 
 - (void);
-- (void);
+- (void)_;
 - (_Bool);
 - (int);
 - (void);
@@ -28,13 +23,11 @@
 - (_Bool);
 - (id);
 - (id)hemaGRRFeatureExtracted";
-- (id)RENCESchemaINFERENCEBackgroundContactHandleSignalSet;
+- (id)INFERENCESchemaINFERENCEBackgroundContactHandleSignalSet;
 - (id)4I$M`M;
 
 // Remaining properties
 @property(nonatomic) int executionOverrideDecision; // @synthesize executionOverrideDecision=_executionOverrideDecision;
-@property(nonatomic) _Bool hasExecutionOverrideDecision;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

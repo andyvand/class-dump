@@ -4,39 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SFFeedback;
 @protocol CRCard;
 
 @interface CRBasicAsyncCardReceiptFeedback
 {
     id <CRCard> baseCard;
-    id <CRCard> requestedCard;
-    id <CRCard> receivedCard;
 }
 
-- (id);
-- (id);
-- (id);
+- (id)return outv;																	
+}																					
+;
+- (id)utv.a   = 1.0;																	
+	return outv;																	
+}																					
+;
+- (id)Coord(src1)));							
+	pix.rgb = sqrt(max(pix.rgb, 0.0));												
+	outv.r   = dot(pix.rgb, vec3(0.299, 0.587, 0.114));								
+	pix = unpremultiply(sample(src2, samplerCoord(src2)));							
+	pix.rgb = sqrt(max(pix.rgb, 0.0));												
+	outv.g   = dot(pix.rgb, vec3(0.299, 0.587, 0.114));								
+	pix = unpremultiply(sample(src3, samplerCoord(src3)));							
+	pix.rgb = sqrt(max(pix.rgb, 0.0));												
+	outv.b   = dot(pix.rgb, vec3(0.299, 0.587, 0.114));								
+	outv.a   = 1.0;																	
+	return outv;																	
+}																					
+;
 - (void);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) SFFeedback *backingFeedback;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"SFFeedback",?,R,N
-
 @property(retain, nonatomic) id <CRCard> baseCard; // @synthesize baseCard;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <CRCard> receivedCard; // @synthesize receivedCard;
-@property(retain, nonatomic) id <CRCard> requestedCard; // @synthesize requestedCard;
-@property(readonly) Class superclass;
 
 @end
 

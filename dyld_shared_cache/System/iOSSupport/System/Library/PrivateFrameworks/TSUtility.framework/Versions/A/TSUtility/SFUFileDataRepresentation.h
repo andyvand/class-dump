@@ -6,20 +6,11 @@
 
 #import <TSUtility/SFUDataRepresentation.h>
 
-@class NSString, SFUCryptoKey;
-@protocol SFUInputStream;
+@class NSString;
 
 @interface SFUFileDataRepresentation : SFUDataRepresentation
 {
     NSString *mPath;
-    int mSharedFd;
-    long long mFileLength;
-    unsigned int mFileType;
-    _Bool mHasFileAttributes;
-    long long mPlaintextDataLength;
-    SFUCryptoKey *mCryptoKey;
-    id <SFUInputStream> mInputStream;
-    _Bool mDeleteFileWhenDone;
 }
 
 - (void);
@@ -36,11 +27,11 @@
 - (long long);
 - (void);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)B40;
+- (_Bool)addWaveAnimationWithOffset:zPosition: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned int);
-- (void);
+- (void)(  i;
 - (long long);
 - (id);
 - (id);

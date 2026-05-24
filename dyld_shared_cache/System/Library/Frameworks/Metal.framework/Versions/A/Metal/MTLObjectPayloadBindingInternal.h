@@ -6,44 +6,26 @@
 
 #import <Metal/MTLBindingInternal.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface MTLObjectPayloadBindingInternal : MTLBindingInternal
 {
     unsigned short _alignment;
-    unsigned int _dataSize;
-    unsigned long long _dataType;
 }
 
-- (unsigned long long);
-- (id);
+- (unsigned long long);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)1B9(;
 - (id);
-- (void);
+- (void);
 - (id);
-- (void)tart:(id)arg1 patchCount:patchIndexBuffer:patchIndexBufferOffset:controlPointIndexBuffer:controlPointIndexBufferOffset:instanceCount:baseInstance:tessellationFactorBuffer:tessellationFactorBufferOffset:tessellationFactorBufferInstanceStride:tessellationFactorBufferScale: /* Error: Ran out of types for this method. */;
+- (void)drawIndexedPatches:(id)arg1 patchStart:patchCount:patchIndexBuffer:patchIndexBufferOffset:controlPointIndexBuffer:controlPointIndexBufferOffset:instanceCount:baseInstance:tessellationFactorBuffer:tessellationFactorBufferOffset:tessellationFactorBufferInstanceStride:tessellationFactorBufferScale: /* Error: Ran out of types for this method. */;
 - (id)A;
 
 // Remaining properties
-@property(readonly) unsigned long long access;
-@property(readonly, getter=isArgument) _Bool argument;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long index;
-@property(readonly) NSString *name;
 @property(readonly) unsigned long long objectPayloadAlignment;
-@property(readonly) unsigned long long objectPayloadDataSize;
-@property(readonly) Class superclass;
-@property(readonly) long long type;
-@property(readonly, getter=isUsed) _Bool used;
 
 @end
 

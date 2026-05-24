@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface SXDarkModeConfiguration
 {
     _Bool _autoDarkModeEnabled;
-    unsigned long long _inversionBehavior;
-    double _saturationThreshold;
-    NSDictionary *_colors;
 }
 
 - (id);
@@ -19,20 +14,10 @@
 - (unsigned long long);
 - (id);
 - (void)XDataTableSelectorValidator";
-- (_Bool)ComponentAssembly;
+- (_Bool)SXDataTableComponentAssembly;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAutoDarkModeEnabled) _Bool autoDarkModeEnabled; // @synthesize autoDarkModeEnabled=_autoDarkModeEnabled;
-@property(readonly, copy, nonatomic) NSDictionary *colors; // @synthesize colors=_colors;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long inversionBehavior; // @synthesize inversionBehavior=_inversionBehavior;
-@property(readonly, nonatomic) double saturationThreshold; // @synthesize saturationThreshold=_saturationThreshold;
-@property(readonly) Class superclass;
 
 @end
 

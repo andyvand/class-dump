@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, UIScrollEdgeEffectStyle, UIView;
+@class UIScrollEdgeEffectStyle;
 
 @interface UIScrollEdgeEffect
 {
     id state;
-    id pocket;
-    id color;
 }
 
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
@@ -21,22 +19,16 @@
 - (long long);
 - (id);
 - (long long);
-- (id);
+- (id)&;
 - (id);
 - (void)16;
-- (_Bool)d_isHighlighted;
-- (void)entViewsNeedDisplay;
+- (_Bool)_hasCustomized_isHighlighted;
+- (void)_layoutFragmentViewsNeedDisplay;
 - (void);
 - (void);
 - (id)ôÀgÿÖqÕè]n;
 
 // Remaining properties
-@property(nonatomic, retain) UIColor *_color;
-@property(nonatomic) long long _fixedUserInterfaceStyle;
-@property(nonatomic) __weak UIView *_overrideGeometryView;
-@property(nonatomic) long long _preferredUserInterfaceStyle;
-@property(nonatomic) _Bool _prefersSolidColorHardPocket;
-@property(nonatomic) _Bool hidden;
 @property(nonatomic, retain) UIScrollEdgeEffectStyle *style;
 
 @end

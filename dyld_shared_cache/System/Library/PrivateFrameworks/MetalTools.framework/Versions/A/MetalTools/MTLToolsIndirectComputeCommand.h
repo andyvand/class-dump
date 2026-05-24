@@ -6,21 +6,19 @@
 
 #import <MetalTools/MTLToolsObject.h>
 
-@class NSString;
-
 @interface MTLToolsIndirectComputeCommand : MTLToolsObject
 {
 }
 
-- (void);
+- (void)R,;
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (CDStruct_1e3be3a8);
-- (unsigned long long);
+- (CDStruct_4c83c94d);
+- (unsigned long long)@m;
 - (unsigned long long);
 - (void *);
 - (unsigned long long);
@@ -34,16 +32,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)K;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

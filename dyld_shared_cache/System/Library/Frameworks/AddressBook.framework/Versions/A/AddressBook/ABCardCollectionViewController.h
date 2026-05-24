@@ -4,34 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABCardCollectionView, ABCardViewLabelGenerator, ABCardViewPropertyProvider, ABCardViewStyleProvider, ABCollectionViewItemFactory, CNUIEditingRules, NSArray, NSString;
-@protocol ABCardCollectionViewControllerDelegate, ABCardViewDataSource;
+@class ABCardCollectionView;
 
 @interface ABCardCollectionViewController
 {
     ABCardCollectionView *_view;
-    ABCollectionViewItemFactory *_itemFactory;
-    ABCardViewStyleProvider *_styleProvider;
-    id <ABCardCollectionViewControllerDelegate> _controllerDelegate;
-    id <ABCardViewDataSource> _dataSource;
-    _Bool _provideEmptyItems;
-    _Bool _isImporting;
-    ABCardViewLabelGenerator *_labelGenerator;
-    ABCardViewPropertyProvider *_propertyProvider;
-    NSArray *_propetyKeysToDisplay;
-    _Bool _suggestedCardMode;
-    _Bool _acceptedCardMode;
-    CNUIEditingRules *_editingRules;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
+- (void)?;
 - (void);
-- (void);
-- (void);
+- (void)�;
 - (void);
 - (void);
 - (id);
@@ -95,28 +82,11 @@
 - (_Bool)ªÐ1Â0@ù
 × ;
 - (void);
-- (_Bool)edValue: /* Error: Ran out of types for this method. */;
+- (_Bool)setLabeledValue: /* Error: Ran out of types for this method. */;
 - (void)Ð;
 - (id)ZÌZ;
 
 // Remaining properties
-@property(nonatomic, getter=isAcceptedCardMode) _Bool acceptedCardMode; // @synthesize acceptedCardMode=_acceptedCardMode;
-@property __weak id <ABCardCollectionViewControllerDelegate> controllerDelegate; // @synthesize controllerDelegate=_controllerDelegate;
-@property(retain, nonatomic) id <ABCardViewDataSource> dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CNUIEditingRules *editingRules; // @synthesize editingRules=_editingRules;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) ABCollectionViewItemFactory *itemFactory; // @synthesize itemFactory=_itemFactory;
-@property(retain, nonatomic) ABCardViewLabelGenerator *labelGenerator; // @synthesize labelGenerator=_labelGenerator;
-@property(retain, nonatomic) ABCardViewPropertyProvider *propertyProvider; // @synthesize propertyProvider=_propertyProvider;
-@property(retain, nonatomic) NSArray *propetyKeysToDisplay; // @synthesize propetyKeysToDisplay=_propetyKeysToDisplay;
-@property(retain, nonatomic) ABCardViewStyleProvider *styleProvider; // @synthesize styleProvider=_styleProvider;
-@property(nonatomic, getter=isSuggestedCardMode) _Bool suggestedCardMode; // @synthesize suggestedCardMode=_suggestedCardMode;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) ABCardCollectionView *view; // @synthesize view=_view;
 
 @end

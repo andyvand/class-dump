@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, UTType;
+@class NSURL;
 
 @interface PXPhotosFileProviderRegisterFileRepresentation
 {
     void fileProviderURL;
-    void contentType;
-    _Bool hasLimitedVisibility;
-    void uuid;
-    void identifierCode;
-    _Bool isThumbnail;
 }
 
 - (_Bool);
@@ -26,12 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) UTType *contentType;
 @property(nonatomic, readonly) NSURL *fileProviderURL;
-@property(nonatomic, readonly) _Bool hasLimitedVisibility; // @synthesize hasLimitedVisibility;
-@property(nonatomic, readonly) NSString *identifierCode;
-@property(nonatomic, readonly) _Bool isThumbnail; // @synthesize isThumbnail;
-@property(nonatomic, readonly) NSString *uuid;
 
 @end
 

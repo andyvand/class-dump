@@ -4,58 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPSNNNeuronDescriptor;
-
 @interface MPSPluginCNNConvolutionDescriptor
 {
     unsigned long long _kernelWidth;
-    unsigned long long _kernelHeight;
-    unsigned long long _inputFeatureChannels;
-    unsigned long long _outputFeatureChannels;
-    unsigned long long _strideInPixelsX;
-    unsigned long long _strideInPixelsY;
-    unsigned long long _groups;
-    unsigned long long _dilationRateX;
-    unsigned long long _dilationRateY;
-    MPSNNNeuronDescriptor *_fusedNeuronDescriptor;
-    unsigned long long _channelMultiplier;
-    unsigned long long _subPixelScaleFactor;
-    _Bool _isFullyConnected;
-    _Bool _isConvolutionTranspose;
 }
 
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
+- (unsigned long long)5;
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long)utGradientMatrix:inputValuesMatrix:inputSumOfSquaresMatrix:resultValuesMatrix: /* Error: Ran out of types for this method. */;
+- (unsigned long long)encodeToCommandBuffer:inputGradientMatrix:inputValuesMatrix:inputSumOfSquaresMatrix:resultValuesMatrix: /* Error: Ran out of types for this method. */;
 - (unsigned long long)N,V_centered;
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long channelMultiplier; // @synthesize channelMultiplier=_channelMultiplier;
-@property(readonly, nonatomic) unsigned long long dilationRateX; // @synthesize dilationRateX=_dilationRateX;
-@property(readonly, nonatomic) unsigned long long dilationRateY; // @synthesize dilationRateY=_dilationRateY;
-@property(readonly, nonatomic) MPSNNNeuronDescriptor *fusedNeuronDescriptor; // @synthesize fusedNeuronDescriptor=_fusedNeuronDescriptor;
-@property(readonly, nonatomic) unsigned long long groups; // @synthesize groups=_groups;
-@property(readonly, nonatomic) unsigned long long inputFeatureChannels; // @synthesize inputFeatureChannels=_inputFeatureChannels;
-@property(readonly, nonatomic) _Bool isConvolutionTranspose; // @synthesize isConvolutionTranspose=_isConvolutionTranspose;
-@property(readonly, nonatomic) _Bool isFullyConnected; // @synthesize isFullyConnected=_isFullyConnected;
-@property(readonly, nonatomic) unsigned long long kernelHeight; // @synthesize kernelHeight=_kernelHeight;
 @property(readonly, nonatomic) unsigned long long kernelWidth; // @synthesize kernelWidth=_kernelWidth;
-@property(readonly, nonatomic) unsigned long long outputFeatureChannels; // @synthesize outputFeatureChannels=_outputFeatureChannels;
-@property(readonly, nonatomic) unsigned long long strideInPixelsX; // @synthesize strideInPixelsX=_strideInPixelsX;
-@property(readonly, nonatomic) unsigned long long strideInPixelsY; // @synthesize strideInPixelsY=_strideInPixelsY;
-@property(readonly, nonatomic) unsigned long long subPixelScaleFactor; // @synthesize subPixelScaleFactor=_subPixelScaleFactor;
 
 @end
 

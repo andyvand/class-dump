@@ -7,8 +7,6 @@
 @interface TIKeyboardActivityContext
 {
     unsigned long long _fromState;
-    unsigned long long _toState;
-    unsigned long long _excessMemoryInBytes;
 }
 
 + (id);
@@ -17,12 +15,10 @@
 - (unsigned long long);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)L;
 
 // Remaining properties
-@property(nonatomic) unsigned long long excessMemoryInBytes; // @synthesize excessMemoryInBytes=_excessMemoryInBytes;
 @property(nonatomic) unsigned long long fromState; // @synthesize fromState=_fromState;
-@property(nonatomic) unsigned long long toState; // @synthesize toState=_toState;
 
 @end
 

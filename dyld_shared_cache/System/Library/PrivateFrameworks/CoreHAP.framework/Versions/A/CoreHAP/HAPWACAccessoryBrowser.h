@@ -6,26 +6,11 @@
 
 #import <CoreHAP/HAPAccessoryServerBrowser.h>
 
-@class CUWiFiScanner, HMFTimer, NSDate, NSMutableSet, NSString;
-@protocol HAPAirPlayAccessoryBrowserDelegate, HAPWACAccessoryBrowserDelegate;
+@class NSString;
 
 @interface HAPWACAccessoryBrowser : HAPAccessoryServerBrowser
 {
     NSString *_browsingIdentifier;
-    NSDate *_browsingStartTime;
-    id <HAPAirPlayAccessoryBrowserDelegate> _airplayDelegate;
-    NSString *_scanning2Pt4SSID;
-    CDUnknownBlockType _found2Pt4Completion;
-    NSString *_refreshingScanSSID;
-    CDUnknownBlockType _refreshScanCompletion;
-    id <HAPWACAccessoryBrowserDelegate> _delegate;
-    NSMutableSet *_foundUnconfiguredUnpairedAccessories;
-    NSMutableSet *_foundUnconfiguredPairedAccessories;
-    NSMutableSet *_found2Pt4Networks;
-    CUWiFiScanner *_cuWiFiScanner;
-    unsigned long long _state;
-    HMFTimer *_backoffTimer;
-    double _lastScanUptime;
 }
 
 + (id)il pair-verify completes;
@@ -37,28 +22,28 @@
 - (double);
 - (id);
 - (void);
-- (void);
+- (void)ork/Versions/A/AOSAccountsLite;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)messageWithVersion:(CDUnknownBlockType)arg1 headers:bodyData: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
-- (id);
+- (id);
+- (id)conversationWithCall:withCallback: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)TI;
+- (void)__orderedPropertiesToUndo;
+- (void)initWithFileUrl:(id)arg1 aesKey:sampleByteDepth: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (void);
@@ -67,17 +52,17 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)(;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)1;
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)P;
 - (id);
-- (void);
+- (void)dater request entries;
 - (id);
 - (id);
 - (double);
@@ -93,28 +78,7 @@
 - (void)291;
 
 // Remaining properties
-@property(nonatomic) __weak id <HAPAirPlayAccessoryBrowserDelegate> airplayDelegate; // @synthesize airplayDelegate=_airplayDelegate;
-@property(readonly, nonatomic) HMFTimer *backoffTimer; // @synthesize backoffTimer=_backoffTimer;
 @property(retain, nonatomic) NSString *browsingIdentifier; // @synthesize browsingIdentifier=_browsingIdentifier;
-@property(retain, nonatomic) NSDate *browsingStartTime; // @synthesize browsingStartTime=_browsingStartTime;
-@property(retain, nonatomic) CUWiFiScanner *cuWiFiScanner; // @synthesize cuWiFiScanner=_cuWiFiScanner;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) __weak id <HAPWACAccessoryBrowserDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType found2Pt4Completion; // @synthesize found2Pt4Completion=_found2Pt4Completion;
-@property(retain, nonatomic) NSMutableSet *found2Pt4Networks; // @synthesize found2Pt4Networks=_found2Pt4Networks;
-@property(retain, nonatomic) NSMutableSet *foundUnconfiguredPairedAccessories; // @synthesize foundUnconfiguredPairedAccessories=_foundUnconfiguredPairedAccessories;
-@property(retain, nonatomic) NSMutableSet *foundUnconfiguredUnpairedAccessories; // @synthesize foundUnconfiguredUnpairedAccessories=_foundUnconfiguredUnpairedAccessories;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double lastScanUptime; // @synthesize lastScanUptime=_lastScanUptime;
-@property(copy, nonatomic) CDUnknownBlockType refreshScanCompletion; // @synthesize refreshScanCompletion=_refreshScanCompletion;
-@property(copy, nonatomic) NSString *refreshingScanSSID; // @synthesize refreshingScanSSID=_refreshingScanSSID;
-@property(retain, nonatomic) NSString *scanning2Pt4SSID; // @synthesize scanning2Pt4SSID=_scanning2Pt4SSID;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

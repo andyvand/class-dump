@@ -5,5 +5,8 @@
 //
 
 @protocol ICLiveLinkDelegate
+
+@optional
+- (void);
 @end
 

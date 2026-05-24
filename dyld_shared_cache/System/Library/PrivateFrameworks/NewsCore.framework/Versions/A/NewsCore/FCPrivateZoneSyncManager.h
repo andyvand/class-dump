@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecordZoneID, NSArray, NSDate, NSString, NTPBPrivateZoneSyncState;
-@protocol FCPrivateZoneSyncManagerDelegate;
+@class NSDate;
 
 @interface FCPrivateZoneSyncManager
 {
     _Bool _requiresBatchedFirstSync;
-    CKRecordZoneID *_recordZoneID;
-    id <FCPrivateZoneSyncManagerDelegate> _delegate;
-    NSArray *_desiredKeys;
-    NTPBPrivateZoneSyncState *_currentState;
 }
 
 - (_Bool);
@@ -21,22 +16,14 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)15InputTranscoder26TouchTranscoderSessionImpl28uniquifyEquivalentCandidatesERNS_6vectorINS2_20CTCSurfaceFormOutputENS_9allocatorIS5_EEEEE3$_0FNS_12basic_stringIcNS_11char_traitsIcEENS6_IcEEEERNS2_14KeyboardLayoutEEEE;
 - (id);
-- (void);
+- (void)1;
 - (id)tabilityScores:%lu /* Error: Ran out of types for this method. */;
 - (void)ems:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSDate *lastCleanDate;
-@property(readonly, nonatomic) NSDate *lastDirtyDate;
-@property(readonly) Class superclass;
 
 @end
 

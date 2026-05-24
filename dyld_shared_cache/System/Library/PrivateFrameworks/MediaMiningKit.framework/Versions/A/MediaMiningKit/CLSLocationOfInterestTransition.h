@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateInterval, NSUUID;
+@class NSUUID;
 
 @interface CLSLocationOfInterestTransition
 {
     NSUUID *_identifier;
-    NSDateInterval *_transitionInterval;
-    long long _transportationMode;
 }
 
 - (long long);
@@ -19,13 +17,11 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSDateInterval *transitionInterval; // @synthesize transitionInterval=_transitionInterval;
-@property(readonly, nonatomic) long long transportationMode; // @synthesize transportationMode=_transportationMode;
 
 @end
 

@@ -14,7 +14,7 @@
 
 - (id);
 - (void);
-- (id)bleViewRow;
+- (id)UITableViewRow;
 - (void)ØÀ£ÿ9øVl;
 
 @end

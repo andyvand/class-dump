@@ -8,25 +8,19 @@ __attribute__((visibility("hidden")))
 @interface _MKDirectionalArrowRecognizer
 {
     id _target;
-    SEL _action;
-    long long _state;
-    long long _arrows;
-    long long _lastArrows;
 }
 
 - (long long);
 - (void);
-- (long long);
-- (void);
+- (long long)appleAudioAccessoryLimitedLoggingWithCompletion:]_block_invoke_2 /* Error: Ran out of types for this method. */;
+- (void)isBool:(id)arg1 equalToOther: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (long long);
 - (id);
-- (void)ublePosition: /* Error: Ran out of types for this method. */;
+- (void)setDoublePosition: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long arrows; // @synthesize arrows=_arrows;
-@property(readonly, nonatomic) long long lastArrows; // @synthesize lastArrows=_lastArrows;
 @property(nonatomic) long long state; // @synthesize state=_state;
 
 @end

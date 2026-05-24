@@ -10,21 +10,18 @@
 @interface PXStoryReusableDisplayAsset
 {
     id <PXDisplayAsset> _displayAsset;
-    PXStoryResourcesDataSource *_resourcesDataSource;
-    long long _resourceIndex;
 }
 
 - (id);
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (long long)supported collection title:"%@" /* Error: Ran out of types for this method. */;
 - (void)D÷þí	³@÷þí	³<÷þ
 ³Dtÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) long long resourceIndex; // @synthesize resourceIndex=_resourceIndex;
 @property(readonly, nonatomic) PXStoryResourcesDataSource *resourcesDataSource; // @synthesize resourcesDataSource=_resourcesDataSource;
 
 @end

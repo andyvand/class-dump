@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)64@0:(struct _NSZone *)arg1 8@16Q24Q32@40@?48@?56;
-- (id)ns;
+- (id)_maxOperations;
 - (id)Ð;È<ðCE JüM
 hNäNPQR	(VÐW(\(]@^\`è`;
 - (void);

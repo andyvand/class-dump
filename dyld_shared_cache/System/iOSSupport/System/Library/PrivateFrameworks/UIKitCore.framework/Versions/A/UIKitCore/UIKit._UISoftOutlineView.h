@@ -12,9 +12,9 @@
     id configuration;
 }
 
-- (id);
+- (id);
 - (void);
-- (id)er;
+- (id)_UIKeyWindowSceneObserver;
 - (void)consistency:attempt to prepare transition before the split view controller's view has loaded. Split view controller:%@ /* Error: Ran out of types for this method. */;
 - (void)&ÿÉXûl;
 - (void)q;

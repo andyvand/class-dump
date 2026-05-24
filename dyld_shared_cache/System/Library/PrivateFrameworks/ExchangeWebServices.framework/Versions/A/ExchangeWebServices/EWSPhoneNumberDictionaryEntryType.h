@@ -9,27 +9,18 @@
 @interface EWSPhoneNumberDictionaryEntryType
 {
     NSString *_contentString;
-    NSString *_Key;
 }
 
 + (id);
 - (id);
 - (void);
-- (id);
+- (id)0;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *Key; // @synthesize Key=_Key;
 @property(copy, nonatomic) NSString *contentString; // @synthesize contentString=_contentString;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BiometricAutoBugCapture, NSMutableDictionary, NSTimer;
+@class BiometricAutoBugCapture, NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface EntitlementABCIssueReporter
 {
     BiometricAutoBugCapture *_biometricABC;
-    NSMutableDictionary *_issues;
-    NSTimer *_timer;
 }
 
 - (void);
@@ -31,9 +29,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak BiometricAutoBugCapture *biometricABC; // @synthesize biometricABC=_biometricABC;
 @property(retain, nonatomic) NSMutableDictionary *issues; // @synthesize issues=_issues;
-@property(retain, nonatomic) NSTimer *timer; // @synthesize timer=_timer;
 
 @end
 

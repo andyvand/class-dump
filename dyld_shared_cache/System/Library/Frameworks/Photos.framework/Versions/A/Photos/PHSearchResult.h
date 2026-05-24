@@ -4,25 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSNumber, NSString;
-
 @interface PHSearchResult
 {
     _Bool _hasOCRTextMatch;
-    _Bool _isExclusivelyExactOCRTextMatch;
-    _Bool _isSensitiveLocation;
-    NSString *_uuid;
-    unsigned long long _type;
-    NSString *_bundleIdentifier;
-    unsigned long long _retrievalType;
-    NSNumber *_l1Score;
-    NSNumber *_l2Score;
-    NSNumber *_collectionScore;
-    NSDate *_creationDate;
-    NSDate *_addedDate;
-    NSArray *_embeddingDistances;
-    unsigned long long _matchType;
-    NSString *_matchedThumbnailIdentifier;
 }
 
 + (_Bool);
@@ -32,43 +16,28 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)T;
+- (id);
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)];
 - (unsigned long long);
 - (id);
 - (unsigned long long);
+- (id)@;
 - (id);
-- (id);
-- (id);
+- (id)asher * _Nonnull, const void * _Nonnull, size_t);
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
 - (id);
 - (id);
-- (void)ry:withHandler: /* Error: Ran out of types for this method. */;
+- (void)_accessWritableURLForUUID:imageUTI:originalFilename:photoLibrary:withHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *addedDate; // @synthesize addedDate=_addedDate;
-@property(readonly, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, nonatomic) NSNumber *collectionScore; // @synthesize collectionScore=_collectionScore;
-@property(readonly, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(readonly, nonatomic) NSArray *embeddingDistances; // @synthesize embeddingDistances=_embeddingDistances;
-@property(readonly, nonatomic) _Bool hasOCRTextMatch; // @synthesize hasOCRTextMatch=_hasOCRTextMatch;
-@property(readonly, nonatomic) _Bool isExclusivelyExactOCRTextMatch; // @synthesize isExclusivelyExactOCRTextMatch=_isExclusivelyExactOCRTextMatch;
-@property(readonly, nonatomic) _Bool isSensitiveLocation; // @synthesize isSensitiveLocation=_isSensitiveLocation;
-@property(readonly, nonatomic) _Bool isSyndicationAsset;
-@property(readonly, nonatomic) NSNumber *l1Score; // @synthesize l1Score=_l1Score;
-@property(readonly, nonatomic) NSNumber *l2Score; // @synthesize l2Score=_l2Score;
-@property(readonly, nonatomic) unsigned long long matchType; // @synthesize matchType=_matchType;
-@property(readonly, nonatomic) NSString *matchedThumbnailIdentifier; // @synthesize matchedThumbnailIdentifier=_matchedThumbnailIdentifier;
 @property(readonly, nonatomic) unsigned long long retrievalType; // @synthesize retrievalType=_retrievalType;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(readonly, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end
 

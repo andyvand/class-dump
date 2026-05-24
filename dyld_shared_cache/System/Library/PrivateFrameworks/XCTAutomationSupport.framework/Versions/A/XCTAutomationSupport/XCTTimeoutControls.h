@@ -7,25 +7,23 @@
 @interface XCTTimeoutControls
 {
     double _mainThreadResponsivenessTimeout;
-    double _queryExecutionTimeout;
 }
 
 + (id);
 + (void);
-+ (void);
++ (void)Kq;
 + (double);
 + (double);
 + (_Bool);
-- (void);
-- (void);
-- (double);
+- (void)H;
+- (void)*;
+- (double)P;
 - (double);
 - (id);
 - (void);
 
 // Remaining properties
 @property double mainThreadResponsivenessTimeout; // @synthesize mainThreadResponsivenessTimeout=_mainThreadResponsivenessTimeout;
-@property double queryExecutionTimeout; // @synthesize queryExecutionTimeout=_queryExecutionTimeout;
 
 @end
 

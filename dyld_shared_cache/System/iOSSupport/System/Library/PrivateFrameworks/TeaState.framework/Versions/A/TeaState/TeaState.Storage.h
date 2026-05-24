@@ -6,6 +6,8 @@
 
 @interface TeaState.Storage
 {
+    id graphLock;
+    id dependencyContainer;
 }
 
 @end

@@ -19,7 +19,7 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)\.voice\.(?<name>[^.]*)(\.(?<quality>premium|compact))?$;
 - (id);
 - (void);
 

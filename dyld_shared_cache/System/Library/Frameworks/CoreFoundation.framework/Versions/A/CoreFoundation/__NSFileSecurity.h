@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (_Bool)on"16@?<v@?@"CKContainerID">24;
-+ (_Bool)ingsActionsClientResponse;
++ (_Bool)ATXSettingsActionsClientResponse;
 + (id);
 - (_Bool);
 - (void);
@@ -30,7 +30,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)com.apple.lsd.system.advertisingidentifiers;
 - (id);
 - (_Bool);
 - (_Bool).apple.bundle;

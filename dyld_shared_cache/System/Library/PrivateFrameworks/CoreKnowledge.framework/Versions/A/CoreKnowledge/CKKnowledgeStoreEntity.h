@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CKKnowledgeStoreEntity
 {
     id identifier;
-    id store;
 }
 
 - (void);
@@ -19,19 +16,18 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
-- (id);
-- (long long);
+- (id)D;
+- (long long)transientAssetCollectionWithAssetFetchResult:title:subtype: /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool);
+- (_Bool)Loader>"16@0:(id)arg1 8;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *description;
 @property(nonatomic, readonly) long long hash;
 
 @end

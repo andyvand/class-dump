@@ -20,7 +20,7 @@
 + (void)DH_50-59%;
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

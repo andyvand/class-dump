@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFNotificationRegistrationCharacteristicDatabaseID, NSNumber;
-@protocol MKFCharacteristic, MKFHome;
+@class NSNumber;
+@protocol MKFHome;
 
 @protocol MKFNotificationRegistrationCharacteristic
 - (id <MKFHome>)qð1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) id <MKFCharacteristic> characteristic;
-@property(readonly, copy, nonatomic) MKFNotificationRegistrationCharacteristicDatabaseID *databaseID;
-@property(readonly) id <MKFHome> home;
 @property(copy, nonatomic) NSNumber *lastNotifiedValue;
-@property(copy, nonatomic) NSNumber *notificationThreshold;
 @end
 

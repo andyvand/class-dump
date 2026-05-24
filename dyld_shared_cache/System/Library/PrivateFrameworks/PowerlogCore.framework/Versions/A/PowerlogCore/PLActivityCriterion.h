@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol PLActivityCriterionDelegate;
-
 @interface PLActivityCriterion
 {
     _Bool _satisfied;
-    id <PLActivityCriterionDelegate> _delegate;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)g event invalid percentage ;
 - (id);
 - (_Bool);
+- (void)_dsidForAlias:(id)arg1;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)5;
+- (void);
 - (void);
 
 // Remaining properties
-@property __weak id <PLActivityCriterionDelegate> delegate; // @synthesize delegate=_delegate;
 @property(nonatomic) _Bool satisfied; // @synthesize satisfied=_satisfied;
 
 @end

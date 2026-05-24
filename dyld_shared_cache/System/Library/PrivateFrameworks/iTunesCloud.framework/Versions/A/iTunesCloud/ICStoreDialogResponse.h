@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSDictionary;
 
 @interface ICStoreDialogResponse
 {
@@ -28,13 +28,6 @@
 - (id)$L}5wGS¿BèEaº£îú(H!Õf¬g(;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isBiometricAuthenticationAllowed) _Bool biometricAuthenticationAllowed;
-@property(readonly, copy, nonatomic) NSArray *buttons;
-@property(readonly, nonatomic) long long defaultButtonType;
-@property(readonly, copy, nonatomic) NSString *explanation;
-@property(readonly, nonatomic, getter=isInitialCheckboxValue) _Bool initialCheckboxValue;
-@property(readonly, copy, nonatomic) NSString *message;
-@property(readonly, copy, nonatomic) NSDictionary *responseDictionary; // @synthesize responseDictionary=_responseDictionary;
 @property(readonly, nonatomic) long long type;
 
 @end

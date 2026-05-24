@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface SFDeviceAssetQuery
 {
     _Bool _legacyAsset;
-    _Bool _h264;
-    struct LogCategory *_ucat;
-    NSString *_assetType;
-    unsigned long long _version;
-    NSString *_productType;
-    NSString *_mappedProductType;
-    NSString *_color;
-    NSDictionary *_additionalQueryParameters;
 }
 
 + (_Bool);
@@ -30,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)B;
 - (id);
 - (id);
 - (_Bool);
@@ -38,11 +28,11 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)A;
 - (id);
 - (_Bool);
 - (void)\íþÿ>Ðþÿ;
@@ -50,18 +40,7 @@
 - (id)îÞÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *additionalQueryParameters; // @synthesize additionalQueryParameters=_additionalQueryParameters;
-@property(readonly, nonatomic) NSString *assetType; // @synthesize assetType=_assetType;
-@property(readonly, nonatomic) NSString *color; // @synthesize color=_color;
-@property(readonly, nonatomic) NSString *effectiveProductType;
-@property(nonatomic) _Bool h264; // @synthesize h264=_h264;
-@property(nonatomic) _Bool legacyAsset; // @synthesize legacyAsset=_legacyAsset;
-@property(retain, nonatomic) NSString *mappedProductType; // @synthesize mappedProductType=_mappedProductType;
-@property(readonly, nonatomic) NSString *productType; // @synthesize productType=_productType;
-@property(readonly, nonatomic) NSString *stringIdentifier;
 @property(readonly, nonatomic) struct LogCategory *ucat; // @synthesize ucat=_ucat;
-@property(readonly, nonatomic) NSString *variantIdentifier;
-@property(readonly, nonatomic) unsigned long long version; // @synthesize version=_version;
 
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface SPBeaconLocation
 {
     NSDate *_timestamp;
-    double _latitude;
-    double _longitude;
-    double _horizontalAccuracy;
-    NSString *_source;
 }
 
 + (_Bool);
@@ -22,21 +18,17 @@
 - (void);
 - (void);
 - (void);
+- (id)IMMetricsCollectorEventPluginBaseURL;
 - (id);
-- (id);
-- (void);
+- (void);
 - (double);
 - (id);
 - (void);
-- (double);
+- (double);
 - (void);
-- (double)Bytes:length: /* Error: Ran out of types for this method. */;
+- (double)initWithBytes:length: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) double horizontalAccuracy; // @synthesize horizontalAccuracy=_horizontalAccuracy;
-@property(nonatomic) double latitude; // @synthesize latitude=_latitude;
-@property(nonatomic) double longitude; // @synthesize longitude=_longitude;
-@property(copy, nonatomic) NSString *source; // @synthesize source=_source;
 @property(copy, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end

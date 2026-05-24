@@ -7,7 +7,6 @@
 @interface CompletionListVendorForHistoryService
 {
     void *_completionController;
-    CDUnknownBlockType _completionListItemsCallback;
 }
 
 - (void);

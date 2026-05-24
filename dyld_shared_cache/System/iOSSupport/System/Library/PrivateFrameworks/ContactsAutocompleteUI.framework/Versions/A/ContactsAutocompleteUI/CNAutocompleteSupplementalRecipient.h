@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPersonNameComponents, NSString;
+@class NSString;
 
 @interface CNAutocompleteSupplementalRecipient
 {
     NSString *_address;
-    long long _addressType;
-    NSPersonNameComponents *_nameComponents;
 }
 
-- (id);
+- (id)#;
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void)?;
 
 // Remaining properties
 @property(readonly, copy) NSString *address; // @synthesize address=_address;
-@property(readonly) long long addressType; // @synthesize addressType=_addressType;
-@property(readonly, copy) NSPersonNameComponents *nameComponents; // @synthesize nameComponents=_nameComponents;
 
 @end
 

@@ -11,11 +11,11 @@
     id mergeable;
 }
 
+- (id)le:(id)arg1 contact:(id *)arg2;
+- (_Bool)detailsCoordinatorDidDismiss:(id)arg1;
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
+- (id);
+- (void)respondsToSelector: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;

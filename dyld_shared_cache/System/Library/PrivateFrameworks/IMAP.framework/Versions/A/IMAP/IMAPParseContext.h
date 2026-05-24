@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMAPConnection, IMAPResponse, NSData;
+@class IMAPConnection;
 
 @interface IMAPParseContext
 {
     const char *_start;
-    const char *_end;
-    _Bool _invalid;
-    IMAPConnection *_connection;
-    IMAPResponse *_response;
-    NSData *_data;
 }
 
 - (id);
-- (id);
+- (id);
 - (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -26,61 +22,58 @@
 - (void);
 - (void);
 - (void);
+- (void) ;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (void)i8
+	;
+- (void)";
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)�;
+- (_Bool)6A;
+- (void)6k`;
+- (void);
+- (_Bool);
+- (id);
+- (id);
+- (void);
+- (id)%@;
 - (id);
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)h;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) IMAPConnection *connection; // @synthesize connection=_connection;
-@property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(nonatomic) _Bool invalid; // @synthesize invalid=_invalid;
-@property(retain, nonatomic) IMAPResponse *response; // @synthesize response=_response;
 
 @end
 

@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol FAMegadomeRecommendationLoading;
 
 @interface FAFamilyMegadomeSuggester
@@ -12,26 +11,18 @@
     id <FAMegadomeRecommendationLoading> _recommendationLoader;
 }
 
-- (void);
-- (id);
-- (id);
-- (long long);
-- (id);
-- (id);
-- (id);
+- (void)DeathDate;
+- (id)ttsVersion;
+- (id)tokenOffset;
+- (long long).apple.ace.clientflow.local.pex;
+- (id)effect;
+- (id)glanceDisplayName;
+- (id)handoffPayload;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long proactiveModel;
 @property(retain, nonatomic) id <FAMegadomeRecommendationLoading> recommendationLoader; // @synthesize recommendationLoader=_recommendationLoader;
-@property(readonly) Class superclass;
 
 @end
 

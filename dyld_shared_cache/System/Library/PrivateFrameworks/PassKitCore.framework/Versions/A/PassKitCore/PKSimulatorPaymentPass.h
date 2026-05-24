@@ -15,10 +15,10 @@
 
 - (id);
 - (id);
+- (id)B;
 - (id);
 - (id);
-- (id);
-- (void)ACE_SUPRESSION_ACCEPT;
+- (void)CONTACTLESS_INTERFACE_SUPRESSION_ACCEPT;
 
 @end
 

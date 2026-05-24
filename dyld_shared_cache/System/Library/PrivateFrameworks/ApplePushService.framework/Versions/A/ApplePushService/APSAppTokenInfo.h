@@ -4,57 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString;
-
 @interface APSAppTokenInfo
 {
     _Bool _isUnextended;
-    NSData *_baseToken;
-    NSString *_topic;
-    NSString *_identifier;
-    NSDate *_expirationDate;
 }
 
 + (_Bool);
 - (id);
+- (void));
 - (void);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
+- (id)newRequestForModel:(id)arg1 inputFeatures:usingState:options:error: /* Error: Ran out of types for this method. */;
+- (id)Specification5ModelERKNS_15WeightParamTypeEE3$_0;
+- (_Bool)h;
+- (void)p;
 - (unsigned long long);
 - (long long);
-- (_Bool);
+- (_Bool)r.;
+- (void)(J;
+- (id)br_shouldOverwriteExistingName;
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)recordAccessKey;
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *baseToken; // @synthesize baseToken=_baseToken;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 @property(nonatomic) _Bool isUnextended; // @synthesize isUnextended=_isUnextended;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *topic; // @synthesize topic=_topic;
-@property(readonly, nonatomic) long long type;
-@property(readonly, nonatomic) NSData *vapidPublicKey;
 
 @end
 

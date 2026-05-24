@@ -4,40 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFSpeechRecordingAlertBehavior, AFSpeechRecordingAlertPolicy, NSString;
+@class AFSpeechRecordingAlertPolicy;
 
 @interface _AFSpeechRecordingAlertPolicyMutation
 {
     AFSpeechRecordingAlertPolicy *_base;
-    AFSpeechRecordingAlertBehavior *_startingAlertBehavior;
-    AFSpeechRecordingAlertBehavior *_stoppedAlertBehavior;
-    AFSpeechRecordingAlertBehavior *_stoppedWithErrorAlertBehavior;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasStartingAlertBehavior:1;
-        unsigned int hasStoppedAlertBehavior:1;
-        unsigned int hasStoppedWithErrorAlertBehavior:1;
-    } _mutationFlags;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)T*;
 - (id);
 - (id);
 - (_Bool);
-- (id)ndler:(id)arg1;
+- (id)synchronousRemoteObjectProxyWithErrorHandler:(id)arg1;
 - (void)ementDelay: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

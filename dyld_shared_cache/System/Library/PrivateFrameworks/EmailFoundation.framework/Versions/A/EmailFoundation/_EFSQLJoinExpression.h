@@ -4,54 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFSQLSelectStatement, NSString;
-@protocol EFSQLExpressable;
+@class EFSQLSelectStatement;
 
 @interface _EFSQLJoinExpression
 {
     _Bool _isLeftOuter;
-    EFSQLSelectStatement *_select;
-    NSString *_tableName;
-    NSString *_tableAlias;
-    id <EFSQLExpressable> _joinConstraint;
 }
 
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)C;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)gnitionWindowAnimatedMicBackgroundView";
 - (id);
 - (id);
 - (void);
-- (id);
+- (id),N,V_supportsWEPCipher;
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void)flatMap:(id)arg1;
+- (void)ef_flatMap:(id)arg1;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *ef_SQLExpression;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isLeftOuter; // @synthesize isLeftOuter=_isLeftOuter;
-@property(readonly, nonatomic) id <EFSQLExpressable> joinConstraint; // @synthesize joinConstraint=_joinConstraint;
 @property(readonly, nonatomic) __weak EFSQLSelectStatement *select; // @synthesize select=_select;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *tableAlias; // @synthesize tableAlias=_tableAlias;
-@property(readonly, copy, nonatomic) NSString *tableName; // @synthesize tableName=_tableName;
 
 @end
 

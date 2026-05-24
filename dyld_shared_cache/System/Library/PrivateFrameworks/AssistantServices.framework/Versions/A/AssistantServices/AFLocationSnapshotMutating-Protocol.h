@@ -5,6 +5,6 @@
 //
 
 @protocol AFLocationSnapshotMutating
-- (void)ts;
+- (void)remoteActiveAssertionContexts;
 @end
 

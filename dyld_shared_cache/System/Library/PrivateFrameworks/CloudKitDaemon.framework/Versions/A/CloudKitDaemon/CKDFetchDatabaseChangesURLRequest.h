@@ -6,41 +6,29 @@
 
 #import <CloudKitDaemon/CKDURLRequest.h>
 
-@class CKRecordZoneID, NSArray, NSData, NSMutableArray, NSString;
+@class CKRecordZoneID, NSMutableArray;
 
 @interface CKDFetchDatabaseChangesURLRequest : CKDURLRequest
 {
     NSMutableArray *_changedZoneIDs;
-    NSMutableArray *_deletedZoneIDs;
-    NSMutableArray *_purgedZoneIDs;
-    NSMutableArray *_encryptedDataResetDeletedZoneIDs;
-    unsigned long long _resultsLimit;
-    NSData *_serverChangeTokenData;
-    long long _status;
-    CDUnknownBlockType _zoneChangedBlock;
-    CDUnknownBlockType _zoneDeletedBlock;
-    CDUnknownBlockType _zonePurgedBlock;
-    CDUnknownBlockType _zoneDeletedDueToEncryptedDataResetBlock;
-    CDUnknownBlockType _anonymousShareProcessingBlock;
-    CKRecordZoneID *_recordZoneID;
-    NSData *_previousServerChangeTokenData;
 }
 
-- (void);
+- (void)UsoEntityBuilderProtocol_common_Group;
 - (CDUnknownBlockType);
-- (void);
+- (void);
 - (CDUnknownBlockType);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)ll set to %d
+;
 - (CDUnknownBlockType);
 - (void);
 - (CDUnknownBlockType);
-- (void);
-- (CDUnknownBlockType);
+- (void)columnExpressionWithFullName;
+- (CDUnknownBlockType)_dataSource;
 - (void);
 - (id);
 - (long long);
@@ -49,9 +37,9 @@
 - (id);
 - (void);
 - (void);
-- (id)WithError: /* Error: Ran out of types for this method. */;
-- (void)rticipant;
-- (id)Cache;
+- (id)_finishOnCallbackQueueWithError: /* Error: Ran out of types for this method. */;
+- (void)callerParticipant;
+- (id)PCSCache;
 - (void)or zone %@;
 - (id)fest is corrupt - section %lu contains %llu bytes, expected %llu bytes;
 - (unsigned long long)at URL %@:%@ /* Error: Ran out of types for this method. */;
@@ -60,27 +48,7 @@
 - (_Bool)Ã;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType anonymousShareProcessingBlock; // @synthesize anonymousShareProcessingBlock=_anonymousShareProcessingBlock;
-@property(readonly, nonatomic) NSArray *changedZoneIDs; // @synthesize changedZoneIDs=_changedZoneIDs;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSArray *deletedZoneIDs; // @synthesize deletedZoneIDs=_deletedZoneIDs;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *encryptedDataResetDeletedZoneIDs; // @synthesize encryptedDataResetDeletedZoneIDs=_encryptedDataResetDeletedZoneIDs;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSData *previousServerChangeTokenData; // @synthesize previousServerChangeTokenData=_previousServerChangeTokenData;
-@property(readonly, nonatomic) NSArray *purgedZoneIDs; // @synthesize purgedZoneIDs=_purgedZoneIDs;
 @property(retain, nonatomic) CKRecordZoneID *recordZoneID; // @synthesize recordZoneID=_recordZoneID;
-@property(nonatomic) unsigned long long resultsLimit; // @synthesize resultsLimit=_resultsLimit;
-@property(retain, nonatomic) NSData *serverChangeTokenData; // @synthesize serverChangeTokenData=_serverChangeTokenData;
-@property(nonatomic) long long status; // @synthesize status=_status;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) CDUnknownBlockType zoneChangedBlock; // @synthesize zoneChangedBlock=_zoneChangedBlock;
-@property(copy, nonatomic) CDUnknownBlockType zoneDeletedBlock; // @synthesize zoneDeletedBlock=_zoneDeletedBlock;
-@property(copy, nonatomic) CDUnknownBlockType zoneDeletedDueToEncryptedDataResetBlock; // @synthesize zoneDeletedDueToEncryptedDataResetBlock=_zoneDeletedDueToEncryptedDataResetBlock;
-@property(copy, nonatomic) CDUnknownBlockType zonePurgedBlock; // @synthesize zonePurgedBlock=_zonePurgedBlock;
 
 @end
 

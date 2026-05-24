@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     UIImageView *_rimTreatment;
 }
 
-- (void);
+- (void)bytes_written;
 - (void);
 - (void)lB	èB
 CDXEHFG;

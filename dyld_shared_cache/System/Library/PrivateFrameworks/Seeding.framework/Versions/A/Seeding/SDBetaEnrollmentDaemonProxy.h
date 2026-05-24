@@ -4,48 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCConnection;
+@class NSXPCConnection;
 
 @interface SDBetaEnrollmentDaemonProxy
 {
     NSXPCConnection *_daemonConnection;
 }
 
-+ (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
++ (id)st could not be queued - timed out ret=0x%xself.queueDepth=%ld :self.currentAsyncRequestsInFlight=%ld lModel=%@ /* Error: Ran out of types for this method. */;
+- (id)0B64B68B72@76;
+- (void)angeReason"b1"hasBuildVersion"b1"hasProductVersion"b1"hasSchemaVersion"b1"hasLogEventIdentifier"b1};
+- (void)mmandExecutionInfo"40@?<v@?@"NSDictionary"@"NSArray"@"NSError">48;
+- (void)tring"24@"NSDictionary"32@"AFCommandExecutionInfo"40@?<v@?@"NSDictionary"@"NSArray"@"NSError">48;
+- (void)8@16q24@?32;
+- (id)32@0:(CDUnknownBlockType)arg1 8@"NSString"16@?<v@?@"NSError">24;
+- (void)r"b1"hasVersion"b1"hasControlGroup"b1"hasExperimentGroups"b1"hasSalt"b1};
+- (id)irty"b1"hasType"b1"hasIdentifier"b1"hasVersion"b1"hasControlGroup"b1"hasExperimentGroups"b1"hasSalt"b1};
+- (id)16q24@32q40@48;
+- (id)v20@0:(id *)arg1 8B16;
+- (id)";
+- (void)rgumentSafetyBlock";
+- (void)1"hasHomeAnnouncementState"b1"hasHomeAnnouncementRecency"b1"hasNearbyDevicesRequestIdentifier"b1"hasTargetedResult"b1"hasContextIdentifier"b1};
+- (void)OutcomeUseCaseV2HearNotifications";
+- (_Bool)voiceInfoForLanguageCode: /* Error: Ran out of types for this method. */;
+- (void)voiceCountForRecognitionLanguage;
+- (void)visualIntelligenceCameraControlEnabled;
 - (void);
 - (id);
-- (id);
 - (void);
+- (id);
+- (id);
+- (void)irtualANEModel.ioSIDKey=%u virtualANEModel.string_id=%lld virtualANEModel.programHandle=%lld virtualANEModel.intermediateBufferHandle=%lld virtualANEModel.queueDepth=%d virtualANEModel.ioSIDModelAttributes=%u virtualANEModel.perfStatsMask=%u virtualANEModel.qos=%u virtualANEModel.ioSIDOptions=%u virtualANEModel.ioSIDErrorValue=%u;
 - (id);
 
 // Remaining properties
 @property(retain) NSXPCConnection *daemonConnection; // @synthesize daemonConnection=_daemonConnection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

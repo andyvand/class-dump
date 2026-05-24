@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSXPCStoreServerPerConnectionCache;
+@class NSDictionary;
 
 @interface NSXPCStoreConnectionInfo
 {
     NSDictionary *_entitlements;
-    NSXPCStoreServerPerConnectionCache *_cache;
-    CDStruct_4c969caf _token;
-    id _userInfo;
-    struct os_unfair_lock_s _lock;
 }
 
 - (id);
 - (void);
 - (id);
 - (id);
-- (CDStruct_4c969caf);
-- (id);
+- (CDStruct_6ad76789);
+- (id)_valueWithEncoding: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

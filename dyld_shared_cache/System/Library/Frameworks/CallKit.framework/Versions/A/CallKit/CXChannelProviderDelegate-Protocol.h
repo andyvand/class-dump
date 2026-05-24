@@ -5,5 +5,9 @@
 //
 
 @protocol CXChannelProviderDelegate
+
+@optional
+- (void);
+- (void)9;
 @end
 

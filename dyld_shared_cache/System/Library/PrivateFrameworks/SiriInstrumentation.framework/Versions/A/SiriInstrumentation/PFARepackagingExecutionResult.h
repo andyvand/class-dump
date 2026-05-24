@@ -6,19 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PFARepackagingExecutionFailure;
-
 @interface PFARepackagingExecutionResult : SISchemaInstrumentationMessage
 {
     int _samplingResult;
-    _Bool _success;
-    PFARepackagingExecutionFailure *_failure;
-    struct {
-        unsigned int samplingResult:1;
-    } _has;
-    _Bool _hasSuccess;
-    _Bool _hasFailure;
-    unsigned long long _whichSuccessorfail;
 }
 
 - (unsigned long long);
@@ -35,30 +25,23 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (_Bool);
+- (void)_contentBodyHasLocationURL:(_Bool)arg1;
+- (_Bool)@;
 - (id);
 - (id)
 × ;
-- (id)iginProgramStatementId;
+- (id)_hasOriginProgramStatementId;
 - (id)AssistantVoicesDigestsReported;
 - (_Bool)ÙÚÈÚ;
-- (void)nDisambiguationsLastSixHours;
-- (void)CELLEDREASON_REQUEST_CANCELED_FROM_UI;
+- (void)numActionDisambiguationsLastSixHours;
+- (void)IFTMGRUSERTURNCANCELLEDREASON_REQUEST_CANCELED_FROM_UI;
 
 // Remaining properties
-@property(retain, nonatomic) PFARepackagingExecutionFailure *failure; // @synthesize failure=_failure;
-@property(nonatomic) _Bool hasFailure; // @synthesize hasFailure=_hasFailure;
-@property(nonatomic) _Bool hasSamplingResult;
-@property(nonatomic) _Bool hasSuccess; // @synthesize hasSuccess=_hasSuccess;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int samplingResult; // @synthesize samplingResult=_samplingResult;
-@property(nonatomic) _Bool success; // @synthesize success=_success;
-@property(readonly, nonatomic) unsigned long long whichSuccessorfail; // @synthesize whichSuccessorfail=_whichSuccessorfail;
 
 @end
 

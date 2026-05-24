@@ -4,37 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKMapItem, NSArray, NSDate, NSMutableDictionary, NSSet;
-@protocol GEOTransitLineItem;
+@class MKMapItem, NSDate;
 
 @interface MKTransitItemIncidentsController
 {
     MKMapItem *_mapItem;
-    id <GEOTransitLineItem> _lineItem;
-    NSArray *_validIncidents;
-    NSMutableDictionary *_incidentsForDepartureSequence;
-    NSMutableDictionary *_incidentsForSystem;
-    NSMutableDictionary *_incidentsForLine;
-    NSMutableDictionary *_incidentsForMapItem;
-    NSMutableDictionary *_incidentsForLinesInSystem;
-    NSSet *_blockedIncidentEntities;
-    NSDate *_referenceDate;
 }
 
+- (id)_lastPowerlogResponse;
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)/;
 - (void);
 - (void);
 - (id);
 - (id);
-- (void)esponseStatus;
+- (void)responseStatus;
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *referenceDate; // @synthesize referenceDate=_referenceDate;

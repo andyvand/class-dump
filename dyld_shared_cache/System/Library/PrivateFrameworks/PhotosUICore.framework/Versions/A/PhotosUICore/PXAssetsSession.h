@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXSectionedDataSource, PXSectionedDataSourceManager, PXSectionedSelectionManager, PXSelectionSnapshot, PXUIMediaProvider;
+@class PXSectionedDataSource;
 
 @interface PXAssetsSession
 {
     PXSectionedDataSource *_dataSource;
-    PXSelectionSnapshot *_selectionSnapshot;
-    PXSectionedDataSourceManager *_dataSourceManager;
-    PXUIMediaProvider *_mediaProvider;
-    PXSectionedSelectionManager *_selectionManager;
 }
 
 - (id);
@@ -24,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)cleViewerPageDelegateP;
 - (id);
 - (void);
 - (id);
@@ -33,17 +29,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) PXSectionedDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, nonatomic) PXSectionedDataSourceManager *dataSourceManager; // @synthesize dataSourceManager=_dataSourceManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PXUIMediaProvider *mediaProvider; // @synthesize mediaProvider=_mediaProvider;
-@property(retain, nonatomic) PXSectionedSelectionManager *selectionManager; // @synthesize selectionManager=_selectionManager;
-@property(retain, nonatomic) PXSelectionSnapshot *selectionSnapshot; // @synthesize selectionSnapshot=_selectionSnapshot;
-@property(readonly) Class superclass;
 
 @end
 

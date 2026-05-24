@@ -5,5 +5,6 @@
 //
 
 @protocol NSCoding
+- (id)estContext",&,N,V_identityBridgeRequestContext;
 @end
 

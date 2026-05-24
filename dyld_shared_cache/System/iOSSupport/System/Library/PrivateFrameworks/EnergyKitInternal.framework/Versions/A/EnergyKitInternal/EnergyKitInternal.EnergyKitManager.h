@@ -8,7 +8,6 @@
 {
     id delegate;
     id notificationCenter;
-    id opQueue;
 }
 
 @end

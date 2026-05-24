@@ -6,22 +6,16 @@
 
 #import <HomeKitDaemon/HMDNetworkRouterFirewallRuleLAN.h>
 
-@class HMFNetAddress, NSArray;
-
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterFirewallRuleLANStatic : HMDNetworkRouterFirewallRuleLAN
 {
     unsigned char _transportProtocol;
-    unsigned short _portStart;
-    unsigned short _portEnd;
-    HMFNetAddress *_ipAddress;
-    NSArray *_icmpTypes;
 }
 
 + (id);
-- (id);
-- (unsigned short);
-- (id);
+- (id)48@0:8@?16@?24@?32@?40 /* Error: Ran out of types for this method. */;
+- (unsigned short)@"MSPSharedTripRelay"16@"NSString"24;
+- (id)ious (%#.1lfs since last update, %#.1lfs to go);
 - (id);
 - (unsigned short);
 - (id);
@@ -32,10 +26,6 @@ __attribute__((visibility("hidden")))
 - (void)DWidgetTimelineRefresher configure];
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *icmpTypes; // @synthesize icmpTypes=_icmpTypes;
-@property(readonly, nonatomic) HMFNetAddress *ipAddress; // @synthesize ipAddress=_ipAddress;
-@property(readonly, nonatomic) unsigned short portEnd; // @synthesize portEnd=_portEnd;
-@property(readonly, nonatomic) unsigned short portStart; // @synthesize portStart=_portStart;
 @property(readonly, nonatomic) unsigned char transportProtocol; // @synthesize transportProtocol=_transportProtocol;
 
 @end

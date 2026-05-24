@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSNumber, _DKEvent;
+@class NSDictionary, _DKEvent;
 
 @interface _DKEventAdapter
 {
     NSDictionary *_structuredMetadata;
-    NSArray *_customMetadata;
-    NSNumber *_startDayOfWeek;
-    NSNumber *_endDayOfWeek;
-    _DKEvent *_dkEvent;
 }
 
 - (id);
 - (long long);
+- (id)@8s;
 - (id);
-- (id);
-- (long long);
-- (long long);
+- (long long)@8V!*;
+- (long long)b;
 - (unsigned long long);
 - (id);
 - (void);
@@ -31,28 +27,28 @@
 - (long long);
 - (id);
 - (_Bool);
+- (double)kTCCCodeIdentityExecutableURL;
+- (id);
+- (long long);
+- (id)!;
+- (id)he key;
+- (id)@;
+- (id);
+- (id);
+- (long long);
+- (id)a;
+- (long long);
+- (id);
 - (double);
 - (id);
-- (long long);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (id);
-- (long long);
-- (id);
-- (double);
-- (id);
-- (id);
-- (id);
+- (id)room;
 - (short)Ôá¶/!DùÑ©3ð1Â0@ù
 × ;
 - (void);
-- (long long)n:forMirroringKey: /* Error: Ran out of types for this method. */;
-- (id);
-- (id)tivityMetadataKey__isEligibleForPrediction;
+- (long long)setOption:forMirroringKey: /* Error: Ran out of types for this method. */;
+- (id)_callTotalDur;
+- (id)_DKApplicationActivityMetadataKey__isEligibleForPrediction;
 
 // Remaining properties
 @property(retain, nonatomic) _DKEvent *dkEvent; // @synthesize dkEvent=_dkEvent;

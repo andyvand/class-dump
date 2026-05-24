@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMRemoteConnection, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class EMRemoteConnection;
 
 @interface EMInteractionLogger
 {
     _Bool _appLaunched;
-    EMRemoteConnection *_connection;
-    NSObject<OS_dispatch_queue> *_stateTrackingQueue;
-    NSMutableDictionary *_viewedMessages;
-    NSMutableDictionary *_messageListMessages;
-    struct _NSRange _messageListVisibleRows;
 }
 
 + (id);
@@ -23,15 +17,15 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)0;
 - (void);
 - (void);
 - (void);
 - (struct _NSRange);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)tor;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -40,13 +34,13 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
+- (void):visual_components_combination_ != nullptr: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -56,19 +50,7 @@
 × ;
 
 // Remaining properties
-@property _Bool appLaunched; // @synthesize appLaunched=_appLaunched;
 @property(retain) EMRemoteConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableDictionary *messageListMessages; // @synthesize messageListMessages=_messageListMessages;
-@property(nonatomic) struct _NSRange messageListVisibleRows; // @synthesize messageListVisibleRows=_messageListVisibleRows;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *stateTrackingQueue; // @synthesize stateTrackingQueue=_stateTrackingQueue;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSMutableDictionary *viewedMessages; // @synthesize viewedMessages=_viewedMessages;
 
 @end
 

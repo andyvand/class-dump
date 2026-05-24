@@ -6,34 +6,32 @@
 
 #import <NearField/NFSession.h>
 
-@class NFTag, NSString;
+@class NFTag;
 @protocol NFReaderSessionDelegate;
 
 @interface NFReaderSession : NFSession
 {
     NFTag *_connectedTag;
-    id <NFReaderSessionDelegate> _delegate;
-    long long _actionSheetUI;
 }
 
-- (id);
-- (id);
+- (id)Phone Number Analysis;
+- (id)modifiedUniqueIdsSet;
+- (_Bool)removing records:(id)arg1 %@ %@;
+- (_Bool)imported records:(unsigned int)arg1 %@ %@;
+- (_Bool)to add subgroup:(unsigned int)arg1 %@ %@;
+- (_Bool)group UID:(id *)arg1 %@;
+- (id)CNPostalAddressISOCountryCodeKey;
+- (_Bool)kABConverterTotalRecordsKey;
+- (_Bool)SearchableItemActivityIdentifier(void);
+- (unsigned int)egin Chat;
+- (_Bool)m;
+- (id)ntain the "Async" string;
 - (_Bool);
 - (_Bool);
+- (id)+;
 - (_Bool);
 - (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (unsigned int);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -43,18 +41,20 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)IQ;
+- (void)=^;
+- (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)ui;
 - (long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)type;
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)slice lcs
+ INNER JOIN chat c ON lcs.chat = c.rowid
+ WHERE c.guid =  ?  AND lcs.service_name =  ? ;;
+- (id)join chat_message_join cm where m.cache_has_attachments = 1 AND cm.chat_id AND cm.chat_id IN (%@) AND m.rowid = cm.message_id) as tmp where ma.message_id = tmp.message_id) as tmp2 where a.rowid = tmp2.a_id AND     a.hide_attachment == 0 ORDER BY tmp2.m_date ASC;;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -66,20 +66,12 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly) long long actionSheetUI; // @synthesize actionSheetUI=_actionSheetUI;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property id <NFReaderSessionDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

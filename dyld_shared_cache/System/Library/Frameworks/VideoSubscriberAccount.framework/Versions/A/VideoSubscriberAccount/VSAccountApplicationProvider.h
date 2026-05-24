@@ -9,8 +9,6 @@
 @interface VSAccountApplicationProvider
 {
     NSString *_localizedDisplayName;
-    NSString *_identifier;
-    NSString *_displayName;
 }
 
 + (id);
@@ -18,12 +16,12 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)`;
 - (_Bool);
-- (void);
+- (void)_historyItemsWereRemoved:(id)arg1;
 - (void);
 - (id);
 - (id);
@@ -32,8 +30,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSString *localizedDisplayName; // @synthesize localizedDisplayName=_localizedDisplayName;
 
 @end
 

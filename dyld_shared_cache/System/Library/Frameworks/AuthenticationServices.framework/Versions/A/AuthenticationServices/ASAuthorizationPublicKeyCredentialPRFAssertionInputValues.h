@@ -9,18 +9,16 @@
 @interface ASAuthorizationPublicKeyCredentialPRFAssertionInputValues
 {
     void saltInput1;
-    void saltInput2;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)startPageType;
 - (void);
 
 // Remaining properties
 @property(nonatomic, readonly) NSData *saltInput1;
-@property(nonatomic, readonly) NSData *saltInput2;
 
 @end
 

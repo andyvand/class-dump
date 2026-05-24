@@ -7,7 +7,6 @@
 @interface StoreKit.MerchandisingUICoder
 {
     id $__lazy_storage_$_encoder;
-    id $__lazy_storage_$_decoder;
 }
 
 @end

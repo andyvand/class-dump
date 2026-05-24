@@ -7,8 +7,6 @@
 @interface NewsArticles.EndOfArticleFeedServiceConfigFetcher
 {
     id name;
-    id appConfigManager;
-    id configManager;
 }
 
 @end

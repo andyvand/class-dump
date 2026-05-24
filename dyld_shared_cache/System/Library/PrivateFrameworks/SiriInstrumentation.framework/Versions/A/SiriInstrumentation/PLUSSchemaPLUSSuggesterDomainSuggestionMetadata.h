@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PLUSSchemaPLUSSuggesterMediaSuggestionMetadata;
+@class PLUSSchemaPLUSSuggesterMediaSuggestionMetadata;
 
 @interface PLUSSchemaPLUSSuggesterDomainSuggestionMetadata : SISchemaInstrumentationMessage
 {
     PLUSSchemaPLUSSuggesterMediaSuggestionMetadata *_mediaMetadata;
-    _Bool _hasMediaMetadata;
-    unsigned long long _whichDomainsuggestionmetadata;
 }
 
 - (unsigned long long);
@@ -26,19 +24,16 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)equest to reindex handles as indexing is disabled for contact cache:(id)arg1 %@;
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)t;
+- (id)_hasVoiceShortcutContext;
 - (id),N,V_hasIsEmailAvailable;
-- (void)OESNOTSUPPORTINTENT;
+- (void)DIALOGENGINENAMEDENTITYCATID__COMMONERRORS__APPDOESNOTSUPPORTINTENT;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMediaMetadata; // @synthesize hasMediaMetadata=_hasMediaMetadata;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) PLUSSchemaPLUSSuggesterMediaSuggestionMetadata *mediaMetadata; // @synthesize mediaMetadata=_mediaMetadata;
-@property(readonly, nonatomic) unsigned long long whichDomainsuggestionmetadata; // @synthesize whichDomainsuggestionmetadata=_whichDomainsuggestionmetadata;
 
 @end
 

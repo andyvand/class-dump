@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ODIState;
-
 __attribute__((visibility("hidden")))
 @interface ODIHorizonalList3
 {
     unsigned int mMaxPointCount;
-    ODIState *mState;
 }
 
 + (_Bool);

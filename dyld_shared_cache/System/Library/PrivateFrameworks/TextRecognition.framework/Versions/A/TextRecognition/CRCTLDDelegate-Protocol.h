@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CRGroupRegion;
+@protocol CRDirectionalRegion;
+
 @protocol CRCTLDDelegate
+- (long long)_updatePopUp:(id <CRDirectionalRegion>)arg1 toMatchPreferenceWithKey:(id <CRDirectionalRegion>)arg2;
+
+@optional
+- (CRGroupRegion *)_updateScribbleControllerForContentChange;
 @end
 

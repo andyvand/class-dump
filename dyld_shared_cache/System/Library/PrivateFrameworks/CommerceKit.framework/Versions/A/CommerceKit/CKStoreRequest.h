@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKAuthenticationContext, CKStoreClient, NSData, NSDictionary, NSString, NSURL;
-@protocol CKStoreRequestDelegate;
+@class CKStoreClient;
 
 @interface CKStoreRequest
 {
     CKStoreClient *_storeClient;
-    NSString *_bagURLKey;
-    NSURL *_URL;
-    id <CKStoreRequestDelegate> _delegate;
-    CKAuthenticationContext *_authenticationContext;
-    NSDictionary *_additionalQueryParameters;
-    NSDictionary *_additionalHTTPHeaders;
-    NSData *_bodyData;
-    NSDictionary *_bodyPlist;
 }
 
 + (id);
@@ -41,29 +32,21 @@
 - (void);
 - (void);
 - (void);
+- (id)S;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
+- (void);
+- (id);
+- (void)M5;
 - (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) NSURL *URL; // @synthesize URL=_URL;
-@property(copy) NSDictionary *additionalHTTPHeaders; // @synthesize additionalHTTPHeaders=_additionalHTTPHeaders;
-@property(copy) NSDictionary *additionalQueryParameters; // @synthesize additionalQueryParameters=_additionalQueryParameters;
-@property(copy) CKAuthenticationContext *authenticationContext; // @synthesize authenticationContext=_authenticationContext;
-@property(readonly) NSString *bagURLKey; // @synthesize bagURLKey=_bagURLKey;
-@property(copy) NSData *bodyData; // @synthesize bodyData=_bodyData;
-@property(copy) NSDictionary *bodyPlist; // @synthesize bodyPlist=_bodyPlist;
-@property __weak id <CKStoreRequestDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly) CKStoreClient *storeClient; // @synthesize storeClient=_storeClient;
 
 @end

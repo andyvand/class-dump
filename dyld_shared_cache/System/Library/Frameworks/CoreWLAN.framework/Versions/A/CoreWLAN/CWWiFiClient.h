@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CWXPCClient, NSMutableDictionary, NSMutableSet, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class CWXPCClient;
 
 @interface CWWiFiClient
 {
     CWXPCClient *_xpcClient;
-    NSMutableSet *_eventList;
-    NSObject<OS_dispatch_queue> *_eventQueue;
-    NSString *_defaultInterfaceName;
-    NSMutableDictionary *_interfaceMap;
-    NSObject<OS_dispatch_queue> *_mutex;
-    id _delegate;
-    _Bool _legacy;
 }
 
 + (id);
@@ -42,7 +34,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool));
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -61,7 +53,7 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)libSystem.B.dylib;
 - (_Bool);
 - (void);
 - (void);
@@ -90,40 +82,41 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (_Bool)/h/h0;
+- (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)K;
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
+- (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (id)X
+;
+- (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)_foundInstantAnswersHandler;
 - (void);
 - (long long);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)ndArrayNeuron;
+- (void)ht must have %u x %u = %u channels (number of elements in the kernel);
 - (id);
 - (id);
 - (id);
@@ -135,8 +128,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id delegate; // @synthesize delegate=_delegate;
-@property _Bool legacy; // @synthesize legacy=_legacy;
 @property(retain) CWXPCClient *xpcClient; // @synthesize xpcClient=_xpcClient;
 
 @end

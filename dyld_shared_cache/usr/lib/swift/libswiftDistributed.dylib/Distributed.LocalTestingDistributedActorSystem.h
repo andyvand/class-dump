@@ -8,9 +8,6 @@
 {
     id activeActors;
     id activeActorsLock;
-    id idProvider;
-    id assignedIDs;
-    id assignedIDsLock;
 }
 
 @end

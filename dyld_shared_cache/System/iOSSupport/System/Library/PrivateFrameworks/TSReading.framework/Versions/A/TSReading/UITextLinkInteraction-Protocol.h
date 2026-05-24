@@ -5,5 +5,12 @@
 //
 
 @protocol UITextLinkInteraction
+- (_Bool);
+- (_Bool)odules/news-reader/NewsUI/Modules/Today/TodayFeedPoolTracker.swift;
+- (_Bool)NewsUI2/SearchHomeEventHandler.swift;
+- (void)ptTestCase+DataStore.swift;
+
+@optional
+- (void);
 @end
 

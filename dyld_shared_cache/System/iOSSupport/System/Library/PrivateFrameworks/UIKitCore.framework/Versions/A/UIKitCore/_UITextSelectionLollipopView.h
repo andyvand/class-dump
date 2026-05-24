@@ -6,58 +6,50 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, UIBezierPath, _UIContainerWindowPortalInteraction;
+@class _UIContainerWindowPortalInteraction;
 
 @interface _UITextSelectionLollipopView : UIView
 {
     _Bool _hiddenForLoupeAnimation;
-    _Bool _portalsDotToContainerWindow;
-    _Bool _engaged;
-    unsigned long long _direction;
-    UIBezierPath *_customShape;
-    double _shapeScale;
-    _UIContainerWindowPortalInteraction *_dotPortalInteraction;
-    UIView *_stemView;
-    UIView *_dotView;
 }
 
 + (id)@;
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)q!;
 - (void);
 - (struct CGRect);
 - (_Bool);
 - (id);
+- (CDStruct_45cfb02b)@z@;
 - (CDStruct_45cfb02b);
-- (CDStruct_45cfb02b);
-- (CDStruct_e1624b90);
+- (CDStruct_e1624b90);
 - (_Bool);
 - (struct CGRect);
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (double);
+- (void)stringByResolvingAndStandardizingPath;
+- (void)stringByAppendingFormat: /* Error: Ran out of types for this method. */;
+- (void)PropertyToDestinations:(id)arg1;
+- (double)forceReplace;
 - (void);
 - (struct CGSize);
 - (struct CGPoint);
 - (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)the Identity is restored, we will kick sync appropriately;
+- (void)legacy service session, please file a radar-------*/;
+- (void)@;
+- (id)%@ while executing:%@ /* Error: Ran out of types for this method. */;
+- (void)ved transcoded output from balloon bundle id %@ path %@;
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void)_removeDeliveryRecordForComponents:(_Bool)arg1;
-- (id)inedPoint:(struct CGRect)arg1;
+- (id)_mutateInternalUnconstrainedPoint:(struct CGRect)arg1;
 - (_Bool)tColor:(struct CGPoint)arg1 ,V__tintColor;
 - (unsigned long long)@y@{$¤H(è¬;
 - (void)þ;
@@ -66,29 +58,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, setter=_setShapeScale:) double _shapeScale; // @synthesize _shapeScale;
-@property(readonly, nonatomic) struct CGRect bounds;
-@property(readonly, nonatomic) _Bool crossfadeOnDismissal;
-@property(retain, nonatomic) UIBezierPath *customShape; // @synthesize customShape=_customShape;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long direction; // @synthesize direction=_direction;
 @property(retain, nonatomic) _UIContainerWindowPortalInteraction *dotPortalInteraction; // @synthesize dotPortalInteraction=_dotPortalInteraction;
-@property(retain, nonatomic) UIView *dotView; // @synthesize dotView=_dotView;
-@property(readonly, nonatomic) struct CGRect dotViewFrame;
-@property(nonatomic, getter=isEngaged) _Bool engaged; // @synthesize engaged=_engaged;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool hiddenForLoupeAnimation; // @synthesize hiddenForLoupeAnimation=_hiddenForLoupeAnimation;
-@property(readonly, nonatomic) CDStruct_e1624b90 originShadow;
-@property(readonly, nonatomic) CDStruct_45cfb02b originShape;
-@property(readonly, nonatomic) UIView *originView;
-@property(nonatomic) _Bool portalsDotToContainerWindow; // @synthesize portalsDotToContainerWindow=_portalsDotToContainerWindow;
-@property(retain, nonatomic) UIView *stemView; // @synthesize stemView=_stemView;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic, getter=isVertical) _Bool vertical;
 
 @end
 

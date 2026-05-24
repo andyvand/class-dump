@@ -11,14 +11,13 @@
 @interface BPSMap : BMBookmarkablePublisher
 {
     id <BPSPublisher> _upstream;
-    CDUnknownBlockType _transform;
 }
 
 + (id);
 + (id);
 - (CDUnknownBlockType);
-- (id);
-- (void);
+- (id)setCenter: /* Error: Ran out of types for this method. */;
+- (void)remoteObjectProxyWithErrorHandler:(CDUnknownBlockType)arg1;
 - (id);
 - (id);
 - (void);
@@ -28,7 +27,6 @@
 - (id)× ;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType transform; // @synthesize transform=_transform;
 @property(readonly, nonatomic) id <BPSPublisher> upstream; // @synthesize upstream=_upstream;
 
 @end

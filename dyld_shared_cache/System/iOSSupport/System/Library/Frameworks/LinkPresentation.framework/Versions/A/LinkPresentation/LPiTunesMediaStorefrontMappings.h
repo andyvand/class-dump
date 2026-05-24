@@ -9,9 +9,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
-+ (_Bool);
-+ (id);
++ (id)supportsImagePaste;
++ (_Bool)startFetchingMetadataForURL:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
++ (id)sizeThatFits:attributedText:displayScale: /* Error: Ran out of types for this method. */;
 
 @end
 

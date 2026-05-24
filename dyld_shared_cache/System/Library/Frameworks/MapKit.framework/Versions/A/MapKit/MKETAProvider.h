@@ -4,37 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, GEOAutomobileOptions, GEOCyclingOptions, GEOTransitOptions, GEOWalkingOptions, MKMapItem, NSHashTable, NSLock, NSNumber, NSString, NSTimer, _MKQuickRouteManager;
-@protocol GEOTransitLineItem, MKETAProviderDelegate, _MKPlaceItem;
+@class NSHashTable, _MKQuickRouteManager;
 
 @interface MKETAProvider
 {
     _MKQuickRouteManager *_quickRouteManager;
-    NSNumber *_lastTransportTypeFound;
-    MKMapItem *_nearestStationItem;
-    _Bool _distanceOrETAIsSuppressed;
-    _Bool _distanceOrETAWasFound;
-    NSString *_distanceTextItem;
-    NSString *_rawDistanceString;
-    double _distance;
-    unsigned long long _etaTransportType;
-    double _etaTravelTime;
-    _Bool _active;
-    _Bool _paused;
-    _Bool _inactiveInBackground;
-    NSTimer *_refreshTimer;
-    _Bool _allowsDistantETA;
-    CLLocation *_currentLocation;
-    id <MKETAProviderDelegate> _delegate;
-    GEOAutomobileOptions *_automobileOptions;
-    GEOWalkingOptions *_walkingOptions;
-    GEOTransitOptions *_transitOptions;
-    GEOCyclingOptions *_cyclingOptions;
-    MKMapItem *_mapItem;
-    id <_MKPlaceItem> _placeItem;
-    id <GEOTransitLineItem> _lineItem;
-    NSHashTable *_observers;
-    NSLock *_observersLock;
 }
 
 - (id);
@@ -54,35 +28,35 @@
 - (id);
 - (_Bool);
 - (void);
-- (double);
+- (double)^;
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void)d;
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)=;
+- (void)v;
+- (void))v;
+- (void)v;
 - (_Bool);
+- (void)ass %@ as exception for type %@;
+- (void)).;
 - (void);
 - (void);
+- (_Bool)&;
+- (void);
+- (id);
 - (void);
 - (void);
-- (_Bool);
+- (void)addAccountWithSource:(id)arg1 andPostDidChangeNotification: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)C9;
 - (void);
 - (void);
 - (void);
@@ -95,46 +69,20 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)?0@"<SLWebOAuth2TokenResponse>"8@"NSError"16;
 - (void);
 - (void);
 - (id);
 - (void)1Â0@ù
 × ;
-- (void)erOfReviewsIncludingProvider;
+- (void)formattedNumberOfReviewsIncludingProvider;
 - (void)zð{;
-- (void)Spa;
+- (void)MKPOICategorySpa;
 - (id)ê;
 - (id)ô\	;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsDistantETA; // @synthesize allowsDistantETA=_allowsDistantETA;
-@property(retain, nonatomic) GEOAutomobileOptions *automobileOptions; // @synthesize automobileOptions=_automobileOptions;
-@property(readonly, nonatomic) CLLocation *currentLocation; // @synthesize currentLocation=_currentLocation;
-@property(retain, nonatomic) GEOCyclingOptions *cyclingOptions; // @synthesize cyclingOptions=_cyclingOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MKETAProviderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double distance;
-@property(readonly, nonatomic) NSString *distanceString;
-@property(readonly, nonatomic) unsigned long long etaTransportType;
-@property(readonly, nonatomic) double etaTravelTime;
-@property(readonly, nonatomic) _Bool hasFoundDistanceOrETA;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isLikelyToReturnETA;
-@property(readonly, nonatomic) id <GEOTransitLineItem> lineItem; // @synthesize lineItem=_lineItem;
-@property(readonly, nonatomic) MKMapItem *mapItem; // @synthesize mapItem=_mapItem;
 @property(retain, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
-@property(retain, nonatomic) NSLock *observersLock; // @synthesize observersLock=_observersLock;
-@property(readonly, nonatomic) id <_MKPlaceItem> placeItem; // @synthesize placeItem=_placeItem;
-@property(readonly, nonatomic) NSString *rawDistanceString;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) GEOTransitOptions *transitOptions; // @synthesize transitOptions=_transitOptions;
-@property(readonly, nonatomic) NSNumber *transportTypePreferenceNumber;
-@property(retain, nonatomic) GEOWalkingOptions *walkingOptions; // @synthesize walkingOptions=_walkingOptions;
 
 @end
 

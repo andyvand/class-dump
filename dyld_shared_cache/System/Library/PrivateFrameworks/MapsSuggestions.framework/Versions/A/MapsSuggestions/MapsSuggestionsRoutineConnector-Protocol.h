@@ -5,8 +5,8 @@
 //
 
 @protocol MapsSuggestionsRoutineConnector
+- (void);
 - (void)ASYl0BwcdRv7LjLO4bLqOCmdgcCr59iQ/Library/Caches/com.apple.xbs/TemporaryDirectory.xZu52n/Sources/Maps/iOS/Suggestions/MapsSuggestionsTooFewVisitsFilter.m;
 - (void)¨;
-- (void);
 @end
 

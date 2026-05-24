@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalDAVOccurrenceChange, NSArray, NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface CalDAVScheduleChangesProperty
 {
     int _actionType;
-    NSString *_dateStamp;
-    NSString *_attendeeAddress;
-    CalDAVOccurrenceChange *_masterChange;
-    NSMutableDictionary *_occurrenceChanges;
 }
 
 + (id);
@@ -32,22 +28,13 @@
 - (id);
 - (id);
 - (_Bool);
-- (int);
+- (int)alItem:Couldn't find an REMReminder to set property {serverID=%@, iCalItem=%@, error=%{public}@, stack=%@}. /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(nonatomic) int actionType; // @synthesize actionType=_actionType;
-@property(retain, nonatomic) NSString *attendeeAddress; // @synthesize attendeeAddress=_attendeeAddress;
-@property(retain, nonatomic) NSString *dateStamp; // @synthesize dateStamp=_dateStamp;
-@property(readonly, nonatomic) _Bool isCancel;
-@property(readonly, nonatomic) _Bool isCreate;
-@property(readonly, nonatomic) _Bool isReply;
-@property(readonly, nonatomic) _Bool isUpdate;
-@property(retain, nonatomic) CalDAVOccurrenceChange *masterChange; // @synthesize masterChange=_masterChange;
 @property(retain, nonatomic) NSMutableDictionary *occurrenceChanges; // @synthesize occurrenceChanges=_occurrenceChanges;
-@property(readonly, nonatomic) NSArray *recurrenceIDs;
 
 @end
 

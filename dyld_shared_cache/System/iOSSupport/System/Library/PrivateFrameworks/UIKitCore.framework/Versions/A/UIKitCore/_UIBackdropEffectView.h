@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UIView.h>
 
-@class CABackdropLayer, NSString;
+@class CABackdropLayer;
 
 __attribute__((visibility("hidden")))
 @interface _UIBackdropEffectView : UIView
@@ -15,28 +15,20 @@ __attribute__((visibility("hidden")))
     double _zoom;
 }
 
-+ (Class);
-- (id);
++ (Class)_mediaLibraryArtworkType;
+- (id);
 - (void);
-- (id);
+- (id)P;
 - (_Bool)!¸Bù±_1Â0@ù
 × ;
-- (id)onPrecedenceArrayFromOperationPrecedence: /* Error: Ran out of types for this method. */;
-- (void)ry;
+- (id)operationPrecedenceArrayFromOperationPrecedence: /* Error: Ran out of types for this method. */;
+- (void)UIKBRenderFactory;
 - (double)%@; collection view:%@; number of sections:%ld /* Error: Ran out of types for this method. */;
 - (void)ion;
 - (void)0å|ÿ]-Ò;
 
 // Remaining properties
 @property(retain, nonatomic) CABackdropLayer *backdropLayer; // @synthesize backdropLayer=_backdropLayer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic) double zoom; // @synthesize zoom=_zoom;
 
 @end
 

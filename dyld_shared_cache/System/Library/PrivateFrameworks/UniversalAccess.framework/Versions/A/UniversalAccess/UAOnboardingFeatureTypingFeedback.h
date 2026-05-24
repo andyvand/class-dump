@@ -14,12 +14,12 @@ __attribute__((visibility("hidden")))
     NSImageView *__speechBubbleView;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)ded";
+- (void)ationEnded";
+- (void)1"quality"b1"answerClass"b1};
+- (id)tachmentIntelligenceFeatureUsage";
+- (void)itchFailureReason"b1"profileSwitchDurationInMs"b1};
+- (void)Reason"b1};
 - (_Bool);
 - (id);
 - (void);

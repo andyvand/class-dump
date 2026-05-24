@@ -6,8 +6,7 @@
 
 #import <HomeKitDaemon/_MKFHomeSetting.h>
 
-@class MKFHomeMediaSettingDatabaseID, NSDate, NSNumber, NSString, NSUUID;
-@protocol MKFHome;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface _MKFHomeMediaSetting : _MKFHomeSetting
@@ -22,28 +21,10 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFHomeMediaSettingDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSUUID *hmd_modelID;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSUUID",?,R,C,N
 
-@property(readonly, copy, nonatomic) NSUUID *hmd_parentModelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(readonly, retain, nonatomic) id <MKFHome> home;
-@property(copy, nonatomic) NSString *mediaPassword; // @dynamic mediaPassword;
-@property(copy, nonatomic) NSNumber *mediaPeerToPeerEnabled; // @dynamic mediaPeerToPeerEnabled;
-@property(copy, nonatomic) NSNumber *minimumMediaUserPrivilege; // @dynamic minimumMediaUserPrivilege;
-@property(readonly, copy, nonatomic) NSUUID *modelID;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 
 @end
 

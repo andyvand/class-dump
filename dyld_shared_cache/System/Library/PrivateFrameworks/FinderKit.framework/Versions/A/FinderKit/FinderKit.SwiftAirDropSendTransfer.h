@@ -9,30 +9,21 @@
 @interface FinderKit.SwiftAirDropSendTransfer
 {
     id logger;
-    id airDropClient;
-    id sendTransfer;
-    id handler;
-    void transferIdentifier;
-    void endpointIdentifier;
-    id baseDictionary;
-    id progressTask;
 }
 
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (long long);
+- (long long)t;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSUUID *endpointIdentifier;
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic, readonly) NSUUID *transferIdentifier;
 
 @end

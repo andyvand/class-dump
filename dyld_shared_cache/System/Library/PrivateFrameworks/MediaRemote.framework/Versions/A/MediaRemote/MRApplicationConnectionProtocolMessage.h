@@ -6,19 +6,18 @@
 
 #import <MediaRemote/MRProtocolMessage.h>
 
-@class MRApplicationConnectionContext, MRApplicationConnectionMessage;
+@class MRApplicationConnectionMessage;
 
 @interface MRApplicationConnectionProtocolMessage : MRProtocolMessage
 {
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long)ages.IMMetricsCollectorEventIMessageSentMessageSingleComponent;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) MRApplicationConnectionContext *context;
 @property(readonly, nonatomic) MRApplicationConnectionMessage *message;
 
 @end

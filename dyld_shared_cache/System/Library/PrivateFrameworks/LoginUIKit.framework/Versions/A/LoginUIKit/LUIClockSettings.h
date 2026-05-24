@@ -4,28 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface LUIClockSettings
 {
     _Bool _isReadWrite;
-    NSMutableDictionary *_clockSettings;
-    NSString *_guid;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void))O;
 - (void);
 - (void);
 - (id);
 - (id);
 - (double);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)P;
 - (id);
 - (id);
 - (id);
@@ -34,20 +32,12 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain) NSString *bigClockFontIdentifier;
-@property(readonly) NSString *bigClockFontName;
-@property double bigClockFontWeight;
 @property(retain) NSMutableDictionary *clockSettings; // @synthesize clockSettings=_clockSettings;
-@property(readonly) NSString *guid; // @synthesize guid=_guid;
-@property(readonly) _Bool isReadWrite; // @synthesize isReadWrite=_isReadWrite;
-@property(retain) NSString *numberingSystem;
-@property _Bool shows24HourTime;
-@property _Bool showsBigClock;
 
 @end
 

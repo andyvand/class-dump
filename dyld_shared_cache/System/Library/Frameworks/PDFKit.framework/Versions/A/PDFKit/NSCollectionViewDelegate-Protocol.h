@@ -4,6 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSCollectionView, NSCollectionViewTransitionLayout, NSImage, NSSet;
+@protocol NSDraggingInfo, NSPasteboardWriting;
+
 @protocol NSCollectionViewDelegate
+
+@optional
+- (_Bool)Dictionary"16@?0@"HMMatterCommand"8;
+- (_Bool)uilder:(NSCollectionView *)arg1 completionHandler:(NSSet *)arg2 ];
+- (unsigned long long)s:(NSCollectionView *)arg1 completionHandler:(id <NSDraggingInfo>)arg2 ];
+- (unsigned long long)ateEvents:(NSCollectionView *)arg1 completionHandler:(id <NSDraggingInfo>)arg2 ];
+- (void)dEvent:(NSCollectionView *)arg1 completionHandler:(id <NSDraggingInfo>)arg2 ];
+- (NSSet *)eEvent:(NSCollectionView *)arg1 completionHandler:(NSSet *)arg2 ];
+- (NSSet *)iggerBuilder addEndEvent:(NSCollectionView *)arg1 completionHandler:(NSSet *)arg2 ];
+- (id <NSPasteboardWriting>)entTriggerBuilder addEvent:(NSCollectionView *)arg1 completionHandler:(unsigned long long)arg2 ];
+- (NSArray *)r addEvent:(NSCollectionView *)arg1 ];
+- (NSArray *)ionHandler:(NSCollectionView *)arg1 ];
+- (void)fset within clip;
+- (void)missioner;
+- (void)ndor;
+- (NSImage *)requiresPassword;
+- (void)ints && ([points count] > 2);
+- (_Bool)4@?0@"HMAccessory"8^B16;
+- (_Bool)t = %@>;
+- (_Bool)n"8;
+- (NSCollectionViewTransitionLayout *);
 @end
 

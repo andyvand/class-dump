@@ -7,15 +7,6 @@
 @interface PKProtobufRecurringPaymentSummaryItem
 {
     double _endDate;
-    double _startDate;
-    unsigned int _intervalCount;
-    unsigned int _intervalUnit;
-    struct {
-        unsigned int endDate:1;
-        unsigned int startDate:1;
-        unsigned int intervalCount:1;
-        unsigned int intervalUnit:1;
-    } _has;
 }
 
 - (void);
@@ -31,28 +22,21 @@
 - (void);
 - (unsigned long long);
 - (double);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool):%{public}@, group.groupID:%{public}@} /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (double);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (_Bool)_ADDRESS_ERROR_TITLE;
-- (void)tionName;
+- (_Bool)PEER_PAYMENT_AMBIGUOUS_SENDER_ADDRESS_ERROR_TITLE;
+- (void)brandHeroImageAttributionName;
 
 // Remaining properties
-@property(nonatomic) double endDate; // @synthesize endDate=_endDate;
-@property(nonatomic) _Bool hasEndDate;
-@property(nonatomic) _Bool hasIntervalCount;
-@property(nonatomic) _Bool hasIntervalUnit;
 @property(nonatomic) _Bool hasStartDate;
-@property(nonatomic) unsigned int intervalCount; // @synthesize intervalCount=_intervalCount;
-@property(nonatomic) unsigned int intervalUnit; // @synthesize intervalUnit=_intervalUnit;
-@property(nonatomic) double startDate; // @synthesize startDate=_startDate;
 
 @end
 

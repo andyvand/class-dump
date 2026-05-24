@@ -7,12 +7,12 @@
 @class _INPBDataString, _INPBIntentMetadata;
 
 @protocol _INPBGetCarPowerLevelStatusIntent
-- (_Bool)gObject: /* Error: Ran out of types for this method. */;
+- (_INPBDataString *)compressed_size) < UINT32_MAX;
+- (_INPBIntentMetadata *)ces/backupd/TimeMachine-Framework/Structure/TMStructureMetadata.m;
+- (void);
+- (_Bool)arrayByAddingObject: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBDataString *carName;
-@property(readonly, nonatomic) _Bool hasCarName;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
 @end
 

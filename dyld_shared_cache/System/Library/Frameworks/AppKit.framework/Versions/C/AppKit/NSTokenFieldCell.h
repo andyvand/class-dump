@@ -7,59 +7,38 @@
 #import <AppKit/NSTextFieldCell.h>
 
 @class NSCharacterSet;
-@protocol NSTokenFieldCellDelegate;
 
 @interface NSTokenFieldCell : NSTextFieldCell
 {
     NSCharacterSet *_tokenizingCharacterSet;
-    id _delegate;
-    double _completionDelay;
-    id _cache;
-    id _defaultTerminator;
-    id _trackingArea;
-    id _lastCell;
-    id _lastTextViewportElementView;
-    struct CGRect _lastCellFrame;
-    _Bool *_autoCompleteCancel;
-    struct {
-        unsigned int _style:4;
-        unsigned int _invalidCache:1;
-        unsigned int _inDidChange:1;
-        unsigned int _validationDisabled:1;
-        unsigned int _reserved1:1;
-        unsigned int _autoCompleteMode:2;
-        unsigned int _inValidateEditing:1;
-        unsigned int _performingDrop:1;
-        unsigned int _reserved:20;
-    } _tfcFlags;
 }
 
 + (id);
 + (double);
 + (void)°OH;
+- (void)Sr1Bmb3uoIfgKyaZguG0Gw;
+- (id)pMeQxE5szZTjLMk10TisDQ;
+- (_Bool)9g;
+- (id)UCG5MkVahJxG1YULbbd5Bg;
+- (id)53kulmA;
+- (id)Fe55gxpfp6SByfqjASqF5A;
+- (_Bool)2tBx5IzZX4CpUVJ79LfsVg;
+- (unsigned long long)CoIqAWn/J97g;
+- (id)pple.springboard.green-tea-changed;
+- (_Bool)AJFQheZDyUbvI6RmBMT9Cg;
+- (id)ibhfX8FQ6b809N632Ey98g;
+- (struct _NSRange)iZYKNjRASM6ntnQ;
+- (id)tbHw;
+- (id)xZ/ZwO007CLcEYvZw;
 - (void);
 - (id);
-- (_Bool);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (struct _NSRange);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct _NSRange);
 - (void);
 - (id);
 - (id);
@@ -68,7 +47,7 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)n is not yet valid;
 - (_Bool);
 - (id);
 - (id);
@@ -80,33 +59,34 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (void)ring>, CoalescingConnectionKeyComparator, std:(_Bool)arg1:allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_requestHostToConnectionKey"{map<std::string, std::shared_ptr<__CoalescingConnectionKey>, std::less<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__tree_"{__tree<std::__value_type<std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::__map_value_compare<std::string, std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllRequestHosts"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (void)unarchivedObjectOfClass:(id)arg1 fromData:error: /* Error: Ran out of types for this method. */;
+- (id)resourceLoaderRunLoop;
+- (id)backgroundTask:(id)arg1 didReceiveResponse:(id)arg2 transactionMetrics:(struct _NSRange)arg3 reply: /* Error: Ran out of types for this method. */;
+- (_Bool)_prohibitAuthUI;
+- (_Bool)CF request from an HTTP message.;
+- (id)alidated;
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (double);
-- (id);
-- (_Bool);
 - (void);
 - (_Bool);
+- (id)];
+- (double)expiresDate:%@
+ /* Error: Ran out of types for this method. */;
+- (id)CopyCredentials;
+- (_Bool)@, flags = %p };
+- (void);
+- (_Bool);
 - (void);
+- (id)`"�;
 - (id);
 - (id);
-- (id);
+- (void)_rowArrayForBlock:(id)arg1 atIndex:text:layoutManager:containerWidth:withRepetitions:collapseBorders:rowCharRange:indexInRow:startingRow:startingColumn:previousRowBlockHelper: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void)illTransitionFromLayout:(id)arg1 toLayout: /* Error: Ran out of types for this method. */;
-- (void);
-- (id)ributeSettable;
-- (void)intColorForColor:(id)arg1;
+- (void)willTransitionFromLayout:(id)arg1 toLayout: /* Error: Ran out of types for this method. */;
+- (void)barMaterial;
+- (id)accessibilityIsParentAttributeSettable;
+- (void)_normalizedBezelTintColorForColor:(id)arg1;
 - (void)w;
 - (void)he initialized eventCount (%lu);
 - (void)convertToFullWidth:(unsigned long long)arg1;
@@ -115,10 +95,7 @@
 - (void)h\ã?;
 
 // Remaining properties
-@property double completionDelay;
-@property __weak id <NSTokenFieldCellDelegate> delegate;
 @property unsigned long long tokenStyle;
-@property(copy) NSCharacterSet *tokenizingCharacterSet;
 
 @end
 

@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface MLCDeviceANE
 {
     int _deviceType;
-    NSArray *_deviceList;
 }
 
 + (_Bool);
 - (void);
+- (void)7;
 - (void);
-- (void);
-- (void);
+- (void)];
 - (id);
 - (_Bool);
 - (void);
@@ -26,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -34,7 +31,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -47,11 +44,11 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)c;
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)	;
 - (id);
 - (void);
 - (void);
@@ -79,6 +76,16 @@
 - (id);
 - (id);
 - (id);
+- (id)J;
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -86,16 +93,6 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -112,19 +109,19 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)7;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)g;
 - (void);
 - (void);
 - (void);
@@ -154,9 +151,9 @@
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -168,18 +165,10 @@
 - (id);
 - (int);
 - (id);
-- (void);
+- (void)rceMatrixOrigin.y;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *deviceList; // @synthesize deviceList=_deviceList;
-@property(readonly, nonatomic) int deviceType; // @synthesize deviceType=_deviceType;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,11 +7,6 @@
 @interface CNKHUDActivityManager
 {
     id displayResolver;
-    id features;
-    id _bannerPresentationManager;
-    id presentedActivity;
-    id updates;
-    id activities;
 }
 
 + (id);

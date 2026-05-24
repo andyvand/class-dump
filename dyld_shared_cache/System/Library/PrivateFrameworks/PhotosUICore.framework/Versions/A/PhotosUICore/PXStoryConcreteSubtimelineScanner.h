@@ -4,41 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexSet, NSMutableArray, PXStoryMultipartPanoramaParameters, PXStoryMutableConcreteTimeline, PXStoryResourcesDataSource;
-@protocol PXStoryTimelineScorer, PXStoryTimelineSpec, PXStoryTimelineStyle;
+@class PXStoryResourcesDataSource;
 
 @interface PXStoryConcreteSubtimelineScanner
 {
     CDStruct_0b735c3a _clipCompositionContext;
-    unsigned long long _productionOptions;
-    long long _initialResourceIndex;
-    long long _nextResourceIndex;
-    long long _numberOfResources;
-    _Bool _firstDisplayAssetIsSameAsKey;
-    PXStoryMutableConcreteTimeline *_subtimelineWithClipComposition;
-    PXStoryMutableConcreteTimeline *_bestSubtimeline;
-    PXStoryMutableConcreteTimeline *_candidateSubtimeline;
-    PXStoryMutableConcreteTimeline *_precedingSubtimeline;
-    PXStoryMutableConcreteTimeline *_precedingSubtimelineWithCandidateSubtimeline;
-    PXStoryMutableConcreteTimeline *_precedingSubtimelineWithCandidateAndSubsequentSubtimelines;
-    PXStoryMutableConcreteTimeline *_subtimelineWithRemainingClips;
-    PXStoryMutableConcreteTimeline *_emptySubtimeline;
-    NSIndexSet *_originalPlaybackStylesAllowedInNUp;
-    long long *_nUpPlaybackStyleMapping;
-    NSMutableArray *_reusableDisplayAssetInfos;
-    CDStruct_f7388bc9 _noKenBurnsEffectParameters[3];
-    CDStruct_bb38be21 _defaultDurationInfo;
-    long long _maximumNumberOfTitleTextResourceIndexes;
-    long long *_titleTextResourceIndexes;
-    PXStoryMultipartPanoramaParameters *_defaultHorizontalMultipartPanoramaParameters;
-    PXStoryMultipartPanoramaParameters *_defaultVerticalMultipartPanoramaParameters;
-    double _minimumAspectRatioForHorizontalMultipartPanorama;
-    double _maximumAspectRatioForVerticalMultipartPanorama;
-    PXStoryResourcesDataSource *_resourcesDataSource;
-    id <PXStoryTimelineSpec> _spec;
-    id <PXStoryTimelineStyle> _timelineStyle;
-    id <PXStoryTimelineScorer> _timelineScorer;
-    NSArray *_randomNumberGenerators;
 }
 
 - (id);
@@ -48,10 +18,10 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id){;
 - (long long);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -61,25 +31,17 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)_֞;
 - (_Bool);
-- (void);
+- (void)rejectedPassingRules;
 - (id);
 - (id);
 - (void)back to Photos with a auto-lock timer running but was requested explicitly, so not interrupting the timer.;
 - (void);
-- (CDStruct_777fda0b)tManager;
+- (CDStruct_777fda0b)InvitationsItemListManager;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isAtBeginning;
-@property(readonly, nonatomic) _Bool isAtEnd;
-@property(readonly, nonatomic) long long numberOfRemainingResources;
-@property(readonly, nonatomic) NSArray *randomNumberGenerators; // @synthesize randomNumberGenerators=_randomNumberGenerators;
 @property(readonly, nonatomic) PXStoryResourcesDataSource *resourcesDataSource; // @synthesize resourcesDataSource=_resourcesDataSource;
-@property(nonatomic) CDStruct_777fda0b scanState;
-@property(readonly, nonatomic) id <PXStoryTimelineSpec> spec; // @synthesize spec=_spec;
-@property(readonly, nonatomic) id <PXStoryTimelineScorer> timelineScorer; // @synthesize timelineScorer=_timelineScorer;
-@property(readonly, nonatomic) id <PXStoryTimelineStyle> timelineStyle; // @synthesize timelineStyle=_timelineStyle;
 
 @end
 

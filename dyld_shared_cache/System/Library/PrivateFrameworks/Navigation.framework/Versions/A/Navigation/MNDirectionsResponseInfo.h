@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEODirectionsError, GEODirectionsRequest, GEODirectionsResponse, MNTraceRecordingData, NSArray, NSError;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface MNDirectionsResponseInfo
 {
     NSArray *_routeInfos;
-    GEODirectionsRequest *_request;
-    GEODirectionsResponse *_response;
-    NSError *_error;
-    GEODirectionsError *_directionsError;
-    MNTraceRecordingData *_traceRecordingData;
 }
 
 + (_Bool);
-- (id);
+- (id)EffectiveFormStyle;
 - (void);
 - (void);
 - (id);
@@ -29,18 +24,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)iCloudAccountFeatureEligibilityRequest;
 - (void);
 - (void);
 - (void)ry"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) GEODirectionsError *directionsError; // @synthesize directionsError=_directionsError;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(retain, nonatomic) GEODirectionsRequest *request; // @synthesize request=_request;
-@property(retain, nonatomic) GEODirectionsResponse *response; // @synthesize response=_response;
 @property(retain, nonatomic) NSArray *routeInfos; // @synthesize routeInfos=_routeInfos;
-@property(retain, nonatomic) MNTraceRecordingData *traceRecordingData; // @synthesize traceRecordingData=_traceRecordingData;
 
 @end
 

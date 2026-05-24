@@ -4,28 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DRSCKConfig, DRSCKConfigStore, DRSCloudKitHelper, DRSDampeningManager, DRSTaskingManager, NSMutableDictionary, NSNumber, NSObject, NSPersistentContainer;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore, OS_xpc_object;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface DRSService
 {
     unsigned char _state;
-    unsigned long long _maxSingleSessionUploadSizeInBytes;
-    NSObject<OS_dispatch_queue> *_messageQueue;
-    NSObject<OS_dispatch_queue> *_cloudKitQueue;
-    NSObject<OS_dispatch_queue> *_uploadRequestLookupQueue;
-    NSObject<OS_dispatch_queue> *_postReceiptWorkQueue;
-    NSObject<OS_dispatch_queue> *_configurationSyncQueue;
-    NSObject<OS_xpc_object> *_serviceConnection;
-    NSObject<OS_dispatch_semaphore> *_serviceDeactivatedSem;
-    NSMutableDictionary *_connectionToState;
-    NSPersistentContainer *_serviceContainer;
-    DRSDampeningManager *_dampeningManager;
-    DRSTaskingManager *_taskingManager;
-    DRSCloudKitHelper *_ckHelper;
-    DRSCKConfigStore *_ckConfigStore;
-    DRSCKConfig *_ckConfig;
-    NSMutableDictionary *_configDict;
 }
 
 + (_Bool);
@@ -42,45 +26,45 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-- (void);
++ (id)clients;
++ (id);
+- (void)`;
 - (void);
 - (void);
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (id);
+- (_Bool)window:startCustomAnimationToEnterFullScreenWithDuration: /* Error: Ran out of types for this method. */;
+- (void)textView:(id)arg1 writeCell:(id)arg2 atIndex:toPasteboard:type: /* Error: Ran out of types for this method. */;
+- (id)rangeForUserCompletionInFieldEditor:(id)arg1;
+- (unsigned long long)UseTextSize;
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
+- (id)blockToPerformAfterRequestingInUseAuthorization;
 - (double);
+- (void)isEditing;
+- (_Bool)autoCategorizationFeedbackSubject;
+- (id)w;
+- (void);
+- (void);
+- (void);
+- (id)P;
+- (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (unsigned int);
 - (void);
 - (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (unsigned int);
-- (void);
-- (void);
-- (void);
+- (void) S;
 - (void);
 - (void);
 - (void);
@@ -90,12 +74,12 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)(;
 - (id);
 - (id);
 - (void);
@@ -120,47 +104,27 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)G;
+- (void)@;
+- (id).;
+- (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)WFSevereWeatherEventURLKey;
 - (void);
 - (void);
+- (_Bool)_;
 - (void);
 - (void);
-- (id)ampleConfiguration;
-- (id)t;
+- (void);
+- (void);
+- (id)libtraceLoggingSampleConfiguration;
+- (id)decisionResultsCount;
 - (void)d to save new config to disk due to error:%{public}@ /* Error: Ran out of types for this method. */;
 - (id)upload session of %{public}llu requests;
 - (id)onfig;
 
 // Remaining properties
-@property(readonly, nonatomic) DRSCKConfig *ckConfig; // @synthesize ckConfig=_ckConfig;
-@property(readonly, nonatomic) DRSCKConfigStore *ckConfigStore; // @synthesize ckConfigStore=_ckConfigStore;
-@property(readonly, nonatomic) DRSCloudKitHelper *ckHelper; // @synthesize ckHelper=_ckHelper;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *cloudKitQueue; // @synthesize cloudKitQueue=_cloudKitQueue;
-@property(readonly, nonatomic) NSMutableDictionary *configDict; // @synthesize configDict=_configDict;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *configurationSyncQueue; // @synthesize configurationSyncQueue=_configurationSyncQueue;
-@property(readonly, nonatomic) NSMutableDictionary *connectionToState; // @synthesize connectionToState=_connectionToState;
-@property(readonly, nonatomic) DRSDampeningManager *dampeningManager; // @synthesize dampeningManager=_dampeningManager;
-@property(retain, nonatomic) NSNumber *ignoreAutomatedDeviceGroup;
-@property(readonly, nonatomic) _Bool isEnabled;
-@property(retain, nonatomic) NSNumber *isEnabledOverride;
-@property(readonly, nonatomic) unsigned long long maxSingleSessionUploadSizeInBytes; // @synthesize maxSingleSessionUploadSizeInBytes=_maxSingleSessionUploadSizeInBytes;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *messageQueue; // @synthesize messageQueue=_messageQueue;
-@property(readonly, nonatomic) unsigned long long monthlyUploadQuotaBytes;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *postReceiptWorkQueue; // @synthesize postReceiptWorkQueue=_postReceiptWorkQueue;
-@property(readonly, nonatomic) NSObject<OS_xpc_object> *serviceConnection; // @synthesize serviceConnection=_serviceConnection;
-@property(readonly, nonatomic) NSPersistentContainer *serviceContainer; // @synthesize serviceContainer=_serviceContainer;
-@property(readonly, nonatomic) NSObject<OS_dispatch_semaphore> *serviceDeactivatedSem; // @synthesize serviceDeactivatedSem=_serviceDeactivatedSem;
-@property(readonly, nonatomic) unsigned char state; // @synthesize state=_state;
-@property(readonly, nonatomic) DRSTaskingManager *taskingManager; // @synthesize taskingManager=_taskingManager;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *uploadRequestLookupQueue; // @synthesize uploadRequestLookupQueue=_uploadRequestLookupQueue;
 
 @end
 

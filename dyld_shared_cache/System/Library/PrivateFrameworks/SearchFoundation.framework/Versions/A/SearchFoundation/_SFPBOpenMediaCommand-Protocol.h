@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBMediaMetadata;
+@class NSData, _SFPBMediaMetadata;
 
 @protocol _SFPBOpenMediaCommand
+- (void)_;
+- (NSData *)@"NSString",R,N,V_localCloudIdentifier;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *clientSelectedBundleIdentifier;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBMediaMetadata *mediaMetadata;
 @end
 

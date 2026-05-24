@@ -6,47 +6,38 @@
 
 #import <AppKit/NSView.h>
 
-@class NSBox, NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface NSVisualTabPickerShadowTileView : NSView
 {
     NSView *_sidebarView;
-    NSView *_titlebarView;
-    NSView *_borderView;
-    NSMutableArray *_sidebarAndTitlebarAnimations;
-    NSView *_containerView;
-    NSBox *_headerBackgroundView;
 }
 
 + (double);
-- (void);
-- (void);
+- (void)fo but returned no error;
+- (void)RingerButtonCGRect;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)b=;
+- (void)N;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id)eEntries;
+- (void)NSt3__110__function6__baseIFvP11FINodeEventEEE;
+- (id)shortcutServiceEntries;
 - (void)attempt to set attribute "%@" of element %@ to unsupported type of value:%@. /* Error: Ran out of types for this method. */;
 - (id);
 - (void)ÿ¹ÝÌ~B;
 
 // Remaining properties
-@property(readonly) NSView *borderView; // @synthesize borderView=_borderView;
 @property(readonly) NSView *containerView; // @synthesize containerView=_containerView;
-@property(readonly) NSBox *headerBackgroundView; // @synthesize headerBackgroundView=_headerBackgroundView;
 
 @end
 

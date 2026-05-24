@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMCContext, HMDHome, HMFMessageDispatcher, NSObject, NSString, NSURL, NSUUID;
-@protocol HMDPersonSettingsManagerDependencyFactory, OS_dispatch_queue;
+@class HMDHome;
 
 __attribute__((visibility("hidden")))
 @interface HMDPersonSettingsManager
 {
     HMDHome *_home;
-    HMCContext *_backingStoreContext;
-    HMFMessageDispatcher *_messageDispatcher;
-    id <HMDPersonSettingsManagerDependencyFactory> _dependencyFactory;
-    NSUUID *_UUID;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 + (id);
 + (id)B;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)eElevationModelToLegacyEGM96 early exit:(id)arg1 no composed route;
+- (id)ata changed, schedule reload of blocked identifiers;
+- (id).;
 - (id);
 - (_Bool);
 - (void);
@@ -31,41 +25,23 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
-- (id);
+- (id)e;
 - (id);
 - (id)1Â0@ù
 × ;
 - (void)àÜ;
 - (id)ublic}@ on service:%@ /* Error: Ran out of types for this method. */;
 - (void)essage message:%@ /* Error: Ran out of types for this method. */;
-- (void)til;
+- (void)tvsetuputil;
 - (id)000-1000-8000-0026BB765291;
 - (void)ÿ;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(readonly) HMCContext *backingStoreContext; // @synthesize backingStoreContext=_backingStoreContext;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) id <HMDPersonSettingsManagerDependencyFactory> dependencyFactory; // @synthesize dependencyFactory=_dependencyFactory;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly) HMFMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly) NSURL *personSettingsManagerMigrationFileURL;
-@property(readonly) Class superclass;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

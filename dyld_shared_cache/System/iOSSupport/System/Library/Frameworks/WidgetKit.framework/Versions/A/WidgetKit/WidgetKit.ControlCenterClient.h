@@ -7,7 +7,6 @@
 @interface WidgetKit.ControlCenterClient
 {
     id _queue;
-    id _queue_connection;
 }
 
 @end

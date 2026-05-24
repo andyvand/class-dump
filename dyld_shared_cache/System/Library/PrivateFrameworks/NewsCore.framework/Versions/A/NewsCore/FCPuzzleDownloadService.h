@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (id);
-- (id)ry;
+- (id)_languageConfigDictionary;
 - (void)eldsparcore/Classes/FCHeadline.m;
 
 // Remaining properties

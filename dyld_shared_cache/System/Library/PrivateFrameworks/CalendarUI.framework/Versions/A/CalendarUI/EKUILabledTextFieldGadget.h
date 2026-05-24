@@ -6,14 +6,11 @@
 
 #import <CalendarUI/EKUILabeledGadget.h>
 
-@class EKUIResizingTextField, NSMutableArray, NSString, NSView;
+@class EKUIResizingTextField;
 
 @interface EKUILabledTextFieldGadget : EKUILabeledGadget
 {
     EKUIResizingTextField *_textField;
-    EKUIResizingTextField *_baselineField;
-    NSView *_container;
-    NSMutableArray *_textConstraints;
 }
 
 - (id);
@@ -21,32 +18,22 @@
 - (void);
 - (double);
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (void);
 - (id);
 - (id);
-- (double);
+- (double)IC;
 - (id);
 - (void);
 - (id);
 - (void);
 - (void)Ô ;
-- (_Bool)w:(id)arg1;
+- (_Bool)setDragView:(id)arg1;
 - (void)te result;
 
 // Remaining properties
 @property(retain) EKUIResizingTextField *baselineField; // @synthesize baselineField=_baselineField;
-@property(retain) NSView *container; // @synthesize container=_container;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain) NSMutableArray *textConstraints; // @synthesize textConstraints=_textConstraints;
-@property(retain) EKUIResizingTextField *textField; // @synthesize textField=_textField;
 
 @end
 

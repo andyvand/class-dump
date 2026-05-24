@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (float);
-+ (unsigned int);
++ (unsigned int)ate=}24;
 + (unsigned long long);
 + (id);
 + (id);
@@ -23,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void)ace analyzer multi-detector;
 
 @end

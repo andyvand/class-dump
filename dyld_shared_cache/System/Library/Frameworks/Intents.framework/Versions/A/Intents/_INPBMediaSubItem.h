@@ -9,8 +9,6 @@
 @interface _INPBMediaSubItem
 {
     struct _has;
-    NSString *_assetInfo;
-    NSString *_identifier;
 }
 
 + (_Bool);
@@ -22,26 +20,16 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void)ple;
+- (void)SaveHealthSample;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *assetInfo; // @synthesize assetInfo=_assetInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasAssetInfo;
-@property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) Class superclass;
 
 @end
 

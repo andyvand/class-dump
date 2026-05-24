@@ -7,9 +7,9 @@
 @class PGPeopleWallpaperSuggesterFilteringContext;
 
 @protocol PGPeopleWallpaperSuggesterProtocol
+- (PGPeopleWallpaperSuggesterFilteringContext *);
 
 // Remaining properties
 @property(retain, nonatomic) PGPeopleWallpaperSuggesterFilteringContext *primaryFilteringContext;
-@property(retain, nonatomic) PGPeopleWallpaperSuggesterFilteringContext *secondaryFilteringContext;
 @end
 

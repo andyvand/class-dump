@@ -4,41 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSImage, NSNumber, NSString;
+@class NSString;
 
 @interface AMPDevice
 {
     _Bool _ejectable;
-    _Bool _needsPairing;
-    _Bool _needsUnlock;
-    _Bool _wifiConnected;
-    unsigned short _familyID;
-    NSString *_deviceName;
-    NSString *_deviceIdentifier;
-    NSString *_deviceClass;
-    NSString *_productType;
-    NSString *_marketingName;
-    NSString *_productVersion;
-    NSString *_buildVersion;
-    NSString *_userSerialNumber;
-    NSString *_uniqueIdentifier;
-    NSNumber *_ecid;
-    NSString *_deviceUTI;
-    NSImage *_deviceImage;
-    NSImage *_sidebarIcon;
-    NSData *_sidebarIconSuite;
-    NSString *_sidebarSymbolName;
-    unsigned long long _deviceType;
-    unsigned long long _deviceMode;
-    NSNumber *_totalDataCapacity;
-    NSString *_color;
-    NSString *_enclosureColor;
 }
 
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (id);
@@ -57,15 +33,15 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
+- (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)updateSpringsForFramingCamera;
 - (id);
 - (unsigned short);
 - (id);
@@ -75,22 +51,22 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)@;
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)?1;
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
+- (id)_;
+- (id): /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)';
+- (void)`;
 - (void);
 - (void);
 - (id);
@@ -100,34 +76,7 @@
 - (void)Æÿÿ9í_W;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *buildVersion; // @synthesize buildVersion=_buildVersion;
-@property(retain, nonatomic) NSString *color; // @synthesize color=_color;
-@property(retain, nonatomic) NSString *deviceClass; // @synthesize deviceClass=_deviceClass;
-@property(retain, nonatomic) NSString *deviceIdentifier; // @synthesize deviceIdentifier=_deviceIdentifier;
-@property(retain, nonatomic) NSImage *deviceImage; // @synthesize deviceImage=_deviceImage;
-@property(nonatomic) unsigned long long deviceMode; // @synthesize deviceMode=_deviceMode;
 @property(retain, nonatomic) NSString *deviceName; // @synthesize deviceName=_deviceName;
-@property(nonatomic) unsigned long long deviceType; // @synthesize deviceType=_deviceType;
-@property(retain, nonatomic) NSString *deviceUTI; // @synthesize deviceUTI=_deviceUTI;
-@property(retain, nonatomic) NSNumber *ecid; // @synthesize ecid=_ecid;
-@property(nonatomic, getter=isEjectable) _Bool ejectable; // @synthesize ejectable=_ejectable;
-@property(retain, nonatomic) NSString *enclosureColor; // @synthesize enclosureColor=_enclosureColor;
-@property(nonatomic) unsigned short familyID; // @synthesize familyID=_familyID;
-@property(readonly, nonatomic) _Bool isClassicIPodDeviceType;
-@property(readonly, nonatomic) _Bool isIOSDeviceType;
-@property(readonly, nonatomic) _Bool isIPodShuffleDeviceType;
-@property(retain, nonatomic) NSString *marketingName; // @synthesize marketingName=_marketingName;
-@property(nonatomic) _Bool needsPairing; // @synthesize needsPairing=_needsPairing;
-@property(nonatomic) _Bool needsUnlock; // @synthesize needsUnlock=_needsUnlock;
-@property(retain, nonatomic) NSString *productType; // @synthesize productType=_productType;
-@property(retain, nonatomic) NSString *productVersion; // @synthesize productVersion=_productVersion;
-@property(retain, nonatomic) NSImage *sidebarIcon; // @synthesize sidebarIcon=_sidebarIcon;
-@property(retain, nonatomic) NSData *sidebarIconSuite; // @synthesize sidebarIconSuite=_sidebarIconSuite;
-@property(retain, nonatomic) NSString *sidebarSymbolName; // @synthesize sidebarSymbolName=_sidebarSymbolName;
-@property(retain, nonatomic) NSNumber *totalDataCapacity; // @synthesize totalDataCapacity=_totalDataCapacity;
-@property(retain, nonatomic) NSString *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
-@property(retain, nonatomic) NSString *userSerialNumber; // @synthesize userSerialNumber=_userSerialNumber;
-@property(nonatomic, getter=isWiFiConnected) _Bool wifiConnected; // @synthesize wifiConnected=_wifiConnected;
 
 @end
 

@@ -19,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (CDStruct_1ef3fb1f);
-- (id);
+- (id);
 - (void);
 - (id),&,N,V_delegate;
 

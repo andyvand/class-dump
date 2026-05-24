@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSString, UIAccessibilityHUDItem, UIStackView;
+@class UIStackView;
 
 __attribute__((visibility("hidden")))
 @interface _UIStatusBarMultilineStringView : UIView
@@ -18,45 +18,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id)eLayers;
+- (id)_keyboardSceneLayers;
 - (id)adding child view controller;
-- (id)BarsOnSwipe;
+- (id)UINavigationControllerCondensesBarsOnSwipe;
 - (void);
 - (void)LR0;
 - (long long);
 - (void)ï¡ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) UIAccessibilityHUDItem *accessibilityHUDRepresentation;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIAccessibilityHUDItem",?,R,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long numberOfLines; // @synthesize numberOfLines=_numberOfLines;
-@property(readonly, nonatomic) long long overriddenVerticalAlignment;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) _Bool prefersBaselineAlignment;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool prefersCenterVerticalAlignment;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(retain, nonatomic) UIStackView *stackView; // @synthesize stackView=_stackView;
-@property(readonly, nonatomic) NSArray *stringViews;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool wantsCrossfade;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 
 @end
 

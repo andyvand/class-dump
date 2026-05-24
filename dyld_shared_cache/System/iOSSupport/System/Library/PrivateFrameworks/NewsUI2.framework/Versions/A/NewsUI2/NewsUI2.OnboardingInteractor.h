@@ -7,7 +7,6 @@
 @interface NewsUI2.OnboardingInteractor
 {
     id tracker;
-    id personalizedAdsExposureStart;
 }
 
 @end

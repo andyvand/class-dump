@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSURL, NSURLRequest;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface QueuedNavigation
 {
     _Bool _shouldLoadInNewProcess;
-    NSURLRequest *_urlRequest;
 }
 
 + (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id)calAuthenticationOperation"16q24;
 - (id)Ô;
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) _Bool shouldLoadInNewProcess; // @synthesize shouldLoadInNewProcess=_shouldLoadInNewProcess;
 @property(readonly, nonatomic) NSURL *url;
-@property(readonly, nonatomic) NSURLRequest *urlRequest; // @synthesize urlRequest=_urlRequest;
 
 @end
 

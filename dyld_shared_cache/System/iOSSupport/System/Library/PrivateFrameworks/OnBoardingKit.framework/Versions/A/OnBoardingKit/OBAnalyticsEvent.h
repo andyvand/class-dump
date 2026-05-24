@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface OBAnalyticsEvent
 {
     NSString *_name;
-    NSDictionary *_payload;
 }
 
 + (id);
@@ -23,7 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSDictionary *payload; // @synthesize payload=_payload;
 
 @end
 

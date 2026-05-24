@@ -9,7 +9,6 @@
 @interface IMInvocationCapturingProxy
 {
     Protocol *_protocol;
-    CDUnknownBlockType _forwardingHandler;
 }
 
 - (id);
@@ -19,11 +18,10 @@
 - (id);
 - (_Bool)±sÐ1Â0@ù
 × ;
-- (void)licy;
-- (id)nsitiveSNaPPersistence;
+- (void)bufferingPolicy;
+- (id)EnableWatchU18SensitiveSNaPPersistence;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CDUnknownBlockType forwardingHandler; // @synthesize forwardingHandler=_forwardingHandler;
 @property(readonly, nonatomic) Protocol *protocol; // @synthesize protocol=_protocol;
 
 @end

@@ -5,5 +5,6 @@
 //
 
 @protocol IDSXPCReunionSync
+- (void)P;
 @end
 

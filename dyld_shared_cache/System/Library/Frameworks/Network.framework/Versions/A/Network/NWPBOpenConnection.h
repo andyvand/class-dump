@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NWPBEndpoint, NWPBParameters;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NWPBOpenConnection
 {
     NSString *_clientUUID;
-    NWPBEndpoint *_endpoint;
-    NWPBParameters *_parameters;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (id)oint;
+- (id)_endpoint;
 - (id)´ lq;
 - (void)@;
 

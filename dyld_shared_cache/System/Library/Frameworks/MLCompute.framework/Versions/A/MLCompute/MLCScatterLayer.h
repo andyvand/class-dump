@@ -9,7 +9,6 @@
 @interface MLCScatterLayer : MLCLayer
 {
     int _reductionType;
-    unsigned long long _dimension;
 }
 
 + (id);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long dimension; // @synthesize dimension=_dimension;
-@property(readonly, nonatomic) int reductionType; // @synthesize reductionType=_reductionType;
 
 @end
 

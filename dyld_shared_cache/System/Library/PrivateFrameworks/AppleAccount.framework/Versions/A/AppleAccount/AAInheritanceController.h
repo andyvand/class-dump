@@ -4,48 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AAFXPCSession, NSString;
+@class AAFXPCSession;
 
 @interface AAInheritanceController
 {
     AAFXPCSession *_remoteService;
 }
 
+- (void)etCachedActivationRecord got cached error:(id)arg1 %@;
+- (void)d message tracer logging result = %d;;
+- (void)ofiles/.enabled;
+- (void)HandlePasswordPolicyConflictKey;
+- (void)geAndSetPasscodePolicy converting dict policy to string error = %s (%ld);
 - (void);
+- (void)policy;
+- (void)GetMergedPolicyDictInDatabaseForOneDomain;
+- (void)nt through all known policies to clean up unused ones;
+- (void)---->;
+- (void)CreateURLDataAndPropertiesFromResource to '%s' failed;
+- (void):(CDUnknownBlockType)arg1 %s:cmd(%u) on CS[%u] -> err 0x%x (%d).
+ /* Error: Ran out of types for this method. */;
+- (void)%u] acquired.
+;
+- (void):(id)arg1 called.
+;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)esult = %d;
+- (void)tFirstRefFromConfigProfileUUID keychain item for %s was unable to be created;
+- (void)ank UUID passed;
+- (void)unning as root;
+- (void)while port is locked.;
+- (id)ate buffers isn't supported yet.;
+- (void)PinNetworkWeights;
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)isSubsetOfSet: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) AAFXPCSession *remoteService; // @synthesize remoteService=_remoteService;
-@property(readonly) Class superclass;
 
 @end
 

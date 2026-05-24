@@ -4,68 +4,48 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString, PKServiceProviderPurchaseData;
+@class NSString;
 
 @interface PKServiceProviderPurchase
 {
     NSString *_identifier;
-    NSString *_visibleTransactionIdentifier;
-    unsigned long long _state;
-    NSString *_deviceIdentifier;
-    NSString *_regionIdentifier;
-    NSString *_serviceProviderIdentifier;
-    PKServiceProviderPurchaseData *_serviceProviderData;
-    NSDate *_purchaseDate;
-    NSString *_signature;
-    NSString *_partnerMetadata;
-    NSArray *_actions;
 }
 
 + (id);
-+ (_Bool);
-- (id);
++ (_Bool);
+- (id)T!;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)9H;
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)Qq;
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)__AUTH;
 - (_Bool);
-- (void);
+- (void)_skippedRequestDueToRecentFix;
 - (void);
 - (void);
 - (id);
 - (id);
-- (id)edsConfiguration;
+- (id)needsConfiguration;
 - (id)uration: /* Error: Ran out of types for this method. */;
-- (id)e: /* Error: Ran out of types for this method. */;
+- (id)connection:didReceiveAuthenticationChallenge: /* Error: Ran out of types for this method. */;
 - (id);
-- (void)g;
-- (void)ionTypeProvisioningRequiringUpgradedPasscode;
+- (void)openIDMSCardOnFileProvisioning;
+- (void)PKAssertionTypeProvisioningRequiringUpgradedPasscode;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *actions; // @synthesize actions=_actions;
-@property(copy, nonatomic) NSString *deviceIdentifier; // @synthesize deviceIdentifier=_deviceIdentifier;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSString *partnerMetadata; // @synthesize partnerMetadata=_partnerMetadata;
-@property(copy, nonatomic) NSDate *purchaseDate; // @synthesize purchaseDate=_purchaseDate;
-@property(copy, nonatomic) NSString *regionIdentifier; // @synthesize regionIdentifier=_regionIdentifier;
-@property(copy, nonatomic) PKServiceProviderPurchaseData *serviceProviderData; // @synthesize serviceProviderData=_serviceProviderData;
-@property(copy, nonatomic) NSString *serviceProviderIdentifier; // @synthesize serviceProviderIdentifier=_serviceProviderIdentifier;
-@property(copy, nonatomic) NSString *signature; // @synthesize signature=_signature;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(copy, nonatomic) NSString *visibleTransactionIdentifier; // @synthesize visibleTransactionIdentifier=_visibleTransactionIdentifier;
 
 @end
 

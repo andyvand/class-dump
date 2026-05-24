@@ -9,7 +9,6 @@
 @interface CoreTelephonyMockObject
 {
     NSString *_cellularEid;
-    NSString *_cellularImei;
 }
 
 - (void);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *cellularEid; // @synthesize cellularEid=_cellularEid;
-@property(copy, nonatomic) NSString *cellularImei; // @synthesize cellularImei=_cellularImei;
 
 @end
 

@@ -8,31 +8,30 @@ __attribute__((visibility("hidden")))
 @interface SGTAccessibilityReparentedProxy
 {
     id parent;
-    id proxiedObject;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)ȗ;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)$;
 - (void);
 
 @end

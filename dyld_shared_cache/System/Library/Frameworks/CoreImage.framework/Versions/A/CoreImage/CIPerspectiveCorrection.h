@@ -6,20 +6,15 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIPerspectiveCorrection : CIFilter
 {
     CIImage *inputImage;
-    CIVector *inputTopLeft;
-    CIVector *inputTopRight;
-    CIVector *inputBottomRight;
-    CIVector *inputBottomLeft;
-    NSNumber *inputCrop;
 }
 
-+ (id);
++ (id)T;
 - (void);
 - (void);
 - (void);
@@ -36,12 +31,7 @@ __attribute__((visibility("hidden")))
 - (id)[sqy~yws{n|zqzyzBQC`X]T_iiiidkgnwtrwbpmxVhasrzw|wezu    ¥¥¥¥u Wmgv8SEeEVJbK^VefhfhddddGTJX2J<Xlrrrs}¦¦¦¦¥¥¥¥yrusvmmmmlllltttt}}}}duu{{{{fokulqmwdxtZnf|bqj{vzvf}{zxszAaTsbnfyZoj{`spwppppY]T^5H7SGXM]uuuu}}}}dddd<LBLDDADNNLNiiii|vvvvmmmmMb^iUigpxxxx^lirKa[klllljpppwwww~~~~{|~~ovv}||||pppp[[U[NNBNXXOXuuuuªªªª¹¹¹¹¹¹¹¹¥¥¥¥t|wSi_v~~~~vssosQhaq}}}}¥ ¡mqmtiiiisssst¦¦¦¦®®®®¨©©~~}~Pd\okhbkdielK^Wh<TJ]SRFSTPBUO_Vf||||dyxwwww\e_gfc\fyyyymmmmbbZbgkfl{§§§§`uqildqmmimhoitcrk|Uf[rosnuvvvvllgrwutw~~~~Nb_h=RI]bbabWaZg@ZPkmokuttttAYOdfe^ixyx{wwwwhrosooookkkkU_UiI^Tkooko\miooomoWhcm`gbkkkkkkkkkmmmmvvvv¥¥¥¥µµµµ¶¶¶¶¥¥¥¥mr|{extd~|qs|xktqucc^cPZP[eeeewwww}m|xQld|{vuov@YKm;
 
 // Remaining properties
-@property(retain, nonatomic) CIVector *inputBottomLeft; // @synthesize inputBottomLeft;
-@property(retain, nonatomic) CIVector *inputBottomRight; // @synthesize inputBottomRight;
-@property(retain, nonatomic) NSNumber *inputCrop; // @synthesize inputCrop;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) CIVector *inputTopLeft; // @synthesize inputTopLeft;
-@property(retain, nonatomic) CIVector *inputTopRight; // @synthesize inputTopRight;
 
 @end
 

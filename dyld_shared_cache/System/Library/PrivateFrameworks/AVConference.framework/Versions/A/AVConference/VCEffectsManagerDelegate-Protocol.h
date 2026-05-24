@@ -5,9 +5,9 @@
 //
 
 @protocol VCEffectsManagerDelegate
+- (void)T�;
 
 // Remaining properties
-@property _Bool effectsApplied;
 @property _Bool faceMeshTrackingEnabled;
 @end
 

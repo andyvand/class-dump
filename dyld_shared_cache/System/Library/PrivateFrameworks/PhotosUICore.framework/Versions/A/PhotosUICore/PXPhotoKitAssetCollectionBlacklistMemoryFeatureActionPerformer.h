@@ -6,13 +6,11 @@
 
 #import <PhotosUICore/PXPhotoKitAssetCollectionActionPerformer.h>
 
-@class NSString, PXSuggestLessPeopleHelper;
+@class NSString;
 
 @interface PXPhotoKitAssetCollectionBlacklistMemoryFeatureActionPerformer : PXPhotoKitAssetCollectionActionPerformer
 {
     _Bool _isBlockingMemoryFeature;
-    NSString *_userResponse;
-    PXSuggestLessPeopleHelper *_suggestLessPeopleHelper;
 }
 
 + (id);
@@ -33,8 +31,6 @@
 - (void)I¤;
 
 // Remaining properties
-@property(nonatomic) _Bool isBlockingMemoryFeature; // @synthesize isBlockingMemoryFeature=_isBlockingMemoryFeature;
-@property(retain, nonatomic) PXSuggestLessPeopleHelper *suggestLessPeopleHelper; // @synthesize suggestLessPeopleHelper=_suggestLessPeopleHelper;
 @property(retain, nonatomic) NSString *userResponse; // @synthesize userResponse=_userResponse;
 
 @end

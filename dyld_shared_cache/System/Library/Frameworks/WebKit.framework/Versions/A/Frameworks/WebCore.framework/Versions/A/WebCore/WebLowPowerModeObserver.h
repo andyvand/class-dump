@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (CheckedPtr_19284049);
-- (void);
+- (void)viable:call to %select{__device__|__global__|__host__|__host__ __device__}1 function from %select{__device__|__global__|__host__|__host__ __device__}2 function /* Error: Ran out of types for this method. */;
 - (id);
 - (void)o¿;á0 áp\&àm¸ðç.88porîpè)1¸ï+>®
 

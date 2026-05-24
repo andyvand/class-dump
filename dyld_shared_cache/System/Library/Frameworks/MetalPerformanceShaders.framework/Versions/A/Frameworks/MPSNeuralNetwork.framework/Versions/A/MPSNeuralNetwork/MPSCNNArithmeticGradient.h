@@ -6,28 +6,16 @@
 
 #import <MPSNeuralNetwork/MPSCNNGradientKernel.h>
 
-@class MPSNNReduceUnary;
-
 @interface MPSCNNArithmeticGradient : MPSCNNGradientKernel
 {
     float _primaryScale;
-    float _secondaryScale;
-    float _bias;
-    float _minimumValue;
-    float _maximumValue;
-    unsigned long long _secondaryStrideInFeatureChannels;
-    int _arithmeticType;
-    _Bool _isSecondarySourceFilter;
-    MPSNNReduceUnary *_reduceRows;
-    MPSNNReduceUnary *_reduceColumns;
-    MPSNNReduceUnary *_reduceFeatureChannels;
 }
 
 + (const struct MPSLibraryInfo *);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (float);
@@ -41,22 +29,16 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (float);
+- (float)newRenderPipelineStateWithDescriptor:error: /* Error: Ran out of types for this method. */;
 - (float);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)D;
 - (float);
 
 // Remaining properties
-@property(nonatomic) float bias; // @synthesize bias=_bias;
-@property(readonly, nonatomic) _Bool isSecondarySourceFilter; // @synthesize isSecondarySourceFilter=_isSecondarySourceFilter;
-@property(nonatomic) float maximumValue; // @synthesize maximumValue=_maximumValue;
-@property(nonatomic) float minimumValue; // @synthesize minimumValue=_minimumValue;
 @property(nonatomic) float primaryScale; // @synthesize primaryScale=_primaryScale;
-@property(nonatomic) float secondaryScale; // @synthesize secondaryScale=_secondaryScale;
-@property(nonatomic) unsigned long long secondaryStrideInFeatureChannels; // @synthesize secondaryStrideInFeatureChannels=_secondaryStrideInFeatureChannels;
 
 @end
 

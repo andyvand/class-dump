@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface FI_TInlinePreviewData
 {
     short _contentRect[4];
-    NSDictionary *_clientProperties;
 }
 
 - (id);

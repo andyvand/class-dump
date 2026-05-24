@@ -4,49 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMCommLimitsPolicyCache, NSObject, NSSet, NSString, STConversation, TUCallProviderManager;
-@protocol OS_dispatch_queue;
+@class TUCallProviderManager;
 
 @interface IMDowntimeController
 {
     struct os_unfair_lock_s _stateLock;
-    _Bool _needsNotificationsRegistering;
-    STConversation *_stateLock_STConversation;
-    NSSet *_stateLock_emergencyNumbersSet;
-    _Bool _isRunningFromMacMessagesApp;
-    TUCallProviderManager *_callProviderManager;
-    NSObject<OS_dispatch_queue> *_screenTimeDispatchQueue;
-    NSObject<OS_dispatch_queue> *_setupDispatchQueue;
-    IMCommLimitsPolicyCache *_policyCache;
 }
 
-+ (_Bool);
-+ (id);
++ (_Bool)tly sending streamIDs %@;
++ (id)=%u;
 + (id)Ükíÿh;
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
+- (id)%s:%d %@(%p) Error initializing... no results dict /* Error: Ran out of types for this method. */;
+- (void)ucceed[%d];
+- (void)eEnabled[%d] did succeed[%d];
+- (void)deo media control info;
+- (id)aults:%@=%d /* Error: Ran out of types for this method. */;
+- (void)size protected from going negative. Current size:%f, new size:%f, samplesDelta:%d, needed samples:%d, audioPlayer mode:%d, silent:%d /* Error: Ran out of types for this method. */;
+- (id)hresh=%d;
+- (_Bool)upported value=%d. Using default=%d instead.;
+- (_Bool)ice [%s] %s:(id)arg1 %d @:@ AVCVirtualTTYDevice-didStart (%p) didSucceed=%d /* Error: Ran out of types for this method. */;
+- (_Bool)%d AVCVirtualTTYDevice:didStartConnectionBlock strongSelf started(%d) /* Error: Ran out of types for this method. */;
+- (void).;
+- (void)u, totalJBLossCount=%u totalFramesPlayed=%u jitterBufferMode=%u);
+- (id)[%p] with index=%d;
+- (id)video codecs. imageTypes=%@ videoCodecExpected=%@;
+- (_Bool)s] %s:(id)arg1 %d Payload and topic may not be both nil;
+- (_Bool)@';
+- (_Bool)decrypt it. Dropping message...;
+- (void)er[%p];
+- (void)ationEnhancementEnabled %d;
+- (_Bool)d, delegate=%@, queue=%@, error=%@;
+- (void)avcEndpointDict at index=%d is nil;
+- (id)led=%d;
+- (void)Relaying outgoing ARPL data from AVConference via XPC to VideoConference with callID=%d (in VideoConferenceManagerCategories) <<<<<;
+- (void)in VideoConferenceManagerCategories) <<<<<;
 - (id);
 - (void);
 - (void);
@@ -56,17 +47,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) TUCallProviderManager *callProviderManager; // @synthesize callProviderManager=_callProviderManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isRunningFromMacMessagesApp; // @synthesize isRunningFromMacMessagesApp=_isRunningFromMacMessagesApp;
-@property(retain, nonatomic) IMCommLimitsPolicyCache *policyCache; // @synthesize policyCache=_policyCache;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *screenTimeDispatchQueue; // @synthesize screenTimeDispatchQueue=_screenTimeDispatchQueue;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *setupDispatchQueue; // @synthesize setupDispatchQueue=_setupDispatchQueue;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,6 +7,8 @@
 @class NSURL;
 
 @protocol CRKFileSystemPrimitives
+- (void);
+- (_Bool))ja;
 - (_Bool)ÔÁ°!àAùSÐ1Â0@ù
 × ;
 

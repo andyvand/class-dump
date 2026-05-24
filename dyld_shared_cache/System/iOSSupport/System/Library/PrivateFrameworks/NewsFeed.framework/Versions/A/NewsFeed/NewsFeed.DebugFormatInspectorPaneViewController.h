@@ -7,16 +7,6 @@
 @interface NewsFeed.DebugFormatInspectorPaneViewController
 {
     id groups;
-    id autoPreferredContentSize;
-    id autoDismissOnLayoutChange;
-    id preferredArrowDirections;
-    id preferredSize;
-    id filterTerm;
-    id filteredGroups;
-    id tableView;
-    id editor;
-    id image;
-    id contentSizeObserver;
 }
 
 - (id);

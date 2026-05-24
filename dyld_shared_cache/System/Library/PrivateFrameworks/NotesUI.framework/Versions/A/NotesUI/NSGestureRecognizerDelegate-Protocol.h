@@ -7,6 +7,8 @@
 @protocol NSGestureRecognizerDelegate
 
 @optional
+- (_Bool)%9;
+- (_Bool);
 - (_Bool)eAuthenticationIfAvailable;
 @end
 

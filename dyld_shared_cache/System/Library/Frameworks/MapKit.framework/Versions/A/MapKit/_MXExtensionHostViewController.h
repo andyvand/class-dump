@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _MXExtensionHostViewController
 {
 }
 
-+ (id);
-+ (id)utOffset;
++ (id)predicateForContactMatchingMapString: /* Error: Ran out of types for this method. */;
++ (id)_bottomCalloutOffset;
 - (id);
-- (id)olorSpace: /* Error: Ran out of types for this method. */;
+- (id)colorUsingColorSpace: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

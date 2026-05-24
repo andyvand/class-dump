@@ -5,5 +5,6 @@
 //
 
 @protocol WindowSharingRemoteViewHostProtocol
+- (void)ڢC;
 @end
 

@@ -4,27 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NSKeyValueAccessor
 {
     id _containerClassID;
-    NSString *_key;
-    unsigned long long _hash;
-    CDUnknownFunctionPointerType _implementation;
-    SEL _selector;
-    unsigned long long _extraArgumentCount;
-    void *_extraArgument1;
-    void *_extraArgument2;
-    void *_extraArgument3;
 }
 
 - (id);
 - (unsigned long long);
-- (void *);
+- (void *);
 - (void *);
 - (id);
-- (void);
+- (void)r;
 - (id);
 - (SEL);
 

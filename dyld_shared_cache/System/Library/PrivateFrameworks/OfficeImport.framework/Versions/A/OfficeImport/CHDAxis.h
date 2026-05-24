@@ -4,45 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHDTitle, EDResources, NSArray, NSString, OADGraphicProperties;
-
 __attribute__((visibility("hidden")))
 @interface CHDAxis
 {
     _Bool mReverseOrder;
-    _Bool mReverseOrderOverridden;
-    _Bool mSecondary;
-    _Bool mDateTimeFormattingFlag;
-    _Bool mLineVisible;
-    _Bool mDeleted;
-    _Bool mAutoMinimumValue;
-    _Bool mAutoMaximumValue;
-    _Bool mAutoCrossValue;
-    _Bool mContentFormatDerived;
-    int mAxisId;
-    unsigned long long mContentFormatId;
-    unsigned long long mFontIndex;
-    double mScalingMaximum;
-    double mScalingMinimum;
-    int mOrientation;
-    double mCrossAxisId;
-    double mCrossesAt;
-    int mMajorTickMark;
-    int mMinorTickMark;
-    int mAxisPosition;
-    int mAxisType;
-    int mTickLabelPosition;
-    CHDTitle *mTitle;
-    OADGraphicProperties *mMinorGridLinesGraphicProperties;
-    OADGraphicProperties *mMajorGridLinesGraphicProperties;
-    OADGraphicProperties *mAxisGraphicProperties;
-    int mCrossBetween;
-    int mCrosses;
-    double mTickLabelRotation;
-    _Bool mIsAutoRotation;
-    unsigned long long mTickLabelColorIndex;
-    EDResources *mResources;
-    NSArray *mLabelEffects;
 }
 
 - (double);
@@ -56,14 +21,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)A;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void))(;
 - (void);
 - (void);
 - (void);
@@ -79,20 +44,20 @@ __attribute__((visibility("hidden")))
 - (double);
 - (int);
 - (int);
+- (id)+;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (unsigned long long)j;
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (id);
 - (double);
 - (int);
 - (double);
@@ -101,10 +66,10 @@ __attribute__((visibility("hidden")))
 - (int);
 - (int);
 - (int);
-- (int);
+- (int)q@;
 - (id);
 - (void);
-- (void);
+- (void)r);
 - (int);
 - (unsigned long long);
 - (void);
@@ -122,18 +87,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void)1Â0@ù
 × ;
-- (id)leOverrideTypeEnumMap;
+- (id)tableStyleOverrideTypeEnumMap;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

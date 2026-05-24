@@ -19,17 +19,16 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)tion could not be constructed. Source identifier:%{public}@. Source Client identifier:%{public}@. /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)NCFStringRef;
 - (void);
 - (id);
-- (id);
+- (id)__DATA;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasStableEscrow;
-@property(retain, nonatomic) NSString *stableEscrow; // @synthesize stableEscrow=_stableEscrow;
 
 @end
 

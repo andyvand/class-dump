@@ -5,12 +5,11 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, OS_xpc_object;
+@protocol OS_xpc_object;
 
 @interface CSSpeechUaapXPCClient
 {
     NSObject<OS_xpc_object> *_connection;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);
@@ -19,17 +18,16 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)4;
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void):pathGenerator:priority: /* Error: Ran out of types for this method. */;
+- (void)initWithType:pathGenerator:priority: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_xpc_object> *connection; // @synthesize connection=_connection;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

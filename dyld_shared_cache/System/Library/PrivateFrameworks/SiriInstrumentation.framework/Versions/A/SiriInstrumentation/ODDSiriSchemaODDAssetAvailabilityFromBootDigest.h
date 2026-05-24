@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ODDSiriSchemaODDAssetAvailabilityFromBootDimensions, ODDSiriSchemaODDAssetAvailabilityFromBootTuples;
+@class ODDSiriSchemaODDAssetAvailabilityFromBootDimensions;
 
 @interface ODDSiriSchemaODDAssetAvailabilityFromBootDigest : SISchemaInstrumentationMessage
 {
     ODDSiriSchemaODDAssetAvailabilityFromBootDimensions *_dimensions;
-    ODDSiriSchemaODDAssetAvailabilityFromBootTuples *_tuples;
-    _Bool _hasDimensions;
-    _Bool _hasTuples;
 }
 
 - (id);
@@ -27,24 +24,20 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)P;
+- (_Bool)";
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)ÞÐ1Â0@ù
 × ;
 - (id)TI,N,V_maSuccessCount;
 - (id)ConversionContext",&,N,V_actionConversionContext;
-- (id)RARY_ITEMS;
-- (void)RYCODE_GG;
+- (id)MWTQUEUETYPE_LIBRARY_ITEMS;
+- (void)ISOCOUNTRYCODE_GG;
 
 // Remaining properties
 @property(retain, nonatomic) ODDSiriSchemaODDAssetAvailabilityFromBootDimensions *dimensions; // @synthesize dimensions=_dimensions;
-@property(nonatomic) _Bool hasDimensions; // @synthesize hasDimensions=_hasDimensions;
-@property(nonatomic) _Bool hasTuples; // @synthesize hasTuples=_hasTuples;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) ODDSiriSchemaODDAssetAvailabilityFromBootTuples *tuples; // @synthesize tuples=_tuples;
 
 @end
 

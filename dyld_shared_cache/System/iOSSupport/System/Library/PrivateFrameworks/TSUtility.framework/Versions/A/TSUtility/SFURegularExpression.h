@@ -9,7 +9,6 @@
 @interface SFURegularExpression
 {
     NSString *_expressionString;
-    void *_reserved;
 }
 
 + (id);
@@ -19,9 +18,9 @@
 - (struct _NSRange);
 - (id);
 - (id);
-- (const char *);
+- (const char *);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (unsigned long long);

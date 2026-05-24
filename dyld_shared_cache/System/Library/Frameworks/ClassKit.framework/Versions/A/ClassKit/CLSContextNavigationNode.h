@@ -15,10 +15,10 @@
 
 + (id);
 + (id);
-+ (_Bool);
-- (void);
-- (void);
-- (id);
++ (_Bool)_configurationTask;
+- (void)ServicesProcessRequestDirect;
+- (void)l/share/firmware/ane/ane1.bin;
+- (id)tex_filter_cache_miss;
 - (id);
 - (_Bool);
 - (id);
@@ -28,14 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *childObjectID; // @synthesize childObjectID=_childObjectID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

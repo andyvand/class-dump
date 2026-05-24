@@ -4,38 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSArray;
 
 @interface PKAutoTopUpActionItem
 {
     NSArray *_defaultAmountSuggestions;
-    NSArray *_defaultThresholdSuggestions;
-    NSArray *_lowBalanceReminderOptions;
-    NSString *_currency;
-    NSDictionary *_serviceProviderData;
 }
 
 + (_Bool)0@ù
 × ;
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)qA;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void)antTokens;
+- (id);
+- (void);
+- (id);
+- (id)_localCoprocessorType;
+- (void)hadMerchantTokens;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *currency; // @synthesize currency=_currency;
 @property(readonly, copy, nonatomic) NSArray *defaultAmountSuggestions; // @synthesize defaultAmountSuggestions=_defaultAmountSuggestions;
-@property(readonly, copy, nonatomic) NSArray *defaultThresholdSuggestions; // @synthesize defaultThresholdSuggestions=_defaultThresholdSuggestions;
-@property(readonly, copy, nonatomic) NSArray *lowBalanceReminderOptions; // @synthesize lowBalanceReminderOptions=_lowBalanceReminderOptions;
-@property(readonly, copy, nonatomic) NSDictionary *serviceProviderData; // @synthesize serviceProviderData=_serviceProviderData;
 
 @end
 

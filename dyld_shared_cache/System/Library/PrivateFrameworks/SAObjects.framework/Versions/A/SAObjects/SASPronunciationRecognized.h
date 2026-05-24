@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSNumber, NSString, SASPronunciationData;
+@class NSNumber;
 
 @interface SASPronunciationRecognized : SABaseClientBoundCommand
 {
@@ -21,13 +21,11 @@
 - (id);
 - (id);
 - (_Bool);
-- (void)em;
+- (void)structuredDictationItem;
 - (id)F;
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *errorCode;
-@property(copy, nonatomic) NSString *interactionId;
-@property(retain, nonatomic) SASPronunciationData *pronunciationData;
 
 @end
 

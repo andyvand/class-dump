@@ -4,36 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPLinkMetadata, NSItemProvider, NSString, NSURL;
+@class NSString;
 
 @interface NESportsEventLinkPresentationSource
 {
     NSString *_title;
-    NSItemProvider *_linkPresentationImageProvider;
-    NSItemProvider *_linkPresentationIconProvider;
-    NSURL *_url;
 }
 
 + (id);
 + (id);
++ (id);
 + (id);
-+ (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id)	
 ;
-- (id)atVideoPlayerViewControllerFactory;
+- (id)FormatVideoPlayerViewControllerFactory;
 - (void)Èwþ=4: Ì$ÿ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) LPLinkMetadata *linkMetadata;
-@property(readonly, nonatomic) NSItemProvider *linkPresentationIconProvider; // @synthesize linkPresentationIconProvider=_linkPresentationIconProvider;
-@property(readonly, nonatomic) NSItemProvider *linkPresentationImageProvider; // @synthesize linkPresentationImageProvider=_linkPresentationImageProvider;
 @property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, copy, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

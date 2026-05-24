@@ -5,5 +5,7 @@
 //
 
 @protocol SOAReceiverProtocol
+- (void);
+- (void)P^;
 @end
 

@@ -6,21 +6,9 @@
 
 #import <InputMethodKit/IMKUICandidateIterativeLayout.h>
 
-@class IMKCandidateList, IMKUICandidateLayoutTraits, IMKUICandidateLineLayoutEntry, NSArray, NSMutableArray, NSMutableDictionary, NSString;
-
 @interface IMKUICandidateLineLayout : IMKUICandidateIterativeLayout
 {
     unsigned long long _candidateIterationIndex;
-    NSMutableDictionary *_candidateToIndexMapping;
-    IMKUICandidateLineLayoutEntry *_currentEntry;
-    IMKCandidateList *_currentCandidateList;
-    NSString *_currentGroupTitle;
-    NSMutableArray *_entriesInternal;
-    NSMutableDictionary *_indexToCandidateMapping;
-    NSMutableDictionary *_indexToCandidateItemMapping;
-    NSMutableDictionary *_indexToLineIndexMapping;
-    IMKUICandidateLayoutTraits *_layoutTraits;
-    _Bool _sortsElementsInLine;
 }
 
 - (_Bool);
@@ -42,19 +30,19 @@
 - (unsigned long long);
 - (void);
 - (void);
+- (void)8h;
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)v�?;
 - (unsigned long long);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)R;
+- (void);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -65,16 +53,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long candidateIterationIndex; // @synthesize candidateIterationIndex=_candidateIterationIndex;
-@property(retain, nonatomic) IMKCandidateList *currentCandidateList; // @synthesize currentCandidateList=_currentCandidateList;
-@property(retain, nonatomic) IMKUICandidateLineLayoutEntry *currentEntry; // @synthesize currentEntry=_currentEntry;
-@property(retain, nonatomic) NSString *currentGroupTitle; // @synthesize currentGroupTitle=_currentGroupTitle;
-@property(readonly, nonatomic) NSArray *entries;
-@property(retain, nonatomic) NSMutableArray *entriesInternal; // @synthesize entriesInternal=_entriesInternal;
-@property(retain, nonatomic) NSMutableDictionary *indexToCandidateItemMapping; // @synthesize indexToCandidateItemMapping=_indexToCandidateItemMapping;
-@property(retain, nonatomic) NSMutableDictionary *indexToCandidateMapping; // @synthesize indexToCandidateMapping=_indexToCandidateMapping;
-@property(retain, nonatomic) NSMutableDictionary *indexToLineIndexMapping; // @synthesize indexToLineIndexMapping=_indexToLineIndexMapping;
-@property(retain, nonatomic) IMKUICandidateLayoutTraits *layoutTraits; // @synthesize layoutTraits=_layoutTraits;
-@property(nonatomic) _Bool sortsElementsInLine; // @synthesize sortsElementsInLine=_sortsElementsInLine;
 
 @end
 

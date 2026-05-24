@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrightnessSystemClientInternal, NSObject;
-@protocol OS_os_log;
+@class BrightnessSystemClientInternal;
 
 @interface DisplayServicesClient
 {
     BrightnessSystemClientInternal *bsci;
-    NSObject<OS_os_log> *_logHandle;
-    CDUnknownBlockType _displayNotificationBlock;
-    CDUnknownBlockType _propertyNotificationBlock;
 }
 
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);

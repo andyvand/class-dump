@@ -7,16 +7,13 @@
 @interface MSPowerAssertionManager
 {
     _Bool _isAssertingPowerAssertion;
-    _Bool _isBusy;
-    int _busyCount;
-    int _UIBusyCount;
 }
 
 + (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)verticalBarGestureFromLineResult:currentGesture: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (int);
 - (void);
@@ -31,9 +28,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) int UIBusyCount; // @synthesize UIBusyCount=_UIBusyCount;
-@property(nonatomic) int busyCount; // @synthesize busyCount=_busyCount;
-@property(nonatomic) _Bool isAssertingPowerAssertion; // @synthesize isAssertingPowerAssertion=_isAssertingPowerAssertion;
 @property(nonatomic) _Bool isBusy; // @synthesize isBusy=_isBusy;
 
 @end

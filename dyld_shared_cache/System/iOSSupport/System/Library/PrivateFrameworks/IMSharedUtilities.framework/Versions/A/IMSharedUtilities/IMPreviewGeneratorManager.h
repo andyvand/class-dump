@@ -9,7 +9,6 @@
 @interface IMPreviewGeneratorManager
 {
     NSDictionary *_UTITypes;
-    NSDictionary *_dynamicTypes;
 }
 
 + (id)t:%@ with error:%@ /* Error: Ran out of types for this method. */;
@@ -24,14 +23,13 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (Class);
+- (Class)C;
 - (id);
 - (id);
-- (void)fsFlags;
+- (void)hfsFlags;
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *UTITypes; // @synthesize UTITypes=_UTITypes;
-@property(copy, nonatomic) NSDictionary *dynamicTypes; // @synthesize dynamicTypes=_dynamicTypes;
 
 @end
 

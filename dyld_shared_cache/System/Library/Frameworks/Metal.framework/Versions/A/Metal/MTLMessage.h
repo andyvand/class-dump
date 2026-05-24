@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MTLMessage
 {
     unsigned long long _type;
-    NSString *_string;
 }
 
-- (id);
+- (id)RIa;
 - (void);
-- (id);
+- (id)ImageDestinationRef
+;
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, retain) NSString *string; // @synthesize string=_string;
 @property(readonly) unsigned long long type; // @synthesize type=_type;
 
 @end

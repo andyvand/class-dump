@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isEmpty;
-@property(readonly, nonatomic) CDStruct_e83c9415 timeRange;
 @end
 

@@ -4,29 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIImage, UIImageView;
+@class UIImageView;
 
 @interface AKFingerPotView
 {
     UIImageView *_selectedOutline;
-    UIImageView *_highlight;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)Included;
+- (id);
+- (void){jsController;fieldMovementChecker;constructor(e){this.jsController=e,this.fieldMovementChecker=new FieldMovementChecker(this.handleElementFocused.bind(this))}addEventListeners(){formMetadataEventDispatcher.addGlobalListener("webkitsubmit",this.submitEventHandler.bind(this)),formMetadataEventDispatcher.addGlobalListener("webkitbeforefocus",this.focusInEventHandler.bind(this)),formMetadataEventDispatcher.addGlobalListener("webkitbeforeblur",this.focusOutEventHandler.bind(this)),formMetadataEventDispatcher.addGlobalListener("webkitusertextinput",this.inputEventHandler.bind(this)),formMetadataEventDispatcher.addGlobalListener("keydown",this.keydownEventHandler.bind(this))}focusInEventHandler(e){this.fieldMovementChecker.reset();let[t,a]=FormMetadataJS.textFieldOrSelectElementMetadata(e,WBSFormMetadataRequestNormal,!0);t&&(e.setUserInfo({form:a,textField:t}),this.fieldMovementChecker.setTextFieldToMonitor(e,t,a),this.fieldMovementChecker.scheduleNextCheckForFieldMovement(),this.handleElementFocused(e,t,a))}handleElementFocused(e,t,a){this.jsController.populateRectFieldsInFormElementMetadata(t,e),window.webkit.messageHandlers.controller.postMessage({name:"elementFocused",focusedElementMetadata:t,formMetadata:a})}focusOutEventHandler(e){this.fieldMovementChecker.reset();let[t,a]=FormMetadataJS.textFieldOrSelectElementMetadata(e,WBSFormMetadataRequestNormal,!0);t&&window.webkit.messageHandlers.controller.postMessage({name:"elementBlurred",focusedElementMetadata:t,formMetadata:a})}inputEventHandler(e){let[t,a]=FormMetadataJS.textFieldOrSelectElementMetadata(e,WBSFormMetadataRequestTextChange,!0);t&&(this.jsController.populateRectFieldsInFormElementMetadata(t,e),window.webkit.messageHandlers.controller.postMessage({name:"elementInput",focusedElementMetadata:t,formMetadata:a}))}static#n(e,t){switch(e){case"ArrowUp":return WKInputFieldActionTypeMoveUp;case"ArrowDown":return WKInputFieldActionTypeMoveDown;case"Escape":return WKInputFieldActionTypeCancel;case"Tab":return t?WKInputFieldActionTypeInsertBacktab:WKInputFieldActionTypeInsertTab;case"Enter":return WKInputFieldActionTypeInsertNewline;case"Backspace":return WKInputFieldActionTypeInsertDelete;default:return null}}keydownEventHandler(e,t){const a=FocusManager.#n(t.key,t.shiftKey);if(null===a)return;const[o,r]=this.jsController._getMetadataForControl(e,WBSFormMetadataRequestNormal);window.webkit.messageHandlers.controller.postMessage({name:"observedActionInFormTextField",action:a,controlMetadata:o,formMetadata:r})}submitEventHandler(e){const t=this.jsController.getMetadataForForm(e);e.setUserInfo(t)}}class AutoFillButtonManager{jsController;constructor(e){this.jsController=e}addEventListeners(){formMetadataEventDispatcher.addGlobalListener("webkitautofillrequest",this.webKitAutofillRequestEventHandler.bind(this))}webKitAutofillRequestEventHandler(e){let[t,a]=this.jsController._getMetadataForControl(e,WBSFormMetadataRequestNormal);window.webkit.messageHandlers.controller.postMessage({name:"manualAutoFillRequest",focusedElementMetadata:t,formMetadata:a})}}let formMetadataJSController=new FormMetadataJSController;eventQueue.setDelegate(formMetadataEventDispatcher);
+0; /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)setHTMLInputElementIsAutoFilled:(_Bool)arg1;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UIImageView *highlight; // @synthesize highlight=_highlight;
-@property(retain, nonatomic) UIImage *menuImage;
 @property(retain, nonatomic) UIImageView *selectedOutline; // @synthesize selectedOutline=_selectedOutline;
 
 @end

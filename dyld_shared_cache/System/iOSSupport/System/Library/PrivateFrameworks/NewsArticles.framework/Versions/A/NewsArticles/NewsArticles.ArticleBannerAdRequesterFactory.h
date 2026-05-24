@@ -7,10 +7,6 @@
 @interface NewsArticles.ArticleBannerAdRequesterFactory
 {
     id requestManager;
-    id bannerAdFactory;
-    id requestPolicyValidator;
-    id bannerAdJournal;
-    id documentControllerProvider;
 }
 
 @end

@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSUUID;
+
 @protocol NFSingleUserSessionInterface
+- (oneway void)an't connect/continue anyway dialog.;
+- (oneway void);
+- (oneway void)[Continuity] Error fetching:(NSUUID *)arg1 %@;
 @end
 

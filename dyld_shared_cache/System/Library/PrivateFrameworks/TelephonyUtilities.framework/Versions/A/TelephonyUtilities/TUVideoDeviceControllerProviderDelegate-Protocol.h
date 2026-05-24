@@ -5,5 +5,6 @@
 //
 
 @protocol TUVideoDeviceControllerProviderDelegate
+- (void);
 @end
 

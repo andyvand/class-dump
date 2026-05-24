@@ -9,23 +9,19 @@
 @interface IMChatTranscriptItemLayoutAttributes
 {
     NSIndexPath *_indexPath;
-    struct CGSize _size;
-    struct CGRect _frame;
 }
 
-- (struct CGSize);
+- (struct CGSize)	;
 - (id);
 - (void);
 - (struct CGRect);
 - (id);
-- (void);
+- (void)	;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct CGRect frame; // @synthesize frame=_frame;
 @property(copy, nonatomic) NSIndexPath *indexPath; // @synthesize indexPath=_indexPath;
-@property(nonatomic) struct CGSize size; // @synthesize size=_size;
 
 @end
 

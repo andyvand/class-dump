@@ -11,27 +11,27 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct CGAffineTransform {
-    double a;
-    double b;
-    double c;
-    double d;
-    double tx;
-    double ty;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
+    double _field5;
+    double _field6;
 };
 
 struct CGPoint {
-    double x;
-    double y;
+    double _field1;
+    double _field2;
 };
 
 struct CGRect {
-    struct CGPoint origin;
-    struct CGSize size;
+    struct CGPoint _field1;
+    struct CGSize _field2;
 };
 
 struct CGSize {
-    double width;
-    double height;
+    double _field1;
+    double _field2;
 };
 
 struct CLLocationCoordinate2D {
@@ -39,16 +39,11 @@ struct CLLocationCoordinate2D {
     double longitude;
 };
 
-struct GEOOnce_s {
-    struct os_unfair_lock_s lock;
-    _Bool didRun;
-};
-
 struct UIEdgeInsets {
-    double top;
-    double left;
-    double bottom;
-    double right;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
 };
 
 struct os_unfair_lock_s {
@@ -79,14 +74,6 @@ struct unordered_set<_MKAnnotationViewPair, std::hash<_MKAnnotationViewPair>, st
     } __table_;
 };
 
-struct vector<MKAnnotationView *, std::allocator<MKAnnotationView *>> {
-    id *__begin_;
-    id *__end_;
-    struct {
-        id *__cap_;
-    } ;
-};
-
 #pragma mark Typedef'd Structures
 
 typedef struct {
@@ -99,13 +86,18 @@ typedef struct {
 } CDStruct_ef0b40be;
 
 typedef struct {
-    unsigned char timePeriod;
-    unsigned char overlayType;
-    unsigned char applicationState;
-    unsigned char applicationSubState;
-    unsigned char searchResultsType;
-    _Bool mapHasLabels;
-} CDStruct_0a13ab6d;
+    unsigned char _field1;
+    unsigned char _field2;
+    unsigned char _field3;
+    unsigned char _field4;
+    unsigned char _field5;
+    _Bool _field6;
+} CDStruct_71c69561;
+
+typedef struct {
+    unsigned int _field1;
+    void *_field2;
+} CDStruct_35640fce;
 
 typedef struct {
     unsigned long long _field1;
@@ -117,6 +109,18 @@ typedef struct {
 typedef struct {
     unsigned long long __size_;
 } CDStruct_a7186859;
+
+typedef struct {
+    double _field1;
+    double _field2;
+} CDStruct_c3b9c2ee;
+
+typedef struct {
+    long long _field1;
+    long long _field2;
+    long long _field3;
+    double _field4;
+} CDStruct_68723fc0;
 
 typedef struct {
     long long style;
@@ -139,12 +143,9 @@ typedef struct {
 } CDStruct_c0a8b48f;
 
 typedef struct {
-    struct {
-        double x;
-        double y;
-    } origin;
-    CDStruct_8caa76fc size;
-} CDStruct_02837cd9;
+    CDStruct_c3b9c2ee _field1;
+    CDStruct_c3b9c2ee _field2;
+} CDStruct_90e2a262;
 
 typedef struct {
     struct CGSize _field1;
@@ -153,24 +154,10 @@ typedef struct {
     struct CGSize _field4;
     struct CGSize _field5;
     struct CGSize _field6;
-} CDStruct_ef33c3d5;
+} CDStruct_7cd60665;
 
 typedef struct {
-    struct CLLocationCoordinate2D center;
-    struct {
-        double latitudeDelta;
-        double longitudeDelta;
-    } span;
-} CDStruct_b7cb895d;
-
-// Ambiguous groups
-typedef struct {
-    double _field1;
-    double _field2;
-} CDStruct_c3b9c2ee;
-
-typedef struct {
-    double width;
-    double height;
-} CDStruct_8caa76fc;
+    struct CLLocationCoordinate2D _field1;
+    CDStruct_c3b9c2ee _field2;
+} CDStruct_26e8d939;
 

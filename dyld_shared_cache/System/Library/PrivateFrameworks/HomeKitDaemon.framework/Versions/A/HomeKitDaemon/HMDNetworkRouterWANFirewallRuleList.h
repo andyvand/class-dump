@@ -4,39 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterWANFirewallRuleList
 {
     NSMutableArray *_portRules;
-    NSMutableArray *_icmpRules;
 }
 
-+ (id);
++ (id)momentOfSceneWithHighConfidenceAssets;
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)ONavigationListener"16@"GEOLocation"24{?=If}32;
+- (id)ints), optional (location:(id)arg1 %@);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id)d;
-- (void)soryWakeNotificationStarted;
+- (id)isNetworkDiagnosticsEnabled;
+- (void)kHMDAccessoryWakeNotificationStarted;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableArray *icmpRules; // @synthesize icmpRules=_icmpRules;
 @property(retain, nonatomic) NSMutableArray *portRules; // @synthesize portRules=_portRules;
-@property(readonly) Class superclass;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface GEOMobileAssetResource
 {
     long long _sandboxExtension;
-    NSURL *_fileURL;
 }
 
 - (void);

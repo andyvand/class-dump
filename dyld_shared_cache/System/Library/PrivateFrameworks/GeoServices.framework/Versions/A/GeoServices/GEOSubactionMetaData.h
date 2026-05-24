@@ -4,34 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEOSubactionMetaData
 {
     PBDataReader *_reader;
-    CDStruct_95bda58d _subactions;
-    NSMutableArray *_childItemSubactionTypes;
-    NSString *_displayedString;
-    NSMutableArray *_displayedTexts;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _selectedSubactionIndex;
-    int _subactionType;
-    struct {
-        unsigned int has_selectedSubactionIndex:1;
-        unsigned int has_subactionType:1;
-        unsigned int read_subactions:1;
-        unsigned int read_childItemSubactionTypes:1;
-        unsigned int read_displayedString:1;
-        unsigned int read_displayedTexts:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
 + (Class);
-+ (_Bool)ad:(id)arg1;
++ (_Bool)setMaxDistanceFromRoad:(id)arg1;
 - (id);
 - (int *);
 - (id);
@@ -41,59 +23,50 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)T(;
 - (void);
 - (void);
 - (void);
 - (int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)setCustomValuesData: /* Error: Ran out of types for this method. */;
+- (_Bool)propertyListWithStream:options:format:error: /* Error: Ran out of types for this method. */;
+- (_Bool)_customPropertyValuesToDelete;
+- (unsigned long long)d not assign legacy identifiers:%s /* Error: Ran out of types for this method. */;
+- (id)able source;
+- (id)s;
+- (void)uuid;
+- (void)CNCDMeCardImporter;
 - (unsigned long long);
 - (id);
 - (id);
+- (void);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (int)*;
 - (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
 - (int);
 - (void);
-- (int);
-- (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)clearLogFilesInDirectory:(id)arg1 matchingPattern:exceedNumber: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)P;
 - (_Bool);
 - (id);
 - (void);
 - (id)b1"has_travelTimeConservativeEstimate"b1"has_routeNoLongerValid"b1"read_unknownFields"b1"read_incidentEndOffsetsInETARoutes"b1"read_incidentIndexs"b1"read_trafficColorOffsets"b1"read_trafficColors"b1"read_destinationWaypointInfo"b1"read_enrouteNotices"b1"read_guidanceEvents"b1"read_incidentOnRouteInfos"b1"read_incidentsOffReRoutes"b1"read_incidentsOnETARoutes"b1"read_incidentsOnReRoutes"b1"read_invalidSectionZilchPoints"b1"read_navigabilityInfo"b1"read_originWaypointInfo"b1"read_pathLeg"b1"read_reroutedRoutes"b1"read_routeID"b1"read_routeCameraInputInfos"b1"read_routeLineStyleInfos"b1"read_steps"b1"read_trafficBannerText"b1"read_trafficColorInfos"b1"read_zilchPoints"b1"wrote_anyField"b1};
-- (id)s;
-- (id)etrics;
+- (id)hasOptimizeSearchRequestComponents;
+- (id)GEOClientNetworkTransactionMetrics;
 - (id)can only be called once per object;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *childItemSubactionTypes;
-@property(retain, nonatomic) NSString *displayedString;
-@property(retain, nonatomic) NSMutableArray *displayedTexts;
-@property(readonly, nonatomic) _Bool hasDisplayedString;
 @property(nonatomic) _Bool hasSelectedSubactionIndex;
-@property(nonatomic) _Bool hasSubactionType;
-@property(nonatomic) int selectedSubactionIndex;
-@property(nonatomic) int subactionType;
-@property(readonly, nonatomic) int *subactions;
-@property(readonly, nonatomic) unsigned long long subactionsCount;
 
 @end
 

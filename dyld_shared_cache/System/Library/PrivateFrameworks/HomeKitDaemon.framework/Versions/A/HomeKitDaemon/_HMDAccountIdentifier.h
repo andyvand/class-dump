@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface _HMDAccountIdentifier
@@ -14,23 +14,20 @@ __attribute__((visibility("hidden")))
 
 + (_Bool)çèç<èÀèéìéñ;
 - (_Bool);
-- (id);
-- (id);
+- (id)ecting session %s;
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)	;
 - (void);
-- (id)ountDictionaryTemplate;
-- (id);
+- (id)reasonCountDictionaryTemplate;
+- (id)HMDDoorbellChimeControllerContext;
 - (id)tifying matter accessory vendor ID:%@, product ID:%@, device type:%@ /* Error: Ran out of types for this method. */;
-- (void):NodeType /* Error: Ran out of types for this method. */;
+- (void)Network:NodeType /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, getter=isAuthenticated) _Bool authenticated;
 @property(readonly, copy) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy) NSString *kind;
-@property(readonly, copy) NSString *senderCorrelationIdentifier;
 
 @end
 

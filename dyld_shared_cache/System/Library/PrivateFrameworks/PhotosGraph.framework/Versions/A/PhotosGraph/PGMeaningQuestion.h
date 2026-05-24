@@ -6,25 +6,20 @@
 
 #import <PhotosGraph/PGSurveyQuestion.h>
 
-@class NSDictionary, NSString;
-
 @interface PGMeaningQuestion : PGSurveyQuestion
 {
     unsigned short _state;
-    NSDictionary *_additionalInfo;
-    NSString *_entityIdentifier;
-    double _localFactoryScore;
 }
 
-- (double);
-- (id);
-- (id);
+- (double)setAccessibilitySelectedChildren: /* Error: Ran out of types for this method. */;
+- (id)_inputMarkingSessionRange;
+- (id)_allVisiblePageElements;
 - (unsigned short);
 - (id);
 - (unsigned short);
 - (unsigned short);
 - (unsigned short);
-- (id)k: /* Error: Ran out of types for this method. */;
+- (id)extendedCurationWithHighlightInfo:sharingFilter:progressBlock: /* Error: Ran out of types for this method. */;
 - (void)mework/Memories/Conveniences/PGMemoryFeatureBlocking.m;
 
 @end

@@ -4,27 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCConnection, TKSlotParameters, TKSmartCardATR, TKSmartCardSlotProxy;
-@protocol OS_dispatch_queue;
+@class NSXPCConnection;
 
 @interface TKSmartCardSlot
 {
     NSXPCConnection *_connection;
-    long long _powerState;
-    long long _shareState;
-    TKSlotParameters *_slotParameters;
-    long long _state;
-    TKSmartCardATR *_ATR;
-    NSString *_name;
-    TKSmartCardSlotProxy *_proxy;
-    long long _previousState;
 }
 
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)`;
 - (long long);
 - (void);
 - (void);
@@ -40,30 +31,21 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)j;
 - (id);
 - (void);
 - (void);
 - (long long);
 - (long long);
 - (id);
-- (void);
+- (void);
 - (id);
-- (long long);
-- (void);
+- (long long)@;
+- (void)onary=}12;
 - (id)0@ù
 × ;
 
 // Remaining properties
-@property(retain) TKSmartCardATR *ATR; // @synthesize ATR=_ATR;
-@property(readonly, nonatomic) long long maxInputLength;
-@property(readonly, nonatomic) long long maxOutputLength;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property long long powerState; // @synthesize powerState=_powerState;
-@property long long previousState; // @synthesize previousState=_previousState;
-@property(readonly, nonatomic) TKSmartCardSlotProxy *proxy; // @synthesize proxy=_proxy;
-@property(readonly) NSObject<OS_dispatch_queue> *queue;
-@property long long shareState; // @synthesize shareState=_shareState;
 @property long long state; // @synthesize state=_state;
 
 @end

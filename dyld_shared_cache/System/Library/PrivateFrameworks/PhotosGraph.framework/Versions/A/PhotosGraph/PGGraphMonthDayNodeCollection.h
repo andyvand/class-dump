@@ -14,13 +14,12 @@
 
 + (id);
 + (id);
-+ (id);
-+ (unsigned long long);
++ (id)V;
++ (unsigned long long)ldsh;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *anniversaryPersonNodes;
 @property(readonly, nonatomic) PGGraphPersonNodeCollection *birthdayPersonNodes;
 
 @end

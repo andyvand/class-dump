@@ -6,21 +6,15 @@
 
 #import <MetalTools/MTLToolsVisibleFunctionTable.h>
 
-@class MTLToolsObject;
-
 @interface MTLDebugVisibleFunctionTable : MTLToolsVisibleFunctionTable
 {
     struct atomic<int> _purgeableStateToken;
-    _Bool _purgeableStateHasBeenSet;
-    unsigned long long _functionCount;
-    MTLToolsObject *_pipelineState;
-    unsigned long long _stage;
 }
 
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)T;
 - (id);
 - (_Bool);
 - (unsigned long long);
@@ -29,12 +23,11 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)h ;
 - (unsigned long long);
 
 // Remaining properties
 @property(readonly) unsigned long long functionCount; // @synthesize functionCount=_functionCount;
-@property(readonly) unsigned long long stage; // @synthesize stage=_stage;
 
 @end
 

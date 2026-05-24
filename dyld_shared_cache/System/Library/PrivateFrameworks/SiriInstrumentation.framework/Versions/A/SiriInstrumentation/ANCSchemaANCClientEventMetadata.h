@@ -6,17 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ANCSchemaANCClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_ancId;
-    SISchemaUUID *_requestId;
-    _Bool _hasAncId;
-    _Bool _hasRequestId;
 }
 
-- (void);
+- (void)#;
 - (void);
 - (_Bool);
 - (void);
@@ -24,7 +21,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)entifier is deprecated and will be removed!;
 - (id);
 - (void);
 - (unsigned long long);
@@ -32,18 +29,14 @@
 - (void);
 - (_Bool);
 - (id);
-- (id)tThumbnail: /* Error: Ran out of types for this method. */;
+- (id)setThumbnail: /* Error: Ran out of types for this method. */;
 - (id)0»»4½Ø½;
-- (id)el;
+- (id)baseEdgeLabel;
 - (void)æE';
 - (id)ÿÇ;
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *ancId; // @synthesize ancId=_ancId;
-@property(nonatomic) _Bool hasAncId; // @synthesize hasAncId=_hasAncId;
-@property(nonatomic) _Bool hasRequestId; // @synthesize hasRequestId=_hasRequestId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *requestId; // @synthesize requestId=_requestId;
 
 @end
 

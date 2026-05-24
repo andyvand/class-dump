@@ -6,7 +6,7 @@
 
 #import <PhotosUICore/PXDisplayAssetVideoContentProvider.h>
 
-@class NSString, PHAsset, PHFetchResult, PXMediaProvider;
+@class PHAsset, PHFetchResult;
 
 @interface PXPhotoKitVideoContentProvider : PXDisplayAssetVideoContentProvider
 {
@@ -20,14 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PHAsset *asset; // @dynamic asset;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PXMediaProvider *mediaProvider; // @dynamic mediaProvider;
-@property(readonly) Class superclass;
 
 @end
 

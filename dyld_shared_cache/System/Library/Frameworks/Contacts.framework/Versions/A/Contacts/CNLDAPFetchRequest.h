@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CNLDAPFetchRequest
 {
     unsigned int _fetchLimit;
-    NSString *_filter;
-    NSArray *_searchBases;
-    NSArray *_attributesToFetch;
-    unsigned long long _resultType;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)�;
 - (void);
 - (id);
 - (id);
@@ -29,15 +25,11 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (id)erver: /* Error: Ran out of types for this method. */;
+- (id)setDidHideObserver: /* Error: Ran out of types for this method. */;
 - (unsigned int)ÝÇClô;
 
 // Remaining properties
-@property(copy) NSArray *attributesToFetch; // @synthesize attributesToFetch=_attributesToFetch;
-@property unsigned int fetchLimit; // @synthesize fetchLimit=_fetchLimit;
 @property(copy) NSString *filter; // @synthesize filter=_filter;
-@property unsigned long long resultType; // @synthesize resultType=_resultType;
-@property(copy) NSArray *searchBases; // @synthesize searchBases=_searchBases;
 
 @end
 

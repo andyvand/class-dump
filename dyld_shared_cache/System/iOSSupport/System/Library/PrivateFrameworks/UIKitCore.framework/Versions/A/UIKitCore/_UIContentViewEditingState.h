@@ -9,22 +9,18 @@
 @interface _UIContentViewEditingState
 {
     NSString *_text;
-    NSString *_proposedReplacementText;
-    struct _NSRange _proposedReplacementRange;
 }
 
-- (id);
-- (struct _NSRange);
-- (id);
-- (id);
+- (id)ignorePendingNicknameUpdatesForHandleIDs: /* Error: Ran out of types for this method. */;
+- (struct _NSRange)ignorePendingNicknameForHandleID: /* Error: Ran out of types for this method. */;
+- (id)_messagesToReindexForPreviewGeneration;
+- (id)"CEMAnyPayload",C,N,V_payloadFileData;
 - (id)0@ù
 × ;
 - (id)retePlayable>",&,N,V_animatingThresholdFeedback;
 - (void)¾;
 
 // Remaining properties
-@property(readonly, nonatomic) struct _NSRange proposedReplacementRange; // @synthesize proposedReplacementRange=_proposedReplacementRange;
-@property(readonly, nonatomic) NSString *proposedReplacementText; // @synthesize proposedReplacementText=_proposedReplacementText;
 @property(readonly, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end

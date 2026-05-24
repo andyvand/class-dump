@@ -6,50 +6,35 @@
 
 #import <TrialServer/TRIBaseTask.h>
 
-@class NSArray, NSDate, NSString;
-@protocol TRITaskQueueStateProviding;
+@class NSString;
 
 @interface TRISubscribeChannelTask : TRIBaseTask
 {
     NSString *_experimentId;
-    NSDate *_startTime;
 }
 
 + (id);
 + (id);
 + (_Bool);
 - (id);
-- (id);
+- (id)Revision characteristic;
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)B;
 - (_Bool);
 - (void);
 - (id);
 - (void)
 × ;
-- (id)ithQueryType:(id)arg1 withCursor:withNamespaceNames:sinceDate:options:resultsHandler: /* Error: Ran out of types for this method. */;
+- (id)_fetchNotificationsWithQueryType:(id)arg1 withCursor:withNamespaceNames:sinceDate:options:resultsHandler: /* Error: Ran out of types for this method. */;
 - (unsigned long long){public}@;
 - (id)lan | recordId:%@ assetIndexes:%@> /* Error: Ran out of types for this method. */;
 - (int)RIFullMAAssetId"8@"TRIMAAutoAsset"16^B24;
-- (id)CryptoKitBridge;
+- (id)TRICryptoKitBridge;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSArray *dependencies;
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSString *experimentId; // @synthesize experimentId=_experimentId;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSDate *startTime; // @synthesize startTime=_startTime;
-@property(nonatomic) __weak id <TRITaskQueueStateProviding> stateProvider;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *tags;
-@property(readonly, nonatomic) NSString *taskName;
-@property(readonly, nonatomic) int taskType;
 
 @end
 

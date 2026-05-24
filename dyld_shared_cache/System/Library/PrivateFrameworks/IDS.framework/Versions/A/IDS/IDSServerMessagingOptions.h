@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber;
+@class NSNumber;
 
 @interface IDSServerMessagingOptions
 {
     NSNumber *_timeout;
-    NSNumber *_command;
-    NSNumber *_cancelOnClientCrash;
-    NSDictionary *_additionalTopLevelFields;
 }
 
 + (_Bool);
@@ -30,10 +27,7 @@
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *additionalTopLevelFields; // @synthesize additionalTopLevelFields=_additionalTopLevelFields;
 @property(retain, nonatomic) NSNumber *cancelOnClientCrash; // @synthesize cancelOnClientCrash=_cancelOnClientCrash;
-@property(retain, nonatomic) NSNumber *command; // @synthesize command=_command;
-@property(retain, nonatomic) NSNumber *timeout; // @synthesize timeout=_timeout;
 
 @end
 

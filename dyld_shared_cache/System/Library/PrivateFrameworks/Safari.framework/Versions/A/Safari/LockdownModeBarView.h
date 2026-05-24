@@ -10,13 +10,12 @@ __attribute__((visibility("hidden")))
 @interface LockdownModeBarView
 {
     NSTextField *_lockdownModeStatusLabel;
-    long long _lockdownModeStatus;
 }
 
 - (void);
 - (long long);
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties

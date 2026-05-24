@@ -4,79 +4,52 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString, PKAccountServicingEventStatusDetails, PKCurrencyAmount;
+@class NSString;
 
 @interface PKAccountServicingEvent
 {
     NSString *_identifier;
-    unsigned long long _status;
-    unsigned long long _activityType;
-    NSString *_activityIdentifier;
-    NSDate *_openDate;
-    NSDate *_lastUpdatedDate;
-    PKCurrencyAmount *_amount;
-    NSString *_reasonCode;
-    NSString *_claimIdentifier;
-    NSArray *_linkedCaseIdentifiers;
-    PKAccountServicingEventStatusDetails *_statusDetails;
 }
 
 + (id);
-+ (id);
++ (id)`;
 + (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (void);
 - (id);
 - (void);
-- (_Bool);
+- (id)-	;
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
+- (unsigned long long)?ka;
+- (void);
+- (id);
+- (void);
+- (_Bool)_wiFiSINR;
+- (void);
+- (void);
+- (id);
 - (unsigned long long);
 - (id)aX"!`Aùñî%ð1Â0@ù
 × ;
 - (unsigned long long)
 × ;
-- (id)tailsWithError: /* Error: Ran out of types for this method. */;
-- (id)rty;
+- (id)loadingDetailsWithError: /* Error: Ran out of types for this method. */;
+- (id)_dirty;
 - (void)Provisioning.Extension;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *activityIdentifier; // @synthesize activityIdentifier=_activityIdentifier;
-@property(nonatomic) unsigned long long activityType; // @synthesize activityType=_activityType;
-@property(copy, nonatomic) PKCurrencyAmount *amount; // @synthesize amount=_amount;
-@property(copy, nonatomic) NSString *claimIdentifier; // @synthesize claimIdentifier=_claimIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSDate *lastUpdatedDate; // @synthesize lastUpdatedDate=_lastUpdatedDate;
-@property(copy, nonatomic) NSArray *linkedCaseIdentifiers; // @synthesize linkedCaseIdentifiers=_linkedCaseIdentifiers;
-@property(copy, nonatomic) NSDate *openDate; // @synthesize openDate=_openDate;
-@property(copy, nonatomic) NSString *reasonCode; // @synthesize reasonCode=_reasonCode;
-@property(nonatomic) unsigned long long status; // @synthesize status=_status;
-@property(copy, nonatomic) PKAccountServicingEventStatusDetails *statusDetails; // @synthesize statusDetails=_statusDetails;
-@property(readonly) Class superclass;
 
 @end
 

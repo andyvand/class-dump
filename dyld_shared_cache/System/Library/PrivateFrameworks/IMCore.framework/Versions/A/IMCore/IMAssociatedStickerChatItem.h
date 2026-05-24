@@ -13,12 +13,12 @@
     NSString *_transferGUID;
 }
 
-- (_Bool);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (id);
+- (_Bool)] %s:%d Training data was generated at [%@], after the current date [%@] /* Error: Ran out of types for this method. */;
+- (unsigned long long):%d Invalid socket, return /* Error: Ran out of types for this method. */;
+- (id)the delegate queue;
+- (id)o allocate XPC object allow list;
+- (void)ConferenceManagerCategories) <<<<<;
+- (id)pture=%dx%d, encode=%dx%d;
 - (id);
 - (id);
 - (_Bool);

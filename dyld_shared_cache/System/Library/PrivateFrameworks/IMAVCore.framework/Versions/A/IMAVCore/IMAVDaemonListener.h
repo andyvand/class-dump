@@ -9,8 +9,6 @@
 @interface IMAVDaemonListener
 {
     NSMutableArray *_handlers;
-    _Bool _setupComplete;
-    _Bool _postedSetupComplete;
 }
 
 - (void);
@@ -18,7 +16,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)?;
 - (id);
 - (_Bool);
 - (void);

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSManagedObject, NSNumber, TDColorName;
+@class NSDate;
 
 @interface TDColorDefinition
 {
@@ -17,10 +17,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSManagedObject *colorStatus; // @dynamic colorStatus;
 @property(retain, nonatomic) NSDate *dateOfLastChange; // @dynamic dateOfLastChange;
-@property(retain, nonatomic) TDColorName *name; // @dynamic name;
-@property(retain, nonatomic) NSNumber *physicalColor; // @dynamic physicalColor;
 
 @end
 

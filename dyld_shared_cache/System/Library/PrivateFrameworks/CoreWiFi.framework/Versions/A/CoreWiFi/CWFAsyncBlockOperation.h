@@ -7,22 +7,21 @@
 @interface CWFAsyncBlockOperation
 {
     _Bool _didStartOperation;
-    long long _completionCounter;
 }
 
-+ (_Bool);
-- (void);
++ (_Bool)t has same path as previous transfer;
+- (void)h;
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (long long);
+- (long long)_ր;
 - (void);
-- (_Bool);
+- (_Bool)Encoding::openResourceFile:unable to generate CFPropertyListRef for XML
+ /* Error: Ran out of types for this method. */;
 - (_Bool)3216BA86AE9LLO;
 
 // Remaining properties
-@property long long completionCounter; // @synthesize completionCounter=_completionCounter;
 @property _Bool didStartOperation; // @synthesize didStartOperation=_didStartOperation;
 
 @end

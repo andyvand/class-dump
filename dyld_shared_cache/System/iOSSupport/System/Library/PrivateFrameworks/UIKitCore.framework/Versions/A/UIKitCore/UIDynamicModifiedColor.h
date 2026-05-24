@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface UIDynamicModifiedColor : UIDynamicColor
 {
     UIDynamicColor *_baseColor;
-    double _alphaComponent;
-    long long _contrast;
-    long long _prominence;
 }
 
 + (_Bool)tempt to set height for header in section %ld when there are only %ld sections in the table;
@@ -23,11 +20,11 @@ __attribute__((visibility("hidden")))
 - (id)1Â0@ù
 × ;
 - (id)UIClickPresentation"24Q32;
-- (_Bool)e:(id)arg1;
-- (void)sibilityChanged:(id)arg1;
+- (_Bool)forceExitWithTransitionContext:(id)arg1 scene: /* Error: Ran out of types for this method. */;
+- (void)_windowVisibilityChanged:(id)arg1;
 - (id)leWindowForDifferentiation;
 - (id);
-- (_Bool)umbnail;
+- (_Bool)thumbnail;
 - (void)t TMh;
 - (id)ÿq;
 - (id)¤Öyÿ;

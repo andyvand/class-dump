@@ -13,10 +13,10 @@
     MRImageProvider *mBackgroundProvider;
 }
 
-- (void);
+- (void)taskDescription;
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)BackgroundUploadInWindow:(double)arg1 ];
+- (id)opeContentTypeConfigsWithCompletion:(id)arg1 ];
 - (void);
 - (void);
 - (void);

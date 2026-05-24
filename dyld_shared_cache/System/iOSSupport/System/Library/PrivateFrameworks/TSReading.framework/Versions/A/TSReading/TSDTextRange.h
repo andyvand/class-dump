@@ -7,31 +7,25 @@
 @interface TSDTextRange
 {
     struct _NSRange _range;
-    _Bool _eolAffinity;
-    float _preferredStartPosition;
-    float _preferredEndPosition;
 }
 
++ (id)P;
 + (id);
-+ (id);
-- (void);
-- (float);
-- (float);
+- (void)ckController - Queue item did become current:(_Bool)arg1;
+- (float)PlayerItemTransitionTask;
+- (float)OverlappingTransitionTimeImpl;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (struct _NSRange);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool isAtEndOfLine; // @synthesize isAtEndOfLine=_eolAffinity;
-@property(readonly, nonatomic) float preferredEndPosition; // @synthesize preferredEndPosition=_preferredEndPosition;
-@property(readonly, nonatomic) float preferredStartPosition; // @synthesize preferredStartPosition=_preferredStartPosition;
 @property(nonatomic) struct _NSRange range; // @synthesize range=_range;
 
 @end

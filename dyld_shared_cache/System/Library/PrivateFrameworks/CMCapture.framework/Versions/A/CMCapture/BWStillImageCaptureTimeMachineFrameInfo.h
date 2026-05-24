@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface BWStillImageCaptureTimeMachineFrameInfo : BWStillImageCaptureFrameInfo
 {
     int _timeMachineIndex;
-    _Bool _isNoLongErrorRecoveryFrame;
 }
 
 + (id);
@@ -19,15 +18,14 @@ __attribute__((visibility("hidden")))
 - (int);
 - (void);
 - (_Bool);
-- (id);
+- (id)P;
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void){;
 
 // Remaining properties
-@property(nonatomic) _Bool isNoLongErrorRecoveryFrame; // @synthesize isNoLongErrorRecoveryFrame=_isNoLongErrorRecoveryFrame;
 @property(readonly, nonatomic) int timeMachineIndex; // @synthesize timeMachineIndex=_timeMachineIndex;
 
 @end

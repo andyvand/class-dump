@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMTStablePrefixState;
-
 @interface EMTTranslationOptions
 {
     _Bool _enableDisambiguationAlternatives;
-    EMTStablePrefixState *_stablePrefixState;
 }
 
 + (_Bool);
 - (id);
 - (void);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)curity.framework/Versions/A/Security;
+- (id).framework/Rapport;
 - (id);
 - (void);
 - (id);
@@ -25,7 +22,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool enableDisambiguationAlternatives; // @synthesize enableDisambiguationAlternatives=_enableDisambiguationAlternatives;
-@property(retain, nonatomic) EMTStablePrefixState *stablePrefixState; // @synthesize stablePrefixState=_stablePrefixState;
 
 @end
 

@@ -7,9 +7,10 @@
 @class NSData;
 
 @protocol _SFPBSafariAttributes
+- (void);
+- (NSData *),N,V_scopeIdentifier;
 
 // Remaining properties
 @property(nonatomic) int hideReason;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

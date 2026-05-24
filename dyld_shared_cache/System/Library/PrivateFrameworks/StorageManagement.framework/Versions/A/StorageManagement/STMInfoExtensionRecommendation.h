@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, STMInfoAlert;
-
 @interface STMInfoExtensionRecommendation
 {
     long long _state;
-    NSString *_identifier;
-    NSString *_title;
-    NSString *_message;
-    NSString *_secondaryTitle;
-    NSString *_secondaryMessage;
-    NSString *_actionButtonTitle;
-    NSArray *_confirmOptionMenuItems;
-    long long _confirmOptionMenuIndex;
-    STMInfoAlert *_confirmation;
-    long long _recoverableByteCount;
 }
 
 + (_Bool);
@@ -26,7 +14,7 @@
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long)9h;
 - (id);
 - (id);
 - (id);
@@ -36,11 +24,11 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)?="spacer"b1"content"b1};
 - (id);
 - (void);
 - (void);
-- (long long);
+- (long long)N;
 - (void);
 - (void);
 - (void);
@@ -50,24 +38,7 @@
 - (void);
 
 // Remaining properties
-@property(copy) NSString *actionButtonTitle; // @synthesize actionButtonTitle=_actionButtonTitle;
-@property long long confirmOptionMenuIndex; // @synthesize confirmOptionMenuIndex=_confirmOptionMenuIndex;
-@property(retain) NSArray *confirmOptionMenuItems; // @synthesize confirmOptionMenuItems=_confirmOptionMenuItems;
-@property(retain) STMInfoAlert *confirmation; // @synthesize confirmation=_confirmation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy) NSString *message; // @synthesize message=_message;
-@property long long recoverableByteCount; // @synthesize recoverableByteCount=_recoverableByteCount;
-@property(copy) NSString *secondaryMessage; // @synthesize secondaryMessage=_secondaryMessage;
-@property(copy) NSString *secondaryTitle; // @synthesize secondaryTitle=_secondaryTitle;
 @property long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(copy) NSString *title; // @synthesize title=_title;
 
 @end
 

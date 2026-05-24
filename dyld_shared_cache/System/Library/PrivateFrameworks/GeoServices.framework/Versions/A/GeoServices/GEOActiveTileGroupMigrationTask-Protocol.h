@@ -4,14 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOActiveTileGroupMigrationTaskOptions;
+@class NSDictionary;
 @protocol NSObject;
 
 @protocol GEOActiveTileGroupMigrationTask
+- (long long)_iOSLegacyIdentifier;
+- (id <NSObject>);
+
+@optional
+- (NSDictionary *)countOfPersistentStoresAttachedToPersistentStoreCoordinator:(struct os_state_hints_s *)arg1;
 
 // Remaining properties
 @property(readonly, nonatomic) long long estimatedWeight;
-@property(retain, nonatomic) GEOActiveTileGroupMigrationTaskOptions *options;
-@property(retain, nonatomic) id <NSObject> transaction;
 @end
 

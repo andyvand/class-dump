@@ -7,8 +7,6 @@
 @interface NewsUI2.TodayEngagementMastheadPositionProvider
 {
     id delegate;
-    id lastVisibleState;
-    id blueprintViewController;
 }
 
 @end

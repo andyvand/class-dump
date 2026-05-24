@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFRoomPresenceDatabaseID, NSDate, NSNumber;
+@class NSNumber;
 @protocol MKFRoom;
 
 @protocol MKFRoomPresence
+- (id <MKFRoom>);
+- (void)facetimePopularityGivenLargeGeoHash;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFRoomPresenceDatabaseID *databaseID;
-@property(readonly, retain, nonatomic) id <MKFRoom> room;
 @property(copy, nonatomic) NSNumber *state;
-@property(copy, nonatomic) NSDate *stateChangedTimestamp;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 @end
 

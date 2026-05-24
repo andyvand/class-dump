@@ -6,20 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class NSString;
 
 @interface IDENTITYSchemaIDENTITYUserPresenceMetadata : SISchemaInstrumentationMessage
 {
     NSString *_loggableMultiUserSharedUserId;
-    int _userLocation;
-    int _userLocationSource;
-    SISchemaUUID *_userEphemeralId;
-    struct {
-        unsigned int userLocation:1;
-        unsigned int userLocationSource:1;
-    } _has;
-    _Bool _hasLoggableMultiUserSharedUserId;
-    _Bool _hasUserEphemeralId;
 }
 
 - (int);
@@ -39,8 +30,8 @@
 - (id);
 - (void);
 - (id);
-- (int);
-- (void);
+- (int)isActivationLockedWithCompletion: /* Error: Ran out of types for this method. */;
+- (void)authenticateAccount:(int)arg1 withPassword:delegatePlist: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
@@ -48,23 +39,15 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)iCloudAccountNameWithCompletion: /* Error: Ran out of types for this method. */;
 - (id)
 × ;
-- (id)harsDeleted;
+- (id)numCharsDeleted;
 - (id)ÝHÞ;
 - (void)q;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLoggableMultiUserSharedUserId; // @synthesize hasLoggableMultiUserSharedUserId=_hasLoggableMultiUserSharedUserId;
-@property(nonatomic) _Bool hasUserEphemeralId; // @synthesize hasUserEphemeralId=_hasUserEphemeralId;
-@property(nonatomic) _Bool hasUserLocation;
-@property(nonatomic) _Bool hasUserLocationSource;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *loggableMultiUserSharedUserId; // @synthesize loggableMultiUserSharedUserId=_loggableMultiUserSharedUserId;
-@property(retain, nonatomic) SISchemaUUID *userEphemeralId; // @synthesize userEphemeralId=_userEphemeralId;
-@property(nonatomic) int userLocation; // @synthesize userLocation=_userLocation;
-@property(nonatomic) int userLocationSource; // @synthesize userLocationSource=_userLocationSource;
 
 @end
 

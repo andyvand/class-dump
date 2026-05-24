@@ -4,102 +4,64 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface NTPBDeviceInfo
 {
     long long _deviceDstOffset;
-    long long _deviceUtcOffset;
-    NSString *_deviceAppBundleId;
-    NSString *_deviceAppVersion;
-    int _deviceDigestMode;
-    NSString *_deviceOsVersion;
-    NSMutableArray *_devicePreferredLanguages;
-    NSString *_devicePushToken;
-    NSString *_deviceTimezone;
-    int _deviceTokenEnv;
-    NSString *_deviceType;
-    struct {
-        unsigned int deviceDstOffset:1;
-        unsigned int deviceUtcOffset:1;
-        unsigned int deviceDigestMode:1;
-        unsigned int deviceTokenEnv:1;
-    } _has;
 }
 
-+ (Class);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
++ (Class)_preparedResultRecordChangeDetailsByAssetCollection;
+- (void)baseFetchOptionsWithPhotoLibrary:(_Bool)arg1;
+- (void)barItemProviderClass;
+- (void)bannerLoadTask;
+- (void)bannerControllerProvider;
+- (void)assetResourcesForLivePhoto:(long long)arg1;
+- (void)assetResourcesForAsset:(int)arg1 includeDerivatives: /* Error: Ran out of types for this method. */;
+- (void)assetResourcesForAsset:(id)arg1;
+- (void)assetRequiresFullSize:(id)arg1;
+- (void)assetReferenceForAsset:(long long)arg1 containedInAssetCollectionWithType: /* Error: Ran out of types for this method. */;
+- (void)assetReferenceAtItemIndexPath:(id)arg1;
+- (void)assetReferenceAtIndexPath:(id)arg1;
+- (_Bool)_updateLoupePlayerView;
+- (_Bool)_updateLocalizedContainerItemsCountIfNeeded;
+- (_Bool)_updateLocalSprites;
+- (_Bool)_updateLibraryBodyLayoutLateralMargin;
+- (_Bool)_updateLibraryBodyLayoutLastVisibleDominantObjectReference;
+- (_Bool)_updateLibraryBodyLayoutLastVisibleDominantObjectReference;
+- (_Bool)_updateLensControlItems;
+- (int)_undoPhotosGraphData;
+- (unsigned long long)_undoManager;
+- (id)_undoKeyAsset;
+- (id)_underlyingObject;
+- (id)_underlyingCollection;
+- (void)_titleSubtitleLabelSpec;
+- (void)_syndicationSenderDisplayName;
+- (long long)_styleScrollContentLayout;
+- (id)_styleOptions;
+- (long long)_startOrResumeSlideshowTouchesEnded: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
+- (id);
 - (_Bool);
+- (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (id);
+- (void)idateImplENS_14default_deleteIS5_EEEERbEEE;
+- (void);
+- (unsigned long long)-7;
 - (_Bool);
 - (int);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
 - (void);
-- (void);
-- (long long);
-- (id);
-- (long long);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (int);
-- (void);
-- (_Bool);
+- (_Bool)d;
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)HasMetaGroupingHighestScoringRelativeScoreMultiplier:(int)arg1;
-- (void)aseConsumptionThreshold;
+- (void)setHasMetaGroupingHighestScoringRelativeScoreMultiplier:(int)arg1;
+- (void)increaseConsumptionThreshold;
 - (void)S	;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *deviceAppBundleId; // @synthesize deviceAppBundleId=_deviceAppBundleId;
-@property(retain, nonatomic) NSString *deviceAppVersion; // @synthesize deviceAppVersion=_deviceAppVersion;
-@property(nonatomic) int deviceDigestMode; // @synthesize deviceDigestMode=_deviceDigestMode;
-@property(nonatomic) long long deviceDstOffset; // @synthesize deviceDstOffset=_deviceDstOffset;
-@property(retain, nonatomic) NSString *deviceOsVersion; // @synthesize deviceOsVersion=_deviceOsVersion;
-@property(retain, nonatomic) NSMutableArray *devicePreferredLanguages; // @synthesize devicePreferredLanguages=_devicePreferredLanguages;
-@property(retain, nonatomic) NSString *devicePushToken; // @synthesize devicePushToken=_devicePushToken;
-@property(retain, nonatomic) NSString *deviceTimezone; // @synthesize deviceTimezone=_deviceTimezone;
-@property(nonatomic) int deviceTokenEnv; // @synthesize deviceTokenEnv=_deviceTokenEnv;
-@property(retain, nonatomic) NSString *deviceType; // @synthesize deviceType=_deviceType;
-@property(nonatomic) long long deviceUtcOffset; // @synthesize deviceUtcOffset=_deviceUtcOffset;
-@property(readonly, nonatomic) _Bool hasDeviceAppBundleId;
-@property(readonly, nonatomic) _Bool hasDeviceAppVersion;
-@property(nonatomic) _Bool hasDeviceDigestMode;
-@property(nonatomic) _Bool hasDeviceDstOffset;
-@property(readonly, nonatomic) _Bool hasDeviceOsVersion;
 @property(readonly, nonatomic) _Bool hasDevicePushToken;
-@property(readonly, nonatomic) _Bool hasDeviceTimezone;
-@property(nonatomic) _Bool hasDeviceTokenEnv;
-@property(readonly, nonatomic) _Bool hasDeviceType;
-@property(nonatomic) _Bool hasDeviceUtcOffset;
 
 @end
 

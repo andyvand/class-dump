@@ -4,7 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class _UIFindNavigatorView;
+
 @protocol _UIFindNavigatorViewDelegate
+- (void)mediaPicker:(_UIFindNavigatorView *)arg1 didPickMediaItems: /* Error: Ran out of types for this method. */;
 - (void)q_°1Â0@ù
 × ;
 @end

@@ -11,8 +11,6 @@
 @interface MPSNDArrayQuantizedScaledDotProductAttention : MPSNDArrayScaledDotProductAttention
 {
     MPSNDArrayQuantizationDescriptor *_qQuantizationDescriptor;
-    MPSNDArrayQuantizationDescriptor *_kQuantizationDescriptor;
-    MPSNDArrayQuantizationDescriptor *_vQuantizationDescriptor;
 }
 
 + (_Bool);

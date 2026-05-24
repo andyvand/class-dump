@@ -9,20 +9,16 @@
 @interface _PXAssetsSceneAnchor
 {
     PXAssetReference *_assetReference;
-    double _distance;
-    struct CGPoint _anchorOrigin;
 }
 
 - (id);
 - (struct CGPoint);
 - (double);
 - (id);
-- (void)r;
+- (void)LemonadeMediaTypesItemListManager;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGPoint anchorOrigin; // @synthesize anchorOrigin=_anchorOrigin;
 @property(readonly, nonatomic) PXAssetReference *assetReference; // @synthesize assetReference=_assetReference;
-@property(readonly, nonatomic) double distance; // @synthesize distance=_distance;
 
 @end
 

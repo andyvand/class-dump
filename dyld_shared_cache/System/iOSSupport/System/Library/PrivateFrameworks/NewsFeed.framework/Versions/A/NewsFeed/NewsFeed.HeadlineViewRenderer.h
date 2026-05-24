@@ -7,10 +7,6 @@
 @interface NewsFeed.HeadlineViewRenderer
 {
     id presentingViewController;
-    id presentationDelegateProvider;
-    id thumbnailImageCache;
-    id publisherLogoImageCache;
-    id rendererTool;
 }
 
 @end

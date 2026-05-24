@@ -6,52 +6,46 @@
 
 #import <WiFiPolicy/WFLoggerBase.h>
 
-@class NSMutableDictionary, NSObject, NSString;
-@protocol OS_os_log;
+@class NSString;
 
 @interface WFLoggerOsLog : WFLoggerBase
 {
     struct __CFString *_subSystem;
-    struct __CFString *_category;
-    NSObject<OS_os_log> *_osLog;
-    NSMutableDictionary *_profileSettings;
-    unsigned long long _currentLevel;
-    unsigned long long _logLifeSpanInDays;
 }
 
 + (unsigned char);
 + (void);
-- (void);
+- (void)ansformableP;
 - (unsigned char);
 - (id);
+- (void);
+- (void);
+- (unsigned long long);
+- (id);
+- (id);
+- (unsigned char);
+- (id);
+- (id);
+- (unsigned char)zonesPendingReentry;
+- (unsigned long long)invitationWithCourseIdentifier: /* Error: Ran out of types for this method. */;
+- (unsigned char);
+- (void);
+- (unsigned long long);
+- (unsigned char);
+- (unsigned char);
+- (unsigned long long);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id)d currency code %llu;
+- (unsigned char);
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
-- (unsigned char);
-- (id);
-- (id);
-- (unsigned char);
-- (unsigned long long);
-- (unsigned char);
-- (void);
-- (unsigned long long);
-- (unsigned char);
-- (unsigned char);
-- (unsigned long long);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (unsigned char);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (void)dateLinkQuality:(unsigned long long)arg1 forSession: /* Error: Ran out of types for this method. */;
+- (void)updateLinkQuality:(unsigned long long)arg1 forSession: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, getter=getProfileFilePath) NSString *profileFilePath;

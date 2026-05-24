@@ -6,6 +6,6 @@
 
 @interface UnknownClass (CalculateUI)
 - (void);
-- (void);
+- (void)`;
 @end
 

@@ -4,48 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface GEOTerritoryRegulatoryInfo
 {
     _Bool _disputed;
-    unsigned long long _uniqueIdentifier;
-    NSString *_iso3166CountryCode3;
-    NSString *_iso3166CountryCode2;
-    NSString *_disputedTerritoryName;
-    NSArray *_interestedPartyIso3166CountryCodes3;
-    NSArray *_interestedPartyIso3166CountryCodes2;
-    long long _coastalWaters;
 }
 
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)`";
 - (unsigned long long);
 - (id)!$Aù¹*ð1Â0@ù
 × ;
-- (id)errideAmount;
-- (_Bool)isInstrumentClusterEnabled;
-- (_Bool)ty;
+- (id)overrideAmount;
+- (_Bool)_isInstrumentClusterEnabled;
+- (_Bool)_brandDensity;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isCoastalWaters) long long coastalWaters; // @synthesize coastalWaters=_coastalWaters;
-@property(readonly, nonatomic, getter=isDisputed) _Bool disputed; // @synthesize disputed=_disputed;
-@property(readonly, nonatomic) NSString *disputedTerritoryName; // @synthesize disputedTerritoryName=_disputedTerritoryName;
-@property(readonly, nonatomic) NSArray *interestedPartyIso3166CountryCodes;
-@property(readonly, nonatomic) NSArray *interestedPartyIso3166CountryCodes2; // @synthesize interestedPartyIso3166CountryCodes2=_interestedPartyIso3166CountryCodes2;
-@property(readonly, nonatomic) NSArray *interestedPartyIso3166CountryCodes3; // @synthesize interestedPartyIso3166CountryCodes3=_interestedPartyIso3166CountryCodes3;
-@property(readonly, nonatomic) NSString *iso3166CountryCode;
-@property(readonly, nonatomic) NSString *iso3166CountryCode2; // @synthesize iso3166CountryCode2=_iso3166CountryCode2;
-@property(readonly, nonatomic) NSString *iso3166CountryCode3; // @synthesize iso3166CountryCode3=_iso3166CountryCode3;
 @property(readonly, nonatomic) unsigned long long uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end

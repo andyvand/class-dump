@@ -19,14 +19,12 @@ __attribute__((visibility("hidden")))
 × ;
 - (CDUnknownBlockType);
 - (void)56Q64;
-- (id)ontainer: /* Error: Ran out of types for this method. */;
+- (id)textLayoutManager:textViewportLayoutControllerForTextContainer: /* Error: Ran out of types for this method. */;
 - (id)há;
 - (void)1ÁÕ4R^;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType actionFilter; // @synthesize actionFilter=_actionFilter;
 @property(readonly, nonatomic) UIBarButtonItem *barButtonItem; // @synthesize barButtonItem=_barButtonItem;
-@property(readonly, nonatomic) SEL proxyAction;
 
 @end
 

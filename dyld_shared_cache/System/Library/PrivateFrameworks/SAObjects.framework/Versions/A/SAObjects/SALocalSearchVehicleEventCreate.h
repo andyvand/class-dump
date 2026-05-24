@@ -6,14 +6,14 @@
 
 #import <SAObjects/SADomainCommand.h>
 
-@class NSString, SALocation;
+@class SALocation;
 
 @interface SALocalSearchVehicleEventCreate : SADomainCommand
 {
 }
 
 + (id);
-+ (id);
++ (id)C;
 - (id);
 - (id);
 - (id);
@@ -24,7 +24,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SALocation *location;
-@property(copy, nonatomic) NSString *notes;
 
 @end
 

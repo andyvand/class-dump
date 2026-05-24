@@ -9,16 +9,15 @@
 @interface PCDistributedLock
 {
     NSString *_path;
-    int _fd;
 }
 
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 
 @end

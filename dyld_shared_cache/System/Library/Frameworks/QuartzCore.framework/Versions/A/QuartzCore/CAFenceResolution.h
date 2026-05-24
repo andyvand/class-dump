@@ -11,7 +11,7 @@
 
 - (id);
 - (id);
-- (double);
+- (double)@0:8@16f24@28 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) double time; // @synthesize time=_time;

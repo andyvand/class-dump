@@ -7,23 +7,6 @@
 @interface AWDLibnetcoreTCPStatsReport
 {
     unsigned long long _tcpConnectionAccepts;
-    unsigned long long _tcpConnectionAttempts;
-    unsigned long long _tcpIPv4AvgRTT;
-    unsigned long long _tcpIPv6AvgRTT;
-    unsigned long long _tcpRecvPLR;
-    unsigned long long _tcpSendPLR;
-    unsigned long long _tcpSendReorderRate;
-    unsigned long long _tcpSendTLRTO;
-    struct {
-        unsigned int tcpConnectionAccepts:1;
-        unsigned int tcpConnectionAttempts:1;
-        unsigned int tcpIPv4AvgRTT:1;
-        unsigned int tcpIPv6AvgRTT:1;
-        unsigned int tcpRecvPLR:1;
-        unsigned int tcpSendPLR:1;
-        unsigned int tcpSendReorderRate:1;
-        unsigned int tcpSendTLRTO:1;
-    } _has;
 }
 
 - (unsigned long long);
@@ -32,8 +15,13 @@
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
+- (unsigned long long)qa;
 - (unsigned long long);
-- (unsigned long long);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -41,17 +29,12 @@
 - (void);
 - (void);
 - (void);
+- (void)Rs ;
+- (void)aNh ;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)J;
 - (_Bool);
-- (_Bool);
+- (_Bool));
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -59,32 +42,17 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (void)!;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long))=;
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasTcpConnectionAccepts;
-@property(nonatomic) _Bool hasTcpConnectionAttempts;
 @property(nonatomic) _Bool hasTcpIPv4AvgRTT;
-@property(nonatomic) _Bool hasTcpIPv6AvgRTT;
-@property(nonatomic) _Bool hasTcpRecvPLR;
-@property(nonatomic) _Bool hasTcpSendPLR;
-@property(nonatomic) _Bool hasTcpSendReorderRate;
-@property(nonatomic) _Bool hasTcpSendTLRTO;
-@property(nonatomic) unsigned long long tcpConnectionAccepts; // @synthesize tcpConnectionAccepts=_tcpConnectionAccepts;
-@property(nonatomic) unsigned long long tcpConnectionAttempts; // @synthesize tcpConnectionAttempts=_tcpConnectionAttempts;
-@property(nonatomic) unsigned long long tcpIPv4AvgRTT; // @synthesize tcpIPv4AvgRTT=_tcpIPv4AvgRTT;
-@property(nonatomic) unsigned long long tcpIPv6AvgRTT; // @synthesize tcpIPv6AvgRTT=_tcpIPv6AvgRTT;
-@property(nonatomic) unsigned long long tcpRecvPLR; // @synthesize tcpRecvPLR=_tcpRecvPLR;
-@property(nonatomic) unsigned long long tcpSendPLR; // @synthesize tcpSendPLR=_tcpSendPLR;
-@property(nonatomic) unsigned long long tcpSendReorderRate; // @synthesize tcpSendReorderRate=_tcpSendReorderRate;
-@property(nonatomic) unsigned long long tcpSendTLRTO; // @synthesize tcpSendTLRTO=_tcpSendTLRTO;
 
 @end
 

@@ -6,21 +6,20 @@
 
 #import <Vision/VNStatefulRequest.h>
 
-@class NSArray, VNTrackMaskDetectorState;
+@class VNTrackMaskDetectorState;
 
 @interface VNTrackMaskRequest : VNStatefulRequest
 {
     VNTrackMaskDetectorState *_state;
-    _Bool _generateCropRect;
 }
 
-+ (Class);
++ (Class)ensionContext fetchServicesForItemID:allowRestrictedSources:completionHandler:]_block_invoke_2 /* Error: Ran out of types for this method. */;
 + (const CDStruct_3a02d5a8 *);
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)dsds_unknown_number_SIM_line_picker;
 - (void)urve at point index %d;
 - (_Bool)¿ÿ4ìäPát¦T0È;
 - (id);
@@ -28,7 +27,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool generateCropRect; // @synthesize generateCropRect=_generateCropRect;
-@property(readonly, copy) NSArray *results; // @dynamic results;
 
 @end
 

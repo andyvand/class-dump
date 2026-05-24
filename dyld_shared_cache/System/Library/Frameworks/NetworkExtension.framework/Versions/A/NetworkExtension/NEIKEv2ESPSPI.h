@@ -12,8 +12,8 @@
 }
 
 - (id);
-- (id);
-- (unsigned long long);
+- (id)ishedMS ;
+- (unsigned long long)@;
 - (_Bool);
 - (id);
 - (unsigned int);

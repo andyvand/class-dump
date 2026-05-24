@@ -12,13 +12,12 @@ __attribute__((visibility("hidden")))
 @interface WDArrayIterator : WDIterator
 {
     NSArray *mArray;
-    unsigned int mNextIndex;
 }
 
 - (_Bool);
 - (id);
 - (void)lu;
-- (id);
+- (id)E;
 
 @end
 

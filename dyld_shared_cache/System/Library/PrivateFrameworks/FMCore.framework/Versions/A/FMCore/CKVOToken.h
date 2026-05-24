@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface CKVOToken
 {
     NSString *_keypath;
-    long long _index;
-    CDUnknownBlockType _block;
 }
 
 - (id);
@@ -23,9 +21,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;
-@property(readonly, nonatomic) void *context;
-@property(readonly, nonatomic) long long index; // @synthesize index=_index;
 @property(readonly, copy, nonatomic) NSString *keypath; // @synthesize keypath=_keypath;
 
 @end

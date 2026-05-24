@@ -6,12 +6,11 @@
 
 #import <CoreHandwriting/CHRemoteRecognizer.h>
 
-@class NSArray, NSSet, NSString;
+@class NSSet;
 
 @interface CHRemoteMathRecognizer : CHRemoteRecognizer
 {
     NSSet *_declaredVariables;
-    NSArray *_locales;
 }
 
 - (void);
@@ -19,24 +18,13 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(retain, nonatomic) NSSet *declaredVariables; // @synthesize declaredVariables=_declaredVariables;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool enableCachingIfAvailable;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *locales; // @synthesize locales=_locales;
-@property(nonatomic) unsigned long long maxRecognitionResultCount;
-@property(nonatomic) struct CGSize minimumDrawingSize;
-@property(readonly) Class superclass;
 
 @end
 

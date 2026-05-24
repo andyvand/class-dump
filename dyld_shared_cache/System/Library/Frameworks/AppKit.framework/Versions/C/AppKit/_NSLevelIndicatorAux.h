@@ -4,37 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSImage;
+@class NSColor;
 
 __attribute__((visibility("hidden")))
 @interface _NSLevelIndicatorAux
 {
     NSColor *_customFillColor;
-    NSColor *_customWarningFillColor;
-    NSColor *_customCriticalFillColor;
-    NSImage *_customRatingImage;
-    NSImage *_customRatingPlaceholderImage;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)o;
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id)ithTileID:(struct _NSZone *)arg1;
+- (id)uspend reading from stream;
+- (id)fullScreenSpaceWithTileID:(struct _NSZone *)arg1;
 - (void)tte;
 
 // Remaining properties
-@property(copy) NSColor *customCriticalFillColor; // @synthesize customCriticalFillColor=_customCriticalFillColor;
 @property(copy) NSColor *customFillColor; // @synthesize customFillColor=_customFillColor;
-@property(retain) NSImage *customRatingImage; // @synthesize customRatingImage=_customRatingImage;
-@property(retain) NSImage *customRatingPlaceholderImage; // @synthesize customRatingPlaceholderImage=_customRatingPlaceholderImage;
-@property(copy) NSColor *customWarningFillColor; // @synthesize customWarningFillColor=_customWarningFillColor;
 
 @end
 

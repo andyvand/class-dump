@@ -5,10 +5,10 @@
 //
 
 @protocol CRTextRecognizerModel
+- (void);
+- (int *);
 
 // Remaining properties
 @property(readonly, nonatomic) int *codemapArray;
-@property(readonly, nonatomic) long long ctcBlankLabelIndex;
-@property(readonly, nonatomic) _Bool supportCharacterBoxes;
 @end
 

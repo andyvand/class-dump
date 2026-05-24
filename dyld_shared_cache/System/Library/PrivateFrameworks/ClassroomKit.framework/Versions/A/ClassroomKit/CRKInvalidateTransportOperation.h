@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATTransport, NSString;
+@class CATTransport;
 
 @interface CRKInvalidateTransportOperation
 {
     CATTransport *_transport;
 }
 
-- (id);
+- (id)er:(id)arg1;
 - (void);
 - (void);
-- (id);
+- (id)m;
 - (void);
 - (_Bool)M;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) CATTransport *transport; // @synthesize transport=_transport;
 
 @end

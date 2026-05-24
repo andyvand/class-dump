@@ -11,8 +11,6 @@
 @interface PXChangePeopleTypeAction : PXPhotosAction
 {
     id <PXFastEnumeration> _collections;
-    unsigned long long _firstManualOrder;
-    long long _type;
 }
 
 - (void);
@@ -27,7 +25,6 @@
 - (id)>;
 
 // Remaining properties
-@property(nonatomic) unsigned long long firstManualOrder; // @synthesize firstManualOrder=_firstManualOrder;
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end

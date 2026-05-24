@@ -9,8 +9,6 @@
 @interface AppStoreKit.BaseShelfPresenter : AppStoreKit.BasePresenter
 {
     id incompleteShelfFetches;
-    id isFetchingShelves;
-    id activeRequests;
 }
 
 @end

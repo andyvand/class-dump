@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXTextExclusionPath, TSDWrapPolygon;
-
 @interface SXTextExclusionPathWrapper
 {
     _Bool _isRectangular;
-    SXTextExclusionPath *_exclusionPath;
-    TSDWrapPolygon *_myWrapPolygon;
 }
 
 - (id);
@@ -29,17 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) __weak SXTextExclusionPath *exclusionPath; // @synthesize exclusionPath=_exclusionPath;
-@property(readonly, nonatomic) _Bool hasAlpha;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) _Bool isRectangular; // @synthesize isRectangular=_isRectangular;
-@property(readonly, nonatomic) TSDWrapPolygon *myWrapPolygon; // @synthesize myWrapPolygon=_myWrapPolygon;
-@property(readonly) Class superclass;
 
 @end
 

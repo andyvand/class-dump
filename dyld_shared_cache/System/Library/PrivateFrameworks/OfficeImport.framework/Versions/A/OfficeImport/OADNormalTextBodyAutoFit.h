@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface OADNormalTextBodyAutoFit : OADTextBodyAutoFit
 {
     float mFontScalePercent;
-    float mLineSpacingReductionPercent;
 }
 
 - (float);

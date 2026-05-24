@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IXDataPromiseSeed, NSError, NSString, NSURL, NSUUID;
+@class IXDataPromiseSeed;
 
 @interface IXDataPromise
 {
     struct os_unfair_lock_s _ivarLock;
-    _Bool _complete;
-    NSError *_error;
-    unsigned long long _errorSourceIdentifier;
-    IXDataPromiseSeed *_seed;
 }
 
 + (_Bool);
@@ -23,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)T;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -38,39 +34,26 @@
 - (void);
 - (void);
 - (id);
+- (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)i;
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
 - (id);
+- (void)`;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)fier-%.8lX;
 - (double);
 - (id)because real component counts don't make sense (reals %@ ; %@);
 
 // Remaining properties
-@property(nonatomic, getter=isComplete) _Bool complete; // @synthesize complete=_complete;
-@property(readonly, nonatomic) unsigned long long creatorIdentifier; // @dynamic creatorIdentifier;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) NSError *errorOccurred;
-@property(readonly, nonatomic) unsigned long long errorSourceIdentifier; // @synthesize errorSourceIdentifier=_errorSourceIdentifier;
-@property(readonly, nonatomic) NSError *localError; // @dynamic localError;
-@property(readonly, nonatomic) _Bool localIsComplete; // @dynamic localIsComplete;
-@property(readonly, copy, nonatomic) NSString *name; // @dynamic name;
-@property(nonatomic) double percentComplete; // @dynamic percentComplete;
-@property(readonly, nonatomic) NSURL *preflightPath; // @dynamic preflightPath;
 @property(retain, nonatomic) IXDataPromiseSeed *seed; // @synthesize seed=_seed;
-@property(readonly, nonatomic) Class seedClass;
-@property(readonly, nonatomic) unsigned long long totalBytesNeededOnDisk; // @dynamic totalBytesNeededOnDisk;
-@property(readonly, nonatomic) NSUUID *uniqueIdentifier; // @dynamic uniqueIdentifier;
 
 @end
 

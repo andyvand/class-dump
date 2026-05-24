@@ -6,30 +6,24 @@
 
 #import <ChatKit/CKBalloonView.h>
 
-@class NSString, PXAssetReference, PXAssetsDataSourceManager, PXMessagesStackView, PXUIMediaProvider, UIView;
-@protocol CKGradientReferenceView;
+@class PXMessagesStackView;
 
 @interface CKGenericPhotoStackBalloonView : CKBalloonView
 {
     _Bool _wantsContactImageLayout;
-    PXMessagesStackView *_stackView;
-    UIView<CKGradientReferenceView> *_gradientReferenceView;
-    PXUIMediaProvider *_mediaProvider;
-    PXAssetsDataSourceManager *_dataSourceManager;
-    double _horizontalContentMargin;
 }
 
 + (id);
+- (_Bool)ic_emphasisBackgroudColorFromColor: /* Error: Ran out of types for this method. */;
+- (void)ObjectIDs;
+- (void)ICInvitationsCoreDataIndexer;
+- (void);
+- (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
-- (_Bool);
-- (double);
-- (id);
-- (id);
+- (double)t;
+- (id)isting share for %@, includeHierarchicalShare=%@;
+- (id)@;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -47,24 +41,11 @@
 × ;
 - (void)ð1Â0@ù
 × ;
-- (void)iption;
+- (void)CKCompositionAdaptiveImageGlyphContentDescription;
 - (void)ØH;
 
 // Remaining properties
-@property(readonly, nonatomic) PXAssetReference *currentAssetReference;
-@property(retain, nonatomic) PXAssetsDataSourceManager *dataSourceManager; // @synthesize dataSourceManager=_dataSourceManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak UIView<CKGradientReferenceView> *gradientReferenceView; // @synthesize gradientReferenceView=_gradientReferenceView;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double horizontalContentMargin; // @synthesize horizontalContentMargin=_horizontalContentMargin;
-@property(retain, nonatomic) PXUIMediaProvider *mediaProvider; // @synthesize mediaProvider=_mediaProvider;
 @property(readonly, nonatomic) PXMessagesStackView *stackView; // @synthesize stackView=_stackView;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool wantsContactImageLayout; // @synthesize wantsContactImageLayout=_wantsContactImageLayout;
 
 @end
 

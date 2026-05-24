@@ -6,12 +6,9 @@
 
 #import <IMSharedUtilities/IMDiskSpaceFileInfo.h>
 
-@class NSString;
-
 @interface IMDiskSpaceFileManagerFileInfo : IMDiskSpaceFileInfo
 {
     unsigned long long _purgableFlags;
-    NSString *_purgableFlagsString;
 }
 
 - (id);
@@ -22,7 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long purgableFlags; // @synthesize purgableFlags=_purgableFlags;
-@property(readonly, nonatomic) NSString *purgableFlagsString; // @synthesize purgableFlagsString=_purgableFlagsString;
 
 @end
 

@@ -4,36 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSError, NSObject, NSUUID;
+@class NSObject, NSUUID;
 @protocol OS_xpc_object;
 
 @interface ISGenerationResponse
 {
     NSUUID *_uuid;
-    NSData *_validationToken;
-    NSError *_error;
-    NSObject<OS_xpc_object> *_sharedMemory;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)not found;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) NSData *data; // @dynamic data;
-@property(readonly) NSError *error; // @synthesize error=_error;
 @property(retain) NSObject<OS_xpc_object> *sharedMemory; // @synthesize sharedMemory=_sharedMemory;
-@property(readonly) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property(readonly) NSData *validationToken; // @synthesize validationToken=_validationToken;
 
 @end
 

@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAutocompleteResult, CNContact, MFComposeRecipientOriginContext, NSArray, NSString;
+@class NSString;
 
 @interface MFComposeRecipient
 {
     NSString *_address;
-    NSString *_label;
-    NSString *_countryCode;
-    NSString *_displayString;
-    unsigned long long _sourceType;
-    NSArray *_cachedCompleteMatches;
-    NSArray *_cachedMatchedStrings;
-    NSArray *_cachedSortedMembers;
-    CNAutocompleteResult *_autocompleteResult;
-    CNContact *_contact;
-    NSString *_contactIdentifier;
-    NSString *_valueIdentifier;
-    NSString *_compositeName;
-    NSString *_unlocalizedLabel;
-    MFComposeRecipientOriginContext *_originContext;
-    unsigned long long _kind;
 }
 
 + (id);
@@ -51,27 +36,27 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)personalNicknameDecryptionKey;
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)LPContactsBadgeView;
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)16;
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)B;
 - (id);
 - (void);
+- (id).chat_identifier FROM chat c WHERE (c.chat_identifier IS NOT NULL AND substr(c.guid, 1, 4) !=  ? ) LIMIT 32;;
 - (id);
+- (id)(;
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)ASAuthorizationPublicKeyCredentialParameters;
 - (void);
 - (void);
 - (id);
@@ -80,32 +65,10 @@
 - (id);
 - (void)ñp°1Â0@ù
 × ;
-- (unsigned long long)ictationInfo;
+- (unsigned long long)forceDefaultDictationInfo;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *address; // @dynamic address;
-@property(retain, nonatomic) CNAutocompleteResult *autocompleteResult; // @synthesize autocompleteResult=_autocompleteResult;
-@property(readonly, nonatomic) NSString *commentedAddress; // @dynamic commentedAddress;
-@property(readonly, nonatomic) NSString *compositeName; // @dynamic compositeName;
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(copy, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
 @property(retain, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(copy, nonatomic) NSString *displayString; // @synthesize displayString=_displayString;
-@property(readonly, nonatomic) _Bool isDirectoryServerResult;
-@property(readonly, nonatomic) _Bool isGroup;
-@property(readonly, nonatomic) _Bool isSuggestedRecipient;
-@property(readonly, nonatomic) unsigned long long kind; // @synthesize kind=_kind;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly, nonatomic) NSString *normalizedAddress; // @dynamic normalizedAddress;
-@property(retain, nonatomic) MFComposeRecipientOriginContext *originContext; // @synthesize originContext=_originContext;
-@property(readonly, nonatomic) NSString *placeholderName; // @dynamic placeholderName;
-@property(readonly, nonatomic, getter=isRemovableFromSearchResults) _Bool removableFromSearchResults;
-@property(readonly, nonatomic) NSString *shortName; // @dynamic shortName;
-@property(readonly, nonatomic) _Bool showsAccessoryButton;
-@property(nonatomic) unsigned long long sourceType; // @synthesize sourceType=_sourceType;
-@property(readonly, nonatomic) NSString *uncommentedAddress; // @dynamic uncommentedAddress;
-@property(copy, nonatomic) NSString *unlocalizedLabel; // @synthesize unlocalizedLabel=_unlocalizedLabel;
-@property(copy, nonatomic) NSString *valueIdentifier; // @synthesize valueIdentifier=_valueIdentifier;
 
 @end
 

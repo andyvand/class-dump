@@ -6,47 +6,38 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PLUSSchemaPLUSContactSuggestion;
+@class PLUSSchemaPLUSContactSuggestion;
 
 @interface PLUSSchemaPLUSContactSuggestionGenerated : SISchemaInstrumentationMessage
 {
     PLUSSchemaPLUSContactSuggestion *_generatedSuggestion;
-    _Bool _isSuggestionUpdated;
-    struct {
-        unsigned int isSuggestionUpdated:1;
-    } _has;
-    _Bool _hasGeneratedSuggestion;
 }
 
 - (void);
-- (void);
+- (void)T?;
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)dB;
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)_;
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)ently Deleted | Parts:(id)arg1 Finished removing recoverable message parts for message GUID:%@ /* Error: Ran out of types for this method. */;
+- (id);
 - (id)
 × ;
-- (id)peakerIdModelSampleManifestReported;
+- (id)_hasSpeakerIdModelSampleManifestReported;
 - (id)eted;
 - (void)ent.CNVDecisionEngineResponseReported;
 
 // Remaining properties
 @property(retain, nonatomic) PLUSSchemaPLUSContactSuggestion *generatedSuggestion; // @synthesize generatedSuggestion=_generatedSuggestion;
-@property(nonatomic) _Bool hasGeneratedSuggestion; // @synthesize hasGeneratedSuggestion=_hasGeneratedSuggestion;
-@property(nonatomic) _Bool hasIsSuggestionUpdated;
-@property(nonatomic) _Bool isSuggestionUpdated; // @synthesize isSuggestionUpdated=_isSuggestionUpdated;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

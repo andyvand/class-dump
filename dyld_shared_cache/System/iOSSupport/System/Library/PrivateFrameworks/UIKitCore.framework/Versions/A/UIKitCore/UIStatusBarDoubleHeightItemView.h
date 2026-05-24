@@ -12,13 +12,11 @@ __attribute__((visibility("hidden")))
 @interface UIStatusBarDoubleHeightItemView : UIStatusBarItemView
 {
     NSString *_contentsString;
-    double _letterSpacing;
-    _Bool _ellipsize;
 }
 
-- (_Bool);
-- (double);
-- (id);
+- (_Bool)_submitAndOpenTapToRadarForInvalidFeatureFlagConfiguration;
+- (double)ability result from unexpected push token %@;
+- (id)nloading asset at the end of batch fetch for transfer:%@ addedTransfer %@ for messageItem:%@ groupPhotoUpdate:%@ /* Error: Ran out of types for this method. */;
 - (void)Xâb;
 
 @end

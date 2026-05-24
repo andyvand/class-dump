@@ -5,5 +5,6 @@
 //
 
 @protocol HAP2AccessoryServerDiscoveryDelegate
+- (void);
 @end
 

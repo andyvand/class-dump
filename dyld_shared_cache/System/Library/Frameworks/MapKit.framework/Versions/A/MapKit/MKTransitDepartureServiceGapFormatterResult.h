@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface MKTransitDepartureServiceGapFormatterResult
 {
     NSString *_format;
-    NSString *_dateDescription;
-    unsigned long long _dateFormat;
 }
 
 - (id);
@@ -19,13 +17,10 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (id);
-- (void)er;
+- (void)removeFromParentViewController;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *dateDescription; // @synthesize dateDescription=_dateDescription;
-@property(readonly, nonatomic) unsigned long long dateFormat; // @synthesize dateFormat=_dateFormat;
 @property(readonly, copy, nonatomic) NSString *format; // @synthesize format=_format;
-@property(readonly, nonatomic) NSString *formattedString;
 
 @end
 

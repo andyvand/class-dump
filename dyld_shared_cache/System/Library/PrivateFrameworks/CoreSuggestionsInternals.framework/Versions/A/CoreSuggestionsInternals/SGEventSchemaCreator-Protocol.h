@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary;
+
 @protocol SGEventSchemaCreator
+- (_Bool)containsObject:(NSDictionary *)arg1;
 @end
 

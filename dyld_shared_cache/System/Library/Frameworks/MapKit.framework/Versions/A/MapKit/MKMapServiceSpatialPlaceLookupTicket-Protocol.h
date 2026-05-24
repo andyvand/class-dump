@@ -7,6 +7,8 @@
 @class GEOMapRegion;
 
 @protocol MKMapServiceSpatialPlaceLookupTicket
+- (GEOMapRegion *)kCBL2CAPChannelCreditsAckDelta;
+- (void)4Z;
 
 // Remaining properties
 @property(readonly, nonatomic) GEOMapRegion *boundingRegion;

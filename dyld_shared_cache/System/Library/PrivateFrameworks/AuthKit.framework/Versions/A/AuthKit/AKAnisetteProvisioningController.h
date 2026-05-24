@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKClientConnectionLifecycleManager, AKDevice;
-@protocol AKAnisetteServiceProtocol;
+@class AKDevice;
 
 @interface AKAnisetteProvisioningController
 {
     AKDevice *_targetDevice;
-    id <AKAnisetteServiceProtocol> _anisetteDataProvider;
-    AKClientConnectionLifecycleManager *_connectionManager;
-    unsigned long long _timeSetOperationResult;
 }
 
 - (void);
@@ -20,12 +16,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)+;
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)(!;
 - (id);
 - (void);
 - (id);
@@ -49,7 +45,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)rror:(_Bool)arg1 %{public}@;
 - (void);
 - (void)°ð;
 - (void);
@@ -57,10 +53,7 @@
 ¢U³ÜùÐÈÅÄáöh9aËïRgåXEüv»©áÒ´ø¿u]HiFñ+NÑR/âþL/õUùÆ"6ÞQ2b-QeÀR³ó+1d5BW$Võ@TO#sø,ä[(Ò×÷KpûÄC²ãÔ5ç½ÿðÍæTÃasTÂ¥gnâ±3SÓg /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) id <AKAnisetteServiceProtocol> anisetteDataProvider; // @synthesize anisetteDataProvider=_anisetteDataProvider;
-@property(retain, nonatomic) AKClientConnectionLifecycleManager *connectionManager; // @synthesize connectionManager=_connectionManager;
 @property(retain, nonatomic) AKDevice *targetDevice; // @synthesize targetDevice=_targetDevice;
-@property unsigned long long timeSetOperationResult; // @synthesize timeSetOperationResult=_timeSetOperationResult;
 
 @end
 

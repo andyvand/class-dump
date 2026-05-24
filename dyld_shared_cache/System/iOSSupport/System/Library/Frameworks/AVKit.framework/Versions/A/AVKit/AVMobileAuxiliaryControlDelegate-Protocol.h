@@ -5,5 +5,6 @@
 //
 
 @protocol AVMobileAuxiliaryControlDelegate
+- (void)`;
 @end
 

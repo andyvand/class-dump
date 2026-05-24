@@ -9,23 +9,19 @@
 @interface MSASCommentChange
 {
     int _deletionIndex;
-    int _type;
-    MSASComment *_comment;
 }
 
-- (void);
-- (int);
-- (void);
+- (void)updates as there is no home location;
+- (int)r HAP (Interrupt Characteristic does not exist);
+- (void)A;
 - (id);
-- (id);
-- (int);
+- (id)لزبابه;
+- (int)poDetectGBBedMostSevereCost;
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) MSASComment *comment; // @synthesize comment=_comment;
-@property(nonatomic) int deletionIndex; // @synthesize deletionIndex=_deletionIndex;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

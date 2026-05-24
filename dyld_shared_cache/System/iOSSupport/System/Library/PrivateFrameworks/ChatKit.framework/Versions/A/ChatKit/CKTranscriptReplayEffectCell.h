@@ -11,7 +11,7 @@
 }
 
 - (_Bool);
-- (double);
+- (double)textContentStorageCreateIfNeeded;
 
 @end
 

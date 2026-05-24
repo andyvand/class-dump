@@ -6,21 +6,21 @@
 
 #import <EventKit/EKObject.h>
 
-@class EKCalendar, EKCalendarItem, NSDate, NSNumber, NSString, NSURL;
+@class EKCalendar;
 
 @interface EKResourceChange : EKObject
 {
 }
 
-+ (id);
-+ (id);
++ (id)<%@> processing clientStateDidChange.;
++ (id)sanceSession.m;
 + (id);
 + (Class);
 - (_Bool);
-- (_Bool);
-- (unsigned int);
+- (_Bool)<;
+- (unsigned int);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
@@ -28,10 +28,10 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)sion:(unsigned int)arg1 %{public}@;
+- (_Bool)for %@;
 - (id);
-- (unsigned int);
+- (unsigned int);
 - (_Bool);
 - (id);
 - (id);
@@ -46,39 +46,7 @@
 - (id)ent singular hour;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool alerted;
 @property(readonly, retain, nonatomic) EKCalendar *calendar;
-@property(readonly, retain, nonatomic) EKCalendarItem *calendarItem;
-@property(readonly, nonatomic) unsigned int changeType;
-@property(readonly, copy, nonatomic) NSURL *changedByAddress;
-@property(readonly, copy, nonatomic) NSString *changedByDisplayName;
-@property(readonly, copy, nonatomic) NSString *changedByFirstName;
-@property(readonly, copy, nonatomic) NSString *changedByLastName;
-@property(readonly, nonatomic) NSNumber *createCount;
-@property(readonly, nonatomic) _Bool dateChanged;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSNumber *deleteCount;
-@property(readonly, nonatomic) NSString *deletedTitle;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isCurrentUserForScheduling;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool isCurrentUserForSharing;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool locationChanged;
-@property(readonly, nonatomic) unsigned int publicStatus;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool timeChanged;
-@property(readonly, copy, nonatomic) NSDate *timestamp;
-@property(readonly, nonatomic) _Bool titleChanged;
-@property(readonly, nonatomic) NSNumber *updateCount;
 
 @end
 

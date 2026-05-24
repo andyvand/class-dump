@@ -4,24 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, NSString, PGGraphLocationHelper, PGIncompleteLocationResolver;
+@class NSSet, PGGraphLocationHelper;
 
 @interface PGLocationTripTitleUtility
 {
     PGGraphLocationHelper *_locationHelper;
-    _Bool _filterMomentsAndCities;
-    _Bool _allowLongAOI;
-    NSString *_title;
-    NSSet *_usedLocationNodes;
-    NSSet *_momentNodes;
-    PGIncompleteLocationResolver *_incompleteLocationResolver;
-    NSArray *_usedTitleComponents;
-    unsigned long long _tripTitleType;
-    unsigned long long _tripTitleLocationType;
-    NSSet *_filteredLocationNodes;
 }
 
-+ (_Bool);
++ (_Bool)initWithString:(id)arg1 tokenizerUnit:(id)arg2 locale:(id)arg3;
 + (id);
 + (void);
 + (void);
@@ -35,12 +25,12 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)_attachmentDescriptionForAttributedString:(id)arg1 forContainingElement:(_Bool)arg2 type:(id)arg3 singleCharCheck: /* Error: Ran out of types for this method. */;
+- (id)_applicationQueue;
+- (id)_AXKAlertButton;
+- (id)LibCall_ACMGlobalContextCredentialGetProperty;
+- (_Bool)ACMContextContainsPassphraseCredentialWithPurpose;
 - (_Bool);
-- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -50,21 +40,12 @@
 - (void);
 - (void);
 - (void);
-- (id)opics:bundleId:date:error: /* Error: Ran out of types for this method. */;
+- (id)donatePhotosTopics:bundleId:date:error: /* Error: Ran out of types for this method. */;
 - (void)u representative assets, ;
 - (id)ÿÿÿàJýÿ ±ÿ¤Eÿÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool allowLongAOI; // @synthesize allowLongAOI=_allowLongAOI;
-@property(nonatomic) _Bool filterMomentsAndCities; // @synthesize filterMomentsAndCities=_filterMomentsAndCities;
-@property(retain, nonatomic) NSSet *filteredLocationNodes; // @synthesize filteredLocationNodes=_filteredLocationNodes;
-@property(retain, nonatomic) PGIncompleteLocationResolver *incompleteLocationResolver; // @synthesize incompleteLocationResolver=_incompleteLocationResolver;
 @property(retain, nonatomic) NSSet *momentNodes; // @synthesize momentNodes=_momentNodes;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) unsigned long long tripTitleLocationType; // @synthesize tripTitleLocationType=_tripTitleLocationType;
-@property(readonly, nonatomic) unsigned long long tripTitleType; // @synthesize tripTitleType=_tripTitleType;
-@property(retain, nonatomic) NSSet *usedLocationNodes; // @synthesize usedLocationNodes=_usedLocationNodes;
-@property(retain, nonatomic) NSArray *usedTitleComponents; // @synthesize usedTitleComponents=_usedTitleComponents;
 
 @end
 

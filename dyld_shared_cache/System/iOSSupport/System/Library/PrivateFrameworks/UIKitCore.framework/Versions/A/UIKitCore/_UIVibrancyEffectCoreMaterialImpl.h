@@ -6,29 +6,24 @@
 
 #import <UIKitCore/_UIVibrancyEffectImpl.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UIVibrancyEffectCoreMaterialImpl : _UIVibrancyEffectImpl
 {
     long long _blurStyle;
-    long long _vibrancyStyle;
-    NSString *_lightMaterial;
-    NSString *_darkMaterial;
 }
 
 - (long long);
-- (id);
-- (id);
+- (id)r:(id)arg1 thresholdsBuffer:(id)arg2 histogramBuffer:(long long)arg3 thresholdRangeBuffer:keypointsAtChosenThresholdBuffer:truncatedRegionsBuffer:tileCount:maxTileHeight: /* Error: Ran out of types for this method. */;
+- (id);
 - (unsigned long long);
 - (long long)ynamicsController";
 - (_Bool)2@0:(id)arg1 8^q16^B24;
-- (void)ontext:(id)arg1;
+- (void)touchCancelled:(id)arg1 executionContext: /* Error: Ran out of types for this method. */;
 - (void)?,C,N,V_postDismissalHandler;
 - (_Bool)elegate. Value must be at least 0.0, or UITableViewAutomaticDimension.;
 - (void)uration must have translatesAutoresizingMaskIntoConstraints enabled:(id)arg1 %@;
 - (_Bool)before starting anticipation animations;
-- (void)26_UIBarCustomizationSessionCSg;
+- (void)So26_UIBarCustomizationSessionCSg;
 
 @end
 

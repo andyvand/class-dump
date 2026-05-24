@@ -4,33 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAMediaTimingFunction;
-
 @interface NSAnimationContext
 {
 }
 
++ (void)<3;
++ (void)$/;
++ (void)k for stream %llu needs more bytes;
++ (id)id protocol-property list - CFURLRequestRef. protoProps=%@;
++ (void)z&&**,,;;XXZZL;
 + (void);
-+ (void);
-+ (void);
-+ (id);
-+ (void);
-+ (void);
-+ (_Bool);
++ (_Bool);
 + (void);
 + (void)"allowsUserCustomization"b1"allowsDisplayModeCustomization"b1"autosavesUsingIdentifier"b1"initialConfigurationDone"b1"delegateDefaultItemIdentifiers"b1"delegateAllowedItemIdentifiers"b1"delegateItemWithItemIdentifier"b1"delegateImmovableItemIdentifiers"b1"delegateCanBeInsertedAtIndex"b1"delegateNotificationsEnabled"b1"prefersToBeShown"b1"loadItemsImmediately"b1"currentItemsContainsPlaceholder"b1"customizationPanelIsRunning"b1"showsNoContextMenu"b1"currentlyLoadingPlaceholders"b1"delegateItemWithItemIdentifier2"b1"inGlobalWindow"b1"hasOwnedFullscreenViewController"b1"usesServicesItems"b1"keyboardLoopNeedsUpdating"b1"showHideDuringConfigurationChangeDisabled"b1"displayMode"b2"sizeMode"b2"hideWithoutResizingWindowHint"b1"autovalidatesItemsDisabled"b1"inAutovalidation"b1"finishedLoadingRemoteItems"b1"hideBaselineOverride"b1"isPreferenceToolbar"b1"allowsOverflowTransitionsAlways"b1"allowsExternallyPersistedDefaults"b1"alwaysUsesAVPlayerGlassVariant"b1};
-+ (void)FileButton: /* Error: Ran out of types for this method. */;
-+ (id)utosavedPreferredPosition;
++ (void)addFileButton: /* Error: Ran out of types for this method. */;
++ (id)_clearAutosavedPreferredPosition;
 + (void)ïÿw;
 + (id)2tJ;
-- (void);
-- (void);
+- (void)setCountOfBytesReceived:(CDUnknownBlockType)arg1;
+- (void)selectAllEntriesStmt;
 - (_Bool);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (_Bool);
-- (_Bool);
+- (void)0@;
+- (void)_action;
+- (CDUnknownBlockType)EffectiveConfigurationVersion;
+- (_Bool)ng, %d outstanding, %d closed;
+- (_Bool)ailed;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -45,18 +43,13 @@
 × ;
 - (void)ù
 × ;
-- (_Bool)RemoteViewCSgXw;
+- (_Bool)So16NSMenuRemoteViewCSgXw;
 - (id)height unsuccessful;
 - (void)ateFrameworks/WritingToolsUI.framework/Contents/MacOS/WritingToolsUI;
 - (_Bool)àJ;
 
 // Remaining properties
-@property _Bool allowsAsynchronousAnimation;
-@property _Bool allowsImplicitAnimation;
 @property(nonatomic) CDUnknownBlockType animationProvider;
-@property(copy) CDUnknownBlockType completionHandler;
-@property double duration;
-@property(retain) CAMediaTimingFunction *timingFunction;
 
 @end
 

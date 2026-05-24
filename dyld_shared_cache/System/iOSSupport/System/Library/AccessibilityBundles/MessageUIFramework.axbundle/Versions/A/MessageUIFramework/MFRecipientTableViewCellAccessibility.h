@@ -11,8 +11,8 @@
 }
 
 + (Class);
-+ (id);
-+ (void);
++ (id)UIFindSessionAccessibility;
++ (void)_accessibilityNodeRepresentedElement;
 - (id);
 
 @end

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKMapView, NSColor, NSGlassView, NSShadow, NSVisualEffectView, _MKUserTrackingButton;
+@class _MKUserTrackingButton;
 
 @interface MKUserTrackingButton
 {
     _MKUserTrackingButton *_button;
-    NSVisualEffectView *_effectView;
-    NSShadow *_shadow;
-    NSGlassView *_glass;
-    unsigned long long _backgroundStyle;
-    unsigned long long _controlSize;
 }
 
 + (id);
@@ -23,22 +18,19 @@
 - (unsigned long long);
 - (id);
 - (struct CGSize);
-- (id);
+- (id)was cancelled;
 - (struct CGSize);
-- (id);
+- (id)pass;
 - (void);
 - (void)ñ&ð!<Cù±*ð1Â0@ù
 × ;
-- (void)animated: /* Error: Ran out of types for this method. */;
-- (id)ableMapsSuggestServerReranking;
-- (unsigned long long)lWeightForFontWeight: /* Error: Ran out of types for this method. */;
+- (void)selectAnnotation:animated: /* Error: Ran out of types for this method. */;
+- (id)enableMapsSuggestServerReranking;
+- (unsigned long long)_symbolWeightForFontWeight: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long backgroundStyle; // @synthesize backgroundStyle=_backgroundStyle;
-@property(retain, nonatomic, getter=_contentTintColor, setter=_setContentTintColor:) NSColor *contentTintColor;
-@property(nonatomic, getter=_controlSize, setter=_setControlSize:) unsigned long long controlSize; // @synthesize controlSize=_controlSize;
-@property(nonatomic) __weak MKMapView *mapView;
 
 @end
 

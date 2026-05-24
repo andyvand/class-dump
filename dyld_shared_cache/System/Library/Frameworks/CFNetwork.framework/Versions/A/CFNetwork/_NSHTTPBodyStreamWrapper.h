@@ -10,11 +10,9 @@ __attribute__((visibility("hidden")))
 @interface _NSHTTPBodyStreamWrapper
 {
     NSInputStream *bodyStream;
-    id spoolingStream;
-    struct __CFString *backupFile;
 }
 
-- (void);
+- (void)coverkgsquare;
 
 @end
 

@@ -4,27 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-
 @interface SDTraceItem
 {
     double _startTime;
-    long long _identifier;
-    double _duration;
-    NSString *_label;
-    NSObject *_data;
-    NSString *_string;
 }
 
-+ (id);
-+ (void);
++ (id)handleColorControlAttributeReport:(double)arg1;
++ (void)handleAccessoryUpdateShouldProcessTransactionRemovalValueRequestMessage:(id)arg1;
 - (double);
 - (id);
 - (id);
 - (double);
 - (void);
-- (id);
-- (void);
+- (id)h;
+- (void)?;
 - (void);
 - (id);
 - (void);
@@ -35,12 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSObject *data; // @synthesize data=_data;
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(nonatomic) long long identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSString *label; // @synthesize label=_label;
 @property(nonatomic) double startTime; // @synthesize startTime=_startTime;
-@property(retain, nonatomic) NSString *string; // @synthesize string=_string;
 
 @end
 

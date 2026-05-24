@@ -17,8 +17,8 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (id)2;
+- (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *delayedActionAceId;

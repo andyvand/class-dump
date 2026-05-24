@@ -21,8 +21,8 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id)hild.heic;
+- (id)ium_variant_age_child.heic;
 
 // Remaining properties
 @property(retain) SFSportsFollowButtonItem *sfButtonItem; // @dynamic sfButtonItem;

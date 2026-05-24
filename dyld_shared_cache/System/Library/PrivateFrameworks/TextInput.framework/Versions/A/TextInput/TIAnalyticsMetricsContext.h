@@ -9,17 +9,16 @@
 @interface TIAnalyticsMetricsContext
 {
     NSString *_inputLanguage;
-    NSString *_inputRegion;
 }
 
 + (_Bool);
+- (id);
+- (id)G;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)N7morphun7grammar9synthesis40FiGrammarSynthesizer_CountLookupFunctionE;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)b;
 - (void);
 - (id);
 - (void)
@@ -31,8 +30,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *inputLanguage; // @synthesize inputLanguage=_inputLanguage;
-@property(readonly, nonatomic) NSString *inputLanguageAndRegion;
-@property(readonly, nonatomic) NSString *inputRegion; // @synthesize inputRegion=_inputRegion;
 
 @end
 

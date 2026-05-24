@@ -6,50 +6,15 @@
 
 #import <OfficeImport/OADProperties.h>
 
-@class OADTextBodyAutoFit, OADTextWarp;
+@class OADTextBodyAutoFit;
 
 __attribute__((visibility("hidden")))
 @interface OADTextBodyProperties : OADProperties
 {
     OADTextBodyAutoFit *mAutoFit;
-    OADTextWarp *mTextWarp;
-    float mTopInset;
-    float mLeftInset;
-    float mBottomInset;
-    float mRightInset;
-    float mRotation;
-    float mColumnSpacing;
-    unsigned short mColumnCount;
-    unsigned short mTextBodyId;
-    unsigned char mTextAnchorType;
-    unsigned char mFlowType;
-    unsigned char mWrapType;
-    unsigned char mVerticalOverflowType;
-    unsigned char mHorizontalOverflowType;
-    unsigned int mRepectFirstLastParagraphSpacing:1;
-    unsigned int mIsUpright:1;
-    unsigned int mIsAnchorCenter:1;
-    unsigned int mIsLeftToRightColumns:1;
-    unsigned int mHasVerticalOverflowType:1;
-    unsigned int mHasHorizontalOverflowType:1;
-    unsigned int mHasTextBodyId:1;
-    unsigned int mHasFlowType:1;
-    unsigned int mHasWrapType:1;
-    unsigned int mHasTextAnchorType:1;
-    unsigned int mHasIsAnchorCenter:1;
-    unsigned int mHasIsUpright:1;
-    unsigned int mHasRotation:1;
-    unsigned int mHasColumnCount:1;
-    unsigned int mHasColumnSpacing:1;
-    unsigned int mHasIsLeftToRightColumns:1;
-    unsigned int mHasRepectFirstLastParagraphSpacing:1;
-    unsigned int mHasTopInset:1;
-    unsigned int mHasLeftInset:1;
-    unsigned int mHasRightInset:1;
-    unsigned int mHasBottomInset:1;
 }
 
-+ (id);
++ (id)@9;
 + (id);
 - (unsigned char);
 - (unsigned char);
@@ -61,19 +26,25 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)qL;
 - (void);
 - (void);
 - (void);
+- (void)K@9;
+- (_Bool);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (unsigned char);
 - (_Bool);
+- (_Bool)y(;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)<;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -84,15 +55,9 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
@@ -106,9 +71,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (float);
 - (id);
-- (float);
-- (void);
-- (unsigned long long);
+- (float)y";
+- (void)H#;
+- (unsigned long long)`;
 - (void);
 - (float);
 - (void);

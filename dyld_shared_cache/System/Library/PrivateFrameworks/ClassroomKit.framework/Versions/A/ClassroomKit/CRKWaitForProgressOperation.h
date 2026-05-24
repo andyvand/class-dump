@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATOperation, CATOperationQueue;
+@class CATOperationQueue;
 
 @interface CRKWaitForProgressOperation
 {
     CATOperationQueue *_operationQueue;
-    CATOperation *_operation;
-    long long _expectedTotalUnitCount;
-    long long _expctedCompletedUnitCount;
 }
 
 - (void);
@@ -27,9 +24,6 @@
 - (_Bool)color type;
 
 // Remaining properties
-@property(readonly, nonatomic) long long expctedCompletedUnitCount; // @synthesize expctedCompletedUnitCount=_expctedCompletedUnitCount;
-@property(readonly, nonatomic) long long expectedTotalUnitCount; // @synthesize expectedTotalUnitCount=_expectedTotalUnitCount;
-@property(readonly, nonatomic) CATOperation *operation; // @synthesize operation=_operation;
 @property(readonly, nonatomic) CATOperationQueue *operationQueue; // @synthesize operationQueue=_operationQueue;
 
 @end

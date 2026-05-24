@@ -12,7 +12,7 @@
 + (Class);
 + (Class);
 - (id);
-- (id)ntTaskListUnsupportedReason:(id)arg1;
+- (id)StringAsDeleteTasksIntentTaskListUnsupportedReason:(id)arg1;
 
 @end
 

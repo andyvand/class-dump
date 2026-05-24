@@ -7,12 +7,10 @@
 @interface SNKShotDebugger
 {
     id id;
-    id kShotTrainingResults;
-    id kShotValidationResults;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);

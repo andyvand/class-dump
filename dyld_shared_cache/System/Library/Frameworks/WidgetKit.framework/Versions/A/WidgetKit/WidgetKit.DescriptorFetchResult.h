@@ -9,16 +9,14 @@
 @interface WidgetKit.DescriptorFetchResult
 {
     id widgetDescriptors;
-    id controlDescriptors;
-    id activityDescriptors;
 }
 
-+ (_Bool);
++ (_Bool)H;
 - (id);
+- (id),;
 - (id);
-- (id);
-- (_Bool);
-- (void);
+- (_Bool)A;
+- (void)initWithDeltaPositionX:(id)arg1 deltaPositionY:deltaPositionZ:deltaVelocityX:deltaVelocityY:deltaVelocityZ:quaternionX:quaternionY:quaternionZ:quaternionW:rotationArbitraryToTrueNorth:staticFlag:deltaPositionUncertaintyX:deltaPositionUncertaintyY:deltaPositionUncertaintyZ:deviceLocation:timestamp: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

@@ -4,46 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKDayOccurrenceView, EKEvent, NSObject, NSString, UILongPressGestureRecognizer, UIView;
+@class NSObject;
 @protocol EKEventCreationGestureControllerDelegate;
 
 @interface EKEventCreationGestureController
 {
     NSObject<EKEventCreationGestureControllerDelegate> *_gestureDelegate;
-    UIView *_targetView;
-    UILongPressGestureRecognizer *_gestureRecognizer;
-    EKEvent *_newEvent;
-    UIView *_containerView;
-    EKDayOccurrenceView *_eventPreview;
-    struct CGPoint _originPoint;
-    int _state;
 }
 
 - (_Bool);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)40*48;
+- (void)SCRCUserDefaultsARIALiveRegionsStatus;
+- (void);
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (_Bool);
-- (void)archResignFirstResponder;
+- (void)searchResignFirstResponder;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

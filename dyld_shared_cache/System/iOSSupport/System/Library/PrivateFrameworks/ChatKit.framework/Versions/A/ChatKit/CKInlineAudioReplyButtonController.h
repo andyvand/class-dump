@@ -5,31 +5,25 @@
 //
 
 @class UIButton;
-@protocol CKInlineAudioReplyButtonDelegate;
 
 @interface CKInlineAudioReplyButtonController
 {
     _Bool _started;
-    id <CKInlineAudioReplyButtonDelegate> _delegate;
-    UIButton *_startButton;
-    UIButton *_stopButton;
-    double _holdThreshold;
-    double _touchDownTime;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)containsIndex:(id)arg1;
+- (void)onstant:(id)arg1;
+- (void)constraintWithItem:(id)arg1 attribute:(id)arg2 relatedBy:toItem:attribute:multiplier:constant: /* Error: Ran out of types for this method. */;
+- (void)constraintEqualToConstant:(id)arg1;
+- (void)constraintEqualToAnchor:(id)arg1 constant:(id)arg2;
+- (id)addTableAttachmentWithNSTextTable:attributedString:filterPastedAttributes:isReadingSelectionFromPasteboard: /* Error: Ran out of types for this method. */;
+- (id)_webView:supportedXRSessionFeatures:arFeatures: /* Error: Ran out of types for this method. */;
+- (void)eManagedObjectIDs;
+- (void)rage_$_didUpdateSystemPaperNotesImmediately;
 - (double);
 - (id);
 - (void);
-- (void);
+- (void)(;
 - (double);
 - (void);
 - (void);
@@ -40,12 +34,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <CKInlineAudioReplyButtonDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) double holdThreshold; // @synthesize holdThreshold=_holdThreshold;
 @property(retain, nonatomic) UIButton *startButton; // @synthesize startButton=_startButton;
-@property(nonatomic, getter=isStarted) _Bool started; // @synthesize started=_started;
-@property(retain, nonatomic) UIButton *stopButton; // @synthesize stopButton=_stopButton;
-@property(nonatomic) double touchDownTime; // @synthesize touchDownTime=_touchDownTime;
 
 @end
 

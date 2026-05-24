@@ -15,13 +15,13 @@
 - (id);
 - (id);
 - (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (long long)Archive: /* Error: Ran out of types for this method. */;
+- (long long)addDirectoryToArchive: /* Error: Ran out of types for this method. */;
 - (void)utableArray",&,N,V_evalPredictedLocationsOfInterest;
 - (void)port, %{sensitive}@;
 

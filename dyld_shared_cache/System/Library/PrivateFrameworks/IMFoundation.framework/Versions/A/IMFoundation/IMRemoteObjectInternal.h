@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, Protocol;
-@protocol OS_dispatch_queue, OS_xpc_object;
+@class NSObject;
+@protocol OS_xpc_object;
 
 @interface IMRemoteObjectInternal
 {
     NSObject<OS_xpc_object> *_connection;
-    NSObject<OS_dispatch_queue> *_queue;
-    Protocol *_protocol;
-    NSString *_portName;
-    NSString *_processName;
-    struct os_unfair_recursive_lock_s _lock;
-    int _pid;
-    _Bool _willBeTerminated;
-    _Bool _postedDeathNote;
 }
 
 @end

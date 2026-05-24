@@ -4,18 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary;
-
 __attribute__((visibility("hidden")))
 @interface SCTGRL
 {
     id mTitleComponent;
-    NSMutableArray *mPath;
-    NSMutableDictionary *mAttributes;
-    SCTGRL *mParent;
-    id mResource;
-    NSMutableArray *mStateGRLs;
-    float mDisplayPriority;
 }
 
 - (id);
@@ -28,12 +20,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id)9;
 - (id);
+- (_Bool);
 - (id);
 - (_Bool);
-- (id);
-- (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -45,7 +37,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)(;
 - (id);
 - (id);
 - (id);
@@ -56,7 +48,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -67,7 +59,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)g this other one.;
 - (id);
 
 @end

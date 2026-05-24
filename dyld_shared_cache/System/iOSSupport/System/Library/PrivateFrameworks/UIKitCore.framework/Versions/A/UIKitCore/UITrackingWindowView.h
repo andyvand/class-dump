@@ -6,15 +6,12 @@
 
 #import <UIKitCore/UITrackingElementHostView.h>
 
-@class NSMutableDictionary, NSString, UIKBRenderConfig, UIScreen;
+@class UIKBRenderConfig;
 
 __attribute__((visibility("hidden")))
 @interface UITrackingWindowView : UITrackingElementHostView
 {
     UIKBRenderConfig *_renderConfig;
-    NSMutableDictionary *_hostedViews;
-    _Bool _disableGeometryObserverNotifications;
-    struct CGPoint _offsetOrigin;
 }
 
 + (_Bool);
@@ -23,8 +20,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (struct CGPoint);
-- (id);
-- (void);
+- (id)overrideSILSectionID;
+- (void)pping for MPModelPropertyPlaylistTrackCount;
 - (_Bool)!Bùf1Â0@ù
 × ;
 - (_Bool)@0:8Q16 /* Error: Ran out of types for this method. */;
@@ -32,7 +29,7 @@ __attribute__((visibility("hidden")))
 - (struct CGRect)owVerticalOffset;
 - (void)¹;
 - (void)(UlWìW;
-- (void);
+- (void)float;
 - (void)onGroups={
 	%@
 };
@@ -45,15 +42,7 @@ __attribute__((visibility("hidden")))
 - (void)¿;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) UIScreen *hostingScreen;
 @property(nonatomic) struct CGPoint offsetOrigin; // @synthesize offsetOrigin=_offsetOrigin;
-@property(readonly) Class superclass;
 
 @end
 

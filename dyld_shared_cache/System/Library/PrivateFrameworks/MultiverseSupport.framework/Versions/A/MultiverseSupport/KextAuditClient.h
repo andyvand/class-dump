@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class KextAuditIntelBootSession, NSXPCConnection;
+@class NSXPCConnection;
 @protocol KextAuditXPCClientProtocol;
 
 @interface KextAuditClient
 {
     NSXPCConnection<KextAuditXPCClientProtocol> *_xpcConnection;
-    KextAuditIntelBootSession *_session;
 }
 
-+ (id);
++ (id)8;
 - (id);
 - (void);
 - (void);
@@ -27,7 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(retain) KextAuditIntelBootSession *session; // @synthesize session=_session;
 @property(retain) NSXPCConnection<KextAuditXPCClientProtocol> *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
 
 @end

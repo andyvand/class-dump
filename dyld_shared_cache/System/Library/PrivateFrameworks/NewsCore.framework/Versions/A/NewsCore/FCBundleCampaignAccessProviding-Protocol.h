@@ -5,5 +5,6 @@
 //
 
 @protocol FCBundleCampaignAccessProviding
+- (_Bool);
 @end
 

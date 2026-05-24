@@ -4,119 +4,80 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKCDPCodeServiceRequestAccountConfig, CKCDPCodeServiceRequestAssetAuthorizeGetRequestOptions, CKCDPCodeServiceRequestAttestationRequest, CKCDPCodeServiceRequestAuthInformation, CKCDPCodeServiceRequestProtectedCloudComputeMetadata, CKCDPCodeServiceRequestRequestContext, CKCDPTrustedTargetCryptoMetadata, NSData, NSMutableArray, NSString;
+@class CKCDPCodeServiceRequestAccountConfig;
 
 @interface CKCDPCodeServiceRequest
 {
     CKCDPCodeServiceRequestAccountConfig *_accountConfig;
-    CKCDPCodeServiceRequestAssetAuthorizeGetRequestOptions *_assetAuthorizeGetRequestOptions;
-    CKCDPCodeServiceRequestAttestationRequest *_attestationRequest;
-    CKCDPCodeServiceRequestAuthInformation *_authInformation;
-    NSMutableArray *_clientConfigs;
-    int _dataProtection;
-    NSString *_functionName;
-    CKCDPCodeServiceRequestProtectedCloudComputeMetadata *_protectedCloudComputeMetadata;
-    CKCDPCodeServiceRequestRequestContext *_requestContext;
-    int _serializationFormat;
-    NSData *_serializedParameters;
-    NSString *_serviceName;
-    CKCDPTrustedTargetCryptoMetadata *_trustedTargetCryptoMetadata;
-    struct {
-        unsigned int dataProtection:1;
-        unsigned int serializationFormat:1;
-    } _has;
 }
 
-+ (Class);
++ (Class)logCarouselDelegateNearnessFactorDidChange:towardRecord:editable: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (void);
+- (void)h;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (int);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (id);
 - (int);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)5;
+- (_Bool);
+- (_Bool);
+- (id);
+- (int);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (int);
 - (int);
 - (id);
 - (id);
+- (_Bool)e>"16;
+- (void)applePhotoCollection_PhotoCollectionAttribute_PhotoAttributesFlashOff;
+- (id)UsoEntity_common_RecurringDateTimeRange;
+- (void);
+- (id);
+- (id);
+- (void)AQA7NAcBAQABA880BwIBAAED2zUHAQEAAQPQNQcCAQABA902AAIBAAEC0TcAAgEAAQLSNwYBAQABADo4BgEBAAEAOTkGAQEAAQA2OgABAQABA4I6AAIBAAEDgzoABAEAAQOEOgAFAQABA4U6AgUBAAECbjoGAQEAAQAwOwABAQABA448AAEBAAEDjz0AAQEAAQOQPgABAQABA5E/AAEBAAEDkj8CBAEAAQJ0PwcBAQABA/FCAgUBAAECeEMCBQEAAQJ5RAIFAQABAnpFAgQBAAECfEYCBAEAAQJ+RwIEAQABAoBPBwEBAAEEAVAHAgEAAQQCUgoBAQABApVWAAMDAAEDHFcCAQEAAQUEWAABAQABBPtYAgIBAAEFBVoAAQEAAQOTXQABAQABA5R/CgEBAAEDrX8KAgEAAQOuhgABAQABADyGAAIBAAEAPYYKAQEAAQO1hwABAwABAMmHAAIDAAEAU4cABAMAAQE9hwAFAwABAFSHCgIBAAEDsogKAgEAAQOziQoCAQABA7SKAAEBAAEDlYoKAQEAAQO2iwABAQABA5aLCgEBAAEDt4wAAQEAAQOXjAQBAQABAeWNAAEBAAEDmJkAAgEAAQT9mwAFAQABBQGcAAQBAAEFAJ0AAQEAAQURnwABAQABBUO5AQMBAAEDLroBAwEAAQMvvQEBAQABA1C+AQEBAAEDUcABAQEAAQNTwQECAQABA1XDAQIBAAEDVMUBBAEAAQNnxgEFAQABA2jPAQEBAAEDh9ABAQEAAQOI2QEBAQABA9HdAQEBAAED5eQBAQEAAQQT7wEBAQABBM3yAQEBAAEE0PgBAQEAAQUC;
+- (void);
+- (unsigned long long);
+- (void);
+- (unsigned long long)Endpoint playback session %@ seek to time %.3f
+;
+- (void);
+- (id);
 - (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (unsigned long long);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)l;
 - (unsigned int);
 - (void);
-- (_Bool);
+- (_Bool)transformPredicate:(id)arg1;
 - (void);
 - (id);
 - (id);
 - (id);
 - (_Bool)!HEùqÛð1Â0@ù
 × ;
-- (void)rThrottle:(id)arg1;
-- (Class)chronizeSigningIdentities;
+- (void)noteDataChangeForThrottle:(id)arg1;
+- (Class)_didSynchronizeSigningIdentities;
 - (void)K;
 - (void)sets;
 - (id)recordKey=%@;
 - (id)ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) CKCDPCodeServiceRequestAccountConfig *accountConfig; // @synthesize accountConfig=_accountConfig;
-@property(retain, nonatomic) CKCDPCodeServiceRequestAssetAuthorizeGetRequestOptions *assetAuthorizeGetRequestOptions; // @synthesize assetAuthorizeGetRequestOptions=_assetAuthorizeGetRequestOptions;
-@property(retain, nonatomic) CKCDPCodeServiceRequestAttestationRequest *attestationRequest; // @synthesize attestationRequest=_attestationRequest;
-@property(retain, nonatomic) CKCDPCodeServiceRequestAuthInformation *authInformation; // @synthesize authInformation=_authInformation;
-@property(retain, nonatomic) NSMutableArray *clientConfigs; // @synthesize clientConfigs=_clientConfigs;
-@property(nonatomic) int dataProtection; // @synthesize dataProtection=_dataProtection;
-@property(retain, nonatomic) NSString *functionName; // @synthesize functionName=_functionName;
-@property(readonly, nonatomic) _Bool hasAccountConfig;
-@property(readonly, nonatomic) _Bool hasAssetAuthorizeGetRequestOptions;
-@property(readonly, nonatomic) _Bool hasAttestationRequest;
-@property(readonly, nonatomic) _Bool hasAuthInformation;
-@property(nonatomic) _Bool hasDataProtection;
-@property(readonly, nonatomic) _Bool hasFunctionName;
-@property(readonly, nonatomic) _Bool hasProtectedCloudComputeMetadata;
-@property(readonly, nonatomic) _Bool hasRequestContext;
-@property(nonatomic) _Bool hasSerializationFormat;
-@property(readonly, nonatomic) _Bool hasSerializedParameters;
 @property(readonly, nonatomic) _Bool hasServiceName;
-@property(readonly, nonatomic) _Bool hasTrustedTargetCryptoMetadata;
-@property(retain, nonatomic) CKCDPCodeServiceRequestProtectedCloudComputeMetadata *protectedCloudComputeMetadata; // @synthesize protectedCloudComputeMetadata=_protectedCloudComputeMetadata;
-@property(retain, nonatomic) CKCDPCodeServiceRequestRequestContext *requestContext; // @synthesize requestContext=_requestContext;
-@property(nonatomic) int serializationFormat; // @synthesize serializationFormat=_serializationFormat;
-@property(retain, nonatomic) NSData *serializedParameters; // @synthesize serializedParameters=_serializedParameters;
-@property(retain, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(retain, nonatomic) CKCDPTrustedTargetCryptoMetadata *trustedTargetCryptoMetadata; // @synthesize trustedTargetCryptoMetadata=_trustedTargetCryptoMetadata;
 
 @end
 

@@ -11,13 +11,11 @@
 @interface MKPolylineRenderer : MKOverlayPathRenderer
 {
     VKVectorOverlayPolylineGroup *_vectorGeometry;
-    double _strokeStart;
-    double _strokeEnd;
 }
 
 + (Class);
 + (_Bool);
-- (id);
+- (id)geWithReply:(id)arg1 no xpcReturnDict;
 - (id);
 - (_Bool);
 - (id);
@@ -38,16 +36,14 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void)ptions:completion: /* Error: Ran out of types for this method. */;
-- (void)emTypeUnknown;
+- (void){CGPoint=dd}{CGSize=dd}}24f56@60;
+- (void)`;
+- (void)P;
+- (void)performAction:options:completion: /* Error: Ran out of types for this method. */;
+- (void)_isMapItemTypeUnknown;
 
 // Remaining properties
 @property(readonly, nonatomic) MKPolyline *polyline;
-@property(nonatomic) double strokeEnd;
-@property(nonatomic) double strokeStart;
 
 @end
 

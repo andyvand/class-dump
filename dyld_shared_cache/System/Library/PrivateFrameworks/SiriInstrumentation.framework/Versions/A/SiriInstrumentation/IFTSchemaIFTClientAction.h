@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTStatementId, NSData, NSString;
-
 @interface IFTSchemaIFTClientAction : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    IFTSchemaIFTStatementId *_statementId;
-    NSString *_toolId;
-    CDStruct_b33ad018 _has;
-    _Bool _hasStatementId;
-    _Bool _hasToolId;
 }
 
 - (id);
@@ -26,7 +19,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)F;
 - (void);
 - (void);
 - (id);
@@ -39,7 +32,7 @@
 - (id);
 - (id)0@ù
 × ;
-- (id);
+- (id)setHasNumberOfContactsResolved:(id)arg1;
 - (id)4;
 - (_Bool)'¯!;
 - (void)¨Íÿ;
@@ -48,12 +41,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(nonatomic) _Bool hasStatementId; // @synthesize hasStatementId=_hasStatementId;
-@property(nonatomic) _Bool hasToolId; // @synthesize hasToolId=_hasToolId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) IFTSchemaIFTStatementId *statementId; // @synthesize statementId=_statementId;
-@property(copy, nonatomic) NSString *toolId; // @synthesize toolId=_toolId;
 
 @end
 

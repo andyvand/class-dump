@@ -7,13 +7,6 @@
 @interface RemindersUICore.TTRModuleState
 {
     id name;
-    id defersResolve;
-    id initialLoadPromise;
-    id states;
-    id deferredPromise;
-    id deferredInitialLoadPromise;
-    id deferredUpToDatePromise;
-    id deferredViewAppearedPromise;
 }
 
 @end

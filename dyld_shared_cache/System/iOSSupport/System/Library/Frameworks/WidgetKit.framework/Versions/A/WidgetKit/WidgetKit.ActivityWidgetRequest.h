@@ -7,7 +7,6 @@
 @interface WidgetKit.ActivityWidgetRequest
 {
     id fileHandle;
-    id _innerRequest;
 }
 
 + (_Bool);

@@ -9,7 +9,6 @@
 @interface WBSPasswordBreachHelperProxy
 {
     NSXPCConnection *_connection;
-    struct os_unfair_lock_s _connectionLock;
 }
 
 - (void);
@@ -18,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)_setArray:forAnnotationKey: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);

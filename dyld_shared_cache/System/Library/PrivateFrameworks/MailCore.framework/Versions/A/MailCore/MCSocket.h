@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSInputStream, NSOutputStream, NSPort, NSString;
+@class NSArray, NSPort;
 
 @interface MCSocket
 {
     NSArray *_clientCertificates;
-    _Bool _useSSL;
-    _Bool _isNonAppInitiated;
-    _Bool _disableEphemeralDiffieHellmanCiphers;
-    _Bool _scheduledForBytesToArrive;
-    unsigned long long _identifier;
-    long long _activityType;
-    double _connectTimeout;
-    double _readWriteTimeout;
-    NSArray *_trustedCertificates;
-    NSPort *_wakeupPort;
-    NSInputStream *_inputStream;
-    NSOutputStream *_outputStream;
-    CDUnknownBlockType _bytesAvailableHandler;
 }
 
 + (id);
@@ -30,13 +17,13 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)#;
 - (void);
 - (_Bool);
 - (long long);
 - (_Bool);
 - (_Bool);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)(;
 - (id);
 - (void);
 - (_Bool);
@@ -64,50 +51,22 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)de:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)TcxrM7X0qklewYLMpkQ/Library/Caches/com.apple.xbs/TemporaryDirectory.CYur5j/Sources/PodcastsFoundation/PodcastsFoundation/PodcastsFoundation/Logging/IMLogger.m;
 - (_Bool);
 - (void);
-- (void);
 - (_Bool);
-- (unsigned long long);
-- (long long);
+- (void);
+- (void);
+- (_Bool)CKContainer' argument;
+- (unsigned long long)x3;
+- (long long)lib;
 - (id);
-- (void);
+- (void)q+;
 - (_Bool)!HGùQið1Â0@ù
 × ;
 
 // Remaining properties
-@property long long activityType; // @synthesize activityType=_activityType;
-@property(copy) CDUnknownBlockType bytesAvailableHandler; // @synthesize bytesAvailableHandler=_bytesAvailableHandler;
-@property(readonly, nonatomic) unsigned int cipherKeyLength;
-@property(nonatomic) double connectTimeout; // @synthesize connectTimeout=_connectTimeout;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool disableEphemeralDiffieHellmanCiphers; // @synthesize disableEphemeralDiffieHellmanCiphers=_disableEphemeralDiffieHellmanCiphers;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long identifier; // @synthesize identifier=_identifier;
-@property(retain) NSInputStream *inputStream; // @synthesize inputStream=_inputStream;
-@property(readonly, nonatomic) _Bool isExpensive;
-@property _Bool isNonAppInitiated; // @synthesize isNonAppInitiated=_isNonAppInitiated;
-@property(readonly, nonatomic) _Bool isReadable;
-@property(readonly, nonatomic) _Bool isValid;
-@property(readonly, nonatomic) _Bool isWritable;
-@property(retain) NSOutputStream *outputStream; // @synthesize outputStream=_outputStream;
-@property(nonatomic) double readWriteTimeout; // @synthesize readWriteTimeout=_readWriteTimeout;
-@property(readonly, copy, nonatomic) NSString *remoteHostname;
-@property(readonly, nonatomic) long long remotePortNumber;
-@property _Bool scheduledForBytesToArrive; // @synthesize scheduledForBytesToArrive=_scheduledForBytesToArrive;
-@property(readonly, copy, nonatomic) NSString *securityLevel;
-@property(readonly, copy, nonatomic) NSString *sourceHostname;
-@property(readonly, copy, nonatomic) NSData *sourceIPAddress;
-@property(readonly) Class superclass;
-@property(copy) NSArray *trustedCertificates; // @synthesize trustedCertificates=_trustedCertificates;
 @property(readonly, nonatomic) NSPort *wakeupPort; // @synthesize wakeupPort=_wakeupPort;
 
 @end

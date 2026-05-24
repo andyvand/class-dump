@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDCollection;
-
 __attribute__((visibility("hidden")))
 @interface EDLink
 {
     int mType;
-    EDCollection *mExternalNames;
 }
 
 + (id);
 - (id);
 - (id);
-- (int);
+- (int);
 - (void);
 - (id)
 × ;

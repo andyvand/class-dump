@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface TRIClientTreatmentArtifact
 {
     NSData *_encodedTreatmentDefinition;
-    NSString *_encodedTreatmentDefinitionSignature;
-    NSData *_publicCertificate;
 }
 
-+ (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
++ (id)bestCropRectV2ForAspectRatio:(id)arg1 sourcePixelWidth:(id)arg2 sourcePixelHeight:(id)arg3 sourceEssentialAreaRect:sourceSecondaryEssentialAreaRect: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithPortraitLayout:(id)arg1 landscapeLayout: /* Error: Ran out of types for this method. */;
+- (id)initWithImageAtURL:(id)arg1;
+- (id)inactiveForegroundLayer;
+- (id)inactiveBackgroundLayer;
+- (id)hasMediaCharacteristic:(id)arg1;
+- (id)getValue:(id)arg1 size: /* Error: Ran out of types for this method. */;
+- (id)getRelationship:(id)arg1 ofDirectory:inDomain:toItemAtURL:error: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
@@ -32,8 +30,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *encodedTreatmentDefinition; // @synthesize encodedTreatmentDefinition=_encodedTreatmentDefinition;
-@property(readonly, nonatomic) NSString *encodedTreatmentDefinitionSignature; // @synthesize encodedTreatmentDefinitionSignature=_encodedTreatmentDefinitionSignature;
-@property(readonly, nonatomic) NSData *publicCertificate; // @synthesize publicCertificate=_publicCertificate;
 
 @end
 

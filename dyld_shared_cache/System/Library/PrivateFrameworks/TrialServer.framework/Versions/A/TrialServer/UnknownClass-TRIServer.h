@@ -5,15 +5,15 @@
 //
 
 @interface UnknownClass (TRIServer)
-+ (id);
-+ (_Bool);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
++ (id)inactiveStrategy;
++ (_Bool)imageWithCVPixelBuffer:(id)arg1;
++ (id)imageSourceIsMonoski:(id)arg1;
++ (_Bool)imageByColorMatchingColorSpaceToWorkingSpace:(id)arg1;
++ (id)imageByApplyingTransform:(id)arg1;
++ (unsigned long long)imageAestheticsObservation;
+- (_Bool)includeHDRGainMaps;
+- (_Bool)inactiveTimeRect;
+- (_Bool)inactiveRect;
+- (_Bool)_prepareForPlaybackWithTargetSize:(id)arg1 options:(id *)arg2 completionHandler: /* Error: Ran out of types for this method. */;
 @end
 

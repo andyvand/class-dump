@@ -5,5 +5,7 @@
 //
 
 @protocol PurchaseQueueDelegate
+- (void)#;
+- (void);
 @end
 

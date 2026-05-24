@@ -6,8 +6,8 @@
 
 @interface UnknownClass (CAAnimatableValue)
 - (id);
-- (id);
-- (void);
+- (id);
+- (void).;
 - (id);
 - (id);
 @end

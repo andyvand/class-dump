@@ -4,40 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORPFeedbackCommonContext, GEORPFeedbackCommonCorrections, GEORPFeedbackDetails, GEORPFeedbackDynamicForm, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPFeedbackSubmissionParameters
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_clientSubmissionUuid;
-    GEORPFeedbackCommonContext *_commonContext;
-    GEORPFeedbackCommonCorrections *_commonCorrections;
-    GEORPFeedbackDetails *_details;
-    GEORPFeedbackDynamicForm *_dynamicForm;
-    NSString *_parentFeedbackId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _type;
-    struct {
-        unsigned int has_type:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_clientSubmissionUuid:1;
-        unsigned int read_commonContext:1;
-        unsigned int read_commonCorrections:1;
-        unsigned int read_details:1;
-        unsigned int read_dynamicForm:1;
-        unsigned int read_parentFeedbackId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)belText:(id)arg1;
++ (_Bool)setLabelText:(id)arg1;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)downtimeWhitelist;
+- (void)doesNotNeedMovedAside;
+- (void)descriptionOfValueType:(id)arg1;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -54,24 +32,24 @@
 - (id);
 - (_Bool);
 - (id);
+- (void)5;
 - (void);
+- (id)stopAudioStreamWithRecordDeviceIndicator:error: /* Error: Ran out of types for this method. */;
 - (void);
+- (void)PolicyIOS _addConditionsForIOSAOP]_block_invoke;
 - (id);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
+- (unsigned long long)h;
 - (_Bool);
 - (int);
 - (_Bool);
 - (id);
 - (void);
 - (id)b1"read_excludeCategoryFilters"b1"read_includeCategoryFilters"b1"wrote_anyField"b1};
-- (void)tions;
+- (void)hasHasSupportForIdsBasedNotifications;
 - (id)buildRouteAttributes:queue:result: /* Error: Ran out of types for this method. */;
 - (int);
 - (id);
-- (id)FROM_DRIVING_AFTER_ARRIVAL;
+- (id)TRANSITION_FROM_DRIVING_AFTER_ARRIVAL;
 - (id)À5;
 - (_Bool)×£p=
 6@;
@@ -81,21 +59,7 @@
 - (void)þ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *clientSubmissionUuid;
-@property(retain, nonatomic) GEORPFeedbackCommonContext *commonContext;
-@property(retain, nonatomic) GEORPFeedbackCommonCorrections *commonCorrections;
-@property(retain, nonatomic) GEORPFeedbackDetails *details;
-@property(retain, nonatomic) GEORPFeedbackDynamicForm *dynamicForm;
 @property(readonly, nonatomic) _Bool hasClientSubmissionUuid;
-@property(readonly, nonatomic) _Bool hasCommonContext;
-@property(readonly, nonatomic) _Bool hasCommonCorrections;
-@property(readonly, nonatomic) _Bool hasDetails;
-@property(readonly, nonatomic) _Bool hasDynamicForm;
-@property(readonly, nonatomic) _Bool hasParentFeedbackId;
-@property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) NSString *parentFeedbackId;
-@property(nonatomic) int type;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

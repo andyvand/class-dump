@@ -14,7 +14,7 @@
 
 - (void);
 - (void);
-- (id);
+- (id)ompletionHandler:(struct _NSZone *)arg1 ];
 
 // Remaining properties
 @property(copy, nonatomic) NSData *body; // @dynamic body;

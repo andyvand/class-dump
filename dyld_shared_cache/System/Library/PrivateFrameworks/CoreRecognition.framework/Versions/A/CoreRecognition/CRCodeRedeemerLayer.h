@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureDevice;
-@protocol CALayerDelegate><CRCodeRedeemerLayerDelegate, CRCodeRedeemerLayerDebuggingDelegate;
-
 @interface CRCodeRedeemerLayer
 {
 }
@@ -14,7 +11,7 @@
 + (_Bool);
 + (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -23,21 +20,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long cameraMode; // @dynamic cameraMode;
-@property(nonatomic) unsigned long long cameraModel; // @dynamic cameraModel;
-@property(nonatomic) id <CRCodeRedeemerLayerDebuggingDelegate> debuggingDelegate; // @dynamic debuggingDelegate;
-@property(nonatomic) struct CGColor *defaultColor; // @dynamic defaultColor;
-@property id <CALayerDelegate><CRCodeRedeemerLayerDelegate> delegate; // @dynamic delegate;
-@property(nonatomic) long long exposureMode; // @dynamic exposureMode;
-@property(nonatomic) long long focusMode; // @dynamic focusMode;
-@property(retain, nonatomic) AVCaptureDevice *inputDevice; // @dynamic inputDevice;
 @property(nonatomic) _Bool isActiveRedeemer; // @dynamic isActiveRedeemer;
-@property(nonatomic) _Bool isBatchModeOnly; // @dynamic isBatchModeOnly;
-@property(nonatomic) _Bool isCaptureModeOnly; // @dynamic isCaptureModeOnly;
-@property(nonatomic) _Bool isContinuousCapture; // @dynamic isContinuousCapture;
-@property(nonatomic) double sessionTimeout; // @dynamic sessionTimeout;
-@property(nonatomic) long long torchMode; // @dynamic torchMode;
-@property(nonatomic) long long whiteBalanceMode; // @dynamic whiteBalanceMode;
 
 @end
 

@@ -9,35 +9,18 @@
 @interface NewsUI2.OfflineContentManager
 {
     id downloadedContentIDs;
-    id contentContext;
-    id _contributors;
-    id contributorsReadyGroup;
-    id _newsdProxy;
-    id localArticleCacheLookupService;
-    id localIssueCacheLookupService;
-    id localPuzzleCacheLookupService;
-    id localRecipeCacheLookupService;
-    id $__lazy_storage_$_requestProcessingThrottler;
-    id _interestTokensByContentID;
-    id _storageSizeByContentID;
-    id downloadMonitors;
-    id _activeContentIDs;
-    id _inFlightContentIDs;
-    id _offlineContentRequests;
-    id __hasExceededStorageLimits;
 }
 
-- (id);
+- (id)tObjectiveC.dylib;
 - (void);
-- (void);
-- (void);
+- (void)mework/Versions/A/CalendarDaemon;
+- (void)m/Library/PrivateFrameworks/CalendarDaemon.framework/Versions/A/CalendarDaemon;
 - (id);
 - (void);
 - (id);
 - (void)Ë^\a;
 
 // Remaining properties
-@property(nonatomic, readonly) NSSet *listenableArticleIDs;
 @property(nonatomic, readonly) NSSet *readableArticleIDs;
 
 @end

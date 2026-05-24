@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSSMO, LANMO, NSDate, NSObject, NetworkMO;
-
 @interface WADeviceAnalyticsDatedRecord
 {
 }
@@ -14,30 +12,10 @@
 + (id);
 + (id);
 - (id);
-- (id);
+- (id)grocery list {sharedGroceryList:%{public}@} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) short band; // @dynamic band;
-@property(retain, nonatomic) BSSMO *bss; // @dynamic bss;
-@property(nonatomic) short channel; // @dynamic channel;
-@property(nonatomic) short channelWidth; // @dynamic channelWidth;
-@property(copy, nonatomic) NSDate *date; // @dynamic date;
-@property(retain, nonatomic) NSObject *historyBcnPer; // @dynamic historyBcnPer;
-@property(retain, nonatomic) NSObject *historyBcnSched; // @dynamic historyBcnSched;
-@property(retain, nonatomic) NSObject *historyCca; // @dynamic historyCca;
-@property(retain, nonatomic) NSObject *historyFwTxFrames; // @dynamic historyFwTxFrames;
-@property(retain, nonatomic) NSObject *historyFwTxPer; // @dynamic historyFwTxPer;
-@property(retain, nonatomic) NSObject *historyRssi; // @dynamic historyRssi;
-@property(retain, nonatomic) NSObject *historySnr; // @dynamic historySnr;
-@property(retain, nonatomic) NSObject *historyTxFrames; // @dynamic historyTxFrames;
-@property(retain, nonatomic) NSObject *historyTxPer; // @dynamic historyTxPer;
-@property(retain, nonatomic) LANMO *lan; // @dynamic lan;
-@property(nonatomic) short motionState; // @dynamic motionState;
-@property(retain, nonatomic) NetworkMO *network; // @dynamic network;
-@property(nonatomic) int reason; // @dynamic reason;
-@property(nonatomic) short rssi; // @dynamic rssi;
-@property(nonatomic) int status; // @dynamic status;
-@property(nonatomic) int subReason; // @dynamic subReason;
 
 @end
 

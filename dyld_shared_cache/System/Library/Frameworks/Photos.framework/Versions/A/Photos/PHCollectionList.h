@@ -6,26 +6,9 @@
 
 #import <Photos/PHCollection.h>
 
-@class NSArray, NSDate, NSManagedObjectID, NSString, PHQuery;
-
 @interface PHCollectionList : PHCollection
 {
     long long _collectionListType;
-    long long _collectionListSubtype;
-    NSString *_localizedTitle;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    NSArray *_localizedLocationNames;
-    NSArray *_collections;
-    PHQuery *_query;
-    NSString *_transientIdentifier;
-    NSManagedObjectID *_parentFolderObjectID;
-    int _plAlbumKind;
-    NSDate *_modificationDate;
-    CDUnknownBlockType _childCollectionsSortingComparator;
-    unsigned long long _unreadAssetCollectionsCount;
-    unsigned long long _estimatedChildCollectionCount;
-    NSString *_cloudGUID;
 }
 
 @end

@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessory, HMDCameraSessionInfo;
+@class HMDCameraSessionInfo;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraMetricsLogEvent
 {
     _Bool _local;
-    _Bool _relayed;
-    HMDCameraSessionInfo *_cameraSessionInfo;
-    HMDAccessory *_accessory;
 }
 
 - (id);
@@ -21,16 +18,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)J!;
 - (_Bool);
 - (id);
 - (void)Èÿ-~&°ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak HMDAccessory *accessory; // @synthesize accessory=_accessory;
 @property(readonly, nonatomic) HMDCameraSessionInfo *cameraSessionInfo; // @synthesize cameraSessionInfo=_cameraSessionInfo;
-@property(readonly, getter=isLocal) _Bool local; // @synthesize local=_local;
-@property(readonly, getter=isRelayed) _Bool relayed; // @synthesize relayed=_relayed;
 
 @end
 

@@ -4,24 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSString;
 
 @protocol SignpostSupportLoggingSupportArchiveEvent
-- (int)tchStats;
+- (void);
+- (void);
+- (NSString *);
+- (void)ty request;
+- (int)_responsibleGlitchStats;
 
 // Remaining properties
 @property(nonatomic) unsigned long long _machContinuousTimestamp;
-@property(nonatomic) int processID;
-@property(retain, nonatomic) NSString *processImagePath;
-@property(retain, nonatomic) NSUUID *processImageUUID;
-@property(retain, nonatomic) NSString *processName;
-@property(nonatomic) unsigned long long processUniqueID;
-@property(retain, nonatomic) NSString *senderImagePath;
-@property(retain, nonatomic) NSUUID *senderImageUUID;
-@property(nonatomic) unsigned long long threadID;
-@property(nonatomic) long long tv_sec;
-@property(nonatomic) int tv_usec;
-@property(nonatomic) int tz_dsttime;
-@property(nonatomic) int tz_minuteswest;
 @end
 

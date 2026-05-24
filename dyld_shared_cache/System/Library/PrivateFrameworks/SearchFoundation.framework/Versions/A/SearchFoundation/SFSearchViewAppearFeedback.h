@@ -6,46 +6,32 @@
 
 #import <SearchFoundation/SFFeedback.h>
 
-@class NSString;
-
 @interface SFSearchViewAppearFeedback : SFFeedback
 {
     _Bool _isOnLockScreen;
-    _Bool _isOverApp;
-    _Bool _readerTextAvailable;
-    _Bool _isUsingLoweredSearchBar;
-    unsigned long long _viewAppearEvent;
-    NSString *_preexistingInput;
-    NSString *_originatingApp;
 }
 
 + (_Bool);
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)unloadingPlaybackAssetsOnIdleDuration;
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)PasswordWarningStoreVersion;
+- (void)_serialQueue;
 - (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
 - (unsigned long long)diaItem"24@0:8Q16 /* Error: Ran out of types for this method. */;
-- (void)t: /* Error: Ran out of types for this method. */;
+- (void)didReceiveResultsAfterTimeout: /* Error: Ran out of types for this method. */;
 - (void)öÿ!;
 
 // Remaining properties
-@property(nonatomic) _Bool isOnLockScreen; // @synthesize isOnLockScreen=_isOnLockScreen;
-@property(nonatomic) _Bool isOverApp; // @synthesize isOverApp=_isOverApp;
-@property(nonatomic) _Bool isUsingLoweredSearchBar; // @synthesize isUsingLoweredSearchBar=_isUsingLoweredSearchBar;
-@property(copy, nonatomic) NSString *originatingApp; // @synthesize originatingApp=_originatingApp;
-@property(copy, nonatomic) NSString *preexistingInput; // @synthesize preexistingInput=_preexistingInput;
-@property(nonatomic) _Bool readerTextAvailable; // @synthesize readerTextAvailable=_readerTextAvailable;
 @property(nonatomic) unsigned long long viewAppearEvent; // @synthesize viewAppearEvent=_viewAppearEvent;
 
 @end

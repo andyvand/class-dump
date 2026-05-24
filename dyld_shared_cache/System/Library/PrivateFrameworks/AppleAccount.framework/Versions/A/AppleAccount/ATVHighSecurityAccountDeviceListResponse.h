@@ -6,13 +6,13 @@
 
 #import <AppleAccount/AAResponse.h>
 
-@class NSArray, NSDictionary, NSString;
+@class NSArray;
 
 @interface ATVHighSecurityAccountDeviceListResponse : AAResponse
 {
 }
 
-- (id);
+- (id)sMDMInstalledFileVaultBuddyEnabledKey found FV forced enabled key.  showRecoveryKey returns %d;
 - (id);
 - (id);
 - (id);
@@ -20,10 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *devices;
-@property(readonly, nonatomic) long long errorCode;
-@property(readonly, nonatomic) NSString *errorMessage;
-@property(readonly, nonatomic) NSString *errorTitle;
-@property(readonly, nonatomic) NSDictionary *userDisplayStrings;
 
 @end
 

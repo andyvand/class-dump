@@ -12,12 +12,11 @@ __attribute__((visibility("hidden")))
 @interface WDOfficeArt : WDRunWithCharacterProperties
 {
     OADDrawable *mDrawable;
-    _Bool mFloating;
 }
 
-+ (int);
++ (int);
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (id);
@@ -27,12 +26,12 @@ __attribute__((visibility("hidden")))
 - (int);
 - (id);
 - (id);
-- (void);
+- (void)C;
 - (id);
 - (id);
-- (void);
+- (void)colorWithWhite:(_Bool)arg1 alpha: /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool);
+- (_Bool)r is destroyed, primary buffer is leaked!";
 - (void)ream %p, fd = %d, errno = %d;
 
 @end

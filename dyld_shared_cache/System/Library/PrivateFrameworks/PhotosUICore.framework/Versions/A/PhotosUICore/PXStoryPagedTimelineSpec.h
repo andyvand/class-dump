@@ -7,10 +7,6 @@
 @interface PXStoryPagedTimelineSpec
 {
     _Bool _displayOneAssetPerPage;
-    double _regularInterpageSpacing;
-    double _keyInterpageSpacing;
-    struct CGSize _regularPageSize;
-    struct CGSize _keyPageSize;
 }
 
 - (void);
@@ -19,17 +15,13 @@
 - (void);
 - (double);
 - (struct CGSize);
-- (double);
+- (double);
 - (_Bool);
 - (void);
 - (struct CGSize);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool displayOneAssetPerPage; // @synthesize displayOneAssetPerPage=_displayOneAssetPerPage;
-@property(nonatomic) double keyInterpageSpacing; // @synthesize keyInterpageSpacing=_keyInterpageSpacing;
-@property(nonatomic) struct CGSize keyPageSize; // @synthesize keyPageSize=_keyPageSize;
-@property(nonatomic) double regularInterpageSpacing; // @synthesize regularInterpageSpacing=_regularInterpageSpacing;
 @property(nonatomic) struct CGSize regularPageSize; // @synthesize regularPageSize=_regularPageSize;
 
 @end

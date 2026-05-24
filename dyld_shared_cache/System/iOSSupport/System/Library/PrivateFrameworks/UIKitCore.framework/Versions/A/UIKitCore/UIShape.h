@@ -11,28 +11,28 @@
     id value;
 }
 
++ (id)ng.;
++ (id)ation supports relay error handling.;
++ (id);
++ (id);
++ (id);
++ (id)a;
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
+- (id)_$_maxSecondsPerWindow;
+- (id);
+- (id)_TtP12IMDaemonCore20SyncPreReqsVerifying_;
+- (id)_TtP12IMDaemonCore20SyncPreReqsVerifying_;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool)verPresentingSourceItem;
+- (_Bool)popOverPresentingSourceItem;
 - (id)UpdateAnimationCompletionBlocks:(void *)arg1;
 - (id);
 - (void)ý7;

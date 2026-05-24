@@ -7,7 +7,6 @@
 @interface CPLEngineWriteTransactionBlocker
 {
     struct os_unfair_lock_s _lock;
-    CDUnknownBlockType _unblock;
 }
 
 - (void);

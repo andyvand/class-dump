@@ -7,9 +7,6 @@
 @interface RemindersUICore.TTRReminderLocationPickerLocalSearchResultItemProvider
 {
     id localSearchCompleter;
-    id currentSearchText;
-    id currentSearchLocation;
-    id currentFetchPromise;
 }
 
 - (void);

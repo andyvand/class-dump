@@ -9,28 +9,26 @@
 @interface BKSHIDEventUsagePairDescriptor : BKSHIDEventDescriptor
 {
     unsigned int _page;
-    unsigned int _usage;
 }
 
 + (id);
 + (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)valuesUntilEndDate:(id)arg1 withIntervalDuration: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)kCDPRTCClientType;
 - (unsigned long long);
 - (_Bool);
 - (unsigned int);
 - (_Bool);
 - (void);
-- (unsigned int);
+- (unsigned int)meters for url:%@, error:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (long long);
 
 // Remaining properties
 @property(readonly) unsigned int page; // @synthesize page=_page;
-@property(readonly) unsigned int usage; // @synthesize usage=_usage;
 
 @end
 

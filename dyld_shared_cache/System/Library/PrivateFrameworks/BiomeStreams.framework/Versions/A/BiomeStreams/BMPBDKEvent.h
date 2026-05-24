@@ -16,17 +16,16 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)@:(id)arg1;
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)_visitClassification;
+- (void)dispatchAfter:(id)arg1 stringIdentifier:withBlock: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (void)×ØÙÚÛÜ#$%&'(ÝÞ+ß,;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *dkEvent; // @synthesize dkEvent=_dkEvent;
 @property(readonly, nonatomic) _Bool hasDkEvent;
 
 @end

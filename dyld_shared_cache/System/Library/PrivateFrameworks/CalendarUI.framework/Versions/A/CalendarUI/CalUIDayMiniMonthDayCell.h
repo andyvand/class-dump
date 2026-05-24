@@ -4,36 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSColor, NSDate;
+@class NSDate;
 
 @interface CalUIDayMiniMonthDayCell
 {
     NSDate *_date;
-    struct CGRect _frame;
-    _Bool _isHovered;
-    _Bool _isActive;
-    id _axParent;
-    _Bool _isInPreviousMonth;
-    _Bool _isInNextMonth;
-    _Bool _weekNumbersEnabled;
-    _Bool _alwaysDrawsBackground;
-    _Bool _backgroundHasRoundedCorners;
-    _Bool _backgroundIsCircle;
-    _Bool _backgroundSizeIsStatic;
-    long long _weekRow;
-    NSAttributedString *_weekNumberString;
-    NSColor *_dayBackgroundColor;
-    double _backgroundCircleRadius;
-    double _backgroundXOffset;
-    double _backgroundYOffset;
-    struct CGSize _backgroundSize;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -45,25 +27,25 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool));
 - (id);
 - (id);
 - (double);
 - (double);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (double);
+- (_Bool);
+- (double)(;
 - (id);
 - (_Bool);
 - (long long);
-- (void);
+- (void)c;
 - (void);
 - (void);
 - (_Bool);
@@ -75,28 +57,10 @@
 - (void);
 - (void)
 × ;
-- (void)ler;
+- (void)CalUITimeZoneCityPickerController;
 
 // Remaining properties
-@property _Bool alwaysDrawsBackground; // @synthesize alwaysDrawsBackground=_alwaysDrawsBackground;
-@property(retain) id axParent; // @synthesize axParent=_axParent;
-@property double backgroundCircleRadius; // @synthesize backgroundCircleRadius=_backgroundCircleRadius;
-@property _Bool backgroundHasRoundedCorners; // @synthesize backgroundHasRoundedCorners=_backgroundHasRoundedCorners;
-@property _Bool backgroundIsCircle; // @synthesize backgroundIsCircle=_backgroundIsCircle;
-@property struct CGSize backgroundSize; // @synthesize backgroundSize=_backgroundSize;
-@property _Bool backgroundSizeIsStatic; // @synthesize backgroundSizeIsStatic=_backgroundSizeIsStatic;
-@property double backgroundXOffset; // @synthesize backgroundXOffset=_backgroundXOffset;
-@property double backgroundYOffset; // @synthesize backgroundYOffset=_backgroundYOffset;
 @property(retain) NSDate *date; // @synthesize date=_date;
-@property(retain) NSColor *dayBackgroundColor; // @synthesize dayBackgroundColor=_dayBackgroundColor;
-@property struct CGRect frame; // @synthesize frame=_frame;
-@property _Bool isActive; // @synthesize isActive=_isActive;
-@property _Bool isHovered; // @synthesize isHovered=_isHovered;
-@property _Bool isInNextMonth; // @synthesize isInNextMonth=_isInNextMonth;
-@property _Bool isInPreviousMonth; // @synthesize isInPreviousMonth=_isInPreviousMonth;
-@property(retain) NSAttributedString *weekNumberString; // @synthesize weekNumberString=_weekNumberString;
-@property _Bool weekNumbersEnabled; // @synthesize weekNumbersEnabled=_weekNumbersEnabled;
-@property long long weekRow; // @synthesize weekRow=_weekRow;
 
 @end
 

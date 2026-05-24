@@ -5,5 +5,6 @@
 //
 
 @protocol CXCopying
+- (void)C;
 @end
 

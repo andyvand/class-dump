@@ -4,36 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary;
 @protocol MLComputeDeviceProtocol;
 
 __attribute__((visibility("hidden")))
 @interface VNCoreSceneUnderstandingCompoundRequestDetectorConfiguration
 {
     id <MLComputeDeviceProtocol> _mainStageComputeDevice;
-    NSMutableArray *_originalRequests;
-    NSMutableDictionary *_detectorConfigurationOptions;
 }
 
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)9;
+- (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id)evision2;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id)VNDetectBarcodesRequestPrivateRevision2;
 - (void)allLabelsAndConfidences;
 
 @end

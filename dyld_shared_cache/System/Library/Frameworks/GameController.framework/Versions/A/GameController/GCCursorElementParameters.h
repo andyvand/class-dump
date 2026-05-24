@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 + (Class);
 - (_Bool);
-- (id);
+- (id)downloadURLConfiguration:(struct _NSZone *)arg1;
 
 @end
 

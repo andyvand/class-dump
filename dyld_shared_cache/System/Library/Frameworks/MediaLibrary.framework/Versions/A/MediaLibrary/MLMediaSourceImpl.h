@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLMediaGroup, MLMediaLibrary, NSDate, NSDictionary, NSMutableDictionary, NSString;
+@class MLMediaLibrary;
 
 @interface MLMediaSourceImpl
 {
     MLMediaLibrary *_mediaLibrary;
-    NSDictionary *_attributes;
-    MLMediaGroup *_rootMediaGroup;
-    NSMutableDictionary *_mediaGroupsByIdentifier;
-    NSMutableDictionary *_mediaObjectsByIdentifier;
-    NSDate *_rootMediaGroupStartTime;
-    NSString *_mediaSourceIdentifier;
 }
 
 - (void);
@@ -36,13 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(copy) NSDictionary *attributes; // @synthesize attributes=_attributes;
-@property(retain) NSMutableDictionary *mediaGroupsByIdentifier; // @synthesize mediaGroupsByIdentifier=_mediaGroupsByIdentifier;
 @property MLMediaLibrary *mediaLibrary; // @synthesize mediaLibrary=_mediaLibrary;
-@property(retain) NSMutableDictionary *mediaObjectsByIdentifier; // @synthesize mediaObjectsByIdentifier=_mediaObjectsByIdentifier;
-@property(copy) NSString *mediaSourceIdentifier; // @synthesize mediaSourceIdentifier=_mediaSourceIdentifier;
-@property(retain) MLMediaGroup *rootMediaGroup; // @synthesize rootMediaGroup=_rootMediaGroup;
-@property(copy) NSDate *rootMediaGroupStartTime; // @synthesize rootMediaGroupStartTime=_rootMediaGroupStartTime;
 
 @end
 

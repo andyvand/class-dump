@@ -4,46 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPRTPStreamingControlRequest, HAPSupportedAudioStreamTiers, HAPSupportedVideoStreamTiers, HMDReselectedStreamConfigurationWrite, HMDSelectedStreamConfigurationWrite, HMDSetupEndPointRead, HMDSetupEndPointWrite, HMDSupportedAudioStreamConfiguration, HMDSupportedRTPConfiguration, HMDSupportedVideoStreamConfiguration, NSNumber;
+@class HMDSupportedVideoStreamConfiguration;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraProtocolParameters
 {
     HMDSupportedVideoStreamConfiguration *_supportedVideoStreamConfiguration;
-    HMDSupportedAudioStreamConfiguration *_supportedAudioStreamConfiguration;
-    HAPSupportedVideoStreamTiers *_supportedVideoStreamTiers;
-    HAPSupportedAudioStreamTiers *_supportedAudioStreamTiers;
-    HMDSupportedRTPConfiguration *_supportedRTPConfiguration;
-    HMDSetupEndPointRead *_setupEndPointRead;
-    HMDSetupEndPointWrite *_setupEndPointWrite;
-    HMDSelectedStreamConfigurationWrite *_selectedStreamConfigurationWrite;
-    HMDReselectedStreamConfigurationWrite *_reselectedStreamConfigurationWrite;
-    HAPRTPStreamingControlRequest *_streamingControlRequest;
 }
 
 + (_Bool)ä;ÄªÁ;
+- (id)_clearBlockedTripIdentifiers;
+- (id)_cleanupIfNecessary;
+- (id)_checkEnabledState;
+- (id)_capabilitiesByParticipant;
+- (id)_canControlReceiving;
+- (id)SString",R,N,V_directionsSettingsPath;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)Service] Subscribe to trip:(id)arg1 %@;
+- (void)subscription tokens for trip:(id)arg1 %@;
+- (void)r code:(id)arg1 %ld, %@;
+- (void)hecking state...;
+- (id)w;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)J,;
 - (void);
 - (id);
 - (id);
@@ -51,18 +42,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *audioSSRC;
-@property(retain, nonatomic) HMDReselectedStreamConfigurationWrite *reselectedStreamConfigurationWrite; // @synthesize reselectedStreamConfigurationWrite=_reselectedStreamConfigurationWrite;
-@property(retain, nonatomic) HMDSelectedStreamConfigurationWrite *selectedStreamConfigurationWrite; // @synthesize selectedStreamConfigurationWrite=_selectedStreamConfigurationWrite;
-@property(retain, nonatomic) HMDSetupEndPointRead *setupEndPointRead; // @synthesize setupEndPointRead=_setupEndPointRead;
-@property(retain, nonatomic) HMDSetupEndPointWrite *setupEndPointWrite; // @synthesize setupEndPointWrite=_setupEndPointWrite;
-@property(retain, nonatomic) HAPRTPStreamingControlRequest *streamingControlRequest; // @synthesize streamingControlRequest=_streamingControlRequest;
-@property(retain, nonatomic) HMDSupportedAudioStreamConfiguration *supportedAudioStreamConfiguration; // @synthesize supportedAudioStreamConfiguration=_supportedAudioStreamConfiguration;
-@property(retain, nonatomic) HAPSupportedAudioStreamTiers *supportedAudioStreamTiers; // @synthesize supportedAudioStreamTiers=_supportedAudioStreamTiers;
-@property(retain, nonatomic) HMDSupportedRTPConfiguration *supportedRTPConfiguration; // @synthesize supportedRTPConfiguration=_supportedRTPConfiguration;
 @property(retain, nonatomic) HMDSupportedVideoStreamConfiguration *supportedVideoStreamConfiguration; // @synthesize supportedVideoStreamConfiguration=_supportedVideoStreamConfiguration;
-@property(retain, nonatomic) HAPSupportedVideoStreamTiers *supportedVideoStreamTiers; // @synthesize supportedVideoStreamTiers=_supportedVideoStreamTiers;
-@property(copy, nonatomic) NSNumber *videoSSRC;
 
 @end
 

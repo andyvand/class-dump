@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (TLKSharedPublic)
-- (void);
+- (void)!;
 @end
 

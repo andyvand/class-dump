@@ -10,21 +10,14 @@ __attribute__((visibility("hidden")))
 @interface CMDiagramShapeMatrixMapper : CMDiagramShapeMapper
 {
     unsigned long long mColumnCount;
-    unsigned long long mRowCount;
-    float mRectWidth;
-    float mRectHeight;
-    _Bool mHasArrows;
-    _Bool mIsSnake;
-    _Bool mIsHorizontal;
-    _Bool mIsLinear;
 }
 
 - (struct CGSize);
-- (void);
+- (void);
 - (void);
 - (id);
 - (double);
-- (struct CGRect);
+- (struct CGRect)Z;
 - (struct CGSize);
 - (unsigned long long);
 

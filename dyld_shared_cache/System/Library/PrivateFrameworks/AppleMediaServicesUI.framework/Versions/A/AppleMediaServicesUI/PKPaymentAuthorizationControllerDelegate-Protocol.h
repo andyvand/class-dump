@@ -4,6 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSWindow, PKPayment, PKPaymentAuthorizationController;
+
 @protocol PKPaymentAuthorizationControllerDelegate
+- (NSWindow *)identifiers:(PKPaymentAuthorizationController *)arg1 %@
+;
+- (void);
+
+@optional
+- (void)AND %K == %d;
+- (void)tive count (%lu) -- possibly data is corrupt;
+- (void)*** attempt to create a temporary id buffer which is too large or with a negative count (%lu) -- possibly data is corrupt;
+- (void)== %@;
+- (void)PLLimitedLibraryFetchFiltersUpdatedNotificationApplicationIdentifier;
+- (void)Dictionary"16;
+- (void)unedAmount:(PKPaymentAuthorizationController *)arg1 %lld;
+- (void)ithBudget:(PKPaymentAuthorizationController *)arg1 urgency:(PKPayment *)arg2 completionHandler:(void (^)(PKPaymentAuthorizationResult *))arg3 ];
+- (void)CACHE_DELETE_URGENCY;
+- (void)not nil;
+- (void).lowNotifyQueue;
 @end
 

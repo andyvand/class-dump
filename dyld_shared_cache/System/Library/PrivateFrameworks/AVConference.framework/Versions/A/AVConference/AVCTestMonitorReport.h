@@ -7,12 +7,10 @@
 @interface AVCTestMonitorReport
 {
     unsigned long long _initialMemoryUsageMB;
-    unsigned long long _memoryUsageMB;
-    unsigned long long _networkAgentRefCount;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
@@ -20,8 +18,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long initialMemoryUsageMB; // @synthesize initialMemoryUsageMB=_initialMemoryUsageMB;
-@property(nonatomic) unsigned long long memoryUsageMB; // @synthesize memoryUsageMB=_memoryUsageMB;
-@property(nonatomic) unsigned long long networkAgentRefCount; // @synthesize networkAgentRefCount=_networkAgentRefCount;
 
 @end
 

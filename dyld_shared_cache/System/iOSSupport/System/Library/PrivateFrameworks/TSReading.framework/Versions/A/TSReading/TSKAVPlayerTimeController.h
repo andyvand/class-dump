@@ -4,29 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TSKAVPlayerController;
-
 @interface TSKAVPlayerTimeController
 {
     id mTimeObserver;
-    _Bool mObservingPlayerStatus;
-    double mAbsoluteCurrentTime;
-    double mCurrentTime;
-    double mRemainingTime;
-    double mUpdateInterval;
-    TSKAVPlayerController *mPlayerController;
 }
 
+- (void)r paused playback for unknown reason;
 - (void);
+- (void)tem mismatch:(double)arg1;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (double);
-- (void);
-- (id);
+- (void)4S;
+- (id)hasMutedSubscriptionForTagID:(id)arg1;
 - (double);
 - (void);
 - (id);
@@ -38,10 +30,6 @@
 
 // Remaining properties
 @property(nonatomic) double absoluteCurrentTime; // @synthesize absoluteCurrentTime=mAbsoluteCurrentTime;
-@property(nonatomic) double currentTime; // @synthesize currentTime=mCurrentTime;
-@property(readonly, retain, nonatomic) TSKAVPlayerController *playerController; // @synthesize playerController=mPlayerController;
-@property(readonly, nonatomic) double remainingTime; // @synthesize remainingTime=mRemainingTime;
-@property(nonatomic) double updateInterval; // @synthesize updateInterval=mUpdateInterval;
 
 @end
 

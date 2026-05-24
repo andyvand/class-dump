@@ -17,9 +17,9 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)@9	;
 
 @end
 

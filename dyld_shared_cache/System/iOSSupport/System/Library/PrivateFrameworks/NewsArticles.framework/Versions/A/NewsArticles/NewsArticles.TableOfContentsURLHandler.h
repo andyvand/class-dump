@@ -7,15 +7,13 @@
 @interface NewsArticles.TableOfContentsURLHandler
 {
     id issue;
-    id actionHandler;
-    id viewController;
 }
 
 - (id);
 - (void);
 - (void);
 - (id);
-- (void)SubConcern;
+- (void)selectedSubConcern;
 
 @end
 

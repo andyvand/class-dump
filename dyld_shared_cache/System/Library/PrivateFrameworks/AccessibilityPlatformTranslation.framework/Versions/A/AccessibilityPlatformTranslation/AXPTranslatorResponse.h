@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXPTranslationObject, NSArray, NSString;
 @protocol NSObject><NSCopying><NSSecureCoding;
 
 @interface AXPTranslatorResponse
 {
     id <NSObject><NSCopying><NSSecureCoding> _resultData;
-    unsigned long long _attribute;
-    unsigned long long _notification;
-    unsigned long long _associatedRequestType;
-    AXPTranslationObject *_associatedNotificationObject;
-    AXPTranslationObject *_associatedTranslationObject;
-    unsigned long long _error;
 }
 
 + (id);
@@ -34,31 +27,20 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)H5;
 - (id);
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)	;
 - (unsigned long long);
 
 // Remaining properties
-@property(retain, nonatomic) AXPTranslationObject *associatedNotificationObject; // @synthesize associatedNotificationObject=_associatedNotificationObject;
-@property(nonatomic) unsigned long long associatedRequestType; // @synthesize associatedRequestType=_associatedRequestType;
-@property(retain, nonatomic) AXPTranslationObject *associatedTranslationObject; // @synthesize associatedTranslationObject=_associatedTranslationObject;
-@property(nonatomic) unsigned long long attribute; // @synthesize attribute=_attribute;
-@property(readonly, nonatomic) _Bool boolResponse;
-@property(nonatomic) unsigned long long error; // @synthesize error=_error;
-@property(nonatomic) unsigned long long notification; // @synthesize notification=_notification;
 @property(retain, nonatomic) id <NSObject><NSCopying><NSSecureCoding> resultData; // @synthesize resultData=_resultData;
-@property(readonly, nonatomic) AXPTranslationObject *translationResponse;
-@property(readonly, nonatomic) NSArray *translationsResponse;
-@property(readonly, nonatomic) NSArray *treeDumpResponse;
-@property(readonly, nonatomic) NSString *treeDumpType;
 
 @end
 

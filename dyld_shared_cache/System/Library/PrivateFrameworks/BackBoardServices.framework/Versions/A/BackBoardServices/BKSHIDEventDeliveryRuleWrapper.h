@@ -9,17 +9,15 @@
 @interface BKSHIDEventDeliveryRuleWrapper
 {
     unsigned int _seed;
-    NSString *_reason;
-    id _payload;
 }
 
 + (_Bool);
+- (id)�;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)setPreventDeviceSleep:(id)arg1;
 - (unsigned long long);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -27,16 +25,7 @@
 - (unsigned int)*__strong);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) id payload; // @synthesize payload=_payload;
 @property(readonly, copy, nonatomic) NSString *reason; // @synthesize reason=_reason;
-@property(readonly, nonatomic) unsigned int seed; // @synthesize seed=_seed;
-@property(readonly) Class superclass;
 
 @end
 

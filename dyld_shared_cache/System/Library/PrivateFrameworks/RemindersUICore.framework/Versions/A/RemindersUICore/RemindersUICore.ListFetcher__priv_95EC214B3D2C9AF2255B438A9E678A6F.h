@@ -7,11 +7,6 @@
 @interface RemindersUICore.ListFetcher__priv_95EC214B3D2C9AF2255B438A9E678A6F
 {
     id store;
-    id recentlySelectedListObjectID;
-    id defaultListOption;
-    id cachedAccounts;
-    id $__lazy_storage_$_recentlySelectedList;
-    id $__lazy_storage_$_defaultList;
 }
 
 @end

@@ -8,7 +8,7 @@
 {
 }
 
-+ (id)efillingFormInFrames:metadataForAllForms:isInitialCollectionAtPageLoad: /* Error: Ran out of types for this method. */;
++ (id)didCollectMetadataForPrefillingFormInFrames:metadataForAllForms:isInitialCollectionAtPageLoad: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void)igherPriorityIconDownloadFailedDueToNetworkError:UUIDString: /* Error: Ran out of types for this method. */;

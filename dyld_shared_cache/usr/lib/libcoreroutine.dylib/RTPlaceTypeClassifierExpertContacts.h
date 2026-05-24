@@ -4,30 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, RTContactsManager, RTDistanceCalculator, RTLearnedLocationStore, RTMapServiceManager, RTMapsSupportManager, RTPlaceTypeClassifierMetricsCalculator;
+@class RTContactsManager;
 
 @interface RTPlaceTypeClassifierExpertContacts
 {
     RTContactsManager *_contactsManager;
-    RTDistanceCalculator *_distanceCalculator;
-    RTLearnedLocationStore *_learnedLocationStore;
-    RTMapServiceManager *_mapServiceManager;
-    RTMapsSupportManager *_mapsSupportManager;
-    RTPlaceTypeClassifierMetricsCalculator *_placeTypeClassifierMetricsCalculator;
 }
 
+- (void)Q;
+- (id);
+- (id);
+- (id)tring",&,V_service;
+- (id)eating new identity;
+- (id)t persona:(id *)arg1 %@, dsid:%@, altDSID:%@ /* Error: Ran out of types for this method. */;
+- (id)very Token Record is terminal, needs repair;
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
-- (void);
-- (id);
+- (id)R;
 - (void);
 - (id);
 - (void);
@@ -38,18 +33,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) RTContactsManager *contactsManager; // @synthesize contactsManager=_contactsManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) RTDistanceCalculator *distanceCalculator; // @synthesize distanceCalculator=_distanceCalculator;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) RTLearnedLocationStore *learnedLocationStore; // @synthesize learnedLocationStore=_learnedLocationStore;
-@property(retain, nonatomic) RTMapServiceManager *mapServiceManager; // @synthesize mapServiceManager=_mapServiceManager;
-@property(retain, nonatomic) RTMapsSupportManager *mapsSupportManager; // @synthesize mapsSupportManager=_mapsSupportManager;
-@property(retain, nonatomic) RTPlaceTypeClassifierMetricsCalculator *placeTypeClassifierMetricsCalculator; // @synthesize placeTypeClassifierMetricsCalculator=_placeTypeClassifierMetricsCalculator;
-@property(readonly) Class superclass;
 
 @end
 

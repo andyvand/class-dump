@@ -10,11 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _UICollectionCompositionalLayoutSolverResolveResult
 {
     NSMutableDictionary *_insertedSupplementaryElementKindIndexPathsDict;
-    NSMutableDictionary *_insertedDecorationElementKindIndexPathsDict;
-    NSMutableDictionary *_deletedSupplementaryElementKindIndexPathsDict;
-    NSMutableDictionary *_deletedDecorationElementKindIndexPathsDict;
-    _Bool _sectionsWereRequeried;
-    struct CGPoint _contentOffsetAdjustment;
 }
 
 - (id);
@@ -27,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (struct CGPoint)m:atIndex: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)insertItem:atIndex: /* Error: Ran out of types for this method. */;
 - (_Bool)der",W,N,V_originalParentFirstResponder;
 - (void)èk¾ÿ;
 

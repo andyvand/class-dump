@@ -11,14 +11,12 @@
 @interface TSWPParagraphStyle : TSSStyle
 {
     void *_coreTextParagraphStyle;
-    struct __CFDictionary *_styleCache;
-    struct __CFDictionary *_scalePercentStyleCaches;
 }
 
++ (id)CoordinatorEventStateHandling;
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)w;
 + (id);
 + (id);
 + (id);
@@ -30,18 +28,18 @@
 + (id);
 + (id);
 + (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (struct __CFDictionary *);
-- (unsigned long long);
-- (struct __CTParagraphStyle *);
-- (BOOL);
-- (SEL);
-- (void);
-- (void);
+- (_Bool)ueFeeder.loadingOperationQueue;
+- (id)16;
+- (void)[_MPCQueueControllerBehaviorMusic _qfa_performInsertPlaybackContext:(id)arg1 atPosition:afterContentItemID:sectionIdentifier:actions:completion:] /* Error: Ran out of types for this method. */;
+- (void)sts for section:(id)arg1 %@ [ItemPlaceholder] contentItemID:%@ /* Error: Ran out of types for this method. */;
+- (id)Account"16;
+- (struct __CFDictionary *)am will seek to infinity -  currentItem:(id)arg1;
+- (unsigned long long)orting a seek which occured while idle [no player item, no pre-setQueue item] - time: /* Error: Ran out of types for this method. */;
+- (struct __CTParagraphStyle *)playbackDidStop:(id)arg1;
+- (BOOL)playbackRateDidChangeNotified:(int)arg1;
+- (SEL);
+- (void)PlayerViewControllerBehaviorDelegate;
+- (void)PlayerViewControllerBehavior;
 - (id);
 - (struct __CFDictionary *);
 - (id);

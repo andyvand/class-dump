@@ -12,7 +12,7 @@
 + (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)containsIndexesInRange: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

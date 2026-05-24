@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSEnumerator;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface MLProbabilityDictionarySharedKeySet
 {
     NSDictionary *_labelToIndex;
-    NSArray *_labels;
 }
 
-- (unsigned long long);
+- (unsigned long long)encodeMTLBoundingBoxBVHLeafNodeKernel;
 - (unsigned long long);
 - (id);
 - (id);
@@ -23,8 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;
-@property(readonly, nonatomic) NSEnumerator *labelEnumerator;
-@property(readonly, nonatomic) unsigned long long uniqueLabelCount;
 
 @end
 

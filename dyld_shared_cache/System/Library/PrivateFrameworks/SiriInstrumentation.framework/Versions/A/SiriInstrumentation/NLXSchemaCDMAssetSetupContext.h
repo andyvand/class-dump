@@ -6,45 +6,37 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NLXSchemaCDMAssetSetupEnded, NLXSchemaCDMAssetSetupFailed, NLXSchemaCDMAssetSetupStarted, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface NLXSchemaCDMAssetSetupContext : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_contextId;
-    NLXSchemaCDMAssetSetupStarted *_startedOrChanged;
-    NLXSchemaCDMAssetSetupEnded *_ended;
-    NLXSchemaCDMAssetSetupFailed *_failed;
-    _Bool _hasContextId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
 - (id);
-- (void);
+- (void)(?;
 - (void);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)essl-2.2/crypto/pkcs12/p12_p8e.c;
 - (_Bool);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)@;
 - (_Bool);
 - (id);
 - (id);
@@ -56,15 +48,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *contextId; // @synthesize contextId=_contextId;
-@property(retain, nonatomic) NLXSchemaCDMAssetSetupEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) NLXSchemaCDMAssetSetupFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasContextId; // @synthesize hasContextId=_hasContextId;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) NLXSchemaCDMAssetSetupStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

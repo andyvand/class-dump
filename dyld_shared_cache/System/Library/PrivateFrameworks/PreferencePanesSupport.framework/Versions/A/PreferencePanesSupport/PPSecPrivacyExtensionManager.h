@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AdminAuthenticator, NSObject, NSString, NSXPCConnection, PPSecPrivacyViewController;
-@protocol OS_dispatch_queue;
+@class PPSecPrivacyViewController;
 
 @interface PPSecPrivacyExtensionManager
 {
     _Bool _initiallyEditable;
-    AdminAuthenticator *_authenticator;
-    NSObject<OS_dispatch_queue> *_adminQueue;
-    PPSecPrivacyViewController *_viewController;
-    NSXPCConnection *_connection;
-    NSString *_bundleIdentifier;
 }
 
 + (id);
@@ -29,13 +23,11 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(retain) NSXPCConnection *connection; // @synthesize connection=_connection;
 @property __weak PPSecPrivacyViewController *viewController; // @synthesize viewController=_viewController;
 
 @end

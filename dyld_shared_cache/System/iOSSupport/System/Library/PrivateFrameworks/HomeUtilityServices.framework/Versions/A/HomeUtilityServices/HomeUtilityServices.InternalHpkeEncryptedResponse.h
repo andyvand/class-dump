@@ -8,7 +8,6 @@
 {
     id cipherText;
     id enc;
-    id hpkeMode;
 }
 
 @end

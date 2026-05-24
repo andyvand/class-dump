@@ -6,6 +6,6 @@
 
 @interface UnknownClass (VCSUtilities)
 + (id);
-+ (id);
++ (id)r/lib/swift/libswiftUniformTypeIdentifiers.dylib;
 @end
 

@@ -22,7 +22,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id)@"MLModelStructureNeuralNetwork",R,N,V_neuralNetwork;

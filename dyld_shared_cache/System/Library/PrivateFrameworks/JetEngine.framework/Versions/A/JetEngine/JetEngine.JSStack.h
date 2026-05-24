@@ -7,14 +7,6 @@
 @interface JetEngine.JSStack
 {
     id lazyProvider;
-    id workerThread;
-    id context;
-    id managedSources;
-    id sentryConfiguration;
-    id tracingSupport;
-    id cache;
-    id ttlRecorder;
-    id exceptionObserver;
 }
 
 @end

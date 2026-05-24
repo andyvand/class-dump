@@ -6,18 +6,16 @@
 
 #import <Vision/VNImageAnalyzerBasedDetector.h>
 
-@class NSArray, NSDictionary, VNSaliencyOHeatmapBoundingBoxGenerator, VisionCoreSmartCam5InferenceNetworkDescriptor;
+@class NSArray, VisionCoreSmartCam5InferenceNetworkDescriptor;
 
 __attribute__((visibility("hidden")))
 @interface VNSmartCam5GatingDetector : VNImageAnalyzerBasedDetector
 {
     VisionCoreSmartCam5InferenceNetworkDescriptor *_inferenceNetworkDescriptor;
-    NSDictionary *_documentIdentifierToSceneLabels;
-    VNSaliencyOHeatmapBoundingBoxGenerator *_boundingBoxGenerator;
 }
 
 + (id);
-+ (id);
++ (id);
 + (_Bool);
 + (_Bool);
 + (id);
@@ -27,11 +25,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (unsigned int);
 - (_Bool);
-- (void)NGenerateAttentionBasedSaliencyImageRequestPrivateRevisionSceneNetV5StillCapturePipeline;
+- (void)VNGenerateAttentionBasedSaliencyImageRequestPrivateRevisionSceneNetV5StillCapturePipeline;
 
 // Remaining properties
 @property(readonly, copy) NSArray *supportedDocumentElementIdentifiers;

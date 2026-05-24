@@ -7,47 +7,6 @@
 @interface Speech.SpeechRecognizerWorker
 {
     id $defaultActor;
-    id recognizerService;
-    id isRecognizerInvalidated;
-    id supportedFeatures;
-    id clientID;
-    id geoLMRegionID;
-    id asrId;
-    id requestId;
-    id analysisOptions;
-    id requestParameters;
-    id emojiUtils;
-    id clientInfo;
-    id shouldEmitCoreAnalyticsLogs;
-    id shouldEmitOndeviceRecordLogs;
-    id modelInfo;
-    id isCustomLmUsed;
-    id voiceCommandDebugInfoAggregated;
-    id lastStringOfPriorFinalResult;
-    id resultCandidateId;
-    id prevContext;
-    id pauseResumeState;
-    id resumeContext;
-    id audioBufferService;
-    id audioFormat;
-    id rangeOnAudioBuffer;
-    id rangeOnAudioBufferReceivedByEAR;
-    id didPrepare;
-    id scheduledFinalizations;
-    id clearMeasurementsBeforeRun;
-    id perfMeasurementsMutex;
-    id resultStreamActor;
-    id volatileRange;
-    id recognitionStatistics;
-    id recognitionUtterenceStatistics;
-    id didFinalizeToRange;
-    id didFailWithError;
-    id pendingEagerResultRequests;
-    id delegates;
-    id enqueue;
-    id didDidFinish;
-    id didFinishRecognitionContinuations;
-    id didFinishRecognitionHandlers;
 }
 
 @end

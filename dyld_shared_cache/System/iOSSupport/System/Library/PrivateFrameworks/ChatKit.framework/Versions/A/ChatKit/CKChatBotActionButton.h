@@ -7,15 +7,11 @@
 @interface CKChatBotActionButton
 {
     id actionList;
-    id showTitle;
-    id iconView;
-    id blurView;
-    id delegate;
 }
 
 - (void);
 - (id);
-- (struct CGSize);
+- (struct CGSize)=;
 - (id);
 - (void);
 - (id);

@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @protocol INCopyFileIntent
+- (NSString *)tor",&,N,V_loadingSpinner;
+- (NSString *)R;
 - (void)ponse;
 - (NSString *);
 - (NSString *);
 
 // Remaining properties
-@property(copy) NSString *destinationName;
-@property(copy) NSString *destinationType;
-@property(copy) NSString *entityName;
 @property(copy) NSString *entityType;
-@property(copy) NSArray *properties;
-@property(copy) NSString *sourceName;
-@property(copy) NSString *sourceType;
 @end
 

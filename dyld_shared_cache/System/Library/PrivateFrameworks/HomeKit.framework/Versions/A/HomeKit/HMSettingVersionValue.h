@@ -11,21 +11,19 @@
 @interface HMSettingVersionValue : HMImmutableSettingValue
 {
     HMFVersion *_version;
-    long long _type;
 }
 
-- (id);
+- (id)7;
 - (id);
 - (id);
 - (unsigned long long);
 - (long long);
-- (_Bool);
+- (_Bool)numeral;
 - (id);
 - (id);
-- (void)uration;
+- (void)HMXPCMessageTransportConfiguration;
 
 // Remaining properties
-@property(readonly) long long type; // @synthesize type=_type;
 @property(readonly) HMFVersion *version; // @synthesize version=_version;
 
 @end

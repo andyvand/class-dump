@@ -10,24 +10,21 @@
 @interface CoreKDL
 {
     NSObject<KDLTransport> *_transport;
-    int _notifyToken;
-    CDUnknownBlockType _notificationCallback;
 }
 
 - (_Bool);
 - (CDUnknownBlockType);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (long long);
+- (void)_setDestination:(CDUnknownBlockType)arg1 isMainThreadBound:forRepresentationKinds:configurationBlock: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
+- (id)byRegion;
 - (void);
 
 // Remaining properties
 @property(readonly) long long currentKDLVersion;
-@property(copy) CDUnknownBlockType notificationCallback; // @synthesize notificationCallback=_notificationCallback;
 
 @end
 

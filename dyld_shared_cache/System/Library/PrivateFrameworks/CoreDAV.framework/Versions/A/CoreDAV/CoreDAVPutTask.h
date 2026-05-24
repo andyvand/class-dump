@@ -7,7 +7,6 @@
 #import <CoreDAV/CoreDAVPostOrPutTask.h>
 
 @class NSString;
-@protocol CoreDAVTaskDelegate;
 
 @interface CoreDAVPutTask : CoreDAVPostOrPutTask
 {
@@ -16,13 +15,12 @@
 
 - (void);
 - (id);
-- (id);
+- (id)addLocationForSuggestion: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
+- (void)EWSAffectedTaskOccurrencesTypeDefinition;
 
 // Remaining properties
-@property(nonatomic) __weak id <CoreDAVTaskDelegate> delegate; // @dynamic delegate;
 @property(retain, nonatomic) NSString *nextETag; // @synthesize nextETag=_nextETag;
 
 @end

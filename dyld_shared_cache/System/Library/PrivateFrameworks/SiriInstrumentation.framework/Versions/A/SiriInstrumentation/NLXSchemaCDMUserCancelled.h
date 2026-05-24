@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface NLXSchemaCDMUserCancelled : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_taskId;
-    _Bool _hasTaskId;
 }
 
 - (void);
@@ -20,11 +19,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)fy.c;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)i;
 - (id)ð1Â0@ù
 × ;
 - (id);
@@ -33,8 +32,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasTaskId; // @synthesize hasTaskId=_hasTaskId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *taskId; // @synthesize taskId=_taskId;
 
 @end

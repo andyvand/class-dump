@@ -4,31 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BMPBNotesContentEvent
 {
     double _absoluteTimestamp;
-    NSString *_content;
-    NSString *_contentProtection;
-    NSString *_domainId;
-    NSString *_personaId;
-    NSString *_title;
-    NSString *_uniqueId;
-    CDStruct_d3e759b0 _has;
 }
 
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)VCMediaStream_CheckDecryptionTimeoutForMKMRecoveryAgainstTime;
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (void);
-- (double);
+- (double)A8;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -48,25 +39,12 @@
 - (_Bool);
 - (id)	
 ;
-- (id)lockmode;
+- (id)rellockmode;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
-@property(retain, nonatomic) NSString *content; // @synthesize content=_content;
-@property(retain, nonatomic) NSString *contentProtection; // @synthesize contentProtection=_contentProtection;
-@property(retain, nonatomic) NSString *domainId; // @synthesize domainId=_domainId;
-@property(nonatomic) _Bool hasAbsoluteTimestamp;
-@property(readonly, nonatomic) _Bool hasContent;
-@property(readonly, nonatomic) _Bool hasContentProtection;
-@property(readonly, nonatomic) _Bool hasDomainId;
-@property(readonly, nonatomic) _Bool hasPersonaId;
-@property(readonly, nonatomic) _Bool hasTitle;
 @property(readonly, nonatomic) _Bool hasUniqueId;
-@property(retain, nonatomic) NSString *personaId; // @synthesize personaId=_personaId;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
-@property(retain, nonatomic) NSString *uniqueId; // @synthesize uniqueId=_uniqueId;
 
 @end
 

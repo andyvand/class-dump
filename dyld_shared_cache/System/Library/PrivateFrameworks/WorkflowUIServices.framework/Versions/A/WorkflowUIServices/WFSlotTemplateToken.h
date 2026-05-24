@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSString, WFIcon;
+@class NSHashTable;
 
 @interface WFSlotTemplateToken
 {
     _Bool _isAvailable;
-    NSHashTable *_delegates;
-    NSString *_displayName;
-    WFIcon *_icon;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)T;
 - (void);
 - (void);
 - (void);
@@ -30,9 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSHashTable *delegates; // @synthesize delegates=_delegates;
-@property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(retain, nonatomic) WFIcon *icon; // @synthesize icon=_icon;
-@property(nonatomic) _Bool isAvailable; // @synthesize isAvailable=_isAvailable;
 
 @end
 

@@ -4,41 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMImmutableSettingsProtoIntegerValueEvent;
-
 @interface HMImmutableSettingsProtoBoundedIntegerSettingEvent
 {
     long long _maxValue;
-    long long _minValue;
-    long long _stepValue;
-    HMImmutableSettingsProtoIntegerValueEvent *_value;
-    struct {
-        unsigned int maxValue:1;
-        unsigned int minValue:1;
-        unsigned int stepValue:1;
-    } _has;
 }
 
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)deleteExpiredSharesInManagedObjectContext: /* Error: Ran out of types for this method. */;
+- (void)dateByAddingComponents:(_Bool)arg1 toDate:options: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (long long);
+- (long long)l
+;
 - (_Bool);
-- (void);
+- (void)F;
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)join;
 - (void);
-- (id);
+- (id)O;
 - (id);
 - (long long);
 - (id);
@@ -46,14 +37,7 @@
 - (long long);
 
 // Remaining properties
-@property(nonatomic) _Bool hasMaxValue;
-@property(nonatomic) _Bool hasMinValue;
-@property(nonatomic) _Bool hasStepValue;
 @property(readonly, nonatomic) _Bool hasValue;
-@property(nonatomic) long long maxValue; // @synthesize maxValue=_maxValue;
-@property(nonatomic) long long minValue; // @synthesize minValue=_minValue;
-@property(nonatomic) long long stepValue; // @synthesize stepValue=_stepValue;
-@property(retain, nonatomic) HMImmutableSettingsProtoIntegerValueEvent *value; // @synthesize value=_value;
 
 @end
 

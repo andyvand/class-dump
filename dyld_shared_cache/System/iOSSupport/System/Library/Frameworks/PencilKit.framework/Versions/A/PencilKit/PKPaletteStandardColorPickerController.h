@@ -11,7 +11,6 @@
 @interface PKPaletteStandardColorPickerController : PKPaletteBaseColorPickerController
 {
     double _colorMaximumLinearExposure;
-    UIViewController *_colorPickerViewController;
 }
 
 - (void);
@@ -23,7 +22,7 @@
 - (id);
 - (id);
 - (id);
-- (void)kManager;
+- (void)PKInkManager;
 
 // Remaining properties
 @property(retain, nonatomic) UIViewController *colorPickerViewController; // @synthesize colorPickerViewController=_colorPickerViewController;

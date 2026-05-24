@@ -12,14 +12,13 @@
 {
 }
 
-- (id);
+- (id)createODISessionWithSessionIdentifier:cacheIdentifier:accountType:bundleIdentifier:completion: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)View:(id)arg1 didChangeLocationWithinPageForFrame: /* Error: Ran out of types for this method. */;
+- (void)webView:(id)arg1 didChangeLocationWithinPageForFrame: /* Error: Ran out of types for this method. */;
 - (id)sr/local/include/wtf/Markable.h;
 
 // Remaining properties
 @property(copy) NSString *href;
-@property(copy) NSString *target;
 
 @end
 

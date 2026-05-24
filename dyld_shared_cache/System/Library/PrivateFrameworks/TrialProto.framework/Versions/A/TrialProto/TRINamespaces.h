@@ -16,7 +16,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *namespaceIdArray; // @dynamic namespaceIdArray;
-@property(readonly, nonatomic) unsigned long long namespaceIdArray_Count; // @dynamic namespaceIdArray_Count;
 
 @end
 

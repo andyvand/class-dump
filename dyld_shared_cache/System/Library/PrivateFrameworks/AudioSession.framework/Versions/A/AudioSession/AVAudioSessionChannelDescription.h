@@ -13,7 +13,7 @@
 
 + (id);
 + (id);
-- (unsigned long long);
+- (unsigned long long)fetchNumiCloudFamilyRecipientsWithReceiverHandles:handler: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -24,13 +24,10 @@
 - (struct ChannelDescriptionImpl *);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)'0;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int channelLabel;
 @property(readonly, nonatomic) NSString *channelName;
-@property(readonly, nonatomic) unsigned long long channelNumber;
-@property(readonly, nonatomic) NSString *owningPortUID;
 
 @end
 

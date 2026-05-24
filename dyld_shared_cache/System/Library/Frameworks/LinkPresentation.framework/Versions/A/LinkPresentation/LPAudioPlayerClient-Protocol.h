@@ -5,5 +5,6 @@
 //
 
 @protocol LPAudioPlayerClient
+- (void);
 @end
 

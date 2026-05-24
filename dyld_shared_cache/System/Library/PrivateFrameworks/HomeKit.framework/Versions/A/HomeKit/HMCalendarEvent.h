@@ -14,7 +14,7 @@
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)Dock.;
 
 @end
 

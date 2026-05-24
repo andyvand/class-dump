@@ -7,13 +7,11 @@
 @interface NewsArticles.AnalyticsEventReporter
 {
     id transformerManager;
-    id articleCoordinator;
-    id eventManager;
 }
 
 - (void);
 - (id);
-- (void)ppearance;
+- (void)appearance;
 
 @end
 

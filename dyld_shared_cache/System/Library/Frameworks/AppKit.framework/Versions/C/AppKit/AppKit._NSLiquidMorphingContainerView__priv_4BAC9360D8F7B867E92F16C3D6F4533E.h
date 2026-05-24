@@ -9,15 +9,10 @@
 @interface AppKit._NSLiquidMorphingContainerView__priv_4BAC9360D8F7B867E92F16C3D6F4533E : NSView
 {
     id translationLayer;
-    id multiShadowLayer;
-    id translationContentLayer;
-    id backgroundLayer;
-    id maskLayer;
-    id _morphedViewsToMorphingPortalScalingLayers;
 }
 
-- (id);
-- (id)d:(struct CGRect)arg1;
+- (id);
+- (id)_splitViewItemSizesAfterSplitViewItem:(struct CGRect)arg1 isCollapsed: /* Error: Ran out of types for this method. */;
 - (void)Dc¦ÿz{¸E;
 
 @end

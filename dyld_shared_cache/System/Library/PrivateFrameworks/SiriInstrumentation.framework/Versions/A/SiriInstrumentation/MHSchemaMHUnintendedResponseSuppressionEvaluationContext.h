@@ -6,20 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class MHSchemaMHUnintendedResponseSuppressionEnded, MHSchemaMHUnintendedResponseSuppressionFailed, MHSchemaMHUnintendedResponseSuppressionStarted, NSData;
+@class MHSchemaMHUnintendedResponseSuppressionStarted;
 
 @interface MHSchemaMHUnintendedResponseSuppressionEvaluationContext : SISchemaInstrumentationMessage
 {
     MHSchemaMHUnintendedResponseSuppressionStarted *_startedOrChanged;
-    MHSchemaMHUnintendedResponseSuppressionEnded *_ended;
-    MHSchemaMHUnintendedResponseSuppressionFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
-- (unsigned long long);
+- (unsigned long long)={;
 - (id);
 - (void);
 - (_Bool);
@@ -36,7 +30,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ECP_NIST_MOD_192;
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
@@ -49,14 +43,7 @@
 - (void)Ìæÿ­ô;
 
 // Remaining properties
-@property(retain, nonatomic) MHSchemaMHUnintendedResponseSuppressionEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) MHSchemaMHUnintendedResponseSuppressionFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) MHSchemaMHUnintendedResponseSuppressionStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

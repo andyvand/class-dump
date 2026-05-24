@@ -6,23 +6,15 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPArtworkMetadata, LPImage, NSArray, NSDate, NSString;
+@class NSString;
 
 @interface LPiTunesMediaPodcastEpisodeMetadata : LPSpecializationMetadata
 {
     NSString *_storeFrontIdentifier;
-    NSString *_storeIdentifier;
-    NSString *_episodeName;
-    NSString *_podcastName;
-    NSString *_artist;
-    NSDate *_releaseDate;
-    LPImage *_artwork;
-    LPArtworkMetadata *_artworkMetadata;
-    NSArray *_offers;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 - (double);
 - (id);
 - (void);
@@ -39,17 +31,17 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)OR (rn + :new_uid_count) % :batch_size == 1   OR rn == (SELECT count(*) FROM cte);  /* Error: Ran out of types for this method. */;
+- (void)test_tearDown];
 - (void);
-- (void);
-- (id);
-- (id);
+- (id)y data;
+- (id)r operation <%{public}@:%p; %{public}@>:%@ /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)5-;
+- (void)inactiveSpatialPhotoDataLayer;
 - (id);
 - (id);
 - (void);
@@ -59,22 +51,7 @@
 - (id)rm@2x.png;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *artist; // @synthesize artist=_artist;
-@property(retain, nonatomic) LPImage *artwork; // @synthesize artwork=_artwork;
-@property(copy, nonatomic) LPArtworkMetadata *artworkMetadata; // @synthesize artworkMetadata=_artworkMetadata;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *episodeName; // @synthesize episodeName=_episodeName;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *offers; // @synthesize offers=_offers;
-@property(copy, nonatomic) NSString *podcastName; // @synthesize podcastName=_podcastName;
-@property(copy, nonatomic) NSDate *releaseDate; // @synthesize releaseDate=_releaseDate;
-@property(copy, nonatomic) NSString *storeFrontIdentifier; // @synthesize storeFrontIdentifier=_storeFrontIdentifier;
-@property(copy, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

@@ -8,19 +8,15 @@ __attribute__((visibility("hidden")))
 @interface NSWMStage
 {
     unsigned long long _style;
-    struct NSEdgeInsets _stageInsets;
-    struct NSEdgeInsets _safeAreaInsets;
 }
 
-- (struct NSEdgeInsets);
+- (struct NSEdgeInsets)nal-hotspot;
 - (id);
 - (unsigned long long);
 - (struct NSEdgeInsets)rPÿÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) struct NSEdgeInsets safeAreaInsets; // @synthesize safeAreaInsets=_safeAreaInsets;
 @property(readonly, nonatomic) struct NSEdgeInsets stageInsets; // @synthesize stageInsets=_stageInsets;
-@property(readonly, nonatomic) unsigned long long style; // @synthesize style=_style;
 
 @end
 

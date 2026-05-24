@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSImage, NSString;
-
 @interface Safari.CompletionListURLCompletionData
 {
     long long type;
-    void title;
-    void subtitle;
-    void faviconURLString;
-    NSImage *secondaryImage;
-    void highlightedRanges;
-    unsigned long long lineBreakMode;
-    void accessibilityIdentifier;
-    void deleteAction;
-    void deleteActionTitle;
-    id urlCompletionMatch;
 }
 
 - (void);
@@ -27,27 +15,18 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (CDUnknownBlockType)conCache",R,N;
-- (id)r13Inch;
+- (id)iPadAir13Inch;
 - (id)0@"BrowserTabViewItem"8;
 - (unsigned long long)ô;
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *accessibilityIdentifier;
-@property(nonatomic, copy) CDUnknownBlockType deleteAction;
-@property(nonatomic, copy) NSString *deleteActionTitle;
-@property(nonatomic, readonly) NSString *faviconURLString;
-@property(nonatomic, readonly) NSArray *highlightedRanges;
-@property(nonatomic, readonly) unsigned long long lineBreakMode; // @synthesize lineBreakMode;
-@property(nonatomic, retain) NSImage *secondaryImage; // @synthesize secondaryImage;
-@property(nonatomic, readonly) NSString *subtitle;
-@property(nonatomic, readonly) NSString *title;
 @property(nonatomic, readonly) long long type; // @synthesize type;
 
 @end

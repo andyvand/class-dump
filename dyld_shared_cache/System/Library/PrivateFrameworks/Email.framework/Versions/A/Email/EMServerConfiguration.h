@@ -8,16 +8,16 @@
 {
 }
 
-+ (void);
++ (void);
 + (_Bool);
 + (_Bool);
 + (id);
 + (id);
 + (void);
 + (id);
-+ (id);
-+ (double);
-+ (void);
++ (id)T=;
++ (double)h5=;
++ (void)-t8=;
 + (id);
 + (id);
 + (void);

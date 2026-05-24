@@ -4,11 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CLLocationManager;
+
 @protocol CLLocationManagerDelegate
 
 @optional
+- (_Bool)isCanvasDrawingIntoPDF:(CLLocationManager *)arg1;
+- (void)isBiDiEnabled;
+- (void)isBeingLocalized;
+- (void)isBaseFontNameUsed;
+- (void)isBackground;
+- (void)isAttributeDefaultInheritableFromStyle:(CLLocationManager *)arg1;
+- (void)isAssetsLibraryURL;
+- (void)el];
+- (void);
+- (void)Sh
+;
+- (void)HideMyEmailSignupModuleType;
 - (void)oup splitting disabled, returning ordered clusters unmodified;
 - (void)y;
-- (void);
 @end
 

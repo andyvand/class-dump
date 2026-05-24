@@ -7,14 +7,11 @@
 @class UIBezierPath;
 
 @protocol _UIVectorTextLayoutGlyph
-- (struct CGRect)t: /* Error: Ran out of types for this method. */;
-- (unsigned short)tached:didComplete: /* Error: Ran out of types for this method. */;
+- (struct CGRect)_uinavigationbar_prepareToAppearInNavigationItem:onLeft: /* Error: Ran out of types for this method. */;
+- (unsigned short)_setAttached:didComplete: /* Error: Ran out of types for this method. */;
 - (UIBezierPath *)iewConfiguration",C,N,V_configuration;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned short glyph;
-@property(readonly, nonatomic) UIBezierPath *path;
-@property(readonly, nonatomic) struct CGAffineTransform pathTransform;
-@property(readonly, nonatomic) struct CGRect rect;
 @end
 

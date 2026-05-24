@@ -7,7 +7,6 @@
 @interface JetEngine.RemoteJetpackFetcher
 {
     id remoteFetcher;
-    id artifactStoreURL;
 }
 
 @end

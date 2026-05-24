@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, _PASLock;
-@protocol OS_dispatch_queue;
+@class _PASLock;
 
 @interface PPAdaptiveCoalescer
 {
     _PASLock *_lock;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
-- (void);
+- (void)factorsAbsolutePathAsOwner:(id)arg1;
 - (id);
 - (void);
 - (void);

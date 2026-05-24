@@ -8,7 +8,6 @@
 {
     id kem;
     id kdf;
-    id aead;
 }
 
 - (id);

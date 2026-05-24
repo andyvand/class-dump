@@ -5,5 +5,7 @@
 //
 
 @protocol MKPhotoBigAttributionViewSubclass
+- (void)0;
+- (void);
 @end
 

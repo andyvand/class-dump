@@ -6,7 +6,7 @@
 
 #import <HomeKit/HMRemoteLoginMessage.h>
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface HMProvisionAnisetteDataRequest : HMRemoteLoginMessage
 {
@@ -21,15 +21,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *messageName;
-@property(readonly, nonatomic) NSDictionary *messagePayload;
-@property(readonly) Class superclass;
 
 @end
 

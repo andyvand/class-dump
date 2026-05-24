@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 __attribute__((visibility("hidden")))
 @interface GEOConfigStorageExpiryCached
 {
     unsigned long long _options;
-    struct os_unfair_lock_s _lock;
-    NSDictionary *_cachedValues;
 }
 
-- (_Bool);
-- (id);
+- (_Bool);
+- (id);
+- (void)PTTestRecipe;
+- (id)TrailingSilenceDuration (ASR), rcEndOfSentenceLikelihood (ASR), rcWordCount (ASR), rcServerFeaturesLatency (ASR), silencePosterior (ASR), acousticEndpointerScore (ASR), silencePosteriorNF (ASR)] @ effectiveClientProcessedAudioMs, Scores:[Partial, RC], Results:[Overall Decision, Default Decision, Relaxed Decision, Endpoint Posterior] /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (void);
-- (id)ernalResources;
-- (_Bool)edString;
+- (id)_cleanUpOrphanedExternalResources;
+- (_Bool)GEOPlaceFormattedString;
 - (void);
 - (void)8·gÿ5"9Ò~5;
 

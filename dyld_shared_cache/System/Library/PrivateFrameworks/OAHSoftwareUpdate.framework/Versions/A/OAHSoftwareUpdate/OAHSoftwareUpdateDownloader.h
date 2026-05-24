@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSUProduct, NSArray, NSDictionary, NSError, NSNumber, NSObject, NSString, NSURL, OAHUpdateServiceController, PKDistribution, PKDownloader, PKPackageSourceManager;
-@protocol OS_dispatch_semaphore;
+@class NSDictionary, PKPackageSourceManager;
 
 @interface OAHSoftwareUpdateDownloader
 {
     NSDictionary *_macOSInstallationAuxInfo;
-    MSUProduct *_product;
-    NSError *_error;
-    PKPackageSourceManager *_sourceManager;
-    OAHUpdateServiceController *_updateServiceController;
-    NSString *_productBridgeVersion;
-    NSURL *_catalogURL;
-    NSURL *_catalogURLOverride;
-    unsigned long long _catalogOptionsOverride;
-    NSNumber *_stagedUpdatesOnlyOverride;
-    PKDownloader *_downloader;
-    NSObject<OS_dispatch_semaphore> *_downloaderFinished;
-    NSURL *_destinationURL;
-    CDUnknownBlockType _downloadProgressHandler;
-    CDUnknownBlockType _downloadCancelledHandler;
-    NSArray *_localProducts;
 }
 
 - (id);
@@ -32,7 +16,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -46,7 +30,7 @@
 - (CDUnknownBlockType);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)I;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -62,10 +46,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)9;
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)�P;
 - (void);
 - (void);
 - (void);
@@ -76,36 +60,19 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)VideoPacketBuffer_GetNextFrame;
 - (id);
 - (void);
-- (void);
+- (id);
+- (void)rgetBitrate INT, algorithmVersion INT );;
+- (void)SString"32;
 
 // Remaining properties
-@property unsigned long long catalogOptionsOverride; // @synthesize catalogOptionsOverride=_catalogOptionsOverride;
-@property(retain) NSURL *catalogURL; // @synthesize catalogURL=_catalogURL;
-@property(retain) NSURL *catalogURLOverride; // @synthesize catalogURLOverride=_catalogURLOverride;
-@property(retain) NSURL *destinationURL; // @synthesize destinationURL=_destinationURL;
-@property(readonly) PKDistribution *distribution;
-@property(copy) CDUnknownBlockType downloadCancelledHandler; // @synthesize downloadCancelledHandler=_downloadCancelledHandler;
-@property(copy) CDUnknownBlockType downloadProgressHandler; // @synthesize downloadProgressHandler=_downloadProgressHandler;
-@property(retain) PKDownloader *downloader; // @synthesize downloader=_downloader;
-@property(retain) NSObject<OS_dispatch_semaphore> *downloaderFinished; // @synthesize downloaderFinished=_downloaderFinished;
-@property(retain) NSError *error; // @synthesize error=_error;
-@property(retain) NSArray *localProducts; // @synthesize localProducts=_localProducts;
-@property(retain) NSDictionary *macOSInstallationAuxInfo; // @synthesize macOSInstallationAuxInfo=_macOSInstallationAuxInfo;
-@property(retain) MSUProduct *product; // @synthesize product=_product;
-@property(retain) NSString *productBridgeVersion; // @synthesize productBridgeVersion=_productBridgeVersion;
-@property(readonly) NSArray *remotePackageSpecifiers;
 @property(retain) PKPackageSourceManager *sourceManager; // @synthesize sourceManager=_sourceManager;
-@property(retain) NSNumber *stagedUpdatesOnlyOverride; // @synthesize stagedUpdatesOnlyOverride=_stagedUpdatesOnlyOverride;
-@property(retain) OAHUpdateServiceController *updateServiceController; // @synthesize updateServiceController=_updateServiceController;
 
 @end
 

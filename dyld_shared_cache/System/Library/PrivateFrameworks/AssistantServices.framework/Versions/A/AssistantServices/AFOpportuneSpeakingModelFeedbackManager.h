@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFOpportuneSpeakingModelFeedback, NSMutableDictionary;
-@protocol _DKKnowledgeQuerying;
+@class AFOpportuneSpeakingModelFeedback;
 
 @interface AFOpportuneSpeakingModelFeedbackManager
 {
     AFOpportuneSpeakingModelFeedback *_feedback;
-    id <_DKKnowledgeQuerying> _knowledgeStore;
-    NSMutableDictionary *_usageEventsBySpeakableId;
 }
 
 - (void);
@@ -19,9 +16,9 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void)orrectedSpeech;
+- (void)correctedSpeech;
 
 @end
 

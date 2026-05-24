@@ -10,15 +10,9 @@ __attribute__((visibility("hidden")))
 @interface PDAnimationChartTarget : PDAnimationShapeTarget
 {
     _Bool mHasCatagoryIndex;
-    int mCatagoryIndex;
-    _Bool mHasSeriesIndex;
-    int mSeriesIndex;
-    _Bool mHasBuildStep;
-    int mBuildStep;
-    int mChartSubElementType;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (int);

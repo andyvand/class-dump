@@ -6,17 +6,12 @@
 
 #import <AppKit/NSWindowController.h>
 
-@class NSButton, NSLayoutConstraint, NSString, NSView;
+@class NSView;
 
 __attribute__((visibility("hidden")))
 @interface NSExceptionAlertController : NSWindowController
 {
     NSView *_expandedView;
-    NSButton *_showDetailsButton;
-    NSLayoutConstraint *_heightCollapseConstraint;
-    NSString *_exceptionMessage;
-    struct CGSize _previousSize;
-    _Bool _showingDetails;
 }
 
 - (_Bool);
@@ -26,12 +21,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)componentsWithURL:resolvingAgainstBaseURL: /* Error: Ran out of types for this method. */;
+- (id)_firstByteReceivedTime;
+- (id)_expectingResumeCallback;
 - (void);
 - (void);
-- (long long);
+- (long long)2Fe;
 - (void);
 - (id);
 - (void)ÿ@îÀB;
@@ -39,10 +34,6 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 
 // Remaining properties
-@property(copy) NSString *exceptionMessage; // @synthesize exceptionMessage=_exceptionMessage;
-@property(retain) NSView *expandedView; // @synthesize expandedView=_expandedView;
-@property(retain) NSLayoutConstraint *heightCollapseConstraint; // @synthesize heightCollapseConstraint=_heightCollapseConstraint;
-@property(retain) NSButton *showDetailsButton; // @synthesize showDetailsButton=_showDetailsButton;
 @property _Bool showingDetails; // @synthesize showingDetails=_showingDetails;
 
 @end

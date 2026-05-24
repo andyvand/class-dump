@@ -11,10 +11,10 @@
 
 - (void);
 - (void);
-- (_Bool);
-- (long long);
+- (_Bool);
+- (long long)@�M;
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (struct CGRect);
 - (id);

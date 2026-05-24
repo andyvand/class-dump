@@ -8,6 +8,5 @@
 
 // Remaining properties
 @property(nonatomic) int databaseRestoreGeneration;
-@property(readonly, nonatomic) _Bool shouldValidateObjectIDs;
 @end
 

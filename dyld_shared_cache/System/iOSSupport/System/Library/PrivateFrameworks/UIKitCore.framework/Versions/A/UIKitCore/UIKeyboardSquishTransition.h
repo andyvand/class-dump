@@ -6,72 +6,52 @@
 
 #import <UIKitCore/UIKeyboardKeyplaneTransition.h>
 
-@class CADisplayLink, NSArray;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface UIKeyboardSquishTransition : UIKeyboardKeyplaneTransition
 {
     double _widthRatio;
-    double _offsetX;
-    _Bool _useInteractiveOpacity;
-    _Bool _disableMeshOptimization;
-    _Bool _opacityAnimationDirectionForward;
-    unsigned long long _animationType;
-    NSArray *_startGeometries;
-    NSArray *_endGeometries;
-    NSArray *_commonVisibleKeys;
-    CADisplayLink *_opacityAnimationDisplayLink;
-    double _opacityAnimationBeginTime;
-    double _previousProgress;
 }
 
 - (_Bool);
 - (void);
 - (id);
+- (id)So22IMDSpamFilteringHelperC;
+- (void);
+- (void);
+- (void);
+- (void)}};
+- (void)P;
+- (void)t;
+- (void);
+- (void)ad of performing TrustKit inference;
+- (void).apple.messages.SMSReceivedRelayMessage;
+- (double)ieve sticker with properties %@, completionBlock %@;
+- (id)opping delete command:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)Sync not enabled and not reported as junk, dropping delete command:%@ /* Error: Ran out of types for this method. */;
+- (double)one of our own devices From:%@ /* Error: Ran out of types for this method. */;
+- (id)fetched max live batch records, we will not fetch archived records;
+- (id)at local path %@, no need to move further;
+- (id)' error:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)with specific group ID %@ for chat metadata:%@ /* Error: Ran out of types for this method. */;
 - (id);
+- (void)IMDBackgroundMessagingAPIListenerQueue;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
+- (id);
 - (id);
 - (_Bool);
-- (double);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (id)J!ɚ	;
 - (void);
 - (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)yloadConfiguration;
 - (void)× ;
-- (void)WithFrame:paddedFrame: /* Error: Ran out of types for this method. */;
+- (void)geometryWithFrame:paddedFrame: /* Error: Ran out of types for this method. */;
 - (unsigned long long)P	c;
 - (void)'!v;
 
 // Remaining properties
-@property(nonatomic) unsigned long long animationType; // @synthesize animationType=_animationType;
-@property(retain, nonatomic) NSArray *commonVisibleKeys; // @synthesize commonVisibleKeys=_commonVisibleKeys;
-@property(nonatomic) _Bool disableMeshOptimization; // @synthesize disableMeshOptimization=_disableMeshOptimization;
-@property(retain, nonatomic) NSArray *endGeometries; // @synthesize endGeometries=_endGeometries;
-@property(nonatomic) double opacityAnimationBeginTime; // @synthesize opacityAnimationBeginTime=_opacityAnimationBeginTime;
-@property(nonatomic) _Bool opacityAnimationDirectionForward; // @synthesize opacityAnimationDirectionForward=_opacityAnimationDirectionForward;
-@property(retain, nonatomic) CADisplayLink *opacityAnimationDisplayLink; // @synthesize opacityAnimationDisplayLink=_opacityAnimationDisplayLink;
-@property(nonatomic) double previousProgress; // @synthesize previousProgress=_previousProgress;
 @property(retain, nonatomic) NSArray *startGeometries; // @synthesize startGeometries=_startGeometries;
-@property(nonatomic) _Bool useInteractiveOpacity; // @synthesize useInteractiveOpacity=_useInteractiveOpacity;
 
 @end
 

@@ -4,29 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class RBSProcessIdentity;
-
 __attribute__((visibility("hidden")))
 @interface RBPLEvent
 {
     unsigned long long _event;
-    RBSProcessIdentity *_identity;
-    int _assertionCount;
-    int _pid;
 }
 
 - (id);
 - (int);
 - (unsigned long long);
-- (id);
+- (id)7zlFjn-MBVpr5AKcVYUFpSU/Library/Caches/com.apple.xbs/TemporaryDirectory.277BGj/Sources/Mail_Email/Email/SASL/cyrus_sasl/common/plugin_common.c near line %d;
 - (int);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) int assertionCount; // @synthesize assertionCount=_assertionCount;
 @property(readonly, nonatomic) unsigned long long event; // @synthesize event=_event;
-@property(readonly, nonatomic) RBSProcessIdentity *identity; // @synthesize identity=_identity;
-@property(readonly, nonatomic) int pid; // @synthesize pid=_pid;
 
 @end
 

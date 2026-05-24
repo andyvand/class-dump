@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface NEIKEv2PrivateNotify
 {
     unsigned short _notifyStatus;
-    NSData *_notifyData;
 }
 
 - (unsigned short);
 - (id);
 - (id);
-- (id);
+- (id)it;
 - (_Bool);
 - (id);
-- (void)onProvider;
+- (void)startAuthenticationProvider;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *notifyData; // @synthesize notifyData=_notifyData;
 @property(readonly, nonatomic) unsigned short notifyStatus; // @synthesize notifyStatus=_notifyStatus;
 
 @end

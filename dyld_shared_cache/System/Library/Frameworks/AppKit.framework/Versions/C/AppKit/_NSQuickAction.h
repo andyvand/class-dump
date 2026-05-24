@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, _NSQuickActionPresentation;
+@class _NSQuickActionPresentation;
 
 @interface _NSQuickAction
 {
     _NSQuickActionPresentation *_presentation;
-    NSString *_identifier;
 }
 
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)to create iterator:(id *)arg1 %s ;
+- (_Bool)IORegistryUtilities/MGIOKitHelper.m;
+- (void)GqAdWRLnC7oYQrNYF48VYA;
+- (void)KQ+oqNPhTwg;
 - (_Bool);
 - (void);
 - (void);
@@ -29,27 +28,13 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)<%{public}@> client transitioning to background;
 - (id);
 - (id)Ø;
 - (void)esize-south;
 
 // Remaining properties
-@property(readonly, copy) NSURL *_bundleURL; // @dynamic _bundleURL;
-@property(readonly) Class _preferencesClass; // @dynamic _preferencesClass;
-@property(readonly) _NSQuickActionPresentation *_presentation; // @synthesize _presentation;
-@property(readonly) Class _validationClass; // @dynamic _validationClass;
-@property(readonly, copy) NSString *alternateTitle;
-@property(readonly) _Bool canMoveToTrash;
 @property(readonly) _Bool canRevealInFinder;
-@property(readonly) _Bool canRevealInShortcuts;
-@property(readonly) _Bool hasAlternate;
-@property(readonly) _Bool hasColor; // @dynamic hasColor;
-@property(readonly) _Bool hasIcon; // @dynamic hasIcon;
-@property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) _Bool needsItemSource; // @dynamic needsItemSource;
-@property(readonly, copy) NSString *title; // @dynamic title;
-@property(readonly) long long type; // @dynamic type;
 
 @end
 

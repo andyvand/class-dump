@@ -4,36 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDate, NSSet, NSString, NSUUID, REMAccountCapabilities, REMColor, REMManualOrdering, REMMemberships, REMObjectID, REMResolutionTokenMap;
+@class REMAccountCapabilities;
 
 @interface REMSmartListStorage
 {
     unsigned long long _storeGeneration;
-    unsigned long long _copyGeneration;
-    _Bool _shouldUpdateSectionsOrdering;
-    _Bool _showingLargeAttachments;
-    _Bool _isPersisted;
-    NSString *sortingStyle;
-    NSDate *_pinnedDate;
-    long long minimumSupportedVersion;
-    long long effectiveMinimumSupportedVersion;
-    REMObjectID *_objectID;
-    NSString *_smartListType;
-    REMAccountCapabilities *_accountCapabilities;
-    REMManualOrdering *_manualOrdering;
-    NSUUID *_mostRecentTargetTemplateIdentifier;
-    NSArray *_unsavedSectionIDsOrdering;
-    REMMemberships *_unsavedMembershipsOfRemindersInSections;
-    NSSet *_sectionIDsToUndelete;
-    REMObjectID *_accountID;
-    REMObjectID *_parentAccountID;
-    REMObjectID *_parentListID;
-    NSString *_name;
-    REMColor *_color;
-    NSString *_badgeEmblem;
-    NSData *_filterData;
-    REMResolutionTokenMap *_resolutionTokenMap;
-    NSData *_resolutionTokenMapData;
 }
 
 + (id);
@@ -51,20 +26,20 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)handleFailureInMethod:(id)arg1 object:file:lineNumber:description: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)h;
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -74,20 +49,20 @@
 - (void);
 - (long long);
 - (void);
+- (_Bool)serverSideConfigurationDictionaryForPersonID:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)x;
+- (void)-;
+- (void);
+- (id);
+- (id)categoryDenyList;
+- (void),N,V_horizontalUncertainty;
+- (_Bool)Manager fetchRoutineEnabledWithHandler:] /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id).c ;
 - (id);
 - (void);
 - (void);
@@ -98,8 +73,8 @@
 - (void)Qs 1Â0@ù
 × ;
 - (void)";
-- (id)ge: /* Error: Ran out of types for this method. */;
-- (id)gStatus;
+- (id)rem_setFontHint:isOn:inRange: /* Error: Ran out of types for this method. */;
+- (id)_sharingStatus;
 - (void);
 - (id)opotext::Selection_Affinity_IsValid(value) /* Error: Ran out of types for this method. */;
 - (void)her(s);
@@ -108,30 +83,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) REMAccountCapabilities *accountCapabilities; // @synthesize accountCapabilities=_accountCapabilities;
-@property(retain, nonatomic) REMObjectID *accountID; // @synthesize accountID=_accountID;
-@property(retain, nonatomic) NSString *badgeEmblem; // @synthesize badgeEmblem=_badgeEmblem;
-@property(retain, nonatomic) REMColor *color; // @synthesize color=_color;
-@property(readonly, nonatomic) long long effectiveMinimumSupportedVersion;
-@property(retain, nonatomic) NSData *filterData; // @synthesize filterData=_filterData;
-@property(nonatomic) _Bool isPersisted; // @synthesize isPersisted=_isPersisted;
-@property(retain, nonatomic) REMManualOrdering *manualOrdering; // @synthesize manualOrdering=_manualOrdering;
-@property(readonly, nonatomic) long long minimumSupportedVersion;
-@property(retain, nonatomic) NSUUID *mostRecentTargetTemplateIdentifier; // @synthesize mostRecentTargetTemplateIdentifier=_mostRecentTargetTemplateIdentifier;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) REMObjectID *objectID; // @synthesize objectID=_objectID;
-@property(retain, nonatomic) REMObjectID *parentAccountID; // @synthesize parentAccountID=_parentAccountID;
-@property(retain, nonatomic) REMObjectID *parentListID; // @synthesize parentListID=_parentListID;
-@property(copy, nonatomic) NSDate *pinnedDate; // @synthesize pinnedDate=_pinnedDate;
-@property(readonly, nonatomic) REMObjectID *remObjectID;
-@property(retain, nonatomic) REMResolutionTokenMap *resolutionTokenMap; // @synthesize resolutionTokenMap=_resolutionTokenMap;
-@property(retain, nonatomic) NSData *resolutionTokenMapData; // @synthesize resolutionTokenMapData=_resolutionTokenMapData;
-@property(retain, nonatomic) NSSet *sectionIDsToUndelete; // @synthesize sectionIDsToUndelete=_sectionIDsToUndelete;
-@property(nonatomic) _Bool shouldUpdateSectionsOrdering; // @synthesize shouldUpdateSectionsOrdering=_shouldUpdateSectionsOrdering;
-@property(nonatomic) _Bool showingLargeAttachments; // @synthesize showingLargeAttachments=_showingLargeAttachments;
-@property(copy, nonatomic) NSString *smartListType; // @synthesize smartListType=_smartListType;
-@property(copy, nonatomic) NSString *sortingStyle; // @synthesize sortingStyle;
-@property(retain, nonatomic) REMMemberships *unsavedMembershipsOfRemindersInSections; // @synthesize unsavedMembershipsOfRemindersInSections=_unsavedMembershipsOfRemindersInSections;
-@property(retain, nonatomic) NSArray *unsavedSectionIDsOrdering; // @synthesize unsavedSectionIDsOrdering=_unsavedSectionIDsOrdering;
 
 @end
 

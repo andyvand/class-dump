@@ -6,13 +6,11 @@
 
 #import <SafariSharedUI/WBSWebViewMetadataFetchOperation.h>
 
-@class NSMutableArray, NSTimer, WBSSVGImageRenderingRequest;
+@class NSMutableArray, WBSSVGImageRenderingRequest;
 
 @interface WBSSVGImageRenderingFetchOperation : WBSWebViewMetadataFetchOperation
 {
     NSMutableArray *_remainingURLs;
-    NSTimer *_loadingTimeoutTimer;
-    CDUnknownBlockType _completionHandler;
 }
 
 - (struct CGSize);
@@ -30,12 +28,11 @@
 - (id);
 - (void);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)_setCanEditRecipients: /* Error: Ran out of types for this method. */;
 - (id);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)releaseEntryForKeyString: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
 @property(readonly, nonatomic) WBSSVGImageRenderingRequest *request; // @dynamic request;
 
 @end

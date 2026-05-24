@@ -5,5 +5,9 @@
 //
 
 @protocol PRUISPosterEditingViewControllerDelegate
+- (void)ionTokensForParticipants;
+
+@optional
+- (void)_coalesceAuthorHighlightUpdates;
 @end
 

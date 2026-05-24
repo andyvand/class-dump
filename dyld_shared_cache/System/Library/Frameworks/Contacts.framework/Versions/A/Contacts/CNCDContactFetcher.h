@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNCDContactFetchRequestDescription, CNCDMeContactFetcher, CNCDPersistenceContext, CNResult, NSArray, NSFetchRequest, NSObject, NSString;
-@protocol CNContactPosterDataStore, OS_os_log;
+@class CNCDContactFetchRequestDescription;
 
 @interface CNCDContactFetcher
 {
     CNCDContactFetchRequestDescription *_fetchRequestDescription;
-    CNCDPersistenceContext *_persistenceContext;
-    CNCDMeContactFetcher *_meContactFetcher;
-    NSFetchRequest *_fetchRequestPrototype;
-    id <CNContactPosterDataStore> _posterDataStore;
-    CNResult *_predicate;
-    CNResult *_contactImpls;
-    NSArray *_contactPosterItems;
-    CNResult *_contacts;
 }
 
 + (id);
@@ -26,39 +17,26 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)@;
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (id);
++ (id)! ;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
-- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)!@mt;
 - (id);
 - (id);
 - (id);
@@ -66,30 +44,26 @@
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)on;
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (void)ndNicknamesForActionType:error: /* Error: Ran out of types for this method. */;
-- (id)allpaperData;
+- (void)n;
+- (id);
+- (void)updateContactAndNicknamesForActionType:error: /* Error: Ran out of types for this method. */;
+- (id)lowResWallpaperData;
 
 // Remaining properties
-@property(readonly) NSArray *allContainers;
-@property(retain) CNResult *contactImpls; // @synthesize contactImpls=_contactImpls;
-@property(retain) NSArray *contactPosterItems; // @synthesize contactPosterItems=_contactPosterItems;
-@property(retain) CNResult *contacts; // @synthesize contacts=_contacts;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSArray *exchangeAccountContainers;
 @property(readonly, nonatomic) CNCDContactFetchRequestDescription *fetchRequestDescription; // @synthesize fetchRequestDescription=_fetchRequestDescription;
-@property(readonly, nonatomic) NSFetchRequest *fetchRequestPrototype; // @synthesize fetchRequestPrototype=_fetchRequestPrototype;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSObject<OS_os_log> *os_log;
-@property(readonly, nonatomic) CNCDPersistenceContext *persistenceContext; // @synthesize persistenceContext=_persistenceContext;
-@property(readonly, nonatomic) id <CNContactPosterDataStore> posterDataStore; // @synthesize posterDataStore=_posterDataStore;
-@property(retain) CNResult *predicate; // @synthesize predicate=_predicate;
-@property(readonly) Class superclass;
 
 @end
 

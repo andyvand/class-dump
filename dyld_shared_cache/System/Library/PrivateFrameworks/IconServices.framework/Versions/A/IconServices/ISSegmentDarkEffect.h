@@ -4,34 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSString;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface ISSegmentDarkEffect
 {
     _Bool _hasSegmentedImage;
-    CIImage *_segmentedImage;
 }
 
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)__AUTH;
+- (id)__DATA_CONST;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool hasSegmentedImage; // @synthesize hasSegmentedImage=_hasSegmentedImage;
-@property(readonly) unsigned long long hash;
 @property(copy) CIImage *segmentedImage; // @synthesize segmentedImage=_segmentedImage;
-@property(readonly) Class superclass;
 
 @end
 

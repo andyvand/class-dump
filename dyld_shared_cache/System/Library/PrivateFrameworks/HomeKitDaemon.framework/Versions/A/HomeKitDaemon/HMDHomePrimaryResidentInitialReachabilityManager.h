@@ -4,61 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, HMDResidentReachabilityState, NSNotificationCenter, NSNumber, NSObject, NSString, NSUUID;
-@protocol HMDHomePrimaryResidentInitialReachabilityManagerDataSource, OS_dispatch_queue;
+@protocol HMDHomePrimaryResidentInitialReachabilityManagerDataSource;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomePrimaryResidentInitialReachabilityManager
 {
     id <HMDHomePrimaryResidentInitialReachabilityManagerDataSource> _dataSource;
-    NSUUID *_uuid;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSString *_key;
-    HMDHome *_home;
-    NSNotificationCenter *_notificationCenter;
 }
 
 + (id)e]ÿlØB;
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)Name;
+- (id).mapsdata;
+- (id)cleanConnections];
 - (id);
 - (void);
+- (void);
+- (void)?;
+- (void);
+- (void);
+- (void);
+- (id)finishWritingWithCompletionHandler: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void)I;
 - (id);
 - (id)1Â0@ù
 × ;
 - (id)aâð!LAù1Â0@ù
 × ;
-- (void)letion;
+- (void)_completion;
 - (id)%{public}@Invalid home or this device is not a resident for home:%@. Not auditing the shared users for accessory:%@ /* Error: Ran out of types for this method. */;
 - (void)?@"MTSWiFiNetworkAssociation">16;
 - (id)´>;
 
 // Remaining properties
 @property(readonly) id <HMDHomePrimaryResidentInitialReachabilityManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly, copy) NSNumber *initialReachability;
-@property(readonly, copy) NSString *key; // @synthesize key=_key;
-@property(readonly) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly, copy) HMDResidentReachabilityState *persistedState;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

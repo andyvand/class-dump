@@ -4,16 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, SFUCryptoKey;
+@class NSData, NSString;
 
 @interface TSPReadOnlyMemoryDataStorage
 {
     NSData *_NSData;
 }
 
+- (void)ng asset task at ';
 - (void);
-- (void);
-- (id);
+- (id)l;
 - (struct CGImageSource *);
 - (struct CGDataProvider *);
 - (_Bool);
@@ -23,33 +23,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
-- (unsigned char);
-- (_Bool)ntValue;
+- (unsigned char);
+- (_Bool)CGPointValue;
 - (void)LÑ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) SFUCryptoKey *decryptionKey;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"SFUCryptoKey",?,R,N
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSString *documentResourceLocator;
-@property(readonly, nonatomic) unsigned long long encodedLength;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool needsDownload;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) unsigned char packageIdentifier;
-@property(readonly, nonatomic) NSString *packageLocator;
-@property(readonly, nonatomic) _Bool readOnly;
-@property(readonly) Class superclass;
 
 @end
 

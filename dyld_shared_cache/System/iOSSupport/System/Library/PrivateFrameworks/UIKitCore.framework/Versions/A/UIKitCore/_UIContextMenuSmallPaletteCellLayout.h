@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIColor, UIHoverStyle, UIShape, _UIContextMenuCellContentView;
+@class NSArray, _UIContextMenuCellContentView;
 
 __attribute__((visibility("hidden")))
 @interface _UIContextMenuSmallPaletteCellLayout
@@ -14,47 +14,30 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
+- (void)0:(id)arg1 8@"NSString"16@"NSDictionary"24@"NSString"32C40@"NSString"44@"NSString"52@"NSString"60@"NSDictionary"68;
+- (void)setKnownToServer:(unsigned long long)arg1;
 - (void);
-- (void);
-- (void);
+- (id)initWithChangeType:changedParticipants:sender:service:groupID:originalGroupID:guid:destinationCallerID:failed:fromMe: /* Error: Ran out of types for this method. */;
+- (id)initWithBlastDoorInstanceType: /* Error: Ran out of types for this method. */;
+- (id)conversationManager:systemActivitySessionsChangedForConversation:fromOldConversation: /* Error: Ran out of types for this method. */;
+- (long long)chatsWithRoomname:onService: /* Error: Ran out of types for this method. */;
+- (unsigned long long)chatsWithHandles:onService:displayName:groupID:style: /* Error: Ran out of types for this method. */;
+- (void)acceptMomentShareWithCompletion: /* Error: Ran out of types for this method. */;
+- (id)_deviceConditionsAllowsAttachmentFileSizeUpdateForActivity:deferred: /* Error: Ran out of types for this method. */;
+- (long long),N,V_isEmergencySOS;
 - (id);
-- (id);
-- (id);
-- (long long);
-- (unsigned long long);
-- (void);
-- (id);
-- (long long);
-- (id);
-- (struct CGRect);
-- (id);
+- (struct CGRect)eted | did not find indexes to delete at for GUID:%@ /* Error: Ran out of types for this method. */;
+- (id);
 - (void)!ìFùqaÐ1Â0@ù
 × ;
 - (void)tCollection",&,N,G_localOverrideTraitCollection,S_setLocalOverrideTraitCollection:(id)arg1;
-- (long long)ViewDiffableDataSource;
-- (id)onSettingsDomain;
+- (long long)UITableViewDiffableDataSource;
+- (id)_UIFlexInteractionSettingsDomain;
 - (void)ÿ";
 - (id)ÌzDÿ`\ÔàFc;
 
 // Remaining properties
-@property(readonly, nonatomic) UIShape *contentShape;
 @property(nonatomic) __weak _UIContextMenuCellContentView *contentView; // @synthesize contentView=_contentView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) long long focusStyle;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIHoverStyle *hoverStyle;
-@property(readonly, nonatomic) unsigned long long labelMaximumNumberOfLines;
-@property(readonly, nonatomic) long long labelTextAlignment;
-@property(readonly, nonatomic) long long layoutSize;
-@property(retain, nonatomic) NSArray *managedConstraints; // @synthesize managedConstraints=_managedConstraints;
-@property(readonly, nonatomic) UIColor *preferredBackgroundColorForCurrentState;
-@property(readonly, nonatomic) UIColor *preferredContentColorForCurrentState;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool useContentShapeForSelectionHighlight;
 
 @end
 

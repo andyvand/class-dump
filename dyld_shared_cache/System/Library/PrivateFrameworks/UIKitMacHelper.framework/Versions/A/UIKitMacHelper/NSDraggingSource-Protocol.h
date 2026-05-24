@@ -5,5 +5,8 @@
 //
 
 @protocol NSDraggingSource
+
+@optional
+- (unsigned long long);
 @end
 

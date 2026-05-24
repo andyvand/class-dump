@@ -7,10 +7,6 @@
 @interface TeaUI.BlueprintPipelineRecorder
 {
     id initialTime;
-    id signposts;
-    id pipelineName;
-    id modifierDescription;
-    id signposter;
 }
 
 @end

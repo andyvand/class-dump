@@ -4,40 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNSuspendableSchedulerDecorator, NSString;
+@class CNSuspendableSchedulerDecorator;
 
 __attribute__((visibility("hidden")))
 @interface CNUIAfterCACommitScheduler
 {
     CNSuspendableSchedulerDecorator *_scheduler;
-    struct __CFRunLoopObserver *_runLoopObserver;
 }
 
 - (void);
 - (void);
-- (struct __CFRunLoopObserver *);
-- (id);
-- (id);
-- (id);
+- (struct __CFRunLoopObserver *)ENROLL_GENERIC_ICSC_TITLE;
+- (id), propertyNames, lastSyncDate, lastSyncStatus, lastSyncGeneration, syncMode, clientCanPullOnly, clientCanPushOnly, enabled, clientWantsToPullTruth, shouldRefilter) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+- (id)setModel: /* Error: Ran out of types for this method. */;
+- (id);
 - (double);
 - (void);
 - (id);
+- (id)populateBacktraceUniquingTableWithCore:(double)arg1 zones:(CDUnknownBlockType)arg2 zonesCount:(unsigned long long)arg3;
 - (id);
-- (id);
-- (void)erWithIdentifier:saveRequest: /* Error: Ran out of types for this method. */;
+- (void)addGroupInStore:toContainerWithIdentifier:saveRequest: /* Error: Ran out of types for this method. */;
 - (id)leAccount;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct __CFRunLoopObserver *runLoopObserver; // @synthesize runLoopObserver=_runLoopObserver;
 @property(readonly, nonatomic) CNSuspendableSchedulerDecorator *scheduler; // @synthesize scheduler=_scheduler;
-@property(readonly) Class superclass;
-@property(readonly) double timestamp;
 
 @end
 

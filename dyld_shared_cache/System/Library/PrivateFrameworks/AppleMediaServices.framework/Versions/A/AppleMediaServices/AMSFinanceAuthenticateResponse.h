@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSAuthenticateRequest, AMSFinanceDialogResponse, NSDictionary, NSString;
+@class AMSAuthenticateRequest, NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface AMSFinanceAuthenticateResponse
 {
     AMSAuthenticateRequest *_authenticateRequest;
-    NSDictionary *_dialogDictionary;
-    AMSFinanceDialogResponse *_dialogResponse;
 }
 
 + (id);
@@ -37,16 +35,7 @@ __attribute__((visibility("hidden")))
 W à;
 
 // Remaining properties
-@property(readonly) AMSAuthenticateRequest *authenticateRequest; // @synthesize authenticateRequest=_authenticateRequest;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain) NSDictionary *dialogDictionary; // @synthesize dialogDictionary=_dialogDictionary;
-@property(readonly) AMSFinanceDialogResponse *dialogResponse; // @synthesize dialogResponse=_dialogResponse;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,32 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOFareOptions, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOTransitOptions
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_95bda58d _avoidedModes;
-    GEOFareOptions *_fareOptions;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _prioritization;
-    int _routingBehavior;
-    _Bool _enableIncidents;
-    struct {
-        unsigned int has_prioritization:1;
-        unsigned int has_routingBehavior:1;
-        unsigned int has_enableIncidents:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_avoidedModes:1;
-        unsigned int read_fareOptions:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool):(id)arg1;
++ (_Bool)setModuleConfigurationIndex:(id)arg1;
 - (_Bool);
 - (void);
 - (void);
@@ -41,24 +23,24 @@
 - (id);
 - (_Bool);
 - (int);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)d;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)invalidateInterstitialWithLevel:(id)arg1;
+- (void)_currentTaskString;
+- (void)CSConnectionServiceDelegate;
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
 - (int);
 - (_Bool);
-- (int);
+- (int);
 - (_Bool);
-- (_Bool);
+- (_Bool)placeCollectionItem;
 - (void);
 - (_Bool);
 - (void);
@@ -71,25 +53,15 @@
 × ;
 - (unsigned long long)te_anyField"b1};
 - (void);
-- (id)eadsigns;
-- (id)browseCategory;
-- (id)ports_brand_fallback;
+- (id)includeAllHeadsigns;
+- (id)_browseCategory;
+- (id)supports_brand_fallback;
 - (_Bool)sion != @versionB;;
-- (int)gacy;
+- (int)fromLegacy;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) int *avoidedModes;
 @property(readonly, nonatomic) unsigned long long avoidedModesCount;
-@property(nonatomic) _Bool enableIncidents;
-@property(retain, nonatomic) GEOFareOptions *fareOptions;
-@property(nonatomic) _Bool hasEnableIncidents;
-@property(readonly, nonatomic) _Bool hasFareOptions;
-@property(nonatomic) _Bool hasPrioritization;
-@property(nonatomic) _Bool hasRoutingBehavior;
-@property(nonatomic) int prioritization;
-@property(nonatomic) int routingBehavior;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -4,32 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EWSItemIdType, NSString;
+@class EWSItemIdType;
 
 @interface EWSSyncFolderItemsReadFlagType
 {
     _Bool _IsRead;
-    EWSItemIdType *_ItemId;
 }
 
-+ (id);
++ (id)t;
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool IsRead; // @synthesize IsRead=_IsRead;
 @property(retain, nonatomic) EWSItemIdType *ItemId; // @synthesize ItemId=_ItemId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

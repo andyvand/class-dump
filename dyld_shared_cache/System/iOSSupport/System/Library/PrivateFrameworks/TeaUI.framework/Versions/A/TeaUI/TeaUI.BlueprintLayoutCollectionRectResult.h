@@ -7,9 +7,6 @@
 @interface TeaUI.BlueprintLayoutCollectionRectResult
 {
     id layoutAttributes;
-    id offset;
-    id insets;
-    id cachable;
 }
 
 @end

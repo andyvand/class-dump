@@ -7,10 +7,6 @@
 @interface AWDWiFiNWActivityRateAndAggregation
 {
     CDStruct_62a50c50 _ampduAGGs;
-    CDStruct_62a50c50 _rxMCSSuccess;
-    CDStruct_62a50c50 _rxVHTSuccess;
-    CDStruct_62a50c50 _txMCSSuccess;
-    CDStruct_62a50c50 _txVHTSuccess;
 }
 
 - (unsigned long long);
@@ -34,8 +30,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)";
+- (unsigned long long);
 - (unsigned long long *);
 - (unsigned long long);
 - (void);
@@ -45,7 +41,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)H;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -55,16 +51,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long *ampduAGGs;
-@property(readonly, nonatomic) unsigned long long ampduAGGsCount;
-@property(readonly, nonatomic) unsigned long long *rxMCSSuccess;
-@property(readonly, nonatomic) unsigned long long rxMCSSuccessCount;
-@property(readonly, nonatomic) unsigned long long *rxVHTSuccess;
 @property(readonly, nonatomic) unsigned long long rxVHTSuccessCount;
-@property(readonly, nonatomic) unsigned long long *txMCSSuccess;
-@property(readonly, nonatomic) unsigned long long txMCSSuccessCount;
-@property(readonly, nonatomic) unsigned long long *txVHTSuccess;
-@property(readonly, nonatomic) unsigned long long txVHTSuccessCount;
 
 @end
 

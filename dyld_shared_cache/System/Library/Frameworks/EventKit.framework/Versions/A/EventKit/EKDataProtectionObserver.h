@@ -17,7 +17,6 @@
 - (CDUnknownBlockType)rsistentSource",&,D,N;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool dataIsAccessible;
 @property(copy, nonatomic) CDUnknownBlockType stateChangedCallback; // @synthesize stateChangedCallback=_stateChangedCallback;
 
 @end

@@ -4,7 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UITextRange;
+
 @protocol UITextInputTokenizer
+- (UITextRange *)B;
 - (_Bool)ÜT@U;
 @end
 

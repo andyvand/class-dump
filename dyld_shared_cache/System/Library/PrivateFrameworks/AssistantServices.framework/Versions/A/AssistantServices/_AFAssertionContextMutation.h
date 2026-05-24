@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFAssertionContext, NSDate, NSDictionary, NSString;
+@class AFAssertionContext;
 
 @interface _AFAssertionContextMutation
 {
     AFAssertionContext *_base;
-    unsigned long long _timestamp;
-    NSString *_reason;
-    NSDate *_effectiveDate;
-    double _expirationDuration;
-    NSDictionary *_userInfo;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasTimestamp:1;
-        unsigned int hasReason:1;
-        unsigned int hasEffectiveDate:1;
-        unsigned int hasExpirationDuration:1;
-        unsigned int hasUserInfo:1;
-    } _mutationFlags;
 }
 
 - (void);
@@ -29,23 +16,17 @@
 - (id);
 - (double);
 - (id);
-- (void);
+- (void)\;
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)requestNetworkDataAvailability;
+- (void);
 - (unsigned long long);
-- (id)oiceSearchQueryParameters:(id)arg1;
-- (void)leAudioDevice;
+- (id)setVoiceSearchQueryParameters:(id)arg1;
+- (void)_hasAppleAudioDevice;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

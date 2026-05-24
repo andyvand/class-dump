@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface PersonLinkingPerson
 {
     NSMutableArray *_emails;
-    NSString *_name;
 }
 
 + (Class);
-- (void);
+- (void)mH;
 - (unsigned long long);
 - (id);
 - (id);
@@ -27,7 +26,7 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)MessageRef %p(%p)> { %s response, url = %@, status = %ld };
 - (id);
 - (id);
 - (void);
@@ -35,9 +34,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *emails; // @synthesize emails=_emails;
 @property(readonly, nonatomic) _Bool hasName;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

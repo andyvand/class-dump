@@ -7,10 +7,6 @@
 @interface NewsUI2.MagazineGridBlueprintViewSupplementaryViewProvider
 {
     id delegate;
-    id sectionHeaderRenderer;
-    id sectionV2HeaderRenderer;
-    id editSelection;
-    id transition;
 }
 
 @end

@@ -7,12 +7,11 @@
 @interface PXRequestedEDRHeadroomFactorFilter
 {
     double _sustainDuration;
-    double _highValue;
-    double _lastDecreaseTime;
 }
 
 - (double);
-- (void);
+- (void)A�	|S
+;
 - (void);
 - (void);
 - (double);
@@ -23,10 +22,7 @@
 - (_Bool)/ó¼;
 
 // Remaining properties
-@property(nonatomic) double highValue; // @synthesize highValue=_highValue;
-@property(nonatomic) double lastDecreaseTime; // @synthesize lastDecreaseTime=_lastDecreaseTime;
 @property(readonly, nonatomic, getter=isPaused) _Bool paused;
-@property(nonatomic) double sustainDuration; // @synthesize sustainDuration=_sustainDuration;
 
 @end
 

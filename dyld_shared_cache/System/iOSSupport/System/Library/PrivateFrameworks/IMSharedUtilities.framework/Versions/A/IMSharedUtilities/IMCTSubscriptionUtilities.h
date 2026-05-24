@@ -4,49 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTXPCContexts, CoreTelephonyClient, IDSPhoneSubscriptionSelector, IMCTXPCServiceSubscriptionInfo, NSArray, NSMutableDictionary, NSNumber, NSObject, NSSet, NSString;
+@class CoreTelephonyClient, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface IMCTSubscriptionUtilities
 {
     NSObject<OS_dispatch_queue> *_queue;
-    _Bool _fetchedHasMultipleSubscriptionsWithoutError;
-    _Bool _hasMultipleSubscriptions;
-    IMCTXPCServiceSubscriptionInfo *_ctSubscriptionInfo;
-    _Bool _fetchedSubscriptionInfoWithoutError;
-    CTXPCContexts *_ctActiveContexts;
-    _Bool _fetchedActiveContextsWithoutError;
-    NSMutableDictionary *_cachedCarrierSettings;
-    NSSet *_allowedChatBotExtensions;
-    NSNumber *_wrmCellScore;
-    NSNumber *_wrmNetworkPreference;
-    CoreTelephonyClient *_coreTelephonyClient;
-    IDSPhoneSubscriptionSelector *_phoneSubscriptionSelector;
 }
 
 + (id)ted, after meeting word count;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)28;
 - (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
 - (id);
 - (id);
 - (id);
@@ -56,7 +34,17 @@
 - (id);
 - (id);
 - (id);
+- (void);
 - (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -71,42 +59,24 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)9hk)h;
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (void);
-- (_Bool)MessageCandidate;
+- (void)lowQualityStatus;
+- (_Bool)isFirstMessageCandidate;
 - (id)_createSingleton__im;
 - (id)	
 ;
-- (void);
+- (void)G;
 - (void)entRequestRepresentationP;
 - (id)rverBag:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *allowedChatBotExtensions;
 @property(retain, nonatomic) CoreTelephonyClient *coreTelephonyClient; // @synthesize coreTelephonyClient=_coreTelephonyClient;
-@property(readonly, nonatomic) CTXPCContexts *ctActiveContexts;
-@property(readonly, copy, nonatomic) NSString *ctPhoneNumber;
-@property(readonly, nonatomic) NSArray *ctServiceSubscriptions;
-@property(readonly, nonatomic) IMCTXPCServiceSubscriptionInfo *ctSubscriptionInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) IDSPhoneSubscriptionSelector *phoneSubscriptionSelector; // @synthesize phoneSubscriptionSelector=_phoneSubscriptionSelector;
-@property(readonly, copy, nonatomic) NSArray *registeredPhoneNumbers;
-@property(readonly, copy, nonatomic) NSArray *registeredSIMIDs;
-@property(readonly, copy, nonatomic) NSArray *registeredSubscriptionSlotIDs;
-@property(readonly) Class superclass;
-@property(retain) NSNumber *wrmCellScore; // @synthesize wrmCellScore=_wrmCellScore;
-@property(retain) NSNumber *wrmNetworkPreference; // @synthesize wrmNetworkPreference=_wrmNetworkPreference;
 
 @end
 

@@ -11,10 +11,6 @@
 @interface AMSCommandLineDialogTask : AMSTask
 {
     AMSDialogRequest *_request;
-    double _maximumDialogWidth;
-    double _minimumDialogWidth;
-    double _dialogPadding;
-    long long _automaticButtonSelection;
 }
 
 - (void);
@@ -41,10 +37,6 @@
 ÚÃ¾&°¹åÀöDÓùÕrUBã{.$bI¾ÍJ[ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property long long automaticButtonSelection; // @synthesize automaticButtonSelection=_automaticButtonSelection;
-@property double dialogPadding; // @synthesize dialogPadding=_dialogPadding;
-@property double maximumDialogWidth; // @synthesize maximumDialogWidth=_maximumDialogWidth;
-@property double minimumDialogWidth; // @synthesize minimumDialogWidth=_minimumDialogWidth;
 @property(readonly) AMSDialogRequest *request; // @synthesize request=_request;
 
 @end

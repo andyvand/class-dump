@@ -4,49 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PLEntryNotificationOperatorComposition, PLTimer, PLXPCListenerOperatorComposition;
+@class PLXPCListenerOperatorComposition;
 
 @interface PLHomeKitAgent
 {
     _Bool _enablelog;
-    PLXPCListenerOperatorComposition *_homeKitEventsListener;
-    PLXPCListenerOperatorComposition *_homeConfigurationListener;
-    PLXPCListenerOperatorComposition *_cameraConfigurationListener;
-    PLXPCListenerOperatorComposition *_homeKitRegistrationListener;
-    unsigned long long _numBTPushes;
-    unsigned long long _numConnections;
-    unsigned long long _numPrevBTPushes;
-    unsigned long long _numPrevConnections;
-    unsigned long long _numBTConnections;
-    unsigned long long _numIPConnections;
-    unsigned long long _numBonjour;
-    unsigned long long _numIPEvents;
-    unsigned long long _numIDSPushes;
-    unsigned long long _numCloudPushes;
-    unsigned long long _numBTWakeAdvt;
-    unsigned long long _numBTWakes;
-    double _lastapwake;
-    PLEntryNotificationOperatorComposition *_sbcLevelChanged;
-    PLEntryNotificationOperatorComposition *_deviceWake;
-    PLTimer *_runTimeAggregatorTimer;
-    unsigned long long _numaggregatelines;
-    unsigned long long _numBTlines;
 }
 
 + (id);
 + (id);
++ (id)U;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
++ (id)b;
 + (id);
 + (id);
++ (id)ront kutje;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (void)canout;
++ (void)DCPEXT0scanout;
 - (void);
 - (void);
 - (long long);
@@ -86,10 +64,10 @@
 - (unsigned long long);
 - (double);
 - (void);
-- (long long);
-- (void);
+- (long long):(id)arg1:Context>=^{Context}^{__shared_weak_count}}64@0:8{ElapsedTimer=Q{TimeStamp=dd}{optional<siri::dialogengine::ElapsedTimer::TimeStamp>=(?=c{TimeStamp=dd})B}}16 /* Error: Ran out of types for this method. */;
+- (void));
 - (unsigned long long);
-- (void);
+- (void);
 - (_Bool);
 - (unsigned long long);
 - (void);
@@ -105,32 +83,10 @@
 - (void)¥<¨°©\®À¯;
 - (id)ParseBufferToCxt:cbdrRefreshGrades(694):(#10) cfg elements != (%d) buffer elements /* Error: Ran out of types for this method. */;
 - (void)erToCxt:numRefreshOnErrNandRefreshPerf(381) cannot add 1 element to context /* Error: Ran out of types for this method. */;
-- (id);
+- (id)bandKill_userFlattenExcessive;
 
 // Remaining properties
-@property(retain) PLXPCListenerOperatorComposition *cameraConfigurationListener; // @synthesize cameraConfigurationListener=_cameraConfigurationListener;
-@property(retain) PLEntryNotificationOperatorComposition *deviceWake; // @synthesize deviceWake=_deviceWake;
-@property _Bool enablelog; // @synthesize enablelog=_enablelog;
-@property(retain) PLXPCListenerOperatorComposition *homeConfigurationListener; // @synthesize homeConfigurationListener=_homeConfigurationListener;
 @property(retain) PLXPCListenerOperatorComposition *homeKitEventsListener; // @synthesize homeKitEventsListener=_homeKitEventsListener;
-@property(retain) PLXPCListenerOperatorComposition *homeKitRegistrationListener; // @synthesize homeKitRegistrationListener=_homeKitRegistrationListener;
-@property double lastapwake; // @synthesize lastapwake=_lastapwake;
-@property unsigned long long numBTConnections; // @synthesize numBTConnections=_numBTConnections;
-@property unsigned long long numBTPushes; // @synthesize numBTPushes=_numBTPushes;
-@property unsigned long long numBTWakeAdvt; // @synthesize numBTWakeAdvt=_numBTWakeAdvt;
-@property unsigned long long numBTWakes; // @synthesize numBTWakes=_numBTWakes;
-@property unsigned long long numBTlines; // @synthesize numBTlines=_numBTlines;
-@property unsigned long long numBonjour; // @synthesize numBonjour=_numBonjour;
-@property unsigned long long numCloudPushes; // @synthesize numCloudPushes=_numCloudPushes;
-@property unsigned long long numConnections; // @synthesize numConnections=_numConnections;
-@property unsigned long long numIDSPushes; // @synthesize numIDSPushes=_numIDSPushes;
-@property unsigned long long numIPConnections; // @synthesize numIPConnections=_numIPConnections;
-@property unsigned long long numIPEvents; // @synthesize numIPEvents=_numIPEvents;
-@property unsigned long long numPrevBTPushes; // @synthesize numPrevBTPushes=_numPrevBTPushes;
-@property unsigned long long numPrevConnections; // @synthesize numPrevConnections=_numPrevConnections;
-@property unsigned long long numaggregatelines; // @synthesize numaggregatelines=_numaggregatelines;
-@property(retain) PLTimer *runTimeAggregatorTimer; // @synthesize runTimeAggregatorTimer=_runTimeAggregatorTimer;
-@property(retain) PLEntryNotificationOperatorComposition *sbcLevelChanged; // @synthesize sbcLevelChanged=_sbcLevelChanged;
 
 @end
 

@@ -4,42 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKFullScreenEffect, CKScheduledUpdater, NSMutableArray, NSObject, NSString, NSTimer;
-@protocol CKFullScreenEffectManagerDelegate;
+@class CKFullScreenEffect;
 
 @interface CKFullScreenEffectManager
 {
     CKFullScreenEffect *_currentEffect;
-    NSObject<CKFullScreenEffectManagerDelegate> *_delegate;
-    NSMutableArray *_effectQueue;
-    NSTimer *_effectDurationTimer;
-    CKScheduledUpdater *_triggerUpdater;
 }
 
-+ (id);
++ (id)Tried to a sender name for a note without a share;
 + (double);
 + (double);
-- (id);
+- (id)deleteAttachment: /* Error: Ran out of types for this method. */;
+- (void)deleteAllDocCamPasswordProtectedPDFs;
+- (void)_sourceNotes;
+- (void)_pauseMergeForScrollingCounter;
+- (void),N,V_modernNoteFetchedResultsController;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
+- (id)m;
+- (void)b;
+- (id)g;
 - (id);
 - (id);
-- (id);
+- (id)t;
+- (id)ionDate was later than its previewUpdateDate. Using previewUpdateDate as modificationDate so we don't end up in a preview loop (Attachment:%@, modificationDate:%@, previewUpdateDate:%@). /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (id);
 - (id);
 - (void);
@@ -47,17 +42,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CKFullScreenEffect *currentEffect; // @synthesize currentEffect=_currentEffect;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak NSObject<CKFullScreenEffectManagerDelegate> *delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSTimer *effectDurationTimer; // @synthesize effectDurationTimer=_effectDurationTimer;
-@property(retain, nonatomic) NSMutableArray *effectQueue; // @synthesize effectQueue=_effectQueue;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) CKScheduledUpdater *triggerUpdater; // @synthesize triggerUpdater=_triggerUpdater;
 
 @end
 

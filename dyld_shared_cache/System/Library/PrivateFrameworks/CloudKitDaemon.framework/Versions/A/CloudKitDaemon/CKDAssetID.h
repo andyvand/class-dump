@@ -4,34 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPRecordIdentifier, NSData, NSNumber;
+@class CKDPRecordIdentifier;
 
 @interface CKDAssetID
 {
     CKDPRecordIdentifier *_recordID;
-    NSData *_fileSignature;
-    NSData *_referenceSignature;
-    NSNumber *_size;
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long)[%{ptr}] Setting traffic registration options for AirPlay to ht group:%@.
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (id)initWithScanProvider:configuration: /* Error: Ran out of types for this method. */;
+- (id)leDictionary",&,V_interfacesCapabilities;
+- (_Bool)elper";
+- (id)ON messages_new(date_created);;
 - (id);
 - (void)rror accepting share at URL %@:Protection data didn't match /* Error: Ran out of types for this method. */;
 - (id),¬üÿ
 ÝÿÿH¬üÿÞ´üÿ6³üÿ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *fileSignature; // @synthesize fileSignature=_fileSignature;
 @property(readonly, copy, nonatomic) CKDPRecordIdentifier *recordID; // @synthesize recordID=_recordID;
-@property(readonly, copy, nonatomic) NSData *referenceSignature; // @synthesize referenceSignature=_referenceSignature;
-@property(readonly, copy, nonatomic) NSNumber *size; // @synthesize size=_size;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface NewsFeed.DebugFormatBindingResult
 {
     id content;
-    id bindings;
 }
 
 @end

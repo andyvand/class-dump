@@ -6,18 +6,15 @@
 
 #import <Safari/SheetWithTableController.h>
 
-@class NSMutableArray, NSString, NSTextField, WBSFaviconRequestsController;
+@class NSMutableArray, NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface WebsiteSpecificSearchEditor : SheetWithTableController
 {
     NSMutableArray *_websiteHosts;
-    _Bool _didAwakeFromNib;
-    WBSFaviconRequestsController *_requestController;
-    NSTextField *_emptyTablePlaceholderText;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -25,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)t;
 - (void);
 - (id);
 - (long long);
@@ -34,14 +31,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) __weak NSTextField *emptyTablePlaceholderText; // @synthesize emptyTablePlaceholderText=_emptyTablePlaceholderText;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

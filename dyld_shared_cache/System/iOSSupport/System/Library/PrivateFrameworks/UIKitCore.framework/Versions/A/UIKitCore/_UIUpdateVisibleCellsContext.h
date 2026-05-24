@@ -4,37 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexSet, NSMutableArray, NSMutableIndexSet;
+@class NSArray, NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface _UIUpdateVisibleCellsContext
 {
     NSMutableArray *_sizes;
-    NSMutableArray *_attributes;
-    NSMutableArray *_indexPaths;
-    NSMutableIndexSet *_sectionIndexes;
-    long long _visibleCellsRefCount;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)formUnionWithCharacterSet: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)
 × ;
-- (_Bool)fNeededForReason: /* Error: Ran out of types for this method. */;
+- (_Bool)_beginActivityTrackingIfNeededForReason: /* Error: Ran out of types for this method. */;
 - (id)V_currentValue;
 - (void)previouslyFocusedIndexPath;
 - (_Bool)sClient",R,N;
 - (void).3Qo__Qo_AGy»¨.3GGGIegynr_;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *attributes;
-@property(readonly, nonatomic) _Bool hasLeftVisibleCellsPass;
-@property(readonly, nonatomic) NSArray *indexPaths; // @synthesize indexPaths=_indexPaths;
-@property(readonly, nonatomic) NSIndexSet *sectionIndexes;
 @property(readonly, nonatomic) NSArray *sizes; // @synthesize sizes=_sizes;
 
 @end

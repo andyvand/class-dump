@@ -11,30 +11,21 @@ __attribute__((visibility("hidden")))
 @interface CNPhotoPickerAnimojiProvider
 {
     NSString *identifier;
-    id <AVTAvatarStore> _avatarStore;
 }
 
 + (id);
 + (id);
+- (id)9};
+- (id)m;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);
-- (void)ercentage;
+- (void)_imageInsetPercentage;
 
 // Remaining properties
 @property(readonly, nonatomic) id <AVTAvatarStore> avatarStore; // @synthesize avatarStore=_avatarStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDDirectionIntent, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOPDAutocompleteEntryDirectionIntent
 {
     PBUnknownFields *_unknownFields;
-    GEOPDDirectionIntent *_directionIntent;
 }
 
-+ (_Bool)ptiveFlag:(id)arg1;
++ (_Bool)setHasWasCaptiveFlag:(id)arg1;
 - (void);
 - (_Bool);
 - (id);
@@ -21,14 +20,14 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)Mdd_HHmmss.SSS;
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)ype"b1};
-- (id)idReceiveChallenge:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)URLSession:task:didReceiveChallenge:completionHandler: /* Error: Ran out of types for this method. */;
 - (id)¸²Ìr$4¸²Du$P¸²|z$d¸²4|$x¸²$¸²<$ð¸²Lº$¹²»$¬¹² À$À¹²HÄ$ä¹²üÖ$ø¹²ìà$hº²tæ$º²Äÿ$°º²(%Äº²à	%Øº²%ìº²;
 - (id)N access_times.data_pk == data.rowid INNER JOIN tiles on tiles.data_pk == data.rowid    ORDER BY tiles.is_current, access_times.timestamp, tiles.insert_timestamp ASC;;
 - (void) (2+.addr_obj.geo3.StructuredAddress.SubPremise
@@ -42,9 +41,7 @@ SubPremiseH
 UNIT /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) GEOPDDirectionIntent *directionIntent;
 @property(readonly, nonatomic) _Bool hasDirectionIntent;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

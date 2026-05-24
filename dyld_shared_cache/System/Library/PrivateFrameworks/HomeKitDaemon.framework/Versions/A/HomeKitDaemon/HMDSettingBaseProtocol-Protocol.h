@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 @protocol HMDSettingBaseProtocol
 - (NSUUID *)lDelegate>",W,N,V_delegate;
 
 // Remaining properties
-@property(readonly, copy) NSUUID *identifier;
-@property(readonly, copy) NSString *name;
 @property(readonly, copy) NSUUID *parentIdentifier;
 @end
 

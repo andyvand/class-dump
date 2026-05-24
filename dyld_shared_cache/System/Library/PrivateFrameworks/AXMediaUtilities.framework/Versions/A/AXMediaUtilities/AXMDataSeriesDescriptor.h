@@ -4,65 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXMDataSummary, NSArray, NSAttributedString, NSString;
+@class NSString;
 
 @interface AXMDataSeriesDescriptor
 {
     _Bool _isContinuous;
-    NSAttributedString *_attributedName;
-    NSArray *_dataPoints;
-    AXMDataSummary *_dataSummary;
-    NSString *_meanValueDescription;
 }
 
-- (id);
-- (double);
-- (double);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)\|;
+- (double);
+- (double);
+- (id)z;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
 - (void);
+- (void);
+- (id);
+- (id);
+- (id)o;
 - (id);
 - (id);
+- (void);
+- (id);
+- (void)El;
+- (id);
+- (id)xTz;
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)	;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *additionalCategoricalValues;
-@property(readonly, nonatomic) NSArray *additionalNumericalValues;
-@property(copy, nonatomic) NSAttributedString *attributedName; // @synthesize attributedName=_attributedName;
-@property(copy, nonatomic) NSArray *dataPoints; // @synthesize dataPoints=_dataPoints;
-@property(readonly, nonatomic) AXMDataSummary *dataSummary; // @synthesize dataSummary=_dataSummary;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isContinuous; // @synthesize isContinuous=_isContinuous;
-@property(readonly, nonatomic) double maximumDataValueOnTimeAxis;
-@property(readonly, nonatomic) NSString *meanValueDescription; // @synthesize meanValueDescription=_meanValueDescription;
-@property(readonly, nonatomic) double minimumDataValueOnTimeAxis;
 @property(copy, nonatomic) NSString *name;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *xValues;
-@property(readonly, nonatomic) NSArray *yValues;
 
 @end
 

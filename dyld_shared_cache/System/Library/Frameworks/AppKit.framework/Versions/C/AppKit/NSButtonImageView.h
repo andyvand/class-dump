@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (int);
-- (void);
-- (int);
+- (void)4;
+- (int)kConditionalConnectionRequirementTimeWindowDelay;
 
 // Remaining properties
 @property(nonatomic) int vibrancyBlendMode; // @synthesize vibrancyBlendMode;

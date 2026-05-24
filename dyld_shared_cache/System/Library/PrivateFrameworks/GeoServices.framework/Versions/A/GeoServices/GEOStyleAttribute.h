@@ -9,44 +9,37 @@
 @interface GEOStyleAttribute
 {
     PBUnknownFields *_unknownFields;
-    unsigned int _key;
-    unsigned int _value;
-    CDStruct_a4cc0a70 _flags;
 }
 
-+ (_Bool)ts:(id)arg1;
-- (void);
++ (_Bool)setMaxBusinessResults:(id)arg1;
+- (void)ageType:(_Bool)arg1 memoryPoolId:espressoResources:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)cancelIfNotAlreadyCanceled;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (unsigned int);
-- (_Bool);
+- (_Bool)initWithActivityType: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void)ÔA	'Ð!°Aù±¹*ð1Â0@ù
 × ;
 - (id)taResults"b1"read_originPlaceSearchResponse"b1"read_responseAttributes"b1"wrote_anyField"b1};
 - (unsigned int)archResult"b1"read_categorySearchResult"b1"read_childPlaceLookupByCategoryResult"b1"read_collectionSuggestionResult"b1"read_exploreGuidesLookupResult"b1"read_extendedGeoLookupResult"b1"read_externalTransitLookupResult"b1"read_featureIdGeocodingResult"b1"read_geocodingResult"b1"read_groundViewLabelResult"b1"read_guidesHomeResult"b1"read_ipGeoLookupResult"b1"read_locationDirectedSearchResult"b1"read_mapsHomeResult"b1"read_mapsIdentifierPlaceLookupResult"b1"read_mapsSearchHomeResult"b1"read_merchantLookupResult"b1"read_nearbySearchResult"b1"read_offlineRegionNameResult"b1"read_placeCollectionLookupResult"b1"read_placeDescriptorResolutionResult"b1"read_placeGlobalCommonResult"b1"read_placeLookupResult"b1"read_placeRefinementResult"b1"read_placecardEnrichmentResult"b1"read_poiAtAddressLookupResult"b1"read_popularNearbySearchResult"b1"read_publisherViewResult"b1"read_queryUnderstandingResult"b1"read_reverseGeocodingResult"b1"read_searchCapabilitiesResult"b1"read_searchFieldPlaceholderResult"b1"read_searchResult"b1"read_searchZeroKeywordCategorySuggestionResult"b1"read_searchZeroKeywordWithSearchResultsSuggestionResult"b1"read_siriSearchResult"b1"read_territoryLookupResult"b1"read_transitScheduleLookupResult"b1"read_vendorSpecificPlaceRefinementResult"b1"read_wifiFingerprintResult"b1"wrote_anyField"b1};
-- (id)erOfKeypoints;
-- (id)iewResult;
-- (id)rt_hike_disclaimer;
+- (id)hasNumberOfKeypoints;
+- (id)GEOAllCollectionsViewResult;
+- (id)support_hike_disclaimer;
 - (_Bool);
 - (void)ðVàQØVðQÀVR$;
 - (void)§É·Q@;
 
 // Remaining properties
 @property(nonatomic) _Bool hasKey;
-@property(nonatomic) _Bool hasValue;
-@property(nonatomic) unsigned int key;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) unsigned int value;
 
 @end
 

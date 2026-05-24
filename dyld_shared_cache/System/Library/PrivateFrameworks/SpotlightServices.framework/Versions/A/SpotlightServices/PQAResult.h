@@ -9,7 +9,6 @@
 @interface PQAResult
 {
     NSString *_bundleId;
-    NSString *_resultId;
 }
 
 - (void);
@@ -18,7 +17,7 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (void);
@@ -28,7 +27,6 @@
 - (void)le: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
 @property(retain, nonatomic) NSString *resultId; // @synthesize resultId=_resultId;
 
 @end

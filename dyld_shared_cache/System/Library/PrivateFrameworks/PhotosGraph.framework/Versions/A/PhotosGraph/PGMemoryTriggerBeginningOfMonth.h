@@ -13,10 +13,10 @@
     PGMemoryMomentNodesWithBlockedFeatureCache *_momentNodesWithBlockedFeatureCache;
 }
 
+- (id)__objc_doubleobj__AUTH_CONST;
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)_signalKeyboardFocusedApplicationChanged:(id)arg1;
+- (unsigned long long)st Less from Handoff;
 - (void)ng:%.lu
  /* Error: Ran out of types for this method. */;
 

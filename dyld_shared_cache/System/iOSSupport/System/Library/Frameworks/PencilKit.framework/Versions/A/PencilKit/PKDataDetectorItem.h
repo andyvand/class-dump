@@ -6,7 +6,6 @@
 
 #import <PencilKit/PKDetectionItem.h>
 
-@class DDScannerResult;
 @protocol PKDataDetectorItemDelegate;
 
 @interface PKDataDetectorItem : PKDetectionItem
@@ -23,7 +22,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)?;
 - (id);
 - (struct __DDResult *);
 - (unsigned long long);
@@ -35,9 +34,7 @@
 - (void)Z;
 
 // Remaining properties
-@property(readonly, nonatomic) struct __DDResult *coreResult;
 @property(nonatomic) __weak id <PKDataDetectorItemDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) DDScannerResult *scannerResult;
 
 @end
 

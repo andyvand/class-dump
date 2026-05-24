@@ -4,28 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAvatarCardActionsTableView, CNQuickActionsManager, NSArray, NSIndexPath, NSString, UIGestureRecognizer, UISelectionFeedbackGenerator;
-@protocol CNAvatarCardActionsViewDelegate;
+@class CNQuickActionsManager;
 
 __attribute__((visibility("hidden")))
 @interface CNAvatarCardActionsView
 {
     _Bool _actionsReversed;
-    _Bool _bypassActionValidation;
-    _Bool _dismissesBeforePerforming;
-    _Bool _expanded;
-    NSArray *_contacts;
-    NSArray *_actionCategories;
-    id <CNAvatarCardActionsViewDelegate> _delegate;
-    CNQuickActionsManager *_actionsManager;
-    NSArray *_actions;
-    CNAvatarCardActionsTableView *_tableView;
-    NSIndexPath *_highlightedIndexPath;
-    UIGestureRecognizer *_rolloverGestureRecognizer;
-    UIGestureRecognizer *_selectionGestureRecognizer;
-    UISelectionFeedbackGenerator *_retargetBehavior;
-    struct CGPoint _initialLocation;
-    struct CGRect _actionsImageFrame;
 }
 
 + (_Bool);
@@ -38,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)@y?;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -47,8 +31,8 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)+A9i+@9i;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -62,13 +46,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void));
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)W;
 - (void);
 - (void);
 - (struct CGPoint);
@@ -76,12 +60,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (long long);
+- (long long)cal id that is an ISDGlobalId;
 - (void);
 - (long long);
 - (void);
 - (void);
-- (id);
+- (id)-;
 - (id);
 - (void);
 - (_Bool);
@@ -91,41 +75,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
+- (id)SYMBOLICATION_NO_SWIFT_REMOTE_MIRROR;
+- (void)~�;
 - (id);
-- (void);
-- (id);
-- (id);
+- (id)0:8@16Q24 /* Error: Ran out of types for this method. */;
 - (void);
 - (void)SArray",&,N,V_nameEditingGroups;
-- (void)ntact;
+- (void)predicateForEnablingContact;
 - (id)%õøäBÐÿ%õøàBÐÿEõøÐÿ;
 - (void)#Hw;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *actionCategories; // @synthesize actionCategories=_actionCategories;
-@property(retain, nonatomic) NSArray *actions; // @synthesize actions=_actions;
-@property(nonatomic) struct CGRect actionsImageFrame; // @synthesize actionsImageFrame=_actionsImageFrame;
 @property(retain, nonatomic) CNQuickActionsManager *actionsManager; // @synthesize actionsManager=_actionsManager;
-@property(nonatomic) _Bool actionsReversed; // @synthesize actionsReversed=_actionsReversed;
-@property(nonatomic) _Bool bypassActionValidation; // @synthesize bypassActionValidation=_bypassActionValidation;
-@property(retain, nonatomic) NSArray *contacts; // @synthesize contacts=_contacts;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNAvatarCardActionsViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool dismissesBeforePerforming; // @synthesize dismissesBeforePerforming=_dismissesBeforePerforming;
-@property(nonatomic) _Bool expanded; // @synthesize expanded=_expanded;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSIndexPath *highlightedIndexPath; // @synthesize highlightedIndexPath=_highlightedIndexPath;
-@property(nonatomic) struct CGPoint initialLocation; // @synthesize initialLocation=_initialLocation;
-@property(readonly, nonatomic, getter=isPerformingAction) _Bool performingAction;
-@property(retain, nonatomic) UISelectionFeedbackGenerator *retargetBehavior; // @synthesize retargetBehavior=_retargetBehavior;
-@property(retain, nonatomic) UIGestureRecognizer *rolloverGestureRecognizer; // @synthesize rolloverGestureRecognizer=_rolloverGestureRecognizer;
-@property(retain, nonatomic) UIGestureRecognizer *selectionGestureRecognizer; // @synthesize selectionGestureRecognizer=_selectionGestureRecognizer;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) CNAvatarCardActionsTableView *tableView; // @synthesize tableView=_tableView;
 
 @end
 

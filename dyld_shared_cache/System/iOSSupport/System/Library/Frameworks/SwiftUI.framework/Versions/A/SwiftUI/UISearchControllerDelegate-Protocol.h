@@ -8,6 +8,7 @@
 
 @optional
 - (void);
-- (void)ableLayoutScrollable;
+- (void);
+- (void)ScrollableLayoutScrollable;
 @end
 

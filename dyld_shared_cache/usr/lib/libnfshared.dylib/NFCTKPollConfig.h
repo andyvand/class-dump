@@ -21,7 +21,7 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)initIncludingVisible:(id)arg1 hidden: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

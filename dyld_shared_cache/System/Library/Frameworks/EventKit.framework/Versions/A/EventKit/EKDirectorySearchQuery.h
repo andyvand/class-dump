@@ -9,11 +9,6 @@
 @interface EKDirectorySearchQuery
 {
     _Bool _findGroups;
-    _Bool _findLocations;
-    _Bool _findResources;
-    _Bool _findUsers;
-    NSSet *_terms;
-    unsigned long long _resultLimit;
 }
 
 - (id);
@@ -23,20 +18,15 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)Model=IqIIIIQQQQ[32I][32Q][32I][32Q]QQQcCIQIIIQIIQIQ[64I][64I][64I][64I]IQQ[64I][64I]IIIIIIQqIIQIQIQIQIQIQIQ}{VirtANEModel=IqIIIIQQQQ[32I][32Q][32I][32Q]QQQcCIQIIIQIIQIQ[64I][64I][64I][64I]IQQ[64I][64I]IIIIIIQqIIQIQIQIQIQIQIQ}^{__IOSurface}^{__IOSurface}}24;
 - (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)q;
+- (_Bool);
+- (_Bool)m/Library/Frameworks/Security.framework/Versions/A/Security;
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool findGroups; // @synthesize findGroups=_findGroups;
-@property(nonatomic) _Bool findLocations; // @synthesize findLocations=_findLocations;
-@property(nonatomic) _Bool findResources; // @synthesize findResources=_findResources;
-@property(nonatomic) _Bool findUsers; // @synthesize findUsers=_findUsers;
-@property(nonatomic) unsigned long long resultLimit; // @synthesize resultLimit=_resultLimit;
 @property(retain, nonatomic) NSSet *terms; // @synthesize terms=_terms;
 
 @end

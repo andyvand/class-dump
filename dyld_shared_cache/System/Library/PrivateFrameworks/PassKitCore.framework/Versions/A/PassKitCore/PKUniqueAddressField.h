@@ -4,34 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString;
+@class NSString;
 
 @interface PKUniqueAddressField
 {
     _Bool _formatIsInvalid;
-    NSString *_key;
-    long long _index;
-    NSError *_error;
-    NSString *_invalidText;
 }
 
-- (void);
-- (id);
+- (void)V;
+- (id)h;
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (long long)n: /* Error: Ran out of types for this method. */;
+- (long long)meCardEntriesForPreference:queue:completion: /* Error: Ran out of types for this method. */;
 - (void)or purchases:(id)arg1 %@;
 - (void)secure-ui-service-access;
-- (void);
+- (void)howToUseApplePay;
 
 // Remaining properties
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(nonatomic) _Bool formatIsInvalid; // @synthesize formatIsInvalid=_formatIsInvalid;
-@property(nonatomic) long long index; // @synthesize index=_index;
-@property(retain, nonatomic) NSString *invalidText; // @synthesize invalidText=_invalidText;
 @property(retain, nonatomic) NSString *key; // @synthesize key=_key;
 
 @end

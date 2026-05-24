@@ -5,5 +5,6 @@
 //
 
 @protocol MSPReceiverETAControllerDelegate
+- (void)extViewAboutToOpen]E3$_3;
 @end
 

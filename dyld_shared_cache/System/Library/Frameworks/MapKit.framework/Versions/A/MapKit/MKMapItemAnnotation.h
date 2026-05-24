@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKMapItem, NSString;
+@class MKMapItem;
 
 @interface MKMapItemAnnotation
 {
@@ -13,30 +13,13 @@
 
 - (id);
 - (id);
-- (struct CLLocationCoordinate2D);
+- (struct CLLocationCoordinate2D)_samplesPerInterval;
 - (id);
 - (id);
-- (void)Accuracy:handler: /* Error: Ran out of types for this method. */;
+- (void)initWithLocationManager:desiredAccuracy:handler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CLLocationCoordinate2D coordinate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) MKMapItem *mapItem; // @synthesize mapItem=_mapItem;
-@property(readonly, nonatomic, getter=_representedMapItem) MKMapItem *representedMapItem;
-@property(readonly, copy, nonatomic) NSString *subtitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *title;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
 
 @end
 

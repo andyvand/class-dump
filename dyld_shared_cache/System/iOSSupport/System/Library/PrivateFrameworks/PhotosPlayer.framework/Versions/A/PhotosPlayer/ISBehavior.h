@@ -4,45 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISPlayerState;
-@protocol ISBehaviorDelegate;
-
 __attribute__((visibility("hidden")))
 @interface ISBehavior
 {
     _Bool _active;
-    id <ISBehaviorDelegate> _delegate;
-    ISPlayerState *_initialLayoutInfo;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)_componentToTextStylesMap;
+- (void)_componentToParentComponentMap;
+- (void)_componentToChildComponentsMap;
+- (void)_componentTextStylesToConditionsMap;
+- (void)_componentTextStyleReferences;
+- (void)_caption;
+- (void)_articleURLFactory;
+- (_Bool)_actionSerializer;
+- (_Bool)_accessibilityWindow;
+- (_Bool)_accessibilityRawRangeForUITextRange:(float)arg1;
+- (id)T{CGSize=dd},R,N,V_constrainedViewportSize;
+- (id)CGRect={CGPoint=dd}{CGSize=dd}},N,V_presentationFrame;
+- (void)ckEvent;
+- (void)edPlayback;
+- (void)Intersection;
 - (long long);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)setTranslatesAutoresizingMaskIntoConstraints: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
-@property(readonly, nonatomic) long long behaviorType;
-@property(nonatomic) __weak id <ISBehaviorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) ISPlayerState *initialLayoutInfo; // @synthesize initialLayoutInfo=_initialLayoutInfo;
 
 @end
 

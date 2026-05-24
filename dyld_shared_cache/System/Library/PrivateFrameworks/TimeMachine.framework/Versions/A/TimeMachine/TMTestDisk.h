@@ -4,28 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, TMDiskArbiter;
+@class NSString, TMDiskArbiter;
 
 @interface TMTestDisk
 {
     TMDiskArbiter *_diskArbiter;
-    NSString *_volumeName;
-    unsigned int _fsType;
-    unsigned int _diskType;
-    unsigned long long _capacity;
-    NSString *_baseDevice;
-    NSString *_apfsPhysicalDevice;
-    NSString *_apfsContainerDevice;
-    NSString *_apfsFirstVolumeDevice;
-    struct __DADisk *_baseDiskRef;
-    struct __DADisk *_mountDiskRef;
-    _Bool _hasFileSystem;
-    NSURL *_mountPointURL;
-    NSString *_stdout;
-    NSString *_stderr;
 }
 
-+ (id);
++ (id)u;
 + (struct __DADisk *);
 + (id);
 + (struct __DADisk *);
@@ -45,7 +31,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)9h;
 - (id);
 - (void);
 - (void);
@@ -61,28 +47,14 @@
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)oreFoundation;
 - (unsigned long long);
 - (id);
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(copy) NSString *__stderrp; // @synthesize __stderrp=_stderr;
-@property(copy) NSString *__stdoutp; // @synthesize __stdoutp=_stdout;
-@property(readonly) NSString *apfsContainerDevice; // @synthesize apfsContainerDevice=_apfsContainerDevice;
-@property(readonly) NSString *apfsFirstVolumeDevice; // @synthesize apfsFirstVolumeDevice=_apfsFirstVolumeDevice;
-@property(readonly) NSString *apfsPhysicalDevice; // @synthesize apfsPhysicalDevice=_apfsPhysicalDevice;
-@property(readonly) TMDiskArbiter *arbiter; // @synthesize arbiter=_diskArbiter;
 @property(copy) NSString *baseDevice; // @synthesize baseDevice=_baseDevice;
-@property(readonly) unsigned long long capacity; // @synthesize capacity=_capacity;
-@property(readonly) unsigned int diskType; // @synthesize diskType=_diskType;
-@property(readonly) unsigned int fileSystemType; // @synthesize fileSystemType=_fsType;
-@property(readonly) _Bool isAttached;
-@property(readonly) _Bool isMounted;
-@property(readonly) NSString *mountPoint;
-@property(retain) NSURL *mountPointURL; // @synthesize mountPointURL=_mountPointURL;
-@property(readonly) NSString *volumeName; // @synthesize volumeName=_volumeName;
 
 @end
 

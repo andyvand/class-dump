@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
-
 @interface CNProviderMetadata
 {
     _Bool _isResetRequested;
-    _Bool _isContentEnumerated;
-    _Bool _isMoreComing;
-    NSString *_displayName;
-    NSDictionary *_userInfo;
-    NSData *_itemAnchor;
-    long long _itemOffset;
-    long long _version;
 }
 
 + (_Bool);
@@ -29,7 +20,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -40,24 +31,16 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)Volume:(id)arg1 physicalVolume:disk: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *dataRepresentation;
-@property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(nonatomic) _Bool isContentEnumerated; // @synthesize isContentEnumerated=_isContentEnumerated;
-@property(nonatomic) _Bool isMoreComing; // @synthesize isMoreComing=_isMoreComing;
-@property(nonatomic) _Bool isResetRequested; // @synthesize isResetRequested=_isResetRequested;
-@property(retain, nonatomic) NSData *itemAnchor; // @synthesize itemAnchor=_itemAnchor;
-@property(nonatomic) long long itemOffset; // @synthesize itemOffset=_itemOffset;
-@property(retain, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 @property(nonatomic) long long version; // @synthesize version=_version;
 
 @end

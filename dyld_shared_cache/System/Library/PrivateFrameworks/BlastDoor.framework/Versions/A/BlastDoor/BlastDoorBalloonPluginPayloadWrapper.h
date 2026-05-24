@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorCombinedPluginAttachmentInfo, NSData, NSString;
+@class NSString;
 
 @interface BlastDoorBalloonPluginPayloadWrapper
 {
@@ -13,24 +13,17 @@
 
 - (id);
 - (id);
+- (id)ctStore"16@0:8 /* Error: Ran out of types for this method. */;
+- (id)<CKSendAnimationManagerDelegate>"16;
+- (id)tionTranslationSessionManager"16;
+- (id)ITableView"16@"NSIndexPath"24@"NSIndexPath"32;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)tting for device "%@";
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) BlastDoorCombinedPluginAttachmentInfo *combinedPluginAttachmentInfo;
-@property(nonatomic, readonly) NSData *customAcknowledgement;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSData *digitalTouchBalloon;
-@property(nonatomic, readonly) NSData *handwriting;
-@property(nonatomic, readonly) NSData *linkPresentation;
-@property(nonatomic, readonly) NSData *messagesAppBalloon;
-@property(nonatomic, readonly) unsigned long long type;
 
 @end
 

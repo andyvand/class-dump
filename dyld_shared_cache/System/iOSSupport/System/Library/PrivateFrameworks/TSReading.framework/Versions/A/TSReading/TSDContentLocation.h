@@ -7,11 +7,10 @@
 @interface TSDContentLocation
 {
     double _viewScale;
-    struct CGPoint _unscaledPoint;
 }
 
 + (id);
-+ (id);
++ (id)Z7;
 + (id);
 - (struct CGPoint);
 - (void);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(nonatomic) struct CGPoint unscaledPoint; // @synthesize unscaledPoint=_unscaledPoint;
-@property(nonatomic) double viewScale; // @synthesize viewScale=_viewScale;
 
 @end
 

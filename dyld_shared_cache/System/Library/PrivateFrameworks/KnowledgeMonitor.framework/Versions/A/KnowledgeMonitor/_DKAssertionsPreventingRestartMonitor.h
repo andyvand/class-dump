@@ -9,10 +9,6 @@
 @interface _DKAssertionsPreventingRestartMonitor : _DKMonitor
 {
     _Bool _lastPreventingRestartAssertionsStatus;
-    int _userspaceAssertionsToken;
-    int _preventIdleSleepAssertionsToken;
-    int _systemAssertionsToken;
-    int _restartPreventerAssertionsToken;
 }
 
 + (id);
@@ -20,27 +16,24 @@
 - (void);
 - (int);
 - (void);
-- (int);
+- (int)a headers end after more than SIZE_MAX bytes.
+;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)_	ka;
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (int);
+- (int)(;
 - (int);
 - (_Bool);
-- (void);
+- (void).;
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool lastPreventingRestartAssertionsStatus; // @synthesize lastPreventingRestartAssertionsStatus=_lastPreventingRestartAssertionsStatus;
-@property(nonatomic) int preventIdleSleepAssertionsToken; // @synthesize preventIdleSleepAssertionsToken=_preventIdleSleepAssertionsToken;
-@property(nonatomic) int restartPreventerAssertionsToken; // @synthesize restartPreventerAssertionsToken=_restartPreventerAssertionsToken;
-@property(nonatomic) int systemAssertionsToken; // @synthesize systemAssertionsToken=_systemAssertionsToken;
 @property(nonatomic) int userspaceAssertionsToken; // @synthesize userspaceAssertionsToken=_userspaceAssertionsToken;
 
 @end

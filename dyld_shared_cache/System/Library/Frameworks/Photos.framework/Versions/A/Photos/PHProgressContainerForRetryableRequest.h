@@ -9,8 +9,6 @@
 @interface PHProgressContainerForRetryableRequest
 {
     NSProgress *_currentRequestProgress;
-    long long _currentPendingCount;
-    NSProgress *_totalProgress;
 }
 
 - (id);

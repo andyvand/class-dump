@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface SAAceDomainSignal : SABaseClientBoundCommand
 {
@@ -17,7 +17,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *appIdHints;
-@property(copy, nonatomic) NSString *domain;
 
 @end
 

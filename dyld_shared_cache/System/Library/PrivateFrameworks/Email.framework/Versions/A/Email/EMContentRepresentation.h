@@ -4,38 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSSearchableItem, EFInvocationToken, EFSandboxedURLWrapper, EMListUnsubscribeCommand, EMMessage, EMMessageContentCachedMetadata, EMMessageHeaders, EMSecurityInformation, NSArray, NSData, NSURL;
-@protocol EMContentItem, _EMDistantContentRepresentation;
+@class EFInvocationToken;
 
 @interface EMContentRepresentation
 {
     EFInvocationToken *_invocable;
-    _Bool _claimedScopedResource;
-    _Bool _hasMoreContent;
-    id <EMContentItem> _contentItem;
-    NSURL *_publicMessageURL;
-    NSArray *_replyToList;
-    EMMessage *_contentMessage;
-    NSArray *_relatedContentItems;
-    EMSecurityInformation *_securityInformation;
-    CSSearchableItem *_searchableItem;
-    EMListUnsubscribeCommand *_unsubscribeCommand;
-    long long _remainingByteCount;
-    long long _transportType;
-    EMMessageHeaders *_requestedHeaders;
-    NSData *_cachedMetadataJSON;
-    EFSandboxedURLWrapper *_urlWrapper;
-    EMMessageContentCachedMetadata *_cachedMetadata;
-    id <_EMDistantContentRepresentation> _distantContentRepresentation;
-    CDUnknownBlockType _requestMoreContentBlock;
-    CDUnknownBlockType _listUnsubscribeBlock;
-    CDUnknownBlockType _requestOriginalContentMessagesInReplyToContentItemBlock;
 }
 
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (id);
++ (id)U=;
 + (_Bool);
 
 @end

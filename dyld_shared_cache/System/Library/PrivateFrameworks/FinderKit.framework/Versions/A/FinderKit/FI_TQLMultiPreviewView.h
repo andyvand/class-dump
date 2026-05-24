@@ -6,15 +6,12 @@
 
 #import <FinderKit/FI_TUpdateLayerView.h>
 
-@class FI_TQLMultiPreviewItem, FI_TQLMultiPreviewViewImageStackController, NSString;
-@protocol QLPreviewItem;
+@class FI_TQLMultiPreviewViewImageStackController;
 
 __attribute__((visibility("hidden")))
 @interface FI_TQLMultiPreviewView : FI_TUpdateLayerView
 {
     FI_TQLMultiPreviewViewImageStackController *_imageStackController;
-    FI_TQLMultiPreviewItem *_previewItem;
-    _Bool _isTornDown;
 }
 
 + (id);
@@ -22,33 +19,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (vector_c6090175);
+- (vector_3dbdaf87);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool)InternalCloudProgressObserver",&,V_internalObserver;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, retain) FI_TQLMultiPreviewViewImageStackController *iconController;
-@property(readonly) _Bool isLoaded;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly, nonatomic) vector_c6090175 nodeToImageList;
-@property(retain) id <QLPreviewItem> previewItem;
-@property(readonly) Class superclass;
-@property(getter=isTornDown) _Bool tornDown; // @synthesize tornDown=_isTornDown;
 
 @end
 

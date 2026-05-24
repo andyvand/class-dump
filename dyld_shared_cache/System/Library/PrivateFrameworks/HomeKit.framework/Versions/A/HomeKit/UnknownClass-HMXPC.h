@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (HMXPC)
-- (void);
+- (void);
 
 // Remaining properties
 @property(getter=hm_isXPCTimeoutDisabled, setter=hm_setXPCTimeoutDisabled:) _Bool hm_xpcTimeoutDisabled;

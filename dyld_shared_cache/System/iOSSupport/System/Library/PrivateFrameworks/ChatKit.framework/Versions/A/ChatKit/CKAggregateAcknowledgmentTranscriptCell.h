@@ -15,8 +15,8 @@
 
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)Paper notes for changes;
+- (void)ronment's value outside of being installed on a View. This will always read the default value and will not update.;
 - (void);
 - (id);
 - (void);
@@ -26,7 +26,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CKAcknowledgmentBalloonView *balloonView;
-@property(nonatomic) _Bool parentMessageIsFromMe; // @synthesize parentMessageIsFromMe=_parentMessageIsFromMe;
 
 @end
 

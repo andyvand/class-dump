@@ -7,7 +7,6 @@
 @interface AXFKAFocusRingBorderShapeLayer
 {
     unsigned long long _ringPosition;
-    double _unscaledLineWidth;
 }
 
 - (double);
@@ -17,7 +16,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long ringPosition; // @synthesize ringPosition=_ringPosition;
-@property(nonatomic) double unscaledLineWidth; // @synthesize unscaledLineWidth=_unscaledLineWidth;
 
 @end
 

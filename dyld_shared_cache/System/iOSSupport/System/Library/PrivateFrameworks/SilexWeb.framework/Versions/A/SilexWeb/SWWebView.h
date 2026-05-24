@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UITextInputTraits, UIView;
+@class UIView;
 
 @interface SWWebView
 {
     UIView *_accessoryView;
-    UITextInputTraits *_overridenTraits;
-    id _removedMenuIdentifiers;
 }
 
 - (void);
@@ -31,8 +29,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) UIView *accessoryView; // @synthesize accessoryView=_accessoryView;
-@property(retain, nonatomic) UITextInputTraits *overridenTraits; // @synthesize overridenTraits=_overridenTraits;
-@property(copy, nonatomic) NSArray *removedMenuIdentifiers; // @synthesize removedMenuIdentifiers=_removedMenuIdentifiers;
 
 @end
 

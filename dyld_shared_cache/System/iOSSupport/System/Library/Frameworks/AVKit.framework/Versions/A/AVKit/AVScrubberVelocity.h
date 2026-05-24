@@ -8,17 +8,15 @@ __attribute__((visibility("hidden")))
 @interface AVScrubberVelocity
 {
     double _timestamp;
-    double _velocity;
 }
 
 - (double);
 - (double);
-- (void);
+- (void)setDenseQuantizedGradient:(double)arg1;
 - (void);
 
 // Remaining properties
 @property double timestamp; // @synthesize timestamp=_timestamp;
-@property double velocity; // @synthesize velocity=_velocity;
 
 @end
 

@@ -6,40 +6,19 @@
 
 #import <UIKitCore/UIInputViewController.h>
 
-@class NSMutableDictionary, NSString, NSTimer, NSValue, TUIEmojiSearchInputViewController, TUISystemInputAssistantView, UIRemoteInputViewInfo, UITextInputAssistantItem, UIView, UIViewController, _UILayerHostView;
-@protocol UIKeyInput, UIPredictiveViewController;
+@class UIView;
+@protocol UIKeyInput;
 
 __attribute__((visibility("hidden")))
 @interface UISystemInputAssistantViewController : UIInputViewController
 {
     id <UIKeyInput> _pendingResponderForChangedNotification;
-    NSTimer *_pendingResponderChangedTimer;
-    _Bool _postedSwitchFromEmojiNotification;
-    _Bool _isInputAssistantItemEmpty;
-    _Bool _isButtonBarItemsInlineVisible;
-    _Bool _assistantEnabledPreference;
-    _Bool _assistantOniPhonePreference;
-    _Bool _hasCheckedPreferences;
-    _Bool _currentlyCheckingPreferences;
-    _Bool _assistantViewCanAnimate;
-    UIViewController<UIPredictiveViewController> *_centerViewController;
-    long long _assistantBarStyle;
-    UIView *_popoverSourceView;
-    UITextInputAssistantItem *_observedInputAssistantItem;
-    NSMutableDictionary *_cachedPredictiveViewControllers;
-    TUIEmojiSearchInputViewController *_emojiSearchViewController;
-    UIViewController<UIPredictiveViewController> *_predictiveViewController;
-    UIViewController *_expandedItemsController;
-    NSValue *_currentInputDelegatePointerValue;
-    _UILayerHostView *_remoteAssistantView;
-    UIView *_remoteAssistantContainerView;
-    UIRemoteInputViewInfo *_remoteAssistantViewInfo;
 }
 
-+ (double)ency:(id)arg1;
-+ (_Bool)es: /* Error: Ran out of types for this method. */;
++ (double)updateWillCauseInternalInconsistency:(id)arg1;
++ (_Bool)_indexPathForCell:usingPresentationValues: /* Error: Ran out of types for this method. */;
 + (double)en there can't be a _first either;
-+ (_Bool)dHoverEffect;
++ (_Bool)___UIResolvedHoverEffect;
 + (long long)O;
 - (void);
 - (id);
@@ -54,36 +33,36 @@ __attribute__((visibility("hidden")))
 - (id);
 - (double);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
+- (void)clearTextAttachmentForTextAttachment: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
+- (void);
+- (id)file chunk list for item.;
+- (_Bool);
+- (id);
+- (_Bool);
 - (void);
-- (void);
+- (_Bool);
+- (id);
+- (id)(();
 - (id);
 - (void);
+- (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
+- (_Bool);
+- (void);
+- (void)*@y)	@9	;
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (void))A;
 - (_Bool)!;
 - (void)
 × ;
@@ -104,35 +83,35 @@ __attribute__((visibility("hidden")))
 × ;
 - (id)@"_UIDynamicCaretAlternatives";
 - (_Bool)16@0:8 /* Error: Ran out of types for this method. */;
-- (void)orCoordinateSpace;
-- (id)rSelectableKeyboardInputModes;
-- (void): /* Error: Ran out of types for this method. */;
-- (void)thEvent:transitionHandler:postTransitionHandler: /* Error: Ran out of types for this method. */;
-- (_Bool)r: /* Error: Ran out of types for this method. */;
-- (id);
-- (void);
-- (id)SpringAnimations: /* Error: Ran out of types for this method. */;
-- (void)tteByMergingPalette: /* Error: Ran out of types for this method. */;
-- (void)anualScrollEdgeAppearanceProgress;
-- (_Bool)tion:(id)arg1 duration:(id)arg2 andWindow: /* Error: Ran out of types for this method. */;
-- (void)Mode:(id)arg1;
-- (void)DatePadding;
-- (void);
-- (id)tomTextRenderer;
-- (void): /* Error: Ran out of types for this method. */;
+- (void)validateForCoordinateSpace;
+- (id)userSelectableKeyboardInputModes;
+- (void)traitCollectionWithVerticalSizeClass: /* Error: Ran out of types for this method. */;
+- (void)setTransitionHandlerForState:withEvent:transitionHandler:postTransitionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)setParentResponder: /* Error: Ran out of types for this method. */;
+- (id)setImpactFeedbackGenerator: /* Error: Ran out of types for this method. */;
+- (void)setDisplayedWhenStopped: /* Error: Ran out of types for this method. */;
+- (id)performSpringAnimations: /* Error: Ran out of types for this method. */;
+- (void)paletteByMergingPalette: /* Error: Ran out of types for this method. */;
+- (void)manualScrollEdgeAppearanceProgress;
+- (_Bool)initWithClient:(id)arg1 toOrientation:(id)arg2 duration:andWindow: /* Error: Ran out of types for this method. */;
+- (void)identifierIsValidSystemInputMode:(id)arg1;
+- (void)horizontalDatePadding;
+- (void)getIAPayloadValueGenmojiImageTypeStickers1P;
+- (id)configureCustomTextRenderer;
+- (void)azimuthUnitVectorInView: /* Error: Ran out of types for this method. */;
 - (_Bool)_updateIdentityTrackerWithUpdateSupport:(id)arg1;
-- (id)rChangeFromPresentationSemanticContext:(double)arg1;
-- (void)l:(id)arg1;
-- (void)resentersAppearanceCallbacks;
-- (_Bool)ssary;
-- (id)fo: /* Error: Ran out of types for this method. */;
+- (id)_updateDisplayModeIfNecessaryForChangeFromPresentationSemanticContext:(double)arg1;
+- (void)_uinsAssociatedImageIsEqual:(id)arg1;
+- (void)_shouldDisablePresentersAppearanceCallbacks;
+- (_Bool)_listenForContentSizeCategoryChangesIfNecessary;
+- (id)_initWithReason:options:controller:userInfo: /* Error: Ran out of types for this method. */;
 - (void)tion;
 - (void)N,GisRightSelected;
 - (_Bool)fersSingleCharacter;
 - (void)fecycleCompletion;
 - (_Bool)_fallbackSymbolStyle;
-- (void);
-- (void)or;
+- (void)_createNewTimer;
+- (void)_referenceColor;
 - (_Bool)´H·;
 - (void)L<Ô=;
 - (void)lertControllers:(id)arg1 Showing Hidden alert :%@ /* Error: Ran out of types for this method. */;
@@ -141,13 +120,13 @@ __attribute__((visibility("hidden")))
 - (id)Éíÿþÿ;
 - (id)@þÿ·îÿ;
 - (id)¨ùîÿ;
-- (void)lobalCoordinateSpace;
+- (void)frameInGlobalCoordinateSpace;
 - (struct CGRect)tValue:forKey:] with 'contentsGravity'. Temporary workaround in place. /* Error: Ran out of types for this method. */;
 - (_Bool)raint isKindOfClass:[NSLayoutConstraint class]] /* Error: Ran out of types for this method. */;
-- (void)eFormats;
+- (void)DateFormats;
 - (_Bool)default-applications;
 - (void)to revert intermediate update; failing to create map for %@;
-- (id)ntKindSectionFooter;
+- (id)UICollectionElementKindSectionFooter;
 - (_Bool)tomDiagnosticReporter;
 - (id)[;
 - (void)VÿiÚb;
@@ -156,32 +135,7 @@ __attribute__((visibility("hidden")))
 - (void)h0h;
 
 // Remaining properties
-@property(nonatomic) long long assistantBarStyle; // @synthesize assistantBarStyle=_assistantBarStyle;
-@property _Bool assistantEnabledPreference; // @synthesize assistantEnabledPreference=_assistantEnabledPreference;
-@property _Bool assistantOniPhonePreference; // @synthesize assistantOniPhonePreference=_assistantOniPhonePreference;
-@property(nonatomic) _Bool assistantViewCanAnimate; // @synthesize assistantViewCanAnimate=_assistantViewCanAnimate;
-@property(retain, nonatomic) NSMutableDictionary *cachedPredictiveViewControllers; // @synthesize cachedPredictiveViewControllers=_cachedPredictiveViewControllers;
-@property(retain, nonatomic) UIViewController<UIPredictiveViewController> *centerViewController; // @synthesize centerViewController=_centerViewController;
-@property(retain, nonatomic) NSValue *currentInputDelegatePointerValue; // @synthesize currentInputDelegatePointerValue=_currentInputDelegatePointerValue;
-@property _Bool currentlyCheckingPreferences; // @synthesize currentlyCheckingPreferences=_currentlyCheckingPreferences;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) TUIEmojiSearchInputViewController *emojiSearchViewController; // @synthesize emojiSearchViewController=_emojiSearchViewController;
-@property(nonatomic) __weak UIViewController *expandedItemsController; // @synthesize expandedItemsController=_expandedItemsController;
-@property _Bool hasCheckedPreferences; // @synthesize hasCheckedPreferences=_hasCheckedPreferences;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak UITextInputAssistantItem *observedInputAssistantItem; // @synthesize observedInputAssistantItem=_observedInputAssistantItem;
 @property(nonatomic) __weak UIView *popoverSourceView; // @synthesize popoverSourceView=_popoverSourceView;
-@property(retain, nonatomic) UIViewController<UIPredictiveViewController> *predictiveViewController; // @synthesize predictiveViewController=_predictiveViewController;
-@property(retain, nonatomic) UIView *remoteAssistantContainerView; // @synthesize remoteAssistantContainerView=_remoteAssistantContainerView;
-@property(retain, nonatomic) _UILayerHostView *remoteAssistantView; // @synthesize remoteAssistantView=_remoteAssistantView;
-@property(retain, nonatomic) UIRemoteInputViewInfo *remoteAssistantViewInfo; // @synthesize remoteAssistantViewInfo=_remoteAssistantViewInfo;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsCompactStyle;
-@property(readonly, nonatomic) TUISystemInputAssistantView *systemInputAssistantView;
 
 @end
 

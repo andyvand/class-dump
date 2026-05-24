@@ -4,32 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface RTSynthesizedLocationMO
 {
 }
 
-+ (id);
-+ (id);
++ (id)rivateKey";
++ (id)created;
 
 // Remaining properties
-@property(nonatomic) double altitude; // @dynamic altitude;
-@property(nonatomic) unsigned long long clRoadID; // @dynamic clRoadID;
-@property(nonatomic) double course; // @dynamic course;
-@property(nonatomic) double courseAccuracy; // @dynamic courseAccuracy;
-@property(nonatomic) short downsamplingLevel; // @dynamic downsamplingLevel;
-@property(nonatomic) short geoFormOfWay; // @dynamic geoFormOfWay;
-@property(nonatomic) short geoRoadClass; // @dynamic geoRoadClass;
-@property(nonatomic) double horizontalAccuracy; // @dynamic horizontalAccuracy;
 @property(nonatomic) double latitude; // @dynamic latitude;
-@property(nonatomic) short locationType; // @dynamic locationType;
-@property(nonatomic) double longitude; // @dynamic longitude;
-@property(nonatomic) double speed; // @dynamic speed;
-@property(nonatomic) double speedAccuracy; // @dynamic speedAccuracy;
-@property(copy, nonatomic) NSDate *timestamp; // @dynamic timestamp;
-@property(nonatomic) long long type; // @dynamic type;
-@property(nonatomic) double verticalAccuracy; // @dynamic verticalAccuracy;
 
 @end
 

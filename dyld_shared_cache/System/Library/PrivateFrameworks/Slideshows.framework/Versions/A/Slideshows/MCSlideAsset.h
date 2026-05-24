@@ -4,28 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCAssetVideo, NSString;
+@class MCAssetVideo;
 
 @interface MCSlideAsset
 {
     MCAssetVideo *_asset;
-    NSString *_kenBurnsType;
-    struct CGPoint center;
-    double scale;
-    double rotation;
 }
 
 - (void);
-- (id);
+- (id)	;
 - (void);
-- (id);
+- (id)G;
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
 @property(retain) MCAssetVideo *asset; // @synthesize asset=_asset;
-@property(copy) NSString *kenBurnsType; // @synthesize kenBurnsType=_kenBurnsType;
 
 @end
 

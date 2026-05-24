@@ -4,26 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDProcessLaunchInfoLogEvent
 {
     _Bool _isConfigurationLoaded;
-    _Bool _isTTSUInProgress;
-    _Bool _eventSubmittedOnTimeOut;
-    long long _submissionState;
-    NSString *_dataSyncState;
-    long long _systemUptimeMillisecondsAtLaunch;
-    double _timeIntervalSincePreviousProcessLaunch;
-    long long _homeDataLoadedMilliseconds;
-    long long _xpcMessageTransportReadyMilliseconds;
-    long long _millisecondsSinceLaunchToDataSyncStateGood;
-    long long _millisecondsToAccountResolved;
-    long long _numUncommittedRecords;
-    long long _numUncommittedAndPushedRecords;
-    NSString *_processExitType;
-    NSString *_processExitReason;
 }
 
 - (unsigned long long);
@@ -31,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (long long);
@@ -42,50 +26,14 @@ __attribute__((visibility("hidden")))
 - (double);
 - (_Bool)â°!EùqÐ1Â0@ù
 × ;
-- (id)udioDuckingEnabled_readVersion;
+- (id)root_general_accessibility_vision_voiceOver_audioDuckingEnabled_readVersion;
 - (long long)uration write because of invalid selected config;
 - (long long)stination specified for home %@ awaiting auto accept;
-- (long long)te;
-- (void)DLogEventUserActivityAnalyzerSiriWriteEventCounter;
+- (long long)currentAccessModeChangeDate;
+- (void)HMDLogEventUserActivityAnalyzerSiriWriteEventCounter;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, copy, nonatomic) NSString *dataSyncState; // @synthesize dataSyncState=_dataSyncState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) _Bool eventSubmittedOnTimeOut; // @synthesize eventSubmittedOnTimeOut=_eventSubmittedOnTimeOut;
-@property(readonly) unsigned long long hash;
-@property(readonly) long long homeDataLoadedMilliseconds; // @synthesize homeDataLoadedMilliseconds=_homeDataLoadedMilliseconds;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly) _Bool isConfigurationLoaded; // @synthesize isConfigurationLoaded=_isConfigurationLoaded;
-@property(readonly) _Bool isTTSUInProgress; // @synthesize isTTSUInProgress=_isTTSUInProgress;
-@property(readonly) long long millisecondsSinceLaunchToDataSyncStateGood; // @synthesize millisecondsSinceLaunchToDataSyncStateGood=_millisecondsSinceLaunchToDataSyncStateGood;
-@property(readonly) long long millisecondsToAccountResolved; // @synthesize millisecondsToAccountResolved=_millisecondsToAccountResolved;
-@property(readonly) long long numUncommittedAndPushedRecords; // @synthesize numUncommittedAndPushedRecords=_numUncommittedAndPushedRecords;
-@property(readonly) long long numUncommittedRecords; // @synthesize numUncommittedRecords=_numUncommittedRecords;
-@property(readonly, nonatomic) NSString *processExitReason; // @synthesize processExitReason=_processExitReason;
-@property(readonly, nonatomic) NSString *processExitType; // @synthesize processExitType=_processExitType;
 @property(readonly) long long submissionState; // @synthesize submissionState=_submissionState;
-@property(readonly) Class superclass;
-@property(readonly) long long systemUptimeMillisecondsAtLaunch; // @synthesize systemUptimeMillisecondsAtLaunch=_systemUptimeMillisecondsAtLaunch;
-@property(readonly) double timeIntervalSincePreviousProcessLaunch; // @synthesize timeIntervalSincePreviousProcessLaunch=_timeIntervalSincePreviousProcessLaunch;
-@property(readonly) long long xpcMessageTransportReadyMilliseconds; // @synthesize xpcMessageTransportReadyMilliseconds=_xpcMessageTransportReadyMilliseconds;
 
 @end
 

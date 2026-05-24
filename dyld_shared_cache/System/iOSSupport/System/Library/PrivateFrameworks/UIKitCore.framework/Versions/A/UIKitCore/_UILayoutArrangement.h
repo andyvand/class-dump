@@ -4,28 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableSet, NSSet, NSString, UIView, _UILAConfigurationHistory, _UILayoutSpacer;
-@protocol _UILAPropertySource;
+@class NSMutableArray, NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface _UILayoutArrangement
 {
     NSMutableSet *_incomingItems;
-    NSMutableSet *_outgoingItems;
-    NSMutableSet *_hiddenItems;
-    NSMutableSet *_newlyHiddenItems;
-    NSMutableSet *_newlyUnhiddenItems;
-    NSMutableSet *_invalidBaselineConstraints;
-    NSMutableArray *_canvasConnectionConstraints;
-    _Bool _awaitingAnimationLayoutPass;
-    _Bool _layoutFillsCanvas;
-    _Bool _layoutUsesCanvasMarginsWhenFilling;
-    _UILAConfigurationHistory *_unanimatedConfigurationTarget;
-    NSMutableArray *_mutableItems;
-    _UILayoutSpacer *_spanningLayoutGuide;
-    _UILAConfigurationHistory *_configurationHistory;
-    UIView *_canvas;
-    long long _axis;
 }
 
 + (Class)ÿ.Ïè8k;
@@ -38,9 +22,9 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void)0@ù
 × ;
-- (id)tionDidBegin;
-- (_Bool)ew: /* Error: Ran out of types for this method. */;
-- (void)nfigurationBeforeDeferring;
+- (id)getIASignalMissingKeyboardDictationDidBegin;
+- (_Bool)_clippedSafeAreaCornerInsetsInSuperview: /* Error: Ran out of types for this method. */;
+- (void)__proxySheetConfigurationBeforeDeferring;
 - (id)ta;
 - (void)uchDelayForScrollDetection;
 - (void)entaryOverlayWidth;
@@ -48,14 +32,14 @@ __attribute__((visibility("hidden")))
 - (id)oFlock,S_setApplyTargetTransformToFlock:,V__applyTargetTransformToFlock /* Error: Ran out of types for this method. */;
 - (_Bool)ictiveTextAudioBrightness;
 - (void)&,N,V_currentInput;
-- (void)otify;
+- (void)preLayoutNotify;
 - (long long)intColor: /* Error: Ran out of types for this method. */;
-- (id)tContent: /* Error: Ran out of types for this method. */;
+- (id)setTextContent: /* Error: Ran out of types for this method. */;
 - (id)rmattingStyles;
 - (void)obalSearchDelegate>",R,W,N,V_globalSearchDelegate;
-- (long long)ditions;
-- (id)_YearMonth;
-- (void)IMovieScrubberEditingView;
+- (long long)ClassicAdditions;
+- (id)_UIDatePickerMode_YearMonth;
+- (void)UIMovieScrubberEditingView;
 - (void)ü;
 - (id)r;
 - (_Bool);
@@ -75,17 +59,17 @@ __attribute__((visibility("hidden")))
 - (id)ÿ «þ~þÿ;
 - (void)þÿ;
 - (void);
-- (void)ent;
+- (void)PlatterRubberbandingCoefficient;
 - (_Bool)gth on an action of class %@, which does not support changing content;
 - (id)re implicitly registered for state restoration:%@ /* Error: Ran out of types for this method. */;
-- (void)ortsIndirectInputEvents;
-- (unsigned long long)OADING_TEXT;
+- (void)UIApplicationSupportsIndirectInputEvents;
+- (unsigned long long)CONTENT_UNAVAILABLE_LOADING_TEXT;
 - (void).pasteboard-detection-pattern.dd.shipment;
-- (id)tReplySelected;
-- (id)iCategoryTravelAndPlaces;
-- (void)cessibilityLabel;
+- (id)resetStateIfNoSmartReplySelected;
+- (id)UIKeyboardEmojiCategoryTravelAndPlaces;
+- (void)UIAccessibilityLabel;
 - (void)enu-background-%@;
-- (id)cation;
+- (id)_UIHardwareKeyboardExclusivityIdentifierChangedNotification;
 - (id)@?0@"UITargetedPreview"8B16;
 - (_Bool)section %ld before the update;
 - (_Bool)o fit into its parent group or section, or it has no room for any subitems itself. Inspect the parent and ensure the contentInsets (%@) do not result in a negative effectiveContentSize when applied to size:%@. /* Error: Ran out of types for this method. */;
@@ -108,30 +92,7 @@ __attribute__((visibility("hidden")))
 - (void)a;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool _awaitingAnimationLayoutPass; // @synthesize _awaitingAnimationLayoutPass;
-@property(readonly, retain, nonatomic) _UILAConfigurationHistory *_configurationHistory; // @synthesize _configurationHistory;
-@property(readonly, nonatomic) NSSet *_hiddenItems;
-@property(readonly, nonatomic) NSSet *_incomingItems;
 @property(retain, nonatomic, setter=_setMutableItems:) NSMutableArray *_mutableItems; // @synthesize _mutableItems;
-@property(readonly, nonatomic) NSSet *_newlyHiddenItems;
-@property(readonly, nonatomic) NSSet *_newlyUnhiddenItems;
-@property(readonly, nonatomic) NSSet *_outgoingItems;
-@property(readonly, nonatomic) id <_UILAPropertySource> _propertySource;
-@property(readonly, retain, nonatomic) _UILayoutSpacer *_spanningLayoutGuide; // @synthesize _spanningLayoutGuide;
-@property(retain, nonatomic, setter=_setUnanimatedConfigurationTarget:) _UILAConfigurationHistory *_unanimatedConfigurationTarget; // @synthesize _unanimatedConfigurationTarget;
-@property(nonatomic) long long axis; // @synthesize axis=_axis;
-@property(nonatomic) __weak UIView *canvas; // @synthesize canvas=_canvas;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSSet *invalidBaselineConstraints; // @synthesize invalidBaselineConstraints=_invalidBaselineConstraints;
-@property(readonly, copy, nonatomic) NSArray *items;
-@property(nonatomic) _Bool layoutFillsCanvas; // @synthesize layoutFillsCanvas=_layoutFillsCanvas;
-@property(nonatomic) _Bool layoutUsesCanvasMarginsWhenFilling; // @synthesize layoutUsesCanvasMarginsWhenFilling=_layoutUsesCanvasMarginsWhenFilling;
-@property(readonly) Class superclass;
 
 @end
 

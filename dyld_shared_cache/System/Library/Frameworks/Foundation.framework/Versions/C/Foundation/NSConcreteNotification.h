@@ -6,19 +6,17 @@
 
 #import <Foundation/NSNotification.h>
 
-@class NSDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NSConcreteNotification : NSNotification
 {
     NSString *name;
-    id object;
-    NSDictionary *userInfo;
 }
 
-- (id);
+- (id)j;
 - (void);
-- (id);
+- (id)̑;
 - (id);
 - (id);
 

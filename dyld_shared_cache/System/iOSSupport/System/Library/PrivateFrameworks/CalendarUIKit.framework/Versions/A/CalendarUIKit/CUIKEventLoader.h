@@ -4,47 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUIKOccurrenceSet, NSMutableDictionary, NSMutableSet, NSSet, NSTimeZone;
-@protocol CUIKEventLoaderDelegate, EKPredicateMonitor;
+@protocol CUIKEventLoaderDelegate;
 
 @interface CUIKEventLoader
 {
     struct os_unfair_lock_s _occurrencesLock;
-    CUIKOccurrenceSet *_loadedOccurrences;
-    NSMutableSet *_occurrencesAwaitingRefresh;
-    NSMutableSet *_newOccurrencesAwaitingRefresh;
-    NSMutableSet *_occurrencesAwaitingDeletion;
-    NSSet *_selectedCalendars;
-    unsigned long long _calendarGeneration;
-    unsigned long long _loadingCalendarGeneration;
-    unsigned int _daysOfPadding;
-    unsigned int _maxDaysToCache;
-    unsigned long long _componentForExpandingPadding;
-    double _preferredReloadStart;
-    double _preferredReloadEnd;
-    double _lastRequestedStart;
-    double _lastRequestedEnd;
-    double _loadedStart;
-    double _loadedEnd;
-    double _loadingStart;
-    double _loadingEnd;
-    id <EKPredicateMonitor> _predicateMonitor;
-    unsigned long long _loadedGeneration;
-    unsigned long long _loadingGeneration;
-    unsigned long long _predicateMonitorGeneration;
-    NSMutableDictionary *_waitersByGeneration;
-    unsigned long long _notifiedGeneration;
-    int _resultsReceived;
-    double _paddingLoadDelay;
-    int _pendingPaddingPredicateUpdates;
-    NSTimeZone *_timeZone;
-    _Bool _allowEventLocationPrediction;
-    id <CUIKEventLoaderDelegate> _delegate;
 }
 
-- (void);
-- (_Bool);
-- (void);
+- (void);
+- (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -63,21 +32,20 @@
 - (id);
 - (void);
 - (void);
+- (void)M<s;
+- (void)4r;
 - (void);
 - (void);
-- (void);
-- (void);
+- (id)ewMinimized;
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
-- (void)abilityTitle: /* Error: Ran out of types for this method. */;
+- (void)setDiscoverabilityTitle: /* Error: Ran out of types for this method. */;
 - (void)eModelP;
-- (void)ModelTwoDayDisplaySettingChangedNotification;
+- (void)CalendarModelTwoDayDisplaySettingChangedNotification;
 
 // Remaining properties
-@property(nonatomic) _Bool allowEventLocationPrediction; // @synthesize allowEventLocationPrediction=_allowEventLocationPrediction;
 @property(nonatomic) __weak id <CUIKEventLoaderDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end

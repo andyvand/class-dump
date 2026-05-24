@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, _CDInteractionStore, _PSBackgroundProcessingMetrics;
+@class _CDInteractionStore;
 
 @interface _PSBackgroundProcessingTask
 {
     _CDInteractionStore *_interactionStore;
-    NSDate *_bookmark;
-    _PSBackgroundProcessingMetrics *_metrics;
 }
 
-+ (_Bool);
-+ (id);
-+ (_Bool);
-+ (id);
-- (_Bool);
-- (void);
-- (void);
++ (_Bool)_checkerRejectBeforeActivationCount;
++ (id)_appContactFreqForPhoneCall28Day;
++ (_Bool)actFreqForMessages2Min;
++ (id)Dinner;
+- (_Bool)_executorAppIntentHandleTime;
+- (void)_contactSuggesterQueryContext;
+- (void)_activeRedactionPolicies;
 - (id);
 - (void);
 

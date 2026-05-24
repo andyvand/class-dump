@@ -4,42 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKLogicalDeviceScopedDaemonProxy, CKLogicalDeviceScopedStateManager, CKThrottleManager, CKXPCConnection;
-@protocol CKTestDeviceProtocol, CKTestDeviceReferenceProtocol;
+@protocol CKTestDeviceReferenceProtocol;
 
 @interface CKLogicalDeviceContext
 {
     _Bool _useLiveServer;
-    CKLogicalDeviceScopedDaemonProxy *_deviceScopedDaemonProxy;
-    CKLogicalDeviceScopedStateManager *_deviceScopedStateManager;
-    CKThrottleManager *_throttleManager;
-    id <CKTestDeviceProtocol> _testDeviceProtocol;
-    id <CKTestDeviceReferenceProtocol> _testDeviceReferenceProtocol;
 }
 
 + (id);
 + (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)rameters failed.;
 - (long long);
 - (id);
 - (id);
 - (void)¼ô¬õèõðöH÷Pø°ø´ùúû¬ûx;
 
 // Remaining properties
-@property(readonly, nonatomic) CKXPCConnection *connection;
-@property(readonly, nonatomic) CKLogicalDeviceScopedDaemonProxy *deviceScopedDaemonProxy; // @synthesize deviceScopedDaemonProxy=_deviceScopedDaemonProxy;
-@property(readonly, nonatomic) CKLogicalDeviceScopedStateManager *deviceScopedStateManager; // @synthesize deviceScopedStateManager=_deviceScopedStateManager;
-@property(readonly, nonatomic) long long pushBehavior;
-@property(readonly, nonatomic) id <CKTestDeviceProtocol> testDeviceProtocol; // @synthesize testDeviceProtocol=_testDeviceProtocol;
 @property(readonly, nonatomic) id <CKTestDeviceReferenceProtocol> testDeviceReferenceProtocol; // @synthesize testDeviceReferenceProtocol=_testDeviceReferenceProtocol;
-@property(readonly, nonatomic) CKThrottleManager *throttleManager; // @synthesize throttleManager=_throttleManager;
-@property(readonly, nonatomic) _Bool useLiveServer; // @synthesize useLiveServer=_useLiveServer;
 
 @end
 

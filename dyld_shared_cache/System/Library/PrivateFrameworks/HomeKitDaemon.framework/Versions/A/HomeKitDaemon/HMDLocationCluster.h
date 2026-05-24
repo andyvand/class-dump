@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSArray, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface HMDLocationCluster
@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (id)¢B;
-- (id);
-- (id);
+- (id)oving %lu blocked handles from statuses;
+- (id)rom backup, excluding now:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -24,15 +24,7 @@ __attribute__((visibility("hidden")))
 - (void)sDestination=%@, timestamp=%@, payloadSize=%lu>;
 
 // Remaining properties
-@property(readonly, copy) CLLocation *bestLocation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSArray *locations; // @synthesize locations=_locations;
-@property(readonly) Class superclass;
 
 @end
 

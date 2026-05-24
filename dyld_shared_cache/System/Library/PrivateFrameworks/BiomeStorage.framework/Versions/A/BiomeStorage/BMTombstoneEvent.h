@@ -9,19 +9,12 @@
 @interface BMTombstoneEvent
 {
     unsigned int _dataVersion;
-    NSString *_segmentName;
-    unsigned long long _offset;
-    unsigned long long _length;
-    unsigned long long _deletionReason;
-    NSString *_policyID;
-    double _eventTimestamp;
-    NSString *_processName;
 }
 
 + (id);
 + (id);
 + (unsigned int);
-+ (_Bool);
++ (_Bool)HS;
 - (id);
 - (unsigned long long);
 - (id);
@@ -38,30 +31,16 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)%d   suspended:(id)arg1 %d   enabled:%d /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
+- (id)nager notifyImplicitTrainingUtteranceAvailable:(id)arg1 forVoiceProfileId:withRecordDeviceInfo:withRecordCtxt:withVoiceTriggerCtxt:withOtherCtxt:assetToUse:withCompletion:]_block_invoke_2 /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) unsigned long long deletionReason; // @synthesize deletionReason=_deletionReason;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double eventTimestamp; // @synthesize eventTimestamp=_eventTimestamp;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long length; // @synthesize length=_length;
-@property(readonly, nonatomic) unsigned long long offset; // @synthesize offset=_offset;
-@property(readonly, nonatomic) NSString *policyID; // @synthesize policyID=_policyID;
-@property(readonly, nonatomic) NSString *processName; // @synthesize processName=_processName;
 @property(readonly, nonatomic) NSString *segmentName; // @synthesize segmentName=_segmentName;
-@property(readonly) Class superclass;
 
 @end
 

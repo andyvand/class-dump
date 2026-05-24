@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, VCPFrameSuperResolutionConfiguration;
+@class VCPFrameSuperResolutionConfiguration;
 
 @interface VTLowLatencySuperResolutionScalerConfiguration
 {
     VCPFrameSuperResolutionConfiguration *vcpConfiguration;
-    float _scaleFactor;
-    long long _frameWidth;
-    long long _frameHeight;
-    NSArray *_frameSupportedPixelFormats;
-    NSDictionary *_sourcePixelBufferAttributes;
-    NSDictionary *_destinationPixelBufferAttributes;
 }
 
 + (id);
 + (CDStruct_1ef3fb1f);
-+ (CDStruct_1ef3fb1f);
-+ (_Bool);
++ (CDStruct_1ef3fb1f)S;
++ (_Bool);
 - (id);
 - (id);
 - (long long);
@@ -28,31 +22,11 @@
 - (long long);
 - (id);
 - (void);
-- (id);
+- (id)h;
 - (float);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *destinationPixelBufferAttributes; // @synthesize destinationPixelBufferAttributes=_destinationPixelBufferAttributes;
-@property(readonly, nonatomic) long long frameHeight; // @synthesize frameHeight=_frameHeight;
-@property(readonly, nonatomic) NSArray *frameSupportedPixelFormats; // @synthesize frameSupportedPixelFormats=_frameSupportedPixelFormats;
 @property(readonly, nonatomic) long long frameWidth; // @synthesize frameWidth=_frameWidth;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long nextFrameCount;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long previousFrameCount;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) float scaleFactor; // @synthesize scaleFactor=_scaleFactor;
-@property(readonly, nonatomic) NSDictionary *sourcePixelBufferAttributes; // @synthesize sourcePixelBufferAttributes=_sourcePixelBufferAttributes;
-@property(readonly) Class superclass;
 
 @end
 

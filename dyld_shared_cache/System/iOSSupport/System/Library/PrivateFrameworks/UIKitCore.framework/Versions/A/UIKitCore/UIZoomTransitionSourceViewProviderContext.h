@@ -14,7 +14,7 @@
 
 + (id);
 - (id);
-- (id);
+- (id)setPendingNicknameUpdatesKVStore: /* Error: Ran out of types for this method. */;
 - (void)¥_;
 
 // Remaining properties

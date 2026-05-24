@@ -6,7 +6,7 @@
 
 #import <Silex/SXComponentSizer.h>
 
-@class NSString, SXTextLayouter;
+@class SXTextLayouter;
 
 @interface SXButtonComponentSizer : SXComponentSizer
 {
@@ -30,13 +30,6 @@
 - (void)TangierTextWrapper";
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) SXTextLayouter *textLayouter; // @synthesize textLayouter=_textLayouter;
 
 @end

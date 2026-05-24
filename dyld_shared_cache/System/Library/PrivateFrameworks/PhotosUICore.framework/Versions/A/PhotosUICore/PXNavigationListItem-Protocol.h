@@ -4,42 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, PHCollection;
-@protocol NSCopying><NSObject;
+@class NSString, PHCollection;
 
 @protocol PXNavigationListItem
+- (_Bool);
+- (unsigned long long);
 - (NSString *)persistenceConfirmationPresentationDate;
-- (NSString *)dynamicTypeSize;
+- (NSString *)_dynamicTypeSize;
 - (NSString *)erSizeSpecsProviderModelP;
-- (NSString *)egn_;
+- (NSString *)GIegn_;
 - (PHCollection *)\¼;
-- (NSURL *);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessibilityIdentifier;
-@property(readonly, nonatomic) NSString *accessoryGlyphImageName;
-@property(readonly, nonatomic) NSString *accessoryTitle;
-@property(readonly, nonatomic) _Bool canRearrangeContent;
-@property(readonly, nonatomic) PHCollection *collection;
-@property(readonly, copy, nonatomic) NSString *collectionIdentifier;
-@property(readonly, nonatomic) _Bool defaultsToExpanded;
-@property(readonly, nonatomic, getter=isDeletable) _Bool deletable;
-@property(readonly, nonatomic) _Bool displayInline;
-@property(readonly, nonatomic, getter=isDraggable) _Bool draggable;
-@property(readonly, nonatomic, getter=isExpandable) _Bool expandable;
-@property(readonly, nonatomic, getter=isExpanded) _Bool expanded;
-@property(readonly, nonatomic) NSURL *fileURL;
-@property(readonly, nonatomic) NSString *glyphImageName;
-@property(readonly, nonatomic, getter=isGroup) _Bool group;
 @property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) long long indentationLevel;
-@property(readonly, nonatomic) unsigned long long lockState;
-@property(readonly, nonatomic, getter=isRemovable) _Bool removable;
-@property(readonly, nonatomic, getter=isRenamable) _Bool renamable;
-@property(readonly, nonatomic, getter=isReorderable) _Bool reorderable;
-@property(readonly, nonatomic) id <NSCopying><NSObject> representedObject;
-@property(readonly, nonatomic) NSString *title;
-@property(readonly, copy, nonatomic) NSString *topLevelIdentifier;
-@property(readonly, nonatomic) NSString *visualDescription;
 @end
 

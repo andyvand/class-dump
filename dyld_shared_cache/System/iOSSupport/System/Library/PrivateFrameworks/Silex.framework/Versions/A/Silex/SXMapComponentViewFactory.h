@@ -6,13 +6,11 @@
 
 #import <Silex/SXComponentViewFactory.h>
 
-@protocol SXAnalyticsReportingProvider, SXAppStateMonitor, SXDocumentTitleProviding;
+@protocol SXAnalyticsReportingProvider;
 
 @interface SXMapComponentViewFactory : SXComponentViewFactory
 {
     id <SXAnalyticsReportingProvider> _analyticsReportingProvider;
-    id <SXAppStateMonitor> _appStateMonitor;
-    id <SXDocumentTitleProviding> _documentTitleProvider;
 }
 
 - (id);
@@ -27,8 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXAnalyticsReportingProvider> analyticsReportingProvider; // @synthesize analyticsReportingProvider=_analyticsReportingProvider;
-@property(readonly, nonatomic) id <SXAppStateMonitor> appStateMonitor; // @synthesize appStateMonitor=_appStateMonitor;
-@property(readonly, nonatomic) id <SXDocumentTitleProviding> documentTitleProvider; // @synthesize documentTitleProvider=_documentTitleProvider;
 
 @end
 

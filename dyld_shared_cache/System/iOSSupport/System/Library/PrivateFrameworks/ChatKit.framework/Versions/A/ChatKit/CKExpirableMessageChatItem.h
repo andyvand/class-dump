@@ -10,7 +10,7 @@
 {
 }
 
-- (_Bool);
+- (_Bool)@);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -19,7 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isPlayed;
-@property(readonly, nonatomic) _Bool isSaved;
 
 @end
 

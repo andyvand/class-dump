@@ -7,7 +7,6 @@
 @interface HomeKit.AccessoryInfoFetchItemCollection
 {
     id accessoryInfoFetchItems;
-    id accessoryUniqueIdentifier;
 }
 
 @end

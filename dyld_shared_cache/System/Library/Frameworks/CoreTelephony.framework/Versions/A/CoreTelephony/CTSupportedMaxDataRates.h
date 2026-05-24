@@ -11,13 +11,13 @@
     NSArray *_rates;
 }
 
-+ (_Bool);
++ (_Bool)ULL);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)passwordHash;
 - (id);
 - (void)qª)1Â0@ù
 × ;

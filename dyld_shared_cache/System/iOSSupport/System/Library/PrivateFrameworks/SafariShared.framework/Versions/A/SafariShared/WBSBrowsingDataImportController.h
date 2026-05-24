@@ -16,7 +16,7 @@
 + (id);
 + (id);
 + (id);
-+ (long long);
++ (long long)0F;
 + (id);
 - (void);
 - (id);
@@ -35,7 +35,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -45,7 +45,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *importErrorAlertTitle;
-@property(retain, nonatomic) NSString *selectedProfileIdentifierToImportInto; // @synthesize selectedProfileIdentifierToImportInto=_selectedProfileIdentifierToImportInto;
 
 @end
 

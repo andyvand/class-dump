@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol QLPreviewItem;
+
 @protocol QLPreviewPanelDataSource
+- (long long)(;
+- (id <QLPreviewItem>);
 @end
 

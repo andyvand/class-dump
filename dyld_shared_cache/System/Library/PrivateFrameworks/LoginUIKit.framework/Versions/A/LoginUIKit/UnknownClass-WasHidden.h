@@ -6,6 +6,6 @@
 
 @interface UnknownClass (WasHidden)
 - (_Bool);
-- (void);
+- (void)@y));
 @end
 

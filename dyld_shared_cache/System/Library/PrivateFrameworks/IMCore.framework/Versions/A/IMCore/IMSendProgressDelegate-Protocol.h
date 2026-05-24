@@ -5,5 +5,6 @@
 //
 
 @protocol IMSendProgressDelegate
+- (void)rt NWConnection;
 @end
 

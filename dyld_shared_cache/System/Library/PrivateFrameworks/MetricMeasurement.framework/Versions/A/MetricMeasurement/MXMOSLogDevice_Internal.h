@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, OSLogDevice;
+@class NSString;
 
 @interface MXMOSLogDevice_Internal
 {
     NSString *_name;
-    NSString *_identifier;
-    OSLogDevice *_rawDevice;
 }
 
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)Km;
 - (id);
 - (void);
 - (id);
@@ -24,16 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) OSLogDevice *rawDevice; // @synthesize rawDevice=_rawDevice;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface WA_AP_CachedFault
 {
     NSDate *_eventDate;
-    NSString *_type;
-    NSString *_interface;
 }
 
-- (void);
+- (void)current_boot_uuid;
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
-- (void);
+- (void)hb;
 
 // Remaining properties
 @property(retain) NSDate *eventDate; // @synthesize eventDate=_eventDate;
-@property(retain) NSString *interface; // @synthesize interface=_interface;
-@property(retain) NSString *type; // @synthesize type=_type;
 
 @end
 

@@ -7,18 +7,18 @@
 #pragma mark Named Structures
 
 struct CGPoint {
-    double x;
-    double y;
+    double _field1;
+    double _field2;
 };
 
 struct CGRect {
-    struct CGPoint origin;
-    struct CGSize size;
+    struct CGPoint _field1;
+    struct CGSize _field2;
 };
 
 struct CGSize {
-    double width;
-    double height;
+    double _field1;
+    double _field2;
 };
 
 struct FKSession {
@@ -62,19 +62,7 @@ struct FKSession {
 
 struct concomp;
 
-struct recognizer {
-    void *_field1;
-    int _field2;
-    struct {
-        int _field1;
-        void *_field2;
-        CDStruct_cf098810 _field3;
-        CDStruct_cf098810 _field4;
-        CDStruct_cf098810 _field5;
-    } _field3[5];
-    void *_field4;
-    int _field5;
-};
+struct recognizer;
 
 struct sequence;
 
@@ -88,27 +76,9 @@ struct vImage_Buffer {
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    void *_field1;
-    void *_field2;
-    unsigned long long _field3[4];
-    unsigned long long _field4[4];
-    unsigned long long _field5;
-    unsigned long long _field6;
-    unsigned long long _field7;
-    unsigned long long _field8;
-    unsigned long long _field9;
-    unsigned long long _field10;
-    unsigned long long _field11;
-    unsigned long long _field12;
-    unsigned long long _field13;
-    unsigned long long _field14;
-    int _field15;
-} CDStruct_cf098810;
-
-typedef struct {
-    int minScale;
-    int maxScale;
-} CDStruct_74dcf1ab;
+    int _field1;
+    int _field2;
+} CDStruct_1ef3fb1f;
 
 typedef struct CDStruct_183601bc;
 
@@ -116,7 +86,7 @@ typedef struct {
     struct CGSize _field1;
     struct CGPoint _field2;
     int _field3;
-} CDStruct_67c9bb48;
+} CDStruct_3162e5cd;
 
 #pragma mark Typedef'd Unions
 

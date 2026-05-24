@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface VCAlgosStreamingScoreAggregator
 {
     NSMutableDictionary *_participantAlgosScorers;
-    struct os_unfair_lock_s _blockAlgosScorersDictionaryLock;
-    double _score;
 }
 
 - (id);
@@ -22,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (id);
-- (double);
+- (double)a;
 
 // Remaining properties
 @property(readonly, nonatomic) double score; // @synthesize score=_score;

@@ -6,16 +6,11 @@
 
 #import <Slideshows/MCContainer.h>
 
-@class NSArray, NSDictionary, NSMutableSet, NSSet, NSString;
+@class NSMutableSet, NSSet;
 
 @interface MCContainerSerializer : MCContainer
 {
     NSMutableSet *mPlugs;
-    NSArray *mCachedOrderedPlugs;
-    double mCachedDuration;
-    NSString *_initialTransitionID;
-    double _initialTransitionDuration;
-    NSDictionary *_initialTransitionAttributes;
 }
 
 + (id);
@@ -23,10 +18,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void);
+- (void)o;
 - (id);
 - (id);
 - (double);
@@ -38,20 +33,14 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (double);
 - (id);
-- (void);
+- (void)A;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long countOfPlugs;
-@property(readonly) double duration;
-@property(copy) NSDictionary *initialTransitionAttributes; // @synthesize initialTransitionAttributes=_initialTransitionAttributes;
-@property(nonatomic) double initialTransitionDuration; // @synthesize initialTransitionDuration=_initialTransitionDuration;
-@property(copy) NSString *initialTransitionID; // @synthesize initialTransitionID=_initialTransitionID;
-@property(readonly) NSArray *orderedPlugs;
 @property(readonly) NSSet *plugs;
 
 @end

@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CBScalablePipeManager;
+
 @protocol CBScalablePipeManagerDelegate
+
+@optional
+- (void)ic}s Alias is nil, but iMessage enabled:(CBScalablePipeManager *)arg1 %{bool}d;
 @end
 

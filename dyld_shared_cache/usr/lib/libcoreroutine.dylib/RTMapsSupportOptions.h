@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateInterval, RTLocation;
+@class NSDateInterval;
 
 @interface RTMapsSupportOptions
 {
     NSDateInterval *_dateInterval;
-    RTLocation *_location;
-    double _distance;
 }
 
 - (id);
 - (id);
 - (double);
 - (id);
-- (id)ZoneDeleteBlock:(id)arg1;
-- (id)otification: /* Error: Ran out of types for this method. */;
+- (id)setPerRecordZoneDeleteBlock:(id)arg1;
+- (id)_onDailyMetricsNotification: /* Error: Ran out of types for this method. */;
 - (void)no results returned for fetch of transition destination, %@;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDateInterval *dateInterval; // @synthesize dateInterval=_dateInterval;
-@property(readonly, nonatomic) double distance; // @synthesize distance=_distance;
-@property(readonly, nonatomic) RTLocation *location; // @synthesize location=_location;
 
 @end
 

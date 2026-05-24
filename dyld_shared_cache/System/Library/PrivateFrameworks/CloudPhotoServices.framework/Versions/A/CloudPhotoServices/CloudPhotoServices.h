@@ -34,7 +34,7 @@
 + (_Bool);
 + (void);
 + (void);
-+ (void);
++ (void);
 + (id);
 + (id);
 + (id);

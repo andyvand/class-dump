@@ -11,10 +11,10 @@
     unsigned short _utilityCollectionType;
 }
 
-+ (id);
-+ (id);
++ (id)B;
++ (id)#@yi"@y	k@;
 - (unsigned short);
-- (id);
+- (id)K;
 - (id);
 - (id);
 - (id);

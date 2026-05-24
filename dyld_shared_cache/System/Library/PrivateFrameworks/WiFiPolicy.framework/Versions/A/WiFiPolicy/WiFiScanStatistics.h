@@ -7,23 +7,6 @@
 @interface WiFiScanStatistics
 {
     int _err;
-    unsigned long long _client;
-    unsigned long long _successCount;
-    unsigned long long _failureCount;
-    unsigned long long _is2GScan;
-    unsigned long long _is2GScanScanCore;
-    unsigned long long _is5GScan;
-    unsigned long long _is5GScanScanCore;
-    unsigned long long _is6GScan;
-    unsigned long long _is6GScanScanCore;
-    unsigned long long _scanDuration2G;
-    unsigned long long _scanDuration5G;
-    unsigned long long _scanDuration6G;
-    unsigned long long _scanCore2GScanDuration;
-    unsigned long long _scanCore5GScanDuration;
-    unsigned long long _scanCore6GScanDuration;
-    unsigned long long _scanDurationAllBands;
-    unsigned long long _scanCoreScanDurationAllBands;
 }
 
 - (void);
@@ -34,8 +17,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -51,7 +34,7 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
@@ -63,7 +46,7 @@
 - (int);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)nineOverFiveHalfPrecision;
 - (void);
 - (id);
 - (unsigned long long);
@@ -73,23 +56,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long client; // @synthesize client=_client;
-@property(nonatomic) int err; // @synthesize err=_err;
-@property(nonatomic) unsigned long long failureCount; // @synthesize failureCount=_failureCount;
-@property(nonatomic) unsigned long long is2GScan; // @synthesize is2GScan=_is2GScan;
-@property(nonatomic) unsigned long long is2GScanScanCore; // @synthesize is2GScanScanCore=_is2GScanScanCore;
-@property(nonatomic) unsigned long long is5GScan; // @synthesize is5GScan=_is5GScan;
-@property(nonatomic) unsigned long long is5GScanScanCore; // @synthesize is5GScanScanCore=_is5GScanScanCore;
-@property(nonatomic) unsigned long long is6GScan; // @synthesize is6GScan=_is6GScan;
-@property(nonatomic) unsigned long long is6GScanScanCore; // @synthesize is6GScanScanCore=_is6GScanScanCore;
-@property(nonatomic) unsigned long long scanCore2GScanDuration; // @synthesize scanCore2GScanDuration=_scanCore2GScanDuration;
-@property(nonatomic) unsigned long long scanCore5GScanDuration; // @synthesize scanCore5GScanDuration=_scanCore5GScanDuration;
-@property(nonatomic) unsigned long long scanCore6GScanDuration; // @synthesize scanCore6GScanDuration=_scanCore6GScanDuration;
-@property(nonatomic) unsigned long long scanCoreScanDurationAllBands; // @synthesize scanCoreScanDurationAllBands=_scanCoreScanDurationAllBands;
-@property(nonatomic) unsigned long long scanDuration2G; // @synthesize scanDuration2G=_scanDuration2G;
-@property(nonatomic) unsigned long long scanDuration5G; // @synthesize scanDuration5G=_scanDuration5G;
-@property(nonatomic) unsigned long long scanDuration6G; // @synthesize scanDuration6G=_scanDuration6G;
-@property(nonatomic) unsigned long long scanDurationAllBands; // @synthesize scanDurationAllBands=_scanDurationAllBands;
-@property(nonatomic) unsigned long long successCount; // @synthesize successCount=_successCount;
 
 @end
 

@@ -4,36 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber;
+@class NSNumber;
 
 @interface XProtectUpdateMetadata
 {
     NSNumber *version;
-    NSDate *date;
-    NSNumber *selectedSource;
-    NSNumber *previousVersion;
 }
 
 + (_Bool);
 - (void);
+- (id)_;
 - (id);
-- (id);
-- (id);
+- (id)5(;
 - (void);
 - (id);
 - (id);
+- (id);
+- (id)`;
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)ad model for language %@ and plist path %@;
+- (void)dels:(id)arg1 _models];
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *date; // @synthesize date;
-@property(retain, nonatomic) NSNumber *previousVersion; // @synthesize previousVersion;
-@property(retain, nonatomic) NSNumber *selectedSource; // @synthesize selectedSource;
 @property(retain, nonatomic) NSNumber *version; // @synthesize version;
 
 @end

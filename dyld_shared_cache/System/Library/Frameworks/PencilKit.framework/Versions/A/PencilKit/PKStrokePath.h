@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSUUID;
-
 @interface PKStrokePath
 {
     struct PKStrokePathPointsPrivate _strokeDataPointsPrivate;
-    shared_ptr_ad015234 _unknownFields;
-    _Bool _didValidateTimestamps;
-    _Bool _hasValidTimestampData;
-    double _cachedMaxWidth;
-    unsigned long long _immutablePointsCount;
-    unsigned long long _startIndex;
-    long long _inputType;
-    NSUUID *_strokeDataUUID;
 }
 
 + (id);
@@ -26,7 +16,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)(! ;
 - (double);
 - (double);
 - (struct CGPoint);
@@ -43,7 +33,7 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)R9;
 - (struct _PKStrokePoint);
 - (id);
 - (id);
@@ -52,10 +42,10 @@
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
-- (struct CGPath *);
+- (struct CGPath *)@;
 - (unsigned int);
 - (unsigned long long);
 - (void);
@@ -64,17 +54,18 @@
 - (id);
 - (id);
 - (id);
-- (struct CGPoint);
+- (struct CGPoint)t
+;
 - (double);
 - (double);
 - (long long);
+- (double);
+- (id);
+- (id)nForAlert:alertSystemSoundContext:] /* Error: Ran out of types for this method. */;
+- (id)PHResourceChooserListResourceInfo;
 - (double);
-- (id);
-- (id);
-- (id);
-- (double);
-- (id);
-- (id);
+- (id)dateWithTimeIntervalSince1970: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (unsigned long long);
 - (void);
@@ -82,16 +73,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long _immutablePointsCount; // @synthesize _immutablePointsCount;
-@property(readonly, nonatomic) long long _inputType; // @synthesize _inputType;
 @property(readonly, nonatomic) unsigned long long _pointsCount;
-@property(readonly, nonatomic) unsigned long long _startIndex; // @synthesize _startIndex;
-@property(readonly, nonatomic) NSUUID *_strokeDataUUID; // @synthesize _strokeDataUUID;
-@property(readonly, nonatomic) double _timestamp;
-@property(readonly, nonatomic) unsigned long long count;
-@property(readonly, nonatomic) NSDate *creationDate;
-@property(readonly, nonatomic) _Bool hasAzimuthAngles;
-@property(readonly, nonatomic) _Bool hasValidPointTimestampData;
 
 @end
 

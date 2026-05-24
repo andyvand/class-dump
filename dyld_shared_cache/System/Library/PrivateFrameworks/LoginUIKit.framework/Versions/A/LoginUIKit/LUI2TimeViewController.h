@@ -6,35 +6,28 @@
 
 #import <LoginUIKit/LUI2ViewController.h>
 
-@class LUIClockSettings, NSDateFormatter, NSTextField;
-@protocol LUIClockTimerHandle;
+@class NSDateFormatter;
 
 @interface LUI2TimeViewController : LUI2ViewController
 {
     NSDateFormatter *_timeFormatter;
-    NSTextField *_timeTextField;
-    id <LUIClockTimerHandle> _clockTimer;
-    _Bool _paused;
-    LUIClockSettings *_clockSettings;
-    id _target;
-    SEL _action;
 }
 
 - (void);
-- (id);
+- (id)?;
 - (void);
 - (void);
 - (id);
+- (void)T@;
 - (void);
+- (void);
+- (id)P;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (SEL);
+- (SEL)@;
 - (void);
 - (void);
 - (void)
@@ -42,8 +35,6 @@
 - (void)Range=QQ}32;
 
 // Remaining properties
-@property SEL action; // @synthesize action=_action;
-@property(retain) LUIClockSettings *clockSettings; // @synthesize clockSettings=_clockSettings;
 @property id target; // @synthesize target=_target;
 
 @end

@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
+@class NSArray, NSString;
 
 @protocol SFInfoTuple
+- (NSArray *)g scene classifications to managed object - uuid:%@, adjustment timestamp:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) unsigned long long initiallyVisibleValues;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *key;
-@property(copy, nonatomic) NSString *showMoreString;
-@property(copy, nonatomic) NSArray *values;
 @end
 

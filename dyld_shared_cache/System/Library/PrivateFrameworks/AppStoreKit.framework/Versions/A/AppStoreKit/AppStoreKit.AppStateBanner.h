@@ -7,10 +7,6 @@
 @interface AppStoreKit.AppStateBanner
 {
     id unknownBanner;
-    id buyBanner;
-    id downloadBanner;
-    id updateBanner;
-    id openBanner;
 }
 
 @end

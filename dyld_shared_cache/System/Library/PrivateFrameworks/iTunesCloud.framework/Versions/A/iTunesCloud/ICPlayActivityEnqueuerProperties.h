@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, NSTimeZone;
+@class NSString;
 
 @interface ICPlayActivityEnqueuerProperties
 {
     NSString *_buildVersion;
-    NSString *_deviceGUID;
-    NSString *_deviceName;
-    NSNumber *_privateListeningEnabled;
-    _Bool _SBEnabled;
-    unsigned long long _storeAccountID;
-    NSString *_storeFrontID;
-    long long _systemReleaseType;
-    NSTimeZone *_timeZone;
 }
 
 + (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)32q40q48q56q64q72q80q88;
 - (id);
 - (long long);
 - (id);
@@ -33,20 +25,12 @@
 - (void);
 - (id);
 - (id);
-- (void)ct: /* Error: Ran out of types for this method. */;
+- (void)containsObject: /* Error: Ran out of types for this method. */;
 - (id)th error:%{public}@ /* Error: Ran out of types for this method. */;
 - (id),´;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isSBEnabled) _Bool SBEnabled; // @synthesize SBEnabled=_SBEnabled;
 @property(readonly, copy, nonatomic) NSString *buildVersion; // @synthesize buildVersion=_buildVersion;
-@property(readonly, copy, nonatomic) NSString *deviceGUID; // @synthesize deviceGUID=_deviceGUID;
-@property(readonly, copy, nonatomic) NSString *deviceName; // @synthesize deviceName=_deviceName;
-@property(readonly, copy, nonatomic, getter=isPrivateListeningEnabled) NSNumber *privateListeningEnabled; // @synthesize privateListeningEnabled=_privateListeningEnabled;
-@property(readonly, nonatomic) unsigned long long storeAccountID; // @synthesize storeAccountID=_storeAccountID;
-@property(readonly, copy, nonatomic) NSString *storeFrontID; // @synthesize storeFrontID=_storeFrontID;
-@property(readonly, nonatomic) long long systemReleaseType; // @synthesize systemReleaseType=_systemReleaseType;
-@property(readonly, copy, nonatomic) NSTimeZone *timeZone; // @synthesize timeZone=_timeZone;
 
 @end
 

@@ -4,10 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFFaceprintDatabaseID, NSData, NSDate, NSUUID;
+@class NSData, NSUUID;
 @protocol MKFHome, MKFUser;
 
 @protocol MKFFaceprint
+- (NSUUID *)A;
+- (NSUUID *)5;
+- (void);
 - (id <MKFHome>)°1Â0@ù
 × ;
 - (id <MKFUser>)MonitorStarted];
@@ -15,11 +18,5 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSData *data;
-@property(readonly, copy, nonatomic) MKFFaceprintDatabaseID *databaseID;
-@property(copy, nonatomic) NSUUID *faceCropUUID;
-@property(retain, nonatomic) id <MKFHome> home;
-@property(copy, nonatomic) NSUUID *modelUUID;
-@property(retain, nonatomic) id <MKFUser> user;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 @end
 

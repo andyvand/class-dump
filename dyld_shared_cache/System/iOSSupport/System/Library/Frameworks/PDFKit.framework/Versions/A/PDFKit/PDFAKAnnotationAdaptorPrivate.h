@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAnnotation, PDFAnnotation;
-
 __attribute__((visibility("hidden")))
 @interface PDFAKAnnotationAdaptorPrivate
 {
     _Bool isTornDown;
-    PDFAnnotation *pdfAnnotation;
-    AKAnnotation *akAnnotation;
-    _Bool isObservingAKAnnotation;
-    _Bool isSyncingFromPDFAnnotation;
-    _Bool isSyncingFromAKAnnotation;
 }
 
 - (void);

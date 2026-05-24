@@ -11,8 +11,6 @@
 @interface _UIImageSymbolBounceEffect : _UIImageSymbolEffect
 {
     _Bool _byLayer;
-    long long _bounceDirection;
-    _UIImageSymbolEffectRepeatBehavior *_repeatBehavior;
 }
 
 + (id)CInterface";
@@ -20,23 +18,21 @@
 ;
 - (void);
 - (void);
+- (id)eiptProcessingParameter. Bailing and passing input to next pipeline;
+- (_Bool)acket...;
+- (long long)co;
+- (_Bool)romStorage:%@, isLastFromStorage:%@, isFromMe:%@, output messageItems:%lu, participants:%@, groupID:%@, groupName:%@, originalMessageTime:%@} /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool);
-- (long long);
-- (_Bool);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)ntifierListTailEntry",&,N,V_tailEntry;
+- (unsigned long long);
 - (void)Ð1Â0@ù
 × ;
-- (_Bool)aint;
-- (void)faultFocusedShadowVerticalOffset:(id)arg1;
+- (_Bool)trailingBarNoItemsConstraint;
+- (void)setDefaultFocusedShadowVerticalOffset:(id)arg1;
 - (id)largeTitleViewOverlaysContentView;
 - (void)]Ö-[;
 
 // Remaining properties
-@property(nonatomic) long long bounceDirection; // @synthesize bounceDirection=_bounceDirection;
-@property(nonatomic) _Bool byLayer; // @synthesize byLayer=_byLayer;
 @property(retain, nonatomic) _UIImageSymbolEffectRepeatBehavior *repeatBehavior; // @synthesize repeatBehavior=_repeatBehavior;
 
 @end

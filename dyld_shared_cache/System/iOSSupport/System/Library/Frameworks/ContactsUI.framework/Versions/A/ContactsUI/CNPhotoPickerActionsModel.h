@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNPhotoPickerActionButton, CNPhotoPickerProviderItem, NSArray, NSIndexPath, NSString;
-@protocol CNPhotoPickerActionsDelegate;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface CNPhotoPickerActionsModel
 {
     _Bool _canDelete;
-    _Bool _buttonsDisabled;
-    id <CNPhotoPickerActionsDelegate> _delegate;
-    CNPhotoPickerProviderItem *_providerItem;
-    NSArray *_currentInlineActionButtons;
-    CNPhotoPickerActionButton *_deleteButton;
-    NSIndexPath *_indexPath;
-    NSString *_assignActionTitleOverride;
 }
 
-+ (unsigned long long);
++ (unsigned long long)@9;
 + (id);
 + (id);
 + (_Bool);
@@ -31,15 +23,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
-- (void);
+- (id);
+- (void)i;
+- (id);
+- (void);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -49,19 +41,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)tForRowAtIndexPath: /* Error: Ran out of types for this method. */;
-- (id)achingMonogramRenderer;
+- (void)_heightForRowAtIndexPath: /* Error: Ran out of types for this method. */;
+- (id)nts_lazyCachingMonogramRenderer;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *assignActionTitleOverride; // @synthesize assignActionTitleOverride=_assignActionTitleOverride;
-@property(nonatomic) _Bool buttonsDisabled; // @synthesize buttonsDisabled=_buttonsDisabled;
-@property(nonatomic) _Bool canDelete; // @synthesize canDelete=_canDelete;
 @property(retain, nonatomic) NSArray *currentInlineActionButtons; // @synthesize currentInlineActionButtons=_currentInlineActionButtons;
-@property(nonatomic) __weak id <CNPhotoPickerActionsDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) CNPhotoPickerActionButton *deleteButton; // @synthesize deleteButton=_deleteButton;
-@property(retain, nonatomic) NSIndexPath *indexPath; // @synthesize indexPath=_indexPath;
-@property(readonly, nonatomic) NSArray *inlineActionButtons;
-@property(retain, nonatomic) CNPhotoPickerProviderItem *providerItem; // @synthesize providerItem=_providerItem;
 
 @end
 

@@ -10,7 +10,7 @@
 
 - (id);
 - (id);
-- (id);
+- (id)setTappedImpressionValueBaseline:(struct CGRect)arg1;
 
 @end
 

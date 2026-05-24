@@ -5,15 +5,11 @@
 //
 
 @class NSMenu, ResponsiveDesignPresetConfiguration;
-@protocol ResponsiveDesignViewportPresetMenuDelegate;
 
 __attribute__((visibility("hidden")))
 @interface ResponsiveDesignViewportPresetMenuController
 {
     ResponsiveDesignPresetConfiguration *_freeFormPreset;
-    _Bool _savingFreeFormPresetConfigurationSoon;
-    NSMenu *_menu;
-    id <ResponsiveDesignViewportPresetMenuDelegate> _delegate;
 }
 
 - (id);
@@ -32,8 +28,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(nonatomic) __weak id <ResponsiveDesignViewportPresetMenuDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) ResponsiveDesignPresetConfiguration *freeFormPreset;
 @property(readonly, nonatomic) NSMenu *menu; // @synthesize menu=_menu;
 
 @end

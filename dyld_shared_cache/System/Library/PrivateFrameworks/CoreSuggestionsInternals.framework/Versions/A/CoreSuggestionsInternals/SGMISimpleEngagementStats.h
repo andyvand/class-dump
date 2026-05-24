@@ -9,19 +9,15 @@
 @interface SGMISimpleEngagementStats
 {
     NSNumber *_positiveEngagement;
-    NSNumber *_noEngagement;
-    NSNumber *_negativeEngagement;
 }
 
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)__TEXT;
+- (id);
 - (void)H 8"\"À$Ì$Ü%0'@';
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *negativeEngagement; // @synthesize negativeEngagement=_negativeEngagement;
-@property(readonly, nonatomic) NSNumber *noEngagement; // @synthesize noEngagement=_noEngagement;
 @property(readonly, nonatomic) NSNumber *positiveEngagement; // @synthesize positiveEngagement=_positiveEngagement;
 
 @end

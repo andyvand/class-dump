@@ -19,7 +19,7 @@
 - (id);
 - (void);
 - (long long);
-- (void);
+- (void)adInstrumentationEnabled;
 - (id)Ø;
 
 @end

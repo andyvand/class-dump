@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PIBrushStrokeHistory;
+@class NSString;
 
 @interface PICompositionSidecarData
 {
     NSString *_sourceIdentifier;
-    unsigned long long _version;
-    NSArray *_maskSources;
-    PIBrushStrokeHistory *_brushStrokeHistory;
 }
 
 + (id);
@@ -20,26 +17,22 @@
 + (id);
 + (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
+- (id)u;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)C;
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)l/Library/BuildRoots/4~CNrdugCizy9_6YFCo7bFC3vDIeoaS1mU7llX-F0/Library/Caches/com.apple.xbs/TemporaryDirectory.nEUAsL/Sources/ScreenSharing/ScreenSharingFramework/Source/SSFileTransferWindowController.m;
 - (id);
-- (void)veIndex: /* Error: Ran out of types for this method. */;
+- (void)removeIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) PIBrushStrokeHistory *brushStrokeHistory; // @synthesize brushStrokeHistory=_brushStrokeHistory;
-@property(readonly, nonatomic) _Bool isEmpty;
-@property(copy, nonatomic) NSArray *maskSources; // @synthesize maskSources=_maskSources;
-@property(readonly, copy, nonatomic) NSString *sourceIdentifier; // @synthesize sourceIdentifier=_sourceIdentifier;
 @property(nonatomic) unsigned long long version; // @synthesize version=_version;
 
 @end

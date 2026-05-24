@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class IMCloudKitEventNotificationManager;
+
 @protocol IMCloudKitEventHandler
+
+@optional
+- (void)%08X for FaceTime audio;
+- (void)[%s] %s:(IMCloudKitEventNotificationManager *)arg1 %d VCMediaControlInfoUnserializeWithData failed with error %08X for FaceTime audio;
+- (void)controlInfo type=kVCMediaControlInfoTypeFeedbackReceivedOnRelay, for optionalControlInfo=%p in control info=%p for audio. error=%x;
+- (void)fo=%p in control info=%p for audio. error=%x;
+- (void)rol info=%p for audio. error=%x;
+- (void)ontrolInfoTypeIsReceivedOnPrimary, for optionalControlInfo=%p in control info=%p for audio. error=%x;
 @end
 

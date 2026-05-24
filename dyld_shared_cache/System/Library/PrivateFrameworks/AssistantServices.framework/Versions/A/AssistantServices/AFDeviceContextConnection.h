@@ -4,26 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFDeviceContext, AFInstanceContext, NSObject, NSString, NSXPCConnection, _AFDeviceContextServiceDelegateProxy;
-@protocol AFDeviceContextConnectionDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface AFDeviceContextConnection
 {
     NSObject<OS_dispatch_queue> *_queue;
-    AFInstanceContext *_instanceContext;
-    _AFDeviceContextServiceDelegateProxy *_serviceDelegateProxy;
-    id <AFDeviceContextConnectionDelegate> _delegate;
-    NSXPCConnection *_xpcConnection;
-    _Bool _isInvalid;
-    _Bool _isUpdatingLocalDeviceContext;
-    AFDeviceContext *_localDeviceContext;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)L!;
 - (void);
 - (void);
 - (void);
@@ -32,21 +25,15 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void)CAPABILITY_SHAREABILITY_PROPAGATE_TITLE;
 - (void);
 - (id);
+- (void);
+- (id)etting animated image metadata through BlastDoor;
 - (void)nowledgement,V_ack;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

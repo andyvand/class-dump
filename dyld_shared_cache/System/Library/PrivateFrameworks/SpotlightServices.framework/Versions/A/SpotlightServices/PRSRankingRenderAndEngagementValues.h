@@ -7,16 +7,15 @@
 @interface PRSRankingRenderAndEngagementValues
 {
     short _renderValues[6];
-    short _engagementValues[6];
 }
 
 + (_Bool);
 - (id);
-- (void);
+- (void)recordAssetsToBeDownloaded:(int)arg1 forAssetType: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)\';
 - (_Bool);
 
 @end

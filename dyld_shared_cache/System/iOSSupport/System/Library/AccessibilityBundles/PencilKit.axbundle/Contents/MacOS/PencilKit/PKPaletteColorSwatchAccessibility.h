@@ -11,12 +11,12 @@
 }
 
 + (Class);
-+ (id);
++ (id)Y-;
 + (void);
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)_axGenerateLabel: /* Error: Ran out of types for this method. */;
 
 @end
 

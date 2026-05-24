@@ -7,9 +7,6 @@
 @interface PodcastsFoundation.AddingPodcastStateDataSource
 {
     id delegate;
-    id refreshQueue;
-    id lock;
-    id currentlyAddingShows;
 }
 
 - (void);

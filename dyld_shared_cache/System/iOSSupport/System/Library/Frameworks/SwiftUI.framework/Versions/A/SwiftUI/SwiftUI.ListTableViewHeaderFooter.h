@@ -7,12 +7,9 @@
 @interface SwiftUI.ListTableViewHeaderFooter
 {
     id viewListID;
-    id configuration;
-    id host;
-    id outlineRootSeed;
 }
 
-- (void);
+- (void)bottomToTop;
 - (void);
 - (id);
 - (_Bool);

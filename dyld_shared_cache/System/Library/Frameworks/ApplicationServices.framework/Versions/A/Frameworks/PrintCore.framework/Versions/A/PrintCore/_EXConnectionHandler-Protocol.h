@@ -5,5 +5,6 @@
 //
 
 @protocol _EXConnectionHandler
+- (_Bool);;
 @end
 

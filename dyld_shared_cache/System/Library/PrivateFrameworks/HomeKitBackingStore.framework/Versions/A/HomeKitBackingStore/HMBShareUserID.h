@@ -11,14 +11,14 @@
     CKRecordID *_userRecordID;
 }
 
-+ (_Bool);
++ (_Bool)DELETE CASCADE );
 + (id)24@0:8@"HMFTimer"16 /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)�7�;
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
+- (id)writeMetadataType:value:toCGImageProperties:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);

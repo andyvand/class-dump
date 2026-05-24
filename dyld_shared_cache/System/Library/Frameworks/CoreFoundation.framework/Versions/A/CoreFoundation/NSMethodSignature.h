@@ -7,8 +7,6 @@
 @interface NSMethodSignature
 {
     struct NSMethodFrameDescriptor *_frameDescriptor;
-    char *_typeString;
-    unsigned long long _flags;
 }
 
 @end

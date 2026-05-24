@@ -6,22 +6,16 @@
 
 #import <AVFCore/AVDelegatingPlaybackCoordinatorPlaybackControlCommand.h>
 
-@class AVCoordinatedPlaybackParticipant, AVDelegatingPlaybackCoordinator, NSString;
+@class AVDelegatingPlaybackCoordinator;
 
 @interface AVDelegatingPlaybackCoordinatorPlayCommand : AVDelegatingPlaybackCoordinatorPlaybackControlCommand
 {
     AVDelegatingPlaybackCoordinator *_coordinator;
-    AVCoordinatedPlaybackParticipant *_originator;
-    NSString *_expectedCurrentItemIdentifier;
-    long long _commandOrderIndex;
-    float _rate;
-    CDStruct_1b6d18a9 _itemTime;
-    CDStruct_1b6d18a9 _hostClockTime;
 }
 
 - (CDStruct_1b6d18a9);
 - (id);
-- (CDStruct_1b6d18a9);
+- (CDStruct_1b6d18a9);
 - (id);
 - (void);
 - (id);
@@ -29,8 +23,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_1b6d18a9 hostClockTime; // @synthesize hostClockTime=_hostClockTime;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 itemTime; // @synthesize itemTime=_itemTime;
 @property(readonly, nonatomic) float rate; // @synthesize rate=_rate;
 
 @end

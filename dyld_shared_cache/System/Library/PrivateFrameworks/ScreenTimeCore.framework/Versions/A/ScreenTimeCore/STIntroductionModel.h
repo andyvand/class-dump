@@ -4,73 +4,1124 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateComponents, NSDictionary, NSNumber, NSString;
+@class NSNumber;
 
 @interface STIntroductionModel
 {
     _Bool _shouldDisableDowntime;
-    NSNumber *_isAppAndWebsiteActivityEnabled;
-    NSDateComponents *_downtimeStartTime;
-    NSDateComponents *_downtimeEndTime;
-    NSDictionary *_restrictions;
-    long long _imageGenerationRestriction;
-    NSString *_passcode;
-    long long _communicationPolicy;
-    long long _communicationWhileLimitedPolicy;
-    NSNumber *_isContactEditingDisabled;
-    NSNumber *_isContactManagementEnabled;
-    NSNumber *_isCommunicationSafetyEnabled;
-    NSNumber *_isEyeReliefEnabled;
 }
 
 + (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool)WHERE distinguished_kind = 0 AND smart_criteria IS NULL AND smart_is_genius = 0 AND is_hidden = 0 AND is_src_remote = 0;
+- (void)reverse_limit_order, smart_criteria, play_order, is_reversed, album_field_order, repeat_mode, shuffle_items, has_been_shuffled, filepath, is_saveable, is_src_remote, is_ignored_syncing, container_type, is_container_type_active_target, orig_date_modified, store_cloud_id, has_cloud_play_order, cloud_global_id, reserved1, reserved2, reserved3, reserved4, reserved5, reserved6, keep_local, keep_local_status) SELECT container_pid, distinguished_kind, date_created, date_modified, name, name_order, parent_pid, contained_media_type, workout_template_id, is_hidden, is_ignorable_itunes_playlist, description, play_count_user, play_count_recent, liked_state, smart_evaluation_order, smart_is_folder, smart_is_dynamic, smart_is_filtered, smart_is_genius, smart_enabled_only, smart_is_limited, smart_limit_kind, smart_limit_order, smart_limit_value, smart_reverse_limit_order, smart_criteria, play_order, is_reversed, album_field_order, repeat_mode, shuffle_items, has_been_shuffled, filepath, is_saveable, is_src_remote, is_ignored_syncing, container_type, is_container_type_active_target, orig_date_modified, store_cloud_id, has_cloud_play_order, cloud_global_id, reserved1, reserved2, reserved3, reserved4, reserved5, reserved6, keep_local, keep_local_status FROM container;
+- (void)EGER NOT NULL DEFAULT 0, workout_template_id INTEGER NOT NULL DEFAULT 0, is_hidden INTEGER NOT NULL DEFAULT 0, is_ignorable_itunes_playlist INTEGER NOT NULL DEFAULT 0, description TEXT, play_count_user INTEGER NOT NULL DEFAULT 0, play_count_recent INTEGER NOT NULL DEFAULT 0, liked_state INTEGER NOT NULL DEFAULT 0, smart_evaluation_order INTEGER NOT NULL DEFAULT 0, smart_is_folder INTEGER NOT NULL DEFAULT 0, smart_is_dynamic INTEGER NOT NULL DEFAULT 0, smart_is_filtered INTEGER NOT NULL DEFAULT 0, smart_is_genius INTEGER NOT NULL DEFAULT 0, smart_enabled_only INTEGER NOT NULL DEFAULT 0, smart_is_limited INTEGER NOT NULL DEFAULT 0, smart_limit_kind INTEGER NOT NULL DEFAULT 0, smart_limit_order INTEGER NOT NULL DEFAULT 0, smart_limit_value INTEGER NOT NULL DEFAULT 0, smart_reverse_limit_order INTEGER NOT NULL DEFAULT 0, smart_criteria BLOB, play_order INTEGER NOT NULL DEFAULT 0, is_reversed INTEGER NOT NULL DEFAULT 0, album_field_order INTEGER NOT NULL DEFAULT 0, repeat_mode INTEGER NOT NULL DEFAULT 0, shuffle_items INTEGER NOT NULL DEFAULT 0, has_been_shuffled INTEGER NOT NULL DEFAULT 0, filepath TEXT NOT NULL DEFAULT '', is_saveable INTEGER NOT NULL DEFAULT 0, is_src_remote INTEGER NOT NULL DEFAULT 0, is_ignored_syncing INTEGER NOT NULL DEFAULT 0, container_type INTEGER NOT NULL DEFAULT 0, is_container_type_active_target INTEGER NOT NULL DEFAULT 0, orig_date_modified INTEGER  NOT NULL DEFAULT 0, store_cloud_id INTEGER NOT NULL DEFAULT 0, has_cloud_play_order INTEGER NOT NULL DEFAULT 0, cloud_global_id TEXT NOT NULL DEFAULT '', reserved1 INTEGER NOT NULL DEFAULT 0, reserved2 TEXT NOT NULL DEFAULT '', reserved3 INTEGER NOT NULL DEFAULT 0, reserved4 INTEGER NOT NULL DEFAULT 0, reserved5 INTEGER NOT NULL DEFAULT 0, reserved6 TEXT NOT NULL DEFAULT '', keep_local INTEGER NOT NULL DEFAULT 0, keep_local_status INTEGER NOT NULL DEFAULT 0);
+- (void)NULL DEFAULT 0, contained_media_type INTEGER NOT NULL DEFAULT 0, workout_template_id INTEGER NOT NULL DEFAULT 0, is_hidden INTEGER NOT NULL DEFAULT 0, is_ignorable_itunes_playlist INTEGER NOT NULL DEFAULT 0, description TEXT, play_count_user INTEGER NOT NULL DEFAULT 0, play_count_recent INTEGER NOT NULL DEFAULT 0, liked_state INTEGER NOT NULL DEFAULT 0, smart_evaluation_order INTEGER NOT NULL DEFAULT 0, smart_is_folder INTEGER NOT NULL DEFAULT 0, smart_is_dynamic INTEGER NOT NULL DEFAULT 0, smart_is_filtered INTEGER NOT NULL DEFAULT 0, smart_is_genius INTEGER NOT NULL DEFAULT 0, smart_enabled_only INTEGER NOT NULL DEFAULT 0, smart_is_limited INTEGER NOT NULL DEFAULT 0, smart_limit_kind INTEGER NOT NULL DEFAULT 0, smart_limit_order INTEGER NOT NULL DEFAULT 0, smart_limit_value INTEGER NOT NULL DEFAULT 0, smart_reverse_limit_order INTEGER NOT NULL DEFAULT 0, smart_criteria BLOB, play_order INTEGER NOT NULL DEFAULT 0, is_reversed INTEGER NOT NULL DEFAULT 0, album_field_order INTEGER NOT NULL DEFAULT 0, repeat_mode INTEGER NOT NULL DEFAULT 0, shuffle_items INTEGER NOT NULL DEFAULT 0, has_been_shuffled INTEGER NOT NULL DEFAULT 0, filepath TEXT NOT NULL DEFAULT '', is_saveable INTEGER NOT NULL DEFAULT 0, is_src_remote INTEGER NOT NULL DEFAULT 0, is_ignored_syncing INTEGER NOT NULL DEFAULT 0, container_type INTEGER NOT NULL DEFAULT 0, is_container_type_active_target INTEGER NOT NULL DEFAULT 0, orig_date_modified INTEGER  NOT NULL DEFAULT 0, store_cloud_id INTEGER NOT NULL DEFAULT 0, has_cloud_play_order INTEGER NOT NULL DEFAULT 0, cloud_global_id TEXT NOT NULL DEFAULT '', reserved1 INTEGER NOT NULL DEFAULT 0, reserved2 TEXT NOT NULL DEFAULT '', reserved3 INTEGER NOT NULL DEFAULT 0, reserved4 INTEGER NOT NULL DEFAULT 0, reserved5 INTEGER NOT NULL DEFAULT 0, reserved6 TEXT NOT NULL DEFAULT '', keep_local INTEGER NOT NULL DEFAULT 0, keep_local_status INTEGER NOT NULL DEFAULT 0);
+- (void)ER NOT NULL DEFAULT 0, parent_pid INTEGER NOT NULL DEFAULT 0, contained_media_type INTEGER NOT NULL DEFAULT 0, workout_template_id INTEGER NOT NULL DEFAULT 0, is_hidden INTEGER NOT NULL DEFAULT 0, is_ignorable_itunes_playlist INTEGER NOT NULL DEFAULT 0, description TEXT, play_count_user INTEGER NOT NULL DEFAULT 0, play_count_recent INTEGER NOT NULL DEFAULT 0, liked_state INTEGER NOT NULL DEFAULT 0, smart_evaluation_order INTEGER NOT NULL DEFAULT 0, smart_is_folder INTEGER NOT NULL DEFAULT 0, smart_is_dynamic INTEGER NOT NULL DEFAULT 0, smart_is_filtered INTEGER NOT NULL DEFAULT 0, smart_is_genius INTEGER NOT NULL DEFAULT 0, smart_enabled_only INTEGER NOT NULL DEFAULT 0, smart_is_limited INTEGER NOT NULL DEFAULT 0, smart_limit_kind INTEGER NOT NULL DEFAULT 0, smart_limit_order INTEGER NOT NULL DEFAULT 0, smart_limit_value INTEGER NOT NULL DEFAULT 0, smart_reverse_limit_order INTEGER NOT NULL DEFAULT 0, smart_criteria BLOB, play_order INTEGER NOT NULL DEFAULT 0, is_reversed INTEGER NOT NULL DEFAULT 0, album_field_order INTEGER NOT NULL DEFAULT 0, repeat_mode INTEGER NOT NULL DEFAULT 0, shuffle_items INTEGER NOT NULL DEFAULT 0, has_been_shuffled INTEGER NOT NULL DEFAULT 0, filepath TEXT NOT NULL DEFAULT '', is_saveable INTEGER NOT NULL DEFAULT 0, is_src_remote INTEGER NOT NULL DEFAULT 0, is_ignored_syncing INTEGER NOT NULL DEFAULT 0, container_type INTEGER NOT NULL DEFAULT 0, is_container_type_active_target INTEGER NOT NULL DEFAULT 0, orig_date_modified INTEGER  NOT NULL DEFAULT 0, store_cloud_id INTEGER NOT NULL DEFAULT 0, has_cloud_play_order INTEGER NOT NULL DEFAULT 0, cloud_global_id TEXT NOT NULL DEFAULT '', reserved1 INTEGER NOT NULL DEFAULT 0, reserved2 TEXT NOT NULL DEFAULT '', reserved3 INTEGER NOT NULL DEFAULT 0, reserved4 INTEGER NOT NULL DEFAULT 0, reserved5 INTEGER NOT NULL DEFAULT 0, reserved6 TEXT NOT NULL DEFAULT '', keep_local INTEGER NOT NULL DEFAULT 0, keep_local_status INTEGER NOT NULL DEFAULT 0);
+- (void)r INTEGER NOT NULL DEFAULT 1, is_editable INTEGER NOT NULL DEFAULT 0, parent_pid INTEGER NOT NULL DEFAULT 0, contained_media_type INTEGER NOT NULL DEFAULT 0, workout_template_id INTEGER NOT NULL DEFAULT 0, is_hidden INTEGER NOT NULL DEFAULT 0, is_ignorable_itunes_playlist INTEGER NOT NULL DEFAULT 0, description TEXT, play_count_user INTEGER NOT NULL DEFAULT 0, play_count_recent INTEGER NOT NULL DEFAULT 0, liked_state INTEGER NOT NULL DEFAULT 0, smart_evaluation_order INTEGER NOT NULL DEFAULT 0, smart_is_folder INTEGER NOT NULL DEFAULT 0, smart_is_dynamic INTEGER NOT NULL DEFAULT 0, smart_is_filtered INTEGER NOT NULL DEFAULT 0, smart_is_genius INTEGER NOT NULL DEFAULT 0, smart_enabled_only INTEGER NOT NULL DEFAULT 0, smart_is_limited INTEGER NOT NULL DEFAULT 0, smart_limit_kind INTEGER NOT NULL DEFAULT 0, smart_limit_order INTEGER NOT NULL DEFAULT 0, smart_limit_value INTEGER NOT NULL DEFAULT 0, smart_reverse_limit_order INTEGER NOT NULL DEFAULT 0, smart_criteria BLOB, play_order INTEGER NOT NULL DEFAULT 0, is_reversed INTEGER NOT NULL DEFAULT 0, album_field_order INTEGER NOT NULL DEFAULT 0, repeat_mode INTEGER NOT NULL DEFAULT 0, shuffle_items INTEGER NOT NULL DEFAULT 0, has_been_shuffled INTEGER NOT NULL DEFAULT 0, filepath TEXT NOT NULL DEFAULT '', is_saveable INTEGER NOT NULL DEFAULT 0, is_src_remote INTEGER NOT NULL DEFAULT 0, is_ignored_syncing INTEGER NOT NULL DEFAULT 0, container_type INTEGER NOT NULL DEFAULT 0, is_container_type_active_target INTEGER NOT NULL DEFAULT 0, orig_date_modified INTEGER  NOT NULL DEFAULT 0, store_cloud_id INTEGER NOT NULL DEFAULT 0, has_cloud_play_order INTEGER NOT NULL DEFAULT 0, cloud_global_id TEXT NOT NULL DEFAULT '', reserved1 INTEGER NOT NULL DEFAULT 0, reserved2 TEXT NOT NULL DEFAULT '', reserved3 INTEGER NOT NULL DEFAULT 0, reserved4 INTEGER NOT NULL DEFAULT 0, reserved5 INTEGER NOT NULL DEFAULT 0, reserved6 TEXT NOT NULL DEFAULT '', keep_local INTEGER NOT NULL DEFAULT 0, keep_local_status INTEGER NOT NULL DEFAULT 0);
+- (void)EGER NOT NULL DEFAULT 0, date_modified INTEGER NOT NULL DEFAULT 0, name TEXT NOT NULL DEFAULT '', name_order INTEGER NOT NULL DEFAULT 0, is_owner INTEGER NOT NULL DEFAULT 1, is_editable INTEGER NOT NULL DEFAULT 0, parent_pid INTEGER NOT NULL DEFAULT 0, contained_media_type INTEGER NOT NULL DEFAULT 0, workout_template_id INTEGER NOT NULL DEFAULT 0, is_hidden INTEGER NOT NULL DEFAULT 0, is_ignorable_itunes_playlist INTEGER NOT NULL DEFAULT 0, description TEXT, play_count_user INTEGER NOT NULL DEFAULT 0, play_count_recent INTEGER NOT NULL DEFAULT 0, liked_state INTEGER NOT NULL DEFAULT 0, smart_evaluation_order INTEGER NOT NULL DEFAULT 0, smart_is_folder INTEGER NOT NULL DEFAULT 0, smart_is_dynamic INTEGER NOT NULL DEFAULT 0, smart_is_filtered INTEGER NOT NULL DEFAULT 0, smart_is_genius INTEGER NOT NULL DEFAULT 0, smart_enabled_only INTEGER NOT NULL DEFAULT 0, smart_is_limited INTEGER NOT NULL DEFAULT 0, smart_limit_kind INTEGER NOT NULL DEFAULT 0, smart_limit_order INTEGER NOT NULL DEFAULT 0, smart_limit_value INTEGER NOT NULL DEFAULT 0, smart_reverse_limit_order INTEGER NOT NULL DEFAULT 0, smart_criteria BLOB, play_order INTEGER NOT NULL DEFAULT 0, is_reversed INTEGER NOT NULL DEFAULT 0, album_field_order INTEGER NOT NULL DEFAULT 0, repeat_mode INTEGER NOT NULL DEFAULT 0, shuffle_items INTEGER NOT NULL DEFAULT 0, has_been_shuffled INTEGER NOT NULL DEFAULT 0, filepath TEXT NOT NULL DEFAULT '', is_saveable INTEGER NOT NULL DEFAULT 0, is_src_remote INTEGER NOT NULL DEFAULT 0, is_ignored_syncing INTEGER NOT NULL DEFAULT 0, container_type INTEGER NOT NULL DEFAULT 0, is_container_type_active_target INTEGER NOT NULL DEFAULT 0, orig_date_modified INTEGER  NOT NULL DEFAULT 0, store_cloud_id INTEGER NOT NULL DEFAULT 0, has_cloud_play_order INTEGER NOT NULL DEFAULT 0, cloud_global_id TEXT NOT NULL DEFAULT '', reserved1 INTEGER NOT NULL DEFAULT 0, reserved2 TEXT NOT NULL DEFAULT '', reserved3 INTEGER NOT NULL DEFAULT 0, reserved4 INTEGER NOT NULL DEFAULT 0, reserved5 INTEGER NOT NULL DEFAULT 0, reserved6 TEXT NOT NULL DEFAULT '', keep_local INTEGER NOT NULL DEFAULT 0, keep_local_status INTEGER NOT NULL DEFAULT 0);
+- (void)O local_playback_event_new (id, item_pid, store_item_id, date_played) SELECT id, item_pid, store_item_pid, date_played FROM local_playback_event;
+- (void)R NOT NULL DEFAULT 0);
+- (id)ER NOT NULL DEFAULT 0, purchase_history_id INTEGER NOT NULL DEFAULT 0, purchase_history_token INTEGER NOT NULL DEFAULT 0, purchase_history_redownload_params TEXT, store_saga_id INTEGER NOT NULL DEFAULT 0, match_redownload_params TEXT, cloud_status INTEGER NOT NULL DEFAULT 0, sync_id INTEGER NOT NULL DEFAULT 0, home_sharing_id INTEGER NOT NULL DEFAULT 0, is_ota_purchased INTEGER NOT NULL DEFAULT 0, store_kind INTEGER NOT NULL DEFAULT 0, account_id INTEGER NOT NULL DEFAULT 0, downloader_account_id INTEGER NOT NULL DEFAULT 0, family_account_id INTEGER NOT NULL DEFAULT 0, is_protected INTEGER NOT NULL DEFAULT 0, key_versions INTEGER NOT NULL DEFAULT 0, key_platform_id INTEGER NOT NULL DEFAULT 0, key_id INTEGER NOT NULL DEFAULT 0, key_id_2 INTEGER NOT NULL DEFAULT 0, date_purchased INTEGER NOT NULL DEFAULT 0, date_released INTEGER NOT NULL DEFAULT 0, external_guid TEXT, feed_url TEXT, artwork_url TEXT, store_xid TEXT, store_flavor TEXT, store_matched_status INTEGER NOT NULL DEFAULT 0, store_redownloaded_status INTEGER NOT NULL DEFAULT 0, store_link_id INTEGER NOT NULL DEFAULT 0, reserved TEXT NOT NULL DEFAULT '', vpp_is_licensed INTEGER NOT NULL DEFAULT 0, vpp_org_id INTEGER NOT NULL DEFAULT 0, vpp_org_name TEXT NOT NULL DEFAULT '');
+- (id)T NULL DEFAULT 0, storefront_id INTEGER NOT NULL DEFAULT 0, purchase_history_id INTEGER NOT NULL DEFAULT 0, purchase_history_token INTEGER NOT NULL DEFAULT 0, purchase_history_redownload_params TEXT, store_saga_id INTEGER NOT NULL DEFAULT 0, match_redownload_params TEXT, cloud_status INTEGER NOT NULL DEFAULT 0, sync_id INTEGER NOT NULL DEFAULT 0, home_sharing_id INTEGER NOT NULL DEFAULT 0, is_ota_purchased INTEGER NOT NULL DEFAULT 0, store_kind INTEGER NOT NULL DEFAULT 0, account_id INTEGER NOT NULL DEFAULT 0, downloader_account_id INTEGER NOT NULL DEFAULT 0, family_account_id INTEGER NOT NULL DEFAULT 0, is_protected INTEGER NOT NULL DEFAULT 0, key_versions INTEGER NOT NULL DEFAULT 0, key_platform_id INTEGER NOT NULL DEFAULT 0, key_id INTEGER NOT NULL DEFAULT 0, key_id_2 INTEGER NOT NULL DEFAULT 0, date_purchased INTEGER NOT NULL DEFAULT 0, date_released INTEGER NOT NULL DEFAULT 0, external_guid TEXT, feed_url TEXT, artwork_url TEXT, store_xid TEXT, store_flavor TEXT, store_matched_status INTEGER NOT NULL DEFAULT 0, store_redownloaded_status INTEGER NOT NULL DEFAULT 0, store_link_id INTEGER NOT NULL DEFAULT 0, reserved TEXT NOT NULL DEFAULT '', vpp_is_licensed INTEGER NOT NULL DEFAULT 0, vpp_org_id INTEGER NOT NULL DEFAULT 0, vpp_org_name TEXT NOT NULL DEFAULT '');
+- (id)ROM item;
+- (id)version;
+- (id)tegory_id, location_kind_id, version, display_version FROM item_extra;
+- (long long)_time_ms, year, location, file_size, integrity, is_compilation, is_audible_audio_book, date_created, date_modified, media_kind, content_rating, content_rating_level, is_user_disabled, bpm, genius_id, comment, grouping, description, description_long, collection_description, copyright, pending_genius_checksum, category_id, location_kind_id, version, display_version FROM item_extra;
+- (id)tist, sort_album_artist, grouping_key, cloud_status, artist_artwork_token, representative_item_pid, representative_item_artwork_token, keep_local, keep_local_status) SELECT album_artist_pid, album_artist, sort_album_artist, grouping_key, cloud_status, artist_artwork_cache_id, representative_item_pid, artwork_cache_id, keep_local, keep_local_status FROM album_artist;
+- (id)NULL DEFAULT 0, disc_number INTEGER DEFAULT 0, track_number INTEGER DEFAULT 0, episode_sort_id INTEGER DEFAULT 0, base_location_id INTEGER NOT NULL DEFAULT 0, remote_location_id INTEGER NOT NULL DEFAULT 0, exclude_from_shuffle INTEGER NOT NULL DEFAULT 0, is_video INTEGER NOT NULL DEFAULT 0, is_podcast INTEGER NOT NULL DEFAULT 0, is_itunes_u INTEGER NOT NULL DEFAULT 0;
+- (id)SRC_STRIDE;
+- (void)(0.04f, pbr.NoVClearCoat).r * surface.clearCoat;
+        float attenuation = 1.0f - Fc;
+        specular *= (attenuation * attenuation);
+        
+        specular += LD * environmentIntensity * pbr.probeReflectanceClearCoat * surface.clearCoat;
+    }
+#endif
+    
+    
+
+    void add_irradiance_from_selfIllum()
+    {
+        float selfIlluminationAO = saturate(mix(1.f, surface.ambientOcclusion, pbr.selfIlluminationOcclusion));
+        float3 irradiance = surface.selfIllumination.rgb;
+        
+        float3 diffuseAlbedo = mix(pbr.albedo, float3(0.0), surface.metalness);
+#ifdef USE_PBR_LAMBERTIAN_REFLECTION
+        pbr.envDiffuse += selfIlluminationAO * irradiance * diffuseAlbedo;
+#else
+        float3 diffuseReflectance = diffuseAlbedo * (pbr.diffuseHammonFactors.x + diffuseAlbedo * pbr.diffuseHammonFactors.y);
+        pbr.envDiffuse += selfIlluminationAO * irradiance * diffuseReflectance;
+#endif
+    }
+
+    void add_global_irradiance_from_sh(float4x4         localDirToWorldCubemapDir,
+#if defined(USE_PROBES_LIGHTING) && (USE_PROBES_LIGHTING == 2)
+                                       sh2_coefficients shCoefficients)
+#else
+    sh3_coefficients shCoefficients)
+#endif
+    {
+        float3 n_sh_space = scn:(id)arg1:mat4_mult_float3(localDirToWorldCubemapDir, surface.normal);
+        float3 irradiance = shEvalDirection(float4(n_sh_space, 1.), shCoefficients);
+        
+        float3 diffuseAlbedo = mix(pbr.albedo, float3(0.0), surface.metalness);
+#ifdef USE_PBR_LAMBERTIAN_REFLECTION
+        pbr.envDiffuse += surface.ambientOcclusion * irradiance * diffuseAlbedo;
+#else
+        float3 diffuseReflectance = diffuseAlbedo * (pbr.diffuseHammonFactors.x + diffuseAlbedo * pbr.diffuseHammonFactors.y);
+        pbr.envDiffuse += surface.ambientOcclusion * irradiance * diffuseReflectance;
+#endif
+    }
+
+    void add_global_irradiance_probe(texturecube<float, access::sample> irradianceTexture,
+                                     float4x4                           localDirToWorldCubemapDir,
+                                     float                              environmentIntensity)
+    {
+#if USE_PBR_DOMINANT_DIRECTION
+        float3 n = surface.normal;
+        float3 v = surface.view;
+        
+        
+        const half a = 1.02341h * surface.roughness - 1.51174h; 
+        const half b = -0.511705h * surface.roughness + 0.755868h;
+        const half diffuseBendFactor = saturate((pbr.NoV * a + b) * surface.roughness);
+        float3 diffuseDominantNDirection = mix(n, v, diffuseBendFactor);
+#else
+        float3 diffuseDominantNDirection = n;
+#endif
+        
+        float3 n_cube_space = scn::mat4_mult_float3(localDirToWorldCubemapDir, diffuseDominantNDirection);
+        float3 irradiance = irradianceTexture.sample(scn::linearSampler, n_cube_space).rgb;
+        
+        float3 diffuseAlbedo = mix(pbr.albedo, float3(0.0), surface.metalness);
+#ifdef USE_PBR_LAMBERTIAN_REFLECTION
+        pbr.envDiffuse += (surface.ambientOcclusion * environmentIntensity) * irradiance * diffuseAlbedo;
+#else
+        float3 diffuseReflectance = diffuseAlbedo * (pbr.diffuseHammonFactors.x + diffuseAlbedo * pbr.diffuseHammonFactors.y);
+        pbr.envDiffuse += (surface.ambientOcclusion * environmentIntensity) * irradiance * diffuseReflectance;
+#endif
+    }
+
+#endif 
+
+    
+
+    static constexpr sampler iesSampler = sampler(filter::linear, mip_filter::none, address::clamp_to_edge);
+    
+    float ies_attenuation(float3 l, scn_light light, texture2d<half> iesTexture)
+    {
+#if USE_QUAT_FOR_IES
+        float3 v    = scn::quaternion_rotate_vector(light.parameters.ies.light_from_view_quat, -l);
+#else
+        float3 v    = scn::matrix_rotate(light.parameters.ies.light_from_view, -l);
+#endif
+        float phi   = (v.z * light.parameters.ies.scaleBias.x + light.parameters.ies.scaleBias.y);
+        float theta = atan2(v.y, v.x) * 0.5f * M_1_PI_F;
+        return iesTexture.sample(iesSampler, float2(phi, abs(theta))).r;
+    }
+
+    void add_ies(scn_light light, texture2d<half> iesTexture)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        float intensity = dist_attenuation(unnormalized_l, light);
+        intensity      *= ies_attenuation(l, light, iesTexture);
+        shade(l, light.color.rgb, intensity);
+    }
+
+    void add_ies(scn_light light, texture2d<half> iesTexture, depth2d<float> shadowMap, constant float4* shadowKernel, int sampleCount)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        float intensity = dist_attenuation(unnormalized_l, light);
+        intensity      *= ies_attenuation(l, light, iesTexture);
+        intensity      *= shadow(surface.position, light, shadowMap, shadowKernel, sampleCount);
+        shade(l, light.color.rgb, intensity);
+    }
+
+    
+
+    void add_area_rectangle(scn_light light, texture2d_array<float> bakedDataTexture)
+    {
+#ifdef USE_PBR
+        float3 v = surface.view;
+        float3 n = surface.normal;
+        float3 p = surface.position;
+
+        
+        float3 tangent = normalize(v - n * dot(v, n));
+        float3 bitangent = cross(n, tangent);
+        float3x3 shadingSpaceTransform = transpose(float3x3(tangent, n, bitangent));
+
+        float3 lightCenter = light.shadowMatrix[3].xyz;
+        
+        
+        float sidedness = dot(light.dir, lightCenter - p);
+        if (light.parameters.area.rectangle.doubleSided == false && sidedness <= 0.f)
+            return;
+        
+        float3 lightRight = light.shadowMatrix[0].xyz * light.parameters.area.rectangle.halfExtents.x * sign(sidedness);
+        float3 lightTop   = light.shadowMatrix[1].xyz * light.parameters.area.rectangle.halfExtents.y;
+        
+        float4x3 cornerDirections = float4x3((lightCenter + lightRight + lightTop) - p,
+                                             (lightCenter + lightRight - lightTop) - p,
+                                             (lightCenter - lightRight - lightTop) - p,
+                                             (lightCenter - lightRight + lightTop) - p);
+
+        cornerDirections[0] = shadingSpaceTransform * cornerDirections[0];
+        cornerDirections[1] = shadingSpaceTransform * cornerDirections[1];
+        cornerDirections[2] = shadingSpaceTransform * cornerDirections[2];
+        cornerDirections[3] = shadingSpaceTransform * cornerDirections[3];
+
+        float diffuseAmount = pbr_area_light_eval_rectangle(cornerDirections);
+
+        float brdfNorm = 1.f;
+        float3x3 inverseLTCMatrix = scn_sample_area_light_precomputed_data(v, n, surface.roughness, &brdfNorm, bakedDataTexture);
+
+        cornerDirections[0] = inverseLTCMatrix * cornerDirections[0];
+        cornerDirections[1] = inverseLTCMatrix * cornerDirections[1];
+        cornerDirections[2] = inverseLTCMatrix * cornerDirections[2];
+        cornerDirections[3] = inverseLTCMatrix * cornerDirections[3];
+
+        float specularAmount = brdfNorm * pbr_area_light_eval_rectangle(cornerDirections);
+
+        float3 effectiveAlbedo = mix(float3(1.0), float3(0.0), surface.metalness); 
+        
+        float3 lightColor = light.color.rgb;
+        diffuse  += diffuseAmount * lightColor * effectiveAlbedo;
+        specular += specularAmount * lightColor * pbr.reflectance;
+#endif
+    }
+
+    void add_area_polygon(scn_light light, texture2d_array<float> bakedDataTexture, device packed_float2 *vertexPositions)
+    {
+#ifdef USE_PBR
+        float3 v = surface.view;
+        float3 n = surface.normal;
+        float3 p = surface.position;
+
+        
+        float3 tangent = normalize(v - n * dot(v, n));
+        float3 bitangent = cross(n, tangent);
+        float3x3 shadingSpaceTransform = transpose(float3x3(tangent, n, bitangent));
+
+        float3 lightCenter = light.shadowMatrix[3].xyz;
+        
+        
+        float sidedness = dot(light.dir, lightCenter - p);
+        if (light.parameters.area.polygon.doubleSided == false && sidedness <= 0.f)
+            return;
+        
+        float3 lightRight = light.shadowMatrix[0].xyz * sign(sidedness);
+        float3 lightTop   = light.shadowMatrix[1].xyz;
+
+        p           = shadingSpaceTransform * p;
+        lightCenter = shadingSpaceTransform * lightCenter;
+        lightRight  = shadingSpaceTransform * lightRight;
+        lightTop    = shadingSpaceTransform * lightTop;
+
+        float diffuseAmount = pbr_area_light_eval_polygon(p, lightCenter, lightRight, lightTop, light.parameters.area.polygon.vertexCount, vertexPositions);
+
+        float brdfNorm = 1.f;
+        float3x3 inverseLTCMatrix = scn_sample_area_light_precomputed_data(v, n, surface.roughness, &brdfNorm, bakedDataTexture);
+
+        p           = inverseLTCMatrix * p;
+        lightCenter = inverseLTCMatrix * lightCenter;
+        lightRight  = inverseLTCMatrix * lightRight;
+        lightTop    = inverseLTCMatrix * lightTop;
+
+        float specularAmount = brdfNorm * pbr_area_light_eval_polygon(p, lightCenter, lightRight, lightTop, light.parameters.area.polygon.vertexCount, vertexPositions);
+        
+        float3 effectiveAlbedo = mix(float3(1.0), float3(0.0), surface.metalness); 
+
+        float3 lightColor = light.color.rgb;
+        diffuse  += diffuseAmount * lightColor * effectiveAlbedo;
+        specular += specularAmount * lightColor * pbr.reflectance;
+#endif
+    }
+
+    void add_area_line(scn_light light, texture2d_array<float> bakedDataTexture)
+    {
+#ifdef USE_PBR
+        float3 v = surface.view;
+        float3 n = surface.normal;
+        float3 p = surface.position;
+
+        
+        float3 tangent = normalize(v - n * dot(v, n));
+        float3 bitangent = cross(n, tangent);
+        float3x3 shadingSpaceTransform = transpose(float3x3(tangent, n, bitangent));
+
+        float3 lightCenter = light.shadowMatrix[3].xyz;
+        float3 lightRight  = light.shadowMatrix[0].xyz * light.parameters.area.line.halfLength;
+
+        float2x3 cornerDirections = float2x3((lightCenter + lightRight) - p,
+                                             (lightCenter - lightRight) - p);
+
+        cornerDirections[0] = shadingSpaceTransform * cornerDirections[0];
+        cornerDirections[1] = shadingSpaceTransform * cornerDirections[1];
+
+        float diffuseAmount = pbr_area_light_eval_line(cornerDirections);
+
+        float brdfNorm = 1.f;
+        float3x3 inverseLTCMatrix = scn_sample_area_light_precomputed_data(v, n, surface.roughness, &brdfNorm, bakedDataTexture);
+
+        cornerDirections[0] = inverseLTCMatrix * cornerDirections[0];
+        cornerDirections[1] = inverseLTCMatrix * cornerDirections[1];
+
+        float specularAmount = brdfNorm * pbr_area_light_eval_line(cornerDirections);
+
+        float3 ortho = normalize(cross(cornerDirections[0], cornerDirections[1]));
+        float ltcWidthFactor = 1.0 / length(scn_ltc_matrix_invert_transpose(inverseLTCMatrix) * ortho);
+        specularAmount *= ltcWidthFactor;
+        
+        float3 effectiveAlbedo = mix(float3(1.0), float3(0.0), surface.metalness); 
+
+        float3 lightColor = light.color.rgb;
+        diffuse  += diffuseAmount * lightColor * effectiveAlbedo;
+        specular += specularAmount * lightColor * pbr.reflectance;
+#endif
+    }
+
+    void add_area_ellipse(scn_light light, texture2d_array<float> bakedDataTexture)
+    {
+#ifdef USE_PBR
+#endif
+    }
+
+    void add_area_ellipsoid(scn_light light, texture2d_array<float> bakedDataTexture)
+    {
+#ifdef USE_PBR
+#endif
+    }
+};
+
+#endif 
+ /* Error: Ran out of types for this method. */;
+- (id)ensity); break;
+#endif
+            case SCNLightingModelCustom:custom(l, color, intensity);  break;
+            default:break; 
+        }
+#endif
+    }
+
+    
+    
+    
+    float pbr_dist_attenuation_alternate(float3 l, float cutoff) {
+        
+        float radius = 0.1f; 
+        float factor = 1.f / (1.f + length(l)/radius);
+        float attenuation = saturate(factor * factor); 
+        return saturate((attenuation - cutoff) / (1.f - cutoff));
+    }
+
+    float pbr_dist_attenuation(float3 l, float inv_square_radius) {
+        float sqr_dist = length_squared(l);
+        float atten = 1.f / max(sqr_dist, 0.0001f);
+
+        
+        float factor = saturate(1.f - scn::sq(sqr_dist * inv_square_radius));
+        return atten * factor * factor;
+    }
+
+    float non_pbr_dist_attenuation(float3 l, float4 att)
+    {
+        return powr(saturate(length(l) * att.x + att.y), att.z);
+    }
+
+    float dist_attenuation(float3 unnormalized_l, scn_light light)
+    {
+#ifdef USE_PBR
+        return 1000.f * pbr_dist_attenuation(unnormalized_l, light.parameters.omni.attenuationFactors.w);
+        
+        
+#else
+#ifdef USE_SHADOWONLY
+        return 1.f;
+#endif
+        return non_pbr_dist_attenuation(unnormalized_l, light.parameters.omni.attenuationFactors);
+#endif
+    }
+
+    float spot_attenuation(float3 l, scn_light light)
+    {
+#ifdef USE_SHADOWONLY
+        return 1.f;
+#endif
+        
+        return saturate(dot(l, light.dir) * light.parameters.spot.scaleBias.x + light.parameters.spot.scaleBias.y);
+    }
+
+    void shade_modulate(float3 l, float4 color, float intensity)
+    {
+        constexpr half3 white = half3(1.h);
+        
+        modulate *= float3(mix(white, half3(color.rgb), half(color.a * intensity)));
+    }
+
+    float3 gobo(float3 pos, scn_light light, texture2d<half> goboTexture, sampler goboSampler)
+    {
+        half3 g = texture2DProj(goboTexture, goboSampler, (light.shadowMatrix * float4(pos, 1.f))).rgb;
+        return light.color.rgb * float3(mix(1.h, g, half(light.color.a)));
+    }
+
+    float shadow(float3 pos, scn_light light, depth2d<float> shadowMap)
+    {
+        float shadow = ComputeShadow(scn_shadow_sampler, pos, light.shadowMatrix, shadowMap, reverseZ);
+        return 1.f - shadow * light.color.a; 
+    }
+
+    
+    float shadow(float3 pos, scn_light light, depth2d<float> shadowMap, constant float4* shadowKernel)
+    {
+        float shadow = ComputeSoftShadow(scn_shadow_sampler, pos, light.shadowMatrix, shadowMap, shadowKernel, light.shadowSampleCount, light.shadowRadius, reverseZ);
+        return 1.f - shadow * light.color.a; 
+    }
+
+    float shadow(float3 pos, scn_light light, depth2d<float> shadowMap, constant float4* shadowKernel, int shadowSampleCount)
+    {
+        float shadow = ComputeSoftShadow(scn_shadow_sampler, pos, light.shadowMatrix, shadowMap, shadowKernel, shadowSampleCount, light.shadowRadius, reverseZ);
+        return 1.f - shadow * light.color.a; 
+    }
+
+    float shadow(float3 pos, scn_light light, depth2d<float> shadowMap, int shadowSampleCount)
+    {
+        float shadow = ComputeSoftShadowGrid(scn_shadow_sampler, pos, light.shadowMatrix, shadowMap, shadowSampleCount, reverseZ);
+        return 1.f - shadow * light.color.a; 
+    }
+
+    float shadow_omni(float3 pos_vs, float3 nrm_vs, scn_light light, depthcube<float> shadowMap, constant float4* shadowKernel, int sampleCount)
+    {
+        
+#define USE_TANGENT_SAMPLING 0
+
+        float2 scaleBias = light.parameters.omni.shadowScaleBias.xy;
+        float  depthBias = light.parameters.omni.shadowScaleBias.z;
+
+        
+        pos_vs += nrm_vs * depthBias;
+
+        
+        float3 pos_ls = (light.shadowMatrix * float4(pos_vs, 1.f)).xyz;
+
+        
+        float z_lin = scn::reduce_max(abs(pos_ls));
+
+        
+        
+        
+
+        
+        float z_ndc = (z_lin * scaleBias.x + scaleBias.y) / z_lin - depthBias;
+
+        
+        float shadow;
+        if (sampleCount <= 1) {
+            shadow = shadowMap.sample_compare(scn_shadow_sampler, pos_ls.xyz, z_ndc);
+        } else {
+            
+            float filteringSizeFactor = light.shadowRadius;
+
+#if USE_TANGENT_SAMPLING
+            float3 tgt_x, tgt_y;
+            scn::orthogonal_basis(pos_ls, tgt_x, tgt_y);
+#else
+            float3 nrm_ls = (light.shadowMatrix * float4(nrm_vs, 0.f)).xyz;
+#endif
+
+            
+            float totalAccum = 0.0;
+            for(int i=0; i < sampleCount; i++){
+
+#if USE_TANGENT_SAMPLING
+                float2 scale = shadowKernel[i].xy * filteringSizeFactor * 2.f;
+                float3 smp_ls = pos_ls.xyz + tgt_x * scale.x + tgt_y * scale.y;
+#else
+                float3 smp_ls = pos_ls.xyz + scn::randomHemisphereDir(nrm_ls, shadowKernel[i].xy) * filteringSizeFactor;
+#endif
+
+                
+                
+                
+
+                totalAccum += shadowMap.sample_compare(scn_shadow_sampler, smp_ls, z_ndc);
+            }
+            shadow = totalAccum / float(sampleCount);
+        }
+
+        return 1.f - shadow * light.color.a; 
+    }
+
+    float shadow(float3 pos, constant scn_light& light, depth2d_array<float> shadowMaps, int cascadeCount, bool blendCascade, constant float4* shadowKernel, int sampleCount)
+    {
+        float shadow = ComputeCascadedShadow(scn_shadow_sampler, pos, light.shadowMatrix, light.parameters.directional.cascadeScale, light.parameters.directional.cascadeBias, cascadeCount, shadowMaps, blendCascade, shadowKernel, sampleCount, light.shadowRadius).a;
+        return 1.f - shadow * light.color.a; 
+    }
+
+    
+
+    void add_directional(scn_light light)
+    {
+#ifdef USE_PBR
+        float intensity = M_PI_F;
+#else
+        float intensity = 1.f;
+#endif
+        shade(light.dir, light.color.rgb, intensity);
+    }
+
+    
+    void add_directional(scn_light light, texture2d<half> goboTexture, sampler goboSampler, bool modulated)
+    {
+#ifdef USE_PBR
+        float intensity = M_PI_F;
+#else
+        float intensity = 1.f;
+#endif
+        light.color.rgb = gobo(surface.position, light, goboTexture, goboSampler);
+        if (modulated) {
+            shade_modulate(light.dir, light.color, 1.f);
+        } else {
+            shade(light.dir, light.color.rgb, intensity);
+        }
+    }
+
+    
+    void add_directional(scn_light light, depth2d<float> shadowMap)
+    {
+#ifdef USE_PBR
+        float intensity = M_PI_F;
+#else
+        float intensity = 1.f;
+#endif
+        intensity *= shadow(surface.position, light, shadowMap);
+        shade(light.dir, light.color.rgb, intensity);
+    }
+
+    
+    void add_directional(scn_light light, depth2d<float> shadowMap, constant float4* shadowKernel)
+    {
+#ifdef USE_PBR
+        float intensity = M_PI_F;
+#else
+        float intensity = 1.f;
+#endif
+        intensity *= shadow(surface.position, light, shadowMap, shadowKernel);
+        shade(light.dir, light.color.rgb, intensity);
+    }
+
+    void add_directional(scn_light light, depth2d<float> shadowMap, constant float4* shadowKernel, int sampleCount)
+    {
+#ifdef USE_PBR
+        float intensity = M_PI_F;
+#else
+        float intensity = 1.f;
+#endif
+        intensity *= shadow(surface.position, light, shadowMap, shadowKernel, sampleCount);
+        shade(light.dir, light.color.rgb, intensity);
+    }
+
+    
+    void add_directional(scn_light light, depth2d<float> shadowMap, int sampleCount)
+    {
+#ifdef USE_PBR
+        float intensity = M_PI_F;
+#else
+        float intensity = 1.f;
+#endif
+        intensity *= shadow(surface.position, light, shadowMap, sampleCount);
+        shade(light.dir, light.color.rgb, intensity);
+    }
+
+    
+    void add_directional(constant scn_light& light, depth2d_array<float> shadowMaps, int cascadeCount, bool blendCascade, constant float4* shadowKernel, int sampleCount, bool debugCascades)
+    {
+#ifdef USE_PBR
+        float intensity = M_PI_F;
+#else
+        float intensity = 1.f;
+#endif
+        if (debugCascades) {
+            float4 shadowDebug = ComputeCascadedShadow(scn_shadow_sampler, surface.position, light.shadowMatrix, light.parameters.directional.cascadeScale, light.parameters.directional.cascadeBias, cascadeCount, shadowMaps, blendCascade, shadowKernel, sampleCount, light.shadowRadius);
+            intensity *= (1.f - shadowDebug.a);
+            shade(light.dir, light.color.rgb, intensity);
+            diffuse.rgb = mix(diffuse.rgb, shadowDebug.rgb, light.color.a);
+        } else {
+            intensity *= shadow(surface.position, light, shadowMaps, cascadeCount, blendCascade, shadowKernel, sampleCount);
+            shade(light.dir, light.color.rgb, intensity);
+        }
+    }
+
+    
+
+    void add_omni(scn_light light)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        shade(l, light.color.rgb, dist_attenuation(unnormalized_l, light));
+    }
+
+    void add_omni(scn_light light, depthcube<float> shadowMap, constant float4* shadowKernel, int sampleCount)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        float intensity = dist_attenuation(unnormalized_l, light);
+        intensity *= shadow_omni(surface.position, surface.normal, light, shadowMap, shadowKernel, sampleCount);
+        shade(l, light.color.rgb, intensity);
+    }
+
+    void add_local_omni(scn_light light)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        shade(l, light.color.rgb, dist_attenuation(unnormalized_l, light));
+    }
+
+    
+
+    void add_spot(scn_light light)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        float intensity = dist_attenuation(unnormalized_l, light);
+        intensity      *= spot_attenuation(l, light);
+        shade(l, light.color.rgb, intensity);
+    }
+
+    void add_spot(scn_light light, texture2d<half> goboTexture, sampler goboSampler, bool modulated)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        float intensity = dist_attenuation(unnormalized_l, light);
+        intensity      *= spot_attenuation(l, light);
+        light.color.rgb = gobo(surface.position, light, goboTexture, goboSampler);
+        if (modulated) {
+            shade_modulate(l, light.color, intensity);
+        } else {
+            shade(l, light.color.rgb, intensity);
+        }
+    }
+
+    void add_local_spot(scn_light light)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        float intensity = dist_attenuation(unnormalized_l, light);
+        intensity      *= spot_attenuation(l, light);
+        shade(l, light.color.rgb, intensity);
+    }
+
+    
+    void add_spot(scn_light light, depth2d<float> shadowMap, constant float4* shadowKernel, int sampleCount)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        float intensity = dist_attenuation(unnormalized_l, light);
+        intensity      *= spot_attenuation(l, light);
+        intensity      *= shadow(surface.position, light, shadowMap, shadowKernel, sampleCount);
+        shade(l, light.color.rgb, intensity);
+    }
+    
+    void add_spot(scn_light light, 
+                  depth2d<float> shadowMap, constant float4* shadowKernel, int sampleCount,
+                  texture2d<half> goboTexture, sampler goboSampler)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        float intensity = dist_attenuation(unnormalized_l, light);
+        intensity      *= spot_attenuation(l, light);
+        intensity      *= shadow(surface.position, light, shadowMap, shadowKernel, sampleCount);
+        light.color.rgb = gobo(surface.position, light, goboTexture, goboSampler);
+        shade(l, light.color.rgb, intensity);
+    }
+
+    
+
+#ifdef USE_PBR
+
+    
+
+#ifdef C3D_SUPPORT_CUBE_ARRAY
+    void add_local_probe(scn_light light, texturecube_array<half> probeTextureArray)
+#else
+    void add_local_probe(scn_light light, texture2d_array<half> probeTextureArray)
+#endif
+    {
+#if !PROBES_NORMALIZATION
+        if (probeRadianceRemainingFactor <= 0.f)
+            return;
+#endif
+
+        bool parallaxCorrection = light.parameters.probe.parallaxCorrection;
+        int    probeIndex       = light.parameters.probe.index;
+        float3 probeExtents     = light.parameters.probe.halfExtents.xyz;
+        float  blendDist        = light.parameters.probe.halfExtents.w;
+        float3 probeOffset      = light.parameters.probe.offset;
+        float3 parallaxExtents  = light.parameters.probe.parallaxExtents;
+        float3 parallaxCenter   = light.parameters.probe.parallaxCenter;
+
+        float3 n = surface.normal;
+        float3 v = surface.view;
+        float3 r = reflect(-v, n); 
+
+        float3 specDir = scn::mat4_mult_float3(light.shadowMatrix, r);
+
+        
+        float3 pos_ls = (light.shadowMatrix * float4(surface.position, 1.f)).xyz;
+
+        
+        float3 d = abs(pos_ls) - probeExtents;
+#if PROBES_OUTER_BLENDING
+        if (any(d > blendDist))
+#else
+        if (any(d > 0.f))
+#endif
+        {
+            return;
+        }
+
+#if PROBES_NORMALIZATION
+        
+        
+#if PROBES_OUTER_BLENDING
+        float3 nd = saturate(-(d / blendDist) * 0.5f + 0.5f);
+#else
+        float3 nd = saturate(-(d / blendDist));
+#endif
+        float probeFactor = (nd.x * nd.y * nd.z) * light.color.r;
+#else
+        
+        float sd = min(max(d.x,max(d.y,d.z)),0.0) + length(max(d,0.0));
+#if PROBES_OUTER_BLENDING
+        float probeFactor = saturate(1.f - sd / blendDist);
+#else
+        float probeFactor = saturate(-sd / blendDist);
+#endif
+        
+        
+        
+        probeFactor *= probeRadianceRemainingFactor * light.color.r; 
+#endif
+
+        if (parallaxCorrection ) {
+            
+            float3 pos_off = pos_ls + parallaxCenter;
+            float3 t1 = ( parallaxExtents - pos_off) / specDir;
+            float3 t2 = (-parallaxExtents - pos_off) / specDir;
+            float3 tmax = max(max(0, t1), t2); 
+            float t = min(tmax.x, min(tmax.y, tmax.z));
+
+            
+            float3 hit_ls = pos_ls + specDir * t;
+            specDir = hit_ls - probeOffset;
+        }
+
+        float mipd = float(probeTextureArray.get_num_mip_levels()) - 1.f;
+        const float intensity = surface.ambientOcclusion * probeFactor;
+
+        float mips = surface.roughness * mipd;
+#ifdef C3D_SUPPORT_CUBE_ARRAY
+        float3 LD = float3(probeTextureArray.sample(scn::linearSampler, specDir, probeIndex, level(mips)).rgb);
+#else
+        float2 specUV = scn::dual_paraboloid_from_cartesian(normalize(specDir));
+        float3 LD = float3(probeTextureArray.sample(scn::linearSampler, specUV, probeIndex, level(mips)).rgb);
+#endif
+
+        
+
+        
+#if PROBES_NORMALIZATION
+        probesWeightedSum += float4(LD * intensity * pbr.probeReflectance, probeFactor);
+#else
+        probeRadianceRemainingFactor = saturate(probeRadianceRemainingFactor - probeFactor);
+        specular += LD * intensity * pbr.probeReflectance;
+#endif
+        
+#ifdef USE_CLEARCOAT
+        n = surface.clearCoatNormal;
+        r = reflect(-v, n);
+        specDir = scn::mat4_mult_float3(light.shadowMatrix, r);
+        if (parallaxCorrection ) {
+            float3 pos_off = pos_ls + parallaxCenter;
+            
+            float3 t1 = ( parallaxExtents - pos_off) / specDir;
+            float3 t2 = (-parallaxExtents - pos_off) / specDir;
+            float3 tmax = max(max(0, t1), t2); 
+            float t = min(tmax.x, min(tmax.y, tmax.z));
+            
+            
+            float3 hit_ls = pos_ls + specDir * t;
+            specDir = hit_ls - probeOffset;
+        }
+        mips = surface.clearCoatRoughness * mipd;
+#ifdef C3D_SUPPORT_CUBE_ARRAY
+        LD = float3(probeTextureArray.sample(scn::linearSampler, specDir, probeIndex, level(mips)).rgb);
+#else
+        specUV = scn::dual_paraboloid_from_cartesian(normalize(specDir));
+        LD = float3(probeTextureArray.sample(scn::linearSampler, specUV, probeIndex, level(mips)).rgb);
+#endif
+#if PROBES_NORMALIZATION
+        probesWeightedSum += float4(LD * intensity * pbr.probeReflectanceClearCoat, probeFactor) * surface.clearCoat;
+#else
+        specular += LD * intensity * pbr.probeReflectanceClearCoat * surface.clearCoat;
+#endif
+#endif
+    }
+
+    void add_global_probe(float4x4 localDirToWorldCubemapDir,
+                          float environmentIntensity,
+#ifdef C3D_SUPPORT_CUBE_ARRAY
+                          texturecube_array<half> probeTextureArray
+#else
+                          texture2d_array<half> probeTextureArray
+#endif
+                          )
+    {
+        float3 n = surface.normal;
+        float3 v = surface.view;
+        float3 r = reflect(-v, n); 
+        
+        float3 specDir = scn::mat4_mult_float3(localDirToWorldCubemapDir, r);
+        float mips = surface.roughness * float(probeTextureArray.get_num_mip_levels() - 1);
+#ifdef C3D_SUPPORT_CUBE_ARRAY
+        float3 LD = float3(probeTextureArray.sample(scn::linearSampler, specDir, 0, level(mips)).rgb);
+#else
+        float2 specUV = scn::dual_paraboloid_from_cartesian(normalize(specDir));
+        float3 LD = float3(probeTextureArray.sample(scn::linearSampler, specUV, 0, level(mips)).rgb);
+#endif
+        
+        
+        specular += pbr.probeReflectance * LD * surface.ambientOcclusion * environmentIntensity;
+    }
+
+    void add_global_probe(texturecube<float, access::sample> specularLD,
+                          float4x4                           localDirToWorldCubemapDir,
+                          float                              environmentIntensity)
+    {
+        float3 n        = surface.normal;
+        float3 v        = surface.view;
+        float3 r        = reflect(-v, n); 
+        float roughness = surface.roughness;
+
+#if USE_PBR_DOMINANT_DIRECTION
+        float alpha = roughness * roughness;
+        float smoothness = 1.0f - alpha;
+        float specularLerpFactor = (1. - smoothness * (sqrt(smoothness) + alpha));
+        float3 specularDominantNDirection = mix(r, n, specularLerpFactor); 
+#else
+        float3 specularDominantNDirection = r;
+#endif
+        
+        
+        float mipLevel = roughness * float(specularLD.get_num_mip_levels() - 1);
+        float3 dir = scn::mat4_mult_float3(localDirToWorldCubemapDir, specularDominantNDirection);
+        float3 LD = specularLD.sample(scn::linearSampler, dir, level(mipLevel)).rgb;
+        pbr.envSpecular += pbr.probeReflectance * LD * surface.ambientOcclusion * environmentIntensity;
+    }
+
+#ifdef USE_CLEARCOAT
+    void add_global_probeClearCoat(texturecube<float, access::sample> specularLD,
+                          float4x4                           localDirToWorldCubemapDir,
+                          float                              environmentIntensity)
+    {
+        float3 n = surface.clearCoatNormal;
+        
+        float3 v        = surface.view;
+        float3 r        = reflect(-v, n); 
+        float roughness = surface.clearCoatRoughness;
+
+        
+        float mipLevel = roughness * float(specularLD.get_num_mip_levels() - 1);
+        float3 LD = specularLD.sample(scn::linearSampler, scn::mat4_mult_float3(localDirToWorldCubemapDir, r), level(mipLevel)).rgb;
+
+        LD *= surface.ambientOcclusion;
+        
+        
+        float Fc = scn_brdf_F_opt(0.04f, pbr.NoVClearCoat).r * surface.clearCoat;
+        float attenuation = 1.0f - Fc;
+        specular *= (attenuation * attenuation);
+        
+        specular += LD * environmentIntensity * pbr.probeReflectanceClearCoat * surface.clearCoat;
+    }
+#endif
+    
+    
+
+    void add_irradiance_from_selfIllum()
+    {
+        float selfIlluminationAO = saturate(mix(1.f, surface.ambientOcclusion, pbr.selfIlluminationOcclusion));
+        float3 irradiance = surface.selfIllumination.rgb;
+        
+        float3 diffuseAlbedo = mix(pbr.albedo, float3(0.0), surface.metalness);
+#ifdef USE_PBR_LAMBERTIAN_REFLECTION
+        pbr.envDiffuse += selfIlluminationAO * irradiance * diffuseAlbedo;
+#else
+        float3 diffuseReflectance = diffuseAlbedo * (pbr.diffuseHammonFactors.x + diffuseAlbedo * pbr.diffuseHammonFactors.y);
+        pbr.envDiffuse += selfIlluminationAO * irradiance * diffuseReflectance;
+#endif
+    }
+
+    void add_global_irradiance_from_sh(float4x4         localDirToWorldCubemapDir,
+#if defined(USE_PROBES_LIGHTING) && (USE_PROBES_LIGHTING == 2)
+                                       sh2_coefficients shCoefficients)
+#else
+    sh3_coefficients shCoefficients)
+#endif
+    {
+        float3 n_sh_space = scn::mat4_mult_float3(localDirToWorldCubemapDir, surface.normal);
+        float3 irradiance = shEvalDirection(float4(n_sh_space, 1.), shCoefficients);
+        
+        float3 diffuseAlbedo = mix(pbr.albedo, float3(0.0), surface.metalness);
+#ifdef USE_PBR_LAMBERTIAN_REFLECTION
+        pbr.envDiffuse += surface.ambientOcclusion * irradiance * diffuseAlbedo;
+#else
+        float3 diffuseReflectance = diffuseAlbedo * (pbr.diffuseHammonFactors.x + diffuseAlbedo * pbr.diffuseHammonFactors.y);
+        pbr.envDiffuse += surface.ambientOcclusion * irradiance * diffuseReflectance;
+#endif
+    }
+
+    void add_global_irradiance_probe(texturecube<float, access::sample> irradianceTexture,
+                                     float4x4                           localDirToWorldCubemapDir,
+                                     float                              environmentIntensity)
+    {
+#if USE_PBR_DOMINANT_DIRECTION
+        float3 n = surface.normal;
+        float3 v = surface.view;
+        
+        
+        const half a = 1.02341h * surface.roughness - 1.51174h; 
+        const half b = -0.511705h * surface.roughness + 0.755868h;
+        const half diffuseBendFactor = saturate((pbr.NoV * a + b) * surface.roughness);
+        float3 diffuseDominantNDirection = mix(n, v, diffuseBendFactor);
+#else
+        float3 diffuseDominantNDirection = n;
+#endif
+        
+        float3 n_cube_space = scn::mat4_mult_float3(localDirToWorldCubemapDir, diffuseDominantNDirection);
+        float3 irradiance = irradianceTexture.sample(scn::linearSampler, n_cube_space).rgb;
+        
+        float3 diffuseAlbedo = mix(pbr.albedo, float3(0.0), surface.metalness);
+#ifdef USE_PBR_LAMBERTIAN_REFLECTION
+        pbr.envDiffuse += (surface.ambientOcclusion * environmentIntensity) * irradiance * diffuseAlbedo;
+#else
+        float3 diffuseReflectance = diffuseAlbedo * (pbr.diffuseHammonFactors.x + diffuseAlbedo * pbr.diffuseHammonFactors.y);
+        pbr.envDiffuse += (surface.ambientOcclusion * environmentIntensity) * irradiance * diffuseReflectance;
+#endif
+    }
+
+#endif 
+
+    
+
+    static constexpr sampler iesSampler = sampler(filter::linear, mip_filter::none, address::clamp_to_edge);
+    
+    float ies_attenuation(float3 l, scn_light light, texture2d<half> iesTexture)
+    {
+#if USE_QUAT_FOR_IES
+        float3 v    = scn::quaternion_rotate_vector(light.parameters.ies.light_from_view_quat, -l);
+#else
+        float3 v    = scn::matrix_rotate(light.parameters.ies.light_from_view, -l);
+#endif
+        float phi   = (v.z * light.parameters.ies.scaleBias.x + light.parameters.ies.scaleBias.y);
+        float theta = atan2(v.y, v.x) * 0.5f * M_1_PI_F;
+        return iesTexture.sample(iesSampler, float2(phi, abs(theta))).r;
+    }
+
+    void add_ies(scn_light light, texture2d<half> iesTexture)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        float intensity = dist_attenuation(unnormalized_l, light);
+        intensity      *= ies_attenuation(l, light, iesTexture);
+        shade(l, light.color.rgb, intensity);
+    }
+
+    void add_ies(scn_light light, texture2d<half> iesTexture, depth2d<float> shadowMap, constant float4* shadowKernel, int sampleCount)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        float intensity = dist_attenuation(unnormalized_l, light);
+        intensity      *= ies_attenuation(l, light, iesTexture);
+        intensity      *= shadow(surface.position, light, shadowMap, shadowKernel, sampleCount);
+        shade(l, light.color.rgb, intensity);
+    }
+
+    
+
+    void add_area_rectangle(scn_light light, texture2d_array<float> bakedDataTexture)
+    {
+#ifdef USE_PBR
+        float3 v = surface.view;
+        float3 n = surface.normal;
+        float3 p = surface.position;
+
+        
+        float3 tangent = normalize(v - n * dot(v, n));
+        float3 bitangent = cross(n, tangent);
+        float3x3 shadingSpaceTransform = transpose(float3x3(tangent, n, bitangent));
+
+        float3 lightCenter = light.shadowMatrix[3].xyz;
+        
+        
+        float sidedness = dot(light.dir, lightCenter - p);
+        if (light.parameters.area.rectangle.doubleSided == false && sidedness <= 0.f)
+            return;
+        
+        float3 lightRight = light.shadowMatrix[0].xyz * light.parameters.area.rectangle.halfExtents.x * sign(sidedness);
+        float3 lightTop   = light.shadowMatrix[1].xyz * light.parameters.area.rectangle.halfExtents.y;
+        
+        float4x3 cornerDirections = float4x3((lightCenter + lightRight + lightTop) - p,
+                                             (lightCenter + lightRight - lightTop) - p,
+                                             (lightCenter - lightRight - lightTop) - p,
+                                             (lightCenter - lightRight + lightTop) - p);
+
+        cornerDirections[0] = shadingSpaceTransform * cornerDirections[0];
+        cornerDirections[1] = shadingSpaceTransform * cornerDirections[1];
+        cornerDirections[2] = shadingSpaceTransform * cornerDirections[2];
+        cornerDirections[3] = shadingSpaceTransform * cornerDirections[3];
+
+        float diffuseAmount = pbr_area_light_eval_rectangle(cornerDirections);
+
+        float brdfNorm = 1.f;
+        float3x3 inverseLTCMatrix = scn_sample_area_light_precomputed_data(v, n, surface.roughness, &brdfNorm, bakedDataTexture);
+
+        cornerDirections[0] = inverseLTCMatrix * cornerDirections[0];
+        cornerDirections[1] = inverseLTCMatrix * cornerDirections[1];
+        cornerDirections[2] = inverseLTCMatrix * cornerDirections[2];
+        cornerDirections[3] = inverseLTCMatrix * cornerDirections[3];
+
+        float specularAmount = brdfNorm * pbr_area_light_eval_rectangle(cornerDirections);
+
+        float3 effectiveAlbedo = mix(float3(1.0), float3(0.0), surface.metalness); 
+        
+        float3 lightColor = light.color.rgb;
+        diffuse  += diffuseAmount * lightColor * effectiveAlbedo;
+        specular += specularAmount * lightColor * pbr.reflectance;
+#endif
+    }
+
+    void add_area_polygon(scn_light light, texture2d_array<float> bakedDataTexture, device packed_float2 *vertexPositions)
+    {
+#ifdef USE_PBR
+        float3 v = surface.view;
+        float3 n = surface.normal;
+        float3 p = surface.position;
+
+        
+        float3 tangent = normalize(v - n * dot(v, n));
+        float3 bitangent = cross(n, tangent);
+        float3x3 shadingSpaceTransform = transpose(float3x3(tangent, n, bitangent));
+
+        float3 lightCenter = light.shadowMatrix[3].xyz;
+        
+        
+        float sidedness = dot(light.dir, lightCenter - p);
+        if (light.parameters.area.polygon.doubleSided == false && sidedness <= 0.f)
+            return;
+        
+        float3 lightRight = light.shadowMatrix[0].xyz * sign(sidedness);
+        float3 lightTop   = light.shadowMatrix[1].xyz;
+
+        p           = shadingSpaceTransform * p;
+        lightCenter = shadingSpaceTransform * lightCenter;
+        lightRight  = shadingSpaceTransform * lightRight;
+        lightTop    = shadingSpaceTransform * lightTop;
+
+        float diffuseAmount = pbr_area_light_eval_polygon(p, lightCenter, lightRight, lightTop, light.parameters.area.polygon.vertexCount, vertexPositions);
+
+        float brdfNorm = 1.f;
+        float3x3 inverseLTCMatrix = scn_sample_area_light_precomputed_data(v, n, surface.roughness, &brdfNorm, bakedDataTexture);
+
+        p           = inverseLTCMatrix * p;
+        lightCenter = inverseLTCMatrix * lightCenter;
+        lightRight  = inverseLTCMatrix * lightRight;
+        lightTop    = inverseLTCMatrix * lightTop;
+
+        float specularAmount = brdfNorm * pbr_area_light_eval_polygon(p, lightCenter, lightRight, lightTop, light.parameters.area.polygon.vertexCount, vertexPositions);
+        
+        float3 effectiveAlbedo = mix(float3(1.0), float3(0.0), surface.metalness); 
+
+        float3 lightColor = light.color.rgb;
+        diffuse  += diffuseAmount * lightColor * effectiveAlbedo;
+        specular += specularAmount * lightColor * pbr.reflectance;
+#endif
+    }
+
+    void add_area_line(scn_light light, texture2d_array<float> bakedDataTexture)
+    {
+#ifdef USE_PBR
+        float3 v = surface.view;
+        float3 n = surface.normal;
+        float3 p = surface.position;
+
+        
+        float3 tangent = normalize(v - n * dot(v, n));
+        float3 bitangent = cross(n, tangent);
+        float3x3 shadingSpaceTransform = transpose(float3x3(tangent, n, bitangent));
+
+        float3 lightCenter = light.shadowMatrix[3].xyz;
+        float3 lightRight  = light.shadowMatrix[0].xyz * light.parameters.area.line.halfLength;
+
+        float2x3 cornerDirections = float2x3((lightCenter + lightRight) - p,
+                                             (lightCenter - lightRight) - p);
+
+        cornerDirections[0] = shadingSpaceTransform * cornerDirections[0];
+        cornerDirections[1] = shadingSpaceTransform * cornerDirections[1];
+
+        float diffuseAmount = pbr_area_light_eval_line(cornerDirections);
+
+        float brdfNorm = 1.f;
+        float3x3 inverseLTCMatrix = scn_sample_area_light_precomputed_data(v, n, surface.roughness, &brdfNorm, bakedDataTexture);
+
+        cornerDirections[0] = inverseLTCMatrix * cornerDirections[0];
+        cornerDirections[1] = inverseLTCMatrix * cornerDirections[1];
+
+        float specularAmount = brdfNorm * pbr_area_light_eval_line(cornerDirections);
+
+        float3 ortho = normalize(cross(cornerDirections[0], cornerDirections[1]));
+        float ltcWidthFactor = 1.0 / length(scn_ltc_matrix_invert_transpose(inverseLTCMatrix) * ortho);
+        specularAmount *= ltcWidthFactor;
+        
+        float3 effectiveAlbedo = mix(float3(1.0), float3(0.0), surface.metalness); 
+
+        float3 lightColor = light.color.rgb;
+        diffuse  += diffuseAmount * lightColor * effectiveAlbedo;
+        specular += specularAmount * lightColor * pbr.reflectance;
+#endif
+    }
+
+    void add_area_ellipse(scn_light light, texture2d_array<float> bakedDataTexture)
+    {
+#ifdef USE_PBR
+#endif
+    }
+
+    void add_area_ellipsoid(scn_light light, texture2d_array<float> bakedDataTexture)
+    {
+#ifdef USE_PBR
+#endif
+    }
+};
+
+#endif 
+ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
+- (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (void);
 - (long long);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (long long);
 - (long long);
 - (void);
-- (void);
+- (void)h;
 - (id);
 - (id);
-- (void);
+- (void)*;
 
 // Remaining properties
-@property long long communicationPolicy; // @synthesize communicationPolicy=_communicationPolicy;
-@property long long communicationWhileLimitedPolicy; // @synthesize communicationWhileLimitedPolicy=_communicationWhileLimitedPolicy;
-@property(copy) NSDateComponents *downtimeEndTime; // @synthesize downtimeEndTime=_downtimeEndTime;
-@property(copy) NSDateComponents *downtimeStartTime; // @synthesize downtimeStartTime=_downtimeStartTime;
-@property(nonatomic) long long imageGenerationRestriction; // @synthesize imageGenerationRestriction=_imageGenerationRestriction;
 @property(copy) NSNumber *isAppAndWebsiteActivityEnabled; // @synthesize isAppAndWebsiteActivityEnabled=_isAppAndWebsiteActivityEnabled;
-@property(copy) NSNumber *isCommunicationSafetyEnabled; // @synthesize isCommunicationSafetyEnabled=_isCommunicationSafetyEnabled;
-@property(copy) NSNumber *isContactEditingDisabled; // @synthesize isContactEditingDisabled=_isContactEditingDisabled;
-@property(copy) NSNumber *isContactManagementEnabled; // @synthesize isContactManagementEnabled=_isContactManagementEnabled;
-@property(copy) NSNumber *isEyeReliefEnabled; // @synthesize isEyeReliefEnabled=_isEyeReliefEnabled;
-@property(copy) NSString *passcode; // @synthesize passcode=_passcode;
-@property(copy) NSDictionary *restrictions; // @synthesize restrictions=_restrictions;
-@property(nonatomic) _Bool shouldDisableDowntime; // @synthesize shouldDisableDowntime=_shouldDisableDowntime;
 
 @end
 

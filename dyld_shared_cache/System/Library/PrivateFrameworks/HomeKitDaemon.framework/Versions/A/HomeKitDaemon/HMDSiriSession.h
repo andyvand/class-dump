@@ -4,49 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDActiveSiriSessionInfo, HMDSiriRemoteInputServer, HMDSiriStreamStartEvent, NSNumber, NSObject, NSString;
-@protocol HMMLogEventSubmitting, OS_os_log, OS_xpc_object;
+@class NSObject;
+@protocol HMMLogEventSubmitting, OS_os_log;
 
 __attribute__((visibility("hidden")))
 @interface HMDSiriSession
 {
     NSObject<OS_os_log> *_logger;
-    _Bool _isActivationPending;
-    NSString *_identifier;
-    id <HMMLogEventSubmitting> _logEventSubmitter;
-    HMDSiriStreamStartEvent *_streamStartMetric;
-    HMDSiriRemoteInputServer *_server;
-    HMDActiveSiriSessionInfo *_activeSessionInfo;
-    NSNumber *_deviceType;
-    NSObject<OS_xpc_object> *_boostMessage;
 }
 
 + (id);
 + (id)²,FB;
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (_Bool)tainer"16;
+- (id)_sendInitialRouteIfNeeded;
+- (id)_saveSendingRules;
+- (void)ontact returning invalid for blocked handle %@;
+- (void)Observer %@;
+- (void)eIfNeeded nbClients %@;
+- (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void)>;
+- (id);
+- (id);
+- (_Bool)m;
 - (_Bool);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
 - (_Bool);
 - (void);
 - (id);
@@ -54,29 +46,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id)nMetadata;
+- (id)HMDCoreDataTransformerHMSoftwareUpdateDocumentationMetadata;
 - (id)ry UUID is nil for media component:%@ /* Error: Ran out of types for this method. */;
-- (void)irstAccessoryReachable_BOOL;
-- (id)START;
+- (void)firstAccessoryReachable_BOOL;
+- (id)CLIMATE_BULLETIN_TITLE_SLEEP_SCHEDULE_START;
 - (void);
 - (void)XÿTÜ;
 
 // Remaining properties
-@property(retain, nonatomic) HMDActiveSiriSessionInfo *activeSessionInfo; // @synthesize activeSessionInfo=_activeSessionInfo;
-@property(retain, nonatomic) NSObject<OS_xpc_object> *boostMessage; // @synthesize boostMessage=_boostMessage;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSNumber *deviceType; // @synthesize deviceType=_deviceType;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool isActivationPending; // @synthesize isActivationPending=_isActivationPending;
 @property(readonly, nonatomic) id <HMMLogEventSubmitting> logEventSubmitter; // @synthesize logEventSubmitter=_logEventSubmitter;
-@property(nonatomic) __weak HMDSiriRemoteInputServer *server; // @synthesize server=_server;
-@property(retain, nonatomic) HMDSiriStreamStartEvent *streamStartMetric; // @synthesize streamStartMetric=_streamStartMetric;
-@property(readonly) Class superclass;
 
 @end
 

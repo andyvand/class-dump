@@ -5,14 +5,10 @@
 //
 
 @class NSString;
-@protocol SiriCoreSQLiteValue;
 
 @interface SiriCoreSQLiteColumnConstraint
 {
     NSString *_name;
-    long long _type;
-    id <SiriCoreSQLiteValue> _value;
-    unsigned long long _options;
 }
 
 + (id);
@@ -29,9 +25,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
-@property(readonly, copy, nonatomic) id <SiriCoreSQLiteValue> value; // @synthesize value=_value;
 
 @end
 

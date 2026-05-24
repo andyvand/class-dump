@@ -7,10 +7,11 @@
 @class NSString;
 
 @protocol WFPlatformMenuItem
-- (NSString *)singRectsForGlyphRange:usingBlock: /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool)T;
+- (NSString *)enumerateInsetEnclosingRectsForGlyphRange:usingBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *searchString;
-@property(nonatomic) _Bool shouldShowState;
 @end
 

@@ -4,25 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSError, NSSet, NSString, SUCoreConnectVersion;
-
 @interface SUCoreConnectMessage
 {
     _Bool _boostable;
-    int _clientProcessIdentifier;
-    struct os_unfair_lock_s _stateLock;
-    long long _messageType;
-    NSString *_messageName;
-    SUCoreConnectVersion *_version;
-    NSError *_error;
-    NSDictionary *_message;
-    NSString *_clientID;
-    NSString *_clientIDRaw;
-    NSSet *_allowlistedClasses;
-    CDStruct_4c969caf _clientConnectionAuditToken;
 }
 
-+ (_Bool);
++ (_Bool)diaEnabled];
 + (_Bool);
 + (id);
 - (id);
@@ -30,37 +17,26 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
+- (id)tion>",&,N,V_connection;
+- (void)en the DTMF event was originated from IPT=%d, current event=%d, timestamp=%d, currentStartTimestamp=%d;
+- (id)ailabilityDidChange=%d ignored;
 - (void);
 - (long long);
 - (void);
 - (_Bool);
-- (CDStruct_4c969caf);
+- (CDStruct_6ad76789);
 - (id);
 - (id);
-- (id);
-- (struct os_unfair_lock_s);
-- (void);
+- (id);
+- (struct os_unfair_lock_s);
+- (void)?f@"NSString">32@?<v@?@"NSError">40;
 - (void);
 - (int);
 - (id);
-- (id);
+- (id);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSSet *allowlistedClasses; // @synthesize allowlistedClasses=_allowlistedClasses;
-@property(getter=isBoostable) _Bool boostable; // @synthesize boostable=_boostable;
-@property(nonatomic) CDStruct_4c969caf clientConnectionAuditToken; // @synthesize clientConnectionAuditToken=_clientConnectionAuditToken;
-@property(readonly, retain, nonatomic) NSString *clientID; // @synthesize clientID=_clientID;
-@property(readonly, retain, nonatomic) NSString *clientIDRaw; // @synthesize clientIDRaw=_clientIDRaw;
-@property(readonly, nonatomic) int clientProcessIdentifier; // @synthesize clientProcessIdentifier=_clientProcessIdentifier;
-@property(readonly, retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, retain, nonatomic) NSDictionary *message; // @synthesize message=_message;
-@property(readonly, retain, nonatomic) NSString *messageName; // @synthesize messageName=_messageName;
-@property(readonly, nonatomic) long long messageType; // @synthesize messageType=_messageType;
 @property(nonatomic) struct os_unfair_lock_s stateLock; // @synthesize stateLock=_stateLock;
-@property(readonly, retain, nonatomic) SUCoreConnectVersion *version; // @synthesize version=_version;
 
 @end
 

@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 __attribute__((visibility("hidden")))
 @interface SUICPluginBundle
 {
     Class _factoryClass;
-    id _factoryInstance;
-    NSMutableDictionary *_classIdentifiers;
 }
 
 - (_Bool);
@@ -19,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (Class);
+- (Class)vj48	;
 - (id);
 - (id);
 - (id);
@@ -27,9 +23,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *classIdentifiers; // @synthesize classIdentifiers=_classIdentifiers;
 @property(retain, nonatomic) Class factoryClass; // @synthesize factoryClass=_factoryClass;
-@property(retain, nonatomic) id factoryInstance; // @synthesize factoryInstance=_factoryInstance;
 
 @end
 

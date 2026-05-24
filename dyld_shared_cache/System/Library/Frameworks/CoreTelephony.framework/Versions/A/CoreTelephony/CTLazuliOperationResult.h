@@ -4,40 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTLazuliOperationError, CTLazuliOperationID, NSError;
-
 @interface CTLazuliOperationResult
 {
     _Bool _didSucceed;
-    NSError *_error;
-    CTLazuliOperationID *_operation;
-    CTLazuliOperationError *_errorParameter;
 }
 
-+ (_Bool);
-- (void);
++ (_Bool)ntInInitialStartup:%f timeWeightedAverageBitrate:%ld timeWeightedPeakBitrate:%ld> /* Error: Ran out of types for this method. */;
+- (void)T;
 - (_Bool);
 - (id);
+- (id)9	;
 - (id);
-- (id);
-- (id);
+- (id)J;
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)_notifyObserversAfterInvalidation;
 - (id);
 - (void)&°!Bùª)1Â0@ù
 × ;
 - (id);
-- (void)ectionState;
+- (void)kRegistrationNetworkSelectionState;
 
 // Remaining properties
 @property(nonatomic) _Bool didSucceed; // @synthesize didSucceed=_didSucceed;
-@property(copy, nonatomic) NSError *error; // @synthesize error=_error;
-@property(copy, nonatomic) CTLazuliOperationError *errorParameter; // @synthesize errorParameter=_errorParameter;
-@property(copy, nonatomic) CTLazuliOperationID *operation; // @synthesize operation=_operation;
 
 @end
 

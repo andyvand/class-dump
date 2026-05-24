@@ -4,29 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _SFAuthenticatedEncryptionOperation, _SFECDHOperation, _SFKeySpecifier;
-@protocol SFDigestOperation;
+@class _SFECDHOperation;
 
 @interface _SFIESOperation
 {
     id _iesOperationInternal;
-    long long _curve;
 }
 
 + (_Bool);
 + (void)horCertificates: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
+- (id) ;
 - (id);
-- (id);
-- (id);
+- (id)m ;
 - (const struct ccdigest_info *);
 - (id);
-- (long long);
-- (id);
+- (long long)inlineAddOrUpdateItems:associatedTextContent:associatedHTMLContent:deleteItemIdentifiers:overrideBundleID:protectionClass:clientStateName:updatedClientState:expectedClientState:itemsDataSize:options: /* Error: Ran out of types for this method. */;
+- (id)ARG_TIME;
 - (void);
 - (id);
-- (id);
+- (id)�H9	;
 - (id);
 - (id);
 - (void);
@@ -36,18 +34,7 @@
 - (void);
 
 // Remaining properties
-@property long long curve; // @synthesize curve=_curve;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) _SFECDHOperation *diffieHellmanOperation;
-@property(copy, nonatomic) id <SFDigestOperation> digestOperation;
-@property(readonly, copy, nonatomic) _SFKeySpecifier *encryptionKeySpecifier;
-@property(copy, nonatomic) _SFAuthenticatedEncryptionOperation *encryptionOperation;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

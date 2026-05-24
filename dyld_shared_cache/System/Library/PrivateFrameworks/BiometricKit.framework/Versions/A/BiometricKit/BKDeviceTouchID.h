@@ -10,12 +10,12 @@
 {
 }
 
-+ (_Bool);
-- (_Bool);
++ (_Bool);
+- (_Bool)H;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)k;
 
 @end
 

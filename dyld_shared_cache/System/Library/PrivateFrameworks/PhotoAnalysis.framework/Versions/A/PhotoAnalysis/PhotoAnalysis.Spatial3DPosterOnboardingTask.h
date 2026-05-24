@@ -7,19 +7,6 @@
 @interface PhotoAnalysis.Spatial3DPosterOnboardingTask
 {
     id worker;
-    id periodicity;
-    id name;
-    id identifier;
-    id version;
-    id priority;
-    id incrementalKey;
-    id shouldRecordCompletion;
-    id taskProductivityReporter;
-    id photoLibrary;
-    id suggestionRefreshSession;
-    id executionContext;
-    id eligibilityChecker;
-    id posterOnboardingSucceeded;
 }
 
 @end

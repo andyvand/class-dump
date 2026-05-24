@@ -5,7 +5,7 @@
 //
 
 @protocol INPauseWorkoutIntentResponseExport
-- (long long);
+- (long long)hasGroup;
 
 // Remaining properties
 @property(readonly) long long code;

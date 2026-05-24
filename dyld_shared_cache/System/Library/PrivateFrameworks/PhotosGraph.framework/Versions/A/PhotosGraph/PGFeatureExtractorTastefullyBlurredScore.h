@@ -12,8 +12,8 @@
 
 - (id);
 - (long long);
-- (id);
-- (id)tor;
+- (id)retainImageWithKeyStringProvider: /* Error: Ran out of types for this method. */;
+- (id)PGMusicCatalogMonitor;
 
 @end
 

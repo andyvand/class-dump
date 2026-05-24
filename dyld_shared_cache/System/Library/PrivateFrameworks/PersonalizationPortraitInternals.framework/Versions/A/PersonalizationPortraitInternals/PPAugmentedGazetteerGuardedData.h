@@ -7,7 +7,6 @@
 @interface PPAugmentedGazetteerGuardedData
 {
     void *tagger;
-    struct __NLTokenizer *sentenceTokenizer;
 }
 
 @end

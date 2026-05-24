@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSLocale, NSMutableDictionary;
+@class NSLocale, NSMutableDictionary;
 
 @interface PKHandwritingSynthesisLogEntry
 {
     NSLocale *_locale;
-    double _duration;
-    NSArray *_synthesizedStrokes;
-    NSArray *_originalStrokes;
-    NSArray *_contextStrokes;
-    NSMutableDictionary *_debugInfo;
 }
 
 - (id);
@@ -24,17 +19,11 @@
 - (id);
 - (double);
 - (id);
-- (id);
+- (id)_lp_secondarySystemFillColor;
 - (void)tÛ;
 
 // Remaining properties
-@property(readonly) NSArray *contextStrokes; // @synthesize contextStrokes=_contextStrokes;
 @property(readonly) NSMutableDictionary *debugInfo; // @synthesize debugInfo=_debugInfo;
-@property(readonly) NSDictionary *description;
-@property(readonly) double duration; // @synthesize duration=_duration;
-@property(readonly) NSLocale *locale; // @synthesize locale=_locale;
-@property(readonly) NSArray *originalStrokes; // @synthesize originalStrokes=_originalStrokes;
-@property(readonly) NSArray *synthesizedStrokes; // @synthesize synthesizedStrokes=_synthesizedStrokes;
 
 @end
 

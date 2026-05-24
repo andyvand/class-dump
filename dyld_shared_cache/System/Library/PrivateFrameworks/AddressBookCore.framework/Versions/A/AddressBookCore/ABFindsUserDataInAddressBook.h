@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAccount, ABAddressBook, CNLazyArray, NSArray;
+@class ABAddressBook;
 
 @interface ABFindsUserDataInAddressBook
 {
     ABAddressBook *_addressBook;
-    ABAccount *_account;
-    NSArray *_people;
-    ABAddressBook *_addressBookForSeededCards;
-    CNLazyArray *_seedCards;
 }
 
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);

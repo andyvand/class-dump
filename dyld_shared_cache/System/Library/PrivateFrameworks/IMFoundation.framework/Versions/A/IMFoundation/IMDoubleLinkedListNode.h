@@ -7,24 +7,20 @@
 @interface IMDoubleLinkedListNode
 {
     IMDoubleLinkedListNode *_prev;
-    IMDoubleLinkedListNode *_next;
-    id _object;
 }
 
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id)gePriority;
+- (id);
+- (void);
+- (void);
+- (id)_curXPCMessagePriority;
 
 // Remaining properties
-@property(retain) IMDoubleLinkedListNode *next; // @synthesize next=_next;
-@property(retain) id object; // @synthesize object=_object;
 @property(retain) IMDoubleLinkedListNode *prev; // @synthesize prev=_prev;
 
 @end

@@ -6,31 +6,21 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSString;
-
 @interface SAUITemplateRange : AceObject
 {
 }
 
 + (id);
 + (id);
-- (long long);
+- (long long)(;
 - (id);
-- (id);
+- (id)@;
 - (void);
 - (long long);
 - (void)F;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) long long length;
-@property(nonatomic) long long location;
-@property(readonly) Class superclass;
 
 @end
 

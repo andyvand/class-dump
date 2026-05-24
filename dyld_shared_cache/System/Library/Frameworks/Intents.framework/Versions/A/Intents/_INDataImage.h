@@ -12,27 +12,25 @@ __attribute__((visibility("hidden")))
 @interface _INDataImage : INImage
 {
     NSUUID *_sha256HashUUID;
-    struct os_unfair_lock_s _hashLock;
-    NSData *_imageData;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)v48@0:(id)arg1 8@16@24^Q32Q40;
 - (id);
 - (id);
 - (void);
 - (void);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)set_currentAccessory:(id)arg1;
+- (id)_transmitterMacAddress;
+- (void)g network (%{public}@) to nearby device (%{public}@), retry %lu of %d;
 - (id);
 - (_Bool);
 - (void);
 - (id)!%!AùQ¿(1Â0@ù
 × ;
-- (_Bool)tus:withCompletion: /* Error: Ran out of types for this method. */;
+- (_Bool)resolveOperationForChangeAlarmStatus:withCompletion: /* Error: Ran out of types for this method. */;
 - (void)?0@"INRelevantShortcut"8Q16^B24;
 
 // Remaining properties

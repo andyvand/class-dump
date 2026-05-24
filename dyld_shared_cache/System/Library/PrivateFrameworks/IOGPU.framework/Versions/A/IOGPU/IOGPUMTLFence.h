@@ -7,7 +7,6 @@
 @interface IOGPUMTLFence
 {
     struct __IOGPUDevice *_deviceRef;
-    unsigned int _fenceName;
 }
 
 - (void);

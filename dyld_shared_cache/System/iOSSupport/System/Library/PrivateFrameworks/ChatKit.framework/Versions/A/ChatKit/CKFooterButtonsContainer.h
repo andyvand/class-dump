@@ -7,7 +7,6 @@
 @interface CKFooterButtonsContainer
 {
     id stackView;
-    id buttons;
 }
 
 - (id);

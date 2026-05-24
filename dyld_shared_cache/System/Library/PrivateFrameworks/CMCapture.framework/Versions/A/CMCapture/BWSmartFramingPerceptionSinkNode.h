@@ -6,21 +6,11 @@
 
 #import <CMCapture/BWSinkNode.h>
 
-@class BWFigVideoCaptureDevice, NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class BWFigVideoCaptureDevice;
 
 @interface BWSmartFramingPerceptionSinkNode : BWSinkNode
 {
     BWFigVideoCaptureDevice *_captureDevice;
-    unsigned int _camGazeInferenceMajorVersion;
-    unsigned int _maxFaceCountForInference;
-    NSObject<OS_dispatch_queue> *_inferenceQueue;
-    _Bool _previousInferenceComplete;
-    CDStruct_1b6d18a9 _inferenceSkipInterval;
-    CDStruct_1b6d18a9 _lastInferenceFramePTS;
-    struct os_unfair_lock_s _inferenceLock;
-    NSMutableArray *_faceGroupIDsForInference;
-    struct opaqueCMSampleBuffer *_lastSampleBuffer;
 }
 
 + (void)ampleBufferAlreadyAtHeadOfQueue:] /* Error: Ran out of types for this method. */;
@@ -32,7 +22,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)OITSUFakeProgress;
 - (void);
 - (void);
 - (void);
@@ -41,13 +31,7 @@
 - (_Bool)FÂÂÿFÂÂÿGÃÂÿMÃÃÿVÅÄÿ_ÆÆÿhÈÇÿrÊÉÿ~ÌËÿÎÍÿÐÐÿÒÒÿªÔÔÿ¶××ÿÁÙÙÿËÜÜÿÔÞÞÿÝààÿãããÿéååÿðææÿõççÿFÈÃÿFÈÃÿGÈÃÿGÈÃÿGÈÃÿGÈÃÿGÈÃÿGÈÃÿHÈÃÿHÈÃÿHÈÃÿIÈÃÿIÈÄÿLÉÄÿVÊÆÿ_ÌÇÿiÎÉÿsÐËÿÒÍÿÔÏÿ×Òÿ¡ÙÔÿ­Ü×ÿ»ßÚÿÆáÝÿÐäàÿÚçãÿâéæÿèìèÿîîêÿôðëÿùòìÿHÌÄÿHÌÄÿHÌÄÿIÌÄÿIÌÄÿIÌÄÿIÍÅÿIÍÅÿJÍÅÿJÍÅÿJÍÅÿKÍÅÿKÍÅÿLÍÅÿTÎÆÿ^ÐÈÿhÒÊÿrÔÌÿ×ÎÿÙÑÿÜÔÿ¢ÞÖÿ¯áÙÿ¼åÝÿÈèàÿÒëãÿÜîçÿåñêÿìôìÿòöîÿøøïÿýúðÿJÏÅÿJÏÅÿJÏÅÿJÏÅÿJÏÅÿJÏÅÿJÏÅÿKÐÅÿKÐÅÿKÐÅÿLÐÅÿLÐÆÿLÐÆÿMÐÆÿQÑÆÿ[ÒÈÿeÔÊÿpÖÌÿ|ÙÏÿÜÑÿÞÔÿ¡á×ÿ®äÚÿ¼èÞÿÈëâÿÒïåÿÜòéÿçöìÿîùîÿõûðÿúýñÿþþñÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

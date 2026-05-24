@@ -4,9 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol SGSuggestionDelegate;
+@class NSImage, NSString, NSViewController, SGSuggestionAction;
+@protocol SGSuggestionCategory, SGSuggestionDelegate;
 
 @protocol SGSuggestion
+- (SGSuggestionAction *);
+- (id <SGSuggestionDelegate>);
+
+@optional
+- (NSString *);
+- (NSViewController *);
+- (id <SGSuggestionCategory>);
+- (NSImage *)HomeIntelligenceProtoPETActivityLoggerHomeActivityStateEvent;
 
 // Remaining properties
 @property(nonatomic) __weak id <SGSuggestionDelegate> suggestionDelegate;

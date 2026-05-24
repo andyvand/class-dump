@@ -8,13 +8,13 @@
 {
 }
 
++ (id)Button.state.unselected;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
++ (_Bool)T;
++ (id));
++ (id));
 + (id);
 + (id);
 

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 @interface UIDestroySceneAction
 {
 }
 
-- (unsigned long long);
-- (id);
-- (_Bool);
+- (unsigned long long)mplete.;
+- (id)ing %@ instead;
+- (_Bool)id);
 - (id);
 - (id);
 - (id);
@@ -24,11 +22,7 @@
 - (long long)ÿ*Ø;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool appliesToAllScenes;
-@property(readonly, nonatomic) _Bool destroySceneSession;
-@property(readonly, nonatomic) NSSet *persistedIdentifiers;
 @property(readonly, nonatomic) unsigned long long preferredAnimationType;
-@property(readonly, nonatomic, getter=isUserOriginatedRequest) _Bool userOriginatedRequest;
 
 @end
 

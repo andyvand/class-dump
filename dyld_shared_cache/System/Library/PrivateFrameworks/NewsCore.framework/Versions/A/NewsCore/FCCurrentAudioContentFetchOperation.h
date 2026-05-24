@@ -6,14 +6,9 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class FCCurrentAudioContent;
-@protocol FCContentContext;
-
 @interface FCCurrentAudioContentFetchOperation : FCOperation
 {
     CDUnknownBlockType _fetchCompletionHandler;
-    id <FCContentContext> _context;
-    FCCurrentAudioContent *_resultCurrentContent;
 }
 
 - (id);

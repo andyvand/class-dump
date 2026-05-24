@@ -6,21 +6,11 @@
 
 #import <Silex/SXMediaComponentView.h>
 
-@class NSString, SXDragManager, SXFullscreenCanvasController, SXImageResource, SXImageView, SXMediaViewEvent, UIView;
-@protocol SXFullscreenCanvasControllerFactory, SXImageViewFactory, SXMediaSharingPolicyProvider;
+@protocol SXImageViewFactory;
 
 @interface SXScalableImageComponentView : SXMediaComponentView
 {
     id <SXImageViewFactory> _imageViewFactory;
-    id <SXFullscreenCanvasControllerFactory> _canvasControllerFactory;
-    id <SXMediaSharingPolicyProvider> _mediaSharingPolicyProvider;
-    SXDragManager *_dragManager;
-    SXImageView *_imageView;
-    SXImageResource *_imageResource;
-    SXFullscreenCanvasController *_fullScreenCanvasController;
-    SXMediaViewEvent *_activeViewEvent;
-    UIView *_gestureView;
-    struct CGRect _previousContentFrame;
 }
 
 - (id);
@@ -37,7 +27,7 @@
 - (_Bool);
 - (struct CGRect);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -84,23 +74,7 @@
 - (void)÷ÿÓ¦Wùþ;
 
 // Remaining properties
-@property(retain, nonatomic) SXMediaViewEvent *activeViewEvent; // @synthesize activeViewEvent=_activeViewEvent;
-@property(readonly, nonatomic) id <SXFullscreenCanvasControllerFactory> canvasControllerFactory; // @synthesize canvasControllerFactory=_canvasControllerFactory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) SXDragManager *dragManager; // @synthesize dragManager=_dragManager;
-@property(retain, nonatomic) SXFullscreenCanvasController *fullScreenCanvasController; // @synthesize fullScreenCanvasController=_fullScreenCanvasController;
-@property(nonatomic) __weak UIView *gestureView; // @synthesize gestureView=_gestureView;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SXImageResource *imageResource; // @synthesize imageResource=_imageResource;
-@property(readonly, nonatomic) SXImageView *imageView; // @synthesize imageView=_imageView;
 @property(readonly, nonatomic) id <SXImageViewFactory> imageViewFactory; // @synthesize imageViewFactory=_imageViewFactory;
-@property(readonly, nonatomic) id <SXMediaSharingPolicyProvider> mediaSharingPolicyProvider; // @synthesize mediaSharingPolicyProvider=_mediaSharingPolicyProvider;
-@property(nonatomic) struct CGRect previousContentFrame; // @synthesize previousContentFrame=_previousContentFrame;
-@property(readonly) Class superclass;
 
 @end
 

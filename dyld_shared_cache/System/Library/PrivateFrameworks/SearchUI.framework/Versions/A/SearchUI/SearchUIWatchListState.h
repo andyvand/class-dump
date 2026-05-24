@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SearchUIWatchListState
 {
     _Bool _isWatchListed;
-    NSString *_watchListIdentifier;
 }
 
-- (void);
+- (void)P;
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)doubleCurve_angled_thick;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool isWatchListed; // @synthesize isWatchListed=_isWatchListed;
-@property(retain, nonatomic) NSString *watchListIdentifier; // @synthesize watchListIdentifier=_watchListIdentifier;
 
 @end
 

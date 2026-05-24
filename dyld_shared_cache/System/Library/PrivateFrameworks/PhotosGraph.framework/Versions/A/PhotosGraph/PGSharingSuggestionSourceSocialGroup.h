@@ -10,9 +10,9 @@
 {
 }
 
+- (id)T;
 - (id);
-- (id);
-- (double);
+- (double);
 - (id);
 
 @end

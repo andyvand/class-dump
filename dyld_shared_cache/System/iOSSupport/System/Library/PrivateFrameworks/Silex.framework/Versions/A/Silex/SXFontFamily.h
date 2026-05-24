@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface SXFontFamily
 {
     NSString *_familyName;
-    NSSet *_fontFaces;
 }
 
-- (id);
+- (id)_ր;
 - (id);
 - (id);
 - (id);
@@ -20,15 +19,7 @@
 - (id)V_fillMode;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSString *familyName; // @synthesize familyName=_familyName;
-@property(readonly, nonatomic) NSSet *fontFaces; // @synthesize fontFaces=_fontFaces;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

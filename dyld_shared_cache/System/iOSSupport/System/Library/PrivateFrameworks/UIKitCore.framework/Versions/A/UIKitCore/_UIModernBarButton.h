@@ -9,11 +9,6 @@
 @interface _UIModernBarButton : UIButton
 {
     _Bool _guardAgainstDegenerateBaselineCalculation;
-    _Bool _shouldUseButtonPlatters;
-    _Bool _enableMonochromaticTreatmentOnImageAndTitle;
-    _Bool _usesTintColorCapsuleForSelection;
-    struct UIEdgeInsets __additionalSelectionInsets;
-    struct CGRect _selectionIndicatorViewFrame;
 }
 
 + (Class);
@@ -21,7 +16,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)URLSession:task:needNewBodyStreamFromOffset:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (_Bool)
@@ -33,13 +28,13 @@
 × ;
 - (void)! AùÑg°1Â0@ù
 × ;
-- (void)ViewTraversalMark: /* Error: Ran out of types for this method. */;
-- (void)fset;
-- (_Bool)ller:sourceController: /* Error: Ran out of types for this method. */;
-- (_Bool)ler;
-- (id)eadingColumnSize:(struct CGRect)arg1 trailingColumnSize:supplementaryColumnSize: /* Error: Ran out of types for this method. */;
+- (void)setViewTraversalMark: /* Error: Ran out of types for this method. */;
+- (void)normalizedOffset;
+- (_Bool)animationControllerForPresentedController:presentingController:sourceController: /* Error: Ran out of types for this method. */;
+- (_Bool)_supplementaryViewConfigurationHandler;
+- (id)_expectedSecondaryColumnSizeAfterAnimatingToState:(struct CGRect)arg1 getLeadingColumnSize:trailingColumnSize:supplementaryColumnSize: /* Error: Ran out of types for this method. */;
 - (void)playingContinuousFeedback;
-- (id)ainerStyle;
+- (id)_containerStyle;
 - (void)
 ;
 - (struct CGRect);
@@ -49,12 +44,7 @@
 - (struct UIEdgeInsets);
 
 // Remaining properties
-@property(nonatomic, setter=_setAdditionalSelectionInsets:) struct UIEdgeInsets _additionalSelectionInsets; // @synthesize _additionalSelectionInsets=__additionalSelectionInsets;
 @property(nonatomic, setter=_setGuardAgainstDegenerateBaselineCalculation:) _Bool _guardAgainstDegenerateBaselineCalculation;
-@property(nonatomic) _Bool enableMonochromaticTreatmentOnImageAndTitle; // @synthesize enableMonochromaticTreatmentOnImageAndTitle=_enableMonochromaticTreatmentOnImageAndTitle;
-@property(nonatomic) struct CGRect selectionIndicatorViewFrame; // @synthesize selectionIndicatorViewFrame=_selectionIndicatorViewFrame;
-@property(nonatomic) _Bool shouldUseButtonPlatters; // @synthesize shouldUseButtonPlatters=_shouldUseButtonPlatters;
-@property(nonatomic) _Bool usesTintColorCapsuleForSelection; // @synthesize usesTintColorCapsuleForSelection=_usesTintColorCapsuleForSelection;
 
 @end
 

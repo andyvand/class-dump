@@ -14,19 +14,17 @@
 }
 
 + (_Bool)" - %@;
+- (id)initWithAuditToken:(id)arg1 assumedIdentity:(unsigned long long)arg2 tccServices:(unsigned long long)arg3;
 - (id);
 - (id);
-- (id);
-- (int);
+- (int)_setRouteContextAnnotationText:etaType:tollCurrency:advisoryStyleAttributes:forRoute: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
-- (unsigned int)ATION;
+- (unsigned int)MAPS_WIDGET_CURRENT_LOCATION;
 - (void)BfÿT»5&5;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int countryCode;
-@property(readonly, nonatomic) _Bool hasCountryCode;
 @property(readonly, nonatomic) int type;
 
 @end

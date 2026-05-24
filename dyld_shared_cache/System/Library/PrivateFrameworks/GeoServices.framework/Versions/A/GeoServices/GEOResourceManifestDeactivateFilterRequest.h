@@ -6,20 +6,20 @@
 
 #import <GeoServices/GEOXPCRequest.h>
 
-@class GEOActiveResourceFilter, NSString;
+@class GEOActiveResourceFilter;
 
 @interface GEOResourceManifestDeactivateFilterRequest : GEOXPCRequest
 {
     GEOActiveResourceFilter *_filter;
 }
 
-+ (Class);
++ (Class)"version"q"info"^v"retain"^?"release"^?"copyDescription"^?};
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (void)set:(id)arg1;
-- (id)LLECTIONS;
+- (_Bool)ne_filter_protocol_add_input_handler;
+- (void)setEarliestArrivalOffset:(id)arg1;
+- (id)MODULE_TYPE_COLLECTIONS;
 - (void)(
 delta_values (
 delta_sign_change (BB
@@ -64,14 +64,7 @@ num_points (@
 - (void)|í%+P@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) GEOActiveResourceFilter *filter; // @synthesize filter=_filter;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

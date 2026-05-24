@@ -9,20 +9,16 @@
 @interface _EARAudioAnalytics
 {
     NSDictionary *_speechRecognitionFeatures;
-    NSDictionary *_acousticFeatures;
-    double _snr;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)logicalDevice:makeControllerInputDescriptionWithIdentifier:bindings: /* Error: Ran out of types for this method. */;
 - (double);
 - (id);
 - (void)´;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *acousticFeatures; // @synthesize acousticFeatures=_acousticFeatures;
-@property(readonly, nonatomic) double snr; // @synthesize snr=_snr;
 @property(readonly, copy, nonatomic) NSDictionary *speechRecognitionFeatures; // @synthesize speechRecognitionFeatures=_speechRecognitionFeatures;
 
 @end

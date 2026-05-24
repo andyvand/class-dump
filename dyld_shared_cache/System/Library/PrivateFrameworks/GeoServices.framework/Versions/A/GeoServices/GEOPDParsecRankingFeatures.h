@@ -9,35 +9,23 @@
 @interface GEOPDParsecRankingFeatures
 {
     PBUnknownFields *_unknownFields;
-    double _distanceFromContainment;
-    double _distanceFromDeviceLocation;
-    double _expectedCtr;
-    _Bool _isRecallMismatch;
-    _Bool _isSpellCorrected;
-    struct {
-        unsigned int has_distanceFromContainment:1;
-        unsigned int has_distanceFromDeviceLocation:1;
-        unsigned int has_expectedCtr:1;
-        unsigned int has_isRecallMismatch:1;
-        unsigned int has_isSpellCorrected:1;
-    } _flags;
 }
 
-+ (_Bool)eUnnamedFeatures:(id)arg1;
++ (_Bool)setIgnoreUnnamedFeatures:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)ڭ;
 - (_Bool);
 - (_Bool);
 - (double);
@@ -49,30 +37,20 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)riMitigationAssetHandler assetDownloadMonitorDelegate:(id)arg1 assetType:]_block_invoke_2 /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)Token"32@"NSObject<OS_dispatch_queue>"40@?<v@?@"GEOWiFiQualityServiceResponse"@"NSError">48;
-- (id)estPriority;
+- (id)_httpRequestPriority;
 - (id)dMèM;
-- (id)_MULTIPOINT_ROUTE;
+- (id)WATCH_SIRI_SUGGESTION_RESUME_MULTIPOINT_ROUTE;
 - (void)ìQ¸ë@ÁÊ¡E¶@;
 
 // Remaining properties
-@property(nonatomic) double distanceFromContainment;
-@property(nonatomic) double distanceFromDeviceLocation;
-@property(nonatomic) double expectedCtr;
-@property(nonatomic) _Bool hasDistanceFromContainment;
-@property(nonatomic) _Bool hasDistanceFromDeviceLocation;
 @property(nonatomic) _Bool hasExpectedCtr;
-@property(nonatomic) _Bool hasIsRecallMismatch;
-@property(nonatomic) _Bool hasIsSpellCorrected;
-@property(nonatomic) _Bool isRecallMismatch;
-@property(nonatomic) _Bool isSpellCorrected;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

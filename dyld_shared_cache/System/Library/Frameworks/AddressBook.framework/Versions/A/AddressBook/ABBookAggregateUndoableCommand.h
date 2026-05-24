@@ -4,32 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAddressBook, NSArray, NSString;
+@class NSString;
 
 @interface ABBookAggregateUndoableCommand
 {
     NSString *_actionName;
-    NSArray *_undoableCommands;
-    ABAddressBook *_addressBook;
-    _Bool _shouldSave;
-    _Bool ignoresGuardianRestrictions;
 }
 
 + (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
+- (id);
 - (void);
 - (void);
-- (id);
+- (void)@;
+- (void)a;
+- (id)(;
 - (void);
 - (id);
 - (_Bool);
@@ -38,17 +34,10 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool ignoresGuardianRestrictions; // @synthesize ignoresGuardianRestrictions;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TB,?,N,VignoresGuardianRestrictions
 
-@property(readonly) Class superclass;
 
 @end
 

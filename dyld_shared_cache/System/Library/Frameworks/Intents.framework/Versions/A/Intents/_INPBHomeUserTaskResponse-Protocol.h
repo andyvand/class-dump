@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBHomeUserTask;
-
 @protocol _INPBHomeUserTaskResponse
+- (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool hasTaskOutcome;
-@property(readonly, nonatomic) _Bool hasUserTask;
 @property(nonatomic) int taskOutcome;
-@property(retain, nonatomic) _INPBHomeUserTask *userTask;
 @end
 

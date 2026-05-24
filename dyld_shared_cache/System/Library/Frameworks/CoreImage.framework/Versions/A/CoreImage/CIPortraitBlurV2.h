@@ -6,20 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSDictionary, NSNumber, NSString;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIPortraitBlurV2 : CIFilter
 {
     CIImage *inputImage;
-    CIImage *inputBlurmapImage;
-    CIImage *inputMatteImage;
-    NSNumber *inputLumaNoiseScale;
-    NSNumber *inputScale;
-    NSNumber *inputAperture;
-    NSDictionary *inputTuningParameters;
-    NSString *inputShape;
-    NSNumber *inputDraftMode;
 }
 
 + (id);
@@ -31,13 +23,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (id)9Y;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)9h;
 - (id);
 - (double);
-- (id);
+- (id)+;
 - (id);
 - (id);
 - (void);
@@ -46,15 +38,7 @@ __attribute__((visibility("hidden")))
 - (id)~}|~««««³³³³¯¯¯¯¢¢¢h}y|zmmlmMSC[baVbrrrrvvrv]h_rbojtzzzzyyyyesovvvvvnnnnCXNgnolrzzzzZc\k_d]gmmmmttttzyvz~}z||||cpkuivtzbvt~mrn|Dd\tPaXg]]U]EVJ]Of`mxzzzzM\TdGXO]dddd^ielbsqzVnh{diatgwu}rrprhh`hrrnrc}|££££¦¦¦¦v}|wwww{{{{l|~~ttttddddK[R`aokt¥¥¥¥N_Si1I7[=RD^kkkkWmisvvs{wtqwllllcaYcAWMbhhchkjdk_galttttp}|µµµµ¿¿¿¿³¶¶¶¦¦¦Vg]q\g]px{x|kJf`p``Z`LVIZ6SEfx|zntq{AVLbYYRYARIUKRGU^_Xb^nkwz~dxwJjdzarowzzzzxI]SkSYNbge^gmqnq||||y[kjn[YQ\XYP[qqqqHdZuXlewwzzzziieibb\bkkkkisnterlt    ~~~~jjdkMXMbXe]ikvsv\wrT|xqooooiiiitttt||||svvvmporyyyy~~~~\ni}bvsqqnqdhcinnnnwwwwxxxxgsrvssssbfah4RGblmjmzzzz~~~~{xt{eqjvrrlreqjrrwrz««««¤¦¦¦iqjwKbXlllllPc\iM^Wkrrrreeee(=.H.<MMEMeeeesssszzzzr~wzzzjjjjffcfajenpoku\mgunlftktqx||||hqmyEha|y{||fpnsppppllll\e^iiokouuuugmgqT`Smqncvvz}wJ\Nidd`diiiitttt¢¢¢¢®®®®©©©©lyyy4K>T&6#CDNBOeeeerrorRlfzr{y{psnt[dYpPe[w§§§§¤¤¤¤¢¢¢¢;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *inputAperture; // @synthesize inputAperture;
-@property(retain) CIImage *inputBlurmapImage; // @synthesize inputBlurmapImage;
-@property(retain, nonatomic) NSNumber *inputDraftMode; // @synthesize inputDraftMode;
 @property(retain) CIImage *inputImage; // @synthesize inputImage;
-@property(copy, nonatomic) NSNumber *inputLumaNoiseScale; // @synthesize inputLumaNoiseScale;
-@property(retain) CIImage *inputMatteImage; // @synthesize inputMatteImage;
-@property(copy, nonatomic) NSNumber *inputScale; // @synthesize inputScale;
-@property(retain, nonatomic) NSString *inputShape; // @synthesize inputShape;
-@property(retain, nonatomic) NSDictionary *inputTuningParameters; // @synthesize inputTuningParameters;
 
 @end
 

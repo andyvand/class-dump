@@ -9,20 +9,19 @@
 @interface MKArtworkDataSourceCache
 {
     NSCache *_artworkImageCache;
-    MKTransitArtworkManager *_artworkManager;
 }
 
-+ (id)curacy;
++ (id)animatingAccuracy;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)ay"@"NSError">24;
+- (id);
 - (void);
 - (void)!;
-- (void)int: /* Error: Ran out of types for this method. */;
+- (void)draggingAnnotationViewDropPointForPoint: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) MKTransitArtworkManager *artworkManager; // @synthesize artworkManager=_artworkManager;

@@ -8,8 +8,8 @@
 {
 }
 
-+ (id)oveDragEventResendTimestamp;
-+ (id)reKeyboard:(id)arg1;
++ (id)_latestMoveDragEventResendTimestamp;
++ (id)handleSpecificHardwareKeyboard:(id)arg1;
 
 @end
 

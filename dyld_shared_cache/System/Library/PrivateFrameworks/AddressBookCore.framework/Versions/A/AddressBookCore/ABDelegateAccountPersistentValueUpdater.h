@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSRegularExpression, NSString;
+@class NSString;
 
 @interface ABDelegateAccountPersistentValueUpdater
 {
     NSString *_dsid;
-    NSRegularExpression *_regex;
-    NSDictionary *_homeInfo;
 }
 
 + (id);
@@ -25,7 +23,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -36,8 +34,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *dsid; // @synthesize dsid=_dsid;
-@property(readonly, copy, nonatomic) NSDictionary *homeInfo; // @synthesize homeInfo=_homeInfo;
-@property(readonly, copy, nonatomic) NSRegularExpression *regex; // @synthesize regex=_regex;
 
 @end
 

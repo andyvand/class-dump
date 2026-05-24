@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString;
-
 @interface CBSpatialMeasurement
 {
     unsigned int _flags;
-    double _distanceMeters;
-    double _distanceError;
-    NSError *_error;
-    double _horizontalAngle;
-    double _horizontalError;
-    NSString *_identifier;
-    double _verticalAngle;
-    double _verticalError;
-    unsigned long long _timestampTicks;
-    double _ptsScore;
 }
 
 - (double);
@@ -30,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)B;
 - (void);
 - (double);
 - (double);
@@ -41,25 +29,16 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void));
+- (void)initWithObservedItemID:(id)arg1 domainContext:previousChangeToken:nsFileProviderRequest: /* Error: Ran out of types for this method. */;
 - (unsigned int);
-- (void);
+- (void)s
+kI;
 - (id);
-- (void);
+- (void)ary/PerfPowerTelemetry/CleanEnergy/CurrentCleanEnergyDB.CESQL;
 
 // Remaining properties
-@property(nonatomic) double distanceError; // @synthesize distanceError=_distanceError;
-@property(nonatomic) double distanceMeters; // @synthesize distanceMeters=_distanceMeters;
-@property(copy, nonatomic) NSError *error; // @synthesize error=_error;
-@property(nonatomic) unsigned int flags; // @synthesize flags=_flags;
 @property(nonatomic) double horizontalAngle; // @synthesize horizontalAngle=_horizontalAngle;
-@property(nonatomic) double horizontalError; // @synthesize horizontalError=_horizontalError;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) double ptsScore; // @synthesize ptsScore=_ptsScore;
-@property(nonatomic) unsigned long long timestampTicks; // @synthesize timestampTicks=_timestampTicks;
-@property(nonatomic) double verticalAngle; // @synthesize verticalAngle=_verticalAngle;
-@property(nonatomic) double verticalError; // @synthesize verticalError=_verticalError;
 
 @end
 

@@ -6,24 +6,18 @@
 
 #import <QuickLookThumbnailingDaemon/QLDiskCacheEnumerator.h>
 
-@class NSData, QLCacheBlobInfo, QLCacheFileIdentifier, QLCacheIndexDatabaseQueryEnumerator, QLCacheThumbnailData;
+@class QLCacheFileIdentifier;
 
 __attribute__((visibility("hidden")))
 @interface QLDiskCacheAllThumbnailPerFileEnumerator : QLDiskCacheEnumerator
 {
     QLCacheFileIdentifier *_fileIdentifier;
-    QLCacheIndexDatabaseQueryEnumerator *_cacheIndexDatabaseEnumerator;
-    QLCacheThumbnailData *_thumbnailData;
-    NSData *_bitmapData;
-    QLCacheBlobInfo *_bitmapDataBlobInfo;
-    NSData *_metadata;
-    QLCacheBlobInfo *_metadataBlobInfo;
 }
 
-- (id);
+- (id)case_count_target;
 - (id);
 - (void);
-- (void);
+- (void)=;
 
 @end
 

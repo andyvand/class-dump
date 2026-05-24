@@ -7,6 +7,30 @@
 @protocol IMSystemMonitorListener
 
 @optional
+- (void)q76^q84B92;
+- (void)116;
+- (void)32@40q48:56:64:72@80Q88B96q100^q108^@116 /* Error: Ran out of types for this method. */;
+- (void)2:60@68Q76B84B88q92^q100 /* Error: Ran out of types for this method. */;
+- (void)egate>";
+- (void)24;
+- (void)dd}{CGSize=dd}}32@"NSEvent"64;
+- (void)6@"<NSTextAttachmentCell>"24{CGRect={CGPoint=dd}{CGSize=dd}}32@"NSEvent"64;
+- (void)}{CGSize=dd}}32;
+- (void)xtAttachmentCell>"24{CGRect={CGPoint=dd}{CGSize=dd}}32;
+- (void)ew"16@24;
+- (void)6Q24;
+- (void)SRange=QQ}32;
+- (void):8@"NSTextView"16@"NSArray"24{_NSRange=QQ}32 /* Error: Ran out of types for this method. */;
+- (void)8@"NSTextView"16{_NSRange=QQ}24;
+- (void)ray"32@0:8@"NSTextView"16@"NSArray"24 /* Error: Ran out of types for this method. */;
+- (void)rray"32;
+- (void)NSTextView"16@"NSSharingServicePicker"24@"NSArray"32;
+- (void)ct={CGPoint=dd}{CGSize=dd}}32@64;
+- (void)CGSize=dd}}32;
+- (void)4;
+- (void)B56@0:8@16{CGRect={CGPoint=dd}{CGSize=dd}}24 /* Error: Ran out of types for this method. */;
+- (void)windowForSharingRequestFromWindow: /* Error: Ran out of types for this method. */;
+- (void)0;
 - (void);
 @end
 

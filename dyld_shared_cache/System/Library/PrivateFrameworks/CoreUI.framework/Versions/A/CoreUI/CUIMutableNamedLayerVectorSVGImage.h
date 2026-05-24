@@ -6,20 +6,15 @@
 
 #import <CoreUI/CUINamedLayerVectorSVGImage.h>
 
-@class NSString;
-
 @interface CUIMutableNamedLayerVectorSVGImage : CUINamedLayerVectorSVGImage
 {
     struct CGSVGDocument *_svgDocument;
-    double _scale;
-    id _gradientOrColor;
-    NSString *_appearance;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)(	;
 - (void);
 - (id);
 - (void);
@@ -28,11 +23,11 @@
 - (id);
 - (double);
 - (void);
-- (struct CGColor *);
+- (struct CGColor *);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)t;
 - (void);
 - (void);
 

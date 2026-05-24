@@ -9,18 +9,16 @@
 @interface ASCredentialRequestSubPane
 {
     NSView *_view;
-    double _customSpacingAfter;
 }
 
 - (void);
 - (void);
 - (double);
 - (id);
-- (void);
+- (void)	;
 - (id)T3;
 
 // Remaining properties
-@property(nonatomic) double customSpacingAfter; // @synthesize customSpacingAfter=_customSpacingAfter;
 @property(readonly, nonatomic) NSView *view; // @synthesize view=_view;
 
 @end

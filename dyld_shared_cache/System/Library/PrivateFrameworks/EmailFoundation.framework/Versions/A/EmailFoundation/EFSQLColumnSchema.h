@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFSQLColumnExpression, EFSQLTableSchema, NSString;
+@class EFSQLTableSchema;
 
 @interface EFSQLColumnSchema
 {
     EFSQLTableSchema *_table;
-    _Bool _nullable;
-    _Bool _isPrimaryKey;
-    _Bool _isAutoincrementing;
-    NSString *_name;
-    unsigned long long _type;
-    EFSQLTableSchema *_foreignKeyTarget;
-    EFSQLTableSchema *_associatedTable;
-    unsigned long long _collation;
-    id _defaultValue;
-    NSString *_foreignKeyTargetString;
-    unsigned long long _foreignKeyDeleteAction;
-    unsigned long long _foreignKeyUpdateAction;
 }
 
 + (id);
@@ -33,29 +21,45 @@
 + (id);
 + (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (unsigned long long);
 - (id);
+- (void)presets;
 - (void);
+- (id),&,N,V_queue;
+- (id);
+- (id)to Jingle (%@):%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)RB;
 - (unsigned long long);
 - (void);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)VBAMMM1Rlc3QgUm9vdCBDQSAoYzE5ZjhmOWQtODRjMS00MTA3LWIwODQtNDdj
+YWYwMmU1Y2I3KTETMBEGA1UECAwKQ2FsaWZvcm5pYTCCASAwDQYJKoZIhvcNAQEB
+BQADggENADCCAQgCggEBAMu6KMgKMCm8f75rPZ/+ApHECSk7ndnQwb3umE1LP57y
+ezlbxPHa1G/BtVf8ws091X91jnUPEa5KIjOAvbuMAkY9jlsDYKFyx+H93EcP4KN1
+uQD+zJD8nSMZQgzy68FpXSmkN+o/EHtqmvVb7ekWRTv23mIoi7mpTWlpsZJ3bu7U
+iPLcy8niCKoGBz+X/Ti3LsqCSLzz1jkFYwVu+44u+R0s65W7WJ+9/5/sv+rQX9fc
+StUjpADH5f0Lp6oiCbv0TKJ0VHky1l6JnTzRmUKTf83uZKzPWDjAZbsCrttUKTSB
+1ql/R5J2e8h4XjuJEMPRtEvuPq0nbl3QpCJZVAUKEpsCAQOjIzAhMA8GA1UdEwEB
+/wQFMAMBAf8wDgYDVR0PAQH/BAQDAgEGMA0GCSqGSIb3DQEBBQUAA4IBAQCxtpVf
+/jxa5APoE07pgcN3n7yiz24f2Zhwl/AARDv8P3xlaIiOiAy0krOYwGFlSK5o0W2r
+bC1p6KpzLcXTnP+h9x9ZaKKMlbvzM6XyFNYf8vruf9CEEftAWRdkCepOlEy7/8IA
+MuKp12DYMLkpJbrqZjKipZUu1mq1F8JagjEQ5rr4bPbRHDkc0Hww4EyMMVFgriea
+Jq/noMjDQ7diM6+YdYSNm3llD9diwG83Hjkh7hsgRQNYLh2wROkDlRSK1ryyscpr
+2P3aEGz6gspscr7LljIc8a3f5Hx0HgeX+4MdRgXpJTND6vAI8AO/aIOyrSjNgDdO
+iRv2mvGSAANVg6vr
+-----END CERTIFICATE-----
+;
 - (id);
 - (id);
 - (id);
@@ -67,22 +71,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) __weak EFSQLTableSchema *associatedTable; // @synthesize associatedTable=_associatedTable;
 @property(readonly, nonatomic) unsigned long long collation; // @synthesize collation=_collation;
-@property(readonly, nonatomic) EFSQLColumnExpression *columnExpression;
-@property(readonly, nonatomic) EFSQLColumnExpression *columnExpressionWithFullName;
-@property(readonly, nonatomic) id defaultValue; // @synthesize defaultValue=_defaultValue;
-@property(readonly, copy, nonatomic) NSString *definition;
-@property(nonatomic) unsigned long long foreignKeyDeleteAction; // @synthesize foreignKeyDeleteAction=_foreignKeyDeleteAction;
-@property(nonatomic) __weak EFSQLTableSchema *foreignKeyTarget; // @synthesize foreignKeyTarget=_foreignKeyTarget;
-@property(copy, nonatomic) NSString *foreignKeyTargetString; // @synthesize foreignKeyTargetString=_foreignKeyTargetString;
-@property(nonatomic) unsigned long long foreignKeyUpdateAction; // @synthesize foreignKeyUpdateAction=_foreignKeyUpdateAction;
-@property(readonly, nonatomic) _Bool isAutoincrementing; // @synthesize isAutoincrementing=_isAutoincrementing;
-@property(readonly, nonatomic) _Bool isPrimaryKey; // @synthesize isPrimaryKey=_isPrimaryKey;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) _Bool nullable; // @synthesize nullable=_nullable;
-@property(readonly, nonatomic) __weak EFSQLTableSchema *table;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

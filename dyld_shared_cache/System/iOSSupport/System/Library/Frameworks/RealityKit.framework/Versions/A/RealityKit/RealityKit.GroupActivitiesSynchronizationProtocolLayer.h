@@ -8,8 +8,6 @@
 {
     id state;
     id handle;
-    id reliableGroupSessionMessengerTask;
-    id unreliableGroupSessionMessengerTask;
 }
 
 @end

@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableData;
-
 @interface NUBrushStroke
 {
     float _radius;
-    float _softness;
-    float _opacity;
-    long long _pressureMode;
-    CDStruct_996ac03c _extent;
-    CDStruct_996ac03c _clipRect;
-    NSMutableData *_data;
 }
 
 + (id);
@@ -30,33 +22,27 @@
 - (void);
 - (id);
 - (id);
-- (CDStruct_869f9c67);
-- (CDStruct_996ac03c);
+- (CDStruct_869f9c67)oding (size=%llu);
+- (CDStruct_996ac03c)c}@No cloud share ID was found for participant:%@ /* Error: Ran out of types for this method. */;
 - (float);
 - (void);
 - (long long);
 - (CDStruct_996ac03c);
 - (id);
 - (unsigned long long);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (float);
 - (id);
 - (float);
-- (void);
+- (void)SQLITE_INTERNAL;
 - (id);
-- (void)MapperForSourceDuration:slowMotionRate:slowMotionTimeRange:forExport: /* Error: Ran out of types for this method. */;
-- (id)urgeableCount: /* Error: Ran out of types for this method. */;
+- (void)timeRangeMapperForSourceDuration:slowMotionRate:slowMotionTimeRange:forExport: /* Error: Ran out of types for this method. */;
+- (id)setNonPurgeableCount: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_996ac03c clipRect;
-@property(readonly, nonatomic) CDStruct_996ac03c extent;
-@property(nonatomic) float opacity; // @synthesize opacity=_opacity;
-@property(readonly, nonatomic) long long pointCount;
-@property(nonatomic) long long pressureMode; // @synthesize pressureMode=_pressureMode;
 @property(nonatomic) float radius; // @synthesize radius=_radius;
-@property(nonatomic) float softness; // @synthesize softness=_softness;
 
 @end
 

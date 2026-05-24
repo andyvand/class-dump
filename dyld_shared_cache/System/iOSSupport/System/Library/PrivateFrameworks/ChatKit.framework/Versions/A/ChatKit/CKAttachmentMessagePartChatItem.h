@@ -6,31 +6,29 @@
 
 #import <ChatKit/CKMessagePartChatItem.h>
 
-@class CKMediaObject, NSItemProvider, NSString, NSURL;
+@class CKMediaObject, NSItemProvider;
 
 @interface CKAttachmentMessagePartChatItem : CKMessagePartChatItem
 {
     NSItemProvider *_dragItemProvider;
-    NSURL *_momentShareURL;
-    double _transcriptBackgroundLuminance;
-    CKMediaObject *_mediaObject;
 }
 
 - (double);
 - (_Bool);
 - (void);
+- (id)=;
+- (id)cached oriented image, but the identifier is nil;
+- (struct CGSize)storage;
+- (id)editable;
 - (id);
-- (id);
-- (struct CGSize);
-- (id);
-- (id);
-- (id);
+- (id)6
+;
 - (_Bool);
 - (_Bool);
 - (Class);
 - (unsigned long long);
 - (struct CGSize);
-- (struct CGSize);
+- (struct CGSize)RH!Ț?;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -46,8 +44,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CKMediaObject *mediaObject; // @synthesize mediaObject=_mediaObject;
-@property(readonly, copy, nonatomic) NSURL *momentShareURL;
-@property(readonly, copy, nonatomic) NSString *transferGUID;
 
 @end
 

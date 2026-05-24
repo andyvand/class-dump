@@ -7,12 +7,10 @@
 @class NSImage, NSString;
 
 @protocol _ASAuthenticationProviderLoginRowData
+- (void);
+- (NSString *);
 
 // Remaining properties
-@property(nonatomic) long long loginRowAuthenticationType;
-@property(copy, nonatomic) NSString *loginRowDetailText;
 @property(copy, nonatomic) NSImage *loginRowIconImage;
-@property(copy, nonatomic) NSString *loginRowPaneTitleText;
-@property(copy, nonatomic) NSString *loginRowText;
 @end
 

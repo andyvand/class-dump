@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCAudioPlaylist, MCMontage, MCPlug, MPPlaylistInternal, NSMutableArray, NSMutableDictionary, NSObject;
-@protocol MPAudioSupport;
+@class NSMutableArray;
 
 @interface MPAudioPlaylist
 {
     NSMutableArray *_songs;
-    MCAudioPlaylist *_audioPlaylist;
-    MCPlug *_plug;
-    NSObject<MPAudioSupport> *_parentObject;
-    MCMontage *_montage;
-    NSMutableDictionary *_attributes;
-    MPPlaylistInternal *_internal;
 }
 
 + (_Bool);
@@ -34,16 +27,16 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)=;
 - (double);
 - (double);
 - (long long);
 - (void);
-- (void);
+- (void));
 - (void);
 - (void);
 - (double);
-- (id);
+- (id)FormatAttributedString;
 - (id);
 - (id);
 - (void);
@@ -70,11 +63,7 @@
 - (id)îÿ·ÔUxè;
 
 // Remaining properties
-@property double duckInDuration; // @dynamic duckInDuration;
-@property double duckLevel; // @dynamic duckLevel;
-@property double duckOutDuration; // @dynamic duckOutDuration;
 @property double fadeInDuration; // @dynamic fadeInDuration;
-@property double fadeOutDuration; // @dynamic fadeOutDuration;
 
 @end
 

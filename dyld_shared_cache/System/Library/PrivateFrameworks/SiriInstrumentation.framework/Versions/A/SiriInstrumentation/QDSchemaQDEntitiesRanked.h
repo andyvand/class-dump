@@ -6,30 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface QDSchemaQDEntitiesRanked : SISchemaInstrumentationMessage
 {
     NSArray *_retrievedTools;
-    NSArray *_spanMatchedEntities;
-    NSArray *_utteranceContexts;
 }
 
 - (id);
 - (unsigned long long);
 - (id);
+- (unsigned long long)=;
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
@@ -39,20 +37,17 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)GkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDManagedApplicationRequest_macOS.m:24 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)lastReadMessageTimeStamp;
 - (id);
 - (id);
-- (id)anslationEvent;
+- (id)_ttsspeechTranslationEvent;
 - (id)V_numEntitiesContainingEmoji;
-- (void)TUS_CONFIRMATION_NO;
+- (void)FLTASKPROMPTSTATUS_CONFIRMATION_NO;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *retrievedTools; // @synthesize retrievedTools=_retrievedTools;
-@property(copy, nonatomic) NSArray *spanMatchedEntities; // @synthesize spanMatchedEntities=_spanMatchedEntities;
-@property(copy, nonatomic) NSArray *utteranceContexts; // @synthesize utteranceContexts=_utteranceContexts;
 
 @end
 

@@ -7,12 +7,10 @@
 @interface _UIFlexInteractionUpdate
 {
     struct CGSize scale;
-    struct CGPoint translation;
-    _Bool isActive;
 }
 
 - (void);
-- (struct CGPoint);
+- (struct CGPoint)buildWithRemoteAddress:withLocalIdentifier:withRemoteIdentifier:withAuthenticationMethod:withPayloadCertificateUUID:withSharedSecret:withExtendedAuthEnabled:withDisableRedirect:withDisableMOBIKE:withUseConfigurationAttributeInternalIPSubnet:withEnablePFS:withEnableCertificateRevocationCheck:withNATKeepAliveOffloadEnable:withNATKeepAliveInterval:withAuthName:withAuthPassword:withDeadPeerDetectionRate:withProtocolType:withServerCertificateIssuerCommonName:withServerCertificateCommonName:withIKESecurityAssociationParameters:withChildSecurityAssociationParameters:withInterfaces: /* Error: Ran out of types for this method. */;
 - (id);
 - (struct CGSize);
 - (_Bool)ell"16B24B28;
@@ -20,9 +18,7 @@
 - (void)q;
 
 // Remaining properties
-@property(nonatomic) _Bool isActive; // @synthesize isActive;
 @property(nonatomic) struct CGSize scale; // @synthesize scale;
-@property(nonatomic) struct CGPoint translation; // @synthesize translation;
 
 @end
 

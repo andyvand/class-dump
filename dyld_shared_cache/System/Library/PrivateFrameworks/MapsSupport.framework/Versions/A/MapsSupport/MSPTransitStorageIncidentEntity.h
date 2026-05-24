@@ -4,39 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface MSPTransitStorageIncidentEntity
 {
     PBUnknownFields *_unknownFields;
-    struct {
-        unsigned long long *list;
-        unsigned long long count;
-        unsigned long long size;
-    } _nextStopsMuids;
-    unsigned long long _muid;
-    CDStruct_e99c65f7 _has;
 }
 
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (unsigned long long *);
 - (id);
-- (void);
+- (void)l;
+- (void)T;
+- (id)ote-mailbox;
+- (_Bool)ssageActionResultsBuilder>"8;
 - (void);
 - (id);
-- (_Bool);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)\;
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (void);
+- (void)FI_TPreviewOptionsGroup;
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -45,20 +38,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasMuid;
-@property(readonly, nonatomic) _Bool hasNextStopIDs;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long muid; // @synthesize muid=_muid;
-@property(readonly, nonatomic) NSSet *nextStopIDs;
-@property(readonly, nonatomic) unsigned long long *nextStopsMuids;
-@property(readonly, nonatomic) unsigned long long nextStopsMuidsCount;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
+@property(readonly, nonatomic) unsigned long long muid;
 
 @end
 

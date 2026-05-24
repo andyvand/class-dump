@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @protocol SWShareConfiguration
+- (NSString *)webProcessVideoAdJSODidCallPlayPaused:volume: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *shareItems;
 @property(readonly, nonatomic) NSString *title;
 @end
 

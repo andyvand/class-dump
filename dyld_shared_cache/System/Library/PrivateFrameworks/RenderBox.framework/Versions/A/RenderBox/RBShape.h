@@ -7,10 +7,6 @@
 @interface RBShape
 {
     struct RBShapeData _data;
-    struct InlineHeap<256UL> _heap;
-    _Bool _eoFill;
-    unsigned int _renderingMode;
-    double _renderingModeArgument;
 }
 
 - (void);
@@ -22,38 +18,34 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)Condition:(struct CGRect)arg1 IsPermissionControlled;
 - (unsigned int);
 - (void);
+- (void)cellStyleXfsOffset;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)A;
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)zeFeatureVector] Aborting computation. Language %@, Config %@, Body %{sensitive}@, RegExpDictionary %@;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (struct CGRect)teristics and services:%{public}@ for peripheral:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
-- (struct CGRect);
-- (void);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool EOFill; // @synthesize EOFill=_eoFill;
-@property(nonatomic, getter=isAntialiased) _Bool antialiased;
 @property(readonly, nonatomic) struct CGRect boundingRect;
-@property(nonatomic) unsigned int renderingMode; // @synthesize renderingMode=_renderingMode;
-@property(nonatomic) double renderingModeArgument; // @synthesize renderingModeArgument=_renderingModeArgument;
 
 @end
 

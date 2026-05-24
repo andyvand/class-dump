@@ -9,15 +9,11 @@
 @interface CWANQPCapabilityList : CWANQPElement
 {
     _Bool _supportsVenueName;
-    _Bool _supportsNetworkAuthenticationType;
-    _Bool _supportsRoamingConsortium;
-    _Bool _supportsNAIRealm;
-    _Bool _supportsDomainName;
 }
 
 + (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -33,10 +29,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool supportsDomainName; // @synthesize supportsDomainName=_supportsDomainName;
-@property(nonatomic) _Bool supportsNAIRealm; // @synthesize supportsNAIRealm=_supportsNAIRealm;
-@property(nonatomic) _Bool supportsNetworkAuthenticationType; // @synthesize supportsNetworkAuthenticationType=_supportsNetworkAuthenticationType;
-@property(nonatomic) _Bool supportsRoamingConsortium; // @synthesize supportsRoamingConsortium=_supportsRoamingConsortium;
 @property(nonatomic) _Bool supportsVenueName; // @synthesize supportsVenueName=_supportsVenueName;
 
 @end

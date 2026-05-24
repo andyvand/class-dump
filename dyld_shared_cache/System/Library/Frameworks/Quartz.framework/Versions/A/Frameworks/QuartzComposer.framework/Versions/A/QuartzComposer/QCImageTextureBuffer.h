@@ -6,31 +6,12 @@
 
 #import <QuartzComposer/QCImageBuffer.h>
 
-@class QCCGLContext;
-
 @interface QCImageTextureBuffer : QCImageBuffer
 {
     unsigned int _target;
-    unsigned long long _levels;
-    unsigned long long _samples;
-    unsigned int _name;
-    double _matrix[16];
-    QCCGLContext *_context;
-    unsigned long long _flags;
-    unsigned long long _depth;
-    unsigned int _frameBuffer;
-    unsigned int _renderBuffer;
-    unsigned long long _virtualScreen;
-    QCCGLContext *_updateContext;
-    int _saveBuffer;
-    int _saveViewport[4];
-    _Bool _purgeable;
-    _Bool _saveScissor;
-    unsigned long long _saveVirtualScreen;
-    void *_unused2[3];
 }
 
-+ (id);
++ (id)c;
 + (id);
 + (id);
 - (void);
@@ -52,7 +33,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)9h;
 - (void);
 - (void);
 - (void);
@@ -70,12 +51,12 @@
 - (unsigned long long);
 - (const double *);
 - (unsigned long long);
-- (unsigned int);
+- (unsigned int)ceInfo",R,N,V_serviceInfo;
 - (void);
 - (id);
 - (unsigned int);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (_Bool)ÔÌð;

@@ -6,24 +6,9 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSMutableSet, NSString, _UIAssertionController, _UITextCursorBlinkAnimation, _UITextCursorDictationAnimation;
-@protocol _UIStandardTextCursorViewAudioLevelProvider;
-
 @interface UIStandardTextCursorView : UIView
 {
     UIView *_cursorShapeView;
-    _UITextCursorBlinkAnimation *_blinkAnimation;
-    _UITextCursorDictationAnimation *_dictationAnimation;
-    NSMutableSet *_cursorAnimations;
-    _UIAssertionController *_assertionController;
-    UIStandardTextCursorView *_trackedFloatingCursorView;
-    _Bool _blinking;
-    _Bool _hiddenForLoupeAnimation;
-    _Bool _glowEffectEnabled;
-    _Bool _floatingEffectEnabled;
-    _Bool _ghostEffectEnabled;
-    double _shapeScale;
-    id <_UIStandardTextCursorViewAudioLevelProvider> _audioLevelProvider;
 }
 
 - (void);
@@ -37,15 +22,15 @@
 - (CDStruct_45cfb02b);
 - (CDStruct_e1624b90);
 - (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (double);
-- (CDStruct_e1624b90);
+- (_Bool)keys %@;
+- (_Bool)notify recipient command pipeline;
+- (id)e from:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)%@;
+- (double)IMRecordZoneManager;
+- (CDStruct_e1624b90)attachmentManateeZone;
 - (void);
 - (void);
 - (id);
@@ -54,9 +39,9 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)AttributedString",&,N,S_updateText:(_Bool)arg1 ,V_text;
 - (_Bool);
-- (void);
+- (void)`b;
 - (void);
 - (id);
 - (void);
@@ -66,25 +51,7 @@
 - (void)ùÿ;
 
 // Remaining properties
-@property(nonatomic, setter=_setShapeScale:) double _shapeScale; // @synthesize _shapeScale;
-@property(nonatomic) __weak id <_UIStandardTextCursorViewAudioLevelProvider> audioLevelProvider; // @synthesize audioLevelProvider=_audioLevelProvider;
-@property(nonatomic, getter=isBlinking) _Bool blinking; // @synthesize blinking=_blinking;
-@property(readonly, nonatomic) struct CGRect bounds;
-@property(readonly, nonatomic) _Bool crossfadeOnDismissal;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isFloatingEffectEnabled) _Bool floatingEffectEnabled; // @synthesize floatingEffectEnabled=_floatingEffectEnabled;
-@property(nonatomic, getter=isGhostEffectEnabled) _Bool ghostEffectEnabled; // @synthesize ghostEffectEnabled=_ghostEffectEnabled;
 @property(nonatomic, getter=isGlowEffectEnabled) _Bool glowEffectEnabled; // @synthesize glowEffectEnabled=_glowEffectEnabled;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool hiddenForLoupeAnimation; // @synthesize hiddenForLoupeAnimation=_hiddenForLoupeAnimation;
-@property(readonly, nonatomic) CDStruct_e1624b90 originShadow;
-@property(readonly, nonatomic) CDStruct_45cfb02b originShape;
-@property(readonly, nonatomic) UIView *originView;
-@property(readonly) Class superclass;
 
 @end
 

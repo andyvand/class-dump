@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
 @protocol ISKVOProxyDelegate;
 
 __attribute__((visibility("hidden")))
 @interface ISKVOProxy
 {
     id _target;
-    NSArray *_keyPaths;
-    NSString *_identifier;
-    id <ISKVOProxyDelegate> _delegate;
 }
 
-- (void);
-- (void);
-- (id);
+- (void)_componentToChildComponentsMap;
+- (void)_componentTextStyleMerger;
+- (id)ize=dd},R,N,V_dimensions;
 - (void);
 - (id);
 - (void);

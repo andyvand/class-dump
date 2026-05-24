@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSImage;
+@class NSImage;
 
 __attribute__((visibility("hidden")))
 @interface TintedImageRep
 {
     NSImage *_image;
-    NSColor *_tintColor;
 }
 
 - (id);

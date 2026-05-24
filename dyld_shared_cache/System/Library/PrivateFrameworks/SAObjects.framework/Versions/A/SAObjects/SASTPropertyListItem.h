@@ -6,14 +6,14 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSArray, NSString, SAUIDecoratedText, SAUINanoImageResource;
+@class NSString;
 
 @interface SASTPropertyListItem : AceObject
 {
 }
 
++ (id);
 + (id);
-+ (id);
 - (void);
 - (void);
 - (void);
@@ -22,27 +22,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *alignment;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) SAUIDecoratedText *decoratedTitle;
-@property(copy, nonatomic) NSArray *decoratedValues;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SAUINanoImageResource *imageResource;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title;
-@property(copy, nonatomic) NSArray *values;
 
 @end
 

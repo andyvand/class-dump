@@ -11,10 +11,10 @@
 }
 
 - (id);
-- (long long);
-- (id);
-- (id);
-- (id)edLibrary;
+- (long long)H;
+- (id)_֓.;
+- (id)replaceCharactersInRange:withString: /* Error: Ran out of types for this method. */;
+- (id)SharedLibrary;
 
 @end
 

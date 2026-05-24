@@ -7,10 +7,10 @@
 @class _INPBIntentMetadata;
 
 @protocol _INPBIdentifyIncomingCallerIntent
-- (_Bool)ontacts;
+- (_INPBIntentMetadata *).m;
+- (_Bool)clearContacts;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
 @end
 

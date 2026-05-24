@@ -6,13 +6,12 @@
 
 #import <NeutrinoCore/_NUComposedMedia.h>
 
-@class NSArray, NUChannelMediaFormat, NURenderNode;
-@protocol NUMediaGeometry, NUMediaMetadata;
+@class NURenderNode;
+@protocol NUMediaGeometry;
 
 @interface _NURenderMedia : _NUComposedMedia
 {
     id <NUMediaGeometry> _geometry;
-    NURenderNode *_renderNode;
 }
 
 - (id);
@@ -23,11 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NUChannelMediaFormat *format;
-@property(readonly, nonatomic) id <NUMediaGeometry> geometry;
-@property(readonly, nonatomic) id <NUMediaMetadata> metadata;
 @property(readonly, nonatomic) NURenderNode *renderNode; // @synthesize renderNode=_renderNode;
-@property(readonly, nonatomic) NSArray *requiredSourceMedias;
 
 @end
 

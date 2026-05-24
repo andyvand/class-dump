@@ -11,22 +11,20 @@
 @interface EKUIResizingTextField : CalUIResizingTextField
 {
     _Bool _consumeEnterPress;
-    EKViewController *_viewController;
 }
 
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property _Bool consumeEnterPress; // @synthesize consumeEnterPress=_consumeEnterPress;
 @property __weak EKViewController *viewController; // @synthesize viewController=_viewController;
 
 @end

@@ -7,12 +7,11 @@
 @interface ChatKit.GalleryImagePlaygroundManager
 {
     id delegate;
-    id isFromSuggestion;
 }
 
+- (void)isKeyboardMathSolvingAllowed;
 - (void);
-- (void);
-- (id);
+- (id)!;
 - (void)hJ¦ÿÅ1l¢¯ÿ;
 
 @end

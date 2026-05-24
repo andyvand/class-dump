@@ -4,103 +4,68 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSError, NSString;
-@protocol ECAuthenticationCredentials;
+@class NSString;
 
 @interface ECSASLClient
 {
     char *_userLanguageCode;
-    char *_authenticationName;
-    char *_authorizationName;
-    struct sasl_secret *_password;
-    char *_authenticationPersonID;
-    char *_authorizationPersonID;
-    char *_appleToken;
-    char *_machineID;
-    char *_oneTimePassword;
-    char *_clientInfo;
-    char *_oauthToken;
-    char *_appleToken2;
-    _Bool _isATOKEN2Enabled;
-    _Bool _excludeAuthorizationName;
-    _Bool _excludeInitialResponse;
-    _Bool _mechanismUsesPlainText;
-    _Bool _lastResponseIncludesCredential;
-    unsigned int _encryptionBufferSize;
-    id <ECAuthenticationCredentials> _credentials;
-    long long _saslStatus;
-    NSError *_saslError;
-    NSString *_selectedMechanismName;
-    NSArray *_mechanismNames;
-    struct sasl_callback *_callbacks;
-    struct sasl_conn *_saslConnection;
 }
 
++ (id)lientDidResolveAirPlayDeviceNetServiceNotification..;
 + (id);
-+ (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)should only be set once on an AVMobileGlassLowerControlsContainerView.;
+- (void)ror:(long long)arg1 auxiliaryControlsView should only be set once on an AVMobileGlassLowerControlsContainerView.;
+- (void)touch gesture state %ld;
+- (void)d button %@ in tap button list.;
+- (void)ng layout.;
+- (void)an AVMobileGlassControlsView.;
+- (void)et once on an AVMobileGlassControlsView.;
+- (void)s transitioning.;
+- (void)resent from source view controller that is transitioning.;
+- (void)that is transitioning.;
+- (id)tings:%@ 
+
+selector:%@ /* Error: Ran out of types for this method. */;
+- (long long)selector:%@ /* Error: Ran out of types for this method. */;
+- (id)mss 
+
+complementarySettings:%@ 
+
+selector:%@ /* Error: Ran out of types for this method. */;
+- (struct sasl_conn *)anguage changed to:%@ /* Error: Ran out of types for this method. */;
+- (id)ailable;
+- (id)ff of the main thread. The AVMobileTextImageCache should only be accessed on the main thread.;
+- (id)it_imageFromString:(const char *)arg1 font:(unsigned int)arg2 completion:] called off of the main thread. The AVMobileTextImageCache should only be accessed on the main thread. /* Error: Ran out of types for this method. */;
+- (_Bool)ate:%@. /* Error: Ran out of types for this method. */;
+- (id)B:%.2f Alpha:%.2f) and state:%@. /* Error: Ran out of types for this method. */;
+- (_Bool)isPictureInPictureSupported:%s
+} /* Error: Ran out of types for this method. */;
+- (_Bool)le:%s
+	contentDimensions:(%.01f, %.01f)
+	isPictureInPictureSupported:%s
+} /* Error: Ran out of types for this method. */;
+- (_Bool)ntentTabsLayoutFrame:%@ /* Error: Ran out of types for this method. */;
+- (id)View.;
+- (_Bool)ntSourceTypeSampleBufferDisplayLayer;
+- (_Bool)layerLayer;
+- (unsigned int)close over the requested restore;
+- (void)! message will be dropped);
+- (_Bool)ad from this stream? (status = %d);
+- (void)and;
+- (void)mand;
+- (void)gin fast forward command;
+- (void)ervice identifier = %{public}@;
+- (void).rom.dbl;
 - (void);
 - (id);
-- (long long);
-- (id);
-- (struct sasl_conn *);
+- (id)_microstackshotInfo;
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (unsigned int);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)__objc_data;
 - (struct sasl_callback *)à;
 
 // Remaining properties
-@property(readonly, nonatomic) struct sasl_callback *callbacks; // @synthesize callbacks=_callbacks;
-@property(nonatomic) __weak id <ECAuthenticationCredentials> credentials; // @synthesize credentials=_credentials;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned int encryptionBufferSize; // @synthesize encryptionBufferSize=_encryptionBufferSize;
-@property(nonatomic) _Bool excludeAuthorizationName; // @synthesize excludeAuthorizationName=_excludeAuthorizationName;
-@property(nonatomic) _Bool excludeInitialResponse; // @synthesize excludeInitialResponse=_excludeInitialResponse;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isATOKEN2Enabled; // @synthesize isATOKEN2Enabled=_isATOKEN2Enabled;
-@property(nonatomic) _Bool lastResponseIncludesCredential; // @synthesize lastResponseIncludesCredential=_lastResponseIncludesCredential;
-@property(readonly, nonatomic) _Bool lastResponseIncludesPlainTextCredential;
-@property(copy, nonatomic) NSArray *mechanismNames; // @synthesize mechanismNames=_mechanismNames;
-@property(nonatomic) _Bool mechanismUsesPlainText; // @synthesize mechanismUsesPlainText=_mechanismUsesPlainText;
-@property(readonly, nonatomic) struct sasl_conn *saslConnection; // @synthesize saslConnection=_saslConnection;
-@property(retain, nonatomic) NSError *saslError; // @synthesize saslError=_saslError;
-@property(nonatomic) long long saslStatus; // @synthesize saslStatus=_saslStatus;
 @property(copy, nonatomic) NSString *selectedMechanismName; // @synthesize selectedMechanismName=_selectedMechanismName;
-@property(readonly) Class superclass;
 
 @end
 

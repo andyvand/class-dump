@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileCoordinator, NSMutableArray, NSSet, NSURL;
+@class NSFileCoordinator;
 
 @interface CNPrivateAccessAggregator
 {
     NSFileCoordinator *_fileCoordinator;
-    NSURL *_privateAccessAggregatorURL;
-    NSSet *_supportedClasses;
-    NSMutableArray *_privateAccessClients;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -22,13 +19,10 @@
 - (id);
 - (void);
 - (id);
-- (void)fier;
+- (void)_registeredInNotifier;
 
 // Remaining properties
 @property(retain, nonatomic) NSFileCoordinator *fileCoordinator; // @synthesize fileCoordinator=_fileCoordinator;
-@property(retain, nonatomic) NSURL *privateAccessAggregatorURL; // @synthesize privateAccessAggregatorURL=_privateAccessAggregatorURL;
-@property(retain, nonatomic) NSMutableArray *privateAccessClients; // @synthesize privateAccessClients=_privateAccessClients;
-@property(retain, nonatomic) NSSet *supportedClasses; // @synthesize supportedClasses=_supportedClasses;
 
 @end
 

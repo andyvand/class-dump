@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKEncryptedData, NSData, NSString;
+@class CKEncryptedData;
 
 @interface CKOneTimeURLMetadata
 {
     CKEncryptedData *_encryptedOneTimeFullToken;
-    NSData *_sharingKeyBytes;
-    NSData *_sharingKeySeed;
-    NSString *_participantID;
 }
 
 + (_Bool);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)=q;
 - (id);
 - (id);
 - (id);
@@ -30,19 +27,13 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void)	
 ;
 
 // Remaining properties
 @property(copy, nonatomic) CKEncryptedData *encryptedOneTimeFullToken; // @synthesize encryptedOneTimeFullToken=_encryptedOneTimeFullToken;
-@property(readonly, nonatomic) NSData *encryptedOneTimeFullTokenData;
-@property(readonly, nonatomic) NSString *oneTimeShortSharingToken;
-@property(readonly, nonatomic) NSData *oneTimeShortSharingTokenHashData;
-@property(readonly, copy, nonatomic) NSString *participantID; // @synthesize participantID=_participantID;
-@property(readonly, copy, nonatomic) NSData *sharingKeyBytes; // @synthesize sharingKeyBytes=_sharingKeyBytes;
-@property(readonly, copy, nonatomic) NSData *sharingKeySeed; // @synthesize sharingKeySeed=_sharingKeySeed;
 
 @end
 

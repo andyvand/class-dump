@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (long long): /* Error: Ran out of types for this method. */;
+- (long long)setTypewriterEffectFramesPerSecond: /* Error: Ran out of types for this method. */;
 
 @end
 

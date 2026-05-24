@@ -13,7 +13,7 @@
 + (Class);
 + (id);
 + (void);
-- (id);
+- (id)enumerateAttributesInRange:(id)arg1 options:(id)arg2 usingBlock: /* Error: Ran out of types for this method. */;
 
 @end
 

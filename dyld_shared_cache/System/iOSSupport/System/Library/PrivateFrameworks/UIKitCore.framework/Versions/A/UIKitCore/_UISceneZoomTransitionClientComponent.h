@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIWindow, _UIDismissInteraction;
+@class UIWindow, _UIDismissInteraction;
 
 __attribute__((visibility("hidden")))
 @interface _UISceneZoomTransitionClientComponent
@@ -13,16 +13,16 @@ __attribute__((visibility("hidden")))
     UIWindow *_dismissInteractionWindow;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
 - (double);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (_Bool)updateShouldForceToSMS:(id)arg1;
+- (void)updateServicesForChatWithGUID:(id)arg1 services:(id)arg2 completionHandler: /* Error: Ran out of types for this method. */;
+- (void)updateServerChangeToken:(id)arg1;
+- (void)updateSMSSpamExtensionNameChatProperty:(id)arg1;
+- (void)ptions:(id)arg1 filterExtensionName:(struct CGPoint)arg2;
+- (id));
 - (void)ð1Â0@ù
 × ;
 - (void)!@Bù]1Â0@ù
@@ -30,18 +30,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id)1Â0@ù
 × ;
-- (void)SubviewsNeedUpdateConstraintsNeedingLayout:(id)arg1;
-- (id)Hotspot;
+- (void)_informContainerThatSubviewsNeedUpdateConstraintsNeedingLayout:(id)arg1;
+- (id)DataTypeiOSHotspot;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDPersistedRichLinkID, NSString, NSURL;
+@class EDPersistedRichLinkID;
 
 @interface EDRichLinkData
 {
     EDPersistedRichLinkID *_persistentID;
-    NSString *_title;
-    NSURL *_url;
 }
 
+- (id)V;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)@"<EMCollectionItemID>"8Q16^B24;
+- (id)H;
 - (id);
 - (void)te"16Q24;
 
 // Remaining properties
 @property(readonly, nonatomic) EDPersistedRichLinkID *persistentID; // @synthesize persistentID=_persistentID;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

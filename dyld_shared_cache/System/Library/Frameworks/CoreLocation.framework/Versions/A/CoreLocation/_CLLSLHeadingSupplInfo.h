@@ -12,14 +12,15 @@
 }
 
 + (_Bool);
+- (id);
+- (id);
+- (void);
+- (void)g 'COD ycb' check:2 <= %d <= 10
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)setPrimitiveMotionStartTime:(struct _NSZone *)arg1;
 
 // Remaining properties
 @property(copy, nonatomic) _CLLSLMapRoadSegment *roadSegment; // @synthesize roadSegment=_roadSegment;

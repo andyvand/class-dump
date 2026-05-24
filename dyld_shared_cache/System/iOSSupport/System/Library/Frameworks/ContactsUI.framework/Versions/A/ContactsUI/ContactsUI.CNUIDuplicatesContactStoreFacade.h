@@ -7,11 +7,6 @@
 @interface ContactsUI.CNUIDuplicatesContactStoreFacade
 {
     id cachedContacts;
-    id contactStore;
-    id lock;
-    id logger;
-    id cachedIdentifiers;
-    id keysToFetch;
 }
 
 @end

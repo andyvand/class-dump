@@ -9,6 +9,7 @@
 @protocol UICollectionViewFocusDelegate_Legacy
 
 @optional
+- (void)Q';
 - (NSIndexPath *)ing"24@"CNCardPropertyGroup"32;
 @end
 

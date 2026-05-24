@@ -11,7 +11,6 @@
 @interface VNHumanBodyPoseObservation : VNRecognizedPointsObservation
 {
     VNHumanHandPoseObservation *_leftHand;
-    VNHumanHandPoseObservation *_rightHand;
 }
 
 - (void);
@@ -22,11 +21,10 @@
 - (id);
 - (id);
 - (id);
-- (void)ront_paw;
+- (void)animal_joint_left_front_paw;
 
 // Remaining properties
 @property(readonly, copy) NSArray *availableJointNames;
-@property(readonly, copy) NSArray *availableJointsGroupNames;
 
 @end
 

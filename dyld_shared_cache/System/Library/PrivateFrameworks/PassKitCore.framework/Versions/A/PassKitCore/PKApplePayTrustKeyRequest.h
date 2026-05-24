@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PKApplePayTrustKeyRequest
 {
     NSString *_keyIdentifier;
-    NSData *_subjectIdentifier;
 }
 
 + (_Bool)î%ð1Â0@ù
@@ -18,13 +17,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)A;
 - (void);
 - (void)"16;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *keyIdentifier; // @synthesize keyIdentifier=_keyIdentifier;
-@property(readonly, nonatomic) NSData *subjectIdentifier; // @synthesize subjectIdentifier=_subjectIdentifier;
 
 @end
 

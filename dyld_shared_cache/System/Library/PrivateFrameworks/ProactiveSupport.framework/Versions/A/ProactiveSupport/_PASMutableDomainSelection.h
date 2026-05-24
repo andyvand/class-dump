@@ -11,27 +11,25 @@
 @interface _PASMutableDomainSelection : _PASDomainSelection
 {
     NSMutableDictionary *_domains;
-    unsigned long long _count;
-    _Bool _taintedByDeepDomain;
 }
 
+- (void)its own calendars.;
+- (_Bool);
+- (id);
+- (_Bool);
+- (_Bool)fileTransferServicesConnectionComplete:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
+- (_Bool);
 - (_Bool);
-- (id);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
-- (unsigned long long);
-- (void);
+- (unsigned long long)#;
+- (void)standardUserDefaults;
 
 @end
 

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GSAddition, NSDictionary, NSURL, QLThumbnailVersion;
+@class GSAddition, NSURL;
 
 @interface QLThumbnailAddition
 {
     NSURL *_additionURL;
-    long long _additionURLSandboxToken;
-    NSDictionary *_metadata;
-    GSAddition *_addition;
-    NSDictionary *_thumbnailDataDictionary;
-    QLThumbnailVersion *_thumbnailVersion;
 }
 
 + (id);
@@ -37,7 +32,7 @@
 + (_Bool);
 + (_Bool);
 + (void);
-+ (void);
++ (void);
 + (void);
 + (void);
 + (_Bool);
@@ -55,12 +50,12 @@
 + (_Bool);
 - (id);
 - (struct CGImage *);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -79,13 +74,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned long long additionSize;
-@property(retain) NSURL *additionURL; // @synthesize additionURL=_additionURL;
-@property long long additionURLSandboxToken; // @synthesize additionURLSandboxToken=_additionURLSandboxToken;
 @property(readonly) GSAddition *genStoreAddition;
-@property(retain) NSDictionary *metadata; // @synthesize metadata=_metadata;
-@property(retain) NSDictionary *thumbnailDataDictionary; // @synthesize thumbnailDataDictionary=_thumbnailDataDictionary;
-@property(readonly) QLThumbnailVersion *thumbnailVersion;
 
 @end
 

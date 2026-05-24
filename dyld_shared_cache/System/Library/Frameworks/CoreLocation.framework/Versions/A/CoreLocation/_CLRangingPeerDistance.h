@@ -4,41 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, _CLRangingPeer;
+@class _CLRangingPeer;
 
 @interface _CLRangingPeerDistance
 {
     id _internal;
-    _Bool _initiator;
 }
 
 + (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
+- (void)ATX;
+- (id)h;
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)setSegmentCount:(struct _NSZone *)arg1;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSNumber *accuracyMeters;
-@property(readonly, copy, nonatomic) NSDate *date;
-@property(readonly, copy, nonatomic) NSNumber *distanceMeters;
-@property(readonly, nonatomic, getter=isInitiator) _Bool initiator; // @synthesize initiator=_initiator;
 @property(readonly, copy, nonatomic) _CLRangingPeer *peer;
-@property(readonly, nonatomic) _Bool shouldUnlock;
-@property(readonly, copy, nonatomic) NSDate *timestamp;
 
 @end
 

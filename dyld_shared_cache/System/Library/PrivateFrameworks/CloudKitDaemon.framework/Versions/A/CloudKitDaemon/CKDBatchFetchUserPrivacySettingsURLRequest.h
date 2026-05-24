@@ -16,12 +16,12 @@
 - (void);
 - (_Bool);
 - (id);
-- (long long);
-- (id)dFromCache;
+- (long long)";
+- (id)ShouldNotKeyRollWhenFetchedFromCache;
 - (void)cord subscription with id %@ to server:%@ /* Error: Ran out of types for this method. */;
 - (id)redentials because we don't have an account;
 - (id)ailed to delete usage entry with IDString %@ and itemType %@:(id)arg1 %@;
-- (void)_G;
+- (void)G__G;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *containerPrivacySettings; // @synthesize containerPrivacySettings=_containerPrivacySettings;

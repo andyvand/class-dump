@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECSubject, NSDate, NSString;
+@class NSString;
 @protocol IMAPMessageDataSource;
 
 @protocol IMAPMessage
+- (_Bool)q!;
+- (id <IMAPMessageDataSource>)4;
+- (unsigned long long)@;
 - (NSString *)@0:8c16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) id <IMAPMessageDataSource> dataSource;
-@property(readonly) NSDate *dateReceived;
-@property(readonly, nonatomic) _Bool hasAttachments;
-@property _Bool isPartial;
-@property(readonly, copy, nonatomic) NSString *mailboxName;
-@property(readonly, copy, nonatomic) NSString *messageID;
-@property(readonly) unsigned long long messageSize;
-@property _Bool partsHaveBeenCached;
-@property(readonly, nonatomic) _Bool shouldDeferBodyDownload;
-@property(readonly, copy) ECSubject *subject;
 @property unsigned int uid;
 @end
 

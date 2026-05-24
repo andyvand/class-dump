@@ -5,5 +5,8 @@
 //
 
 @protocol NSPathControlDelegate
+
+@optional
+- (void);
 @end
 

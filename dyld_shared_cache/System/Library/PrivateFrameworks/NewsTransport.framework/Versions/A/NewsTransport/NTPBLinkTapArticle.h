@@ -9,48 +9,35 @@
 @interface NTPBLinkTapArticle
 {
     NSString *_articleId;
-    int _articleType;
-    NSString *_linkUrl;
-    NSString *_referencedArticleId;
-    struct {
-        unsigned int articleType:1;
-    } _has;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (int);
-- (void);
-- (id);
-- (int);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (unsigned long long);
+- (void)disableControlsWithBusyIndicator;
+- (void)declineInvitationToSharedAlbum:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (void)commitUserResponses;
+- (id)center;
+- (_Bool)assets;
+- (_Bool)analyzeImageWithLocalIdentifier:fromPhotoLibraryWithURL:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)addContact:toContainerWithIdentifier: /* Error: Ran out of types for this method. */;
+- (id)_vfxAssembleCameraChromaticTransformFromShiftX;
+- (int)_vfxAssembleCameraChromaticTransformFromShiftX;
+- (void)_updateParticipants;
+- (id)_updateMovieHighlightsProducer;
+- (int)_updateInitialAutoEditDecisionList;
 - (id);
 - (_Bool);
 - (void);
+- (void);
+- (unsigned long long)I;
+- (id);
 - (_Bool);
+- (void)hema has wrong zone name;
+- (_Bool);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)setDiversificationPenaltyHalfLife: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *articleId; // @synthesize articleId=_articleId;
-@property(nonatomic) int articleType; // @synthesize articleType=_articleType;
-@property(readonly, nonatomic) _Bool hasArticleId;
-@property(nonatomic) _Bool hasArticleType;
 @property(readonly, nonatomic) _Bool hasLinkUrl;
-@property(readonly, nonatomic) _Bool hasReferencedArticleId;
-@property(retain, nonatomic) NSString *linkUrl; // @synthesize linkUrl=_linkUrl;
-@property(retain, nonatomic) NSString *referencedArticleId; // @synthesize referencedArticleId=_referencedArticleId;
 
 @end
 

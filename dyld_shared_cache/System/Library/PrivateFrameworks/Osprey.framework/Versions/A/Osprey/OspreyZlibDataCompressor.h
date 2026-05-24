@@ -8,13 +8,12 @@ __attribute__((visibility("hidden")))
 @interface OspreyZlibDataCompressor
 {
     struct z_stream_s _deflateStream;
-    unsigned char _deflateBuffer[8192];
 }
 
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)N169.38;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol UNUserNotificationClientProtocol
+- (void)(;
 @end
 

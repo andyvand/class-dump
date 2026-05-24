@@ -4,35 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
-@protocol HMMLogEventSubmitting;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDMediaDestinationManagerMetricsDispatcher
 {
     NSUUID *_identifier;
-    id <HMMLogEventSubmitting> _logEventSubmitter;
 }
 
 + (id)PE;
 - (void);
 - (id);
-- (id);
+- (id)8#;
 - (id)
 ;
 - (void)tup.version;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly) id <HMMLogEventSubmitting> logEventSubmitter; // @synthesize logEventSubmitter=_logEventSubmitter;
-@property(readonly) Class superclass;
 
 @end
 

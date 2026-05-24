@@ -12,7 +12,7 @@
 }
 
 + (_Bool);
-- (id);
+- (id)initWithInformation:(id)arg1 inView: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);

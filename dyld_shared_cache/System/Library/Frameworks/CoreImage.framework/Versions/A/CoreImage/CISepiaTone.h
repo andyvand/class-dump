@@ -6,17 +6,16 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CISepiaTone : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputIntensity;
 }
 
-+ (id);
-- (void);
++ (id)~;
+- (void)9h;
 - (id);
 - (id);
 - (void);
@@ -26,7 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputIntensity; // @synthesize inputIntensity;
 
 @end
 

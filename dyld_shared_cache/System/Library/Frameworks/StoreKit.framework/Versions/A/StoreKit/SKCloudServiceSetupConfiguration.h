@@ -9,9 +9,6 @@
 @interface SKCloudServiceSetupConfiguration
 {
     _Bool _targetsFinanceApplication;
-    _Bool _forPublicSDK;
-    NSString *_applicationIdentifier;
-    NSString *_applicationVersion;
 }
 
 + (_Bool);
@@ -23,20 +20,43 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)SSAO":{
+            "outputs":{
+                "color":"COLOR"
+            },
+            "inputs":{
+                "color":"COLOR"
+            },
+            "draw":"DRAW_QUAD",
+            "clientProgram":"NO",
+            "program":"C3D-GLSL-UNAVAILABLE"
+        }
+    },
+    "symbols":{},
+    "targets":{
+        "depth-target":{
+            "type":"depth",
+        },
+        "ssao-depth":{
+            "format":"rgba16f",
+            "type":"color",
+            "global":true,
+            "mipmapped":true,
+            "scaleFactor":1.0
+        }
+    }
+}
+ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void)`C;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *applicationIdentifier; // @synthesize applicationIdentifier=_applicationIdentifier;
-@property(copy, nonatomic) NSString *applicationVersion; // @synthesize applicationVersion=_applicationVersion;
-@property(nonatomic) _Bool forPublicSDK; // @synthesize forPublicSDK=_forPublicSDK;
-@property(nonatomic) _Bool targetsFinanceApplication; // @synthesize targetsFinanceApplication=_targetsFinanceApplication;
 
 @end
 

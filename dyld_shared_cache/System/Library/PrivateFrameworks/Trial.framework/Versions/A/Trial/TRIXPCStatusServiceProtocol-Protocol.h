@@ -5,5 +5,6 @@
 //
 
 @protocol TRIXPCStatusServiceProtocol
+- (void)n access group %{public}@, result %i;
 @end
 

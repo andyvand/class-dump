@@ -9,14 +9,12 @@
 @interface GMAvailabilityListener
 {
     id isSAESiriAvailable;
-    id isGMAvailable;
-    void delegate;
 }
 
-- (void);
+- (void)dentifier;
 - (id);
 - (id);
-- (void);
+- (void)A;
 - (void);
 
 // Remaining properties

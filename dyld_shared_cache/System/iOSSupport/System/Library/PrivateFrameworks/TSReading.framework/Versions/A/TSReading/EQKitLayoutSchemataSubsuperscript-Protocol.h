@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol EQKitLayoutNode;
+
 @protocol EQKitLayoutSchemataSubsuperscript
+- (id <EQKitLayoutNode>)ing mode;
+- (id <EQKitLayoutNode>)MusicSharePlayBehavior;
+- (id <EQKitLayoutNode>)oes not contain itemID:%@ /* Error: Ran out of types for this method. */;
 @end
 

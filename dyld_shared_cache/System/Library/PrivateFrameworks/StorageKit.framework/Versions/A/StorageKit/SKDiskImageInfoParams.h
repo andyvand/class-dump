@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface SKDiskImageInfoParams
 {
     _Bool _stdinPassPhrase;
-    _Bool _extraInfo;
-    _Bool _encryptionInfoOnly;
-    NSDictionary *_imageInfo;
 }
 
 + (id);
@@ -31,15 +26,12 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool encryptionInfoOnly; // @synthesize encryptionInfoOnly=_encryptionInfoOnly;
-@property(nonatomic) _Bool extraInfo; // @synthesize extraInfo=_extraInfo;
-@property(copy, nonatomic) NSDictionary *imageInfo; // @synthesize imageInfo=_imageInfo;
 @property(nonatomic) _Bool stdinPassPhrase; // @synthesize stdinPassPhrase=_stdinPassPhrase;
 
 @end

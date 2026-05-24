@@ -6,18 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSArray, NSNumber;
+@class NSNumber;
 
 @interface CEMLegacyRestrictionsAppsDeclaration : CEMConfigurationBase
 {
     NSNumber *_payloadAllowChat;
-    NSNumber *_payloadAllowiTunes;
-    NSNumber *_payloadAllowNews;
-    NSNumber *_payloadAllowPodcasts;
-    NSNumber *_payloadAllowSafari;
-    NSNumber *_payloadAllowVideoConferencing;
-    NSArray *_payloadBlacklistedAppBundleIDs;
-    NSNumber *_payloadAllowGroupActivity;
 }
 
 + (id);
@@ -26,7 +19,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)-;
 + (id);
 
 @end

@@ -6,31 +6,23 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSDictionary, NSString, UIButton, _UIDatePickerLinkedLabel, _UIDatePickerOverlayPresentation, _UIDatePickerStyle;
-@protocol _UIDatePickerCompactDateLabelDelegate;
+@class _UIDatePickerStyle;
 
 __attribute__((visibility("hidden")))
 @interface _UIDatePickerCompactDateLabel : UIView
 {
     _Bool _enabled;
-    _Bool _tapInteractionControlledExternally;
-    _Bool _highlightedForTouch;
-    id <_UIDatePickerCompactDateLabelDelegate> _delegate;
-    _UIDatePickerOverlayPresentation *_overlayPresentation;
-    UIButton *_backgroundView;
-    _UIDatePickerStyle *_visualStyle;
-    _UIDatePickerLinkedLabel *_textLabel;
 }
 
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
+- (void)B44B48Q52@?60;
+- (void)6@44@52@60;
+- (void)writeInitialSyncCompletedRecordIfNeeded;
+- (id)historicalMessageGUIDsDeleted:chatGUIDs:queryID: /* Error: Ran out of types for this method. */;
+- (id)haveSeenReceiptsWithQOIThisBatchSet;
+- (_Bool)_handleSyncFailureType:step:activity:attemptCount:startTime:error:retry: /* Error: Ran out of types for this method. */;
+- (void)?;
 - (void);
 - (id);
 - (void);
@@ -41,7 +33,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void)1eÐ1Â0@ù
 × ;
-- (id)nstraints;
+- (id)_clearTitleWithAccessoryContainerConstraints;
 - (void);
 - (id)appreset;
 - (void)KeyboardWidth(void);
@@ -57,25 +49,6 @@ __attribute__((visibility("hidden")))
 - (void);c;
 
 // Remaining properties
-@property(nonatomic) _Bool adjustsFontSizeToFitWidth;
-@property(retain, nonatomic) UIButton *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <_UIDatePickerCompactDateLabelDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool highlightedForTouch; // @synthesize highlightedForTouch=_highlightedForTouch;
-@property(nonatomic) double minimumScaleFactor;
-@property(nonatomic) __weak _UIDatePickerOverlayPresentation *overlayPresentation; // @synthesize overlayPresentation=_overlayPresentation;
-@property(retain, nonatomic) NSDictionary *overrideAttributes;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool tapInteractionControlledExternally; // @synthesize tapInteractionControlledExternally=_tapInteractionControlledExternally;
-@property(nonatomic) long long textAlignment;
-@property(retain, nonatomic) _UIDatePickerLinkedLabel *textLabel; // @synthesize textLabel=_textLabel;
-@property(retain, nonatomic) NSArray *titles;
 @property(retain, nonatomic) _UIDatePickerStyle *visualStyle; // @synthesize visualStyle=_visualStyle;
 
 @end

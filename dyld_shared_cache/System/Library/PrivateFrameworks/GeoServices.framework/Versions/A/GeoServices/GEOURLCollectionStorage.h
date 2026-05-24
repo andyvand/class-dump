@@ -4,33 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOURLCollectionStorage
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_name;
-    NSMutableArray *_places;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_name:1;
-        unsigned int read_places:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)workSelectionHarvest:(id)arg1;
++ (_Bool)setNetworkSelectionHarvest:(id)arg1;
 + (Class);
 - (unsigned long long);
 - (id);
+- (void)_recordsToRemove;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)CGPoint=dd}{CGSize=dd}}24q56^64Q72@80;
 - (void);
 - (id);
 - (_Bool);
@@ -38,18 +26,18 @@
 - (_Bool);
 - (void);
 - (void);
+- (id)dpoints(int, ...);
+- (void)partialScore;
+- (id)Failed to start %@. Err=%@;
 - (id);
-- (void);
-- (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)A;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id)1Â0@ù
 × ;
-- (id)riptor:closeOnDealloc: /* Error: Ran out of types for this method. */;
+- (id)initWithFileDescriptor:closeOnDealloc: /* Error: Ran out of types for this method. */;
 - (id)nSession",&,N;
 - (id)e called once per object;
 - (void);
@@ -57,9 +45,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasName;
-@property(retain, nonatomic) NSString *name;
-@property(retain, nonatomic) NSMutableArray *places;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

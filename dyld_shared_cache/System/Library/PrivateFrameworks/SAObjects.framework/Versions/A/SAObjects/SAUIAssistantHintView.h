@@ -14,16 +14,15 @@
 
 + (id);
 + (id);
-- (void);
+- (void)temSelectionFeatureExtractor15ExtractFeaturesERKNS_6vectorINS5_IfNS_9allocatorIfEEEENS6_IS8_EEEEPS8_E3$_7FfiEEE;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)A=;
+- (void)__DATA_CONST;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *commands;
-@property(copy, nonatomic) NSArray *regions;
 
 @end
 

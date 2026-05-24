@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CoreDAVErrorItem, CoreDAVItemWithHrefChildItem, CoreDAVLeafItem, ICSDocument, NSString;
+@class CoreDAVItemWithHrefChildItem;
 
 @interface CalDAVScheduleResponseDetailsItem
 {
     CoreDAVItemWithHrefChildItem *_recipientHREF;
-    CoreDAVLeafItem *_requestStatus;
-    ICSDocument *_calendarData;
-    CoreDAVErrorItem *_topLevelErrorItem;
-    NSString *_responseDescription;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -27,17 +23,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)drain_depth_p_0_50_at_charge_start_secs_curr_static_bin;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) ICSDocument *calendarData; // @synthesize calendarData=_calendarData;
 @property(retain, nonatomic) CoreDAVItemWithHrefChildItem *recipientHREF; // @synthesize recipientHREF=_recipientHREF;
-@property(readonly, nonatomic) NSString *recipientString;
-@property(retain, nonatomic) CoreDAVLeafItem *requestStatus; // @synthesize requestStatus=_requestStatus;
-@property(retain, nonatomic) NSString *responseDescription; // @synthesize responseDescription=_responseDescription;
-@property(retain, nonatomic) CoreDAVErrorItem *topLevelErrorItem; // @synthesize topLevelErrorItem=_topLevelErrorItem;
 
 @end
 

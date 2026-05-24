@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface NLXSchemaCDMDelegatedUserDialogActTier1 : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    NSString *_rewrittenUtterance;
-    _Bool _hasLinkId;
-    _Bool _hasRewrittenUtterance;
 }
 
 - (void);
@@ -27,12 +24,13 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (void);
+- (id)|;
+- (void)S PARAMETERS)
+;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)@;
 - (id)
 × ;
 - (id)hasSampledAudioFileDeletionFailed;
@@ -40,11 +38,7 @@
 - (void)¡êæ9\ó>;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasRewrittenUtterance; // @synthesize hasRewrittenUtterance=_hasRewrittenUtterance;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(copy, nonatomic) NSString *rewrittenUtterance; // @synthesize rewrittenUtterance=_rewrittenUtterance;
 
 @end
 

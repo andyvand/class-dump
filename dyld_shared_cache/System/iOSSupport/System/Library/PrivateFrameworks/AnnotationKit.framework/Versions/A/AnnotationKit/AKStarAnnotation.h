@@ -11,8 +11,8 @@
     double _innerRadiusFactor;
 }
 
-+ (id);
-+ (id);
++ (id);
++ (id)~;
 + (id);
 + (_Bool);
 - (void);
@@ -20,7 +20,7 @@
 - (id);
 - (double);
 - (id);
-- (id);
+- (id)isIntegrationSource;
 - (id);
 - (void);
 

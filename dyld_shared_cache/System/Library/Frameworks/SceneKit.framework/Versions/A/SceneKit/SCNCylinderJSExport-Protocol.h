@@ -5,11 +5,10 @@
 //
 
 @protocol SCNCylinderJSExport
++ (id);
+- (long long);
 
 // Remaining properties
-@property(nonatomic) double height;
-@property(nonatomic) long long heightSegmentCount;
-@property(nonatomic) long long radialSegmentCount;
 @property(nonatomic) double radius;
 @end
 

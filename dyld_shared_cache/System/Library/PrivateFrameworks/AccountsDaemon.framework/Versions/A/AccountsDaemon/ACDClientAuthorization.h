@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACDClient, NSDictionary, NSSet;
-
 @interface ACDClientAuthorization
 {
     _Bool _isGranted;
-    ACDClient *_client;
-    NSSet *_grantedPermissions;
-    NSDictionary *_options;
 }
 
 - (void);
@@ -19,17 +14,14 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id){b;
 - (id);
 - (void);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(retain) ACDClient *client; // @synthesize client=_client;
-@property(retain) NSSet *grantedPermissions; // @synthesize grantedPermissions=_grantedPermissions;
 @property _Bool isGranted; // @synthesize isGranted=_isGranted;
-@property(copy) NSDictionary *options; // @synthesize options=_options;
 
 @end
 

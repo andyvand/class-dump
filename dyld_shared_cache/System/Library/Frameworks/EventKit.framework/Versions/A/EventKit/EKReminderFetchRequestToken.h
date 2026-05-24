@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     EKReminderStore *_reminderStore;
 }
 
-- (id);
+- (id)elephonyUtilities;
 - (id);
 - (void);
 - (id);

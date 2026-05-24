@@ -4,56 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GCController, GCDeviceAdaptiveTriggersPayload, GCDeviceAdaptiveTriggersStatusPayload, NSString;
-@protocol GCAdaptiveTriggersXPCProxyRemoteServerEndpointInterface, NSObject><NSCopying><NSSecureCoding;
+@class GCController;
+@protocol NSObject><NSCopying><NSSecureCoding;
 
 __attribute__((visibility("hidden")))
 @interface GCAdaptiveTriggersXPCProxyClientEndpoint
 {
     GCController *_controller;
-    id <GCAdaptiveTriggersXPCProxyRemoteServerEndpointInterface> _serverEndpoint;
-    id _connectionInterruptionRegistration;
-    id _connectionInvalidationRegistration;
-    id <NSObject><NSCopying><NSSecureCoding> _identifier;
-    GCDeviceAdaptiveTriggersPayload *_leftTrigger;
-    GCDeviceAdaptiveTriggersPayload *_rightTrigger;
-    GCDeviceAdaptiveTriggersStatusPayload *_leftStatus;
-    GCDeviceAdaptiveTriggersStatusPayload *_rightStatus;
 }
 
-- (void);
-- (void);
+- (void)#;
+- (void);
+- (void)M;
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
-- (void);
+- (void)a;
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) id <NSObject><NSCopying><NSSecureCoding> identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) GCDeviceAdaptiveTriggersStatusPayload *leftStatus; // @synthesize leftStatus=_leftStatus;
-@property(retain, nonatomic) GCDeviceAdaptiveTriggersPayload *leftTrigger; // @synthesize leftTrigger=_leftTrigger;
-@property(retain, nonatomic) GCDeviceAdaptiveTriggersStatusPayload *rightStatus; // @synthesize rightStatus=_rightStatus;
-@property(retain, nonatomic) GCDeviceAdaptiveTriggersPayload *rightTrigger; // @synthesize rightTrigger=_rightTrigger;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSObject;
+@protocol TSDInfo;
+
 @protocol TSDMutableContainerInfo
+- (void)e attempting to load low quality local file;
+- (void)verReachable returned NO;
+- (void)rted to pause - identifier:(NSArray *)arg1;
+- (void);
+- (void)tamp:(NSObject<TSDInfo> *)arg1;
 @end
 

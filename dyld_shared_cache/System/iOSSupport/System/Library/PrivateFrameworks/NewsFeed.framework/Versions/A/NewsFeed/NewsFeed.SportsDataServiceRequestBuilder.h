@@ -7,7 +7,6 @@
 @interface NewsFeed.SportsDataServiceRequestBuilder
 {
     id endpoint;
-    id resource;
 }
 
 @end

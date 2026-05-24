@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
     id _oaepEncryptionOperationInternal;
 }
 
-- (void);
+- (void) ;
 - (id);
 - (id);
-- (id);
+- (id)ATTR_Other;
 - (id);
 - (void);
 - (void);

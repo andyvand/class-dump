@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id);
 - (id);
 - (id);
 - (id)UUID in options:(id)arg1 %@;

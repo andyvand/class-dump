@@ -16,7 +16,7 @@
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)Button;
 - (void);
 
 // Remaining properties

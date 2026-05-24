@@ -8,12 +8,10 @@ __attribute__((visibility("hidden")))
 @interface Ace3SoCRestoreInfoHelperOS
 {
     CDUnknownFunctionPointerType _logFunction;
-    void *_logContext;
-    _Bool _verbose;
 }
 
-- (void);
-- (id);
+- (void)_registerBiomeETLToCALoggerTask;
+- (id)_postChangeNotificationForConversationID:(id)arg1 flags:(CDUnknownFunctionPointerType)arg2 oldFlags:(void *)arg3 reason: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 

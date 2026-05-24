@@ -11,9 +11,9 @@
 }
 
 + (unsigned char)X³·ø·t¹(ºtº¼;
-- (id);
+- (id)h;
 - (_Bool);
-- (struct _GEOTileKey)RequestTimestamp;
+- (struct _GEOTileKey)addRequestTimestamp;
 - (id);
 - (id)K;
 

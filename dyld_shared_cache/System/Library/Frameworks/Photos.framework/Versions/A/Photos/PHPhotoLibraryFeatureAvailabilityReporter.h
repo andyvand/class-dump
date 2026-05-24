@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, PHFeatureAvailabilityReadOptions, PHPhotoLibrary;
-@protocol OS_dispatch_queue;
+@class PHPhotoLibrary;
 
 @interface PHPhotoLibraryFeatureAvailabilityReporter
 {
     PHPhotoLibrary *_photoLibrary;
-    PHFeatureAvailabilityReadOptions *_readOptions;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_tasks;
-    struct os_unfair_lock_s _lock_tasks;
 }
 
 - (id);

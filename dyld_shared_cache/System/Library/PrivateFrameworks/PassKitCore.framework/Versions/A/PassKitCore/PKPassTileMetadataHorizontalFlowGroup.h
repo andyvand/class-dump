@@ -9,10 +9,6 @@
 @interface PKPassTileMetadataHorizontalFlowGroup : PKPassTileMetadata
 {
     unsigned long long _columns;
-    unsigned long long _maximumRows;
-    long long _widthClass;
-    long long _heightClass;
-    unsigned long long _groupStyle;
 }
 
 + (id);
@@ -29,15 +25,11 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (unsigned long long)visioningStepAuthorization;
+- (void)bandScanCount24;
+- (unsigned long long)ProvisioningStepAuthorization;
 
 // Remaining properties
 @property(nonatomic) unsigned long long columns; // @synthesize columns=_columns;
-@property(nonatomic) unsigned long long groupStyle; // @synthesize groupStyle=_groupStyle;
-@property(nonatomic) long long heightClass; // @synthesize heightClass=_heightClass;
-@property(nonatomic) unsigned long long maximumRows; // @synthesize maximumRows=_maximumRows;
-@property(nonatomic) long long widthClass; // @synthesize widthClass=_widthClass;
 
 @end
 

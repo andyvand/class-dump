@@ -15,13 +15,10 @@
 - (void);
 - (void);
 - (void);
-- (void)etItemIdentifierDiffer:(_Bool)arg1;
-- (id)UITextInputSessionDictationEndedAction;
+- (void)setItemIdentifierDiffer:(_Bool)arg1;
+- (id)_UITextInputSessionDictationEndedAction;
 
 // Remaining properties
-@property(nonatomic) _Bool opaque; // @dynamic opaque;
-@property(nonatomic) float renderMaxAPL; // @dynamic renderMaxAPL;
-@property(nonatomic) double renderPeriod; // @dynamic renderPeriod;
 @property(copy, nonatomic) NSArray *renderTimes; // @dynamic renderTimes;
 
 @end

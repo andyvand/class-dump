@@ -9,11 +9,10 @@
 @interface MPSNDArrayTopK : MPSNDArrayUnaryKernel
 {
     unsigned long long _K;
-    _Bool _findIndices;
 }
 
 + (const struct MPSLibraryInfo *);
-- (unsigned long long);
+- (unsigned long long)JA;
 - (id);
 - (id);
 - (_Bool);
@@ -23,13 +22,12 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
+- (id)?;
 - (void);
 - (id);
 
 // Remaining properties
 @property(nonatomic) unsigned long long K; // @synthesize K=_K;
-@property(nonatomic) _Bool findIndices; // @synthesize findIndices=_findIndices;
 
 @end
 

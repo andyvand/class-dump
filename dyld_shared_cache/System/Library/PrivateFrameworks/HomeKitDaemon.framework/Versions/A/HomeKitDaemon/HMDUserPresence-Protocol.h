@@ -7,12 +7,10 @@
 @class HMDDevice, HMDUser;
 
 @protocol HMDUserPresence
+- (HMDDevice *)_get: /* Error: Ran out of types for this method. */;
 - (HMDUser *)SessionEncryption"16@"NSObject<OS_dispatch_queue>"24@"NSString"32;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAtHome) _Bool atHome;
-@property(readonly, nonatomic) HMDDevice *deviceWhichUpdatedUserPresence;
-@property(readonly, nonatomic, getter=isNotAtHome) _Bool notAtHome;
 @property(readonly, nonatomic) HMDUser *user;
 @end
 

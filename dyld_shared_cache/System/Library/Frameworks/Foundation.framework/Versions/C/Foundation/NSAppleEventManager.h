@@ -9,7 +9,6 @@
 @interface NSAppleEventManager
 {
     _Bool _isPreparedForDispatch;
-    char _padding[3];
 }
 
 + (id);
@@ -27,7 +26,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
@@ -37,7 +36,6 @@
 
 // Remaining properties
 @property(readonly, retain) NSAppleEventDescriptor *currentAppleEvent;
-@property(readonly, retain) NSAppleEventDescriptor *currentReplyAppleEvent;
 
 @end
 

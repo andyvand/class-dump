@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol MKPlaceActionItemAppearanceDataProvider;
-
 @interface MKPlaceActionItemAppearanceProvider
 {
     unsigned long long _actionType;
-    id <MKPlaceActionItemAppearanceDataProvider> _dataProvider;
 }
 
 - (_Bool);
@@ -22,7 +19,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void)PhotoForSize:options: /* Error: Ran out of types for this method. */;
+- (void)bestPhotoForSize:options: /* Error: Ran out of types for this method. */;
 
 @end
 

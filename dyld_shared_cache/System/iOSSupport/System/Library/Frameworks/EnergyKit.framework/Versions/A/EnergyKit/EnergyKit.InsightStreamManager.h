@@ -8,7 +8,6 @@
 {
     id $defaultActor;
     id activeSessions;
-    id maxAllowedStreams;
 }
 
 @end

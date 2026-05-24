@@ -5,5 +5,8 @@
 //
 
 @protocol UIWebPDFSearchOperationDelegate
+- (void);
+- (void)";
+- (void);
 @end
 

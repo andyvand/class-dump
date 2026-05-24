@@ -8,10 +8,10 @@
 {
 }
 
-+ (id);
++ (id)rK;
 + (_Bool);
 + (_Bool);
-+ (id);
++ (id)ef  _Nonnull _UINSHIDCreateForceCGEventFromHIDEvent(IOHIDEventRef _Nonnull);
 
 @end
 

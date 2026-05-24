@@ -4,35 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalUIDayViewAllDayView, CalUIDayViewGadgetController, CalUIDayViewTimeLineView, NSArray, NSColor, NSDate, NSDateFormatter, NSLayoutConstraint, NSString, NSTextField, NSTimer, NSView, NowLabel;
-@protocol CalUIDayViewGadgetAppearanceDelegate, CalUIDayViewGadgetDataSource;
+@class NSArray;
 
 @interface CalUIDayViewGadget
 {
     _Bool _allTimedEventsHaveFinished;
-    CalUIDayViewGadgetController *_controller;
-    id <CalUIDayViewGadgetDataSource> _dataSource;
-    id <CalUIDayViewGadgetAppearanceDelegate> _appearanceDelegate;
-    NSDate *_displayEnd;
-    NSArray *_dayViewOccurrences;
-    NSArray *_dayViewGridLines;
-    NSArray *_dayViewGridLabels;
-    NSDate *_nextRefreshDate;
-    NSDate *_displayStart;
-    NSDateFormatter *_dateFormatter;
-    NSColor *_transparentColor;
-    NSTimer *_refreshTimer;
-    NSTimer *_nowLineTimer;
-    NSView *_nowLine;
-    NowLabel *_nowLabel;
-    NSTextField *_noEventsLabel;
-    double _viewHeightInPixels;
-    double _allDayViewHeight;
-    CalUIDayViewAllDayView *_allDayView;
-    CalUIDayViewTimeLineView *_timelineView;
-    NSLayoutConstraint *_timeLineHeightConstraint;
-    NSLayoutConstraint *_allDaySeparatorHeightConstraint;
-    struct CGRect _displayedRect;
 }
 
 - (double);
@@ -50,16 +26,16 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)HB9;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (struct CGPoint);
 - (_Bool);
@@ -67,7 +43,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)A9	;
 - (id);
 - (id);
 - (id);
@@ -99,7 +75,7 @@
 - (void);
 - (double);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -110,7 +86,7 @@
 - (_Bool);
 - (id);
 - (double);
-- (void);
+- (void)(	;
 - (id);
 - (_Bool);
 - (void);
@@ -124,61 +100,24 @@
 - (id);
 - (struct CGRect);
 - (id);
-- (void);
+- (void)_	;
 - (_Bool);
 - (double);
+- (id)verifyCredentialsForAccount:saveWhenAuthorized:withHandler: /* Error: Ran out of types for this method. */;
+- (double);
+- (double)hared_state.unique();
+- (double);
 - (id);
-- (double);
-- (double);
-- (double);
-- (id);
-- (void);
+- (void)iG;
 - (void)0@ù
 × ;
-- (id)dentifier;
-- (void)undView;
-- (struct CGPoint)lignView:(double)arg1 withView:leadingInset:trailingInset: /* Error: Ran out of types for this method. */;
+- (id)bundleIdentifier;
+- (void)backgroundView;
+- (struct CGPoint)CalHorizontallyAlignView:(double)arg1 withView:leadingInset:trailingInset: /* Error: Ran out of types for this method. */;
 - (id)ÿ½JóÜ;
 
 // Remaining properties
-@property(retain, nonatomic) NSLayoutConstraint *allDaySeparatorHeightConstraint; // @synthesize allDaySeparatorHeightConstraint=_allDaySeparatorHeightConstraint;
-@property(retain, nonatomic) CalUIDayViewAllDayView *allDayView; // @synthesize allDayView=_allDayView;
-@property(readonly, nonatomic) double allDayViewHeight; // @synthesize allDayViewHeight=_allDayViewHeight;
-@property(nonatomic) _Bool allTimedEventsHaveFinished; // @synthesize allTimedEventsHaveFinished=_allTimedEventsHaveFinished;
-@property(retain, nonatomic) id <CalUIDayViewGadgetAppearanceDelegate> appearanceDelegate; // @synthesize appearanceDelegate=_appearanceDelegate;
-@property(nonatomic) __weak CalUIDayViewGadgetController *controller; // @synthesize controller=_controller;
-@property(nonatomic) __weak id <CalUIDayViewGadgetDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, nonatomic) NSDateFormatter *dateFormatter; // @synthesize dateFormatter=_dateFormatter;
-@property(retain, nonatomic) NSArray *dayViewGridLabels; // @synthesize dayViewGridLabels=_dayViewGridLabels;
-@property(retain, nonatomic) NSArray *dayViewGridLines; // @synthesize dayViewGridLines=_dayViewGridLines;
 @property(retain, nonatomic) NSArray *dayViewOccurrences; // @synthesize dayViewOccurrences=_dayViewOccurrences;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSDate *displayEnd; // @synthesize displayEnd=_displayEnd;
-@property(retain, nonatomic) NSDate *displayStart; // @synthesize displayStart=_displayStart;
-@property(nonatomic) struct CGRect displayedRect; // @synthesize displayedRect=_displayedRect;
-@property(readonly, nonatomic) _Bool hasEventsToShow;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double hourHeight;
-@property(retain, nonatomic) NSDate *nextRefreshDate; // @synthesize nextRefreshDate=_nextRefreshDate;
-@property(retain, nonatomic) NSTextField *noEventsLabel; // @synthesize noEventsLabel=_noEventsLabel;
-@property(retain, nonatomic) NowLabel *nowLabel; // @synthesize nowLabel=_nowLabel;
-@property(retain, nonatomic) NSView *nowLine; // @synthesize nowLine=_nowLine;
-@property(retain, nonatomic) NSTimer *nowLineTimer; // @synthesize nowLineTimer=_nowLineTimer;
-@property(readonly, nonatomic) _Bool originIsUpperLeft;
-@property(retain, nonatomic) NSTimer *refreshTimer; // @synthesize refreshTimer=_refreshTimer;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSLayoutConstraint *timeLineHeightConstraint; // @synthesize timeLineHeightConstraint=_timeLineHeightConstraint;
-@property(readonly, nonatomic) double timeWidth;
-@property(retain, nonatomic) CalUIDayViewTimeLineView *timelineView; // @synthesize timelineView=_timelineView;
-@property(readonly, nonatomic) double timelineViewHeight;
-@property(readonly, nonatomic) double topPadding;
-@property(readonly, nonatomic) NSColor *transparentColor; // @synthesize transparentColor=_transparentColor;
-@property(readonly, nonatomic) double viewHeightInPixels; // @synthesize viewHeightInPixels=_viewHeightInPixels;
-@property(readonly, nonatomic) double viewHeightInSeconds;
 
 @end
 

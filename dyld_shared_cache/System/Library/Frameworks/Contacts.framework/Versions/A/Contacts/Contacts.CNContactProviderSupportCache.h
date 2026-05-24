@@ -9,19 +9,13 @@
 @interface Contacts.CNContactProviderSupportCache
 {
     id appExtensionIdentityByBundleIdentifierCache;
-    id appExtensionIdentityCache;
-    id containerByBundleIdentifierCache;
-    id queryTask;
-    id lock;
-    id internalExtensionBundleIDs;
-    id isInternalExtensionsEnabled;
 }
 
-+ (id);
++ (id)Conditions:[ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)sensitiveContentConfigurationFromDataTransform;
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *cachedBundleIdentifiers;

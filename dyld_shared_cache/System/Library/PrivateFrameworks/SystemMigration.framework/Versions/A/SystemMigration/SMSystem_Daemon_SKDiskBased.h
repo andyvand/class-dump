@@ -6,21 +6,11 @@
 
 #import <SystemMigration/SMSystem_Daemon.h>
 
-@class NSString, SKAPFSDisk, SKBindableDisk, SKDisk;
-@protocol SKEncryptedDiskProtocol;
+@class SKDisk;
 
 @interface SMSystem_Daemon_SKDiskBased : SMSystem_Daemon
 {
     SKDisk *skDisk;
-    id cachedPrimaryIdentifier;
-    NSString *_deviceBus;
-    NSString *_deviceModelName;
-    SKDisk<SKEncryptedDiskProtocol> *_encryptedSKDisk;
-    SKAPFSDisk *_apfsSKDisk;
-    SKAPFSDisk *_dataVolume;
-    SKAPFSDisk *_systemVolume;
-    SKBindableDisk *_bindableSKDisk;
-    SKBindableDisk *_bindableDataVolume;
 }
 
 + (unsigned long long);
@@ -53,7 +43,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (id);
@@ -80,23 +70,13 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
-- (void);
+- (unsigned long long)I;
+- (void)Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation;
 - (id)V_enabled;
 - (_Bool)kSettings];
 
 // Remaining properties
-@property __weak SKAPFSDisk *apfsSKDisk; // @synthesize apfsSKDisk=_apfsSKDisk;
-@property(retain) SKBindableDisk *bindableDataVolume; // @synthesize bindableDataVolume=_bindableDataVolume;
-@property(retain) SKBindableDisk *bindableSKDisk; // @synthesize bindableSKDisk=_bindableSKDisk;
-@property(retain) id cachedPrimaryIdentifier; // @synthesize cachedPrimaryIdentifier;
-@property __weak SKAPFSDisk *dataVolume; // @synthesize dataVolume=_dataVolume;
-@property(retain) NSString *deviceBus; // @synthesize deviceBus=_deviceBus;
-@property(retain) NSString *deviceModelName; // @synthesize deviceModelName=_deviceModelName;
-@property(readonly, getter=isEncrypted) _Bool encrypted;
-@property __weak SKDisk<SKEncryptedDiskProtocol> *encryptedSKDisk; // @synthesize encryptedSKDisk=_encryptedSKDisk;
 @property(retain) SKDisk *skDisk; // @synthesize skDisk;
-@property __weak SKAPFSDisk *systemVolume; // @synthesize systemVolume=_systemVolume;
 
 @end
 

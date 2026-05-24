@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPTLVUnsignedNumberValue, NSData;
+@class NSData;
 
 @interface HAPCharacteristicValueTransitionControllerContext
 {
     NSData *_identifier;
-    HAPTLVUnsignedNumberValue *_startTime;
-    HAPTLVUnsignedNumberValue *_transitionChecksum;
 }
 
-+ (id);
++ (id);
 
 @end
 

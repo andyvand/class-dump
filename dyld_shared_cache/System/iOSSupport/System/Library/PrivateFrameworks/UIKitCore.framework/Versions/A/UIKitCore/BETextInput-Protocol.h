@@ -4,62 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSDictionary, NSString, UITextPosition, UITextRange, UIView;
-@protocol BEExtendedTextInputTraits, BETextInputDelegate;
+@class NSArray, NSDictionary, NSString, UITextPosition, UIView;
+@protocol BETextInputDelegate;
 
 @protocol BETextInput
+- (void)O;
+- (_Bool)(;
+- (void)sk"24;
+- (void)MPRemoteCommandCenter;
 - (void);
 - (void)
 × ;
-- (NSDictionary *)n:(UITextPosition *)arg1;
+- (NSDictionary *)initWithParentContext:(UITextPosition *)arg1 continuation:(long long)arg2;
 - (void)initClickBasedImplementationWithView:(NSString *)arg1;
 - (void)V_markedInput;
 - (void);
 - (void)õÿÿ¨kïÿùÿÿkïÿàjïÿÌkïÿ;
-- (_Bool)View;
+- (_Bool)removeFromView;
 - (NSString *)text.grabber.top;
 - (NSArray *)¤õþÿÂ9þÿÀ9þÿ;
 - (struct CGRect)¾7y¾7_GSg¾7G;
 - (long long)sConfigurationCSgIegnr_;
-- (UITextRange *);
-- (id <BETextInputDelegate>)g;
+- (id <BETextInputDelegate>)Sg;
 - (struct CGRect)Ë¾7y_
 à¾7SgG;
 - (_Bool);
 - (struct CGRect)POÄ7;
-- (UIView *)oardLog;
+- (UIView *)KeyboardLog;
 - (NSArray *)®ÑL[;
 - (void)ä¢[;
 - (void)È\;
 - (_Bool);
 - (void);
 
+@optional
+- (void);
+- (void)GLDContext;
+- (UIView *)buildRequiredOnlyWithServiceName:withAction: /* Error: Ran out of types for this method. */;
+- (UIView *)gaplessHeuristicInfo:durationInSamples:lastPacketsResync:encodingDelay:encodingDrain: /* Error: Ran out of types for this method. */;
+
 // Remaining properties
 @property(nonatomic) __weak id <BETextInputDelegate> asyncInputDelegate;
-@property(readonly, nonatomic) NSAttributedString *attributedMarkedText;
-@property(readonly, nonatomic) _Bool automaticallyPresentEditMenu;
-@property(readonly, nonatomic, getter=isEditable) _Bool editable;
-@property(readonly, nonatomic) id <BEExtendedTextInputTraits> extendedTextInputTraits;
-@property(readonly, nonatomic) _Bool hasMarkedText;
-@property(readonly, nonatomic) NSString *markedText;
-@property(readonly, nonatomic) UITextRange *markedTextRange;
-@property(readonly, nonatomic, getter=isReplaceAllowed) _Bool replaceAllowed;
-@property(readonly) NSString *selectedText;
-@property(copy) UITextRange *selectedTextRange;
-@property(readonly, nonatomic, getter=isSelectionAtDocumentStart) _Bool selectionAtDocumentStart;
-@property(readonly, nonatomic) struct CGRect selectionClipRect;
-@property(readonly, nonatomic) UIView *selectionContainerViewAboveText;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIView",?,R,N
-
-@property(readonly, nonatomic) UIView *selectionContainerViewBelowText;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIView",?,R,N
-
-@property(readonly, nonatomic) struct CGRect textFirstRect;
-@property(readonly, nonatomic) UIView *textInputView;
-@property(readonly, nonatomic) struct CGRect textLastRect;
-@property(readonly, nonatomic) struct CGRect unobscuredContentRect;
-@property(readonly, nonatomic) UIView *unscaledView;
 @end
 

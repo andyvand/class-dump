@@ -7,20 +7,6 @@
 @interface NewsUI2.QueryNewsPlusEngagementDonorProperty
 {
     id id;
-    id configuration;
-    id lastMagazineOpenDate;
-    id churnPropensityLevel;
-    id followedNewsPlusChannelIDs;
-    id trialEligibility;
-    id familySharingSetupStatus;
-    id isFamilySharingEligible;
-    id isFamilySharingOrganizer;
-    id lastPuzzlePlayedDate;
-    id tagController;
-    id paidAccessChecker;
-    id configurationManager;
-    id offerManager;
-    id familySharingStatusManager;
 }
 
 @end

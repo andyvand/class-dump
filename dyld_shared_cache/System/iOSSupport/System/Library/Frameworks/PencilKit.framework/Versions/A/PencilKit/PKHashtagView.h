@@ -7,13 +7,10 @@
 #import <PencilKit/PKDetectionView.h>
 
 @class PKHashtagItem, UIView;
-@protocol PKHashtagViewDelegate;
 
 @interface PKHashtagView : PKDetectionView
 {
     PKHashtagItem *_hashtagItem;
-    id <PKHashtagViewDelegate> _delegate;
-    UIView *_blankPreviewView;
 }
 
 - (void);
@@ -28,15 +25,13 @@
 - (id);
 - (void);
 - (id);
-- (id):(id)arg1;
+- (id)setRulerDistanceText:(id)arg1;
 - (void)server;
 - (void)${ð|#Ì~Àø¨1"Lh `;
 - (id)º÷;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *blankPreviewView; // @synthesize blankPreviewView=_blankPreviewView;
-@property(nonatomic) __weak id <PKHashtagViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) PKHashtagItem *hashtagItem; // @synthesize hashtagItem=_hashtagItem;
 
 @end
 

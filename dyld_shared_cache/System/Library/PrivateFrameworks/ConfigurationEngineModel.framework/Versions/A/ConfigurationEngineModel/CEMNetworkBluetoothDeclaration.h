@@ -6,7 +6,7 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface CEMNetworkBluetoothDeclaration : CEMConfigurationBase
 {
@@ -27,19 +27,12 @@
 - (_Bool);
 - (id);
 - (int);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool).VoiceServices.GryphonVoice;
+- (id)6_p_gA2tG;
+- (void)7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/ssl/s3_enc.c;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSNumber *payloadAllowBluetoothModification; // @synthesize payloadAllowBluetoothModification=_payloadAllowBluetoothModification;
-@property(readonly) Class superclass;
 
 @end
 

@@ -8,9 +8,6 @@
 {
     id stockEntityService;
     id watchlistManager;
-    id appConfigurationManager;
-    id newsPersonalizationScorer;
-    id workServiceScoringService;
 }
 
 @end

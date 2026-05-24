@@ -7,6 +7,9 @@
 @class IDSInvitationManager;
 
 @protocol IDSInvitationManagerDelegate
-- (void)ndlePrimaryResidentUpdated:(IDSInvitationManager *)arg1;
+- (void)instances;
+- (void)iinferenced.musicAppSelectionActivationNotification;
+- (void);
+- (void)handlePrimaryResidentUpdated:(IDSInvitationManager *)arg1;
 @end
 

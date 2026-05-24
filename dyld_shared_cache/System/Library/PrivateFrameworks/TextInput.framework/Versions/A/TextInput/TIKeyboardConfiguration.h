@@ -4,33 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, TIKeyboardInputManagerState, TIKeyboardIntermediateText;
+@class TIKeyboardInputManagerState;
 
 @interface TIKeyboardConfiguration
 {
     _Bool _assertDefaultKeyPlane;
-    TIKeyboardInputManagerState *_inputManagerState;
-    TIKeyboardIntermediateText *_intermediateText;
-    NSString *_layoutTag;
-    NSString *_accentKeyString;
-    NSDictionary *_contextualDisplayKeys;
-    NSArray *_multilingualLanguages;
-    NSDictionary *_trialParameters;
 }
 
 + (_Bool);
 - (void);
 - (id);
 - (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (_Bool)userFeedbacks;
+- (id)ount all assets allowed for processing:%lu (forSceneAnalysis:%@) /* Error: Ran out of types for this method. */;
+- (id)in assetsd;
+- (void)PLSearchSuggestionDateTemplateCategoryTypeOneYearAgo;
 - (id);
 - (void);
+- (void);
+- (id);
+- (void));
 - (void);
 - (id);
 - (id)~+M;
@@ -40,19 +33,12 @@
 Í
 µ
 ;
-- (void);
-- (void)tor;
-- (id)E;
+- (void)declaratively;
+- (void)injector;
+- (id)fr_BE;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accentKeyString; // @synthesize accentKeyString=_accentKeyString;
-@property(nonatomic) _Bool assertDefaultKeyPlane; // @synthesize assertDefaultKeyPlane=_assertDefaultKeyPlane;
-@property(copy, nonatomic) NSDictionary *contextualDisplayKeys; // @synthesize contextualDisplayKeys=_contextualDisplayKeys;
 @property(copy, nonatomic) TIKeyboardInputManagerState *inputManagerState; // @synthesize inputManagerState=_inputManagerState;
-@property(retain, nonatomic) TIKeyboardIntermediateText *intermediateText; // @synthesize intermediateText=_intermediateText;
-@property(copy, nonatomic) NSString *layoutTag; // @synthesize layoutTag=_layoutTag;
-@property(retain, nonatomic) NSArray *multilingualLanguages; // @synthesize multilingualLanguages=_multilingualLanguages;
-@property(copy, nonatomic) NSDictionary *trialParameters; // @synthesize trialParameters=_trialParameters;
 
 @end
 

@@ -5,5 +5,7 @@
 //
 
 @protocol FBSWorkspaceServiceServerInterface
+- (oneway void);
+- (oneway void);
 @end
 

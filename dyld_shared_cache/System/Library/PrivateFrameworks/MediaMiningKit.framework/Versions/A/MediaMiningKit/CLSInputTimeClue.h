@@ -6,19 +6,11 @@
 
 #import <MediaMiningKit/CLSInputClue.h>
 
-@class CLSServiceManager, NSArray, NSDate, NSSet;
+@class NSArray;
 
 @interface CLSInputTimeClue : CLSInputClue
 {
     NSArray *_dateComponentsArray;
-    NSArray *_events;
-    NSSet *_localDates;
-    NSDate *_localStartDate;
-    NSDate *_localEndDate;
-    NSSet *_universalDates;
-    NSDate *_universalStartDate;
-    NSDate *_universalEndDate;
-    CLSServiceManager *_serviceManager;
 }
 
 + (id);
@@ -30,8 +22,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)allMomentsMustHaveFacesProcessed;
 - (void);
 - (id);
 - (void);

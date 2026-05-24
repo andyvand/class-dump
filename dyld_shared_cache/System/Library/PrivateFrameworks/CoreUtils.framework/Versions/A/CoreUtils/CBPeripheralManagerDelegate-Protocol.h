@@ -4,9 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CBPeripheralManager;
+
 @protocol CBPeripheralManagerDelegate
 
 @optional
 - (void);
+- (void)$;
+- (void)ChangeSystemSecretWithEscrow:(CBPeripheralManager *)arg1 FromOldPasscode:ToNew:withOpaqueDats:withKeepState:withACM: /* Error: Ran out of types for this method. */;
 @end
 

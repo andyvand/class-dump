@@ -4,35 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSArray;
 
 @interface MDLSkinDeformer
 {
     NSArray *_jointPaths;
-    NSData *_jointBindTransforms;
-    CDStruct_95fa7c00 _meshBindTransform;
 }
 
 - (id);
 - (id);
-- (CDStruct_95fa7c00);
-- (id);
-- (id);
+- (CDStruct_34f00414);
+- (id)<O;
+- (id);
 - (unsigned long long);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jointBindTransforms; // @synthesize jointBindTransforms=_jointBindTransforms;
 @property(readonly, nonatomic) NSArray *jointPaths; // @synthesize jointPaths=_jointPaths;
-@property(readonly, nonatomic) CDStruct_95fa7c00 meshBindTransform; // @synthesize meshBindTransform=_meshBindTransform;
-@property(readonly) Class superclass;
 
 @end
 

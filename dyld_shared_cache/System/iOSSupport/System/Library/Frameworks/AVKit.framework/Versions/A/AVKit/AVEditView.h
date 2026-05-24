@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIMovieScrubber;
-@protocol AVEditViewDataSource, AVEditViewDelegate;
+@class UIMovieScrubber;
 
 __attribute__((visibility("hidden")))
 @interface AVEditView
 {
     _Bool _prefersThumbVisible;
-    _Bool _scrubbing;
-    _Bool _trimming;
-    id <AVEditViewDataSource> _dataSource;
-    id <AVEditViewDelegate> _delegate;
-    UIMovieScrubber *_movieScrubber;
 }
 
 - (void);
@@ -27,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (double);
-- (double);
+- (double)S;
 - (void);
 - (void);
 - (void);
@@ -43,31 +37,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGSize);
 - (id);
+- (void);
+- (void)q;
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)HMBMirrorOutputGroup;
 - (void)!ôCù±[1Â0@ù
 × ;
 - (void)ühs;
 
 // Remaining properties
-@property(nonatomic) __weak id <AVEditViewDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AVEditViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) UIMovieScrubber *movieScrubber; // @synthesize movieScrubber=_movieScrubber;
-@property(nonatomic) _Bool prefersThumbVisible; // @synthesize prefersThumbVisible=_prefersThumbVisible;
-@property(nonatomic, getter=isScrubbing) _Bool scrubbing; // @synthesize scrubbing=_scrubbing;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double trimEndTime;
-@property(readonly, nonatomic) double trimStartTime;
-@property(nonatomic, getter=isTrimming) _Bool trimming; // @synthesize trimming=_trimming;
 
 @end
 

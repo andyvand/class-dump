@@ -12,8 +12,8 @@
 
 - (id);
 - (long long);
-- (id);
-- (id)ns;
+- (id)representsSupersetOfContentOptions: /* Error: Ran out of types for this method. */;
+- (id)PGTimeTitleOptions;
 
 @end
 

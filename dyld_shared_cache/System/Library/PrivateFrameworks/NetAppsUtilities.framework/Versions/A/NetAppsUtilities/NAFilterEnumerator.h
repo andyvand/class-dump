@@ -10,19 +10,17 @@ __attribute__((visibility("hidden")))
 @interface NAFilterEnumerator
 {
     NSEnumerator *_enumerator;
-    CDUnknownBlockType _filter;
 }
 
 - (id);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)8;
 - (id);
-- (id);
+- (id)B;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSEnumerator *enumerator; // @synthesize enumerator=_enumerator;
-@property(readonly, copy, nonatomic) CDUnknownBlockType filter; // @synthesize filter=_filter;
 
 @end
 

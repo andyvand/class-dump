@@ -6,12 +6,11 @@
 
 #import <CVNLP/CVNLPCaptionModelBase.h>
 
-@class VN6Mb1ME89lyW3HpahkEygIG, VNVYvzEtX1JlUdu8xx5qhDI;
+@class VNVYvzEtX1JlUdu8xx5qhDI;
 
 @interface CVNLPVisionRequestHandler : CVNLPCaptionModelBase
 {
     VNVYvzEtX1JlUdu8xx5qhDI *_nsfwRequest;
-    VN6Mb1ME89lyW3HpahkEygIG *_significantRequest;
 }
 
 - (id);

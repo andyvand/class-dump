@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface SODictationCommandNounSpecifier
 {
     unsigned int _type;
-    NSArray *_items;
 }
 
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
-- (unsigned int);
-- (id);
+- (unsigned int)ChromelessButtonControl";
+- (id)id_long_back_HIGHLIGHTS.heic;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *items; // @synthesize items=_items;
 @property(readonly, nonatomic) unsigned int type; // @synthesize type=_type;
 
 @end

@@ -9,26 +9,22 @@
 @interface FMDIdentitySigningRequest
 {
     _Bool _useSCRT;
-    NSData *_dataToSign;
-    long long _validityInMinutes;
 }
 
 + (_Bool);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
+- (long long)^{CGPath=}16;
+- (void)40@0:(long long)arg1 8{CGPoint=dd}16Q32;
+- (void)NSRange=QQ}24;
+- (void)KRulerDelegate>";
+- (id)}}};
+- (_Bool)atio"d"edgeWidth"d"force"d"azimuth"d"altitude"d"opacity"d"radius2"d"threshold"d};
+- (id)pullCalibrationData:(id)arg1 replyBlock: /* Error: Ran out of types for this method. */;
+- (void)CUSTOM_SMART_LIST_MORNING_END_HOUR;
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSData *dataToSign; // @synthesize dataToSign=_dataToSign;
-@property(nonatomic) _Bool useSCRT; // @synthesize useSCRT=_useSCRT;
-@property(nonatomic) long long validityInMinutes; // @synthesize validityInMinutes=_validityInMinutes;
 
 @end
 

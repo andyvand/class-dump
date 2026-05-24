@@ -10,12 +10,9 @@ __attribute__((visibility("hidden")))
 @interface ABCPbSigConfig
 {
     NSString *_domain;
-    NSString *_subtype;
-    NSString *_subtypeContext;
-    NSString *_type;
 }
 
-- (_Bool);
+- (_Bool)R;
 - (void);
 - (id);
 - (void);
@@ -24,29 +21,22 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)teProxy _remoteObjectProxy];
+- (void);
+- (id)`;
+- (void);
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)Z);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *domain; // @synthesize domain=_domain;
 @property(readonly, nonatomic) _Bool hasDomain;
-@property(readonly, nonatomic) _Bool hasSubtype;
-@property(readonly, nonatomic) _Bool hasSubtypeContext;
-@property(readonly, nonatomic) _Bool hasType;
-@property(retain, nonatomic) NSString *subtype; // @synthesize subtype=_subtype;
-@property(retain, nonatomic) NSString *subtypeContext; // @synthesize subtypeContext=_subtypeContext;
-@property(retain, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

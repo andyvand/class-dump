@@ -7,7 +7,6 @@
 @interface Speech.TranscriptionEvaluator
 {
     id $defaultActor;
-    id _transcriptionEvaluatorService;
 }
 
 @end

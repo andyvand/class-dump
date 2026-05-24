@@ -6,7 +6,7 @@
 
 #import <TrialProto/TRIPBMessage.h>
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface TRIPBEnumValue : TRIPBMessage
 {
@@ -16,9 +16,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *name; // @dynamic name;
-@property(nonatomic) int number; // @dynamic number;
-@property(retain, nonatomic) NSMutableArray *optionsArray; // @dynamic optionsArray;
-@property(readonly, nonatomic) unsigned long long optionsArray_Count; // @dynamic optionsArray_Count;
 
 @end
 

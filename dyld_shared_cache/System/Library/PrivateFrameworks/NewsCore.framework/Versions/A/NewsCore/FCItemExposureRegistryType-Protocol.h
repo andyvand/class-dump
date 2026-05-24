@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet;
+@class NSArray, NSData;
 
 @protocol FCItemExposureRegistryType
+- (NSData *);
 
 // Remaining properties
-@property(nonatomic, readonly) NSSet *allExposedClusterIDs;
 @property(nonatomic, readonly) NSArray *allExposedItemIDs;
 @end
 

@@ -4,49 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface NSImageMultiURLReferencingRepProvider
 {
     NSArray *_urls;
-    NSArray *_representations;
 }
 
 - (id);
+- (id)ؙ6;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id)otifyDelegateOfStateChangeForCell:(struct _NSZone *)arg1;
+- (id)@z`	;
+- (id)_notifyDelegateOfStateChangeForCell:(struct _NSZone *)arg1;
 - (void)\Rÿ;
 
 // Remaining properties
-@property(readonly) _Bool _isIconAppearanceSensitive;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) _Bool _isSymbolImage;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) struct CGSize defaultSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGSize=dd},?,R
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSArray *representations; // @synthesize representations=_representations;
-@property(readonly) Class superclass;
-@property(readonly) NSString *symbolName;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R
-
-@property(readonly, copy) NSArray *urls; // @synthesize urls=_urls;
 
 @end
 

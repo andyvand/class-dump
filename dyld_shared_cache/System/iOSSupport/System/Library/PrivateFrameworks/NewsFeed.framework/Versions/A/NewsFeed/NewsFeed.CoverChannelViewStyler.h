@@ -7,8 +7,6 @@
 @interface NewsFeed.CoverChannelViewStyler
 {
     id fontBook;
-    id colorPalette;
-    id colorPaletteProvider;
 }
 
 @end

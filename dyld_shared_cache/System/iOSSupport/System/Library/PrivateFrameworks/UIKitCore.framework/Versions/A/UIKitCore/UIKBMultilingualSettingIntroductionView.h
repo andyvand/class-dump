@@ -6,28 +6,22 @@
 
 #import <UIKitCore/UIKBMultilingualIntroductionView.h>
 
-@class UIButton, UIKeyboardInputMode, UILabel, UIView, _UIBackdropView;
+@class UIKeyboardInputMode;
 
 __attribute__((visibility("hidden")))
 @interface UIKBMultilingualSettingIntroductionView : UIKBMultilingualIntroductionView
 {
     UIKeyboardInputMode *_inputMode;
-    _UIBackdropView *_backdropView;
-    UILabel *_titleLabel;
-    UILabel *_descriptionLabel;
-    UIButton *_settingButton;
-    UIButton *_continueButton;
-    UIView *_artworkView;
 }
 
-+ (_Bool);
++ (_Bool)nced:(id)arg1 %{BOOL}d hadQOI:%{BOOL}d wantsReceipt:%{BOOL}d /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)me task because it has higher priority work;
+- (id)n Codes | Delete Verification Codes is enabled;
 - (void);
 - (long long);
 - (void);
@@ -47,13 +41,7 @@ __attribute__((visibility("hidden")))
 - (id)Í k;
 
 // Remaining properties
-@property(retain, nonatomic) UIView *artworkView; // @synthesize artworkView=_artworkView;
-@property(retain, nonatomic) _UIBackdropView *backdropView; // @synthesize backdropView=_backdropView;
-@property(retain, nonatomic) UIButton *continueButton; // @synthesize continueButton=_continueButton;
-@property(retain, nonatomic) UILabel *descriptionLabel; // @synthesize descriptionLabel=_descriptionLabel;
 @property(retain, nonatomic) UIKeyboardInputMode *inputMode; // @synthesize inputMode=_inputMode;
-@property(retain, nonatomic) UIButton *settingButton; // @synthesize settingButton=_settingButton;
-@property(retain, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end
 

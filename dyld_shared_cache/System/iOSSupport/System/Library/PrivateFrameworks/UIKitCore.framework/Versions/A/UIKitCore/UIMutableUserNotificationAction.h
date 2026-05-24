@@ -6,22 +6,16 @@
 
 #import <UIKitCore/UIUserNotificationAction.h>
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface UIMutableUserNotificationAction : UIUserNotificationAction
 {
 }
 
-- (id)youtGuide;
+- (id)UIKeyboardLayoutGuide;
 
 // Remaining properties
-@property(nonatomic) unsigned long long activationMode; // @dynamic activationMode;
-@property(nonatomic, getter=isAuthenticationRequired) _Bool authenticationRequired; // @dynamic authenticationRequired;
-@property(nonatomic) unsigned long long behavior; // @dynamic behavior;
-@property(nonatomic, getter=isDestructive) _Bool destructive; // @dynamic destructive;
 @property(copy, nonatomic) NSString *identifier; // @dynamic identifier;
-@property(copy, nonatomic) NSDictionary *parameters; // @dynamic parameters;
-@property(copy, nonatomic) NSString *title; // @dynamic title;
 
 @end
 

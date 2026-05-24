@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatarColorVariationStore, NSArray;
+@class NSArray;
 
 @protocol AVTAvatarAttributeEditorColorSection
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool alwaysShowExtended;
-@property(readonly, nonatomic) AVTAvatarColorVariationStore *colorVariationStore;
-@property(readonly, copy, nonatomic) NSArray *extendedItems;
 @property(readonly, copy, nonatomic) NSArray *primaryItems;
 @end
 

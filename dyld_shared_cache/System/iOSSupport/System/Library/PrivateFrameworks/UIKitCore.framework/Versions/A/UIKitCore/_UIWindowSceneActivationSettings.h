@@ -4,23 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _UISpringAnimationPrototypeSettings;
-
 __attribute__((visibility("hidden")))
 @interface _UIWindowSceneActivationSettings
 {
     double _pinchActivationScaleThreshold;
-    double _pinchEndingProjectionDuration;
-    double _pinchPlatterMaxShadowIntensity;
-    double _pinchEndPlatterVelocityMultiplier;
-    _UISpringAnimationPrototypeSettings *_pinchInteractiveScale;
-    _UISpringAnimationPrototypeSettings *_pinchSettle;
-    _UISpringAnimationPrototypeSettings *_pinchShadow;
-    _UISpringAnimationPrototypeSettings *_morph;
-    _UISpringAnimationPrototypeSettings *_morphMenuDismissal;
 }
 
-+ (id);
++ (id)NSt3__110__function6__baseIFbvEEE;
 - (void);
 - (void);
 - (void);
@@ -29,29 +19,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)3;
 - (double);
 - (id);
 - (double);
 - (double);
-- (double);
-- (id);
+- (double)h;
+- (id)C;
 - (id);
 - (void);
-- (void);
-- (void)aseHeight: /* Error: Ran out of types for this method. */;
+- (void)message state as scheduled. Error:(id)arg1 %@;
+- (void)titleViewContentBaseHeight: /* Error: Ran out of types for this method. */;
 - (void)ÀÔþÿ;
 
 // Remaining properties
-@property(retain, nonatomic) _UISpringAnimationPrototypeSettings *morph; // @synthesize morph=_morph;
-@property(retain, nonatomic) _UISpringAnimationPrototypeSettings *morphMenuDismissal; // @synthesize morphMenuDismissal=_morphMenuDismissal;
 @property(nonatomic) double pinchActivationScaleThreshold; // @synthesize pinchActivationScaleThreshold=_pinchActivationScaleThreshold;
-@property(nonatomic) double pinchEndPlatterVelocityMultiplier; // @synthesize pinchEndPlatterVelocityMultiplier=_pinchEndPlatterVelocityMultiplier;
-@property(nonatomic) double pinchEndingProjectionDuration; // @synthesize pinchEndingProjectionDuration=_pinchEndingProjectionDuration;
-@property(retain, nonatomic) _UISpringAnimationPrototypeSettings *pinchInteractiveScale; // @synthesize pinchInteractiveScale=_pinchInteractiveScale;
-@property(nonatomic) double pinchPlatterMaxShadowIntensity; // @synthesize pinchPlatterMaxShadowIntensity=_pinchPlatterMaxShadowIntensity;
-@property(retain, nonatomic) _UISpringAnimationPrototypeSettings *pinchSettle; // @synthesize pinchSettle=_pinchSettle;
-@property(retain, nonatomic) _UISpringAnimationPrototypeSettings *pinchShadow; // @synthesize pinchShadow=_pinchShadow;
 
 @end
 

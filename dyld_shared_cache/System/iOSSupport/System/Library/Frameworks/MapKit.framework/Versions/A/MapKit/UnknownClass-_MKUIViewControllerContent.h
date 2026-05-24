@@ -5,7 +5,6 @@
 //
 
 @class NSString;
-@protocol MKInfoCardTheme;
 
 @interface UnknownClass (_MKUIViewControllerContent)
 - (void);
@@ -15,19 +14,9 @@
 - (double);
 - (void);
 - (id);
-- (void)te:(double)arg1 trackFeatureID:nameOfTrack:numberOfLanes:comment: /* Error: Ran out of types for this method. */;
+- (void)initForRunningTrackIssue:(double)arg1 trackCoordinate:trackFeatureID:nameOfTrack:numberOfLanes:comment: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) long long _mapkit_contentVisibility;
 @property(copy, nonatomic) NSString *accessibilityIdentifier;
-@property(nonatomic) double contentAlpha;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <MKInfoCardTheme> mk_theme;
-@property(readonly) Class superclass;
 @end
 

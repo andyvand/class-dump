@@ -4,38 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOApplicationAuditToken, GEOComposedRouteLeg, GEOComposedWaypoint, GEOMapServiceTraits, MNActiveRouteInfo, MNLocation, NSArray, NSMutableArray, NSString, geo_isolater;
+@class GEOApplicationAuditToken, NSMutableArray;
 
 @interface MNNavigationSessionState
 {
     NSMutableArray *_userIncidentReports;
-    geo_isolater *_userIncidentReportsIsolater;
-    _Bool _isDisplayingNavigationTray;
-    _Bool _hasBeenOnRouteOnce;
-    int _navigationState;
-    GEOApplicationAuditToken *_auditToken;
-    NSString *_requestingAppIdentifier;
-    unsigned long long _initialRouteSource;
-    MNLocation *_location;
-    MNActiveRouteInfo *_currentRouteInfo;
-    unsigned long long _lastRerouteReason;
-    NSArray *_alternateRouteInfos;
-    unsigned long long _targetLegIndex;
-    long long _arrivalState;
-    GEOMapServiceTraits *_traits;
-    long long _upcomingAnchorPointIndex;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)AccessibilityAttachmentModifier;
 - (void);
 - (void);
 - (unsigned long long);
+- (_Bool)TitleAndIconLabelStyle;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)SearchScopeActivationKey;
 - (id);
 - (long long);
 - (_Bool);
@@ -57,9 +42,9 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)requestsRejectedForNoSpace;
 - (unsigned long long);
 - (id);
 - (void);
@@ -70,26 +55,7 @@
 - (void)Èlüÿ/ã¹HÛ;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *alternateRouteInfos; // @synthesize alternateRouteInfos=_alternateRouteInfos;
-@property(nonatomic) long long arrivalState; // @synthesize arrivalState=_arrivalState;
 @property(retain, nonatomic) GEOApplicationAuditToken *auditToken; // @synthesize auditToken=_auditToken;
-@property(readonly, nonatomic) MNActiveRouteInfo *currentRouteInfo; // @synthesize currentRouteInfo=_currentRouteInfo;
-@property(readonly, nonatomic) GEOComposedWaypoint *currentWaypoint;
-@property(readonly, nonatomic) GEOComposedWaypoint *destination;
-@property(nonatomic) _Bool hasBeenOnRouteOnce; // @synthesize hasBeenOnRouteOnce=_hasBeenOnRouteOnce;
-@property(nonatomic) unsigned long long initialRouteSource; // @synthesize initialRouteSource=_initialRouteSource;
-@property(nonatomic) _Bool isDisplayingNavigationTray; // @synthesize isDisplayingNavigationTray=_isDisplayingNavigationTray;
-@property(readonly, nonatomic) _Bool isOnLastLeg;
-@property(readonly, nonatomic) unsigned long long lastRerouteReason; // @synthesize lastRerouteReason=_lastRerouteReason;
-@property(retain, nonatomic) MNLocation *location; // @synthesize location=_location;
-@property(nonatomic) int navigationState; // @synthesize navigationState=_navigationState;
-@property(readonly, nonatomic) GEOComposedRouteLeg *nextLeg;
-@property(retain, nonatomic) NSString *requestingAppIdentifier; // @synthesize requestingAppIdentifier=_requestingAppIdentifier;
-@property(readonly, nonatomic) GEOComposedRouteLeg *targetLeg;
-@property(nonatomic) unsigned long long targetLegIndex; // @synthesize targetLegIndex=_targetLegIndex;
-@property(retain, nonatomic) GEOMapServiceTraits *traits; // @synthesize traits=_traits;
-@property(nonatomic) long long upcomingAnchorPointIndex; // @synthesize upcomingAnchorPointIndex=_upcomingAnchorPointIndex;
-@property(readonly, nonatomic) NSArray *userIncidentReports; // @synthesize userIncidentReports=_userIncidentReports;
 
 @end
 

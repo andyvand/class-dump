@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BMPBSocialHighlightFeature
 {
     double _value;
-    NSString *_name;
-    struct {
-        unsigned int value:1;
-    } _has;
 }
 
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (void))0;
+- (void)(;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -29,16 +23,13 @@
 - (void);
 - (id);
 - (double);
-- (id);
+- (id);
 - (void)	
 ;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasName;
-@property(nonatomic) _Bool hasValue;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) double value; // @synthesize value=_value;
 
 @end
 

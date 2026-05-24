@@ -9,11 +9,10 @@
 @interface RemindersUICore.TTRMQuickBarSuggestionTableCellView
 {
     id viewModel;
-    void subtitleLabel;
 }
 
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);

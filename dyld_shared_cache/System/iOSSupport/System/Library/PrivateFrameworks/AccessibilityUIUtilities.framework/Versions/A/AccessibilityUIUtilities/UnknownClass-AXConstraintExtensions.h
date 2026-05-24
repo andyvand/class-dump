@@ -7,7 +7,7 @@
 @interface UnknownClass (AXConstraintExtensions)
 + (id);
 + (id);
-- (void);
-- (id);
+- (void){;
+- (id)h|;
 @end
 

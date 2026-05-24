@@ -7,33 +7,6 @@
 @interface WiFiAnalyticsAWDWAQuickDpsStats
 {
     unsigned long long _quickDpsTimeSincePreviousTriggerMinutes;
-    unsigned int _awdlActivityThreshold;
-    unsigned int _ccaThreshold;
-    unsigned int _probabilityThreshold;
-    unsigned int _rssiThreshold;
-    unsigned int _screenOffThreshold;
-    unsigned int _screenOnThreshold;
-    unsigned int _stallProbability;
-    int _suppressedReason;
-    _Bool _isDpsValidationDisabled;
-    _Bool _quickDpsResetRecommendation;
-    _Bool _screenStateOn;
-    _Bool _stallPrediction;
-    struct {
-        unsigned int quickDpsTimeSincePreviousTriggerMinutes:1;
-        unsigned int awdlActivityThreshold:1;
-        unsigned int ccaThreshold:1;
-        unsigned int probabilityThreshold:1;
-        unsigned int rssiThreshold:1;
-        unsigned int screenOffThreshold:1;
-        unsigned int screenOnThreshold:1;
-        unsigned int stallProbability:1;
-        unsigned int suppressedReason:1;
-        unsigned int isDpsValidationDisabled:1;
-        unsigned int quickDpsResetRecommendation:1;
-        unsigned int screenStateOn:1;
-        unsigned int stallPrediction:1;
-    } _has;
 }
 
 - (id);
@@ -42,23 +15,23 @@
 - (void);
 - (void);
 - (void);
+- (void)__got;
+- (void);
+- (void)h;
+- (void);
+- (void)Foundation.dylib;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)er requirement:(_Bool)arg1;
+- (void)ion ;
+- (void)sionRequest already handled with decision ;
+- (void)ingContainer.swift;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)tG@�;
 - (void);
 - (void);
 - (void);
@@ -85,48 +58,23 @@
 - (unsigned int);
 - (unsigned int);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (int);
-- (id);
+- (id)RuntimeVersionDebuggingOverride = %ld;
 - (void);
 - (void);
-- (unsigned int);
+- (unsigned int)=;
 - (unsigned long long);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)horizontalRotationSimilarityBaseline;
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned int awdlActivityThreshold; // @synthesize awdlActivityThreshold=_awdlActivityThreshold;
-@property(nonatomic) unsigned int ccaThreshold; // @synthesize ccaThreshold=_ccaThreshold;
-@property(nonatomic) _Bool hasAwdlActivityThreshold;
-@property(nonatomic) _Bool hasCcaThreshold;
-@property(nonatomic) _Bool hasIsDpsValidationDisabled;
-@property(nonatomic) _Bool hasProbabilityThreshold;
-@property(nonatomic) _Bool hasQuickDpsResetRecommendation;
-@property(nonatomic) _Bool hasQuickDpsTimeSincePreviousTriggerMinutes;
-@property(nonatomic) _Bool hasRssiThreshold;
-@property(nonatomic) _Bool hasScreenOffThreshold;
-@property(nonatomic) _Bool hasScreenOnThreshold;
 @property(nonatomic) _Bool hasScreenStateOn;
-@property(nonatomic) _Bool hasStallPrediction;
-@property(nonatomic) _Bool hasStallProbability;
-@property(nonatomic) _Bool hasSuppressedReason;
-@property(nonatomic) _Bool isDpsValidationDisabled; // @synthesize isDpsValidationDisabled=_isDpsValidationDisabled;
-@property(nonatomic) unsigned int probabilityThreshold; // @synthesize probabilityThreshold=_probabilityThreshold;
-@property(nonatomic) _Bool quickDpsResetRecommendation; // @synthesize quickDpsResetRecommendation=_quickDpsResetRecommendation;
-@property(nonatomic) unsigned long long quickDpsTimeSincePreviousTriggerMinutes; // @synthesize quickDpsTimeSincePreviousTriggerMinutes=_quickDpsTimeSincePreviousTriggerMinutes;
-@property(nonatomic) unsigned int rssiThreshold; // @synthesize rssiThreshold=_rssiThreshold;
-@property(nonatomic) unsigned int screenOffThreshold; // @synthesize screenOffThreshold=_screenOffThreshold;
-@property(nonatomic) unsigned int screenOnThreshold; // @synthesize screenOnThreshold=_screenOnThreshold;
-@property(nonatomic) _Bool screenStateOn; // @synthesize screenStateOn=_screenStateOn;
-@property(nonatomic) _Bool stallPrediction; // @synthesize stallPrediction=_stallPrediction;
-@property(nonatomic) unsigned int stallProbability; // @synthesize stallProbability=_stallProbability;
-@property(nonatomic) int suppressedReason; // @synthesize suppressedReason=_suppressedReason;
 
 @end
 

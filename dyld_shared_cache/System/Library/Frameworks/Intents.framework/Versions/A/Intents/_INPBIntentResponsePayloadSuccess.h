@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface _INPBIntentResponsePayloadSuccess
 {
     struct {
         unsigned int shouldOpenContainingApplication:1;
     } _has;
-    _Bool _shouldOpenContainingApplication;
-    NSData *_responseMessageData;
-    NSString *_responseTypeName;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (void);
@@ -28,29 +25,17 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)hh8;
+- (unsigned long long)h;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void)anVisualCode;
+- (void)ScanVisualCode;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasResponseMessageData;
-@property(readonly, nonatomic) _Bool hasResponseTypeName;
-@property(nonatomic) _Bool hasShouldOpenContainingApplication;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSData *responseMessageData; // @synthesize responseMessageData=_responseMessageData;
-@property(copy, nonatomic) NSString *responseTypeName; // @synthesize responseTypeName=_responseTypeName;
-@property(nonatomic) _Bool shouldOpenContainingApplication; // @synthesize shouldOpenContainingApplication=_shouldOpenContainingApplication;
-@property(readonly) Class superclass;
 
 @end
 

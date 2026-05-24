@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXMetadata;
-@protocol SXAutoPlacement, SXDocumentProviding;
+@protocol SXDocumentProviding;
 
 @interface SXDocumentMetadataProvider
 {
@@ -20,18 +19,7 @@
 - (void)ding>"24;
 
 // Remaining properties
-@property(readonly, nonatomic) id <SXAutoPlacement> autoPlacement;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) id <SXDocumentProviding> documentProvider; // @synthesize documentProvider=_documentProvider;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *language;
-@property(readonly, nonatomic) SXMetadata *metadata;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *title;
 
 @end
 

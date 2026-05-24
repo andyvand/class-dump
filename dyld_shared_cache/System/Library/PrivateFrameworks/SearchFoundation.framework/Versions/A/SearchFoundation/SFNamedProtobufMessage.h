@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSData;
 
 @interface SFNamedProtobufMessage
 {
     NSData *_protobufMessageData;
-    NSString *_protobufMessageName;
 }
 
 + (_Bool);
@@ -17,28 +16,18 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)setQueueIdentifier:(id)arg1;
+- (unsigned long long)$;
 - (_Bool);
-- (void);
+- (void)}@) isForMusicPlayback:(id)arg1 (%{BOOL}d).;
 - (id);
+- (id)goriesTypeUndefined;
+- (id)portRequestPerformSlomoFlattening(NSURL *__strong, NSURL *__strong, NSProgress *__strong, int64_t, NSURL *__strong, NSString *__strong, NSString *__strong, NSString *__strong, BOOL, PHAssetExportRequestMetadataOperation, CLLocation * _Nullable __strong, PHAssetExportRequestMetadataOperation, NSString * _Nullable __strong, PHAssetExportRequestMetadataOperation, NSString * _Nullable __strong, void (^__strong)(NSURL * _Nullable __strong, NSError * _Nullable __strong));
 - (id);
-- (id);
-- (id);
-- (void)on;
+- (void)_rfFactItemStandardCardSection;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSData *protobufMessageData; // @synthesize protobufMessageData=_protobufMessageData;
-@property(copy, nonatomic) NSString *protobufMessageName; // @synthesize protobufMessageName=_protobufMessageName;
-@property(readonly) Class superclass;
 
 @end
 

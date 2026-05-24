@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DAAccount, DATrustHandler;
+@class DAAccount;
 
 @interface DAAgent
 {
     _Bool _isMonitoring;
-    _Bool _syncWhenReachable;
-    _Bool _isWaitingForPassword;
-    DAAccount *_account;
-    double _lastRetryTimeout;
-    CDUnknownBlockType _networkReachableBlock;
 }
 
 + (id);
@@ -36,7 +31,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)C;
 - (id);
 - (id);
 - (_Bool);
@@ -50,12 +45,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) DAAccount *account; // @synthesize account=_account;
-@property(nonatomic) _Bool isMonitoring; // @synthesize isMonitoring=_isMonitoring;
-@property(nonatomic) _Bool isWaitingForPassword; // @synthesize isWaitingForPassword=_isWaitingForPassword;
-@property(nonatomic) double lastRetryTimeout; // @synthesize lastRetryTimeout=_lastRetryTimeout;
-@property(copy, nonatomic) CDUnknownBlockType networkReachableBlock; // @synthesize networkReachableBlock=_networkReachableBlock;
-@property(nonatomic) _Bool syncWhenReachable; // @synthesize syncWhenReachable=_syncWhenReachable;
-@property(readonly, nonatomic) DATrustHandler *trustHandler;
 
 @end
 

@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableData, NSString, _MRTransactionKeyProtobuf, _MRTransactionPacketProtobuf;
+@class NSData, NSMutableData;
 
 @interface MRTransactionPacket
 {
     NSMutableData *_data;
-    _MRTransactionKeyProtobuf *_key;
-    unsigned long long _writeLength;
-    unsigned long long _writePosition;
-    NSString *_identifier;
-    unsigned long long _totalLength;
-    unsigned long long _totalWritePosition;
 }
 
 - (unsigned long long);
 - (unsigned long long);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long);
 - (_Bool);
 - (id);
 - (unsigned long long);
@@ -39,17 +33,7 @@
 - (_Bool)fication for content items %@ because we are requesting a new playback queue.;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long actualLength;
 @property(readonly, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _MRTransactionKeyProtobuf *key; // @synthesize key=_key;
-@property(readonly, nonatomic) _MRTransactionPacketProtobuf *protobuf;
-@property(readonly, nonatomic, getter=isReadComplete) _Bool readComplete;
-@property(readonly, nonatomic) unsigned long long totalLength; // @synthesize totalLength=_totalLength;
-@property(readonly, nonatomic) unsigned long long totalWritePosition; // @synthesize totalWritePosition=_totalWritePosition;
-@property(readonly, nonatomic, getter=isWriteComplete) _Bool writeComplete;
-@property(nonatomic) unsigned long long writeLength; // @synthesize writeLength=_writeLength;
-@property(readonly, nonatomic) unsigned long long writePosition; // @synthesize writePosition=_writePosition;
 
 @end
 

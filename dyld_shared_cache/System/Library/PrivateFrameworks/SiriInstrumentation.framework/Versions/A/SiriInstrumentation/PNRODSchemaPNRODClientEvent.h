@@ -6,33 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class NSData, PNRODSchemaPNRODClientEventMetadata, PNRODSchemaPNRODIntelligenceFlowActionGrainSummary, PNRODSchemaPNRODIntelligenceFlowExecutorComponentSummary, PNRODSchemaPNRODIntelligenceFlowPlannerComponentSummary, PNRODSchemaPNRODIntelligenceFlowPlannerGrainSummary, PNRODSchemaPNRODIntelligenceFlowRequestGrainSummary, PNRODSchemaPNRODIntelligenceFlowResponseGenerationComponentSummary, PNRODSchemaPNRODIntelligenceFlowSessionSummary, PNRODSchemaPNRODScheduleDebugSummary, PNRODSchemaPNRODSiriTurnGrainSummary, PNRODSchemaPnRODSiriMetricsAndDims, SISchemaInstrumentationMessage;
+@class PNRODSchemaPNRODClientEventMetadata, SISchemaInstrumentationMessage;
 
 @interface PNRODSchemaPNRODClientEvent : SISchemaTopLevelUnionType
 {
     PNRODSchemaPNRODClientEventMetadata *_eventMetadata;
-    PNRODSchemaPNRODSiriTurnGrainSummary *_pnrodSiriTurnGrainSummary;
-    PNRODSchemaPNRODIntelligenceFlowRequestGrainSummary *_pnrodIntelligenceFlowRequestGrainSummary;
-    PNRODSchemaPNRODIntelligenceFlowPlannerGrainSummary *_pnrodIntelligenceFlowPlannerGrainSummary;
-    PNRODSchemaPNRODIntelligenceFlowActionGrainSummary *_pnrodIntelligenceFlowActionGrainSummary;
-    PNRODSchemaPNRODIntelligenceFlowSessionSummary *_pnrodIntelligenceFlowSessionSummary;
-    PNRODSchemaPNRODIntelligenceFlowPlannerComponentSummary *_pnrodPNRODIntelligenceFlowPlannerComponentSummary;
-    PNRODSchemaPNRODIntelligenceFlowResponseGenerationComponentSummary *_pnrodIntelligenceFlowResponseGenerationComponentSummary;
-    PNRODSchemaPNRODIntelligenceFlowExecutorComponentSummary *_pnronIntelligenceFlowExecutorComponentSummary;
-    PNRODSchemaPNRODScheduleDebugSummary *_pnronScheduleDebugSummary;
-    PNRODSchemaPnRODSiriMetricsAndDims *_pnrodSiriMetricsAndDims;
-    _Bool _hasEventMetadata;
-    _Bool _hasPnrodSiriTurnGrainSummary;
-    _Bool _hasPnrodIntelligenceFlowRequestGrainSummary;
-    _Bool _hasPnrodIntelligenceFlowPlannerGrainSummary;
-    _Bool _hasPnrodIntelligenceFlowActionGrainSummary;
-    _Bool _hasPnrodIntelligenceFlowSessionSummary;
-    _Bool _hasPnrodPNRODIntelligenceFlowPlannerComponentSummary;
-    _Bool _hasPnrodIntelligenceFlowResponseGenerationComponentSummary;
-    _Bool _hasPnronIntelligenceFlowExecutorComponentSummary;
-    _Bool _hasPnronScheduleDebugSummary;
-    _Bool _hasPnrodSiriMetricsAndDims;
-    unsigned long long _whichEvent_Type;
 }
 
 + (id);
@@ -46,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -68,17 +46,17 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)?׀;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -86,7 +64,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)�bB;
 - (void);
 - (int);
 - (void);
@@ -100,42 +78,18 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)adata:(id)arg1 %@;
 - (id);
 - (id)1Â0@ù
 × ;
 - (id)ositive"b1"numAppExamplesNegative"b1"cacheAction"b1};
-- (unsigned long long)ties;
-- (id)ecognized;
+- (unsigned long long)deleteCandidateEntities;
+- (id)_isEmojiExpectedButNotRecognized;
 - (id)heck;
-- (void)OUNTRYCODE_SN;
+- (void)COUNTRYCODE_SN;
 
 // Remaining properties
-@property(retain, nonatomic) PNRODSchemaPNRODClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasPnrodIntelligenceFlowActionGrainSummary; // @synthesize hasPnrodIntelligenceFlowActionGrainSummary=_hasPnrodIntelligenceFlowActionGrainSummary;
-@property(nonatomic) _Bool hasPnrodIntelligenceFlowPlannerGrainSummary; // @synthesize hasPnrodIntelligenceFlowPlannerGrainSummary=_hasPnrodIntelligenceFlowPlannerGrainSummary;
-@property(nonatomic) _Bool hasPnrodIntelligenceFlowRequestGrainSummary; // @synthesize hasPnrodIntelligenceFlowRequestGrainSummary=_hasPnrodIntelligenceFlowRequestGrainSummary;
-@property(nonatomic) _Bool hasPnrodIntelligenceFlowResponseGenerationComponentSummary; // @synthesize hasPnrodIntelligenceFlowResponseGenerationComponentSummary=_hasPnrodIntelligenceFlowResponseGenerationComponentSummary;
-@property(nonatomic) _Bool hasPnrodIntelligenceFlowSessionSummary; // @synthesize hasPnrodIntelligenceFlowSessionSummary=_hasPnrodIntelligenceFlowSessionSummary;
-@property(nonatomic) _Bool hasPnrodPNRODIntelligenceFlowPlannerComponentSummary; // @synthesize hasPnrodPNRODIntelligenceFlowPlannerComponentSummary=_hasPnrodPNRODIntelligenceFlowPlannerComponentSummary;
-@property(nonatomic) _Bool hasPnrodSiriMetricsAndDims; // @synthesize hasPnrodSiriMetricsAndDims=_hasPnrodSiriMetricsAndDims;
-@property(nonatomic) _Bool hasPnrodSiriTurnGrainSummary; // @synthesize hasPnrodSiriTurnGrainSummary=_hasPnrodSiriTurnGrainSummary;
-@property(nonatomic) _Bool hasPnronIntelligenceFlowExecutorComponentSummary; // @synthesize hasPnronIntelligenceFlowExecutorComponentSummary=_hasPnronIntelligenceFlowExecutorComponentSummary;
-@property(nonatomic) _Bool hasPnronScheduleDebugSummary; // @synthesize hasPnronScheduleDebugSummary=_hasPnronScheduleDebugSummary;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) PNRODSchemaPNRODIntelligenceFlowActionGrainSummary *pnrodIntelligenceFlowActionGrainSummary; // @synthesize pnrodIntelligenceFlowActionGrainSummary=_pnrodIntelligenceFlowActionGrainSummary;
-@property(retain, nonatomic) PNRODSchemaPNRODIntelligenceFlowPlannerGrainSummary *pnrodIntelligenceFlowPlannerGrainSummary; // @synthesize pnrodIntelligenceFlowPlannerGrainSummary=_pnrodIntelligenceFlowPlannerGrainSummary;
-@property(retain, nonatomic) PNRODSchemaPNRODIntelligenceFlowRequestGrainSummary *pnrodIntelligenceFlowRequestGrainSummary; // @synthesize pnrodIntelligenceFlowRequestGrainSummary=_pnrodIntelligenceFlowRequestGrainSummary;
-@property(retain, nonatomic) PNRODSchemaPNRODIntelligenceFlowResponseGenerationComponentSummary *pnrodIntelligenceFlowResponseGenerationComponentSummary; // @synthesize pnrodIntelligenceFlowResponseGenerationComponentSummary=_pnrodIntelligenceFlowResponseGenerationComponentSummary;
-@property(retain, nonatomic) PNRODSchemaPNRODIntelligenceFlowSessionSummary *pnrodIntelligenceFlowSessionSummary; // @synthesize pnrodIntelligenceFlowSessionSummary=_pnrodIntelligenceFlowSessionSummary;
-@property(retain, nonatomic) PNRODSchemaPNRODIntelligenceFlowPlannerComponentSummary *pnrodPNRODIntelligenceFlowPlannerComponentSummary; // @synthesize pnrodPNRODIntelligenceFlowPlannerComponentSummary=_pnrodPNRODIntelligenceFlowPlannerComponentSummary;
-@property(retain, nonatomic) PNRODSchemaPnRODSiriMetricsAndDims *pnrodSiriMetricsAndDims; // @synthesize pnrodSiriMetricsAndDims=_pnrodSiriMetricsAndDims;
-@property(retain, nonatomic) PNRODSchemaPNRODSiriTurnGrainSummary *pnrodSiriTurnGrainSummary; // @synthesize pnrodSiriTurnGrainSummary=_pnrodSiriTurnGrainSummary;
-@property(retain, nonatomic) PNRODSchemaPNRODIntelligenceFlowExecutorComponentSummary *pnronIntelligenceFlowExecutorComponentSummary; // @synthesize pnronIntelligenceFlowExecutorComponentSummary=_pnronIntelligenceFlowExecutorComponentSummary;
-@property(retain, nonatomic) PNRODSchemaPNRODScheduleDebugSummary *pnronScheduleDebugSummary; // @synthesize pnronScheduleDebugSummary=_pnronScheduleDebugSummary;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

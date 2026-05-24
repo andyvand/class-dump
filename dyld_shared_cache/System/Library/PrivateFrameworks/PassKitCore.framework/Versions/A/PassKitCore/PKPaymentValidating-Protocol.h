@@ -6,5 +6,8 @@
 
 @protocol PKPaymentValidating
 - (_Bool)&;
+
+@optional
+- (_Bool);
 @end
 

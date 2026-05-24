@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet;
+@class NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface NWStatsInterfaceRegistry
 {
     NSMutableSet *_neQueriedInterfaceIndexes;
-    NSMutableDictionary *_machOUUIDLookups;
-    NSMutableDictionary *_interfaceByteAccumulators;
 }
 
 + (id);
@@ -19,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);

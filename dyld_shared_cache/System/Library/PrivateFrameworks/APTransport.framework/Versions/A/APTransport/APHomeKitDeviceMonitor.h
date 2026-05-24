@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMHomeManager, NSMutableSet, NSObject, NSSet, NSString;
-@protocol OS_dispatch_queue;
+@class HMHomeManager;
 
 @interface APHomeKitDeviceMonitor
 {
     _Bool _invalidated;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _homeConfigurationDidChangeHandler;
-    HMHomeManager *_homeManager;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    NSMutableSet *_deviceIdentifiers;
 }
 
-- (void);
+- (void)B;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (CDUnknownBlockType);
 - (void);
 - (void);
+- (void)%;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)!;
 - (id);
 - (void);
 - (id);
@@ -43,26 +37,13 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)r;
 - (void);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableSet *deviceIdentifiers; // @synthesize deviceIdentifiers=_deviceIdentifiers;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType homeConfigurationDidChangeHandler; // @synthesize homeConfigurationDidChangeHandler=_homeConfigurationDidChangeHandler;
-@property(readonly, nonatomic) NSSet *homeKitDeviceIDs;
 @property(nonatomic) HMHomeManager *homeManager; // @synthesize homeManager=_homeManager;
-@property(nonatomic) NSObject<OS_dispatch_queue> *internalQueue; // @synthesize internalQueue=_internalQueue;
-@property(nonatomic) _Bool invalidated; // @synthesize invalidated=_invalidated;
-@property(readonly) Class superclass;
 
 @end
 

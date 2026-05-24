@@ -4,39 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString, NSXPCConnection, NSXPCInterface, NSXPCListener;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface MNConnectionBrokerManager
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSString *_identifier;
-    NSXPCInterface *_mapsConnectionInterface;
-    NSXPCConnection *_brokerConnection;
-    NSXPCConnection *_mapsConnection;
-    NSXPCListener *_listener;
-    NSMutableArray *_waitingPerformBlocks;
 }
 
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)4;
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void)MNNavigationServiceProxy>"16@"MNGuidanceLaneInfo"24;
-- (void)ey: /* Error: Ran out of types for this method. */;
+- (void)decodeObjectOfClasses:forKey: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

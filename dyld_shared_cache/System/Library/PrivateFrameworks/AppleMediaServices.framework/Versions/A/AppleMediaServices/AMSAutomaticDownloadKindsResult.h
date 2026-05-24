@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, NSArray;
+@class ACAccount;
 
 @interface AMSAutomaticDownloadKindsResult
 {
     ACAccount *_account;
-    NSArray *_enabledMediaKinds;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)d to iMessageGroupPhotoChangedFor: /* Error: Ran out of types for this method. */;
 - (void)ëÁYÂúíç;9ï»sÒþ;3é xãíæ×/´¦<T5~Æ2 ùZXûXÑW§A+¶%,¾ÊA¢ad»ÈÏ(Ú^êñ¦°ÎÖ¯,Î^°×´×Çß"lô®TÞåÌ­·¦zuÒ-S;
 
 // Remaining properties
 @property(readonly) ACAccount *account; // @synthesize account=_account;
-@property(readonly) NSArray *enabledMediaKinds; // @synthesize enabledMediaKinds=_enabledMediaKinds;
 
 @end
 

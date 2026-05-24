@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UISegmentedControl;
+@class UISegmentedControl;
 
 @interface CKPhotosSearchResultsModeHeaderReusableView
 {
     UISegmentedControl *_control;
-    double _bottomPadding;
-    struct UIEdgeInsets marginInsets;
 }
 
-+ (id);
++ (id)hoveredChanged;
 + (double);
 + (id);
-- (void);
+- (void)addAttachment:(struct UIEdgeInsets)arg1 atTextRange: /* Error: Ran out of types for this method. */;
 - (struct UIEdgeInsets);
-- (void);
+- (void)v;;
 - (void);
 - (id);
 - (void);
@@ -29,16 +27,7 @@
 - (void)ÿ9+;
 
 // Remaining properties
-@property(nonatomic) double bottomPadding; // @synthesize bottomPadding=_bottomPadding;
 @property(retain, nonatomic) UISegmentedControl *control; // @synthesize control=_control;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct UIEdgeInsets marginInsets; // @synthesize marginInsets;
-@property(readonly) Class superclass;
 
 @end
 

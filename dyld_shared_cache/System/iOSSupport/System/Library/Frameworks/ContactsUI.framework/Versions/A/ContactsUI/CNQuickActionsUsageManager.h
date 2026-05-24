@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSArray, NSCountedSet, NSDate, NSMutableSet;
+@class NSCountedSet;
 
 __attribute__((visibility("hidden")))
 @interface CNQuickActionsUsageManager
 {
     _Bool _sortsWithDuet;
-    NSCountedSet *_actionsUsageSet;
-    NSMutableSet *_enabledActionIdentifiers;
-    CNContact *_contact;
-    NSArray *_cachedInteractions;
-    NSDate *_cachedInteractionsDate;
 }
 
 + (_Bool);
@@ -35,18 +30,13 @@ __attribute__((visibility("hidden")))
 - (double);
 - (id);
 - (void);
-- (id);
+- (id)preferredFeedCategoryFound;
 - (void);
-- (id);
-- (void)ccess;
+- (id)lassInfo"8;
+- (void)_success;
 
 // Remaining properties
 @property(retain, nonatomic) NSCountedSet *actionsUsageSet; // @synthesize actionsUsageSet=_actionsUsageSet;
-@property(retain, nonatomic) NSArray *cachedInteractions; // @synthesize cachedInteractions=_cachedInteractions;
-@property(retain, nonatomic) NSDate *cachedInteractionsDate; // @synthesize cachedInteractionsDate=_cachedInteractionsDate;
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(retain, nonatomic) NSMutableSet *enabledActionIdentifiers; // @synthesize enabledActionIdentifiers=_enabledActionIdentifiers;
-@property(nonatomic) _Bool sortsWithDuet; // @synthesize sortsWithDuet=_sortsWithDuet;
 
 @end
 

@@ -6,27 +6,24 @@
 
 #import <TextInput/TITypologyRecord.h>
 
-@class TIKeyboardConfiguration, TIKeyboardInput, TIKeyboardOutput, TIKeyboardState;
+@class TIKeyboardInput;
 
 @interface TITypologyRecordKeyboardInput : TITypologyRecord
 {
     TIKeyboardInput *_input;
-    TIKeyboardState *_keyboardState;
-    TIKeyboardOutput *_output;
-    TIKeyboardConfiguration *_keyboardConfig;
 }
 
 + (_Bool);
 - (id);
-- (void);
+- (void)WMF;
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)%@ was uploaded before, leaving the state as Uploaded;
+- (void)ECT uuid_0, uuid_1 FROM assets WHERE rowid IN matchingIds ORDER BY creationDate;
 - (id);
 - (void);
 - (id);
@@ -37,14 +34,11 @@
 ¬
 À
 ;
-- (id)alization;
-- (void)trality;
+- (id)universalization;
+- (void)sinistrality;
 
 // Remaining properties
 @property(retain, nonatomic) TIKeyboardInput *input; // @synthesize input=_input;
-@property(retain, nonatomic) TIKeyboardConfiguration *keyboardConfig; // @synthesize keyboardConfig=_keyboardConfig;
-@property(retain, nonatomic) TIKeyboardState *keyboardState; // @synthesize keyboardState=_keyboardState;
-@property(retain, nonatomic) TIKeyboardOutput *output; // @synthesize output=_output;
 
 @end
 

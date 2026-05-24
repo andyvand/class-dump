@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPredicate, NSString;
+@class NSPredicate;
 
 __attribute__((visibility("hidden")))
 @interface _MXExtensionLookupPolicy
@@ -12,20 +12,13 @@ __attribute__((visibility("hidden")))
     NSPredicate *_extensionPredicate;
 }
 
-- (void);
+- (void)"16@"NSString"24@?<v@?B>32;
 - (id);
 - (id);
-- (void)lectablePartsOnly;
+- (void)shouldRecognizeMouseOverSelectablePartsOnly;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSPredicate *extensionPredicate; // @synthesize extensionPredicate=_extensionPredicate;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

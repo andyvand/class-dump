@@ -18,9 +18,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSPersistentHistoryToken *historyTokenForCloudSharedStore; // @dynamic historyTokenForCloudSharedStore;
-@property(retain, nonatomic) NSPersistentHistoryToken *historyTokenForCloudStore; // @dynamic historyTokenForCloudStore;
-@property(retain, nonatomic) NSPersistentHistoryToken *historyTokenForWorkingStore; // @dynamic historyTokenForWorkingStore;
-@property(nonatomic) _Bool unique; // @dynamic unique;
 
 @end
 

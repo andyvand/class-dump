@@ -4,40 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableOrderedSet, NSMutableSet, NSPointerArray, NSSet, NSString;
+@class NSPointerArray;
 
 __attribute__((visibility("hidden")))
 @interface _UITabCustomizationStore
 {
     _Bool _ignoringUpdates;
-    NSString *_persistenceIdentifier;
-    NSMutableSet *_excludedItems;
-    NSSet *_allGroupIdentifiers;
-    NSMutableSet *_collapsedGroupIdentifiers;
-    double _preferredSidebarWidth;
-    long long _preferredSidebarVisibility;
-    NSPointerArray *_observers;
-    NSMutableOrderedSet *_includedItems;
-    NSMutableSet *_hiddenItems;
-    NSMutableSet *_visibleItems;
-    NSMutableDictionary *_displayOrdersByIdentifier;
 }
 
-+ (id);
++ (id)~;
 + (void);
 + (id);
+- (void){;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)FP_SQID_NUM_NATIVE_ALU_INSTRUCTIONS;
+- (void)FP_SQID_NUM_ADDRESS_REGISTERS;
 - (double);
 - (long long);
-- (void);
+- (void)dictionaryRepresentation;
 - (_Bool);
 - (id);
 - (id);
@@ -48,16 +37,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id)2@?<v@?>40;
+- (void)_alternateAttachmentPathIfExists: /* Error: Ran out of types for this method. */;
+- (void)_aliasesForIDSAccount:(id)arg1;
+- (void)_aliases;
+- (void);
+- (void);
+- (unsigned long long)aliasToCNIDMapUnavailable;
+- (id)%@ encountered error:(id)arg1 %@;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
+- (void);
 - (id)1Â0@ù
 × ;
 - (id)Á	!Bùf1Â0@ù
@@ -68,18 +57,7 @@ __attribute__((visibility("hidden")))
 - (void)utoFillUI;
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *allGroupIdentifiers; // @synthesize allGroupIdentifiers=_allGroupIdentifiers;
-@property(retain, nonatomic) NSMutableSet *collapsedGroupIdentifiers; // @synthesize collapsedGroupIdentifiers=_collapsedGroupIdentifiers;
-@property(readonly, nonatomic) NSMutableDictionary *displayOrdersByIdentifier; // @synthesize displayOrdersByIdentifier=_displayOrdersByIdentifier;
-@property(retain, nonatomic) NSMutableSet *excludedItems; // @synthesize excludedItems=_excludedItems;
-@property(readonly, nonatomic) _Bool hasFavoriteOrderCustomization;
-@property(readonly, nonatomic) NSMutableSet *hiddenItems; // @synthesize hiddenItems=_hiddenItems;
-@property(readonly, nonatomic) NSMutableOrderedSet *includedItems; // @synthesize includedItems=_includedItems;
 @property(readonly, nonatomic) NSPointerArray *observers; // @synthesize observers=_observers;
-@property(readonly, copy, nonatomic) NSString *persistenceIdentifier; // @synthesize persistenceIdentifier=_persistenceIdentifier;
-@property(nonatomic) long long preferredSidebarVisibility; // @synthesize preferredSidebarVisibility=_preferredSidebarVisibility;
-@property(nonatomic) double preferredSidebarWidth; // @synthesize preferredSidebarWidth=_preferredSidebarWidth;
-@property(readonly, nonatomic) NSMutableSet *visibleItems; // @synthesize visibleItems=_visibleItems;
 
 @end
 

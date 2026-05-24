@@ -9,15 +9,14 @@
 @interface JetUI.DynamicTextField
 {
     id adjustsFontForContentSizeCategory;
-    id customTextStyle;
 }
 
-- (void);
+- (void)z;
+- (id)_timelineView;
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)*;
+- (void);
 
 // Remaining properties
 @property(nonatomic, retain) NSFont *font;

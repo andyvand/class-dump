@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSObject, NSString, SRResources, SSCoreMLInterface;
-@protocol OS_dispatch_queue;
+@class NSDictionary, SRResources;
 
 @interface SSBullseyeSuggestionsManager
 {
     NSDictionary *_defaultOptions;
-    SSCoreMLInterface *_blendingModel;
-    _Bool _enabledSuggestionsOverrides;
-    _Bool _enabledSuggestionsBlending;
-    _Bool _enabledFullSuggestionsBlending;
-    _Bool _enabledAboveFoldResults;
-    _Bool _ignoreMaxCount;
-    SRResources *_resources;
-    NSString *_blendingModelPath;
-    NSDictionary *_modelFeatureNames;
-    NSNumber *_serverSuggestionThreshold;
-    NSNumber *_localSuggestionThreshold;
-    long long _maxTotalSuggestionCount;
-    long long _maxTotalSuggestionCountForAboveFoldResults;
-    long long _maxServerSuggestionCount;
-    long long _maxLocalSuggestionCount;
-    unsigned long long _localDisplayPosition;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (id);
@@ -37,51 +19,35 @@
 - (id);
 - (id);
 - (id);
+- (long long)tResourceLoader"16@"AVAssetResourceLoadingRequest"24;
+- (long long)rceRenewalRequest"24;
 - (long long);
-- (long long);
-- (long long);
-- (long long);
-- (id);
-- (unsigned long long);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (long long)etResourceLoader"16@"AVAssetResourceLoadingRequest"24;
+- (id)ize=dd}}72@0:8Q16^{CGSize=dd}24^d32^d40{CGSize=dd}48Q64 /* Error: Ran out of types for this method. */;
+- (unsigned long long)ererSizeClassParameters";
+- (void)0:(id)arg1 8@16^{?=[32{?=SS}]Q}24;
+- (void){CGPoint="x"d"y"d};
+- (id)webView:(id)arg1 navigationAction:(id)arg2 didBecomeDownload: /* Error: Ran out of types for this method. */;
+- (_Bool)setWaitingForPlayback: /* Error: Ran out of types for this method. */;
+- (_Bool)setLineWidth: /* Error: Ran out of types for this method. */;
+- (_Bool)setLineBreakMode: /* Error: Ran out of types for this method. */;
+- (_Bool)setLeadingIconSize: /* Error: Ran out of types for this method. */;
+- (_Bool)setLeadingIconBadgeProperties: /* Error: Ran out of types for this method. */;
+- (void)resetPlaybackState;
+- (id)performLookupWithBundleIdentifiers:itemIdentifiers: /* Error: Ran out of types for this method. */;
+- (id)performAsCurrentDrawingAppearance: /* Error: Ran out of types for this method. */;
+- (id)markAsFinished;
+- (id)lineFragmentRectForGlyphAtIndex:(id)arg1 effectiveRange:(id)arg2;
+- (void)layoutPlayButton;
+- (id)bu;
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)ns;
+- (void)definitions;
 
 // Remaining properties
-@property(readonly, nonatomic) SSCoreMLInterface *blendingModel;
-@property(readonly, nonatomic) NSString *blendingModelPath; // @synthesize blendingModelPath=_blendingModelPath;
-@property(readonly, nonatomic) _Bool enabledAboveFoldResults; // @synthesize enabledAboveFoldResults=_enabledAboveFoldResults;
-@property(readonly, nonatomic) _Bool enabledFullSuggestionsBlending; // @synthesize enabledFullSuggestionsBlending=_enabledFullSuggestionsBlending;
-@property(readonly, nonatomic) _Bool enabledSuggestionsBlending; // @synthesize enabledSuggestionsBlending=_enabledSuggestionsBlending;
-@property(readonly, nonatomic) _Bool enabledSuggestionsOverrides; // @synthesize enabledSuggestionsOverrides=_enabledSuggestionsOverrides;
-@property(readonly, nonatomic) _Bool ignoreMaxCount; // @synthesize ignoreMaxCount=_ignoreMaxCount;
-@property(readonly, nonatomic) unsigned long long localDisplayPosition; // @synthesize localDisplayPosition=_localDisplayPosition;
-@property(readonly, nonatomic) NSNumber *localSuggestionThreshold; // @synthesize localSuggestionThreshold=_localSuggestionThreshold;
-@property(readonly, nonatomic) long long maxLocalSuggestionCount; // @synthesize maxLocalSuggestionCount=_maxLocalSuggestionCount;
-@property(readonly, nonatomic) long long maxServerSuggestionCount; // @synthesize maxServerSuggestionCount=_maxServerSuggestionCount;
-@property(readonly, nonatomic) long long maxTotalSuggestionCount; // @synthesize maxTotalSuggestionCount=_maxTotalSuggestionCount;
-@property(readonly, nonatomic) long long maxTotalSuggestionCountForAboveFoldResults; // @synthesize maxTotalSuggestionCountForAboveFoldResults=_maxTotalSuggestionCountForAboveFoldResults;
-@property(readonly, nonatomic) NSDictionary *modelFeatureNames; // @synthesize modelFeatureNames=_modelFeatureNames;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property(readonly, nonatomic) SRResources *resources; // @synthesize resources=_resources;
-@property(readonly, nonatomic) NSNumber *serverSuggestionThreshold; // @synthesize serverSuggestionThreshold=_serverSuggestionThreshold;
 
 @end
 

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecordID, NSArray, NSMutableDictionary, NSNumber, NSString;
+@class NSMutableDictionary, NSString;
 
 @interface CKDAssetRecord
 {
     NSString *_recordType;
-    CKRecordID *_recordID;
-    NSMutableDictionary *_itemsByRecordKey;
-    NSMutableDictionary *_sectionItemsByRecordKey;
-    NSMutableDictionary *_rereferencedItemsByRecordKey;
-    NSNumber *_sizeUpperBoundNumber;
-    NSNumber *_rerefSizeUpperBoundNumber;
 }
 
 - (id);
@@ -31,9 +25,9 @@
 - (_Bool);
 - (void);
 - (id);
+- (id)IX;
 - (id);
-- (id);
-- (id);
+- (id),&,N,V_key;
 - (void);
 - (id);
 - (id);
@@ -46,24 +40,14 @@
 - (void);
 - (_Bool);
 - (id);
-- (void)icationBundleID;
+- (void)_applicationBundleID;
 - (_Bool)0-è-´/è1;
 - (void);
 - (id)ÃÿÿìÄÿÿÅÿÿ$Åÿÿ´ÅÿÿÆÿÿXÆÿÿ¼ÇÿÿÈÿÿdÈÿÿÐÈÿÿÉÿÿÊÿÿ Êÿÿ|ÊÿÿÌÊÿÿËÿÿ¼ËÿÿÌÿÿlÌÿÿØÌÿÿ$ÍÿÿpÍÿÿ4Îÿÿ8ÏÿÿPÏÿÿ°ÏÿÿÈÏÿÿHÐÿÿÐÿÿàÐÿÿÑÿÿ<Ñÿÿ`ÑÿÿxÑÿÿÑÿÿ¨ÑÿÿÌÑÿÿäÑÿÿüÑÿÿ(ÒÿÿHÒÿÿhÒÿÿÒÿÿ¨ÒÿÿÈÒÿÿèÒÿÿÓÿÿ(ÓÿÿHÓÿÿhÓÿÿÓÿÿ¨ÓÿÿÈÓÿÿèÓÿÿ;
 - (id)om sharedCache map:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allMMCSItems;
-@property(readonly, nonatomic) NSArray *allMMCSSectionItems;
 @property(retain, nonatomic) NSMutableDictionary *itemsByRecordKey; // @synthesize itemsByRecordKey=_itemsByRecordKey;
-@property(readonly, nonatomic) CKRecordID *recordID; // @synthesize recordID=_recordID;
-@property(readonly, nonatomic) NSString *recordType; // @synthesize recordType=_recordType;
-@property(readonly) unsigned int rerefSizeUpperBound;
-@property(retain, nonatomic) NSNumber *rerefSizeUpperBoundNumber; // @synthesize rerefSizeUpperBoundNumber=_rerefSizeUpperBoundNumber;
-@property(retain, nonatomic) NSMutableDictionary *rereferencedItemsByRecordKey; // @synthesize rereferencedItemsByRecordKey=_rereferencedItemsByRecordKey;
-@property(retain, nonatomic) NSMutableDictionary *sectionItemsByRecordKey; // @synthesize sectionItemsByRecordKey=_sectionItemsByRecordKey;
-@property(readonly) unsigned int sizeUpperBound;
-@property(retain, nonatomic) NSNumber *sizeUpperBoundNumber; // @synthesize sizeUpperBoundNumber=_sizeUpperBoundNumber;
 
 @end
 

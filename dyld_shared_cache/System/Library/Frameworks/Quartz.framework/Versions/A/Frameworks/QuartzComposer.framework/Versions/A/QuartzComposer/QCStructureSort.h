@@ -6,14 +6,11 @@
 
 #import <QuartzComposer/QCPatch.h>
 
-@class NSMutableArray, QCStringPort, QCStructurePort;
+@class QCStructurePort;
 
 @interface QCStructureSort : QCPatch
 {
     QCStructurePort *inputStructure;
-    QCStringPort *inputSortingKey;
-    QCStructurePort *outputStructure;
-    NSMutableArray *_cachedSortingKey;
 }
 
 + (_Bool);

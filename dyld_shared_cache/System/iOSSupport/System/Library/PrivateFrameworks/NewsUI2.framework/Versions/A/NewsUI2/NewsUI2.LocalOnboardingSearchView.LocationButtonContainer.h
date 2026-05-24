@@ -10,7 +10,7 @@
 }
 
 - (id);
-- (void);
+- (void)_loadedContentItemsRange;
 - (id);
 - (void),m¦þM:_(m¦þU:_hSþ5:_m¦þ /* Error: Ran out of types for this method. */;
 

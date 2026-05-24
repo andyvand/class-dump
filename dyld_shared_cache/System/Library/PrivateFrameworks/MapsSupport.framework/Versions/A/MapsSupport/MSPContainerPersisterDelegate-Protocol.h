@@ -5,5 +5,6 @@
 //
 
 @protocol MSPContainerPersisterDelegate
+- (void);
 @end
 

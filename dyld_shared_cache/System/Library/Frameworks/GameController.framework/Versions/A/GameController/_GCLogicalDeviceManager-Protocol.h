@@ -4,9 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol _GCLogicalDeviceRegistry;
+@protocol _GCLogicalDevice, _GCLogicalDeviceRegistry;
 
 @protocol _GCLogicalDeviceManager
+- (void)\;
+- (id <_GCLogicalDevice>);
+
+@optional
+- (void)q;
 
 // Remaining properties
 @property __weak id <_GCLogicalDeviceRegistry> deviceRegistry;

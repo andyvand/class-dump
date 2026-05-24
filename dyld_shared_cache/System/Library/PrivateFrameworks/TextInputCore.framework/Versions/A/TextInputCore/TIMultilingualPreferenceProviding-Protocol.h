@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, TIInputMode;
+@class TIInputMode;
 
 @protocol TIMultilingualPreferenceProviding
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *preferredAdditionalInputModes;
 @property(readonly, nonatomic) TIInputMode *preferredSecondaryInputMode;
-@property(readonly, nonatomic) NSArray *userEnabledInputModes;
-@property(readonly, nonatomic) NSArray *userPreferredLanguages;
 @end
 

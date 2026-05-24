@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, NSURLProtectionSpace, WBSAutoFillAssociatedDomainsManager, WBSSavedAccountContext;
+@class NSString;
 
 @interface WBUGeneratedPasswordCredentialUpdateRequest
 {
     _Bool _shouldSaveNewCredential;
-    _Bool _shouldSaveExistingCredential;
-    NSString *_username;
-    NSString *_generatedPassword;
-    NSString *_lastGeneratedPassword;
-    NSURLProtectionSpace *_protectionSpace;
-    WBSSavedAccountContext *_savedAccountContext;
-    NSURL *_urlForCredential;
-    WBSAutoFillAssociatedDomainsManager *_associatedDomainsManager;
 }
 
 + (id);
@@ -24,23 +16,15 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (id)B;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id),N,V_compactContentViewConstraints;
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) WBSAutoFillAssociatedDomainsManager *associatedDomainsManager; // @synthesize associatedDomainsManager=_associatedDomainsManager;
-@property(readonly, copy, nonatomic) NSString *generatedPassword; // @synthesize generatedPassword=_generatedPassword;
-@property(readonly, copy, nonatomic) NSString *lastGeneratedPassword; // @synthesize lastGeneratedPassword=_lastGeneratedPassword;
-@property(readonly, nonatomic) NSURLProtectionSpace *protectionSpace; // @synthesize protectionSpace=_protectionSpace;
-@property(readonly, nonatomic) WBSSavedAccountContext *savedAccountContext; // @synthesize savedAccountContext=_savedAccountContext;
-@property(readonly, nonatomic) _Bool shouldSaveExistingCredential; // @synthesize shouldSaveExistingCredential=_shouldSaveExistingCredential;
-@property(readonly, nonatomic) _Bool shouldSaveNewCredential; // @synthesize shouldSaveNewCredential=_shouldSaveNewCredential;
-@property(readonly, nonatomic) NSURL *urlForCredential; // @synthesize urlForCredential=_urlForCredential;
 @property(readonly, copy, nonatomic) NSString *username; // @synthesize username=_username;
 
 @end

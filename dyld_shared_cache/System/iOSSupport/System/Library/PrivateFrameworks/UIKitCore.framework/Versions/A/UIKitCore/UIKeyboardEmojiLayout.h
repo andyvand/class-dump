@@ -16,12 +16,12 @@ __attribute__((visibility("hidden")))
 }
 
 + (Class);
-- (_Bool);
+- (_Bool)* This is a text part (%@);
 - (void);
 - (void);
-- (void);
+- (void)CEMPolicyCategorySettingsDeclaration;
 - (id);
-- (id)tonBackground:(struct CGRect)arg1;
+- (id)shouldForceLegacyLeftBackTitleMarginForCustomBackButtonBackground:(struct CGRect)arg1;
 - (_Bool)@;
 - (id)glassBackground.inputSDRGradientDistance1;
 - (void);

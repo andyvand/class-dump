@@ -19,7 +19,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)tryCode" table:nil] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 

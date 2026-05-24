@@ -4,28 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor, _SFPBImage, _SFPBRichText;
+@class NSArray, NSData, _SFPBRichText;
 
 @protocol _SFPBAudioPlaybackCardSection
-- (int);
+- (void);
+- (_Bool)enqueueAVDownloadRequest:toDestination:withOptions:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)displayStatusChanged:status: /* Error: Ran out of types for this method. */;
+- (_SFPBRichText *)_initWithDictionary:amsBag:requestDate:expirationDate:serverCorrelationKey:serverEnvironment:profileName:profileVersion:sourceAccountDSID: /* Error: Ran out of types for this method. */;
+- (NSData *)Ll;
+- (_SFPBRichText *){;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor;
-@property(nonatomic) _Bool canBeHidden;
-@property(retain, nonatomic) _SFPBRichText *detailText;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *playCommands;
 @property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(nonatomic) int separatorStyle;
-@property(nonatomic) int state;
-@property(copy, nonatomic) NSArray *stopCommands;
-@property(retain, nonatomic) _SFPBRichText *subtitle;
-@property(retain, nonatomic) _SFPBImage *thumbnail;
-@property(retain, nonatomic) _SFPBRichText *title;
-@property(copy, nonatomic) NSString *type;
 @end
 

@@ -4,39 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDAmenityRibbonItem, GEOPDContactlessPaymentsRibbonItem, GEOPDFactoidRibbonItem, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDRibbonItem
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPDAmenityRibbonItem *_amenityRibbonItem;
-    GEOPDContactlessPaymentsRibbonItem *_contactlessPaymentsRibbonItem;
-    GEOPDFactoidRibbonItem *_factoidRibbonItem;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _type;
-    struct {
-        unsigned int has_type:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_amenityRibbonItem:1;
-        unsigned int read_contactlessPaymentsRibbonItem:1;
-        unsigned int read_factoidRibbonItem:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)ecorder:wasBuffered:receivedNumChannels: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id):(struct _NSZone *)arg1 8@16@24@32Q40;
-- (id)sOutOfTelephoneAds;
+- (id)_optsOutOfTelephoneAds;
 - (id)Ä÷;
 - (void)}®¶b{G@;
 

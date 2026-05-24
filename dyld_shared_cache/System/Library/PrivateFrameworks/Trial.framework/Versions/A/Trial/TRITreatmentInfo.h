@@ -10,10 +10,6 @@
 @interface TRITreatmentInfo
 {
     id <TRIPaths> _paths;
-    int _deploymentId;
-    NSString *_namespaceName;
-    NSString *_treatmentId;
-    NSString *_experimentId;
 }
 
 + (id);
@@ -21,9 +17,9 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (void);
 - (void);
@@ -41,10 +37,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) int deploymentId; // @synthesize deploymentId=_deploymentId;
-@property(retain, nonatomic) NSString *experimentId; // @synthesize experimentId=_experimentId;
 @property(retain, nonatomic) NSString *namespaceName; // @synthesize namespaceName=_namespaceName;
-@property(retain, nonatomic) NSString *treatmentId; // @synthesize treatmentId=_treatmentId;
 
 @end
 

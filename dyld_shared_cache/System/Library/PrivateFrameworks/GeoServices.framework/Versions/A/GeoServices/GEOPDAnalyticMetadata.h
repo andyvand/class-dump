@@ -4,65 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOAbAssignInfo, GEOLocalTime, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOPDAnalyticMetadata
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    struct GEOSessionID _sessionId;
-    GEOAbAssignInfo *_abAssignInfo;
-    NSString *_appIdentifier;
-    NSString *_appMajorVersion;
-    NSString *_appMinorVersion;
-    NSString *_hardwareClass;
-    NSString *_hardwareModel;
-    NSString *_loggedAbExperiment;
-    NSString *_osVersion;
-    NSString *_productName;
-    double _relativeTimestamp;
-    GEOLocalTime *_requestTime;
-    NSMutableArray *_serviceTags;
-    unsigned long long _sessionCreateHour;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _requestSource;
-    unsigned int _routeStopCount;
-    unsigned int _sequenceNumber;
-    _Bool _isFromApi;
-    _Bool _isInternalInstall;
-    _Bool _isInternalTool;
-    _Bool _isSiriOriginalRequest;
-    struct {
-        unsigned int has_sessionId:1;
-        unsigned int has_relativeTimestamp:1;
-        unsigned int has_sessionCreateHour:1;
-        unsigned int has_requestSource:1;
-        unsigned int has_routeStopCount:1;
-        unsigned int has_sequenceNumber:1;
-        unsigned int has_isFromApi:1;
-        unsigned int has_isInternalInstall:1;
-        unsigned int has_isInternalTool:1;
-        unsigned int has_isSiriOriginalRequest:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_abAssignInfo:1;
-        unsigned int read_appIdentifier:1;
-        unsigned int read_appMajorVersion:1;
-        unsigned int read_appMinorVersion:1;
-        unsigned int read_hardwareClass:1;
-        unsigned int read_hardwareModel:1;
-        unsigned int read_loggedAbExperiment:1;
-        unsigned int read_osVersion:1;
-        unsigned int read_productName:1;
-        unsigned int read_requestTime:1;
-        unsigned int read_serviceTags:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)etHasVoiceGuidanceLevel:(id)arg1;
++ (_Bool)setHasVoiceGuidanceLevel:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -70,16 +20,16 @@
 - (_Bool);
 - (int);
 - (void);
-- (void);
+- (void)bR;
+- (id);
 - (id);
-- (id);
 - (void);
-- (void);
+- (void)URLSession:(_Bool)arg1 didReceiveChallenge:completionHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)_phoneCallStateMonitor;
+- (id)}!;
+- (void)dPolicyIOS _isSpeechDetectionDevicePresent];
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -87,9 +37,9 @@
 - (void);
 - (_Bool);
 - (_Bool);
+- (_Bool)r;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)_publisherName;
 - (_Bool);
 - (unsigned int);
 - (_Bool);
@@ -104,13 +54,13 @@
 - (id)d_token"b1"wrote_anyField"b1};
 - (id)4b14b8b8}{_GEOTransitLineSelectionKey=b6b25b25b64}{_GEOPolygonSelectionKey=b6b25b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}56@72;
 - (_Bool)ceKey=b32b8b6b8b8b1b57}{_GEOSputnikMetadataKey=b32b24b14b8b42}{_GEOFlyoverKey=b6b26b26b8b24b14b8b8}{_GEOTransitLineSelectionKey=b6b25b25b64}{_GEOPolygonSelectionKey=b6b25b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16;
-- (id)Locations:(id)arg1;
-- (id): /* Error: Ran out of types for this method. */;
-- (void)eginFraction:(_Bool)arg1;
-- (id)o;
-- (void)ithErrors:(_Bool)arg1;
-- (void)cedMap;
-- (void)Mode;
+- (id)setLocations:(id)arg1;
+- (id)setHasNavigationState: /* Error: Ran out of types for this method. */;
+- (void)setHasBeginFraction:(_Bool)arg1;
+- (id)detourInfo;
+- (void)activationSession:(_Bool)arg1 didCompleteWithErrors: /* Error: Ran out of types for this method. */;
+- (void)_supportsAdvancedMap;
+- (void)_enteredParkingMode;
 - (id){_GEOStandardTileKey=b40b6b26b26b14b4b4}{_GEOGloriaQuadIDTileKey=b6b64b14b4(?={?=b10b10b12}{?=b10b22}I)}{_GEORegionalResourceKey=b32b8b6b8b8b1b57}{_GEOSputnikMetadataKey=b32b24b14b8b42}{_GEOFlyoverKey=b6b26b26b8b24b14b8b8}{_GEOTransitLineSelectionKey=b6b25b25b64}{_GEOPolygonSelectionKey=b6b25b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})},R,N;
 - (id)le",&,N;
 - (_Bool)üè¸é;
@@ -120,13 +70,13 @@
 - (id)¨1®ÒV;
 - (_Bool)be called once per object;
 - (id)environmentalCongestionZoneImpact;
-- (_Bool)ENT;
+- (_Bool)MODULE_TYPE_INFO_PARENT;
 - (_Bool)GEOGloriaQuadIDTileKey=b6b64b14b4(?={?=b10b10b12}{?=b10b22}I)}{_GEORegionalResourceKey=b32b8b6b8b8b1b57}{_GEOSputnikMetadataKey=b32b24b14b8b42}{_GEOFlyoverKey=b6b26b26b8b24b14b8b8}{_GEOTransitLineSelectionKey=b6b25b25b64}{_GEOPolygonSelectionKey=b6b25b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16Q24B32;
-- (void)rtsMultipathTCP;
-- (_Bool);
-- (void)ETE_PARAMETERS_SIRI_SEARCH;
+- (void)supportsMultipathTCP;
+- (_Bool)DISPLAY_DID_YOU_MEAN_MESSAGE;
+- (void)AUTOCOMPLETE_PARAMETERS_SIRI_SEARCH;
 - (void)Config;
-- (_Bool)F_A_SERVICE_ROAD;
+- (_Bool)PART_OF_A_SERVICE_ROAD;
 - (id)_d, tileset    FROM failed_tiles    WHERE wants_proactive_load = 1 AND timestamp > @timestamp    ORDER BY timestamp DESC;;
 - (void);
 - (void)tory.wsazt5/Sources/GeoServices/libaddr_obj/cpp/AddrObjGoogle/protobuf/wire_format.cc;
@@ -138,7 +88,7 @@
 - (id);
 - (id)ØàèðÐ¸  üt;
 - (void)S0_10VectorTileEEEbE3$_0;
-- (void)tFormat17BaseTextGeneratorE;
+- (void)N6google8protobuf10TextFormat17BaseTextGeneratorE;
 - (void)®Gáz®@;
 - (_Bool)zA@;
 - (void)ëáLP@;
@@ -153,7 +103,7 @@
 - (struct GEOSessionID)@;
 - (_Bool)ÌÌÌÌ@;
 - (void);
-- (void)__110shared_ptrIN8addr_obj13AddressObjectEE27__shared_ptr_default_deleteIS2_NS1_15V1AddressObjectEEE;
+- (void)NSt3__110shared_ptrIN8addr_obj13AddressObjectEE27__shared_ptr_default_deleteIS2_NS1_15V1AddressObjectEEE;
 - (id)¬Ç2;
 - (id)6¤A3;
 - (_Bool)75.3;
@@ -164,48 +114,7 @@
 - (id)l¶þ;
 
 // Remaining properties
-@property(retain, nonatomic) GEOAbAssignInfo *abAssignInfo;
-@property(retain, nonatomic) NSString *appIdentifier;
-@property(retain, nonatomic) NSString *appMajorVersion;
-@property(retain, nonatomic) NSString *appMinorVersion;
-@property(retain, nonatomic) NSString *hardwareClass;
-@property(retain, nonatomic) NSString *hardwareModel;
-@property(readonly, nonatomic) _Bool hasAbAssignInfo;
 @property(readonly, nonatomic) _Bool hasAppIdentifier;
-@property(readonly, nonatomic) _Bool hasAppMajorVersion;
-@property(readonly, nonatomic) _Bool hasAppMinorVersion;
-@property(readonly, nonatomic) _Bool hasHardwareClass;
-@property(readonly, nonatomic) _Bool hasHardwareModel;
-@property(nonatomic) _Bool hasIsFromApi;
-@property(nonatomic) _Bool hasIsInternalInstall;
-@property(nonatomic) _Bool hasIsInternalTool;
-@property(nonatomic) _Bool hasIsSiriOriginalRequest;
-@property(readonly, nonatomic) _Bool hasLoggedAbExperiment;
-@property(readonly, nonatomic) _Bool hasOsVersion;
-@property(readonly, nonatomic) _Bool hasProductName;
-@property(nonatomic) _Bool hasRelativeTimestamp;
-@property(nonatomic) _Bool hasRequestSource;
-@property(readonly, nonatomic) _Bool hasRequestTime;
-@property(nonatomic) _Bool hasRouteStopCount;
-@property(nonatomic) _Bool hasSequenceNumber;
-@property(nonatomic) _Bool hasSessionCreateHour;
-@property(nonatomic) _Bool hasSessionId;
-@property(nonatomic) _Bool isFromApi;
-@property(nonatomic) _Bool isInternalInstall;
-@property(nonatomic) _Bool isInternalTool;
-@property(nonatomic) _Bool isSiriOriginalRequest;
-@property(retain, nonatomic) NSString *loggedAbExperiment;
-@property(retain, nonatomic) NSString *osVersion;
-@property(retain, nonatomic) NSString *productName;
-@property(nonatomic) double relativeTimestamp;
-@property(nonatomic) int requestSource;
-@property(retain, nonatomic) GEOLocalTime *requestTime;
-@property(nonatomic) unsigned int routeStopCount;
-@property(nonatomic) unsigned int sequenceNumber;
-@property(retain, nonatomic) NSMutableArray *serviceTags;
-@property(nonatomic) unsigned long long sessionCreateHour;
-@property(nonatomic) struct GEOSessionID sessionId;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

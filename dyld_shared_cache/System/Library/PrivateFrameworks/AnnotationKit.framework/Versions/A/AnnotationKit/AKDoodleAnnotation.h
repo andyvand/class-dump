@@ -6,21 +6,9 @@
 
 #import <AnnotationKit/AKAnnotation.h>
 
-@class NSBezierPath, NSColor, NSString;
-
 @interface AKDoodleAnnotation : AKAnnotation
 {
     _Bool _dashed;
-    _Bool _hasShadow;
-    _Bool _pathIsPrestroked;
-    _Bool _pathIsDot;
-    double _rotationAngle;
-    double _strokeWidth;
-    NSColor *_strokeColorHDR;
-    NSColor *_strokeColorSDR;
-    long long _brushStyle;
-    NSBezierPath *_path;
-    struct CGRect _rectangle;
 }
 
 + (id);
@@ -43,18 +31,18 @@
 - (void);
 - (long long);
 - (void);
-- (id);
-- (void);
-- (_Bool);
+- (id)to the beginning of the word.;
+- (void)lic}@Cannot write value for characteristic:(struct CGPoint)arg1 service is nil;
+- (_Bool):%s /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (struct CGRect);
 - (void);
 - (double);
 - (void);
+- (id)j;
 - (id);
-- (id);
-- (void);
+- (void)setIsSignatureWidget:(id)arg1;
 - (void);
 - (id);
 - (id);
@@ -65,25 +53,7 @@
 - (void);
 
 // Remaining properties
-@property(getter=brushStyle) long long brushStyle; // @synthesize brushStyle=_brushStyle;
-@property(getter=isDashed) _Bool dashed; // @synthesize dashed=_dashed;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool hasShadow; // @synthesize hasShadow=_hasShadow;
-@property(readonly) unsigned long long hash;
-@property(retain) NSBezierPath *path; // @synthesize path=_path;
-@property _Bool pathIsDot; // @synthesize pathIsDot=_pathIsDot;
-@property _Bool pathIsPrestroked; // @synthesize pathIsPrestroked=_pathIsPrestroked;
 @property struct CGRect rectangle; // @synthesize rectangle=_rectangle;
-@property double rotationAngle; // @synthesize rotationAngle=_rotationAngle;
-@property(copy) NSColor *strokeColor;
-@property(retain) NSColor *strokeColorHDR; // @synthesize strokeColorHDR=_strokeColorHDR;
-@property(retain) NSColor *strokeColorSDR; // @synthesize strokeColorSDR=_strokeColorSDR;
-@property double strokeWidth; // @synthesize strokeWidth=_strokeWidth;
-@property(readonly) Class superclass;
 
 @end
 

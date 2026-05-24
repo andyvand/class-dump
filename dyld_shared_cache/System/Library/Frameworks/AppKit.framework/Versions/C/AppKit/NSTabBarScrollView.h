@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (Class);
++ (Class)@;
 + (Class);
 - (_Bool);
-- (id)esOfMatchesInString:(struct CGRect)arg1 inRanges: /* Error: Ran out of types for this method. */;
+- (id)rangesOfMatchesInString:(struct CGRect)arg1 inRanges: /* Error: Ran out of types for this method. */;
 
 @end
 

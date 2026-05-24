@@ -10,9 +10,10 @@
 {
 }
 
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)tag '%s' not found in tss-request map, ignoring
+;
 - (void);
 
 @end

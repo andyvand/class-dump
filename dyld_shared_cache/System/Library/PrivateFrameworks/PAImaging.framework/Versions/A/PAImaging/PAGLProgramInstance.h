@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, PAGLProgramExecutable;
+@class PAGLProgramExecutable;
 
 @interface PAGLProgramInstance
 {
     PAGLProgramExecutable *_program;
-    NSMutableDictionary *_uniforms;
-    _Bool _isRunning;
 }
 
 - (id);
@@ -24,7 +22,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)rsonSuggestion"16^B24;
 - (id);
 - (id);
 - (void);

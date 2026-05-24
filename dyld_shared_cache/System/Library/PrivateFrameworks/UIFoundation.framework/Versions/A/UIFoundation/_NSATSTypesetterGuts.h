@@ -4,33 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSATSGlyphStorage, NSATSLineFragment;
+@class NSATSLineFragment;
 
 @interface _NSATSTypesetterGuts
 {
     NSATSLineFragment *_lineFragment;
-    NSATSGlyphStorage *_glyphStorage;
-    unsigned long long _lastGlyphIndex;
-    unsigned long long _lastContainerIndex;
-    CDStruct_3fda14a5 *_typesetterAuxiliary;
-    CDUnion_09a75e3c *_lineFragmentRectArgs;
-    char *_bidiLevels;
-    double _defaultTighteningFactor;
-    unsigned long long _lineBreakStrategy;
-    _Bool _isBusy;
-    struct {
-        unsigned int _isiChatTypesetter:1;
-        unsigned int _resToWillSetLineFragmentRect:1;
-        unsigned int _limitsLayoutForSuspiciousContents:1;
-        unsigned int _baselineRendering:1;
-        unsigned int _forceWordWrapping:1;
-        unsigned int _reserved:27;
-    } _flags;
-    struct {
-        unsigned int _resolvedWritingDirection:2;
-        unsigned int _reserved:30;
-    } _paragraphState;
-    struct __CTTypesetter *_ctTypesetter;
 }
 
 - (void);

@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDBackgroundOperationManager, NSDictionary, NSNotificationCenter;
+@class HMDBackgroundOperationManager;
 
 __attribute__((visibility("hidden")))
 @interface HMDBackgroundOperationManagerDataSource
 {
     HMDBackgroundOperationManager *_owner;
-    NSNotificationCenter *_notificationCenter;
 }
 
 + (id);
@@ -19,14 +18,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id)!xBù±ð1Â0@ù
 × ;
-- (id)SettingsRelationOfTypeHomePersonManagerSetting;
+- (id)findSettingsRelationOfTypeHomePersonManagerSetting;
 - (void)$­;
 - (id)Ö!è[A;
 
 // Remaining properties
-@property(readonly) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
 @property(readonly) __weak HMDBackgroundOperationManager *owner; // @synthesize owner=_owner;
-@property(readonly, copy) NSDictionary *values;
 
 @end
 

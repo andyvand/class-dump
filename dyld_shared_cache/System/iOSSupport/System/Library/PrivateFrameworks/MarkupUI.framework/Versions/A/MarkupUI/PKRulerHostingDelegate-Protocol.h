@@ -5,5 +5,8 @@
 //
 
 @protocol PKRulerHostingDelegate
+
+@optional
+- (_Bool)Sg;
 @end
 

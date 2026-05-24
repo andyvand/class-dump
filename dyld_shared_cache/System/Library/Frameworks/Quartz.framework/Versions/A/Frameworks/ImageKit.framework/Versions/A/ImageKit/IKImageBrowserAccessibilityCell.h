@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKImageBrowserCell, IKImageBrowserView;
+@class IKImageBrowserView;
 
 @interface IKImageBrowserAccessibilityCell
 {
     IKImageBrowserView *_browser;
-    unsigned long long _index;
-    IKImageBrowserCell *_cell;
 }
 
 - (id);

@@ -13,7 +13,7 @@
 }
 
 - (id);
-- (id)s;
+- (id)UIStatusBarStyleAnimationParameters;
 - (void)>ßÎÌol;
 
 @end

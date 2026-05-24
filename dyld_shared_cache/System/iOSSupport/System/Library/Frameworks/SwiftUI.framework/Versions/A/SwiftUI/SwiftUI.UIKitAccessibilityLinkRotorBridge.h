@@ -7,12 +7,10 @@
 @interface SwiftUI.UIKitAccessibilityLinkRotorBridge
 {
     id node;
-    id paragraphHash;
-    id elements;
 }
 
-- (id);
-- (id);
+- (id)MastheadView;
+- (id)JSONSchemaArrayValueRowView;
 - (id);
 - (id);
 - (void)Ä¬¿þÄ¬¿þhqÎ;

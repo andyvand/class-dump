@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSData, NSString;
 
 @interface CNGroupIdentity
 {
     NSString *_groupName;
-    NSData *_groupPhoto;
-    NSArray *_contacts;
-    NSString *_identifier;
 }
 
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *contacts; // @synthesize contacts=_contacts;
-@property(retain, nonatomic) NSString *groupName; // @synthesize groupName=_groupName;
 @property(retain, nonatomic) NSData *groupPhoto; // @synthesize groupPhoto=_groupPhoto;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) long long numberOfContacts;
 @end
 

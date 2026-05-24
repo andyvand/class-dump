@@ -6,22 +6,19 @@
 
 #import <TelephonyUtilities/TURoute.h>
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface TUAudioRoute : TURoute
 {
     _Bool _modelIdentifierCached;
-    NSString *_avAudioRouteName;
-    NSString *_cachedModelIdentifier;
-    NSDictionary *_route;
 }
 
 + (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)	;
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -30,16 +27,16 @@
 - (id);
 - (unsigned int);
 - (_Bool);
+- (_Bool)J;
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)@;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -55,17 +52,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (long long);
-- (void)oiceWithMediaChangedForCall: /* Error: Ran out of types for this method. */;
+- (long long)stemExceptionException;
+- (void)mixesVoiceWithMediaChangedForCall: /* Error: Ran out of types for this method. */;
 - (id)m;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *avAudioRouteName; // @synthesize avAudioRouteName=_avAudioRouteName;
-@property(copy, nonatomic) NSString *cachedModelIdentifier; // @synthesize cachedModelIdentifier=_cachedModelIdentifier;
-@property(readonly, nonatomic, getter=isHeadphoneJackConnected) _Bool headphoneJackConnected;
-@property(nonatomic) _Bool modelIdentifierCached; // @synthesize modelIdentifierCached=_modelIdentifierCached;
-@property(readonly, copy, nonatomic) NSString *mxBluetoothProductIdentifier;
-@property(readonly, copy, nonatomic) NSDictionary *route; // @synthesize route=_route;
 
 @end
 

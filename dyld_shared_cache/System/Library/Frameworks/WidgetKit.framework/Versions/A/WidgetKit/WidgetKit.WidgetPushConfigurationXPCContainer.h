@@ -7,15 +7,14 @@
 @interface WidgetKit.WidgetPushConfigurationXPCContainer
 {
     id widgets;
-    id token;
 }
 
 + (void);
 + (_Bool);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)stamp:(id)arg1;
+- (void)c;
 
 @end
 

@@ -8,14 +8,13 @@ __attribute__((visibility("hidden")))
 @interface WTFContextualizedNSString
 {
     struct StringView context;
-    struct StringView contents;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
 - (id);
-- (unsigned short);
+- (unsigned short)proj/Sources/ICE.c:(unsigned long long)arg1 %d:CompressedCandidateByteOrderHToN failed (%08X) /* Error: Ran out of types for this method. */;
 
 @end
 

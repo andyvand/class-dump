@@ -5,5 +5,10 @@
 //
 
 @protocol CSVoiceTriggerDelegate
+
+@optional
+- (void)leSMS;
+- (void);
+- (void);
 @end
 

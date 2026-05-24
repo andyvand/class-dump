@@ -7,14 +7,10 @@
 @interface CRPollingTimer
 {
     CDStruct_1b6d18a9 _fireTime;
-    _Bool _fired;
-    _Bool _valid;
-    id _target;
-    SEL _selector;
 }
 
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
@@ -30,10 +26,6 @@
 
 // Remaining properties
 @property(nonatomic) CDStruct_1b6d18a9 fireTime;
-@property(nonatomic) _Bool fired; // @synthesize fired=_fired;
-@property(nonatomic) SEL selector; // @synthesize selector=_selector;
-@property(nonatomic) __weak id target; // @synthesize target=_target;
-@property(nonatomic) _Bool valid; // @synthesize valid=_valid;
 
 @end
 

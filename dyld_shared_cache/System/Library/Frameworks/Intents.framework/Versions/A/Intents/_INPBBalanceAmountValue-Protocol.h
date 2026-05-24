@@ -4,10 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBCurrencyAmountValue, _INPBDecimalNumberValue, _INPBValueMetadata;
+@class NSString, _INPBCurrencyAmountValue, _INPBValueMetadata;
 
 @protocol _INPBBalanceAmountValue
-- (NSString *)ID:(int)arg1;
+- (void);
+- (void);
+- (NSString *)intentDefinitionBundleURLForBundleID:(int)arg1;
 - (_Bool)NSString",R,C,V_rentalCarDescription;
 - (_Bool)diaIntentData",C;
 - (void)R,C,N,G_sortedParameterImages;
@@ -16,12 +18,5 @@
 
 // Remaining properties
 @property(retain, nonatomic) _INPBCurrencyAmountValue *currencyAmount;
-@property(retain, nonatomic) _INPBDecimalNumberValue *customAmount;
-@property(readonly, nonatomic) _Bool hasCurrencyAmount;
-@property(readonly, nonatomic) _Bool hasCustomAmount;
-@property(nonatomic) _Bool hasType;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
-@property(nonatomic) int type;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata;
 @end
 

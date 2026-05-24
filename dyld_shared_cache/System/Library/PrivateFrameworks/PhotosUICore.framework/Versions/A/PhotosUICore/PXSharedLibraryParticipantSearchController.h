@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactPicker, NSButton, NSSet, NSString, NSTableView, PXCNAutocompleteResultDataSource, PXCNAutocompleteResultDataSourceManager, PXSharedLibraryParticipantSearchField;
+@class PXCNAutocompleteResultDataSourceManager;
 @protocol PXSharedLibraryParticipantSearchControllerDelegate;
 
 @interface PXSharedLibraryParticipantSearchController
 {
     PXCNAutocompleteResultDataSourceManager *_dataSourceManager;
-    PXCNAutocompleteResultDataSource *_currentDataSource;
-    NSTableView *_tableView;
-    NSButton *_addButton;
-    NSButton *_contactsPickerButton;
-    CNContactPicker *_contactPicker;
-    PXSharedLibraryParticipantSearchField *_inputField;
-    NSSet *_usedParticipantAddresses;
-    id <PXSharedLibraryParticipantSearchControllerDelegate> _searchDelegate;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -34,25 +26,18 @@
 - (id);
 - (double);
 - (long long);
-- (void);
+- (void)_TtC12NewsArticles32ArticleViewerBlueprintRouteModel;
 - (id);
-- (void);
-- (void)ceForAssetReference: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)spriteReferenceForAssetReference: /* Error: Ran out of types for this method. */;
 - (void)åÆúÿé÷ÿ;
 - (void)braryEmptyLibraryTitleForViewMode(PXLibraryFilterViewMode);
 - (void);
-- (_Bool)fHeaderAppearance;
+- (_Bool)LemonadeShelfHeaderAppearance;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak id <PXSharedLibraryParticipantSearchControllerDelegate> searchDelegate; // @synthesize searchDelegate=_searchDelegate;
-@property(readonly) Class superclass;
 
 @end
 

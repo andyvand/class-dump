@@ -7,17 +7,6 @@
 @interface PhotoAnalysis.MemoryCreationFeatureAvailabilityTask
 {
     id worker;
-    id name;
-    id identifier;
-    id version;
-    id periodicity;
-    id priority;
-    id incrementalKey;
-    id shouldRecordCompletion;
-    id photoLibrary;
-    id analytics;
-    id log;
-    id logger;
 }
 
 @end

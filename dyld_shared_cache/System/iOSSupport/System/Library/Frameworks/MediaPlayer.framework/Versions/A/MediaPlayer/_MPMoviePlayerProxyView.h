@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void)fier;
+- (void)_currentLastItemIdentifier;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak MPMoviePlayerController *controller; // @synthesize controller=_controller;

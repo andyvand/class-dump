@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol SXComponent><SXInsertableComponent, SXComponentLayout;
+@protocol SXComponent><SXInsertableComponent;
 
 @interface SXComponentInsert
 {
     id <SXComponent><SXInsertableComponent> _component;
-    id <SXComponentLayout> _componentLayout;
 }
 
 - (id);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXComponent><SXInsertableComponent> component; // @synthesize component=_component;
-@property(readonly, nonatomic) id <SXComponentLayout> componentLayout; // @synthesize componentLayout=_componentLayout;
 
 @end
 

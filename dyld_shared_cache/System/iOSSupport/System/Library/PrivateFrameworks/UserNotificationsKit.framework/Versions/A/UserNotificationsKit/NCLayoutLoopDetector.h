@@ -13,15 +13,16 @@
     NSObject<OS_dispatch_queue> *_queue;
 }
 
-- (void);
-- (void);
+- (void)WFCloudKitSyncSession fetchCloudKitSyncFlagsIfNecessaryWithCompletionHandler:(id)arg1 ]_block_invoke;
+- (void)WFShortcutsAllowHighRiskOperationEnabled;
+- (id)monControl.m;
+- (_Bool)rseBlock != nil;
+- (void)with interpolated variables;
+- (id)WFEvernoteDeleteAction;
+- (void)fwayPointSecondLocation};
 - (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)|
+;
 - (id);
 - (void);
 

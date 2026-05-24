@@ -6,8 +6,6 @@
 
 #import <iTunesCloud/ICMusicSubscriptionStatus.h>
 
-@class NSArray, NSDate, NSString;
-
 __attribute__((visibility("hidden")))
 @interface ICMutableMusicSubscriptionStatus : ICMusicSubscriptionStatus
 {
@@ -17,6 +15,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)`&;
 - (void);
 - (void);
 - (void);
@@ -24,11 +23,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void),Vcontext;
+- (void)O;
 - (void);
 - (void);
 - (void);
@@ -41,50 +39,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)widthAnchor;
+- (void)setSelectedAnnotations:(_Bool)arg1;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void)ø(SüGÂº©fì¶»gðÒ£}|MÂwg=.<Ý¶HQj~,U¢é¨¸k\ÊÛH¦¶b¦Ý?þ:(long long)arg1 }gg`¹ë,É8ÊÑ/?q¾ÈhE³næ¥bø@LÐ¡*^8Ì0Ç\Ñ`2%ÉæIû§¨ÆÔ[Ô§!ªÍ?7nÐJ FÅ'ÂC?Ò~a¾VÀC{/> pô)|Ðó2Å!·E4@ÑÉÈd±!áÆãbhTÒ=!f;
 - (long long)åÿzí;
 - (void)p>õÿ¶}
 ;
 
 // Remaining properties
-@property(nonatomic, getter=isAdministrator) _Bool administrator; // @dynamic administrator;
-@property(nonatomic, getter=isAutoRenewEnabled) _Bool autoRenewEnabled; // @dynamic autoRenewEnabled;
-@property(nonatomic, getter=isBundleOnwer) _Bool bundleOwner; // @dynamic bundleOwner;
-@property(nonatomic) long long carrierBundlingErrorCode; // @dynamic carrierBundlingErrorCode;
-@property(nonatomic) long long carrierBundlingStatusType; // @dynamic carrierBundlingStatusType;
-@property(copy, nonatomic) NSString *cellularOperatorName; // @dynamic cellularOperatorName;
-@property(nonatomic, getter=isDiscoveryModeEligible) _Bool discoveryModeEligible; // @dynamic discoveryModeEligible;
-@property(nonatomic, getter=isEligibleForFreeTrial) _Bool eligibleForFreeTrial; // @dynamic eligibleForFreeTrial;
-@property(copy, nonatomic) NSArray *eligibleOffers; // @dynamic eligibleOffers;
-@property(copy, nonatomic) NSDate *expirationDate; // @dynamic expirationDate;
-@property(nonatomic) _Bool hasFamily; // @dynamic hasFamily;
-@property(nonatomic) _Bool hasFamilyGreaterThanOneMember; // @dynamic hasFamilyGreaterThanOneMember;
-@property(nonatomic) _Bool hasOfflineSlots; // @dynamic hasOfflineSlots;
-@property(nonatomic, getter=isHeadOfHousehold) _Bool headOfHousehold; // @dynamic headOfHousehold;
-@property(nonatomic, getter=isInFreePeriod) _Bool inFreePeriod; // @dynamic inFreePeriod;
-@property(nonatomic, getter=isInFreeTrial) _Bool inFreeTrial; // @dynamic inFreeTrial;
-@property(copy, nonatomic) NSDate *initialPurchaseTimestamp; // @dynamic initialPurchaseTimestamp;
-@property(nonatomic, getter=isMatchEnabled) _Bool matchEnabled; // @dynamic matchEnabled;
 @property(nonatomic, getter=isMinorAccountHolder) _Bool minorAccountHolder; // @dynamic minorAccountHolder;
-@property(nonatomic, getter=isPartOfBundle) _Bool partOfBundle; // @dynamic partOfBundle;
-@property(copy, nonatomic) NSString *partner; // @dynamic partner;
-@property(copy, nonatomic) NSString *phoneNumber; // @dynamic phoneNumber;
-@property(nonatomic, getter=isPurchaser) _Bool purchaser; // @dynamic purchaser;
-@property(nonatomic) long long reasonType; // @dynamic reasonType;
-@property(copy, nonatomic) NSDate *serviceBeginsTimestamp; // @dynamic serviceBeginsTimestamp;
-@property(copy, nonatomic) NSString *sessionIdentifier; // @dynamic sessionIdentifier;
-@property(nonatomic) long long sourceType; // @dynamic sourceType;
-@property(nonatomic) long long statusCode; // @synthesize statusCode=_statusCode;
-@property(nonatomic) long long statusType; // @dynamic statusType;
-@property(copy, nonatomic) NSDate *studentExpirationDate; // @dynamic studentExpirationDate;
-@property(copy, nonatomic) NSString *studentVerificationId; // @dynamic studentVerificationId;
-@property(copy, nonatomic) NSString *studentVerifier; // @dynamic studentVerifier;
-@property(copy, nonatomic) NSArray *termsStatusList; // @dynamic termsStatusList;
 
 @end
 

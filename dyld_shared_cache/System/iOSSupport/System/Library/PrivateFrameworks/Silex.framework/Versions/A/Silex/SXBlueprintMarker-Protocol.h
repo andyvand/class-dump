@@ -8,12 +8,11 @@
 @protocol SXComponent, SXComponentAnchor;
 
 @protocol SXBlueprintMarker
+- (id <SXComponent>);
+- (id <SXComponentAnchor>);
+- (NSArray *)@;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGPoint approximateLocation;
-@property(retain, nonatomic) id <SXComponentAnchor> componentAnchor;
 @property(readonly, nonatomic) id <SXComponent> leadingComponent;
-@property(readonly, nonatomic) NSArray *path;
-@property(readonly, nonatomic) id <SXComponent> trailingComponent;
 @end
 

@@ -6,13 +6,11 @@
 
 #import <IMAP/IMAPPersistenceTaskOperation.h>
 
-@protocol IMAPAccount, IMAPGetNewLocalActionsOperationDelegate;
+@protocol IMAPGetNewLocalActionsOperationDelegate;
 
 @interface IMAPGetNewLocalActionsOperation : IMAPPersistenceTaskOperation
 {
     id <IMAPGetNewLocalActionsOperationDelegate> _delegate;
-    long long _previousActionID;
-    id <IMAPAccount> _account;
 }
 
 - (id);
@@ -25,8 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <IMAPAccount> account; // @synthesize account=_account;
-@property(nonatomic) __weak id <IMAPGetNewLocalActionsOperationDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) long long previousActionID; // @synthesize previousActionID=_previousActionID;
 
 @end

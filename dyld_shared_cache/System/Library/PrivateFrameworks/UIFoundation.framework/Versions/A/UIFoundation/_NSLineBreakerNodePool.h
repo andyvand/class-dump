@@ -10,14 +10,14 @@ __attribute__((visibility("hidden")))
 @interface _NSLineBreakerNodePool
 {
     _NSBumpAllocator *_allocator;
-    struct _WLNode *_freeList;
 }
 
 - (void);
 - (struct _WLNode *);
 - (void);
-- (struct _WLNode *);
-- (void);
+- (struct _WLNode *)chingPredicate:(struct _WLNode *)arg1 synchronous:error:responseQueue:withCompletion:] /* Error: Ran out of types for this method. */;
+- (void)ECT:Framework-709
+ /* Error: Ran out of types for this method. */;
 
 @end
 

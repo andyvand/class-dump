@@ -4,43 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-@protocol SXBlueprintAnalyzer, SXComponentInserterManager, SXComponentInsertionConditionEngine, SXUnitConverterFactory;
+@protocol SXComponentInserterManager, SXComponentInsertionConditionEngine;
 
 @interface SXComponentInsertionManager
 {
     id <SXComponentInsertionConditionEngine> _conditionEngine;
-    id <SXComponentInserterManager> _inserterManager;
-    id <SXBlueprintAnalyzer> _blueprintAnalyzer;
-    id <SXUnitConverterFactory> _unitConverterFactory;
-    NSMutableArray *_cache;
 }
 
 - (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)`;
 - (id);
 - (void);
-- (id);
+- (id);
 - (void)peration"32@0:8@"SXLayoutTask"16@"<SXDOMObjectProviding>"24 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) id <SXBlueprintAnalyzer> blueprintAnalyzer; // @synthesize blueprintAnalyzer=_blueprintAnalyzer;
-@property(readonly, nonatomic) NSMutableArray *cache; // @synthesize cache=_cache;
-@property(readonly, nonatomic) id <SXComponentInsertionConditionEngine> conditionEngine; // @synthesize conditionEngine=_conditionEngine;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <SXComponentInserterManager> inserterManager; // @synthesize inserterManager=_inserterManager;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <SXUnitConverterFactory> unitConverterFactory; // @synthesize unitConverterFactory=_unitConverterFactory;
 
 @end
 

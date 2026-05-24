@@ -9,7 +9,6 @@
 @interface SRCSTextEditing
 {
     id <SRCSTextEditingProviderProtocol> _provider;
-    double _delayAfterSelectionBeforeExecutingAction;
 }
 
 + (long long);
@@ -20,8 +19,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)P;
+- (void):(long long)arg1 S;
 - (void);
 - (void);
 - (void);
@@ -51,10 +50,10 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)Ks;
 - (void);
 - (void);
 - (void);
@@ -83,7 +82,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -95,10 +94,14 @@
 - (double);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)J
+J;
 - (id);
 - (id);
-- (id);
+- (id)}J}	SJ
+
+
+KJ;
 - (struct _NSRange);
 - (_Bool);
 - (id);
@@ -117,13 +120,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)(=;
 - (void);
 - (void);
 - (void)tap and hold {BuiltInLM.WindowItem};
 
 // Remaining properties
-@property double delayAfterSelectionBeforeExecutingAction; // @synthesize delayAfterSelectionBeforeExecutingAction=_delayAfterSelectionBeforeExecutingAction;
 @property __weak id <SRCSTextEditingProviderProtocol> provider; // @synthesize provider=_provider;
 
 @end

@@ -4,29 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVMomentCaptureMovie, AVMomentCaptureMovieRecordingResolvedSettings, AVMomentCaptureMovieRecordingSettings, AVMomentCaptureSettings, AVWeakReferencingDelegateStorage;
+@class AVWeakReferencingDelegateStorage;
 
 __attribute__((visibility("hidden")))
 @interface AVMomentCaptureMovieRequest
 {
     AVWeakReferencingDelegateStorage *_delegateStorage;
-    AVMomentCaptureSettings *_momentCaptureSettings;
-    AVMomentCaptureMovieRecordingSettings *_unresolvedSettings;
-    AVMomentCaptureMovieRecordingResolvedSettings *_resolvedSettings;
-    unsigned int _firedCallbackFlags;
-    AVMomentCaptureMovie *movie;
-    AVMomentCaptureMovie *spatialOverCaptureMovie;
-    unsigned long long _expectedMovieCount;
-    AVMomentCaptureMovie *_movie;
-    AVMomentCaptureMovie *_spatialOverCaptureMovie;
 }
 
 + (id);
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
-- (id);
+- (id)scannerWithString: /* Error: Ran out of types for this method. */;
+- (void)parserError;
+- (id)bindUInt64Value:toParameterNamed: /* Error: Ran out of types for this method. */;
+- (unsigned long long)inition;
+- (id)list dictionary derived from code-signing information:(id)arg1 bundleID=%{public}@;
 - (void);
 - (id);
 - (void);
@@ -39,13 +30,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) AVWeakReferencingDelegateStorage *delegateStorage; // @synthesize delegateStorage=_delegateStorage;
-@property(readonly, nonatomic) unsigned long long expectedMovieCount; // @synthesize expectedMovieCount=_expectedMovieCount;
-@property(nonatomic) unsigned int firedCallbackFlags; // @synthesize firedCallbackFlags=_firedCallbackFlags;
-@property(readonly) AVMomentCaptureSettings *momentCaptureSettings; // @synthesize momentCaptureSettings=_momentCaptureSettings;
-@property(retain, nonatomic) AVMomentCaptureMovie *movie; // @synthesize movie=_movie;
-@property(retain, nonatomic) AVMomentCaptureMovieRecordingResolvedSettings *resolvedSettings;
-@property(retain, nonatomic) AVMomentCaptureMovie *spatialOverCaptureMovie; // @synthesize spatialOverCaptureMovie=_spatialOverCaptureMovie;
-@property(readonly) AVMomentCaptureMovieRecordingSettings *unresolvedSettings; // @synthesize unresolvedSettings=_unresolvedSettings;
 
 @end
 

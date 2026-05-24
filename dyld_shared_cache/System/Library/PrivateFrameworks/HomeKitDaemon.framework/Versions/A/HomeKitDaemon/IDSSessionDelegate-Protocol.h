@@ -5,5 +5,8 @@
 //
 
 @protocol IDSSessionDelegate
+
+@optional
+- (void);
 @end
 

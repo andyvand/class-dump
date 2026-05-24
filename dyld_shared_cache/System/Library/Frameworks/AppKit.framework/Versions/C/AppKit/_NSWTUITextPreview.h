@@ -7,31 +7,23 @@
 @interface _NSWTUITextPreview
 {
     struct CGImage *_previewImage;
-    struct CGColor *_backgroundColor;
-    struct CGPath *_clippingPath;
-    double _scale;
-    struct CGRect _presentationFrame;
 }
 
 - (void);
 - (void);
 - (void);
-- (struct CGImage *);
-- (struct CGRect);
+- (struct CGImage *)youtube;
+- (struct CGRect)SupplementalBuildVersion;
 - (id);
 - (id);
 - (struct CGPath *);
 - (double);
 - (void);
-- (void)cusItem;
+- (void)UIFocusItem;
 - (struct CGColor *)ÿÿ;
 
 // Remaining properties
-@property struct CGColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property struct CGPath *clippingPath; // @synthesize clippingPath=_clippingPath;
-@property struct CGRect presentationFrame; // @synthesize presentationFrame=_presentationFrame;
 @property struct CGImage *previewImage; // @synthesize previewImage=_previewImage;
-@property double scale; // @synthesize scale=_scale;
 
 @end
 

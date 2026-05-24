@@ -7,12 +7,11 @@
 @interface PKAppBackgroundStateTracker
 {
     _Atomic _Bool _inBackground;
-    Class _applicationClass;
 }
 
 + (id)þ5;
 - (void);
-- (void);
+- (void)a;
 - (id);
 - (_Bool)	
 HIJK;

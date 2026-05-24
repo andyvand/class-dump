@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol SXImageResource
+- (double)<;
+- (struct CGSize);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize dimensions;
-@property(readonly, nonatomic) NSString *imageIdentifier;
-@property(readonly, nonatomic) _Bool wideColorSpace;
 @end
 

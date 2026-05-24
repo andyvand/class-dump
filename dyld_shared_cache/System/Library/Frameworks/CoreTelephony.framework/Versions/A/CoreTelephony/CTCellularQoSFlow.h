@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTQoS, NSNumber;
-
 @interface CTCellularQoSFlow
 {
     unsigned long long _flowId;
-    unsigned long long _bearerId;
-    NSNumber *_queueSetId;
-    NSNumber *_is5G;
-    CTQoS *_txQos;
-    CTQoS *_rxQos;
 }
 
-+ (_Bool);
-- (id);
++ (_Bool)essionDataTask"8@"AVAssetCustomURLRequest"16^B24;
+- (id);
 - (void);
 - (void);
 - (void);
@@ -29,20 +22,15 @@
 - (unsigned long long);
 - (void);
 - (unsigned long long);
+- (id)u;
 - (id);
-- (id);
-- (void);
+- (void)blic}@ cid:(id)arg1 %u;
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long bearerId; // @synthesize bearerId=_bearerId;
 @property(nonatomic) unsigned long long flowId; // @synthesize flowId=_flowId;
-@property(retain, nonatomic) NSNumber *is5G; // @synthesize is5G=_is5G;
-@property(retain, nonatomic) NSNumber *queueSetId; // @synthesize queueSetId=_queueSetId;
-@property(retain, nonatomic) CTQoS *rxQos; // @synthesize rxQos=_rxQos;
-@property(retain, nonatomic) CTQoS *txQos; // @synthesize txQos=_txQos;
 
 @end
 

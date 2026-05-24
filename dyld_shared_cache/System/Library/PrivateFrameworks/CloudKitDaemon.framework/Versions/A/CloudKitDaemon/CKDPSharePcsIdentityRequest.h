@@ -15,12 +15,13 @@
 - (id);
 - (id);
 - (_Bool);
+- (void)8;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)y 1.0
+;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)(=;
 - (id);
 - (void);
 - (id);
@@ -28,7 +29,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasShareId;
-@property(retain, nonatomic) CKDPShareIdentifier *shareId; // @synthesize shareId=_shareId;
 
 @end
 

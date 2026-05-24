@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PCSCKKS
 {
     CDUnknownBlockType _blockAfterCreate;
-    struct _PCSIdentitySetData *_set;
-    NSString *_dsid;
 }
 
 + (_Bool);
-- (id);
+- (id)8?;
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
-- (id);
-- (id);
+- (id)H7;
+- (id)+;
 - (void);
 - (id);
 - (void);
@@ -30,13 +26,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (struct _PCSIdentitySetData *);
+- (void)ctionary from server:%@ /* Error: Ran out of types for this method. */;
+- (struct _PCSIdentitySetData *);
 - (void)ding;
 
 // Remaining properties
-@property CDUnknownBlockType blockAfterCreate; // @synthesize blockAfterCreate=_blockAfterCreate;
-@property(retain) NSString *dsid; // @synthesize dsid=_dsid;
 @property struct _PCSIdentitySetData *set; // @synthesize set=_set;
 
 @end

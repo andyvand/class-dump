@@ -9,15 +9,14 @@
 @interface PGGraphPeopleDomainBuildingHelper
 {
     NSMutableDictionary *_insertedIdentifiedPersonByPersonLocalIdentifier;
-    NSMutableDictionary *_authorNodeByLocalIdentifier;
 }
 
-- (id);
-- (id);
+- (id)r;
+- (id)placeholderText;
 - (id);
 - (void);
 - (id);
-- (void)ixUp;
+- (void)SupervisedMixUp;
 
 @end
 

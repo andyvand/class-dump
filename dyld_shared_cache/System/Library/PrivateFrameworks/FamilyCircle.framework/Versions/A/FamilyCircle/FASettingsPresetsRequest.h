@@ -6,32 +6,29 @@
 
 #import <FamilyCircle/FAFamilyCircleRequest.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface FASettingsPresetsRequest : FAFamilyCircleRequest
 {
     NSString *_altDSID;
-    NSNumber *_childAge;
-    NSString *_storeFront;
-    NSString *_version;
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)Dictation;
+- (id)MediaApp;
+- (id)GetAnchors;
+- (id)Chunk;
+- (id)postGen;
+- (void)tokenOffset;
+- (void)local.pex;
+- (id)com.apple.ace.clientflow.local.pex;
+- (void)AceAlarmWrap;
+- (id)sms;
 - (id);
 - (void);
+- (id)Array"40@0:8@"NSData"16@"CNVCardReadingOptions"24@"<CNVCardParsedResultBuilderFactory>"32 /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -39,9 +36,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(retain, nonatomic) NSNumber *childAge; // @synthesize childAge=_childAge;
-@property(retain, nonatomic) NSString *storeFront; // @synthesize storeFront=_storeFront;
-@property(retain, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end
 

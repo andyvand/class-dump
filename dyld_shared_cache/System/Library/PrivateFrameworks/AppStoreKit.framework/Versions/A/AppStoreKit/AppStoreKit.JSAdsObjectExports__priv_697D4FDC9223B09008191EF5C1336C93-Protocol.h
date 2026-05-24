@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class JSValue;
+
 @protocol AppStoreKit.JSAdsObjectExports__priv_697D4FDC9223B09008191EF5C1336C93
+- (void);
+- (JSValue *);
+- (JSValue *)o;
+- (JSValue *)o;
+- (JSValue *)wo;
 @end
 

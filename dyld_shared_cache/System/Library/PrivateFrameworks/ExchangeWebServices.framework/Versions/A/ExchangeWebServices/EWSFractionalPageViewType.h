@@ -9,7 +9,6 @@
 @interface EWSFractionalPageViewType : EWSBasePagingType
 {
     long long _Numerator;
-    long long _Denominator;
 }
 
 + (id);
@@ -19,7 +18,6 @@
 - (long long);
 
 // Remaining properties
-@property(nonatomic) long long Denominator; // @synthesize Denominator=_Denominator;
 @property(nonatomic) long long Numerator; // @synthesize Numerator=_Numerator;
 
 @end

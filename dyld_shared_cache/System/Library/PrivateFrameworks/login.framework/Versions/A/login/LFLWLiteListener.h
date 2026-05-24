@@ -7,7 +7,6 @@
 #import <login/LFListener.h>
 
 @class LFNotify;
-@protocol LFLWLiteListenerInterface;
 
 @interface LFLWLiteListener : LFListener
 {
@@ -18,12 +17,11 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)t;
 - (void);
 - (id)%s:%d:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) id <LFLWLiteListenerInterface> messageHandler; // @dynamic messageHandler;
 @property(retain) LFNotify *notify; // @synthesize notify=_notify;
 
 @end

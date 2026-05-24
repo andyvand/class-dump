@@ -4,63 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDAccount, IMDChat, IMDServiceSession, IMDiMessageIDSTrustedData, NSArray, NSAttributedString, NSDictionary, NSNumber, NSString;
+@class IMDiMessageIDSTrustedData;
 
 @interface IMEditMessageCommandPipelineParameter
 {
     _Bool _isFromStorage;
-    _Bool _isLastFromStorage;
-    _Bool _shouldRetractMessageSubject;
-    _Bool _hasEditTypeAndPartIndex;
-    IMDiMessageIDSTrustedData *_idsTrustedData;
-    NSString *_fromIdentifier;
-    NSString *_toIdentifier;
-    NSString *_editCommandGUID;
-    NSNumber *_timestamp;
-    NSDictionary *_batchContext;
-    NSString *_editedMessageGUID;
-    long long _editedMessagePartIndex;
-    unsigned long long _editType;
-    NSAttributedString *_editedMessagePartBody;
-    NSAttributedString *_editedMessagePartTranslation;
-    NSArray *_editedMessagePartFileTransferGUIDs;
-    NSArray *_messageItems;
-    IMDChat *_chat;
-    NSString *_replicationSourceServiceName;
-    IMDAccount *_account;
-    IMDServiceSession *_serviceSession;
 }
 
-- (id);
+- (id)!!�M!;
 - (_Bool);
 - (void);
 - (void);
+- (void).;
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (long long);
-- (id);
+- (id)-;
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)a@a!  L`;
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)AVCAnsweringMachineCallSourceRelay;
 - (void);
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)*;
 - (id);
 - (id);
 - (id);
@@ -69,27 +49,7 @@
 - (void)H()ÿ¼¬;
 
 // Remaining properties
-@property(retain, nonatomic) IMDAccount *account; // @synthesize account=_account;
-@property(readonly, nonatomic) NSDictionary *batchContext; // @synthesize batchContext=_batchContext;
-@property(retain, nonatomic) IMDChat *chat; // @synthesize chat=_chat;
-@property(readonly, nonatomic) NSString *editCommandGUID; // @synthesize editCommandGUID=_editCommandGUID;
-@property(readonly, nonatomic) unsigned long long editType; // @synthesize editType=_editType;
-@property(readonly, nonatomic) NSString *editedMessageGUID; // @synthesize editedMessageGUID=_editedMessageGUID;
-@property(readonly, nonatomic) NSAttributedString *editedMessagePartBody; // @synthesize editedMessagePartBody=_editedMessagePartBody;
-@property(readonly, nonatomic) NSArray *editedMessagePartFileTransferGUIDs; // @synthesize editedMessagePartFileTransferGUIDs=_editedMessagePartFileTransferGUIDs;
-@property(readonly, nonatomic) long long editedMessagePartIndex; // @synthesize editedMessagePartIndex=_editedMessagePartIndex;
-@property(readonly, nonatomic) NSAttributedString *editedMessagePartTranslation; // @synthesize editedMessagePartTranslation=_editedMessagePartTranslation;
-@property(copy, nonatomic) NSString *fromIdentifier; // @synthesize fromIdentifier=_fromIdentifier;
-@property(readonly, nonatomic) _Bool hasEditTypeAndPartIndex; // @synthesize hasEditTypeAndPartIndex=_hasEditTypeAndPartIndex;
 @property(readonly, nonatomic) IMDiMessageIDSTrustedData *idsTrustedData; // @synthesize idsTrustedData=_idsTrustedData;
-@property(readonly, nonatomic) _Bool isFromStorage; // @synthesize isFromStorage=_isFromStorage;
-@property(readonly, nonatomic) _Bool isLastFromStorage; // @synthesize isLastFromStorage=_isLastFromStorage;
-@property(copy, nonatomic) NSArray *messageItems; // @synthesize messageItems=_messageItems;
-@property(copy, nonatomic) NSString *replicationSourceServiceName; // @synthesize replicationSourceServiceName=_replicationSourceServiceName;
-@property(retain, nonatomic) IMDServiceSession *serviceSession; // @synthesize serviceSession=_serviceSession;
-@property(readonly, nonatomic) _Bool shouldRetractMessageSubject; // @synthesize shouldRetractMessageSubject=_shouldRetractMessageSubject;
-@property(readonly, nonatomic) NSNumber *timestamp; // @synthesize timestamp=_timestamp;
-@property(copy, nonatomic) NSString *toIdentifier; // @synthesize toIdentifier=_toIdentifier;
 
 @end
 

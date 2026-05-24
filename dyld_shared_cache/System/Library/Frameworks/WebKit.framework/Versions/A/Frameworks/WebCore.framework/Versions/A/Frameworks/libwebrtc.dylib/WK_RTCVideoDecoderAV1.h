@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)leInternal/Library/BuildRoots/4~COGKugDSBqHPySrpIDrOH-23Ov2kd1KJv88U1zI/Library/Caches/com.apple.xbs/TemporaryDirectory.BadC4D/Sources/ImageIO/XMP-Toolkit-SDK/XMPCore/source/ICompositeNode_I.cpp;
 
 @end
 

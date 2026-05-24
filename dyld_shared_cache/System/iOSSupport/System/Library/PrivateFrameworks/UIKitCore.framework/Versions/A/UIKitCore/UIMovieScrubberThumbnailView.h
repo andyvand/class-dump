@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     unsigned int _hasPlaceholderImage:1;
 }
 
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)%@ %@;
 
 @end
 

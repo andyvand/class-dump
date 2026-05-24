@@ -4,30 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class VCVideoRule;
-
 __attribute__((visibility("hidden")))
 @interface CameraConferenceSynchronizer
 {
     _Bool isConference720p;
-    _Bool isConferenceOniPad;
-    _Bool receivedRequestToChangeCamera;
-    _Bool receivedFirstRemoteFrame;
-    int cameraHasChangedToCapture;
-    int didSendFirstRemoteFrameNotification;
-    VCVideoRule *captureRule;
-    struct CGSize localPortraitAspectRatio;
-    CDUnknownBlockType remoteFrameNotificationBlock;
-    CDUnknownBlockType didStopNotificationBlock;
 }
 
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)RD;
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)q;
 - (void);
 - (void);
 - (void);

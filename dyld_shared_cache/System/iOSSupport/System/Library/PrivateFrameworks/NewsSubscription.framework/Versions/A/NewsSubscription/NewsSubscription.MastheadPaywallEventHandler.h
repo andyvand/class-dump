@@ -7,15 +7,6 @@
 @interface NewsSubscription.MastheadPaywallEventHandler
 {
     id delegate;
-    id paywallEventHandler;
-    id purchasePresenter;
-    id mastheadPaywallConfigurationProvider;
-    id mastheadPaywallProvider;
-    id bundleSubscriptionManager;
-    id subscribeButtonDestination;
-    id paywallModel;
-    id callToAction;
-    id session;
 }
 
 @end

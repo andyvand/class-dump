@@ -8,21 +8,18 @@ __attribute__((visibility("hidden")))
 @interface AVAudioNotificationCenterHandler
 {
     CDUnknownBlockType _propertyNotificationHandler;
-    CDUnknownBlockType _interruptionHandler;
-    struct unfair_lock _mutex;
 }
 
-- (CDUnknownBlockType);
-- (void);
+- (CDUnknownBlockType)NEPacketTunnelProvider;
+- (void)NEExtensionAppProxyProviderProtocol;
 - (void);
 - (int);
 - (CDUnknownBlockType);
 - (id);
-- (void);
+- (void)UTF8String;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType interruptionHandler;
 @property(copy, nonatomic) CDUnknownBlockType propertyNotificationHandler;
 
 @end

@@ -4,38 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface NSCGSDisplayConfiguration
 {
     unsigned long long _reconfigureSeed;
-    unsigned long long _acceleratorSeed;
-    unsigned int _changeSeed;
-    double _flipOffset;
-    NSArray *_uniqueDisplays;
 }
 
 + (void);
-+ (_Bool);
++ (_Bool)_kCFNetworkProxySessionNeedsNewBodyStreamSignal;
 + (id);
 + (id);
 + (id);
 + (void)÷þ¬¨E;
 - (id);
-- (_Bool);
+- (_Bool)AVAssetDownloadDelegatePrivate;
 - (id);
-- (double);
-- (_Bool);
-- (id);
+- (double)FNA result %lld;
+- (_Bool)kCFHTTPAuthenticationUsedQuotes;
+- (id)startIntentDeletionForContactDeletions;
 - (void)íÿ4
 ·C;
 - (unsigned int)ªUüÙH;
 
 // Remaining properties
-@property(readonly) unsigned int changeSeed; // @synthesize changeSeed=_changeSeed;
 @property(readonly) double flipOffset; // @synthesize flipOffset=_flipOffset;
-@property(readonly, copy) NSArray *uniqueDisplays; // @synthesize uniqueDisplays=_uniqueDisplays;
 
 @end
 

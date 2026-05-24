@@ -7,9 +7,6 @@
 @interface PASmartColorAutoSettings
 {
     double _p75;
-    double _p98;
-    double _autoValue;
-    double _g98;
 }
 
 - (void);
@@ -25,10 +22,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) double autoValue; // @synthesize autoValue=_autoValue;
-@property(nonatomic) double g98; // @synthesize g98=_g98;
 @property(nonatomic) double p75; // @synthesize p75=_p75;
-@property(nonatomic) double p98; // @synthesize p98=_p98;
 
 @end
 

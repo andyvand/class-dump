@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIMenuElement;
+@class UIMenuElement;
 
 @interface MKPlaceCardMenuBuildingOptions
 {
     _Bool _addMismatchedItems;
-    UIMenuElement *_headerMenuElement;
-    NSArray *_requestedActionTypes;
 }
 
 - (void);
@@ -18,13 +16,11 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (void)ancelAllOperations;
+- (_Bool)`;
+- (void)cancelAllOperations;
 
 // Remaining properties
-@property(nonatomic) _Bool addMismatchedItems; // @synthesize addMismatchedItems=_addMismatchedItems;
 @property(retain, nonatomic) UIMenuElement *headerMenuElement; // @synthesize headerMenuElement=_headerMenuElement;
-@property(readonly, copy, nonatomic) NSArray *requestedActionTypes; // @synthesize requestedActionTypes=_requestedActionTypes;
 
 @end
 

@@ -10,15 +10,15 @@
 {
 }
 
-+ (Class);
++ (Class);
 + (id);
 + (void);
-- (struct CGRect);
+- (struct CGRect);
 - (_Bool);
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)MUExpandableHoursViewAccessibility;
 
 @end
 

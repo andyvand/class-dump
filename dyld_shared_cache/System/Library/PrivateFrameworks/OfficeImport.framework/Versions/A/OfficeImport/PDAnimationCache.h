@@ -4,32 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PDAnimateMotionBehavior, PDAnimationTarget, PDBuild;
+@class PDAnimationTarget;
 
 __attribute__((visibility("hidden")))
 @interface PDAnimationCache
 {
     int mNodeType;
-    int mPresetId;
-    int mPresetSubType;
-    int mPresetClass;
-    PDAnimationTarget *mTarget;
-    _Bool mHasDelay;
-    double mDelay;
-    _Bool mHasDuration;
-    double mDuration;
-    _Bool mHasDirection;
-    double mDirection;
-    _Bool mHasPartCount;
-    int mPartCount;
-    PDAnimateMotionBehavior *mMotionPath;
-    _Bool mHasValue;
-    double mValue;
-    PDBuild *mBuild;
-    int mIterateType;
-    _Bool mIsHead;
-    int mLevel;
-    NSString *mGroupId;
 }
 
 + (void);
@@ -40,42 +20,42 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)?;
 - (void);
 - (void);
 - (int);
 - (int);
 - (int);
 - (id);
-- (int);
+- (int)Eq;
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)	;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (int);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (double);
+- (void)!?;
+- (_Bool);
+- (id)setAllowedContentTypes: /* Error: Ran out of types for this method. */;
+- (void)tion Removed:(double)arg1 <no loc>;
 - (void);
 - (double);
 - (void);
-- (void);
+- (double)4;
+- (void)familyMemberScopedContactStore;
+- (void)dsAttrTypeStandard:(id)arg1 Picture;
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)SGroupSession"16@"NSNumber"24S32@"NSError"36;
 - (double);
 - (_Bool);
 - (double);
 - (int);
-- (void);
-- (void)ithFraction:(_Bool)arg1 ofColor: /* Error: Ran out of types for this method. */;
+- (void)k;
+- (void)newBlendedColorWithFraction:(_Bool)arg1 ofColor: /* Error: Ran out of types for this method. */;
 - (id)dÝ';
 - (void)Ì
 ;
@@ -83,27 +63,7 @@ __attribute__((visibility("hidden")))
 - (int);
 
 // Remaining properties
-@property(retain, nonatomic) PDBuild *build; // @synthesize build=mBuild;
-@property(nonatomic) double delay; // @synthesize delay=mDelay;
-@property(nonatomic) double direction; // @synthesize direction=mDirection;
-@property(nonatomic) double duration; // @synthesize duration=mDuration;
-@property(retain, nonatomic) NSString *groupId; // @synthesize groupId=mGroupId;
-@property(nonatomic) _Bool hasDelay; // @synthesize hasDelay=mHasDelay;
-@property(nonatomic) _Bool hasDirection; // @synthesize hasDirection=mHasDirection;
-@property(nonatomic) _Bool hasDuration; // @synthesize hasDuration=mHasDuration;
-@property(nonatomic) _Bool hasPartCount; // @synthesize hasPartCount=mHasPartCount;
-@property(nonatomic) _Bool hasValue; // @synthesize hasValue=mHasValue;
-@property(nonatomic) _Bool isHead; // @synthesize isHead=mIsHead;
-@property(nonatomic) int iterateType; // @synthesize iterateType=mIterateType;
-@property(nonatomic) int level; // @synthesize level=mLevel;
-@property(retain, nonatomic) PDAnimateMotionBehavior *motionPath; // @synthesize motionPath=mMotionPath;
-@property(nonatomic) int nodeType; // @synthesize nodeType=mNodeType;
-@property(nonatomic) int partCount; // @synthesize partCount=mPartCount;
-@property(nonatomic) int presetClass; // @synthesize presetClass=mPresetClass;
-@property(nonatomic) int presetId; // @synthesize presetId=mPresetId;
-@property(nonatomic) int presetSubType; // @synthesize presetSubType=mPresetSubType;
 @property(retain, nonatomic) PDAnimationTarget *target; // @synthesize target=mTarget;
-@property(nonatomic) double value; // @synthesize value=mValue;
 
 @end
 

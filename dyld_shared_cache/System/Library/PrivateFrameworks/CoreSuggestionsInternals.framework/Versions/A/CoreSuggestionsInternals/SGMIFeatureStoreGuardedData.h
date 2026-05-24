@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, SGMIDomainCountingTable, _PASSqliteDatabase;
+@class _PASSqliteDatabase;
 
 @interface SGMIFeatureStoreGuardedData
 {
     _PASSqliteDatabase *_db;
-    _Bool _dbIsMigrated;
-    NSMutableSet *_columnsToZero;
-    SGMIDomainCountingTable *_features;
 }
 
 - (void)|;

@@ -6,36 +6,30 @@
 
 #import <UniversalAccess/UAOnboardingFeature.h>
 
-@class NSImage, NSString, NSViewController, UAOnboardingLocalizedImageViewController;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface UAOnboardingImageEnableFeature : UAOnboardingFeature
 {
     NSString *_enableCheckboxTitle;
-    NSImage *_featureImage;
-    UAOnboardingLocalizedImageViewController *_localizedImageViewController;
-    NSViewController *_customViewController;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)ultCharactersCount"b1"imageResizingRateKBsPerSecond"b1"imageCount"b1"fileCount"b1};
+- (void)s"b1"registerMediaDurationInSeconds"b1"loadScreenContentRateKBsPerSecond"b1"registerMediaRateKBsPerSecond"b1"generativeResultCharactersCount"b1"imageResizingRateKBsPerSecond"b1"imageCount"b1"fileCount"b1};
+- (void)nds"b1"imageResizingDurationInSeconds"b1"registerMediaDurationInSeconds"b1"loadScreenContentRateKBsPerSecond"b1"registerMediaRateKBsPerSecond"b1"generativeResultCharactersCount"b1"imageResizingRateKBsPerSecond"b1"imageCount"b1"fileCount"b1};
+- (void)uestDurationInSeconds"b1"loadScreenContentDurationInSeconds"b1"imageResizingDurationInSeconds"b1"registerMediaDurationInSeconds"b1"loadScreenContentRateKBsPerSecond"b1"registerMediaRateKBsPerSecond"b1"generativeResultCharactersCount"b1"imageResizingRateKBsPerSecond"b1"imageCount"b1"fileCount"b1};
+- (id)xist"b1};
+- (id)xt";
+- (id)aFLInteractionDonationStarted";
+- (void)DonationContext";
+- (id)Context";
+- (void)ent"b1};
+- (id)Category";
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSViewController *customViewController; // @synthesize customViewController=_customViewController;
 @property(retain, nonatomic) NSString *enableCheckboxTitle; // @synthesize enableCheckboxTitle=_enableCheckboxTitle;
-@property(retain, nonatomic) NSImage *featureImage; // @synthesize featureImage=_featureImage;
-@property(retain, nonatomic) UAOnboardingLocalizedImageViewController *localizedImageViewController; // @synthesize localizedImageViewController=_localizedImageViewController;
 
 @end
 

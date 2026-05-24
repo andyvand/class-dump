@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_os_log;
 
 __attribute__((visibility("hidden")))
@@ -13,32 +13,25 @@ __attribute__((visibility("hidden")))
     NSObject<OS_os_log> *_log;
 }
 
-+ (void);
++ (void)mp;
 + (id);
 + (_Bool);
-+ (id);
++ (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)%{bool}d, hidden:(id)arg1 %{bool}d);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)atch: /* Error: Ran out of types for this method. */;
+- (void)suggestionFromContactMatch: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(readonly) Class superclass;
 
 @end
 

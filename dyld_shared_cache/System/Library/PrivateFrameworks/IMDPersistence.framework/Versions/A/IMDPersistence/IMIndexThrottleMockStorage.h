@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface IMIndexThrottleMockStorage
 {
     _Bool _internalIgnoreThrottling;
-    NSObject<OS_dispatch_queue> *_storageQueue;
-    NSMutableDictionary *_internalStorage;
-    NSMutableArray *_internalObservers;
 }
 
 - (void);
@@ -25,7 +22,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)!;
 - (id);
 - (void);
 - (void);
@@ -37,37 +34,25 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)C;
+- (void)i
+@9j@yIA	*;
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (void);
+- (id)APSFeaturesCreateFromLegacyFlags;
+- (void)nextLabelForMultiValue:(id)arg1;
+- (long long)relation;
 - (id);
-- (void);
-- (long long);
-- (id);
-- (id);
+- (id)ticCaseSummaryLog:Unsuccessful response:%{private}@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void)read = 0        AND m2.item_type = 0        AND m2.is_from_me = 0  )) ORDER BY ROWID ASC LIMIT 1;;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool ignoreThrottling;
-@property(nonatomic) _Bool internalIgnoreThrottling; // @synthesize internalIgnoreThrottling=_internalIgnoreThrottling;
-@property(retain, nonatomic) NSMutableArray *internalObservers; // @synthesize internalObservers=_internalObservers;
-@property(retain, nonatomic) NSMutableDictionary *internalStorage; // @synthesize internalStorage=_internalStorage;
-@property(readonly, nonatomic) NSArray *observers;
-@property(readonly, nonatomic) NSDictionary *storage;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *storageQueue; // @synthesize storageQueue=_storageQueue;
-@property(readonly) Class superclass;
 
 @end
 

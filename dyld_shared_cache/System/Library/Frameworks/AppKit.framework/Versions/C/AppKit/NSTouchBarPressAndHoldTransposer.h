@@ -4,33 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol NSTouchBarPressAndHoldTransposerDelegate;
-
 @interface NSTouchBarPressAndHoldTransposer
 {
     double _initialXLocation;
-    id <NSTouchBarPressAndHoldTransposerDelegate> _delegate;
-    id _trackingTouchID;
-    _Bool _transposingTouches;
 }
 
-- (_Bool);
-- (void);
+- (_Bool)DeviceSupportsActionAfterPowerConnect;
+- (void)DeviceSupportsAODVibrancy;
 - (double);
 - (double);
 - (id);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)(TLS Protocol Version) 0x%04hX
+(TLS Cipher Suite) 0x%04hX
+(Cellular) %s
+(Expensive) %s
+(Constrained) %s
+(Multipath) %s
+;
+- (void)kCFHTTPAuthenticationUsername;
 - (void);
 - (id);
-- (void);
-- (void)abled;
+- (void)glyphRangeForBoundingRectWithoutAdditionalLayout:(id)arg1 inTextContainer: /* Error: Ran out of types for this method. */;
+- (void)RestingMitigationOptedInEnabled;
 
 // Remaining properties
-@property __weak id <NSTouchBarPressAndHoldTransposerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly) double initialXLocation; // @synthesize initialXLocation=_initialXLocation;
-@property(readonly) double minimumRequiredDistance;
 
 @end
 

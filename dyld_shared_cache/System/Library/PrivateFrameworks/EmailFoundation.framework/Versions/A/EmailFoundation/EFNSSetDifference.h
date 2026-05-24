@@ -9,7 +9,6 @@
 @interface EFNSSetDifference
 {
     NSSet *_insertions;
-    NSSet *_removals;
 }
 
 - (id);
@@ -21,9 +20,7 @@
 × ;
 
 // Remaining properties
-@property(readonly) _Bool hasChanges;
 @property(readonly) NSSet *insertions; // @synthesize insertions=_insertions;
-@property(readonly) NSSet *removals; // @synthesize removals=_removals;
 
 @end
 

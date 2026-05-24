@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface OITSUWidthLimitedQueue
 {
     int mReaderCount;
-    int mLimit;
-    NSObject<OS_dispatch_queue> *mManagerQueue;
-    NSObject<OS_dispatch_queue> *mTargetQueue;
-    struct os_unfair_lock_s mUnfairLock;
 }
 
 - (id);
@@ -22,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id)nerParent:(unsigned long long)arg1 state: /* Error: Ran out of types for this method. */;
+- (id)readBulletImagesFromContainerParent:(unsigned long long)arg1 state: /* Error: Ran out of types for this method. */;
 
 @end
 

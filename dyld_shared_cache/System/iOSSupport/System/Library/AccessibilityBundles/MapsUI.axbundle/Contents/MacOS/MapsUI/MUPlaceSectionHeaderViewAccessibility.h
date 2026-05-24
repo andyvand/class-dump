@@ -11,10 +11,10 @@
 }
 
 + (Class);
-+ (id);
-+ (void);
++ (id)selectedText;
++ (void)__unwind_info;
 - (struct CGPoint);
-- (_Bool);
+- (_Bool)_additionalContentAttributes;
 - (id);
 - (unsigned long long);
 - (id);

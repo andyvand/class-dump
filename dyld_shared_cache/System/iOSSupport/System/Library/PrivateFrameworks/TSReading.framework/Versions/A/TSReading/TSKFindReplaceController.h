@@ -4,30 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSEnumerator, NSMutableArray, NSMutableDictionary, NSMutableSet, NSString, TSKSearch;
-@protocol TSKDocumentRootProvider, TSKFindReplaceDelegate, TSKSearchTargetProvider, TSKSearchable;
-
 @interface TSKFindReplaceController
 {
     _Bool _onlySearchesAnnotations;
-    NSEnumerator *_currentModelEnumerator;
-    id <TSKSearchable> _currentSearchable;
-    TSKSearch *_currentSearch;
-    double _currentSearchStartTime;
-    _Bool _commentsIncludedInAnnotationSearch;
-    NSMutableSet *_annotationDisplayStringTypes;
-    _Bool _countSearchHits;
-    unsigned long long _searchResultsCount;
-    id <TSKFindReplaceDelegate> _findReplaceDelegate;
-    id <TSKSearchTargetProvider> _searchTargetProvider;
-    id <TSKDocumentRootProvider> _documentRootProvider;
-    NSString *_searchString;
-    unsigned long long _searchOptions;
-    CDUnknownBlockType _searchResultComparator;
-    NSMutableArray *_layoutSearchResults;
-    NSMutableDictionary *_layoutSearchCountForRootIndexMap;
-    CDUnknownBlockType _progressBlock;
-    struct _NSRange _currentRootSearchTargetRange;
 }
 
 + (_Bool);
@@ -36,20 +15,20 @@
 + (void);
 + (void);
 + (void);
+- (void)redentials;
+- (void)item:(CDUnknownBlockType)arg1;
+- (void)- current item:(CDUnknownBlockType)arg1;
+- (void)- ;
+- (void)playbackStall;
+- (void)〔;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (CDUnknownBlockType);
-- (id);
-- (id);
+- (void)ange event;
+- (void)eueWithItem - identifier:(id)arg1;
+- (id)Error should be nonnil when there is no loaded item - identifier=;
+- (CDUnknownBlockType)=;
+- (id)ted - identifier=;
+- (id)anged;
 - (void);
 - (void);
 - (_Bool);
@@ -60,23 +39,23 @@
 - (id);
 - (id);
 - (id);
+- (id)RouteSharingPolicy;
+- (unsigned long long);
 - (id);
+- (id)n;
+- (id)]h|;
+- (struct _NSRange);
+- (_Bool);
+- (id);
+- (id);
+- (unsigned long long);
+- (void);
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
-- (struct _NSRange);
-- (_Bool);
-- (id);
-- (id);
-- (unsigned long long);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)@W;
 - (id);
 - (void);
 - (unsigned long long);
@@ -89,20 +68,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableSet *annotationDisplayStringTypes; // @synthesize annotationDisplayStringTypes=_annotationDisplayStringTypes;
-@property(nonatomic) _Bool commentsIncludedInAnnotationSearch; // @synthesize commentsIncludedInAnnotationSearch=_commentsIncludedInAnnotationSearch;
-@property(nonatomic) _Bool countSearchHits; // @synthesize countSearchHits=_countSearchHits;
 @property(nonatomic) struct _NSRange currentRootSearchTargetRange; // @synthesize currentRootSearchTargetRange=_currentRootSearchTargetRange;
-@property(nonatomic) id <TSKDocumentRootProvider> documentRootProvider; // @synthesize documentRootProvider=_documentRootProvider;
-@property(readonly, nonatomic) id <TSKFindReplaceDelegate> findReplaceDelegate; // @synthesize findReplaceDelegate=_findReplaceDelegate;
-@property(retain, nonatomic) NSMutableDictionary *layoutSearchCountForRootIndexMap; // @synthesize layoutSearchCountForRootIndexMap=_layoutSearchCountForRootIndexMap;
-@property(retain, nonatomic) NSMutableArray *layoutSearchResults; // @synthesize layoutSearchResults=_layoutSearchResults;
-@property(copy, nonatomic) CDUnknownBlockType progressBlock; // @synthesize progressBlock=_progressBlock;
-@property(nonatomic) unsigned long long searchOptions; // @synthesize searchOptions=_searchOptions;
-@property(copy, nonatomic) CDUnknownBlockType searchResultComparator; // @synthesize searchResultComparator=_searchResultComparator;
-@property(readonly, nonatomic) unsigned long long searchResultsCount; // @synthesize searchResultsCount=_searchResultsCount;
-@property(copy, nonatomic) NSString *searchString; // @synthesize searchString=_searchString;
-@property(readonly, nonatomic) id <TSKSearchTargetProvider> searchTargetProvider; // @synthesize searchTargetProvider=_searchTargetProvider;
 
 @end
 

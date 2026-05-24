@@ -10,30 +10,17 @@ __attribute__((visibility("hidden")))
 @interface MPPMediaQuery
 {
     int _entityOrder;
-    NSMutableArray *_filterPredicates;
-    int _groupingType;
-    NSMutableArray *_staticEntityIdentifiers;
-    int _staticEntityType;
-    _Bool _filteringDisabled;
-    _Bool _includeNonLibraryEntities;
-    struct {
-        unsigned int entityOrder:1;
-        unsigned int groupingType:1;
-        unsigned int staticEntityType:1;
-        unsigned int filteringDisabled:1;
-        unsigned int includeNonLibraryEntities:1;
-    } _has;
 }
 
 + (Class);
 + (Class);
 - (id);
-- (int);
+- (int);
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -64,31 +51,20 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (int);
 - (int);
-- (int);
+- (int);
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)_ignoreKVOChanges;
 - (void);
 - (id);
-- (id);
-- (void)epresentationSize:validForCatalog: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)_isRepresentationSize:validForCatalog: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) int entityOrder; // @synthesize entityOrder=_entityOrder;
 @property(retain, nonatomic) NSMutableArray *filterPredicates; // @synthesize filterPredicates=_filterPredicates;
-@property(nonatomic) _Bool filteringDisabled; // @synthesize filteringDisabled=_filteringDisabled;
-@property(nonatomic) int groupingType; // @synthesize groupingType=_groupingType;
-@property(nonatomic) _Bool hasEntityOrder;
-@property(nonatomic) _Bool hasFilteringDisabled;
-@property(nonatomic) _Bool hasGroupingType;
-@property(nonatomic) _Bool hasIncludeNonLibraryEntities;
-@property(nonatomic) _Bool hasStaticEntityType;
-@property(nonatomic) _Bool includeNonLibraryEntities; // @synthesize includeNonLibraryEntities=_includeNonLibraryEntities;
-@property(retain, nonatomic) NSMutableArray *staticEntityIdentifiers; // @synthesize staticEntityIdentifiers=_staticEntityIdentifiers;
-@property(nonatomic) int staticEntityType; // @synthesize staticEntityType=_staticEntityType;
 
 @end
 

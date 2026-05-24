@@ -18,7 +18,7 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id):(struct _NSZone *)arg1;
+- (id)setFromValue:(struct _NSZone *)arg1;
 - (void)hèÉmO»hn;
 
 // Remaining properties

@@ -4,69 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, UIScrollView, UIVisualEffect;
-
 __attribute__((visibility("hidden")))
 @interface UITableMetricsAdapter
 {
     struct _UIListGeometry _previousListGeometry;
-    struct {
-        unsigned int hasQueriedSharedSectionMetrics:1;
-        unsigned int hasQueriedSharedSeparatorMetrics:1;
-        unsigned int hasQueriedSharedListBehaviors:1;
-    } _adapterFlags;
-    double _paddingAboveFirstSectionHeader;
-    double _paddingAboveFirstSectionWithoutHeader;
-    double _paddingAboveSectionHeaders;
-    long long _headerFooterPinningBehavior;
-    long long _contentHuggingElements;
-    double _rowSpacing;
-    UIColor *_tableBackgroundColor;
-    UIVisualEffect *_tableSeparatorVisualEffect;
-    UIColor *_tableSeparatorColor;
-    long long _tableSeparatorStyle;
-    long long _listStyle;
-    UIScrollView *_scrollView;
-    struct NSDirectionalEdgeInsets _defaultTableContentInsets;
-    struct NSDirectionalEdgeInsets _defaultTableLayoutMargins;
 }
 
-- (id);
+- (id)_updateAliasToCNIDMapAndHistoryTokenWithCompletionHandler: /* Error: Ran out of types for this method. */;
 - (double);
 - (double);
-- (double);
+- (double);
 - (id);
 - (long long);
-- (struct NSDirectionalEdgeInsets);
-- (struct NSDirectionalEdgeInsets);
-- (void);
-- (void);
-- (void);
+- (struct NSDirectionalEdgeInsets)te to the server, updating syncedSyndicationRanges for message guid %@ ;
+- (struct NSDirectionalEdgeInsets)h error %@;
+- (void)as reviewed command and cleaning up:%@ /* Error: Ran out of types for this method. */;
+- (void)rocessing mark as reviewed command:(struct _UIListGeometry)arg1 %@, %@;
+- (void)and received fromID:%@,  /* Error: Ran out of types for this method. */;
 - (long long);
-- (id)rSelection: /* Error: Ran out of types for this method. */;
-- (struct _UIListGeometry)el: /* Error: Ran out of types for this method. */;
-- (long long)straints;
-- (long long)SuggestionUpdates;
+- (id)setTabItems:inferSelection: /* Error: Ran out of types for this method. */;
+- (struct _UIListGeometry)setInputSpeedModel: /* Error: Ran out of types for this method. */;
+- (long long)_urlOnlyConstraints;
+- (long long)_remoteInputSystemRequiresTextSuggestionUpdates;
 - (double);
 - (id);
 - (id);
 - (void)(b;
 
 // Remaining properties
-@property(readonly, nonatomic) long long contentHuggingElements; // @synthesize contentHuggingElements=_contentHuggingElements;
-@property(readonly, nonatomic) struct NSDirectionalEdgeInsets defaultTableContentInsets; // @synthesize defaultTableContentInsets=_defaultTableContentInsets;
-@property(readonly, nonatomic) struct NSDirectionalEdgeInsets defaultTableLayoutMargins; // @synthesize defaultTableLayoutMargins=_defaultTableLayoutMargins;
-@property(readonly, nonatomic) long long headerFooterPinningBehavior; // @synthesize headerFooterPinningBehavior=_headerFooterPinningBehavior;
 @property(readonly, nonatomic) long long listStyle; // @synthesize listStyle=_listStyle;
-@property(readonly, nonatomic) double paddingAboveFirstSectionHeader; // @synthesize paddingAboveFirstSectionHeader=_paddingAboveFirstSectionHeader;
-@property(readonly, nonatomic) double paddingAboveFirstSectionWithoutHeader; // @synthesize paddingAboveFirstSectionWithoutHeader=_paddingAboveFirstSectionWithoutHeader;
-@property(readonly, nonatomic) double paddingAboveSectionHeaders; // @synthesize paddingAboveSectionHeaders=_paddingAboveSectionHeaders;
-@property(readonly, nonatomic) double rowSpacing; // @synthesize rowSpacing=_rowSpacing;
-@property(readonly, nonatomic) __weak UIScrollView *scrollView; // @synthesize scrollView=_scrollView;
-@property(readonly, nonatomic) UIColor *tableBackgroundColor; // @synthesize tableBackgroundColor=_tableBackgroundColor;
-@property(readonly, nonatomic) UIColor *tableSeparatorColor; // @synthesize tableSeparatorColor=_tableSeparatorColor;
-@property(readonly, nonatomic) long long tableSeparatorStyle; // @synthesize tableSeparatorStyle=_tableSeparatorStyle;
-@property(readonly, nonatomic) UIVisualEffect *tableSeparatorVisualEffect; // @synthesize tableSeparatorVisualEffect=_tableSeparatorVisualEffect;
 
 @end
 

@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface HAPCharacteristicEnableEventCompletionTuple
 {
     CDUnknownBlockType _handler;
-    NSObject<OS_dispatch_queue> *_completionQueue;
 }
 
 + (id);
 - (id);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *completionQueue; // @synthesize completionQueue=_completionQueue;
 @property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
 
 @end

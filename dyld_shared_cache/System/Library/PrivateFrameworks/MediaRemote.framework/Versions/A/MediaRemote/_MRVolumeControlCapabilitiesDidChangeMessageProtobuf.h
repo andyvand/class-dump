@@ -4,42 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _MRVolumeControlAvailabilityProtobuf;
+@class _MRVolumeControlAvailabilityProtobuf;
 
 @interface _MRVolumeControlCapabilitiesDidChangeMessageProtobuf
 {
     _MRVolumeControlAvailabilityProtobuf *_capabilities;
-    NSString *_endpointUID;
-    NSString *_outputDeviceUID;
 }
 
+- (_Bool)hh8;
+- (id)ijh8�7�;
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (unsigned long long)9;
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (_Bool);
+- (id)4@"NSString"32;
+- (_Bool)editedMessageItemWithOriginalMessageItem:retractedPartIndex:shouldRetractSubject: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void);
+- (id)enterCriticalSection;
+- (id)AFContextResponse;
+- (id)veal-speech-command;
 - (_Bool);
-- (void)entItemID;
+- (void)contentItemID;
 
 // Remaining properties
-@property(retain, nonatomic) _MRVolumeControlAvailabilityProtobuf *capabilities; // @synthesize capabilities=_capabilities;
-@property(retain, nonatomic) NSString *endpointUID; // @synthesize endpointUID=_endpointUID;
 @property(readonly, nonatomic) _Bool hasCapabilities;
-@property(readonly, nonatomic) _Bool hasEndpointUID;
-@property(readonly, nonatomic) _Bool hasOutputDeviceUID;
-@property(retain, nonatomic) NSString *outputDeviceUID; // @synthesize outputDeviceUID=_outputDeviceUID;
 
 @end
 

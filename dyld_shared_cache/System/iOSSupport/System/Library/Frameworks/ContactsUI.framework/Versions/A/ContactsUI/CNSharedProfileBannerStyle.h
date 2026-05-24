@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIButtonConfiguration, UIColor, UIFont, UIImageSymbolConfiguration, UIVisualEffectView;
+@class UIColor;
 
 @interface CNSharedProfileBannerStyle
 {
     UIColor *_titleTextColor;
-    UIColor *_subtitleTextColor;
-    UIFont *_titleFont;
-    UIFont *_subtitleFont;
-    UIButtonConfiguration *_actionButtonConfiguration;
-    UIImageSymbolConfiguration *_xmarkButtonColorConfiguration;
-    UIColor *_backgroundColor;
-    UIVisualEffectView *_backgroundVisualEffectView;
-    double _leadingTrailingInset;
 }
 
 + (id);
@@ -33,24 +25,16 @@
 - (void);
 - (id);
 - (void);
+- (void)y:(id)arg1 offline request failed for %@ episode %@ with error %@;
 - (void);
 - (void);
-- (void);
+- (id)_newConnectionAttemptsConfigureDynamically: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (void)youtMetrics;
+- (void)_updateLayoutMetrics;
 
 // Remaining properties
-@property(retain, nonatomic) UIButtonConfiguration *actionButtonConfiguration; // @synthesize actionButtonConfiguration=_actionButtonConfiguration;
-@property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(retain, nonatomic) UIVisualEffectView *backgroundVisualEffectView; // @synthesize backgroundVisualEffectView=_backgroundVisualEffectView;
-@property(nonatomic) double leadingTrailingInset; // @synthesize leadingTrailingInset=_leadingTrailingInset;
-@property(retain, nonatomic) UIFont *subtitleFont; // @synthesize subtitleFont=_subtitleFont;
-@property(retain, nonatomic) UIColor *subtitleTextColor; // @synthesize subtitleTextColor=_subtitleTextColor;
-@property(retain, nonatomic) UIFont *titleFont; // @synthesize titleFont=_titleFont;
 @property(retain, nonatomic) UIColor *titleTextColor; // @synthesize titleTextColor=_titleTextColor;
-@property(retain, nonatomic) UIImageSymbolConfiguration *xmarkButtonColorConfiguration; // @synthesize xmarkButtonColorConfiguration=_xmarkButtonColorConfiguration;
 
 @end
 

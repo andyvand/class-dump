@@ -17,9 +17,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void)ù
 × ;
-- (void)BarPlacementAllowsToolbarIntegration;
-- (void)nimateDeletionOfRowAtIndexPath: /* Error: Ran out of types for this method. */;
-- (void)ht;
+- (void)searchBarPlacementAllowsToolbarIntegration;
+- (void)_animateDeletionOfRowAtIndexPath: /* Error: Ran out of types for this method. */;
+- (void)__drawsOwnHighlight;
 - (void)@"<UIPopoverPresentationControllerSourceItem>",&,N,V_sourceItem;
 - (void)¨;
 - (void)Configuration"8@?0;

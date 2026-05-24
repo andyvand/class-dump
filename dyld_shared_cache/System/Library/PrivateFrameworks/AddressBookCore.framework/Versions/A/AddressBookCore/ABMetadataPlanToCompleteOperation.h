@@ -11,7 +11,6 @@
 @interface ABMetadataPlanToCompleteOperation : ABMetadataOperation
 {
     NSArray *_uniqueIds;
-    unsigned long long _jobType;
 }
 
 - (id);

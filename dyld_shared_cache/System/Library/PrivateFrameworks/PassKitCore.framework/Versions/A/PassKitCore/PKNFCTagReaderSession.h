@@ -6,7 +6,6 @@
 
 #import <PassKitCore/PKPaymentSession.h>
 
-@class NSString;
 @protocol PKNFCTagReaderSessionDelegate;
 
 @interface PKNFCTagReaderSession : PKPaymentSession
@@ -14,7 +13,7 @@
     id <PKNFCTagReaderSessionDelegate> _delegate;
 }
 
-- (void);
+- (void)k`;
 - (void);
 - (void);
 - (void);
@@ -23,17 +22,10 @@
 - (void);
 - (id);
 - (void);
-- (void)Compact;
+- (void)twoLineCompact;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <PKNFCTagReaderSessionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

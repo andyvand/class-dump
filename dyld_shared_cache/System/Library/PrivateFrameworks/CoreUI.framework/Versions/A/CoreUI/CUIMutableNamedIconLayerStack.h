@@ -6,25 +6,20 @@
 
 #import <CoreUI/CUINamedIconLayerStack.h>
 
-@class NSDictionary, NSString;
-
 @interface CUIMutableNamedIconLayerStack : CUINamedIconLayerStack
 {
     double _scale;
-    struct CGSize _size;
-    NSDictionary *_properties;
-    NSString *_appearance;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)ace descriptor. E5RT:(id)arg1 %s (%d);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (double);
 - (void);
 - (struct CGSize);
@@ -32,8 +27,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *renderingProperties;
-@property(nonatomic) double scale;
 @property(nonatomic) struct CGSize size;
 
 @end

@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSNumber, NSURL;
+@class NSNumber, NSURL;
 
 @interface UARPSuperBinaryMetaDataTable
 {
     NSURL *_plist;
-    NSMutableArray *_values;
-    NSNumber *_formatVersion;
-    NSDictionary *_dict;
 }
 
-+ (unsigned int);
-- (id);
++ (unsigned int)ed;
+- (id);
 - (id);
 - (id);
 - (id);
@@ -26,6 +23,8 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)8;
 - (void);
 - (void);
 - (void);
@@ -39,15 +38,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)V;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -55,9 +52,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSDictionary *dict; // @synthesize dict=_dict;
 @property(readonly) NSNumber *formatVersion; // @synthesize formatVersion=_formatVersion;
-@property(readonly) NSArray *values;
 
 @end
 

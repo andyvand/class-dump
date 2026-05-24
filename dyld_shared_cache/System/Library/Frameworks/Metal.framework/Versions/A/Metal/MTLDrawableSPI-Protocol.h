@@ -6,6 +6,10 @@
 
 @protocol MTLDrawableSPI
 
+@optional
+- (void);
+- (void)g non-positive byte count.;
+
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long status;
 @end

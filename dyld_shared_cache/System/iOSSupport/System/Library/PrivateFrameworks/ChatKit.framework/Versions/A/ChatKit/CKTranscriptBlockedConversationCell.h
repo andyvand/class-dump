@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
     UIButton *_leaveConversationButton;
 }
 
-- (void);
-- (void);
+- (void)ic_isVisible;
+- (void)cryptoStrategy;
 - (id);
 - (void);
-- (void);
+- (void)ypSg;
 - (id);
 - (struct CGSize);
 - (_Bool);
@@ -26,12 +26,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)_willShowCorrections;
 - (void)À;
 
 // Remaining properties
 @property(copy, nonatomic) NSAttributedString *attributedButtonText;
-@property(retain, nonatomic) UIButton *leaveConversationButton; // @synthesize leaveConversationButton=_leaveConversationButton;
 
 @end
 

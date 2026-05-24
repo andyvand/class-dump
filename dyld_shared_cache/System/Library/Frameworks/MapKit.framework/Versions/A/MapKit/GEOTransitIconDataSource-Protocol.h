@@ -4,31 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOStyleAttributes;
-
 @protocol GEOTransitIconDataSource
+- (int)_parseNearbyActionV2Ptr:end: /* Error: Ran out of types for this method. */;
+
+@optional
+- (unsigned int)advertisingAddress;
+- (unsigned int)advInterval;
+- (unsigned int)ilable;
+- (unsigned int)BLE;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int cartoID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TI,?,R,N
-
-@property(readonly, nonatomic) unsigned int defaultTransitType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TI,?,R,N
-
-@property(readonly, nonatomic) unsigned int iconAttributeKey;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TI,?,R,N
-
-@property(readonly, nonatomic) unsigned int iconAttributeValue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TI,?,R,N
-
 @property(readonly, nonatomic) int iconType;
-@property(readonly, nonatomic) GEOStyleAttributes *styleAttributes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"GEOStyleAttributes",?,R,N
-
 @end
 

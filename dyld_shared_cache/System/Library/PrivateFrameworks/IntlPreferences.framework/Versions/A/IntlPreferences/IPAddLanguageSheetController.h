@@ -4,51 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSButton, NSImageView, NSSearchField, NSString, NSTableView, NSTextField;
+@class NSTableView;
 
 @interface IPAddLanguageSheetController
 {
     NSTableView *_tableView;
-    NSButton *_helpButton;
-    NSButton *_addButton;
-    NSImageView *_nonSystemLanguageIcon;
-    NSTextField *_nonSystemLanguageLabel;
-    NSSearchField *_searchField;
-    NSArray *_systemLanguages;
-    NSArray *_otherLanguages;
-    NSArray *_filteredSystemLanguages;
-    NSArray *_filteredOtherLanguages;
-    CDUnknownBlockType _didEndBlock;
 }
 
-+ (void);
-+ (void);
-- (long long);
++ (void)automaticallyNotifiesObserversForKey:(id)arg1;
++ (void)automaticallyAdjustsShadowProjection;
+- (long long)containsValueForKey:(id)arg1;
+- (void)completedUnitCount;
+- (void)commonProfileCacheLibrary;
+- (void)commonInit;
+- (void)collisionImpulse;
+- (void)collisionCategoryBitMask;
+- (void)clearCorrectives;
+- (void)childNodesPassingTest:(id)arg1 recursively:(id)arg2;
+- (id)cameraRef;
+- (id)cachedTextureWithURL:token:didFallbackToDefaultTexture: /* Error: Ran out of types for this method. */;
+- (id)cachedTextureWithURL:token: /* Error: Ran out of types for this method. */;
+- (id)attachNode: /* Error: Ran out of types for this method. */;
+- (id)assetWithSCNScene:bufferAllocator: /* Error: Ran out of types for this method. */;
+- (void)areBarycentricCoordsSupported;
+- (void)archivedDataWithRootObject:(id)arg1 requiringSecureCoding:error: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)appendBytes:length: /* Error: Ran out of types for this method. */;
+- (void)_wantsSeparateGeometryElements;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (id);
+- (id) @y) @y	ka;
 - (void);
 - (id);
 - (_Bool);
 - (double);
 - (void);
 - (long long);
-- (void);
+- (void)R;
 - (id);
 - (id);
 - (void);
@@ -56,27 +46,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)soundFileURL;
 - (id);
 
 // Remaining properties
-@property(retain) NSButton *addButton; // @synthesize addButton=_addButton;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) CDUnknownBlockType didEndBlock; // @synthesize didEndBlock=_didEndBlock;
-@property(retain) NSArray *filteredOtherLanguages; // @synthesize filteredOtherLanguages=_filteredOtherLanguages;
-@property(retain) NSArray *filteredSystemLanguages; // @synthesize filteredSystemLanguages=_filteredSystemLanguages;
-@property(readonly) unsigned long long hash;
-@property(retain) NSButton *helpButton; // @synthesize helpButton=_helpButton;
-@property(retain) NSImageView *nonSystemLanguageIcon; // @synthesize nonSystemLanguageIcon=_nonSystemLanguageIcon;
-@property(retain) NSTextField *nonSystemLanguageLabel; // @synthesize nonSystemLanguageLabel=_nonSystemLanguageLabel;
-@property(retain) NSArray *otherLanguages; // @synthesize otherLanguages=_otherLanguages;
-@property(retain) NSSearchField *searchField; // @synthesize searchField=_searchField;
-@property(readonly) Class superclass;
-@property(retain) NSArray *systemLanguages; // @synthesize systemLanguages=_systemLanguages;
 @property(retain) NSTableView *tableView; // @synthesize tableView=_tableView;
 
 @end

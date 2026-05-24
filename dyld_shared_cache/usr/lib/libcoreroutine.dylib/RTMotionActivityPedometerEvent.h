@@ -9,26 +9,24 @@
 @interface RTMotionActivityPedometerEvent
 {
     NSDate *_date;
-    long long _eventType;
 }
 
 + (id);
-+ (long long);
++ (long long)ailed to fill ownerIdentity PCSSPKey:(long long)arg1 _PCSPublicIdentityExportPCSSPKey(sp->ownerIdentity, &ownerPublicKey);
 + (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id):%zd < 2 /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (long long);
+- (long long)`;
 - (_Bool);
 - (void);
 - (void)(in %s:%d) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, nonatomic) long long eventType; // @synthesize eventType=_eventType;
 
 @end
 

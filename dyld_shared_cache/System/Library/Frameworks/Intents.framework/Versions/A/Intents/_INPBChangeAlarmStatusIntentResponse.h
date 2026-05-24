@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface _INPBChangeAlarmStatusIntentResponse
 {
     struct _has;
-    NSArray *_modifiedAlarms;
 }
 
 + (Class);
@@ -17,29 +16,21 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (id);
+- (id)SArray"16@?<v@?QdQ@"NSError">24;
 - (void);
-- (unsigned long long);
+- (unsigned long long)`;
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)ameters"32@?<v@?@"NSError">40;
+- (void)corewifi] %{public}s (%{public}s:(id)arg1 %u) Failed to update %d network profiles, returned error %{public}@;
 - (id);
 - (id);
 - (void)24@?<v@?@"NSString"@"NSData"@"NSError"B>32;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSArray *modifiedAlarms; // @synthesize modifiedAlarms=_modifiedAlarms;
-@property(readonly, nonatomic) unsigned long long modifiedAlarmsCount;
-@property(readonly) Class superclass;
 
 @end
 

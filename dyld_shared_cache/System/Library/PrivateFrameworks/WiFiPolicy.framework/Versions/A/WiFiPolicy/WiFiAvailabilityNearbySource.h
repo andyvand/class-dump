@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface WiFiAvailabilityNearbySource
 {
     NSArray *recommendedNetworks;
-    CDUnknownBlockType changeHandler;
-    CDUnknownBlockType relevancyHandler;
-    CDUnknownBlockType removalHandler;
 }
 
 - (void);
@@ -19,7 +16,7 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)userExpectsReconnect;
 - (id);
 - (void);
 - (CDUnknownBlockType);
@@ -27,17 +24,7 @@
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType changeHandler; // @synthesize changeHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy) NSArray *recommendedNetworks; // @synthesize recommendedNetworks;
-@property(copy, nonatomic) CDUnknownBlockType relevancyHandler; // @synthesize relevancyHandler;
-@property(copy, nonatomic) CDUnknownBlockType removalHandler; // @synthesize removalHandler;
-@property(readonly) Class superclass;
 
 @end
 

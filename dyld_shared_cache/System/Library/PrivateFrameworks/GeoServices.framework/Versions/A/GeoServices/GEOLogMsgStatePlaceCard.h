@@ -4,51 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPlaceActionDetails, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOLogMsgStatePlaceCard
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_62a50c50 _containedChildrenPois;
-    CDStruct_95bda58d _possibleActions;
-    CDStruct_95bda58d _unactionableUiElements;
-    NSMutableArray *_commingledRichProviderIds;
-    NSMutableArray *_modules;
-    GEOPlaceActionDetails *_placeActionDetails;
-    NSString *_placecardCategory;
-    NSMutableArray *_revealedModules;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _placecardType;
-    _Bool _isPersonAddressAvailable;
-    _Bool _isPersonLocationShared;
-    _Bool _isPersonPlacecard;
-    _Bool _transitAdvisoryBanner;
-    struct {
-        unsigned int has_placecardType:1;
-        unsigned int has_isPersonAddressAvailable:1;
-        unsigned int has_isPersonLocationShared:1;
-        unsigned int has_isPersonPlacecard:1;
-        unsigned int has_transitAdvisoryBanner:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_containedChildrenPois:1;
-        unsigned int read_possibleActions:1;
-        unsigned int read_unactionableUiElements:1;
-        unsigned int read_commingledRichProviderIds:1;
-        unsigned int read_modules:1;
-        unsigned int read_placeActionDetails:1;
-        unsigned int read_placecardCategory:1;
-        unsigned int read_revealedModules:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
++ (Class)m/Library/Frameworks/CoreGraphics.framework/CoreGraphics;
 + (Class);
 + (Class);
-+ (Class);
-+ (_Bool)ts:(id)arg1;
++ (_Bool)setHasSupportsAreaEventsEnhancements:(id)arg1;
 - (unsigned long long);
 - (int *);
 - (int);
@@ -86,7 +52,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)C;
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
@@ -98,22 +64,22 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (int);
-- (int);
-- (id);
-- (void);
-- (void);
-- (id);
-- (int);
+- (void)0:8@"ACAccount"16 /* Error: Ran out of types for this method. */;
+- (void)t<OS_os_log>";
+- (void)serialSchedulerProvider;
+- (void)removeParentheticalContent;
+- (void)recover:(int)arg1;
+- (void)providerWithBackgroundConcurrencyLimit:(id)arg1;
+- (void)observableWithObservable:(unsigned long long)arg1 transform:decoratorGenerator:schedulerProvider: /* Error: Ran out of types for this method. */;
+- (void)observableWithInitialState:(id)arg1 condition:nextState:resultSelector:delay:scheduler: /* Error: Ran out of types for this method. */;
+- (id)_delayToken;
+- (int)R,C,N,V_providerContainerIdentifier;
+- (int)entifier;
+- (id)futureResultFromImmediateLookup;
+- (void)>",R,N,V_accountSource;
+- (void),C,N;
+- (id)processIdentifierForAuditToken:(unsigned long long)arg1;
+- (int)_CNObservableSkipUntilOperator;
 - (int *);
 - (void);
 - (void);
@@ -121,8 +87,8 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)ty;
+- (void)6R;
 - (id);
 - (unsigned long long);
 - (void);
@@ -132,36 +98,13 @@
 - (id);
 - (void);
 - (id)et:(struct _NSZone *)arg1 updateType: /* Error: Ran out of types for this method. */;
-- (id)stsCount;
+- (id)speedTestsCount;
 - (id)ags;
 - (id)ÿÿ;
 - (void)\©6lO3;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *commingledRichProviderIds;
-@property(readonly, nonatomic) unsigned long long *containedChildrenPois;
-@property(readonly, nonatomic) unsigned long long containedChildrenPoisCount;
-@property(nonatomic) _Bool hasIsPersonAddressAvailable;
-@property(nonatomic) _Bool hasIsPersonLocationShared;
-@property(nonatomic) _Bool hasIsPersonPlacecard;
 @property(readonly, nonatomic) _Bool hasPlaceActionDetails;
-@property(readonly, nonatomic) _Bool hasPlacecardCategory;
-@property(nonatomic) _Bool hasPlacecardType;
-@property(nonatomic) _Bool hasTransitAdvisoryBanner;
-@property(nonatomic) _Bool isPersonAddressAvailable;
-@property(nonatomic) _Bool isPersonLocationShared;
-@property(nonatomic) _Bool isPersonPlacecard;
-@property(retain, nonatomic) NSMutableArray *modules;
-@property(retain, nonatomic) GEOPlaceActionDetails *placeActionDetails;
-@property(retain, nonatomic) NSString *placecardCategory;
-@property(nonatomic) int placecardType;
-@property(readonly, nonatomic) int *possibleActions;
-@property(readonly, nonatomic) unsigned long long possibleActionsCount;
-@property(retain, nonatomic) NSMutableArray *revealedModules;
-@property(nonatomic) _Bool transitAdvisoryBanner;
-@property(readonly, nonatomic) int *unactionableUiElements;
-@property(readonly, nonatomic) unsigned long long unactionableUiElementsCount;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     OADStroke *_stroke;
 }
 
-- (struct CGPath *);
+- (struct CGPath *);
 - (void);
 - (void);
 - (void);

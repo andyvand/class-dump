@@ -19,9 +19,9 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)!;
 - (id);
-- (void);
+- (void)P;
 
 // Remaining properties
 @property(readonly) NSSet *torsoAnnotations; // @synthesize torsoAnnotations=_torsoAnnotations;

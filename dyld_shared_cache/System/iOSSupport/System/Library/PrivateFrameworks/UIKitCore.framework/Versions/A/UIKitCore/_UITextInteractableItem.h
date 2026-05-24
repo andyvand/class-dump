@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIAction, UIContextMenuInteraction, UIEditMenuInteraction, UINotificationFeedbackGenerator, UITextItem, UITextItemMenuConfiguration, UITextRange, UIView, _UITextItemHighlightView, _UITextItemInteractionHandler;
-@protocol _UIInvalidatable, _UITextContent, _UITextItemInteracting;
+@protocol _UITextContent;
 
 __attribute__((visibility("hidden")))
 @interface _UITextInteractableItem
@@ -14,23 +13,9 @@ __attribute__((visibility("hidden")))
         unsigned int primaryAction:1;
         unsigned int menu:1;
     } _requested;
-    UIAction *_primaryAction;
-    id <_UIInvalidatable> _selectionHiddenAssertion;
-    UITextRange *_range;
-    UITextItem *_representedTextItem;
-    _UITextItemInteractionHandler *_itemHandler;
-    UIView<_UITextItemInteracting> *_textItemInteractingView;
-    UITextItemMenuConfiguration *_preparedMenuConfiguration;
-    UIContextMenuInteraction *_contextMenuInteraction;
-    UIEditMenuInteraction *_editMenuInteraction;
-    id <_UITextContent> _textContent;
-    _UITextItemHighlightView *_highlightView;
-    UIAction *_defaultAction;
-    UINotificationFeedbackGenerator *_feedbackGenerator;
-    struct CGPoint _location;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 - (void);
@@ -54,16 +39,16 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)syncController:syncBatchCompleted: /* Error: Ran out of types for this method. */;
+- (id)ate:(_Bool)arg1 originalGroupID:lastReadMessageTimeStamp:lastMessageTimeStampOnLoad:cloudKitRecordID:isBlackholed:autoDonationBehavior:autoDonationBehaviorLastModificationDate:isRecovered:isDeletingIncomingMessages:domainIdentifiers: /* Error: Ran out of types for this method. */;
 - (id);
+- (_Bool)%ld, stopping processing;
+- (_Bool)ping observation for event stream, setting dispatch queue to nil;
+- (void)responding IDSAccount %@;
+- (_Bool)fromID %@;
+- (id)Ң;
 - (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
@@ -83,22 +68,7 @@ __attribute__((visibility("hidden")))
 - (id)ä_þ¤Ø«;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect bounds;
-@property(nonatomic) __weak UIContextMenuInteraction *contextMenuInteraction; // @synthesize contextMenuInteraction=_contextMenuInteraction;
-@property(readonly, nonatomic) UIAction *defaultAction; // @synthesize defaultAction=_defaultAction;
-@property(nonatomic) __weak UIEditMenuInteraction *editMenuInteraction; // @synthesize editMenuInteraction=_editMenuInteraction;
-@property(readonly, nonatomic) UINotificationFeedbackGenerator *feedbackGenerator; // @synthesize feedbackGenerator=_feedbackGenerator;
-@property(readonly, nonatomic) _UITextItemHighlightView *highlightView; // @synthesize highlightView=_highlightView;
-@property(retain, nonatomic) _UITextItemInteractionHandler *itemHandler; // @synthesize itemHandler=_itemHandler;
-@property(readonly, nonatomic) struct CGPoint location; // @synthesize location=_location;
-@property(readonly, nonatomic) unsigned long long preferredElementDisplayMode;
-@property(readonly, nonatomic) long long preferredMenuExpression;
-@property(readonly, nonatomic) UITextItemMenuConfiguration *preparedMenuConfiguration; // @synthesize preparedMenuConfiguration=_preparedMenuConfiguration;
-@property(readonly, nonatomic) UITextRange *range; // @synthesize range=_range;
-@property(readonly, nonatomic) NSArray *rects;
-@property(readonly, nonatomic) UITextItem *representedTextItem; // @synthesize representedTextItem=_representedTextItem;
 @property(nonatomic) __weak id <_UITextContent> textContent; // @synthesize textContent=_textContent;
-@property(readonly, nonatomic) __weak UIView<_UITextItemInteracting> *textItemInteractingView; // @synthesize textItemInteractingView=_textItemInteractingView;
 
 @end
 

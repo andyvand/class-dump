@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (void);
-+ (id);
++ (id)R	 Q?;
 + (struct OADFormulaArg);
 
 @end

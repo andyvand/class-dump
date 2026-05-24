@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCConnection;
-@protocol MRUIServerXPCProtocol;
+@class NSXPCConnection;
 
 __attribute__((visibility("hidden")))
 @interface MRUIController
 {
     _Bool _hasLockScreenControlsAssertion;
-    _Bool _hasQuickControlsAssertion;
-    _Bool _hasScreenMirroringQuickControlsAssertion;
-    _Bool _hasRouteRecommendationAssertion;
-    _Bool _hasNowPlayingActivityAssertion;
-    _Bool _shouldRestoreState;
-    struct os_unfair_lock_s _lock;
-    NSXPCConnection *_xpcConnection;
 }
 
 - (void);
 - (_Bool);
 - (void);
+- (void);
+- (void);
+- (void)9;
 - (void);
 - (void);
 - (void);
@@ -30,47 +25,29 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)T;
 - (void);
 - (_Bool);
+- (_Bool)hhxJ;
+- (_Bool);
 - (_Bool);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (struct os_unfair_lock_s)e: /* Error: Ran out of types for this method. */;
+- (id)ke_4;
+- (struct os_unfair_lock_s)setRegisterVoiceInputDeviceResponseMessage: /* Error: Ran out of types for this method. */;
 - (void)bleGroupLeader;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasLockScreenControlsAssertion; // @synthesize hasLockScreenControlsAssertion=_hasLockScreenControlsAssertion;
-@property(nonatomic) _Bool hasNowPlayingActivityAssertion; // @synthesize hasNowPlayingActivityAssertion=_hasNowPlayingActivityAssertion;
-@property(nonatomic) _Bool hasQuickControlsAssertion; // @synthesize hasQuickControlsAssertion=_hasQuickControlsAssertion;
-@property(nonatomic) _Bool hasRouteRecommendationAssertion; // @synthesize hasRouteRecommendationAssertion=_hasRouteRecommendationAssertion;
-@property(nonatomic) _Bool hasScreenMirroringQuickControlsAssertion; // @synthesize hasScreenMirroringQuickControlsAssertion=_hasScreenMirroringQuickControlsAssertion;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct os_unfair_lock_s lock; // @synthesize lock=_lock;
-@property(readonly, nonatomic) id <MRUIServerXPCProtocol> server;
-@property(nonatomic) _Bool shouldRestoreState; // @synthesize shouldRestoreState=_shouldRestoreState;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSXPCConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
 
 @end

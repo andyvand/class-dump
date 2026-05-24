@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface TSUExtendedAttribute
 {
     NSString *_name;
-    NSData *_value;
 }
 
 + (id);
 + (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -26,13 +25,12 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id)x%02x%02x%02x%02x%02x%02x%02x%02x%02x;
+- (id)A;
 - (void)/com.apple.xbs/TemporaryDirectory.ObjdbM/Sources/OfficeImport/OfficeParser/shared/utility/TSUNumberFormatter.m;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSData *value; // @synthesize value=_value;
 
 @end
 

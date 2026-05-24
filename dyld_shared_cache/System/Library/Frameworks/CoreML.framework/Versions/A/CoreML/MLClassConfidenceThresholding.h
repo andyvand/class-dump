@@ -6,12 +6,11 @@
 
 #import <CoreML/MLModel.h>
 
-@class MLFeatureProviderConformer, MLParameterContainer, NSString;
+@class MLParameterContainer;
 
 @interface MLClassConfidenceThresholding : MLModel
 {
     MLParameterContainer *_parameterContainer;
-    MLFeatureProviderConformer *_inputFeatureConformer;
 }
 
 + (id);
@@ -24,15 +23,7 @@
 - (void)%lul (must be 1 or greater).;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) MLFeatureProviderConformer *inputFeatureConformer; // @synthesize inputFeatureConformer=_inputFeatureConformer;
 @property(retain, nonatomic) MLParameterContainer *parameterContainer; // @synthesize parameterContainer=_parameterContainer;
-@property(readonly) Class superclass;
 
 @end
 

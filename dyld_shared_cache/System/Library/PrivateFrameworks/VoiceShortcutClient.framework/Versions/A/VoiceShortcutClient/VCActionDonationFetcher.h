@@ -9,26 +9,26 @@
 }
 
 + (id);
-+ (void);
++ (void);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool)|;
++ (id)|;
++ (id)N${;
++ (id);
++ (void);
++ (void);
++ (id);
 + (id);
 + (id);
 + (id);
 + (void);
 + (void);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
 + (void);
-+ (void);
-+ (void);
++ (id)k;
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 

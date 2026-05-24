@@ -4,32 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSSet, TSURetainedPointerKeyDictionary;
-@protocol TSDLayerAndSubviewHosting;
+@class NSSet;
 
 @interface TSDCanvasSubviewsController
 {
     NSSet *_repChildViews;
-    NSDictionary *_repsByChildView;
-    id <TSDLayerAndSubviewHosting> _host;
-    NSArray *_alternateLayersForViews;
-    _Bool _needsLayout;
-    _Bool _hasBeenTornDown;
-    NSMutableArray *_subviewLayers;
-    TSURetainedPointerKeyDictionary *_repViewControllersByChildView;
-    struct _opaque_pthread_mutex_t {
-        long long __sig;
-        char __opaque[56];
-    } _mutex;
 }
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

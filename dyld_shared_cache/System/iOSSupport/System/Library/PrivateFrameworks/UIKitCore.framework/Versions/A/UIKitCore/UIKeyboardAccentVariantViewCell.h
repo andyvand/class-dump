@@ -6,18 +6,15 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, UIKBRenderConfig, UILabel;
+@class NSString, UILabel;
 
 __attribute__((visibility("hidden")))
 @interface UIKeyboardAccentVariantViewCell : UIView
 {
     UILabel *_labelView;
-    UIView *_backgroundView;
-    _Bool _highlighted;
-    UIKBRenderConfig *_renderConfig;
 }
 
-- (void);
+- (void)troller:(id)arg1 Told To Transcode but the message had no parts, don't wake me up. ;
 - (id);
 - (struct CGSize)0@ù
 × ;
@@ -31,8 +28,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSString *accentedChar;
-@property(nonatomic) _Bool highlighted; // @synthesize highlighted=_highlighted;
-@property(retain, nonatomic) UIKBRenderConfig *renderConfig; // @synthesize renderConfig=_renderConfig;
 
 @end
 

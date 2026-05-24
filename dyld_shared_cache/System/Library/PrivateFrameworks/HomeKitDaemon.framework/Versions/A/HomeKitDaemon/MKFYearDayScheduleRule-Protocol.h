@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFYearDayScheduleRuleDatabaseID, NSDate;
-@protocol MKFGuest, MKFInvitation;
+@class NSDate;
 
 @protocol MKFYearDayScheduleRule
+- (void);
 - (void)
 × ;
 - (void)und. Ignoring it :(NSDate *)arg1 %@;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFYearDayScheduleRuleDatabaseID *databaseID;
 @property(copy, nonatomic) NSDate *endDate;
-@property(retain, nonatomic) id <MKFGuest> guest;
-@property(retain, nonatomic) id <MKFInvitation> invitation;
-@property(copy, nonatomic) NSDate *startDate;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 @end
 

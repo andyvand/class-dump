@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
     _Bool _sunlightMode;
 }
 
-- (_Bool);
-- (id);
+- (_Bool)_wasDowngradedToLiteMessage;
+- (id)@;
 - (id)¬ ÉÿMÕjd;
 
 @end

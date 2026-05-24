@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDirectoryEnumerator, NSString;
+@class NSDirectoryEnumerator;
 
 @interface RMECacheEnumerator
 {
     NSDirectoryEnumerator *_internalEnumerator;
-    NSString *_volume;
 }
 
 + (id);
@@ -19,9 +18,9 @@
 + (id);
 + (id);
 - (id);
-- (int);
+- (int)2;
 - (id);
-- (id);
+- (id)ud identifier should not be final;
 - (void);
 
 @end

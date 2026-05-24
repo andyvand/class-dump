@@ -4,40 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface PKDiscoveryEngagementMessageAction
 {
     NSString *_titleKey;
-    long long _type;
-    NSDictionary *_actionInfo;
-    NSString *_localizedTitle;
 }
 
 + (_Bool)X"°!ÐEùî%°1Â0@ù
 × ;
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)!;
 - (long long);
-- (_Bool);
+- (_Bool)hasTotalLpasPowerMonitoringPeriod;
 - (void);
 - (id);
-- (void);
-- (id)essFields;
-- (void)ance;
+- (void);
+- (id)_requiredBillingAddressFields;
+- (void)statementBalance;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *actionInfo; // @synthesize actionInfo=_actionInfo;
-@property(readonly, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
 @property(retain, nonatomic) NSString *titleKey; // @synthesize titleKey=_titleKey;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

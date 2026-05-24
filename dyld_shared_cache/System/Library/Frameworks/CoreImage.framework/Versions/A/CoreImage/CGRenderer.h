@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface CGRenderer
 {
     struct CGContext *context;
-    _Bool drawEdgesFirst;
-    _Bool drawWithSplines;
-    int direction;
-    struct CGSize separation;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void)6ۗ;
+- (_Bool);
 - (struct CGSize);
 - (void);
 - (void);
@@ -28,29 +22,19 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (struct CGColor *);
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (int);
+- (id);
+- (int);
 - (void)cvsnxu[tr|rrrr}}}}uuuuVaWgZ^Sbgjdjktqy^}~vzy}wwtw|~lyv;
 - (void)MP/s;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property int direction; // @synthesize direction;
-@property _Bool drawEdgesFirst; // @synthesize drawEdgesFirst;
 @property _Bool drawWithSplines; // @synthesize drawWithSplines;
-@property(readonly) unsigned long long hash;
-@property struct CGSize separation; // @synthesize separation;
-@property(readonly) Class superclass;
 
 @end
 

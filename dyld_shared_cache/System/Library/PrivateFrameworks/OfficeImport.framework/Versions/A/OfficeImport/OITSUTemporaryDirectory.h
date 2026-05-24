@@ -10,12 +10,11 @@ __attribute__((visibility("hidden")))
 @interface OITSUTemporaryDirectory
 {
     NSString *_path;
-    _Bool _leak;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)#;
 - (id);
 - (_Bool);
 - (void);

@@ -6,13 +6,11 @@
 
 #import <PhotosUICore/PXStoryConcreteResource.h>
 
-@class NSString;
 @protocol PXDisplayAsset;
 
 @interface PXStoryConcreteFrameFillingEffectResource : PXStoryConcreteResource
 {
     _Bool _useSmartColor;
-    id <PXDisplayAsset> _displayAsset;
 }
 
 - (_Bool);
@@ -20,22 +18,12 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)C;
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <PXDisplayAsset> px_storyResourceDisplayAsset; // @synthesize px_storyResourceDisplayAsset=_displayAsset;
-@property(readonly, nonatomic) NSString *px_storyResourceIdentifier;
-@property(readonly, nonatomic) long long px_storyResourceKind;
-@property(readonly, nonatomic) _Bool px_storyResourceUseSmartColor; // @synthesize px_storyResourceUseSmartColor=_useSmartColor;
-@property(readonly) Class superclass;
 
 @end
 

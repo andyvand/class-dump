@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSXPCConnection;
-@protocol OS_dispatch_queue;
+@class NSXPCConnection;
 
 @interface BiometricKitXPCClientConnection
 {
     long long _deviceType;
-    NSXPCConnection *_xpcConnection;
-    _Bool _invalidated;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_clients;
-    int _serverStartedNotificationToken;
 }
 
-+ (id);
++ (id)IKImageBrowserViewForceLayerBacked;
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -31,14 +25,13 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)BackgroundDownloadsEnabled;
 - (void);
 - (void);
 - (void);
-- (_Bool)ionFailureForUser:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (_Bool)clearIdentityMigrationFailureForUser:(id)arg1 error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property(readonly, nonatomic) NSXPCConnection *xpcConnection;
 
 @end

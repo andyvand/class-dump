@@ -4,53 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSNumber, NSString;
-
 @interface BWStillImageCaptureMetadata
 {
     int _snrType;
-    float _snr;
-    int _alsLuxLevel;
-    float _alsRearLuxLevel;
-    int _deviceType;
-    int _devicePosition;
-    NSArray *_slaveFocalLengths;
-    NSArray *_slaveLensFNumbers;
-    float _totalZoomFactor;
-    float _uiZoomFactor;
-    float _exifFocalLengthMultiplier;
-    float _exifFocalLengthOverride;
-    _Bool _fastCapturePrioritizationEnabled;
-    _Bool _intelligentDistortionCorrectionEnabled;
-    _Bool _geometricDistortionCorrectionEnabled;
-    int _intelligentDistortionCorrectionVersion;
-    int _deepZoomVersion;
-    int _systemPressureLevel;
-    int _cameraControlsStatisticsMaster;
-    int _smartCamVersion;
-    CDStruct_1b6d18a9 _smartCamTimestamp;
-    NSDictionary *_smartCamInferences;
-    _Bool _isPreviewSmartCamInferences;
-    int _semanticStyleSceneType;
-    int _zeroShutterLagFailureReason;
-    NSNumber *_shallowDepthOfFieldEffectSceneStatus;
-    NSDictionary *_previewWhiteBalanceMetadataByPortType;
-    unsigned int _streamingTime;
-    int _proxyProcessingError;
-    int _processingError;
 }
 
 + (_Bool);
-- (_Bool);
+- (_Bool)failure:Input report handler already set /* Error: Ran out of types for this method. */;
+- (void)OADCountedGraphicFeature;
 - (void);
-- (void);
-- (void);
-- (float);
+- (void);
+- (float);
 - (int);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)3;
 - (id);
 - (int);
 - (int);
@@ -69,11 +38,11 @@
 - (float);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)finishDecoding;
 - (float);
 - (void);
 - (int);
-- (void);
+- (void)bindNamedParamToNull:(_Bool)arg1;
 - (int);
 - (_Bool);
 - (void);
@@ -87,10 +56,10 @@
 - (float);
 - (id);
 - (void);
-- (float);
+- (float);
 - (int);
-- (id);
-- (int);
+- (id)�`#;
+- (int)`;
 - (id);
 - (id);
 - (void);
@@ -98,8 +67,8 @@
 - (void)ñ$°1Â0@ù
 × ;
 - (id)0@24B32@36@44@52B60i64i68B72;
-- (void)tput:(CDStruct_1b6d18a9)arg1;
-- (int)tectionEnabled;
+- (void)connectExternalSubgraphOutput:(CDStruct_1b6d18a9)arg1 toInternalOutput: /* Error: Ran out of types for this method. */;
+- (int)_lastFaceDetectionEnabled;
 - (void)¯ÿyJ±ÿJ³ÿKµÿK·ÿL¸ÿLºÿ¦M»ÿ­N¼ÿ´N½ÿ¼O¾ÿÄP¿ÿËPÀÿÒQÁÿÙRÂÿáSÂÿM¥ÿM¥ÿM¥ÿM¤ÿN¤ÿ"N£ÿ)N¢ÿ1N¢ÿ9O¢ÿAO¢ÿHO£ÿPO¤ÿWP¥ÿ^P§ÿfQ©ÿmQ«ÿsQ®ÿzR°ÿR²ÿS´ÿS¶ÿT·ÿT¹ÿ§Uºÿ®U¼ÿµV½ÿ¼W¾ÿÅW¿ÿÌXÀÿÓYÁÿÚZÂÿâ[ÃÿU¦ÿ
 U¦ÿV¥ÿV¥ÿV¤ÿ#V£ÿ*V£ÿ2V¢ÿ:(id)arg1 W¢ÿBW¢ÿJW¢ÿQX¢ÿXX£ÿ_X¥ÿgY§ÿnYªÿuZ¬ÿ|Z®ÿZ±ÿ[³ÿ[µÿ\¶ÿ \¸ÿ¨]¹ÿ¯]»ÿ¶^¼ÿ½^½ÿÅ_¿ÿÍ`ÀÿÔ`ÁÿÛaÂÿãbÃÿ^§ÿ^§ÿ^¦ÿ^¦ÿ^¥ÿ$^¤ÿ+^£ÿ3_£ÿ;_¢ÿC_¡ÿK_¡ÿR`¡ÿZ`¢ÿa`£ÿia¥ÿpa¨ÿvbªÿ}b­ÿc¯ÿc±ÿc³ÿdµÿ¡d·ÿ©e¹ÿ°eºÿ·f¼ÿ¾f½ÿÆg¾ÿÍhÀÿÔhÁÿÜiÂÿãjÃÿ	f©ÿf¨ÿf¨ÿf§ÿf§ÿ%f¦ÿ,g¥ÿ4g¤ÿ;g£ÿDg¢ÿLg¡ÿSh¡ÿ[h¡ÿbh¢ÿji£ÿqi¥ÿxj¨ÿj«ÿk®ÿk°ÿk²ÿl´ÿ¢l¶ÿªm¸ÿ±m¹ÿ¸n»ÿ¿n¼ÿÇo¾ÿÎo¿ÿÕpÀÿÜqÁÿäqÃÿo«ÿo«ÿo«ÿpªÿp©ÿ&p¨ÿ-p§ÿ4p¦ÿ<p¥ÿEp£ÿMq¢ÿUq¡ÿ\q ÿdr ÿlr¡ÿsr£ÿzs¥ÿs¨ÿt«ÿt®ÿu°ÿu³ÿ£uµÿ«v·ÿ²v¸ÿ¹wºÿÀw¼ÿÈx½ÿÏx¿ÿÖyÀÿÝyÁÿåzÂÿx®ÿx®ÿx®ÿx­ÿx¬ÿ&x«ÿ-xªÿ4x©ÿ<y§ÿEy¦ÿMy¤ÿUy¢ÿ]y¡ÿez ÿnzÿuz ÿ|{¢ÿ{¥ÿ|©ÿ|¬ÿ}¯ÿ}±ÿ¥}³ÿ­~¶ÿ³~¸ÿº¹ÿÁ»ÿÉ½ÿÐ¾ÿ×ÀÿÞÁÿæÂÿ²ÿ²ÿ±ÿ±ÿ°ÿ&¯ÿ-®ÿ4­ÿ<«ÿDªÿL¨ÿU¦ÿ]¤ÿe¢ÿoÿwÿ~ÿ¢ÿ¦ÿªÿ­ÿ°ÿ¦²ÿ®µÿµ·ÿ¼¹ÿÃºÿÊ¼ÿÑ¾ÿØ¿ÿßÁÿçÂÿ¶ÿ¶ÿµÿµÿ ´ÿ'³ÿ-²ÿ4±ÿ;°ÿD®ÿL­ÿT«ÿ\©ÿd§ÿn¤ÿw ÿÿÿ£ÿ§ÿ«ÿ¡®ÿ§±ÿ¯´ÿ¶¶ÿ½¸ÿÄºÿË¼ÿÒ½ÿÙ¿ÿàÀÿèÂÿºÿ¹ÿ¹ÿ¹ÿ ¸ÿ'¸ÿ-·ÿ4¶ÿ;µÿC³ÿK²ÿS±ÿ[¯ÿc­ÿl«ÿu©ÿ}¦ÿ¢ÿÿ¤ÿ©ÿ¢¬ÿ©¯ÿ°²ÿ·µÿ¾·ÿÅ¹ÿÍ»ÿÓ½ÿÚ¾ÿáÀÿéÁÿ¼ÿ¼ÿ¼ÿ¼ÿ!¼ÿ(»ÿ.ºÿ4¹ÿ;¸ÿC·ÿK¶ÿR´ÿZ³ÿb±ÿk¯ÿs­ÿ|«ÿ§ÿ£ÿ£ÿ§ÿ¤«ÿª®ÿ²±ÿ¸ ´ÿ¿ ¶ÿÆ ¸ÿÎ¡ºÿÔ¡¼ÿÛ¡¾ÿâ¢¿ÿê¢Áÿ£¿ÿ£¿ÿ£¾ÿ£¾ÿ"¤¾ÿ)¤½ÿ/¤½ÿ5¤¼ÿ<¤»ÿD¤ºÿK¤¹ÿR¥·ÿZ¥¶ÿc¥³ÿl¦±ÿu¦¯ÿ~¦¬ÿ¦ªÿ¦§ÿ¦¦ÿ¦¨ÿ¥§«ÿ«§®ÿ³§±ÿ¹¨³ÿÀ¨¶ÿÇ¨¸ÿÏ©ºÿÕ©¼ÿÜ©½ÿãª¿ÿëªÁÿ¬Àÿ¬Àÿ¬Àÿ¬Àÿ$¬Àÿ*¬¿ÿ0¬¿ÿ8­¼ÿ?­»ÿG­ºÿN­¸ÿU®·ÿ]®µÿe®´ÿn®²ÿv®°ÿ®®ÿ®¬ÿ®ªÿ®ªÿ ®ªÿ¦¯«ÿ¬¯®ÿ´°°ÿº°³ÿÁ°µÿÈ°·ÿÏ±¹ÿÖ±»ÿÝ±½ÿä²¾ÿì²Àÿ µ¿ÿ"µ¿ÿ$µ¿ÿ(µ¾ÿ,µ¾ÿ1µ½ÿ6µ½ÿ<µ¼ÿBµ»ÿJ¶ºÿQ¶¹ÿX¶·ÿ`¶¶ÿg¶µÿp¶³ÿx¶±ÿ¶°ÿ¶®ÿ¶­ÿ¶¬ÿ¡¶¬ÿ§·­ÿ®·¯ÿµ¸±ÿ»¸³ÿÂ¸µÿÉ¸·ÿÐ¹¹ÿ×¹»ÿÞ¹½ÿåº¾ÿìºÀÿ'¾¾ÿ)¾¾ÿ+¾¾ÿ.¾¾ÿ2¾¾ÿ6¾½ÿ;¿½ÿA¿¼ÿG¿»ÿN¿ºÿU¿¹ÿ\¿¸ÿc¿·ÿj¿µÿs¿´ÿ{¿³ÿ¿²ÿ¿°ÿ¿¯ÿ¿¯ÿ¢¿¯ÿ¨À¯ÿ¯À°ÿ¶À²ÿ¼Á³ÿÃÁµÿÊÁ·ÿÑÂ¹ÿØÂ»ÿßÂ¼ÿæÂ¾ÿíÃ¿ÿ.Æ¾ÿ0Æ¾ÿ1Æ¾ÿ4Æ¾ÿ7Ç½ÿ<Ç½ÿ@Ç½ÿFÇ¼ÿKÇ»ÿRÇºÿXÇ¹ÿ_Ç¸ÿfÇ·ÿmÇ¶ÿvÇµÿ}Ç´ÿÇ³ÿÇ²ÿÇ±ÿÇ±ÿ£È±ÿ©È±ÿ°È²ÿ·È³ÿ¾É´ÿÄÉ¶ÿËÉ·ÿÒÊ¹ÿÙÊ»ÿßÊ¼ÿæÊ¾ÿîÊ¿ÿ5Ï¾ÿ6Ï¾ÿ8Ï¾ÿ:Ï¾ÿ=Ï½ÿAÏ½ÿFÏ½ÿJÏ¼ÿPÏ»ÿVÏ»ÿ\ÏºÿcÏ¹ÿiÏ¸ÿpÏ·ÿxÏ¶ÿÏµÿÏµÿÐ´ÿÐ³ÿÐ³ÿ¤Ð³ÿ«Ð³ÿ±Ð´ÿ¸Ð´ÿ¿ÑµÿÅÑ·ÿÌÑ¸ÿÓÒºÿÚÒ»ÿàÒ¼ÿçÒ¾ÿïÒ¿ÿ;×¾ÿ=×¾ÿ>×¾ÿ@×¾ÿC×½ÿG×½ÿK×½ÿO×¼ÿT×¼ÿZ×»ÿ`×ºÿf×ºÿm×¹ÿs×¸ÿ{Ø·ÿØ·ÿØ¶ÿØµÿØµÿØµÿ¥Øµÿ¬Øµÿ²ØµÿºØ¶ÿÀØ·ÿÆÙ¸ÿÍÙ¹ÿÔÙºÿÚÚ»ÿáÚ½ÿèÚ¾ÿïÚ¿ÿBà¾ÿDà¾ÿEà¾ÿGà¾ÿIà¾ÿMà½ÿQà½ÿUà½ÿYà¼ÿ_à¼ÿdà»ÿjàºÿpàºÿvà¹ÿ~á¹ÿá¸ÿá·ÿá·ÿá·ÿ á¶ÿ§á¶ÿ­á¶ÿ´á·ÿ»á·ÿÁá¸ÿÈá¹ÿÎâºÿÕâ»ÿÛâ¼ÿââ½ÿèã¾ÿðã¿ÿIè¾ÿJè¾ÿKè¾ÿMè¾ÿOè¾ÿRè¾ÿVè½ÿYè½ÿ^è½ÿcè¼ÿhè¼ÿnè»ÿtè»ÿzèºÿèºÿé¹ÿé¹ÿé¸ÿé¸ÿ¢é¸ÿ¨é¸ÿ¯é¸ÿµé¸ÿ¼é¹ÿÃé¹ÿÉéºÿÏé»ÿÖê¼ÿÜê½ÿãê¾ÿéê¿ÿñê¿ÿOð¿ÿPð¿ÿQð¿ÿRð¾ÿTð¾ÿWð¾ÿ[ð¾ÿ^ð¾ÿbð½ÿgð½ÿlð¼ÿqð¼ÿwð¼ÿ}ð»ÿð»ÿðºÿðºÿñ¹ÿñ¹ÿ¤ñ¹ÿªñ¹ÿ°ñ¹ÿ·ñ¹ÿ¾ñºÿÄñºÿÊñ»ÿÐñ¼ÿ×ñ¼ÿÞò½ÿäò¾ÿêò¿ÿòòÀÿTø¿ÿUø¿ÿVø¿ÿXø¿ÿZø¿ÿ]ø¿ÿ_ø¾ÿcø¾ÿgø¾ÿlø¾ÿpø½ÿuø½ÿzø¼ÿø¼ÿø¼ÿø»ÿø»ÿø»ÿøºÿ¥øºÿ¬øºÿ²øºÿ¸ùºÿ¿ù»ÿÅù»ÿÌù¼ÿÒù¼ÿÙù½ÿßù¾ÿåù¿ÿëù¿ÿòùÀÿ[ÿÀÿ[ÿÀÿ\ÿ¿ÿ^ÿ¿ÿ`ÿ¿ÿbÿ¿ÿeÿ¿ÿhÿ¿ÿlÿ¿ÿpÿ¾ÿuÿ¾ÿyÿ¾ÿ~ÿ½ÿÿ½ÿÿ½ÿÿ¼ÿÿ¼ÿÿ¼ÿ¢ÿ¼ÿ¨ÿ»ÿ®ÿ»ÿ´ÿ»ÿºÿ¼ÿÁÿ¼ÿÇÿ¼ÿÍÿ½ÿÓÿ½ÿÚÿ¾ÿàÿ¾ÿæÿ¿ÿìÿÀÿñÿÀÿ /* Error: Ran out of types for this method. */;
 - (void)&&ÿ%#ÿ%!ÿ% ÿ%ÿ% ÿ%%"ÿ,%#ÿ2%%ÿ:(int)arg1 %'ÿ@%(ÿG%)ÿN%*ÿU%+ÿ]%,ÿd&-ÿk&.ÿr'/ÿz'/ÿ(0ÿ(1ÿ)2ÿ*3ÿ *4ÿ§+4ÿ¯,5ÿ¶-6ÿ¿.7ÿÆ08ÿÎ19ÿÕ2:ÿÝ4;ÿ-%ÿ-#ÿ-"ÿ-!ÿ,!ÿ ,!ÿ&-"ÿ,-#ÿ3-%ÿ:-&ÿA-'ÿH-)ÿO-*ÿU-+ÿ].,ÿd.-ÿk..ÿs./ÿ{/0ÿ/1ÿ02ÿ13ÿ13ÿ 24ÿ¨35ÿ¯46ÿ·57ÿ¿68ÿÆ79ÿÎ8:ÿÕ9<ÿÝ;=ÿ5$ÿ5#ÿ5#ÿ4"ÿ4"ÿ!4"ÿ'4#ÿ-4$ÿ35%ÿ;5&ÿA5(ÿH5)ÿO5*ÿV5+ÿ^6,ÿe6-ÿl6.ÿs6/ÿ{70ÿ71ÿ82ÿ83ÿ94ÿ¡:5ÿ¨:6ÿ¯;7ÿ·<8ÿ¿=:ÿÆ>;ÿÎ?<ÿÕ@=ÿÝB>ÿ
@@ -109,42 +78,12 @@ U¦ÿV¥ÿV¥ÿV¤ÿ#V£ÿ*V£ÿ2V¢ÿ:(id)arg1 W¢ÿBW¢ÿJW¢ÿQX¢ÿXX£ÿ
 - (void)ÿÚ]ÿã^ÿê_ÿï`ÿïa~ÿïb}ÿ;
 - (void)^{__IOSurface}i}12^v20;
 - (void)er;
-- (_Bool)tedFallbackCaptureSourceDeviceTypes;
+- (_Bool)SupportedFallbackCaptureSourceDeviceTypes;
 - (void)%;
 - (void)Stîö%;
 
 // Remaining properties
-@property(nonatomic) int alsLuxLevel; // @synthesize alsLuxLevel=_alsLuxLevel;
-@property(nonatomic) float alsRearLuxLevel; // @synthesize alsRearLuxLevel=_alsRearLuxLevel;
-@property(nonatomic) int cameraControlsStatisticsMaster; // @synthesize cameraControlsStatisticsMaster=_cameraControlsStatisticsMaster;
-@property(nonatomic) int deepZoomVersion; // @synthesize deepZoomVersion=_deepZoomVersion;
-@property(nonatomic) int devicePosition; // @synthesize devicePosition=_devicePosition;
-@property(nonatomic) int deviceType; // @synthesize deviceType=_deviceType;
-@property(nonatomic) float exifFocalLengthMultiplier; // @synthesize exifFocalLengthMultiplier=_exifFocalLengthMultiplier;
-@property(nonatomic) float exifFocalLengthOverride; // @synthesize exifFocalLengthOverride=_exifFocalLengthOverride;
-@property(nonatomic) _Bool fastCapturePrioritizationEnabled; // @synthesize fastCapturePrioritizationEnabled=_fastCapturePrioritizationEnabled;
-@property(nonatomic) _Bool geometricDistortionCorrectionEnabled; // @synthesize geometricDistortionCorrectionEnabled=_geometricDistortionCorrectionEnabled;
 @property(nonatomic) _Bool intelligentDistortionCorrectionEnabled; // @synthesize intelligentDistortionCorrectionEnabled=_intelligentDistortionCorrectionEnabled;
-@property(nonatomic) int intelligentDistortionCorrectionVersion; // @synthesize intelligentDistortionCorrectionVersion=_intelligentDistortionCorrectionVersion;
-@property(nonatomic) _Bool isPreviewSmartCamInferences; // @synthesize isPreviewSmartCamInferences=_isPreviewSmartCamInferences;
-@property(retain, nonatomic) NSDictionary *previewWhiteBalanceMetadataByPortType; // @synthesize previewWhiteBalanceMetadataByPortType=_previewWhiteBalanceMetadataByPortType;
-@property(nonatomic) int processingError; // @synthesize processingError=_processingError;
-@property(nonatomic) int proxyProcessingError; // @synthesize proxyProcessingError=_proxyProcessingError;
-@property(nonatomic) int semanticStyleSceneType; // @synthesize semanticStyleSceneType=_semanticStyleSceneType;
-@property(readonly, nonatomic) NSString *semanticStyleSceneTypeAsSmartCameraSceneType;
-@property(retain, nonatomic) NSNumber *shallowDepthOfFieldEffectSceneStatus; // @synthesize shallowDepthOfFieldEffectSceneStatus=_shallowDepthOfFieldEffectSceneStatus;
-@property(retain, nonatomic) NSArray *slaveFocalLengths; // @synthesize slaveFocalLengths=_slaveFocalLengths;
-@property(retain, nonatomic) NSArray *slaveLensFNumbers; // @synthesize slaveLensFNumbers=_slaveLensFNumbers;
-@property(retain, nonatomic) NSDictionary *smartCamInferences; // @synthesize smartCamInferences=_smartCamInferences;
-@property(nonatomic) CDStruct_1b6d18a9 smartCamTimestamp; // @synthesize smartCamTimestamp=_smartCamTimestamp;
-@property(nonatomic) int smartCamVersion; // @synthesize smartCamVersion=_smartCamVersion;
-@property(nonatomic) float snr; // @synthesize snr=_snr;
-@property(nonatomic) int snrType; // @synthesize snrType=_snrType;
-@property(nonatomic) unsigned int streamingTime; // @synthesize streamingTime=_streamingTime;
-@property(nonatomic) int systemPressureLevel; // @synthesize systemPressureLevel=_systemPressureLevel;
-@property(nonatomic) float totalZoomFactor; // @synthesize totalZoomFactor=_totalZoomFactor;
-@property(nonatomic) float uiZoomFactor; // @synthesize uiZoomFactor=_uiZoomFactor;
-@property(nonatomic) int zeroShutterLagFailureReason; // @synthesize zeroShutterLagFailureReason=_zeroShutterLagFailureReason;
 
 @end
 

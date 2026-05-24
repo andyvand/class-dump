@@ -5,45 +5,35 @@
 //
 
 @interface UnknownClass (NSValueUIGeometryExtensions)
++ (id)while processing delivered quietly receipt:(CDStruct_bd34ff7f)arg1 %@, %@;
++ (id)etly receipt fromID:(struct UIOffset)arg1 %@, ;
++ (id)ceipt;
++ (id).iMessageReceivedDeliveredQuietlyReceipt;
++ (id)sing played receipt:(struct NSDirectionalEdgeInsets)arg1 %@, %@;
++ (id)fromID:(struct CGVector)arg1 %@, ;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)t '%@' of type %@.;
++ (id)tem %{sensitive}@, from client '%@' of type %@.;
 + (id);
 - (struct NSDirectionalEdgeInsets);
 - (struct UIRectCornerRadii);
-- (struct _UIPressTrigger);
+- (struct _UIPressTrigger);
 - (struct _UICornerInsets);
-- (CDStruct_39925896);
+- (CDStruct_bd34ff7f);
 - (struct UIOffset);
-- (struct);
+- (CDStruct_cccd6e1b);
 - (struct UIEdgeInsets);
 - (struct CGVector);
-- (struct CGSize);
+- (struct CGSize)Ґ;
 - (struct CGPoint);
-- (struct CGRect);
+- (struct CGRect);
 - (struct CGAffineTransform);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGAffineTransform CGAffineTransformValue;
 @property(readonly, nonatomic) struct CGPoint CGPointValue;
-@property(readonly, nonatomic) struct CGRect CGRectValue;
-@property(readonly, nonatomic) struct CGSize CGSizeValue;
-@property(readonly, nonatomic) struct CGVector CGVectorValue;
-@property(readonly, nonatomic) struct UIEdgeInsets UIEdgeInsetsValue;
-@property(readonly) CDStruct_19cde01f UIKBHandwritingPointValue;
-@property(readonly, nonatomic) struct UIOffset UIOffsetValue;
-@property(readonly, nonatomic) struct _UICornerInsets _UICornerInsetsValue;
-@property(readonly, nonatomic) struct UIRectCornerRadii _UIRectCornerRadiiValue;
-@property(readonly, nonatomic) struct NSDirectionalEdgeInsets directionalEdgeInsetsValue;
 @end
 

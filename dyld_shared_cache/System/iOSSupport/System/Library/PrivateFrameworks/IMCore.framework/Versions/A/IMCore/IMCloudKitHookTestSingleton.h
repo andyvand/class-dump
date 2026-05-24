@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMCloudKitMockSyncState, NSArray, NSDate, NSDictionary;
+@class IMCloudKitMockSyncState;
 
 @interface IMCloudKitHookTestSingleton
 {
     IMCloudKitMockSyncState *_testState;
-    _Bool _rampedIntoTruthZone;
-    _Bool _isStartingSync;
-    _Bool _isDisablingDevices;
-    long long _isChangingEnabledState;
-    unsigned long long _syncControllerSyncState;
-    long long _syncType;
-    NSDictionary *_syncStats;
 }
 
 + (id);
@@ -24,7 +17,7 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -41,37 +34,25 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (long long);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (long long);
-- (_Bool);
+- (long long)shMap<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionContextIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::WeakRef<WebKit::WebExtensionContext>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionContextIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (_Bool)ayerClientIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::MediaPlayerClientIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>>, HashFunctions = WTF::DefaultHash<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Traits = WTF::HashMap<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::MediaPlayerClientIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (void);
+- (id)@;
+- (void)iftSpatial.dylib;
 - (void)ÑäÿÀÓäÿÑäÿ¸Óäÿ@<óÿôòÿ8øòÿ@@óÿ|Ñäÿ Óäÿ óÿpÑäÿXWõÿÌõÿÜõÿhÊõÿ¾õÿðÁõÿT<öÿÔ@öÿPãÿÔãÿÜÁõÿÿÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *IMCloudKitSyncErrors;
-@property(nonatomic) _Bool eligibleForTruthZone;
 @property(nonatomic, getter=isEnabled) _Bool enabled;
-@property(nonatomic) long long isChangingEnabledState; // @synthesize isChangingEnabledState=_isChangingEnabledState;
-@property(nonatomic) _Bool isDisablingDevices; // @synthesize isDisablingDevices=_isDisablingDevices;
-@property(nonatomic) _Bool isStartingSync; // @synthesize isStartingSync=_isStartingSync;
-@property(retain, nonatomic) NSDate *lastSyncDate;
-@property(nonatomic) _Bool rampedIntoTruthZone; // @synthesize rampedIntoTruthZone=_rampedIntoTruthZone;
-@property(nonatomic) unsigned long long syncControllerSyncState; // @synthesize syncControllerSyncState=_syncControllerSyncState;
-@property(retain, nonatomic) NSDictionary *syncStats; // @synthesize syncStats=_syncStats;
-@property(nonatomic) long long syncType; // @synthesize syncType=_syncType;
-@property(nonatomic, getter=isSyncing) _Bool syncing;
-@property(retain, nonatomic) IMCloudKitMockSyncState *testState; // @synthesize testState=_testState;
 
 @end
 

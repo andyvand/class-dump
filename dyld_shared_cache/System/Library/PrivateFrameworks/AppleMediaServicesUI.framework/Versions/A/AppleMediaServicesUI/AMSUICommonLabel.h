@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString;
+@class NSAttributedString;
 
 @interface AMSUICommonLabel
 {
@@ -16,14 +16,11 @@
 - (id);
 - (void);
 - (void);
-- (long long)egg_Sg;
+- (long long)So19AMSEngagementResultCIegg_Sg;
 - (void);
 
 // Remaining properties
-@property long long alignment;
 @property(retain) NSAttributedString *attributedText;
-@property(retain) NSString *text;
-@property long long textAlignment;
 
 @end
 

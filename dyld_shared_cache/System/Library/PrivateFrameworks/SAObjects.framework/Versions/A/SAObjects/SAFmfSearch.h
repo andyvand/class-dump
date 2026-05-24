@@ -6,14 +6,14 @@
 
 #import <SAObjects/SADomainCommand.h>
 
-@class NSArray, NSString, SALocation;
+@class SALocation;
 
 @interface SAFmfSearch : SADomainCommand
 {
 }
 
 + (id);
-+ (id);
++ (id)utf-8 string: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -28,9 +28,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SALocation *currentLocation;
-@property(copy, nonatomic) NSArray *friends;
-@property(copy, nonatomic) NSString *proximity;
-@property(retain, nonatomic) SALocation *requestedLocation;
 
 @end
 

@@ -7,12 +7,11 @@
 @interface _GCGamepadEventFusionConfig
 {
     unsigned long long _sourceCount;
-    unsigned char (*_matrix)[49];
 }
 
 + (_Bool);
-- (void);
-- (unsigned char);
+- (void);
+- (unsigned char);
 - (void);
 - (unsigned long long);
 - (id);

@@ -4,24 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface UIKBFloatingKeyplaneTransformation
 {
 }
 
-+ (id);
-+ (id);
++ (id)ting syndication identifier on asset with UUID %@ due to missing syndication identifier;
++ (id)hare is not supported;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

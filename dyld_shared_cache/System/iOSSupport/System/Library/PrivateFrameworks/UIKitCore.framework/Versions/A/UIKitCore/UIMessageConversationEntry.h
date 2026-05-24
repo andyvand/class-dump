@@ -14,7 +14,7 @@
 
 - (_Bool);
 - (void);
-- (long long);
+- (long long)ng chat:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (long long);

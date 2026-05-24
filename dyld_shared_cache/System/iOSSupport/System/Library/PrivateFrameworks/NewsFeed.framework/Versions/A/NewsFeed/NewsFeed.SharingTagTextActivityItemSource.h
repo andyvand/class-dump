@@ -7,7 +7,6 @@
 @interface NewsFeed.SharingTagTextActivityItemSource
 {
     id tag;
-    id itemTitle;
 }
 
 - (id);

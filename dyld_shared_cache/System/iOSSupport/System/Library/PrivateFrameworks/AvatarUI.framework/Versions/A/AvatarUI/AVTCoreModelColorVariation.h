@@ -4,24 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTColorPreset, AVTCoreModelColor;
+@class AVTColorPreset;
 
 @interface AVTCoreModelColorVariation
 {
     AVTColorPreset *_colorPreset;
-    AVTCoreModelColor *_color;
 }
 
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)TR
+;
+- (id)B;
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) AVTCoreModelColor *color; // @synthesize color=_color;
 @property(readonly, nonatomic) AVTColorPreset *colorPreset; // @synthesize colorPreset=_colorPreset;
 
 @end

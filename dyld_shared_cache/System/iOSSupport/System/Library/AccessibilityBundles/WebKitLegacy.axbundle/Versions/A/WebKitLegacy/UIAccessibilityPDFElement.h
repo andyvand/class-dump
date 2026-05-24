@@ -10,11 +10,11 @@
     long long _pageCount;
 }
 
-- (struct CGRect);
+- (struct CGRect)\;
 - (void);
 - (long long);
 - (struct CGRect);
-- (void);
+- (void);
 - (long long);
 
 // Remaining properties

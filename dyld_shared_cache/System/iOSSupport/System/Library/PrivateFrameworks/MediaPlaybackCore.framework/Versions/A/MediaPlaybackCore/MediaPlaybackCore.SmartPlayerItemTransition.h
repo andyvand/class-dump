@@ -7,28 +7,6 @@
 @interface MediaPlaybackCore.SmartPlayerItemTransition
 {
     id identifier;
-    id condensedIdentifier;
-    id startQueueItem;
-    id startItem;
-    id endQueueItem;
-    id endItem;
-    id isStartItemSpatialized;
-    id isEndItemSpatialized;
-    id expectedDurationAtStart;
-    id previousTransitionOffsetData;
-    id currentTransitionResultingOffsetData;
-    id transitionDidBegin;
-    id hasReachedPivotPoint;
-    id hasCompletedSuccessfully;
-    id complexity;
-    id setupFailureReason;
-    id cachedSmartTransitionData;
-    id delegate;
-    id transitionProvider;
-    id transitionProvided;
-    id transitionStrategy;
-    id outgoingParameters;
-    id incomingParameters;
 }
 
 @end

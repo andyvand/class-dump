@@ -13,9 +13,9 @@
     NSString *_sessionIdentifier;
 }
 
-- (id);
+- (id)aggregationFunctions;
 - (void)@"NSString",&,N,V_lyricsContent;
-- (id)ationDurationUserInfoKey;
+- (id)MPMoviePlayerFullscreenAnimationDurationUserInfoKey;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;

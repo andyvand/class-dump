@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
-
 __attribute__((visibility("hidden")))
 @interface AVResult
 {
     struct OpaqueFigSimpleMutex *_ivarAccessLock;
-    long long _status;
-    NSError *_error;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);

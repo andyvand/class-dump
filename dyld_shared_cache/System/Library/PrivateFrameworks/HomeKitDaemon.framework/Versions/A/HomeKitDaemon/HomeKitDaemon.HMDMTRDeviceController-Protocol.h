@@ -4,7 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSNumber;
+@protocol HomeKitDaemon.HMDMTRDevice;
+
 @protocol HomeKitDaemon.HMDMTRDeviceController
+- (id <HomeKitDaemon.HMDMTRDevice>)service:(NSNumber *)arg1 didCancelMessageWithSuccess:error:identifier: /* Error: Ran out of types for this method. */;
 - (void)t is not HMDRemoteMessage.;
 @end
 

@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRPlaybackQueue, MRPlaybackQueueRequest, MRPlayerPath, NSArray, NSData, NSDictionary, NSString;
+@class NSDictionary;
 
 @interface MRNowPlayingState
 {
     _Bool _hasPlaybackState;
-    _Bool _hasPlaybackStateTimestamp;
-    unsigned int _playbackState;
-    NSArray *_supportedCommands;
-    MRPlaybackQueue *_playbackQueue;
-    NSString *_displayID;
-    NSString *_displayName;
-    MRPlayerPath *_playerPath;
-    MRPlaybackQueueRequest *_request;
-    double _playbackStateTimestamp;
-    unsigned long long _playbackQueueCapabilities;
 }
 
 - (void);
@@ -30,49 +20,36 @@
 - (id);
 - (_Bool);
 - (void);
-- (unsigned int);
+- (unsigned int)A;
 - (void);
 - (id);
 - (id);
+- (id)_accessibilityShowAllUsers;
+- (id);
+- (id);
+- (void);
+- (id)P;
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)%@, proximity = %@, alarmFiring = %@, timerFiring = %@, playbackState = %@, playbackRecency = %@, homeAnnouncementState = %@, homeAnnouncementRecency = %@, nearbyDevicesRequestIdentifier = %@, targetedResult = %@, contextIdentifier = %@};
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id)ê"°!PCùq&ð1Â0@ù
 × ;
 - (id)estGroupSessionMessageProtobuf";
-- (id)reshold;
+- (id)timeRemainingUntilThreshold;
 - (void)xt;
-- (_Bool)eCount: /* Error: Ran out of types for this method. */;
-- (void)ate;
-- (void)llectionInfoData;
+- (_Bool)setDeviceCount: /* Error: Ran out of types for this method. */;
+- (void)Indeterminate;
+- (void)collectionInfoData;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool containsArtwork;
-@property(readonly, nonatomic) NSData *data;
-@property(copy, nonatomic) NSString *displayID; // @synthesize displayID=_displayID;
-@property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(nonatomic) _Bool hasPlaybackState; // @synthesize hasPlaybackState=_hasPlaybackState;
-@property(nonatomic) _Bool hasPlaybackStateTimestamp; // @synthesize hasPlaybackStateTimestamp=_hasPlaybackStateTimestamp;
 @property(copy, nonatomic) NSDictionary *nowPlayingInfo;
-@property(copy, nonatomic) MRPlaybackQueue *playbackQueue; // @synthesize playbackQueue=_playbackQueue;
-@property(nonatomic) unsigned long long playbackQueueCapabilities; // @synthesize playbackQueueCapabilities=_playbackQueueCapabilities;
-@property(nonatomic) unsigned int playbackState; // @synthesize playbackState=_playbackState;
-@property(nonatomic) double playbackStateTimestamp; // @synthesize playbackStateTimestamp=_playbackStateTimestamp;
-@property(copy, nonatomic) MRPlayerPath *playerPath; // @synthesize playerPath=_playerPath;
-@property(copy, nonatomic) MRPlaybackQueueRequest *request; // @synthesize request=_request;
-@property(copy, nonatomic) NSArray *supportedCommands; // @synthesize supportedCommands=_supportedCommands;
 
 @end
 

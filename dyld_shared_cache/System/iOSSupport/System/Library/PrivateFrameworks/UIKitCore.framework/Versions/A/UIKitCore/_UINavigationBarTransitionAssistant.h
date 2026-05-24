@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, UINavigationBar;
-@protocol UIViewControllerTransitionCoordinator, _UINavigationBarDelegatePrivate;
+@protocol UIViewControllerTransitionCoordinator;
 
 @interface _UINavigationBarTransitionAssistant
 {
     long long _animationCount;
-    NSMutableArray *_animationIDs;
-    _Bool _interruptable;
-    _Bool _interactive;
-    _Bool _needsLifetimeExtended;
-    _Bool _cancelledTransition;
-    _Bool _shouldHideBackButtonDuringTransition;
-    _Bool _shouldUpdatePromptAfterTransition;
-    id <UIViewControllerTransitionCoordinator> _transitionCoordinator;
-    UINavigationBar *_navigationBar;
-    id <_UINavigationBarDelegatePrivate> _delegate;
-    long long _transition;
-    double _duration;
 }
 
 + (id);
@@ -31,14 +18,15 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)t used for symbolic factorization stored in %s.
+;
 - (_Bool);
 - (double);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)7�;
+- (void);
 - (_Bool);
 - (id);
 - (void)0@ù
@@ -50,12 +38,12 @@
 !@@ù±f°1Â0@ù
 × ;
 - (id)8@0:8{CGPoint=dd}16^B32^B40 /* Error: Ran out of types for this method. */;
-- (void)y;
-- (void)n:(_Bool)arg1;
-- (void)nfiguration;
-- (void)t:(double)arg1;
-- (long long)yout:(id)arg1 imageFlags:(long long)arg2;
-- (_Bool)chBehavior;
+- (void)userLibraryDirectory;
+- (void)scrollerImp:(_Bool)arg1 animateExpansionTransitionWithDuration: /* Error: Ran out of types for this method. */;
+- (void)pasteConfiguration;
+- (void)handleLongPressOnLink:(double)arg1 atPoint:(double)arg2 inRect:(long long)arg3 contentRect: /* Error: Ran out of types for this method. */;
+- (long long)displayImagesForView:(id)arg1 fromLayout:(long long)arg2 imageFlags: /* Error: Ran out of types for this method. */;
+- (_Bool)UITextRefinementTouchBehavior;
 - (_Bool);
 - (id)have any enabled segments. Segmented controls must have at least one enabled segment in order to be focusable.;
 - (void)ent %@ on %@ while a presentation is in progress!;
@@ -68,19 +56,6 @@
 - (void)`;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *animationIDs; // @synthesize animationIDs=_animationIDs;
-@property(readonly, nonatomic) _Bool cancelledTransition; // @synthesize cancelledTransition=_cancelledTransition;
-@property(readonly, nonatomic) __weak id <_UINavigationBarDelegatePrivate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) double duration; // @synthesize duration=_duration;
-@property(readonly, nonatomic) _Bool interactive; // @synthesize interactive=_interactive;
-@property(readonly, nonatomic) _Bool interruptable; // @synthesize interruptable=_interruptable;
-@property(readonly, nonatomic) __weak UINavigationBar *navigationBar; // @synthesize navigationBar=_navigationBar;
-@property(nonatomic) _Bool needsLifetimeExtended; // @synthesize needsLifetimeExtended=_needsLifetimeExtended;
-@property(readonly, nonatomic) _Bool shouldAnimateAlongside;
-@property(readonly, nonatomic) _Bool shouldCrossfade;
-@property(nonatomic) _Bool shouldHideBackButtonDuringTransition; // @synthesize shouldHideBackButtonDuringTransition=_shouldHideBackButtonDuringTransition;
-@property(nonatomic) _Bool shouldUpdatePromptAfterTransition; // @synthesize shouldUpdatePromptAfterTransition=_shouldUpdatePromptAfterTransition;
-@property(readonly, nonatomic) long long transition; // @synthesize transition=_transition;
 @property(readonly, nonatomic) __weak id <UIViewControllerTransitionCoordinator> transitionCoordinator; // @synthesize transitionCoordinator=_transitionCoordinator;
 
 @end

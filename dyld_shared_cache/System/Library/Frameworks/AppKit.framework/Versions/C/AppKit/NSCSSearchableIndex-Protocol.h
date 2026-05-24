@@ -7,7 +7,7 @@
 @class NSArray, NSData;
 
 @protocol NSCSSearchableIndex
-- (void):(NSArray *)arg1 eventRef:(void (^)(NSError *))arg2;
+- (void)_initWithCGEvent:(NSArray *)arg1 eventRef:(void (^)(NSError *))arg2;
 - (void)g %@;
 - (void)elta Overrides:(NSData *)arg1 widthDeltaOverrides[1] (beforeGrowLimit:(void (^)(NSError *))arg2 %f beforeShrinkLimit:%f afterGrowLimit:%f afterShrinkLimit:%f growFlags:%d shrinkFlags:%d)
 

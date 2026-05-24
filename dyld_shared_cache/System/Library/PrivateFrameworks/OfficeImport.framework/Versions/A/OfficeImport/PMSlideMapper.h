@@ -12,19 +12,18 @@ __attribute__((visibility("hidden")))
 @interface PMSlideMapper : CMMapper
 {
     PDSlide *mSlide;
-    struct CGRect mRect;
 }
 
 - (id);
-- (struct CGRect);
+- (struct CGRect);
 - (id);
+- (void)	;
 - (void);
 - (void);
 - (void);
-- (void);
+- (id)qA;
 - (id);
-- (id);
-- (void)Formatter_FormatterCache;
+- (void)TSUDateFormatter_FormatterCache;
 
 @end
 

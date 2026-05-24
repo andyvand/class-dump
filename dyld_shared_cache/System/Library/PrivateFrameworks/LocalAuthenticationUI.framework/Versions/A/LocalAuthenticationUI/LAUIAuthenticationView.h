@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LAUIAuthenticationCore, LAUIPKGlyphWrapper, NSImageView, NSString, NSView;
-@protocol LAUIAuthenticationDelegate;
+@class LAUIAuthenticationCore;
 
 @interface LAUIAuthenticationView
 {
     _Bool _idleWhenDone;
-    _Bool _fastAnimations;
-    id <LAUIAuthenticationDelegate> _delegate;
-    long long _style;
-    NSString *_authenticationHint;
-    LAUIAuthenticationCore *_authenticationCore;
-    LAUIPKGlyphWrapper *_glyphWrapper;
-    NSImageView *_imageView;
-    NSView *_view;
 }
 
 + (struct CGRect);
@@ -26,9 +17,9 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)5;
 - (id);
-- (id);
+- (id)t;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -40,7 +31,7 @@
 - (id);
 - (void);
 - (long long);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (id);
@@ -61,28 +52,13 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)basicConstraints;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) LAUIAuthenticationCore *authenticationCore; // @synthesize authenticationCore=_authenticationCore;
-@property(copy, nonatomic) NSString *authenticationHint; // @synthesize authenticationHint=_authenticationHint;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <LAUIAuthenticationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool fastAnimations; // @synthesize fastAnimations=_fastAnimations;
-@property(readonly, nonatomic) LAUIPKGlyphWrapper *glyphWrapper; // @synthesize glyphWrapper=_glyphWrapper;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool idleWhenDone; // @synthesize idleWhenDone=_idleWhenDone;
-@property(readonly, nonatomic) NSImageView *imageView; // @synthesize imageView=_imageView;
-@property(nonatomic) long long style; // @synthesize style=_style;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSView *view; // @synthesize view=_view;
 
 @end
 

@@ -4,44 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, NSNumber, NSString;
+@class NSNumber;
 @protocol FamilyCircle.FARequestSigner;
 
 @interface FAFamilyMemberPhotoRequest
 {
     NSNumber *_familyMemberDSID;
-    NSString *_familyMemberAltDSID;
-    ACAccount *_iTunesAccount;
-    NSString *_serverCacheTag;
-    id <FamilyCircle.FARequestSigner> _ephemeralAuthSigner;
 }
 
-+ (Class);
++ (Class);
+- (void)TASK;
+- (void)SERIOUS_BUG;
+- (void)speakableSelectionResponse;
+- (id)AppAuthorizationStatusResponse;
+- (id)appAuthorizationStatusMap;
+- (id)needsUserInput;
+- (id)InflectWordCommands;
+- (id)destination;
+- (id)ByPublicTransit;
+- (id)activityType;
+- (id)isEligibleForAppPunchout;
+- (id);
+- (void)į;
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)p;
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) id <FamilyCircle.FARequestSigner> ephemeralAuthSigner; // @synthesize ephemeralAuthSigner=_ephemeralAuthSigner;
-@property(copy, nonatomic) NSString *familyMemberAltDSID; // @synthesize familyMemberAltDSID=_familyMemberAltDSID;
-@property(copy, nonatomic) NSNumber *familyMemberDSID; // @synthesize familyMemberDSID=_familyMemberDSID;
-@property(retain, nonatomic, setter=setiTunesAccount:) ACAccount *iTunesAccount; // @synthesize iTunesAccount=_iTunesAccount;
-@property(copy, nonatomic) NSString *serverCacheTag; // @synthesize serverCacheTag=_serverCacheTag;
 
 @end
 

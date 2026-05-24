@@ -4,24 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceConnectionEndpoint, NSString;
-@protocol CNUIUserActionCurator, CNUIUserActionDialRequestOpener, CNUIUserActionRecorder, CNUIUserActionURLOpener, CNUIUserActionUserActivityOpener;
+@protocol CNUIUserActionURLOpener;
 
 @interface CNUIUserActionContext
 {
     _Bool _isOriginatingFromFavorites;
-    id <CNUIUserActionURLOpener> _urlOpener;
-    id <CNUIUserActionUserActivityOpener> _userActivityOpener;
-    id <CNUIUserActionDialRequestOpener> _dialRequestOpener;
-    id <CNUIUserActionRecorder> _actionRecorder;
-    id <CNUIUserActionCurator> _actionCurator;
-    NSString *_channelIdentifier;
-    BSServiceConnectionEndpoint *_connectionEndpoint;
 }
 
 + (id);
 + (id);
-- (id);
+- (id)J;
 - (id);
 - (void);
 - (void);
@@ -32,31 +24,17 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)G;
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)&;
 - (id);
 - (void){CGSize="width"d"height"d};
 
 // Remaining properties
-@property(retain, nonatomic) id <CNUIUserActionCurator> actionCurator; // @synthesize actionCurator=_actionCurator;
-@property(retain, nonatomic) id <CNUIUserActionRecorder> actionRecorder; // @synthesize actionRecorder=_actionRecorder;
-@property(copy, nonatomic) NSString *channelIdentifier; // @synthesize channelIdentifier=_channelIdentifier;
-@property(copy, nonatomic) BSServiceConnectionEndpoint *connectionEndpoint; // @synthesize connectionEndpoint=_connectionEndpoint;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) id <CNUIUserActionDialRequestOpener> dialRequestOpener; // @synthesize dialRequestOpener=_dialRequestOpener;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isOriginatingFromFavorites; // @synthesize isOriginatingFromFavorites=_isOriginatingFromFavorites;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) id <CNUIUserActionURLOpener> urlOpener; // @synthesize urlOpener=_urlOpener;
-@property(retain, nonatomic) id <CNUIUserActionUserActivityOpener> userActivityOpener; // @synthesize userActivityOpener=_userActivityOpener;
 
 @end
 

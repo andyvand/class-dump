@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKEvent, NSArray, NSNumber;
+@class EKEvent;
 
 @protocol CUIKOROccurrenceState
 - (_Bool)kÜkl;
@@ -12,21 +12,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *allDayOverride;
-@property(readonly, nonatomic) struct CGRect backgroundRect;
-@property(readonly, nonatomic) long long birthdayCount;
-@property(readonly, nonatomic) long long horizontalSizeClass;
-@property(readonly, nonatomic) _Bool isDimmed;
-@property(readonly, nonatomic) _Bool isMiniPreviewInEventDetail;
-@property(readonly, nonatomic) _Bool isProposedTime;
-@property(readonly, nonatomic) _Bool isSelected;
 @property(readonly, nonatomic) EKEvent *occurrence;
-@property(readonly, nonatomic) _Bool occurrenceIsFirstVisibleDayOfEvent;
-@property(readonly, nonatomic) NSArray *occurrences;
-@property(readonly, nonatomic) double travelTime;
-@property(readonly, nonatomic) double travelTimeHeight;
-@property(readonly, nonatomic) long long userInterfaceStyle;
-@property(readonly, nonatomic) _Bool usesSmallText;
-@property(readonly, nonatomic) double visibleHeight;
 @end
 

@@ -6,27 +6,12 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class HMFNetAddress, NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSNetService, NSObject, NSString;
-@protocol HMFNetServiceDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface HMFNetService : HMFObject
 {
     struct os_unfair_lock_s _lock;
-    NSNetService *_internal;
-    NSString *_type;
-    NSString *_name;
-    NSString *_domain;
-    unsigned long long _port;
-    NSArray *_addresses;
-    NSMutableDictionary *_TXTRecord;
-    _Bool _resolved;
-    _Bool _publishing;
-    HMFNetAddress *_hostName;
-    long long _resolveState;
-    long long _resolveRunningState;
-    id <HMFNetServiceDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_clientQueue;
-    NSMutableArray *_resolveBlocks;
 }
 
 + (id);
@@ -34,7 +19,7 @@
 + (_Bool);
 + (id)@ù
 × ;
-- (void);
+- (void)d;
 - (void);
 - (void);
 - (void);
@@ -48,7 +33,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)p;
 - (id);
 - (void);
 - (void);
@@ -61,51 +46,30 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)getPaddedInterchangeTiledWidthFromIOSurface:plane: /* Error: Ran out of types for this method. */;
+- (id)`;
 - (void);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)0	M		;
 - (id);
 - (id);
-- (void);
+- (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)s and hold {BuiltInLM.WindowItem};
 - (id);
-- (unsigned long long);
+- (unsigned long long)initWithKeyPath:readOnly:languageValue: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (void);
 - (id);
 - (void);
-- (void)reResult;
+- (id);
+- (void);
+- (void)ignoreResult;
 
 // Remaining properties
-@property(readonly, copy) NSDictionary *TXTRecord;
-@property(readonly, copy) NSArray *addresses;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *clientQueue; // @synthesize clientQueue=_clientQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMFNetServiceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSString *domain; // @synthesize domain=_domain;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) HMFNetAddress *hostName; // @synthesize hostName=_hostName;
-@property(readonly, nonatomic) NSNetService *internal; // @synthesize internal=_internal;
-@property(readonly, copy) NSString *name; // @synthesize name=_name;
-@property(readonly) unsigned long long port;
-@property(getter=isPublishing) _Bool publishing; // @synthesize publishing=_publishing;
-@property(readonly, nonatomic) NSMutableArray *resolveBlocks; // @synthesize resolveBlocks=_resolveBlocks;
-@property(nonatomic) long long resolveRunningState; // @synthesize resolveRunningState=_resolveRunningState;
-@property(nonatomic) long long resolveState; // @synthesize resolveState=_resolveState;
-@property(readonly, getter=isResolved) _Bool resolved; // @synthesize resolved=_resolved;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSString *type; // @synthesize type=_type;
 
 @end
 

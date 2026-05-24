@@ -9,8 +9,6 @@
 @protocol GEOVenueLabel
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *detail;
 @property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) NSString *shortName;
 @end
 

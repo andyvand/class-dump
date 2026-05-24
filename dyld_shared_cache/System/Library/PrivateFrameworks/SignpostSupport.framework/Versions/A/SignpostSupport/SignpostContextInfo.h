@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SignpostContextInfo
 {
     int _pid;
-    unsigned int _frameSeed;
-    unsigned int _contextId;
-    unsigned int _transactionSeed;
-    unsigned long long _earliestMCT;
-    unsigned long long _previousPresentationMCT;
-    NSString *_executablePath;
-    unsigned long long _inProcessAnimationDisplayTargetMCT;
 }
 
 - (unsigned long long);
@@ -28,19 +19,11 @@
 - (int);
 - (id);
 - (id);
-- (void);
-- (unsigned int)yRelevanceSpecificGeoHashFeatures;
+- (void)";
+- (unsigned int)personEntityRelevanceSpecificGeoHashFeatures;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int contextId; // @synthesize contextId=_contextId;
-@property(readonly, nonatomic) unsigned long long earliestMCT; // @synthesize earliestMCT=_earliestMCT;
-@property(readonly, nonatomic) NSString *executablePath; // @synthesize executablePath=_executablePath;
-@property(readonly, nonatomic) unsigned int frameSeed; // @synthesize frameSeed=_frameSeed;
 @property(readonly, nonatomic) unsigned long long inProcessAnimationDisplayTargetMCT; // @synthesize inProcessAnimationDisplayTargetMCT=_inProcessAnimationDisplayTargetMCT;
-@property(readonly, nonatomic) int pid; // @synthesize pid=_pid;
-@property(readonly, nonatomic) unsigned long long previousPresentationMCT; // @synthesize previousPresentationMCT=_previousPresentationMCT;
-@property(readonly, nonatomic) NSString *processName;
-@property(readonly, nonatomic) unsigned int transactionSeed; // @synthesize transactionSeed=_transactionSeed;
 
 @end
 

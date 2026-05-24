@@ -4,39 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface ISResourceMetaData
 {
     _Bool _selectedVariant;
-    NSString *_name;
-    NSNumber *_dimension;
-    NSNumber *_scale;
 }
 
 - (void);
 - (void);
 - (id);
-- (id);
+- (id));
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id)f;
+- (id)pdf;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSNumber *dimension; // @synthesize dimension=_dimension;
-@property(readonly) unsigned long long hash;
 @property(retain) NSString *name; // @synthesize name=_name;
-@property(retain) NSNumber *scale; // @synthesize scale=_scale;
-@property _Bool selectedVariant; // @synthesize selectedVariant=_selectedVariant;
-@property(readonly) Class superclass;
 
 @end
 

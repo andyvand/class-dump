@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBAlarm, _INPBAlarmSearch, _INPBDataString, _INPBDateTimeRange, _INPBIntentMetadata;
+@class _INPBAlarm;
 
 @interface _INPBUpdateAlarmIntent
 {
     CDStruct_ae16c3b5 _has;
-    int _operation;
-    _INPBAlarm *_alarm;
-    _INPBAlarmSearch *_alarmSearch;
-    _INPBIntentMetadata *_intentMetadata;
-    _INPBDataString *_proposedLabel;
-    _INPBDateTimeRange *_proposedTime;
 }
 
 + (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
@@ -34,41 +28,23 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)";
+- (id)nexpected pop3-server response;
 - (unsigned long long);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)ԛ;
 - (void);
 - (id);
 - (id);
-- (void);
-- (_Bool)tributeMetadataDefaultValueIDKey;
-- (void)lureUnsupported;
-- (int)rofileInCar:withCompletion: /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool)__INCodableStringAttributeMetadataDefaultValueIDKey;
+- (void)INSetTemporalSettingIntentResponseCodeFailureUnsupported;
+- (int)provideProfileNameOptionsForSaveProfileInCar:withCompletion: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) _INPBAlarm *alarm; // @synthesize alarm=_alarm;
-@property(retain, nonatomic) _INPBAlarmSearch *alarmSearch; // @synthesize alarmSearch=_alarmSearch;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasAlarm;
-@property(readonly, nonatomic) _Bool hasAlarmSearch;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasOperation;
-@property(readonly, nonatomic) _Bool hasProposedLabel;
-@property(readonly, nonatomic) _Bool hasProposedTime;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(nonatomic) int operation; // @synthesize operation=_operation;
-@property(retain, nonatomic) _INPBDataString *proposedLabel; // @synthesize proposedLabel=_proposedLabel;
-@property(retain, nonatomic) _INPBDateTimeRange *proposedTime; // @synthesize proposedTime=_proposedTime;
-@property(readonly) Class superclass;
 
 @end
 

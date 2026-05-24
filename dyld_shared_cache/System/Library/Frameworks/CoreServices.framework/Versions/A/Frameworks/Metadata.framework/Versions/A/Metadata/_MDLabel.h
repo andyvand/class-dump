@@ -7,41 +7,26 @@
 @interface _MDLabel
 {
     struct __CFDictionary *_attrs;
-    struct __CFUUID *_uuid;
-    struct __CFUUID *_userUUID;
-    union {
-        struct {
-            unsigned int isMutuallyExclusiveSetMember:1;
-            unsigned int isPublicVisibility:1;
-            unsigned int hasPreviewIcon:1;
-            unsigned int hasFinderColor:1;
-            unsigned int setFinderColor:3;
-            unsigned int hasExtendedFinderColor:1;
-            unsigned int reservedBits1:8;
-            unsigned int reservedBits2:16;
-            unsigned int reservedBits3:32;
-        } ;
-        long long payload;
-    } _attrBits;
 }
 
 - (void);
+- (id)id (%{errno}d);
+- (id). Ignored.;
+- (id)to CKAccountOverrideInfo:(const struct __CFString **)arg1 %@;
+- (id)ng JSON data to CKAccountOverrideInfo:(const struct __CFString **)arg1 %@;
+- (void *)ON:(struct __CFString *)arg1 %@;
+- (struct __CFUUID *).accounts.allaccounts entitlement;
+- (struct __CFData *)ment or com.apple.private.accounts.allaccounts entitlement;
+- (void)ount.fullaccess entitlement or com.apple.private.accounts.allaccounts entitlement;
+- (void)nts.appleaccount.fullaccess entitlement or com.apple.private.accounts.allaccounts entitlement;
+- (unsigned char)probably has neither com.apple.accounts.appleaccount.fullaccess entitlement or com.apple.private.accounts.allaccounts entitlement;
+- (CDStruct_bd2f613f)C last used date:(struct __CFUUID *)arg1 %{public}@;
+- (struct __CFURL *)les:%{public}@ /* Error: Ran out of types for this method. */;
+- (void *)d to remove orphaned database tables:%{public}@ /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void *);
-- (struct __CFUUID *);
-- (struct __CFData *);
-- (void);
-- (void);
-- (unsigned char);
-- (CDStruct_bd2f613f);
-- (struct __CFURL *);
-- (void *);
-- (void);
-- (id);
-- (unsigned long long);
+- (unsigned long long)e is Recorded Incorrectly in File:recorded size = %d, bytes read = %d.
+ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (unsigned long long);
 

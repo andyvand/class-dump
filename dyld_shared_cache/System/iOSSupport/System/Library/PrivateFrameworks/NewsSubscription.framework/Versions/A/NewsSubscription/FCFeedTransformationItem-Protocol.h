@@ -4,45 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 @protocol FCChannelProviding;
 
 @protocol FCFeedTransformationItem
-- (long long);
+- (unsigned long long);
+- (unsigned long long)T	;
+- (_Bool)stractLayout.m;
 
 @optional
-- (int)ttings8Settings19BundleSubscriptions32FreeUserEducationUpsellOverrides;
+- (id <FCChannelProviding>):array<unsigned char, 20>, TSPData *__weak>, TSP::DataDigestEqualTo, TSP::DataDigestHash>, std::allocator<std::pair<const std::array<unsigned char, 20>, TSPData *__weak>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<const std::array<unsigned char, 20>, TSPData *__weak>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<const std::array<unsigned char, 20>, TSPData *__weak>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<const std::array<unsigned char, 20>, TSPData *__weak>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<const std::array<unsigned char, 20>, TSPData *__weak>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
+- (unsigned long long)@;
+- (int)_TtCVE16NewsSubscriptionC11TeaSettings8Settings19BundleSubscriptions32FreeUserEducationUpsellOverrides;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *articleID;
-@property(readonly, nonatomic) _Bool canBePurchased;
-@property(readonly, copy, nonatomic) NSString *clusterID;
-@property(readonly, nonatomic) unsigned long long contentType;
-@property(readonly, nonatomic, getter=isExplicitContent) _Bool explicitContent;
-@property(readonly, nonatomic) unsigned long long feedHalfLifeMilliseconds;
 @property(readonly, copy, nonatomic) NSString *feedID;
-@property(readonly, nonatomic, getter=isFromBlockedStorefront) _Bool fromBlockedStorefront;
-@property(readonly, nonatomic) double globalUserFeedback;
-@property(readonly, nonatomic) _Bool hasVideoStillImage;
-@property(readonly, nonatomic) _Bool isCoread;
-@property(readonly, nonatomic) long long minimumNewsVersion;
-@property(readonly, nonatomic) unsigned long long order;
-@property(readonly, nonatomic) unsigned long long publishDateMilliseconds;
-@property(readonly, nonatomic) long long publisherArticleVersion;
-@property(readonly, nonatomic) unsigned long long role;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly, copy, nonatomic) id <FCChannelProviding> sourceChannel;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<FCChannelProviding>",?,R,C,N
-
-@property(readonly, copy, nonatomic) NSString *sourceChannelID;
-@property(readonly, nonatomic, getter=isSponsored) _Bool sponsored;
-@property(readonly, nonatomic) int storyType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Ti,?,R,N
-
-@property(readonly, nonatomic) NSArray *surfacedByArticleListIDs;
 @end
 

@@ -12,8 +12,8 @@
 
 + (double);
 + (id);
-- (_Bool);
-- (id);
+- (_Bool)˿;
+- (id);
 
 @end
 

@@ -4,25 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableData, NSObject, _RWITCPServer;
-@protocol OS_dispatch_queue, OS_dispatch_source, _RWITCPConnectionDelegate;
+@protocol _RWITCPConnectionDelegate;
 
 __attribute__((visibility("hidden")))
 @interface _RWITCPConnection
 {
     int _socket;
-    NSObject<OS_dispatch_queue> *_connectionQueue;
-    NSObject<OS_dispatch_source> *_inputSource;
-    NSObject<OS_dispatch_source> *_outputSource;
-    _Bool _shutdown;
-    _Bool _outputSourceSuspended;
-    _Bool _inputSourceCancelled;
-    _Bool _outputSourceCancelled;
-    NSMutableArray *_outputMessageQueue;
-    NSMutableData *_incomingData;
-    _RWITCPServer *_server;
-    long long _type;
-    id <_RWITCPConnectionDelegate> _delegate;
 }
 
 + (id);
@@ -39,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)/;
 - (void);
 - (void);
 - (void);

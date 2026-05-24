@@ -5,5 +5,6 @@
 //
 
 @protocol SXDebugLayoutOptionsProviding
+- (long long);
 @end
 

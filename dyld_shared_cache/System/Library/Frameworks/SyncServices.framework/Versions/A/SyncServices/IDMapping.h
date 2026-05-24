@@ -9,7 +9,6 @@
 @interface IDMapping
 {
     NSString *_localId;
-    NSString *_globalId;
 }
 
 + (id);
@@ -18,7 +17,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)(;
 
 @end
 

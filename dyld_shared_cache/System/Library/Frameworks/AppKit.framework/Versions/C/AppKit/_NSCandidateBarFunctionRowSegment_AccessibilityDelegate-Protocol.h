@@ -5,5 +5,6 @@
 //
 
 @protocol _NSCandidateBarFunctionRowSegment_AccessibilityDelegate
+- (void);
 @end
 

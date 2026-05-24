@@ -9,16 +9,6 @@
 @interface ICSystemPaperThumbnailServiceInternal
 {
     id fileManager;
-    ICThumbnailService *thumbnailService;
-    id observations;
-    id $__lazy_storage_$_contextDidUpdateObject;
-    id $__lazy_storage_$_cacheDidInvalidateObject;
-    id $__lazy_storage_$_didUpdateSystemPaperNotesImmediately;
-    id $__lazy_storage_$_didUpdateSystemPaperNotesWithCoalescingAndDelay;
-    id $__lazy_storage_$_contextDidDeleteObject;
-    id $__lazy_storage_$_didDeleteSystemPaperNotesImmediately;
-    id $__lazy_storage_$_didDeleteSystemPaperNotesWithCoalescingAndDelay;
-    id $__lazy_storage_$_accessibilityAppearanceDidChange;
 }
 
 + (id);
@@ -27,16 +17,16 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)Ht;
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)!B;
 - (void)@"ICVirtualSmartFolderItemIdentifier",R,N,V_virtualDestinationFolder;
 
 // Remaining properties

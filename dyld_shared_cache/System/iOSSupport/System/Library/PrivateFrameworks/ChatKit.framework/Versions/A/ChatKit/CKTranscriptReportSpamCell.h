@@ -6,41 +6,36 @@
 
 #import <ChatKit/CKTranscriptLabelCell.h>
 
-@class NSAttributedString, UIButton, UILabel;
+@class UILabel;
 
 __attribute__((visibility("hidden")))
 @interface CKTranscriptReportSpamCell : CKTranscriptLabelCell
 {
     _Bool _showReportSMSSpam;
-    UIButton *_reportSpamButton;
-    UILabel *_internalPhishingWarningLabel;
 }
 
-+ (id);
-+ (id);
-- (void);
-- (void);
-- (void);
++ (id)div;
++ (id)h"16^B24;
+- (void)performUpdatesIfNeededAndWait;
+- (void)nextRelevantItemIdentifierAfter:(id)arg1;
+- (void)hasDevicePassword;
+- (id)collapsedItemIdentifiersWithItemType:context: /* Error: Ran out of types for this method. */;
+- (void)@"ICSearchIndexProgressCoordinator",R,N;
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (struct CGSize);
+- (id)O;
+- (struct CGSize)ICAttachmentTypeInlineDrawing;
 - (_Bool);
 - (_Bool);
 - (struct CGSize);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void)Controller;
+- (id)hostRecipientView;
+- (void)CKMentionsAnimationController;
 
 // Remaining properties
-@property(copy, nonatomic) NSAttributedString *attributedButtonText;
 @property(readonly, nonatomic) UILabel *internalPhishingWarningLabel; // @synthesize internalPhishingWarningLabel=_internalPhishingWarningLabel;
-@property(retain, nonatomic) UIButton *reportSpamButton; // @synthesize reportSpamButton=_reportSpamButton;
-@property(nonatomic) _Bool showReportSMSSpam; // @synthesize showReportSMSSpam=_showReportSMSSpam;
 
 @end
 

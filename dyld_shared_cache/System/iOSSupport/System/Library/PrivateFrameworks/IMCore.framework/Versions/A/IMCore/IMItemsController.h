@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMGroupTypingTrackingController, IMItem, IMMessageItem, NSArray, NSString;
-
 @interface IMItemsController
 {
     unsigned long long _capacity;
-    IMGroupTypingTrackingController *_typingTrackingController;
-    struct __CFArray *_items;
 }
 
 + (id);
@@ -36,32 +32,32 @@
 - (id);
 - (id);
 - (id);
+- (id)֡;
+- (id)($@�;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)6;
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (id);
+- (unsigned long long)dentifierType, WTF:(id)arg1:ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::WebURLSchemeHandlerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::WeakRef<WebKit::WebURLSchemeHandlerProxy>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::WebURLSchemeHandlerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)TF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::WebURLSchemeHandlerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::WeakRef<WebKit::WebURLSchemeHandlerProxy>>>, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::WebURLSchemeHandlerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::WebURLSchemeHandlerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::WeakRef<WebKit::WebURLSchemeHandlerProxy>>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::WebURLSchemeHandlerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebKit::WebURLSchemeHandlerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::WebURLSchemeHandlerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::WeakRef<WebKit::WebURLSchemeHandlerProxy>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::WebURLSchemeHandlerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::WeakRef<WebKit::WebURLSchemeHandlerProxy>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::WebURLSchemeHandlerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::WebURLSchemeHandlerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::WeakRef<WebKit::WebURLSchemeHandlerProxy>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::WebURLSchemeHandlerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)h;
+- (id)w;
 - (id);
 - (unsigned long long);
 - (void);
@@ -70,21 +66,7 @@
 - (void)¨<;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *_items;
-@property(nonatomic) unsigned long long capacity; // @synthesize capacity=_capacity;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) IMItem *firstNonAssociatedItem;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isMoreToLoad;
 @property(nonatomic) struct __CFArray *items; // @synthesize items=_items;
-@property(readonly, nonatomic) IMMessageItem *lastIncomingFinishedMessageItem;
-@property(readonly, nonatomic) IMItem *lastNonAssociatedItem;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) IMGroupTypingTrackingController *typingTrackingController; // @synthesize typingTrackingController=_typingTrackingController;
 
 @end
 

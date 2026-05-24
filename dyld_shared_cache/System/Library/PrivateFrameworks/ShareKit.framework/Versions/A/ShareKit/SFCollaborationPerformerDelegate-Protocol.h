@@ -5,5 +5,6 @@
 //
 
 @protocol SFCollaborationPerformerDelegate
+- (void);
 @end
 

@@ -10,21 +10,17 @@ __attribute__((visibility("hidden")))
 @interface NSAccessibilityActionEntry
 {
     NSString *_action;
-    NSString *_accessibilityDescription;
-    CDUnknownBlockType _handler;
 }
 
-+ (id);
-- (id);
++ (id)ibrary/PrivateFrameworks/AOSKit.framework/Versions/A/AOSKit;
+- (id)LL connection!;
 - (void);
 - (id);
-- (CDUnknownBlockType)ingContentsAndWritingItemAtURL:byAccessor: /* Error: Ran out of types for this method. */;
-- (id)SViewUpdatesAllConstraints;
+- (CDUnknownBlockType)_fileCoordinator:coordinateReadingContentsAndWritingItemAtURL:byAccessor: /* Error: Ran out of types for this method. */;
+- (id)NSViewUpdatesAllConstraints;
 
 // Remaining properties
-@property(readonly, copy) NSString *accessibilityDescription; // @synthesize accessibilityDescription=_accessibilityDescription;
 @property(readonly, copy) NSString *action; // @synthesize action=_action;
-@property(readonly, copy) CDUnknownBlockType handler; // @synthesize handler=_handler;
 
 @end
 

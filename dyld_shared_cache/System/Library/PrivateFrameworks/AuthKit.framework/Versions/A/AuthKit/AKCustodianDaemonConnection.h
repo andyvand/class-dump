@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSXPCConnection, NSXPCListenerEndpoint;
+@class NSXPCListenerEndpoint;
 
 @interface AKCustodianDaemonConnection
 {
     struct os_unfair_lock_s _unfairLock;
-    NSXPCConnection *_connection;
-    NSXPCListenerEndpoint *_listenerEndpoint;
 }
 
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id)proxiedAltDSID;
+- (id)/;
+- (id);
+- (id)_proxiedAltDSID;
 - (void)ìc;
 - (id)U_L§(a]Z"½¯-4Ì¨
 C}zí¸5ÝÐÚÉ"­äØß§8*¨±I-Æøÿh=°X7=.ÅJg?e8ò@ßóáÍOV®Êh!y÷ÚiWi¿ëáò»ßã¹ä./=r´ý¥ÃÄS+µµc¹³ KÄé±ë¶|ÎQ}oCÁØ Dæ¯÷yTçÙç1ãlA%CÔfùÕÇëipìN_9>©ÑüOqOjåÈ¬Ê]ïp\NbàùeÇÖ°· XuÆøÆ93 ËDi1k6üNÑýïÃAX Äf/wùÔgYg±pÿÒ¶ÐGõjFTxúãÝÌª­:BoÜâÜ

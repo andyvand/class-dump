@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol PKModularService;
+
 @protocol PKModularService
+
+@optional
++ (id <PKModularService>)tion6__funcIZN17language_modeling2v126ToucanLanguageModelSession31_combinedConditionalProbabilityERKNS_6vectorINS5_INS3_14SanitizedTokenENS_9allocatorIS6_EEEENS7_IS9_EEEERKNS5_INS5_INS3_13TokenMetadataENS7_ISE_EEEENS7_ISG_EEEERKNS3_17LinguisticContextEE3$_0FdmEEE;
 @end
 

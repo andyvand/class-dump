@@ -7,10 +7,9 @@
 @protocol UINSHidSettings;
 
 @protocol UINSHidManager
+- (_Bool);
 
 // Remaining properties
-@property(readonly) double doubleClickInterval;
-@property(readonly) _Bool forceClickPerformsQuickLook;
 @property(readonly, nonatomic) id <UINSHidSettings> settings;
 @end
 

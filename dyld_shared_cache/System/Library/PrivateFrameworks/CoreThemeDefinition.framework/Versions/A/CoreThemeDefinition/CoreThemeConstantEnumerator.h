@@ -7,9 +7,6 @@
 @interface CoreThemeConstantEnumerator
 {
     void *_globalListPointer;
-    long long _listIndex;
-    long long _indexOfLastEntry;
-    _Bool _isPastLastEntry;
 }
 
 + (id);

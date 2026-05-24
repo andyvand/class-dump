@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSData, NSDate, NSDateComponents, NSSet, NSString, NSURL, NSUUID, REMAccountCapabilities, REMCRMergeableStringDocument, REMChangedKeysObserver, REMContactRepresentation, REMDisplayDate, REMDueDateDeltaAlert, REMListChangeItem, REMObjectID, REMReminderAssignmentContextChangeItem, REMReminderAttachmentContextChangeItem, REMReminderDueDateDeltaAlertContextChangeItem, REMReminderFlaggedContextChangeItem, REMReminderHashtagContextChangeItem, REMReminderStorage, REMReminderSubtaskContextChangeItem, REMReminderUrgentAlarmContextChangeItem, REMResolutionTokenMap, REMSaveRequest, REMUserActivity;
+@class REMChangedKeysObserver, REMSaveRequest;
 
 @interface REMReminderChangeItem
 {
     REMSaveRequest *_saveRequest;
-    REMReminderStorage *_storage;
-    REMChangedKeysObserver *_changedKeysObserver;
 }
 
 + (id);
@@ -38,7 +36,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -49,7 +47,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -71,7 +69,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void));
 - (id);
 - (id);
 - (id);
@@ -95,108 +93,31 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)itWithItemId:(id)arg1 vocabularyType:term:vocabularyId:] /* Error: Ran out of types for this method. */;
+- (void)freading items:%@. Strings:%{sensitive}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (id);
+- (id)__objc_const;
 - (id);
-- (id);
-- (void);
-- (id);
+- (void)%x
+;
+- (id)32@0:8@16q24 /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (_Bool);
+- (id)setUIBusyCount: /* Error: Ran out of types for this method. */;
+- (_Bool)roxy.;
 - (void);
 - (void);
 - (void)erge with object of type %{public}@.;
 
 // Remaining properties
-@property(readonly, nonatomic) REMAccountCapabilities *accountCapabilities; // @dynamic accountCapabilities;
-@property(retain, nonatomic) REMObjectID *accountID; // @dynamic accountID;
-@property(readonly, nonatomic) NSArray *alarms; // @dynamic alarms;
-@property(readonly, nonatomic) _Bool allDay; // @dynamic allDay;
-@property(retain, nonatomic) NSDate *alternativeDisplayDateDate_forCalendar; // @dynamic alternativeDisplayDateDate_forCalendar;
-@property(readonly, nonatomic) REMReminderAssignmentContextChangeItem *assignmentContext;
-@property(retain, nonatomic) NSSet *assignments; // @dynamic assignments;
-@property(readonly, nonatomic) REMReminderAttachmentContextChangeItem *attachmentContext;
-@property(retain, nonatomic) NSArray *attachments; // @dynamic attachments;
-@property(retain, nonatomic) NSUUID *batchCreationID; // @dynamic batchCreationID;
 @property(retain, nonatomic) REMChangedKeysObserver *changedKeysObserver; // @synthesize changedKeysObserver=_changedKeysObserver;
-@property(nonatomic, getter=isCompleted) _Bool completed; // @dynamic completed;
-@property(copy, nonatomic) NSDate *completionDate; // @dynamic completionDate;
-@property(copy, nonatomic) REMContactRepresentation *contactHandles; // @dynamic contactHandles;
-@property(copy, nonatomic) NSDate *creationDate; // @dynamic creationDate;
-@property(copy, nonatomic) NSString *daCalendarItemUniqueIdentifier; // @dynamic daCalendarItemUniqueIdentifier;
-@property(copy, nonatomic) NSString *daPushKey; // @dynamic daPushKey;
-@property(copy, nonatomic) NSString *daSyncToken; // @dynamic daSyncToken;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) REMDisplayDate *displayDate; // @dynamic displayDate;
-@property(copy, nonatomic) NSDateComponents *dueDateComponents; // @dynamic dueDateComponents;
-@property(readonly, nonatomic) REMReminderDueDateDeltaAlertContextChangeItem *dueDateDeltaAlertContext;
-@property(retain, nonatomic) NSSet *dueDateDeltaAlertIdentifiersToDelete; // @dynamic dueDateDeltaAlertIdentifiersToDelete;
-@property(readonly, nonatomic) NSData *dueDateDeltaAlertsData; // @dynamic dueDateDeltaAlertsData;
-@property(retain, nonatomic) NSArray *dueDateDeltaAlertsToUpsert; // @dynamic dueDateDeltaAlertsToUpsert;
-@property(readonly, nonatomic) NSDateComponents *effectiveDisplayDateComponents_forCalendar; // @dynamic effectiveDisplayDateComponents_forCalendar;
-@property(readonly, nonatomic) long long effectiveMinimumSupportedVersion; // @dynamic effectiveMinimumSupportedVersion;
-@property(copy, nonatomic) NSString *externalIdentifier; // @dynamic externalIdentifier;
-@property(copy, nonatomic) NSString *externalModificationTag; // @dynamic externalModificationTag;
-@property(readonly, nonatomic) REMDueDateDeltaAlert *fetchedCurrentDueDateDeltaAlert;
-@property(nonatomic) long long flagged; // @dynamic flagged;
-@property(readonly, nonatomic) REMReminderFlaggedContextChangeItem *flaggedContext;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) REMReminderHashtagContextChangeItem *hashtagContext;
-@property(retain, nonatomic) NSSet *hashtagIDsToUndelete; // @dynamic hashtagIDsToUndelete;
-@property(retain, nonatomic) NSSet *hashtags; // @dynamic hashtags;
-@property(nonatomic) unsigned long long icsDisplayOrder; // @dynamic icsDisplayOrder;
-@property(copy, nonatomic) NSURL *icsUrl; // @dynamic icsUrl;
-@property(retain, nonatomic) NSData *importedICSData; // @dynamic importedICSData;
-@property(readonly, nonatomic) _Bool isOverdue; // @dynamic isOverdue;
-@property(readonly, nonatomic) _Bool isRecurrent; // @dynamic isRecurrent;
-@property(nonatomic) _Bool isUrgentStateEnabledForCurrentUser; // @dynamic isUrgentStateEnabledForCurrentUser;
-@property(copy, nonatomic) NSDate *lastBannerPresentationDate; // @dynamic lastBannerPresentationDate;
-@property(copy, nonatomic) NSDate *lastModifiedDate; // @dynamic lastModifiedDate;
-@property(readonly, copy, nonatomic) NSString *legacyNotificationIdentifier; // @dynamic legacyNotificationIdentifier;
-@property(readonly, nonatomic) REMListChangeItem *listChangeItem;
-@property(retain, nonatomic) REMObjectID *listID; // @dynamic listID;
-@property(readonly, nonatomic) long long minimumSupportedVersion; // @dynamic minimumSupportedVersion;
-@property(copy, nonatomic) NSAttributedString *notes;
-@property(copy, nonatomic) NSString *notesAsString;
-@property(retain, nonatomic) REMCRMergeableStringDocument *notesDocument; // @dynamic notesDocument;
-@property(retain, nonatomic) NSData *notesDocumentData; // @dynamic notesDocumentData;
-@property(retain, nonatomic) REMObjectID *objectID; // @dynamic objectID;
-@property(retain, nonatomic) REMObjectID *parentReminderID; // @dynamic parentReminderID;
-@property(retain, nonatomic) NSString *primaryLocaleInferredFromLastUsedKeyboard;
-@property(nonatomic) unsigned long long priority; // @dynamic priority;
-@property(retain, nonatomic) NSArray *recurrenceRules; // @dynamic recurrenceRules;
-@property(readonly, nonatomic) REMObjectID *remObjectID; // @dynamic remObjectID;
-@property(retain, nonatomic) REMResolutionTokenMap *resolutionTokenMap; // @dynamic resolutionTokenMap;
-@property(retain, nonatomic) NSData *resolutionTokenMapData; // @dynamic resolutionTokenMapData;
-@property(readonly, nonatomic) REMSaveRequest *saveRequest; // @synthesize saveRequest=_saveRequest;
-@property(copy, nonatomic) NSData *siriFoundInAppsData; // @dynamic siriFoundInAppsData;
-@property(nonatomic) long long siriFoundInAppsUserConfirmation; // @dynamic siriFoundInAppsUserConfirmation;
-@property(copy, nonatomic) NSDateComponents *startDateComponents; // @dynamic startDateComponents;
-@property(retain, nonatomic) REMReminderStorage *storage; // @synthesize storage=_storage;
-@property(readonly, nonatomic) REMReminderSubtaskContextChangeItem *subtaskContext;
-@property(retain, nonatomic) NSSet *subtaskIDsToUndelete; // @dynamic subtaskIDsToUndelete;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *timeZone; // @dynamic timeZone;
-@property(copy, nonatomic) NSAttributedString *title;
-@property(copy, nonatomic) NSString *titleAsString;
-@property(retain, nonatomic) REMCRMergeableStringDocument *titleDocument; // @dynamic titleDocument;
-@property(retain, nonatomic) NSData *titleDocumentData; // @dynamic titleDocumentData;
-@property(readonly, nonatomic) REMReminderUrgentAlarmContextChangeItem *urgentAlarmContext;
-@property(copy, nonatomic) REMUserActivity *userActivity; // @dynamic userActivity;
 
 @end
 

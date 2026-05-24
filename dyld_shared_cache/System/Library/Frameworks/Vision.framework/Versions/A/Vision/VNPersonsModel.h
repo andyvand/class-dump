@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class VNPersonsModelAlgorithm, VNPersonsModelConfiguration, VNPersonsModelFaceModel;
-@protocol VNPersonsModelDataSource;
+@class VNPersonsModelAlgorithm, VNPersonsModelFaceModel;
 
 @interface VNPersonsModel
 {
     VNPersonsModelFaceModel *_faceModel_DO_NOT_ACCESS_DIRECTLY;
-    VNPersonsModelConfiguration *_configuration;
-    id <VNPersonsModelDataSource> _dataSource;
-    unsigned long long _lastDataChangeSequenceNumber;
 }
 
 + (id);
@@ -27,12 +23,12 @@
 + (_Bool);
 + (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)ACHABLE:this should be overridden by the concrete operation /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -42,12 +38,11 @@
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (unsigned long long)NRequestPerformer_SameOrdinalityRequestsPriorityGroup2Key;
+- (unsigned long long)VNRequestPerformer_SameOrdinalityRequestsPriorityGroup2Key;
 - (void)elPrediction"16;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) VNPersonsModelAlgorithm *algorithm;
-@property(readonly, copy, nonatomic) VNPersonsModelConfiguration *configuration;
 
 @end
 

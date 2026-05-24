@@ -9,50 +9,9 @@
 @interface PXSharingSettings : PXSettings
 {
     _Bool _showConfidentialityWarnings;
-    _Bool _onlyRegisterSingleItemProviderRepresentation;
-    _Bool _disableMailDrop;
-    _Bool _showInternalGIFExport;
-    _Bool _allowCopyingVideos;
-    _Bool _enableOneUpAnimation;
-    _Bool _allowFallbacksWhilePreparing;
-    _Bool _disableMetadataCorrections;
-    _Bool _forceDateTimeMetadataBaking;
-    _Bool _forceLocationMetadataBaking;
-    _Bool _forceCaptionMetadataBaking;
-    _Bool _forceAccessibilityDescriptionMetadataBaking;
-    _Bool _sendAssetURLsToMessages;
-    _Bool _simulateError;
-    _Bool _simulateDownloadFailure;
-    _Bool _simulateCPLNotReadyError;
-    _Bool _simulateLowDiskSpaceError;
-    _Bool _simulateUserCloudNotAuthenticated;
-    _Bool _simulateMaxFilesizeLimitForGIFsInSharedAlbumsError;
-    _Bool _simulateSyndicatedResourceUnavailable;
-    _Bool _simulateMismatchedExportCounts;
-    _Bool _showFileRadarButtonOnInternalInstalls;
-    _Bool _showSingleVideoDurationInShareSheetHeader;
-    _Bool _provideGenericTypeIdentifiersForNilActivityTypes;
-    _Bool _showUnmodifiedOriginalsExportSwitch;
-    _Bool _showGlobalLivenessExclusionSwitch;
-    _Bool _showGlobalLocationExclusionSwitch;
-    _Bool _excludeLivenessByDefaultWhenSharing;
-    _Bool _excludeLocationByDefaultWhenSharing;
-    _Bool _showSendAsAssetBundlesForCMM;
-    _Bool _showSendAsAssetBundlesForIndividualItems;
-    _Bool _sendAsAssetBundlesByDefaultWhenSharing;
-    _Bool _savePhotosBundlesToFilesWithoutExtractingMedia;
-    _Bool _shouldUpdateFileCreationDatesForUnmodifiedOriginalExports;
-    _Bool _shouldUpdateFileCreationDatesForRegularExports;
-    _Bool _useModernMessagesShareService;
-    unsigned long long _maxMessagesAssetLimit;
-    unsigned long long _maxMailPhotoLimit;
-    unsigned long long _confidentialityWarningsVersion;
-    long long _locationBakingComparisonStrategy;
-    long long _simulatedErrorType;
-    long long _sharingHeaderLocationDisplayStyle;
 }
 
-+ (id);
++ (id)_unitConverter;
 + (id)æýM;;;
 - (_Bool);
 - (long long);
@@ -67,7 +26,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)(=;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -82,7 +41,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)	;
 - (void);
 - (void);
 - (void);
@@ -144,48 +103,7 @@
 - (id)sets for library scope with identifier:%{public}@ (policy:%{public}@) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool allowCopyingVideos; // @synthesize allowCopyingVideos=_allowCopyingVideos;
-@property(nonatomic) _Bool allowFallbacksWhilePreparing; // @synthesize allowFallbacksWhilePreparing=_allowFallbacksWhilePreparing;
-@property(nonatomic) unsigned long long confidentialityWarningsVersion; // @synthesize confidentialityWarningsVersion=_confidentialityWarningsVersion;
-@property(nonatomic) _Bool disableMailDrop; // @synthesize disableMailDrop=_disableMailDrop;
-@property(nonatomic) _Bool disableMetadataCorrections; // @synthesize disableMetadataCorrections=_disableMetadataCorrections;
-@property(nonatomic) _Bool enableOneUpAnimation; // @synthesize enableOneUpAnimation=_enableOneUpAnimation;
-@property(nonatomic) _Bool excludeLivenessByDefaultWhenSharing; // @synthesize excludeLivenessByDefaultWhenSharing=_excludeLivenessByDefaultWhenSharing;
-@property(nonatomic) _Bool excludeLocationByDefaultWhenSharing; // @synthesize excludeLocationByDefaultWhenSharing=_excludeLocationByDefaultWhenSharing;
-@property(nonatomic) _Bool forceAccessibilityDescriptionMetadataBaking; // @synthesize forceAccessibilityDescriptionMetadataBaking=_forceAccessibilityDescriptionMetadataBaking;
-@property(nonatomic) _Bool forceCaptionMetadataBaking; // @synthesize forceCaptionMetadataBaking=_forceCaptionMetadataBaking;
-@property(nonatomic) _Bool forceDateTimeMetadataBaking; // @synthesize forceDateTimeMetadataBaking=_forceDateTimeMetadataBaking;
-@property(nonatomic) _Bool forceLocationMetadataBaking; // @synthesize forceLocationMetadataBaking=_forceLocationMetadataBaking;
-@property(nonatomic) long long locationBakingComparisonStrategy; // @synthesize locationBakingComparisonStrategy=_locationBakingComparisonStrategy;
-@property(nonatomic) unsigned long long maxMailPhotoLimit; // @synthesize maxMailPhotoLimit=_maxMailPhotoLimit;
-@property(nonatomic) unsigned long long maxMessagesAssetLimit; // @synthesize maxMessagesAssetLimit=_maxMessagesAssetLimit;
-@property(nonatomic) _Bool onlyRegisterSingleItemProviderRepresentation; // @synthesize onlyRegisterSingleItemProviderRepresentation=_onlyRegisterSingleItemProviderRepresentation;
-@property(nonatomic) _Bool provideGenericTypeIdentifiersForNilActivityTypes; // @synthesize provideGenericTypeIdentifiersForNilActivityTypes=_provideGenericTypeIdentifiersForNilActivityTypes;
-@property(nonatomic) _Bool savePhotosBundlesToFilesWithoutExtractingMedia; // @synthesize savePhotosBundlesToFilesWithoutExtractingMedia=_savePhotosBundlesToFilesWithoutExtractingMedia;
-@property(nonatomic) _Bool sendAsAssetBundlesByDefaultWhenSharing; // @synthesize sendAsAssetBundlesByDefaultWhenSharing=_sendAsAssetBundlesByDefaultWhenSharing;
-@property(nonatomic) _Bool sendAssetURLsToMessages; // @synthesize sendAssetURLsToMessages=_sendAssetURLsToMessages;
-@property(nonatomic) long long sharingHeaderLocationDisplayStyle; // @synthesize sharingHeaderLocationDisplayStyle=_sharingHeaderLocationDisplayStyle;
-@property(nonatomic) _Bool shouldUpdateFileCreationDatesForRegularExports; // @synthesize shouldUpdateFileCreationDatesForRegularExports=_shouldUpdateFileCreationDatesForRegularExports;
-@property(nonatomic) _Bool shouldUpdateFileCreationDatesForUnmodifiedOriginalExports; // @synthesize shouldUpdateFileCreationDatesForUnmodifiedOriginalExports=_shouldUpdateFileCreationDatesForUnmodifiedOriginalExports;
 @property(nonatomic) _Bool showConfidentialityWarnings; // @synthesize showConfidentialityWarnings=_showConfidentialityWarnings;
-@property(nonatomic) _Bool showFileRadarButtonOnInternalInstalls; // @synthesize showFileRadarButtonOnInternalInstalls=_showFileRadarButtonOnInternalInstalls;
-@property(nonatomic) _Bool showGlobalLivenessExclusionSwitch; // @synthesize showGlobalLivenessExclusionSwitch=_showGlobalLivenessExclusionSwitch;
-@property(nonatomic) _Bool showGlobalLocationExclusionSwitch; // @synthesize showGlobalLocationExclusionSwitch=_showGlobalLocationExclusionSwitch;
-@property(nonatomic) _Bool showInternalGIFExport; // @synthesize showInternalGIFExport=_showInternalGIFExport;
-@property(nonatomic) _Bool showSendAsAssetBundlesForCMM; // @synthesize showSendAsAssetBundlesForCMM=_showSendAsAssetBundlesForCMM;
-@property(nonatomic) _Bool showSendAsAssetBundlesForIndividualItems; // @synthesize showSendAsAssetBundlesForIndividualItems=_showSendAsAssetBundlesForIndividualItems;
-@property(nonatomic) _Bool showSingleVideoDurationInShareSheetHeader; // @synthesize showSingleVideoDurationInShareSheetHeader=_showSingleVideoDurationInShareSheetHeader;
-@property(nonatomic) _Bool showUnmodifiedOriginalsExportSwitch; // @synthesize showUnmodifiedOriginalsExportSwitch=_showUnmodifiedOriginalsExportSwitch;
-@property(nonatomic) _Bool simulateCPLNotReadyError; // @synthesize simulateCPLNotReadyError=_simulateCPLNotReadyError;
-@property(nonatomic) _Bool simulateDownloadFailure; // @synthesize simulateDownloadFailure=_simulateDownloadFailure;
-@property(nonatomic) _Bool simulateError; // @synthesize simulateError=_simulateError;
-@property(nonatomic) _Bool simulateLowDiskSpaceError; // @synthesize simulateLowDiskSpaceError=_simulateLowDiskSpaceError;
-@property(nonatomic) _Bool simulateMaxFilesizeLimitForGIFsInSharedAlbumsError; // @synthesize simulateMaxFilesizeLimitForGIFsInSharedAlbumsError=_simulateMaxFilesizeLimitForGIFsInSharedAlbumsError;
-@property(nonatomic) _Bool simulateMismatchedExportCounts; // @synthesize simulateMismatchedExportCounts=_simulateMismatchedExportCounts;
-@property(nonatomic) _Bool simulateSyndicatedResourceUnavailable; // @synthesize simulateSyndicatedResourceUnavailable=_simulateSyndicatedResourceUnavailable;
-@property(nonatomic) _Bool simulateUserCloudNotAuthenticated; // @synthesize simulateUserCloudNotAuthenticated=_simulateUserCloudNotAuthenticated;
-@property(nonatomic) long long simulatedErrorType; // @synthesize simulatedErrorType=_simulatedErrorType;
-@property(nonatomic) _Bool useModernMessagesShareService; // @synthesize useModernMessagesShareService=_useModernMessagesShareService;
 
 @end
 

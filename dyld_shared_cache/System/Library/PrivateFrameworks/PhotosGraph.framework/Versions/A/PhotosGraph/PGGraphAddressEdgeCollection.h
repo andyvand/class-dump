@@ -6,20 +6,18 @@
 
 #import <PhotosGraph/PGGraphEdgeCollection.h>
 
-@class NSDate, NSSet;
+@class NSDate;
 
 @interface PGGraphAddressEdgeCollection : PGGraphEdgeCollection
 {
 }
 
-+ (Class);
++ (Class)P;
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long numberOfAssets;
-@property(readonly, nonatomic) NSSet *universalDateIntervals;
 @property(readonly, nonatomic) NSDate *universalStartDate;
 
 @end

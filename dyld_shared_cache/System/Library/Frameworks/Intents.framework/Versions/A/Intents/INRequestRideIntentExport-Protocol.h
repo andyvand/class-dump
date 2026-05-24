@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLPlacemark, INDateComponentsRange, INPaymentMethod, INSpeakableString, NSNumber;
+@class CLPlacemark;
 
 @protocol INRequestRideIntentExport
+- (void);
+- (CLPlacemark *)9�;
 
 // Remaining properties
-@property(copy) CLPlacemark *dropOffLocation;
-@property(copy) NSNumber *partySize;
-@property(copy) INPaymentMethod *paymentMethod;
 @property(copy) CLPlacemark *pickupLocation;
-@property(copy) INSpeakableString *rideOptionName;
-@property(copy) INDateComponentsRange *scheduledPickupTime;
 @end
 

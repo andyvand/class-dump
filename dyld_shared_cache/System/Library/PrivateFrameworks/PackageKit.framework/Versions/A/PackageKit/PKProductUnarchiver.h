@@ -9,22 +9,19 @@
 @interface PKProductUnarchiver
 {
     PKArchive *_productArchive;
-    _Bool _useIndexBom;
-    _Bool _preserveExtAttrsAndACLs;
 }
 
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)(;
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)	;
 
 // Remaining properties
-@property _Bool preserveExtAttrsAndACLs; // @synthesize preserveExtAttrsAndACLs=_preserveExtAttrsAndACLs;
 @property _Bool useIndexBom; // @synthesize useIndexBom=_useIndexBom;
 
 @end

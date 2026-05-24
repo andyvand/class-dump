@@ -5,5 +5,7 @@
 //
 
 @protocol IMDaemonListenerServiceProtocol
+- (void);
+- (void);
 @end
 

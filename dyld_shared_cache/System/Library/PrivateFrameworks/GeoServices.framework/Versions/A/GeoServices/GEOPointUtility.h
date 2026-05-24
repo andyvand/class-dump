@@ -12,11 +12,11 @@
 + (id);
 + (id);
 + (id);
-+ (unsigned long long);
++ (unsigned long long)tX;
 + (CDStruct_39925896);
 + (id);
 + (void *);
-+ (id);
++ (id)˿;
 
 @end
 

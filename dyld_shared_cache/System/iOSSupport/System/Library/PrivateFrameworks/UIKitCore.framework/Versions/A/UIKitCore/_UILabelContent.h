@@ -16,14 +16,14 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)preferredFontWithTextStyle:isShort:isBold:useCustomWeight:customFontWeight:isMonoSpaced:isMacStyle:fontFeatures: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
-- (long long);
-- (id);
+- (long long)s}^{mmcs_read_stream_pool}^{_mmcs_perform_target}^{__CFData}(?=^{mmcs_cfnetwork_http_context}^{mmcs_nsurlsession_http_context}^{mmcs_curl_http_context}^v)}16r^{mmcs_http_context_options=^{__CFString}^{__CFHTTPMessage}^{_mmcs_http_request_options}ddQQ^?^?^?^?^?^?^?^v^?^vCd^{os_activity_s}}24^{os_activity_s=}32;
+- (id)configuration;
 - (id);
 - (_Bool);
-- (long long);
+- (long long)defaultMediaLibrary;
 - (id);
 - (id);
 - (unsigned long long);
@@ -40,11 +40,11 @@ __attribute__((visibility("hidden")))
 - (id)0@ù
 × ;
 - (long long);
-- (_Bool)dedAfterPosition:(id)arg1;
-- (_Bool)rExtendedLayout: /* Error: Ran out of types for this method. */;
-- (id)iers:(id)arg1;
-- (_Bool)entChangeCallbackIfNecessaryWillChange:(id)arg1;
-- (_Bool)hanged;
+- (_Bool)updateUnderlinesIfNeededAfterPosition:(id)arg1;
+- (_Bool)setEdgesForExtendedLayout: /* Error: Ran out of types for this method. */;
+- (id)hasItemsConformingToTypeIdentifiers:(id)arg1;
+- (_Bool)_sendSearchBarPlacementChangeCallbackIfNecessaryWillChange:(id)arg1;
+- (_Bool)_displayScaleTraitChanged;
 - (id)enderTreeSize;
 - (id)ossfadeTransition:,V__wantsTabCrossFadeTransition /* Error: Ran out of types for this method. */;
 - (_Bool)former;
@@ -55,7 +55,7 @@ __attribute__((visibility("hidden")))
 ØÂ	LÃ|Å;
 - (id)ØÄØ4Ù;
 - (id)g;
-- (id)arator;
+- (id)showsVerticalSeparator;
 - (id);
 - (void)SubtitleContent;
 

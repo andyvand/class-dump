@@ -10,9 +10,9 @@
     _Bool _preparedAnswer;
 }
 
-+ (id);
-- (void);
-- (void);
++ (id)h;
+- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (id);

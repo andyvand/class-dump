@@ -6,14 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIHoleDistortion : CIFilter
 {
     CIImage *inputImage;
-    CIVector *inputCenter;
-    NSNumber *inputRadius;
 }
 
 + (id);
@@ -22,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)";
 - (void);
 - (_Bool);
 - (id);
@@ -30,9 +28,7 @@ __attribute__((visibility("hidden")))
 - (id)OOCX5H:VL[U_iiiiVfeg[_[c_iiiwwww]vuNe^tYd[kllglamgqosn{zsmzupTwqr{w~}|zwcqlxW_SmC[Olvvtv}}}}xxxxppppmurx³³³³²²²²_to{kpitd|zpxxxxooookkkkhhehRZNgTe\s    ¡}{wwwwjjjjNWL`GZOkIZPeKJ9URc\jbk|y©©©©££££{ssssmmfmpmfuz ¦¦¯¯¯¯¢¦wwwwIYQ`````llllssss|{{|i{{Hicvuuuuppppdmhp¡¡¡¡{ ¦txUjawSg_qvvvvuuuuckgmOe_l{{{{>^Sq'F4[X[S[\dddpojp¢¢¢¢¦¦¦¦qKWKc1B0QFQEXQc\errrrcroxssqsWniu[qo{zzzzlmkm?SH^ERGYO]W^ghhhuuuuxxxxhmftiuo    ¶¶¶¶´´´´_upfmerxxxxlq]{zOibC]Vn3OE_^^^^\\\\LWPYX^Xczzzz{BgazSqk}TbUrbh\tr{u¤¤¤¤®®®®§§§§Yqk}bpiw}}{}syyyysssswyu|lwq}Sqk~w}Kg[}boh~    t{w{stntzzvz¤¤¤¤rwu~`d[heecerrrr~~~~ssss;J;V,:&GVVTVllllzzzz~~~~zyuzXpizxdd]dNWLYddddn{{{|~m|oun_sm~hsnw[hamYd\hfmjmsvuvv}}m{wiws_sm}usnwYg`pllilhhhhLaYgpppp||||~~~~Ulc~e}yllllU`]`____U]W^:SI`ZaZiinknjjhjWgbglllluusut{{xxxxjjhjWicoswlyvOme}p¡¡¡¡¡¡¡¡dd_d<D3J2=+D?E7P?XReuuuunrrr``^`HQGYljilRgbwztqz   ¡¡¡¡}}{}kkem^f_jtttt||||yyyynrrrqqqqz||||~yh{vxxxx]nkvj~]tn¢¢¢¢hsn|I[OhhhdhppppttttakfrXieuzzzzetttZ`Xc7L?YQc\f}}}}jurs}{tuusuVjcnjlfoNf_m:UHh>aVt¡¡¡¡zpqlsATHecidkrrrrdlllP^WaXXSX@PEUH\U_qqqqqvun|uofuYlfvbnjsF`ZhUZQ\ZZUZddddpppp||||qªªªª±±±±¥¥¥¥ssssccYcEZNfkxuzgup~KbWu}xs}ui{wjxsyytKeYwRj`{¡¥¥¥¦¦¦¦zzzzP`UfIUH`\`Xejljmnnnnaaaa4J@PIKDKTTTTE\Sdour}ªªªªiuoE\MqWmcyp|zuuuuddddPVL\jiej /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) CIVector *inputCenter; // @synthesize inputCenter;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputRadius; // @synthesize inputRadius;
 
 @end
 

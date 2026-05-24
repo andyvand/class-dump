@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMTimer, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface IMDRecentsController
 {
     NSMutableDictionary *_typingContext;
-    NSMutableDictionary *_incomingMessagesTypingContext;
-    IMTimer *_typingContextTimer;
-    NSMutableDictionary *_activeDeviceForHandle;
 }
 
 + (id)tch, has more work to do, but has higher priority work;
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)SUBSTRING;
 - (void);
 - (_Bool);
 - (void);
-- (void)tRecordZoneID;
+- (void)_attachmentRecordZoneID;
 - (void)ÿQB;
 
 @end

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISDDataManager, NSString;
+@class ISDDataManager;
 
 @interface ISDDataObject
 {
     ISDDataManager *_dataManager;
-    unsigned int _anchor;
-    NSString *_comment;
-    ISDDataObject *_topParent;
 }
 
 - (id);
@@ -23,9 +20,9 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (unsigned int);
+- (id)!@9?;
+- (void)_createDeviceSelectionHostingControllerForDevices:(id)arg1;
+- (unsigned int)P;
 - (void)ect entityName, min(lastSyncGeneration) from SyncState where (lastSyncGeneration > 0) and (syncMode != 3) and (syncMode != 4) group by entityName order by lastSyncGeneration;;
 
 @end

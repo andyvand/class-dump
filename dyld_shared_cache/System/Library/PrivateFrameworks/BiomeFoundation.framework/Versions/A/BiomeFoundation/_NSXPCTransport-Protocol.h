@@ -5,6 +5,8 @@
 //
 
 @protocol _NSXPCTransport
+- (void);
+- (void);
 - (unsigned int)c}@ request for %{public}@ access to %{private}@;
 @end
 

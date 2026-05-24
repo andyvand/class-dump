@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
++ (id)reportHttpStatus:(id)arg1 grpcStatus:forURL: /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (id);

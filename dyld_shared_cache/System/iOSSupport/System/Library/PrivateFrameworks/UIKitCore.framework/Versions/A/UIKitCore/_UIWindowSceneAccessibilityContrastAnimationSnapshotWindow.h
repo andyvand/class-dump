@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-- (_Bool);
+- (_Bool)an be downgraded to version:%ld /* Error: Ran out of types for this method. */;
 - (id);
 - (double);
 

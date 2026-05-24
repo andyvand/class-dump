@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPUserInformationRequestAccess, NSData, NSString;
+@class NSString;
 
 @interface CKDPShareAccessRequest
 {
     NSString *_routingKey;
-    NSData *_shortTokenHash;
-    CKDPUserInformationRequestAccess *_userInformationRequestAccess;
 }
 
 + (id);
@@ -24,7 +22,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (unsigned long long);
+- (unsigned long long)bufferedAudioEngine_flushHoseWithinSampleRange;
 - (_Bool);
 - (unsigned int);
 - (_Bool);
@@ -32,17 +30,12 @@
 - (id);
 - (id);
 - (void);
-- (Class)y: /* Error: Ran out of types for this method. */;
+- (Class)initWithCapacity: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)key roll for zone-wide share in zone %@;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasRoutingKey;
-@property(readonly, nonatomic) _Bool hasShortTokenHash;
-@property(readonly, nonatomic) _Bool hasUserInformationRequestAccess;
-@property(retain, nonatomic) NSString *routingKey; // @synthesize routingKey=_routingKey;
-@property(retain, nonatomic) NSData *shortTokenHash; // @synthesize shortTokenHash=_shortTokenHash;
-@property(retain, nonatomic) CKDPUserInformationRequestAccess *userInformationRequestAccess; // @synthesize userInformationRequestAccess=_userInformationRequestAccess;
 
 @end
 

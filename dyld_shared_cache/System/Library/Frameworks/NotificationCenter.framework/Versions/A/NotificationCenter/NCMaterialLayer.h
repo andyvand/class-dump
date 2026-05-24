@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSString;
+@class NSString;
 
 @interface NCMaterialLayer
 {
     NSString *_groupName;
-    CALayer *_backdropLayer;
-    CALayer *_tintLayer;
-    unsigned char _materialStyle;
-    unsigned long long _material;
 }
 
 + (_Bool);
@@ -21,14 +17,13 @@
 - (unsigned char);
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)StallAggregation;
 
 // Remaining properties
 @property(nonatomic) unsigned long long material; // @synthesize material=_material;
-@property(nonatomic) unsigned char materialStyle; // @synthesize materialStyle=_materialStyle;
 
 @end
 

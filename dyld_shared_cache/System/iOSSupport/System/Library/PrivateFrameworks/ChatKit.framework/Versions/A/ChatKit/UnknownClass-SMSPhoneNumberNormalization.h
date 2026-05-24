@@ -5,7 +5,8 @@
 //
 
 @interface UnknownClass (SMSPhoneNumberNormalization)
-+ (id);
++ (id)ȓ
+;
 + (id);
 + (id);
 + (id);
@@ -17,21 +18,21 @@
 + (id);
 + (id);
 - (id);
+- (id)_webViewFullscreenMayReturnToInline: /* Error: Ran out of types for this method. */;
+- (_Bool)ments;
 - (id);
+- (id);
+- (_Bool)workerContext;
+- (id)securityLink;
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (struct _NSRange);
-- (id);
-- (id);
-- (_Bool);
+- (id)ccount ID for object:%@ /* Error: Ran out of types for this method. */;
+- (id)ct:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)r:shareArgument is nil /* Error: Ran out of types for this method. */;
+- (struct _NSRange)isterShareForObject with nil container;
+- (id)r:(double)arg1 %@;
+- (id)t get account because object is neither an ICNote or ICFolder:(id)arg1 %@;
+- (_Bool)ot generating previews.;
 - (id);
 @end
 

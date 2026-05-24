@@ -6,13 +6,11 @@
 
 #import <PassKitCore/PKWebServiceResponse.h>
 
-@class NSArray, NSDate;
+@class NSArray;
 
 @interface PKPaginatedWebServiceResponse : PKWebServiceResponse
 {
     _Bool _moreComing;
-    NSArray *_rawDataList;
-    NSDate *_lastUpdated;
 }
 
 + (id);
@@ -21,14 +19,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)deviceReport;
+- (id));
+- (id)peerPaymentRecurringPaymentPerformAction:identifier:completion: /* Error: Ran out of types for this method. */;
 - (void)entifier for pass style 'healthPass';
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *lastUpdated; // @synthesize lastUpdated=_lastUpdated;
-@property(readonly, nonatomic) _Bool moreComing; // @synthesize moreComing=_moreComing;
 @property(readonly, nonatomic) NSArray *rawDataList; // @synthesize rawDataList=_rawDataList;
 
 @end

@@ -5,5 +5,9 @@
 //
 
 @protocol UITextViewDelegate
+
+@optional
+- (void);
+- (void)Versions/A/IDS;
 @end
 

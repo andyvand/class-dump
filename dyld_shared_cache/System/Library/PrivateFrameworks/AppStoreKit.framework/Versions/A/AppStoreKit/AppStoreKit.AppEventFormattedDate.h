@@ -7,10 +7,6 @@
 @interface AppStoreKit.AppEventFormattedDate
 {
     id displayFromDate;
-    id displayText;
-    id showLiveIndicator;
-    id countdownToDate;
-    id countdownStringKey;
 }
 
 @end

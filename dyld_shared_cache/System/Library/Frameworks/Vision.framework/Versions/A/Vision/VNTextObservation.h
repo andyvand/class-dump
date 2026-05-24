@@ -6,21 +6,20 @@
 
 #import <Vision/VNRectangleObservation.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface VNTextObservation : VNRectangleObservation
 {
     NSArray *_characterBoxes;
-    NSString *_text;
 }
 
 + (_Bool);
 - (id);
 - (void);
 - (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (id)initWithQuery:(id)arg1 desiredNumberOfResults:maximumNumberOfResultsPerPage: /* Error: Ran out of types for this method. */;
+- (unsigned long long)!;
+- (id)?C;
 - (_Bool);
 - (void);
 - (void);
@@ -28,7 +27,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *characterBoxes;
-@property(readonly, copy, nonatomic) NSString *text;
 
 @end
 

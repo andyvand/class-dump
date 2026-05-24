@@ -7,9 +7,6 @@
 @interface NewsFeed.SportsTaxonomyGraph
 {
     id rootNode;
-    id nodesByTagId;
-    id nodesByUmcId;
-    id allTagIDs;
 }
 
 @end

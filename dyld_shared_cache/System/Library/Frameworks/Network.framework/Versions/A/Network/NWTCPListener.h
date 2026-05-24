@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSObject, NSString, NWEndpoint, NWParameters;
-@protocol NWTCPListenerDelegate, OS_nw_listener;
+@class NSObject, NWEndpoint;
+@protocol OS_nw_listener;
 
 @interface NWTCPListener
 {
     NWEndpoint *_localEndpoint;
-    NSError *_error;
-    NSObject<OS_nw_listener> *_internalListener;
-    NWParameters *_parameters;
-    NWEndpoint *_endpoint;
-    NSString *_launchdKey;
-    id <NWTCPListenerDelegate> _delegate;
 }
 
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
+- (id);
+- (id);
+- (void);
+- (id)attempted to change content size %@ of %@ to %@ and got %@;
+- (id);
+- (void)?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?}^{_CGLPrivateObject}^v}16^{_CGLPixelFormatObject=}24d32r^{?=IiqQdq{CVSMPTETime=ssIIIssss}QQ}40;
+- (id)O;
 - (id);
 - (id);
 - (void);
@@ -44,13 +38,7 @@
 - (void)@;
 
 // Remaining properties
-@property __weak id <NWTCPListenerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) NWEndpoint *endpoint; // @synthesize endpoint=_endpoint;
-@property(retain) NSError *error; // @synthesize error=_error;
 @property(retain) NSObject<OS_nw_listener> *internalListener; // @synthesize internalListener=_internalListener;
-@property(retain) NSString *launchdKey; // @synthesize launchdKey=_launchdKey;
-@property(retain) NWEndpoint *localEndpoint; // @synthesize localEndpoint=_localEndpoint;
-@property(retain) NWParameters *parameters; // @synthesize parameters=_parameters;
 
 @end
 

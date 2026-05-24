@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
     struct __CFDictionary *mDictionary;
 }
 
-- (struct __CFDictionary *);
+- (struct __CFDictionary *);
 - (id);
 - (void);
 - (id);
@@ -19,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);

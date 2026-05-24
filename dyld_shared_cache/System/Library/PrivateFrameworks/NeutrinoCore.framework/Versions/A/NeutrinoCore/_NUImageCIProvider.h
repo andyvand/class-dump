@@ -11,7 +11,7 @@
     id <NUBufferImage> _image;
 }
 
-- (void);
+- (void)aneous participant models;
 - (void);
 - (id);
 - (void)ñá1Â0@ù

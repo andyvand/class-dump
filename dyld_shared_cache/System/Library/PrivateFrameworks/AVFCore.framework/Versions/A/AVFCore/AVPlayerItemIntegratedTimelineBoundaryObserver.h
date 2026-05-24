@@ -4,42 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVOccasionalTimebaseObserver, AVPlayerItemSegment, NSArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface AVPlayerItemIntegratedTimelineBoundaryObserver
 {
     struct OpaqueFigSimpleMutex *_mutex;
-    AVPlayerItemSegment *_segment;
-    NSArray *_offsetTimes;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _block;
-    CDStruct_82206317 _observedTimeMapping;
-    AVOccasionalTimebaseObserver *_boundaryObserver;
-    _Bool _segmentWasRemoved;
-    _Bool _hasBeenScheduled;
 }
 
-- (void);
+- (void),R,N,V_hasVoiceCommandInExhaustiveParses;
+- (id)validateBnnsIr: /* Error: Ran out of types for this method. */;
+- (void)ng",C,N,V_previousMessageLanguage;
 - (id);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool)1;
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
-- (void);
+- (id);
+- (void)A(;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

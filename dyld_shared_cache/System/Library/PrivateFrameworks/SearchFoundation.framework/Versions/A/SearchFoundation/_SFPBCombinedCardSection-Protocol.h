@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor;
+@class NSArray, NSData, _SFPBColor;
 
 @protocol _SFPBCombinedCardSection
-- (int);
+- (void);
+- (void)b;
+- (_Bool)er: /* Error: Ran out of types for this method. */;
+- (_Bool)getMessageEntryWithIdentifier:bundleIdentifier:completion: /* Error: Ran out of types for this method. */;
+- (void)_createQueuePlayerIfNecessaryForStateDescriptor:(_SFPBColor *)arg1;
+- (NSData *)PHAssetCreationDateProperties;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor;
-@property(nonatomic) _Bool canBeHidden;
-@property(copy, nonatomic) NSArray *cardSections;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(nonatomic) int separatorStyle;
-@property(copy, nonatomic) NSString *type;
 @end
 

@@ -20,11 +20,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)ContactCardBackdropGroupContainerModifier;
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (unsigned long long);

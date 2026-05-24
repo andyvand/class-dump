@@ -7,8 +7,6 @@
 @interface SwiftUI.RemoteScenes.SessionController
 {
     id remoteSession;
-    id observers;
-    id commonVersion;
 }
 
 @end

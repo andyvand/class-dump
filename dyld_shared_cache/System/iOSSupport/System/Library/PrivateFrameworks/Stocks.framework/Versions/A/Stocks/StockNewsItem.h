@@ -4,44 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSURL;
+@class NSString;
 
 @interface StockNewsItem
 {
     NSString *_headline;
-    NSString *_summary;
-    NSString *_source;
-    NSDate *_date;
-    NSURL *_link;
-    NSString *_localizedDateString;
 }
 
 + (id);
-- (id);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id);
+- (long long)l;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
+- (void)n;
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)domainWithName: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *date; // @synthesize date=_date;
 @property(retain, nonatomic) NSString *headline; // @synthesize headline=_headline;
-@property(retain, nonatomic) NSURL *link; // @synthesize link=_link;
-@property(readonly, retain, nonatomic) NSString *localizedDateString;
-@property(retain, nonatomic) NSString *source; // @synthesize source=_source;
-@property(retain, nonatomic) NSString *summary; // @synthesize summary=_summary;
 
 @end
 

@@ -4,68 +4,48 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFSQLColumnSchema, NSArray, NSHashTable, NSMutableArray, NSMutableDictionary, NSSet, NSString;
+@class NSMutableArray, NSString;
 
 @interface EFSQLTableSchema
 {
     NSMutableArray *_columns;
-    NSMutableDictionary *_columnsByName;
-    NSMutableArray *_uniquenessConstraints;
-    NSMutableArray *_checkConstraints;
-    NSHashTable *_foreignKeyReferences;
-    NSHashTable *_associatedColumns;
-    NSMutableArray *_indexes;
-    NSArray *_primaryKeyColumns;
-    NSString *_name;
-    NSString *_rowIDColumnName;
-    unsigned long long _primaryKeyConflictResolution;
 }
 
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)o decode version metadata:(id)arg1 %d;
 - (id);
 - (id);
 - (id);
 - (void);
+- (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id)updateWindowsWithEvent: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)dataWithContentsOfURL:options:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id);
+- (id)isconnection without server from peripheral:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSSet *associatedColumns;
-@property(readonly, copy, nonatomic) NSArray *checkConstraints;
-@property(readonly, copy, nonatomic) NSArray *columns;
-@property(readonly, copy, nonatomic) NSSet *foreignKeyReferences;
-@property(readonly, copy, nonatomic) NSArray *indexes;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy, nonatomic) NSArray *primaryKeyColumns; // @synthesize primaryKeyColumns=_primaryKeyColumns;
-@property(readonly, nonatomic) unsigned long long primaryKeyConflictResolution; // @synthesize primaryKeyConflictResolution=_primaryKeyConflictResolution;
-@property(readonly, nonatomic) EFSQLColumnSchema *rowIDColumn;
 @property(readonly, copy, nonatomic) NSString *rowIDColumnName; // @synthesize rowIDColumnName=_rowIDColumnName;
-@property(readonly, copy, nonatomic) NSArray *uniqueColumns;
 
 @end
 

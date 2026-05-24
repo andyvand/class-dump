@@ -10,35 +10,28 @@ __attribute__((visibility("hidden")))
 @interface DRSProtoDecisionResult
 {
     NSString *_rejectionReason;
-    _Bool _accepted;
-    struct {
-        unsigned int accepted:1;
-    } _has;
 }
 
 - (void);
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)z;
 - (_Bool);
-- (void);
+- (void)hasEventQueryParameterName;
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)@;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)P;
 
 // Remaining properties
-@property(nonatomic) _Bool accepted; // @synthesize accepted=_accepted;
 @property(nonatomic) _Bool hasAccepted;
-@property(readonly, nonatomic) _Bool hasRejectionReason;
-@property(retain, nonatomic) NSString *rejectionReason; // @synthesize rejectionReason=_rejectionReason;
 
 @end
 

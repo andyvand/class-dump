@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString;
+@class NSImage;
 
 __attribute__((visibility("hidden")))
 @interface NSTouchBarColorPickerSwitcherItem
 {
     NSImage *_image;
-    NSString *_label;
 }
 
-+ (id);
++ (id)%@ code %ld token %@ flag %lu;
 - (void);
 - (void);
 - (id);
@@ -22,7 +21,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy) NSImage *image; // @synthesize image=_image;
-@property(copy) NSString *label; // @synthesize label=_label;
 
 @end
 

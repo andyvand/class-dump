@@ -10,11 +10,13 @@
 
 @optional
 - (void);
-- (void)yAtIndex:(UIScene *)arg1;
-- (NSUserActivity *)thTintColor:(UIScene *)arg1;
-- (void)ngDecorationViewsForSession;
+- (void)isVibrant;
+- (void);
+- (void)keyAtIndex:(UIScene *)arg1;
+- (NSUserActivity *)imageWithTintColor:(UIScene *)arg1;
+- (void)_allProofreadingDecorationViewsForSession;
 - (void)ndingPathBitmapData decodeBitmapDataWithCoder(NSCoder *__strong);
-- (void)Xwz_Xx;
+- (void)SgXwz_Xx;
 - (void)ÒÊ;
 @end
 

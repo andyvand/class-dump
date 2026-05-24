@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface CSAlarmMonitor
 {
     long long _alarmFiringState;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
-+ (id)tener;
++ (id)_listener;
 - (void);
 - (long long);
 - (id);
 - (void);
 - (void);
-- (void)pe;
+- (void)_uSelectedPhraseType;
 
 @end
 

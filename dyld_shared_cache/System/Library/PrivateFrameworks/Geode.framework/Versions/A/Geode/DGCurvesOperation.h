@@ -6,27 +6,14 @@
 
 #import <Geode/DGOperation.h>
 
-@class NSArray, NSData, NSNumber, NSString;
+@class NSData, NSNumber;
 
 @interface DGCurvesOperation : DGOperation
 {
     NSData *_inputRGBData;
-    NSData *_inputRedData;
-    NSData *_inputGreenData;
-    NSData *_inputBlueData;
-    NSNumber *_inputGrayChoice;
-    NSArray *_rgbCurvePoints;
-    NSArray *_redCurvePoints;
-    NSArray *_blueCurvePoints;
-    NSArray *_greenCurvePoints;
-    float _rgbValues[512];
-    float _redValues[512];
-    float _greenValues[512];
-    float _blueValues[512];
-    double _gamma;
 }
 
-+ (_Bool);
++ (_Bool);
 + (id);
 + (id);
 + (id);
@@ -69,7 +56,7 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (long long);
 - (id);
@@ -90,26 +77,14 @@
 - (id);
 - (void);
 - (double);
-- (id);
+- (id)P;
 - (void);
 - (float *);
 - (void);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *RGBCurvePoints;
-@property(copy, nonatomic) NSArray *blueCurvePoints;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double gamma; // @synthesize gamma=_gamma;
-@property(copy, nonatomic) NSArray *greenCurvePoints;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSNumber *inputGrayChoice; // @synthesize inputGrayChoice=_inputGrayChoice;
-@property(copy, nonatomic) NSArray *redCurvePoints;
-@property(readonly) Class superclass;
 
 @end
 

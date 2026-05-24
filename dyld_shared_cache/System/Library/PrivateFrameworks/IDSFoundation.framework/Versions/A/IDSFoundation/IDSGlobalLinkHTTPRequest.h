@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface IDSGlobalLinkHTTPRequest
 {
     NSString *_requestID;
-    NSString *_method;
-    NSString *_path;
-    NSData *_body;
 }
 
 - (id);
@@ -23,9 +20,6 @@
 - (void)tThreadAddBlockAfter kevent errno %d;
 
 // Remaining properties
-@property(readonly) NSData *body; // @synthesize body=_body;
-@property(readonly) NSString *method; // @synthesize method=_method;
-@property(readonly) NSString *path; // @synthesize path=_path;
 @property(readonly) NSString *requestID; // @synthesize requestID=_requestID;
 
 @end

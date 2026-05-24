@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CXHandle, NSDate, NSString, NSURL, NSUUID;
-
 @interface CXVoicemailUpdate
 {
     _Bool _played;
-    _Bool _trashed;
-    struct CXVoicemailUpdateHasSet _hasSet;
-    NSUUID *_voicemailUUID;
-    CXHandle *_sender;
-    NSDate *_dateReceived;
-    NSURL *_audioFileURL;
-    NSUUID *_UUID;
 }
 
 + (_Bool);
@@ -33,34 +24,20 @@
 - (void);
 - (id);
 - (void);
+- (id)P;
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)ayGetSubscriptionStatus() - error=%{public}@;
+- (void)storeExtendedLyricsAttribute;
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (void);
+- (id)attempt):%@ /* Error: Ran out of types for this method. */;
+- (void)desiredLanguageTags;
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(copy, nonatomic) NSURL *audioFileURL; // @synthesize audioFileURL=_audioFileURL;
-@property(copy, nonatomic) NSDate *dateReceived; // @synthesize dateReceived=_dateReceived;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) struct CXVoicemailUpdateHasSet hasSet; // @synthesize hasSet=_hasSet;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isPlayed) _Bool played; // @synthesize played=_played;
-@property(copy, nonatomic) CXHandle *sender; // @synthesize sender=_sender;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=isTrashed) _Bool trashed; // @synthesize trashed=_trashed;
-@property(readonly, copy, nonatomic) NSUUID *voicemailUUID; // @synthesize voicemailUUID=_voicemailUUID;
 
 @end
 

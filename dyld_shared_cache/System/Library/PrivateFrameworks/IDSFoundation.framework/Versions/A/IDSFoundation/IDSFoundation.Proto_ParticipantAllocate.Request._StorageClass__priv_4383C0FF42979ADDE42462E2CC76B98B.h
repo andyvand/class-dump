@@ -7,13 +7,6 @@
 @interface IDSFoundation.Proto_ParticipantAllocate.Request._StorageClass__priv_4383C0FF42979ADDE42462E2CC76B98B
 {
     id _uuid;
-    id _serverIp;
-    id _serverPort;
-    id _connectionParameters;
-    id _sessionParameters;
-    id _materials;
-    id _pqGroupEpochs;
-    id _sdp;
 }
 
 @end

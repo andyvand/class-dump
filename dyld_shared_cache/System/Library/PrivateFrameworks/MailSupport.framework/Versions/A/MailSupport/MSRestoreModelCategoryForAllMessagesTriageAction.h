@@ -17,7 +17,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)URL? %@, hasTXT? %@, resolving? %@, secure? %@, from? %@ ) };
 
 // Remaining properties
 @property(retain, nonatomic) EMMessageRepository *messageRepository; // @synthesize messageRepository=_messageRepository;

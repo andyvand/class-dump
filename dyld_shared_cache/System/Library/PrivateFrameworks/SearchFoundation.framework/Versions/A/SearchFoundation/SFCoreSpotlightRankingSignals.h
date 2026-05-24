@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSNumber, NSString;
+@class NSNumber;
 
 @interface SFCoreSpotlightRankingSignals
 {
@@ -18,22 +18,6 @@
         unsigned int embeddingStatus:1;
         unsigned int itemAgeInDays:1;
     } _has;
-    _Bool _wasNominatedAsTopHit;
-    _Bool _isExactMatchOfLaunchString;
-    _Bool _wasEngagedInSpotlight;
-    _Bool _isSemanticMatch;
-    _Bool _isSyntacticMatch;
-    int _resultQueryRecency;
-    int _embeddingStatus;
-    NSNumber *_topicalityScore;
-    NSNumber *_freshness;
-    NSNumber *_engagementScore;
-    NSNumber *_predictedLikelihoodOfEngagement;
-    NSNumber *_sodiumL2Score;
-    NSNumber *_pommesL2Score;
-    NSNumber *_semanticScore;
-    NSNumber *_syntacticScore;
-    unsigned long long _itemAgeInDays;
 }
 
 + (_Bool);
@@ -45,14 +29,14 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)~@;
 - (void);
 - (void);
 - (void);
@@ -76,43 +60,19 @@
 - (id);
 - (id);
 - (int);
-- (id);
+- (id)requestStoreItemMetadataForReason:(id)arg1 withItemIdentifiers:responseHandler: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
-- (id);
+- (void)topic;
+- (id)c}@.;
+- (id)Size=dd}16q32{CGRect={CGPoint=dd}{CGSize=dd}}40;
 - (id);
 - (id);
 - (id);
 - (void)atchInRecipients;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) int embeddingStatus; // @synthesize embeddingStatus=_embeddingStatus;
-@property(copy, nonatomic) NSNumber *engagementScore; // @synthesize engagementScore=_engagementScore;
-@property(copy, nonatomic) NSNumber *freshness; // @synthesize freshness=_freshness;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isExactMatchOfLaunchString; // @synthesize isExactMatchOfLaunchString=_isExactMatchOfLaunchString;
-@property(nonatomic) _Bool isSemanticMatch; // @synthesize isSemanticMatch=_isSemanticMatch;
-@property(nonatomic) _Bool isSyntacticMatch; // @synthesize isSyntacticMatch=_isSyntacticMatch;
-@property(nonatomic) unsigned long long itemAgeInDays; // @synthesize itemAgeInDays=_itemAgeInDays;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSNumber *pommesL2Score; // @synthesize pommesL2Score=_pommesL2Score;
-@property(copy, nonatomic) NSNumber *predictedLikelihoodOfEngagement; // @synthesize predictedLikelihoodOfEngagement=_predictedLikelihoodOfEngagement;
-@property(nonatomic) int resultQueryRecency; // @synthesize resultQueryRecency=_resultQueryRecency;
-@property(copy, nonatomic) NSNumber *semanticScore; // @synthesize semanticScore=_semanticScore;
-@property(copy, nonatomic) NSNumber *sodiumL2Score; // @synthesize sodiumL2Score=_sodiumL2Score;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSNumber *syntacticScore; // @synthesize syntacticScore=_syntacticScore;
 @property(copy, nonatomic) NSNumber *topicalityScore; // @synthesize topicalityScore=_topicalityScore;
-@property(nonatomic) _Bool wasEngagedInSpotlight; // @synthesize wasEngagedInSpotlight=_wasEngagedInSpotlight;
-@property(nonatomic) _Bool wasNominatedAsTopHit; // @synthesize wasNominatedAsTopHit=_wasNominatedAsTopHit;
 
 @end
 

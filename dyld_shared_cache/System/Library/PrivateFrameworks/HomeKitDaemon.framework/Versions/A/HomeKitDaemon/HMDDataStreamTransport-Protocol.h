@@ -7,7 +7,7 @@
 @protocol HMDDataStreamTransportDelegate;
 
 @protocol HMDDataStreamTransport
-- (void)NotificationServiceGroupUpdatedSaveReason;
+- (void)HMDBulletinBoardNotificationServiceGroupUpdatedSaveReason;
 
 // Remaining properties
 @property(nonatomic) __weak id <HMDDataStreamTransportDelegate> delegate;

@@ -6,31 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class NETSchemaNETClientEventMetadata, NETSchemaNETDebugNetworkConnectionStatePreparationSnapshotCaptured, NETSchemaNETDebugNetworkConnectionStateReadySnapshotCaptured, NETSchemaNETDebugSessionConnectionSnapshotCaptured, NETSchemaNETNetworkConnectionStatePreparationSnapshotCaptured, NETSchemaNETNetworkConnectionStateReadySnapshotCaptured, NETSchemaNETPeerConnectionFailed, NETSchemaNETSessionConnectionFailed, NETSchemaNETSessionConnectionHttpHeaderCreated, NETSchemaNETSessionConnectionSnapshotCaptured, NSData, SISchemaInstrumentationMessage;
+@class NETSchemaNETClientEventMetadata, SISchemaInstrumentationMessage;
 
 @interface NETSchemaNETClientEvent : SISchemaTopLevelUnionType
 {
     NETSchemaNETClientEventMetadata *_eventMetadata;
-    NETSchemaNETSessionConnectionHttpHeaderCreated *_sessionConnectionHttpHeaderCreated;
-    NETSchemaNETSessionConnectionSnapshotCaptured *_sessionConnectionSnapshotCaptured;
-    NETSchemaNETDebugSessionConnectionSnapshotCaptured *_debugSessionConnectionSnapshotCaptured;
-    NETSchemaNETSessionConnectionFailed *_sessionConnectionFailed;
-    NETSchemaNETPeerConnectionFailed *_peerConnectionFailed;
-    NETSchemaNETNetworkConnectionStatePreparationSnapshotCaptured *_networkConnectionStatePreparationSnapshotCaptured;
-    NETSchemaNETDebugNetworkConnectionStatePreparationSnapshotCaptured *_debugNetworkConnectionStatePreparationSnapshotCaptured;
-    NETSchemaNETNetworkConnectionStateReadySnapshotCaptured *_networkConnectionStateReadySnapshotCaptured;
-    NETSchemaNETDebugNetworkConnectionStateReadySnapshotCaptured *_debugNetworkConnectionStateReadySnapshotCaptured;
-    _Bool _hasEventMetadata;
-    _Bool _hasSessionConnectionHttpHeaderCreated;
-    _Bool _hasSessionConnectionSnapshotCaptured;
-    _Bool _hasDebugSessionConnectionSnapshotCaptured;
-    _Bool _hasSessionConnectionFailed;
-    _Bool _hasPeerConnectionFailed;
-    _Bool _hasNetworkConnectionStatePreparationSnapshotCaptured;
-    _Bool _hasDebugNetworkConnectionStatePreparationSnapshotCaptured;
-    _Bool _hasNetworkConnectionStateReadySnapshotCaptured;
-    _Bool _hasDebugNetworkConnectionStateReadySnapshotCaptured;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
@@ -85,50 +65,28 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)_loadingView;
 - (void);
 - (id);
 - (id);
 - (int);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)`;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)!s°!ÌDùßÐ1Â0@ù
 × ;
-- (id)eAppUsedFromSiriInSec: /* Error: Ran out of types for this method. */;
-- (unsigned long long)awnTimestampInNs;
+- (id)setHasTimeSinceAppUsedFromSiriInSec: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_assistantDaemonSpawnTimestampInNs;
 - (id)wKeyboardUsageMetadata;
-- (id)deIntoSamplePopulation;
-- (int)ntRecordPublishTimestampMs;
+- (id)hasOverrideIntoSamplePopulation;
+- (int)assistantRecordPublishTimestampMs;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NETSchemaNETDebugNetworkConnectionStatePreparationSnapshotCaptured *debugNetworkConnectionStatePreparationSnapshotCaptured; // @synthesize debugNetworkConnectionStatePreparationSnapshotCaptured=_debugNetworkConnectionStatePreparationSnapshotCaptured;
-@property(retain, nonatomic) NETSchemaNETDebugNetworkConnectionStateReadySnapshotCaptured *debugNetworkConnectionStateReadySnapshotCaptured; // @synthesize debugNetworkConnectionStateReadySnapshotCaptured=_debugNetworkConnectionStateReadySnapshotCaptured;
-@property(retain, nonatomic) NETSchemaNETDebugSessionConnectionSnapshotCaptured *debugSessionConnectionSnapshotCaptured; // @synthesize debugSessionConnectionSnapshotCaptured=_debugSessionConnectionSnapshotCaptured;
-@property(retain, nonatomic) NETSchemaNETClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasDebugNetworkConnectionStatePreparationSnapshotCaptured; // @synthesize hasDebugNetworkConnectionStatePreparationSnapshotCaptured=_hasDebugNetworkConnectionStatePreparationSnapshotCaptured;
-@property(nonatomic) _Bool hasDebugNetworkConnectionStateReadySnapshotCaptured; // @synthesize hasDebugNetworkConnectionStateReadySnapshotCaptured=_hasDebugNetworkConnectionStateReadySnapshotCaptured;
-@property(nonatomic) _Bool hasDebugSessionConnectionSnapshotCaptured; // @synthesize hasDebugSessionConnectionSnapshotCaptured=_hasDebugSessionConnectionSnapshotCaptured;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasNetworkConnectionStatePreparationSnapshotCaptured; // @synthesize hasNetworkConnectionStatePreparationSnapshotCaptured=_hasNetworkConnectionStatePreparationSnapshotCaptured;
-@property(nonatomic) _Bool hasNetworkConnectionStateReadySnapshotCaptured; // @synthesize hasNetworkConnectionStateReadySnapshotCaptured=_hasNetworkConnectionStateReadySnapshotCaptured;
-@property(nonatomic) _Bool hasPeerConnectionFailed; // @synthesize hasPeerConnectionFailed=_hasPeerConnectionFailed;
-@property(nonatomic) _Bool hasSessionConnectionFailed; // @synthesize hasSessionConnectionFailed=_hasSessionConnectionFailed;
-@property(nonatomic) _Bool hasSessionConnectionHttpHeaderCreated; // @synthesize hasSessionConnectionHttpHeaderCreated=_hasSessionConnectionHttpHeaderCreated;
-@property(nonatomic) _Bool hasSessionConnectionSnapshotCaptured; // @synthesize hasSessionConnectionSnapshotCaptured=_hasSessionConnectionSnapshotCaptured;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) NETSchemaNETNetworkConnectionStatePreparationSnapshotCaptured *networkConnectionStatePreparationSnapshotCaptured; // @synthesize networkConnectionStatePreparationSnapshotCaptured=_networkConnectionStatePreparationSnapshotCaptured;
-@property(retain, nonatomic) NETSchemaNETNetworkConnectionStateReadySnapshotCaptured *networkConnectionStateReadySnapshotCaptured; // @synthesize networkConnectionStateReadySnapshotCaptured=_networkConnectionStateReadySnapshotCaptured;
-@property(retain, nonatomic) NETSchemaNETPeerConnectionFailed *peerConnectionFailed; // @synthesize peerConnectionFailed=_peerConnectionFailed;
-@property(retain, nonatomic) NETSchemaNETSessionConnectionFailed *sessionConnectionFailed; // @synthesize sessionConnectionFailed=_sessionConnectionFailed;
-@property(retain, nonatomic) NETSchemaNETSessionConnectionHttpHeaderCreated *sessionConnectionHttpHeaderCreated; // @synthesize sessionConnectionHttpHeaderCreated=_sessionConnectionHttpHeaderCreated;
-@property(retain, nonatomic) NETSchemaNETSessionConnectionSnapshotCaptured *sessionConnectionSnapshotCaptured; // @synthesize sessionConnectionSnapshotCaptured=_sessionConnectionSnapshotCaptured;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

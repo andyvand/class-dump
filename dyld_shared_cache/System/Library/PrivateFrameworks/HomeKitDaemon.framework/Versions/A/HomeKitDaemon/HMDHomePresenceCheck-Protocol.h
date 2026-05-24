@@ -5,9 +5,9 @@
 //
 
 @protocol HMDHomePresenceCheck
+- (_Bool));
 
 // Remaining properties
-@property(readonly, getter=isAnyUserAtHome) _Bool anyUserAtHome;
 @property(readonly, getter=isNoUserAtHome) _Bool noUserAtHome;
 @end
 

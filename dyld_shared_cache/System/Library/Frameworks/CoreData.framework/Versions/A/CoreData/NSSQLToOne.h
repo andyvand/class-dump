@@ -6,25 +6,22 @@
 
 #import <CoreData/NSSQLRelationship.h>
 
-@class NSSQLForeignEntityKey, NSSQLForeignKey, NSSQLForeignOrderKey;
+@class NSSQLForeignKey;
 
 __attribute__((visibility("hidden")))
 @interface NSSQLToOne : NSSQLRelationship
 {
     NSSQLForeignKey *_foreignKey;
-    NSSQLForeignEntityKey *_foreignEntityKey;
-    NSSQLForeignOrderKey *_foreignOrderKey;
-    _Bool _isVirtual;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)a;
+- (id).+";
 - (id);
-- (id);
-- (id);
+- (id)"NSString",R,C,N,V_sourceEnvironment;
 - (void);
 - (unsigned int)PropertyValues:NO;  /* Error: Ran out of types for this method. */;
 

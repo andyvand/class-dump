@@ -16,7 +16,7 @@
 + (id);
 - (void);
 - (id);
-- (id);
+- (id): /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties

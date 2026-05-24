@@ -9,23 +9,20 @@
 @interface PGGraphIngestRecipe
 {
     PHPhotoLibrary *_photoLibrary;
-    NSArray *_momentsToIngest;
-    NSArray *_highlightsToIngest;
 }
 
+- (id)fontWithDescriptor:(id)arg1 size: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)`B;
 - (id);
 - (void)pNodeCollection"16^B24;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *highlightsToIngest; // @synthesize highlightsToIngest=_highlightsToIngest;
 @property(readonly, nonatomic) NSArray *momentsToIngest; // @synthesize momentsToIngest=_momentsToIngest;
 
 @end

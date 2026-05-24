@@ -4,25 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, RTIInputSystemSourceSession, UIColor, UITextInteractionAssistant, UITextRange, UIView;
+@class NSArray, NSAttributedString, UIColor, UITextInteractionAssistant, UITextRange, UIView;
 @protocol UISelectionInteractionAssistant, UITextInputSuggestionDelegate;
 
 @protocol UITextInputPrivate
+- (struct _NSRange);
+- (_Bool)setRadioStationStringID: /* Error: Ran out of types for this method. */;
 - (_Bool)rdArbiterClientInputDestination removeWindowHostingPID:callerID:]  nil callerID /* Error: Ran out of types for this method. */;
 - (void)43ÜX;
 
 @optional
+- (UITextInteractionAssistant *);
+- (_Bool)startUpdatingFriendsWithInitialUpdates:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)shouldInferRecoverableDeleteForCommandDictionary: /* Error: Ran out of types for this method. */;
+- (_Bool)serializedError_im;
+- (SEL)groupTitleChangeProtobufForCompressedData: /* Error: Ran out of types for this method. */;
+- (void)conversationManager:(UITextRange *)arg1 letMeInRequestStateChangedForConversation:(NSAttributedString *)arg2 fromOldConversation:(long long)arg3;
+- (UITextRange *)autoLoginActiveAccountsIfNecessary;
+- (UIView *)autoBugCaptureWithSubType:errorPayload: /* Error: Ran out of types for this method. */;
+- (_Bool)tableDictionary",&,N,V_taskGroupedByServiceName;
+- (_Bool)requestHandlers;
+- (void)myV1ReadReceiptsReceivedDuringStorageWithQOI;
+- (void)replaceReports:(UITextRange *)arg1;
+- (void)MessageIDs;
+- (void)y",&,N,V_pendingNicknameUpdates;
+- (double)@;
+- (_Bool)8;
+- (void);
+- (void)Dictionary",&,N,V_loadingContexts;
 - (UITextRange *)!;
 - (void)0@ù
 × ;
 - (UIView *)APoint3D=ddd}24@48;
 - (void)ITextFormattingViewController"16@"UIColorPickerViewController"24;
 - (long long)setMaximumTemporaryZoomScale: /* Error: Ran out of types for this method. */;
-- (struct CGRect)AppliedInCurrentContext;
-- (_Bool)ColorNames;
-- (void)dsToParentScroller;
+- (struct CGRect)m_doubleSpacePeriodWasAppliedInCurrentContext;
+- (_Bool)apiColorNames;
+- (void)_forwardsToParentScroller;
 - (void)inDuration;
-- (void)ationInteractionDelegate;
+- (void)_UIScrollPocketRegistrationInteractionDelegate;
 - (UIColor *)ntroller is used within a UIDocumentViewControllerLaunchOptions context. Browser view controller:%@ /* Error: Ran out of types for this method. */;
 - (UITextRange *)headlineRegular;
 - (void)tiveImpl _prepareModelNavigationViewControllerInColumn:(UITextRange *)arg1 ];
@@ -30,7 +50,6 @@
 - (id <UITextInputSuggestionDelegate>)l navigation bar button item. Please use the rightBarButtonItems (that's plural) property.;
 - (void);
 - (NSArray *)Ä+;
-- (UITextInteractionAssistant *);
 - (void)tþ;
 - (id <UISelectionInteractionAssistant>)[;
 - (_Bool)ý7;
@@ -38,42 +57,6 @@
 - (void)­\;
 
 // Remaining properties
-@property(readonly, nonatomic) RTIInputSystemSourceSession *_rtiSourceSession;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"RTIInputSystemSourceSession",?,R,N
-
-@property(nonatomic) _Bool _systemCursorAccessoriesDisabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) long long _textInputSource;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) _Bool automaticallyAdjustsWritingDirection;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(readonly, nonatomic) long long cursorBehavior;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
 @property(readonly, nonatomic) UITextInteractionAssistant *interactionAssistant;
-@property(nonatomic) long long selectionGranularity;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(readonly, nonatomic) _Bool supportsEmojiImageTextAttachments;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool supportsImagePaste;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) id <UITextInputSuggestionDelegate> textInputSuggestionDelegate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<UITextInputSuggestionDelegate>",?,R,N
-
 @end
 

@@ -4,31 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSObject;
-@protocol AFAnnouncementRequestCapabilityProviding, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface AFSiriAnnouncementRequestCapabilityManager
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSHashTable *_observers;
-    id <AFAnnouncementRequestCapabilityProviding> _capabilityProvider;
-    long long _platform;
 }
 
-+ (_Bool);
++ (_Bool)ymentSession"8@"NSError"16;
 + (id);
 + (long long);
 + (Class);
 + (id);
 + (id);
 + (id);
+- (void)businessChatTargetDialog;
 - (void);
-- (void);
-- (void);
+- (void)didEndScrollInScrollView:(id)arg1;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)?#;
 - (void)V_fireTimeInterval;
 
 @end

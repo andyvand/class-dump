@@ -6,16 +6,14 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSString;
-
 @interface INSetLabeledSettingIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)y"@"NSError">24;
++ (int)placeholder;
++ (long long)makeAdditionFromStagingURL:(int)arg1 metadata:(int)arg2 inStorage:(_Bool)arg3 error: /* Error: Ran out of types for this method. */;
++ (_Bool)initWithVersionedFileIdentifier:(long long)arg1 size:scale:iconMode:flavor:wantsBaseline:minimumDimension:requestedTypes: /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (id);
 - (void);
@@ -28,26 +26,16 @@
 - (void);
 - (void);
 - (id);
+- (id)sendHapticsErrorRaisedEventFromSource:(id)arg1 productCategory:errorType: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)d to remove sub-dir %@ with error:(id)arg1 %@;
 - (id);
 - (id);
 - (long long)_intentMetadata;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSString *errorDetail;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *oldValue;
-@property(readonly) Class superclass;
-@property(copy) NSString *updatedValue;
 
 @end
 

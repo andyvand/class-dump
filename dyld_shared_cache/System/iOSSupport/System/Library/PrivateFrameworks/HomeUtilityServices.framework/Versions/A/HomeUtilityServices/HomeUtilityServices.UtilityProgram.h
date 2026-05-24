@@ -10,7 +10,6 @@
 {
     void programID;
     void programDescription;
-    void enrollmentStatus;
 }
 
 - (id);
@@ -21,7 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *enrollmentStatus;
 @property(nonatomic, readonly) NSString *programDescription;
 @property(nonatomic, readonly) NSString *programID;
 

@@ -4,47 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSSockAddrWrapper, NSDictionary, NSIndexSet, NSString;
-@protocol IDSLinkDelegate;
-
 @interface IDSUDPLink
 {
     int _socket;
-    int _cellularSocket;
-    int _addressFamily;
-    IDSSockAddrWrapper *_localAddress;
-    IDSSockAddrWrapper *_destinationAddress;
-    _Bool _hasFixedDestination;
-    NSDictionary *_destinationAddressToDeviceIDMap;
-    unsigned short _port;
-    unsigned short _cellularPort;
-    _Bool _wantsAWDL;
-    _Bool _wantsWiFi;
-    _Bool _wantsCellular;
-    _Bool _useDefaultInterfaceOnly;
-    _Bool _allowsLinkLocal;
-    _Bool _skipTransportThread;
-    _Bool _needToConnect;
-    _Bool _hasTemporaryError;
-    _Bool _isInvalidated;
-    double _lastDestinationSent;
-    double _lastDestinationReceived;
-    unsigned long long _state;
-    unsigned long long _totalBytesSent;
-    unsigned long long _totalPacketsSent;
-    unsigned long long _totalBytesReceived;
-    unsigned long long _totalPacketsReceived;
-    unsigned long long _previousBytesSent;
-    unsigned long long _previousPacketsSent;
-    unsigned long long _previousBytesReceived;
-    unsigned long long _previousPacketsReceived;
-    double _previousReportTime;
-    NSString *_cbuuid;
-    NSString *_deviceUniqueID;
-    id <IDSLinkDelegate> _delegate;
-    id <IDSLinkDelegate> _alternateDelegate;
-    NSIndexSet *_cellularInterfaceIndices;
-    _Bool _wifiAssistEnabled;
 }
 
 - (_Bool);
@@ -90,8 +52,8 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (_Bool);
-- (int);
+- (_Bool)';
+- (int);
 - (int);
 - (id);
 - (_Bool);
@@ -102,41 +64,16 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)nvoke;
 - (void);
-- (unsigned long long);
+- (unsigned long long)deleteMirrorKeys: /* Error: Ran out of types for this method. */;
 - (unsigned short);
 - (_Bool);
 - (void)d out after %d seconds.;
-- (void)ial_id;
+- (void)material_id;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsLinkLocal; // @synthesize allowsLinkLocal=_allowsLinkLocal;
-@property __weak id <IDSLinkDelegate> alternateDelegate; // @synthesize alternateDelegate=_alternateDelegate;
-@property(retain) NSString *cbuuid; // @synthesize cbuuid=_cbuuid;
-@property(retain, nonatomic) NSIndexSet *cellularInterfaceIndices; // @synthesize cellularInterfaceIndices=_cellularInterfaceIndices;
-@property(nonatomic) unsigned short cellularPort; // @synthesize cellularPort=_cellularPort;
-@property(readonly, nonatomic) int cellularSocket; // @synthesize cellularSocket=_cellularSocket;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <IDSLinkDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain) NSString *deviceUniqueID; // @synthesize deviceUniqueID=_deviceUniqueID;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long headerOverhead;
-@property(readonly, nonatomic) _Bool isInvalidated; // @synthesize isInvalidated=_isInvalidated;
-@property(readonly, nonatomic) double lastDestinationReceived; // @synthesize lastDestinationReceived=_lastDestinationReceived;
-@property(nonatomic) double lastDestinationSent; // @synthesize lastDestinationSent=_lastDestinationSent;
-@property(readonly, getter=linkTypeString) NSString *linkTypeString;
 @property(nonatomic) unsigned short port; // @synthesize port=_port;
-@property(nonatomic) _Bool skipTransportThread; // @synthesize skipTransportThread=_skipTransportThread;
-@property(readonly, nonatomic) int socket; // @synthesize socket=_socket;
-@property(readonly) unsigned long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool useDefaultInterfaceOnly; // @synthesize useDefaultInterfaceOnly=_useDefaultInterfaceOnly;
-@property(nonatomic) _Bool wifiAssistEnabled; // @synthesize wifiAssistEnabled=_wifiAssistEnabled;
 
 @end
 

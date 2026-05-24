@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDecimalNumber, NSString;
+@class NSDecimalNumber;
 
 @interface PKNumericSuggestion
 {
     _Bool _usedMaximumSuggestion;
-    NSDecimalNumber *_value;
-    NSString *_currencyCode;
-    NSString *_title;
-    NSString *_displayValue;
 }
 
 + (id);
@@ -27,20 +23,16 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)setCsaToDfsChannel:(id)arg1;
+- (void)tcpECNIntOnTotalTxPkts;
 - (void);
-- (void);
+- (id)Th;
 - (id);
-- (id);
-- (id)tureIdentifiersWithPaymentWebService: /* Error: Ran out of types for this method. */;
-- (id)OfferWebServiceMerchandisingResponse;
+- (id)supportedFeatureIdentifiersWithPaymentWebService: /* Error: Ran out of types for this method. */;
+- (id)PKPaymentOfferWebServiceMerchandisingResponse;
 - (void)range (0-%lu).;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
-@property(copy, nonatomic) NSString *displayValue; // @synthesize displayValue=_displayValue;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(nonatomic) _Bool usedMaximumSuggestion; // @synthesize usedMaximumSuggestion=_usedMaximumSuggestion;
 @property(readonly, copy, nonatomic) NSDecimalNumber *value; // @synthesize value=_value;
 
 @end

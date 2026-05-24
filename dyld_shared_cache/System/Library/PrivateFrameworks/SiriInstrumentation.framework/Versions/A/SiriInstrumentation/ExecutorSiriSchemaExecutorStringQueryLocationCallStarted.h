@@ -6,24 +6,21 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ExecutorSiriSchemaExecutorStringQueryLocationCallStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
-- (id);
-- (void);
-- (void);
+- (id)description;
+- (void)PKCS12_verify_mac;
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)pe"b1"contextMatcherSpanCount"b1};
-- (id)emaDocumentAttributes;
+- (id)STSchemaDocumentAttributes;
 - (id)ðð;
 - (_Bool)dÏÿþ¸²Ä[#;
 - (_Bool) ÿ;
@@ -31,8 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

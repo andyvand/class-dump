@@ -7,9 +7,6 @@
 @interface NewsFeed.FollowingManager
 {
     id notificationPrompter;
-    id subscriptionController;
-    id sceneProvider;
-    id featureAvailability;
 }
 
 @end

@@ -23,12 +23,9 @@
         } entry;
         unsigned long long time_added;
     } _listPriv;
-    unsigned long long _defaultHashTable[2048];
-    unsigned int _defaultHopInfo[2048];
-    unsigned long long _defaultUsedInfo[2048];
 }
 
-- (void);
+- (void)c;
 - (id);
 - (void);
 

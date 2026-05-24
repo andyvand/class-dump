@@ -13,7 +13,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (id)bservingView:(struct CGRect)arg1;
+- (id)_startObservingView:(struct CGRect)arg1;
 
 @end
 

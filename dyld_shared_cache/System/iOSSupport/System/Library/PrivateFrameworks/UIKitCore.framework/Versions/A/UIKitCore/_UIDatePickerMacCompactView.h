@@ -6,24 +6,12 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSMutableArray, NSString, UIDatePicker, UIFont, UITapGestureRecognizer, _UIDatePickerDataModel;
-@protocol UINSOverlayDatePicker, UINSShadowDatePicker;
+@class UITapGestureRecognizer;
 
 __attribute__((visibility("hidden")))
 @interface _UIDatePickerMacCompactView : UIView
 {
     _Bool _isShowingMacOverlay;
-    _UIDatePickerDataModel *_data;
-    UIDatePicker *_datePicker;
-    double _timeInterval;
-    UITapGestureRecognizer *_tapGestureRecognizer;
-    id <UINSOverlayDatePicker> _macOverlayDatePicker;
-    id <UINSShadowDatePicker> _shadowDatePicker;
-    NSMutableArray *_textFields;
-    UIFont *_font;
-    UIFont *_scaledFont;
-    struct CGSize _calculatedContentSize;
-    struct CGRect _textAreaRect;
 }
 
 - (unsigned long long);
@@ -39,40 +27,40 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)Item"16;
+- (void)SDictionary"32;
+- (void){?=[8I]}16@0:(_Bool)arg1 8;
+- (void)setSyncControllerSyncType:(struct CGSize)arg1;
+- (_Bool)sendReadReceiptForMessage:(long long)arg1 toChatID:identifier:style: /* Error: Ran out of types for this method. */;
+- (void)sendPlayedReceiptForMessage:(_Bool)arg1 toChatID:identifier:style:account: /* Error: Ran out of types for this method. */;
+- (id)respondToNotificationWithIdentifier:sessionIdentifier:actionIdentifier:completion: /* Error: Ran out of types for this method. */;
+- (struct CGRect)resolveChatConflictUsingSyncData:(struct CGRect)arg1 localGUID:(double)arg2;
+- (void)replicationRequiredForMessageBodyAttributeName:(id)arg1;
+- (void)generateUnusedChatIdentifierForGroupChatWithAccount:(id)arg1;
+- (id)editedMessagePartBody;
+- (void):(id)arg1 lastAddressedSIMID:handleInfo: /* Error: Ran out of types for this method. */;
+- (_Bool)conversationManager:localVideoToggledForConversation:fromOldConversation: /* Error: Ran out of types for this method. */;
+- (_Bool)cloudkitStateEnabledReturnedWithNotification:(long long)arg1;
+- (_Bool)_groupChatIdentifierToChatRoomMap;
+- (void)_createWrapperForTransfer:(id)arg1;
+- (long long),V_isFinished;
+- (void)y",&,N,V_personCentricGroupedChatsCache;
+- (void)informOfChangedGroupMembership:(_Bool)arg1;
+- (void)T@"NSString",R,&,N,V_outHTML;
+- (void)g",R,&,N,V_contentLocation;
+- (void)updateLastAddressedHandle:forceUpdateHandle:lastAddressedSIMID: /* Error: Ran out of types for this method. */;
+- (void)updateLastAddressedHandle:forceUpdateHandle:lastAddressedSIMID: /* Error: Ran out of types for this method. */;
+- (void)typingIndicator;
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (struct CGRect);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)version;
+- (void)rFallbackHash;
+- (_Bool)IMDRelayServiceReachabilityController;
+- (_Bool)IMDPhotosSyndicationLibraryChangeListener;
 - (struct CGSize);
 - (struct UIEdgeInsets);
 - (id);
-- (struct CGSize);
-- (void);
+- (struct CGSize);
+- (void)lt;
 - (long long);
 - (void);
 - (void);
@@ -87,9 +75,9 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (void);
 - (double);
-- (long long);
+- (long long)�;
 - (struct CGSize);
-- (id);
+- (id)_shadowDisabled;
 - (void);
 - (void);
 - (void);
@@ -97,15 +85,15 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 - (void)0@ù
 × ;
-- (id)Equivalent:modifierFlags: /* Error: Ran out of types for this method. */;
-- (_Bool)b: /* Error: Ran out of types for this method. */;
-- (struct CGSize)ulse;
-- (id)oRect:(struct CGRect)arg1 distanceMeasuringUnitPoint:itemFilter: /* Error: Ran out of types for this method. */;
+- (id)shortcutWithKeyEquivalent:modifierFlags: /* Error: Ran out of types for this method. */;
+- (_Bool)itemIndexForTab: /* Error: Ran out of types for this method. */;
+- (struct CGSize)_retargetImpulse;
+- (id)_closestFocusableItemToPoint:(struct CGRect)arg1 inEnvironment:constrainedToRect:distanceMeasuringUnitPoint:itemFilter: /* Error: Ran out of types for this method. */;
 - (_Bool)utedBackgroundViewAlpha;
 - (id)hQ¼Q@RW¼X@Y$b´b;
 - (id)nd mode:%d /* Error: Ran out of types for this method. */;
 - (void)@, %@) = (%@);
-- (void)anding;
+- (void)ForceDocumentViewControllerDocumentLanding;
 - (void)òÓTÞ\;
 - (double);
 - (id)ULÿ°SÝØñ_;
@@ -113,34 +101,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)DèHÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) struct UIEdgeInsets appliedInsetsToEdgeOfContent;
-@property(nonatomic) struct CGSize calculatedContentSize; // @synthesize calculatedContentSize=_calculatedContentSize;
-@property(readonly, nonatomic) double contentWidth;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(retain, nonatomic) _UIDatePickerDataModel *data; // @synthesize data=_data;
-@property(nonatomic) __weak UIDatePicker *datePicker; // @synthesize datePicker=_datePicker;
-@property(readonly, nonatomic) long long datePickerStyle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UIFont *font; // @synthesize font=_font;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isShowingMacOverlay; // @synthesize isShowingMacOverlay=_isShowingMacOverlay;
-@property(retain, nonatomic) id <UINSOverlayDatePicker> macOverlayDatePicker; // @synthesize macOverlayDatePicker=_macOverlayDatePicker;
-@property(retain, nonatomic) UIFont *scaledFont; // @synthesize scaledFont=_scaledFont;
-@property(retain, nonatomic) id <UINSShadowDatePicker> shadowDatePicker; // @synthesize shadowDatePicker=_shadowDatePicker;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) UITapGestureRecognizer *tapGestureRecognizer; // @synthesize tapGestureRecognizer=_tapGestureRecognizer;
-@property(nonatomic) struct CGRect textAreaRect; // @synthesize textAreaRect=_textAreaRect;
-@property(retain, nonatomic) NSMutableArray *textFields; // @synthesize textFields=_textFields;
-@property(nonatomic) double timeInterval; // @synthesize timeInterval=_timeInterval;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,N,V_timeInterval
-
 
 @end
 

@@ -6,33 +6,29 @@
 
 #import <CoreSpotlight/CSSearchQuery.h>
 
-@class CSSearchConnection, NSString;
+@class NSString;
 
 @interface CSUnhousedSearchQuery : CSSearchQuery
 {
     NSString *_resolvedIndexPath;
-    NSString *_indexPath;
-    CSSearchConnection *_savedConnection;
 }
 
 - (id);
+- (void)1;
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
+- (id)yq!;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain) NSString *indexPath; // @synthesize indexPath=_indexPath;
-@property(readonly) NSString *resolvedIndexPath;
-@property(retain) CSSearchConnection *savedConnection; // @synthesize savedConnection=_savedConnection;
 
 @end
 

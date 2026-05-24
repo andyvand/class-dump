@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface LPiTunesMediaOffer
 {
     _Bool _hasAudio;
-    _Bool _hasVideo;
-    NSURL *_previewURL;
-    NSString *_type;
 }
 
 + (id);
@@ -20,17 +17,14 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasAudio; // @synthesize hasAudio=_hasAudio;
-@property(readonly, nonatomic) _Bool hasVideo; // @synthesize hasVideo=_hasVideo;
 @property(readonly, copy, nonatomic) NSURL *previewURL; // @synthesize previewURL=_previewURL;
-@property(readonly, copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

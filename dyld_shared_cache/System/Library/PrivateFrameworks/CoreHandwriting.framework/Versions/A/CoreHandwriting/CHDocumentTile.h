@@ -4,51 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHTilePosition, NSArray, NSSet;
+@class CHTilePosition;
 
 @interface CHDocumentTile
 {
     double _scale;
-    struct CGPoint _origin;
-    unsigned long long _savedHash;
-    CHTilePosition *_tilePosition;
-    NSArray *_subtilePositions;
-    NSArray *_orderedStrokeIdentifiers;
-    NSSet *_contentStrokeIdentifiers;
-    NSSet *_overlapStrokeIdentifiers;
-    NSSet *_contextStrokeIdentifiers;
 }
 
-+ (_Bool);
++ (_Bool)_estimatedFileSize;
 - (id);
-- (id);
+- (id)J1;
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)",C,N,V_topicId;
+- (id)T;
 - (id);
 - (unsigned long long);
 - (double);
 - (id);
 - (_Bool);
-- (void);
-- (id);
+- (void)tasks;
+- (id);
 - (struct CGPoint);
 - (void)¤;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *contentStrokeIdentifiers; // @synthesize contentStrokeIdentifiers=_contentStrokeIdentifiers;
-@property(readonly, nonatomic) NSSet *contextStrokeIdentifiers; // @synthesize contextStrokeIdentifiers=_contextStrokeIdentifiers;
-@property(readonly, nonatomic) _Bool hasSubtiles;
-@property(readonly, nonatomic) NSArray *orderedStrokeIdentifiers; // @synthesize orderedStrokeIdentifiers=_orderedStrokeIdentifiers;
-@property(readonly, nonatomic) struct CGPoint origin; // @synthesize origin=_origin;
-@property(readonly, nonatomic) NSSet *overlapStrokeIdentifiers; // @synthesize overlapStrokeIdentifiers=_overlapStrokeIdentifiers;
-@property(readonly, nonatomic) double scale; // @synthesize scale=_scale;
-@property(readonly, nonatomic) NSArray *subtilePositions; // @synthesize subtilePositions=_subtilePositions;
 @property(readonly, nonatomic) CHTilePosition *tilePosition; // @synthesize tilePosition=_tilePosition;
 
 @end

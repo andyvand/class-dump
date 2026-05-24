@@ -5,5 +5,6 @@
 //
 
 @protocol PKPaletteHostViewDelegate
+- (void);
 @end
 

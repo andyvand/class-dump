@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRDeviceInfo, NSArray;
-@protocol MRCryptoPairingSessionDelegate;
+@class MRDeviceInfo;
 
 @interface MRCryptoPairingSession
 {
     MRDeviceInfo *_device;
-    unsigned long long _role;
-    id <MRCryptoPairingSessionDelegate> _delegate;
 }
 
 + (id);
@@ -23,11 +20,11 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)ard credentials;
 - (void);
-- (id);
+- (id)P;
 - (void);
-- (id);
+- (id)imagesForIdentifier:style: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
@@ -37,12 +34,7 @@
 - (_Bool)ãÿbÒ;
 
 // Remaining properties
-@property(nonatomic) __weak id <MRCryptoPairingSessionDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) MRDeviceInfo *device; // @synthesize device=_device;
-@property(readonly, nonatomic, getter=isPaired) _Bool paired;
-@property(readonly, nonatomic) NSArray *pairedDevices;
-@property(readonly, nonatomic) unsigned long long role; // @synthesize role=_role;
-@property(readonly, nonatomic, getter=isValid) _Bool valid;
 
 @end
 

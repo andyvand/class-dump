@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTRequestContentSpeechContent, IFTSchemaIFTRequestContentStopContent, IFTSchemaIFTRequestContentTextContent, IFTSchemaIFTSystemPromptResolution, NSData;
+@class IFTSchemaIFTRequestContentTextContent;
 
 @interface IFTSchemaIFTRequestContent : SISchemaInstrumentationMessage
 {
     IFTSchemaIFTRequestContentTextContent *_text;
-    IFTSchemaIFTRequestContentSpeechContent *_speech;
-    IFTSchemaIFTSystemPromptResolution *_promptResolution;
-    IFTSchemaIFTRequestContentStopContent *_stop;
-    _Bool _hasText;
-    _Bool _hasSpeech;
-    _Bool _hasPromptResolution;
-    _Bool _hasStop;
-    unsigned long long _whichOneof_Requestcontent;
 }
 
 - (unsigned long long);
@@ -31,7 +23,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -39,33 +31,24 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)__DATA_DIRTY;
 - (id)1Â0@ù
 × ;
-- (void)larityScore;
+- (void)deleteSimilarityScore;
 - (id)red",&,N,V_contextualEntityCollectionTriggered;
-- (id)leClassificationContext;
+- (id)CLPInstSchemaCLPCurareAppIntentSampleClassificationContext;
 - (_Bool)<Ü>;
 - (void)¬8#;
 
 // Remaining properties
-@property(nonatomic) _Bool hasPromptResolution; // @synthesize hasPromptResolution=_hasPromptResolution;
-@property(nonatomic) _Bool hasSpeech; // @synthesize hasSpeech=_hasSpeech;
-@property(nonatomic) _Bool hasStop; // @synthesize hasStop=_hasStop;
-@property(nonatomic) _Bool hasText; // @synthesize hasText=_hasText;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) IFTSchemaIFTSystemPromptResolution *promptResolution; // @synthesize promptResolution=_promptResolution;
-@property(retain, nonatomic) IFTSchemaIFTRequestContentSpeechContent *speech; // @synthesize speech=_speech;
-@property(retain, nonatomic) IFTSchemaIFTRequestContentStopContent *stop; // @synthesize stop=_stop;
 @property(retain, nonatomic) IFTSchemaIFTRequestContentTextContent *text; // @synthesize text=_text;
-@property(readonly, nonatomic) unsigned long long whichOneof_Requestcontent; // @synthesize whichOneof_Requestcontent=_whichOneof_Requestcontent;
 
 @end
 

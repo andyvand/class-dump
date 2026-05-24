@@ -5,5 +5,8 @@
 //
 
 @protocol AXVAPointerFeedbackWindowInterface
+
+@optional
+- (void);
 @end
 

@@ -17,8 +17,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void)veryCardCount;
+- (void)result_send_failure_count;
+- (void)totalDiscoveryCardCount;
 
 @end
 

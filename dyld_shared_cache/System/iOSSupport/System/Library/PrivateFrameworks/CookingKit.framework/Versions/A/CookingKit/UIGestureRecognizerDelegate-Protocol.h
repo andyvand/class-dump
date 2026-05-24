@@ -4,9 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIGestureRecognizer;
+
 @protocol UIGestureRecognizerDelegate
 
 @optional
+- (_Bool)!;
+- (_Bool)dateFromString:(UIGestureRecognizer *)arg1;
 - (_Bool)S8Sy)SGGP.SG_Qo_G;
 @end
 

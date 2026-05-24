@@ -5,5 +5,6 @@
 //
 
 @protocol NSSecureCoding
++ (_Bool)temp B (DegC) (TH0b);
 @end
 

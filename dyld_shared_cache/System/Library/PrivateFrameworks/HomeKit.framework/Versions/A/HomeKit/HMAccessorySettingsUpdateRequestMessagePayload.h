@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMImmutableSettingValue, NSArray, NSString, NSUUID;
+@class NSUUID;
 
 @interface HMAccessorySettingsUpdateRequestMessagePayload
 {
     NSUUID *_accessoryUUID;
-    NSString *_keyPath;
-    HMImmutableSettingValue *_settingValue;
 }
 
 + (id);
 + (id)ptions:completionHandler:] /* Error: Ran out of types for this method. */;
 - (id);
+- (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
+- (_Bool)fundamentalism;
+- (id)UIDefaultDictationLanguages;
 - (id);
 - (id);
 - (void)Ü¸;
@@ -31,25 +29,6 @@
 
 // Remaining properties
 @property(readonly, copy) NSUUID *accessoryUUID; // @synthesize accessoryUUID=_accessoryUUID;
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *keyPath; // @synthesize keyPath=_keyPath;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) HMImmutableSettingValue *settingValue; // @synthesize settingValue=_settingValue;
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 
 @end
 

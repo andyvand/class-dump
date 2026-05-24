@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface OBOnBoardingKitPrivacyUnifiedAboutPresentation
 {
     unsigned long long _timestamp;
-    NSString *_bundleid;
-    CDStruct_b5306035 _has;
 }
 
 - (void);
@@ -19,10 +15,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)p~;
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)(;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -33,10 +29,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bundleid; // @synthesize bundleid=_bundleid;
-@property(readonly, nonatomic) _Bool hasBundleid;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

@@ -24,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void)astDecodedFrame: /* Error: Ran out of types for this method. */;
+- (void)stream:didGetLastDecodedFrame: /* Error: Ran out of types for this method. */;
 - (id)ator %s;
 - (id);
 

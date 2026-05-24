@@ -13,11 +13,12 @@
     NSArray *_capabilityStates;
 }
 
+- (id)9I
+;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)tsOptionalAuthentication;
+- (id);
+- (void)supportsOptionalAuthentication;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *capabilityStates; // @synthesize capabilityStates=_capabilityStates;

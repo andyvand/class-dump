@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (struct __CFDictionary *);
-+ (Class);
++ (Class)	;
 + (id);
 + (unsigned short);
 + (id);

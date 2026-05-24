@@ -11,19 +11,17 @@
 @interface FCNewsTabiSmarterFetchConfiguration : FCNewsTabiEndpointConfiguration
 {
     FCNewsTabiSmarterFetchOutputConfiguration *_bundleOutputConfiguration;
-    FCNewsTabiSmarterFetchOutputConfiguration *_nonBundleOutputConfiguration;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (id);
 - (void)_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCCKDirectRequestOperation.m;
 
 // Remaining properties
 @property(readonly, nonatomic) FCNewsTabiSmarterFetchOutputConfiguration *bundleOutputConfiguration; // @synthesize bundleOutputConfiguration=_bundleOutputConfiguration;
-@property(readonly, nonatomic) FCNewsTabiSmarterFetchOutputConfiguration *nonBundleOutputConfiguration; // @synthesize nonBundleOutputConfiguration=_nonBundleOutputConfiguration;
 
 @end
 

@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (CPLCodingProxy)
-+ (id);
++ (id)C;
 + (id);
 - (BOOL);
 - (_Bool);

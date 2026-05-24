@@ -8,10 +8,10 @@
 {
 }
 
-+ (id);
++ (id);
+- (id)tem/iOSSupport/System/Library/PrivateFrameworks/TeaUI.framework/Versions/A/TeaUI;
 - (id);
-- (id);
-- (struct CGImage *);
+- (struct CGImage *)_assetStore;
 - (struct CGImage *);
 - (id);
 

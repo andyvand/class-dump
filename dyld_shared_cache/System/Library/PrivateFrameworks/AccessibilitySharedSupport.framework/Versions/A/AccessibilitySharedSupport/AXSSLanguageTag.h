@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXSSDialectMap, NSMutableOrderedSet, NSString;
-
 @interface AXSSLanguageTag
 {
     _Bool _createdFromNewline;
-    NSString *_taggedString;
-    long long _offsetToInitialLocation;
-    NSString *_content;
-    AXSSDialectMap *_dialect;
-    NSMutableOrderedSet *_predictedSecondaryDialects;
-    struct _NSRange _taggedRange;
 }
 
 - (id);
@@ -27,18 +19,12 @@
 - (_Bool);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)ontrollerDelegate>",W,V_delegate;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *content; // @synthesize content=_content;
-@property(readonly, nonatomic) _Bool createdFromNewline; // @synthesize createdFromNewline=_createdFromNewline;
-@property(readonly, nonatomic) AXSSDialectMap *dialect; // @synthesize dialect=_dialect;
-@property(nonatomic) long long offsetToInitialLocation; // @synthesize offsetToInitialLocation=_offsetToInitialLocation;
-@property(retain, nonatomic) NSMutableOrderedSet *predictedSecondaryDialects; // @synthesize predictedSecondaryDialects=_predictedSecondaryDialects;
 @property(readonly, nonatomic) struct _NSRange taggedRange; // @synthesize taggedRange=_taggedRange;
-@property(readonly, copy, nonatomic) NSString *taggedString; // @synthesize taggedString=_taggedString;
 
 @end
 

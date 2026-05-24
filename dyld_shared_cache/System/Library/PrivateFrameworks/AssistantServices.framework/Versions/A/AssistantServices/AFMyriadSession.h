@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSUUID;
-
 @interface AFMyriadSession
 {
     unsigned long long _generation;
-    NSUUID *_sessionId;
-    NSUUID *_currentElectionAdvertisementId;
-    NSData *_currentElectionAdvertisementData;
-    NSDictionary *_electionAdvertisementDataByIds;
 }
 
 + (id);
@@ -21,7 +15,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id),&,N,V_sections;
 - (id);
 - (id);
 - (id);
@@ -29,18 +23,14 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (void)i;
 - (id);
 - (unsigned long long);
-- (id)andleXPCConnectionInvalidated;
+- (id)handleXPCConnectionInvalidated;
 - (void)dexSet",&,N,V_itemsIndices;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *currentElectionAdvertisementData; // @synthesize currentElectionAdvertisementData=_currentElectionAdvertisementData;
-@property(readonly, copy, nonatomic) NSUUID *currentElectionAdvertisementId; // @synthesize currentElectionAdvertisementId=_currentElectionAdvertisementId;
-@property(readonly, copy, nonatomic) NSDictionary *electionAdvertisementDataByIds; // @synthesize electionAdvertisementDataByIds=_electionAdvertisementDataByIds;
 @property(readonly, nonatomic) unsigned long long generation; // @synthesize generation=_generation;
-@property(readonly, copy, nonatomic) NSUUID *sessionId; // @synthesize sessionId=_sessionId;
 
 @end
 

@@ -6,20 +6,17 @@
 
 #import <CloudKit/CKDatabaseOperationInfo.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface CKFetchRecordVersionsOperationInfo : CKDatabaseOperationInfo
 {
     _Bool _shouldFetchAssetContent;
-    NSArray *_recordIDs;
-    NSArray *_desiredKeys;
-    NSString *_minimumVersionETag;
 }
 
 + (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)?;
 - (id);
 - (void);
 - (_Bool);
@@ -27,14 +24,11 @@
 - (id);
 - (void)øPXPZ4\l](^_`;
 - (void);
-- (id)ution_Freeform;
+- (id)CKSQLiteContainerAttribution_Freeform;
 - (void)ytAD_pGG06deleteC0tAD_pGIeghg_;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *desiredKeys; // @synthesize desiredKeys=_desiredKeys;
-@property(retain, nonatomic) NSString *minimumVersionETag; // @synthesize minimumVersionETag=_minimumVersionETag;
 @property(retain, nonatomic) NSArray *recordIDs; // @synthesize recordIDs=_recordIDs;
-@property(nonatomic) _Bool shouldFetchAssetContent; // @synthesize shouldFetchAssetContent=_shouldFetchAssetContent;
 
 @end
 

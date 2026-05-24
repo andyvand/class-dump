@@ -6,17 +6,15 @@
 
 #import <PassKitCore/PKPendingProvisioning.h>
 
-@class NSString, PKPassShare;
+@class NSString;
 
 @interface PKPendingStatefulTransferProvisioningReference : PKPendingProvisioning
 {
     NSString *_invitationURL;
-    PKPassShare *_share;
-    NSString *_accountAttestationAnonymizationSalt;
 }
 
 + (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
@@ -26,14 +24,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void)tedDynamicFieldParameters;
+- (void)_rxrunt;
+- (void)encryptedDynamicFieldParameters;
 - (id)ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *accountAttestationAnonymizationSalt; // @synthesize accountAttestationAnonymizationSalt=_accountAttestationAnonymizationSalt;
 @property(readonly, nonatomic) NSString *invitationURL; // @synthesize invitationURL=_invitationURL;
-@property(readonly, nonatomic) PKPassShare *share; // @synthesize share=_share;
 
 @end
 

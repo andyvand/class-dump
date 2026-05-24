@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData;
-
 @protocol _CPResultsReceivedAfterTimeoutFeedback
+- (unsigned long long)A;
+- (void)initWithUUID:accountUUID:ISOCountryCode:localizedName:localizedShortName:localizedServiceName:handle: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *results;
 @property(nonatomic) unsigned long long timestamp;
 @end
 

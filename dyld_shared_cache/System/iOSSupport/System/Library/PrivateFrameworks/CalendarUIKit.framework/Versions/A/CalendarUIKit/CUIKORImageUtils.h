@@ -14,7 +14,7 @@
 + (id);
 + (id);
 + (double);
-+ (double);
++ (double);
 + (void);
 + (struct CGRect);
 + (unsigned long long);

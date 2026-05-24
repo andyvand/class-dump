@@ -7,20 +7,6 @@
 @interface NewsFeed.FormatImageNode
 {
     id _identifier;
-    id size;
-    id resize;
-    id _adjustments;
-    id style;
-    id animation;
-    id content;
-    id _zIndex;
-    id _visibility;
-    id _isUserInteractionEnabled;
-    id _shouldCancelContextMenu;
-    id accessibilityRole;
-    id _selectors;
-    id _name;
-    id flex;
 }
 
 @end

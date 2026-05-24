@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject, NSString, NUJobQueue, NUScheduledQueue;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface NUScheduler
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NUJobQueue *_prepareQueue;
-    NUJobQueue *_renderQueue;
-    NUJobQueue *_completeQueue;
-    NSMutableSet *_scheduledContextWakeups;
-    NUScheduledQueue *_rateLimiterQueue;
-    NSString *_name;
 }
 
 + (id);
@@ -34,7 +28,7 @@
 - (void);
 - (void)0@ù
 × ;
-- (void)t;
+- (void)NULivePhotoRenderResult;
 - (void)valid target input extent:(id)arg1 %{public}@;
 
 @end

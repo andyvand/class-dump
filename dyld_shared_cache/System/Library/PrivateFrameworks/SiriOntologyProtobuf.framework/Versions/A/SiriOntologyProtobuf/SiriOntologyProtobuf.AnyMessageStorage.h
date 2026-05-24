@@ -7,7 +7,6 @@
 @interface SiriOntologyProtobuf.AnyMessageStorage
 {
     id _typeURL;
-    id state;
 }
 
 @end

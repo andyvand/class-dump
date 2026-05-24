@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAutocompleteStore, NSObject, NSString, TUAutocompleteResultPartitioner, TUSearchController, TUSearchResults;
-@protocol CNAutocompleteCancelable, OS_dispatch_queue;
+@class CNAutocompleteStore;
 
 @interface TUContactsAutocompleteSearchModule
 {
     _Bool _searchComplete;
-    _Bool _cancelled;
-    TUSearchController *_searchController;
-    CNAutocompleteStore *_autocompleteStore;
-    id <CNAutocompleteCancelable> _fetchRequest;
-    TUAutocompleteResultPartitioner *_autocompleteResultPartitioner;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _completion;
 }
 
 - (void);
@@ -24,17 +16,17 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (void);
+- (void)= WebCore:(id)arg1:ScrollingStateNode, PtrTraits = WTF::RawPtrTraits<WebCore::ScrollingStateNode>, RefDerefTraits = WTF::DefaultRefDerefTraits<WebCore::ScrollingStateNode>] /* Error: Ran out of types for this method. */;
+- (void)fierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::HashSet<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::SharedWorkerObjectIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::HashSet<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::SharedWorkerObjectIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::HashSet<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::SharedWorkerObjectIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::HashSet<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::SharedWorkerObjectIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)!;
+- (void)B;
 - (id);
 - (void);
-- (id);
+- (id)a;
 - (id);
 - (void);
 - (id);
@@ -42,30 +34,12 @@
 - (id);
 - (void);
 - (_Bool);
-- (void)abled;
+- (void)sessionBasedMutingEnabled;
 - (void)D;
 - (void)7;
 
 // Remaining properties
-@property(retain, nonatomic) TUAutocompleteResultPartitioner *autocompleteResultPartitioner; // @synthesize autocompleteResultPartitioner=_autocompleteResultPartitioner;
 @property(retain, nonatomic) CNAutocompleteStore *autocompleteStore; // @synthesize autocompleteStore=_autocompleteStore;
-@property(nonatomic, getter=isCancelled) _Bool cancelled; // @synthesize cancelled=_cancelled;
-@property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) id <CNAutocompleteCancelable> fetchRequest; // @synthesize fetchRequest=_fetchRequest;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic, getter=isSearchComplete) _Bool searchComplete; // @synthesize searchComplete=_searchComplete;
-@property __weak TUSearchController *searchController; // @synthesize searchController=_searchController;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"TUSearchController",?,W,V_searchController
-
-@property(readonly) TUSearchResults *searchResults;
-@property(readonly) Class superclass;
 
 @end
 

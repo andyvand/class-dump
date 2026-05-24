@@ -5,5 +5,7 @@
 //
 
 @protocol GEOMapServicePhotoLookupTicket
+- (void)ager";
+- (void);
 @end
 

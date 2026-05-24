@@ -17,7 +17,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)L and get CONT and get PSs and see if PSs>=2;
 - (id);
 - (_Bool);
 

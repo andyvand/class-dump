@@ -5,6 +5,9 @@
 //
 
 @protocol CDPProximityPairingServiceProtocol
+- (void)N,&;
+- (void)ce;
+- (void (^)(_Bool, NSError *))_TtCC6Safari38CompletionListCollectionViewController21CollectionViewSection;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType onProxCompletion;

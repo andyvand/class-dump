@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBString;
+@class _INPBString;
 
 @interface _INPBSupportedTrafficIncidentType
 {
     CDStruct_f953fb60 _has;
-    int _type;
-    _INPBString *_localizedDisplayString;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (int);
@@ -26,25 +24,15 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (int);
-- (id)nName;
-- (_Bool)tDataStrings: /* Error: Ran out of types for this method. */;
-- (void)rMetadataMaximumValue;
-- (void)s;
+- (id)hasDestinationName;
+- (_Bool)setDataStrings: /* Error: Ran out of types for this method. */;
+- (void)__INCodableNumberAttributeMetadataINIntentResponseParameterMetadataMaximumValue;
+- (void)INRetrieveParkingLocationIntentResponseCodeInProgress;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasLocalizedDisplayString;
-@property(nonatomic) _Bool hasType;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _INPBString *localizedDisplayString; // @synthesize localizedDisplayString=_localizedDisplayString;
-@property(readonly) Class superclass;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

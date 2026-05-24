@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface HALSchemaHALContextCollectorFetchFailed : SISchemaInstrumentationMessage
 {
     int _failureReason;
-    CDStruct_ebe11093 _has;
 }
 
 - (void);
-- (void);
-- (_Bool);
+- (void)MMRandomNumberFieldEditor;
+- (_Bool)?0@"NSError"8;
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
-- (void);
+- (void)setAlternatePlaceholder:(int)arg1;
 - (_Bool);
 - (_Bool);
 - (int);
-- (id);
+- (id)y",&,N,V_cachedCanShareLocationWithHandleByHandle;
 - (id)athValid"b1"assetDownloadSizeInBytes"b1"assetUnarchivedSizeInBytes"b1};
 - (id)Value;
 - (id)8¬Ä²;
 
 // Remaining properties
 @property(nonatomic) int failureReason; // @synthesize failureReason=_failureReason;
-@property(nonatomic) _Bool hasFailureReason;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

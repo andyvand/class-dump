@@ -7,18 +7,6 @@
 @interface NewsSubscription.SubscriptionExpiryManager
 {
     id purchaseController;
-    id bundleSubscriptionManager;
-    id tagController;
-    id configurationManager;
-    id subscriptionRouter;
-    id entitlementsManager;
-    id webAccessAuthenticatorFactory;
-    id spinnerViewControllerFactory;
-    id $__lazy_storage_$_verificationSpinner;
-    id subscriptionsNotSupportedTagsByID;
-    id subscriptionsExpiredTagsByID;
-    id alertQueue;
-    id bootstrapperDidComplete;
 }
 
 @end

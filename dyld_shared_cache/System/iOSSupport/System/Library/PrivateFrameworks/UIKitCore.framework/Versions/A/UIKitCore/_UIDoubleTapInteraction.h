@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIDelayedAction, UIView, _UIDoubleTapInteractionGestureRecognizer;
-
 @interface _UIDoubleTapInteraction
 {
     _Bool _ignoresUIControls;
-    _Bool _neverRecognizeSimultaneouslyWithOtherGestures;
-    UIView *_view;
-    CDUnknownBlockType _shouldContinueProcessingSecondTap;
-    CDUnknownBlockType _didDoubleTap;
-    CDUnknownBlockType _didTimeOut;
-    double _heightFromTopToAcceptTouches;
-    _UIDoubleTapInteractionGestureRecognizer *_tapGesture;
-    UIDelayedAction *_doubleTapAction;
-    struct CGPoint _initialTapLocationInView;
 }
 
 - (id);
@@ -25,58 +14,42 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ray"36@?<v@?B>44;
+- (void)IMMessageItem"60;
+- (void)4@"TUConversation"32;
+- (void)mber"32@"NSString"40@"NSString"48B56;
+- (void)@"NSString"56@"NSString"64@"NSArray"72@"NSString"80@"NSString"88B96B100B104@"NSDictionary"108B116B120@"NSNumber"124@"NSDictionary"132@"NSDictionary"140@"NSArray"148@"NSDictionary"156@"NSString"164@"NSString"172@"NSString"180@"NSString"188@"IDSService"196@204B212B216B220B224B228q232q240@?<v@?>248;
+- (_Bool)isAllowMultiplePhoneNumbersSNaPEnabled;
+- (struct CGPoint)conversationManager:removedActiveConversation: /* Error: Ran out of types for this method. */;
+- (_Bool)_setMessageItemToStandaloneIfNeeded:chatIdentifier: /* Error: Ran out of types for this method. */;
+- (double)ions:hasAttachments:sentToDevices:requiredCapabilities: /* Error: Ran out of types for this method. */;
+- (void)_automation_messageDeliveryControllerDidFlushCacheForRemoteURI:(struct CGPoint)arg1 fromURI:guid: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)pdated;
+- (CDUnknownBlockType)labilitySubscriptionService;
+- (_Bool)ion;
+- (_Bool);
+- (void)error:%@ /* Error: Ran out of types for this method. */;
+- (void)lockForMessageGuid:%@ Already ran completion block?, not doing anything /* Error: Ran out of types for this method. */;
+- (void)8@16^B24;
+- (void)ReplicationDelayInSeconds;
+- (void)Fallback nickname:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
-- (struct CGPoint);
-- (_Bool);
-- (double);
-- (void);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id)een: /* Error: Ran out of types for this method. */;
+- (id)setAutoHidesToolbarInFullscreen: /* Error: Ran out of types for this method. */;
 - (_Bool)sConfiguration:(id)arg1;
 - (_Bool)kOption;
 - (id)gQuadCurvePointFIFO",&,N,V_pointInterpolator;
 - (void)åîÿ>ïÿéîÿ;
 - (void)ed row height:(id)arg1 %g; section data:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)estamp;
+- (_Bool)RemoteTimestamp;
 - (void)1¾7G;
 - (void)D§\;
 - (void)Oÿgk;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType didDoubleTap; // @synthesize didDoubleTap=_didDoubleTap;
-@property(copy, nonatomic) CDUnknownBlockType didTimeOut; // @synthesize didTimeOut=_didTimeOut;
-@property(retain, nonatomic) UIDelayedAction *doubleTapAction; // @synthesize doubleTapAction=_doubleTapAction;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double heightFromTopToAcceptTouches; // @synthesize heightFromTopToAcceptTouches=_heightFromTopToAcceptTouches;
 @property(nonatomic) _Bool ignoresUIControls; // @synthesize ignoresUIControls=_ignoresUIControls;
-@property(nonatomic) struct CGPoint initialTapLocationInView; // @synthesize initialTapLocationInView=_initialTapLocationInView;
-@property(nonatomic) _Bool neverRecognizeSimultaneouslyWithOtherGestures; // @synthesize neverRecognizeSimultaneouslyWithOtherGestures=_neverRecognizeSimultaneouslyWithOtherGestures;
-@property(copy, nonatomic) CDUnknownBlockType shouldContinueProcessingSecondTap; // @synthesize shouldContinueProcessingSecondTap=_shouldContinueProcessingSecondTap;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _UIDoubleTapInteractionGestureRecognizer *tapGesture; // @synthesize tapGesture=_tapGesture;
-@property(readonly, nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end
 

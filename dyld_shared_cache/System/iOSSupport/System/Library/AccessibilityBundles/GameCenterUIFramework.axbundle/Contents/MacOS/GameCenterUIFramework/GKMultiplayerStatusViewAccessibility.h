@@ -10,10 +10,10 @@
 {
 }
 
-+ (Class);
++ (Class);
 + (id);
-+ (void);
-- (id);
++ (void){;
+- (id)stringByTrimmingCharactersInSet: /* Error: Ran out of types for this method. */;
 
 @end
 

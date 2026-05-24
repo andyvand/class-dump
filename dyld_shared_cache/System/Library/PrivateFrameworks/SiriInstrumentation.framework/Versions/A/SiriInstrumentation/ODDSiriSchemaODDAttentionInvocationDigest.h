@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ODDSiriSchemaODDAttentionInvocationCounts, ODDSiriSchemaODDAttentionInvocationDimensions;
+@class ODDSiriSchemaODDAttentionInvocationDimensions;
 
 @interface ODDSiriSchemaODDAttentionInvocationDigest : SISchemaInstrumentationMessage
 {
     ODDSiriSchemaODDAttentionInvocationDimensions *_dimensions;
-    ODDSiriSchemaODDAttentionInvocationCounts *_counts;
-    _Bool _hasDimensions;
-    _Bool _hasCounts;
 }
 
 - (void);
@@ -26,24 +23,20 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)gx;
+- (_Bool)߄;
 - (void);
 - (_Bool);
-- (id);
+- (id)=?;
 - (id);
 - (id);
 - (id)V_startToDNSResolution;
 - (id)cationForSystemRequest",&,N,V_userLocationForSystemRequired;
-- (id)AIN_CONTEXT_UPDATE;
+- (id)CDMSERVICEGRAPHERRORDOMAIN_CONTEXT_UPDATE;
 - (void).kgQAExecutionTier1.primaryEntities;
 
 // Remaining properties
-@property(retain, nonatomic) ODDSiriSchemaODDAttentionInvocationCounts *counts; // @synthesize counts=_counts;
 @property(retain, nonatomic) ODDSiriSchemaODDAttentionInvocationDimensions *dimensions; // @synthesize dimensions=_dimensions;
-@property(nonatomic) _Bool hasCounts; // @synthesize hasCounts=_hasCounts;
-@property(nonatomic) _Bool hasDimensions; // @synthesize hasDimensions=_hasDimensions;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

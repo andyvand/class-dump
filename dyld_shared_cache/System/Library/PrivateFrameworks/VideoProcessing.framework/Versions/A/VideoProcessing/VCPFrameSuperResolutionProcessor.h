@@ -7,25 +7,11 @@
 @interface VCPFrameSuperResolutionProcessor
 {
     void *_vcpcnnframeenhancer;
-    long long _sourceWidth;
-    long long _sourceHeight;
-    long long _resizeWidth;
-    long long _resizeHeight;
-    float _scalingFactor;
-    long long _extendRight;
-    long long _extendBottom;
-    struct __CVBuffer *_resizeSourceBuffer;
-    struct __CVBuffer *_resizeDestinationBuffer;
-    struct OpaqueVTPixelTransferSession *_sourceToResizePixelTransferSession;
-    struct OpaqueVTPixelTransferSession *_resizeToSourcePixelTransferSession;
-    long long _supportedPixelFormat;
-    _Bool _in_memory_reshape;
-    _Bool _msr;
 }
 
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)4;
 - (void);
 - (id);
 - (_Bool);

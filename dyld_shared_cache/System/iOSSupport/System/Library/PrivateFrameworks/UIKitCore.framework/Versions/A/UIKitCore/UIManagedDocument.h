@@ -6,20 +6,11 @@
 
 #import <UIKitCore/UIDocument.h>
 
-@class NSDictionary, NSManagedObjectContext, NSManagedObjectModel, NSPersistentStoreCoordinator, NSString;
+@class NSManagedObjectContext;
 
 @interface UIManagedDocument : UIDocument
 {
     NSManagedObjectContext *_managedObjectContext;
-    NSPersistentStoreCoordinator *_persistentStoreCoordinator;
-    NSManagedObjectModel *_managedObjectModel;
-    NSDictionary *_documentMetadata;
-    struct __mdocFlags {
-        unsigned int shouldWriteAdditionalContent:1;
-        unsigned int _reserved:31;
-    } _mdocFlags;
-    NSDictionary *persistentStoreOptions;
-    NSString *modelConfiguration;
 }
 
 + (_Bool);
@@ -28,21 +19,21 @@
 + (void)x	ÕÿÖ;
 - (_Bool);
 - (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void)ge notification:(id)arg1 %u;
+- (_Bool)nd wifi isSyncing %@ isUnderFirstUnlock %@ lastSyncDate %@ deviceConditionsAllowSync %@;
+- (id)essage Guid %@ and index %lu;
+- (id)oaded, but attempted to read MiCOnByDefault;
+- (id)ount:(id)arg1 fromID:(id *)arg2 context:]_block_invoke /* Error: Ran out of types for this method. */;
+- (_Bool)IMDSystemTaskWorkloadReporter;
 - (id);
 - (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (void)ccess;
 - (id);
 - (id)ectionalEdgeInsets=dddd},N,V_minimumInsets;
 - (id)af_AA_ACXc011conflictingD0t;
@@ -51,9 +42,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSManagedObjectContext *managedObjectContext;
-@property(readonly, nonatomic) NSManagedObjectModel *managedObjectModel;
-@property(copy, nonatomic) NSString *modelConfiguration; // @synthesize modelConfiguration;
-@property(copy, nonatomic) NSDictionary *persistentStoreOptions; // @synthesize persistentStoreOptions;
 
 @end
 

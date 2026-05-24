@@ -7,6 +7,7 @@
 @class NSData;
 
 @protocol SFDigestOperation
++ (long long)ave fused layers;
 
 // Remaining properties
 @property(readonly, copy) NSData *hashValue;

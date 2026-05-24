@@ -4,39 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NTPBPersonalizationInstanceHistory
 {
     unsigned long long _lastChangeNumber;
-    NSString *_instanceIdentifier;
-    struct {
-        unsigned int lastChangeNumber:1;
-    } _has;
 }
 
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (void)enableNavigationBarBlur;
+- (void)defaultComparator;
+- (unsigned long long)collectionView:namesOfPromisedFilesDroppedAtDestination:forDraggedItemsAtIndexPaths: /* Error: Ran out of types for this method. */;
+- (_Bool)bestCropRectV2ForAspectRatio:zoom:sourcePixelWidth:sourcePixelHeight:sourceEssentialAreaRect:sourceSecondaryEssentialAreaRect:outputCropScore: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (unsigned long long);
+- (_Bool)n't find %@;
+- (void)DropItemClass="x-apple-maildrop",MFHtmlIDSignature="AppleMailSignature",MFHtmlIDLineBreakAtSignature="lineBreakAtBeginningOfSignature",MFHtmlIDLineBreakAtBeginning="lineBreakAtBeginningOfMessage",MFRichLinkClass="apple-rich-link",MFLPRichLinkClassPrefix="lp-rich-link",MFMailTemporaryAttachmentWrapper="x-apple-attachment-mark",MFHtmlIDQuickReplyStyle="x-mail-quick-reply-style",HtmlClassOriginalContent="AppleOriginalContents",linkPlaceHolderClass="linkPlaceholder",MFMailBigEmojiAttribute="AppleMailBigEmoji",bigEmojiFontSize="-webkit-xxx-large",defaultEmojiFontSize="-apple-system-body",maxNumberBigEmoji=3,largeInheritedFontSize=7;;
 - (_Bool);
-- (void);
-- (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)7;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasInstanceIdentifier;
-@property(nonatomic) _Bool hasLastChangeNumber;
-@property(retain, nonatomic) NSString *instanceIdentifier; // @synthesize instanceIdentifier=_instanceIdentifier;
-@property(nonatomic) unsigned long long lastChangeNumber; // @synthesize lastChangeNumber=_lastChangeNumber;
 
 @end
 

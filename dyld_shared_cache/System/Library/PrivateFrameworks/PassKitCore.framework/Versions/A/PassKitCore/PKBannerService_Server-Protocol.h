@@ -5,5 +5,6 @@
 //
 
 @protocol PKBannerService_Server
+- (void);
 @end
 

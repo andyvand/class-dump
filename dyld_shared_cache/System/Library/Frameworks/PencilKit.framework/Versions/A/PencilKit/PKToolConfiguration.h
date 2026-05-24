@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, PKFloatRange;
+@class PKFloatRange;
 
 @interface PKToolConfiguration
 {
     PKFloatRange *_cachedStrokeWeightRange;
-    _Bool _wantsStrokeWeightControl;
-    _Bool _wantsTopLevelOpacityControl;
-    _Bool _supportsColor;
-    _Bool _supportsOpacity;
-    _Bool _isEraserTool;
-    NSColor *_defaultColor;
 }
 
 + (id);
@@ -36,10 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSColor *defaultColor; // @synthesize defaultColor=_defaultColor;
-@property(readonly, nonatomic) _Bool isEraserTool; // @synthesize isEraserTool=_isEraserTool;
 @property(readonly, nonatomic) _Bool supportsColor; // @synthesize supportsColor=_supportsColor;
-@property(readonly, nonatomic) _Bool supportsOpacity; // @synthesize supportsOpacity=_supportsOpacity;
 
 @end
 

@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAppearance, NSArray, NSString, Safari.SafariOnboardingCoordinator, StartPageOnboardingCollectionViewItem;
-@protocol StartPageCollectionSectionProviderDelegate;
+@class NSString, StartPageOnboardingCollectionViewItem;
 
 __attribute__((visibility("hidden")))
 @interface StartPageOnboardingSectionProvider
 {
     StartPageOnboardingCollectionViewItem *_templateItem;
-    NSArray *_itemConfigurations;
-    Safari.SafariOnboardingCoordinator *_coordinator;
-    _Bool _usesPrivateBrowsing;
-    _Bool _usesCompactAppearance;
-    id <StartPageCollectionSectionProviderDelegate> _sectionProviderDelegate;
-    NSString *_identifier;
 }
 
 - (_Bool);
@@ -25,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (long long);
 - (id);
@@ -37,34 +30,13 @@ __attribute__((visibility("hidden")))
 - (long long)1Â0@ù
 × ;
 - (long long)ptr"^v}};
-- (id);
+- (id)reloadTabFromMenu: /* Error: Ran out of types for this method. */;
 - (void)ÿÿ;
 - (_Bool)-;
 - (void)äÿDFÇ.;
 
 // Remaining properties
-@property(retain, nonatomic) NSAppearance *backgroundAppearance;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSAppearance",?,&,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSArray *draggedTypes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) __weak id <StartPageCollectionSectionProviderDelegate> sectionProviderDelegate; // @synthesize sectionProviderDelegate=_sectionProviderDelegate;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool usesCompactAppearance; // @synthesize usesCompactAppearance=_usesCompactAppearance;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,V_usesCompactAppearance
-
-@property(nonatomic) _Bool usesPrivateBrowsing; // @synthesize usesPrivateBrowsing=_usesPrivateBrowsing;
 
 @end
 

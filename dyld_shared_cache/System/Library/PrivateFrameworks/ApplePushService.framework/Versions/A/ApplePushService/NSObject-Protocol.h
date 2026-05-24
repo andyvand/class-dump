@@ -7,14 +7,12 @@
 @class NSString;
 
 @protocol NSObject
+- (oneway void)f classes given (TreeEnsembleClassifier).;
+- (NSString *)N6CoreML13Specification7MILSpec24TensorValue_RepeatedIntsE;
+- (_Bool);
+- (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

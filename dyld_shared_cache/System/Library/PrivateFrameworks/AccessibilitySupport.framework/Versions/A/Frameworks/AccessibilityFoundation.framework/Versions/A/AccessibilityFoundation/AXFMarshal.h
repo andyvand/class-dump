@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
-@protocol OS_dispatch_group, OS_dispatch_queue, OS_dispatch_semaphore;
+@class NSObject;
+@protocol OS_dispatch_group;
 
 @interface AXFMarshal
 {
     NSObject<OS_dispatch_group> *__group;
-    NSObject<OS_dispatch_queue> *__syncQueue;
-    NSObject<OS_dispatch_queue> *__widthQueue;
-    NSObject<OS_dispatch_semaphore> *__width;
-    NSMutableArray *__results;
 }
 
 - (void);
@@ -28,16 +24,12 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)initWithFileURL:dataProtectionClass: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)__kIMAVChatParticipantCameraWillChangeNotification;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_group> *_group; // @synthesize _group=__group;
-@property(retain, nonatomic) NSMutableArray *_results; // @synthesize _results=__results;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *_syncQueue; // @synthesize _syncQueue=__syncQueue;
-@property(retain, nonatomic) NSObject<OS_dispatch_semaphore> *_width; // @synthesize _width=__width;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *_widthQueue; // @synthesize _widthQueue=__widthQueue;
 
 @end
 

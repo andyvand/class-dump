@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString, TUConversationProviderConfiguration;
+@class NSObject, NSString;
 @protocol OS_tcc_identity;
 
 @interface TUConversationProvider
 {
     NSString *_identifier;
-    NSArray *_supportedMediaTypes;
-    TUConversationProviderConfiguration *_providerConfiguration;
 }
 
 + (id);
@@ -37,22 +35,18 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id)a;
-- (void)Delegate: /* Error: Ran out of types for this method. */;
+- (id)thumperCallingProvisioningPostData;
+- (void)setRemoteControlProviderDelegate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSObject<OS_tcc_identity> *assumedIdentity;
-@property(readonly, nonatomic) unsigned long long defaultAVMode;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) TUConversationProviderConfiguration *providerConfiguration; // @synthesize providerConfiguration=_providerConfiguration;
-@property(readonly, copy, nonatomic) NSArray *supportedMediaTypes; // @synthesize supportedMediaTypes=_supportedMediaTypes;
 
 @end
 

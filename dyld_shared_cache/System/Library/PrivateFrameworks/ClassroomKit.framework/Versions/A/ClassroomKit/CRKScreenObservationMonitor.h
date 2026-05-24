@@ -4,26 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRKFetchObservingInstructorsByCourseOperation, NSDictionary;
-@protocol CRKCancelable, CRKDarwinNotificationPublisher, CRKFeatureDataStoreProtocol, CRKObservation, CRKScreenObservationMonitorDelegate, CRKStudentConnection, CRKStudentConnectionPrimitives;
+@protocol CRKStudentConnectionPrimitives;
 
 @interface CRKScreenObservationMonitor
 {
     _Bool _connecting;
-    id <CRKScreenObservationMonitorDelegate> _delegate;
-    NSDictionary *_observingInstructorsByCourse;
-    id <CRKStudentConnectionPrimitives> _studentConnectionPrimitives;
-    id <CRKDarwinNotificationPublisher> _darwinNotificationPublisher;
-    id <CRKFeatureDataStoreProtocol> _featureDataStore;
-    id <CRKStudentConnection> _studentConnection;
-    id <CRKObservation> _observersDidChangeObservation;
-    id <CRKCancelable> _enrollmentStatusDidChangeSubscription;
-    CRKFetchObservingInstructorsByCourseOperation *_fetchObservingInstructorsByCourseOperation;
 }
 
 + (id);
 + (_Bool);
-- (id);
+- (id)#;
 - (id);
 - (void);
 - (void);
@@ -39,16 +29,16 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)[;
 - (id);
 - (_Bool);
 - (id);
@@ -56,16 +46,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=isConnecting) _Bool connecting; // @synthesize connecting=_connecting;
-@property(readonly, nonatomic) id <CRKDarwinNotificationPublisher> darwinNotificationPublisher; // @synthesize darwinNotificationPublisher=_darwinNotificationPublisher;
-@property(nonatomic) __weak id <CRKScreenObservationMonitorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) id <CRKCancelable> enrollmentStatusDidChangeSubscription; // @synthesize enrollmentStatusDidChangeSubscription=_enrollmentStatusDidChangeSubscription;
-@property(readonly, nonatomic) id <CRKFeatureDataStoreProtocol> featureDataStore; // @synthesize featureDataStore=_featureDataStore;
-@property(retain, nonatomic) CRKFetchObservingInstructorsByCourseOperation *fetchObservingInstructorsByCourseOperation; // @synthesize fetchObservingInstructorsByCourseOperation=_fetchObservingInstructorsByCourseOperation;
-@property(readonly, nonatomic) _Bool hasObservingInstructors;
-@property(retain, nonatomic) id <CRKObservation> observersDidChangeObservation; // @synthesize observersDidChangeObservation=_observersDidChangeObservation;
-@property(copy, nonatomic) NSDictionary *observingInstructorsByCourse; // @synthesize observingInstructorsByCourse=_observingInstructorsByCourse;
-@property(retain, nonatomic) id <CRKStudentConnection> studentConnection; // @synthesize studentConnection=_studentConnection;
 @property(readonly, nonatomic) id <CRKStudentConnectionPrimitives> studentConnectionPrimitives; // @synthesize studentConnectionPrimitives=_studentConnectionPrimitives;
 
 @end

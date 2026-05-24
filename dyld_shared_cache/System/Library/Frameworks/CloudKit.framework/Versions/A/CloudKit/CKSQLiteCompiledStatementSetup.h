@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableString, NSNumber, NSPredicate, NSString;
+@class NSString;
 
 @interface CKSQLiteCompiledStatementSetup
 {
     NSString *_sql;
-    NSPredicate *_wherePredicate;
-    NSMutableString *_orderBySQL;
-    NSNumber *_limit;
-    NSNumber *_offset;
-    NSArray *_returnProperties;
 }
 
 - (void);

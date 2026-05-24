@@ -13,7 +13,7 @@
 }
 
 - (id);
-- (id);
+- (id)sService.m;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) ASDExternalManifestRequestOptions *options; // @dynamic options;

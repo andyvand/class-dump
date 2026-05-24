@@ -4,40 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECLocalMessageAction, NSError, NSString;
 @protocol ECLocalActionReplayerDelegate;
 
 @interface ECLocalActionReplayer
 {
     id <ECLocalActionReplayerDelegate> _delegate;
-    ECLocalMessageAction *_action;
-    NSError *_error;
 }
 
 + (id);
+- (id)ictureInPictureContentSourceTypeGenericView;
+- (id)respond to %{public}@;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)_displayCodesigningIDsMatchingBundleIDs;
+- (id)};
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) ECLocalMessageAction *action; // @synthesize action=_action;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <ECLocalActionReplayerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

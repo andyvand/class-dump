@@ -11,7 +11,6 @@
 @interface ASBContainerActionMoveContents : ASBContainerAction
 {
     NSString *_sourceSpec;
-    NSString *_destSpec;
 }
 
 - (_Bool);

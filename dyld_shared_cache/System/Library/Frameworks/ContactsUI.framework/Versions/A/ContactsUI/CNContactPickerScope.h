@@ -4,35 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABPersonListSearchController, CNContactCardViewController, CNContactListController, CNContactPickerView;
-@protocol CNContactPickerInternalResponseDelegate;
+@class CNContactPickerView;
 
 @interface CNContactPickerScope
 {
     _Bool _shouldShowSelectedContact;
-    CNContactPickerView *_pickerView;
-    CNContactListController *_contactListController;
-    ABPersonListSearchController *_searchController;
-    CNContactCardViewController *_contactCardViewController;
-    id <CNContactPickerInternalResponseDelegate> _delegate;
 }
 
 - (_Bool);
 - (id);
+- (id)9?;
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)ue:appID = %@, preference = %@, result = %@ /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly) __weak CNContactCardViewController *contactCardViewController; // @synthesize contactCardViewController=_contactCardViewController;
-@property(readonly) __weak CNContactListController *contactListController; // @synthesize contactListController=_contactListController;
-@property(readonly) __weak id <CNContactPickerInternalResponseDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly) __weak CNContactPickerView *pickerView; // @synthesize pickerView=_pickerView;
-@property(readonly) __weak ABPersonListSearchController *searchController; // @synthesize searchController=_searchController;
-@property(readonly) _Bool shouldShowSelectedContact; // @synthesize shouldShowSelectedContact=_shouldShowSelectedContact;
 
 @end
 

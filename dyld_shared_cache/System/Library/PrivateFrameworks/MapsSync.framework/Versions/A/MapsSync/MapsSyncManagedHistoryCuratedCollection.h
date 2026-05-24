@@ -16,7 +16,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) long long curatedCollectionIdentifier; // @dynamic curatedCollectionIdentifier;
-@property(nonatomic) int resultProviderIdentifier; // @dynamic resultProviderIdentifier;
 
 @end
 

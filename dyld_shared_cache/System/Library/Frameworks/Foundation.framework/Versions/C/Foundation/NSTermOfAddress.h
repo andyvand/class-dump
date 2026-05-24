@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface NSTermOfAddress
 {
     long long _gender;
-    _Bool _addressesCurrentUser;
-    NSString *_language;
-    NSArray *_pronouns;
 }
 
 @end

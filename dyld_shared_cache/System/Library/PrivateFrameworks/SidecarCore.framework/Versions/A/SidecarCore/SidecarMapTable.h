@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable;
-
 @interface SidecarMapTable
 {
     long long _keyMask;
-    NSMapTable *_keys2values;
-    NSMapTable *_values2keys;
 }
 
 - (id);

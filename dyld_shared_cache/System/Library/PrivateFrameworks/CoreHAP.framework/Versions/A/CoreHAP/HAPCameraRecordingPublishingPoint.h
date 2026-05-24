@@ -4,38 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface HAPCameraRecordingPublishingPoint
 {
     NSString *_URL;
-    NSData *_serverCertificate;
 }
 
 + (id);
 - (void);
 - (id);
-- (id);
+- (id)C;
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)initWithEventBody:(id)arg1 timestamp: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void)nQueue"48;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *URL; // @synthesize URL=_URL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSData *serverCertificate; // @synthesize serverCertificate=_serverCertificate;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, PGPublicEventDisambiguator;
-@protocol OS_os_log;
+@class PGPublicEventDisambiguator;
 
 @interface PGPublicEventCacher
 {
     PGPublicEventDisambiguator *_disambiguator;
-    NSObject<OS_os_log> *_log;
 }
 
 - (id);

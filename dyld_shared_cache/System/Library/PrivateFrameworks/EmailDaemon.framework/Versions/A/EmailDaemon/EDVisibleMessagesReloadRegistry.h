@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFDebouncer, NSHashTable;
-@protocol EFAssertableScheduler;
-
 @interface EDVisibleMessagesReloadRegistry
 {
     struct os_unfair_lock_s _lock;
-    NSHashTable *_observers;
-    id <EFAssertableScheduler> _observationScheduler;
-    EFDebouncer *_reloadDebouncer;
-    int _notifyToken;
 }
 
 + (id)³°1Â0@ù
@@ -22,7 +15,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)UsoEntityBuilderProtocol_common_Message;
 - (void)ages_count INTEGER NOT NULL,
     attachments_count INTEGER NOT NULL,
     rich_links_count INTEGER NOT NULL,

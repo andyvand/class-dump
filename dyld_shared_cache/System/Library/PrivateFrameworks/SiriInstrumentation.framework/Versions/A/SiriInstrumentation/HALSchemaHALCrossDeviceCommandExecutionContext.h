@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class HALSchemaHALCrossDeviceCommandExecutionEnded, HALSchemaHALCrossDeviceCommandExecutionFailed, HALSchemaHALCrossDeviceCommandExecutionStarted, NSData;
+@class HALSchemaHALCrossDeviceCommandExecutionStarted;
 
 @interface HALSchemaHALCrossDeviceCommandExecutionContext : SISchemaInstrumentationMessage
 {
     HALSchemaHALCrossDeviceCommandExecutionStarted *_startedOrChanged;
-    HALSchemaHALCrossDeviceCommandExecutionEnded *_ended;
-    HALSchemaHALCrossDeviceCommandExecutionFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -28,34 +22,27 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
+- (void)r/lib/libobjc.A.dylib;
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)`;
 - (void);
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id),V_internalHandles;
 - (id)b1};
 - (id)d;
 - (id)â;
 - (void)´Á°$;
 
 // Remaining properties
-@property(retain, nonatomic) HALSchemaHALCrossDeviceCommandExecutionEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) HALSchemaHALCrossDeviceCommandExecutionFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) HALSchemaHALCrossDeviceCommandExecutionStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

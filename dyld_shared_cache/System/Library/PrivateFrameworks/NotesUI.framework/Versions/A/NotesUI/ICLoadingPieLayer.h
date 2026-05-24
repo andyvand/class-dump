@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAShapeLayer, NSProgress;
+@class CAShapeLayer;
 
 @interface ICLoadingPieLayer
 {
     _Bool _removeOnCompletion;
-    double _progress;
-    NSProgress *_observedProgress;
-    CAShapeLayer *_pieLayer;
-    CAShapeLayer *_backgroundLayer;
 }
 
 - (void);
@@ -27,16 +23,12 @@
 - (void);
 - (id);
 - (void);
-- (double);
+- (double)B;
 - (void);
-- (void)repareThumbnail;
+- (void)_prepareThumbnail;
 
 // Remaining properties
-@property(retain, nonatomic) CAShapeLayer *backgroundLayer; // @synthesize backgroundLayer=_backgroundLayer;
-@property(retain, nonatomic) NSProgress *observedProgress; // @synthesize observedProgress=_observedProgress;
 @property(retain, nonatomic) CAShapeLayer *pieLayer; // @synthesize pieLayer=_pieLayer;
-@property(readonly, nonatomic) double progress; // @synthesize progress=_progress;
-@property(nonatomic) _Bool removeOnCompletion; // @synthesize removeOnCompletion=_removeOnCompletion;
 
 @end
 

@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, RFTextProperty, RFVisualProperty;
+@class NSArray, NSData, RFTextProperty;
 
 @protocol RFSummaryItemAlignedTextCardSection
+- (NSArray *)%;
+- (RFTextProperty *)_handleMouseMovedForEvent:withFrame:inView: /* Error: Ran out of types for this method. */;
+- (NSData *)h;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) RFTextProperty *text_1;
-@property(retain, nonatomic) RFTextProperty *text_2;
-@property(copy, nonatomic) NSArray *text_3;
-@property(retain, nonatomic) RFTextProperty *text_4;
-@property(retain, nonatomic) RFTextProperty *text_5;
-@property(copy, nonatomic) NSArray *text_6;
-@property(retain, nonatomic) RFVisualProperty *thumbnail;
 @end
 

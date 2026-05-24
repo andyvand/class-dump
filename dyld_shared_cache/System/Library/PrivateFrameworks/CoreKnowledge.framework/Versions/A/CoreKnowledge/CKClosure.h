@@ -7,7 +7,6 @@
 @interface CKClosure
 {
     id store;
-    id entity;
 }
 
 - (id);

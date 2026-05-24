@@ -5,13 +5,10 @@
 //
 
 @protocol SCNCameraControlConfiguration
+- (double);
+- (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool allowsTranslation;
 @property(nonatomic) _Bool autoSwitchToFreeCamera;
-@property(nonatomic) double flyModeVelocity;
-@property(nonatomic) double panSensitivity;
-@property(nonatomic) double rotationSensitivity;
-@property(nonatomic) double truckSensitivity;
 @end
 

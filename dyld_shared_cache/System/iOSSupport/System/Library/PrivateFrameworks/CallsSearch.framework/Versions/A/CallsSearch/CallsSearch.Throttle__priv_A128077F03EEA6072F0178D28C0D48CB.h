@@ -8,9 +8,6 @@
 {
     id logger;
     id throttleTime;
-    id subject;
-    id inputCancellable;
-    id scheduledWorkItem;
 }
 
 @end

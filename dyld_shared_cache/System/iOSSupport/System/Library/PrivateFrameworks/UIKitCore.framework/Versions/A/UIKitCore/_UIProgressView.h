@@ -16,13 +16,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
+- (void)accountAdded: /* Error: Ran out of types for this method. */;
+- (id)o store new personal nickname %@ path%@;
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)ng mapping for MPModelPropertySongVolumeAdjustment;
 - (struct CGSize);
 - (void);
-- (id)tSearch;
+- (id)_highlightedRangeBeforeSubsequentSearch;
 - (void);
 
 // Remaining properties

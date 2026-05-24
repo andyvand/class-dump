@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSMutableDictionary, NSObject, NWPathEvaluator;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface WFServiceReachabilityObserver
 {
     long long _reachability;
-    NSObject<OS_dispatch_queue> *_observerQueue;
-    NSMutableDictionary *_blockObserversForUUID;
-    NSHashTable *_observerObjects;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    NWPathEvaluator *_serviceReachabilityEvaluator;
 }
 
 + (id);
@@ -30,28 +25,22 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)TEMPLATE_EDITOR_UPDATE_SHARED_TEMPLATE_ALERT_MESSAGE;
 - (void);
 - (_Bool);
 - (void);
-- (long long);
+- (long long);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id)ivityEvaluationURL: /* Error: Ran out of types for this method. */;
+- (id)setServiceConnectivityEvaluationURL: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSMutableDictionary *blockObserversForUUID; // @synthesize blockObserversForUUID=_blockObserversForUUID;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *callbackQueue; // @synthesize callbackQueue=_callbackQueue;
-@property(readonly) _Bool isServiceAvailable;
-@property(retain) NSHashTable *observerObjects; // @synthesize observerObjects=_observerObjects;
 @property(retain) NSObject<OS_dispatch_queue> *observerQueue; // @synthesize observerQueue=_observerQueue;
-@property(nonatomic) long long reachability; // @synthesize reachability=_reachability;
-@property(retain) NWPathEvaluator *serviceReachabilityEvaluator; // @synthesize serviceReachabilityEvaluator=_serviceReachabilityEvaluator;
 
 @end
 

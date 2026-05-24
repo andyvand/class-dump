@@ -4,33 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, TSPFileDataStorage;
-@protocol OS_dispatch_queue, TSUReadChannel;
+@class TSPFileDataStorage;
 
 @interface TSPAVAssetResourceLoaderDelegate
 {
     TSPFileDataStorage *_dataStorage;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    id <TSUReadChannel> _readChannel;
-    NSObject<OS_dispatch_queue> *_concurrentRequestQueue;
-    NSString *_contentTypeUTI;
 }
 
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)M;
 - (void)è³;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface HMDHAPMetadataCategory
 {
     NSNumber *_identifier;
-    NSString *_uuidStr;
-    NSString *_name;
-    NSString *_catDescription;
 }
 
 - (id);
@@ -27,22 +24,12 @@ __attribute__((visibility("hidden")))
 - (id)¬ß;
 - (id)t primary.;
 - (void)redentials from resident. Not falling back. Error:(id)arg1 %@;
-- (void)dth;
+- (void)kRTPParameters_MinimumVideoBandwidth;
 - (id)ÿ`;
 - (id)ZÿÔõ	\:@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *catDescription; // @synthesize catDescription=_catDescription;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSNumber *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *uuidStr; // @synthesize uuidStr=_uuidStr;
+@property(retain, nonatomic) NSString *uuidStr;
 
 @end
 

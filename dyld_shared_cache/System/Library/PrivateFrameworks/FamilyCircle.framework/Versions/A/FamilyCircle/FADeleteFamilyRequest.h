@@ -10,7 +10,7 @@
 {
 }
 
-- (void);
+- (void).ims.iari.rcs.fthttp;
 - (id);
 
 @end

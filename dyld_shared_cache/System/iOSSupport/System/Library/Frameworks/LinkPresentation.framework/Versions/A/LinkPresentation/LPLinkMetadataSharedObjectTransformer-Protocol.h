@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class LPImage, LPLinkMetadataPresentationTransformer, NSString;
+
 @protocol LPLinkMetadataSharedObjectTransformer
+- (NSString *)typingIndicatorBegin;
+- (NSString *)typingAttributes;
+- (_Bool)typeSegmentedControlBottomConstraint;
+- (NSString *)typeForAlias:(LPLinkMetadataPresentationTransformer *)arg1;
+- (LPImage *)tapbackAttributionViewModel:(LPLinkMetadataPresentationTransformer *)arg1 didTapToSaveSticker: /* Error: Ran out of types for this method. */;
+
+@optional
+- (NSString *)underlyingCKError;
 @end
 

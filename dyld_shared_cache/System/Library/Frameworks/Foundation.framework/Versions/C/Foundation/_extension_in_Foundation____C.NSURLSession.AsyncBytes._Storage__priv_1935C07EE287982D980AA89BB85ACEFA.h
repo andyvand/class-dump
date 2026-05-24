@@ -7,8 +7,6 @@
 @interface (extension in Foundation):__C.NSURLSession.AsyncBytes._Storage__priv_1935C07EE287982D980AA89BB85ACEFA
 {
     id task;
-    id delegate;
-    id data;
 }
 
 @end

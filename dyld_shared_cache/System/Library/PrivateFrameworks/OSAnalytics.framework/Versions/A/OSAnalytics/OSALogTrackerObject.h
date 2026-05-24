@@ -4,34 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableDictionary, NSString;
-
 @interface OSALogTrackerObject
 {
     unsigned long long _count;
-    NSString *_oldestLogPath;
-    NSDate *_oldestDate;
-    NSMutableDictionary *_signatures;
 }
 
++ (id)T@"TLKSimpleRowView",&,D,N;
 + (id);
-+ (id);
-- (void);
-- (void);
+- (void),N,V_shouldCenter;
+- (void),N,V_selfSizingInTwoAxes;
+- (id)B,N,V_enabled;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)4"=;
 - (void);
 - (unsigned long long);
 - (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long count; // @synthesize count=_count;
-@property(retain, nonatomic) NSDate *oldestDate; // @synthesize oldestDate=_oldestDate;
-@property(retain, nonatomic) NSString *oldestLogPath; // @synthesize oldestLogPath=_oldestLogPath;
-@property(readonly) NSMutableDictionary *signatures; // @synthesize signatures=_signatures;
 
 @end
 

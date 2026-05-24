@@ -4,80 +4,62 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSDictionary, NSError, NSString, NSURL;
+@class NSString;
 
 @interface MSAsset
 {
     _Bool _assetDataAvailableOnServer;
-    NSData *_masterAssetHash;
-    NSDictionary *_metadata;
-    NSString *_path;
-    NSURL *_MMCSURL;
-    NSData *_fileData;
-    NSError *_error;
-    NSString *_type;
-    NSData *_fileHash;
-    unsigned long long _protocolFileSize;
-    NSString *_MMCSAccessHeader;
-    NSDate *_MMCSAccessHeaderTimeStamp;
-    NSString *_MMCSReceipt;
-    NSString *_GUID;
-    NSString *_assetCollectionGUID;
-    NSDate *_batchCreationDate;
-    NSDate *_photoCreationDate;
-    id _userInfo;
-    unsigned long long _mediaAssetType;
 }
 
 + (id);
 + (id);
-+ (_Bool);
-+ (id);
++ (_Bool)�;
++ (id)$s10Accelerate24MultiplePlanePixelFormatP;
+- (void)est of the world. Setting timeout before pulling the plug.;
+- (void)%@;
+- (void)s update to %{public}@:(id)arg1 %@;
+- (void){public}@Failed to send status update to %{public}@:(unsigned long long)arg1 %@;
+- (void)(probably unaccessible));
+- (void)t device identifier is not set (probably unaccessible));
+- (void)tatus update (our resident device identifier is not set (probably unaccessible));
+- (void)blic}@ is ourself);
+- (void)led);
+- (void)us update (%{public}@ is not enabled);
+- (void)trics didn't change;
+- (void)s nil;
+- (id)P] Received HMDCameraSnapshotRemoteRelaySenderDelegate callback that the image transfer has completed with error %@;
+- (id)use accessory is unreachable remote and remote snapshots are unsupported;
+- (_Bool)t via relay because accessory is unreachable;
+- (void)@;
+- (unsigned long long)stashed home metadata so can't auto accept for home %@;
+- (void)Ds:(id)arg1 %{sensitive}@;
+- (id)%{public}@Received notification home removed:%@ /* Error: Ran out of types for this method. */;
+- (unsigned long long)updated;
+- (int)ror:%@ /* Error: Ran out of types for this method. */;
+- (unsigned long long)ory [%@] finished with error:%@ /* Error: Ran out of types for this method. */;
+- (unsigned int)blic}@Force PV with accessory [%@] finished with error:%@ /* Error: Ran out of types for this method. */;
+- (id)ncode person links:%@ /* Error: Ran out of types for this method. */;
+- (id)relationships:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)%{public}@, migrated relationships:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)ic}@;
+- (id)ting group:%@ for participant accessory uuids:%@ /* Error: Ran out of types for this method. */;
+- (id)group:%@ /* Error: Ran out of types for this method. */;
+- (unsigned long long):%@ /* Error: Ran out of types for this method. */;
+- (id)entifier:%@ /* Error: Ran out of types for this method. */;
+- (id)%{public}@Failed to get participant accessory uuid from topic:%@ /* Error: Ran out of types for this method. */;
+- (id)d:%@ /* Error: Ran out of types for this method. */;
+- (void)0A-33194DF41A06;
+- (void)-63C9-4C0F-8B89-6C36A33EEF9E;
+- (void).SettingsUpdated;
+- (unsigned long long)@?@"NSError">8;
+- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (unsigned long long);
-- (void);
-- (id);
-- (unsigned long long);
-- (int);
-- (unsigned long long);
-- (unsigned int);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
 - (id);
 - (void);
 - (id);
@@ -86,57 +68,26 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)FTLParseBufferToCxt:INDAveContigSize(105) cannot add 1 element to context /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (void);
+- (void);
+- (id)l Register for BuddyFinished Notification;
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)y;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *GUID; // @synthesize GUID=_GUID;
-@property(retain, nonatomic) NSString *MMCSAccessHeader; // @synthesize MMCSAccessHeader=_MMCSAccessHeader;
-@property(retain, nonatomic) NSDate *MMCSAccessHeaderTimeStamp; // @synthesize MMCSAccessHeaderTimeStamp=_MMCSAccessHeaderTimeStamp;
-@property(retain, nonatomic) NSError *MMCSError;
-@property(retain, nonatomic) NSData *MMCSHash; // @synthesize MMCSHash=_fileHash;
-@property(nonatomic) unsigned int MMCSItemFlags;
-@property(nonatomic) unsigned long long MMCSItemID;
-@property(nonatomic) unsigned long long MMCSItemSize; // @synthesize MMCSItemSize=_protocolFileSize;
-@property(retain, nonatomic) NSString *MMCSReceipt; // @synthesize MMCSReceipt=_MMCSReceipt;
-@property(retain, nonatomic) NSURL *MMCSURL; // @synthesize MMCSURL=_MMCSURL;
-@property(retain, nonatomic) NSString *MMCSUTI; // @synthesize MMCSUTI=_type;
-@property(retain, nonatomic) NSString *assetCollectionGUID; // @synthesize assetCollectionGUID=_assetCollectionGUID;
-@property(nonatomic) _Bool assetDataAvailableOnServer; // @synthesize assetDataAvailableOnServer=_assetDataAvailableOnServer;
-@property(retain, nonatomic) NSDate *batchCreationDate; // @synthesize batchCreationDate=_batchCreationDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(retain, nonatomic) NSData *fileData; // @synthesize fileData=_fileData;
-@property(retain, nonatomic) NSData *fileHash;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSData *masterAssetHash; // @synthesize masterAssetHash=_masterAssetHash;
-@property(nonatomic) unsigned long long mediaAssetType; // @synthesize mediaAssetType=_mediaAssetType;
-@property(retain, nonatomic) NSDictionary *metadata; // @synthesize metadata=_metadata;
-@property(retain, nonatomic) NSString *path; // @synthesize path=_path;
-@property(retain, nonatomic) NSDate *photoCreationDate; // @synthesize photoCreationDate=_photoCreationDate;
-@property(nonatomic) unsigned long long protocolFileSize;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *type;
-@property(retain, nonatomic) id userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

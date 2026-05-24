@@ -13,12 +13,12 @@
     NSView *_recoveryView;
 }
 
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
 - (void);
+- (id);
+- (void)$;
 
 // Remaining properties
 @property(retain) NSView *recoveryView; // @synthesize recoveryView=_recoveryView;

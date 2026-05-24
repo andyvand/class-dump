@@ -7,32 +7,24 @@
 @interface UICollectionViewDiffableDataSourceSectionSnapshotHandlers
 {
     CDUnknownBlockType _shouldExpandItemHandler;
-    CDUnknownBlockType _willExpandItemHandler;
-    CDUnknownBlockType _shouldCollapseItemHandler;
-    CDUnknownBlockType _willCollapseItemHandler;
-    CDUnknownBlockType _snapshotForExpandingParentItemHandler;
 }
 
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (CDUnknownBlockType)sted messagesUpdated for GUIDs %s;
+- (CDUnknownBlockType)to generate objectModelURL, aborting.;
+- (CDUnknownBlockType)dcasting to listeners;
+- (CDUnknownBlockType)eceiptsForMissingMessage cache:%@ /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)URLs:%@ /* Error: Ran out of types for this method. */;
+- (void)ill not fetch archived records;
+- (void)we fetched max live batch records, we will not fetch archived records;
+- (void)e fixing up chat participants on client connection %@ **********;
+- (void)inconsistent properties;
+- (void)hat:(CDUnknownBlockType)arg1 %@;
+- (id)e6;
 - (id)ÐÌ;
 - (void)ØFi;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType shouldCollapseItemHandler; // @synthesize shouldCollapseItemHandler=_shouldCollapseItemHandler;
 @property(copy, nonatomic) CDUnknownBlockType shouldExpandItemHandler; // @synthesize shouldExpandItemHandler=_shouldExpandItemHandler;
-@property(copy, nonatomic) CDUnknownBlockType snapshotForExpandingParentItemHandler; // @synthesize snapshotForExpandingParentItemHandler=_snapshotForExpandingParentItemHandler;
-@property(copy, nonatomic) CDUnknownBlockType willCollapseItemHandler; // @synthesize willCollapseItemHandler=_willCollapseItemHandler;
-@property(copy, nonatomic) CDUnknownBlockType willExpandItemHandler; // @synthesize willExpandItemHandler=_willExpandItemHandler;
 
 @end
 

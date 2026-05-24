@@ -5,5 +5,8 @@
 //
 
 @protocol UIPencilInteractionDelegate
+
+@optional
+- (void);
 @end
 

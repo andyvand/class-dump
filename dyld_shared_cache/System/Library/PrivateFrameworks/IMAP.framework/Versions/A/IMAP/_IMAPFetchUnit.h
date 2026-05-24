@@ -4,34 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMAPFetchDataItem, IMAPFetchResult;
-
 @interface _IMAPFetchUnit
 {
     unsigned int _uid;
-    unsigned int _expectedLength;
-    IMAPFetchDataItem *_fetchItem;
-    IMAPFetchResult *_expectedFetchResult;
 }
 
 - (void);
+- (void)�;
 - (void);
-- (void);
-- (id);
+- (id)	;
 - (_Bool);
 - (id);
 - (unsigned int);
 - (id);
 - (void);
 - (id);
-- (unsigned int);
+- (unsigned int)S_dispatch_queueCGAOGGAF_pGGGAOGAOGGGAOG;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) IMAPFetchResult *expectedFetchResult; // @synthesize expectedFetchResult=_expectedFetchResult;
-@property(nonatomic) unsigned int expectedLength; // @synthesize expectedLength=_expectedLength;
-@property(retain, nonatomic) IMAPFetchDataItem *fetchItem; // @synthesize fetchItem=_fetchItem;
 @property(nonatomic) unsigned int uid; // @synthesize uid=_uid;
 
 @end

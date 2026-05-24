@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADisplayLink, UIImage;
-
 __attribute__((visibility("hidden")))
 @interface CKBrowserIconView
 {
     double _percentComplete;
-    UIImage *_iconImage;
-    _Bool _animating;
-    double _animationStartTime;
-    double _animationStartPercentComplete;
-    double _animationEndPercentComplete;
-    CADisplayLink *_displayLink;
 }
 
 + (id);
-- (void);
+- (void)R9G;
 - (double);
 - (double);
 - (double);
@@ -37,7 +29,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (struct CGSize);
-- (id);
+- (id);
 - (id);
 - (void)q;
 - (double),»ÿ;
@@ -45,12 +37,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) _Bool animating; // @synthesize animating=_animating;
-@property(nonatomic) double animationEndPercentComplete; // @synthesize animationEndPercentComplete=_animationEndPercentComplete;
-@property(nonatomic) double animationStartPercentComplete; // @synthesize animationStartPercentComplete=_animationStartPercentComplete;
-@property(nonatomic) double animationStartTime; // @synthesize animationStartTime=_animationStartTime;
-@property(retain, nonatomic) CADisplayLink *displayLink; // @synthesize displayLink=_displayLink;
-@property(retain, nonatomic) UIImage *iconImage; // @synthesize iconImage=_iconImage;
-@property(nonatomic) double percentComplete; // @synthesize percentComplete=_percentComplete;
 
 @end
 

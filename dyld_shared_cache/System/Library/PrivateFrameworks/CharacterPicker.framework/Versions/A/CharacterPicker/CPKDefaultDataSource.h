@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CPKDefaultDataSource
 {
     id _contents;
@@ -18,19 +16,19 @@
 + (void);
 + (id);
 + (struct __EmojiLocaleDataWrapper *);
-+ (id);
-+ (id);
-+ (void);
-+ (void);
++ (id);
 + (id);
 + (void);
++ (void);
 + (id);
++ (void);
++ (id)2;
 + (long long);
 + (void);
-+ (void);
-+ (id);
-+ (void);
-+ (id);
++ (void);
++ (id)T	)@)�	K*3;
++ (void)%ɚ;
++ (id);
 + (void);
 + (_Bool);
 + (id);
@@ -41,7 +39,7 @@
 + (id);
 + (id);
 + (id);
-+ (void);
++ (void)Y;
 + (id);
 - (id);
 - (id);
@@ -57,23 +55,17 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)&;
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)cQ;
 - (void);
 - (long long);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,28 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECMessageFlagChange, EMCategory, EMFollowUp, NSArray, NSDate, NSURL;
-
 @interface EMUndoIndividualAction
 {
     _Bool _blockSender;
-    long long _actionType;
-    NSArray *_messageDatabaseIDs;
-    ECMessageFlagChange *_flagChange;
-    NSURL *_destinationMailboxURL;
-    NSDate *_readLaterDate;
-    EMFollowUp *_followUp;
-    long long _conversationID;
-    long long _conversationNotificationLevel;
-    EMCategory *_category;
 }
 
 + (_Bool);
 - (void);
+- (void)D;
 - (void);
-- (void);
-- (id);
-- (id);
+- (id)%@;
+- (id)hV@;
 - (id);
 - (long long);
 - (_Bool);
@@ -47,15 +36,6 @@
 
 // Remaining properties
 @property(nonatomic) long long actionType; // @synthesize actionType=_actionType;
-@property(nonatomic) _Bool blockSender; // @synthesize blockSender=_blockSender;
-@property(retain, nonatomic) EMCategory *category; // @synthesize category=_category;
-@property(nonatomic) long long conversationID; // @synthesize conversationID=_conversationID;
-@property(nonatomic) long long conversationNotificationLevel; // @synthesize conversationNotificationLevel=_conversationNotificationLevel;
-@property(retain, nonatomic) NSURL *destinationMailboxURL; // @synthesize destinationMailboxURL=_destinationMailboxURL;
-@property(retain, nonatomic) ECMessageFlagChange *flagChange; // @synthesize flagChange=_flagChange;
-@property(retain, nonatomic) EMFollowUp *followUp; // @synthesize followUp=_followUp;
-@property(retain, nonatomic) NSArray *messageDatabaseIDs; // @synthesize messageDatabaseIDs=_messageDatabaseIDs;
-@property(retain, nonatomic) NSDate *readLaterDate; // @synthesize readLaterDate=_readLaterDate;
 
 @end
 

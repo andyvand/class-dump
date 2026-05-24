@@ -11,16 +11,16 @@
     id <ECDMARCRecordSource> _recordSource;
 }
 
-+ (void);
++ (void)one.;
 + (long long);
 + (long long);
-- (id);
+- (id)eControlsViewController:(id)arg1 %@;
 - (long long);
 - (id);
 - (long long);
 - (long long);
 - (id);
-- (void);
+- (void)n to kWipeStatusNone;
 
 // Remaining properties
 @property(readonly, nonatomic) id <ECDMARCRecordSource> recordSource; // @synthesize recordSource=_recordSource;

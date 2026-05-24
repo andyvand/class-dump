@@ -7,11 +7,6 @@
 @interface SearchUI.ButtonItemHeaderAction
 {
     id buttonItem;
-    id sectionModel;
-    id commandEnvironment;
-    id title;
-    id symbolName;
-    id _$observationRegistrar;
 }
 
 @end

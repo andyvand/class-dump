@@ -5,6 +5,7 @@
 //
 
 @protocol _UIPointerInteractionDriverSink
+- (void)artworkIdentifier;
 - (void);
 @end
 

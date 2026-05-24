@@ -7,7 +7,6 @@
 @interface NewsFeed.SharingTagURLActivityItemSource
 {
     id model;
-    id linkPresentationSource;
 }
 
 - (id);

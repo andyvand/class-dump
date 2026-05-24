@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FigWeakReference, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface FigCaptureOSStateHandle
 {
     NSString *_title;
-    NSObject<OS_dispatch_queue> *_queue;
-    FigWeakReference *_dataProviderWeakReference;
-    CDUnknownBlockType _dataProviderBlock;
-    unsigned long long _osStateHandle;
 }
 
-+ (void)zedName;
++ (void)LocalizedName;
 - (id);
 - (id);
 - (struct os_state_data_s *);
 - (id);
-- (void);
+- (void)justification;
 - (id);
 - (id)³ÿ»ÿÃÿÌÿÔÿÜ~ÿâ;
 

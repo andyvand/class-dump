@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface HMDCHIPControllerResidentNodeStorage
@@ -13,29 +13,21 @@ __attribute__((visibility("hidden")))
 }
 
 + (id)îB;
-- (_Bool);
-- (void);
+- (_Bool)_objectsWithDuplicateStorageIdentifiersFromArray:(id)arg1;
+- (void)_capabilityTypeForContact:(id)arg1 serviceName:isActiveReceiver: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id)1ð1Â0@ù
 × ;
-- (id)eBoundingBoxData;
+- (id)faceBoundingBoxData;
 - (id)ry %@ to path %@ error %@;
 - (void)ð;
 - (id)~&$	çþ~&ì+ÿþ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSDictionary *debugDictionaryRepresentation;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy) NSDictionary *keyValueStore; // @synthesize keyValueStore=_keyValueStore;
-@property(readonly) Class superclass;
 
 @end
 

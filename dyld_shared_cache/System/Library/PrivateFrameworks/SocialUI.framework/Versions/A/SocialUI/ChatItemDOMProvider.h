@@ -6,19 +6,11 @@
 
 #import <SocialUI/DOMProvider.h>
 
-@class BalloonPluginDOMProvider, CollectiveAssociatedMessagesDOMProvider, DOMDocument, DateDOMProvider, NSMutableSet, PluginStatusDOMProvider;
+@class CollectiveAssociatedMessagesDOMProvider;
 
 @interface ChatItemDOMProvider : DOMProvider
 {
     _Bool _animateReceiptChanges;
-    _Bool _createDebugElements;
-    _Bool _altFunction;
-    _Bool _singleOptionPressed;
-    CollectiveAssociatedMessagesDOMProvider *_associatedMessagesDOMProvider;
-    BalloonPluginDOMProvider *_balloonPluginDOMProvider;
-    PluginStatusDOMProvider *_pluginStatusDOMProvider;
-    DateDOMProvider *_dateDOMProvider;
-    NSMutableSet *_guidsForAllOwnedTransfers;
 }
 
 + (_Bool);
@@ -28,19 +20,19 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -64,18 +56,18 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -94,16 +86,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) __weak DOMDocument *DOM; // @dynamic DOM;
-@property _Bool altFunction; // @synthesize altFunction=_altFunction;
-@property(nonatomic) _Bool animateReceiptChanges; // @synthesize animateReceiptChanges=_animateReceiptChanges;
 @property(readonly, nonatomic) CollectiveAssociatedMessagesDOMProvider *associatedMessagesDOMProvider; // @synthesize associatedMessagesDOMProvider=_associatedMessagesDOMProvider;
-@property(readonly, nonatomic) BalloonPluginDOMProvider *balloonPluginDOMProvider; // @synthesize balloonPluginDOMProvider=_balloonPluginDOMProvider;
-@property(nonatomic) _Bool createDebugElements; // @synthesize createDebugElements=_createDebugElements;
-@property(retain) DateDOMProvider *dateDOMProvider; // @synthesize dateDOMProvider=_dateDOMProvider;
-@property(retain) NSMutableSet *guidsForAllOwnedTransfers; // @synthesize guidsForAllOwnedTransfers=_guidsForAllOwnedTransfers;
-@property(readonly, nonatomic) PluginStatusDOMProvider *pluginStatusDOMProvider; // @synthesize pluginStatusDOMProvider=_pluginStatusDOMProvider;
-@property _Bool singleOptionPressed; // @synthesize singleOptionPressed=_singleOptionPressed;
 
 @end
 

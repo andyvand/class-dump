@@ -7,24 +7,6 @@
 @interface NewsUI2.AudioDataManager
 {
     id state;
-    id feedConfigManager;
-    id readingHistory;
-    id audioPlaylist;
-    id heroStore;
-    id playlistStore;
-    id recentlyPlayedStore;
-    id suggestionsStore;
-    id updateQueue;
-    id updateDeduper;
-    id headlineConverter;
-    id completedListeningProcessor;
-    id bundleSubscriptionManager;
-    id feedContextFactory;
-    id topOfFeedTrack;
-    id dailyBriefingTrack;
-    id upNextTracks;
-    id suggestedTracks;
-    id recentlyPlayedTracks;
 }
 
 - (void);

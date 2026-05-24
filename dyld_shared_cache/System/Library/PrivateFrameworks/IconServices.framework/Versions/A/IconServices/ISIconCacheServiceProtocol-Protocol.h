@@ -5,5 +5,6 @@
 //
 
 @protocol ISIconCacheServiceProtocol
+- (void);
 @end
 

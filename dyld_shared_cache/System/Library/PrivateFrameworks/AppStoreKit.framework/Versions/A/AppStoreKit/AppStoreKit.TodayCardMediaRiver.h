@@ -9,7 +9,6 @@
 @interface AppStoreKit.TodayCardMediaRiver : AppStoreKit.TodayCardMedia
 {
     id lockups;
-    id lockupImpressionLimit;
 }
 
 @end

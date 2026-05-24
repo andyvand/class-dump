@@ -7,8 +7,6 @@
 @interface TSWPLineSpacing
 {
     int _mode;
-    double _amount;
-    double _baselineRule;
 }
 
 + (id);
@@ -19,7 +17,7 @@
 - (int);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)%{public}@;
 - (id);
 
 @end

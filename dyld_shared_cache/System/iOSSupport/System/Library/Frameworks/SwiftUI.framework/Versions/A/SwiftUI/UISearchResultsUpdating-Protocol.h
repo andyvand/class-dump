@@ -5,5 +5,8 @@
 //
 
 @protocol UISearchResultsUpdating
+
+@optional
+- (void)=;
 @end
 

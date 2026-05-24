@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CWInterface, NSString, SFPasswordSharingService;
+@class CWInterface, SFPasswordSharingService;
 
 @interface CWPasswordSharingSimulator
 {
     SFPasswordSharingService *_service;
-    CWInterface *_interface;
-    NSString *_ssid;
 }
 
-- (void);
+- (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
-- (void);
+- (void)!;
 - (id)d: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) CWInterface *interface; // @synthesize interface=_interface;
-@property(readonly) NSString *ssid; // @synthesize ssid=_ssid;
 
 @end
 

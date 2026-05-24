@@ -13,9 +13,9 @@
 
 - (_Bool);
 - (id);
-- (id);
+- (id)dijkhoertje;
 - (void);
-- (void);
+- (void)#;
 
 // Remaining properties
 @property(readonly, nonatomic) CSReceiverServerPreferences *serverPreferences; // @synthesize serverPreferences=_serverPreferences;

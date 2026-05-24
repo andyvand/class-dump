@@ -6,8 +6,6 @@
 
 #import <WiFiAnalytics/WADeviceAnalyticsDatedRecord.h>
 
-@class NSDecimalNumber, NSString, WADeviceAnalyticsFaultRecord;
-
 @interface WADeviceAnalyticsLinkTestRecord : WADeviceAnalyticsDatedRecord
 {
 }
@@ -17,36 +15,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool badDNSServers; // @dynamic badDNSServers;
-@property(nonatomic) _Bool badGateway; // @dynamic badGateway;
-@property(nonatomic) _Bool dnsResultsValid; // @dynamic dnsResultsValid;
-@property(nonatomic) _Bool dnsSuccess; // @dynamic dnsSuccess;
-@property(retain, nonatomic) WADeviceAnalyticsFaultRecord *fault; // @dynamic fault;
-@property(nonatomic) _Bool foundCriticalFailure; // @dynamic foundCriticalFailure;
-@property(copy, nonatomic) NSDecimalNumber *gatewayMaxRTT; // @dynamic gatewayMaxRTT;
-@property(copy, nonatomic) NSDecimalNumber *gatewayMinRTT; // @dynamic gatewayMinRTT;
-@property(copy, nonatomic) NSDecimalNumber *gatewayPacketLoss; // @dynamic gatewayPacketLoss;
-@property(nonatomic) _Bool gatewayResultsValid; // @dynamic gatewayResultsValid;
-@property(copy, nonatomic) NSString *initiatingReason; // @dynamic initiatingReason;
-@property(nonatomic) _Bool isTriggeredByFault; // @dynamic isTriggeredByFault;
-@property(copy, nonatomic) NSDecimalNumber *localDNSMaxRTT; // @dynamic localDNSMaxRTT;
-@property(copy, nonatomic) NSDecimalNumber *localDNSMinRTT; // @dynamic localDNSMinRTT;
-@property(copy, nonatomic) NSDecimalNumber *localDNSPacketLoss; // @dynamic localDNSPacketLoss;
-@property(nonatomic) _Bool localResultsValid; // @dynamic localResultsValid;
-@property(copy, nonatomic) NSDecimalNumber *publicDNSMaxRTT; // @dynamic publicDNSMaxRTT;
-@property(copy, nonatomic) NSDecimalNumber *publicDNSMinRTT; // @dynamic publicDNSMinRTT;
-@property(copy, nonatomic) NSDecimalNumber *publicDNSPacketLoss; // @dynamic publicDNSPacketLoss;
-@property(nonatomic) _Bool publicResultsValid; // @dynamic publicResultsValid;
-@property(nonatomic) _Bool seenSpecificAcFailure; // @dynamic seenSpecificAcFailure;
-@property(nonatomic) _Bool siriTCPResultsValid; // @dynamic siriTCPResultsValid;
-@property(nonatomic) _Bool siriTCPSuccess; // @dynamic siriTCPSuccess;
-@property(nonatomic) _Bool siriTLSResultsValid; // @dynamic siriTLSResultsValid;
-@property(nonatomic) _Bool siriTLSSuccess; // @dynamic siriTLSSuccess;
-@property(nonatomic) int siriTrafficClass; // @dynamic siriTrafficClass;
-@property(copy, nonatomic) NSString *statusForDNS; // @dynamic statusForDNS;
-@property(copy, nonatomic) NSString *statusForInternet; // @dynamic statusForInternet;
-@property(copy, nonatomic) NSString *statusForLocal; // @dynamic statusForLocal;
-@property(copy, nonatomic) NSString *statusForSiriTCP; // @dynamic statusForSiriTCP;
-@property(copy, nonatomic) NSString *statusForSiriTLS; // @dynamic statusForSiriTLS;
 
 @end
 

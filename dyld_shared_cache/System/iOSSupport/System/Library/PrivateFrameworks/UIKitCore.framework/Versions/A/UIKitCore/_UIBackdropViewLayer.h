@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     _UIBackdropView *_backdropView;
 }
 
-- (void);
+- (void)8Z;
 - (void)eate group;
-- (id)C;
-- (void)nnectionOptionDefinitionStorageInvokable;
+- (id)So14_UIMenuBuilderC;
+- (void)_UISceneConnectionOptionDefinitionStorageInvokable;
 
 // Remaining properties
 @property(nonatomic) _UIBackdropView *backdropView; // @synthesize backdropView=_backdropView;

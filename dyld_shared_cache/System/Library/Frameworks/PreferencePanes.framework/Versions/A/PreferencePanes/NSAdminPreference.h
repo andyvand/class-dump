@@ -7,16 +7,10 @@
 #import <PreferencePanes/NSPreference.h>
 
 @class NSString, SFAuthorizationView;
-@protocol NSAdminPrefAuthenticator;
 
 @interface NSAdminPreference : NSPreference
 {
     SFAuthorizationView *comboAuthButton;
-    id <NSAdminPrefAuthenticator> authenticator;
-    id <NSAdminPrefAuthenticator> _realAuthenticator;
-    _Bool _ignoreShouldDeauthorize;
-    _Bool _deauthenticatePending;
-    NSString *_bundleID;
 }
 
 + (void);
@@ -24,7 +18,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)C;
 - (void);
 - (char *);
 - (void);
@@ -33,8 +27,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)S2I_ASN1_SKEY_ID;
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -44,8 +38,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)?;
+- (id)reportModalMessageWasPresentedWithIdentifier:(id)arg1;
 
 // Remaining properties
 @property(copy) NSString *bundleID; // @synthesize bundleID=_bundleID;

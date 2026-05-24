@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id);
+- (id)e).  While these latter conditions might not be strictly illegal, they are clearly foolish.;
 - (id)WLiteConnectionMessageHandler, adding interface;
 
 @end

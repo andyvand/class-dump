@@ -4,39 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-
 @interface PKCreditRecoveryPaymentPlan
 {
     _Bool _enrolled;
-    NSString *_identifier;
-    NSString *_displayName;
-    NSDate *_enrollmentDate;
 }
 
 + (_Bool)0@ù
 × ;
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
+- (void)U;
 - (void);
 - (id);
 - (id);
+- (_Bool)#;
+- (void);
 - (id);
+- (id);
+- (id)%B)*;
 - (void);
 - (void);
 - (id);
 - (id)
 × ;
-- (void)RD;
+- (void)TRANSIT_CARD;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
 @property(nonatomic) _Bool enrolled; // @synthesize enrolled=_enrolled;
-@property(copy, nonatomic) NSDate *enrollmentDate; // @synthesize enrollmentDate=_enrollmentDate;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end
 

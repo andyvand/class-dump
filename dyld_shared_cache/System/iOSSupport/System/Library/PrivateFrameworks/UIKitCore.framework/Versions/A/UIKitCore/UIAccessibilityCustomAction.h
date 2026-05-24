@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString, UIImage;
+@class UIImage;
 
 @interface UIAccessibilityCustomAction
 {
     UIImage *_image;
-    NSAttributedString *_attributedName;
-    id _target;
-    SEL _selector;
-    CDUnknownBlockType _actionHandler;
-    NSString *_category;
 }
 
 @end

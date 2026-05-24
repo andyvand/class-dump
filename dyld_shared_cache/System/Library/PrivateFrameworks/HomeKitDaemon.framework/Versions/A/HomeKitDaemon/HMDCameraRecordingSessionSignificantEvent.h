@@ -4,34 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSSet, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraRecordingSessionSignificantEvent
 {
     NSUUID *_UUID;
-    unsigned long long _reason;
-    NSDate *_dateOfOccurrence;
-    unsigned long long _confidenceLevel;
-    NSUUID *_sessionEntityUUID;
-    NSSet *_faceClassifications;
-    NSData *_heroFrameData;
-    NSData *_faceCropData;
-    double _timeOffsetWithinClip;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)_TtP8MapsSync21MapsSyncStoreDelegate_;
+- (void)h;
+- (void)u;
+- (void)ontains identifier %@;
+- (void)entifier;
+- (id)l now arrive around %2$@;
 - (id);
 - (id);
 - (id);
 - (double);
-- (void);
-- (id);
+- (void)16Q32@40;
+- (id)setPassesSettlingEffect: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (unsigned long long);
 - (id);
@@ -39,7 +31,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id)0@ù
 × ;
-- (id)ekDaySchedules:(struct _NSZone *)arg1 andYearDaySchedules:requireFullScheduleAudit:flow: /* Error: Ran out of types for this method. */;
+- (id)findOrAddUserWithUniqueID:(struct _NSZone *)arg1 withWeekDaySchedules:andYearDaySchedules:requireFullScheduleAudit:flow: /* Error: Ran out of types for this method. */;
 - (void) ¨;
 - (id)added:(id)arg1 %{public}@;
 - (id):%@ /* Error: Ran out of types for this method. */;
@@ -47,15 +39,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property unsigned long long confidenceLevel; // @synthesize confidenceLevel=_confidenceLevel;
-@property(copy) NSDate *dateOfOccurrence; // @synthesize dateOfOccurrence=_dateOfOccurrence;
-@property(copy) NSSet *faceClassifications; // @synthesize faceClassifications=_faceClassifications;
-@property(retain) NSData *faceCropData; // @synthesize faceCropData=_faceCropData;
-@property(retain) NSData *heroFrameData; // @synthesize heroFrameData=_heroFrameData;
 @property unsigned long long reason; // @synthesize reason=_reason;
-@property(copy) NSUUID *sessionEntityUUID; // @synthesize sessionEntityUUID=_sessionEntityUUID;
-@property double timeOffsetWithinClip; // @synthesize timeOffsetWithinClip=_timeOffsetWithinClip;
 
 @end
 

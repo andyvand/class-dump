@@ -6,13 +6,9 @@
 
 #import <QuickLookThumbnailingDaemon/QLCacheIndexDatabaseGenericEnumerator.h>
 
-@class QLCacheVersionedFileIdentifier;
-
 @interface QLCacheIndexDatabaseFileInfoEnumerator : QLCacheIndexDatabaseGenericEnumerator
 {
     _Bool _extraInfo;
-    _Bool _ubiquitous;
-    QLCacheVersionedFileIdentifier *_fileIdentifier;
 }
 
 - (_Bool);

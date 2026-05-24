@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString;
-
 @interface TBCacheAnalyticsEvent
 {
     unsigned long long _status;
-    NSNumber *_staleness;
-    NSNumber *_tileKey;
-    NSNumber *_type;
-    NSNumber *_errorCode;
-    NSString *_eventName;
-    NSDictionary *_eventDictionary;
 }
 
 + (id);
-+ (id);
++ (id)@"NSString",R,C,N;
 + (id);
 - (void);
 - (void);
@@ -31,26 +23,13 @@
 - (void);
 - (void);
 - (void);
-- (void)Request:(id)arg1 candidateListIncluded:isAbridged:disassociationImminent:bssTerminationIncluded:essDisassociationImminent: /* Error: Ran out of types for this method. */;
-- (void)e6EModeAtStart;
+- (void)receivedBssTransitionRequest:(id)arg1 candidateListIncluded:isAbridged:disassociationImminent:bssTerminationIncluded:essDisassociationImminent: /* Error: Ran out of types for this method. */;
+- (void)NetworkDisable6EModeAtStart;
 - (id)púÿó#;
 - (id)Úùÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) NSNumber *errorCode; // @synthesize errorCode=_errorCode;
-@property(retain, nonatomic) NSDictionary *eventDictionary; // @synthesize eventDictionary=_eventDictionary;
-@property(retain, nonatomic) NSString *eventName; // @synthesize eventName=_eventName;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) NSNumber *staleness; // @synthesize staleness=_staleness;
 @property(nonatomic) unsigned long long status; // @synthesize status=_status;
-@property(readonly) Class superclass;
-@property(nonatomic) NSNumber *tileKey; // @synthesize tileKey=_tileKey;
-@property(nonatomic) NSNumber *type; // @synthesize type=_type;
 
 @end
 

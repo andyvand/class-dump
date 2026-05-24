@@ -13,7 +13,7 @@
 + (Class);
 + (long long)umber",&,N,S_setIsOwnedByCurrentUser: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)earchProvider:(id)arg1;
+- (id)StringAsSearchProvider:(id)arg1;
 
 @end
 

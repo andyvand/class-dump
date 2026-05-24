@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMCameraClipManager, HMCameraRecordingReachabilityEventManager, NSMapTable, NSString, _HMContext;
+@class _HMContext;
 
 @interface HMCameraRecordingEventManager
 {
     struct os_unfair_lock_s _lock;
-    _HMContext *_context;
-    HMCameraRecordingReachabilityEventManager *_reachabilityEventManager;
-    HMCameraClipManager *_clipManager;
-    NSMapTable *_delegateCallersByObservers;
 }
 
-+ (id)deUpdateRequestValueCodingKeyAccessoryAccessCodeValue;
++ (id)HMAccessCodeUpdateRequestValueCodingKeyAccessoryAccessCodeValue;
 - (void);
 - (void);
 - (id);
@@ -26,17 +22,17 @@
 - (void);
 - (void);
 - (void);
+- (void)#;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void);
+- (id)>		!	B	3	;
+- (void)reenTime;
 - (void);
 - (id)ÁÜ°!Fù±Y1Â0@ù
 × ;
@@ -44,18 +40,7 @@
 - (void)`;
 
 // Remaining properties
-@property(readonly) HMCameraClipManager *clipManager; // @synthesize clipManager=_clipManager;
 @property(readonly) _HMContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) NSMapTable *delegateCallersByObservers; // @synthesize delegateCallersByObservers=_delegateCallersByObservers;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) HMCameraRecordingReachabilityEventManager *reachabilityEventManager; // @synthesize reachabilityEventManager=_reachabilityEventManager;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSString *zoneName;
 
 @end
 

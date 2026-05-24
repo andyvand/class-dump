@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXGLayout;
+@class PXGLayout;
 
 @interface PXStoryRelatedAnimationDelegate
 {
     PXGLayout *_rootLayout;
-    struct CGRect _selectedRelatedInitialRect;
-    struct CGRect _selectedRelatedFinalRect;
-    CDStruct_2bd92d94 _selectedRelatedInitialCornerRadius;
-    CDStruct_2bd92d94 _selectedRelatedFinalCornerRadius;
-    double _tolerance;
 }
 
 - (id);
@@ -25,13 +20,7 @@
 - (void)RevealAlbumsIntent;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

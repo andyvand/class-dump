@@ -7,13 +7,10 @@
 @interface PAContentTransform
 {
     struct CATransform3D _transform;
-    struct CATransform3D _inverseTransform;
-    struct CGRect _extent;
-    struct CGRect _viewport;
 }
 
 + (id);
-+ (id);
++ (id)P;
 + (struct CGAffineTransform);
 - (struct CGRect);
 - (struct CGRect);
@@ -27,26 +24,16 @@
 - (id);
 - (id);
 - (struct CGRect);
-- (struct CGPoint);
+- (struct CGPoint);
 - (struct CGSize);
 - (struct CATransform3D);
-- (struct CGRect);
+- (struct CGRect)=;
 - (struct CGAffineTransform);
 - (id);
 - (struct CATransform3D);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGAffineTransform affineTransform;
 @property(readonly, nonatomic) struct CGRect contentBounds; // @synthesize contentBounds=_extent;
-@property(readonly, nonatomic) struct CGRect integralVisibleViewContentBounds;
-@property(readonly, nonatomic) struct CGAffineTransform inverseAffineTransform;
-@property(readonly, nonatomic) struct CATransform3D inverseTransform; // @synthesize inverseTransform=_inverseTransform;
-@property(readonly, nonatomic) struct CATransform3D transform; // @synthesize transform=_transform;
-@property(readonly, nonatomic) struct CGRect viewBounds; // @synthesize viewBounds=_viewport;
-@property(readonly, nonatomic) struct CGRect viewContentBounds;
-@property(readonly, nonatomic) struct CGSize viewContentSize;
-@property(readonly, nonatomic) struct CGRect visibleContentBounds;
-@property(readonly, nonatomic) struct CGRect visibleViewContentBounds;
 
 @end
 

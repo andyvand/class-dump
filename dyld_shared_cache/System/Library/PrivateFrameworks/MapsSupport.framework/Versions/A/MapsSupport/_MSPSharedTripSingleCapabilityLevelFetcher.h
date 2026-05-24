@@ -4,36 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GCDTimer, MSPSharedTripContact, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class MSPSharedTripContact;
 
 __attribute__((visibility("hidden")))
 @interface _MSPSharedTripSingleCapabilityLevelFetcher
 {
     MSPSharedTripContact *_contact;
-    CDUnknownBlockType _completion;
-    _MSPSharedTripSingleCapabilityLevelFetcher *_keepAliveReference;
-    double _timeoutInterval;
-    GCDTimer *_timeoutTimer;
-    unsigned long long _type;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
 }
 
-- (id);
-- (void);
+- (id);
+- (void)l;
 - (void);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

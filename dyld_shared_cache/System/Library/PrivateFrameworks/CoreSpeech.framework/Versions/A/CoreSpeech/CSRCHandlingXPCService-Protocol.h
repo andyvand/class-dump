@@ -5,5 +5,6 @@
 //
 
 @protocol CSRCHandlingXPCService
+- (void);
 @end
 

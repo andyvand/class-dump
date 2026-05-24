@@ -4,58 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexPath, NSMutableArray, NSMutableDictionary, NSMutableSet, NSString, TKTonePickerItem, TLAlert, TLToneManager;
-@protocol TKTonePickerControllerDelegate, TLToneStoreDownloadController;
+@class TLToneManager;
 
 @interface TKTonePickerController
 {
     TLToneManager *_toneManager;
-    unsigned long long _toneTypes;
-    _Bool _defaultToneIdentifierWasExplicitlySet;
-    _Bool _selectedToneWasExplicitlySetToDefaultTone;
-    _Bool _selectedVibrationIdentifierWasExplicitlySet;
-    _Bool _showsNoneWasExplicitlySet;
-    _Bool _isToneStoreDownloadButtonAllowed;
-    long long _toneStoreDownloadButtonState;
-    NSMutableDictionary *_activeToneStoreDownloadsByIdentifier;
-    NSMutableDictionary *_finishedToneStoreDownloadsByIdentifier;
-    _Bool _shouldFreezeContentsOriginatingFromToneManager;
-    _Bool _hasLoadedTonesOnce;
-    NSMutableArray *_cachedPickerSectionItems;
-    NSMutableArray *_cachedPickerRowItems;
-    NSArray *_installedTones;
-    NSMutableArray *_toneGroupLists;
-    NSMutableArray *_toneGroupNames;
-    NSMutableArray *_toneGroupBucketIdentifiers;
-    NSMutableSet *_identifiersOfRemovableTones;
-    TLAlert *_playingAlert;
-    _Bool _showsDefault;
-    _Bool _showsNone;
-    _Bool _noneAtTop;
-    _Bool _showsNothingSelected;
-    _Bool _showsToneStore;
-    _Bool _mediaAtTop;
-    _Bool _showsVibrations;
-    _Bool _showsIgnoreMute;
-    _Bool _ignoreMute;
-    _Bool _showsReflectionRemixesInline;
-    _Bool __behavesAsRingtonePicker;
-    id <TKTonePickerControllerDelegate> _delegate;
-    long long _alertType;
-    NSString *_topic;
-    NSString *_defaultToneIdentifier;
-    NSString *_noneString;
-    long long _targetDevice;
-    NSString *_selectedVibrationIdentifier;
-    NSString *_overrideFirstToneSectionTitle;
-    id <TLToneStoreDownloadController> _toneStoreDownloadController;
-    NSArray *__classicRingtoneIdentifiers;
-    NSArray *__classicAlertToneIdentifiers;
-    unsigned long long __selectedClassicRingtoneIndex;
-    unsigned long long __selectedClassicAlertToneIndex;
-    NSArray *__remixRingtoneIdentifiers;
-    unsigned long long __selectedRemixRingtoneIndex;
-    NSIndexPath *__selectedToneIndexPath;
 }
 
 + (void);
@@ -65,12 +18,15 @@
 - (void);
 - (id);
 - (void);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (void)W;
+- (void);
+- (void)P;
 - (void);
 - (void);
 - (void);
@@ -79,10 +35,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -100,7 +53,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)";
 - (void);
 - (void);
 - (void);
@@ -109,7 +62,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)@;
 - (void);
 - (void);
 - (void);
@@ -133,7 +86,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)T`;
 - (void);
 - (void);
 - (void);
@@ -143,15 +96,15 @@
 - (id);
 - (id);
 - (unsigned long long);
+- (id)p&;
 - (id);
 - (id);
-- (id);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)C;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -185,7 +138,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)N;
 - (id);
 - (id);
 - (id);
@@ -215,7 +168,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)E;
 - (void);
 - (void);
 - (long long);
@@ -223,56 +176,7 @@
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *_alertTonesPlistName;
-@property(nonatomic, setter=_setBehavesAsRingtonePicker:) _Bool _behavesAsRingtonePicker; // @synthesize _behavesAsRingtonePicker=__behavesAsRingtonePicker;
-@property(retain, nonatomic, setter=_setClassicAlertToneIdentifiers:) NSArray *_classicAlertToneIdentifiers; // @synthesize _classicAlertToneIdentifiers=__classicAlertToneIdentifiers;
-@property(retain, nonatomic, setter=_setClassicRingtoneIdentifiers:) NSArray *_classicRingtoneIdentifiers; // @synthesize _classicRingtoneIdentifiers=__classicRingtoneIdentifiers;
-@property(readonly, nonatomic) NSIndexPath *_indexPathForDefaultGroup;
-@property(readonly, nonatomic) NSIndexPath *_indexPathForFirstToneGroup;
-@property(readonly, nonatomic) NSIndexPath *_indexPathForMediaGroup;
-@property(readonly, nonatomic) NSIndexPath *_indexPathForNone;
-@property(readonly, nonatomic) NSIndexPath *_indexPathForReflectionRemixHeader;
-@property(readonly, nonatomic) NSIndexPath *_indexPathForToneStoreGroup;
-@property(readonly, nonatomic) NSIndexPath *_indexPathForVibrationGroup;
-@property(retain, nonatomic, setter=_setRemixRingtoneIdentifiers:) NSArray *_remixRingtoneIdentifiers; // @synthesize _remixRingtoneIdentifiers=__remixRingtoneIdentifiers;
-@property(readonly, nonatomic) NSString *_ringtonesPlistName;
-@property(nonatomic, setter=_setSelectedClassicAlertToneIndex:) unsigned long long _selectedClassicAlertToneIndex; // @synthesize _selectedClassicAlertToneIndex=__selectedClassicAlertToneIndex;
-@property(nonatomic, setter=_setSelectedClassicRingtoneIndex:) unsigned long long _selectedClassicRingtoneIndex; // @synthesize _selectedClassicRingtoneIndex=__selectedClassicRingtoneIndex;
-@property(nonatomic, setter=_setSelectedRemixRingtoneIndex:) unsigned long long _selectedRemixRingtoneIndex; // @synthesize _selectedRemixRingtoneIndex=__selectedRemixRingtoneIndex;
-@property(retain, nonatomic, setter=_setSelectedToneIndexPath:) NSIndexPath *_selectedToneIndexPath; // @synthesize _selectedToneIndexPath=__selectedToneIndexPath;
-@property(retain, nonatomic, setter=_setToneManager:) TLToneManager *_toneManager;
-@property(readonly, nonatomic) TKTonePickerItem *_topLevelSelectedTonePickerItem;
-@property(readonly, nonatomic) long long alertType; // @synthesize alertType=_alertType;
-@property(readonly, nonatomic) _Bool canShowStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy, nonatomic) NSString *defaultToneIdentifier; // @synthesize defaultToneIdentifier=_defaultToneIdentifier;
-@property(nonatomic) __weak id <TKTonePickerControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool ignoreMute; // @synthesize ignoreMute=_ignoreMute;
-@property(readonly, nonatomic) NSIndexPath *indexPathForSelectedTone;
-@property(nonatomic, getter=isMediaAtTop) _Bool mediaAtTop; // @synthesize mediaAtTop=_mediaAtTop;
-@property(nonatomic, getter=isNoneAtTop) _Bool noneAtTop; // @synthesize noneAtTop=_noneAtTop;
-@property(copy, nonatomic) NSString *noneString; // @synthesize noneString=_noneString;
-@property(readonly, nonatomic) long long numberOfSections;
-@property(copy, nonatomic) NSString *overrideFirstToneSectionTitle; // @synthesize overrideFirstToneSectionTitle=_overrideFirstToneSectionTitle;
-@property(copy, nonatomic) NSString *selectedToneIdentifier;
-@property(readonly, nonatomic) TKTonePickerItem *selectedTonePickerItem;
-@property(copy, nonatomic) NSString *selectedVibrationIdentifier; // @synthesize selectedVibrationIdentifier=_selectedVibrationIdentifier;
-@property(nonatomic) _Bool showsDefault; // @synthesize showsDefault=_showsDefault;
-@property(nonatomic) _Bool showsIgnoreMute; // @synthesize showsIgnoreMute=_showsIgnoreMute;
-@property(nonatomic) _Bool showsNone; // @synthesize showsNone=_showsNone;
-@property(nonatomic) _Bool showsNothingSelected; // @synthesize showsNothingSelected=_showsNothingSelected;
-@property(nonatomic, setter=setShowsReflectionRemixesInline:) _Bool showsReflectionRemixesInline; // @synthesize showsReflectionRemixesInline=_showsReflectionRemixesInline;
 @property(nonatomic) _Bool showsToneStore; // @synthesize showsToneStore=_showsToneStore;
-@property(nonatomic) _Bool showsVibrations; // @synthesize showsVibrations=_showsVibrations;
-@property(readonly) Class superclass;
-@property(nonatomic) long long targetDevice; // @synthesize targetDevice=_targetDevice;
-@property(retain, nonatomic) id <TLToneStoreDownloadController> toneStoreDownloadController; // @synthesize toneStoreDownloadController=_toneStoreDownloadController;
-@property(copy, nonatomic) NSString *topic; // @synthesize topic=_topic;
 
 @end
 

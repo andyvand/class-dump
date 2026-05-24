@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary;
-
 @protocol SFTableColumnAlignment
 
 // Remaining properties
 @property(nonatomic) int columnAlignment;
-@property(nonatomic) int dataAlignment;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) _Bool isEqualWidth;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

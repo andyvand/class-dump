@@ -13,16 +13,16 @@
     NSAttributedString *_smsFallbackStatusTitleLabelAttributedText;
 }
 
-- (void);
-- (BOOL);
-- (id);
-- (void);
+- (void)setManagedObjectContexts: /* Error: Ran out of types for this method. */;
+- (BOOL)setCompletionHandlers: /* Error: Ran out of types for this method. */;
+- (id)lastPathComponent;
+- (void)headingStyleFontSizeThreshold;
 - (id);
 - (struct CGSize);
-- (id);
+- (id)ԏ;
 - (id);
 - (_Bool);
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets)0v;
 - (Class);
 - (unsigned long long)loudKitSyncState";
 - (void)ÿ- ;

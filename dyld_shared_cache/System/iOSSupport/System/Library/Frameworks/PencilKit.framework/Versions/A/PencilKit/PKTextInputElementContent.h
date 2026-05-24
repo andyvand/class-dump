@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKTextInputElement, UITextInputTraits, UIView, UIWKDocumentContext;
-@protocol UITextInput, UIWKInteractionViewProtocol;
+@class PKTextInputElement;
 
 @interface PKTextInputElementContent
 {
     PKTextInputElement *_element;
-    UITextInputTraits *_textInputTraits;
-    long long _dataLoadedState;
-    id <UITextInput> __textInput;
-    id <UITextInput> __webTextInput;
-    NSString *__webComposedContextString;
-    UIView<UIWKInteractionViewProtocol> *__webDocumentSourceView;
-    UIWKDocumentContext *__webDocumentContext;
-    UIWKDocumentContext *__webDocumentCurrentLineContext;
 }
 
 - (id);
@@ -79,33 +70,17 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
-- (long long);
-- (struct _NSRange)hts;
-- (id)VisibleStrokesWithAdditionalStrokesForDirtyDrawing: /* Error: Ran out of types for this method. */;
-- (id)tionalLayoutMargins;
+- (long long)ctedVariantIndex;
+- (struct _NSRange)sortedWeights;
+- (id)setCachedVisibleStrokesWithAdditionalStrokesForDirtyDrawing: /* Error: Ran out of types for this method. */;
+- (id)__directionalLayoutMargins;
 - (void)mmandBuffer;
 - (long long)p;
 
 // Remaining properties
-@property(nonatomic) __weak id <UITextInput> _textInput; // @synthesize _textInput=__textInput;
-@property(retain, nonatomic) NSString *_webComposedContextString; // @synthesize _webComposedContextString=__webComposedContextString;
-@property(retain, nonatomic) UIWKDocumentContext *_webDocumentContext; // @synthesize _webDocumentContext=__webDocumentContext;
-@property(retain, nonatomic) UIWKDocumentContext *_webDocumentCurrentLineContext; // @synthesize _webDocumentCurrentLineContext=__webDocumentCurrentLineContext;
-@property(nonatomic) __weak UIView<UIWKInteractionViewProtocol> *_webDocumentSourceView; // @synthesize _webDocumentSourceView=__webDocumentSourceView;
-@property(nonatomic) __weak id <UITextInput> _webTextInput; // @synthesize _webTextInput=__webTextInput;
-@property(readonly, nonatomic) long long contentLength;
 @property(nonatomic, setter=_setDataLoadedState:) long long dataLoadedState; // @synthesize dataLoadedState=_dataLoadedState;
-@property(readonly, nonatomic) PKTextInputElement *element; // @synthesize element=_element;
-@property(readonly, nonatomic) _Bool isReadyForTextEdits;
-@property(readonly, nonatomic) _Bool isSingleLineDocumentContent;
-@property(readonly, nonatomic) _Bool isWebKitElement;
-@property(readonly, nonatomic) long long keyboardType;
-@property(readonly, nonatomic) struct _NSRange selectedRange;
-@property(readonly, nonatomic) _Bool supportsAutoLineBreaks;
-@property(readonly, nonatomic) NSString *textContentType;
-@property(retain, nonatomic) UITextInputTraits *textInputTraits; // @synthesize textInputTraits=_textInputTraits;
 
 @end
 

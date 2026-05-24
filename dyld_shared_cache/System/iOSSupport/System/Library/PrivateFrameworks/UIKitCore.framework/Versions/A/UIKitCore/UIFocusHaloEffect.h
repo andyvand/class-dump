@@ -6,30 +6,24 @@
 
 #import <UIKitCore/UIFocusEffect.h>
 
-@class UIView, _UIShape;
-@protocol UICoordinateSpace;
+@class _UIShape;
 
 @interface UIFocusHaloEffect : UIFocusEffect
 {
     struct {
         unsigned int isResolved:1;
     } _flags;
-    UIView *_containerView;
-    UIView *_referenceView;
-    long long _position;
-    _UIShape *__shape;
-    id <UICoordinateSpace> __shapeCoordinateSpace;
 }
 
-+ (id);
++ (id)E;
 + (id);
 + (id);
 + (id);
 - (id);
 - (id);
-- (id);
-- (long long)idEnd: /* Error: Ran out of types for this method. */;
-- (_Bool)yUnderLeftIndexFinger;
+- (id);
+- (long long)textViewWritingToolsDidEnd: /* Error: Ran out of types for this method. */;
+- (_Bool)getCenterForKeyUnderLeftIndexFinger;
 - (id)HI;
 - (id)@_;
 - (void)(Äæþ;
@@ -40,10 +34,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _UIShape *_shape; // @synthesize _shape=__shape;
-@property(readonly, nonatomic) id <UICoordinateSpace> _shapeCoordinateSpace; // @synthesize _shapeCoordinateSpace=__shapeCoordinateSpace;
-@property(nonatomic) __weak UIView *containerView; // @synthesize containerView=_containerView;
-@property(nonatomic) long long position; // @synthesize position=_position;
-@property(nonatomic) __weak UIView *referenceView; // @synthesize referenceView=_referenceView;
 
 @end
 

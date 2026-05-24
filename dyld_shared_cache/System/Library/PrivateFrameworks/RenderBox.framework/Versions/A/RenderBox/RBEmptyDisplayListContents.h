@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface RBEmptyDisplayListContents
 {
@@ -17,28 +15,16 @@ __attribute__((visibility("hidden")))
 - (float);
 - (const void *);
 - (const void *);
-- (struct CGRect);
+- (struct CGRect)test failed to start scanning of type:%d with error:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (void)ÔÁû °!Cù±$ð1Â0@ù
 × ;
-- (id)kedDrawable;
+- (id)allowsPackedDrawable;
 
 // Remaining properties
 @property(readonly, nonatomic) const void *_rb_contents;
-@property(readonly, nonatomic) const void *_rb_xml_document;
-@property(readonly, nonatomic) struct CGRect boundingRect;
-@property(readonly, nonatomic) float contentHeadroom;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isEmpty) _Bool empty;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *xmlDescription;
 
 @end
 

@@ -4,51 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOTrailingEntityActionDetails
 {
     PBUnknownFields *_unknownFields;
-    NSString *_displayedString;
-    int _trailingEntityType;
-    struct {
-        unsigned int has_trailingEntityType:1;
-    } _flags;
 }
 
-+ (_Bool)etMetadataTileBuildId:(id)arg1;
++ (_Bool)setMetadataTileBuildId:(id)arg1;
 - (id);
 - (int);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)performSelector:withObject: /* Error: Ran out of types for this method. */;
 - (id);
 - (int);
 - (void);
 - (id);
-- (id);
+- (id)P;
 - (void);
 - (void);
-- (void);
+- (void)initWithData:(id)arg1 hash:locale:digest:signature:certificate: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)pe"b1};
-- (id)lPercent;
-- (id)uppression;
-- (id)e;
+- (id)hasTriggeredLocationTraversalPercent;
+- (id)GEOLogMsgEventShowcaseSuppression;
+- (id)includeTravelTime;
 - (void)A'WQ@;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *displayedString;
-@property(readonly, nonatomic) _Bool hasDisplayedString;
 @property(nonatomic) _Bool hasTrailingEntityType;
-@property(nonatomic) int trailingEntityType;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -12,8 +12,8 @@
 
 + (id);
 + (id);
-- (id);
-- (unsigned int);
+- (id)ed for '%{public}@' is raw data, but we do not expect it. Discarding.;
+- (unsigned int)GroupTitle is not supported in your app.;
 - (id);
 - (void);
 - (id);

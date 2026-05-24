@@ -4,43 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface UIWindowScenePlacement
 {
 }
 
 + (unsigned long long);
 + (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)fer; transfer sync state %@, non-empty salt %@;
+- (_Bool)hAttachmentDataForTransferGUIDs %@ HQ %@;
+- (_Bool)skipping metadata only sync.;
 - (id);
 - (_Bool);
 - (id);
+- (id)InstanceCount/partOfItem mismatch;
 - (id);
-- (id);
-- (id);
+- (id)_mediaLibraryWithUniqueIdentifier:(id)arg1 userDSID | found in-memory library [databaseID match, DSID mismatch] dsid=%{public}@ libraryDSID=%{public}@ library=%{public}@;
 - (id)!Bùq]1Â0@ù
 × ;
 - (id);
-- (_Bool)oveDragEventTimestamp:(id)arg1;
+- (_Bool)setLatestMoveDragEventTimestamp:(id)arg1;
 - (id)izeOverride;
 - (id)IDocumentState",R,N,G_documentState;
-- (id)ItemSize;
+- (id)UIItemSize;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _preserveLayout;
-@property(readonly, nonatomic) _Bool _requestBackground;
-@property(readonly, nonatomic) _Bool _requestCenterSlot;
-@property(readonly, nonatomic) _Bool _requestFullscreen;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

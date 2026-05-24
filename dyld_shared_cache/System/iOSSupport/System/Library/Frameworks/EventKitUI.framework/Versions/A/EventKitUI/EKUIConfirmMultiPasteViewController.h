@@ -4,30 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUIKPasteboardManager, EKAutocompleteSearchResult, EKCalendar, EKEventStore, NSDate, NSString, UILabel, UITableView;
+@class UILabel;
 @protocol EKUIConfirmMultiPasteViewControllerDelegate;
 
 @interface EKUIConfirmMultiPasteViewController
 {
     UILabel *_descriptionLabel;
-    UITableView *_tableView;
-    EKAutocompleteSearchResult *_searchResult;
-    CUIKPasteboardManager *_pasteboardManager;
-    EKEventStore *_eventStore;
-    EKCalendar *_selectedCalendar;
-    NSDate *_dateForPaste;
-    id <EKUIConfirmMultiPasteViewControllerDelegate> _delegate;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)SSet";
+- (id)g>";
+- (long long)Event";
+- (void);
+- (void);
 - (long long);
-- (void);
-- (void);
-- (long long);
 - (id);
 - (void);
 - (void);
@@ -35,18 +28,11 @@
 - (id);
 - (void);
 - (id);
-- (void):baseFontSize: /* Error: Ran out of types for this method. */;
+- (void)stylizedTimelineHourStringForHourDate:baseFontSize: /* Error: Ran out of types for this method. */;
 - (void)°Ré*èL;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <EKUIConfirmMultiPasteViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

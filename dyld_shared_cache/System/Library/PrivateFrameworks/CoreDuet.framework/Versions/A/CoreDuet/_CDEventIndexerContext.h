@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject, _CDEventIndexerBookmark;
-@protocol OS_os_transaction;
+@class _CDEventIndexerBookmark;
 
 @interface _CDEventIndexerContext
 {
     _CDEventIndexerBookmark *_bookmark;
-    long long _currentVersion;
-    unsigned long long _batchSize;
-    CDUnknownBlockType _completion;
-    NSDate *_indexDate;
-    NSObject<OS_os_transaction> *_transaction;
 }
 
 - (id);

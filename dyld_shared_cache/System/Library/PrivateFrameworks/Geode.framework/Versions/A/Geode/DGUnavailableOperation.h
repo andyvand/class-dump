@@ -6,13 +6,11 @@
 
 #import <Geode/DGOperation.h>
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface DGUnavailableOperation : DGOperation
 {
     NSDictionary *_settingsDictionary;
-    NSDictionary *_attributes;
-    NSString *_identifier;
 }
 
 + (id);
@@ -22,9 +20,9 @@
 - (_Bool);
 - (_Bool);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)@;
 - (_Bool);
 - (id);
 - (id);

@@ -5,21 +5,18 @@
 //
 
 @class UITextView;
-@protocol _NSTextAnimation;
 
 @interface CKTextEffectCoordinatorAnimatorRequest
 {
     UITextView *textView;
-    id <_NSTextAnimation> animation;
 }
 
-- (id);
-- (id);
-- (id)scriptLoadingViewTextFont;
+- (id)zc;
+- (id)hh8;
+- (id)ckShouldUpdatetranscriptLoadingViewTextFont;
 - (void)|Î;
 
 // Remaining properties
-@property(nonatomic, readonly) id <_NSTextAnimation> animation; // @synthesize animation;
 @property(nonatomic, readonly) UITextView *textView; // @synthesize textView;
 
 @end

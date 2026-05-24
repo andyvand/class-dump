@@ -7,14 +7,6 @@
 @interface CalendarUIKit.LocationDataModel
 {
     id searchModel;
-    id _result;
-    id _selectedLocationResult;
-    id eventID;
-    id dateRange;
-    id source;
-    id conferenceRoomNamesToExclude;
-    id requestAvailability;
-    id _$observationRegistrar;
 }
 
 - (id);

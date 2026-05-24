@@ -6,32 +6,25 @@
 
 #import <GeoServices/GEOXPCRequest.h>
 
-@class GEOLatLng, NSString;
+@class GEOLatLng;
 
 @interface GEOLocationShiftingFunctionRequest : GEOXPCRequest
 {
     GEOLatLng *_latLng;
 }
 
-+ (Class);
++ (Class)_buttonTrackingArea;
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void)tedHandler;
+- (void)_positionFromDestinationUpdatedHandler;
 - (void)È44;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) GEOLatLng *latLng; // @synthesize latLng=_latLng;
-@property(readonly) Class superclass;
 
 @end
 

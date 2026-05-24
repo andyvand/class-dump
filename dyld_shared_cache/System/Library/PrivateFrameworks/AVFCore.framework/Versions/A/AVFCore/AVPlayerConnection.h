@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVWeakReference, NSError;
+@class AVWeakReference;
 
 __attribute__((visibility("hidden")))
 @interface AVPlayerConnection
 {
     AVWeakReference *_playerReference;
-    AVWeakReference *_playerItemReference;
-    long long _status;
-    NSError *_error;
 }
 
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)|�;
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (long long);
 

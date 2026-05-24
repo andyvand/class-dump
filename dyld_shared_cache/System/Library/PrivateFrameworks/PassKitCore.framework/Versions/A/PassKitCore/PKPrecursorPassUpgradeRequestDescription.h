@@ -4,31 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface PKPrecursorPassUpgradeRequestDescription
 {
     NSString *_localizedTitle;
-    NSString *_localizedDescription;
-    NSArray *_actions;
 }
 
 - (void);
+- (id)B;
 - (id);
-- (id);
-- (id);
+- (id)h;
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (id);
-- (void);
-- (_Bool);
-- (void);
-- (void)Transfer;
-- (id)cted;
+- (void)_;
+- (_Bool)xyMode"b1"inRetroMode"b1"peerIsSDB"b1"selfIsSDB"b1};
+- (void)�@7� 7�(7�	7�
+7�7�;
+- (void)passesToTransfer;
+- (id)rejected;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *actions; // @synthesize actions=_actions;
-@property(retain, nonatomic) NSString *localizedDescription; // @synthesize localizedDescription=_localizedDescription;
 @property(retain, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
 
 @end

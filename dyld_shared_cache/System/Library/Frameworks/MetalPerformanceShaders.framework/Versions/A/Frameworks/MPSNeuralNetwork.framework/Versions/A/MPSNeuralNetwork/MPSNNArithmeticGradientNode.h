@@ -9,14 +9,6 @@
 @interface MPSNNArithmeticGradientNode : MPSNNGradientFilterNode
 {
     float _primaryScale;
-    float _secondaryScale;
-    float _bias;
-    unsigned long long _secondaryStrideInPixelsX;
-    unsigned long long _secondaryStrideInPixelsY;
-    unsigned long long _secondaryStrideInFeatureChannels;
-    float _minimumValue;
-    float _maximumValue;
-    _Bool _isSecondarySourceFilter;
 }
 
 + (id);
@@ -34,22 +26,14 @@
 - (id);
 - (id);
 - (void);
+- (float)supportsFunctionPointers;
 - (float);
-- (float);
-- (void);
+- (void)";
 - (void);
 - (float);
 
 // Remaining properties
-@property(nonatomic) float bias; // @synthesize bias=_bias;
-@property(readonly, nonatomic) _Bool isSecondarySourceFilter; // @synthesize isSecondarySourceFilter=_isSecondarySourceFilter;
-@property(nonatomic) float maximumValue; // @synthesize maximumValue=_maximumValue;
-@property(nonatomic) float minimumValue; // @synthesize minimumValue=_minimumValue;
 @property(nonatomic) float primaryScale; // @synthesize primaryScale=_primaryScale;
-@property(nonatomic) float secondaryScale; // @synthesize secondaryScale=_secondaryScale;
-@property(nonatomic) unsigned long long secondaryStrideInFeatureChannels; // @synthesize secondaryStrideInFeatureChannels=_secondaryStrideInFeatureChannels;
-@property(nonatomic) unsigned long long secondaryStrideInPixelsX; // @synthesize secondaryStrideInPixelsX=_secondaryStrideInPixelsX;
-@property(nonatomic) unsigned long long secondaryStrideInPixelsY; // @synthesize secondaryStrideInPixelsY=_secondaryStrideInPixelsY;
 
 @end
 

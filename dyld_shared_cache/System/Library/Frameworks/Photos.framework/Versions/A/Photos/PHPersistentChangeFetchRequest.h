@@ -9,17 +9,15 @@
 @interface PHPersistentChangeFetchRequest
 {
     PHPersistentChangeToken *_token;
-    unsigned long long _maximumChangeThreshold;
 }
 
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
-- (void);
+- (void)A;
 - (void)sAllowed;
 
 // Remaining properties
-@property(nonatomic) unsigned long long maximumChangeThreshold; // @synthesize maximumChangeThreshold=_maximumChangeThreshold;
 @property(copy, nonatomic) PHPersistentChangeToken *token; // @synthesize token=_token;
 
 @end

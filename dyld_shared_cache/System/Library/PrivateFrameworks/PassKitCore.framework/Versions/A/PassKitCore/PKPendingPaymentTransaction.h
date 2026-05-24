@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKPaymentApplication, PKPaymentPass, PKPaymentTransaction;
+@class PKPaymentTransaction;
 
 @interface PKPendingPaymentTransaction
 {
     PKPaymentTransaction *_transaction;
-    PKPaymentPass *_pass;
-    PKPaymentApplication *_paymentApplication;
 }
 
 - (void);
 - (void);
 - (id);
+- (id)*0!;
 - (id);
-- (id);
-- (id);
+- (id)!;
 - (void);
-- (void)E_CHANGE_MESSAGE;
+- (void)SEMANTICS_VENUE_ENTRANCE_CHANGE_MESSAGE;
 
 // Remaining properties
-@property(retain, nonatomic) PKPaymentPass *pass; // @synthesize pass=_pass;
-@property(retain, nonatomic) PKPaymentApplication *paymentApplication; // @synthesize paymentApplication=_paymentApplication;
 @property(retain, nonatomic) PKPaymentTransaction *transaction; // @synthesize transaction=_transaction;
 
 @end

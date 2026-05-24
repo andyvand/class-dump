@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FAAgeRangeDaemonConnection, FARequestCoalescer;
+@class FAAgeRangeDaemonConnection;
 
 @interface FAAgeRangeController
 {
     FAAgeRangeDaemonConnection *_daemonConnection;
-    FARequestCoalescer *_requestCoalescer;
 }
 
 @end

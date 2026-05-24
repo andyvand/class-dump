@@ -11,17 +11,13 @@
 @interface AVCaptureSystemExposureBiasSlider : AVCaptureControl
 {
     AVCaptureDevice *_device;
-    CDUnknownBlockType _action;
-    struct os_unfair_lock_s _actionLock;
-    _Bool _observing;
-    _Bool _changeExposureBiasInProcess;
 }
 
-- (void);
+- (void)k;
+- (id)MSVLyricsTransliteration;
+- (void)B24;
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)>16;
 - (id);
 - (void);
 - (id);

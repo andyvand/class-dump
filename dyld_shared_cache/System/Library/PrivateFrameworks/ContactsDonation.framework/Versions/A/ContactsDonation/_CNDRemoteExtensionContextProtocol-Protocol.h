@@ -5,5 +5,7 @@
 //
 
 @protocol _CNDRemoteExtensionContextProtocol
+- (void)viceCapabilities;
+- (void)tUnits;
 @end
 

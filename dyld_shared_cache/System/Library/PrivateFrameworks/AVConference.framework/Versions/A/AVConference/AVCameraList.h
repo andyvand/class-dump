@@ -14,13 +14,13 @@
 
 + (id);
 + (void);
-- (void);
+- (void)1;
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property NSObject<AVCameraListDelegate> *delegate; // @synthesize delegate;

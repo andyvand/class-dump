@@ -6,27 +6,9 @@
 
 #import <OSAnalytics/OSAProxyConfiguration.h>
 
-@class NSDictionary, NSMutableDictionary, NSSet, NSString;
-
 @interface OSASystemConfiguration : OSAProxyConfiguration
 {
     _Bool _appleInternal;
-    _Bool _factoryDevice;
-    _Bool _carrierInstall;
-    _Bool _multiUserMode;
-    NSMutableDictionary *_submissionMetadata;
-    NSString *_pairedWatchOS;
-    NSString *_recoveryModeReason;
-    NSDictionary *_logConfig;
-    NSSet *_logBlacklist;
-    NSDictionary *_submissionParams;
-    NSDictionary *_whitelistedDomains;
-    NSString *_pathRoot;
-    NSString *_pathContainerRoot;
-    NSString *_pathPreferences;
-    NSString *_pathDiagnostics;
-    NSString *_pathCATasking;
-    CDStruct_7277eab8 _logDomain;
 }
 
 + (void);
@@ -35,8 +17,8 @@
 + (id);
 + (_Bool);
 + (void);
-+ (id);
-+ (id)dOptions: /* Error: Ran out of types for this method. */;
++ (id)`;
++ (id)markDescriptor:withPairs:andOptions: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -47,7 +29,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)џ;
 - (void);
 - (id);
 - (id);
@@ -61,76 +43,61 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (void)þÿ;
-- (_Bool);
-- (_Bool);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (CDStruct_7277eab8);
-- (id);
 - (void);
 - (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (_Bool);
+- (id)ources/SDAPI/libtextproc/libmrec/src/channel/uttfmgr.cpp;
+- (id);
+- (_Bool)	;
+- (id)1;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool)*;
+- (id);
+- (id);
+- (CDStruct_183fa7cb);
+- (id)ipal %s - %d for %s;
+- (void)rror:(id)arg1;
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
 - (id);
 - (void);
 - (id);
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool)6;
+- (id);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)7;
 - (id)@ù
 × ;
-- (id)ressAndSetInferredSizes;
+- (id)sortByAddressAndSetInferredSizes;
 - (id)rename: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) _Bool appleInternal;
-@property(retain) NSString *automatedDeviceGroup;
-@property(readonly) _Bool carrierInstall;
-@property(readonly) _Bool factoryDevice;
-@property(readonly) CDStruct_7277eab8 logDomain;
-@property(readonly) _Bool multiUserMode;
-@property(readonly) _Bool optIn3rdParty;
 @property(readonly) _Bool optInApple;
-@property(readonly) _Bool optInDRE;
-@property(readonly) NSString *pathCATasking;
-@property(readonly) NSString *pathContainerRoot;
-@property(readonly) NSString *pathDiagnostics;
-@property(readonly) NSString *pathPreferences;
-@property(copy) NSString *pathRoot;
-@property(readonly) NSMutableDictionary *submissionMetadata;
-@property(readonly) _Bool submissionsDisabled;
 
 @end
 

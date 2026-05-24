@@ -18,7 +18,7 @@
 - (Class);
 - (id);
 - (id);
-- (void);
+- (void)isRunningInBuddy;
 - (id);
 - (void);
 

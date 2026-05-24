@@ -9,7 +9,6 @@
 @interface DAMailboxSetFlagsRequest : DAMailboxRequest
 {
     unsigned long long _onFlags;
-    unsigned long long _offFlags;
 }
 
 - (void);
@@ -22,7 +21,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) unsigned long long offFlags; // @synthesize offFlags=_offFlags;
 @property(nonatomic) unsigned long long onFlags; // @synthesize onFlags=_onFlags;
 
 @end

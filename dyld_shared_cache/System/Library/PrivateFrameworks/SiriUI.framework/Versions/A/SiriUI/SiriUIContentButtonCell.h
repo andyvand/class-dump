@@ -11,7 +11,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (void);
+- (void)
+BA9MA;
 - (struct NSEdgeInsets);
 - (void);
 

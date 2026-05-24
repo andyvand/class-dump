@@ -6,25 +6,22 @@
 
 #import <CloudPhotoLibrary/CPLRecordStorageView.h>
 
-@class CPLEngineCloudCache, CPLEngineStore;
-@protocol CPLEngineIDMapping;
+@class CPLEngineStore;
 
 @interface CPLClientCacheBaseView : CPLRecordStorageView
 {
     CPLEngineStore *_store;
-    CPLEngineCloudCache *_cloudCache;
-    id <CPLEngineIDMapping> _idMapping;
 }
 
 + (id);
 - (_Bool);
 - (id);
-- (id)mplementDurationValue;
-- (unsigned long long)arlyThermalWarningBlockedCount;
+- (id);
+- (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)`;
 - (id);
 - (void)11Â0@ù
 × ;
@@ -32,8 +29,6 @@
 - (id)Jñ;
 
 // Remaining properties
-@property(readonly, nonatomic) CPLEngineCloudCache *cloudCache; // @synthesize cloudCache=_cloudCache;
-@property(readonly, nonatomic) id <CPLEngineIDMapping> idMapping; // @synthesize idMapping=_idMapping;
 @property(readonly, nonatomic) CPLEngineStore *store; // @synthesize store=_store;
 
 @end

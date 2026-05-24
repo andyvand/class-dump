@@ -6,61 +6,57 @@
 
 #import <TSReading/TSPObject.h>
 
-@class NSMutableDictionary, NSSet, NSString, TSUMutableRetainedPointerSet, TSURetainedPointerKeyDictionary;
-
 @interface TSSStylesheet : TSPObject
 {
     TSSStylesheet *mParent;
-    TSSStylesheet *mChild;
-    TSUMutableRetainedPointerSet *mStyles;
-    NSMutableDictionary *mIdentifierToStyleMap;
-    TSURetainedPointerKeyDictionary *mParentToChildrenStyleMap;
-    _Bool mIsLocked;
-    _Bool mCanCullStyles;
 }
 
+- (id)data source failed;
+- (id)ting to add datasource for an already existing section.;
+- (id)t insert at start of autoPlayIdentifierList;
+- (id)NextSection in either identifier list:(id)arg1 %@;
+- (id)yIdentifierList [no existing UpNextSection];
+- (id)# State
+```
+%@
+```
+;
+- (void)ype;
+- (id)diaPlaybackCore/environment;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)ataClass(void)_block_invoke;
+- (id)ock_invoke;
+- (void)found;
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)RADIO_ADD_STATION_FAILED_ARTIST_ALERT_MESSAGE;
+- (void)jump to time;
+- (id)erride set on queue item] - target time: /* Error: Ran out of types for this method. */;
+- (id)ne has not been set up yet.;
+- (void)count ;
+- (void)backQueue;
 - (void);
+- (void)MPCPodcastsDialogHandler;
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
+- (_Bool);
+- (id);
+- (id)NMPCPlaybackSessionManagerErrorCode;
+- (id)MPCPlaybackSessionManagerError;
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)ĩ;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -75,11 +71,11 @@
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (void);
+- (void)\;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -95,18 +91,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool canCullStyles;
-@property(readonly, nonatomic) TSSStylesheet *child; // @synthesize child=mChild;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isLocked;
 @property(readonly, nonatomic) TSSStylesheet *parent; // @synthesize parent=mParent;
-@property(readonly, nonatomic) NSSet *styles;
-@property(readonly) Class superclass;
 
 @end
 

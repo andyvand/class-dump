@@ -7,9 +7,6 @@
 @interface NewsUI2.TagFeedViewerModule
 {
     id resolver;
-    id tracker;
-    id contextBuilder;
-    id viewControllerFactory;
 }
 
 @end

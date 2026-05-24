@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUTWeakReference, NSDate, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_source;
 
 @interface PCDispatchTimer
 {
     NSObject<OS_dispatch_source> *_timerSource;
-    NSObject<OS_dispatch_queue> *_queue;
-    unsigned long long _fireTime;
-    NSDate *_fireDate;
-    CUTWeakReference *_target;
-    SEL _selector;
-    _Bool _isValid;
 }
 
 - (void);
@@ -25,12 +19,11 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)ff}{?=ffff[2{?=[6f][6f]}]})}}@Bq@@IBBffiIIIii^fiffffff^{PerceptualLuminanceThresholding}IfiQi@@{?=fBfB}B};
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *fireDate;
 @property(readonly, nonatomic) _Bool isValid;
 
 @end

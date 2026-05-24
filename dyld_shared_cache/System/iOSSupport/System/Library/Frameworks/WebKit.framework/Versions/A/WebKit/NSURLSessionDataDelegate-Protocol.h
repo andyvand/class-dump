@@ -11,6 +11,6 @@
 @optional
 - (void)essIdentifierType, WTF:(NSURLSession *)arg1:(NSURLSessionDataTask *)arg2 ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>=Q}})B}16;
 - (void)t;
-- (void)xtGL_DrawArraysInstanced;
+- (void)RemoteGraphicsContextGL_DrawArraysInstanced;
 @end
 

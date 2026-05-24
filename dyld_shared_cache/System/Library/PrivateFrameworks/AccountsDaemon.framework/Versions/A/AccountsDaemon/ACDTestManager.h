@@ -10,15 +10,14 @@
 {
 }
 
-+ (id)rtedForAccount:completion: /* Error: Ran out of types for this method. */;
++ (id)isPushSupportedForAccount:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSXPCListenerEndpoint *remoteAccountStoreEndpoint;
-@property(readonly, nonatomic) NSXPCListenerEndpoint *remoteOAuthSignerEndpoint;
 
 @end
 

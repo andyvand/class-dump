@@ -7,9 +7,6 @@
 @interface PodcastsFoundation.AudioSegmentTracker
 {
     id $defaultActor;
-    id minimumSegmentDuration;
-    id readSegments;
-    id totalDuration;
 }
 
 @end

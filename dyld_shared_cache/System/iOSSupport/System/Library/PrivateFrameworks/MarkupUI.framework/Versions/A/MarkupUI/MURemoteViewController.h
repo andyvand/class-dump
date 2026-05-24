@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MURemoteViewController
 {
     _Bool _shouldResignFirstResponder;
-    CDUnknownBlockType _finishedWithResultsCompletionBlock;
-    long long _sandboxExtensionHandle;
 }
 
 + (id);
@@ -31,16 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType finishedWithResultsCompletionBlock; // @synthesize finishedWithResultsCompletionBlock=_finishedWithResultsCompletionBlock;
-@property(readonly) unsigned long long hash;
 @property long long sandboxExtensionHandle; // @synthesize sandboxExtensionHandle=_sandboxExtensionHandle;
-@property _Bool shouldResignFirstResponder; // @synthesize shouldResignFirstResponder=_shouldResignFirstResponder;
-@property(readonly) Class superclass;
 
 @end
 

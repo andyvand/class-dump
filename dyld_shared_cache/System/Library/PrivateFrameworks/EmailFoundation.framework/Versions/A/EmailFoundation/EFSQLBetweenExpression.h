@@ -6,35 +6,24 @@
 
 #import <EmailFoundation/EFPair.h>
 
-@class NSString;
 @protocol EFSQLExpressable;
 
 @interface EFSQLBetweenExpression : EFPair
 {
     _Bool _between;
-    id <EFSQLExpressable> _left;
 }
 
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)ob_queue;
 - (id);
 - (id);
 - (void);
-- (void)ck;
+- (void)_completionBlock;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool between; // @synthesize between=_between;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *ef_SQLExpression;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <EFSQLExpressable> left; // @synthesize left=_left;
-@property(readonly) Class superclass;
 
 @end
 

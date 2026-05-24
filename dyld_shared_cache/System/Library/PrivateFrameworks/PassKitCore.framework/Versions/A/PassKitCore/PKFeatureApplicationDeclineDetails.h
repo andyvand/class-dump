@@ -9,8 +9,6 @@
 @interface PKFeatureApplicationDeclineDetails
 {
     NSString *_declinedTermsIdentifier;
-    NSString *_pathTermsIdentifier;
-    NSString *_pathIdentifier;
 }
 
 + (_Bool)î%°1Â0@ù
@@ -18,22 +16,20 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)netscoreHealthAfterDecision;
 - (void);
-- (id);
-- (id)Rect;
-- (void)le;
+- (id);
+- (id)_stripRect;
+- (void)warningIneligible;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *declinedTermsIdentifier; // @synthesize declinedTermsIdentifier=_declinedTermsIdentifier;
-@property(copy, nonatomic) NSString *pathIdentifier; // @synthesize pathIdentifier=_pathIdentifier;
-@property(copy, nonatomic) NSString *pathTermsIdentifier; // @synthesize pathTermsIdentifier=_pathTermsIdentifier;
 
 @end
 

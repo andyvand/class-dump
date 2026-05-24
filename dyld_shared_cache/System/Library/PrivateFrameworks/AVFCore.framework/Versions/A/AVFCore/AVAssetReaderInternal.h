@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAsset, AVWeakReference, NSError, NSMutableArray, NSMutableSet, NSObject;
-@protocol OS_dispatch_queue;
+@class AVWeakReference;
 
 __attribute__((visibility("hidden")))
 @interface AVAssetReaderInternal
 {
     AVWeakReference *weakReference;
-    AVAsset *asset;
-    struct OpaqueFigAssetReader *figAssetReader;
-    CDStruct_e83c9415 timeRange;
-    _Bool readSingleSample;
-    _Bool realTime;
-    NSMutableArray *outputs;
-    NSMutableSet *outputFinishedCallbackInvokers;
-    long long status;
-    NSError *error;
-    NSError *errorThatOccurredBeforeStartReading;
-    NSObject<OS_dispatch_queue> *statusReadWriteQueue;
 }
 
 @end

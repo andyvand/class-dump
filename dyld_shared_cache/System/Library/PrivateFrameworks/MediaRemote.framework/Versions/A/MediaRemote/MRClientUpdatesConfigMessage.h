@@ -16,24 +16,18 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)IMMetricsCollectorFourthLevelErrorDomainKey;
 - (id);
-- (void)oad;
+- (void)payload;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool artworkUpdates;
-@property(readonly, nonatomic) _Bool keyboardUpdates;
-@property(readonly, nonatomic) _Bool nowPlayingUpdates;
-@property(readonly, nonatomic) _Bool outputDeviceUpdates;
 @property(copy, nonatomic) NSArray *subscribedPlayerPaths; // @synthesize subscribedPlayerPaths=_subscribedPlayerPaths;
-@property(readonly, nonatomic) _Bool systemEndpointUpdates;
-@property(readonly, nonatomic) _Bool volumeUpdates;
 
 @end
 

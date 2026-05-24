@@ -4,47 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableSet, NSSet;
 @protocol UITapRecognizerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface UITapRecognizer
 {
     unsigned long long _numberOfTouchesRequired;
-    unsigned long long _numberOfTapsRequired;
-    long long _buttonMaskRequired;
-    NSMutableSet *_activeTouches;
-    struct CGPoint _startPoint;
-    struct CGPoint _digitizerLocation;
-    double _allowableMovement;
-    double _allowableSeparation;
-    double _allowableTouchTimeSeparation;
-    double _maximumTapDuration;
-    double _minimumTapDuration;
-    double _startTime;
-    double _maximumIntervalBetweenSuccessiveTaps;
-    NSMutableArray *_touches;
-    long long _strongestDirectionalAxis;
-    double _strongestDirectionalForce;
-    int _currentNumberOfTouches;
-    int _currentNumberOfTaps;
-    int _numberOfTouchesForCurrentTap;
-    unsigned int _timerOn:1;
-    unsigned int _multitouchTimerOn:1;
-    unsigned int _hasPointerTouch:1;
-    _Bool _countsOnlyActiveTouches;
-    _Bool _continuousTapRecognition;
-    id <UITapRecognizerDelegate> _delegate;
-    long long _exclusiveDirectionalAxis;
 }
 
-+ (_Bool)sual_bidi_selections;
++ (_Bool)visual_bidi_selections;
 - (void);
 - (void);
 - (long long);
 - (unsigned long long);
 - (void);
-- (unsigned long long);
+- (unsigned long long)i;
 - (void);
 - (void);
 - (struct CGPoint);
@@ -56,12 +30,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)leReferenceData;
 - (struct CGPoint);
 - (double);
-- (double);
-- (struct CGPoint);
-- (id);
+- (double)tionedIdentifierListDataSource>",&,N,V_dataSource;
+- (struct CGPoint)icPlayer:failed to get synchronousRemoteObject %{public}@ /* Error: Ran out of types for this method. */;
+- (id)oid);
 - (void);
 - (id);
 - (_Bool);
@@ -75,15 +49,15 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)gÐ1Â0@ù
 × ;
-- (void)r:(id)arg1 rowHeight: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)n:(id)arg1 state:isHeader:isSecondaryText:style: /* Error: Ran out of types for this method. */;
-- (void)ange:(id)arg1 inString:(id)arg2 language: /* Error: Ran out of types for this method. */;
-- (double)ForServiceFromTraitCollection: /* Error: Ran out of types for this method. */;
-- (void)rd;
-- (void)settingLabelsViewLeadingAndTrailingToImageViewsExact:(double)arg1;
+- (void)initWithInsertionIndexPath:(id)arg1 reuseIdentifier:rowHeight: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)defaultSidebarTextColorForTraitCollection:(id)arg1 state:isHeader:isSecondaryText:style: /* Error: Ran out of types for this method. */;
+- (void)completionsForPartialWordRange:(id)arg1 inString:(id)arg2 language: /* Error: Ran out of types for this method. */;
+- (double)_traitCollectionForServiceFromTraitCollection: /* Error: Ran out of types for this method. */;
+- (void)_isSpringBoard;
+- (void)_constraintsForInsettingLabelsViewLeadingAndTrailingToImageViewsExact:(double)arg1;
 - (void)tiveAtRegularWidth:(id)arg1;
 - (void)T@"UITabBarButton",W,N,V_tabBarButton;
-- (void):(long long)arg1;
+- (void)_sheetInteractionDraggingEnded:(long long)arg1;
 - (struct CGPoint)ÀQÀR\SøUV;
 - (void);
 - (double)archBar property getter override must always return the same searchBar instance, and never return nil. The getter may be called very early! searchBar = %@, searchController = %@;
@@ -103,22 +77,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *activeTouches;
-@property(nonatomic) double allowableMovement;
-@property(nonatomic) double allowableSeparation;
-@property(nonatomic) double allowableTouchTimeSeparation; // @synthesize allowableTouchTimeSeparation=_allowableTouchTimeSeparation;
-@property(nonatomic) long long buttonMaskRequired; // @synthesize buttonMaskRequired=_buttonMaskRequired;
-@property(nonatomic) _Bool continuousTapRecognition;
-@property(nonatomic) _Bool countsOnlyActiveTouches; // @synthesize countsOnlyActiveTouches=_countsOnlyActiveTouches;
-@property(readonly, nonatomic) unsigned long long currentNumberOfTaps;
 @property(nonatomic) __weak id <UITapRecognizerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) long long exclusiveDirectionalAxis; // @synthesize exclusiveDirectionalAxis=_exclusiveDirectionalAxis;
-@property(nonatomic) double maximumIntervalBetweenSuccessiveTaps;
-@property(nonatomic) double maximumTapDuration; // @synthesize maximumTapDuration=_maximumTapDuration;
-@property(nonatomic) double minimumTapDuration; // @synthesize minimumTapDuration=_minimumTapDuration;
-@property(nonatomic) unsigned long long numberOfTapsRequired; // @synthesize numberOfTapsRequired=_numberOfTapsRequired;
-@property(nonatomic) unsigned long long numberOfTouchesRequired; // @synthesize numberOfTouchesRequired=_numberOfTouchesRequired;
-@property(readonly, nonatomic) NSArray *touches; // @synthesize touches=_touches;
 
 @end
 

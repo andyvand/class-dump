@@ -6,27 +6,17 @@
 
 #import <RawCamera/RAWFilter.h>
 
-@class CIImage, CIVector, NSData, NSNumber;
+@class CIImage;
 
 @interface RAWGainMap : RAWFilter
 {
     CIImage *inputImage;
-    NSData *inputGainMapData;
-    CIVector *inputGainMapApplyRegion;
-    CIVector *inputGainMapRegion;
-    CIVector *inputGainMapSize;
-    NSNumber *inputGainMapRowPitch;
-    NSNumber *inputGainMapColPitch;
-    NSNumber *inputGainMapNumPlanes;
-    NSNumber *inputGainMapExecute;
-    id inputColorSpace;
-    CIImage *_gainMapImg;
 }
 
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)J;
 - (void);
 
 @end

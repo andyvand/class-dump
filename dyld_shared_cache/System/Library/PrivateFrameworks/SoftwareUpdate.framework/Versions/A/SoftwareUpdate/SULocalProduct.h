@@ -6,16 +6,12 @@
 
 #import <SoftwareUpdate/SUProduct.h>
 
-@class NSDictionary, NSMutableSet, NSString, NSURL;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface SULocalProduct : SUProduct
 {
     NSString *_productPath;
-    NSDictionary *_packageReferences;
-    NSMutableSet *_mustCloseAppsToInstallProduct;
-    NSURL *_altDistPackageURL;
-    SUProduct *_remoteProduct;
 }
 
 - (id);
@@ -24,11 +20,11 @@ __attribute__((visibility("hidden")))
 - (int);
 - (id);
 - (id);
+- (id)};
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)l8;
 - (_Bool);
 - (id);
 - (unsigned long long);

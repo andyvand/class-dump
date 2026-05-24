@@ -9,24 +9,20 @@
 @interface PKTPSDiscoverabilitySignal
 {
     NSString *_identifier;
-    NSString *_bundleIdentifier;
-    NSString *_context;
 }
 
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)showgridy;
 - (void);
 - (void);
 - (id);
 - (void)ä¤;
-- (void)107539818895359605;
+- (void)7107539818895359605;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(copy, nonatomic) NSString *context; // @synthesize context=_context;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end

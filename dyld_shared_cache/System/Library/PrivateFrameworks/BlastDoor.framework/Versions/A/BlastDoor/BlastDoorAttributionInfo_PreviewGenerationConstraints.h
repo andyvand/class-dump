@@ -15,25 +15,16 @@
 - (double);
 - (double);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)llectionViewCellDelegate>";
 - (id);
-- (id);
+- (id)`;
 - (double);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) _Bool has_maxPixelWidth;
-@property(nonatomic, readonly) _Bool has_minThumbSizeHeight;
-@property(nonatomic, readonly) _Bool has_minThumbSizeWidth;
-@property(nonatomic, readonly) _Bool has_scale;
-@property(nonatomic, readonly) _Bool isSticker;
-@property(nonatomic, readonly) double maxPixelWidth;
-@property(nonatomic, readonly) double minThumbSizeHeight;
-@property(nonatomic, readonly) double minThumbSizeWidth;
-@property(nonatomic, readonly) double scale;
 
 @end
 

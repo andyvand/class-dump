@@ -5,5 +5,9 @@
 //
 
 @protocol NSImmediateActionAnimationController
+
+@optional
+- (void)R;
+- (void);
 @end
 

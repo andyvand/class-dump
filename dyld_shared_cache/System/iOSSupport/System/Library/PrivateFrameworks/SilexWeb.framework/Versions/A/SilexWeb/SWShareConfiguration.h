@@ -4,20 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SWShareConfiguration
 {
     NSString *_title;
-    NSArray *_shareItems;
 }
 
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)requestPromotedContentWithContents:forRequester:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
+
+// Remaining properties
+@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

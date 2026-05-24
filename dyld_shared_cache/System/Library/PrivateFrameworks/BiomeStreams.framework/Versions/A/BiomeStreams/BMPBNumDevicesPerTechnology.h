@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BMPBNumDevicesPerTechnology
 {
     int _number;
-    NSString *_technologyString;
-    struct {
-        unsigned int number:1;
-    } _has;
 }
 
 - (id);
@@ -34,10 +28,7 @@
 - (void)ÒÓ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasNumber;
 @property(readonly, nonatomic) _Bool hasTechnologyString;
-@property(nonatomic) int number; // @synthesize number=_number;
-@property(retain, nonatomic) NSString *technologyString; // @synthesize technologyString=_technologyString;
 
 @end
 

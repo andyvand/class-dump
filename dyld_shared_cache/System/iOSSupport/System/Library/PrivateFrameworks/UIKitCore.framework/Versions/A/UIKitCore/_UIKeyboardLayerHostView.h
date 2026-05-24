@@ -6,20 +6,10 @@
 
 #import <UIKitCore/_UISceneLayerHostView.h>
 
-@class FBSSceneClientSettingsDiffInspector, FBSSceneIdentityToken, FBScene, NSString;
-@protocol BSInvalidatable, UIScenePresenter;
-
 __attribute__((visibility("hidden")))
 @interface _UIKeyboardLayerHostView : _UISceneLayerHostView
 {
     CDUnknownBlockType _sceneLayerMatchingPredicate;
-    FBScene *_owningScene;
-    FBScene *_keyboardScene;
-    id <BSInvalidatable> _keyboardSceneAvailabilityObserver;
-    FBSSceneClientSettingsDiffInspector *_keyboardSceneClientSettingsDiffInspector;
-    FBSSceneIdentityToken *_keyboardPreferredHostIdentity;
-    _Bool _isPaired;
-    id <UIScenePresenter> _presenter;
 }
 
 - (void);
@@ -27,20 +17,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id)FBSSceneTransitionContext"24;
-- (id)nt;
+- (id)_didPresent;
 - (void);
 - (id)B379CBLLP;
 - (void)c·;
 - (void)E\;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

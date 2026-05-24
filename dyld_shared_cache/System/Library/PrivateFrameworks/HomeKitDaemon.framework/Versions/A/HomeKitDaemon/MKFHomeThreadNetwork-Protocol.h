@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFHomeThreadNetworkDatabaseID, NSDate, NSString;
+@class NSString;
 @protocol MKFHome;
 
 @protocol MKFHomeThreadNetwork
@@ -12,9 +12,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFHomeThreadNetworkDatabaseID *databaseID;
-@property(readonly, retain, nonatomic) id <MKFHome> home;
 @property(copy, nonatomic) NSString *threadNetworkID;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 @end
 

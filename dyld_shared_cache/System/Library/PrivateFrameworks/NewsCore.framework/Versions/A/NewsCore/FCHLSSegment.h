@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCHLSKey, FCHLSMap, NSURL;
+@class FCHLSMap;
 
 @interface FCHLSSegment
 {
     FCHLSMap *_map;
-    NSURL *_url;
-    double _duration;
-    FCHLSKey *_key;
 }
 
 - (id);
-- (void)ionConfiguration;
+- (void)articleRecirculationConfiguration;
 
 @end
 

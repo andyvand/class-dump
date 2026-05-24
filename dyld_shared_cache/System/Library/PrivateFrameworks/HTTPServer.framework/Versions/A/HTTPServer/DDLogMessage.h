@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-
 @interface DDLogMessage
 {
     int logLevel;
-    int logFlag;
-    int logContext;
-    NSString *logMsg;
-    NSDate *timestamp;
-    char *file;
-    char *function;
-    int lineNumber;
-    unsigned int machThreadID;
-    char *queueLabel;
-    NSString *threadName;
-    id tag;
-    int options;
 }
 
 - (id);

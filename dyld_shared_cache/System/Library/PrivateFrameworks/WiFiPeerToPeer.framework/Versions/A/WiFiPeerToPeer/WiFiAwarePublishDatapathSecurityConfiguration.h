@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, WiFiAwarePairingConfiguration;
-@protocol WiFiAwarePublisherPairingDelegate;
+@class NSArray;
 
 @interface WiFiAwarePublishDatapathSecurityConfiguration
 {
     NSArray *_pmkList;
-    NSArray *_passphraseList;
-    NSData *_pmkID;
-    WiFiAwarePairingConfiguration *_pairingConfiguration;
-    id <WiFiAwarePublisherPairingDelegate> _pairingDelegate;
-    NSString *_pairingPINCode;
-    NSString *_pairingPassphrase;
-    NSData *_pairingQRCodeInformation;
-    NSData *_pairingNFCTag;
-    NSString *_pinCode;
 }
 
 + (_Bool);
@@ -41,7 +31,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (_Bool);
@@ -49,15 +39,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) WiFiAwarePairingConfiguration *pairingConfiguration; // @synthesize pairingConfiguration=_pairingConfiguration;
-@property(nonatomic) __weak id <WiFiAwarePublisherPairingDelegate> pairingDelegate; // @synthesize pairingDelegate=_pairingDelegate;
-@property(readonly, nonatomic) NSData *pairingNFCTag; // @synthesize pairingNFCTag=_pairingNFCTag;
-@property(readonly, nonatomic) NSString *pairingPINCode; // @synthesize pairingPINCode=_pairingPINCode;
-@property(readonly, nonatomic) NSString *pairingPassphrase; // @synthesize pairingPassphrase=_pairingPassphrase;
-@property(readonly, nonatomic) NSData *pairingQRCodeInformation; // @synthesize pairingQRCodeInformation=_pairingQRCodeInformation;
-@property(readonly, nonatomic) NSArray *passphraseList; // @synthesize passphraseList=_passphraseList;
-@property(copy, nonatomic) NSString *pinCode; // @synthesize pinCode=_pinCode;
-@property(readonly, nonatomic) NSData *pmkID; // @synthesize pmkID=_pmkID;
 @property(readonly, nonatomic) NSArray *pmkList; // @synthesize pmkList=_pmkList;
 
 @end

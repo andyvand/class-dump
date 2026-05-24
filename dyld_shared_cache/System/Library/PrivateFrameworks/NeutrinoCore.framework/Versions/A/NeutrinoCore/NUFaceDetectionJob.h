@@ -11,7 +11,6 @@
 @interface NUFaceDetectionJob : NURenderJob
 {
     NSArray *_faces;
-    CDStruct_d58201db _imageSize;
 }
 
 - (_Bool);
@@ -25,7 +24,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)=;
 - (void)^@48;
 - (id)¨;ðÿnéöy9;
 

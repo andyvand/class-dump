@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableOrderedSet, NSOrderedSet;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface CNCalculatesMultiValueDiff
 {
     NSArray *_multiValue1;
-    NSArray *_multiValue2;
-    NSOrderedSet *_originalIdentifiers;
-    NSOrderedSet *_finalIdentifiers;
-    NSMutableOrderedSet *_addedIdentifiers;
-    NSMutableOrderedSet *_removedIdentifiers;
-    NSMutableOrderedSet *_sameIdentifiers;
-    NSMutableOrderedSet *_calculatedFinalIdentifiers;
-    NSMutableArray *_updates;
 }
 
 + (id);
@@ -34,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void)CurrentTasksToFinish;
+- (void)waitForCurrentTasksToFinish;
 
 @end
 

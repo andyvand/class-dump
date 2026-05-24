@@ -9,8 +9,6 @@
 @interface NSLayoutManagerTextBlockHelper
 {
     NSTextBlock *_block;
-    struct CGRect _layoutRect;
-    struct CGRect _boundsRect;
 }
 
 - (id);

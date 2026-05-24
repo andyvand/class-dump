@@ -9,7 +9,6 @@
 @interface PHCollectionShareDeleteRequest : PHObjectDeleteRequest
 {
     _Bool _photosctlExpungeOverride;
-    long long _operation;
 }
 
 - (_Bool);
@@ -18,12 +17,11 @@
 - (id);
 - (void);
 - (void);
-- (long long);
-- (void)ficationDate;
+- (long long)time;
+- (void)modificationDate;
 
 // Remaining properties
 @property(nonatomic) long long operation; // @synthesize operation=_operation;
-@property(nonatomic) _Bool photosctlExpungeOverride; // @synthesize photosctlExpungeOverride=_photosctlExpungeOverride;
 
 @end
 

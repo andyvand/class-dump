@@ -11,15 +11,15 @@
 }
 
 - (_Bool);
-- (_Bool);
+- (_Bool)CP;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)];
+- (void)orKey:Providing empty string ID for key %{public}@ /* Error: Ran out of types for this method. */;
 
 @end
 

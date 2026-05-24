@@ -7,17 +7,6 @@
 @interface BiomeSQLParser.PgQuery_CreateStmt._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _relation;
-    id _tableElts;
-    id _inhRelations;
-    id _partbound;
-    id _partspec;
-    id _ofTypename;
-    id _constraints;
-    id _options;
-    id _oncommit;
-    id _tablespacename;
-    id _accessMethod;
-    id _ifNotExists;
 }
 
 @end

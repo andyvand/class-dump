@@ -7,7 +7,6 @@
 @interface RemindersUICore.TTRAttachmentThumbnailSizeProvider
 {
     id boundingSize;
-    id contentMode;
 }
 
 @end

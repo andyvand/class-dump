@@ -11,10 +11,10 @@
     NSMutableArray *tuples;
 }
 
-+ (id);
++ (id);
 + (id);
 - (id);
-- (void);
+- (void));
 - (id);
 - (id);
 - (void);

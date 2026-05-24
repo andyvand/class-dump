@@ -4,49 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSColor, NSString;
+@class NSString;
 
 @interface AMSUICommonView
 {
     _Bool _userInteractionEnabled;
-    NSColor *_backgroundColor;
-    NSString *_accessibilityElementLabel;
 }
 
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)0?MA;
 - (id);
-- (void);
+- (void)t;
 - (_Bool);
-- (void);
+- (void)public}@Updated application data via merge:(id)arg1 %@;
 - (id);
 - (id);
 - (void);
 - (id);
-- (double);
+- (double);
 - (void);
-- (id);
+- (id)t bundle for volume:%@ /* Error: Ran out of types for this method. */;
 - (void);
+- (void)";
 - (void);
-- (void);
-- (void)ghColor: /* Error: Ran out of types for this method. */;
-- (_Bool)codeInteger:forKey: /* Error: Ran out of types for this method. */;
+- (void)setStrikeThroughColor: /* Error: Ran out of types for this method. */;
+- (_Bool)encodeInteger:forKey: /* Error: Ran out of types for this method. */;
 - (id)tring",R,C;
-- (void)ibilityWeight;
+- (void)_legibilityWeight;
 - (void)=yAAyAAy6×=yAAymÖ=0Í=y2Ñ=SgGGx=GË§=GANG_Qo__ý=Qo_GG«­=yå¥=yAAyÌÕ=É=y|;
-- (void)ircleStateTask;
+- (void)AMSUIFamilyCircleStateTask;
 - (void)n|;
 
 // Remaining properties
 @property(readonly) NSString *accessibilityElementLabel; // @synthesize accessibilityElementLabel=_accessibilityElementLabel;
-@property double alpha;
-@property(retain) NSColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(retain) CALayer *layer;
-@property(retain) NSColor *tintColor;
-@property(getter=isUserInteractionEnabled) _Bool userInteractionEnabled; // @synthesize userInteractionEnabled=_userInteractionEnabled;
 
 @end
 

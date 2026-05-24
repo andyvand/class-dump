@@ -13,10 +13,10 @@
 
 + (id);
 + (_Bool);
-- (id);
+- (id)fossillist;
 - (id);
 - (unsigned long long);
-- (id);
+- (id)";
 - (_Bool);
 - (void);
 - (void);

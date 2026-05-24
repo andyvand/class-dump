@@ -9,7 +9,6 @@
 @interface PFLivePhotoPlaybackSettings
 {
     float _audioVolume;
-    AVVideoComposition *_videoComposition;
 }
 
 - (id);
@@ -20,7 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) float audioVolume; // @synthesize audioVolume=_audioVolume;
 @property(retain, nonatomic) AVVideoComposition *videoComposition; // @synthesize videoComposition=_videoComposition;
 
 @end

@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface IDSQRProtoExperimentOverride
 {
     int _experimentId;
-    NSString *_experimentName;
-    _Bool _value;
-    struct {
-        unsigned int experimentId:1;
-        unsigned int value:1;
-    } _has;
 }
 
 - (void);
@@ -26,28 +18,23 @@
 - (int);
 - (void);
 - (id);
-- (void);
+- (void));
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)unregisterClientDevice:(id)arg1;
+- (void)PairVerifyStart;
 - (void);
 - (id);
 - (_Bool);
 - (int);
 - (id);
 - (void);
-- (void)apabilityFlag;
+- (void)participantWithCapabilityFlag;
 
 // Remaining properties
-@property(nonatomic) int experimentId; // @synthesize experimentId=_experimentId;
-@property(retain, nonatomic) NSString *experimentName; // @synthesize experimentName=_experimentName;
 @property(nonatomic) _Bool hasExperimentId;
-@property(readonly, nonatomic) _Bool hasExperimentName;
-@property(nonatomic) _Bool hasValue;
-@property(nonatomic) _Bool value; // @synthesize value=_value;
 
 @end
 

@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSharingAccountConfigurationViewController, NSString, NSViewController;
+@class NSSharingAccountConfigurationViewController;
 
 __attribute__((visibility("hidden")))
 @interface NSSharingContainerViewController
 {
     NSSharingAccountConfigurationViewController *_configurationViewController;
-    NSViewController *_shareViewController;
 }
 
 - (id);
@@ -18,20 +17,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)(bookmark context menu);
 - (void);
-- (void);
+- (void)remoteObjectInterface;
 
 // Remaining properties
 @property(retain) NSSharingAccountConfigurationViewController *configurationViewController; // @synthesize configurationViewController=_configurationViewController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSViewController *shareViewController; // @synthesize shareViewController=_shareViewController;
-@property(readonly) Class superclass;
 
 @end
 

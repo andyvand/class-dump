@@ -5,5 +5,6 @@
 //
 
 @protocol CKInitiateParticipantVettingOperationCallbacks
+- (void);
 @end
 

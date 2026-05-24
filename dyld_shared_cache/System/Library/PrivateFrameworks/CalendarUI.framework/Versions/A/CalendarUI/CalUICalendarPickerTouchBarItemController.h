@@ -4,43 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKEvent, NSButton, NSPopoverTouchBarItem, NSStackView;
+@class EKEvent;
 @protocol CalUICalendarPickerTouchBarItemControllerDelegate;
 
 @interface CalUICalendarPickerTouchBarItemController
 {
     EKEvent *_event;
-    NSPopoverTouchBarItem *_touchBarItem;
-    id <CalUICalendarPickerTouchBarItemControllerDelegate> _delegate;
-    NSStackView *_calendarPickerView;
-    NSButton *_selectedCalendarButton;
 }
 
 - (void);
-- (void);
+- (void)߈;
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)?׈b;
+- (id)C;
 - (id);
-- (id);
-- (id);
-- (void);
 - (id);
 - (void);
+- (id)(;
+- (void);
 - (id);
-- (id);
+- (id)h;
 - (void)!XAùqÃ#Ð1Â0@ù
 × ;
 - (void);
 
 // Remaining properties
-@property(retain) NSStackView *calendarPickerView; // @synthesize calendarPickerView=_calendarPickerView;
 @property __weak id <CalUICalendarPickerTouchBarItemControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) EKEvent *event; // @synthesize event=_event;
-@property(retain) NSButton *selectedCalendarButton; // @synthesize selectedCalendarButton=_selectedCalendarButton;
-@property(retain) NSPopoverTouchBarItem *touchBarItem; // @synthesize touchBarItem=_touchBarItem;
 
 @end
 

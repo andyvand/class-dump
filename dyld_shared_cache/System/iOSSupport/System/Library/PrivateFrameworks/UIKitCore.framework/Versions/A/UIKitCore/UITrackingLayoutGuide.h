@@ -6,82 +6,67 @@
 
 #import <UIKitCore/UILayoutGuide.h>
 
-@class NSDictionary, NSMutableDictionary;
-
 @interface UITrackingLayoutGuide : UILayoutGuide
 {
     _Bool _constrainedToWindowGuide;
-    _Bool _animatingConstraintsChange;
-    _Bool _animatesChanges;
-    _Bool _skipAnimationOnNextPassOnly;
-    NSMutableDictionary *_nearEdgeConstraintsByEdge;
-    NSMutableDictionary *_awayFromConstraintsByEdge;
-    unsigned long long _overlappingEdges;
-    unsigned long long _pausedEdges;
-    double _animationDuration;
-    unsigned long long _animationOptions;
-    long long _owningViewInterfaceLayoutDirection;
-    struct UIEdgeInsets _triggerInsetsForPortrait;
-    struct UIEdgeInsets _triggerInsetsForLandscape;
-    struct UIEdgeInsets _triggerProportions;
 }
 
-- (void);
+- (void)resolveUnformattedRepresentationsForHandles:(double)arg1 onService:(unsigned long long)arg2 message:completionBlock: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)reindexRecentMessagesWithHandles:batchDeferralTime:messageAge:reason: /* Error: Ran out of types for this method. */;
 - (struct UIEdgeInsets);
-- (struct UIEdgeInsets);
-- (struct UIEdgeInsets);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (struct UIEdgeInsets)ason:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)presentApprovalSheetWithRequestIdentifier:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void)initWithParticipantsToAdd:(unsigned long long)arg1 participantsToRemove:previousDisplayName: /* Error: Ran out of types for this method. */;
+- (_Bool)eStamp:lastMessageTimeStampOnLoad:cloudKitRecordID:isBlackholed:autoDonationBehavior:autoDonationBehaviorLastModificationDate:isRecovered:isDeletingIncomingMessages:domainIdentifiers: /* Error: Ran out of types for this method. */;
+- (void)deleteChatBotRecoverableMessageSyncToken;
+- (void)deleteChatBotMessageSyncToken;
+- (void)deleteChatBotAttachmentZone;
+- (void)anyStorageControllerIsAwaitingStorageTimer;
+- (void)_updateInputMessage:(long long)arg1 forExistingMessage: /* Error: Ran out of types for this method. */;
+- (void)adCount:(unsigned long long)arg1;
+- (void)_spamMessageCreator;
+- (void)_fetchedChatsDuringLastSync;
+- (void)ridRecipientSubscriptionValidationToken:(id)arg1 availabilityOffGridRecipientEncryptionValidationToken:(unsigned long long)arg2 idsService:messageContext:isFromTrustedSender:isFromSnapTrustedSender:wasContextUsed:isBlackholed:shouldTrackForRequery:isFiltered:spamDetectionSource:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)RecipientEncryptionValidationToken:(id)arg1 availabilityOffGridRecipientSubscriptionValidationToken:(unsigned long long)arg2 availabilityOffGridRecipientEncryptionValidationToken:idsService:messageContext:isFromTrustedSender:isFromSnapTrustedSender:wasContextUsed:isBlackholed:shouldTrackForRequery:isFiltered:spamDetectionSource:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)tChannelIDPrefix:(_Bool)arg1 availabilityVerificationRecipientEncryptionValidationToken:availabilityOffGridRecipientSubscriptionValidationToken:availabilityOffGridRecipientEncryptionValidationToken:idsService:messageContext:isFromTrustedSender:isFromSnapTrustedSender:wasContextUsed:isBlackholed:shouldTrackForRequery:isFiltered:spamDetectionSource:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)thV0;
+- (void)Zone;
+- (void)ce;
+- (void)tionService",&,N,V_offGridAvailabilitySubscriptionService;
+- (void)rviceSession",R,&;
+- (void)flagMask;
+- (void)IMDServiceSessionDelegate;
 - (unsigned long long);
 - (void);
 - (long long);
 - (unsigned long long);
-- (id);
-- (void);
+- (id)4B;
+- (void)%;
 - (id);
 - (id);
 - (_Bool);
+- (id)eed CK Sync;
+- (unsigned long long)ials (account:%@) /* Error: Ran out of types for this method. */;
+- (_Bool)%@ on Environment:%@ /* Error: Ran out of types for this method. */;
+- (void)ating attachment;
+- (void)ed to check up on;
 - (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)C;
+- (id);
+- (_Bool)a;
+- (void)@;
+- (id);
+- (void)Lv3 read finished B;
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (unsigned long long);
-- (id);
-- (_Bool)nAnimationDidStop;
+- (_Bool)glintyFadeInAnimationDidStop;
 - (void)C,N,S_setOverrideBackgroundColor:(id)arg1 ,V_overrideBackgroundColor;
 - (_Bool)\Ð;
 - (_Bool);
@@ -89,21 +74,7 @@
 - (void)ÉÿÌÙ`;
 
 // Remaining properties
-@property(nonatomic) _Bool animatesChanges; // @synthesize animatesChanges=_animatesChanges;
-@property(nonatomic) _Bool animatingConstraintsChange; // @synthesize animatingConstraintsChange=_animatingConstraintsChange;
-@property(nonatomic) double animationDuration; // @synthesize animationDuration=_animationDuration;
-@property(nonatomic) unsigned long long animationOptions; // @synthesize animationOptions=_animationOptions;
-@property(retain, nonatomic) NSMutableDictionary *awayFromConstraintsByEdge; // @synthesize awayFromConstraintsByEdge=_awayFromConstraintsByEdge;
-@property(nonatomic) _Bool constrainedToWindowGuide; // @synthesize constrainedToWindowGuide=_constrainedToWindowGuide;
-@property(readonly, nonatomic) NSDictionary *edgeConstraints;
-@property(retain, nonatomic) NSMutableDictionary *nearEdgeConstraintsByEdge; // @synthesize nearEdgeConstraintsByEdge=_nearEdgeConstraintsByEdge;
-@property(nonatomic) unsigned long long overlappingEdges; // @synthesize overlappingEdges=_overlappingEdges;
-@property(nonatomic) long long owningViewInterfaceLayoutDirection; // @synthesize owningViewInterfaceLayoutDirection=_owningViewInterfaceLayoutDirection;
-@property(nonatomic) unsigned long long pausedEdges; // @synthesize pausedEdges=_pausedEdges;
-@property(nonatomic) _Bool skipAnimationOnNextPassOnly; // @synthesize skipAnimationOnNextPassOnly=_skipAnimationOnNextPassOnly;
-@property(nonatomic) struct UIEdgeInsets triggerInsetsForLandscape; // @synthesize triggerInsetsForLandscape=_triggerInsetsForLandscape;
-@property(nonatomic) struct UIEdgeInsets triggerInsetsForPortrait; // @synthesize triggerInsetsForPortrait=_triggerInsetsForPortrait;
-@property(nonatomic) struct UIEdgeInsets triggerProportions; // @synthesize triggerProportions=_triggerProportions;
+@property(nonatomic) _Bool constrainedToWindowGuide;
 
 @end
 

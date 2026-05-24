@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAGKLinkedAnswer.h>
 
-@class NSNumber, SAUIImageResource;
+@class NSNumber;
 
 @interface SAGKImageLinkedAnswer : SAGKLinkedAnswer
 {
@@ -18,12 +18,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)~2;
 - (id)\K	x;
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *fileSize;
-@property(retain, nonatomic) SAUIImageResource *imageResource;
 
 @end
 

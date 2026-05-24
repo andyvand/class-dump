@@ -5,5 +5,6 @@
 //
 
 @protocol _UIKeyboardMediaService
+- (oneway void)set_appleIDContextSessionIdentifier: /* Error: Ran out of types for this method. */;
 @end
 

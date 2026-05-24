@@ -6,19 +6,19 @@
 
 #import <SearchUI/SearchUIPasteboardCopyHandler.h>
 
-@class CNGroup, NSArray, SFContactCopyItem;
+@class NSArray, SFContactCopyItem;
 
 @interface SearchUIContactCopyItemPasteboardHandler : SearchUIPasteboardCopyHandler
 {
     NSArray *_contacts;
-    CNGroup *_group;
 }
 
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id):(id)arg1 %s%s
+;
+- (void)t;
 - (void);
 - (void);
 - (id);
@@ -27,8 +27,6 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSArray *contacts; // @synthesize contacts=_contacts;
-@property(retain) CNGroup *group; // @synthesize group=_group;
 @property(retain) SFContactCopyItem *item; // @dynamic item;
 
 @end

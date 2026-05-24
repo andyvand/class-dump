@@ -16,7 +16,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)ptor Primary SFR:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

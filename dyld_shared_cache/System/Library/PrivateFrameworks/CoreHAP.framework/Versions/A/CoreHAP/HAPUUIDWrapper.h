@@ -16,7 +16,7 @@
 + (id);
 - (void);
 - (void)oap_session_t}^?^?^?^?^?^?^?^?^?^?^v*Q*QIIIII^v}16;
-- (id)uteWriteRequestForCharacteristic:value:options:error: /* Error: Ran out of types for this method. */;
+- (id)executeWriteRequestForCharacteristic:value:options:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSUUID *field; // @synthesize field=_field;

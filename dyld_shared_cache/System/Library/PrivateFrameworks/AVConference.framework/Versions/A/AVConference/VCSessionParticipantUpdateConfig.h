@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface VCSessionParticipantUpdateConfig
 {
     NSMutableDictionary *_properties;
-    NSMutableDictionary *_propertiesCache;
-    _Bool _useCache;
-    NSString *_description;
-    NSMutableArray *_cachedMediaStateTransitions;
 }
 
 + (id);
@@ -23,24 +19,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)@;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *cachedStateTransitions;
-@property(readonly, nonatomic) _Bool hasCachedChanges;
 @property(nonatomic) _Bool useCache; // @synthesize useCache=_useCache;
 
 @end

@@ -20,8 +20,8 @@ __attribute__((visibility("hidden")))
 - (double);
 - (id);
 - (id);
-- (void)letedItems:(id)arg1;
-- (void)ne;
+- (void)setDeletedItems:(id)arg1;
+- (void)_shouldDisplayInline;
 
 // Remaining properties
 @property(retain, nonatomic) UILabel *label; // @synthesize label=_label;

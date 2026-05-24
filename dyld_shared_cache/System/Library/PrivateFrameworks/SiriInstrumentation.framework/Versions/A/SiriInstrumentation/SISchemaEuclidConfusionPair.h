@@ -6,19 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString;
+@class NSString;
 
 @interface SISchemaEuclidConfusionPair : SISchemaInstrumentationMessage
 {
     NSString *_recognizedToken;
-    NSArray *_suggestedTokens;
-    NSString *_correctedToken;
-    _Bool _hasRecognizedToken;
-    _Bool _hasCorrectedToken;
 }
 
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -27,8 +23,8 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)c;
 - (id);
 - (void);
 - (void);
@@ -36,22 +32,17 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)ularAppIconArtworkURLString;
+- (_Bool)ABPeoplePickerValueSelectionDidChangeNotification;
+- (_Bool));
 - (id);
 - (id);
-- (id)icalIds;
-- (id)ributeNgramMatch;
-- (void)stPassChannelSelectionDelayNs;
+- (id)deleteCanonicalIds;
+- (id)_countAttributeNgramMatch;
+- (void)firstPassChannelSelectionDelayNs;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *correctedToken; // @synthesize correctedToken=_correctedToken;
-@property(nonatomic) _Bool hasCorrectedToken; // @synthesize hasCorrectedToken=_hasCorrectedToken;
-@property(nonatomic) _Bool hasRecognizedToken; // @synthesize hasRecognizedToken=_hasRecognizedToken;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *recognizedToken; // @synthesize recognizedToken=_recognizedToken;
-@property(copy, nonatomic) NSArray *suggestedTokens; // @synthesize suggestedTokens=_suggestedTokens;
 
 @end
 

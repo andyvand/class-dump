@@ -6,23 +6,19 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSDictionary, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIHighlightRecovery : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputScale;
-    NSNumber *inputApertureScaling;
-    NSDictionary *inputTuningParameters;
-    NSNumber *inputDraftMode;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)h;
 - (id);
 - (id);
 - (void);
@@ -31,11 +27,7 @@ __attribute__((visibility("hidden")))
 - (id)btstttttJ^TkL`Wn~~~~~~~~ttttwvuwyzw}yvr|~`mg{Wsoo~}Zh_rXaVmdlet}}}}]uoZlevNd\nttttttttjhcjGWN^LUMVQQGQKSJS[[U[4SHfRke{Lkb{arkyppppDXO_SYQ\bb`bllgltvsy¢¡¢¢­­­­©ªªªdh_nNaVmv§§§§r}zsmfs]icossssyyyyuuuueeeeQTQTPPOPMVRVCXP_N_VlJf_|l}yr}¡ukup]oi{{zx{x~~~}}}}jsssP`XjJc]pp~;
 
 // Remaining properties
-@property(retain) NSNumber *inputApertureScaling; // @synthesize inputApertureScaling;
-@property(retain, nonatomic) NSNumber *inputDraftMode; // @synthesize inputDraftMode;
 @property(retain) CIImage *inputImage; // @synthesize inputImage;
-@property(retain) NSNumber *inputScale; // @synthesize inputScale;
-@property(retain) NSDictionary *inputTuningParameters; // @synthesize inputTuningParameters;
 
 @end
 

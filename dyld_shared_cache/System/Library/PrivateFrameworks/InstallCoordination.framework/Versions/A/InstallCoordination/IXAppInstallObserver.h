@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCListener;
-@protocol IXAppInstallObserverDelegate, OS_dispatch_queue;
+@class NSXPCListener;
+@protocol IXAppInstallObserverDelegate;
 
 @interface IXAppInstallObserver
 {
     id <IXAppInstallObserverDelegate> _delegate;
-    NSXPCListener *_listener;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
 }
 
 - (oneway void);
@@ -21,7 +19,7 @@
 - (oneway void);
 - (id);
 - (oneway void);
-- (oneway void);
+- (oneway void)=;
 - (oneway void);
 - (oneway void);
 - (void);
@@ -37,19 +35,10 @@
 - (oneway void);
 - (oneway void);
 - (void);
-- (void);
+- (void)`;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) __weak id <IXAppInstallObserverDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSXPCListener *listener; // @synthesize listener=_listener;
-@property(readonly) Class superclass;
 
 @end
 

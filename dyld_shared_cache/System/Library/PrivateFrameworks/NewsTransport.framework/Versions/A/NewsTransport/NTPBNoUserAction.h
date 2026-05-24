@@ -11,22 +11,22 @@
     NSMutableArray *_visibleViews;
 }
 
-+ (Class);
++ (Class)assetCollectionActionPerformer:playMovieForAssetCollection: /* Error: Ran out of types for this method. */;
+- (unsigned long long)fetchLibraryScopesWithLocalIdentifiers:options: /* Error: Ran out of types for this method. */;
+- (id)fetchLibraryScopeRulesForLibraryScope:(unsigned long long)arg1 options: /* Error: Ran out of types for this method. */;
+- (id)fetchLibraryScopeRulesForLibraryScope:options: /* Error: Ran out of types for this method. */;
+- (void)exposureBleedTransitionBlurRadius;
+- (void)addPowerAssertionForIdentifier:withReason:completion: /* Error: Ran out of types for this method. */;
+- (void)accessoryTapToRadarDiagnosticsProviders;
+- (id);
+- (void));
+- (void);
 - (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
+- (_Bool)neral Warning;
 - (_Bool);
-- (_Bool);
+- (id)P;
 - (id);
-- (id);
-- (void);
+- (void)setHasDynamicMaxClusterSizeIPad: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *visibleViews; // @synthesize visibleViews=_visibleViews;

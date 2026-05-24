@@ -6,34 +6,23 @@
 
 #import <GeoServices/GEOXPCRequest.h>
 
-@class NSString;
-
 @interface GEOMAResourcePurgeCacheToSizeRequest : GEOXPCRequest
 {
     int _urgency;
-    unsigned long long _targetSize;
 }
 
-+ (Class);
++ (Class)_updateSpaceBetweenImageAndPopUp;
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (unsigned long long);
-- (void);
-- (void)nAllowlist:(id)arg1;
-- (int)R_STREET_LANDMARKS;
+- (unsigned long long)TB,R,N,G_isChangingRegionForGesture;
+- (void);
+- (void)addCountryRegionAllowlist:(id)arg1;
+- (int)VECTOR_STREET_LANDMARKS;
 - (void)ùÔøäùäøÌùÀùÈùÄùt;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long targetSize; // @synthesize targetSize=_targetSize;
 @property(nonatomic) int urgency; // @synthesize urgency=_urgency;
 
 @end

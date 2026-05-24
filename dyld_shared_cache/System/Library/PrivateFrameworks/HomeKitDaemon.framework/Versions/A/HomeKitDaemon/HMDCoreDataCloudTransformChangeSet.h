@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSSet, NSString, NSUUID;
+@class NSMutableSet, NSSet;
 
 __attribute__((visibility("hidden")))
 @interface HMDCoreDataCloudTransformChangeSet
 {
     NSMutableSet *_inserts;
-    NSMutableDictionary *_updates;
-    NSMutableDictionary *_deletes;
-    _Bool _shouldTransform;
-    NSMutableSet *_deletedModelIDs;
-    NSUUID *_homeModelID;
-    long long _qualityOfService;
-    NSString *_clientIdentifier;
 }
 
 - (id);
 - (id);
-- (void)nValueUpdateTime;
+- (void)lastKnownValueUpdateTime;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *deletedModelIDs;

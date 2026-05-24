@@ -11,18 +11,18 @@
 
 + (id);
 + (id);
-+ (id);
++ (id)Th;
 + (id);
 - (id);
 - (long long);
-- (CDStruct_912cb5d2);
+- (CDStruct_912cb5d2);
 - (_Bool);
 - (id);
 - (CDStruct_996ac03c);
 - (void);
 - (void);
 - (CDStruct_996ac03c);
-- (CDStruct_912cb5d2);
+- (CDStruct_912cb5d2);
 - (long long);
 - (unsigned long long);
 - (_Bool);
@@ -31,7 +31,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_912cb5d2 imageSize; // @synthesize imageSize=_imageSize;
-@property(readonly, nonatomic) long long tileCount;
 
 @end
 

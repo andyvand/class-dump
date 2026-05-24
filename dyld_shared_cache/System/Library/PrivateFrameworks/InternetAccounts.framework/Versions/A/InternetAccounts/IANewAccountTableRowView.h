@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTrackingArea;
-
 @interface IANewAccountTableRowView
 {
     _Bool _mouseInside;
-    _Bool _mouseDown;
-    NSTrackingArea *_trackingArea;
 }
 
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (_Bool);
@@ -22,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -31,7 +27,6 @@
 - (void)D for account to delete:(id)arg1 %@;
 
 // Remaining properties
-@property _Bool mouseDown; // @synthesize mouseDown=_mouseDown;
 @property _Bool mouseInside; // @dynamic mouseInside;
 
 @end

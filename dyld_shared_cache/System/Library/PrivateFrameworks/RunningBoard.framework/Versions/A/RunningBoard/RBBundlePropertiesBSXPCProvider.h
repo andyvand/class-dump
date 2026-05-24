@@ -9,7 +9,6 @@
 @interface RBBundlePropertiesBSXPCProvider
 {
     NSMapTable *_propertiesByIdentifier;
-    struct os_unfair_lock_s _lock;
 }
 
 - (id);

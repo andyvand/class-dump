@@ -7,9 +7,10 @@
 @class NSData, _SFPBCATModel;
 
 @protocol _SFPBShowWrapperResponseViewCommand
+- (id);
+- (NSData *)trashedStateChangedForObjectID: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _SFPBCATModel *catModel;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

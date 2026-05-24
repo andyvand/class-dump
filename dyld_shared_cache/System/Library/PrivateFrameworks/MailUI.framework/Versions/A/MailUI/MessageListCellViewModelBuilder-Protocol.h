@@ -4,29 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MUIAvatarImageContext, MUIAvatarImageGenerator, NSArray, NSAttributedString, NSDictionary, NSString;
-@protocol EMCollectionItemID;
+@class NSArray, NSAttributedString, NSDictionary, NSString;
 
 @protocol MessageListCellViewModelBuilder
-- (NSString *);
+- (void);
+- (NSAttributedString *)I;
+- (_Bool)66;
+- (NSArray *)Lh g;
+- (void);
+- (NSString *)cancelButtonTitle;
 - (NSArray *);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *address;
-@property(nonatomic) _Bool addressIsPresent;
-@property(copy, nonatomic) NSArray *addressList;
-@property(nonatomic) _Bool allowAuthenticationWarning;
-@property(copy, nonatomic) NSAttributedString *attributedAddress;
-@property(retain, nonatomic) MUIAvatarImageContext *avatarContext;
-@property(retain, nonatomic) MUIAvatarImageGenerator *avatarGenerator;
-@property(copy, nonatomic) NSString *categorizationState;
-@property(copy, nonatomic) NSArray *emailAddresses;
-@property(nonatomic) _Bool hideFollowUp;
 @property(copy, nonatomic) NSDictionary *hintsBySnippetZone;
-@property(retain, nonatomic) id <EMCollectionItemID> itemID;
-@property(nonatomic) long long recipientType;
-@property(nonatomic) long long style;
-@property(copy, nonatomic) NSString *subject;
-@property(nonatomic) _Bool subjectIsPresent;
 @end
 

@@ -9,8 +9,6 @@
 @interface PTSliderRow : PTSRow
 {
     double _minValue;
-    double _maxValue;
-    CDUnknownBlockType _valueStringFormatter;
 }
 
 + (_Bool);
@@ -24,16 +22,14 @@
 - (double);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)VNImageNeuralHashprintObservation;
 - (void);
 - (id);
-- (void);
+- (void)CHANGE_PASS_FAILED_NeedsLetter;
 - (double);
 
 // Remaining properties
-@property(nonatomic) double maxValue; // @synthesize maxValue=_maxValue;
 @property(nonatomic) double minValue; // @synthesize minValue=_minValue;
-@property(copy, nonatomic) CDUnknownBlockType valueStringFormatter; // @synthesize valueStringFormatter=_valueStringFormatter;
 
 @end
 

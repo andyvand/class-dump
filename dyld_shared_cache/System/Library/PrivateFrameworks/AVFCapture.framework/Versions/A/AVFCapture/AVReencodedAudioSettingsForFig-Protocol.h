@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary;
+
 @protocol AVReencodedAudioSettingsForFig
+- (void)_bracketType;
+- (NSDictionary *)"<MTLIndirectCommandBuffer>"40@0:8@"MTLIndirectCommandBufferDescriptor"16Q24Q32 /* Error: Ran out of types for this method. */;
 @end
 

@@ -7,11 +7,10 @@
 @interface CICGSFilter
 {
     unsigned int _cid;
-    unsigned int _filter_id;
 }
 
-+ (id);
-- (int);
++ (id);
+- (int);
 - (id);
 - (int);
 - (void);

@@ -11,14 +11,10 @@ __attribute__((visibility("hidden")))
 @interface HMDDataStreamFrameReader
 {
     NSObject<OS_dispatch_data> *_partialFrame;
-    _Bool _headerInfoRead;
-    _Bool _streamFailed;
-    unsigned char _currentframeType;
-    unsigned long long _payloadLength;
 }
 
 + (id)®B;
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);

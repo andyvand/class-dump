@@ -4,44 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-@protocol BMBookmark;
+@class NSArray;
 
 @interface BMBookmarkNode
 {
     NSArray *_upstreams;
-    id <BMBookmark> _value;
-    NSString *_name;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)B;
 - (void);
 - (id);
 - (void);
+- (id),;
 - (id);
+- (id)publicLogSafeIdentifier;
 - (id);
+- (id)nTrackerProtocol>";
+- (_Bool)AVContentIntersecting;
+- (void)P;
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
+- (void)c}@) ? %{public}@;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSArray *upstreams; // @synthesize upstreams=_upstreams;
-@property(retain, nonatomic) id <BMBookmark> value; // @synthesize value=_value;
 
 @end
 

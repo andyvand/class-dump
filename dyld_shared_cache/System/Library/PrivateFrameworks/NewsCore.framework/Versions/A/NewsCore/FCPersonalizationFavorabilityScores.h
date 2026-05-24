@@ -9,23 +9,21 @@
 @interface FCPersonalizationFavorabilityScores
 {
     NTPBPublisherFavorabilityScores *_pbFavorabilityScores;
-    NSDictionary *_tagIDToScores;
 }
 
 + (_Bool);
 - (id);
 - (id);
+- (id)bytesPerPixel;
 - (id);
-- (id);
-- (id);
+- (id)SString",&,V_title;
 - (void);
 - (id);
 - (void);
-- (unsigned long long)Range;
+- (unsigned long long)paidFeedRange;
 - (void)ion;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count;
 @property(retain, nonatomic) NSDictionary *tagIDToScores; // @synthesize tagIDToScores=_tagIDToScores;
 
 @end

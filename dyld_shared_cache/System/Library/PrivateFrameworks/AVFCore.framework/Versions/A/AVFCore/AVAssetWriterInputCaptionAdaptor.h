@@ -11,7 +11,7 @@
     AVAssetWriterInputCaptionAdaptorInternal *_internal;
 }
 
-+ (id);
++ (id)ֽ;
 - (id);
 - (id);
 - (_Bool);

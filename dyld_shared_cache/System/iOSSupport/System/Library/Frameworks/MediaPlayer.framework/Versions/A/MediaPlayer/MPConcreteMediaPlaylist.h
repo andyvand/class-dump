@@ -6,16 +6,13 @@
 
 #import <MediaPlayer/MPMediaPlaylist.h>
 
-@class MPMediaQuery, NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface MPConcreteMediaPlaylist : MPMediaPlaylist
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    NSMutableDictionary *_properties;
-    MPMediaQuery *_itemsQuery;
-    void *_clusterPlaylist;
 }
 
 + (_Bool);
@@ -30,30 +27,30 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
+- (id)RawValue;
+- (id)tableList;
+- (_Bool)iso8601Timestamp;
+- (void)argTypest;
+- (void);
+- (void)4FB7LLP;
+- (void);
+- (void);
+- (void);
 - (id);
-- (id);
+- (void)_p;
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (unsigned long long);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)feedbackCreationSecondsSinceReferenceDate;
 - (void);
 - (_Bool);
 - (void);
@@ -61,7 +58,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (unsigned long long);
-- (void)alImport;
+- (void)isInitialImport;
 
 @end
 

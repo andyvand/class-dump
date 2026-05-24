@@ -5,40 +5,37 @@
 //
 
 @class TRIXPCServerContextPromise;
-@protocol TRITrialInternalEntitled;
 
 @interface TRIInternalServiceRequestHandler
 {
     TRIXPCServerContextPromise *_promise;
-    id <TRITrialInternalEntitled> _entitlementWitness;
-    CDStruct_4c969caf _auditToken;
 }
 
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)_targetCompletionDuration;
+- (void)ailed converting from BTLE UUID to internal:(id)arg1 %@;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)_queue_handleEvent:(CDUnknownBlockType)arg1;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)handleGenericAVMessageFromParticipant:(id)arg1 type:(int)arg2 userInfo:(id)arg3;
 - (void);
 - (void);
 - (void);

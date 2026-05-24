@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface LSDatabaseContext
 {
 }
@@ -14,32 +12,30 @@
 + (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (void);
+- (void)perator=;
+- (id)C;
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)( ;
 - (void);
 - (void);
 - (void)Ø¬8;
 - (void)rror %ld registering extension points inside framework %{public}@;
 
 // Remaining properties
-@property(readonly, getter=isAccessing) _Bool accessing;
 @property(readonly) _Bool canAccess;
-@property(readonly) NSData *currentPersistentIdentifier;
 
 @end
 

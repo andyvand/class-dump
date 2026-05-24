@@ -10,19 +10,19 @@
 {
 }
 
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)_addItemToParentChatIfNotLocationItem:(id)arg1 parentChat:updatedLastMessageCount:reason: /* Error: Ran out of types for this method. */;
+- (_Bool)IMDMessageTranslator;
+- (void)IMAudioMessageProcessingPipelineComponent;
 - (void);
 - (id);
-- (id)n;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id)addSection;
 - (_Bool)·ÿ;
 
 @end

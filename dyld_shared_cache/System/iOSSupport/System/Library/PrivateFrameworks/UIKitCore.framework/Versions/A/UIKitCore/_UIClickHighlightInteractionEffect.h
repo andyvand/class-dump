@@ -4,48 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UITargetedPreview, _UIAnchoredClickHighlightPlatterView;
+@class _UIAnchoredClickHighlightPlatterView;
 
 __attribute__((visibility("hidden")))
 @interface _UIClickHighlightInteractionEffect
 {
     long long _phase;
-    long long _inflightAnimationCount;
-    _Bool _isActive;
-    UITargetedPreview *_targetedPreview;
-    CDUnknownBlockType _completionBlock;
-    _UIAnchoredClickHighlightPlatterView *_highlightPlatter;
-    UITargetedPreview *_continuationPreview;
 }
 
 + (id);
 - (id);
+- (void)reflectAcceptChatToPeerDevicesForMessageGUID:(id)arg1;
 - (void);
-- (void);
+- (id),N,V_deviceConditionsToCheck;
+- (id)l>",R,N;
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (CDUnknownBlockType)6UIViewCXc;
+- (CDUnknownBlockType)_So6UIViewCXc;
 - (void)>$Ø;
 - (void)xa;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(retain, nonatomic) UITargetedPreview *continuationPreview; // @synthesize continuationPreview=_continuationPreview;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _UIAnchoredClickHighlightPlatterView *highlightPlatter; // @synthesize highlightPlatter=_highlightPlatter;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) UITargetedPreview *targetedPreview; // @synthesize targetedPreview=_targetedPreview;
-@property(readonly, nonatomic) UITargetedPreview *targetedPreviewForEffectContinuation;
 
 @end
 

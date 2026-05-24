@@ -11,10 +11,11 @@
     PHPhotoLibrary *_photoLibrary;
 }
 
+- (id)";
+- (id)T
+;
 - (id);
-- (id);
-- (id);
-- (void)ate;
+- (void)PXGLoadingState;
 - (id);
 
 // Remaining properties

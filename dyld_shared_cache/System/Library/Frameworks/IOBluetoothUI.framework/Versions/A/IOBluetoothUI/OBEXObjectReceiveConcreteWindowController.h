@@ -4,36 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOBluetoothDevice, IOBluetoothOBEXSession, IOBluetoothTransferProgressUI, NSButton, NSImageView, NSMutableArray, NSProgressIndicator, NSString, NSTextField, OBEXFileTransferServices;
+@class NSTextField;
 
 @interface OBEXObjectReceiveConcreteWindowController
 {
     NSTextField *mFileStatusField;
-    NSTextField *mFileTransferredField;
-    NSTextField *mFileRemainingField;
-    NSProgressIndicator *mFileProgressIndicator;
-    NSButton *mFileAbortButton;
-    NSImageView *mFileIconView;
-    id mDelegate;
-    NSMutableArray *mRemoteFileNames;
-    NSString *mDestinationPath;
-    int mCurrentFileIndex;
-    OBEXFileTransferServices *mFTPModule;
-    IOBluetoothOBEXSession *mOBEXSession;
-    IOBluetoothDevice *mTargetDevice;
-    _Bool mTargetIsAMac;
-    _Bool mIsVCardTransfer;
-    _Bool mIsSendingPanel;
-    _Bool mDoesMultipleTransfers;
-    IOBluetoothTransferProgressUI *mTransferProgress;
-    unsigned int mFirstPacketSize;
-    unsigned short mMaxPacketLength;
-    _Bool mIsFirstPutPacket;
-    _Bool mUserAborted;
-    _Bool mErrorDialogIsUp;
-    int mPanelRunState;
-    NSString *mWindowTitle;
-    struct _NSModalSession *mModalSession;
 }
 
 - (void);
@@ -54,7 +29,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -66,8 +41,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)"ȥrB;
+- (void)?24;
 - (void);
 - (void);
 - (id);

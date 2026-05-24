@@ -7,13 +7,10 @@
 @interface NLProbabilityInfo
 {
     _Bool _isValid;
-    double _probability;
-    double _log10Probability;
-    unsigned long long _probabilityFlags;
 }
 
 + (_Bool);
-- (unsigned long long);
+- (unsigned long long)languageIdentifier;
 - (double);
 - (id);
 - (id);
@@ -25,13 +22,10 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)4;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isValid; // @synthesize isValid=_isValid;
-@property(readonly, nonatomic) double log10Probability; // @synthesize log10Probability=_log10Probability;
 @property(readonly, nonatomic) double probability; // @synthesize probability=_probability;
-@property(readonly, nonatomic) unsigned long long probabilityFlags; // @synthesize probabilityFlags=_probabilityFlags;
 
 @end
 

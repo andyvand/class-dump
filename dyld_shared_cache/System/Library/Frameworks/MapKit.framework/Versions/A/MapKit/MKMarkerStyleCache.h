@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface MKMarkerStyleCache
 {
     NSCache *_unselectedCache;
-    NSCache *_selectedCache;
-    long long _liveMarkerCount;
 }
 
 + (id);
@@ -22,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)localizedStringForKey:value:table: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -7,18 +7,16 @@
 @interface NewsFeed.DebugFormatUploadDiffVersionsViewController
 {
     id tableView;
-    id selectedRemoteVersion;
-    id sections;
 }
 
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)	;
 - (long long);
 - (void);
-- (long long);
+- (long long);
 - (void);
 - (void)C;
 

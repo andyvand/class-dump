@@ -11,10 +11,10 @@
 }
 
 + (Class);
-+ (id);
++ (id)<;
 + (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)bswift_Builtin_float.dylib;
+- (_Bool)ftUniformTypeIdentifiers.dylib;
 - (_Bool);
 - (_Bool);
 - (id);

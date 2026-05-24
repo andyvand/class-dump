@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSURL, QLThumbnailItem;
-
 @interface QLFileThumbnailRequest
 {
     double _scale;
-    QLThumbnailItem *_item;
-    NSDictionary *_options;
-    NSDictionary *_generationData;
-    struct CGSize _maximumSize;
-    struct CGSize _minimumSize;
 }
 
 + (_Bool);
@@ -29,27 +22,21 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)C;
 - (double);
 - (id);
 - (id);
 - (struct CGSize);
+- (void));
 - (void);
-- (void);
-- (void);
+- (void);
 - (struct CGSize);
-- (id);
+- (id)B_;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSURL *fileURL;
-@property(retain, nonatomic) NSDictionary *generationData; // @synthesize generationData=_generationData;
-@property(retain, nonatomic) QLThumbnailItem *item; // @synthesize item=_item;
 @property(nonatomic) struct CGSize maximumSize; // @synthesize maximumSize=_maximumSize;
-@property(nonatomic) struct CGSize minimumSize; // @synthesize minimumSize=_minimumSize;
-@property(retain, nonatomic) NSDictionary *options; // @synthesize options=_options;
-@property(nonatomic) double scale; // @synthesize scale=_scale;
 
 @end
 

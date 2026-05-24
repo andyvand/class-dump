@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
     NSImage *_image;
 }
 
-+ (id);
++ (id)*;
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 

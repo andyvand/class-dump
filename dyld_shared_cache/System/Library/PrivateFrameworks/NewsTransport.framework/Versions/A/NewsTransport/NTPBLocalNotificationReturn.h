@@ -7,59 +7,39 @@
 @interface NTPBLocalNotificationReturn
 {
     long long _localNotificationSentTimestamp;
-    int _localNoticationNumberReceived;
-    int _localNotificationDirectOpenNumber;
-    int _localNotificationType;
-    _Bool _localNotificationDirectOpen;
-    struct {
-        unsigned int localNotificationSentTimestamp:1;
-        unsigned int localNoticationNumberReceived:1;
-        unsigned int localNotificationDirectOpenNumber:1;
-        unsigned int localNotificationType:1;
-        unsigned int localNotificationDirectOpen:1;
-    } _has;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (int);
-- (long long);
-- (int);
-- (_Bool);
-- (int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (void)defaultAssetWidthPortrait;
+- (void)defaultAssetPadding;
+- (void)defaultAnimationOptionsForTilingController:(int)arg1 withInvalidationContexts: /* Error: Ran out of types for this method. */;
+- (void)defaultAnimationOptionsForTilingController:(int)arg1 withInvalidationContexts: /* Error: Ran out of types for this method. */;
+- (void)contributorDisplayName;
+- (void)continuousKenBurnsAnimationsTolerance;
+- (void)continuation;
+- (void)contextualVideoThumbnailID;
+- (void)contextWithPerson:(_Bool)arg1 type: /* Error: Ran out of types for this method. */;
+- (int)bootstrapDelegate;
+- (long long)boostLoading;
+- (int)bookmarksManagerObserver;
+- (_Bool)bookmarksManager;
+- (int)bookmarksDataSectionManagerForLibrary: /* Error: Ran out of types for this method. */;
+- (_Bool)animateNextRender;
+- (_Bool)animateDismissalOfViewController:fromViewController: /* Error: Ran out of types for this method. */;
+- (_Bool)animateChangesWithDuration: /* Error: Ran out of types for this method. */;
+- (_Bool)animateAlongsideTransition:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)andPredicateWithSubpredicates: /* Error: Ran out of types for this method. */;
+- (void)_updateProducersLikelyToKeepUp;
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (id);
-- (id);
+- (id)$;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLocalNoticationNumberReceived;
 @property(nonatomic) _Bool hasLocalNotificationDirectOpen;
-@property(nonatomic) _Bool hasLocalNotificationDirectOpenNumber;
-@property(nonatomic) _Bool hasLocalNotificationSentTimestamp;
-@property(nonatomic) _Bool hasLocalNotificationType;
-@property(nonatomic) int localNoticationNumberReceived; // @synthesize localNoticationNumberReceived=_localNoticationNumberReceived;
-@property(nonatomic) _Bool localNotificationDirectOpen; // @synthesize localNotificationDirectOpen=_localNotificationDirectOpen;
-@property(nonatomic) int localNotificationDirectOpenNumber; // @synthesize localNotificationDirectOpenNumber=_localNotificationDirectOpenNumber;
-@property(nonatomic) long long localNotificationSentTimestamp; // @synthesize localNotificationSentTimestamp=_localNotificationSentTimestamp;
-@property(nonatomic) int localNotificationType; // @synthesize localNotificationType=_localNotificationType;
 
 @end
 

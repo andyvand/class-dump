@@ -10,26 +10,24 @@ __attribute__((visibility("hidden")))
 @interface AVPresentationContainerViewLayer
 {
     _Bool _wantsAppearanceConfigValues;
-    AVPresentationContainerViewAppearanceProxy *_appearanceProxy;
 }
 
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
-- (double);
+- (double)t;
 - (void);
 - (void)!°!ÜCùQ[1Â0@ù
 × ;
 - (void)GImage=}24B32{CGRect={CGPoint=dd}{CGSize=dd}}36;
-- (id)creen;
+- (id)_didBeginPlayingOnSecondScreen;
 
 // Remaining properties
 @property(readonly, nonatomic) AVPresentationContainerViewAppearanceProxy *appearanceProxy; // @synthesize appearanceProxy=_appearanceProxy;
-@property(nonatomic) _Bool wantsAppearanceConfigValues; // @synthesize wantsAppearanceConfigValues=_wantsAppearanceConfigValues;
 
 @end
 

@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (SXAXAdditions)
-- (void);
+- (void);
 @end
 

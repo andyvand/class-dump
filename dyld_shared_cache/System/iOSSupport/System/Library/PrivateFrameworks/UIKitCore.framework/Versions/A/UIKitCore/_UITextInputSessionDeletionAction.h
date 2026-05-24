@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     unsigned long long _options;
 }
 
-- (long long);
+- (long long)deactivateVideoProvider;
 - (_Bool);
-- (id);
+- (id)l=}72;
 - (void);
 - (long long);
 - (unsigned long long)aÐ!\CùQ`1Â0@ù

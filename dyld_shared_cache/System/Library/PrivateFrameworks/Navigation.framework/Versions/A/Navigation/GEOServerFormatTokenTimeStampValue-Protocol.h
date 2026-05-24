@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTimeZone;
+@class NSTimeZone;
 
 @protocol GEOServerFormatTokenTimeStampValue
 - (NSTimeZone *)`ßÿÿÐîÿ5;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *formatPattern;
 @property(readonly, nonatomic) double timeStamp;
-@property(readonly, nonatomic) NSTimeZone *timeZone;
 @end
 

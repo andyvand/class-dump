@@ -7,6 +7,13 @@
 @class NSArray, TUCall;
 
 @protocol TUCallContainer
+- (NSArray *);
+- (TUCall *);
+- (NSArray *)`;
+- (NSArray *)~;
+- (unsigned long long));
+- (TUCall *);
+- (_Bool)booleanValue;
 - (NSArray *)oupUUID;
 - (_Bool)oxying pullRelayingGFTCallsFromClientIfNecessary through CSD;
 - (NSArray *)etCallRecordingEnabled called %d;
@@ -15,46 +22,17 @@
 - (TUCall *)%@ with creation date %@;
 - (TUCall *)Conduit delegate added:%{public}@ /* Error: Ran out of types for this method. */;
 - (NSArray *)AudioClient to follow system input setting:%d /* Error: Ran out of types for this method. */;
-- (_Bool)ndle;
-- (TUCall *)lAddress;
+- (_Bool)senderHandle;
+- (TUCall *)EmailAddress;
 - (TUCall *)pple.telephonyutilities.callservicesd.FaceTimeProvider;
-- (_Bool)ra;
+- (_Bool)backgroundCamera;
 - (NSArray *)reen=%d;
 - (unsigned long long)=%@;
-- (TUCall *)ification;
+- (TUCall *)TUBargeCallTransmissionModeChangedNotification;
 - (_Bool)type = %d;
 - (TUCall *)contact=%@;
-- (TUCall *);
 
 // Remaining properties
-@property(readonly, nonatomic) TUCall *activeVideoCall;
-@property(readonly, nonatomic) _Bool anyCallIsEndpointOnCurrentDevice;
-@property(readonly, nonatomic) _Bool anyCallIsHostedOnCurrentDevice;
-@property(readonly, nonatomic) unsigned long long callCountOnDefaultPairedDevice;
-@property(readonly, copy, nonatomic) NSArray *callGroupsOnDefaultPairedDevice;
-@property(readonly, copy, nonatomic) NSArray *callsHostedElsewhere;
-@property(readonly, copy, nonatomic) NSArray *callsHostedOrAnEndpointElsewhere;
-@property(readonly, copy, nonatomic) NSArray *callsOnDefaultPairedDevice;
-@property(readonly, copy, nonatomic) NSArray *callsWithAnEndpointElsewhere;
-@property(readonly, copy, nonatomic) NSArray *conferenceParticipantCalls;
-@property(readonly, nonatomic) unsigned long long currentAudioAndVideoCallCount;
-@property(readonly, copy, nonatomic) NSArray *currentAudioAndVideoCallGroups;
-@property(readonly, copy, nonatomic) NSArray *currentAudioAndVideoCalls;
-@property(readonly, nonatomic) unsigned long long currentCallCount;
-@property(readonly, copy, nonatomic) NSArray *currentCallGroups;
 @property(readonly, copy, nonatomic) NSArray *currentCalls;
-@property(readonly, nonatomic) TUCall *currentVideoCall;
-@property(readonly, nonatomic) unsigned long long currentVideoCallCount;
-@property(readonly, copy, nonatomic) NSArray *currentVideoCalls;
-@property(readonly, copy, nonatomic) NSArray *displayedAudioAndVideoCalls;
-@property(readonly, copy, nonatomic) NSArray *displayedCalls;
-@property(readonly, nonatomic) _Bool hasCurrentAudioCalls;
-@property(readonly, nonatomic) _Bool hasCurrentCalls;
-@property(readonly, nonatomic) _Bool hasCurrentVideoCalls;
-@property(readonly, nonatomic) TUCall *incomingCall;
-@property(readonly, copy, nonatomic) NSArray *incomingCalls;
-@property(readonly, nonatomic) TUCall *incomingVideoCall;
-@property(readonly, nonatomic) TUCall *pendingUpgradeCall;
-@property(readonly, nonatomic) TUCall *screeningCall;
 @end
 

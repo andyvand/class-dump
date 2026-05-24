@@ -6,9 +6,9 @@
 
 @interface UnknownClass (RemoteManagement)
 + (id);
++ (id)T	;
 + (id);
-+ (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)AT0;
+- (_Bool);
 @end
 

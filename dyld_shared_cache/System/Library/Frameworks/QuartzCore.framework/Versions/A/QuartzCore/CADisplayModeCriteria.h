@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CADisplayModeCriteria
 {
     struct CADisplayModeCriteriaPriv *_priv;
@@ -27,12 +25,7 @@
 - (void);
 
 // Remaining properties
-@property _Bool disableFrameDoubling;
-@property(copy) NSString *hdrMode;
-@property(getter=isHighRefreshRate) _Bool highRefreshRate;
-@property double refreshRate;
 @property struct CGSize resolution;
-@property(getter=isVariableRefreshRate) _Bool variableRefreshRate;
 
 @end
 

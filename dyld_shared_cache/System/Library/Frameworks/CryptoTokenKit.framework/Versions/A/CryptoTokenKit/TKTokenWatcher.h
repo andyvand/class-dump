@@ -4,31 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, TKCTKDConnection;
+@class NSArray;
 
 @interface TKTokenWatcher
 {
     int _notifyToken;
-    NSMutableDictionary *_tokenInfos;
-    NSMutableDictionary *_removalHandlers;
-    CDUnknownBlockType _insertionHandler;
-    TKCTKDConnection *_ctkdConnection;
 }
 
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
+- (id);
+- (void),;
+- (void);
 - (void);
 - (id);
 - (void);
+- (id);
+- (void)ic}@);
 
 // Remaining properties
 @property(readonly) NSArray *tokenIDs;

@@ -6,35 +6,29 @@
 
 #import <NearField/NFTrustObject.h>
 
-@class NSArray, NSData, NSNumber;
+@class NSData, NSNumber;
 
 @interface NFTrustKeyRequest : NFTrustObject
 {
     NSData *_subjectIdentifier;
-    NSData *_discretionaryData;
-    NSArray *_localValidations;
-    NSNumber *_counterLimit;
 }
 
-+ (id);
-+ (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
++ (id)v;
++ (_Bool)A;
+- (void)COLLECTION_TOP_MARGIN;
+- (void)reject;
+- (void)CNDelegateRetainingEditAuthorizationViewController;
+- (void)messagingServiceView;
+- (id)ne-numbers;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (void);
+- (void)FindNodesForComputer no computer graph found;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *counterLimit; // @synthesize counterLimit=_counterLimit;
-@property(retain, nonatomic) NSData *discretionaryData; // @synthesize discretionaryData=_discretionaryData;
-@property(retain, nonatomic) NSArray *localValidations; // @synthesize localValidations=_localValidations;
-@property(retain, nonatomic) NSData *subjectIdentifier; // @synthesize subjectIdentifier=_subjectIdentifier;
 
 @end
 

@@ -6,16 +6,12 @@
 
 #import <MediaPlaybackCore/_MPCPlayerCommand.h>
 
-@class NSArray, NSDictionary, NSSet, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface _MPCPlayerResetTracklistCommand : _MPCPlayerCommand
 {
     _Bool _supportsSetQueueCommand;
-    NSArray *_devices;
-    NSDictionary *_supportedSpecializedQueues;
-    unsigned long long _supportedQueueTypes;
-    NSSet *_supportedCustomDataQueueIdentifiers;
 }
 
 - (_Bool);
@@ -27,8 +23,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)44@0:(id)arg1 8@16i24@28@36;
+- (id)B40@0:(id)arg1 8@16@24^@32;
 - (id);
 - (id);
 - (id);
@@ -37,19 +33,7 @@ __attribute__((visibility("hidden")))
 - (void)@m;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSArray *devices; // @synthesize devices=_devices;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *specializedIntents;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSSet *supportedCustomDataQueueIdentifiers; // @synthesize supportedCustomDataQueueIdentifiers=_supportedCustomDataQueueIdentifiers;
-@property(nonatomic) unsigned long long supportedQueueTypes; // @synthesize supportedQueueTypes=_supportedQueueTypes;
-@property(retain, nonatomic) NSDictionary *supportedSpecializedQueues; // @synthesize supportedSpecializedQueues=_supportedSpecializedQueues;
-@property(nonatomic) _Bool supportsSetQueueCommand; // @synthesize supportsSetQueueCommand=_supportsSetQueueCommand;
 
 @end
 

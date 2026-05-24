@@ -7,12 +7,10 @@
 @class UIImage;
 
 @protocol _UITextPreviewRenderer
+- (void);
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect bodyRect;
-@property(nonatomic) _Bool excludeBackground;
-@property(readonly, nonatomic) struct CGRect firstLineRect;
 @property(readonly, nonatomic) UIImage *image;
-@property(readonly, nonatomic) struct CGRect lastLineRect;
 @end
 

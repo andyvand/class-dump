@@ -6,20 +6,12 @@
 
 #import <CloudKitDaemon/CKDDatabaseOperation.h>
 
-@class CKDeviceCapabilityCheckOptions, NSArray, NSMutableArray;
-@protocol CKCheckSupportedDeviceCapabilitiesOperationCallbacks><CKDOperationCallbackProxy;
-
 @interface CKDCheckSupportedDeviceCapabilitiesOperation : CKDDatabaseOperation
 {
     CDUnknownBlockType _checkSupportedDeviceCapabilitiesProgressBlock;
-    NSArray *_zoneIDs;
-    NSArray *_desiredCapabilitySets;
-    CKDeviceCapabilityCheckOptions *_options;
-    NSMutableArray *_continuations;
-    NSMutableArray *_results;
 }
 
-+ (id);
++ (id)setRoamingState:(unsigned long long)arg1 withReason:asString:andStatus:asString:andLatency:andRoamData:andPingPongSequence:forInterface: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -29,7 +21,7 @@
 - (void);
 - (id);
 - (CDUnknownBlockType);
-- (void);
+- (void)c;
 - (void);
 - (void);
 - (void);
@@ -37,27 +29,20 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
+- (id)_rtCoexSubType;
+- (id)_isCellularStateAtLinkDownValid;
 - (id);
 - (void);
+- (_Bool);
 - (id);
-- (int);
+- (void);
+- (id);
+- (int)(;
 - (id);
 - (void)PCS data for zone %@;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType checkSupportedDeviceCapabilitiesProgressBlock; // @synthesize checkSupportedDeviceCapabilitiesProgressBlock=_checkSupportedDeviceCapabilitiesProgressBlock;
-@property(retain, nonatomic) id <CKCheckSupportedDeviceCapabilitiesOperationCallbacks><CKDOperationCallbackProxy> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(retain, nonatomic) NSMutableArray *continuations; // @synthesize continuations=_continuations;
-@property(retain, nonatomic) NSArray *desiredCapabilitySets; // @synthesize desiredCapabilitySets=_desiredCapabilitySets;
-@property(retain, nonatomic) CKDeviceCapabilityCheckOptions *options; // @synthesize options=_options;
-@property(retain, nonatomic) NSMutableArray *results; // @synthesize results=_results;
 @property(nonatomic) unsigned long long state; // @dynamic state;
-@property(retain, nonatomic) NSArray *zoneIDs; // @synthesize zoneIDs=_zoneIDs;
 
 @end
 

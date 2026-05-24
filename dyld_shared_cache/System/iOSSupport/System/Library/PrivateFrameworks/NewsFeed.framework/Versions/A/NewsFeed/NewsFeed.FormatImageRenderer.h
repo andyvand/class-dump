@@ -7,9 +7,6 @@
 @interface NewsFeed.FormatImageRenderer
 {
     id imageCache;
-    id rendererTool;
-    id assetManager;
-    id commandCenter;
 }
 
 @end

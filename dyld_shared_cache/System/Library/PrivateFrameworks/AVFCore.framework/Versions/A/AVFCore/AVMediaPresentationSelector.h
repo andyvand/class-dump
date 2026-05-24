@@ -4,30 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSString;
 
 @interface AVMediaPresentationSelector
 {
     NSString *_identifier;
-    NSArray *_mediaPresentationSettings;
-    NSDictionary *_displayNames;
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)`;
+- (id);
 - (_Bool);
 - (id);
 - (id);
 
 // Remaining properties
 @property(readonly) NSString *identifier;
-@property(readonly) NSArray *settings;
 
 @end
 

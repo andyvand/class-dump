@@ -10,7 +10,7 @@
 }
 
 - (id);
-- (void)ImageSymbolConfigurationCSg;
+- (void)So26NSImageSymbolConfigurationCSg;
 
 @end
 

@@ -16,7 +16,7 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)DBGSourcePathRemapping;
 
 // Remaining properties
 @property(nonatomic) _Bool textToSpeechIsMuted;

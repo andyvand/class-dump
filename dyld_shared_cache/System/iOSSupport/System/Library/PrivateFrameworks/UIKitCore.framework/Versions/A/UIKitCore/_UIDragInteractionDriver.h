@@ -4,34 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIGestureRecognizer, UIView;
-@protocol UIDragInteractionEffect, _UIDragInteractionDriverDelegate;
-
 @interface _UIDragInteractionDriver
 {
     struct _UIDragInteractionDriverStateMachine _stateMachine;
-    struct CAPoint3D _initialLocationInWindow;
-    _Bool _enabled;
-    _Bool _additionalTouchesCancelLift;
-    _Bool _allowsSimultaneousRecognitionDuringLift;
-    _Bool _shouldAnimateLift;
-    _Bool _cancellationTimerEnabled;
-    _Bool _competingLongPressOnLift;
-    _Bool _automaticallyAddsFailureRelationships;
-    id <_UIDragInteractionDriverDelegate> _delegate;
-    UIView *_view;
-    double _liftDelay;
-    double _cancellationDelay;
-    double _competingLongPressDelay;
-    double _liftMoveHysteresis;
-    NSArray *_allowedTouchTypes;
-    CDUnknownBlockType _itemUpdater;
-    UIGestureRecognizer *_gestureRecognizerForDragInitiation;
 }
 
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)A;
 - (void);
 - (_Bool);
 - (void)1Â0@ù
@@ -52,34 +32,34 @@
 × ;
 - (double)0;
 - (void)@0:(_Bool)arg1 8@"UIAlertView"16q24;
-- (_Bool)dateMaskViewsForView: /* Error: Ran out of types for this method. */;
-- (void)selectedDate:followsSystemHourCycle: /* Error: Ran out of types for this method. */;
-- (void)pleteKeys;
-- (_Bool)tionProgressForPresentation;
+- (_Bool)updateMaskViewsForView: /* Error: Ran out of types for this method. */;
+- (void)reloadWithCalendar:locale:selectedDate:followsSystemHourCycle: /* Error: Ran out of types for this method. */;
+- (void)multitapCompleteKeys;
+- (_Bool)interactionProgressForPresentation;
 - (_Bool);
-- (void)pingViewWithLeftBoundary:(_Bool)arg1 rightBoundary:leftMaskImage:leftMaskIsChevron:rightMaskImage: /* Error: Ran out of types for this method. */;
-- (_Bool)belColor;
-- (void)llView;
-- (_Bool)essed: /* Error: Ran out of types for this method. */;
-- (id)moveEventObserver: /* Error: Ran out of types for this method. */;
-- (unsigned long long)yItem;
-- (void)aultAttributes;
-- (void)tionPreview;
-- (void)ext:(double)arg1 collectionView: /* Error: Ran out of types for this method. */;
-- (void)resSpeedBumpEdges;
+- (void)_wrapView:(_Bool)arg1 inClippingViewWithLeftBoundary:rightBoundary:leftMaskImage:leftMaskIsChevron:rightMaskImage: /* Error: Ran out of types for this method. */;
+- (_Bool)_updateLabelColor;
+- (void)_shouldContinueToWaitToTransferTrackingFromParentScrollView;
+- (_Bool)_setPressed: /* Error: Ran out of types for this method. */;
+- (id)_removeEventObserver: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_latestCommittedPageLoadHistoryItem;
+- (void)_hasCustomized_defaultAttributes;
+- (void)_destinationPreview;
+- (void)_contextWithContext:(double)arg1 collectionView: /* Error: Ran out of types for this method. */;
+- (void)__ignoresSpeedBumpEdges;
 - (void)ightClamping;
 - (void)_UISmartReplyFeedbackManager",&,N,V_smartReplyFeedbackManager;
-- (id)ID;
+- (id)latestMoveDragEventsBySessionID;
 - (void)pearanceTransition;
 - (void);
-- (void)AccentVariantViewCell;
+- (void)UIKeyboardAccentVariantViewCell;
 - (double),&'( )¤)|*\+p,;
 - (id)c;
 - (void)pletion now:%@ /* Error: Ran out of types for this method. */;
 - (void)to the collection view. Avoid flushing layout before returning the view to the collection view. Avoid dequeuing views without a request from the collection view. For retrieving an existing view in the collection view, use -[UICollectionView cellForItemAtIndexPath:(unsigned long long)arg1 ] or -[UICollectionView supplementaryViewForElementKind:atIndexPath:]. Dequeued view:%@; Collection view:%@ This will become an assert in a future version. /* Error: Ran out of types for this method. */;
 - (_Bool)x1êÿ1êÿ1êÿ1êÿ¨1êÿ´1êÿ;
 - (void)p.count;
-- (CDUnknownBlockType)y;
+- (CDUnknownBlockType)cursorAccessory;
 - (void)e non-nil;
 - (struct CGPoint);
 - (void)x\;
@@ -87,35 +67,7 @@
 - (void)4Ã±ÿÿÜÛ;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isActive) _Bool active;
-@property(nonatomic) _Bool additionalTouchesCancelLift; // @synthesize additionalTouchesCancelLift=_additionalTouchesCancelLift;
-@property(copy, nonatomic) NSArray *allowedTouchTypes; // @synthesize allowedTouchTypes=_allowedTouchTypes;
-@property(nonatomic) _Bool allowsSimultaneousRecognitionDuringLift; // @synthesize allowsSimultaneousRecognitionDuringLift=_allowsSimultaneousRecognitionDuringLift;
-@property(nonatomic) _Bool automaticallyAddsFailureRelationships; // @synthesize automaticallyAddsFailureRelationships=_automaticallyAddsFailureRelationships;
-@property(nonatomic) double cancellationDelay; // @synthesize cancellationDelay=_cancellationDelay;
-@property(nonatomic) _Bool cancellationTimerEnabled; // @synthesize cancellationTimerEnabled=_cancellationTimerEnabled;
-@property(nonatomic) double competingLongPressDelay; // @synthesize competingLongPressDelay=_competingLongPressDelay;
-@property(nonatomic) _Bool competingLongPressOnLift; // @synthesize competingLongPressOnLift=_competingLongPressOnLift;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <_UIDragInteractionDriverDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly, nonatomic) UIGestureRecognizer *gestureRecognizerForDragInitiation; // @synthesize gestureRecognizerForDragInitiation=_gestureRecognizerForDragInitiation;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct CGPoint initialLocationInWindow;
-@property(readonly, nonatomic) id <UIDragInteractionEffect> interactionEffect;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<UIDragInteractionEffect>",?,R,N
-
-@property(readonly, copy, nonatomic) CDUnknownBlockType itemUpdater; // @synthesize itemUpdater=_itemUpdater;
-@property(nonatomic) double liftDelay; // @synthesize liftDelay=_liftDelay;
-@property(nonatomic) double liftMoveHysteresis; // @synthesize liftMoveHysteresis=_liftMoveHysteresis;
 @property(nonatomic) _Bool shouldAnimateLift; // @synthesize shouldAnimateLift=_shouldAnimateLift;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end
 

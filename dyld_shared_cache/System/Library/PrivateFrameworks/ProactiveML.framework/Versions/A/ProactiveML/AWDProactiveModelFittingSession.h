@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AWDProactiveModelFittingModelInfo, AWDProactiveModelFittingSparseFloatVector;
-
 @interface AWDProactiveModelFittingSession
 {
     unsigned long long _label;
-    unsigned long long _supervisionType;
-    unsigned long long _timestamp;
-    float _confidenceScore;
-    AWDProactiveModelFittingModelInfo *_modelInfo;
-    AWDProactiveModelFittingSparseFloatVector *_sparseFloatFeatures;
-    struct {
-        unsigned int label:1;
-        unsigned int supervisionType:1;
-        unsigned int timestamp:1;
-        unsigned int confidenceScore:1;
-    } _has;
 }
 
 - (id);
@@ -35,39 +22,28 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (float);
-- (id);
+- (_Bool)mloSamples;
+- (float)_linkTestResult;
+- (id)storOperationID:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)logDebugSessionConnectionSnapshotCaptured:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) float confidenceScore; // @synthesize confidenceScore=_confidenceScore;
-@property(nonatomic) _Bool hasConfidenceScore;
-@property(nonatomic) _Bool hasLabel;
-@property(readonly, nonatomic) _Bool hasModelInfo;
-@property(readonly, nonatomic) _Bool hasSparseFloatFeatures;
-@property(nonatomic) _Bool hasSupervisionType;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long label; // @synthesize label=_label;
-@property(retain, nonatomic) AWDProactiveModelFittingModelInfo *modelInfo; // @synthesize modelInfo=_modelInfo;
-@property(retain, nonatomic) AWDProactiveModelFittingSparseFloatVector *sparseFloatFeatures; // @synthesize sparseFloatFeatures=_sparseFloatFeatures;
-@property(nonatomic) unsigned long long supervisionType; // @synthesize supervisionType=_supervisionType;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

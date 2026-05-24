@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, _LSRemoteOpenCallInputs, _LSRemoteOpenCallOutputs;
+@class NSObject;
 @protocol OS_xpc_object;
 
 __attribute__((visibility("hidden")))
 @interface _LSRemoteOpenCall
 {
     NSObject<OS_xpc_object> *_connection;
-    _LSRemoteOpenCallInputs *_inputs;
-    _LSRemoteOpenCallOutputs *_outputs;
 }
 
 + (_Bool);
 + (_Bool);
 + (void);
-+ (_Bool);
++ (_Bool)r>";
 - (void);
 - (void);
 - (void);
@@ -28,15 +26,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id)`;
 - (void)°¼%;
 
 @end

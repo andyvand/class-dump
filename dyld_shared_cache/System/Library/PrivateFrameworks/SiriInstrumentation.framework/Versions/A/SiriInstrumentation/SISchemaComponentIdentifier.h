@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface SISchemaComponentIdentifier : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_uuid;
-    int _component;
-    CDStruct_1513a5fc _has;
-    _Bool _hasUuid;
 }
 
 - (void);
@@ -26,23 +23,19 @@
 - (id);
 - (void);
 - (int);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)",C,N,V_purchaseID;
+- (_Bool)oid);
+- (_Bool)_id NOT IN (SELECT ch2.chat_id FROM chat_handle_join ch2 WHERE ch2.handle_id = ?) ;
 - (id);
-- (id);
-- (id)etHasDictationModelVersion: /* Error: Ran out of types for this method. */;
-- (id)reLaunchTriggered;
-- (id)seEdgeLabel;
+- (id)kCGInvTwoPointTwoGamma;
+- (id)setHasDictationModelVersion: /* Error: Ran out of types for this method. */;
+- (id)deleteAppPreLaunchTriggered;
+- (id)_baseEdgeLabel;
 - (void)ü4Ì9x:(id)arg1 ü:GPJ /* Error: Ran out of types for this method. */;
-- (_Bool)NTTYPE_EVENT;
+- (_Bool)STLLMQUMODELEVENTTYPE_EVENT;
 - (void)eakSecondPassPolicyDecisionMade;
 
 // Remaining properties
-@property(nonatomic) int component; // @synthesize component=_component;
-@property(nonatomic) _Bool hasComponent;
-@property(nonatomic) _Bool hasUuid; // @synthesize hasUuid=_hasUuid;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *uuid; // @synthesize uuid=_uuid;
 
 @end

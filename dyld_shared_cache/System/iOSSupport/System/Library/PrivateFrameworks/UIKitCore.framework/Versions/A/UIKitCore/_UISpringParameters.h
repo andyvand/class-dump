@@ -19,8 +19,8 @@
 - (double)1_Ð1Â0@ù
 × ;
 - (_Bool)ight"b1"hasDefaultLayoutMargins"b1"automaticIntrinsicContentSizeInvalidationEnabled"b1};
-- (void)houldTintContentImage;
-- (id)ContentOffsetForKeyboardIfNeeded;
+- (void)shouldTintContentImage;
+- (id)_adjustContentOffsetForKeyboardIfNeeded;
 
 // Remaining properties
 @property(readonly, nonatomic) double _dampingRatio; // @synthesize _dampingRatio=__dampingRatio;

@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint;
 @protocol CKMessageEntryViewContainerViewDelegate;
 
 @interface CKMessageEntryViewContainerView
 {
     id <CKMessageEntryViewContainerViewDelegate> _entryViewContainerViewDelegate;
-    NSLayoutConstraint *_entryViewStuckToChatControllerBottomLayoutConstraint;
 }
 
-- (void);
-- (void);
+- (void)T@"NSManagedObjectContext",R,N,V_legacyManagedObjectContext;
+- (void)numberOfChanges;
 - (id);
-- (id);
+- (id)t;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <CKMessageEntryViewContainerViewDelegate> entryViewContainerViewDelegate; // @synthesize entryViewContainerViewDelegate=_entryViewContainerViewDelegate;
-@property(retain, nonatomic) NSLayoutConstraint *entryViewStuckToChatControllerBottomLayoutConstraint; // @synthesize entryViewStuckToChatControllerBottomLayoutConstraint=_entryViewStuckToChatControllerBottomLayoutConstraint;
 
 @end
 

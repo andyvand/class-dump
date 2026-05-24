@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
+@class NSMutableArray;
 
 @interface IMPeople
 {
     _Bool _hidePeople;
-    NSMutableArray *_people;
-    long long _coalesceCount;
 }
 
 - (void);
@@ -18,14 +16,14 @@
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)y;
 - (void);
 - (_Bool);
 - (_Bool);
 - (long long);
+- (void)4;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -41,11 +39,6 @@ Tø;
 - (id)at idx %lu;
 
 // Remaining properties
-@property(nonatomic) long long coalesceCount; // @synthesize coalesceCount=_coalesceCount;
-@property(readonly, nonatomic) _Bool coalescingChanges;
-@property(readonly, nonatomic) unsigned long long count;
-@property(readonly, nonatomic) NSArray *groups;
-@property(nonatomic, setter=setShouldHidePeople:) _Bool hidePeople; // @synthesize hidePeople=_hidePeople;
 @property(retain, nonatomic) NSMutableArray *people; // @synthesize people=_people;
 
 @end

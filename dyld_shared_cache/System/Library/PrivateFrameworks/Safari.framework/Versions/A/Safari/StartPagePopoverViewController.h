@@ -4,44 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CollectionViewPlus, NSArray, NSCollectionView, NSIndexPath, NSLayoutConstraint, NSPopover, NSScrollView, NSSet, NSStackView, NSString, NSView, ToggleRowItem, WBSCGImage, WBSNamedColorOption, WBSStartPageSectionManager;
-@protocol StartPagePopoverDelegate;
+@class NSPopover, WBSStartPageSectionManager;
 
 __attribute__((visibility("hidden")))
 @interface StartPagePopoverViewController
 {
     WBSStartPageSectionManager *_startPageSectionManager;
-    NSStackView *_containerView;
-    NSScrollView *_scrollView;
-    NSCollectionView *_backgroundImagesCollectionView;
-    NSLayoutConstraint *_heightConstraint;
-    id _userDefaultsObservation;
-    NSView *_customizationSyncToggleView;
-    NSArray *_tabGroupTogglesData;
-    _Bool _shouldShowTabGroupSections;
-    NSArray *_suggestionsTogglesData;
-    NSArray *_backgroundImageTogglesData;
-    _Bool _shouldShowSuggestionsSections;
-    CollectionViewPlus *_togglesView;
-    NSLayoutConstraint *_togglesViewHeightConstraint;
-    NSArray *_togglesData;
-    NSIndexPath *_draggingIndexPath;
-    NSIndexPath *_initialDraggingIndexPath;
-    NSSet *_selectedIndexPaths;
-    double _collectionViewWidth;
-    ToggleRowItem *_templateRowItem;
-    _Bool _isShowingGeneratedBackgroundImage;
-    NSArray *_mobileAssetFileNames;
-    NSString *_lastSelectedMobileAssetFileName;
-    id _backgroundImageRequestToken;
-    WBSCGImage *_cachedProfileBackgroundImage;
-    NSString *_cachedProfileSymbolImageName;
-    WBSNamedColorOption *_cachedProfileColor;
-    id <StartPagePopoverDelegate> _delegate;
-    NSView *_positioningView;
-    NSView *_backgroundView;
-    NSString *_profileIdentifier;
-    NSPopover *_popover;
 }
 
 - (void);
@@ -57,8 +25,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (long long);
 - (long long);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -93,26 +61,26 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)@;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (struct CGSize);
 - (id);
-- (id);
-- (void);
+- (id)H;
+- (void)up directory;
 - (long long)¢°1Â0@ù
 × ;
 - (struct NSEdgeInsets)@ù
 × ;
 - (long long)@0:(id)arg1 8@16d24q32;
-- (void)susResult: /* Error: Ran out of types for this method. */;
-- (id)sibilityLabel;
+- (void)initWithPegasusResult: /* Error: Ran out of types for this method. */;
+- (id)appIconAccessibilityLabel;
 - (void)",W,N,V_enhancedPrivacyPolicyButton;
 - (void)`£;
 - (_Bool)ntPageGroupIdentifier.WebKit2MockCaptureDevicesEnabled;
@@ -123,18 +91,7 @@ __attribute__((visibility("hidden")))
 - (void)¼çÜÿ9ª;
 
 // Remaining properties
-@property(nonatomic) __weak NSView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <StartPagePopoverDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSPopover *popover; // @synthesize popover=_popover;
-@property(nonatomic) __weak NSView *positioningView; // @synthesize positioningView=_positioningView;
-@property(copy, nonatomic) NSString *profileIdentifier; // @synthesize profileIdentifier=_profileIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

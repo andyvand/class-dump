@@ -7,6 +7,7 @@
 @protocol CBPowerManagement;
 
 @protocol CBSystemContext
+- (id <CBPowerManagement>)C;
 
 // Remaining properties
 @property(readonly) id <CBPowerManagement> cbpm;

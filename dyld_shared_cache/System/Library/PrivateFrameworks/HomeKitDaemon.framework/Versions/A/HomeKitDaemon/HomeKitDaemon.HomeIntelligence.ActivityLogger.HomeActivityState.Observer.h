@@ -7,12 +7,6 @@
 @interface HomeKitDaemon.HomeIntelligence.ActivityLogger.HomeActivityState.Observer
 {
     id $defaultActor;
-    id executionLogic;
-    id controlBlock;
-    id home;
-    id homeActivityStateAdapter;
-    id observationTask;
-    id description;
 }
 
 @end

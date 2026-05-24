@@ -5,5 +5,8 @@
 //
 
 @protocol NFLoyaltyAndPaymentSessionDelegate
+
+@optional
+- (void)L;
 @end
 

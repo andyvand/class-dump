@@ -6,42 +6,32 @@
 
 #import <UIKitCore/UIInterfaceActionVisualStyle.h>
 
-@class UIInterfaceActionHighlightAttributes, UIInterfaceActionSeparatorAttributes;
-
 __attribute__((visibility("hidden")))
 @interface UIInterfaceActionOverrideVisualStyle : UIInterfaceActionVisualStyle
 {
     _Bool _alignActionSeparatorLeadingEdgeWithContent;
-    double _customSelectionHighlightContinuousCornerRadius;
-    UIInterfaceActionSeparatorAttributes *_customSeparatorAttributes;
-    UIInterfaceActionHighlightAttributes *_customActionHighlightAttributes;
-    CDUnknownBlockType _customTitleLabelFontProviderForViewState;
 }
 
-+ (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
++ (id)to %@/%@;
+- (void)or chat IDS:(CDUnknownBlockType)arg1 %@ on services:%@ /* Error: Ran out of types for this method. */;
+- (void)s chat %ld received %ld;
+- (void)play names;
+- (void)ith GUID %@:(id)arg1;
+- (void)or empty chat GUID.;
+- (id)IMCKFinishedFetchingAttachmentsFromCloudKit and kicking off a write;
+- (id)chments;
 - (CDUnknownBlockType);
 - (id);
 - (double);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
-- (_Bool)Point:(id)arg1;
-- (id)ewTransitioningEntry;
+- (_Bool)indexPathForItemAtPoint:(id)arg1;
+- (id)_UIVisualEffectViewTransitioningEntry;
 - (void)!h;
 
 // Remaining properties
-@property(nonatomic) _Bool alignActionSeparatorLeadingEdgeWithContent; // @synthesize alignActionSeparatorLeadingEdgeWithContent=_alignActionSeparatorLeadingEdgeWithContent;
-@property(retain, nonatomic) UIInterfaceActionHighlightAttributes *customActionHighlightAttributes; // @synthesize customActionHighlightAttributes=_customActionHighlightAttributes;
 @property double customSelectionHighlightContinuousCornerRadius; // @synthesize customSelectionHighlightContinuousCornerRadius=_customSelectionHighlightContinuousCornerRadius;
-@property(retain, nonatomic) UIInterfaceActionSeparatorAttributes *customSeparatorAttributes; // @synthesize customSeparatorAttributes=_customSeparatorAttributes;
-@property(copy, nonatomic) CDUnknownBlockType customTitleLabelFontProviderForViewState; // @synthesize customTitleLabelFontProviderForViewState=_customTitleLabelFontProviderForViewState;
 
 @end
 

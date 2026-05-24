@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PETEventTracker2;
-@protocol PREExperimentResolverProtocol;
+@class PETEventTracker2;
 
 @interface PREResponsesMetricsPET
 {
     PETEventTracker2 *_tracker;
-    id <PREExperimentResolverProtocol> _resolver;
-    _Bool _isApricotDevice;
-    NSString *_processName;
 }
 
 - (void);
@@ -23,17 +19,12 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (void);
+- (id)
+;
+- (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

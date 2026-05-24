@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMStreamDatastore, NSString;
+@class BMStreamDatastore;
 
 @interface BMStreamDatastoreWriter
 {
@@ -13,7 +13,7 @@
 
 + (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)emID option;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -23,17 +23,10 @@
 - (_Bool);
 - (void);
 - (id);
-- (Class)EventSize:segmentSize: /* Error: Ran out of types for this method. */;
+- (Class)maxEventsPerFrameStoreVersion:averageEventSize:segmentSize: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isDataAccessible;
-@property(readonly) Class superclass;
 
 @end
 

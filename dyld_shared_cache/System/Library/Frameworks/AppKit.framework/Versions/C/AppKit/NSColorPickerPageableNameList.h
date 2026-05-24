@@ -6,94 +6,73 @@
 
 #import <AppKit/NSColorPicker.h>
 
-@class NSAppearance, NSArray, NSButton, NSColorList, NSLayoutConstraint, NSMutableDictionary, NSPageableTableView, NSPanel, NSPopUpButton, NSSearchField, NSSegmentedControl, NSString, NSTextField, NSView;
+@class NSView;
 
 __attribute__((visibility("hidden")))
 @interface NSColorPickerPageableNameList : NSColorPicker
 {
     NSView *_listPickerView;
-    NSPopUpButton *listPopUp;
-    NSTextField *renamePrompt;
-    NSTextField *renameString;
-    NSButton *renameButton;
-    NSPanel *renamePanel;
-    NSSearchField *filterField;
-    NSPopUpButton *actionPopupButton;
-    NSLayoutConstraint *trailingRemoveButtonLayoutConstraint;
-    NSMutableDictionary *_listDict;
-    NSMutableDictionary *_attachedListDict;
-    NSString *_currListName;
-    NSColorList *_activeColorList;
-    NSArray *_sortedColorListNames;
-    NSPageableTableView *_tableView;
-    NSAppearance *_appearanceForRenderingColor;
-    _Bool _shouldAnimate;
-    unsigned int _showingError:1;
-    unsigned int _selectionDidChangeHappened:1;
-    unsigned int _ui_is_built:1;
-    unsigned int _reserved:29;
-    NSSegmentedControl *addRemoveControl;
 }
 
 + (id);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)sponse;
+- (_Bool)ceived invalid kernel control socket result %d;
+- (void)turned by nehelper:(id)arg1 [%d] %s;
+- (unsigned long long)response result %d;
+- (_Bool)hash for %d:(id)arg1 %s;
+- (void)anged to %d, cleaning up;
+- (id)flow properties:(id)arg1 hostname is empty;
+- (_Bool)sing the UUID cache because the current OS version (%s) does not equal the cache OS version (%s);
+- (void)ration;
+- (void)taaccess.activesync;
+- (_Bool)ocket-remoteaddr;
 - (void);
 - (void);
 - (void);
-- (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (void);
+- (void);
 - (_Bool);
 - (void);
-- (id);
-- (id);
 - (_Bool);
 - (void);
-- (void);
+- (id)pDuration"I"connectDuration"I"secureConnectionDuration"I"secure"B};
+- (id)@"NSNumber"40;
+- (_Bool)_lock_s="_os_unfair_lock_opaque"I};
+- (void)substringWithRange:(id)arg1;
+- (void)substringFromIndex:(id)arg1;
+- (long long)set_protocolForTask:(id)arg1;
+- (id)setTLSMaximumSupportedProtocolVersion:(id)arg1 forTaskWithIdentifier: /* Error: Ran out of types for this method. */;
+- (void)setTLSMaximumSupportedProtocolVersion:(id)arg1 forTaskWithIdentifier: /* Error: Ran out of types for this method. */;
+- (id)setSessionID:(id)arg1;
+- (void)setSecure:(id)arg1;
+- (void)setCookie:(long long)arg1 withFilter:(long long)arg2 completionHandler:(_Bool)arg3;
+- (struct CGSize)removeAllCachedResponses;
+- (void)expectedProgressTargetChanged;
+- (id)ephemeralSessionConfiguration;
+- (id)enumerateKeysAndObjectsUsingBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)_session_ivar;
+- (void)_lastResponse;
+- (void)_lastModifiedDate;
+- (void)_initialResumeSize;
+- (id)URLSession:(unsigned long long)arg1 task:(id)arg2 _willSendRequestForEstablishedConnection:completionHandler: /* Error: Ran out of types for this method. */;
 - (long long);
+- (void);
+- (void);
+- (void);
+- (void)s less than the requested amount %ld.;
+- (id)ion adopters are required to have a bundle identifier. If you are developing a daemon, please enable CREATE_INFOPLIST_SECTION_IN_BINARY build setting.;
+- (void)return value = %d;
+- (_Bool)ing for ioChannel, file:(id)arg1 %@;
+- (id)omplete[%c], final[%c];
+- (void)tPrivateBrowsingEnabled is not implemented;
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (struct CGSize);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -105,45 +84,35 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (double);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)@;
+- (id)@;
 - (id);
 - (long long);
 - (void);
 - (long long);
 - (id);
 - (void);
+- (void);
+- (id);
+- (_Bool);
+- (void);
 - (void);
 - (id);
-- (_Bool);
+- (double);
 - (void);
-- (void);
-- (id);
-- (double);
-- (void);
-- (void);
+- (void);
 - (long long);
 - (void);
 - (void);
-- (void)alidate:(id)arg1;
+- (void)viewDidInvalidate:(id)arg1;
 - (_Bool)`G_ÿÌå,F;
 - (_Bool)¼G;
 
 // Remaining properties
-@property(retain) NSSegmentedControl *addRemoveControl; // @synthesize addRemoveControl;
-@property(retain) NSAppearance *appearanceForRenderingColor;
-@property(copy) NSString *currListName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) NSView *listPickerView; // @synthesize listPickerView=_listPickerView;
-@property(readonly) Class superclass;
 
 @end
 

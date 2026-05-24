@@ -13,24 +13,24 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (_Bool);
+- (_Bool);
+- (void)r5QUsvvgcb2Qmuflua13fQ;
+- (void)LeR46bMxvR5Yw;
+- (void)yjP8DgByZmLk04Ta6f6DWQ;
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)?|;
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)ֈ;
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void)ColorUnarchiveFailure;
+- (void)NSReturnNilOnColorUnarchiveFailure;
 - (void)ÑéhTt+ÿ;
 
 @end

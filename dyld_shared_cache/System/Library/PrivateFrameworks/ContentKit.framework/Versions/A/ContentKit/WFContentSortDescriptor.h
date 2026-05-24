@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, WFContentProperty;
+@class WFContentProperty;
 
 @interface WFContentSortDescriptor
 {
     _Bool _ascending;
-    WFContentProperty *_property;
-    CDUnknownBlockType _comparator;
 }
 
 + (id);
@@ -19,14 +17,11 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (CDUnknownBlockType);
+- (id)oreFoundation.dylib;
+- (CDUnknownBlockType)!;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool ascending; // @synthesize ascending=_ascending;
-@property(readonly, copy, nonatomic) CDUnknownBlockType comparator; // @synthesize comparator=_comparator;
-@property(readonly, nonatomic) NSSet *containedProperties;
 @property(readonly, nonatomic) WFContentProperty *property; // @synthesize property=_property;
 
 @end

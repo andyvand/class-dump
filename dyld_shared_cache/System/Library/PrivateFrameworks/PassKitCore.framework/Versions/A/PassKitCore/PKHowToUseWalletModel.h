@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString, NSURL;
+@class NSNumber, NSURL;
 
 @interface PKHowToUseWalletModel
 {
     NSURL *_localizationBundleURL;
-    NSNumber *_version;
-    NSString *_titleKey;
-    NSArray *_sections;
 }
 
 - (id);
-- (id);
+- (id)y	;
 - (_Bool);
 - (id);
 - (id);
@@ -25,8 +22,6 @@
 - (void)haringDestination"8;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *sections; // @synthesize sections=_sections;
-@property(readonly, nonatomic) NSString *titleKey; // @synthesize titleKey=_titleKey;
 @property(readonly, nonatomic) NSNumber *version; // @synthesize version=_version;
 
 @end

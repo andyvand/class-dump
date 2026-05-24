@@ -16,13 +16,13 @@
 + (id);
 + (id);
 + (id);
-+ (unsigned int);
++ (unsigned int)for:%ld in progress downloads. /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)AMSSystemEngagementTaskRemoteInterface;
 - (void);
 
 // Remaining properties

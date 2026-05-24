@@ -4,55 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AeroMLTracerSession, AeroMLTracerSpanEvent;
+@class AeroMLTracerSession;
 
 @interface AeroMLTracerSpan
 {
     _Bool _isEnded;
-    _Bool _isStarted;
-    AeroMLTracerSpanEvent *_spanEvent;
-    AeroMLTracerSession *_traceSession;
-    unsigned long long _intervalId;
 }
 
+- (id)_contextualMitigatorAcceptPostContextualMitigationCount;
+- (id)_connectionEstablishmentAttemptDelay;
+- (void)_completedSiriTaskCount;
+- (void)_collateAnswerSynthesisResultDurationInMs;
+- (void)_captureDate;
+- (void)_candidateTuplesShapes;
+- (id)_audioFileResult;
+- (void)_appAffinityScoreForPhoneCallReceived;
+- (void)_appAffinityScoreForMessagesUsingSiri;
+- (void)_appAffinityScoreForMessagesReceived;
+- (void)_anyEventPayload;
+- (void)_answerSynthesisTotalHydrationTimeInMs;
+- (void)_answerSynthesisPostProcessingTimeInMs;
+- (unsigned long long)_alternateQuerySuggestionCandidateTier1s;
+- (id)AbandonCountForEntityInUsingApp10Min;
+- (id)NowPlaying1Hour;
+- (id)Playing1Day;
+- (unsigned int)ency;
+- (void)uterInvalidDecisionReason;
+- (id)abel;
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (unsigned int);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
+- (void)N,V_confidence;
+- (void)oregroundAppRecency;
+- (_Bool)BringUpType;
 - (id);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void)#;
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long intervalId; // @synthesize intervalId=_intervalId;
-@property(nonatomic) _Bool isEnded; // @synthesize isEnded=_isEnded;
-@property(nonatomic) _Bool isStarted; // @synthesize isStarted=_isStarted;
-@property(retain, nonatomic) AeroMLTracerSpanEvent *spanEvent; // @synthesize spanEvent=_spanEvent;
 @property(retain, nonatomic) AeroMLTracerSession *traceSession; // @synthesize traceSession=_traceSession;
 
 @end

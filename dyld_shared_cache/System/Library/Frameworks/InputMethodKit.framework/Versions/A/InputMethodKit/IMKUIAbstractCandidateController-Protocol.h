@@ -5,13 +5,12 @@
 //
 
 @class IMKCandidateListDictionary;
-@protocol IMKUICandidateControllerDelegate;
 
 @protocol IMKUIAbstractCandidateController
+- (void)T@;
 - (void)roperty:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) IMKCandidateListDictionary *candidateGroups;
-@property(nonatomic) __weak id <IMKUICandidateControllerDelegate> delegate;
 @end
 

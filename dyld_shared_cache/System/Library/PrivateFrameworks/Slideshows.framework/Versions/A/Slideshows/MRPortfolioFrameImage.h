@@ -7,12 +7,6 @@
 @interface MRPortfolioFrameImage
 {
     struct CGRect outer;
-    struct CGRect inner;
-    struct CGSize size;
-    _Bool isImageFrame;
-    _Bool needsInset;
-    _Bool isMask;
-    _Bool isRounded;
 }
 
 @end

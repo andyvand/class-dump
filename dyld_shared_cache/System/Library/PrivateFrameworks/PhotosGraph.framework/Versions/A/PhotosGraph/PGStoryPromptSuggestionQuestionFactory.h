@@ -10,14 +10,13 @@
 {
 }
 
-- (id);
+- (id)@;
 - (id);
 - (long long);
 - (unsigned short);
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) long long questionOptions;
 @property(nonatomic, readonly) unsigned short questionType;
 
 @end

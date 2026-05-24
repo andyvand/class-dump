@@ -8,16 +8,12 @@ __attribute__((visibility("hidden")))
 @interface HMDCoordinationPrimaryMeshLogEvent
 {
     _Bool _isLeader;
-    _Bool _didChangeLeader;
-    _Bool _didElectLeader;
-    _Bool _isInSecondaryMesh;
-    _Bool _didCurrentDeviceLeavePrimaryMesh;
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)fiers;
+- (void)_clearBlockedTripIdentifiers;
+- (void)trip:(_Bool)arg1 %@;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -26,10 +22,6 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property _Bool didChangeLeader; // @synthesize didChangeLeader=_didChangeLeader;
-@property _Bool didCurrentDeviceLeavePrimaryMesh; // @synthesize didCurrentDeviceLeavePrimaryMesh=_didCurrentDeviceLeavePrimaryMesh;
-@property _Bool didElectLeader; // @synthesize didElectLeader=_didElectLeader;
-@property _Bool isInSecondaryMesh; // @synthesize isInSecondaryMesh=_isInSecondaryMesh;
 @property _Bool isLeader; // @synthesize isLeader=_isLeader;
 
 @end

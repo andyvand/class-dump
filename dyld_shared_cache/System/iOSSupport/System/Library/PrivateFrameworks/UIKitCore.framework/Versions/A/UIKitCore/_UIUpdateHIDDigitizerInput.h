@@ -4,18 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableSet;
-
 __attribute__((visibility("hidden")))
 @interface _UIUpdateHIDDigitizerInput
 {
     struct _UIUpdateInputInternal _input;
-    struct _UIUpdateInputTimingProfile *_profile;
-    NSMutableArray *_events;
-    NSMutableSet *_touches;
-    long long _eventModelTimeDifferenceMin;
-    long long _eventModelTimeDifferenceMax;
-    _Bool _nextEventExpected;
 }
 
 + (id);
@@ -24,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void)ringRadiosityEnabled;
+- (void)UISolariumNewStackedImageRenderingRadiosityEnabled;
 - (void)Qo__#¾7Qo__|.3Qo_;
 
 @end

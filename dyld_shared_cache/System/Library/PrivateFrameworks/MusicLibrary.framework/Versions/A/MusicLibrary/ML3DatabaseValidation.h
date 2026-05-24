@@ -5,14 +5,10 @@
 //
 
 @class ML3MusicLibrary;
-@protocol ML3DatabaseValidationDelegate;
 
 @interface ML3DatabaseValidation
 {
     _Bool _truncateBeforeValidating;
-    ML3MusicLibrary *_library;
-    id <ML3DatabaseValidationDelegate> _delegate;
-    CDUnknownBlockType _completionHandler;
 }
 
 - (_Bool);
@@ -22,21 +18,18 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)setHasSupports5348b248a25f84b0c83e: /* Error: Ran out of types for this method. */;
+- (void)HMAccessorySettingsMessenger;
 - (void);
-- (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)`";
 - (_Bool);
-- (void);
-- (void);
-- (id)nArtwork;
+- (void)__DATA_DIRTY;
+- (void)payloadProtoRecord;
+- (id)_needsToPerformColorAnalysisForCollectionArtwork;
 - (void)AND ?;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(nonatomic) __weak id <ML3DatabaseValidationDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) ML3MusicLibrary *library; // @synthesize library=_library;
-@property(nonatomic) _Bool truncateBeforeValidating; // @synthesize truncateBeforeValidating=_truncateBeforeValidating;
 
 @end
 

@@ -10,12 +10,12 @@
 
 + (_Bool);
 + (_Bool);
++ (_Bool)setDeviceId:(id)arg1;
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)_directoryURL;
 
 @end
 

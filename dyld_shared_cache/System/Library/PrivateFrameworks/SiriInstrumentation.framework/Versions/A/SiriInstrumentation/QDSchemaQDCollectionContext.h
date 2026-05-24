@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, QDSchemaQDCollectionCompleted, QDSchemaQDCollectionFailed, QDSchemaQDCollectionStarted;
+@class QDSchemaQDCollectionStarted;
 
 @interface QDSchemaQDCollectionContext : SISchemaInstrumentationMessage
 {
     QDSchemaQDCollectionStarted *_startedOrChanged;
-    QDSchemaQDCollectionCompleted *_ended;
-    QDSchemaQDCollectionFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -38,24 +32,17 @@
 - (id);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)%@;
 - (_Bool);
-- (_Bool);
+- (_Bool)cloudKitServerChangeTokenBlob;
 - (id);
 - (id);
-- (id);
+- (id)_totalSiriHelpRequests;
 - (id),N,V_ncAcceptPostNcMitigationCount;
-- (void)NDIDATEOUTCOME_INFERRED_FAILURE;
+- (void)FLCANDIDATEOUTCOME_INFERRED_FAILURE;
 
 // Remaining properties
-@property(retain, nonatomic) QDSchemaQDCollectionCompleted *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) QDSchemaQDCollectionFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) QDSchemaQDCollectionStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

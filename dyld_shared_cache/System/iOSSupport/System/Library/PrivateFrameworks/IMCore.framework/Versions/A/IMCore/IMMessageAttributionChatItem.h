@@ -6,21 +6,19 @@
 
 #import <IMCore/IMMessageStatusChatItem.h>
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface IMMessageAttributionChatItem : IMMessageStatusChatItem
 {
     _Bool _showsLearnMoreLink;
-    NSDictionary *_attributionInfo;
-    long long _attributionType;
 }
 
 - (_Bool);
-- (_Bool);
+- (_Bool)a;
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)akReference"@};
 - (id);
 - (_Bool);
 - (id);
@@ -28,9 +26,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *attributionInfo; // @synthesize attributionInfo=_attributionInfo;
-@property(readonly, nonatomic) long long attributionType; // @synthesize attributionType=_attributionType;
-@property(readonly, copy, nonatomic) NSString *bundleID;
-@property(readonly, nonatomic) _Bool showsLearnMoreLink; // @synthesize showsLearnMoreLink=_showsLearnMoreLink;
 
 @end
 

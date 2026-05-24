@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+@protocol REMXPCChangeTrackingPerformer, REMXPCIndexingPerformer, REMXPCStorePerformer;
+
 @protocol REMDaemonController
+- (id <REMXPCIndexingPerformer>);
+- (void)d;
+- (id <REMXPCStorePerformer>);
+- (id <REMXPCChangeTrackingPerformer>)_workQueueShutDownServiceConnections:(NSString *)arg1 index:(void (^)(NSError *))arg2 completionBlock: /* Error: Ran out of types for this method. */;
 @end
 

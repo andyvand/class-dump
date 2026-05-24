@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDPersistenceDatabase, EDPersistenceHookRegistry, NSObject, NSString;
+@class NSObject;
 @protocol EDBusinessMetadataProvider, OS_dispatch_queue;
 
 @interface EDBusinessPersistence
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_businessConnectResponseQueue;
-    _Atomic _Bool _didTearDown;
-    id <EDBusinessMetadataProvider> _businessServiceProvider;
-    EDPersistenceDatabase *_database;
-    EDPersistenceHookRegistry *_hookRegistry;
 }
 
 + (id);
@@ -48,10 +43,10 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)!;
 - (id);
 - (void);
 - (void);
@@ -67,7 +62,7 @@
 - (long long);
 - (long long);
 - (id);
-- (id);
+- (id)!;
 - (id);
 - (id);
 - (id);
@@ -85,24 +80,24 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (long long);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (long long);
 - (long long);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (long long);
-- (long long);
+- (long long)R;
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)#;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -118,7 +113,7 @@
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id)applePhotoMemory_PhotoMemoryAttribute_PhotoAttributesPanoramas;
 - (void);
 - (id);
 - (void);
@@ -127,15 +122,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) id <EDBusinessMetadataProvider> businessServiceProvider; // @synthesize businessServiceProvider=_businessServiceProvider;
-@property(retain, nonatomic) EDPersistenceDatabase *database; // @synthesize database=_database;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) EDPersistenceHookRegistry *hookRegistry; // @synthesize hookRegistry=_hookRegistry;
-@property(readonly) Class superclass;
 
 @end
 

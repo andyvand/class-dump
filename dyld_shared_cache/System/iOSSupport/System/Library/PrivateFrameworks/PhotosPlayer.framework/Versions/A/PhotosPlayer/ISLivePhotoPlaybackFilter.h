@@ -6,29 +6,22 @@
 
 #import <PhotosPlayer/ISObservable.h>
 
-@class NSMutableSet;
-
 @interface ISLivePhotoPlaybackFilter : ISObservable
 {
     _Bool _playIsSticky;
-    _Bool _playbackDisabled;
-    _Bool _isPerformingInputChanges;
-    double _hintProgress;
-    long long _state;
-    NSMutableSet *__playbackDisabledReasons;
 }
 
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (double);
-- (void);
-- (void);
-- (id);
+- (void)_componentLayoutMargins;
+- (void)_componentInteractionManager;
+- (void)_cellStyleMerger;
+- (_Bool)_addedChildren;
+- (id)_accessibilityTextOperations;
+- (_Bool)_DOM;
+- (_Bool)URLQueryAllowedCharacterSet;
+- (double)ize=dd},R,N;
+- (void)astYOffset;
+- (void)rHeight;
+- (id)Type;
 - (void);
 - (id);
 - (void);
@@ -37,12 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableSet *_playbackDisabledReasons; // @synthesize _playbackDisabledReasons=__playbackDisabledReasons;
-@property(readonly, nonatomic) double hintProgress; // @synthesize hintProgress=_hintProgress;
 @property(nonatomic, setter=_setPerformingInputChanges:) _Bool isPerformingInputChanges; // @synthesize isPerformingInputChanges=_isPerformingInputChanges;
-@property(nonatomic) _Bool playIsSticky; // @synthesize playIsSticky=_playIsSticky;
-@property(nonatomic, getter=isPlaybackDisabled, setter=_setPlaybackDisabled:) _Bool playbackDisabled; // @synthesize playbackDisabled=_playbackDisabled;
-@property(readonly, nonatomic) long long state; // @synthesize state=_state;
 
 @end
 

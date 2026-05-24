@@ -7,7 +7,6 @@
 @interface NewsUI2.SportsScores
 {
     id scores;
-    id subheaderTitle;
 }
 
 @end

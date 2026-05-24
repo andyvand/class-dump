@@ -6,15 +6,11 @@
 
 #import <LocalAuthentication/LAAuthenticationMethod.h>
 
-@class LAAuthenticationBiometricMethodState, LAContext;
+@class LAContext;
 
 @interface LAAuthenticationBiometricMethod : LAAuthenticationMethod
 {
     _Bool _isDevicePresent;
-    _Bool _isEnrolled;
-    _Bool _isAllowed;
-    LAContext *_context;
-    LAAuthenticationBiometricMethodState *_currentState;
 }
 
 - (void);
@@ -27,18 +23,14 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (id);
+- (void)contactNameItemWithDictionary:(id)arg1 context: /* Error: Ran out of types for this method. */;
+- (id)Yl;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) LAContext *context; // @synthesize context=_context;
-@property(retain, nonatomic) LAAuthenticationBiometricMethodState *currentState; // @synthesize currentState=_currentState;
-@property(readonly, nonatomic) _Bool isAllowed; // @synthesize isAllowed=_isAllowed;
-@property(readonly, nonatomic) _Bool isDevicePresent; // @synthesize isDevicePresent=_isDevicePresent;
-@property(readonly, nonatomic) _Bool isEnrolled; // @synthesize isEnrolled=_isEnrolled;
 
 @end
 

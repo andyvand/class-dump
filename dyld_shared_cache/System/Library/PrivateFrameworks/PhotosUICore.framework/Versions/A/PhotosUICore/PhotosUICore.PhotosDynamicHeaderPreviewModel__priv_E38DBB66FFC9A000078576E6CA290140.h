@@ -7,10 +7,6 @@
 @interface PhotosUICore.PhotosDynamicHeaderPreviewModel__priv_E38DBB66FFC9A000078576E6CA290140
 {
     id _geometryModel;
-    id _titleOverlayModel;
-    id _bottomInset;
-    id _fractionFloating;
-    id _$observationRegistrar;
 }
 
 @end

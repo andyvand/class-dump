@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface NEHasher
 {
     struct CC_SHA1state_st *_sha1Context;
-    NSArray *_classPrefixWhitelist;
 }
 
 + (id);
-+ (id);
++ (id)=;
+- (void)-w;
+- (void)EnsureClassicContent;
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)leCaptiveJoinRequestWithResponseHandler:(id)arg1 reachabilityError:]_block_invoke_4 /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -32,18 +29,18 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)A);
 - (void);
 - (long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)P;
 - (int);
 - (float)!0@ù+,1Â0@ù
 × ;
-- (void)yDataPasswordKeychainItem: /* Error: Ran out of types for this method. */;
-- (long long)liaryData:(id)arg1 forKey: /* Error: Ran out of types for this method. */;
-- (_Bool)eFlowWithClientIdentifier:(id)arg1;
+- (void)setIdentityDataPasswordKeychainItem: /* Error: Ran out of types for this method. */;
+- (long long)setAuxiliaryData:(id)arg1 forKey: /* Error: Ran out of types for this method. */;
+- (_Bool)closeFlowWithClientIdentifier:(id)arg1;
 - (double)|89¬9@ @;
 - (long long)edKeyAuthData with signature/GSPM auth;
 - (id)¾äÿÿlæÿÿ;

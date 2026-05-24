@@ -15,7 +15,7 @@
 - (void);
 - (double)@ù
 × ;
-- (void)sary;
+- (void)_installReorderingGestureIfNecessary;
 - (id)¨a;
 - (void)L°\;
 - (struct CGSize);
@@ -24,9 +24,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) UIColor *shadowColor;
-@property(nonatomic) struct CGSize shadowOffset;
-@property(nonatomic) double shadowOpacity;
-@property(nonatomic) double shadowRadius;
 
 @end
 

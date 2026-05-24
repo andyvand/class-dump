@@ -8,17 +8,13 @@
 @protocol MTLBuffer;
 
 @protocol MTLTensor
+- (unsigned long long)32TGrowableOffsetsAndStringsBuffer;
+- (struct MTLResourceID);
 - (MTLTensorExtents *)
 × ;
 - (id <MTLBuffer>);
 
 // Remaining properties
-@property(readonly) id <MTLBuffer> buffer;
-@property(readonly) unsigned long long bufferOffset;
-@property(readonly) long long dataType;
-@property(readonly) MTLTensorExtents *dimensions;
 @property(readonly) struct MTLResourceID gpuResourceID;
-@property(readonly) MTLTensorExtents *strides;
-@property(readonly) unsigned long long usage;
 @end
 

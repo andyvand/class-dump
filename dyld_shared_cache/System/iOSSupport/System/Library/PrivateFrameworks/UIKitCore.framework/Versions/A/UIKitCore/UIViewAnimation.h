@@ -4,35 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, UIView;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface UIViewAnimation
 {
     _Bool _animateFromCurrentPosition;
-    _Bool _shouldDeleteAfterAnimation;
-    _Bool _editing;
-    _Bool _shouldAnimateShadow;
-    _Bool _shouldResetGroupOpacityAfterAnimation;
-    _Bool _shouldAllowGroupOpacityAfterAnimation;
-    _Bool _shouldClipToBoundsAfterAnimation;
-    int _viewType;
-    int _curve;
-    UIView *_view;
-    NSIndexPath *_indexPath;
-    double _endAlpha;
-    double _startFraction;
-    double _endFraction;
-    struct CGRect _endRect;
 }
 
 - (_Bool);
-- (_Bool);
-- (int);
+- (_Bool)listItem"8;
+- (int)TLKIcon;
 - (double);
-- (id);
+- (id)nformation.;
 - (struct CGRect);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void)0@ù
@@ -42,9 +28,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (double)ÔÁ°!XAùb°1Â0@ù
 × ;
-- (double)Size: /* Error: Ran out of types for this method. */;
-- (_Bool)Offset:indexOffset:supplementaryIndexOffset: /* Error: Ran out of types for this method. */;
-- (id)ertText;
+- (double)propertiesForSpecificKeyboardFrame:onScreenSize: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithFrameOffset:indexOffset:supplementaryIndexOffset: /* Error: Ran out of types for this method. */;
+- (id)_revertText;
 - (id)electionIndicatorImage;
 - (_Bool)N,V_hasCompactSectionSpacing;
 - (_Bool);
@@ -53,21 +39,7 @@ __attribute__((visibility("hidden")))
 - (void)èO/ÿz÷Î5`;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool animateFromCurrentPosition; // @synthesize animateFromCurrentPosition=_animateFromCurrentPosition;
-@property(readonly, nonatomic) int curve; // @synthesize curve=_curve;
-@property(readonly, nonatomic) _Bool editing; // @synthesize editing=_editing;
-@property(readonly, nonatomic) double endAlpha; // @synthesize endAlpha=_endAlpha;
-@property(readonly, nonatomic) double endFraction; // @synthesize endFraction=_endFraction;
-@property(readonly, nonatomic) struct CGRect endRect; // @synthesize endRect=_endRect;
-@property(readonly, nonatomic) NSIndexPath *indexPath; // @synthesize indexPath=_indexPath;
-@property(nonatomic) _Bool shouldAllowGroupOpacityAfterAnimation; // @synthesize shouldAllowGroupOpacityAfterAnimation=_shouldAllowGroupOpacityAfterAnimation;
-@property(nonatomic) _Bool shouldAnimateShadow; // @synthesize shouldAnimateShadow=_shouldAnimateShadow;
-@property(nonatomic) _Bool shouldClipToBoundsAfterAnimation; // @synthesize shouldClipToBoundsAfterAnimation=_shouldClipToBoundsAfterAnimation;
-@property(readonly, nonatomic) _Bool shouldDeleteAfterAnimation; // @synthesize shouldDeleteAfterAnimation=_shouldDeleteAfterAnimation;
-@property(nonatomic) _Bool shouldResetGroupOpacityAfterAnimation; // @synthesize shouldResetGroupOpacityAfterAnimation=_shouldResetGroupOpacityAfterAnimation;
-@property(readonly, nonatomic) double startFraction; // @synthesize startFraction=_startFraction;
 @property(readonly, nonatomic) UIView *view; // @synthesize view=_view;
-@property(readonly, nonatomic) int viewType; // @synthesize viewType=_viewType;
 
 @end
 

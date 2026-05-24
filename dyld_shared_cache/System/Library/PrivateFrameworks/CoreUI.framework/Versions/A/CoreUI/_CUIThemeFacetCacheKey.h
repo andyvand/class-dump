@@ -8,11 +8,9 @@ __attribute__((visibility("hidden")))
 @interface _CUIThemeFacetCacheKey
 {
     struct _renditionkeytoken keyList[22];
-    long long themeIndex;
-    unsigned long long hashPrecalc;
 }
 
-- (id);
+- (id);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);

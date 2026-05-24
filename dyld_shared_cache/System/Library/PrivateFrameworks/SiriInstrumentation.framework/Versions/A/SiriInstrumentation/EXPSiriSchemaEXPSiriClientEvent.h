@@ -6,21 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class EXPSiriSchemaEXPAllocationChangelogSnapshot, EXPSiriSchemaEXPAllocationSnapshot, EXPSiriSchemaEXPClientExperimentTriggeredTier1, EXPSiriSchemaEXPClientSiriRequestExperimentTriggeredTier1, EXPSiriSchemaEXPRolloutChangeSnapshot, NSData, SISchemaInstrumentationMessage;
+@class EXPSiriSchemaEXPAllocationSnapshot, SISchemaInstrumentationMessage;
 
 @interface EXPSiriSchemaEXPSiriClientEvent : SISchemaTopLevelUnionType
 {
     EXPSiriSchemaEXPAllocationSnapshot *_allocationSnapshot;
-    EXPSiriSchemaEXPAllocationChangelogSnapshot *_allocationChangelogSnapshot;
-    EXPSiriSchemaEXPClientExperimentTriggeredTier1 *_experimentTriggered;
-    EXPSiriSchemaEXPClientSiriRequestExperimentTriggeredTier1 *_SiriRequestExperimentTriggered;
-    EXPSiriSchemaEXPRolloutChangeSnapshot *_rolloutChangeSnapshot;
-    _Bool _hasAllocationSnapshot;
-    _Bool _hasAllocationChangelogSnapshot;
-    _Bool _hasExperimentTriggered;
-    _Bool _hasSiriRequestExperimentTriggered;
-    _Bool _hasRolloutChangeSnapshot;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
@@ -34,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)';
 - (id);
 - (id);
 - (_Bool);
@@ -47,14 +37,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (int);
-- (id);
+- (id)fset:(id)arg1 No connection to IAPDaemonOwningPhysicalConnector;
+- (int)];
+- (id){public}s:(id)arg1 %i Have not received initial barrier; not sending %@;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -63,24 +53,12 @@
 - (id)eMicVADThreshold"b1"remoteMicVADMyriadThreshold"b1"enhancedCarplayTriggerMode"b1"triggerStartSampleCount"b1"clientStartSampleCount"b1"triggerEndSampleCount"b1"triggerFireSampleCount"b1"triggerStartNs"b1"triggerEndNs"b1"triggerFireNs"b1"extraSamplesAtStart"b1"analyzerPrependingSamples"b1"analyzerTrailingSamples"b1"isTriggerEvent"b1"totalSampleCount"b1"triggerScore"b1"isMaximized"b1"effectiveThreshold"b1"recognizerScore"b1"recognizerThresholdOffset"b1"recognizerWaitTimeInNs"b1"recognizerScaleFactor"b1"threshold"b1"triggerStartTimeOffsetInNs"b1"triggerEndTimeOffsetInNs"b1"triggerFireTimeOffsetInNs"b1"triggerStartTime"b1"triggerEndTime"b1"triggerFiredTime"b1"hardwareSamplerate"b1"isContinuous"b1"triggerDurationInNs"b1"totalSamplesAtTriggerStart"b1"totalSamplesAtTriggerEnd"b1"totalSamplesAtEndOfCapture"b1"isSecondChance"b1"deviceHandheld"b1"activeChannel"b1"twoShotAudibleFeedbackDelayInNs"b1"cumulativeUptimeInSec"b1"cumulativeDowntimeInSec"b1"hostPowerStateAtTrigger"b1"isMediaPlaying"b1"mediaVolume"b1"onBatteryPower"b1"didWakeAP"b1"uptimeInSec"b1"downtimeInSec"b1"lastConsecutiveVTRejects"b1"siriIsActiveOrOtherAssertion"b1"didAudioStall"b1"isBargeIn"b1"isWakeFromSleep"b1"secondPassAssetQueryStartTimeInNs"b1"secondPassAssetQueryCompleteTimeInNs"b1"secondPassAssetLoadStartTimeInNs"b1"secondPassAssetLoadCompleteTimeInNs"b1"secondPassAudioStreamStartTimeInNs"b1"secondPassAudioStreamReadyTimeInNs"b1"secondPassFirstAudioPacketReceptionTimeInNs"b1"secondPassLastAudioPacketReceptionTimeInNs"b1"secondPassCheckerModelKeywordDetectionStartTimeInNs"b1"secondPassCheckerModelKeywordDetectionEndTimeInNs"b1"lastDisplayWakeTimeOffsetInNs"b1"isHSJSTriggerFromAlwaysOnMicBuffer"b1"displayWakeTimeOffsetInNs"b1"neptuneDetectionApiScore"b1};
 - (id)hasFlowCommandResponseError;
 - (unsigned long long)intStop;
-- (id)lientEvent;
+- (id)READSchemaREADClientEvent;
 - (id)ä;
 - (void)û¹ÿ*õ®Je%;
 
 // Remaining properties
-@property(retain, nonatomic) EXPSiriSchemaEXPClientSiriRequestExperimentTriggeredTier1 *SiriRequestExperimentTriggered; // @synthesize SiriRequestExperimentTriggered=_SiriRequestExperimentTriggered;
-@property(retain, nonatomic) EXPSiriSchemaEXPAllocationChangelogSnapshot *allocationChangelogSnapshot; // @synthesize allocationChangelogSnapshot=_allocationChangelogSnapshot;
-@property(retain, nonatomic) EXPSiriSchemaEXPAllocationSnapshot *allocationSnapshot; // @synthesize allocationSnapshot=_allocationSnapshot;
-@property(retain, nonatomic) EXPSiriSchemaEXPClientExperimentTriggeredTier1 *experimentTriggered; // @synthesize experimentTriggered=_experimentTriggered;
-@property(nonatomic) _Bool hasAllocationChangelogSnapshot; // @synthesize hasAllocationChangelogSnapshot=_hasAllocationChangelogSnapshot;
-@property(nonatomic) _Bool hasAllocationSnapshot; // @synthesize hasAllocationSnapshot=_hasAllocationSnapshot;
-@property(nonatomic) _Bool hasExperimentTriggered; // @synthesize hasExperimentTriggered=_hasExperimentTriggered;
-@property(nonatomic) _Bool hasRolloutChangeSnapshot; // @synthesize hasRolloutChangeSnapshot=_hasRolloutChangeSnapshot;
-@property(nonatomic) _Bool hasSiriRequestExperimentTriggered; // @synthesize hasSiriRequestExperimentTriggered=_hasSiriRequestExperimentTriggered;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) EXPSiriSchemaEXPRolloutChangeSnapshot *rolloutChangeSnapshot; // @synthesize rolloutChangeSnapshot=_rolloutChangeSnapshot;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

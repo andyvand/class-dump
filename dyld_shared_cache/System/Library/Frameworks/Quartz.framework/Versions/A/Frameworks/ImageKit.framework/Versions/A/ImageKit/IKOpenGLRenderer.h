@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKOpenGLRoundedRectRenderer, NSString;
-
 @interface IKOpenGLRenderer
 {
     struct __CFDictionary *_textRenderers;
-    IKOpenGLRoundedRectRenderer *_roundedRectRenderer;
-    float _color[4];
-    void *_programObject;
-    _Bool _autoInstallBlendMode;
-    _Bool _enableMagFilter;
-    _Bool _perspectivePushed;
-    CDStruct_34734122 _offset;
-    unsigned long long _currentScaleFactor;
-    _Bool _enableSubpixelAntialiasing;
 }
 
 - (void);
@@ -33,15 +22,15 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
+- (_Bool);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -51,25 +40,16 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)P;
+- (void);
 - (id);
 - (void);
 - (unsigned long long);
 - (void);
-- (CDStruct_c3b9c2ee)s;
+- (CDStruct_c3b9c2ee)_irisListeners;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool enableSubpixelAntialiasing;
-@property(readonly) unsigned long long hash;
 @property _Bool perspectivePushed; // @synthesize perspectivePushed=_perspectivePushed;
-@property unsigned long long scaleFactor;
-@property(readonly) Class superclass;
 
 @end
 

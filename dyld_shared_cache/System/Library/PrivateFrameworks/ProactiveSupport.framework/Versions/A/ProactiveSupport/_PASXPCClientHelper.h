@@ -4,32 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCConnection, NSXPCInterface;
-@protocol OS_os_log;
-
 @interface _PASXPCClientHelper
 {
     struct _opaque_pthread_mutex_t _connLock;
-    NSXPCConnection *_conn;
-    NSString *_serviceName;
-    unsigned long long _connectionOptions;
-    NSXPCInterface *_allowlistedServerInterface;
-    NSXPCInterface *_allowlistedClientInterface;
-    id _serverInitiatedRequestHandler;
-    CDUnknownBlockType _interruptionHandler;
-    CDUnknownBlockType _invalidationHandler;
-    NSObject<OS_os_log> *_logHandle;
-    _Bool _allowSystemToUserConnection;
 }
 
 - (id);
+- (void)or hostTempID[%{public}@]. initialTempID[%{public}@];
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)__strong _Nonnull);
+- (id)%@;
 - (id);
 - (void);
 

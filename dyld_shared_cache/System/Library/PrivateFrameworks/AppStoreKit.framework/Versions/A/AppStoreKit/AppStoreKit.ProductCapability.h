@@ -7,13 +7,6 @@
 @interface AppStoreKit.ProductCapability
 {
     id linkAction;
-    id title;
-    id caption;
-    id captionTrailingArtwork;
-    id artwork;
-    id artworkTintColor;
-    id id;
-    id clickAction;
 }
 
 @end

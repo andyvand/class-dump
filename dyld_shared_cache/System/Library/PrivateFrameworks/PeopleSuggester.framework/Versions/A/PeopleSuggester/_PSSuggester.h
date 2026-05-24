@@ -4,42 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMSource, CNContactStore, NSDictionary, NSObject, NSXPCConnection, _PSSuggesterConfiguration;
-@protocol OS_dispatch_queue;
+@class NSXPCConnection, _PSSuggesterConfiguration;
 
 @interface _PSSuggester
 {
     NSXPCConnection *_connection;
-    NSXPCConnection *_userConnection;
-    struct os_unfair_lock_s _lock;
-    NSObject<OS_dispatch_queue> *_feedbackQueue;
-    BMSource *_feedbackSource;
-    CNContactStore *_contactStore;
-    NSDictionary *_appBundleIdToShareExtensionMapping;
-    NSObject<OS_dispatch_queue> *_peopleSuggestionQueue;
-    NSObject<OS_dispatch_queue> *_appExtensionQueue;
-    _PSSuggesterConfiguration *_configuration;
 }
 
 + (id);
 + (id);
 + (void);
 - (id);
+- (id);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)P;
+- (void)y version from server:(id)arg1 %s;
 - (id);
 - (_Bool);
 - (id);
@@ -57,30 +47,33 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)_background;
+- (id)";
 - (void);
 - (void);
 - (id);
+- (id)/;
+- (id);
+- (void)D'
+;
+- (void)*FC1*J
+;
+- (id)'2EF
+;
 - (id);
 - (id);
 - (id);
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)00.0ms-110.0ms;
+- (id)itions;
 - (void);
 - (void);
 - (id);
 - (void);
 - (id)ialID for zkw suggestions;
-- (id)EmbeddingFeatures;
+- (id)_PSContactEmbeddingFeatures;
 
 // Remaining properties
 @property(readonly, nonatomic) _PSSuggesterConfiguration *configuration; // @synthesize configuration=_configuration;

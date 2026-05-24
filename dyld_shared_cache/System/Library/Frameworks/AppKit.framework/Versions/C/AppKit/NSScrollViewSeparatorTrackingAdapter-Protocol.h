@@ -5,25 +5,17 @@
 //
 
 @protocol NSScrollViewSeparatorTrackingAdapter
+- (struct CGRect)V_httpOnly;
+
+@optional
+- (void);
+- (void)GID;
+- (_Bool)info for copyBasebandStatusKey;
+- (double)TLSMaximumSupportedProtocol;
+- (void)dClientCertificateLookup;
+- (_Bool)ti-ets-proofOfSender;
 
 // Remaining properties
-@property(readonly) _Bool hasHeader;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) _Bool hasScrolledContentsUnderTitlebar;
-@property(readonly) _Bool relaxRegistrationRequirements;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
 @property(readonly) struct CGRect scrollViewFrame;
-@property(readonly) double separatorOffset;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R
-
-@property long long titlebarBackgroundStyle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?
-
 @end
 

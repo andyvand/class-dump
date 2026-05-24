@@ -11,8 +11,6 @@
 @interface CHTransliterateUnmatchedConfusablesStep : CHMathPostprocessingStep
 {
     NSDictionary *_mathOpeningConfusableMappings;
-    NSDictionary *_mathClosingConfusableMappings;
-    unique_ptr_6dc90793 latexHelper;
 }
 
 - (_Bool);

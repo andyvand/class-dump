@@ -7,8 +7,6 @@
 @interface RemindersUICore.TTRMainActorDeferredAction
 {
     id delegate;
-    id lock;
-    id l_scheduledReasons;
 }
 
 @end

@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSStackView, NSView;
+@class NSView;
 
 @interface RemindersUICore.TTRMComponentViewGroupComponentView
 {
     void componentContainerView;
-    void childrenStackView;
-    id widthConstraints;
-    id viewInfoByView;
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)px;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak NSStackView *childrenStackView; // @synthesize childrenStackView;
 @property(nonatomic) __weak NSView *componentContainerView; // @synthesize componentContainerView;
 
 @end

@@ -4,59 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFLanguageDetectionUserContext, NSArray, NSDictionary, NSString, NSURL, STSiriContext;
+@class NSString;
 
 @interface AFDictationOptions
 {
     _Bool _forceOfflineRecognition;
-    _Bool _preferOnlineRecognition;
-    _Bool _detectUtterances;
-    _Bool _continuousListening;
-    _Bool _shouldHandleCapitalization;
-    _Bool _autoPunctuation;
-    _Bool _emojiRecognition;
-    _Bool _preferOnDeviceRecognition;
-    _Bool _secureOfflineOnly;
-    _Bool _farField;
-    _Bool _releaseAudioSessionOnRecordingCompletion;
-    _Bool _incremental;
-    _Bool _shouldClassifyIntent;
-    _Bool _shouldRecognizeCommands;
-    _Bool _shouldGenerateVoiceCommandCandidates;
-    _Bool _shouldPerformFullPayloadCorrection;
-    NSString *_applicationName;
-    NSString *_applicationDisplayName;
-    NSString *_applicationVersion;
-    STSiriContext *_context;
-    NSString *_fieldLabel;
-    NSString *_fieldIdentifier;
-    NSString *_interactionIdentifier;
-    NSString *_requestIdentifier;
-    long long _keyboardType;
-    NSString *_prefixText;
-    NSString *_postfixText;
-    NSString *_selectedText;
-    long long _returnKeyType;
-    long long _transcriptionMode;
-    NSArray *_inlineItemList;
-    NSString *_microphoneIdentifier;
-    NSString *_orthography;
-    NSString *_keyboardIdentifier;
-    NSString *_languageCodeOverride;
-    NSString *_offlineLanguage;
-    long long _voiceSearchTypeOptions;
-    NSDictionary *_voiceSearchHeaderFields;
-    NSDictionary *_voiceSearchQueryParameters;
-    NSDictionary *_voiceTriggerEventInfo;
-    double _maximumRecognitionDuration;
-    long long _taskHint;
-    NSURL *_originalAudioFileURL;
-    NSDictionary *_recognitionOverrides;
-    NSURL *_modelOverrideURL;
-    AFLanguageDetectionUserContext *_languageDetectionUserContext;
-    long long _dictationInputOrigin;
-    NSString *_samplingInfo;
-    NSArray *_messagesContext;
 }
 
 + (_Bool);
@@ -66,9 +18,9 @@
 - (long long);
 - (long long);
 - (_Bool);
+- (_Bool)*;
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -92,16 +44,16 @@
 - (void);
 - (void);
 - (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (id);
 - (_Bool);
 - (id);
 - (_Bool);
+- (id);
 - (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -131,15 +83,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)3;
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)setHideCardBenefitPayLater: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)e for preserveCurrentBalance:(id)arg1 %d. Getting a new quote.;
 - (id);
 - (long long);
 - (id);
@@ -149,73 +101,25 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)!n;
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (long long)pp:until: /* Error: Ran out of types for this method. */;
-- (id)toredAtIndex: /* Error: Ran out of types for this method. */;
-- (void);
-- (id)lity;
+- (long long)setSpokenNotificationTemporarilyDisabledForApp:until: /* Error: Ran out of types for this method. */;
+- (id)itemIsRestoredAtIndex: /* Error: Ran out of types for this method. */;
+- (void)_overallTimeout;
+- (id)AFASRSharedUserInfoMutability;
 - (void)h¥¦P§p­t¯ð±¤´;
 - (long long)cognized.Presented;
-- (id)PREASON_DIRECT_TRIGGER;
+- (id)CDATRUMPREASON_DIRECT_TRIGGER;
 - (void), isSupported = %@, acceptGesture = %@, rejectGesture = %@};
 - (id)) d¹þ
 ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *applicationDisplayName; // @synthesize applicationDisplayName=_applicationDisplayName;
 @property(copy, nonatomic) NSString *applicationName; // @synthesize applicationName=_applicationName;
-@property(copy, nonatomic) NSString *applicationVersion; // @synthesize applicationVersion=_applicationVersion;
-@property(nonatomic) _Bool autoPunctuation; // @synthesize autoPunctuation=_autoPunctuation;
-@property(retain, nonatomic) STSiriContext *context; // @synthesize context=_context;
-@property(nonatomic) _Bool continuousListening; // @synthesize continuousListening=_continuousListening;
-@property(nonatomic) _Bool detectUtterances; // @synthesize detectUtterances=_detectUtterances;
-@property(nonatomic) long long dictationInputOrigin; // @synthesize dictationInputOrigin=_dictationInputOrigin;
-@property(nonatomic) _Bool emojiRecognition; // @synthesize emojiRecognition=_emojiRecognition;
-@property(nonatomic) _Bool farField; // @synthesize farField=_farField;
-@property(copy, nonatomic) NSString *fieldIdentifier; // @synthesize fieldIdentifier=_fieldIdentifier;
-@property(copy, nonatomic) NSString *fieldLabel; // @synthesize fieldLabel=_fieldLabel;
-@property(nonatomic) _Bool forceOfflineRecognition; // @synthesize forceOfflineRecognition=_forceOfflineRecognition;
-@property(nonatomic) _Bool incremental; // @synthesize incremental=_incremental;
-@property(copy, nonatomic) NSArray *inlineItemList; // @synthesize inlineItemList=_inlineItemList;
-@property(copy, nonatomic) NSString *interactionIdentifier; // @synthesize interactionIdentifier=_interactionIdentifier;
-@property(copy, nonatomic) NSString *keyboardIdentifier; // @synthesize keyboardIdentifier=_keyboardIdentifier;
-@property(nonatomic) long long keyboardType; // @synthesize keyboardType=_keyboardType;
-@property(copy, nonatomic) NSString *languageCodeOverride; // @synthesize languageCodeOverride=_languageCodeOverride;
-@property(copy, nonatomic) AFLanguageDetectionUserContext *languageDetectionUserContext; // @synthesize languageDetectionUserContext=_languageDetectionUserContext;
-@property(nonatomic) double maximumRecognitionDuration; // @synthesize maximumRecognitionDuration=_maximumRecognitionDuration;
-@property(copy, nonatomic) NSArray *messagesContext; // @synthesize messagesContext=_messagesContext;
-@property(copy, nonatomic) NSString *microphoneIdentifier; // @synthesize microphoneIdentifier=_microphoneIdentifier;
-@property(copy, nonatomic) NSURL *modelOverrideURL; // @synthesize modelOverrideURL=_modelOverrideURL;
-@property(copy, nonatomic) NSString *offlineLanguage; // @synthesize offlineLanguage=_offlineLanguage;
-@property(copy, nonatomic) NSURL *originalAudioFileURL; // @synthesize originalAudioFileURL=_originalAudioFileURL;
-@property(copy, nonatomic) NSString *orthography; // @synthesize orthography=_orthography;
-@property(copy, nonatomic) NSString *postfixText; // @synthesize postfixText=_postfixText;
-@property(nonatomic) _Bool preferOnDeviceRecognition; // @synthesize preferOnDeviceRecognition=_preferOnDeviceRecognition;
-@property(nonatomic) _Bool preferOnlineRecognition; // @synthesize preferOnlineRecognition=_preferOnlineRecognition;
-@property(copy, nonatomic) NSString *prefixText; // @synthesize prefixText=_prefixText;
-@property(copy, nonatomic) NSDictionary *recognitionOverrides; // @synthesize recognitionOverrides=_recognitionOverrides;
-@property(nonatomic) _Bool releaseAudioSessionOnRecordingCompletion; // @synthesize releaseAudioSessionOnRecordingCompletion=_releaseAudioSessionOnRecordingCompletion;
-@property(copy, nonatomic) NSString *requestIdentifier; // @synthesize requestIdentifier=_requestIdentifier;
-@property(nonatomic) long long returnKeyType; // @synthesize returnKeyType=_returnKeyType;
-@property(copy, nonatomic) NSString *samplingInfo; // @synthesize samplingInfo=_samplingInfo;
-@property(nonatomic) _Bool secureOfflineOnly; // @synthesize secureOfflineOnly=_secureOfflineOnly;
-@property(copy, nonatomic) NSString *selectedText; // @synthesize selectedText=_selectedText;
-@property(nonatomic) _Bool shouldClassifyIntent; // @synthesize shouldClassifyIntent=_shouldClassifyIntent;
-@property(nonatomic) _Bool shouldGenerateVoiceCommandCandidates; // @synthesize shouldGenerateVoiceCommandCandidates=_shouldGenerateVoiceCommandCandidates;
-@property(nonatomic) _Bool shouldHandleCapitalization; // @synthesize shouldHandleCapitalization=_shouldHandleCapitalization;
-@property(nonatomic) _Bool shouldPerformFullPayloadCorrection; // @synthesize shouldPerformFullPayloadCorrection=_shouldPerformFullPayloadCorrection;
-@property(nonatomic) _Bool shouldRecognizeCommands; // @synthesize shouldRecognizeCommands=_shouldRecognizeCommands;
-@property(nonatomic) long long taskHint; // @synthesize taskHint=_taskHint;
-@property(nonatomic) long long transcriptionMode; // @synthesize transcriptionMode=_transcriptionMode;
-@property(copy, nonatomic) NSDictionary *voiceSearchHeaderFields; // @synthesize voiceSearchHeaderFields=_voiceSearchHeaderFields;
-@property(copy, nonatomic) NSDictionary *voiceSearchQueryParameters; // @synthesize voiceSearchQueryParameters=_voiceSearchQueryParameters;
-@property(nonatomic) long long voiceSearchTypeOptions; // @synthesize voiceSearchTypeOptions=_voiceSearchTypeOptions;
-@property(copy, nonatomic) NSDictionary *voiceTriggerEventInfo; // @synthesize voiceTriggerEventInfo=_voiceTriggerEventInfo;
 
 @end
 

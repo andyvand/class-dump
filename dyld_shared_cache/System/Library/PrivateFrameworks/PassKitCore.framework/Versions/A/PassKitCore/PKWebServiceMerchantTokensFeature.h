@@ -15,7 +15,7 @@
 
 - (id);
 - (id);
-- (void)LMENT;
+- (void)ACCESSIBILITY_ENROLLMENT;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSSet *credentialTypesRequiringDPANNotifications; // @synthesize credentialTypesRequiringDPANNotifications=_credentialTypesRequiringDPANNotifications;

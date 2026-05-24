@@ -6,37 +6,32 @@
 
 #import <ContactsUI/CNPortraitOnlyNavigationController.h>
 
-@class CNPhotoPickerTrapView, NSArray;
+@class CNPhotoPickerTrapView;
 
 __attribute__((visibility("hidden")))
 @interface CNPhotoPickerNavigationViewController : CNPortraitOnlyNavigationController
 {
     _Bool _allowRotation;
-    _Bool _disablingRotation;
-    _Bool _isShowingKeyboard;
-    CNPhotoPickerTrapView *_trapOverlayView;
-    NSArray *_trapOverlayConstraints;
-    struct CGSize _previousSize;
 }
 
 - (void);
 - (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)T_;
+- (void);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
-- (void);
+- (id)R	ja$;
+- (void);
 - (void);
 - (struct CGSize);
 - (void);
@@ -45,15 +40,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (unsigned long long)ompletion: /* Error: Ran out of types for this method. */;
-- (void);
+- (unsigned long long)loadObjectsOfClass:completion: /* Error: Ran out of types for this method. */;
+- (void)_listenerID;
 
 // Remaining properties
-@property(nonatomic) _Bool allowRotation; // @synthesize allowRotation=_allowRotation;
-@property(nonatomic) _Bool disablingRotation; // @synthesize disablingRotation=_disablingRotation;
-@property(nonatomic) _Bool isShowingKeyboard; // @synthesize isShowingKeyboard=_isShowingKeyboard;
-@property(nonatomic) struct CGSize previousSize; // @synthesize previousSize=_previousSize;
-@property(retain, nonatomic) NSArray *trapOverlayConstraints; // @synthesize trapOverlayConstraints=_trapOverlayConstraints;
 @property(retain, nonatomic) CNPhotoPickerTrapView *trapOverlayView; // @synthesize trapOverlayView=_trapOverlayView;
 
 @end

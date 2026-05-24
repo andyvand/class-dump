@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBIntentMetadata;
+@class _INPBIntentMetadata;
 
 @interface _INPBDeleteHealthSampleIntent
 {
     struct _has;
-    _INPBIntentMetadata *_intentMetadata;
-    NSArray *_sampleUuids;
 }
 
 + (Class);
@@ -22,12 +20,12 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)qM;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)ifi-network-sharing] Known network changed (new=%{public}@, old=%{public}@, current=%{public}@);
 - (id);
 - (id);
 - (void);
@@ -35,17 +33,7 @@
 - (void)er;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(copy, nonatomic) NSArray *sampleUuids; // @synthesize sampleUuids=_sampleUuids;
-@property(readonly, nonatomic) unsigned long long sampleUuidsCount;
-@property(readonly) Class superclass;
 
 @end
 

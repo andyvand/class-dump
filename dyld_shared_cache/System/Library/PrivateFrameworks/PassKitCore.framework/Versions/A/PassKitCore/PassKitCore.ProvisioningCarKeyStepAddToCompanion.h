@@ -7,8 +7,6 @@
 @interface PassKitCore.ProvisioningCarKeyStepAddToCompanion
 {
     id context;
-    id credential;
-    id sharedState;
 }
 
 @end

@@ -6,15 +6,11 @@
 
 #import <LoginUIKit/LUI2ViewController.h>
 
-@class NSLayoutConstraint, NSScrollView, NSString, NSTextView, NSVisualEffectView;
+@class NSTextView, NSVisualEffectView;
 
 @interface LUI2MessageViewController : LUI2ViewController
 {
     NSTextView *_messageTextView;
-    NSVisualEffectView *_vibrantTextEffectView;
-    NSScrollView *_scrollView;
-    NSLayoutConstraint *_scrollViewHeightConstraint;
-    NSLayoutConstraint *_messageTextViewHeightConstraint;
 }
 
 + (double);
@@ -23,29 +19,18 @@
 - (void);
 - (void);
 - (id);
+- (void)z;
+- (void);
+- (id);
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void)gate:(id)arg1;
+- (void)setHintsDelegate:(id)arg1;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSTextView *messageTextView; // @synthesize messageTextView=_messageTextView;
-@property NSLayoutConstraint *messageTextViewHeightConstraint; // @synthesize messageTextViewHeightConstraint=_messageTextViewHeightConstraint;
-@property(retain) NSScrollView *scrollView; // @synthesize scrollView=_scrollView;
-@property NSLayoutConstraint *scrollViewHeightConstraint; // @synthesize scrollViewHeightConstraint=_scrollViewHeightConstraint;
-@property(readonly) Class superclass;
 @property(retain) NSVisualEffectView *vibrantTextEffectView; // @synthesize vibrantTextEffectView=_vibrantTextEffectView;
 
 @end

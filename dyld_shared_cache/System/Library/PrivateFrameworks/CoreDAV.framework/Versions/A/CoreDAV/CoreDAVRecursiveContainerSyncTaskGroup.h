@@ -6,36 +6,15 @@
 
 #import <CoreDAV/CoreDAVTaskGroup.h>
 
-@class NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSMutableSet, NSString, NSURL;
-@protocol CoreDAVLocalDBTreeInfoProvider;
+@class NSString;
 
 @interface CoreDAVRecursiveContainerSyncTaskGroup : CoreDAVTaskGroup
 {
     int _phase;
-    NSURL *_folderURL;
-    NSString *_previousCTag;
-    NSString *_nextCTag;
-    NSString *_previousSyncToken;
-    NSString *_nextSyncToken;
-    NSString *_previousPTag;
-    NSString *_nextPTag;
-    NSArray *_actions;
-    unsigned long long _multiGetBatchSize;
-    NSMutableArray *_unsubmittedTasks;
-    NSURL *_addMemberURL;
-    _Bool _useMultiGet;
-    NSMutableSet *_syncReportDeletedURLs;
-    NSMutableDictionary *_leafURLToETag;
-    NSMutableArray *_childCollectionURL;
-    Class _appSpecificDataItemClass;
-    Class _appSpecificContainerItemClass;
-    _Bool _syncItemOrder;
-    NSMutableDictionary *_folderURLToChildrenURLOrder;
-    _Bool _preflightCTag;
 }
 
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -54,47 +33,33 @@
 - (void);
 - (void);
 - (void);
+- (void)	;
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)(;
+- (void);
 - (unsigned long long);
 - (void);
 - (id);
-- (void);
+- (void)UIPreferredContentSizeCategoryName;
 - (id);
-- (id);
+- (id)addMenuItemForRecurrenceFrequency:withTitle: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
+- (id)ks/ApplicationServices.framework/Versions/A/ApplicationServices;
 - (id);
-- (id);
-- (void);
+- (void)EWSAppendToItemFieldType;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CoreDAVLocalDBTreeInfoProvider> delegate; // @dynamic delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSURL *folderURL; // @synthesize folderURL=_folderURL;
-@property(readonly, nonatomic) NSDictionary *folderURLToChildrenURLOrder; // @synthesize folderURLToChildrenURLOrder=_folderURLToChildrenURLOrder;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long multiGetBatchSize; // @synthesize multiGetBatchSize=_multiGetBatchSize;
-@property(retain, nonatomic) NSString *nextCTag; // @synthesize nextCTag=_nextCTag;
-@property(nonatomic) _Bool preflightCTag; // @synthesize preflightCTag=_preflightCTag;
-@property(readonly, nonatomic) NSString *previousCTag; // @synthesize previousCTag=_previousCTag;
 @property(retain, nonatomic) NSString *previousSyncToken; // @synthesize previousSyncToken=_previousSyncToken;
-@property(readonly) Class superclass;
 
 @end
 

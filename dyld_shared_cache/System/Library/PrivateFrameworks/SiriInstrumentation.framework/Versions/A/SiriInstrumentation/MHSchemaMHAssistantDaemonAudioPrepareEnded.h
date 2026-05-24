@@ -6,19 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MHSchemaMHAssistantDaemonAudioPrepareEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
+- (void)uestSplatRollback:(_Bool)arg1 error:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)this md;
+- (unsigned long long)C;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -26,14 +23,12 @@
 × ;
 - (id)aPNRODMetricDuration",&,N,V_standardPlannerMakePlanTime;
 - (id)mentTier1;
-- (_Bool)_GROUP;
+- (_Bool)FLOWPERSONTYPE_PREDEFINED_GROUP;
 - (_Bool)ÜÆÿ ¬RD$;
 - (void)½ÿÎï³¥C(;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

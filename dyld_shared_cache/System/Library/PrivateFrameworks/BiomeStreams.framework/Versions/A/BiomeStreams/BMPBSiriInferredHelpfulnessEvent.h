@@ -4,36 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BMPBSiriInferredHelpfulnessEvent
 {
     double _absoluteTimestamp;
-    double _inferredHelpfulnessScore;
-    double _restatementScore;
-    NSString *_modelID;
-    NSString *_turnID;
-    struct {
-        unsigned int absoluteTimestamp:1;
-        unsigned int inferredHelpfulnessScore:1;
-        unsigned int restatementScore:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (void);
-- (double);
+- (double)vR;
 - (double);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)Qo_;
 - (id);
 - (void);
-- (void);
+- (void)!`;
 - (double);
 - (unsigned long long);
 - (_Bool);
@@ -50,16 +39,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
 @property(nonatomic) _Bool hasAbsoluteTimestamp;
-@property(nonatomic) _Bool hasInferredHelpfulnessScore;
-@property(readonly, nonatomic) _Bool hasModelID;
-@property(nonatomic) _Bool hasRestatementScore;
-@property(readonly, nonatomic) _Bool hasTurnID;
-@property(nonatomic) double inferredHelpfulnessScore; // @synthesize inferredHelpfulnessScore=_inferredHelpfulnessScore;
-@property(retain, nonatomic) NSString *modelID; // @synthesize modelID=_modelID;
-@property(nonatomic) double restatementScore; // @synthesize restatementScore=_restatementScore;
-@property(retain, nonatomic) NSString *turnID; // @synthesize turnID=_turnID;
 
 @end
 

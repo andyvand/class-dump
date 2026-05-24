@@ -9,60 +9,46 @@
 @interface GEOTargetLayout
 {
     PBUnknownFields *_unknownFields;
-    int _layoutInfo;
-    int _layoutStyle;
-    int _uiTarget;
-    struct {
-        unsigned int has_layoutInfo:1;
-        unsigned int has_layoutStyle:1;
-        unsigned int has_uiTarget:1;
-    } _flags;
 }
 
-+ (_Bool)gestions:(id)arg1;
++ (_Bool)setMaxQueryBuilderSuggestions:(id)arg1;
 - (id);
-- (int);
+- (int);
 - (void);
-- (_Bool);
+- (_Bool)whileHoldingDistributedFileLock: /* Error: Ran out of types for this method. */;
 - (void);
 - (int);
-- (int);
-- (void);
-- (id);
 - (int);
 - (void);
 - (id);
+- (int);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)createAudioFileWriterForOpportuneSpeakListenerWithInputFormat:(id)arg1 outputFormat: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)_distance;
+- (id)MKMapItemLaunchAdditionsMapItems;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)?=b10b10b12}{?=b10b22}I)}{_GEORegionalResourceKey=b32b8b6b8b8b1b57}{_GEOSputnikMetadataKey=b32b24b14b8b42}{_GEOFlyoverKey=b6b26b26b8b24b14b8b8}{_GEOTransitLineSelectionKey=b6b25b25b64}{_GEOPolygonSelectionKey=b6b25b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16^I24;
-- (id)PlaceCardPlaceActionDetailsTransitPlaceCardTransitDepartureSequenceUsageDirection;
-- (id)nCountdownValue;
-- (id)N;
+- (id)hasPlaceCardPlaceActionDetailsTransitPlaceCardTransitDepartureSequenceUsageDirection;
+- (id)GEOServerFormatTokenCountdownValue;
+- (id)FEEDBACK_FIELD_OPTION_ADDRESS_LOCATION;
 - (void)gÀBAî®³!*Q@;
 - (void)BAÃûËP@;
 - (int)K@;
 - (int)M;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLayoutInfo;
-@property(nonatomic) _Bool hasLayoutStyle;
 @property(nonatomic) _Bool hasUiTarget;
-@property(nonatomic) int layoutInfo;
-@property(nonatomic) int layoutStyle;
-@property(nonatomic) int uiTarget;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

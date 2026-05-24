@@ -9,6 +9,7 @@
 @protocol NSURLSessionDelegate
 
 @optional
+- (void))a;
 - (void)_definition->extended_state, dumping backtrace:(NSURLSession *)arg1 %{public}s;
 @end
 

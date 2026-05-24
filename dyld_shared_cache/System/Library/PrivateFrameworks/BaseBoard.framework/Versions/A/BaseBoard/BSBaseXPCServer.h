@@ -4,44 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_xpc_object;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface BSBaseXPCServer
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_xpc_object> *_listenerConnection;
-    NSMutableSet *_clients;
-    _Bool _connectionResumed;
-    NSString *_serviceName;
-    int _notifyToken;
-    _Bool _usesAnonymousConnection;
 }
 
 + (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)?;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)*;
 - (void);
 - (Class);
 - (id);
 - (void);
 - (void);
+- (id);
+- (void);
+- (_Bool)6v;
 - (id);
 - (void);
+- (id);
 - (_Bool);
-- (id);
-- (void);
-- (id);
-- (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)erverSupport;
 - (id);
 
 // Remaining properties

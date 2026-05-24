@@ -5,5 +5,8 @@
 //
 
 @protocol WBSTranslationContextDelegate
+
+@optional
+- (void);
 @end
 

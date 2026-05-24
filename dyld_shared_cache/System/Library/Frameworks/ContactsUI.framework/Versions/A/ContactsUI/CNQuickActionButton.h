@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol CNCancelable;
 
 @interface CNQuickActionButton
 {
     CDUnknownBlockType _mouseDownHandler;
-    CDUnknownBlockType _secondaryMouseDownHandler;
-    id <CNCancelable> _performDefaultActionToken;
-    id <CNCancelable> _showDisambiguationUIToken;
 }
 
 - (id);
@@ -33,17 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType mouseDownHandler; // @synthesize mouseDownHandler=_mouseDownHandler;
 @property(retain) id <CNCancelable> performDefaultActionToken; // @synthesize performDefaultActionToken=_performDefaultActionToken;
-@property(copy, nonatomic) CDUnknownBlockType secondaryMouseDownHandler; // @synthesize secondaryMouseDownHandler=_secondaryMouseDownHandler;
-@property(retain) id <CNCancelable> showDisambiguationUIToken; // @synthesize showDisambiguationUIToken=_showDisambiguationUIToken;
-@property(readonly) Class superclass;
 
 @end
 

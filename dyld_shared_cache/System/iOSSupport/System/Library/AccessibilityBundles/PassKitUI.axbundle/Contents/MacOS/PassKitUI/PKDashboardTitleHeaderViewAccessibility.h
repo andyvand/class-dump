@@ -11,14 +11,14 @@
 }
 
 + (Class);
-+ (id);
++ (id)VKCImageTextSelectionView;
 + (void);
 - (void);
 - (id);
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (void);
+- (void)8HpH;
 - (id);
 
 @end

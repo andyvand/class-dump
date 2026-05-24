@@ -6,8 +6,6 @@
 
 #import <AppKit/NSButton.h>
 
-@class NSArray, NSMenu, NSMenuItem, NSString;
-
 @interface NSPopUpButton : NSButton
 {
     struct __pbFlags {
@@ -18,20 +16,6 @@
 
 
 // Remaining properties
-@property _Bool altersStateOfSelectedItem;
-@property _Bool autoenablesItems;
-@property(readonly) long long indexOfSelectedItem;
-@property(readonly, copy) NSArray *itemArray;
-@property(readonly, copy) NSArray *itemTitles;
-@property(readonly) NSMenuItem *lastItem;
-@property(retain) NSMenu *menu;
-@property(readonly) long long numberOfItems;
-@property unsigned long long preferredEdge;
 @property(readonly) unsigned long long preferredGlassBehavior;
-@property _Bool pullsDown;
-@property(readonly) NSMenuItem *selectedItem;
-@property(readonly) long long selectedTag;
-@property(readonly, copy) NSString *titleOfSelectedItem;
-@property _Bool usesItemFromMenu;
 @end
 

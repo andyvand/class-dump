@@ -6,17 +6,14 @@
 
 #import <AppStoreDaemon/ASDPromise.h>
 
-@protocol ASDTaskScheduler;
-
 __attribute__((visibility("hidden")))
 @interface ASDLazyPromise : ASDPromise
 {
     CDUnknownBlockType _executor;
-    id <ASDTaskScheduler> _scheduler;
 }
 
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 

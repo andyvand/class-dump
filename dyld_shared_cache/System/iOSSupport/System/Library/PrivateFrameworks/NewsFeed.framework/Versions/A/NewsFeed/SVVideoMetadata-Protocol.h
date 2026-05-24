@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL;
-
 @protocol SVVideoMetadata
 - (double);
 - (struct CGSize);
 
 // Remaining properties
 @property(readonly, nonatomic) double duration;
-@property(readonly, nonatomic) double framerate;
-@property(readonly, nonatomic) _Bool muted;
-@property(readonly, nonatomic) struct CGSize naturalSize;
-@property(readonly, nonatomic) unsigned long long playbackState;
-@property(readonly, nonatomic) double time;
-@property(readonly, nonatomic) double timePlayed;
-@property(readonly, nonatomic) NSURL *videoURL;
-@property(readonly, nonatomic) double volume;
 @end
 

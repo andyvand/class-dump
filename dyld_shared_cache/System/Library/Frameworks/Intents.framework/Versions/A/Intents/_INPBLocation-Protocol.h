@@ -7,11 +7,13 @@
 @class NSArray, _INPBLocationValue;
 
 @protocol _INPBLocation
++ (Class)%ld
+;
+- (void);
 - (void)sirikit.intent.alarm.SnoozeAlarmIntent;
 - (_INPBLocationValue *)ound, returning nil;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *values;
-@property(readonly, nonatomic) unsigned long long valuesCount;
 @end
 

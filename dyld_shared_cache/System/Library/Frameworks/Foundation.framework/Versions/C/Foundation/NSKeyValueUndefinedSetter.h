@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)anguageCodeWithoutRegion;
+- (id)_web_HTTPStyleLanguageCodeWithoutRegion;
 
 @end
 

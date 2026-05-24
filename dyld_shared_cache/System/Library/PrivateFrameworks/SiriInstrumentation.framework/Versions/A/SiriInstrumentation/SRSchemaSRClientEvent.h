@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class NSData, SISchemaInstrumentationMessage, SRSchemaSRClientEventMetadata, SRSchemaSRErrorChecked;
+@class SISchemaInstrumentationMessage, SRSchemaSRClientEventMetadata;
 
 @interface SRSchemaSRClientEvent : SISchemaTopLevelUnionType
 {
     SRSchemaSRClientEventMetadata *_eventMetadata;
-    SRSchemaSRErrorChecked *_errorChecked;
-    _Bool _hasEventMetadata;
-    _Bool _hasErrorChecked;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
@@ -24,39 +20,33 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool){;
 - (void);
 - (id);
 - (id);
-- (int);
-- (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (int);
+- (id)c;
+- (void)!;
+- (unsigned long long)reportRemotely;
+- (_Bool)ABCardViewDictionaryTransformer;
+- (_Bool)LPiTunesMediaArtistMetadata;
 - (id);
 - (id);
 - (id)ù
 × ;
-- (unsigned long long)stIdentifier;
+- (unsigned long long)hasGmsClientRequestIdentifier;
 - (id)deleteIsMitigationRecommended;
-- (id);
+- (id)_hasMtId;
 - (int)ersWhenRejected;
-- (void)SSETSET_ELIMINATED;
+- (void)SADAVAILABLEASSETSTATUSREASON_ASSETSET_ELIMINATED;
 
 // Remaining properties
-@property(retain, nonatomic) SRSchemaSRErrorChecked *errorChecked; // @synthesize errorChecked=_errorChecked;
-@property(retain, nonatomic) SRSchemaSRClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasErrorChecked; // @synthesize hasErrorChecked=_hasErrorChecked;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

@@ -6,16 +6,9 @@
 
 #import <MLCompute/MLCLayer.h>
 
-@class MLCConvolutionDescriptor, MLCTensor, MLCTensorParameter;
-
 @interface MLCFullyConnectedLayer : MLCLayer
 {
     int _accumulatorPrecisionOption;
-    MLCConvolutionDescriptor *_descriptor;
-    MLCTensor *_weights;
-    MLCTensor *_biases;
-    MLCTensorParameter *_weightsParameter;
-    MLCTensorParameter *_biasesParameter;
 }
 
 - (id);
@@ -23,10 +16,10 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (unsigned long long);
 - (id);
@@ -34,16 +27,11 @@
 - (int);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)MPSMatrixRandomPhilox;
 
 // Remaining properties
 @property(readonly, nonatomic) int accumulatorPrecisionOption; // @synthesize accumulatorPrecisionOption=_accumulatorPrecisionOption;
-@property(readonly, retain, nonatomic) MLCTensor *biases; // @synthesize biases=_biases;
-@property(readonly, retain, nonatomic) MLCTensorParameter *biasesParameter; // @synthesize biasesParameter=_biasesParameter;
-@property(readonly, copy, nonatomic) MLCConvolutionDescriptor *descriptor; // @synthesize descriptor=_descriptor;
-@property(readonly, retain, nonatomic) MLCTensor *weights; // @synthesize weights=_weights;
-@property(readonly, retain, nonatomic) MLCTensorParameter *weightsParameter; // @synthesize weightsParameter=_weightsParameter;
 
 @end
 

@@ -6,23 +6,21 @@
 
 #import <IMCore/IMAggregateMessagePartChatItem.h>
 
-@class IMItem, NSString;
+@class IMItem;
 
 @interface IMReplyContextAggregateMessagePartChatItem : IMAggregateMessagePartChatItem
 {
     _Bool _replyIsFromMe;
-    IMItem *_parentItem;
-    NSString *_replyMessageGUID;
 }
 
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)robability=%f;
+- (void)ple.xbs/TemporaryDirectory.ZMSfoZ/Sources/AVConference/AVConference.subproj/Sources/AVCPacketRelayDriverThread.m:(id)arg1 %d:AVCPacketRelayDriverThread:CreateHandle failed (%d) /* Error: Ran out of types for this method. */;
+- (void)SsfUVQQQ/Library/Caches/com.apple.xbs/TemporaryDirectory.ZMSfoZ/Sources/AVConference/AVConference.subproj/Sources/AVCPacketRelayDriverThread.m:(_Bool)arg1 %d:AVCPacketRelayDriverThread:CreateHandle failed (%d) /* Error: Ran out of types for this method. */;
+- (id)eoStream [%s] %s:%d rtcpTimeOutIntervalSec=%f /* Error: Ran out of types for this method. */;
+- (_Bool)meOutIntervalSec=%f;
+- (_Bool)io. error=%x;
+- (id)e dispatch queue for shared instance;
+- (void)stopActiveProbingQRLink success:(id)arg1 QR link probing stopped;
 - (id);
 - (_Bool);
 - (id);
@@ -30,8 +28,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) IMItem *_parentItem; // @synthesize _parentItem;
-@property(nonatomic) _Bool replyIsFromMe; // @synthesize replyIsFromMe=_replyIsFromMe;
-@property(copy, nonatomic) NSString *replyMessageGUID; // @synthesize replyMessageGUID=_replyMessageGUID;
 
 @end
 

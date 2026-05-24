@@ -4,37 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSButton, NSLayoutConstraint, NSProgress, NSString, NSView, PXProgrammaticNavigationDestination, PXToast, UXImageView, UXLabel, UXView;
+@class NSString, UXView;
 
 @interface PXActionProgressToast
 {
     UXView *_leadingView;
-    NSView *_progressView;
-    UXImageView *_checkmarkView;
-    NSButton *_errorView;
-    NSButton *_closeButton;
-    UXView *_labelContainer;
-    UXLabel *_primaryLabel;
-    UXLabel *_secondaryLabel;
-    PXToast *_toast;
-    double _toastMargin;
-    NSLayoutConstraint *_labelContainerWidthConstraint;
-    NSLayoutConstraint *_closeButtonWidthConstraint;
-    NSLayoutConstraint *_trailingSpacingConstraint;
-    NSLayoutConstraint *_primaryLabelWidthConstraint;
-    NSLayoutConstraint *_secondaryLabelWidthConstraint;
-    NSLayoutConstraint *_primaryLabelAlignmentConstraint;
-    NSLayoutConstraint *_secondaryLabelAlignmentConstraint;
-    long long _state;
-    double _bottomSpacing;
-    NSProgress *_progress;
-    NSString *_localizedTitle;
-    NSString *_localizedProgressText;
-    NSString *_customSubtitleText;
-    CDUnknownBlockType _closeButtonAction;
-    CDUnknownBlockType _errorButtonAction;
-    NSArray *_errors;
-    PXProgrammaticNavigationDestination *_targetDestination;
 }
 
 - (void);
@@ -52,7 +26,7 @@
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (id);
+- (id);
 - (CDUnknownBlockType);
 - (double);
 - (void);
@@ -61,49 +35,32 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)+;
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)/System/iOSSupport/System/Library/PrivateFrameworks/NewsUI.framework/Versions/A/NewsUI;
+- (void)_shaderArguments;
 - (void);
 - (long long);
 - (void)0@ù
 × ;
 - (void)8#$;
-- (void)aredLibraryFilter;
-- (id)Invitation;
+- (void)ignoreSharedLibraryFilter;
+- (id)PXSharedLibraryAssistant_ReviewRecipients_ButtonTitle_copyInvitation;
 - (void)ETER_SUMMARY ;
 - (void);
 - (id)¬=;
 
 // Remaining properties
-@property(nonatomic) double bottomSpacing; // @synthesize bottomSpacing=_bottomSpacing;
-@property(copy, nonatomic) CDUnknownBlockType closeButtonAction; // @synthesize closeButtonAction=_closeButtonAction;
-@property(copy, nonatomic) NSString *customSubtitleText; // @synthesize customSubtitleText=_customSubtitleText;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType errorButtonAction; // @synthesize errorButtonAction=_errorButtonAction;
-@property(copy, nonatomic) NSArray *errors; // @synthesize errors=_errors;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isLocked;
-@property(readonly, nonatomic) NSString *localizedProgressText; // @synthesize localizedProgressText=_localizedProgressText;
 @property(retain, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
-@property(readonly) NSProgress *progress; // @synthesize progress=_progress;
-@property(nonatomic) long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) PXProgrammaticNavigationDestination *targetDestination; // @synthesize targetDestination=_targetDestination;
 
 @end
 

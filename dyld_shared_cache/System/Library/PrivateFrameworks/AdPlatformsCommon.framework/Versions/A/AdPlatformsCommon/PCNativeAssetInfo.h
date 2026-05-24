@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL;
-
 @interface PCNativeAssetInfo
 {
     _Bool _autoloop;
-    long long _contentType;
-    long long _width;
-    long long _height;
-    NSURL *_url;
-    long long _length;
-    double _bitrate;
 }
 
 + (_Bool);
-- (void);
+- (void)@;
 - (_Bool);
 - (void);
 - (id);
@@ -29,22 +21,16 @@
 - (long long);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (long long);
+- (long long)8;
 - (void);
-- (void)ommon12AdsPBAdEventP33_FDF9BCF41606791BED6612989D0F18A513_StorageClass;
+- (void)_TtCV17AdPlatformsCommon12AdsPBAdEventP33_FDF9BCF41606791BED6612989D0F18A513_StorageClass;
 
 // Remaining properties
-@property(nonatomic) _Bool autoloop; // @synthesize autoloop=_autoloop;
-@property(nonatomic) double bitrate; // @synthesize bitrate=_bitrate;
 @property(nonatomic) long long contentType; // @synthesize contentType=_contentType;
-@property(nonatomic) long long height; // @synthesize height=_height;
-@property(nonatomic) long long length; // @synthesize length=_length;
-@property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
-@property(nonatomic) long long width; // @synthesize width=_width;
 
 @end
 

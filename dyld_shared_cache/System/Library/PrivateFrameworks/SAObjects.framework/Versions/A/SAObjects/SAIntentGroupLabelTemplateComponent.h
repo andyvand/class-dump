@@ -23,7 +23,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *labelTemplateComponentStyle;
-@property(copy, nonatomic) NSString *text;
 
 @end
 

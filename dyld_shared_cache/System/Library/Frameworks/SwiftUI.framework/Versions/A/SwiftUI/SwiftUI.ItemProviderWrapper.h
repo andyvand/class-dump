@@ -14,7 +14,7 @@
 - (id);
 - (void);
 - (id);
-- (void)dingKeys;
+- (void)CodingKeys;
 
 @end
 

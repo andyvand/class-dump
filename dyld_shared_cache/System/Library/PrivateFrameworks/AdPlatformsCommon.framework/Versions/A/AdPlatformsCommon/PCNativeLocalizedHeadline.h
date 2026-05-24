@@ -9,13 +9,12 @@
 @interface PCNativeLocalizedHeadline
 {
     NSString *_languageIdentifier;
-    NSString *_value;
 }
 
 + (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)=;
 - (id);
 - (void);
 - (id);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *languageIdentifier; // @synthesize languageIdentifier=_languageIdentifier;
-@property(retain, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

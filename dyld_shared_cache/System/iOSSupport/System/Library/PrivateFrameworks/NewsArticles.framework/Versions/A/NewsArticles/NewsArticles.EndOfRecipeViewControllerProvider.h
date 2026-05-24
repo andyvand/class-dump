@@ -7,8 +7,6 @@
 @interface NewsArticles.EndOfRecipeViewControllerProvider
 {
     id resolver;
-    id tracker;
-    id coordinatorContainer;
 }
 
 @end

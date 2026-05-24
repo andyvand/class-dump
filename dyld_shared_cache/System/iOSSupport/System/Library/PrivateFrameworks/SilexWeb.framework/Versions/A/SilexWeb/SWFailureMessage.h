@@ -9,8 +9,6 @@
 @interface SWFailureMessage
 {
     NSString *_contentDomain;
-    NSString *_embedName;
-    NSString *_errorType;
 }
 
 - (id);
@@ -21,8 +19,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *contentDomain; // @synthesize contentDomain=_contentDomain;
-@property(readonly, copy, nonatomic) NSString *embedName; // @synthesize embedName=_embedName;
-@property(readonly, copy, nonatomic) NSString *errorType; // @synthesize errorType=_errorType;
 
 @end
 

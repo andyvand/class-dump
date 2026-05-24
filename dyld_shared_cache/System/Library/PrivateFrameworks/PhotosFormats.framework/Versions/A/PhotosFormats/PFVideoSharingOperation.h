@@ -4,45 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAsset, AVAssetExportSession, AVAudioMix, AVVideoComposition, CLLocation, NSArray, NSDate, NSError, NSObject, NSString, NSURL, PFAssetAdjustments;
-@protocol OS_dispatch_queue;
+@class AVAsset, NSURL;
 
 @interface PFVideoSharingOperation
 {
     AVAsset *_videoAsset;
-    AVAudioMix *_audioMix;
-    AVVideoComposition *_videoComposition;
-    NSArray *_videoMetadata;
-    NSObject<OS_dispatch_queue> *_externalIsolation;
-    AVAssetExportSession *_exportSession;
-    _Bool _beganExport;
-    _Bool _operationSuccess;
-    NSError *_operationError;
-    _Bool _shouldStripMetadata;
-    _Bool _shouldStripLocation;
-    _Bool _shouldStripCaption;
-    _Bool _shouldStripAccessibilityDescription;
-    NSURL *_outputDirectoryURL;
-    NSString *_outputFilename;
-    CLLocation *_customLocation;
-    NSDate *_customDate;
-    NSString *_customCaption;
-    NSString *_customAccessibilityLabel;
-    NSString *_exportPreset;
-    NSString *_exportFileType;
-    NSURL *_videoURL;
-    NSURL *_resultingFileURL;
-    PFAssetAdjustments *__adjustments;
 }
 
 + (id);
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)4	;
+- (id)_TtCO10Accelerate4BNNS12PaddingLayer;
+- (id)_TtCVO10Accelerate6vImage27MultidimensionalLookupTable20LookupTableReference;
 - (id);
 - (id);
 - (id);
@@ -60,7 +36,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -68,34 +44,18 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)rk;
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)ed more than once.
+;
 - (float);
 - (_Bool);
 - (id);
-- (void);
+- (void)setInterruptionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic, setter=_setAdjustments:) PFAssetAdjustments *_adjustments; // @synthesize _adjustments=__adjustments;
-@property(copy, nonatomic) NSString *customAccessibilityLabel; // @synthesize customAccessibilityLabel=_customAccessibilityLabel;
-@property(copy, nonatomic) NSString *customCaption; // @synthesize customCaption=_customCaption;
-@property(copy, nonatomic) NSDate *customDate; // @synthesize customDate=_customDate;
-@property(copy, nonatomic) CLLocation *customLocation; // @synthesize customLocation=_customLocation;
-@property(copy, nonatomic) NSString *exportFileType; // @synthesize exportFileType=_exportFileType;
-@property(copy, nonatomic) NSString *exportPreset; // @synthesize exportPreset=_exportPreset;
-@property(retain, nonatomic, setter=_setOperationError:) NSError *operationError;
-@property(copy, nonatomic) NSURL *outputDirectoryURL; // @synthesize outputDirectoryURL=_outputDirectoryURL;
-@property(copy, nonatomic) NSString *outputFilename; // @synthesize outputFilename=_outputFilename;
-@property(readonly, nonatomic) float progress;
-@property(readonly, copy, nonatomic) NSURL *resultingFileURL; // @synthesize resultingFileURL=_resultingFileURL;
-@property(nonatomic) _Bool shouldStripAccessibilityDescription; // @synthesize shouldStripAccessibilityDescription=_shouldStripAccessibilityDescription;
-@property(nonatomic) _Bool shouldStripCaption; // @synthesize shouldStripCaption=_shouldStripCaption;
-@property(nonatomic) _Bool shouldStripLocation; // @synthesize shouldStripLocation=_shouldStripLocation;
-@property(nonatomic) _Bool shouldStripMetadata; // @synthesize shouldStripMetadata=_shouldStripMetadata;
-@property(nonatomic, setter=_setSuccess:) _Bool success;
 @property(copy, nonatomic, setter=_setVideoURL:) NSURL *videoURL; // @synthesize videoURL=_videoURL;
 
 @end

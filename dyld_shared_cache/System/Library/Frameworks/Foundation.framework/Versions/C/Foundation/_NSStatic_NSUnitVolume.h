@@ -11,11 +11,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (unsigned long long);
+- (unsigned long long)D@9;
 - (void);
 - (oneway void);
 - (Class);
-- (Class);
+- (Class);
 - (id);
 
 @end

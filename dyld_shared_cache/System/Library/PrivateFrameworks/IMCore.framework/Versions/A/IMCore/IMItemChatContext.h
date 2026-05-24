@@ -9,7 +9,6 @@
 @interface IMItemChatContext
 {
     IMHandle *_senderHandle;
-    IMHandle *_otherHandle;
 }
 
 - (id);
@@ -20,7 +19,6 @@
 - (void)äW(Z¨Z;
 
 // Remaining properties
-@property(retain, nonatomic) IMHandle *otherHandle; // @synthesize otherHandle=_otherHandle;
 @property(retain, nonatomic) IMHandle *senderHandle; // @synthesize senderHandle=_senderHandle;
 
 @end

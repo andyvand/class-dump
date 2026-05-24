@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface FI_TGoToFinderItem
 {
     _Bool isContainer;
-    _Bool isShortcut;
-    NSString *displayName;
-    NSString *decomposedRawName;
-    NSString *decomposedName;
-    NSObject *representedObject;
 }
 
 - (void);
@@ -22,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (_Bool);
@@ -30,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)k;
 - (id);
 - (_Bool);
 - (id)!ÔGùõÐ1Â0@ù
@@ -38,19 +33,7 @@ __attribute__((visibility("hidden")))
 - (void)ÿÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) NSString *decomposedName; // @synthesize decomposedName;
 @property(retain, nonatomic) NSString *decomposedRawName; // @synthesize decomposedRawName;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSString *displayName; // @synthesize displayName;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isContainer; // @synthesize isContainer;
-@property(nonatomic) _Bool isShortcut; // @synthesize isShortcut;
-@property(retain, nonatomic) NSObject *representedObject; // @synthesize representedObject;
-@property(readonly) Class superclass;
 
 @end
 

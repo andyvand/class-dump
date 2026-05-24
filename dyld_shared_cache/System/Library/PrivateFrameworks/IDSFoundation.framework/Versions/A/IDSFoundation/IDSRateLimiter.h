@@ -4,31 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface IDSRateLimiter
 {
     struct os_unfair_lock_s _lock;
-    long long _limit;
-    double _timeLimit;
-    NSMutableDictionary *_cacheMap;
-    NSMutableDictionary *_limitForItem;
-    NSMutableDictionary *_timeLimitForItem;
 }
 
 - (_Bool);
 - (double);
+- (id))2ij(8;
+- (void)?;
+- (void);
+- (id);
+- (long long)8J;
+- (void)?;
 - (id);
 - (void);
 - (void);
-- (id);
-- (long long);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)*6;
 - (double);
 - (id);
 - (void);
@@ -42,15 +35,10 @@
 - (_Bool);
 - (struct os_unfair_lock_s)WyJ;
 - (void)@ becoming %@ opportunistic topics were %@ becoming %@ nonwaking topics were %@ becoming %@ commands were %@ becoming %@;
-- (void);
+- (void)unregister_indication;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *cacheMap; // @synthesize cacheMap=_cacheMap;
 @property(nonatomic) long long limit; // @synthesize limit=_limit;
-@property(retain, nonatomic) NSMutableDictionary *limitForItem; // @synthesize limitForItem=_limitForItem;
-@property(nonatomic) struct os_unfair_lock_s lock; // @synthesize lock=_lock;
-@property(nonatomic) double timeLimit; // @synthesize timeLimit=_timeLimit;
-@property(retain, nonatomic) NSMutableDictionary *timeLimitForItem; // @synthesize timeLimitForItem=_timeLimitForItem;
 
 @end
 

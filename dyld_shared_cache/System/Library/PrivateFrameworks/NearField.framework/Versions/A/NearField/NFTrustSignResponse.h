@@ -6,32 +6,27 @@
 
 #import <NearField/NFTrustObject.h>
 
-@class NFTrustKey, NSData, NSNumber, NSString;
+@class NSData, NSNumber;
 
 @interface NFTrustSignResponse : NFTrustObject
 {
     NSNumber *_counterValue;
-    NFTrustKey *_key;
-    NSData *_trustObjectInternalRawNSData;
 }
 
 + (id);
 + (_Bool);
+- (id)_datumValueTextColor;
+- (void)tring"16@?0@"CNContact"8;
+- (void)ple.contacts.suggestions.info;
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)atus %ld;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *counterValue; // @synthesize counterValue=_counterValue;
-@property(retain, nonatomic) NFTrustKey *key; // @synthesize key=_key;
-@property(readonly, nonatomic) NSString *rawData;
 @property(retain, nonatomic) NSData *trustObjectInternalRawNSData; // @synthesize trustObjectInternalRawNSData=_trustObjectInternalRawNSData;
 
 @end

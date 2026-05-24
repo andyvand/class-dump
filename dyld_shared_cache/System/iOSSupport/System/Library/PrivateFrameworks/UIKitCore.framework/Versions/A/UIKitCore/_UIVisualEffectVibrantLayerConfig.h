@@ -6,13 +6,11 @@
 
 #import <UIKitCore/_UIVisualEffectLayerConfig.h>
 
-@class NSDictionary, UIColor;
+@class UIColor;
 
 @interface _UIVisualEffectVibrantLayerConfig : _UIVisualEffectLayerConfig
 {
     UIColor *_vibrantColor;
-    UIColor *_tintColor;
-    NSDictionary *_filterAttributes;
 }
 
 + (id);
@@ -23,12 +21,10 @@
 - (void);
 - (void)ð1Â0@ù
 × ;
-- (id)oreInsertion;
-- (void)w;
+- (id)_caretRectBeforeInsertion;
+- (void)_pSgXw;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *filterAttributes; // @synthesize filterAttributes=_filterAttributes;
-@property(readonly, nonatomic) UIColor *tintColor; // @synthesize tintColor=_tintColor;
 @property(readonly, nonatomic) UIColor *vibrantColor; // @synthesize vibrantColor=_vibrantColor;
 
 @end

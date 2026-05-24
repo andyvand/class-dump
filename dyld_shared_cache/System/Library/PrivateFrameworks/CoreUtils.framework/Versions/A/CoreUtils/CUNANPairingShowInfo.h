@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface CUNANPairingShowInfo
 {
     NSString *_name;
-    NSString *_pinCode;
-    NSDictionary *_textInfo;
 }
 
 - (id);
+- (id)ream error;
 - (id);
+- (id)lastKnownIDMSEnvironment;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)backgroundUI;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy, nonatomic) NSString *pinCode; // @synthesize pinCode=_pinCode;
-@property(readonly, copy, nonatomic) NSDictionary *textInfo; // @synthesize textInfo=_textInfo;
 
 @end
 

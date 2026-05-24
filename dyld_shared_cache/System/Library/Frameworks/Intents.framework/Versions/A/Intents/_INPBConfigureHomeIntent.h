@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBIntentMetadata;
+@class NSArray;
 
 @interface _INPBConfigureHomeIntent
 {
     struct _has;
-    NSArray *_entities;
-    _INPBIntentMetadata *_intentMetadata;
 }
 
 + (Class);
@@ -19,33 +17,23 @@
 - (id);
 - (void);
 - (void);
+- (id)ce>"@"NSError">24;
 - (id);
-- (id);
-- (void);
+- (void)_@;
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)@"CWFWiFiNetworkSharingClientID"16@"NSString"24@?<v@?@"NSError"@"NSNumber">32;
+- (void)ed, will not remove (%@);
 - (id);
 - (id);
 - (void);
-- (_Bool)CarsIntent;
-- (void)esponseCodeFailureRequiringAppLaunchMustVerifyCredentials;
+- (_Bool)INListCarsIntent;
+- (void)INRequestRideIntentResponseCodeFailureRequiringAppLaunchMustVerifyCredentials;
 - (id)ÕÿE*Oæ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSArray *entities; // @synthesize entities=_entities;
-@property(readonly, nonatomic) unsigned long long entitiesCount;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(readonly) Class superclass;
 
 @end
 

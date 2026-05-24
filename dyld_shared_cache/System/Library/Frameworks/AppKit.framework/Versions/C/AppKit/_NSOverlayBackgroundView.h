@@ -6,69 +6,43 @@
 
 #import <AppKit/NSView.h>
 
-@class CABackdropLayer, CALayer;
-
 __attribute__((visibility("hidden")))
 @interface _NSOverlayBackgroundView : NSView
 {
     id _backgroundImageRef;
-    double _backgroundScaleFactor;
-    CALayer *_materialLayer;
-    CALayer *_tintLayer;
-    CABackdropLayer *_backdropLayer;
-    CALayer *_backgroundLayer;
-    double _defaultBlurRadius;
-    double _defaultSaturationMultiplier;
-    struct CGColor *_defaultBackgroundColor;
-    double _paletteScaleFactor;
-    id _target;
-    SEL _action;
-    _Bool _isActive;
-    _Bool _hasAcceleration;
-    _Bool _hasAccelerationCached;
-    _Bool _darkened;
-    _Bool _debugMode;
-    _Bool _pressed;
 }
 
-- (_Bool);
+- (_Bool)abtnvfr;
+- (void)tring (%@) for %@ in CT mobile equipment info dictionary (%@);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)id;
+- (void)st tag %llX;
+- (double)t/libMobileGestalt/MGIOMFBSupport.c;
+- (_Bool);
 - (double);
-- (_Bool);
-- (double);
 - (id);
 - (void);
+- (id)_compareForHeaderOrder: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void)ÔAî/ð!`Bù1ä31Â0@ù
 × ;
 - (id)>"24@32q40;
-- (_Bool)tyingPreferredSize;
+- (_Bool)copyDirtyingPreferredSize;
 - (SEL)Ð	0;
 - (void);
 - (void)>DhSg;
-- (void)read;
+- (void)NSViewControllerReleaseOnMainThread;
 - (void);
 - (void)|å@;
 
 // Remaining properties
-@property SEL action; // @synthesize action=_action;
 @property(retain) id backgroundImageRef; // @synthesize backgroundImageRef=_backgroundImageRef;
-@property double backgroundScaleFactor; // @synthesize backgroundScaleFactor=_backgroundScaleFactor;
-@property(setter=setDarkened:) _Bool darkened; // @synthesize darkened=_darkened;
-@property _Bool debugMode; // @synthesize debugMode=_debugMode;
-@property(setter=setActive:) _Bool isActive;
-@property double paletteScaleFactor; // @synthesize paletteScaleFactor=_paletteScaleFactor;
-@property __weak id target; // @synthesize target=_target;
 
 @end
 

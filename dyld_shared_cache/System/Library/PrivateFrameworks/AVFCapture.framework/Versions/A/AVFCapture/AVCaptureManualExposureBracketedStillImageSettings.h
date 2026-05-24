@@ -9,7 +9,6 @@
 @interface AVCaptureManualExposureBracketedStillImageSettings : AVCaptureBracketedStillImageSettings
 {
     CDStruct_1b6d18a9 _exposureDuration;
-    float _ISO;
 }
 
 + (id);
@@ -21,7 +20,6 @@
 - (float)[AVExternalSyncDevice handleTSMSGSessionStoppedTriggerID:status:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) float ISO; // @synthesize ISO=_ISO;
 @property(readonly) CDStruct_1b6d18a9 exposureDuration; // @synthesize exposureDuration=_exposureDuration;
 
 @end

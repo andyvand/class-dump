@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PGGraphBuilder;
+@class PGGraphBuilder;
 
 @interface PGGraphIngestMeaningfulEventsProcessor
 {
@@ -13,23 +13,17 @@
 
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)setShouldTrimWhitespaceAndNewLine:(id)arg1;
+- (void)elementInfoForElement:(id)arg1 textRange:(id)arg2 lineIndex:(id)arg3;
+- (void)elementControllerWithElement:(id)arg1;
+- (id)_previousValues;
+- (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void)ngContextFavoritePersonsAreVIPs;
+- (void)PGPeopleWallpaperSuggesterFilteringContextFavoritePersonsAreVIPs;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

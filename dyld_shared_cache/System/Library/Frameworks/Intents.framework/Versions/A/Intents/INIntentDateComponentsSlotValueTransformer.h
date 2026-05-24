@@ -11,9 +11,9 @@
 + (_Bool);
 + (Class);
 + (Class);
-+ (long long)anceTypeForSearchForAccounts:withCompletion: /* Error: Ran out of types for this method. */;
++ (long long)resolveRequestedBalanceTypeForSearchForAccounts:withCompletion: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)ValueTransformer;
+- (id)INIntentFocusStatusSlotValueTransformer;
 
 @end
 

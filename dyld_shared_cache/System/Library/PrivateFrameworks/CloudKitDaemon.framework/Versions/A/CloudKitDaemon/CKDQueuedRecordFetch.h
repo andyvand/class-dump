@@ -10,8 +10,8 @@
 {
 }
 
-- (void);
-- (void);
+- (void)q24@0:(id)arg1 8d16;
+- (void)P;
 
 @end
 

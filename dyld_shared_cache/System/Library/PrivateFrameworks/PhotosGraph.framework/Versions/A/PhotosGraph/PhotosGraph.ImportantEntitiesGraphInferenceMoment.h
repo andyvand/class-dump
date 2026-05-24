@@ -7,7 +7,6 @@
 @interface PhotosGraph.ImportantEntitiesGraphInferenceMoment
 {
     id momentNode;
-    id addressNode;
 }
 
 @end

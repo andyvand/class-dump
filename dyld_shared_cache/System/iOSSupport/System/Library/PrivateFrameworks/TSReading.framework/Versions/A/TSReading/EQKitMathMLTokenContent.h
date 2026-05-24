@@ -13,7 +13,7 @@
 
 - (void);
 - (id);
-- (id)ount:(id)arg1 footnoteMarkProvider:styleProvider:colorOverride: /* Error: Ran out of types for this method. */;
+- (id)mapWithAttachment:(id)arg1 layout:pageNumber:pageCount:footnoteMarkProvider:styleProvider:colorOverride: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *children; // @synthesize children=mChildren;

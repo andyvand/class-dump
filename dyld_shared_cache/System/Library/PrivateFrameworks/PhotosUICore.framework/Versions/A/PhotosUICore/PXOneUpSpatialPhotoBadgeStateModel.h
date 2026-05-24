@@ -10,12 +10,12 @@
 
 + (_Bool);
 + (id);
-+ (void);
++ (void);
 + (void);
 + (_Bool);
 + (void);
 + (void)king existing:%@) /* Error: Ran out of types for this method. */;
-+ (_Bool)e;
++ (_Bool)Style;
 + (void)Èø?;
 - (id);
 - (void)²RÔª: /* Error: Ran out of types for this method. */;

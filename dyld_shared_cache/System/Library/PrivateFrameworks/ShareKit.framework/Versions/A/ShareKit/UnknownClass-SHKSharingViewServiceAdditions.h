@@ -6,6 +6,6 @@
 
 @interface UnknownClass (SHKSharingViewServiceAdditions)
 + (id);
-+ (id);
++ (id);
 @end
 

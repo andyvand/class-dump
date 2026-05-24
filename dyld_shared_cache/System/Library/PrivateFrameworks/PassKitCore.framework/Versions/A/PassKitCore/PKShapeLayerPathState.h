@@ -7,12 +7,10 @@
 @interface PKShapeLayerPathState
 {
     double _strokeStartT0;
-    double _strokeStartT1;
-    double _strokeEndT0;
-    double _strokeEndT1;
 }
 
-- (double);
+- (double)j
+=;
 - (double);
 - (void);
 - (void);
@@ -23,7 +21,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)O;
 
 @end
 

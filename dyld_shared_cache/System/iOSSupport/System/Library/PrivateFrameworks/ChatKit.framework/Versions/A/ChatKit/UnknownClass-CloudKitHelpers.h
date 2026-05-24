@@ -6,6 +6,6 @@
 
 @interface UnknownClass (CloudKitHelpers)
 - (id);
-- (id);
+- (id);;
 @end
 

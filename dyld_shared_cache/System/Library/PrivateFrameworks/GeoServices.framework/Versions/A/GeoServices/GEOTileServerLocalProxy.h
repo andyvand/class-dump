@@ -6,17 +6,11 @@
 
 #import <GeoServices/GEOTileServerProxy.h>
 
-@class GEOTileDB, NSMapTable, NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class GEOTileDB;
 
 @interface GEOTileServerLocalProxy : GEOTileServerProxy
 {
     GEOTileDB *_tileCache;
-    NSString *_cacheLocation;
-    NSMapTable *_providers;
-    NSMutableArray *_inProgress;
-    struct os_unfair_lock_s _inProgressLock;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 + (void);
@@ -29,9 +23,9 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
+- (void)<float>>="__begin_"^f"__end_"^f""{?="__cap_"^f}};
+- (id)otifying built-in VT trigger by notify_post;
+- (void)tionWithContext:(unsigned long long)arg1 ];
 - (void);
 - (void);
 - (void);
@@ -45,21 +39,14 @@
 - (void);
 - (void);
 - (void);
-- (void)ransit_favorite_set;
-- (void)Y_STYLE_SHOW_REGION;
+- (void)transit_favorite_set;
+- (void)RAP_RESPONSE_DISPLAY_STYLE_SHOW_REGION;
 - (void)BA¬á"÷tJQ@;
 - (void);
 - (void)d;ßOâ@;
 - (void)Ö·@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) GEOTileDB *tileCache; // @synthesize tileCache=_tileCache;
 
 @end

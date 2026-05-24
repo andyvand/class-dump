@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface CSVoiceProfileContext
 {
     NSString *_profileId;
-    NSString *_languageCode;
-    NSString *_productCategory;
-    NSNumber *_version;
-    unsigned long long _onboardType;
-    NSString *_homeId;
-    NSString *_userName;
 }
 
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)*;
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)rcle.FAFamilyCFUScheduler;
 - (id);
 - (id);
 - (void);
@@ -36,13 +30,7 @@
 - (void)s:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *homeId; // @synthesize homeId=_homeId;
-@property(retain, nonatomic) NSString *languageCode; // @synthesize languageCode=_languageCode;
-@property(nonatomic) unsigned long long onboardType; // @synthesize onboardType=_onboardType;
-@property(retain, nonatomic) NSString *productCategory; // @synthesize productCategory=_productCategory;
 @property(retain, nonatomic) NSString *profileId; // @synthesize profileId=_profileId;
-@property(retain, nonatomic) NSString *userName; // @synthesize userName=_userName;
-@property(retain, nonatomic) NSNumber *version; // @synthesize version=_version;
 
 @end
 

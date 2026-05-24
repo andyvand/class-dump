@@ -9,9 +9,9 @@
 }
 
 + (id);
-- (void);
-- (void);
-- (id);
+- (void)nceDescription];
+- (void)_applyAutoSettings:(id)arg1 ];
+- (id)PFCopyOnWriteInterest;
 - (id);
 
 @end

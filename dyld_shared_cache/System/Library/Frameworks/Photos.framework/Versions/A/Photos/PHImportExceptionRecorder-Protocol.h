@@ -4,9 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
+@class NSMutableArray, NSString;
 
 @protocol PHImportExceptionRecorder
+- (NSString *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *exceptions;

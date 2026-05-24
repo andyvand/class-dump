@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SGM2FoundInAppsICS
 {
     int _datetime;
-    NSString *_key;
-    int _timezone;
-    struct {
-        unsigned int datetime:1;
-        unsigned int timezone:1;
-    } _has;
 }
 
 - (id);
@@ -31,25 +23,20 @@
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (_Bool);
-- (id);
+- (_Bool)getModelStateParametersFromModelStateDictionary failed, returning null futureParameters;
+- (id)#;
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (int);
+- (int);_[l?;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) int datetime; // @synthesize datetime=_datetime;
-@property(nonatomic) _Bool hasDatetime;
 @property(readonly, nonatomic) _Bool hasKey;
-@property(nonatomic) _Bool hasTimezone;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(nonatomic) int timezone; // @synthesize timezone=_timezone;
 
 @end
 

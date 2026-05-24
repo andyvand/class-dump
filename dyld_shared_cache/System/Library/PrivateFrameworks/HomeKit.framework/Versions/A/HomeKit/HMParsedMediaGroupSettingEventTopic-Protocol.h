@@ -7,11 +7,9 @@
 @class NSString, NSUUID;
 
 @protocol HMParsedMediaGroupSettingEventTopic
+- (NSString *);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long accessoryEventTopicSuffixID;
 @property(readonly, nonatomic) NSUUID *homeUUID;
-@property(readonly, copy, nonatomic) NSString *mediaGroupSettingKeyPath;
-@property(readonly, nonatomic) NSUUID *mediaGroupUUID;
 @end
 

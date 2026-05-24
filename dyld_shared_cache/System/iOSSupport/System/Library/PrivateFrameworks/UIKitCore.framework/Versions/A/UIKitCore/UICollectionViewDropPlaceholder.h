@@ -11,8 +11,8 @@
     CDUnknownBlockType _previewParametersProvider;
 }
 
-- (void);
-- (CDUnknownBlockType);
+- (void)%d filenames with handles:(CDUnknownBlockType)arg1 %@ on services:%@ /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)nitor;
 - (id)Ìê;
 - (void)PKi;
 

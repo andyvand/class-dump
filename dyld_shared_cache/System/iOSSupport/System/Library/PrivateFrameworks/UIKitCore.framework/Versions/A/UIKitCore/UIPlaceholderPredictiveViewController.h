@@ -6,8 +6,6 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class NSArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface UIPlaceholderPredictiveViewController : UIViewController
 {
@@ -17,31 +15,20 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)ilsViewDelegate>";
 - (_Bool);
 - (_Bool)× ;
 - (double)±fð1Â0@ù
 × ;
 - (_Bool)Controller"24@"UIViewController"32i40;
-- (_Bool);
-- (_Bool)tySet;
+- (_Bool)_zoomAmount;
+- (_Bool)_UIKeyCommandPrioritySet;
 - (id)iews.
 First responder that was asked to resign (returned %@ from -resignFirstResponder):%@ inside containing view:%@ at index path:%@
 Current first responder:%@ inside containing view:%@ at index path:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *displayedCandidates;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool showsRemoteInputDashViewController; // @synthesize showsRemoteInputDashViewController=_showsRemoteInputDashViewController;
-@property(readonly) Class superclass;
 
 @end
 

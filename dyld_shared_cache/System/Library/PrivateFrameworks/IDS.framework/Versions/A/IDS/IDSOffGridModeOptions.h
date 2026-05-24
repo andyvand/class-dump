@@ -15,7 +15,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)ypesToken;
 - (void);
 - (void)0@ù
 × ;

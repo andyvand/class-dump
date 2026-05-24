@@ -9,7 +9,7 @@
 }
 
 + (_Bool);
-+ (Class);
++ (Class);
 + (Class);
 + (long long),C,S_setContents:,V_contents /* Error: Ran out of types for this method. */;
 - (id);

@@ -13,9 +13,9 @@
 + (Class);
 + (id);
 + (void);
-- (id);
+- (id)ot implement -tagReaderSessionDidBecomeActive:method /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
+- (id)starRatingAndProviderAsAttributedStringForMapItem:textColor:font:showReviewsOrTips:showNumberOfReviews:ratingStyle:theme: /* Error: Ran out of types for this method. */;
 
 @end
 

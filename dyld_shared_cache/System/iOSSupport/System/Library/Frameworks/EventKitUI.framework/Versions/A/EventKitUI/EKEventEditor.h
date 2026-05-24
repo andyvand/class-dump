@@ -6,122 +6,83 @@
 
 #import <EventKitUI/EKCalendarItemEditor.h>
 
-@class EKAutocompleteSearchResult, EKCalendarItemAlarmEditItem, EKCalendarItemCalendarEditItem, EKCalendarItemLocationInlineEditItem, EKCalendarItemTitleInlineEditItem, EKEvent, EKEventAttachmentsEditItem, EKEventAttendeesEditItem, EKEventAutocompleteResultsEditItem, EKEventDateEditItem, EKEventRecurrenceEditItem, EKEventSuggestionGenerator, EKEventURLAndNotesInlineEditItem, EKRemoteUISerializedObject, EKUIAutocompleteTracker, NSString, NSTimer, UIColor;
+@class EKEventDateEditItem, NSString;
 
 @interface EKEventEditor : EKCalendarItemEditor
 {
     EKEventDateEditItem *_dateItem;
-    EKEventAutocompleteResultsEditItem *_autocompleteEditItem;
-    EKCalendarItemTitleInlineEditItem *_titleInlineEditItem;
-    EKCalendarItemLocationInlineEditItem *_locationInlineEditItem;
-    EKCalendarItemCalendarEditItem *_calendarEditItem;
-    EKCalendarItemAlarmEditItem *_alarmEditItem;
-    EKEventURLAndNotesInlineEditItem *_notesEditItem;
-    EKEventAttachmentsEditItem *_attachmentsEditItem;
-    EKEventAttendeesEditItem *_attendeesEditItem;
-    EKEventRecurrenceEditItem *_recurrenceEditItem;
-    _Bool _shouldAutocomplete;
-    NSTimer *_autocompleteTimer;
-    NSString *_autocompleteSearchString;
-    _Bool _autocompleteResultsVisible;
-    EKAutocompleteSearchResult *_selectedAutocompleteResult;
-    unsigned long long _selectedAutocompleteResultIndex;
-    EKAutocompleteSearchResult *_zeroKeywordResult;
-    EKAutocompleteSearchResult *_naturalLanguageResult;
-    _Bool _hasShownZeroKeywordResult;
-    _Bool _hasShownNaturalLanguageResult;
-    EKUIAutocompleteTracker *_autocompleteTracker;
-    EKEventSuggestionGenerator *_suggestionGenerator;
-    _Bool _isTransitioning;
-    unsigned long long _focusOnAppearanceTarget;
-    _Bool _selectOnFocus;
-    EKRemoteUISerializedObject *_precommitSerializedEvent;
-    _Bool _shouldRecordPrecommitEvent;
-    UIColor *_backgroundColor;
-    NSString *_suggestionKey;
 }
 
 + (id);
 + (Class);
+- (void);
+- (void);
+- (void)X%s;
 - (void);
 - (void);
+- (void)X%s;
+- (void);
+- (void)s;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void);
+- (id)s;
 - (id);
 - (_Bool);
 - (void);
+- (void);
 - (void);
 - (void);
+- (id)))s;
+- (void)%s;
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)&s;
+- (void)&s;
 - (id);
 - (id);
+- (void)s;
+- (void);
+- (void);
+- (void)&s;
+- (void);
+- (void);
+- (id)*s;
+- (id)*s;
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)m%s;
 - (void);
 - (void);
-- (id);
+- (id)O*s;
+- (void);
 - (void);
+- (_Bool)s;
+- (_Bool);
+- (void)6*s;
 - (void);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
+- (void)!ٵ{;
+- (id){;
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)ACDAccountNotificationPlugin;
 - (struct CGSize);
 - (id);
-- (void);
+- (void)kSynthParameterWaveform;
 - (void);
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
-- (void)cludedActivityTypes: /* Error: Ran out of types for this method. */;
+- (void)setExcludedActivityTypes: /* Error: Ran out of types for this method. */;
 - (void)8`Äá;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) EKEvent *event;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) EKRemoteUISerializedObject *precommitSerializedEvent;
-@property(nonatomic) _Bool shouldRecordPrecommitEvent;
-@property(retain, nonatomic) NSString *suggestionKey;
-@property(readonly) Class superclass;
+@property(retain, nonatomic) NSString *suggestionKey; // @synthesize suggestionKey=_suggestionKey;
 
 @end
 

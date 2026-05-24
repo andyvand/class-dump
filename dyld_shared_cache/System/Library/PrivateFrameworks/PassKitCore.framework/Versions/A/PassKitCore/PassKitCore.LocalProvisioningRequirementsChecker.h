@@ -7,10 +7,9 @@
 @interface PassKitCore.LocalProvisioningRequirementsChecker
 {
     id webService;
-    id $__lazy_storage_$_coprocessorType;
 }
 
-- (id);
+- (id)4;
 - (void);
 
 @end

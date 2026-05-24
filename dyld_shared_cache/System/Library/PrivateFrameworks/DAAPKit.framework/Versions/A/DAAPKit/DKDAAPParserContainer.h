@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface DKDAAPParserContainer
 {
     unsigned int _code;
-    unsigned int _length;
-    unsigned int _remaining;
 }
 
 - (unsigned int);
@@ -17,12 +15,10 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (void);
 - (unsigned int);
-- (void);
+- (void)est request %u for client %@, dropping on the floor;
 
 // Remaining properties
 @property(nonatomic) unsigned int code; // @synthesize code=_code;
-@property(nonatomic) unsigned int length; // @synthesize length=_length;
-@property(nonatomic) unsigned int remaining; // @synthesize remaining=_remaining;
 
 @end
 

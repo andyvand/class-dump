@@ -4,45 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDSearchEnrichmentRevisionMetadata, NSData, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchEnrichmentRequestMetadata
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_clientRequestId;
-    NSData *_enrichmentRequestBytes;
-    GEOPDSearchEnrichmentRevisionMetadata *_revisionMetadata;
-    NSString *_routingInfoData;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _enrichmentFpdiLatencyInMs;
-    _Bool _isOptInEnabled;
-    _Bool _isWarmingSheetTriggered;
-    struct {
-        unsigned int has_enrichmentFpdiLatencyInMs:1;
-        unsigned int has_isOptInEnabled:1;
-        unsigned int has_isWarmingSheetTriggered:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_clientRequestId:1;
-        unsigned int read_enrichmentRequestBytes:1;
-        unsigned int read_revisionMetadata:1;
-        unsigned int read_routingInfoData:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)d.;
+- (id)xclaveSampleCount: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)"b1"has_functionalRoadClass"b1"has_laneCount"b1"has_lengthCm"b1"has_traversalTimeS"b1"read_unknownFields"b1"read_roadProperties"b1"read_geometrys"b1"read_speedInfo"b1"read_trafficControlDeviceInfo"b1"wrote_anyField"b1};
-- (id)uestData;
+- (id)_placeRequestData;
 - (id)823L3ô45\66D8à8´9¨:|;p<D=Ä=>Ø> /* Error: Ran out of types for this method. */;
 - (void)©×-%H@;
 

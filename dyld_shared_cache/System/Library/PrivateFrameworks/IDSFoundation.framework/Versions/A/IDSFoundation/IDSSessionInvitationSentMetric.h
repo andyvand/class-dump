@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString;
+@class NSString;
 
 @interface IDSSessionInvitationSentMetric
 {
     NSString *_guid;
-    NSNumber *_numberOfRecipients;
 }
 
 - (id);
@@ -20,17 +19,7 @@
 - (void)oupEncryptionKeyManager New EncryptionKey:%@, generation counter:%u /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSDictionary *dictionaryRepresentation;
 @property(readonly, nonatomic) NSString *guid; // @synthesize guid=_guid;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *name;
-@property(readonly, nonatomic) NSNumber *numberOfRecipients; // @synthesize numberOfRecipients=_numberOfRecipients;
-@property(readonly) Class superclass;
 
 @end
 

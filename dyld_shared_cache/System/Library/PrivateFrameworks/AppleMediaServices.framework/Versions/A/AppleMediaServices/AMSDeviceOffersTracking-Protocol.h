@@ -14,8 +14,5 @@
 
 // Remaining properties
 @property(retain) NSArray *cachedRegistrationGroups;
-@property(readonly) NSArray *companionSerialNumbers;
-@property(retain) NSDictionary *deviceOfferEligibility;
-@property(retain) NSArray *deviceOffers;
 @end
 

@@ -9,7 +9,6 @@
 @interface CWANQPVenueNameEntry
 {
     NSString *_languageCode;
-    NSString *_name;
 }
 
 + (_Bool);
@@ -20,13 +19,12 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)ary/Caches/com.apple.xbs/TemporaryDirectory.BsrFNm/Sources/MetalPerformanceShaders/MPSNeuralNetwork/Filters/MPSNNReshape.mm;
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *languageCode; // @synthesize languageCode=_languageCode;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

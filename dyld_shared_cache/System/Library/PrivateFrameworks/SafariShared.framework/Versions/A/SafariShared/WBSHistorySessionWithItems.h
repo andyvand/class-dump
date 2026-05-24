@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)set, not showing UI for LAContext;
 - (void);
 
 // Remaining properties

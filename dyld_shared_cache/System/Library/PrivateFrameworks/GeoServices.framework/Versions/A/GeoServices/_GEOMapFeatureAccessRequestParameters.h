@@ -4,24 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOApplicationAuditToken, GEOTileLoader, GEOTilePool, NSObject;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface _GEOMapFeatureAccessRequestParameters
 {
     _Bool allowNetworkTileLoad;
-    _Bool flipNegativeTravelDirectionRoads;
-    _Bool visitDoubleTravelDirectionRoadsTwice;
-    _Bool allowStaleData;
-    _Bool preferStaleData;
-    _Bool joinAllRoadsByMuid;
-    _Bool cachedTilesCallbackImmediately;
-    _Bool _allowOfflineData;
-    GEOTileLoader *tileLoader;
-    GEOTilePool *cache;
-    NSObject<OS_dispatch_queue> *queue;
-    GEOApplicationAuditToken *auditToken;
 }
 
 - (void)ýÿÿÿ;

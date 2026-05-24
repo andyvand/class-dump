@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIViewController;
+
 @protocol AVPlayerViewControllerDelegate
+
+@optional
+- (void)9i&@9	k;
+- (UIViewController *)B;
+- (void);
+- (void);
+- (void);
 @end
 

@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class OADColor;
-
 __attribute__((visibility("hidden")))
 @interface OADFontReference
 {
     int mIndex;
-    OADColor *mColor;
 }
 
 - (void);

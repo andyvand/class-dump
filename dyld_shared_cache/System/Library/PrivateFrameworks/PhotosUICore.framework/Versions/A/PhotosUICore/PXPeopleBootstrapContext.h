@@ -4,32 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PHAsset, PHFace, PXPeopleNameSelection, PXPeopleSuggestionManager;
-@protocol PXPeopleSuggestionManagerDataSource, PXPerson, PXPersonSuggestion;
-
 @interface PXPeopleBootstrapContext
 {
     _Bool _skipInitialAction;
-    _Bool _wantsNaming;
-    _Bool _wantsMergeCandidateSuggestions;
-    _Bool _wantsPostNaming;
-    _Bool _wantsToBeAddedToPeopleAlbum;
-    _Bool _didCommitPreBootstrapAction;
-    _Bool _wantsContactUnlinkage;
-    id <PXPerson> _sourcePerson;
-    id <PXPerson> _targetPerson;
-    unsigned long long _bootstrapType;
-    PXPeopleNameSelection *_nameSelection;
-    PXPeopleSuggestionManager *_suggestionManager;
-    CDUnknownBlockType _onInitBlock;
-    CDUnknownBlockType _cancelBlock;
-    id <PXPeopleSuggestionManagerDataSource> _prefetchedDataSource;
-    NSString *_callerInfo;
-    id <PXPersonSuggestion> _personSuggestion;
-    PHFace *_face;
-    double _backingScaleFactor;
-    PHAsset *_keyAsset;
-    CDUnknownBlockType _delayedPersonBlock;
 }
 
 + (id);
@@ -54,11 +31,11 @@
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (_Bool);
+- (_Bool);
 - (CDUnknownBlockType);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)\;
 - (void);
 - (void);
 - (void);
@@ -69,7 +46,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (double);
@@ -77,32 +54,11 @@
 - (CDUnknownBlockType);
 - (id);
 - (id);
-- (id);
+- (id)mBackColorForImage;
 - (void)$íþþ}r¶ð¿þþ;
 
 // Remaining properties
-@property(nonatomic) double backingScaleFactor; // @synthesize backingScaleFactor=_backingScaleFactor;
-@property unsigned long long bootstrapType; // @synthesize bootstrapType=_bootstrapType;
-@property(retain, nonatomic) NSString *callerInfo; // @synthesize callerInfo=_callerInfo;
-@property(copy, nonatomic) CDUnknownBlockType cancelBlock; // @synthesize cancelBlock=_cancelBlock;
 @property(copy, nonatomic) CDUnknownBlockType delayedPersonBlock; // @synthesize delayedPersonBlock=_delayedPersonBlock;
-@property(nonatomic) _Bool didCommitPreBootstrapAction; // @synthesize didCommitPreBootstrapAction=_didCommitPreBootstrapAction;
-@property(retain, nonatomic) PHFace *face; // @synthesize face=_face;
-@property(retain, nonatomic) PHAsset *keyAsset; // @synthesize keyAsset=_keyAsset;
-@property(readonly, nonatomic) NSString *localizedName;
-@property(retain) PXPeopleNameSelection *nameSelection; // @synthesize nameSelection=_nameSelection;
-@property(copy, nonatomic) CDUnknownBlockType onInitBlock; // @synthesize onInitBlock=_onInitBlock;
-@property(readonly, nonatomic) id <PXPersonSuggestion> personSuggestion; // @synthesize personSuggestion=_personSuggestion;
-@property(retain, nonatomic) id <PXPeopleSuggestionManagerDataSource> prefetchedDataSource; // @synthesize prefetchedDataSource=_prefetchedDataSource;
-@property(nonatomic) _Bool skipInitialAction; // @synthesize skipInitialAction=_skipInitialAction;
-@property(retain) id <PXPerson> sourcePerson; // @synthesize sourcePerson=_sourcePerson;
-@property(retain) PXPeopleSuggestionManager *suggestionManager; // @synthesize suggestionManager=_suggestionManager;
-@property(retain) id <PXPerson> targetPerson; // @synthesize targetPerson=_targetPerson;
-@property(nonatomic) _Bool wantsContactUnlinkage; // @synthesize wantsContactUnlinkage=_wantsContactUnlinkage;
-@property(nonatomic) _Bool wantsMergeCandidateSuggestions; // @synthesize wantsMergeCandidateSuggestions=_wantsMergeCandidateSuggestions;
-@property(nonatomic) _Bool wantsNaming; // @synthesize wantsNaming=_wantsNaming;
-@property(nonatomic) _Bool wantsPostNaming; // @synthesize wantsPostNaming=_wantsPostNaming;
-@property(nonatomic) _Bool wantsToBeAddedToPeopleAlbum; // @synthesize wantsToBeAddedToPeopleAlbum=_wantsToBeAddedToPeopleAlbum;
 
 @end
 

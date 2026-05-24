@@ -12,9 +12,6 @@ __attribute__((visibility("hidden")))
 @interface AddressBookAutoFillCellView : ColorInvertingTableCellView
 {
     NSString *_prompt;
-    NSString *_contactName;
-    NSTextField *_promptLabel;
-    NSTextField *_contactNameLabel;
 }
 
 + (struct CGSize);
@@ -30,9 +27,6 @@ __attribute__((visibility("hidden")))
 - (void)Ü;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *contactName; // @synthesize contactName=_contactName;
-@property(nonatomic) __weak NSTextField *contactNameLabel; // @synthesize contactNameLabel=_contactNameLabel;
-@property(copy, nonatomic) NSString *prompt; // @synthesize prompt=_prompt;
 @property(nonatomic) __weak NSTextField *promptLabel; // @synthesize promptLabel=_promptLabel;
 
 @end

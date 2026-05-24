@@ -6,32 +6,30 @@
 
 #import <UIKitCore/_UIRootWindow.h>
 
-@class FBSDisplayConfiguration, NSString, UIMutableTransformer, UIView;
+@class FBSDisplayConfiguration, UIView;
 
 @interface UIRootSceneWindow : _UIRootWindow
 {
     FBSDisplayConfiguration *_displayConfiguration;
-    UIView *_sceneContainerView;
-    UIMutableTransformer *_sceneTransformer;
 }
 
 + (_Bool);
 + (_Bool);
-- (void);
+- (void)updateLastAddressedHandle:(id)arg1 forceUpdateHandle:lastAddressedSIMID: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)SRecents.zip;
 - (id);
-- (id);
-- (void);
+- (id)P;
+- (void)buildWithIdentifier:withRatingRegion:withRatingApps:withRatingMovies:withRatingTVShows:withAllowExplicitContent:withAllowShowingUndownloadedTV:withAllowShowingUndownloadedMovies: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)0@ù
 × ;
 - (_Bool);
-- (id)nputModes:(id)arg1;
+- (id)setDefaultNormalizedInputModes:(id)arg1;
 - (id)ent;
 - (void)7;
 - (id)Ô!;
-- (_Bool)laneSwitchActiveGradientEnd;
+- (_Bool)UIKBColorKeyPhoneKeyplaneSwitchActiveGradientEnd;
 - (void)handle estimated items so this method does nothing. Are you calling this in error?;
 - (_Bool)B961B57EBA158E8356A5AC0B1FLLC8DelegateP;
 - (void)ä«!ÿ;
@@ -39,15 +37,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *_sceneContainerView; // @synthesize _sceneContainerView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) FBSDisplayConfiguration *displayConfiguration; // @synthesize displayConfiguration=_displayConfiguration;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIMutableTransformer *sceneTransformer; // @synthesize sceneTransformer=_sceneTransformer;
-@property(readonly) Class superclass;
 
 @end
 

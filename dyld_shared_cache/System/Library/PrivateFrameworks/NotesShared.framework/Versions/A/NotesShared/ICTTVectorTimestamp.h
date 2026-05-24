@@ -24,11 +24,11 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id).;
 - (void),;
 
 @end

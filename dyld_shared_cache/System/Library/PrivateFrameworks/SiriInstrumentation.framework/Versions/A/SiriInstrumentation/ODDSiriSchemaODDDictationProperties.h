@@ -6,21 +6,13 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
-
 @interface ODDSiriSchemaODDDictationProperties : SISchemaInstrumentationMessage
 {
     _Bool _isDictationEnabled;
-    NSArray *_enabledDictationLocales;
-    _Bool _isAutoPunctuationEnabled;
-    struct {
-        unsigned int isDictationEnabled:1;
-        unsigned int isAutoPunctuationEnabled:1;
-    } _has;
 }
 
 - (void);
-- (void);
+- (void)ntZ;
 - (void);
 - (void);
 - (_Bool);
@@ -32,16 +24,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)7hu;
 - (id);
 - (id);
-- (id);
+- (id)MNNavigationStateTypeRoutePreview;
 - (_Bool);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)RecordLocalCacheDecoder;
 - (id);
 - (id)!PAùqÞ1Â0@ù
 × ;
@@ -50,12 +42,7 @@
 - (void)siriEventTypeUnion.flowClientEvent.flowEntityContextTier1;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *enabledDictationLocales; // @synthesize enabledDictationLocales=_enabledDictationLocales;
-@property(nonatomic) _Bool hasIsAutoPunctuationEnabled;
-@property(nonatomic) _Bool hasIsDictationEnabled;
-@property(nonatomic) _Bool isAutoPunctuationEnabled; // @synthesize isAutoPunctuationEnabled=_isAutoPunctuationEnabled;
 @property(nonatomic) _Bool isDictationEnabled; // @synthesize isDictationEnabled=_isDictationEnabled;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

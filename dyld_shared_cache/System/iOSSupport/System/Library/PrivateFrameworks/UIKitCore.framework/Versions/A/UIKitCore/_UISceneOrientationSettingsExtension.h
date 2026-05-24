@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (void);
++ (void)";
 + (id)÷2Ø¹n;
 
 @end

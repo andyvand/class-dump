@@ -11,7 +11,6 @@
 - (_Bool)ctorManager - primary resident changed;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isCurrentDevicePrimaryResident;
 @property(readonly, nonatomic) _Bool isCurrentDeviceResident;
 @end
 

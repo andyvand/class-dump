@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHSExtensionIdentity, NSString;
+@class CHSExtensionIdentity;
 
 @interface WidgetKit.WidgetIdentifiable
 {
     CHSExtensionIdentity *extensionIdentity;
-    void kind;
 }
 
 - (id);
@@ -20,9 +19,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *description;
 @property(nonatomic, readonly) CHSExtensionIdentity *extensionIdentity; // @synthesize extensionIdentity;
-@property(nonatomic, readonly) NSString *kind;
 
 @end
 

@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (const struct PBTextFormatProgTagInfo *);
++ (const struct PBTextFormatProgTagInfo *)A;
 + (void);
 + (void);
 + (void);
@@ -20,7 +20,7 @@ __attribute__((visibility("hidden")))
 + (void);
 + (void);
 + (id);
-+ (id);
++ (id)sB;
 + (id);
 + (id);
 + (id);

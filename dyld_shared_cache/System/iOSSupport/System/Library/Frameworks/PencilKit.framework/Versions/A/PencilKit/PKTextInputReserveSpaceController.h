@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTimer, PKTextInputElementContent, PKTextInputFeedbackController, PKTextInputTextPlaceholder;
-@protocol PKTextInputReserveSpaceControllerDelegate;
+@class PKTextInputFeedbackController;
 
 @interface PKTextInputReserveSpaceController
 {
     _Bool __wasAskedToReserveSpace;
-    _Bool __canvasControllerIsDrawing;
-    id <PKTextInputReserveSpaceControllerDelegate> _delegate;
-    PKTextInputFeedbackController *_feedbackController;
-    long long __reserveSpaceState;
-    PKTextInputElementContent *__targetElementContent;
-    long long __insertionCharacterLocation;
-    PKTextInputTextPlaceholder *__textPlaceholder;
-    NSTimer *__dismissTimer;
-    struct CGPoint __targetPointInElement;
 }
 
 - (_Bool);
@@ -64,25 +54,7 @@
 - (void)&,N,V__textInputQuery;
 
 // Remaining properties
-@property(nonatomic) _Bool _canvasControllerIsDrawing; // @synthesize _canvasControllerIsDrawing=__canvasControllerIsDrawing;
-@property(retain, nonatomic) NSTimer *_dismissTimer; // @synthesize _dismissTimer=__dismissTimer;
-@property(nonatomic) long long _insertionCharacterLocation; // @synthesize _insertionCharacterLocation=__insertionCharacterLocation;
-@property(nonatomic, setter=_setReserveSpaceState:) long long _reserveSpaceState; // @synthesize _reserveSpaceState=__reserveSpaceState;
-@property(retain, nonatomic, setter=_setTargetElementContent:) PKTextInputElementContent *_targetElementContent; // @synthesize _targetElementContent=__targetElementContent;
-@property(nonatomic) struct CGPoint _targetPointInElement; // @synthesize _targetPointInElement=__targetPointInElement;
-@property(retain, nonatomic) PKTextInputTextPlaceholder *_textPlaceholder; // @synthesize _textPlaceholder=__textPlaceholder;
-@property(nonatomic) _Bool _wasAskedToReserveSpace; // @synthesize _wasAskedToReserveSpace=__wasAskedToReserveSpace;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PKTextInputReserveSpaceControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) PKTextInputFeedbackController *feedbackController; // @synthesize feedbackController=_feedbackController;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isReserveSpaceActive;
-@property(readonly, nonatomic) _Bool isReserveSpacePlaceholderVisible;
-@property(readonly) Class superclass;
 
 @end
 

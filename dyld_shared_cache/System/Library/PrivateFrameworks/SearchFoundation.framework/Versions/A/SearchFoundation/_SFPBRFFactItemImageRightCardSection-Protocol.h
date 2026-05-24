@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _SFPBRFTextProperty, _SFPBRFVisualProperty;
+@class NSData, _SFPBRFTextProperty;
 
 @protocol _SFPBRFFactItemImageRightCardSection
+- (_SFPBRFTextProperty *)NSObject<PDFPageLayerGeometryInterface>";
+- (NSData *)e;
+- (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBRFTextProperty *number;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_1;
-@property(retain, nonatomic) _SFPBRFVisualProperty *thumbnail;
 @end
 

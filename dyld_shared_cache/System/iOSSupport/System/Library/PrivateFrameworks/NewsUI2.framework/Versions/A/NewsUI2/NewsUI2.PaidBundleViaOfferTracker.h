@@ -7,7 +7,6 @@
 @interface NewsUI2.PaidBundleViaOfferTracker
 {
     id tracker;
-    id reporter;
 }
 
 @end

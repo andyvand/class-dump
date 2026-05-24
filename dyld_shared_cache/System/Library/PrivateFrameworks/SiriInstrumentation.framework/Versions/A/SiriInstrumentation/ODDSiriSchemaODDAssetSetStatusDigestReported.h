@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, ODDSiriSchemaODDFixedDimensions;
+@class ODDSiriSchemaODDFixedDimensions;
 
 @interface ODDSiriSchemaODDAssetSetStatusDigestReported : SISchemaInstrumentationMessage
 {
     ODDSiriSchemaODDFixedDimensions *_fixedDimensions;
-    NSArray *_digests;
-    _Bool _hasFixedDimensions;
 }
 
 - (void);
@@ -28,22 +26,19 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ary/Frameworks/IOKit.framework/Versions/A/IOKit;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)`;
 - (_Bool);
 - (id);
 - (id);
-- (id)Context;
+- (id)contextualEntityRetrievalContext;
 - (id)imilarityScoreComparisons;
 - (id)_identityContext;
-- (void)NTRYCODE_YE;
+- (void)ISOCOUNTRYCODE_YE;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *digests; // @synthesize digests=_digests;
 @property(retain, nonatomic) ODDSiriSchemaODDFixedDimensions *fixedDimensions; // @synthesize fixedDimensions=_fixedDimensions;
-@property(nonatomic) _Bool hasFixedDimensions; // @synthesize hasFixedDimensions=_hasFixedDimensions;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

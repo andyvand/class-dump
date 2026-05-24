@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, NSMutableArray, NSString, _UIBannerContent, _UIBannerManager, _UIBannerView;
+@class _UIBannerView;
 
 __attribute__((visibility("hidden")))
 @interface _UIBanner
 {
     _UIBannerView *_view;
-    _UIBannerContent *_content;
-    _UIBannerManager *_manager;
-    NSLayoutConstraint *_visibleConstraint;
-    NSLayoutConstraint *_hiddenConstraint;
-    long long _state;
-    NSMutableArray *_dismissalAnimations;
-    NSMutableArray *_dismissalCompletionHandlers;
-    NSMutableArray *_tapHandlers;
 }
 
 - (id);
+- (id)g"24@"NSString"32@"NSString"40C48@"NSString"52;
+- (void)shouldReportToAnalytics;
+- (void)sMessagesAfter:(id)arg1;
+- (void)initWithHandleIDs:(id)arg1 requestID:serviceName:accountID:context: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (id)tt6;
 - (void);
 - (void);
 - (void);
@@ -40,31 +32,16 @@ __attribute__((visibility("hidden")))
 - (id)	°!tFùeÐ1Â0@ù
 × ;
 - (long long)stomTextRenderingDisplayLink>"16@0:8 /* Error: Ran out of types for this method. */;
-- (void)istoryOffset: /* Error: Ran out of types for this method. */;
+- (void)adjustHistoryOffset: /* Error: Ran out of types for this method. */;
 - (id)te:,V_sessionTextViewDelegate /* Error: Ran out of types for this method. */;
 - (void)þÿ¾îÿxíÿ;
 - (void)Please use PushKit for VoIP applications instead of calling this method;
-- (id)erial;
+- (id)Material;
 - (void)4çþ¹Õ¼¨^;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) _UIBannerContent *content; // @synthesize content=_content;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableArray *dismissalAnimations; // @synthesize dismissalAnimations=_dismissalAnimations;
-@property(retain, nonatomic) NSMutableArray *dismissalCompletionHandlers; // @synthesize dismissalCompletionHandlers=_dismissalCompletionHandlers;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSLayoutConstraint *hiddenConstraint; // @synthesize hiddenConstraint=_hiddenConstraint;
-@property(nonatomic) __weak _UIBannerManager *manager; // @synthesize manager=_manager;
-@property(nonatomic) long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSMutableArray *tapHandlers; // @synthesize tapHandlers=_tapHandlers;
 @property(retain, nonatomic) _UIBannerView *view; // @synthesize view=_view;
-@property(retain, nonatomic) NSLayoutConstraint *visibleConstraint; // @synthesize visibleConstraint=_visibleConstraint;
 
 @end
 

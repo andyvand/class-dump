@@ -11,22 +11,16 @@
 @interface AVCaptureSystemStyleSlider : AVCaptureControl
 {
     AVWeakReference *_sessionReference;
-    CDUnknownBlockType _action;
-    long long _parameter;
-    struct os_unfair_lock_s _actionLock;
-    _Bool _observing;
-    _Bool _changeSmartStyleInProcess;
-    _Bool _smartStyleHasChanged;
 }
 
 + (void)tuotpdivµï?·ä«@µï?·ä«q@çß×@;
-- (void);
-- (void);
+- (void)t;
+- (void)e;
+- (id)R,N,V_stringClosingTagData;
+- (id)singTagData;
+- (void)ateFrameworks/MediaFoundation.framework/MediaFoundation;
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)rror">32;
 - (void);
 
 @end

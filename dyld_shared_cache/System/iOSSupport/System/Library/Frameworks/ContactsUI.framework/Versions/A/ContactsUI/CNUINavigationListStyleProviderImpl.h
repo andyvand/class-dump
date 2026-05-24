@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor, UIFont;
+@class UIColor;
 
 __attribute__((visibility("hidden")))
 @interface CNUINavigationListStyleProviderImpl
@@ -16,60 +16,29 @@ __attribute__((visibility("hidden")))
 - (id);
 - (double);
 - (id);
+- (id);
 - (id);
-- (id);
-- (double);
-- (id);
-- (double);
-- (double);
-- (id);
-- (id);
-- (double);
-- (id);
+- (double)4v;
 - (id);
 - (double);
 - (double);
+- (id);
+- (id);
+- (double);
 - (id);
 - (id);
+- (double);
+- (double)a;
 - (id);
 - (id);
+- (id);
+- (id);
+- (id)kI#;
 - (id);
-- (id);
-- (id)rGroup;
+- (id)CNCardContactContainerGroup;
 
 // Remaining properties
-@property(readonly, nonatomic) UIColor *actionIconFillColor;
-@property(readonly, nonatomic) UIColor *actionIconFillHighlightedColor;
 @property(readonly, nonatomic) UIColor *cellBackgroundColor;
-@property(readonly, nonatomic) UIColor *cellBackgroundExpandedColor;
-@property(readonly, nonatomic) UIColor *cellBackgroundHighlightedColor;
-@property(readonly, nonatomic) double cellContentViewBottomAnchorConstraintConstant;
-@property(readonly, nonatomic) UIFont *cellSubtitleFont;
-@property(readonly, nonatomic) double cellSubtitleLabelFirstBaselineAnchorConstraintConstant;
-@property(readonly, nonatomic) UIColor *cellSubtitleTextColor;
-@property(readonly, nonatomic) UIColor *cellSubtitleTextHighlightedColor;
-@property(readonly, nonatomic) UIFont *cellTitleFont;
-@property(readonly, nonatomic) double cellTitleLabelFirstBaselineAnchorConstraintConstant;
-@property(readonly, nonatomic) UIColor *cellTitleTextColor;
-@property(readonly, nonatomic) UIColor *cellTitleTextHighlightedColor;
-@property(readonly, nonatomic) double cellUserActionLeftMargin;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double detailCellContentViewBottomAnchorConstraintConstant;
-@property(readonly, nonatomic) UIFont *detailCellSubtitleFont;
-@property(readonly, nonatomic) double detailCellSubtitleLabelFirstBaselineAnchorConstraintConstant;
-@property(readonly, nonatomic) UIColor *detailCellSubtitleTextColor;
-@property(readonly, nonatomic) UIColor *detailCellSubtitleTextHighlightedColor;
-@property(readonly, nonatomic) UIFont *detailCellTitleFont;
-@property(readonly, nonatomic) double detailCellTitleLabelFirstBaselineAnchorConstraintConstant;
-@property(readonly, nonatomic) UIColor *detailCellTitleTextColor;
-@property(readonly, nonatomic) UIColor *detailCellTitleTextHighlightedColor;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool showCellSeparator;
-@property(readonly) Class superclass;
 
 @end
 

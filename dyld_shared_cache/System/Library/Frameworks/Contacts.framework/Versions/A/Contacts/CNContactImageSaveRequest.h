@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactPosterDataChangeRequest, NSArray, NSString;
+@class CNContactPosterDataChangeRequest, NSArray;
 
 @interface CNContactImageSaveRequest
 {
     NSArray *_contactIdentifiers;
-    NSArray *_images;
-    long long _operationType;
-    NSString *_attributeName;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 - (id);
 - (id);
 - (id);
@@ -29,10 +26,6 @@
 - (void)edConfiguration";
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *attributeName; // @synthesize attributeName=_attributeName;
-@property(retain, nonatomic) NSArray *contactIdentifiers; // @synthesize contactIdentifiers=_contactIdentifiers;
-@property(readonly, nonatomic) NSArray *images; // @synthesize images=_images;
-@property(readonly, nonatomic) long long operationType; // @synthesize operationType=_operationType;
 @property(readonly, nonatomic) CNContactPosterDataChangeRequest *posterDataChangeRequest;
 
 @end

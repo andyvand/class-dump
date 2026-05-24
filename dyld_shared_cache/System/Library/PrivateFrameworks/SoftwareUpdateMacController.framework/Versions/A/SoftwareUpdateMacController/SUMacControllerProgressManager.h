@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTimer, SUCoreConnectClientProxy, SUCoreProgress, SUMacControllerDescriptor;
+@class NSString;
 
 @interface SUMacControllerProgressManager
 {
     _Bool _performingBridgeOSUpdate;
-    _Bool _performingSFRUpdate;
-    _Bool _performingRecoveryOSUpdate;
-    float _lastReportedProgress;
-    NSString *_command;
-    NSString *_clientID;
-    SUMacControllerDescriptor *_descriptor;
-    double _lastReportedTimeRemaining;
-    NSString *_lastReportedPhase;
-    SUCoreProgress *_lastReportedProgressObject;
-    NSTimer *_continuousProgressTimer;
-    SUCoreConnectClientProxy *_continuousProgressProxy;
 }
 
 - (id);
@@ -34,25 +23,25 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (double);
 - (id);
-- (id);
+- (id);
 - (float);
 - (id);
 - (id);
@@ -64,7 +53,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -85,23 +74,12 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)emojiCellBounds;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *clientID; // @synthesize clientID=_clientID;
 @property(retain, nonatomic) NSString *command; // @synthesize command=_command;
-@property(nonatomic) __weak SUCoreConnectClientProxy *continuousProgressProxy; // @synthesize continuousProgressProxy=_continuousProgressProxy;
-@property(retain, nonatomic) NSTimer *continuousProgressTimer; // @synthesize continuousProgressTimer=_continuousProgressTimer;
-@property(retain, nonatomic) SUMacControllerDescriptor *descriptor; // @synthesize descriptor=_descriptor;
-@property(retain, nonatomic) NSString *lastReportedPhase; // @synthesize lastReportedPhase=_lastReportedPhase;
-@property(nonatomic) float lastReportedProgress; // @synthesize lastReportedProgress=_lastReportedProgress;
-@property(retain, nonatomic) SUCoreProgress *lastReportedProgressObject; // @synthesize lastReportedProgressObject=_lastReportedProgressObject;
-@property(nonatomic) double lastReportedTimeRemaining; // @synthesize lastReportedTimeRemaining=_lastReportedTimeRemaining;
-@property(nonatomic) _Bool performingBridgeOSUpdate; // @synthesize performingBridgeOSUpdate=_performingBridgeOSUpdate;
-@property(nonatomic) _Bool performingRecoveryOSUpdate; // @synthesize performingRecoveryOSUpdate=_performingRecoveryOSUpdate;
-@property(nonatomic) _Bool performingSFRUpdate; // @synthesize performingSFRUpdate=_performingSFRUpdate;
 
 @end
 

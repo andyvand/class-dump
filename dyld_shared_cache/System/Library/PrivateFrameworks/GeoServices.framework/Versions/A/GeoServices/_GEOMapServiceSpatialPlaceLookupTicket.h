@@ -6,7 +6,7 @@
 
 #import <GeoServices/_GEOPlaceRequestTicket.h>
 
-@class GEOMapServiceTraits, NSArray, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface _GEOMapServiceSpatialPlaceLookupTicket : _GEOPlaceRequestTicket
@@ -22,22 +22,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id)yCodes2;
-- (void)OMPONENT_TYPE_TRANSIT_NEARBY_SCHEDULE;
+- (void)ay"40@0:(CDUnknownBlockType)arg1 8@"NSTableView"16q24q32;
+- (void) ` L`(h!@e;
+- (id)interestedPartyIso3166CountryCodes2;
+- (void)COMPONENT_TYPE_TRANSIT_NEARBY_SCHEDULE;
 - (void)ýÿÿÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSArray *parameters; // @synthesize parameters=_parameters;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) GEOMapServiceTraits *traits;
 
 @end
 

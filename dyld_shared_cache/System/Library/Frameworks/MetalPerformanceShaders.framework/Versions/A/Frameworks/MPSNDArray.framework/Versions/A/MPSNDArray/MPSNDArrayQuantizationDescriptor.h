@@ -7,20 +7,19 @@
 @interface MPSNDArrayQuantizationDescriptor
 {
     unsigned int _quantizationDataType;
-    unsigned long long _quantizationScheme;
 }
 
 - (void);
 - (unsigned long long);
-- (unsigned int);
-- (id);
+- (unsigned int);
+- (id)
+;
 - (long long);
 - (id);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int quantizationDataType; // @synthesize quantizationDataType=_quantizationDataType;
-@property(readonly, nonatomic) unsigned long long quantizationScheme; // @synthesize quantizationScheme=_quantizationScheme;
 
 @end
 

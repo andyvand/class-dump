@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSNumber, NSString, RFTextProperty, RFVisualProperty, SFCommandReference;
+@class NSString, RFTextProperty, SFCommandReference;
 
 @protocol RFAttribution
+- (void)(;
+- (SFCommandReference *)%;
+- (NSString *);
+- (void)%{public}@;
+- (void)SPersistentContainer",&,V_persistentContainer;
+- (void)bottomUpMute;
 - (void)D¸È¸LººÈ¼p½;
 
 // Remaining properties
-@property(retain, nonatomic) SFCommandReference *commandReference;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(retain, nonatomic) RFVisualProperty *image;
-@property(copy, nonatomic) NSNumber *index;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *locale;
-@property(copy, nonatomic) NSString *localized_index;
-@property(copy, nonatomic) NSString *localized_separator;
-@property(retain, nonatomic) RFTextProperty *secondary_title;
-@property(retain, nonatomic) RFTextProperty *subtitle;
 @property(retain, nonatomic) RFTextProperty *title;
 @end
 

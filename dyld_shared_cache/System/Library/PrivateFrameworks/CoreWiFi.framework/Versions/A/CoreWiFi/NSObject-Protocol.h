@@ -7,15 +7,17 @@
 @class NSString;
 
 @protocol NSObject
+- (Class)^@9*;
+- (unsigned long long)setReportFrequencyRandomValue: /* Error: Ran out of types for this method. */;
+- (_Bool)con found to include in the sign-in prompt!;
+- (id)isComplete;
+- (id)I;
 - (struct _NSZone *)ble.load;
 
-// Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
+@optional
+- (NSString *)#;
 
-@property(readonly, copy) NSString *description;
+// Remaining properties
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

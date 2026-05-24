@@ -4,31 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FI_TPreviewOptionsDynamicGroupSettings, NSArray, NSSet, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface FI_TPreviewOptions
 {
     NSString *_baseUTI;
-    NSArray *_groupDefinitions;
-    NSArray *_settingsGroups;
-    FI_TPreviewOptionsDynamicGroupSettings *_dynamicGroupSettings;
-    _Bool _showQuickActions;
-    _Bool _quickActionsSupported;
-    function_fee4c5f6 _saveOptionsCallback;
-    _Bool _suppressSaving;
-    _Bool _editing;
-    NSSet *_userSelectedKeys;
-    NSArray *_spotlightQueryAttributes;
-    NSArray *_allSpotlightQueryAttributes;
-    NSArray *_orderedDisplayAttributes;
-    NSArray *_allOrderedDisplayAttributes;
 }
 
 + (id);
 + (id);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -40,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
@@ -50,34 +37,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)>;
+- (void)h;
+- (id)"NSDictionary",C,V_serverID;
 - (id);
-- (id);
-- (void);
+- (void)!;
 - (_Bool);
 - (void)ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allKeysAreSelected;
-@property(readonly, nonatomic) NSArray *allOrderedDisplayAttributes; // @synthesize allOrderedDisplayAttributes=_allOrderedDisplayAttributes;
-@property(readonly, nonatomic) NSArray *allSpotlightQueryAttributes; // @synthesize allSpotlightQueryAttributes=_allSpotlightQueryAttributes;
 @property(readonly, nonatomic) NSString *baseUTI; // @synthesize baseUTI=_baseUTI;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEditing) _Bool editing; // @synthesize editing=_editing;
-@property(readonly, nonatomic) NSArray *groupedSettings;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *orderedDisplayAttributes; // @synthesize orderedDisplayAttributes=_orderedDisplayAttributes;
-@property(readonly, nonatomic) _Bool quickActionsSupported; // @synthesize quickActionsSupported=_quickActionsSupported;
-@property(nonatomic) _Bool showQuickActions; // @synthesize showQuickActions=_showQuickActions;
-@property(readonly, nonatomic) NSArray *spotlightQueryAttributes; // @synthesize spotlightQueryAttributes=_spotlightQueryAttributes;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool suppressSaving; // @synthesize suppressSaving=_suppressSaving;
-@property(readonly, nonatomic) NSSet *userSelectedKeys; // @synthesize userSelectedKeys=_userSelectedKeys;
 
 @end
 

@@ -7,15 +7,6 @@
 @interface AWDSafariCKBookmarksMigrationStartedEvent
 {
     long long _localState;
-    long long _remoteState;
-    unsigned long long _timestamp;
-    int _migratorType;
-    struct {
-        unsigned int localState:1;
-        unsigned int remoteState:1;
-        unsigned int timestamp:1;
-        unsigned int migratorType:1;
-    } _has;
 }
 
 - (void);
@@ -29,32 +20,25 @@
 - (_Bool);
 - (_Bool);
 - (int);
-- (void);
-- (_Bool);
-- (long long);
+- (void)@9?;
+- (_Bool);
+- (long long);
 - (id);
 - (void);
 - (void);
+- (unsigned long long)*;
 - (unsigned long long);
-- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)T;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasLocalState;
-@property(nonatomic) _Bool hasMigratorType;
-@property(nonatomic) _Bool hasRemoteState;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) long long localState; // @synthesize localState=_localState;
-@property(nonatomic) int migratorType; // @synthesize migratorType=_migratorType;
-@property(nonatomic) long long remoteState; // @synthesize remoteState=_remoteState;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

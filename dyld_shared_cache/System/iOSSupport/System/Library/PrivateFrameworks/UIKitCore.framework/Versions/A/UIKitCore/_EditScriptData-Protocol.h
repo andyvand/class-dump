@@ -5,8 +5,12 @@
 //
 
 @class NSString;
+@protocol _EditScriptData;
 
 @protocol _EditScriptData
++ (id <_EditScriptData>);
++ (id <_EditScriptData>)ad.;
+- (long long)VP shader string;
 - (NSString *)1Â0@ù
 × ;
 - (NSString *)N,G_itemSeparatorHandler,S_setItemSeparatorHandler:,V_itemSeparatorHandler /* Error: Ran out of types for this method. */;

@@ -11,7 +11,7 @@
     PKSelectionTileProperties *_properties;
 }
 
-- (id);
+- (id)xs-;
 - (id);
 - (void)traint",&,N,V_toolPickerContainerViewWidthConstraint;
 

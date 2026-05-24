@@ -7,9 +7,9 @@
 @interface UnknownClass (CKImageUtils)
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)for device password mode…;
 - (id);
-- (id);
+- (id)ontrollerCache_UIKit] %@ containment skipped because sourceNavigationController and destination were equal %s;
 - (id);
 - (id)¸²;
 @end

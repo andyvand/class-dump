@@ -4,40 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIAttachmentBehavior, UICollisionBehavior, UIDynamicAnimator, UIDynamicItemBehavior, UIView, _UIDynamicItemObservingBehavior, _UIPlatterMenuPanningTransformer, _UIPlatterMenuSnapBehavior, _UIStatesFeedbackGenerator;
-@protocol UIDynamicItem, _UIPlatterMenuDynamicsControllerDelegate;
+@protocol _UIPlatterMenuDynamicsControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface _UIPlatterMenuDynamicsController
 {
     _Bool _leadingSwipeActionViewSelected;
-    _Bool _trailingSwipeActionViewSelected;
-    _Bool _isCurrentlyUnderDirectManipulation;
-    id <_UIPlatterMenuDynamicsControllerDelegate> _delegate;
-    UIView *_containerView;
-    UIView *_platterView;
-    UIView *_menuView;
-    id <UIDynamicItem> _platterItem;
-    _UIPlatterMenuPanningTransformer *_panningLockTransformer;
-    long long _state;
-    double _leadingSwipeEdgeMultiplier;
-    double _trailingSwipeEdgeMultiplier;
-    UIDynamicAnimator *_animator;
-    UIDynamicItemBehavior *_menuItemBehavior;
-    UIDynamicItemBehavior *_platterItemBehavior;
-    UIAttachmentBehavior *_platterMenuSlidingAttachmentBehavior;
-    UIAttachmentBehavior *_platterMenuAttachmentBehavior;
-    UIAttachmentBehavior *_gestureAttachmentBehavior;
-    _UIPlatterMenuSnapBehavior *_platterSnapBehavior;
-    _UIPlatterMenuSnapBehavior *_menuPresentedSnapBehavior;
-    _UIPlatterMenuSnapBehavior *_menuDismissedSnapBehavior;
-    UIDynamicItemBehavior *_noRotationBehavior;
-    UIAttachmentBehavior *_menuVerticalLockAttachment;
-    UICollisionBehavior *_platterMenuCollisionBounds;
-    _UIDynamicItemObservingBehavior *_observingBehavior;
-    long long _didPresentCount;
-    _UIStatesFeedbackGenerator *_swipeFeedbackGenerator;
-    struct CGPoint _initialTouchPoint;
 }
 
 - (double);
@@ -45,16 +17,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)brary/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation;
+- (void)work/Versions/A/IOAccelerator;
+- (void)/Library/PrivateFrameworks/IOAccelerator.framework/Versions/A/IOAccelerator;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)__kIMPersonStatusChangedNotification;
+- (void)IMAVControlVolumeSlider;
+- (void)PixelFormat;
 - (void);
 - (void);
 - (void);
@@ -94,35 +66,35 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (struct CGPoint);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (struct CGVector);
-- (struct CGPoint);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)S;
+- (_Bool)syndicationStatus;
+- (id)shouldForceServerStatusRefresh;
+- (void)removeItem:(struct CGPoint)arg1 fromChat: /* Error: Ran out of types for this method. */;
+- (void)quiredCapabilities:(struct CGPoint)arg1 skipServiceForSending: /* Error: Ran out of types for this method. */;
+- (void)reindexAllItemsForBundleID:(struct CGPoint)arg1 protectionClass:acknowledgementHandler: /* Error: Ran out of types for this method. */;
+- (struct CGVector)metadataWithType:bundleIdentifier:contentURL:contentTitle:contentType:messageGUID: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)initWithAccountID:service:guid:groupID:chatIdentifier:participants:roomName:displayName:lastAddressedLocalHandle:lastAddressedSIMID:properties:state:style:isFiltered:hasHadSuccessfulQuery:engramID:serverChangeToken:cloudKitSyncState:originalGroupID:lastReadMessageTimeStamp:lastMessageTimeStampOnLoad:cloudKitRecordID:isBlackholed:autoDonationBehavior:autoDonationBehaviorLastModificationDate:isRecovered:isDeletingIncomingMessages:domainIdentifiers: /* Error: Ran out of types for this method. */;
+- (void)generatePreview:(id)arg1 previewURL:(id)arg2 senderContext:(long long)arg3 constraints:balloonBundleID:transferGUID:completionBlock:blockUntilReply: /* Error: Ran out of types for this method. */;
+- (void)compressedProtobufDataForUpdateT3:(id)arg1;
+- (void)_serverDeniesPeriodicSyncAnalytics;
+- (long long)_hasReceivedReadReceiptRecently;
 - (void);
 - (_Bool);
+- (void)for metadata dictionary %s;
+- (void)nil;
+- (void)ve its ID, ignoring and moving on.;
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (long long);
-- (struct CGPoint);
+- (void)ount:%@ result:%@ /* Error: Ran out of types for this method. */;
+- (void)reading low res wallpaperTag %@;
+- (void)ng nickNameDecryptionKey %@;
+- (void)eable callback dictionary:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)uld be;
+- (void)hareURL %@ for message %@ is already done;
+- (void):(id)arg1 %@;
+- (void)ed to fetch asset for, recordID %@, error %@;
+- (_Bool)racking guid %@;
+- (long long)e:%@, notice:%@ /* Error: Ran out of types for this method. */;
+- (struct CGPoint)PipelineComponent> Found no source message GUID for fallback hash with length %llu, rejecting replicated message;
 - (void);
 - (void);
 - (id);
@@ -136,52 +108,16 @@ __attribute__((visibility("hidden")))
 × ;
 - (long long)
 × ;
-- (void)InputView:(id)arg1;
+- (void)setIsCustomInputView:(id)arg1;
 - (id)estedEventType8~;
-- (void)ider;
-- (void)ngKeys;
+- (void)_IntelligenceLightSourceFillProvider;
+- (void)CodingKeys;
 - (struct CGVector)[;
 - (id)$§\;
 - (id)¯`;
 
 // Remaining properties
-@property(retain, nonatomic) UIDynamicAnimator *animator; // @synthesize animator=_animator;
-@property(nonatomic) __weak UIView *containerView; // @synthesize containerView=_containerView;
-@property(readonly, nonatomic) struct CGVector currentTranslation;
-@property(readonly, nonatomic) struct CGVector currentVelocity;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <_UIPlatterMenuDynamicsControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long didPresentCount; // @synthesize didPresentCount=_didPresentCount;
-@property(retain, nonatomic) UIAttachmentBehavior *gestureAttachmentBehavior; // @synthesize gestureAttachmentBehavior=_gestureAttachmentBehavior;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct CGPoint initialTouchPoint; // @synthesize initialTouchPoint=_initialTouchPoint;
-@property(nonatomic) _Bool isCurrentlyUnderDirectManipulation; // @synthesize isCurrentlyUnderDirectManipulation=_isCurrentlyUnderDirectManipulation;
-@property(nonatomic) _Bool leadingSwipeActionViewSelected; // @synthesize leadingSwipeActionViewSelected=_leadingSwipeActionViewSelected;
-@property(nonatomic) double leadingSwipeEdgeMultiplier; // @synthesize leadingSwipeEdgeMultiplier=_leadingSwipeEdgeMultiplier;
-@property(retain, nonatomic) _UIPlatterMenuSnapBehavior *menuDismissedSnapBehavior; // @synthesize menuDismissedSnapBehavior=_menuDismissedSnapBehavior;
-@property(retain, nonatomic) UIDynamicItemBehavior *menuItemBehavior; // @synthesize menuItemBehavior=_menuItemBehavior;
-@property(retain, nonatomic) _UIPlatterMenuSnapBehavior *menuPresentedSnapBehavior; // @synthesize menuPresentedSnapBehavior=_menuPresentedSnapBehavior;
-@property(retain, nonatomic) UIAttachmentBehavior *menuVerticalLockAttachment; // @synthesize menuVerticalLockAttachment=_menuVerticalLockAttachment;
-@property(nonatomic) __weak UIView *menuView; // @synthesize menuView=_menuView;
-@property(retain, nonatomic) UIDynamicItemBehavior *noRotationBehavior; // @synthesize noRotationBehavior=_noRotationBehavior;
-@property(retain, nonatomic) _UIDynamicItemObservingBehavior *observingBehavior; // @synthesize observingBehavior=_observingBehavior;
-@property(retain, nonatomic) _UIPlatterMenuPanningTransformer *panningLockTransformer; // @synthesize panningLockTransformer=_panningLockTransformer;
-@property(nonatomic) __weak id <UIDynamicItem> platterItem; // @synthesize platterItem=_platterItem;
-@property(retain, nonatomic) UIDynamicItemBehavior *platterItemBehavior; // @synthesize platterItemBehavior=_platterItemBehavior;
-@property(retain, nonatomic) UIAttachmentBehavior *platterMenuAttachmentBehavior; // @synthesize platterMenuAttachmentBehavior=_platterMenuAttachmentBehavior;
-@property(retain, nonatomic) UICollisionBehavior *platterMenuCollisionBounds; // @synthesize platterMenuCollisionBounds=_platterMenuCollisionBounds;
-@property(retain, nonatomic) UIAttachmentBehavior *platterMenuSlidingAttachmentBehavior; // @synthesize platterMenuSlidingAttachmentBehavior=_platterMenuSlidingAttachmentBehavior;
-@property(retain, nonatomic) _UIPlatterMenuSnapBehavior *platterSnapBehavior; // @synthesize platterSnapBehavior=_platterSnapBehavior;
-@property(nonatomic) __weak UIView *platterView; // @synthesize platterView=_platterView;
-@property(nonatomic) long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _UIStatesFeedbackGenerator *swipeFeedbackGenerator; // @synthesize swipeFeedbackGenerator=_swipeFeedbackGenerator;
-@property(nonatomic) _Bool trailingSwipeActionViewSelected; // @synthesize trailingSwipeActionViewSelected=_trailingSwipeActionViewSelected;
-@property(nonatomic) double trailingSwipeEdgeMultiplier; // @synthesize trailingSwipeEdgeMultiplier=_trailingSwipeEdgeMultiplier;
 
 @end
 

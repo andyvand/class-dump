@@ -6,8 +6,7 @@
 
 #import <HomeKitDaemon/_MKFModel.h>
 
-@class MKFServiceDatabaseID, NSArray, NSDate, NSNumber, NSSet, NSString, NSUUID;
-@protocol MKFApplicationData, MKFHAPAccessory, MKFHome;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface _MKFService : _MKFModel
@@ -16,11 +15,12 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-+ (id);
++ (id)F
+;
 + (Class);
 + (id);
 - (void);
-- (_Bool);
+- (_Bool)*	;
 - (id);
 - (id);
 - (id);
@@ -28,16 +28,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)esOfAddedObjects;
+- (id)SDate",R,N;
+- (id)stPostedNotificationDate;
+- (id)initWithRawData:(id)arg1 elevationModel: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)aredTripDidUpdateRecipients:(id)arg1 withServices:] /* Error: Ran out of types for this method. */;
+- (id)haredTripService sharedTripDidStartSharingWithIdentifier:(id)arg1 ];
+- (id)haredTripDidBecomeUnavailable:(id)arg1 ];
+- (id)-[MSPSharedTripService routeDidUpdateForSharedTrip:(id)arg1 ];
+- (id)edTrip:(id)arg1 ];
 - (id);
 - (id);
 - (id);
@@ -48,53 +48,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) id <MKFHAPAccessory> accessory; // @dynamic accessory;
-@property(readonly, retain, nonatomic) NSArray *actionCharacteristicWrites;
-@property(retain, nonatomic) NSSet *actionCharacteristicWrites_; // @dynamic actionCharacteristicWrites_;
-@property(retain, nonatomic) id <MKFApplicationData> applicationData; // @dynamic applicationData;
 @property(copy, nonatomic) NSUUID *associatedServiceType; // @dynamic associatedServiceType;
-@property(retain, nonatomic) NSArray *characteristics;
-@property(retain, nonatomic) NSSet *characteristics_; // @dynamic characteristics_;
-@property(copy, nonatomic) NSNumber *configurationState; // @dynamic configurationState;
-@property(readonly, copy, nonatomic) MKFServiceDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, retain, nonatomic) NSArray *eventCharacteristics;
-@property(retain, nonatomic) NSSet *eventCharacteristics_; // @dynamic eventCharacteristics_;
-@property(copy, nonatomic) NSString *expectedConfiguredName; // @dynamic expectedConfiguredName;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSUUID *hmd_modelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(readonly, copy, nonatomic) NSUUID *hmd_parentModelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(readonly) id <MKFHome> home;
-@property(readonly, copy, nonatomic) NSNumber *instanceID; // @dynamic instanceID;
-@property(copy, nonatomic) NSNumber *labelIndex; // @dynamic labelIndex;
-@property(copy, nonatomic) NSNumber *labelNamespace; // @dynamic labelNamespace;
-@property(copy, nonatomic) NSNumber *lastKnownDiscoveryMode; // @dynamic lastKnownDiscoveryMode;
-@property(copy, nonatomic) NSNumber *lastKnownOperatingState; // @dynamic lastKnownOperatingState;
-@property(copy, nonatomic) NSNumber *lastKnownOperatingStateAbnormalReasons; // @dynamic lastKnownOperatingStateAbnormalReasons;
-@property(retain, nonatomic) NSArray *linkedServices; // @dynamic linkedServices;
-@property(copy, nonatomic) NSNumber *matterEndpointID; // @dynamic matterEndpointID;
-@property(retain, nonatomic) NSArray *mediaSourceDisplayOrder; // @dynamic mediaSourceDisplayOrder;
-@property(copy, nonatomic) NSNumber *mediaSourceIdentifier; // @dynamic mediaSourceIdentifier;
-@property(readonly, copy, nonatomic) NSUUID *modelID; // @dynamic modelID;
-@property(copy, nonatomic) NSString *name; // @dynamic name;
-@property(copy, nonatomic) NSString *providedName; // @dynamic providedName;
-@property(readonly, retain, nonatomic) NSArray *serviceGroups;
-@property(retain, nonatomic) NSSet *serviceGroups_; // @dynamic serviceGroups_;
-@property(copy, nonatomic) NSNumber *serviceProperties; // @dynamic serviceProperties;
-@property(copy, nonatomic) NSUUID *serviceSubtype; // @dynamic serviceSubtype;
-@property(copy, nonatomic) NSUUID *serviceType; // @dynamic serviceType;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDate *writerTimestamp; // @dynamic writerTimestamp;
 
 @end
 

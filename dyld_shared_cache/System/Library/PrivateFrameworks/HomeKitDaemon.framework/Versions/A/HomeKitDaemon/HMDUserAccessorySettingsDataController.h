@@ -4,33 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMCContext, NSArray, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDUserAccessorySettingsDataController
 {
     NSUUID *_userModelID;
-    HMCContext *_context;
 }
 
 - (id);
+- (id)ework/Versions/A/CoreSVG;
 - (id);
-- (id);
+- (void)contactStorages;
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ity should have synced, retrying validation;
+- (void)[MSPSharedTripService removeSendingObserver:(id)arg1 ];
 - (_Bool);
 - (id);
 - (id);
 - (void)for model %@ for record %@ found;
 
 // Remaining properties
-@property(readonly, copy) NSArray *assistantAccessControlAccessoriesToEncode;
 @property(readonly) _Bool assistantAccessControlActivityNotificationsEnabledForPersonalRequests;
-@property(readonly, copy) NSArray *mediaContentProfileAccessControlAccessoriesToEncode;
-@property(readonly, copy) NSArray *userListeningHistoryUpdateControlModelAccessoriesToEncode;
 
 @end
 

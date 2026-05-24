@@ -7,9 +7,6 @@
 @interface PhotosUICore.LemonadeShelfViewModel
 {
     id _isCollapsed;
-    id shelfID;
-    id dataSource;
-    id _$observationRegistrar;
 }
 
 @end

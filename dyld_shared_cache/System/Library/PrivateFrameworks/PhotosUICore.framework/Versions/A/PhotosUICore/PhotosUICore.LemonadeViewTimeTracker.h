@@ -7,7 +7,6 @@
 @interface PhotosUICore.LemonadeViewTimeTracker
 {
     id analyticsName;
-    id analyticsSignpost;
 }
 
 @end

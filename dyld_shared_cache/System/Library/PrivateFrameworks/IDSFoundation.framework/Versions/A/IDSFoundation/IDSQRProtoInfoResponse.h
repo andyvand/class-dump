@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface IDSQRProtoInfoResponse
 {
     CDStruct_62a50c50 _activeLightweightParticipants;
-    CDStruct_62a50c50 _activeParticipants;
-    CDStruct_62a50c50 _activeVirtualParticipants;
-    NSString *_clientAddress;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -30,31 +25,24 @@
 - (unsigned long long);
 - (unsigned long long *);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)$;
 - (unsigned long long *);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (unsigned long long *);
 - (void);
 - (id);
+- (void)B;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)Z;
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)hannel"16q24;
+- (void)ng.AutoUnlock;
 - (id);
 - (id);
 - (void)burstPacketsSent;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long *activeLightweightParticipants;
-@property(readonly, nonatomic) unsigned long long activeLightweightParticipantsCount;
-@property(readonly, nonatomic) unsigned long long *activeParticipants;
-@property(readonly, nonatomic) unsigned long long activeParticipantsCount;
-@property(readonly, nonatomic) unsigned long long *activeVirtualParticipants;
-@property(readonly, nonatomic) unsigned long long activeVirtualParticipantsCount;
-@property(retain, nonatomic) NSString *clientAddress; // @synthesize clientAddress=_clientAddress;
 @property(readonly, nonatomic) _Bool hasClientAddress;
 
 @end

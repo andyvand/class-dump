@@ -6,33 +6,19 @@
 
 #import <Safari/StartPageViewItem.h>
 
-@class NSArray, NSButton, NSImageView, NSLayoutConstraint, NSStackView, NSString, NSTextField, NSView, StartPageOnboardingCollectionViewItemConfiguration;
-@protocol StartPageOnboardingCollectionViewItemDelegate;
+@class StartPageOnboardingCollectionViewItemConfiguration;
 
 __attribute__((visibility("hidden")))
 @interface StartPageOnboardingCollectionViewItem : StartPageViewItem
 {
     long long _currentLayoutType;
-    NSArray *_constraintsForCurrentLayoutType;
-    NSStackView *_verticalStackView;
-    NSStackView *_horizontalStackView;
-    NSTextField *_titleLabel;
-    NSTextField *_textLabel;
-    NSView *_artworkContainerView;
-    NSView *_onboardingArtworkView;
-    NSImageView *_onboardingImageView;
-    NSLayoutConstraint *_artworkContainerViewHeightConstraint;
-    NSButton *_mainButton;
-    NSButton *_closeButton;
-    StartPageOnboardingCollectionViewItemConfiguration *_configuration;
-    id <StartPageOnboardingCollectionViewItemDelegate> _delegate;
 }
 
 - (long long);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -40,10 +26,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)(;
 - (long long);
 - (void);
-- (id)adPage:forExtensionWithUUID: /* Error: Ran out of types for this method. */;
+- (id)reloadPage:forExtensionWithUUID: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)ä;
 - (void);
@@ -51,16 +37,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) StartPageOnboardingCollectionViewItemConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <StartPageOnboardingCollectionViewItemDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) long long state;
-@property(readonly) Class superclass;
 
 @end
 

@@ -11,28 +11,24 @@
 @interface DMFEnableLostModeRequest : DMFTaskRequest
 {
     NSString *_message;
-    NSString *_phoneNumber;
-    NSString *_footnote;
 }
 
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 + (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void);
+- (id);
+- (id)};
+- (void)MFComposeRecipientStringMatchType;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *footnote; // @synthesize footnote=_footnote;
 @property(copy, nonatomic) NSString *message; // @synthesize message=_message;
-@property(copy, nonatomic) NSString *phoneNumber; // @synthesize phoneNumber=_phoneNumber;
 
 @end
 

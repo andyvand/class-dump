@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface RCCancelHandler
 {
     CDUnknownBlockType _cancelBlock;
-    id _weakTarget;
-    id _strongTarget;
-    SEL _selector;
 }
 
 + (id);
 + (id);
 + (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -33,16 +28,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType cancelBlock; // @synthesize cancelBlock=_cancelBlock;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) SEL selector; // @synthesize selector=_selector;
-@property(retain, nonatomic) id strongTarget; // @synthesize strongTarget=_strongTarget;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak id weakTarget; // @synthesize weakTarget=_weakTarget;
 
 @end
 

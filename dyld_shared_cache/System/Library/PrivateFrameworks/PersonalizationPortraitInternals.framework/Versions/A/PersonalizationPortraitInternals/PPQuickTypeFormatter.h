@@ -4,32 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSDateComponentsFormatter, NSDateFormatter, NSLengthFormatter, NSLocale, NSMeasurementFormatter, NSString, PPQuickTypeQuery, _PASCachedResult, _PASLock;
+@class PPQuickTypeQuery;
 
 @interface PPQuickTypeFormatter
 {
     PPQuickTypeQuery *_query;
-    NSLocale *_locale;
-    NSString *_desiredLanguage;
-    NSString *_fallbackLanguage;
-    NSDateFormatter *_birthdayFormatter;
-    NSDateFormatter *_chineseBirthdayFormatter;
-    NSDateFormatter *_yearlessChineseBirthdayFormatter;
-    NSDateFormatter *_shortEventFormatter;
-    NSDateFormatter *_longEventFormatter;
-    NSCache *_dateFormatCache;
-    NSCache *_appNameCache;
-    NSMeasurementFormatter *_measurementWholeFormatter;
-    NSMeasurementFormatter *_measurementDecimalFormatter;
-    NSMeasurementFormatter *_measurementUnscaledFormatter;
-    NSLengthFormatter *_lengthFormatter;
-    NSDateComponentsFormatter *_dateComponentFormatter;
-    _PASLock *_localizedStringsCache;
-    _PASCachedResult *_cachedContactsLabeledValuesLprojs;
 }
 
++ (id)not allocate action array;
 + (id);
-+ (id);
+- (id)e;
+- (id);
+- (id)~S@qc;
 - (id);
 - (id);
 - (id);
@@ -37,22 +23,19 @@
 - (id);
 - (id);
 - (id);
+- (id)T;
+- (id)%02hhx%02hhx:(id)arg1 %02hhx%02hhx:%02hhx%02hhx:%02hhx%02hhx) = 0x%08x /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)__kIMChatRegistryDidUpdateMessagesWithSummaryNotification;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)B;
 - (id);
 - (id);
 - (id);

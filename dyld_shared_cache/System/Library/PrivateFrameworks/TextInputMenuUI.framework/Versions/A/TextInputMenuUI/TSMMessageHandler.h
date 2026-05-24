@@ -7,7 +7,6 @@
 @interface TSMMessageHandler
 {
     struct __CFMessagePort *fLocalPort;
-    struct __CFRunLoopSource *fRunLoopSourceForPort;
 }
 
 + (_Bool);
@@ -17,7 +16,7 @@
 + (_Bool);
 + (id);
 + (_Bool);
-+ (_Bool);
++ (_Bool)R;
 - (id);
 - (void);
 - (void);

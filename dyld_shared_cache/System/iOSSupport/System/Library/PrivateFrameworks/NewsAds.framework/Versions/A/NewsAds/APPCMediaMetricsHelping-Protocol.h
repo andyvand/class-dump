@@ -5,9 +5,25 @@
 //
 
 @protocol APPCMediaMetricsHelping
+- (void (^)(long long, long long))n Recipe Box.;
+- (void)m.;
+- (void)s Filter' bar button item.;
+- (void)reader/NewsUI/Modules/RecipeBox/RecipeBoxTracker.swift;
+- (void)feed is not available due to device requiring OS update;
+- (void);
+- (void)quiring OS update;
+- (void)ed is not available due to device requiring OS update;
+- (void)ed;
+- (void)on;
+- (void)ot available due to device obsoletion;
+- (void)to device obsoletion;
+- (void)tle when a audio feed is not available due to device obsoletion;
+- (void)soletion;
+- (void)orted region;
+- (void)e when a audio feed is not available due to unsupported region;
+- (void).1:(long long)arg1 8080/configs/recipe-history-feed-config.jinja.yaml;
 
 // Remaining properties
 @property(nonatomic) long long visiblePercentage;
-@property(nonatomic, copy) CDUnknownBlockType visiblePercentageChanged;
 @end
 

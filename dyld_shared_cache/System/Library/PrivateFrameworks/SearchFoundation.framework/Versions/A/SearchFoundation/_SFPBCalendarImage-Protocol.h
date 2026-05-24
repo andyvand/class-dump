@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _SFPBDate;
+@class _SFPBDate;
 
 @protocol _SFPBCalendarImage
 
 // Remaining properties
 @property(retain, nonatomic) _SFPBDate *date;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

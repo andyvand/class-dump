@@ -6,30 +6,25 @@
 
 #import <Montreal/MontrealNNDescription.h>
 
-@class MontrealNNModelOptimizerParam, MontrealNNModelQuantization, NSArray, NSString;
+@class NSArray;
 
 @interface MontrealNNModelNetwork : MontrealNNDescription
 {
     NSArray *_nodes;
-    NSArray *_inputs;
-    NSArray *_outputs;
-    MontrealNNModelQuantization *_quantization;
-    NSString *_jsonDir;
-    MontrealNNModelOptimizerParam *_optimizerParams;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (id);
 - (id);
 - (id);
 - (void *);
 - (void);
 - (void);
-- (id);
+- (id)E;
 - (void);
 - (void);
 - (id);
@@ -45,19 +40,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSArray *inputs; // @synthesize inputs=_inputs;
-@property(readonly) NSString *jsonDir; // @synthesize jsonDir=_jsonDir;
 @property(retain) NSArray *nodes; // @synthesize nodes=_nodes;
-@property(readonly) MontrealNNModelOptimizerParam *optimizerParams; // @synthesize optimizerParams=_optimizerParams;
-@property(retain) NSArray *outputs; // @synthesize outputs=_outputs;
-@property(readonly) MontrealNNModelQuantization *quantization; // @synthesize quantization=_quantization;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class ACAccount;
+
 @protocol ACDAccountNotificationPlugin
+
+@optional
+- (void);
+- (_Bool)z;
+- (_Bool)@@;
+- (_Bool)ad database, error:(ACAccount *)arg1 %@;
 @end
 

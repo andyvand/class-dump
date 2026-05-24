@@ -6,23 +6,18 @@
 
 #import <AOSUI/AOSUIAccountContactsViewController.h>
 
-@class AAAccountBeneficiaryManagementViewModel, AOSUIAccountContactSetupFlowController, AOSUIAccountContactsTableViewController, AOSUIAccountContactsTopContentViewController, AOSUIContactsProvider;
+@class AAAccountBeneficiaryManagementViewModel;
 
 @interface AOSUIAccountBeneficiaryViewController : AOSUIAccountContactsViewController
 {
     AAAccountBeneficiaryManagementViewModel *_viewModel;
-    AOSUIAccountContactsTopContentViewController *_topContentViewController;
-    AOSUIAccountContactsTableViewController *_beneficiaryTableViewController;
-    AOSUIAccountContactsTableViewController *_benefactorTableViewController;
-    AOSUIContactsProvider *_contactProvider;
-    AOSUIAccountContactSetupFlowController *setupFlowController;
 }
 
+- (void)%`;
+- (void)kbV;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)kb>;
 - (void);
 - (void);
 - (void);
@@ -31,7 +26,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void)QYð1Â0@ù
 × ;
 

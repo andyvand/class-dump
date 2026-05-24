@@ -4,48 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSLock, NSMutableArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface CAReportingPerformanceObject
 {
     unsigned short _serviceType;
-    NSDictionary *_performanceMetrics;
-    NSDictionary *_configuration;
-    NSMutableArray *_processIdentifiers;
-    NSString *_hostApplicationDisplayID;
-    NSLock *_sessionsLock;
-    struct vector<pc_session *, std::allocator<pc_session *>> _sessions;
 }
 
 - (id);
 - (void);
 - (unsigned short);
 - (void);
+- (void)h';
+- (id);
 - (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)(TH1b);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void *);
+- (void)ileToken %u
+;
+- (void *)`>;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *configuration; // @synthesize configuration=_configuration;
-@property(retain, nonatomic) NSString *hostApplicationDisplayID; // @synthesize hostApplicationDisplayID=_hostApplicationDisplayID;
-@property(readonly, nonatomic) NSDictionary *performanceMetrics; // @synthesize performanceMetrics=_performanceMetrics;
-@property(retain, nonatomic) NSMutableArray *processIdentifiers; // @synthesize processIdentifiers=_processIdentifiers;
-@property(nonatomic) unsigned short serviceType; // @synthesize serviceType=_serviceType;
 @property(nonatomic) void *sessions; // @synthesize sessions=_sessions;
-@property(retain, nonatomic) NSLock *sessionsLock; // @synthesize sessionsLock=_sessionsLock;
 
 @end
 

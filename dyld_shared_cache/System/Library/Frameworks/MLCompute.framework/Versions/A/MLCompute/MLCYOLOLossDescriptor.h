@@ -4,32 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLCLossDescriptor, NSData;
+@class MLCLossDescriptor;
 
 @interface MLCYOLOLossDescriptor
 {
     _Bool _shouldRescore;
-    float _scaleSpatialPositionLoss;
-    float _scaleSpatialSizeLoss;
-    float _scaleNoObjectConfidenceLoss;
-    float _scaleObjectConfidenceLoss;
-    float _scaleClassLoss;
-    float _minimumIOUForObjectPresence;
-    float _maximumIOUForObjectAbsence;
-    int _reductionType;
-    unsigned long long _anchorBoxCount;
-    NSData *_anchorBoxes;
-    MLCLossDescriptor *_spatialPositionLossDescriptor;
-    MLCLossDescriptor *_spatialSizeLossDescriptor;
-    MLCLossDescriptor *_confidenceLossDescriptor;
-    MLCLossDescriptor *_classesLossDescriptor;
 }
 
 + (id);
-- (id);
+- (id)	;
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -45,7 +31,7 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)$;
 - (void);
 - (int);
 - (unsigned long long);
@@ -59,21 +45,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long anchorBoxCount; // @synthesize anchorBoxCount=_anchorBoxCount;
-@property(readonly, copy, nonatomic) NSData *anchorBoxes; // @synthesize anchorBoxes=_anchorBoxes;
-@property(readonly, retain) MLCLossDescriptor *classesLossDescriptor; // @synthesize classesLossDescriptor=_classesLossDescriptor;
-@property(readonly, retain) MLCLossDescriptor *confidenceLossDescriptor; // @synthesize confidenceLossDescriptor=_confidenceLossDescriptor;
-@property(nonatomic) float maximumIOUForObjectAbsence; // @synthesize maximumIOUForObjectAbsence=_maximumIOUForObjectAbsence;
-@property(nonatomic) float minimumIOUForObjectPresence; // @synthesize minimumIOUForObjectPresence=_minimumIOUForObjectPresence;
-@property(readonly, nonatomic) int reductionType; // @synthesize reductionType=_reductionType;
-@property(nonatomic) float scaleClassLoss; // @synthesize scaleClassLoss=_scaleClassLoss;
-@property(nonatomic) float scaleNoObjectConfidenceLoss; // @synthesize scaleNoObjectConfidenceLoss=_scaleNoObjectConfidenceLoss;
-@property(nonatomic) float scaleObjectConfidenceLoss; // @synthesize scaleObjectConfidenceLoss=_scaleObjectConfidenceLoss;
-@property(nonatomic) float scaleSpatialPositionLoss; // @synthesize scaleSpatialPositionLoss=_scaleSpatialPositionLoss;
-@property(nonatomic) float scaleSpatialSizeLoss; // @synthesize scaleSpatialSizeLoss=_scaleSpatialSizeLoss;
-@property(nonatomic) _Bool shouldRescore; // @synthesize shouldRescore=_shouldRescore;
 @property(readonly, retain) MLCLossDescriptor *spatialPositionLossDescriptor; // @synthesize spatialPositionLossDescriptor=_spatialPositionLossDescriptor;
-@property(readonly, retain) MLCLossDescriptor *spatialSizeLossDescriptor; // @synthesize spatialSizeLossDescriptor=_spatialSizeLossDescriptor;
 
 @end
 

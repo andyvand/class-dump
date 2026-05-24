@@ -9,15 +9,9 @@
 @interface CHStrokeClassificationResult
 {
     NSSet *_textStrokeIdentifiers;
-    NSDictionary *_strokeClassificationsByStrokeIdentifier;
-    NSDictionary *_midYPositionByStrokeIdentifier;
-    NSDictionary *_scriptClassificationsByStrokeIdentifier;
-    NSDictionary *_scriptClassificationRawResultsByStrokeIdentifier;
-    NSDictionary *_substrokesByStrokeIdentifier;
-    NSSet *_nontextCandidates;
 }
 
-+ (_Bool);
++ (_Bool)_icDisabledLastSelection;
 - (id);
 - (id);
 - (id);
@@ -26,9 +20,9 @@
 - (double);
 - (id);
 - (id);
-- (id);
+- (id)H;
 - (_Bool);
-- (_Bool);
+- (_Bool)RL;
 - (id);
 - (id);
 - (id);
@@ -41,13 +35,7 @@
 - (void)Ä2;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *midYPositionByStrokeIdentifier; // @synthesize midYPositionByStrokeIdentifier=_midYPositionByStrokeIdentifier;
-@property(readonly, copy, nonatomic) NSSet *nontextCandidates; // @synthesize nontextCandidates=_nontextCandidates;
-@property(readonly, copy, nonatomic) NSDictionary *scriptClassificationRawResultsByStrokeIdentifier; // @synthesize scriptClassificationRawResultsByStrokeIdentifier=_scriptClassificationRawResultsByStrokeIdentifier;
-@property(readonly, copy, nonatomic) NSDictionary *scriptClassificationsByStrokeIdentifier; // @synthesize scriptClassificationsByStrokeIdentifier=_scriptClassificationsByStrokeIdentifier;
 @property(readonly, copy, nonatomic) NSDictionary *strokeClassificationsByStrokeIdentifier; // @synthesize strokeClassificationsByStrokeIdentifier=_strokeClassificationsByStrokeIdentifier;
-@property(readonly, copy, nonatomic) NSDictionary *substrokesByStrokeIdentifier; // @synthesize substrokesByStrokeIdentifier=_substrokesByStrokeIdentifier;
-@property(readonly, copy, nonatomic) NSSet *textStrokeIdentifiers;
 
 @end
 

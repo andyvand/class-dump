@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSXPCConnection, TFontProviderClientXPC;
+@class TFontProviderClientXPC;
 
 __attribute__((visibility("hidden")))
 @interface TFontProviderHandler
 {
     int fPID;
-    TFontProviderClientXPC *fProvider;
-    NSXPCConnection *fConnection;
-    NSDictionary *fRequest;
-    CDUnknownBlockType fReply;
 }
 
 - (void);
@@ -31,10 +27,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSXPCConnection *fConnection; // @synthesize fConnection;
 @property(nonatomic) __weak TFontProviderClientXPC *fProvider; // @synthesize fProvider;
-@property(copy, nonatomic) CDUnknownBlockType fReply; // @synthesize fReply;
-@property(retain, nonatomic) NSDictionary *fRequest; // @synthesize fRequest;
 
 @end
 

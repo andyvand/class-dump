@@ -127,19 +127,7 @@ struct __CE_DataAndType {
     int _field3;
 };
 
-struct __CE_DistributionPointName {
-    int _field1;
-    union {
-        struct __CE_GeneralNames *_field1;
-        struct cssm_x509_rdn *_field2;
-    } _field2;
-};
-
-struct __CE_GeneralName {
-    int _field1;
-    int _field2;
-    struct cssm_data _field3;
-};
+struct __CE_DistributionPointName;
 
 struct __CE_GeneralNames {
     unsigned int _field1;
@@ -196,14 +184,14 @@ struct ccspake_ctx {
 struct ccspake_mac;
 
 struct cssm_data {
-    unsigned long long Length;
-    char *Data;
+    unsigned long long _field1;
+    char *_field2;
 };
 
 struct cssm_date {
-    unsigned char Year[4];
-    unsigned char Month[2];
-    unsigned char Day[2];
+    unsigned char _field1[4];
+    unsigned char _field2[2];
+    unsigned char _field3[2];
 };
 
 struct cssm_field {
@@ -212,32 +200,32 @@ struct cssm_field {
 };
 
 struct cssm_guid {
-    unsigned int Data1;
-    unsigned short Data2;
-    unsigned short Data3;
-    unsigned char Data4[8];
+    unsigned int _field1;
+    unsigned short _field2;
+    unsigned short _field3;
+    unsigned char _field4[8];
 };
 
 struct cssm_key {
-    struct cssm_keyheader KeyHeader;
-    struct cssm_data KeyData;
+    struct cssm_keyheader _field1;
+    struct cssm_data _field2;
 };
 
 struct cssm_keyheader {
-    unsigned int HeaderVersion;
-    struct cssm_guid CspId;
-    unsigned int BlobType;
-    unsigned int Format;
-    unsigned int AlgorithmId;
-    unsigned int KeyClass;
-    unsigned int LogicalKeySizeInBits;
-    unsigned int KeyAttr;
-    unsigned int KeyUsage;
-    struct cssm_date StartDate;
-    struct cssm_date EndDate;
-    unsigned int WrapAlgorithmId;
-    unsigned int WrapMode;
-    unsigned int Reserved;
+    unsigned int _field1;
+    struct cssm_guid _field2;
+    unsigned int _field3;
+    unsigned int _field4;
+    unsigned int _field5;
+    unsigned int _field6;
+    unsigned int _field7;
+    unsigned int _field8;
+    unsigned int _field9;
+    struct cssm_date _field10;
+    struct cssm_date _field11;
+    unsigned int _field12;
+    unsigned int _field13;
+    unsigned int _field14;
 };
 
 struct cssm_x509_name {
@@ -265,5 +253,5 @@ typedef struct {
 typedef struct {
     struct cssm_data _field1;
     struct cssm_data _field2;
-} CDStruct_b9cef19c;
+} CDStruct_bdabbc11;
 

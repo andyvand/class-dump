@@ -7,15 +7,6 @@
 @interface SoundAnalysis.SNSystemAudioAnalyzerLocal
 {
     id id;
-    id dispatchQueue;
-    id analysisQueue;
-    id recordingCancellable;
-    id streamAnalyzer;
-    id audioIsRunning;
-    id requestsAndObservers;
-    id audioConfiguration;
-    id audioSession;
-    id allowSuppressionOfMicrophoneUsageIndicator;
 }
 
 @end

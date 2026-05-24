@@ -4,35 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDSearchTokenSet, NSString, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchKeywordIntent
 {
     PBDataReader *_reader;
-    NSString *_keyword;
-    GEOPDSearchTokenSet *_tokenSet;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _isOptionalKeyword;
-    struct {
-        unsigned int has_isOptionalKeyword:1;
-        unsigned int read_keyword:1;
-        unsigned int read_tokenSet:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)server;
+- (id)contentsOfDirectoryAtURL:includingPropertiesForKeys:options:error: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)on"b1"read_drivingWalkingSpokenInstruction"b1"read_genericInstruction"b1"read_transitListInstruction"b1"read_transitSignInstruction"b1"wrote_anyField"b1};
-- (id)hCover;
+- (id)_prefixMatchCover;
 - (id)|ÕdÖ4×ØìØÐÙ ÚÛXÜ`Ý;
 - (void)\ªÒ×H@;
 

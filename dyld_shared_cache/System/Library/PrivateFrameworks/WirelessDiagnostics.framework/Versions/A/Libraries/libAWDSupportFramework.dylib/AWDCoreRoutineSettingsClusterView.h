@@ -4,23 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDCoreRoutineSettingsClusterView
 {
     unsigned long long _timestamp;
-    int _clusterCount;
-    int _elsewhereCount;
-    NSString *_sessionId;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int clusterCount:1;
-        unsigned int elsewhereCount:1;
-    } _has;
 }
 
-- (void);
-- (void);
+- (void);
+- (void)6;
 - (void);
 - (void);
 - (_Bool);
@@ -43,18 +33,11 @@
 - (id);
 - (void)a:(id)arg1 "°!Dù1Ð%ð1Â0@ù
 × ;
-- (_Bool)e: /* Error: Ran out of types for this method. */;
-- (id)anQualChanged: /* Error: Ran out of types for this method. */;
+- (_Bool)setHasWhiteListProbeCompletionTime: /* Error: Ran out of types for this method. */;
+- (id)setHasHomeChanQualChanged: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) int clusterCount; // @synthesize clusterCount=_clusterCount;
-@property(nonatomic) int elsewhereCount; // @synthesize elsewhereCount=_elsewhereCount;
-@property(nonatomic) _Bool hasClusterCount;
-@property(nonatomic) _Bool hasElsewhereCount;
-@property(readonly, nonatomic) _Bool hasSessionId;
 @property(nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) NSString *sessionId; // @synthesize sessionId=_sessionId;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

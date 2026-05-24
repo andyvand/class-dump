@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOAlmanacRiseTransitSet, NSDate;
-
 @interface GEOAlmanac
 {
     CDStruct_2c43369c _location;
-    double _altitude;
-    GEOAlmanacRiseTransitSet *_previousRiseTransitSet;
-    GEOAlmanacRiseTransitSet *_currentRiseTransitSet;
-    GEOAlmanacRiseTransitSet *_nextRiseTransitSet;
 }
 
 - (void);
@@ -23,32 +17,23 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)ented Yet: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)ew;
 - (id);
 - (void);
 - (id);
 - (id);
 - (void)d:(CDStruct_c3b9c2ee)arg1:equal_to<unsigned int>, std::allocator<std::pair<const unsigned int, unsigned long>>>="__table_"{__hash_table<std::__hash_value_type<unsigned int, unsigned long>, std::__unordered_map_hasher<unsigned int, std::pair<const unsigned int, unsigned long>, std::hash<unsigned int>, std::equal_to<unsigned int>>, std::__unordered_map_equal<unsigned int, std::pair<const unsigned int, unsigned long>, std::equal_to<unsigned int>, std::hash<unsigned int>>, std::allocator<std::pair<const unsigned int, unsigned long>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, unsigned long>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, unsigned long>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, unsigned long>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, unsigned long>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
 - (id)d::__list_iterator<CacheItem, void *>, hashkey, eqkey, std::allocator<std::pair<const _GEOTileKey, std::__list_iterator<CacheItem, void *>>>>="__table_"{__hash_table<std::__hash_value_type<_GEOTileKey, std::__list_iterator<CacheItem, void *>>, std::__unordered_map_hasher<_GEOTileKey, std::pair<const _GEOTileKey, std::__list_iterator<CacheItem, void *>>, hashkey, eqkey>, std::__unordered_map_equal<_GEOTileKey, std::pair<const _GEOTileKey, std::__list_iterator<CacheItem, void *>>, eqkey, hashkey>, std::allocator<std::pair<const _GEOTileKey, std::__list_iterator<CacheItem, void *>>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<_GEOTileKey, std::__list_iterator<CacheItem, void *>>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<_GEOTileKey, std::__list_iterator<CacheItem, void *>>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<_GEOTileKey, std::__list_iterator<CacheItem, void *>>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<_GEOTileKey, std::__list_iterator<CacheItem, void *>>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
-- (void)iceRequestsOnly;
+- (void)ForServiceRequestsOnly;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isDayLight;
-@property(readonly, nonatomic) NSDate *nextSunrise;
-@property(readonly, nonatomic) NSDate *nextSunset;
-@property(readonly, nonatomic) NSDate *nextTransit;
-@property(readonly, nonatomic) NSDate *previousSunrise;
-@property(readonly, nonatomic) NSDate *previousSunset;
-@property(readonly, nonatomic) NSDate *previousTransit;
-@property(readonly, nonatomic) NSDate *sunrise;
-@property(readonly, nonatomic) NSDate *sunset;
-@property(readonly, nonatomic) NSDate *transit;
 
 @end
 

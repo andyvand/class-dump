@@ -5,6 +5,7 @@
 //
 
 @protocol UICoordinateSpace
+- (struct CGRect)Key;
 - (struct CGRect)0@ù
 × ;
 - (struct CGRect)!¸Aùb°1Â0@ù

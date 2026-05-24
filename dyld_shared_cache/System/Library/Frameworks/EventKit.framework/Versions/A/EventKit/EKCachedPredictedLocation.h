@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKStructuredLocation, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface EKCachedPredictedLocation
 {
     NSString *_eventTitle;
-    NSString *_locationWithoutPrediction;
-    NSString *_calendarIdentifier;
-    EKStructuredLocation *_cachedPrediction;
-    unsigned long long _predictionExpiration;
-    struct os_unfair_lock_s _lock;
 }
 
-+ (id);
-+ (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
++ (id)sendCommandToNewGroupContainingOutputDeviceUIDs;
++ (id)ibleForHosting=%d;
+- (id)nnection]<%p> setIncomingMessageHandler - attempting to set while in state:(id)arg1 %@;
+- (id)dimensions for provided image data.;
+- (id)DSCompanionConnection] Added handler for %@ %@;
+- (void)dictionaryValue;
+- (void)pre-existing groups...;
 - (void)0@ù
 × ;
 

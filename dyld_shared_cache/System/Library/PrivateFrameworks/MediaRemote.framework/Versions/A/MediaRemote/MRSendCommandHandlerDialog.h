@@ -4,33 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString, _MRSendCommandResultHandlerDialogProtobuf;
+@class NSMutableArray, _MRSendCommandResultHandlerDialogProtobuf;
 
 @interface MRSendCommandHandlerDialog
 {
     NSMutableArray *_mutableActions;
-    NSString *_localizedTitle;
-    NSString *_localizedMessage;
 }
 
 + (id);
 - (void);
 - (id);
+- (id)summaryMetadataDescription;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)SRange=QQ}16^B32;
 - (id);
 - (id);
 - (id);
 - (void)eControlCapabilitiesDidChangeMessage;
 - (id)RAVEndpoint"24@"NSError"32;
-- (void);
+- (void)player;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *actions;
-@property(copy, nonatomic) NSString *localizedMessage; // @synthesize localizedMessage=_localizedMessage;
-@property(copy, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
 @property(readonly, copy, nonatomic) _MRSendCommandResultHandlerDialogProtobuf *protobuf;
 
 @end

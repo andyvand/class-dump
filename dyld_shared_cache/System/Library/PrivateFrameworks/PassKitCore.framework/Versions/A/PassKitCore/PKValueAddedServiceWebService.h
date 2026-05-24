@@ -4,33 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSURLSession, PKPass, PKValueAddedServiceTransaction;
+@class NSDictionary, PKValueAddedServiceTransaction;
 
 @interface PKValueAddedServiceWebService
 {
     PKValueAddedServiceTransaction *_valueAddedTransaction;
-    NSURLSession *_urlSession;
-    NSDictionary *_merchantPayload;
-    PKPass *_pass;
 }
 
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void)zedPKPassArchive:'%@';  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSDictionary *merchantPayload; // @synthesize merchantPayload=_merchantPayload;
-@property(readonly, nonatomic) PKPass *pass; // @synthesize pass=_pass;
-@property(readonly) Class superclass;
 
 @end
 

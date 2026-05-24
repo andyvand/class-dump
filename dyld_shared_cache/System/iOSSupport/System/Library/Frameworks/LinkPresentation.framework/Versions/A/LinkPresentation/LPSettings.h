@@ -9,13 +9,13 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool);
-+ (_Bool);
-+ (void);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)supportsDynamicallyTogglingAllowsTextAnimations;
++ (_Bool)supportsDynamicSize;
++ (void)supportsContiguousAttachments;
++ (_Bool)summaryOfVCard:error: /* Error: Ran out of types for this method. */;
++ (_Bool)suggestionsController:(id)arg1 didSelectRecipient: /* Error: Ran out of types for this method. */;
++ (_Bool)suggestionSubtitle;
++ (_Bool)signInViewController:shouldContinueWithAuthenticationResults:error:forContext:completion: /* Error: Ran out of types for this method. */;
 + (_Bool);
 + (_Bool);
 + (void)t;

@@ -10,21 +10,19 @@
 {
     long long _polling;
     NSArray *_iso7816SelectIdentifiers;
-    NSArray *_felicaSystemCodes;
 }
 
 - (void);
 - (id);
 - (id);
 - (long long);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)"__begin_node_"^v""{?="__end_node_"{__tree_end_node<std:(id)arg1:__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}} /* Error: Ran out of types for this method. */;
+- (void):(id)arg1:allocator<std::pair<const unsigned int, double>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}} /* Error: Ran out of types for this method. */;
+- (id)}};
+- (id)nsigned short, SKSpriteNode *>, std::__map_value_compare<unsigned short, std::pair<const unsigned short, SKSpriteNode *>, std::less<unsigned short>>, std::allocator<std::pair<const unsigned short, SKSpriteNode *>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}} /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *felicaSystemCodes; // @synthesize felicaSystemCodes=_felicaSystemCodes;
 @property(retain, nonatomic) NSArray *iso7816SelectIdentifiers; // @synthesize iso7816SelectIdentifiers=_iso7816SelectIdentifiers;
 @property(nonatomic) long long polling; // @synthesize polling=_polling;
 

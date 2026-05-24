@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
+@class NSString;
 
 @interface IMDExportedMessageRecordAssociationMap
 {
     id guid;
-    id associatedMessageID;
-    id threadOriginatorMessageID;
-    id chatID;
-    id handleID;
-    id attachmentIDs;
 }
 
 + (_Bool);
@@ -23,19 +18,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)changePassword:(id)arg1;
+- (id)h;
 - (void);
-- (id)DeleteJob;
+- (id)IMDCoreSpotlightFullDeleteJob;
 - (void)original_guid, is_commsafety_sensitive, emoji_image_content_identifier, emoji_image_short_description, preview_generation_state FROM attachment WHERE ck_sync_state == 1 AND transfer_state == 5 AND ck_server_change_token_blob != '' AND ck_server_change_token_blob NOT NULL ORDER BY created_date ASC LIMIT ? OFFSET ?;;
 
 // Remaining properties
-@property(nonatomic, readonly) NSNumber *associatedMessageID;
-@property(nonatomic, readonly) NSArray *attachmentIDs;
-@property(nonatomic, readonly) NSNumber *chatID;
 @property(nonatomic, readonly) NSString *guid;
-@property(nonatomic, readonly) NSNumber *handleID;
-@property(nonatomic, readonly) NSNumber *threadOriginatorMessageID;
 
 @end
 

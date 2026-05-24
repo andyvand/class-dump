@@ -9,21 +9,19 @@
 @interface TKToneClassicsPickerItem : TKTonePickerItem
 {
     TKTonePickerItem *_parentItem;
-    long long _classicToneIndex;
 }
 
 - (long long);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)showPaymentVerificationWithServerAttributes:window:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)BatteryCurrentCapacity;
 - (void);
 
 // Remaining properties
-@property(nonatomic, setter=_setClassicToneIndex:) long long classicToneIndex; // @synthesize classicToneIndex=_classicToneIndex;
 @property(nonatomic, setter=_setParentItem:) __weak TKTonePickerItem *parentItem; // @synthesize parentItem=_parentItem;
 
 @end

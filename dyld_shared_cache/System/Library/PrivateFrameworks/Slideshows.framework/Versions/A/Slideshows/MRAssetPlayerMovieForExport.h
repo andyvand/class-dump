@@ -6,68 +6,39 @@
 
 #import <Slideshows/MRAssetPlayer.h>
 
-@class AVAssetReader, AVAssetReaderTrackOutput, NSObject, NSString;
-@protocol OS_dispatch_semaphore;
+@class AVAssetReader;
 
 @interface MRAssetPlayerMovieForExport : MRAssetPlayer
 {
     AVAssetReader *_assetReader;
-    AVAssetReaderTrackOutput *_trackOutput;
-    double _timeLimitForCurrentImage;
-    struct opaqueCMSampleBuffer *_nextSampleBuffer;
-    double _nextSampleBufferTimestamp;
-    NSObject<OS_dispatch_semaphore> *_loadingSemaphore;
-    unsigned char _orientation;
-    _Bool _isLoaded;
-    _Bool _isPlaying;
-    _Bool _isMuted;
-    double _startTime;
-    double _duration;
-    double _fadeInDuration;
-    double _fadeOutDuration;
-    double _volume;
 }
 
-- (id);
+- (id)So13NTPBTelemetryC;
 - (void);
 - (id);
-- (id);
+- (id)C;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)0j;
 - (double);
 - (double);
 - (void);
 - (void);
 - (void);
 - (double);
-- (double);
+- (double)Ja;
 - (void);
 - (void);
 - (void);
-- (double);
+- (double)onWindowForegroundClosures;
 - (double);
 - (_Bool);
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(nonatomic) double fadeInDuration; // @synthesize fadeInDuration=_fadeInDuration;
-@property(nonatomic) double fadeOutDuration; // @synthesize fadeOutDuration=_fadeOutDuration;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isMuted; // @synthesize isMuted=_isMuted;
-@property(nonatomic) _Bool isPlaying; // @synthesize isPlaying=_isPlaying;
 @property(nonatomic) double startTime; // @synthesize startTime=_startTime;
-@property(readonly) Class superclass;
-@property(nonatomic) double time;
-@property(nonatomic) double volume; // @synthesize volume=_volume;
 
 @end
 

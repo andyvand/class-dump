@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, WFContextualAction;
+@class WFContextualAction;
 
 @interface WFContextualActionEvent
 {
     WFContextualAction *_action;
-    NSArray *_contentTypes;
-    NSString *_containerName;
-    unsigned long long _surface;
 }
 
 - (id);
@@ -24,9 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) WFContextualAction *action; // @synthesize action=_action;
-@property(readonly, copy, nonatomic) NSString *containerName; // @synthesize containerName=_containerName;
-@property(readonly, nonatomic) NSArray *contentTypes; // @synthesize contentTypes=_contentTypes;
-@property(readonly, nonatomic) unsigned long long surface; // @synthesize surface=_surface;
 
 @end
 

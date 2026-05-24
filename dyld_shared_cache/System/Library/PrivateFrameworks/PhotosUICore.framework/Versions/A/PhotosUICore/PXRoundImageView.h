@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSColor, NSImageView, PHPerson;
+@class NSImageView;
 
 @interface PXRoundImageView
 {
     NSImageView *_realImageView;
-    int _currentRequestID;
-    NSColor *_backgroundColor;
-    CALayer *_imageLayer;
-    PHPerson *_representedPerson;
-    struct CGSize _currentRequestSize;
 }
 
 - (void);
@@ -32,22 +27,18 @@
 - (int);
 - (void);
 - (id);
-- (void);
+- (void)`;
 - (double)1Â0@ù
 × ;
 - (id)±<1Â0@ù
 × ;
-- (id)ionTimingCurve;
+- (id)_introAnimationTimingCurve;
 - (void)d the CVBufferPool due to a concurrent operation. The client can retry the scan.;
 - (void)?Tÿ;
 - (void)ìÕÿÿÿÿÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
 @property(nonatomic) int currentRequestID; // @synthesize currentRequestID=_currentRequestID;
-@property(nonatomic) struct CGSize currentRequestSize; // @synthesize currentRequestSize=_currentRequestSize;
-@property(readonly, nonatomic) CALayer *imageLayer; // @synthesize imageLayer=_imageLayer;
-@property(retain, nonatomic) PHPerson *representedPerson; // @synthesize representedPerson=_representedPerson;
 
 @end
 

@@ -6,47 +6,12 @@
 
 #import <Safari/PreferencesModule.h>
 
-@class NSArray, NSBox, NSButton, NSDictionary, NSImageView, NSLayoutConstraint, NSOutlineView, NSPopUpButton, NSStackView, NSString, NSTableView, NSTextField, NSView, NotificationPreferencesController, WBSFaviconRequestsController, WKWebpagePreferences;
+@class NSLayoutConstraint, NSTableView;
 
 __attribute__((visibility("hidden")))
 @interface WebsitesPreferences : PreferencesModule
 {
     NSLayoutConstraint *_preferenceDescriptionTextFieldWidthConstraint;
-    NSArray *_currentlyOpenDomains;
-    NSArray *_configuredDomains;
-    WBSFaviconRequestsController *_requestsController;
-    _Bool _didRestoreToLastOpenedSubPane;
-    _Bool _didAwakeFromNib;
-    _Bool _isReloadingTableView;
-    _Bool _shouldSuppressDynamicPreferenceRefresh;
-    NSImageView *_policyWarningIcon;
-    NSTextField *_policyWarningLabel;
-    NSButton *_settingsSyncCheckBox;
-    NSArray *_perSiteExtensionPreferences;
-    WKWebpagePreferences *_defaultWebpagePreferences;
-    _Bool _didUpdateLockdownModePreferencesInitialVisibility;
-    NSArray *_perSitePreferences;
-    NSDictionary *_preferencesToManagers;
-    NSTableView *_preferencesTableView;
-    NSTextField *_preferenceDescriptionTextField;
-    NSButton *_removeButton;
-    NSBox *_policyBorderBox;
-    NSOutlineView *_policyOutlineView;
-    NSPopUpButton *_defaultPolicyPopUpButton;
-    NSView *_policiesPlaceholderView;
-    NSTextField *_policiesPlaceholderLabel;
-    NSView *_policyContainerView;
-    NSView *_preferencesPolicyView;
-    NSView *_notificationsPolicyView;
-    NotificationPreferencesController *_notificationPreferencesController;
-    NSTextField *_notificationPoliciesDescriptionTextField;
-    NSButton *_allowPromptingForNotificationsCheckbox;
-    NSLayoutConstraint *_tableContainerWidth;
-    NSTextField *_whenVisitingOtherWebsitesPreferenceLabel;
-    NSBox *_preferencesBorderBox;
-    NSBox *_notificationsPolicyBorderBox;
-    NSStackView *_warningStackView;
-    NSView *_containerView;
 }
 
 + (id);
@@ -58,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)Cm;
 - (void);
 - (void);
 - (void);
@@ -77,7 +42,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -111,7 +76,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)C;
 - (id);
 - (id);
 - (void);
@@ -132,7 +97,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (double);
@@ -163,48 +128,20 @@ __attribute__((visibility("hidden")))
 - (double);
 - (id);
 - (long long);
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void)8;
 - (void);
 - (id)ÿÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSButton *allowPromptingForNotificationsCheckbox; // @synthesize allowPromptingForNotificationsCheckbox=_allowPromptingForNotificationsCheckbox;
-@property(nonatomic) __weak NSView *containerView; // @synthesize containerView=_containerView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak NSPopUpButton *defaultPolicyPopUpButton; // @synthesize defaultPolicyPopUpButton=_defaultPolicyPopUpButton;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSTextField *notificationPoliciesDescriptionTextField; // @synthesize notificationPoliciesDescriptionTextField=_notificationPoliciesDescriptionTextField;
-@property(retain, nonatomic) NotificationPreferencesController *notificationPreferencesController; // @synthesize notificationPreferencesController=_notificationPreferencesController;
-@property(nonatomic) __weak NSBox *notificationsPolicyBorderBox; // @synthesize notificationsPolicyBorderBox=_notificationsPolicyBorderBox;
-@property(retain, nonatomic) NSView *notificationsPolicyView; // @synthesize notificationsPolicyView=_notificationsPolicyView;
-@property(readonly, nonatomic) NSArray *perSitePreferences; // @synthesize perSitePreferences=_perSitePreferences;
-@property(nonatomic) __weak NSTextField *policiesPlaceholderLabel; // @synthesize policiesPlaceholderLabel=_policiesPlaceholderLabel;
-@property(nonatomic) __weak NSView *policiesPlaceholderView; // @synthesize policiesPlaceholderView=_policiesPlaceholderView;
-@property(nonatomic) __weak NSBox *policyBorderBox; // @synthesize policyBorderBox=_policyBorderBox;
-@property(nonatomic) __weak NSView *policyContainerView; // @synthesize policyContainerView=_policyContainerView;
-@property(nonatomic) __weak NSOutlineView *policyOutlineView; // @synthesize policyOutlineView=_policyOutlineView;
-@property(nonatomic) __weak NSTextField *preferenceDescriptionTextField; // @synthesize preferenceDescriptionTextField=_preferenceDescriptionTextField;
-@property(nonatomic) __weak NSBox *preferencesBorderBox; // @synthesize preferencesBorderBox=_preferencesBorderBox;
-@property(retain, nonatomic) NSView *preferencesPolicyView; // @synthesize preferencesPolicyView=_preferencesPolicyView;
 @property(nonatomic) __weak NSTableView *preferencesTableView; // @synthesize preferencesTableView=_preferencesTableView;
-@property(readonly, nonatomic) NSDictionary *preferencesToManagers; // @synthesize preferencesToManagers=_preferencesToManagers;
-@property(nonatomic) __weak NSButton *removeButton; // @synthesize removeButton=_removeButton;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSLayoutConstraint *tableContainerWidth; // @synthesize tableContainerWidth=_tableContainerWidth;
-@property(nonatomic) __weak NSStackView *warningStackView; // @synthesize warningStackView=_warningStackView;
-@property(nonatomic) __weak NSTextField *whenVisitingOtherWebsitesPreferenceLabel; // @synthesize whenVisitingOtherWebsitesPreferenceLabel=_whenVisitingOtherWebsitesPreferenceLabel;
 
 @end
 

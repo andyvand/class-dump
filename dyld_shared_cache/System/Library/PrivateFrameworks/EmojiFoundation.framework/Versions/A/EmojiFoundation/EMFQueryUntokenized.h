@@ -10,7 +10,7 @@
 {
 }
 
-- (_Bool);
+- (_Bool)"NSString"8;
 - (id);
 
 @end

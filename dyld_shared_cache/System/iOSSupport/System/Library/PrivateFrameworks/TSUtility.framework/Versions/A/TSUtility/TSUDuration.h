@@ -11,7 +11,7 @@
 
 + (id);
 - (unsigned long long);
-- (id);
+- (id)beginEditingRep:(double)arg1 clearingSelection:withEditorProvider: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (double);

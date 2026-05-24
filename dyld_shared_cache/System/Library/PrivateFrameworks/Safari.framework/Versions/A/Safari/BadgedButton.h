@@ -6,17 +6,13 @@
 
 #import <Safari/ButtonPlus.h>
 
-@class BadgeView, NSString, WarningBadgeView;
+@class BadgeView;
 @protocol BadgedButtonDelegate;
 
 __attribute__((visibility("hidden")))
 @interface BadgedButton : ButtonPlus
 {
     BadgeView *_badgeView;
-    WarningBadgeView *_warningBadgeView;
-    _Bool _showsWarningBadge;
-    _Bool _showsNewExtensionBadge;
-    id <BadgedButtonDelegate> _delegate;
 }
 
 + (void)kÃ3,;
@@ -30,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)er %@;
 - (void);
 - (void);
 - (void);
@@ -39,7 +35,6 @@ __attribute__((visibility("hidden")))
 - (id)Ä ô	;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *badgeText;
 @property __weak id <BadgedButtonDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end

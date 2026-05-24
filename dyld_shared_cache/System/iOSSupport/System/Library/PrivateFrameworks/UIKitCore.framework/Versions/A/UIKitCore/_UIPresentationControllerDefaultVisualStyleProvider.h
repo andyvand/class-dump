@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, _UIPresentationControllerNullVisualStyleProvider, _UISheetPresentationMetrics;
+@class NSMutableDictionary, _UIPresentationControllerNullVisualStyleProvider;
 
 @interface _UIPresentationControllerDefaultVisualStyleProvider
 {
@@ -17,9 +17,9 @@
 - (Class);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)itemId to test conflicting use.;
+- (id)quest _performWithCompletion:(long long)arg1 failed to call completion %@;
+- (id)v16@?0@"NSNumber"8;
 - (void);
 - (void)°1Â0@ù
 × ;
@@ -28,9 +28,9 @@
 - (id)dð1Â0@ù
 × ;
 - (id)× ;
-- (id)nd;
-- (id)nputIdentifier:(id)arg1;
-- (id)ppearanceTransitionsInViewController:(id)arg1;
+- (id)noArrowTopGradientEnd;
+- (id)initWithDocumentWithRecentInputIdentifier:(id)arg1;
+- (id)_enableAppearanceTransitionsInViewController:(id)arg1;
 - (id)icScaleFactor;
 - (id)ndStyle;
 - (id)T@"<_UIAssertion>",N,&,VcollapsedPreviewBackgroundSuppression;
@@ -40,19 +40,7 @@
 - (id)Ps];
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) _UISheetPresentationMetrics *defaultSheetMetrics;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"_UISheetPresentationMetrics",?,R,N
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) _UIPresentationControllerNullVisualStyleProvider *fallbackProvider; // @synthesize fallbackProvider=_fallbackProvider;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSMutableDictionary *providerByIdiom; // @synthesize providerByIdiom=_providerByIdiom;
-@property(readonly) Class superclass;
 
 @end
 

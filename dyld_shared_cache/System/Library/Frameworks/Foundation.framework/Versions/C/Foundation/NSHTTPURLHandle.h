@@ -6,17 +6,10 @@
 
 #import <Foundation/NSURLHandle.h>
 
-@class NSDictionary, NSMutableData;
-
 __attribute__((visibility("hidden")))
 @interface NSHTTPURLHandle : NSURLHandle
 {
     struct __CFHTTPMessage *request;
-    struct __CFReadStream *httpStream;
-    NSMutableData *errorPage;
-    unsigned char examinedHeaders;
-    char _padding[3];
-    NSDictionary *proxyConfig;
 }
 
 + (id);
@@ -24,17 +17,17 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (void);
 - (_Bool);
-- (void);
+- (void)	;
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)P;
 - (id);
 - (long long);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)�!;
 - (void);
 - (id);
 - (struct __CFHTTPMessage *);

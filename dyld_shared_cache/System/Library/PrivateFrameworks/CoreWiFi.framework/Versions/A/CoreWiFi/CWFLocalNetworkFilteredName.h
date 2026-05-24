@@ -9,20 +9,18 @@
 @interface CWFLocalNetworkFilteredName
 {
     NSString *_name;
-    unsigned long long _reason;
 }
 
 + (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void)te;
+- (void);
+- (void)connectionDescriptionForDeferringRuleWithSeed:(id)arg1 pid:result: /* Error: Ran out of types for this method. */;
+- (void)__didInvalidate;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) unsigned long long reason; // @synthesize reason=_reason;
 
 @end
 

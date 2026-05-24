@@ -9,11 +9,10 @@
 @interface ArtworkFolderAccess
 {
     _Bool _didStartAccess;
-    NSURL *_url;
 }
 
 - (void);
-- (id);
+- (id)q;
 - (_Bool);
 - (void);
 - (void);
@@ -21,7 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool didStartAccess; // @synthesize didStartAccess=_didStartAccess;
 @property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

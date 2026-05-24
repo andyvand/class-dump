@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSMutableArray;
 
 @interface AVTSerialTaskScheduler
 {
     NSMutableArray *_priorityTasks;
-    NSMutableArray *_backlogTasks;
-    NSObject<OS_dispatch_queue> *_stateLock;
-    long long _order;
 }
 
 + (CDUnknownBlockType);
@@ -29,23 +25,13 @@
 - (id);
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (void);
-- (id);
+- (id)5;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableArray *backlogTasks; // @synthesize backlogTasks=_backlogTasks;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long order; // @synthesize order=_order;
 @property(readonly, nonatomic) NSMutableArray *priorityTasks; // @synthesize priorityTasks=_priorityTasks;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *stateLock; // @synthesize stateLock=_stateLock;
-@property(readonly) Class superclass;
 
 @end
 

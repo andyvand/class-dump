@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (id);
 - (unsigned short)1Â0@ù

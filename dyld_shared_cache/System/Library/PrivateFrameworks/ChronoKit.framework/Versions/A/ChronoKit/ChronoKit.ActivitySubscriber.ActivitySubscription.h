@@ -7,20 +7,6 @@
 @interface ChronoKit.ActivitySubscriber.ActivitySubscription
 {
     id id;
-    id containerBundleIdentifier;
-    id _lock_descriptor;
-    id _calloutQueue_payloadPublisher;
-    id $__lazy_storage_$_payloadPublisher;
-    id _activityCenter;
-    id _lock;
-    id _lock_contentAssertions;
-    id _lock_state;
-    id _lock_payload;
-    id _lock_payloadSubscription;
-    id _lock_observingPayloads;
-    id _lock_invalidated;
-    id _calloutQueue;
-    id _completion;
 }
 
 @end

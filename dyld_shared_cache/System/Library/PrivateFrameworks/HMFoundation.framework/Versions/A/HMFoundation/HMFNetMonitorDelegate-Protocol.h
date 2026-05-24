@@ -5,5 +5,8 @@
 //
 
 @protocol HMFNetMonitorDelegate
+
+@optional
+- (void)touchUUID;
 @end
 

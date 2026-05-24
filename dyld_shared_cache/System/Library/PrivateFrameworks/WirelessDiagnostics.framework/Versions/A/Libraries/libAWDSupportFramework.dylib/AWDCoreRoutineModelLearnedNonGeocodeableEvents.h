@@ -7,20 +7,11 @@
 @interface AWDCoreRoutineModelLearnedNonGeocodeableEvents
 {
     unsigned long long _timestamp;
-    int _learnedNongeocodableEvents;
-    int _nongeocodableEvents;
-    int _unlearnedNongeocodableEvents;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int learnedNongeocodableEvents:1;
-        unsigned int nongeocodableEvents:1;
-        unsigned int unlearnedNongeocodableEvents:1;
-    } _has;
 }
 
 - (int);
 - (void);
-- (void);
+- (void)@9	;
 - (void);
 - (void);
 - (void);
@@ -30,29 +21,22 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id) ;
 - (void);
 - (void);
+- (unsigned long long)*;
 - (unsigned long long);
-- (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
-- (id);
+- (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasLearnedNongeocodableEvents;
-@property(nonatomic) _Bool hasNongeocodableEvents;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasUnlearnedNongeocodableEvents;
-@property(nonatomic) int learnedNongeocodableEvents; // @synthesize learnedNongeocodableEvents=_learnedNongeocodableEvents;
-@property(nonatomic) int nongeocodableEvents; // @synthesize nongeocodableEvents=_nongeocodableEvents;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) int unlearnedNongeocodableEvents; // @synthesize unlearnedNongeocodableEvents=_unlearnedNongeocodableEvents;
 
 @end
 

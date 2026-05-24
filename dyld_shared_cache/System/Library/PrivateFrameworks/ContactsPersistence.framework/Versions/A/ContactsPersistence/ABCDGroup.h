@@ -6,21 +6,15 @@
 
 #import <ContactsPersistence/ABCDRecord.h>
 
-@class CNCDContainer, NSSet, NSString;
+@class NSString;
 
 @interface ABCDGroup : ABCDRecord
 {
     id _readWriteSharingACL;
-    id _readSharingACL;
 }
 
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *contacts; // @dynamic contacts;
-@property(retain, nonatomic) CNCDContainer *container; // @dynamic container;
-@property(nonatomic) unsigned long long externalGroupBehavior; // @dynamic externalGroupBehavior;
-@property(retain, nonatomic) NSString *name; // @dynamic name;
-@property(retain, nonatomic) NSString *nameNormalized; // @dynamic nameNormalized;
 @property(retain, nonatomic) NSString *primitiveName; // @dynamic primitiveName;
 @end
 

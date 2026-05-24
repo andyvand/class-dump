@@ -4,30 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface LPProductMetadata
 {
     NSArray *_prices;
-    NSString *_pluralTitle;
 }
 
-+ (_Bool);
++ (_Bool)^t;
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)k!;
+- (id)Executing;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)@;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *pluralTitle; // @synthesize pluralTitle=_pluralTitle;
 @property(copy, nonatomic) NSArray *prices; // @synthesize prices=_prices;
 
 @end

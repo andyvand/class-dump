@@ -9,19 +9,17 @@
 @interface PGLongTailSuggestionCandidate
 {
     PHAsset *_asset;
-    unsigned long long _score;
 }
 
-- (_Bool);
-- (_Bool);
-- (id);
-- (unsigned long long);
+- (_Bool)eventTapManager:(id)arg1 activelyTappedMouseEvent:cgEvent:withProxy: /* Error: Ran out of types for this method. */;
+- (_Bool)eventTapManager:(id)arg1 activelyTappedGestureEvent:cgEvent:withProxy: /* Error: Ran out of types for this method. */;
+- (id)_elementInfo;
+- (unsigned long long)!;
 - (id)r;
 - (void)ry/BuildRoots/4~CNrLugBm5mZzGZhQIi0idKaHXqMbtQ878o7HncI/Library/Caches/com.apple.xbs/TemporaryDirectory.52v2gD/Sources/Photos_Swift/workspaces/photoanalysis/PhotosGraph/Framework/Memories/Memory Generators/CurrentMemoryGenerators/TripMemoryGenerators/PGRecurrentTripMemoryGenerator.m;
 
 // Remaining properties
 @property(readonly, nonatomic) PHAsset *asset; // @synthesize asset=_asset;
-@property(readonly, nonatomic) unsigned long long score; // @synthesize score=_score;
 
 @end
 

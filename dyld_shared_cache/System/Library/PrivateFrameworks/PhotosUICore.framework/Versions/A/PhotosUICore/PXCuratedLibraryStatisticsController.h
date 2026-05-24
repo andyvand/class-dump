@@ -7,16 +7,15 @@
 @interface PXCuratedLibraryStatisticsController
 {
     struct _PXLayoutGeometry *_resuableLayoutGeometries;
-    long long _reusableLayoutGeometriesCapacity;
 }
 
-+ (id);
++ (id)_waiting;
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (struct _PXLayoutGeometry *);
-- (void);
+- (struct _PXLayoutGeometry *)H*(;
+- (void);
 
 @end
 

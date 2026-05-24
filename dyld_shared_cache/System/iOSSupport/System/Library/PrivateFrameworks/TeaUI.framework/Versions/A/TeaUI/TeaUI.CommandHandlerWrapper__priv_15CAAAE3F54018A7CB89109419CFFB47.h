@@ -7,9 +7,6 @@
 @interface TeaUI.CommandHandlerWrapper__priv_15CAAAE3F54018A7CB89109419CFFB47
 {
     id onExecute;
-    id canHandle;
-    id determineState;
-    id keepAliveObject;
 }
 
 @end

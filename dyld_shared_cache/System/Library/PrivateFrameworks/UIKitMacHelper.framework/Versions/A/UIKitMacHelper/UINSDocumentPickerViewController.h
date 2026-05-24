@@ -4,26 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSOpenPanel, NSSavePanel, NSString, NSURL, NSWindow;
+@class NSWindow;
 
 __attribute__((visibility("hidden")))
 @interface UINSDocumentPickerViewController
 {
     NSWindow *_parentWindow;
-    unsigned long long _documentPickerMode;
-    NSArray *_documentTypes;
-    NSOpenPanel *_openPanel;
-    NSSavePanel *_savePanel;
-    NSArray *_urls;
-    NSString *_utiForFirstURL;
-    NSOpenPanel *_movePanel;
-    _Bool _allowsMultipleSelection;
-    NSURL *_directoryURL;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)rB;
 - (void);
 - (void);
 - (void);

@@ -4,24 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWRenderList, BWRenderListParameters, BWSpringSimulation, NSObject;
+@class BWRenderList, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface BWRenderListAnimator
 {
     NSObject<OS_dispatch_queue> *_preparationMutexQueue;
-    _Bool _preparationMutexQueuePrepared;
-    BWRenderList *_interpolatingRenderList;
-    BWRenderListParameters *_interpolatingParameters;
-    BWSpringSimulation *_springSimulation;
-    BWRenderList *_initialRenderList;
-    BWRenderListParameters *_initialParameters;
-    BWRenderList *_finalRenderList;
-    BWRenderListParameters *_finalParameters;
 }
 
 + (void)d;
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -29,20 +21,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)OITSUMutableShallowCopyPair;
 - (id);
-- (_Bool);
+- (_Bool)universalURL;
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isCompleted) _Bool completed;
-@property(readonly, retain, nonatomic) BWRenderListParameters *finalParameters; // @synthesize finalParameters=_finalParameters;
-@property(readonly, retain, nonatomic) BWRenderList *finalRenderList; // @synthesize finalRenderList=_finalRenderList;
-@property(readonly, retain, nonatomic) BWRenderListParameters *initialParameters; // @synthesize initialParameters=_initialParameters;
-@property(readonly, retain, nonatomic) BWRenderList *initialRenderList; // @synthesize initialRenderList=_initialRenderList;
-@property(readonly, retain, nonatomic) BWRenderListParameters *parameters; // @synthesize parameters=_interpolatingParameters;
-@property(readonly, nonatomic, getter=isPrepared) _Bool prepared;
 @property(readonly, retain, nonatomic) BWRenderList *renderList; // @synthesize renderList=_interpolatingRenderList;
 
 @end

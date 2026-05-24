@@ -6,12 +6,11 @@
 
 #import <Contacts/CNContactPosterDataDeleteRequest.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CNContactImageDeleteRequest : CNContactPosterDataDeleteRequest
 {
     NSString *_attributeName;
-    NSArray *_attributesToDeleteBy;
 }
 
 + (id);
@@ -28,11 +27,10 @@
 - (_Bool);
 - (void);
 - (void)Logger>";
-- (void)WithService:(id)arg1 queue: /* Error: Ran out of types for this method. */;
+- (void)initWithService:(id)arg1 queue: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *attributeName; // @synthesize attributeName=_attributeName;
-@property(readonly, copy, nonatomic) NSArray *attributesToDeleteBy; // @synthesize attributesToDeleteBy=_attributesToDeleteBy;
 
 @end
 

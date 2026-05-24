@@ -9,17 +9,6 @@
 @interface EQKitPathBox : EQKitBox
 {
     struct CGPath *mCGPath;
-    double mHeight;
-    double mPaddingLeft;
-    double mPaddingRight;
-    double mDepth;
-    double mWidth;
-    _Bool mDimensionsValid;
-    struct CGRect mErasableBounds;
-    _Bool mErasableBoundsValid;
-    struct CGColor *mCGColor;
-    int mDrawingMode;
-    double mLineWidth;
 }
 
 - (void);
@@ -30,7 +19,7 @@
 - (id);
 - (id);
 - (struct CGRect);
-- (int);
+- (int);
 - (_Bool);
 - (struct CGPath *);
 - (void);
@@ -40,22 +29,14 @@
 - (double);
 - (double);
 - (double);
-- (struct CGColor *);
+- (struct CGColor *)intended for the currently active session.;
 - (_Bool);
 - (id);
 - (double)elper",R,N;
 - (double)bí;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGPath *cgPath; // @synthesize cgPath=mCGPath;
-@property(readonly, nonatomic) struct CGColor *color; // @synthesize color=mCGColor;
-@property(readonly, nonatomic) double depth;
-@property(readonly, nonatomic) int drawingMode; // @synthesize drawingMode=mDrawingMode;
 @property(readonly, nonatomic) double height; // @synthesize height=mHeight;
-@property(readonly, nonatomic) double lineWidth; // @synthesize lineWidth=mLineWidth;
-@property(readonly, nonatomic) double paddingLeft; // @synthesize paddingLeft=mPaddingLeft;
-@property(readonly, nonatomic) double paddingRight; // @synthesize paddingRight=mPaddingRight;
-@property(readonly, nonatomic) double width;
 
 @end
 

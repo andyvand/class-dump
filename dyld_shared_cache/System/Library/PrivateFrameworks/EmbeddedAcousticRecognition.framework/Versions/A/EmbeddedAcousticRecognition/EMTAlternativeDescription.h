@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMTGenderDescription, EMTMeaningDescription;
-
 @interface EMTAlternativeDescription
 {
     unsigned long long _alternativeType;
-    EMTGenderDescription *_genderDescription;
-    EMTMeaningDescription *_meaningDescription;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)work/Versions/A/Security;
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -24,8 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long alternativeType; // @synthesize alternativeType=_alternativeType;
-@property(readonly, nonatomic) EMTGenderDescription *genderDescription; // @synthesize genderDescription=_genderDescription;
-@property(readonly, nonatomic) EMTMeaningDescription *meaningDescription; // @synthesize meaningDescription=_meaningDescription;
 
 @end
 

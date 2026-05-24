@@ -5,5 +5,8 @@
 //
 
 @protocol MMPinFieldViewDelegate
+
+@optional
+- (void);
 @end
 

@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _UICollectionLayoutFramesQueryOffsets
 {
     long long _indexOffset;
-    long long _supplementaryIndexOffset;
-    struct CGPoint _frameOffset;
 }
 
 - (long long);
@@ -23,8 +21,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) struct CGPoint frameOffset; // @synthesize frameOffset=_frameOffset;
-@property(nonatomic) long long indexOffset; // @synthesize indexOffset=_indexOffset;
-@property(nonatomic) long long supplementaryIndexOffset; // @synthesize supplementaryIndexOffset=_supplementaryIndexOffset;
 
 @end
 

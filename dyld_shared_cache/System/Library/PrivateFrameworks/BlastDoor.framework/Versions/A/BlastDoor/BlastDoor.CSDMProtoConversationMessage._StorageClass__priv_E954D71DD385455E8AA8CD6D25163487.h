@@ -7,37 +7,6 @@
 @interface BlastDoor.CSDMProtoConversationMessage._StorageClass__priv_E954D71DD385455E8AA8CD6D25163487
 {
     id _version;
-    id _type;
-    id _shouldSuppressInCallUi;
-    id _activeParticipants;
-    id _conversationGroupUuidstring;
-    id _addedMembers;
-    id _disconnectedReason;
-    id _protoUpgradeSessionUuid;
-    id _activitySessions;
-    id _nickname;
-    id _link;
-    id _reportData;
-    id _isLetMeInApproved;
-    id _encryptedMessage;
-    id _letMeInDelegationHandle;
-    id _letMeInDelegationUuid;
-    id _enclosedEncryptedType;
-    id _invitationPreferences;
-    id _removedMembers;
-    id _lightweightMembers;
-    id _activeLightweightParticipants;
-    id _guestModeEnabled;
-    id _highlightIdentifier;
-    id _joinedMetadata;
-    id _stagedActivitySession;
-    id _avMode;
-    id _requestBlobRecoveryOptions;
-    id _screenShareContext;
-    id _presentationMode;
-    id _invitationContext;
-    id _isNearbySession;
-    id _sharePlayAvailable;
 }
 
 @end

@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-@protocol UINSDocumentBrowserViewControllerDelegate, UINSWindow;
+@class NSString;
+@protocol UINSDocumentBrowserViewControllerDelegate;
 
 @protocol UINSDocumentBrowserViewController
-
-// Remaining properties
-@property(nonatomic) _Bool allowsDocumentCreation;
-@property(nonatomic) _Bool allowsPickingMultipleItems;
-@property(copy, nonatomic) NSArray *customActions;
+- (void)!;
 @property(nonatomic) __weak id <UINSDocumentBrowserViewControllerDelegate> delegate;
-@property(retain, nonatomic) NSArray *documentTypes;
-@property(copy, nonatomic) NSString *sceneIdentifier;
-@property(nonatomic) __weak id <UINSWindow> window;
+- (void)id offset size 1 - %ld %llu;
+- (void)*}SJ2j	;
+- (void);
+- (NSString *);
 @end
 

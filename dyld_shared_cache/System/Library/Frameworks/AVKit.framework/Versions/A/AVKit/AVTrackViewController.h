@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayerController, AVPlayerLayer, AVTrackView;
+@class AVPlayerController;
 
 __attribute__((visibility("hidden")))
 @interface AVTrackViewController
 {
     AVPlayerController *_playerController;
-    _Bool _showsAlternateMediaTrackPreview;
-    _Bool _updatesDuringLiveResize;
-    AVTrackView *_trackView;
-    AVPlayerLayer *_trimThumbnailPlayerLayer;
-    _Bool _showsAudioTrackPreview;
 }
 
 - (void);
@@ -29,22 +24,19 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (_Bool);
-- (void);
+- (void)lu)
+;
+- (id)_isPrincipalObjectValid;
 - (id);
-- (id);
-- (id);
+- (id)n);e;e=Node.nodePath_nextSibling(e)){if(!Node.nodePath_includeWhenComputingSiblingIndex(e))continue;let t=Number.MIN_VALUE,n=!0;const s=(e,o)=>{e?t+=o:n=!1},r=(e,o)=>{1!==e&&(n=!1),t+=e*o},h=e=>{e&&(n=!1,t-=e)};if(s(Node.nodePath_nodeType(e)===o.type,WAS.NodePath.#h),Element.nodePath_isElement(e)){s(Element.nodePath_tagName(e)==o.tag,WAS.NodePath.#l),s(Element.nodePath_id(e)==o.id,WAS.NodePath.#c);let t=Element.nodePath_className(e)?.split(" ")??[],n=t.length,a=o.classes?.split(" ")??[],i=a.length;for(let e=0;e<a.length;++e){let n=a[e],o=t.indexOf(n);-1!==o&&(t.splice(o,1),a.splice(e,1),--e)}r((n?(n-t.length)/n:1)*(i?(i-a.length)/i:1),WAS.NodePath.#N),r(Node.nodePath_immediateInnerTextOfNode(e).nodePath_similarityTo(o.text),WAS.NodePath.#m)}else if(Text.nodePath_isText(e)){let t=CharacterData.nodePath_data(e)?.nodePath_similarityTo(o.text);r(t,WAS.NodePath.#m)}if(h(Math.abs(d-o.index)*WAS.NodePath.#p),n){a=Number.NaN,i=e;break}t>a&&(a=t,i=e),++d}s()}return n}};
+0; /* Error: Ran out of types for this method. */;
 - (void);
+- (void)h;
 - (void);
-- (void);
-- (void);
+- (void)9;
 
 // Remaining properties
-@property(readonly) double allowedScrollAmount;
 @property __weak AVPlayerController *playerController;
-@property _Bool showsAlternateMediaTrackPreview;
-@property(readonly) _Bool showsAudioTrackPreview; // @synthesize showsAudioTrackPreview=_showsAudioTrackPreview;
-@property(retain) AVPlayerLayer *trimThumbnailPlayerLayer;
-@property _Bool updatesDuringLiveResize;
 
 @end
 

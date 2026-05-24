@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CMCaptureLocalSessionVideoConfiguration, NSArray, NSDictionary, NSMutableDictionary, NSMutableSet;
+@class NSMutableSet;
 @protocol CMCaptureLocalSessionOutputStreamSampleBufferReceiver;
 
 @interface CMCaptureLocalSessionOutputStream
 {
     id <CMCaptureLocalSessionOutputStreamSampleBufferReceiver> _sampleBufferReceiver;
-    CMCaptureLocalSessionVideoConfiguration *_videoConfiguration;
-    NSArray *_associatedSinkIDs;
-    NSMutableSet *_requestedMetadataObjects;
-    NSMutableDictionary *_faceTrackingAttributes;
 }
 
 + (void):((void *)0)] /* Error: Ran out of types for this method. */;
@@ -23,20 +19,16 @@
 - (id);
 - (id);
 - (void);
+- (id)k`;
 - (id);
-- (id);
-- (id);
+- (id)1;
 - (struct opaqueCMSampleBuffer *);
 - (void);
-- (void);
+- (void),V_conditionList;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *associatedSinkIDs; // @synthesize associatedSinkIDs=_associatedSinkIDs;
-@property(retain, nonatomic) NSDictionary *faceTrackingAttributes; // @synthesize faceTrackingAttributes=_faceTrackingAttributes;
 @property(retain, nonatomic) NSMutableSet *requestedMetadataObjects; // @synthesize requestedMetadataObjects=_requestedMetadataObjects;
-@property(readonly, nonatomic) id <CMCaptureLocalSessionOutputStreamSampleBufferReceiver> sampleBufferReceiver; // @synthesize sampleBufferReceiver=_sampleBufferReceiver;
-@property(readonly, nonatomic) CMCaptureLocalSessionVideoConfiguration *videoConfiguration; // @synthesize videoConfiguration=_videoConfiguration;
 
 @end
 

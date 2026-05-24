@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol NSSharingServiceDelegate;
+
 @protocol NSSharingServicePickerDelegate
+
+@optional
+- (void)rk/Versions/A/CoreFoundation;
+- (id <NSSharingServiceDelegate>);
 @end
 

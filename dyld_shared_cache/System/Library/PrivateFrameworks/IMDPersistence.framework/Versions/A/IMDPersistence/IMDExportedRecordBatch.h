@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface IMDExportedRecordBatch
 {
     long long examinedRecordsCount;
-    _Bool isDone;
-    double databaseQueryDuration;
-    long long recordCount;
 }
 
 + (_Bool);
@@ -19,25 +14,19 @@
 - (double);
 - (id);
 - (long long);
-- (double);
+- (double)!;
+- (id)SButton",&,N,V_actionTitle;
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)(;
+- (_Bool)downloadSFRFromUpdateDescriptor:overrides:progressBlock:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (long long);
-- (void);
+- (void)GkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDAggregateClusterMappingData_macOS.m:(_Bool)arg1 44 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) double databaseQueryDuration; // @synthesize databaseQueryDuration;
-@property(nonatomic, readonly) NSString *description;
 @property(nonatomic, readonly) long long examinedRecordsCount; // @synthesize examinedRecordsCount;
-@property(nonatomic) _Bool isDone; // @synthesize isDone;
-@property(nonatomic, readonly) _Bool isEmpty;
-@property(nonatomic) long long recordCount; // @synthesize recordCount;
-@property(nonatomic, readonly) double recordsPerSecond;
 
 @end
 

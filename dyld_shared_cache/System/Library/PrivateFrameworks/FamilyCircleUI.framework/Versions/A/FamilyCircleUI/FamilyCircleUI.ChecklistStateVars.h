@@ -7,17 +7,6 @@
 @interface FamilyCircleUI.ChecklistStateVars
 {
     id _showCalendarFlow;
-    id _showSharedGroceryListFlow;
-    id _showSharedPasswordsFlow;
-    id _recoveryContactAlreadySetupFlow;
-    id _purchaseSharingFlow;
-    id _beneficaryContactFlow;
-    id _showHomeWasPushed;
-    id _showCommsViewPushed;
-    id _showICloudFlow;
-    id _showContactView;
-    id _showMessageConfig;
-    id _$observationRegistrar;
 }
 
 @end

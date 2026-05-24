@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
     _Bool _containsValue;
 }
 
-- (void);
+- (void)#;
 - (_Bool);
 
 // Remaining properties

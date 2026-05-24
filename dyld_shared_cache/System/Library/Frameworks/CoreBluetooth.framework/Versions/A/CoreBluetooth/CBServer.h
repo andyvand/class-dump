@@ -4,27 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBPeripheralManager, NSData, NSMutableSet, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface CBServer
 {
     _Bool _activateCalled;
-    CDUnknownBlockType _activateCompletion;
-    NSMutableSet *_connections;
-    _Bool _invalidateCalled;
-    CBPeripheralManager *_peripheralManager;
-    struct LogCategory *_ucat;
-    unsigned short _bleListenPSM;
-    unsigned short _bleListeningPSM;
-    long long _bluetoothState;
-    CDUnknownBlockType _bluetoothStateChangedHandler;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _invalidationHandler;
-    NSString *_label;
-    CDUnknownBlockType _acceptHandler;
-    NSData *_tempLTK;
-    CDUnknownBlockType _configChangedHandler;
 }
 
 - (void);
@@ -36,7 +18,7 @@
 - (unsigned short);
 - (long long);
 - (void);
-- (void);
+- (void)initWithLoadingRequest:(id)arg1 requestedOffset:(id)arg2 requestedLength:requestsAllDataToEndOfResource:canSupplyIncrementalDataImmediately: /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType);
 - (void);
 - (void);
@@ -50,40 +32,24 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
+- (void)";
+- (void)N,V_deviceModelVersion;
+- (void);
+- (void)@;
+- (void);
+- (void);
+- (CDUnknownBlockType)iaKit reports Device Level parameter error;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)BackgroundProcessing::SystemConditionsInUseOrMotion /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType acceptHandler; // @synthesize acceptHandler=_acceptHandler;
-@property(nonatomic) unsigned short bleListenPSM; // @synthesize bleListenPSM=_bleListenPSM;
-@property(readonly, nonatomic) unsigned short bleListeningPSM; // @synthesize bleListeningPSM=_bleListeningPSM;
-@property(readonly, nonatomic) long long bluetoothState; // @synthesize bluetoothState=_bluetoothState;
-@property(copy, nonatomic) CDUnknownBlockType bluetoothStateChangedHandler; // @synthesize bluetoothStateChangedHandler=_bluetoothStateChangedHandler;
-@property(copy, nonatomic) CDUnknownBlockType configChangedHandler; // @synthesize configChangedHandler=_configChangedHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSData *tempLTK; // @synthesize tempLTK=_tempLTK;
 
 @end
 

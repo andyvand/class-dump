@@ -7,11 +7,9 @@
 @class NSString;
 
 @protocol _INPBOpenSettingIntentResponse
+- (_Bool)#;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *errorDetail;
-@property(readonly, nonatomic) _Bool hasErrorDetail;
-@property(readonly, nonatomic) _Bool hasPunchoutUrl;
-@property(copy, nonatomic) NSString *punchoutUrl;
 @end
 

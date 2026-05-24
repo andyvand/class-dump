@@ -7,6 +7,7 @@
 @protocol PKAccountServiceObserver
 
 @optional
+- (void)/;
 - (void)0@ù
 × ;
 @end

@@ -5,5 +5,6 @@
 //
 
 @protocol CRKCardSectionViewControllingDelegate
+- (_Bool);
 @end
 

@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocationManager, CalLocationAuthorizationStatus, NSObject, NSString;
-@protocol OS_dispatch_group;
-
 @interface CalLocationAuthorization
 {
     id _bundleOrBundleIdentifier;
-    NSObject<OS_dispatch_group> *_initializationGroup;
-    CLLocationManager *_locationManager;
-    CalLocationAuthorizationStatus *_status;
-    struct os_unfair_lock_s _lock;
-    unsigned long long _initializedTimestamp;
-    unsigned long long _firstCallbackReceivedTimestamp;
-    _Bool _failedToInitializePrecision;
 }
 
 + (void);
@@ -24,11 +14,11 @@
 + (void);
 + (void);
 + (unsigned long long);
++ (unsigned long long)ize=dd}{CGSize=dd}{CGSize=dd}}128@0:(id)arg1 8{CGRect={CGPoint=dd}{CGSize=dd}}16{?={CGSize=dd}{CGSize=dd}{CGSize=dd}}48{CGRect={CGPoint=dd}{CGSize=dd}}96;
++ (_Bool);
++ (int);
++ (void)et;
 + (unsigned long long);
-+ (_Bool);
-+ (int);
-+ (void);
-+ (unsigned long long);
 + (id);
 + (int);
 + (id);
@@ -36,25 +26,20 @@
 + (void);
 + (_Bool);
 + (id);
-+ (int);
++ (int)_results;
 + (id);
 + (_Bool);
-+ (void);
-+ (void);
-- (void);
++ (void)__TEXT;
++ (void)adminRemovalDisallowedForProfile:(id)arg1;
+- (void);
 - (id);
 - (unsigned long long);
-- (id);
-- (void);
+- (id)ForUser returning stateDict = 
+%s;
+- (void);;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

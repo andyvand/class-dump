@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, TRIClient;
-@protocol OS_dispatch_queue;
+@class NSArray;
 
 @interface TRILogger
 {
     int _projectId;
-    NSObject<OS_dispatch_queue> *_loggingQueue;
-    TRIClient *_client;
-    NSArray *_logHandlers;
 }
 
 - (void);
@@ -30,12 +26,12 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)H;
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)initWithCategory:(id)arg1 arrangeVertically:(id)arg2 accessibilityContrast:(id)arg3 displayScale:(id)arg4 layoutDirection:(id)arg5 legibilityWeight:localization:preferredContentSizeCategory:userInterfaceIdiom: /* Error: Ran out of types for this method. */;
+- (id)N7ModelIO11RTAreaLightE;
 - (void)1!°1Â0@ù
 × ;
 

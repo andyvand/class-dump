@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectContext;
-@protocol CNCDPersistenceBackend, CNCDPersistenceChangesNotifier;
+@protocol CNCDPersistenceBackend;
 
 @interface CNCDPersistenceContext
 {
     _Bool _registeredForDidSaveNotification;
-    id <CNCDPersistenceBackend> _persistenceBackend;
-    NSManagedObjectContext *_managedObjectContext;
-    id _owningAddressBook;
-    id <CNCDPersistenceChangesNotifier> _changesNotifier;
-    double _lastRepairCheckTimestamp;
 }
 
 + (id);
@@ -35,32 +29,27 @@
 - (void);
 - (double);
 - (id);
+- (id);
 - (id);
 - (id);
+- (id);
+- (unsigned long long)';
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id): /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (void);
-- (id)n;
+- (id)phoneticOrganization;
 
 // Remaining properties
-@property(readonly, nonatomic) id <CNCDPersistenceChangesNotifier> changesNotifier; // @synthesize changesNotifier=_changesNotifier;
-@property(nonatomic) double lastRepairCheckTimestamp; // @synthesize lastRepairCheckTimestamp=_lastRepairCheckTimestamp;
-@property(readonly, nonatomic) NSManagedObjectContext *managedObjectContext; // @synthesize managedObjectContext=_managedObjectContext;
-@property(readonly, nonatomic) id owningAddressBook; // @synthesize owningAddressBook=_owningAddressBook;
 @property(readonly, nonatomic) id <CNCDPersistenceBackend> persistenceBackend; // @synthesize persistenceBackend=_persistenceBackend;
-@property(readonly, nonatomic) _Bool registeredForDidSaveNotification; // @synthesize registeredForDidSaveNotification=_registeredForDidSaveNotification;
 
 @end
 

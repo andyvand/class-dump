@@ -5,5 +5,13 @@
 //
 
 @protocol LSApplicationWorkspaceObserverProtocol
+
+@optional
+- (void)i";
+- (void)8ԑ;
+- (void)variant=%d;
+- (void)0%_Transitions;
+- (void)LParseBufferToCxt:RCBins(55):Cannot add 100 elements to context /* Error: Ran out of types for this method. */;
+- (void);
 @end
 

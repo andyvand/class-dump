@@ -4,46 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface CUBLEDevice
 {
     unsigned char _nearbyActivityLevel;
-    unsigned char _objectDiscoveryBatteryState;
-    unsigned char _objectSetupBatteryState;
-    unsigned char _objectSetupColorCode;
-    unsigned char _proximityPairingAudioSourceCount;
-    unsigned short _objectDiscoveryProductID;
-    unsigned short _proximityPairingProductID;
-    CDStruct_ae2970c9 _proximityPairingLastConnectedHost;
-    unsigned int _changeFlags;
-    unsigned int _deviceFlags;
-    unsigned int _lgFlags;
-    int _nearbyActionType;
-    unsigned int _nearbyFlags;
-    int _objectDiscoveryMode;
-    int _objectSetupBatteryPerformance;
-    unsigned int _objectSetupFlags;
-    int _proximityPairingSubType;
-    int _rawRSSI;
-    unsigned int _scanFlags;
-    NSData *_addressData;
-    NSData *_appleManufacturerData;
-    NSString *_identifier;
-    NSData *_lgBTAddress;
-    NSData *_lgDeviceID;
-    NSData *_manufacturerData;
-    NSData *_nearbyAuthTag;
-    NSData *_objectDiscoveryNearOwnerID;
-    NSData *_objectDiscoveryPublicKeyData;
-    NSString *_objectSetupFontCode;
-    NSString *_objectSetupMessage;
 }
 
 - (unsigned int);
 - (int);
 - (unsigned short);
-- (CDStruct_ae2970c9);
+- (CDStruct_8356e4f6);
 - (unsigned char);
 - (id);
 - (id);
@@ -60,16 +29,16 @@
 - (id);
 - (unsigned char);
 - (int);
+- (id)P;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (int);
@@ -77,9 +46,9 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)FilterQueryLength;
 - (unsigned int);
-- (id);
+- (id)idmsWalrusStatus;
 - (unsigned int);
 - (unsigned int);
 - (void);
@@ -88,36 +57,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *addressData; // @synthesize addressData=_addressData;
-@property(readonly, copy, nonatomic) NSData *appleManufacturerData; // @synthesize appleManufacturerData=_appleManufacturerData;
 @property(nonatomic) unsigned int changeFlags; // @synthesize changeFlags=_changeFlags;
-@property(nonatomic) unsigned int deviceFlags; // @synthesize deviceFlags=_deviceFlags;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSData *lgBTAddress; // @synthesize lgBTAddress=_lgBTAddress;
-@property(readonly, copy, nonatomic) NSData *lgDeviceID; // @synthesize lgDeviceID=_lgDeviceID;
-@property(readonly, nonatomic) unsigned int lgFlags; // @synthesize lgFlags=_lgFlags;
-@property(readonly, copy, nonatomic) NSData *manufacturerData; // @synthesize manufacturerData=_manufacturerData;
-@property(readonly, nonatomic) int nearbyActionType; // @synthesize nearbyActionType=_nearbyActionType;
-@property(readonly, nonatomic) unsigned char nearbyActivityLevel; // @synthesize nearbyActivityLevel=_nearbyActivityLevel;
-@property(readonly, copy, nonatomic) NSData *nearbyAuthTag; // @synthesize nearbyAuthTag=_nearbyAuthTag;
-@property(readonly, nonatomic) unsigned int nearbyFlags; // @synthesize nearbyFlags=_nearbyFlags;
-@property(readonly, nonatomic) unsigned char objectDiscoveryBatteryState; // @synthesize objectDiscoveryBatteryState=_objectDiscoveryBatteryState;
-@property(readonly, nonatomic) int objectDiscoveryMode; // @synthesize objectDiscoveryMode=_objectDiscoveryMode;
-@property(readonly, copy, nonatomic) NSData *objectDiscoveryNearOwnerID; // @synthesize objectDiscoveryNearOwnerID=_objectDiscoveryNearOwnerID;
-@property(readonly, nonatomic) unsigned short objectDiscoveryProductID; // @synthesize objectDiscoveryProductID=_objectDiscoveryProductID;
-@property(readonly, copy, nonatomic) NSData *objectDiscoveryPublicKeyData; // @synthesize objectDiscoveryPublicKeyData=_objectDiscoveryPublicKeyData;
-@property(readonly, nonatomic) int objectSetupBatteryPerformance; // @synthesize objectSetupBatteryPerformance=_objectSetupBatteryPerformance;
-@property(readonly, nonatomic) unsigned char objectSetupBatteryState; // @synthesize objectSetupBatteryState=_objectSetupBatteryState;
-@property(readonly, nonatomic) unsigned char objectSetupColorCode; // @synthesize objectSetupColorCode=_objectSetupColorCode;
-@property(readonly, nonatomic) unsigned int objectSetupFlags; // @synthesize objectSetupFlags=_objectSetupFlags;
-@property(readonly, copy, nonatomic) NSString *objectSetupFontCode; // @synthesize objectSetupFontCode=_objectSetupFontCode;
-@property(readonly, copy, nonatomic) NSString *objectSetupMessage; // @synthesize objectSetupMessage=_objectSetupMessage;
-@property(readonly, nonatomic) unsigned char proximityPairingAudioSourceCount; // @synthesize proximityPairingAudioSourceCount=_proximityPairingAudioSourceCount;
-@property(readonly, nonatomic) CDStruct_ae2970c9 proximityPairingLastConnectedHost; // @synthesize proximityPairingLastConnectedHost=_proximityPairingLastConnectedHost;
-@property(readonly, nonatomic) unsigned short proximityPairingProductID; // @synthesize proximityPairingProductID=_proximityPairingProductID;
-@property(readonly, nonatomic) int proximityPairingSubType; // @synthesize proximityPairingSubType=_proximityPairingSubType;
-@property(readonly, nonatomic) int rawRSSI; // @synthesize rawRSSI=_rawRSSI;
-@property(readonly, nonatomic) unsigned int scanFlags; // @synthesize scanFlags=_scanFlags;
 
 @end
 

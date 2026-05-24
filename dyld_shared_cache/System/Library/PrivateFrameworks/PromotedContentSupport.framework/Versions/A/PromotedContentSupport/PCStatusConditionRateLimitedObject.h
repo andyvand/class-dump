@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSUUID;
+@class NSUUID;
 
 @interface PCStatusConditionRateLimitedObject
 {
     NSUUID *_statusCondition;
-    NSDate *_setTime;
-    long long _operation;
 }
 
 - (id);
 - (id);
 - (id);
 - (void);
-- (long long);
+- (long long)hasVersion;
 
 // Remaining properties
-@property(readonly, nonatomic) long long operation; // @synthesize operation=_operation;
-@property(readonly, nonatomic) NSDate *setTime; // @synthesize setTime=_setTime;
 @property(readonly, nonatomic) NSUUID *statusCondition; // @synthesize statusCondition=_statusCondition;
 
 @end

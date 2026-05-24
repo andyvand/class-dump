@@ -22,8 +22,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)NEServicesFrameProcDirect(void *, ANERequestReceiverRequest *);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<ScreenReaderCaptureReceiver> *receiver; // @synthesize receiver=_receiver;

@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTLazuliChatBotPostbackData, NSString;
+@class NSString;
 
 @interface CTLazuliChatBotSuggestion
 {
     NSString *_displayText;
-    CTLazuliChatBotPostbackData *_postback;
 }
 
-+ (_Bool);
++ (_Bool)ourceRequestEvent:%@> /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)h;
 - (id);
 - (_Bool);
 - (void);
@@ -29,7 +28,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *displayText; // @synthesize displayText=_displayText;
-@property(retain, nonatomic) CTLazuliChatBotPostbackData *postback; // @synthesize postback=_postback;
 
 @end
 

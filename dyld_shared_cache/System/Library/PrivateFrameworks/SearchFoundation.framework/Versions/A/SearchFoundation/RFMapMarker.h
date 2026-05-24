@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, RFColor, RFMapMarkerIdentifier, RFMapMarkerImage, RFMapMarkerText;
+@class RFMapMarkerIdentifier;
 
 @interface RFMapMarker
 {
@@ -13,14 +13,10 @@
         unsigned int text:1;
         unsigned int image:1;
     } _has;
-    RFMapMarkerIdentifier *_identifier;
-    RFMapMarkerText *_text;
-    RFMapMarkerImage *_image;
-    RFColor *_tint;
 }
 
 + (_Bool);
-- (id);
+- (id)isRepresentation:(id)arg1 bestRepresentationForArtworkCatalog: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (id);
@@ -30,8 +26,8 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)sortDescriptorsForAssetsInAlbumWithSortKey:(id)arg1 ascending: /* Error: Ran out of types for this method. */;
+- (id)SuggestionScore;
 - (id);
 - (id);
 - (id);
@@ -42,19 +38,7 @@
 - (_Bool)Çÿ6s¹;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) RFMapMarkerIdentifier *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) RFMapMarkerImage *image; // @synthesize image=_image;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) RFMapMarkerText *text; // @synthesize text=_text;
-@property(retain, nonatomic) RFColor *tint; // @synthesize tint=_tint;
 
 @end
 

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMEventTrigger, NSString, NSUUID, _HMContext;
+@class _HMContext;
 
 @interface HMEvent
 {
     struct os_unfair_lock_s _lock;
-    _Bool _endEvent;
-    HMEventTrigger *_eventTrigger;
-    NSUUID *_uniqueIdentifier;
-    _HMContext *_context;
-    NSUUID *_uuid;
-    NSString *_triggerType;
 }
 
 + (_Bool);
@@ -37,10 +31,10 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (_Bool);
+- (id)G		-	>	;
+- (_Bool)schmaltz;
 - (void);
-- (id);
+- (id)@+;
 - (void);
 - (id);
 - (void)ÿÿ
@@ -48,18 +42,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) _HMContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEndEvent) _Bool endEvent; // @synthesize endEvent=_endEvent;
-@property(nonatomic) __weak HMEventTrigger *eventTrigger; // @synthesize eventTrigger=_eventTrigger;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *triggerType; // @synthesize triggerType=_triggerType;
-@property(readonly, copy, nonatomic) NSUUID *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
-@property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

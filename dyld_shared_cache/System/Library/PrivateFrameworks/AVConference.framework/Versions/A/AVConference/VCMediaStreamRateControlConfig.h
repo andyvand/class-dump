@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCBasebandCongestionDetector, AVCRateControlFeedbackController, AVCStatisticsCollector, VCRateControlMediaController;
+@class AVCStatisticsCollector;
 
 __attribute__((visibility("hidden")))
 @interface VCMediaStreamRateControlConfig
 {
     AVCStatisticsCollector *_statisticsCollector;
-    AVCBasebandCongestionDetector *_basebandCongestionDetector;
-    AVCRateControlFeedbackController *_feedbackController;
-    VCRateControlMediaController *_mediaController;
-    _Bool _shouldCreateMediaControlInfoGenerator;
-    _Bool _shouldRegisterMediaControlInfoGeneratorCallbacks;
-    void *_mediaControlInfoGenerator;
-    unsigned int _mediaControlInfoGeneratorType;
-    struct tagHANDLE *_mediaQueue;
-    struct tagVCMediaQueue *_vcMediaQueue;
-    unsigned char _mediaControlInfoVersion;
-    unsigned int _mediaControlInfoGeneratorOptions;
-    double _mediaQueueThrottlingInterval;
 }
 
 - (struct tagVCMediaQueue *);
@@ -40,12 +28,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (double);
+- (void)N;
+- (double);
 - (unsigned char);
 - (unsigned int);
 - (unsigned int);
-- (void *);
+- (void *)9h;
 - (id);
 - (id);
 - (struct tagHANDLE *);
@@ -54,19 +42,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) AVCBasebandCongestionDetector *basebandCongestionDetector; // @synthesize basebandCongestionDetector=_basebandCongestionDetector;
-@property(retain, nonatomic) AVCRateControlFeedbackController *feedbackController; // @synthesize feedbackController=_feedbackController;
-@property(nonatomic) void *mediaControlInfoGenerator; // @synthesize mediaControlInfoGenerator=_mediaControlInfoGenerator;
-@property(nonatomic) unsigned int mediaControlInfoGeneratorOptions; // @synthesize mediaControlInfoGeneratorOptions=_mediaControlInfoGeneratorOptions;
-@property(nonatomic) unsigned int mediaControlInfoGeneratorType; // @synthesize mediaControlInfoGeneratorType=_mediaControlInfoGeneratorType;
-@property(nonatomic) unsigned char mediaControlInfoVersion; // @synthesize mediaControlInfoVersion=_mediaControlInfoVersion;
-@property(retain, nonatomic) VCRateControlMediaController *mediaController; // @synthesize mediaController=_mediaController;
-@property(nonatomic) struct tagHANDLE *mediaQueue; // @synthesize mediaQueue=_mediaQueue;
-@property(nonatomic) double mediaQueueThrottlingInterval; // @synthesize mediaQueueThrottlingInterval=_mediaQueueThrottlingInterval;
-@property(nonatomic) _Bool shouldCreateMediaControlInfoGenerator; // @synthesize shouldCreateMediaControlInfoGenerator=_shouldCreateMediaControlInfoGenerator;
-@property(nonatomic) _Bool shouldRegisterMediaControlInfoGeneratorCallbacks; // @synthesize shouldRegisterMediaControlInfoGeneratorCallbacks=_shouldRegisterMediaControlInfoGeneratorCallbacks;
 @property(retain, nonatomic) AVCStatisticsCollector *statisticsCollector; // @synthesize statisticsCollector=_statisticsCollector;
-@property(nonatomic) struct tagVCMediaQueue *vcMediaQueue; // @synthesize vcMediaQueue=_vcMediaQueue;
 
 @end
 

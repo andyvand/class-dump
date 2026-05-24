@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EWSWorkingHours, NSArray, NSString;
-
 @interface EWSFreeBusyView
 {
     long long _FreeBusyViewType;
-    NSString *_MergedFreeBusy;
-    NSArray *_CalendarEventArray;
-    EWSWorkingHours *_WorkingHours;
 }
 
 + (id);
@@ -21,22 +16,12 @@
 - (void);
 - (id);
 - (id);
-- (long long);
+- (long long);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *CalendarEventArray; // @synthesize CalendarEventArray=_CalendarEventArray;
 @property(nonatomic) long long FreeBusyViewType; // @synthesize FreeBusyViewType=_FreeBusyViewType;
-@property(copy, nonatomic) NSString *MergedFreeBusy; // @synthesize MergedFreeBusy=_MergedFreeBusy;
-@property(retain, nonatomic) EWSWorkingHours *WorkingHours; // @synthesize WorkingHours=_WorkingHours;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

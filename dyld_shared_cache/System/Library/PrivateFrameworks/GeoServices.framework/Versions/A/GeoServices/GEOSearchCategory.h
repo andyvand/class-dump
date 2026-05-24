@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOFeatureStyleAttributes, GEOPDAutocompleteEntry, GEOPDBrowseCategory, NSArray, NSData, NSString, NSURL;
-@protocol GEOVenueIdentifier;
+@class GEOPDBrowseCategory, NSData;
 
 @interface GEOSearchCategory
 {
     GEOPDBrowseCategory *_browseCategory;
-    GEOPDAutocompleteEntry *_autocompleteEntry;
-    NSArray *_subcategories;
 }
 
-+ (void);
++ (void)deviceHasManagementRestrictions;
 + (id);
 + (_Bool)attribution manifest;
 - (id);
@@ -23,19 +20,19 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id){public}@;
 - (unsigned long long);
-- (id);
-- (id);
+- (id): /* Error: Ran out of types for this method. */;
+- (id)9j;
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)!;
 - (void);
 - (id);
-- (id)ring:(id)arg1;
-- (id)askedplateGeneratorValidatorVersion;
-- (int)put_updates;
+- (id)initWithPlaceDataLocalizedString:(id)arg1;
+- (id)_maskedplateGeneratorValidatorVersion;
+- (int)supports_route_camera_input_updates;
 - (int)CreationIsolater;
 - (id)not support reflection (type ;
 - (_Bool);
@@ -45,19 +42,7 @@
 - (id)2;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=_autocompleteEntry) GEOPDAutocompleteEntry *autocompleteEntry; // @synthesize autocompleteEntry=_autocompleteEntry;
-@property(readonly, nonatomic) int displayMode;
-@property(readonly, nonatomic) NSString *displayString;
-@property(readonly, nonatomic) NSURL *mapsURL;
-@property(readonly, nonatomic) NSString *popularTokenString;
-@property(readonly, nonatomic) NSString *shortDisplayString;
-@property(readonly, nonatomic) int sortOrder;
-@property(readonly, nonatomic) GEOFeatureStyleAttributes *styleAttributes;
-@property(readonly, nonatomic, getter=isSubCategorySameAsTopLevel) _Bool subCategorySameAsTopLevel;
-@property(readonly, nonatomic) int subCategoryType;
-@property(readonly, nonatomic) NSArray *subcategories; // @synthesize subcategories=_subcategories;
 @property(readonly, nonatomic, getter=_suggestionEntryMetadata) NSData *suggestionEntryMetadata;
-@property(readonly, nonatomic) id <GEOVenueIdentifier> venueIdentifier;
 
 @end
 

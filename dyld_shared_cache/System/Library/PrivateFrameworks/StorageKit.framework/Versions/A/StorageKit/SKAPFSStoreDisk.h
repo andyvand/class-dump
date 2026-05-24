@@ -11,7 +11,6 @@
 @interface SKAPFSStoreDisk : SKDisk
 {
     NSString *_apfsContainerUUID;
-    NSString *_apfsContainerIdentifier;
 }
 
 - (void);
@@ -29,9 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSString *apfsContainerIdentifier; // @synthesize apfsContainerIdentifier=_apfsContainerIdentifier;
 @property(retain) NSString *apfsContainerUUID; // @synthesize apfsContainerUUID=_apfsContainerUUID;
-@property(readonly) NSString *apfsUUID;
 
 @end
 

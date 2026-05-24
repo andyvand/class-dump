@@ -15,7 +15,7 @@
 + (void);
 + (_Bool);
 + (_Bool);
-+ (id);
++ (id));
 - (void);
 - (id);
 - (_Bool);
@@ -31,11 +31,11 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -52,8 +52,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)odifier>",R,V_downtimeOverrideModifier;
+- (id)yName;
 - (id);
 - (void);
 - (id);
@@ -69,7 +69,7 @@
 - (void);
 - (id);
 - (void);
-- (float);
+- (float);
 - (void)ç;
 
 @end

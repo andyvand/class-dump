@@ -5,5 +5,6 @@
 //
 
 @protocol CPLSyncSessionThroughputReporting
+- (void)commute15MinWarningEntityRelevanceUserFocusModeAndTimeOfDayFeatures;
 @end
 

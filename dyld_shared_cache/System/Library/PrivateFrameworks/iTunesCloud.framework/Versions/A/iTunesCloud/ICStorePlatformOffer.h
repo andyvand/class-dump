@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSNumber, NSString;
+@class NSArray, NSDictionary;
 
 @interface ICStorePlatformOffer
 {
@@ -12,19 +12,15 @@
 }
 
 - (id);
+- (id);
 - (id);
 - (id);
+- (id)~;
 - (id);
-- (id);
-- (id);
-- (void)QL:error: /* Error: Ran out of types for this method. */;
+- (void)_verifiedStatementForSQL:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *assets;
-@property(readonly, copy, nonatomic) NSString *buyParameters;
-@property(readonly, copy, nonatomic) NSString *formattedPrice;
-@property(readonly, copy, nonatomic) NSString *offerType;
-@property(readonly, copy, nonatomic) NSNumber *price;
 
 @end
 

@@ -4,49 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKAttachment, EKUIAttachmentGadget, EKUITokenField, NSFont, NSString;
+@class EKAttachment;
 
 @interface EKUIAttachmentLinkCellView
 {
     EKAttachment *_attachment;
-    EKUITokenField *_tokenField;
-    EKUIAttachmentGadget *_gadget;
 }
 
 + (struct CGSize);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)Rh;
+- (void)T;
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (id);
+- (id)	;
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)ReprovisioningRequired;
+- (void)|#;
 
 // Remaining properties
 @property(retain, nonatomic) EKAttachment *attachment; // @synthesize attachment=_attachment;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSFont *font;
-@property __weak EKUIAttachmentGadget *gadget; // @synthesize gadget=_gadget;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain) EKUITokenField *tokenField; // @synthesize tokenField=_tokenField;
 
 @end
 

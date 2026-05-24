@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface AFVoiceCommandGrammarParseResult
 {
     NSString *_utterance;
-    NSArray *_parseCandidates;
 }
 
 + (_Bool);
-- (id);
+- (id)6&K;
 - (id);
 - (id);
 - (id);
@@ -22,10 +21,9 @@
 - (void);
 - (id);
 - (id);
-- (void)werUpdate;
+- (void)_disableInputAudioPowerUpdate;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *parseCandidates; // @synthesize parseCandidates=_parseCandidates;
 @property(readonly, copy, nonatomic) NSString *utterance; // @synthesize utterance=_utterance;
 
 @end

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSUUID;
+@class NSUUID;
 
 @interface HMUserActionPrediction
 {
     NSUUID *_predictionTargetUUID;
-    NSUUID *_targetServiceUUID;
-    unsigned long long _predictionType;
-    double _predictionScore;
-    NSUUID *_targetGroupUUID;
-    unsigned long long _targetGroupType;
 }
 
 + (id);
@@ -26,47 +21,26 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)F;
 - (id);
 - (unsigned long long);
 - (double);
 - (id);
-- (unsigned long long);
+- (unsigned long long)hannels from group(%@) subgroup(%@) = %@
+;
 - (_Bool);
 - (id);
+- (id)@9;
 - (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (id);
+- (unsigned long long)4;
+- (_Bool)ignorant;
+- (id)decastich;
 - (void);
 - (id);
-- (void)cessoryInfoProtoSleepWakeStateEvent;
+- (void)HMAccessoryInfoProtoSleepWakeStateEvent;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) double predictionScore; // @synthesize predictionScore=_predictionScore;
-@property(readonly, copy) NSUUID *predictionTargetUUID; // @synthesize predictionTargetUUID=_predictionTargetUUID;
-@property(readonly) unsigned long long predictionType; // @synthesize predictionType=_predictionType;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
-@property(readonly) unsigned long long targetGroupType; // @synthesize targetGroupType=_targetGroupType;
 @property(readonly, copy) NSUUID *targetGroupUUID; // @synthesize targetGroupUUID=_targetGroupUUID;
-@property(readonly, copy) NSUUID *targetServiceUUID; // @synthesize targetServiceUUID=_targetServiceUUID;
 
 @end
 

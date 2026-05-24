@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PGGraphBuilder;
+@class PGGraphBuilder;
 
 @interface PGGraphIngestPersonBiologicalSexProcessor
 {
     PGGraphBuilder *_graphBuilder;
 }
 
-+ (unsigned long long);
++ (unsigned long long),V_hostWindow;
 - (_Bool);
-- (void);
-- (void);
-- (id);
+- (void)set_inlineSessionTracker:(id)arg1;
+- (void)formUnionWithCharacterSet:(id)arg1;
+- (id);
 - (void);
 - (id);
 - (unsigned short);
-- (unsigned long long);
+- (unsigned long long)d;
 - (void)Bm5mZzGZhQIi0idKaHXqMbtQ878o7HncI/Library/Caches/com.apple.xbs/TemporaryDirectory.52v2gD/Sources/Photos_Swift/workspaces/photoanalysis/PhotosGraph/Framework/Graph/People Inferences/Relationship/Relationship Analyzers/PGRelationshipCalendarAnalyzer.m;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

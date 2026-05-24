@@ -6,16 +6,14 @@
 
 #import <VoiceShortcutClient/WFWorkflowRunRequest.h>
 
-@class WFContentCollection, WFContextualAction, WFContextualActionContext;
+@class WFContentCollection, WFContextualAction;
 
 @interface WFContextualActionRunRequest : WFWorkflowRunRequest
 {
     WFContextualAction *_action;
-    WFContextualActionContext *_actionContext;
-    WFContentCollection *_input;
 }
 
-+ (_Bool);
++ (_Bool)__TEXT;
 - (id);
 - (void);
 - (id);
@@ -29,8 +27,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) WFContextualAction *action; // @synthesize action=_action;
-@property(readonly, nonatomic) WFContextualActionContext *actionContext; // @synthesize actionContext=_actionContext;
 @property(retain, nonatomic) WFContentCollection *input; // @synthesize input=_input;
 
 @end

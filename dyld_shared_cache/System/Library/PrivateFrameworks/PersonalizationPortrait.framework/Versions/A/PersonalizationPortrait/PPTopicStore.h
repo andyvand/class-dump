@@ -15,22 +15,23 @@
 + (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)nextRotationDateAfter:(id *)arg1;
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (id): /* Error: Ran out of types for this method. */;
+- (id)`
+;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)3;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -39,7 +40,7 @@
 - (_Bool);
 - (id)!´Dù1J 1Â0@ù
 × ;
-- (id)RecordsWithQuery:(id *)arg1 error:handleBatch: /* Error: Ran out of types for this method. */;
+- (id)locationRecordsWithQuery:(id *)arg1 error:handleBatch: /* Error: Ran out of types for this method. */;
 - (_Bool)V_originatingDeviceId;
 - (void)ectID"16@?0@"EKObjectChange"8;
 

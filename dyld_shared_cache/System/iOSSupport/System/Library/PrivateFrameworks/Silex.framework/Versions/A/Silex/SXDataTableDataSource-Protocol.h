@@ -4,7 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIColor;
+
 @protocol SXDataTableDataSource
-- (unsigned long long);
+- (UIColor *);
 @end
 

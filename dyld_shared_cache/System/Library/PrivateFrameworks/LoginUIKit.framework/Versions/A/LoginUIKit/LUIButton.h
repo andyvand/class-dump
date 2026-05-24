@@ -15,17 +15,17 @@
 + (void)Á«"Ð!CùñC&1Â0@ù
 × ;
 - (void);
-- (id);
-- (unsigned long long);
+- (id)";
+- (unsigned long long);
+- (void);
+- (_Bool)hasMptcpInteractiveCellUsage;
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
+- (id);
+- (void)5;
 - (void)ssTextView",&,V_glassTextView;
 
 @end

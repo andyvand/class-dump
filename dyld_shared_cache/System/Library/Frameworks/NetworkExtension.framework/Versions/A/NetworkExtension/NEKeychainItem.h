@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface NEKeychainItem
 {
     NSData *_data;
-    NSString *_password;
-    NSString *_identifier;
-    NSData *_persistentReference;
-    NSData *_keyPersistentReference;
-    _Bool _isModernSystem;
-    _Bool _legacy;
-    long long _domain;
-    NSString *_accessGroup;
-    NEKeychainItem *_oldItem;
 }
 
-+ (_Bool);
++ (_Bool)setProtobuf: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -43,33 +34,26 @@
 - (id);
 - (void);
 - (_Bool);
+- (void)ilableSpace:(long long)arg1;
+- (id);
+- (id)receivedParticipantUpdateLeaveEventOverPushFromParticipantID: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)H=;
 - (void);
 - (id);
 - (id);
 - (long long);
-- (id);
-- (void);
+- (id)blockUntilSendQueueIsEmpty;
+- (void)equest to disable account:(id)arg1 %@   service:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (id)jected this IKEv2 inbound connection by sending back nil sessionConfig;
 
 // Remaining properties
-@property(copy) NSString *accessGroup; // @synthesize accessGroup=_accessGroup;
-@property(copy) NSData *data;
 @property long long domain; // @synthesize domain=_domain;
-@property(copy) NSString *identifier;
-@property(readonly) _Bool isModernSystem; // @synthesize isModernSystem=_isModernSystem;
-@property(copy) NSData *keyPersistentReference; // @synthesize keyPersistentReference=_keyPersistentReference;
-@property(copy) NSString *password;
-@property(copy) NSData *persistentReference;
 
 @end
 

@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDCharacteristicThresholdRegistration
 {
     NSString *_clientID;
-    NSNumber *_updateThreshold;
 }
 
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id)UpdatedNotification:(struct _NSZone *)arg1;
+- (id)handleAccessoryWiFiNetworkInfoUpdatedNotification:(struct _NSZone *)arg1;
 - (id)re;
 - (void)d demo mode.;
 
 // Remaining properties
 @property(readonly, copy) NSString *clientID; // @synthesize clientID=_clientID;
-@property(readonly, copy) NSNumber *updateThreshold; // @synthesize updateThreshold=_updateThreshold;
 
 @end
 

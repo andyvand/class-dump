@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface NSSQLRowCache : NSPersistentStoreCache
 {
     NSSQLCore *_sqlCore;
-    int _debug;
 }
 
 + (void)nvoke;

@@ -5,5 +5,6 @@
 //
 
 @protocol _NSQuickActionTouchBarCollectionViewControllerDelegate
+- (void)_cachedTrust;
 @end
 

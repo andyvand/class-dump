@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @protocol PFStoryRecipeAsset
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *diagnosticDescription;
 @property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) long long kind;
-@property(readonly, nonatomic) NSURL *url;
 @end
 

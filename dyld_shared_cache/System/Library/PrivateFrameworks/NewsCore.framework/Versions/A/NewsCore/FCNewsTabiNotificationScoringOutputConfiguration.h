@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (id);
-- (void)esentations;
+- (void)maxPrecedingSameSessionPresentations;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *notificationScoresOutputName; // @synthesize notificationScoresOutputName=_notificationScoresOutputName;

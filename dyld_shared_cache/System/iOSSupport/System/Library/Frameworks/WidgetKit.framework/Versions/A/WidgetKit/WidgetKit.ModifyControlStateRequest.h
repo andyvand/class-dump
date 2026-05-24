@@ -7,7 +7,6 @@
 @interface WidgetKit.ModifyControlStateRequest
 {
     id control;
-    id state;
 }
 
 + (void);

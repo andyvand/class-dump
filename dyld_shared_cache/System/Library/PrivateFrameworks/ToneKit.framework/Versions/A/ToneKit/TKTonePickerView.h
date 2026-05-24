@@ -9,7 +9,6 @@
 @interface TKTonePickerView
 {
     _Bool _isPerformingBlockAffectingBaselineOffsetFromBottom;
-    id <TKTonePickerViewDelegate> _delegate;
 }
 
 - (id);
@@ -20,10 +19,10 @@
 - (struct CGSize);
 - (id);
 - (void);
+- (void)ACCExternalAccessoryProtocolIndex;
 - (void);
-- (void);
-- (void);
-- (double);
+- (void)`;
+- (double)oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDAggregateClusterMappingData_macOS.m:140 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

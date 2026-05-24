@@ -16,12 +16,12 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)oundation19AttributedStringKeyP;
+- (id)ndexSet",&,V_currentScanners;
 - (id);
 - (id)l access to video controls.;
 - (void)ÿÿ';

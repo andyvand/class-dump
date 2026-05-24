@@ -15,10 +15,12 @@
 + (id);
 + (id);
 + (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (id)entitled;
+- (void)obtain system random bytes.;
+- (id)plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http:(id)arg1 //www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+;
+- (void)SArray"@"NSError">24;
 - (id);
 - (id);
 - (id);

@@ -6,22 +6,16 @@
 
 #import <AppKit/_NSTrackingAreaViewHelper.h>
 
-@class NSMutableSet, NSView;
+@class NSView;
 
 __attribute__((visibility("hidden")))
 @interface _NSTrackingAreaCGViewHelper : _NSTrackingAreaViewHelper
 {
     NSView *_view;
-    struct _NSViewTrackingRect *_trackingRects;
-    NSMutableSet *_trackingAreas;
-    long long _trackingAreasDirty;
-    unsigned int _invalidCursorRects:1;
-    unsigned int _cachedShouldUseTrackingAreasForToolTips:1;
-    unsigned int _shouldUseTrackingAreasForToolTips:1;
 }
 
 - (void);
-- (long long);
+- (long long);
 - (id);
 - (void);
 - (void);
@@ -29,16 +23,16 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
+- (void)unexpected tag 0x%llu, skipping;
+- (void)ute must be set container. Found unexpected tag 0x%llu, skipping;
+- (void)_AMFDRDecodeSequenceString;
+- (void)_AMFDRDecodeVerifyData;
+- (id)DeviceSupportsWirelessChargingEnergyUseNotification;
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)TL@9I;
 - (void);
 - (void);
 - (void);
@@ -47,20 +41,20 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (long long);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)s;
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)from nesessionmanager.;
+- (void)rvice-dns-service;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)set<std:(id)arg1:string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_requestHostToConnectionKey"{map<std::string, std::shared_ptr<__CoalescingConnectionKey>, std::less<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__tree_"{__tree<std::__value_type<std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::__map_value_compare<std::string, std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllRequestHosts"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (void)d;
+- (void)?;
 - (void)ceneHostSettings>"8;
 - (id)tttä?ã?{®GázÄ?¹?É?ÍÌÌÌÌÌè?«ªª>«ª*?333?;
 

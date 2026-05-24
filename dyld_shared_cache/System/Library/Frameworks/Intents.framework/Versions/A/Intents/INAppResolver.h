@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INAppResolverOptions, INExecutionCounterpartMapper, INExecutionFrameworkMapper, INLinkActionProvider, INSystemAppMapper, NSMutableDictionary;
+@class INExecutionCounterpartMapper;
 
 @interface INAppResolver
 {
     struct os_unfair_lock_s _cacheLock;
-    struct os_unfair_lock_s _resolverOptionsLock;
-    INExecutionCounterpartMapper *_counterpartMapper;
-    INExecutionFrameworkMapper *_frameworkMapper;
-    INSystemAppMapper *_systemAppMapper;
-    INLinkActionProvider *_linkActionProvider;
-    NSMutableDictionary *_cachedResults;
-    INAppResolverOptions *_globalOptions;
-    NSMutableDictionary *_intentClassNameToResolverOptions;
 }
 
 + (id);
-+ (id);
++ (id)ting);
 + (void)uí;
 - (id);
 - (id);
@@ -30,14 +22,14 @@
 - (void);
 - (id);
 - (struct os_unfair_lock_s);
-- (id);
+- (id)blic}@, it will be checked again when the extension is used;
 - (id);
 - (void);
+- (id)TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA;
 - (id);
+- (id)T@"NSArray",&,V_filteredDetectedEvents;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)k():(id)arg1 buffer too small;
 - (id);
 - (id);
 - (id);
@@ -47,25 +39,17 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
 - (id)tLÌ¬¼ô;
-- (void)tent;
+- (void)DeleteFilePermanentlyIntent;
 - (id)--;
 - (id);
 - (struct os_unfair_lock_s)x;
 
 // Remaining properties
 @property(readonly, nonatomic) INExecutionCounterpartMapper *_counterpartMapper; // @synthesize _counterpartMapper;
-@property(readonly, nonatomic) INExecutionFrameworkMapper *_frameworkMapper; // @synthesize _frameworkMapper;
-@property(readonly, nonatomic) INSystemAppMapper *_systemAppMapper; // @synthesize _systemAppMapper;
-@property(readonly, nonatomic) struct os_unfair_lock_s cacheLock; // @synthesize cacheLock=_cacheLock;
-@property(readonly, nonatomic) NSMutableDictionary *cachedResults; // @synthesize cachedResults=_cachedResults;
-@property(readonly, nonatomic) INAppResolverOptions *globalOptions; // @synthesize globalOptions=_globalOptions;
-@property(readonly, nonatomic) NSMutableDictionary *intentClassNameToResolverOptions; // @synthesize intentClassNameToResolverOptions=_intentClassNameToResolverOptions;
-@property(readonly, nonatomic) INLinkActionProvider *linkActionProvider; // @synthesize linkActionProvider=_linkActionProvider;
-@property(readonly, nonatomic) struct os_unfair_lock_s resolverOptionsLock; // @synthesize resolverOptionsLock=_resolverOptionsLock;
 
 @end
 

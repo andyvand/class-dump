@@ -5,5 +5,8 @@
 //
 
 @protocol SMInitiatorSessionConfigurationProtocol
+- (void)A;
+- (void)";
+- (void);
 @end
 

@@ -6,21 +6,9 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class UIAutoRespondingScrollViewControllerKeyboardSupport, UITableViewDataSource, _UIFilteredDataSource;
-
 @interface UITableViewController : UIViewController
 {
     long long _tableViewStyle;
-    UIAutoRespondingScrollViewControllerKeyboardSupport *_keyboardSupport;
-    UITableViewDataSource *_staticDataSource;
-    struct {
-        unsigned int clearsSelectionOnViewWillAppear:1;
-        unsigned int insetsApplied:1;
-        unsigned int adjustingInsets:1;
-        unsigned int registeredForCarScreenNotification:1;
-    } _tableViewControllerFlags;
-    _UIFilteredDataSource *_filteredDataSource;
-    long long _filteredDataType;
 }
 
 @end

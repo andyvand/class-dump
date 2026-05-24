@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LSApplicationWorkspace, NSMutableDictionary, NSSet, NSString;
+@class NSMutableDictionary;
 
 @interface IMSharedWithYouManager
 {
     NSMutableDictionary *_swyPinsPerBundleID;
-    NSSet *_enabledBundleIDs;
 }
 
 + (id);
 + (id);
 + (_Bool);
 + (id);
-+ (void);
++ (void)9;
 + (void);
 + (void);
 + (id);
@@ -59,29 +58,20 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)6;
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)CollectionRepresentation;
 
 // Remaining properties
-@property(readonly, nonatomic) LSApplicationWorkspace *_applicationWorkspace;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSSet *enabledBundleIDs; // @synthesize enabledBundleIDs=_enabledBundleIDs;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSMutableDictionary *swyPinsPerBundleID; // @synthesize swyPinsPerBundleID=_swyPinsPerBundleID;
 
 @end

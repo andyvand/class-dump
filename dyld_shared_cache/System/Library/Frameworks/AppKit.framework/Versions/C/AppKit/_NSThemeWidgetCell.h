@@ -6,22 +6,17 @@
 
 #import <AppKit/NSButtonCell.h>
 
-@class NSWindow;
-
 @interface _NSThemeWidgetCell : NSButtonCell
 {
     long long _buttonID;
-    unsigned int _isObscured:1;
-    unsigned int _temporarilyDisabled:1;
-    unsigned int _canBeEnabled:1;
 }
 
-+ (Class);
-+ (Class);
++ (Class)alStreamTaskFromDataTask connection:alternatePathAvailable:] /* Error: Ran out of types for this method. */;
++ (Class)ActualCredentialStorage@%p<%p> { session %p, persistent %p };
 - (long long);
+- (void)ailed to get static screen info;
 - (void);
-- (void);
-- (void);
+- (void)Q;
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
@@ -40,29 +35,24 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
-- (long long);
-- (long long);
+- (id)_scheduledOriginLoad;
+- (long long)stringByRemovingPercentEncoding;
+- (long long)stringByAppendingPathComponent: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
+- (id)(c;
 - (_Bool);
-- (id);
+- (id)st %@ handle %p;
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
-- (long long)wItem:animated: /* Error: Ran out of types for this method. */;
-- (id)Color:(struct _NSZone *)arg1 image:title: /* Error: Ran out of types for this method. */;
+- (long long)selectTabBarViewItem:animated: /* Error: Ran out of types for this method. */;
+- (id)initWithColor:(struct _NSZone *)arg1 image:title: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSWindow *_realWindow;
-@property long long buttonID; // @synthesize buttonID=_buttonID;
-@property(nonatomic) _Bool canBeEnabled;
-@property(getter=isObscured) _Bool obscured;
 @property(nonatomic) _Bool temporarilyDisabled;
-@property(readonly) long long widgetType;
 
 @end
 

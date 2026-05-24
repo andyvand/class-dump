@@ -12,7 +12,7 @@
 
 + (_Bool);
 + (_Bool);
-+ (void)e;
++ (void)AmbAdaptCurve;
 
 @end
 

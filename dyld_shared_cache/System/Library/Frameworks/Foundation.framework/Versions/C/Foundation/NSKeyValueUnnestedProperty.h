@@ -12,11 +12,9 @@ __attribute__((visibility("hidden")))
 @interface NSKeyValueUnnestedProperty : NSKeyValueProperty
 {
     NSArray *_affectingProperties;
-    _Bool _cachedIsaForAutonotifyingIsValid;
-    Class _cachedIsaForAutonotifying;
 }
 
-- (id);
+- (id)=;
 - (void);
 - (void);
 - (id);
@@ -24,14 +22,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (_Bool);
-- (Class);
+- (id)<\;
+- (_Bool))@9_;
+- (Class);
 - (id);
 - (Class);
 - (void)¡}1!`@ùQz5ð1Â0@ù
 × ;
-- (void)nt;
+- (void)Element;
 - (void);
 
 @end

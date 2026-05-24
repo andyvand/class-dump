@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, PHPhotoLibrary;
-@protocol OS_dispatch_queue;
+@class PHPhotoLibrary;
 
 @interface PXPhotoLibraryLocalDefaults
 {
     PHPhotoLibrary *_photoLibrary;
-    NSMutableDictionary *_registeredValues;
-    NSObject<OS_dispatch_queue> *_isolationQueue;
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -31,9 +28,9 @@
 - (id);
 - (double)1Â0@ù
 × ;
-- (void)etWantsPersistence:(id)arg1;
-- (id)dColorAdaptsToHoveredState;
-- (_Bool)rformer:(id)arg1 playMovieForAssetCollection: /* Error: Ran out of types for this method. */;
+- (void)setWantsPersistence:(id)arg1;
+- (id)backgroundColorAdaptsToHoveredState;
+- (_Bool)assetCollectionActionPerformer:(id)arg1 playMovieForAssetCollection: /* Error: Ran out of types for this method. */;
 - (void)4P<Q;
 - (id)Vÿ;
 - (void)on-queue;

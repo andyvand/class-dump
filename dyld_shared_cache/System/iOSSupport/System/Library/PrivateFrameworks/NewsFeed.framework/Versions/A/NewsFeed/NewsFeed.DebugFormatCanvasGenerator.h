@@ -7,7 +7,6 @@
 @interface NewsFeed.DebugFormatCanvasGenerator
 {
     id canvasRenderQueue;
-    id editor;
 }
 
 @end

@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (TRIFunctions)
-- (id);
+- (id)indexSetWithIndexesInRange:(id)arg1;
 @end
 

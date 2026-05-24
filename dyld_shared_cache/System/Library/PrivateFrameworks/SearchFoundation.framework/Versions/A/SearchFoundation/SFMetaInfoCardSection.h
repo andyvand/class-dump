@@ -6,94 +6,39 @@
 
 #import <SearchFoundation/SFCardSection.h>
 
-@class NSArray, NSData, NSDictionary, NSMutableDictionary, NSString, NSURL, SFAppEntityAnnotation, SFCard, SFColor, SFCommand, SFCopyItem, SFImage, SFUserReportRequest;
+@class NSString;
 
 @interface SFMetaInfoCardSection : SFCardSection
 {
     struct {
         unsigned int trending:1;
     } _has;
-    _Bool _trending;
-    NSString *_type;
-    NSURL *_contentURL;
-    NSURL *_hostPageURL;
-    SFImage *_badge;
 }
 
 + (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)setPrimaryTextColorLight:(id)arg1;
 - (unsigned long long);
-- (id);
+- (id)callSource:reportedOutgoingCallWithUUID:connectedAtDate: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
+- (void)…:(id)arg1 [_queuePlayer removeAllItems] for %{public}@.;
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)PersonAssets;
+- (id)onForAssetWithOptions(PHAsset *__strong _Nonnull, PHAssetExportRequestOptions *__strong _Nonnull, PFMetadata *__strong _Nullable, NSString * _Nullable __autoreleasing * _Nullable);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void)portType;
+- (void)_reportType;
 - (id)í;
 
 // Remaining properties
-@property(retain, nonatomic) SFAppEntityAnnotation *appEntityAnnotation;
-@property(copy, nonatomic) NSString *applicationBundleIdentifier;
-@property(retain, nonatomic) SFColor *backgroundColor;
-@property(retain, nonatomic) SFImage *badge; // @synthesize badge=_badge;
-@property(nonatomic) _Bool canBeHidden;
-@property(retain, nonatomic) NSString *cardSectionDetail;
-@property(copy, nonatomic) NSString *cardSectionId;
-@property(retain, nonatomic) SFCommand *command;
-@property(retain, nonatomic) NSString *commandDetail;
-@property(copy, nonatomic) NSArray *commands;
-@property(copy, nonatomic) NSURL *contentURL; // @synthesize contentURL=_contentURL;
-@property(retain, nonatomic) SFCopyItem *copyableItems;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) NSArray *embeddedCards;
-@property(copy, nonatomic) NSString *emphasisSubjectId;
-@property(nonatomic) _Bool forceEnable3DTouch;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool hideDivider;
-@property(copy, nonatomic) NSURL *hostPageURL; // @synthesize hostPageURL=_hostPageURL;
-@property(nonatomic) int increasedContrastMode;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *leadingSwipeButtonItems;
-@property(retain, nonatomic) SFCard *nextCard;
-@property(copy, nonatomic) NSArray *parameterKeyPaths;
-@property(copy, nonatomic) NSArray *previewButtonItems;
-@property(retain, nonatomic) NSString *previewButtonItemsTitle;
-@property(retain, nonatomic) SFCommand *previewCommand;
-@property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(retain, nonatomic) NSMutableDictionary *racFeedbackLoggingContent;
-@property(copy, nonatomic) NSString *racFeedbackSubfeatureId;
-@property(copy, nonatomic) NSArray *referencedCommands;
-@property(nonatomic) int requiredLevelOfDetail;
-@property(copy, nonatomic) NSString *resultIdentifier;
-@property(retain, nonatomic) SFCommand *secondaryCommand;
-@property(nonatomic) int separatorStyle;
-@property(nonatomic) _Bool shouldHideInAmbientMode;
-@property(nonatomic) _Bool shouldShowInSmartDialog;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *trailingSwipeButtonItems;
-@property(nonatomic) _Bool trending; // @synthesize trending=_trending;
 @property(copy, nonatomic) NSString *type; // @synthesize type=_type;
-@property(retain, nonatomic) SFUserReportRequest *userReportRequest;
 
 @end
 

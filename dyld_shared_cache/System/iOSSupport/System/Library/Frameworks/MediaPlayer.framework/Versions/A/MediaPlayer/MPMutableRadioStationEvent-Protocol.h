@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @protocol MPMutableRadioStationEvent
+- (void);
 - (void)pple.mediaplayer.artworkservice.colorAnalysis.OperationQueue;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *descriptionText;
-@property(copy, nonatomic) NSDate *endTime;
-@property(copy, nonatomic) NSDate *startTime;
 @property(copy, nonatomic) NSString *title;
 @end
 

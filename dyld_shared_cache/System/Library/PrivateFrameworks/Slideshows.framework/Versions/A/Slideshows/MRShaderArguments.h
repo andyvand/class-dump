@@ -9,11 +9,6 @@
 @interface MRShaderArguments
 {
     _Bool _texture0ClampsToBorder;
-    _Bool _texture1ClampsToBorder;
-    NSString *_filter0;
-    NSString *_filter1;
-    NSString *_filter2;
-    NSString *_filter3;
 }
 
 - (_Bool);
@@ -23,20 +18,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)__objc_ivar;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)`;
+- (id)?;
 - (void);
 
 // Remaining properties
 @property(copy) NSString *filter0; // @synthesize filter0=_filter0;
-@property(copy) NSString *filter1; // @synthesize filter1=_filter1;
-@property(copy) NSString *filter2; // @synthesize filter2=_filter2;
-@property(copy) NSString *filter3; // @synthesize filter3=_filter3;
-@property(nonatomic) _Bool texture0ClampsToBorder; // @synthesize texture0ClampsToBorder=_texture0ClampsToBorder;
-@property(nonatomic) _Bool texture1ClampsToBorder; // @synthesize texture1ClampsToBorder=_texture1ClampsToBorder;
 
 @end
 

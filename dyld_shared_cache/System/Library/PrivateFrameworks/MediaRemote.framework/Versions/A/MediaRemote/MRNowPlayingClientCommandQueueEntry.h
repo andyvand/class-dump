@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRPlayerPath, NSDate, NSMutableDictionary;
-
 __attribute__((visibility("hidden")))
 @interface MRNowPlayingClientCommandQueueEntry
 {
     unsigned int _command;
-    NSMutableDictionary *_options;
-    MRPlayerPath *_playerPath;
-    NSDate *_dateCreated;
-    CDUnknownBlockType _commandCompletion;
 }
 
 - (void);
@@ -31,10 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) unsigned int command; // @synthesize command=_command;
-@property(copy, nonatomic) CDUnknownBlockType commandCompletion; // @synthesize commandCompletion=_commandCompletion;
-@property(retain, nonatomic) NSDate *dateCreated; // @synthesize dateCreated=_dateCreated;
-@property(retain, nonatomic) NSMutableDictionary *options; // @synthesize options=_options;
-@property(retain, nonatomic) MRPlayerPath *playerPath; // @synthesize playerPath=_playerPath;
 
 @end
 

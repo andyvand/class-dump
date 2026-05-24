@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDecimalNumber, NSSet;
+@class NSSet;
 
 @interface PKPaymentOffersControllerMerchandisingRequest
 {
     NSSet *_merchandisingIdentifiers;
-    NSDecimalNumber *_amount;
 }
 
 - (id);
+- (id)kj;
+- (_Bool);
 - (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)!;
 - (void)4;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDecimalNumber *amount; // @synthesize amount=_amount;
 @property(readonly, copy, nonatomic) NSSet *merchandisingIdentifiers; // @synthesize merchandisingIdentifiers=_merchandisingIdentifiers;
 
 @end

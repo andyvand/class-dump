@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface CNEWSMapping
 {
@@ -15,10 +15,6 @@
 
 // Remaining properties
 @property(copy) NSString *addressBookUniqueId; // @dynamic addressBookUniqueId;
-@property(copy) NSString *changeKey; // @dynamic changeKey;
-@property(copy) NSString *contactsIdentifier;
-@property(copy) NSNumber *flags; // @dynamic flags;
-@property(copy) NSString *itemId; // @dynamic itemId;
 
 @end
 

@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface IFTSchemaIFTRequestContentTextContentTier1 : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    NSString *_textQuery;
-    _Bool _hasLinkId;
-    _Bool _hasTextQuery;
 }
 
 - (void);
@@ -32,19 +29,15 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)IO.framework/Versions/A/ImageIO;
 - (id)!ÜGùQà1Â0@ù
 × ;
 - (id)@"ASRSchemaASRInitializationEnded",&,N,V_ended;
-- (id)ecisionEngineResponseReported;
+- (id)CNVSchemaCNVDecisionEngineResponseReported;
 - (void)Ü3#;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasTextQuery; // @synthesize hasTextQuery=_hasTextQuery;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(copy, nonatomic) NSString *textQuery; // @synthesize textQuery=_textQuery;
 
 @end
 

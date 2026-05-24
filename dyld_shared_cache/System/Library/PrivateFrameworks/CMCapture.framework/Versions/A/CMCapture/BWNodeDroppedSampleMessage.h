@@ -14,7 +14,7 @@
 }
 
 + (id);
-- (id);
+- (id)N;
 - (void);
 
 // Remaining properties

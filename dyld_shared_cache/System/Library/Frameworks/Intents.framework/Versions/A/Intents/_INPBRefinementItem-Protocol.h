@@ -7,11 +7,10 @@
 @class NSString, _INPBSelectionItem;
 
 @protocol _INPBRefinementItem
+- (NSString *)58(;
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasItem;
-@property(readonly, nonatomic) _Bool hasSubKeyPath;
 @property(retain, nonatomic) _INPBSelectionItem *item;
-@property(copy, nonatomic) NSString *subKeyPath;
 @end
 

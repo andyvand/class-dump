@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_xpc_object;
 
 @interface BSBasicServerClient
 {
     NSObject<OS_xpc_object> *_connection;
-    int _resumed;
-    int _cancelled;
-    _Bool _managingResumeState;
 }
 
 + (id);
@@ -24,19 +21,12 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_xpc_object> *connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

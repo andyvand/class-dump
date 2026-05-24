@@ -13,29 +13,26 @@ __attribute__((visibility("hidden")))
 @interface NSTitlebarPopoverLocalFileOpsViewController : NSTitlebarPopoverViewController
 {
     NSViewBridge *_bridgeForUnregisteringKVO;
-    _Bool _waitingToCleanUp;
-    id <NSTitlebarPopoverLocalFileOpsViewControllerDelegate> _oopDelegate;
 }
 
 + (void)¹d@;
-- (_Bool);
+- (_Bool)g array does not match published count;
+- (void)RealityDevice;
+- (void);
+- (id);
 - (void);
 - (void);
+- (_Bool)4@0:8@"NSString"16 /* Error: Ran out of types for this method. */;
 - (id);
+- (void)%ld);
+- (id)CFNetDiagnosticCreateWithStreams;
 - (void);
 - (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void)Position;
+- (void)dragPosition;
 - (void)NSSoftOutlineView.swift;
 
 // Remaining properties
 @property(nonatomic) __weak id <NSTitlebarPopoverLocalFileOpsViewControllerDelegate> oopDelegate; // @synthesize oopDelegate=_oopDelegate;
-@property(nonatomic) _Bool waitingToCleanUp; // @synthesize waitingToCleanUp=_waitingToCleanUp;
 
 @end
 

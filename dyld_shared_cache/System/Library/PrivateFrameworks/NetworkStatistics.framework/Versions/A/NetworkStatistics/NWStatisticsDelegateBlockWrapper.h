@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface NWStatisticsDelegateBlockWrapper
 {
     CDUnknownBlockType _addedBlock;
-    CDUnknownBlockType _countsBlock;
-    CDUnknownBlockType _descriptionBlock;
-    CDUnknownBlockType _removedBlock;
-    CDUnknownBlockType _eventsBlock;
 }
 
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (void);
+- (void)setTreatmentId:(id)arg1 forExperimentDeployment:usingTransaction: /* Error: Ran out of types for this method. */;
+- (void)l keys:(id)arg1 %lu keys cleared;
 - (void);
 - (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)stringByReplacingCharactersInRange:withString: /* Error: Ran out of types for this method. */;
 - (void);
 - (CDUnknownBlockType);
 - (void);
@@ -34,17 +28,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy) CDUnknownBlockType addedBlock; // @synthesize addedBlock=_addedBlock;
-@property(copy) CDUnknownBlockType countsBlock; // @synthesize countsBlock=_countsBlock;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) CDUnknownBlockType descriptionBlock; // @synthesize descriptionBlock=_descriptionBlock;
-@property(copy) CDUnknownBlockType eventsBlock; // @synthesize eventsBlock=_eventsBlock;
-@property(readonly) unsigned long long hash;
-@property(copy) CDUnknownBlockType removedBlock; // @synthesize removedBlock=_removedBlock;
-@property(readonly) Class superclass;
 
 @end
 

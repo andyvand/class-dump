@@ -7,10 +7,6 @@
 @interface CalendarWidget.NarrowMultidayLayout.MultiDayViewModel
 {
     id id;
-    id dayViewModels;
-    id topFlexibleSpaceHeight;
-    id topFlexibleSpaceMaxHeight;
-    id spacingBetweenDays;
 }
 
 @end

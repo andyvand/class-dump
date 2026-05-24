@@ -13,14 +13,14 @@
 + (void);
 + (void);
 + (void);
++ (void)h8;
++ (void);
++ (void)P;
 + (void);
 + (void);
 + (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
++ (void);
++ (void);
 + (long long);
 
 @end

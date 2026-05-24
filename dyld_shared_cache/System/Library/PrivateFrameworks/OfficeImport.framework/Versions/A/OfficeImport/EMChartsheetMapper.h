@@ -12,13 +12,12 @@ __attribute__((visibility("hidden")))
 @interface EMChartsheetMapper : EMSheetMapper
 {
     EDChartSheet *mChartSheet;
-    struct CGRect mBox;
 }
 
 - (int);
 - (int);
 - (void);
-- (id);
+- (id)#;
 - (int);
 - (void)L;
 

@@ -9,11 +9,6 @@
 @interface BFProsodicState
 {
     _Bool _textLiteralMode;
-    _Bool _numberLiteralMode;
-    NSNumber *_rate;
-    NSNumber *_pitchModulation;
-    NSNumber *_pitchBase;
-    NSNumber *_volume;
 }
 
 - (void);
@@ -22,22 +17,17 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (void)g",&,V_bundleShortVersion;
 - (void);
-- (void);
 - (id);
 - (id);
-- (id);
+- (id)cknowledge-Identify-Printer;
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool numberLiteralMode; // @synthesize numberLiteralMode=_numberLiteralMode;
-@property(retain, nonatomic) NSNumber *pitchBase; // @synthesize pitchBase=_pitchBase;
-@property(retain, nonatomic) NSNumber *pitchModulation; // @synthesize pitchModulation=_pitchModulation;
 @property(retain, nonatomic) NSNumber *rate; // @synthesize rate=_rate;
-@property(nonatomic) _Bool textLiteralMode; // @synthesize textLiteralMode=_textLiteralMode;
-@property(retain, nonatomic) NSNumber *volume; // @synthesize volume=_volume;
 
 @end
 

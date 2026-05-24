@@ -21,43 +21,29 @@
         struct __CFData *__currentChunkData;
         long long __chunkBytesRemaining;
     } _context;
-    int _chunkIndex;
-    struct __MSSSPCChunkParsingContext {
-        void *_field1;
-        CDUnknownFunctionPointerType _field2;
-        CDUnknownFunctionPointerType _field3;
-        CDUnknownFunctionPointerType _field4;
-        CDUnknownFunctionPointerType _field5;
-        CDUnknownFunctionPointerType _field6;
-        struct __CFString *_field7;
-        struct __CFURL *_field8;
-        struct __CFString *_field9;
-        struct __CFString *_field10;
-        int _field11;
-    } *_parseContext;
 }
 
+- (void)amera recording analysis nodes;
+- (id)c}@Asked to send remote response for an unknown session UUID:(int)arg1 %{public}@;
+- (void)ublic,uuid_t}.16P;
+- (id)from remote snapshot failure message:(id)arg1 %@;
+- (id)blic}@Failed to create snapshot session UUID from remote snapshot failure message:(id)arg1 %@;
+- (void)blic,uuid_t}.16P] Failed to create snapshot session with HMDCameraSnapshotRemoteStreamReceiver:(id)arg1 no remote access device;
+- (void)iled to create snapshot session with HMDCameraSnapshotRemoteStreamReceiver:(id)arg1 accessory reference is nil;
+- (void)ot session with HMDCameraSnapshotRemoteStreamReceiver;
+- (void)aSnapshotRemoteStreamSender:(id)arg1 accessory reference is nil;
+- (void)}@[%{public,uuid_t}.16P] Failed to create snapshot session with HMDCameraSnapshotRemoteStreamSender:(id)arg1 accessory reference is nil;
+- (void)sion with HMDCameraSnapshotRemoteStreamSender;
+- (void)}@[%{public,uuid_t}.16P] Creating a snapshot session with HMDCameraSnapshotRemoteStreamSender;
+- (void)ndler because snapshot file is present in cache for %@;
+- (id)apshot session with HMDCameraSnapshotRemoteRelayReceiver:(id)arg1 accessory reference is nil;
+- (id)yReceiver;
+- (void)did remove home;
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)b;
 
 @end
 

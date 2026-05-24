@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface SAVCSPlayContent : SABaseClientBoundCommand
 {
@@ -25,15 +25,11 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)isOnDeviceSearch;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *contentType;
-@property(copy, nonatomic) NSURL *hiresTrailerUri;
-@property(copy, nonatomic) NSURL *lowresTrailerUri;
-@property(nonatomic) _Bool playTrailer;
-@property(copy, nonatomic) NSString *utsId;
 
 @end
 

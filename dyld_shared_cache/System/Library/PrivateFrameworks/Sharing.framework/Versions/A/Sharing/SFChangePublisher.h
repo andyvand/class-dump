@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
-- (void)Handled;
+- (id)ting backup path failed.;
+- (void)askNotHandled;
 - (void);
 
 // Remaining properties

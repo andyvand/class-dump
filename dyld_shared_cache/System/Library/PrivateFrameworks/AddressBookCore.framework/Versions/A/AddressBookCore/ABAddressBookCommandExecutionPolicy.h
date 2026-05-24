@@ -11,7 +11,6 @@
 @interface ABAddressBookCommandExecutionPolicy : ABCommandExecutionPolicy
 {
     ABAddressBook *_addressBook;
-    SEL _saveHook;
 }
 
 - (void);

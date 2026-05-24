@@ -4,14 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBLatLng;
+@class NSData, _SFPBLatLng;
 
 @protocol _SFPBRFMapMarkerImage
+- (void);
+- (id)`;
+- (_SFPBLatLng *);
+- (NSData *)eationDate;
+- (id)";
 
 // Remaining properties
 @property(retain, nonatomic) _SFPBLatLng *coordinate;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *systemImage;
-@property(copy, nonatomic) NSString *title;
 @end
 

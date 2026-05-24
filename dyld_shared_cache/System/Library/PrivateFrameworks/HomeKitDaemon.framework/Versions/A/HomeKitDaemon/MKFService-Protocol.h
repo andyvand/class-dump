@@ -4,42 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFServiceDatabaseID, NSArray, NSDate, NSNumber, NSString, NSUUID;
-@protocol MKFApplicationData, MKFHAPAccessory, MKFHome;
+@class NSArray, NSNumber, NSString, NSUUID;
+@protocol MKFCharacteristic, MKFFloatCharacteristic, MKFHome, MKFIntegerCharacteristic, MKFStringCharacteristic;
 
 @protocol MKFService
+- (void);
+- (void);
+- (id <MKFStringCharacteristic>)OSharedNavState";
+- (id <MKFIntegerCharacteristic>)st";
+- (id <MKFFloatCharacteristic>)nsaction>";
+- (id <MKFCharacteristic>)?32;
+- (NSString *)setNextStopsMuids:count: /* Error: Ran out of types for this method. */;
+- (NSArray *)setContactStorages: /* Error: Ran out of types for this method. */;
+- (id <MKFStringCharacteristic>)_delegate;
+- (id <MKFIntegerCharacteristic>)_currentTransportType;
+- (id <MKFFloatCharacteristic>)_currentSendersByServiceName;
+- (id <MKFCharacteristic>)_currentMinimalSenderForServiceName:(NSNumber *)arg1 createIfNeeded: /* Error: Ran out of types for this method. */;
+- (id <MKFCharacteristic>)_credentialsForPrimaryICloudAccount;
+- (NSArray *)rivacy early exit:index > number of coordinates /* Error: Ran out of types for this method. */;
+- (NSNumber *)ElectionModeError;
+- (void)caledSelectedRect %s;
+- (NSNumber *)(;
 - (id <MKFHome>)áà°!`EùqÐ1Â0@ù
 × ;
-- (void)nSet:(NSArray *)arg1;
+- (void)_handleUpdateActionSet:(NSArray *)arg1;
 - (void)sory:(NSString *)arg1 %@ did not match self.accessory :%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) id <MKFHAPAccessory> accessory;
-@property(readonly, retain, nonatomic) NSArray *actionCharacteristicWrites;
-@property(retain, nonatomic) id <MKFApplicationData> applicationData;
 @property(copy, nonatomic) NSUUID *associatedServiceType;
-@property(retain, nonatomic) NSArray *characteristics;
-@property(copy, nonatomic) NSNumber *configurationState;
-@property(readonly, copy, nonatomic) MKFServiceDatabaseID *databaseID;
-@property(readonly, retain, nonatomic) NSArray *eventCharacteristics;
-@property(copy, nonatomic) NSString *expectedConfiguredName;
-@property(readonly) id <MKFHome> home;
-@property(readonly, copy, nonatomic) NSNumber *instanceID;
-@property(copy, nonatomic) NSNumber *labelIndex;
-@property(copy, nonatomic) NSNumber *labelNamespace;
-@property(copy, nonatomic) NSNumber *lastKnownDiscoveryMode;
-@property(copy, nonatomic) NSNumber *lastKnownOperatingState;
-@property(copy, nonatomic) NSNumber *lastKnownOperatingStateAbnormalReasons;
-@property(retain, nonatomic) NSArray *linkedServices;
-@property(copy, nonatomic) NSNumber *matterEndpointID;
-@property(retain, nonatomic) NSArray *mediaSourceDisplayOrder;
-@property(copy, nonatomic) NSNumber *mediaSourceIdentifier;
-@property(copy, nonatomic) NSString *name;
-@property(copy, nonatomic) NSString *providedName;
-@property(readonly, retain, nonatomic) NSArray *serviceGroups;
-@property(copy, nonatomic) NSNumber *serviceProperties;
-@property(copy, nonatomic) NSUUID *serviceSubtype;
-@property(copy, nonatomic) NSUUID *serviceType;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 @end
 

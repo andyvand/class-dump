@@ -6,24 +6,13 @@
 
 #import <CoreWiFi/CWFAsyncBlockOperation.h>
 
-@class CWFRequestParameters, NSDate, NSDictionary, NSUUID;
-
 @interface CWFXPCRequest : CWFAsyncBlockOperation
 {
     CDUnknownBlockType _response;
-    _Bool _isSubrequest;
-    _Bool _alreadyResponded;
-    NSUUID *_UUID;
-    long long _type;
-    CWFRequestParameters *_requestParameters;
-    NSDate *_receivedAt;
-    NSDictionary *_info;
-    CDUnknownBlockType _cancelationHandler;
-    CDUnknownBlockType _forwardToCompletionBlock;
 }
 
 - (_Bool);
-- (void);
+- (void)al resources for %@;
 - (id);
 - (id);
 - (id);
@@ -31,34 +20,25 @@
 - (void);
 - (CDUnknownBlockType);
 - (_Bool);
-- (void);
+- (void)o %@, is now mapped to %@. They're different!;
 - (long long);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)__DATA_DIRTY;
 - (id);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)s;
 - (void);
-- (void);
+- (void)h;
 - (id);
 - (CDUnknownBlockType);
 - (void);
-- (void)e;
+- (void)__boundaryTime;
 - (void);
 
 // Remaining properties
-@property(copy) NSUUID *UUID; // @synthesize UUID=_UUID;
 @property(nonatomic) _Bool alreadyResponded; // @synthesize alreadyResponded=_alreadyResponded;
-@property(copy) CDUnknownBlockType cancelationHandler; // @synthesize cancelationHandler=_cancelationHandler;
-@property(copy) CDUnknownBlockType forwardToCompletionBlock; // @synthesize forwardToCompletionBlock=_forwardToCompletionBlock;
-@property(copy) NSDictionary *info; // @synthesize info=_info;
-@property _Bool isSubrequest; // @synthesize isSubrequest=_isSubrequest;
-@property(copy) NSDate *receivedAt; // @synthesize receivedAt=_receivedAt;
-@property(copy) CWFRequestParameters *requestParameters; // @synthesize requestParameters=_requestParameters;
-@property(copy) CDUnknownBlockType response;
-@property long long type; // @synthesize type=_type;
 
 @end
 

@@ -9,9 +9,6 @@
 @interface DADREMXPCPerformerDelegate
 {
     _Bool _finished;
-    NSString *_accountID;
-    NSString *_delegateID;
-    CDUnknownBlockType _remXPCCompletion;
 }
 
 - (void);
@@ -28,9 +25,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *accountID; // @synthesize accountID=_accountID;
-@property(retain, nonatomic) NSString *delegateID; // @synthesize delegateID=_delegateID;
-@property(nonatomic) _Bool finished; // @synthesize finished=_finished;
-@property(copy, nonatomic) CDUnknownBlockType remXPCCompletion; // @synthesize remXPCCompletion=_remXPCCompletion;
 
 @end
 

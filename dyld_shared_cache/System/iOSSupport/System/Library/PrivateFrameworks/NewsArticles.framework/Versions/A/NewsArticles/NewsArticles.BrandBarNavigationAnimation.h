@@ -7,8 +7,6 @@
 @interface NewsArticles.BrandBarNavigationAnimation
 {
     _Bool shouldCompressAtTop;
-    double topOffset;
-    _Bool shouldCloseGapOnScroll;
 }
 
 - (void);
@@ -19,13 +17,11 @@
 - (double);
 - (double);
 - (_Bool);
-- (void);
+- (void)";
 - (double);
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool shouldCloseGapOnScroll; // @synthesize shouldCloseGapOnScroll;
 @property(nonatomic, readonly) _Bool shouldCompressAtTop; // @synthesize shouldCompressAtTop;
-@property(nonatomic, readonly) double topOffset; // @synthesize topOffset;
 
 @end
 

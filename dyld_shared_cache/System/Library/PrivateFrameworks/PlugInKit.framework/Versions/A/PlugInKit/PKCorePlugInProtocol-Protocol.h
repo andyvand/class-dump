@@ -7,6 +7,7 @@
 @class NSDictionary;
 
 @protocol PKCorePlugInProtocol
+- (void);
 
 // Remaining properties
 @property(copy) NSDictionary *_userInfo;

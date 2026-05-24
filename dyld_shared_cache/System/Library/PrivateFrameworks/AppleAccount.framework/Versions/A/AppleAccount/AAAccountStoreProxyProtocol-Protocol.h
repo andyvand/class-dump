@@ -5,5 +5,8 @@
 //
 
 @protocol AAAccountStoreProxyProtocol
+- (void)posted CPProfilePreferencesChangedNotification for Install; userDict = 
+%s;
+- (void)fication removing notification;
 @end
 

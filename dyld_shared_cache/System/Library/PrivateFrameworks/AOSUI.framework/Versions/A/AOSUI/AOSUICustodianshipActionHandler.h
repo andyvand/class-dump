@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AALocalContactInfo, NSString, NSWindow;
+@class AALocalContactInfo, NSWindow;
 
 __attribute__((visibility("hidden")))
 @interface AOSUICustodianshipActionHandler
 {
     AALocalContactInfo *_contactInfo;
-    NSWindow *_helpNowWindow;
 }
 
 - (void);
@@ -19,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)+;
 - (void);
 - (id);
 - (id);
@@ -27,15 +26,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(readonly) AALocalContactInfo *contactInfo; // @synthesize contactInfo=_contactInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property __weak NSWindow *helpNowWindow; // @synthesize helpNowWindow=_helpNowWindow;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,25 +6,21 @@
 
 #import <CoreData/NSCloudKitMirroringRequest.h>
 
-@class NSSet;
-
 @interface NSCloudKitMirroringDelegateSerializationRequest : NSCloudKitMirroringRequest
 {
     unsigned long long _resultType;
-    NSSet *_objectIDsToSerialize;
 }
 
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)!;
+- (id);
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *objectIDsToSerialize; // @synthesize objectIDsToSerialize=_objectIDsToSerialize;
 @property(nonatomic) unsigned long long resultType; // @synthesize resultType=_resultType;
 
 @end

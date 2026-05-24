@@ -10,11 +10,11 @@
 {
 }
 
-+ (id);
++ (id);
 - (id);
 - (void *);
 - (id);
-- (id)er;
+- (id)ResourceWrapper;
 
 @end
 

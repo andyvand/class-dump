@@ -5,6 +5,7 @@
 //
 
 @protocol HMDCompositeSettingsBoolValueProviding
+- (_Bool);
 
 // Remaining properties
 @property(readonly) _Bool boolValue;

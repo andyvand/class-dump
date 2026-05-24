@@ -5,5 +5,6 @@
 //
 
 @protocol BKHIDEventDeliveryManagerServerRuleChangeAuthority
+- (unsigned long long)tadata"8@"CKShare"16@"NSError"24;
 @end
 

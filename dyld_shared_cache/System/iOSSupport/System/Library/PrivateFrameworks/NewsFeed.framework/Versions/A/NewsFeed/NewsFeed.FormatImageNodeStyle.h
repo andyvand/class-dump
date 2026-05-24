@@ -7,22 +7,6 @@
 @interface NewsFeed.FormatImageNodeStyle
 {
     id _identifier;
-    id class;
-    id _selectors;
-    id alpha;
-    id _adjustments;
-    id background;
-    id borders;
-    id contentMode;
-    id cornerRadius;
-    id renderingMode;
-    id resize;
-    id _transforms;
-    id shadow;
-    id tintColor;
-    id ignoresSmartInvertColors;
-    id request;
-    id imageMask;
 }
 
 @end

@@ -4,47 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKTravelEngineHypothesis, NSData, NSDate, NSString, NSTimeZone, NSURL, NSUserActivity;
-
 @interface EKCalendarItemAlertInfo
 {
     _Bool _allDay;
-    _Bool _tentative;
-    _Bool _acknowledged;
-    _Bool _refiring;
-    _Bool _isOffsetFromTravelTimeStart;
-    _Bool _isPseudoEvent;
-    _Bool _hasGeoLocationCoordinates;
-    _Bool _hasOrganizerThatIsNotCurrentUser;
-    _Bool _isSuggestedLocation;
-    _Bool _isOnSharedCalendar;
-    _Bool _hasDisplayedLeaveByMessage;
-    _Bool _hasDisplayedLeaveNowMessage;
-    _Bool _hasDisplayedRunningLateMessage;
-    int _databaseID;
-    long long _triggerType;
-    NSString *_publisherBulletinID;
-    NSString *_title;
-    NSString *_location;
-    NSDate *_eventDate;
-    NSDate *_endDate;
-    NSTimeZone *_eventTimeZone;
-    NSUserActivity *_appLink;
-    NSURL *_entityID;
-    long long _proximity;
-    NSString *_externalID;
-    NSString *_dismissalID;
-    NSString *_alarmID;
-    NSData *_mapKitHandle;
-    NSString *_organizerEmailAddress;
-    NSString *_startLocationRouting;
-    NSString *_locationAddress;
-    EKTravelEngineHypothesis *_latestHypothesis;
-    NSDate *_lastFireTimeOfAlertOffsetFromTravelTime;
-    NSDate *_lastTimeBulletinAdded;
-    unsigned long long _currentRouteHypothesizerNotificationType;
-    NSDate *_fireDate;
-    struct CLLocationCoordinate2D _geoLocationCoordinates;
 }
 
 - (id);
@@ -55,9 +17,9 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)�#f)	k ;
 - (void);
 - (void);
 - (void);
@@ -70,18 +32,18 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (id)!;
 - (_Bool);
 - (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)T?;
+- (_Bool)rB2;
 - (_Bool);
 - (struct CLLocationCoordinate2D);
 - (id);
 - (unsigned long long);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -92,7 +54,7 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)B;
 - (unsigned long long);
 - (id);
 - (id);
@@ -101,10 +63,10 @@
 - (int);
 - (long long);
 - (void);
-- (id);
+- (id)NSMutableArray",&,V_alarmGadgets;
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -113,44 +75,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool acknowledged; // @synthesize acknowledged=_acknowledged;
-@property(readonly, nonatomic) NSString *alarmID; // @synthesize alarmID=_alarmID;
-@property(readonly, nonatomic) _Bool allDay; // @synthesize allDay=_allDay;
-@property(readonly, nonatomic) NSUserActivity *appLink; // @synthesize appLink=_appLink;
-@property(nonatomic) unsigned long long currentRouteHypothesizerNotificationType; // @synthesize currentRouteHypothesizerNotificationType=_currentRouteHypothesizerNotificationType;
-@property(readonly, nonatomic) int databaseID; // @synthesize databaseID=_databaseID;
-@property(readonly, nonatomic) NSString *dismissalID; // @synthesize dismissalID=_dismissalID;
-@property(readonly, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(readonly, nonatomic) NSURL *entityID; // @synthesize entityID=_entityID;
-@property(readonly, nonatomic) NSDate *eventDate; // @synthesize eventDate=_eventDate;
-@property(readonly, nonatomic) NSTimeZone *eventTimeZone; // @synthesize eventTimeZone=_eventTimeZone;
-@property(readonly, nonatomic) NSString *externalID; // @synthesize externalID=_externalID;
-@property(copy, nonatomic) NSDate *fireDate; // @synthesize fireDate=_fireDate;
-@property(nonatomic) struct CLLocationCoordinate2D geoLocationCoordinates; // @synthesize geoLocationCoordinates=_geoLocationCoordinates;
-@property(nonatomic) _Bool hasDisplayedLeaveByMessage; // @synthesize hasDisplayedLeaveByMessage=_hasDisplayedLeaveByMessage;
-@property(nonatomic) _Bool hasDisplayedLeaveNowMessage; // @synthesize hasDisplayedLeaveNowMessage=_hasDisplayedLeaveNowMessage;
-@property(nonatomic) _Bool hasDisplayedRunningLateMessage; // @synthesize hasDisplayedRunningLateMessage=_hasDisplayedRunningLateMessage;
-@property(nonatomic) _Bool hasGeoLocationCoordinates; // @synthesize hasGeoLocationCoordinates=_hasGeoLocationCoordinates;
-@property(nonatomic) _Bool hasOrganizerThatIsNotCurrentUser; // @synthesize hasOrganizerThatIsNotCurrentUser=_hasOrganizerThatIsNotCurrentUser;
-@property(readonly, nonatomic) _Bool isOffsetFromTravelTimeStart; // @synthesize isOffsetFromTravelTimeStart=_isOffsetFromTravelTimeStart;
-@property(nonatomic) _Bool isOnSharedCalendar; // @synthesize isOnSharedCalendar=_isOnSharedCalendar;
-@property(readonly, nonatomic) _Bool isPseudoEvent; // @synthesize isPseudoEvent=_isPseudoEvent;
-@property(readonly, nonatomic) _Bool isPurelyATimeToLeaveAlert;
-@property(nonatomic) _Bool isSuggestedLocation; // @synthesize isSuggestedLocation=_isSuggestedLocation;
-@property(copy, nonatomic) NSDate *lastFireTimeOfAlertOffsetFromTravelTime; // @synthesize lastFireTimeOfAlertOffsetFromTravelTime=_lastFireTimeOfAlertOffsetFromTravelTime;
-@property(copy, nonatomic) NSDate *lastTimeBulletinAdded; // @synthesize lastTimeBulletinAdded=_lastTimeBulletinAdded;
-@property(retain, nonatomic) EKTravelEngineHypothesis *latestHypothesis; // @synthesize latestHypothesis=_latestHypothesis;
-@property(readonly, nonatomic) NSString *location; // @synthesize location=_location;
-@property(copy, nonatomic) NSString *locationAddress; // @synthesize locationAddress=_locationAddress;
-@property(retain, nonatomic) NSData *mapKitHandle; // @synthesize mapKitHandle=_mapKitHandle;
-@property(copy, nonatomic) NSString *organizerEmailAddress; // @synthesize organizerEmailAddress=_organizerEmailAddress;
-@property(readonly, nonatomic) long long proximity; // @synthesize proximity=_proximity;
-@property(readonly, nonatomic) NSString *publisherBulletinID; // @synthesize publisherBulletinID=_publisherBulletinID;
-@property(readonly, nonatomic) NSString *recordID;
-@property(readonly, nonatomic) _Bool refiring; // @synthesize refiring=_refiring;
-@property(copy, nonatomic) NSString *startLocationRouting; // @synthesize startLocationRouting=_startLocationRouting;
-@property(readonly, nonatomic) _Bool tentative; // @synthesize tentative=_tentative;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 @property(nonatomic) long long triggerType; // @synthesize triggerType=_triggerType;
 
 @end

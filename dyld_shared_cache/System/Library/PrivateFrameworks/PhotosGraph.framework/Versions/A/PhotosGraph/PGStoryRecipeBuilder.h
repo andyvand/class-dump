@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)enumerateKeysAndObjectsUsingBlock:(id)arg1;
 + (id);
 + (id);
 + (id);

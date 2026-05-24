@@ -10,30 +10,19 @@ __attribute__((visibility("hidden")))
 @interface _MTL4CounterHeap
 {
     unsigned long long _count;
-    NSString *_label;
-    long long _type;
 }
 
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)h;
 - (long long);
 - (unsigned long long);
-- (void)ns:(id)arg1;
+- (void)setFunctions:(id)arg1;
 
 // Remaining properties
-@property(readonly) unsigned long long count; // @synthesize count=_count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy) NSString *label; // @synthesize label=_label;
-@property(readonly) Class superclass;
-@property(readonly) long long type; // @synthesize type=_type;
 
 @end
 

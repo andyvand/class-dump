@@ -4,49 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIDatePicker, UILabel, UITapGestureRecognizer;
+@class UILabel;
 @protocol EKDateTimeCellDelegate;
 
 @interface EKDateTimeCell
 {
     UILabel *_titleLabel;
-    UIDatePicker *_datePicker;
-    long long _currentVisibleComponent;
-    _Bool _isEditing;
-    _Bool _usingMultiLineLayout;
-    NSArray *_currentConstraints;
-    UITapGestureRecognizer *_gestureRecognizer;
-    id <EKDateTimeCellDelegate> _dateTimeDelegate;
 }
 
 - (_Bool);
+- (void)xX%s;
+- (void)&s;
+- (void);
+- (void)%s;
+- (id)%s;
+- (void);
+- (void)s;
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void)ndNotes: /* Error: Ran out of types for this method. */;
+- (id).m;
+- (void)parsedConference:andNotes: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) id <EKDateTimeCellDelegate> dateTimeDelegate; // @synthesize dateTimeDelegate=_dateTimeDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface AKAgeRangeSettings
 {
     int _u13Limit;
-    int _u18Limit;
 }
 
 - (int);
@@ -16,7 +15,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) int u13Limit; // @synthesize u13Limit=_u13Limit;
-@property(readonly, nonatomic) int u18Limit; // @synthesize u18Limit=_u18Limit;
 
 @end
 

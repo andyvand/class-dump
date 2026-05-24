@@ -11,14 +11,14 @@
     MAAutoAssetSelector *_assetSelector;
 }
 
-+ (id);
-+ (id);
-- (id);
++ (id)setHasCirAlertKgWaBoost:(id)arg1;
++ (id)setHasChangeType:(id)arg1;
+- (id)setHasContactSearchSuggestedType:(id)arg1;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
+- (void)P;
 
 // Remaining properties
 @property(readonly, nonatomic) MAAutoAssetSelector *assetSelector; // @synthesize assetSelector=_assetSelector;

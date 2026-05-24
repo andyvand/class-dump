@@ -14,8 +14,8 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)k was empty:(CDUnknownBlockType)arg1 %@;
+- (void)or context %@. Error? %@;
 - (id);
 - (void);
 - (id);

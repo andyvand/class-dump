@@ -7,8 +7,6 @@
 @interface SiriInference.LoggingDataEmitter
 {
     id messageStream;
-    id now;
-    id requestUUIDProvider;
 }
 
 @end

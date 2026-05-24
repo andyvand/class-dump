@@ -6,44 +6,33 @@
 
 #import <UIKitCore/UIControl.h>
 
-@class NSCalendar, NSDate, NSDictionary, NSLocale, NSString, NSTimeZone, UIColor, UIView, _UIDatePickerDataModel, _UIDatePickerOverlayPresentation, _UIDatePickerStyle;
-@protocol _UIDatePickerCompactStyleDelegate, _UIDatePickerViewComponent;
+@class _UIDatePickerStyle;
 
 @interface UIDatePicker : UIControl
 {
     struct {
         unsigned int selectionBarIgnoresInset;
     } _datePickerViewFlags;
-    UIView<_UIDatePickerViewComponent> *_pickerView;
-    _UIDatePickerDataModel *_data;
-    _Bool _useCurrentDateDuringDecoding;
-    _Bool _ignoresEmitValueChanged;
-    _UIDatePickerStyle *_style;
-    _Bool __useCurrentDateDuringDecoding;
-    _Bool __displaysTimeZone;
-    id <_UIDatePickerCompactStyleDelegate> __compactStyleDelegate;
-    long long _preferredDatePickerStyle;
-    _UIDatePickerOverlayPresentation *__overlayPresentation;
 }
 
 + (void);
 + (id);
 + (void);
+- (void)rror querying DND state:(id)arg1 %@;
+- (void)ed device to allowed list;
+- (void)rd, marking it as clean and moving on.;
+- (void)from blackhole.;
+- (void)last jettison was %@;
+- (void)e allow list %@;
+- (void)update filterCapbilities from relayed message;
+- (void)ering. Checking if we need to update filterCapbilities from relayed message;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (long long);
-- (long long);
-- (id);
+- (_Bool)roperties to:%@ /* Error: Ran out of types for this method. */;
+- (long long)Adding %@ to the devices to send this message to, since we only need to relay it to the active watch;
+- (long long)d-LQM-for-standard-size_overwrite;
+- (id)u45C4/Library/Caches/com.apple.xbs/TemporaryDirectory.sfEDjv/Sources/MessagesCore/IMCore/IMDaemonCore/IMDServiceSession_Chat.m;
 - (double);
-- (void);
+- (void)jA�(;
 - (void);
 - (void);
 - (void);
@@ -74,7 +63,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)R!;
 - (void);
 - (id);
 - (void);
@@ -84,10 +73,10 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void).B.dylib;
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (long long);
@@ -98,12 +87,12 @@
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id)System.B.dylib;
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (struct CGSize);
-- (id);
+- (id)`;
 - (void);
 - (_Bool);
 - (id)1Â0@ù
@@ -113,14 +102,14 @@
 - (id)
 × ;
 - (void)4@32;
-- (id)ndler;
-- (void)SplitKeyboard;
-- (void)emBackgroundSectionCellColor;
-- (void)espectDefinesPresentationContext;
-- (_Bool)entedViewFrame: /* Error: Ran out of types for this method. */;
-- (void):(struct CGRect)arg1;
+- (id)completionHandler;
+- (void)_verticalTranslationForSplitKeyboard;
+- (void)_systemBackgroundSectionCellColor;
+- (void)_shouldRespectDefinesPresentationContext;
+- (_Bool)_sheetPresentationControllerDidInvalidateCurrentPresentedViewFrame: /* Error: Ran out of types for this method. */;
+- (void)_UIAppearance_setTitlePositionAdjustment:(struct CGRect)arg1;
 - (void)nuConfiguration",&,N,V_activeConfiguration;
-- (id)pletionHandlers:(struct CGRect)arg1;
+- (id)setDismissalCompletionHandlers:(struct CGRect)arg1;
 - (void)cation requestSceneSessionDestruction:(struct CGRect)arg1 ] requires multiwindow adoption.;
 - (id)ity:%{public}s /* Error: Ran out of types for this method. */;
 - (void)cene:(id)arg1 ] position:%@ visible:%@; notifyRemote:%@; isMinimized:%@ /* Error: Ran out of types for this method. */;
@@ -132,7 +121,7 @@
 - (void)#;
 - (void)àÖh;
 - (double)¼i;
-- (id);
+- (id)j;
 - (unsigned long long)UlË¯n;
 - (void);
 - (void)ÿs$Õèn;
@@ -143,37 +132,7 @@
 - (void)\0ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) struct UIEdgeInsets _appliedInsetsToEdgeOfContent;
-@property(nonatomic, setter=_setCompactStyleDelegate:) __weak id <_UIDatePickerCompactStyleDelegate> _compactStyleDelegate; // @synthesize _compactStyleDelegate=__compactStyleDelegate;
-@property(nonatomic, setter=_setDisplaysTimeZone:) _Bool _displaysTimeZone; // @synthesize _displaysTimeZone=__displaysTimeZone;
-@property(nonatomic) __weak _UIDatePickerOverlayPresentation *_overlayPresentation; // @synthesize _overlayPresentation=__overlayPresentation;
-@property(retain, nonatomic, setter=_setOverrideCompactTextAttributes:) NSDictionary *_overrideCompactTextAttributes;
-@property(nonatomic, setter=_setSelectionBarIgnoresInset:) _Bool _selectionBarIgnoresInset;
 @property(readonly, nonatomic) _UIDatePickerStyle *_style; // @synthesize _style;
-@property(nonatomic, setter=_setUseCurrentDateDuringDecoding:) _Bool _useCurrentDateDuringDecoding; // @synthesize _useCurrentDateDuringDecoding=__useCurrentDateDuringDecoding;
-@property(nonatomic, getter=_allowsZeroCountDownDuration, setter=_setAllowsZeroCountDownDuration:) _Bool allowsZeroCountDownDuration; // @dynamic allowsZeroCountDownDuration;
-@property(nonatomic, getter=_allowsZeroTimeInterval, setter=_setAllowsZeroTimeInterval:) _Bool allowsZeroTimeInterval; // @dynamic allowsZeroTimeInterval;
-@property(copy, nonatomic) NSCalendar *calendar; // @dynamic calendar;
-@property(readonly, nonatomic, getter=_contentWidth) double contentWidth; // @dynamic contentWidth;
-@property(nonatomic) double countDownDuration; // @dynamic countDownDuration;
-@property(retain, nonatomic, getter=_customFontDesign, setter=_setCustomFontDesign:) NSString *customFontDesign;
-@property(retain, nonatomic) NSDate *date; // @dynamic date;
-@property(nonatomic) long long datePickerMode; // @dynamic datePickerMode;
-@property(readonly, nonatomic) long long datePickerStyle;
-@property(readonly, nonatomic, getter=_dateUnderSelectionBar) NSDate *dateUnderSelectionBar; // @dynamic dateUnderSelectionBar;
-@property(retain, nonatomic, getter=_highlightColor, setter=_setHighlightColor:) UIColor *highlightColor;
-@property(readonly, nonatomic, getter=_isTimeIntervalMode) _Bool isTimeIntervalMode; // @dynamic isTimeIntervalMode;
-@property(retain, nonatomic) NSLocale *locale; // @dynamic locale;
-@property(retain, nonatomic, getter=_magnifierLineColor, setter=_setMagnifierLineColor:) UIColor *magnifierLineColor;
-@property(retain, nonatomic) NSDate *maximumDate; // @dynamic maximumDate;
-@property(retain, nonatomic) NSDate *minimumDate; // @dynamic minimumDate;
-@property(nonatomic) long long minuteInterval; // @dynamic minuteInterval;
-@property(nonatomic) long long preferredDatePickerStyle; // @synthesize preferredDatePickerStyle=_preferredDatePickerStyle;
-@property(nonatomic) _Bool roundsToMinuteInterval;
-@property(retain, nonatomic, getter=_textColor, setter=_setTextColor:) UIColor *textColor;
-@property(retain, nonatomic, getter=_textShadowColor, setter=_setTextShadowColor:) UIColor *textShadowColor;
-@property(nonatomic) double timeInterval; // @dynamic timeInterval;
-@property(retain, nonatomic) NSTimeZone *timeZone; // @dynamic timeZone;
 
 @end
 

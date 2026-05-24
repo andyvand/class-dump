@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface AXBrailleMap
 {
     NSMutableDictionary *_values;
-    CIImage *_presentedImage;
-    struct CGSize _dimensions;
 }
 
 + (id);
-+ (_Bool);
-- (void);
-- (id);
-- (void);
-- (float);
++ (_Bool)_processFetchVoiceProfileCommandFromPeerId:requestInfo:withReply: /* Error: Ran out of types for this method. */;
+- (void)ents=(0=norvt/1=decryptrvt/2=quickrvt/3=err)=%d;
+- (id)RequiredWithOrWithoutReboot=%d;
+- (void)=%d;
+- (float)o go vet that and probe for which CS role;
 - (id);
 - (id);
 - (void);

@@ -6,14 +6,11 @@
 
 #import <Mail/MFEWSPersistenceTaskOperation.h>
 
-@class MFEWSMailboxItemsBatch, NSString;
 @protocol MFEWSPersistMessageMetadataOperationDelegate;
 
 @interface MFEWSPersistMessageMetadataOperation : MFEWSPersistenceTaskOperation
 {
     id <MFEWSPersistMessageMetadataOperationDelegate> _delegate;
-    NSString *_mailboxURL;
-    MFEWSMailboxItemsBatch *_batch;
 }
 
 - (id);
@@ -21,15 +18,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)menuViewFrame;
 - (id);
 - (void);
 - (void)Ð0;
 
 // Remaining properties
-@property(readonly, nonatomic) MFEWSMailboxItemsBatch *batch; // @synthesize batch=_batch;
 @property(nonatomic) __weak id <MFEWSPersistMessageMetadataOperationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy, nonatomic) NSString *mailboxURL; // @synthesize mailboxURL=_mailboxURL;
 
 @end
 

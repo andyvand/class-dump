@@ -15,7 +15,7 @@
 + (id);
 + (id);
 + (id);
-- (void);
+- (void)model file, must be "core-ml";
 - (id);
 - (void);
 - (id);
@@ -25,7 +25,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *previousValue;
-@property(nonatomic) float value;
 
 @end
 

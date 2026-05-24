@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class AMSPromise;
+
 @protocol AMSUIWebActionRunnerDelegate
+- (void)"28@"NSError"36;
+- (AMSPromise *)"MAAutoAssetSelector"8B16@"NSURL"20@"MAAutoAssetStatus"28@"NSError"36;
+- (AMSPromise *)DDSAutoAssetPreferences;
+- (AMSPromise *)ataDeliveryServices;
+- (AMSPromise *)DDS_EMPTY_AUTO_ASSET_DOWNLOAD;
+- (AMSPromise *)cted>;
 @end
 

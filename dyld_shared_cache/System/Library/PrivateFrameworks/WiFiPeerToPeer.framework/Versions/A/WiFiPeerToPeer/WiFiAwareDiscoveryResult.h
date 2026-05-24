@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID, WiFiAwarePairingConfiguration, WiFiAwarePublishServiceSpecificInfo, WiFiMACAddress;
+@class NSString;
 
 @interface WiFiAwareDiscoveryResult
 {
     long long _datapathCipherSuite;
-    long long _fsdFunction;
-    unsigned char _subscribeID;
-    unsigned char _publishID;
-    _Bool _datapathSupported;
-    _Bool _pairSetupRequired;
-    NSString *_serviceName;
-    WiFiAwarePublishServiceSpecificInfo *_serviceSpecificInfo;
-    WiFiMACAddress *_publisherAddress;
-    long long _rssi;
-    WiFiAwarePairingConfiguration *_pairingConfiguration;
-    NSUUID *_pairedUUID;
-    NSString *_pairedDeviceName;
-    long long _signature;
 }
 
 + (_Bool);
@@ -38,10 +25,10 @@
 - (id);
 - (id);
 - (unsigned char);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -52,19 +39,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool datapathSecurityRequired;
-@property(readonly, nonatomic) _Bool datapathSupported; // @synthesize datapathSupported=_datapathSupported;
-@property(readonly, nonatomic) _Bool furtherServiceDiscoveryRequired;
-@property(readonly, nonatomic) _Bool pairSetupRequired; // @synthesize pairSetupRequired=_pairSetupRequired;
-@property(readonly, nonatomic) NSString *pairedDeviceName; // @synthesize pairedDeviceName=_pairedDeviceName;
-@property(readonly, nonatomic) NSUUID *pairedUUID; // @synthesize pairedUUID=_pairedUUID;
-@property(readonly, nonatomic) WiFiAwarePairingConfiguration *pairingConfiguration; // @synthesize pairingConfiguration=_pairingConfiguration;
-@property(readonly, nonatomic) unsigned char publishID; // @synthesize publishID=_publishID;
-@property(readonly, nonatomic) WiFiMACAddress *publisherAddress; // @synthesize publisherAddress=_publisherAddress;
-@property(readonly, nonatomic) long long rssi; // @synthesize rssi=_rssi;
 @property(readonly, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(readonly, nonatomic) WiFiAwarePublishServiceSpecificInfo *serviceSpecificInfo; // @synthesize serviceSpecificInfo=_serviceSpecificInfo;
-@property(readonly, nonatomic) long long signature; // @synthesize signature=_signature;
 
 @end
 

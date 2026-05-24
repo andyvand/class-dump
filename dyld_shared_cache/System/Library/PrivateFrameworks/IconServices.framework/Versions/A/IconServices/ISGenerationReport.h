@@ -7,18 +7,15 @@
 @interface ISGenerationReport
 {
     _Bool _hasLightingEffects;
-    unsigned long long _iconTreatment;
 }
 
-+ (id);
++ (id)mockMLResults;
 - (id);
 - (unsigned long long);
 - (unsigned short);
 - (_Bool);
 
 // Remaining properties
-@property(readonly) unsigned short customRenderedTag;
-@property(readonly) _Bool hasLightingEffects; // @synthesize hasLightingEffects=_hasLightingEffects;
 @property(readonly) unsigned long long iconTreatment; // @synthesize iconTreatment=_iconTreatment;
 
 @end

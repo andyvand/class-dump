@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSObject, NSString, PHPhotoLibrary, PXPlacesStore;
-@protocol OS_dispatch_queue, PXPlacesGeotaggedItemDataSource;
+@class NSArray;
 
 @interface PXPlacesPhotoAssetsStore
 {
     _Bool _didInitiateLoad;
-    _Bool _didCompleteLoad;
-    NSArray *_fetchResults;
-    PHPhotoLibrary *_photoLibrary;
-    PXPlacesStore *_store;
-    NSMutableArray *_completions;
-    NSObject<OS_dispatch_queue> *_serialQueue;
 }
 
 + (id);
@@ -32,9 +25,9 @@
 - (void);
 - (id);
 - (void);
+- (id)4;
 - (id);
-- (id);
-- (id)ToolTip: /* Error: Ran out of types for this method. */;
+- (id)px_setAlternateToolTip: /* Error: Ran out of types for this method. */;
 - (void),;
 - (void)(pendingFeedEntries:(id)arg1 %lu, pendingCommentsChange:%lu, pendingAssetsChange:%lu) /* Error: Ran out of types for this method. */;
 - (void);
@@ -43,21 +36,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *completions; // @synthesize completions=_completions;
-@property(readonly) id <PXPlacesGeotaggedItemDataSource> dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didCompleteLoad; // @synthesize didCompleteLoad=_didCompleteLoad;
-@property(nonatomic) _Bool didInitiateLoad; // @synthesize didInitiateLoad=_didInitiateLoad;
 @property(retain, nonatomic) NSArray *fetchResults; // @synthesize fetchResults=_fetchResults;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *serialQueue; // @synthesize serialQueue=_serialQueue;
-@property(retain, nonatomic) PXPlacesStore *store; // @synthesize store=_store;
-@property(readonly) Class superclass;
 
 @end
 

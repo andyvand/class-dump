@@ -6,13 +6,10 @@
 
 #import <OSUpdate/SUOSULaterObserver.h>
 
-@class SUPowerAssertionManager;
-
 __attribute__((visibility("hidden")))
 @interface SUOSUTonightObserver : SUOSULaterObserver
 {
     _Bool _installTaskSuccessfullyFired;
-    SUPowerAssertionManager *_powerAssertionManager;
 }
 
 - (void);
@@ -28,7 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property _Bool installTaskSuccessfullyFired; // @synthesize installTaskSuccessfullyFired=_installTaskSuccessfullyFired;
-@property(retain) SUPowerAssertionManager *powerAssertionManager; // @synthesize powerAssertionManager=_powerAssertionManager;
 
 @end
 

@@ -6,15 +6,15 @@
 
 #import <MediaPlayer/MPModelObject.h>
 
-@class MPModelPlaylistEntry, MPModelSocialPerson, NSDate, NSString;
+@class MPModelPlaylistEntry;
 
 @interface MPModelPlaylistEntryReaction : MPModelObject
 {
 }
 
++ (id);
 + (id);
-+ (id);
-+ (id);
++ (id));
 + (id);
 + (void);
 + (void);
@@ -22,10 +22,7 @@
 + (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *date; // @dynamic date;
 @property(retain, nonatomic) MPModelPlaylistEntry *playlistEntry; // @dynamic playlistEntry;
-@property(retain, nonatomic) NSString *reactionText; // @dynamic reactionText;
-@property(retain, nonatomic) MPModelSocialPerson *socialProfile; // @dynamic socialProfile;
 
 @end
 

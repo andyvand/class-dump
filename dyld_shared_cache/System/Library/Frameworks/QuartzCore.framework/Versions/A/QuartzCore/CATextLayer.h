@@ -6,8 +6,6 @@
 
 #import <QuartzCore/CALayer.h>
 
-@class NSString;
-
 @interface CATextLayer : CALayer
 {
     struct CATextLayerPrivate *_state;
@@ -16,19 +14,10 @@
 + (_Bool);
 + (id);
 + (_Bool);
-+ (id);
++ (id);
 
 // Remaining properties
-@property(copy) NSString *alignmentMode;
-@property _Bool allowsFontSubpixelQuantization;
-@property void *font;
-@property double fontSize;
-@property struct CGColor *foregroundColor;
-@property(copy) id string;
-@property(readonly, getter=isTruncated) _Bool truncated;
-@property(copy) NSString *truncationMode;
 @property(copy) id truncationString;
-@property(getter=isWrapped) _Bool wrapped;
 
 @end
 

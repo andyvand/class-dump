@@ -17,8 +17,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)eKeyForArtworkCatalog:forAnyRevision: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)_representationCacheKeyForArtworkCatalog:forAnyRevision: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *preferredIntervals; // @synthesize preferredIntervals=_preferredIntervals;

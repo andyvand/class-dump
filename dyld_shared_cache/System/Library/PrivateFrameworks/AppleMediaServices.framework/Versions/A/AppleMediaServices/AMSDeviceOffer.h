@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSSet, NSString;
+@class NSNumber;
 
 @interface AMSDeviceOffer
 {
     _Bool _downgrading;
-    _Bool _subscribed;
-    NSNumber *_adamId;
-    NSString *_description;
-    NSNumber *_dsid;
-    NSSet *_serialNumbers;
-    NSString *_offerIdentifier;
 }
 
 + (id);
@@ -31,34 +25,21 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)NumBatchSets;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)setGetVoiceInputDevicesResponseMessage:(id)arg1;
 - (id);
-- (void);
+- (void);
 - (_Bool);
-- (id);
+- (id)ams_compressBody:(id)arg1;
 - (id)erviceInterface>"8;
 - (void)ACL:(id)arg1 Failed to create ACL reference;
 - (void)ÙzuÙM©ÙHÙ´[ÙR*ÙµcÙëwÙÙ¹Ù[Ù ÝÙÕÙ×ÙoÄÙ©ªÙÖvÙÛÙl¬ÙÂ$ÙSÙÃ,ÙÄ4Ù*ÙÝ®ÙøÙGyÙßÙ.¦Ù¿ÙÀÙ¦9ÙYbÙ<ÈÙ¯ÙUBÙòÙ$ÙóÙ­ÊÙÚÙ<Ù¨IÙ~îÙÁÙÎÝÙ1ÙçWÙpÙ}æÙÊ½ÙdÙcÙeÙ"íÙÌÍÙ;ÀÙ6?Ù	sÙÏåÙðø¦ªÄí«ñoÅc¤°ÿØçré4:jÆ°c¢à#p¯?æ¤öôP7.dJ³Dý;:u/s.#üA&±ý Ìê+gïÐ§ÕOý¢áå¼ÝsáçwWÛ9®ÜªýÿÅWyåÃü9ed:×%HOðÞÚ|bnc¹ãÕ!ÃéXg&Ü:l¶¯^<a×RFCëErIàR«?²MöºdDsà_~·òZr2[¹Þ¯iÚFã>·Ð3hUkÁäV?wjÝÙoñ«#R]øLÑîYBÃídj}Øýðò·6Âs¦|W·ì[~ìg /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) NSNumber *adamId; // @synthesize adamId=_adamId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy) NSString *description; // @synthesize description=_description;
-@property(getter=isDowngrading) _Bool downgrading; // @synthesize downgrading=_downgrading;
 @property(copy) NSNumber *dsid; // @synthesize dsid=_dsid;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *offerIdentifier; // @synthesize offerIdentifier=_offerIdentifier;
-@property(readonly) unsigned long long offerType;
-@property(readonly) NSSet *serialNumbers; // @synthesize serialNumbers=_serialNumbers;
-@property(getter=isSubscribed) _Bool subscribed; // @synthesize subscribed=_subscribed;
-@property(readonly) Class superclass;
 
 @end
 

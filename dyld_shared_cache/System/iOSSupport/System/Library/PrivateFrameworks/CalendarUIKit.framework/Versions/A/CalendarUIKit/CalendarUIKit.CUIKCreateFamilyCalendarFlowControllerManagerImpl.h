@@ -9,11 +9,10 @@
 @interface CalendarUIKit.CUIKCreateFamilyCalendarFlowControllerManagerImpl
 {
     id delegate;
-    id $__lazy_storage_$_viewController;
 }
 
-- (id);
-- (void);
+- (id)r",&,N,V__handwritingController;
+- (void);
 - (id);
 - (id);
 - (void)me: /* Error: Ran out of types for this method. */;

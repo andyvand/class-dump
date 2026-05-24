@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INConnectedCall, NSArray, NSNumber;
-
 @protocol INStartCallIntentResponseExport
-- (long long)pe:amount: /* Error: Ran out of types for this method. */;
+- (long long)initWithAmountType:amount: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;
-@property long long confirmationReason;
-@property(copy) NSArray *restrictedContacts;
-@property(copy) NSNumber *shouldDoEmergencyCountdown;
-@property(copy) INConnectedCall *startedCall;
 @end
 

@@ -7,7 +7,6 @@
 @interface AppStoreKit.OffsetGridLayout
 {
     id metrics;
-    id views;
 }
 
 @end

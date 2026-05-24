@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL;
-
 @interface QLImageWrapper
 {
     struct CGImage *_image;
-    NSURL *_url;
-    _Bool _discarded;
 }
 
 + (id);

@@ -5,5 +5,10 @@
 //
 
 @protocol PHMediaProcessingAlgorithmVersionProvider
+- (short)!;
+
+@optional
+- (short);
+- (short);
 @end
 

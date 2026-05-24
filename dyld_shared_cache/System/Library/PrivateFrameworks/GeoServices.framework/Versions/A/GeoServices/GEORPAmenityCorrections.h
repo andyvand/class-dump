@@ -9,19 +9,15 @@
 @interface GEORPAmenityCorrections
 {
     PBDataReader *_reader;
-    CDStruct_95bda58d _addedAmenities;
-    CDStruct_95bda58d _removedAmenities;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_addedAmenities:1;
-        unsigned int read_removedAmenities:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)iceRegion:(id)arg1;
++ (_Bool)setIsMismatchedStorefrontDeviceRegion:(id)arg1;
+- (void);
+- (void);
+- (unsigned long long);
+- (int)kABImageInfoClipRectKey;
+- (id)sedResultBuilder;
+- (int *)rsistence.CNCDContactVCardParsedResultBuilder;
 - (void);
 - (void);
 - (unsigned long long);
@@ -30,12 +26,6 @@
 - (int *);
 - (void);
 - (void);
-- (unsigned long long);
-- (int);
-- (id);
-- (int *);
-- (void);
-- (void);
 - (int);
 - (int);
 - (void);
@@ -43,24 +33,21 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (unsigned long long);
+- (id)secondPassAssetLoadStartTime;
+- (void)record starting alert for IFD feature group one.;
+- (unsigned long long)6;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id){?="has_timepoint"b1"has_includeEtaRouteIncidents"b1"has_includeHistoricTravelTime"b1"has_includeRouteTrafficDetail"b1"read_unknownFields"b1"read_transportTypes"b1"read_automobileOptions"b1"read_clientCapabilities"b1"read_cyclingOptions"b1"read_transitOptions"b1"read_walkingOptions"b1"wrote_anyField"b1};
-- (id)intsCount;
+- (id)accessPointsCount;
 - (id)Ü#%,'Ô(*x,.¼/à0;
 - (id)an only be called once per object;
 - (void){¢ëÂ0L@;
 
 // Remaining properties
-@property(readonly, nonatomic) int *addedAmenities;
 @property(readonly, nonatomic) unsigned long long addedAmenitiesCount;
-@property(readonly, nonatomic) int *removedAmenities;
-@property(readonly, nonatomic) unsigned long long removedAmenitiesCount;
 
 @end
 

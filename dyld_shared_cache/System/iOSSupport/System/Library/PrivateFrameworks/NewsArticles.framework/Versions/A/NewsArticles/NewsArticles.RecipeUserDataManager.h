@@ -7,11 +7,6 @@
 @interface NewsArticles.RecipeUserDataManager
 {
     id recipeUserDataStore;
-    id _multicaster;
-    id _task;
-    id taskQueueStream;
-    id taskQueueContinuation;
-    id taskQueueWorkTask;
 }
 
 @end

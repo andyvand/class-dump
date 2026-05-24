@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDateInterval, NSDictionary, NSMutableDictionary, NSString, NSUUID, _DKEventStream;
+@class NSMutableDictionary, NSUUID;
 
 @interface _DKHistogram
 {
     NSMutableDictionary *_histogram;
-    unsigned long long _countOverAllValues;
-    NSDateInterval *_interval;
-    NSUUID *_identifier;
-    NSString *_customIdentifier;
-    _DKEventStream *_stream;
-    NSArray *_deviceIdentifiers;
 }
 
 + (_Bool);
@@ -22,7 +16,7 @@
 - (double);
 - (id);
 - (void);
-- (id);
+- (id)q!;
 - (void);
 - (id);
 - (id);
@@ -40,8 +34,8 @@
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (void);
-- (id);
+- (void)be on a runloop?;
+- (id)__kCFStreamPropertyConnectionEstablishmentPrivacyProxyFailure;
 - (void);
 - (double);
 - (id);
@@ -49,7 +43,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)t;
 - (void)
 × ;
 - (id)À;
@@ -57,13 +51,7 @@
 - (void)blic}@;
 
 // Remaining properties
-@property(nonatomic) unsigned long long countOverAllValues; // @synthesize countOverAllValues=_countOverAllValues;
-@property(retain, nonatomic) NSString *customIdentifier; // @synthesize customIdentifier=_customIdentifier;
-@property(retain, nonatomic) NSArray *deviceIdentifiers; // @synthesize deviceIdentifiers=_deviceIdentifiers;
-@property(retain, nonatomic) NSDictionary *histogram; // @synthesize histogram=_histogram;
 @property(retain, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSDateInterval *interval; // @synthesize interval=_interval;
-@property(retain, nonatomic) _DKEventStream *stream; // @synthesize stream=_stream;
 
 @end
 

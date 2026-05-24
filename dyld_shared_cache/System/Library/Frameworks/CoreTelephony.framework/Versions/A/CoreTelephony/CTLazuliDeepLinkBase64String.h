@@ -11,15 +11,15 @@
     NSString *_base64String;
 }
 
-+ (_Bool);
++ (_Bool)eRanges:%@> /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id);
+- (id)#;
 - (_Bool);
-- (void);
+- (void)NSCopying;
 - (id);
 - (void)&Ð!ÈEùª)Ð1Â0@ù
 × ;

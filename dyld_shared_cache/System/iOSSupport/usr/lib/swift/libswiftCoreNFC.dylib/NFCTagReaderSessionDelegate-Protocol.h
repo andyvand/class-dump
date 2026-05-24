@@ -5,5 +5,10 @@
 //
 
 @protocol NFCTagReaderSessionDelegate
+- (void);
+
+@optional
+- (void)K;
+- (void);
 @end
 

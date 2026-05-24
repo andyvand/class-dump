@@ -5,5 +5,6 @@
 //
 
 @protocol ColorPickerImageLoaderProtocol
+- (void)SjQQ07G8UacM7E69G7dPbg;
 @end
 

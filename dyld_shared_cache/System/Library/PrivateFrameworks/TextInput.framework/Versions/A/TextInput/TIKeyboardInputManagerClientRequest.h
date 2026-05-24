@@ -9,12 +9,11 @@
 @interface TIKeyboardInputManagerClientRequest
 {
     NSInvocation *_invocation;
-    unsigned long long _errorCount;
 }
 
 + (id);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (void)¤
 Í
@@ -29,10 +28,9 @@
 ¡
 Ë
 ;
-- (id)edTotalCount;
+- (id)revisedTotalCount;
 
 // Remaining properties
-@property(nonatomic) unsigned long long errorCount; // @synthesize errorCount=_errorCount;
 @property(readonly, nonatomic) NSInvocation *invocation;
 
 @end

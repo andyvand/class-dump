@@ -5,5 +5,6 @@
 //
 
 @protocol TUConversationLinkDescriptorXPCServer
+- (void)R";
 @end
 

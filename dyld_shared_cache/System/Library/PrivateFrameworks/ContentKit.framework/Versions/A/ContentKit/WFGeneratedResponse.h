@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ContentKit.WFGeneratedResponseFactoryDataModel, NSArray, NSDate, NSDictionary, NSNumber, NSString;
+@class NSString;
 
 @interface WFGeneratedResponse
 {
     NSString *_rawResponse;
-    NSArray *_list;
-    NSNumber *_booleanValue;
-    NSNumber *_numberValue;
-    NSDictionary *_dictionary;
-    NSDate *_date;
-    ContentKit.WFGeneratedResponseFactoryDataModel *_responseDataModel;
 }
 
-+ (_Bool);
++ (_Bool)W!;
 - (id);
 - (id);
 - (void);
@@ -27,7 +21,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)tNextLeftMouseUp;
 - (id);
 - (void);
 - (id);
@@ -37,13 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *booleanValue; // @synthesize booleanValue=_booleanValue;
-@property(copy, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(copy, nonatomic) NSDictionary *dictionary; // @synthesize dictionary=_dictionary;
-@property(retain, nonatomic) NSArray *list; // @synthesize list=_list;
-@property(copy, nonatomic) NSNumber *numberValue; // @synthesize numberValue=_numberValue;
 @property(copy, nonatomic) NSString *rawResponse; // @synthesize rawResponse=_rawResponse;
-@property(readonly, copy, nonatomic) ContentKit.WFGeneratedResponseFactoryDataModel *responseDataModel; // @synthesize responseDataModel=_responseDataModel;
 
 @end
 

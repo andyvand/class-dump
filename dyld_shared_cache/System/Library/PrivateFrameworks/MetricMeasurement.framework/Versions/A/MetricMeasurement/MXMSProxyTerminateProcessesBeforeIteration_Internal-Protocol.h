@@ -5,5 +5,6 @@
 //
 
 @protocol MXMSProxyTerminateProcessesBeforeIteration_Internal
+- (void);
 @end
 

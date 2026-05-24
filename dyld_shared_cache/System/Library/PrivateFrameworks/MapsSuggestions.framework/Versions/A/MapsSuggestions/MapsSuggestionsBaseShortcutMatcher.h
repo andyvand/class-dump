@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MapsSuggestionsMapsSync, NSArray, NSObject;
-@protocol OS_dispatch_group, OS_dispatch_queue;
+@class NSArray;
 
 @interface MapsSuggestionsBaseShortcutMatcher
 {
     NSArray *_shortcuts;
-    double _matchingDistance;
-    _Bool _hasLoadedShortcuts;
-    _Bool _isLoading;
-    MapsSuggestionsMapsSync *_mapsSync;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_didUpdateOffloadQueue;
-    NSObject<OS_dispatch_group> *_loadingGroup;
 }
 
 - (id);
@@ -24,7 +16,7 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void)rd"@"NSError">16;

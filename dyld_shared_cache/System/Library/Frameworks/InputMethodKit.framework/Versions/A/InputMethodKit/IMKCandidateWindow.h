@@ -8,7 +8,7 @@
 {
 }
 
-+ (_Bool)ScreenUsingConstrainedFrame:(id)arg1;
++ (_Bool)frameOfCurrentlyVisibleScreenUsingConstrainedFrame:(id)arg1;
 
 @end
 

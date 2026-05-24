@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface STTranscriberSingleSegmentResult
 {
     _Bool _isFinal;
-    NSString *_text;
-    double _bestTextSegmentConfidence;
-    NSArray *_alternatives;
-    CDStruct_1b6d18a9 _resultsFinalizationTime;
 }
 
 - (CDStruct_1b6d18a9);
@@ -25,11 +19,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *alternatives; // @synthesize alternatives=_alternatives;
-@property(readonly, nonatomic) double bestTextSegmentConfidence; // @synthesize bestTextSegmentConfidence=_bestTextSegmentConfidence;
 @property(readonly, nonatomic) _Bool isFinal; // @synthesize isFinal=_isFinal;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 resultsFinalizationTime; // @synthesize resultsFinalizationTime=_resultsFinalizationTime;
-@property(readonly, copy, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end
 

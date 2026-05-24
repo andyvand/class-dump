@@ -4,41 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSObject, NSString, PRSSearchFeedback, PRSSearchSession, SFEngagementSignal, SPSearchQueryContext;
-@protocol OS_dispatch_queue, PRSSearchQueryHandler;
-
 @interface PRSQueryTask
 {
     _Bool _started;
-    _Bool _canceled;
-    _Bool _webSearch;
-    float _serverRelevanceScoreThreshold;
-    long long _queryId;
-    NSDictionary *_category_stats;
-    NSDictionary *_server_features;
-    NSArray *_parsecCategoryOrder;
-    NSDictionary *_serverRelevanceScores;
-    SFEngagementSignal *_engagementSignal;
-    id _representedObject;
-    SPSearchQueryContext *_queryContext;
-    NSString *_queryString;
-    unsigned long long _queryIdent;
-    PRSSearchFeedback *_feedback;
-    id <PRSSearchQueryHandler> _handler;
-    NSObject<OS_dispatch_queue> *_queue;
-    PRSSearchSession *_session;
-    NSString *_fbq;
 }
 
-+ (void);
-+ (void);
++ (void)setDirectionsSourceAddress: /* Error: Ran out of types for this method. */;
++ (void)_linkWithDataRepresentation:substitutingAttachments:attachments: /* Error: Ran out of types for this method. */;
 + (_Bool);
-+ (void)um_kMDItemFilename_ordered_word_field_coverage;
++ (void)enum_kMDItemFilename_ordered_word_field_coverage;
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)pCollectionMetadata";
+- (id)originatorDisplayName;
+- (id)initWithURL:fileType:error: /* Error: Ran out of types for this method. */;
+- (id)_trailingBottomCaption;
 - (void);
 - (void);
 - (void);
@@ -50,11 +29,27 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)d?Є;
 - (_Bool);
 - (void);
-- (void);
-- (id);
+- (void)7wiIH+7v/sk2Zq/
+VfIgINItT9/VL9IbWeqwJczbHPCx+y85upZy4QhAZxpqg7FlVQIDAQABo4IBWzCC
+AVcwRgYIKwYBBQUHAQEEOjA4MDYGCCsGAQUFBzABhipodHRwOi8vb2NzcC11YXQu
+Y29ycC5hcHBsZS5jb20vb2NzcC1yZHdkMDEwHQYDVR0OBBYEFFo01E2lPxG7syW4
+oTDNu4mxJ/H7MBIGA1UdEwEB/wQIMAYBAf8CAQAwHwYDVR0jBBgwFoAUbFoAtZvT
+GGZEULNIZ725zr4YvQ4wRQYDVR0gBD4wPDANBgsqhkiG92NkBQoBAjANBgsqhkiG
+92NkBQoBAzANBgsqhkiG92NkBQoBATANBgsqhkiG92NkBQoCAjA9BgNVHR8ENjA0
+MDKgMKAuhixodHRwOi8vY3JsLXVhdC5jb3JwLmFwcGxlLmNvbS9yZHdkcm9vdGNh
+LmNybDAOBgNVHQ8BAf8EBAMCAQYwEwYJKoZIhvdjZAYUAQH/BAMCAQIwDgYDVR0k
+BAcwBaADAgEAMA0GCSqGSIb3DQEBCwUAA4IBAQCBhgtqeI82ECvxr2HVN0GssHey
+888ssuEJxQFKOycCqchm9CQVbvhk8Fsb4e3mPZsNoR2oQucyXr7iRNWm7kk9PmHZ
+rRmbiHfBDdnB+gMMXJmtMmXznhbvRgFlYyYJJRgbCg4/TcWcfMk23FNtuLnE2/vW
+JwfMj9Vg32wxayiwCgXtnqn2WQ7bIC6oGjyYkddf1wWo5n9cCdHZ56g+uHNnJDWJ
+B5NReP2VXCMTnbyi0/bPRc1PfYxW/9zptxeHRgrBMjlrZZPX5zmgTrZbYNtvii+V
+cP5+ly4Px8p63g+ElT3zRzu2RFnvZQ1JHwH3Lb3cnGTIi/9KWLp7izrb2pmB
+-----END CERTIFICATE-----
+;
+- (id)indexOfObjectPassingTest: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -64,12 +59,12 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)st [ScalarType = float];
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)ass TRIClientExperimentArtifact;
 - (void);
 - (void);
 - (id);
@@ -77,30 +72,12 @@
 - (void);
 - (id);
 - (id);
-- (void)bilecal_LLMQUIntentTicketShowEvent:(_Bool)arg1;
-- (void)meZoneOffsetDescription;
-- (_Bool)teForEvent:itemIdentifier:bundleToUpdate: /* Error: Ran out of types for this method. */;
+- (void)setCom_apple_mobilecal_LLMQUIntentTicketShowEvent:(_Bool)arg1;
+- (void)_timeZoneOffsetDescription;
+- (_Bool)_itemUpdateForEvent:itemIdentifier:bundleToUpdate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool canceled; // @synthesize canceled=_canceled;
-@property(retain, nonatomic) NSDictionary *category_stats; // @synthesize category_stats=_category_stats;
-@property(retain, nonatomic) SFEngagementSignal *engagementSignal; // @synthesize engagementSignal=_engagementSignal;
-@property(retain, nonatomic) NSString *fbq; // @synthesize fbq=_fbq;
-@property(retain) PRSSearchFeedback *feedback; // @synthesize feedback=_feedback;
-@property(nonatomic) __weak id <PRSSearchQueryHandler> handler; // @synthesize handler=_handler;
-@property(retain, nonatomic) NSArray *parsecCategoryOrder; // @synthesize parsecCategoryOrder=_parsecCategoryOrder;
-@property(readonly, nonatomic) SPSearchQueryContext *queryContext; // @synthesize queryContext=_queryContext;
-@property long long queryId; // @synthesize queryId=_queryId;
-@property unsigned long long queryIdent; // @synthesize queryIdent=_queryIdent;
-@property(retain, nonatomic) NSString *queryString; // @synthesize queryString=_queryString;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) __weak id representedObject; // @synthesize representedObject=_representedObject;
-@property(nonatomic) float serverRelevanceScoreThreshold; // @synthesize serverRelevanceScoreThreshold=_serverRelevanceScoreThreshold;
-@property(retain, nonatomic) NSDictionary *serverRelevanceScores; // @synthesize serverRelevanceScores=_serverRelevanceScores;
-@property(retain, nonatomic) NSDictionary *server_features; // @synthesize server_features=_server_features;
-@property(nonatomic) __weak PRSSearchSession *session; // @synthesize session=_session;
 @property(nonatomic) _Bool started; // @synthesize started=_started;
-@property _Bool webSearch; // @synthesize webSearch=_webSearch;
 
 @end
 

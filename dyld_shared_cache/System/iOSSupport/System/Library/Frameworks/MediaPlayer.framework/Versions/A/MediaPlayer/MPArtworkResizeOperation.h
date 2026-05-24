@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSObject, NSURL, UIImage;
-@protocol OS_dispatch_group;
+@class UIImage;
 
 @interface MPArtworkResizeOperation
 {
     _Bool _usesExactFittingSizeAsDestinationSize;
-    UIImage *_resizedImage;
-    NSError *_error;
-    NSURL *_destinationURL;
-    NSObject<OS_dispatch_group> *_operationGroup;
-    UIImage *_image;
-    struct CGSize _scaledFittingSize;
 }
 
 - (_Bool);
@@ -23,9 +16,9 @@
 - (void);
 - (struct CGSize);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)joinExpr;
+- (id)nextValueExpr;
+- (id)coerceToDomainValue;
 - (struct CGSize);
 - (id);
 - (void);
@@ -36,13 +29,7 @@
 - (void)usicPlayerQueueDescriptor",&,N,V_queueDescriptor;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *destinationURL; // @synthesize destinationURL=_destinationURL;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
 @property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(readonly, nonatomic) NSObject<OS_dispatch_group> *operationGroup; // @synthesize operationGroup=_operationGroup;
-@property(readonly, nonatomic) UIImage *resizedImage; // @synthesize resizedImage=_resizedImage;
-@property(nonatomic) struct CGSize scaledFittingSize; // @synthesize scaledFittingSize=_scaledFittingSize;
-@property(nonatomic) _Bool usesExactFittingSizeAsDestinationSize; // @synthesize usesExactFittingSizeAsDestinationSize=_usesExactFittingSizeAsDestinationSize;
 
 @end
 

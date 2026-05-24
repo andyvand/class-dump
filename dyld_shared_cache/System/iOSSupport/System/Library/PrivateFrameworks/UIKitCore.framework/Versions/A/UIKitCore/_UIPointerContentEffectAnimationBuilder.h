@@ -10,8 +10,8 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _creationHandler;
 }
 
-- (id);
-- (id);
+- (id)Q24^@32;
+- (id)fetching attachments in initial fetch;
 - (void);
 
 @end

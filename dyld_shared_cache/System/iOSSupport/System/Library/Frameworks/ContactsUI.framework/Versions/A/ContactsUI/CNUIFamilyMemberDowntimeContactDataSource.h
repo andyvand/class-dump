@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNContactStore, NSArray, NSMutableArray, NSString;
+@class CNContactStore;
 
 __attribute__((visibility("hidden")))
 @interface CNUIFamilyMemberDowntimeContactDataSource
 {
     _Bool _isShowingFamilyMemberContacts;
-    _Bool _meContactNeedsUpdate;
-    NSString *_filterString;
-    CNContactStore *_store;
-    CNContact *_meContact;
-    NSArray *_familyMembers;
-    NSArray *_filteredSections;
-    NSArray *_sections;
-    NSMutableArray *_selectedContactItems;
-    NSArray *_requiredKeys;
 }
 
 + (_Bool);
@@ -30,45 +21,36 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (void);
 - (id);
+- (void)H;
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)tion date;
 - (id);
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (long long);
-- (id);
+- (id)_elementForAttribute:shouldUpdateCache:shouldFetchAttributes: /* Error: Ran out of types for this method. */;
 - (id);
 - (long long);
+- (id);
+- (id);
+- (long long)!;
+- (void);
+- (long long)DeletedMessagesOperationDelegate>";
 - (void);
-- (long long);
-- (void);
-- (void)wsSettingLinkedContactsAsPreferred;
+- (void)allowsSettingLinkedContactsAsPreferred;
 - (id)sentation;
 - (id)I;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *familyMembers; // @synthesize familyMembers=_familyMembers;
-@property(copy, nonatomic) NSString *filterString; // @synthesize filterString=_filterString;
-@property(retain, nonatomic) NSArray *filteredSections; // @synthesize filteredSections=_filteredSections;
-@property(nonatomic) _Bool isShowingFamilyMemberContacts; // @synthesize isShowingFamilyMemberContacts=_isShowingFamilyMemberContacts;
-@property(retain, nonatomic) CNContact *meContact; // @synthesize meContact=_meContact;
-@property(nonatomic) _Bool meContactNeedsUpdate; // @synthesize meContactNeedsUpdate=_meContactNeedsUpdate;
-@property(readonly, nonatomic) NSArray *requiredKeys; // @synthesize requiredKeys=_requiredKeys;
-@property(retain, nonatomic) NSArray *sections; // @synthesize sections=_sections;
-@property(retain, nonatomic) NSMutableArray *selectedContactItems; // @synthesize selectedContactItems=_selectedContactItems;
 @property(retain, nonatomic) CNContactStore *store; // @synthesize store=_store;
 
 @end

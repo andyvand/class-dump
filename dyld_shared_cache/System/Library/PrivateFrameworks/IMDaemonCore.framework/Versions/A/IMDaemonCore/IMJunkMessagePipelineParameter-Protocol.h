@@ -7,12 +7,11 @@
 @class IMDChat, NSString;
 
 @protocol IMJunkMessagePipelineParameter
+- (_Bool);
+- (IMDChat *);
+- (NSString *)&;
 
 // Remaining properties
 @property(retain, nonatomic) IMDChat *chat;
-@property(copy, nonatomic) NSString *fromIdentifier;
-@property(nonatomic) _Bool hadChat;
-@property(nonatomic) _Bool isFromMe;
-@property(copy, nonatomic) NSString *toIdentifier;
 @end
 

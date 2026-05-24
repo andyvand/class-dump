@@ -6,22 +6,16 @@
 
 #import <OSAnalyticsPrivate/OSASubmitter.h>
 
-@class NSHTTPURLResponse, NSMutableData, NSObject, NSString, NSURLSessionDataTask;
-@protocol OS_dispatch_semaphore;
+@class NSURLSessionDataTask;
 
 @interface OSAHttpSubmitter : OSASubmitter
 {
     NSURLSessionDataTask *_dataTask;
-    NSHTTPURLResponse *_response;
-    NSMutableData *_payload;
-    NSObject<OS_dispatch_semaphore> *_submissionSem;
-    unsigned int _thoughput_warnings;
-    double _last_thoughput_check;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)!;
 - (void);
 - (void);
 - (void);
@@ -30,13 +24,7 @@
 - (void)aTask"24@"NSURLSessionStreamTask"32;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

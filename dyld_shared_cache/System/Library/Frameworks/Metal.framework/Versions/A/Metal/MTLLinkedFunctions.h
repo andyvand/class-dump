@@ -4,26 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface MTLLinkedFunctions
 {
     NSArray *_privateFunctions;
 }
 
-+ (id);
++ (id);
 + (id)¼;
 + (id)l;
+- (void)4 :cLo;
+  cHi = (mLo > 3.500) ? c5 :cHi;
+  cLo = (mLo > 4.500) ? c5 :cLo;
+  cHi = (mLo > 4.500) ? c6 :cHi;
+  cLo = (mLo > 5.500) ? c6 :cLo;
+  return mix(cLo, cHi, m - mLo);
+}
+ /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
+- (id);
 - (id)s running.;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *binaryFunctions; // @dynamic binaryFunctions;
 @property(copy, nonatomic) NSArray *functions; // @dynamic functions;
-@property(copy, nonatomic) NSDictionary *groups; // @dynamic groups;
-@property(copy, nonatomic) NSArray *privateFunctions; // @synthesize privateFunctions=_privateFunctions;
 
 @end
 

@@ -10,9 +10,9 @@
 {
 }
 
-+ (long long);
-+ (id);
-+ (id);
++ (long long)initWithLibraryURL:bundleScope: /* Error: Ran out of types for this method. */;
++ (id)V_currentFrequentLocations;
++ (id)stersObjectsFromDataset;
 + (id)!CùqÐ1Â0@ù
 × ;
 + (id)®	;

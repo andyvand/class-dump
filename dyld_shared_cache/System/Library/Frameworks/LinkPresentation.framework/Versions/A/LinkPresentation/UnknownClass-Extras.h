@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool _lp_prefersDarkInterface;
-@property(nonatomic, readonly) _Bool _lp_prefersHighContrast;
 @end
 

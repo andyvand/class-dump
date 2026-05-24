@@ -4,29 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-@protocol CALNCalendarIconIdentifierProvider, CALNNotificationManager, CALNSuggestedEventNotificationDataSource;
+@protocol CALNSuggestedEventNotificationDataSource;
 
 @interface CALNSuggestedEventNotificationSource
 {
     id <CALNSuggestedEventNotificationDataSource> _dataSource;
-    id <CALNNotificationManager> _notificationManager;
-    id <CALNCalendarIconIdentifierProvider> _iconIdentifierProvider;
 }
 
 + (id);
 + (id);
++ (id);
 + (id);
++ (id)addChildWindow:ordered:shareKey: /* Error: Ran out of types for this method. */;
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)addNumber:implicit: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
+- (id)`;
 - (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -34,18 +31,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *categories;
 @property(readonly, nonatomic) id <CALNSuggestedEventNotificationDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <CALNCalendarIconIdentifierProvider> iconIdentifierProvider; // @synthesize iconIdentifierProvider=_iconIdentifierProvider;
-@property(readonly, nonatomic) __weak id <CALNNotificationManager> notificationManager; // @synthesize notificationManager=_notificationManager;
-@property(readonly, nonatomic) NSString *sourceIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

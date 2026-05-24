@@ -9,18 +9,16 @@
 @interface NSPersistentCloudKitContainerEventResult : NSPersistentStoreResult
 {
     id _result;
-    long long _resultType;
 }
 
 - (id);
 - (void);
 - (id);
-- (long long);
+- (long long)3k;
 - (id);
 
 // Remaining properties
 @property(readonly) id result; // @synthesize result=_result;
-@property(readonly) long long resultType; // @synthesize resultType=_resultType;
 
 @end
 

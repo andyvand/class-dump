@@ -14,7 +14,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) int pid; // @dynamic pid;
-@property(readonly, nonatomic) unsigned int version; // @dynamic version;
 
 @end
 

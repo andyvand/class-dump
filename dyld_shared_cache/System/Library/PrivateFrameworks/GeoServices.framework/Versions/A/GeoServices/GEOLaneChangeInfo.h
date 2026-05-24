@@ -9,17 +9,9 @@
 @interface GEOLaneChangeInfo
 {
     PBUnknownFields *_unknownFields;
-    unsigned int _endOffsetCm;
-    unsigned int _numValidLanes;
-    unsigned int _startOffsetCm;
-    struct {
-        unsigned int has_endOffsetCm:1;
-        unsigned int has_numValidLanes:1;
-        unsigned int has_startOffsetCm:1;
-    } _flags;
 }
 
-+ (_Bool)CompletionEntryIndex:(id)arg1;
++ (_Bool)setHasServerSearchCompletionEntryIndex:(id)arg1;
 - (unsigned int);
 - (void);
 - (void);
@@ -29,9 +21,9 @@
 - (unsigned int);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (unsigned int);
-- (void);
+- (_Bool)using: /* Error: Ran out of types for this method. */;
+- (unsigned int)initWithIndexesInRange: /* Error: Ran out of types for this method. */;
+- (void)Singapore;
 - (void);
 - (id);
 - (id);
@@ -42,21 +34,15 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id)SuppressionReasons:(struct _NSZone *)arg1 count: /* Error: Ran out of types for this method. */;
-- (id)axManeuverTypeSupported: /* Error: Ran out of types for this method. */;
+- (void)J;
+- (id)setOptionalSuppressionReasons:(struct _NSZone *)arg1 count: /* Error: Ran out of types for this method. */;
+- (id)StringAsMaxManeuverTypeSupported: /* Error: Ran out of types for this method. */;
 - (id)s to preload:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void)`;
 
 // Remaining properties
-@property(nonatomic) unsigned int endOffsetCm;
-@property(nonatomic) _Bool hasEndOffsetCm;
-@property(nonatomic) _Bool hasNumValidLanes;
 @property(nonatomic) _Bool hasStartOffsetCm;
-@property(nonatomic) unsigned int numValidLanes;
-@property(nonatomic) unsigned int startOffsetCm;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

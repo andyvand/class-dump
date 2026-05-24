@@ -8,9 +8,9 @@
 {
 }
 
-+ (void);
-+ (void);
-+ (_Bool);
++ (void)_identity;
++ (void)=}8^{__CFError=}16;
++ (_Bool)persona does not match chosen dsid;
 
 @end
 

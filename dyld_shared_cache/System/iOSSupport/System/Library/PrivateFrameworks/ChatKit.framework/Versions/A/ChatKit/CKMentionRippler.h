@@ -10,28 +10,19 @@ __attribute__((visibility("hidden")))
 @interface CKMentionRippler
 {
     NSArray *_colors;
-    NSArray *_shadowColors;
-    NSArray *_scales;
-    NSArray *_offsets;
-    double _startTime;
-    unsigned long long _preFrames;
-    unsigned long long _animateFrames;
-    unsigned long long _postFrames;
-    unsigned long long _delayFrames;
-    _Bool _reduceMotion;
 }
 
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (unsigned long long);
+- (void)l;
+- (unsigned long long)a;
+- (_Bool)r;
+- (unsigned long long)d;
 - (id);
-- (double);
-- (struct CGSize);
-- (unsigned long long);
+- (double)s;
+- (struct CGSize)d;
+- (unsigned long long)i;
 - (id);
 - (id);
-- (void);
+- (void)^;
 - (void)t;
 
 @end

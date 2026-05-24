@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMCloudKitHookTestSingleton, NSString;
-
 @interface IMCloudKitEventNotificationRuntimeTestSuite
 {
     _Bool _shouldTearDown;
-    IMCloudKitHookTestSingleton *_cloudKitHooks;
 }
 
 + (void);
@@ -24,15 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) IMCloudKitHookTestSingleton *cloudKitHooks; // @synthesize cloudKitHooks=_cloudKitHooks;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property _Bool shouldTearDown; // @synthesize shouldTearDown=_shouldTearDown;
-@property(readonly) Class superclass;
 
 @end
 

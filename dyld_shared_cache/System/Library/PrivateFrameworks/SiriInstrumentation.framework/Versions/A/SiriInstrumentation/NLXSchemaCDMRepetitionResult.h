@@ -6,19 +6,12 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLXSchemaCDMRepetitionResult : SISchemaInstrumentationMessage
 {
     unsigned int _asrHypothesisIndex;
-    int _repetitionType;
-    struct {
-        unsigned int asrHypothesisIndex:1;
-        unsigned int repetitionType:1;
-    } _has;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (int);
@@ -26,10 +19,10 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (unsigned int);
 - (id);
-- (void);
+- (void)ibrary/BuildRoots/4~CNqEugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/rsa/rsa_prn.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -37,14 +30,10 @@
 - (id)árð!ôCùÑÞÐ1Â0@ù
 × ;
 - (id)peakerIdEnrollmentDataReportedTier1;
-- (id)eSenderExists: /* Error: Ran out of types for this method. */;
+- (id)setHasSmsAttributeSenderExists: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) unsigned int asrHypothesisIndex; // @synthesize asrHypothesisIndex=_asrHypothesisIndex;
-@property(nonatomic) _Bool hasAsrHypothesisIndex;
-@property(nonatomic) _Bool hasRepetitionType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int repetitionType; // @synthesize repetitionType=_repetitionType;
 
 @end
 

@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKScanUIControllerAdvanced, IKScannerParameterView, IKScannerPreviewAdvanced, IKUIHelper, NSButton, NSMutableDictionary, NSScrollView;
+@class IKScanUIControllerAdvanced;
 
 @interface IKScanUIViewAdvanced
 {
     _Bool _didSetupWindowNotifications;
-    IKUIHelper *_uiHelperTopLevel;
-    NSMutableDictionary *_bindingInfo;
-    IKScanUIControllerAdvanced *_scanUIControllerAdvanced;
-    NSButton *_simpleButton;
-    NSButton *_overviewButton;
-    NSButton *_scanButton;
-    IKScannerPreviewAdvanced *_preview;
-    IKScannerParameterView *_scannerParameterView;
-    NSScrollView *_scrollView;
 }
 
 - (void);
@@ -34,16 +25,16 @@
 - (id);
 - (id);
 - (void);
-- (struct CGRect);
+- (struct CGRect);
 - (void);
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)Ly;
 - (id);
 - (id);
 - (void);
@@ -52,13 +43,7 @@
 - (void);
 
 // Remaining properties
-@property NSButton *overviewButton; // @synthesize overviewButton=_overviewButton;
-@property IKScannerPreviewAdvanced *preview; // @synthesize preview=_preview;
-@property NSButton *scanButton; // @synthesize scanButton=_scanButton;
 @property IKScanUIControllerAdvanced *scanUIControllerAdvanced; // @synthesize scanUIControllerAdvanced=_scanUIControllerAdvanced;
-@property IKScannerParameterView *scannerParameterView; // @synthesize scannerParameterView=_scannerParameterView;
-@property NSScrollView *scrollView; // @synthesize scrollView=_scrollView;
-@property NSButton *simpleButton; // @synthesize simpleButton=_simpleButton;
 
 @end
 

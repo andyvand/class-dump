@@ -4,27 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface RCDebugOverrides
 {
     _Bool _disableAbTesting;
-    _Bool _ignoreCache;
-    _Bool _enableExtraLogs;
-    NSArray *_overrideSegmentSetIDs;
-    NSArray *_additionalSegmentSetIDs;
-    unsigned long long _configurationSource;
-    unsigned long long _debugEnvironment;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
+- (_Bool);
+- (id)v;
+- (id);
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (unsigned long long);
@@ -40,21 +32,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *additionalSegmentSetIDs; // @synthesize additionalSegmentSetIDs=_additionalSegmentSetIDs;
-@property(readonly, nonatomic) unsigned long long configurationSource; // @synthesize configurationSource=_configurationSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) unsigned long long debugEnvironment; // @synthesize debugEnvironment=_debugEnvironment;
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) _Bool disableAbTesting; // @synthesize disableAbTesting=_disableAbTesting;
-@property(readonly, nonatomic) _Bool enableExtraLogs; // @synthesize enableExtraLogs=_enableExtraLogs;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool ignoreCache; // @synthesize ignoreCache=_ignoreCache;
-@property(readonly, nonatomic) _Bool onlyUseFallbackURL;
-@property(readonly, copy, nonatomic) NSArray *overrideSegmentSetIDs; // @synthesize overrideSegmentSetIDs=_overrideSegmentSetIDs;
-@property(readonly) Class superclass;
 
 @end
 

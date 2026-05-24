@@ -17,7 +17,7 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)Invalid number of keys found, expected one.;
 
 @end
 

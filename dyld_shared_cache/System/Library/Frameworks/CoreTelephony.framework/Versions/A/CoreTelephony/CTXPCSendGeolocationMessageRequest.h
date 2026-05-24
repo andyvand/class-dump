@@ -6,7 +6,7 @@
 
 #import <CoreTelephony/CTXPCSubscriptionContextRequest.h>
 
-@class CTLazuliDestination, CTLazuliGroupChatUri, CTLazuliMessageGeoLocationPush, CTLazuliMessageID;
+@class CTLazuliMessageID;
 
 __attribute__((visibility("hidden")))
 @interface CTXPCSendGeolocationMessageRequest : CTXPCSubscriptionContextRequest
@@ -22,14 +22,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)ation"8@"<BSXPCEncoding>"16;
 - (int);
-- (id)ingsModelNewPassword;
+- (id)kSettingsModelNewPassword;
 
 // Remaining properties
-@property(readonly, nonatomic) CTLazuliDestination *destination;
-@property(readonly, nonatomic) CTLazuliMessageGeoLocationPush *geoLocationPush;
-@property(readonly, nonatomic) CTLazuliGroupChatUri *groupChatURI;
 @property(readonly, nonatomic) CTLazuliMessageID *messageID;
 
 @end

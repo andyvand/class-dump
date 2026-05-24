@@ -9,11 +9,6 @@
 @interface VMUNodeGroup
 {
     void *_group;
-    unsigned int _nodeNamespaceSize;
-    unsigned int _count;
-    unsigned int _singleNode;
-    unsigned int _inlineNodes[16];
-    NSString *_name;
 }
 
 - (id);
@@ -21,10 +16,10 @@
 - (void *);
 - (void);
 - (void);
-- (void);
+- (void)_;
 - (id);
 - (long long);
-- (void);
+- (void)ScreenTime;
 
 // Remaining properties
 @property(readonly) NSString *name; // @synthesize name=_name;

@@ -11,18 +11,17 @@
 @interface CARemotePropertyEffect : CARemoteEffect
 {
     NSString *_keyPath;
-    NSDictionary *_valuesByState;
 }
 
 + (id);
 + (_Bool);
-+ (id);
++ (id) !"# !"#$%&'$%&'()*+()*+,-./,-./;
 - (id);
-- (id);
+- (id);
+- (void)q;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (void *);
 - (_Bool);
 - (void);
@@ -33,7 +32,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(copy) NSString *keyPath; // @synthesize keyPath=_keyPath;
 @property(retain, nonatomic) NSDictionary *valuesByState; // @synthesize valuesByState=_valuesByState;
 
 @end

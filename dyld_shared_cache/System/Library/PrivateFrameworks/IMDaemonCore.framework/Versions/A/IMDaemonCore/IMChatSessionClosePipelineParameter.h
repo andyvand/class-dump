@@ -4,44 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDAccount, IMDChat, IMDServiceSession, NSArray, NSDictionary, NSNumber, NSString;
+@class NSString;
 
 @interface IMChatSessionClosePipelineParameter
 {
     _Bool _isFromStorage;
-    _Bool _isLastFromStorage;
-    _Bool _isEmergencySOS;
-    _Bool _deleteConversation;
-    NSString *_GUID;
-    NSNumber *_timestamp;
-    NSDictionary *_batchContext;
-    NSArray *_messageItems;
-    IMDChat *_chat;
-    NSNumber *_version;
-    NSString *_senderHandle;
-    NSString *_senderName;
-    NSString *_conversationID;
-    NSString *_fromIdentifier;
-    NSString *_toIdentifier;
-    IMDAccount *_account;
-    IMDServiceSession *_serviceSession;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
+- (id);
 - (id);
 - (_Bool);
+- (id);
+- (void);
+- (id);
+- (_Bool)LearningCoordinator didDisableCaptions:error:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
@@ -68,23 +52,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *GUID; // @synthesize GUID=_GUID;
-@property(retain, nonatomic) IMDAccount *account; // @synthesize account=_account;
-@property(readonly, nonatomic) NSDictionary *batchContext; // @synthesize batchContext=_batchContext;
-@property(retain, nonatomic) IMDChat *chat; // @synthesize chat=_chat;
-@property(copy, nonatomic) NSString *conversationID; // @synthesize conversationID=_conversationID;
-@property(nonatomic) _Bool deleteConversation; // @synthesize deleteConversation=_deleteConversation;
-@property(copy, nonatomic) NSString *fromIdentifier; // @synthesize fromIdentifier=_fromIdentifier;
-@property(nonatomic) _Bool isEmergencySOS; // @synthesize isEmergencySOS=_isEmergencySOS;
-@property(nonatomic) _Bool isFromStorage; // @synthesize isFromStorage=_isFromStorage;
-@property(nonatomic) _Bool isLastFromStorage; // @synthesize isLastFromStorage=_isLastFromStorage;
-@property(retain, nonatomic) NSArray *messageItems; // @synthesize messageItems=_messageItems;
-@property(readonly, copy, nonatomic) NSString *replicationSourceServiceName;
-@property(copy, nonatomic) NSString *senderHandle; // @synthesize senderHandle=_senderHandle;
-@property(copy, nonatomic) NSString *senderName; // @synthesize senderName=_senderName;
-@property(retain, nonatomic) IMDServiceSession *serviceSession; // @synthesize serviceSession=_serviceSession;
-@property(retain, nonatomic) NSNumber *timestamp; // @synthesize timestamp=_timestamp;
-@property(copy, nonatomic) NSString *toIdentifier; // @synthesize toIdentifier=_toIdentifier;
-@property(retain, nonatomic) NSNumber *version; // @synthesize version=_version;
 
 @end
 

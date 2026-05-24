@@ -6,37 +6,29 @@
 
 #import <Contacts/CNPredicate.h>
 
-@class NSNumber, NSPredicate, NSString;
+@class NSNumber, NSPredicate;
 
 __attribute__((visibility("hidden")))
 @interface CNCDContactsMatchingPredicate : CNPredicate
 {
     NSPredicate *_predicate;
-    NSNumber *_limit;
 }
 
 + (id);
 + (id);
 + (id);
++ (id)`!` a;
 + (id);
 + (id);
-+ (id);
 - (id);
 - (id);
+- (id)ate fork for remote tag ;
+- (id)NSt3__120__shared_ptr_emplaceI26SipListenSocketMultiplexerNS_9allocatorIS1_EEEE;
 - (id);
-- (id);
-- (id);
-- (void)nfoError: /* Error: Ran out of types for this method. */;
+- (void)updateSubscriptionInfoError: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSNumber *limit; // @synthesize limit=_limit;
-@property(readonly) Class superclass;
 
 @end
 

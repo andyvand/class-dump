@@ -9,19 +9,14 @@
 @interface SignpostAggregationValueStats
 {
     NSNumber *_count;
-    NSNumber *_min;
-    NSNumber *_max;
-    NSNumber *_stddev;
-    NSNumber *__rawTotal;
-    NSNumber *__rawAverage;
 }
 
-+ (id);
++ (id)B;
 + (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -38,14 +33,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *_rawAverage; // @synthesize _rawAverage=__rawAverage;
-@property(retain, nonatomic) NSNumber *_rawTotal; // @synthesize _rawTotal=__rawTotal;
-@property(readonly, nonatomic) NSNumber *average;
 @property(retain, nonatomic) NSNumber *count; // @synthesize count=_count;
-@property(retain, nonatomic) NSNumber *max; // @synthesize max=_max;
-@property(retain, nonatomic) NSNumber *min; // @synthesize min=_min;
-@property(retain, nonatomic) NSNumber *stddev; // @synthesize stddev=_stddev;
-@property(readonly, nonatomic) NSNumber *total;
 
 @end
 

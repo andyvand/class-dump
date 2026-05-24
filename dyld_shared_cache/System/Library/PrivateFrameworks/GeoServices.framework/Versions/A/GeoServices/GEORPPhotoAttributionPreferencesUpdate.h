@@ -11,29 +11,28 @@
     GEORPPhotoAttributionPreferences *_preferences;
 }
 
-+ (_Bool)unchAction:(id)arg1;
++ (_Bool)setLaunchAction:(id)arg1;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)nguageCodeUpdateMonitor",&,N,V_languageCodeUpdateMonitor;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id)!ÔCù¸*°1Â0@ù
 × ;
 - (id)b6b26b26b14b4b4b4b36})}32;
-- (id)FieldOptionKeys;
+- (id)clearFeedbackFieldOptionKeys;
 - (id)T;
-- (id)ACEMENT;
+- (id)COMPONENT_TYPE_ENHANCED_PLACEMENT;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasPreferences;
-@property(retain, nonatomic) GEORPPhotoAttributionPreferences *preferences;
 
 @end
 

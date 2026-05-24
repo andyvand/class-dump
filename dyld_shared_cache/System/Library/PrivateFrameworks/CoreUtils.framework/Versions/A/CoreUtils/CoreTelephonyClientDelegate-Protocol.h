@@ -5,5 +5,9 @@
 //
 
 @protocol CoreTelephonyClientDelegate
+
+@optional
+- (void)BuildRoots/4~CNqGugCAIzPCrdyo3wAjeG6HHEtFOGuwYwM9n2o/Library/Caches/com.apple.xbs/TemporaryDirectory.AjvpQs/Sources/Mecabra/src/learner_tagger.cpp;
+- (void);
 @end
 

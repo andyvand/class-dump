@@ -9,16 +9,14 @@
 @interface NABarButtonItem
 {
     UIBarButtonItem *barButtonItem;
-    struct UIEdgeInsets additionalPageContentInset;
 }
 
 - (struct UIEdgeInsets);
 - (id);
 - (id);
-- (void)s;
+- (void)transformers;
 
 // Remaining properties
-@property(nonatomic, readonly) struct UIEdgeInsets additionalPageContentInset; // @synthesize additionalPageContentInset;
 @property(nonatomic, readonly) UIBarButtonItem *barButtonItem; // @synthesize barButtonItem;
 
 @end

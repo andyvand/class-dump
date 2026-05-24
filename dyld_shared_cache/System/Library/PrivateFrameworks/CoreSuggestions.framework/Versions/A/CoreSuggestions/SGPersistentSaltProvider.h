@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _PASLock;
+@class _PASLock;
 
 @interface SGPersistentSaltProvider
 {
     _PASLock *_lock;
-    NSString *_serviceIdentifier;
-    NSString *_accessGroup;
 }
 
 + (id);
@@ -20,7 +18,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)@16;
 - (id);
 - (id);
 - (void);

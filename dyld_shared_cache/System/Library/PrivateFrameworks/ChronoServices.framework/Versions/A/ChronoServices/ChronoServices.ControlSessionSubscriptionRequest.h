@@ -7,9 +7,6 @@
 @interface ChronoServices.ControlSessionSubscriptionRequest
 {
     id sessionKey;
-    id priority;
-    id visibility;
-    id environmentModifiers;
 }
 
 @end

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSSet, REMAssignment, REMReminderChangeItem;
+@class REMReminderChangeItem;
 
 @interface REMReminderAssignmentContextChangeItem
 {
     REMReminderChangeItem *_reminderChangeItem;
-    NSMutableSet *_mutableAssignments;
 }
 
 - (void);
@@ -23,14 +22,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void):(id)arg1 8;
 - (void)áêð!ØBùñr °1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *assignments;
-@property(readonly, nonatomic) REMAssignment *currentAssignment;
-@property(retain, nonatomic) NSMutableSet *mutableAssignments; // @synthesize mutableAssignments=_mutableAssignments;
 @property(retain, nonatomic) REMReminderChangeItem *reminderChangeItem; // @synthesize reminderChangeItem=_reminderChangeItem;
 
 @end

@@ -6,15 +6,9 @@
 
 #import <DeviceManagement/DMFTaskRequest.h>
 
-@class NSData, NSString;
-
 @interface DMFInstallProfileRequest : DMFTaskRequest
 {
     unsigned long long _style;
-    unsigned long long _type;
-    NSString *_managingProfileIdentifier;
-    NSData *_profileData;
-    NSString *_personaID;
 }
 
 + (_Bool);
@@ -24,23 +18,19 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void),N,V_directory;
 - (void)n;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *managingProfileIdentifier; // @synthesize managingProfileIdentifier=_managingProfileIdentifier;
-@property(copy, nonatomic) NSString *personaID; // @synthesize personaID=_personaID;
-@property(copy, nonatomic) NSData *profileData; // @synthesize profileData=_profileData;
 @property(nonatomic) unsigned long long style; // @synthesize style=_style;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

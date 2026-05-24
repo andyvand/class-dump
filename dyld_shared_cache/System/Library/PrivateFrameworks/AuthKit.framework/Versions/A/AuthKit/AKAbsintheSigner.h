@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface AKAbsintheSigner
 {
     struct NACContextOpaque_ *_context;
-    NSDate *_contextCreationDate;
 }
 
-+ (id);
++ (id);
 - (void);
 - (id);
 - (id);

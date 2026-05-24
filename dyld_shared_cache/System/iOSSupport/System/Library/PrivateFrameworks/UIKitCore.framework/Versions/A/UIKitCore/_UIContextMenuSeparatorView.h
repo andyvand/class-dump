@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)ItemDeferral:(struct CGRect)arg1;
+- (id)_cellFocusItemDeferral:(struct CGRect)arg1;
 
 @end
 

@@ -7,10 +7,6 @@
 @interface NewsFeed.FormatBreakpointNode
 {
     id _identifier;
-    id line;
-    id column;
-    id filePath;
-    id child;
 }
 
 @end

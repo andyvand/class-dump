@@ -6,13 +6,11 @@
 
 #import <MetalTools/MTLToolsAccelerationStructure.h>
 
-@class NSString;
-@protocol MTLAccelerationStructure, MTLBuffer, MTLDevice, MTLHeap;
+@protocol MTLAccelerationStructure;
 
 @interface MTLGPUDebugAccelerationStructure : MTLToolsAccelerationStructure
 {
     unsigned long long _accelerationStructureType;
-    id <MTLBuffer> _childrenWrappersBuffer;
 }
 
 - (void);
@@ -20,38 +18,14 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)�b6;
+- (id)`;
 - (void);
 - (void);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly) unsigned long long allocatedSize;
-@property(readonly) unsigned long long allocationID;
 @property(retain, nonatomic) id <MTLAccelerationStructure> baseObject; // @dynamic baseObject;
-@property(retain, nonatomic) id <MTLBuffer> childrenWrappersBuffer; // @synthesize childrenWrappersBuffer=_childrenWrappersBuffer;
-@property(readonly) unsigned long long cpuCacheMode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <MTLDevice> device;
-@property(readonly, nonatomic) unsigned long long gpuAddress;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long hazardTrackingMode;
-@property(readonly) id <MTLHeap> heap;
-@property(readonly) unsigned long long heapOffset;
-@property(copy) NSString *label;
-@property(readonly, nonatomic) unsigned long long length;
-@property(readonly) unsigned long long protectionOptions;
-@property(readonly) unsigned long long resourceOptions;
-@property int responsibleProcess;
-@property(readonly) unsigned long long storageMode;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long underlyingGPUAddress;
-@property(readonly) unsigned long long unfilteredResourceOptions;
 
 @end
 

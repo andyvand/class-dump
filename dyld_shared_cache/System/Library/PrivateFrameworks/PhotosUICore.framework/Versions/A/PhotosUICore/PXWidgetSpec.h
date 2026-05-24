@@ -7,32 +7,14 @@
 @interface PXWidgetSpec
 {
     double _distanceBetweenMainContentBottomAndCaptionBaseline;
-    double _distanceBetweenMapViewAndAddressTop;
-    unsigned long long _detailsOptions;
-    double _distanceBetweenTopAndFirstHeaderBaseline;
-    double _distanceBetweenTopAndHeaderlessWidgetContentTop;
-    double _distanceBetweenHeaderBaselineAndWidgetContentTop;
-    double _distanceBetweenFooterlessWidgetContentBottomAndNextHeaderBaseline;
-    double _distanceBetweenFooterlessWidgetContentBottomAndNextHeaderlessWidgetContentTop;
-    double _distanceBetweenFooteredWidgetContentBottomAndNextHeaderBaseline;
-    double _distanceBetweenFooteredWidgetContentBottomAndNextHeaderlessWidgetContentTop;
-    double _distanceBetweenWidgetContentBottomAndFooterBaseline;
-    double _distanceBetweenFooterBaselineAndBottom;
-    double _distanceBetweenFooterlessWidgetContentBottomAndBottom;
-    double _distanceBetweenHeaderTopAndHeaderBaseline;
-    double _distanceBetweenHeaderBaselineAndHeaderBottom;
-    double _distanceBetweenFooterTopAndFooterBaseline;
-    double _distanceBetweenFooterBaselineAndFooterBottom;
-    struct CGSize _interWidgetSpacing;
-    struct NSEdgeInsets _contentGuideInsets;
 }
 
 - (void);
 - (void);
+- (void)};
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)h;
 - (void);
 - (void);
 - (void);
@@ -55,7 +37,7 @@
 - (double);
 - (double);
 - (double);
-- (double);
+- (double);
 - (double);
 - (double);
 - (double);
@@ -68,24 +50,6 @@
 
 // Remaining properties
 @property(nonatomic) struct NSEdgeInsets contentGuideInsets; // @synthesize contentGuideInsets=_contentGuideInsets;
-@property(readonly, nonatomic) unsigned long long detailsOptions; // @synthesize detailsOptions=_detailsOptions;
-@property(nonatomic) double distanceBetweenFooterBaselineAndBottom; // @synthesize distanceBetweenFooterBaselineAndBottom=_distanceBetweenFooterBaselineAndBottom;
-@property(nonatomic) double distanceBetweenFooterBaselineAndFooterBottom; // @synthesize distanceBetweenFooterBaselineAndFooterBottom=_distanceBetweenFooterBaselineAndFooterBottom;
-@property(nonatomic) double distanceBetweenFooterTopAndFooterBaseline; // @synthesize distanceBetweenFooterTopAndFooterBaseline=_distanceBetweenFooterTopAndFooterBaseline;
-@property(nonatomic) double distanceBetweenFooteredWidgetContentBottomAndNextHeaderBaseline; // @synthesize distanceBetweenFooteredWidgetContentBottomAndNextHeaderBaseline=_distanceBetweenFooteredWidgetContentBottomAndNextHeaderBaseline;
-@property(nonatomic) double distanceBetweenFooteredWidgetContentBottomAndNextHeaderlessWidgetContentTop; // @synthesize distanceBetweenFooteredWidgetContentBottomAndNextHeaderlessWidgetContentTop=_distanceBetweenFooteredWidgetContentBottomAndNextHeaderlessWidgetContentTop;
-@property(nonatomic) double distanceBetweenFooterlessWidgetContentBottomAndBottom; // @synthesize distanceBetweenFooterlessWidgetContentBottomAndBottom=_distanceBetweenFooterlessWidgetContentBottomAndBottom;
-@property(nonatomic) double distanceBetweenFooterlessWidgetContentBottomAndNextHeaderBaseline; // @synthesize distanceBetweenFooterlessWidgetContentBottomAndNextHeaderBaseline=_distanceBetweenFooterlessWidgetContentBottomAndNextHeaderBaseline;
-@property(nonatomic) double distanceBetweenFooterlessWidgetContentBottomAndNextHeaderlessWidgetContentTop; // @synthesize distanceBetweenFooterlessWidgetContentBottomAndNextHeaderlessWidgetContentTop=_distanceBetweenFooterlessWidgetContentBottomAndNextHeaderlessWidgetContentTop;
-@property(nonatomic) double distanceBetweenHeaderBaselineAndHeaderBottom; // @synthesize distanceBetweenHeaderBaselineAndHeaderBottom=_distanceBetweenHeaderBaselineAndHeaderBottom;
-@property(nonatomic) double distanceBetweenHeaderBaselineAndWidgetContentTop; // @synthesize distanceBetweenHeaderBaselineAndWidgetContentTop=_distanceBetweenHeaderBaselineAndWidgetContentTop;
-@property(nonatomic) double distanceBetweenHeaderTopAndHeaderBaseline; // @synthesize distanceBetweenHeaderTopAndHeaderBaseline=_distanceBetweenHeaderTopAndHeaderBaseline;
-@property(readonly, nonatomic) double distanceBetweenMainContentBottomAndCaptionBaseline; // @synthesize distanceBetweenMainContentBottomAndCaptionBaseline=_distanceBetweenMainContentBottomAndCaptionBaseline;
-@property(readonly, nonatomic) double distanceBetweenMapViewAndAddressTop; // @synthesize distanceBetweenMapViewAndAddressTop=_distanceBetweenMapViewAndAddressTop;
-@property(nonatomic) double distanceBetweenTopAndFirstHeaderBaseline; // @synthesize distanceBetweenTopAndFirstHeaderBaseline=_distanceBetweenTopAndFirstHeaderBaseline;
-@property(nonatomic) double distanceBetweenTopAndHeaderlessWidgetContentTop; // @synthesize distanceBetweenTopAndHeaderlessWidgetContentTop=_distanceBetweenTopAndHeaderlessWidgetContentTop;
-@property(nonatomic) double distanceBetweenWidgetContentBottomAndFooterBaseline; // @synthesize distanceBetweenWidgetContentBottomAndFooterBaseline=_distanceBetweenWidgetContentBottomAndFooterBaseline;
-@property(readonly, nonatomic) struct CGSize interWidgetSpacing; // @synthesize interWidgetSpacing=_interWidgetSpacing;
 
 @end
 

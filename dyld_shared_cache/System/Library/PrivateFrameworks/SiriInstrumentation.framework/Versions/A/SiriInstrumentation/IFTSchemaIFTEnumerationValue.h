@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTDisplayRepresentation, IFTSchemaIFTTypeIdentifier, NSData;
+@class IFTSchemaIFTTypeIdentifier;
 
 @interface IFTSchemaIFTEnumerationValue : SISchemaInstrumentationMessage
 {
     IFTSchemaIFTTypeIdentifier *_typeIdentifier;
-    IFTSchemaIFTDisplayRepresentation *_displayRepresentation;
-    _Bool _hasTypeIdentifier;
-    _Bool _hasDisplayRepresentation;
 }
 
 - (void);
@@ -22,7 +19,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)`;
 - (_Bool);
 - (id);
 - (id);
@@ -41,10 +38,6 @@
 - (id)@³;
 
 // Remaining properties
-@property(retain, nonatomic) IFTSchemaIFTDisplayRepresentation *displayRepresentation; // @synthesize displayRepresentation=_displayRepresentation;
-@property(nonatomic) _Bool hasDisplayRepresentation; // @synthesize hasDisplayRepresentation=_hasDisplayRepresentation;
-@property(nonatomic) _Bool hasTypeIdentifier; // @synthesize hasTypeIdentifier=_hasTypeIdentifier;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) IFTSchemaIFTTypeIdentifier *typeIdentifier; // @synthesize typeIdentifier=_typeIdentifier;
 
 @end

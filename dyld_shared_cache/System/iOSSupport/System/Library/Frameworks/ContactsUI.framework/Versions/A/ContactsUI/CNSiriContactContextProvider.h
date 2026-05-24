@@ -4,36 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNContactStore;
+@class CNContact;
 
 __attribute__((visibility("hidden")))
 @interface CNSiriContactContextProvider
 {
     _Bool _isEnabled;
-    CNContact *_contact;
-    CNContactStore *_store;
 }
 
-+ (id)yTrapOverlayView;
++ (id)shouldDisplayTrapOverlayView;
 - (id);
 - (void);
 - (id);
 - (_Bool);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)localizedDescription;
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)zationBundleID;
+- (id)t);
 - (void);
 - (void)roups: /* Error: Ran out of types for this method. */;
-- (void)eHistoryChanged;
+- (void)ABCapabilitiesConferenceHistoryChanged;
 
 // Remaining properties
 @property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(nonatomic) _Bool isEnabled; // @synthesize isEnabled=_isEnabled;
-@property(retain, nonatomic) CNContactStore *store; // @synthesize store=_store;
 
 @end
 

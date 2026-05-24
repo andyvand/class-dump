@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBHomeAttributeValue;
-
 @interface _INPBHomeAttribute
 {
     struct {
         unsigned int attributeType:1;
     } _has;
-    int _attributeType;
-    _INPBHomeAttributeValue *_attributeValue;
 }
 
 + (_Bool);
@@ -30,23 +26,13 @@
 - (_Bool);
 - (int);
 - (_Bool);
-- (void);
+- (void)UMP LOGS] request;
 - (id);
 - (id);
-- (void)rameterUnsupportedReasons;
+- (void)INIntentParameterUnsupportedReasons;
 
 // Remaining properties
 @property(nonatomic) int attributeType; // @synthesize attributeType=_attributeType;
-@property(retain, nonatomic) _INPBHomeAttributeValue *attributeValue; // @synthesize attributeValue=_attributeValue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasAttributeType;
-@property(readonly, nonatomic) _Bool hasAttributeValue;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

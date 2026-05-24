@@ -4,38 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDDEDBugSessionCreated
 {
     unsigned long long _timestamp;
-    NSString *_hostapp;
-    CDStruct_b5306035 _has;
 }
 
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (void);
+- (id)protobuffer;
+- (void)nBody;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)CLPRavenLogEntry.pb.cc;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)r;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasHostapp;
 @property(nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) NSString *hostapp; // @synthesize hostapp=_hostapp;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

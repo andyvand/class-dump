@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CUIPSDLayer
 {
     double _opacity;
-    int _blendMode;
-    NSString *_name;
 }
 
 - (void);
 - (id);
 - (id);
-- (int);
+- (int);
 - (double);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) int blendMode; // @synthesize blendMode=_blendMode;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
 @property(nonatomic) double opacity; // @synthesize opacity=_opacity;
 
 @end

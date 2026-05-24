@@ -7,17 +7,11 @@
 @interface ChatKit.AudioMessageRecordingAppendButton
 {
     id delegate;
-    id durationButton;
-    id needsUpdateConfiguration;
-    id isEnabled;
-    id duration;
-    id textStyle;
-    id textColor;
 }
 
 - (struct CGSize);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 

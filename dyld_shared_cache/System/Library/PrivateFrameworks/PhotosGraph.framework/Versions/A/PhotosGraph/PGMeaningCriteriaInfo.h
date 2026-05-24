@@ -9,22 +9,18 @@
 @interface PGMeaningCriteriaInfo
 {
     NSString *_meaningLabel;
-    double _version;
-    unsigned long long _criteriaNumber;
 }
 
+- (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)3;
 - (id);
 - (double);
 - (void);
 - (void)q=%@;
 
 // Remaining properties
-@property(nonatomic) unsigned long long criteriaNumber; // @synthesize criteriaNumber=_criteriaNumber;
 @property(retain, nonatomic) NSString *meaningLabel; // @synthesize meaningLabel=_meaningLabel;
-@property(nonatomic) double version; // @synthesize version=_version;
 
 @end
 

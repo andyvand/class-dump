@@ -13,6 +13,7 @@ __attribute__((visibility("hidden")))
 
 - (struct CGPath *);
 - (struct CGPath *);
+- (struct CGPath *):(struct CGAffineTransform)arg1;
 - (struct CGPath *);
 - (struct CGPath *);
 - (struct CGPath *);
@@ -23,6 +24,19 @@ __attribute__((visibility("hidden")))
 - (struct CGPath *);
 - (struct CGPath *);
 - (struct CGPath *);
+- (struct CGPath *);
+- (struct CGPath *);
+- (struct CGPath *);
+- (struct CGPath *);
+- (struct CGPath *);
+- (struct CGPath *);
+- (struct CGPath *);
+- (struct CGPath *);
+- (struct CGPath *);
+- (struct CGPath *);
+- (struct CGPath *);
+- (struct CGPath *)V;
+- (struct CGPath *);
 - (struct CGPath *);
 - (struct CGPath *);
 - (struct CGPath *);
@@ -30,23 +44,9 @@ __attribute__((visibility("hidden")))
 - (struct CGPath *);
 - (struct CGPath *);
 - (struct CGPath *);
+- (struct CGPath *)?;
 - (struct CGPath *);
-- (struct CGPath *);
-- (struct CGPath *);
-- (struct CGPath *);
-- (struct CGPath *);
-- (struct CGPath *);
-- (struct CGPath *);
-- (struct CGPath *);
-- (struct CGPath *);
-- (struct CGPath *);
-- (struct CGPath *);
-- (struct CGPath *);
-- (struct CGPath *);
-- (struct CGPath *);
-- (struct CGPath *);
-- (struct CGPath *);
-- (struct CGAffineTransform);
+- (struct CGAffineTransform),V_proposingAttendee;
 
 @end
 

@@ -15,15 +15,15 @@
 
 + (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)transactionsForTransactionSourceIdentifiers:withMerchantCategory:withTransactionSource:withBackingData:startDate:endDate:limit:completion: /* Error: Ran out of types for this method. */;
+- (id)H5;
 
 @end
 

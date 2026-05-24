@@ -5,41 +5,30 @@
 //
 
 @class VKMapView;
-@protocol MKRotationFilterDelegate;
 
 __attribute__((visibility("hidden")))
 @interface MKRotationFilter
 {
     VKMapView *_mapLayer;
-    double _gestureStartAngle;
-    _Bool _userRotatedAwayFromVerticalYaw;
-    double _previousVerticalYawOverride;
-    _Bool _snappedToNorth;
-    _Bool _snappedAtStart;
-    _Bool _snappingEnabled;
-    double _additionalSnappingAngle;
-    id <MKRotationFilterDelegate> _delegate;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)eply:xpcMessage=%@, xpcResponse=%@, xpcConnection=%@ /* Error: Ran out of types for this method. */;
+- (void)%f;
+- (void)log, identifierToDiscretionaryIntervals=;
+- (void)XPCMetrics:(_Bool)arg1:OngoingRestore /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)'&;
 - (double);
+- (id)VNDetectHumanHeadRectanglesRequestPrivateRevisionANODv5;
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
-- (void)dSelectDirectionsWithEnvironment: /* Error: Ran out of types for this method. */;
+- (void)placeActionManager:didSelectDirectionsWithEnvironment: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double additionalSnappingAngle; // @synthesize additionalSnappingAngle=_additionalSnappingAngle;
-@property(nonatomic) __weak id <MKRotationFilterDelegate> delegate; // @synthesize delegate=_delegate;
 @property(nonatomic, getter=isSnappedToNorth) _Bool snappedToNorth; // @synthesize snappedToNorth=_snappedToNorth;
 
 @end

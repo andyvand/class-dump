@@ -10,10 +10,6 @@ __attribute__((visibility("hidden")))
 @interface FI_TInlineProgressBarLayer : FI_TLayer
 {
     _Bool _selected;
-    unsigned int _state;
-    int _flatProgressVariant;
-    double _percentComplete;
-    long long _userInterfaceLayoutDirection;
 }
 
 + (_Bool);
@@ -31,14 +27,10 @@ __attribute__((visibility("hidden")))
 - (void)±õÐ1Â0@ù
 × ;
 - (double)ller configureView]E4$_15FP20NSNotificationCentervEEE;
-- (_Bool)FILOQueueStyleIU8__strongP27FI_TQueuedPopoverControllerE;
+- (_Bool)15TFILOQueueStyleIU8__strongP27FI_TQueuedPopoverControllerE;
 
 // Remaining properties
-@property int flatProgressVariant; // @synthesize flatProgressVariant=_flatProgressVariant;
 @property double percentComplete; // @synthesize percentComplete=_percentComplete;
-@property _Bool selected; // @synthesize selected=_selected;
-@property unsigned int state; // @synthesize state=_state;
-@property(nonatomic) long long userInterfaceLayoutDirection; // @synthesize userInterfaceLayoutDirection=_userInterfaceLayoutDirection;
 
 @end
 

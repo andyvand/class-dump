@@ -9,14 +9,14 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (struct CGSize);
-+ (double);
-+ (double);
-+ (double);
-+ (double);
-+ (struct CGSize);
-+ (double);
-+ (double);
++ (struct CGSize)__TLSMinimumSupportedProtocolVersion;
++ (double)_URLSession:task:getAuthHeadersForResponse:completionHandler: /* Error: Ran out of types for this method. */;
++ (double)_URLSession:task:getAuthHeadersForResponse:completionHandler: /* Error: Ran out of types for this method. */;
++ (double)@;
++ (double)token %@ flag %lu;
++ (struct CGSize)m.mm;
++ (double)TimerState::NotSet /* Error: Ran out of types for this method. */;
++ (double)_invokeCB;
 
 @end
 

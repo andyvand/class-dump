@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, SKDisk, SKProgress, SKStateMachine;
+@class SKDisk;
 
 __attribute__((visibility("hidden")))
 @interface SKDiskResizerBase
 {
     SKDisk *_disk;
-    unsigned long long _requestedSize;
-    SKProgress *_progress;
-    SKStateMachine *_activeFSM;
-    NSError *_resizeError;
-    unsigned long long _originalSize;
 }
 
 - (void);
@@ -32,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long)_;
 - (unsigned long long);
 - (id);
 - (void);
@@ -41,14 +36,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) SKStateMachine *activeFSM; // @synthesize activeFSM=_activeFSM;
-@property(nonatomic) long long completedUnitCount;
-@property(readonly, nonatomic) unsigned long long currentSize;
-@property(retain, nonatomic) SKDisk *disk; // @synthesize disk=_disk;
 @property(nonatomic) unsigned long long originalSize; // @synthesize originalSize=_originalSize;
-@property(retain, nonatomic) SKProgress *progress; // @synthesize progress=_progress;
-@property(nonatomic) unsigned long long requestedSize; // @synthesize requestedSize=_requestedSize;
-@property(retain, nonatomic) NSError *resizeError; // @synthesize resizeError=_resizeError;
 
 @end
 

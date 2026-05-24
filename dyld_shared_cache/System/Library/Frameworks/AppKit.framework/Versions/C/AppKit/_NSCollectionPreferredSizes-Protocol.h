@@ -10,14 +10,13 @@
 @protocol _NSCollectionPreferredSizes
 - (_Bool)±à31Â0@ù
 × ;
-- (NSIndexSet *)aForRowIndexes:columnIndexes: /* Error: Ran out of types for this method. */;
+- (NSIndexSet *)reloadDataForRowIndexes:columnIndexes: /* Error: Ran out of types for this method. */;
 - (NSSet *);
 - (id <_NSCollectionPreferredSizes>);
-- (_NSCollectionPreferredSize *)ext;
+- (_NSCollectionPreferredSize *)NSTouchBarViewControllerObservationContext;
 - (id)ss;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *elementKinds;
 @property(readonly, nonatomic) NSIndexSet *indexes;
 @end
 

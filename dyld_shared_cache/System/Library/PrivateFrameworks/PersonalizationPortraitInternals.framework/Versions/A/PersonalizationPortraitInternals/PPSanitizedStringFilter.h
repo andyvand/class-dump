@@ -9,7 +9,6 @@
 @interface PPSanitizedStringFilter
 {
     NSString *_inputName;
-    NSString *_outputName;
 }
 
 - (id);

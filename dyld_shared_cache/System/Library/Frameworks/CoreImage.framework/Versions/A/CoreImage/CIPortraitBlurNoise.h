@@ -6,16 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIPortraitBlurNoise : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputLumaNoiseAmpl;
-    NSNumber *inputLumaNoiseModelCoeff;
-    CIVector *inputExtent;
-    NSNumber *inputUseMetal;
 }
 
 - (void);
@@ -25,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -33,11 +29,7 @@ __attribute__((visibility("hidden")))
 - (id)f¦¬°»»»»¨©ªªRcYkFSGYRSGTDSGZB^ViwwwwyyxykpjskmerOiauwtmwptmwmvq}~o|{OhbvinkpttttqsssF`Yp_kfu||||yyyyqniq^e^jB[PeAZQglrqrzzzz^sstYjhliiiilkhlPkivz}}}}hjhlWgclTnlvfxx~so~[jds;THdR_Vevvvvn{x}}}}C_To`mersSjctP`VlQg`q~}|~««««³³³³¯¯¯¯¢¢¢h}y|zmmlmMSC[baVbrrrrvvrv]h_rbojtzzzzyyyyesovvvvvnnnnCXNgnolrzzzzZc\k_d]gmmmmttttzyvz~}z||||cpkuivtzbvt~mrn|Dd\tPaXg]]U]EVJ]Of`mxzzzzM\TdGXO]dddd^ielbsqzVnh{diatgwu}rrprhh`hrrnrc}|££££¦¦¦¦v}|wwww{{{{l|~~ttttddddK[R`aokt¥¥¥¥N_Si1I7[=RD^kkkkWmisvvs{wtqwllllcaYcAWMbhhchkjdk_galttttp}|µµµµ¿¿¿¿³¶¶¶¦¦¦Vg]q\g]px{x|kJf`p``Z`LVIZ6SEfx|zntq{AVLbYYRYARIUKRGU^_Xb^nkwz~dxwJjdzarowzzzzxI]SkSYNbge^gmqnq||||y[kjn[YQ\XYP[qqqqHdZuXlewwzzzziieibb\bkkkkisnterlt    ~~~~jjdkMXMbXe]ikvsv\wrT|xqooooiiiitttt||||svvvmporyyyy~~~~\ni}bvsqqnqdhcinnnnwwwwxxxxgsrvssssbfah4RGblmjmzzzz~~~~{xt{eqjvrrlreqjrrwrz««««¤¦¦¦iqjwKbXlllllPc\iM^Wkrrrreeee(=.H.<MMEMeeeesssszzzzr~wzzzjjjjffcfajenpoku\mgunlftktqx||||hqmyEha|y{||fpnsppppllll\e^iiokouuuugmgqT`Smqncvvz}wJ\Nidd`diiiitttt¢¢¢¢®®®®©©©©lyyy4K>T&6#CDNBOeeeerrorRlfzr{y{psnt[dYpPe[w§§§§¤¤¤¤¢¢¢¢;
 
 // Remaining properties
-@property(copy) CIVector *inputExtent; // @synthesize inputExtent;
 @property(retain) CIImage *inputImage; // @synthesize inputImage;
-@property(copy, nonatomic) NSNumber *inputLumaNoiseAmpl; // @synthesize inputLumaNoiseAmpl;
-@property(copy, nonatomic) NSNumber *inputLumaNoiseModelCoeff; // @synthesize inputLumaNoiseModelCoeff;
-@property(copy, nonatomic) NSNumber *inputUseMetal; // @synthesize inputUseMetal;
 
 @end
 

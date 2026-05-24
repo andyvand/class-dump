@@ -11,18 +11,16 @@
 @interface PGSpecBasedHighlightTitleGenerator : PGTitleGenerator
 {
     _Bool _createVerboseTitle;
-    NSString *_meaningLabel;
 }
 
 - (id);
-- (id);
-- (_Bool);
+- (id)ocol"16;
+- (_Bool)isEditable;
 - (void);
 - (id);
 - (void)poraryDirectory.52v2gD/Sources/Photos_Swift/workspaces/photoanalysis/PhotosGraph/Framework/Search/PGZeroKeywordComputer.m;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool createVerboseTitle; // @synthesize createVerboseTitle=_createVerboseTitle;
 @property(readonly, nonatomic) NSString *meaningLabel; // @synthesize meaningLabel=_meaningLabel;
 
 @end

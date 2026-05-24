@@ -5,12 +5,10 @@
 //
 
 @class NSXPCConnection;
-@protocol CGRemotePDFServiceProtocol><NSXPCProxyCreating;
 
 @interface CGRemotePDFServiceProxy
 {
     NSXPCConnection *_connection;
-    id <CGRemotePDFServiceProtocol><NSXPCProxyCreating> _proxy;
 }
 
 + (id);
@@ -29,9 +27,9 @@ cleartomark;
 - (void);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (void)Ü;
 

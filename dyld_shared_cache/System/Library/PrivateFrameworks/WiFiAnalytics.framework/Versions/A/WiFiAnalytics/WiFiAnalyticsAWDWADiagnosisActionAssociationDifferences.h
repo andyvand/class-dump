@@ -7,25 +7,9 @@
 @interface WiFiAnalyticsAWDWADiagnosisActionAssociationDifferences
 {
     unsigned long long _timestamp;
-    unsigned int _additionalInfo;
-    int _eventType;
-    _Bool _changedChannel;
-    _Bool _changedDNSPrimary;
-    _Bool _changedDNSSecondary;
-    _Bool _changedMAC;
-    _Bool _newBSSID;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int additionalInfo:1;
-        unsigned int eventType:1;
-        unsigned int changedChannel:1;
-        unsigned int changedDNSPrimary:1;
-        unsigned int changedDNSSecondary:1;
-        unsigned int changedMAC:1;
-        unsigned int newBSSID:1;
-    } _has;
 }
 
+- (void);
 - (void);
 - (void);
 - (void);
@@ -34,8 +18,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool)M;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -44,27 +30,24 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
+- (void)@;
+- (id)successful. ChangeSet:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
+- (_Bool);
+- (int);
+- (_Bool)Th;
 - (_Bool);
-- (int);
-- (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)medianToc;
 - (void);
-- (id);
+- (id)ql;
 - (unsigned int);
 - (id);
 - (void)
@@ -72,22 +55,7 @@
 - (int);
 
 // Remaining properties
-@property(nonatomic) unsigned int additionalInfo; // @synthesize additionalInfo=_additionalInfo;
-@property(nonatomic) _Bool changedChannel; // @synthesize changedChannel=_changedChannel;
-@property(nonatomic) _Bool changedDNSPrimary; // @synthesize changedDNSPrimary=_changedDNSPrimary;
-@property(nonatomic) _Bool changedDNSSecondary; // @synthesize changedDNSSecondary=_changedDNSSecondary;
-@property(nonatomic) _Bool changedMAC; // @synthesize changedMAC=_changedMAC;
-@property(nonatomic) int eventType; // @synthesize eventType=_eventType;
-@property(nonatomic) _Bool hasAdditionalInfo;
-@property(nonatomic) _Bool hasChangedChannel;
-@property(nonatomic) _Bool hasChangedDNSPrimary;
-@property(nonatomic) _Bool hasChangedDNSSecondary;
-@property(nonatomic) _Bool hasChangedMAC;
-@property(nonatomic) _Bool hasEventType;
 @property(nonatomic) _Bool hasNewBSSID;
-@property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool newBSSID; // @synthesize newBSSID=_newBSSID;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

@@ -4,36 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface EDIndexedItems
 {
     long long count;
-    void messages;
-    void updatedMessages;
-    void dataDetectionItems;
-    void attachments;
-    void richLinks;
 }
 
 - (id);
 - (id);
 - (id);
+- (id)UsoTaskBuilder_resume_common_PhotoMemory;
 - (id);
 - (id);
 - (id);
-- (id);
-- (long long);
-- (void)DatabaseConnection;
+- (long long)P;
+- (void)_EDPersistenceReadOnlyDatabaseConnection;
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) NSArray *attachments;
 @property(nonatomic, readonly) long long count; // @synthesize count;
-@property(nonatomic, readonly) NSArray *dataDetectionItems;
-@property(nonatomic, readonly) NSArray *messages;
-@property(nonatomic, readonly) NSArray *richLinks;
-@property(nonatomic, readonly) NSArray *updatedMessages;
 
 @end
 

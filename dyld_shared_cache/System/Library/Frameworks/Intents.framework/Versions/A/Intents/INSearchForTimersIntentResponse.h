@@ -6,16 +6,14 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSArray, NSString;
-
 @interface INSearchForTimersIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)ity>";
++ (int)isLowQuality;
++ (long long)initWithSearchResultIdentifier:(int)arg1 domainIdentifier:(int)arg2 contentType:(_Bool)arg3 size:scale:representationTypes: /* Error: Ran out of types for this method. */;
++ (_Bool)initWithFPItem:(long long)arg1 size:minimumDimension:scale:iconMode: /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (void);
 - (void);
@@ -26,11 +24,11 @@
 - (id);
 - (long long);
 - (id);
-- (void);
+- (void)setShouldProvideFoldedGenericIcon:(id)arg1;
 - (id);
+- (id)physicalDeviceUsesCompass;
 - (id);
-- (id);
-- (void);
+- (void)me(%@) ioObject[%u] ioclass(%@) vifRole(%@) ifnamePrefix(%@) ifUnit(%@);
 - (id);
 - (id);
 - (long long),N,V_defaultValue;
@@ -38,16 +36,6 @@
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSArray *matchedTimers;
-@property(readonly) Class superclass;
-@property(copy) NSArray *timers;
-@property(copy) NSArray *unmatchedTimers;
 
 @end
 

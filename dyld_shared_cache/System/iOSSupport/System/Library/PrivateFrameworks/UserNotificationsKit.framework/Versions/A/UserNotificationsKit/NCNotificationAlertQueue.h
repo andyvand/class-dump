@@ -4,65 +4,63 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceConnectionEndpoint, NCNotificationCollapsingQueue, NCNotificationDestinationsRegistry, NCNotificationRequest, NSString;
+@class NCNotificationCollapsingQueue, NCNotificationDestinationsRegistry, NCNotificationRequest;
 @protocol NCNotificationAlertDestinationDelegate;
 
 @interface NCNotificationAlertQueue
 {
     id <NCNotificationAlertDestinationDelegate> _delegate;
     NCNotificationDestinationsRegistry *_destinationsRegistry;
-    NCNotificationCollapsingQueue *_queue;
-    NCNotificationRequest *_coalescingRequest;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
+- (void)(TestHarness) contextForAction:(id)arg1 ];
+- (void)hInteraction:(id)arg1 forceExecutionOnPhone:(id)arg2 ];
+- (void)atabaseObjectDescriptor"8Q16^B24;
+- (void)ase(Library) deleteCategoriesPosingAsFolders]_block_invoke;
+- (void)low ids to root collection;
+- (void)get latest library;
+- (void)voke;
+- (id)ntentVersion > %ld AND configuration = %@;
+- (id):(id)arg1 ];
+- (void)WFKnownHomeSceneNames;
+- (_Bool)WFWebServiceProxyDevelopmentHostnameKey;
+- (_Bool)WFDisableGallerySearchEdgeCaching;
+- (id)ass getRBSTerminateRequestClass(void)_block_invoke;
+- (id)tClass(void)_block_invoke;
+- (void)SProcessPredicateClass(void)_block_invoke;
+- (void)m.apple.shortcuts.daemon-wakeup-request;
+- (void)rolFlowAttributionTrackerQueue;
+- (void)e isKindOfClass:(id)arg1 [NSDate class]];
+- (void)root=General&path=SOFTWARE_UPDATE_LINK;
+- (void)TLValueTransformer.m;
+- (void)-load;
+- (void)readMessageFromData:(id)arg1 error:(_Bool)arg2 ];
+- (void)a];
+- (void)m;
+- (void)WFWorkflowQuarantineSourceApp;
+- (void)nly open action can determine control flow;
+- (void)ession handleIncomingProtobuf:(id)arg1 ];
+- (void)sion sendToDestinations:(id)arg1 options:(id)arg2 ];
+- (void)nOutgoingAceCommandSession.m;
+- (void)ss]];
+- (void)tutableState.m;
+- (void)LinkEntityContentItem.m;
+- (void)ationWithTypeIdentifier:(id)arg1 completionHandler:(id)arg2 ];
+- (void)WFLinkEntityContentItem generateStructuredDataRepresentationWithTypeIdentifier:(id)arg1 completionHandler:(id)arg2 ];
+- (void)ateFileRepresentation:(id)arg1 options:(id)arg2 forType:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void)erateFileRepresentation:(id)arg1 options:(CDUnknownBlockType)arg2 forType:] /* Error: Ran out of types for this method. */;
+- (void)Q16;
+- (id)Item photosAssetCoercionHandler]_block_invoke;
+- (_Bool)onContext"16^@24;
+- (_Bool)tadata"8Q16;
+- (void)_invoke_3;
+- (_Bool)BuildersForFilteringUsingQuery:(id)arg1 ]_block_invoke_3;
+- (void)value;
+- (void)propertyIdentifier;
+- (void)tItem propertyBuildersForFilteringUsingQuery:(id)arg1 ]_block_invoke;
+- (_Bool)WFLinkEntityContentPropertyUserInfoTextContentSpotlightAttributeKey;
+- (_Bool)temEntity;
+- (id)ileSession.m;
 - (void);
 - (void);
 - (id);
@@ -75,20 +73,8 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAlertDestination) _Bool alertDestination;
 @property(retain, nonatomic) NCNotificationRequest *coalescingRequest; // @synthesize coalescingRequest=_coalescingRequest;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <NCNotificationAlertDestinationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NCNotificationDestinationsRegistry *destinationsRegistry; // @synthesize destinationsRegistry=_destinationsRegistry;
-@property(readonly, nonatomic) BSServiceConnectionEndpoint *endpoint;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *identifier;
 @property(retain, nonatomic) NCNotificationCollapsingQueue *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

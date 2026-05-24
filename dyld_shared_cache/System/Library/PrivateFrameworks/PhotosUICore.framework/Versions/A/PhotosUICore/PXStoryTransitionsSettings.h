@@ -9,49 +9,19 @@
 @interface PXStoryTransitionsSettings : PXSettings
 {
     _Bool _suppressUnsupportedTransitionErrors;
-    _Bool _suppressInvalidTransitionErrors;
-    _Bool _suppressInterruptedTransitionErrors;
-    _Bool _useSplitWipeTransitionsFromOneUp;
-    _Bool _disableUnsupportedTransitionsAtChapterBoundary;
-    BOOL _forcedTransitionKindAtChapterBoundary;
-    unsigned long long _transitionQuality;
-    double _exposureBleedTransitionMidpoint;
-    double _exposureBleedTransitionExposure;
-    double _exposureBleedTransitionBlurRadius;
-    double _exposureBleedTransitionCueAlignment;
-    double _fadeToBlackTransitionBlackRelativeDuration;
-    double _fadeToBlackTransitionCueAlignment;
-    double _dividerAnimationDurationFraction;
-    double _reverseDividerAnimationDurationFraction;
-    double _wipeTransitionCueAlignment;
-    double _panTransitionMaxIntensity;
-    double _panTransitionBlurMidpoint;
-    double _panTransitionBlurOffset;
-    double _panTransitionCueAlignment;
-    double _scaleTransitionRelativeFactor;
-    double _scaleTransitionBlurMidpoint;
-    double _scaleTransitionMaxBlurIntensity;
-    double _scaleTransitionCueAlignment;
-    double _rotateTransitionAngle;
-    double _rotateTransitionBlurMidpoint;
-    double _rotateTransitionMaxBlurIntensity;
-    double _rotateTransitionBlurAnimationRelativeDuration;
-    double _rotateTransitionCueAlignment;
-    double _zoomTransitionRelativeFactor;
-    double _zoomTransitionCueAlignment;
-    double _crossfadeTransitionCueAlignment;
 }
 
 + (id);
-+ (id);
++ (id)R,N,V_gestureView;
 + (id)*;
 - (double);
-- (double);
+- (double)$;
 - (double);
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -67,6 +37,7 @@
 - (void);
 - (void);
 - (void);
+- (void)};
 - (void);
 - (void);
 - (void);
@@ -78,10 +49,9 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (double);
 - (double);
 - (double);
 - (double);
@@ -89,8 +59,7 @@
 - (double);
 - (double);
 - (double);
-- (double);
-- (double);
+- (double)\�;
 - (double);
 - (double);
 - (double);
@@ -114,38 +83,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double crossfadeTransitionCueAlignment; // @synthesize crossfadeTransitionCueAlignment=_crossfadeTransitionCueAlignment;
-@property(nonatomic) _Bool disableUnsupportedTransitionsAtChapterBoundary; // @synthesize disableUnsupportedTransitionsAtChapterBoundary=_disableUnsupportedTransitionsAtChapterBoundary;
-@property(nonatomic) double dividerAnimationDurationFraction; // @synthesize dividerAnimationDurationFraction=_dividerAnimationDurationFraction;
-@property(nonatomic) double exposureBleedTransitionBlurRadius; // @synthesize exposureBleedTransitionBlurRadius=_exposureBleedTransitionBlurRadius;
-@property(nonatomic) double exposureBleedTransitionCueAlignment; // @synthesize exposureBleedTransitionCueAlignment=_exposureBleedTransitionCueAlignment;
-@property(nonatomic) double exposureBleedTransitionExposure; // @synthesize exposureBleedTransitionExposure=_exposureBleedTransitionExposure;
-@property(nonatomic) double exposureBleedTransitionMidpoint; // @synthesize exposureBleedTransitionMidpoint=_exposureBleedTransitionMidpoint;
-@property(nonatomic) double fadeToBlackTransitionBlackRelativeDuration; // @synthesize fadeToBlackTransitionBlackRelativeDuration=_fadeToBlackTransitionBlackRelativeDuration;
-@property(nonatomic) double fadeToBlackTransitionCueAlignment; // @synthesize fadeToBlackTransitionCueAlignment=_fadeToBlackTransitionCueAlignment;
-@property(nonatomic) BOOL forcedTransitionKindAtChapterBoundary; // @synthesize forcedTransitionKindAtChapterBoundary=_forcedTransitionKindAtChapterBoundary;
-@property(nonatomic) double panTransitionBlurMidpoint; // @synthesize panTransitionBlurMidpoint=_panTransitionBlurMidpoint;
-@property(nonatomic) double panTransitionBlurOffset; // @synthesize panTransitionBlurOffset=_panTransitionBlurOffset;
-@property(nonatomic) double panTransitionCueAlignment; // @synthesize panTransitionCueAlignment=_panTransitionCueAlignment;
-@property(nonatomic) double panTransitionMaxIntensity; // @synthesize panTransitionMaxIntensity=_panTransitionMaxIntensity;
-@property(nonatomic) double reverseDividerAnimationDurationFraction; // @synthesize reverseDividerAnimationDurationFraction=_reverseDividerAnimationDurationFraction;
-@property(nonatomic) double rotateTransitionAngle; // @synthesize rotateTransitionAngle=_rotateTransitionAngle;
-@property(nonatomic) double rotateTransitionBlurAnimationRelativeDuration; // @synthesize rotateTransitionBlurAnimationRelativeDuration=_rotateTransitionBlurAnimationRelativeDuration;
-@property(nonatomic) double rotateTransitionBlurMidpoint; // @synthesize rotateTransitionBlurMidpoint=_rotateTransitionBlurMidpoint;
-@property(nonatomic) double rotateTransitionCueAlignment; // @synthesize rotateTransitionCueAlignment=_rotateTransitionCueAlignment;
-@property(nonatomic) double rotateTransitionMaxBlurIntensity; // @synthesize rotateTransitionMaxBlurIntensity=_rotateTransitionMaxBlurIntensity;
-@property(nonatomic) double scaleTransitionBlurMidpoint; // @synthesize scaleTransitionBlurMidpoint=_scaleTransitionBlurMidpoint;
-@property(nonatomic) double scaleTransitionCueAlignment; // @synthesize scaleTransitionCueAlignment=_scaleTransitionCueAlignment;
-@property(nonatomic) double scaleTransitionMaxBlurIntensity; // @synthesize scaleTransitionMaxBlurIntensity=_scaleTransitionMaxBlurIntensity;
-@property(nonatomic) double scaleTransitionRelativeFactor; // @synthesize scaleTransitionRelativeFactor=_scaleTransitionRelativeFactor;
-@property(nonatomic) _Bool suppressInterruptedTransitionErrors; // @synthesize suppressInterruptedTransitionErrors=_suppressInterruptedTransitionErrors;
-@property(nonatomic) _Bool suppressInvalidTransitionErrors; // @synthesize suppressInvalidTransitionErrors=_suppressInvalidTransitionErrors;
-@property(nonatomic) _Bool suppressUnsupportedTransitionErrors; // @synthesize suppressUnsupportedTransitionErrors=_suppressUnsupportedTransitionErrors;
 @property(nonatomic) unsigned long long transitionQuality; // @synthesize transitionQuality=_transitionQuality;
-@property(nonatomic) _Bool useSplitWipeTransitionsFromOneUp; // @synthesize useSplitWipeTransitionsFromOneUp=_useSplitWipeTransitionsFromOneUp;
-@property(nonatomic) double wipeTransitionCueAlignment; // @synthesize wipeTransitionCueAlignment=_wipeTransitionCueAlignment;
-@property(nonatomic) double zoomTransitionCueAlignment; // @synthesize zoomTransitionCueAlignment=_zoomTransitionCueAlignment;
-@property(nonatomic) double zoomTransitionRelativeFactor; // @synthesize zoomTransitionRelativeFactor=_zoomTransitionRelativeFactor;
 
 @end
 

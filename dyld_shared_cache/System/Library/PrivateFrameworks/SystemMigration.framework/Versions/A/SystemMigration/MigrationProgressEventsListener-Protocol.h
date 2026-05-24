@@ -5,5 +5,10 @@
 //
 
 @protocol MigrationProgressEventsListener
+
+@optional
+- (void);
+- (_Bool);
+- (void)T;
 @end
 

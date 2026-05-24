@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface CWFSensingParameters
 {
     _Bool _submitMetric;
-    int _matchFrameType;
-    long long _numberOfReports;
-    NSArray *_matchMACAddresses;
-    long long _timeout;
-    long long _scheduleOnceAfter;
-    long long _scheduleDailyAt;
-    NSArray *_activityLabels;
-    NSArray *_placeLabels;
-    NSString *_comment;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (void);
@@ -43,10 +32,10 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
+- (id)DeviceType;
 - (_Bool);
 - (long long);
 - (id)
@@ -54,23 +43,7 @@
 - (void)er;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *activityLabels; // @synthesize activityLabels=_activityLabels;
-@property(copy, nonatomic) NSString *comment; // @synthesize comment=_comment;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(nonatomic) int matchFrameType; // @synthesize matchFrameType=_matchFrameType;
-@property(copy, nonatomic) NSArray *matchMACAddresses; // @synthesize matchMACAddresses=_matchMACAddresses;
-@property(nonatomic) long long numberOfReports; // @synthesize numberOfReports=_numberOfReports;
-@property(copy, nonatomic) NSArray *placeLabels; // @synthesize placeLabels=_placeLabels;
-@property(nonatomic) long long scheduleDailyAt; // @synthesize scheduleDailyAt=_scheduleDailyAt;
-@property(nonatomic) long long scheduleOnceAfter; // @synthesize scheduleOnceAfter=_scheduleOnceAfter;
-@property(nonatomic) _Bool submitMetric; // @synthesize submitMetric=_submitMetric;
-@property(readonly) Class superclass;
-@property(nonatomic) long long timeout; // @synthesize timeout=_timeout;
 
 @end
 

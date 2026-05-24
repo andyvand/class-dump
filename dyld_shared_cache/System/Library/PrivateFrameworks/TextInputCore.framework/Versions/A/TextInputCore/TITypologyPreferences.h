@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL;
 @protocol TITypologyProfileOptInManaging;
 
 @interface TITypologyPreferences
@@ -18,24 +17,16 @@
 - (void);
 - (_Bool);
 - (long long);
-- (id);
+- (id)UnsupportedMediaItemsAppNotConfigured;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)P;
+- (void)__DATA_CONST;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isTypologyInDatavault;
-@property(readonly, nonatomic) long long maxBytesPersistedTypologyRecords;
-@property(readonly, nonatomic) long long maxBytesPersistedTypologyTraceLogs;
-@property(readonly, nonatomic) double maxLifetimeInterval;
-@property(readonly, nonatomic) unsigned long long persistenceStrategy;
-@property(readonly, nonatomic) NSURL *typologyDirectoryURL;
-@property(readonly, nonatomic) _Bool typologyLoggingEnabled;
-@property(readonly, nonatomic) _Bool typologyLoggingEnabledByProfile;
 @property(nonatomic) __weak id <TITypologyProfileOptInManaging> typologyProfileOptInManager; // @synthesize typologyProfileOptInManager=_typologyProfileOptInManager;
 
 @end

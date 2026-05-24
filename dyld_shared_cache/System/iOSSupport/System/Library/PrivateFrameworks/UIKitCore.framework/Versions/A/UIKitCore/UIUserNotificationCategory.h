@@ -13,23 +13,23 @@
 }
 
 + (_Bool)iveImpl _dismantleViewControllerInColumn:layout:] /* Error: Ran out of types for this method. */;
+- (id)setHaveSeenReceiptsWithQOIThisBatchSet: /* Error: Ran out of types for this method. */;
+- (void)age;
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)in %0.02f seconds;
+- (id)ble MiC by default:Exit record found with date %@, won't try again /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id)
 × ;
 - (id)Ñ]1Â0@ù
 × ;
-- (_Bool)s:(id)arg1;
-- (void)spectable;
-- (void)tionAlpha;
+- (_Bool)setContents:(id)arg1;
+- (void)isIntrospectable;
+- (void)_reflectionAlpha;
 - (id)rringEnvironment",&,N,S_setEventDeferringEnvironment:(struct _NSZone *)arg1;
 - (id)now.;
 - (void)ö;

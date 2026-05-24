@@ -13,8 +13,6 @@ __attribute__((visibility("hidden")))
 @interface CNContactContainerCell : CNLabeledCell
 {
     id <CNPropertyCellDelegate> _delegate;
-    UILabel *_accountLabel;
-    UILabel *_accountNameLabel;
 }
 
 + (_Bool);
@@ -32,8 +30,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) UILabel *accountLabel; // @synthesize accountLabel=_accountLabel;
-@property(readonly, nonatomic) UILabel *accountNameLabel; // @synthesize accountNameLabel=_accountNameLabel;
-@property(nonatomic) __weak id <CNPropertyCellDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end
 

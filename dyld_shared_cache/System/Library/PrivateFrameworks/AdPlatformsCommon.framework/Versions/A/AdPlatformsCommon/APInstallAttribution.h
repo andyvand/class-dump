@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
-
 @interface APInstallAttribution
 {
     unsigned long long _adamId;
-    unsigned long long _campaignId;
-    unsigned long long _sourceAppAdamId;
-    unsigned long long _timestamp;
-    NSString *_adNetworkId;
-    NSString *_attributionSignature;
-    NSUUID *_contextIdentifier;
-    NSString *_version;
 }
 
 + (_Bool);
@@ -34,20 +25,13 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void)stateController;
 - (unsigned long long);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *adNetworkId; // @synthesize adNetworkId=_adNetworkId;
 @property(nonatomic) unsigned long long adamId; // @synthesize adamId=_adamId;
-@property(retain, nonatomic) NSString *attributionSignature; // @synthesize attributionSignature=_attributionSignature;
-@property(nonatomic) unsigned long long campaignId; // @synthesize campaignId=_campaignId;
-@property(retain, nonatomic) NSUUID *contextIdentifier; // @synthesize contextIdentifier=_contextIdentifier;
-@property(nonatomic) unsigned long long sourceAppAdamId; // @synthesize sourceAppAdamId=_sourceAppAdamId;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(retain, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end
 

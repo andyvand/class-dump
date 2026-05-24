@@ -13,7 +13,7 @@
     PKImage *_cardHolderPicture;
 }
 
-+ (long long);
++ (long long)x;
 + (_Bool)!Aùî%1Â0@ù
 × ;
 + (_Bool)gn identifier to %@ for market %@ due to internal settings;
@@ -22,10 +22,10 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (void)entService;
+- (unsigned long long);
+- (_Bool)setHasBytesSent:(id)arg1;
+- (void)SECONDARY_MIGRATOR;
+- (void)paymentService;
 
 // Remaining properties
 @property(retain, nonatomic) PKImage *cardHolderPicture; // @synthesize cardHolderPicture=_cardHolderPicture;

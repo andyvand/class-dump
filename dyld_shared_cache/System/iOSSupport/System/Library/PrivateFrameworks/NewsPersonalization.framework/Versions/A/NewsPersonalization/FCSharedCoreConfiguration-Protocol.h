@@ -4,103 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCPersonalizationPublisherDampeningConfig, FCTopStoriesConfiguration, NSArray, NSString;
+@class FCTopStoriesConfiguration, NSArray, NSString;
 
 @protocol FCSharedCoreConfiguration
-- (long long)ForArticlesWithIDs: /* Error: Ran out of types for this method. */;
+- (NSArray *)y;
+- (long long)readingHistory:didChangeOffensiveStateForArticlesWithIDs: /* Error: Ran out of types for this method. */;
 - (FCTopStoriesConfiguration *)stering for %ld items from %{public}@ context with min %ld and max %ld cluster size.;
 
 @optional
-- (double);
-- (_Bool);
+- (NSString *);
+- (double)m;
+- (double);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool articleEmbeddingsEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool articleEmbeddingsScoringEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(readonly, nonatomic) long long articleRapidUpdatesTimeout;
-@property(readonly, nonatomic) _Bool clientSideEngagementBoostEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSString *conversionCohortsExpField;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) double defaultTTLForArticleListRecords;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) double defaultTTLForArticleRecords;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) double defaultTTLForIssueListRecords;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) double defaultTTLForIssueRecords;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) double defaultTTLForPurchaseLookupRecords;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) double defaultTTLForPuzzleRecords;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) double defaultTTLForPuzzleTypeRecords;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) double defaultTTLForRecipeListRecords;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) double defaultTTLForRecipeRecords;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) double defaultTTLForSportsEventRecords;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) double defaultTTLForTagRecords;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) NSString *engagementCohortsExpField;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *experimentalizableFieldPostfix;
-@property(readonly, nonatomic) NSArray *externalAnalyticsConfigurations;
-@property(readonly, nonatomic) NSArray *hiddenFeedIDs;
-@property(readonly, nonatomic) long long maximumRetryAfterForCK;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic, getter=isOrderFeedEndpointEnabled) _Bool orderFeedEndpointEnabled;
-@property(readonly, nonatomic) FCPersonalizationPublisherDampeningConfig *publisherDampeningConfig;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCPersonalizationPublisherDampeningConfig",?,R,N
-
-@property(readonly, nonatomic) FCPersonalizationPublisherDampeningConfig *shadowPublisherDampeningConfig;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCPersonalizationPublisherDampeningConfig",?,R,N
-
-@property(readonly, nonatomic) _Bool shouldShowAlternateHeadlines;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) FCTopStoriesConfiguration *topStoriesConfig;
-@property(readonly, nonatomic) _Bool useSecureConnectionForAssets;
 @end
 

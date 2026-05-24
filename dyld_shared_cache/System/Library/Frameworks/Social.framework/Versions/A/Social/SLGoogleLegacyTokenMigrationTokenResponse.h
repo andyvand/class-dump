@@ -11,16 +11,14 @@
 @interface SLGoogleLegacyTokenMigrationTokenResponse : SLGoogleLegacyTokenMigrationResponse
 {
     NSString *_token;
-    NSString *_errorMessage;
 }
 
 - (id);
-- (id);
+- (id)";
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *errorMessage; // @synthesize errorMessage=_errorMessage;
 @property(readonly) NSString *token; // @synthesize token=_token;
 
 @end

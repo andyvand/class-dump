@@ -7,15 +7,6 @@
 @interface NewsFeed.InternalErrorView
 {
     id onButtonTap;
-    id onErrorButtonTap;
-    id iconImageView;
-    id titleLabel;
-    id errorLabel;
-    id subtitleLabel;
-    id footerLabel;
-    id button;
-    id attachmentLabel;
-    id debugButton;
 }
 
 - (id);

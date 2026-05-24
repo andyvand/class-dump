@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_os_log;
 
 @interface CUIKEventStoreEditor
@@ -12,30 +12,23 @@
     NSObject<OS_os_log> *_logHandle;
 }
 
-- (_Bool)ñá;
-- (_Bool)ªò/ÿ ;
-- (void)ªáªñªQ?þò1	?×;
-- (void)ªñª±æò	?×;
+- (_Bool);
+- (_Bool);
 - (void);
-- (void)4¸Uøë+$;
-- (_Bool)	ë;
-- (void)ªÍ;
-- (_Bool);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
 - (_Bool);
 - (_Bool);
+- (_Bool)SYSTEM_JAPAN_Osaka_Kaizuka_City_Community_Harmony_Bus_Pink;
 - (_Bool);
 - (id);
 - (void)v72@0:8@16@24@32@40B48@52@60B68 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSObject<OS_os_log> *logHandle; // @synthesize logHandle=_logHandle;
-@property(readonly) Class superclass;
 
 @end
 

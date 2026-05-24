@@ -10,13 +10,9 @@
 + (INIntentDescription *)String",R,C,V_parameter;
 + (NSString *);
 - (NSString *);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) PBCodable *backingStore;
-@property(copy) NSString *identifier;
-@property(readonly, nonatomic) NSString *intentId;
-@property(readonly, nonatomic) NSString *launchId;
-@property(readonly, nonatomic) NSString *typeName;
-@property(readonly, nonatomic) NSString *utteranceString;
 @end
 

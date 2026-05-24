@@ -5,5 +5,6 @@
 //
 
 @protocol FamilyCircle.FamilyCircleServiceDelegateProtocol
+- (void)Weight;
 @end
 

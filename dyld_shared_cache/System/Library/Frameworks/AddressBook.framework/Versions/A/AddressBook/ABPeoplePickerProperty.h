@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPredicate, NSString;
+@class NSString;
 
 @interface ABPeoplePickerProperty
 {
     NSString *title;
-    NSString *property;
-    NSString *key;
-    NSPredicate *filter;
 }
 
-- (id);
+- (id)!;
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)<ASDOcelotServiceProtocol><NSXPCProxyCreating>"@"NSError">16;
+- (id)setNumberOfBytesToHash: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void)1Â0@ù
@@ -28,9 +25,6 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSPredicate *filter; // @synthesize filter;
-@property(retain, nonatomic) NSString *key; // @synthesize key;
-@property(retain, nonatomic) NSString *property; // @synthesize property;
 @property(retain, nonatomic) NSString *title; // @synthesize title;
 
 @end

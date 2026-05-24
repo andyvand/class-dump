@@ -9,20 +9,17 @@
 @interface GEOSpotlightSearchPunchIn
 {
     GEOPDSPunchInHints *_punchInHints;
-    NSString *_spotlightEncodedString;
 }
 
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)B32;
+- (id)externalFilename;
 - (id)v@?@"NSArray"@"NSArray"@"NSError">64;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *completedSearchQuery;
 @property(readonly, nonatomic) NSString *originalSearchQuery;
-@property(readonly, nonatomic) NSString *spotlightEncodedString;
 
 @end
 

@@ -6,22 +6,21 @@
 
 #import <Shortcut/SCTGRL.h>
 
-@class HPDQuery, HPDResult;
+@class HPDResult;
 
 __attribute__((visibility("hidden")))
 @interface SCTHelpItemGRL : SCTGRL
 {
     HPDResult *mSearchResult;
-    HPDQuery *mHelpQuery;
 }
 
-- (id);
+- (id)6hFA9;
 - (id);
 - (_Bool);
-- (id);
+- (id)C;
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)_;
 - (void);
 - (id);
 - (void);

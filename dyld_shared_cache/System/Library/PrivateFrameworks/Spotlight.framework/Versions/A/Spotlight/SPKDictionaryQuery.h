@@ -14,7 +14,7 @@
 + (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)error:%d (%s) %zu != %u /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

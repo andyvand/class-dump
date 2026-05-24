@@ -11,24 +11,16 @@
 @interface MPPlaceholderAVItem : MPAVItem
 {
     _Bool _explicitTrack;
-    _Bool _likeStateEnabled;
-    _Bool _supportsLikedState;
-    NSString *_album;
-    NSString *_artist;
-    double _durationFromExternalMetadata;
-    NSString *_mainTitle;
-    long long _storeItemInt64ID;
-    CDUnknownBlockType _artworkCatalogBlock;
 }
 
-+ (_Bool)equentially:beforeTailOfSection: /* Error: Ran out of types for this method. */;
++ (_Bool)addDataSource:section:sequentially:beforeTailOfSection: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (long long);
 - (void);
+- (void)t?;
 - (void);
-- (void);
-- (void);
+- (void)JLJ;
 - (void);
 - (void);
 - (void);
@@ -36,28 +28,20 @@
 - (double);
 - (CDUnknownBlockType);
 - (_Bool);
-- (void);
+- (void)y;
 - (id);
 - (_Bool);
 - (void);
+- (id)siblingsForIMHandle: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
+- (void)#;
 - (id);
-- (void);
-- (id);
-- (void)NG_MISSING__;
+- (void)__MPModelPropertyPodcastEpisodeSeasonNumber__MAPPING_MISSING__;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *album; // @synthesize album=_album;
-@property(retain, nonatomic) NSString *artist; // @synthesize artist=_artist;
-@property(copy, nonatomic) CDUnknownBlockType artworkCatalogBlock; // @synthesize artworkCatalogBlock=_artworkCatalogBlock;
-@property(nonatomic) double durationFromExternalMetadata; // @synthesize durationFromExternalMetadata=_durationFromExternalMetadata;
-@property(nonatomic, getter=isExplicitTrack) _Bool explicitTrack; // @synthesize explicitTrack=_explicitTrack;
-@property(nonatomic, getter=isLikedStateEnabled) _Bool likedStateEnabled; // @synthesize likedStateEnabled=_likeStateEnabled;
-@property(retain, nonatomic) NSString *mainTitle; // @synthesize mainTitle=_mainTitle;
-@property(nonatomic) long long storeItemInt64ID; // @synthesize storeItemInt64ID=_storeItemInt64ID;
-@property(nonatomic) _Bool supportsLikedState; // @synthesize supportsLikedState=_supportsLikedState;
 
 @end
 

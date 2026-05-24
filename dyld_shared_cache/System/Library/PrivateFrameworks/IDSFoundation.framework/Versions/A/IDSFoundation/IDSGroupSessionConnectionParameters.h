@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface IDSGroupSessionConnectionParameters
 {
     NSString *_multiplexer;
-    NSString *_sessionID;
-    unsigned long long _participantID;
-    NSData *_salt;
 }
 
 - (_Bool);
@@ -21,7 +18,7 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)mActionArgument2;
 - (void);
 - (id);
 - (unsigned long long);
@@ -31,9 +28,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *multiplexer; // @synthesize multiplexer=_multiplexer;
-@property(nonatomic) unsigned long long participantID; // @synthesize participantID=_participantID;
-@property(copy, nonatomic) NSData *salt; // @synthesize salt=_salt;
-@property(copy, nonatomic) NSString *sessionID; // @synthesize sessionID=_sessionID;
 
 @end
 

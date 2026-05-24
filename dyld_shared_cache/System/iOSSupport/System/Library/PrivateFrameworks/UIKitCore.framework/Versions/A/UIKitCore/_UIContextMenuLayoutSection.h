@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSSet;
 
 __attribute__((visibility("hidden")))
 @interface _UIContextMenuLayoutSection
@@ -12,27 +12,20 @@ __attribute__((visibility("hidden")))
     NSSet *_hiddenSeparatorIndexPaths;
 }
 
-- (void);
-- (id);
-- (id);
+- (void)source;
+- (id)_markMessageAsDeliveredQuietlyAndNotify:(id)arg1 session:(id)arg2 chat: /* Error: Ran out of types for this method. */;
+- (id)_areiMessageAndiCloudAccountTheSame: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (id)HDRUsageCoordinator",R,N;
-- (id)IKeyboardTypeEmailAddress;
-- (_Bool)ViewCellCSo24UICellConfigurationStateCIeggg_;
+- (id)UIKeyboardTypeEmailAddress;
+- (_Bool)So15UITableViewCellCSo24UICellConfigurationStateCIeggg_;
 - (id);
 - (void)q;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSSet *hiddenSeparatorIndexPaths; // @synthesize hiddenSeparatorIndexPaths=_hiddenSeparatorIndexPaths;
-@property(readonly) Class superclass;
 
 @end
 

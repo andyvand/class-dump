@@ -7,7 +7,6 @@
 @interface RemindersUICore.TTRExtensionContextExtractor
 {
     id userActivityProvider;
-    id $__lazy_storage_$_metadataProvider;
 }
 
 @end

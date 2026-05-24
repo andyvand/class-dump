@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXDataSectionManager;
-@protocol PXDataSectionManagerEnabling;
+@class PXDataSectionManager;
 
 @interface PXDataSectionEnablementForwarder
 {
     PXDataSectionManager *_sourceDataSectionManager;
-    id <PXDataSectionManagerEnabling> _enablementTarget;
 }
 
 - (id);
@@ -22,15 +20,7 @@
 - (void)0	ûþ}ë·p	ûþmë·	ûþ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak id <PXDataSectionManagerEnabling> enablementTarget; // @synthesize enablementTarget=_enablementTarget;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) PXDataSectionManager *sourceDataSectionManager; // @synthesize sourceDataSectionManager=_sourceDataSectionManager;
-@property(readonly) Class superclass;
 
 @end
 

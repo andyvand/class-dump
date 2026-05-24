@@ -11,7 +11,7 @@
     unsigned long long _commandIndex;
 }
 
-- (void);
+- (void)4;
 - (void);
 - (void);
 - (void);
@@ -19,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 
 @end
 

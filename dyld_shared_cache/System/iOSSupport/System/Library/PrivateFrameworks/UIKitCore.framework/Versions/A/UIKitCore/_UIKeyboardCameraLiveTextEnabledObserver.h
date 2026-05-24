@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id),ráÿ«Íyk;
-- (_Bool);
+- (_Bool)setRemovedFromBackup: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);

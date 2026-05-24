@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAppleEventDescriptor, NSScriptCommand;
+@class NSAppleEventDescriptor;
 
 __attribute__((visibility("hidden")))
 @interface NSAppleEventHandling
 {
     NSAppleEventDescriptor *_event;
-    NSAppleEventDescriptor *_replyEvent;
-    NSScriptCommand *_scriptCommand;
-    _Bool _isSuspendedWithAE;
-    char _padding[3];
 }
 
 - (void);

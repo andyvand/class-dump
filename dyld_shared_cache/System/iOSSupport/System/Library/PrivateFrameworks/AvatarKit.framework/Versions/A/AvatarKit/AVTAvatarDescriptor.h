@@ -8,14 +8,14 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
++ (id)#;
 + (id);
 + (id);
 + (_Bool);
++ (id);
++ (id);
 + (_Bool);
++ (_Bool);
 + (unsigned char);
 - (void);
 - (id);

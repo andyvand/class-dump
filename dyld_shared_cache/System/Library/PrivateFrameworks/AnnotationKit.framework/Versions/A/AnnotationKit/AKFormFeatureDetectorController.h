@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKController, NSString;
+@class AKController;
 
 @interface AKFormFeatureDetectorController
 {
@@ -19,20 +19,13 @@
 - (struct CGSize);
 - (void);
 - (id);
-- (void);
+- (void)P;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property __weak AKController *controller; // @synthesize controller=_controller;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -9,12 +9,9 @@
 @interface CTSMSSendInfoType
 {
     NSNumber *_error1;
-    NSNumber *_error2;
-    long long _statusType;
-    NSNumber *_recommendedRetryDelayInSeconds;
 }
 
-+ (_Bool);
++ (_Bool)rOutput.m;
 - (void);
 - (void);
 - (void);
@@ -25,17 +22,14 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)initWithSessionKey:(id)arg1;
 - (long long);
 - (id);
-- (void);
+- (void)videoCompositionWithPropertiesOfAsset:(long long)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *error1; // @synthesize error1=_error1;
-@property(retain, nonatomic) NSNumber *error2; // @synthesize error2=_error2;
-@property(retain, nonatomic) NSNumber *recommendedRetryDelayInSeconds; // @synthesize recommendedRetryDelayInSeconds=_recommendedRetryDelayInSeconds;
-@property(nonatomic) long long statusType; // @synthesize statusType=_statusType;
 
 @end
 

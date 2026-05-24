@@ -6,36 +6,12 @@
 
 #import <HomeKitDaemon/HMDLogEventAnalyzer.h>
 
-@class HMDEventCountersManager, HMDHomeManager, HMDMetricsPreferencesDebugManager, HMFTimer, NSDate, NSObject, NSString, NSUserDefaults;
-@protocol HMMLogEventSubmitting, OS_dispatch_queue;
+@class HMDHomeManager;
 
 __attribute__((visibility("hidden")))
 @interface HMDLogEventProcessLaunchAnalyzer : HMDLogEventAnalyzer
 {
     long long _launchInfoSubmissionState;
-    NSDate *_processLaunchTime;
-    NSString *_processExitType;
-    NSString *_processExitReason;
-    long long _numUncommittedRecords;
-    long long _numUncommittedAndPushedRecords;
-    NSString *_dataSyncStateAsString;
-    double _timeIntervalSincePreviousProcessLaunch;
-    double _launchTime;
-    long long _xpcMessageTransportReadyMilliseconds;
-    long long _homeDataLoadedMilliseconds;
-    long long _accountResolvedMilliseconds;
-    long long _millisecondsSinceLaunchToDataSyncStateGood;
-    _Bool _configurationLoaded;
-    _Bool _processLaunchInfoEventSubmitted;
-    HMDHomeManager *_homeManager;
-    HMDEventCountersManager *_eventCountersManager;
-    HMFTimer *_submitProcessLaunchInfoTimer;
-    id <HMMLogEventSubmitting> _logEventSubmitter;
-    NSObject<OS_dispatch_queue> *_logEventQueue;
-    NSUserDefaults *_userDefaults;
-    HMDMetricsPreferencesDebugManager *_preferencesDebugManager;
-    CDUnknownBlockType _lastExitContextBlock;
-    double _processRelaunchEventTimeIntervalThreshold;
 }
 
 + (id);
@@ -44,11 +20,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)tableView:(id)arg1 objectValueForTableColumn:row: /* Error: Ran out of types for this method. */;
+- (id)entViewRotation;
+- (void)teManagement/ScreensharingAgent.bundle/Contents/Support/SSPasteboardHelper.bundle/Contents/MacOS/SSPasteboardHelper;
+- (id);
+- (void)PITagColorSampler;
 - (id);
 - (_Bool);
 - (CDUnknownBlockType);
@@ -57,7 +33,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (double);
-- (void)space: /* Error: Ran out of types for this method. */;
+- (void)addActionSetName:namespace: /* Error: Ran out of types for this method. */;
 - (void)@"HMDCameraBulletinNotificationManager",R;
 - (void)ceController",R;
 - (void)g context, home is not set;
@@ -65,28 +41,13 @@ __attribute__((visibility("hidden")))
 - (void)rs due to no consumer;
 - (void)trust status event due to no data source;
 - (void)efreshing on state;
-- (id)ageVersion;
+- (id)unsupportedCloudStorageVersion;
 - (void)tring;
 - (id);
 - (void)£°;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) HMDEventCountersManager *eventCountersManager; // @synthesize eventCountersManager=_eventCountersManager;
-@property(readonly) unsigned long long hash;
 @property __weak HMDHomeManager *homeManager; // @synthesize homeManager=_homeManager;
-@property(readonly, nonatomic) CDUnknownBlockType lastExitContextBlock; // @synthesize lastExitContextBlock=_lastExitContextBlock;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *logEventQueue; // @synthesize logEventQueue=_logEventQueue;
-@property(readonly, nonatomic) __weak id <HMMLogEventSubmitting> logEventSubmitter; // @synthesize logEventSubmitter=_logEventSubmitter;
-@property(readonly, nonatomic) HMDMetricsPreferencesDebugManager *preferencesDebugManager; // @synthesize preferencesDebugManager=_preferencesDebugManager;
-@property(readonly, nonatomic) double processRelaunchEventTimeIntervalThreshold; // @synthesize processRelaunchEventTimeIntervalThreshold=_processRelaunchEventTimeIntervalThreshold;
-@property(readonly, nonatomic) HMFTimer *submitProcessLaunchInfoTimer; // @synthesize submitProcessLaunchInfoTimer=_submitProcessLaunchInfoTimer;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSUserDefaults *userDefaults; // @synthesize userDefaults=_userDefaults;
 
 @end
 

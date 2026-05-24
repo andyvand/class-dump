@@ -21,17 +21,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (unsigned long long *);
-- (unsigned long long *);
-- (void);
-- (void);
-- (id);
+- (unsigned long long *)_ր;
+- (void));
+- (void);
+- (id)+
+k;
 - (_Bool);
 - (unsigned long long *);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (id)R10_444_2P_PACKED_HLG;
+- (id)YCBCR10_444_2P_PACKED_HLG;
 - (void);
 - (void)reType];
 - (id)ation unit was running.;

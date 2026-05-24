@@ -22,7 +22,7 @@
 - (id);
 - (double);
 - (double);
-- (id);
+- (id),;
 - (double);
 - (id);
 - (double);
@@ -31,8 +31,8 @@
 - (struct CGRect);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (void)oupFromColor:(id)arg1;
+- (_Bool);
+- (void)_backgroundColorForFloatingGroupFromColor:(id)arg1;
 - (long long){public}@ ***;
 
 @end

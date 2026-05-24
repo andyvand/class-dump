@@ -7,16 +7,12 @@
 @interface IMUnreadCountFilterController
 {
     _Bool _filteredByFocus;
-    _Bool _filteredByAssistiveAccess;
-    _Bool _filtersMutedChats;
-    CDUnknownBlockType _refreshHandler;
-    unsigned long long _excludes;
 }
 
 + (unsigned long long);
 + (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)A:(id)arg1 A;
 - (void);
 - (void);
 - (void);
@@ -34,16 +30,12 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)9X;
 - (_Bool);
-- (id);
+- (id)Store unsupported;
 - (void)ÈÎùÿl2åÿdb;
 
 // Remaining properties
-@property(nonatomic) unsigned long long excludes; // @synthesize excludes=_excludes;
-@property(nonatomic) _Bool filteredByAssistiveAccess; // @synthesize filteredByAssistiveAccess=_filteredByAssistiveAccess;
-@property(nonatomic) _Bool filteredByFocus; // @synthesize filteredByFocus=_filteredByFocus;
-@property(nonatomic) _Bool filtersMutedChats; // @synthesize filtersMutedChats=_filtersMutedChats;
 @property(copy, nonatomic) CDUnknownBlockType refreshHandler; // @synthesize refreshHandler=_refreshHandler;
 
 @end

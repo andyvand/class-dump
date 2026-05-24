@@ -6,16 +6,14 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class INNote, NSString;
-
 @interface INAppendToNoteIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
++ (int)ntifier",R,V_fileIdentifier;
 + (int);
 + (long long);
-+ (_Bool);
++ (_Bool)cropRect;
 + (_Bool);
 - (void);
 - (id);
@@ -23,25 +21,17 @@
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id)0;
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)CWFNearbyDeviceDiscoveryParameter;
+- (void)NearbyAutoJoinAssist;
 - (id);
 - (id);
 - (long long)INCodableAttributeRelationComparing;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) INNote *note;
-@property(readonly) Class superclass;
 
 @end
 

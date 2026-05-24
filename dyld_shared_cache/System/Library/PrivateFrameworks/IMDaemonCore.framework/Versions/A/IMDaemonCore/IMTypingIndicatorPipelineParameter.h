@@ -6,29 +6,23 @@
 
 #import <IMDaemonCore/IMTextMessagePipelineParameter.h>
 
-@class NSData, NSString;
-
 @interface IMTypingIndicatorPipelineParameter : IMTextMessagePipelineParameter
 {
     _Bool _isFinished;
-    NSString *_balloonPluginBundleID;
-    NSData *_typingIndicatorIconData;
 }
 
-- (id);
+- (id);
+- (void)(b9!B8(I ;
 - (void);
-- (void);
 - (id);
-- (id);
+- (id);;
 - (id);
 - (void);
 - (_Bool);
 - (void)a;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *balloonPluginBundleID; // @synthesize balloonPluginBundleID=_balloonPluginBundleID;
 @property(nonatomic) _Bool isFinished; // @synthesize isFinished=_isFinished;
-@property(copy, nonatomic) NSData *typingIndicatorIconData; // @synthesize typingIndicatorIconData=_typingIndicatorIconData;
 
 @end
 

@@ -5,25 +5,12 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, OS_xpc_object;
+@protocol OS_xpc_object;
 
 __attribute__((visibility("hidden")))
 @interface CFPrefsDaemon
 {
     NSObject<OS_xpc_object> *_listener;
-    const char *_name;
-    int _role;
-    struct __CFSet *_sourceCache;
-    struct __CFBag *_sourceCacheUsageCounts;
-    struct os_unfair_lock_s _sourceCacheLock;
-    struct {
-        unsigned long long buckets[64];
-    } _deadManagedSourceBitSet;
-    NSObject<OS_xpc_object> *_agentConnections;
-    NSObject<OS_dispatch_queue> *_agentQueue;
-    _Bool _inSandbox;
-    _Bool _testMode;
-    _Atomic unsigned int *_shmem;
 }
 
 - (_Bool);

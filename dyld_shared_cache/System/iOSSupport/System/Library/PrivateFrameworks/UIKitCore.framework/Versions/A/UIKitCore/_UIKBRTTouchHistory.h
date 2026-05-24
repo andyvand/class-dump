@@ -10,36 +10,30 @@ __attribute__((visibility("hidden")))
 @interface _UIKBRTTouchHistory
 {
     NSMutableArray *_history;
-    struct CGPoint _historyOffset;
-    double _lastDecayTime;
-    _Bool _isLeftHand;
 }
 
 - (void);
 - (void);
-- (_Bool);
-- (id);
-- (struct CGPoint);
-- (_Bool);
+- (_Bool)setIsDoingDeleteRecoverySync: /* Error: Ran out of types for this method. */;
+- (id)proxyAccount;
+- (struct CGPoint)lastReadMessageTimeStamp;
+- (_Bool)isExpirableWithBlastDoorTextMessage: /* Error: Ran out of types for this method. */;
+- (void)broadcasterForCollaborationListeners;
+- (_Bool)ame:(id)arg1;
+- (void)SubscriptionValidationToken:(struct CGPoint)arg1 availabilityOffGridRecipientEncryptionValidationToken:idsService:messageContext:isFromTrustedSender:isFromSnapTrustedSender:wasContextUsed:isBlackholed:shouldTrackForRequery:isFiltered:spamDetectionSource:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)_addDatesDefaultsIfNeededToDictionary:(id)arg1 keys: /* Error: Ran out of types for this method. */;
+- (void)_TtC12IMDaemonCore25IMDPersistentTaskExecutor;
 - (void);
-- (_Bool);
+- (void)urning;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)n*	;
 - (void)SpringAnimationBehaviorDescribing>"32@0:8@"_UIDragSetDownAnimation"16@"UIDragItem"24 /* Error: Ran out of types for this method. */;
-- (double);
+- (double)currentActivityContinuationUUIDString;
 - (id)disableUpdateColorOnTraitCollectionChange;
 - (void)8^;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasHistory;
 @property(readonly, nonatomic) struct CGPoint historyOffset;
-@property(nonatomic) _Bool isLeftHand; // @synthesize isLeftHand=_isLeftHand;
-@property(readonly, nonatomic) double lastTime;
 
 @end
 

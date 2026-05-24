@@ -7,14 +7,6 @@
 @interface BiomeSQLParser.PgQuery_SubscriptingRef._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _xpr;
-    id _refcontainertype;
-    id _refelemtype;
-    id _reftypmod;
-    id _refcollid;
-    id _refupperindexpr;
-    id _reflowerindexpr;
-    id _refexpr;
-    id _refassgnexpr;
 }
 
 @end

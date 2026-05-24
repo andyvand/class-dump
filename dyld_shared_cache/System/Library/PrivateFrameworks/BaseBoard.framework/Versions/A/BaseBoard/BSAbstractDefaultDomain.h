@@ -4,35 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSObject, NSUserDefaults;
-@protocol OS_dispatch_queue;
+@class NSUserDefaults;
 
 @interface BSAbstractDefaultDomain
 {
     NSUserDefaults *_userDefaults;
-    _Bool _boundDefaults;
-    NSObject<OS_dispatch_queue> *_observerQueue;
-    NSMutableSet *_observerQueue_observers;
-    NSMutableDictionary *_defaultKeyToDefaultValue;
 }
 
 + (_Bool);
 + (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id));
 - (id);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
+- (void);
+- (id);
+- (id)Cf;
 - (void);
 
 @end

@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL, UIImage;
-@protocol FCHeadlineProviding, FCTagProviding;
+@class NSString;
 
 @interface TSEditorialItem
 {
     void identifier;
-    void title;
-    void subtitle;
-    void subtitleColor;
-    void attributes;
-    void actionURL;
-    UIImage *thumbnailImage;
-    id <FCTagProviding> backingTag;
-    id <FCHeadlineProviding> headline;
 }
 
 - (void);
@@ -26,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)o content was loaded unexpectedly.;
 - (id);
 - (id);
 - (id);
@@ -43,15 +34,7 @@
 - (void),cÄ%;
 
 // Remaining properties
-@property(nonatomic, copy) NSURL *actionURL;
-@property(nonatomic, copy) NSArray *attributes;
-@property(nonatomic, retain) id <FCTagProviding> backingTag; // @synthesize backingTag;
-@property(nonatomic, retain) id <FCHeadlineProviding> headline; // @synthesize headline;
 @property(nonatomic, copy) NSString *identifier;
-@property(nonatomic, copy) NSString *subtitle;
-@property(nonatomic, copy) NSString *subtitleColor;
-@property(nonatomic, retain) UIImage *thumbnailImage; // @synthesize thumbnailImage;
-@property(nonatomic, copy) NSString *title;
 
 @end
 

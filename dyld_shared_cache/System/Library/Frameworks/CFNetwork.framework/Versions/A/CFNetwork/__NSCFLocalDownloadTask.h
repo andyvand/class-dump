@@ -6,33 +6,16 @@
 
 #import <CFNetwork/__NSCFLocalSessionTask.h>
 
-@class NSDictionary, NSObject, NSString, __NSCFLocalDownloadFile;
-@protocol OS_dispatch_data;
+@class __NSCFLocalDownloadFile;
 
 __attribute__((visibility("hidden")))
 @interface __NSCFLocalDownloadTask : __NSCFLocalSessionTask
 {
     CDUnknownBlockType _fileCompletion;
-    __NSCFLocalDownloadFile *_downloadFile;
-    NSObject<OS_dispatch_data> *_writeBuffer;
-    unsigned long long _ioSuspend;
-    long long _totalWrote;
-    CDUnknownBlockType _resumeCallback;
-    long long _initialResumeSize;
-    NSDictionary *_originalResumeInfo;
-    unsigned long long _transientWriteProgress;
-    CDUnknownBlockType _afterDidReportProgressOnQueue;
-    CDUnknownBlockType _dataAckCompletion;
-    int _seqNo;
-    _Bool _canWrite;
-    _Bool _suppressProgress;
-    _Bool _needFinish;
-    _Bool _didIssueNeedFinish;
-    _Bool _extractorFinishedSuccessfully;
 }
 
 + (id);
-- (void);
+- (void)eematragurmukhi;
 - (void);
 - (void);
 - (int);
@@ -43,22 +26,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void)@;
 - (void)åÿÿ ;
 - (void);
 - (void);
-- (void)m8;
+- (void)2m8;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain) __NSCFLocalDownloadFile *downloadFile; // @synthesize downloadFile=_downloadFile;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

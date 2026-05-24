@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, RTDefaultsManager, RTTripClusterProcessorOptions;
+@class NSMutableDictionary, RTTripClusterProcessorOptions;
 
 @interface RTTripClusterProcessor
 {
     NSMutableDictionary *_debuggingData;
-    _Bool _shouldDeferClusterProcessing;
-    RTTripClusterProcessorOptions *_options;
-    RTDefaultsManager *_defaultsManager;
 }
 
 + (_Bool);
 + (void);
-+ (double);
-+ (id);
-+ (double);
-+ (id);
-+ (double);
++ (double)very;
++ (id)snack;
++ (double)kit;
++ (id)hidden;
++ (double)description;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -29,7 +26,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)t;
 - (void);
 - (_Bool);
 - (double);
@@ -38,8 +35,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)hasHsmBlob;
+- (void)ureBackupDisableWithInfo (Guitarfish recovery token):(id)arg1 %@;
 - (void);
 - (id);
 - (void);
@@ -47,9 +44,7 @@
 - (void)latency:%.2f, error:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
 @property(retain, nonatomic) RTTripClusterProcessorOptions *options; // @synthesize options=_options;
-@property _Bool shouldDeferClusterProcessing; // @synthesize shouldDeferClusterProcessing=_shouldDeferClusterProcessing;
 
 @end
 

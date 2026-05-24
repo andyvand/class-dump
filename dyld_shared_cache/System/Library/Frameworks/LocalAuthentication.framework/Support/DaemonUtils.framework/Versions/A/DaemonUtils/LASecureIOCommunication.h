@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BridgeXPCConnection, BridgeXPCListener, NSMutableDictionary, NSObject, NSString;
-@protocol LASecureIOCommunicationDelegate, OS_dispatch_queue;
+@class NSMutableDictionary, NSObject;
+@protocol LASecureIOCommunicationDelegate;
 
 @interface LASecureIOCommunication
 {
     NSMutableDictionary *_currentCalls;
-    NSObject<OS_dispatch_queue> *_queue;
-    BridgeXPCListener *_xpcListener;
-    BridgeXPCConnection *_xpcConnection;
-    NSString *_serviceName;
-    _Bool _client;
-    NSObject<LASecureIOCommunicationDelegate> *_delegate;
 }
 
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (long long);
 - (long long);
 - (long long);
@@ -29,7 +23,7 @@
 - (id);
 - (id);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)9;
 - (void);
 - (long long);
 

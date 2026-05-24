@@ -11,22 +11,21 @@
     NSData *_issueViewingSessionId;
 }
 
-- (void);
+- (void)customTitle;
+- (id)backgroundColors;
+- (_Bool)allShelvesExpandingMovementAnimationDuration;
 - (id);
-- (_Bool);
-- (id);
 - (void);
-- (void);
+- (void)Pm;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)setComputedGlobalScoreCoefficient: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasIssueViewingSessionId;
-@property(retain, nonatomic) NSData *issueViewingSessionId; // @synthesize issueViewingSessionId=_issueViewingSessionId;
 
 @end
 

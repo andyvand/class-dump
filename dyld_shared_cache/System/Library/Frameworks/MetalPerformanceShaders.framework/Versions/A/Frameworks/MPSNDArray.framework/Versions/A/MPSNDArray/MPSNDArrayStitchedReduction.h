@@ -6,18 +6,9 @@
 
 #import <MPSNDArray/MPSNDArrayUnaryKernel.h>
 
-@class MPSKernelUserDAGInfo, NSArray;
-
 @interface MPSNDArrayStitchedReduction : MPSNDArrayUnaryKernel
 {
     unsigned long long _stateSize;
-    MPSKernelUserDAGInfo *_DAGInfo;
-    unsigned long long _axis;
-    NSArray *_axes;
-    CDUnknownBlockType _invariantValueFn;
-    CDUnknownBlockType _mapFn;
-    CDUnknownBlockType _reduceFn;
-    CDUnknownBlockType _writeFn;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -26,16 +17,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
+- (CDUnknownBlockType){;
+- (unsigned long long)`P;
 - (CDUnknownBlockType);
-- (unsigned long long);
-- (CDUnknownBlockType);
 - (id);
 - (id);
-- (id);
+- (id)`;
 - (CDUnknownBlockType);
 - (id);
 - (id);
@@ -44,13 +35,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *axes; // @synthesize axes=_axes;
 @property(nonatomic) unsigned long long axis; // @synthesize axis=_axis;
-@property(nonatomic) CDUnknownBlockType invariantValueFn; // @synthesize invariantValueFn=_invariantValueFn;
-@property(nonatomic) CDUnknownBlockType mapFn; // @synthesize mapFn=_mapFn;
-@property(nonatomic) CDUnknownBlockType reduceFn; // @synthesize reduceFn=_reduceFn;
-@property(nonatomic) unsigned long long stateSize; // @synthesize stateSize=_stateSize;
-@property(nonatomic) CDUnknownBlockType writeFn; // @synthesize writeFn=_writeFn;
 
 @end
 

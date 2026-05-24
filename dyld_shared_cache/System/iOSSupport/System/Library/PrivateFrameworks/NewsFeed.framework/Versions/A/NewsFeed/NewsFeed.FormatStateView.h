@@ -7,17 +7,10 @@
 @interface NewsFeed.FormatStateView
 {
     id identifier;
-    id formatLayoutView;
-    id viewportDisplayState;
-    id state;
-    id stateAccessibilityRenderer;
-    id renderBlock;
-    id shouldMonitorScroll;
-    id lastRenderedState;
 }
 
 - (id);
-- (void);
+- (void)rt Zip 64;
 - (id)SError"16;
 - (void);
 

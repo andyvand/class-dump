@@ -12,16 +12,15 @@ __attribute__((visibility("hidden")))
 @interface NSTabBarDelayedPopUpButtonCell : NSButtonCell
 {
     NSTimer *_menuTimer;
-    _Bool _didPopUpMenu;
 }
 
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
-- (double);
+- (_Bool);
+- (double)expected API behavior:received no bytes, no error, and no EOF from connection /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)NSURLCredentialStorageRemoveSynchronizableCredentials;
 - (void)P;
 
 @end

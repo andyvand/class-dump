@@ -5,5 +5,8 @@
 //
 
 @protocol AVAssetDownloadDelegate
+
+@optional
+- (void);
 @end
 

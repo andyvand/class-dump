@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOApplicationAuditToken, GEOComposedRoute, GEOLocationShifter, GEONavigationMatchResult, GEORoadMatcher, GEORouteMatcher;
+@class GEOApplicationAuditToken, GEORouteMatcher;
 
 @interface GEONavigationMapMatcher
 {
     GEOApplicationAuditToken *_auditToken;
-    _Bool _requiresRoadNetworkData;
-    _Bool _shouldSnapRouteMatchToRoute;
-    _Bool _shouldWaitForSnappedSegments;
-    _Bool _isSimulation;
-    GEOComposedRoute *_route;
-    GEONavigationMatchResult *_previousMatchResult;
-    unsigned long long _targetLegIndex;
-    GEORouteMatcher *_routeMatcher;
-    GEORoadMatcher *_roadMatcher;
-    GEOLocationShifter *_locationShifter;
 }
 
 - (id);
@@ -26,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (id);
 - (id);
 - (void);
@@ -35,11 +25,11 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)server"16;
+- (void)shouldIgnoreAssumedIdentity:(id)arg1;
 - (id);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (void);
 - (id);
@@ -48,14 +38,7 @@
 - (int)ü7;
 
 // Remaining properties
-@property(readonly, nonatomic) GEOApplicationAuditToken *auditToken; // @synthesize auditToken=_auditToken;
-@property(nonatomic) _Bool isSimulation; // @synthesize isSimulation=_isSimulation;
-@property(retain, nonatomic) GEOLocationShifter *locationShifter; // @synthesize locationShifter=_locationShifter;
-@property(retain, nonatomic) GEONavigationMatchResult *previousMatchResult; // @synthesize previousMatchResult=_previousMatchResult;
-@property(retain, nonatomic) GEORoadMatcher *roadMatcher; // @synthesize roadMatcher=_roadMatcher;
-@property(retain, nonatomic) GEOComposedRoute *route; // @synthesize route=_route;
 @property(retain, nonatomic) GEORouteMatcher *routeMatcher; // @synthesize routeMatcher=_routeMatcher;
-@property(nonatomic) unsigned long long targetLegIndex; // @synthesize targetLegIndex=_targetLegIndex;
 
 @end
 

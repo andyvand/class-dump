@@ -4,67 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableDictionary, NSMutableIndexSet, NSMutableSet, NSSet;
+@class NSMutableSet;
 
 @interface NSCollectionViewLayoutInvalidationContext
 {
     NSMutableSet *_invalidatedItemIndexPaths;
-    NSMutableDictionary *_invalidatedSupplementaryIndexPaths;
-    NSMutableDictionary *_invalidatedDecorationIndexPaths;
-    NSArray *_updateItems;
-    struct CGPoint _contentOffsetAdjustment;
-    struct CGSize _contentSizeAdjustment;
-    NSMutableIndexSet *_orthogonalSectionsWithContentSizeChanges;
-    struct {
-        unsigned int invalidateDataSource:1;
-        unsigned int invalidateEverything:1;
-        unsigned int initiatedFromReloadData:1;
-        unsigned int retainExistingSizingInfoForEstimates:1;
-    } _invalidationContextFlags;
-    long long _intent;
 }
 
 - (void);
-- (id);
-- (id);
+- (id)_explicitlySetProxySettings;
+- (id)_explicitlySetPreventsIdleSystemSleep;
+- (void)_explicitlySetAllowsConstrainedNetworkAccess;
+- (_Bool)_downloadWithLoadingCFURLConnection:request:response:delegate:proxy: /* Error: Ran out of types for this method. */;
+- (void)_downloadTaskWithURL:(id)arg1 delegate:(id)arg2 completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)_downloadTaskWithURL:delegate:completionHandler: /* Error: Ran out of types for this method. */;
+- (struct CGSize)lu unsupported frame type %llu;
+- (id)= %ld/%ld/%ld/%ld/%ld, source %@;
+- (void)OConnWrapper;
+- (void)RUTH ON
+;
+- (void);
+- (void);
+- (void);
 - (void);
 - (_Bool);
-- (void);
-- (_Bool);
-- (struct CGSize);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (long long);
-- (void);
+- (void)i;;
+- (long long);
+- (void)b;
 - (struct CGPoint)!¨Eùâ3ð1Â0@ù
 × ;
-- (void)Kind:(id)arg1 alignment:offset: /* Error: Ran out of types for this method. */;
+- (void)boundarySupplementaryItemWithSize:(id)arg1 elementKind:alignment:offset: /* Error: Ran out of types for this method. */;
 - (void)ÐáB;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableIndexSet *_orthogonalSectionsWithContentSizeChanges;
-@property struct CGPoint contentOffsetAdjustment;
-@property struct CGSize contentSizeAdjustment;
-@property(nonatomic, getter=_initiatedFromReloadData, setter=_setInitiatedFromReloadData:) _Bool initiatedFromReloadData;
-@property(nonatomic, getter=_intent, setter=_setIntent:) long long intent; // @synthesize intent=_intent;
 @property(nonatomic, setter=_setInvalidateDataSourceCounts:) _Bool invalidateDataSourceCounts;
-@property(nonatomic, setter=_setInvalidateEverything:) _Bool invalidateEverything;
-@property(readonly) NSDictionary *invalidatedDecorationIndexPaths;
-@property(readonly) NSSet *invalidatedItemIndexPaths;
-@property(readonly) NSDictionary *invalidatedSupplementaryIndexPaths;
-@property(nonatomic, getter=_retainExistingSizingInfoForEstimates, setter=_setRetainExistingSizingInfoForEstimates:) _Bool retainExistingSizingInfoForEstimates;
-@property(nonatomic, getter=_updateItems, setter=_setUpdateItems:) NSArray *updateItems;
 
 @end
 

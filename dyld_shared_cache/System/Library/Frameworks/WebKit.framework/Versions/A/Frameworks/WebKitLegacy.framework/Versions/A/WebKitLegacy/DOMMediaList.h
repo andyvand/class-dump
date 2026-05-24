@@ -17,11 +17,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)ublic}@:[%{public}@] Updated expiry for ID in db:%{public}@ /* Error: Ran out of types for this method. */;
 - (unsigned int);
 
 // Remaining properties
-@property(readonly) unsigned int length;
 @property(copy) NSString *mediaText;
 
 @end

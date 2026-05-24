@@ -7,6 +7,7 @@
 @protocol TSDLayerAndSubviewHosting;
 
 @protocol TSDRepLayerAndSubviewHostingProvider
+- (id <TSDLayerAndSubviewHosting>)kController resetting all tasks - ;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) id <TSDLayerAndSubviewHosting> layerAndSubviewHost;

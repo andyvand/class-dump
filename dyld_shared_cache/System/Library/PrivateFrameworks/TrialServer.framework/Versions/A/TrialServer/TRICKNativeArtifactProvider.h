@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainer, CKRecordZoneID, NSString, TRICKQueryLog;
-@protocol TRIDateProviding, TRINamespaceDescriptorProviding;
+@class CKContainer;
 
 @interface TRICKNativeArtifactProvider
 {
     CKContainer *_container;
-    CKRecordZoneID *_zoneID;
-    NSString *_teamId;
-    id <TRIDateProviding> _dateProvider;
-    id <TRINamespaceDescriptorProviding> _namespaceDescriptorProvider;
-    NSString *_bundleId;
-    TRICKQueryLog *_queryLog;
 }
 
-+ (id);
++ (id)address_t=I(?={sockaddr=CC[14c]}{sockaddr_in=CCS{in_addr=I}[8c]}{sockaddr_in6=CCSI{in6_addr=(?=[16C][8S][4I])}I})}{UT_hash_handle=^{UT_hash_table}^v^v^{UT_hash_handle}^{UT_hash_handle}^vII}{coap_addr_tuple_t={coap_address_t=I(?={sockaddr=CC[14c]}{sockaddr_in=CCS{in_addr=I}[8c]}{sockaddr_in6=CCSI{in6_addr=(?=[16C][8S][4I])}I})}{coap_address_t=I(?={sockaddr=CC[14c]}{sockaddr_in=CCS{in_addr=I}[8c]}{sockaddr_in6=CCSI{in6_addr=(?=[16C][8S][4I])}I})}}i{coap_socket_t=iS^{coap_session_t}^{coap_endpoint_t}}^{coap_endpoint_t}^{coap_context_t}^vSCi^{coap_queue_t}Q[8C]Q^{coap_pdu_t}QQQQQ*Q*Q^vI{coap_fixed_point_t=SS}{coap_fixed_point_t=SS}Ii}16@24;
 + (id);
 + (_Bool);
 + (id);
@@ -32,7 +25,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -44,19 +37,20 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)oot %d, index %lu, thread state %lu %lu-%lu, task state %lu %lu-%lu, timeJump %d, leaf start %lu, count %lu, state %s;
+- (id)ached dispatch thread soft limit (%u):(id)arg1 %@
+;
 - (void);
 - (void);
+- (id)`;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)es background network;
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)haN ;
+- (id);
+- (void)le image subrequest for %@;
 - (id);
 - (void)×Ð!¼@ùQ!1Â0@ù
 × ;
@@ -64,13 +58,7 @@
 - (id)t a message;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
 @property(readonly, nonatomic) CKContainer *container; // @synthesize container=_container;
-@property(readonly, nonatomic) id <TRIDateProviding> dateProvider; // @synthesize dateProvider=_dateProvider;
-@property(readonly, nonatomic) id <TRINamespaceDescriptorProviding> namespaceDescriptorProvider; // @synthesize namespaceDescriptorProvider=_namespaceDescriptorProvider;
-@property(readonly, nonatomic) TRICKQueryLog *queryLog; // @synthesize queryLog=_queryLog;
-@property(readonly, nonatomic) NSString *teamId; // @synthesize teamId=_teamId;
-@property(readonly, nonatomic) CKRecordZoneID *zoneID; // @synthesize zoneID=_zoneID;
 
 @end
 

@@ -4,56 +4,48 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSLocale, NSString;
+@class NSString;
 
 @interface TIInputMode
 {
     NSString *_languageWithRegion;
-    NSString *_variant;
-    NSLocale *_locale;
-    Class _inputManagerClass;
-    Class _keyboardFeatureSpecializationClass;
-    Class _multilingualInputManagerClass;
-    _Bool _isSiriMode;
-    NSString *_normalizedIdentifier;
-    NSString *_originalIdentifier;
 }
 
++ (id)_accessibilityChildrenContainerGroupingBehaviorHasOverridingParentDelegate;
 + (id);
-+ (id);
-+ (id);
++ (id)?;
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
+- (id)egate>",W,V_delegate;
+- (id)@;
+- (_Bool)setRequester: /* Error: Ran out of types for this method. */;
+- (id)TRIRolloutAllocationStatus"8^B16;
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)h;
 - (Class);
-- (id);
+- (id)B;
 - (id);
 - (Class);
 - (_Bool);
-- (id);
-- (id);
+- (id)ltSectionsDidLoadFeedback"16;
+- (id)roundTripFeatures;
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (Class);
 - (id);
+- (id)A/QueryUnderstanding;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)seserviced;
 - (Class);
 - (id);
 - (id);
@@ -66,43 +58,11 @@
 × ;
 - (id)j1Â0@ù
 × ;
-- (id)xtWrapper;
+- (id)mecabraContextWrapper;
 - (_Bool) |}T}`~ ~DÜ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *additionalConfiguredLatinLanguages;
-@property(readonly, nonatomic) NSArray *allAccentKeyStrings;
-@property(readonly, nonatomic) NSString *autocorrectionLocaleIdentifier;
-@property(readonly, nonatomic) NSString *clauseDelimitingCharacters;
-@property(readonly, nonatomic) NSDictionary *compositionMap;
-@property(readonly, nonatomic) _Bool deletesByComposedCharacterSequence;
-@property(readonly, nonatomic) _Bool doesComposeText;
-@property(readonly, nonatomic) _Bool doesSupportInlineCompletion;
-@property(readonly, nonatomic) Class inputManagerClass;
-@property(readonly, nonatomic) _Bool isSiriMode; // @synthesize isSiriMode=_isSiriMode;
-@property(readonly, nonatomic) Class keyboardFeatureSpecializationClass;
-@property(readonly, nonatomic) NSString *languageWithRegion;
-@property(readonly, nonatomic) NSDictionary *layoutTags;
-@property(readonly, nonatomic) NSLocale *locale;
-@property(readonly, nonatomic) Class multilingualInputManagerClass;
-@property(readonly, nonatomic) NSString *nonstopPunctuationCharacters;
 @property(readonly, nonatomic) NSString *normalizedIdentifier; // @synthesize normalizedIdentifier=_normalizedIdentifier;
-@property(copy, nonatomic) NSString *originalIdentifier; // @synthesize originalIdentifier=_originalIdentifier;
-@property(readonly, nonatomic) NSString *preferredModelLocaleIdentifier;
-@property(readonly, nonatomic) _Bool preferredModelLocaleIsMultilingual;
-@property(readonly, nonatomic) NSString *replacementForDoubleSpace;
-@property(readonly, nonatomic) NSDictionary *reverseCompositionMap;
-@property(readonly, nonatomic) NSString *sentenceDelimitingCharacters;
-@property(readonly, nonatomic) NSString *sentencePrefixingCharacters;
-@property(readonly, nonatomic) NSString *sentenceTrailingCharacters;
-@property(readonly, nonatomic) _Bool spaceAutocorrectionEnabled;
-@property(readonly, nonatomic) NSString *spaceDeletingCharacters;
-@property(readonly, nonatomic) _Bool supportsMultilingualKeyboard;
-@property(readonly, nonatomic) _Bool supportsPrediction;
-@property(readonly, nonatomic) _Bool typedStringLMRankingEnabled;
-@property(readonly, nonatomic) NSString *variant;
-@property(readonly, nonatomic) _Bool wantsMultilingualUnionOVS;
-@property(readonly, nonatomic) NSString *wordMedialPunctuationCharacters;
 
 @end
 

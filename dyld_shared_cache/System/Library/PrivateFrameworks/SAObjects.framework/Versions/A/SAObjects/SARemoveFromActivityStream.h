@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface SARemoveFromActivityStream : SABaseClientBoundCommand
 {
@@ -26,17 +26,12 @@
 - (id);
 - (id);
 - (_Bool);
-- (id)RecipientsCc: /* Error: Ran out of types for this method. */;
-- (void)yDescriptiveText;
-- (id)quired;
+- (id)setRecipientsCc: /* Error: Ran out of types for this method. */;
+- (void)primaryDescriptiveText;
+- (id)confirmationRequired;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *activityType;
-@property(copy, nonatomic) NSDate *fromDate;
-@property(copy, nonatomic) NSString *streamType;
-@property(copy, nonatomic) NSString *taskType;
-@property(copy, nonatomic) NSDate *toDate;
-@property(copy, nonatomic) NSString *visibility;
 
 @end
 

@@ -11,14 +11,14 @@
     NSMutableDictionary *_completionMap;
 }
 
++ (void)#;
 + (void);
 + (void);
-+ (void);
-+ (id);
++ (id)ڜ;
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)hasizedTextExpression:,V_emphasizedTextExpression /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

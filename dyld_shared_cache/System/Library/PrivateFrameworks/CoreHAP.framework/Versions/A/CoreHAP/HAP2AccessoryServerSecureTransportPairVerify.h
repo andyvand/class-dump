@@ -6,14 +6,12 @@
 
 #import <CoreHAP/HAP2AccessoryServerSecureTransportBase.h>
 
-@class HAP2AccessorySessionInfo, HAPSecuritySession, NSString;
+@class HAP2AccessorySessionInfo, HAPSecuritySession;
 
 __attribute__((visibility("hidden")))
 @interface HAP2AccessoryServerSecureTransportPairVerify : HAP2AccessoryServerSecureTransportBase
 {
     HAPSecuritySession *_securitySession;
-    CDUnknownBlockType _stateChangeCompletion;
-    HAP2AccessorySessionInfo *_sessionInfo;
 }
 
 - (CDUnknownBlockType);
@@ -26,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)8ԕ%;
 - (void);
 - (void);
 - (void);
@@ -35,19 +33,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void)ForPeripheralsWithServices:options: /* Error: Ran out of types for this method. */;
+- (void)scanForPeripheralsWithServices:options: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HAPSecuritySession *securitySession; // @synthesize securitySession=_securitySession;
 @property(retain, nonatomic) HAP2AccessorySessionInfo *sessionInfo; // @synthesize sessionInfo=_sessionInfo;
-@property(copy, nonatomic) CDUnknownBlockType stateChangeCompletion; // @synthesize stateChangeCompletion=_stateChangeCompletion;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,36 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSPersistentHistoryToken;
-
 @interface CNChangeHistoryAnchor
 {
     long long _version;
-    NSPersistentHistoryToken *_token;
-    long long _sequenceNumber;
 }
 
 + (id);
 + (_Bool);
 + (id);
-- (id);
+- (id)NegativeDeliveryFailureToDecrypt;
 - (long long);
 - (id);
-- (id);
+- (id)ServerTerminateAfterAck;
 - (id);
 - (long long);
 - (void);
 - (id);
 - (id);
-- (long long);
+- (long long)State;
 - (id)*ð1Â0@ù
 × ;
-- (void)ncated;
+- (void)willReindexAsChangeHistoryIsTruncated;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *historyToken;
-@property(readonly, nonatomic) long long sequenceNumber; // @synthesize sequenceNumber=_sequenceNumber;
-@property(readonly, copy, nonatomic) NSPersistentHistoryToken *token; // @synthesize token=_token;
 @property(readonly, nonatomic) long long version; // @synthesize version=_version;
 
 @end

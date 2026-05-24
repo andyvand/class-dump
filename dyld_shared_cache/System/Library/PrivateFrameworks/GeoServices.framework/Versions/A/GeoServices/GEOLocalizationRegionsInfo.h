@@ -9,11 +9,10 @@
 @interface GEOLocalizationRegionsInfo
 {
     NSDictionary *_regions;
-    struct os_unfair_lock_s _regionsLock;
 }
 
 - (void);
-- (id);
+- (id)cesWereResetNotificationWithUserInfo:] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void)<-hÿìê;
 

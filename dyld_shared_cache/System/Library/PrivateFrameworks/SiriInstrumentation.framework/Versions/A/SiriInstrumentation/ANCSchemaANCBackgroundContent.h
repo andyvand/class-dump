@@ -6,43 +6,32 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ANCSchemaANCBackgroundContent : SISchemaInstrumentationMessage
 {
     int _mediaType;
-    _Bool _isFocusModeEnabled;
-    struct {
-        unsigned int mediaType:1;
-        unsigned int isFocusModeEnabled:1;
-    } _has;
 }
 
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)ed!;
 - (int);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)amEntities: /* Error: Ran out of types for this method. */;
+- (id)setTeamEntities: /* Error: Ran out of types for this method. */;
 - (id)Ü',)Ø)\*¨+ð+$.è.;
-- (id)ifier;
+- (id)assetSpecifier;
 - (void)ÔB²#;
 - (void)-;
 - (_Bool)ý-;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsFocusModeEnabled;
-@property(nonatomic) _Bool hasMediaType;
-@property(nonatomic) _Bool isFocusModeEnabled; // @synthesize isFocusModeEnabled=_isFocusModeEnabled;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int mediaType; // @synthesize mediaType=_mediaType;
 
 @end

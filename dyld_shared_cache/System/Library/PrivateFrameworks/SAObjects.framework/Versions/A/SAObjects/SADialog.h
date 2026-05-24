@@ -6,8 +6,6 @@
 
 #import <SAObjects/SABaseAceObject.h>
 
-@class NSString, SADialogConfiguration, SADialogText;
-
 @interface SADialog : SABaseAceObject
 {
 }
@@ -15,19 +13,5 @@
 
 // Remaining properties
 @property(nonatomic) _Bool canUseServerTTS;
-@property(retain, nonatomic) SADialogText *caption;
-@property(retain, nonatomic) SADialogConfiguration *configuration;
-@property(retain, nonatomic) SADialogText *content;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *dialogCategory;
-@property(copy, nonatomic) NSString *dialogIdentifier;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool printedOnly;
-@property(nonatomic) _Bool spokenOnly;
-@property(readonly) Class superclass;
 @end
 

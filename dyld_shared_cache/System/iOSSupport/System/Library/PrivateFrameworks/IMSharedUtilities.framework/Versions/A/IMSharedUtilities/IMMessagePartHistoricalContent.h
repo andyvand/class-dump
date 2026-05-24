@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSDate, NSString;
+@class NSAttributedString;
 
 @interface IMMessagePartHistoricalContent
 {
     NSAttributedString *_messagePartText;
-    NSAttributedString *_messagePartTranslation;
-    NSDate *_dateSent;
-    NSString *_backwardCompatibleMessageGUID;
 }
 
 - (void);
@@ -22,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -30,10 +27,7 @@
 - (void)shareNameAndPhoto;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *backwardCompatibleMessageGUID; // @synthesize backwardCompatibleMessageGUID=_backwardCompatibleMessageGUID;
-@property(retain, nonatomic) NSDate *dateSent; // @synthesize dateSent=_dateSent;
 @property(retain, nonatomic) NSAttributedString *messagePartText; // @synthesize messagePartText=_messagePartText;
-@property(retain, nonatomic) NSAttributedString *messagePartTranslation; // @synthesize messagePartTranslation=_messagePartTranslation;
 
 @end
 

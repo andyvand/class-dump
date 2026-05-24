@@ -4,39 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPMergeableValueIdentifier, NSData;
+@class NSData;
 
 @interface CKDPMergeableDeltaMetadataRetrieveRequest
 {
     NSData *_continuation;
-    CKDPMergeableValueIdentifier *_identifier;
 }
 
 + (id);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)isTransitTransactionCode:(id)arg1;
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (unsigned int);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (Class)tedAnonymousShareHashToRemoveByRequestID;
+- (Class)encryptedAnonymousShareHashToRemoveByRequestID;
 - (void)ES;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *continuation; // @synthesize continuation=_continuation;
-@property(readonly, nonatomic) _Bool hasContinuation;
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(retain, nonatomic) CKDPMergeableValueIdentifier *identifier; // @synthesize identifier=_identifier;
 
 @end
 

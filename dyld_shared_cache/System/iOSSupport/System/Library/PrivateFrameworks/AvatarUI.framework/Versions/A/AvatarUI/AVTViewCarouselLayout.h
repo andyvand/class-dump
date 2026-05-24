@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AVTViewCarouselLayout
 {
     _Bool _fillContainer;
-    struct CGSize _avtViewAspectRatio;
 }
 
 + (struct CGSize);
@@ -24,14 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize avtViewAspectRatio; // @synthesize avtViewAspectRatio=_avtViewAspectRatio;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool fillContainer; // @synthesize fillContainer=_fillContainer;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

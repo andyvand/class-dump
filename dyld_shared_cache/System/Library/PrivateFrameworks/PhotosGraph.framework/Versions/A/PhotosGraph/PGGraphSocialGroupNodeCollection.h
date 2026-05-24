@@ -6,37 +6,26 @@
 
 #import <PhotosGraph/PGGraphNodeCollection.h>
 
-@class NSString, PGGraphFeatureNodeCollection, PGGraphMomentNodeCollection, PGGraphPersonNodeCollection, PGGraphPetNodeCollection, PGGraphSocialGroupMemberNodeCollection;
+@class PGGraphMomentNodeCollection;
 
 @interface PGGraphSocialGroupNodeCollection : PGGraphNodeCollection
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)descendantMatchingBlock:(id)arg1 depth: /* Error: Ran out of types for this method. */;
++ (id)_orderedArrayFromUnorderedElements:(id)arg1 ordering:(id)arg2;
++ (id)_nextSearchLocationFromElement:(long long)arg1 direction:(id)arg2 scope: /* Error: Ran out of types for this method. */;
 + (Class);
-- (id);
-- (id);
-- (id);
+- (id)"AXEGestureEvent"24^{__CGEventTapProxy=}32;
+- (id)Info"32;
+- (id)_visibleWindowCountFromApplicationController: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (id)ù¤ÿðÚÿÿ(Ûÿÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) PGGraphFeatureNodeCollection *featureNodeCollection;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PGGraphSocialGroupMemberNodeCollection *memberNodes;
 @property(readonly, nonatomic) PGGraphMomentNodeCollection *momentNodes;
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *personNodes;
-@property(readonly, nonatomic) PGGraphPetNodeCollection *petNodes;
-@property(readonly) Class superclass;
 
 @end
 

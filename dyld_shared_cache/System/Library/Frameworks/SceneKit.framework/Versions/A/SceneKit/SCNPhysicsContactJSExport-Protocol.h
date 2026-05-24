@@ -7,13 +7,9 @@
 @class SCNNode;
 
 @protocol SCNPhysicsContactJSExport
+- (SCNNode *);
 
 // Remaining properties
-@property(readonly, nonatomic) double collisionImpulse;
-@property(readonly, nonatomic) struct SCNVector3 contactNormal;
-@property(readonly, nonatomic) struct SCNVector3 contactPoint;
 @property(readonly, nonatomic) SCNNode *nodeA;
-@property(readonly, nonatomic) SCNNode *nodeB;
-@property(readonly, nonatomic) double penetrationDistance;
 @end
 

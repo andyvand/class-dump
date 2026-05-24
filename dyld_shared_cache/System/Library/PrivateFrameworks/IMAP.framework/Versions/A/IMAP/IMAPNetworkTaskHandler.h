@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMAPConnection, IMAPMailboxSyncState, IMAPTask, IMAPTaskManager, NSString;
+@class IMAPConnection;
 
 @interface IMAPNetworkTaskHandler
 {
     id _connectionLock;
-    IMAPConnection *_connection;
-    id _selectedMailboxLock;
-    NSString *_currentMailboxName;
-    _Bool _isSelected;
-    IMAPTask *_lastTaskSource;
-    IMAPTaskManager *_taskManager;
-    IMAPMailboxSyncState *_syncState;
 }
 
 - (_Bool);
@@ -26,26 +19,26 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)R;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)9;
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)I;
 - (id);
 - (long long);
 - (void);
-- (id);
-- (void);
+- (id)length]);
+- (void)%li);
 - (id);
 - (void);
 - (_Bool);
@@ -55,22 +48,7 @@
 - (_Bool)$;
 
 // Remaining properties
-@property(readonly) _Bool canStartIdle;
 @property(retain) IMAPConnection *connection;
-@property(readonly, copy) NSString *currentMailboxName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isIdle;
-@property(nonatomic) _Bool isSelected; // @synthesize isSelected=_isSelected;
-@property(nonatomic) __weak IMAPTask *lastTaskSource; // @synthesize lastTaskSource=_lastTaskSource;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) IMAPMailboxSyncState *syncState; // @synthesize syncState=_syncState;
-@property(readonly, nonatomic) IMAPTaskManager *taskManager; // @synthesize taskManager=_taskManager;
-@property(nonatomic) _Bool trackSyncState;
 
 @end
 

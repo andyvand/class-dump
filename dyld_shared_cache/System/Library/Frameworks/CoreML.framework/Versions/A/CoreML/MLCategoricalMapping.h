@@ -6,12 +6,11 @@
 
 #import <CoreML/MLModelEngine.h>
 
-@class MLFeatureValue, NSDictionary, NSString;
+@class NSDictionary;
 
 @interface MLCategoricalMapping : MLModelEngine
 {
     NSDictionary *_mapping;
-    MLFeatureValue *_valueOnUnknown;
 }
 
 + (id);
@@ -24,15 +23,7 @@
 - (void)apes during neural network construction.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSDictionary *mapping; // @synthesize mapping=_mapping;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) MLFeatureValue *valueOnUnknown; // @synthesize valueOnUnknown=_valueOnUnknown;
 
 @end
 

@@ -7,6 +7,7 @@
 @protocol CNCDIOSLegacyIdentifierRegistration;
 
 @protocol CNCDPersistenceBackend
+- (void)@;
 
 // Remaining properties
 @property(readonly) id <CNCDIOSLegacyIdentifierRegistration> iOSLegacyIdentifierRegistrar;

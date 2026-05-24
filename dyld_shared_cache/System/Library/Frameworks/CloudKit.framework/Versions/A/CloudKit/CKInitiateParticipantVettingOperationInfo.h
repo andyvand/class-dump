@@ -6,13 +6,11 @@
 
 #import <CloudKit/CKOperationInfo.h>
 
-@class CKShareMetadata, NSString;
+@class CKShareMetadata;
 
 @interface CKInitiateParticipantVettingOperationInfo : CKOperationInfo
 {
     CKShareMetadata *_shareMetadata;
-    NSString *_participantID;
-    NSString *_address;
 }
 
 + (_Bool);
@@ -27,8 +25,6 @@
 - (void)`gØg;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *address; // @synthesize address=_address;
-@property(copy, nonatomic) NSString *participantID; // @synthesize participantID=_participantID;
 @property(retain, nonatomic) CKShareMetadata *shareMetadata; // @synthesize shareMetadata=_shareMetadata;
 
 @end

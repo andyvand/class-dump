@@ -8,12 +8,12 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)~q;
 + (Class);
 + (Class);
-+ (long long)nt;
++ (long long)payloadWellnessObjectTypesCount;
 - (id);
-- (id)lveObjectReferenceResponse;
+- (id)_INPBResolveObjectReferenceResponse;
 
 @end
 

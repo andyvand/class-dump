@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSQLCore, NSSQLModel;
+@class NSSQLCore;
 
 __attribute__((visibility("hidden")))
 @interface NSSQLiteAdapter
 {
     NSSQLCore *_sqlCore;
-    NSSQLModel *_model;
-    struct __CFDictionary *_cachedDeleteTriggersByEntity;
-    struct os_unfair_lock_s _lock;
 }
 
 - (void);

@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNUserDefaults, NSMutableArray, NSMutableDictionary, NSStackView, NSString;
-@protocol CNContactActionsViewDelegate, CNSchedulerProvider, CNUIUserActionListConsumerDelegate, CNUIUserActionListDataSource;
+@class NSStackView;
+@protocol CNUIUserActionListDataSource;
 
 @interface CNContactActionsView
 {
     id <CNUIUserActionListDataSource> _dataSource;
-    id <CNUIUserActionListConsumerDelegate> _delegate;
-    id <CNContactActionsViewDelegate> _actionsViewDelegate;
-    NSString *_contactIdentifier;
-    CNContact *_contact;
-    long long _quickActionViewStyle;
-    NSStackView *_stackView;
-    NSMutableDictionary *_clickHelpersByActionType;
-    NSMutableDictionary *_quickActionViewsByActionType;
-    NSMutableArray *_tokens;
-    id <CNSchedulerProvider> _schedulerProvider;
-    double _cachedHeight;
-    CNUserDefaults *_userDefaults;
 }
 
 - (void);
@@ -30,7 +18,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -39,13 +27,13 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (void);
+- (void);
+- (double);
 - (id);
-- (void);
-- (void);
 - (double);
 - (id);
-- (double);
-- (id);
 - (void);
 - (void);
 - (id);
@@ -58,7 +46,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)apple.springboard;
 - (void);
 - (void);
 - (void);
@@ -69,34 +57,15 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)I;;
+- (id)te of class %@ called completion handler multiple times for query %@. This is contributing to a degradation of system performance. In the future, this will be a hard error. Break on %s() to debug.;
+- (void)BA9	a;
+- (void);
 - (void);
 - (void)ùÿÝ||P;
 
 // Remaining properties
-@property(nonatomic) __weak id <CNContactActionsViewDelegate> actionsViewDelegate; // @synthesize actionsViewDelegate=_actionsViewDelegate;
-@property(nonatomic) double cachedHeight; // @synthesize cachedHeight=_cachedHeight;
-@property(retain, nonatomic) NSMutableDictionary *clickHelpersByActionType; // @synthesize clickHelpersByActionType=_clickHelpersByActionType;
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(retain, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(nonatomic) __weak id <CNUIUserActionListDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNUIUserActionListConsumerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long quickActionViewStyle; // @synthesize quickActionViewStyle=_quickActionViewStyle;
-@property(retain, nonatomic) NSMutableDictionary *quickActionViewsByActionType; // @synthesize quickActionViewsByActionType=_quickActionViewsByActionType;
-@property(retain, nonatomic) id <CNSchedulerProvider> schedulerProvider; // @synthesize schedulerProvider=_schedulerProvider;
 @property(nonatomic) __weak NSStackView *stackView; // @synthesize stackView=_stackView;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSMutableArray *tokens; // @synthesize tokens=_tokens;
-@property(retain, nonatomic) CNUserDefaults *userDefaults; // @synthesize userDefaults=_userDefaults;
 
 @end
 

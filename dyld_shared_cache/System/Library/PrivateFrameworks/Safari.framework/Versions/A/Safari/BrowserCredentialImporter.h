@@ -6,18 +6,12 @@
 
 #import <Safari/BrowserDataImporter.h>
 
-@class BrowserDataImportPasswordRequestPanelController, NSString;
 @protocol BrowserCredentialImportEngine;
 
 __attribute__((visibility("hidden")))
 @interface BrowserCredentialImporter : BrowserDataImporter
 {
     id <BrowserCredentialImportEngine> _importerProxy;
-    BrowserDataImportPasswordRequestPanelController *_passwordRequestPanelController;
-    _Bool _didRequestDecryptionKey;
-    unsigned long long _numberOfSuccessfullyImportedCredentials;
-    unsigned long long _numberOfConflictingCredentials;
-    CDUnknownBlockType _completionHandler;
 }
 
 - (void);
@@ -34,13 +28,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

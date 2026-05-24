@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, OBLinkTrayButton, UIStackView, UIView;
+@class OBLinkTrayButton, UIView;
 
 __attribute__((visibility("hidden")))
 @interface OBButtonTrayBar
 {
     OBLinkTrayButton *_linkButton;
-    UIView *_separatorView;
-    UIView *_buttonView;
-    UIStackView *_boldButtonStackView;
-    NSLayoutConstraint *_boldButtonStackViewLeadingConstraint;
 }
 
 - (void);
@@ -28,16 +24,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UIStackView *boldButtonStackView; // @synthesize boldButtonStackView=_boldButtonStackView;
-@property(retain, nonatomic) NSLayoutConstraint *boldButtonStackViewLeadingConstraint; // @synthesize boldButtonStackViewLeadingConstraint=_boldButtonStackViewLeadingConstraint;
-@property(retain, nonatomic) UIView *buttonView; // @synthesize buttonView=_buttonView;
-@property(retain, nonatomic) OBLinkTrayButton *linkButton; // @synthesize linkButton=_linkButton;
 @property(retain, nonatomic) UIView *separatorView; // @synthesize separatorView=_separatorView;
 
 @end

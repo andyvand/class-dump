@@ -7,11 +7,6 @@
 @interface _SFXPCBlockContainer
 {
     id name;
-    id uuid;
-    id containerRegistry;
-    id registeredAsyncBlocks;
-    id registeredSyncBlocks;
-    id asyncBlocksLock;
 }
 
 - (void);

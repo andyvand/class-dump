@@ -6,14 +6,9 @@
 
 #import <PassKitCore/PKPaymentAuthorizationStateParam.h>
 
-@class NSArray, NSError;
-
 @interface PKPaymentAuthorizationInvalidDataStateParam : PKPaymentAuthorizationStateParam
 {
     long long _dataType;
-    long long _status;
-    NSArray *_clientErrors;
-    NSError *_error;
 }
 
 + (id);
@@ -22,17 +17,14 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)hannelFlags"b1"psfEnabledCount"b1"roamOutOfOtherCount"b1"roamOutOfOtherFailure"b1"roamOutOfOtherSuccess"b1"routablePeerCount"b1"selfInfraChannel"b1"selfInfraChannelFlags"b1"senderPlatform"b1"sequenceNumberNotUpdatedCount"b1"serverModeDuration"b1"splitModeDuration"b1"startingRSSI"b1"totalDuration"b1"totalPeerCount"b1"csaDuringDfspMode"b1"csaToDfsChannel"b1"dfsProxyMode"b1"inRetroMode"b1"peerIsSDB"b1"selfIsSDB"b1};
 - (long long);
 - (long long);
 - (void)hatIdentifier:'%@';  /* Error: Ran out of types for this method. */;
 - (void)2;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *clientErrors; // @synthesize clientErrors=_clientErrors;
 @property(nonatomic) long long dataType; // @synthesize dataType=_dataType;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(nonatomic) long long status; // @synthesize status=_status;
 
 @end
 

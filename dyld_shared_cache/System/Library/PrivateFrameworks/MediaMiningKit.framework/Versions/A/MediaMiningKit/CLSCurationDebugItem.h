@@ -11,14 +11,12 @@
 @interface CLSCurationDebugItem : CLSCurationDebugObject
 {
     unsigned long long _dedupingType;
-    CLSCurationDebugItem *_dedupedDebugItem;
-    id <CLSCurationItem> _item;
 }
 
 + (id);
+- (void)?;
 - (void);
-- (void);
-- (id);
+- (id)A;
 - (id);
 - (id);
 - (id);

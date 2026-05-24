@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol CKTestDeviceReferenceProtocol, NSSecureCoding;
+@protocol NSSecureCoding;
 
 @interface CKSessionAcquisitionSetupInfo
 {
     id <NSSecureCoding> _ckSessionID;
-    id <NSSecureCoding> _ckSessionConfiguration;
-    id <NSSecureCoding> _ckPreviousSessionInvalidationContext;
-    id <CKTestDeviceReferenceProtocol> _testDeviceReferenceProtocol;
 }
 
 + (_Bool);
@@ -19,16 +16,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)q;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <NSSecureCoding> ckPreviousSessionInvalidationContext; // @synthesize ckPreviousSessionInvalidationContext=_ckPreviousSessionInvalidationContext;
-@property(readonly, nonatomic) id <NSSecureCoding> ckSessionConfiguration; // @synthesize ckSessionConfiguration=_ckSessionConfiguration;
 @property(readonly, nonatomic) id <NSSecureCoding> ckSessionID; // @synthesize ckSessionID=_ckSessionID;
-@property(readonly, nonatomic) id <CKTestDeviceReferenceProtocol> testDeviceReferenceProtocol; // @synthesize testDeviceReferenceProtocol=_testDeviceReferenceProtocol;
 
 @end
 

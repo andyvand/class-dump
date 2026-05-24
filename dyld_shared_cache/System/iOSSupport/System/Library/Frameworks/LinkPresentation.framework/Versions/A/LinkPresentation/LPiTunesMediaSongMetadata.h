@@ -6,55 +6,45 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPArtworkMetadata, LPImage, LPLyricExcerptMetadata, NSArray, NSString, NSURL;
+@class NSString;
 
 @interface LPiTunesMediaSongMetadata : LPSpecializationMetadata
 {
     NSString *_storeFrontIdentifier;
-    NSString *_storeIdentifier;
-    NSString *_name;
-    NSString *_artist;
-    NSString *_album;
-    NSString *_lyrics;
-    LPImage *_artwork;
-    LPArtworkMetadata *_artworkMetadata;
-    NSURL *_previewURL;
-    NSArray *_offers;
-    LPLyricExcerptMetadata *_lyricExcerpt;
 }
 
-+ (id);
++ (id)startGrowAnimationWithCompletionBlock: /* Error: Ran out of types for this method. */;
 + (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)trimmedMediaObject;
+- (id)trimUnwantedAttributesFromAttributedString:(id)arg1;
+- (id)translationSourceLanguage;
+- (void)transcriptSharingFooterBottomSpacing;
+- (void)transcriptEmergencyEmphasizedFontAttributes;
+- (id)transcriptCollectionViewControllerPerformBatchUpdateCompleted:(id)arg1;
+- (id)transcriptCollectionViewControllerPerformBatchUpdateCompleted:(id)arg1;
+- (id)transcriptCollectionViewControllerNeedsChatItemLayoutInvalidation:(id)arg1;
+- (void)transcriptCollectionViewControllerHideTouchBarTapbackPicker:(id)arg1;
+- (id)transcriptCollectionViewController:shouldCleanupFullscreenEffectUI: /* Error: Ran out of types for this method. */;
+- (id)transcriptCollectionViewController:(id)arg1 balloonViewWillDismissEditMenu: /* Error: Ran out of types for this method. */;
+- (void)transcriptCollectionViewController:(id)arg1 balloonViewTitleTappedForItemWithIndexPath: /* Error: Ran out of types for this method. */;
+- (void)topAvatar;
+- (_Bool)toFieldInterlineSpacing;
+- (id)timeIntervalSince1970;
+- (void)tapHandler;
+- (id)syndicationOnboardingLastShownVersion;
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)R;
+- (void);
 - (void);
 - (id);
+- (void);
 - (id);
+- (id);
 - (id);
-- (id);
+- (id)__kIMBreadcrumbTextMarkerAttributeName;
 - (unsigned long long);
 - (id);
-- (void);
+- (void)iJ;
 - (_Bool);
 - (void);
 - (void);
@@ -62,30 +52,13 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)ats.framework/Versions/A/PhotosFormats;
 - (void);
 - (id)Ý;
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *album; // @synthesize album=_album;
-@property(copy, nonatomic) NSString *artist; // @synthesize artist=_artist;
-@property(retain, nonatomic) LPImage *artwork; // @synthesize artwork=_artwork;
-@property(copy, nonatomic) LPArtworkMetadata *artworkMetadata; // @synthesize artworkMetadata=_artworkMetadata;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) LPLyricExcerptMetadata *lyricExcerpt; // @synthesize lyricExcerpt=_lyricExcerpt;
-@property(copy, nonatomic) NSString *lyrics; // @synthesize lyrics=_lyrics;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSArray *offers; // @synthesize offers=_offers;
-@property(copy, nonatomic) NSURL *previewURL; // @synthesize previewURL=_previewURL;
-@property(copy, nonatomic) NSString *storeFrontIdentifier; // @synthesize storeFrontIdentifier=_storeFrontIdentifier;
-@property(copy, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

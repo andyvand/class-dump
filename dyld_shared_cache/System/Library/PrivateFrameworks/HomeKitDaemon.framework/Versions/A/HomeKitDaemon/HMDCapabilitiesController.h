@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessoryCapabilities, HMResidentCapabilities, NSObject, NSString, NSUUID;
-@protocol HMDCapabilitiesControllerDataSource, OS_dispatch_queue;
+@class HMAccessoryCapabilities;
 
 __attribute__((visibility("hidden")))
 @interface HMDCapabilitiesController
 {
     struct os_unfair_lock_s _lock;
-    NSUUID *_homeUUID;
-    NSUUID *_accessoryUUID;
-    HMAccessoryCapabilities *_currentAccessoryCapabilitiesInternal;
-    HMResidentCapabilities *_currentResidentCapabilitiesInternal;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <HMDCapabilitiesControllerDataSource> _dataSource;
 }
 
 + (id)=ûÿ;
 - (id);
 - (id);
-- (void);
+- (void)skip requesting updates1;
 - (void);
 - (id);
 - (void);
@@ -33,22 +26,14 @@ __attribute__((visibility("hidden")))
 × ;
 - (id);
 - (_Bool);
-- (id)ithCompletion: /* Error: Ran out of types for this method. */;
+- (id)disableNaturalLightingCurveWithCompletion: /* Error: Ran out of types for this method. */;
 - (id)Q,R,N,V_rollReason;
-- (void)eKitDaemon11Concurrency4Lock;
+- (void)_TtCO13HomeKitDaemon11Concurrency4Lock;
 - (id)in the condition, updating the condition;
 - (void)tterAccessoryWriteAttributeLogEvent;
 
 // Remaining properties
 @property(retain) HMAccessoryCapabilities *currentAccessoryCapabilitiesInternal; // @synthesize currentAccessoryCapabilitiesInternal=_currentAccessoryCapabilitiesInternal;
-@property(retain) HMResidentCapabilities *currentResidentCapabilitiesInternal; // @synthesize currentResidentCapabilitiesInternal=_currentResidentCapabilitiesInternal;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

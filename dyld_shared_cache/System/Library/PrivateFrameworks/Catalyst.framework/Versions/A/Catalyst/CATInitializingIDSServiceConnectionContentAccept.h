@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface CATInitializingIDSServiceConnectionContentAccept
@@ -14,15 +14,13 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (id);
-- (id);
+- (id)hasCountUnigramMatchInRecipients;
 - (long long);
 - (void);
-- (id)t;
+- (id)_didStart;
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *connectionIdentifier; // @synthesize connectionIdentifier=_connectionIdentifier;
-@property(readonly, nonatomic) long long contentType;
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryValue;
 
 @end
 

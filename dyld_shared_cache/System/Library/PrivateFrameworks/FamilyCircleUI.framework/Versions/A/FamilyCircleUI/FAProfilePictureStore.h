@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, FAFamilyCircle, NSArray, NSDictionary, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class CNContactStore, FAFamilyCircle;
 
 @interface FAProfilePictureStore
 {
     FAFamilyCircle *_familyCircle;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    NSMutableDictionary *_profileImages;
-    NSMutableDictionary *_recommendedMembersImages;
-    NSArray *_keysToFetch;
-    CNContactStore *_contactStore;
 }
 
 + (id);
@@ -35,8 +29,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)setAutoSendFeaturesGenerated: /* Error: Ran out of types for this method. */;
+- (id)ingAppBundleId;
 - (void);
 - (id);
 - (void)(ù¤ù¼ú;
@@ -44,9 +38,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(retain, nonatomic) FAFamilyCircle *familyCircle;
-@property(readonly, copy, nonatomic) NSDictionary *profileImages;
-@property(readonly, copy, nonatomic) NSDictionary *recommendedMembersImages; // @synthesize recommendedMembersImages=_recommendedMembersImages;
 
 @end
 

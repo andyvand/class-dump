@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSUUID;
+@class NSUUID;
 
 @interface HMMediaDestination
 {
     NSUUID *_uniqueIdentifier;
-    NSUUID *_parentIdentifier;
-    unsigned long long _supportedOptions;
-    NSUUID *_audioGroupIdentifier;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)!;
 + (id)%lu;
 - (void);
 - (id);
@@ -28,48 +25,28 @@
 - (_Bool);
 - (id);
 - (id);
+- (void)AutoUpdateMajorOSVersion;
+- (id)A;
+- (id);
+- (id);
+- (unsigned long long);
+- (id))!;
+- (_Bool)sacking;
+- (id)foresight;
 - (void);
 - (id);
+- (id)_outgoingLocalParticipantUUID;
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
+- (id)h
+;
 - (id);
 - (void)ø:l<ü?ÀB$HÈJK /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(copy) NSUUID *audioGroupIdentifier; // @synthesize audioGroupIdentifier=_audioGroupIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *identifier;
-@property(readonly, copy) NSUUID *parentIdentifier; // @synthesize parentIdentifier=_parentIdentifier;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 @property unsigned long long supportedOptions; // @synthesize supportedOptions=_supportedOptions;
-@property(readonly, copy) NSUUID *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end
 

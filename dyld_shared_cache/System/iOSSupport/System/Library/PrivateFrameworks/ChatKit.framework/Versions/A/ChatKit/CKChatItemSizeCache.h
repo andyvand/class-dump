@@ -4,39 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDoubleLinkedList, IMScheduledUpdater, NSData, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface CKChatItemSizeCache
 {
     _Bool _test_throwExceptionDuringInflate;
-    NSMutableDictionary *_cache;
-    NSMutableDictionary *_chatItemGUIDToCacheKeyMap;
-    IMDoubleLinkedList *_orderedKeys;
-    NSObject<OS_dispatch_queue> *_cacheDiskQueue;
-    IMScheduledUpdater *_evictionUpdater;
-    NSString *_preferredLocalization;
-    NSData *_test_cacheData;
 }
 
++ (id)liveTranscriptionCoordinator;
 + (id);
-+ (id);
+- (_Bool)disableAddingExtraLinesIfNeeded;
+- (id)rage",W,N,V_invalidHighlightsTextStorage;
+- (void);
+- (void);
+- (void)_$observationRegistrar;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)xt storage;
+- (void)le to return ranges containg ranges due to missing text storage;
+- (id)unt:(_Bool)arg1 %@};
+- (id);
+- (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
 - (id);
 - (void);
 - (id);
@@ -49,7 +41,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)ResolvedPlaybackButtonContent;
 - (id);
 - (id);
 - (void);
@@ -58,18 +50,11 @@
 - (void);
 - (id)ûÿ´ÓùÿÔWúÿ©øÿ;
 - (void)D:%@ /* Error: Ran out of types for this method. */;
-- (void)TON_TITLE_CELEBRATION;
+- (void)FSM_CONTROL_BUTTON_TITLE_CELEBRATION;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *cache; // @synthesize cache=_cache;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *cacheDiskQueue; // @synthesize cacheDiskQueue=_cacheDiskQueue;
-@property(retain, nonatomic) NSMutableDictionary *chatItemGUIDToCacheKeyMap; // @synthesize chatItemGUIDToCacheKeyMap=_chatItemGUIDToCacheKeyMap;
-@property(retain, nonatomic) IMScheduledUpdater *evictionUpdater; // @synthesize evictionUpdater=_evictionUpdater;
-@property(retain, nonatomic) IMDoubleLinkedList *orderedKeys; // @synthesize orderedKeys=_orderedKeys;
-@property(retain, nonatomic) NSString *preferredLocalization; // @synthesize preferredLocalization=_preferredLocalization;
-@property(retain, nonatomic) NSData *test_cacheData; // @synthesize test_cacheData=_test_cacheData;
-@property(nonatomic) _Bool test_throwExceptionDuringInflate; // @synthesize test_throwExceptionDuringInflate=_test_throwExceptionDuringInflate;
 
 @end
 

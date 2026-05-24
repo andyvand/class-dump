@@ -7,60 +7,43 @@
 @interface NTPBCoefficients
 {
     double _autofavoritedScoreCoefficient;
-    double _clientScoreCoefficient;
-    double _conversionCoefficient;
-    double _halfLifeCoefficient;
-    double _serverScoreCoefficient;
-    double _subscribedChannelScoreCoefficent;
-    double _subscribedTopicScoreCoefficient;
-    double _tabiScoreCoefficient;
-    struct {
-        unsigned int autofavoritedScoreCoefficient:1;
-        unsigned int clientScoreCoefficient:1;
-        unsigned int conversionCoefficient:1;
-        unsigned int halfLifeCoefficient:1;
-        unsigned int serverScoreCoefficient:1;
-        unsigned int subscribedChannelScoreCoefficent:1;
-        unsigned int subscribedTopicScoreCoefficient:1;
-        unsigned int tabiScoreCoefficient:1;
-    } _has;
 }
 
-- (double);
-- (double);
+- (double)createCuratedLibraryLayoutZoomLevelChangeAnimationFromZoomLevel:toZoomLevel:withContext: /* Error: Ran out of types for this method. */;
+- (double)createAnchorForScrollingSpriteForObjectReference:toScrollPosition:padding: /* Error: Ran out of types for this method. */;
+- (void)containsAnyItems;
+- (void)constraintLessThanOrEqualToConstant:(double)arg1;
+- (void)constraintGreaterThanOrEqualToSystemSpacingBelowAnchor:(double)arg1 multiplier: /* Error: Ran out of types for this method. */;
+- (void)configureSectionHeaderLayout:(double)arg1 inAssetSectionLayout:forSectionedLayout: /* Error: Ran out of types for this method. */;
+- (void)cancelOperationsWithIdentifiers:(_Bool)arg1 reply: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
+- (void)canSupportAppleMusicSharing;
+- (void)canRequestVKImageAnalysisForAsset:(_Bool)arg1;
+- (void)autocompleteFetch:(_Bool)arg1 shouldExpectSupplementalResultsForRequest:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)assistantViewController:(_Bool)arg1 dismissViewControllerAnimated: /* Error: Ran out of types for this method. */;
+- (void)assetsScene:(_Bool)arg1 tileIdentifierConverterForChange: /* Error: Ran out of types for this method. */;
+- (void)assetUserActivityProperties;
+- (void)assetCollectionReferenceForSkimmingSlideshow:(double)arg1;
+- (void)anchorBodyIndexBeforeChanges;
+- (void)ambiguousTokensPauseStoryGeneration;
+- (void)allowsTextSelection;
+- (double)allFeaturedStateEnabledSuggestionTypesForWidget;
+- (_Bool)_videoQueue_relinquishVideoSession;
+- (_Bool)_vfxController;
+- (_Bool)_vfxAssembleCameraExposure;
+- (_Bool)_valueFromStartHandleFrame: /* Error: Ran out of types for this method. */;
+- (_Bool)_updateHasUserExperiencedPlayback;
+- (_Bool)_updateAutolayoutConstraints;
+- (_Bool)_updateAssetImage;
+- (_Bool)_unresolvedAmbiguityData;
+- (double)_traitCollection;
+- (double)_thumbnailChromeLayout;
+- (double)_testingOverride_shouldLockAfterDelayWhenLeavingViewHierarchy;
+- (double)_subtitlePositionInFrame:titleCategory:displayAsset:currentAssetCropRect:kind:relativeTo:extendedTraitCollectionSnapshot:fixedBottomPadding:isTitleVertical:isSubtitleVertical: /* Error: Ran out of types for this method. */;
+- (double)_stateQueue_isLoadingLikelyToKeepUpWithPlaybackWasSet;
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -68,22 +51,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) double autofavoritedScoreCoefficient; // @synthesize autofavoritedScoreCoefficient=_autofavoritedScoreCoefficient;
-@property(nonatomic) double clientScoreCoefficient; // @synthesize clientScoreCoefficient=_clientScoreCoefficient;
-@property(nonatomic) double conversionCoefficient; // @synthesize conversionCoefficient=_conversionCoefficient;
-@property(nonatomic) double halfLifeCoefficient; // @synthesize halfLifeCoefficient=_halfLifeCoefficient;
-@property(nonatomic) _Bool hasAutofavoritedScoreCoefficient;
-@property(nonatomic) _Bool hasClientScoreCoefficient;
-@property(nonatomic) _Bool hasConversionCoefficient;
-@property(nonatomic) _Bool hasHalfLifeCoefficient;
 @property(nonatomic) _Bool hasServerScoreCoefficient;
-@property(nonatomic) _Bool hasSubscribedChannelScoreCoefficent;
-@property(nonatomic) _Bool hasSubscribedTopicScoreCoefficient;
-@property(nonatomic) _Bool hasTabiScoreCoefficient;
-@property(nonatomic) double serverScoreCoefficient; // @synthesize serverScoreCoefficient=_serverScoreCoefficient;
-@property(nonatomic) double subscribedChannelScoreCoefficent; // @synthesize subscribedChannelScoreCoefficent=_subscribedChannelScoreCoefficent;
-@property(nonatomic) double subscribedTopicScoreCoefficient; // @synthesize subscribedTopicScoreCoefficient=_subscribedTopicScoreCoefficient;
-@property(nonatomic) double tabiScoreCoefficient; // @synthesize tabiScoreCoefficient=_tabiScoreCoefficient;
 
 @end
 

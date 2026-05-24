@@ -5,6 +5,10 @@
 //
 
 @protocol PXStoryViewActionPerformer
+- (void);
+- (void)c;
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool needs79067616Workaround;

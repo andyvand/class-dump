@@ -12,8 +12,8 @@
 
 - (id);
 - (long long);
-- (id);
-- (id)ureInstance;
+- (id)resolveCompletionHandlers: /* Error: Ran out of types for this method. */;
+- (id)PGAssetCollectionFeatureInstance;
 
 @end
 

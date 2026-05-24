@@ -4,27 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDecimalNumber, NSString, PKOSVersionRequirementRange;
+@class NSString;
 
 @interface PKAccountFeatureDescriptor
 {
     NSString *_identifier;
-    NSDecimalNumber *_minimumAmount;
-    NSDecimalNumber *_maximumAmount;
-    NSString *_merchantIdentifier;
-    NSArray *_supportedNetworks;
-    unsigned long long _merchantCapabilities;
-    PKOSVersionRequirementRange *_osVersionRange;
-    NSString *_fundingSourceTermsIdentifier;
 }
 
 + (_Bool)±î%1Â0@ù
 × ;
 - (void);
 - (void);
+- (void)hO9;
 - (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
@@ -32,29 +25,22 @@
 - (id);
 - (void);
 - (void);
+- (void);
+- (id);
+- (id);
+- (unsigned long long);
+- (id);
+- (_Bool)_smartCCADesenseSupported;
 - (void);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (_Bool);
 - (void);
-- (void);
-- (id);
+- (id);
 - (id)aX"Ð!|Dùï%Ð1Â0@ù
 × ;
-- (id)t;
+- (id)_contentAlignment;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *fundingSourceTermsIdentifier; // @synthesize fundingSourceTermsIdentifier=_fundingSourceTermsIdentifier;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSDecimalNumber *maximumAmount; // @synthesize maximumAmount=_maximumAmount;
-@property(nonatomic) unsigned long long merchantCapabilities; // @synthesize merchantCapabilities=_merchantCapabilities;
-@property(copy, nonatomic) NSString *merchantIdentifier; // @synthesize merchantIdentifier=_merchantIdentifier;
-@property(copy, nonatomic) NSDecimalNumber *minimumAmount; // @synthesize minimumAmount=_minimumAmount;
-@property(retain, nonatomic) PKOSVersionRequirementRange *osVersionRange; // @synthesize osVersionRange=_osVersionRange;
-@property(copy, nonatomic) NSArray *supportedNetworks; // @synthesize supportedNetworks=_supportedNetworks;
 
 @end
 

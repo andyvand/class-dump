@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSError, NSNumber, NSObject, NSSet, NSString, PHBatchFetchingArray, PHFetchResultMediaTypeCounts, PHQuery;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface PHFetchResult
 {
     NSString *_fetchType;
-    NSSet *_fetchPropertySets;
-    NSError *_fetchError;
-    NSObject<OS_dispatch_queue> *_isolationQueue;
-    PHBatchFetchingArray *_fetchedObjects;
-    NSDictionary *_fetchedPropertySetsCache;
-    NSArray *_seedOIDs;
-    id _changeHandlingKey;
-    NSArray *_thumbnailAssets;
-    NSNumber *_prefetchCount;
-    PHFetchResultMediaTypeCounts *_mediaTypeCounts;
-    unsigned long long _albumsCount;
-    unsigned long long _sharedAlbumsCount;
-    unsigned long long _foldersCount;
-    _Bool _registeredForChangeNotificationDeltas;
-    struct os_unfair_lock_s _countsLock;
-    _Bool _preventsClearingOIDCache;
-    PHQuery *_query;
-    long long _chunkSizeForFetch;
 }
 
 + (id);
@@ -36,14 +17,14 @@
 + (id);
 + (id);
 + (id);
++ (id)8;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)requestedWebDomain;
 + (id);
 + (id)Ð1Â0@ù
 × ;

@@ -7,20 +7,15 @@
 @interface NFTechnologyEvent
 {
     unsigned char _valueAddedServiceMode;
-    _Bool _vasSupported;
-    _Bool _touchIDRequired;
-    unsigned short _systemCode;
-    unsigned int _technology;
-    unsigned int _terminalType;
 }
 
 + (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (unsigned char)c$À{;
+- (_Bool)_nameViewTaglinePlaceholderAttributes;
+- (id)ame;
+- (id)g a conversation:(unsigned int)arg1 %@;
+- (id)CNContactPhoneticMiddleNameKey;
+- (_Bool);
+- (unsigned char);
 - (unsigned short);
 - (unsigned int);
 - (id);
@@ -30,12 +25,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned short systemCode; // @synthesize systemCode=_systemCode;
 @property(readonly, nonatomic) unsigned int technology; // @synthesize technology=_technology;
-@property(readonly, nonatomic) unsigned int terminalType; // @synthesize terminalType=_terminalType;
-@property(readonly, nonatomic) _Bool touchIDRequired; // @synthesize touchIDRequired=_touchIDRequired;
-@property(readonly, nonatomic) unsigned char valueAddedServiceMode; // @synthesize valueAddedServiceMode=_valueAddedServiceMode;
-@property(readonly, nonatomic) _Bool vasSupported; // @synthesize vasSupported=_vasSupported;
 
 @end
 

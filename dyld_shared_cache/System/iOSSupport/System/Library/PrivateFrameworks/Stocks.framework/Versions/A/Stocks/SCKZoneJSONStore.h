@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKServerChangeToken, NSArray, NSDate, NSString;
+@class NSArray, NSString;
 
 @interface SCKZoneJSONStore
 {
     NSArray *_serverRecords;
-    NSArray *_pendingCommands;
-    NSDate *_lastSyncDate;
-    NSDate *_lastDirtyDate;
-    CKServerChangeToken *_serverChangeToken;
-    NSString *_zoneName;
 }
 
 - (id);
@@ -25,21 +20,16 @@
 - (void);
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
+- (id)Trying interactive renewal for services:%@ /* Error: Ran out of types for this method. */;
+- (id)enclosingSentenceRangeForRange: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *lastDirtyDate; // @synthesize lastDirtyDate=_lastDirtyDate;
-@property(copy, nonatomic) NSDate *lastSyncDate; // @synthesize lastSyncDate=_lastSyncDate;
-@property(copy, nonatomic) NSArray *pendingCommands; // @synthesize pendingCommands=_pendingCommands;
-@property(copy, nonatomic) CKServerChangeToken *serverChangeToken; // @synthesize serverChangeToken=_serverChangeToken;
-@property(copy, nonatomic) NSArray *serverRecords; // @synthesize serverRecords=_serverRecords;
 @property(copy, nonatomic) NSString *zoneName; // @synthesize zoneName=_zoneName;
 
 @end

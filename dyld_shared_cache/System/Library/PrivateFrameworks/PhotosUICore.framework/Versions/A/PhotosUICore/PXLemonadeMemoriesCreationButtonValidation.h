@@ -17,7 +17,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)MRDisplaysIsPreloadingImages;
 - (void)ew;
 
 // Remaining properties

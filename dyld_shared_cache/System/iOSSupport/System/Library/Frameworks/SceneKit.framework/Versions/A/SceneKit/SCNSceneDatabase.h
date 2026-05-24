@@ -13,7 +13,7 @@
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)utoFilled:inFrame:webView:completionHandler:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);

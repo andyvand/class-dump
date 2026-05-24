@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (double);
+- (double)nd data in multi combined format;
+- (double)H7;
 - (double);
-- (double);
-- (double);
-- (id);
+- (id)І;
 - (double);
 - (double);
 - (id);

@@ -7,8 +7,6 @@
 @interface NewsFeed.DebugFormatUploadDiffChangeSet
 {
     id diff;
-    id localChanges;
-    id remoteChanges;
 }
 
 @end

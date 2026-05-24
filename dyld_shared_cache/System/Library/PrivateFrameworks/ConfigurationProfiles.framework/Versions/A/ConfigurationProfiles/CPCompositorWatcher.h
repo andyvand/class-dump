@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface CPCompositorWatcher
 {
     NSString *mProfileUUID;
-    NSArray *mUIDs;
-    NSMutableArray *mRemainingUIDs;
-    _Bool mDone;
 }
 
 - (void);

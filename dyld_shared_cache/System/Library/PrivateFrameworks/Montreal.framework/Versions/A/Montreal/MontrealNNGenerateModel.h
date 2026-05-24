@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MontrealNNModelNetwork, NSMutableDictionary;
-
 @interface MontrealNNGenerateModel
 {
     struct MontrealNeuralNetwork *_nnObject;
-    unsigned long long _weightFormat;
-    MontrealNNModelNetwork *_network;
-    NSMutableDictionary *_inputs;
-    NSMutableDictionary *_outputs;
 }
 
 - (unsigned long long);
@@ -30,15 +24,11 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly) NSMutableDictionary *inputs; // @synthesize inputs=_inputs;
-@property(readonly) MontrealNNModelNetwork *network; // @synthesize network=_network;
-@property struct MontrealNeuralNetwork *nnObject; // @synthesize nnObject=_nnObject;
-@property(readonly) NSMutableDictionary *outputs; // @synthesize outputs=_outputs;
 @property(readonly) unsigned long long weightFormat; // @synthesize weightFormat=_weightFormat;
 
 @end

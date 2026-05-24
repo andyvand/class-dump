@@ -4,11 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
 @protocol MapsSuggestionsInsightsUpdates;
 
 @protocol MapsSuggestionsInsights
+- (NSArray *);
+- (_Bool);
+- (_Bool)setTitleCenteringTrackedView:updateConstraints: /* Error: Ran out of types for this method. */;
+- (_Bool)_associatedNameOrNilIfDefault;
 - (_Bool)NSNumber",R,N;
-- (id <MapsSuggestionsInsightsUpdates>);
 
 // Remaining properties
 @property(nonatomic) __weak id <MapsSuggestionsInsightsUpdates> insightUpdatesDelegate;

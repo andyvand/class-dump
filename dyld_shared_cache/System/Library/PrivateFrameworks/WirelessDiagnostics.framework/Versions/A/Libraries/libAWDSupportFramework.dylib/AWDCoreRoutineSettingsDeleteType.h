@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDCoreRoutineSettingsDeleteType
 {
     unsigned long long _timestamp;
-    int _deletionMethod;
-    NSString *_sessionId;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int deletionMethod:1;
-    } _has;
 }
 
 - (void);
@@ -27,25 +19,20 @@
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (id)(;
 - (id);
-- (id);
 - (void);
-- (_Bool)CCA: /* Error: Ran out of types for this method. */;
-- (id)tus: /* Error: Ran out of types for this method. */;
+- (_Bool)setHasWifiCCA: /* Error: Ran out of types for this method. */;
+- (id)setHasIPSecTunnelStatus: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) int deletionMethod; // @synthesize deletionMethod=_deletionMethod;
-@property(nonatomic) _Bool hasDeletionMethod;
-@property(readonly, nonatomic) _Bool hasSessionId;
 @property(nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) NSString *sessionId; // @synthesize sessionId=_sessionId;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

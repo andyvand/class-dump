@@ -5,6 +5,7 @@
 //
 
 @protocol NUTimeBased
+- (CDStruct_1b6d18a9)or when the store becomes unblocked.;
 
 // Remaining properties
 @property(nonatomic) CDStruct_1b6d18a9 time;

@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     id representedObject;
 }
 
-- (id);
+- (id)ComputerName;
 - (void);
 - (void);
 - (id)duplicateDocument:(struct _NSZone *)arg1;

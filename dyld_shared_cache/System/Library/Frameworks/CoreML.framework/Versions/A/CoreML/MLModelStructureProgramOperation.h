@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLModelStructurePath, NSArray, NSDictionary, NSNumber, NSString;
+@class MLModelStructurePath, NSString;
 
 @interface MLModelStructureProgramOperation
 {
     NSString *_operatorName;
-    NSDictionary *_inputs;
-    NSArray *_outputs;
-    NSArray *_blocks;
-    MLModelStructurePath *_path;
-    NSString *_milTextLocation;
-    NSNumber *_milId;
 }
 
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)D;
+- (id);
 - (id);
 - (id);
 - (id);
@@ -29,12 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *blocks; // @synthesize blocks=_blocks;
-@property(readonly, copy, nonatomic) NSDictionary *inputs; // @synthesize inputs=_inputs;
-@property(readonly, copy, nonatomic) NSNumber *milId; // @synthesize milId=_milId;
-@property(readonly, copy, nonatomic) NSString *milTextLocation; // @synthesize milTextLocation=_milTextLocation;
-@property(readonly, copy, nonatomic) NSString *operatorName; // @synthesize operatorName=_operatorName;
-@property(readonly, copy, nonatomic) NSArray *outputs; // @synthesize outputs=_outputs;
 @property(readonly, nonatomic) MLModelStructurePath *path; // @synthesize path=_path;
 
 @end

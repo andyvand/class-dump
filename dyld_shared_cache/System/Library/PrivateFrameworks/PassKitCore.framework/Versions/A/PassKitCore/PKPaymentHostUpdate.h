@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKContact, PKPaymentMethod, PKShippingMethod;
+@class PKContact;
 
 @interface PKPaymentHostUpdate
 {
     PKContact *_shippingContact;
-    PKShippingMethod *_shippingMethod;
-    PKPaymentMethod *_paymentMethod;
 }
 
 + (id);
@@ -23,12 +21,10 @@
 - (id);
 - (void);
 - (id);
-- (void)d;
+- (void)wallet:accountAdded /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) PKPaymentMethod *paymentMethod; // @synthesize paymentMethod=_paymentMethod;
 @property(readonly, nonatomic) PKContact *shippingContact; // @synthesize shippingContact=_shippingContact;
-@property(readonly, nonatomic) PKShippingMethod *shippingMethod; // @synthesize shippingMethod=_shippingMethod;
 
 @end
 

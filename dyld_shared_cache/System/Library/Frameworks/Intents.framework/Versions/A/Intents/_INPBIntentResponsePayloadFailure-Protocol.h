@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol _INPBIntentResponsePayloadFailure
-- (void)eNames;
+- (_Bool);
+- (void)genreNames;
 - (int);
 
 // Remaining properties
 @property(nonatomic) _Bool appLaunchRequested;
-@property(copy, nonatomic) NSString *enumTypeName;
-@property(nonatomic) int errorCode;
-@property(nonatomic) _Bool hasAppLaunchRequested;
-@property(readonly, nonatomic) _Bool hasEnumTypeName;
-@property(nonatomic) _Bool hasErrorCode;
 @end
 

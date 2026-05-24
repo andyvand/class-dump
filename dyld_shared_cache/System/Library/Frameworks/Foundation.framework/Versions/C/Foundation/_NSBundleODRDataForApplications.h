@@ -6,24 +6,19 @@
 
 #import <Foundation/_NSBundleODRDataCommon.h>
 
-@class NSDictionary, NSError, NSMutableSet, NSObject, NSString;
-@protocol OS_dispatch_group;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface _NSBundleODRDataForApplications : _NSBundleODRDataCommon
 {
     NSDictionary *_tagToTagState;
-    NSMutableSet *_extensionConnections;
-    NSError *_stashedError;
-    NSObject<OS_dispatch_group> *_initialStateGroup;
-    NSString *_rootSandboxPath;
 }
 
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id)rror;
+- (id)ICUError;
 
 @end
 

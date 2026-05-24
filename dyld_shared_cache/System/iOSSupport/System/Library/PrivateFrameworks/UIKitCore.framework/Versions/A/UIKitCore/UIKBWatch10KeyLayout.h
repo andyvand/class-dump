@@ -4,40 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface UIKBWatch10KeyLayout
 {
     struct CGRect _frame;
-    NSArray *_leftControlKeyFrames;
-    NSArray *_rightControlKeyFrames;
-    NSMutableArray *_gridKeyFrames;
-    long long _leftControlKeys;
-    long long _gridRows;
-    long long _gridColumns;
-    long long _rightControlKeys;
-    double _controlKeyWidthRatio;
-    struct UIEdgeInsets _leftControlKeysInsets;
-    struct UIEdgeInsets _rightControlKeysInsets;
 }
 
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct UIEdgeInsets);
-- (long long);
-- (struct UIEdgeInsets);
-- (id);
-- (long long);
-- (long long);
-- (struct CGRect);
-- (struct CGRect);
-- (struct CGRect);
-- (double);
+- (void)ated message :(struct UIEdgeInsets)arg1 (;
+- (void)uldn't generate a chat for simulated message :(long long)arg1 (;
+- (void)zip file;
+- (void)adar-------*/;
+- (struct UIEdgeInsets)not find message to update with message editing unsupported handleIDs. GUID:%@ /* Error: Ran out of types for this method. */;
+- (long long)ing pending flag for %@;
+- (struct UIEdgeInsets)gative number of bytes to delete so we don't want to delete anything;
+- (id)ntact, not asking for junk;
+- (long long)r, this message should not be relayed;
+- (long long)s was an emergency number, this message should not be relayed;
+- (struct CGRect)highlight URL for collaborationId %@ was nil;
+- (struct CGRect)ed notice:(long long)arg1 %@ from %@;
+- (struct CGRect)from appLink:(long long)arg1 %@ for URL:(long long)arg2 %@;
+- (double)hasViewedPotentialSpamChat;
 - (long long);
 - (void);
 - (id),C,N,V_displayId;
@@ -45,13 +33,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) double controlKeyWidthRatio; // @synthesize controlKeyWidthRatio=_controlKeyWidthRatio;
-@property(nonatomic) long long gridColumns; // @synthesize gridColumns=_gridColumns;
-@property(nonatomic) long long gridRows; // @synthesize gridRows=_gridRows;
 @property(nonatomic) long long leftControlKeys; // @synthesize leftControlKeys=_leftControlKeys;
-@property(nonatomic) struct UIEdgeInsets leftControlKeysInsets; // @synthesize leftControlKeysInsets=_leftControlKeysInsets;
-@property(nonatomic) long long rightControlKeys; // @synthesize rightControlKeys=_rightControlKeys;
-@property(nonatomic) struct UIEdgeInsets rightControlKeysInsets; // @synthesize rightControlKeysInsets=_rightControlKeysInsets;
 
 @end
 

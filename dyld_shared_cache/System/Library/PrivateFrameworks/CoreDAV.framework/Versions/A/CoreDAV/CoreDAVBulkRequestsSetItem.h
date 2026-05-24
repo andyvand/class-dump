@@ -11,23 +11,20 @@
 @interface CoreDAVBulkRequestsSetItem : CoreDAVItem
 {
     CoreDAVBulkRequestsItem *_crudItem;
-    CoreDAVBulkRequestsItem *_simpleItem;
 }
 
 + (id);
-- (id);
+- (id)ttingsInterface27copySupportedAndActiveBandsEN3xpc10auto_replyEE3$_0FvN3ctu2cf11CFSharedRefIK14__CFDictionaryEEEEE;
 - (void);
+- (id)_reverseGeocodeMapURLItem:completion: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)suggestedEvent;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CoreDAVBulkRequestsItem *crudItem; // @synthesize crudItem=_crudItem;
 @property(readonly, nonatomic) NSDictionary *dictRepresentation;
-@property(retain, nonatomic) CoreDAVBulkRequestsItem *simpleItem; // @synthesize simpleItem=_simpleItem;
 
 @end
 

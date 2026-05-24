@@ -6,31 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class INFERENCESchemaINFERENCEBackgroundContactSignalSet, INFERENCESchemaINFERENCEContact, INFERENCESchemaINFERENCEContactFeatureSet, INFERENCESchemaINFERENCEContactSignalSet, NSData;
+@class INFERENCESchemaINFERENCEContact;
 
 @interface INFERENCESchemaINFERENCEContactMatch : SISchemaInstrumentationMessage
 {
     INFERENCESchemaINFERENCEContact *_contactValue;
-    INFERENCESchemaINFERENCEContactSignalSet *_contactSignalSet;
-    INFERENCESchemaINFERENCEBackgroundContactSignalSet *_backgroundSignalSet;
-    INFERENCESchemaINFERENCEContactFeatureSet *_featureSet;
-    float _score;
-    _Bool _isShownToUser;
-    struct {
-        unsigned int score:1;
-        unsigned int isShownToUser:1;
-    } _has;
-    _Bool _hasContactValue;
-    _Bool _hasContactSignalSet;
-    _Bool _hasBackgroundSignalSet;
-    _Bool _hasFeatureSet;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -46,14 +33,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (_Bool);
+- (id)C;
+- (_Bool);
 - (id);
 - (void);
 - (unsigned long long);
@@ -63,26 +50,14 @@
 - (id);
 - (id)
 × ;
-- (float)tHasAutoTranslateSessionId: /* Error: Ran out of types for this method. */;
+- (float)setHasAutoTranslateSessionId: /* Error: Ran out of types for this method. */;
 - (id)SchemaMHAssistantDaemonAudioRecordingFirstBufferContext",&,N,V_assistantDaemonAudioRecordingFirstBufferContext;
-- (id)rPromptGenerated;
-- (void)TSUSECASE_NEXT_GAME_TIME_TWO_ENTITIES;
+- (id)NLRouterSchemaNLRouterPromptGenerated;
+- (void)PEGASUSSPORTSUSECASE_NEXT_GAME_TIME_TWO_ENTITIES;
 - (void)@³;
 
 // Remaining properties
-@property(retain, nonatomic) INFERENCESchemaINFERENCEBackgroundContactSignalSet *backgroundSignalSet; // @synthesize backgroundSignalSet=_backgroundSignalSet;
-@property(retain, nonatomic) INFERENCESchemaINFERENCEContactSignalSet *contactSignalSet; // @synthesize contactSignalSet=_contactSignalSet;
 @property(retain, nonatomic) INFERENCESchemaINFERENCEContact *contactValue; // @synthesize contactValue=_contactValue;
-@property(retain, nonatomic) INFERENCESchemaINFERENCEContactFeatureSet *featureSet; // @synthesize featureSet=_featureSet;
-@property(nonatomic) _Bool hasBackgroundSignalSet; // @synthesize hasBackgroundSignalSet=_hasBackgroundSignalSet;
-@property(nonatomic) _Bool hasContactSignalSet; // @synthesize hasContactSignalSet=_hasContactSignalSet;
-@property(nonatomic) _Bool hasContactValue; // @synthesize hasContactValue=_hasContactValue;
-@property(nonatomic) _Bool hasFeatureSet; // @synthesize hasFeatureSet=_hasFeatureSet;
-@property(nonatomic) _Bool hasIsShownToUser;
-@property(nonatomic) _Bool hasScore;
-@property(nonatomic) _Bool isShownToUser; // @synthesize isShownToUser=_isShownToUser;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) float score; // @synthesize score=_score;
 
 @end
 

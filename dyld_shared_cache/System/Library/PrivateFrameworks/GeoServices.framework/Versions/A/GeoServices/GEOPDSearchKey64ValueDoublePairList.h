@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)Up;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id)b1"read_objectIdentifier"b1"read_routeAnnotation"b1"wrote_anyField"b1};
-- (id)pointsDescription;
+- (id)_pointsDescription;
 - (id)ü¿PÁDÂ;
 - (void)µm[H@;
 

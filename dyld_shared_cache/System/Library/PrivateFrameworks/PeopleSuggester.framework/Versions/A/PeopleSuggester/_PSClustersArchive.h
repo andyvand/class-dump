@@ -4,26 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary;
+@class NSDate;
 
 @interface _PSClustersArchive
 {
     NSDate *_archiveDate;
-    NSDictionary *_clustersDictionary;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)C
+;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *archiveDate; // @synthesize archiveDate=_archiveDate;
-@property(readonly, nonatomic) NSDictionary *clustersDictionary; // @synthesize clustersDictionary=_clustersDictionary;
 
 @end
 

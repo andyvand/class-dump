@@ -6,54 +6,41 @@
 
 #import <ClassKit/CLSAnswerFormat.h>
 
-@class NSString;
-
 @interface CLSOpenResponseAnswerFormat : CLSAnswerFormat
 {
     long long _type;
-    NSString *_teacherProvidedText;
-    long long _minimumTextLength;
-    long long _maximumTextLength;
-    _Bool _allowsMultimedia;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)_defaultNumberOfDevicesToShow;
+- (id)Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation;
+- (void)brary/PrivateFrameworks/MobileAsset.framework/Versions/A/MobileAsset;
+- (void);
+- (void);
+- (void);
+- (long long)r is NULL  
+;
+- (void)est=%p requestCallback=%p 
+;
+- (long long)all if the frame receiver is still present
+;
+- (id)NULL
+;
+- (_Bool)PERF_STATS;
+- (_Bool)puteProgramFvmlib *ZinComputeProgramFindFvmlibSpan(std:(id *)arg1:span<ZinComputeProgramFvmlib> &, const ZinComputeProgramSection *) /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (unsigned long long)B;
+- (void)`;
 - (long long);
-- (void);
-- (long long);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (unsigned long long);
-- (void);
-- (long long);
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void));
 
 // Remaining properties
-@property(nonatomic) _Bool allowsMultimedia;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(nonatomic) long long maximumTextLength;
-@property(nonatomic) long long minimumTextLength; // @synthesize minimumTextLength=_minimumTextLength;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *teacherProvidedText;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

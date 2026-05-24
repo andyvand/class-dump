@@ -4,41 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue, OS_xpc_object;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface _KSSystemTask
 {
     unsigned long long _periodSeconds;
-    NSString *_name;
-    CDUnknownBlockType _handler;
-    double _maxRunTime;
-    double _checkInTime;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_xpc_object> *_executionCriteria;
 }
 
-- (void);
+- (void)f%@;
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (double);
-- (void);
+- (double),R,N,V_metadata;
+- (void)h;
 - (CDUnknownBlockType);
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (void);
 - (double);
 
 // Remaining properties
-@property(nonatomic) double checkInTime; // @synthesize checkInTime=_checkInTime;
-@property(readonly, nonatomic) NSObject<OS_xpc_object> *executionCriteria; // @synthesize executionCriteria=_executionCriteria;
-@property(readonly, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(nonatomic) double maxRunTime; // @synthesize maxRunTime=_maxRunTime;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) unsigned long long periodSeconds; // @synthesize periodSeconds=_periodSeconds;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end

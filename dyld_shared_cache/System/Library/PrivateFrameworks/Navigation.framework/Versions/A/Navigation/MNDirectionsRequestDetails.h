@@ -4,33 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOApplicationAuditToken, GEOCommonOptions, GEOComposedGeometryRoutePersistentData, GEODirectionsRequestFeedback, GEOLocation, GEOMapRegion, GEOMapServiceTraits, GEOResumeRouteHandle, GEORouteAttributes, NSArray, NSString;
+@class NSArray;
 
 @interface MNDirectionsRequestDetails
 {
     _Bool _isResumingMultipointRoute;
-    NSArray *_waypoints;
-    GEORouteAttributes *_routeAttributes;
-    GEOMapServiceTraits *_traits;
-    unsigned long long _maxRouteCount;
-    GEOLocation *_currentUserLocation;
-    GEOMapRegion *_currentMapRegion;
-    GEODirectionsRequestFeedback *_directionsRequestFeedback;
-    GEOCommonOptions *_commonOptions;
-    GEOResumeRouteHandle *_resumeRouteHandle;
-    GEOComposedGeometryRoutePersistentData *_persistentData;
-    NSString *_tracePath;
-    GEOApplicationAuditToken *_auditToken;
 }
 
 + (_Bool);
 - (void);
 - (id);
+- (id)-G4;
 - (id);
-- (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)}�*;
 - (void);
 - (void);
 - (id);
@@ -52,26 +40,14 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)iCloudAccountDetailsWebTabView;
 - (void);
 - (void);
 - (void);
 - (void)tion"24;
 
 // Remaining properties
-@property(retain, nonatomic) GEOApplicationAuditToken *auditToken; // @synthesize auditToken=_auditToken;
-@property(retain, nonatomic) GEOCommonOptions *commonOptions; // @synthesize commonOptions=_commonOptions;
-@property(retain, nonatomic) GEOMapRegion *currentMapRegion; // @synthesize currentMapRegion=_currentMapRegion;
-@property(retain, nonatomic) GEOLocation *currentUserLocation; // @synthesize currentUserLocation=_currentUserLocation;
-@property(retain, nonatomic) GEODirectionsRequestFeedback *directionsRequestFeedback; // @synthesize directionsRequestFeedback=_directionsRequestFeedback;
-@property(nonatomic) _Bool isResumingMultipointRoute; // @synthesize isResumingMultipointRoute=_isResumingMultipointRoute;
-@property(nonatomic) unsigned long long maxRouteCount; // @synthesize maxRouteCount=_maxRouteCount;
-@property(retain, nonatomic) GEOComposedGeometryRoutePersistentData *persistentData; // @synthesize persistentData=_persistentData;
-@property(retain, nonatomic) GEOResumeRouteHandle *resumeRouteHandle; // @synthesize resumeRouteHandle=_resumeRouteHandle;
-@property(retain, nonatomic) GEORouteAttributes *routeAttributes; // @synthesize routeAttributes=_routeAttributes;
-@property(retain, nonatomic) NSString *tracePath; // @synthesize tracePath=_tracePath;
-@property(retain, nonatomic) GEOMapServiceTraits *traits; // @synthesize traits=_traits;
 @property(retain, nonatomic) NSArray *waypoints; // @synthesize waypoints=_waypoints;
 
 @end

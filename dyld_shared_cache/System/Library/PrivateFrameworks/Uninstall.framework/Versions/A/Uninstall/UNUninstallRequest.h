@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMachPort, UNConnectionPair, UNDaemonConnection;
+@class UNConnectionPair, UNDaemonConnection;
 
 @interface UNUninstallRequest
 {
     UNDaemonConnection *_connection;
-    NSMachPort *_requestingClient;
-    NSMachPort *_remoteBootstrap;
-    unsigned int _requestNumber;
-    NSArray *_bundlePaths;
-    _Bool _forceApplicationQuit;
-    _Bool _preserveApplicationData;
-    _Bool _isClient;
-    UNConnectionPair *_connectionPair;
 }
 
-+ (int);
-+ (_Bool);
++ (int);
++ (_Bool);
 + (id);
 + (id);
 - (void);
@@ -30,17 +22,17 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (id);
 - (id);
 - (id);
 - (_Bool);
+- (id);
+- (id);
+- (_Bool);
 - (_Bool);
 - (id);
-- (unsigned int);
-- (id);
+- (unsigned int));
+- (id);
 - (void);
 - (void);
 

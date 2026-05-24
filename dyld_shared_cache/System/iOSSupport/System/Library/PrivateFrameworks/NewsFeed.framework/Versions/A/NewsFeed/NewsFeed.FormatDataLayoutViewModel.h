@@ -7,7 +7,6 @@
 @interface NewsFeed.FormatDataLayoutViewModel
 {
     id dataLayoutValue;
-    id viewModel;
 }
 
 @end

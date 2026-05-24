@@ -4,59 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SGM2UnknownContactInformationShown
 {
     int _app;
-    NSString *_key;
-    _Bool _wasSuggestedContact;
-    _Bool _didInteractionLookup;
-    struct {
-        unsigned int app:1;
-        unsigned int wasSuggestedContact:1;
-        unsigned int didInteractionLookup:1;
-    } _has;
 }
 
 - (_Bool);
 - (void);
+- (void)/Versions/A/SoftLinking;
+- (void)`;
 - (void);
-- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool)eNumbers.framework/Versions/A/PhoneNumbers;
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
+- (id)this occurrence <no loc>;
+- (void)minderView.completeToggle;
+- (int)datePicker;
+- (int)m.apple.calendar.eventView.inspectorInviteesPopover;
 - (id);
 - (void);
-- (int);
-- (int);
-- (id);
-- (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (_Bool);
+- (id)mReferencePopertiesFixed;
+- (_Bool)@;
 - (void);
 - (id);
-- (id);
+- (id)@;
 - (_Bool)!Ú Ð!\Bùql$Ð1Â0@ù
 × ;
-- (void)rField:(id)arg1 limit: /* Error: Ran out of types for this method. */;
+- (void)sortedUnsubscriptionOpportunitiesForField:(id)arg1 limit: /* Error: Ran out of types for this method. */;
 - (void)d;
 
 // Remaining properties
-@property(nonatomic) int app; // @synthesize app=_app;
-@property(nonatomic) _Bool didInteractionLookup; // @synthesize didInteractionLookup=_didInteractionLookup;
-@property(nonatomic) _Bool hasApp;
-@property(nonatomic) _Bool hasDidInteractionLookup;
 @property(readonly, nonatomic) _Bool hasKey;
-@property(nonatomic) _Bool hasWasSuggestedContact;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(nonatomic) _Bool wasSuggestedContact; // @synthesize wasSuggestedContact=_wasSuggestedContact;
 
 @end
 

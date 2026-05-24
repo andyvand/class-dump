@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -29,7 +29,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (struct CGRect);
 - (id);
-- (id);
+- (id)performSelector:withObject:withObject: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 

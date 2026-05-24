@@ -7,6 +7,7 @@
 @protocol APSConnectionDelegate
 
 @optional
+- (void)__objc_doubleobj__AUTH_CONST;
 - (void)ù
 × ;
 @end

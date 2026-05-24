@@ -7,16 +7,13 @@
 @class NSArray, NSData, NSString;
 
 @protocol _SFPBMediaMetadata
+- (void);
+- (NSArray *)*;
+- (int)getNowPlayingsForContentItemIDs:reply: /* Error: Ran out of types for this method. */;
+- (NSString *)substringMatchedCategories;
+- (NSData *)isMediaSubtype: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *albumName;
-@property(copy, nonatomic) NSString *artistName;
-@property(copy, nonatomic) NSArray *bundleIdentifiersToExcludes;
-@property(copy, nonatomic) NSString *disambiguationTitle;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *mediaIdentifier;
 @property(copy, nonatomic) NSString *mediaName;
-@property(copy, nonatomic) NSArray *mediaPunchouts;
-@property(nonatomic) int mediaType;
 @end
 

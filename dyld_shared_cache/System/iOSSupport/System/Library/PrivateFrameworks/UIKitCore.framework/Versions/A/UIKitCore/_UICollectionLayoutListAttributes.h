@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, UIVisualEffect, _UICollectionLayoutListSectionData;
-
 __attribute__((visibility("hidden")))
 @interface _UICollectionLayoutListAttributes
 {
@@ -13,18 +11,11 @@ __attribute__((visibility("hidden")))
         unsigned int stylesFirstItemAsHeader:1;
         unsigned int hasBackgroundMaskedCorners:1;
     } _flags;
-    long long _appearanceStyle;
-    unsigned long long _backgroundMaskedCorners;
-    _UICollectionLayoutListSectionData *_sectionData;
-    UIColor *_sectionBackgroundColor;
-    UIColor *_separatorBackgroundColor;
-    UIVisualEffect *_separatorVisualEffect;
-    double _maxWidth;
 }
 
 - (id);
 - (unsigned long long);
-- (void);
+- (void)newBufferWithBytesNoCopy:(_Bool)arg1 length:options:deallocator: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (unsigned long long);
@@ -35,30 +26,22 @@ __attribute__((visibility("hidden")))
 - (void)
 °!GùgÐ1Â0@ù
 × ;
-- (_Bool)tting:(id)arg1;
-- (void);
-- (id)etInteractive: /* Error: Ran out of types for this method. */;
-- (long long)s: /* Error: Ran out of types for this method. */;
-- (id)ct:atPoint:linkingToURL: /* Error: Ran out of types for this method. */;
+- (_Bool)setSnapshotting:(id)arg1;
+- (void)padlockView;
+- (id)_setInteractive: /* Error: Ran out of types for this method. */;
+- (long long)_populateArchivedSubviews: /* Error: Ran out of types for this method. */;
+- (id)_didLongPress:inRect:atPoint:linkingToURL: /* Error: Ran out of types for this method. */;
 - (_Bool)setDidHandoff:,V__didHandoff /* Error: Ran out of types for this method. */;
 - (id)serViewController;
 - (double)>",R,N;
 - (void)ested for context whose window is not in a scene. contextID:(id)arg1 %i;
-- (void)ator;
-- (void)wport;
+- (void)genieAnimator;
+- (void)Newport;
 - (void);
 - (void)ø];
 
 // Remaining properties
 @property(nonatomic) long long appearanceStyle; // @synthesize appearanceStyle=_appearanceStyle;
-@property(nonatomic) unsigned long long backgroundMaskedCorners; // @synthesize backgroundMaskedCorners=_backgroundMaskedCorners;
-@property(readonly, nonatomic) _Bool hasBackgroundMaskedCorners;
-@property(nonatomic) double maxWidth; // @synthesize maxWidth=_maxWidth;
-@property(retain, nonatomic) UIColor *sectionBackgroundColor; // @synthesize sectionBackgroundColor=_sectionBackgroundColor;
-@property(retain, nonatomic) _UICollectionLayoutListSectionData *sectionData; // @synthesize sectionData=_sectionData;
-@property(retain, nonatomic) UIColor *separatorBackgroundColor; // @synthesize separatorBackgroundColor=_separatorBackgroundColor;
-@property(retain, nonatomic) UIVisualEffect *separatorVisualEffect; // @synthesize separatorVisualEffect=_separatorVisualEffect;
-@property(nonatomic) _Bool stylesFirstItemAsHeader;
 
 @end
 

@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface UISTextLineDrawing
 {
     struct __CTLine *_line;
-    struct CGSize _size;
-    struct CGVector _offset;
-    double _baseline;
-    _Bool _hasLineBreak;
 }
 
 - (id);
@@ -25,19 +19,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect alignmentRect;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) struct CGSize drawingSize;
 @property(readonly, nonatomic) _Bool hasLineBreak; // @synthesize hasLineBreak=_hasLineBreak;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

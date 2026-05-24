@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccountRegistry, HMDModernTransportDeviceReachabilityObserver, HMDRemoteDeviceMonitor, NSArray;
+@class HMDAccountRegistry, HMDRemoteDeviceMonitor, NSArray;
 @protocol HMDRemoteHomeMessagingManager;
 
 @protocol HMDSecureRemoteMessageTransportDataSource
+- (id <HMDRemoteHomeMessagingManager>)SQLITE_NOLFS;
+- (NSArray *);
 - (HMDRemoteDeviceMonitor *);
 - (HMDAccountRegistry *)om %@ - error %@;
 
 // Remaining properties
-@property(readonly, nonatomic) HMDAccountRegistry *accountRegistry;
-@property(readonly, nonatomic) HMDRemoteDeviceMonitor *deviceMonitor;
-@property(readonly, nonatomic) id <HMDRemoteHomeMessagingManager> homeMessagingManager;
-@property(readonly, nonatomic) HMDModernTransportDeviceReachabilityObserver *reachabilityObserver;
 @property(readonly, nonatomic) NSArray *transports;
 @end
 

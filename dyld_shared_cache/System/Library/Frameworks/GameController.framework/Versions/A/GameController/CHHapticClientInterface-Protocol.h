@@ -5,5 +5,7 @@
 //
 
 @protocol CHHapticClientInterface
+- (void);
+- (void);
 @end
 

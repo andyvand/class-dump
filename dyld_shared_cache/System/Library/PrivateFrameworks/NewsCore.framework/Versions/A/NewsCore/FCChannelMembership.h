@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCInterestToken, NSString, NTPBChannelMembershipRecord;
+@class NTPBChannelMembershipRecord;
 
 @interface FCChannelMembership
 {
     NTPBChannelMembershipRecord *_record;
-    FCInterestToken *_interestToken;
 }
 
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)B;
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (_Bool);
+- (id)T@"<UXNavigationDestination>",R,N;
+- (_Bool);
 - (void);
 - (id)1Â0@ù
 × ;
@@ -27,11 +26,6 @@
 - (void)skipping query for external signals;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *channelID;
-@property(readonly, nonatomic) NSString *draftArticleListID;
-@property(readonly, nonatomic) NSString *draftIssueListID;
-@property(retain, nonatomic) FCInterestToken *interestToken; // @synthesize interestToken=_interestToken;
-@property(readonly, nonatomic) _Bool isAllowedToSeeDrafts;
 @property(retain, nonatomic) NTPBChannelMembershipRecord *record; // @synthesize record=_record;
 
 @end

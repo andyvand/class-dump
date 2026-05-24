@@ -16,12 +16,10 @@
 - (const void *);
 - (id);
 - (id);
-- (void)yName;
+- (void)displayName;
 
 // Remaining properties
-@property(readonly) const void *bytes;
 @property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, nonatomic) unsigned long long length;
 
 @end
 

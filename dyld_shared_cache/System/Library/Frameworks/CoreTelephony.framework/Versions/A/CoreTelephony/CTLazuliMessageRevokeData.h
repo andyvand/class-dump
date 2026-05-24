@@ -4,32 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTLazuliDestination, CTLazuliMessageID;
+@class CTLazuliDestination;
 
 @interface CTLazuliMessageRevokeData
 {
     CTLazuliDestination *_destination;
-    CTLazuliMessageID *_messageID;
 }
 
-+ (_Bool);
++ (_Bool)emPlaybackSummaryEvent:%p %@ recoverableErrorCount:%ld error:%@ stallCount:%ld variantSwitchCount:%ld playbackDuration:%ld mediaResourceRequestCount:%ld timeSpentRecoveringFromStall:%f timeSpentInInitialStartup:%f timeWeightedAverageBitrate:%ld timeWeightedPeakBitrate:%ld> /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)ation.framework/Versions/A/CoreFoundation;
 - (_Bool);
-- (void);
+- (void)_coreMechanism;
 - (id);
 - (void);
-- (void);
+- (void);
 - (void)
 × ;
-- (id)e;
+- (id)kDataPlanNotificationType;
 
 // Remaining properties
 @property(retain, nonatomic) CTLazuliDestination *destination; // @synthesize destination=_destination;
-@property(retain, nonatomic) CTLazuliMessageID *messageID; // @synthesize messageID=_messageID;
 
 @end
 

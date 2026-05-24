@@ -6,13 +6,12 @@
 
 #import <OfficeImport/OADDrawable.h>
 
-@class NSMutableArray, OADTableGrid;
+@class OADTableGrid;
 
 __attribute__((visibility("hidden")))
 @interface OADTable : OADDrawable
 {
     OADTableGrid *mGrid;
-    NSMutableArray *mRows;
 }
 
 + (void);
@@ -22,14 +21,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (id);
+- (struct OADTMatrixPos)O;
+- (id);
+- (id)__TEXT;
 - (id);
-- (struct OADTMatrixPos);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)otificationAction"8Q16^B24;
 - (void)A;
 
 @end

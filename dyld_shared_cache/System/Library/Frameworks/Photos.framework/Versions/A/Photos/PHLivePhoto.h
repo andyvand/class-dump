@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAsset, AVVideoComposition, NSNumber, NSObject, NSString, NSURL, PHAsset, PHImageManager, PHSandboxExtensionWrapper;
+@class PHAsset;
 
 @interface PHLivePhoto
 {
     PHAsset *_asset;
-    NSObject *_plImage;
-    _Bool _skipInstantiatingImageAndAVAsset;
-    _Bool _prefersHDR;
-    float _audioVolume;
-    NSString *_uniqueIdentifier;
-    NSString *_assetUUID;
-    AVAsset *_videoAsset;
-    unsigned long long _options;
-    AVVideoComposition *_videoComposition;
-    NSString *_assetLocalIdentifier;
-    NSURL *_imageURL;
-    PHSandboxExtensionWrapper *_imageURLSandboxExtensionWrapper;
-    NSURL *_videoURL;
-    PHSandboxExtensionWrapper *_videoURLSandboxExtensionWrapper;
-    long long _contentMode;
-    PHImageManager *_imageManager;
-    struct CGSize _size;
-    struct CGSize _targetSize;
-    CDStruct_1b6d18a9 _photoTime;
 }
 
 + (int);
@@ -36,17 +17,17 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)9$;
 + (id);
 + (void);
-+ (_Bool);
-+ (CDStruct_1b6d18a9);
++ (_Bool);
++ (CDStruct_198678f7);
 + (id);
 + (id);
 + (id);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 + (id);
 + (id);
 + (_Bool);
@@ -56,13 +37,13 @@
 - (void);
 - (void);
 - (_Bool);
-- (CDStruct_1b6d18a9);
+- (CDStruct_198678f7);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)!;
 - (id);
 - (id);
 - (_Bool);
@@ -70,70 +51,39 @@
 - (id);
 - (id);
 - (void);
+- (id);
+- (CDUnknownBlockType);
+- (id);
+- (id);
+- (id);
 - (id);
 - (CDUnknownBlockType);
-- (id);
-- (id);
-- (id);
-- (id);
-- (CDUnknownBlockType);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)9;
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)6;
 - (float);
 - (id);
 - (id);
 - (struct CGSize);
 - (unsigned long long);
 - (struct CGSize);
-- (void);
+- (void);
 - (long long);
 - (id);
-- (id);
+- (id)sqlQueryToStatements;
 - (id)
 × ;
-- (id)tionForPhotoEditData:formatIdentifier:formatVersion: /* Error: Ran out of types for this method. */;
+- (id)debugDescriptionForPhotoEditData:formatIdentifier:formatVersion: /* Error: Ran out of types for this method. */;
 - (void),V_dayKeyAssetSharedHelper;
 - (id)from %d to %d by client:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) PHAsset *asset;
-@property(readonly, copy, nonatomic) NSString *assetLocalIdentifier; // @synthesize assetLocalIdentifier=_assetLocalIdentifier;
-@property(readonly, copy, nonatomic) NSString *assetUUID; // @synthesize assetUUID=_assetUUID;
-@property(nonatomic) float audioVolume; // @synthesize audioVolume=_audioVolume;
-@property(readonly, nonatomic) long long contentMode; // @synthesize contentMode=_contentMode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) CDUnknownBlockType imageFileLoader;
-@property(nonatomic) __weak PHImageManager *imageManager; // @synthesize imageManager=_imageManager;
-@property(readonly, nonatomic) NSString *imageTypeIdentifier;
-@property(readonly, nonatomic) NSURL *imageURL; // @synthesize imageURL=_imageURL;
-@property(readonly, nonatomic) PHSandboxExtensionWrapper *imageURLSandboxExtensionWrapper; // @synthesize imageURLSandboxExtensionWrapper=_imageURLSandboxExtensionWrapper;
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(readonly, nonatomic) NSString *originalFilename;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 photoTime; // @synthesize photoTime=_photoTime;
-@property(readonly, nonatomic) _Bool prefersHDR; // @synthesize prefersHDR=_prefersHDR;
-@property(readonly, nonatomic) struct CGSize size; // @synthesize size=_size;
-@property(nonatomic) _Bool skipInstantiatingImageAndAVAsset; // @synthesize skipInstantiatingImageAndAVAsset=_skipInstantiatingImageAndAVAsset;
-@property(readonly, nonatomic) NSNumber *srlCompensationValue;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) struct CGSize targetSize; // @synthesize targetSize=_targetSize;
-@property(readonly) NSString *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
-@property(readonly, nonatomic) AVAsset *videoAsset; // @synthesize videoAsset=_videoAsset;
-@property(readonly, copy, nonatomic) AVVideoComposition *videoComposition; // @synthesize videoComposition=_videoComposition;
-@property(readonly, copy, nonatomic) CDUnknownBlockType videoFileLoader;
-@property(readonly, nonatomic) NSString *videoTypeIdentifier;
-@property(readonly, nonatomic) NSURL *videoURL; // @synthesize videoURL=_videoURL;
-@property(readonly, nonatomic) PHSandboxExtensionWrapper *videoURLSandboxExtensionWrapper; // @synthesize videoURLSandboxExtensionWrapper=_videoURLSandboxExtensionWrapper;
 
 @end
 

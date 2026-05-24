@@ -15,11 +15,11 @@
 
 + (id);
 - (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)EnableToCcInMessageList;
+- (void);
 - (void);
 
 // Remaining properties

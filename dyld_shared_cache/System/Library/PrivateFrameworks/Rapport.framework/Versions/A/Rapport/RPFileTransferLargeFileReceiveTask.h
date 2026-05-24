@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, RPFileTransferItem;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface RPFileTransferLargeFileReceiveTask
 {
     int _fileFD;
-    struct CC_SHA256state_st _sha256Ctx;
-    RPFileTransferItem *_fileItem;
-    NSObject<OS_dispatch_queue> *_queue;
-    unsigned long long _taskID;
 }
 
 - (void);
 - (void);
 - (id);
 - (int);
-- (void);
+- (void)plINS_12LogWeightTplIfEEiEELNS_10GallicTypeE2EEENS_12GallicFactorIiS5_LS7_2EEEEEEE;
 - (void);
 - (unsigned long long);
 - (id);
@@ -29,9 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) int fileFD; // @synthesize fileFD=_fileFD;
-@property(retain, nonatomic) RPFileTransferItem *fileItem; // @synthesize fileItem=_fileItem;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) unsigned long long taskID; // @synthesize taskID=_taskID;
 
 @end
 

@@ -5,15 +5,15 @@
 //
 
 @protocol _INPBLocalTime
+- (void);
+- (_Bool);
+- (long long)CUSTODIAN_MESSAGES_UPSELL_MESSAGE_TITLE;
+- (long long)count, ignoring...;
+- (_Bool)ore=%p)
+;
+- (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasHourOfDay;
-@property(nonatomic) _Bool hasMillisOfSecond;
-@property(nonatomic) _Bool hasMinuteOfHour;
-@property(nonatomic) _Bool hasSecondOfMinute;
 @property(nonatomic) long long hourOfDay;
-@property(nonatomic) long long millisOfSecond;
-@property(nonatomic) long long minuteOfHour;
-@property(nonatomic) long long secondOfMinute;
 @end
 

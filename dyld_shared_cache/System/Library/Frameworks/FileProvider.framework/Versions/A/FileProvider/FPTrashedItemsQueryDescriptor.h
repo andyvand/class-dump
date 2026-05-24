@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)M;
+- (id)M;
+- (id)WOAF;
 
 @end
 

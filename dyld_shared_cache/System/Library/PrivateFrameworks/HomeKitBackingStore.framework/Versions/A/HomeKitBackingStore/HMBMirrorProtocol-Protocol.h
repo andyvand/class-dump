@@ -8,9 +8,12 @@
 @protocol HMBLocalZoneID;
 
 @protocol HMBMirrorProtocol
+- (void);
+- (NAFuture *)T@"NSMutableDictionary",R,N,V_callbackBlocks;
+- (NAFuture *)esetting...;
+- (NAFuture *);
 
 // Remaining properties
-@property(readonly, nonatomic) NAFuture *startUp;
 @property(readonly, nonatomic) id <HMBLocalZoneID> zoneID;
 @end
 

@@ -4,45 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NTPBWidgetSectionsArticleCountPair
 {
     CDStruct_5df41632 _countOfArticlesExposedEachSections;
-    NSString *_widgetSectionIdsExposed;
-    NSString *_widgetSectionSubidsExposed;
 }
 
+- (id)invalidateUndoTimerIfNeeded;
+- (id)invalidateSelection;
+- (void)initWithViewModel:(id)arg1 assetCollectionReference:actionManager: /* Error: Ran out of types for this method. */;
+- (void)initWithViewModel:(id)arg1;
+- (void)hasBlockableFeature;
+- (_Bool)fetchPendingLibraryScopeInvitationWithOptions: /* Error: Ran out of types for this method. */;
+- (_Bool)fetchParticipantsWithParticipantIDs:options: /* Error: Ran out of types for this method. */;
+- (unsigned long long)defaultFilterStateForContainerCollection:photoLibrary: /* Error: Ran out of types for this method. */;
+- (long long *)defaultFallbackStyleDescriptor;
+- (long long)defaultCurationLength;
+- (void)dataSourceUpdatedWithChange:changeDetails: /* Error: Ran out of types for this method. */;
+- (void)curatedSongs;
+- (void);
 - (id);
-- (id);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
 - (unsigned long long);
-- (long long *);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)isting system with updated replica:(id)arg1 %@;
+- (_Bool)edToGenerateRecipeRatingSecretInSync) :(id)arg1 %s %s:%d %{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)StoriesMaxCount"b1"seenArticlesMinimumTimeSinceFirstSeenToFilter"b1"promotionCriterion"b1"readArticlesFilterMethod"b1"sectionType"b1"seenArticlesFilterMethod"b1"filterNonSubscribedInFavoritesOnlyMode"b1"glanceable"b1"shownInFavoritesOnlyMode"b1};
 
 // Remaining properties
-@property(readonly, nonatomic) long long *countOfArticlesExposedEachSections;
-@property(readonly, nonatomic) unsigned long long countOfArticlesExposedEachSectionsCount;
 @property(readonly, nonatomic) _Bool hasWidgetSectionIdsExposed;
-@property(readonly, nonatomic) _Bool hasWidgetSectionSubidsExposed;
-@property(retain, nonatomic) NSString *widgetSectionIdsExposed; // @synthesize widgetSectionIdsExposed=_widgetSectionIdsExposed;
-@property(retain, nonatomic) NSString *widgetSectionSubidsExposed; // @synthesize widgetSectionSubidsExposed=_widgetSectionSubidsExposed;
 
 @end
 

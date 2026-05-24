@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatarPose, NSDictionary;
+@class AVTAvatarPose;
 
 @interface AVTAvatarPhysicalizedPose
 {
     AVTAvatarPose *_pose;
-    NSDictionary *_physicsStates;
 }
 
 - (id);
@@ -22,7 +21,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *physicsStates; // @synthesize physicsStates=_physicsStates;
 @property(readonly, nonatomic) AVTAvatarPose *pose; // @synthesize pose=_pose;
 
 @end

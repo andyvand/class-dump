@@ -17,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)setVoiceOver;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *seriesName;

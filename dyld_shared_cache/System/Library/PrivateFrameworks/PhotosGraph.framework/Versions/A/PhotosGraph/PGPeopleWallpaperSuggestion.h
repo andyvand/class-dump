@@ -13,8 +13,8 @@
     NSArray *_suggestedPersonLocalIdentifiers;
 }
 
-- (id);
-- (id);
+- (id)screenContainingPoint:(id)arg1;
+- (id)N;
 - (void)%@, ;
 
 @end

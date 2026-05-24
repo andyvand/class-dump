@@ -6,28 +6,25 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, UIImageView, UIStatusBarLockItemView;
+@class UIImageView;
 
 __attribute__((visibility("hidden")))
 @interface _UIStatusBarLockItemPadlockView : UIView
 {
     UIImageView *_bodyView;
-    UIImageView *_shackleView;
-    CDUnknownBlockType _completionBlock;
-    UIStatusBarLockItemView *_owner;
 }
 
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
+- (id)trackReadReceipt:targetChatGUID:didFindMessage:didMarkMessage: /* Error: Ran out of types for this method. */;
+- (void)setPersistenceQueue:(CDUnknownBlockType)arg1;
+- (void)n't schedule expire state check with interval:(id)arg1 %f, one is already scheduled with interval:%f /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (struct CGSize);
-- (id)ForEvent: /* Error: Ran out of types for this method. */;
+- (id)_usesComplexHysteresisCalculationForEvent: /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType)ead data;
 - (void);
 - (void)Ørwþu>43ärwþ}>43ðrwþU>43ürwþ¥>43swþ5>43swþ5>43à}wþ}>43swþµ>43oþ>43swþ;
@@ -35,16 +32,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) UIImageView *bodyView; // @synthesize bodyView=_bodyView;
-@property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak UIStatusBarLockItemView *owner; // @synthesize owner=_owner;
-@property(retain, nonatomic) UIImageView *shackleView; // @synthesize shackleView=_shackleView;
-@property(readonly) Class superclass;
 
 @end
 

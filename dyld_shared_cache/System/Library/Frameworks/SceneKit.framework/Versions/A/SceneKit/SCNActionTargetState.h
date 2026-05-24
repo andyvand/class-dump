@@ -8,11 +8,6 @@ __attribute__((visibility("hidden")))
 @interface SCNActionTargetState
 {
     _Bool usesEuler;
-    float opacity;
-    struct SCNVector3 position;
-    struct SCNVector3 euler;
-    struct SCNVector3 scale;
-    struct SCNVector4 rotation;
 }
 
 - (_Bool);
@@ -20,21 +15,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct SCNVector3);
 - (void);
-- (struct SCNVector4);
+- (struct SCNVector4);
 - (struct SCNVector3);
 - (struct SCNVector3);
 - (float);
 - (void);
-- (void);
+- (void)H;
 - (void)8;
 
 // Remaining properties
-@property(nonatomic) struct SCNVector3 euler; // @synthesize euler;
-@property(nonatomic) float opacity; // @synthesize opacity;
 @property(nonatomic) struct SCNVector3 position; // @synthesize position;
-@property(nonatomic) struct SCNVector4 rotation; // @synthesize rotation;
-@property(nonatomic) struct SCNVector3 scale; // @synthesize scale;
-@property(nonatomic) _Bool usesEuler; // @synthesize usesEuler;
 
 @end
 

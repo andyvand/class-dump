@@ -11,12 +11,10 @@
 @interface PKPendingAccountCredential : PKPendingProvisioning
 {
     NSString *_accountIdentifier;
-    unsigned long long _feature;
-    NSString *_sharingInstanceIdentifier;
 }
 
 + (_Bool);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (id);
@@ -24,22 +22,20 @@
 - (id);
 - (void);
 - (_Bool);
+- (id);
 - (id);
 - (id);
+- (id))@9!;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)Q,N,V_powerConsumptionDueToRF;
 - (id)t|Ø;
-- (void)ectRequested;
+- (void)barcodePaymentTransactionApplicationRedirectRequested;
 - (void);
 - (void)nt;
 - (unsigned long long);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(nonatomic) unsigned long long feature; // @synthesize feature=_feature;
-@property(retain, nonatomic) NSString *sharingInstanceIdentifier; // @synthesize sharingInstanceIdentifier=_sharingInstanceIdentifier;
 
 @end
 

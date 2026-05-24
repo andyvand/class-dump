@@ -6,20 +6,12 @@
 
 #import <AVFCore/AVAssetWriterInputHelper.h>
 
-@class AVAssetWriterInputMediaDataRequester, AVAssetWriterInputPassDescription, AVFigAssetWriterTrack, AVKeyPathDependencyManager, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class AVFigAssetWriterTrack;
 
 __attribute__((visibility("hidden")))
 @interface AVAssetWriterInputWritingHelper : AVAssetWriterInputHelper
 {
     AVFigAssetWriterTrack *_assetWriterTrack;
-    AVAssetWriterInputMediaDataRequester *_mediaDataRequester;
-    _Bool _observingSelf;
-    struct __CVPixelBufferPool *_pixelBufferPool;
-    AVAssetWriterInputPassDescription *_currentPassDescription;
-    AVKeyPathDependencyManager *_keyPathDependencyManager;
-    NSObject<OS_dispatch_queue> *_mediaDataRequesterSerialQueue;
-    NSObject<OS_dispatch_queue> *_readyForMoreMediaDataObserverSerialQueue;
 }
 
 - (void);
@@ -37,15 +29,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)25s:(id *)arg1 %-5d %s:Stopping engine in response to timeout /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (long long);
 - (long long);
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -58,14 +50,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_assetWriterTrack) AVFigAssetWriterTrack *assetWriterTrack; // @synthesize assetWriterTrack=_assetWriterTrack;
-@property(retain, nonatomic) AVAssetWriterInputPassDescription *currentPassDescription; // @synthesize currentPassDescription=_currentPassDescription;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

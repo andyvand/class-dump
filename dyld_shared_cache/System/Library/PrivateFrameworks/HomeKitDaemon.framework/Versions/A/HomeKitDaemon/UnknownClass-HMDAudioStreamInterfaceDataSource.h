@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-@protocol HMDAVCAudioStreamDelegate;
+@class NSDictionary;
 
 @interface UnknownClass (HMDAudioStreamInterfaceDataSource)
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *capabilities;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <HMDAVCAudioStreamDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long direction;
-@property(readonly, nonatomic) long long downlinkToken;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long streamToken;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long uplinkToken;
-@property(nonatomic) float volume;
 @end
 

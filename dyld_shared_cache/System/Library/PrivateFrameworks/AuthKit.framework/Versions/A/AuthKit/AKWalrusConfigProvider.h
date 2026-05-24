@@ -15,7 +15,7 @@
 - (void);
 - (id);
 - (id);
-- (void)ofileContextUpgrade;
+- (void)AKSimpleProfileContextUpgrade;
 
 // Remaining properties
 @property(readonly, nonatomic) AKWalrusConfig *cachedConfig; // @synthesize cachedConfig=_cachedConfig;

@@ -7,14 +7,6 @@
 @interface MediaPlaybackCore.AssetReaderImplementation
 {
     id playbackEngine;
-    id $__lazy_storage_$_fullAlignmentTask;
-    id $__lazy_storage_$_fullAlignmentTaskV2;
-    id alignmentCache;
-    id scoutingTasks;
-    id sessionID;
-    id currentItem;
-    id isEnabled;
-    id subscription;
 }
 
 + (unsigned int);

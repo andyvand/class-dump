@@ -5,5 +5,9 @@
 //
 
 @protocol AKWebKitControllerDelegate
+
+@optional
+- (void);
+- (void)X$q;
 @end
 

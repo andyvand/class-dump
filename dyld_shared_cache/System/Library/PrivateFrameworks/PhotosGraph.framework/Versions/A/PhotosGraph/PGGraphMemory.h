@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PGGraphFeatureNodeCollection, PGGraphMomentNodeCollection;
+@class PGGraphFeatureNodeCollection;
 
 @interface PGGraphMemory
 {
     _Bool _generatedWithFallbackRequirements;
-    unsigned long long _memoryCategory;
-    unsigned long long _memoryCategorySubcategory;
-    PGGraphMomentNodeCollection *_memoryMomentNodes;
-    PGGraphFeatureNodeCollection *_memoryFeatureNodes;
 }
 
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
+- (id)__roleDescriptionToInclude;
+- (id)__listenerWrappers;
+- (unsigned long long)__elementCacheOrderdKeysForPruning;
+- (id)LibSer_ACMDeserializeEnvironmentVariableType;
+- (id)DeserializeCredentialList;
 - (_Bool);
 - (id);
 - (unsigned long long);
@@ -28,19 +24,7 @@
 - (void)tifiers given. Need at least one person identifier.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool generatedWithFallbackRequirements; // @synthesize generatedWithFallbackRequirements=_generatedWithFallbackRequirements;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long memoryCategory; // @synthesize memoryCategory=_memoryCategory;
-@property(readonly, nonatomic) unsigned long long memoryCategorySubcategory; // @synthesize memoryCategorySubcategory=_memoryCategorySubcategory;
 @property(readonly, nonatomic) PGGraphFeatureNodeCollection *memoryFeatureNodes; // @synthesize memoryFeatureNodes=_memoryFeatureNodes;
-@property(readonly, nonatomic) PGGraphMomentNodeCollection *memoryMomentNodes; // @synthesize memoryMomentNodes=_memoryMomentNodes;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *uniqueMemoryIdentifier;
 
 @end
 

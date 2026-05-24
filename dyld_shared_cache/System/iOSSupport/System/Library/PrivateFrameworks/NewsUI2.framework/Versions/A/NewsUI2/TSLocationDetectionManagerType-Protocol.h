@@ -7,14 +7,13 @@
 @class CLLocation;
 
 @protocol TSLocationDetectionManagerType
+- (id)SMSystem_FileManager_Traditional;
+- (void)m %s -> %s:(void (^)(CLLocationManager *, int))arg1 %@;
+- (_Bool)Y;
 - (CLLocation *)udioPlaylistStore:Found all %@ playlist articles in cache /* Error: Ran out of types for this method. */;
 - (void)a topic or channel;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool authorized;
-@property(nonatomic, readonly) CLLocation *currentLocation;
 @property(nonatomic, readonly) _Bool locationServicesEnabled;
-@property(nonatomic, readonly) CLLocation *mostFrequentLocation;
-@property(nonatomic, readonly) id observableMostFrequentLocation;
 @end
 

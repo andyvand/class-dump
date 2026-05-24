@@ -4,94 +4,58 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _MRRequestDetailsProtobuf
 {
     unsigned long long _startDate;
-    NSString *_initiator;
-    NSString *_operationID;
-    NSString *_originatingBundleID;
-    unsigned int _qos;
-    NSString *_reason;
-    NSString *_requestID;
-    NSString *_surface;
-    _Bool _initiatorWasInferred;
-    _Bool _userInitiated;
-    struct {
-        unsigned int startDate:1;
-        unsigned int qos:1;
-        unsigned int initiatorWasInferred:1;
-        unsigned int userInitiated:1;
-    } _has;
 }
 
 - (void);
+- (void)`l(a!@e;
+- (void)k!;
 - (void);
-- (void);
-- (void);
+- (_Bool)';
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)xh;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (void)addCountToRecordsFetched:(id)arg1;
+- (id)on:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (id);
 - (_Bool);
 - (id);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)ages.IMMetricsCollectorEventWatchAcknowledgementButtonAction;
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)!;
 - (void);
 - (id);
-- (id);
+- (id)server;
 - (void);
 - (void);
 - (unsigned int);
 - (void);
 - (_Bool);
-- (void)ddAction: /* Error: Ran out of types for this method. */;
+- (void)addAction: /* Error: Ran out of types for this method. */;
 - (_Bool)ernalRepresentation(MRPlaybackQueueRequestRef);
-- (void)ackShouldAutomaticallyForwardFailedPlayCommands;
+- (void)nowPlayingAppStackShouldAutomaticallyForwardFailedPlayCommands;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasInitiator;
-@property(nonatomic) _Bool hasInitiatorWasInferred;
-@property(readonly, nonatomic) _Bool hasOperationID;
-@property(readonly, nonatomic) _Bool hasOriginatingBundleID;
-@property(nonatomic) _Bool hasQos;
-@property(readonly, nonatomic) _Bool hasReason;
-@property(readonly, nonatomic) _Bool hasRequestID;
-@property(nonatomic) _Bool hasStartDate;
-@property(readonly, nonatomic) _Bool hasSurface;
-@property(nonatomic) _Bool hasUserInitiated;
-@property(retain, nonatomic) NSString *initiator; // @synthesize initiator=_initiator;
-@property(nonatomic) _Bool initiatorWasInferred; // @synthesize initiatorWasInferred=_initiatorWasInferred;
-@property(retain, nonatomic) NSString *operationID; // @synthesize operationID=_operationID;
-@property(retain, nonatomic) NSString *originatingBundleID; // @synthesize originatingBundleID=_originatingBundleID;
-@property(nonatomic) unsigned int qos; // @synthesize qos=_qos;
-@property(retain, nonatomic) NSString *reason; // @synthesize reason=_reason;
-@property(retain, nonatomic) NSString *requestID; // @synthesize requestID=_requestID;
-@property(nonatomic) unsigned long long startDate; // @synthesize startDate=_startDate;
-@property(retain, nonatomic) NSString *surface; // @synthesize surface=_surface;
-@property(nonatomic) _Bool userInitiated; // @synthesize userInitiated=_userInitiated;
 
 @end
 

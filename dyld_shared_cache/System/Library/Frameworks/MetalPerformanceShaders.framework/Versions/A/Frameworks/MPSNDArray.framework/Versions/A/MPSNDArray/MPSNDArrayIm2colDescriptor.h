@@ -7,16 +7,6 @@
 @interface MPSNDArrayIm2colDescriptor
 {
     unsigned long long _kernelWidth;
-    unsigned long long _kernelHeight;
-    unsigned long long _strideInPixelsX;
-    unsigned long long _strideInPixelsY;
-    unsigned long long _dilationRateInX;
-    unsigned long long _dilationRateInY;
-    unsigned long long _paddingTop;
-    unsigned long long _paddingBottom;
-    unsigned long long _paddingLeft;
-    unsigned long long _paddingRight;
-    unsigned int _dataLayout;
 }
 
 - (void);
@@ -25,7 +15,7 @@
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned int);
-- (void);
+- (void)!;
 - (unsigned long long);
 - (unsigned long long);
 - (void);
@@ -45,17 +35,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int dataLayout; // @synthesize dataLayout=_dataLayout;
-@property(nonatomic) unsigned long long dilationRateInX; // @synthesize dilationRateInX=_dilationRateInX;
-@property(nonatomic) unsigned long long dilationRateInY; // @synthesize dilationRateInY=_dilationRateInY;
-@property(nonatomic) unsigned long long kernelHeight; // @synthesize kernelHeight=_kernelHeight;
 @property(nonatomic) unsigned long long kernelWidth; // @synthesize kernelWidth=_kernelWidth;
-@property(nonatomic) unsigned long long paddingBottom; // @synthesize paddingBottom=_paddingBottom;
-@property(nonatomic) unsigned long long paddingLeft; // @synthesize paddingLeft=_paddingLeft;
-@property(nonatomic) unsigned long long paddingRight; // @synthesize paddingRight=_paddingRight;
-@property(nonatomic) unsigned long long paddingTop; // @synthesize paddingTop=_paddingTop;
-@property(nonatomic) unsigned long long strideInPixelsX; // @synthesize strideInPixelsX=_strideInPixelsX;
-@property(nonatomic) unsigned long long strideInPixelsY; // @synthesize strideInPixelsY=_strideInPixelsY;
 
 @end
 

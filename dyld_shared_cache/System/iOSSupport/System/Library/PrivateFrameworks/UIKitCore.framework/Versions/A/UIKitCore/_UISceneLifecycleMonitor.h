@@ -20,10 +20,10 @@
 - (void)× ;
 - (void);
 - (void)wantsInteractiveStart;
-- (void);
-- (void)tCollection: /* Error: Ran out of types for this method. */;
-- (void)teSystemTypeAccessoryViewWithCellAccessory:orConfiguration:updatedForState: /* Error: Ran out of types for this method. */;
-- (void)ivateSubview:belowLayer: /* Error: Ran out of types for this method. */;
+- (void)parametersForFullResolve;
+- (void)_shouldUseAlertPresentationForTraitCollection: /* Error: Ran out of types for this method. */;
+- (void)_createSystemTypeAccessoryViewWithCellAccessory:orConfiguration:updatedForState: /* Error: Ran out of types for this method. */;
+- (void)_backing_insertPrivateSubview:belowLayer: /* Error: Ran out of types for this method. */;
 - (void)ntationValueSetter: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)nimatableVectorP;

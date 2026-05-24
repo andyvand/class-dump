@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIDragInteraction;
-@protocol SXDragManagerDataSource;
-
 @interface SXDragManager
 {
     _Bool _enabled;
-    id <SXDragManagerDataSource> _dataSource;
-    unsigned long long _sharingPolicy;
-    UIDragInteraction *_dragInteraction;
 }
 
 - (void);
@@ -22,7 +16,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)hZ;
 - (void);
 - (unsigned long long);
 - (void);
@@ -37,17 +31,7 @@
 - (id)ng;
 
 // Remaining properties
-@property(nonatomic) __weak id <SXDragManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) UIDragInteraction *dragInteraction; // @synthesize dragInteraction=_dragInteraction;
-@property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) unsigned long long sharingPolicy; // @synthesize sharingPolicy=_sharingPolicy;
-@property(readonly) Class superclass;
 
 @end
 

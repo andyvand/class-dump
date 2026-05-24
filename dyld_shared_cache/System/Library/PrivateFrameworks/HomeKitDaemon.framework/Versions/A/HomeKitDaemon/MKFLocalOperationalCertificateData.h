@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/HMDManagedObject.h>
 
-@class NSData, NSNumber;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface MKFLocalOperationalCertificateData : HMDManagedObject
@@ -17,10 +17,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *fabricID; // @dynamic fabricID;
-@property(retain, nonatomic) NSData *ipk; // @dynamic ipk;
-@property(retain, nonatomic) NSData *operationalCert; // @dynamic operationalCert;
-@property(copy, nonatomic) NSNumber *ownerNodeID; // @dynamic ownerNodeID;
-@property(retain, nonatomic) NSData *rootCert; // @dynamic rootCert;
 
 @end
 

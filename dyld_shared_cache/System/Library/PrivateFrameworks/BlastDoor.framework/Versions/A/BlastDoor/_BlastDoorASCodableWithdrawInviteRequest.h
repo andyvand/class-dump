@@ -21,12 +21,11 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *handshakeToken; // @synthesize handshakeToken=_handshakeToken;
 @property(readonly, nonatomic) _Bool hasHandshakeToken;
 
 @end

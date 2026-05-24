@@ -11,24 +11,21 @@
 @interface _DKSyncBlockOperation : _DKSyncOperation
 {
     struct os_unfair_lock_s _lock;
-    _Bool _asynchronous;
-    NSMutableArray *_blocks;
 }
 
 + (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)&,V_filter;
 - (id);
 - (void);
+- (void);
+- (id);
+- (void)Q;
 - (id);
 - (void)
 × ;
 - (_Bool)v16@?0@"NSError"8;
 
 // Remaining properties
-@property(getter=isAsynchronous) _Bool asynchronous; // @synthesize asynchronous=_asynchronous;
 @property(readonly) NSMutableArray *blocks; // @synthesize blocks=_blocks;
 
 @end

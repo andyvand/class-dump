@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexSet, NSMutableDictionary, NSString, UIView;
-@protocol SXItemizedScrollViewDataSource;
-
 @interface SXItemizedScrollView
 {
     _Bool _contentTooSmall;
-    _Bool _gotActiveViewIndexChange;
-    id <SXItemizedScrollViewDataSource> _dataSource;
-    unsigned long long _activeViewIndex;
-    NSArray *_frames;
-    NSIndexSet *_visibleIndices;
-    NSMutableDictionary *_visibleViewsByIndex;
-    struct _NSRange _visibleRange;
-    struct CGSize _framesAreValidForSize;
 }
 
 - (id);
@@ -25,8 +14,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)h8h;
 - (void);
 - (void);
 - (void);
@@ -41,36 +30,20 @@
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (struct _NSRange);
+- (struct _NSRange)";
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void)8@0:8@"SXDataDescriptor"16B24 /* Error: Ran out of types for this method. */;
 - (void)i;
 
 // Remaining properties
-@property(readonly, nonatomic) UIView *activeView;
-@property(readonly, nonatomic) unsigned long long activeViewIndex; // @synthesize activeViewIndex=_activeViewIndex;
-@property(nonatomic) _Bool contentTooSmall; // @synthesize contentTooSmall=_contentTooSmall;
-@property(nonatomic) __weak id <SXItemizedScrollViewDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSArray *frames; // @synthesize frames=_frames;
 @property(nonatomic) struct CGSize framesAreValidForSize; // @synthesize framesAreValidForSize=_framesAreValidForSize;
-@property(nonatomic) _Bool gotActiveViewIndexChange; // @synthesize gotActiveViewIndexChange=_gotActiveViewIndexChange;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSIndexSet *visibleIndices; // @synthesize visibleIndices=_visibleIndices;
-@property(readonly, nonatomic) struct _NSRange visibleRange; // @synthesize visibleRange=_visibleRange;
-@property(retain, nonatomic) NSMutableDictionary *visibleViewsByIndex; // @synthesize visibleViewsByIndex=_visibleViewsByIndex;
 
 @end
 

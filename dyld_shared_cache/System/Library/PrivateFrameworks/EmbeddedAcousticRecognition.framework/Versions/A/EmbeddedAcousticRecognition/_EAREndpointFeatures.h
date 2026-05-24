@@ -4,25 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface _EAREndpointFeatures
 {
     float _silencePosteriorNF;
-    float _serverFeaturesLatency;
-    long long _wordCount;
-    long long _trailingSilenceDuration;
-    double _endOfSentenceLikelihood;
-    double _acousticEndpointerScore;
-    NSArray *_pauseCounts;
-    double _silencePosterior;
-    double _clientSilenceFramesCountMs;
-    double _clientSilenceProbability;
-    long long _eagerResultEndTime;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -38,7 +26,7 @@
 - (void);
 - (void);
 - (float);
-- (id);
+- (id)>;
 - (id);
 - (double);
 - (double);
@@ -46,20 +34,10 @@
 - (double);
 - (void);
 - (long long);
-- (id);
+- (id)	*1;
 - (void);
 
 // Remaining properties
-@property(nonatomic) double acousticEndpointerScore; // @synthesize acousticEndpointerScore=_acousticEndpointerScore;
-@property(nonatomic) double clientSilenceFramesCountMs; // @synthesize clientSilenceFramesCountMs=_clientSilenceFramesCountMs;
-@property(nonatomic) double clientSilenceProbability; // @synthesize clientSilenceProbability=_clientSilenceProbability;
-@property(nonatomic) long long eagerResultEndTime; // @synthesize eagerResultEndTime=_eagerResultEndTime;
-@property(nonatomic) double endOfSentenceLikelihood; // @synthesize endOfSentenceLikelihood=_endOfSentenceLikelihood;
-@property(copy, nonatomic) NSArray *pauseCounts; // @synthesize pauseCounts=_pauseCounts;
-@property(nonatomic) float serverFeaturesLatency; // @synthesize serverFeaturesLatency=_serverFeaturesLatency;
-@property(nonatomic) double silencePosterior; // @synthesize silencePosterior=_silencePosterior;
-@property(nonatomic) float silencePosteriorNF; // @synthesize silencePosteriorNF=_silencePosteriorNF;
-@property(nonatomic) long long trailingSilenceDuration; // @synthesize trailingSilenceDuration=_trailingSilenceDuration;
 @property(nonatomic) long long wordCount; // @synthesize wordCount=_wordCount;
 
 @end

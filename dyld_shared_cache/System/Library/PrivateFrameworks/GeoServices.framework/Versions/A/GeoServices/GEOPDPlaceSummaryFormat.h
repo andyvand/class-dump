@@ -9,20 +9,12 @@
 @interface GEOPDPlaceSummaryFormat
 {
     GEOPDMapsIdentifier *_tapPlaceId;
-    unsigned int _endIndex;
-    int _formatType;
-    unsigned int _startIndex;
-    struct {
-        unsigned int has_endIndex:1;
-        unsigned int has_formatType:1;
-        unsigned int has_startIndex:1;
-    } _flags;
 }
 
-+ (_Bool)ressVisibleTsInMs:(id)arg1;
++ (_Bool)setImpressVisibleTsInMs:(id)arg1;
 - (id);
 - (id);
-- (void);
+- (void)ote endpoint;
 - (void);
 - (void);
 - (void);
@@ -41,28 +33,20 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)ss on a trigger candidate;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (unsigned int);
 - (void);
 - (id)OSputnikMetadataKey=b32b24b14b8b42}{_GEOFlyoverKey=b6b26b26b8b24b14b8b8}{_GEOTransitLineSelectionKey=b6b25b25b64}{_GEOPolygonSelectionKey=b6b25b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}24;
-- (void)neration;
-- (id)mCoreLocationHint;
+- (void)generation;
+- (id)_isMatchFromCoreLocationHint;
 - (id)l¡;
 - (id)autoRedoSearchThreshold;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int endIndex;
-@property(nonatomic) int formatType;
-@property(nonatomic) _Bool hasEndIndex;
-@property(nonatomic) _Bool hasFormatType;
-@property(nonatomic) _Bool hasStartIndex;
-@property(readonly, nonatomic) _Bool hasTapPlaceId;
-@property(nonatomic) unsigned int startIndex;
-@property(retain, nonatomic) GEOPDMapsIdentifier *tapPlaceId;
 @property(readonly, nonatomic) GEOMapItemIdentifier *tappableEntryIdentifier;
 
 @end

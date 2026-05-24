@@ -8,14 +8,13 @@ __attribute__((visibility("hidden")))
 @interface RBPersonaManager
 {
     _Bool _personasSupported;
-    struct os_unfair_lock_s _lock;
 }
 
 - (_Bool);
-- (_Bool);
+- (_Bool)ment id.  assume id %@;
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)ment.framework/Versions/A/DiskManagement;
 - (id);
 
 @end

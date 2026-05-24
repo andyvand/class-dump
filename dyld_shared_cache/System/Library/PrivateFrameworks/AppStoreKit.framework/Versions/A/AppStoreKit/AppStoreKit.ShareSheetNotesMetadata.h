@@ -7,11 +7,6 @@
 @interface AppStoreKit.ShareSheetNotesMetadata
 {
     id itemName;
-    id url;
-    id developer;
-    id category;
-    id fileSize;
-    id mediaType;
 }
 
 @end

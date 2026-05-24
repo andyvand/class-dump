@@ -17,7 +17,7 @@
 - (id);
 - (void);
 - (id);
-- (void)AttachmentWithUTI:data:filenameExtension: /* Error: Ran out of types for this method. */;
+- (void)addAttachmentWithUTI:data:filenameExtension: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *exportDirectory; // @synthesize exportDirectory=_exportDirectory;

@@ -11,7 +11,6 @@
 @interface TSMaximumTimeIntervalErrorAnalysis : TSTimeErrorAnalysis
 {
     double *_negativeTimeErrors;
-    double *_mtie;
 }
 
 + (id);

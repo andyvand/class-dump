@@ -9,7 +9,7 @@
     id assemblies;
 }
 
-- (id);
+- (id)Image:vertical:screenScale:] /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

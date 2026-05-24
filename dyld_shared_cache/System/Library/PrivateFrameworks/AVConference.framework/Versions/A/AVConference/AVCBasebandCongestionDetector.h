@@ -4,37 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCStatisticsCollector, VCBasebandMetrics, VCRateControlMediaController;
-
 __attribute__((visibility("hidden")))
 @interface AVCBasebandCongestionDetector
 {
     unsigned int _radioAccessTechnology;
-    unsigned int _mode;
-    AVCStatisticsCollector *_statisticsCollector;
-    VCRateControlMediaController *_mediaController;
-    VCBasebandMetrics *_basebandMetrics;
-    double _notificationArrivalTime;
-    int _basebandNotificationType;
-    unsigned int _basebandTxBitrate;
-    unsigned int _basebandAverageBitrate;
-    unsigned int _basebandQueueDepth;
-    unsigned int _basebandDropPacketCount;
-    double _basebandExpectedQueuingDelay;
-    unsigned int _targetBitrate;
-    _Bool _isTargetBitrateStabilized;
-    void *_logBasebandDump;
-    int _statisticsHandlerIndex;
-    _Bool _isStarted;
 }
 
-- (unsigned int);
+- (unsigned int)B;
 - (id);
 - (void);
+- (void)!;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)`;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -48,7 +30,7 @@ __attribute__((visibility("hidden")))
 - (int);
 - (double);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int)k";
 - (_Bool);
 - (void);
 - (void);
@@ -58,21 +40,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (unsigned int);
+- (unsigned int)isIntegrationSource;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int basebandAverageBitrate; // @synthesize basebandAverageBitrate=_basebandAverageBitrate;
-@property(readonly, nonatomic) unsigned int basebandDropPacketCount; // @synthesize basebandDropPacketCount=_basebandDropPacketCount;
-@property(readonly, nonatomic) double basebandExpectedQueuingDelay; // @synthesize basebandExpectedQueuingDelay=_basebandExpectedQueuingDelay;
-@property(readonly, nonatomic) int basebandNotificationType; // @synthesize basebandNotificationType=_basebandNotificationType;
-@property(readonly, nonatomic) unsigned int basebandQueueDepth; // @synthesize basebandQueueDepth=_basebandQueueDepth;
-@property(readonly, nonatomic) unsigned int basebandTxBitrate; // @synthesize basebandTxBitrate=_basebandTxBitrate;
-@property(nonatomic) _Bool isTargetBitrateStabilized; // @synthesize isTargetBitrateStabilized=_isTargetBitrateStabilized;
-@property(retain, nonatomic) VCRateControlMediaController *mediaController; // @synthesize mediaController=_mediaController;
-@property(nonatomic) unsigned int mode; // @synthesize mode=_mode;
 @property(nonatomic) unsigned int radioAccessTechnology; // @synthesize radioAccessTechnology=_radioAccessTechnology;
-@property(retain, nonatomic) AVCStatisticsCollector *statisticsCollector; // @synthesize statisticsCollector=_statisticsCollector;
-@property(nonatomic) unsigned int targetBitrate; // @synthesize targetBitrate=_targetBitrate;
 
 @end
 

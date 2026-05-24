@@ -10,17 +10,18 @@ __attribute__((visibility("hidden")))
 @interface LogTransactions
 {
     NSMutableArray *_transactionIDs;
+    id;
 }
 
-- (id);
+- (id)@;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)uarpPlatformEndpointRecvMessage;
 - (id);
 - (id);
-- (void);
+- (void)ז;
 
 @end
 

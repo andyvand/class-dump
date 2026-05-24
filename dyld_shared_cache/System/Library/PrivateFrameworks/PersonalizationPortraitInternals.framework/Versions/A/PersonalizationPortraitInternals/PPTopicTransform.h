@@ -9,25 +9,9 @@
 @interface PPTopicTransform
 {
     NSData *_data;
-    struct header_s _header;
-    const float *_bias;
-    const unsigned int *_qids;
-    const unsigned int *_matrixIndices;
-    const float *_matrixElts;
-    const char *_payloads;
-    unsigned char _featureSmoothingType;
-    unsigned char _featureScalingType;
-    unsigned char _featureNormalizationType;
-    unsigned char _outputScalingType;
-    unsigned char _activationType;
-    float _featureSmoothingFactor;
-    float _featureScalingFactor;
-    float _outputScalingFactor;
-    float _attenuationFactor;
-    float _threshold;
 }
 
-- (id);
+- (id)P;
 - (void);
 - (id);
 - (void);
@@ -37,18 +21,17 @@
 - (unsigned long long);
 - (void);
 - (_Bool);
+- (void);
+- (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)enceMessageResultCode, NSNumber *, BOOL)_block_invoke;
+- (void)downgradeStateForDebugMenu;
 - (void)
 × ;
 - (float)@;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long outputTopicCount;
-@property(readonly, nonatomic) float threshold; // @synthesize threshold=_threshold;
 
 @end
 

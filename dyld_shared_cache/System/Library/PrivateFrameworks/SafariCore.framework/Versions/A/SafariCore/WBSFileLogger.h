@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject, NSOutputStream, NSString, NSTimer, NSURL;
-@protocol OS_dispatch_queue;
+@class NSURL;
 
 @interface WBSFileLogger
 {
     NSURL *_directoryURL;
-    NSOutputStream *_outputStream;
-    NSObject<OS_dispatch_queue> *_logQueue;
-    unsigned long long _maximumLogAgeInDays;
-    NSDate *_logStartDate;
-    NSTimer *_closeStreamTimer;
-    NSString *_logName;
 }
 
 + (_Bool);
-- (void);
+- (void)_handleMouseMovedForEvent:withFrame:inView: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -30,13 +23,7 @@
 - (void)reate new sidecar Keychain item. status=%ld;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface FI_TPreviewOptionsGroup
 {
     struct unique_ptr<const std::vector<TMetadataAttribute>, std::default_delete<const std::vector<TMetadataAttribute>>> _groupAttributes;
-    _Bool _hasCompositeKeys;
-    NSString *_title;
-    NSArray *_optionKeys;
 }
 
 + (id);
@@ -22,17 +19,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)axfUIElement;
 - (struct TString);
 - (id);
 - (id)nterObserver, std::less<UDefaults::RegistryID>, std::allocator<std::pair<const UDefaults::RegistryID, TNotificationCenterObserver>>>="__tree_"{__tree<std::__value_type<UDefaults::RegistryID, TNotificationCenterObserver>, std::__map_value_compare<UDefaults::RegistryID, std::pair<const UDefaults::RegistryID, TNotificationCenterObserver>, std::less<UDefaults::RegistryID>>, std::allocator<std::pair<const UDefaults::RegistryID, TNotificationCenterObserver>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}} /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *defaultKeys;
-@property(readonly, nonatomic) _Bool hasCompositeKeys; // @synthesize hasCompositeKeys=_hasCompositeKeys;
-@property(readonly, nonatomic) _Bool hasSpotlightAttributes;
-@property(readonly, nonatomic) NSArray *optionKeys; // @synthesize optionKeys=_optionKeys;
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

@@ -11,12 +11,11 @@
     struct DatabaseUpdaterStatus _databaseUpdaterStatus;
 }
 
-- (unsigned long long);
-- (id);
+- (unsigned long long)dOnOrAfterDominoCorrectionRelease=;
+- (id)ocadoWidgetExtension;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long databaseUpdaterState;
 @property(readonly, nonatomic) NSString *provider;
 
 @end

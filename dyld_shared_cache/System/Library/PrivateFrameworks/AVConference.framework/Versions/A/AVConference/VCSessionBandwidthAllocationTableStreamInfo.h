@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary;
+@class NSArray, NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface VCSessionBandwidthAllocationTableStreamInfo
 {
     NSMutableArray *_sortedEntries;
-    NSMutableDictionary *_qualityIndexToTableEntry;
 }
 
-- (id);
-- (id);
+- (id);
+- (id)C;
 - (_Bool);
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *qualityIndexToTableEntry; // @synthesize qualityIndexToTableEntry=_qualityIndexToTableEntry;
 @property(readonly, nonatomic) NSArray *sortedEntries; // @synthesize sortedEntries=_sortedEntries;
 
 @end

@@ -10,7 +10,7 @@
 {
 }
 
-- (id);
+- (id)thumbnailImagePrimaryColor;
 - (id).x.swipeAnimationKey;
 
 // Remaining properties

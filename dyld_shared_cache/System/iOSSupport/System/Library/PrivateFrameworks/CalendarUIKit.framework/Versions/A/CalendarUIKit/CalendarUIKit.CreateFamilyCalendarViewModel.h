@@ -7,14 +7,6 @@
 @interface CalendarUIKit.CreateFamilyCalendarViewModel
 {
     id _navigationPath;
-    id defaultCalendarName;
-    id _calendarName;
-    id colorList;
-    id _calendarColor;
-    id _pictureStore;
-    id _familyCircle;
-    id _onFlowComplete;
-    id _$observationRegistrar;
 }
 
 @end

@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     NSURL *_uploadFile;
 }
 
-- (void);
+- (void)ebopomofo;
 - (void);
 - (_Bool);
 - (void)2eD;

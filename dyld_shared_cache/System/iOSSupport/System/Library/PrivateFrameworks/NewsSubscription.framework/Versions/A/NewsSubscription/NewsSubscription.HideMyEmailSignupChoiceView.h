@@ -7,9 +7,6 @@
 @interface NewsSubscription.HideMyEmailSignupChoiceView
 {
     id titleLabel;
-    id choiceLabel;
-    id addressPreviewLabel;
-    id checkbox;
 }
 
 - (id);

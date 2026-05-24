@@ -6,12 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface IFTSchemaIFTRequestContentHeadGestureContent : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
@@ -25,15 +22,13 @@
 - (id)
 × ;
 - (id)SchemaASREmojiMetrics",&,N,V_emojiMetrics;
-- (id)ontext;
+- (id)CLPInstSchemaCLPNLv4SampleEvaluationContext;
 - (_Bool);
 - (_Bool)P<;
 - (void)¿);
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

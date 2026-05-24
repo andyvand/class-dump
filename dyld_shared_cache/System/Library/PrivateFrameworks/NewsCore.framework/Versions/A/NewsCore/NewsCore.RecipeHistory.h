@@ -7,9 +7,6 @@
 @interface NewsCore.RecipeHistory
 {
     id privateZone;
-    id observers;
-    id lockedCache;
-    id lockedCacheMap;
 }
 
 @end

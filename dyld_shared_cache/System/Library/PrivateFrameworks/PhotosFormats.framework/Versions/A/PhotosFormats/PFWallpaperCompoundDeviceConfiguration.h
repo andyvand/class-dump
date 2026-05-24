@@ -9,8 +9,6 @@
 @interface PFWallpaperCompoundDeviceConfiguration
 {
     PFParallaxLayoutConfiguration *_portraitConfiguration;
-    PFParallaxLayoutConfiguration *_landscapeConfiguration;
-    struct CGSize _deviceSize;
 }
 
 + (id);
@@ -28,11 +26,11 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool);
 - (id);
-- (id);
-- (_Bool);
-- (id);
+- (id)s/A/SpotlightEmbedding;
+- (_Bool)ks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers;
+- (id)__AUTH;
 - (struct CGSize);
 - (id);
 - (id);
@@ -40,12 +38,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)setWantsLayer: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize deviceSize; // @synthesize deviceSize=_deviceSize;
-@property(readonly, nonatomic) PFParallaxLayoutConfiguration *landscapeConfiguration; // @synthesize landscapeConfiguration=_landscapeConfiguration;
-@property(readonly, nonatomic) PFParallaxLayoutConfiguration *portraitConfiguration; // @synthesize portraitConfiguration=_portraitConfiguration;
 
 @end
 

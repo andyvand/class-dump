@@ -6,7 +6,7 @@
 
 #import <FinderKit/FI_IBaseTableViewController.h>
 
-@class FI_TTableViewDataSource, NSString;
+@class FI_TTableViewDataSource;
 
 __attribute__((visibility("hidden")))
 @interface FI_TTableViewController : FI_IBaseTableViewController
@@ -24,13 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, retain, nonatomic) FI_TTableViewDataSource *dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

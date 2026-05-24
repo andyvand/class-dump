@@ -4,57 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureDevice, AVCaptureDeviceDiscoverySession, NSArray, NSMutableArray;
-@protocol AXSSMotionTrackingCameraManagerDelegate;
-
 __attribute__((visibility("hidden")))
 @interface AXSSMotionTrackingCameraManager
 {
     _Bool __monitoring;
-    id <AXSSMotionTrackingCameraManagerDelegate> _delegate;
-    NSMutableArray *__compatibleCaptureDevices;
-    NSMutableArray *__allCaptureDevices;
-    AVCaptureDeviceDiscoverySession *__captureDeviceDiscoverySession;
 }
 
 + (id);
+- (void)T;
 - (void);
 - (void);
+- (void);
+- (_Bool);
+- (id)E;
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)updatedLastVisitsByItem;
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)beginSheetModalForWindow:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *_allCaptureDevices; // @synthesize _allCaptureDevices=__allCaptureDevices;
-@property(retain, nonatomic) AVCaptureDeviceDiscoverySession *_captureDeviceDiscoverySession; // @synthesize _captureDeviceDiscoverySession=__captureDeviceDiscoverySession;
-@property(retain, nonatomic) NSMutableArray *_compatibleCaptureDevices; // @synthesize _compatibleCaptureDevices=__compatibleCaptureDevices;
 @property(nonatomic) _Bool _monitoring; // @synthesize _monitoring=__monitoring;
-@property(readonly, copy, nonatomic) NSArray *allCaptureDevices;
-@property(readonly, copy, nonatomic) NSArray *compatibleCaptureDevices;
-@property(readonly, nonatomic) AVCaptureDevice *defaultCaptureDevice;
-@property(nonatomic) __weak id <AXSSMotionTrackingCameraManagerDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end
 

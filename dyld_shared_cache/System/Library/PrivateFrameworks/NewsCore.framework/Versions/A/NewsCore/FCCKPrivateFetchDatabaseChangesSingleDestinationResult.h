@@ -4,39 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKServerChangeToken, NSArray, NSError;
-
 @interface FCCKPrivateFetchDatabaseChangesSingleDestinationResult
 {
     _Bool _moreComing;
-    long long _destination;
-    NSArray *_changedZoneIDs;
-    NSArray *_deletedZoneIDs;
-    CKServerChangeToken *_serverChangeToken;
-    NSError *_error;
 }
 
-- (void);
+- (void)k;
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)6;
 - (long long);
-- (void);
+- (void)eyStoreID:(id)arg1;
 - (id);
 - (void);
 - (void)ation]_block_invoke;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *changedZoneIDs; // @synthesize changedZoneIDs=_changedZoneIDs;
-@property(retain, nonatomic) NSArray *deletedZoneIDs; // @synthesize deletedZoneIDs=_deletedZoneIDs;
 @property(nonatomic) long long destination; // @synthesize destination=_destination;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(nonatomic) _Bool moreComing; // @synthesize moreComing=_moreComing;
-@property(retain, nonatomic) CKServerChangeToken *serverChangeToken; // @synthesize serverChangeToken=_serverChangeToken;
 
 @end
 

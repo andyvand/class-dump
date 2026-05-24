@@ -7,6 +7,7 @@
 @class NSArray;
 
 @protocol WBSPasswordBreachCredentialSource
+- (NSArray *)!>;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *credentials;

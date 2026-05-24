@@ -5,5 +5,8 @@
 //
 
 @protocol _UNNotificationContentExtensionVendorContainer
+
+@optional
+- (_Bool)l-;
 @end
 

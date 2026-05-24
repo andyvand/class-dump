@@ -10,7 +10,6 @@
 @interface PISensitiveContentAnalysisRequest
 {
     _Bool _performRegionSpecificChecks;
-    NSObject<OS_dispatch_queue> *_sanitizeQueue;
 }
 
 + (_Bool);
@@ -24,11 +23,10 @@
 - (long long);
 - (id);
 - (void);
-- (void);
-- (void)SourceSpace:destinationSpace:error: /* Error: Ran out of types for this method. */;
+- (void)d;
+- (void)transformWithSourceSpace:destinationSpace:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool performRegionSpecificChecks; // @synthesize performRegionSpecificChecks=_performRegionSpecificChecks;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *sanitizeQueue; // @synthesize sanitizeQueue=_sanitizeQueue;
 
 @end

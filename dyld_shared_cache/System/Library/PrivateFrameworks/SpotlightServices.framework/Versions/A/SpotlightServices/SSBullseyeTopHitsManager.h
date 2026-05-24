@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, PRSRankingItemRanker, SFMutableResultSection, SPSearchQueryContext;
+@class NSDictionary;
 
 @interface SSBullseyeTopHitsManager
 {
     NSDictionary *_categoryToResultMapping;
-    long long _queryID;
-    SFMutableResultSection *_topHitSection;
-    _Bool _haveBullseyeTopHitSection;
-    SPSearchQueryContext *_queryContext;
-    long long _initiallyVisibleSectionSentCount;
-    long long _initiallyHiddenSectionSentCount;
-    PRSRankingItemRanker *_ranker;
 }
 
 + (id);
 - (void);
+- (id)removeFromSuperlayer;
+- (id)removeChild: /* Error: Ran out of types for this method. */;
+- (id)removeAllAnimations;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void)eatures;
+- (void)dense_features;
 
 @end
 

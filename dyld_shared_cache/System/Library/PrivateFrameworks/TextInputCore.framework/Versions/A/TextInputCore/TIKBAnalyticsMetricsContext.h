@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface TIKBAnalyticsMetricsContext
 {
     unsigned char _keyboardType;
-    NSString *_inputVariant;
-    NSString *_secondaryLanguage;
-    NSString *_secondaryRegion;
-    NSString *_layoutName;
-    NSString *_keyboardConfiguration;
-    long long _userInterfaceIdiom;
-    NSDictionary *_testingParameters;
 }
 
-+ (id);
++ (id)est:(long long)arg1 %{public}@;
 + (unsigned char);
 + (long long);
 + (id);
@@ -26,34 +19,27 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)AX;
 - (id);
 - (id);
 - (id);
 - (long long);
 - (unsigned long long);
 - (id);
-- (id);
-- (id);
+- (id)setShowsPlaceholderPlatterView: /* Error: Ran out of types for this method. */;
+- (id)SearchUIPlayAudioButtonItem;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)r	;
 - (void)
 × ;
-- (unsigned char)puts;
+- (unsigned char)processDeleteInputs;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *inputVariant; // @synthesize inputVariant=_inputVariant;
-@property(readonly, nonatomic) NSString *keyboardConfiguration; // @synthesize keyboardConfiguration=_keyboardConfiguration;
-@property(readonly, nonatomic) unsigned char keyboardType; // @synthesize keyboardType=_keyboardType;
-@property(readonly, nonatomic) NSString *layoutName; // @synthesize layoutName=_layoutName;
-@property(readonly, nonatomic) NSString *secondaryLanguage; // @synthesize secondaryLanguage=_secondaryLanguage;
-@property(readonly, nonatomic) NSString *secondaryRegion; // @synthesize secondaryRegion=_secondaryRegion;
-@property(readonly, nonatomic) NSDictionary *testingParameters; // @synthesize testingParameters=_testingParameters;
-@property(readonly, nonatomic) long long userInterfaceIdiom; // @synthesize userInterfaceIdiom=_userInterfaceIdiom;
 
 @end
 

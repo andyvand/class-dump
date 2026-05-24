@@ -6,22 +6,19 @@
 
 #import <TrialServer/TRIBaseTask.h>
 
-@class NSArray, NSDate, NSString, _PASLock;
-@protocol TRITaskQueueStateProviding;
+@class NSString;
 
 @interface TRIDisenrollRolloutTask : TRIBaseTask
 {
     NSString *_rolloutId;
-    unsigned long long _triggerEvent;
-    _PASLock *_lock;
 }
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool);
 + (id);
-- (id);
-- (id);
+- (id)computeRampToTargetRate:(id)arg1 forExport:(unsigned long long)arg2 outTimeSteps:outIntermediateRates: /* Error: Ran out of types for this method. */;
+- (id)String for tlv:(id)arg1 %@ with ID:%tu (%@) /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -29,30 +26,18 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (id);
+- (void)vcResponseInfoWithSessionID:(id)arg1;
+- (id)Library/Frameworks/NotificationCenter.framework/Versions/A/NotificationCenter;
 - (void);
 - (id)v24@0:8@"TRIFullMAAssetId"16 /* Error: Ran out of types for this method. */;
 - (id)}@ registered to app container %{public}@;
 - (void)with namespace %{public}@;
 - (unsigned long long)ublic}@" (expected array).;
-- (id)paceDescriptor;
-- (int)romEpoch;
+- (id)FailedToSaveNamespaceDescriptor;
+- (int)startSecondsFromEpoch;
 - (id)ÿe;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSArray *dependencies;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSDate *startTime;
-@property(nonatomic) __weak id <TRITaskQueueStateProviding> stateProvider;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *tags;
-@property(readonly, nonatomic) NSString *taskName;
 @property(readonly, nonatomic) int taskType;
 
 @end

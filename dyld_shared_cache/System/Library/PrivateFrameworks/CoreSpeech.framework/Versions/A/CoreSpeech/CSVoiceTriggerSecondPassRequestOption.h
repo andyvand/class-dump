@@ -4,40 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSVoiceTriggerFirstPassMetrics, CSVoiceTriggerRTModelRequestOptions, NSDictionary, NSString, NSUUID;
-
 @interface CSVoiceTriggerSecondPassRequestOption
 {
     _Bool _isSecondChanceRun;
-    unsigned long long _firstPassSource;
-    NSString *_deviceId;
-    NSString *_audioProviderUUID;
-    NSDictionary *_firstPassTriggerInfo;
-    NSUUID *_rejectionMHUUID;
-    CSVoiceTriggerFirstPassMetrics *_firstpassMetrics;
-    CSVoiceTriggerRTModelRequestOptions *_rtModelRequestOptions;
 }
 
-- (id);
+- (id): /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)_concatenateFaceprintImageDescriptorBuffer:withFaceprints:forIdentityWithSerialNumber:faceprintLabels: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)erStartTimeOffsetNs:withFirstBufferReceiptTimeOffsetNs: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *audioProviderUUID; // @synthesize audioProviderUUID=_audioProviderUUID;
-@property(readonly, nonatomic) NSString *deviceId; // @synthesize deviceId=_deviceId;
 @property(readonly, nonatomic) unsigned long long firstPassSource; // @synthesize firstPassSource=_firstPassSource;
-@property(readonly, nonatomic) NSDictionary *firstPassTriggerInfo; // @synthesize firstPassTriggerInfo=_firstPassTriggerInfo;
-@property(readonly, nonatomic) CSVoiceTriggerFirstPassMetrics *firstpassMetrics; // @synthesize firstpassMetrics=_firstpassMetrics;
-@property(readonly, nonatomic) _Bool isSecondChanceRun; // @synthesize isSecondChanceRun=_isSecondChanceRun;
-@property(readonly, nonatomic) NSUUID *rejectionMHUUID; // @synthesize rejectionMHUUID=_rejectionMHUUID;
-@property(readonly, nonatomic) CSVoiceTriggerRTModelRequestOptions *rtModelRequestOptions; // @synthesize rtModelRequestOptions=_rtModelRequestOptions;
 
 @end
 

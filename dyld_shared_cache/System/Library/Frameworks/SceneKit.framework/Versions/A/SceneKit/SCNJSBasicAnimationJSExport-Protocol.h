@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAMediaTimingFunction, NSString;
-
 @protocol SCNJSBasicAnimationJSExport
++ (id);
+- (void)heptasyllabic;
+- (_Bool)fenestrated;
+- (id)kCNContactInfoNotFound;
+- (id);
+- (void)didUpdateProgress:(_Bool)arg1 forStagingRequestUUID: /* Error: Ran out of types for this method. */;
+- (double)HMAccessorySettingsPartialFetchFailureInformationPayloadKey;
+- (void);
+- (void)@;
+- (_Bool);
+- (double)date INTEGER NOT NULL DEFAULT 0, is_collaborative INTEGER NOT NULL DEFAULT 0, collaborator_invite_options INTEGER NOT NULL DEFAULT 0, collaborator_permissions INTEGER NOT NULL DEFAULT 0, collaboration_invitation_link TEXT NOT NULL DEFAULT '', cover_artwork_recipe TEXT NOT NULL DEFAULT '', collaboration_invitation_url_expiration_date INTEGER NOT NULL DEFAULT 0 ,collaboration_join_request_pending INTEGER NOT NULL DEFAULT 0 ,collaborator_status INTEGER NOT NULL DEFAULT 0, edit_session_id TEXT NOT NULL DEFAULT '') ;
+- (void)ER NOT NULL DEFAULT 0, album_artist_order_section INTEGER NOT NULL DEFAULT 0, composer_pid INTEGER NOT NULL DEFAULT 0, composer_order INTEGER NOT NULL DEFAULT 0, composer_order_section INTEGER NOT NULL DEFAULT 0, genre_id INTEGER NOT NULL DEFAULT 0, genre_order INTEGER NOT NULL DEFAULT 0, genre_order_section INTEGER NOT NULL DEFAULT 0, disc_number INTEGER DEFAULT 0, track_number INTEGER DEFAULT 0, episode_sort_id INTEGER DEFAULT 0, base_location_id INTEGER NOT NULL DEFAULT 0, remote_location_id INTEGER NOT NULL DEFAULT 0, exclude_from_shuffle INTEGER NOT NULL DEFAULT 0;
 
 // Remaining properties
-@property(getter=isAdditive) _Bool additive;
-@property _Bool autoreverses;
-@property double beginTime;
-@property(retain) id byValue;
-@property(getter=isCumulative) _Bool cumulative;
-@property double duration;
-@property(copy) NSString *fillMode;
 @property(retain) id fromValue;
-@property(copy) NSString *keyPath;
-@property(getter=isRemovedOnCompletion) _Bool removedOnCompletion;
-@property float repeatCount;
-@property double repeatDuration;
-@property float speed;
-@property double timeOffset;
-@property(retain) CAMediaTimingFunction *timingFunction;
-@property(retain) id toValue;
 @end
 

@@ -6,43 +6,33 @@
 
 #import <AppKit/NSTouchBarColorPickerSliders.h>
 
-@class NSTouchBarColorPickerSliderArtworkProvider, NSTouchBarColorPickerSliderRGBArtworkProvider;
-
 __attribute__((visibility("hidden")))
 @interface NSTouchBarColorPickerSlidersRGB : NSTouchBarColorPickerSliders
 {
     long long _entryMode;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)based on IP or TLD rule %@;
++ (id)ith the same name should not be present for the same eld+1.;
++ (id)iling task;
++ (id)_kCFNTimingDataTCPFastOpenStats;
++ (id)NOT EXISTS alt_services (		partition text NOT NULL,		host text NOT NULL,		alternateHost text NOT NULL,		port int NOT NULL,		alternatePort int NOT NULL,		type int NOT NULL,		creation_time int,		expires_time int,		UNIQUE(partition, host, port, type)		);;
++ (id)@;
 - (void);
 - (long long);
 - (void);
+- (id)encodeWithCoder: /* Error: Ran out of types for this method. */;
+- (id)L.;
+- (double)ould be here;
+- (double)cached response %p. No key found.;
+- (double)okie parser failed:%s /* Error: Ran out of types for this method. */;
+- (double){public}@ AppSSOProtocol did not receive HTTP response;
 - (id);
-- (id);
-- (double);
-- (double);
-- (double);
-- (double);
-- (id);
-- (id);
+- (id), capacity %u;
 - (void);
-- (id)tEndPoint:(struct CGRect)arg1;
+- (id)setNormalizedGradientEndPoint:(struct CGRect)arg1;
 
 // Remaining properties
-@property(readonly, copy) NSTouchBarColorPickerSliderArtworkProvider *_alphaArtworkProvider;
-@property(readonly, copy) NSTouchBarColorPickerSliderRGBArtworkProvider *_blueArtworkProvider;
-@property(readonly) double _displayedAlphaComponent;
-@property(readonly) double _displayedBlueComponent;
-@property(readonly) double _displayedGreenComponent;
-@property(readonly) double _displayedRedComponent;
-@property(readonly, copy) NSTouchBarColorPickerSliderRGBArtworkProvider *_greenArtworkProvider;
-@property(readonly, copy) NSTouchBarColorPickerSliderRGBArtworkProvider *_redArtworkProvider;
 @property long long entryMode; // @synthesize entryMode=_entryMode;
 
 @end

@@ -4,55 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, RWIDriverConfiguration, RWIDriverState, RWITarget;
-@protocol RWIDriverSessionProvider;
-
 @interface RWIDriver
 {
     _Bool _registered;
-    RWITarget *_target;
-    RWIDriverState *_state;
-    RWIDriverConfiguration *_configuration;
-    id <RWIDriverSessionProvider> _sessionProvider;
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)h;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (long long);
 - (id);
+- (void)(;
 - (void);
-- (void);
-- (void)ndowShouldClose:(_Bool)arg1;
-- (id)WithOpcode:mask:payloadData:payloadLength: /* Error: Ran out of types for this method. */;
+- (void)windowShouldClose:(_Bool)arg1;
+- (id)initWithOpcode:mask:payloadData:payloadLength: /* Error: Ran out of types for this method. */;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isActive) _Bool active;
-@property(readonly, nonatomic) long long bidiPort;
-@property(copy, nonatomic) RWIDriverConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy, nonatomic) NSString *hostname;
-@property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, copy, nonatomic) NSString *name;
-@property(readonly, nonatomic) long long port; // @dynamic port;
 @property(nonatomic, getter=isRegistered) _Bool registered; // @synthesize registered=_registered;
-@property(readonly, copy, nonatomic) NSSet *sessionIdentifiers;
-@property(retain, nonatomic) id <RWIDriverSessionProvider> sessionProvider; // @synthesize sessionProvider=_sessionProvider;
-@property(copy, nonatomic) RWIDriverState *state; // @synthesize state=_state;
-@property(readonly, nonatomic) RWITarget *target; // @synthesize target=_target;
-@property(readonly, copy, nonatomic) NSString *version;
 
 @end
 

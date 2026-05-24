@@ -11,17 +11,15 @@
 @interface CKAssetUploadRequestMetadata : CKUploadRequestMetadata
 {
     long long _listIndex;
-    NSData *_fileSignature;
-    NSData *_referenceSignature;
 }
 
 + (_Bool);
 - (long long);
 - (id);
 - (id);
+- (id)T?;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)nnEngine;
 - (id);
 - (_Bool);
 - (void);
@@ -31,8 +29,6 @@
 - (id)t %{public}@;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *fileSignature; // @synthesize fileSignature=_fileSignature;
-@property(readonly, nonatomic) long long listIndex; // @synthesize listIndex=_listIndex;
 @property(readonly, copy, nonatomic) NSData *referenceSignature; // @synthesize referenceSignature=_referenceSignature;
 
 @end

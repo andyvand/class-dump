@@ -9,7 +9,6 @@
 @interface MLCSoftmaxLayer : MLCLayer
 {
     int _operation;
-    unsigned long long _dimension;
 }
 
 - (id);
@@ -17,13 +16,12 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)� ;
 - (int)0@ù
 × ;
-- (unsigned long long)loat;
+- (unsigned long long)concat_float;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long dimension; // @synthesize dimension=_dimension;
 @property(readonly, nonatomic) int operation; // @synthesize operation=_operation;
 
 @end

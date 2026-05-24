@@ -11,13 +11,13 @@
     MFRedundantContentMarkup *_redundantContentMarkup;
 }
 
-+ (id);
++ (id)4;
 + (id)3w;#y5",)G;
 + (void)Üâÿ;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)$;
 - (void)Ì;
 
 // Remaining properties

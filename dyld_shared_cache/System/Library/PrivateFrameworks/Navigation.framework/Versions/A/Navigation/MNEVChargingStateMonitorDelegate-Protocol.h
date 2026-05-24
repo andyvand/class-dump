@@ -5,5 +5,9 @@
 //
 
 @protocol MNEVChargingStateMonitorDelegate
+- (void);
+- (void)lumnBehavior;
+- (void)d
+;
 @end
 

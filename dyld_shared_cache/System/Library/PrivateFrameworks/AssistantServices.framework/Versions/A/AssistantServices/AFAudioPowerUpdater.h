@@ -5,26 +5,19 @@
 //
 
 @class NSObject;
-@protocol AFAudioPowerProviding, AFAudioPowerUpdaterDelegate, OS_dispatch_queue, OS_dispatch_source;
+@protocol AFAudioPowerProviding, OS_dispatch_queue;
 
 @interface AFAudioPowerUpdater
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_source> *_timer;
-    id <AFAudioPowerUpdaterDelegate> _delegate;
-    void *_sharedMemory;
-    float _averagePower;
-    float _peakPower;
-    id <AFAudioPowerProviding> _provider;
-    long long _frequency;
 }
 
-- (void);
+- (void)featureApplication;
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)S;
 - (float);
 - (void);
 - (void);
@@ -33,19 +26,18 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id): /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)syndicationType;
 - (id);
-- (void)bject:withObject: /* Error: Ran out of types for this method. */;
+- (void)performSelector:withObject:withObject: /* Error: Ran out of types for this method. */;
 - (float)_internalDelegate;
-- (void)ervice;
+- (void)AFSettingsService;
 - (long long)åÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) long long frequency; // @synthesize frequency=_frequency;
 @property(readonly, nonatomic) id <AFAudioPowerProviding> provider; // @synthesize provider=_provider;
 
 @end

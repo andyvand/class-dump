@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface UNLocalizedString
 {
     NSString *_key;
-    NSArray *_arguments;
-    NSString *_value;
 }
 
 + (_Bool);
-+ (id);
-- (id);
++ (id)n't supported in savefiles;
+- (id)R#;
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)`U;
 - (Class);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)j;
 - (id);
 - (id);
 - (id);
@@ -32,16 +30,14 @@
 - (_Bool);
 - (id);
 - (id);
-- (unsigned short);
-- (id);
-- (id);
+- (unsigned short)a;
+- (id)_createStorageDirectoryIfNotExistsWithError: /* Error: Ran out of types for this method. */;
+- (id);
 - (Class);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *arguments; // @synthesize arguments=_arguments;
 @property(readonly, copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(readonly, copy, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

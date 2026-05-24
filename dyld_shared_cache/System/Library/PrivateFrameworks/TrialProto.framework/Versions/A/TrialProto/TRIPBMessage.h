@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, TRIPBExtensionDescriptor, TRIPBFieldDescriptor, TRIPBUnknownFieldSet;
+@class TRIPBUnknownFieldSet;
 
 @interface TRIPBMessage
 {
     TRIPBUnknownFieldSet *unknownFields_;
-    NSMutableDictionary *extensionMap_;
-    NSMutableDictionary *autocreatedExtensionMap_;
-    TRIPBMessage *autocreator_;
-    TRIPBFieldDescriptor *autocreatorField_;
-    TRIPBExtensionDescriptor *autocreatorExtension_;
-    _Atomic id readOnlySemaphore_;
-    struct TRIPBMessage_Storage *messageStorage_;
 }
 
 + (id);
@@ -29,8 +22,8 @@
 + (id);
 + (void);
 + (id);
-+ (_Bool)aceName;
-+ (id)eviceClass;
++ (_Bool)_namespaceName;
++ (id)DeviceClass;
 - (void);
 - (void);
 - (void);
@@ -58,11 +51,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)h%;
 - (id);
+- (id)B;
 - (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -75,7 +68,6 @@
 - (_Bool)ssage_Storage=[0I]};
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isInitialized) _Bool initialized;
 @property(copy, nonatomic) TRIPBUnknownFieldSet *unknownFields;
 
 @end

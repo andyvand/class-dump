@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 + (id);
 - (CDUnknownBlockType);
 - (id);
-- (void);
+- (void)_accountsWithAcountType:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType dynamicAspectRatioCompletionBlock; // @synthesize dynamicAspectRatioCompletionBlock=_dynamicAspectRatioCompletionBlock;

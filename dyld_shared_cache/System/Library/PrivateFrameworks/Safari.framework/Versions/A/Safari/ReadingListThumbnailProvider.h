@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSMutableSet, NSObject, NSURL, WBSSiteMetadataManager;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface ReadingListThumbnailProvider
 {
     NSObject<OS_dispatch_queue> *_fileIOQueue;
-    NSMutableSet *_readingListItemUUIDsWithPendingThumbnailRequests;
-    NSURL *_readingListWebArchivesDirectoryURL;
-    WBSSiteMetadataManager *_siteMetadataManager;
-    NSCache *_thumbnailsCache;
 }
 
 - (void);

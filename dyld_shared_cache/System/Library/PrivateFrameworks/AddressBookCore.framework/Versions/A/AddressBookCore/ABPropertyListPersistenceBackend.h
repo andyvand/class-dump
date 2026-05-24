@@ -9,8 +9,6 @@
 @interface ABPropertyListPersistenceBackend
 {
     NSString *_uid;
-    NSString *_path;
-    NSString *_sourceClassName;
 }
 
 - (_Bool);
@@ -24,17 +22,11 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)descriptiveLabel;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

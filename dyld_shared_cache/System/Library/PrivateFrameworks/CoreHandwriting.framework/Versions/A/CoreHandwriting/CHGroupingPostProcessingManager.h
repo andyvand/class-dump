@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHStrokeGroupingManager, NSArray;
+@class NSArray;
 
 @interface CHGroupingPostProcessingManager
 {
     _Bool _saveInputDrawings;
-    NSArray *_sequence;
-    CHStrokeGroupingManager *_groupingManager;
 }
 
 - (void);
@@ -19,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)!;
 - (void);
 - (id);
 - (id);
@@ -27,8 +25,6 @@
 ;
 
 // Remaining properties
-@property(retain, nonatomic) CHStrokeGroupingManager *groupingManager; // @synthesize groupingManager=_groupingManager;
-@property(nonatomic) _Bool saveInputDrawings; // @synthesize saveInputDrawings=_saveInputDrawings;
 @property(retain, nonatomic) NSArray *sequence; // @synthesize sequence=_sequence;
 
 @end

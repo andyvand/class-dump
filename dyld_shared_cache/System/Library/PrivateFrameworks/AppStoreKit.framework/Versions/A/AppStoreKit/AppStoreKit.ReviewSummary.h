@@ -7,13 +7,6 @@
 @interface AppStoreKit.ReviewSummary
 {
     id attributedBodyWithTitle;
-    id attributedBodyWithoutTitle;
-    id subtitle;
-    id subtitleArtwork;
-    id subtitleArtworkAlignment;
-    id impressionMetrics;
-    id automationMetadata;
-    id id;
 }
 
 @end

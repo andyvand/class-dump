@@ -8,34 +8,6 @@ __attribute__((visibility("hidden")))
 @interface RKColorUtil
 {
     double m_gamma;
-    double m_one_div_gamma;
-    double m_xr;
-    double m_yr;
-    double m_zr;
-    double m_xg;
-    double m_yg;
-    double m_zg;
-    double m_xb;
-    double m_yb;
-    double m_zb;
-    double m_xw;
-    double m_yw;
-    double m_zw;
-    double m_Xr;
-    double m_Yr;
-    double m_Zr;
-    double m_Xg;
-    double m_Yg;
-    double m_Zg;
-    double m_Xb;
-    double m_Yb;
-    double m_Zb;
-    double m_Xw;
-    double m_Yw;
-    double m_Zw;
-    struct Mat3f *m_M;
-    struct Mat3f *m_invM;
-    double (*m_maxSatArray)[64][64];
 }
 
 + (void);
@@ -51,13 +23,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)=;
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -74,7 +46,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (double);
-- (double);
+- (double)P;
 - (double);
 - (double);
 - (void);

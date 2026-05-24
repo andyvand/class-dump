@@ -6,26 +6,15 @@
 
 #import <AppKit/NSPanel.h>
 
-@class CALayer, NSArray;
-
 __attribute__((visibility("hidden")))
 @interface _NSFullScreenTileOverlayWindow : NSPanel
 {
     _Bool _ignoreEvents;
-    _Bool _applyBlur;
-    _Bool _useLiveTileRect;
-    CALayer *_rootLayer;
-    NSArray *_tileLayers;
-    _Bool _beginningPresentation;
-    _Bool _endingPresentation;
-    _Bool _presented;
-    id _target;
-    SEL _action;
 }
 
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)ProximitySensorCalibration;
 - (id);
 - (void);
 - (struct CGRect);
@@ -33,21 +22,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)ionConnection"16@"NSHTTPURLResponse"24;
+- (_Bool)ive services;
+- (void);
 - (id);
 - (void);
-- (void);
+- (void)Hi ;
 - (void);
 - (SEL);
 - (void)_nameCache;
 
 // Remaining properties
-@property SEL action; // @synthesize action=_action;
-@property _Bool applyBlur;
 @property id target; // @synthesize target=_target;
-@property _Bool useLiveTileRect; // @synthesize useLiveTileRect=_useLiveTileRect;
 
 @end
 

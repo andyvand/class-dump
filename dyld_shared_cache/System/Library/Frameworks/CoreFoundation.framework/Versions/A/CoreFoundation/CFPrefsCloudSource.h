@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface CFPrefsCloudSource : CFPrefsPlistSource
 {
     const char *_configPath;
-    const char *_storeName;
-    _Bool _enabled;
 }
 
 - (void);
@@ -19,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)ÿ;
 - (void)o`^`YÜ`qïpªnPlrj­-^`N³ZUãmû|bÆ~w~#Sfá\ OAOírN¦SYTc(HQÙN¤~¸T$T7òm&_ÌZ>fi°s.s¿Sz¡ª[wP¿~øvaO¢Sv±{DXnaNÔeyæó`ÍT«Ny÷]ajÏPTa']xJRîT£V;
 - (void);
-- (id)ntationConfiguration;
+- (id)SBSInCallPresentationConfiguration;
 - (void);
 - (int)É;;
 - (void)Ì©ü¬´®Ä±³·ÃÉóÎô;

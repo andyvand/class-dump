@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (_Bool)sparencyReportToApplePopoverWithWindow:(struct CGPoint)arg1;
+- (_Bool)showKeyTransparencyReportToApplePopoverWithWindow:(struct CGPoint)arg1;
 - (void)ÿ;
 
 // Remaining properties

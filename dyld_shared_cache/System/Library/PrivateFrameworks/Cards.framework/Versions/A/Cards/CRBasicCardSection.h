@@ -4,18 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 @protocol SFCardSection;
 
 @interface CRBasicCardSection
 {
     NSString *_cardSectionIdentifier;
-    id <SFCardSection> _backingCardSection;
 }
 
-+ (id);
++ (id);					
+																					
+	opix = (opix1 + opix2 + opix3) * 0.33333333;									
+	opix.a = pix.a;																	
+																					
+    return opix;																	
+}																					
+					 																
+kernel vec4 luminize (sampler src1, sampler src2, sampler src3)						
+	__attribute__ ((no_merge_sample))												
+{																					
+	vec4 pix, outv;																	
+	pix = unpremultiply(sample(src1, samplerCoord(src1)));							
+	pix.rgb = sqrt(max(pix.rgb, 0.0));												
+	outv.r   = dot(pix.rgb, vec3(0.299, 0.587, 0.114));								
+	pix = unpremultiply(sample(src2, samplerCoord(src2)));							
+	pix.rgb = sqrt(max(pix.rgb, 0.0));												
+	outv.g   = dot(pix.rgb, vec3(0.299, 0.587, 0.114));								
+	pix = unpremultiply(sample(src3, samplerCoord(src3)));							
+	pix.rgb = sqrt(max(pix.rgb, 0.0));												
+	outv.b   = dot(pix.rgb, vec3(0.299, 0.587, 0.114));								
+	outv.a   = 1.0;																	
+	return outv;																	
+}																					
+;
 + (_Bool);
-- (void);
+- (void)TemporaryDirectory.ssEsu8/Sources/Photos_Apps/lib/geode/Source/Operations/Exposure/DGExposureOperation.m;
 - (id);
 - (id);
 - (id);
@@ -25,27 +48,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *actionCommands;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
 @property(retain, nonatomic) id <SFCardSection> backingCardSection; // @synthesize backingCardSection=_backingCardSection;
-@property(readonly, nonatomic) NSString *cardSectionIdentifier; // @synthesize cardSectionIdentifier=_cardSectionIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasNextCard;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *resolvedCardSections;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly) Class superclass;
 
 @end
 

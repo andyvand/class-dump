@@ -5,5 +5,6 @@
 //
 
 @protocol _LSDDisseminationServerProtocol
+- (void)	j;
 @end
 

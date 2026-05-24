@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSImageView, NSString, NSTextField, NSView;
-@protocol FrecentsStartPageViewItemDelegate, StartPageBackgroundImageIdentifierProvider;
+@class NSImageView, NSString;
 
 __attribute__((visibility("hidden")))
 @interface FrecentsStartPageViewItem
 {
     NSImageView *_thumbnailView;
-    NSImageView *_overlay;
-    NSTextField *_thumbnailLabel;
-    _Bool _didBeginDrag;
-    NSView *_boxShadow;
-    id <FrecentsStartPageViewItemDelegate> _delegate;
-    id <StartPageBackgroundImageIdentifierProvider> _backgroundImageIdentifierProvider;
 }
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -35,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (id)ion/IOPMrootDomain;
 - (void);
 - (id)è;
@@ -43,17 +36,6 @@ __attribute__((visibility("hidden")))
 - (void)Tn/;
 
 // Remaining properties
-@property(nonatomic) __weak id <StartPageBackgroundImageIdentifierProvider> backgroundImageIdentifierProvider; // @synthesize backgroundImageIdentifierProvider=_backgroundImageIdentifierProvider;
-@property(readonly, nonatomic) NSView *boxShadow; // @synthesize boxShadow=_boxShadow;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <FrecentsStartPageViewItemDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSImage *thumbnailImage;
 @property(copy, nonatomic) NSString *thumbnailText;
 
 @end

@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSUUID, NSValue;
+@class NSNumber, NSValue;
 
 @protocol TUScreenShareAttributes
++ (NSNumber *);
++ (NSNumber *);
 + (NSNumber *)àEùÑÐ1Â0@ù
 × ;
+- (NSValue *);
+- (void);
+- (long long);
+- (long long)boolForDefaultsKey: /* Error: Ran out of types for this method. */;
+- (void)not of type String.;
+- (id)d;
+- (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *cornerRadius;
 @property(nonatomic) long long deviceFamily;
-@property(nonatomic) long long deviceHomeButtonType;
-@property(retain, nonatomic) NSNumber *displayID;
-@property(retain, nonatomic) NSNumber *displayScale;
-@property(retain, nonatomic) NSNumber *frameRate;
-@property(retain, nonatomic) NSValue *originalResolution;
-@property(retain, nonatomic) NSNumber *scaleFactor;
-@property(nonatomic) long long style;
-@property(retain, nonatomic) NSValue *systemRootLayerTransform;
-@property(retain, nonatomic) NSUUID *windowUUID;
-@property(nonatomic, getter=isWindowed) _Bool windowed;
 @end
 

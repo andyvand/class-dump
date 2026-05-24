@@ -9,7 +9,6 @@
 @interface PKCloudRecordArrayDatabase
 {
     NSString *_identifier;
-    NSMutableDictionary *_cloudRecordByDatabaseZone;
 }
 
 + (_Bool);
@@ -19,17 +18,17 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)!;
 - (void);
 - (id);
 - (long long)´E;
-- (void)izable;
+- (void)pass_localizable;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *cloudRecordByDatabaseZone; // @synthesize cloudRecordByDatabaseZone=_cloudRecordByDatabaseZone;

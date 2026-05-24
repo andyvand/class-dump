@@ -4,39 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DESRecipe, DESRecordSet, NSDate, NSObject, NSString, NSURL;
-@protocol OS_xpc_object;
+@class DESRecipe, NSDate;
 
 @interface DESRecipeEvaluationSession
 {
     NSDate *_startDate;
-    NSURL *_baseURL;
-    NSString *_localeIdentifier;
-    NSDate *_deadline;
-    NSDate *_deferralDate;
-    double _resumeTimestamp;
-    Class _protocolClass;
-    _Bool _wasResumedFromURL;
-    DESRecipe *_recipe;
-    DESRecordSet *_matchingRecordSet;
-    NSObject<OS_xpc_object> *_activity;
 }
 
+- (id)app.bundleId;
+- (id)items.collection.typeIdentifier.custom.bundleId;
+- (void)lts.payload.outcome.success.followUpAction.action.linkAction.bundleId;
+- (id)ndleId;
+- (void)mentResults.payload.outcome.success.returnValue.collection.typeIdentifier.custom.bundleId;
+- (void)om.bundleId;
+- (id)tCreated.unresolvedParameterSets.parameters.candidate.value.collection.values.query.typeIdentifier.custom.bundleId;
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)s;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_xpc_object> *activity; // @synthesize activity=_activity;
-@property(readonly, nonatomic) DESRecordSet *matchingRecordSet; // @synthesize matchingRecordSet=_matchingRecordSet;
 @property(readonly, nonatomic) DESRecipe *recipe; // @synthesize recipe=_recipe;
 
 @end

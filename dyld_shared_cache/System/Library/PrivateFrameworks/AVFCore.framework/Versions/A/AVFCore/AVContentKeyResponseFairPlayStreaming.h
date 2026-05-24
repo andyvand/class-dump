@@ -6,13 +6,12 @@
 
 #import <AVFCore/AVContentKeyResponse.h>
 
-@class NSData, NSDate;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface AVContentKeyResponseFairPlayStreaming : AVContentKeyResponse
 {
     NSData *_keyData;
-    NSDate *_renewalDate;
 }
 
 - (id);

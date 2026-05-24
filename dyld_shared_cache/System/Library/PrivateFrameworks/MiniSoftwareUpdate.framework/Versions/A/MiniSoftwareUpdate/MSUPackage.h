@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, NSURL, PKPackageInfo, PKPackageReference;
+@class NSURL;
 
 @interface MSUPackage
 {
     _Bool _shouldDownload;
-    NSURL *_URL;
-    NSNumber *_size;
-    NSString *_digest;
-    NSURL *_metadataURL;
-    NSURL *_integrityDataURL;
-    NSString *_integrityDataDigest;
-    NSNumber *_integrityDataSize;
-    NSString *_identifier;
-    NSString *_version;
-    PKPackageInfo *_packageInfo;
 }
 
 - (_Bool);
@@ -30,35 +20,24 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)IMAssociatedMessageTypeAcknowledgmentThumbsDownRemoved;
+- (id)IMAssociatedMessageTypeAcknowledgmentThumbsDownRemoved;
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)C;
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 
 // Remaining properties
 @property(retain) NSURL *URL; // @synthesize URL=_URL;
-@property(retain) NSString *digest; // @synthesize digest=_digest;
-@property(retain) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain) NSString *integrityDataDigest; // @synthesize integrityDataDigest=_integrityDataDigest;
-@property(retain) NSNumber *integrityDataSize; // @synthesize integrityDataSize=_integrityDataSize;
-@property(retain) NSURL *integrityDataURL; // @synthesize integrityDataURL=_integrityDataURL;
-@property(retain) NSURL *metadataURL; // @synthesize metadataURL=_metadataURL;
-@property(retain) PKPackageInfo *packageInfo; // @synthesize packageInfo=_packageInfo;
-@property(readonly) PKPackageReference *packageReference;
-@property _Bool shouldDownload; // @synthesize shouldDownload=_shouldDownload;
-@property(retain) NSNumber *size; // @synthesize size=_size;
-@property(retain) NSString *version; // @synthesize version=_version;
 
 @end
 

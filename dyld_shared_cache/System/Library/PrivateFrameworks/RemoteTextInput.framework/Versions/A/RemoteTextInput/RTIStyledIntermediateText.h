@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString;
+@class NSString;
 
 @interface RTIStyledIntermediateText
 {
     unsigned long long _selectionOffset;
-    NSString *_inputString;
-    NSAttributedString *_displayString;
-    NSString *_searchString;
-    long long _cursorVisibility;
 }
 
 + (id);
@@ -35,11 +31,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) long long cursorVisibility; // @synthesize cursorVisibility=_cursorVisibility;
-@property(readonly, nonatomic) NSAttributedString *displayString; // @synthesize displayString=_displayString;
 @property(readonly, nonatomic) NSString *inputString; // @synthesize inputString=_inputString;
-@property(readonly, nonatomic) NSString *searchString; // @synthesize searchString=_searchString;
-@property(readonly, nonatomic) struct _NSRange selectedRange;
 
 @end
 

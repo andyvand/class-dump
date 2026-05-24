@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, TRIPBMessage;
+@class TRIPBMessage;
 
 @interface TRIPBInt32Int64Dictionary
 {
     TRIPBMessage *_autocreator;
-    NSMutableDictionary *_dictionary;
 }
 
 - (void);
@@ -18,20 +17,20 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)(;
 - (id);
 - (void);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
-- (void)derstandingTriggerExperiments;
+- (void);
+- (void)SiriUnderstandingTriggerExperiments;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;

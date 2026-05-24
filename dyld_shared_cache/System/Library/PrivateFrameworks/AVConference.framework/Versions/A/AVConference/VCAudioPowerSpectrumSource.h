@@ -6,13 +6,10 @@
 
 #import <AVConference/VCObject.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface VCAudioPowerSpectrumSource : VCObject
 {
     long long _streamToken;
-    struct _VCAudioPowerSpectrumSourceRealtimeContext _realtimeContext;
 }
 
 - (void);
@@ -25,15 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct _VCAudioPowerSpectrumSourceRealtimeContext *realtimeContext;
 @property(readonly, nonatomic) long long streamToken; // @synthesize streamToken=_streamToken;
-@property(readonly) Class superclass;
 
 @end
 

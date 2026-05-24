@@ -7,10 +7,6 @@
 @interface NewsFeed.NoopFeedAppConfigManager
 {
     id segmentSetIds;
-    id timesOfDayConfiguration;
-    id formatFeedConfig;
-    id puzzleRanksByPuzzleTypeId;
-    id countryFlagIconEnabledTagIds;
 }
 
 @end

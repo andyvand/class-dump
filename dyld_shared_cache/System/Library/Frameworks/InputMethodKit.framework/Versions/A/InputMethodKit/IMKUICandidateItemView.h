@@ -4,52 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKUICandidate, IMKUICandidateSeparatorView, NSImageView, NSString, NSView;
-@protocol IMKUICandidateItemViewHandling;
+@class IMKUICandidate, NSImageView;
 
 @interface IMKUICandidateItemView
 {
     IMKUICandidate *_candidateItem;
-    id <IMKUICandidateItemViewHandling> _delegate;
-    NSString *_hint;
-    NSImageView *_hintView;
-    NSString *_selectionKey;
-    NSView *_supplementalContentView;
-    IMKUICandidateSeparatorView *_separatorView;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (id)9	;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (_Bool);
-- (id);
 - (id);
 - (void);
+- (_Bool)WRMRemAlrtUpdate;
+- (id);
+- (id);
+- (void)P;
+- (void)_studioLightStatus;
 - (void);
-- (void);
-- (void)ems:(id)arg1;
+- (void)initWithArray:(id)arg1 copyItems: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) IMKUICandidate *candidateItem; // @synthesize candidateItem=_candidateItem;
-@property(nonatomic) __weak id <IMKUICandidateItemViewHandling> delegate; // @synthesize delegate=_delegate;
-@property(copy, nonatomic) NSString *hint; // @synthesize hint=_hint;
 @property(retain, nonatomic) NSImageView *hintView; // @synthesize hintView=_hintView;
-@property(copy, nonatomic) NSString *selectionKey; // @synthesize selectionKey=_selectionKey;
-@property(retain, nonatomic) IMKUICandidateSeparatorView *separatorView; // @synthesize separatorView=_separatorView;
 
 @end
 

@@ -10,14 +10,11 @@
 - (_Bool);
 - (float);
 - (struct CGRect)MpV7\u¹þUpV7\u¹þ;
-- (void)SONUnkeyedEncodingContainer;
-- (void)izeInput;
+- (void)_JSONUnkeyedEncodingContainer;
+- (void)InteractiveResizeInput;
 - (NSString *);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect boundingRect;
-@property(readonly, nonatomic) float contentHeadroom;
 @property(readonly, nonatomic, getter=isEmpty) _Bool empty;
-@property(readonly, copy, nonatomic) NSString *xmlDescription;
 @end
 

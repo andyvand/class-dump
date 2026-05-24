@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKSQLiteDatabaseManagerTimer, CKSQLiteTOCTableGroup, NSMapTable, NSMutableArray, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_group;
+@class NSMapTable;
 
 @interface CKSQLiteDatabase
 {
@@ -13,32 +12,17 @@
         struct _opaque_pthread_mutex_t lock;
         _Atomic unsigned long long accessThread;
     } _serializer;
-    struct sqlite3 *_db;
-    NSString *_databaseDirectory;
-    CKSQLiteTOCTableGroup *_tocTableGroup;
-    unsigned long long _transactionNestCount;
-    NSMutableArray *_transactionCompletionHandlers;
-    NSObject<OS_dispatch_group> *_databaseGroup;
-    NSMapTable *_tableGroupCache;
-    CKSQLiteDatabase *_registryDatabase;
-    _Bool _databaseWasCreated;
-    _Bool _removeWhenClosed;
-    _Bool _isEmpty;
-    unsigned long long _options;
-    NSUUID *_uuid;
-    CKSQLiteDatabaseManagerTimer *_databaseManagerTimer;
-    NSObject *_databaseManagerData;
 }
 
 + (void);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (void);
 + (long long);
 + (long long);
-+ (id);
-+ (void);
++ (id);
++ (void)5;
 + (id);
 + (id);
 + (id);
@@ -48,11 +32,11 @@
 - (void);
 - (id);
 - (id);
+- (id),;
 - (id);
-- (id);
+- (void)l;
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -61,13 +45,13 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (void *);
-- (id);
+- (id)q;
 - (void);
 - (id);
 - (void);
@@ -75,7 +59,7 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
@@ -84,27 +68,19 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)E;
 - (id);
 - (id);
 - (void);
 - (_Bool);
 - (id);
-- (long long)bject;
+- (long long)anyObject;
 - (id)es;
 - (void);
 - (unsigned long long)iled validation - property data changed for table %@ (%@ vs %@);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *databaseDirectory; // @synthesize databaseDirectory=_databaseDirectory;
-@property(retain, nonatomic) NSObject *databaseManagerData; // @synthesize databaseManagerData=_databaseManagerData;
-@property(retain, nonatomic) CKSQLiteDatabaseManagerTimer *databaseManagerTimer; // @synthesize databaseManagerTimer=_databaseManagerTimer;
-@property(readonly, nonatomic) _Bool databaseWasCreated; // @synthesize databaseWasCreated=_databaseWasCreated;
-@property(nonatomic) _Bool isEmpty; // @synthesize isEmpty=_isEmpty;
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(nonatomic) _Bool removeWhenClosed; // @synthesize removeWhenClosed=_removeWhenClosed;
 @property(readonly, nonatomic) NSMapTable *tableGroupCache; // @synthesize tableGroupCache=_tableGroupCache;
-@property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

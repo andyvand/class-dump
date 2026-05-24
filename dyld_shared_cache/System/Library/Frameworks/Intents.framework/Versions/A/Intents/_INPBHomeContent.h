@@ -4,48 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBHomeFilter;
+@class NSArray;
 
 @interface _INPBHomeContent
 {
     struct _has;
-    NSArray *_actions;
-    _INPBHomeFilter *_filter;
 }
 
 + (Class);
 + (_Bool);
 - (id);
-- (void);
+- (void)B&;
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)ould not allocate bitmap buffer;
+- (unsigned long long);
+- (_Bool);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (void);
+- (void)@);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void)SlotValueTransformer;
-- (void)VITY;
+- (void)INIntentMessageAttachmentSlotValueTransformer;
+- (void)CURRENT_ACTIVITY;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *actions; // @synthesize actions=_actions;
-@property(readonly, nonatomic) unsigned long long actionsCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) _INPBHomeFilter *filter; // @synthesize filter=_filter;
-@property(readonly, nonatomic) _Bool hasFilter;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

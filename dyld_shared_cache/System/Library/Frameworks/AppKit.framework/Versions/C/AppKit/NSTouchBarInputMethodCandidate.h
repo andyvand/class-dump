@@ -4,43 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NSTouchBarInputMethodCandidate
 {
     unsigned long long _identifier;
-    NSString *_title;
-    NSString *_surface;
-    NSString *_annotation;
 }
 
 + (_Bool)¸;
-- (id);
+- (id)disk0 not a CFNumber!;
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (id);
+- (id);
+- (void);
+- (unsigned long long)?;
 - (void);
 - (void)ä31Â0@ù
 × ;
 - (void)ubclassOverrides_rowAtPoint"b1"subclassOverrides_rowForView"b1"subclassOverrides_rowsInRect"b1"subclassOverrides_selectMultiIndexVersion"b1"subscribedToWindowWillOrderOnScreen"b1"suppressRowChangedNotifications"b1"suppressSyrahSourceListAttributes"b1"tileNeeded"b1"unarchiving"b1"updatingRowData"b1"useUncachedRowHeight"b1"usesAutomaticRowHeights"b1"usesAutomaticStyle"b1"usesStandardAlternatingRowColors"b1"verticalMotionCanBeginDrag"b1"wantsFirstResponderOnlyOnNonMouseEvents"b1"suppressColumnVisibilityMenu"b1};
 - (unsigned long long)ph;
 - (id)GÎÝ;
-- (void)Flags;
+- (void)NSCellFlags;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *annotation; // @synthesize annotation=_annotation;
 @property(readonly, nonatomic) _Bool canCacheSize;
-@property(nonatomic) unsigned long long identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSString *stringIdentifier;
-@property(copy, nonatomic) NSString *surface; // @synthesize surface=_surface;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

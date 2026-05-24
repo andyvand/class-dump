@@ -4,30 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor, UIImage;
+@class NSString;
 
 @interface ChatKit.CKCallButtonConfiguration
 {
     void title;
-    UIImage *symbolImage;
-    UIColor *textColor;
-    UIColor *imageColor;
-    _Bool wantsExtraPadding;
-    UIColor *buttonTintColor;
 }
 
++ (id)identifier;
++ (id)ttonFromButton:] /* Error: Ran out of types for this method. */;
++ (id)uchBarController dfrButtonFromButton:] /* Error: Ran out of types for this method. */;
++ (id)ller removeButton:] /* Error: Ran out of types for this method. */;
++ (id)er.m;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)i;
 + (id);
 - (_Bool);
-- (id);
+- (id)systemGrayColor;
 - (void);
-- (id);
+- (id)n for attachment because it is either cancelled or not needed:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -37,12 +32,7 @@
 - (void)rangeOfMention.length - 1;
 
 // Remaining properties
-@property(nonatomic, readonly) UIColor *buttonTintColor; // @synthesize buttonTintColor;
-@property(nonatomic, readonly) UIColor *imageColor; // @synthesize imageColor;
-@property(nonatomic, readonly) UIImage *symbolImage; // @synthesize symbolImage;
-@property(nonatomic, readonly) UIColor *textColor; // @synthesize textColor;
 @property(nonatomic, readonly) NSString *title;
-@property(nonatomic, readonly) _Bool wantsExtraPadding; // @synthesize wantsExtraPadding;
 
 @end
 

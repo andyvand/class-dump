@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _GEOWalkingRouteMatcherContiguousSegment
 {
     NSArray *_candidateSegments;
-    unsigned long long _bestCandidateIndex;
 }
 
 - (void);

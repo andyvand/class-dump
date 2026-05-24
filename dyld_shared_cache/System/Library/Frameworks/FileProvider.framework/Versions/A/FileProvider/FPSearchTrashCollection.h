@@ -6,21 +6,18 @@
 
 #import <FileProvider/FPUnionCollection.h>
 
-@class FPSearchCollection, FPTrashUnionCollection, NSFileProviderSearchQuery, NSPredicate;
+@class FPSearchCollection, NSFileProviderSearchQuery;
 
 @interface FPSearchTrashCollection : FPUnionCollection
 {
     FPSearchCollection *_searchCollection;
-    FPTrashUnionCollection *_trashCollection;
-    NSPredicate *_searchQueryPredicate;
-    unsigned long long _selectedMembership;
 }
 
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)P;
 - (void)Ñç)1Â0@ù
 × ;
 

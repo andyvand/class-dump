@@ -19,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)S(;
 - (_Bool);
 - (double);
 - (double);
@@ -29,17 +29,12 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (void)eDisplays;
+- (void)P;
+- (id)lineJoin;
+- (void)kCADetachReasonCodeSpansMultipleDisplays;
 
 // Remaining properties
-@property double contentsOneValueDistance;
-@property double contentsZeroValueDistance;
-@property double gradientOvalization;
-@property _Bool hitTestsAsFill;
 @property(copy) NSString *mode;
-@property(copy) NSString *operation;
 
 @end
 

@@ -11,10 +11,6 @@
 @interface INIntentExecutionInfo : INExecutionInfo
 {
     NSArray *_extensions;
-    NSArray *_uiExtensions;
-    NSString *_intentClassName;
-    long long _preferredCallProvider;
-    NSString *_uiExtensionBundleId;
 }
 
 + (void)#¸;
@@ -28,16 +24,13 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)kernel_type;
 - (id);
 - (id);
-- (void)ltEntityNameForCreateFile: /* Error: Ran out of types for this method. */;
+- (void)defaultEntityNameForCreateFile: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasCustomUIExtension;
 @property(readonly, copy, nonatomic) NSString *intentClassName; // @synthesize intentClassName=_intentClassName;
-@property(readonly, nonatomic) long long preferredCallProvider; // @synthesize preferredCallProvider=_preferredCallProvider;
-@property(readonly, copy, nonatomic) NSString *uiExtensionBundleId; // @synthesize uiExtensionBundleId=_uiExtensionBundleId;
 
 @end
 

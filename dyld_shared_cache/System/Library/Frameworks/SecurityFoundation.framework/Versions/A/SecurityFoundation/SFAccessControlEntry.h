@@ -16,10 +16,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool):authority /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id);
+- (id)tribute:(id)arg1 analysisAttributes:getTagBlock:] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
@@ -29,9 +29,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bundleID;
-@property(nonatomic) _Bool canRead;
-@property(nonatomic) _Bool canWrite;
-@property(nonatomic, getter=isOwner) _Bool owner;
 
 @end
 

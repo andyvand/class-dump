@@ -18,7 +18,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *plainTextContentBody;
 
 @end
 

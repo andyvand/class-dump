@@ -6,32 +6,9 @@
 
 #import <SystemMigration/SMCustomizeTree_Client.h>
 
-@class NSNumber, NSString, SMCustomizeTreeNode_Client;
-
 @interface SMMacCustomizeTree_Client : SMCustomizeTree_Client
 {
     _Bool _simpleModeTree;
-    _Bool _overallConflict;
-    NSString *migratableStateDescription;
-    NSNumber *filesProcessed;
-    SMCustomizeTreeNode_Client *_settings;
-    SMCustomizeTreeNode_Client *_network;
-    SMCustomizeTreeNode_Client *_machine;
-    SMCustomizeTreeNode_Client *_security;
-    SMCustomizeTreeNode_Client *_applications;
-    SMCustomizeTreeNode_Client *_printers;
-    SMCustomizeTreeNode_Client *_library;
-    SMCustomizeTreeNode_Client *_fsRoot;
-    SMCustomizeTreeNode_Client *_documentsAndData;
-    NSString *_userRecommendedForManagedMigration;
-    SMCustomizeTreeNode_Client *_volumes;
-    SMCustomizeTreeNode_Client *_serverData;
-    unsigned long long _applicationFilesProcessed;
-    unsigned long long _otherFilesProcessed;
-    unsigned long long _systemSettingsFilesProcessed;
-    unsigned long long _printerFilesProcessed;
-    unsigned long long _serverFilesProcessed;
-    unsigned long long _noGroupFilesProcessed;
 }
 
 + (id);
@@ -51,6 +28,11 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -58,12 +40,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)B;
 - (id);
 - (unsigned long long);
 - (void);
@@ -78,7 +55,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (_Bool);
@@ -92,7 +69,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (Class);
 - (_Bool);
 - (void);
@@ -102,7 +79,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)initWithBuffer:endAccessOnDealloc: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -115,28 +92,7 @@
 - (void)ystemRulePluginHandler executePluginWithCompletion]_block_invoke_2;
 
 // Remaining properties
-@property unsigned long long applicationFilesProcessed; // @synthesize applicationFilesProcessed=_applicationFilesProcessed;
-@property(retain) SMCustomizeTreeNode_Client *applications; // @synthesize applications=_applications;
-@property(retain) SMCustomizeTreeNode_Client *documentsAndData; // @synthesize documentsAndData=_documentsAndData;
-@property(copy) NSNumber *filesProcessed; // @synthesize filesProcessed;
-@property(retain) SMCustomizeTreeNode_Client *fsRoot; // @synthesize fsRoot=_fsRoot;
-@property(retain) SMCustomizeTreeNode_Client *library; // @synthesize library=_library;
-@property(retain) SMCustomizeTreeNode_Client *machine; // @synthesize machine=_machine;
-@property(retain) NSString *migratableStateDescription; // @synthesize migratableStateDescription;
-@property(retain) SMCustomizeTreeNode_Client *network; // @synthesize network=_network;
-@property unsigned long long noGroupFilesProcessed; // @synthesize noGroupFilesProcessed=_noGroupFilesProcessed;
-@property unsigned long long otherFilesProcessed; // @synthesize otherFilesProcessed=_otherFilesProcessed;
 @property _Bool overallConflict; // @synthesize overallConflict=_overallConflict;
-@property unsigned long long printerFilesProcessed; // @synthesize printerFilesProcessed=_printerFilesProcessed;
-@property(retain) SMCustomizeTreeNode_Client *printers; // @synthesize printers=_printers;
-@property(retain) SMCustomizeTreeNode_Client *security; // @synthesize security=_security;
-@property(retain) SMCustomizeTreeNode_Client *serverData; // @synthesize serverData=_serverData;
-@property unsigned long long serverFilesProcessed; // @synthesize serverFilesProcessed=_serverFilesProcessed;
-@property(retain) SMCustomizeTreeNode_Client *settings; // @synthesize settings=_settings;
-@property _Bool simpleModeTree; // @synthesize simpleModeTree=_simpleModeTree;
-@property unsigned long long systemSettingsFilesProcessed; // @synthesize systemSettingsFilesProcessed=_systemSettingsFilesProcessed;
-@property(retain) NSString *userRecommendedForManagedMigration; // @synthesize userRecommendedForManagedMigration=_userRecommendedForManagedMigration;
-@property(retain) SMCustomizeTreeNode_Client *volumes; // @synthesize volumes=_volumes;
 
 @end
 

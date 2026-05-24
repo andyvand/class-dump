@@ -16,7 +16,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *uninterpretedOptionArray; // @dynamic uninterpretedOptionArray;
-@property(readonly, nonatomic) unsigned long long uninterpretedOptionArray_Count; // @dynamic uninterpretedOptionArray_Count;
 
 @end
 

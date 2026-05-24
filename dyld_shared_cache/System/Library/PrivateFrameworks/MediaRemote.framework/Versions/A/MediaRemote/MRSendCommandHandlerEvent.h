@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, _MRSendCommandMessageProtobuf;
+@class _MRSendCommandMessageProtobuf;
 
 @interface MRSendCommandHandlerEvent
 {
     unsigned int _command;
-    NSDictionary *_options;
 }
 
 + (id);
@@ -24,9 +23,6 @@
 - (void)uf",&,N,V_volumeMutedDidChangeMessage;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int command; // @synthesize command=_command;
-@property(readonly, nonatomic) NSString *commandDescription;
-@property(readonly, nonatomic) NSDictionary *options; // @synthesize options=_options;
 @property(readonly, copy, nonatomic) _MRSendCommandMessageProtobuf *protobuf;
 
 @end

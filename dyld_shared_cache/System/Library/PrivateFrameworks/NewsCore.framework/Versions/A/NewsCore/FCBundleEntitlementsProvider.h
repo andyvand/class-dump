@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCEntitlementService;
 @protocol FCCoreConfigurationManager, FCEntitlementsOverrideProviderType;
 
 @interface FCBundleEntitlementsProvider
 {
     id <FCEntitlementsOverrideProviderType> entitlementsOverrideProvider;
-    id <FCCoreConfigurationManager> _configurationManager;
-    FCEntitlementService *_entitlementService;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)er",C,V_inputHighlightAmount;
 - (void);
 - (void);
 - (id);
@@ -25,8 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <FCCoreConfigurationManager> configurationManager; // @synthesize configurationManager=_configurationManager;
-@property(readonly, nonatomic) FCEntitlementService *entitlementService; // @synthesize entitlementService=_entitlementService;
-@property(retain, nonatomic) id <FCEntitlementsOverrideProviderType> entitlementsOverrideProvider; // @synthesize entitlementsOverrideProvider;
 
 @end
 

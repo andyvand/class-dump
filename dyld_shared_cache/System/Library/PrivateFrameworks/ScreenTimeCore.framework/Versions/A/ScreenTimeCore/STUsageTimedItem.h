@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, STUsageCategory;
+@class NSString;
 
 @interface STUsageTimedItem
 {
@@ -13,9 +13,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *bundleIdentifier; // @dynamic bundleIdentifier;
-@property(readonly, nonatomic) STUsageCategory *category; // @dynamic category;
-@property(readonly, nonatomic) NSString *domain; // @dynamic domain;
-@property(readonly, nonatomic) long long totalTimeInSeconds; // @dynamic totalTimeInSeconds;
-@property(readonly, nonatomic) _Bool usageTrusted; // @dynamic usageTrusted;
 @end
 

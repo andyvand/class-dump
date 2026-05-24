@@ -5,5 +5,6 @@
 //
 
 @protocol UITableViewDataSource
+- (long long)CircleTrustEnvelopeV1_Encoder;
 @end
 

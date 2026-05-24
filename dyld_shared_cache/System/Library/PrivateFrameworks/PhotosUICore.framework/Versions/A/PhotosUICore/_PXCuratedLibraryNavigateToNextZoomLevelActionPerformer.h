@@ -6,12 +6,11 @@
 
 #import <PhotosUICore/PXCuratedLibraryActionPerformer.h>
 
-@class PXGLayout, PXGSpriteReference;
+@class PXGLayout;
 
 @interface _PXCuratedLibraryNavigateToNextZoomLevelActionPerformer : PXCuratedLibraryActionPerformer
 {
     PXGLayout *_layout;
-    PXGSpriteReference *_hitSpriteReference;
 }
 
 - (id);
@@ -22,7 +21,6 @@
 - (void)P;
 
 // Remaining properties
-@property(readonly, nonatomic) PXGSpriteReference *hitSpriteReference; // @synthesize hitSpriteReference=_hitSpriteReference;
 @property(readonly, nonatomic) PXGLayout *layout; // @synthesize layout=_layout;
 
 @end

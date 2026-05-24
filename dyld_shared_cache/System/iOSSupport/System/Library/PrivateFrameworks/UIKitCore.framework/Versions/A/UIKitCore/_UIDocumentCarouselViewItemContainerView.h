@@ -6,20 +6,18 @@
 
 #import <UIKitCore/UIView.h>
 
-@protocol UIContentConfiguration, _UIContentViewInternal;
+@protocol _UIContentViewInternal;
 
 __attribute__((visibility("hidden")))
 @interface _UIDocumentCarouselViewItemContainerView : UIView
 {
     id <_UIContentViewInternal> _viewForConfiguration;
-    UIView *_contentView;
-    struct CGSize _cachedContentSize;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)updateHasCancellableScheduledMessage:(id)arg1;
+- (void)declineInvitationToChatID:identifier:style:account: /* Error: Ran out of types for this method. */;
+- (id)_updateCloudKitRecordIDAndDecryptionKeyIfNeeded:(id)arg1;
+- (id)MIMETypeOfPath: /* Error: Ran out of types for this method. */;
 - (struct CGSize);
 - (void);
 - (struct UIEdgeInsets)Ô ;
@@ -29,8 +27,6 @@ __attribute__((visibility("hidden")))
 - (id)@-ÚDEb;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGSize cachedContentSize; // @synthesize cachedContentSize=_cachedContentSize;
-@property(copy, nonatomic) id <UIContentConfiguration> contentConfiguration;
 @property(readonly, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;
 
 @end

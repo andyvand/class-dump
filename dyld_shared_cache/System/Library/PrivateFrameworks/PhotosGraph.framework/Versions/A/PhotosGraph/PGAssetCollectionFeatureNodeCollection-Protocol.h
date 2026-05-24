@@ -7,6 +7,7 @@
 @class PGGraphFeatureNodeCollection;
 
 @protocol PGAssetCollectionFeatureNodeCollection
+- (PGGraphFeatureNodeCollection *)setCurrentToken: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) PGGraphFeatureNodeCollection *featureNodeCollection;

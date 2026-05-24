@@ -8,12 +8,12 @@
 {
 }
 
++ (void);
++ (void)o;
++ (void);
 + (void);
 + (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
++ (void)o;
 
 @end
 

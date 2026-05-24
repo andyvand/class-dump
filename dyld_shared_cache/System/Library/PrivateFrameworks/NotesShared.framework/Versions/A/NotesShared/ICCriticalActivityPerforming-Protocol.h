@@ -5,6 +5,8 @@
 //
 
 @protocol ICCriticalActivityPerforming
+- (void);
+- (_Bool)not found in locale '%@';
 
 // Remaining properties
 @property(readonly) _Bool hasPendingCriticalActivities;

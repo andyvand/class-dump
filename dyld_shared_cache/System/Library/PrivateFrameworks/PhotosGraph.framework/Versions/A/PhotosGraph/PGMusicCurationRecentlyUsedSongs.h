@@ -9,18 +9,18 @@
 @interface PGMusicCurationRecentlyUsedSongs
 {
     id mostRecentlyUsedSongIDDateMap;
-    id recentlyUsedToExclude;
 }
 
++ (id)?;
++ (id)aclRequiresPasscodeInternal;
++ (id)ge = %u.
+;
 + (id);
-+ (id);
-+ (id);
-+ (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);

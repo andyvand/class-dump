@@ -11,11 +11,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (void)setHighlightedMessages:(id)arg1;
+- (_Bool)setAlternate:(id)arg1;
+- (id)selectionIndexes;
+- (id)selectionCardinality;
+- (id)selectedContentBackgroundColor;
 - (id);
 - (_Bool);
 - (_Bool);

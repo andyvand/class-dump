@@ -4,30 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface FBSSetting
 {
     struct os_unfair_lock_s _lock;
-    Class _settingsClass;
-    _Bool _lock_initialized;
-    _Bool _local;
-    _Bool _legacy;
-    BOOL _type;
-    _Bool _isBSSettings;
-    _Bool _redacted;
-    _Bool _volatile;
-    _Bool _propagating;
-    _Bool _nullPreserving;
-    NSString *_name;
-    unsigned long long _setting;
-    unsigned long long _legacySetting;
-    Class _extension;
-    NSString *_extensionID;
-    Class _expectedClass;
-    long long _specialCollection;
-    id _defaultValue;
-    CDUnknownBlockType _descriptionProvider;
 }
 
 - (void);
@@ -42,7 +21,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (_Bool);
@@ -50,13 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

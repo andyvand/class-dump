@@ -5,28 +5,21 @@
 //
 
 @class NSArray, NSString, UIView;
-@protocol UIFocusEnvironment, UIFocusItemContainer;
+@protocol UIFocusItemContainer;
 
 @protocol UIFocusEnvironment
-- (NSArray *)tatusBarPartStyles;
+- (void)KeyedContainer;
+- (id <UIFocusItemContainer>)I;
+- (NSArray *)_statusBarPartStyles;
 - (void)P;
 - (_Bool)eryResult"8;
 
 @optional
+- (NSString *);
 - (NSString *);
-- (UIView *)updateTransformForPrimaryState: /* Error: Ran out of types for this method. */;
+- (UIView *)_modern_updateTransformForPrimaryState: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *focusGroupIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) id <UIFocusItemContainer> focusItemContainer;
-@property(readonly, nonatomic) __weak id <UIFocusEnvironment> parentFocusEnvironment;
 @property(readonly, copy, nonatomic) NSArray *preferredFocusEnvironments;
-@property(readonly, nonatomic) __weak UIView *preferredFocusedView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIView",?,R,W,N
-
 @end
 

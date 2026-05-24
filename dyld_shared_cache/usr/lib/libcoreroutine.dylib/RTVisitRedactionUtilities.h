@@ -10,7 +10,7 @@
 
 + (id);
 + (_Bool);
-+ (id);
++ (id)/A/CoreFoundation;
 + (id);
 
 @end

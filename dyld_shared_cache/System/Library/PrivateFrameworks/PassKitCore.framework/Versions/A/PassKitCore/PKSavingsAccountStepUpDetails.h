@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface PKSavingsAccountStepUpDetails
 {
     _Bool _thresholdExceeded;
-    NSDate *_neededBy;
 }
 
-+ (_Bool);
++ (_Bool)__objc_classlist__DATA_CONST;
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
-- (id);
+- (id){#;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)_mptcpTriggeredCell;
 - (id);
-- (id)edSourceDeviceDescription;
-- (void)cePromotion;
+- (id)localizedSourceDeviceDescription;
+- (void)cardBalancePromotion;
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *neededBy; // @synthesize neededBy=_neededBy;
 @property(nonatomic) _Bool thresholdExceeded; // @synthesize thresholdExceeded=_thresholdExceeded;
 
 @end

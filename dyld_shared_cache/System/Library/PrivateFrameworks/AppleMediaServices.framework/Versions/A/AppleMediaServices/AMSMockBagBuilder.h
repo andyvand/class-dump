@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableDictionary, NSString;
+@class NSDate, NSMutableDictionary;
 
 @interface AMSMockBagBuilder
 {
     NSDate *_expirationDate;
-    NSString *_profile;
-    NSString *_profileVersion;
-    NSMutableDictionary *_data;
 }
 
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (id)setTotalMessagesReceivedCount: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -31,9 +28,6 @@
 
 // Remaining properties
 @property(retain) NSMutableDictionary *data; // @synthesize data=_data;
-@property(retain) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(retain) NSString *profile; // @synthesize profile=_profile;
-@property(retain) NSString *profileVersion; // @synthesize profileVersion=_profileVersion;
 
 @end
 

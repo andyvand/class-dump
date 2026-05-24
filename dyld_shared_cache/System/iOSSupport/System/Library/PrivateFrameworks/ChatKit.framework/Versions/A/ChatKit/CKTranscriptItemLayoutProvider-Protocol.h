@@ -4,12 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class NSCollectionLayoutEdgeSpacing, NSCollectionLayoutItem;
 
 @protocol CKTranscriptItemLayoutProvider
+- (NSCollectionLayoutItem *)beginSkippingTimestampUpdates;
+- (NSCollectionLayoutEdgeSpacing *)beginPreventEditingUpdates;
+- (Class);
 
 // Remaining properties
 @property(readonly, nonatomic) Class chatItemClass;
-@property(readonly, copy, nonatomic) NSString *layoutGroupIdentifier;
 @end
 

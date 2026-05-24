@@ -9,26 +9,21 @@
 @interface MPRandomDistribution
 {
     id <MPRandom> _source;
-    long long _lowestValue;
-    long long _highestValue;
-    unsigned long long _numberOfPossibleOutcomes;
 }
 
 + (_Bool);
 - (unsigned long long);
-- (unsigned long long);
-- (long long);
+- (unsigned long long)c}@;
+- (long long)X;
 - (id);
 - (long long);
 - (id);
 - (id);
 - (void);
-- (void)sEvent;
+- (void)_mediaRemoteLyricsEvent;
 
 // Remaining properties
-@property(readonly, nonatomic) long long highestValue; // @synthesize highestValue=_highestValue;
 @property(readonly, nonatomic) long long lowestValue; // @synthesize lowestValue=_lowestValue;
-@property(readonly, nonatomic) unsigned long long numberOfPossibleOutcomes; // @synthesize numberOfPossibleOutcomes=_numberOfPossibleOutcomes;
 
 @end
 

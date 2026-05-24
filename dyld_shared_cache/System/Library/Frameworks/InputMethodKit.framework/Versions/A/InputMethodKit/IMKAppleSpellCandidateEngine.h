@@ -6,41 +6,32 @@
 
 #import <InputMethodKit/IMKCandidateEngine.h>
 
-@class NSString;
-@protocol IMKMacSpellChecker;
-
 @interface IMKAppleSpellCandidateEngine : IMKCandidateEngine
 {
     _Bool _shouldLearn;
-    long long _processID;
-    long long _spellDocumentTag;
-    NSString *_bundleID;
-    id <IMKMacSpellChecker> _spellChecker;
 }
 
 - (unsigned long long);
 - (long long);
 - (_Bool);
+- (void);
+- (id);
+- (void)hN
+9;
+- (id);
+- (id)Tk
+;
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)[W;
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)%@(%p) delegate could not be loaded;
 - (void);
 - (long long)P(;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
 @property(nonatomic) long long processID; // @synthesize processID=_processID;
-@property(nonatomic) _Bool shouldLearn; // @synthesize shouldLearn=_shouldLearn;
-@property(readonly, nonatomic) id <IMKMacSpellChecker> spellChecker; // @synthesize spellChecker=_spellChecker;
-@property(nonatomic) long long spellDocumentTag; // @synthesize spellDocumentTag=_spellDocumentTag;
 
 @end
 

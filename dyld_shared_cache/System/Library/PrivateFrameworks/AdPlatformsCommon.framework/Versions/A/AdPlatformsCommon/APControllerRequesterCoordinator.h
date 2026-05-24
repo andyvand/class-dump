@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class APUnfairRecursiveLock, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface APControllerRequesterCoordinator
 {
     NSMutableDictionary *_requestDelegates;
-    APUnfairRecursiveLock *_lock;
 }
 
 + (_Bool);
@@ -38,7 +37,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) APUnfairRecursiveLock *lock; // @synthesize lock=_lock;
 @property(retain, nonatomic) NSMutableDictionary *requestDelegates; // @synthesize requestDelegates=_requestDelegates;
 
 @end

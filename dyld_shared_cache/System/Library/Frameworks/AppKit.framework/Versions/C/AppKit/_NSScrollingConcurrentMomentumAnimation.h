@@ -6,19 +6,16 @@
 
 #import <AppKit/_NSScrollingConcurrentVBLPreprocessFilter.h>
 
-@class _NSScrollingConcurrentConstantData, _NSScrollingMomentumCalculator;
+@class _NSScrollingMomentumCalculator;
 
 __attribute__((visibility("hidden")))
 @interface _NSScrollingConcurrentMomentumAnimation : _NSScrollingConcurrentVBLPreprocessFilter
 {
     double _initialTimestamp;
-    struct CGPoint _lastSetOrigin;
-    _NSScrollingMomentumCalculator *_momentumCalculator;
-    _NSScrollingConcurrentConstantData *_constantData;
 }
 
 - (void);
-- (void);
+- (void)eckProducerIDRevocation;
 - (id);
 - (id);
 - (void);

@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PKApplePayTrustKey
 {
     NSString *_identifier;
-    NSData *_signedEnrollmentData;
-    NSData *_publicKeyHash;
-    NSData *_certificate;
 }
 
 + (_Bool)0@ù
 × ;
+- (id)S;
+- (id);
 - (id);
+- (id));
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)QKpp5;
 - (id)
 × ;
 - (void)ExpressPassCredentialEntry"16^B24;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *certificate; // @synthesize certificate=_certificate;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSData *publicKeyHash; // @synthesize publicKeyHash=_publicKeyHash;
-@property(readonly, copy, nonatomic) NSData *signedEnrollmentData; // @synthesize signedEnrollmentData=_signedEnrollmentData;
 
 @end
 

@@ -11,9 +11,9 @@
     NSArray *_valueTransformers;
 }
 
-- (id);
+- (id)A;
 - (void);
-- (id);
+- (id)st TFENodeVector &)>="__f_"{__value_func<int (NSObject *, const TFENodeVector &)>="__buf_"(type="__data"[24C])"__f_"^v}};
 - (id);
 - (id);
 - (void);

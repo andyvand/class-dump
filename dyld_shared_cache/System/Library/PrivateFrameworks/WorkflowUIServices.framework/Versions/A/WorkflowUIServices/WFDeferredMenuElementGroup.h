@@ -4,48 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface WFDeferredMenuElementGroup
 {
     _Bool onlyDisplayTitleWhenCollapsed;
-    _Bool _mayContainSelectedItem;
-    unsigned long long style;
-    NSString *title;
-    CDUnknownBlockType _itemProvider;
-    long long _estimatedItemCount;
 }
 
-- (_Bool);
+- (_Bool)g;
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (long long);
+- (_Bool)T;
+- (long long);
 - (unsigned long long);
 - (CDUnknownBlockType);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)UIRectCorner;
+- (void)P;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long estimatedItemCount; // @synthesize estimatedItemCount=_estimatedItemCount;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) CDUnknownBlockType itemProvider; // @synthesize itemProvider=_itemProvider;
-@property(nonatomic) _Bool mayContainSelectedItem; // @synthesize mayContainSelectedItem=_mayContainSelectedItem;
-@property(nonatomic) _Bool onlyDisplayTitleWhenCollapsed; // @synthesize onlyDisplayTitleWhenCollapsed;
-@property(nonatomic) unsigned long long style; // @synthesize style;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *title; // @synthesize title;
 
 @end
 

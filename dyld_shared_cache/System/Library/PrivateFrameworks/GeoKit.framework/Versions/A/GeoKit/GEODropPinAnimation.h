@@ -9,30 +9,20 @@
 @interface GEODropPinAnimation
 {
     CALayer *pinLayer;
-    CALayer *pinShadowLayer;
-    struct CGPoint pinDestinationCenter;
-    struct CGRect pinSuperLayerFrame;
-    struct CGRect pinLayerFrame;
-    struct CGRect pinShadowLayerFrame;
-    struct CGSize pinImageSize;
-    struct CGSize pinShadowImageSize;
-    float cos45;
-    float sin45;
 }
 
-- (void);
+- (void)t by reusing its password.;
+- (void)[%{public}@] Attempting to authenticate the account by reusing its password.;
+- (id)sting account. altDSID = %{public}@ | DSID = %{public}@ | username = %{public}@;
+- (struct CGPoint){public}@:[%{public}@] Looking for an existing account. altDSID = %{public}@ | DSID = %{public}@ | username = %{public}@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (struct CGPoint);
-- (void);
-- (id);
-- (id);
-- (void);
+- (id)#;
+- (void)UI] ATTN:(float)arg1 looks like its already connected over FTP
+;
 
 // Remaining properties
-@property(nonatomic) struct CGPoint pinDestinationCenter; // @synthesize pinDestinationCenter;
 @property(nonatomic) CALayer *pinLayer; // @synthesize pinLayer;
-@property(nonatomic) CALayer *pinShadowLayer; // @synthesize pinShadowLayer;
 
 @end
 

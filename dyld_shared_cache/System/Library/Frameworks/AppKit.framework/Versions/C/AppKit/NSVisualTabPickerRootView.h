@@ -6,43 +6,37 @@
 
 #import <AppKit/NSView.h>
 
-@class NSScrollView, NSVisualTabPickerGridView, NSVisualTabPickerRootViewController, NSVisualTabPickerSearchField;
+@class NSScrollView, NSVisualTabPickerGridView;
 
 __attribute__((visibility("hidden")))
 @interface NSVisualTabPickerRootView : NSView
 {
     NSScrollView *_scrollView;
-    NSView *_topBarView;
-    NSVisualTabPickerGridView *_gridView;
-    NSVisualTabPickerSearchField *_searchField;
-    NSVisualTabPickerRootViewController *_visualTabPickerViewController;
 }
 
+- (_Bool)nexpected size of %zu instead of %zu.;
+- (id)not get SInt64 value for kIOMediaSizeKey!;
+- (void)MobileDeviceMinimumVersion;
+- (void)ll back to use restoreOS trustobject digest property;
+- (void)/8nlHWXO3OvKHQHgl905Q;
+- (void);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)subdomains;
+- (void)9DSProvidersObserverEEEPvDpRKT_EUlPU19objcproto9OS_os_log8NSObjectE_;
+- (id)g/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" office:version="1.0"><office:font-face-decls> /* Error: Ran out of types for this method. */;
 - (_Bool)gSourceOperationMask:modifiers are %u, mask is 0x%lx /* Error: Ran out of types for this method. */;
 - (void)AccessibilityAPIBridge.m;
 - (void)nalCut;
-- (id)cationDidHideNotification;
+- (id)NSApplicationDidHideNotification;
 
 // Remaining properties
 @property(readonly, nonatomic) NSVisualTabPickerGridView *gridView; // @synthesize gridView=_gridView;
-@property(readonly, nonatomic) NSVisualTabPickerSearchField *searchField; // @synthesize searchField=_searchField;
-@property(nonatomic) __weak NSVisualTabPickerRootViewController *visualTabPickerViewController; // @synthesize visualTabPickerViewController=_visualTabPickerViewController;
 
 @end
 

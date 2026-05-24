@@ -6,25 +6,21 @@
 
 #import <ChatKit/CKActionMenuItem.h>
 
-@class NSDate;
-
 __attribute__((visibility("hidden")))
 @interface CKRecordActionMenuItem : CKActionMenuItem
 {
     _Bool _wasSelected;
-    NSDate *_dateSelected;
 }
 
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)sharedExpansionState;
+- (void)setIsResettingBaseWritingDirection:(long long)arg1;
+- (void)nHandler:(id)arg1;
 - (id);
 - (void);
 - (void);
 - (void)f;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *dateSelected; // @synthesize dateSelected=_dateSelected;
 @property(nonatomic) _Bool wasSelected; // @synthesize wasSelected=_wasSelected;
 
 @end

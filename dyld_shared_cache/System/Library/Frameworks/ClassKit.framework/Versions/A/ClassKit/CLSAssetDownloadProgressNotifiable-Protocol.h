@@ -5,5 +5,7 @@
 //
 
 @protocol CLSAssetDownloadProgressNotifiable
+- (oneway void)%.3f;
+- (oneway void)les:(_Bool)arg1 %d;
 @end
 

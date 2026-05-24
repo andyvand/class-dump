@@ -14,13 +14,13 @@ __attribute__((visibility("hidden")))
     id <VCHardwareSettingsEmbeddedProtocol> _hardwareSettings;
 }
 
-+ (id)lay;
++ (id)relay;
 - (id);
 - (id);
-- (unsigned char);
+- (unsigned char)";
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 
 @end
 

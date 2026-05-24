@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorMetadata, NSArray, NSString;
+@class NSString;
 
 @interface BlastDoorTranslationCommand
 {
     id translationCommand;
 }
 
+- (id)29ImagePlaygroundViewController"16@"NSArray"24;
+- (id)"CKAppGrabberView"48@?<v@?>56;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (long long);
+- (long long)syncGroups;
 - (id);
 - (id)÷ÿ;
-- (void)ontext;
+- (void)StorageContext;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *destinationLocaleIdentifier;
-@property(nonatomic, readonly) NSArray *messages;
-@property(nonatomic, readonly) BlastDoorMetadata *metadata;
-@property(nonatomic, readonly) NSString *requestID;
-@property(nonatomic, readonly) NSString *sourceLocaleIdentifier;
-@property(nonatomic, readonly) long long type;
 
 @end
 

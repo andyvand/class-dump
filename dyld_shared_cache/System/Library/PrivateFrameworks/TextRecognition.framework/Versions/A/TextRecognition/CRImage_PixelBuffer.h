@@ -17,7 +17,7 @@
 - (struct __CVBuffer *);
 - (struct __CVBuffer *);
 - (struct __CVBuffer *);
-- (struct __CVBuffer *);
+- (struct __CVBuffer *);
 - (id);
 - (id);
 - (id);
@@ -25,7 +25,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)RB;
 - (id);
 - (id);
 - (id);
@@ -33,15 +33,15 @@
 - (struct vImage_Buffer);
 - (struct __CVBuffer *);
 - (id);
-- (struct vImage_Buffer);
+- (struct vImage_Buffer);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (struct CGImage *);
+- (id)tabGroupDraggingSessionActive;
+- (struct CGImage *)ce your open tabs with %zu bookmarks?;
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (void);
 - (struct __CVBuffer *);

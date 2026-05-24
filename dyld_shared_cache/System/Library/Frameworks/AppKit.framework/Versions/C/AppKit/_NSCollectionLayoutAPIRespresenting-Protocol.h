@@ -5,5 +5,6 @@
 //
 
 @protocol _NSCollectionLayoutAPIRespresenting
+- (id)checked_betterRouteDiscovered;
 @end
 

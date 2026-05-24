@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString, NSURL, SMSystem_Daemon_Network;
-@protocol OS_dispatch_queue;
-
 @interface SMSystem_FileManager_Network
 {
     _Bool fileSystemReady;
-    NSMutableDictionary *_cachedPaths;
-    NSURL *_localStorageArea;
-    SMSystem_Daemon_Network *_system;
-    NSObject<OS_dispatch_queue> *_cachedPathsQueue;
 }
 
 - (id);
@@ -36,23 +29,14 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)pType;
+- (id);
 - (void);
-- (id)lags: /* Error: Ran out of types for this method. */;
+- (id)setFlags: /* Error: Ran out of types for this method. */;
 - (void)ed. error=%@;
 
 // Remaining properties
-@property(readonly) NSString *buildVersion;
-@property(retain) NSMutableDictionary *cachedPaths; // @synthesize cachedPaths=_cachedPaths;
-@property(retain) NSObject<OS_dispatch_queue> *cachedPathsQueue; // @synthesize cachedPathsQueue=_cachedPathsQueue;
 @property(getter=isFileSystemReady) _Bool fileSystemReady; // @synthesize fileSystemReady;
-@property(retain) NSURL *localStorageArea; // @synthesize localStorageArea=_localStorageArea;
-@property(readonly) NSString *productVersion;
-@property(readonly) NSURL *slash;
-@property(retain) SMSystem_Daemon_Network *system; // @synthesize system=_system;
-@property(readonly) NSURL *userContentRoot;
-@property(readonly) NSURL *userHomeRoot;
 
 @end
 

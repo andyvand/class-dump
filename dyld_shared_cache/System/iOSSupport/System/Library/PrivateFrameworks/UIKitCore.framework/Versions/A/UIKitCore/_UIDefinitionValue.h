@@ -4,34 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MAAsset, NSAttributedString, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _UIDefinitionValue
 {
     NSString *_localizedDictionaryName;
-    NSString *_term;
-    NSAttributedString *_definition;
-    NSString *_longDefinition;
-    MAAsset *_rawAsset;
 }
 
+- (id)fetchSpotlightClientStateWithCompletion: /* Error: Ran out of types for this method. */;
+- (id)fetchOldestMessageDateForChatIdentifiers:chatStyle:services:reply: /* Error: Ran out of types for this method. */;
 - (id);
+- (void)C;
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)setIsToEmail: /* Error: Ran out of types for this method. */;
+- (id)`;
 - (id)Productivity Gestures;
 - (void);
 
 // Remaining properties
-@property(readonly) NSAttributedString *definition; // @synthesize definition=_definition;
 @property(readonly) NSString *localizedDictionaryName; // @synthesize localizedDictionaryName=_localizedDictionaryName;
-@property(readonly) NSString *longDefinition; // @synthesize longDefinition=_longDefinition;
-@property(retain, nonatomic) MAAsset *rawAsset; // @synthesize rawAsset=_rawAsset;
-@property(readonly) NSString *term; // @synthesize term=_term;
 
 @end
 

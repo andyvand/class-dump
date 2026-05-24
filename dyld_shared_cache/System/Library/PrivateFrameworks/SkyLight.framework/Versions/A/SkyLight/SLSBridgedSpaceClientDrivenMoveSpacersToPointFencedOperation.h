@@ -9,32 +9,22 @@
 @interface SLSBridgedSpaceClientDrivenMoveSpacersToPointFencedOperation : SLSAsynchronousBridgedWindowManagementOperation
 {
     unsigned int _fencePort;
-    unsigned long long _drivingSpaceID;
-    unsigned long long _verticalIndex;
-    unsigned long long _horizontalIndex;
-    unsigned long long _options;
-    struct CGPoint _point;
 }
 
 + (_Bool);
-- (void);
+- (void)shot failed to adopt query generation with error %d;
+- (id)here name = 'ZCHANGETRACK';
+- (unsigned int)userInfo %@ while finishing deferred lightweight migration for store:%@ /* Error: Ran out of types for this method. */;
+- (unsigned long long)ments;
+- (unsigned long long);
+- (unsigned long long);
 - (id);
-- (unsigned int);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
 - (unsigned long long);
 - (void);
-- (struct CGPoint);
+- (struct CGPoint);
 
 // Remaining properties
 @property(readonly) unsigned long long drivingSpaceID; // @synthesize drivingSpaceID=_drivingSpaceID;
-@property(readonly) unsigned int fencePort; // @synthesize fencePort=_fencePort;
-@property(readonly) unsigned long long horizontalIndex; // @synthesize horizontalIndex=_horizontalIndex;
-@property(readonly) unsigned long long options; // @synthesize options=_options;
-@property(readonly) struct CGPoint point; // @synthesize point=_point;
-@property(readonly) unsigned long long verticalIndex; // @synthesize verticalIndex=_verticalIndex;
 
 @end
 

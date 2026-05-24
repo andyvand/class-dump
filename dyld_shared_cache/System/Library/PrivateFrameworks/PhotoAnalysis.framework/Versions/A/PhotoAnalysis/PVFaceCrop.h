@@ -6,14 +6,11 @@
 
 #import <PhotoAnalysis/PVObject.h>
 
-@class NSData, PVFace;
+@class NSData;
 
 @interface PVFaceCrop : PVObject
 {
     NSData *_faceCropData;
-    PVFace *_originatingFace;
-    struct CGSize _cachedImageDimensions;
-    short _state;
 }
 
 - (id);
@@ -21,11 +18,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)rsion:(short)arg1 %lu
+;
 - (short);
 - (id);
 - (struct CGSize);
-- (void)ancelledOperation;
+- (void)errorForPhotoVisionCancelledOperation;
 
 // Remaining properties
 @property(nonatomic) short state; // @synthesize state=_state;

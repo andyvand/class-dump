@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (unsigned long long)haracteristicRead;
+- (unsigned long long)CharacteristicRead;
 
 // Remaining properties
 @property(readonly) unsigned long long generationCounter; // @synthesize generationCounter=_generationCounter;

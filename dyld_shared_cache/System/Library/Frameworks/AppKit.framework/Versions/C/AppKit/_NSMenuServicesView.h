@@ -6,29 +6,11 @@
 
 #import <AppKit/NSView.h>
 
-@class NSImage, NSMenuItem, NSString;
+@class NSString;
 
 @interface _NSMenuServicesView : NSView
 {
     NSString *_bundlePath;
-    NSString *_categoryName;
-    double _minimumWidths[3];
-    double _actualWidths[3];
-    double _categoryNameWidth;
-    NSImage *_image;
-    NSMenuItem *_explicitMenuItem;
-    struct {
-        unsigned int _shouldDrawCategoryArea:1;
-        unsigned int _shouldDrawCategoryName:1;
-        unsigned int _imageLoadHasBegun:1;
-        unsigned int _imageIsLoaded:1;
-        unsigned int _inDrawRect:1;
-        unsigned int _isSpacer:1;
-        unsigned int _isEditServicesItem:1;
-        unsigned int _isNoServiceApplyItem:1;
-        unsigned int _iconIsDefaultBrowser:1;
-        unsigned int reserved:23;
-    } _flags;
 }
 
 + (void)È^éG;
@@ -37,14 +19,14 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (id);
+- (void)/x;
+- (void)char *__single __terminated_by(0));
+- (void)AMFDRDecodeIterateSysconfigPayloadNext;
+- (double)pending syscfg key (0x%X):(double)arg1 %@ from %@;
+- (id)duct-type;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -52,7 +34,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)R;
 - (id);
 - (struct CGRect);
 - (id);
@@ -64,28 +46,20 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
+- (void)tAPSleep:idleDuration=%u /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
+- (void)user_interactive_qos_trust_queue;
 - (struct CGSize);
 - (_Bool);
 - (void);
 - (id)BarController"16;
 - (id)SýÿèOÿÿ´ýÿ;
-- (id)llecting;
+- (id)isCollecting;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bundlePath; // @synthesize bundlePath=_bundlePath;
-@property(copy, nonatomic) NSString *categoryName;
-@property(retain, nonatomic) NSMenuItem *explicitMenuItem; // @synthesize explicitMenuItem=_explicitMenuItem;
-@property(nonatomic) _Bool iconIsDefaultBrowser;
-@property(nonatomic) _Bool isEditServicesItem;
-@property(nonatomic) _Bool isNoServicesApplyItem;
-@property(nonatomic) _Bool isSpacer;
-@property(nonatomic) _Bool shouldDrawCategoryArea;
-@property(nonatomic) _Bool shouldDrawCategoryName;
 
 @end
 

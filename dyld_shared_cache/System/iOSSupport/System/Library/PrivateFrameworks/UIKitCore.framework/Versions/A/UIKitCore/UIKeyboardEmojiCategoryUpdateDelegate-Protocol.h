@@ -5,5 +5,6 @@
 //
 
 @protocol UIKeyboardEmojiCategoryUpdateDelegate
+- (long long);
 @end
 

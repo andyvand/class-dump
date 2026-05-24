@@ -9,9 +9,6 @@
 @interface CNAutocompleteNameComponents
 {
     NSString *_firstName;
-    NSString *_lastName;
-    NSString *_nickname;
-    NSString *_nameSuffix;
 }
 
 + (id);
@@ -27,9 +24,6 @@
 
 // Remaining properties
 @property(readonly) NSString *firstName; // @synthesize firstName=_firstName;
-@property(readonly) NSString *lastName; // @synthesize lastName=_lastName;
-@property(readonly) NSString *nameSuffix; // @synthesize nameSuffix=_nameSuffix;
-@property(readonly) NSString *nickname; // @synthesize nickname=_nickname;
 
 @end
 

@@ -24,26 +24,3 @@ typedef struct {
     unsigned long long size;
 } CDStruct_95bda58d;
 
-// Ambiguous groups
-typedef struct {
-    unsigned int ci:1;
-    unsigned int lac:1;
-    unsigned int mcc:1;
-    unsigned int mnc:1;
-} CDStruct_3c5d747a;
-
-typedef struct {
-    unsigned int ci:1;
-    unsigned int mcc:1;
-    unsigned int mnc:1;
-    unsigned int tac:1;
-} CDStruct_a1228f36;
-
-typedef struct {
-    unsigned int timestamp:1;
-} CDStruct_b5306035;
-
-typedef struct {
-    unsigned int type:1;
-} CDStruct_f953fb60;
-

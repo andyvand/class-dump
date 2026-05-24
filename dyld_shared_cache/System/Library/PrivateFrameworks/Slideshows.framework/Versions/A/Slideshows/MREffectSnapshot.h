@@ -6,23 +6,18 @@
 
 #import <Slideshows/MREffect.h>
 
-@class MRCAMLBezierData, MRCroppingSprite, MRImage, MRTextRenderer;
+@class MRCroppingSprite;
 
 @interface MREffectSnapshot : MREffect
 {
     MRCroppingSprite *mSprite;
-    MRTextRenderer *mTextRenderer;
-    MRImage *mTextImage;
-    MRCroppingSprite *mTextSprite;
-    long long mNumberOfLines;
-    MRCAMLBezierData *mPortraitPanoPath;
 }
 
 + (void)È/;
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
+- (void)semblerConfigProvider>",&,N,V_configProvider;
+- (_Bool)parServicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NDAnalyticsPayloadAssemblerUtilities.m;
+- (id)gurationManager:(id)arg1 ];
+- (_Bool)@?0@"NSArray"8;
 - (id);
 - (struct CGSize);
 - (long long);

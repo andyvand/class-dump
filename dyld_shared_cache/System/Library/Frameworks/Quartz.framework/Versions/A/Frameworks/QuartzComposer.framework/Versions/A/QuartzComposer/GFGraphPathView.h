@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GFGraph, GFGraphEditorView, GFNode, NSPathControl;
+@class GFGraph;
 
 @interface GFGraphPathView
 {
     GFGraph *_rootGraph;
-    GFGraphEditorView *_graphEditor;
-    GFNode *_currentNode;
-    NSPathControl *_control;
-    void *_unused[4];
 }
 
 + (_Bool);
@@ -24,15 +20,15 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)e.framework/Versions/A/IOSurface;
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
 - (void);
-- (_Bool);
+- (void);
+- (_Bool)n connection.;
 - (void);
 - (id);
 

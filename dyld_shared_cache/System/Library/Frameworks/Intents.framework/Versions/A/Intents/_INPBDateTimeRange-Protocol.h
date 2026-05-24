@@ -4,14 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBDateTimeRangeValue;
+@class NSArray;
 
 @protocol _INPBDateTimeRange
++ (Class)ed-encoding-add-system-keychain-password;
+- (void);
+- (NSArray *);
 - (void)Ä;
-- (_INPBDateTimeRangeValue *);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *values;
-@property(readonly, nonatomic) unsigned long long valuesCount;
 @end
 

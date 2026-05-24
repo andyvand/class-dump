@@ -7,9 +7,10 @@
 @class INSettingMetadata;
 
 @protocol INGetSettingIntentExport
+- (void);
+- (id);
 
 // Remaining properties
-@property long long confirmationValue;
 @property(copy) INSettingMetadata *settingMetadata;
 @end
 

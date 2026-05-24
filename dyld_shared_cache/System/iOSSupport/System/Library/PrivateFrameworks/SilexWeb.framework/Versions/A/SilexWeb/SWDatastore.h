@@ -14,7 +14,7 @@
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)state.;
 - (_Bool);
 - (void);
 

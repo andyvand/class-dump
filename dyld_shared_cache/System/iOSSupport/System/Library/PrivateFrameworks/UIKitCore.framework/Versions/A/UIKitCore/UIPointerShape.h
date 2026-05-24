@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIBezierPath;
+@class UIBezierPath;
 
 @interface UIPointerShape
 {
     UIBezierPath *_path;
-    double _cornerRadius;
-    double _defaultCornerRadius;
-    double _beamLength;
-    long long __type;
-    struct CGPoint _pinnedPoint;
-    struct CGPoint _inherentConstrainedSlip;
-    struct CGRect _rect;
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)t creating salt zone *******;
++ (id)eating salt zone %@;
++ (id);
 + (id);
 + (id);
 + (id);
@@ -28,25 +21,26 @@
 - (void);
 - (void);
 - (void);
-- (struct CGPoint);
-- (_Bool);
-- (struct CGPoint);
-- (double);
-- (double);
+- (struct CGPoint)he expected %ld transfers.;
+- (_Bool)url set for:%@   success:%{BOOL}d /* Error: Ran out of types for this method. */;
+- (struct CGPoint)quietly receipt pipeline;
+- (double)date with key %@ -  %@;
+- (double)d on the wrong session;
 - (void);
 - (_Bool);
 - (double);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)h
+B�;
 - (struct CGSize)1Â0@ù
 × ;
-- (void)etAccessibilityPerformEscapeBlock:(id)arg1;
-- (_Bool)aceWidth:(id)arg1;
+- (void)setAccessibilityPerformEscapeBlock:(id)arg1;
+- (_Bool)minimumLayoutWidthGivenMinimumSpaceWidth:(id)arg1;
 - (struct CGRect)d}{CGSize=dd}},N,V_systemFrame;
 - (id)R,W,N,G_commonAncestorEnvironment,V_commonAncestorEnvironment;
 - (id)sual provider;
-- (_Bool)ToolbarInspectorSidebarTrackingSeparatorItem;
+- (_Bool)NSToolbarInspectorSidebarTrackingSeparatorItem;
 - (double);
 - (void)_;
 - (void)ã\;
@@ -56,20 +50,7 @@
 - (id)0dh;
 
 // Remaining properties
-@property(nonatomic, setter=_setType:) long long _type; // @synthesize _type=__type;
-@property(nonatomic) double beamLength; // @synthesize beamLength=_beamLength;
-@property(readonly, nonatomic) NSString *cornerCurve;
-@property(nonatomic) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;
-@property(nonatomic) double defaultCornerRadius; // @synthesize defaultCornerRadius=_defaultCornerRadius;
-@property(readonly, nonatomic) double effectiveCornerRadius;
-@property(nonatomic) struct CGPoint inherentConstrainedSlip; // @synthesize inherentConstrainedSlip=_inherentConstrainedSlip;
-@property(readonly, nonatomic) _Bool isCircle;
-@property(readonly, nonatomic) _Bool isElastic;
-@property(readonly, nonatomic) _Bool isEmpty;
 @property(copy, nonatomic) UIBezierPath *path; // @synthesize path=_path;
-@property(nonatomic) struct CGPoint pinnedPoint; // @synthesize pinnedPoint=_pinnedPoint;
-@property(nonatomic) struct CGRect rect; // @synthesize rect=_rect;
-@property(readonly, nonatomic) struct CGSize size;
 
 @end
 

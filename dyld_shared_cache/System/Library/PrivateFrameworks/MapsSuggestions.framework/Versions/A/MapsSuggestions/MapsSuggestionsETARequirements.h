@@ -7,11 +7,9 @@
 @interface MapsSuggestionsETARequirements
 {
     double _maxAge;
-    double _maxDistance;
-    double _minAccuracy;
 }
 
-- (double);
+- (double);
 - (double);
 - (id);
 - (id);
@@ -19,8 +17,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) double maxAge; // @synthesize maxAge=_maxAge;
-@property(readonly, nonatomic) double maxDistance; // @synthesize maxDistance=_maxDistance;
-@property(readonly, nonatomic) double minAccuracy; // @synthesize minAccuracy=_minAccuracy;
 
 @end
 

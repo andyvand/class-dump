@@ -6,20 +6,17 @@
 
 #import <AppleMediaServicesUI/AMSUIWebAction.h>
 
-@class AMSDialogRequest, AMSUIWebClientContext, NSArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface AMSUIWebDialogAction : AMSUIWebAction
 {
     _Bool _pauseTimeouts;
-    AMSDialogRequest *_request;
-    NSArray *_buttonModels;
 }
 
-- (void);
-- (void);
-- (id);
-- (_Bool);
+- (void)}@);
+- (void)ic}@;
+- (id)****
+;
+- (_Bool)e is failed;
 - (id);
 - (id);
 - (id);
@@ -27,17 +24,7 @@ __attribute__((visibility("hidden")))
 - (void)sult"@"NSError">32;
 
 // Remaining properties
-@property(retain) NSArray *buttonModels; // @synthesize buttonModels=_buttonModels;
-@property(readonly) AMSUIWebClientContext *context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property _Bool pauseTimeouts; // @synthesize pauseTimeouts=_pauseTimeouts;
-@property(retain) AMSDialogRequest *request; // @synthesize request=_request;
-@property(readonly) Class superclass;
 
 @end
 

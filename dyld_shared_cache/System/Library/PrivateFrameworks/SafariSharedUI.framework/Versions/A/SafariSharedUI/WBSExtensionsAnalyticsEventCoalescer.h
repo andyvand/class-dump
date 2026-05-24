@@ -4,41 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSString, NSTimer;
-@protocol WBSExtensionsAnalyticsEventCoalescerDelegate;
+@class NSMutableSet;
 
 @interface WBSExtensionsAnalyticsEventCoalescer
 {
     NSMutableSet *_injectedScriptExtensions;
-    NSMutableSet *_buttonInvokedExtensions;
-    struct os_unfair_lock_s _lock;
-    NSTimer *_resetTimer;
-    id <WBSExtensionsAnalyticsEventCoalescerDelegate> _delegate;
-    double _resetInterval;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)T;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (void);
-- (double);
-- (void)l;
+- (double)B;
+- (void)WBSUISafariSandboxBrokerProtocol;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <WBSExtensionsAnalyticsEventCoalescerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) double resetInterval; // @synthesize resetInterval=_resetInterval;
-@property(readonly) Class superclass;
 
 @end
 

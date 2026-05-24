@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface KTURI
 {
     NSString *_ktURI;
-    NSData *_ktURIVRF;
 }
 
 - (void);
@@ -17,13 +16,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)l];
 - (void);
 
 // Remaining properties
 @property(retain) NSString *ktURI; // @synthesize ktURI=_ktURI;
-@property(retain) NSData *ktURIVRF; // @synthesize ktURIVRF=_ktURIVRF;
-@property(readonly, copy) NSString *redactedDescription;
 
 @end
 

@@ -14,22 +14,22 @@
 }
 
 + (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)acceptAppleCard;
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
+- (_Bool)A;
+- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (void)lectedWithRcId: /* Error: Ran out of types for this method. */;
+- (void)postTestResultSelectedWithRcId: /* Error: Ran out of types for this method. */;
 
 @end
 

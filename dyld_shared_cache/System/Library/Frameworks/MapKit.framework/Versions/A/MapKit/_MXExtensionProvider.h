@@ -4,50 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _MXAssetStorage, _MXExtensionDispatchCenter, _MXExtensionMatchingMerger, _MXExtensionServiceCenter;
+@class _MXExtensionMatchingMerger;
 
 @interface _MXExtensionProvider
 {
     Class _extensionMatchingClass;
-    id _matchingContext;
-    NSArray *_blacklistedExtensions;
-    NSArray *_blacklistedContainingApplications;
-    _MXExtensionMatchingMerger *_merger;
-    _MXExtensionDispatchCenter *_dispatchCenter;
-    _MXExtensionServiceCenter *_serviceCenter;
-    _MXAssetStorage *_assetStorage;
 }
 
 + (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)@16@24B32@36;
+- (void)setInterruptionHandler:(id)arg1;
+- (id)runCompletionBlockWithEnergyResponse: /* Error: Ran out of types for this method. */;
+- (void)createPowerlogQueryTimer;
 - (id);
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (_Bool)!@;
 - (_Bool);
-- (_Bool);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)t) const;
 - (void);
-- (void)ns;
+- (void)shouldShowAddPhotoButtons;
 
 // Remaining properties
-@property(retain, nonatomic) _MXAssetStorage *assetStorage; // @synthesize assetStorage=_assetStorage;
-@property(retain, nonatomic) _MXExtensionDispatchCenter *dispatchCenter; // @synthesize dispatchCenter=_dispatchCenter;
 @property(retain, nonatomic) _MXExtensionMatchingMerger *merger; // @synthesize merger=_merger;
-@property(retain, nonatomic) _MXExtensionServiceCenter *serviceCenter; // @synthesize serviceCenter=_serviceCenter;
 
 @end
 

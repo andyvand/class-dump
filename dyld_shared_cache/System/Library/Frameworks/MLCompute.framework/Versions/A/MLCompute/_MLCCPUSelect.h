@@ -11,8 +11,8 @@
 }
 
 + (id);
-+ (_Bool);
-- (id)h;
++ (_Bool)T)!;
+- (id)numDevicesUsedWithFirstBatch;
 
 @end
 

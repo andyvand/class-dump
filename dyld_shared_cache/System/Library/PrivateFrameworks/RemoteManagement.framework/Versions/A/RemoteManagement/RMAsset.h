@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, RMManagementChannel;
+@class NSString;
 
 @interface RMAsset
 {
     NSString *_type;
-    NSString *_identifier;
-    NSString *_serverToken;
-    NSData *_content;
-    RMManagementChannel *_channel;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)n;
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -30,10 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) RMManagementChannel *channel; // @synthesize channel=_channel;
-@property(readonly, copy, nonatomic) NSData *content; // @synthesize content=_content;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSString *serverToken; // @synthesize serverToken=_serverToken;
 @property(readonly, copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end

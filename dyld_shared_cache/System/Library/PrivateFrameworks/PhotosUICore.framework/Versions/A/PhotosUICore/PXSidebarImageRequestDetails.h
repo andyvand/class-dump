@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet;
-@protocol PXUIImageProvider;
-
 @interface PXSidebarImageRequestDetails
 {
     long long _sidebarRequestID;
-    NSIndexSet *_mediaRequestIDs;
-    id <PXUIImageProvider> _mediaProvider;
 }
 
 - (long long);
@@ -24,8 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <PXUIImageProvider> mediaProvider; // @synthesize mediaProvider=_mediaProvider;
-@property(copy, nonatomic) NSIndexSet *mediaRequestIDs; // @synthesize mediaRequestIDs=_mediaRequestIDs;
 @property(readonly, nonatomic) long long sidebarRequestID; // @synthesize sidebarRequestID=_sidebarRequestID;
 
 @end

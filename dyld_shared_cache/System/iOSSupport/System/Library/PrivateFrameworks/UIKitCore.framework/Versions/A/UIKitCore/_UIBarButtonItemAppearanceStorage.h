@@ -6,18 +6,12 @@
 
 #import <UIKitCore/_UIBarItemAppearanceStorage.h>
 
-@class NSMutableDictionary, NSValue, UIColor, _UIBarBackButtonItemAppearanceStorage;
+@class NSMutableDictionary, UIColor;
 
 __attribute__((visibility("hidden")))
 @interface _UIBarButtonItemAppearanceStorage : _UIBarItemAppearanceStorage
 {
     NSMutableDictionary *backgroundImages;
-    NSMutableDictionary *miniBackgroundImages;
-    UIColor *tintColor;
-    NSValue *titlePositionOffset;
-    NSValue *miniTitlePositionOffset;
-    NSMutableDictionary *backgroundVerticalAdjustmentsForBarMetrics;
-    _UIBarBackButtonItemAppearanceStorage *backButtonAppearance;
 }
 
 - (void);
@@ -28,15 +22,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)	;
 - (id)
 × ;
 - (void)× ;
 - (double)@ùqe°1Â0@ù
 × ;
-- (void)ive;
-- (double)tionScaleFactorLowerBound;
-- (id)sReachability;
+- (void)isDragActive;
+- (double)_unfocusingDurationScaleFactorLowerBound;
+- (id)_dontDismissReachability;
 - (id)ageView",R,N;
 - (void);
 - (id)empting to invalidate an item at an invalid indexPath:%@ globalIndex:%ld numItems:%ld /* Error: Ran out of types for this method. */;
@@ -45,11 +39,7 @@ __attribute__((visibility("hidden")))
 - (void)´;ÿP$;
 
 // Remaining properties
-@property(retain, nonatomic) NSValue *backButtonTitlePositionOffset;
-@property(retain, nonatomic) NSValue *miniBackButtonTitlePositionOffset;
-@property(retain, nonatomic) NSValue *miniTitlePositionOffset; // @synthesize miniTitlePositionOffset;
 @property(retain, nonatomic) UIColor *tintColor; // @synthesize tintColor;
-@property(retain, nonatomic) NSValue *titlePositionOffset; // @synthesize titlePositionOffset;
 
 @end
 

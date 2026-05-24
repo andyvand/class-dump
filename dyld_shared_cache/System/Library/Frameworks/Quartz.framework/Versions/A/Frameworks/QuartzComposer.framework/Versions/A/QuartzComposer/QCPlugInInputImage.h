@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, QCImage, QCImageManager, QCImagePixelBuffer, QCImageTextureBuffer, QCPixelFormat;
+@class QCImage;
 
 @interface QCPlugInInputImage
 {
     QCImage *_image;
-    NSDictionary *_defaultOptions;
-    QCImageManager *_imageManager;
-    unsigned int _textureTarget;
-    unsigned long long _maxTextureSize;
-    QCPixelFormat *_renderingPixelFormat;
-    struct _opaque_pthread_mutex_t _mutex;
-    QCImagePixelBuffer *_pixelBuffer;
-    QCImagePixelBuffer *_pixelBufferCached;
-    struct CGRect _pixelBufferBounds;
-    QCImageTextureBuffer *_textureBuffer;
-    QCImageTextureBuffer *_textureBufferCached;
-    struct CGRect _textureBufferBounds;
-    CDStruct_d5a466fe _savedState;
 }
 
 - (void);
@@ -32,7 +19,7 @@
 - (const float *);
 - (_Bool);
 - (struct CGColorSpace *);
-- (_Bool);
+- (_Bool)R;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -46,7 +33,7 @@
 - (unsigned int);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)outputStream;
 - (id);
 - (id);
 - (struct CGRect);

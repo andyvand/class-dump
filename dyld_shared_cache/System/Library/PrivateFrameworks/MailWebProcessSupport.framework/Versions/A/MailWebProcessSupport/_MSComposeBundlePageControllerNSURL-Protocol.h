@@ -5,5 +5,6 @@
 //
 
 @protocol _MSComposeBundlePageControllerNSURL
+- (id)Č;
 @end
 

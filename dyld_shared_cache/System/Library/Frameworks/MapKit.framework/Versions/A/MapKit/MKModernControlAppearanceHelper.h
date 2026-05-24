@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSColor, NSGlassView, NSString, NSView, NSVisualEffectView;
+@class NSColor, NSView;
 @protocol MKModernControlAppearanceView;
 
 __attribute__((visibility("hidden")))
 @interface MKModernControlAppearanceHelper
 {
     NSView<MKModernControlAppearanceView> *_view;
-    _Bool _isLightMode;
-    NSArray *_layers;
-    NSVisualEffectView *_effectView;
-    NSGlassView *_glassView;
-    NSView *_glassContentView;
 }
 
 + (id);
@@ -23,40 +18,25 @@ __attribute__((visibility("hidden")))
 + (double);
 + (id);
 + (double);
-- (_Bool);
+- (_Bool);
 - (id);
-- (id);
+- (id)C;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)decodeArrayOfObjectsOfClass:(id)arg1 forKey:(double)arg2;
+- (id)CNGroup",C,D,N;
 - (void);
-- (id);
+- (id)attachments;
 - (id)ñ*ð1Â0@ù
 × ;
-- (void)r:didChangeAuthorizationStatus: /* Error: Ran out of types for this method. */;
-- (id)MapItemUpdaterDelegate;
+- (void)locationManager:didChangeAuthorizationStatus: /* Error: Ran out of types for this method. */;
+- (id)MKTransitMapItemUpdaterDelegate;
 
 // Remaining properties
-@property(readonly, nonatomic) NSColor *backgroundColorPressed;
 @property(readonly, nonatomic) NSColor *colorActive;
-@property(readonly, nonatomic) NSColor *colorDefault;
-@property(readonly, nonatomic) NSColor *colorInactive;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSVisualEffectView *effectView; // @synthesize effectView=_effectView;
-@property(readonly, nonatomic) NSView *glassContentView; // @synthesize glassContentView=_glassContentView;
-@property(readonly, nonatomic) NSGlassView *glassView; // @synthesize glassView=_glassView;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isLightMode; // @synthesize isLightMode=_isLightMode;
-@property(copy, nonatomic) NSArray *layers; // @synthesize layers=_layers;
-@property(readonly) Class superclass;
 
 @end
 

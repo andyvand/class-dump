@@ -12,8 +12,8 @@
 
 + (id);
 + (id);
-- (id);
-- (id);
+- (id)_navigationMapHashForElement:(long long)arg1;
+- (id)AXFUIElement",&,N,V_applicationElement;
 - (id);
 
 @end

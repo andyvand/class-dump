@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface IDSGFTMetricsAnonymizer
 {
     unsigned long long _nextAnonymizedID;
-    NSMutableDictionary *_assignedIDs;
 }
 
 - (id);

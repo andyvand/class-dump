@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol NSTextFieldDelegate
+
+@optional
+- (_Bool)ctBaseERKNS_12GenericEventEE_;
+- (NSArray *)ZN11cnframework12ActiveObjectIN5raven37RavenMovingStateEstimatorActiveObjectEE41CreateAndStoreEventHandlerForActiveObjectINS1_18AccelerometerEventEEEvvEUlPNS_16ActiveObjectBaseERKNS_12GenericEventEE_;
+- (NSArray *)6ActiveObjectBaseERKNS2_12GenericEventEE_FvSA_SD_EEE;
 @end
 

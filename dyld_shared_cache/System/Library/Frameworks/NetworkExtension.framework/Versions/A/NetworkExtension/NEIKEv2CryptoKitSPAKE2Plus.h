@@ -16,8 +16,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)ordType:recordClass: /* Error: Ran out of types for this method. */;
+- (id)p;
+- (void)initWithName:recordType:recordClass: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) NSData *keyShare;

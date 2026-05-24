@@ -4,17 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIView;
+
 @protocol _UICollectionViewOrthogonalScrollView
-- (struct CGPoint)rAttributes: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (struct CGPoint)conversationManager:(UIView *)arg1 activitySessionsChangedForConversation: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)conversationManager:(UIView *)arg1 activeRemoteParticipantsChangedForConversation:fromOldConversation: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)_setVisualStyleOverrideSeparatorAttributes: /* Error: Ran out of types for this method. */;
 - (_Bool)etIASignalMissingKeyboardKeyboardDismissed(void);
 - (_Bool)redTextureController33_FDF62CE22547DB2BF49759240B89F9C1LLC8DelegateP;
-- (struct CGSize);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint contentOffset;
-@property(readonly, nonatomic) struct CGSize contentSize;
-@property(readonly, nonatomic, getter=isDecelerating) _Bool decelerating;
-@property(readonly, nonatomic, getter=isDragging) _Bool dragging;
-@property(readonly, nonatomic, getter=isTracking) _Bool tracking;
 @end
 

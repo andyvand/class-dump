@@ -7,6 +7,9 @@
 @class _GCDevicePhysicalInputBase;
 
 @protocol _GCDevicePhysicalInputViewInitializationContext
+- (unsigned long long)1<;
+- (unsigned long long)<;
+- (_GCDevicePhysicalInputBase *)$;
 
 // Remaining properties
 @property(readonly) _GCDevicePhysicalInputBase *implementation;

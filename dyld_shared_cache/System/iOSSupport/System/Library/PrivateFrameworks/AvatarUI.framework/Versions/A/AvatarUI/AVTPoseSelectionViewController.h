@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAnimojiPoseSelectionHeaderViewController, AVTCircularButton, AVTPoseSelectionGridViewController, AVTRecordingButton, NSArray, NSLayoutConstraint, NSString, UIBarButtonItem, UIColor, UIMenu, UIView;
-@protocol AVTAvatarRecord, AVTPoseSelectionViewControllerDelegate;
+@class UIColor;
 
 @interface AVTPoseSelectionViewController
 {
     UIColor *_backgroundColorOverride;
-    _Bool _shouldNotifyDelegateOnSelection;
-    _Bool _usesSingleButtonCaptureReview;
-    id <AVTPoseSelectionViewControllerDelegate> _delegate;
-    unsigned long long _poseTypes;
-    unsigned long long _mode;
-    AVTRecordingButton *_captureButton;
-    AVTCircularButton *_discardButton;
-    AVTCircularButton *_menuButton;
-    id <AVTAvatarRecord> _avatarRecord;
-    AVTAnimojiPoseSelectionHeaderViewController *_headerViewController;
-    NSLayoutConstraint *_headerHeightConstraint;
-    AVTPoseSelectionGridViewController *_gridViewController;
-    NSArray *_stickerConfigurations;
-    UIView *_headerDropShadowView;
-    UIBarButtonItem *_doneButton;
-    UIView *_borderMaskView;
-    UIMenu *_headerMenu;
 }
 
 + (id);
@@ -74,7 +56,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (double);
@@ -98,39 +80,16 @@
 - (id);
 - (id);
 - (_Bool);
+- (void)g to save password in keychain because one or more of the necessary fields are null:(unsigned long long)arg1 %@%@%@%@;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void)c±;
 
 // Remaining properties
-@property(retain, nonatomic) id <AVTAvatarRecord> avatarRecord; // @synthesize avatarRecord=_avatarRecord;
-@property(retain, nonatomic) UIView *borderMaskView; // @synthesize borderMaskView=_borderMaskView;
-@property(retain, nonatomic) AVTRecordingButton *captureButton; // @synthesize captureButton=_captureButton;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AVTPoseSelectionViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) AVTCircularButton *discardButton; // @synthesize discardButton=_discardButton;
-@property(retain, nonatomic) UIBarButtonItem *doneButton; // @synthesize doneButton=_doneButton;
-@property(retain, nonatomic) AVTPoseSelectionGridViewController *gridViewController; // @synthesize gridViewController=_gridViewController;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIView *headerDropShadowView; // @synthesize headerDropShadowView=_headerDropShadowView;
-@property(retain, nonatomic) NSLayoutConstraint *headerHeightConstraint; // @synthesize headerHeightConstraint=_headerHeightConstraint;
-@property(retain, nonatomic) UIMenu *headerMenu; // @synthesize headerMenu=_headerMenu;
-@property(retain, nonatomic) AVTAnimojiPoseSelectionHeaderViewController *headerViewController; // @synthesize headerViewController=_headerViewController;
-@property(retain, nonatomic) AVTCircularButton *menuButton; // @synthesize menuButton=_menuButton;
-@property(nonatomic) unsigned long long mode; // @synthesize mode=_mode;
 @property(nonatomic) unsigned long long poseTypes; // @synthesize poseTypes=_poseTypes;
-@property(nonatomic) _Bool shouldNotifyDelegateOnSelection; // @synthesize shouldNotifyDelegateOnSelection=_shouldNotifyDelegateOnSelection;
-@property(retain, nonatomic) NSArray *stickerConfigurations; // @synthesize stickerConfigurations=_stickerConfigurations;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool usesSingleButtonCaptureReview; // @synthesize usesSingleButtonCaptureReview=_usesSingleButtonCaptureReview;
 
 @end
 

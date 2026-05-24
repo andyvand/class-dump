@@ -12,9 +12,9 @@
     id pasteHelper;
 }
 
-- (void);
+- (void)createUserActivityClosure;
 - (id);
-- (_Bool);
+- (_Bool)A8};
 - (id);
 - (void);
 - (void);

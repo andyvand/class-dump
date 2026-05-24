@@ -6,8 +6,7 @@
 
 #import <UIKitCore/UITextInteraction.h>
 
-@class NSString, UIContextMenuConfiguration, UIContextMenuInteraction, UIEditMenuConfiguration, UIEditMenuInteraction;
-@protocol UIContextMenuInteractionDelegate;
+@class UIEditMenuInteraction;
 
 __attribute__((visibility("hidden")))
 @interface UITextContextMenuInteraction : UITextInteraction
@@ -28,22 +27,15 @@ __attribute__((visibility("hidden")))
         _Bool shouldAttemptToPresent;
         _Bool interactionEffectForTargetedPreview;
     } _externalDelegateImplements;
-    UIEditMenuConfiguration *_currentInputUIConfiguration;
-    UIEditMenuConfiguration *_currentSelectionCommandsConfiguration;
-    _Bool _isPresentingOrDismissingContextMenu;
-    id <UIContextMenuInteractionDelegate> _externalContextMenuDelegate;
-    UIContextMenuInteraction *_contextMenuInteraction;
-    UIEditMenuInteraction *_editMenuInteraction;
-    UIContextMenuConfiguration *_externallyManagedConfiguration;
 }
 
 - (id);
 - (void);
-- (void);
+- (void)buildRequiredOnlyWithIdentifier:(id)arg1 withCertServer:(struct CGPoint)arg2 withCertTemplate:(CDUnknownBlockType)arg3;
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)MPModelPropertyPlaylistHasExplicitContent;
 - (id);
 - (void);
 - (struct CGPoint);
@@ -51,7 +43,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)A;
 - (void);
 - (id)ùqYÐ1Â0@ù
 × ;
@@ -67,19 +59,19 @@ __attribute__((visibility("hidden")))
 - (void)@ù
 × ;
 - (_Bool)wCell"24@32;
-- (_Bool)inHighlightOnMenuNavigation: /* Error: Ran out of types for this method. */;
-- (void)ondaryIconLabel:(id)arg1 artwork:(struct CGPoint)arg2 inputModes:(CDUnknownBlockType)arg3;
-- (void)eView:(id)arg1 tableViewRowData: /* Error: Ran out of types for this method. */;
+- (_Bool)setRetainHighlightOnMenuNavigation: /* Error: Ran out of types for this method. */;
+- (void)_getIconLabel:(id)arg1 secondaryIconLabel:(struct CGPoint)arg2 artwork:(CDUnknownBlockType)arg3 inputModes: /* Error: Ran out of types for this method. */;
+- (void)_defaultSectionHeaderHeightForSection:(id)arg1 tableView:tableViewRowData: /* Error: Ran out of types for this method. */;
 - (void)T@"_UIShadowProperties",&,N,V_previewShadowSettings;
 - (id)C,N,V_leadingBarButtonItems;
-- (_Bool)ng_insertSubview:atIndex: /* Error: Ran out of types for this method. */;
+- (_Bool)_backing_insertSubview:atIndex: /* Error: Ran out of types for this method. */;
 - (void),R,W,N;
 - (_Bool)îÿíwþÿ;
 - (void)not conform to UIViewControllerRestoration protocol:(id)arg1 Class is %@;
-- (void)licationOpenURLOptionsSourceApplicationKey;
-- (void)rsorEnabled;
+- (void)UIApplicationOpenURLOptionsSourceApplicationKey;
+- (void)soundReactiveCursorEnabled;
 - (void)om.apple.inputAnalytics;
-- (id)HUDGesturePan;
+- (id)UndoHUDGesturePan;
 - (id);
 - (_Bool)\÷[;
 - (void)I@à;
@@ -102,21 +94,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)mÁ;
 
 // Remaining properties
-@property(readonly, nonatomic) UIContextMenuInteraction *contextMenuInteraction; // @synthesize contextMenuInteraction=_contextMenuInteraction;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool dismissedByActionSelection;
-@property(readonly, nonatomic) _Bool dismissedRecently;
 @property(readonly, nonatomic) UIEditMenuInteraction *editMenuInteraction; // @synthesize editMenuInteraction=_editMenuInteraction;
-@property(nonatomic) __weak id <UIContextMenuInteractionDelegate> externalContextMenuDelegate; // @synthesize externalContextMenuDelegate=_externalContextMenuDelegate;
-@property(readonly, nonatomic) UIContextMenuConfiguration *externallyManagedConfiguration; // @synthesize externallyManagedConfiguration=_externallyManagedConfiguration;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isDisplayingHandoffMenu;
-@property(readonly, nonatomic) _Bool isDisplayingMenu;
-@property(readonly) Class superclass;
 
 @end
 

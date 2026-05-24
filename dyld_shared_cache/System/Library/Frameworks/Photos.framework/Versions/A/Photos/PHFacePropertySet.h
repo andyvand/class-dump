@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PHFace;
+@class PHFace;
 
 @interface PHFacePropertySet
 {
@@ -15,22 +15,15 @@
 + (id);
 + (id);
 + (_Bool);
-+ (id);
-+ (id)rUserPreventedRebuild;
-+ (id)ticsTracker;
++ (id)_relativeFileSystemPath;
++ (id)PHPhotosErrorUserPreventedRebuild;
++ (id)PHDatabaseStatisticsTracker;
 - (id);
 - (id);
-- (void);
+- (void)_isMine;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) __weak PHFace *face; // @synthesize face=_face;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

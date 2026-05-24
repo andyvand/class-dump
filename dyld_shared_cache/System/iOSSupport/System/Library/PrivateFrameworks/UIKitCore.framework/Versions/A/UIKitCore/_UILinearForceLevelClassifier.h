@@ -9,16 +9,6 @@
 @interface _UILinearForceLevelClassifier : _UIForceLevelClassifier
 {
     double _smoothedForce;
-    _Bool _anyForceObservations;
-    double _smoothedImpulse;
-    long long _impulseObservationState;
-    double _lastForceForImpulse;
-    double _lastTimestampForImpulse;
-    double _revealThreshold;
-    double _standardThreshold;
-    double _strongThreshold;
-    double _smoothingFactor;
-    double _impulseSmoothingFactor;
 }
 
 - (void);
@@ -27,21 +17,21 @@
 - (double);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)CFDictionaryGetValue;
+- (void)URLSession:(double)arg1 task:didFinishCollectingMetrics: /* Error: Ran out of types for this method. */;
 - (double);
-- (void);
-- (void);
-- (id);
+- (void)enumerateItemIdentifiersInSectionAtIndex:(id)arg1 usingBlock:(id)arg2;
+- (void)addStorePlaylistWithGlobalID:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)et;
 - (void)1Â0@ù
 × ;
 - (double)eð1Â0@ù
 × ;
 - (double);
-- (id)eExclusionRequirements;
-- (double)psWithIdentifier: /* Error: Ran out of types for this method. */;
-- (double)nHighlight:(long long)arg1 forItemAtIndexPath: /* Error: Ran out of types for this method. */;
-- (long long)UISceneExternalSettingsModifierSettingsExtension;
+- (id)setupGestureExclusionRequirements;
+- (double)hostGestureRecognizerForFailureRelationshipsWithIdentifier: /* Error: Ran out of types for this method. */;
+- (double)_setHasSelectionHighlight:(long long)arg1 forItemAtIndexPath: /* Error: Ran out of types for this method. */;
+- (long long)_UISceneExternalSettingsModifierSettingsExtension;
 - (double);
 - (double);
 - (double)rchTextField with token following text. See rdar:(double)arg1 //102647358. %@;
@@ -49,12 +39,7 @@
 - (void)zÇþÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) double currentImpulse;
-@property(nonatomic) double impulseSmoothingFactor; // @synthesize impulseSmoothingFactor=_impulseSmoothingFactor;
 @property(nonatomic) double revealThreshold; // @synthesize revealThreshold=_revealThreshold;
-@property(nonatomic) double smoothingFactor; // @synthesize smoothingFactor=_smoothingFactor;
-@property(nonatomic) double standardThreshold; // @synthesize standardThreshold=_standardThreshold;
-@property(nonatomic) double strongThreshold; // @synthesize strongThreshold=_strongThreshold;
 
 @end
 

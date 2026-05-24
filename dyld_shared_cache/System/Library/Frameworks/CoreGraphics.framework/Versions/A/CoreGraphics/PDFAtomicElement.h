@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRNormalizedQuad, NSString, PDFCRGroupRegion;
+@class PDFCRGroupRegion;
 
 __attribute__((visibility("hidden")))
 @interface PDFAtomicElement
 {
     unsigned int _type;
-    CRNormalizedQuad *_boundingQuad;
-    unsigned long long _layoutDirection;
-    PDFCRGroupRegion *_parent;
 }
 
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)finishedActivity:withResult:inManagedObjectContext: /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (void);
 - (void);
@@ -26,17 +23,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly) CRNormalizedQuad *boundingQuad; // @synthesize boundingQuad=_boundingQuad;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long layoutDirection; // @synthesize layoutDirection=_layoutDirection;
 @property(nonatomic) __weak PDFCRGroupRegion *parent; // @synthesize parent=_parent;
-@property(readonly) Class superclass;
-@property unsigned int type; // @synthesize type=_type;
 
 @end
 

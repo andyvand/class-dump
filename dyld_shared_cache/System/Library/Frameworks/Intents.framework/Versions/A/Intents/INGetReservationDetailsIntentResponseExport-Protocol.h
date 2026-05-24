@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol INGetReservationDetailsIntentResponseExport
-- (long long)rConfidenceLevel;
+- (void);
+- (long long)hasAsrConfidenceLevel;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) NSArray *reservations;
 @end
 

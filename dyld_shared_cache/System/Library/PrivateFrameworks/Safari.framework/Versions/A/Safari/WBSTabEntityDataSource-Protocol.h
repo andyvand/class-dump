@@ -7,6 +7,7 @@
 @class NSArray;
 
 @protocol WBSTabEntityDataSource
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *allTabEntities;

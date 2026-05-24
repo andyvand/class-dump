@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
     UIView *_fulfilledCustomView;
 }
 
-- (id);
+- (id)Version;
 - (id);
 - (void)ëÌt9^;
 

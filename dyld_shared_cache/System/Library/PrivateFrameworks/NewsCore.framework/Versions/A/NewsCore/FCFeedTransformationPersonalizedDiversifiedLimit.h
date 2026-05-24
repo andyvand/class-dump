@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol FCPersonalizationFunctionProviding;
-
 @interface FCFeedTransformationPersonalizedDiversifiedLimit
 {
     unsigned long long _limit;
-    id <FCPersonalizationFunctionProviding> _functionProvider;
 }
 
 + (id);
@@ -18,21 +14,13 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)Cb;
 - (void);
 - (unsigned long long);
 - (void)PrivateDataContext issueReadingHistory];
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) id <FCPersonalizationFunctionProviding> functionProvider; // @synthesize functionProvider=_functionProvider;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) unsigned long long limit; // @synthesize limit=_limit;
-@property(readonly) Class superclass;
 
 @end
 

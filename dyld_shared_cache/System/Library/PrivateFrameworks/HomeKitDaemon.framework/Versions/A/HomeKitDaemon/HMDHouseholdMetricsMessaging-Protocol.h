@@ -5,5 +5,6 @@
 //
 
 @protocol HMDHouseholdMetricsMessaging
+- (void);
 @end
 

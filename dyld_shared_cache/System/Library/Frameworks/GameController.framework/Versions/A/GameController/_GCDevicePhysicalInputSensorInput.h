@@ -6,17 +6,10 @@
 
 #import <GameController/_GCDevicePhysicalInputView.h>
 
-@class NSSet, NSString;
-@protocol GCPhysicalInputExtents;
-
 __attribute__((visibility("hidden")))
 @interface _GCDevicePhysicalInputSensorInput : _GCDevicePhysicalInputView
 {
     unsigned long long _minimumSlot;
-    unsigned long long _maximumSlot;
-    unsigned long long _valueChangedHandlerSlot;
-    unsigned long long _valueSlot;
-    unsigned long long _valueTimestampSlot;
 }
 
 + (unsigned short);
@@ -25,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (void);
-- (void);
+- (void);
 - (double);
 - (double);
 - (_Bool);
@@ -39,28 +32,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (float);
 - (double);
-- (id);
+- (id);
 - (double)Invalidate Connection;
 
 // Remaining properties
-@property(readonly, getter=isAnalog) _Bool analog;
-@property(readonly) _Bool canWrap;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <GCPhysicalInputExtents> extents;
-@property(readonly) unsigned long long hash;
-@property(readonly) double lastValueLatency;
-@property(readonly) double lastValueTimestamp;
-@property(readonly) double maximumValue;
-@property(readonly) double minimumValue;
-@property(readonly) id <GCPhysicalInputExtents> physicalExtents;
-@property(readonly) double scaledValue;
-@property(readonly, copy) NSSet *sources;
-@property(readonly) Class superclass;
-@property(readonly) float value;
 @property(copy) CDUnknownBlockType valueDidChangeHandler;
 
 @end

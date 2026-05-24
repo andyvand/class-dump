@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSString;
+@class NSString;
 
 @interface NSPPrivacyProxyTokenIssuer
 {
     NSString *_issuerName;
-    NSMutableArray *_tokenKeys;
-    NSData *_transparencyInternalProof;
-    NSData *_transparencyKeyBundle;
-    NSData *_transparencyProof;
-    _Bool _supportsTokenUsageFeedback;
-    struct {
-        unsigned int supportsTokenUsageFeedback:1;
-    } _has;
 }
 
 + (Class);
@@ -29,7 +21,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)%@ because display name changed;
 - (_Bool);
 - (void);
 - (id);
@@ -42,8 +34,8 @@
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)14SearchParamSet;
+- (void)500s %.500s %u;
 - (id);
 - (_Bool);
 - (void);
@@ -53,16 +45,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasSupportsTokenUsageFeedback;
-@property(readonly, nonatomic) _Bool hasTransparencyInternalProof;
-@property(readonly, nonatomic) _Bool hasTransparencyKeyBundle;
-@property(readonly, nonatomic) _Bool hasTransparencyProof;
 @property(retain, nonatomic) NSString *issuerName; // @synthesize issuerName=_issuerName;
-@property(nonatomic) _Bool supportsTokenUsageFeedback; // @synthesize supportsTokenUsageFeedback=_supportsTokenUsageFeedback;
-@property(retain, nonatomic) NSMutableArray *tokenKeys; // @synthesize tokenKeys=_tokenKeys;
-@property(retain, nonatomic) NSData *transparencyInternalProof; // @synthesize transparencyInternalProof=_transparencyInternalProof;
-@property(retain, nonatomic) NSData *transparencyKeyBundle; // @synthesize transparencyKeyBundle=_transparencyKeyBundle;
-@property(retain, nonatomic) NSData *transparencyProof; // @synthesize transparencyProof=_transparencyProof;
 
 @end
 

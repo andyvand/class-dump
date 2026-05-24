@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface _CDInteractionStoreNotificationReceiver
 {
     int _notifierToken;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);

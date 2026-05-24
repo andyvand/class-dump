@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface PHACurareShadowEvaluationEvaluationResult
 {
     _Bool _isPositiveData;
-    NSString *_modelName;
-    NSNumber *_numberOfTotalSamples;
-    NSNumber *_numberOfCorrectSamples;
-    NSNumber *_meanPredictionValue;
-    NSNumber *_stddevPredictionValue;
 }
 
 - (id);
@@ -25,19 +20,14 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)?;
 - (id);
 - (void);
 - (id);
-- (void)backPersonUUIDs: /* Error: Ran out of types for this method. */;
+- (void)_processWallpaperSuggestionsWithNegativeFeedbackPersonUUIDs: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property _Bool isPositiveData; // @synthesize isPositiveData=_isPositiveData;
-@property(retain, nonatomic) NSNumber *meanPredictionValue; // @synthesize meanPredictionValue=_meanPredictionValue;
 @property(retain, nonatomic) NSString *modelName; // @synthesize modelName=_modelName;
-@property(retain, nonatomic) NSNumber *numberOfCorrectSamples; // @synthesize numberOfCorrectSamples=_numberOfCorrectSamples;
-@property(retain, nonatomic) NSNumber *numberOfTotalSamples; // @synthesize numberOfTotalSamples=_numberOfTotalSamples;
-@property(retain, nonatomic) NSNumber *stddevPredictionValue; // @synthesize stddevPredictionValue=_stddevPredictionValue;
 
 @end
 

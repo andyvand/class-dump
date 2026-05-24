@@ -6,22 +6,11 @@
 
 #import <HelpData/DDMObject.h>
 
-@class DDMInfo, DDMMeta, DDMMisc, HPDHelpBook, NSArray, NSString;
+@class HPDHelpBook, NSString;
 
 @interface DDMBook : DDMObject
 {
     NSString *_bookID;
-    NSString *_tocID;
-    NSString *_product;
-    NSString *_version;
-    NSString *_locale;
-    NSString *_title;
-    NSString *_copyright;
-    DDMInfo *_info;
-    DDMMeta *_meta;
-    DDMMisc *_miscAttributes;
-    NSArray *_tocItems;
-    HPDHelpBook *_cachedHelpBook;
 }
 
 + (id);
@@ -30,7 +19,9 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -42,31 +33,13 @@
 - (id);
 - (id);
 - (id);
+- (id)!;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)sourceFileNameAndLineNumberForPCaddress:fullPath: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
-@property(readonly) NSString *appBundleVersion;
-@property(readonly) NSString *bookID; // @synthesize bookID=_bookID;
 @property(retain) HPDHelpBook *cachedHelpBook; // @synthesize cachedHelpBook=_cachedHelpBook;
-@property(readonly) NSString *copyright; // @synthesize copyright=_copyright;
-@property(readonly) HPDHelpBook *helpBook;
-@property(readonly) NSString *helpbookID;
-@property(readonly) DDMInfo *info; // @synthesize info=_info;
-@property(readonly) _Bool isSingleTopicBook;
-@property(readonly) NSString *language;
-@property(readonly) NSString *locale; // @synthesize locale=_locale;
-@property(readonly) DDMMeta *meta; // @synthesize meta=_meta;
-@property(readonly) DDMMisc *miscAttributes; // @synthesize miscAttributes=_miscAttributes;
-@property(readonly) NSString *product; // @synthesize product=_product;
-@property(readonly) NSString *title; // @synthesize title=_title;
-@property(readonly) NSString *tocID; // @synthesize tocID=_tocID;
-@property(readonly) NSArray *tocItems; // @synthesize tocItems=_tocItems;
-@property(readonly) NSString *version; // @synthesize version=_version;
 
 @end
 

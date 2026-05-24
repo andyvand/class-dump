@@ -6,17 +6,10 @@
 
 #import <Vision/VNImageBasedRequestConfiguration.h>
 
-@class NSNumber;
-
 __attribute__((visibility("hidden")))
 @interface VNDetectFaceLandmarksRequestConfiguration : VNImageBasedRequestConfiguration
 {
     _Bool _refineMouthRegion;
-    _Bool _refineLeftEyeRegion;
-    _Bool _refineRightEyeRegion;
-    _Bool _performBlinkDetection;
-    NSNumber *_cascadeStepCount;
-    unsigned long long _constellation;
 }
 
 + (_Bool);
@@ -28,21 +21,16 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)localSourcePersistence;
 - (id);
 - (unsigned long long);
-- (void);
-- (id)ision:topLeft:bottomLeft:bottomRight:topRight: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)initWithRequestRevision:topLeft:bottomLeft:bottomRight:topRight: /* Error: Ran out of types for this method. */;
 - (id)ÐÄ^;
 - (void)Scores(;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *cascadeStepCount; // @synthesize cascadeStepCount=_cascadeStepCount;
-@property(nonatomic) unsigned long long constellation; // @synthesize constellation=_constellation;
-@property(nonatomic) _Bool performBlinkDetection; // @synthesize performBlinkDetection=_performBlinkDetection;
-@property(nonatomic) _Bool refineLeftEyeRegion; // @synthesize refineLeftEyeRegion=_refineLeftEyeRegion;
 @property(nonatomic) _Bool refineMouthRegion; // @synthesize refineMouthRegion=_refineMouthRegion;
-@property(nonatomic) _Bool refineRightEyeRegion; // @synthesize refineRightEyeRegion=_refineRightEyeRegion;
 
 @end
 

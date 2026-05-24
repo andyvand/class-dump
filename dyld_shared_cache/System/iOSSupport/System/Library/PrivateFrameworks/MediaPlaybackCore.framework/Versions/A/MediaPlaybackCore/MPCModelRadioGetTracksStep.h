@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICRadioGetTracksRequest, ICRadioGetTracksResponse, ICUserIdentityProperties, NSError;
+@class ICUserIdentityProperties, NSError;
 
 __attribute__((visibility("hidden")))
 @interface MPCModelRadioGetTracksStep
 {
     NSError *_error;
-    _Bool _finished;
-    ICUserIdentityProperties *_identityProperties;
-    ICUserIdentityProperties *_delegatedIdentityProperties;
-    ICRadioGetTracksRequest *_request;
-    ICRadioGetTracksResponse *_response;
-    ICRadioGetTracksResponse *_siriAssetInfoGetTracksResponse;
 }
 
 - (id);
@@ -23,25 +17,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)ifier:(id)arg1 %@, newIsPrimary:(CDUnknownBlockType)arg2 %@, oldIsPrimary:%@, old account:%@, account:%@) /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (void);
 - (id);
+- (id)@;
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)$� � ;
 - (void)²â­ identifiers:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) ICUserIdentityProperties *delegatedIdentityProperties; // @synthesize delegatedIdentityProperties=_delegatedIdentityProperties;
-@property(readonly, copy, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic, getter=isFinished) _Bool finished; // @synthesize finished=_finished;
-@property(readonly, copy, nonatomic) ICUserIdentityProperties *identityProperties; // @synthesize identityProperties=_identityProperties;
-@property(readonly, copy, nonatomic) ICRadioGetTracksRequest *request; // @synthesize request=_request;
-@property(readonly, copy, nonatomic) ICRadioGetTracksResponse *response; // @synthesize response=_response;
-@property(readonly, nonatomic) ICRadioGetTracksResponse *siriAssetInfoGetTracksResponse; // @synthesize siriAssetInfoGetTracksResponse=_siriAssetInfoGetTracksResponse;
 
 @end
 

@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol GEOTransitIconDataSource, GEOTransitShieldDataSource, GEOTransitTextDataSource;
-
 @interface UnknownClass (MKTransitLineExtras)
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)g;
+- (id)gCodeToString:] /* Error: Ran out of types for this method. */;
+- (_Bool)kCBMsgArgUsecaseCount;
 - (int);
 - (int);
 - (id);
@@ -21,23 +18,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *accessibilityText;
-@property(readonly, nonatomic) int artworkSourceType;
-@property(readonly, nonatomic) int artworkUseType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasRoutingIncidentBadge;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <GEOTransitIconDataSource> iconDataSource;
-@property(readonly, nonatomic) id <GEOTransitShieldDataSource> iconFallbackShieldDataSource;
-@property(readonly, nonatomic) NSString *shieldColorString;
-@property(readonly, nonatomic) id <GEOTransitShieldDataSource> shieldDataSource;
-@property(readonly, nonatomic) NSString *shieldText;
-@property(readonly, nonatomic) long long shieldType;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <GEOTransitTextDataSource> textDataSource;
 @end
 

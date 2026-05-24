@@ -5,14 +5,10 @@
 //
 
 @class NSArray;
-@protocol ICLegacyContext, ICLegacyFolder;
 
 @interface ICCopyModernNotesToLegacyAccountOperation
 {
     NSArray *_sourceNotes;
-    id <ICLegacyFolder> _destinationFolder;
-    id <ICLegacyContext> _legacyContext;
-    CDUnknownBlockType _didCopyBlock;
 }
 
 - (id);
@@ -30,12 +26,9 @@
 - (id);
 - (id);
 - (void);
-- (void)ListSectionIdentifiersToButtonIdentifiers;
+- (void)_folderListSectionIdentifiersToButtonIdentifiers;
 
 // Remaining properties
-@property(retain, nonatomic) id <ICLegacyFolder> destinationFolder; // @synthesize destinationFolder=_destinationFolder;
-@property(copy, nonatomic) CDUnknownBlockType didCopyBlock; // @synthesize didCopyBlock=_didCopyBlock;
-@property(retain, nonatomic) id <ICLegacyContext> legacyContext; // @synthesize legacyContext=_legacyContext;
 @property(copy, nonatomic) NSArray *sourceNotes; // @synthesize sourceNotes=_sourceNotes;
 
 @end

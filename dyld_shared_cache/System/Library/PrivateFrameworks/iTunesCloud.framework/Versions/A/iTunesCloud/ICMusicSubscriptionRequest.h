@@ -12,8 +12,6 @@ __attribute__((visibility("hidden")))
 @interface ICMusicSubscriptionRequest : ICRequestOperation
 {
     ICStoreRequestContext *_storeRequestContext;
-    long long _requestType;
-    _Bool _requestingOfflineSlot;
 }
 
 - (id);

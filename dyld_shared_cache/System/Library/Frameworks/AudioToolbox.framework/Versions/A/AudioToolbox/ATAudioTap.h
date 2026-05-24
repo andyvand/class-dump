@@ -9,7 +9,6 @@
 @interface ATAudioTap
 {
     _Bool _screenSharingHost;
-    ATAudioTapDescription *_tapDescription;
 }
 
 + (_Bool);
@@ -17,14 +16,13 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (_Bool);
-- (void);
+- (id)CorePhoneNumbers;
+- (_Bool)totalClientRequests;
+- (void)P;
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=isScreenSharingHost) _Bool screenSharingHost; // @synthesize screenSharingHost=_screenSharingHost;
 @property(readonly, nonatomic) ATAudioTapDescription *tapDescription; // @synthesize tapDescription=_tapDescription;
 
 @end

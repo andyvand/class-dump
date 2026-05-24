@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTextCheckingResult;
+@class NSTextCheckingResult;
 
 __attribute__((visibility("hidden")))
 @interface PRRecordedCorrection
 {
     NSTextCheckingResult *_correctionResult;
-    NSString *_correctedString;
-    _Bool _hasRecordedResponse;
 }
 
 - (void);

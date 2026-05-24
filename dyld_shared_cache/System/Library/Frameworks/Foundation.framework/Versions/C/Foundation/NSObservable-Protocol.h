@@ -10,6 +10,7 @@
 @protocol NSObservable
 
 @optional
+- (void);
 - (NSObservation<NSObservable><NSObserver> *)îïïïïïïððñòòòòòóóóóóóóóóóôõõõõöööö÷øøùúúúúûüýþþÿÿ;
 @end
 

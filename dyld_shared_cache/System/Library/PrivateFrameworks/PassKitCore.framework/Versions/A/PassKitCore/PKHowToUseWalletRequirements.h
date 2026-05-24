@@ -4,35 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, PKOSVersionRequirementRange;
+@class PKOSVersionRequirementRange;
 
 @interface PKHowToUseWalletRequirements
 {
     PKOSVersionRequirementRange *_osVersions;
-    unsigned long long _capability;
-    NSSet *_supportedLanguages;
-    NSSet *_supportedRegions;
 }
 
 + (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)jA	;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (id)viderWebsiteURL;
+- (_Bool)resumptionFailureTimes;
+- (id)_transitProviderWebsiteURL;
 - (id);
 - (void)ger sendDeviceSharingCapabilitiesRequestForHandle:completion:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long capability; // @synthesize capability=_capability;
 @property(readonly, nonatomic) PKOSVersionRequirementRange *osVersions; // @synthesize osVersions=_osVersions;
-@property(readonly, nonatomic) NSSet *supportedLanguages; // @synthesize supportedLanguages=_supportedLanguages;
-@property(readonly, nonatomic) NSSet *supportedRegions; // @synthesize supportedRegions=_supportedRegions;
 
 @end
 

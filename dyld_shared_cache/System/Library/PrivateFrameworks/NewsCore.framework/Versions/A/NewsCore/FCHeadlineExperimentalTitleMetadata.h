@@ -4,28 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface FCHeadlineExperimentalTitleMetadata
 {
     _Bool _isTitleExperimental;
-    int _treatmentState;
-    long long _arrayIndexUsedforTitle;
-    NSString *_chosenTitle;
 }
 
-- (id);
+- (id)͉;
 - (long long);
 - (id);
-- (_Bool);
+- (_Bool)parentNode);return t},Node.prototype.mf_expectsNewline=function(){return this instanceof HTMLParagraphElement||this instanceof HTMLDivElement||this instanceof HTMLTableRowElement},Node.prototype.mf_isEmptyNode=function(){return this.nodeType===Node.TEXT_NODE&&0==this.nodeValue.trim().length},Node.prototype.mf_highestContainingBlockQuote=function(){let t,e=this.mf_containingBlockQuote();for(;e&&(t=e.parentNode.mf_containingBlockQuote());)e=t;return e},Node.prototype.mf_firstDescendantBlockQuote=function(){let t;if(this.mf_quoteLevelDelta()>0)t=this;else{let e,n=this.childNodes,i=n.length;for(e=0;!t&&e<i;e++)t=n.item(e).mf_firstDescendantBlockQuote()}return t},Node.prototype.mf_blockNodeAncestor=function(){let t=this;for(;!isBlockLevelNode(t)&&"li"!==t.nodeName.toLowerCase();)t=t.parentNode;return t},Node.prototype.mf_findElement=function(t,e,n){t=t.toLowerCase();let i,o,r;if(this instanceof HTMLDocument?(r=this,o=this.body):(r=this.ownerDocument,o=this),o){let s,a=r.createNodeIterator(o,NodeFilter.SHOW_ELEMENT);for(;!i&&(s=a.nextNode());){let o=!0;t&&!(o=o&&s.nodeName.toLowerCase()===t)||(e&&!(o=o&&s.className===e)||n&&!(o=o&&s.id===n)||o&&(i=s))}}return i},Node.prototype.mf_attachmentIdentifier=function(){return this instanceof HTMLAttachmentElement?this.uniqueIdentifier:this instanceof HTMLImageElement?this.src.startsWith("http")?undefined:this.attachmentIdentifier:document.isInlineGenmojiEnabled&&this instanceof HTMLSourceElement&&this.parentElement instanceof HTMLPictureElement?this.attachmentIdentifier:undefined},Node.prototype.mf_childrenRequirePlainTextConversion=function(){for(let t of this.childNodes)if(!(t instanceof Text||t.mf_attachmentIdentifier()!==undefined||t instanceof HTMLBRElement))return!0;return!1},Node.prototype.mf_isRichLinkPreview=function(){return this instanceof HTMLImageElement&&this.className.includes(MFLPRichLinkClassPrefix)},Node.prototype.hasNoSignificantContents=function(){let t=!1,e=this instanceof Text?this:this.firstChild,n=!1;for(;e&&!t;)({nodeIsSignificantContent:t,mayContainSignificantContent:n}=nodeIsSignificantContent(e)),t||(e=n?e._mail_traverseNextNodeStayingWithin(this):e._mail_traverseNextSiblingStayingWithin(this));return!t},Node.prototype._mail_traverseNextNodeStayingWithin=function(t){let e=this.firstChild;if(e)return e;if(this.isSameNode(t))return null;if(e=this.nextSibling)return e;for(e=this;e&&!e.nextSibling&&(!t||!e.parentNode.isSameNode(t));)e=e.parentNode;return e.nextSibling},Node.prototype._mail_traverseNextSiblingStayingWithin=function(t){let e=null;if(this.isSameNode(t))return e;if(e=this.nextSibling)return e;for(e=this;e&&!e.nextSibling&&(!t||!e.parentNode.isSameNode(t));)e=e.parentNode;return e.nextSibling};const nodeIsSignificantContent=function(t){let e=t.nodeName;return"SPAN"===e||"DIV"===e||"FONT"===e||"STYLE"===e||"P"===e||"PRE"===e?{nodeIsSignificantContent:!1,mayContainSignificantContent:!0}:"BR"===e?{nodeIsSignificantContent:!1,mayContainSignificantContent:!1}:t instanceof Text&&(0===t.length||t.data.containsOnlyWhitespace)?{nodeIsSignificantContent:!1,mayContainSignificantContent:!1}:{nodeIsSignificantContent:!0,mayContainSignificantContent:!1}}; /* Error: Ran out of types for this method. */;
 - (int)picsConfig;
-- (void)eFactor;
+- (void)nameImageScaleFactor;
 
 // Remaining properties
-@property(readonly, nonatomic) long long arrayIndexUsedforTitle; // @synthesize arrayIndexUsedforTitle=_arrayIndexUsedforTitle;
-@property(readonly, copy, nonatomic) NSString *chosenTitle; // @synthesize chosenTitle=_chosenTitle;
 @property(readonly, nonatomic) _Bool isTitleExperimental; // @synthesize isTitleExperimental=_isTitleExperimental;
-@property(readonly, nonatomic) int treatmentState; // @synthesize treatmentState=_treatmentState;
 
 @end
 

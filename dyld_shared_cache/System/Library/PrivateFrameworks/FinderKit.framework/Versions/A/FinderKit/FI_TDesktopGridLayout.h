@@ -8,27 +8,18 @@ __attribute__((visibility("hidden")))
 @interface FI_TDesktopGridLayout
 {
     int _layoutStyle;
-    _Bool _justifiedLayout;
-    struct CGRect _frame;
-    double _topMargin;
-    double _bottomMargin;
-    double _leftMargin;
-    double _rightMargin;
-    struct CGRect _anchoredCellFrame;
-    struct CGSize _cellSize;
-    struct TIconLayoutBitmap _bitmap;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (vector_52a4e7e1);
 - (unsigned long long);
 - (_Bool);
 - (unsigned long long);
-- (struct CGPoint);
+- (struct CGPoint)?;
 - (_Bool);
 - (id);
 - (double);
@@ -42,16 +33,16 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (struct CGPoint);
 - (_Bool);
-- (_Bool);
+- (_Bool)#;
 - (struct CGSize);
+- (void)figurationProviderDelegate>"16@0:(double)arg1 8;
+- (void)feedbackListener;
 - (void);
-- (void);
-- (void);
-- (struct CGSize);
+- (struct CGSize)@56@0:8@16@?24@?32#40#48 /* Error: Ran out of types for this method. */;
 - (void);
 - (int);
-- (_Bool);
-- (double);
+- (_Bool)`;
+- (double)(\;
 - (void);
 - (id);
 - (double);
@@ -65,17 +56,7 @@ __attribute__((visibility("hidden")))
 - (void)ÿÿ;
 
 // Remaining properties
-@property(nonatomic) struct CGRect anchoredCellFrame;
-@property(nonatomic) double bottomMargin; // @synthesize bottomMargin=_bottomMargin;
-@property(readonly, nonatomic) struct CGSize cellSize;
-@property(nonatomic) _Bool expandsIfNeeded;
-@property(nonatomic) struct CGRect frame; // @synthesize frame=_frame;
-@property(nonatomic) _Bool justifiedLayout; // @synthesize justifiedLayout=_justifiedLayout;
-@property(readonly, nonatomic) struct CGRect layoutFrame;
 @property(nonatomic) int layoutStyle; // @synthesize layoutStyle=_layoutStyle;
-@property(nonatomic) double leftMargin; // @synthesize leftMargin=_leftMargin;
-@property(nonatomic) double rightMargin; // @synthesize rightMargin=_rightMargin;
-@property(nonatomic) double topMargin; // @synthesize topMargin=_topMargin;
 
 @end
 

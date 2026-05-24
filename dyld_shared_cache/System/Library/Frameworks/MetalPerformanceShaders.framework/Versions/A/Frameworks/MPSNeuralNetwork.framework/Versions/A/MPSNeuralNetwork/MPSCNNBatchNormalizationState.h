@@ -11,9 +11,6 @@
 @interface MPSCNNBatchNormalizationState : MPSNNGradientState
 {
     MPSCNNBatchNormalization *_batchNormalization;
-    unsigned long long _accumulationCount;
-    unsigned long long _numberOfFeatureChannels;
-    float _epsilon;
 }
 
 + (id);
@@ -26,7 +23,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)H6;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) MPSCNNBatchNormalization *batchNormalization; // @synthesize batchNormalization=_batchNormalization;

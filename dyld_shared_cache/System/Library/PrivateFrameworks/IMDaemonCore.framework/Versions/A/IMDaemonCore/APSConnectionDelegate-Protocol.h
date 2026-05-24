@@ -4,12 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class APSConnection;
+@class APSConnection, NSData;
 
 @protocol APSConnectionDelegate
 - (void)8L@;
 
 @optional
+- (void);
+- (void)type. subCCKey:(APSConnection *)arg1 %@, subCCValue:(NSData *)arg2 %@;
 - (void)led message:(APSConnection *)arg1 %@;
 - (void)on was for {%@}, currently {%@}.;
 - (void)s Family member %@;

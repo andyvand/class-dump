@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessoryMetricVendorDetails, HMFSoftwareVersion, NSDictionary, NSString, NSUUID;
+@class HMDAccessoryMetricVendorDetails;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessorySoftwareUpdateApplyEvent
 {
     HMDAccessoryMetricVendorDetails *_metricVendorDetails;
-    HMFSoftwareVersion *_stagedVersion;
-    unsigned long long _advertisedDuration;
-    unsigned long long _totalAllowedDuration;
-    long long _status;
 }
 
 + (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)%{public}@ %{private}@
+	location:%{public}@ %{private}@ 
+	route:routingPathLegs:%{public}@, coordinates:%{public}@, trafficColors:%{public}@, trafficOffsets:%{public}@, referenceFrame:%{public}@
+================ /* Error: Ran out of types for this method. */;
+- (id)changeType;
 - (id);
 - (id);
 - (unsigned long long);
@@ -29,33 +28,7 @@ __attribute__((visibility("hidden")))
 - (void)ÿ`$=;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, nonatomic) unsigned long long advertisedDuration; // @synthesize advertisedDuration=_advertisedDuration;
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
 @property(readonly, nonatomic) HMDAccessoryMetricVendorDetails *metricVendorDetails; // @synthesize metricVendorDetails=_metricVendorDetails;
-@property(readonly, nonatomic) HMFSoftwareVersion *stagedVersion; // @synthesize stagedVersion=_stagedVersion;
-@property(readonly, nonatomic) long long status; // @synthesize status=_status;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long totalAllowedDuration; // @synthesize totalAllowedDuration=_totalAllowedDuration;
 
 @end
 

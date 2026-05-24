@@ -18,7 +18,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *actionIdentifier;
-@property(nonatomic, readonly) NSString *actionNameLocalizationKey;
 
 @end
 

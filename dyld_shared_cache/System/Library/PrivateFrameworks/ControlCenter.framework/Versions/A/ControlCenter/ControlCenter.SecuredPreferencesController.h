@@ -7,9 +7,6 @@
 @interface ControlCenter.SecuredPreferencesController
 {
     id userDefaults;
-    id logger;
-    id cancellables;
-    id keys;
 }
 
 @end

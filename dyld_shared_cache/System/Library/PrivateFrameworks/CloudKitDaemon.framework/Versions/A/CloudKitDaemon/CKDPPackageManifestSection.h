@@ -4,54 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface CKDPPackageManifestSection
 {
     long long _size;
-    NSData *_signature;
-    NSData *_verificationKey;
-    _Bool _lastSection;
-    struct {
-        unsigned int size:1;
-        unsigned int lastSection:1;
-    } _has;
 }
 
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (_Bool);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (long long);
+- (void)setReaderIdentifier:(id)arg1;
 - (void);
 - (_Bool);
+- (unsigned long long)err=%d
+;
+- (_Bool);
+- (id);
+- (long long)usageChargingDayTimeInLastWeek;
+- (void);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id)eration:withBlock: /* Error: Ran out of types for this method. */;
-- (void)keManateeOverride;
+- (id)performPublishAssetsOperation:withBlock: /* Error: Ran out of types for this method. */;
+- (void)fakeManateeOverride;
 - (_Bool)æÌæ´ç8èüè;
 - (void)ÔK;
-- (void)ityOfService;
+- (void)qualityOfService;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLastSection;
 @property(readonly, nonatomic) _Bool hasSignature;
-@property(nonatomic) _Bool hasSize;
-@property(readonly, nonatomic) _Bool hasVerificationKey;
-@property(nonatomic) _Bool lastSection; // @synthesize lastSection=_lastSection;
-@property(retain, nonatomic) NSData *signature; // @synthesize signature=_signature;
-@property(nonatomic) long long size; // @synthesize size=_size;
-@property(retain, nonatomic) NSData *verificationKey; // @synthesize verificationKey=_verificationKey;
 
 @end
 

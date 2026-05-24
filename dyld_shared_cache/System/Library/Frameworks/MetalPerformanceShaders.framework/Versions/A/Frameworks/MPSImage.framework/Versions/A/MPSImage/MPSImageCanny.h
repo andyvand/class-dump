@@ -6,20 +6,9 @@
 
 #import <MPSImage/MPSUnaryImageKernel.h>
 
-@class MPSImageGaussianBlur;
-@protocol MTLBuffer;
-
 @interface MPSImageCanny : MPSUnaryImageKernel
 {
     float _colVec[3];
-    float lThresh;
-    float hThresh;
-    _Bool _useFastMode;
-    float _maxEdgeTracingIterations;
-    unsigned short _canny_window;
-    MPSImageGaussianBlur *gaussKernel;
-    id <MTLBuffer> _indirectDispatchBufferArgs;
-    _Bool _supportsReadWriteTextures;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -29,25 +18,20 @@
 - (void);
 - (float);
 - (float);
-- (id);
+- (id);
 - (float);
 - (const float *);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)indexSearchableItems:(id)arg1 deleteSearchableItemsWithIdentifiers:clientState:updatingDonationProgress:protectionClass:forBundleID:options:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (float);
 - (id)âWÀ?VùB«?Ob²Ó.,?mÇíÔx?;
 
 // Remaining properties
-@property(readonly, nonatomic) const float *colorTransform;
-@property(nonatomic) float highThreshold; // @synthesize highThreshold=hThresh;
-@property(nonatomic) float lowThreshold; // @synthesize lowThreshold=lThresh;
 @property(nonatomic) float maxEdgeTracingIterations; // @synthesize maxEdgeTracingIterations=_maxEdgeTracingIterations;
-@property(readonly, nonatomic) float sigma;
-@property(nonatomic) _Bool useFastMode; // @synthesize useFastMode=_useFastMode;
 
 @end
 

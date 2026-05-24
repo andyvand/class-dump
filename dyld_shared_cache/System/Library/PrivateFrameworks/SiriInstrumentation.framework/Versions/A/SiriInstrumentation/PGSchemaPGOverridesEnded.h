@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, PGSchemaPGOverridesMatchMetadata, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PGSchemaPGOverridesEnded : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_transcriptEventId;
-    PGSchemaPGOverridesMatchMetadata *_overridesMatched;
-    NSString *_assetVersion;
-    _Bool _hasTranscriptEventId;
-    _Bool _hasOverridesMatched;
-    _Bool _hasAssetVersion;
 }
 
 - (id);
@@ -25,7 +20,7 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)@;
 - (_Bool);
 - (void);
 - (void);
@@ -36,23 +31,17 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)ng.;
 - (id);
 - (id)!ØCùÝÐ1Â0@ù
 × ;
 - (void)emonSpawnTimestampInNs"b1"assistantDaemonLoadedTimestampInNs"b1"isFirstRequest"b1};
-- (id)lowExecutorComponentSummary;
+- (id)_hasPnronIntelligenceFlowExecutorComponentSummary;
 - (id)rValue;
-- (id)SNOTSUPPORTINTENT;
-- (void)roductType;
+- (id)DIALOGENGINENAMEDENTITYCATID__COMMONERRORS__APPDOESNOTSUPPORTINTENT;
+- (void)productType;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *assetVersion; // @synthesize assetVersion=_assetVersion;
-@property(nonatomic) _Bool hasAssetVersion; // @synthesize hasAssetVersion=_hasAssetVersion;
-@property(nonatomic) _Bool hasOverridesMatched; // @synthesize hasOverridesMatched=_hasOverridesMatched;
-@property(nonatomic) _Bool hasTranscriptEventId; // @synthesize hasTranscriptEventId=_hasTranscriptEventId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) PGSchemaPGOverridesMatchMetadata *overridesMatched; // @synthesize overridesMatched=_overridesMatched;
 @property(retain, nonatomic) SISchemaUUID *transcriptEventId; // @synthesize transcriptEventId=_transcriptEventId;
 
 @end

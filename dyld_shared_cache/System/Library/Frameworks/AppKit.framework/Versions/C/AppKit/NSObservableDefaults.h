@@ -10,14 +10,13 @@
 @interface NSObservableDefaults
 {
     NSMutableDictionary *_keyTargetDict;
-    id <NSDefaultChangeObserver> _observer;
 }
 
 - (void);
+- (void)URLSession:(id)arg1 _willRetryBackgroundDataTask:(SEL)arg2 withError:(id)arg3;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)ot connect to the server.;
 - (id);
 - (id);
 - (void);

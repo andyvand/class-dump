@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CXServiceDomain, NSString, Protocol;
+@class Protocol;
 
 @protocol CXServiceDefinition
+- (Protocol *);
 
 // Remaining properties
 @property(readonly, copy) Protocol *clientXPCInterface;
-@property(readonly) CXServiceDomain *domain;
-@property(readonly, copy) NSString *name;
-@property(readonly, copy) Protocol *serverXPCInterface;
 @end
 

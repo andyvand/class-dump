@@ -6,7 +6,7 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSData, NSString;
+@class NSData;
 
 @interface CEMProfileInstallDeclaration : CEMConfigurationBase
 {
@@ -23,23 +23,16 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)_;
 - (_Bool);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool)oiceOverVoiceRotors;
 - (id);
-- (void);
+- (void)ng message type;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSData *payloadProfile; // @synthesize payloadProfile=_payloadProfile;
-@property(readonly) Class superclass;
 
 @end
 

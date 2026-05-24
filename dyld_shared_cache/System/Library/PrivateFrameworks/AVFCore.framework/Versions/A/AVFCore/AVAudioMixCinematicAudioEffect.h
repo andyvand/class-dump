@@ -13,9 +13,9 @@
     NSData *_data;
 }
 
-+ (id);
++ (id):(id)arg1 ;
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);

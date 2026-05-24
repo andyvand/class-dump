@@ -4,39 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCapturePhotoSettings, AVCaptureResolvedPhotoSettings, AVWeakReferencingDelegateStorage, NSArray;
+@class AVWeakReferencingDelegateStorage;
 
 __attribute__((visibility("hidden")))
 @interface AVCapturePhotoRequest
 {
     AVWeakReferencingDelegateStorage *_delegateStorage;
-    unsigned int _photoCallbackFlavor;
-    AVCapturePhotoSettings *_unresolvedSettings;
-    AVCaptureResolvedPhotoSettings *_resolvedSettings;
-    NSArray *_expectedPhotoManifest;
-    unsigned int _firedCallbackFlags;
-    unsigned long long _firedPhotoCallbacksCount;
-    struct __IOSurface *_previewSurface;
-    struct opaqueCMSampleBuffer *_previewSampleBuffer;
-    struct __IOSurface *_thumbnailSurface;
-    _Bool _delegateSupportsDebugMetadataSidecarFile;
-    _Bool _delegateSupportsMetadataIdentifiersCallback;
-    _Bool _lensStabilizationSupported;
 }
 
 + (id);
 + (void)tstbbolgcwhdbolgwshdbolgczambolgartdtpnifmofbolgmftfbolgmvtfbolgcssabolgccsabolglcmp****hnmpbolgenogbolg;
 - (id);
 - (_Bool);
-- (void);
+- (void)@;
 - (_Bool);
-- (void);
+- (void)preloadDataclassOwnersWithError: /* Error: Ran out of types for this method. */;
 - (unsigned int);
-- (_Bool);
-- (id);
+- (_Bool)K`;
+- (id);
 - (unsigned long long);
 - (unsigned int);
-- (void);
+- (void)_frameSenderServiceBroker;
 - (void);
 - (struct __IOSurface *);
 - (struct __IOSurface *);
@@ -51,20 +39,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly) AVWeakReferencingDelegateStorage *delegateStorage; // @synthesize delegateStorage=_delegateStorage;
-@property(readonly) _Bool delegateSupportsDebugMetadataSidecarFile; // @synthesize delegateSupportsDebugMetadataSidecarFile=_delegateSupportsDebugMetadataSidecarFile;
-@property(readonly) _Bool delegateSupportsMetadataIdentifiersCallback; // @synthesize delegateSupportsMetadataIdentifiersCallback=_delegateSupportsMetadataIdentifiersCallback;
-@property(readonly, nonatomic) unsigned long long expectedPhotoCount;
-@property(readonly, nonatomic) NSArray *expectedPhotoManifest; // @synthesize expectedPhotoManifest=_expectedPhotoManifest;
-@property(nonatomic) unsigned int firedCallbackFlags; // @synthesize firedCallbackFlags=_firedCallbackFlags;
-@property(nonatomic) unsigned long long firedPhotoCallbacksCount; // @synthesize firedPhotoCallbacksCount=_firedPhotoCallbacksCount;
-@property(readonly) _Bool lensStabilizationSupported; // @synthesize lensStabilizationSupported=_lensStabilizationSupported;
 @property(readonly) unsigned int photoCallbackFlavor; // @synthesize photoCallbackFlavor=_photoCallbackFlavor;
-@property(retain, nonatomic) struct opaqueCMSampleBuffer *previewSampleBuffer; // @synthesize previewSampleBuffer=_previewSampleBuffer;
-@property(retain, nonatomic) struct __IOSurface *previewSurface; // @synthesize previewSurface=_previewSurface;
-@property(retain, nonatomic) AVCaptureResolvedPhotoSettings *resolvedSettings;
-@property(retain, nonatomic) struct __IOSurface *thumbnailSurface; // @synthesize thumbnailSurface=_thumbnailSurface;
-@property(readonly) AVCapturePhotoSettings *unresolvedSettings; // @synthesize unresolvedSettings=_unresolvedSettings;
 
 @end
 

@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _UISceneSafeAreaCornerInsetResolver, _UISceneSafeAreaEdgeInsetResolver;
+@class _UISceneSafeAreaEdgeInsetResolver;
 
 @protocol _UISceneSafeAreaSettings
+- (void);
+- (struct _UICornerInsets)�B;
 
 // Remaining properties
-@property(retain, nonatomic) _UISceneSafeAreaCornerInsetResolver *safeAreaCornerInsetResolver;
-@property(nonatomic) struct _UICornerInsets safeAreaCornerInsets;
 @property(retain, nonatomic) _UISceneSafeAreaEdgeInsetResolver *safeAreaEdgeInsetResolver;
-@property(nonatomic) struct UIEdgeInsets safeAreaEdgeInsets;
 @end
 

@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSString;
+@class NSString;
 
 @interface ICHashtagsNode
 {
     _Bool _isPossibleAll;
-    NSMutableSet *_hashtagSuggestions;
-    NSMutableSet *_possibleHashtagSuggestions;
-    NSString *_key;
-    NSMutableDictionary *_children;
 }
 
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)__const;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void)ouldSyncMinimumSupportedNotesVersion;
+- (void)shouldSyncMinimumSupportedNotesVersion;
 - (void)ød ìL;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *children; // @synthesize children=_children;
-@property(readonly, nonatomic) NSMutableSet *hashtagSuggestions; // @synthesize hashtagSuggestions=_hashtagSuggestions;
-@property(nonatomic) _Bool isPossibleAll; // @synthesize isPossibleAll=_isPossibleAll;
 @property(copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(readonly, nonatomic) NSMutableSet *possibleHashtagSuggestions; // @synthesize possibleHashtagSuggestions=_possibleHashtagSuggestions;
 
 @end
 

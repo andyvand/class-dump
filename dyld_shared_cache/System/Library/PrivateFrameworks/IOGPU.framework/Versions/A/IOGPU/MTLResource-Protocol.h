@@ -5,20 +5,16 @@
 //
 
 @class NSString;
-@protocol MTLDevice, MTLHeap;
+@protocol MTLHeap;
 
 @protocol MTLResource
+- (void)ѕ;
+- (unsigned long long)k;
+- (unsigned long long)CDVStringWithNumberOfSpaces: /* Error: Ran out of types for this method. */;
+- (void)serviceString:(NSString *)arg1 [%@];
 - (id <MTLHeap>)ommandBufferID:0x%llx, segmentCount:%u, reserved:%u}, 0x%x bytes failed to be allocated /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) unsigned long long allocatedSize;
-@property(readonly) unsigned long long cpuCacheMode;
-@property(readonly) id <MTLDevice> device;
-@property(readonly) unsigned long long hazardTrackingMode;
-@property(readonly) id <MTLHeap> heap;
-@property(readonly) unsigned long long heapOffset;
 @property(copy) NSString *label;
-@property(readonly) unsigned long long resourceOptions;
-@property(readonly) unsigned long long storageMode;
 @end
 

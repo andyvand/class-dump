@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPTLVUnsignedNumberValue, NSMutableArray, NSString;
+@class HAPTLVUnsignedNumberValue;
 
 @interface HAPCameraBufferInfoResponse
 {
     HAPTLVUnsignedNumberValue *_version;
-    NSMutableArray *_buffers;
 }
 
 + (id);
@@ -18,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)fetchEventFromFrameStore:(id)arg1 atOffset:withOptions:callback: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
@@ -27,14 +26,6 @@
 - (id)lu;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *buffers; // @synthesize buffers=_buffers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) HAPTLVUnsignedNumberValue *version; // @synthesize version=_version;
 
 @end

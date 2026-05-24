@@ -6,36 +6,26 @@
 
 #import <AppKit/NSView.h>
 
-@class CALayer, NSString;
+@class CALayer;
 
 __attribute__((visibility("hidden")))
 @interface NSTouchBarColorListPickerOpaqueContainerView : NSView
 {
     CALayer *_underContentCoverView;
-    NSView *_contentView;
-    _Bool _active;
 }
 
-- (_Bool);
-- (struct CGAffineTransform);
-- (struct CGAffineTransform);
+- (_Bool)ThreadRadioMacAddress64Bit;
+- (struct CGAffineTransform)(;
+- (struct CGAffineTransform)-ranges;
 - (void);
 - (void);
-- (id)utMargins:(struct CGRect)arg1;
-- (void)postCommitNotification;
+- (id)setMemoizedPreviousLayoutMargins:(struct CGRect)arg1;
+- (void)_postCommitNotification;
 - (_Bool)ðOÍÿHç	Æ@;
 - (id);
 
 // Remaining properties
-@property _Bool active; // @synthesize active=_active;
 @property(retain) NSView *contentView; // @synthesize contentView=_contentView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

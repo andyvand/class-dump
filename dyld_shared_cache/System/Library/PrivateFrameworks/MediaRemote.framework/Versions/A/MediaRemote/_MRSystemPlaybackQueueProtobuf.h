@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _MRSystemPlaybackCustomDataQueueProtobuf, _MRSystemPlaybackGenericTracklistQueueProtobuf;
+@class _MRSystemPlaybackCustomDataQueueProtobuf;
 
 @interface _MRSystemPlaybackQueueProtobuf
 {
     _MRSystemPlaybackCustomDataQueueProtobuf *_customData;
-    NSString *_featureName;
-    NSData *_metrics;
-    int _replaceIntent;
-    _MRSystemPlaybackGenericTracklistQueueProtobuf *_tracklist;
-    int _type;
-    NSData *_userInfo;
-    _Bool _isRequestingImmediatePlayback;
-    struct {
-        unsigned int replaceIntent:1;
-        unsigned int isRequestingImmediatePlayback:1;
-    } _has;
 }
 
 - (id);
@@ -35,14 +24,14 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (int);
+- (int);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
@@ -54,30 +43,16 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)AppleMusicExportRestrictionByPass;
+- (void)ithCompletion:(int)arg1 ];
+- (id)forceSiriX;
 - (int);
 - (void);
 - (id);
-- (void)entityWithIdentifier:displayName: /* Error: Ran out of types for this method. */;
+- (void)basicIdentityWithIdentifier:displayName: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) _MRSystemPlaybackCustomDataQueueProtobuf *customData; // @synthesize customData=_customData;
-@property(retain, nonatomic) NSString *featureName; // @synthesize featureName=_featureName;
-@property(readonly, nonatomic) _Bool hasCustomData;
-@property(readonly, nonatomic) _Bool hasFeatureName;
-@property(nonatomic) _Bool hasIsRequestingImmediatePlayback;
-@property(readonly, nonatomic) _Bool hasMetrics;
-@property(nonatomic) _Bool hasReplaceIntent;
-@property(readonly, nonatomic) _Bool hasTracklist;
-@property(readonly, nonatomic) _Bool hasUserInfo;
-@property(nonatomic) _Bool isRequestingImmediatePlayback; // @synthesize isRequestingImmediatePlayback=_isRequestingImmediatePlayback;
-@property(retain, nonatomic) NSData *metrics; // @synthesize metrics=_metrics;
-@property(nonatomic) int replaceIntent; // @synthesize replaceIntent=_replaceIntent;
-@property(retain, nonatomic) _MRSystemPlaybackGenericTracklistQueueProtobuf *tracklist; // @synthesize tracklist=_tracklist;
 @property(nonatomic) int type; // @synthesize type=_type;
-@property(retain, nonatomic) NSData *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

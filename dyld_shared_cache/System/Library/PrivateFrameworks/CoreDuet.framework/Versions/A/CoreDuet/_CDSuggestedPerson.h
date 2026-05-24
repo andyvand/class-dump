@@ -4,37 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _CDContact;
+@class NSString, _CDContact;
 
 @interface _CDSuggestedPerson
 {
     _CDContact *_contact;
-    NSString *_interactionBundleID;
-    double _rank;
-    double _score;
-    NSArray *_interactions;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)D;
 - (void);
 - (id);
-- (double);
+- (id);
+- (id)B;
+- (void);
+- (void);
+- (id)C.ecC.eeC.eiC.eoC.esC.et..e;
+- (double);
 - (void);
 - (double);
 - (void)á¶/ð!ÀDùñ©3ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain) _CDContact *contact; // @synthesize contact=_contact;
 @property(retain) NSString *interactionBundleID; // @synthesize interactionBundleID=_interactionBundleID;
-@property(retain) NSArray *interactions; // @synthesize interactions=_interactions;
-@property double rank; // @synthesize rank=_rank;
-@property double score; // @synthesize score=_score;
 
 @end
 

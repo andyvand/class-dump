@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_source;
+@class NSString;
 
 @interface IMPingTest
 {
     NSString *_address;
-    _Bool _usesWifi;
-    id _collector;
-    _Bool _isRunning;
-    NSObject<OS_dispatch_source> *_sendTimer;
-    NSObject<OS_dispatch_source> *_socketReadSource;
-    double _secondsToRun;
 }
 
 - (_Bool);
@@ -28,9 +21,9 @@
 - (void);
 - (int);
 - (void);
+- (void)";
 - (void);
-- (void);
-- (void);
+- (void)";
 
 // Remaining properties
 @property(readonly, nonatomic) double secondsToRun; // @synthesize secondsToRun=_secondsToRun;

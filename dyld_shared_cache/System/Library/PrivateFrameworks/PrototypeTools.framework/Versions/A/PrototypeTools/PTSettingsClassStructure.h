@@ -4,27 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet, NSString;
+@class NSDictionary, NSString;
 
 @interface PTSettingsClassStructure
 {
     NSDictionary *_structNames;
-    NSDictionary *_classes;
-    NSDictionary *_classNames;
-    NSString *_settingsClassName;
-    unsigned long long _settingsClassVersion;
-    NSSet *_leafKeys;
-    NSSet *_childKeys;
-    NSSet *_outletKeys;
 }
 
-+ (_Bool);
++ (_Bool)P;
 - (void);
-- (void);
+- (void)kCBCSWriteRemoteNumAntennaSupported;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)CNDisplayNameOrderDescription;
+- (id)%{public}s format;
 - (id);
 - (Class);
 - (unsigned long long);
@@ -32,23 +25,19 @@
 - (id);
 - (Class);
 - (unsigned long long);
-- (void);
-- (void);
-- (_Bool);
+- (void)_extremeValues;
+- (void)elementCount;
+- (_Bool)UNKNOWN_13_unknown4;
 - (Class);
-- (void);
+- (void)RevisionAvailability;
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)returned %ld;
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *childKeys; // @synthesize childKeys=_childKeys;
-@property(retain, nonatomic) NSSet *leafKeys; // @synthesize leafKeys=_leafKeys;
-@property(retain, nonatomic) NSSet *outletKeys; // @synthesize outletKeys=_outletKeys;
 @property(retain, nonatomic) NSString *settingsClassName; // @synthesize settingsClassName=_settingsClassName;
-@property(nonatomic) unsigned long long settingsClassVersion; // @synthesize settingsClassVersion=_settingsClassVersion;
 
 @end
 

@@ -7,14 +7,6 @@
 @interface RemindersUICore.TTRReminderStandaloneEditingSession
 {
     id id;
-    id item;
-    id acquirerName;
-    id reminderChangeItem;
-    id attributeEditor;
-    id setNeedsDisplayHandler;
-    id pendingMoveTargetListValue;
-    id setPendingMoveTargetList;
-    id sharedPropertiesWrapper;
 }
 
 @end

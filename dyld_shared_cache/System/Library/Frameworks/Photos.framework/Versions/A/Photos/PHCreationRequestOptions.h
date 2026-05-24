@@ -15,10 +15,10 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)"@"NSError">8Q16^B24;
 - (id);
 - (void);
-- (id);
+- (id)fulfillWithDateStarted:(struct _NSZone *)arg1;
 - (id);
 - (void)y",&,N,V_assetUUIDsManuallyRemovedFromLibraryScope;
 

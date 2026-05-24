@@ -5,5 +5,6 @@
 //
 
 @protocol MPMutablePlaybackArchiveDisplayProperties
+- (void);
 @end
 

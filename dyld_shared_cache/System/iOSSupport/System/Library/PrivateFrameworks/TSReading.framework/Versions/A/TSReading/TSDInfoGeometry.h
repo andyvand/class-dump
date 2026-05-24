@@ -7,26 +7,18 @@
 @interface TSDInfoGeometry
 {
     struct CGPoint mPosition;
-    struct CGSize mSize;
-    struct {
-        unsigned int widthValid:1;
-        unsigned int heightValid:1;
-        unsigned int horizontalFlip:1;
-        unsigned int verticalFlip:1;
-    } mFlags;
-    double mAngle;
 }
 
 + (id);
 + (id);
-+ (id);
-- (_Bool);
-- (_Bool);
-- (struct CGPoint);
-- (struct CGRect);
-- (struct CGAffineTransform);
-- (struct CGAffineTransform);
-- (struct CGAffineTransform);
++ (id)66;
+- (_Bool)WithItem - identifier: /* Error: Ran out of types for this method. */;
+- (_Bool)UnexpectedNilAVPlayerItem;
+- (struct CGPoint)ler.GenericQueue;
+- (struct CGRect)odcasts.MTPlaybackQueueController.GenericQueue;
+- (struct CGAffineTransform)load queue, items require subscription.;
+- (struct CGAffineTransform)d to play entitled content.;
+- (struct CGAffineTransform)ayback.;
 - (struct CGAffineTransform);
 - (id);
 - (long long);
@@ -40,22 +32,22 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)@;
+- (id)]t;
 - (id);
 - (struct CGAffineTransform);
 - (struct CGRect);
 - (id);
-- (id);
+- (id);
 - (id);
 - (struct CGAffineTransform);
 - (id);
 - (unsigned long long);
 - (id);
-- (struct CGSize);
+- (struct CGSize));
 - (struct CGPoint);
 - (struct CGPoint);
 - (_Bool);
@@ -65,13 +57,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) double angle; // @synthesize angle=mAngle;
-@property(readonly, nonatomic) _Bool heightValid;
-@property(readonly, nonatomic) _Bool horizontalFlip;
 @property(readonly, nonatomic) struct CGPoint position; // @synthesize position=mPosition;
-@property(readonly, nonatomic) struct CGSize size; // @synthesize size=mSize;
-@property(readonly, nonatomic) _Bool verticalFlip;
-@property(readonly, nonatomic) _Bool widthValid;
 
 @end
 

@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIWindowScene;
+@class UIWindowScene;
 
 @protocol MPVolumeDisplaying
 
+@optional
+- (UIWindowScene *);
+
 // Remaining properties
-@property(readonly, nonatomic, getter=isOnScreen) _Bool onScreen;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,GisOnScreen
-
-@property(readonly, nonatomic, getter=isOnScreenForVolumeDisplay) _Bool onScreenForVolumeDisplay;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,GisOnScreenForVolumeDisplay
-
-@property(readonly, nonatomic) NSString *volumeAudioCategory;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
 @property(readonly, nonatomic) UIWindowScene *windowSceneForVolumeDisplay;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"UIWindowScene",?,R,N

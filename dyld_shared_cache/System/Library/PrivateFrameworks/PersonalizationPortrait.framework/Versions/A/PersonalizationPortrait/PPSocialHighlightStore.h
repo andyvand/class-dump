@@ -10,8 +10,8 @@
 
 + (double);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)A;
+- (_Bool)_scrollingInitialDistance;
 - (id);
 - (id);
 - (void);

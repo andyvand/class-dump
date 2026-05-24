@@ -4,34 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCTaskList, NSArray, NSMutableArray, NSMutableSet, NSOperationQueue, NSString;
+@class NSMutableArray;
 
 @interface MCTaskManager
 {
     NSMutableArray *_networkHandlers;
-    NSMutableArray *_persistenceHandlers;
-    NSMutableSet *_handlersCleaningUp;
-    NSMutableSet *_activities;
-    NSMutableArray *_terminationBlocks;
-    _Bool _hasActivity;
-    _Bool _reassignTasksWillRun;
-    NSOperationQueue *_serializationQueue;
-    unsigned long long _maximumNetworkHandlers;
-    unsigned long long _maximumPersistenceHandlers;
-    MCTaskList *_taskList;
 }
 
 - (void);
-- (void);
-- (void);
+- (void)";
+- (void)G;
 - (_Bool);
 - (id);
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)Rc;
+- (void)R;
 - (void);
 - (void);
 - (id);
@@ -44,48 +34,29 @@
 - (void);
 - (void);
 - (void);
+- (void)�!;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)a;
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
+- (id);
 - (id);
 - (id);
 - (void);
+- (_Bool)";
+- (void);
+- (void);
+- (void);
+- (id)rt;
+- (id);
+- (void)AVPersistableContentKeyRequest"24;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool hasActivity; // @synthesize hasActivity=_hasActivity;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isInSerializationQueue;
-@property unsigned long long maximumNetworkHandlers; // @synthesize maximumNetworkHandlers=_maximumNetworkHandlers;
-@property unsigned long long maximumPersistenceHandlers; // @synthesize maximumPersistenceHandlers=_maximumPersistenceHandlers;
-@property(readonly, copy, nonatomic) NSArray *networkHandlers;
-@property(readonly, nonatomic) _Bool networkIsLimited;
-@property(readonly, copy, nonatomic) NSArray *orderedNetworkHandlers;
-@property(readonly, copy, nonatomic) NSArray *orderedPersistenceHandlers;
-@property(readonly, copy, nonatomic) NSArray *persistenceHandlers;
 @property _Bool reassignTasksWillRun; // @synthesize reassignTasksWillRun=_reassignTasksWillRun;
-@property(readonly, nonatomic) NSOperationQueue *serializationQueue; // @synthesize serializationQueue=_serializationQueue;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) MCTaskList *taskList; // @synthesize taskList=_taskList;
-@property(readonly, nonatomic) NSOperationQueue *utilityQueue;
 
 @end
 

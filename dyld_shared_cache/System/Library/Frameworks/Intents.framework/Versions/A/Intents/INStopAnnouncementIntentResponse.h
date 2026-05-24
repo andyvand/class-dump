@@ -6,16 +6,14 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSArray, NSString;
-
 @interface INStopAnnouncementIntentResponse : INIntentResponse
 {
 }
 
 + (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)setBitsPerComponent:(long long)arg1;
++ (long long)retrieveAllAdditions:(int)arg1;
++ (_Bool)removeItemAtURL:(long long)arg1 error: /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (id);
 - (void);
@@ -25,23 +23,15 @@
 - (id);
 - (long long);
 - (id);
+- (id)stopVideoRecordingBuffering;
+- (id);
+- (void)O-JOIN:(id)arg1 Detected multiple nearby networks, configuring maxScanChannelCount=%d;
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (long long)PairType;
+- (long long)payloadWellnessMetadataPairType;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSArray *stoppedAnnouncementRecords;
-@property(readonly) Class superclass;
 
 @end
 

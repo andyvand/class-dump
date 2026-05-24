@@ -4,36 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSNumber, NSString;
+@class NSString;
 
 @interface PDSRegistrationAbandonedMetric
 {
     NSString *_failureReason;
-    NSNumber *_registrationReason;
-    NSDate *_heartbeatDate;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void)pdate indication for %@.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSDictionary *dictionaryRepresentation;
 @property(readonly, nonatomic) NSString *failureReason; // @synthesize failureReason=_failureReason;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSDate *heartbeatDate; // @synthesize heartbeatDate=_heartbeatDate;
-@property(readonly) NSString *name;
-@property(readonly, nonatomic) NSNumber *registrationReason; // @synthesize registrationReason=_registrationReason;
-@property(readonly) Class superclass;
 
 @end
 

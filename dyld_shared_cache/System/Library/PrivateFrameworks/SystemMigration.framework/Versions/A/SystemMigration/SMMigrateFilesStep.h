@@ -11,8 +11,6 @@
 @interface SMMigrateFilesStep : SMEngineStep
 {
     _Bool _kextCacheNeedsUpdate;
-    SMCopyEngine *_fileCopyEngine;
-    unsigned long long _prelimFileCount;
 }
 
 + (_Bool);
@@ -41,8 +39,6 @@
 
 // Remaining properties
 @property(retain) SMCopyEngine *fileCopyEngine; // @synthesize fileCopyEngine=_fileCopyEngine;
-@property _Bool kextCacheNeedsUpdate; // @synthesize kextCacheNeedsUpdate=_kextCacheNeedsUpdate;
-@property unsigned long long prelimFileCount; // @synthesize prelimFileCount=_prelimFileCount;
 
 @end
 

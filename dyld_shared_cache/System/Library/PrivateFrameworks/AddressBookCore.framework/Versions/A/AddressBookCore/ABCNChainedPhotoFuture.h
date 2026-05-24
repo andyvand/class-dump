@@ -20,9 +20,9 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void)le;
+- (void)checkResourceIsReachableAndReturnError: /* Error: Ran out of types for this method. */;
+- (void)A;
+- (void)ABRelatedRecordsVisible;
 
 @end
 

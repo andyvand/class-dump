@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIButton, UILabel;
-@protocol AVTAttributeEditorSectionHeaderViewDelegate, AVTAvatarAttributeEditorSectionSupplementalPicker;
+@class UILabel;
+@protocol AVTAttributeEditorSectionHeaderViewDelegate;
 
 @interface AVTAttributeEditorSectionHeaderView
 {
     id <AVTAttributeEditorSectionHeaderViewDelegate> _delegate;
-    id <AVTAvatarAttributeEditorSectionSupplementalPicker> _supplementalPicker;
-    UILabel *_label;
-    UIButton *_accessoryButton;
 }
 
 + (id);
@@ -23,26 +20,22 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)zk;
 - (id);
 - (void);
-- (_Bool);
+- (id);
+- (id);
+- (void)setStatementQueue:(id)arg1;
+- (_Bool)ges will be marked as read when entering a conversation.;
 - (void);
 - (void);
-- (void);
+- (void)4@0:8Q16 /* Error: Ran out of types for this method. */;
 - (id)!ÔBùqI1Â0@ù
 × ;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UIButton *accessoryButton; // @synthesize accessoryButton=_accessoryButton;
-@property(nonatomic) __weak id <AVTAttributeEditorSectionHeaderViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(copy, nonatomic) NSString *displayString;
 @property(retain, nonatomic) UILabel *label; // @synthesize label=_label;
-@property(retain, nonatomic) id <AVTAvatarAttributeEditorSectionSupplementalPicker> supplementalPicker; // @synthesize supplementalPicker=_supplementalPicker;
 
 @end
 

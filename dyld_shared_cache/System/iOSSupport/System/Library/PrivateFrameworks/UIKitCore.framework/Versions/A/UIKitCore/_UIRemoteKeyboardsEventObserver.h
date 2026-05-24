@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
-@protocol _UIRemoteKeyboardsEventObserverDelegate;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface _UIRemoteKeyboardsEventObserver
 {
     NSMutableDictionary *_touchTracker;
-    _Bool _keyboardIsVisible;
-    _Bool _hasTextInputResponder;
-    id <_UIRemoteKeyboardsEventObserverDelegate> _delegate;
 }
 
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)_artistOrder;
+- (void)__downloadedSongCount_KEY;
+- (id)ropertyMovieTagline;
+- (void);
 - (long long);
 - (void);
 - (id);
@@ -31,28 +27,19 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)ð!ÈAù1c1Â0@ù
 × ;
-- (void)atePickerIfNecessaryElement:(id)arg1;
-- (void)rRadius;
-- (void)clearSystemNavigationAction;
+- (void)createBridgedOverlayDatePickerIfNecessaryElement:(id)arg1;
+- (void)_customCornerRadius;
+- (void)_clearSystemNavigationAction;
 - (void)thCompetingLongPressGestureRecognizers;
 - (_Bool)lationships,S_setAutomaticallyAddsFailureRelationships:(id)arg1 ,V_automaticallyAddsFailureRelationships;
-- (_Bool);
+- (_Bool)encodeCGAffineTransform:forKey: /* Error: Ran out of types for this method. */;
 - (void)gStack;
-- (_Bool)eTransition;
+- (_Bool)_UINavigationInteractiveTransition;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <_UIRemoteKeyboardsEventObserverDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(nonatomic) _Bool hasTextInputResponder; // @synthesize hasTextInputResponder=_hasTextInputResponder;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool keyboardIsVisible; // @synthesize keyboardIsVisible=_keyboardIsVisible;
-@property(readonly) Class superclass;
 
 @end
 

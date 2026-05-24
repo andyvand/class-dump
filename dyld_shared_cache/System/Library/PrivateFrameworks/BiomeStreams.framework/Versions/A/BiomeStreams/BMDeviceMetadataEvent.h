@@ -11,10 +11,6 @@
 @interface BMDeviceMetadataEvent : BMEventBase
 {
     _Bool _rapidSecurityResponsePreReboot;
-    NSString *_name;
-    NSString *_build;
-    NSString *_supplementalBuild;
-    long long _platform;
 }
 
 + (id);
@@ -27,7 +23,7 @@
 - (id);
 - (unsigned int);
 - (id);
-- (id);
+- (id)?;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -39,19 +35,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *build; // @synthesize build=_build;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) long long platform; // @synthesize platform=_platform;
-@property(readonly, nonatomic) _Bool rapidSecurityResponsePreReboot; // @synthesize rapidSecurityResponsePreReboot=_rapidSecurityResponsePreReboot;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *supplementalBuild; // @synthesize supplementalBuild=_supplementalBuild;
 
 @end
 

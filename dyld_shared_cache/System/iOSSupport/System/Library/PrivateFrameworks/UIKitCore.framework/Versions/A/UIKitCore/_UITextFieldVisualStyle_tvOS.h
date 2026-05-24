@@ -6,39 +6,31 @@
 
 #import <UIKitCore/_UITextFieldVisualStyle.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UITextFieldVisualStyle_tvOS : _UITextFieldVisualStyle
 {
 }
 
 - (id);
+- (id)ctionary",N,C;
+- (id)mentDictionary;
+- (id)managed;
+- (id)",C;
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)initWithName:value: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (id)le;
+- (id)_activationStyle;
 - (id)l inactiveLayout). %@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

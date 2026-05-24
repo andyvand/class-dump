@@ -5,6 +5,7 @@
 //
 
 @protocol ICDerivedAttributeProviding
+- (_Bool)~;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool needsInitialDerivedAttributesUpdate;

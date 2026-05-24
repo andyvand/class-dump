@@ -4,55 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
-
 @interface SUCoreSimulateEvent
 {
     int _count;
-    int _startAt;
-    int _endAt;
-    int _duration;
-    long long _simAction;
-    long long _simTrigger;
-    NSString *_moduleName;
-    NSString *_identityName;
-    NSString *_fsmEvent;
-    NSString *_fsmState;
-    NSString *_alteration;
-    NSString *_untilStop;
-    NSArray *_assetBuildVersions;
-    NSArray *_assetProductVersions;
-    NSString *_assetAttributesPlist;
-    NSString *_assetState;
-    NSString *_updateInfoPlist;
-    NSString *_errorDomain;
-    long long _errorCode;
-    NSDictionary *_errorUserInfo;
-    long long _errorRecoverable;
 }
 
-+ (id);
++ (id)ms:(long long)arg1;
 + (_Bool);
-- (id);
+- (id)selectedRowIndexes;
+- (long long)selectRowIndexes:byExtendingSelection: /* Error: Ran out of types for this method. */;
+- (long long)selectRowIndexes:byExtendingSelection: /* Error: Ran out of types for this method. */;
+- (id)rowViewAtRow:(long long)arg1 makeIfNecessary:(long long)arg2;
+- (id)rotor:(long long)arg1 resultForSearchParameters:(long long)arg2;
+- (id)rightMouseUp: /* Error: Ran out of types for this method. */;
 - (long long);
-- (long long);
+- (int)revertDocumentToSaved: /* Error: Ran out of types for this method. */;
+- (id)restoreStateWithCoder:(id)arg1;
+- (id);
+- (id)resolvedAccessibilityLabel;
 - (id);
 - (id);
 - (id);
-- (long long);
-- (int);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (int);
-- (id);
-- (id);
+- (id)removeTitlebarAccessoryViewControllerAtIndex:(long long)arg1;
+- (id)removeItemAtURL:error: /* Error: Ran out of types for this method. */;
+- (id)removeFromSuperviewWithoutNeedingDisplay;
+- (int)removeChildWindow: /* Error: Ran out of types for this method. */;
+- (id)removeAllActionsWithTarget: /* Error: Ran out of types for this method. */;
+- (id)resolvedVersion;
 - (id);
 - (id);
 - (id);
@@ -70,27 +48,7 @@
 - (long long)ery key %{public}@ to obtain a gestalt key;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSString *alteration; // @synthesize alteration=_alteration;
-@property(readonly, retain, nonatomic) NSString *assetAttributesPlist; // @synthesize assetAttributesPlist=_assetAttributesPlist;
-@property(readonly, retain, nonatomic) NSArray *assetBuildVersions; // @synthesize assetBuildVersions=_assetBuildVersions;
-@property(readonly, retain, nonatomic) NSArray *assetProductVersions; // @synthesize assetProductVersions=_assetProductVersions;
-@property(readonly, retain, nonatomic) NSString *assetState; // @synthesize assetState=_assetState;
 @property(nonatomic) int count; // @synthesize count=_count;
-@property(readonly, nonatomic) int duration; // @synthesize duration=_duration;
-@property(readonly, nonatomic) int endAt; // @synthesize endAt=_endAt;
-@property(readonly, nonatomic) long long errorCode; // @synthesize errorCode=_errorCode;
-@property(readonly, retain, nonatomic) NSString *errorDomain; // @synthesize errorDomain=_errorDomain;
-@property(readonly, nonatomic) long long errorRecoverable; // @synthesize errorRecoverable=_errorRecoverable;
-@property(readonly, retain, nonatomic) NSDictionary *errorUserInfo; // @synthesize errorUserInfo=_errorUserInfo;
-@property(readonly, retain, nonatomic) NSString *fsmEvent; // @synthesize fsmEvent=_fsmEvent;
-@property(readonly, retain, nonatomic) NSString *fsmState; // @synthesize fsmState=_fsmState;
-@property(readonly, retain, nonatomic) NSString *identityName; // @synthesize identityName=_identityName;
-@property(readonly, retain, nonatomic) NSString *moduleName; // @synthesize moduleName=_moduleName;
-@property(readonly, nonatomic) long long simAction; // @synthesize simAction=_simAction;
-@property(readonly, nonatomic) long long simTrigger; // @synthesize simTrigger=_simTrigger;
-@property(readonly, nonatomic) int startAt; // @synthesize startAt=_startAt;
-@property(readonly, retain, nonatomic) NSString *untilStop; // @synthesize untilStop=_untilStop;
-@property(readonly, retain, nonatomic) NSString *updateInfoPlist; // @synthesize updateInfoPlist=_updateInfoPlist;
 
 @end
 

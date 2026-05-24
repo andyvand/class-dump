@@ -7,20 +7,10 @@
 @interface NewsSubscription.BundleHardPaywallView
 {
     id scrollView;
-    id playerView;
-    id gradientView;
-    id contentView;
-    id contentBackgroundView;
-    id badgeImageView;
-    id titleTextView;
-    id descriptionTextView;
-    id subscribeButton;
-    id offersButton;
-    id webAuthButton;
 }
 
 - (void);
-- (struct CGRect);
+- (struct CGRect)@;
 - (id);
 - (id);
 - (void);

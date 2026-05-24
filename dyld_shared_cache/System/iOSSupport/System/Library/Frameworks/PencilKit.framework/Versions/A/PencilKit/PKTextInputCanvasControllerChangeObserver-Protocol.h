@@ -5,5 +5,7 @@
 //
 
 @protocol PKTextInputCanvasControllerChangeObserver
+- (void);
+- (void);
 @end
 

@@ -11,15 +11,15 @@
 }
 
 + (Class);
-+ (id);
++ (id)__VKCImageTextSelectionView_iOSAccessibility_super;
 + (void);
 - (_Bool);
 - (_Bool);
 - (struct CGPoint);
-- (_Bool);
+- (_Bool)l!;
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 
 @end

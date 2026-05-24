@@ -10,7 +10,7 @@
 {
 }
 
-- (struct CGSize);
+- (struct CGSize)So11AVAudioTimeCSg;
 - (Class);
 
 @end

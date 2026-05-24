@@ -6,16 +6,15 @@
 
 #import <VoiceShortcutClient/WFWorkflowRunResult.h>
 
-@class NSData, NSDictionary;
+@class NSData;
 
 @interface WFAllActionOutputsRunResult : WFWorkflowRunResult
 {
     NSData *_archivedOutputs;
-    NSDictionary *_cachedOutputs;
 }
 
 + (_Bool);
-- (id);
+- (id)3|;
 - (void);
 - (_Bool);
 - (void);
@@ -23,15 +22,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)h:(id)arg1 y;
+- (void)unenrollDeviceChannelWithIdentifier:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (void)ñ^Ð1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *archivedOutputs; // @synthesize archivedOutputs=_archivedOutputs;
-@property(copy, nonatomic) NSDictionary *cachedOutputs; // @synthesize cachedOutputs=_cachedOutputs;
-@property(readonly, nonatomic) _Bool hasOutputs;
 
 @end
 

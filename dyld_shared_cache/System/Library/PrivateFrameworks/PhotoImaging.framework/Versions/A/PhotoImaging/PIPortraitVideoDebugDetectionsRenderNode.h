@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, PTCinematographyScript;
+@class PTCinematographyScript;
 
 @interface PIPortraitVideoDebugDetectionsRenderNode
 {
     PTCinematographyScript *_cinematographyScript;
-    NSCache *_labelImageCache;
-    CDStruct_1b6d18a9 _renderTime;
 }
 
 - (void);
@@ -20,17 +18,15 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (CDStruct_1b6d18a9);
-- (void)fectHasInterestingMotion;
+- (void)settlingEffectHasInterestingMotion;
 
 // Remaining properties
 @property(retain, nonatomic) PTCinematographyScript *cinematographyScript; // @synthesize cinematographyScript=_cinematographyScript;
-@property(retain, nonatomic) NSCache *labelImageCache; // @synthesize labelImageCache=_labelImageCache;
-@property(nonatomic) CDStruct_1b6d18a9 renderTime; // @synthesize renderTime=_renderTime;
 
 @end
 

@@ -6,8 +6,6 @@
 
 #import <UniversalAccessCore/UASettings.h>
 
-@class NSArray;
-
 @interface UASpeechSettings : UASettings
 {
     _Bool _canSetSpeakSelectionSentenceStyle;
@@ -40,18 +38,18 @@
 - (long long);
 - (_Bool);
 - (double);
+- (void)q;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)$@9* @9)$@9;
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)J;
 - (void);
 - (id);
 - (_Bool);
@@ -59,7 +57,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)qa;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -74,29 +72,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canSetSpeakItemUnderMouseDelayTime;
-@property(readonly, nonatomic) _Bool canSetSpeakItemUnderMouseMode;
-@property(readonly, nonatomic) _Bool canSetSpeakItemUnderMouseVerbosity;
-@property(readonly, nonatomic) _Bool canSetSpeakSelectionHighlightOptions;
-@property(readonly, nonatomic) _Bool canSetSpeakSelectionSentenceHighlightColor;
-@property(readonly, nonatomic) _Bool canSetSpeakSelectionSentenceStyle; // @synthesize canSetSpeakSelectionSentenceStyle=_canSetSpeakSelectionSentenceStyle;
-@property(readonly, nonatomic) _Bool canSetSpeakSelectionWordHighlightColor;
-@property(readonly, nonatomic) _Bool canSetSpokenContentControllerMode;
 @property(nonatomic) _Bool detectLanguages;
-@property(nonatomic) _Bool pronunciationsEnabled;
-@property(copy, nonatomic) NSArray *pronunciationsList;
-@property(nonatomic) double speakItemUnderMouseDelayTime;
-@property(nonatomic) _Bool speakItemUnderMouseEnabled;
-@property(nonatomic) long long speakItemUnderMouseMode;
-@property(nonatomic) long long speakItemUnderMouseVerbosity;
-@property(nonatomic) _Bool speakSelectionEnabled;
-@property(nonatomic) unsigned long long speakSelectionHighlightOptions;
-@property(nonatomic) unsigned long long speakSelectionSentenceHighlightColor;
-@property(nonatomic) unsigned long long speakSelectionSentenceStyle;
-@property(nonatomic) double speakSelectionSpeakingRate;
-@property(nonatomic) unsigned long long speakSelectionWordHighlightColor;
-@property(nonatomic) unsigned long long spokenContentControllerMode;
-@property(nonatomic) _Bool typingEchoEnabled;
 
 @end
 

@@ -12,7 +12,7 @@
 {
 }
 
-- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) WFWorkflowRunningContext *context; // @dynamic context;

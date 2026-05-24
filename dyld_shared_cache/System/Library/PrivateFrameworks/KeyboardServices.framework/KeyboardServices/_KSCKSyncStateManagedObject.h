@@ -12,7 +12,6 @@
 
 
 // Remaining properties
-@property(nonatomic) _Bool didPullOnce; // @dynamic didPullOnce;
 @property(retain, nonatomic) NSData *fetchChangeToken; // @dynamic fetchChangeToken;
 @end
 

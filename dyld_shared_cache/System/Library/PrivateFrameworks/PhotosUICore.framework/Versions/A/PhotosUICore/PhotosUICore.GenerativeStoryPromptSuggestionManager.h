@@ -7,17 +7,6 @@
 @interface PhotosUICore.GenerativeStoryPromptSuggestionManager
 {
     id _currentSuggestions;
-    id photoLibrary;
-    id logger;
-    id fetchSuggestionsForTest;
-    id $__lazy_storage_$_suggestionProvider;
-    id _initialSuggestions;
-    id _currentFetchTask;
-    id _lastFetchDate;
-    id expirationInterval;
-    id refetchCooldownInterval;
-    id wantsMockSuggestions;
-    id _$observationRegistrar;
 }
 
 - (void);

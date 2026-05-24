@@ -4,48 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEOPDPlaceSummaryLayoutTemplate
 {
     PBDataReader *_reader;
-    NSMutableArray *_templateEntrys;
-    NSString *_templateId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _templateType;
-    struct {
-        unsigned int has_templateType:1;
-        unsigned int read_templateEntrys:1;
-        unsigned int read_templateId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)ate:(id)arg1;
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
++ (_Bool)setImpressionObjectState:(id)arg1;
+- (id)ABCDDistributionListConfig;
+- (id)CNCDChangeHistoryClient;
+- (unsigned long long)CNCDRemotePersistentStoreDescriptor;
+- (id)CNCDTestManagedObjectContextSession;
+- (id)ABCDSubscribedGroup;
+- (void)ic}@;
+- (void)alues of type %{public}@-%{public}@;
 - (void);
 - (_Bool);
-- (int);
 - (void);
-- (id);
+- (void);
 - (_Bool);
 - (int);
-- (id);
 - (void);
 - (id);
+- (_Bool);
+- (int);
+- (id);
 - (void);
+- (id)_lastKnownRCFeatures;
+- (void)ores not available, ignoring for now !;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -53,17 +41,13 @@
 - (id);
 - (void);
 - (id)icMetadataFetcher>";
-- (id)erTriggered;
+- (id)_isRerankerTriggered;
 - (id)l}Ð};
-- (id)pe;
+- (id)supportedPunchoutType;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasTemplateId;
-@property(nonatomic) _Bool hasTemplateType;
-@property(retain, nonatomic) NSMutableArray *templateEntrys;
-@property(retain, nonatomic) NSString *templateId;
-@property(nonatomic) int templateType;
 
 @end
 

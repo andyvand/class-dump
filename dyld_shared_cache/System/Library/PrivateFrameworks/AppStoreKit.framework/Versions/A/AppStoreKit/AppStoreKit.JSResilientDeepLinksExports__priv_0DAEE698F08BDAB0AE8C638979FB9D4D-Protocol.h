@@ -5,5 +5,7 @@
 //
 
 @protocol AppStoreKit.JSResilientDeepLinksExports__priv_0DAEE698F08BDAB0AE8C638979FB9D4D
+- (void);
+- (void);
 @end
 

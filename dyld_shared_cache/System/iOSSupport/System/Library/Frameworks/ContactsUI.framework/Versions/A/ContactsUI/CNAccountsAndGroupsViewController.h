@@ -4,43 +4,60 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAccountsAndGroupsActionsProvider, CNAccountsAndGroupsAuthorizationContext, CNAccountsAndGroupsDataSource, CNContainerDataSource, CNCoreRecentsChangeNotifier, CNManagedConfiguration, CNUIEditAuthorizationController, CNUIGroupsAndContainersSaveManager, CNUIUserActivityManager, NSString, UIBarButtonItem, UICollectionView, UICollectionViewDiffableDataSource, UIKeyCommand, UIViewController, _UIDiffableDataSourceOutlineSectionController;
-@protocol CNAccountsAndGroupsViewControllerDelegate;
-
 __attribute__((visibility("hidden")))
 @interface CNAccountsAndGroupsViewController
 {
     _Bool _allowsEditing;
-    _Bool _allowsCanceling;
-    _Bool _allowsDone;
-    _Bool _isLimitedAccessOnboarding;
-    _Bool _needsReload;
-    _Bool _isVisible;
-    CNAccountsAndGroupsDataSource *_dataSource;
-    CNManagedConfiguration *_managedConfiguration;
-    id <CNAccountsAndGroupsViewControllerDelegate> _delegate;
-    CNUIGroupsAndContainersSaveManager *_groupsAndContainersSaveManager;
-    CNUIEditAuthorizationController *_editAuthorizationController;
-    CNContainerDataSource *_containerDataSource;
-    CNAccountsAndGroupsAuthorizationContext *_currentAuthorizationContext;
-    CNAccountsAndGroupsActionsProvider *_actionsProvider;
-    CNUIUserActivityManager *_activityManager;
-    long long _buttonBehavior;
-    UIKeyCommand *_addGroupKeyCommand;
-    UIViewController *_potentiallyPresentedViewController;
-    UICollectionView *_collectionView;
-    _UIDiffableDataSourceOutlineSectionController *_sectionController;
-    UICollectionViewDiffableDataSource *_diffableDataSource;
-    UIBarButtonItem *_addGroupBarButtonItem;
-    UIBarButtonItem *_cancelBarButtonItem;
-    CNCoreRecentsChangeNotifier *_acceptedIntroductionsNotifier;
 }
 
 + (id)!¬FùqtÐ1Â0@ù
 × ;
-+ (id)entUnavailableConfigurationUsingState: /* Error: Ran out of types for this method. */;
++ (id)_updateContentUnavailableConfigurationUsingState: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
+- (void);
+- (void)B;
+- (id);
+- (void);
+- (void);
+- (void)0;;
+- (_Bool);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)`;
+- (_Bool);
+- (_Bool);
+- (id);
+- (void);
+- (void)5;
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (void)isBlockedByFirewall;
+- (void);
+- (id);
+- (void);
+- (void);
+- (id)predicateForPreviouslyPlayedHidingFutureTimestamps;
+- (void)notificationBlocks;
+- (void)subscriptionName;
+- (_Bool);
+- (void);
+- (void);
+- (void)n rss feed update request that was restored from background for %{private,mask.hash}s but there was already one running. Dropping this redundant request.;
+- (void);
+- (void);
+- (id);
+- (void);
+- (void)@;
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -48,49 +65,6 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (void);
 - (void);
 - (id);
@@ -110,7 +84,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)Q%;
 - (id);
 - (_Bool);
 - (void);
@@ -123,8 +97,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (void);
+- (id)(	?׀;
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -133,9 +107,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)setPersistencePriority:(id)arg1;
+- (void)thing went wrong and the run loop never ran;
+- (void)t be called off the main thread;
 - (id);
 - (id);
 - (id);
@@ -146,7 +120,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void)0@ù
 × ;
 - (_Bool)ð1Â0@ù
@@ -157,10 +131,10 @@ __attribute__((visibility("hidden")))
 - (_Bool)1Â0@ù
 × ;
 - (void)"<CNCapabilities>"16;
-- (void)der:(id)arg1;
-- (id)tifierForChosenSourceContact;
+- (void)performDefaultActionForItem:(id)arg1 sender: /* Error: Ran out of types for this method. */;
+- (id)labeledValueMultiValueIdentifierForChosenSourceContact;
 - (void)Decorator",R,N,V_scheduler;
-- (void)n;
+- (void)configuration;
 - (id)§øSgGG;
 - (_Bool)Þ~,%AFyÞ~,%	øGGGøy³ÁøGGd7øG_ADy:2øyACyAE_¦2øAKyAFyAFyAE>(øy ,øSgGGAZy4,øSgGGAFyAFyAO{"øGA7_GGtGGAGySaySiGSiAFyAlTGGAVGtGG /* Error: Ran out of types for this method. */;
 - (_Bool)Óÿ;
@@ -175,37 +149,7 @@ __attribute__((visibility("hidden")))
 - (void)#À;
 
 // Remaining properties
-@property(retain, nonatomic) CNCoreRecentsChangeNotifier *acceptedIntroductionsNotifier; // @synthesize acceptedIntroductionsNotifier=_acceptedIntroductionsNotifier;
-@property(retain, nonatomic) CNAccountsAndGroupsActionsProvider *actionsProvider; // @synthesize actionsProvider=_actionsProvider;
-@property(readonly, nonatomic) CNUIUserActivityManager *activityManager; // @synthesize activityManager=_activityManager;
-@property(retain, nonatomic) UIBarButtonItem *addGroupBarButtonItem; // @synthesize addGroupBarButtonItem=_addGroupBarButtonItem;
-@property(retain, nonatomic) UIKeyCommand *addGroupKeyCommand; // @synthesize addGroupKeyCommand=_addGroupKeyCommand;
-@property(nonatomic) _Bool allowsCanceling; // @synthesize allowsCanceling=_allowsCanceling;
-@property(nonatomic) _Bool allowsDone; // @synthesize allowsDone=_allowsDone;
-@property(nonatomic) _Bool allowsEditing; // @synthesize allowsEditing=_allowsEditing;
-@property(nonatomic) long long buttonBehavior; // @synthesize buttonBehavior=_buttonBehavior;
-@property(retain, nonatomic) UIBarButtonItem *cancelBarButtonItem; // @synthesize cancelBarButtonItem=_cancelBarButtonItem;
-@property(retain) UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(retain, nonatomic) CNContainerDataSource *containerDataSource; // @synthesize containerDataSource=_containerDataSource;
-@property(retain, nonatomic) CNAccountsAndGroupsAuthorizationContext *currentAuthorizationContext; // @synthesize currentAuthorizationContext=_currentAuthorizationContext;
-@property(retain, nonatomic) CNAccountsAndGroupsDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNAccountsAndGroupsViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain) UICollectionViewDiffableDataSource *diffableDataSource; // @synthesize diffableDataSource=_diffableDataSource;
-@property(retain, nonatomic) CNUIEditAuthorizationController *editAuthorizationController; // @synthesize editAuthorizationController=_editAuthorizationController;
-@property(retain, nonatomic) CNUIGroupsAndContainersSaveManager *groupsAndContainersSaveManager; // @synthesize groupsAndContainersSaveManager=_groupsAndContainersSaveManager;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isLimitedAccessOnboarding; // @synthesize isLimitedAccessOnboarding=_isLimitedAccessOnboarding;
-@property(nonatomic) _Bool isVisible; // @synthesize isVisible=_isVisible;
-@property(retain, nonatomic) CNManagedConfiguration *managedConfiguration; // @synthesize managedConfiguration=_managedConfiguration;
 @property(nonatomic) _Bool needsReload; // @synthesize needsReload=_needsReload;
-@property(retain, nonatomic) UIViewController *potentiallyPresentedViewController; // @synthesize potentiallyPresentedViewController=_potentiallyPresentedViewController;
-@property(retain) _UIDiffableDataSourceOutlineSectionController *sectionController; // @synthesize sectionController=_sectionController;
-@property(readonly) Class superclass;
 
 @end
 

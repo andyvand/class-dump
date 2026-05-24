@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPMediaItemCollection, MPMediaLibrary, MPMediaPlaylist, MPMediaQueryCriteria, MPMediaQuerySectionInfo, NSArray, NSDictionary, NSSet, NSString;
+@class MPMediaLibrary, MPMediaPlaylist;
 
 @interface MPMediaQuery
 {
     MPMediaLibrary *_mediaLibrary;
-    MPMediaQueryCriteria *_criteria;
-    int _isFilteringDisabled;
-    NSArray *_staticEntities;
-    long long _staticEntityType;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (void);
@@ -34,17 +30,17 @@
 + (id);
 + (id);
 + (id);
++ (id)9;
++ (id);
++ (id);
++ (id)T;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
++ (id)ons/A/StreamingZip;
++ (id)meworks/HomeKitFeatures.framework/Versions/A/HomeKitFeatures;
++ (id)ramework/Versions/A/AppleAccount;
 + (id);
 + (_Bool);
 + (void)nloadedTracks;
@@ -56,7 +52,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
@@ -73,7 +69,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -82,7 +78,7 @@
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)#;
 - (id);
 - (id);
 - (id);
@@ -91,16 +87,16 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (long long);
-- (id);
+- (id)P;
 - (unsigned long long);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -122,17 +118,17 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)a;
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long):? /* Error: Ran out of types for this method. */;
+- (_Bool)setStrokeColor:(id)arg1;
 - (void);
 - (id);
 - (id);
@@ -142,54 +138,13 @@
 × ;
 - (id);
 - (void);
-- (void)_KEY;
+- (void)__subtype_KEY;
 - (void)t timeout event in unknown state:(_Bool)arg1 %@;
 - (id)t find section identifier to update orderedSections;
 - (_Bool)rObserver %p> _updateSoundCheck:cachedValue=%{BOOL}u currentValue=%{BOOL}u /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long _countOfCollections;
-@property(readonly, nonatomic) unsigned long long _countOfItems;
-@property(readonly, nonatomic) _Bool _hasCollections;
-@property(readonly, nonatomic) _Bool _hasItems;
-@property(readonly, nonatomic) _Bool _hasStaticEntities;
-@property(readonly, nonatomic) MPMediaItemCollection *_representativeCollection;
-@property(readonly, nonatomic) long long _representativeCollectionGroupingType;
-@property(readonly, nonatomic) MPMediaItemCollection *collectionByJoiningCollections;
-@property(readonly, nonatomic) NSArray *collectionPersistentIdentifiers;
-@property(copy, nonatomic) NSSet *collectionPropertiesToFetch;
-@property(readonly, nonatomic) MPMediaQuerySectionInfo *collectionSectionInfo;
-@property(readonly, nonatomic) NSArray *collectionSections;
-@property(readonly, nonatomic) NSArray *collections;
 @property(readonly, nonatomic) MPMediaPlaylist *containingPlaylist;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long entityLimit;
-@property(readonly, nonatomic) _Bool excludesEntitiesWithBlankNames;
-@property(retain, nonatomic) NSSet *filterPredicates;
-@property(nonatomic) long long groupingType;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool ignoreRestrictionsPredicates;
-@property(nonatomic) _Bool ignoreSystemFilterPredicates;
-@property(nonatomic) _Bool includeEntitiesWithBlankNames;
-@property(readonly, nonatomic) NSArray *itemPersistentIdentifiers;
-@property(copy, nonatomic) NSSet *itemPropertiesToFetch;
-@property(readonly, nonatomic) MPMediaQuerySectionInfo *itemSectionInfo;
-@property(readonly, nonatomic) NSArray *itemSections;
-@property(readonly, nonatomic) NSArray *items;
-@property(retain, nonatomic) MPMediaLibrary *mediaLibrary;
-@property(copy, nonatomic, getter=_orderingDirectionMappings, setter=_setOrderingDirectionMappings:) NSDictionary *orderingDirectionMappings;
-@property(copy, nonatomic, getter=_orderingProperties, setter=_setOrderingProperties:) NSArray *orderingProperties;
-@property(readonly, nonatomic, getter=isPlaylistItemsQuery) _Bool playlistItemsQuery;
-@property(nonatomic) _Bool shouldIncludeNonLibraryEntities;
-@property(nonatomic) _Bool sortItems;
-@property(readonly, nonatomic) _Bool specifiesPlaylistItems;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool useSections;
-@property(readonly, nonatomic) _Bool willGroupEntities;
 
 @end
 

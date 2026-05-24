@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDecimalNumber, NSDictionary, NSString, PKPaymentDigitalIssuanceMetadata;
+@class NSString;
 
 @interface PKPaymentProvisioningMethodMetadata
 {
     NSString *_productIdentifier;
-    NSString *_currency;
-    unsigned long long _depositType;
-    NSDecimalNumber *_depositAmount;
-    NSDecimalNumber *_minLoadedBalance;
-    NSDecimalNumber *_maxLoadedBalance;
-    NSArray *_requiredFields;
-    NSDictionary *_readerModeMetadata;
-    PKPaymentDigitalIssuanceMetadata *_digitalIssuanceMetadata;
-    NSDictionary *_readerModeResources;
-    NSDecimalNumber *_minimumReaderModeBalance;
 }
 
 - (id);
@@ -30,23 +20,13 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id)Delegate:(id)arg1 seids:completion: /* Error: Ran out of types for this method. */;
 - (void)ng.camera.skip;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *currency; // @synthesize currency=_currency;
-@property(readonly, copy, nonatomic) NSDecimalNumber *depositAmount; // @synthesize depositAmount=_depositAmount;
-@property(readonly, nonatomic) unsigned long long depositType; // @synthesize depositType=_depositType;
-@property(readonly, nonatomic) PKPaymentDigitalIssuanceMetadata *digitalIssuanceMetadata; // @synthesize digitalIssuanceMetadata=_digitalIssuanceMetadata;
-@property(readonly, copy, nonatomic) NSDecimalNumber *maxLoadedBalance; // @synthesize maxLoadedBalance=_maxLoadedBalance;
-@property(readonly, copy, nonatomic) NSDecimalNumber *minLoadedBalance; // @synthesize minLoadedBalance=_minLoadedBalance;
-@property(readonly, copy, nonatomic) NSDecimalNumber *minimumReaderModeBalance; // @synthesize minimumReaderModeBalance=_minimumReaderModeBalance;
 @property(readonly, copy, nonatomic) NSString *productIdentifier; // @synthesize productIdentifier=_productIdentifier;
-@property(readonly, copy, nonatomic) NSDictionary *readerModeMetadata; // @synthesize readerModeMetadata=_readerModeMetadata;
-@property(readonly, copy, nonatomic) NSDictionary *readerModeResources; // @synthesize readerModeResources=_readerModeResources;
-@property(readonly, copy, nonatomic) NSArray *requiredFields; // @synthesize requiredFields=_requiredFields;
 
 @end
 

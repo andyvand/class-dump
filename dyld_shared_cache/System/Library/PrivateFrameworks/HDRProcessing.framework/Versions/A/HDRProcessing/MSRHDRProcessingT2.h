@@ -18,7 +18,7 @@
 - (unsigned int);
 - (void);
 - (void);
-- (id);
+- (id)Y;
 
 @end
 

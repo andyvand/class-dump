@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAddressBook, NSString;
+@class ABAddressBook;
 
 @interface ABLazyGroup
 {
     ABAddressBook *_addressBook;
-    NSString *_groupUid;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)T9;
 - (id);
 - (void);
 

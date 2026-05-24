@@ -4,31 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileCoordinator, NSOperationQueue, NSURL, NSXPCConnection, QLFileThumbnailRequest, QLThumbnailExtension, RBSAssertion, _EXExtensionProcess;
-@protocol NSFileCoordinationRetainedAccess;
+@class QLThumbnailExtension;
 
 @interface QLExtensionHostContextThumbnailOperation
 {
     struct os_unfair_lock_s _finishLock;
-    QLThumbnailExtension *_appex;
-    _EXExtensionProcess *_process;
-    NSXPCConnection *_connection;
-    CDUnknownBlockType _completionHandler;
-    QLFileThumbnailRequest *_request;
-    NSFileCoordinator *_coordinator;
-    NSOperationQueue *_coordinationQueue;
-    id <NSFileCoordinationRetainedAccess> _fileAccess;
-    NSURL *_accessedURL;
-    CDUnknownBlockType _timeoutBlock;
-    RBSAssertion *_assertion;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)CCReliableDataNotReceivedGroup;
+- (void)e;
+- (void)d Stability;
 - (void);
 - (id);
-- (void);
+- (void);
 - (struct os_unfair_lock_s);
 - (id);
 - (id);
@@ -55,18 +43,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *accessedURL; // @synthesize accessedURL=_accessedURL;
 @property(retain, nonatomic) QLThumbnailExtension *appex; // @synthesize appex=_appex;
-@property(retain, nonatomic) RBSAssertion *assertion; // @synthesize assertion=_assertion;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(retain, nonatomic) NSOperationQueue *coordinationQueue; // @synthesize coordinationQueue=_coordinationQueue;
-@property(retain, nonatomic) NSFileCoordinator *coordinator; // @synthesize coordinator=_coordinator;
-@property(retain, nonatomic) id <NSFileCoordinationRetainedAccess> fileAccess; // @synthesize fileAccess=_fileAccess;
-@property(nonatomic) struct os_unfair_lock_s finishLock; // @synthesize finishLock=_finishLock;
-@property(retain, nonatomic) _EXExtensionProcess *process; // @synthesize process=_process;
-@property(retain, nonatomic) QLFileThumbnailRequest *request; // @synthesize request=_request;
-@property(copy, nonatomic) CDUnknownBlockType timeoutBlock; // @synthesize timeoutBlock=_timeoutBlock;
 
 @end
 

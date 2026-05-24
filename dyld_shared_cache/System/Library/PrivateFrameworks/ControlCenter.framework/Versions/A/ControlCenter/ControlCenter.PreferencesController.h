@@ -7,9 +7,6 @@
 @interface ControlCenter.PreferencesController
 {
     id _preferences;
-    id _values;
-    id __lock;
-    id _cancellable;
 }
 
 @end

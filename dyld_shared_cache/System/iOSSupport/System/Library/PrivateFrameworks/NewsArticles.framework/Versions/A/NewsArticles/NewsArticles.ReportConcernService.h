@@ -7,8 +7,6 @@
 @interface NewsArticles.ReportConcernService
 {
     id cloudContext;
-    id subscriptionController;
-    id recipeBox;
 }
 
 @end

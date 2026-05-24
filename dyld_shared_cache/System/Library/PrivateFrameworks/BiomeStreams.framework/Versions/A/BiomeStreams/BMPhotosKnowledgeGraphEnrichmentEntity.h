@@ -9,24 +9,21 @@
 @interface BMPhotosKnowledgeGraphEnrichmentEntity
 {
     unsigned int _category;
-    NSString *_name;
-    double _score;
-    NSString *_language;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)@;
 - (id);
-- (id);
+- (id)h;
 - (id);
 - (unsigned int);
 - (id);
+- (id)hՀRi(;
+- (_Bool);
 - (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)A;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)BrainLoaderAdjustOptions failed, error:(id)arg1 %{public}@;
 - (_Bool);
 - (void);
 - (id);
@@ -34,22 +31,11 @@
 - (id);
 - (id);
 - (double);
-- (id)__free_unpacked;
+- (id)pg_query__notify_stmt__free_unpacked;
 - (void)«;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int category; // @synthesize category=_category;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *language; // @synthesize language=_language;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) double score; // @synthesize score=_score;
-@property(readonly) Class superclass;
 
 @end
 

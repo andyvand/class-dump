@@ -5,5 +5,6 @@
 //
 
 @protocol PPSocialHighlightScorer
+- (double)b,;
 @end
 

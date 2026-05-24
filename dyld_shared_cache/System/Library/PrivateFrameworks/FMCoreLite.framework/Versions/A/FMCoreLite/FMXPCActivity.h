@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FMQueueSynchronizer, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_xpc_object;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface FMXPCActivity
 {
     struct os_unfair_lock_s lock;
-    _Bool _checkedInAtLeastOnce;
-    NSString *_name;
-    NSObject<OS_dispatch_queue> *_queue;
-    FMQueueSynchronizer *_queueSynchronizer;
-    CDUnknownBlockType _criteriaBlock;
-    CDUnknownBlockType _handlerBlock;
-    NSObject<OS_xpc_object> *_activity;
-    CDUnknownBlockType _registrationBlock;
 }
 
-- (void);
+- (void)1"timestamp"b1"type"b1};
 - (id);
 - (id);
 - (_Bool);
@@ -30,11 +22,11 @@
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)webServiceTaskIdentifierForTaskIdentifier: /* Error: Ran out of types for this method. */;
+- (void)horized;
+- (void)setupAfterPurchaseStickyDuration;
 - (id);
-- (void);
+- (void)$d";
 - (void);
 - (void);
 - (void);
@@ -46,20 +38,13 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)`B;
 - (CDUnknownBlockType);
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) __weak NSObject<OS_xpc_object> *activity; // @synthesize activity=_activity;
-@property(nonatomic) _Bool checkedInAtLeastOnce; // @synthesize checkedInAtLeastOnce=_checkedInAtLeastOnce;
-@property(copy, nonatomic) CDUnknownBlockType criteriaBlock; // @synthesize criteriaBlock=_criteriaBlock;
-@property(copy, nonatomic) CDUnknownBlockType handlerBlock; // @synthesize handlerBlock=_handlerBlock;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) FMQueueSynchronizer *queueSynchronizer; // @synthesize queueSynchronizer=_queueSynchronizer;
-@property(copy, nonatomic) CDUnknownBlockType registrationBlock; // @synthesize registrationBlock=_registrationBlock;
 
 @end
 

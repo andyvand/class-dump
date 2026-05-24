@@ -6,43 +6,11 @@
 
 #import <MarkupUI/MUContentViewController.h>
 
-@class MUPDFPageLabelView, NSArray, NSLayoutConstraint, NSString, PDFDocument, PDFPage, PDFThumbnailView, PDFView, UIScreenEdgePanGestureRecognizer, UIScrollView, UITapGestureRecognizer, UIView;
+@class PDFDocument, PDFView;
 
 @interface MUPDFContentViewController : MUContentViewController
 {
     PDFDocument *_pdfDocument;
-    MUPDFPageLabelView *_pageLabelView;
-    long long _thumbnailViewStyle;
-    _Bool _allowsThumbnailViewPageReordering;
-    NSLayoutConstraint *pageLabelViewTopConstraint;
-    NSLayoutConstraint *pageLabelViewSideConstraint;
-    UITapGestureRecognizer *_pageLabelViewTapGestureRecognizer;
-    UIScreenEdgePanGestureRecognizer *_edgePanGestureRecognizer;
-    _Bool _showsThumbnailView;
-    _Bool _fixedThumbnailView;
-    _Bool _navigationModeHorizontal;
-    _Bool _forcesPDFViewTopAlignment;
-    _Bool _shouldShowThumbnailView;
-    _Bool _constraintsAreHorizontal;
-    _Bool _viewIsTransitioningBetweenSizes;
-    _Bool _viewTransitionPreviousAutoscalingState;
-    _Bool _didSetup;
-    NSArray *_sourceContentReplacedAnnotationMaps;
-    PDFView *_pdfView;
-    PDFThumbnailView *_thumbnailView;
-    unsigned long long _inkStyle;
-    UIView *_thumbnailViewHolder;
-    UIView *_scrollerBackgroundView;
-    NSArray *_thumbnailViewHolderConstraints;
-    NSLayoutConstraint *_pdfViewLeadingConstraint;
-    NSLayoutConstraint *_thumbnailViewHolderWidthConstraint;
-    NSLayoutConstraint *_thumbnailViewHolderRevealConstraint;
-    NSLayoutConstraint *_thumbnailViewLeadingConstraint;
-    PDFPage *_viewTransitionPageToCenter;
-    double _viewTransitionPreviousScale;
-    struct CGPoint _viewTransitionPointOnPageToCenter;
-    struct UIEdgeInsets _edgeInsets;
-    struct UIEdgeInsets _cachedThumnailViewInsets;
 }
 
 - (struct CGRect);
@@ -62,8 +30,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)N;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -87,12 +55,12 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (_Bool);
+- (void)!;
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (id);
+- (_Bool);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -108,10 +76,10 @@
 - (_Bool);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -124,7 +92,7 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
@@ -132,7 +100,7 @@
 - (void);
 - (struct CGRect);
 - (id);
-- (void);
+- (void)igurationViewController";
 - (void);
 - (id);
 - (void);
@@ -145,16 +113,16 @@
 - (struct CGSize);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)C;
+- (void)C;
 - (void);
 - (void);
 - (struct CGSize);
-- (struct CGAffineTransform);
+- (struct CGAffineTransform);
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)U;
 - (void);
 - (void);
 - (struct UIEdgeInsets);
@@ -174,58 +142,11 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void)iews;
-- (struct CGSize):toController: /* Error: Ran out of types for this method. */;
+- (void)viewDidLayoutSubviews;
+- (struct CGSize)readAnnotationsFromArchivedModelData:toController: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsThumbnailViewPageReordering;
-@property(nonatomic) struct UIEdgeInsets cachedThumnailViewInsets; // @synthesize cachedThumnailViewInsets=_cachedThumnailViewInsets;
-@property(readonly, nonatomic) _Bool canEditContent;
-@property(nonatomic) _Bool centersIgnoringContentInsets;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property _Bool constraintsAreHorizontal; // @synthesize constraintsAreHorizontal=_constraintsAreHorizontal;
-@property(readonly, nonatomic) UIScrollView *contentViewScrollView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) long long defaultToolTag;
-@property(readonly, copy) NSString *description;
-@property _Bool didSetup; // @synthesize didSetup=_didSetup;
-@property(readonly, nonatomic) NSString *documentUnlockedWithPassword;
-@property(nonatomic) struct UIEdgeInsets edgeInsets; // @synthesize edgeInsets=_edgeInsets;
-@property(nonatomic) _Bool fixedThumbnailView; // @synthesize fixedThumbnailView=_fixedThumbnailView;
-@property(nonatomic) _Bool forcesPDFViewTopAlignment; // @synthesize forcesPDFViewTopAlignment=_forcesPDFViewTopAlignment;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long inkStyle; // @synthesize inkStyle=_inkStyle;
-@property(nonatomic) _Bool navigationModeHorizontal; // @synthesize navigationModeHorizontal=_navigationModeHorizontal;
-@property(readonly) unsigned long long pageCount;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R
-
-@property(readonly, nonatomic) __weak UIView *pageLabelView;
-@property(readonly) PDFDocument *pdfDocument; // @synthesize pdfDocument=_pdfDocument;
 @property(retain) PDFView *pdfView; // @synthesize pdfView=_pdfView;
-@property(retain) NSLayoutConstraint *pdfViewLeadingConstraint; // @synthesize pdfViewLeadingConstraint=_pdfViewLeadingConstraint;
-@property(retain) UIView *scrollerBackgroundView; // @synthesize scrollerBackgroundView=_scrollerBackgroundView;
-@property(nonatomic) _Bool shouldShowThumbnailView; // @synthesize shouldShowThumbnailView=_shouldShowThumbnailView;
-@property(nonatomic) _Bool showsThumbnailView; // @synthesize showsThumbnailView=_showsThumbnailView;
-@property(retain) NSArray *sourceContentReplacedAnnotationMaps; // @synthesize sourceContentReplacedAnnotationMaps=_sourceContentReplacedAnnotationMaps;
-@property(readonly) Class superclass;
-@property(retain) PDFThumbnailView *thumbnailView; // @synthesize thumbnailView=_thumbnailView;
-@property(retain) UIView *thumbnailViewHolder; // @synthesize thumbnailViewHolder=_thumbnailViewHolder;
-@property(retain) NSArray *thumbnailViewHolderConstraints; // @synthesize thumbnailViewHolderConstraints=_thumbnailViewHolderConstraints;
-@property(retain) NSLayoutConstraint *thumbnailViewHolderRevealConstraint; // @synthesize thumbnailViewHolderRevealConstraint=_thumbnailViewHolderRevealConstraint;
-@property(retain) NSLayoutConstraint *thumbnailViewHolderWidthConstraint; // @synthesize thumbnailViewHolderWidthConstraint=_thumbnailViewHolderWidthConstraint;
-@property(retain) NSLayoutConstraint *thumbnailViewLeadingConstraint; // @synthesize thumbnailViewLeadingConstraint=_thumbnailViewLeadingConstraint;
-@property(nonatomic) long long thumbnailViewStyle;
-@property _Bool viewIsTransitioningBetweenSizes; // @synthesize viewIsTransitioningBetweenSizes=_viewIsTransitioningBetweenSizes;
-@property __weak PDFPage *viewTransitionPageToCenter; // @synthesize viewTransitionPageToCenter=_viewTransitionPageToCenter;
-@property struct CGPoint viewTransitionPointOnPageToCenter; // @synthesize viewTransitionPointOnPageToCenter=_viewTransitionPointOnPageToCenter;
-@property _Bool viewTransitionPreviousAutoscalingState; // @synthesize viewTransitionPreviousAutoscalingState=_viewTransitionPreviousAutoscalingState;
-@property double viewTransitionPreviousScale; // @synthesize viewTransitionPreviousScale=_viewTransitionPreviousScale;
 
 @end
 

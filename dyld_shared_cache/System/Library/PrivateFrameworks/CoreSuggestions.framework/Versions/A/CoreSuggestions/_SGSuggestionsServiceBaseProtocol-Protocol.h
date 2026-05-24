@@ -5,6 +5,7 @@
 //
 
 @protocol _SGSuggestionsServiceBaseProtocol
-- (void)r;
+- (double);
+- (void)hasError;
 @end
 

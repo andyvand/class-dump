@@ -11,41 +11,33 @@
 @interface SUCorePolicyMacRecoveryOSUpdate : SUCorePolicy
 {
     NSString *_installedSFRRestoreVersion;
-    NSString *_installedRecoveryOSBuildVersion;
-    NSString *_installedRecoveryOSProductVersion;
-    NSString *_installedRecoveryOSRestoreVersion;
-    NSString *_installedRecoveryOSReleaseType;
 }
 
 + (_Bool);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
 - (id);
 - (void);
 - (id);
+- (void);
 - (id);
-- (id);
+- (id)resentable>"24@0:(id)arg1 8@"NSString"16;
+- (id)_localizedContextMenuItemLabelForLocalizedInfoDictionary:withCommand: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *installedRecoveryOSBuildVersion; // @synthesize installedRecoveryOSBuildVersion=_installedRecoveryOSBuildVersion;
-@property(retain, nonatomic) NSString *installedRecoveryOSProductVersion; // @synthesize installedRecoveryOSProductVersion=_installedRecoveryOSProductVersion;
-@property(retain, nonatomic) NSString *installedRecoveryOSReleaseType; // @synthesize installedRecoveryOSReleaseType=_installedRecoveryOSReleaseType;
-@property(retain, nonatomic) NSString *installedRecoveryOSRestoreVersion; // @synthesize installedRecoveryOSRestoreVersion=_installedRecoveryOSRestoreVersion;
 @property(retain, nonatomic) NSString *installedSFRRestoreVersion; // @synthesize installedSFRRestoreVersion=_installedSFRRestoreVersion;
 
 @end

@@ -4,62 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GCDeviceAdaptiveTriggersPayload, NSArray, NSString;
-@protocol GCAdaptiveTriggersXPCProxyRemoteClientEndpointInterface, GCAdaptiveTriggersXPCProxyServerEndpointDelegate, NSObject><NSCopying><NSSecureCoding, _GCControllerComponentDescription, _GCIPCEndpointConnection;
+@protocol GCAdaptiveTriggersXPCProxyRemoteClientEndpointInterface, _GCControllerComponentDescription;
 
 __attribute__((visibility("hidden")))
 @interface GCAdaptiveTriggersXPCProxyServerEndpoint
 {
     id <GCAdaptiveTriggersXPCProxyRemoteClientEndpointInterface> _clientEndpoint;
-    id <_GCIPCEndpointConnection> _connection;
-    id _connectionInterruptionRegistration;
-    id _connectionInvalidationRegistration;
-    unsigned long long _pendingUpdates;
-    id <NSObject><NSCopying><NSSecureCoding> _identifier;
-    GCDeviceAdaptiveTriggersPayload *_leftTrigger;
-    GCDeviceAdaptiveTriggersPayload *_rightTrigger;
-    NSArray *_statuses;
-    id <GCAdaptiveTriggersXPCProxyServerEndpointDelegate> _delegate;
-    id _userInfo;
 }
 
-- (id);
+- (id)";
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void);
+- (void)t;
 - (_Bool);
 - (void);
-- (void);
+- (void);
+- (id);
 - (id);
-- (id);
 - (void);
-- (void);
+- (void)numberWithUnsignedInteger:(id)arg1;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <GCAdaptiveTriggersXPCProxyServerEndpointDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <NSObject><NSCopying><NSSecureCoding> identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) GCDeviceAdaptiveTriggersPayload *leftTrigger; // @synthesize leftTrigger=_leftTrigger;
 @property(readonly, nonatomic) id <_GCControllerComponentDescription> receiverDescription;
-@property(retain, nonatomic) GCDeviceAdaptiveTriggersPayload *rightTrigger; // @synthesize rightTrigger=_rightTrigger;
-@property(retain) NSArray *statuses; // @synthesize statuses=_statuses;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

@@ -10,9 +10,9 @@ __attribute__((visibility("hidden")))
     CDStruct_82206317 _timeMapping;
 }
 
-+ (id);
++ (id)pF;
 + (_Bool);
-- (CDStruct_82206317);
+- (CDStruct_82206317)T{;
 - (id);
 - (id);
 - (Class);

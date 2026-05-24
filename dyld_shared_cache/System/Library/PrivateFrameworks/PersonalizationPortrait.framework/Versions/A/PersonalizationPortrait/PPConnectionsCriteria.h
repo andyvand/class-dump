@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PPConnectionsCriteria
 {
     unsigned char _locationField;
-    NSString *_bundleIdentifier;
 }
 
 + (_Bool);
-- (void);
+- (void)P;
 - (id);
 - (id);
+- (id)_smartFillRenderMaskFromStroke:(id)arg1 outPoints:strokeTransform:completionBlock: /* Error: Ran out of types for this method. */;
+- (unsigned char)isEqualToArray: /* Error: Ran out of types for this method. */;
 - (id);
-- (unsigned char);
-- (id);
-- (void);
-- (void);
+- (void)`;
+- (void)work/Versions/A/HIDAnalytics;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
 @property(nonatomic) unsigned char locationField; // @synthesize locationField=_locationField;
 
 @end

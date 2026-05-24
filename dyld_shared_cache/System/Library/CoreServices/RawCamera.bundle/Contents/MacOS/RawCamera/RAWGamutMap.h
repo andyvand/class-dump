@@ -6,15 +6,11 @@
 
 #import <RawCamera/RAWFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface RAWGamutMap : RAWFilter
 {
     CIImage *inputImage;
-    id inputColorSpace;
-    NSNumber *inputShouldWarn;
-    NSNumber *inputVersion;
-    NSNumber *inputGamutMapMax;
 }
 
 + (id);

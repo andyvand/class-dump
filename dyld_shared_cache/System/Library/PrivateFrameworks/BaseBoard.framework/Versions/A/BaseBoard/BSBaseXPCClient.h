@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSAtomicSignal, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_xpc_object;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface BSBaseXPCClient
 {
     NSObject<OS_dispatch_queue> *_queue;
-    BSAtomicSignal *_invalidationSignal;
-    NSObject<OS_xpc_object> *_serverEndpoint;
-    NSString *_serviceName;
-    int _clientInvalidated;
-    int _notifyToken;
-    NSObject<OS_xpc_object> *_connection;
-    _Bool _suspended;
 }
 
 - (void);
@@ -28,20 +21,20 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (void);
 - (id);
+- (void)He;
+- (void);
+- (id)3;
 - (_Bool);
 - (void);
 - (void);

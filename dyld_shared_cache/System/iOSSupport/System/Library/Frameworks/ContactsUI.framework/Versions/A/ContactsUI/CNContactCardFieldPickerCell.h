@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactCardFieldItem;
-
 @interface CNContactCardFieldPickerCell
 {
     _Bool _displaysValue;
-    CNContactCardFieldItem *_item;
 }
 
 + (double);
@@ -17,15 +14,14 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)_TtC18PodcastsFoundation31FairPlayKeySessionProvidingMock;
+- (void)PodcastsFoundation;
 - (id);
 - (void)ianRestrictionsAction;
 - (void)æË!|ò;
 
 // Remaining properties
 @property(nonatomic) _Bool displaysValue; // @synthesize displaysValue=_displaysValue;
-@property(retain, nonatomic) CNContactCardFieldItem *item; // @synthesize item=_item;
 
 @end
 

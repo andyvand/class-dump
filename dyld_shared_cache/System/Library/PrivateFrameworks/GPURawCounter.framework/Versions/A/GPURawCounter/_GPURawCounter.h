@@ -9,19 +9,15 @@
 @interface _GPURawCounter
 {
     NSString *_name;
-    NSString *_description;
-    unsigned long long _counterValueType;
 }
 
 - (id);
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
+- (id)ă;
 
 // Remaining properties
-@property(readonly) unsigned long long counterValueType; // @synthesize counterValueType=_counterValueType;
-@property(readonly, copy) NSString *description; // @synthesize description=_description;
 @property(readonly, copy) NSString *name; // @synthesize name=_name;
 
 @end

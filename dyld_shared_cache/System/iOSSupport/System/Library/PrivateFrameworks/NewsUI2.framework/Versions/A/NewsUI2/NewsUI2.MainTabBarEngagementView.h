@@ -7,11 +7,10 @@
 @interface NewsUI2.MainTabBarEngagementView
 {
     id bannerView;
-    id contentConfiguration;
 }
 
 - (id);
-- (struct CGSize);
+- (struct CGSize)MPCPlaybackEngineEventItemAssetTypeSelectionMetadataKey;
 - (id);
 - (void)MagazineSectionBarConfig;
 

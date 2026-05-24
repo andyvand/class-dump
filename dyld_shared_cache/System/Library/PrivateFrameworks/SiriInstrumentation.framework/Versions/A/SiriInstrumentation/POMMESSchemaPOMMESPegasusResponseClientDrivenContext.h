@@ -6,34 +6,27 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface POMMESSchemaPOMMESPegasusResponseClientDrivenContext : SISchemaInstrumentationMessage
 {
     int _type;
-    struct {
-        unsigned int type:1;
-    } _has;
 }
 
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)rivate.appstored;
+- (_Bool)yH;
 - (int);
-- (_Bool);
+- (_Bool)se of incomplete data filename %@ guid %@ isSticker %@ createdDate %@ transferState %@;
 - (void);
 - (id);
 - (void);
 - (id);
-- (id)holdOffset;
+- (id)_recognizerThresholdOffset;
 - (id)_isEmojiUsed;
-- (_Bool)ASE_POSITION_ON_TEAM;
-- (void)WN;
+- (_Bool)PEGASUSSPORTSUSECASE_POSITION_ON_TEAM;
+- (void)NLXLEGACYCONTEXTSOURCE_UNKNOWN;
 
 // Remaining properties
-@property(nonatomic) _Bool hasType;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int type; // @synthesize type=_type;
 
 @end

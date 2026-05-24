@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface HMDCHIPControllerFabricStorage
@@ -13,29 +13,21 @@ __attribute__((visibility("hidden")))
 }
 
 + (id)â}ÿx÷;
-- (_Bool);
-- (void);
+- (_Bool)_msp_accountFromIdentifier:(id)arg1;
+- (void)URLByAppendingPathComponent:(id)arg1 isDirectory: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id)à!Bù1ð1Â0@ù
 × ;
-- (id)WithFormat:(struct _NSZone *)arg1;
+- (id)expressionWithFormat:(struct _NSZone *)arg1;
 - (id)lic}@Skip creating home accepted zone since no legacy home %@ was found;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSDictionary *debugDictionaryRepresentation;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy) NSDictionary *keyValueStore; // @synthesize keyValueStore=_keyValueStore;
-@property(readonly) Class superclass;
 
 @end
 

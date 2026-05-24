@@ -6,21 +6,15 @@
 
 #import <Intents/INReservation.h>
 
-@class CLPlacemark, INDateComponentsRange, INRentalCar;
+@class INRentalCar;
 
 @interface INRentalCarReservation : INReservation
 {
     INRentalCar *_rentalCar;
-    INDateComponentsRange *_rentalDuration;
-    CLPlacemark *_pickupLocation;
-    CLPlacemark *_dropOffLocation;
 }
 
 
 // Remaining properties
-@property(readonly, copy) CLPlacemark *dropOffLocation; // @synthesize dropOffLocation=_dropOffLocation;
-@property(readonly, copy) CLPlacemark *pickupLocation; // @synthesize pickupLocation=_pickupLocation;
 @property(readonly, copy) INRentalCar *rentalCar; // @synthesize rentalCar=_rentalCar;
-@property(readonly, copy) INDateComponentsRange *rentalDuration; // @synthesize rentalDuration=_rentalDuration;
 @end
 

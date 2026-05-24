@@ -4,41 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BPSSubscriptionStatus, NSString;
-@protocol BPSPublisher;
-
 @interface BPSDrivableSink
 {
     struct os_unfair_lock_s _lock;
-    struct os_unfair_recursive_lock_s _rlock;
-    _Bool _finished;
-    BPSSubscriptionStatus *_status;
-    CDUnknownBlockType _receivedCompletion;
-    CDUnknownBlockType _shouldContinue;
-    id <BPSPublisher> _publisher;
 }
 
 + (id);
-- (void);
+- (void)	;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (_Bool);
-- (id);
-- (void);
+- (id)service:account:receivedGroupSessionParticipantUpdate: /* Error: Ran out of types for this method. */;
+- (void)ce discovery;
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (id);
-- (id);
+- (id)addObserver:(CDUnknownBlockType)arg1 debounceInterval:(CDUnknownBlockType)arg2 events: /* Error: Ran out of types for this method. */;
+- (id)playbackControlsShouldControlSystemVolume;
 - (void);
-- (void);
+- (void)wear_aviator_rimless.aa;
 - (id);
 - (CDUnknownBlockType);
-- (void);
+- (void)77;
 - (long long);
 - (void);
 - (void);
@@ -46,18 +37,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool finished; // @synthesize finished=_finished;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <BPSPublisher> publisher; // @synthesize publisher=_publisher;
 @property(copy, nonatomic) CDUnknownBlockType receivedCompletion; // @synthesize receivedCompletion=_receivedCompletion;
-@property(copy, nonatomic) CDUnknownBlockType shouldContinue; // @synthesize shouldContinue=_shouldContinue;
-@property(retain, nonatomic) BPSSubscriptionStatus *status; // @synthesize status=_status;
-@property(readonly) Class superclass;
 
 @end
 

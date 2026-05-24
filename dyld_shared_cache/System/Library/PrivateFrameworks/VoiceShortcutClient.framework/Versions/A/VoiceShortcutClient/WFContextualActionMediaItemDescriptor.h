@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface WFContextualActionMediaItemDescriptor
 {
     NSNumber *_playbackStoreId;
-    NSString *_name;
 }
 
 + (_Bool);
@@ -25,7 +24,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
 @property(readonly, copy, nonatomic) NSNumber *playbackStoreId; // @synthesize playbackStoreId=_playbackStoreId;
 
 @end

@@ -7,10 +7,6 @@
 @interface NewsUI2.ChannelPickerDetailBlueprintViewCellProvider
 {
     id delegate;
-    id channelTagRenderer;
-    id channelCoinRenderer;
-    id channelCategoryRenderer;
-    id channelEngagementRenderer;
 }
 
 @end

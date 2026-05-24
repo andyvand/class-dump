@@ -12,10 +12,11 @@
 }
 
 + (_Bool);
-- (_Bool);
+- (_Bool)2|;
 - (id);
 - (id);
-- (void);
+- (void)RAM:(id)arg1 ClassKitAccountNotificationPlugin  PROJECT:ClassKit-151.5
+ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool needsPreciseLocation; // @synthesize needsPreciseLocation=_needsPreciseLocation;

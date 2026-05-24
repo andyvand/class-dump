@@ -13,7 +13,7 @@
     IMEmojiSticker *_emojiSticker;
 }
 
-- (struct CGSize);
+- (struct CGSize)t;
 - (id);
 - (id);
 - (id);

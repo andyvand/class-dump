@@ -6,19 +6,16 @@
 
 #import <ContactsUI/CNPhotoPickerProviderItem.h>
 
-@class NSString, UIColor, UIView;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface CNPhotoPickerGlyphProviderItem : CNPhotoPickerProviderItem
 {
     unsigned long long _addItemType;
-    UIView *_symbolImageView;
-    NSString *_symbolImageName;
-    UIColor *_tintColor;
 }
 
 + (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (long long);
@@ -26,22 +23,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)7D;
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
-- (id)eToScrollViews;
-- (void)ationPropertyKey: /* Error: Ran out of types for this method. */;
+- (id)visibleToScrollViews;
+- (void)_isUnavailableAuthorizationPropertyKey: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)ÉïÏÿTïÏÿ;
 - (void)÷#´P;
 
 // Remaining properties
-@property(nonatomic) unsigned long long addItemType; // @synthesize addItemType=_addItemType;
-@property(retain, nonatomic) NSString *symbolImageName; // @synthesize symbolImageName=_symbolImageName;
 @property(retain, nonatomic) UIView *symbolImageView; // @synthesize symbolImageView=_symbolImageView;
-@property(retain, nonatomic) UIColor *tintColor; // @synthesize tintColor=_tintColor;
 
 @end
 

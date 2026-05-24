@@ -6,16 +6,12 @@
 
 #import <IMAP/IMAPNetworkTaskOperation.h>
 
-@class ECLocalMessageAction, IMAPTaskManager, NSProgress, NSString;
-@protocol IMAPMessageActionSyncOperationDelegate, IMAPMessageDataSource;
+@class IMAPTaskManager;
+@protocol IMAPMessageDataSource;
 
 @interface IMAPMessageActionSyncOperation : IMAPNetworkTaskOperation
 {
     id <IMAPMessageDataSource> _dataSource;
-    ECLocalMessageAction *_messageAction;
-    id <IMAPMessageActionSyncOperationDelegate> _delegate;
-    NSProgress *_progress;
-    IMAPTaskManager *_taskManager;
 }
 
 - (id);
@@ -31,7 +27,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)m_Si7sectionSo17NSManagedObjectIDC4moidtG;
 - (void);
 - (void);
 - (id);
@@ -39,17 +35,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <IMAPMessageDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <IMAPMessageActionSyncOperationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) ECLocalMessageAction *messageAction; // @synthesize messageAction=_messageAction;
-@property(retain, nonatomic) NSProgress *progress; // @synthesize progress=_progress;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) IMAPTaskManager *taskManager; // @synthesize taskManager=_taskManager;
 
 @end

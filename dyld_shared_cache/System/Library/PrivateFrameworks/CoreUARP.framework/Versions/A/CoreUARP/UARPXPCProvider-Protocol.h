@@ -5,5 +5,12 @@
 //
 
 @protocol UARPXPCProvider
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)3;
+- (void)$;
+- (void)m;
 @end
 

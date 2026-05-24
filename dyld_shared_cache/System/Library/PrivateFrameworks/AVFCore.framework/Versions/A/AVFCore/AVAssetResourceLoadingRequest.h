@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetResourceLoadingContentInformationRequest, AVAssetResourceLoadingDataRequest, AVAssetResourceLoadingRequestInternal, AVAssetResourceLoadingRequestor, NSString, NSURLRequest, NSURLResponse;
+@class AVAssetResourceLoadingRequestInternal, NSURLRequest;
 
 @interface AVAssetResourceLoadingRequest
 {
@@ -14,9 +14,10 @@
 + (SEL);
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)T
+L	;
 - (id);
 - (id);
 - (id);
@@ -25,8 +26,8 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)n;
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -45,7 +46,7 @@
 - (void);
 - (struct OpaqueFigCustomURLLoader *);
 - (id);
-- (id);
+- (id)_1;
 - (_Bool);
 - (id);
 - (struct __CFDictionary *);
@@ -62,21 +63,7 @@
 - (id)Ô ;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isCancelled) _Bool cancelled;
-@property(readonly, nonatomic) AVAssetResourceLoadingContentInformationRequest *contentInformationRequest;
-@property(readonly, nonatomic) AVAssetResourceLoadingDataRequest *dataRequest;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isFinished) _Bool finished;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSURLRequest *redirect;
 @property(readonly, nonatomic) NSURLRequest *request;
-@property(readonly, nonatomic) AVAssetResourceLoadingRequestor *requestor;
-@property(copy, nonatomic) NSURLResponse *response;
-@property(readonly) Class superclass;
 
 @end
 

@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -27,7 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) AFAnalyticsTurnBasedInstrumentationContext *instrumentationContext; // @synthesize instrumentationContext=_instrumentationContext;
-@property(readonly, retain, nonatomic) id turnIdentifier;
 
 @end
 

@@ -7,9 +7,6 @@
 @interface IMKDocumentView
 {
     _Bool _hasRubberbandEffect;
-    long long _layoutOrientation;
-    double _scrollingIncrements;
-    struct CGPoint _highestPoints;
 }
 
 + (_Bool);
@@ -18,18 +15,15 @@
 - (void);
 - (double);
 - (struct CGPoint);
-- (_Bool);
+- (_Bool)D9;
 - (struct CGRect);
-- (_Bool);
-- (void);
+- (_Bool)ideo initWithStreamInputID:format:delegate:delegateQueue:remoteQueue:] /* Error: Ran out of types for this method. */;
+- (void)';
 - (void);
 - (long long)´;
 
 // Remaining properties
-@property(nonatomic) _Bool hasRubberbandEffect; // @synthesize hasRubberbandEffect=_hasRubberbandEffect;
 @property(nonatomic) struct CGPoint highestPoints; // @synthesize highestPoints=_highestPoints;
-@property(nonatomic) long long layoutOrientation; // @synthesize layoutOrientation=_layoutOrientation;
-@property(nonatomic) double scrollingIncrements; // @synthesize scrollingIncrements=_scrollingIncrements;
 
 @end
 

@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXFMouseCursorImage, NSString;
-
 @interface AXFMouseTest
 {
     _Bool accumulateClickCount;
-    _Bool keepCursorImageSynchronizedWithSystem;
-    AXFMouseCursorImage *cursorImage;
-    double _cursorScale;
-    long long _currentDownButton;
-    struct CGSize cursorImageSize;
-    struct CGPoint _currentLocation;
 }
 
 - (void);
@@ -30,12 +22,12 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)c;
 - (void);
 - (_Bool);
 - (void);
@@ -54,24 +46,11 @@
 - (void);
 - (id);
 - (struct CGPoint);
-- (void);
-- (void)e:(struct CGPoint)arg1;
+- (void)e Size;
+- (void)_rotorProviderForRotorName:(struct CGPoint)arg1;
 
 // Remaining properties
-@property(nonatomic) _Bool accumulateClickCount; // @synthesize accumulateClickCount;
-@property(nonatomic) long long currentDownButton; // @synthesize currentDownButton=_currentDownButton;
 @property(nonatomic) struct CGPoint currentLocation; // @synthesize currentLocation=_currentLocation;
-@property(retain, nonatomic) AXFMouseCursorImage *cursorImage; // @synthesize cursorImage;
-@property(readonly, nonatomic) struct CGSize cursorImageSize; // @synthesize cursorImageSize;
-@property(nonatomic) double cursorScale; // @synthesize cursorScale=_cursorScale;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool keepCursorImageSynchronizedWithSystem; // @synthesize keepCursorImageSynchronizedWithSystem;
-@property(readonly) Class superclass;
 
 @end
 

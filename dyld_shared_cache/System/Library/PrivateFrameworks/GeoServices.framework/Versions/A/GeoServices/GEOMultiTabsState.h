@@ -9,15 +9,9 @@
 @interface GEOMultiTabsState
 {
     PBUnknownFields *_unknownFields;
-    unsigned int _currentTabIndex;
-    unsigned int _numberOfTabsOpen;
-    struct {
-        unsigned int has_currentTabIndex:1;
-        unsigned int has_numberOfTabsOpen:1;
-    } _flags;
 }
 
-+ (_Bool)asTransitAdvisoryBanner:(id)arg1;
++ (_Bool)setHasTransitAdvisoryBanner:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -25,15 +19,15 @@
 - (unsigned int);
 - (_Bool);
 - (_Bool);
-- (unsigned int);
+- (unsigned int)shouldAlwaysQueryAuthorizationStatusCachedValue;
 - (void);
+- (id)Z;
 - (id);
+- (void)_wantsClearTextAuthentication;
+- (void);
+- (void)irstPassJarvis _clearTriggerCandidate];
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -44,11 +38,7 @@
 - (void)2;
 
 // Remaining properties
-@property(nonatomic) unsigned int currentTabIndex;
-@property(nonatomic) _Bool hasCurrentTabIndex;
 @property(nonatomic) _Bool hasNumberOfTabsOpen;
-@property(nonatomic) unsigned int numberOfTabsOpen;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

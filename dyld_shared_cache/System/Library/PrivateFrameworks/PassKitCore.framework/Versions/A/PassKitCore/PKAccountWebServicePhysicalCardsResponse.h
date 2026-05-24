@@ -11,16 +11,14 @@
 @interface PKAccountWebServicePhysicalCardsResponse : PKAccountWebServiceResponse
 {
     NSSet *_physicalCards;
-    NSSet *_expirationMessaging;
 }
 
 - (id);
-- (id);
-- (id);
+- (id)	;
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *expirationMessaging; // @synthesize expirationMessaging=_expirationMessaging;
 @property(readonly, nonatomic) NSSet *physicalCards; // @synthesize physicalCards=_physicalCards;
 
 @end

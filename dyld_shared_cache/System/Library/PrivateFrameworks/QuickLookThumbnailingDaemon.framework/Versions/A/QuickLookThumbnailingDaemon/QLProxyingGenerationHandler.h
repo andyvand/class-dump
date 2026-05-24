@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     QLTGeneratorThumbnailRequest *_generatorRequest;
 }
 
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)HourlyQuotaExceeded;
+- (void)setHasThermalLevel:(long long)arg1;
+- (void)setHasTestAssociatedSchemaIdentifier:(long long)arg1;
+- (void)setHasTdSpeakerRecognizerCombinedThresholdHS:(id)arg1;
 - (void);
 
 @end

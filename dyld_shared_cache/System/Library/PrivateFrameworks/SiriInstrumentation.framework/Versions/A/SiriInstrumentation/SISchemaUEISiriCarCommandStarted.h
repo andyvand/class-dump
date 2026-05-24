@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaUEISiriCarCommandStarted : SISchemaInstrumentationMessage
 {
     int _carPlayConnection;
-    _Bool _isEnhancedSiriEnabled;
-    _Bool _isEnhancedSiriRequest;
-    struct {
-        unsigned int carPlayConnection:1;
-        unsigned int isEnhancedSiriEnabled:1;
-        unsigned int isEnhancedSiriRequest:1;
-    } _has;
 }
 
 - (void);
@@ -37,22 +28,16 @@
 - (int);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)generateKeybagRequestForDSID:completionHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)IMDCNAliasResolver;
 - (id);
 - (id);
-- (id)teFlId;
-- (id)lientComponentName;
+- (id)deleteFlId;
+- (id)_hasClientComponentName;
 
 // Remaining properties
 @property(nonatomic) int carPlayConnection; // @synthesize carPlayConnection=_carPlayConnection;
-@property(nonatomic) _Bool hasCarPlayConnection;
-@property(nonatomic) _Bool hasIsEnhancedSiriEnabled;
-@property(nonatomic) _Bool hasIsEnhancedSiriRequest;
-@property(nonatomic) _Bool isEnhancedSiriEnabled; // @synthesize isEnhancedSiriEnabled=_isEnhancedSiriEnabled;
-@property(nonatomic) _Bool isEnhancedSiriRequest; // @synthesize isEnhancedSiriRequest=_isEnhancedSiriRequest;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

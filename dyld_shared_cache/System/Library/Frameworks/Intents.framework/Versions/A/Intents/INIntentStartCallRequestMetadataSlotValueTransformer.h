@@ -8,12 +8,12 @@
 {
 }
 
-+ (_Bool);
++ (_Bool);
 + (Class);
 + (Class);
-+ (long long)CallRecordTypes: /* Error: Ran out of types for this method. */;
++ (long long)StringAsPayloadCallRecordTypes: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)ingAsSendAnnouncementIntentRecipientsUnsupportedReason:(id)arg1;
+- (id)StringAsSendAnnouncementIntentRecipientsUnsupportedReason:(id)arg1;
 
 @end
 

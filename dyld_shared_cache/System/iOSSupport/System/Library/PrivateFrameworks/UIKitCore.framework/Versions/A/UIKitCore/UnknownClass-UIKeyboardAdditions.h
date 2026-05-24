@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface UnknownClass (UIKeyboardAdditions)
-- (unsigned long long);
+- (unsigned long long)Tell all my clients that message with GUID %@ has been delivered;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)`;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasAutofillCandidates;
-@property(readonly, nonatomic) _Bool hasOnlyCompletionCandidates;
-@property(readonly, nonatomic) _Bool hasOnlySlottedCandidates;
 @property(readonly, nonatomic) _Bool hasOnlyTextSuggestions;
-@property(readonly, nonatomic) unsigned long long slottedCandidatesCount;
-@property(readonly, nonatomic) NSArray *ui_uniqueSupplementalCandidates;
 @end
 

@@ -6,8 +6,7 @@
 
 #import <UIKitCore/UIResponder.h>
 
-@class NSDictionary, NSString, UIConversationContext, UITextInputPasswordRules, UITextPosition, UITextRange, UIView;
-@protocol UITextInput, UITextInputDelegate, UITextInputTokenizer;
+@protocol UITextInput;
 
 __attribute__((visibility("hidden")))
 @interface UITextInteractionSelectableInputDelegate : UIResponder
@@ -24,8 +23,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void)°!¤@ù_°1Â0@ù
 × ;
-- (void)ForPresentation: /* Error: Ran out of types for this method. */;
-- (id)lidateAppearanceForSubviewsOfClass:(id)arg1;
+- (void)_preferredInteractionControllerForPresentation: /* Error: Ran out of types for this method. */;
+- (id)_invalidateAppearanceForSubviewsOfClass:(id)arg1;
 - (void)stage;
 - (_Bool);
 - (id)[ÿ;
@@ -72,122 +71,7 @@ __attribute__((visibility("hidden")))
 - (void)-i;
 
 // Remaining properties
-@property unsigned long long allowedWritingToolsResultOptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?
-
-@property(nonatomic) _Bool allowsNumberPadPopover;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) long long autocapitalizationType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) long long autocorrectionType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(readonly, nonatomic) UITextPosition *beginningOfDocument;
-@property(retain, nonatomic) UIConversationContext *conversationContext;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIConversationContext",?,&,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isEditable) _Bool editable;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,GisEditable
-
-@property(nonatomic) _Bool enablesReturnKeyAutomatically;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(readonly, nonatomic) UITextPosition *endOfDocument;
-@property(readonly, nonatomic) _Bool hasText;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long inlinePredictionType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) __weak id <UITextInputDelegate> inputDelegate;
-@property(readonly, nonatomic) id insertDictationResultPlaceholder;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@,?,R,N
-
-@property(nonatomic) long long keyboardAppearance;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) long long keyboardType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(readonly, nonatomic) UITextRange *markedTextRange;
-@property(copy, nonatomic) NSDictionary *markedTextStyle;
-@property(nonatomic) long long mathExpressionCompletionType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(copy, nonatomic) UITextInputPasswordRules *passwordRules;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UITextInputPasswordRules",?,C,N
-
-@property(nonatomic) long long returnKeyType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic, getter=isSecureTextEntry) _Bool secureTextEntry;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N,GisSecureTextEntry
-
-@property(copy) UITextRange *selectedTextRange;
-@property(nonatomic) long long selectionAffinity;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) long long smartDashesType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) long long smartInsertDeleteType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) long long smartQuotesType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) long long spellCheckingType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool supportsAdaptiveImageGlyph;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(copy, nonatomic) NSString *textContentType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
 @property(readonly, nonatomic) UIResponder<UITextInput> *textInput;
-@property(readonly, nonatomic) UIView *textInputView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIView",?,R,N
-
-@property(readonly, nonatomic) id <UITextInputTokenizer> tokenizer;
-@property(readonly, nonatomic) struct CGRect unobscuredContentRect;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N
-
-@property long long writingToolsBehavior;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?
-
 
 @end
 

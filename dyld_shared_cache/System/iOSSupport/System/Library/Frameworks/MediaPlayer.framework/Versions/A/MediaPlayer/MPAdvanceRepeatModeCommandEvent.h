@@ -11,7 +11,7 @@
     _Bool _preservesRepeatMode;
 }
 
-- (id);
+- (id)valid;
 - (_Bool);
 
 // Remaining properties

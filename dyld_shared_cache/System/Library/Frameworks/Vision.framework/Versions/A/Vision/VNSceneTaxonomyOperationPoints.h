@@ -6,16 +6,12 @@
 
 #import <Vision/VNOperationPoints.h>
 
-@class NSMapTable, NSString, NSURL;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface VNSceneTaxonomyOperationPoints : VNOperationPoints
 {
     NSString *_frameworkOperationPointsIdentifier;
-    NSURL *_nonframeworkDataURL;
-    NSMapTable *_labelToOperationPointsDataIndexMap;
-    CDStruct_47a8b21a *_operationPointsDataArray;
-    unsigned long long _cachedHashValue;
 }
 
 + (id);
@@ -24,21 +20,21 @@ __attribute__((visibility("hidden")))
 + (id);
 + (_Bool);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)O;
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (const CDStruct_47a8b21a *);
 - (id);
-- (void);
-- (id);
+- (void)a ;
+- (id)initWithContentVersion:(id)arg1 metadataVersion:lastEditorDeviceName: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
-- (void)PrivateRevisionLegacyFaceCoreProcessOption_MinFaceSize;
+- (id);
+- (void)VNTrackObjectPrivateRevisionLegacyFaceCoreProcessOption_MinFaceSize;
 
 @end
 

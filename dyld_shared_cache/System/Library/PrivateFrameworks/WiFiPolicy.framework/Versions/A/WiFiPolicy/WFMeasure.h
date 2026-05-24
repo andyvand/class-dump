@@ -4,56 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NPTPerformanceTest, NSMutableSet, NSObject, NSString, WFMeasureResult;
-@protocol OS_dispatch_group, OS_dispatch_queue;
-
 @interface WFMeasure
 {
     _Bool _isInProgress;
-    _Bool _isPeriodicTest;
-    _Bool _isSiriTimeout;
-    _Bool _isApsdTimeout;
-    _Bool _isRetest;
-    _Bool _isParis;
-    int _tclass;
-    NSString *_gatewayAddress;
-    NSMutableSet *_dnsServers;
-    unsigned long long _options;
-    NSObject<OS_dispatch_group> *_dispatchGroup;
-    CDUnknownBlockType _completionHandler;
-    NSObject<OS_dispatch_queue> *_completionQueue;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    NSString *_interfaceName;
-    NSString *_publicDNSAddress;
-    NSString *_testDNSHostname;
-    NSString *_testReason;
-    NPTPerformanceTest *_performanceTest;
-    WFMeasureResult *_result;
 }
 
 + (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)FusableBinaryInputLayerParametersWrapper;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)s size %lld, which is larger than the maximum allowed %lld. %{public}@;
 - (id);
 - (int);
-- (void);
+- (void)initWithSuggestions:(id)arg1;
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void)shouldCurrentlyDisplayedRecordTransitionToLive;
+- (int)indexPathForItemBeingScrolledTowardFromOffset:currentOffset:nearestItemToCenter:itemCount:itemOffsetProvider:ratio: /* Error: Ran out of types for this method. */;
 - (void);
-- (int);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
+- (id)=;
 - (void);
 - (_Bool);
 - (void);
@@ -61,8 +36,11 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)2;
+- (void);
+- (void);
+- (_Bool)PromptContext;
+- (id)UsoTask_summarise_common_Announcement;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -79,49 +57,30 @@
 - (void);
 - (void);
 - (id);
+- (id)audioHoseManagerBuffered_handleCryptorKeyUpdatedInternal;
 - (id);
-- (id);
-- (unsigned int);
-- (void);
+- (unsigned int)y;
+- (void);
 - (void);
 - (_Bool);
 - (unsigned int);
 - (void);
 - (_Bool);
+- (void)`;
+- (void)@;
 - (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (void)!ìEù¥ð1Â0@ù
 × ;
 - (void);
 - (void)OWiFiQualityNetworkSearchResult";
-- (id)nt: /* Error: Ran out of types for this method. */;
+- (id)setAutoHotspotClientConnectCount: /* Error: Ran out of types for this method. */;
 - (void)rference70to75;
 - (void)Removed networks that match supplied predicate <%@>;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *completionQueue; // @synthesize completionQueue=_completionQueue;
-@property(retain, nonatomic) NSObject<OS_dispatch_group> *dispatchGroup; // @synthesize dispatchGroup=_dispatchGroup;
-@property(retain, nonatomic) NSMutableSet *dnsServers; // @synthesize dnsServers=_dnsServers;
-@property(retain, nonatomic) NSString *gatewayAddress; // @synthesize gatewayAddress=_gatewayAddress;
-@property(retain, nonatomic) NSString *interfaceName; // @synthesize interfaceName=_interfaceName;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *internalQueue; // @synthesize internalQueue=_internalQueue;
-@property(nonatomic) _Bool isApsdTimeout; // @synthesize isApsdTimeout=_isApsdTimeout;
 @property(nonatomic) _Bool isInProgress; // @synthesize isInProgress=_isInProgress;
-@property(nonatomic) _Bool isParis; // @synthesize isParis=_isParis;
-@property(nonatomic) _Bool isPeriodicTest; // @synthesize isPeriodicTest=_isPeriodicTest;
-@property(nonatomic) _Bool isRetest; // @synthesize isRetest=_isRetest;
-@property(nonatomic) _Bool isSiriTimeout; // @synthesize isSiriTimeout=_isSiriTimeout;
-@property(nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(retain, nonatomic) NPTPerformanceTest *performanceTest; // @synthesize performanceTest=_performanceTest;
-@property(retain, nonatomic) NSString *publicDNSAddress; // @synthesize publicDNSAddress=_publicDNSAddress;
-@property(retain, nonatomic) WFMeasureResult *result; // @synthesize result=_result;
-@property(nonatomic) int tclass; // @synthesize tclass=_tclass;
-@property(retain, nonatomic) NSString *testDNSHostname; // @synthesize testDNSHostname=_testDNSHostname;
-@property(retain, nonatomic) NSString *testReason; // @synthesize testReason=_testReason;
 
 @end
 

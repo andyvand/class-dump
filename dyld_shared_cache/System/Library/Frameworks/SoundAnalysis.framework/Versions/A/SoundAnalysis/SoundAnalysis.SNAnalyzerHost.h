@@ -7,11 +7,6 @@
 @interface SoundAnalysis.SNAnalyzerHost
 {
     id analyzer;
-    id processingTree;
-    id resultsHandler;
-    id completionHandler;
-    id processingBlockServer;
-    id requestState;
 }
 
 @end

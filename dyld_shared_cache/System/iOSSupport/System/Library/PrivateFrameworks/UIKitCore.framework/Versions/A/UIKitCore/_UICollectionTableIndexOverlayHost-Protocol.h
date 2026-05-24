@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol _UICollectionTableIndexOverlayHost
+- (void)updateMessagesGroupName:(long long)arg1 onConversation: /* Error: Ran out of types for this method. */;
+- (long long)participantChangeGUIDs;
+- (void)eStamp:storageContext: /* Error: Ran out of types for this method. */;
+- (void):removedTransferGUIDsOut: /* Error: Ran out of types for this method. */;
+- (NSArray *);
 @end
 

@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURLRequest, UIViewController;
-@protocol SWNavigationHandler;
+@class UIViewController;
 
 @interface SWNavigationPreview
 {
     UIViewController *_viewController;
-    id <SWNavigationHandler> _navigationHandler;
-    NSURLRequest *_request;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)?;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <SWNavigationHandler> navigationHandler; // @synthesize navigationHandler=_navigationHandler;
-@property(readonly, nonatomic) NSURLRequest *request; // @synthesize request=_request;
 @property(readonly, nonatomic) __weak UIViewController *viewController; // @synthesize viewController=_viewController;
 
 @end

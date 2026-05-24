@@ -4,34 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol NUBuffer;
 
 @interface NUBufferTileAdapter
 {
     CDStruct_996ac03c _frameRect;
-    CDStruct_996ac03c _contentRect;
-    id <NUBuffer> _buffer;
 }
 
 - (id);
 - (CDStruct_996ac03c);
 - (id);
 - (CDStruct_996ac03c);
-- (void);
+- (void)translatedAndClippedRegion: /* Error: Ran out of types for this method. */;
 - (id)deoTrackProperties;
 
 // Remaining properties
 @property(readonly, nonatomic) id <NUBuffer> buffer; // @synthesize buffer=_buffer;
-@property(readonly, nonatomic) CDStruct_996ac03c contentRect; // @synthesize contentRect=_contentRect;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) CDStruct_996ac03c frameRect; // @synthesize frameRect=_frameRect;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

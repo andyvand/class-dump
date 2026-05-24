@@ -5,5 +5,8 @@
 //
 
 @protocol LPAsynchronousResource
+- (_Bool)transcriptDockingDisablementThreshold;
+- (void)transcriptCollectionViewControllerShouldForceOpaqueMask:(void (^)(id))arg1;
+- (_Bool)transcriptCollectionViewController:balloonView:longPressedForItemWithIndexPath: /* Error: Ran out of types for this method. */;
 @end
 

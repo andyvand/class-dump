@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface AFSpeechTestRequestOptions
 {
     NSArray *_jitContext;
-    NSString *_overrideModelPath;
 }
 
 + (id);
@@ -17,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_shippingMethods;
 - (id);
 - (id);
 - (id);
@@ -27,11 +26,10 @@
 - (_Bool);
 - (void);
 - (id);
-- (void)ssion;
+- (void)_clearMyriadSession;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *jitContext; // @synthesize jitContext=_jitContext;
-@property(readonly, copy, nonatomic) NSString *overrideModelPath; // @synthesize overrideModelPath=_overrideModelPath;
 
 @end
 

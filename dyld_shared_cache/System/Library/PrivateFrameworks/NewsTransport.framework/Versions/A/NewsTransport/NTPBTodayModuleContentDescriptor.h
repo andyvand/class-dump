@@ -4,35 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NTPBTodayModuleContentRequest;
+@class NSString;
 
 @interface NTPBTodayModuleContentDescriptor
 {
     NSString *_identifier;
-    NTPBTodayModuleContentRequest *_request;
 }
 
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)maximumDelayBeforePlayback;
+- (_Bool)hort name for Target user:(id)arg1 Old [%@] -> New [%@];
+- (_Bool)ension from configuration %{public}@;
 - (void);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (void)tificationDirectOpen;
-- (_Bool);
+- (void)viewFromNotificationDirectOpen;
+- (_Bool)previous_article_id;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasRequest;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NTPBTodayModuleContentRequest *request; // @synthesize request=_request;
 
 @end
 

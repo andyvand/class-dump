@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, NSViewController, SiriUINavigationBarView;
-@protocol SiriUISimpleNavigationControllerDelegate;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface SiriUISimpleNavigationController
 {
     _Bool _wantsNavigationBar;
-    id <SiriUISimpleNavigationControllerDelegate> _delegate;
-    NSMutableArray *_mutableViewControllers;
-    NSViewController *_selectedVC;
-    SiriUINavigationBarView *_navigationBarView;
-    NSMutableArray *_vcsNeedingUpdateConstraints;
 }
 
 - (_Bool);
@@ -27,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -53,7 +47,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)";
 - (void);
 - (void);
 - (id);
@@ -61,19 +55,7 @@ __attribute__((visibility("hidden")))
 - (void)p;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <SiriUISimpleNavigationControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) NSMutableArray *mutableViewControllers; // @synthesize mutableViewControllers=_mutableViewControllers;
-@property(retain) SiriUINavigationBarView *navigationBarView; // @synthesize navigationBarView=_navigationBarView;
-@property(retain) NSViewController *selectedVC; // @synthesize selectedVC=_selectedVC;
-@property(readonly) Class superclass;
-@property(retain) NSMutableArray *vcsNeedingUpdateConstraints; // @synthesize vcsNeedingUpdateConstraints=_vcsNeedingUpdateConstraints;
-@property _Bool wantsNavigationBar; // @synthesize wantsNavigationBar=_wantsNavigationBar;
 
 @end
 

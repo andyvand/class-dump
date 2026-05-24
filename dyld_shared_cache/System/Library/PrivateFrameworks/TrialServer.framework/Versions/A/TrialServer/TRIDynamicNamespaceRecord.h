@@ -4,55 +4,128 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, TRIAppContainer;
+@class NSString;
 
 @interface TRIDynamicNamespaceRecord
 {
     _Bool _hasFetched;
-    int _cloudKitContainer;
-    unsigned int _compatibilityVersion;
-    NSString *_name;
-    NSString *_teamId;
-    TRIAppContainer *_appContainer;
-    NSURL *_defaultsFileURL;
 }
 
-+ (id);
++ (id)computeSpatialFrameForVisibleRect:(id)arg1 adaptiveVisibleRect:(id)arg2 spatialPaddingPercentage:(id)arg3 effectiveImageRect:(int)arg4;
 + (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (_Bool)insertAuxiliaryResourceTypeMarker:(id)arg1 intoFileName: /* Error: Ran out of types for this method. */;
+- (id)initWithPropertyListRepresentationData:(id)arg1 timeZoneLookup:(id)arg2;
+- (_Bool)initWithLayers:layout:depthEnabled:parallaxDisabled:clockAreaLuminance:settlingEffectEnabled:spatialPhotoEnabled: /* Error: Ran out of types for this method. */;
+- (id)initWithAssetUUID:(id)arg1;
+- (id)initWithAdjustments:(_Bool)arg1;
+- (id)indexSetWithIndexesInRange:(id)arg1;
+- (id)includePets;
+- (id)inactiveSpatialPhotoDataLayer;
+- (id)createAssetBundleWritingErrorWithDescription: /* Error: Ran out of types for this method. */;
+- (id)dictionary:(id)arg1 %@;
 - (id);
 - (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (int);
 - (_Bool);
 - (void);
+- (id)%d
+printTargetThreadOnly:%d
+printHeavyStacks:%d
+printJson:%d
+forceOneBasedTimeIndexes:%d
+showThreadStateAsLeafFrame:%d
+patchTruncatedStacks:%d
+omitTasksBelowPercentOfTotalSamples:%d
+omitStacksBelowPercentOfTaskSamples:%d
+omitFramesBelowPercentOfStackSamples:%d
+omitTasksBelowSampleCount:%lld
+omitStacksBelowSampleCount:%lld
+omitFramesBelowSampleCount:%lld
+processSortAttributes:%@
+callTreeSortAttributes:%@
+displayKernelFrames:%d
+displayExclaveFrames:%d
+displayUserFrames:%d
+displayFrameAddresses:%d
+displayDetailedCpuTime:%d
+displayDetailedWallTime:%d
+displayOffsetsFromUnnamedSymbols:%d
+displayFullSourcePaths:%d
+displaySymbolInformation:%d
+displayBinaryImageAddresses:%d
+displayBinaryImagesLackingNameOrPath:%d
+displayRunningThreads:%d
+displayRunnableThreads:%d
+displayBlockedThreads:%d
+displayCPUNumForRunningThreads:%d
+displayCPUClusterInfoForRunningThreads:%d
+displayCPUNumForNonRunningThreads:%d
+displayThreadRunningState:%d
+displayIdleWorkQueueThreads:%d
+displayAllBinaries:%d
+displayBlockedReasons:%d
+displayBlockedReasonsLackingProcessOwners:%d
+displayAddressesInBlockedReasons:%d
+displayMultipleMatchingBlockedReasons:%d
+displayEmptyBootArgs:%d
+hidEventDisplayOptions:0x%llx
+displayTasksWithZeroCount:%d
+displayAllTaskSizeChanges:%d
+displayCodesigningIDsMatchingBundleIDs:%d
+displayDefaultPowerModes:%d
+displayIOInCallTrees:%d
+displayEachIndividualIOInCallTrees:%d
+displayCPUSpeedInCallTrees:%d
+displayPMICycleIntervalInCallTrees:%d
+displayVMFaultAddressAsLeafFrame:%d
+displayVMFaultIntervalInCallTrees:%d
+displayVMFaultTypeInCallTrees:%d
+displayPageGrabIntervalInCallTrees:%d
+displayPageGrabTypeInCallTrees:%d
+displayPageGrabVMTagInCallTrees:%d
+displayOnBehalfOfInCallTrees:%d
+displayQoSTransitionsBetweenUnspecifiedAndUnavailable:%d
+displayTrialInformation:%d
+repeatPrimaryStateInCallTrees:%d
+callTreeTimestampsTimeDomain:0x%llx
+callTreeAggregation:%llu
+swiftAsyncCallTreeAggregation:%llu
+swiftAsyncDisplayCRootCallstacks:%d
+swiftAsyncPrintLeafyCCallstackOnTopOfSwiftAsyncCallstacksAlways:%d
+swiftAsyncPrintLeafyCCallstackOnTopOfCRootCallstacksAlways:%d
+taskAggregation:%llu
+aggregateFramesByOffsetIntoBinary:%d
+microstackshotsFormat:%d
+systemstatsFormat:%d
+includeUserIdleAndBatteryStateInStacks:%d
+omitStacksOnBattery:%d
+omitStacksOnAC:%d
+omitStacksWithUserIdle:%d
+omitStacksWithUserActive:%d
+omitStacksWithECore:%d
+omitStacksWithMCore:%d
+omitStacksWithPCore:%d
+omitStacksBelowBasePriority:%d
+omitStacksAboveBasePriority:%d
+omitAbsoluteWallTimes:%d
+printProblematicProcessesAndThreads:%d
+tidsToPrint:%@
+pidsToPrint:%@
+uniquePidsToPrint:%@
+processUUIDsToPrint:%@
+ /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id);
 - (unsigned int);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) TRIAppContainer *appContainer; // @synthesize appContainer=_appContainer;
-@property(readonly, nonatomic) int cloudKitContainer; // @synthesize cloudKitContainer=_cloudKitContainer;
-@property(readonly, nonatomic) unsigned int compatibilityVersion; // @synthesize compatibilityVersion=_compatibilityVersion;
-@property(readonly, nonatomic) NSURL *defaultsFileURL; // @synthesize defaultsFileURL=_defaultsFileURL;
-@property(readonly, nonatomic) _Bool hasFetched; // @synthesize hasFetched=_hasFetched;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSString *teamId; // @synthesize teamId=_teamId;
 
 @end
 

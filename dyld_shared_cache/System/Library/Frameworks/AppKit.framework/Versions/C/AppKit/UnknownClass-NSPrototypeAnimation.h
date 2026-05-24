@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (NSPrototypeAnimation)
-- (id);
+- (id)kConditionalConnectionInTransitionalDiscretionaryPeriod;
 - (void);
 - (void);
 @end

@@ -4,44 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebAppViewModel
 {
     NSString *_accessibilityLabel;
-    NSString *_bundleIdentifier;
-    NSURL *_iconURL;
-    NSString *_title;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)`";
 - (void);
 - (id);
-- (id);
+- (id)24DefaultReplaceStateTableIS6_lEENS_17DefaultCacheStoreIS6_EEEENS_3FstIS6_EEEE;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void)troller";
-- (id)Presentation;
+- (id)_deferredPresentation;
 
 // Remaining properties
 @property(retain) NSString *accessibilityLabel; // @synthesize accessibilityLabel=_accessibilityLabel;
-@property(retain) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSURL *iconURL; // @synthesize iconURL=_iconURL;
-@property(readonly) Class superclass;
-@property(retain) NSString *title; // @synthesize title=_title;
 
 @end
 

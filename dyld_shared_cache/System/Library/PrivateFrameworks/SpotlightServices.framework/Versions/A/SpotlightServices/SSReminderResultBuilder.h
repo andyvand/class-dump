@@ -6,63 +6,45 @@
 
 #import <SpotlightServices/SSResultBuilder.h>
 
-@class NSArray, NSDate, NSString;
+@class NSDate;
 
 @interface SSReminderResultBuilder : SSResultBuilder
 {
     _Bool _isAllDay;
-    _Bool _isFlagged;
-    _Bool _isRecurring;
-    _Bool _isCompleted;
-    NSDate *_completionDate;
-    NSDate *_dueDate;
-    NSDate *_modificationDate;
-    NSString *_reminder;
-    NSString *_note;
-    NSArray *_hashtags;
 }
 
-+ (id);
++ (id)resentationTransformer"16;
 + (_Bool);
 + (_Bool);
 + (id);
-- (id);
-- (id);
-- (id);
+- (id)shouldUseQuickLookForFileType;
+- (id)set_usesInferredAppearanceWithOverriddenBackgroundColor: /* Error: Ran out of types for this method. */;
+- (id)setWantsLayer: /* Error: Ran out of types for this method. */;
+- (void)T?;
+- (void)y:(id)arg1 %@!;
+- (void)extraSamplesAtStart;
+- (_Bool);
+- (id)_mouseIsDown;
 - (void);
+- (void);
+- (void);
+- (_Bool)A;
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id).;
+- (id)AggregationDescription;
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void)thArray: /* Error: Ran out of types for this method. */;
+- (void)initWithArray: /* Error: Ran out of types for this method. */;
 - (_Bool)ing locale feature for:%@ /* Error: Ran out of types for this method. */;
-- (id)licy_num_query_term_matched_prefixSubstitute;
+- (id)policy_num_query_term_matched_prefixSubstitute;
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *completionDate; // @synthesize completionDate=_completionDate;
-@property(retain, nonatomic) NSDate *dueDate; // @synthesize dueDate=_dueDate;
-@property(retain, nonatomic) NSArray *hashtags; // @synthesize hashtags=_hashtags;
-@property(nonatomic) _Bool isAllDay; // @synthesize isAllDay=_isAllDay;
-@property(nonatomic) _Bool isCompleted; // @synthesize isCompleted=_isCompleted;
-@property(nonatomic) _Bool isFlagged; // @synthesize isFlagged=_isFlagged;
-@property(nonatomic) _Bool isRecurring; // @synthesize isRecurring=_isRecurring;
-@property(retain, nonatomic) NSDate *modificationDate; // @synthesize modificationDate=_modificationDate;
-@property(retain, nonatomic) NSString *note; // @synthesize note=_note;
-@property(retain, nonatomic) NSString *reminder; // @synthesize reminder=_reminder;
 
 @end
 

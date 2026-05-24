@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEODefaultsDBCollection, NSString;
+@class GEODefaultsDBCollection;
 
 __attribute__((visibility("hidden")))
 @interface GEODefaultsDBValue
 {
     GEODefaultsDBCollection *_parent;
-    long long _dbId;
-    NSString *_type;
-    id _value;
 }
 
 + (id);
 - (void);
-- (id);
+- (id)setFirewallConfigurationData:_withAuthorization: /* Error: Ran out of types for this method. */;
 - (id);
 - (long long);
-- (id);
-- (id)imit;
-- (void)M;
+- (id)_updateRealTimeEVChargerAvailability: /* Error: Ran out of types for this method. */;
+- (id)displaySpeedLimit;
+- (void)hasStartOffsetM;
 - (void)nÿ;
 - (void)Ì86a5;
 
 // Remaining properties
-@property(nonatomic) long long dbId; // @synthesize dbId=_dbId;
 @property(readonly, nonatomic) __weak GEODefaultsDBCollection *parent; // @synthesize parent=_parent;
-@property(retain, nonatomic) NSString *type; // @synthesize type=_type;
-@property(retain, nonatomic) id value; // @synthesize value=_value;
 
 @end
 

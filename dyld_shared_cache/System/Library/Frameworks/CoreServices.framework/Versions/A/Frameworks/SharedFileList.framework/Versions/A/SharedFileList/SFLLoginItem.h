@@ -4,48 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BTMLoginItem, NSDictionary, NSString, NSUUID, SFLBookmark;
+@class BTMLoginItem;
 
 __attribute__((visibility("hidden")))
 @interface SFLLoginItem
 {
     id _internalLoginItem;
-    id _bookmark;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)TB,R,N,V_handleUnknown;
 - (void);
 - (id);
 - (void);
 - (void);
+- (void);
 - (id);
-- (unsigned long long)il;
+- (void);
+- (id);
+- (void)y '--!>';
+- (void);
+- (id);
+- (unsigned long long)SFLSharePointUtil;
 
 // Remaining properties
-@property(copy) SFLBookmark *bookmark; // @synthesize bookmark=_bookmark;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSUUID *identifier;
 @property(retain) BTMLoginItem *internalLoginItem; // @synthesize internalLoginItem=_internalLoginItem;
-@property(copy) NSString *listIdentifier;
-@property(copy) NSString *name;
-@property(copy) NSDictionary *properties;
-@property unsigned long long seed;
-@property(readonly) Class superclass;
 
 @end
 

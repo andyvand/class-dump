@@ -12,7 +12,7 @@
 {
 }
 
-- (id);
+- (id)!;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -20,15 +20,10 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)g"16^B24;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *addPhotoURLs;
-@property(readonly, nonatomic) _Bool canAddPhotosLocally;
-@property(readonly, nonatomic) _Bool canShowPhotosLocally;
-@property(readonly, nonatomic) _Bool requiresAttributionInPhotoViewerHeader;
-@property(readonly, nonatomic) _Bool shouldSuppressPhotoAttribution;
-@property(readonly, nonatomic) _Bool supportsReportingIssue;
 
 @end
 

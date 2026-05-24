@@ -6,40 +6,34 @@
 
 #import <UIKitCore/UIView.h>
 
-@class CAGradientLayer, CALayer, UIColor, _UIStatusBarCycleAnimation;
+@class CALayer;
 
 @interface _UIStatusBarActivityView : UIView
 {
     _Bool _isSlow;
-    UIColor *_color;
-    CALayer *_mainLayer;
-    CAGradientLayer *_barLayer;
-    CALayer *_pointLayer;
-    double _thickness;
-    _UIStatusBarCycleAnimation *_cycleAnimation;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)emporaries;
 - (id);
 - (_Bool);
-- (id);
+- (id)shouldForceAutoBugCaptureForChatRepairController: /* Error: Ran out of types for this method. */;
+- (double)orageRequired:(id)arg1 forAccountId:error: /* Error: Ran out of types for this method. */;
+- (void)chatsNeedRemerging:(_Bool)arg1 groupedChats:(CDUnknownBlockType)arg2;
 - (double);
 - (void);
-- (double);
-- (void);
 - (id);
 - (id);
 - (void);
-- (struct CGSize);
+- (struct CGSize);
 - (id);
 - (id);
-- (void):(id)arg1 withTime:radius:angle:addingAnimations: /* Error: Ran out of types for this method. */;
+- (void)_updateCurlFromState:(id)arg1 withTime:radius:angle:addingAnimations: /* Error: Ran out of types for this method. */;
 - (id)_item:(struct CGRect)arg1 removeSymbolEffectOfType:options:animated: /* Error: Ran out of types for this method. */;
-- (void)ons:(id)arg1;
-- (void)orIncreaseBlock;
+- (void)reloadSections:(id)arg1;
+- (void)dynamicAccumulatorIncreaseBlock;
 - (void)hat was asked to resign (returned %@ from -resignFirstResponder):(id)arg1 %@ inside containing view:%@ at index path:%@
 Current first responder:%@ inside containing view:%@ at index path:%@ /* Error: Ran out of types for this method. */;
 - (void)reRecognizer.delaysTouchesBegan;
@@ -47,13 +41,7 @@ Current first responder:%@ inside containing view:%@ at index path:%@ /* Error: 
 ;
 
 // Remaining properties
-@property(retain, nonatomic) CAGradientLayer *barLayer; // @synthesize barLayer=_barLayer;
-@property(copy, nonatomic) UIColor *color; // @synthesize color=_color;
-@property(retain, nonatomic) _UIStatusBarCycleAnimation *cycleAnimation; // @synthesize cycleAnimation=_cycleAnimation;
-@property(nonatomic) _Bool isSlow; // @synthesize isSlow=_isSlow;
 @property(retain, nonatomic) CALayer *mainLayer; // @synthesize mainLayer=_mainLayer;
-@property(retain, nonatomic) CALayer *pointLayer; // @synthesize pointLayer=_pointLayer;
-@property(nonatomic) double thickness; // @synthesize thickness=_thickness;
 
 @end
 

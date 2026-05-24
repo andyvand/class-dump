@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 @protocol TMAPFSSnapshotProtocol
 
 // Remaining properties
-@property(readonly) unsigned long long fileID;
-@property(readonly) int flags;
 @property(readonly, copy) NSURL *liveVolumeMountPoint;
-@property(readonly, copy) NSString *snapshotName;
-@property(readonly) unsigned long long xid;
 @end
 

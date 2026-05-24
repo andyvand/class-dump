@@ -14,13 +14,13 @@ __attribute__((visibility("hidden")))
     _UIFloatingContentView *_focusedFloatingContentView;
 }
 
-- (_Bool);
+- (_Bool)initWithFileName:filePath:lowResFileName:lowResFilePath:metadata:contentIsSensitive: /* Error: Ran out of types for this method. */;
+- (void)ing and cleaning up translation;
+- (_Bool)is %@;
 - (void);
-- (_Bool);
+- (id);
 - (void);
-- (id);
-- (void);
-- (_Bool)dColor;
+- (_Bool)contentBackgroundColor;
 - (void),>>¤IàIKL0MDPÈQLRðR<STøT;
 - (void)6;
 - (void)h new proxy layers.;

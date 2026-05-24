@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSSet, NSString;
+@class NSString;
 
 @interface TDColorName
 {
@@ -12,11 +12,6 @@
 
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *colorDefinitions; // @dynamic colorDefinitions;
 @property(retain, nonatomic) NSString *colorDescription; // @dynamic colorDescription;
-@property(retain, nonatomic) NSString *displayName; // @dynamic displayName;
-@property(retain, nonatomic) NSString *illustrationURL; // @dynamic illustrationURL;
-@property(retain, nonatomic) NSNumber *isExcludedFromFilter; // @dynamic isExcludedFromFilter;
-@property(retain, nonatomic) NSString *selector; // @dynamic selector;
 @end
 

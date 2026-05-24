@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSilo, NSObject;
-@protocol GEOMapServiceTicket, OS_dispatch_queue;
+@class CLSilo;
 
 @interface CLGeocoderInternal
 {
     CDUnknownBlockType _geocodeCompletionHandler;
-    id <GEOMapServiceTicket> _ticket;
-    NSObject<OS_dispatch_queue> *_queue;
-    CLSilo *_responseSilo;
 }
 
-- (void);
+- (void)MPhotoCompressionSessionAddTmapImageOneShot  err = %s [%d]
+;
 - (void);
 - (id);
 - (id)or name is nil;

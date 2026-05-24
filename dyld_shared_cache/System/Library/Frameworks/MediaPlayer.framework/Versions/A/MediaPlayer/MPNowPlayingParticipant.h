@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRContentItem, MRUserIdentity, NSString;
+@class MRContentItem;
 
 @interface MPNowPlayingParticipant
 {
@@ -21,20 +21,15 @@
 - (id);
 - (void);
 - (id);
+- (id);
+- (id)@;
 - (id);
-- (id);
-- (id);
-- (void)Info: /* Error: Ran out of types for this method. */;
+- (void)_initialPlaybackStartTimeForPlaybackInfo: /* Error: Ran out of types for this method. */;
 - (void)
 Á	;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *displayName;
-@property(readonly, copy, nonatomic) NSString *identifier;
 @property(readonly, nonatomic) MRContentItem *mediaRemoteContentItem; // @synthesize mediaRemoteContentItem=_mediaRemoteContentItem;
-@property(readonly, nonatomic) MRUserIdentity *mediaRemoteUserIdentity;
-@property(copy, nonatomic) NSString *participantIdentifier;
-@property(nonatomic) long long participantIdentifierType;
 
 @end
 

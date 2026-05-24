@@ -6,7 +6,7 @@
 
 #import <GeoServices/GEOXPCReply.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface GEOPlaceCachePlaceReply : GEOXPCReply
 {
@@ -14,21 +14,14 @@
 }
 
 - (void);
-- (id);
+- (id)Hc;
 - (_Bool);
-- (void)sParkedCarTermination;
+- (void)isParkedCarTermination;
 - (void)¨AK@;
-- (id)S5;
+- (id)2S5;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSArray *identifiers; // @synthesize identifiers=_identifiers;
-@property(readonly) Class superclass;
 
 @end
 

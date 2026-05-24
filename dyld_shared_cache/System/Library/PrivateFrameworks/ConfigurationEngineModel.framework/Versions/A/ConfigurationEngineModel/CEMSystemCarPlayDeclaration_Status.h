@@ -15,7 +15,7 @@
 + (id);
 + (id);
 - (id);
-- (_Bool);
+- (_Bool)ameter for undefined param ID %u while initialized. Ignoring.;
 
 @end
 

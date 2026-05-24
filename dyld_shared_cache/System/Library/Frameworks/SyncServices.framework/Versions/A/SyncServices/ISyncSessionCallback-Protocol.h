@@ -5,5 +5,6 @@
 //
 
 @protocol ISyncSessionCallback
+- (oneway void)Rh;
 @end
 

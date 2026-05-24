@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
+@class NSData, NSString;
 
 @protocol SFFlight
+- (void);
+- (NSString *)B,N,GisHidden;
+- (void)ime:(NSString *)arg1 forTime:withArguments:] /* Error: Ran out of types for this method. */;
+- (NSString *)9daeTArrayI11daeSmartRefI18domCg_setuser_typeEE;
+- (NSData *)x^3;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *carrierCode;
-@property(copy, nonatomic) NSString *carrierName;
-@property(copy, nonatomic) NSString *carrierPhoneNumber;
-@property(copy, nonatomic) NSString *carrierWebsite;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(copy, nonatomic) NSString *flightID;
-@property(copy, nonatomic) NSString *flightNumber;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *legs;
-@property(copy, nonatomic) NSString *operatorCarrierCode;
-@property(copy, nonatomic) NSString *operatorFlightNumber;
 @end
 

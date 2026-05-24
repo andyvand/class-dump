@@ -5,11 +5,21 @@
 //
 
 @protocol PLAssetsdCloudInternalServiceProtocol
-- (id)× ;
+- (id)	;
+- (id);
+- (id)rJ;
+- (id);
+- (id);
+- (id)_;
+- (id)a;
+- (id)H'5D*JF
+;
+- (id)t;
+- (byref)× ;
 - (id)ÔáV!@ù1Ê°1Â0@ù
 × ;
-- (id)llowEventPublish: /* Error: Ran out of types for this method. */;
-- (id)ata;
+- (id)setAllowEventPublish: /* Error: Ran out of types for this method. */;
+- (id)immutableData;
 - (id)t incremental rebuild starting;
 @end
 

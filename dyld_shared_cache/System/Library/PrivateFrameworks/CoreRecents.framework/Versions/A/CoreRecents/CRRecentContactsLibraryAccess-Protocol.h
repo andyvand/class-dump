@@ -4,7 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol CRRecentContactsLibraryAccess
+- (NSArray *)`99;
+- (long long);
 
 // Remaining properties
 @property(readonly) int daemonProcessIdentifier;

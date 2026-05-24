@@ -13,23 +13,23 @@ __attribute__((visibility("hidden")))
     id <UIKeyboardVisualModeManagerDelegate> _delegate;
 }
 
-+ (_Bool);
++ (_Bool)HorizontalAccuracy;
 + (_Bool);
 + (_Bool)0@ù
 × ;
-+ (id)hDisableLayoutFlushingForTransition;
-- (int);
-- (_Bool);
-- (id);
++ (id)_pushDisableLayoutFlushingForTransition;
+- (int)odelRadioStationEvent.m;
+- (_Bool)_;
+- (id);
 - (_Bool);
 - (id);
 - (void)ash_node<std:(id)arg1:__hash_value_type<void (*)(), _UITrackedTraitUsageRecord>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<void (*)(), _UITrackedTraitUsageRecord>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<void (*)(), _UITrackedTraitUsageRecord>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<void (*)(), _UITrackedTraitUsageRecord>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
-- (_Bool)ntVisibilityAfterHardwareKeyEvent;
-- (_Bool)lImage;
+- (_Bool)updateSystemInputAssistantVisibilityAfterHardwareKeyEvent;
+- (_Bool)_isMultiColorSymbolImage;
 - (_Bool)={CGPoint=dd}{CGSize=dd}},N,S_setSourceFrame: /* Error: Ran out of types for this method. */;
 - (void)(S;
 - (_Bool);
-- (_Bool)lization;
+- (_Bool)gradientOvalization;
 - (_Bool):%ld,%ld] /* Error: Ran out of types for this method. */;
 - (_Bool)PayloadKeySafariKeyboardHeight(void);
 - (int)trix(NSArray<NSNumber *> *__strong _Nonnull);

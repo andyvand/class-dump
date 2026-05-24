@@ -6,29 +6,27 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSAttributedString, UIColor, UIImpactFeedbackGenerator, UIRefreshControl;
+@class UIRefreshControl;
 
 __attribute__((visibility("hidden")))
 @interface _UIRefreshControlContentView : UIView
 {
     UIRefreshControl *_refreshControl;
-    UIColor *_tintColor;
-    UIImpactFeedbackGenerator *_impactFeedbackGenerator;
 }
 
 - (void);
 - (void);
 - (double);
-- (id);
+- (id)SString"16@"NSString"24C32@"NSDictionary"36@"IMMessageItem"44;
 - (long long);
-- (void);
+- (void)ason %@;
 - (void)× ;
 - (double)!@ù±_°1Â0@ù
 × ;
-- (void)PerformKeyboardOutput:(id)arg1;
-- (void):(long long)arg1 edge:(long long)arg2 initialOffset: /* Error: Ran out of types for this method. */;
+- (void)didPerformKeyboardOutput:(id)arg1;
+- (void)_positionPaletteHidden:(long long)arg1 edge:(long long)arg2 initialOffset: /* Error: Ran out of types for this method. */;
 - (id)ansform;
-- (id)yboard;
+- (id)dismissKeyboard;
 - (double)8Ñ0¨NLÑ<¾N\ÑôéNÑ ìN°Ñø
 OÄÑ¨qOÑèªOdÑ8PxÑPvP<ÑDPLÑt¡PlÑÄ¦PÑÎP¤ÑìÕPtÑ0Q ÑQ0 ÑRx ÑtR Ñp}R  Ñ8MSÈ ÑS8¡Ñ8åS¡Ñ¬ Tô¡Ñ°XT¢Ñ0\TÈ¢ÑìpT£Ñ$ÆT£Ñ<ÊT<£ÑôÏTX£ÑÔTt£Ñ äT£Ñ°	UÄ£ÑtUØ£ÑÈUð£ÑÔ(UÄ¤ÑÜ*Uè¤ÑRU¥Ñ]U4¥ÑrUp¥ÑPuUÌ¥ÑÐzUT¦ÑdUh¦ÑÐUÌ§Ñ¸Uì§ÑU¨Ñð¨UH¨Ñd»Ut¨ÑüÅU¤¨ÑüÇUì¨ÑHàU,©ÑðâUl©ÑàïU©ÑøVì©ÑP,V ªÑÄ4VtªÑ8V¬ªÑ·VàªÑü¿VôªÑ¸#W(«Ñ¼OW`«ÑpQWt«ÑphW«Ñü®W «Ñ|äW´¬Ñ¸XÈ­Ñ;
 - (id);
@@ -37,13 +35,7 @@ OÄÑ¨qOÑèªOdÑ8PxÑPvP<ÑDPLÑt¡PlÑÄ¦P
 - (void)ps;
 
 // Remaining properties
-@property(retain, nonatomic) NSAttributedString *attributedTitle;
-@property(retain, nonatomic) UIImpactFeedbackGenerator *impactFeedbackGenerator; // @synthesize impactFeedbackGenerator=_impactFeedbackGenerator;
-@property(readonly, nonatomic) double maximumSnappingHeight;
-@property(readonly, nonatomic) double minimumSnappingHeight;
-@property(nonatomic) UIRefreshControl *refreshControl; // @synthesize refreshControl=_refreshControl;
 @property(readonly, nonatomic) long long style;
-@property(retain, nonatomic) UIColor *tintColor; // @synthesize tintColor=_tintColor;
 
 @end
 

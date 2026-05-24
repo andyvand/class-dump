@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSArray, NSNumber;
+@class CIImage;
 
 @interface DGBilateralConvolution
 {
     CIImage *inputImage;
-    NSArray *inputPoints;
-    NSArray *inputWeights;
-    NSNumber *inputEdgeDetail;
-    NSNumber *inputVersion;
 }
 
 + (id);
@@ -22,7 +18,7 @@
 - (id);
 - (struct CGRect);
 - (struct CGRect);
-- (long long);
+- (long long)TestNotificationPhotosItem;
 - (id);
 - (id);
 

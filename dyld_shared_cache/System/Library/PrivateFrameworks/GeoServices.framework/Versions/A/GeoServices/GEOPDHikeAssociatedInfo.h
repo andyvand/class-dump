@@ -4,34 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOPDHikeAssociatedInfo
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    unsigned long long _encryptedTourMuid;
-    NSMutableArray *_endMuids;
-    NSMutableArray *_intermediateMuids;
-    NSMutableArray *_startMuids;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int has_encryptedTourMuid:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_endMuids:1;
-        unsigned int read_intermediateMuids:1;
-        unsigned int read_startMuids:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (Class);
++ (Class)treet
+ZIP City State
+Country;
 + (id);
 + (Class);
-+ (_Bool)Duration:(id)arg1;
++ (_Bool)setHistoricalDuration:(id)arg1;
 - (id);
 - (id);
 - (void);
@@ -60,28 +46,23 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id),V_firstPassOnsetChannel;
+- (void)replyReadAndClearVoiceTriggeredToken;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)�c;
 - (_Bool);
 - (id);
 - (void);
 - (id)PlaceLookupResult";
-- (id)htweightFeedback;
+- (id)_enableRAPLightweightFeedback;
 - (id)   ;
-- (id)ities;
+- (id)clientCapabilities;
 - (void)¤p=
 ×øy@;
 
 // Remaining properties
-@property(nonatomic) unsigned long long encryptedTourMuid;
-@property(retain, nonatomic) NSMutableArray *endMuids;
 @property(nonatomic) _Bool hasEncryptedTourMuid;
-@property(retain, nonatomic) NSMutableArray *intermediateMuids;
-@property(retain, nonatomic) NSMutableArray *startMuids;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

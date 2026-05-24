@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBRFTextProperty, _SFPBRFVisualProperty;
+@class _SFPBRFTextProperty;
 
 @interface _SFPBRFFactItemShortNumberCardSection
 {
     _SFPBRFTextProperty *_number;
-    _SFPBRFTextProperty *_text_1;
-    NSArray *_text_2s;
-    NSArray *_text_3s;
-    _SFPBRFTextProperty *_unit;
-    _SFPBRFTextProperty *_text_4;
-    _SFPBRFVisualProperty *_thumbnail;
 }
 
 - (id);
@@ -31,7 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -42,10 +36,10 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (_Bool)Z;
+- (id);
+- (id)queryForCollectionListsWithType:(id)arg1 localIdentifiers:options: /* Error: Ran out of types for this method. */;
+- (id)d to read zipped bundle (invalid path components):%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -53,21 +47,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBRFTextProperty *number; // @synthesize number=_number;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_1; // @synthesize text_1=_text_1;
-@property(copy, nonatomic) NSArray *text_2s; // @synthesize text_2s=_text_2s;
-@property(copy, nonatomic) NSArray *text_3s; // @synthesize text_3s=_text_3s;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_4; // @synthesize text_4=_text_4;
-@property(retain, nonatomic) _SFPBRFVisualProperty *thumbnail; // @synthesize thumbnail=_thumbnail;
-@property(retain, nonatomic) _SFPBRFTextProperty *unit; // @synthesize unit=_unit;
 
 @end
 

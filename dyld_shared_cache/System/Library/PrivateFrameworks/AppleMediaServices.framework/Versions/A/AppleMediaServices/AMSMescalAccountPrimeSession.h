@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSMescalSession;
 @protocol AMSBagProtocol;
 
 @interface AMSMescalAccountPrimeSession
 {
     id <AMSBagProtocol> _bag;
-    AMSMescalSession *_session;
 }
 
 - (id);
@@ -25,7 +23,6 @@
 
 // Remaining properties
 @property(retain) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(retain) AMSMescalSession *session; // @synthesize session=_session;
 
 @end
 

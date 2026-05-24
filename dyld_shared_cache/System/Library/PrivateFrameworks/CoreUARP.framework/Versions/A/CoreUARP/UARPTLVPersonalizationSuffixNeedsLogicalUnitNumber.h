@@ -14,7 +14,7 @@
 + (id);
 + (id);
 + (id);
-+ (unsigned int);
++ (unsigned int)ancelled. When a task is cancelled it is expected to be marked as complete in the calling context.;
 - (id);
 - (unsigned char);
 - (void);

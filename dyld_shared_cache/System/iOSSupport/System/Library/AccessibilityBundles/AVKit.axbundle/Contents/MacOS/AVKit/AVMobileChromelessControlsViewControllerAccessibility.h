@@ -12,7 +12,7 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void)ct={CGPoint=dd}{CGSize=dd}}16;
 - (void);
 - (void);
 - (void);

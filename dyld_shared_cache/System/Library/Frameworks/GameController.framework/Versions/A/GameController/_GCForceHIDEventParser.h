@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _GCForceHIDEventParser : _GCHIDEventParser
 {
     unsigned long long _forceKey;
-    double _physicalMin;
-    double _physicalMax;
 }
 
 + (_Bool);

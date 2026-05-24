@@ -11,7 +11,6 @@
 @interface EKPostSliceDescription : EKSliceDescription
 {
     EKSeriesDetails *_updatedMainSeriesDetails;
-    EKSeriesDetails *_createdSeriesDetails;
 }
 
 - (id);
@@ -20,11 +19,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)BackgroundColor;
+- (id)setShadowStartPoint:(struct _NSZone *)arg1;
+- (void)systemBackgroundColor;
 
 // Remaining properties
-@property(copy) EKSeriesDetails *createdSeriesDetails; // @synthesize createdSeriesDetails=_createdSeriesDetails;
 @property(copy) EKSeriesDetails *updatedMainSeriesDetails; // @synthesize updatedMainSeriesDetails=_updatedMainSeriesDetails;
 
 @end

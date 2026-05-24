@@ -14,7 +14,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)set_bigCursorSize:(id)arg1;
 
 @end
 

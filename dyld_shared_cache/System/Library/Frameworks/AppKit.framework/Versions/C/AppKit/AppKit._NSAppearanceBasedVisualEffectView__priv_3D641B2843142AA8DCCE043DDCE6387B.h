@@ -13,7 +13,7 @@
 
 - (id);
 - (void);
-- (id)ndex:(struct CGRect)arg1;
+- (id)_splitView:(struct CGRect)arg1 blendingModeForDividerAtIndex: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

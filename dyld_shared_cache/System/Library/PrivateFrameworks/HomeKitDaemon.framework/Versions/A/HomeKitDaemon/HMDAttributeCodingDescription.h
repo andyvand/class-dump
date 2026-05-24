@@ -6,24 +6,21 @@
 
 #import <HomeKitDaemon/HMDPropertyCodingDescription.h>
 
-@class HMDValueTransformer, NSAttributeDescription;
+@class NSAttributeDescription;
 
 __attribute__((visibility("hidden")))
 @interface HMDAttributeCodingDescription : HMDPropertyCodingDescription
 {
     _Bool _shouldInline;
-    HMDValueTransformer *_transformer;
 }
 
-- (_Bool);
+- (_Bool)or contact %{private}@;
 - (id)blic}@Set plaback state to %ld on successfully sending mediaremote command;
 - (void)%G~&xÞèþEG~&DéùþEG~&@éùþ%G~&l]èþõF~&ÄÆùþUG~&èÆùþ5G~&8ÞèþUG~&Çùþ;
 - (id)ù>;
 
 // Remaining properties
 @property(readonly) NSAttributeDescription *attribute;
-@property(readonly) _Bool shouldInline;
-@property(readonly) HMDValueTransformer *transformer;
 
 @end
 

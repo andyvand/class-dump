@@ -7,8 +7,9 @@
 @protocol UIAdaptivePresentationControllerDelegate
 
 @optional
+- (void);
+- (void);
 - (_Bool)Will use bundleID provided for AppInfoController;
-- (long long);
 - (void)ýÿÿéXÿÿÜîÿ¸;
 @end
 

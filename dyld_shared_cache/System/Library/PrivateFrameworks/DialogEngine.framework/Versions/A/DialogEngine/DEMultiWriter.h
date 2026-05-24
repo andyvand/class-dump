@@ -9,21 +9,19 @@
 @interface DEMultiWriter
 {
     NSMutableData *_data;
-    NSArray *_writers;
 }
 
+- (void)P;
+- (id);
+- (id);
+- (id)팹;
 - (void);
-- (id);
-- (id);
-- (id);
 - (void);
-- (void);
-- (id);
+- (id)#k;
 - (void)Xt;
 - (void)ÑÑÑ;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableData *data; // @synthesize data=_data;
 @property(retain, nonatomic) NSArray *writers; // @synthesize writers=_writers;
 
 @end

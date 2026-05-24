@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNMultiDictionary, NSDictionary;
-@protocol CNUIParentContainerCache;
+@class CNContact;
 
 @interface ABCardViewPersonMapper
 {
     CNContact *_contact;
-    id <CNUIParentContainerCache> _parentContainerCache;
-    CNMultiDictionary *_linkedIdentifierMap;
-    NSDictionary *_containerByContactIdentifier;
 }
 
 - (void);
@@ -25,7 +21,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)B;
 - (void);
 - (id);
 - (id);
@@ -42,9 +38,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly, nonatomic) NSDictionary *containerByContactIdentifier; // @synthesize containerByContactIdentifier=_containerByContactIdentifier;
-@property(retain, nonatomic) CNMultiDictionary *linkedIdentifierMap; // @synthesize linkedIdentifierMap=_linkedIdentifierMap;
-@property(retain, nonatomic) id <CNUIParentContainerCache> parentContainerCache; // @synthesize parentContainerCache=_parentContainerCache;
 
 @end
 

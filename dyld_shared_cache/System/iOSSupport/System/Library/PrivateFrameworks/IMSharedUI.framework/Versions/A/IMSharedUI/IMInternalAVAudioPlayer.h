@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioPlayer, AVPlayer, AVPlayerItem, NSString;
-@protocol IMInternalAVAudioPlayerDelegate;
+@class AVAudioPlayer;
 
 @interface IMInternalAVAudioPlayer
 {
     AVAudioPlayer *_avAudioPlayer;
-    AVPlayer *_avPlayer;
-    AVPlayerItem *_playerItem;
-    long long _avPlayerState;
-    _Bool _avPlayerPrepareRequested;
-    _Bool _avPlayerPlayRequested;
-    long long _playerType;
-    id <IMInternalAVAudioPlayerDelegate> _delegate;
 }
 
 - (long long);
@@ -29,7 +21,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (double);
 - (void);
@@ -44,20 +36,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double currentTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <IMInternalAVAudioPlayerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) double deviceCurrentTime;
-@property(readonly, nonatomic) double duration;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) long long playerType; // @synthesize playerType=_playerType;
-@property(readonly, nonatomic, getter=isPlaying) _Bool playing;
-@property(readonly) Class superclass;
-@property(nonatomic) float volume;
 
 @end
 

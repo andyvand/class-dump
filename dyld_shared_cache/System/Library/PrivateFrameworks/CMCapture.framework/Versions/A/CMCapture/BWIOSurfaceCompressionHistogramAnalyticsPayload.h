@@ -10,17 +10,11 @@ __attribute__((visibility("hidden")))
 @interface BWIOSurfaceCompressionHistogramAnalyticsPayload
 {
     NSString *_portType;
-    unsigned int _bufferHeight;
-    int _nodeType;
-    _Bool _pixelFormatIsTenBit;
-    unsigned int _numberOfSamples;
-    unsigned long long _lumaCompressionHistogram[16];
-    unsigned long long _chromaCompressionHistogram[16];
 }
 
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (unsigned int);
 - (void);
@@ -36,18 +30,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned int bufferHeight; // @synthesize bufferHeight=_bufferHeight;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int nodeType; // @synthesize nodeType=_nodeType;
-@property(nonatomic) unsigned int numberOfSamples; // @synthesize numberOfSamples=_numberOfSamples;
-@property(nonatomic) _Bool pixelFormatIsTenBit; // @synthesize pixelFormatIsTenBit=_pixelFormatIsTenBit;
 @property(retain, nonatomic) NSString *portType; // @synthesize portType=_portType;
-@property(readonly) Class superclass;
 
 @end
 

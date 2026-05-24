@@ -9,41 +9,32 @@
 @interface TUConversationActivityContext
 {
     NSString *_typedIdentifier;
-    NSString *_actionDescription;
-    NSString *_ongoingDescription;
-    NSString *_completedDescription;
 }
 
 + (id);
 + (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)WebPageTesting_DisplayAndTrackRepaints;
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)	;
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void)tCustomReply:atIndex: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)setCustomReply:atIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *actionDescription; // @synthesize actionDescription=_actionDescription;
-@property(readonly, copy, nonatomic) NSString *analyticsIdentifier;
-@property(copy, nonatomic) NSString *completedDescription; // @synthesize completedDescription=_completedDescription;
-@property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, nonatomic, getter=isMedia) _Bool media;
-@property(copy, nonatomic) NSString *ongoingDescription; // @synthesize ongoingDescription=_ongoingDescription;
 @property(copy, nonatomic) NSString *typedIdentifier; // @synthesize typedIdentifier=_typedIdentifier;
 
 @end

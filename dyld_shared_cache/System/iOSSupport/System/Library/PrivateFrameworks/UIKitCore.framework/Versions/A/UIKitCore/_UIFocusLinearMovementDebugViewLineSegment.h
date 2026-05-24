@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIBezierPath;
-
 __attribute__((visibility("hidden")))
 @interface _UIFocusLinearMovementDebugViewLineSegment
 {
     _UIFocusLinearMovementDebugViewLineSegment *_previousSegment;
-    UIBezierPath *_stemPath;
-    UIBezierPath *_arrowHeadPath;
-    struct CGRect _startRect;
-    struct CGRect _endRect;
 }
 
 - (struct CGRect);
-- (id);
+- (id)initWithKeyOptions:(struct CGRect)arg1 valueOptions:(struct CGRect)arg2 capacity:(id)arg3;
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)abling!!;
+- (id)ID %@;
+- (id)for message GUID:(struct CGRect)arg1 %@;
+- (id)ully sent ST response with answer:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (struct CGRect);
@@ -31,9 +25,7 @@ __attribute__((visibility("hidden")))
 - (void)ÉÖl§[;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect endRect; // @synthesize endRect=_endRect;
 @property(readonly, nonatomic) struct CGRect startRect; // @synthesize startRect=_startRect;
-@property(readonly, nonatomic) long long type;
 
 @end
 

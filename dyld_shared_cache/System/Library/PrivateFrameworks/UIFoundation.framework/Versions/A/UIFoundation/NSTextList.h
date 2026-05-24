@@ -9,16 +9,12 @@
 @interface NSTextList
 {
     NSString *_markerFormat;
-    unsigned long long _listFlags;
-    long long _startIndex;
-    void *_listSecondary;
-    NSTextAttachment *_markerTextAttachment;
 }
 
 + (id);
 + (_Bool);
-+ (_Bool);
-+ (void)groundType;
++ (_Bool)5;
++ (void)backgroundType;
 - (void);
 - (id);
 - (id);
@@ -27,7 +23,7 @@
 - (id);
 - (long long);
 - (void);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
@@ -41,7 +37,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (id);
@@ -49,11 +45,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly) unsigned long long listOptions;
-@property(readonly) NSString *markerFormat;
 @property(retain) NSTextAttachment *markerTextAttachment; // @synthesize markerTextAttachment=_markerTextAttachment;
-@property(readonly, getter=isOrdered) _Bool ordered;
-@property long long startingItemNumber;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TUHandle;
+@class NSString;
 
 @interface TUConversationActivityAdvertisement
 {
     NSString *_sessionUUID;
-    NSString *_contactID;
-    TUHandle *_handle;
 }
 
 + (_Bool);
@@ -20,12 +18,10 @@
 - (id);
 - (void);
 - (id);
-- (void)vailable: /* Error: Ran out of types for this method. */;
-- (id)ainerCapabilities;
+- (void)setCurrentlyAvailable: /* Error: Ran out of types for this method. */;
+- (id)NTUConversationActivitySessionContainerCapabilities;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *contactID; // @synthesize contactID=_contactID;
-@property(readonly, copy, nonatomic) TUHandle *handle; // @synthesize handle=_handle;
 @property(readonly, copy, nonatomic) NSString *sessionUUID; // @synthesize sessionUUID=_sessionUUID;
 
 @end

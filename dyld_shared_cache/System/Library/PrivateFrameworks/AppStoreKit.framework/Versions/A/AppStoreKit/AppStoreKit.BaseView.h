@@ -4,34 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSColor;
-
 @interface AppStoreKit.BaseView
 {
     struct NSEdgeInsets layoutMargins;
-    id _allowsVibrancy;
-    id backgroundStyle;
-    id backgroundGradientLayer;
-    id backgroundVisualEffectView;
-    id roundedCorners;
-    _Bool continuousCorners;
-    CALayer *borderLayer;
-    NSColor *borderColor;
-    double borderWidth;
 }
 
 - (void);
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)se;
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -41,26 +30,15 @@
 - (id);
 - (double)Links"16@0:8 /* Error: Ran out of types for this method. */;
 - (void);
-- (double)ode;
-- (void)packLoader;
+- (double)lineBreakMode;
+- (void)jetpackLoader;
 - (void)3ProductBundleP;
 - (void)ãÒ	ywW;
-- (struct NSEdgeInsets)loadButtonTintUsingOfferTheme;
+- (struct NSEdgeInsets)redownloadButtonTintUsingOfferTheme;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowsVibrancy;
-@property(nonatomic, retain) NSColor *backgroundColor;
-@property(nonatomic, retain) NSColor *borderColor; // @synthesize borderColor;
-@property(nonatomic, retain) CALayer *borderLayer; // @synthesize borderLayer;
-@property(nonatomic) double borderWidth; // @synthesize borderWidth;
-@property(nonatomic) _Bool continuousCorners; // @synthesize continuousCorners;
-@property(nonatomic) double cornerRadius;
-@property(nonatomic, readonly) _Bool flipped;
-@property(nonatomic, readonly) struct CGRect layoutFrame;
 @property(nonatomic) struct NSEdgeInsets layoutMargins; // @synthesize layoutMargins;
-@property(nonatomic) _Bool opaque;
-@property(nonatomic, readonly) _Bool wantsUpdateLayer;
 
 @end
 

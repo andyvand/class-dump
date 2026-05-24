@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKUIGadget, NSString;
+@class EKUIGadget;
 
 @interface EKUIShareeControlContainer
 {
     _Bool _shouldDrawSeparator;
-    EKUIGadget *_gadget;
 }
 
 - (void);
-- (void);
+- (void)9;
 - (id);
 - (_Bool);
 - (void);
@@ -24,15 +23,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property __weak EKUIGadget *gadget; // @synthesize gadget=_gadget;
-@property(readonly) unsigned long long hash;
-@property _Bool shouldDrawSeparator; // @synthesize shouldDrawSeparator=_shouldDrawSeparator;
-@property(readonly) Class superclass;
 
 @end
 

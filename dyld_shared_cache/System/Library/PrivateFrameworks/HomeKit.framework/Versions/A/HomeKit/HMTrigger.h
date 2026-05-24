@@ -4,28 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDevice, HMHome, HMMutableArray, HMTriggerPolicy, HMUser, NSArray, NSDate, NSObject, NSString, NSUUID, _HMContext;
-@protocol OS_dispatch_queue;
-
 @interface HMTrigger
 {
     struct os_unfair_lock_s _lock;
-    _Bool _enabled;
-    NSString *_name;
-    NSUUID *_uniqueIdentifier;
-    NSDate *_lastFireDate;
-    NSUUID *_uuid;
-    HMHome *_home;
-    HMDevice *_ownerDevice;
-    HMUser *_owner;
-    NSString *_configuredName;
-    HMTriggerPolicy *_policy;
-    _HMContext *_context;
-    HMMutableArray *_currentActionSets;
 }
 
 + (_Bool);
-+ (id)ionServicesAuthorization;
++ (id)HMEventTriggerActivationStateDisabledNoLocationServicesAuthorization;
 - (void);
 - (void);
 - (void);
@@ -50,7 +35,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -61,16 +46,19 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)isCPLSharingScopeAsset;
+- (void)info;
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
-- (void);
-- (id);
+- (void)traceRecordParsed:(id)arg1;
+- (id)q
+
+>
+;
 - (void);
 - (id);
 - (id);
@@ -82,38 +70,12 @@
 - (id);
 - (void);
 - (void)dd}}40@72@80q88;
-- (void)ponse;
+- (void)HMHomeCloudShareResponse;
 - (id)ic}@Invalid presence event type:%@ /* Error: Ran out of types for this method. */;
 - (id)s:completion:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *actionSets;
-@property(copy, nonatomic) NSString *configuredName; // @synthesize configuredName=_configuredName;
-@property(retain, nonatomic) _HMContext *context; // @synthesize context=_context;
-@property(readonly, nonatomic) __weak HMUser *creator;
-@property(readonly, nonatomic) HMDevice *creatorDevice;
-@property(retain, nonatomic) HMMutableArray *currentActionSets; // @synthesize currentActionSets=_currentActionSets;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak HMHome *home; // @synthesize home=_home;
-@property(copy, nonatomic) NSDate *lastFireDate; // @synthesize lastFireDate=_lastFireDate;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) __weak HMUser *owner; // @synthesize owner=_owner;
-@property(retain, nonatomic) HMDevice *ownerDevice; // @synthesize ownerDevice=_ownerDevice;
-@property(readonly, nonatomic) HMTriggerPolicy *policy; // @synthesize policy=_policy;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSUUID *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
-@property(retain, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

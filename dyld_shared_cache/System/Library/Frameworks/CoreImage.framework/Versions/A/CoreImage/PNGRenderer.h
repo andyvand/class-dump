@@ -10,15 +10,13 @@ __attribute__((visibility("hidden")))
 @interface PNGRenderer : CGRenderer
 {
     struct __CFURL *fullURL;
-    struct CGColor *background;
-    struct CGColorSpace *colorSpace;
 }
 
 - (_Bool);
-- (void);
+- (void);
 - (struct CGImage *);
 - (void);
-- (id);
+- (id)Ja;
 - (void)float4x4 m, metal:(id)arg1:texture2d<float, access::write> t );
     coreimage::group::destination_h group::make_destination(float2 c, uint2 gid, float4 r, float4x4 m, metal::texture2d<half,  access::write> t );
     coreimage::sampler_h make_sampler(texture2d<half,  access::sample> t, metal::sampler s, constant float4x4& m, float2 dc );

@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class JSValue;
+
 @protocol AppStoreKit.JSGameCenterExports__priv_79A2108853F090A364F7262D37150EA9
+- (JSValue *);
+- (JSValue *)|o;
+- (JSValue *);
+- (JSValue *)o;
 @end
 

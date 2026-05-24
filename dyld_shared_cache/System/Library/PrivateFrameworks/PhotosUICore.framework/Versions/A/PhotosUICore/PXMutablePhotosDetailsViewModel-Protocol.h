@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, PXSectionedSelectionManager;
-
 @protocol PXMutablePhotosDetailsViewModel
+- (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *disabledActionTypes;
-@property(nonatomic, getter=isFaceModeEnabled) _Bool faceModeEnabled;
 @property(nonatomic, getter=isSelecting) _Bool selecting;
-@property(retain, nonatomic) PXSectionedSelectionManager *selectionManager;
-@property(nonatomic) _Bool supportsSelection;
 @end
 

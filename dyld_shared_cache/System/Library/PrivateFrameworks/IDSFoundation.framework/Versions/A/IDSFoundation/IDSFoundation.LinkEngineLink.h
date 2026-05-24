@@ -7,8 +7,6 @@
 @interface IDSFoundation.LinkEngineLink
 {
     id uniqueName;
-    id weakEngine;
-    id _components;
 }
 
 @end

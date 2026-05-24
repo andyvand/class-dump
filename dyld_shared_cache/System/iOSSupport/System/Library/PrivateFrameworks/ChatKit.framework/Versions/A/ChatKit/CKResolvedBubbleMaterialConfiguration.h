@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAFilter, NSArray, UIColor;
-
 @interface CKResolvedBubbleMaterialConfiguration
 {
     id wrapped;
 }
 
-- (id);
+- (id)r:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (double);
@@ -21,11 +19,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) UIColor *backdropColor;
 @property(nonatomic, readonly) double backdropScale;
-@property(nonatomic, readonly) NSArray *filters;
-@property(nonatomic, readonly) CAFilter *outlineColorMatrixFilter;
-@property(nonatomic, readonly) UIColor *textColor;
 
 @end
 

@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (id);
+- (id)peersWithActiveTransports: /* Error: Ran out of types for this method. */;
 - (void)1Â0@ù
 × ;
-- (id)eContentView;
+- (id)_frameForActiveContentView;
 
 // Remaining properties
 @property(nonatomic) __weak UIResponder *rootResponder; // @synthesize rootResponder=_rootResponder;

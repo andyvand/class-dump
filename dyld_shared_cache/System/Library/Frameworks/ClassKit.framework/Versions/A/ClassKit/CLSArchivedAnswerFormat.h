@@ -11,8 +11,8 @@
     long long _answerFormatType;
 }
 
-+ (_Bool);
-- (void);
++ (_Bool)_beneficiaries;
+- (void)ramLogStatsBuffer(uint32_t, CVPixelBufferRef, CVPixelBufferRef, ANENotificationMessage *, uint32_t, uint32_t, mach_vm_address_t, uint32_t, IOSurfaceRef);
 - (long long);
 - (id);
 - (id);

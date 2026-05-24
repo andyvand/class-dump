@@ -7,19 +7,16 @@
 @interface TSKChangeRecord
 {
     int mKind;
-    id mDetails;
 }
 
 + (id);
 - (_Bool);
 - (id);
 - (void);
-- (int);
+- (int)0;
 - (id)Level > TSDMovieCompatibilityLevelNone;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowedInCommit;
-@property(readonly, nonatomic) id details; // @synthesize details=mDetails;
 @property(readonly, nonatomic) int kind; // @synthesize kind=mKind;
 
 @end

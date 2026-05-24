@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAlert, NSArrayController, NSButton, NSLayoutConstraint, NSScrollView, NSTableView, NSView;
+@class NSAlert, NSArrayController;
 
 __attribute__((visibility("hidden")))
 @interface ExtensionsAlertController
 {
     NSAlert *_alert;
-    NSArrayController *_alertHighLevelDomainsArrayController;
-    NSView *_alertAccessoryView;
-    NSScrollView *_alertScrollView;
-    NSTableView *_alertTableView;
-    NSButton *_alertDisclosureTriangle;
-    NSLayoutConstraint *_alertTableViewHeightConstraint;
 }
 
 + (void);
-+ (void);
++ (void);
 + (void);
 + (void);
 + (void);
@@ -53,12 +47,7 @@ __attribute__((visibility("hidden")))
 - (void)Ð	;
 
 // Remaining properties
-@property(retain, nonatomic) NSView *alertAccessoryView; // @synthesize alertAccessoryView=_alertAccessoryView;
-@property __weak NSButton *alertDisclosureTriangle; // @synthesize alertDisclosureTriangle=_alertDisclosureTriangle;
 @property(retain, nonatomic) NSArrayController *alertHighLevelDomainsArrayController; // @synthesize alertHighLevelDomainsArrayController=_alertHighLevelDomainsArrayController;
-@property __weak NSScrollView *alertScrollView; // @synthesize alertScrollView=_alertScrollView;
-@property __weak NSTableView *alertTableView; // @synthesize alertTableView=_alertTableView;
-@property __weak NSLayoutConstraint *alertTableViewHeightConstraint; // @synthesize alertTableViewHeightConstraint=_alertTableViewHeightConstraint;
 
 @end
 

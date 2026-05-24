@@ -4,58 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSHashTable, NSNumber, NSString, NSTimer, UIFocusMovementAction, UIResponder, UIView, _UIFocusEnvironmentPreferenceCache, _UIFocusGroupHistory, _UIFocusMovementPerformer, _UIFocusTreeLock, _UIFocusUpdateRequest, _UIFocusUpdateThrottle;
-@protocol UIFocusEnvironment, UIFocusItem, UIFocusItemContainer, _UIFocusBehavior, _UIFocusCasting, _UIFocusRegionContainer, _UIFocusSystemDelegate;
+@class _UIFocusUpdateRequest;
 
 @interface UIFocusSystem
 {
     _UIFocusUpdateRequest *_pendingFocusUpdateRequest;
-    id <UIFocusItem> _deferredFocusUpdateTarget;
-    id <UIFocusEnvironment> _appearingFocusEnvironment;
-    id <UIFocusEnvironment> _disappearingFocusEnvironment;
-    NSHashTable *_focusItemAncestorCache;
-    NSTimer *_hasSeenFocusedItemDidExpireTimer;
-    struct {
-        unsigned int hasReceivedTeardownNotification:1;
-        unsigned int shouldIgnoreFocusUpdateIfNeeded:1;
-        unsigned int isPendingFocusRestoration:1;
-        unsigned int isPostponingUpdates:1;
-        unsigned int hasSeenFocusedItem:1;
-        unsigned int isInsideUpdateFocusIfNeeded:1;
-        unsigned int delegateRespondsToTopEnvironment:1;
-        unsigned int delegateRespondsToPreferredFocusEnvironments:1;
-        unsigned int delegateRespondsToOverridingPreferredFocusEnvironment:1;
-        unsigned int delegateRespondsToShouldRestoreFocusInContext:1;
-        unsigned int delegateRespondsToWillUpdateFocusInContext:1;
-        unsigned int delegateRespondsToDidUpdateFocusInContext:1;
-        unsigned int delegateRespondsToDidFinishUpdatingFocusInContext:1;
-        unsigned int delegateRespondsToWillMessageOldFocusNodes:1;
-        unsigned int delegateRespondsToWillMessageNewFocusNodes:1;
-        unsigned int delegateRespondsToEnvironmentDidUpdateFocusInContext:1;
-        unsigned int delegateRespondsToDidCancelFocusUpdateInContext:1;
-        unsigned int delegateRespondsToFocusItemContainer:1;
-        unsigned int delegateRespondsToClippingRect:1;
-        unsigned int delegateRespondsToDidUpdateDeferralTarget:1;
-        unsigned int delegateRespondsToHandleFailedMovementRequest:1;
-        unsigned int delegateRespondsToShouldReverseLayoutDirectionForEnvironment:1;
-        unsigned int delegateRespondsToShouldReverseLinearWrappingForEnvironment:1;
-        unsigned int delegateRespondsToIsScrollingScrollableContainer:1;
-    } _flags;
-    _Bool _waitingForFocusMovementAction;
-    _Bool _enabled;
-    _UIFocusMovementPerformer *_movementPerformer;
-    id <UIFocusItem> _focusedItem;
-    _UIFocusGroupHistory *_focusGroupHistory;
-    _UIFocusEnvironmentPreferenceCache *_deepestPreferredFocusableItemCacheForCurrentUpdate;
-    id <UIFocusEnvironment> _deepestPreferredFocusEnvironment;
-    UIFocusMovementAction *_pendingFocusMovementAction;
-    _UIFocusUpdateThrottle *_updateThrottle;
-    _UIFocusTreeLock *_treeLock;
-    id <_UIFocusBehavior> _behavior;
-    id <_UIFocusSystemDelegate> _delegate;
-    id <UIFocusItem> _previousFocusedItem;
-    NSNumber *_overrideFocusDeferralBehavior;
-    id <_UIFocusCasting> _focusCasting;
 }
 
 + (_Bool);
@@ -67,11 +20,11 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)dentifier:(_Bool)arg1 %@;
+- (void)was successful. Clearing previous failed part delivery. GUID:(id)arg1 %@;
+- (id)e for recordZoneID %@;
+- (void)nt, please file a radar ********** State:(id)arg1 service session = %@, IDSAccount = %@, accounts = %@;
+- (id)st IMFileTransferErrorReason.;
 - (id);
 - (id);
 - (void);
@@ -80,15 +33,15 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)v;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -104,10 +57,10 @@
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (id);
@@ -125,15 +78,15 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -146,7 +99,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (long long);
@@ -160,14 +113,14 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)NSDictionary",C,N,V_proactiveCommandOptions;
 - (id);
 - (id);
 - (id)!äCù[ð1Â0@ù
@@ -183,64 +136,7 @@
 - (id)ój;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak id <UIFocusEnvironment> _deepestPreferredFocusEnvironment; // @synthesize _deepestPreferredFocusEnvironment;
-@property(readonly, nonatomic) _UIFocusEnvironmentPreferenceCache *_deepestPreferredFocusableItemCacheForCurrentUpdate; // @synthesize _deepestPreferredFocusableItemCacheForCurrentUpdate;
-@property(readonly, nonatomic) __weak id <UIFocusItem> _focusedItemOrDeferralTarget;
-@property(readonly, nonatomic) _UIFocusMovementPerformer *_movementPerformer; // @synthesize _movementPerformer;
-@property(retain, nonatomic) id <_UIFocusBehavior> behavior; // @synthesize behavior=_behavior;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <_UIFocusSystemDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=_disappearingFocusEnvironment) id <UIFocusEnvironment> disappearingFocusEnvironment;
-@property(readonly, nonatomic, getter=_isEligibleForFocusInteraction) _Bool eligibleForFocusInteraction;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,G_isEligibleForFocusInteraction
-
-@property(readonly, nonatomic, getter=_isEligibleForFocusOcclusion) _Bool eligibleForFocusOcclusion;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,G_isEligibleForFocusOcclusion
-
-@property(nonatomic, getter=_isEnabled, setter=_setEnabled:) _Bool enabled; // @synthesize enabled=_enabled;
-@property(retain, nonatomic, getter=_focusCasting, setter=_setFocusCasting:) id <_UIFocusCasting> focusCasting; // @synthesize focusCasting=_focusCasting;
-@property(readonly, nonatomic, getter=_focusGroupHistory) _UIFocusGroupHistory *focusGroupHistory; // @synthesize focusGroupHistory=_focusGroupHistory;
-@property(readonly, copy, nonatomic) NSString *focusGroupIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) id <UIFocusItemContainer> focusItemContainer;
-@property(readonly, nonatomic, getter=_focusMapContainer) __weak id <_UIFocusRegionContainer> focusMapContainer;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<_UIFocusRegionContainer>",?,R,W,N,G_focusMapContainer
-
-@property(readonly, nonatomic) __weak id <UIFocusItem> focusedItem; // @synthesize focusedItem=_focusedItem;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=_hostFocusSystem) __weak UIFocusSystem *hostFocusSystem;
-@property(readonly, copy, nonatomic, getter=_linearFocusMovementSequences) NSArray *linearFocusMovementSequences;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N,G_linearFocusMovementSequences
-
-@property(retain, nonatomic, getter=_overrideFocusDeferralBehavior, setter=_setOverrideFocusDeferralBehavior:) NSNumber *overrideFocusDeferralBehavior; // @synthesize overrideFocusDeferralBehavior=_overrideFocusDeferralBehavior;
-@property(readonly, nonatomic) __weak id <UIFocusEnvironment> parentFocusEnvironment;
-@property(retain, nonatomic) UIFocusMovementAction *pendingFocusMovementAction; // @synthesize pendingFocusMovementAction=_pendingFocusMovementAction;
-@property(readonly, nonatomic, getter=_preferredFirstResponder) __weak UIResponder *preferredFirstResponder;
 @property(readonly, nonatomic, getter=_preferredFirstResponderFocusSystem) __weak UIFocusSystem *preferredFirstResponderFocusSystem;
-@property(readonly, copy, nonatomic) NSArray *preferredFocusEnvironments;
-@property(readonly, nonatomic, getter=_preferredFocusMovementStyle) long long preferredFocusMovementStyle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N,G_preferredFocusMovementStyle
-
-@property(readonly, nonatomic) __weak UIView *preferredFocusedView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIView",?,R,W,N
-
-@property(readonly, nonatomic, getter=_previousFocusedItem) __weak id <UIFocusItem> previousFocusedItem; // @synthesize previousFocusedItem=_previousFocusedItem;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _UIFocusTreeLock *treeLock; // @synthesize treeLock=_treeLock;
-@property(readonly, nonatomic) _UIFocusUpdateThrottle *updateThrottle; // @synthesize updateThrottle=_updateThrottle;
-@property(nonatomic) _Bool waitingForFocusMovementAction; // @synthesize waitingForFocusMovementAction=_waitingForFocusMovementAction;
 
 @end
 

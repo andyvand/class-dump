@@ -4,24 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSMapTable, NSObject, NSString;
-@protocol HMDCLLocationManager, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDLocation
 {
     _Bool _currentLocationSimulated;
-    _Bool _beingConfigured;
-    int _authStatus;
-    long long _locationAuthorized;
-    NSObject<OS_dispatch_queue> *_handlerQueue;
-    NSHashTable *_singleLocationDelegates;
-    NSMapTable *_regionStateDelegatesByRegionIdentifier;
-    NSMapTable *_pendingRegionMonitoringRequests;
-    NSMapTable *_pendingRegionCallbacks;
-    NSMapTable *_regionStates;
-    long long _totalLocationObservingClients;
-    id <HMDCLLocationManager> _locationManager;
 }
 
 + (void);
@@ -37,10 +26,10 @@ __attribute__((visibility("hidden")))
 + (id)registrations:(id)arg1 %@;
 + (id)£B;
 - (id);
+- (void);
+- (long long);
 - (void);
-- (long long);
-- (void);
-- (id);
+- (id)];
 - (void);
 - (id);
 - (void);
@@ -49,58 +38,40 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (_Bool);
 - (id);
-- (void);
-- (id);
+- (void)֏;
+- (id)IDSIDQueryControllerProtocolP;
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (int);
+- (void)l;
+- (id)*;
+- (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
-- (void);
+- (void)brary/PrivateFrameworks/AssistantServices.framework/Versions/A/AssistantServices;
 - (void)
 × ;
 - (void)e>";
-- (void)essory:(id)arg1;
-- (void);
-- (_Bool)inRegistrationWithModelID: /* Error: Ran out of types for this method. */;
-- (void)ssoryReachabilityProbeTimer:(id)arg1;
+- (void)participantDataTopicForAccessory:(id)arg1;
+- (void)localPreferredResidentList;
+- (_Bool)findBulletinRegistrationsRelationOfTypeAnalysisEventBulletinRegistrationWithModelID: /* Error: Ran out of types for this method. */;
+- (void)btleAccessoryReachabilityProbeTimer:(id)arg1;
 - (id)onary",&,N,V_addPendingAccessorySetupCodeHandlers;
 - (void);
 - (void)ng thread stop on device lock - thread will stop by itself;
 - (void)failed with error %lu;
-- (void)eUUID;
+- (void)homeUUID;
 - (void)sOfClass:[NSDictionary class]] == NO && [obj isSubclassOfClass:[NSArray class]] == NO /* Error: Ran out of types for this method. */;
-- (void)MessageUserOverrideKey;
+- (void)kMessageUserOverrideKey;
 - (void);
 
 // Remaining properties
-@property(nonatomic) int authStatus; // @synthesize authStatus=_authStatus;
-@property(nonatomic) _Bool beingConfigured; // @synthesize beingConfigured=_beingConfigured;
-@property(readonly, nonatomic, getter=isCurrentLocationSimulated) _Bool currentLocationSimulated; // @synthesize currentLocationSimulated=_currentLocationSimulated;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *handlerQueue; // @synthesize handlerQueue=_handlerQueue;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long locationAuthorized; // @synthesize locationAuthorized=_locationAuthorized;
-@property(readonly, nonatomic) id <HMDCLLocationManager> locationManager; // @synthesize locationManager=_locationManager;
-@property(readonly, nonatomic) NSMapTable *pendingRegionCallbacks; // @synthesize pendingRegionCallbacks=_pendingRegionCallbacks;
-@property(readonly, nonatomic) NSMapTable *pendingRegionMonitoringRequests; // @synthesize pendingRegionMonitoringRequests=_pendingRegionMonitoringRequests;
-@property(readonly, nonatomic) NSMapTable *regionStateDelegatesByRegionIdentifier; // @synthesize regionStateDelegatesByRegionIdentifier=_regionStateDelegatesByRegionIdentifier;
-@property(readonly, nonatomic) NSMapTable *regionStates; // @synthesize regionStates=_regionStates;
-@property(readonly, nonatomic) NSHashTable *singleLocationDelegates; // @synthesize singleLocationDelegates=_singleLocationDelegates;
-@property(readonly) Class superclass;
-@property(nonatomic) long long totalLocationObservingClients; // @synthesize totalLocationObservingClients=_totalLocationObservingClients;
 
 @end
 

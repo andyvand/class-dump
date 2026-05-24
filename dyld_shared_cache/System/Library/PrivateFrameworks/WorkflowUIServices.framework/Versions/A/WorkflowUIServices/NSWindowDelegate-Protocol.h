@@ -4,16 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNotification, NSWindow;
+@class NSNotification, NSUndoManager, NSWindow;
 
 @protocol NSWindowDelegate
 
 @optional
+- (NSUndoManager *);
+- (NSWindow *);
+- (void);
+- (void);
+- (void)MXMOSLogDeviceStore_Internal;
+- (void)];
+- (void);
 - (void)@ù
 × ;
-- (unsigned long long)replacementStrings:(NSWindow *)arg1;
-- (void)ect:(NSNotification *)arg1;
-- (void)mbolAlignment;
+- (unsigned long long)textView:(NSWindow *)arg1 shouldChangeTextInRanges:(unsigned long long)arg2 replacementStrings: /* Error: Ran out of types for this method. */;
+- (void)arrayByAddingObject:(NSNotification *)arg1;
+- (void)WFSymbolAlignment;
 - (void);
 - (struct CGRect)tÔupvxw;
 - (void);
@@ -21,6 +28,5 @@
 - (_Bool)ÿ>úÿ;
 - (void)ectricResistanceCG;
 - (void)¸Î?;
-- (struct CGSize);
 @end
 

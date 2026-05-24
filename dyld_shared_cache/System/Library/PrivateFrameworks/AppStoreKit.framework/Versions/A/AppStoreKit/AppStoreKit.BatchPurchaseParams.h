@@ -7,7 +7,6 @@
 @interface AppStoreKit.BatchPurchaseParams
 {
     id items;
-    id commonBuyParams;
 }
 
 @end

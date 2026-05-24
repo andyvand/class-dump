@@ -9,31 +9,28 @@
 @interface MSVMarkdownTable
 {
     NSMutableArray *_columnHeaders;
-    NSMutableArray *_columnAlignments;
-    NSMutableArray *_rows;
 }
 
 + (id);
-- (void);
-- (void);
+- (void)P;
+- (void)R;
 - (id);
 - (void);
 - (id);
 - (id);
 - (long long);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)eric connection failure;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *columnHeaders;
-@property(readonly, copy, nonatomic) NSArray *rows;
 
 @end
 

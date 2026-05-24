@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface ICScannerFunctionalUnitFlatbedProps
 {
     NSMutableIndexSet *_supportedDocumentTypes;
-    unsigned long long _documentType;
 }
 
 - (id);
@@ -20,7 +19,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long documentType; // @synthesize documentType=_documentType;
 @property(retain, nonatomic) NSMutableIndexSet *supportedDocumentTypes; // @synthesize supportedDocumentTypes=_supportedDocumentTypes;
 
 @end

@@ -6,14 +6,11 @@
 
 #import <QuartzComposer/QCImageProvider.h>
 
-@class NSArray, QCRegion, QCTextRenderer;
+@class QCTextRenderer;
 
 @interface QCProvider_CoreText : QCImageProvider
 {
     QCTextRenderer *_renderer;
-    QCRegion *_domainOfDefinition;
-    CDStruct_bdcb2b0d _md5;
-    NSArray *_pixelFormats;
 }
 
 + (_Bool);
@@ -22,11 +19,11 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (CDStruct_bdcb2b0d);
+- (CDStruct_60067b7e);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)N;
 - (id);
 - (_Bool);
 - (void);

@@ -6,17 +6,11 @@
 
 #import <CalendarUI/EKUICompositeGadget.h>
 
-@class EKUICalendarGadget, EKUITitleGadget, NSArray, NSLayoutConstraint;
+@class EKUITitleGadget;
 
 @interface EKUITitleCalendarCompositeGadget : EKUICompositeGadget
 {
     EKUITitleGadget *_titleGadget;
-    EKUICalendarGadget *_calendarGadget;
-    NSArray *_titleCalendarHorizontalConstraints;
-    NSArray *_titleWithoutCalendarHorizontalConstraints;
-    NSLayoutConstraint *_calendarGadgetCollapsedWidthConstraint;
-    NSLayoutConstraint *_calendarGadgetMaxWidthConstraint;
-    NSLayoutConstraint *_calendarGadgetPreferredWidthConstraint;
 }
 
 - (id);
@@ -25,7 +19,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -34,23 +28,17 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (void);
+- (void));
+- (void)offers teardown message asynchronously to daemon. %s;
 
 // Remaining properties
-@property(retain) EKUICalendarGadget *calendarGadget; // @synthesize calendarGadget=_calendarGadget;
-@property(retain) NSLayoutConstraint *calendarGadgetCollapsedWidthConstraint; // @synthesize calendarGadgetCollapsedWidthConstraint=_calendarGadgetCollapsedWidthConstraint;
-@property(retain) NSLayoutConstraint *calendarGadgetMaxWidthConstraint; // @synthesize calendarGadgetMaxWidthConstraint=_calendarGadgetMaxWidthConstraint;
-@property(retain) NSLayoutConstraint *calendarGadgetPreferredWidthConstraint; // @synthesize calendarGadgetPreferredWidthConstraint=_calendarGadgetPreferredWidthConstraint;
-@property(retain) NSArray *titleCalendarHorizontalConstraints; // @synthesize titleCalendarHorizontalConstraints=_titleCalendarHorizontalConstraints;
 @property(retain) EKUITitleGadget *titleGadget; // @synthesize titleGadget=_titleGadget;
-@property(retain) NSArray *titleWithoutCalendarHorizontalConstraints; // @synthesize titleWithoutCalendarHorizontalConstraints=_titleWithoutCalendarHorizontalConstraints;
 
 @end
 

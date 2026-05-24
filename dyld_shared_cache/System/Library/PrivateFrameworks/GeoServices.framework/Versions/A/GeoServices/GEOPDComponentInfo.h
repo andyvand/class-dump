@@ -4,25 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDComponentFilter, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDComponentInfo
 {
     PBUnknownFields *_unknownFields;
-    GEOPDComponentFilter *_filter;
-    unsigned int _count;
-    unsigned int _startIndex;
-    int _type;
-    int _urgency;
-    _Bool _includeSource;
-    struct {
-        unsigned int has_count:1;
-        unsigned int has_startIndex:1;
-        unsigned int has_type:1;
-        unsigned int has_urgency:1;
-        unsigned int has_includeSource:1;
-    } _flags;
 }
 
 - (id);
@@ -32,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)1};
-- (id)tionCategory;
+- (id)_collectionCategory;
 - (id)@x¬;
 - (void)äÿÿÿèÿÿÿéÿÿÿãÿÿÿæÿÿÿåÿÿÿèÿÿÿéÿÿÿæÿÿÿçÿÿÿëÿÿÿêÿÿÿíÿÿÿìÿÿÿòÿÿÿõÿÿÿíÿÿÿìÿÿÿïÿÿÿöÿÿÿóÿÿÿôÿÿÿ÷ÿÿÿñÿÿÿøÿÿÿîÿÿÿ\Sx; A»rL-A±â¯$ÔÞ`@cr@:TøØç?%ò½BÕ^¿ /* Error: Ran out of types for this method. */;
 

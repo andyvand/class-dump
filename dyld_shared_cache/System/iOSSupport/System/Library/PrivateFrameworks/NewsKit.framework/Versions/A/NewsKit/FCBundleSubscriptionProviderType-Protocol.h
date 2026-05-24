@@ -10,5 +10,8 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) FCBundleSubscription *bundleSubscription;
+// Error: Property attributes should begin with the type ('T') attribute, property name: v24@0:8@?<v@?>16
+// Property attributes: @"FCBundleSubscription"16@0:8
+
 @end
 

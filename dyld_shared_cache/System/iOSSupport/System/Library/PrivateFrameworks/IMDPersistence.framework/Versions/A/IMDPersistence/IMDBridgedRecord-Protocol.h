@@ -5,5 +5,6 @@
 //
 
 @protocol IMDBridgedRecord
+- (struct __CFArray **);
 @end
 

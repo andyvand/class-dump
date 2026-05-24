@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary;
+@class NSDictionary;
 
-#pragma mark Function Pointers and Blocks
-
-typedef void (*CDUnknownFunctionPointerType)(void); // return type and parameters are unknown
+#pragma mark Blocks
 
 typedef void (^CDUnknownBlockType)(void); // return type and parameters are unknown
 
@@ -20,44 +18,6 @@ struct AutotuningState {
     NSDictionary *upsampleConfigs;
     unsigned long long copyConfigID;
     unsigned long long upsampleConfigID;
-};
-
-struct ConversionInfoPtrs_s {
-    struct StageData_s *stages;
-    int *data;
-    float *fData;
-    id *texLUTs;
-    id *trcLUTs;
-    id *dummyLUTs;
-    id devFloatData;
-    unsigned long long offsetToStageClampValues;
-};
-
-struct ConversionInfo_s {
-    float bgColor[4];
-    unsigned int nData;
-    unsigned int nFData;
-    int nStages;
-    int nMatrices;
-    int nLuts;
-    int nLutTextures;
-    int nTRCs;
-    int nLuminanceScales;
-    int nCHIn;
-    int nCHOut;
-    int containsATableTRC;
-    unsigned int stagesClampFlags;
-    unsigned int trcFCFlags;
-    unsigned int stageTypesFC;
-};
-
-struct HighlevelState {
-    unsigned long long filterHeight;
-    unsigned long long filterWidth;
-    NSData *weights;
-    _Bool isPyramidAdd;
-    float laplacianBias;
-    float laplacianScale;
 };
 
 struct MPSDeviceSpecificInfo {
@@ -148,8 +108,6 @@ struct RLERow {
     unsigned short _field3;
 };
 
-struct StageData_s;
-
 #pragma mark Typedef'd Structures
 
 typedef struct {
@@ -176,7 +134,11 @@ typedef struct {
 
 typedef struct {
     CDStruct_67e7699a origin;
-    CDStruct_da2e99ad size;
+    struct {
+        unsigned long long width;
+        unsigned long long height;
+        unsigned long long depth;
+    } size;
 } CDStruct_1e3be3a8;
 
 // Ambiguous groups
@@ -185,12 +147,6 @@ typedef struct {
     unsigned long long _field2;
     unsigned long long _field3;
 } CDStruct_14f26992;
-
-typedef struct {
-    unsigned long long width;
-    unsigned long long height;
-    unsigned long long depth;
-} CDStruct_da2e99ad;
 
 typedef struct {
     unsigned long long x;

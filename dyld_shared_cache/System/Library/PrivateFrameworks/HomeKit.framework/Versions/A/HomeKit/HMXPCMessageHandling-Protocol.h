@@ -5,5 +5,6 @@
 //
 
 @protocol HMXPCMessageHandling
+- (void);
 @end
 

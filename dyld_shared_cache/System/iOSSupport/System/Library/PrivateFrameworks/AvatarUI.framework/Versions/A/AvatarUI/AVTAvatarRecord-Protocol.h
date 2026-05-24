@@ -11,7 +11,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isEditable) _Bool editable;
 @property(readonly, copy, nonatomic) NSString *identifier;
 @end
 

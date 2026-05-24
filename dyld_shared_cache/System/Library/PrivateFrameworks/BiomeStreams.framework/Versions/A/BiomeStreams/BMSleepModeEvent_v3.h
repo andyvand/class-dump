@@ -10,7 +10,7 @@
 {
 }
 
-- (id)wned_stmt__free_unpacked;
+- (id)pg_query__reassign_owned_stmt__free_unpacked;
 
 @end
 

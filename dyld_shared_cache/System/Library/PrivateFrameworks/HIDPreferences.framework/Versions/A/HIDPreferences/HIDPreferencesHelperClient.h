@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HIDPreferencesHelperListener, NSObject, NSString;
+@class NSObject;
 @protocol OS_xpc_object;
 
 @interface HIDPreferencesHelperClient
 {
     NSObject<OS_xpc_object> *_connection;
-    HIDPreferencesHelperListener *_listener;
 }
 
 - (void);
@@ -27,13 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

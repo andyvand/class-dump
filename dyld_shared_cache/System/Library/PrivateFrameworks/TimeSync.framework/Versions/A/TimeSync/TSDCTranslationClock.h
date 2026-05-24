@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TSXTranslationClock, _TSF_TSDClockSync, _TSF_TSDKernelClock;
+@class _TSF_TSDClockSync, _TSF_TSDKernelClock;
 
 @interface TSDCTranslationClock
 {
     _TSF_TSDClockSync *_clockSync;
-    _TSF_TSDKernelClock *_translationKernelClock;
-    TSXTranslationClock *_translationClock;
 }
 
 - (void);
@@ -24,14 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) TSXTranslationClock *translationClock; // @synthesize translationClock=_translationClock;
 @property(readonly, nonatomic) _TSF_TSDKernelClock *translationKernelClock; // @synthesize translationKernelClock=_translationKernelClock;
 
 @end

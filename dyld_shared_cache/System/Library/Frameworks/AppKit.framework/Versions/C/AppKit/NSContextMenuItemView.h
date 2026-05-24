@@ -6,57 +6,50 @@
 
 #import <AppKit/NSMenuItemView.h>
 
-@class NSFont, NSImageView, NSString, NSTextField;
+@class NSImageView;
 
 __attribute__((visibility("hidden")))
 @interface NSContextMenuItemView : NSMenuItemView
 {
     NSImageView *_stateImageView;
-    NSTextField *_badgeTextField;
-    NSTextField *_keyEquivalentTextField;
-    NSTextField *_modifierTextField;
-    NSFont *_commandKeyFont;
-    NSString *_searchQueryCache;
-    double _cachedStateOffset;
-    _Bool _isInitialized;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (struct CGSize);
-+ (struct CGSize);
-+ (id);
++ (id)%{public}@ received PAT headers %@ error %@;
++ (id)Stream%{public}@ is complete and received server trust, marking as secure;
++ (id)c}@ has custom proxy settings;
++ (id)n for %@;
++ (struct CGSize)r [%p]:(id)arg1 %ld %d;
++ (struct CGSize)etStream read error [%p]:(id)arg1 %ld %d;
++ (id)event;
 + (id);
 + (_Bool);
 + (unsigned char);
 - (void);
-- (double);
+- (double)fo;
 - (struct CGSize);
-- (struct CGRect);
+- (struct CGRect)setPropertyOnStreamWithIdentifier:propDict:propKey:withReply: /* Error: Ran out of types for this method. */;
+- (void)setIgnoreHostOnlyFlag: /* Error: Ran out of types for this method. */;
+- (void)setHostOnly: /* Error: Ran out of types for this method. */;
+- (id)_isTrustedCached;
+- (void)FiUsage;
+- (void);
 - (void);
 - (void);
+- (struct CGSize)_kCFNTimingDataResponseEnd;
+- (void)NSURLDownloadBinHexCRC;
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (struct CGSize);
-- (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (double);
 - (void)ock_invoke_2;
-- (void)tAttribute;
+- (void)FontAttribute;
 - (void)HkB;
 
 @end

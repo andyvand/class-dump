@@ -7,25 +7,10 @@
 @interface )Pø(ih8
 {
     id ;
-    id ;
-    id ª!;
-    id éª±°10@ù
-?×é;
-    id ;
-    id ×é;
 }
 
 
 // Remaining properties
-// Error: Property attributes should begin with the type ('T') attribute, property name: ª¢
-// Property attributes: 
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: 8Ôê	#ÕôO¾©ý{©ýC
-// Property attributes: RÈ
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: OA©öWÃ¨ÿ#ÕÐÊP
-// Property attributes: 
-
 // Error: Property attributes should begin with the type ('T') attribute, property name: øàªâªPwüò	?×
 // Property attributes: Pø¨CÑPø»S9©¡Ñ
 

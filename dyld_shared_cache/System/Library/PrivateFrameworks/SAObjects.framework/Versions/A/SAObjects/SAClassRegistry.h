@@ -12,7 +12,7 @@
 + (void);
 + (void);
 + (Class);
-+ (void)nail;
++ (void)thumbnail;
 - (void);
 - (Class);
 

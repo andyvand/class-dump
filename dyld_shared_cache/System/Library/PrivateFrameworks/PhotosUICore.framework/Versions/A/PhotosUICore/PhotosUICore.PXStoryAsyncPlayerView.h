@@ -7,11 +7,10 @@
 @interface PhotosUICore.PXStoryAsyncPlayerView
 {
     id player;
-    id hostingView;
 }
 
 - (id);
-- (void);
+- (void);
 - (id)es:(struct CGRect)arg1;
 - (void)h: /* Error: Ran out of types for this method. */;
 

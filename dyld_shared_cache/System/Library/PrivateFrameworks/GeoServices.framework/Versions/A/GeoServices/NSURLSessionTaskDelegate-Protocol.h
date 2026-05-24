@@ -9,6 +9,9 @@
 @protocol NSURLSessionTaskDelegate
 
 @optional
+- (void);
+- (void);
+- (void)_lookupPolicyForIntentsExtensions;
 - (void)\¼;
 - (void)ptrINS3_10VectorTileEEEE3$_2FvmfEEE;
 - (void)ÿøÿúÿûÿùÿ;

@@ -7,19 +7,17 @@
 @interface FCTimeControl
 {
     _Bool _enabled;
-    long long _rangeType;
 }
 
-- (void);
-- (long long);
-- (_Bool);
+- (void)initWithTitle:(long long)arg1 subtitle:imageURL:openGraphURL: /* Error: Ran out of types for this method. */;
+- (long long)initWithTimedPlanIdentifier:label: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithStartTransferAuthorization:(id)arg1 endTransferAuthorization:fetchMessageSession: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)P;
 
 // Remaining properties
 @property _Bool enabled; // @synthesize enabled=_enabled;
-@property long long rangeType; // @synthesize rangeType=_rangeType;
 
 @end
 

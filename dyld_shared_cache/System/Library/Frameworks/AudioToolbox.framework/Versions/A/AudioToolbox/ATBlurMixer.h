@@ -7,13 +7,6 @@
 @interface ATBlurMixer
 {
     struct unique_ptr<OpaqueAudioComponentInstance, applesauce::raii::detail::opaque_deletion_functor<OpaqueAudioComponentInstance *, &AudioComponentInstanceDispose>> mAUDSPGraph;
-    struct StreamDescription mStreamDescription;
-    unsigned int mMaxFrames;
-    struct basic_string<char, std::char_traits<char>, std::allocator<char>> mTuningDirectory;
-    _Bool mIsInitialized;
-    float mBlurHoldTimeSec;
-    _Bool mRemoteFeedbackFeatureEnabled;
-    _Bool _isUplink;
 }
 
 - (int);
@@ -22,7 +15,7 @@
 - (int);
 - (void);
 - (int);
-- (int);
+- (int)`];
 - (int);
 - (int);
 - (id);
@@ -33,23 +26,20 @@
 - (struct StringRef);
 - (float);
 - (float);
-- (int);
+- (int);
 - (void);
 - (struct StringRef);
-- (_Bool);
+- (_Bool)RTLearnedPlaceTypeInferenceEnumerationOptions;
 - (CDUnknownBlockType);
 - (_Bool);
-- (id);
+- (id)$;
 - (struct OpaqueAudioComponentInstance *);
 - (int);
 - (void);
 - (int);
 
 // Remaining properties
-@property(nonatomic) float blendTimeMs;
-@property(nonatomic, getter=isBlurEnabled) _Bool enableBlur;
 @property(readonly, nonatomic) _Bool isUplink; // @synthesize isUplink=_isUplink;
-@property(readonly, nonatomic) CDUnknownBlockType processBlock;
 
 @end
 

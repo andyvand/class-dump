@@ -11,7 +11,6 @@
 @interface MapsSuggestionsOutsideOfMapItemFenceCondition : MapsSuggestionsBaseCondition
 {
     GEOMapItemStorage *_mapItem;
-    double _radius;
 }
 
 - (id);

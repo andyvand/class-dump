@@ -4,43 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceConnectionEndpoint, NSSet, NSString, UISSceneHostingExternalSettingsModifierClient;
+@class UISSceneHostingExternalSettingsModifierClient;
 
 __attribute__((visibility("hidden")))
 @interface _UISceneExternalSettingsModifierHostComponent
 {
     UISSceneHostingExternalSettingsModifierClient *_client;
-    NSSet *_settingsModifiers;
-    _Bool _hasFetchedModifiers;
 }
 
-- (void);
+- (void)unters;
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
+- (void)8@"APSConnection"16;
+- (id)6@"NSString"24@"NSDictionary"32@"NSNumber"40@"NSString"48@"IDSAccount"56;
+- (id)recordUpdateFailedWithID:localGUID:error: /* Error: Ran out of types for this method. */;
+- (void)joinChatID:handleInfo:identifier:style:joinProperties: /* Error: Ran out of types for this method. */;
+- (_Bool)to load personal nickname, feature is disabled;
+- (void)setSiriReferenceIdentifier:(id)arg1;
 - (void)°!ÈGùñ\°1Â0@ù
 × ;
 - (id);
-- (void)er;
+- (void)_UIImageContentProvider;
 - (void);
-- (void)yDonatedTitle;
+- (void)TemporaryDonatedTitle;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) BSServiceConnectionEndpoint *externalSettingsModifierEndpoint;
 @property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool participatesInExternalSettingsModification;
-@property(readonly) Class superclass;
 
 @end
 

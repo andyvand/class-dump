@@ -6,13 +6,11 @@
 
 #import <UXKit/UXBar.h>
 
-@class NSArray;
 @protocol UXToolbarDelegate;
 
 @interface UXToolbar : UXBar
 {
     id <UXToolbarDelegate> _delegate;
-    NSArray *_items;
 }
 
 - (void);
@@ -22,26 +20,24 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)?;
 - (void);
 - (void);
 - (id);
-- (double);
+- (double);
 - (void);
 - (id);
 - (void);
 - (id);
 - (long long);
 - (void);
-- (void);
+- (void);
 - (id)Ñïð1Â0@ù
 × ;
 - (void);
 - (void)ÿ±â>-U;
 
 // Remaining properties
-@property(nonatomic) __weak id <UXToolbarDelegate> delegate; // @synthesize delegate=_delegate;
-@property(copy, nonatomic) NSArray *items; // @synthesize items=_items;
 @property(readonly, nonatomic) double visibleHeight;
 
 @end

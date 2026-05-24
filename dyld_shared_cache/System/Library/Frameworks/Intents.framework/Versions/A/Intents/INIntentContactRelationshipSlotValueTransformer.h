@@ -11,7 +11,7 @@
 + (_Bool);
 + (Class);
 + (Class);
-+ (long long)eSettingsInCar:completion: /* Error: Ran out of types for this method. */;
++ (long long)resolveAirCirculationModeForSetClimateSettingsInCar:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)INShareFocusStatusIntent;
 

@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)igned out of iMessage, we need to reset the bit that we've asked for the nickname feature info;
 + (id);
 
 @end

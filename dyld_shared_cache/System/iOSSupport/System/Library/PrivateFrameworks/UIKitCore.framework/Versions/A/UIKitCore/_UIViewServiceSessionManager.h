@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-@protocol BSInvalidatable, _UIViewServiceSessionManagerDelegate;
+@class NSString;
 
 @interface _UIViewServiceSessionManager
 {
     NSString *_machName;
-    id <BSInvalidatable> _lock_listener;
-    NSMutableArray *_lock_sessions;
-    struct os_unfair_lock_s _lock;
-    _Bool _asPlugIn;
-    NSMutableArray *_lock_queuedAuxiliaryConnections;
-    id <_UIViewServiceSessionManagerDelegate> _delegate;
 }
 
-+ (id);
++ (id)CEMNSExtensionsMappingsNSExtensionsCommand;
 + (id)!Bù]1Â0@ù
 × ;
-+ (_Bool)ysWithDeveloperPunctuation;
++ (_Bool)annotateKeysWithDeveloperPunctuation;
 + (void)er;
 + (void)ÀìÀ¤ÄÔÄ;
 + (id)ëÑ?333333Ã?áz®Gáâ?;
@@ -30,10 +23,10 @@
 - (void);
 - (id);
 - (void);
+- (id)ingButton;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)base/accessQueue;
 - (id);
 - (id);
 - (_Bool)0@ù
@@ -43,30 +36,18 @@
 - (id);
 - (void)1Â0@ù
 × ;
-- (void)ationsUsingFilter:(id)arg1;
+- (void)updateDecorationsUsingFilter:(id)arg1;
 - (_Bool)inlineTopInset;
-- (id)hEffects:(CDUnknownBlockType)arg1;
+- (id)_needsBoldEffectForImage:(CDUnknownBlockType)arg1 symbolConfiguration:withBaseColor:withEffects: /* Error: Ran out of types for this method. */;
 - (void)xer",R,N;
-- (void)owOrderedIn;
+- (void)windowOrderedIn;
 - (void)friction;
-- (id)oatingTabBar;
+- (id)_UIFloatingTabBar;
 - (void)$s10Foundation19AttributedStringKeyP;
-- (void)onCondition;
+- (void)_DestructionCondition;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *containingViewControllerClassName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) id <_UIViewServiceSessionManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) _Bool isExtensionService;
-@property(readonly, nonatomic) NSString *mainStoryboardName;
-@property(readonly, nonatomic) _Bool requiresExtensionContext;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *viewControllerClassName;
 
 @end
 

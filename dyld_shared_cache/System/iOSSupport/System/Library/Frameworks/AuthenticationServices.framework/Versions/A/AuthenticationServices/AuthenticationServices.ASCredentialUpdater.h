@@ -7,7 +7,6 @@
 @interface AuthenticationServices.ASCredentialUpdater
 {
     id options;
-    id proxy;
 }
 
 @end

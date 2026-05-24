@@ -11,22 +11,20 @@
 @interface WiFiUsageLQMKernelSamplePerACTxStats : WiFiUsageLQMSample
 {
     NSDate *_timestamp;
-    double _duration;
 }
 
 + (id);
 - (void);
 - (void);
 - (id);
-- (double);
+- (double)makeCrossAppEventKeyForAction: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)6@24@32@?40;
 - (id);
 - (void)ñ¤ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) double duration; // @synthesize duration=_duration;
 @property(readonly, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end

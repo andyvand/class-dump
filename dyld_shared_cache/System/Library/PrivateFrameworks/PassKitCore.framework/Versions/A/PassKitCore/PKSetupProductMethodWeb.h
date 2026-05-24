@@ -14,7 +14,7 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)O;
 - (id);
 - (id);
 

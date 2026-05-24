@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface TRILogTreatment
 {
     struct {
@@ -13,14 +11,6 @@
         unsigned long long count;
         unsigned long long size;
     } _namespaceIds;
-    unsigned int _deploymentId;
-    NSString *_experimentId;
-    NSMutableArray *_namespaceNames;
-    NSMutableArray *_namespaces;
-    NSString *_treatmentId;
-    struct {
-        unsigned int deploymentId:1;
-    } _has;
 }
 
 + (Class);
@@ -52,7 +42,7 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)g pets results for asset:(id)arg1 %{public}@;
 - (id);
 - (id);
 - (_Bool);
@@ -60,22 +50,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (unsigned int);
-- (void);
+- (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int deploymentId; // @synthesize deploymentId=_deploymentId;
-@property(retain, nonatomic) NSString *experimentId; // @synthesize experimentId=_experimentId;
-@property(nonatomic) _Bool hasDeploymentId;
 @property(readonly, nonatomic) _Bool hasExperimentId;
-@property(readonly, nonatomic) _Bool hasTreatmentId;
-@property(readonly, nonatomic) unsigned int *namespaceIds;
-@property(readonly, nonatomic) unsigned long long namespaceIdsCount;
-@property(retain, nonatomic) NSMutableArray *namespaceNames; // @synthesize namespaceNames=_namespaceNames;
-@property(retain, nonatomic) NSMutableArray *namespaces; // @synthesize namespaces=_namespaces;
-@property(retain, nonatomic) NSString *treatmentId; // @synthesize treatmentId=_treatmentId;
 
 @end
 

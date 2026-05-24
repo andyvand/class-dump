@@ -7,9 +7,9 @@
 @protocol NSFileProviderItem;
 
 @protocol NSFileProviderTestingCollisionResolution
+- (id <NSFileProviderItem>)#;
 
 // Remaining properties
-@property(readonly, nonatomic) id <NSFileProviderItem> renamedItem;
 @property(readonly, nonatomic) unsigned long long side;
 @end
 

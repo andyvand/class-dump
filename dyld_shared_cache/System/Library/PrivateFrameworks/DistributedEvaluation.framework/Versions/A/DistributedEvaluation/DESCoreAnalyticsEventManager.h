@@ -15,16 +15,18 @@
 + (void);
 + (void);
 + (void);
++ (void)J<;
++ (void)setActivePaymentApplet:(id)arg1 makeDefault:(float)arg2 authorization: /* Error: Ran out of types for this method. */;
++ (void);
++ (void)΁;
++ (void)*J
+;
++ (void);
++ (void)F'
+;
 + (void);
 + (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
++ (void)runSyncReturningError:(id)arg1;
 + (void);
 
 @end

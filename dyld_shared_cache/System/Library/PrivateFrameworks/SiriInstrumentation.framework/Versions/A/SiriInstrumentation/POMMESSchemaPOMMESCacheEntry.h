@@ -6,20 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface POMMESSchemaPOMMESCacheEntry : SISchemaInstrumentationMessage
 {
     NSString *_pegasusDomain;
-    unsigned int _sizeInBytes;
-    unsigned int _timeToLiveInSeconds;
-    int _origin;
-    struct {
-        unsigned int sizeInBytes:1;
-        unsigned int timeToLiveInSeconds:1;
-        unsigned int origin:1;
-    } _has;
-    _Bool _hasPegasusDomain;
 }
 
 - (unsigned int);
@@ -31,7 +22,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)*	;
 - (void);
 - (void);
 - (void);
@@ -40,29 +31,21 @@
 - (void);
 - (id);
 - (unsigned int);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)xpirable, expire_state, and message_action_type column;
 - (_Bool);
 - (id);
 - (int);
 - (void);
-- (id);
-- (id)pted;
+- (id);
+- (id)_numDocumentsAccepted;
 - (id)eContext;
-- (void)ELIGIBILITY;
+- (void)FLOWAPPLEMUSICVOICEPREVIEWOFFERNOTSHOWNREASON_REQUEST_ELIGIBILITY;
 
 // Remaining properties
-@property(nonatomic) _Bool hasOrigin;
-@property(nonatomic) _Bool hasPegasusDomain; // @synthesize hasPegasusDomain=_hasPegasusDomain;
-@property(nonatomic) _Bool hasSizeInBytes;
-@property(nonatomic) _Bool hasTimeToLiveInSeconds;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int origin; // @synthesize origin=_origin;
 @property(copy, nonatomic) NSString *pegasusDomain; // @synthesize pegasusDomain=_pegasusDomain;
-@property(nonatomic) unsigned int sizeInBytes; // @synthesize sizeInBytes=_sizeInBytes;
-@property(nonatomic) unsigned int timeToLiveInSeconds; // @synthesize timeToLiveInSeconds=_timeToLiveInSeconds;
 
 @end
 

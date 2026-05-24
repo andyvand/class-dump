@@ -15,17 +15,15 @@ __attribute__((visibility("hidden")))
             struct _UIStateTransition _field2[0];
         } _field3[0];
     } *_spec;
-    _Bool _externalSpec;
-    unsigned long long _state;
 }
 
 - (id);
 - (void *);
 - (void);
 - (void);
+- (void)-;
 - (void);
-- (void);
-- (id);
+- (id)(;
 - (void);
 - (void);
 - (unsigned long long)ñdÐ1Â0@ù

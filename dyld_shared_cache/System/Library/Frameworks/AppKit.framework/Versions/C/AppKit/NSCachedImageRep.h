@@ -6,38 +6,34 @@
 
 #import <AppKit/NSImageRep.h>
 
-@class NSWindow;
-
 @interface NSCachedImageRep : NSImageRep
 {
     struct CGPoint _origin;
-    NSWindow *_window;
-    _Bool _paramsComputed;
 }
 
 + (_Bool)È;
 + (void)¼Oîÿ;
-- (long long);
-- (long long);
+- (long long)credStorage_allCredentialsWithReply: /* Error: Ran out of types for this method. */;
+- (long long)creationDate;
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)___ZN19URLConnectionLoader22_loaderEvent_StartLoadEP16NSURLSessionTask_block_invoke;
 - (long long);
 - (void);
 - (struct CGRect);
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (struct CGImage *);
-- (void);
-- (id);
-- (void);
-- (id);
+- (struct CGImage *)ma1Cma2CmaaCmacCmaeCmaiCmaoCmasCmat.ma;
+- (void);
 - (id);
 - (void);
-- (struct CGRect)k;
-- (id)den;
+- (id);
+- (id);
+- (void);
+- (struct CGRect)mask;
+- (id)_fileExtensionHidden;
 - (_Bool)´n	p;
 - (id)ÿû
 J;

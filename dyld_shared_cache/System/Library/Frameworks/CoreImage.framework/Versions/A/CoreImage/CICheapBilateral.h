@@ -6,15 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CICheapBilateral : CIFilter
 {
     CIImage *inputImage;
-    CIImage *inputSource;
-    NSNumber *inputSigmaSpace;
-    NSNumber *inputSigmaRange;
 }
 
 + (id);
@@ -22,13 +19,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)X;
 - (id);
 - (id)hzyvvtvR]Qiemfszx|}XheoSTKT-@0D7C4KJ]VisNkf{Se^s||||{{{{bjcoff_fPaVgajaujpitvvvvuuuuRdZmLbXowzw~{¥¥¥¥H\Qitrmt;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *inputSigmaRange; // @synthesize inputSigmaRange;
-@property(retain, nonatomic) NSNumber *inputSigmaSpace; // @synthesize inputSigmaSpace;
 @property(retain, nonatomic) CIImage *inputSource; // @synthesize inputSource;
 
 @end

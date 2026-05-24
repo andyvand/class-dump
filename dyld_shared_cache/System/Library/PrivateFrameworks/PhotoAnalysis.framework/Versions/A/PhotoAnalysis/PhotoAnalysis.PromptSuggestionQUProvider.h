@@ -7,9 +7,6 @@
 @interface PhotoAnalysis.PromptSuggestionQUProvider
 {
     id logger;
-    id localeIdentifier;
-    id localizedStringProvider;
-    id $__lazy_storage_$_promptSuggestionLLMQUParse;
 }
 
 @end

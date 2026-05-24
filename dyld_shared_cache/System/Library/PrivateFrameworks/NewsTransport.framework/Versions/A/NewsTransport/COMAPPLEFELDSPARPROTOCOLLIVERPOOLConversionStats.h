@@ -7,36 +7,28 @@
 @interface COMAPPLEFELDSPARPROTOCOLLIVERPOOLConversionStats
 {
     double _conversions;
-    double _impressions;
-    struct {
-        unsigned int conversions:1;
-        unsigned int impressions:1;
-    } _has;
 }
 
+- (id);
+- (_Bool);
+- (void)o9;
+- (void);
+- (unsigned long long)Zs;
+- (_Bool);
+- (void);
+- (void)ameworks/LocalAuthentication.framework/Versions/A/LocalAuthentication;
+- (double)4B32@36;
+- (_Bool);
+- (void);
+- (void);
+- (id);
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (void);
-- (double);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (double)essionValue;
+- (double)_safariHistoryImpressionValue;
 
 // Remaining properties
-@property(nonatomic) double conversions; // @synthesize conversions=_conversions;
 @property(nonatomic) _Bool hasConversions;
-@property(nonatomic) _Bool hasImpressions;
-@property(nonatomic) double impressions; // @synthesize impressions=_impressions;
 
 @end
 

@@ -7,24 +7,18 @@
 @interface AppStoreKit.NqmlStringGenerator__priv_9642CCE02323FAF22DDBBFD3680E3E9F
 {
     id parser;
-    id configuration;
-    id orderedListTracker;
-    id accumulator;
-    id attributeStack;
-    id didParseEverything;
-    id foregroundColor;
 }
 
 - (void);
+- (void)e;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)initWithDelegate:(id)arg1 queue:(id)arg2;
 - (id);
 - (void);
 - (void);

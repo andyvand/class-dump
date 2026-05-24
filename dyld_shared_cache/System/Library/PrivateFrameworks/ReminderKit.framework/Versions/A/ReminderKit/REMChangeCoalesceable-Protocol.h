@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSSet;
+
 @protocol REMChangeCoalesceable
+- (_Bool);
+- (id);
+- (NSSet *)initWithPolicy:options:contextID: /* Error: Ran out of types for this method. */;
 @end
 

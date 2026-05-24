@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMTimingCollection, NSArray, NSMutableArray, NSMutableSet;
+@class IMTimingCollection;
 
 @interface IMDSpotlightIndexerTimingProfiler
 {
     struct os_unfair_lock_s _lock;
-    IMTimingCollection *_timingCollection;
-    double _timeout;
-    NSMutableSet *_runningTimers;
-    NSMutableArray *_runTimers;
-    NSArray *_abortedTimers;
 }
 
 - (id);
@@ -23,37 +18,33 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (double);
+- (double);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (double);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (double);
-- (double);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (double);
-- (void)sage_join;
+- (double)path %@;
+- (void)chat_recoverable_message_join;
 - (void)to index;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *abortedTimers; // @synthesize abortedTimers=_abortedTimers;
-@property(retain, nonatomic) NSMutableArray *runTimers; // @synthesize runTimers=_runTimers;
-@property(retain, nonatomic) NSMutableSet *runningTimers; // @synthesize runningTimers=_runningTimers;
-@property(nonatomic) double timeout; // @synthesize timeout=_timeout;
 @property(retain, nonatomic) IMTimingCollection *timingCollection; // @synthesize timingCollection=_timingCollection;
 
 @end

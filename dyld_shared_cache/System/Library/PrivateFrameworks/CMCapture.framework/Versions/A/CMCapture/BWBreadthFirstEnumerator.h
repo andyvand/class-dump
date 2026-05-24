@@ -11,7 +11,6 @@
 @interface BWBreadthFirstEnumerator : BWNodeEnumerator
 {
     NSMutableArray *_queue;
-    NSMutableArray *_holdQueue;
 }
 
 - (void);

@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface _SFSearchRequest
 {
     long long _searchTypes;
-    NSDictionary *_headerFields;
-    NSDictionary *_queryParameters;
 }
 
 - (void);
@@ -22,8 +18,6 @@
 - (id)ÿIÁÿÿ;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *headerFields; // @synthesize headerFields=_headerFields;
-@property(copy, nonatomic) NSDictionary *queryParameters; // @synthesize queryParameters=_queryParameters;
 @property(nonatomic) long long searchTypes; // @synthesize searchTypes=_searchTypes;
 
 @end

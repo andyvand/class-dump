@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, OspreyDeferredObject;
+@class OspreyDeferredObject;
 
 __attribute__((visibility("hidden")))
 @interface OspreyClientStreamContextPromise
@@ -23,13 +23,7 @@ QÈè­ÕáG¢å*íàÛÒ4^v¼~e%K`^ÄR¸ïOL­md¡9{ïdñ
 Øàÿ	hÈ¼Q{vóéÇJ,Úòæ¨ÄÚÂ«¢¥FK÷Ì§ÚlP`&¢æRvÖQÛü»[yïìP»TÙâ@ÙÚØ0{Ô­;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

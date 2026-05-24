@@ -9,19 +9,17 @@
 @interface CHCloudRecognitionResult : CHSketchRecognitionResult
 {
     struct CGPoint _center;
-    struct CGSize _size;
 }
 
-+ (_Bool);
++ (_Bool)_emblemForCount: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (struct CGSize);
 - (struct CGPoint);
-- (void);
+- (void)ult:(id)arg1 %@:[%i] %s /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) struct CGPoint center; // @synthesize center=_center;
-@property(readonly) struct CGSize size; // @synthesize size=_size;
 
 @end
 

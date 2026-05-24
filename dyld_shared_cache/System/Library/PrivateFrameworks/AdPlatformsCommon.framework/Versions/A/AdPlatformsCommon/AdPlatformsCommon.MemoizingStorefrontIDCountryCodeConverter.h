@@ -7,7 +7,6 @@
 @interface AdPlatformsCommon.MemoizingStorefrontIDCountryCodeConverter
 {
     id backingConverter;
-    id memo;
 }
 
 @end

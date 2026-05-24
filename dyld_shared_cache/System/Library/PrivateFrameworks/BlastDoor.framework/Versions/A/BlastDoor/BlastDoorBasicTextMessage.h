@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorBasicTextMessageMessageTypeWrapper, BlastDoorMetadata, NSArray, NSString;
+@class NSString;
 
 @interface BlastDoorBasicTextMessage
 {
@@ -22,7 +22,7 @@
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)Label<CKActionMenuItemView>";
 - (id);
 - (id);
 - (id);
@@ -31,22 +31,7 @@
 - (void)0cÿÿÿÿÿp;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *currentGroupName;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *groupID;
-@property(nonatomic, readonly) unsigned long long groupParticipantVersion;
-@property(nonatomic, readonly) unsigned long long groupProtocolVersion;
-@property(nonatomic, readonly) _Bool has_groupParticipantVersion;
-@property(nonatomic, readonly) _Bool has_groupProtocolVersion;
-@property(nonatomic, readonly) _Bool has_replicationSourceID;
-@property(nonatomic, readonly) _Bool has_transcriptBackgroundVersion;
-@property(nonatomic, readonly) BlastDoorBasicTextMessageMessageTypeWrapper *messageSubType;
-@property(nonatomic, readonly) BlastDoorMetadata *metadata;
-@property(nonatomic, readonly) NSArray *replicatedFallbackGUIDs;
-@property(nonatomic, readonly) long long replicationSourceID;
-@property(nonatomic, readonly) NSString *threadIdentifierGUID;
-@property(nonatomic, readonly) NSString *threadOriginatorFallbackHash;
-@property(nonatomic, readonly) unsigned long long transcriptBackgroundVersion;
 
 @end
 

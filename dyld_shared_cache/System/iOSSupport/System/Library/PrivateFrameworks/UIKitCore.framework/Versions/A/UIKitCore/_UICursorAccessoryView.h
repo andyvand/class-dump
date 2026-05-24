@@ -6,46 +6,37 @@
 
 #import <UIKitCore/UIVisualEffectView.h>
 
-@class NSArray, NSMutableArray, NSMutableDictionary, NSMutableOrderedSet, NSString, UIColor, UITapGestureRecognizer, UIView;
+@class UIView;
 @protocol _UICursorAccessoryItemDataSource;
 
 __attribute__((visibility("hidden")))
 @interface _UICursorAccessoryView : UIVisualEffectView
 {
     UIView *_activeHighlightBackgroundView;
-    NSMutableOrderedSet *_displayedIdentifiers;
-    NSMutableDictionary *_itemViewsByIdentifier;
-    NSMutableArray *_dividerViews;
-    UITapGestureRecognizer *_accessoryItemTapGestureRecognizer;
-    _Bool _visionShouldColorSelection;
-    UIView *_containerView;
-    UIColor *_tintColor;
-    id <_UICursorAccessoryItemDataSource> _dataSource;
-    NSArray *_accessoryIdentifiers;
 }
 
 + (struct CGSize);
 + (double);
 + (double);
 + (double);
-+ (id);
++ (id)=;
 + (struct CGSize);
 + (double);
 - (id);
-- (void);
-- (void);
-- (double);
+- (void)sendEditedMessage:(id)arg1 previousMessage:(_Bool)arg2 partIndex:editType:toChatIdentifier:style:account:backwardCompatabilityText: /* Error: Ran out of types for this method. */;
+- (void)sendDictionary:(id)arg1 senderContext:withCompletionBlock: /* Error: Ran out of types for this method. */;
+- (double);
 - (id);
 - (void);
 - (struct CGRect);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)rs (%@ and %@);
+- (void)is SNaP trusted:%@ /* Error: Ran out of types for this method. */;
+- (void)m handle with:%@ /* Error: Ran out of types for this method. */;
+- (void)ces for both nickname services, giving up;
+- (void)ince we cannot transcode the entire asset:(unsigned long long)arg1 %@;
+- (id)ndidate for spam filtering.;
+- (void)oved a question mark from "%@";
+- (void)OTP_CLEANUP_ALERT_CONFIRM;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -61,17 +52,7 @@ __attribute__((visibility("hidden")))
 - (void)Ð/6ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *accessoryIdentifiers; // @synthesize accessoryIdentifiers=_accessoryIdentifiers;
-@property(readonly, nonatomic) double activeAccessoryXOffset;
 @property(nonatomic) __weak id <_UICursorAccessoryItemDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIColor *tintColor;
 
 @end
 

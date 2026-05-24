@@ -7,7 +7,6 @@
 @interface CLSiloIdleHandler
 {
     CDUnknownBlockType _onIdle;
-    CDUnknownBlockType _onResume;
 }
 
 - (void);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(copy) CDUnknownBlockType onIdle; // @synthesize onIdle=_onIdle;
-@property(copy) CDUnknownBlockType onResume; // @synthesize onResume=_onResume;
 
 @end
 

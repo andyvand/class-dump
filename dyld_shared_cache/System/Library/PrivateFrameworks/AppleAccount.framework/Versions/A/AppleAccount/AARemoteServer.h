@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AARemoteServerConfigurationCache, AAURLSession, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class AAURLSession;
 
 @interface AARemoteServer
 {
     struct os_unfair_lock_s _configurationLock;
-    NSObject<OS_dispatch_queue> *_configurationQueue;
-    AARemoteServerConfigurationCache *_configurationCache;
-    AAURLSession *_session;
 }
 
 + (id);
@@ -22,33 +18,25 @@
 - (id);
 - (void);
 - (void);
+- (id)(;
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void)etion: /* Error: Ran out of types for this method. */;
+- (void)requestNewURLBagIfNecessaryWithCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) AAURLSession *session; // @synthesize session=_session;
-@property(readonly, nonatomic) AAURLSession *signingSession;
-@property(readonly) Class superclass;
 
 @end
 

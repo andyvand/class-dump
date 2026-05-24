@@ -8,7 +8,6 @@
 {
     id _showDebugOptionsView;
     id _showDebugWindow;
-    id _$observationRegistrar;
 }
 
 @end

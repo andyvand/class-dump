@@ -5,5 +5,6 @@
 //
 
 @protocol MPCAssetLoaderDelegate
+- (void);
 @end
 

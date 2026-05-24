@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNCDSaveContext, NSArray, NSMutableArray;
+@class CNCDSaveContext, NSArray;
 
 __attribute__((visibility("hidden")))
 @interface CNCDContactSaveExecutor
 {
     NSArray *_allContactIdentifiers;
-    NSArray *_insertedContactIdentifiers;
-    CNCDSaveContext *_saveContext;
-    NSMutableArray *_addedContactsToRefresh;
-    NSMutableArray *_updatedContactsToRefresh;
-    NSMutableArray *_posterDataChangeRequests;
 }
 
 + (id);
@@ -27,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -41,23 +36,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)@;
 - (void);
 - (id);
-- (id);
+- (id)v@?B@"NSError">40;
 - (void);
 - (void);
 - (void);
-- (void)istingImagesWithImage: /* Error: Ran out of types for this method. */;
+- (void)updateExistingImagesWithImage: /* Error: Ran out of types for this method. */;
 - (id)load managed duplicates;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableArray *addedContactsToRefresh; // @synthesize addedContactsToRefresh=_addedContactsToRefresh;
-@property(readonly) NSArray *allContactIdentifiers; // @synthesize allContactIdentifiers=_allContactIdentifiers;
-@property(readonly) NSArray *insertedContactIdentifiers; // @synthesize insertedContactIdentifiers=_insertedContactIdentifiers;
-@property(readonly, nonatomic) NSMutableArray *posterDataChangeRequests; // @synthesize posterDataChangeRequests=_posterDataChangeRequests;
 @property(readonly, nonatomic) CNCDSaveContext *saveContext; // @synthesize saveContext=_saveContext;
-@property(readonly, nonatomic) NSMutableArray *updatedContactsToRefresh; // @synthesize updatedContactsToRefresh=_updatedContactsToRefresh;
 
 @end
 

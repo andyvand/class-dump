@@ -5,5 +5,7 @@
 //
 
 @protocol AVMobileGlassPlaybackControlsViewDelegate
+- (void)_p;
+- (void)NodeContainingP;
 @end
 

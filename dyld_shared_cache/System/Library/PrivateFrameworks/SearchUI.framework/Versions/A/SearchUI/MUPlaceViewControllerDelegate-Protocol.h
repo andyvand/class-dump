@@ -5,5 +5,9 @@
 //
 
 @protocol MUPlaceViewControllerDelegate
+
+@optional
+- (void);
+- (void);
 @end
 

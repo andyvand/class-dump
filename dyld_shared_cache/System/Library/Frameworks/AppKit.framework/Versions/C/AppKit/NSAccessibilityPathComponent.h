@@ -14,19 +14,19 @@ __attribute__((visibility("hidden")))
     NSPathControlItem *_pathItem;
 }
 
-+ (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
++ (id)on't need to be chunked.;
+- (id)@"NSDictionary",C;
+- (id)_downloadWithLoadingConnection:request:response:delegate:proxy: /* Error: Ran out of types for this method. */;
+- (id)e cred;
+- (id)ment:onConnection:toCompletionWithRetry:writeLockHelp - SQL=%s, error-code=%d, error-message=%s /* Error: Ran out of types for this method. */;
+- (id)iled:%s ErrCode:%d. /* Error: Ran out of types for this method. */;
+- (void)user_info BLOB);;
+- (_Bool)_kCFURLProtectionSpaceAuthenticationSchemePrivateAccessToken;
+- (_Bool)Negotiate;
+- (_Bool)SetInJavaScript;
+- (id)AVAssetDownloadSessionMediaSelectionPrefersMultichannelKey;
+- (id)connection;
+- (id)te count;
 - (id);
 - (void);
 

@@ -9,14 +9,12 @@
 @interface CNHandleStringClassification
 {
     NSArray *_emailAddresses;
-    NSArray *_phoneNumbers;
-    NSArray *_unknown;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)accumulatedSizeOfItemsInDomain:(id)arg1 completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -30,8 +28,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *emailAddresses; // @synthesize emailAddresses=_emailAddresses;
-@property(readonly, copy, nonatomic) NSArray *phoneNumbers; // @synthesize phoneNumbers=_phoneNumbers;
-@property(readonly, copy, nonatomic) NSArray *unknown; // @synthesize unknown=_unknown;
 
 @end
 

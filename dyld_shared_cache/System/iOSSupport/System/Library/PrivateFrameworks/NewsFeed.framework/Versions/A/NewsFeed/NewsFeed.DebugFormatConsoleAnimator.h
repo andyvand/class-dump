@@ -7,8 +7,6 @@
 @interface NewsFeed.DebugFormatConsoleAnimator
 {
     id editor;
-    id viewController;
-    id isDirty;
 }
 
 @end

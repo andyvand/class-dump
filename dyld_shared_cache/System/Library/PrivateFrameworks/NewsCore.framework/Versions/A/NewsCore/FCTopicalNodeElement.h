@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface FCTopicalNodeElement
 {
     NSString *_identifier;
-    NSSet *_topics;
-    double _score;
 }
 
 - (_Bool);
-- (id);
-- (void)rSourceMoreFromFeedBaselineClickValue;
+- (id)MSStickerBrowserViewDataSource;
+- (void)publisherBoostForSourceMoreFromFeedBaselineClickValue;
 
 @end
 

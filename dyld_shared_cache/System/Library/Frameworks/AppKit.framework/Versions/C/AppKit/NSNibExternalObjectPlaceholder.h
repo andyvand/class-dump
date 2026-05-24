@@ -11,15 +11,15 @@
     NSString *_externalObjectPlaceholderIdentifier;
 }
 
-+ (void);
-+ (void);
++ (void)NSURLSessionDownloadTaskSubclass;
++ (void)__NSCFURLSessionConnectionDelegate;
 + (struct __CFDictionary *);
-+ (id);
-+ (void);
-+ (void);
++ (id)nection %llu:(id)arg1 summary for unused connection {protocol="%{public}@", domain_lookup_duration_ms=%u, connect_duration_ms=%u, secure_connection_duration_ms=%u, private_relay=%{bool}d, idle_duration_ms=%u};
++ (void)needDataBuffer no longer supported;
++ (void)LConnection %p> { request = %@ };
 - (void);
 - (id);
-- (id);
+- (id)}s[%p] boringssl_session_state_create failed;
 - (void)1Â0@ù
 × ;
 - (void);

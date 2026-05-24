@@ -7,14 +7,14 @@
 @interface UnknownClass (FastEncoding)
 - (void);
 - (void);
+- (void)#;
+- (void);
+- (void)$;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 @end

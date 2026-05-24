@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SISchemaViewContainer : SISchemaInstrumentationMessage
 {
     NSString *_viewID;
-    NSString *_snippetClass;
-    NSString *_dialogIdentifier;
-    NSString *_dialogPhase;
-    _Bool _hasViewID;
-    _Bool _hasSnippetClass;
-    _Bool _hasDialogIdentifier;
-    _Bool _hasDialogPhase;
 }
 
 - (id);
@@ -42,24 +35,16 @@
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)isHiddenFromSpringboard;
 - (_Bool);
-- (_Bool);
+- (_Bool)IMDIndexing_CoreSpotlight;
 - (id);
 - (id);
-- (id)inContext;
-- (id)ontextTier1;
-- (void)LASSETACQUISITIONERRORCODE_UNKNOWN;
+- (id)deleteInformationPluginContext;
+- (id)_hasFlowEntityContextTier1;
+- (void)MILASSETACQUISITIONERRORCODE_UNKNOWN;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *dialogIdentifier; // @synthesize dialogIdentifier=_dialogIdentifier;
-@property(copy, nonatomic) NSString *dialogPhase; // @synthesize dialogPhase=_dialogPhase;
-@property(nonatomic) _Bool hasDialogIdentifier; // @synthesize hasDialogIdentifier=_hasDialogIdentifier;
-@property(nonatomic) _Bool hasDialogPhase; // @synthesize hasDialogPhase=_hasDialogPhase;
-@property(nonatomic) _Bool hasSnippetClass; // @synthesize hasSnippetClass=_hasSnippetClass;
-@property(nonatomic) _Bool hasViewID; // @synthesize hasViewID=_hasViewID;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *snippetClass; // @synthesize snippetClass=_snippetClass;
 @property(copy, nonatomic) NSString *viewID; // @synthesize viewID=_viewID;
 
 @end

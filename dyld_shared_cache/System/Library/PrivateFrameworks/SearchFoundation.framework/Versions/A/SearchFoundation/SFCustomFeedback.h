@@ -6,32 +6,26 @@
 
 #import <SearchFoundation/SFFeedback.h>
 
-@class NSData, NSDictionary;
-
 @interface SFCustomFeedback : SFFeedback
 {
     unsigned long long _feedbackType;
-    NSDictionary *_jsonFeedback;
-    NSData *_data;
 }
 
 + (_Bool);
+- (id);
+- (void);
+- (id)resourceLoader:(id)arg1 shouldWaitForResponseToAuthenticationChallenge: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
-- (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)tifier;
 - (void)untUnigramMatchInRecipientEmailAddresses;
 - (unsigned long long)U;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *data; // @synthesize data=_data;
 @property(nonatomic) unsigned long long feedbackType; // @synthesize feedbackType=_feedbackType;
-@property(copy, nonatomic) NSDictionary *jsonFeedback; // @synthesize jsonFeedback=_jsonFeedback;
 
 @end
 

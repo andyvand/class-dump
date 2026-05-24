@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface MUMathExpressionBase
 {
     NSMutableDictionary *_indicesForVariables;
-    NSError *_lastError;
 }
 
 + (id);
 - (void);
 - (id);
 - (void);
-- (id)ow: /* Error: Ran out of types for this method. */;
-- (void)currentState;
+- (id)textFormatFromShadow: /* Error: Ran out of types for this method. */;
+- (void)_currentState;
 
 @end
 

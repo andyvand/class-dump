@@ -9,22 +9,20 @@
 @interface SPDataIntegrityCheck
 {
     NSString *_value;
-    long long _severity;
 }
 
 + (_Bool);
 - (void);
 - (id);
 - (long long);
-- (void);
+- (void);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)com_apple_mobilesms_filterSubcategory;
+- (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long severity; // @synthesize severity=_severity;
 @property(copy, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end

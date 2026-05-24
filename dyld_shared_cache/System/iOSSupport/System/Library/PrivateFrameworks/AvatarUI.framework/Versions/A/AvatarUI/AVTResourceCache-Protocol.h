@@ -5,5 +5,8 @@
 //
 
 @protocol AVTResourceCache
+
+@optional
+- (void);
 @end
 

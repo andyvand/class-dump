@@ -11,15 +11,10 @@
 @interface AppKit.IntelligenceUI.PromptEntryView.BackgroundView : NSView
 {
     id isActive;
-    id shouldUseIntelligenceEffects;
-    id undeprecatedCornerRadius;
-    id contentView;
-    id colorView;
-    id platterView;
 }
 
-- (id);
-- (id)idSidebarIfNecessary;
+- (id)H$;
+- (id)_startObservingWindowOverlaidSidebarIfNecessary;
 - (id);
 - (void)í´CE;
 

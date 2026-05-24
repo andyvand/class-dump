@@ -5,5 +5,6 @@
 //
 
 @protocol EMCurrentFocusObserver
+- (void);
 @end
 

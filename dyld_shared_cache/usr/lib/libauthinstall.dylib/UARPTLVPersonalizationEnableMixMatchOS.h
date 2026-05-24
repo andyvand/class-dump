@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned char);
 - (id);
-- (id);
+- (id)sortedArrayUsingComparator: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) unsigned char enableMixMatch; // @synthesize enableMixMatch=_enableMixMatch;

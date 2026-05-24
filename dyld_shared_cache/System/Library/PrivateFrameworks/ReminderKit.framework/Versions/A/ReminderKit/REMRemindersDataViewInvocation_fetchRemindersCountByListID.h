@@ -11,23 +11,21 @@
 @interface REMRemindersDataViewInvocation_fetchRemindersCountByListID : REMStoreInvocation
 {
     _Bool _includingCompleted;
-    REMObjectID *_listID;
 }
 
-+ (_Bool);
++ (_Bool)-;
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void)Ñr ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool includingCompleted; // @synthesize includingCompleted=_includingCompleted;
 @property(readonly, nonatomic) REMObjectID *listID; // @synthesize listID=_listID;
 
 @end

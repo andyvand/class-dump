@@ -4,39 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCameraStreamSessionInfo, HMFTimer, NSDictionary, NSMutableArray, NSObject, NSString;
-@protocol HMDVideoStreamReconfigureDelegate, OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface HMDVideoStreamReconfigure
 {
     _Bool _reconfigurationMode;
-    NSDictionary *_downlinkQualityInfo;
-    NSMutableArray *_reconfigureEvents;
-    HMFTimer *_upgradeDebouceTimer;
-    HMFTimer *_downgradeDebouceTimer;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMDCameraStreamSessionInfo *_streamSessionInfo;
-    id <HMDVideoStreamReconfigureDelegate> _delegate;
-    double _upgradeInterval;
 }
 
 + (id);B;
 - (void);
 - (id);
-- (void);
+- (void)lic}@] will remove and send stopped with reason:(id)arg1 %lu;
 - (id);
 - (void)is supported for user [%@] since there is not a schedule set on hap Accessory [%@];
 - (void)ype %tu;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

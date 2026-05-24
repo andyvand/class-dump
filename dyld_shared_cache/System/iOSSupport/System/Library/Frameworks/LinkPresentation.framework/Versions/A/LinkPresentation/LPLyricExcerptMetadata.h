@@ -4,38 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface LPLyricExcerptMetadata
 {
     NSString *_lyrics;
-    NSString *_language;
-    NSNumber *_startTime;
-    NSNumber *_endTime;
 }
 
 + (_Bool);
-- (id);
+- (id)a[1];
 - (id);
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void)
 × ;
-- (void)minantBackgroundColorAsCaptionBackgroundForProperties:(id)arg1;
+- (void)_shouldUseDominantBackgroundColorAsCaptionBackgroundForProperties:(id)arg1;
 - (id)o/x-wav;
 - (void)/¦;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *endTime; // @synthesize endTime=_endTime;
-@property(copy, nonatomic) NSString *language; // @synthesize language=_language;
 @property(copy, nonatomic) NSString *lyrics; // @synthesize lyrics=_lyrics;
-@property(retain, nonatomic) NSNumber *startTime; // @synthesize startTime=_startTime;
 
 @end
 

@@ -7,19 +7,17 @@
 @interface APPCTapAction
 {
     long long actionType;
-    double confirmedClickInterval;
 }
 
 + (id);
 - (id);
 - (double);
 - (void);
-- (id);
+- (id);
 - (long long);
 
 // Remaining properties
 @property(nonatomic, readonly) long long actionType; // @synthesize actionType;
-@property(nonatomic, readonly) double confirmedClickInterval; // @synthesize confirmedClickInterval;
 
 @end
 

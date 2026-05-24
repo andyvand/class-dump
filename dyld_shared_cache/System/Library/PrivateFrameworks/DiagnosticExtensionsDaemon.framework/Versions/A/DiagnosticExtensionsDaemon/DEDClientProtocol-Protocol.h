@@ -5,5 +5,9 @@
 //
 
 @protocol DEDClientProtocol
+- (void)C;
+
+@optional
+- (long long)sions.media;
 @end
 

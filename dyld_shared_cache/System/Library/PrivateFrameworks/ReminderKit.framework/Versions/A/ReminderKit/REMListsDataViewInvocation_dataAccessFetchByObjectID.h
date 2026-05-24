@@ -13,10 +13,10 @@
     NSArray *_objectIDs;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)vN;
+- (id);
 - (_Bool);
 - (void);
 - (id);

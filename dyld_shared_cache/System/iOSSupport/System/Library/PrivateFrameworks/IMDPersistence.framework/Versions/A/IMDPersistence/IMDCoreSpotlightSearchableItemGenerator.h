@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol IMDCoreSpotlightSearchableItemGeneratorDelegate, IMDIndexingMessageScrutinyController;
+@protocol IMDIndexingMessageScrutinyController;
 
 @interface IMDCoreSpotlightSearchableItemGenerator
 {
     id <IMDIndexingMessageScrutinyController> _scrutinyController;
-    id <IMDCoreSpotlightSearchableItemGeneratorDelegate> _delegate;
 }
 
 + (_Bool);
@@ -23,7 +22,6 @@
 - (void)Persistence service ready %{bool}d after %ld attempt(s);
 
 // Remaining properties
-@property(readonly, nonatomic) id <IMDCoreSpotlightSearchableItemGeneratorDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) id <IMDIndexingMessageScrutinyController> scrutinyController; // @synthesize scrutinyController=_scrutinyController;
 
 @end

@@ -4,29 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, geo_isolater;
+@class geo_isolater;
 
 __attribute__((visibility("hidden")))
 @interface GEORoutePreloaderStatisticsInfo
 {
     geo_isolater *_isolation;
-    int _transportType;
-    double _startMonotonicTimestamp;
-    unsigned long long _nonPreloadedTilesLoadedFromNetwork;
-    unsigned long long _nonPreloadedTilesFailed;
-    _Bool _loggingEnabled;
-    unsigned long long _counts[7];
-    NSMutableDictionary *_tileTypeToCount;
-    NSMutableDictionary *_tileTypeToBytes;
-    NSMutableDictionary *_tileTypeToMissedCount;
-    NSMutableDictionary *_tileTypeToMissedBytes;
 }
 
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
+- (id)upgradeGuardianWhitelistedProperties;
+- (void)decodeObjectOfClasses:(long long)arg1 forKey:(unsigned long long)arg2;
+- (void)@"NSError"16;
 - (id);
 - (void)ÿB=P@;
 

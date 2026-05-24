@@ -11,21 +11,16 @@
 @interface PHAssetPhotosSmartStyleExtendedProperties : PHAssetPropertySet
 {
     unsigned short _smartStyleIsReversible;
-    NSNumber *_smartStyleRenderingVersion;
-    NSNumber *_smartStyleToneBias;
-    NSNumber *_smartStyleColorBias;
-    NSNumber *_smartStyleIntensity;
-    NSNumber *_originalSmartStyleCast;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)ufferSizeUsed;
 + (id)frequentLocations;
 + (id)¶b;
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)@;
 - (id);
 - (id);
 - (unsigned short);
@@ -35,12 +30,7 @@
 - (id)ø¼;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *originalSmartStyleCast; // @synthesize originalSmartStyleCast=_originalSmartStyleCast;
-@property(readonly, nonatomic) NSNumber *smartStyleColorBias; // @synthesize smartStyleColorBias=_smartStyleColorBias;
-@property(readonly, nonatomic) NSNumber *smartStyleIntensity; // @synthesize smartStyleIntensity=_smartStyleIntensity;
-@property(readonly, nonatomic) unsigned short smartStyleIsReversible; // @synthesize smartStyleIsReversible=_smartStyleIsReversible;
 @property(readonly, nonatomic) NSNumber *smartStyleRenderingVersion; // @synthesize smartStyleRenderingVersion=_smartStyleRenderingVersion;
-@property(readonly, nonatomic) NSNumber *smartStyleToneBias; // @synthesize smartStyleToneBias=_smartStyleToneBias;
 
 @end
 

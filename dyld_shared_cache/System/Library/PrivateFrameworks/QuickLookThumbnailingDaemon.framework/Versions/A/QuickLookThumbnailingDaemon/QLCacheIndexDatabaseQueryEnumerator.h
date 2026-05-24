@@ -6,67 +6,37 @@
 
 #import <QuickLookThumbnailingDaemon/QLCacheIndexDatabaseGenericEnumerator.h>
 
-@class NSArray, NSDate, NSDictionary, QLCacheBlobInfo, QLCacheFileIdentifier, QLTBitmapFormat;
+@class NSDictionary;
 
 @interface QLCacheIndexDatabaseQueryEnumerator : QLCacheIndexDatabaseGenericEnumerator
 {
     NSDictionary *_fileRequests;
-    NSArray *_allFileRequests;
-    unsigned char _iconMode;
-    float _size;
-    unsigned int _hitCount;
-    int _flavor;
-    int _interpolationQuality;
-    unsigned long long _cacheId;
-    QLCacheFileIdentifier *_fileIdentifier;
-    long long _iconVariant;
-    unsigned long long _badgeType;
-    unsigned long long _externalGeneratorDataHash;
-    NSDate *_lastHitDate;
-    QLCacheBlobInfo *_bitmapDataBlobInfo;
-    QLCacheBlobInfo *_plistBufferBlobInfo;
-    QLTBitmapFormat *_bitmapFormat;
-    struct CGRect _contentRect;
 }
 
-- (_Bool);
-- (id);
+- (_Bool)/,;
+- (id)��;
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
-- (void);
+- (void)x;
+- (void)R;
 - (unsigned long long);
+- (id)setHasTaskAbandonCountForEntityInUsingApp1Hr: /* Error: Ran out of types for this method. */;
+- (int)setHasTargetSpeed: /* Error: Ran out of types for this method. */;
+- (long long)setHasSuggestionNoveltyState: /* Error: Ran out of types for this method. */;
+- (unsigned char)setHasSuggestionMetadata: /* Error: Ran out of types for this method. */;
+- (unsigned long long)";
 - (id);
-- (int);
-- (long long);
-- (unsigned char);
-- (unsigned long long);
 - (id);
-- (id);
-- (void);
+- (void);
 - (float);
-- (int);
+- (int));
 - (struct CGRect);
-- (unsigned int);
+- (unsigned int)ary(BridgeOSSoftwareUpdateStateAdditions) addPathForFileTransfer:] /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long badgeType; // @synthesize badgeType=_badgeType;
-@property(readonly, nonatomic) QLCacheBlobInfo *bitmapDataBlobInfo; // @synthesize bitmapDataBlobInfo=_bitmapDataBlobInfo;
-@property(readonly, nonatomic) QLTBitmapFormat *bitmapFormat; // @synthesize bitmapFormat=_bitmapFormat;
 @property(readonly, nonatomic) unsigned long long cacheId; // @synthesize cacheId=_cacheId;
-@property(readonly, nonatomic) struct CGRect contentRect; // @synthesize contentRect=_contentRect;
-@property(readonly, nonatomic) unsigned long long externalGeneratorDataHash; // @synthesize externalGeneratorDataHash=_externalGeneratorDataHash;
-@property(readonly, nonatomic) QLCacheFileIdentifier *fileIdentifier; // @synthesize fileIdentifier=_fileIdentifier;
-@property(readonly, nonatomic) int flavor; // @synthesize flavor=_flavor;
-@property(readonly, nonatomic) unsigned int hitCount; // @synthesize hitCount=_hitCount;
-@property(readonly, nonatomic) unsigned char iconMode; // @synthesize iconMode=_iconMode;
-@property(readonly, nonatomic) long long iconVariant; // @synthesize iconVariant=_iconVariant;
-@property(readonly, nonatomic) int interpolationQuality; // @synthesize interpolationQuality=_interpolationQuality;
-@property(readonly, nonatomic) NSDate *lastHitDate; // @synthesize lastHitDate=_lastHitDate;
-@property(readonly, nonatomic) QLCacheBlobInfo *metadataBlobInfo; // @synthesize metadataBlobInfo=_plistBufferBlobInfo;
-@property(readonly, nonatomic) float size; // @synthesize size=_size;
 
 @end
 

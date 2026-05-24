@@ -5,21 +5,18 @@
 //
 
 @class WBSCompletionQuery;
-@protocol WBSOfflineSearchSuggestionsFetcherDelegate;
 
 @interface WBSOfflineSearchSuggestionsFetcher
 {
     unsigned long long _offlineSuggestionsStatus;
-    WBSCompletionQuery *_currentQuery;
-    id <WBSOfflineSearchSuggestionsFetcherDelegate> _delegate;
 }
 
-- (id);
+- (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -29,8 +26,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) WBSCompletionQuery *currentQuery; // @synthesize currentQuery=_currentQuery;
-@property(nonatomic) __weak id <WBSOfflineSearchSuggestionsFetcherDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic, getter=areOfflineSearchSuggestionsAvailable) _Bool offlineSuggestionsAvailable;
 
 @end
 

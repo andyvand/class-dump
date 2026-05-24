@@ -4,56 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TSTLayout, TSTLayoutSpace;
+@class TSTLayout;
 
 @interface TSTLayoutSpaceBundle
 {
     TSTLayout *mLayout;
-    TSTLayoutSpace *mSpace;
-    TSTLayoutSpace *mFrozenHeaderColumnsSpace;
-    TSTLayoutSpace *mFrozenHeaderRowsSpace;
-    TSTLayoutSpace *mFrozenHeaderCornerSpace;
-    TSTLayoutSpace *mRepeatHeaderColumnsSpace;
-    TSTLayoutSpace *mRepeatHeaderRowsSpace;
-    TSTLayoutSpace *mRepeatHeaderCornerSpace;
 }
 
-- (int);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (int)UpgradeOnPlay;
+- (void)rossfade;
+- (void)match Crossfade;
+- (void)16^B24;
+- (void)actualDeviceCount;
+- (void)rray"16@?<v@?@"MRAVEndpoint">24;
+- (void)mote endpoint;
+- (id)- Failing play [Media services unavailable]- identifier: /* Error: Ran out of types for this method. */;
+- (id)r: /* Error: Ran out of types for this method. */;
+- (id)play [state restoration] - identifier: /* Error: Ran out of types for this method. */;
+- (_Bool)pped when entering Paused state;
+- (_Bool)entering paused state;
 - (void);
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (void)Ի;
+- (id);
 - (void);
-- (id)KeyValueProxyLeafType;
+- (void);
+- (id);
+- (id);
+- (void);
+- (id)isKeyValueProxyLeafType;
 
 // Remaining properties
-@property(retain, nonatomic) TSTLayoutSpace *frozenHeaderColumnsSpace; // @synthesize frozenHeaderColumnsSpace=mFrozenHeaderColumnsSpace;
-@property(retain, nonatomic) TSTLayoutSpace *frozenHeaderCornerSpace; // @synthesize frozenHeaderCornerSpace=mFrozenHeaderCornerSpace;
-@property(retain, nonatomic) TSTLayoutSpace *frozenHeaderRowsSpace; // @synthesize frozenHeaderRowsSpace=mFrozenHeaderRowsSpace;
 @property(nonatomic) TSTLayout *layout; // @synthesize layout=mLayout;
-@property(retain, nonatomic) TSTLayoutSpace *repeatHeaderColumnsSpace; // @synthesize repeatHeaderColumnsSpace=mRepeatHeaderColumnsSpace;
-@property(retain, nonatomic) TSTLayoutSpace *repeatHeaderCornerSpace; // @synthesize repeatHeaderCornerSpace=mRepeatHeaderCornerSpace;
-@property(retain, nonatomic) TSTLayoutSpace *repeatHeaderRowsSpace; // @synthesize repeatHeaderRowsSpace=mRepeatHeaderRowsSpace;
-@property(retain, nonatomic) TSTLayoutSpace *space; // @synthesize space=mSpace;
 
 @end
 

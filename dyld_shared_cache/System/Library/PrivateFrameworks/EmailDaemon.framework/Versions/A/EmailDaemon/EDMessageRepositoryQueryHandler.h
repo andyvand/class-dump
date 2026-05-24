@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDMessagePersistence, EDPersistenceHookRegistry, EDRemindMeNotificationController, EFLocked, EMObjectID, EMQuery, NSSet, NSString;
-@protocol EMMessageListItemQueryResultsObserver;
+@class EFLocked;
 
 @interface EDMessageRepositoryQueryHandler
 {
     struct atomic_flag _didStart;
-    NSSet *_mailboxes;
-    EMQuery *_query;
-    EDMessagePersistence *_messagePersistence;
-    EDPersistenceHookRegistry *_hookRegistry;
-    EDRemindMeNotificationController *_remindMeNotificationController;
-    id <EMMessageListItemQueryResultsObserver> _resultsObserver;
-    EMObjectID *_observationIdentifier;
-    long long _dateSortOrder;
-    EFLocked *_summaryLoadersMapTable;
 }
 
 - (id);
@@ -27,18 +17,18 @@
 - (id);
 - (id);
 - (id);
+- (_Bool)#;
+- (id);
+- (long long);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void)P�W.;
 - (_Bool);
-- (id);
-- (long long);
-- (id);
-- (id);
 - (void);
 - (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
+- (id)_rtCoexSubType;
 - (id)
 × ;
 - (void)ue"16;
@@ -46,22 +36,7 @@
 - (id)Ü;
 
 // Remaining properties
-@property(readonly, nonatomic) long long dateSortOrder; // @synthesize dateSortOrder=_dateSortOrder;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) EDPersistenceHookRegistry *hookRegistry; // @synthesize hookRegistry=_hookRegistry;
-@property(readonly, copy, nonatomic) NSSet *mailboxes; // @synthesize mailboxes=_mailboxes;
-@property(readonly, nonatomic) EDMessagePersistence *messagePersistence; // @synthesize messagePersistence=_messagePersistence;
-@property(readonly, nonatomic) EMObjectID *observationIdentifier; // @synthesize observationIdentifier=_observationIdentifier;
-@property(readonly, copy, nonatomic) EMQuery *query; // @synthesize query=_query;
-@property(readonly, nonatomic) EDRemindMeNotificationController *remindMeNotificationController; // @synthesize remindMeNotificationController=_remindMeNotificationController;
-@property(readonly, nonatomic) id <EMMessageListItemQueryResultsObserver> resultsObserver; // @synthesize resultsObserver=_resultsObserver;
 @property(retain, nonatomic) EFLocked *summaryLoadersMapTable; // @synthesize summaryLoadersMapTable=_summaryLoadersMapTable;
-@property(readonly) Class superclass;
 
 @end
 

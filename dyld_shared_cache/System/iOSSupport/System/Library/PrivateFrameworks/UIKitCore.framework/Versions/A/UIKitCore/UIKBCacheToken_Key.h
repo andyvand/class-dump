@@ -6,44 +6,23 @@
 
 #import <UIKitCore/UIKBCacheToken.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface UIKBCacheToken_Key : UIKBCacheToken
 {
-    CDUnion_bf7716c0 _style;
-    NSString *_cacheDisplayString;
-    NSString *_cacheSecondaryDisplayString;
-    NSString *_annotationString;
-    NSString *_layoutTag;
-    int _displayTypeHint;
-    int _state;
-    unsigned long long _clipCorners;
-    struct UIEdgeInsets _displayInsets;
-    unsigned long long _groupNeighbors;
-    struct CGSize _size;
-    int _displayRowHint;
-    int _controlKeyBackgroundName;
-    int _appSpecificBackgroundContrastSetting;
-    int _appSpecificDarkenSystemColorsSetting;
-    int _appSpecificEnhanceTextLegibilitySetting;
-    int _appSpecificReduceHighlightingEffectsSetting;
-    _Bool _usesInsets;
-    _Bool _lightKeyboard;
-    _Bool _colorAdaptiveBackground;
-    _Bool _animatedBackground;
-    _Bool _usesCompactKeycapsFont;
-    _Bool _differentDisplayStrings;
+    union {
+        CDStruct_227bb23d styling;
+        int intValue;
+    } _style;
 }
 
-+ (id);
++ (id)cheduling a fetch operation from attachment zone;
 + (id);
 - (id);
-- (void);
+- (void)pmenergy.dylib;
 - (CDStruct_227bb23d);
-- (void);
+- (void)MPModelStaticAsset;
 - (id);
-- (id);
+- (id)ionOfKind:%ld, for artwork catalog:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
 - (int);
 - (void);

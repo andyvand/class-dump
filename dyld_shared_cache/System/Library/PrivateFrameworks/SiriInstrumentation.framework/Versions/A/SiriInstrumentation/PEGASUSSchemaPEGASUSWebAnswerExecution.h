@@ -6,34 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
-
 @interface PEGASUSSchemaPEGASUSWebAnswerExecution : SISchemaInstrumentationMessage
 {
     unsigned int _answerType;
-    unsigned int _allowListType;
-    unsigned int _fuzzyMatchType;
-    unsigned int _subDomain;
-    unsigned int _quality;
-    unsigned int _answerClass;
-    unsigned int _numHighlights;
-    unsigned int _numCallouts;
-    unsigned int _numLinkedCallouts;
-    NSArray *_contentAgeInSeconds;
-    struct {
-        unsigned int answerType:1;
-        unsigned int allowListType:1;
-        unsigned int fuzzyMatchType:1;
-        unsigned int subDomain:1;
-        unsigned int quality:1;
-        unsigned int answerClass:1;
-        unsigned int numHighlights:1;
-        unsigned int numCallouts:1;
-        unsigned int numLinkedCallouts:1;
-    } _has;
 }
 
 - (unsigned int);
+- (void);
+- (void)_ր;
 - (void);
 - (void);
 - (void);
@@ -46,11 +26,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (unsigned int);
 - (unsigned int);
-- (unsigned int);
-- (unsigned int);
+- (unsigned int)?׳;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -85,39 +63,20 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)rom syndication;
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)asonDescription;
+- (id)_hasFlowStateReasonDescription;
 - (id)aTTSSynthesisEnded",&,N,V_ended;
 - (_Bool)datesGenerated;
-- (void)NTITYCONTEXTTYPE_ON_SCREEN_PERSON;
+- (void)QDENTITYCONTEXTTYPE_ON_SCREEN_PERSON;
 - (unsigned int)tive;
 - (void)|Â6*ç9&>;
 - (void)äÿ;
 
 // Remaining properties
-@property(nonatomic) unsigned int allowListType; // @synthesize allowListType=_allowListType;
-@property(nonatomic) unsigned int answerClass; // @synthesize answerClass=_answerClass;
 @property(nonatomic) unsigned int answerType; // @synthesize answerType=_answerType;
-@property(copy, nonatomic) NSArray *contentAgeInSeconds; // @synthesize contentAgeInSeconds=_contentAgeInSeconds;
-@property(nonatomic) unsigned int fuzzyMatchType; // @synthesize fuzzyMatchType=_fuzzyMatchType;
-@property(nonatomic) _Bool hasAllowListType;
-@property(nonatomic) _Bool hasAnswerClass;
-@property(nonatomic) _Bool hasAnswerType;
-@property(nonatomic) _Bool hasFuzzyMatchType;
-@property(nonatomic) _Bool hasNumCallouts;
-@property(nonatomic) _Bool hasNumHighlights;
-@property(nonatomic) _Bool hasNumLinkedCallouts;
-@property(nonatomic) _Bool hasQuality;
-@property(nonatomic) _Bool hasSubDomain;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int numCallouts; // @synthesize numCallouts=_numCallouts;
-@property(nonatomic) unsigned int numHighlights; // @synthesize numHighlights=_numHighlights;
-@property(nonatomic) unsigned int numLinkedCallouts; // @synthesize numLinkedCallouts=_numLinkedCallouts;
-@property(nonatomic) unsigned int quality; // @synthesize quality=_quality;
-@property(nonatomic) unsigned int subDomain; // @synthesize subDomain=_subDomain;
 
 @end
 

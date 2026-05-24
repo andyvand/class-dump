@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)h";
-- (id)ngHoursCount;
+- (id)_operatingHoursCount;
 - (id)0;
 - (void)MhXRrG@;
 

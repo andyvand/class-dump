@@ -4,33 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface SFWatchAuthenticationEvent
 {
     _Bool _succeeded;
-    _Bool _screenOn;
-    unsigned int _failureReason;
-    float _rangingDistance;
-    unsigned long long _authenticationType;
-    double _arTrackingDistance;
-    NSString *_approveClientBundleID;
-    double _discoveryDuration;
-    double _keyExchangeDuration;
-    double _tokenExchangeDuration;
-    double _awdlBringUpDuration;
-    double _rangingDuration;
-    double _peerFoundDuration;
-    double _totalDuration;
-    double _timeSinceBoot;
-    double _timeSinceRemoteUnlocked;
-    NSString *_watchHardwareModel;
-    NSString *_watchSoftwareVersion;
-    NSString *_remoteHardwareModel;
-    NSString *_remoteSoftwareVersion;
 }
 
-+ (id);
++ (id),;
 - (id);
 - (id);
 - (double);
@@ -44,12 +23,12 @@
 - (void);
 - (void);
 - (void);
+- (void)P;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -63,7 +42,7 @@
 - (double);
 - (id);
 - (float);
-- (double);
+- (double);
 - (void);
 - (_Bool);
 - (void);
@@ -76,34 +55,7 @@
 - (void)Wþÿ:tþÿ£þÿ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *approveClientBundleID; // @synthesize approveClientBundleID=_approveClientBundleID;
-@property(nonatomic) double arTrackingDistance; // @synthesize arTrackingDistance=_arTrackingDistance;
 @property(nonatomic) unsigned long long authenticationType; // @synthesize authenticationType=_authenticationType;
-@property(nonatomic) double awdlBringUpDuration; // @synthesize awdlBringUpDuration=_awdlBringUpDuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double discoveryDuration; // @synthesize discoveryDuration=_discoveryDuration;
-@property(readonly, copy, nonatomic) NSDictionary *eventPayload;
-@property(nonatomic) unsigned int failureReason; // @synthesize failureReason=_failureReason;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double keyExchangeDuration; // @synthesize keyExchangeDuration=_keyExchangeDuration;
-@property(nonatomic) double peerFoundDuration; // @synthesize peerFoundDuration=_peerFoundDuration;
-@property(nonatomic) float rangingDistance; // @synthesize rangingDistance=_rangingDistance;
-@property(nonatomic) double rangingDuration; // @synthesize rangingDuration=_rangingDuration;
-@property(copy, nonatomic) NSString *remoteHardwareModel; // @synthesize remoteHardwareModel=_remoteHardwareModel;
-@property(copy, nonatomic) NSString *remoteSoftwareVersion; // @synthesize remoteSoftwareVersion=_remoteSoftwareVersion;
-@property(nonatomic) _Bool screenOn; // @synthesize screenOn=_screenOn;
-@property(nonatomic) _Bool succeeded; // @synthesize succeeded=_succeeded;
-@property(readonly) Class superclass;
-@property(nonatomic) double timeSinceBoot; // @synthesize timeSinceBoot=_timeSinceBoot;
-@property(nonatomic) double timeSinceRemoteUnlocked; // @synthesize timeSinceRemoteUnlocked=_timeSinceRemoteUnlocked;
-@property(nonatomic) double tokenExchangeDuration; // @synthesize tokenExchangeDuration=_tokenExchangeDuration;
-@property(nonatomic) double totalDuration; // @synthesize totalDuration=_totalDuration;
-@property(copy, nonatomic) NSString *watchHardwareModel; // @synthesize watchHardwareModel=_watchHardwareModel;
-@property(copy, nonatomic) NSString *watchSoftwareVersion; // @synthesize watchSoftwareVersion=_watchSoftwareVersion;
 
 @end
 

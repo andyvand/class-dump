@@ -7,16 +7,6 @@
 @interface AppStoreKit.Paragraph
 {
     id languageAwareText;
-    id $__lazy_storage_$_text;
-    id languageAwareCollapsedText;
-    id $__lazy_storage_$_collapsedText;
-    id alignment;
-    id style;
-    id isCollapsed;
-    id suppressVerticalMargins;
-    id id;
-    id impressionMetrics;
-    id automationMetadata;
 }
 
 @end

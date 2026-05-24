@@ -7,9 +7,6 @@
 @interface PXBezierCurve
 {
     id _startP;
-    id _ctrlP1;
-    id _ctrlP2;
-    id _endP;
 }
 
 - (CDStruct_efe6456d);

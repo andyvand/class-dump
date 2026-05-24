@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString;
+@class NSDate, NSString;
 
 @interface WBSSavedAccountUnknownHistoryItem
 {
     NSString *_identifier;
-    NSDate *_date;
-    NSString *_type;
-    NSDictionary *_dictionaryRepresentation;
 }
 
 - (id);
 - (unsigned long long);
-- (id);
-- (_Bool);
-- (id);
+- (id)allManageableStoreAccountDSIDsWithError: /* Error: Ran out of types for this method. */;
+- (_Bool)(;
+- (id)mapping for MPModelPropertyMovieDownloadedDate;
 - (id);
 - (id);
 - (void)XÐ1Â0@ù
@@ -26,16 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation; // @synthesize dictionaryRepresentation=_dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface VOSCommandCategory
 {
     NSArray *_commands;
-    NSString *_localizedCategoryName;
 }
 
 + (id);
@@ -23,15 +22,15 @@
 + (id);
 + (id);
 + (id);
++ (id);
++ (id){;
++ (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)P;
 + (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -41,7 +40,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *commands; // @synthesize commands=_commands;
-@property(retain, nonatomic) NSString *localizedCategoryName; // @synthesize localizedCategoryName=_localizedCategoryName;
 
 @end
 

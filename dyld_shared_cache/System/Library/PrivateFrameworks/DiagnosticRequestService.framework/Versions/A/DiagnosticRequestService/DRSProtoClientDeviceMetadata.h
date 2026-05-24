@@ -10,14 +10,11 @@ __attribute__((visibility("hidden")))
 @interface DRSProtoClientDeviceMetadata
 {
     NSString *_buildVariant;
-    NSString *_deviceCategory;
-    NSString *_deviceModel;
-    NSString *_platform;
 }
 
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)optimized_layout_increment_unit_iPad;
 - (_Bool);
 - (id);
 - (id);
@@ -34,19 +31,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
-- (id)e: /* Error: Ran out of types for this method. */;
+- (id)jsonCompatibleDictionaryRepresentationVerbose: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *buildVariant; // @synthesize buildVariant=_buildVariant;
-@property(retain, nonatomic) NSString *deviceCategory; // @synthesize deviceCategory=_deviceCategory;
-@property(retain, nonatomic) NSString *deviceModel; // @synthesize deviceModel=_deviceModel;
 @property(readonly, nonatomic) _Bool hasBuildVariant;
-@property(readonly, nonatomic) _Bool hasDeviceCategory;
-@property(readonly, nonatomic) _Bool hasDeviceModel;
-@property(readonly, nonatomic) _Bool hasPlatform;
-@property(retain, nonatomic) NSString *platform; // @synthesize platform=_platform;
 
 @end
 

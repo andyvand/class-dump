@@ -6,28 +6,11 @@
 
 #import <QuartzComposer/QCMeshPort.h>
 
-@class QCArray, QCImagePort_Cache, QCMesh;
+@class QCMesh;
 
 @interface QCOpenGLPort_Mesh : QCMeshPort
 {
     QCMesh *_savedMesh;
-    QCArray *_vertices;
-    QCArray *_colors;
-    QCArray *_normals;
-    QCArray *_indices;
-    QCArray *_texCoords;
-    CDStruct_772be272 _saveVertexState;
-    CDStruct_772be272 _saveColorState;
-    CDStruct_772be272 _saveNormalState;
-    CDStruct_772be272 _saveTexCoordState;
-    CDStruct_772be272 _saveIndexState;
-    QCImagePort_Cache *_texturePort[16];
-    int _saveLineSmoothHint;
-    int _sourceFunction;
-    int _destFunction;
-    unsigned char _saveLineSmoothEnabled;
-    unsigned char _saveBlendingEnabled;
-    void *_unused6[4];
 }
 
 - (void);

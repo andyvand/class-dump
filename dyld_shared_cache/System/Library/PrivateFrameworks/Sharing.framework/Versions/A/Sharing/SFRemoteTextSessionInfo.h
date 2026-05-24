@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface SFRemoteTextSessionInfo
 {
     _Bool _secureTextEntry;
-    NSString *_identifier;
-    long long _keyboardType;
-    NSString *_prompt;
-    long long _returnKeyType;
-    NSDictionary *_rtiPayload;
-    NSString *_text;
-    NSString *_title;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (id);
 - (id);
@@ -27,17 +20,17 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)9;
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)FlagPasswordVersionMismatch;
+- (id);
 - (id);
-- (id);
 - (void);
 - (void);
-- (long long)ppendBytes:length: /* Error: Ran out of types for this method. */;
+- (long long)appendBytes:length: /* Error: Ran out of types for this method. */;
 - (void);
 - (long long)øõ;
 - (void);
@@ -45,13 +38,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) long long keyboardType; // @synthesize keyboardType=_keyboardType;
-@property(copy, nonatomic) NSString *prompt; // @synthesize prompt=_prompt;
-@property(nonatomic) long long returnKeyType; // @synthesize returnKeyType=_returnKeyType;
-@property(copy, nonatomic) NSDictionary *rtiPayload; // @synthesize rtiPayload=_rtiPayload;
-@property(nonatomic) _Bool secureTextEntry; // @synthesize secureTextEntry=_secureTextEntry;
-@property(copy, nonatomic) NSString *text; // @synthesize text=_text;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

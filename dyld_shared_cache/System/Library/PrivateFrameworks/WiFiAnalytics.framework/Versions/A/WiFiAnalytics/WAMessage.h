@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSString;
 
 @interface WAMessage
 {
     NSString *_metricName;
-    NSMutableDictionary *_metricInfo;
-    long long _options;
 }
 
 + (_Bool);
@@ -18,21 +16,19 @@
 - (id);
 - (void);
 - (void);
-- (long long);
+- (long long)A;
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)isDeviceVibrating;
+- (id)N5CMMsl15BioMotionAnchorE;
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSMutableDictionary *metricInfo; // @synthesize metricInfo=_metricInfo;
 @property(copy, nonatomic) NSString *metricName; // @synthesize metricName=_metricName;
-@property(nonatomic) long long options; // @synthesize options=_options;
 
 @end
 

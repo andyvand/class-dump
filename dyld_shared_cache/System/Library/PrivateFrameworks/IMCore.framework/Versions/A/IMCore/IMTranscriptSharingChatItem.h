@@ -10,7 +10,7 @@
 {
 }
 
-- (id);
+- (id)vcScreenCaptureScreenAndCameraMixingEnabled;
 - (id);
 
 @end

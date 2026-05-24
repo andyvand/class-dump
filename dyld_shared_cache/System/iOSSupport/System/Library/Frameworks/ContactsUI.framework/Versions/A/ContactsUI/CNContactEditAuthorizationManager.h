@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNContactStore, CNContactViewCache, CNContainer, CNUIEditAuthorizationController, NSString;
+@class CNContact;
 
 @interface CNContactEditAuthorizationManager
 {
     _Bool _ignoresParentalRestrictions;
-    CNContactViewCache *_contactViewCache;
-    CNContact *_contact;
-    CNContactStore *_contactStore;
-    CNContainer *_parentContainer;
-    CNUIEditAuthorizationController *_authorizationController;
-    long long _authorizationResult;
-    CDUnknownBlockType _authorizationResultBlock;
 }
 
+- (void);
+- (id)q	;
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)@9	;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -32,7 +25,7 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)emMetadataLoader";
 - (void);
 - (void);
 - (CDUnknownBlockType);
@@ -45,21 +38,7 @@
 - (id)Î;
 
 // Remaining properties
-@property(retain, nonatomic) CNUIEditAuthorizationController *authorizationController; // @synthesize authorizationController=_authorizationController;
-@property(nonatomic) long long authorizationResult; // @synthesize authorizationResult=_authorizationResult;
-@property(copy, nonatomic) CDUnknownBlockType authorizationResultBlock; // @synthesize authorizationResultBlock=_authorizationResultBlock;
 @property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(retain, nonatomic) CNContactViewCache *contactViewCache; // @synthesize contactViewCache=_contactViewCache;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool ignoresParentalRestrictions; // @synthesize ignoresParentalRestrictions=_ignoresParentalRestrictions;
-@property(retain, nonatomic) CNContainer *parentContainer; // @synthesize parentContainer=_parentContainer;
-@property(readonly) Class superclass;
 
 @end
 

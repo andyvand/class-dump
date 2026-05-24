@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)U;
 
 // Remaining properties
 @property(readonly, nonatomic) CTLazuliDeepLinkBase64StringDecoded *decodedPayload;

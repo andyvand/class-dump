@@ -9,7 +9,6 @@
 @interface ICTTAttachment
 {
     NSString *_attachmentIdentifier;
-    NSString *_attachmentUTI;
 }
 
 + (_Bool);

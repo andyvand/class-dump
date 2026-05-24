@@ -5,5 +5,8 @@
 //
 
 @protocol LADaemonXPC
+- (void);
+- (void)a;
+- (void)16;
 @end
 

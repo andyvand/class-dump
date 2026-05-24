@@ -7,9 +7,9 @@
 @protocol UIKBEmojiHitTestResponder
 - (_Bool)%@ reverted successfully:%@ /* Error: Ran out of types for this method. */;
 - (void)iledImage = %@>;
-- (void)ginatingContentOffset;
+- (void)originatingContentOffset;
 - (void)duplicate commands. This is a UIKit internal bug.;
-- (void)ccessoryCSg;
+- (void)So14UITabAccessoryCSg;
 - (void)bsÑôæ[;
 @end
 

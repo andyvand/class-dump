@@ -4,30 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateComponents, NSDictionary, NSMeasurement, NSNumber, NSString;
+@class NSMeasurement;
 
 @protocol INGetCarPowerLevelStatusIntentResponseExport
-- (long long)rmReferenceType;
+- (void);
+- (NSMeasurement *);
+- (void)A;
+- (void);
+- (long long)hasAlarmReferenceType;
 
 // Remaining properties
-@property(copy) NSString *activeConnector;
-@property(copy) NSString *carIdentifier;
-@property(copy) NSNumber *chargePercentRemaining;
-@property(copy) NSNumber *charging;
-@property(copy) NSDictionary *chargingFormulaArguments;
 @property(readonly) long long code;
-@property(copy) NSDictionary *consumptionFormulaArguments;
-@property(copy) NSMeasurement *currentBatteryCapacity;
-@property(copy) NSDateComponents *dateOfLastStateUpdate;
-@property(copy) NSMeasurement *distanceRemaining;
-@property(copy) NSMeasurement *distanceRemainingElectric;
-@property(copy) NSMeasurement *distanceRemainingFuel;
-@property(copy) NSNumber *fuelPercentRemaining;
-@property(copy) NSMeasurement *maximumBatteryCapacity;
-@property(copy) NSMeasurement *maximumDistance;
-@property(copy) NSMeasurement *maximumDistanceElectric;
-@property(copy) NSMeasurement *maximumDistanceFuel;
-@property(copy) NSMeasurement *minimumBatteryCapacity;
-@property(copy) NSNumber *minutesToFull;
 @end
 

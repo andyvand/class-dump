@@ -9,18 +9,16 @@
 @interface PXLabelAnimationContext
 {
     UXLabel *_label;
-    struct CGRect _destinationRect;
 }
 
 - (id);
 - (void);
 - (id);
 - (struct CGRect);
-- (void)braryStatusInSubtitle;
+- (void)showSharedLibraryStatusInSubtitle;
 - (void);
 
 // Remaining properties
-@property struct CGRect destinationRect; // @synthesize destinationRect=_destinationRect;
 @property(retain) UXLabel *label; // @synthesize label=_label;
 
 @end

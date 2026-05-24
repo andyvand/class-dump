@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface MRRemoteArtwork
 {
     NSString *_artworkURLString;
-    NSData *_artworkURLTemplateData;
 }
 
 + (_Bool);
@@ -27,7 +26,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *artworkURLString; // @synthesize artworkURLString=_artworkURLString;
-@property(readonly, nonatomic) NSData *artworkURLTemplateData; // @synthesize artworkURLTemplateData=_artworkURLTemplateData;
 
 @end
 

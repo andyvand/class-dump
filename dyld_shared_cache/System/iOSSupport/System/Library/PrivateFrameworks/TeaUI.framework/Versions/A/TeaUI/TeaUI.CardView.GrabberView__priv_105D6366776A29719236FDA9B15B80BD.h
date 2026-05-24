@@ -9,8 +9,8 @@
 }
 
 - (id);
-- (id);
-- (_Bool);
+- (id)stringWithFormat:(struct CGRect)arg1;
+- (_Bool);
 
 @end
 

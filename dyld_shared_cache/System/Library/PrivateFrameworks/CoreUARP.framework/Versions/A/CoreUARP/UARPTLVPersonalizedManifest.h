@@ -11,20 +11,19 @@
 @interface UARPTLVPersonalizedManifest : UARPMetaDataTLVData
 {
     NSData *_manifest;
-    NSData *_nonce;
 }
 
 + (id);
 + (id);
 + (id);
-+ (unsigned int);
-- (id);
-- (id);
-- (void);
-- (id);
++ (unsigned int)ch is already marked complete.;
+- (id);
 - (id);
 - (void);
 - (id);
+- (id)OSLogObject;
+- (void);
+- (id)setting redXYZ (+others) to (%f, %f, %f), and setting valid;
 
 // Remaining properties
 @property(readonly) NSData *nonce; // @synthesize nonce=_nonce;

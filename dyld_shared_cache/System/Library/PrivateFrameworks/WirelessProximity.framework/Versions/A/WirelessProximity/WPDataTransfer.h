@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableData, NSUUID;
+@class NSMutableData;
 
 @interface WPDataTransfer
 {
     _Bool _receivedFirstPacket;
-    unsigned short _currentDataSize;
-    NSMutableData *_currentReceivedData;
-    NSUUID *_peerUUID;
 }
 
 - (void);
@@ -28,10 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned short currentDataSize; // @synthesize currentDataSize=_currentDataSize;
 @property(retain, nonatomic) NSMutableData *currentReceivedData; // @synthesize currentReceivedData=_currentReceivedData;
-@property(retain, nonatomic) NSUUID *peerUUID; // @synthesize peerUUID=_peerUUID;
-@property(nonatomic) _Bool receivedFirstPacket; // @synthesize receivedFirstPacket=_receivedFirstPacket;
 
 @end
 

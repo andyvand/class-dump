@@ -7,6 +7,7 @@
 @class NSArray;
 
 @protocol TIUserModeling
+- (NSArray *)embeddingBasedTitleSuggestionProxiesForInteractionStatistics:withPredictionContext:useCatalog: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *contexts;

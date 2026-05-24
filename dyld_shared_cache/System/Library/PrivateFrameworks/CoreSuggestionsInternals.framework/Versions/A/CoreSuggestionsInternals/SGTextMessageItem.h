@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString, SGTextMessage;
+@class SGTextMessage;
 
 @interface SGTextMessageItem
 {
     SGTextMessage *_message;
-    NSString *_text;
-    NSString *_senderID;
-    NSDate *_timestamp;
-    NSString *_language;
-    NSArray *_detectedData;
-    NSArray *_features;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)chRequest;
 - (id);
 - (id);
 - (id);
@@ -31,16 +25,10 @@
 - (id);
 - (id);
 - (void);
-- (void)ntact:conversationId:store:handle: /* Error: Ran out of types for this method. */;
+- (void)augmentSuggestedContactWithContact:conversationId:store:handle: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSArray *detectedData; // @synthesize detectedData=_detectedData;
-@property(retain) NSArray *features; // @synthesize features=_features;
-@property(readonly) NSString *language; // @synthesize language=_language;
 @property(readonly) SGTextMessage *message; // @synthesize message=_message;
-@property(readonly, nonatomic) NSString *senderID; // @synthesize senderID=_senderID;
-@property(readonly, nonatomic) NSString *text; // @synthesize text=_text;
-@property(readonly, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

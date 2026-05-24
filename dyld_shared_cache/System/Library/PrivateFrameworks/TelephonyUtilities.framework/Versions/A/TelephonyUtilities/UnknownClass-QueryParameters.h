@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSString;
 
 @interface UnknownClass (QueryParameters)
 + (id);
@@ -12,8 +12,8 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
++ (id)=;
 + (id);
 + (id);
 + (id);
@@ -26,6 +26,15 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id)1	?א;
 + (id);
 + (id);
 + (id);
@@ -46,6 +55,18 @@
 + (id);
 + (id);
 + (id);
++ (id)Y#A�6;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -59,33 +80,12 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 - (id);
 - (_Bool);
 - (long long);
-- (id);
+- (id)!;
 - (id);
 - (id);
 - (id);
@@ -101,6 +101,34 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool): /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -112,35 +140,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)6%;
 - (id);
 - (long long);
 - (_Bool);
@@ -164,35 +164,13 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)!;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) int addressBookUID;
-@property(readonly, nonatomic, getter=isBasebandLogURL) _Bool basebandLogURL;
-@property(readonly) int callService;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) _Bool forceAssist;
-@property(readonly, copy, nonatomic) NSString *formattedPhoneNumber;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isEmergencyCallURL;
-@property(readonly) _Bool isEmergencyURL;
-@property(readonly) _Bool isVoicemailURL;
-@property(readonly) NSString *originatingUIIdentifier;
-@property(readonly, nonatomic, getter=isPhoneAppVoicemailURL) _Bool phoneAppVoicemailURL;
 @property(readonly) NSString *phoneNumber;
-@property(readonly, nonatomic) NSString *recentsUniqueID;
-@property(readonly) Class superclass;
-@property(readonly) _Bool suppressAssist;
-@property(readonly, copy, nonatomic) NSUUID *voicemailMessageUUID;
-@property(readonly, nonatomic) long long voicemailRecordID;
-@property(readonly) _Bool wasAlreadyAssisted;
 @end
 

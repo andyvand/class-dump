@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PMLModelRegressor, PMLModelWeights, PMLSparseMatrix;
+@class PMLModelWeights;
 
 @interface PMLGradientSolver
 {
     float _learningRate;
-    float _stoppingThreshold;
-    unsigned long long _minIterations;
-    CDUnknownBlockType _gradientCalculator;
-    CDUnknownBlockType _predictionCalculator;
-    CDUnknownBlockType _batchPredictionCalculator;
-    _Bool _intercept;
-    PMLModelWeights *_weights;
-    PMLSparseMatrix *_covariates;
-    PMLModelRegressor *_objective;
 }
 
 - (id);
@@ -31,17 +22,14 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)removeObjectsAtIndexes:(id)arg1;
 - (id);
 - (_Bool);
-- (float);
+- (float);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) PMLSparseMatrix *covariates; // @synthesize covariates=_covariates;
-@property(nonatomic) _Bool intercept; // @synthesize intercept=_intercept;
-@property(retain, nonatomic) PMLModelRegressor *objective; // @synthesize objective=_objective;
 @property(retain, nonatomic) PMLModelWeights *weights; // @synthesize weights=_weights;
 
 @end

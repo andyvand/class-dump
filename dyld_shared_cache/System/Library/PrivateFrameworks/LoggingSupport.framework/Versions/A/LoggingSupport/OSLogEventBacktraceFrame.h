@@ -9,20 +9,16 @@
 @interface OSLogEventBacktraceFrame
 {
     unsigned char _uuid[16];
-    NSUUID *_imageUUID;
-    unsigned long long _imageOffset;
 }
 
 - (void);
 - (id);
 - (const char *);
 - (unsigned long long);
-- (id);
+- (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long imageOffset; // @synthesize imageOffset=_imageOffset;
 @property(readonly, nonatomic) NSUUID *imageUUID;
-@property(readonly, nonatomic) const char *imageUUIDBytes;
 
 @end
 

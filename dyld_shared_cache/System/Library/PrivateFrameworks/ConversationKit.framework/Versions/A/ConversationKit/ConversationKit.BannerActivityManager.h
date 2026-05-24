@@ -7,10 +7,6 @@
 @interface ConversationKit.BannerActivityManager
 {
     id features;
-    id _bannerPresentationManager;
-    id _callUIPresentationStateProvider;
-    id presentedActivity;
-    id updates;
 }
 
 + (id);

@@ -13,13 +13,13 @@
     MCPlug *_plug;
 }
 
+- (void)AppData;
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (long long);
+- (long long)A;
 - (_Bool);
 - (void);
 

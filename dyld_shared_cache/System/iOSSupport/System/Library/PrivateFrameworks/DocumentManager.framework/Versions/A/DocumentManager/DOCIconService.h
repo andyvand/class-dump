@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableSet, NSObject, NSURL;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSDictionary;
 
 @interface DOCIconService
 {
     NSDictionary *_documentSourceIconCache;
-    NSURL *_cacheFolderURL;
-    NSObject<OS_dispatch_queue> *_ioQueue;
-    NSObject<OS_dispatch_source> *_ioTimer;
-    NSMutableSet *_updatedProviderDomains;
-    _Bool _loadedFromDisk;
-    NSMutableSet *_providersToPersist;
 }
 
 + (id);
@@ -25,7 +18,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)a;
 - (id);
 - (void);
 - (void);

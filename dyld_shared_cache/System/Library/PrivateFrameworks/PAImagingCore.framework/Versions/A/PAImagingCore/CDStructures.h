@@ -11,18 +11,18 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct CGPoint {
-    double x;
-    double y;
+    double _field1;
+    double _field2;
 };
 
 struct CGRect {
-    struct CGPoint origin;
-    struct CGSize size;
+    struct CGPoint _field1;
+    struct CGSize _field2;
 };
 
 struct CGSize {
-    double width;
-    double height;
+    double _field1;
+    double _field2;
 };
 
 struct CGVector {
@@ -46,11 +46,6 @@ struct Vector2d {
     double Y;
 };
 
-struct mach_timebase_info {
-    unsigned int numer;
-    unsigned int denom;
-};
-
 struct vector<double, std::allocator<double>> {
     double *__begin_;
     double *__end_;
@@ -62,7 +57,7 @@ struct vector<double, std::allocator<double>> {
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    unsigned long long width;
-    unsigned long long height;
-} CDStruct_5e758c1a;
+    unsigned long long _field1;
+    unsigned long long _field2;
+} CDStruct_4bcfbbae;
 

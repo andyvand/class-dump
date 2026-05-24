@@ -5,5 +5,9 @@
 //
 
 @protocol NSAnimationDelegate
+
+@optional
+- (_Bool);
+- (void);
 @end
 

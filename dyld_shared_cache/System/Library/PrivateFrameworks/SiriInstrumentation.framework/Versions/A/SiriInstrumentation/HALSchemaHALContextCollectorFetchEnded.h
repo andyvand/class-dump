@@ -6,12 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface HALSchemaHALContextCollectorFetchEnded : SISchemaInstrumentationMessage
 {
     unsigned int _numDeviceContextsFetched;
-    CDStruct_ec4f4247 _has;
 }
 
 - (void);
@@ -24,14 +21,12 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)dictionaryValue;
 - (id)ermalState"b1"thermalLevel"b1};
 - (id)ributeType;
 - (id)m;
 
 // Remaining properties
-@property(nonatomic) _Bool hasNumDeviceContextsFetched;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned int numDeviceContextsFetched; // @synthesize numDeviceContextsFetched=_numDeviceContextsFetched;
 
 @end

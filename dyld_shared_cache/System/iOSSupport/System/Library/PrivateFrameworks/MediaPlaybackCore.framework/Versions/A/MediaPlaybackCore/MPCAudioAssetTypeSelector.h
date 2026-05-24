@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICEnvironmentMonitor, MPCPlaybackEngine, MPPlaybackUserDefaults, MSVABTestGenerator, MSVTrialExperiment;
+@class MPPlaybackUserDefaults;
 
 @interface MPCAudioAssetTypeSelector
 {
     MPPlaybackUserDefaults *_defaults;
-    MPCPlaybackEngine *_playbackEngine;
-    ICEnvironmentMonitor *_environmentMonitor;
-    MSVABTestGenerator *_outcomeGenerator;
-    MSVTrialExperiment *_trialExperiment;
 }
 
 - (_Bool);
@@ -21,28 +17,28 @@
 - (long long);
 - (long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)y;
 - (_Bool);
 - (void);
 - (_Bool);
+- (_Bool)RE;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)ntsDaemon.framework/Versions/A/AccountsDaemon;
+- (id)p;
 - (id);
 - (long long);
 - (_Bool);
-- (long long);
+- (long long)canRemoveAccount:inStore:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)identifier;
+- (id)debugDescription;
 - (unsigned long long);
 - (id);
 - (id);
@@ -60,21 +56,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) MPPlaybackUserDefaults *defaults; // @synthesize defaults=_defaults;
-@property(retain, nonatomic) ICEnvironmentMonitor *environmentMonitor; // @synthesize environmentMonitor=_environmentMonitor;
-@property(readonly, nonatomic) long long maxResolution;
-@property(readonly, nonatomic) _Bool networkBandwidthIsHigh;
-@property(readonly, nonatomic) MSVABTestGenerator *outcomeGenerator; // @synthesize outcomeGenerator=_outcomeGenerator;
-@property(readonly, nonatomic) __weak MPCPlaybackEngine *playbackEngine; // @synthesize playbackEngine=_playbackEngine;
-@property(readonly, nonatomic) _Bool prefersHighQualityStereo;
-@property(readonly, nonatomic) _Bool prefersHighResolutionLossless;
-@property(readonly, nonatomic) _Bool prefersLossless;
-@property(readonly, nonatomic) _Bool prefersLowQualityStereo;
-@property(readonly, nonatomic) _Bool prefersSpatialOverLossless;
-@property(readonly, nonatomic) _Bool spatialIsAlwaysOn;
-@property(readonly, nonatomic) _Bool spatialIsAutomatic;
-@property(readonly, nonatomic) _Bool spatialIsOff;
-@property(readonly, nonatomic) long long spatialPreference;
-@property(retain, nonatomic) MSVTrialExperiment *trialExperiment; // @synthesize trialExperiment=_trialExperiment;
 
 @end
 

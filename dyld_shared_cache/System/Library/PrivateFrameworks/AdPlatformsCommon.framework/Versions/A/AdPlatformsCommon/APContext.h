@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class APContentDepiction, NSArray, NSDate, NSDictionary, NSString, NSUUID;
+@class NSUUID;
 
 @interface APContext
 {
     NSUUID *_identifier;
-    NSString *_requestedAdIdentifier;
-    APContentDepiction *_current;
-    NSArray *_adjacent;
-    NSDictionary *_supplementalContext;
-    NSDate *_prefetchTimestamp;
-    CDStruct_8caa76fc _maxSize;
 }
 
-+ (_Bool);
++ (_Bool)rawRepresentation;
 - (id);
 - (void);
 - (void);
@@ -29,25 +23,18 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)!;
+- (void)4<;
 - (id);
 - (id);
-- (void);
-- (CDStruct_8caa76fc);
+- (void)E2;
+- (CDStruct_c3b9c2ee);
 - (void)XBùñ·ð1Â0@ù
 × ;
 - (id)<;
 
 // Remaining properties
-@property(retain) NSArray *adjacent; // @synthesize adjacent=_adjacent;
-@property(retain) APContentDepiction *current; // @synthesize current=_current;
-@property(readonly) NSString *fingerprint;
 @property(retain) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property CDStruct_8caa76fc maxSize; // @synthesize maxSize=_maxSize;
-@property(retain) NSDate *prefetchTimestamp; // @synthesize prefetchTimestamp=_prefetchTimestamp;
-@property(retain) NSString *requestedAdIdentifier; // @synthesize requestedAdIdentifier=_requestedAdIdentifier;
-@property(retain) NSDictionary *supplementalContext; // @synthesize supplementalContext=_supplementalContext;
 
 @end
 

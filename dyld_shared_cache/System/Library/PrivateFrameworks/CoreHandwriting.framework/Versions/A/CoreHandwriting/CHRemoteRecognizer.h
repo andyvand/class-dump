@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCConnection;
+@class NSXPCConnection;
 
 @interface CHRemoteRecognizer
 {
     NSXPCConnection *__connection;
-    _Bool _enableCachingIfAvailable;
-    unsigned long long _maxRecognitionResultCount;
-    long long _priority;
-    struct CGSize _minimumDrawingSize;
 }
 
 + (long long);
@@ -24,9 +20,9 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (struct CGSize);
+- (struct CGSize);
 - (void);
-- (void);
+- (void)ingSuggestions != nil;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -34,17 +30,7 @@
 - (long long)youtAnalysisManagerInference";
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool enableCachingIfAvailable; // @synthesize enableCachingIfAvailable=_enableCachingIfAvailable;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long maxRecognitionResultCount; // @synthesize maxRecognitionResultCount=_maxRecognitionResultCount;
-@property(nonatomic) struct CGSize minimumDrawingSize; // @synthesize minimumDrawingSize=_minimumDrawingSize;
 @property(nonatomic) long long priority; // @synthesize priority=_priority;
-@property(readonly) Class superclass;
 
 @end
 

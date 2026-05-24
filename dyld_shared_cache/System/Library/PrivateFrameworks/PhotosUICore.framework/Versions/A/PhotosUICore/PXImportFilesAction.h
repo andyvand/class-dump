@@ -6,14 +6,11 @@
 
 #import <PhotosUICore/PXPhotosAction.h>
 
-@class NSArray, PHAssetCollection, PHFetchResult;
+@class NSArray, PHFetchResult;
 
 @interface PXImportFilesAction : PXPhotosAction
 {
     NSArray *_fileURLs;
-    PHAssetCollection *_assetCollection;
-    NSArray *_importedAssetsIdentifiers;
-    PHFetchResult *_importedAssets;
 }
 
 - (id);

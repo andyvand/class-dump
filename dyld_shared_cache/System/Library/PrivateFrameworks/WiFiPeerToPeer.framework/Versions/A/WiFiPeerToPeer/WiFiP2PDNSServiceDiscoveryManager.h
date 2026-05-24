@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, WiFiP2PXPCConnection;
-
 @interface WiFiP2PDNSServiceDiscoveryManager
 {
     _Bool _useWiFiAware;
-    CDUnknownBlockType _serviceCallback;
-    NSMutableArray *_registeredServices;
-    WiFiP2PXPCConnection *_xpcConnection;
 }
 
 - (void);
@@ -19,7 +14,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)?;
 - (id);
 - (id);
 - (void);
@@ -27,13 +22,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

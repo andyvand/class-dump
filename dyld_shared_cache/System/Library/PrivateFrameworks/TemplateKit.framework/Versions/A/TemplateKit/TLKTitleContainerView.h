@@ -6,39 +6,33 @@
 
 #import <TemplateKit/TLKStackView.h>
 
-@class NUIContainerBoxView, TLKImageView, TLKLabel, TLKRichTextField;
+@class TLKRichTextField;
 
 @interface TLKTitleContainerView : TLKStackView
 {
     TLKRichTextField *_titleField;
-    TLKLabel *_secondaryLabel;
-    NUIContainerBoxView *_secondaryImageViewBoxView;
-    TLKImageView *_secondaryImageView;
 }
 
 + (_Bool);
 - (void);
 - (id);
 - (void);
+- (void)R;
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
+- (void)AMFDREncodeRepairConfigurationAddData;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)0;
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) TLKImageView *secondaryImageView; // @synthesize secondaryImageView=_secondaryImageView;
-@property(retain, nonatomic) NUIContainerBoxView *secondaryImageViewBoxView; // @synthesize secondaryImageViewBoxView=_secondaryImageViewBoxView;
-@property(retain, nonatomic) TLKLabel *secondaryLabel; // @synthesize secondaryLabel=_secondaryLabel;
 @property(retain, nonatomic) TLKRichTextField *titleField; // @synthesize titleField=_titleField;
 
 @end

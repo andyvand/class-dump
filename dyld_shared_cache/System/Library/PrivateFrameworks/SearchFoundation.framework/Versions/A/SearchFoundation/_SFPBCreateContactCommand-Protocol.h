@@ -7,10 +7,9 @@
 @class NSData, _SFPBPerson;
 
 @protocol _SFPBCreateContactCommand
+- (NSData *)PHSearchSuggestion;
 
 // Remaining properties
-@property(nonatomic) _Bool addToExistingContact;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBPerson *person;
 @end
 

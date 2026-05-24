@@ -18,10 +18,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)5;
 - (void);
 - (id);
-- (id);
+- (id)_expectedFiringTimeSinceReferenceDate;
 - (unsigned long long);
 - (_Bool);
 - (void);

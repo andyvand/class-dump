@@ -12,7 +12,7 @@
 + (id);
 - (id);
 - (id);
-- (void)ributedStringByFlatteningCalculateAttachmentsWithContext: /* Error: Ran out of types for this method. */;
+- (void)ic_attributedStringByFlatteningCalculateAttachmentsWithContext: /* Error: Ran out of types for this method. */;
 
 @end
 

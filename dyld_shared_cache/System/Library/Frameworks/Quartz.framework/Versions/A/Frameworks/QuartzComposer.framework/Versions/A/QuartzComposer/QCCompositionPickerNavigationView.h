@@ -7,8 +7,6 @@
 @interface QCCompositionPickerNavigationView
 {
     id _controller;
-    id _leftButton;
-    id _rightButton;
 }
 
 - (id);

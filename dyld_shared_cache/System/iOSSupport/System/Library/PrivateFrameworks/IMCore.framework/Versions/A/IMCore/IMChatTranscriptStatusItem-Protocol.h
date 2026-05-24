@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @protocol IMChatTranscriptStatusItem
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *dateOfStatus;
-@property(readonly, nonatomic) long long expireStatusType;
 @property(readonly, nonatomic) long long statusType;
 @end
 

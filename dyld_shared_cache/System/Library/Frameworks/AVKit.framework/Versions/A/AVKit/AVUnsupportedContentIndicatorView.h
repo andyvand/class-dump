@@ -10,8 +10,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
-- (id);
+- (void)dAccessories (_cid:%lu)
+ /* Error: Ran out of types for this method. */;
+- (id)ffer.buildReadOutputPartitionFromState;
 
 @end
 

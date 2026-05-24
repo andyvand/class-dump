@@ -7,8 +7,6 @@
 @interface TSDPathCut
 {
     long long mSegment;
-    double mT;
-    double mSkew;
 }
 
 - (id);
@@ -19,8 +17,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long segment; // @synthesize segment=mSegment;
-@property(readonly, nonatomic) double skew; // @synthesize skew=mSkew;
-@property(readonly, nonatomic) double t; // @synthesize t=mT;
 
 @end
 

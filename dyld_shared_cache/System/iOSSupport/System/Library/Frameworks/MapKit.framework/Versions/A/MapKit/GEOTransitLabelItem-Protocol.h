@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol GEOTransitArtworkDataSource;
 
 @protocol GEOTransitLabelItem
+- (id <GEOTransitArtworkDataSource>);
 
 // Remaining properties
-@property(readonly, nonatomic) id <GEOTransitArtworkDataSource> labelArtwork;
-@property(readonly, nonatomic) NSString *labelString;
 @property(readonly, nonatomic) unsigned long long type;
 @end
 

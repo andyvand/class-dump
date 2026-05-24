@@ -7,10 +7,6 @@
 @interface CalendarWidget.NarrowMultidayLayout.SingleDayViewModel
 {
     id date;
-    id viewHeights;
-    id eventsExistBeforeFirst;
-    id id;
-    id viewModels;
 }
 
 @end

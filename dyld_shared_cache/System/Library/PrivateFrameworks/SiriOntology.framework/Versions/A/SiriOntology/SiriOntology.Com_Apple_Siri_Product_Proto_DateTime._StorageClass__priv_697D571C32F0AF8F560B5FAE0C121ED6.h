@@ -7,15 +7,6 @@
 @interface SiriOntology.Com_Apple_Siri_Product_Proto_DateTime._StorageClass__priv_697D571C32F0AF8F560B5FAE0C121ED6
 {
     id _startDate;
-    id _endDate;
-    id _duration;
-    id _interval;
-    id _recurrence;
-    id _startTime;
-    id _endTime;
-    id _startPosition;
-    id _endPosition;
-    id _temporalIntent;
 }
 
 @end

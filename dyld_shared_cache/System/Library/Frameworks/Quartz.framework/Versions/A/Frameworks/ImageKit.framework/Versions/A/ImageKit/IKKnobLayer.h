@@ -4,32 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, IKComposer, IKImageLayer, IKKnob;
+@class IKComposer;
 
 @interface IKKnobLayer
 {
     IKComposer *_composer;
-    id _delegate;
-    IKImageLayer *_imageLayer;
-    struct CGPoint _eventMouseDownLocation;
-    CALayer *_originalLayer;
-    IKKnob *_knobs[12];
-    int _activeKnob;
-    int _hilightKnob;
-    int _dragMode;
-    struct CGPoint _originalPosition;
-    struct CGRect _originalBounds;
-    struct CATransform3D _originalTransform;
-    double _originalAngle;
-    _Bool _altKeyPressedOnMouseDown;
-    _Bool _cmdKeyPressedOnMouseDown;
-    _Bool _useOriginalLayerToDraw;
-    _Bool _quitting;
-    _Bool _undoGroupingActive;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -37,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)8hjh8i;
 - (void);
 - (void);
 - (void);
@@ -53,16 +36,16 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)setAllowsInsert: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (id);
+- (id);
+- (void);
+- (void)replaceAssetIndex:(struct CGRect)arg1;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void)iew_Advanced_CombineIntoSingleDocument;
+- (void)kIKScannerDeviceView_Advanced_CombineIntoSingleDocument;
 
 // Remaining properties
 @property id delegate; // @synthesize delegate=_delegate;

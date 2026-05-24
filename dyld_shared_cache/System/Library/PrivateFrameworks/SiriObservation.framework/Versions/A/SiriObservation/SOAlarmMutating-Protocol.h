@@ -5,5 +5,10 @@
 //
 
 @protocol SOAlarmMutating
+- (void);
+- (void)"NSError">;
+- (void);
+- (void);
+- (void);
 @end
 

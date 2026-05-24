@@ -7,7 +7,6 @@
 @interface NewsFeed.TagService
 {
     id tagController;
-    id subscriptionController;
 }
 
 @end

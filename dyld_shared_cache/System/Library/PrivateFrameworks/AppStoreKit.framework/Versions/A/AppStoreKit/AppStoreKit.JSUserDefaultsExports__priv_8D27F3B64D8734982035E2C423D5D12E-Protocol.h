@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSNumber;
+
 @protocol AppStoreKit.JSUserDefaultsExports__priv_8D27F3B64D8734982035E2C423D5D12E
+- (void);
+- (void);
+- (NSNumber *)o;
 @end
 

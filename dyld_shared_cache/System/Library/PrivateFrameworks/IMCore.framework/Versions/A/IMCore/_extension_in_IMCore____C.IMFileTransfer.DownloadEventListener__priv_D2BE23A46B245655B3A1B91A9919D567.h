@@ -7,11 +7,6 @@
 @interface (extension in IMCore):__C.IMFileTransfer.DownloadEventListener__priv_D2BE23A46B245655B3A1B91A9919D567
 {
     id $defaultActor;
-    id fileTransfer;
-    id notificationObservers;
-    id hasCompleted;
-    id continuations;
-    id timeoutTask;
 }
 
 - (id);

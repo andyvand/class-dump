@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (Class);
+- (Class)initWithLibrary:playlist:playlistEntryProperties:authorProfile: /* Error: Ran out of types for this method. */;
 
 @end
 

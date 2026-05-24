@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableDictionary, NSString, SCNOrderedDictionary;
-@protocol MTLLibrary;
+@class NSDictionary;
 
 @interface SCNTechnique
 {
     unsigned int _isPresentationInstance:1;
-    struct __C3DFXTechnique *_technique;
-    NSMutableDictionary *_valueForSymbol;
-    struct os_unfair_lock_s _valueForSymbolLock;
-    struct os_unfair_lock_s _animationsLock;
-    SCNOrderedDictionary *_animations;
-    NSMutableDictionary *_bindings;
-    id <MTLLibrary> _library;
-    NSArray *_passes;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 + (_Bool);
@@ -53,20 +44,20 @@
 - (_Bool);
 - (struct __C3DScene *);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void *);
 - (struct __C3DAnimationManager *);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -367,16 +358,7 @@ static void OsdComputePerPatchVertexGregory(int3 patchParam, unsigned ID, unsign
 ;
 
 // Remaining properties
-@property(readonly) NSArray *animationKeys;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <MTLLibrary> library;
-@property(readonly) Class superclass;
 
 @end
 

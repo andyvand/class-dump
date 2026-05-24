@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABPersistentStoreCoordinatorMap, ABPersistentStoreCoordinatorUpdater, NSString;
-@protocol ABAccountCollection, CNScheduler;
+@protocol ABAccountCollection;
 
 @interface ABPersistentStoreCoordinatorCache
 {
     id <ABAccountCollection> _accountCollection;
-    ABPersistentStoreCoordinatorMap *_coordinatorMap;
-    ABPersistentStoreCoordinatorUpdater *_coordinatorUpdater;
-    id <CNScheduler> _notificationPreprocessor;
-    _Bool _areStoresReadOnly;
 }
 
 + (id);
@@ -26,19 +21,18 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)C;
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id));
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(readonly) id <ABAccountCollection> accountCollection; // @synthesize accountCollection=_accountCollection;
-@property(readonly, copy) NSString *basePath;
 
 @end
 

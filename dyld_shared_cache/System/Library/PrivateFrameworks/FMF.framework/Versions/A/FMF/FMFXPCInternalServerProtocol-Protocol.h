@@ -5,5 +5,7 @@
 //
 
 @protocol FMFXPCInternalServerProtocol
+- (oneway void)mmCSCOptionsSetupViewControllerDidCancel:(void (^)(NSDictionary *))arg1;
+- (oneway void);
 @end
 

@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface _MPMediaKitEntityRelationshipTranslator : _MPKeyPathEntityRelationshipTranslator
 {
     NSString *_mediaKitType;
-    CDUnknownBlockType _payloadTransformBlock;
 }
 
 - (void);
@@ -20,11 +19,10 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (id);
 - (id);
-- (void)trolStateForPickedRoute;
+- (void)_volumeControlStateForPickedRoute;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *mediaKitType; // @synthesize mediaKitType=_mediaKitType;
-@property(readonly, nonatomic) CDUnknownBlockType payloadTransformBlock; // @synthesize payloadTransformBlock=_payloadTransformBlock;
 
 @end
 

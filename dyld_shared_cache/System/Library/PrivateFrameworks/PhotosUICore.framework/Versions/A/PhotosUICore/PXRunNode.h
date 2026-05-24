@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLock, NSSet, NSString, PXRunNodeOperation;
-@protocol PXRunNodeDelegate;
+@class NSSet, PXRunNodeOperation;
 
 @interface PXRunNode
 {
     PXRunNodeOperation *_operation;
-    NSArray *_dependencies;
-    id <PXRunNodeDelegate> _delegate;
-    NSSet *__dependencySet;
-    NSLock *__operationLock;
 }
 
 + (void);
@@ -28,7 +23,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -38,26 +33,11 @@
 - (_Bool)aj;
 - (void);
 - (_Bool)»/;
-- (void)osPreviewHeaderSlideshowContentViewModel;
+- (void)PhotosPreviewHeaderSlideshowContentViewModel;
 - (void)ÛMäü<;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *_dependencySet; // @synthesize _dependencySet=__dependencySet;
-@property(readonly, nonatomic) NSLock *_operationLock; // @synthesize _operationLock=__operationLock;
-@property(readonly, getter=isCanceled) _Bool canceled;
-@property(readonly, getter=isComplete) _Bool complete;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PXRunNodeDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy, nonatomic) NSArray *dependencies; // @synthesize dependencies=_dependencies;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, getter=isRunning) _Bool running;
-@property(readonly) unsigned long long state;
-@property(readonly) Class superclass;
-@property(readonly, getter=isWaiting) _Bool waiting;
 
 @end
 

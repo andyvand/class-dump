@@ -4,29 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSCharacterSet, NSSet, NSString;
+@class NSCharacterSet, NSString;
 
 @interface TIIndicScriptComposer
 {
     NSCharacterSet *_consonantLettersSet;
-    NSCharacterSet *_vowelLettersAndSigns;
-    NSCharacterSet *_vowelLetters;
-    NSArray *_consonantLetters;
-    NSArray *_contextualVowelLetters;
-    CDUnknownBlockType _vowelLetterToSignConverter;
-    CDUnknownBlockType _vowelModifierLetterToSignConverter;
-    NSSet *_singleGlyphConjuncts;
-    NSString *_languageIdentifier;
-    CDUnknownBlockType _contextFetcher;
 }
 
-- (id);
-- (void);
+- (id)lp get this request to the right place.;
+- (void)TTYMessageHoldString;
 - (id);
 - (CDUnknownBlockType);
-- (_Bool);
+- (_Bool)D;
 - (CDUnknownBlockType);
-- (id);
+- (id)V;
 - (id);
 - (CDUnknownBlockType);
 - (unsigned short);
@@ -41,7 +32,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (int);
 - (id);
 - (id);
@@ -50,11 +41,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool composesConsonants;
 @property(readonly, nonatomic) NSString *context;
-@property(copy, nonatomic) CDUnknownBlockType contextFetcher; // @synthesize contextFetcher=_contextFetcher;
-@property(retain, nonatomic) NSString *languageIdentifier; // @synthesize languageIdentifier=_languageIdentifier;
-@property(readonly, nonatomic) int scriptCode;
 
 @end
 

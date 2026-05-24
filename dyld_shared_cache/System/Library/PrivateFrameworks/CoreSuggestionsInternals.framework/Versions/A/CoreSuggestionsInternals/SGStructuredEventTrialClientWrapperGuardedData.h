@@ -9,10 +9,6 @@
 @interface SGStructuredEventTrialClientWrapperGuardedData
 {
     NSDictionary *_supportedProviders;
-    NSDictionary *_engineConfig;
-    NSDictionary *_structuredEventInputMapping;
-    NSDictionary *_structuredEventOutputMapping;
-    _Bool _foundInMailNotifications;
 }
 
 - (void)nsCount;

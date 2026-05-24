@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface AutoFillDisplayData
 {
     NSString *_label;
-    NSArray *_values;
-    NSString *_identifier;
-    NSString *_property;
 }
 
 - (id);
@@ -20,16 +17,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id)nFillingOnURL:formMetadata: /* Error: Ran out of types for this method. */;
+- (id)didAutomaticallySubmitFormWhenFillingOnURL:formMetadata: /* Error: Ran out of types for this method. */;
 - (id)cted tabs alert button;
 - (void)Ä;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 @property(readonly, copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(copy, nonatomic) NSString *property; // @synthesize property=_property;
-@property(readonly, copy, nonatomic) NSArray *values; // @synthesize values=_values;
 
 @end
 

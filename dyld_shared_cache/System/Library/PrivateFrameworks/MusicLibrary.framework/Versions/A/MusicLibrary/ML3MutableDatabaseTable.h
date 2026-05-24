@@ -6,19 +6,17 @@
 
 #import <MusicLibrary/ML3DatabaseTable.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface ML3MutableDatabaseTable : ML3DatabaseTable
 {
 }
 
-- (void);
+- (void)_appendDateCreatedToAsset:(id)arg1 indexingContext:forAsset: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *columns; // @dynamic columns;
-@property(copy, nonatomic) NSArray *foreignKeyConstraints; // @dynamic foreignKeyConstraints;
 @property(copy, nonatomic) NSString *name; // @dynamic name;
 
 @end

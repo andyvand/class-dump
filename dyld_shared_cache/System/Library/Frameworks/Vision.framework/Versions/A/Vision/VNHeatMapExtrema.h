@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface VNHeatMapExtrema
 {
     struct CGPoint _extrema[4];
-    float _extremeValues[4];
 }
 
 - (void);

@@ -5,5 +5,6 @@
 //
 
 @protocol cacheAssistantProtocol
+- (void)BB;
 @end
 

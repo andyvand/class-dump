@@ -4,32 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSData, NSString;
+@class NSColor;
 
 __attribute__((visibility("hidden")))
 @interface NSFavoriteColorStoreEntry
 {
     NSColor *_color;
-    NSString *_customColorClassName;
-    NSData *_customColorData;
 }
 
++ (id)d = %u;
 + (id);
-+ (id);
-- (id);
-- (id);
+- (id)parametersWithCParameters:(id)arg1;
+- (id)ers;
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)ound for collection, looking up by url %{public}@;
 - (id);
 - (_Bool);
-- (id)ackActive;
+- (id)_makeTabStackActive;
 
 // Remaining properties
 @property(readonly) NSColor *color; // @synthesize color=_color;
-@property(readonly, copy) NSString *customColorClassName; // @synthesize customColorClassName=_customColorClassName;
-@property(readonly, copy) NSData *customColorData; // @synthesize customColorData=_customColorData;
 
 @end
 

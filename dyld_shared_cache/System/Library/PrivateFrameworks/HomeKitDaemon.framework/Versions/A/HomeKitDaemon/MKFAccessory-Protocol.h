@@ -4,72 +4,71 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFAccessoryDatabaseID, NSArray, NSData, NSDate, NSNumber, NSString, NSUUID;
-@protocol MKFAccessory, MKFApplicationData, MKFHome, MKFRoom, MKFSoftwareUpdate;
+@class NSArray, NSDate, NSNumber, NSString, NSUUID;
+@protocol MKFGuest, MKFHome, MKFOutgoingInvitation, MKFUser;
 
 @protocol MKFAccessory
+- (NSArray *);
+- (void);
+- (void)a;
+- (NSNumber *)@;
+- (id <MKFOutgoingInvitation>)sendingRulesTouched;
+- (id <MKFGuest>)providerNamesCount;
+- (NSString *)bundleIdentifier;
+- (NSNumber *)ed;
+- (NSArray *)error:%{public}@ /* Error: Ran out of types for this method. */;
+- (NSArray *)h %{public}@/%{public}@. Will pass to trip service.;
+- (NSArray *)eWithContactValue called for handle %@ with MSPSharedTripCapabilityType_Invalid. Exiting Early.;
+- (NSArray *)g all tokens for %{private}@;
+- (NSArray *)attempt to send initial state waypoints/route;
+- (NSArray *)dTripGroupStorage %@;
+- (void)user-confirmed handle:(id <MKFUser>)arg1 %{private}@;
+- (void)onfirmationOfSharingIdentity failed with error:(id <MKFUser>)arg1 %@;
+- (void)rmationOfSharingIdentity:(id <MKFUser>)arg1 %s, handle:%{private}@, last confirmed:%{private}@ /* Error: Ran out of types for this method. */;
+- (void)nReachedDidUpdateForSharedTrip:(id <MKFOutgoingInvitation>)arg1 ];
+- (void)cts = %@ with objects = %@ at indexes = %@ };
+- (void)ation with context %@ with error %@;
+- (NSArray *)"NSMutableArray"8;
+- (NSArray *);
+- (NSDate *)ble, wanted index %lu;
+- (NSNumber *)playbackVariationMetadataIdentifier;
+- (void)olor;
+}
+kernel vec4 convertFromLabToRGB(sampler src, sampler original)
+{
+vec3 f, cie;
+vec4 color, pix, opix;
+pix = sample(src, samplerCoord(src));
+opix = sample(original, samplerCoord(original));
+pix.rgb *= 200.0;
+f.y = (pix.r + 16.0) / 116.0;
+f.x = f.y + pix.g * 0.002;
+f.z = f.y - pix.b * 0.005;
+color.xyz = f * f * f;
+cie = compare(color.xyz - 0.00885645, (f.xyz - 0.137931) / 7.787037, color.xyz);
+cie *= vec3(0.95047, 1.0, 1.08883);
+color.rgb = cie.x * vec3(2.95176,   -1.28951, -0.47388  )
++ cie.y * vec3(-1.0851,    1.99084,  0.0372023)
++ cie.z * vec3(0.0854804, -0.269456, 1.09113  );
+color.a = opix.a;
+return premultiply(color);
+}
+
+;
+- (NSUUID *)%s:%s /* Error: Ran out of types for this method. */;
 - (id <MKFHome>);
-- (NSString *)rs;
-- (NSString *)RemovedUserInfoForUnitTest: /* Error: Ran out of types for this method. */;
-- (NSString *)ce;
+- (NSString *)numActiveTriggers;
+- (NSString *)__dictionaryFromHMRemovedUserInfoForUnitTest: /* Error: Ran out of types for this method. */;
+- (NSString *)_chipDataSource;
 - (NSString *)l associated with non-canonical root %@:%@
 %@ /* Error: Ran out of types for this method. */;
 - (void)s not determined;
 - (void)hedule"16@?0@"HMWeekDayScheduleRule"8;
-- (NSString *)ecordingSessionRequestKey;
+- (NSString *)kStopRecordingSessionRequestKey;
 - (void)´îþ ;
 - (NSString *)~&Péþm~&$Ïèþ;
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *accessoryCategory;
-@property(readonly, retain, nonatomic) NSArray *actionMediaPlaybacks;
-@property(readonly, retain, nonatomic) NSArray *allowedGuests;
-@property(readonly, retain, nonatomic) NSArray *analysisEventBulletinRegistrations;
-@property(retain, nonatomic) id <MKFApplicationData> applicationData;
-@property(retain, nonatomic) NSArray *appliedFirewallWANRules;
-@property(readonly, retain, nonatomic) NSArray *cameraAccessModeBulletinRegistrations;
-@property(readonly, retain, nonatomic) NSArray *cameraReachabilityBulletinRegistrations;
-@property(readonly, retain, nonatomic) NSArray *cameraSignificantEventBulletinRegistrations;
-@property(copy, nonatomic) NSString *configuredName;
-@property(copy, nonatomic) NSNumber *currentNetworkProtectionMode;
-@property(readonly, copy, nonatomic) MKFAccessoryDatabaseID *databaseID;
-@property(copy, nonatomic) NSString *displayableFirmwareVersion;
-@property(copy, nonatomic) NSString *firmwareVersion;
-@property(copy, nonatomic) NSUUID *groupIdentifier;
-@property(copy, nonatomic) NSString *groupName;
-@property(readonly, retain, nonatomic) id <MKFHome> home;
-@property(retain, nonatomic) id <MKFAccessory> hostAccessory;
-@property(readonly, retain, nonatomic) NSArray *hostedAccessories;
-@property(copy, nonatomic) NSString *identifier;
-@property(copy, nonatomic) NSNumber *initialCategoryIdentifier;
-@property(copy, nonatomic) NSString *initialManufacturer;
-@property(copy, nonatomic) NSString *initialModel;
-@property(copy, nonatomic) NSNumber *lastNetworkAccessViolationOccurrenceSince1970;
-@property(copy, nonatomic) NSNumber *lastNetworkAccessViolationResetSince1970;
-@property(copy, nonatomic) NSDate *lastPairingAuditTimeForRG;
-@property(copy, nonatomic) NSDate *lastSeenDate;
-@property(copy, nonatomic) NSNumber *lowBattery;
-@property(copy, nonatomic) NSString *manufacturer;
-@property(readonly, retain, nonatomic) NSArray *mediaPropertyNotificationRegistrations;
-@property(copy, nonatomic) NSString *model;
-@property(copy, nonatomic) NSNumber *networkClientIdentifier;
-@property(copy, nonatomic) NSNumber *networkClientLAN;
-@property(copy, nonatomic) NSString *networkClientProfileFingerprint;
-@property(copy, nonatomic) NSString *networkRouterUUID;
-@property(readonly, retain, nonatomic) NSArray *outgoingInvitations;
-@property(copy, nonatomic) NSString *pendingConfigurationIdentifier;
-@property(copy, nonatomic) NSString *primaryProfileVersion;
-@property(copy, nonatomic) NSString *productData;
-@property(copy, nonatomic) NSString *providedName;
-@property(retain, nonatomic) id <MKFRoom> room;
-@property(copy, nonatomic) NSString *serialNumber;
-@property(retain, nonatomic) id <MKFSoftwareUpdate> softwareUpdate;
-@property(copy, nonatomic) NSNumber *suspendCapable;
-@property(readonly, retain, nonatomic) NSArray *usersWithListeningHistoryEnabled;
-@property(readonly, retain, nonatomic) NSArray *usersWithMediaContentProfileEnabled;
-@property(readonly, retain, nonatomic) NSArray *usersWithPersonalRequestsEnabled;
-@property(copy, nonatomic) NSNumber *wiFiCredentialType;
-@property(retain, nonatomic) NSData *wiFiUniquePreSharedKey;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 @end
 

@@ -8,12 +8,12 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)>;
 + (Class);
 + (Class);
 + (long long)ndle",&,N,V_extensionBundle;
 - (id);
-- (id)tringAsFeedbackTypes:(id)arg1;
+- (id)StringAsFeedbackTypes:(id)arg1;
 
 @end
 

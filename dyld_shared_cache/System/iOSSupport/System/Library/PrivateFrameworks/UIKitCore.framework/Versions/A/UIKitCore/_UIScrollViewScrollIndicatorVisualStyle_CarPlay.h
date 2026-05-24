@@ -10,7 +10,7 @@
 {
 }
 
-- (id)WithReplacement:(long long)arg1 accordingToProofreadingSuggestionWithIdentifier:(_Bool)arg2 replacingCharactersInRange:newState:contextID: /* Error: Ran out of types for this method. */;
+- (id)_updateProofreadingDeliveryWithReplacement:(long long)arg1 accordingToProofreadingSuggestionWithIdentifier:(_Bool)arg2 replacingCharactersInRange:newState:contextID: /* Error: Ran out of types for this method. */;
 
 @end
 

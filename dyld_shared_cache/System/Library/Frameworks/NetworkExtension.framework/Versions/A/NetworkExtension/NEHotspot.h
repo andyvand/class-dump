@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface NEHotspot
 {
     _Bool _enabled;
-    NSString *_pluginType;
-    NSString *_evaluationProviderBundleIdentifier;
-    NSString *_authenticationProviderBundleIdentifier;
-    NSArray *_safariDomains;
-    NSArray *_evaluatedSSIDs;
 }
 
-+ (_Bool);
++ (_Bool)setPendingAckTimerSuspended: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -24,28 +17,23 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)EveryoneModeBanner;
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (void)llNotify: /* Error: Ran out of types for this method. */;
-- (_Bool)hAddress:(id)arg1 prefix: /* Error: Ran out of types for this method. */;
+- (void)setInstallNotify: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithAddress:(id)arg1 prefix: /* Error: Ran out of types for this method. */;
 - (id)cking Area Code:(int)arg1 [%@];
 
 // Remaining properties
-@property(copy) NSString *authenticationProviderBundleIdentifier; // @synthesize authenticationProviderBundleIdentifier=_authenticationProviderBundleIdentifier;
 @property(getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(copy) NSArray *evaluatedSSIDs; // @synthesize evaluatedSSIDs=_evaluatedSSIDs;
-@property(copy) NSString *evaluationProviderBundleIdentifier; // @synthesize evaluationProviderBundleIdentifier=_evaluationProviderBundleIdentifier;
-@property(copy) NSString *pluginType; // @synthesize pluginType=_pluginType;
-@property(copy) NSArray *safariDomains; // @synthesize safariDomains=_safariDomains;
 
 @end
 

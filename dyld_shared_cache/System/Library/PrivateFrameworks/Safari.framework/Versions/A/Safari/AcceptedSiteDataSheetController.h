@@ -6,30 +6,16 @@
 
 #import <Safari/SheetWithTableController.h>
 
-@class AcceptedSiteDataDescriptionProvider, NSArray, NSButton, NSMutableSet, NSPopUpButton, NSSearchField, NSString, NSTextField, NSTimer, NSView, WBProfile, WBSFaviconRequestsController, WBTabGroupManager;
+@class NSSearchField, NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface AcceptedSiteDataSheetController : SheetWithTableController
 {
     NSSearchField *searchField;
-    NSButton *doneButton;
-    NSArray *_websiteTrackingData;
-    NSArray *_unfilteredWebsiteTrackingData;
-    WBSFaviconRequestsController *_requestController;
-    NSMutableSet *_selectedDisplayNames;
-    struct unique_ptr<Safari::TrackingDataControllerClientObjCAdapter, std::default_delete<Safari::TrackingDataControllerClientObjCAdapter>> _clientObjCAdapter;
-    NSTimer *_updateWebsiteTrackingDataCoalescingTimer;
-    NSArray *_latestWebsiteTrackingData;
-    AcceptedSiteDataDescriptionProvider *_acceptedSiteDataDescriptionProvider;
-    WBTabGroupManager *_tabGroupManager;
-    NSPopUpButton *_profileFilterButton;
-    NSTextField *_emptyTablePlaceholderText;
-    NSView *_view;
-    WBProfile *_filterByProfile;
 }
 
 + (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -39,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -59,9 +45,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)IORegistryEntryCreateCFProperty;
 - (id);
 - (id)0@ù
 × ;
@@ -71,16 +57,7 @@ __attribute__((visibility("hidden")))
 - (void)tÉªÿj­ÅÿA/;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) __weak NSTextField *emptyTablePlaceholderText; // @synthesize emptyTablePlaceholderText=_emptyTablePlaceholderText;
-@property(retain, nonatomic) WBProfile *filterByProfile; // @synthesize filterByProfile=_filterByProfile;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property __weak NSView *view; // @synthesize view=_view;
 
 @end
 

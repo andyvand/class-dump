@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _CPEmbeddingState, _CPPhotosRankingInfo, _CPQueryUnderstandingParse;
+@class NSString;
 
 @protocol _CPEndLocalSearchFeedback
+- (unsigned long long)B;
+- (unsigned int)$;
+- (void)B9;
+- (NSString *)"8@"NSError"16;
 
 // Remaining properties
-@property(nonatomic) unsigned int coreSpotlightIndexCount;
-@property(retain, nonatomic) _CPEmbeddingState *embeddingState;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int l1ToL2ResultCount;
-@property(retain, nonatomic) _CPPhotosRankingInfo *photosRankingInfo;
-@property(retain, nonatomic) _CPQueryUnderstandingParse *quParse;
 @property(nonatomic) unsigned long long timestamp;
-@property(copy, nonatomic) NSString *uuid;
 @end
 

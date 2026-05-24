@@ -6,36 +6,27 @@
 
 #import <LinkPresentation/LPComponentView.h>
 
-@class LPCollaborationFooterStyle, LPTextView, NSImageView, NSTrackingArea, NSView;
+@class LPTextView;
 
 __attribute__((visibility("hidden")))
 @interface LPCollaborationFooterView : LPComponentView
 {
     LPTextView *_optionsView;
-    LPTextView *_subtitleView;
-    NSImageView *_indicatorView;
-    NSView *_separatorView;
-    CDUnknownBlockType _action;
-    LPCollaborationFooterStyle *_style;
-    NSTrackingArea *_trackingArea;
-    _Bool _hovered;
-    _Bool _pressed;
-    struct NSEdgeInsets _additionalPadding;
 }
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (struct CGSize);
 - (void);
 - (void);
 - (struct CGSize);
-- (void);
+- (void)u;
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)with path name [%{public}@] to [%{public}@];
 - (struct NSEdgeInsets);
 - (void)Ð!ÐAùHð1Â0@ù
 × ;

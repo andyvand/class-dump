@@ -7,7 +7,6 @@
 @interface HomeKitDaemon.CharacteristicReadWriteLogEventObserver
 {
     id eventBuilders;
-    id logEventSubmitter;
 }
 
 - (id);

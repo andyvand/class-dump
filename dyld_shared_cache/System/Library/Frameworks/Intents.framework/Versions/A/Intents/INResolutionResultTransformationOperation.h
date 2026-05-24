@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INIntent, INIntentSlotDescription;
-@protocol INIntentParameterOptionsProviding, INIntentResolutionResultDataProviding;
+@protocol INIntentResolutionResultDataProviding;
 
 __attribute__((visibility("hidden")))
 @interface INResolutionResultTransformationOperation
 {
     _Bool _finished;
-    _Bool _executing;
-    id <INIntentResolutionResultDataProviding> _result;
-    INIntent *_intent;
-    INIntentSlotDescription *_intentSlotDescription;
-    id <INIntentParameterOptionsProviding> _optionsProvider;
-    CDUnknownBlockType _returnBlock;
 }
 
 - (CDUnknownBlockType);
@@ -27,16 +20,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (id)elRide:completion: /* Error: Ran out of types for this method. */;
-- (void)ookItems:withCompletion: /* Error: Ran out of types for this method. */;
+- (id)confirmCancelRide:completion: /* Error: Ran out of types for this method. */;
+- (void)provideGroupNameOptionsCollectionForSearchForNotebookItems:withCompletion: /* Error: Ran out of types for this method. */;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) INIntent *intent; // @synthesize intent=_intent;
-@property(readonly, nonatomic) INIntentSlotDescription *intentSlotDescription; // @synthesize intentSlotDescription=_intentSlotDescription;
-@property(readonly, nonatomic) id <INIntentParameterOptionsProviding> optionsProvider; // @synthesize optionsProvider=_optionsProvider;
 @property(readonly, nonatomic) id <INIntentResolutionResultDataProviding> result; // @synthesize result=_result;
-@property(copy, nonatomic) CDUnknownBlockType returnBlock; // @synthesize returnBlock=_returnBlock;
 
 @end
 

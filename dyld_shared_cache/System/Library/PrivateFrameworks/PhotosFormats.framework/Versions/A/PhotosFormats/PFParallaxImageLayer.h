@@ -14,8 +14,8 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (id);
+- (void)_referenceItem;
+- (id)D failed.;
 - (struct __CVBuffer *);
 - (struct CGSize);
 

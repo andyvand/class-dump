@@ -4,83 +4,67 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainer, NSObject, NSString, _PASSqliteDatabase;
-@protocol OS_dispatch_queue, TRISQLiteCKDatabaseDelegate;
+@class CKContainer, NSString;
 
 @interface TRISQLiteCKDatabase
 {
     NSString *_parentDir;
-    NSString *_assetDir;
-    NSString *_assetCacheDir;
-    _PASSqliteDatabase *_db;
-    NSObject<OS_dispatch_queue> *_opQueue;
-    id <TRISQLiteCKDatabaseDelegate> _delegate;
-    CKContainer *_container;
 }
 
-+ (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
++ (id)hasAnySpatialLayer;
+- (id)removeObjectsAtIndexes:(id)arg1;
+- (id)livePhotoPairingIdentifier;
+- (_Bool)linkOrCopyURL:(id)arg1 toURL:(id)arg2 forceCopy:(id *)arg3 error: /* Error: Ran out of types for this method. */;
+- (_Bool)layoutByUpdatingNormalizedPortraitVisibleFrame:(id)arg1 landscapeVisibleFrame:(id)arg2;
+- (_Bool)layoutByUpdatingNormalizedPortraitAdaptiveVisibleFrame:(id)arg1 landscapeAdaptiveVisibleFrame:(id)arg2;
+- (_Bool)layoutByUpdatingNormalizedAdaptiveVisibleFrame:(id)arg1;
+- (_Bool)layoutByUpdatingMaxClockShift:(id)arg1;
+- (_Bool)layoutByUpdatingImageSize:(id)arg1;
+- (_Bool)layoutByUpdatingConfiguration:(id)arg1;
+- (_Bool)layoutByUpdatingAdaptiveVisibleFrame:(id)arg1;
+- (_Bool)layoutByUpdatingAdaptiveInactiveFrame:(id)arg1;
+- (_Bool)layerStackByUpdatingVisibleFrame:(id)arg1;
+- (void)isHDR_ExtendedRange;
+- (void)isFrontAndRearComposition;
+- (_Bool)isEqualToIndexSet:(id)arg1;
+- (id)isEqualToClip:(id)arg1;
+- (_Bool)isEligibleForCinematicAudioEffectProcessing;
+- (_Bool)isDepthEnabled;
+- (_Bool)isDeclared;
+- (id)inputReadingCompletionGroup;
+- (id)initWithVisibleRect:(id)arg1;
+- (_Bool)initWithShuffleType:(id)arg1;
+- (id)initWithScreenSize:(id)arg1 timeRect:(id)arg2 inactiveTimeRect:(id)arg3 parallaxPadding:(id)arg4;
+- (id)initWithScreenSize:(long long)arg1 screenScale:(id)arg2 timeRect:inactiveTimeRect:parallaxPadding: /* Error: Ran out of types for this method. */;
+- (void)initWithSceneData:(id)arg1 scene:(id)arg2 frame:(id)arg3 zPosition:identifier: /* Error: Ran out of types for this method. */;
+- (id)initWithPrivateClientMetadata:(id)arg1 contactIDsInProximity:(id)arg2 sharedLibraryMode: /* Error: Ran out of types for this method. */;
+- (id)initWithPrimaryColor:(id)arg1 secondaryColor:(id)arg2;
+- (id)edRect:(id)arg1 validBoundsNormalized:(id)arg2 headroomFeasible:(id)arg3 hasTopEdgeContact:(id)arg4 computeSpatial:(id)arg5 spatialPadding:(id *)arg6 layoutType:allowedLayoutStrategies:layoutConfiguration: /* Error: Ran out of types for this method. */;
+- (void)ginalPairedVideoURL:(int)arg1 fullSizePairedVideoURL:(id)arg2 adjustmentBaseFullSizePairedVideoURL:(id)arg3 spatialOvercapturePairedVideoURL:(id)arg4 fullSizeVideoURL:adjustmentsURL:originalAdjustmentsURL:adjustmentsSecondaryDataURL:mediaSubtypes:playbackStyle:playbackVariation:videoComplementVisibilityState: /* Error: Ran out of types for this method. */;
+- (id)initWithOriginalPhotoURL:(id)arg1 alternatePhotoURL:(id)arg2 fullSizePhotoURL:(id *)arg3 adjustmentBaseFullSizePhotoURL:spatialOvercapturePhotoURL:originalPairedVideoURL:fullSizePairedVideoURL:adjustmentBaseFullSizePairedVideoURL:spatialOvercapturePairedVideoURL:fullSizeVideoURL:adjustmentsURL:originalAdjustmentsURL:adjustmentsSecondaryDataURL:mediaSubtypes:playbackStyle:playbackVariation:videoComplementVisibilityState: /* Error: Ran out of types for this method. */;
+- (void)initWithLayers:(id)arg1 layout:depthEnabled:parallaxDisabled:clockAreaLuminance:settlingEffectEnabled:spatialPhotoEnabled:userAdjustedVisibleFrame: /* Error: Ran out of types for this method. */;
+- (id)initWithLayers:(id)arg1 layout:(id)arg2 depthEnabled:(id)arg3 parallaxDisabled:(struct _NSRange)arg4 clockAreaLuminance:(id)arg5 settlingEffectEnabled:(id *)arg6 spatialPhotoEnabled: /* Error: Ran out of types for this method. */;
+- (id)initWithKind:parameters:colorSuggestions: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithImageURL:(id)arg1 contentType:(id)arg2 timeZoneLookup:(id)arg3;
 - (_Bool);
 - (void);
-- (void);
-- (_Bool);
+- (void)characteristics while unpaired;
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
 - (id);
 - (void);
 - (id);
-- (id);
 - (void);
+- (id);
+- (id);
+- (void);
 - (void)!\Cù!ð1Â0@ù
 × ;
 - (id)ctorPackAsset | factorName:%@ assetId:%@ filePath:%@ factorPackId:%@> /* Error: Ran out of types for this method. */;
 - (void)thTrackingId:(id)arg1 message:] /* Error: Ran out of types for this method. */;
-- (id)ase;
+- (id)namespaceDatabase;
 
 // Remaining properties
 @property(nonatomic) __weak CKContainer *container; // @synthesize container=_container;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) id <TRISQLiteCKDatabaseDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *operationQueue;
-@property(readonly) Class superclass;
 
 @end
 

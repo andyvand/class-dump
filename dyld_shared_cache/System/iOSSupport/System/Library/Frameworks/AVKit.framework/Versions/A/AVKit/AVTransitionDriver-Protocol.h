@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIPanGestureRecognizer;
 @protocol AVTransitionDriverDelegate;
 
 @protocol AVTransitionDriver
+- (long long);
+- (struct CGPoint)h;
+- (struct CGPoint)|�P;
+- (double)mid_stream_silence_seconds;
+- (_Bool)DefaultOff;
+- (void)tionSnapshotEvent emitted:(id <AVTransitionDriverDelegate>)arg1 %@;
 
 // Remaining properties
-@property(nonatomic) __weak UIPanGestureRecognizer *contentTransitioningViewGestureRecognizer;
 @property(readonly, nonatomic, getter=isEnabled) _Bool enabled;
-@property(readonly, nonatomic) _Bool lastNonZeroVelocityWasDownward;
-@property(readonly, nonatomic) double pinchScale;
-@property(readonly, nonatomic) double pinchVelocity;
-@property(readonly, nonatomic) double rotation;
-@property(readonly, nonatomic) double rotationVelocity;
-@property(nonatomic) __weak id <AVTransitionDriverDelegate> transitionDriverDelegate;
-@property(readonly, nonatomic) long long transitionInteraction;
 @end
 

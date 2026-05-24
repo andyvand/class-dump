@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UISceneIntelligenceSupportClientComponent
 {
 }
 
 - (id);
-- (_Bool);
+- (_Bool)relayMessageToPeers:forChat:serviceName:reflectOnly:requiredCapabilities:skipServiceForSending: /* Error: Ran out of types for this method. */;
 - (void)Ô ;
 - (id)
 × ;
@@ -21,13 +19,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool collectAsRemoteElement;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

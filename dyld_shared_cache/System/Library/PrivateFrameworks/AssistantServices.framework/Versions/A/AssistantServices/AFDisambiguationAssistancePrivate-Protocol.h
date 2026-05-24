@@ -4,12 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFDisambiguationInfo, NSData;
+@class NSData, NSString, SAUIListItem;
 
 @protocol AFDisambiguationAssistancePrivate
+- (void);
+- (SAUIListItem *);
+- (NSString *)_m;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *af_disambiguationIdentifier;
-@property(retain, nonatomic, setter=af_setDisambiguationInfo:) AFDisambiguationInfo *af_disambiguationInfo;
 @end
 

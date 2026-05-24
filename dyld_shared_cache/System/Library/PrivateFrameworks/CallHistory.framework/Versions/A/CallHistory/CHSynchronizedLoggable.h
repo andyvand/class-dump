@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHLogger, CHSynchronizable;
+@class CHLogger;
 
 @interface CHSynchronizedLoggable
 {
     CHLogger *_logger;
-    CHSynchronizable *_synchronizable;
 }
 
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)/	/	6	,	M	&	;
 - (id);
 - (void);
 - (_Bool);

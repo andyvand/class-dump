@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSURL;
-
 @interface LPArtworkMetadata
 {
     unsigned int _version;
-    NSURL *_URL;
-    NSDictionary *_colors;
 }
 
 + (_Bool);
@@ -18,9 +14,9 @@
 - (id);
 - (void);
 - (unsigned int);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)arrayWithObject:(id)arg1;
+- (id)_sourceProfileIdentifier;
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
@@ -29,8 +25,6 @@
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(copy, nonatomic) NSDictionary *colors; // @synthesize colors=_colors;
 @property(readonly, nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end

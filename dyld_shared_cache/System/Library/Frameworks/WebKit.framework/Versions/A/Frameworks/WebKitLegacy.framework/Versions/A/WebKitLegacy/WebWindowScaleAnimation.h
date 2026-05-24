@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSWindow;
-
 __attribute__((visibility("hidden")))
 @interface WebWindowScaleAnimation
 {
     struct CGRect _initialFrame;
-    struct CGRect _finalFrame;
-    struct CGRect _realFrame;
-    NSWindow *_window;
-    struct RetainPtr<NSAnimation> _subAnimation;
-    double _hintedDuration;
 }
 
 - (void);
 - (id);
 - (struct CGRect);
 - (double);
-- (void);
+- (void);
 - (id);
 - (id);
-- (float);
+- (float);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void)",R,N;

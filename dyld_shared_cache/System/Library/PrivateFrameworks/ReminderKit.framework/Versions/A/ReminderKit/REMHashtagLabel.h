@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSUUID;
+@class NSString;
 
 @interface REMHashtagLabel
 {
     NSString *_name;
-    NSString *_canonicalName;
-    NSDate *_firstOccurrenceCreationDate;
-    NSDate *_recencyDate;
-    NSUUID *_uuidForChangeTracking;
 }
 
-+ (_Bool);
++ (_Bool)P;
 - (id);
 - (_Bool);
 - (id);
@@ -27,17 +23,13 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)(;
 - (id);
 - (void)s 1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *canonicalName; // @synthesize canonicalName=_canonicalName;
-@property(readonly, nonatomic) NSDate *firstOccurrenceCreationDate; // @synthesize firstOccurrenceCreationDate=_firstOccurrenceCreationDate;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSDate *recencyDate; // @synthesize recencyDate=_recencyDate;
-@property(readonly, nonatomic) NSUUID *uuidForChangeTracking; // @synthesize uuidForChangeTracking=_uuidForChangeTracking;
 
 @end
 

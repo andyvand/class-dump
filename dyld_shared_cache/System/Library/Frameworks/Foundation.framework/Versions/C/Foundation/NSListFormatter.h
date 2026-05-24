@@ -11,8 +11,6 @@
 @interface NSListFormatter : NSFormatter
 {
     struct __CFListFormatter *_listFormatter;
-    NSLocale *_locale;
-    NSFormatter *_itemFormatter;
 }
 
 + (id);
@@ -29,7 +27,6 @@
 - (id)/k$?ÿ	/k,?ÿ/k,?ÿñ/k(?ÿ;
 
 // Remaining properties
-@property(copy) NSFormatter *itemFormatter; // @synthesize itemFormatter=_itemFormatter;
 @property(copy) NSLocale *locale; // @synthesize locale=_locale;
 
 @end

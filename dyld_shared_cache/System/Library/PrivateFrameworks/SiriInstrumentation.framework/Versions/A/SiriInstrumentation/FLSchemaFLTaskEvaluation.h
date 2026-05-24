@@ -6,17 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class FLSchemaFLTaskOutcome, NSArray, NSData;
-
 @interface FLSchemaFLTaskEvaluation : SISchemaInstrumentationMessage
 {
     int _actionResolutionState;
-    FLSchemaFLTaskOutcome *_taskOutcome;
-    NSArray *_evaluationNodes;
-    struct {
-        unsigned int actionResolutionState:1;
-    } _has;
-    _Bool _hasTaskOutcome;
 }
 
 - (void);
@@ -24,13 +16,13 @@
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (int);
+- (int)0;
 - (id);
 - (id);
 - (void);
@@ -39,7 +31,7 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long),?,R,C;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -50,11 +42,6 @@
 
 // Remaining properties
 @property(nonatomic) int actionResolutionState; // @synthesize actionResolutionState=_actionResolutionState;
-@property(copy, nonatomic) NSArray *evaluationNodes; // @synthesize evaluationNodes=_evaluationNodes;
-@property(nonatomic) _Bool hasActionResolutionState;
-@property(nonatomic) _Bool hasTaskOutcome; // @synthesize hasTaskOutcome=_hasTaskOutcome;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) FLSchemaFLTaskOutcome *taskOutcome; // @synthesize taskOutcome=_taskOutcome;
 
 @end
 

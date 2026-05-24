@@ -4,29 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSError, NSNumber, NSString;
+@class NSData;
 
 @interface NFValueAddedServiceTransaction
 {
     unsigned int _result;
-    NSData *_merchantId;
-    NSString *_signupUrl;
-    NSNumber *_terminalAppVersion;
-    NSNumber *_terminalMode;
-    NSNumber *_didSucceed;
-    NSData *_passData;
-    NSData *_token;
-    NSError *_error;
-    NSNumber *_filter;
-    NSNumber *_filterType;
 }
 
 + (_Bool);
+- (id)ovide a unique group name;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)_resolutionSource;
 - (id);
 - (id);
 - (id);
@@ -38,20 +28,10 @@
 - (id);
 - (id);
 - (unsigned int);
-- (void);
+- (void)= %d, recordType = %s, offset = %d;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSNumber *didSucceed; // @synthesize didSucceed=_didSucceed;
-@property(readonly, retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, retain, nonatomic) NSNumber *filter; // @synthesize filter=_filter;
-@property(readonly, retain, nonatomic) NSNumber *filterType; // @synthesize filterType=_filterType;
 @property(readonly, retain, nonatomic) NSData *merchantId; // @synthesize merchantId=_merchantId;
-@property(readonly, retain, nonatomic) NSData *passData; // @synthesize passData=_passData;
-@property(readonly, nonatomic) unsigned int result; // @synthesize result=_result;
-@property(readonly, retain, nonatomic) NSString *signupUrl; // @synthesize signupUrl=_signupUrl;
-@property(readonly, retain, nonatomic) NSNumber *terminalAppVersion; // @synthesize terminalAppVersion=_terminalAppVersion;
-@property(readonly, retain, nonatomic) NSNumber *terminalMode; // @synthesize terminalMode=_terminalMode;
-@property(readonly, retain, nonatomic) NSData *token; // @synthesize token=_token;
 
 @end
 

@@ -11,9 +11,9 @@
 }
 
 - (id);
+- (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)CredentialProviderExtensionState">16;
 - (id);
 - (id);
 - (void)ÌÿqZ7ÄÿUqZ7t~»þ%qZ7´ÿ;

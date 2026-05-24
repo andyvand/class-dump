@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSMessage, NSArray, NSString;
-@protocol MFMessageComposeViewControllerDelegate;
-
 @interface MFMessageComposeViewController
 {
     id _internal;
-    id <MFMessageComposeViewControllerDelegate> _messageComposeDelegate;
-    NSArray *_recipients;
-    NSString *_body;
-    NSString *_subject;
-    MSMessage *_message;
-    CDUnknownBlockType __deviceValidationSendCompletion;
-    long long _preferredPresentationStyle;
 }
 
 + (_Bool);

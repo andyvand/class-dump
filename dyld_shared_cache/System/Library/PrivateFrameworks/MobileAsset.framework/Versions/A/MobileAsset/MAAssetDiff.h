@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MAAssetDiff
 {
     unsigned long long _diffRaw;
-    unsigned long long _diff;
-    unsigned long long _mask;
-    NSString *_description;
-    NSString *_assessment;
 }
 
 + (id);
@@ -21,25 +15,25 @@
 + (id);
 + (id);
 + (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (id)" ;
+- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)getInstalledSystemCertificatePersistentRef;
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)B;
 - (void);
 
 @end

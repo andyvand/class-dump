@@ -4,21 +4,53 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class AFSpeechRecognition, NSString;
 
 @protocol AFSettingsService
+- (oneway void);
+- (oneway void)c;
+- (oneway void);
+- (oneway void)deviceSpecificItemsForScreenScale:suffix: /* Error: Ran out of types for this method. */;
+- (oneway void)_supportedRecurringPayments;
+- (oneway void)"NSString",R,C,N,V_encryptionVersion;
+- (oneway void)ing",C,N,V_displayableStartDate;
+- (oneway void)Nonce;
+- (oneway void)_biometricMatch;
+- (oneway void)PKPaymentOfferWebServiceConfirmOffer;
+- (oneway void)@;
+- (oneway void)PKPaymentRequestTypeIdentityInApp;
+- (oneway void)NFSecureElementManagerSessionRSAACertificateKey;
+- (oneway void)PKRemoteNetworkPaymentLoadingViewDelay;
+- (oneway void)PKSubcredentialInvitationCompleteValidateMessage;
+- (oneway void)appleCashUnsupportedMerchantCategoryCodes;
+- (oneway void)overSpendLimit;
+- (oneway void);
+- (oneway void)`;
+- (oneway void)`;
+- (oneway void);
+- (oneway void)(;
+- (oneway void)q24@0:(void (^)(NSDictionary *))arg1 8@"NSCollectionView"16;
+- (oneway void)setClasses:(NSString *)arg1 forSelector:(AFSpeechRecognition *)arg2 argumentIndex:ofReply: /* Error: Ran out of types for this method. */;
+- (oneway void)initTextInputMenu;
+- (oneway void);
+- (oneway void)P;
+- (oneway void)#;
+- (oneway void)dentifier:(_Bool)arg1 dateRecovered:(void (^)(NSError *))arg2 scheduleType:scheduleState: /* Error: Ran out of types for this method. */;
+- (oneway void)nt;
+- (oneway void)apback;
+- (oneway void)_lock_availableTokens;
 - (oneway void);
 - (oneway void)0@ù
 × ;
 - (oneway void)@ùQn&ð1Â0@ù
 × ;
-- (oneway void)reBoosters:(_Bool)arg1;
-- (oneway void)yncEnabled:(NSString *)arg1;
+- (oneway void)setScoreBoosters:(_Bool)arg1;
+- (oneway void)setCloudSyncEnabled:(NSString *)arg1;
 - (oneway void)alue for kMRMediaRemoteNowPlayingCollectionInfoKeyIdentifiers;
 - (oneway void)x readiness timer initialized;
 - (oneway void)h no keyboard language;
 - (oneway void)ient.Tether.Attach.End;
-- (oneway void)GER;
+- (oneway void)CDATRIGGER_DIRECT_TRIGGER;
 - (oneway void)FHearablesExperienceManager startExpectingGestureRecognitionForContexts:(long long)arg1 ];
 @end
 

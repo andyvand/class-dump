@@ -25,8 +25,8 @@ struct CGRect {
 };
 
 struct CGSize {
-    double width;
-    double height;
+    double _field1;
+    double _field2;
 };
 
 struct FeatureValues;
@@ -56,8 +56,6 @@ struct MTLTargetDeviceArch {
     char *_field3;
 };
 
-struct Model;
-
 struct MultiArrayBufferLayout;
 
 struct Path {
@@ -76,8 +74,8 @@ struct Prediction {
 struct StorageManager;
 
 struct _KDBoundingBox {
-    struct vector<_KDInterval, std::allocator<_KDInterval>> _intervals;
-    unsigned long long _numDimensions;
+    struct vector<_KDInterval, std::allocator<_KDInterval>> _field1;
+    unsigned long long _field2;
 };
 
 struct _KDInterval;
@@ -85,8 +83,8 @@ struct _KDInterval;
 struct _MLModelInputArchiver;
 
 struct _NSRange {
-    unsigned long long location;
-    unsigned long long length;
+    unsigned long long _field1;
+    unsigned long long _field2;
 };
 
 struct __shared_weak_count;
@@ -97,67 +95,10 @@ struct atomic<bool> {
     } __a_;
 };
 
-struct atomic<unsigned long long> {
-    struct __cxx_atomic_impl<unsigned long long, std::__cxx_atomic_base_impl<unsigned long long>> {
-        _Atomic unsigned long long __a_value;
-    } __a_;
-};
-
-struct basic_string<char, std::char_traits<char>, std::allocator<char>> {
-    struct {
-        union __rep {
-            struct __short {
-                char __data_[23];
-                unsigned int __size_:7;
-                unsigned int __is_long_:1;
-            } __s;
-            struct __long {
-                char *__data_;
-                unsigned long long __size_;
-                unsigned int __cap_:63;
-                unsigned int __is_long_:1;
-            } __l;
-        } __rep_;
-    } ;
-};
-
 struct e5rt_async_event;
-
-struct linear_congruential_engine<unsigned int, 48271U, 0U, 2147483647U> {
-    unsigned int __x_;
-};
-
-struct mach_timebase_info {
-    unsigned int numer;
-    unsigned int denom;
-};
-
-struct map<std::string, Espresso::vimage2espresso_param, std::less<std::string>, std::allocator<std::pair<const std::string, Espresso::vimage2espresso_param>>> {
-    struct __tree<std::__value_type<std::string, Espresso::vimage2espresso_param>, std::__map_value_compare<std::string, std::pair<const std::string, Espresso::vimage2espresso_param>, std::less<std::string>>, std::allocator<std::pair<const std::string, Espresso::vimage2espresso_param>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
 
 struct map<std::string, InputNameToShapes, std::less<std::string>, std::allocator<std::pair<const std::string, InputNameToShapes>>> {
     struct __tree<std::__value_type<std::string, InputNameToShapes>, std::__map_value_compare<std::string, std::pair<const std::string, InputNameToShapes>, std::less<std::string>>, std::allocator<std::pair<const std::string, InputNameToShapes>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
-struct map<std::string, _BlobShape, std::less<std::string>, std::allocator<std::pair<const std::string, _BlobShape>>> {
-    struct __tree<std::__value_type<std::string, _BlobShape>, std::__map_value_compare<std::string, std::pair<const std::string, _BlobShape>, std::less<std::string>>, std::allocator<std::pair<const std::string, _BlobShape>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
-struct map<std::string, bool, std::less<std::string>, std::allocator<std::pair<const std::string, bool>>> {
-    struct __tree<std::__value_type<std::string, bool>, std::__map_value_compare<std::string, std::pair<const std::string, bool>, std::less<std::string>>, std::allocator<std::pair<const std::string, bool>>> {
         void *__begin_node_;
         CDStruct_09bd28e6 ;
         CDStruct_a7186859 ;
@@ -185,17 +126,9 @@ struct os_unfair_lock_s {
     unsigned int _os_unfair_lock_opaque;
 };
 
-struct set<std::string, std::less<std::string>, std::allocator<std::string>> {
-    struct __tree<std::string, std::less<std::string>, std::allocator<std::string>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
 struct shared_ptr<Archiver::MMappedFile> {
-    struct MMappedFile *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    struct MMappedFile *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 struct shared_ptr<CoreML::BayesianProbitRegression::BayesianProbitRegression> {
@@ -208,19 +141,14 @@ struct shared_ptr<CoreML::BayesianProbitRegression::FeatureValues> {
     struct __shared_weak_count *_field2;
 };
 
-struct shared_ptr<CoreML::Specification::Model> {
-    struct Model *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-};
-
 struct shared_ptr<Espresso::net> {
     struct net *__ptr_;
     struct __shared_weak_count *__cntrl_;
 };
 
 struct shared_ptr<MIL::IRProgram> {
-    struct IRProgram *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    struct IRProgram *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 struct svm_model {
@@ -292,19 +220,11 @@ struct unique_ptr<e5rt_async_event, MLE5ObjectDeleter<e5rt_async_event>> {
 };
 
 struct vector<_KDInterval, std::allocator<_KDInterval>> {
-    struct _KDInterval *__begin_;
-    struct _KDInterval *__end_;
+    struct _KDInterval *_field1;
+    struct _KDInterval *_field2;
     struct {
-        struct _KDInterval *__cap_;
-    } ;
-};
-
-struct vector<bool, std::allocator<bool>> {
-    unsigned long long *__begin_;
-    unsigned long long __size_;
-    struct {
-        unsigned long long __cap_;
-    } ;
+        struct _KDInterval *_field1;
+    } _field3;
 };
 
 struct vector<double, std::allocator<double>> {
@@ -332,9 +252,9 @@ struct vector<int, std::allocator<int>> {
 };
 
 struct vector<long long, std::allocator<long long>> {
-    long long *__begin_;
-    long long *__end_;
-    CDStruct_5fd5a61e ;
+    long long *_field1;
+    long long *_field2;
+    CDStruct_5fd5a61e _field3;
 };
 
 struct vector<long, std::allocator<long>> {
@@ -349,37 +269,19 @@ struct vector<std::map<std::string, espresso_buffer_t *>, std::allocator<std::ma
     CDStruct_63fd5f43 ;
 };
 
-struct vector<std::pair<unsigned long long, double>, std::allocator<std::pair<unsigned long long, double>>> {
-    void *__begin_;
-    void *__end_;
-    CDStruct_63fd5f43 ;
-};
-
 struct vector<std::pair<unsigned long, float>, std::allocator<std::pair<unsigned long, float>>> {
     void *_field1;
     void *_field2;
     CDStruct_63fd5f43 _field3;
 };
 
-struct vector<std::pair<unsigned long, unsigned long>, std::allocator<std::pair<unsigned long, unsigned long>>> {
-    void *__begin_;
-    void *__end_;
-    CDStruct_63fd5f43 ;
-};
-
 struct vector<std::string, std::allocator<std::string>> {
-    void *__begin_;
-    void *__end_;
-    CDStruct_63fd5f43 ;
+    void *_field1;
+    void *_field2;
+    CDStruct_63fd5f43 _field3;
 };
 
 struct vector<std::variant<CoreML::ModelStructure::Path::Root, CoreML::ModelStructure::Path::Program, CoreML::ModelStructure::Path::Program::Function, CoreML::ModelStructure::Path::Program::Block, CoreML::ModelStructure::Path::Program::Operation, CoreML::ModelStructure::Path::NeuralNetwork, CoreML::ModelStructure::Path::NeuralNetwork::Layer, CoreML::ModelStructure::Path::Pipeline, CoreML::ModelStructure::Path::Pipeline::SubModel>, std::allocator<std::variant<CoreML::ModelStructure::Path::Root, CoreML::ModelStructure::Path::Program, CoreML::ModelStructure::Path::Program::Function, CoreML::ModelStructure::Path::Program::Block, CoreML::ModelStructure::Path::Program::Operation, CoreML::ModelStructure::Path::NeuralNetwork, CoreML::ModelStructure::Path::NeuralNetwork::Layer, CoreML::ModelStructure::Path::Pipeline, CoreML::ModelStructure::Path::Pipeline::SubModel>>> {
-    void *__begin_;
-    void *__end_;
-    CDStruct_63fd5f43 ;
-};
-
-struct vector<std::vector<double>, std::allocator<std::vector<double>>> {
     void *__begin_;
     void *__end_;
     CDStruct_63fd5f43 ;
@@ -394,15 +296,15 @@ struct vector<unsigned char, std::allocator<unsigned char>> {
 };
 
 struct vector<unsigned long long, std::allocator<unsigned long long>> {
-    unsigned long long *__begin_;
-    unsigned long long *__end_;
-    CDStruct_56b55661 ;
+    unsigned long long *_field1;
+    unsigned long long *_field2;
+    CDStruct_f26bb81f _field3;
 };
 
 struct vector<unsigned long, std::allocator<unsigned long>> {
-    unsigned long long *__begin_;
-    unsigned long long *__end_;
-    CDStruct_56b55661 ;
+    unsigned long long *_field1;
+    unsigned long long *_field2;
+    CDStruct_f26bb81f _field3;
 };
 
 struct vimage2espresso_param {
@@ -439,14 +341,29 @@ typedef struct {
 
 typedef struct {
     unsigned long long _field1;
+    unsigned long long _field2;
+    unsigned long long _field3;
+} CDStruct_14f26992;
+
+typedef struct {
+    unsigned long long _field1;
+    unsigned long long _field2;
+} CDStruct_4bcfbbae;
+
+typedef struct {
+    unsigned long long _field1;
     id *_field2;
     unsigned long long *_field3;
     unsigned long long _field4[5];
 } CDStruct_70511ce9;
 
 typedef struct {
-    unsigned long long *__cap_;
-} CDStruct_56b55661;
+    unsigned long long __size_;
+} CDStruct_a7186859;
+
+typedef struct {
+    unsigned long long *_field1;
+} CDStruct_f26bb81f;
 
 typedef struct {
     long long *__cap_;
@@ -471,13 +388,19 @@ typedef struct {
 } CDStruct_cf098810;
 
 typedef struct {
-    void *plan;
-    int network_index;
-} CDStruct_2bc666a5;
+    void *_field1;
+    int _field2;
+} CDStruct_e4961688;
 
 typedef struct {
     void *__cap_;
 } CDStruct_63fd5f43;
+
+typedef struct {
+    _Bool _field1;
+    unsigned long long _field2;
+    struct *_field3;
+} CDStruct_dbc1e4aa;
 
 typedef struct {
     unsigned int _field1;
@@ -500,6 +423,11 @@ typedef struct {
 } CDStruct_6463db26;
 
 typedef struct {
+    CDStruct_14f26992 _field1;
+    CDStruct_14f26992 _field2;
+} CDStruct_4c83c94d;
+
+typedef struct {
     struct __tree_end_node<std::__tree_node_base<void *>*> {
         void *__left_;
     } __end_node_;
@@ -512,15 +440,11 @@ typedef struct {
     unsigned long long _field4;
 } CDStruct_b50b3e40;
 
-// Ambiguous groups
-typedef struct {
-    unsigned long long __size_;
-} CDStruct_a7186859;
-
+// Template types
 typedef struct shared_ptr<Archiver::MMappedFile> {
-    struct MMappedFile *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} shared_ptr_0841df90;
+    struct MMappedFile *_field1;
+    struct __shared_weak_count *_field2;
+} shared_ptr_912cf19d;
 
 typedef struct shared_ptr<CoreML::BayesianProbitRegression::BayesianProbitRegression> {
     struct BayesianProbitRegression *__ptr_;
@@ -538,9 +462,9 @@ typedef struct shared_ptr<Espresso::net> {
 } shared_ptr_d082c67d;
 
 typedef struct shared_ptr<MIL::IRProgram> {
-    struct IRProgram *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} shared_ptr_71e6e433;
+    struct IRProgram *_field1;
+    struct __shared_weak_count *_field2;
+} shared_ptr_a2d22a3e;
 
 typedef struct unique_ptr<MIL::IRProgram, std::default_delete<MIL::IRProgram>> {
     struct {
@@ -565,10 +489,10 @@ typedef struct vector<int, std::allocator<int>> {
 } vector_daac2569;
 
 typedef struct vector<long long, std::allocator<long long>> {
-    long long *__begin_;
-    long long *__end_;
-    CDStruct_5fd5a61e ;
-} vector_ef673ceb;
+    long long *_field1;
+    long long *_field2;
+    CDStruct_5fd5a61e _field3;
+} vector_cd3d9677;
 
 typedef struct vector<std::pair<unsigned long, float>, std::allocator<std::pair<unsigned long, float>>> {
     void *_field1;
@@ -577,10 +501,10 @@ typedef struct vector<std::pair<unsigned long, float>, std::allocator<std::pair<
 } vector_7f81098b;
 
 typedef struct vector<std::string, std::allocator<std::string>> {
-    void *__begin_;
-    void *__end_;
-    CDStruct_63fd5f43 ;
-} vector_64acebbd;
+    void *_field1;
+    void *_field2;
+    CDStruct_63fd5f43 _field3;
+} vector_76d36e47;
 
 typedef struct vector<unsigned char, std::allocator<unsigned char>> {
     char *__begin_;
@@ -591,14 +515,14 @@ typedef struct vector<unsigned char, std::allocator<unsigned char>> {
 } vector_7dc4c282;
 
 typedef struct vector<unsigned long long, std::allocator<unsigned long long>> {
-    unsigned long long *__begin_;
-    unsigned long long *__end_;
-    CDStruct_56b55661 ;
-} vector_1172c51c;
+    unsigned long long *_field1;
+    unsigned long long *_field2;
+    CDStruct_f26bb81f _field3;
+} vector_b0a5cdae;
 
 typedef struct vector<unsigned long, std::allocator<unsigned long>> {
-    unsigned long long *__begin_;
-    unsigned long long *__end_;
-    CDStruct_56b55661 ;
-} vector_85d7f63b;
+    unsigned long long *_field1;
+    unsigned long long *_field2;
+    CDStruct_f26bb81f _field3;
+} vector_aa56f780;
 

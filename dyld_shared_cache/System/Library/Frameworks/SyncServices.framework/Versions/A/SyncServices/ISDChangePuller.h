@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISDRecordIdMapper, NSMutableDictionary;
+@class ISDRecordIdMapper;
 
 @interface ISDChangePuller
 {
     ISDRecordIdMapper *_mapper;
-    NSMutableDictionary *_record;
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)Hk;
 
 @end
 

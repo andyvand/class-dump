@@ -10,13 +10,13 @@
 {
 }
 
-+ (Class);
-+ (id);
++ (Class);
++ (id)isMemberOfClass: /* Error: Ran out of types for this method. */;
 + (void);
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)__PKPaymentAuthorizationFooterViewAccessibility_super;
 
 @end
 

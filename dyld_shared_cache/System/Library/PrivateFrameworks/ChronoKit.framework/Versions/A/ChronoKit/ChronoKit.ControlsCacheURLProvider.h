@@ -7,7 +7,6 @@
 @interface ChronoKit.ControlsCacheURLProvider
 {
     id subdirectory;
-    id fileExtension;
 }
 
 @end

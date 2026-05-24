@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSCTAdapter, NSMapTable, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue, _IDSPasswordManager;
+@class NSMutableDictionary;
 
 @interface IDSSignInController
 {
     NSMutableDictionary *_serviceNameAccountControllerMap;
-    NSMutableDictionary *_accountIDDescriptionMap;
-    NSMapTable *_delegateByServiceType;
-    NSMutableDictionary *_initialStateByService;
-    NSObject<OS_dispatch_queue> *_signInQueue;
-    id _passwordManager;
-    double _signInTimeout;
-    double _signInFuzz;
-    IDSCTAdapter *_CTAdapter;
-    NSString *_listenerGUID;
 }
 
 - (void);
@@ -27,23 +17,23 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (void);
+- (id)browser_copyNANEndpointForDeviceIDInternal;
+- (void)ction_asyncConnectionCompleted(SocketRef, OSStatus, void *);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (double)identity:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (double);
 - (void);
 - (void);
-- (double);
-- (void);
-- (void);
-- (id);
+- (id)_configurationExistingAccountWithType: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
@@ -55,9 +45,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)contactsSharingState;
+- (void)T;
+- (void)8;
 - (void);
 - (void);
 - (void);
@@ -67,7 +57,7 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -81,23 +71,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) IDSCTAdapter *CTAdapter; // @synthesize CTAdapter=_CTAdapter;
-@property(retain, nonatomic) NSMutableDictionary *accountIDDescriptionMap; // @synthesize accountIDDescriptionMap=_accountIDDescriptionMap;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) NSMapTable *delegateByServiceType; // @synthesize delegateByServiceType=_delegateByServiceType;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableDictionary *initialStateByService; // @synthesize initialStateByService=_initialStateByService;
-@property(retain, nonatomic) NSString *listenerGUID; // @synthesize listenerGUID=_listenerGUID;
-@property(retain, nonatomic) id <_IDSPasswordManager> passwordManager; // @synthesize passwordManager=_passwordManager;
 @property(retain, nonatomic) NSMutableDictionary *serviceNameAccountControllerMap; // @synthesize serviceNameAccountControllerMap=_serviceNameAccountControllerMap;
-@property(nonatomic) double signInFuzz; // @synthesize signInFuzz=_signInFuzz;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *signInQueue; // @synthesize signInQueue=_signInQueue;
-@property(nonatomic) double signInTimeout; // @synthesize signInTimeout=_signInTimeout;
-@property(readonly) Class superclass;
 
 @end
 

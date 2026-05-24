@@ -13,9 +13,9 @@
     NSLocale *_locale;
 }
 
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool)({;
+- (id)|;
+- (_Bool)2|;
 - (id);
 - (void)0@ù
 × ;

@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactViewCache, CNPhotoPickerVariantsManager, CNVisualIdentity, NSArray, NSIndexPath, NSMutableArray, NSString;
-@protocol AVTAvatarStore, CNPhotoPickerProviderGroupDelegate;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface CNPhotoPickerDataSource
 {
     _Bool _allowsPhotoLibraryAccess;
-    CNVisualIdentity *_visualIdentity;
-    NSIndexPath *_activePhotoIndexPath;
-    CNContactViewCache *_contactViewCache;
-    id <CNPhotoPickerProviderGroupDelegate> _delegate;
-    CNPhotoPickerVariantsManager *_variantsManager;
-    id <AVTAvatarStore> _avatarStore;
-    NSArray *_emojiSuggestionItems;
-    NSArray *_providerGroups;
-    NSMutableArray *_groupIsCollapsedState;
 }
 
 + (id);
@@ -33,33 +23,33 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (long long);
 - (long long);
-- (long long);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
 - (id);
+- (id)R(;
+- (id);
+- (id);
+- (id);
+- (_Bool)jA;
 - (id);
 - (id);
 - (id);
 - (id);
-- (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (id);
 - (id);
@@ -67,28 +57,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (id);
-- (long long)ppGroup;
-- (void)ctBlocked;
+- (long long)cardDefaultAppGroup;
+- (void)_isContactBlocked;
 
 // Remaining properties
-@property(retain, nonatomic) NSIndexPath *activePhotoIndexPath; // @synthesize activePhotoIndexPath=_activePhotoIndexPath;
-@property(nonatomic) _Bool allowsPhotoLibraryAccess; // @synthesize allowsPhotoLibraryAccess=_allowsPhotoLibraryAccess;
-@property(readonly, nonatomic) id <AVTAvatarStore> avatarStore; // @synthesize avatarStore=_avatarStore;
-@property(readonly, nonatomic) CNContactViewCache *contactViewCache; // @synthesize contactViewCache=_contactViewCache;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNPhotoPickerProviderGroupDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSArray *emojiSuggestionItems; // @synthesize emojiSuggestionItems=_emojiSuggestionItems;
-@property(retain, nonatomic) NSMutableArray *groupIsCollapsedState; // @synthesize groupIsCollapsedState=_groupIsCollapsedState;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long itemsPerRow;
 @property(readonly, nonatomic) NSArray *providerGroups; // @synthesize providerGroups=_providerGroups;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CNPhotoPickerVariantsManager *variantsManager; // @synthesize variantsManager=_variantsManager;
-@property(retain, nonatomic) CNVisualIdentity *visualIdentity; // @synthesize visualIdentity=_visualIdentity;
 
 @end
 

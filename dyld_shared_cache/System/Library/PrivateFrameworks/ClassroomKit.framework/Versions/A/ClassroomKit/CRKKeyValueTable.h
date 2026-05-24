@@ -9,20 +9,18 @@
 @interface CRKKeyValueTable
 {
     CRKTable *_table;
-    NSArray *_keyValuePairs;
 }
 
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)I;
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *keyValuePairs; // @synthesize keyValuePairs=_keyValuePairs;
-@property(readonly, nonatomic) CRKTable *table; // @synthesize table=_table;
 
 @end
 

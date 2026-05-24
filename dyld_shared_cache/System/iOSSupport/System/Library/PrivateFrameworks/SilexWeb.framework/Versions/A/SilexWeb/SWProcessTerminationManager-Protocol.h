@@ -5,5 +5,6 @@
 //
 
 @protocol SWProcessTerminationManager
+- (void);
 @end
 

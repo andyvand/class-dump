@@ -6,17 +6,15 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSArray, NSString;
-
 @interface INResetTimerIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
-+ (_Bool);
++ (int)thumbnailRequestGenerationWillStartBlock;
++ (int)hash;
++ (long long)forwardingTargetForSelector:(int)arg1;
++ (_Bool)enumerateKeysAndObjectsUsingBlock:(long long)arg1;
++ (_Bool);
 - (void);
 - (id);
 - (long long);
@@ -25,23 +23,16 @@
 - (void);
 - (id);
 - (id);
+- (id)hasValidValueForKey:(id)arg1;
 - (id);
-- (id);
-- (void);
+- (void)public}s:(id)arg1 %u) AJ accounting already started, exiting
+;
 - (id);
 - (id);
 - (long long)ray",C,N,S_setUnsupportedReasons:,V_unsupportedReasons /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSArray *resetTimers;
-@property(readonly) Class superclass;
 
 @end
 

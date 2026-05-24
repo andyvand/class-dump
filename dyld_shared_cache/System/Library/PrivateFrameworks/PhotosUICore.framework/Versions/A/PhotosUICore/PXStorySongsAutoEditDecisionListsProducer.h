@@ -4,29 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSObject, NSString, PFStoryAutoEditConfiguration, PXStoryAutoEditClipComposabilityProvider, PXStoryAutoEditMomentsProvider, PXStoryConfiguration;
-@protocol OS_dispatch_queue, OS_os_log, PXDisplayAssetCollection, PXDisplayAssetFetchResult, PXStoryChapterCollection, PXStoryMovieHighlightsCollection;
+@class PFStoryAutoEditConfiguration, PXStoryAutoEditMomentsProvider;
 
 @interface PXStorySongsAutoEditDecisionListsProducer
 {
     PFStoryAutoEditConfiguration *_configuration;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_os_log> *_log;
-    unsigned long long _randomNumberGeneratorSeed;
-    id <PXDisplayAssetCollection> _assetCollection;
-    PXStoryAutoEditMomentsProvider *_momentsProvider;
-    PXStoryAutoEditClipComposabilityProvider *_composabilityProvider;
-    NSArray *_lastGeneratedAutoEditDecisionLists;
-    NSMutableArray *_ttrUnitTestsForFailedDurationConstraints;
-    id <PXDisplayAssetFetchResult> _displayAssets;
-    id <PXStoryMovieHighlightsCollection> _movieHighlights;
-    id <PXStoryChapterCollection> _chapterCollection;
-    PXStoryConfiguration *_storyConfiguration;
-    CDStruct_5d4c7ed3 _targetOverallDurationInfo;
 }
 
-+ (CDStruct_b1a1f14e);
-- (CDStruct_5d4c7ed3);
++ (CDStruct_912cb5d2);
+- (CDStruct_f0d1f9bc);
 - (id);
 - (void);
 - (void);
@@ -42,7 +28,7 @@
 - (void);
 - (id);
 - (void);
-- (float);
+- (float)_֐$;
 - (void);
 - (void);
 - (void);
@@ -50,11 +36,11 @@
 - (void);
 - (void);
 - (long long);
-- (CDStruct_5d4c7ed3);
+- (CDStruct_f0d1f9bc);
 - (id);
 - (id);
 - (id);
-- (CDStruct_c8943d03);
+- (CDStruct_d2aef016);
 - (id);
 - (id);
 - (id);
@@ -73,31 +59,14 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)u;
 - (id);
 - (id);
 - (void)£8;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) id <PXStoryChapterCollection> chapterCollection; // @synthesize chapterCollection=_chapterCollection;
-@property(retain, nonatomic) PXStoryAutoEditClipComposabilityProvider *composabilityProvider; // @synthesize composabilityProvider=_composabilityProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) PXStoryAutoEditMomentsProvider *diagnosticsMomentsProvider;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"PXStoryAutoEditMomentsProvider",?,R,N
-
-@property(readonly, nonatomic) id <PXDisplayAssetFetchResult> displayAssets; // @synthesize displayAssets=_displayAssets;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) PXStoryAutoEditMomentsProvider *momentsProvider; // @synthesize momentsProvider=_momentsProvider;
-@property(readonly, nonatomic) id <PXStoryMovieHighlightsCollection> movieHighlights; // @synthesize movieHighlights=_movieHighlights;
-@property(readonly, nonatomic) PXStoryConfiguration *storyConfiguration; // @synthesize storyConfiguration=_storyConfiguration;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CDStruct_5d4c7ed3 targetOverallDurationInfo; // @synthesize targetOverallDurationInfo=_targetOverallDurationInfo;
 
 @end
 

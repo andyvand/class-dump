@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable;
-@protocol NSTouchBarFinderObserver, NSTouchBarProviderContainer;
+@protocol NSTouchBarProviderContainer;
 
 @interface NSTouchBarFinder
 {
     id <NSTouchBarProviderContainer> _rootProviderContainer;
-    id <NSTouchBarFinderObserver> _observer;
-    NSMapTable *_observationsByProvider;
 }
 
-- (id);
+- (id){S;
 - (void);
 - (void);
 - (void);

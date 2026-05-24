@@ -7,17 +7,6 @@
 @interface ConversationKit.ParticipantVideoOverlayView
 {
     id visualEffectView;
-    id imageAndLabelContainer;
-    id imageView;
-    id labelView;
-    id imageViewWidthConstraint;
-    id imageViewHeightConstraint;
-    id $__lazy_storage_$_monogramView;
-    id spinnerView;
-    id snapshotView;
-    id localParticipant;
-    id wantsAlphaAnimation;
-    id isInRoster;
 }
 
 - (id);

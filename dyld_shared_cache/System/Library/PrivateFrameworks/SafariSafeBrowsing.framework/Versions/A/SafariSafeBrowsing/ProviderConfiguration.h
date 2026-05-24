@@ -4,54 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber;
-
 __attribute__((visibility("hidden")))
 @interface ProviderConfiguration
 {
     _Bool _providerOff;
-    _Bool _socialEngineeringThreatTypeOff;
-    _Bool _malwareThreatTypeOff;
-    _Bool _unwantedSoftwareThreatTypeOff;
-    _Bool _useV5BatchGet;
-    _Bool _proxyOff;
-    _Bool _useV5;
-    _Bool _isWebBrowserOnly;
-    NSNumber *_safeCacheDurationOverride;
-    NSDictionary *_configuration;
 }
 
+- (_Bool)ion not supported:(id)arg1;
+- (_Bool)4;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)lid widget descriptor being supplied: /* Error: Ran out of types for this method. */;
+- (id)ng supplied: /* Error: Ran out of types for this method. */;
+- (_Bool)wift;
+- (_Bool)Kit/ResolvedWidgetHost.swift;
+- (_Bool)NSForceLegacyTextStylesForWidgets;
+- (_Bool)ed=;
+- (void)gets.extension;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)RemoteControls;
+- (void)figurationXPCContainer;
 - (id);
 - (id);
-- (id);
+- (id)qa;
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *configuration; // @synthesize configuration=_configuration;
-@property(readonly, nonatomic) _Bool isWebBrowserOnly; // @synthesize isWebBrowserOnly=_isWebBrowserOnly;
-@property(readonly, nonatomic) _Bool malwareThreatTypeOff; // @synthesize malwareThreatTypeOff=_malwareThreatTypeOff;
 @property(nonatomic) _Bool providerOff; // @synthesize providerOff=_providerOff;
-@property(readonly, nonatomic) _Bool proxyOff; // @synthesize proxyOff=_proxyOff;
-@property(readonly, nonatomic) NSNumber *safeCacheDurationOverride; // @synthesize safeCacheDurationOverride=_safeCacheDurationOverride;
-@property(readonly, nonatomic) _Bool socialEngineeringThreatTypeOff; // @synthesize socialEngineeringThreatTypeOff=_socialEngineeringThreatTypeOff;
-@property(readonly, nonatomic) _Bool unwantedSoftwareThreatTypeOff; // @synthesize unwantedSoftwareThreatTypeOff=_unwantedSoftwareThreatTypeOff;
-@property(readonly, nonatomic) _Bool useV5; // @synthesize useV5=_useV5;
-@property(readonly, nonatomic) _Bool useV5BatchGet; // @synthesize useV5BatchGet=_useV5BatchGet;
 
 @end
 

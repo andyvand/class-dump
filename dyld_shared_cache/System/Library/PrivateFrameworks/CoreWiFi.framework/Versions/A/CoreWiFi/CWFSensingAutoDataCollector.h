@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessory, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface CWFSensingAutoDataCollector
 {
     NSMutableDictionary *__serviceObjects;
-    NSObject<OS_dispatch_queue> *__serviceQueue;
-    HMAccessory *__currentAccessory;
 }
 
 + (id);
@@ -29,9 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) HMAccessory *_currentAccessory; // @synthesize _currentAccessory=__currentAccessory;
 @property(retain, nonatomic) NSMutableDictionary *_serviceObjects; // @synthesize _serviceObjects=__serviceObjects;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *_serviceQueue; // @synthesize _serviceQueue=__serviceQueue;
 
 @end
 

@@ -8,7 +8,7 @@
 {
 }
 
-- (void);
+- (void)h;
 - (void);
 - (void);
 - (_Bool);

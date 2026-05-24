@@ -7,8 +7,6 @@
 @interface WidgetKit.WidgetCenter
 {
     id _calloutQueue;
-    id _lock;
-    id _lock_connection;
 }
 
 @end

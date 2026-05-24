@@ -7,8 +7,6 @@
 @interface PhotosGraph.TripFeatureProcessorHelper
 {
     id locationDictionaryCache;
-    id areaCache;
-    id numberOfMomentsAfterFilter;
 }
 
 - (id);

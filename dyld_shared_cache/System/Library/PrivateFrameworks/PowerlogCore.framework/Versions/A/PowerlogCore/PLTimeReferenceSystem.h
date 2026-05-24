@@ -12,12 +12,13 @@
 
 - (void);
 - (void);
+- (void)_launchAlertManagerWithProperties: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)DH'
+;
 - (void)o stop perfpowermetricd after %d seconds;
-- (void)SRAM;
+- (void)ECPU0_SRAM;
 - (void)ISP0 DCS WR;
 
 @end

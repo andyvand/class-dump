@@ -6,8 +6,6 @@
 
 #import <UIKitCore/UIViewConfigurationState.h>
 
-@class NSString;
-
 @interface UICellConfigurationState : UIViewConfigurationState
 {
     struct {
@@ -27,9 +25,9 @@
 + (id);
 + (id);
 + (_Bool)empted to dequeue multiple cells for the same index path, which is not allowed. If you really need to dequeue more cells than the table view is requesting, use the -dequeueReusableCellWithIdentifier:method (without an index path). Cell identifier:%@, index path:%@ /* Error: Ran out of types for this method. */;
-- (void);
+- (void)_payloadLocation;
 - (id);
-- (void);
+- (void)chunk_references;
 - (_Bool);
 - (long long);
 - (_Bool);
@@ -40,15 +38,15 @@
 - (void);
 - (_Bool)1Â0@ù
 × ;
-- (void)ssistantBar:(_Bool)arg1;
-- (_Bool)gnizer;
-- (_Bool)State:isMini: /* Error: Ran out of types for this method. */;
-- (long long)ble: /* Error: Ran out of types for this method. */;
-- (void):(long long)arg1;
-- (void)omTransformer:(id)arg1;
-- (long long): /* Error: Ran out of types for this method. */;
+- (void)forwardKeyboardSuppression:(_Bool)arg1 suppressAssistantBar: /* Error: Ran out of types for this method. */;
+- (_Bool)dimmingViewDismissTapGestureRecognizer;
+- (_Bool)backButtonBackgroundImageForState:isMini: /* Error: Ran out of types for this method. */;
+- (long long)_willBeginAnimatingBoltToVisible: /* Error: Ran out of types for this method. */;
+- (void)_updateSnapshotForBackgroundApplication:(long long)arg1;
+- (void)_updateFromTransformer:(id)arg1;
+- (long long)_solveWithParameters: /* Error: Ran out of types for this method. */;
 - (long long)g>",R,N,V_animator;
-- (void)ehaviorsToAdd;
+- (void)_behaviorsToAdd;
 - (void);
 - (void)s an invalid lift anchor point (%@). This is a client issue, likely caused by an invalid view size. PLEASE FIX ME.;
 - (_Bool)g delayed press <%@:%p; phase = %@> /* Error: Ran out of types for this method. */;
@@ -59,29 +57,7 @@
 - (void)]éþ;
 
 // Remaining properties
-@property(readonly, nonatomic) long long _contextMenuGroupLocation;
-@property(nonatomic, setter=_setInMultiSelectGroup:) _Bool _inMultiSelectGroup;
-@property(nonatomic, setter=_setTypeSelectState:) long long _typeSelectState; // @synthesize _typeSelectState=__typeSelectState;
 @property(nonatomic, setter=_setUsesAnyPlainListStyle:) _Bool _usesAnyPlainListStyle;
-@property(readonly, nonatomic) unsigned long long _viewConfigurationState;
-@property(nonatomic) long long cellDragState;
-@property(nonatomic) long long cellDropState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isDisabled) _Bool disabled;
-@property(nonatomic, getter=isEditing) _Bool editing;
-@property(nonatomic, getter=isExpanded) _Bool expanded;
-@property(readonly, nonatomic, getter=isFocused) _Bool focused;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isHighlighted) _Bool highlighted;
-@property(readonly, nonatomic, getter=isPinned) _Bool pinned;
-@property(nonatomic, getter=isReordering) _Bool reordering;
-@property(readonly, nonatomic, getter=isSelected) _Bool selected;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=isSwiped) _Bool swiped;
 
 @end
 

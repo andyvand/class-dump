@@ -7,7 +7,6 @@
 @interface NewsFeed.GapViewStyler
 {
     id colorPalette;
-    id colorPaletteProvider;
 }
 
 @end

@@ -6,17 +6,12 @@
 
 #import <MediaPlaybackCore/_MPCPlayerCommand.h>
 
-@class MPCPlayerResponseSection, NSArray, NSSet, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface _MPCPlayerInsertItemsCommand : _MPCPlayerCommand
 {
     _Bool _supportsCreateStation;
-    NSArray *_devices;
-    unsigned long long _supportedInsertionPositions;
-    unsigned long long _supportedQueueTypes;
-    NSSet *_supportedCustomDataQueueIdentifiers;
-    MPCPlayerResponseSection *_lastSection;
 }
 
 - (_Bool);
@@ -30,10 +25,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)r/lib/libobjc.A.dylib;
 - (id);
 - (id);
-- (id);
+- (id)_isUserDefaultsDisabledDataclass:(id)arg1;
 - (void);
 - (void);
 - (unsigned long long);
@@ -44,20 +39,7 @@ __attribute__((visibility("hidden")))
 - (void)Ft;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSArray *devices; // @synthesize devices=_devices;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) MPCPlayerResponseSection *lastSection; // @synthesize lastSection=_lastSection;
-@property(readonly) MPCPlayerResponseSection *section;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSSet *supportedCustomDataQueueIdentifiers; // @synthesize supportedCustomDataQueueIdentifiers=_supportedCustomDataQueueIdentifiers;
-@property(nonatomic) unsigned long long supportedInsertionPositions; // @synthesize supportedInsertionPositions=_supportedInsertionPositions;
-@property(nonatomic) unsigned long long supportedQueueTypes; // @synthesize supportedQueueTypes=_supportedQueueTypes;
-@property(nonatomic) _Bool supportsCreateStation; // @synthesize supportsCreateStation=_supportsCreateStation;
 
 @end
 

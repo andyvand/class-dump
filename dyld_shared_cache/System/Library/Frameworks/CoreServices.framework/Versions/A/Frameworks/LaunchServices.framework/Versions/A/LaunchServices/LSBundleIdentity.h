@@ -9,30 +9,25 @@
 @interface LSBundleIdentity
 {
     NSString *_identityString;
-    NSString *_personaUniqueString;
-    unsigned long long _personaType;
 }
 
-+ (id);
-+ (_Bool);
++ (id);
++ (_Bool)Q16Q24;
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)<;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)H ;
 - (id);
-- (id);
+- (id) ;
 - (id);
 - (void)<0À;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *bundleIdentifier;
 @property(readonly, nonatomic) NSString *identityString; // @synthesize identityString=_identityString;
-@property(readonly, nonatomic) unsigned long long personaType; // @synthesize personaType=_personaType;
-@property(readonly, nonatomic) NSString *personaUniqueString; // @synthesize personaUniqueString=_personaUniqueString;
 
 @end
 

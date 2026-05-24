@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MIDI2DeviceInfo, NSArray, NSString;
+@class NSString;
 
 @interface MIDIUMPEndpoint
 {
     NSString *_name;
-    int _MIDIProtocol;
-    unsigned char _supportedMIDIProtocols;
-    unsigned int _MIDISource;
-    unsigned int _MIDIDestination;
-    MIDI2DeviceInfo *_deviceInfo;
-    NSString *_productInstanceID;
-    _Bool _hasStaticFunctionBlocks;
-    _Bool _hasJRTSReceiveCapability;
-    _Bool _hasJRTSTransmitCapability;
-    unsigned char _endpointType;
-    NSArray *_functionBlocks;
-    unsigned int _ownerClientRef;
-    struct unfair_recursive_lock mMutex;
-    unsigned int _objectRef;
-    CDUnknownBlockType _receiveBlock;
 }
 
 + (id);
@@ -52,25 +37,11 @@
 - (_Bool);
 - (unsigned char);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int MIDIDestination;
-@property(readonly, nonatomic) int MIDIProtocol;
-@property(readonly, nonatomic) unsigned int MIDISource;
-@property(readonly, nonatomic) MIDI2DeviceInfo *deviceInfo;
-@property(readonly, nonatomic) unsigned char endpointType;
-@property(copy, nonatomic) NSArray *functionBlocks; // @synthesize functionBlocks=_functionBlocks;
-@property(readonly, nonatomic) _Bool hasJRTSReceiveCapability;
-@property(readonly, nonatomic) _Bool hasJRTSTransmitCapability;
-@property(readonly, nonatomic) _Bool hasStaticFunctionBlocks;
-@property(readonly, nonatomic) _Bool isMine;
-@property(readonly, nonatomic) NSString *name;
-@property(nonatomic) unsigned int objectRef; // @synthesize objectRef=_objectRef;
-@property(readonly, nonatomic) NSString *productInstanceID;
 @property(copy, nonatomic) CDUnknownBlockType receiveBlock; // @synthesize receiveBlock=_receiveBlock;
-@property(readonly, nonatomic) unsigned char supportedMIDIProtocols;
 
 @end
 

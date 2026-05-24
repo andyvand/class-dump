@@ -6,28 +6,26 @@
 
 #import <TextInput/TITypologyRecord.h>
 
-@class NSString, TIKeyboardLayout;
+@class TIKeyboardLayout;
 
 @interface TITypologyRecordKeyboardLayout : TITypologyRecord
 {
     TIKeyboardLayout *_keyboardLayout;
-    NSString *_name;
 }
 
 + (_Bool);
+- (void);
+- (id);
+- (id);
+- (id)!;
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)neticTitle:(id)arg1;
+- (void)initWithTitle:(id)arg1 phoneticTitle: /* Error: Ran out of types for this method. */;
 - (void)£
 ;
 
 // Remaining properties
 @property(retain, nonatomic) TIKeyboardLayout *keyboardLayout; // @synthesize keyboardLayout=_keyboardLayout;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

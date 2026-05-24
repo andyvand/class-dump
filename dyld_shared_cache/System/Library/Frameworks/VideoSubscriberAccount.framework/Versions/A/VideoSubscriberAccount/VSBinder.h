@@ -4,40 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCountedSet, NSMutableDictionary;
-
 __attribute__((visibility("hidden")))
 @interface VSBinder
 {
     _Bool _establishmentProhibited;
-    id _boundObject;
-    NSCountedSet *_currentlyChangingBindings;
-    NSMutableDictionary *_establishedBindings;
 }
 
-- (id);
+- (id));
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (_Bool);
+- (id);
+- (id)qA;
 - (void);
 - (id);
+- (id);
+- (id)!;
+- (void);
+- (id);
 - (void);
-- (void);
+- (void)I;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id boundObject; // @synthesize boundObject=_boundObject;
-@property(retain, nonatomic) NSCountedSet *currentlyChangingBindings; // @synthesize currentlyChangingBindings=_currentlyChangingBindings;
-@property(retain, nonatomic) NSMutableDictionary *establishedBindings; // @synthesize establishedBindings=_establishedBindings;
-@property(nonatomic, getter=isEstablishmentProhibited) _Bool establishmentProhibited; // @synthesize establishmentProhibited=_establishmentProhibited;
 
 @end
 

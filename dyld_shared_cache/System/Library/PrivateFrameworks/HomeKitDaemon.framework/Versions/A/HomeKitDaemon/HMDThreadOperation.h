@@ -4,40 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDThreadOperation
 {
     NSObject<OS_dispatch_queue> *_workQueue;
-    CDUnknownBlockType _operation;
-    long long _operationType;
 }
 
 + (id)TBB;
-- (id);
+- (id)setLatLng:(id)arg1;
+- (void)dTripCapabilityFetchingServer dealloc];
+- (void)GcmFuY2lzY286BTk0MTAyQgpOb3J0aCBQYXJrUgpIZXJtYW5uIFN0WgMxNTViDjE1NSBIZXJtYW5uIFN0agQ2MTMwciNVbml0ZWQgU3RhdGVzIE1pbnQgb2YgU2FuIEZyYW5jaXNjb4oBDVNhbiBGcmFuY2lzY2+KAQhCYXkgQXJlYYoBDEhheWVzIFZhbGxleYoBD0R1Ym9jZSBUcmlhbmdsZYoBCk5vcnRoIFBhcmuiAQo5NDEwMi02MTMwShIJAxDSrp3iQkARZK2h1F6bXsBYAGISCTbpONCh4kJAEbt3Pwxfm17AcMI7;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)te interval %u;
 - (id);
 - (long long)¸Xà;
-- (void)sion;
+- (void)displayableSoftwareVersion;
 - (void)le;
 - (CDUnknownBlockType);
 - (void)J=;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType operation; // @synthesize operation=_operation;
-@property(nonatomic) long long operationType; // @synthesize operationType=_operationType;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

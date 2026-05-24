@@ -7,9 +7,9 @@
 @class NSDictionary;
 
 @protocol AppStoreKit.OnDevicePersonalizationDataContainerExports__priv_7D048109B600E8984488198FE492563E
+- (NSDictionary *);
 
 // Remaining properties
-@property(nonatomic, readonly) NSDictionary *metricsData;
 @property(nonatomic, readonly) NSDictionary *personalizationData;
 @end
 

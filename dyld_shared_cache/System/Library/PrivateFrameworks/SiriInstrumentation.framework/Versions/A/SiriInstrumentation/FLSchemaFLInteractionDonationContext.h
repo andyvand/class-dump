@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class FLSchemaFLInteractionDonationEnded, FLSchemaFLInteractionDonationStarted, NSData, SISchemaUUID;
+@class FLSchemaFLInteractionDonationStarted;
 
 @interface FLSchemaFLInteractionDonationContext : SISchemaInstrumentationMessage
 {
     FLSchemaFLInteractionDonationStarted *_startedOrChanged;
-    FLSchemaFLInteractionDonationEnded *_ended;
-    SISchemaUUID *_contextId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasContextId;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -28,34 +22,27 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void)-;
+- (_Bool)eFrameworks/CoreEmoji.framework/Versions/A/CoreEmoji;
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)0;
 - (void);
-- (unsigned long long);
+- (unsigned long long)outlineView:didDragTableColumn: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)egasusQueryMetadata";
-- (id)ySiriEnabled;
+- (id)_heySiriEnabled;
 - (id)<;
 - (void)Ï²$;
 - (void)ÿi´*;
 - (id)@Ævÿ ®úz+;
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaUUID *contextId; // @synthesize contextId=_contextId;
-@property(retain, nonatomic) FLSchemaFLInteractionDonationEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasContextId; // @synthesize hasContextId=_hasContextId;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) FLSchemaFLInteractionDonationStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

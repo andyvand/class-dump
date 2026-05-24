@@ -4,10 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class NSIndexSet, NSString;
 
 @protocol _UITreeDataSourceSnapshotter
+- (NSIndexSet *);
+- (long long);
+- (NSIndexSet *);
+- (_Bool)";
+- (NSIndexSet *)So22IMDSpamFilteringHelperC;
 - (long long)Variant;
-- (NSString *);
+- (NSString *)_CustomObjCMaterial;
 @end
 

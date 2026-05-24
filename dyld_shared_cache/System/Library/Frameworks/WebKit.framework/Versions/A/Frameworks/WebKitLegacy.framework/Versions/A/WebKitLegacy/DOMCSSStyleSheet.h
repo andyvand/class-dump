@@ -6,7 +6,7 @@
 
 #import <WebKitLegacy/DOMStyleSheet.h>
 
-@class DOMCSSRule, DOMCSSRuleList;
+@class DOMCSSRule;
 
 @interface DOMCSSStyleSheet : DOMStyleSheet
 {
@@ -22,9 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) DOMCSSRuleList *cssRules;
 @property(readonly) DOMCSSRule *ownerRule;
-@property(readonly) DOMCSSRuleList *rules;
 
 @end
 

@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSSet;
+@class NSSet;
 
 @interface PKPeerPaymentAssociatedAccountInformation
 {
     _Bool _associatedAccountStateDirty;
-    NSSet *_associatedAccounts;
-    NSSet *_associatedAccountInvitations;
-    NSSet *_associatedAccountRemovalRecords;
-    double _proactiveAssociatedAccountFetchPeriod;
-    NSDate *_lastUpdated;
 }
 
 + (_Bool)qî%°1Â0@ù
 × ;
-- (void);
+- (void)M;
 - (void);
 - (void);
 - (void);
@@ -29,7 +24,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -37,18 +32,13 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)"b1"pageID"b1"timestamp"b1};
+- (void)setHasFlowDurationMilliseconds:(id)arg1;
 - (void);
 - (void)ata:%ld bytes;  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *associatedAccountInvitations; // @synthesize associatedAccountInvitations=_associatedAccountInvitations;
-@property(copy, nonatomic) NSSet *associatedAccountRemovalRecords; // @synthesize associatedAccountRemovalRecords=_associatedAccountRemovalRecords;
-@property(nonatomic, getter=isAssociatedAccountStateDirty) _Bool associatedAccountStateDirty; // @synthesize associatedAccountStateDirty=_associatedAccountStateDirty;
 @property(copy, nonatomic) NSSet *associatedAccounts; // @synthesize associatedAccounts=_associatedAccounts;
-@property(copy, nonatomic) NSDate *lastUpdated; // @synthesize lastUpdated=_lastUpdated;
-@property(nonatomic) double proactiveAssociatedAccountFetchPeriod; // @synthesize proactiveAssociatedAccountFetchPeriod=_proactiveAssociatedAccountFetchPeriod;
 
 @end
 

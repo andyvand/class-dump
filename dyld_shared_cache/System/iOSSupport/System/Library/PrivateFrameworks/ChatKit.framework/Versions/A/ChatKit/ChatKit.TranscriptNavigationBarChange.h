@@ -9,15 +9,14 @@
 @interface ChatKit.TranscriptNavigationBarChange
 {
     void name;
-    id performMutation;
 }
 
 + (id);
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)n;
++ (id)generating gallery pdf:%@ /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (id);

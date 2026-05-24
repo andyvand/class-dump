@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSTimer;
-@protocol IMSendProgressDelegate, IMSendProgressTimeDataSource;
+@protocol IMSendProgressTimeDataSource;
 
 @interface IMSendProgress
 {
     _Bool _startSendProgressImmediately;
-    _Bool _waitingForComposition;
-    _Bool _wasShowing;
-    float _cachedSendProgress;
-    id <IMSendProgressDelegate> _delegate;
-    id _context;
-    NSDictionary *_sendingItems;
-    id <IMSendProgressTimeDataSource> _timeDataSource;
-    NSTimer *_sendProgressTimer;
-    double _translationStartTime;
 }
 
 + (Class);
@@ -26,7 +16,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (double);
+- (double)0;
 - (id);
 - (_Bool);
 - (void);
@@ -44,14 +34,14 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)�`;
 - (unsigned long long);
 - (void);
 - (_Bool);
 - (double);
 - (void);
 - (id);
-- (void);
+- (void)7;
 - (id);
 - (void);
 - (id);
@@ -59,16 +49,7 @@
 - (void)ø¯²³;
 
 // Remaining properties
-@property(nonatomic) float cachedSendProgress; // @synthesize cachedSendProgress=_cachedSendProgress;
-@property(nonatomic) __weak id context; // @synthesize context=_context;
-@property(nonatomic) __weak id <IMSendProgressDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSTimer *sendProgressTimer; // @synthesize sendProgressTimer=_sendProgressTimer;
-@property(copy, nonatomic) NSDictionary *sendingItems; // @synthesize sendingItems=_sendingItems;
-@property(nonatomic) _Bool startSendProgressImmediately; // @synthesize startSendProgressImmediately=_startSendProgressImmediately;
 @property(retain, nonatomic) id <IMSendProgressTimeDataSource> timeDataSource; // @synthesize timeDataSource=_timeDataSource;
-@property(nonatomic) double translationStartTime; // @synthesize translationStartTime=_translationStartTime;
-@property(nonatomic) _Bool waitingForComposition; // @synthesize waitingForComposition=_waitingForComposition;
-@property(nonatomic) _Bool wasShowing; // @synthesize wasShowing=_wasShowing;
 
 @end
 

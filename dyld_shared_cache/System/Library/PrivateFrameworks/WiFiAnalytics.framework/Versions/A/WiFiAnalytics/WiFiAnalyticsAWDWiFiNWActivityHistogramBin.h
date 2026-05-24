@@ -4,40 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface WiFiAnalyticsAWDWiFiNWActivityHistogramBin
 {
     unsigned long long _hits;
-    NSString *_bin;
-    struct {
-        unsigned int hits:1;
-    } _has;
 }
 
 - (void);
-- (void);
+- (void)fficient bytes to decode XPCObject;
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
-- (id);
+- (id);
+- (id)MutableAttributedString:Non-editable attributes were extended around the insertion point, now unapply the extension to the attributes {self:%p, keys:%@, range:%@} /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)MotionTypeGyroBiasAndVariance)_block_invoke;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bin; // @synthesize bin=_bin;
 @property(readonly, nonatomic) _Bool hasBin;
-@property(nonatomic) _Bool hasHits;
-@property(nonatomic) unsigned long long hits; // @synthesize hits=_hits;
 
 @end
 

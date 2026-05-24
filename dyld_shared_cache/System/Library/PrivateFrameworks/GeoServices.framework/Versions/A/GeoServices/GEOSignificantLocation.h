@@ -4,66 +4,48 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLocation, GEOStructuredAddress, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEOSignificantLocation
 {
     PBDataReader *_reader;
-    GEOStructuredAddress *_address;
-    double _confidence;
-    NSString *_identifier;
-    GEOLocation *_location;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _locationIndex;
-    unsigned int _numberOfVisitsBucket;
-    struct {
-        unsigned int has_confidence:1;
-        unsigned int has_locationIndex:1;
-        unsigned int has_numberOfVisitsBucket:1;
-        unsigned int read_address:1;
-        unsigned int read_identifier:1;
-        unsigned int read_location:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)SuggestionsContactRevelanceScore:(id)arg1;
++ (_Bool)setMapsSuggestionsContactRevelanceScore:(id)arg1;
 - (void);
-- (void);
+- (void)$;
 - (void);
 - (void);
 - (unsigned int);
 - (unsigned int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (id);
+- (_Bool)_firstAvailableValueForRelationship:key: /* Error: Ran out of types for this method. */;
+- (_Bool)URL",C,VbaseURL;
+- (_Bool)So13CNCDContainerCSg;
+- (void);
 - (_Bool);
 - (void);
 - (id);
+- (_Bool)@;
 - (void);
 - (id);
 - (void);
-- (void);
+- (id);
+- (void)_supportHearstVoiceTrigger;
+- (void)via XPC remoteObjectProxy;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)P;
 - (id);
 - (void);
 - (void);
 - (id)"<GEOEncyclopedicInfo>";
-- (id)d;
-- (id)currentLocationIndex:options: /* Error: Ran out of types for this method. */;
+- (id)hasIcloudUserPersonId;
+- (id)_placesFromURL:hasCurrentLocation:currentLocationIndex:options: /* Error: Ran out of types for this method. */;
 - (id)GEOPDDeparturePredicate;
-- (double)ateConfiguration;
+- (double)GEOTransitRouteUpdateConfiguration;
 - (_Bool)è$È;
 - (void)public}@, error:(double)arg1 %{public}@;
-- (id)_filteration;
+- (id)used_next_day_for_filteration;
 - (id)È
 ;
 - (id);
@@ -72,18 +54,7 @@
 - (void)ëy4;
 
 // Remaining properties
-@property(retain, nonatomic) GEOStructuredAddress *address;
-@property(nonatomic) double confidence;
-@property(readonly, nonatomic) _Bool hasAddress;
-@property(nonatomic) _Bool hasConfidence;
-@property(readonly, nonatomic) _Bool hasIdentifier;
 @property(readonly, nonatomic) _Bool hasLocation;
-@property(nonatomic) _Bool hasLocationIndex;
-@property(nonatomic) _Bool hasNumberOfVisitsBucket;
-@property(retain, nonatomic) NSString *identifier;
-@property(retain, nonatomic) GEOLocation *location;
-@property(nonatomic) unsigned int locationIndex;
-@property(nonatomic) unsigned int numberOfVisitsBucket;
 
 @end
 

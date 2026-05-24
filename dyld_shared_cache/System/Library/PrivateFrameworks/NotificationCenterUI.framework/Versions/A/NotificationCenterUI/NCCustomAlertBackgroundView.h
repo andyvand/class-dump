@@ -9,12 +9,10 @@
 @interface NCCustomAlertBackgroundView
 {
     NSView *_materialView;
-    NSView *_contentView;
-    _Bool _dark;
 }
 
 + (id);
-- (struct NSEdgeInsets);
+- (struct NSEdgeInsets);
 - (void);
 - (_Bool);
 - (id);
@@ -26,8 +24,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly) NSView *contentView;
-@property(nonatomic) _Bool dark; // @synthesize dark=_dark;
 @property(readonly) struct NSEdgeInsets shadowInset;
 
 @end

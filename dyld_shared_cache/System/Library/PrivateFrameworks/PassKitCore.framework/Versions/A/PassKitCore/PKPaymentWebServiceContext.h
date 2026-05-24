@@ -6,34 +6,9 @@
 
 #import <PassKitCore/PKWebServiceContext.h>
 
-@class NSArray, NSDate, NSDictionary, NSMutableDictionary, NSString, NSURL, PKPaymentWebServiceConfiguration, PKPaymentWebServiceRegion;
-
 @interface PKPaymentWebServiceContext : PKWebServiceContext
 {
     struct os_unfair_lock_s _lock_context;
-    NSMutableDictionary *_verificationRequestsByPassUniqueID;
-    NSDictionary *_regions;
-    PKPaymentWebServiceConfiguration *_configuration;
-    struct os_unfair_lock_s _cacheLock;
-    NSMutableDictionary *_featureSupportedLanguageCache;
-    _Bool _devSigned;
-    _Bool _transactionServiceDisabled;
-    _Bool _messageServiceDisabled;
-    _Bool _ignoreProvisioningEnablementPercentage;
-    long long _version;
-    NSString *_deviceID;
-    NSString *_secureElementID;
-    NSString *_pushToken;
-    NSString *_nextPushToken;
-    NSString *_companionSerialNumber;
-    long long _registrationType;
-    NSDate *_registrationDate;
-    NSDate *_archivedDate;
-    NSDate *_configurationDate;
-    NSString *_primaryRegionIdentifier;
-    long long _consistencyCheckBackoffLevel;
-    NSArray *_certificates;
-    NSString *_lastUpdatedTag;
 }
 
 + (id);
@@ -43,30 +18,7 @@
 × ;
 
 // Remaining properties
-@property(copy) NSDate *archivedDate; // @synthesize archivedDate=_archivedDate;
-@property(copy) NSArray *certificates; // @synthesize certificates=_certificates;
-@property(copy) NSString *companionSerialNumber; // @synthesize companionSerialNumber=_companionSerialNumber;
-@property(retain) PKPaymentWebServiceConfiguration *configuration;
-@property(copy) NSDate *configurationDate; // @synthesize configurationDate=_configurationDate;
 @property long long consistencyCheckBackoffLevel; // @synthesize consistencyCheckBackoffLevel=_consistencyCheckBackoffLevel;
-@property _Bool devSigned; // @synthesize devSigned=_devSigned;
-@property(copy) NSString *deviceID; // @synthesize deviceID=_deviceID;
-@property(readonly, nonatomic) _Bool hasPeerPaymentAccount;
-@property _Bool ignoreProvisioningEnablementPercentage; // @synthesize ignoreProvisioningEnablementPercentage=_ignoreProvisioningEnablementPercentage;
-@property(copy) NSString *lastUpdatedTag; // @synthesize lastUpdatedTag=_lastUpdatedTag;
-@property _Bool messageServiceDisabled; // @synthesize messageServiceDisabled=_messageServiceDisabled;
-@property(copy) NSString *nextPushToken; // @synthesize nextPushToken=_nextPushToken;
-@property(readonly, nonatomic) NSURL *peerPaymentServiceURL;
-@property(readonly) __weak PKPaymentWebServiceRegion *primaryRegion;
-@property(copy) NSString *primaryRegionIdentifier; // @synthesize primaryRegionIdentifier=_primaryRegionIdentifier;
-@property(copy) NSString *pushToken; // @synthesize pushToken=_pushToken;
-@property(copy) NSDictionary *regions;
-@property(readonly, getter=isRegistered) _Bool registered;
-@property(copy) NSDate *registrationDate; // @synthesize registrationDate=_registrationDate;
-@property long long registrationType; // @synthesize registrationType=_registrationType;
-@property(copy) NSString *secureElementID; // @synthesize secureElementID=_secureElementID;
-@property _Bool transactionServiceDisabled; // @synthesize transactionServiceDisabled=_transactionServiceDisabled;
-@property long long version; // @synthesize version=_version;
 
 @end
 

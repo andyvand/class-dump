@@ -12,41 +12,31 @@ __attribute__((visibility("hidden")))
 @interface PDPresentation : OCDDocument
 {
     NSMutableArray *mSlideMasters;
-    NSMutableArray *mNotesMasters;
-    NSMutableArray *mSlides;
-    NSMutableArray *mBulletBlips;
-    struct CGSize mSlideSize;
-    struct CGSize mNotesSize;
-    _Bool mIsAutoPlay;
-    _Bool mIsCommentsVisible;
-    _Bool mIsLooping;
-    _Bool mIsKiosk;
-    NSMutableArray *mCommentAuthors;
 }
 
-- (struct CGSize);
+- (struct CGSize)q;
 - (unsigned long long);
 - (id);
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
+- (void)+;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)7;
 - (void);
 - (void);
 - (struct CGSize);
-- (unsigned long long);
+- (unsigned long long)T;
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)@y	@9)	;
 - (unsigned long long);
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)	;
 - (void);
 - (id);
 - (id);
@@ -59,7 +49,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)`;
 - (_Bool)e";
 - (void)$Ô;
 

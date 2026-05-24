@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface CKBrowserAppInstallCell : CKBrowserCell
 {
     CKAppInstallation *_installation;
-    CKBrowserIconView *_browserIconView;
 }
 
 + (id);
@@ -26,7 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) CKBrowserIconView *browserIconView; // @synthesize browserIconView=_browserIconView;
-@property(retain, nonatomic) CKAppInstallation *installation; // @synthesize installation=_installation;
 
 @end
 

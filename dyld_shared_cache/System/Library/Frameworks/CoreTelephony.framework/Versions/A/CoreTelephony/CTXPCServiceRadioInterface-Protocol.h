@@ -5,5 +5,9 @@
 //
 
 @protocol CTXPCServiceRadioInterface
+- (void);
+- (void)-;
+- (void);
+- (void);
 @end
 

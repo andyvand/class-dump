@@ -7,7 +7,6 @@
 @interface AppleMediaServicesUI.ReviewExtensionHostView.MutableState__priv_E901B4D399CEBBA8EC1975EEFA3614E0
 {
     id delegate;
-    id hostViewController;
 }
 
 @end

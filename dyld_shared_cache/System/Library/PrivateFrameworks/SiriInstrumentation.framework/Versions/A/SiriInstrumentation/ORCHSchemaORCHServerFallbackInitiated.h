@@ -6,13 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
-
 @interface ORCHSchemaORCHServerFallbackInitiated : SISchemaInstrumentationMessage
 {
     int _fallbackReason;
-    NSArray *_missingAssets;
-    CDStruct_321bbe3e _has;
 }
 
 - (void);
@@ -28,22 +24,19 @@
 - (void);
 - (int);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)!ÀEùñÝ°1Â0@ù
 × ;
-- (id)omBootToFirstRequestSeconds;
+- (id)_durationFromBootToFirstRequestSeconds;
 - (id)MESCacheStoringEnded",&,N,V_ended;
 - (void)uation.items.collection.values.primitive.app.bundleId;
 
 // Remaining properties
 @property(nonatomic) int fallbackReason; // @synthesize fallbackReason=_fallbackReason;
-@property(nonatomic) _Bool hasFallbackReason;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *missingAssets; // @synthesize missingAssets=_missingAssets;
 
 @end
 

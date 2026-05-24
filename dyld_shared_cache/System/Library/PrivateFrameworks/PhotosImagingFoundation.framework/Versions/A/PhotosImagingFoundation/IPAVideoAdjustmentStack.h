@@ -11,9 +11,9 @@
     CDStruct_1b6d18a9 _naturalDuration;
 }
 
-- (void);
-- (id);
-- (id);
+- (void)(G;
+- (id)AVFoundation;
+- (id)> ;
 - (CDStruct_1b6d18a9);
 - (id);
 

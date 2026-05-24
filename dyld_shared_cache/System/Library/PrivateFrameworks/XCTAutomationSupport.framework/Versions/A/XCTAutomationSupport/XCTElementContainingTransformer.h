@@ -13,21 +13,21 @@
     NSPredicate *_predicate;
 }
 
-+ (void);
-+ (_Bool);
++ (void)C;
++ (_Bool);
 - (id);
+- (_Bool)T?;
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)hᬗ;
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (void)""{;
 - (id);
 - (void);
 

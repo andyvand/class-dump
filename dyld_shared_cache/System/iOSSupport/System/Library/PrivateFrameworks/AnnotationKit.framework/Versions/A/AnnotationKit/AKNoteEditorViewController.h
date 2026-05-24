@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKPopupAnnotation, UITextView;
-@protocol AKNoteEditorViewControllerDelegate;
+@class UITextView;
 
 @interface AKNoteEditorViewController
 {
     UITextView *_textView;
-    AKPopupAnnotation *_annotation;
-    id <AKNoteEditorViewControllerDelegate> _delegate;
 }
 
 - (id);
@@ -19,15 +16,13 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)jF;
 - (void);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain) AKPopupAnnotation *annotation; // @synthesize annotation=_annotation;
-@property(nonatomic) __weak id <AKNoteEditorViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) UITextView *textView; // @synthesize textView=_textView;
 
 @end

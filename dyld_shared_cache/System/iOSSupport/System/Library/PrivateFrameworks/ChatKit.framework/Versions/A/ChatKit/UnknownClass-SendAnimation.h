@@ -11,9 +11,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=ck_isSpecialGlassDuringSendAnimationDisabled) _Bool ck_isSpecialGlassDuringSendAnimationDisabled;
 @property(readonly, nonatomic, getter=ck_isSlowSendAnimationEnabled) _Bool ck_slowSendAnimationEnabled;
-@property(readonly, nonatomic, getter=ck_isVerySlowSendAnimationEnabled) _Bool ck_verySlowSendAnimationEnabled;
-@property(readonly, nonatomic, getter=ck_isVeryVerySlowSendAnimationEnabled) _Bool ck_veryVerySlowSendAnimationEnabled;
 @end
 

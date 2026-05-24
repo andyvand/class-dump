@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WKUserScript;
+@class NSString;
 
 @interface NewsFeed.PuzzleEmbedScript
 {
     void identifier;
-    id eventName;
-    id eventDetail;
-    _Bool queueable;
 }
 
 - (_Bool);
@@ -22,10 +19,7 @@
 - (void)5;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *executableScript;
 @property(nonatomic, readonly) NSString *identifier;
-@property(nonatomic, readonly) _Bool queueable; // @synthesize queueable;
-@property(nonatomic, readonly) WKUserScript *userScript;
 
 @end
 

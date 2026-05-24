@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, RBSProcessIdentity, RBSProcessPredicateImpl;
+@class RBSProcessPredicateImpl;
 
 @interface RBSProcessPredicate
 {
@@ -23,19 +23,19 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)_;
++ (id);
++ (id);
++ (id)@;
++ (id);
++ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)@;
 + (id);
 + (id);
 + (id);
@@ -55,31 +55,17 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)F;
+- (id);
+- (id)x;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (unsigned int)",R,N,V_calloutQueue;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *beforeTranslocationBundlePath;
-@property(readonly, copy, nonatomic) NSString *bundleIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) unsigned int euid;
-@property(readonly, copy, nonatomic) NSString *extensionPoint;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *jobLabel;
-@property(readonly, nonatomic) RBSProcessPredicateImpl *predicate; // @synthesize predicate=_predicate;
-@property(readonly, copy, nonatomic) RBSProcessIdentity *processIdentity;
-@property(readonly, copy, nonatomic) NSString *serviceName;
-@property(readonly) Class superclass;
 
 @end
 

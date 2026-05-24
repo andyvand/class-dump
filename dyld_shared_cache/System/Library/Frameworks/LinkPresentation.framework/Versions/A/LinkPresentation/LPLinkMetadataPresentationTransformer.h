@@ -4,45 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPImage, LPLinkMetadata, LPLinkRendererSizeClassParameters, NSAppearance, NSString, NSURL;
+@class NSString;
 
 @interface LPLinkMetadataPresentationTransformer
 {
     _Bool _hasComputedEffectiveSizeClass;
-    unsigned long long _effectiveSizeClass;
-    _Bool _complete;
-    _Bool _allowsTapToLoad;
-    _Bool _allowsTapping;
-    _Bool _allowsPlaybackControls;
-    _Bool _allowsPlayback;
-    _Bool _hasOverriddenBackgroundColor;
-    _Bool _usesInferredAppearanceWithOverriddenBackgroundColor;
-    _Bool _needsDominantBackgroundColor;
-    _Bool _collaborative;
-    _Bool _inComposeContext;
-    _Bool _inSenderContext;
-    _Bool _hasButtonActions;
-    _Bool _hasButton;
-    _Bool _canUseBlurBackgroundForCaptionBar;
-    _Bool _isSolariumEnabled;
-    LPLinkMetadata *_metadata;
-    NSURL *_URL;
-    unsigned long long _preferredSizeClass;
-    LPLinkRendererSizeClassParameters *_sizeClassParameters;
-    LPImage *_sourceContextIcon;
-    LPImage *_mediaOverlayIcon;
-    NSAppearance *_effectiveAppearance;
-    NSString *_sourceBundleIdentifier;
-    double _scaleFactor;
-    unsigned long long _bytesLoaded;
-    long long _sharedObjectDownloadState;
-    long long _transferIndicatorDirection;
 }
 
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)U^;
 - (long long);
 - (id);
 - (id);
@@ -66,7 +38,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)a-;
 - (long long);
 - (id);
 - (id);
@@ -79,24 +51,24 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)s;
 - (unsigned long long);
 - (id);
+- (id)rw;
+- (_Bool)x;
+- (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -107,22 +79,22 @@
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (void);
 - (void);
 - (_Bool);
+- (unsigned long long);
+- (void);
+- (_Bool);
+- (void);
+- (_Bool)s;
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)chedGlobalPerUserBoundaryKeyData;
 - (void);
 - (id);
 - (_Bool);
@@ -134,42 +106,11 @@
 - (void);
 - (id)@ù
 × ;
-- (void)ttachmentImage:(_Bool)arg1;
+- (void)setGlyphAttachmentImage:(_Bool)arg1;
 - (_Bool)ousImageDecoding:,V_allowsAsynchronousImageDecoding /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(nonatomic) _Bool allowsPlayback; // @synthesize allowsPlayback=_allowsPlayback;
-@property(nonatomic) _Bool allowsPlaybackControls; // @synthesize allowsPlaybackControls=_allowsPlaybackControls;
-@property(nonatomic) _Bool allowsTapToLoad; // @synthesize allowsTapToLoad=_allowsTapToLoad;
-@property(nonatomic) _Bool allowsTapping; // @synthesize allowsTapping=_allowsTapping;
-@property(nonatomic) unsigned long long bytesLoaded; // @synthesize bytesLoaded=_bytesLoaded;
-@property(nonatomic) _Bool canUseBlurBackgroundForCaptionBar; // @synthesize canUseBlurBackgroundForCaptionBar=_canUseBlurBackgroundForCaptionBar;
-@property(readonly, copy, nonatomic) NSURL *canonicalURL;
-@property(nonatomic, getter=isCollaborative) _Bool collaborative; // @synthesize collaborative=_collaborative;
-@property(nonatomic, getter=isComplete) _Bool complete; // @synthesize complete=_complete;
 @property(readonly, copy, nonatomic) NSString *domainName;
-@property(retain, nonatomic) NSAppearance *effectiveAppearance; // @synthesize effectiveAppearance=_effectiveAppearance;
-@property(readonly, nonatomic) unsigned long long effectiveSizeClass;
-@property(nonatomic) _Bool hasButton; // @synthesize hasButton=_hasButton;
-@property(nonatomic) _Bool hasButtonActions; // @synthesize hasButtonActions=_hasButtonActions;
-@property(readonly, nonatomic) _Bool hasMedia;
-@property(nonatomic) _Bool hasOverriddenBackgroundColor; // @synthesize hasOverriddenBackgroundColor=_hasOverriddenBackgroundColor;
-@property(nonatomic, getter=isInComposeContext) _Bool inComposeContext; // @synthesize inComposeContext=_inComposeContext;
-@property(nonatomic, getter=isInSenderContext) _Bool inSenderContext; // @synthesize inSenderContext=_inSenderContext;
-@property(nonatomic) _Bool isSolariumEnabled; // @synthesize isSolariumEnabled=_isSolariumEnabled;
-@property(retain, nonatomic) LPImage *mediaOverlayIcon; // @synthesize mediaOverlayIcon=_mediaOverlayIcon;
-@property(copy, nonatomic) LPLinkMetadata *metadata; // @synthesize metadata=_metadata;
-@property(nonatomic) _Bool needsDominantBackgroundColor; // @synthesize needsDominantBackgroundColor=_needsDominantBackgroundColor;
-@property(readonly, copy, nonatomic) NSURL *originalURL;
-@property(nonatomic) unsigned long long preferredSizeClass; // @synthesize preferredSizeClass=_preferredSizeClass;
-@property(nonatomic) double scaleFactor; // @synthesize scaleFactor=_scaleFactor;
-@property(nonatomic) long long sharedObjectDownloadState; // @synthesize sharedObjectDownloadState=_sharedObjectDownloadState;
-@property(copy, nonatomic) LPLinkRendererSizeClassParameters *sizeClassParameters; // @synthesize sizeClassParameters=_sizeClassParameters;
-@property(copy, nonatomic) NSString *sourceBundleIdentifier; // @synthesize sourceBundleIdentifier=_sourceBundleIdentifier;
-@property(retain, nonatomic) LPImage *sourceContextIcon; // @synthesize sourceContextIcon=_sourceContextIcon;
-@property(nonatomic) long long transferIndicatorDirection; // @synthesize transferIndicatorDirection=_transferIndicatorDirection;
-@property(nonatomic) _Bool usesInferredAppearanceWithOverriddenBackgroundColor; // @synthesize usesInferredAppearanceWithOverriddenBackgroundColor=_usesInferredAppearanceWithOverriddenBackgroundColor;
 
 @end
 

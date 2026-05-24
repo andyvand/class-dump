@@ -4,36 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASCAgentProxy, ASCAuthorizationRemotePresenter, NSArray, NSData, NSNumber, NSObject, NSString, NSURL, SOAuthorization, UIWindow;
-@protocol ASAuthorizationControllerDelegate, ASAuthorizationControllerPresentationContextProviding, OS_os_activity;
+@class NSString, SOAuthorization;
 
 @interface ASAuthorizationController
 {
     SOAuthorization *_appSSOAuthorization;
-    NSURL *_appSSORequestURL;
-    UIWindow *_appSSOPresentationAnchor;
-    ASCAgentProxy *_authenticationServicesAgentProxy;
-    ASCAuthorizationRemotePresenter *_currentRemotePresenter;
-    NSObject<OS_os_activity> *_authorizationActivity;
-    ASAuthorizationController *_referenceToSelf;
-    _Bool _useAlternativeSecurityKeysIcon;
-    NSArray *_authorizationRequests;
-    id <ASAuthorizationControllerDelegate> _delegate;
-    id <ASAuthorizationControllerPresentationContextProviding> _presentationContextProvider;
-    NSArray *_customAuthorizationMethods;
-    NSString *_proxiedAppName;
-    NSString *_proxiedAppIdentifier;
-    NSString *_proxiedBundleIdentifier;
-    NSString *_proxiedTeamIdentifier;
-    NSArray *_proxiedAssociatedDomains;
-    NSData *_proxiedIconData;
-    NSNumber *_proxiedIconScale;
-    NSString *_proxiedOriginDeviceName;
-    NSString *_proxySheetHeaderOverride;
-    NSString *_proxySheetTitleOverride;
-    NSString *_proxySheetSubtitleOverride;
-    NSString *_proxySheetNoCredentialsErrorTitleOverride;
-    NSString *_proxySheetNoCredentialsErrorMessageOverride;
 }
 
 + (id);
@@ -57,7 +32,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -109,7 +84,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)B;
 - (id);
 - (id);
 - (void);
@@ -118,31 +93,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *authorizationRequests; // @synthesize authorizationRequests=_authorizationRequests;
-@property(copy, nonatomic) NSArray *customAuthorizationMethods; // @synthesize customAuthorizationMethods=_customAuthorizationMethods;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <ASAuthorizationControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak id <ASAuthorizationControllerPresentationContextProviding> presentationContextProvider; // @synthesize presentationContextProvider=_presentationContextProvider;
-@property(copy, nonatomic) NSString *proxiedAppIdentifier; // @synthesize proxiedAppIdentifier=_proxiedAppIdentifier;
 @property(copy, nonatomic) NSString *proxiedAppName; // @synthesize proxiedAppName=_proxiedAppName;
-@property(copy, nonatomic) NSArray *proxiedAssociatedDomains; // @synthesize proxiedAssociatedDomains=_proxiedAssociatedDomains;
-@property(copy, nonatomic) NSString *proxiedBundleIdentifier; // @synthesize proxiedBundleIdentifier=_proxiedBundleIdentifier;
-@property(copy, nonatomic) NSData *proxiedIconData; // @synthesize proxiedIconData=_proxiedIconData;
-@property(copy, nonatomic) NSNumber *proxiedIconScale; // @synthesize proxiedIconScale=_proxiedIconScale;
-@property(copy, nonatomic) NSString *proxiedOriginDeviceName; // @synthesize proxiedOriginDeviceName=_proxiedOriginDeviceName;
-@property(copy, nonatomic) NSString *proxiedTeamIdentifier; // @synthesize proxiedTeamIdentifier=_proxiedTeamIdentifier;
-@property(copy, nonatomic) NSString *proxySheetHeaderOverride; // @synthesize proxySheetHeaderOverride=_proxySheetHeaderOverride;
-@property(copy, nonatomic) NSString *proxySheetNoCredentialsErrorMessageOverride; // @synthesize proxySheetNoCredentialsErrorMessageOverride=_proxySheetNoCredentialsErrorMessageOverride;
-@property(copy, nonatomic) NSString *proxySheetNoCredentialsErrorTitleOverride; // @synthesize proxySheetNoCredentialsErrorTitleOverride=_proxySheetNoCredentialsErrorTitleOverride;
-@property(copy, nonatomic) NSString *proxySheetSubtitleOverride; // @synthesize proxySheetSubtitleOverride=_proxySheetSubtitleOverride;
-@property(copy, nonatomic) NSString *proxySheetTitleOverride; // @synthesize proxySheetTitleOverride=_proxySheetTitleOverride;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool useAlternativeSecurityKeysIcon; // @synthesize useAlternativeSecurityKeysIcon=_useAlternativeSecurityKeysIcon;
 
 @end
 

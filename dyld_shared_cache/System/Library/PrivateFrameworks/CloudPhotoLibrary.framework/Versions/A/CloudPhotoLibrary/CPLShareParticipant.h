@@ -4,51 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPersonNameComponents, NSString;
-
 @interface CPLShareParticipant
 {
     _Bool _isCurrentUser;
-    _Bool _hasiCloudAccount;
-    long long _role;
-    long long _acceptanceStatus;
-    long long _permission;
-    NSString *_userIdentifier;
-    NSString *_email;
-    NSString *_phoneNumber;
-    NSString *_participantID;
-    NSPersonNameComponents *_nameComponents;
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)| _kMDItemUserActivityEligibleForPublicIndexing=0);
++ (id)rActivityEligibleForPublicIndexing=1 || _kMDItemUserActivityEligibleForPublicIndexing=0);
++ (id)kMDItemPhotosMemoryTitle_ordered_word_first_term_position;
 + (_Bool);
 + (void)er"8;
 - (id);
 - (id);
+- (id)y;
 - (id);
-- (id);
 - (void);
 - (void);
+- (void)=(;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (_Bool);
 - (long long);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)hj;
 - (unsigned long long);
 - (void);
-- (void)Ããýªû¡;
-- (id)àª;
 - (void);
-- (_Bool)`ýÿµàª¸ë@ùØýªÀëô;
-- (id)ÁÚÈ¬ð#©@ùàª{iõ;
-- (id)#ÕôO¾©ý{©ýC;
+- (id);
+- (void);
+- (_Bool);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -57,20 +46,11 @@
 - (id);
 - (long long);
 - (void);
-- (void)eferenceResource:(long long)arg1 adjustment:includePosterFrame: /* Error: Ran out of types for this method. */;
+- (void)_cleanTempFolderURLForGeneratedResourcesWithReferenceResource:(long long)arg1 adjustment:includePosterFrame: /* Error: Ran out of types for this method. */;
 - (long long);
 
 // Remaining properties
-@property(nonatomic) long long acceptanceStatus; // @synthesize acceptanceStatus=_acceptanceStatus;
-@property(copy, nonatomic) NSString *email; // @synthesize email=_email;
-@property(nonatomic) _Bool hasiCloudAccount; // @synthesize hasiCloudAccount=_hasiCloudAccount;
 @property(nonatomic) _Bool isCurrentUser; // @synthesize isCurrentUser=_isCurrentUser;
-@property(copy, nonatomic) NSPersonNameComponents *nameComponents; // @synthesize nameComponents=_nameComponents;
-@property(copy, nonatomic) NSString *participantID; // @synthesize participantID=_participantID;
-@property(nonatomic) long long permission; // @synthesize permission=_permission;
-@property(copy, nonatomic) NSString *phoneNumber; // @synthesize phoneNumber=_phoneNumber;
-@property(nonatomic) long long role; // @synthesize role=_role;
-@property(copy, nonatomic) NSString *userIdentifier; // @synthesize userIdentifier=_userIdentifier;
 
 @end
 

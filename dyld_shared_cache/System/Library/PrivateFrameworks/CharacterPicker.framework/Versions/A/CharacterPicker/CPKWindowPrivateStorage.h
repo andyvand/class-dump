@@ -4,61 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPKPopover, CPKPopoverController, CPKWindowHeaderView, NSWindow;
-@protocol CPKCharacterEntity;
+@class CPKPopover;
 
 __attribute__((visibility("hidden")))
 @interface CPKWindowPrivateStorage
 {
     CPKPopover *_parentPopover;
-    CPKPopoverController *_smallViewController;
-    struct CGRect _lastWindowFrame;
-    NSWindow *_lastKeyWindow;
-    _Bool _bringBackLastKeyWindow;
-    _Bool _transformPrepared;
-    _Bool _transformFromPopover;
-    _Bool _nowTransforming;
-    id <CPKCharacterEntity> _pendingCharacter;
-    CDUnknownBlockType _measureFramerateBlock;
-    CPKWindowHeaderView *_smallWindowHeaderView;
 }
 
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)7u
+;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (id);
+- (id)A)h;
 - (_Bool);
 - (_Bool);
 - (struct CGRect);
 - (void);
 
 // Remaining properties
-@property _Bool bringBackLastKeyWindow; // @synthesize bringBackLastKeyWindow=_bringBackLastKeyWindow;
-@property NSWindow *lastKeyWindow; // @synthesize lastKeyWindow=_lastKeyWindow;
-@property struct CGRect lastWindowFrame; // @synthesize lastWindowFrame=_lastWindowFrame;
-@property(copy) CDUnknownBlockType measureFramerateBlock; // @synthesize measureFramerateBlock=_measureFramerateBlock;
-@property _Bool nowTransforming; // @synthesize nowTransforming=_nowTransforming;
 @property CPKPopover *parentPopover; // @synthesize parentPopover=_parentPopover;
-@property(retain) id <CPKCharacterEntity> pendingCharacter; // @synthesize pendingCharacter=_pendingCharacter;
-@property(retain) CPKPopoverController *smallViewController; // @synthesize smallViewController=_smallViewController;
-@property(retain) CPKWindowHeaderView *smallWindowHeaderView; // @synthesize smallWindowHeaderView=_smallWindowHeaderView;
-@property _Bool transformFromPopover; // @synthesize transformFromPopover=_transformFromPopover;
-@property _Bool transformPrepared; // @synthesize transformPrepared=_transformPrepared;
 
 @end
 

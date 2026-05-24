@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface SNTestSuite
 {
     NSMutableDictionary *_testCases;
-    NSMutableArray *_subTestSuites;
-    SNTestSuite *_parentTestSuite;
 }
 
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -25,8 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak SNTestSuite *parentTestSuite; // @synthesize parentTestSuite=_parentTestSuite;
-@property(readonly, nonatomic) NSMutableArray *subTestSuites; // @synthesize subTestSuites=_subTestSuites;
 @property(readonly, nonatomic) NSMutableDictionary *testCases; // @synthesize testCases=_testCases;
 
 @end

@@ -32,7 +32,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)linkPreloadEnabled;
 
 // Remaining properties
 @property(retain, nonatomic) NSSet *assetPackMap; // @synthesize assetPackMap;

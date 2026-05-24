@@ -8,10 +8,6 @@ __attribute__((visibility("hidden")))
 @interface FI_TIconSizeSliderValueTransformer
 {
     double _minSliderValue;
-    double _maxSliderValue;
-    double _minIconSize;
-    double _maxIconSize;
-    double _offset;
 }
 
 + (_Bool);
@@ -19,10 +15,10 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (void);
+- (double);
 - (double);
 - (double);
-- (double);
-- (id);
+- (id)unt.m;
 - (id);
 - (void);
 - (id)áüá;

@@ -10,25 +10,19 @@ __attribute__((visibility("hidden")))
 @interface HMDMediaSystemHints
 {
     NSString *_mediaSystemHomeUUIDString;
-    NSString *_mediaSystemUUIDString;
-    NSString *_peerAccessoryUUIDString;
-    NSString *_peerAccessoryRoleString;
 }
 
+- (id)mapsVirtualReceiverWithName:receiverCapabilityVersion: /* Error: Ran out of types for this method. */;
+- (id)mapsVirtualReceiverWithName:receiverCapabilityVersion: /* Error: Ran out of types for this method. */;
+- (id)_notifyPeersForIDSHandlesIfNeeded: /* Error: Ran out of types for this method. */;
+- (id)_nestedVirtualReceiverEnablement;
+- (id)droppedPin;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id)itWithUser:(struct _NSZone *)arg1 workQueue: /* Error: Ran out of types for this method. */;
+- (id)initWithUser:(struct _NSZone *)arg1 workQueue: /* Error: Ran out of types for this method. */;
 - (void)ication"16@?0@"HMCameraSignificantEvent"8;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *mediaSystemHomeUUIDString; // @synthesize mediaSystemHomeUUIDString=_mediaSystemHomeUUIDString;
-@property(readonly, copy, nonatomic) NSString *mediaSystemUUIDString; // @synthesize mediaSystemUUIDString=_mediaSystemUUIDString;
-@property(readonly, copy, nonatomic) NSString *peerAccessoryRoleString; // @synthesize peerAccessoryRoleString=_peerAccessoryRoleString;
-@property(readonly, copy, nonatomic) NSString *peerAccessoryUUIDString; // @synthesize peerAccessoryUUIDString=_peerAccessoryUUIDString;
 
 @end
 

@@ -6,19 +6,11 @@
 
 #import <BiomePubSub/BPSWindow.h>
 
-@class BPSSubscriptionStatus, NSDateInterval, NSString;
+@class NSDateInterval;
 
 @interface BPSSessionWindow : BPSWindow
 {
     struct os_unfair_lock_s _lock;
-    BPSSubscriptionStatus *_status;
-    NSString *_identifier;
-    _Bool _downstreamRequested;
-    CDUnknownBlockType _timestamp;
-    NSDateInterval *_dateInterval;
-    double _gap;
-    id _accumulator;
-    CDUnknownBlockType _closure;
 }
 
 - (id);
@@ -28,18 +20,15 @@
 - (CDUnknownBlockType);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
+- (id)uh;
+- (void)`;
+- (id)ts-archiveTimeStamp;
 - (void);
 - (long long);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id accumulator; // @synthesize accumulator=_accumulator;
-@property(readonly, nonatomic) CDUnknownBlockType closure; // @synthesize closure=_closure;
 @property(readonly, nonatomic) NSDateInterval *dateInterval; // @synthesize dateInterval=_dateInterval;
-@property(readonly, nonatomic) double gap; // @synthesize gap=_gap;
 
 @end
 

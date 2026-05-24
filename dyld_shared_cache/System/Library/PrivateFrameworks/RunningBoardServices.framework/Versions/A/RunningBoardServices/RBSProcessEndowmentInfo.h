@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_xpc_object;
+@class NSString;
 
 @interface RBSProcessEndowmentInfo
 {
     NSString *_endowmentNamespace;
-    NSString *_environment;
-    NSObject<OS_xpc_object> *_encodedEndowment;
-    unsigned long long _hash;
-    unsigned long long _encodedEndowmentHash;
 }
 
 + (_Bool);
@@ -26,21 +21,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)};
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSObject<OS_xpc_object> *encodedEndowment; // @synthesize encodedEndowment=_encodedEndowment;
 @property(readonly, copy, nonatomic) NSString *endowmentNamespace; // @synthesize endowmentNamespace=_endowmentNamespace;
-@property(readonly, copy, nonatomic) NSString *environment; // @synthesize environment=_environment;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

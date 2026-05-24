@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, PKImage;
+@class NSString;
 
 @interface PKAutoFillCardDescriptor
 {
     _Bool _requiresAuthorization;
-    _Bool _cardIsInWallet;
-    NSString *_identifier;
-    unsigned long long _type;
-    NSString *_cardNickname;
-    NSString *_displayableLastFour;
-    unsigned long long _credentialType;
-    NSDate *_lastUsage;
-    NSString *_displayableShortDescription;
-    PKImage *_underlyingCardArt;
-    NSString *_primaryAccountIdentifier;
-    NSString *_passUniqueIdentifier;
 }
 
 + (_Bool)0@ù
@@ -38,21 +27,22 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (_Bool);
 - (struct CGImage *);
 - (void);
+- (id);
 - (id);
-- (id);
-- (struct CGImage *);
+- (struct CGImage *)@9	 A)
+;
 - (void);
+- (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long);
+- (id)h;
+- (unsigned long long)imageProperties;
+- (_Bool)hasBytesOutActive;
 - (void);
 - (void);
 - (unsigned long long);
@@ -60,23 +50,10 @@
 - (id)!X"ð!8AùÑî%1Â0@ù
 × ;
 - (_Bool)ication:%{public}@ in state:%{public}@ not being offered /* Error: Ran out of types for this method. */;
-- (void)PaymentAccount;
+- (void)hasAssociatedPeerPaymentAccount;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGImage *artwork;
-@property(readonly, nonatomic) struct CGImage *cardArt;
-@property(nonatomic) _Bool cardIsInWallet; // @synthesize cardIsInWallet=_cardIsInWallet;
-@property(copy, nonatomic) NSString *cardNickname; // @synthesize cardNickname=_cardNickname;
-@property(nonatomic) unsigned long long credentialType; // @synthesize credentialType=_credentialType;
-@property(copy, nonatomic) NSString *displayableLastFour; // @synthesize displayableLastFour=_displayableLastFour;
-@property(retain, nonatomic) NSString *displayableShortDescription; // @synthesize displayableShortDescription=_displayableShortDescription;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSDate *lastUsage; // @synthesize lastUsage=_lastUsage;
-@property(retain, nonatomic) NSString *passUniqueIdentifier; // @synthesize passUniqueIdentifier=_passUniqueIdentifier;
-@property(retain, nonatomic) NSString *primaryAccountIdentifier; // @synthesize primaryAccountIdentifier=_primaryAccountIdentifier;
-@property(nonatomic) _Bool requiresAuthorization; // @synthesize requiresAuthorization=_requiresAuthorization;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(retain, nonatomic) PKImage *underlyingCardArt; // @synthesize underlyingCardArt=_underlyingCardArt;
 
 @end
 

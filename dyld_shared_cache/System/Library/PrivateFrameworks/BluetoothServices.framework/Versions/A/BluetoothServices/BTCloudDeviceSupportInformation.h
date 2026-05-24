@@ -9,35 +9,27 @@
 @interface BTCloudDeviceSupportInformation
 {
     NSString *_bluetoothAddress;
-    NSString *_budsFirmwareVersion;
-    NSString *_caseName;
-    NSString *_caseFirmwareVersion;
-    NSString *_caseSerialNumber;
-    NSString *_hardwareVersion;
-    NSString *_leftBudSerialNumber;
-    NSString *_rightBudSerialNumber;
-    NSString *_ancAssetVersion;
 }
 
-+ (id);
++ (id)transformFileRepresentationsForType:(id)arg1 usingBlock:completionHandler: /* Error: Ran out of types for this method. */;
 + (_Bool);
+- (void)wf_postalAddressObjectClass;
+- (void)wf_placeDescriptorEntityIdentifier;
+- (void)wf_isUserCancelledError;
+- (void)wf_isUnsupportedUserInterfaceError;
+- (void)wf_isSiriPunchOutError;
+- (void)wf_isAvailableInContext:(id)arg1;
+- (void)wf_initWithDaysBeforeAndAfterCurrentDate:(id)arg1;
+- (id)wf_iconIsDefaultVisible;
+- (id)wf_displayableCalendarUnits;
+- (id)wf_dateIntervalObjectClass;
+- (id)webPageFromPreprocessingResult:javaScriptRunnerIdentifier: /* Error: Ran out of types for this method. */;
+- (id)weakToStrongObjectsMapTable;
+- (id)weakObjectsHashTable;
+- (id)wallpaperDirectoryPath;
+- (id)userPicturesDirectoryPath;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)B;
 - (id);
 - (id);
 - (void);
@@ -46,15 +38,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *ancAssetVersion; // @synthesize ancAssetVersion=_ancAssetVersion;
 @property(retain, nonatomic) NSString *bluetoothAddress; // @synthesize bluetoothAddress=_bluetoothAddress;
-@property(retain, nonatomic) NSString *budsFirmwareVersion; // @synthesize budsFirmwareVersion=_budsFirmwareVersion;
-@property(retain, nonatomic) NSString *caseFirmwareVersion; // @synthesize caseFirmwareVersion=_caseFirmwareVersion;
-@property(retain, nonatomic) NSString *caseName; // @synthesize caseName=_caseName;
-@property(retain, nonatomic) NSString *caseSerialNumber; // @synthesize caseSerialNumber=_caseSerialNumber;
-@property(retain, nonatomic) NSString *hardwareVersion; // @synthesize hardwareVersion=_hardwareVersion;
-@property(retain, nonatomic) NSString *leftBudSerialNumber; // @synthesize leftBudSerialNumber=_leftBudSerialNumber;
-@property(retain, nonatomic) NSString *rightBudSerialNumber; // @synthesize rightBudSerialNumber=_rightBudSerialNumber;
 
 @end
 

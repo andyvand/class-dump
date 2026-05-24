@@ -6,17 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface PEGASUSSchemaPEGASUSMapsEntity : SISchemaInstrumentationMessage
 {
     unsigned long long _muid;
-    unsigned long long _mapsFeatureId;
-    NSString *_addressId;
-    _Bool _hasMuid;
-    _Bool _hasMapsFeatureId;
-    _Bool _hasAddressId;
-    unsigned long long _whichEntityid;
 }
 
 - (unsigned long long);
@@ -35,28 +27,21 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)selectIdentifier:forPerson:byExtendingSelection: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)tQueries:(id)arg1 Fetched %tu contacts in IMDP;
 - (id);
 - (id)!FùÑÝ°1Â0@ù
 × ;
-- (id)groundAppBundleId;
+- (id)_hasBackgroundAppBundleId;
 - (id)hemaUUID",&,N,V_executorId;
 - (void)xt.ended.retrievedEntityStates.entityType.bundleId;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *addressId; // @synthesize addressId=_addressId;
-@property(nonatomic) _Bool hasAddressId; // @synthesize hasAddressId=_hasAddressId;
-@property(nonatomic) _Bool hasMapsFeatureId; // @synthesize hasMapsFeatureId=_hasMapsFeatureId;
-@property(nonatomic) _Bool hasMuid; // @synthesize hasMuid=_hasMuid;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned long long mapsFeatureId; // @synthesize mapsFeatureId=_mapsFeatureId;
 @property(nonatomic) unsigned long long muid; // @synthesize muid=_muid;
-@property(readonly, nonatomic) unsigned long long whichEntityid; // @synthesize whichEntityid=_whichEntityid;
 
 @end
 

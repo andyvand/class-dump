@@ -6,16 +6,14 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSArray, NSString;
-
 @interface INFindEventsIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
++ (int)_sendPendingCancelledRequests;
++ (int)questInvalidError;
 + (long long);
-+ (_Bool);
++ (_Bool)QLCacheVersionedFileIdentifier;
 + (_Bool);
 - (void);
 - (id);
@@ -23,25 +21,17 @@
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id)IPCObjectWithIdentifier:(id)arg1;
 - (id);
 - (void);
-- (void);
+- (void)0A9370;
 - (id);
 - (id);
-- (id);
-- (long long)rameterMetadataDateStyle;
+- (id)6;
+- (long long)__INCodableDateComponentsAttributeMetadataINIntentParameterMetadataDateStyle;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSArray *events;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

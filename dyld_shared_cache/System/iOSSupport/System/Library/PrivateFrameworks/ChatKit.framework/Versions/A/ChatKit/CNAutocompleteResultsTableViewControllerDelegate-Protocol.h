@@ -4,6 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CNComposeRecipient;
+
 @protocol CNAutocompleteResultsTableViewControllerDelegate
+
+@optional
+- (void)failedToCreateBuffer;
+- (_Bool);
+- (void)trar;
+- (void)_generatedSamples;
+- (CNComposeRecipient *)maximumSizeCategory;
+- (CNComposeRecipient *)Body;
+- (void)hasAnyLockedNotes;
+- (void)noAsset;
+- (void)y;
+- (void)origin;
+- (void)a;
 @end
 

@@ -5,5 +5,7 @@
 //
 
 @protocol ABAccountConfigurationInternal
+- (void);
+- (_Bool);
 @end
 

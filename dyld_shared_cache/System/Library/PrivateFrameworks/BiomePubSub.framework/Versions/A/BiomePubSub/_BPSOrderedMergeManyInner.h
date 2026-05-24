@@ -13,7 +13,7 @@
 
 - (long long);
 - (id);
-- (void);
+- (void)ntsSettings.storefront;
 - (CDUnknownBlockType);
 - (void);
 

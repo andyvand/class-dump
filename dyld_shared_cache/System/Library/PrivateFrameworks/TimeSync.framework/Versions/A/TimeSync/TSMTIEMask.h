@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface TSMTIEMask
 {
     NSArray *_elements;
-    NSString *_name;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 - (id);
@@ -24,13 +23,12 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *elements; // @synthesize elements=_elements;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

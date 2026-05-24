@@ -7,9 +7,6 @@
 @interface IDSQRProtoPluginControlIndication
 {
     unsigned long long _pluginParticipantId;
-    unsigned long long _txnId;
-    unsigned int _pluginOperation;
-    CDStruct_783edc84 _has;
 }
 
 - (unsigned long long);
@@ -21,20 +18,17 @@
 - (_Bool);
 - (unsigned int);
 - (id);
-- (void);
+- (void)h;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)[6C]}16C24*28*36^I44*52;
+- (void)]_block_invoke;
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasTxnId;
 @property(nonatomic) unsigned int pluginOperation; // @synthesize pluginOperation=_pluginOperation;
-@property(nonatomic) unsigned long long pluginParticipantId; // @synthesize pluginParticipantId=_pluginParticipantId;
-@property(nonatomic) unsigned long long txnId; // @synthesize txnId=_txnId;
 
 @end
 

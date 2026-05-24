@@ -7,8 +7,6 @@
 @interface SoundAnalysis.SNLogMelBasedFeatureExtractor
 {
     id graphStorage;
-    id currentSystemConfig;
-    id configuration;
 }
 
 @end

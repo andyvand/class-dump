@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface PKExpressPassInformation
 {
     NSDictionary *_configuration;
-    NSString *_v0_expressMode;
-    _Bool _userChoice;
-    _Bool _forceModernEncoding;
-    long long _cardType;
-    NSString *_passUniqueIdentifier;
 }
 
 + (_Bool);
@@ -22,10 +17,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long cardType; // @synthesize cardType=_cardType;
-@property(nonatomic) _Bool forceModernEncoding; // @synthesize forceModernEncoding=_forceModernEncoding;
-@property(readonly, nonatomic) NSString *passUniqueIdentifier; // @synthesize passUniqueIdentifier=_passUniqueIdentifier;
-@property(readonly, nonatomic) NSDictionary *subcredentialCredentialIdentifiers; // @dynamic subcredentialCredentialIdentifiers;
-@property(readonly, nonatomic, getter=isUserChoice) _Bool userChoice; // @synthesize userChoice=_userChoice;
 
 @end
 

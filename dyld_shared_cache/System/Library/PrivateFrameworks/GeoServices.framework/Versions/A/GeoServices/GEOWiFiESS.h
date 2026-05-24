@@ -4,39 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEOWiFiESS
 {
     PBDataReader *_reader;
-    CDStruct_95bda58d _attributes;
-    CDStruct_95bda58d _authTraits;
-    NSMutableArray *_bss;
-    NSString *_identifier;
-    NSString *_name;
-    NSMutableArray *_ownerIdentifiers;
-    NSMutableArray *_qualities;
-    long long _uniqueIdentifier;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _networkType;
-    int _venueGroup;
-    unsigned int _venueType;
-    struct {
-        unsigned int has_uniqueIdentifier:1;
-        unsigned int has_networkType:1;
-        unsigned int has_venueGroup:1;
-        unsigned int has_venueType:1;
-        unsigned int read_attributes:1;
-        unsigned int read_authTraits:1;
-        unsigned int read_bss:1;
-        unsigned int read_identifier:1;
-        unsigned int read_name:1;
-        unsigned int read_ownerIdentifiers:1;
-        unsigned int read_qualities:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 @end

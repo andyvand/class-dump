@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, PHPhotoLibrary, PHSearchQuery, PLSearchSpotlightSandboxExtension;
-@protocol OS_dispatch_queue;
+@class PHSearchQuery;
 
 @interface PHSearchQueryManager
 {
     struct os_unfair_lock_s _queryLock;
-    PLSearchSpotlightSandboxExtension *_spotlightSandboxExtension;
-    _Bool _isTestingConfiguration;
-    int _currentQueryId;
-    int _currentSuggestionsQueryId;
-    int _queryLock_currentBatchQueryId;
-    PHSearchQuery *_currentSearchQuery;
-    PHSearchQuery *_currentSuggestionsQuery;
-    PHPhotoLibrary *_photoLibrary;
-    NSObject<OS_dispatch_queue> *_queryQueue;
-    NSObject<OS_dispatch_queue> *_batchQueryQueue;
-    NSMutableDictionary *_queryLock_batchQueriesInProgress;
 }
 
 + (_Bool);
@@ -33,7 +21,7 @@
 - (int);
 - (id);
 - (void);
-- (int);
+- (int)!a*;
 - (void);
 - (int);
 - (_Bool);
@@ -43,27 +31,18 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)A;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (int);
 - (void);
 - (void)TimeRange;
 - (id)ate}@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *batchQueryQueue; // @synthesize batchQueryQueue=_batchQueryQueue;
-@property(nonatomic) int currentQueryId; // @synthesize currentQueryId=_currentQueryId;
 @property(copy, nonatomic) PHSearchQuery *currentSearchQuery; // @synthesize currentSearchQuery=_currentSearchQuery;
-@property(copy, nonatomic) PHSearchQuery *currentSuggestionsQuery; // @synthesize currentSuggestionsQuery=_currentSuggestionsQuery;
-@property(nonatomic) int currentSuggestionsQueryId; // @synthesize currentSuggestionsQueryId=_currentSuggestionsQueryId;
-@property(nonatomic) _Bool isTestingConfiguration; // @synthesize isTestingConfiguration=_isTestingConfiguration;
-@property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(readonly, nonatomic) NSMutableDictionary *queryLock_batchQueriesInProgress; // @synthesize queryLock_batchQueriesInProgress=_queryLock_batchQueriesInProgress;
-@property(nonatomic) int queryLock_currentBatchQueryId; // @synthesize queryLock_currentBatchQueryId=_queryLock_currentBatchQueryId;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queryQueue; // @synthesize queryQueue=_queryQueue;
 
 @end
 

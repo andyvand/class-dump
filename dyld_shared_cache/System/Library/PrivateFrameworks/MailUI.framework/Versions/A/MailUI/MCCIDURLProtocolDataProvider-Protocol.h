@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 @protocol MCCIDURLProtocolDataProvider
 
@@ -13,10 +13,5 @@
 
 // Remaining properties
 @property(readonly) NSURL *cidURL;
-@property(readonly) long long fileSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R
-
-@property(readonly, copy) NSString *mimeType;
 @end
 

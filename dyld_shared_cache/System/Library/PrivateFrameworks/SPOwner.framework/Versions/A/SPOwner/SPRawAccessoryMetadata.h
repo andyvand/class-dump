@@ -9,35 +9,24 @@
 @interface SPRawAccessoryMetadata
 {
     NSData *_productData;
-    NSData *_manufacturerName;
-    NSData *_modelName;
-    NSData *_reserved;
-    NSData *_accessoryCategory;
-    NSData *_accessoryCapabilities;
-    NSData *_firmwareVersion;
-    NSData *_findMyVersion;
-    NSData *_batteryType;
-    NSData *_batteryLevel;
-    NSData *_networkId;
-    NSData *_protocolVersion;
 }
 
 + (_Bool);
 - (void);
 - (void);
 - (void);
+- (id)P;
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void)kO9;
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
 - (void);
 - (void);
 - (id);
@@ -46,27 +35,16 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)P;
 - (void);
 - (void)0@ù
 × ;
-- (id)on: /* Error: Ran out of types for this method. */;
-- (id)t: /* Error: Ran out of types for this method. */;
+- (id)setWildKeyBase:interval:fallback:forBeacon:completion: /* Error: Ran out of types for this method. */;
+- (id)setInitialStateChangeSent: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSData *accessoryCapabilities; // @synthesize accessoryCapabilities=_accessoryCapabilities;
-@property(copy, nonatomic) NSData *accessoryCategory; // @synthesize accessoryCategory=_accessoryCategory;
-@property(copy, nonatomic) NSData *batteryLevel; // @synthesize batteryLevel=_batteryLevel;
-@property(copy, nonatomic) NSData *batteryType; // @synthesize batteryType=_batteryType;
-@property(copy, nonatomic) NSData *findMyVersion; // @synthesize findMyVersion=_findMyVersion;
-@property(copy, nonatomic) NSData *firmwareVersion; // @synthesize firmwareVersion=_firmwareVersion;
-@property(copy, nonatomic) NSData *manufacturerName; // @synthesize manufacturerName=_manufacturerName;
-@property(copy, nonatomic) NSData *modelName; // @synthesize modelName=_modelName;
-@property(copy, nonatomic) NSData *networkId; // @synthesize networkId=_networkId;
 @property(copy, nonatomic) NSData *productData; // @synthesize productData=_productData;
-@property(copy, nonatomic) NSData *protocolVersion; // @synthesize protocolVersion=_protocolVersion;
-@property(copy, nonatomic) NSData *reserved; // @synthesize reserved=_reserved;
 
 @end
 

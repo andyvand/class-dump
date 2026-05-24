@@ -5,5 +5,10 @@
 //
 
 @protocol SWCXPCServer
+- (void);
+- (void);
+- (void)H;
+- (void)�4F;
+- (void);
 @end
 

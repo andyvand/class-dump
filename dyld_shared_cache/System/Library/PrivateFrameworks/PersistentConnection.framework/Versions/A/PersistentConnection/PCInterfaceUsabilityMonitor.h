@@ -4,29 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUTWeakReference, NSMutableArray, NSObject, NSRecursiveLock, NSString;
-@protocol OS_dispatch_queue, OS_nw_interface, OS_nw_parameters, OS_nw_path_evaluator, PCInterfaceUsabilityMonitorDelegate;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface PCInterfaceUsabilityMonitor
 {
     NSObject<OS_dispatch_queue> *_delegateQueue;
-    NSObject<OS_dispatch_queue> *_scQueue;
-    long long _interfaceIdentifier;
-    CUTWeakReference *_delegateReference;
-    NSObject<OS_nw_parameters> *_pathParameters;
-    NSObject<OS_nw_path_evaluator> *_evaluator;
-    NSObject<OS_nw_interface> *_lastInterface;
-    NSObject<OS_nw_interface> *_lastDelegateInterface;
-    _Bool _isPathSatisfied;
-    long long _interfaceConstraint;
-    void *_dynamicStore;
-    struct __CFString *_lqKey;
-    int _linkQuality;
-    _Bool _trackUsability;
-    unsigned long long _thresholdOffTransitionCount;
-    double _trackedTimeInterval;
-    NSMutableArray *_offTransitions;
-    NSRecursiveLock *_recursiveLock;
 }
 
 + (_Bool);
@@ -34,82 +17,44 @@
 + (id);
 + (_Bool);
 - (void);
+- (void)*;
+- (void)3.*;
+- (void);
+- (void);
+- (id);
+- (void)with error %d;
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)not set deny bom for destination;
 - (void);
-- (_Bool);
+- (_Bool)ray"16;
 - (int);
 - (void);
 - (id);
 - (void);
 - (void);
 - (long long);
-- (_Bool);
+- (_Bool)disableLogging_4watchdogd;
 - (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (long long);
+- (long long)h;
 - (_Bool);
 - (id);
 - (_Bool)1î-1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) int currentRAT;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Ti,?,R,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) id <PCInterfaceUsabilityMonitorDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long interface5GMode;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly, nonatomic) long long interfaceConstraint;
-@property(readonly, nonatomic) long long interfaceIdentifier;
-@property(readonly, nonatomic) _Bool isBadLinkQuality;
-@property(readonly, nonatomic) _Bool isInterfaceHistoricallyUsable;
-@property(readonly, nonatomic) _Bool isInterfaceUsable;
-@property(readonly, nonatomic) _Bool isInternetReachable;
-@property(readonly, nonatomic) _Bool isLTEWithCDRX;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool isNetworkingPowerExpensiveToUse;
-@property(readonly, nonatomic) _Bool isPoorLinkQuality;
 @property(readonly, nonatomic) _Bool isRadioHot;
-@property(readonly, nonatomic) int linkQuality;
-@property(readonly, retain, nonatomic) NSString *linkQualityString;
-@property(readonly, nonatomic) NSString *networkCode;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) struct __CFString *wwanInterfaceName;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T^{__CFString=},?,R,N
-
 
 @end
 

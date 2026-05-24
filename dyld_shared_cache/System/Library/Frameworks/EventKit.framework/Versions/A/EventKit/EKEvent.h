@@ -6,29 +6,9 @@
 
 #import <EventKit/EKCalendarItem.h>
 
-@class EKCalendarDate, NSMutableArray, NSNumber, NSString;
-
 @interface EKEvent : EKCalendarItem
 {
     _Bool _locationPredictionFrozen;
-    _Bool _locationPredictionAllowed;
-    struct os_unfair_lock_s _locationPredictionLock;
-    NSMutableArray *_virtualConferenceURLsToInvalidateOnCommit;
-    _Bool _occurrenceIsAllDay;
-    _Bool _requiresDetachDueToSnoozedAlarm;
-    _Bool _isOriginalItemPhantom;
-    _Bool _preventConferenceURLDetection;
-    _Bool _canBeRespondedTo;
-    _Bool _isMainOccurrence;
-    int _clearModifiedFlags;
-    NSString *_birthdayPersonUniqueID;
-    EKCalendarDate *_occurrenceStartDate;
-    EKCalendarDate *_occurrenceEndDate;
-    EKCalendarDate *_originalOccurrenceStartDate;
-    EKCalendarDate *_originalOccurrenceEndDate;
-    NSNumber *_originalOccurrenceIsAllDay;
-    NSString *_appEntityIdentifierOverride;
-    NSString *_virtualConferenceTextRepresentation;
 }
 
 @end

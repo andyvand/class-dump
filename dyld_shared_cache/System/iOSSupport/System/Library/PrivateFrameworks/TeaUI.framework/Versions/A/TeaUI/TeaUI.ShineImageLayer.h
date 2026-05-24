@@ -9,15 +9,11 @@
 @interface TeaUI.ShineImageLayer : TUNonAnimatingLayer
 {
     id shineOptions;
-    id shineImage;
-    id shineOffset;
-    id shineScale;
-    id shineImageLayer;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id)timeToFirstByteStats;
 - (id);
 - (void);
 - (void)tÿÿÀ<þÿ;

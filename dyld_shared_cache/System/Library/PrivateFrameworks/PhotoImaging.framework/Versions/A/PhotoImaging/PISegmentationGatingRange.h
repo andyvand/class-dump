@@ -7,29 +7,19 @@
 @interface PISegmentationGatingRange
 {
     double _min;
-    double _max;
-    double _manualMin;
-    double _manualMax;
-    double _depthMin;
-    double _depthMax;
 }
 
 - (id);
 - (double);
-- (double);
+- (double);
 - (id);
 - (double);
 - (double);
-- (id);
+- (id)c;
 - (double);
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) double depthMax; // @synthesize depthMax=_depthMax;
-@property(readonly, nonatomic) double depthMin; // @synthesize depthMin=_depthMin;
-@property(readonly, nonatomic) double manualMax; // @synthesize manualMax=_manualMax;
-@property(readonly, nonatomic) double manualMin; // @synthesize manualMin=_manualMin;
-@property(readonly, nonatomic) double max; // @synthesize max=_max;
 @property(readonly, nonatomic) double min; // @synthesize min=_min;
 
 @end

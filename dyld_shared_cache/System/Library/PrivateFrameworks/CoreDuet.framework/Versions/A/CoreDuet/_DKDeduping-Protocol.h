@@ -5,5 +5,7 @@
 //
 
 @protocol _DKDeduping
+- (id);
+- (id);
 @end
 

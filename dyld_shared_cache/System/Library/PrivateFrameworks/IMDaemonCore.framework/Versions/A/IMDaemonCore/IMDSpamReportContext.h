@@ -7,7 +7,6 @@
 @interface IMDSpamReportContext
 {
     long long _spamDetectionSource;
-    long long _isFiltered;
 }
 
 - (long long);
@@ -17,7 +16,6 @@
 - (long long);
 
 // Remaining properties
-@property(nonatomic) long long isFiltered; // @synthesize isFiltered=_isFiltered;
 @property(nonatomic) long long spamDetectionSource; // @synthesize spamDetectionSource=_spamDetectionSource;
 
 @end

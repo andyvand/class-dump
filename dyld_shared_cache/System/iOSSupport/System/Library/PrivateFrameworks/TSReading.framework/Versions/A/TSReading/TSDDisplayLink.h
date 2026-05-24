@@ -9,10 +9,6 @@
 @interface TSDDisplayLink
 {
     CADisplayLink *_displayLink;
-    CDUnknownBlockType _tickBlock;
-    CDUnknownBlockType _completionBlock;
-    double _startTime;
-    double _lastTime;
 }
 
 - (void);
@@ -25,14 +21,11 @@
 - (void);
 - (void);
 - (double);
-- (CDUnknownBlockType)encePoint;
+- (CDUnknownBlockType)searchReferencePoint;
 - (void)NqXugCNkc61oj3lvwzie9kuzoKIFqlCIQAPn3w/Library/Caches/com.apple.xbs/TemporaryDirectory.AbPtYx/Sources/AlderShared/kit/TSKKeyboardMonitor.m;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(nonatomic) double lastTime; // @synthesize lastTime=_lastTime;
 @property(nonatomic) double startTime; // @synthesize startTime=_startTime;
-@property(copy, nonatomic) CDUnknownBlockType tickBlock; // @synthesize tickBlock=_tickBlock;
 
 @end
 

@@ -9,19 +9,17 @@
 @interface PXGHostingLayerVisibilityInfo
 {
     _Bool _isVisible;
-    id <PXGHostingLayerVisibilityInfoDelegate> _delegate;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)";
 - (void);
 - (void)u^·Qõþ^·Qõþ^·0Qõþ^·XQõþ¥^·tQõþE^·QõþM^·Qõþ%^·Qõþu^·¤Qõþ^·°Qõþ^·¼QõþM^·ÈQõþ^·ÐQõþU^·àQõþ;
 - (_Bool)Öÿ¼MLÜ<;
 
 // Remaining properties
 @property(nonatomic) __weak id <PXGHostingLayerVisibilityInfoDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool isVisible; // @synthesize isVisible=_isVisible;
 
 @end
 

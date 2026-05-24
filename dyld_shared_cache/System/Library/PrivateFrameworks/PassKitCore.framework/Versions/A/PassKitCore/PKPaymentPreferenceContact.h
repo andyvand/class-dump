@@ -6,19 +6,14 @@
 
 #import <PassKitCore/PKPaymentPreference.h>
 
-@class NSOrderedSet, NSString, PKPaymentOptionsRecents;
+@class PKPaymentOptionsRecents;
 
 @interface PKPaymentPreferenceContact : PKPaymentPreference
 {
     _Bool _showPhoneticName;
-    NSOrderedSet *_contactKeys;
-    NSString *_addNewTitle;
-    NSString *_addExistingTitle;
-    NSString *_editExistingTitle;
-    unsigned long long _type;
 }
 
-- (_Bool);
+- (_Bool)R;
 - (void);
 - (void);
 - (void);
@@ -28,12 +23,12 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)h;
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -48,14 +43,7 @@
 - (void)k.payment.provisioning.buddy.shown;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *addExistingTitle; // @synthesize addExistingTitle=_addExistingTitle;
-@property(copy, nonatomic) NSString *addNewTitle; // @synthesize addNewTitle=_addNewTitle;
-@property(copy, nonatomic) NSString *contactKey;
-@property(copy, nonatomic) NSOrderedSet *contactKeys; // @synthesize contactKeys=_contactKeys;
-@property(copy, nonatomic) NSString *editExistingTitle; // @synthesize editExistingTitle=_editExistingTitle;
 @property(retain, nonatomic) PKPaymentOptionsRecents *paymentOptionsRecents;
-@property(nonatomic) _Bool showPhoneticName; // @synthesize showPhoneticName=_showPhoneticName;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

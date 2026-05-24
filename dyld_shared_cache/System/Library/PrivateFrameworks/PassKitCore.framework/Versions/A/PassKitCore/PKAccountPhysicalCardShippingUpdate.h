@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDateComponents, NSString, NSURL;
+@class NSString;
 
 @interface PKAccountPhysicalCardShippingUpdate
 {
     NSString *_physicalCardIdentifier;
-    long long _shippingStatus;
-    NSString *_localizedDeliveryExceptionReason;
-    NSString *_trackingNumber;
-    NSString *_shippingCompany;
-    NSDate *_timestamp;
-    NSDateComponents *_estimatedDeliveryDate;
 }
 
-+ (id);
++ (id)	;
 + (id);
 + (_Bool)±î%1Â0@ù
 × ;
 - (long long);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)c;
+- (void)4;
+- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -35,35 +29,20 @@
 - (id);
 - (id);
 - (void);
+- (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (void);
+- (unsigned long long)i"A)h")h;
+- (id)ioxOP;
+- (_Bool)_tcpiRxoutoforderbytes;
+- (void)Ƞ;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSDateComponents *estimatedDeliveryDate; // @synthesize estimatedDeliveryDate=_estimatedDeliveryDate;
-@property(readonly, copy, nonatomic) NSString *formattedEstimatedDeliveryDate;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *localizedDeliveryExceptionReason; // @synthesize localizedDeliveryExceptionReason=_localizedDeliveryExceptionReason;
 @property(copy, nonatomic) NSString *physicalCardIdentifier; // @synthesize physicalCardIdentifier=_physicalCardIdentifier;
-@property(readonly, nonatomic) NSURL *shipmentTrackingURL;
-@property(copy, nonatomic) NSString *shippingCompany; // @synthesize shippingCompany=_shippingCompany;
-@property(nonatomic) long long shippingStatus; // @synthesize shippingStatus=_shippingStatus;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
-@property(copy, nonatomic) NSString *trackingNumber; // @synthesize trackingNumber=_trackingNumber;
 
 @end
 

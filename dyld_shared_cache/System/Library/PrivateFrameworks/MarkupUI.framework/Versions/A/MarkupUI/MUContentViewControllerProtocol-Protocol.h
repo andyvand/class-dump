@@ -7,10 +7,13 @@
 @protocol MUContentViewControllerDataDelegate;
 
 @protocol MUContentViewControllerProtocol
+- (void)_;
+- (void)(;
+- (struct CGSize);
+- (struct CGRect);
 - (struct CGSize);
 
 // Remaining properties
-@property _Bool contentViewControllerCropEnabled;
 @property(nonatomic) __weak id <MUContentViewControllerDataDelegate> dataDelegate;
 @end
 

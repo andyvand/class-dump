@@ -5,12 +5,10 @@
 //
 
 @class NSString;
-@protocol SXTextStyleFontAttributes;
 
 @protocol SXTextStyleFontDescribing
 
 // Remaining properties
-@property(readonly, nonatomic) id <SXTextStyleFontAttributes> fontAttributes;
 @property(readonly, nonatomic) NSString *fontName;
 @end
 

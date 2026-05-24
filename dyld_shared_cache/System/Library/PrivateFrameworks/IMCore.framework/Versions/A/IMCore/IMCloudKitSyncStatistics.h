@@ -4,94 +4,58 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface IMCloudKitSyncStatistics
 {
     id statistics;
 }
 
-+ (id);
-+ (id);
-+ (double);
-+ (id);
-+ (id);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (double);
-- (id);
-- (id);
-- (long long);
-- (long long);
++ (id)s] %s:(double)arg1 %d +processMessage:(double)arg2 Sent confirmation for _sessionID='%d', participantID='%@', transactionID='%@';
++ (id)n failed. Dropping the message...;
++ (double)e - canSwitch=%{BOOL}d, oneToOneModeEnabled=%{BOOL}d, remoteParticipantCount=%lu;
++ (id)OutputDevice listener set;
++ (id)ock for input device=%u;
+- (long long)onf=%@, rtcpPackets=%@;
+- (long long)rror=%@;
+- (long long)stream=%@, didResumeStream=%d, error=%@;
+- (long long)d, error=%@;
+- (long long)t %p of didStop;
+- (long long)VideoStream:notified client %p of didStop /* Error: Ran out of types for this method. */;
+- (long long)%d];
+- (long long)p);
+- (long long)%d @:@ AVCVideoStream-resume (%p) /* Error: Ran out of types for this method. */;
+- (long long)eam-resume;
+- (long long)se;
+- (long long)AVCVideoStream-stop (%p);
+- (long long)tream-stop;
+- (long long)VCVideoStream-start (%p);
+- (long long)AVCVideoStream-start;
+- (long long)%@(%p) AVCVideoStream start (not using XPC);
+- (long long)(not using XPC);
+- (long long)oStream [%s] %s:%d AVCVideoStream start (not using XPC) /* Error: Ran out of types for this method. */;
+- (long long)ASTREAM_STARTCONFERENCE (client side);
+- (long long)_Destroy complete.;
+- (long long)es %d;
+- (long long)Thread_SendPacket called with too many bytes %d;
+- (long long)F=%u];
+- (long long)u packetsDropped=[S=%u, NR=%u, C=%u, F=%u];
+- (long long)fer. packetsSent=%u packetsStored=%u packetsDropped=[S=%u, NR=%u, C=%u, F=%u];
+- (long long)StorePacket failed to store a buffer. packetsSent=%u packetsStored=%u packetsDropped=[S=%u, NR=%u, C=%u, F=%u];
+- (long long):packetThread=%p _PacketThread_StorePacket failed to store a buffer. packetsSent=%u packetsStored=%u packetsDropped=[S=%u, NR=%u, C=%u, F=%u] /* Error: Ran out of types for this method. */;
+- (long long)Thread=%p PacketThread_Create completed for %s;
+- (long long)te packet thread %d;
+- (long long)stamp=%u;
+- (double)ying effects[%@] client to flush remote queue;
+- (id)e to %d, %d audio + %d ((%d/%d+%d)*%d/%d) header for mode=%d;
+- (id)%@(%p) Registering for screen capture of type:%d /* Error: Ran out of types for this method. */;
+- (long long)eManagerCategories) <<<<<;
+- (long long)tate queue for streamToken=%u;
 - (long long);
 - (id);
 - (id);
 - (void),f;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) double percentSynced;
-@property(nonatomic, readonly) long long remainingMessagesCount;
-@property(nonatomic, readonly) long long serverAttachmentLiveCount;
-@property(nonatomic, readonly) long long serverAttachmentTotalCount;
-@property(nonatomic, readonly) long long serverChatLiveCount;
-@property(nonatomic, readonly) long long serverChatTotalCount;
-@property(nonatomic, readonly) long long serverMessageLiveCount;
-@property(nonatomic, readonly) long long serverMessageTotalCount;
-@property(nonatomic, readonly) long long serverMessageUpdateLiveCount;
-@property(nonatomic, readonly) long long serverMessageUpdateTotalCount;
-@property(nonatomic, readonly) long long serverRecoverableMessageLiveCount;
-@property(nonatomic, readonly) long long serverRecoverableMessageTotalCount;
-@property(nonatomic, readonly) long long syncStoreWritableAttachmentCount;
-@property(nonatomic, readonly) long long syncStoreWritableChatCount;
-@property(nonatomic, readonly) long long syncStoreWritableMessageCount;
-@property(nonatomic, readonly) long long syncStoreWritableMessageUpdateCount;
-@property(nonatomic, readonly) long long syncStoreWritableRecoverableMessageCount;
-@property(nonatomic, readonly) long long syncStoreWrittenAttachmentCount;
-@property(nonatomic, readonly) long long syncStoreWrittenChatCount;
-@property(nonatomic, readonly) long long syncStoreWrittenMessageCount;
-@property(nonatomic, readonly) long long syncStoreWrittenMessageUpdateCount;
-@property(nonatomic, readonly) long long syncStoreWrittenRecoverableMessageCount;
-@property(nonatomic, readonly) long long syncedAttachmentCount;
 @property(nonatomic, readonly) long long syncedChatCount;
-@property(nonatomic, readonly) long long syncedMessageCount;
-@property(nonatomic, readonly) long long syncedRecordCount;
-@property(nonatomic, readonly) long long totalAttachmentCount;
-@property(nonatomic, readonly) long long totalChatCount;
-@property(nonatomic, readonly) long long totalMessageCount;
-@property(nonatomic, readonly) long long totalRecordCount;
-@property(nonatomic, readonly) long long unresolvedAttachmentCount;
-@property(nonatomic, readonly) long long unresolvedChatCount;
-@property(nonatomic, readonly) long long unresolvedMessageCount;
-@property(nonatomic, readonly) long long unresolvedRecordCount;
 
 @end
 

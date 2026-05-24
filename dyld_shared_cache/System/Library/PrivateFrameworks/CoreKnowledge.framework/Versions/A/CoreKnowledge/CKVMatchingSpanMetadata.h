@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKVMatchingSpanPriorInfo;
-
 @interface CKVMatchingSpanMetadata
 {
     float _matchScore;
-    CKVMatchingSpanPriorInfo *_priorInfo;
 }
 
 + (_Bool);
-- (id);
+- (id)c;
 - (float);
 - (_Bool);
 - (id);
@@ -21,15 +18,14 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)url:conformsToOneOfTypes: /* Error: Ran out of types for this method. */;
+- (_Bool)ScoreboardCardSection"16;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) float matchScore; // @synthesize matchScore=_matchScore;
-@property(readonly, nonatomic) CKVMatchingSpanPriorInfo *priorInfo; // @synthesize priorInfo=_priorInfo;
 
 @end
 

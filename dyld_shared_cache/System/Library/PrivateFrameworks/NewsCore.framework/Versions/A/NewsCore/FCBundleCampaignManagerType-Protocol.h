@@ -7,6 +7,8 @@
 @protocol FCBundleCampaignAccessProviding;
 
 @protocol FCBundleCampaignManagerType
+- (_Bool);
+- (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) id <FCBundleCampaignAccessProviding> bundleCampaignAccess;

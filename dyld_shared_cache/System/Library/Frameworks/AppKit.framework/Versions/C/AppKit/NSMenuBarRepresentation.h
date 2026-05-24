@@ -6,35 +6,12 @@
 
 #import <AppKit/NSResponder.h>
 
-@class NSMenuFixedVisibleIndexDictionary, NSMutableArray, NSMutableSet, NSObject, NSString, NSView;
-@protocol NSMenuRepresentationDelegate, NSMenuVisibleIndexDictionary;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface NSMenuBarRepresentation : NSResponder
 {
     NSMutableArray *_backingViews;
-    NSObject<NSMenuRepresentationDelegate> *_delegate;
-    NSMutableArray *_itemWidthsExcludingExtras;
-    NSMutableArray *_itemOffsets;
-    NSMutableSet *_truncatedViewIndices;
-    NSMutableArray *_scheduledOperations;
-    NSMenuFixedVisibleIndexDictionary *_indexes;
-    double _leadingInset;
-    struct CGRect _apertureFrame;
-    long long _numberOfArrangedViews;
-    long long _numberOfBackingViews;
-    long long _numberOfPendingEndUpdatesCalls;
-    long long _lastViewIndexBeforeNotch;
-    long long _lastVisibleViewIndex;
-    long long _firstTruncatedView;
-    double _occupiedWidth;
-    double _maxUsableWidth;
-    _Bool _isMagicAppleMenuPositionedFirst;
-    _Bool _hasPendingLayoutChanges;
-    _Bool _hasMenusAfterNotch;
-    _Bool _prefersMinJustification;
-    _Bool _prefersCondensedFont;
-    _Bool _prefersReducedFontSize;
 }
 
 + (void);
@@ -49,27 +26,27 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)Configuration was superceded by another configuration;
 - (void);
 - (void);
+- (long long)g-;
 - (long long);
-- (long long);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (struct CGRect);
-- (struct CGRect);
-- (struct CGRect);
+- (struct CGRect)leUploadState"16@"NSURLRequest"24@"NSURLRequest"32@"NSFileHandle"40@"NSData"48Q56@"NSUUID"64@"NSDictionary"72@?<v@?B>80;
+- (struct CGRect)D"40@?<v@?B>48;
+- (struct CGRect)<STExtractor>"24Q32@"NSUUID"40@?<v@?B>48;
+- (void)>";
+- (void)@0:(long long)arg1 8^{_CFURLRequest=}16;
+- (void)allenge"24@?<v@?q@"NSURLCredential">32;
+- (id)URLSession:webSocketTask:didOpenWithProtocol: /* Error: Ran out of types for this method. */;
+- (id)URLSession:webSocketTask:didCloseWithCode:reason: /* Error: Ran out of types for this method. */;
+- (double)URLSession:task:_isWaitingForConnectionWithReason: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (double);
-- (void);
-- (id);
+- (id)tAPSleep:(long long)arg1 idleDuration=%u;
 - (id);
 - (void);
 - (void);
@@ -78,26 +55,13 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (struct CGRect)Áî/!@ù±ä3°1Â0@ù
 × ;
-- (id)ngs: /* Error: Ran out of types for this method. */;
-- (void)essoryViewController;
+- (id)_setJobDisposition:savePath:inPrintSession:printSettings: /* Error: Ran out of types for this method. */;
+- (void)NSSplitViewItemAccessoryViewController;
 - (void)$@;
 - (void)PªG;
 
 // Remaining properties
 @property(readonly) double availableStatusBarWidth;
-@property(readonly) NSView *backingView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property struct CGRect frame;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSObject<NSMenuVisibleIndexDictionary> *indexes;
-@property(readonly) long long numberOfVisibleItems;
-@property(nonatomic) __weak NSObject<NSMenuRepresentationDelegate> *representationDelegate;
-@property(readonly) Class superclass;
-@property(readonly) struct CGRect visibleRect;
 
 @end
 

@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSIndexPath, UITableView, UITargetedPreview;
+
 @protocol UITableViewDelegate
+
+@optional
+- (void);
+- (void);
+- (_Bool)qa;
+- (UITargetedPreview *);
+- (void)I;
+- (void)_ensureDescriptionComponent:(UITableView *)arg1 hasNoUnknownKeysForComponentType:(NSIndexPath *)arg2 parentEntity: /* Error: Ran out of types for this method. */;
 @end
 

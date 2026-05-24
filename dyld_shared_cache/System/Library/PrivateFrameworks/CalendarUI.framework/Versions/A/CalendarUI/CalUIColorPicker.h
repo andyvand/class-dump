@@ -9,10 +9,9 @@
 @interface CalUIColorPicker
 {
     _Bool _colorSelected;
-    id <CalUIColorPickerDelegate> _delegate;
 }
 
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
@@ -22,7 +21,6 @@
 × ;
 
 // Remaining properties
-@property _Bool colorSelected; // @synthesize colorSelected=_colorSelected;
 @property __weak id <CalUIColorPickerDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end

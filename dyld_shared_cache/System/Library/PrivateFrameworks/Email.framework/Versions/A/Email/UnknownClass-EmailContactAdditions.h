@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (EmailContactAdditions)
-+ (id);
++ (id)h6=;
 + (id);
 + (id);
 + (id);

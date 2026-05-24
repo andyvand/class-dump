@@ -6,8 +6,6 @@
 
 #import <TrialProto/TRIPBMessage.h>
 
-@class NSMutableArray;
-
 @interface TRIPredicateExpression : TRIPBMessage
 {
 }
@@ -15,12 +13,7 @@
 + (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *expressionArray; // @dynamic expressionArray;
-@property(readonly, nonatomic) unsigned long long expressionArray_Count; // @dynamic expressionArray_Count;
-@property(nonatomic) _Bool hasOperator_p; // @dynamic hasOperator_p;
 @property(nonatomic) int operator_p; // @dynamic operator_p;
-@property(retain, nonatomic) NSMutableArray *predicateArray; // @dynamic predicateArray;
-@property(readonly, nonatomic) unsigned long long predicateArray_Count; // @dynamic predicateArray_Count;
 
 @end
 

@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSPopover, NSString, NSView, NSViewController, SGSuggestionAction, SGSuggestionStore;
-@protocol SGBannerProtocol, SGSuggestionPresenterDelegate;
+@class NSView;
+@protocol SGBannerProtocol;
 
 @interface SGSuggestionPresenter
 {
     NSView<SGBannerProtocol> *_banner;
-    SGSuggestionAction *_bannerPrimaryAction;
-    SGSuggestionAction *_bannerDismissAction;
-    NSViewController *_presentedViewController;
-    SGSuggestionStore *_suggestionStore;
-    NSPopover *_popover;
-    NSMutableArray *_filteredSuggestions;
-    _Bool _wantsToShowBanner;
-    id <SGSuggestionPresenterDelegate> _delegate;
 }
 
 + (id);
@@ -27,52 +19,42 @@
 - (void);
 - (void);
 - (void);
+- (void)R;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
+- (void)#;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
+- (id);
+- (id);
+- (void)TF:(id)arg1:WeakRef<WebKit::WebExtensionAPIPort>>, Traits = WTF::HashTraits<WTF::WeakRef<WebKit::WebExtensionAPIPort>>, KeyTraits = WTF::HashTraits<WTF::WeakRef<WebKit::WebExtensionAPIPort>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void);
+- (id)qa;
+- (id);
+- (void)_dateRead;
+- (void);
+- (id);
+- (void);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSView<SGBannerProtocol> *banner;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SGSuggestionPresenterDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *suggestions;
-@property(readonly) Class superclass;
 @property(nonatomic) _Bool wantsToShowBanner; // @synthesize wantsToShowBanner=_wantsToShowBanner;
 
 @end

@@ -20,17 +20,16 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)hubDeviceType;
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)elegate>";
 - (CDStruct_1b6d18a9);
 - (void);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *otherParticipants;
-@property(readonly, nonatomic) NSArray *suspensionReasons;
 
 @end
 

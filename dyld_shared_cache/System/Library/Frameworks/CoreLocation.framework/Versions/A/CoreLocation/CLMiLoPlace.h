@@ -4,32 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLMiLoPlaceMetadata, NSNumber, NSUUID;
+@class NSUUID;
 
 @interface CLMiLoPlace
 {
     NSUUID *_identifier;
-    NSNumber *_score;
-    unsigned long long _confidence;
-    CLMiLoPlaceMetadata *_metadata;
 }
 
 + (_Bool);
 - (id);
-- (void);
+- (void)a:%s
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)setEnableStackOverflow:(struct _NSZone *)arg1;
 - (id);
 - (id);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long confidence; // @synthesize confidence=_confidence;
 @property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) CLMiLoPlaceMetadata *metadata; // @synthesize metadata=_metadata;
-@property(readonly, nonatomic) NSNumber *score; // @synthesize score=_score;
 
 @end
 

@@ -8,14 +8,9 @@ __attribute__((visibility("hidden")))
 @interface _NSFaultingMutableSetMutationMethods
 {
     struct objc_method *_addObjectMethod;
-    struct objc_method *_removeObjectMethod;
-    struct objc_method *_addMethod;
-    struct objc_method *_removeMethod;
-    struct objc_method *_intersectMethod;
-    struct objc_method *_setMethod;
 }
 
-+ (id);
++ (id);
 
 @end
 

@@ -13,9 +13,9 @@
 
 - (id);
 - (void);
+- (void)removeUnreliable1EEntryFlag:(id)arg1 ctx: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)have either 44k or 48k support. supportedFormats=%@;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -27,7 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasRecordForOplockFailure;
-@property(retain, nonatomic) CKDPRecord *recordForOplockFailure; // @synthesize recordForOplockFailure=_recordForOplockFailure;
 
 @end
 

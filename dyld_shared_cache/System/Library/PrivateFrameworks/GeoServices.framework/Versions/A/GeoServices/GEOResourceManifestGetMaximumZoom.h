@@ -6,31 +6,22 @@
 
 #import <GeoServices/GEOXPCRequest.h>
 
-@class NSString;
-
 @interface GEOResourceManifestGetMaximumZoom : GEOXPCRequest
 {
     int _style;
 }
 
-+ (Class);
++ (Class)ription"^?};
 - (int);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)ne_filter_protocol_finalize_output_frames;
 - (void);
-- (void)ionProfile:(id)arg1;
+- (void)setElevationProfile:(id)arg1;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) int style; // @synthesize style=_style;
-@property(readonly) Class superclass;
 
 @end
 

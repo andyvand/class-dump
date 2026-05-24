@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLocale, NSString;
+@class NSString;
 
 @interface ISLanguageCarouselItem
 {
     NSString *_languageIdentifier;
-    id _data;
 }
 
 - (id);
@@ -17,15 +16,13 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)T;
+- (id)*;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id data; // @synthesize data=_data;
 @property(retain, nonatomic) NSString *languageIdentifier; // @synthesize languageIdentifier=_languageIdentifier;
-@property(readonly, nonatomic) NSLocale *locale;
 
 @end
 

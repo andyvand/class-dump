@@ -4,14 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet;
+@class NSSet;
 
 @protocol ECLabelChangeMessageActionBuilder
+- (NSSet *);
+- (NSSet *)StatusFailed = %{public}s, isPictureInPictureAvailable = %{public}s;
+- (NSSet *).;
+- (void)alysis is not supported on this device or platform.;
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *labelsToAdd;
-@property(copy, nonatomic) NSSet *labelsToRemove;
-@property(copy, nonatomic) NSArray *messages;
 @property(copy, nonatomic) NSSet *remoteIDs;
 @end
 

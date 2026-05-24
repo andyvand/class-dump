@@ -8,12 +8,11 @@
 
 @protocol AMSLookupBagContract
 
+@optional
+- (AMSBagValue *);
+
 // Remaining properties
 @property(readonly) AMSBagValue *personalizedLookupURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AMSBagValue",?,R
-
-@property(readonly) AMSBagValue *unpersonalizedLookupURL;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"AMSBagValue",?,R
 

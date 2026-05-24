@@ -6,29 +6,24 @@
 
 #import <MediaRemote/MRProtocolMessage.h>
 
-@class MRPlayerPath, NSDate, NSDictionary;
+@class NSDictionary;
 
 @interface MRSendCommandMessage : MRProtocolMessage
 {
     NSDictionary *_options;
-    NSDate *_serializationDate;
 }
 
 - (id);
 - (id);
 - (unsigned int);
 - (id);
-- (unsigned long long);
+- (unsigned long long)checkForAcceptedContactStoreChanges;
 - (id);
 - (unsigned int);
 - (void)Token;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int appOptions;
 @property(readonly, nonatomic) unsigned int command;
-@property(readonly, nonatomic) NSDictionary *options;
-@property(readonly, nonatomic) MRPlayerPath *playerPath;
-@property(readonly, nonatomic) NSDate *serializationDate; // @synthesize serializationDate=_serializationDate;
 
 @end
 

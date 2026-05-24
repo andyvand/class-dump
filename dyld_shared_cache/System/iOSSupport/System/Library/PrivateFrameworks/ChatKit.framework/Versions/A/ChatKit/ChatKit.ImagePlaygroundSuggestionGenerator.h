@@ -7,8 +7,6 @@
 @interface ChatKit.ImagePlaygroundSuggestionGenerator
 {
     id imageCreator;
-    id textProcessingService;
-    id store;
 }
 
 @end

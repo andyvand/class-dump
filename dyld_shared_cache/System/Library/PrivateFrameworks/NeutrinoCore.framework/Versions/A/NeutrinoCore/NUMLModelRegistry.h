@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue, OS_os_log;
+@class NSMutableDictionary;
 
 @interface NUMLModelRegistry
 {
     NSMutableDictionary *_modelMap;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_os_log> *_log;
-    unsigned long long _signpost;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -28,13 +24,10 @@
 - (id);
 - (id);
 - (void)2@0:8d16d24 /* Error: Ran out of types for this method. */;
-- (void)itWithCIImage:(id)arg1 options:session: /* Error: Ran out of types for this method. */;
+- (void)initWithCIImage:(id)arg1 options:session: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
 @property(retain, nonatomic) NSMutableDictionary *modelMap; // @synthesize modelMap=_modelMap;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) unsigned long long signpost; // @synthesize signpost=_signpost;
 
 @end
 

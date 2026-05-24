@@ -10,20 +10,18 @@ __attribute__((visibility("hidden")))
 @interface NSTouchBarControlStripGrabberLayoutAttributes : NSCollectionViewLayoutAttributes
 {
     _Bool _enabled;
-    long long _state;
 }
 
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (long long);
+- (long long)P;
 - (_Bool);
-- (id)er:(struct _NSZone *)arg1;
+- (id)alertStyleGroupItemWithIdentifier:(struct _NSZone *)arg1;
 
 // Remaining properties
 @property(getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property long long state; // @synthesize state=_state;
 
 @end
 

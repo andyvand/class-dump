@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id);
+- (id)ng senderHandleID %@ fromHandleID %@;
 - (long long)þhÜXg;
 
 @end

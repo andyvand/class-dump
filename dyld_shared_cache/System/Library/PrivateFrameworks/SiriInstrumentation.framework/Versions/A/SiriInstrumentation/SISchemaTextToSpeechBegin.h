@@ -6,30 +6,23 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaHardwareInterfaceIdentifier;
+@class NSString;
 
 @interface SISchemaTextToSpeechBegin : SISchemaInstrumentationMessage
 {
     NSString *_aceID;
-    int _audioOutputRoute;
-    SISchemaHardwareInterfaceIdentifier *_hardwareInterfaceVendorID;
-    struct {
-        unsigned int audioOutputRoute:1;
-    } _has;
-    _Bool _hasAceID;
-    _Bool _hasHardwareInterfaceVendorID;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (int);
 - (id);
 - (void);
@@ -38,23 +31,17 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)_skipCoordinatorCompletion;
+- (_Bool)ublic}@);
+- (_Bool)old_rowid    INTEGER            ); ;
 - (id);
 - (id);
-- (id);
-- (id)llucinationDetectionLatencyMs;
+- (id)deleteDisambiguationResolution;
+- (id)_hallucinationDetectionLatencyMs;
 - (void)onnectionFailed;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *aceID; // @synthesize aceID=_aceID;
-@property(nonatomic) int audioOutputRoute; // @synthesize audioOutputRoute=_audioOutputRoute;
-@property(retain, nonatomic) SISchemaHardwareInterfaceIdentifier *hardwareInterfaceVendorID; // @synthesize hardwareInterfaceVendorID=_hardwareInterfaceVendorID;
-@property(nonatomic) _Bool hasAceID; // @synthesize hasAceID=_hasAceID;
-@property(nonatomic) _Bool hasAudioOutputRoute;
-@property(nonatomic) _Bool hasHardwareInterfaceVendorID; // @synthesize hasHardwareInterfaceVendorID=_hasHardwareInterfaceVendorID;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CNAutocompleteProbeKeyBuilder
 {
     NSString *_key;
-    NSArray *_prefixes;
-    NSArray *_suffixes;
 }
 
 + (id);
-- (void);
+- (void)�;
 - (id);
 - (void);
 - (void);
@@ -25,16 +23,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)N;
 - (id);
 - (void);
-- (id);
+- (id)ould not create tempfile with prefix %@:%@ /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(retain, nonatomic) NSArray *prefixes; // @synthesize prefixes=_prefixes;
-@property(retain, nonatomic) NSArray *suffixes; // @synthesize suffixes=_suffixes;
 
 @end
 

@@ -5,15 +5,10 @@
 //
 
 @protocol AVControlsContainerViewContentLayout
+- (double)ay:%ld> /* Error: Ran out of types for this method. */;
 - (double)0:8@16{CGSize=dd}24{CGSize=dd}40 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) CDStruct_83cd8af5 controlsContentViewMargin;
-@property(readonly) long long cornerRadiusStyle;
-@property(readonly) struct CGSize intrinsicControlsContentViewSize;
 @property(readonly) long long layoutStyle;
-@property(readonly) double minimumHeight;
-@property(readonly) double minimumWidth;
-@property(readonly) double preferredCornerRadius;
 @end
 

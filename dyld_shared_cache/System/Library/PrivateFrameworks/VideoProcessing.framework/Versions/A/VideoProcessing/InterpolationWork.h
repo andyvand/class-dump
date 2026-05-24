@@ -7,22 +7,18 @@
 @interface InterpolationWork
 {
     int _previous;
-    int _current;
-    int _target;
 }
 
 - (id);
 - (int);
 - (void);
 - (void);
-- (void);
+- (void)r %@:(int)arg1 %@;
 - (int);
 - (int)i¶?;
 
 // Remaining properties
-@property(nonatomic) int current; // @synthesize current=_current;
 @property(nonatomic) int previous; // @synthesize previous=_previous;
-@property(nonatomic) int target; // @synthesize target=_target;
 
 @end
 

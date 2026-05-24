@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AccountManagerAirDropSharingAuthenticationContext
 {
     _Bool _hasBeenAuthenticated;
-    WBSSavedAccount *_savedAccount;
 }
 
 - (_Bool);
@@ -23,7 +22,6 @@ __attribute__((visibility("hidden")))
 ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasBeenAuthenticated; // @synthesize hasBeenAuthenticated=_hasBeenAuthenticated;
 @property(readonly, nonatomic) WBSSavedAccount *savedAccount; // @synthesize savedAccount=_savedAccount;
 
 @end

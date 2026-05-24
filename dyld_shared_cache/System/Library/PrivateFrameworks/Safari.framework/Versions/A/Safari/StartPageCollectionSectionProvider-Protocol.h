@@ -4,29 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAppearance, NSArray, NSString;
+@class NSString;
 @protocol StartPageCollectionSectionProviderDelegate;
 
 @protocol StartPageCollectionSectionProvider
-- (NSString *)View: /* Error: Ran out of types for this method. */;
+- (NSString *)setFinePrintContainerView: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
+
+@optional
+- (void);
+- (id <StartPageCollectionSectionProviderDelegate>);
+- (void)h;
 
 // Remaining properties
-@property(retain, nonatomic) NSAppearance *backgroundAppearance;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSAppearance",?,&,N
-
-@property(readonly, copy, nonatomic) NSArray *draggedTypes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
 @property(copy, nonatomic) NSString *identifier;
-@property(nonatomic) __weak id <StartPageCollectionSectionProviderDelegate> sectionProviderDelegate;
-@property(readonly, nonatomic) _Bool usesCompactAppearance;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(nonatomic) _Bool usesPrivateBrowsing;
 @end
 

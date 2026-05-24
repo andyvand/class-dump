@@ -8,20 +8,6 @@
 {
     id $defaultActor;
     id readerIdentifierCache;
-    id eventsContinuations;
-    id readerCount;
-    id arbiter;
-    id foregroundObserver;
-    id foregroundState;
-    id isContextCreated;
-    id xpcDisconnectionExpected;
-    id connection;
-    id activeReaderSession;
-    id lastCardReadTransactionID;
-    id backgroundAllowed;
-    id eventHandlers;
-    id updateHandlers;
-    id requestRunning;
 }
 
 @end

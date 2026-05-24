@@ -6,7 +6,7 @@
 
 #import <GeoServices/GEOXPCReply.h>
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface GEOConfigGetCompanionSyncValuesForKeysReply : GEOXPCReply
 {
@@ -16,19 +16,12 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (void)erCandidateMatch:(id)arg1;
+- (_Bool)initWithStoreName:modelPath: /* Error: Ran out of types for this method. */;
+- (void)_considerCandidateMatch:(id)arg1;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSDictionary *keyStringsAndValues; // @synthesize keyStringsAndValues=_keyStringsAndValues;
-@property(readonly) Class superclass;
 
 @end
 

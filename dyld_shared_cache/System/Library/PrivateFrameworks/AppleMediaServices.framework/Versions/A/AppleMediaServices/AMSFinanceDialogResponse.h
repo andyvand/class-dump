@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSDialogRequest, AMSURLTaskInfo, NSDictionary, NSString;
-
 __attribute__((visibility("hidden")))
 @interface AMSFinanceDialogResponse
 {
     _Bool _containsCommerceUIURL;
-    NSDictionary *_dialogDictionary;
-    AMSDialogRequest *_dialogRequest;
-    long long _kind;
-    NSDictionary *_responseDictionary;
-    AMSURLTaskInfo *_taskInfo;
 }
 
-+ (id);
-+ (_Bool);
-+ (id);
++ (id){;
++ (_Bool)pathWithComponents:(id)arg1;
++ (id)enumerateObjectsUsingBlock:(id)arg1;
 + (id);
 + (id);
 + (_Bool);
@@ -38,7 +31,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (id);
-- (void);
+- (void)5˿;
 - (void);
 - (long long)hZ;
 - (void)W à;
@@ -46,18 +39,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) _Bool containsCommerceUIURL; // @synthesize containsCommerceUIURL=_containsCommerceUIURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSDictionary *dialogDictionary; // @synthesize dialogDictionary=_dialogDictionary;
-@property(readonly) AMSDialogRequest *dialogRequest; // @synthesize dialogRequest=_dialogRequest;
-@property(readonly) unsigned long long hash;
-@property long long kind; // @synthesize kind=_kind;
-@property(readonly, copy) NSDictionary *responseDictionary; // @synthesize responseDictionary=_responseDictionary;
-@property(readonly) Class superclass;
-@property(copy) AMSURLTaskInfo *taskInfo; // @synthesize taskInfo=_taskInfo;
 
 @end
 

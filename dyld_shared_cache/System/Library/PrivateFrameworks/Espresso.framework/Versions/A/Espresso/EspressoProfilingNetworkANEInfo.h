@@ -7,7 +7,6 @@
 @interface EspressoProfilingNetworkANEInfo
 {
     unsigned long long _total_ane_time_ns;
-    unsigned long long _ane_time_per_eval_ns;
 }
 
 - (void);
@@ -16,7 +15,6 @@
 - (unsigned long long);
 
 // Remaining properties
-@property unsigned long long ane_time_per_eval_ns; // @synthesize ane_time_per_eval_ns=_ane_time_per_eval_ns;
 @property unsigned long long total_ane_time_ns; // @synthesize total_ane_time_ns=_total_ane_time_ns;
 
 @end

@@ -6,26 +6,10 @@
 
 #import <CoreBrightness/CBHIDEvent.h>
 
-@class CBALSNode, NSObject;
-@protocol OS_os_log;
-
 __attribute__((visibility("hidden")))
 @interface CBALSEvent : CBHIDEvent
 {
     struct __IOHIDEvent *_event;
-    NSObject<OS_os_log> *_logHandle;
-    _Bool _obstructed;
-    _Bool _firstALSSample;
-    _Bool _colorMitigationTriggered;
-    _Bool _supportColor;
-    float _integrationTime;
-    int _orientation;
-    float _confidence;
-    float _strength;
-    double _illuminance;
-    CBALSNode *_node;
-    struct CFXColorSample _colorSample;
-    struct ColorSensorVendorEventData _vendorData;
 }
 
 + (void);
@@ -37,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (float);
 - (_Bool);
 - (float);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (int);
@@ -46,14 +30,14 @@ __attribute__((visibility("hidden")))
 - (struct ColorSensorVendorEventData);
 - (double);
 - (void);
-- (void);
+- (void)Y;
 - (float);
 - (struct CFXColorSample);
-- (void);
+- (void)#;
 - (long long);
 - (void);
 - (void);
-- (int);
+- (int)upTargetDeactivatedNotification;
 - (void);
 - (struct ColorSensorVendorEventData);
 - (void);
@@ -62,18 +46,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)itialization | Start;
 
 // Remaining properties
-@property _Bool colorMitigationTriggered; // @synthesize colorMitigationTriggered=_colorMitigationTriggered;
-@property struct CFXColorSample colorSample; // @synthesize colorSample=_colorSample;
-@property float confidence; // @synthesize confidence=_confidence;
-@property _Bool firstALSSample; // @synthesize firstALSSample=_firstALSSample;
 @property double illuminance; // @synthesize illuminance=_illuminance;
-@property float integrationTime; // @synthesize integrationTime=_integrationTime;
-@property(readonly) CBALSNode *node; // @synthesize node=_node;
-@property _Bool obstructed; // @synthesize obstructed=_obstructed;
-@property int orientation; // @synthesize orientation=_orientation;
-@property float strength; // @synthesize strength=_strength;
-@property _Bool supportColor; // @synthesize supportColor=_supportColor;
-@property struct ColorSensorVendorEventData vendorData; // @synthesize vendorData=_vendorData;
 
 @end
 

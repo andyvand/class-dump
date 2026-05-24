@@ -17,7 +17,7 @@
 + (id);
 + (id);
 + (_Bool);
-+ (id);
++ (id)compareUUID: /* Error: Ran out of types for this method. */;
 + (id)stions:%@,  /* Error: Ran out of types for this method. */;
 + (id);
 - (id);

@@ -6,23 +6,11 @@
 
 #import <TextRecognition/CRRecognizerConfiguration.h>
 
-@class CRConfidenceThresholds, CRTitleParameters, NSArray, NSString, NSURL;
+@class NSURL;
 
 @interface CRNeuralRecognizerConfiguration : CRRecognizerConfiguration
 {
     _Bool _decodeWithLM;
-    float _precisionThreshold;
-    float _mediumConfidenceThreshold;
-    float _highConfidenceThreshold;
-    NSURL *_customModelURL;
-    long long _batchSize;
-    long long _maxConcurrentBatches;
-    NSArray *_inputWidths;
-    double _inputHeight;
-    unsigned long long _paddingMode;
-    NSArray *_customWords;
-    NSString *_locale;
-    CRTitleParameters *_titleParameters;
 }
 
 + (id);
@@ -41,25 +29,13 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (double);
+- (double)_updateThumbnailView;
 - (id);
 - (long long);
 - (void)ructureRecognizerResultParsed=QQB{vector<double, std::allocator<double>>=^d^d{?=^d}}{vector<double, std::allocator<double>>=^d^d{?=^d}}{vector<CRTableStructureMerge, std::allocator<CRTableStructureMerge>>=^{CRTableStructureMerge}^{CRTableStructureMerge}{?=^{CRTableStructureMerge}}}}24@0:8@16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) long long batchSize; // @synthesize batchSize=_batchSize;
-@property(readonly) CRConfidenceThresholds *confidenceThresholds;
 @property(readonly) NSURL *customModelURL; // @synthesize customModelURL=_customModelURL;
-@property(readonly) NSArray *customWords; // @synthesize customWords=_customWords;
-@property(readonly) _Bool decodeWithLM; // @synthesize decodeWithLM=_decodeWithLM;
-@property(readonly) _Bool filterWithLM;
-@property(readonly) double inputHeight; // @synthesize inputHeight=_inputHeight;
-@property(readonly) NSArray *inputWidths; // @synthesize inputWidths=_inputWidths;
-@property(readonly) NSString *locale; // @synthesize locale=_locale;
-@property(readonly) long long maxConcurrentBatches; // @synthesize maxConcurrentBatches=_maxConcurrentBatches;
-@property(readonly) unsigned long long paddingMode; // @synthesize paddingMode=_paddingMode;
-@property(readonly) float precisionThreshold; // @synthesize precisionThreshold=_precisionThreshold;
-@property(readonly) CRTitleParameters *titleParameters; // @synthesize titleParameters=_titleParameters;
 
 @end
 

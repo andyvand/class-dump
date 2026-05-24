@@ -5,5 +5,6 @@
 //
 
 @protocol _CDInteractionRecording
+- (void)h;
 @end
 

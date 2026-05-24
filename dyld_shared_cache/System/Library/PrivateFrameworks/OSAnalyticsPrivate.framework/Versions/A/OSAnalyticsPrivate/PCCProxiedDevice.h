@@ -4,56 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString, PCCEndpoint, PCCGroupJob;
-@protocol OS_dispatch_queue, OS_dispatch_source, OS_os_transaction;
+@class PCCEndpoint;
 
 @interface PCCProxiedDevice
 {
     PCCEndpoint *_endpoint;
-    NSObject<OS_dispatch_queue> *_job_queue;
-    PCCGroupJob *_groupXferJob;
-    NSMutableDictionary *_jobByTracker;
-    NSObject<OS_dispatch_source> *_expiryTimer;
-    NSObject<OS_os_transaction> *_txn;
-    int file_count;
-    int msg_count;
-    int up_count;
-    int job_count;
-    int expire_count;
-    _Bool _preserveFiles;
-    double _jobTimeout;
 }
 
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)%{ptr}] %###s:(id)arg1 initialVolume = %f dB
+;
+- (void)WHAPRO [%{ptr}] AirPlay session started on endpoint %@.
+;
+- (void)inuing without protection
+;
+- (void)the lack of display protection support
+;
+- (_Bool)nsportEventStream(APSenderSessionRef, FigTransportStreamRef);
+- (double)nsportStreamRef, OSType, CMBlockBufferRef, void *);
+- (void)apsession_ensureEventStreamCreated;
+- (void));
+- (void)rashReporterSupport;
+- (void)rSupport.framework/Contents/MacOS/CrashReporterSupport;
+- (void)ableDictionaryRef);
+- (void)isMultiSelectAirPlay;
+- (void)e:(id)arg1 %d) to SETUP Request%?{end}:(id)arg2 %@
+%@;
+- (void)timingProtocol;
+- (_Bool)diagnosticsAndUsage;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property double jobTimeout; // @synthesize jobTimeout=_jobTimeout;
-@property _Bool preserveFiles; // @synthesize preserveFiles=_preserveFiles;
-@property(readonly) Class superclass;
 
 @end
 

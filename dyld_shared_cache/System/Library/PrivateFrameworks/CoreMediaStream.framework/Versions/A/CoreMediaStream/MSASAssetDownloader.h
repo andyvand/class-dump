@@ -6,22 +6,9 @@
 
 #import <CoreMediaStream/MSASAssetTransferer.h>
 
-@class NSMutableArray, NSMutableDictionary, NSString;
-@protocol MSASAssetDownloaderDelegate;
-
 @interface MSASAssetDownloader : MSASAssetTransferer
 {
     _Bool _didEncounterNetworkConditionError;
-    _Bool _isDownloadingThumbnails;
-    _Bool _isWaitingForFirstDownloadEvent;
-    int _state;
-    NSMutableArray *_itemsInFlight;
-    NSMutableDictionary *_assetToItemInFlightMap;
-    NSMutableArray *_finishedAssets;
-    NSString *_currentFocusAlbumGUID;
-    NSString *_currentFocusAssetCollectionGUID;
-    NSString *_objectGUID;
-    NSString *_downloadBatchPerfGUID;
 }
 
 - (void);
@@ -33,24 +20,24 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)H;
+- (id);
+- (void)in visual request info;
 - (id);
 - (void);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
+- (_Bool);
 - (id);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)Semaphore;
+- (_Bool)ents != (%d) buffer elements;
 - (int);
 - (void);
 - (void);
@@ -64,25 +51,14 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id));
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *assetToItemInFlightMap; // @synthesize assetToItemInFlightMap=_assetToItemInFlightMap;
-@property(retain, nonatomic) NSString *currentFocusAlbumGUID; // @synthesize currentFocusAlbumGUID=_currentFocusAlbumGUID;
-@property(retain, nonatomic) NSString *currentFocusAssetCollectionGUID; // @synthesize currentFocusAssetCollectionGUID=_currentFocusAssetCollectionGUID;
-@property(nonatomic) __weak id <MSASAssetDownloaderDelegate> delegate; // @dynamic delegate;
-@property(nonatomic) _Bool didEncounterNetworkConditionError; // @synthesize didEncounterNetworkConditionError=_didEncounterNetworkConditionError;
-@property(retain, nonatomic) NSString *downloadBatchPerfGUID; // @synthesize downloadBatchPerfGUID=_downloadBatchPerfGUID;
-@property(retain, nonatomic) NSMutableArray *finishedAssets; // @synthesize finishedAssets=_finishedAssets;
-@property(nonatomic) _Bool isDownloadingThumbnails; // @synthesize isDownloadingThumbnails=_isDownloadingThumbnails;
-@property(nonatomic) _Bool isWaitingForFirstDownloadEvent; // @synthesize isWaitingForFirstDownloadEvent=_isWaitingForFirstDownloadEvent;
-@property(retain, nonatomic) NSMutableArray *itemsInFlight; // @synthesize itemsInFlight=_itemsInFlight;
-@property(retain, nonatomic) NSString *objectGUID; // @synthesize objectGUID=_objectGUID;
 @property(nonatomic) int state; // @synthesize state=_state;
 
 @end

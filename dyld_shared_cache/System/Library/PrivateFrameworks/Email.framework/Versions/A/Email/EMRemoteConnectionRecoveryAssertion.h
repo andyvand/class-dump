@@ -9,12 +9,11 @@
 @interface EMRemoteConnectionRecoveryAssertion
 {
     struct os_unfair_lock_s _lock;
-    id <EMRemoteConnectionRecoveryAssertionDelegate> _delegate;
 }
 
 - (void);
-- (void);
-- (id);
+- (void)setCallScreeningDurationListener: /* Error: Ran out of types for this method. */;
+- (id)rapport.receivedEvent;
 - (void);
 - (id);
 - (void);

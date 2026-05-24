@@ -7,10 +7,10 @@
 @protocol MTLCommandBuffer, MTLRenderCommandEncoder, MTLTexture;
 
 @protocol _SCNSceneRendererMainPassCustomPostProcessHelper
+- (id <MTLTexture>);
+- (id <MTLRenderCommandEncoder>)4;
 
 // Remaining properties
 @property(readonly, nonatomic) id <MTLCommandBuffer> commandBuffer;
-@property(readonly, nonatomic) id <MTLTexture> destinationTexture;
-@property(readonly, nonatomic) id <MTLRenderCommandEncoder> renderCommandEncoder;
 @end
 

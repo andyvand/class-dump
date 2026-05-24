@@ -10,28 +10,22 @@ __attribute__((visibility("hidden")))
 @interface UIStoryboardModalSegueTemplate : UIStoryboardSegueTemplate
 {
     _Bool _useDefaultModalPresentationStyle;
-    _Bool _useDefaultModalTransitionStyle;
-    long long _modalPresentationStyle;
-    long long _modalTransitionStyle;
 }
 
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)brandLogoDataFromBlastDoorImage: /* Error: Ran out of types for this method. */;
+- (_Bool)brandLogo;
+- (void)IDSIncomingBatchMessageContext",&,N,V_contextWithSSM;
+- (void),V_idsAccount;
 - (CDUnknownBlockType);
 - (void);
-- (id);
-- (void)ctForKey:(id)arg1;
-- (void)State:(long long)arg1;
+- (id)fer:(id)arg1 cumulativePointsBuffer:keypointLocationsBuffer:keypointResponsesBuffer:maxRegionHeight: /* Error: Ran out of types for this method. */;
+- (void)hasCachedObjectForKey:(id)arg1;
+- (void)_setDragState:(long long)arg1;
 - (long long);
 - (long long)Ä;
 
 // Remaining properties
-@property(nonatomic) long long modalPresentationStyle; // @synthesize modalPresentationStyle=_modalPresentationStyle;
-@property(nonatomic) long long modalTransitionStyle; // @synthesize modalTransitionStyle=_modalTransitionStyle;
 @property(nonatomic) _Bool useDefaultModalPresentationStyle; // @synthesize useDefaultModalPresentationStyle=_useDefaultModalPresentationStyle;
-@property(nonatomic) _Bool useDefaultModalTransitionStyle; // @synthesize useDefaultModalTransitionStyle=_useDefaultModalTransitionStyle;
 
 @end
 

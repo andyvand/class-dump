@@ -12,7 +12,6 @@
 @interface PHShareParticipantRelationshipChangeRequestHelper : PHRelationshipChangeRequestHelper
 {
     PHObject<PHShare> *_originalShare;
-    PHObject *_originalAsset;
 }
 
 - (void);
@@ -26,10 +25,9 @@
 - (void);
 - (void);
 - (id);
-- (void)ry:fetchAsset: /* Error: Ran out of types for this method. */;
+- (void)_assetAlreadyExistsAsPlaceholder:mediaType:uuid:photoLibrary:fetchAsset: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak PHObject *originalAsset; // @synthesize originalAsset=_originalAsset;
 @property(nonatomic) __weak PHObject<PHShare> *originalShare; // @synthesize originalShare=_originalShare;
 
 @end

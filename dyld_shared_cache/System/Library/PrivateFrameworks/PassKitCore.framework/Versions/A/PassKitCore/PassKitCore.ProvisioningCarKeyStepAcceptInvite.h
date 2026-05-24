@@ -7,8 +7,6 @@
 @interface PassKitCore.ProvisioningCarKeyStepAcceptInvite
 {
     id context;
-    id credential;
-    id sharedState;
 }
 
 @end

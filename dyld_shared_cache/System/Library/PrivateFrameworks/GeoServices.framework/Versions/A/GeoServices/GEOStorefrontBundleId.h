@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface GEOStorefrontBundleId
 {
     unsigned long long _identifier;
-    NSDate *_date;
 }
 
 - (id);
@@ -19,7 +16,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;
 @property(readonly, nonatomic) unsigned long long identifier; // @synthesize identifier=_identifier;
 
 @end

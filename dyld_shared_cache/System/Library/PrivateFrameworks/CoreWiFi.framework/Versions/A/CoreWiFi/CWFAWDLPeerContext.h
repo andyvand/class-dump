@@ -9,7 +9,6 @@
 @interface CWFAWDLPeerContext
 {
     NSString *_MACAddress;
-    NSString *_interfaceName;
 }
 
 + (id);
@@ -20,16 +19,15 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)Մ;
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)pathEvent;
 - (void)Ì;
 - (id)÷ÿD;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *MACAddress; // @synthesize MACAddress=_MACAddress;
-@property(copy, nonatomic) NSString *interfaceName; // @synthesize interfaceName=_interfaceName;
 
 @end
 

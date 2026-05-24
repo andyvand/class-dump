@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AVManagedAssetCacheInternal
 {
     NSURL *url;
-    _Bool enableHLSCache;
-    _Bool enableCRABSCache;
 }
 
 @end

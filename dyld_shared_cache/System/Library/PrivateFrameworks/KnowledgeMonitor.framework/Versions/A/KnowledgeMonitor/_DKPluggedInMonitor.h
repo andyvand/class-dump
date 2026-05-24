@@ -11,8 +11,6 @@
 @interface _DKPluggedInMonitor : _DKMonitor
 {
     BMSource *_source;
-    _Bool _enabled;
-    int _pluggedInToken;
 }
 
 + (id);
@@ -22,21 +20,20 @@
 + (unsigned int);
 + (id);
 + (id);
+- (void)E;
+- (void)setAltitudeShowTriggerBounds:(int)arg1;
+- (void)ChapterDaVinci3DData_CompressedMeshes;
+- (void)t read indication of ground cover zoom range existing.;
+- (int)PedestrianPath;
 - (void);
 - (void);
-- (void);
-- (void);
-- (int);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)6;
+- (_Bool)a;
 - (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(nonatomic) int pluggedInToken; // @synthesize pluggedInToken=_pluggedInToken;
 
 @end
 

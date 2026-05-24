@@ -10,7 +10,7 @@
 {
 }
 
-+ (id);
++ (id)handleCHIPSendRemoteRequestMessage:(_Bool)arg1 chipAccessoryServer:(id)arg2;
 
 @end
 

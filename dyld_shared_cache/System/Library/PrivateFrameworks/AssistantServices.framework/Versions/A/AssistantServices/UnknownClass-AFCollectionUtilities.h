@@ -6,6 +6,6 @@
 
 @interface UnknownClass (AFCollectionUtilities)
 - (id);
-- (id);
+- (id)=;
 @end
 

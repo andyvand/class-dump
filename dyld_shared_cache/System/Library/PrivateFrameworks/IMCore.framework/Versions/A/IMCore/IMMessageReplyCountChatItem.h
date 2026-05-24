@@ -6,21 +6,18 @@
 
 #import <IMCore/IMMessageStatusChatItem.h>
 
-@class IMItem, NSString;
+@class IMItem;
 
 @interface IMMessageReplyCountChatItem : IMMessageStatusChatItem
 {
     _Bool _replyIsFromMe;
-    IMItem *_parentItem;
-    NSString *_threadIdentifier;
-    NSString *_replyMessageGUID;
 }
 
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
+- (id)d] did succeed[%d];
+- (_Bool)for oneToOneModeEnabled[%d] did succeed[%d];
+- (id)p;
+- (id)] %s:(id)arg1 %d %@(%p) encode = %dx%d %d fps;
+- (void)[%s] %s:(id)arg1 %d %@(%p) attemptToSendOrBufferReliableMessage result=%s, topic=%@ participantID=%llu, index=%ld, retry=%ld, payload=%@;
 - (id);
 - (id);
 - (id);
@@ -29,8 +26,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) IMItem *_parentItem; // @synthesize _parentItem;
-@property(readonly, nonatomic) _Bool replyIsFromMe; // @synthesize replyIsFromMe=_replyIsFromMe;
-@property(readonly, copy, nonatomic) NSString *replyMessageGUID; // @synthesize replyMessageGUID=_replyMessageGUID;
 
 @end
 

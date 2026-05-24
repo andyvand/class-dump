@@ -7,9 +7,6 @@
 @interface NewsPersonalization.XavierGroupingService
 {
     id personalizationTreatment;
-    id paidAccessChecker;
-    id allowlistProvider;
-    id deviceIsiPad;
 }
 
 @end

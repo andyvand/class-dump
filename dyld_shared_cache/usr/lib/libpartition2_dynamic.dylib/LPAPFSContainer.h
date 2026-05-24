@@ -12,32 +12,27 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)Selection>"24@0:8@"NSUUID"16 /* Error: Ran out of types for this method. */;
++ (id)32Q40@48q56@64@72@80@88;
++ (id)6@24@32q40d48Q56@64q72q80^@88;
++ (id)eraStreamMetrics"16@0:(int)arg1 8;
++ (id);
+- (id)y"32@0:8@"NSUUID"16@"NSManagedObjectContext"24 /* Error: Ran out of types for this method. */;
+- (id)0:(int)arg1 8@"HMDHomeNFCReaderKey"16;
+- (id)alLightingContext"16@0:(int)arg1 8;
+- (id)"16;
+- (id)6@"NSUUID"24;
+- (id)oup>"24@0:8@"NSUUID"16 /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)cessCode>"32@0:(int)arg1 8@"NSUUID"16^B24;
+- (id)8@16@24@32q40@48@56@64@72;
 - (id);
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly) LPAPFSVolume *VMVolume;
-@property(readonly) LPAPFSVolume *hardwareVolume;
 @property(readonly) LPAPFSVolume *prebootVolume;
-@property(readonly) LPAPFSVolume *recoveryVolume;
-@property(readonly) LPAPFSVolume *updateVolume;
-@property(readonly) LPAPFSVolume *xARTVolume;
 
 @end
 

@@ -7,12 +7,6 @@
 @interface RemindersUICore.TTRMPrivacyChecker
 {
     id delegate;
-    id geoService;
-    id notificationsService;
-    id userDefaults;
-    id urgentAlarmService;
-    id findMyDeviceProvider;
-    id activeWarmingSheet;
 }
 
 @end

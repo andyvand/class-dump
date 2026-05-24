@@ -4,7 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, PPLocationQuery;
+
 @protocol MapsSuggestionsPortraitConnector
+- (_Bool);
+- (PPLocationQuery *)];
+- (NSArray *)PAGLTexture;
 - (void)Ñõ1Â0@ù
 × ;
 @end

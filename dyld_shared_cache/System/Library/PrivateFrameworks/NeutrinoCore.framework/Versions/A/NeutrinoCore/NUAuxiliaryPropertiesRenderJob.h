@@ -15,9 +15,9 @@
 
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)k:(out id *)arg1 r:path:/System/Library/Frameworks/NaturalLanguage.framework/NaturalLanguage /* Error: Ran out of types for this method. */;
 - (id);
-- (void)AtPoint: /* Error: Ran out of types for this method. */;
+- (void)tileIndexAtPoint: /* Error: Ran out of types for this method. */;
 
 @end
 

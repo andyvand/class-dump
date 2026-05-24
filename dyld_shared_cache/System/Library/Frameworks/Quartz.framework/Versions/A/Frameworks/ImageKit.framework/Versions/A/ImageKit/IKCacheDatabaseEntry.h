@@ -9,8 +9,6 @@
 @interface IKCacheDatabaseEntry
 {
     NSMutableArray *_uids;
-    struct __CFDictionary *_nodes;
-    long long _dbRetainCount;
 }
 
 + (id);

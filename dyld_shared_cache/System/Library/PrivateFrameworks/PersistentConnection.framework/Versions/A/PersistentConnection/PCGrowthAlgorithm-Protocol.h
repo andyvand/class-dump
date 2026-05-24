@@ -7,23 +7,18 @@
 @class NSDictionary;
 
 @protocol PCGrowthAlgorithm
+- (double)p;
+- (void)H*;
+- (double);
+- (int)DeinterlaceMode;
+- (NSDictionary *)>;
+- (double)`;
+- (void)Ֆ;
+- (struct _PCTimeRange));
+- (_Bool)__NSCFConstantString;
+- (_Bool);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *cacheInfo;
-@property(readonly, nonatomic) unsigned long long countOfGrowthActions;
 @property(readonly, nonatomic) double currentKeepAliveInterval;
-@property(readonly, nonatomic) int growthStage;
-@property(nonatomic) _Bool isServerOriginatedKeepAlive;
-@property(nonatomic) double lastSuccessfulKeepAliveInterval;
-@property(nonatomic) double maximumKeepAliveInterval;
-@property(nonatomic) _Bool minimumIntervalFallbackEnabled;
-@property(nonatomic) double minimumIntervalFallbackStateTimeout;
-@property(nonatomic) double minimumKeepAliveInterval;
-@property(readonly, nonatomic) int previousAction;
-@property(nonatomic) double serverStatsExpectedKeepAliveInterval;
-@property(nonatomic) double serverStatsMaxKeepAliveInterval;
-@property(nonatomic) double serverStatsMinKeepAliveInterval;
-@property(nonatomic) struct _PCTimeRange signalAvoidanceRange;
-@property(nonatomic) _Bool usingServerStatsAggressively;
 @end
 

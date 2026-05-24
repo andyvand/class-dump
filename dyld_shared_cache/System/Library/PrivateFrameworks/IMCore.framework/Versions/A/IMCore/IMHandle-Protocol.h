@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol IMHandle
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *ID;
 @property(readonly, nonatomic) _Bool matchesLoginHandleForAnyAccount;
-@property(readonly, nonatomic) NSString *normalizedID;
 @end
 

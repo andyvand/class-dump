@@ -4,49 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSOperationQueue, NSString, NSURL, _NSFilePromiseProviderPrivate;
-@protocol NSFilePromiseProviderDelegate;
+@class NSString, _NSFilePromiseProviderPrivate;
 
 @interface NSFilePromiseProvider
 {
     NSString *_fileType;
-    NSArray *_reservedA;
-    id _reservedB;
-    id <NSFilePromiseProviderDelegate> _delegate;
-    id <NSFilePromiseProviderDelegate> _strongDelegate;
-    id _userInfo;
-    NSURL *_destinationURL;
-    struct {
-        unsigned int valid;
-        unsigned int providedItem:1;
-        unsigned int reserved:30;
-    } _flags;
-    id _private;
 }
 
 + (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
+- (_Bool)D;
+- (_Bool)!;
 - (_Bool);
-- (_Bool);
-- (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
+- (id)setDownloadConfig:(id)arg1;
+- (void)URLSession:(id)arg1 _willRetryBackgroundDataTask:withError: /* Error: Ran out of types for this method. */;
+- (void)URLProtocol:(id)arg1 wasRedirectedToRequest:redirectResponse: /* Error: Ran out of types for this method. */;
+- (id)requests and responses now;
+- (void)L|;
+- (void)kCFURLDownloadFileModDate;
+- (void);
+- (void)@;
 - (id);
-- (void);
-- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -69,24 +56,7 @@
 - (void)\pÿè 8£A;
 
 // Remaining properties
-@property(readonly, copy) NSString *_fileReactorID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) NSOperationQueue *_providedItemsOperationQueue;
-@property(readonly, copy) NSURL *_providedItemsURL;
-@property(copy) NSArray *alternateFileTypes; // @synthesize alternateFileTypes=_reservedA;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <NSFilePromiseProviderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(copy) NSString *fileType;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) _NSFilePromiseProviderPrivate *private; // @synthesize private=_private;
-@property(readonly) Class superclass;
-@property(retain) id userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

@@ -16,9 +16,9 @@
 + (long long);
 + (_Bool);
 + (void);
-+ (_Bool);
++ (_Bool)T;
 + (void);
-+ (void);
++ (void)ientIdentifier:(CDUnknownBlockType)arg1 withHandler:] /* Error: Ran out of types for this method. */;
 
 @end
 

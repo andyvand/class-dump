@@ -11,16 +11,12 @@
 × ;
 - (long long)!@Bù±c1Â0@ù
 × ;
-- (NSArray *)valuationContext;
-- (void (^)(long long))eWhenAncestorFocused;
+- (NSArray *)proposedEvaluationContext;
+- (void (^)(long long))_adjustsImageWhenAncestorFocused;
 - (void (^)(void))	
 HI;
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType animations;
-@property(readonly, nonatomic) CDUnknownBlockType completion;
-@property(readonly, nonatomic) NSArray *items;
-@property(readonly, nonatomic) _Bool shouldAnimateLift;
 @property(readonly, nonatomic) long long state;
 @end
 

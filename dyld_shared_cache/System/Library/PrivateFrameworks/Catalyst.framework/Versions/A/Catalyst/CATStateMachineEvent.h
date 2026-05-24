@@ -7,7 +7,6 @@
 @interface CATStateMachineEvent
 {
     id _trigger;
-    id _context;
 }
 
 + (id);
@@ -15,10 +14,9 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)�;
 
 // Remaining properties
-@property(readonly, nonatomic) id context; // @synthesize context=_context;
 @property(readonly, nonatomic) id trigger; // @synthesize trigger=_trigger;
 
 @end

@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNVisualIdentity, NSString;
+@class CNVisualIdentity;
 
 __attribute__((visibility("hidden")))
 @interface CNPhotoPickerAddItemsProvider
 {
     _Bool _allowsTakePhotoItem;
-    _Bool _allowsPhotoFromLibraryItem;
-    _Bool _allowsMonograms;
-    _Bool _allowsEmoji;
-    NSString *_identifier;
-    CNVisualIdentity *_visualIdentity;
 }
 
 - (id);
@@ -30,24 +25,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)R ;
 - (void);
-- (id);
-- (void)ollerResize;
+- (id);
+- (void)_ignoreParentControllerResize;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsEmoji; // @synthesize allowsEmoji=_allowsEmoji;
-@property(nonatomic) _Bool allowsMonograms; // @synthesize allowsMonograms=_allowsMonograms;
-@property(nonatomic) _Bool allowsPhotoFromLibraryItem; // @synthesize allowsPhotoFromLibraryItem=_allowsPhotoFromLibraryItem;
-@property(nonatomic) _Bool allowsTakePhotoItem; // @synthesize allowsTakePhotoItem=_allowsTakePhotoItem;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) CNVisualIdentity *visualIdentity; // @synthesize visualIdentity=_visualIdentity;
 
 @end

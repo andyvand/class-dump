@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKMentionEntityNode, NSString;
+@class CKMentionEntityNode;
 
 @interface CKMentionAutoCompleteAttribute
 {
     CKMentionEntityNode *_mentionEntityNode;
-    NSString *_originalText;
-    NSString *_displayText;
 }
 
-- (void);
-- (id);
-- (id);
+- (void)"NSLayoutConstraint",&,N,V_widthConstraint;
+- (id)GtGGANGtGGANG;
+- (id)b;
 - (id);
 - (void)ð1Â0@ù
 × ;
@@ -24,9 +22,7 @@
 - (void)}};
 
 // Remaining properties
-@property(copy, nonatomic) NSString *displayText; // @synthesize displayText=_displayText;
 @property(retain, nonatomic) CKMentionEntityNode *mentionEntityNode; // @synthesize mentionEntityNode=_mentionEntityNode;
-@property(copy, nonatomic) NSString *originalText; // @synthesize originalText=_originalText;
 
 @end
 

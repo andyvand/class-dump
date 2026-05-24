@@ -9,19 +9,17 @@
 @interface IMAPPersistenceBlockOperation : IMAPPersistenceTaskOperation
 {
     _Bool _blockCompleted;
-    CDUnknownBlockType _block;
 }
 
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)@;
 - (CDUnknownBlockType);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;
 @property(nonatomic) _Bool blockCompleted; // @synthesize blockCompleted=_blockCompleted;
 
 @end

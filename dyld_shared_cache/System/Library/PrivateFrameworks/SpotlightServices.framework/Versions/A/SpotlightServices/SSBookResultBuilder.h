@@ -6,31 +6,27 @@
 
 #import <SpotlightServices/SSResultBuilder.h>
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface SSBookResultBuilder : SSResultBuilder
 {
     NSString *_author;
-    NSString *_genre;
-    NSDate *_date;
 }
 
 + (_Bool);
 + (id);
-- (id);
+- (id)platterizedIconScaleForReason: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)defaultSearchableIndex;
 - (id)À;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *author; // @synthesize author=_author;
-@property(retain, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(retain, nonatomic) NSString *genre; // @synthesize genre=_genre;
 
 @end
 

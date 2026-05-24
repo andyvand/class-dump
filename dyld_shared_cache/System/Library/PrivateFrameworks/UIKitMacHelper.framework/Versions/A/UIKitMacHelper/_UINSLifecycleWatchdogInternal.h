@@ -4,35 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UINSLifecycleWatchdogInternal
 {
     CDUnknownBlockType _actionBlock;
-    NSString *_name;
-    unsigned long long _timeoutUptimeNsec;
-    _Bool _canceled;
-    struct _opaque_pthread_t {
-        long long _field1;
-        struct __darwin_pthread_handler_rec *_field2;
-        char _field3[8176];
-    } *_watchdogThread;
-    struct _opaque_pthread_mutex_t {
-        long long __sig;
-        char __opaque[56];
-    } _threadMutex;
-    struct _opaque_pthread_cond_t {
-        long long __sig;
-        char __opaque[40];
-    } _wakeupCondition;
 }
 
 + (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)e::HistoryItem>>="m_ptr"^{HistoryItem}} /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 

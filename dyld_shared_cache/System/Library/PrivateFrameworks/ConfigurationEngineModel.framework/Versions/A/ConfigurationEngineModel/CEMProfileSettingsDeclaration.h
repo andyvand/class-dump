@@ -6,7 +6,7 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface CEMProfileSettingsDeclaration : CEMConfigurationBase
 {
@@ -27,19 +27,12 @@
 - (_Bool);
 - (id);
 - (int);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)cannerSpeechEnabled;
+- (id)GypG;
+- (void)erification setup problems;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSNumber *payloadAllowUIConfigurationProfileInstallation; // @synthesize payloadAllowUIConfigurationProfileInstallation=_payloadAllowUIConfigurationProfileInstallation;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSVB_ViewServiceReplyAwaitingTrampoline, NSVB_ViewServiceReplyControlTrampoline;
-
 __attribute__((visibility("hidden")))
 @interface NSVB_ViewServiceReplyControlProxy
 {
     id _target;
-    NSVB_ViewServiceReplyControlTrampoline *_controlTrampoline;
-    NSVB_ViewServiceReplyAwaitingTrampoline *_awaitingTrampoline;
-    NSLock *_lock;
 }
 
 + (id);
@@ -20,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)b_pGytIegnnr_;
 - (id);
 
 @end

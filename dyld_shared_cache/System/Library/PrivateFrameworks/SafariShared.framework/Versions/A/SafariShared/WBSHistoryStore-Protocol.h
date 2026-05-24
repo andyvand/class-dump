@@ -7,11 +7,10 @@
 @protocol WBSHistoryStoreDelegate;
 
 @protocol WBSHistoryStore
+- (void);
 - (void)",R,C,N,V_activeTestSuiteName;
 
 // Remaining properties
 @property(nonatomic) __weak id <WBSHistoryStoreDelegate> delegate;
-@property(nonatomic) double historyAgeLimit;
-@property(readonly, nonatomic) _Bool isUsingInMemoryDatabase;
 @end
 

@@ -9,7 +9,7 @@
     long long _kind;
 }
 
-- (id);
+- (id)=;
 - (id);
 - (long long);
 

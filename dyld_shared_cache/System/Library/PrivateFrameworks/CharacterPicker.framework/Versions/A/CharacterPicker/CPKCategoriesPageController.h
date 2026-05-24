@@ -10,18 +10,14 @@ __attribute__((visibility("hidden")))
 @interface CPKCategoriesPageController
 {
     NSMutableDictionary *_accessibilityDescriptionDictionary;
-    NSMutableDictionary *_buttonDictionary;
-    unsigned long long _count;
-    NSMutableDictionary *_iconDictionary;
-    NSMutableDictionary *_tooltipIdentifierDictionary;
 }
 
 - (id);
-- (id);
+- (id)$;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)h;
 - (id);
 - (id);
 - (void);
@@ -38,10 +34,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *accessibilityDescriptionDictionary; // @synthesize accessibilityDescriptionDictionary=_accessibilityDescriptionDictionary;
-@property(retain, nonatomic) NSMutableDictionary *buttonDictionary; // @synthesize buttonDictionary=_buttonDictionary;
-@property(nonatomic) unsigned long long count; // @synthesize count=_count;
-@property(retain, nonatomic) NSMutableDictionary *iconDictionary; // @synthesize iconDictionary=_iconDictionary;
-@property(retain, nonatomic) NSMutableDictionary *tooltipIdentifierDictionary; // @synthesize tooltipIdentifierDictionary=_tooltipIdentifierDictionary;
 
 @end
 

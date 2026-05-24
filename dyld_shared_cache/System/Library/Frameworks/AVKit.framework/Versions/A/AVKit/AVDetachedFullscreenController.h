@@ -4,25 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVDetachedFullscreenContentContainerView, AVDetachedFullscreenTransitionContext, AVDetachedFullscreenWindow, AVDetachedFullscreenWindowController, AVObservationController, NSString, NSView;
-@protocol AVDetachedFullscreenControllerDelegate;
+@class AVObservationController;
 
 __attribute__((visibility("hidden")))
 @interface AVDetachedFullscreenController
 {
     AVObservationController *_observationController;
-    AVDetachedFullscreenWindowController *_fullscreenWindowController;
-    AVDetachedFullscreenWindow *_fullscreenWindow;
-    AVDetachedFullscreenContentContainerView *_contentContainerView;
-    NSView *_contentView;
-    long long _preservedSourceWindowLevel;
-    _Bool _inFullscreen;
-    id <AVDetachedFullscreenControllerDelegate> _delegate;
-    AVDetachedFullscreenTransitionContext *_transitionContext;
 }
 
 - (void);
-- (_Bool);
+- (_Bool)work/Versions/A/PencilKit;
 - (id);
 - (void);
 - (void);
@@ -49,32 +40,22 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
+- (void)entMetadata"8@"NSError"16;
+- (void);
+- (id)Library/Frameworks/IOKit.framework/Versions/A/IOKit;
+- (void)H;
 - (void);
 - (void);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)hB@9;
 - (void)"NSImage"40@0:(id)arg1 8@"NSSharingService"16@24^{CGRect={CGPoint=dd}{CGSize=dd}}32;
-- (void);
-- (id)verlayView;
+- (void)exitFullscreen:(id)arg1;
+- (id)AVStatusOverlayView;
 - (id)[AVPictureInPictureController setPictureInPictureActive:] /* Error: Ran out of types for this method. */;
 - (_Bool)sStereoVideo;
 
 // Remaining properties
-@property(retain, nonatomic) NSView *contentView; // @synthesize contentView=_contentView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) __weak id <AVDetachedFullscreenControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic, getter=isInFullscreen) _Bool inFullscreen; // @synthesize inFullscreen=_inFullscreen;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) AVDetachedFullscreenTransitionContext *transitionContext; // @synthesize transitionContext=_transitionContext;
 
 @end
 

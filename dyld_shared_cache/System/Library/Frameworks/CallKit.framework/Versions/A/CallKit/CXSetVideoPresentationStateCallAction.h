@@ -12,14 +12,14 @@
 }
 
 + (_Bool);
-- (long long);
+- (long long);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
+- (id);
+- (void)versionHash;
+- (id);
 
 // Remaining properties
 @property(nonatomic) long long videoPresentationState; // @synthesize videoPresentationState=_videoPresentationState;

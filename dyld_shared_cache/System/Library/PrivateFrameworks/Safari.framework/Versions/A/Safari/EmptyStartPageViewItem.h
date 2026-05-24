@@ -6,18 +6,12 @@
 
 #import <Safari/StartPageViewItem.h>
 
-@class NSButton, NSImageView, NSStackView, NSString, NSTextField;
+@class NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface EmptyStartPageViewItem : StartPageViewItem
 {
     NSTextField *_titleTextField;
-    NSStackView *_buttonsStackView;
-    CDUnknownBlockType _descriptionTextFieldClickHandler;
-    NSImageView *_icon;
-    NSTextField *_descriptionTextField;
-    NSButton *_primaryButton;
-    NSButton *_secondaryButton;
 }
 
 - (void);
@@ -25,10 +19,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)藟;
 - (void);
 - (void);
 - (void)@"WBSCyclerItemListRepresentation">16;
@@ -37,16 +31,7 @@ __attribute__((visibility("hidden")))
 - (id)h;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSTextField *descriptionTextField; // @synthesize descriptionTextField=_descriptionTextField;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSButton *primaryButton; // @synthesize primaryButton=_primaryButton;
-@property(retain, nonatomic) NSButton *secondaryButton; // @synthesize secondaryButton=_secondaryButton;
-@property(readonly) Class superclass;
 
 @end
 

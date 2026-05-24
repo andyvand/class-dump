@@ -7,9 +7,6 @@
 @interface NewsUI2.ContentShortcutsEventHandler
 {
     id delegate;
-    id interactor;
-    id router;
-    id tracker;
 }
 
 @end

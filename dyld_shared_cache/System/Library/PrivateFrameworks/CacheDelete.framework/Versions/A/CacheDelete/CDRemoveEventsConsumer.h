@@ -4,57 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface CDRemoveEventsConsumer
 {
     _Bool _historyDone;
-    NSString *_identifier;
-    CDUnknownBlockType _consumer;
-    struct __FSEventStream *_stream;
-    NSObject<OS_dispatch_semaphore> *_sem;
-    NSObject<OS_dispatch_queue> *_consumer_q;
-    NSString *_volume;
-    struct fsid _fsid;
-    unsigned long long _since;
 }
 
 - (void);
-- (void);
+- (void)activityInfoWithSubActivity:tokens: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
 - (void);
 - (id);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)ce visits from store, error:%@ /* Error: Ran out of types for this method. */;
+- (id)satisfying:locationLookupWindowMinMinutes > 0 /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (struct fsid);
-- (struct __FSEventStream *);
+- (struct __FSEventStream *)newer than your current major/minor version:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void);
 - (void);
 - (id)ked breadcrumb file for volume %@;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType consumer; // @synthesize consumer=_consumer;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *consumer_q; // @synthesize consumer_q=_consumer_q;
-@property struct fsid fsid; // @synthesize fsid=_fsid;
-@property _Bool historyDone; // @synthesize historyDone=_historyDone;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSObject<OS_dispatch_semaphore> *sem; // @synthesize sem=_sem;
-@property unsigned long long since; // @synthesize since=_since;
-@property struct __FSEventStream *stream; // @synthesize stream=_stream;
-@property(retain, nonatomic) NSString *volume; // @synthesize volume=_volume;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface RemindersUICore.TTRMCustomRepeatMonths
 {
     id delegate;
-    id monthsOfTheYearToRestore;
-    id monthsView;
 }
 
 @end

@@ -6,28 +6,11 @@
 
 #import <HomeAI/HMIVideoProcessingNode.h>
 
-@class AVAssetWriter, AVAssetWriterInput, NSObject, NSString;
-@protocol HMIVideoAssetWriterDelegate, OS_dispatch_queue;
+@class AVAssetWriter;
 
 @interface HMIVideoAssetWriter : HMIVideoProcessingNode
 {
     _Bool _dropSamplesUntilSync;
-    _Bool _dropTrimDurationAttachments;
-    _Bool _allowRecoveryFromInsufficientAudioTrim;
-    id <HMIVideoAssetWriterDelegate> _delegate;
-    NSString *_logIdentifier;
-    AVAssetWriter *_assetWriter;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    struct opaqueCMFormatDescription *_videoFormat;
-    struct opaqueCMFormatDescription *_audioFormat;
-    CDUnknownBlockType _assetWriterDidOutputSeparableSegment;
-    AVAssetWriterInput *_videoInput;
-    AVAssetWriterInput *_audioInput;
-    CDStruct_1b6d18a9 _preferredOutputSegmentInterval;
-    CDStruct_1b6d18a9 _lastFlushedFramePresentationTimeStamp;
-    CDStruct_1b6d18a9 _lastVideoPresentationTimeStamp;
-    CDStruct_1b6d18a9 _lastAudioPresentationTimeStamp;
 }
 
 + (id)m;
@@ -38,7 +21,7 @@
 - (void);
 - (CDStruct_1b6d18a9);
 - (CDStruct_1b6d18a9);
-- (CDStruct_1b6d18a9);
+- (CDStruct_1b6d18a9);
 - (id);
 - (id);
 - (void);
@@ -52,7 +35,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -62,42 +45,19 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (CDStruct_1b6d18a9);
 - (id);
 - (id);
 - (void);
-- (struct opaqueCMFormatDescription *);
+- (struct opaqueCMFormatDescription *);
 - (void);
-- (struct opaqueCMFormatDescription *);
+- (struct opaqueCMFormatDescription *)RWIPairingStateInProgressAwaitingDeviceUserConfirmation;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly) _Bool allowRecoveryFromInsufficientAudioTrim; // @synthesize allowRecoveryFromInsufficientAudioTrim=_allowRecoveryFromInsufficientAudioTrim;
 @property(retain) AVAssetWriter *assetWriter; // @synthesize assetWriter=_assetWriter;
-@property(copy) CDUnknownBlockType assetWriterDidOutputSeparableSegment; // @synthesize assetWriterDidOutputSeparableSegment=_assetWriterDidOutputSeparableSegment;
-@property(readonly) struct opaqueCMFormatDescription *audioFormat; // @synthesize audioFormat=_audioFormat;
-@property(readonly) AVAssetWriterInput *audioInput; // @synthesize audioInput=_audioInput;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMIVideoAssetWriterDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(readonly, copy) NSString *description;
-@property _Bool dropSamplesUntilSync; // @synthesize dropSamplesUntilSync=_dropSamplesUntilSync;
-@property _Bool dropTrimDurationAttachments; // @synthesize dropTrimDurationAttachments=_dropTrimDurationAttachments;
-@property(readonly) unsigned long long hash;
-@property CDStruct_1b6d18a9 lastAudioPresentationTimeStamp; // @synthesize lastAudioPresentationTimeStamp=_lastAudioPresentationTimeStamp;
-@property CDStruct_1b6d18a9 lastFlushedFramePresentationTimeStamp; // @synthesize lastFlushedFramePresentationTimeStamp=_lastFlushedFramePresentationTimeStamp;
-@property CDStruct_1b6d18a9 lastVideoPresentationTimeStamp; // @synthesize lastVideoPresentationTimeStamp=_lastVideoPresentationTimeStamp;
-@property(retain) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property(readonly) CDStruct_1b6d18a9 preferredOutputSegmentInterval; // @synthesize preferredOutputSegmentInterval=_preferredOutputSegmentInterval;
-@property(readonly) Class superclass;
-@property(readonly) struct opaqueCMFormatDescription *videoFormat; // @synthesize videoFormat=_videoFormat;
-@property(readonly) AVAssetWriterInput *videoInput; // @synthesize videoInput=_videoInput;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

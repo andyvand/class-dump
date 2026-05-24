@@ -7,9 +7,6 @@
 @interface NewsUI2.LocationSharingDetectionManager
 {
     id router;
-    id configurationManager;
-    id locationDetectionManager;
-    id completionEventManager;
 }
 
 @end

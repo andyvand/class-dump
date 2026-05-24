@@ -4,36 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICLibraryAuthServiceClientTokenResult, NSDate, NSError;
+@class ICLibraryAuthServiceClientTokenResult;
 
 @interface ICLibraryAuthServiceClientTokenStatus
 {
     _Bool _shouldExcludeFromBackgroundRefresh;
-    ICLibraryAuthServiceClientTokenResult *_tokenResult;
-    NSError *_lastError;
-    double _lastUpdateAttemptTime;
 }
 
 + (_Bool);
 - (id);
 - (void);
 - (_Bool);
+- (void)orks/CoreFoundation.framework/Versions/A/CoreFoundation;
 - (void);
-- (void);
-- (double);
+- (double)ry in manifest, skipping installing signed manifest:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
+- (id)selectedMarkupStyle;
 - (void);
 - (void);
-- (void)MSBagAdapter;
+- (void)ICAMSBagAdapter;
 - (id)lic}@ error=%{public}@ transportControlStateString=%{public}@;
 
 // Remaining properties
-@property(copy, nonatomic) NSError *lastError; // @synthesize lastError=_lastError;
-@property(nonatomic) double lastUpdateAttemptTime; // @synthesize lastUpdateAttemptTime=_lastUpdateAttemptTime;
-@property(readonly, copy, nonatomic) NSDate *lastUpdatedDate;
-@property(nonatomic) _Bool shouldExcludeFromBackgroundRefresh; // @synthesize shouldExcludeFromBackgroundRefresh=_shouldExcludeFromBackgroundRefresh;
 @property(copy, nonatomic) ICLibraryAuthServiceClientTokenResult *tokenResult; // @synthesize tokenResult=_tokenResult;
 
 @end

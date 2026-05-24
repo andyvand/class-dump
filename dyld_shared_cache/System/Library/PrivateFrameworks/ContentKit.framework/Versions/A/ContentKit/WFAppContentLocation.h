@@ -6,18 +6,14 @@
 
 #import <ContentKit/WFContentLocation.h>
 
-@class INAppDescriptor, NSDictionary, NSString;
+@class NSString;
 
 @interface WFAppContentLocation : WFContentLocation
 {
     NSString *localizedTitle;
-    NSString *_localizedTitle;
-    INAppDescriptor *_appDescriptor;
-    NSDictionary *_serializedAppDescriptor;
-    unsigned long long _managedLevel;
 }
 
-+ (id);
++ (id)c;
 + (id);
 + (id);
 + (id);
@@ -28,16 +24,7 @@
 + (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) INAppDescriptor *appDescriptor; // @synthesize appDescriptor=_appDescriptor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) unsigned long long managedLevel; // @synthesize managedLevel=_managedLevel;
-@property(readonly, nonatomic) NSDictionary *serializedAppDescriptor; // @synthesize serializedAppDescriptor=_serializedAppDescriptor;
-@property(readonly) Class superclass;
 
 @end
 

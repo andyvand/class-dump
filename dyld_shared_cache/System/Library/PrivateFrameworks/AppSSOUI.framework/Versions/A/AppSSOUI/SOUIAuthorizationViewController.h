@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLayoutConstraint, NSViewController;
+@class NSViewController;
 @protocol SOUIAuthorizationViewControllerDelegate;
 
 @interface SOUIAuthorizationViewController
 {
     NSViewController *_extensionViewController;
-    NSLayoutConstraint *_widthConstraint;
-    NSLayoutConstraint *_heightConstraint;
-    NSLayoutConstraint *_topConstraint;
-    NSLayoutConstraint *_bottomConstraint;
-    NSLayoutConstraint *_leadingConstraint;
-    NSLayoutConstraint *_trailingConstraint;
-    NSArray *_extensionConstraints;
-    double _max_presentation_width;
-    double _max_presentation_height;
-    id <SOUIAuthorizationViewControllerDelegate> _delegate;
 }
 
 - (id);

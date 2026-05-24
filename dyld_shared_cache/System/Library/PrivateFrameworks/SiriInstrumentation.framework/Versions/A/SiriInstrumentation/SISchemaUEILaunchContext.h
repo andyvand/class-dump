@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUEILaunchEnded, SISchemaUEILaunchStarted;
+@class SISchemaUEILaunchStarted;
 
 @interface SISchemaUEILaunchContext : SISchemaInstrumentationMessage
 {
     SISchemaUEILaunchStarted *_startedOrChanged;
-    SISchemaUEILaunchEnded *_ended;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -31,22 +27,17 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)entitlementOriginType;
 - (_Bool);
-- (_Bool);
+- (_Bool)toPath;
 - (id);
 - (id);
-- (id)akeWithNoTriggerPhraseCount;
-- (id)er;
-- (void)E_MODEL;
+- (id)deleteFalseWakeWithNoTriggerPhraseCount;
+- (id)_hasCatIdentifier;
+- (void)NLROUTERDECISIONSOURCE_MINI_MOUSE_MODEL;
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaUEILaunchEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUEILaunchStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

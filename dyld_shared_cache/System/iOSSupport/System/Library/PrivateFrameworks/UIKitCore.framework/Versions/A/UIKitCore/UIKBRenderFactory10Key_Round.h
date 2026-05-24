@@ -12,21 +12,21 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets)}};
 - (_Bool);
 - (id);
-- (id);
-- (unsigned long long);
-- (long long);
-- (unsigned long long);
-- (id);
+- (id);
+- (unsigned long long)ch of messages we will write;
+- (long long)tionGroupName %@;
+- (unsigned long long)NicknameWallpaperMetadataTag;
+- (id)active;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)˟;
 - (struct UIEdgeInsets);
 
 @end

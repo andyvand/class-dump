@@ -6,15 +6,15 @@
 
 #import <SAObjects/SADomainCommand.h>
 
-@class NSNumber, SAPersonAttribute;
+@class SAPersonAttribute;
 
 @interface SAPhoneCall : SADomainCommand
 {
 }
 
 + (id);
-+ (id);
-- (_Bool);
++ (id)raph or Readout Nnet is supported;
+- (_Bool)L;
 - (void);
 - (void);
 - (void);
@@ -32,11 +32,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SAPersonAttribute *callRecipient;
-@property(copy, nonatomic) NSNumber *emergencyCall;
-@property(nonatomic) _Bool faceTime;
-@property(nonatomic) _Bool faceTimeAudio;
-@property(nonatomic) _Bool handsFreeCall;
-@property(nonatomic) _Bool speakerphoneCall;
 
 @end
 

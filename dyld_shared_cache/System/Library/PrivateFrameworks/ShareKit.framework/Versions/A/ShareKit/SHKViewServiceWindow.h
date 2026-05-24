@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface SHKViewServiceWindow
 {
     _Bool _canSetFirstResponder;
-    NSResponder *_cachedFirstResponder;
 }
 
 - (void);
@@ -19,11 +18,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSResponder *cachedFirstResponder; // @synthesize cachedFirstResponder=_cachedFirstResponder;
-@property(nonatomic) _Bool canSetFirstResponder; // @synthesize canSetFirstResponder=_canSetFirstResponder;
 
 @end
 

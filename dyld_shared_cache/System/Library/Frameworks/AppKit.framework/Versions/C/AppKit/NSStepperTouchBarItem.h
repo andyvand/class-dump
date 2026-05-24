@@ -6,14 +6,11 @@
 
 #import <AppKit/NSTouchBarItem.h>
 
-@class NSString, _NSStepperTouchBarItemView;
+@class _NSStepperTouchBarItemView;
 
 @interface NSStepperTouchBarItem : NSTouchBarItem
 {
     _NSStepperTouchBarItemView *_stepperView;
-    id target;
-    SEL action;
-    NSString *_customizationLabel;
 }
 
 + (id);

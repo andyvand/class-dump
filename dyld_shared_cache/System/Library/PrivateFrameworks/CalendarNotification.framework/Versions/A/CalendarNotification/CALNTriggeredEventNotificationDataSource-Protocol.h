@@ -4,9 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CALNTriggeredEventNotificationInfo;
 @protocol CALNTriggeredEventNotificationDataSourceDelegate;
 
 @protocol CALNTriggeredEventNotificationDataSource
+- (CALNTriggeredEventNotificationInfo *);
+- (void)@@9;
+- (void);
+- (void)So17OS_dispatch_queueC;
+- (void)@;
 
 // Remaining properties
 @property(nonatomic) __weak id <CALNTriggeredEventNotificationDataSourceDelegate> delegate;

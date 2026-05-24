@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface PrivacyProxyServiceStatusTime
 {
     unsigned long long _serviceStatus;
-    NSDate *_serviceStatusStartTime;
-    NSDate *_serviceStatusEndTime;
 }
 
-+ (_Bool);
-- (void);
++ (_Bool): /* Error: Ran out of types for this method. */;
+- (void)�	;
 - (void);
 - (id);
 - (id);
@@ -25,13 +21,11 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
-- (id)reeUserTierUntilTomorrow:(int)arg1 completionHandler:(unsigned long long)arg2;
+- (void)shouldAggregate;
+- (id)setFreeUserTierUntilTomorrow:(int)arg1 completionHandler:(unsigned long long)arg2;
 
 // Remaining properties
 @property unsigned long long serviceStatus; // @synthesize serviceStatus=_serviceStatus;
-@property(retain) NSDate *serviceStatusEndTime; // @synthesize serviceStatusEndTime=_serviceStatusEndTime;
-@property(retain) NSDate *serviceStatusStartTime; // @synthesize serviceStatusStartTime=_serviceStatusStartTime;
 
 @end
 

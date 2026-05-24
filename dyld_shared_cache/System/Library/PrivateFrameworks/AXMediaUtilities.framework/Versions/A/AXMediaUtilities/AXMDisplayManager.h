@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXMDisplay, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface AXMDisplayManager
 {
     NSObject<OS_dispatch_queue> *_queue;
-    AXMDisplay *_queue_CoreAnimationMainDisplay;
-    AXMDisplay *_queue_FrontBoardMainDisplay;
-    _Bool _initialized;
-    double _mobileGestaltOrientation;
 }
 
 - (void);
-- (double);
+- (double)E\|;
+- (id)\|;
 - (id);
-- (id);
-- (id);
-- (id);
-- (long long);
+- (id);
+- (id)t;
+- (long long)t;
 - (void);
 - (id);
 - (id);
@@ -31,9 +27,6 @@
 ;
 
 // Remaining properties
-@property(readonly, nonatomic) AXMDisplay *coreAnimationMainDisplay;
-@property(readonly, nonatomic) AXMDisplay *frontBoardMainDisplay;
-@property(readonly, nonatomic) _Bool isInitialized;
 @property(nonatomic) double mobileGestaltOrientation; // @synthesize mobileGestaltOrientation=_mobileGestaltOrientation;
 
 @end

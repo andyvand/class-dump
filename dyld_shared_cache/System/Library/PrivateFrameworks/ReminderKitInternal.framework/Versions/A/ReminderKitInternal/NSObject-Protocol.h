@@ -7,15 +7,20 @@
 @class NSString;
 
 @protocol NSObject
+- (Class)32@0:8@?16@?24 /* Error: Ran out of types for this method. */;
+- (id)24@32;
+- (id)16@24^Q32^Q40@48^@56;
+- (id)24B32;
+- (id)v40@0:(SEL)arg1 8@16@24r*32;
+- (Class)cdata_iter=^{kcdata_item}^v}16;
+- (unsigned long long)SYSTEM_FLORIDA_StarMetro_Bus;
+- (_Bool);
 - (struct _NSZone *);
 
-// Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
+@optional
+- (NSString *)"NSError">32;
 
-@property(readonly, copy) NSString *description;
+// Remaining properties
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

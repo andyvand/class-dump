@@ -6,14 +6,11 @@
 
 #import <SiriUI/SiriUIReusableFooterView.h>
 
-@class NSButton, NSImageView, NSStackView, NSTextField;
+@class NSButton;
 
 @interface SiriUIAttributedButtonFooterView : SiriUIReusableFooterView
 {
     NSButton *_containingButton;
-    NSStackView *_stackView;
-    NSTextField *_label;
-    NSImageView *_attributionIcon;
 }
 
 + (double);
@@ -25,25 +22,22 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)placeholderName;
 - (_Bool);
-- (id);
-- (_Bool);
-- (struct NSEdgeInsets);
-- (id);
-- (id);
-- (void);
+- (id)+;
+- (_Bool)ImageView",&,N,V_checkmark;
+- (struct NSEdgeInsets);
 - (id);
 - (id);
+- (void)*;
+- (id);
+- (id)_layoutFooterImageView;
 - (void);
 - (void);
 - (id)top"d"left"d"bottom"d"right"d};
 
 // Remaining properties
-@property(retain) NSImageView *attributionIcon; // @synthesize attributionIcon=_attributionIcon;
 @property(retain) NSButton *containingButton; // @synthesize containingButton=_containingButton;
-@property(retain) NSTextField *label; // @synthesize label=_label;
-@property(retain) NSStackView *stackView; // @synthesize stackView=_stackView;
 
 @end
 

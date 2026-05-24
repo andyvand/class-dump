@@ -6,19 +6,12 @@
 
 #import <UIKitCore/UITextInteraction.h>
 
-@class NSMapTable, NSString, NSTimer, _UIKeyboardIndirectTextSelectionGestureState, _UIKeyboardTextSelectionGestureController, _UIPanOrFlickGestureRecognizer, _UITouchesObservingGestureRecognizer;
+@class _UIKeyboardTextSelectionGestureController;
 
 __attribute__((visibility("hidden")))
 @interface _UIKeyboardTextSelectionInteraction : UITextInteraction
 {
     _UIKeyboardTextSelectionGestureController *_owner;
-    NSMapTable *_weakMap;
-    id _deallocToken;
-    _UITouchesObservingGestureRecognizer *_addedTouchRecognizer;
-    NSTimer *_touchPadTimer;
-    CDUnknownBlockType _touchPadTimerCompletion;
-    _UIPanOrFlickGestureRecognizer *_activePress;
-    _UIKeyboardIndirectTextSelectionGestureState *_previousRemoteGestureState;
 }
 
 + (void);
@@ -29,27 +22,28 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (long long);
+- (void)琊O;
+- (void)MTL4CommandAllocator>"32@0:(id)arg1 8@"MTL4CommandAllocatorDescriptor"16^@24;
+- (long long)SSL3_ADD_CERT_TO_BUF;
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)frameWriterUpdateCallback;
 - (double);
-- (void);
-- (void);
+- (void)does not have a status;
+- (void)sparseContext;
 - (void);
 - (struct CGPoint);
-- (void);
-- (void);
-- (void);
+- (void)customDataType;
+- (void)ybackQueueCommand;
+- (void)ontroller invalidated.;
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)
+k;
 - (struct CGPoint);
 - (void);
 - (void);
@@ -69,29 +63,29 @@ __attribute__((visibility("hidden")))
 °!PFùfÐ1Â0@ù
 × ;
 - (void)on"b1"sessionSupportsSystemDrag"b1"customSpringAnimationBehaviorForCancellingItem"b1"sessionPropertiesForSession"b1"itemsForAddingToSessionAsync"b1"itemsForAddingToSession3D"b1"sessionForAddingItems3D"b1"dynamicallyUpdatesPrefersFullSizePreviews"b1"shouldBecomeDraggingSourceDelegate"b1"delayForLiftBeginningAtLocation"b1};
-- (void)fications;
-- (void)cutionToMainThreadWithTask: /* Error: Ran out of types for this method. */;
-- (void);
-- (void)ObjectIdenticalTo:(id)arg1;
-- (void)llbackInteractions;
-- (struct CGPoint)is;
-- (void)GestureRecognizer:shouldInteractAtLocation:withEvent: /* Error: Ran out of types for this method. */;
-- (void)l:(struct CGPoint)arg1 atIndexPath:(id)arg2;
-- (void)nuElement;
-- (id)oadInputAccessoryViewsOnAppearance;
-- (void)reviousInputViewSize;
-- (void)h:(id)arg1 withFont:minFontSize:actualFontSize:lineBreakMode:baselineAdjustment: /* Error: Ran out of types for this method. */;
-- (_Bool)animatingOutDynamicShadow;
+- (void)unregisterForRemoteNotifications;
+- (void)transferExecutionToMainThreadWithTask: /* Error: Ran out of types for this method. */;
+- (void)shapeConvertedFromCoordinateSpace:(struct CGPoint)arg1 toCoordinateSpace:(id)arg2;
+- (void)removeObjectIdenticalTo:(id)arg1;
+- (void)fallbackInteractions;
+- (struct CGPoint)exclusiveDirectionalAxis;
+- (void)dismissalGestureRecognizer:shouldInteractAtLocation:withEvent: /* Error: Ran out of types for this method. */;
+- (void)_updateTopSeparatorForCell:(struct CGPoint)arg1 atIndexPath:(id)arg2;
+- (void)_sourceUIMenuElement;
+- (id)_shouldLoadInputAccessoryViewsOnAppearance;
+- (void)_previousInputViewSize;
+- (void)_legacy_drawAtPoint:(id)arg1 forWidth:withFont:minFontSize:actualFontSize:lineBreakMode:baselineAdjustment: /* Error: Ran out of types for this method. */;
+- (_Bool)_animatingOutDynamicShadow;
 - (void)ultPrevented,V_defaultPrevented;
 - (void)ControllerPalette",&,N,V_incomingTopPalette;
-- (void);
-- (void)rEffect;
+- (void)UIHBDownGestureRecognizer;
+- (void)_UINoBlurEffect;
 - (id);
 - (_Bool)re are only %ld rows in this section of the table view.;
 - (void)orm != NULL;
 - (void)IInputViewSetPlacementInvisibleForFloatingTransition placementWithPlacement:(id)arg1 forFloatingAssistantViewTransition:] /* Error: Ran out of types for this method. */;
 - (id)te.;
-- (void);
+- (void)auxillaryRangeIndexerKindDict;
 - (void)ect(id<UIFocusEnvironment>  _Nonnull __strong, id<UIFocusItemContainer>  _Nonnull __strong, CGRect);
 - (void);
 - (void)G;
@@ -100,13 +94,7 @@ __attribute__((visibility("hidden")))
 - (void)a;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

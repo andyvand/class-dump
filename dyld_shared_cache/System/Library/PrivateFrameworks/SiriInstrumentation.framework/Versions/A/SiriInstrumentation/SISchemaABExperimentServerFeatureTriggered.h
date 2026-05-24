@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface SISchemaABExperimentServerFeatureTriggered : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_turnId;
-    NSString *_experimentId;
-    _Bool _hasTurnId;
-    _Bool _hasExperimentId;
 }
 
 - (void);
@@ -22,27 +19,23 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (_Bool);
+- (void)arrayWithCapacity:(_Bool)arg1;
+- (_Bool)AOSUIProfileViewRootViewController;
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)teSmartGroupCommand.m;
+- (_Bool)m.did_notify_recipient, m.date_retracted, m.date_edited, m.date_recovered, m.was_detonated, m.part_count, m.is_stewie, m.is_sos, m.is_critical, m.bia_reference_id, m.is_kt_verified, m.fallback_hash, m.associated_message_emoji, m.is_pending_satellite_send, m.needs_relay, m.schedule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id, m.index_state FROM message m  INNER JOIN chat_message_join cm ON cm.message_id = m.rowid  INNER JOIN chat c ON c.ROWID = cm.chat_id  WHERE m.schedule_type == 2  AND (m.schedule_state == 1 OR m.schedule_state == 2)  ORDER BY cm.message_date ASC LIMIT ?;
 - (id);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)setUserReportedResponseDeviceDistance:(id)arg1;
 - (id)connectionEstablishmentProtocolsAtIndex:(id)arg1;
 - (id)Epoch;
-- (void)NCE_USERUTTERANCE;
+- (void)LRDATAPROVENANCE_USERUTTERANCE;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *experimentId; // @synthesize experimentId=_experimentId;
-@property(nonatomic) _Bool hasExperimentId; // @synthesize hasExperimentId=_hasExperimentId;
-@property(nonatomic) _Bool hasTurnId; // @synthesize hasTurnId=_hasTurnId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *turnId; // @synthesize turnId=_turnId;
 
 @end

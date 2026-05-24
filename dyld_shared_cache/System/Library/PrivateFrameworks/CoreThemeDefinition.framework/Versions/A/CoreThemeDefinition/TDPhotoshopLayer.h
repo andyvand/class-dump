@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TDPhotoshopRenditionSpec;
+@class NSString;
 
 @interface TDPhotoshopLayer
 {
@@ -13,10 +13,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) TDPhotoshopLayer *childLayer; // @dynamic childLayer;
 @property(retain, nonatomic) NSString *name; // @dynamic name;
-@property(retain, nonatomic) TDPhotoshopLayer *parentLayer; // @dynamic parentLayer;
-@property(retain, nonatomic) TDPhotoshopRenditionSpec *rendition; // @dynamic rendition;
 
 @end
 

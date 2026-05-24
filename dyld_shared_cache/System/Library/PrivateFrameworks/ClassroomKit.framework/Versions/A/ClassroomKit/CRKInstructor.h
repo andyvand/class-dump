@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DMFControlSessionIdentifier, NSData, NSDictionary, NSString;
+@class DMFControlSessionIdentifier;
 
 @interface CRKInstructor
 {
     _Bool _disallowsClassroomAirDropOverLocalNetwork;
-    _Bool _allowsStudentInitiatedDisconnection;
-    _Bool _observingStudentScreen;
-    DMFControlSessionIdentifier *_sessionIdentifier;
-    NSString *_userIdentifier;
-    NSString *_displayName;
-    NSString *_courseName;
-    NSData *_imageData;
 }
 
 + (_Bool);
@@ -34,25 +27,17 @@
 - (void);
 - (id);
 - (id);
+- (void);
+- (void);
+- (_Bool)|;
+- (id)searchConnection: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)stagedIdentityPersistentId;
 - (id)lic}@;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsStudentInitiatedDisconnection; // @synthesize allowsStudentInitiatedDisconnection=_allowsStudentInitiatedDisconnection;
-@property(copy, nonatomic) NSString *courseName; // @synthesize courseName=_courseName;
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryValue;
-@property(nonatomic) _Bool disallowsClassroomAirDropOverLocalNetwork; // @synthesize disallowsClassroomAirDropOverLocalNetwork=_disallowsClassroomAirDropOverLocalNetwork;
-@property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(retain, nonatomic) NSData *imageData; // @synthesize imageData=_imageData;
-@property(nonatomic, getter=isObservingStudentScreen) _Bool observingStudentScreen; // @synthesize observingStudentScreen=_observingStudentScreen;
 @property(copy, nonatomic) DMFControlSessionIdentifier *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
-@property(copy, nonatomic) NSString *userIdentifier; // @synthesize userIdentifier=_userIdentifier;
 
 @end
 

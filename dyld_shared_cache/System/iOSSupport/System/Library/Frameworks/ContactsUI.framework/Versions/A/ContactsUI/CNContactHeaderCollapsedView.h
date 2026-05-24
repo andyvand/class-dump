@@ -6,17 +6,11 @@
 
 #import <ContactsUI/CNContactHeaderView.h>
 
-@class CAGradientLayer, CNContactActionsContainerView, CNContactFormatter, NSString, UIView;
+@class UIView;
 
 @interface CNContactHeaderCollapsedView : CNContactHeaderView
 {
     _Bool _usesBrandedCallFormat;
-    CNContactFormatter *_contactFormatter;
-    NSString *_alternateName;
-    CNContactActionsContainerView *_actionsWrapperView;
-    UIView *_gradientLayerContainerView;
-    CAGradientLayer *_backgroundGradientLayer;
-    double _labelsHeight;
 }
 
 + (id);
@@ -25,19 +19,19 @@
 - (_Bool);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)k"*;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
+- (double)hH;
 - (id);
 - (id);
 - (void);
@@ -49,7 +43,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)YzA;
 - (unsigned long long);
 - (void);
 - (void);
@@ -66,13 +60,7 @@
 - (void)¬ÕUW;
 
 // Remaining properties
-@property(retain, nonatomic) CNContactActionsContainerView *actionsWrapperView; // @synthesize actionsWrapperView=_actionsWrapperView;
-@property(retain, nonatomic) NSString *alternateName; // @synthesize alternateName=_alternateName;
-@property(retain, nonatomic) CAGradientLayer *backgroundGradientLayer; // @synthesize backgroundGradientLayer=_backgroundGradientLayer;
-@property(retain, nonatomic) CNContactFormatter *contactFormatter; // @synthesize contactFormatter=_contactFormatter;
 @property(retain, nonatomic) UIView *gradientLayerContainerView; // @synthesize gradientLayerContainerView=_gradientLayerContainerView;
-@property(nonatomic) double labelsHeight; // @synthesize labelsHeight=_labelsHeight;
-@property(nonatomic) _Bool usesBrandedCallFormat; // @synthesize usesBrandedCallFormat=_usesBrandedCallFormat;
 
 @end
 

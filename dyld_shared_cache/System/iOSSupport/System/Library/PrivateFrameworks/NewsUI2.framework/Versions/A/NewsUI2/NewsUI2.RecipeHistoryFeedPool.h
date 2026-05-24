@@ -7,7 +7,6 @@
 @interface NewsUI2.RecipeHistoryFeedPool
 {
     id recipeHistoryItems;
-    id remainingRecipeIDs;
 }
 
 @end

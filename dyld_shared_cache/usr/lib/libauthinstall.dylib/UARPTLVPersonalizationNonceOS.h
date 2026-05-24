@@ -22,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)startShowingContentFromSourcePlayerLayer: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 

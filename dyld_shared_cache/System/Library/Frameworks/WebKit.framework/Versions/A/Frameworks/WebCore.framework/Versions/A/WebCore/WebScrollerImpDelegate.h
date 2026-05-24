@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface WebScrollerImpDelegate
 {
     struct WeakPtr<WebCore::Scrollbar, WTF::SingleThreadWeakPtrImpl, WTF::RawPtrTraits<WTF::SingleThreadWeakPtrImpl>> _scrollbar;
-    struct RetainPtr<WebScrollbarPartAnimation> _knobAlphaAnimation;
-    struct RetainPtr<WebScrollbarPartAnimation> _trackAlphaAnimation;
-    struct RetainPtr<WebScrollbarPartAnimation> _uiStateTransitionAnimation;
-    struct RetainPtr<WebScrollbarPartAnimation> _expansionTransitionAnimation;
 }
 
 - (void);
@@ -22,16 +16,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
+- (void)	;
 - (void);
-- (void);
-- (void);
+- (void)c;
 - (void);
 - (struct CGPoint);
 - (id);
+- (struct CGRect)9`";
+- (struct CGRect)qA;
 - (struct CGRect);
-- (struct CGRect);
-- (struct CGRect);
-- (void);
+- (void)i;
 - (id);
 - (id)echnique­ævÔóðç«èç]çïh>àkì
 @Cg"á<¯våèpGògà®à{uôèp:ioî
@@ -59,13 +53,7 @@ nioîè2õmáèhô
 pÝ]Æmuzâìo¬tubåð¹tpornoðéõîíqýmydesi²ðÞ'erogiäðâÄáðÙhåïªT91shåîõá­		l«Ób4Éa;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -10,12 +10,12 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
++ (id)h;
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-- (id);
+- (id);
 
 @end
 

@@ -4,35 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSError, NSMutableArray, NSMutableDictionary, NSObject, TSUZipWriterEntry;
-@protocol OS_dispatch_data, OS_dispatch_queue, OS_dispatch_semaphore, TSURandomWriteChannel;
-
 __attribute__((visibility("hidden")))
 @interface TSUZipWriter
 {
     unsigned long long _options;
-    NSObject<OS_dispatch_queue> *_channelQueue;
-    id <TSURandomWriteChannel> _writeChannel;
-    NSObject<OS_dispatch_semaphore> *_writeChannelCompletionSemaphore;
-    NSMutableArray *_entries;
-    NSArray *_sortedEntries;
-    NSMutableDictionary *_entriesMap;
-    TSUZipWriterEntry *_currentEntry;
-    _Bool _isClosed;
-    _Bool _calculateSize;
-    _Bool _force32BitSize;
-    _Bool _calculateCRC;
-    unsigned long long _sizeToMatch;
-    unsigned int _CRCToMatch;
-    NSDate *_lastModificationDateIfSizeAndCRCMatches;
-    NSDate *_newEntryLastModificationDate;
-    long long _currentOffset;
-    NSObject<OS_dispatch_data> *_localFileHeaderData;
-    NSMutableArray *_entryDatas;
-    unsigned long long _entryDataSize;
-    NSObject<OS_dispatch_queue> *_writeQueue;
-    long long _writtenOffset;
-    NSError *_error;
 }
 
 - (void);
@@ -51,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -63,7 +38,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)G;
 - (void);
 - (void);
 - (unsigned long long);
@@ -90,9 +65,6 @@ border-color:#DDDDDD;
 
 // Remaining properties
 @property(readonly) unsigned long long archiveLength;
-@property(readonly) unsigned long long entriesCount;
-@property(readonly) _Bool isClosed;
-@property(readonly) NSArray *sortedEntries;
 
 @end
 

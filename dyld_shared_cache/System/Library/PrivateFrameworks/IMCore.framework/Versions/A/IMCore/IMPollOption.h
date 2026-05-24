@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString;
+@class NSString;
 
 @interface IMPollOption
 {
     void optionIdentifier;
-    void pollText;
-    NSAttributedString *attributedPollText;
 }
 
+- (id)ed for _sessionID='%d', participantID='%@', transactionID='%@', messageType='%d';
+- (id)ntent filter;
+- (id)orkQualityDegradedMessage message is nil;
+- (id)@(%p) Unable to negotiate oneToOne data with participant=%p;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void)tifier;
+- (void)conversationIdentifier;
 
 // Remaining properties
-@property(nonatomic, readonly) NSAttributedString *attributedPollText; // @synthesize attributedPollText;
 @property(nonatomic, readonly) NSString *optionIdentifier;
-@property(nonatomic, readonly) NSString *pollText;
 
 @end
 

@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SCRCGestureFinger;
-
 @interface SCRCGestureEvent
 {
     unsigned long long _deviceIdentifier;
-    SCRCGestureFinger *_finger[8];
-    unsigned long long _fingerCount;
-    struct CGPoint _averageLocation;
-    double _time;
 }
 
 - (void);
@@ -34,7 +28,7 @@
 - (double);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)performSelector:withObject:withObject: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) double time; // @synthesize time=_time;

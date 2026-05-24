@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVOutputContext;
 @protocol AVRoutePickerViewRemoteViewControllerDelegate;
 
 __attribute__((visibility("hidden")))
@@ -13,31 +12,27 @@ __attribute__((visibility("hidden")))
     id <AVRoutePickerViewRemoteViewControllerDelegate> _delegate;
 }
 
-+ (void);
++ (void)Ս;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)*;
+- (void)M;
 - (void);
 - (_Bool);
 - (_Bool);
 - (long long);
 - (id);
-- (void);
+- (void)countByEnumeratingWithState:(id)arg1 objects:count: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (id)¡$!Bù­ Ð1Â0@ù
 × ;
 - (id)dl|;
-- (void)er;
+- (void)AVObservationController;
 
 // Remaining properties
 @property(nonatomic) __weak id <AVRoutePickerViewRemoteViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) AVOutputContext *outputContext;
-@property(nonatomic) _Bool prioritizesVideoDevices;
-@property(nonatomic) _Bool revealsAllRoutes;
-@property(nonatomic) long long routingMethod;
 
 @end
 

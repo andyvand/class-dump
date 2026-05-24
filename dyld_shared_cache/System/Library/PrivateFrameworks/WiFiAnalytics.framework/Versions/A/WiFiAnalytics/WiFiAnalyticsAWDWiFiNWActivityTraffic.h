@@ -7,11 +7,6 @@
 @interface WiFiAnalyticsAWDWiFiNWActivityTraffic
 {
     unsigned long long _value;
-    int _traffic;
-    struct {
-        unsigned int value:1;
-        unsigned int traffic:1;
-    } _has;
 }
 
 - (id);
@@ -19,26 +14,23 @@
 - (_Bool);
 - (int);
 - (void);
-- (id);
+- (id)ot supporting CSL {account:%{public}@} /* Error: Ran out of types for this method. */;
 - (void);
 - (int);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)een;
 - (void);
-- (_Bool);
+- (_Bool)@;
 - (void);
-- (void);
-- (id);
+- (void)kCMSwimDataCodingKeyStrokeCount;
+- (id)OverrideMotionCapEclipseService;
 - (unsigned long long);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasTraffic;
 @property(nonatomic) _Bool hasValue;
-@property(nonatomic) int traffic; // @synthesize traffic=_traffic;
-@property(nonatomic) unsigned long long value; // @synthesize value=_value;
 
 @end
 

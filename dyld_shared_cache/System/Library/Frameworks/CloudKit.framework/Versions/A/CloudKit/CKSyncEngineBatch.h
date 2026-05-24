@@ -9,35 +9,25 @@
 @interface CKSyncEngineBatch
 {
     _Bool _atomic;
-    _Bool _customBatch;
-    NSArray *_recordsToSave;
-    NSArray *_recordIDsToDelete;
-    NSArray *_savedRecords;
-    NSArray *_deletedRecordIDs;
 }
 
 + (void)'t supported in this process;
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)putePipelineDescriptor"16;
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void)ncryptedDate;
+- (void)CKEncryptedDate;
 - (void)age verificationKey:(_Bool)arg1 %@;
 - (id)ÿÿø¢ÿÿ¨¢ÿÿ£ÿÿ;
-- (id)dices;
+- (id)Indices;
 
 // Remaining properties
-@property(getter=isAtomic) _Bool atomic; // @synthesize atomic=_atomic;
-@property(getter=isCustomBatch) _Bool customBatch; // @synthesize customBatch=_customBatch;
-@property(copy) NSArray *deletedRecordIDs; // @synthesize deletedRecordIDs=_deletedRecordIDs;
-@property(readonly, copy) NSArray *recordIDsToDelete; // @synthesize recordIDsToDelete=_recordIDsToDelete;
-@property(readonly, copy) NSArray *recordsToSave; // @synthesize recordsToSave=_recordsToSave;
 @property(copy) NSArray *savedRecords; // @synthesize savedRecords=_savedRecords;
 
 @end

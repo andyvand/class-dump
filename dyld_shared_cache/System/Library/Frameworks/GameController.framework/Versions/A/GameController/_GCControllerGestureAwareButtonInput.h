@@ -6,26 +6,11 @@
 
 #import <GameController/GCControllerButtonInput.h>
 
-@class NSMutableArray, _GCSetValueEvent;
+@class NSMutableArray;
 
 @interface _GCControllerGestureAwareButtonInput : GCControllerButtonInput
 {
     NSMutableArray *_doublePressEventQueue;
-    _GCSetValueEvent *_longPressDownEvent;
-    _GCSetValueEvent *_singlePressDownEvent;
-    float _realValue;
-    int _requiredDoublePressCount;
-    _Bool _longPressMuted;
-    _Bool _doublePressMuted;
-    _Bool _singlePressMuted;
-    _Bool _enabled;
-    float _longPressInterval;
-    float _singlePressInterval;
-    float _doublePressInterval;
-    long long _preferredSystemGestureState;
-    CDUnknownBlockType _longPressHandler;
-    CDUnknownBlockType _doublePressHandler;
-    CDUnknownBlockType _singlePressHandler;
 }
 
 - (float);
@@ -39,26 +24,26 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (long long);
 - (float);
 - (CDUnknownBlockType);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (float);
-- (CDUnknownBlockType);
+- (float)M;
+- (CDUnknownBlockType)<;
 - (long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)7Ќ;
 - (void);
 - (void);
 - (void);
@@ -66,16 +51,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType doublePressHandler; // @synthesize doublePressHandler=_doublePressHandler;
-@property(nonatomic) float doublePressInterval; // @synthesize doublePressInterval=_doublePressInterval;
-@property(nonatomic, getter=isDoublePressMuted) _Bool doublePressMuted; // @synthesize doublePressMuted=_doublePressMuted;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(copy, nonatomic) CDUnknownBlockType longPressHandler; // @synthesize longPressHandler=_longPressHandler;
 @property(nonatomic) float longPressInterval; // @synthesize longPressInterval=_longPressInterval;
-@property(nonatomic, getter=isLongPressMuted) _Bool longPressMuted; // @synthesize longPressMuted=_longPressMuted;
-@property(copy, nonatomic) CDUnknownBlockType singlePressHandler; // @synthesize singlePressHandler=_singlePressHandler;
-@property(nonatomic) float singlePressInterval; // @synthesize singlePressInterval=_singlePressInterval;
-@property(nonatomic, getter=isSinglePressMuted) _Bool singlePressMuted; // @synthesize singlePressMuted=_singlePressMuted;
 
 @end
 

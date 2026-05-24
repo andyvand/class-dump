@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, SMSystem_Daemon_Windows;
+@class NSString, SMSystem_Daemon_Windows;
 
 @interface SMSystem_FileManager_Windows
 {
     NSString *productVersion;
-    NSString *buildVersion;
-    NSURL *userContentRoot;
-    NSURL *userHomeRoot;
-    SMSystem_Daemon_Windows *_system;
 }
 
 - (_Bool);
@@ -21,7 +17,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (_Bool);
 - (id);
@@ -29,20 +25,14 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)_RAPFlowType;
 - (id);
 - (void);
-- (id)e: /* Error: Ran out of types for this method. */;
+- (id)setGidTranslationTable: /* Error: Ran out of types for this method. */;
 - (void)ie;
 
 // Remaining properties
-@property(readonly) NSString *buildVersion; // @synthesize buildVersion;
-@property(readonly, getter=isFileSystemReady) _Bool fileSystemReady;
-@property(readonly) NSString *productVersion; // @synthesize productVersion;
-@property(readonly) NSURL *slash;
 @property(retain) SMSystem_Daemon_Windows *system; // @synthesize system=_system;
-@property(readonly) NSURL *userContentRoot; // @synthesize userContentRoot;
-@property(readonly) NSURL *userHomeRoot; // @synthesize userHomeRoot;
 
 @end
 

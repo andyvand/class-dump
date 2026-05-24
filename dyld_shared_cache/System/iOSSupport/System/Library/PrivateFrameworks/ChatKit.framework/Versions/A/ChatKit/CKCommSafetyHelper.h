@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
++ (_Bool)MSo9NSRunLoopCGAIGGSo6ICNoteCGGSo0aB2IDCGSo17OS_dispatch_queueCG;
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)GGSo6ICNoteCGGSo0aB2IDCG;
 + (id);
 
 @end

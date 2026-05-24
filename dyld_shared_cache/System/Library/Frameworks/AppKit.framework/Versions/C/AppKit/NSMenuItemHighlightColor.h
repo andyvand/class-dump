@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (id);
+- (id)checked_sessionDidBecomeInvalidWithError;
+- (id)checked_needNewBodyStreamFromOffset;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id)lDistance:(struct _NSZone *)arg1 desiredDistanceIntoContainer:selectionAffinity: /* Error: Ran out of types for this method. */;
+- (id)_rangeForMoveDownFromRange:(struct _NSZone *)arg1 verticalDistance:desiredDistanceIntoContainer:selectionAffinity: /* Error: Ran out of types for this method. */;
 - (void)lÜÊÿY=¨=C;
 - (void),TD;
 - (id)TÁdÿ;

@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUUID, SPBeaconRole, SPDiscoveredAccessoryProductInformation, SPRawAccessoryMetadata;
+@class NSUUID;
 
 @interface SPCertificationAssistantBeacon
 {
     NSUUID *_identifier;
-    NSString *_name;
-    NSString *_model;
-    NSString *_systemVersion;
-    SPBeaconRole *_role;
-    NSString *_type;
-    long long _vendorId;
-    long long _productId;
-    NSDictionary *_taskInformation;
-    SPDiscoveredAccessoryProductInformation *_accessoryProductInfo;
-    SPRawAccessoryMetadata *_rawMetadata;
 }
 
 - (void);
@@ -34,11 +24,11 @@
 - (void);
 - (long long);
 - (id);
-- (long long);
+- (long long);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)bundleID:%@ to enabled:%@ in SharedWithYouApp Preferences /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (id);
 - (void);
@@ -47,17 +37,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) SPDiscoveredAccessoryProductInformation *accessoryProductInfo; // @synthesize accessoryProductInfo=_accessoryProductInfo;
 @property(copy, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSString *model; // @synthesize model=_model;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) long long productId; // @synthesize productId=_productId;
-@property(copy, nonatomic) SPRawAccessoryMetadata *rawMetadata; // @synthesize rawMetadata=_rawMetadata;
-@property(copy, nonatomic) SPBeaconRole *role; // @synthesize role=_role;
-@property(copy, nonatomic) NSString *systemVersion; // @synthesize systemVersion=_systemVersion;
-@property(copy, nonatomic) NSDictionary *taskInformation; // @synthesize taskInformation=_taskInformation;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
-@property(nonatomic) long long vendorId; // @synthesize vendorId=_vendorId;
 
 @end
 

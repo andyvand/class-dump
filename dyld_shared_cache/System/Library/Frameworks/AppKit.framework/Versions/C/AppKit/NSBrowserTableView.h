@@ -11,50 +11,47 @@
 @interface NSBrowserTableView : NSTableView
 {
     NSBrowserColumnViewController *_columnController;
-    unsigned int _shouldSuppressDropHighlight:1;
-    unsigned int _isColumnControllerRetained:1;
-    unsigned int _usePrimaryColorForSelection:1;
 }
 
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (void);
-- (id);
+- (_Bool)m"24@32;
+- (_Bool)backgroundTask:willBeginDelayedRequest:reply: /* Error: Ran out of types for this method. */;
+- (_Bool)_private_onqueue_didReceiveResponseDisposition:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (id)URLsForDirectory:inDomains: /* Error: Ran out of types for this method. */;
+- (unsigned long long)ertion failure;
+- (unsigned long long)ernative service header since it is not covered under the setting origin's certificate;
+- (unsigned long long)host (%@) to the select statement;
+- (void)ct statement;
+- (id). Falling back to memory storage;
 - (long long);
 - (id);
+- (void)_kCFNTimingDataNStatRXBytes;
+- (_Bool);
 - (void);
 - (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)?;
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
+- (void);
 - (void);
-- (void);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool);
 - (void);
 - (id);
 - (struct CGSize);
@@ -68,8 +65,6 @@
 
 // Remaining properties
 @property(readonly) NSBrowser *browser;
-@property(nonatomic) NSBrowserColumnViewController *columnController;
-@property(readonly) long long columnIndex;
 
 @end
 

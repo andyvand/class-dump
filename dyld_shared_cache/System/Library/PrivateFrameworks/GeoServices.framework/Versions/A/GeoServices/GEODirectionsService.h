@@ -14,12 +14,12 @@
 + (void);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool)A;
 + (id)¤X;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)udioPlayer.;
 - (void);
 - (id) : /* Error: Ran out of types for this method. */;
 

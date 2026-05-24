@@ -4,31 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPKBaseMatrix, CPKScrollEnclosureView, NSImage;
-
 __attribute__((visibility("hidden")))
 @interface CPKCategoriesView
 {
     long long _categoryCount;
-    CPKBaseMatrix *_fixedCategories;
-    CPKBaseMatrix *_scrollableCategories;
-    CPKScrollEnclosureView *_scrollEnclosure;
-    _Bool _enabled;
-    _Bool _isRTLLayout;
-    long long _separatorIndex;
-    long long _scrollerIndex;
-    long long _lastSelectedIndex;
-    NSImage *_nextPageIndicator;
-    NSImage *_prevPageIndicator;
-    NSImage *_dividerImage;
 }
 
 - (void);
 - (long long);
 - (id);
+- (void);
 - (void);
-- (void);
-- (long long);
+- (long long)q`;
 - (void);
 - (void);
 - (id);
@@ -44,7 +31,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 

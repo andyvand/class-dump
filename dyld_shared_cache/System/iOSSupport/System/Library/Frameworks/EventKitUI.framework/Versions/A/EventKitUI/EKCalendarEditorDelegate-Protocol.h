@@ -5,5 +5,8 @@
 //
 
 @protocol EKCalendarEditorDelegate
+
+@optional
+- (void)%s;
 @end
 

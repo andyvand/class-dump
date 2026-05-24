@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
-- (_Bool);
+- (void)har:(id)arg1;
+- (_Bool)8;
 - (id);
 - (void);
 

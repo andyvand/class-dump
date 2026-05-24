@@ -10,31 +10,15 @@ __attribute__((visibility("hidden")))
 @interface GEOPDPlaceCollectionFilter
 {
     PBUnknownFields *_unknownFields;
-    unsigned int _expectedResultCount;
-    _Bool _enableCollectionItemDescription;
-    _Bool _enableMediaLink;
-    _Bool _includePlaceCollectionItemPhotos;
-    _Bool _isCollectionView;
-    _Bool _overrideSuppress;
-    _Bool _partiallyClientize;
-    struct {
-        unsigned int has_expectedResultCount:1;
-        unsigned int has_enableCollectionItemDescription:1;
-        unsigned int has_enableMediaLink:1;
-        unsigned int has_includePlaceCollectionItemPhotos:1;
-        unsigned int has_isCollectionView:1;
-        unsigned int has_overrideSuppress:1;
-        unsigned int has_partiallyClientize:1;
-    } _flags;
 }
 
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)lds"b1"read_featureTypeResult"b1"read_featureTypeSource"b1"read_functionTypeDiscrete"b1"read_functionTypeLinear"b1"wrote_anyField"b1};
-- (id)etrics;
+- (id)_incompleteTaskMetrics;
 - (id)0;
 - (void){®G¡à³@;
 

@@ -8,10 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _UIScrollViewSimulatedGesture
 {
     double _simulationDuration;
-    double _beginTime;
-    CDUnknownBlockType _beginBlock;
-    CDUnknownBlockType _updateBlock;
-    CDUnknownBlockType _endBlock;
 }
 
 - (_Bool);

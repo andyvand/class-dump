@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void);
+- (void)addObserver:(id)arg1 selector:name:object: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (void)ntifier:handler: /* Error: Ran out of types for this method. */;
+- (void)actionWithTitle:image:identifier:handler: /* Error: Ran out of types for this method. */;
 - (id)bp|X#;
 
 // Remaining properties

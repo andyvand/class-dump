@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface UIAutonomousSingleAppModeConfiguration
 {
     NSMutableDictionary *_propertiesAsDictionary;
-    unsigned long long _style;
-    NSDictionary *_managedConfigurationSettings;
 }
 
 + (id);
 + (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool), loaded %@;
+- (void)params.;
+- (void)mage plugin payload attachment to disk.;
+- (void)ain %@) selected aliases %@;
+- (void)update:(_Bool)arg1 %@;
+- (void)@;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -37,13 +35,6 @@
 - (void)Ú§É¤ãi;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsAccessibilityShortcut;
-@property(nonatomic) _Bool allowsAutoLock;
-@property(nonatomic) _Bool allowsLockButton;
-@property(nonatomic) _Bool automaticallyRelaunchesAfterAppCrash;
-@property(retain, nonatomic) NSDictionary *managedConfigurationSettings; // @synthesize managedConfigurationSettings=_managedConfigurationSettings;
-@property(readonly, nonatomic) NSDictionary *propertiesAsDictionary;
-@property(nonatomic) _Bool showsUserConfirmationPromptsAndBanners;
 @property(nonatomic) unsigned long long style; // @synthesize style=_style;
 
 @end

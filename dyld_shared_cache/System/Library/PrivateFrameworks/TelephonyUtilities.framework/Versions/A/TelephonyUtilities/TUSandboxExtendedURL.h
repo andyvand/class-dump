@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface TUSandboxExtendedURL
 {
     int _pid;
-    NSURL *_URL;
-    NSString *_sandboxExtensionClass;
-    NSString *_sandboxExtensionToken;
-    long long _sandboxExtensionHandle;
 }
 
 + (_Bool);
@@ -20,7 +16,7 @@
 - (id);
 - (_Bool);
 - (char *);
-- (id);
+- (id)ntifierGeneric<WebCore:(id)arg1:(long long)arg2 WebLockIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, WebKit::LockRequest>>, HashFunctions = WTF::DefaultHash<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::WebLockIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>, Traits = WTF::HashMap<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::WebLockIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, WebKit::LockRequest>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::WebLockIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (int);
@@ -34,17 +30,13 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)@9;
 - (id);
 - (void);
-- (void)ssagesGroupName:onConversation: /* Error: Ran out of types for this method. */;
+- (void)updateMessagesGroupName:onConversation: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(nonatomic) int pid; // @synthesize pid=_pid;
-@property(copy, nonatomic) NSString *sandboxExtensionClass; // @synthesize sandboxExtensionClass=_sandboxExtensionClass;
-@property(nonatomic) long long sandboxExtensionHandle; // @synthesize sandboxExtensionHandle=_sandboxExtensionHandle;
-@property(copy, nonatomic) NSString *sandboxExtensionToken; // @synthesize sandboxExtensionToken=_sandboxExtensionToken;
 
 @end
 

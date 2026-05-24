@@ -9,8 +9,6 @@
 @interface Network.NWProtocolWebSocket.Options : Network._NWProtocolOptions
 {
     id autoReplyPing;
-    id maximumMessageSize;
-    id skipHandshake;
 }
 
 @end

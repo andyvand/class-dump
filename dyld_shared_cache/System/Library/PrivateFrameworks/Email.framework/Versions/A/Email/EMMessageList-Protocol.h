@@ -4,13 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPredicate, NSSet;
+@class EFFuture;
+@protocol EMCollectionItemID;
 
 @protocol EMMessageList
+- (_Bool);
+- (EFFuture *);
+- (id <EMCollectionItemID>);
+- (_Bool)UnmockedSwiftExtensions;
+- (void);
 
 // Remaining properties
-@property(readonly, copy) NSSet *expandedThreadItemIDs;
-@property(readonly, copy, nonatomic) NSPredicate *filterPredicate;
 @property(readonly, nonatomic) _Bool isThreaded;
 @end
 

@@ -11,7 +11,6 @@
 @interface MSVArtworkServiceResizeRequest : MSVArtworkServiceRequest
 {
     NSURL *_sourceURL;
-    NSMutableArray *_resizeDestinations;
 }
 
 + (_Bool);
@@ -26,12 +25,11 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *resizeDestinations; // @synthesize resizeDestinations=_resizeDestinations;
-@property(copy, nonatomic) NSURL *sourceURL; // @synthesize sourceURL=_sourceURL;
 
 @end
 

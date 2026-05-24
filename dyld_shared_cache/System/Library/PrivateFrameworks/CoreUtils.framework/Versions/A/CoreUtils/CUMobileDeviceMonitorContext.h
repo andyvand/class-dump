@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUMobileDevice, CUMobileDeviceDiscovery;
+@class CUMobileDevice;
 
 __attribute__((visibility("hidden")))
 @interface CUMobileDeviceMonitorContext
 {
     CUMobileDevice *_device;
-    CUMobileDeviceDiscovery *_discovery;
 }
 
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) CUMobileDevice *device; // @synthesize device=_device;
-@property(retain, nonatomic) CUMobileDeviceDiscovery *discovery; // @synthesize discovery=_discovery;
 
 @end
 

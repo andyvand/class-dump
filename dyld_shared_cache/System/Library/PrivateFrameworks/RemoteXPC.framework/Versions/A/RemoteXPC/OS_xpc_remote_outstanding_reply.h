@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface OS_xpc_remote_outstanding_reply
 {
     unsigned long long msg_id;
-    CDUnknownBlockType reply_handler;
-    NSObject<OS_dispatch_queue> *reply_queue;
-    OS_xpc_remote_outstanding_reply *link_stqe_next;
 }
 
-- (void);
+- (void)?;
 
 @end
 

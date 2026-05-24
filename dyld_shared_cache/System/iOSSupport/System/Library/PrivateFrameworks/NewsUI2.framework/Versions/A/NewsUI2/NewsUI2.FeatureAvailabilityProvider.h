@@ -7,53 +7,6 @@
 @interface NewsUI2.FeatureAvailabilityProvider
 {
     id appConfiguration;
-    id delegate;
-    id $__lazy_storage_$_interstellarEnabled;
-    id $__lazy_storage_$_appleMagazineContent;
-    id $__lazy_storage_$_narrativeAudio;
-    id $__lazy_storage_$_useNewsArticleSearch;
-    id $__lazy_storage_$_useContinueReading;
-    id $__lazy_storage_$_useNotificationsV2;
-    id $__lazy_storage_$_allowInAppMessages;
-    id $__lazy_storage_$_allowSharingAlways;
-    id $__lazy_storage_$_useMoreToReadEOA;
-    id $__lazy_storage_$_useMoreFromIssueEOA;
-    id $__lazy_storage_$_useMultipleNativeAds;
-    id $__lazy_storage_$_sportsNativeAdsEnabled;
-    id $__lazy_storage_$_inFeedDebugging;
-    id $__lazy_storage_$_puzzlesEnabled;
-    id $__lazy_storage_$_puzzlesGameCenterEnabled;
-    id $__lazy_storage_$_allowCIPBestOffer;
-    id $__lazy_storage_$_allowPaidBundleViaOffer;
-    id $__lazy_storage_$_allowSIWAOnMac;
-    id $__lazy_storage_$_configurableOffersEnabled;
-    id $__lazy_storage_$_useFineGrainedNewsletterManagement;
-    id $__lazy_storage_$_paidBundleViaOfferAllowPaywalls;
-    id $__lazy_storage_$_paidBundleViaOfferAllowSubscriptionsDeeplink;
-    id $__lazy_storage_$_paidBundleViaOfferAllowMastheadBanner;
-    id $__lazy_storage_$_paidBundleViaOfferAllowIconBadgeMercury;
-    id $__lazy_storage_$_paidBundleViaOfferAllowLocalNotification;
-    id $__lazy_storage_$_paidBundleViaOfferAllowUpsellEnabled;
-    id $__lazy_storage_$_paidBundleViaOfferAllowAppLaunchUpsellEnabled;
-    id $__lazy_storage_$_articleLinkBehaviorImprovementsEnabled;
-    id $__lazy_storage_$_liveActivitiesEnabled;
-    id $__lazy_storage_$_enableAIAttribution;
-    id $__lazy_storage_$_useOfflineMode;
-    id $__lazy_storage_$_dimNonSubscriberContentOffline;
-    id $__lazy_storage_$_foodEnabled;
-    id $__lazy_storage_$_recipeHistoryFeedEnabled;
-    id $__lazy_storage_$_recipeUnitConversionEnabled;
-    id $__lazy_storage_$_multipartRecipesEnabled;
-    id $__lazy_storage_$_recipeRatingsEnabled;
-    id $__lazy_storage_$_ingredientScalingEnabled;
-    id $__lazy_storage_$_recipeNotesEnabled;
-    id $__lazy_storage_$_imagesInStepsEnabled;
-    id $__lazy_storage_$_nutritionInfoEnabled;
-    id $__lazy_storage_$_widgetUpsellFeaturesEnabled;
-    id $__lazy_storage_$_useWelcomeSeries;
-    id $__lazy_storage_$_useSearchInArticle;
-    id $__lazy_storage_$_localOnboardingEnabled;
-    id $__lazy_storage_$_featurePromotionEnabled;
 }
 
 - (void);

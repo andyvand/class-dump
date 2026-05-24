@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAShapeLayer, CNAvatarView;
+@class CNAvatarView;
 
 __attribute__((visibility("hidden")))
 @interface CNContactGridClippingView
 {
     CNAvatarView *_avatarView;
-    CAShapeLayer *_actionsMaskLayer;
 }
 
-- (void);
+- (void)yux)	;
 - (void);
 - (_Bool);
 - (id);
@@ -23,9 +22,7 @@ __attribute__((visibility("hidden")))
 - (void)String",C,N,V_phoneticCountryName;
 
 // Remaining properties
-@property(retain, nonatomic) CAShapeLayer *actionsMaskLayer; // @synthesize actionsMaskLayer=_actionsMaskLayer;
 @property(nonatomic) __weak CNAvatarView *avatarView; // @synthesize avatarView=_avatarView;
-@property(nonatomic) _Bool masksToAvatar;
 
 @end
 

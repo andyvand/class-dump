@@ -7,7 +7,6 @@
 @interface PhotosUICore.PXSwiftUITungstenView.Coordinator
 {
     id _tungstenView;
-    id tapAction;
 }
 
 - (void);

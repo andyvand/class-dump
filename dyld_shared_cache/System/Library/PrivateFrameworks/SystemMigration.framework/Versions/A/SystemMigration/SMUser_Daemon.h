@@ -15,16 +15,14 @@
 
 - (id);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (Class);
-- (void);
+- (void)__DATA_CONST;
 
 // Remaining properties
-@property(readonly) Class clientClass;
-@property(retain) NSDictionary *sourceLongTermSystemIdentifier; // @synthesize sourceLongTermSystemIdentifier=_sourceLongTermSystemIdentifier;
 @property(readonly) SMSystem_Daemon *sourceSystem;
 
 @end

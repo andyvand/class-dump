@@ -24,7 +24,7 @@
 - (void);
 - (id);
 - (id);
-- (void)pTexture: /* Error: Ran out of types for this method. */;
+- (void)setInputSmallLinearLightMapTexture: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) PFParallaxColor *color; // @synthesize color=_color;

@@ -6,15 +6,10 @@
 
 #import <Foundation/NSXMLNode.h>
 
-@class NSMutableArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface NSXMLFidelityNode : NSXMLNode
 {
     unsigned long long _fidelity;
-    NSString *_whitespace;
-    NSMutableArray *_ranges;
-    NSMutableArray *_names;
 }
 
 + (id);
@@ -23,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (void);
 - (void);

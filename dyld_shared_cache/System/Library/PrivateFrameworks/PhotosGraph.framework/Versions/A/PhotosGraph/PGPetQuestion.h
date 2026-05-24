@@ -6,26 +6,19 @@
 
 #import <PhotosGraph/PGSurveyQuestion.h>
 
-@class NSDictionary, NSString;
-
 @interface PGPetQuestion : PGSurveyQuestion
 {
     unsigned short _state;
-    unsigned short _displayType;
-    unsigned short _entityType;
-    NSDictionary *_additionalInfo;
-    NSString *_entityIdentifier;
-    double _localFactoryScore;
 }
 
 - (double);
-- (id);
+- (id)setMenuBarOwningApplication:(id)arg1;
 - (unsigned short);
 - (id);
 - (unsigned short);
 - (unsigned short);
 - (unsigned short);
-- (id)hDirectoryURL;
+- (id)graphDirectoryURL;
 - (void);
 
 @end

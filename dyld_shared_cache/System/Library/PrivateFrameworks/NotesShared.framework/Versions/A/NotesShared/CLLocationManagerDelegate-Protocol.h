@@ -7,6 +7,14 @@
 @protocol CLLocationManagerDelegate
 
 @optional
+- (_Bool)avatarAndFavIconSize;
+- (void)attachmentSize;
+- (void);
+- (void)cacheResult;
+- (void)cacheResultProvider;
+- (void)levelStack;
+- (void)WFAggregateForecastResponse;
+- (void)String",R,N,V_path;
 - (void);
 @end
 

@@ -9,15 +9,12 @@
 @interface TSKSearch
 {
     _Bool _isComplete;
-    NSString *_string;
-    unsigned long long _options;
-    CDUnknownBlockType _hitBlock;
 }
 
 - (void);
 - (id);
 - (CDUnknownBlockType);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -26,9 +23,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType hitBlock; // @synthesize hitBlock=_hitBlock;
-@property(nonatomic) _Bool isComplete; // @synthesize isComplete=_isComplete;
-@property(nonatomic) unsigned long long options; // @synthesize options=_options;
 @property(copy, nonatomic) NSString *string; // @synthesize string=_string;
 
 @end

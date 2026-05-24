@@ -16,7 +16,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)ask:sourceMetadataURL:%{mask.hash}@, error:%@ /* Error: Ran out of types for this method. */;
 
 @end
 

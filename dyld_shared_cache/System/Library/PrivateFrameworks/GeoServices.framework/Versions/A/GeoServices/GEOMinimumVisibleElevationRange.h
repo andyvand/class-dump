@@ -9,46 +9,36 @@
 @interface GEOMinimumVisibleElevationRange
 {
     PBUnknownFields *_unknownFields;
-    int _lowerBoundCm;
-    int _upperBoundCm;
-    struct {
-        unsigned int has_lowerBoundCm:1;
-        unsigned int has_upperBoundCm:1;
-    } _flags;
 }
 
-+ (_Bool);
++ (_Bool)setHasTransactionLocationAge:(id)arg1;
 - (int);
 - (void);
 - (void);
 - (void);
 - (void);
 - (int);
-- (_Bool);
-- (_Bool);
+- (_Bool)shortDayMonthYearDateFormatterWithLocale: /* Error: Ran out of types for this method. */;
+- (_Bool)methodWithName:implementation:typeEncoding: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
+- (void)_cacheUserInfo;
 - (void);
-- (void);
-- (void);
+- (void)ion:(id)arg1 ]_block_invoke;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)ey=b32b8b6b8b8b1b57}{_GEOSputnikMetadataKey=b32b24b14b8b42}{_GEOFlyoverKey=b6b26b26b8b24b14b8b8}{_GEOTransitLineSelectionKey=b6b25b25b64}{_GEOPolygonSelectionKey=b6b25b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16@"_GEOSimpleTileRequesterOperation"32@"NSError"40;
-- (id)itPlaceCardTransitSystemName;
+- (id)hasPlaceCardPlaceActionDetailsTransitPlaceCardTransitSystemName;
 - (id)È8¯¬å;
 - (id)than ;
 - (void)ÿÂ¨;
 
 // Remaining properties
 @property(nonatomic) _Bool hasLowerBoundCm;
-@property(nonatomic) _Bool hasUpperBoundCm;
-@property(nonatomic) int lowerBoundCm;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) int upperBoundCm;
 
 @end
 

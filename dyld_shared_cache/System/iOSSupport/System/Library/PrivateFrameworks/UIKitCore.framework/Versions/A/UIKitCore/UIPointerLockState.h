@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIScene;
+@class UIScene;
 
 @interface UIPointerLockState
 {
@@ -12,7 +12,7 @@
     UIScene *_scene;
 }
 
-- (id);
+- (id)ring",&,N,V_chatIdentifier;
 - (void);
 - (void);
 - (_Bool);
@@ -24,15 +24,7 @@
 - (id)5¼ÿ#Û`¨j;
 
 // Remaining properties
-@property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene; // @synthesize _scene;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic, getter=isLocked) _Bool locked; // @dynamic locked;
-@property(readonly) Class superclass;
 
 @end
 

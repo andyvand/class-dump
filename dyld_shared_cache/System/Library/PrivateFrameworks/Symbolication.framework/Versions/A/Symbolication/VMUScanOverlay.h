@@ -15,8 +15,8 @@
 + (id);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)...set image file %@%@;
+- (void)_blockingViewType;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *refinementRules; // @synthesize refinementRules=_rules;

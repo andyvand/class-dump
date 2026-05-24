@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NFApplet, NSNumber, NSString;
+@class NFApplet, NSString;
 
 @interface NFDigitalCarKeyEndEvent
 {
     NSString *_appletIdentifier;
-    _Bool _didError;
-    unsigned int _result;
-    NFApplet *_applet;
-    NSString *_keyIdentifier;
-    NSNumber *_brandCode;
 }
 
 + (_Bool);
@@ -21,8 +16,8 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)S;
+- (id)<;
 - (id);
 - (id);
 - (id);
@@ -33,10 +28,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NFApplet *applet; // @synthesize applet=_applet;
-@property(readonly, nonatomic) NSNumber *brandCode; // @synthesize brandCode=_brandCode;
-@property(readonly, nonatomic) _Bool didError; // @synthesize didError=_didError;
-@property(readonly, nonatomic) NSString *keyIdentifier; // @synthesize keyIdentifier=_keyIdentifier;
-@property(readonly, nonatomic) unsigned int result; // @synthesize result=_result;
 
 @end
 

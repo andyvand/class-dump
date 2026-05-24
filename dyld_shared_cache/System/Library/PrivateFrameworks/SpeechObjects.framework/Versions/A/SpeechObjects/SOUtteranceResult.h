@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SOUtteranceResult
 {
     NSString *_type;
-    double _startTime;
-    double _endTime;
-    NSString *_text;
-    NSArray *_textVariants;
-    NSString *_commandIdentifier;
-    double _prependedSilenceDuration;
-    NSString *_audioFilePath;
-    double _creationDate;
 }
 
 - (id);
@@ -29,8 +21,8 @@
 - (id);
 - (void);
 - (id);
-- (double);
-- (id);
+- (double)$;
+- (id)�;
 - (double);
 - (id);
 - (id);
@@ -43,14 +35,6 @@
 - (void)oxButton",R,N,V_downloadCheckbox;
 
 // Remaining properties
-@property(retain) NSString *audioFilePath; // @synthesize audioFilePath=_audioFilePath;
-@property(retain) NSString *commandIdentifier; // @synthesize commandIdentifier=_commandIdentifier;
-@property double creationDate; // @synthesize creationDate=_creationDate;
-@property double endTime; // @synthesize endTime=_endTime;
-@property double prependedSilenceDuration; // @synthesize prependedSilenceDuration=_prependedSilenceDuration;
-@property double startTime; // @synthesize startTime=_startTime;
-@property(retain) NSString *text; // @synthesize text=_text;
-@property(retain) NSArray *textVariants; // @synthesize textVariants=_textVariants;
 @property(retain) NSString *type; // @synthesize type=_type;
 
 @end

@@ -6,15 +6,11 @@
 
 #import <KnowledgeGraphKit/MAFeatureExtractor.h>
 
-@class MAIndexCache, MARelation, NSString;
+@class MAIndexCache, NSString;
 
 @interface MARelationCollectionFeatureExtractor : MAFeatureExtractor
 {
     NSString *_name;
-    MAIndexCache *_featureNameIndexCache;
-    MARelation *_relation;
-    CDUnknownBlockType _labelForTargetBlock;
-    NSString *_labelForEmptyRelation;
 }
 
 - (CDUnknownBlockType);
@@ -23,16 +19,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id) ;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) MAIndexCache *featureNameIndexCache; // @synthesize featureNameIndexCache=_featureNameIndexCache;
-@property(readonly, nonatomic) NSString *labelForEmptyRelation; // @synthesize labelForEmptyRelation=_labelForEmptyRelation;
-@property(readonly, nonatomic) CDUnknownBlockType labelForTargetBlock; // @synthesize labelForTargetBlock=_labelForTargetBlock;
-@property(readonly, nonatomic) MARelation *relation; // @synthesize relation=_relation;
 
 @end
 

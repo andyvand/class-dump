@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _UIVectorTextLayoutInfo, _UIVectorTextLayoutParameters;
+@class NSArray, _UIVectorTextLayoutParameters;
 
 __attribute__((visibility("hidden")))
 @interface _UIVectorTextLayout
 {
     NSArray *_runs;
-    unsigned long long _numberOfLines;
-    struct CGRect _boundingRect;
-    struct CGRect _usedBoundingRect;
-    struct _NSRange _fitRange;
-    double _firstLineBaseline;
-    double _lastLineBaseline;
-    _UIVectorTextLayoutInfo *_layoutInfo;
-    struct CGAffineTransform _coordinateAdjustment;
 }
 
 - (struct CGRect);
@@ -36,21 +28,12 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)nimationBehavior;
 - (id);
-- (struct CGRect)n;
+- (struct CGRect)UICompositingModeSourceIn;
 - (void)¬;
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect boundingRect;
-@property(readonly, nonatomic) struct CGAffineTransform coordinateAdjustment; // @synthesize coordinateAdjustment=_coordinateAdjustment;
-@property(readonly, nonatomic) double firstLineBaseline;
-@property(readonly, nonatomic) double lastLineBaseline;
-@property(readonly, nonatomic) unsigned long long numberOfLines;
-@property(readonly, nonatomic) unsigned long long numberOfRuns;
 @property(readonly, copy, nonatomic) _UIVectorTextLayoutParameters *parameters;
-@property(readonly, nonatomic) struct CGSize size;
-@property(readonly, nonatomic) struct _NSRange textRange;
-@property(readonly, nonatomic) struct CGRect usedBoundingRect;
 
 @end
 

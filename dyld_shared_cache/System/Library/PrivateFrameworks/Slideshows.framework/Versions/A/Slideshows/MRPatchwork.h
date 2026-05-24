@@ -11,10 +11,10 @@
     NSMutableArray *_patches;
 }
 
+- (void)24@0:8Q16 /* Error: Ran out of types for this method. */;
+- (id)numberWithUnsignedInteger:(id)arg1;
 - (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (id);
 
 @end

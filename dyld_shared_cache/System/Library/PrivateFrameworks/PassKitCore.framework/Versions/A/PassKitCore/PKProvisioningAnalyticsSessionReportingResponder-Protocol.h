@@ -5,5 +5,9 @@
 //
 
 @protocol PKProvisioningAnalyticsSessionReportingResponder
+- (void);
+- (void)/;
+- (void)V;
+- (void));
 @end
 

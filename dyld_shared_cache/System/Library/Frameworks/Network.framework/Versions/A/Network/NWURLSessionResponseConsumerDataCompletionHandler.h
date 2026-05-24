@@ -4,41 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSURL, NSURLResponse, NWURLError;
-@protocol OS_dispatch_data;
+@class NSURLResponse;
 
 __attribute__((visibility("hidden")))
 @interface NWURLSessionResponseConsumerDataCompletionHandler
 {
     _Bool _hasCompleted;
-    CDUnknownBlockType _completionHandler;
-    NSURLResponse *_currentResponse;
-    NWURLError *_internalError;
-    NSObject<OS_dispatch_data> *_data;
 }
 
 - (void);
 - (void);
+- (id)!;
+- (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (id)SRemoteView _snapshot:] /* Error: Ran out of types for this method. */;
 - (long long);
 - (id);
 - (void)@;
 
 // Remaining properties
-@property(readonly) long long countOfBytesReceived;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSURL *downloadFileURL;
-@property(readonly) NWURLError *error;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSURLResponse *response;
-@property(readonly) Class superclass;
 
 @end
 

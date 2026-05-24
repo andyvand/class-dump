@@ -9,34 +9,28 @@
 @interface NAUITextStyleDescriptor
 {
     _Bool _allowsAccessibilitySizes;
-    _Bool _allowsSmallSizes;
-    unsigned int _symbolicTraits;
-    NSString *_textStyle;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)P;
 + (id);
 - (_Bool);
-- (id);
+- (id)\f;
 - (id);
 - (unsigned int);
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
-- (_Bool);
-- (id);
+- (id);
+- (_Bool);
+- (id)FStingWorkflow";
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsAccessibilitySizes; // @synthesize allowsAccessibilitySizes=_allowsAccessibilitySizes;
-@property(readonly, nonatomic) _Bool allowsSmallSizes; // @synthesize allowsSmallSizes=_allowsSmallSizes;
-@property(readonly, nonatomic) unsigned int symbolicTraits; // @synthesize symbolicTraits=_symbolicTraits;
 @property(readonly, copy, nonatomic) NSString *textStyle; // @synthesize textStyle=_textStyle;
 
 @end

@@ -10,15 +10,15 @@
 {
 }
 
-+ (id)_apple_mobilemail_LLMQUIntentAppointmentEvent;
++ (id)_com_apple_mobilemail_LLMQUIntentAppointmentEvent;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)4@0:8^{CGImage=}16 /* Error: Ran out of types for this method. */;
+- (id)setVideoCount:(id)arg1;
+- (id)setUsesActivityPub:(id)arg1;
 - (id);
 - (void);
 - (id);
-- (_Bool)isplayNameOrSubjectOrTitleWordMatch;
+- (_Bool)kMDItemLastSpaceAndTotalMatchAndDisplayNameOrSubjectOrTitleWordMatch;
 
 @end
 

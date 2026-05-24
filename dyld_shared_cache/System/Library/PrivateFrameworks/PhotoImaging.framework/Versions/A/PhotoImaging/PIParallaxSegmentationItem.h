@@ -4,45 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString, NSURL, NUComposition, PFParallaxAssetResource, PFParallaxLayerStyle, PFPosterLayout, PFWallpaperCompoundDeviceConfiguration, PIParallaxColorAnalysis, PISegmentationContextInfo;
-@protocol NUImageBuffer, PFParallaxAssetRegions;
+@class NSArray;
 
 @interface PIParallaxSegmentationItem
 {
     _Bool _headroomInfillQualified;
-    PFParallaxAssetResource *_resource;
-    PFParallaxAssetResource *_livePhotoResource;
-    NUComposition *_composition;
-    unsigned long long _classification;
-    id <NUImageBuffer> _segmentationMatte;
-    id <NUImageBuffer> _segmentationConfidenceMap;
-    id <NUImageBuffer> _segmentationBackground;
-    id <NUImageBuffer> _HDRGainMap;
-    id <PFParallaxAssetRegions> _regions;
-    PFPosterLayout *_defaultLayout;
-    PFPosterLayout *_originalLayout;
-    PFPosterLayout *_headroomLayout;
-    PFPosterLayout *_settlingEffectLayout;
-    PFPosterLayout *_spatialPhotoLayout;
-    NSDictionary *_scores;
-    PIParallaxColorAnalysis *_colorAnalysis;
-    NSDictionary *_localLightData;
-    unsigned long long _settlingEffectStatus;
-    NSData *_settlingEffectVideoData;
-    double _focalLengthIn35mm;
-    unsigned long long _spatialPhotoStatus;
-    unsigned long long _loadingState;
-    NSArray *__availableStyles;
-    NSArray *__defaultStyles;
-    NSURL *_fileURL;
-    NSURL *_segmentationDataURL;
-    PISegmentationContextInfo *_contextInfo;
-    struct CGRect _settlingEffectNormalizedBounds;
-    struct CGRect _spatialPhotoNormalizedBounds;
 }
 
 + (void);
-+ (id);
++ (id)k;
 + (id);
 + (CDUnknownBlockType);
 + (CDUnknownBlockType);
@@ -52,7 +22,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (struct CGRect);
 - (id);
 - (id);
@@ -70,13 +40,13 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -109,8 +79,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)*;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -126,7 +96,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)om moment node collection, returning!;
 - (id);
 - (unsigned long long);
 - (void);
@@ -145,65 +115,12 @@
 - (void);
 - (id)qá°1Â0@ù
 × ;
-- (void)Size: /* Error: Ran out of types for this method. */;
+- (void)setMemSize: /* Error: Ran out of types for this method. */;
 - (_Bool).write;
 - (id)Imaging/Adjustments/PINeutralGrayWhiteBalanceFilter.m;
 
 // Remaining properties
-@property(retain, nonatomic) id <NUImageBuffer> HDRGainMap; // @synthesize HDRGainMap=_HDRGainMap;
 @property(copy, nonatomic) NSArray *_availableStyles; // @synthesize _availableStyles=__availableStyles;
-@property(copy, nonatomic) NSArray *_defaultStyles; // @synthesize _defaultStyles=__defaultStyles;
-@property(readonly, copy, nonatomic) NSArray *availableStyles;
-@property(nonatomic) unsigned long long classification; // @synthesize classification=_classification;
-@property(retain, nonatomic) PIParallaxColorAnalysis *colorAnalysis; // @synthesize colorAnalysis=_colorAnalysis;
-@property(retain, nonatomic) NUComposition *composition; // @synthesize composition=_composition;
-@property(retain, nonatomic) PISegmentationContextInfo *contextInfo; // @synthesize contextInfo=_contextInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) PFPosterLayout *defaultLayout; // @synthesize defaultLayout=_defaultLayout;
-@property(readonly, copy, nonatomic) NSArray *defaultStyles;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(nonatomic) double focalLengthIn35mm; // @synthesize focalLengthIn35mm=_focalLengthIn35mm;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool headroomInfillQualified; // @synthesize headroomInfillQualified=_headroomInfillQualified;
-@property(retain, nonatomic) PFPosterLayout *headroomLayout; // @synthesize headroomLayout=_headroomLayout;
-@property(readonly, nonatomic) _Bool isComplete;
-@property(readonly, nonatomic) _Bool isSettlingEffectAvailable;
-@property(readonly, nonatomic) _Bool isSpatialPhotoAvailable;
-@property(readonly, nonatomic) PFWallpaperCompoundDeviceConfiguration *layoutConfiguration;
-@property(retain, nonatomic) PFParallaxAssetResource *livePhotoResource; // @synthesize livePhotoResource=_livePhotoResource;
-@property(nonatomic) unsigned long long loadingState; // @synthesize loadingState=_loadingState;
-@property(copy, nonatomic) NSDictionary *localLightData; // @synthesize localLightData=_localLightData;
-@property(retain, nonatomic) PFPosterLayout *originalLayout; // @synthesize originalLayout=_originalLayout;
-@property(readonly, nonatomic) PFParallaxLayerStyle *originalStyle;
-@property(retain, nonatomic) id <PFParallaxAssetRegions> regions; // @synthesize regions=_regions;
-@property(retain, nonatomic) PFParallaxAssetResource *resource; // @synthesize resource=_resource;
-@property(copy, nonatomic) NSDictionary *scores; // @synthesize scores=_scores;
-@property(retain, nonatomic) id <NUImageBuffer> segmentationBackground; // @synthesize segmentationBackground=_segmentationBackground;
-@property(retain, nonatomic) id <NUImageBuffer> segmentationConfidenceMap; // @synthesize segmentationConfidenceMap=_segmentationConfidenceMap;
-@property(retain, nonatomic) NSURL *segmentationDataURL; // @synthesize segmentationDataURL=_segmentationDataURL;
-@property(retain, nonatomic) id <NUImageBuffer> segmentationMatte; // @synthesize segmentationMatte=_segmentationMatte;
-@property(readonly, nonatomic) _Bool settlingEffectFailedAnyGating;
-@property(readonly, nonatomic) _Bool settlingEffectFailedUnexpectedly;
-@property(readonly, nonatomic) NSArray *settlingEffectGatingDiagnostics;
-@property(readonly, nonatomic) _Bool settlingEffectHasInterestingMotion;
-@property(retain, nonatomic) PFPosterLayout *settlingEffectLayout; // @synthesize settlingEffectLayout=_settlingEffectLayout;
-@property(nonatomic) struct CGRect settlingEffectNormalizedBounds; // @synthesize settlingEffectNormalizedBounds=_settlingEffectNormalizedBounds;
-@property(nonatomic) unsigned long long settlingEffectStatus; // @synthesize settlingEffectStatus=_settlingEffectStatus;
-@property(copy, nonatomic) NSData *settlingEffectVideoData; // @synthesize settlingEffectVideoData=_settlingEffectVideoData;
-@property(readonly, nonatomic) _Bool spatialPhotoFailedAnyGating;
-@property(readonly, nonatomic) _Bool spatialPhotoFailedUnexpectedly;
-@property(retain, nonatomic) PFPosterLayout *spatialPhotoLayout; // @synthesize spatialPhotoLayout=_spatialPhotoLayout;
-@property(nonatomic) struct CGRect spatialPhotoNormalizedBounds; // @synthesize spatialPhotoNormalizedBounds=_spatialPhotoNormalizedBounds;
-@property(nonatomic) unsigned long long spatialPhotoStatus; // @synthesize spatialPhotoStatus=_spatialPhotoStatus;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsBackgroundlessStyles;
-@property(readonly, nonatomic) _Bool supportsManualClockIntersectionTolerance;
-@property(readonly, nonatomic) _Bool supportsSegmentedStyles;
-@property(readonly, nonatomic) unsigned long long version;
 
 @end
 

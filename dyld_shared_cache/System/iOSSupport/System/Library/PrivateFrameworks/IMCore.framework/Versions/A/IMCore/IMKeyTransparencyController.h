@@ -9,7 +9,6 @@
 @interface IMKeyTransparencyController
 {
     id state;
-    KTVerifier *verifier;
 }
 
 + (id);
@@ -18,19 +17,18 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)R(;
 - (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool selfOptedIn;
 @property(nonatomic, readonly) KTVerifier *verifier; // @synthesize verifier;
 
 @end

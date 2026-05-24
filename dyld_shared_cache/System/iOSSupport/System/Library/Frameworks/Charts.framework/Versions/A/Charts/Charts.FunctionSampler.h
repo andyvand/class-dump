@@ -8,8 +8,6 @@
 {
     id function;
     id cache;
-    id zoomStep;
-    id desiredTileCount;
 }
 
 @end

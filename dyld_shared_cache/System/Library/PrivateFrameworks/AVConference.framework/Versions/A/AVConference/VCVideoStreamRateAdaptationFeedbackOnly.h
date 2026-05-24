@@ -6,23 +6,16 @@
 
 #import <AVConference/VCVideoStreamRateAdaptation.h>
 
-@class AVCStatisticsCollector, NSObject;
+@class NSObject;
 @protocol OS_dispatch_source;
 
 __attribute__((visibility("hidden")))
 @interface VCVideoStreamRateAdaptationFeedbackOnly : VCVideoStreamRateAdaptation
 {
     NSObject<OS_dispatch_source> *_rateControlFeedbackSource;
-    AVCStatisticsCollector *_statisticsCollector;
-    _Bool _didReceiveVideo;
-    _Bool _useLowPrecisionEchoTimeStamp;
-    unsigned int _previousRTPTimestamp;
-    unsigned int _totalPacketsReceived;
-    unsigned int _lastTimestamp;
-    double _lastTimestampReceiveTime;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -30,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (double);
 - (void);
 

@@ -11,16 +11,12 @@
 @interface WBSRetryableCKModifyRecordZonesOperation : WBSRetryableCKDatabaseOperation
 {
     NSArray *_recordZonesToSave;
-    NSArray *_recordZoneIDsToDelete;
-    CDUnknownBlockType _perRecordZoneSaveBlock;
-    CDUnknownBlockType _perRecordZoneDeleteBlock;
-    CDUnknownBlockType _modifyRecordZonesCompletionBlock;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)P;
 - (CDUnknownBlockType);
 - (void);
 - (void);
@@ -28,14 +24,10 @@
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (void);
+- (void)MD;
 - (void)°;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType modifyRecordZonesCompletionBlock; // @synthesize modifyRecordZonesCompletionBlock=_modifyRecordZonesCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType perRecordZoneDeleteBlock; // @synthesize perRecordZoneDeleteBlock=_perRecordZoneDeleteBlock;
-@property(copy, nonatomic) CDUnknownBlockType perRecordZoneSaveBlock; // @synthesize perRecordZoneSaveBlock=_perRecordZoneSaveBlock;
-@property(copy, nonatomic) NSArray *recordZoneIDsToDelete; // @synthesize recordZoneIDsToDelete=_recordZoneIDsToDelete;
 @property(copy, nonatomic) NSArray *recordZonesToSave; // @synthesize recordZonesToSave=_recordZonesToSave;
 
 @end

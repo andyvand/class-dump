@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXBaseSettings_Legacy, NSMutableArray;
-
 @interface AXSettingsObjectDestructionHelper
 {
     void *_listenerAddress;
-    NSMutableArray *_preferenceKeys;
-    AXBaseSettings_Legacy *_settings;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)D;
 
 @end
 

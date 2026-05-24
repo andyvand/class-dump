@@ -15,7 +15,7 @@
 + (id);
 + (id);
 - (id);
-- (_Bool);
+- (_Bool)le *VOTBundle(void);
 
 @end
 

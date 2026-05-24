@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, _UIViewServiceReplyAwaitingTrampoline, _UIViewServiceReplyControlTrampoline;
-
 __attribute__((visibility("hidden")))
 @interface _UIViewServiceReplyControlProxy
 {
     id _target;
-    _UIViewServiceReplyControlTrampoline *_controlTrampoline;
-    _UIViewServiceReplyAwaitingTrampoline *_awaitingTrampoline;
-    NSLock *_lock;
 }
 
 + (id);

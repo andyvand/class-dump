@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSError, NSNumber, PKInstallAnalyzer, PKInstallRequest, PKInstallSandbox;
+@class PKInstallRequest;
 
 @interface PKInstallOperation
 {
     PKInstallRequest *_request;
-    PKInstallSandbox *_sandbox;
-    PKInstallAnalyzer *_analyzer;
-    NSNumber *_originalEstimate;
-    NSError *_error;
-    NSDate *_startDate;
-    NSDate *_packageStartDate;
 }
 
 - (double);
@@ -33,7 +27,7 @@
 - (double);
 - (int);
 - (id);
-- (void);
+- (void)<;
 - (id);
 - (id);
 - (void);
@@ -41,12 +35,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, retain) PKInstallAnalyzer *analyzer; // @synthesize analyzer=_analyzer;
-@property(retain) NSError *error; // @synthesize error=_error;
 @property(readonly) PKInstallRequest *request; // @synthesize request=_request;
-@property(readonly) PKInstallSandbox *sandbox; // @synthesize sandbox=_sandbox;
-@property(readonly, retain) NSDate *startDate; // @synthesize startDate=_startDate;
-@property double totalEstimatedTime;
 
 @end
 

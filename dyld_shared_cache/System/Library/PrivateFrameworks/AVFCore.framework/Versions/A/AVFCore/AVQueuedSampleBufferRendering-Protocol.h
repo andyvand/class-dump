@@ -5,10 +5,10 @@
 //
 
 @protocol AVQueuedSampleBufferRendering
+- (struct OpaqueCMTimebase *)formattedStringWithStrings:preToPostItnArray:task: /* Error: Ran out of types for this method. */;
+- (_Bool)_EARHash;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasSufficientMediaDataForReliablePlaybackStart;
-@property(readonly, getter=isReadyForMoreMediaData) _Bool readyForMoreMediaData;
 @property(readonly, retain) struct OpaqueCMTimebase *timebase;
 @end
 

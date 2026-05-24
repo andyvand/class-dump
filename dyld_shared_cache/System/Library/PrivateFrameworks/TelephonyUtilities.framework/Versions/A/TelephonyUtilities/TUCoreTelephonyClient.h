@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CoreTelephonyClient, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface TUCoreTelephonyClient
 {
     NSObject<OS_dispatch_queue> *_queue;
-    CoreTelephonyClient *_client;
 }
 
 + (id);
@@ -24,6 +23,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -38,34 +38,25 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)[;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)�#;
 - (id);
 - (_Bool);
 - (id);
 - (id);
+- (id)@;
 - (id);
-- (id);
-- (void)ByUUID: /* Error: Ran out of types for this method. */;
+- (void)setSenderIdentityCapabilitiesStateByUUID: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) CoreTelephonyClient *client; // @synthesize client=_client;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

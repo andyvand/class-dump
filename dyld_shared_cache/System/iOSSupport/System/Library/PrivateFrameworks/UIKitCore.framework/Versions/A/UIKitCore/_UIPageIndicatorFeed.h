@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, UIPageControl;
-@protocol _UIPageIndicatorFeedDelegate;
+@class NSMutableArray, UIPageControl;
 
 __attribute__((visibility("hidden")))
 @interface _UIPageIndicatorFeed
 {
     UIPageControl *_pageControl;
-    id <_UIPageIndicatorFeedDelegate> _delegate;
-    NSMutableArray *_activeQueue;
-    NSMutableArray *_reuseQueue;
 }
 
 - (void);
@@ -30,20 +26,17 @@ __attribute__((visibility("hidden")))
 - (struct CGSize)!	°!Eù1eð1Â0@ù
 × ;
 - (void)<_UIDragDropSessionInternal>";
-- (_Bool)etPaused;
+- (_Bool)_setPaused;
 - (id)UIQuickLookInternalSceneSpecification;
 - (void);
 - (id)L#;
-- (id)dler;
-- (void)Name;
-- (void)tance0;
-- (void)ent;
+- (id)handler;
+- (void)UIOriginalClassName;
+- (void)inputBlurDistance0;
+- (void)LuminanceAdjustment;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *activeQueue; // @synthesize activeQueue=_activeQueue;
-@property(nonatomic) __weak id <_UIPageIndicatorFeedDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NSArray *indicators;
-@property(retain, nonatomic) NSMutableArray *reuseQueue; // @synthesize reuseQueue=_reuseQueue;
 
 @end
 

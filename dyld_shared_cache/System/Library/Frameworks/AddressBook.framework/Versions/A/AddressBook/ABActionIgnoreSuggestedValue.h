@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABCollectionViewItem, NSString;
-@protocol ABCardCollectionViewDelegate;
+@class NSString;
 
 @interface ABActionIgnoreSuggestedValue
 {
     NSString *_property;
-    id _value;
-    id <ABCardCollectionViewDelegate> _delegate;
-    ABCollectionViewItem *_item;
 }
 
 - (id);

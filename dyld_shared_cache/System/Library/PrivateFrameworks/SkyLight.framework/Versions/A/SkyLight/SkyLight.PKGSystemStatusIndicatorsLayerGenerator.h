@@ -7,11 +7,6 @@
 @interface SkyLight.PKGSystemStatusIndicatorsLayerGenerator
 {
     id dataSource;
-    id layer;
-    id mediaLayer;
-    id secureMediaLayer;
-    id locationLayer;
-    id hadSecureIndicatorLayer;
 }
 
 @end

@@ -6,23 +6,19 @@
 
 #import <ContactsUI/CNPropertyCell.h>
 
-@class CNCardSharedProfileCellView, CNContact, CNSharedProfileStateOracle;
-@protocol CNCardSharedProfileCellActionDelegate;
+@class CNCardSharedProfileCellView, CNSharedProfileStateOracle;
 
 __attribute__((visibility("hidden")))
 @interface CNCardSharedProfileCell : CNPropertyCell
 {
     CNSharedProfileStateOracle *_sharedProfileStateOracle;
-    id <CNCardSharedProfileCellActionDelegate> _actionDelegate;
-    CNCardSharedProfileCellView *_snapView;
-    CNContact *_contact;
 }
 
 + (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)k;
 - (id);
 - (id);
 - (void);
@@ -35,18 +31,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)resetableImportContext;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)humanReadableName;
 - (void)ikenessRendering>",R,N,V_imageRenderer;
 
 // Remaining properties
-@property(nonatomic) __weak id <CNCardSharedProfileCellActionDelegate> actionDelegate; // @synthesize actionDelegate=_actionDelegate;
-@property(nonatomic) _Bool allowsEditing;
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(retain, nonatomic) CNSharedProfileStateOracle *sharedProfileStateOracle; // @synthesize sharedProfileStateOracle=_sharedProfileStateOracle;
 @property(retain, nonatomic) CNCardSharedProfileCellView *snapView; // @synthesize snapView=_snapView;
 
 @end

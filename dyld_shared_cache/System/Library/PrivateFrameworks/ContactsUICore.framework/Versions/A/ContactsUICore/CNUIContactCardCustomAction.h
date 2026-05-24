@@ -4,30 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CNUIContactCardCustomAction
 {
     _Bool _destructive;
-    NSString *_title;
-    NSString *_contactIdentifier;
-    CDUnknownBlockType _actionBlock;
 }
 
 - (void);
-- (id);
+- (id)I;
 - (CDUnknownBlockType);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void)ngByReplacingOccurrencesOfString:withString: /* Error: Ran out of types for this method. */;
+- (void)stringByReplacingOccurrencesOfString:withString: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType actionBlock; // @synthesize actionBlock=_actionBlock;
-@property(readonly, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(readonly, nonatomic, getter=isDestructive) _Bool destructive; // @synthesize destructive=_destructive;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

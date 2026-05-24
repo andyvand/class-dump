@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSOutlineView, NSString, NSTableColumn, NSTableRowView;
+
 @protocol NSOutlineViewDelegate
+
+@optional
+- (void);
+- (NSTableRowView *);
+- (void)downloadedData;
+- (void)downloadIfNeededWithPriority:(NSOutlineView *)arg1 completion:(NSTableColumn *)arg2;
+- (NSString *)baseURLForEdgeCachedOrderFeed;
+- (_Bool)baseURL:(NSOutlineView *)arg1 fallback:(id)arg2;
 @end
 

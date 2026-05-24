@@ -4,34 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _PASLock, _PASNotificationToken;
-@protocol TRINotificationToken;
+@class _PASLock;
 
 @interface PPTextToTopicTransform
 {
     _PASLock *_lock;
-    id <TRINotificationToken> _trialToken;
-    NSString *_vocabularyPath;
-    NSString *_weightsPath;
-    NSString *_mappingId;
-    _PASNotificationToken *_assetUpdateNotificationToken;
 }
 
-+ (id)ntactsWithContacts: /* Error: Ran out of types for this method. */;
++ (id)scoredContactsWithContacts: /* Error: Ran out of types for this method. */;
+- (void)-;
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)ā;
 - (unsigned long long);
 - (void)!4Bù÷°1Â0@ù
 × ;
-- (float)inedScoreInputScalarCountForNECategoryActivityLocation;
+- (float)PPCombinedScoreInputScalarCountForNECategoryActivityLocation;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long outputTopicCount;
-@property(readonly, nonatomic) float threshold;
 
 @end
 

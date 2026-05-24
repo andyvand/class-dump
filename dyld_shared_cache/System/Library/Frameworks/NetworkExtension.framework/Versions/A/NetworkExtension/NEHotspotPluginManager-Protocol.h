@@ -5,5 +5,6 @@
 //
 
 @protocol NEHotspotPluginManager
+- (void);
 @end
 

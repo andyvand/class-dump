@@ -7,6 +7,7 @@
 @protocol HMBCloudZoneDelegate
 
 @optional
-- (void)dCapable;
+- (void)assword only;
+- (void)_suspendCapable;
 @end
 

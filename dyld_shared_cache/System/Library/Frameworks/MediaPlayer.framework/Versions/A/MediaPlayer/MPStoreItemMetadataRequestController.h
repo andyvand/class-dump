@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPStoreItemMetadataImportWindow, NSMutableDictionary, NSObject, NSOperationQueue;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface MPStoreItemMetadataRequestController
 {
     NSObject<OS_dispatch_queue> *_calloutQueue;
-    NSOperationQueue *_operationQueue;
-    unsigned long long _lastExpiredMetadataPurgeMachTime;
-    NSMutableDictionary *_itemCaches;
-    struct os_unfair_lock_s _transactionLock;
-    long long _transactionCount;
-    MPStoreItemMetadataImportWindow *_importWindow;
-    long long _cacheSize;
 }
 
 + (id);
@@ -31,7 +24,7 @@
 - (void);
 - (void);
 - (void)_setServerRepeatMode: /* Error: Ran out of types for this method. */;
-- (long long)Payload: /* Error: Ran out of types for this method. */;
+- (long long)_initWithPayload: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

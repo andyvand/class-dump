@@ -13,8 +13,8 @@
     AVCaptureSynchronizedMetadataObjectDataInternal_Tundra *_internal;
 }
 
-- (id);
-- (void);
+- (id)/Library/PrivateFrameworks/MusicLibrary.framework/MusicLibrary;
+- (void)B@"NSError">40;
 
 // Remaining properties
 @property(readonly) NSArray *metadataObjects;

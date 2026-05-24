@@ -7,8 +7,6 @@
 @interface NewsFeed.FeedRecipeClusteringService
 {
     id clusteringService;
-    id personalizationService;
-    id recipeService;
 }
 
 @end

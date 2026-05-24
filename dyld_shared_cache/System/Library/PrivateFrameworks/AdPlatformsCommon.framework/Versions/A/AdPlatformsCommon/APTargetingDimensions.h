@@ -9,7 +9,6 @@
 @interface APTargetingDimensions
 {
     NSArray *_inclusionCriteria;
-    NSArray *_exclusionCriteria;
 }
 
 + (_Bool);
@@ -19,10 +18,9 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(retain) NSArray *exclusionCriteria; // @synthesize exclusionCriteria=_exclusionCriteria;
 @property(retain) NSArray *inclusionCriteria; // @synthesize inclusionCriteria=_inclusionCriteria;
 
 @end

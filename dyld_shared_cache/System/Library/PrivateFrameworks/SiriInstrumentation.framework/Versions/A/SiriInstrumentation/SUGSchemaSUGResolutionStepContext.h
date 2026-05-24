@@ -6,21 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SUGSchemaSUGResolutionStepEnded, SUGSchemaSUGResolutionStepStarted;
+@class SUGSchemaSUGResolutionStepStarted;
 
 @interface SUGSchemaSUGResolutionStepContext : SISchemaInstrumentationMessage
 {
     SUGSchemaSUGResolutionStepStarted *_startedOrChanged;
-    SUGSchemaSUGResolutionStepEnded *_ended;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -30,23 +26,18 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (void)(;
+- (unsigned long long)@0:8q16^@24 /* Error: Ran out of types for this method. */;
+- (_Bool)me;
+- (_Bool)T m.date FROM message m WHERE m.error != 0 AND m.is_from_me == 1 AND m.is_finished == 1 ORDER BY date DESC, ROWID DESC LIMIT 1), 0)), ('lastFailedMessageRowID', COALESCE((SELECT m.ROWID FROM message m WHERE m.error != 0 AND m.is_from_me == 1 AND m.is_finished == 1 ORDER BY date DESC, ROWID DESC LIMIT 1), 0));;
 - (id);
 - (id);
-- (id)ccepted;
-- (id)asUnderLyingError;
-- (void)RIYA;
+- (id)deleteNumTokensAccepted;
+- (id)_hasUnderLyingError;
+- (void)VOICENAME_RIYA;
 
 // Remaining properties
-@property(retain, nonatomic) SUGSchemaSUGResolutionStepEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SUGSchemaSUGResolutionStepStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

@@ -4,30 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface AVTAsset
 {
     NSString *_identifier;
-    NSString *_resourcePath;
-    long long _componentType;
-    unsigned char _resourceType;
-    NSDictionary *_morphVariantDependencies;
-    NSDictionary *_imageVariantDependencies;
-    NSDictionary *_materialVariantDependencies;
-    unsigned long long _editableColorCount;
-    NSString *_ambientOcclusion;
-    NSDictionary *_highlights;
-    unsigned long long _refCount;
-    id _cachedResource;
-    struct os_unfair_lock_s _cacheLock;
-    _Bool _forceHighTessellation;
-    NSDictionary *_specializationSettings;
-    NSDictionary *_layers;
-    NSDictionary *_wrapDeformerDriverNames;
-    NSDictionary *_perAssetMain;
-    CDStruct_ccff9734 _uvRemappingInfo;
 }
 
 - (id);
@@ -36,30 +18,22 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)h;
 - (void);
 - (unsigned long long);
 - (void);
 - (id);
-- (CDStruct_ccff9734);
+- (CDStruct_b062b2f2);
 - (id);
 - (void);
-- (id);
+- (id)RavenPeriodicityTrackerActiveObject;
 - (long long);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *ambientOcclusion; // @synthesize ambientOcclusion=_ambientOcclusion;
 @property(readonly) long long componentType; // @synthesize componentType=_componentType;
-@property(readonly) unsigned long long editableColorCount; // @synthesize editableColorCount=_editableColorCount;
-@property(readonly) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) _Bool is2DAsset;
-@property(readonly) _Bool is3DAsset;
-@property(readonly) NSDictionary *layers; // @synthesize layers=_layers;
-@property(readonly) NSDictionary *specializationSettings; // @synthesize specializationSettings=_specializationSettings;
-@property(readonly) CDStruct_ccff9734 uvRemappingInfo; // @synthesize uvRemappingInfo=_uvRemappingInfo;
 
 @end
 

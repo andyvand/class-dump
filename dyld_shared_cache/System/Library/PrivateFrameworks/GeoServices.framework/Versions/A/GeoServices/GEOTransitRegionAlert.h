@@ -4,62 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOTransitBanner, NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOTransitRegionAlert
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOTransitBanner *_banner;
-    NSMutableArray *_triggerRegions;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_banner:1;
-        unsigned int read_triggerRegions:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
 + (_Bool)setMovedPickupLocation:(id)arg1;
+- (unsigned long long);
+- (id);
+- (id);
+- (void);
+- (void);
+- (_Bool)setExternalGroupBehavior: /* Error: Ran out of types for this method. */;
+- (void)_multivaluePair;
+- (void)on number (%f) is less than current (%f);
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (void)!;
+- (id);
+- (void)isEnabledAndFetchAudioProviderUUID;
+- (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)>T;
 - (id);
 - (id);
 - (void);
 - (id)Qº*1Â0@ù
 × ;
-- (id)onent;
-- (id)Handoff: /* Error: Ran out of types for this method. */;
-- (id)_warming_sheet_triggered;
+- (id)indexWithinFactoidComponent;
+- (id)StringAsRouteHandoff: /* Error: Ran out of types for this method. */;
+- (id)search_enrichment_is_warming_sheet_triggered;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) GEOTransitBanner *banner;
 @property(readonly, nonatomic) _Bool hasBanner;
-@property(retain, nonatomic) NSMutableArray *triggerRegions;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

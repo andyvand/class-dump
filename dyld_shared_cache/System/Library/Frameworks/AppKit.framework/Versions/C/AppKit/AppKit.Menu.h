@@ -7,20 +7,6 @@
 @interface AppKit.Menu
 {
     id id;
-    id items;
-    id supermenuID;
-    id title;
-    id _font;
-    id _selectionMode;
-    id _typingBehavior;
-    id _layoutDirection;
-    id _presentationOptions;
-    id indentationWidth;
-    id minimumWidth;
-    id _presentationStyle;
-    id maximumSizeForTesting;
-    id nextMenu;
-    id _flags;
 }
 
 @end

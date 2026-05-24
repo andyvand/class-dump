@@ -6,13 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLXSchemaCDMSingleServiceSetupAttemptStarted : SISchemaInstrumentationMessage
 {
     int _serviceType;
-    unsigned int _retryNumber;
-    CDStruct_47eb6c71 _has;
 }
 
 - (void);
@@ -24,23 +20,19 @@
 - (id);
 - (int);
 - (void);
-- (void);
+- (void)eter.;
 - (unsigned long long);
-- (void);
+- (void)@"NSControl"16@"NSString"24@"NSString"32;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)!;
 - (id)1Â0@ù
 × ;
-- (_Bool)ctivationTimeDiffInNsAtIndex: /* Error: Ran out of types for this method. */;
+- (_Bool)checkerJSRejectBeforeActivationTimeDiffInNsAtIndex: /* Error: Ran out of types for this method. */;
 - (id)PacketLatencyInfo;
 - (id)",&,N,V_startedOrChanged;
 
 // Remaining properties
-@property(nonatomic) _Bool hasRetryNumber;
-@property(nonatomic) _Bool hasServiceType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int retryNumber; // @synthesize retryNumber=_retryNumber;
 @property(nonatomic) int serviceType; // @synthesize serviceType=_serviceType;
 
 @end

@@ -8,16 +8,16 @@
 {
 }
 
++ (id)to unassociate transfer:(id)arg1 %@ from message guid:(CDUnknownBlockType)arg2 %@;
++ (id)return val in storeAttachment for Aux transfer %@;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-- (void);
-- (id);
-- (long long);
+- (void)eate CKRecord in zone %s for metadata dictionary %s;
+- (id)d it failed;
+- (long long)ureNoExitRecordIsPresent();
 - (_Bool);
 - (_Bool);
 - (void);

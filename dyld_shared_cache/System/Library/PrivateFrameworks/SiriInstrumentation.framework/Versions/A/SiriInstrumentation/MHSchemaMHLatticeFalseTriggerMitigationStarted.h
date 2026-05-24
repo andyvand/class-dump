@@ -6,19 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface MHSchemaMHLatticeFalseTriggerMitigationStarted : SISchemaInstrumentationMessage
 {
     NSString *_modelVersion;
-    _Bool _hasModelVersion;
 }
 
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)ic key;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -27,13 +26,11 @@
 × ;
 - (id)chemaUUID",&,N,V_ihId;
 - (id)Expression",&,N,V_value;
-- (void)dParameters;
+- (void)resolvedParameters;
 - (void)¼6åÿ@³;
 - (id)4²ý$;
 
 // Remaining properties
-@property(nonatomic) _Bool hasModelVersion; // @synthesize hasModelVersion=_hasModelVersion;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *modelVersion; // @synthesize modelVersion=_modelVersion;
 
 @end

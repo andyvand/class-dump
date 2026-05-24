@@ -5,5 +5,7 @@
 //
 
 @protocol AMSPurchaseServiceInterface
+- (void);
+- (void)$;
 @end
 

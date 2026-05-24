@@ -10,31 +10,24 @@ __attribute__((visibility("hidden")))
 @interface CUIWindowFrameLayer
 {
     CALayer *_backgroundHighlightLayer;
-    CALayer *_titlebarGradientLayer;
-    CALayer *_titlebarBackgroundLayer;
-    CALayer *_borderLayer;
-    CALayer *_overlayLayer;
-    CALayer *_titlebarSeparatorLayer;
-    CALayer *_bottomGradientLayer;
-    CALayer *_bottomDividerLayer;
 }
 
 - (id);
+- (id);
 - (id);
-- (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -45,13 +38,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property CALayer *backgroundHighlightLayer; // @synthesize backgroundHighlightLayer=_backgroundHighlightLayer;
-@property CALayer *borderLayer; // @synthesize borderLayer=_borderLayer;
-@property CALayer *bottomDividerLayer; // @synthesize bottomDividerLayer=_bottomDividerLayer;
-@property CALayer *bottomGradientLayer; // @synthesize bottomGradientLayer=_bottomGradientLayer;
-@property CALayer *overlayLayer; // @synthesize overlayLayer=_overlayLayer;
-@property CALayer *titlebarBackgroundLayer; // @synthesize titlebarBackgroundLayer=_titlebarBackgroundLayer;
-@property CALayer *titlebarGradientLayer; // @synthesize titlebarGradientLayer=_titlebarGradientLayer;
-@property CALayer *titlebarSeparatorLayer; // @synthesize titlebarSeparatorLayer=_titlebarSeparatorLayer;
 
 @end
 

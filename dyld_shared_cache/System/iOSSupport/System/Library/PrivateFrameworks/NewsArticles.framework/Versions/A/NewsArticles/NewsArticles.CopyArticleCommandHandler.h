@@ -7,7 +7,6 @@
 @interface NewsArticles.CopyArticleCommandHandler
 {
     id bundleSubscriptionManager;
-    id paidAccessChecker;
 }
 
 @end

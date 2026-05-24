@@ -6,38 +6,28 @@
 
 #import <AppKit/NSTabButton.h>
 
-@class NSString;
 @protocol NSTabBarSyncedButtonDelegate;
 
 __attribute__((visibility("hidden")))
 @interface NSTabBarEmptyRegionPlaceholderButton : NSTabButton
 {
     id <NSTabBarSyncedButtonDelegate> _buttonInTabSyncGroupDelegate;
-    _Bool _syncedWithOtherButton;
 }
 
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)ɩ;
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void)ons;
+- (void)uetActivityProperties;
+- (void)Trailers;
+- (void)PresentationOptions;
 
 // Remaining properties
 @property(nonatomic) __weak id <NSTabBarSyncedButtonDelegate> buttonInTabSyncGroupDelegate; // @synthesize buttonInTabSyncGroupDelegate=_buttonInTabSyncGroupDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=isSyncedWithOtherButton) _Bool syncedWithOtherButton; // @synthesize syncedWithOtherButton=_syncedWithOtherButton;
 
 @end
 

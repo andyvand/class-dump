@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_nonSentinelPoints;
 }
 
-- (id);
+- (id)fRemoval;
 - (unsigned long long);
 - (id);
 - (void);

@@ -4,6 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSIndexPath, UITableView;
+
 @protocol UITableViewDelegate
+
+@optional
+- (void){;
+- (void)k,{;
+- (NSIndexPath *);
+- (_Bool);
+- (double){;
+- (long long)d,{;
+- (_Bool)xݦz;
+- (NSIndexPath *)z;
+- (void):(UITableView *)arg1:(NSIndexPath *)arg2;
 @end
 

@@ -6,16 +6,14 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSString;
-
 @interface INSetAudioSourceInCarIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)0@0:(long long)arg1 8Q16@24@?32;
++ (int)numberWithUnsignedInteger:(long long)arg1;
++ (long long)isContentTypeAudioOnly:(int)arg1;
++ (_Bool)initWithSearchResultIdentifier:(long long)arg1 domainIdentifier:contentType:size:scale:representationTypes: /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (void);
 - (id);
@@ -23,22 +21,15 @@
 - (id);
 - (long long);
 - (id);
+- (id)remappedElementForIndex:(id)arg1;
+- (id);
+- (void)rm directed scan:(id)arg1 interfaceName=%@ ssid=%@ issueScanHandler=%p;
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (long long)ntIntentAnnouncementUnsupportedReason: /* Error: Ran out of types for this method. */;
+- (long long)StringAsSendAnnouncementIntentAnnouncementUnsupportedReason: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

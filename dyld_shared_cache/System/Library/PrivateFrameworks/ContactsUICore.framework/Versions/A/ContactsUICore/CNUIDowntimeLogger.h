@@ -24,9 +24,9 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)	;
 - (id);
 - (id);
 - (void)dentifier: /* Error: Ran out of types for this method. */;

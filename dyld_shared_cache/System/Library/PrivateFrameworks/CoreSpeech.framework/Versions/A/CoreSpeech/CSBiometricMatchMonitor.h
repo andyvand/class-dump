@@ -11,13 +11,13 @@
     id <CSBiometricMatchMonitorDelegate> _delegate;
 }
 
-+ (id)mVoiceTriggerInfo: /* Error: Ran out of types for this method. */;
++ (id)_myriadPhashFromVoiceTriggerInfo: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (unsigned long long);
 - (id);
+- (void)G;
 - (void);
-- (void);
-- (void)iStateChange: /* Error: Ran out of types for this method. */;
+- (void)attSiriStateMonitor:didRecieveAttSiriStateChange: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <CSBiometricMatchMonitorDelegate> delegate; // @synthesize delegate=_delegate;

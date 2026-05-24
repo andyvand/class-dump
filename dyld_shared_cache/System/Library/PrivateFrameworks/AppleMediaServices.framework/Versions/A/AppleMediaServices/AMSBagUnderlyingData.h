@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSSet, NSString;
+@class NSDictionary;
 
 @interface AMSBagUnderlyingData
 {
     id version;
-    NSDictionary *bagDictionary;
-    void expirationDate;
-    void fileKey;
-    void aliasKeys;
 }
 
 - (id);
@@ -24,10 +20,7 @@
 - (void)9âß9â9âÌ9âI9âÀ9â»9âm9â9âr9â;
 
 // Remaining properties
-@property(nonatomic, readonly) NSSet *aliasKeys;
 @property(nonatomic, readonly) NSDictionary *bagDictionary; // @synthesize bagDictionary;
-@property(nonatomic, readonly) NSDate *expirationDate;
-@property(nonatomic, readonly) NSString *fileKey;
 
 @end
 

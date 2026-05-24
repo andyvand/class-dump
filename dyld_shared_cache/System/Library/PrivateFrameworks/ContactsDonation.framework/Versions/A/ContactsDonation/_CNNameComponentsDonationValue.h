@@ -16,15 +16,15 @@
 + (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)aJ;
 - (_Bool);
 - (id);
-- (void);
+- (void)B;
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)setPlatform:(id)arg1;
+- (void)arrayWithObjects:count: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSPersonNameComponents *nameComponents; // @synthesize nameComponents=_nameComponents;

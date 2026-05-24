@@ -6,34 +6,28 @@
 
 #import <AppKit/NSCGSWindowLayerSurface.h>
 
-@class CAContext, NSCGSWindow;
+@class NSCGSWindow;
 
 __attribute__((visibility("hidden")))
 @interface _NSCGSWindowLayerSurface : NSCGSWindowLayerSurface
 {
     NSCGSWindow *_window;
-    unsigned int _surfaceID;
-    CAContext *_context;
-    struct CGRect _frame;
-    struct CGColorSpace *_colorSpace;
-    double _scale;
-    unsigned int _opaque:1;
 }
 
 - (void);
-- (void);
+- (void);
 - (_Bool);
-- (id);
+- (id)enableTokenizer;
 - (double);
-- (struct CGColorSpace *);
+- (struct CGColorSpace *),;
 - (id);
-- (void);
+- (void)@;
 - (unsigned int);
-- (void);
+- (void)i;
 - (unsigned int);
 - (struct CGRect);
 - (unsigned int);
-- (void)eferredPosition;
+- (void)_currentPreferredPosition;
 - (void)zR;
 - (id)RelaunchOnLogin;
 - (void)duplicated.;

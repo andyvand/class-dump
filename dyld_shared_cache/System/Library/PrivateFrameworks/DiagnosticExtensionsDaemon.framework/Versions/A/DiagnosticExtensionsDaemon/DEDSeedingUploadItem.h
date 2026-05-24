@@ -6,16 +6,11 @@
 
 #import <DiagnosticExtensionsDaemon/DEDAttachmentItem.h>
 
-@class NSString, NSURLSessionUploadTask;
+@class NSString;
 
 @interface DEDSeedingUploadItem : DEDAttachmentItem
 {
     _Bool _completed;
-    NSString *_extensionID;
-    NSString *_filePromiseUUID;
-    long long _bytesUploaded;
-    long long _totalBytesExpectedToSend;
-    NSURLSessionUploadTask *_uploadTask;
 }
 
 + (id);
@@ -34,15 +29,10 @@
 - (long long);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 
 // Remaining properties
-@property long long bytesUploaded; // @synthesize bytesUploaded=_bytesUploaded;
-@property _Bool completed; // @synthesize completed=_completed;
 @property(retain) NSString *extensionID; // @synthesize extensionID=_extensionID;
-@property(retain) NSString *filePromiseUUID; // @synthesize filePromiseUUID=_filePromiseUUID;
-@property long long totalBytesExpectedToSend; // @synthesize totalBytesExpectedToSend=_totalBytesExpectedToSend;
-@property(retain) NSURLSessionUploadTask *uploadTask; // @synthesize uploadTask=_uploadTask;
 
 @end
 

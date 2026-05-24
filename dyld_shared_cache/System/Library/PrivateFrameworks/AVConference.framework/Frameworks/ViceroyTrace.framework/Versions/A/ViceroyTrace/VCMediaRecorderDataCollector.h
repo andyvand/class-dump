@@ -4,24 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, VCHistogram;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface VCMediaRecorderDataCollector
 {
     NSObject<OS_dispatch_queue> *_stateQueue;
-    unsigned char _mediaRecorderCaptureTotal;
-    unsigned char _mediaRecorderCaptureFailure;
-    VCHistogram *_mediaRecorderMediaTypeHistogram;
-    VCHistogram *_mediaRecorderResultsHistogram;
-    VCHistogram *_mediaRecorderFileSizeHistogram;
-    VCHistogram *_mediaRecorderMessageLengthHistogram;
-    int _thermalLevel;
-    VCHistogram *_mediaRecorderThermalHistogram;
 }
 
 - (void);
-- (void);
+- (void)l	;
 - (void);
 - (void);
 - (void);

@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDecimalNumber, NSString;
+@class NSDecimalNumber;
 
 @interface PKAccountPaymentReminder
 {
     NSDecimalNumber *_minimumDue;
-    NSString *_currencyCode;
-    NSDate *_paymentDueDate;
 }
 
-+ (id);
++ (id);
 + (id);
 + (_Bool)0@ù
 × ;
@@ -26,24 +24,15 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)_tcpECNIntSynLost;
 - (void);
 - (id);
-- (id)dsAtIndex: /* Error: Ran out of types for this method. */;
-- (id)ntifierIsEligible:(id)arg1;
-- (void)ired;
+- (id)requiredBillingContactFieldsAtIndex: /* Error: Ran out of types for this method. */;
+- (id)_criteriaIdentifierIsEligible:(id)arg1;
+- (void)remoteRequestNewerOSRequired;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSDecimalNumber *minimumDue; // @synthesize minimumDue=_minimumDue;
-@property(copy, nonatomic) NSDate *paymentDueDate; // @synthesize paymentDueDate=_paymentDueDate;
-@property(readonly) Class superclass;
 
 @end
 

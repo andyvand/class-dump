@@ -10,12 +10,6 @@
 - (UMUser *)account:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) UMUser *currentUser;
-@property(readonly, nonatomic) _Bool isLoginSession;
 @property(readonly, nonatomic) _Bool isMultiUser;
-@property(readonly, nonatomic) _Bool isSharedIPad;
-@property(readonly, copy, nonatomic) UMUser *loginUser;
-@property(readonly, nonatomic) unsigned long long maxNumberOfUsers;
-@property(readonly, nonatomic) unsigned long long userQuotaSize;
 @end
 

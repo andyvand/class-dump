@@ -13,7 +13,7 @@
 + (Class);
 + (long long)tValues;
 - (id);
-- (id)nse;
+- (id)INResolveObjectReferenceIntentResponse;
 
 @end
 

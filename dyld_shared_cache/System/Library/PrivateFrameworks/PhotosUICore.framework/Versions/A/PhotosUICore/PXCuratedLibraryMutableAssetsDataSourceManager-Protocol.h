@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSPredicate;
-
 @protocol PXCuratedLibraryMutableAssetsDataSourceManager
-- (void)onPerformer;
-- (long long);
+- (_Bool);
+- (void)GenerativeStoryCreatedMemoryNavigationPerformer;
 
 // Remaining properties
-@property(retain, nonatomic) NSPredicate *allPhotosFilterPredicate;
-@property(retain, nonatomic) NSArray *allPhotosSortDescriptors;
-@property(nonatomic) _Bool canIncludeUnsavedSyndicatedAssets;
-@property(nonatomic) long long libraryFilter;
 @property(nonatomic) long long zoomLevel;
 @end
 

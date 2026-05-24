@@ -9,12 +9,10 @@
 @interface MPiTunesLibraryObjectDatabase
 {
     ITLibrary *_library;
-    _Bool _playParamsContainStartItem;
-    _Bool _hasRadioItem;
 }
 
 - (void);
-- (void);
+- (void):(_Bool)arg1 A;
 - (_Bool);
 - (id);
 - (id);
@@ -24,11 +22,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)DurationSnapshotWithElapsedTime:playbackRate: /* Error: Ran out of types for this method. */;
+- (id)4;
+- (void)_updateDurationSnapshotWithElapsedTime:playbackRate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool hasRadioItem; // @synthesize hasRadioItem=_hasRadioItem;
 @property(nonatomic) _Bool playParamsContainStartItem; // @synthesize playParamsContainStartItem=_playParamsContainStartItem;
 
 @end

@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSHTTPURLResponse;
+@class NSDictionary;
 
 @interface SOAuthorizationCredential
 {
     NSDictionary *_httpAuthorizationHeaders;
-    NSHTTPURLResponse *_httpResponse;
-    NSData *_httpBody;
-    NSArray *_secKeyProxyEndpoints;
 }
 
 + (_Bool);
 - (void);
 - (id);
 - (void);
+- (id)eader;
+- (void)pdate0ToVersion1];
 - (id);
-- (void);
 - (id);
-- (id);
-- (void);
+- (void)ntroller",W,N,V_controller;
 - (id);
 - (void);
 - (void);
@@ -30,9 +27,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *httpAuthorizationHeaders; // @synthesize httpAuthorizationHeaders=_httpAuthorizationHeaders;
-@property(retain, nonatomic) NSData *httpBody; // @synthesize httpBody=_httpBody;
-@property(copy, nonatomic) NSHTTPURLResponse *httpResponse; // @synthesize httpResponse=_httpResponse;
-@property(retain, nonatomic) NSArray *secKeyProxyEndpoints; // @synthesize secKeyProxyEndpoints=_secKeyProxyEndpoints;
 
 @end
 

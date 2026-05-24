@@ -6,20 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class GRPSchemaGroupedMessagesGrouping, GRPSchemaProducerMetadata, NSArray, NSData;
+@class GRPSchemaGroupedMessagesGrouping;
 
 @interface GRPSchemaGroupedMessagesClientEvent : SISchemaTopLevelUnionType
 {
     GRPSchemaGroupedMessagesGrouping *_groupedBy;
-    GRPSchemaProducerMetadata *_producerMetadata;
-    NSArray *_orderedMessages;
-    _Bool _hasGroupedBy;
-    _Bool _hasProducerMetadata;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -32,29 +28,24 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)B;
 - (void);
 - (id);
-- (int);
+- (int)T@"NSString",C,V_regionCode;
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)tk_constrainLayoutAttribute:asGreaterThanOrEqualToValueOfItem:withOffset: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)LOCATION_AGE_LESS_THAN_1HR;
 - (id)oteDarwinHeySiriEnabled"b1"isAutoPunctuationEnabled"b1"isHSHangupEnabled"b1"isSiriInCallEnabled"b1"hsHangupEnablementState"b1"siriInCallEnablementState"b1"isAlwaysShowSiriCaptionsEnabled"b1"isAlwaysShowSpeechEnabled"b1"isShowAppsBehindSiriEnabled"b1"siriSpeechRate"b1"isVoiceOverEnabled"b1"isShowAppsBehindSiriEnabledOnCarPlay"b1"isSiriCapableDigitalCarKeyAvailable"b1"isAlwaysListenForHeySiriEnabled"b1"siriPauseTimeState"b1"isMteUploadEnabled"b1"isServerUserDataSyncEnabled"b1"locationAccessPermission"b1};
-- (id)ngContext;
+- (id)hasUeiUserSpeakingContext;
 - (id)ocations;
 - (id)ß;
 - (void)8óÅÿQX;
 
 // Remaining properties
 @property(retain, nonatomic) GRPSchemaGroupedMessagesGrouping *groupedBy; // @synthesize groupedBy=_groupedBy;
-@property(nonatomic) _Bool hasGroupedBy; // @synthesize hasGroupedBy=_hasGroupedBy;
-@property(nonatomic) _Bool hasProducerMetadata; // @synthesize hasProducerMetadata=_hasProducerMetadata;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *orderedMessages; // @synthesize orderedMessages=_orderedMessages;
-@property(retain, nonatomic) GRPSchemaProducerMetadata *producerMetadata; // @synthesize producerMetadata=_producerMetadata;
 
 @end
 

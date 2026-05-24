@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IFDCustomizationItem, IFDTarget, IFDocument, IFSearchContext, NSDictionary, NSMutableDictionary, NSString, PKDistributionChoiceItem, PKDistributionController, PKDistributionHelperController;
+@class PKDistributionController;
 
 @interface IFJS_Context
 {
     PKDistributionController *distributionController;
-    PKDistributionChoiceItem *choiceItem;
-    NSMutableDictionary *result;
-    NSString *destinationPath;
-    _Bool allowInsecure;
-    NSDictionary *systemVersionToBeInstalled;
-    NSDictionary *evaluatorMetaInfo;
-    _Bool legacySystemVersion;
-    IFDCustomizationItem *currentChoice;
-    id choicesDelegate;
-    IFDTarget *target;
-    _Bool targetContentIgnored;
-    IFDocument *document;
-    struct __CFBundle *currentBundle;
-    NSString *distributionScriptsPath;
-    IFSearchContext *searchContext;
-    PKDistributionHelperController *_helperController;
 }
 
 - (_Bool);
@@ -34,15 +18,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -60,28 +44,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)A;
 - (id);
 - (void);
 
 // Remaining properties
-@property _Bool allowInsecure; // @synthesize allowInsecure;
-@property __weak PKDistributionChoiceItem *choiceItem; // @synthesize choiceItem;
-@property id choicesDelegate; // @synthesize choicesDelegate;
-@property struct __CFBundle *currentBundle;
-@property IFDCustomizationItem *currentChoice; // @synthesize currentChoice;
-@property(retain) NSString *destinationPath; // @synthesize destinationPath;
 @property __weak PKDistributionController *distributionController; // @synthesize distributionController;
-@property(retain) NSString *distributionScriptsPath; // @synthesize distributionScriptsPath;
-@property IFDocument *document; // @synthesize document;
-@property(retain) NSDictionary *evaluatorMetaInfo; // @synthesize evaluatorMetaInfo;
-@property(retain) PKDistributionHelperController *helperController; // @synthesize helperController=_helperController;
-@property _Bool legacySystemVersion; // @synthesize legacySystemVersion;
-@property(retain) NSMutableDictionary *result; // @synthesize result;
-@property IFSearchContext *searchContext; // @synthesize searchContext;
-@property(retain) NSDictionary *systemVersionToBeInstalled; // @synthesize systemVersionToBeInstalled;
-@property IFDTarget *target; // @synthesize target;
-@property _Bool targetContentIgnored; // @synthesize targetContentIgnored;
 
 @end
 

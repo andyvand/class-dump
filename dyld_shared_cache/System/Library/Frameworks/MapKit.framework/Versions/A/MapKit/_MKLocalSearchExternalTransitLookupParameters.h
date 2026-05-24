@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSArray, NSDate, NSString;
+@class NSArray;
 
 @interface _MKLocalSearchExternalTransitLookupParameters
 {
     NSArray *_stationCodes;
-    NSString *_sourceIdentifier;
-    NSDate *_transactionDate;
-    CLLocation *_transactionLocation;
 }
 
+- (id)setPowerlogEnergyPrevious: /* Error: Ran out of types for this method. */;
+- (void)cachedPermissionForClientID:(id)arg1 withKey:withType: /* Error: Ran out of types for this method. */;
+- (void)accumulatedCPUEnergy;
+- (id);
+- (id);
+- (void)ExtendedPoorConnectionGroup;
 - (id);
 - (void);
-- (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void)layID: /* Error: Ran out of types for this method. */;
+- (void)setHostDisplayID: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *sourceIdentifier; // @synthesize sourceIdentifier=_sourceIdentifier;
 @property(copy, nonatomic) NSArray *stationCodes; // @synthesize stationCodes=_stationCodes;
-@property(retain, nonatomic) NSDate *transactionDate; // @synthesize transactionDate=_transactionDate;
-@property(retain, nonatomic) CLLocation *transactionLocation; // @synthesize transactionLocation=_transactionLocation;
 
 @end
 

@@ -4,36 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
+@class NSArray, NSString;
 
 @interface SpotlightScheduledReceiverConfig
 {
     NSArray *_fetchAttributes;
-    NSString *_configDescription;
-    _Bool _needsHTML;
-    _Bool _needsText;
-    _Bool _needsLanguage;
-    _Bool _needsUserActivities;
-    _Bool _needsDeletes;
-    NSString *_name;
-    NSString *_versionName;
-    NSNumber *_versionValue;
-    long long _options;
-    NSArray *_processes;
-    NSString *_priority;
-    NSArray *_donationAttributes;
-    NSArray *_requiredAttributes;
-    NSArray *_optionalAttributes;
-    NSArray *_excludeAttributes;
-    NSArray *_supportedBundles;
-    NSArray *_unsupportedBundles;
-    NSArray *_supportedDomainIdentifiers;
-    NSArray *_unsupportedDomainIdentifiers;
-    NSArray *_supportedContentTypes;
-    NSArray *_unsupportedContentTypes;
-    NSString *_supportedQuery;
-    NSString *_unsupportedQuery;
-    NSArray *_defaultAttributes;
 }
 
 - (id);
@@ -43,15 +18,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
+- (void);
+- (void);
+- (void)9;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)/;
 - (void);
 - (void);
 - (void);
@@ -82,47 +57,19 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)OutgoingMessagesPowerAssertion;
 - (id);
 - (long long);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *defaultAttributes; // @synthesize defaultAttributes=_defaultAttributes;
-@property(copy, nonatomic) NSArray *donationAttributes; // @synthesize donationAttributes=_donationAttributes;
-@property(copy, nonatomic) NSArray *excludeAttributes; // @synthesize excludeAttributes=_excludeAttributes;
-@property(readonly, nonatomic) NSArray *fetchAttributes;
 @property(readonly, nonatomic) NSString *identifier;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) _Bool needsDeletes; // @synthesize needsDeletes=_needsDeletes;
-@property(nonatomic) _Bool needsHTML; // @synthesize needsHTML=_needsHTML;
-@property(nonatomic) _Bool needsLanguage; // @synthesize needsLanguage=_needsLanguage;
-@property(nonatomic) _Bool needsText; // @synthesize needsText=_needsText;
-@property(nonatomic) _Bool needsUserActivities; // @synthesize needsUserActivities=_needsUserActivities;
-@property(copy, nonatomic) NSArray *optionalAttributes; // @synthesize optionalAttributes=_optionalAttributes;
-@property(nonatomic) long long options; // @synthesize options=_options;
-@property(copy, nonatomic) NSString *priority; // @synthesize priority=_priority;
-@property(copy, nonatomic) NSArray *processes; // @synthesize processes=_processes;
-@property(readonly, nonatomic) _Bool requireBacklog;
-@property(readonly, nonatomic) _Bool requirePriority;
-@property(copy, nonatomic) NSArray *requiredAttributes; // @synthesize requiredAttributes=_requiredAttributes;
-@property(copy, nonatomic) NSArray *supportedBundles; // @synthesize supportedBundles=_supportedBundles;
-@property(copy, nonatomic) NSArray *supportedContentTypes; // @synthesize supportedContentTypes=_supportedContentTypes;
-@property(copy, nonatomic) NSArray *supportedDomainIdentifiers; // @synthesize supportedDomainIdentifiers=_supportedDomainIdentifiers;
-@property(copy, nonatomic) NSString *supportedQuery; // @synthesize supportedQuery=_supportedQuery;
-@property(readonly, nonatomic) _Bool supportsDeletes;
-@property(copy, nonatomic) NSArray *unsupportedBundles; // @synthesize unsupportedBundles=_unsupportedBundles;
-@property(copy, nonatomic) NSArray *unsupportedContentTypes; // @synthesize unsupportedContentTypes=_unsupportedContentTypes;
-@property(copy, nonatomic) NSArray *unsupportedDomainIdentifiers; // @synthesize unsupportedDomainIdentifiers=_unsupportedDomainIdentifiers;
-@property(copy, nonatomic) NSString *unsupportedQuery; // @synthesize unsupportedQuery=_unsupportedQuery;
-@property(copy, nonatomic) NSString *versionName; // @synthesize versionName=_versionName;
-@property(copy, nonatomic) NSNumber *versionValue; // @synthesize versionValue=_versionValue;
 
 @end
 

@@ -6,8 +6,6 @@
 
 #import <coreroutine/RTStore.h>
 
-@class NSString;
-
 @interface RTAuthorizedLocationVisitLogStore : RTStore
 {
 }
@@ -17,13 +15,13 @@
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long)set;
+- (void)__PCSAccountHasStingrayIdentities;
+- (void)Failed to set new key as current for Service Identity %@;
+- (void)keychain:(long long)arg1 %@;
+- (void)PCSIdentityCopyExternalForm;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -32,13 +30,7 @@
 - (id)£+ËÌ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

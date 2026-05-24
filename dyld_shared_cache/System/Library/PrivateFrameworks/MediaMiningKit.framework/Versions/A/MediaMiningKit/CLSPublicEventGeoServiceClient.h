@@ -10,11 +10,11 @@
 }
 
 - (void);
-- (void);
+- (void)B;
 - (id);
 - (long long);
-- (id);
-- (id);
+- (id)[PGPetWallpaperSuggester] Found %lu assets.;
+- (id)P;
 - (void);
 
 // Remaining properties

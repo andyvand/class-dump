@@ -7,11 +7,6 @@
 @interface TeaUI.ShineOptions
 {
     id identifier;
-    id sizer;
-    id rotateRadians;
-    id transform;
-    id blends;
-    id scale;
 }
 
 @end

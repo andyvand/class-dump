@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface FcuSessionObserver
 {
@@ -27,16 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property _Bool anySessionsStarted; // @synthesize anySessionsStarted=_anySessionsStarted;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) int photoThumbnailMaxDimension;
-@property(readonly) float photoThumbnailQuality;
-@property(readonly) _Bool photoThumbnailQualitySpecified;
-@property(readonly) Class superclass;
 
 @end
 

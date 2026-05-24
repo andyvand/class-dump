@@ -12,13 +12,11 @@ __attribute__((visibility("hidden")))
 @interface _UITabBarItemAppearanceStorage : _UIBarItemAppearanceStorage
 {
     NSMutableDictionary *_badgeTextAttributesForState;
-    UIColor *_badgeColor;
-    struct UIOffset _titleOffset;
 }
 
 - (struct UIOffset);
 - (void);
-- (void);
+- (void)trieve sticker with properties %@, completionBlock %@;
 - (id);
 - (void);
 - (void)0@ù

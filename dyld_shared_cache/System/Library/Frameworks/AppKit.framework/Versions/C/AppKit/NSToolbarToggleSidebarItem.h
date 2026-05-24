@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (id);
+- (void)backgroundAVAssetDownloadTaskDidUpdateProgress:(SEL)arg1 totalBytesWritten:totalBytesExpectedToWrite: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (void){hyÑhbhyLhGGACG;
 - (void)ÿÿÿÿÿÿï;

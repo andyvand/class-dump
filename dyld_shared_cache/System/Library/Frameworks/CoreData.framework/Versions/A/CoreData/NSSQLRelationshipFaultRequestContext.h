@@ -6,13 +6,12 @@
 
 #import <CoreData/NSSQLStoreRequestContext.h>
 
-@class NSManagedObjectID, NSRelationshipDescription;
+@class NSRelationshipDescription;
 
 __attribute__((visibility("hidden")))
 @interface NSSQLRelationshipFaultRequestContext : NSSQLStoreRequestContext
 {
     NSRelationshipDescription *_relationship;
-    NSManagedObjectID *_objectID;
 }
 
 - (void);

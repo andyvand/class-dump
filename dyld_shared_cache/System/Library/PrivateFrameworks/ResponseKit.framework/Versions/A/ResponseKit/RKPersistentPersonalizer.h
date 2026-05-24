@@ -4,35 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSLocale, NSMutableDictionary, NSString, NSURL;
-@protocol RKDisplayStringsProvider;
+@class NSString;
 
 @interface RKPersistentPersonalizer
 {
     void *_model;
-    id <RKDisplayStringsProvider> _displayStringsProvider;
-    NSURL *_dynamicDataURL;
-    NSString *_languageID;
-    NSLocale *_languageLocale;
-    NSDate *_lastObservedDynamicDataCreationDate;
-    NSDate *_lastDynamicDataCreationCheckDate;
-    NSMutableDictionary *_synonyms;
 }
 
-+ (void);
-+ (id);
++ (void);
++ (id);
 - (void);
 - (id);
+- (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
-- (id);
 - (void);
+- (id)
+k	
+J;
+- (id);
+- (id);
+- (void),
+
+*;
 - (id);
 - (id);
 - (void *);
@@ -48,13 +44,7 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *dynamicDataURL; // @synthesize dynamicDataURL=_dynamicDataURL;
 @property(copy, nonatomic) NSString *languageID; // @synthesize languageID=_languageID;
-@property(copy, nonatomic) NSLocale *languageLocale; // @synthesize languageLocale=_languageLocale;
-@property(nonatomic) __weak NSDate *lastDynamicDataCreationCheckDate; // @synthesize lastDynamicDataCreationCheckDate=_lastDynamicDataCreationCheckDate;
-@property(nonatomic) __weak NSDate *lastObservedDynamicDataCreationDate; // @synthesize lastObservedDynamicDataCreationDate=_lastObservedDynamicDataCreationDate;
-@property(readonly) void *model;
-@property(copy, nonatomic) NSMutableDictionary *synonyms; // @synthesize synonyms=_synonyms;
 
 @end
 

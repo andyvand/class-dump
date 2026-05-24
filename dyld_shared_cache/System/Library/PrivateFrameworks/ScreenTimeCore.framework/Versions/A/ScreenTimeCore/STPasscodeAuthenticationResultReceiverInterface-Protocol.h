@@ -5,5 +5,6 @@
 //
 
 @protocol STPasscodeAuthenticationResultReceiverInterface
+- (void)ULL DEFAULT 0, vpp_org_name TEXT NOT NULL DEFAULT '', sync_redownload_params TEXT NOT NULL DEFAULT '');
 @end
 

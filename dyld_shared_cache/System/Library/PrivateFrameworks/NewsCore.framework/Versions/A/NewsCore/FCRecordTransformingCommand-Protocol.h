@@ -7,9 +7,9 @@
 @class NSArray;
 
 @protocol FCRecordTransformingCommand
+- (NSArray *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *createdOrModifiedRecordIDs;
-@property(readonly, nonatomic) NSArray *deletedRecordIDs;
 @end
 

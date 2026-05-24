@@ -9,7 +9,6 @@
 @interface CRInsightsCodeSection
 {
     NSString *_name;
-    NSString *_description;
 }
 
 - (id);

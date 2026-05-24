@@ -7,33 +7,25 @@
 @interface ChatKit.CKConversationListIndicatorsView
 {
     id indicatorConfiguration;
-    long long orientation;
-    _Bool isHighlighted;
-    id indicatorImageViews;
 }
 
 - (double);
 - (double);
-- (double);
+- (double)d;
 - (struct CGSize);
 - (id);
+- (void);
+- (struct CGSize)?;
 - (void);
-- (struct CGSize);
 - (void);
-- (void);
-- (long long);
+- (long long);
 - (id);
 - (void)þÿR;
 - (void);
 - (_Bool)0;
 
 // Remaining properties
-@property(nonatomic, readonly) struct CGSize intrinsicContentSize;
-@property(nonatomic) _Bool isHighlighted; // @synthesize isHighlighted;
 @property(nonatomic) long long orientation; // @synthesize orientation;
-@property(nonatomic, readonly) double verticalOffsetForCenteringVisibleIndicators;
-@property(nonatomic, readonly) double widthForVisibleIndicators;
-@property(nonatomic, readonly) double xOriginForCenteringWithTrailingSlot;
 
 @end
 

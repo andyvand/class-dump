@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, SFPerson;
+@class SFPerson;
 
 @protocol SFCreateContactCommand
+- (_Bool);
+- (void);
 
 // Remaining properties
-@property(nonatomic) _Bool addToExistingContact;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SFPerson *person;
 @end
 

@@ -5,6 +5,8 @@
 //
 
 @protocol PKProcessAssertionProxy
+- (void);
+- (void (^)(void))T;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType invalidationHandler;

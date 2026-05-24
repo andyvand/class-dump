@@ -8,13 +8,13 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)recoverableErrorCount;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)_serverPropertyValueForOption:(id)arg1 log: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

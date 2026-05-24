@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, NSUUID, TUConversationMember, TUConversationUnreliableMessengerConfig, TUConversationVirtualParticipantConfig, TUHandle;
+@class NSString, NSUUID;
 
 @interface TUConversationActivitySessionContainer
 {
     NSUUID *_UUID;
-    NSUUID *_groupUUID;
-    long long _state;
-    NSSet *_activitySessions;
-    NSSet *_remoteMembers;
-    TUConversationMember *_localMember;
-    TUHandle *_initiator;
-    unsigned long long _localParticipantIdentifier;
-    NSSet *_virtualParticipants;
-    TUConversationVirtualParticipantConfig *_virtualParticipantConfig;
-    TUConversationUnreliableMessengerConfig *_unreliableMessengerConfig;
-    NSSet *_activeRemoteParticipants;
-    unsigned long long _capabilities;
 }
 
 + (_Bool);
@@ -33,48 +21,35 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)e::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RefPtr<WebKit::ProcessAssertion>>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RefPtr<WebKit::ProcessAssertion>>>, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RefPtr<WebKit::ProcessAssertion>>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RefPtr<WebKit::ProcessAssertion>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RefPtr<WebKit::ProcessAssertion>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RefPtr<WebKit::ProcessAssertion>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
+- (id)v;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)(;
 - (void);
 - (void);
 - (long long);
 - (_Bool);
 - (void);
-- (id);
+- (id)";
 - (id);
 - (unsigned long long);
 - (void);
-- (void)etFaceTimeAudioAvailable: /* Error: Ran out of types for this method. */;
+- (void)setFaceTimeAudioAvailable: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(copy, nonatomic) NSSet *activeRemoteParticipants; // @synthesize activeRemoteParticipants=_activeRemoteParticipants;
-@property(copy, nonatomic) NSSet *activitySessions; // @synthesize activitySessions=_activitySessions;
-@property(nonatomic) unsigned long long capabilities; // @synthesize capabilities=_capabilities;
 @property(nonatomic, readonly) NSString *capabilitiesDescription;
-@property(retain, nonatomic) NSUUID *groupUUID; // @synthesize groupUUID=_groupUUID;
-@property(retain, nonatomic) TUHandle *initiator; // @synthesize initiator=_initiator;
-@property(retain, nonatomic) TUConversationMember *localMember; // @synthesize localMember=_localMember;
-@property(nonatomic) unsigned long long localParticipantIdentifier; // @synthesize localParticipantIdentifier=_localParticipantIdentifier;
-@property(copy, nonatomic) NSSet *remoteMembers; // @synthesize remoteMembers=_remoteMembers;
-@property(nonatomic) long long state; // @synthesize state=_state;
-@property(copy, nonatomic) TUConversationUnreliableMessengerConfig *unreliableMessengerConfig; // @synthesize unreliableMessengerConfig=_unreliableMessengerConfig;
-@property(copy, nonatomic) TUConversationVirtualParticipantConfig *virtualParticipantConfig; // @synthesize virtualParticipantConfig=_virtualParticipantConfig;
-@property(copy, nonatomic) NSSet *virtualParticipants; // @synthesize virtualParticipants=_virtualParticipants;
 
 @end
 

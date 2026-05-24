@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol NSAccessibilityButton
+- (_Bool);
 - (NSString *)Ô!c !Cùò#Ð1Â0@ù
 × ;
 @end

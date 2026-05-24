@@ -10,15 +10,15 @@
 {
 }
 
-- (unsigned long long);
-- (unsigned long long);
-- (id);
+- (unsigned long long)klmn;
 - (unsigned long long);
 - (id);
 - (unsigned long long);
+- (id);
 - (unsigned long long);
+- (unsigned long long)e %lu;
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)j;
 - (unsigned long long);
 - (id);
 - (unsigned long long);

@@ -6,15 +6,12 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, UIFont;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface UITextCompletionView : UIView
 {
     NSString *_string;
-    int _type;
-    int _edgeType;
-    UIFont *_textFont;
 }
 
 - (id);

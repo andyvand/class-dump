@@ -4,29 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBDateTimeRangeValue, _INPBIntentMetadata, _INPBLocation;
+@class NSArray, _INPBIntentMetadata, _INPBLocation;
 
 @protocol _INPBUpdateEventIntent
-- (_Bool)ring:alarmRepeatScheduleOptions:sleepAlarmAttribute: /* Error: Ran out of types for this method. */;
+- (void)Ai;
+- (_INPBLocation *)ѿ;
+- (NSArray *);
+- (_Bool){;
+- (_INPBIntentMetadata *)_currentlySelectedDate;
+- (_Bool)initWithIdentifier:dateTime:label:enabled:firing:alarmRepeatScheduleOptions:sleepAlarmAttribute: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *addParticipants;
-@property(readonly, nonatomic) unsigned long long addParticipantsCount;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasRemoveLocation;
-@property(readonly, nonatomic) _Bool hasSetDateTimeRange;
-@property(readonly, nonatomic) _Bool hasSetLocation;
-@property(readonly, nonatomic) _Bool hasSetTitle;
-@property(readonly, nonatomic) _Bool hasTargetEventIdentifier;
-@property(nonatomic) _Bool hasUpdateAllOccurrences;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(nonatomic) _Bool removeLocation;
-@property(copy, nonatomic) NSArray *removeParticipants;
-@property(readonly, nonatomic) unsigned long long removeParticipantsCount;
-@property(retain, nonatomic) _INPBDateTimeRangeValue *setDateTimeRange;
-@property(retain, nonatomic) _INPBLocation *setLocation;
-@property(copy, nonatomic) NSString *setTitle;
-@property(copy, nonatomic) NSString *targetEventIdentifier;
-@property(nonatomic) _Bool updateAllOccurrences;
 @end
 

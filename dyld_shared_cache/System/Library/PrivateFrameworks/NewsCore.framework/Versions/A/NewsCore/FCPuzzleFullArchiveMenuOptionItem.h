@@ -9,22 +9,16 @@
 @interface FCPuzzleFullArchiveMenuOptionItem
 {
     NSString *_title;
-    NSString *_icon;
-    unsigned long long _level;
-    long long _difficultyIndex;
 }
 
 - (id);
 - (long long);
 - (id);
-- (id)ct: /* Error: Ran out of types for this method. */;
+- (id)performSelector:withObject: /* Error: Ran out of types for this method. */;
 - (void)s/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCArticleHeadline.m;
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) long long difficultyIndex; // @synthesize difficultyIndex=_difficultyIndex;
-@property(readonly, nonatomic) NSString *icon; // @synthesize icon=_icon;
-@property(readonly, nonatomic) unsigned long long level; // @synthesize level=_level;
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

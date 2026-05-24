@@ -6,35 +6,32 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface FLSchemaFLClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_flId;
-    _Bool _hasFlId;
 }
 
 - (void);
 - (void);
 - (id);
+- (void);
+- (_Bool);
+- (id)s/OAHSoftwareUpdate.framework/Versions/A/OAHSoftwareUpdate;
+- (id);
 - (void);
+- (unsigned long long)e;
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)#;
 - (id)iriLocale"b1"uiScale"b1"isNavigationMode"b1"temperatureScale"b1"measurementSystem"b1"installedAppsSignatureLength"b1"heySiriEnabled"b1"locationAgeInSeconds"b1"locationSource"b1"locationPreciseStatus"b1};
-- (id)mbiguationRejected;
+- (id)_hasValueDisambiguationRejected;
 - (id)hÈ¤È;
 - (void)é$;
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *flId; // @synthesize flId=_flId;
-@property(nonatomic) _Bool hasFlId; // @synthesize hasFlId=_hasFlId;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

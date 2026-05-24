@@ -6,18 +6,12 @@
 
 #import <FinderKit/FI_IPropertyValueController.h>
 
-@class FI_TQLMultiPreviewView, FI_TQLMultiPreviewViewCommonDelegate, FI_TQLPreviewViewZoomController, NSString;
+@class FI_TQLMultiPreviewView;
 
 __attribute__((visibility("hidden")))
 @interface FI_TPropertyQLPreviewViewController : FI_IPropertyValueController
 {
     FI_TQLMultiPreviewView *_multiPreviewView;
-    struct shared_ptr<TQLPreviewViewQTEjectHelper> _ejectHelper;
-    FI_TQLPreviewViewZoomController *_zoomController;
-    FI_TQLMultiPreviewViewCommonDelegate *_previewViewCommonDelegate;
-    struct shared_ptr<TDisableScreenUpdatesInWindow> _previewDrawingSynchronizer;
-    struct TNotificationCenterObserver _timeMachineWillStartObserver;
-    struct TKeyValueBinder _previewItemBinder;
 }
 
 - (void);
@@ -29,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)w;
 - (struct TFENodeVector);
 - (void);
 - (void);
@@ -37,30 +31,23 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (struct TFENode);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)h;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic) struct TFENode browserTargetNode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

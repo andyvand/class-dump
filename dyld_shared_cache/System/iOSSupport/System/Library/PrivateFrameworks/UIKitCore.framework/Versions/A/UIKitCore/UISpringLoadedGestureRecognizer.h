@@ -6,8 +6,6 @@
 
 #import <UIKitCore/UIDragGestureRecognizer.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface UISpringLoadedGestureRecognizer : UIDragGestureRecognizer
 {
@@ -17,21 +15,15 @@ __attribute__((visibility("hidden")))
 - (_Bool)1Â0@ù
 × ;
 - (_Bool);
-- (struct CGPoint);
-- (void)iningViewWithTextField:(id)arg1 position: /* Error: Ran out of types for this method. */;
-- (void)derConfig;
-- (_Bool)ure;
+- (struct CGPoint)cloudKitShareMetadata;
+- (void)_textFieldContainingViewWithTextField:(id)arg1 position: /* Error: Ran out of types for this method. */;
+- (void)_inheritedRenderConfig;
+- (_Bool)_UISingleFingerTapExtensionGesture;
 - (void),,;
 - (void)d;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -11,8 +11,8 @@
 
 + (id);
 + (id);
-- (id);
-- (void);
+- (id);
+- (void)!(cjCcc@e	;
 - (id);
 - (id);
 

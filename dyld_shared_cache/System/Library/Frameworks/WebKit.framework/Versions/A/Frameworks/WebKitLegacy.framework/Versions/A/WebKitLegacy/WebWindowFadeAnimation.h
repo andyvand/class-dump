@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSWindow;
-
 __attribute__((visibility("hidden")))
 @interface WebWindowFadeAnimation
 {
     double _initialAlpha;
-    double _finalAlpha;
-    NSWindow *_window;
-    _Bool _isStopped;
 }
 
 - (id);
@@ -21,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (void);
-- (void)ctedString;
+- (void)_selectedString;
 
 @end
 

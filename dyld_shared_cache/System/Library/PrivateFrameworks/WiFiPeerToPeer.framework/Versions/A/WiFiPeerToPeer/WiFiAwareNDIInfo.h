@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WiFiMACAddress;
+@class NSString;
 
 @interface WiFiAwareNDIInfo
 {
     unsigned char _security;
-    unsigned int _sessionCount;
-    unsigned int _qosType;
-    NSString *_ndiName;
-    WiFiMACAddress *_ndiAddr;
 }
 
 + (_Bool);
@@ -29,11 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) WiFiMACAddress *ndiAddr; // @synthesize ndiAddr=_ndiAddr;
 @property(readonly, nonatomic) NSString *ndiName; // @synthesize ndiName=_ndiName;
-@property(readonly, nonatomic) unsigned int qosType; // @synthesize qosType=_qosType;
-@property(readonly, nonatomic) unsigned char security; // @synthesize security=_security;
-@property(readonly, nonatomic) unsigned int sessionCount; // @synthesize sessionCount=_sessionCount;
 
 @end
 

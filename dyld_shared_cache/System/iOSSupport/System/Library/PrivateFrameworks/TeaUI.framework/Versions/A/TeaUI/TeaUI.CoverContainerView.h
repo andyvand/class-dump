@@ -7,12 +7,11 @@
 @interface TeaUI.CoverContainerView
 {
     id view;
-    id keyboardInfo;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)navigationChromeSeparatorDarkModeColor;
+- (id)setTodaySectionConfigs:(struct CGRect)arg1;
 - (void);
 
 @end

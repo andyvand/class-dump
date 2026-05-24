@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _BlastDoorASCodableActivityDataPreview, _BlastDoorASCodableShareLocations;
+@class _BlastDoorASCodableActivityDataPreview;
 
 @interface _BlastDoorASCodableInviteResponse
 {
     _BlastDoorASCodableActivityDataPreview *_activityDataPreview;
-    NSString *_handshakeToken;
-    NSString *_inviteeBuildNumber;
-    NSString *_inviteeCloudKitAddress;
-    _BlastDoorASCodableShareLocations *_inviteeShareLocations;
-    unsigned int _inviteeVersion;
-    int _responseCode;
-    struct {
-        unsigned int inviteeVersion:1;
-        unsigned int responseCode:1;
-    } _has;
 }
 
 - (void);
@@ -42,8 +32,8 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (void);
+- (id);
+- (void)A;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -56,20 +46,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) _BlastDoorASCodableActivityDataPreview *activityDataPreview; // @synthesize activityDataPreview=_activityDataPreview;
-@property(retain, nonatomic) NSString *handshakeToken; // @synthesize handshakeToken=_handshakeToken;
-@property(readonly, nonatomic) _Bool hasActivityDataPreview;
 @property(readonly, nonatomic) _Bool hasHandshakeToken;
-@property(readonly, nonatomic) _Bool hasInviteeBuildNumber;
-@property(readonly, nonatomic) _Bool hasInviteeCloudKitAddress;
-@property(readonly, nonatomic) _Bool hasInviteeShareLocations;
-@property(nonatomic) _Bool hasInviteeVersion;
-@property(nonatomic) _Bool hasResponseCode;
-@property(retain, nonatomic) NSString *inviteeBuildNumber; // @synthesize inviteeBuildNumber=_inviteeBuildNumber;
-@property(retain, nonatomic) NSString *inviteeCloudKitAddress; // @synthesize inviteeCloudKitAddress=_inviteeCloudKitAddress;
-@property(retain, nonatomic) _BlastDoorASCodableShareLocations *inviteeShareLocations; // @synthesize inviteeShareLocations=_inviteeShareLocations;
-@property(nonatomic) unsigned int inviteeVersion; // @synthesize inviteeVersion=_inviteeVersion;
-@property(nonatomic) int responseCode; // @synthesize responseCode=_responseCode;
 
 @end
 

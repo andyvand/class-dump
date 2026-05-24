@@ -13,7 +13,7 @@
 
 - (id);
 - (void)× ;
-- (void)y;
+- (void)AFHomeInfoMutability;
 
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABPerson, IMPerson, NSString;
+@class IMPerson, NSString;
 
 @interface SOBlockListItem
 {
     NSString *_address;
-    void *_cmfItem;
-    IMPerson *_person;
-    NSString *_cachedFormattedHandle;
-    NSString *_cachedFormattedPersonName;
 }
 
 - (id);
@@ -31,21 +27,16 @@
 - (id);
 - (void *);
 - (id);
+- (void)setText:subject:addresses:chatGUID:groupName: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (id)Xd;
 - (id);
 - (id);
 - (id);
-- (id);
 - (void);
-- (void);
+- (void)setPresentingWindow: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) ABPerson *abPerson;
-@property(retain, nonatomic) NSString *address; // @synthesize address=_address;
-@property(retain, nonatomic) NSString *cachedFormattedHandle; // @synthesize cachedFormattedHandle=_cachedFormattedHandle;
-@property(retain, nonatomic) NSString *cachedFormattedPersonName; // @synthesize cachedFormattedPersonName=_cachedFormattedPersonName;
-@property(nonatomic) void *cmfItem; // @synthesize cmfItem=_cmfItem;
 @property(retain, nonatomic) IMPerson *person; // @synthesize person=_person;
 
 @end

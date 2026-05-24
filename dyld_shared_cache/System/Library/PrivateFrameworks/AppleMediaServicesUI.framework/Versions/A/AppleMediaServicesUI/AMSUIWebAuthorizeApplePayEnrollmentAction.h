@@ -6,34 +6,29 @@
 
 #import <AppleMediaServicesUI/AMSUIWebAction.h>
 
-@class NSDictionary, NSNumber, NSString;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebAuthorizeApplePayEnrollmentAction : AMSUIWebAction
 {
     NSNumber *_confirmationStyle;
-    NSString *_passSerialNumber;
-    NSString *_passTypeIdentifier;
-    NSDictionary *_paymentSession;
 }
 
+- (id)50
+;
 - (id);
-- (id);
+- (void)"8@16@"NSString"24@"NSMergeConflict"32;
+- (void)Set"8^B16;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)userFeedbackFeature;
+- (id)rror serializing expected client state;
+- (id)bnails must only be called by assetsd;
+- (id)PLSearchSuggestionPropertySuggestionType;
 - (id);
 - (void)y"24;
 
 // Remaining properties
 @property(retain) NSNumber *confirmationStyle; // @synthesize confirmationStyle=_confirmationStyle;
-@property(retain) NSString *passSerialNumber; // @synthesize passSerialNumber=_passSerialNumber;
-@property(retain) NSString *passTypeIdentifier; // @synthesize passTypeIdentifier=_passTypeIdentifier;
-@property(retain) NSDictionary *paymentSession; // @synthesize paymentSession=_paymentSession;
 
 @end
 

@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACDManagedAccountType, NSString;
-
 @interface ACDManagedAuthorization
 {
 }
 
 
 // Remaining properties
-@property(retain, nonatomic) ACDManagedAccountType *accountType; // @dynamic accountType;
-@property(retain, nonatomic) NSString *bundleID; // @dynamic bundleID;
-@property(retain, nonatomic) NSString *grantedPermissions; // @dynamic grantedPermissions;
 @property(retain, nonatomic) id options; // @dynamic options;
 @end
 

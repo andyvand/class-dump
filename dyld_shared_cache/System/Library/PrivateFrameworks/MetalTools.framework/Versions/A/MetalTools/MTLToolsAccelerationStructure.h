@@ -6,8 +6,7 @@
 
 #import <MetalTools/MTLToolsResource.h>
 
-@class MTLAccelerationStructureDescriptor, MTLToolsBuffer, NSString;
-@protocol MTLBuffer, MTLDevice, MTLHeap;
+@class MTLToolsBuffer;
 
 @interface MTLToolsAccelerationStructure : MTLToolsResource
 {
@@ -15,7 +14,7 @@
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long)4;
 - (id);
 - (void);
 - (unsigned long long);
@@ -25,37 +24,10 @@
 - (struct MTLResourceID);
 - (id);
 - (unsigned long long);
-- (id)AccelerationStructure:referencedAccelerationStructures:fromBuffer: /* Error: Ran out of types for this method. */;
+- (id)deserializeInstanceAccelerationStructure:referencedAccelerationStructures:fromBuffer: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long accelerationStructureUniqueIdentifier;
-@property(readonly) unsigned long long allocatedSize;
-@property(readonly, nonatomic) id <MTLBuffer> buffer;
-@property(readonly, nonatomic) unsigned long long bufferOffset;
-@property(readonly) unsigned long long cpuCacheMode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) MTLAccelerationStructureDescriptor *descriptor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"MTLAccelerationStructureDescriptor",?,&,N
-
-@property(readonly) id <MTLDevice> device;
-@property(readonly) unsigned long long gpuHandle;
-@property(readonly) struct MTLResourceID gpuResourceID;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long hazardTrackingMode;
-@property(readonly) id <MTLHeap> heap;
-@property(readonly) unsigned long long heapOffset;
-@property(copy) NSString *label;
-@property(readonly, nonatomic) unsigned long long resourceIndex;
-@property(readonly) unsigned long long resourceOptions;
-@property(readonly, nonatomic) unsigned long long size;
-@property(readonly) unsigned long long storageMode;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) unsigned long long uniqueIdentifier;
 
 @end

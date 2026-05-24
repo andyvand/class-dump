@@ -9,11 +9,10 @@
 @interface TRIRolloutDeployment
 {
     int _deploymentId;
-    NSString *_rolloutId;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (id);
@@ -32,8 +31,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) int deploymentId; // @synthesize deploymentId=_deploymentId;
-@property(readonly, nonatomic) NSString *rolloutId; // @synthesize rolloutId=_rolloutId;
 @property(readonly, nonatomic) NSString *shortDesc;
 
 @end

@@ -6,24 +6,12 @@
 
 #import <Vision/VNRequest.h>
 
-@class NSArray, NSString;
-
 @interface VNImageBasedRequest : VNRequest
 {
 }
 
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *inputDetectedObjectObservations;
-@property(copy, nonatomic) NSArray *inputFaceObservations;
 @property(nonatomic) struct CGRect regionOfInterest;
-@property(readonly) Class superclass;
-@property(readonly) NSArray *supportedImageSizeSet;
 @end
 

@@ -7,17 +7,6 @@
 @interface NewsFeed.FormatStateViewNode
 {
     id _identifier;
-    id _size;
-    id resize;
-    id _adjustments;
-    id stateMachineName;
-    id states;
-    id _zIndex;
-    id _visibility;
-    id _isUserInteractionEnabled;
-    id animation;
-    id _selectors;
-    id flex;
 }
 
 @end

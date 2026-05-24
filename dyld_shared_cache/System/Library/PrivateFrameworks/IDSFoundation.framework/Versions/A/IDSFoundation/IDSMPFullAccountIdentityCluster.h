@@ -6,7 +6,7 @@
 
 #import <IDSFoundation/IDSMPIdentity.h>
 
-@class ENGroupID, IDSMPFullAccountIdentity, NSArray, NSData;
+@class ENGroupID;
 
 @interface IDSMPFullAccountIdentityCluster : IDSMPIdentity
 {
@@ -15,7 +15,7 @@
 
 + (id);
 + (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -27,16 +27,11 @@
 - (id);
 - (id);
 - (id);
-- (id)Started;
+- (id)_hasStarted;
 - (struct __SecKey *)ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *forwardingTicket;
-@property(readonly, nonatomic) IDSMPFullAccountIdentity *fullAccountIdentity;
-@property(readonly, nonatomic) NSArray *fullServiceIdentitiesAdmin;
-@property(readonly, nonatomic) NSArray *fullServiceIdentitiesSigning;
 @property(readonly, nonatomic) ENGroupID *groupID;
-@property(readonly, nonatomic) struct __SecKey *publicKey; // @synthesize publicKey=_publicKey;
 
 @end
 

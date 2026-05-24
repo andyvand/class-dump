@@ -6,43 +6,33 @@
 
 #import <AccessibilityUIUtilities/AXUIPlatterContainerView.h>
 
-@class NSArray, NSString, UILabel;
+@class NSString, UILabel;
 
 @interface AXUIBannerView : AXUIPlatterContainerView
 {
     NSString *_secondaryText;
-    UILabel *_textLabel;
-    UILabel *_secondaryTextLabel;
-    NSArray *_withSecondaryTextConstraints;
 }
 
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)e|;
 - (id);
 - (double);
 - (double);
 - (double);
-- (void);
+- (void)h|;
 - (double);
-- (void);
+- (void){z;
 - (id);
 - (id);
 - (void);
 - (id);
+- (void)r:(id)arg1 %@;
 - (void);
-- (void);
-- (id);
+- (id)t does not have a matching constraint in the existing set of constraints. This means that %s was invoked without first invalidating the constraints in response to a state change. Existing constraints:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) double defaultPlatterToTextVerticalSpacing;
-@property(readonly, nonatomic) double defaultTitleToSubtitleVerticalSpacing;
-@property(readonly, nonatomic) double platterToTextHorizontalSpacing;
-@property(retain, nonatomic) NSString *secondaryText; // @synthesize secondaryText=_secondaryText;
-@property(retain, nonatomic) UILabel *secondaryTextLabel; // @synthesize secondaryTextLabel=_secondaryTextLabel;
-@property(retain, nonatomic) NSString *text;
 @property(retain, nonatomic) UILabel *textLabel; // @synthesize textLabel=_textLabel;
-@property(retain, nonatomic) NSArray *withSecondaryTextConstraints; // @synthesize withSecondaryTextConstraints=_withSecondaryTextConstraints;
 
 @end
 

@@ -6,8 +6,6 @@
 
 #import <Vision/VNImageBasedRequest.h>
 
-@class NSArray;
-
 @interface VNDetectRectanglesRequest : VNImageBasedRequest
 {
 }
@@ -31,19 +29,12 @@
 - (float);
 - (void);
 - (long long);
-- (_Bool);
+- (_Bool)Animal;
 - (id);
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) float maximumAspectRatio;
-@property(nonatomic) unsigned long long maximumObservations;
-@property(nonatomic) float minimumAspectRatio;
-@property(nonatomic) float minimumConfidence;
-@property(nonatomic) float minimumSize;
-@property(nonatomic) float quadratureTolerance;
 @property(nonatomic) unsigned long long requiredVersion;
-@property(readonly, copy) NSArray *results; // @dynamic results;
 
 @end
 

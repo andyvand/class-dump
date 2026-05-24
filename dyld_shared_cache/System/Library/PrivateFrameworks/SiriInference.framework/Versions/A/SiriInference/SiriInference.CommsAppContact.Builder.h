@@ -7,10 +7,6 @@
 @interface SiriInference.CommsAppContact.Builder
 {
     id name;
-    id relationship;
-    id handle;
-    id label;
-    id type;
 }
 
 @end

@@ -4,9 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _UITextInteractableItemCache;
+@class UIAction, UITextItemMenuConfiguration, _UITextInteractableItem, _UITextInteractableItemCache;
 
 @protocol _UITextItemInteracting
+- (UIAction *)markHasHadSuccessfulQueryForIDs:(_UITextInteractableItem *)arg1 style:(UIAction *)arg2 onServices: /* Error: Ran out of types for this method. */;
+- (_Bool)deliveryStatusContext;
+- (UITextItemMenuConfiguration *)deleteMessageGUIDs:(_UITextInteractableItem *)arg1;
+
+@optional
+- (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) _UITextInteractableItemCache *_textInteractableItemCache;

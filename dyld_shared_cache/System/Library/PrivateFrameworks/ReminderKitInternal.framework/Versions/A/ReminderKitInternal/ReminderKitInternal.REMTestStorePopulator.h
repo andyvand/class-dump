@@ -7,17 +7,6 @@
 @interface ReminderKitInternal.REMTestStorePopulator
 {
     id store;
-    id accountByName;
-    id listByName;
-    id listSectionByDisplayName;
-    id customSmartListByName;
-    id customSmartListSectionByDisplayName;
-    id templateContentsByName;
-    id templateSectionByDisplayName;
-    id reminderByTitle;
-    id attachmentsByReminderName;
-    id isSingleListMode;
-    id orderedAccountIDs;
 }
 
 @end

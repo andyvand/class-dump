@@ -8,6 +8,12 @@
 {
 }
 
++ (id)enumerateKeysAndObjectsUsingBlock:(unsigned long long)arg1;
++ (id)endAutoTrackingIndividualScreenCursor;
++ (id)elementInfoForElement:(id)arg1 textRange:lineIndex: /* Error: Ran out of types for this method. */;
++ (id)elementControllerForElementAtPoint:(id)arg1;
++ (id);
++ (id)8ԧa;
 + (id);
 + (id);
 + (id);
@@ -23,13 +29,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);

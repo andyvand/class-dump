@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKCandidate, IMKCandidateList;
 @protocol IMKCandidateMenuDelegate;
 
 @protocol IMKCandidateMenu
+- (void);
+- (void);
+- (_Bool)n;
+- (id <IMKCandidateMenuDelegate>);
 
 // Remaining properties
-@property(nonatomic) unsigned long long candidateStyle;
 @property(nonatomic) __weak id <IMKCandidateMenuDelegate> delegate;
-@property(retain, nonatomic) IMKCandidate *focusedCandidate;
-@property(readonly, nonatomic) _Bool isShown;
-@property(readonly, nonatomic) IMKCandidateList *visibleCandidates;
 @end
 

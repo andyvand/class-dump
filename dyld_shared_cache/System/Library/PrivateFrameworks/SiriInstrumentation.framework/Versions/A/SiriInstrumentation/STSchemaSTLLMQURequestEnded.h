@@ -6,22 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, STSchemaLLMQUPerfMetrics, STSchemaLLMQUQueryArguments;
+@class NSString;
 
 @interface STSchemaSTLLMQURequestEnded : SISchemaInstrumentationMessage
 {
     NSString *_modelNumber;
-    unsigned int _requestLength;
-    unsigned int _responseLength;
-    STSchemaLLMQUQueryArguments *_queryArguments;
-    STSchemaLLMQUPerfMetrics *_llmquPerfMetrics;
-    struct {
-        unsigned int requestLength:1;
-        unsigned int responseLength:1;
-    } _has;
-    _Bool _hasModelNumber;
-    _Bool _hasQueryArguments;
-    _Bool _hasLlmquPerfMetrics;
 }
 
 - (void);
@@ -36,14 +25,15 @@
 - (unsigned int);
 - (id);
 - (_Bool);
+- (_Bool)";
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)(qS
+;
 - (id);
 - (unsigned int);
 - (_Bool);
@@ -51,28 +41,18 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)storefrontWithReplyBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)T@"<ABPersonListControllerProtocol>",W,V_personListController;
+- (_Bool)T NULL, uncanonicalized_id TEXT, UNIQUE (id, service) );
 - (id);
 - (id);
-- (id)sureEnded;
-- (id)lientEvent;
-- (void)COFFSET_PLUS_06_00_F;
-- (id)AQNAUSECASE_UNKNOWN;
+- (id)deleteMeasureEnded;
+- (id)_hasRrClientEvent;
+- (void)UTCOFFSET_PLUS_06_00_F;
+- (id)GATMEDIAQNAUSECASE_UNKNOWN;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLlmquPerfMetrics; // @synthesize hasLlmquPerfMetrics=_hasLlmquPerfMetrics;
-@property(nonatomic) _Bool hasModelNumber; // @synthesize hasModelNumber=_hasModelNumber;
-@property(nonatomic) _Bool hasQueryArguments; // @synthesize hasQueryArguments=_hasQueryArguments;
-@property(nonatomic) _Bool hasRequestLength;
-@property(nonatomic) _Bool hasResponseLength;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) STSchemaLLMQUPerfMetrics *llmquPerfMetrics; // @synthesize llmquPerfMetrics=_llmquPerfMetrics;
 @property(copy, nonatomic) NSString *modelNumber; // @synthesize modelNumber=_modelNumber;
-@property(retain, nonatomic) STSchemaLLMQUQueryArguments *queryArguments; // @synthesize queryArguments=_queryArguments;
-@property(nonatomic) unsigned int requestLength; // @synthesize requestLength=_requestLength;
-@property(nonatomic) unsigned int responseLength; // @synthesize responseLength=_responseLength;
 
 @end
 

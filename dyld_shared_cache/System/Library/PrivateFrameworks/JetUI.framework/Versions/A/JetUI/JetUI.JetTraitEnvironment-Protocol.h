@@ -7,6 +7,8 @@
 @class JUTraitCollection;
 
 @protocol JetUI.JetTraitEnvironment
+- (void)z;
+- (JUTraitCollection *){;
 
 // Remaining properties
 @property(nonatomic, readonly) JUTraitCollection *jet_traitCollection;

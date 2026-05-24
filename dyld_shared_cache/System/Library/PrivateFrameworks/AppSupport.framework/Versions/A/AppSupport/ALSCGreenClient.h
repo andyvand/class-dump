@@ -7,17 +7,14 @@
 @interface ALSCGreenClient
 {
     _Bool _cachingAllowed;
-    _Bool _key1Value;
-    _Bool _key2Value;
-    _Bool _key3Value;
 }
 
 - (void);
-- (_Bool);
+- (_Bool)`;
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)a;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -25,9 +22,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool key1Value; // @synthesize key1Value=_key1Value;
-@property(nonatomic) _Bool key2Value; // @synthesize key2Value=_key2Value;
-@property(nonatomic) _Bool key3Value; // @synthesize key3Value=_key3Value;
-@property(readonly, nonatomic) _Bool valuesFinalized;
 
 @end
 

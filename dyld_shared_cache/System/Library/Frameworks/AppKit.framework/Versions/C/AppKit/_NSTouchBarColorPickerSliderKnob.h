@@ -10,35 +10,32 @@ __attribute__((visibility("hidden")))
 @interface _NSTouchBarColorPickerSliderKnob : NSView
 {
     id _autounbinder;
-    _Bool _minimized;
-    _Bool _pressed;
 }
 
++ (id)(|5;
 + (id);
 + (id);
-+ (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)q`;
+- (_Bool)Gw;
+- (id);
+- (id)S;
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)setServiceType: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (oneway void);
-- (void);
-- (struct CGSize);
+- (void)storageURLsAreInTransientState;
+- (struct CGSize)H$;
 - (id)SScrubberItemLayout>"112@"NSSet"120@"NSView"128;
 - (_Bool)@ä;
 - (void),ýÿP;
-- (struct NSEdgeInsets)noredChildren;
+- (struct NSEdgeInsets)AXUnignoredChildren;
 
 // Remaining properties
 @property _Bool minimized; // @synthesize minimized=_minimized;
-@property _Bool pressed; // @synthesize pressed=_pressed;
 
 @end
 

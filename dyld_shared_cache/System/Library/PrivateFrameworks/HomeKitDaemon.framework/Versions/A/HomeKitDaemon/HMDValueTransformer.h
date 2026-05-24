@@ -18,11 +18,11 @@ __attribute__((visibility("hidden")))
 + (Class)addDelegate:queue:interestedPathsForAttributes:interestedPathsForEvents: /* Error: Ran out of types for this method. */;
 + (Class);
 - (_Bool);
+- (id)initWithArray:(id)arg1 copyItems:(id *)arg2;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id)NeedsOnboarding:(id)arg1 withTimeout:(id *)arg2;
+- (id)updateNeedsOnboarding:(id)arg1 withTimeout:(id *)arg2;
 - (id)here is a resident in Home;
 
 @end

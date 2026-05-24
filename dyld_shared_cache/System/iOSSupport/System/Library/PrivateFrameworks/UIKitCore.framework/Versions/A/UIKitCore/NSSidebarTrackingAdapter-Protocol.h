@@ -4,52 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-
 @protocol NSSidebarTrackingAdapter
+- (double)SharedAOPDebugStream;
 
 @optional
-- (_Bool)on;
+- (void).;
+- (void);
+- (_Bool)_UIApplicationDidRemoveDeactivationReasonNotification;
 
 // Remaining properties
-@property(readonly) long long depthOfView;
-@property(readonly) struct CGRect dividerCursorRect;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R
-
-@property(readonly) double dividerWidth;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R
-
-@property(readonly) _Bool isCollapsed;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) _Bool isValidConfiguration;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) double logicalDividerPosition;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R
-
-@property(readonly) double maximumDividerPosition;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R
-
-@property(readonly) double minimumDividerPosition;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R
-
-@property(readonly, getter=isOverlaidAsSidebar) _Bool overlaidAsSidebar;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,GisOverlaidAsSidebar
-
-@property(readonly) NSObject *representedView;
-@property struct NSEdgeInsets sidebarAdditionalSafeAreaInsets;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{NSEdgeInsets=dddd},?
-
 @property(readonly) double sidebarDividerPosition;
 @end
 

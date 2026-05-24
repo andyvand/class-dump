@@ -12,11 +12,6 @@
 
 
 // Remaining properties
-@property(retain) id byValue;
-@property double endAngle;
-@property(retain) id fromValue;
 @property _Bool roundsToInteger;
-@property double startAngle;
-@property(retain) id toValue;
 @end
 

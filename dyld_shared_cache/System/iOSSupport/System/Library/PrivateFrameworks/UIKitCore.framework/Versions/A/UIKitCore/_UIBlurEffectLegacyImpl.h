@@ -6,15 +6,12 @@
 
 #import <UIKitCore/_UIBlurEffectImpl.h>
 
-@class UIBlurEffect, UIColor;
+@class UIBlurEffect;
 
 __attribute__((visibility("hidden")))
 @interface _UIBlurEffectLegacyImpl : _UIBlurEffectImpl
 {
     long long _style;
-    UIColor *_tintColor;
-    _Bool _invertAutomaticStyle;
-    UIBlurEffect *_effect;
 }
 
 - (long long);
@@ -23,10 +20,10 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)!DùQdð1Â0@ù
 × ;
-- (_Bool)oad:(id)arg1;
-- (void)sk:(id)arg1;
+- (_Bool)setResponderToReload:(id)arg1;
+- (void)performTask:(id)arg1;
 - (id)Label,V_secondaryTextLabel;
-- (void)orPreferredLanguages;
+- (void)ASCIICapableInputModeIdentifierForPreferredLanguages;
 - (id)ÿÿ\êÿ;
 - (_Bool)havior for _initWithLayer:(id)arg1;
 - (id)7SgIegnr_;

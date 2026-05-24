@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
+@class NSArray;
 
 @interface AVCAudioPowerSpectrum
 {
     float _minFrequency;
-    float _maxFrequency;
-    NSMutableArray *_channels;
-    long long _sourceType;
 }
 
 + (_Bool)nTimestamp"I}"dropAck"{?="transactionID"S"totalNumDropped"S"numberOfPayloadTypes"S"PTSpecific"[6{?="payloadType"C"numberOfPacketDropped"S"awDroppedSN"[500S]}]}"codecRateChange"{?="currentBitrate"S"suggestedBitrate"S})};
-- (void);
+- (void);
 - (void);
 - (float);
 - (float);
@@ -28,9 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *channels; // @synthesize channels=_channels;
-@property(readonly, nonatomic) float maxFrequency; // @synthesize maxFrequency=_maxFrequency;
-@property(readonly, nonatomic) float minFrequency; // @synthesize minFrequency=_minFrequency;
-@property(readonly, nonatomic) long long sourceType; // @synthesize sourceType=_sourceType;
 
 @end
 

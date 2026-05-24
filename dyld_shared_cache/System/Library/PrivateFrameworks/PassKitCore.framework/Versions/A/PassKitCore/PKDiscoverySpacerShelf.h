@@ -16,10 +16,10 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)hasUserAuthenMethod;
+- (void)k;
 - (long long);
-- (id)ufferMinutes;
+- (id)_runwayBufferMinutes;
 
 // Remaining properties
 @property(readonly, nonatomic) long long spacerType; // @synthesize spacerType=_spacerType;

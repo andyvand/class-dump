@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, NSString;
-
 @interface _UXCollectionViewItemKey
 {
     unsigned long long _hash;
-    NSIndexPath *_indexPath;
-    NSString *_identifier;
-    _Bool _isClone;
-    unsigned long long _type;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 - (id);
 - (void);
 - (id);
@@ -36,9 +30,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, retain, nonatomic) NSIndexPath *indexPath; // @synthesize indexPath=_indexPath;
-@property(readonly, nonatomic) _Bool isClone; // @synthesize isClone=_isClone;
 @property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSDate;
+@class NSDate;
 
 @interface _CDSpotlightCachedContact
 {
     NSDate *_expirationDate;
-    CNContact *_contact;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)ace_count >= 0;
+- (id)6-Y;
 - (id);
 - (void)ñ©3ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CNContact *contact; // @synthesize contact=_contact;
 @property(copy, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
 
 @end

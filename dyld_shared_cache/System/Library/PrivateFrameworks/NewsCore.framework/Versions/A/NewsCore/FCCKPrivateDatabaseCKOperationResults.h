@@ -4,36 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCThreadSafeMutableArray, NSArray, NSError, NSObject;
+@class NSObject;
 @protocol OS_dispatch_group;
 
 @interface FCCKPrivateDatabaseCKOperationResults
 {
     NSObject<OS_dispatch_group> *_group;
-    FCThreadSafeMutableArray *_threadSafeItems;
-    FCThreadSafeMutableArray *_threadSafeErrorsAndItemIDs;
 }
 
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)Jq;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id)ingConfig;
+- (id)orkSettings;
+- (id)sportsEventTopicGroupScoringConfig;
 - (void)T@"NSDictionary",R,N,V_shadowSportsEventTopicGroupScoringConfig;
 - (void)/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCCKMultiFeedQueryOperation.m;
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *combinedError;
-@property(readonly, nonatomic) NSArray *combinedResultItems;
 @property(retain, nonatomic) NSObject<OS_dispatch_group> *group; // @synthesize group=_group;
-@property(retain, nonatomic) FCThreadSafeMutableArray *threadSafeErrorsAndItemIDs; // @synthesize threadSafeErrorsAndItemIDs=_threadSafeErrorsAndItemIDs;
-@property(retain, nonatomic) FCThreadSafeMutableArray *threadSafeItems; // @synthesize threadSafeItems=_threadSafeItems;
 
 @end
 

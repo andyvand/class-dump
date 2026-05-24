@@ -8,8 +8,8 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id)ccCountNonAPSender;
++ (id)dataPort;
 
 @end
 

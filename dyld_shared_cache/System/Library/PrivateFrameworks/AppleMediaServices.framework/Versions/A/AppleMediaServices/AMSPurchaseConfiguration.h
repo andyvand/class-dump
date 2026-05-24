@@ -7,11 +7,6 @@
 @interface AMSPurchaseConfiguration
 {
     id kAutoEnrollRetryKey;
-    id kDPANEmptyIdentifier;
-    id applePayBagModel;
-    id expressCheckoutBagModel;
-    id biometricsProvider;
-    id systemProvider;
 }
 
 + (void);
@@ -24,7 +19,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool isExpressCheckoutEligible;
-@property(nonatomic, readonly) _Bool isExpressCheckoutShouldCheckForWalletBiometrics;
 
 @end
 

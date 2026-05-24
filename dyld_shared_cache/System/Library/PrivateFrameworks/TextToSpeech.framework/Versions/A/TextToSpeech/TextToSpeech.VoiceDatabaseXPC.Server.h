@@ -7,9 +7,6 @@
 @interface TextToSpeech.VoiceDatabaseXPC.Server
 {
     id $defaultActor;
-    id daemon;
-    id listener;
-    id downloads;
 }
 
 @end

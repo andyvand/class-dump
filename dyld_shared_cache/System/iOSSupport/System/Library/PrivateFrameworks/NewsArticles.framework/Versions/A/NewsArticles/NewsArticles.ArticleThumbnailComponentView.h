@@ -7,14 +7,12 @@
 @interface NewsArticles.ArticleThumbnailComponentView
 {
     id linkedContentProvider;
-    id articleThumbnailViewRenderer;
-    id articleThumbnailView;
 }
 
 - (void);
 - (void);
 - (id);
-- (void)r;
+- (void)resolver;
 - (void);
 
 @end

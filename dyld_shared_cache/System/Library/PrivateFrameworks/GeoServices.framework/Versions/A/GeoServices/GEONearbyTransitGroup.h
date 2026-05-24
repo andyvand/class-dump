@@ -9,29 +9,23 @@
 @interface GEONearbyTransitGroup
 {
     PBUnknownFields *_unknownFields;
-    unsigned int _linesShown;
-    unsigned int _lines;
-    struct {
-        unsigned int has_linesShown:1;
-        unsigned int has_lines:1;
-    } _flags;
 }
 
-+ (_Bool)hargingStation:(id)arg1;
++ (_Bool)setHasTripIncludedPreferredChargingStation:(id)arg1;
 - (void);
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (unsigned int);
 - (_Bool);
 - (_Bool);
 - (void);
+- (id)@	ab	a;
 - (id);
-- (id);
+- (void)remoteUsersAtAddress:(_Bool)arg1 name:password:port: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)hotAtTime:(id)arg1 ]_block_invoke;
+- (id)z*;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -45,10 +39,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasLines;
-@property(nonatomic) _Bool hasLinesShown;
-@property(nonatomic) unsigned int lines;
-@property(nonatomic) unsigned int linesShown;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

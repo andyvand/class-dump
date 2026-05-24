@@ -7,9 +7,10 @@
 @class NSArray, NSData;
 
 @protocol _SFPBStringDictionary
+- (NSData *)esenter",&,N,V_filePresenter;
+- (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *keyValues;
 @end
 

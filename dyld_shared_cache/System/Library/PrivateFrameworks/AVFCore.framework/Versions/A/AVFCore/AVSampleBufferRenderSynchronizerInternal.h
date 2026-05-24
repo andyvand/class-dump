@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVWeakReference, NSMutableArray, NSObject;
-@protocol AVLoggingIdentifier, OS_dispatch_queue;
+@class AVWeakReference;
 
 __attribute__((visibility("hidden")))
 @interface AVSampleBufferRenderSynchronizerInternal
 {
     AVWeakReference *weakObserver;
-    struct OpaqueCMTimebase *readOnlyTimebase;
-    NSObject<OS_dispatch_queue> *rateQueue;
-    float rate;
-    CDStruct_1b6d18a9 mostRecentlySetTime;
-    NSObject<OS_dispatch_queue> *rendererListQueue;
-    NSMutableArray *renderers;
-    NSMutableArray *timedRenderRemovals;
-    NSObject<OS_dispatch_queue> *figSynchronizerAccessQueue;
-    struct OpaqueFigSampleBufferRenderSynchronizer *figSynchronizer;
-    id <AVLoggingIdentifier> loggingIdentifier;
 }
 
 @end

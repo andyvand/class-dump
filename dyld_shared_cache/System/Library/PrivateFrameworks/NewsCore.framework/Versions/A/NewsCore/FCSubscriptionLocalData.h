@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
+@class NSNumber;
 
 @interface FCSubscriptionLocalData
 {
     NSNumber *_coordinateLatitude;
-    NSNumber *_coordinateLongitude;
-    NSString *_shortName;
-    NSString *_fullName;
-    NSArray *_localEntityData;
 }
 
++ (id)�{"�B;
 + (id);
-+ (id);
 - (id);
 - (id);
 - (id);
@@ -24,15 +20,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)sportsTopStoriesOntologyLevelConfig;
 - (id)SecureCodingErrors;
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *coordinateLatitude; // @synthesize coordinateLatitude=_coordinateLatitude;
-@property(readonly, nonatomic) NSNumber *coordinateLongitude; // @synthesize coordinateLongitude=_coordinateLongitude;
-@property(readonly, copy, nonatomic) NSString *fullName; // @synthesize fullName=_fullName;
-@property(readonly, copy, nonatomic) NSArray *localEntityData; // @synthesize localEntityData=_localEntityData;
-@property(readonly, copy, nonatomic) NSString *shortName; // @synthesize shortName=_shortName;
 
 @end
 

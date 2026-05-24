@@ -9,22 +9,18 @@
 @interface AMSDeviceMessengerFilter
 {
     ACAccount *_account;
-    long long _deviceType;
-    long long _messageType;
 }
 
 - (_Bool);
-- (id);
+- (id)form.;
 - (void);
-- (long long);
+- (long long)_distantLocalEndpoint;
 - (void)PKPaymentRequest",&,V_paymentRequest;
 - (long long)umber",&,V_appVersion;
 - (void)ÙIÙÏÙ°âÙÿÉÙ;
 - (void);
 
 // Remaining properties
-@property(retain) ACAccount *account; // @synthesize account=_account;
-@property long long deviceType; // @synthesize deviceType=_deviceType;
 @property long long messageType; // @synthesize messageType=_messageType;
 
 @end

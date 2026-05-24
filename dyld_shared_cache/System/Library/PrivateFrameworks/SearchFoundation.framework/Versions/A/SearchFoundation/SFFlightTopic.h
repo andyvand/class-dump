@@ -6,7 +6,7 @@
 
 #import <SearchFoundation/SFQueryTopic.h>
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface SFFlightTopic : SFQueryTopic
 {
@@ -17,27 +17,17 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)setCloudAddToPlaylistBehavior:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (void);
+- (void)}@.;
+- (void)initFromCompactAnalysis:(id)arg1 error: /* Error: Ran out of types for this method. */;
 - (id);
-- (void)buttonItem;
+- (void)_buttonItem;
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *identifier;
-@property(readonly, copy, nonatomic) NSString *query;
-@property(readonly, nonatomic) int queryType;
-@property(readonly) Class superclass;
 
 @end
 

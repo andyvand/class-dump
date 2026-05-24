@@ -4,18 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber, NSUUID;
+@class NSData, NSNumber, NSUUID, WPAdvertisingRequest;
 
 @protocol WPXPCClientProtocol
-- (void) ¸;
+- (void)";
 
 @optional
+- (void)2;
+- (void)p;
+- (void)] S/N:(WPAdvertisingRequest *)arg1 [%@] managed:(void (^)(WPAdvertisingRequest *))arg2 %d index:%llu lastConnectedMAC:[%@] acl:%@ ltkMap:%@ ltkIndexMap:%@> /* Error: Ran out of types for this method. */;
+- (void)BluetoothSettings;
 - (void)
 × ;
 - (void);
-- (void)r:(NSData *)arg1;
-- (void)celPeripheralConnection:(NSNumber *)arg1 options: /* Error: Ran out of types for this method. */;
-- (void)d;
+- (void)setAdvStoppedHandler:(NSData *)arg1;
+- (void)cancelPeripheralConnection:(NSNumber *)arg1 options: /* Error: Ran out of types for this method. */;
+- (void)_registered;
 - (void)connection initiator;
 - (void)%d) - subscribed characteristics:(NSUUID *)arg1 %{public}@;
 - (void)f:%@, locked:%d,  rssi:%ld, peers:%@ nearby scan mode:%ld, advbuf:%ld, priority critical:%d, range:%d, usecases:%@ /* Error: Ran out of types for this method. */;

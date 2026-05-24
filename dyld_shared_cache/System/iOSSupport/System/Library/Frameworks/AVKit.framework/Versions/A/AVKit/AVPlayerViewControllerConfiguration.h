@@ -4,38 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface AVPlayerViewControllerConfiguration
 {
     _Bool _prefersFullScreenStyleForEmbeddedMode;
-    _Bool _prefersVideoControlsForAudioPlayback;
-    unsigned long long _excludedControls;
-    NSString *_mediaPresentationSettingsAudioGroupTitle;
-    NSDictionary *_tips;
 }
 
-+ (id);
-- (void);
++ (id)J;
+- (void).G;
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)try.InternalToolDataTypes.LatLonAltGeodetic;
 - (id);
 - (id);
 - (void);
-- (void)TrackedUserInteractions:(id)arg1;
+- (void)_setNumberOfTrackedUserInteractions:(id)arg1;
 
 // Remaining properties
-@property(nonatomic) unsigned long long excludedControls; // @synthesize excludedControls=_excludedControls;
-@property(copy, nonatomic) NSString *mediaPresentationSettingsAudioGroupTitle; // @synthesize mediaPresentationSettingsAudioGroupTitle=_mediaPresentationSettingsAudioGroupTitle;
-@property(nonatomic) _Bool prefersFullScreenStyleForEmbeddedMode; // @synthesize prefersFullScreenStyleForEmbeddedMode=_prefersFullScreenStyleForEmbeddedMode;
-@property(nonatomic) _Bool prefersVideoControlsForAudioPlayback; // @synthesize prefersVideoControlsForAudioPlayback=_prefersVideoControlsForAudioPlayback;
 @property(copy, nonatomic) NSDictionary *tips; // @synthesize tips=_tips;
 
 @end

@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface AVCaptionInternal
 {
     struct OpaqueFigCaptionData *figCaptionData;
-    CDStruct_e83c9415 timeRange;
 }
 
 @end

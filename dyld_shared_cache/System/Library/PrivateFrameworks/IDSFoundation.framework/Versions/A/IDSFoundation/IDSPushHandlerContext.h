@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSSet;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface IDSPushHandlerContext
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSSet *_topics;
-    NSSet *_commands;
-    NSSet *_wakingTopics;
-    NSSet *_opportunisticTopics;
-    NSSet *_nonWakingTopics;
 }
 
 - (id);
@@ -22,7 +17,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)C;
 - (id);
 - (id);
 - (void);
@@ -30,11 +25,7 @@
 - (void)Array:lengthArray:arraySize:localInterfaceIndex:localAddress:destinationAddress:trafficClass:DSCP:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *commands; // @synthesize commands=_commands;
-@property(retain, nonatomic) NSSet *nonWakingTopics; // @synthesize nonWakingTopics=_nonWakingTopics;
-@property(retain, nonatomic) NSSet *opportunisticTopics; // @synthesize opportunisticTopics=_opportunisticTopics;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSSet *wakingTopics; // @synthesize wakingTopics=_wakingTopics;
 
 @end
 

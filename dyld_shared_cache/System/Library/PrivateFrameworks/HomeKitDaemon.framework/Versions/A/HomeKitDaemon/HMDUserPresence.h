@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDDevice, HMDUser, HMDUserPresenceRegion, HMDUserPresenceUpdateReason, NSDate, NSString;
+@class HMDUserPresenceRegion;
 
 __attribute__((visibility("hidden")))
 @interface HMDUserPresence
 {
     HMDUserPresenceRegion *_presenceRegionStatus;
-    HMDUser *_user;
-    HMDDevice *_deviceWhichUpdatedUserPresence;
-    HMDUserPresenceRegion *_rawPresenceRegionStatus;
-    HMDUserPresenceUpdateReason *_presenceUpdateReason;
-    NSDate *_updateTimestamp;
 }
 
 + (_Bool)Ð=Ñì>Ò¼CDÓlFxGÔ´HÕ0IÔI;
@@ -29,32 +24,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id)MSPContainer _clearObjectCacheIfNeeded]_block_invoke;
 - (id);
-- (id);
-- (id);
+- (id)1;
 - (id);
 - (_Bool);
 - (void);
 - (id)network monitor is unreachable;
-- (void)erControlOperationStatusTypeOutOfResourcesError;
-- (id)tabase;
+- (void)HMDNetworkRouterControlOperationStatusTypeOutOfResourcesError;
+- (id)chipAttributeDatabase;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAtHome) _Bool atHome;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) HMDDevice *deviceWhichUpdatedUserPresence; // @synthesize deviceWhichUpdatedUserPresence=_deviceWhichUpdatedUserPresence;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isNotAtHome) _Bool notAtHome;
 @property(retain, nonatomic) HMDUserPresenceRegion *presenceRegionStatus; // @synthesize presenceRegionStatus=_presenceRegionStatus;
-@property(retain, nonatomic) HMDUserPresenceUpdateReason *presenceUpdateReason; // @synthesize presenceUpdateReason=_presenceUpdateReason;
-@property(retain, nonatomic) HMDUserPresenceRegion *rawPresenceRegionStatus; // @synthesize rawPresenceRegionStatus=_rawPresenceRegionStatus;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSDate *updateTimestamp; // @synthesize updateTimestamp=_updateTimestamp;
-@property(readonly, nonatomic) HMDUser *user; // @synthesize user=_user;
 
 @end
 

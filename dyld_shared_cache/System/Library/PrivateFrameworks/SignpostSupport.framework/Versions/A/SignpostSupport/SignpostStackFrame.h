@@ -9,20 +9,18 @@
 @interface SignpostStackFrame
 {
     NSUUID *_symbolOwnerUUID;
-    unsigned long long _offset;
 }
 
-- (id);
+- (id)A;
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long offset; // @synthesize offset=_offset;
 @property(readonly, nonatomic) NSUUID *symbolOwnerUUID; // @synthesize symbolOwnerUUID=_symbolOwnerUUID;
 
 @end

@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOComposedRouteAnchorPoint, NSMutableSet, NSUUID;
+@class GEOComposedRouteAnchorPoint;
 
 __attribute__((visibility("hidden")))
 @interface _GEOAnchorPointListElement
 {
     GEOComposedRouteAnchorPoint *_anchorPoint;
-    NSUUID *_elementID;
-    NSMutableSet *_conjunctElements;
 }
 
 + (_Bool)eg count (%d);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id)teInitializerData;
+- (id)_routeInitializerData;
 - (void)ÿÿÿÿ;
 
 @end

@@ -7,7 +7,6 @@
 @interface NetworkCursor
 {
     struct vector<unsigned long, std::allocator<unsigned long>> _nodeIndexes;
-    unsigned long long _stateType;
 }
 
 - (_Bool);

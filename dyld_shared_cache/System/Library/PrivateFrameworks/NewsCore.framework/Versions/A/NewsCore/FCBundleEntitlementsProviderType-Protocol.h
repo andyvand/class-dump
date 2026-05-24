@@ -7,6 +7,7 @@
 @protocol FCEntitlementsOverrideProviderType;
 
 @protocol FCBundleEntitlementsProviderType
+- (void)size;
 - (void)tory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCResourcesFetchOperation.m;
 
 // Remaining properties

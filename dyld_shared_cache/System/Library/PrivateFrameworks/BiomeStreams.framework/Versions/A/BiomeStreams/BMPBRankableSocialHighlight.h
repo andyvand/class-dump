@@ -4,48 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMPBSocialHighlightContact, NSMutableArray, NSString;
-
 @interface BMPBRankableSocialHighlight
 {
     double _contentCreationSecondsSinceReferenceDate;
-    double _rankingSecondsSinceReferenceDate;
-    double _score;
-    double _syndicationSecondsSinceReferenceDate;
-    NSMutableArray *_applicationIdentifiers;
-    NSString *_attributionIdentifier;
-    NSString *_batchIdentifier;
-    NSMutableArray *_calculatedFeatures;
-    NSString *_clientIdentifier;
-    NSString *_clientVariant;
-    NSString *_displayName;
-    NSString *_domainIdentifier;
-    NSString *_groupPhotoPathDigest;
-    NSString *_highlightIdentifier;
-    int _highlightType;
-    NSString *_originatingDeviceId;
-    unsigned int _rank;
-    NSString *_resolvedUrl;
-    NSString *_resourceUrl;
-    BMPBSocialHighlightContact *_sender;
-    NSString *_sourceBundleId;
-    _Bool _isConversationAutoDonating;
-    _Bool _isPrimary;
-    struct {
-        unsigned int contentCreationSecondsSinceReferenceDate:1;
-        unsigned int rankingSecondsSinceReferenceDate:1;
-        unsigned int score:1;
-        unsigned int syndicationSecondsSinceReferenceDate:1;
-        unsigned int highlightType:1;
-        unsigned int rank:1;
-        unsigned int isConversationAutoDonating:1;
-        unsigned int isPrimary:1;
-    } _has;
 }
 
 + (Class);
 + (Class);
-- (void);
+- (void);
 - (_Bool);
 - (double);
 - (void);
@@ -59,7 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -68,15 +34,15 @@
 - (id);
 - (id);
 - (_Bool);
+- (_Bool)<\;
+- (_Bool);
+- (_Bool)@;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool).;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -99,26 +65,26 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (void);
-- (int);
-- (id);
+- (int)ocolRealtimeInstanceVTable=^?}24i32i36i40{_VCVideoSourceToken=(?={?=b24b8}I)}44@48B56^i60;
+- (id)lags: /* Error: Ran out of types for this method. */;
+- (void)_VCWRS_RecoverData;
 - (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
+- (id);
 - (id);
 - (_Bool);
+- (void);
+- (id);
 - (_Bool);
-- (void);
-- (void);
+- (_Bool);
+- (void)yI0;
+- (void)";
 - (void);
 - (unsigned long long);
 - (void);
@@ -127,65 +93,22 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void),;
 - (void);
 - (id);
 - (id);
 - (double);
-- (_Bool);
+- (_Bool)6;
 - (id);
 - (void)ì;=4? @ôB(DuLvwp{;
-- (_Bool);
+- (_Bool)4;
 - (void)ÿ;
 - (unsigned int):] /* Error: Ran out of types for this method. */;
 - (void)³;
 - (id)äÇÿ2Ð7;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *applicationIdentifiers; // @synthesize applicationIdentifiers=_applicationIdentifiers;
-@property(retain, nonatomic) NSString *attributionIdentifier; // @synthesize attributionIdentifier=_attributionIdentifier;
-@property(retain, nonatomic) NSString *batchIdentifier; // @synthesize batchIdentifier=_batchIdentifier;
-@property(retain, nonatomic) NSMutableArray *calculatedFeatures; // @synthesize calculatedFeatures=_calculatedFeatures;
-@property(retain, nonatomic) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(retain, nonatomic) NSString *clientVariant; // @synthesize clientVariant=_clientVariant;
-@property(nonatomic) double contentCreationSecondsSinceReferenceDate; // @synthesize contentCreationSecondsSinceReferenceDate=_contentCreationSecondsSinceReferenceDate;
-@property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(retain, nonatomic) NSString *domainIdentifier; // @synthesize domainIdentifier=_domainIdentifier;
-@property(retain, nonatomic) NSString *groupPhotoPathDigest; // @synthesize groupPhotoPathDigest=_groupPhotoPathDigest;
-@property(readonly, nonatomic) _Bool hasAttributionIdentifier;
-@property(readonly, nonatomic) _Bool hasBatchIdentifier;
-@property(readonly, nonatomic) _Bool hasClientIdentifier;
-@property(readonly, nonatomic) _Bool hasClientVariant;
-@property(nonatomic) _Bool hasContentCreationSecondsSinceReferenceDate;
-@property(readonly, nonatomic) _Bool hasDisplayName;
-@property(readonly, nonatomic) _Bool hasDomainIdentifier;
-@property(readonly, nonatomic) _Bool hasGroupPhotoPathDigest;
 @property(readonly, nonatomic) _Bool hasHighlightIdentifier;
-@property(nonatomic) _Bool hasHighlightType;
-@property(nonatomic) _Bool hasIsConversationAutoDonating;
-@property(nonatomic) _Bool hasIsPrimary;
-@property(readonly, nonatomic) _Bool hasOriginatingDeviceId;
-@property(nonatomic) _Bool hasRank;
-@property(nonatomic) _Bool hasRankingSecondsSinceReferenceDate;
-@property(readonly, nonatomic) _Bool hasResolvedUrl;
-@property(readonly, nonatomic) _Bool hasResourceUrl;
-@property(nonatomic) _Bool hasScore;
-@property(readonly, nonatomic) _Bool hasSender;
-@property(readonly, nonatomic) _Bool hasSourceBundleId;
-@property(nonatomic) _Bool hasSyndicationSecondsSinceReferenceDate;
-@property(retain, nonatomic) NSString *highlightIdentifier; // @synthesize highlightIdentifier=_highlightIdentifier;
-@property(nonatomic) int highlightType; // @synthesize highlightType=_highlightType;
-@property(nonatomic) _Bool isConversationAutoDonating; // @synthesize isConversationAutoDonating=_isConversationAutoDonating;
-@property(nonatomic) _Bool isPrimary; // @synthesize isPrimary=_isPrimary;
-@property(retain, nonatomic) NSString *originatingDeviceId; // @synthesize originatingDeviceId=_originatingDeviceId;
-@property(nonatomic) unsigned int rank; // @synthesize rank=_rank;
-@property(nonatomic) double rankingSecondsSinceReferenceDate; // @synthesize rankingSecondsSinceReferenceDate=_rankingSecondsSinceReferenceDate;
-@property(retain, nonatomic) NSString *resolvedUrl; // @synthesize resolvedUrl=_resolvedUrl;
-@property(retain, nonatomic) NSString *resourceUrl; // @synthesize resourceUrl=_resourceUrl;
-@property(nonatomic) double score; // @synthesize score=_score;
-@property(retain, nonatomic) BMPBSocialHighlightContact *sender; // @synthesize sender=_sender;
-@property(retain, nonatomic) NSString *sourceBundleId; // @synthesize sourceBundleId=_sourceBundleId;
-@property(nonatomic) double syndicationSecondsSinceReferenceDate; // @synthesize syndicationSecondsSinceReferenceDate=_syndicationSecondsSinceReferenceDate;
 
 @end
 

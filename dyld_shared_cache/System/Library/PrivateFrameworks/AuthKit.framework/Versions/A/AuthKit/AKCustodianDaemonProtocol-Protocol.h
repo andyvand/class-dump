@@ -5,5 +5,6 @@
 //
 
 @protocol AKCustodianDaemonProtocol
+- (void);
 @end
 

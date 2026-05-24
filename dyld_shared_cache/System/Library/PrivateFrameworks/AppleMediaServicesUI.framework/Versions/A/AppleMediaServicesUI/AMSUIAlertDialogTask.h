@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSDialogRequest, NSAlert, NSViewController, NSWindow;
+@class AMSDialogRequest, NSAlert;
 
 @interface AMSUIAlertDialogTask
 {
     AMSDialogRequest *_request;
-    NSViewController *_presentingViewController;
-    NSWindow *_presentingWindow;
-    NSAlert *_alert;
 }
 
 + (id);
@@ -24,17 +21,14 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
-- (void)mMetrics: /* Error: Ran out of types for this method. */;
+- (void)setDidEnqueueClickstreamMetrics: /* Error: Ran out of types for this method. */;
 - (id)y¿=
 =yæ=GGACyÒ=SgGG¡ë=G;
 
 // Remaining properties
 @property __weak NSAlert *alert; // @synthesize alert=_alert;
-@property(readonly) NSViewController *presentingViewController; // @synthesize presentingViewController=_presentingViewController;
-@property(readonly) NSWindow *presentingWindow; // @synthesize presentingWindow=_presentingWindow;
-@property(readonly) AMSDialogRequest *request; // @synthesize request=_request;
 
 @end
 

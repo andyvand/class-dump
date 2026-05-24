@@ -12,14 +12,14 @@
 {
 }
 
-- (void);
-- (void);
+- (void)9hJ;
+- (void)*	*;
 - (struct CGSize);
 - (struct CGRect);
 - (id);
 - (void);
-- (id);
-- (_Bool);
+- (id)archivedTranscription:error: /* Error: Ran out of types for this method. */;
+- (_Bool)teOneToOneBitrateCapsForConnection:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) IMKUISpeechBalloonMask *panelMask; // @dynamic panelMask;

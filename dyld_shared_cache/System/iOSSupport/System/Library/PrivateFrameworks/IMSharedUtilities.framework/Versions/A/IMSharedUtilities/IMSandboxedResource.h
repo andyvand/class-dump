@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface IMSandboxedResource
 {
     long long _sandboxExtensionHandle;
-    id _resource;
-    NSString *_sandboxExtension;
 }
 
 + (Class);
@@ -33,8 +29,6 @@
 - (void)scheduledMessageLastModifiedTime;
 
 // Remaining properties
-@property(retain, nonatomic) id resource; // @synthesize resource=_resource;
-@property(retain, nonatomic) NSString *sandboxExtension; // @synthesize sandboxExtension=_sandboxExtension;
 @property(nonatomic) long long sandboxExtensionHandle; // @synthesize sandboxExtensionHandle=_sandboxExtensionHandle;
 
 @end

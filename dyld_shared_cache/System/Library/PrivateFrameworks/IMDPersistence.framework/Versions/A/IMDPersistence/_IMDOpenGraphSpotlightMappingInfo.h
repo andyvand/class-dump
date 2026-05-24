@@ -9,30 +9,24 @@
 @interface _IMDOpenGraphSpotlightMappingInfo
 {
     NSString *_ogType;
-    NSString *_prefix;
-    NSString *_linkType;
-    NSString *_linkSubType;
 }
 
++ (id);
 + (id);
-+ (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/x509/by_mem.c;
+- (id);
 - (void);
 - (void);
 - (id)P;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *linkSubType; // @synthesize linkSubType=_linkSubType;
-@property(retain, nonatomic) NSString *linkType; // @synthesize linkType=_linkType;
 @property(retain, nonatomic) NSString *ogType; // @synthesize ogType=_ogType;
-@property(retain, nonatomic) NSString *prefix; // @synthesize prefix=_prefix;
 
 @end
 

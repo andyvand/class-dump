@@ -8,8 +8,8 @@
 {
 }
 
-+ (double);
-+ (double);
++ (double)viewController;
++ (double)useAccumulatorsAsPaintFramebuffers;
 
 @end
 

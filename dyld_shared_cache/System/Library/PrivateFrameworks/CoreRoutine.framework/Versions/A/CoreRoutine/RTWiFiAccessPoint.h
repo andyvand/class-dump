@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface RTWiFiAccessPoint
 {
     NSString *_mac;
-    long long _rssi;
-    long long _channel;
-    double _age;
-    NSDate *_date;
 }
 
 @end

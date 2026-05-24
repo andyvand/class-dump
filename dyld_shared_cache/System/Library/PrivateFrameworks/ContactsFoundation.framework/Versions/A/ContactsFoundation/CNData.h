@@ -4,27 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNFileManager, CNURLSessionFactory;
+@class CNFileManager;
 
 @interface CNData
 {
     CNFileManager *_fileManager;
-    CNURLSessionFactory *_sessionFactory;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)intervalManager;
 + (unsigned long long);
 + (id);
 + (id);
-+ (id);
++ (id)emoving:(id)arg1;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)ctionary"32C40B44@?<v@?i>48;
 - (id);
 - (id);
 - (id);
@@ -34,7 +33,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CNFileManager *fileManager; // @synthesize fileManager=_fileManager;
-@property(readonly, nonatomic) CNURLSessionFactory *sessionFactory; // @synthesize sessionFactory=_sessionFactory;
 
 @end
 

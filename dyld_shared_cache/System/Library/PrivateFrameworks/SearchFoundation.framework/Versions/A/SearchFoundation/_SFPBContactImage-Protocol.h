@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSArray, NSData;
 
 @protocol _SFPBContactImage
+- (void);
+- (void)R;
+- (NSData *)NSPredicateVisitor;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *appIconBadgeBundleIdentifier;
 @property(copy, nonatomic) NSArray *contactIdentifiers;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) _Bool threeDTouchEnabled;
 @end
 

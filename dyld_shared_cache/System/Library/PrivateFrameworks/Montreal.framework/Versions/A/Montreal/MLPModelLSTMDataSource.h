@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPSCNNConvolutionDescriptor, NSString;
+@class MPSCNNConvolutionDescriptor;
 
 @interface MLPModelLSTMDataSource
 {
     MPSCNNConvolutionDescriptor *_desc;
-    struct vector<float, std::allocator<float>> _weight;
-    struct vector<float, std::allocator<float>> _bias;
-    unsigned long long _weightID;
-    unsigned long long _columns;
-    unsigned long long _rows;
-    unsigned long long _lstmInputSize;
-    unsigned long long _lstmOutputSize;
 }
 
 - (unsigned long long);
@@ -36,28 +29,17 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)0;
 - (unsigned int);
 - (void *);
-- (id);
+- (id)@	;
 - (void);
-- (void);
+- (void)`;
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
 
 // Remaining properties
-@property unsigned long long columns; // @synthesize columns=_columns;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property unsigned long long lstmInputSize; // @synthesize lstmInputSize=_lstmInputSize;
-@property unsigned long long lstmOutputSize; // @synthesize lstmOutputSize=_lstmOutputSize;
-@property unsigned long long rows; // @synthesize rows=_rows;
-@property(readonly) Class superclass;
 @property unsigned long long weightID; // @synthesize weightID=_weightID;
 
 @end

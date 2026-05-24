@@ -6,61 +6,42 @@
 
 #import <Foundation/NSXPCCoder.h>
 
-@class NSObject, NSXPCConnection, NSXPCInterface;
-@protocol OS_xpc_object;
-
 @interface NSXPCDecoder : NSXPCCoder
 {
     unsigned long long _genericIndex;
-    struct {
-        char *data;
-        unsigned long long dataLen;
-        struct __CFDictionary *objectReferences;
-    } _decoder;
-    NSXPCConnection *_connection;
-    CDStruct_183601bc *_collections[272];
-    CDStruct_1b1be194 _rootObject;
-    Class expectedUnnestedCollectionType;
-    _Bool _strictSecureDecodingEnabled;
-    _Bool _enforceSubclassesMustBeExplicitlyMentionedWhenDecoded;
-    unsigned int _collectionPointer;
-    id _allowedClassesList[272];
-    long long _allowedClassesIndex;
-    NSObject<OS_xpc_object> *_oolObjects;
-    NSXPCInterface *_interface;
 }
 
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)@;
 - (id);
 - (void);
+- (void);
+- (id)`;
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)hannelsPerFrame %d;
 - (const char *);
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)&;
+- (id)@�H;
 - (id);
 - (const char *);
 - (id);
 - (id);
 - (int);
 - (id);
-- (id);
+- (id)fined.;
 - (id);
 - (int);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id)ns:(id)arg1 error:arguments: /* Error: Ran out of types for this method. */;
+- (void)h;
+- (id)_initWithValidatedFormat:(id)arg1 validFormatSpecifiers:options:error:arguments: /* Error: Ran out of types for this method. */;
 - (id)#_#_#`#`#a#a#a#a#a#b#b#c#d#d#d#d#e#e#f#f#g#h#h#i#j#k#l#l#m#m#n#n#o#o#o#p#q#q#q#q#q#r#r#s#t#u#v#w#x#x#x#y#z#z#z#{#{#{#|#|#}#~########################################################### #¡#¡#¢#£#£#¤#¥#¥#¦#¦#¦#§#§#§#§#¨#©#©#ª#«#«#¬#­#®#¯#¯#°#°#±#²#²#³#³#³#´#µ#¶#·#·#·#·#¸#¸#¹#¹#º#»#¼#½#½#¾#¾#¾#¾#¿#À#À#À#À#À#À#Á#Á#Á#Á#Á#Á#Â#Â#Ã#Ã#Ã#Ä#Å#Å#Æ#Ç#Ç#È#È#È#É#É#É#Ê#Ê#Ê#Ê#Ê#Ê#Ê#Ê#Ê#Ê#Ê#Ê#Ê#Ê#Ê#Ë#Ë#Ì#Í#Í#Î#Ï#Ï#Ð#Ñ#Ò#Ò#Ó#Ô#Ô#Ô#Õ#Ö#×#Ø#Ù#Ú#Ú#Ú#Ú#Ú#Û#Û#Û#Û#Ü#Ü#Ü#Ü#Ý#Ý#Þ#Þ#ß#à#á#á#â#â#â#â#â#â#â#ã#ä#ä#å#å#æ#ç#è#é#é#é#ê#ë#ì#í#î#î#ï#ï#ð#ð#ð#ð#ñ#ñ#ò#ò#ó#ó#ô#õ#ö#÷#÷#÷#ø#ù#ù#ù#ú#û#ü#ý#þ#ÿ#;
 - (id)rsssssssstuuvwwwwxxxyzzz{|}~~     ¡¢¢¢¢¢¢££££££££¤¤¥¦¦§¨¨©ªª«¬­­®®®®®®®¯°±²³´´´µµµ¶¶¶··¸¸¸¸¸¹ºººººººººº»¼¼¼½½½½¾¿¿¿ÀÁÁÁÁÁÁÁÁÁÁÁÂÂÂÃÃÄÄÅÆÆÆÆÇÈÈÉÊÊËËËËËËÌÌÍÍÎÏÏÏÏÏÐÑÑÒÒÒÒÒÒÓÓÓÔÔÕÕÕÖÖÖ××ØØØØØØÙÚÚÚÛÜÜÜÜÝÝÞßàààáááááâââãääääääåæçççèéêêêëëìííîîîîîïïðññòóôôõööööööö÷÷øøùùùùúúúúûûûüüüýþÿ;
 - (id) ;

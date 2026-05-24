@@ -6,24 +6,11 @@
 
 #import <UIKitCore/_UIMorphPlatterViewBase.h>
 
-@class NSMutableDictionary, _UIMorphingPlatterAnimatableFloat, _UIPlatterClippingView, _UIPlatterSoftShadowView, _UIPlatterTransformView;
+@class _UIPlatterClippingView;
 
 @interface _UIMorphingPlatterView : _UIMorphPlatterViewBase
 {
     _Bool _allowsElasticMorph;
-    _Bool _frozen;
-    _Bool _contentSizeDidChange;
-    double _overrideCollapsedCornerRadius;
-    double _overrideExpandedCornerRadius;
-    _UIPlatterClippingView *_collapsedClippingView;
-    _UIPlatterTransformView *_collapsedTransformView;
-    _UIPlatterClippingView *_expandedClippingView;
-    _UIPlatterTransformView *_expandedTransformView;
-    NSMutableDictionary *_shadowViews;
-    _UIPlatterSoftShadowView *_pathShadowView;
-    _UIMorphingPlatterAnimatableFloat *_expansionProgress;
-    _UIMorphingPlatterAnimatableFloat *_platterWidth;
-    _UIMorphingPlatterAnimatableFloat *_platterHeight;
 }
 
 - (_Bool);
@@ -57,32 +44,32 @@
 - (double);
 - (double);
 - (_Bool);
-- (void);
+- (void)properties;
+- (id)needToLoadMapsInfoFromDisk;
+- (id)myV1ReadReceiptsReceivedDuringStorageWithQOI;
+- (id)muteChatWithMuteIdentifiers:untilDate:syncToPairedDevice: /* Error: Ran out of types for this method. */;
+- (void)initWithObject:title:queue: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)conversationManager:conversation:receivedActivitySessionEvent: /* Error: Ran out of types for this method. */;
+- (_Bool)baseAttachmentController;
+- (_Bool)_serviceNameForMessage: /* Error: Ran out of types for this method. */;
+- (_Bool)_sendingHandleForOutgoingMessageInChat:fromIdentifier: /* Error: Ran out of types for this method. */;
+- (void)_alternateAttachmentPathIfExists:(double)arg1;
+- (void)SnapTrustedSender,V_fromSnapTrustedSender;
+- (void)GisDiscontinued;
+- (void)_exitRecordID;
+- (void)er",R,N,V_nickNameContainer;
+- (_Bool)0;
 - (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void)(x;
+- (void)ot reset 1-1 chat GUID;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (double);
-- (double);
-- (double);
-- (void);
-- (void);
+- (double)auto reply becuase it does not support CoreTelephony subscriptions;
+- (double)to reply becuase it is not an iPhone;
+- (double)u unknown sender payload list handles;
+- (double)info payloads data to load;
+- (void)faults over allowing %@:(id)arg1 %@;
+- (void)e is:(_Bool)arg1 %@;
 - (_Bool);
 - (void);
 - (void);
@@ -91,25 +78,11 @@
 × ;
 - (_Bool)ð!FùÑgÐ1Â0@ù
 × ;
-- (id)otection;
+- (id)_extensionBundleIdentifierForAppProtection;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowsElasticMorph; // @synthesize allowsElasticMorph=_allowsElasticMorph;
-@property(readonly, nonatomic) _Bool bothViewsAreLikelyOpaque;
 @property(retain, nonatomic) _UIPlatterClippingView *collapsedClippingView; // @synthesize collapsedClippingView=_collapsedClippingView;
-@property(retain, nonatomic) _UIPlatterTransformView *collapsedTransformView; // @synthesize collapsedTransformView=_collapsedTransformView;
-@property(nonatomic) _Bool contentSizeDidChange; // @synthesize contentSizeDidChange=_contentSizeDidChange;
-@property(retain, nonatomic) _UIPlatterClippingView *expandedClippingView; // @synthesize expandedClippingView=_expandedClippingView;
-@property(retain, nonatomic) _UIPlatterTransformView *expandedTransformView; // @synthesize expandedTransformView=_expandedTransformView;
-@property(retain, nonatomic) _UIMorphingPlatterAnimatableFloat *expansionProgress; // @synthesize expansionProgress=_expansionProgress;
-@property(nonatomic, getter=isFrozen) _Bool frozen; // @synthesize frozen=_frozen;
-@property(nonatomic) double overrideCollapsedCornerRadius; // @synthesize overrideCollapsedCornerRadius=_overrideCollapsedCornerRadius;
-@property(nonatomic) double overrideExpandedCornerRadius; // @synthesize overrideExpandedCornerRadius=_overrideExpandedCornerRadius;
-@property(retain, nonatomic) _UIPlatterSoftShadowView *pathShadowView; // @synthesize pathShadowView=_pathShadowView;
-@property(retain, nonatomic) _UIMorphingPlatterAnimatableFloat *platterHeight; // @synthesize platterHeight=_platterHeight;
-@property(retain, nonatomic) _UIMorphingPlatterAnimatableFloat *platterWidth; // @synthesize platterWidth=_platterWidth;
-@property(retain, nonatomic) NSMutableDictionary *shadowViews; // @synthesize shadowViews=_shadowViews;
 
 @end
 

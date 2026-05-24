@@ -4,35 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraNetworkConfig
 {
-    CDUnion_fab80606 _ipv4SockAddress;
-    CDUnion_fab80606 _ipv6SockAddress;
-    _Bool _ipv6;
-    NSString *_ipAddress;
-    NSNumber *_rtpPort;
+    union {
+        struct sockaddr sa;
+        struct sockaddr_in v4;
+        struct sockaddr_in6 v6;
+    } _ipv4SockAddress;
 }
 
 + (id);
-- (void);
-- (void);
+- (void)er] live participant did leave %@;
+- (void)state;
 - (_Bool);
+- (id)!;
+- (id);
+- (void);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id)tinRegistration:(struct _NSZone *)arg1 source:homeMember:context: /* Error: Ran out of types for this method. */;
+- (id)findBulletinRegistration:(struct _NSZone *)arg1 source:homeMember:context: /* Error: Ran out of types for this method. */;
 - (void)ÜÏÿí¢~&àÏÿí¢~&DÍÿí¢~&`÷ÿ;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *ipAddress; // @synthesize ipAddress=_ipAddress;
-@property(nonatomic) _Bool ipv6; // @synthesize ipv6=_ipv6;
-@property(retain, nonatomic) NSNumber *rtpPort; // @synthesize rtpPort=_rtpPort;
 
 @end
 

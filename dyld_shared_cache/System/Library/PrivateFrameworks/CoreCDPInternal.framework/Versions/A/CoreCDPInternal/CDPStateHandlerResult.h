@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
-
 @interface CDPStateHandlerResult
 {
     _Bool _cloudDataProtectionEnabled;
-    _Bool _shouldCompleteSignIn;
-    unsigned long long _peeriCloudKeychainState;
-    NSError *_error;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id):(id)arg1 octagonTrustProxy: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (void);
++ (id)SidebarContainerView;
++ (id)SafariNotificationAgentPrivate;
++ (id)_ASWebAuthenticationSessionRequestServerDelegate;
++ (id)initWithContext:(id)arg1 authProvider:octagonTrustProxy: /* Error: Ran out of types for this method. */;
+- (_Bool)_TtCC6Safari40CompletionListCollectionViewSearchUIItemP33_3E02F67DE46C7ECE4006B5957ECEB52929SearchUIItemAccessibilityView;
+- (void)_TtCC6Safari32CompletionListCollectionViewItem20AccessibilityElement;
+- (void)_TtCC6Safari38CompletionListCollectionViewController17SectionHeaderView;
+- (void)_TtCC6Safari38CompletionListCollectionViewController14CollectionView;
+- (unsigned long long)VisualTabPickerThumbnailDataSource;
+- (_Bool)1;
+- (id)_distributionEvaluationLock;
+- (void)Mqa)a	;
 - (void);
 
 // Remaining properties
 @property _Bool cloudDataProtectionEnabled; // @synthesize cloudDataProtectionEnabled=_cloudDataProtectionEnabled;
-@property(retain) NSError *error; // @synthesize error=_error;
-@property unsigned long long peeriCloudKeychainState; // @synthesize peeriCloudKeychainState=_peeriCloudKeychainState;
-@property _Bool shouldCompleteSignIn; // @synthesize shouldCompleteSignIn=_shouldCompleteSignIn;
 
 @end
 

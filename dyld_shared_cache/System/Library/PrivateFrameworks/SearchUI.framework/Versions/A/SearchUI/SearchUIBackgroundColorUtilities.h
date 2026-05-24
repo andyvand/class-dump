@@ -11,15 +11,15 @@
 + (id);
 + (double);
 + (id);
-+ (void);
-+ (void);
-+ (_Bool);
-+ (id);
++ (void)C;
 + (void);
 + (_Bool);
 + (id);
++ (void);
++ (_Bool);
 + (id);
 + (id);
++ (id)update response has token %@, but was expecting token %@.;
 + (id);
 + (id);
 

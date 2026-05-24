@@ -7,11 +7,9 @@
 @class NSIndexSet;
 
 @protocol NUVisionInstanceSegmentationResult
+- (CDStruct_996ac03c);
 
 // Remaining properties
-@property(readonly, nonatomic) NSIndexSet *backgroundInstances;
-@property(readonly, nonatomic) NSIndexSet *foregroundInstances;
-@property(readonly, nonatomic) NSIndexSet *gatedInstances;
 @property(readonly, nonatomic) NSIndexSet *instances;
 @end
 

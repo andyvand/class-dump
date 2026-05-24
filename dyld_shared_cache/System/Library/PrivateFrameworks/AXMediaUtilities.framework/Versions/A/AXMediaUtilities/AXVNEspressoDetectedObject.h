@@ -7,23 +7,18 @@
 @interface AXVNEspressoDetectedObject
 {
     struct CGRect _bounds;
-    float _confidence;
-    long long _objectType;
 }
 
 - (id);
 - (void);
-- (struct CGPoint);
-- (struct CGRect);
-- (long long);
+- (struct CGPoint)otoAnalysisTestServiceProtocol>";
+- (struct CGRect)SString";
+- (long long)runtimeIssues;
 - (void);
 - (float);
-- (void);
+- (void);
 
 // Remaining properties
-@property struct CGRect bounds; // @synthesize bounds=_bounds;
-@property(readonly) struct CGPoint center;
-@property float confidence; // @synthesize confidence=_confidence;
 @property long long objectType; // @synthesize objectType=_objectType;
 
 @end

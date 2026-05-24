@@ -7,6 +7,7 @@
 @class HMDHomeActivityComingHomeAggregatorState;
 
 @protocol HMDHomeActivityStateAggregatedComingHomeStateProviding
+- (HMDHomeActivityComingHomeAggregatorState *)haredTripServer etaController:didUpdateETAForSharedTrip:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) HMDHomeActivityComingHomeAggregatorState *aggregatedComingHomeState;

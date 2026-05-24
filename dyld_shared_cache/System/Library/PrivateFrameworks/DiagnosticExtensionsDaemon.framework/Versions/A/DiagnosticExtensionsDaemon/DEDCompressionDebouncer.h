@@ -7,13 +7,6 @@
 @interface DEDCompressionDebouncer
 {
     _Bool _finished;
-    CDUnknownBlockType _trigger;
-    double _interval;
-    unsigned long long _lastSentTotalBytes;
-    unsigned long long _lastSentCompressedBytes;
-    unsigned long long _lastKnownTotalBytes;
-    unsigned long long _lastKnownCompressedBytes;
-    double _lastTriggerTime;
 }
 
 - (void);
@@ -29,24 +22,17 @@
 - (id);
 - (double);
 - (void);
-- (_Bool);
+- (_Bool)ackQueue;
 - (CDUnknownBlockType);
 - (double);
+- (void)eHighRecallThreshold(PFSceneTaxonomyNodeRef _Nonnull);
 - (void);
-- (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)localizedDataCollectedSummaryWithLocalization: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool finished; // @synthesize finished=_finished;
-@property(nonatomic) double interval; // @synthesize interval=_interval;
-@property(nonatomic) unsigned long long lastKnownCompressedBytes; // @synthesize lastKnownCompressedBytes=_lastKnownCompressedBytes;
-@property(nonatomic) unsigned long long lastKnownTotalBytes; // @synthesize lastKnownTotalBytes=_lastKnownTotalBytes;
-@property(nonatomic) unsigned long long lastSentCompressedBytes; // @synthesize lastSentCompressedBytes=_lastSentCompressedBytes;
 @property(nonatomic) unsigned long long lastSentTotalBytes; // @synthesize lastSentTotalBytes=_lastSentTotalBytes;
-@property(nonatomic) double lastTriggerTime; // @synthesize lastTriggerTime=_lastTriggerTime;
-@property(copy, nonatomic) CDUnknownBlockType trigger; // @synthesize trigger=_trigger;
 
 @end
 

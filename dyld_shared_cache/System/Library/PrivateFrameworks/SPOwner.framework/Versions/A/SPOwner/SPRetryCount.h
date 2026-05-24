@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface SPRetryCount
 {
     double _decayWaitInterval;
-    unsigned long long _retryCount;
-    NSObject<OS_dispatch_queue> *_serialQueue;
 }
 
 - (void);
@@ -20,17 +15,15 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (id);
-- (id);
+- (id)IMMetricsCollectorEventSavedAttachmentSourceTranscriptContextMenu;
 - (void);
 - (void);
 - (void);
-- (unsigned long long)aryIndex;
+- (unsigned long long)_secondaryIndex;
 - (void);
 
 // Remaining properties
-@property(nonatomic) double decayWaitInterval; // @synthesize decayWaitInterval=_decayWaitInterval;
 @property(nonatomic) unsigned long long retryCount; // @synthesize retryCount=_retryCount;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *serialQueue; // @synthesize serialQueue=_serialQueue;
 
 @end
 

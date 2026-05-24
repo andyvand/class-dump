@@ -4,39 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEORPPoiEnrichmentQueryParameters
 {
     PBUnknownFields *_unknownFields;
-    NSString *_scorecardVersion;
 }
 
-+ (_Bool)lts:(id)arg1;
++ (_Bool)setLegacyPlaceResults:(id)arg1;
 - (void);
-- (id);
+- (id)insertNewObjectInManagedObjectContact: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)iceDelegate>",?,W,N,V_delegate;
 - (id);
 - (unsigned long long);
+- (_Bool)";
 - (_Bool);
-- (_Bool);
-- (void);
+- (void);
 - (id)tureInfo";
-- (id)rReroutedRoutes;
+- (id)clearReroutedRoutes;
 - (id)è;
 - (id)apItemHandle had an unexpected handleType;
 - (void)¢}¬à·O@;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasScorecardVersion;
-@property(retain, nonatomic) NSString *scorecardVersion;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

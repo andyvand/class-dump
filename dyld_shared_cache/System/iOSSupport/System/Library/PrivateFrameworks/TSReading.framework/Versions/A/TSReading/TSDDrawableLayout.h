@@ -6,19 +6,17 @@
 
 #import <TSReading/TSDLayout.h>
 
-@class NSString, TSDBezierPath, TSDWrapPolygon;
+@class TSDWrapPolygon;
 
 @interface TSDDrawableLayout : TSDLayout
 {
     TSDWrapPolygon *mCachedWrapPolygon;
-    TSDBezierPath *mCachedWrapPath;
-    TSDBezierPath *mCachedExternalWrapPath;
 }
 
 - (id);
 - (int);
 - (int);
-- (_Bool);
+- (_Bool)7	;
 - (void);
 - (_Bool);
 - (void);
@@ -26,28 +24,21 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (struct CGRect);
 - (struct CGRect);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (int);
 - (_Bool);
 - (void);
 - (void);
-- (void)sPinchZoom:(id)arg1;
+- (void)setAllowsPinchZoom:(id)arg1;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) _Bool hasAlpha;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

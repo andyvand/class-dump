@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDPersistedAttachmentID, EDPersistedMessageID;
+@class EDPersistedMessageID;
 
 @interface EDIndexedAttachment
 {
     EDPersistedMessageID *messageID;
-    EDPersistedAttachmentID *attachmentID;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)UsoTaskBuilder_noVerb_common_PersonRelationship;
 - (long long);
 - (_Bool);
 - (void)MailClassCVFS;
 - (id)Ø;
 
 // Remaining properties
-@property(nonatomic, readonly) EDPersistedAttachmentID *attachmentID; // @synthesize attachmentID;
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic, readonly) EDPersistedMessageID *messageID; // @synthesize messageID;
 
 @end

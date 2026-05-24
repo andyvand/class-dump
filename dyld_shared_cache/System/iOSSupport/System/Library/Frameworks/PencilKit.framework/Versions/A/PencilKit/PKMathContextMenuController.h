@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKMathRecognitionItem, PKMathRecognitionToken, UIContextMenuInteraction, UIView;
-@protocol PKMathContextMenuControllerDelegate;
+@class UIContextMenuInteraction;
 
 @interface PKMathContextMenuController
 {
     _Bool _supportCopy;
-    _Bool _graphAddtoExisting;
-    UIContextMenuInteraction *_interaction;
-    PKMathRecognitionItem *_mathItem;
-    PKMathRecognitionToken *_mathToken;
-    UIView *_view;
-    id <PKMathContextMenuControllerDelegate> _delegate;
-    long long _mode;
-    NSString *_explanationString;
-    NSString *_errorString;
-    NSString *_errorReasonString;
-    struct CGRect _tapBounds;
 }
 
 + (id);
@@ -48,7 +36,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)H\V;
 - (long long);
 - (id);
 - (void);
@@ -58,32 +46,14 @@
 - (id);
 - (void)1Â0@ù
 × ;
-- (id)onstraint:(id)arg1;
-- (void)Constraints;
+- (id)setToolPickerViewCenterYConstraint:(id)arg1;
+- (void)_reloadToolImageSizeConstraints;
 - (void)P¢ì¢´¦ä¦ ¨;
 - (id);
 - (id)âï;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PKMathContextMenuControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *errorReasonString; // @synthesize errorReasonString=_errorReasonString;
-@property(copy, nonatomic) NSString *errorString; // @synthesize errorString=_errorString;
-@property(copy, nonatomic) NSString *explanationString; // @synthesize explanationString=_explanationString;
-@property(nonatomic) _Bool graphAddtoExisting; // @synthesize graphAddtoExisting=_graphAddtoExisting;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) UIContextMenuInteraction *interaction; // @synthesize interaction=_interaction;
-@property(retain, nonatomic) PKMathRecognitionItem *mathItem; // @synthesize mathItem=_mathItem;
-@property(retain, nonatomic) PKMathRecognitionToken *mathToken; // @synthesize mathToken=_mathToken;
-@property(nonatomic) long long mode; // @synthesize mode=_mode;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool supportCopy; // @synthesize supportCopy=_supportCopy;
-@property(nonatomic) struct CGRect tapBounds; // @synthesize tapBounds=_tapBounds;
-@property(nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end
 

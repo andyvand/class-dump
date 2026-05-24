@@ -6,15 +6,11 @@
 
 #import <ChatKit/CKAVMediaObject.h>
 
-@class NSArray, NSString, NSURL;
+@class NSArray;
 
 @interface CKAudioMediaObject : CKAVMediaObject
 {
     _Bool _hasBeenPlayed;
-    NSURL *_temporaryFileURL;
-    long long _totalPacketsCount;
-    NSArray *_powerLevelsFromMetadata;
-    double _durationFromMetadata;
 }
 
 + (_Bool);
@@ -28,8 +24,8 @@
 + (Class);
 + (id);
 + (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)gexMatchFinder",&,N,V_snippetHighlightRegexMatchFinder;
+- (id)_hasAttachments;
 - (long long);
 - (id);
 - (_Bool);
@@ -41,36 +37,37 @@
 - (void);
 - (void);
 - (void);
+- (id)n;
+- (void)p;
+- (Class)t;
 - (id);
-- (void);
-- (Class);
+- (id)e;
+- (id)l;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)iometrics… {prompt:%@}%s:%d /* Error: Ran out of types for this method. */;
+- (id)valign="top" style="border-style:(double)arg1 solid; border-width:(id)arg2 1.0px 1.0px 1.0px 1.0px; border-color:#ccc; padding:3.0px 5.0px 3.0px 5.0px; min-width:70px"> /* Error: Ran out of types for this method. */;
+- (id)ring"8Q16Q24^B32;
+- (id)?0@"NSProgress"8;
+- (id)hCompletionHandler:(id)arg1 ];
+- (id)on:(double)arg1 %@>;
+- (id)duration:(double)arg1 %@, fromValue:%@, toValue:%@, color:%@, aboveExistingHighlights:%@, removedOnCompletion:%@> /* Error: Ran out of types for this method. */;
 - (double);
 - (id);
-- (id);
+- (id)5
+;
 - (Class);
 - (id);
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (_Bool);
+- (void)ost.swift;
+- (_Bool)eterogeneousBoxBase: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (int);
@@ -78,15 +75,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAudioMessage) _Bool audioMessage;
-@property(nonatomic) double durationFromMetadata; // @synthesize durationFromMetadata=_durationFromMetadata;
-@property(nonatomic) _Bool hasBeenPlayed; // @synthesize hasBeenPlayed=_hasBeenPlayed;
-@property(retain, nonatomic) NSArray *powerLevels; // @dynamic powerLevels;
 @property(retain, nonatomic) NSArray *powerLevelsFromMetadata; // @synthesize powerLevelsFromMetadata=_powerLevelsFromMetadata;
-@property(readonly, copy, nonatomic) NSString *previewMetadataFilenameExtension;
-@property(readonly, nonatomic) _Bool supportsPreviewMetadata;
-@property(retain, nonatomic) NSURL *temporaryFileURL; // @synthesize temporaryFileURL=_temporaryFileURL;
-@property(nonatomic) long long totalPacketsCount; // @synthesize totalPacketsCount=_totalPacketsCount;
 
 @end
 

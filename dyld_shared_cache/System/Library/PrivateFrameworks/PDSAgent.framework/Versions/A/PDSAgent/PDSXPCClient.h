@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue, PDSDaemonListenerVendor, PDSRemote, PDSXPCDaemonConnection;
+@protocol PDSRemote;
 
 @interface PDSXPCClient
 {
     id <PDSRemote> _daemonListener;
-    id <PDSDaemonListenerVendor> _daemonListenerVendor;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <PDSXPCDaemonConnection> _connection;
 }
 
-- (id);
+- (id)P;
 - (void);
-- (id);
+- (id)@:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)!;
 - (void);
 - (id);
 - (void);
@@ -32,10 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <PDSXPCDaemonConnection> connection; // @synthesize connection=_connection;
 @property(retain, nonatomic) id <PDSRemote> daemonListener; // @synthesize daemonListener=_daemonListener;
-@property(retain, nonatomic) id <PDSDaemonListenerVendor> daemonListenerVendor; // @synthesize daemonListenerVendor=_daemonListenerVendor;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

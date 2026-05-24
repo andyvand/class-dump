@@ -6,16 +6,15 @@
 
 #import <EventKitUI/EKUILocationSearchResultCell.h>
 
-@class EKVirtualConference, EKVirtualConferenceRoomType;
+@class EKVirtualConferenceRoomType;
 
 @interface EKUIVirtualConferenceSearchResultCell : EKUILocationSearchResultCell
 {
     EKVirtualConferenceRoomType *_currentRoomType;
-    EKVirtualConference *_currentCustomVirtualConference;
 }
 
-+ (id);
-- (void);
++ (id))s;
+- (void);
 - (void);
 - (void)th"d"height"d}};
 

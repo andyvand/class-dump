@@ -7,7 +7,6 @@
 @interface NewsPersonalization.ComputeServiceUnloaderService
 {
     id computeService;
-    id configurationManager;
 }
 
 - (id);

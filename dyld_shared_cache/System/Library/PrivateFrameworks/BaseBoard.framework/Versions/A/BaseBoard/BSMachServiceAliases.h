@@ -4,27 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSString;
+@class NSDictionary, NSMutableDictionary;
 
 @interface BSMachServiceAliases
 {
     NSMutableDictionary *_lock_aliases;
-    NSString *_lock_encoded;
-    struct os_unfair_lock_s _lock;
-    _Bool _mutable;
 }
 
 + (id);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)L;
 - (id);
 - (id);
 - (_Bool);
+- (id)`;
 - (id);
-- (id);
-- (void);
+- (void),H;
 - (id);
 
 // Remaining properties

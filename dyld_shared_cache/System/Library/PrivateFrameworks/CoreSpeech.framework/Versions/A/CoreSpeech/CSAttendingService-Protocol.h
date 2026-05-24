@@ -7,6 +7,10 @@
 @protocol CSAttendingServiceDelegate;
 
 @protocol CSAttendingService
+- (void);
+
+@optional
+- (void)6;
 
 // Remaining properties
 @property(nonatomic) __weak id <CSAttendingServiceDelegate> delegate;

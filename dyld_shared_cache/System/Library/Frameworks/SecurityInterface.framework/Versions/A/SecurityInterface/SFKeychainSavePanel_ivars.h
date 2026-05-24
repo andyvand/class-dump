@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTextField, NSView, NSWindow;
+@class NSView;
 
 __attribute__((visibility("hidden")))
 @interface SFKeychainSavePanel_ivars
 {
     NSView *_customView;
-    NSTextField *_message;
-    NSString *_password;
-    NSString *_kcFullPathName;
-    NSString *_startPath;
-    NSString *_keychainFileName;
-    struct __SecKeychain *_returnedKeychain;
-    NSWindow *_parentWindowForSheet;
-    SEL _clientDidEndSelector;
-    id _clientDelegate;
-    void *_contextInfo;
-    int _result;
 }
 
 - (void);

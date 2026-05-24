@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDiffableDataSourceSnapshot, NSMapTable, _UIDiffableDataSourceDiffer;
+@class NSDiffableDataSourceSnapshot, NSMapTable;
 
 __attribute__((visibility("hidden")))
 @interface _UIDiffableDataSourceSectionSnapshotRebaser
 {
     NSDiffableDataSourceSnapshot *_initialSnapshot;
-    NSDiffableDataSourceSnapshot *_finalSnapshot;
-    _UIDiffableDataSourceDiffer *_dataSourceDiffer;
-    NSMapTable *_initialSectionSnapshots;
-    NSMapTable *_rebasedSectionSnapshots;
 }
 
 - (id);
@@ -23,8 +19,8 @@ __attribute__((visibility("hidden")))
 - (id)Ð!@ùq[°1Â0@ù
 × ;
 - (id);
-- (id);
-- (id)hadowOpacity;
+- (id)_setNeedsRollUpdate:(id)arg1;
+- (id)__preferredShadowOpacity;
 - (void);
 - (void);
 

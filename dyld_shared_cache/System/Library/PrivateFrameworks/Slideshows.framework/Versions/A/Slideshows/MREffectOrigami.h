@@ -6,36 +6,19 @@
 
 #import <Slideshows/MREffect.h>
 
-@class MRCAMLBezierData, MRImage, MROrigamiAnimationPath, NSArray, NSMutableArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface MREffectOrigami : MREffect
 {
     NSMutableDictionary *mSprites;
-    NSMutableArray *mSpriteKeysWatcher;
-    NSArray *mAnimationTimeBounds;
-    NSMutableArray *mItemInfos;
-    double mDurationStretchFactor;
-    MRImage *mBackColorImage;
-    float mBackColorForImage[3];
-    float mDescriptionAspectRatio;
-    float mPixelUnit;
-    _Bool mIsOrigami2Effect;
-    _Bool mIsHorizontal;
-    _Bool mIsOriginallyHorizontal;
-    MRCAMLBezierData *mBreakCurve;
-    MROrigamiAnimationPath *mLittleSwing;
-    MROrigamiAnimationPath *mBigSwing;
-    MROrigamiAnimationPath *mSideSwing;
-    MROrigamiAnimationPath *mThirdsSwingTop;
-    MROrigamiAnimationPath *mThirdsSwingBottom;
-    CDStruct_912cb5d2 *mBreakInfos;
-    unsigned long long mTotalNumberOfFolds;
-    _Bool _needsToUpdateSizes;
 }
 
 + (id);
 + (_Bool);
 + (void)p&;
+- (void)setDroppedEntriesByReason:(double)arg1;
+- (void)URLSessionQueue;
+- (void)FCOperationThrottlerDelegate;
 - (void);
 - (void);
 - (void);
@@ -43,10 +26,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void),;
 - (void);
 - (void);
 - (void);
@@ -54,24 +34,24 @@
 - (void);
 - (_Bool);
 - (id);
-- (double);
-- (double);
-- (id);
+- (double)lastUploadDatesByContentType;
+- (double)tType:(id)arg1 completion:] /* Error: Ran out of types for this method. */;
+- (id)velopeManager.m;
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (void);
+- (void);
+- (id);
+- (void);
 - (void);
 - (_Bool);
+- (void);
+- (_Bool)T	;
 - (void);
 - (void);
 - (void);

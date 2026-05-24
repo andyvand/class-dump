@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSCharacterSet, NSString;
+@class NSString;
 
 @interface CHContextualCharacterTransliteration
 {
     _Bool _requiresLexiconMatch;
-    _Bool _shouldPreserveOriginal;
-    NSString *_confusion;
-    NSString *_correction;
-    NSArray *_locales;
-    NSCharacterSet *_requiredLeftContext;
-    NSCharacterSet *_requiredRightContext;
 }
 
 - (_Bool);
@@ -31,12 +25,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *confusion; // @synthesize confusion=_confusion;
-@property(readonly, copy, nonatomic) NSString *correction; // @synthesize correction=_correction;
-@property(readonly, nonatomic) NSArray *locales; // @synthesize locales=_locales;
-@property(readonly, nonatomic) NSCharacterSet *requiredLeftContext; // @synthesize requiredLeftContext=_requiredLeftContext;
-@property(readonly, nonatomic) NSCharacterSet *requiredRightContext; // @synthesize requiredRightContext=_requiredRightContext;
-@property(readonly, nonatomic) _Bool requiresLexiconMatch; // @synthesize requiresLexiconMatch=_requiresLexiconMatch;
-@property(readonly, nonatomic) _Bool shouldPreserveOriginal; // @synthesize shouldPreserveOriginal=_shouldPreserveOriginal;
 
 @end
 

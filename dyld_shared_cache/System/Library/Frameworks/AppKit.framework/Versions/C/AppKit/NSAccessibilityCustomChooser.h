@@ -9,18 +9,16 @@
 @interface NSAccessibilityCustomChooser
 {
     NSString *_name;
-    CDUnknownBlockType _itemSearchBlock;
 }
 
-- (void);
+- (void)24@0:(CDUnknownBlockType)arg1 8q16;
 - (id);
 - (CDUnknownBlockType);
 - (void);
-- (id);
+- (id)_;
 - (void)t _handleConflicts]_block_invoke_2;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType itemSearchBlock; // @synthesize itemSearchBlock=_itemSearchBlock;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

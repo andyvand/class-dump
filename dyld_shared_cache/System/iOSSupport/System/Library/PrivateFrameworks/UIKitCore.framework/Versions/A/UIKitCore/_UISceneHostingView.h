@@ -6,33 +6,23 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, UIColor, UILabel, UITraitCollection, _UISceneHostingController;
+@class UITraitCollection;
 @protocol UIScenePresenter;
 
 @interface _UISceneHostingView : UIView
 {
     UITraitCollection *_currentTraitCollection;
-    UIColor *_currentTintColor;
-    struct CGRect _currentSceneFrame;
-    struct UIEdgeInsets _currentSafeAreaInsets;
-    struct _UICornerInsets _currentSafeAreaCornerInsets;
-    _Bool _currentShouldUseHostCornerRadius;
-    long long _currentOrientation;
-    UILabel *_debugLabel;
-    _Bool _requiresFencingHack;
-    id <UIScenePresenter> _scenePresenter;
-    _UISceneHostingController *_sceneHostingController;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)loadLastMessageItemsForMergedChatsWithGUIDs:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)d receipt:(id)arg1 %@, %@;
+- (id)or asset:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -46,23 +36,14 @@
 × ;
 - (id)wPresentationEffectView",&,N,V_platterClippingView;
 - (void)rientations;
-- (void)tionsForWritingTools;
+- (void)_textSuggestionsForWritingTools;
 - (_Bool)w;
-- (id)abledKey;
+- (id)PKUIPencilHoverPreviewEnabledKey;
 - (void)anslatesAutoresizingMaskIntoConstraints enabled:(id)arg1 %@;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) __weak _UISceneHostingController *_sceneHostingController; // @synthesize _sceneHostingController;
 @property(readonly, nonatomic) id <UIScenePresenter> _scenePresenter; // @synthesize _scenePresenter;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool inheritsSecurity;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,41 +6,33 @@
 
 #import <LoginUIKit/LUI2ViewController.h>
 
-@class LUI2VibrancyEffectView, LUIClockSettings, NSDateFormatter, NSTextField, NSView;
+@class NSDateFormatter;
 @protocol LUIClockTimerHandle;
 
 @interface LUI2DateViewController : LUI2ViewController
 {
     id <LUIClockTimerHandle> _clockTimer;
-    NSDateFormatter *_dateFormatter;
-    LUI2VibrancyEffectView *_vibrancyView;
-    LUIClockSettings *_clockSettings;
-    NSView *_dateView;
-    NSTextField *_dateTextField;
 }
 
 + (double);
 - (void);
 - (void);
 - (void);
+- (id);
 - (id);
 - (id);
+- (void)(;
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain) LUIClockSettings *clockSettings; // @synthesize clockSettings=_clockSettings;
 @property(readonly) NSDateFormatter *dateFormatter;
-@property(retain) NSTextField *dateTextField; // @synthesize dateTextField=_dateTextField;
-@property(retain) NSView *dateView; // @synthesize dateView=_dateView;
 
 @end
 

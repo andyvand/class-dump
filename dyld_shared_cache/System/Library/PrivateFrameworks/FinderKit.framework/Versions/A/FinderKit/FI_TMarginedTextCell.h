@@ -10,14 +10,12 @@ __attribute__((visibility("hidden")))
 @interface FI_TMarginedTextCell : FI_TTextCell
 {
     double _leftMargin;
-    double _rightMargin;
-    _Bool _subpixelAntialiasing;
 }
 
 - (_Bool);
 - (void);
 - (struct CGRect);
-- (void);
+- (void)initWithURL:(double)arg1;
 - (void);
 - (struct CGSize);
 - (void);
@@ -27,8 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) double leftMargin; // @synthesize leftMargin=_leftMargin;
-@property(nonatomic) double rightMargin; // @synthesize rightMargin=_rightMargin;
-@property(nonatomic) _Bool subpixelAntialiasing; // @synthesize subpixelAntialiasing=_subpixelAntialiasing;
 
 @end
 

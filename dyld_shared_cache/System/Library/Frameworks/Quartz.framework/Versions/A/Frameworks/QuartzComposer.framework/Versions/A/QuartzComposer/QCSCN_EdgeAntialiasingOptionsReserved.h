@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface QCSCN_EdgeAntialiasingOptionsReserved
 {
     id _parent;
-    _Bool _enable;
-    double _trimFactor;
-    double _minEdgeLength;
-    double _minEdgeAngle;
-    double _minTriangleArea;
-    _Bool _disableAntialiasingOfFacingEdges;
-    _Bool _debugMode;
-    NSString *_name;
-    NSString *_identifier;
 }
 
 @end

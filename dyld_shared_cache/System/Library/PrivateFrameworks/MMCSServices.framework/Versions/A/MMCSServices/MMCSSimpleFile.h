@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSError, NSString, NSURL;
+@class NSString;
 
 @interface MMCSSimpleFile
 {
     int _fd;
-    double _progress;
-    NSString *_authToken;
-    long long _encryptionBehavior;
-    NSString *_localPath;
-    NSURL *_requestURL;
-    NSString *_requestorID;
-    NSString *_guid;
-    unsigned long long _itemID;
-    NSData *_signature;
-    NSData *_fileHash;
-    unsigned long long _protocolFileSize;
-    NSError *_mmcsError;
-    NSData *_authResponseData;
 }
 
 - (void);
@@ -42,7 +29,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)8000-0026BB765291;
 - (id);
 - (unsigned long long);
 - (int);
@@ -57,20 +44,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSData *authResponseData; // @synthesize authResponseData=_authResponseData;
-@property(retain) NSString *authToken; // @synthesize authToken=_authToken;
-@property long long encryptionBehavior; // @synthesize encryptionBehavior=_encryptionBehavior;
-@property int fd; // @synthesize fd=_fd;
-@property(retain) NSData *fileHash; // @synthesize fileHash=_fileHash;
 @property(retain) NSString *guid; // @synthesize guid=_guid;
-@property unsigned long long itemID; // @synthesize itemID=_itemID;
-@property(retain) NSString *localPath; // @synthesize localPath=_localPath;
-@property(retain, setter=setMMCSError:) NSError *mmcsError; // @synthesize mmcsError=_mmcsError;
-@property double progress; // @synthesize progress=_progress;
-@property unsigned long long protocolFileSize; // @synthesize protocolFileSize=_protocolFileSize;
-@property(retain) NSURL *requestURL; // @synthesize requestURL=_requestURL;
-@property(retain) NSString *requestorID; // @synthesize requestorID=_requestorID;
-@property(retain) NSData *signature; // @synthesize signature=_signature;
 
 @end
 

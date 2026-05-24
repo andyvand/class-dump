@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FAFamilyCircle, NSDate, NSString;
+@class FAFamilyCircle;
 
 @interface FAFamilyCircleCacheResponse
 {
     FAFamilyCircle *_familyCircle;
-    NSDate *_cacheDate;
-    double _maxAge;
-    NSString *_serverTag;
 }
 
-- (_Bool);
+- (_Bool)n=dq}{AVCaptionDimension=dq}}16;
 - (id);
 - (void);
 - (id);
@@ -23,7 +20,7 @@
 - (double);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)beginStoragesystemFilesystemRepairForDisk:(id)arg1;
 - (id);
 - (void);
 - (void);
@@ -31,11 +28,7 @@
 - (void)rtOfFamily:(double)arg1 %{bool}d;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *cacheDate; // @synthesize cacheDate=_cacheDate;
-@property(readonly, nonatomic) NSDate *expiration;
 @property(retain, nonatomic) FAFamilyCircle *familyCircle; // @synthesize familyCircle=_familyCircle;
-@property(nonatomic) double maxAge; // @synthesize maxAge=_maxAge;
-@property(copy, nonatomic) NSString *serverTag; // @synthesize serverTag=_serverTag;
 
 @end
 

@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor, UIImage;
+@class NSString;
 
 @interface UIPreviewAction
 {
     NSString *_title;
-    UIImage *_image;
-    NSString *_identifier;
-    UIColor *_color;
-    long long _style;
-    CDUnknownBlockType _handler;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -30,31 +25,19 @@
 × ;
 - (void)0@ù
 × ;
-- (void)atrix:(CDUnknownBlockType)arg1;
-- (void)ceActionVisualStyle;
-- (void);
+- (void)_setActivePageIndicatorVibrantColorMatrix:(CDUnknownBlockType)arg1;
+- (void)_interfaceActionVisualStyle;
+- (void)__hasParentViewController;
 - (CDUnknownBlockType)&,N,V__shadowUpdates;
 - (id)V_preUpdateCachedItemCount;
 - (id)R;
-- (void)e;
+- (void)typewriterEffectStreamingCharacterInsertionRate;
 - (id);
 - (void)x%;
 - (id)°ÿI;
 
 // Remaining properties
-@property(retain, nonatomic, getter=_color, setter=_setColor:) UIColor *color; // @synthesize color=_color;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(nonatomic) long long style; // @synthesize style=_style;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

@@ -4,38 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDCaptionedPhotoFilter
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    struct GEOPDPhotoSizeFilterValue *_photoSizeFilters;
-    unsigned long long _photoSizeFiltersCount;
-    unsigned long long _photoSizeFiltersSpace;
-    NSString *_vendorId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_photoSizeFilters:1;
-        unsigned int read_vendorId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)CSAudioServerCrashMonitorDidReceiveServerRestart: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)tManifestUrls"b1"read_mapLocation"b1"read_navigationSettings"b1"read_searchCommon"b1"read_sourceInfo"b1"read_visibleTileSets"b1"wrote_anyField"b1};
-- (id)usinessURL;
+- (id)_businessURL;
 - (id)Æ~7´8È~47´ÌÕ~H7´dÙ~\7´Û~p7´l7´"7´(&Ä7´(ø7´¨08´L4 8´ôd48´jH8´;
 - (void);
 

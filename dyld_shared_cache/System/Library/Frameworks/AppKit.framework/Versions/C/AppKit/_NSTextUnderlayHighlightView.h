@@ -6,47 +6,32 @@
 
 #import <AppKit/NSView.h>
 
-@class NSString, NSTextLayoutFragment, NSTextRange, NSTextView;
+@class NSTextRange;
 
 __attribute__((visibility("hidden")))
 @interface _NSTextUnderlayHighlightView : NSView
 {
     struct CGPoint _renderingOrigin;
-    _Bool _stagingDrawTextHighlightBackgroundForTextLayoutFragmentAvailable;
-    NSTextLayoutFragment *_element;
-    NSTextView *_textView;
-    NSTextRange *_textRange;
-    struct CGPoint _origin;
 }
 
 - (void);
 - (_Bool);
-- (void);
+- (void)i;
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)SESSION_ID_CONTEXT_UNINITIALIZED;
 - (_Bool);
-- (id);
-- (struct CGPoint)stEndedTouches: /* Error: Ran out of types for this method. */;
+- (id)usesTextAttachmentView;
+- (struct CGPoint)_setLastEndedTouches: /* Error: Ran out of types for this method. */;
 - (void)balItemCount:(struct CGPoint)arg1 newGlobalItemSourceIndexes: /* Error: Ran out of types for this method. */;
-- (id)edBy: /* Error: Ran out of types for this method. */;
-- (void)ze;
+- (id)CA_addValue:multipliedBy: /* Error: Ran out of types for this method. */;
+- (void)NSToolbarItemMinSize;
 - (struct CGRect)ght:%g /* Error: Ran out of types for this method. */;
 - (id)l Command 0x%04x, flags 0x%04lx;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSTextLayoutFragment *element; // @synthesize element=_element;
-@property(readonly) unsigned long long hash;
-@property struct CGPoint origin; // @synthesize origin=_origin;
-@property(readonly) Class superclass;
 @property(retain) NSTextRange *textRange; // @synthesize textRange=_textRange;
-@property(readonly) NSTextView *textView; // @synthesize textView=_textView;
 
 @end
 

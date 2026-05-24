@@ -6,28 +6,22 @@
 
 #import <EventKitUI/EKEventDetailCell.h>
 
-@class UILabel;
-
 __attribute__((visibility("hidden")))
 @interface EKEventDetailTwoValueCell : EKEventDetailCell
 {
     int _style;
-    UILabel *_titleView;
-    UILabel *_valueView;
-    UILabel *_value2View;
-    int _twoValueCellStyle;
 }
 
-- (id);
+- (id);
 - (int);
 - (id);
-- (id);
+- (id)p;
 - (unsigned int);
 - (double);
-- (void);
+- (void)recursionLimit;
 - (_Bool);
 - (void);
-- (void)ipants: /* Error: Ran out of types for this method. */;
+- (void)setBusyParticipants: /* Error: Ran out of types for this method. */;
 - (id)itEvent;
 
 // Remaining properties

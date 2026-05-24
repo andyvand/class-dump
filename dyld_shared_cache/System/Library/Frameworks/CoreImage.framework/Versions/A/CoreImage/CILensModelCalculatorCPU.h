@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (int);
-+ (_Bool);
++ (_Bool)N!ԤN;
 + (int);
 + (_Bool);
 + (struct CGRect);

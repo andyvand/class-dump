@@ -8,9 +8,9 @@
 {
 }
 
-- (void);
+- (void)ICVirtualSmartFolderItemIdentifierTypeCallNotes;
 - (id);
-- (id);
+- (id);
 - (id);
 
 @end

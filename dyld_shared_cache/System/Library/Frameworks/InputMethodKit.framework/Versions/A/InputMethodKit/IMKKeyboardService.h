@@ -4,32 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKKeyboard, NSMenu, NSObject, NSString;
+@class NSObject;
 @protocol IMKKeyboardServiceDelegate;
 
 @interface IMKKeyboardService
 {
     NSObject<IMKKeyboardServiceDelegate> *_delegate;
-    IMKKeyboard *_keyboard;
-    NSString *_inputMode;
 }
 
 - (id);
-- (id);
+- (id)_videoActivationTimestamp;
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)A;
 - (void);
 - (void);
 - (id)× ;
-- (id)ames;
+- (id)accessibilityAttributeNames;
 
 // Remaining properties
 @property(nonatomic) __weak NSObject<IMKKeyboardServiceDelegate> *delegate; // @synthesize delegate=_delegate;
-@property(copy, nonatomic) NSString *inputMode; // @synthesize inputMode=_inputMode;
-@property(readonly, nonatomic) IMKKeyboard *keyboard; // @synthesize keyboard=_keyboard;
-@property(readonly, nonatomic) NSMenu *menu;
 
 @end
 

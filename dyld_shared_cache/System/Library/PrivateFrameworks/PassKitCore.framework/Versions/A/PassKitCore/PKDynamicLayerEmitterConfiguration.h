@@ -9,9 +9,6 @@
 @interface PKDynamicLayerEmitterConfiguration
 {
     CAEmitterLayer *_emitterLayer;
-    unsigned long long _style;
-    unsigned long long _density;
-    unsigned long long _physicsEffect;
 }
 
 + (_Bool)X"°! Fùî%°1Â0@ù
@@ -25,16 +22,14 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
+- (void)`d;
 - (id);
-- (id)dingDeviceScore:(id)arg1 completion: /* Error: Ran out of types for this method. */;
-- (void)rdPartyPushTopic;
+- (id)_secureCardDictionaryWithBuilder:(id)arg1 includingDeviceScore:completion: /* Error: Ran out of types for this method. */;
+- (void)relayServerHostsToUseThirdPartyPushTopic;
 - (unsigned long long)ðþ;
 - (void)h`æ ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long density; // @synthesize density=_density;
-@property(nonatomic) unsigned long long physicsEffect; // @synthesize physicsEffect=_physicsEffect;
 @property(nonatomic) unsigned long long style; // @synthesize style=_style;
 
 @end

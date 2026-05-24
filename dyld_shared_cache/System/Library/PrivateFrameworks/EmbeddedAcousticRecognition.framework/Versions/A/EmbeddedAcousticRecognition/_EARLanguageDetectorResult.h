@@ -9,18 +9,16 @@
 @interface _EARLanguageDetectorResult
 {
     _Bool _isConfident;
-    NSDictionary *_confidences;
 }
 
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)ITSTokenListGetTokenAtIndex;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *confidences; // @synthesize confidences=_confidences;
-@property(nonatomic) _Bool isConfident; // @synthesize isConfident=_isConfident;
 
 @end
 

@@ -7,22 +7,10 @@
 @interface NewsFeed.TagMastheadViewProvider
 {
     id model;
-    id parallaxX;
-    id mastheadView;
-    id renderer;
-    id layoutAttributesFactory;
-    id weatherService;
-    id channelLocationService;
-    id commandCenter;
-    id margins;
-    id weatherMonitor;
-    id weather;
-    id weatherToken;
-    id weatherTask;
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
 
 @end

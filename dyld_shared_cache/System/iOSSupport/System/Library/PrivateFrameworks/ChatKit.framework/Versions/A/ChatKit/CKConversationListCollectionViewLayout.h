@@ -11,20 +11,20 @@
     CKConversationListCollectionViewController *_conversationListController;
 }
 
-- (double);
+- (double)cachedImage;
+- (void)accessibilityIgnoresInvertColors;
+- (id)nBlock;
 - (void);
 - (id);
-- (void);
 - (id);
+- (double)yޛ;
 - (id);
-- (double);
-- (id);
-- (id);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (double);
+- (id)GC8G;
+- (long long)s;
+- (id)lert for custom password mode…;
+- (id)orage) != nil);
+- (id)AXAnnotationLabel;
+- (double)or validatePaperBounds:] /* Error: Ran out of types for this method. */;
 - (double);
 - (_Bool);
 - (long long);
@@ -34,7 +34,7 @@
 - (id);
 - (double);
 - (id);
-- (void)vered;
+- (void)NotDelivered;
 
 // Remaining properties
 @property(nonatomic) __weak CKConversationListCollectionViewController *conversationListController; // @synthesize conversationListController=_conversationListController;

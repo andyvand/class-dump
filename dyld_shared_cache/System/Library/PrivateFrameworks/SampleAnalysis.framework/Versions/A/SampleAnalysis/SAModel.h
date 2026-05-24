@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface SAModel
 {
     NSMutableArray *_loadedChanges;
-    NSMutableArray *_executions;
-    NSString *_identifier;
-    unsigned long long _maxMemoryCostBytes;
 }
 
 + (id);
-+ (id);
++ (id)accessibilityFilename;
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void)S;
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)@L`H;
 - (unsigned long long);
 - (id);
 - (void);
@@ -33,17 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSArray *executions;
 @property(readonly) unsigned long long hash;
-@property(readonly) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) NSArray *loadedChanges;
-@property unsigned long long maxMemoryCostBytes; // @synthesize maxMemoryCostBytes=_maxMemoryCostBytes;
-@property(readonly) Class superclass;
 
 @end
 

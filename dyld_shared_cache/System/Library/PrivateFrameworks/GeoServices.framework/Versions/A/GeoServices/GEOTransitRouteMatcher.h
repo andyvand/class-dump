@@ -6,26 +6,22 @@
 
 #import <GeoServices/GEORouteMatcher.h>
 
-@class GEOMotionContext, NSArray;
+@class GEOMotionContext;
 
 @interface GEOTransitRouteMatcher : GEORouteMatcher
 {
     GEOMotionContext *_motionContext;
-    NSArray *_stationsOnRoute;
-    NSArray *_routeMatchUpdaters;
-    NSArray *_stepRanges;
-    double _distanceToClosestWalkingSegment;
 }
 
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)didMigrate;
+- (void)type:UsersAB /* Error: Ran out of types for this method. */;
+- (_Bool)(multivalue);
+- (double)ABCDContactDateComponents;
 - (void);
-- (_Bool);
-- (double);
-- (void);
-- (void);
+- (void);
 - (void);
 - (double);
 - (void)f.py¬LQ@;

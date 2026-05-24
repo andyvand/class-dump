@@ -7,43 +7,31 @@
 @interface NTPBReportConcernSubmission
 {
     int _cancelLocation;
-    int _reportConcernLocation;
-    int _resultType;
-    struct {
-        unsigned int cancelLocation:1;
-        unsigned int reportConcernLocation:1;
-        unsigned int resultType:1;
-    } _has;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (int);
-- (_Bool);
-- (_Bool);
-- (int);
+- (void)hideMuteToggleButtonWhenChromeIsHidden;
+- (void)fetchOperationWithCollection:(_Bool)arg1 delegate: /* Error: Ran out of types for this method. */;
+- (void)ensureUniquePath:(_Bool)arg1 alternateExtensions: /* Error: Ran out of types for this method. */;
+- (void)displayTitleInfoForDetailsOfAssetCollection:(int)arg1 withTitleCategory:defaultTitle:defaultTitleCategory:titleKey:titleCategoryKey:defaultSubtitle:subtitleKey:simulatedLoadingDelay:preferredAttributesPromise: /* Error: Ran out of types for this method. */;
+- (int)dictionaryWithObjects:forKeys:count: /* Error: Ran out of types for this method. */;
+- (_Bool)createDataSourceWithAssetsAtIndexPaths: /* Error: Ran out of types for this method. */;
+- (_Bool)collectionView:cellForItemAtIndexPath: /* Error: Ran out of types for this method. */;
+- (int)canRemoveAssetSharingSuggestions: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (_Bool);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (void)z.;
+- (unsigned long long)_isPlaybackStyleIdentifierValid;
+- (_Bool)excludedAccounts;
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (int);
+- (int)riptionKey length] > 0;
 
 // Remaining properties
-@property(nonatomic) int cancelLocation; // @synthesize cancelLocation=_cancelLocation;
-@property(nonatomic) _Bool hasCancelLocation;
-@property(nonatomic) _Bool hasReportConcernLocation;
 @property(nonatomic) _Bool hasResultType;
-@property(nonatomic) int reportConcernLocation; // @synthesize reportConcernLocation=_reportConcernLocation;
-@property(nonatomic) int resultType; // @synthesize resultType=_resultType;
 
 @end
 

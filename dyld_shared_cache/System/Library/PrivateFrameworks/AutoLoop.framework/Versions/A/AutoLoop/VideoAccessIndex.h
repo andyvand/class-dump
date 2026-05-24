@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAsset, AVAssetTrack, VideoAccessRand;
+@class VideoAccessRand;
 
 @interface VideoAccessIndex
 {
     vector_aad29ef0 mFrameTimes;
-    unsigned int numFrames;
-    AVAssetTrack *videoTrack;
-    AVAsset *asset;
-    VideoAccessRand *accessRand;
 }
 
 - (void);
 - (id);
-- (int);
+- (int);
 - (id);
 - (id);
 - (id);
@@ -26,8 +22,6 @@
 
 // Remaining properties
 @property(retain) VideoAccessRand *accessRand; // @synthesize accessRand;
-@property(readonly) AVAsset *asset; // @synthesize asset;
-@property(readonly) AVAssetTrack *videoTrack; // @synthesize videoTrack;
 
 @end
 

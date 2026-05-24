@@ -5,5 +5,9 @@
 //
 
 @protocol MPMediaRemoteEntityArtworkGenerator
+- (MPArtworkCatalog * (^)(void));
+
+@optional
+- (MPArtworkCatalog * (^)(NSString *));
 @end
 

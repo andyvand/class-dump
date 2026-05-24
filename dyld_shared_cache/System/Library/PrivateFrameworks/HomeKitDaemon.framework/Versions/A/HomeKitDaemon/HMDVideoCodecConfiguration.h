@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDVideoCodec, HMDVideoCodecParameters, NSArray, NSData;
+@class HMDVideoCodec;
 
 __attribute__((visibility("hidden")))
 @interface HMDVideoCodecConfiguration
 {
     HMDVideoCodec *_videoCodec;
-    HMDVideoCodecParameters *_codecParameters;
-    NSArray *_videoAttributes;
 }
 
 + (_Bool)Üú;
-- (id);
+- (id)indexSetWithIndexesInRange:(id)arg1;
 - (id);
 - (_Bool);
 - (id);
@@ -27,9 +25,6 @@ __attribute__((visibility("hidden")))
 - (void)TimeOfDayTimePeriodElement.class] && [endElement isKindOfClass:HMDTimeOfDayTimePeriodElement.class]) || ([startElement isKindOfClass:HMDSunriseSunsetTimePeriodElement.class] && [endElement isKindOfClass:HMDSunriseSunsetTimePeriodElement.class]) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) HMDVideoCodecParameters *codecParameters; // @synthesize codecParameters=_codecParameters;
-@property(readonly, copy) NSData *tlvData;
-@property(readonly, copy, nonatomic) NSArray *videoAttributes; // @synthesize videoAttributes=_videoAttributes;
 @property(readonly, copy, nonatomic) HMDVideoCodec *videoCodec; // @synthesize videoCodec=_videoCodec;
 
 @end

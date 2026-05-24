@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSTimeZone;
+@class NSString;
 
 @interface BWPhotoDescriptor
 {
     NSString *_photoIdentifier;
-    unsigned int _processingFlags;
-    NSDate *_time;
-    _Bool _timeHasBeenSet;
-    NSTimeZone *_timeZone;
-    _Bool _timeZoneHasBeenSet;
-    CDStruct_1b6d18a9 _presentationTimeStamp;
-    _Bool _presentationTimeStampHasBeenSet;
 }
 
 + (_Bool);
@@ -26,22 +19,18 @@
 - (id);
 - (CDStruct_1b6d18a9);
 - (unsigned long long);
-- (id);
+- (id)ntityParentage AS ep ON e.id = ep.childId WHERE e.entityKey = :entityKey AND e.entityType = :entityType AND ep.parentKey /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
 - (unsigned int);
-- (id)eVideoFrameDurationInMilliseconds: /* Error: Ran out of types for this method. */;
+- (id)setAverageVideoFrameDurationInMilliseconds: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id)3s¥&;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *photoIdentifier; // @synthesize photoIdentifier=_photoIdentifier;
-@property(nonatomic) CDStruct_1b6d18a9 presentationTimeStamp;
-@property(readonly, nonatomic) unsigned int processingFlags; // @synthesize processingFlags=_processingFlags;
-@property(retain, nonatomic) NSDate *time;
-@property(retain, nonatomic) NSTimeZone *timeZone;
 
 @end
 

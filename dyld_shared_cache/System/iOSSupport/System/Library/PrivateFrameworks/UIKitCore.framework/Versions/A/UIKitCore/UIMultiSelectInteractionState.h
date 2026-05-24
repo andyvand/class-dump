@@ -4,20 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexPath, NSMutableSet, NSSet;
-
 __attribute__((visibility("hidden")))
 @interface UIMultiSelectInteractionState
 {
     unsigned long long _ignoringSelectionChangedNotificationsCounter;
-    unsigned long long _multiselectInteractionCounter;
-    NSMutableSet *_indexPathsWithProgrammaticSelectionChanges;
-    _Bool _selecting;
-    NSIndexPath *_startIndexPath;
-    NSIndexPath *_endIndexPath;
-    NSArray *_originallySelectedIndexPaths;
-    NSArray *_allSelectedIndexPaths;
-    struct CGPoint _startPoint;
 }
 
 - (void);
@@ -28,35 +18,27 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)updateFriend:(id)arg1 %@, updateType:%lu /* Error: Ran out of types for this method. */;
+- (id)not have the required entitlement.;
+- (id)ssRecordDeletion:Dropping delete as IDS syncs it real time. *** /* Error: Ran out of types for this method. */;
+- (void)n contacts;
+- (id)%@;
+- (id)%@ %@;
+- (_Bool)l nickname from IMTransferAgent:%@ /* Error: Ran out of types for this method. */;
+- (void)rsonal nickname when the feature is off;
+- (void)ibe;
+- (id)in chat:%@  style:%c handleInfo:%@ lastAddressedHandle %@ lastAddressedSIMID %@ /* Error: Ran out of types for this method. */;
+- (void)IMDCKUpdateSyncController;
+- (void)r;
+- (id)BlastDoorNotifyRecipientCommand;
 - (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
+- (_Bool)So20NSNotificationCenterC;
 - (struct CGPoint);
-- (void)iewControllerControlStatusBarAppearance;
+- (void)shouldPresentedViewControllerControlStatusBarAppearance;
 - (void);
 - (_Bool)Ïöþ°î;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *allSelectedIndexPaths; // @synthesize allSelectedIndexPaths=_allSelectedIndexPaths;
-@property(retain, nonatomic) NSIndexPath *endIndexPath; // @synthesize endIndexPath=_endIndexPath;
-@property(readonly, nonatomic) _Bool ignoringSelectionChangedNotifications;
-@property(readonly, nonatomic, getter=isInMultiselectInteraction) _Bool inMultiselectInteraction;
-@property(readonly, nonatomic) NSSet *indexPathsWithProgrammaticSelectionChanges;
-@property(copy, nonatomic) NSArray *originallySelectedIndexPaths; // @synthesize originallySelectedIndexPaths=_originallySelectedIndexPaths;
-@property(nonatomic, getter=isSelecting) _Bool selecting; // @synthesize selecting=_selecting;
-@property(retain, nonatomic) NSIndexPath *startIndexPath; // @synthesize startIndexPath=_startIndexPath;
 @property(nonatomic) struct CGPoint startPoint; // @synthesize startPoint=_startPoint;
 
 @end

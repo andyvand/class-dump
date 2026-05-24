@@ -4,33 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, TSKDocumentRoot, UIView;
-@protocol TSSPreset;
+@class UIView;
 
 @interface TSDSwatchRenderingOperation
 {
     UIView *mView;
-    NSObject<TSSPreset> *mPreset;
-    struct CGSize mImageSize;
-    double mImageScale;
-    struct CGRect mSwatchFrame;
-    TSKDocumentRoot *mDocumentRoot;
-    struct CGImage *mDeliveredImage;
-    unsigned long long mInsertPopoverPageType;
-    unsigned long long mInsertPopoverPageNumber;
-    NSString *mIdentifier;
 }
 
-- (struct CGRect);
+- (struct CGRect)s: /* Error: Ran out of types for this method. */;
 - (struct UIEdgeInsets);
 - (void);
-- (void);
+- (void)er started processing batchNumber=;
 - (struct CGImage *);
 - (void);
-- (void);
+- (void)PodcastsManagedQueue;
 - (_Bool);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
+- (unsigned long long)8];;
 - (id);
 - (void);
 - (struct CGImage *);
@@ -47,14 +37,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGImage *deliveredImage;
-@property(copy) NSString *identifier; // @synthesize identifier=mIdentifier;
-@property(readonly) double imageScale; // @synthesize imageScale=mImageScale;
-@property(readonly) struct CGSize imageSize; // @synthesize imageSize=mImageSize;
-@property unsigned long long insertPopoverPageNumber; // @synthesize insertPopoverPageNumber=mInsertPopoverPageNumber;
-@property unsigned long long insertPopoverPageType; // @synthesize insertPopoverPageType=mInsertPopoverPageType;
-@property(readonly) NSObject<TSSPreset> *preset; // @synthesize preset=mPreset;
-@property(readonly) struct CGRect swatchFrame; // @synthesize swatchFrame=mSwatchFrame;
 @property(retain) UIView *view; // @synthesize view=mView;
 
 @end

@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface ICTableAttachmentSelection
 {
     _Bool _moving;
-    _Bool _draggingText;
-    unsigned long long _type;
-    NSArray *_columns;
-    NSArray *_rows;
 }
 
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
+- (_Bool)B;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)B,N,V_containsSystemRuleClaimedFiles;
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
 - (void);
 - (void);
 - (void);
@@ -36,18 +30,12 @@
 - (_Bool);
 - (id);
 - (void);
-- (void)ssociatedObject;
+- (void)associatedObject;
 - (id)eueCGShyA1_GGA4_GSg;
 - (id)y<8y&Y_Qo__Qo_ABySayYGSSAAyY#H8ySbGGGU8GG'8G_AAyAAyAAyAAy.K8yF8yû8GG>8y®98GG÷&8G	!8Gt;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *columns; // @synthesize columns=_columns;
-@property(nonatomic) _Bool draggingText; // @synthesize draggingText=_draggingText;
-@property(readonly, nonatomic) _Bool isRangeOrSpanningSelection;
-@property(nonatomic) _Bool moving; // @synthesize moving=_moving;
-@property(copy, nonatomic) NSArray *rows; // @synthesize rows=_rows;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(readonly, nonatomic) _Bool valid;
 
 @end
 

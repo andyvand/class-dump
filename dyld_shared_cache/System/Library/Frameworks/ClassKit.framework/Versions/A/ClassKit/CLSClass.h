@@ -6,23 +6,13 @@
 
 #import <ClassKit/CLSObject.h>
 
-@class NSString;
-
 @interface CLSClass : CLSObject
 {
     _Bool _isEditable;
-    NSString *_className;
-    long long _source;
-    NSString *_iconID;
-    NSString *_locationID;
-    long long _originatingSource;
-    NSString *_customClassName;
-    NSString *_tempObjectID;
-    NSString *_searchText;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)_childAccountButtonTitle;
 
 @end
 

@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, _PASArgSubcommand;
+@class _PASArgSubcommand;
 
 @interface _PASArgSubcommandHandlerParams
 {
     _PASArgSubcommand *_subcommand;
-    NSDictionary *_options;
-    NSArray *_positionalArguments;
 }
 
+- (id)updateAvailabilityStatus;
+- (id)ed:] /* Error: Ran out of types for this method. */;
+- (id)estationCertificatesInternal:(id)arg1 assetID:(id)arg2 ]_block_invoke;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)replaceOccurrencesOfString:withString:options:range: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *options; // @synthesize options=_options;
-@property(readonly, nonatomic) NSArray *positionalArguments; // @synthesize positionalArguments=_positionalArguments;
 @property(readonly, nonatomic) _PASArgSubcommand *subcommand; // @synthesize subcommand=_subcommand;
 
 @end

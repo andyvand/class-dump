@@ -11,8 +11,6 @@
 @interface PKPeerPaymentAssociatedAccountActionRequest : PKPeerPaymentWebServiceRequest
 {
     NSString *_associatedAccountIdentifier;
-    NSString *_featureIdentifier;
-    NSString *_value;
 }
 
 - (void);
@@ -21,11 +19,10 @@
 - (void);
 - (id);
 - (id);
-- (void)icateData;
+- (void)certificateData;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *featureIdentifier; // @synthesize featureIdentifier=_featureIdentifier;
-@property(copy, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

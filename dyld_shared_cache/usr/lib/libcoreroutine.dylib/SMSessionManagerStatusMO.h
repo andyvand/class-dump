@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSUUID, SMSessionManagerStateMO;
+@class NSUUID;
 
 @interface SMSessionManagerStatusMO
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)ta=}16@24;
++ (id)nsaction>";
++ (id)errorDomain;
 
 // Remaining properties
 @property(copy, nonatomic) NSUUID *identifier; // @dynamic identifier;
-@property(copy, nonatomic) NSUUID *lastSessionIDDuringMagnetBreak; // @dynamic lastSessionIDDuringMagnetBreak;
-@property(retain, nonatomic) SMSessionManagerStateMO *state; // @dynamic state;
-@property(copy, nonatomic) NSDate *stateQueryDate; // @dynamic stateQueryDate;
 
 @end
 

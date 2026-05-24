@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexSet, NSString, PXSectionedDataSource;
+@class PXSectionedDataSource;
 
 @interface PXSectionedTileIdentifierConverter
 {
     PXSectionedDataSource *_fromDataSource;
-    PXSectionedDataSource *_toDataSource;
-    NSArray *_changeDetails;
-    NSIndexSet *_reloadedTileKindsOnObjectChanged;
 }
 
 - (_Bool);
@@ -23,20 +20,10 @@
 - (id);
 - (_Bool);
 - (id);
-- (void)egate;
+- (void)TTRWorkflowDataSourceDelegate;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *changeDetails; // @synthesize changeDetails=_changeDetails;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) PXSectionedDataSource *fromDataSource; // @synthesize fromDataSource=_fromDataSource;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSIndexSet *reloadedTileKindsOnObjectChanged; // @synthesize reloadedTileKindsOnObjectChanged=_reloadedTileKindsOnObjectChanged;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PXSectionedDataSource *toDataSource; // @synthesize toDataSource=_toDataSource;
 
 @end
 

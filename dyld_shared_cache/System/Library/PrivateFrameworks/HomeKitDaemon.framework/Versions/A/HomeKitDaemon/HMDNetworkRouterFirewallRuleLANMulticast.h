@@ -12,12 +12,11 @@ __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterFirewallRuleLANMulticast : HMDNetworkRouterFirewallRuleLAN
 {
     unsigned short _port;
-    HMFNetAddress *_ipAddress;
 }
 
 + (id);
-- (id);
-- (id);
+- (id)outeRequestStorage";
+- (id)left for event after filtering;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -27,7 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) HMFNetAddress *ipAddress; // @synthesize ipAddress=_ipAddress;
-@property(readonly, nonatomic) unsigned short port; // @synthesize port=_port;
 
 @end
 

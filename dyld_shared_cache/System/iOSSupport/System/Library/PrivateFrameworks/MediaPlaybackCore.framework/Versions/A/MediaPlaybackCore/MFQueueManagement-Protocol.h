@@ -7,6 +7,11 @@
 @protocol MFQueuePlayerItem;
 
 @protocol MFQueueManagement
+- (void)/Versions/A/ContactsFoundation;
+- (void)__objc_classname__TEXT;
+- (void);
+- (id <MFQueuePlayerItem>)ed. No reason to consider restricted or removed for dataclass %@;
+- (void)DisabledDataclasses;
 
 // Remaining properties
 @property(nonatomic, readonly) id <MFQueuePlayerItem> currentQueueItem;

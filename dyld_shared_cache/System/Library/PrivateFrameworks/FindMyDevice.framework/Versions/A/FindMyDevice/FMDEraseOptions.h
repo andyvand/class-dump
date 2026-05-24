@@ -7,32 +7,26 @@
 @interface FMDEraseOptions
 {
     _Bool _useObliteration;
-    _Bool _brickDevice;
-    _Bool _hasBridgeCoProcessor;
-    double _customDelay;
-    double _maxDelayInterval;
 }
 
 + (_Bool);
-- (void);
-- (void);
-- (void);
-- (double);
+- (void)v16@24@32@40B48@52;
+- (void)oupQueryItem";
+- (void)Image";
+- (double)timatedAltitudeAndAzimuth"B"rollAngle"d"estimatedActiveInputProperties"q"estimatedActiveInputPropertiesExpectingUpdates"q};
+- (_Bool)end_"^{PKMetalLiveStrokePaintStrokePoint}""{?="__cap_"^{PKMetalLiveStrokePaintStrokePoint}}};
+- (double)CGRect={CGPoint=dd}{CGSize=dd}}24@56q64d72;
 - (_Bool);
-- (double);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
+- (void)rokePointSlice={__wrap_iter<const _PKStrokePoint *>=^{_PKStrokePoint}}{__wrap_iter<const _PKStrokePoint *>=^{_PKStrokePoint}}}24B40B44;
+- (_Bool)v16{_PKStrokePointSlice={__wrap_iter<const _PKStrokePoint *>=^{_PKStrokePoint}}{__wrap_iter<const _PKStrokePoint *>=^{_PKStrokePoint}}}24;
+- (void)rokePoint}}}24r^v40;
+- (id)ientToComplete;
+- (void)[
+%@
+		];
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool brickDevice; // @synthesize brickDevice=_brickDevice;
-@property(nonatomic) double customDelay; // @synthesize customDelay=_customDelay;
-@property(nonatomic) _Bool hasBridgeCoProcessor; // @synthesize hasBridgeCoProcessor=_hasBridgeCoProcessor;
-@property(nonatomic) double maxDelayInterval; // @synthesize maxDelayInterval=_maxDelayInterval;
 @property(nonatomic) _Bool useObliteration; // @synthesize useObliteration=_useObliteration;
 
 @end

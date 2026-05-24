@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate;
+@class NSData;
 
 @protocol FCAVAssetKeyType
 - (NSData *)ÿ§Ùÿÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *creationDate;
-@property(readonly, nonatomic) NSDate *expirationDate;
-@property(readonly, nonatomic) _Bool isExpired;
 @property(readonly, nonatomic) NSData *keyData;
 @end
 

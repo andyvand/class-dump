@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSData, NSString;
+@class NSData;
 
 @interface SAProtobufMessage : SADomainObject
 {
@@ -18,12 +18,11 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (id)stSnippet;
+- (id)b;
+- (id)MovieListSnippet;
 
 // Remaining properties
 @property(copy, nonatomic) NSData *data;
-@property(copy, nonatomic) NSString *typeName;
 
 @end
 

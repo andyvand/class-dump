@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSNumber;
+@class NSData, NSDictionary;
 
 @protocol SFMailResultDetails
+- (NSData *)p;
+- (NSDictionary *);
 
 // Remaining properties
 @property(nonatomic) int dataSources;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSNumber *skgMegadomeSpotlightIndexEntries;
-@property(copy, nonatomic) NSNumber *suggestionScore;
 @end
 

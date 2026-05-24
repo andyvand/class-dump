@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, TIMetricDescriptorRegistry;
+@class TIMetricDescriptorRegistry;
 
 __attribute__((visibility("hidden")))
 @interface TIKBUserModel
@@ -12,37 +12,28 @@ __attribute__((visibility("hidden")))
     TIMetricDescriptorRegistry *_metricDescriptorRegistry;
 }
 
-+ (id);
++ (id)shouldSuppress;
 + (id);
 - (void);
-- (void);
+- (void)ngPushTokens %@ on chat proxy %@;
 - (id);
 - (Class);
 - (void);
 - (void);
+- (id)setDeviceInfoValue:(id)arg1 forKey:(id)arg2;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)initWithOptions:(id)arg1 capacity:(id)arg2;
 - (id);
 - (void);
 - (id);
 - (void)
 × ;
-- (id)rors:(id)arg1;
+- (id)parseStringFieldSpecWithName:(id)arg1 fromConfig:(id)arg2 errors:(id)arg3;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *contexts;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *kbContexts;
 @property(readonly, nonatomic) TIMetricDescriptorRegistry *metricDescriptorRegistry; // @synthesize metricDescriptorRegistry=_metricDescriptorRegistry;
-@property(readonly) Class superclass;
 
 @end
 

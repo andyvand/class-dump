@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_group;
+@class NSString;
 
 @interface NSFileProviderService
 {
     NSString *_name;
-    id _endpointCreatingProxy;
-    NSObject<OS_dispatch_group> *_requestFinishedGroup;
 }
 
 - (id);
-- (void);
+- (void)O;
 - (id);
 - (void);
 - (id);

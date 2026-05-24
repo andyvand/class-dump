@@ -6,20 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class NSString;
 
 @interface CNVSchemaCNVDecisionEngineResponseReported : SISchemaInstrumentationMessage
 {
     NSString *_flowHandlerId;
-    SISchemaUUID *_parseHypothesisId;
-    _Bool _isExistingFlowSelected;
-    _Bool _isInterpretableAsUniversalCommand;
-    struct {
-        unsigned int isExistingFlowSelected:1;
-        unsigned int isInterpretableAsUniversalCommand:1;
-    } _has;
-    _Bool _hasFlowHandlerId;
-    _Bool _hasParseHypothesisId;
 }
 
 - (void);
@@ -50,20 +41,12 @@
 - (_Bool);
 - (id);
 - (id)utputTokensCount"b1"inputTokensCount"b1};
-- (id)questPrescribedPlan;
+- (id)IFTSchemaIFTRequestPrescribedPlan;
 - (id)$9`9;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *flowHandlerId; // @synthesize flowHandlerId=_flowHandlerId;
-@property(nonatomic) _Bool hasFlowHandlerId; // @synthesize hasFlowHandlerId=_hasFlowHandlerId;
-@property(nonatomic) _Bool hasIsExistingFlowSelected;
-@property(nonatomic) _Bool hasIsInterpretableAsUniversalCommand;
-@property(nonatomic) _Bool hasParseHypothesisId; // @synthesize hasParseHypothesisId=_hasParseHypothesisId;
-@property(nonatomic) _Bool isExistingFlowSelected; // @synthesize isExistingFlowSelected=_isExistingFlowSelected;
-@property(nonatomic) _Bool isInterpretableAsUniversalCommand; // @synthesize isInterpretableAsUniversalCommand=_isInterpretableAsUniversalCommand;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *parseHypothesisId; // @synthesize parseHypothesisId=_parseHypothesisId;
 
 @end
 

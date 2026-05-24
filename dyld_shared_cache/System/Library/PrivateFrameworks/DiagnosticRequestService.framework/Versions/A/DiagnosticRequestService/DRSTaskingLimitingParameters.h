@@ -7,7 +7,6 @@
 @interface DRSTaskingLimitingParameters
 {
     unsigned long long _acceptedConfigCountCap;
-    double _taskingHysteresisInterval;
 }
 
 + (id);
@@ -24,8 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long acceptedConfigCountCap; // @synthesize acceptedConfigCountCap=_acceptedConfigCountCap;
-@property(readonly, nonatomic) double perTeamTaskingHysteresisInterval;
-@property(readonly, nonatomic) double taskingHysteresisInterval; // @synthesize taskingHysteresisInterval=_taskingHysteresisInterval;
 
 @end
 

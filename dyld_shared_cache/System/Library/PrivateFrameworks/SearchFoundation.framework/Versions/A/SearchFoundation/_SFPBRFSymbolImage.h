@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBRFColor;
+@class NSString;
 
 @interface _SFPBRFSymbolImage
 {
     _Bool _punches_through_background;
-    int _image_style;
-    int _symbol_rendering_mode;
-    int _vibrancy;
-    int _corner_rounding_mode;
-    NSString *_name;
-    _SFPBRFColor *_primary_color;
-    _SFPBRFColor *_secondary_color;
-    _SFPBRFColor *_background_color;
 }
 
 - (int);
@@ -29,7 +21,7 @@
 - (_Bool);
 - (id);
 - (int);
-- (int);
+- (int)a&;
 - (id);
 - (id);
 - (void);
@@ -41,31 +33,15 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)requestOptions;
+- (id)iled to return valid data or url with error:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (void)leDetailedRowCardSection"16;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBRFColor *background_color; // @synthesize background_color=_background_color;
-@property(nonatomic) int corner_rounding_mode; // @synthesize corner_rounding_mode=_corner_rounding_mode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int image_style; // @synthesize image_style=_image_style;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) _SFPBRFColor *primary_color; // @synthesize primary_color=_primary_color;
-@property(nonatomic) _Bool punches_through_background; // @synthesize punches_through_background=_punches_through_background;
-@property(retain, nonatomic) _SFPBRFColor *secondary_color; // @synthesize secondary_color=_secondary_color;
-@property(readonly) Class superclass;
-@property(nonatomic) int symbol_rendering_mode; // @synthesize symbol_rendering_mode=_symbol_rendering_mode;
-@property(nonatomic) int vibrancy; // @synthesize vibrancy=_vibrancy;
 
 @end
 

@@ -4,57 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIDragInteraction, UIGestureRecognizer, UITargetedPreview, UIView, _UIClickPresentation, _UIClickPresentationFeedbackGenerator, _UIGravityWellEffectKey, _UIRelationshipGestureRecognizer;
-@protocol UIInteractionEffect, _UIClickInteractionDriving, _UIClickPresentationAssisting, _UIClickPresentationInteractionDelegate;
+@class UIDragInteraction;
 
 @interface _UIClickPresentationInteraction
 {
     unsigned long long _currentState;
-    struct {
-        _Bool shouldBegin;
-        _Bool previewForHighlightingAtLocation;
-        _Bool shouldPresent;
-        _Bool ended;
-        _Bool activationStyle;
-        _Bool asyncShouldBegin;
-        _Bool shouldAllowRapidRestart;
-        _Bool shouldAssociateWithDrag;
-        _Bool shouldAllowDragAfterDismiss;
-        _Bool liveDragPreviewForPresentation;
-        _Bool previewForCancellingDragItem;
-        _Bool willAnimateDragCancelWithAnimator;
-        _Bool dragSessionDidEndForItems;
-        _Bool interactionEffectForTargetedPreview;
-        _Bool endedForPresentation;
-        _Bool shouldPlayFeedback;
-        _Bool shouldPresentWithCompletion;
-        _Bool shouldBeDelayedByGestureRecognizer;
-        _Bool secondaryPreviews;
-        _Bool shouldMaintainKeyboardAssertion;
-    } _delegateImplements;
-    long long _statsPresentation;
-    _Bool _activatedFeedbackGeneratorForClick;
-    _Bool _shouldAllowFeedback;
-    _Bool _allowSimultaneousRecognition;
-    _Bool _unableToClick;
-    _UIRelationshipGestureRecognizer *_gestureRecognizerForBeginningDragRelationships;
-    _UIGravityWellEffectKey *_activeEffectKey;
-    id <_UIClickPresentationInteractionDelegate> _delegate;
-    UIView *_view;
-    UIDragInteraction *_latentAssociatedDragInteraction;
-    id <_UIClickInteractionDriving> _activeDriver;
-    NSArray *_allDrivers;
-    _UIRelationshipGestureRecognizer *_exclusionRelationshipGestureRecognizer;
-    _UIRelationshipGestureRecognizer *_failureRelationshipGestureRecognizer;
-    id <_UIClickPresentationAssisting> _presentationAssistant;
-    _UIClickPresentation *_pendingPresentation;
-    _UIClickPresentationFeedbackGenerator *_feedbackGenerator;
-    UIDragInteraction *_associatedDragInteraction;
-    NSString *_debugIdentifier;
-    NSString *_presentationTypeDebugString;
-    unsigned long long _fallbackDriverStyle;
-    NSArray *_overrideDrivers;
-    struct CAPoint3D _initialLocation;
 }
 
 + (void);
@@ -62,7 +16,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)newSharedTextureWithDescriptor:(struct CGPoint)arg1;
 - (unsigned long long);
 - (void);
 - (struct CAPoint3D);
@@ -71,26 +25,26 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
+- (void)MPLocalPickerCollectionViewController;
+- (_Bool)ator was missing mapping for MPModelPropertyPodcastArtwork;
 - (void);
 - (_Bool);
-- (void);
-- (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)@9	;
 - (unsigned long long);
 - (void);
 - (void);
@@ -114,24 +68,24 @@
 - (void){CGSize=dd}48;
 - (void):(id)arg1 8@"UITextRange"16@"NSString"24@"NSArray"32;
 - (void)hange"b1"firstResponderChangedFromPostTransitionResponder"b1"firstResponderChangedFromPostTransitionResponderToNil"b1"usesExtraWidePrimaryColumn"b1"usesDeviceOverlayPreferences"b1"prefersOverlayInRegularWidthPhone"b1"isGestureShowingSupplementaryColumn"b1"isGestureHidingPrimaryWithSupplementaryVisible"b1"isForcingOverlayForGesture"b1"overrideSplitBehaviorForRestrictedWidth"b2"allowToggleSidebarButtonWithoutGesture"b1"alwaysHideToggleSidebarButton"b1"allowsTriggeringSidebarKeyCommandAction"b1"wantsHideSidebarDisplayNameForKeyCommand"b1"allowsDimmedSecondaryAsDeepestUnambiguousResponder"b1"ignoresSheetContext"b1"showsSeparators"b1"allowSecondaryOnlyButton"b1"lockedForDelegateCallback"b1"inCollapsingToProposedTopColumnCallback"b1"inExpandingToProposedDisplayModeCallback"b1"exposeInternalCollapsedValue"b1"columnStyleDidExpand"b1"shouldSetLastSettledDisplayMode"b1"sendDelegateWillShowColumn"b1"sendDelegateWillHideColumn"b1"skipDelegateWillShowHideColumn"b1"useUnderscoredWillShowHideColumn"b1"sendDelegateInteractiveGestureWillBegin"b1"sendDelegateInteractiveGestureWillBeginSPI"b1"sendDelegateInteractiveGestureDidEnd"b1"sendDelegateInteractiveGestureDidEndSPI"b1"sendDelegateAllowGestureForColumnSPI"b1"sendDelegateGesturePermissionForView"b1"supplementaryColumnAdoptsPrimaryBackgroundStyle"b1"columnSeparatorsExtendToTitlebar"b1"shouldPreventArrowButtonFocusMovementToShowSidebar"b1};
-- (void)tion:inSourceView: /* Error: Ran out of types for this method. */;
+- (void)previewInteractionController:willPresentViewController:forLocation:inSourceView: /* Error: Ran out of types for this method. */;
+- (id)magnifierPoint;
+- (struct CGPoint)initWithTypeSelectItem:(id)arg1 matchingRanges:unmatchingRanges: /* Error: Ran out of types for this method. */;
 - (id);
-- (struct CGPoint)ctItem:(id)arg1 matchingRanges:unmatchingRanges: /* Error: Ran out of types for this method. */;
-- (id);
-- (void)tomaticallyShowsScopeBar;
-- (_Bool)veTransitionWithProgress: /* Error: Ran out of types for this method. */;
-- (void)ForView:(struct CAPoint3D)arg1;
-- (id)gestionsMenuDismissalPassthroughViews: /* Error: Ran out of types for this method. */;
-- (id)izeChanged;
-- (void)mators;
-- (unsigned long long)Options: /* Error: Ran out of types for this method. */;
+- (void)automaticallyShowsScopeBar;
+- (_Bool)_updateInteractiveTransitionWithProgress: /* Error: Ran out of types for this method. */;
+- (void)_subtreeMonitorsForView:(struct CAPoint3D)arg1;
+- (id)_dci_setSuggestionsMenuDismissalPassthroughViews: /* Error: Ran out of types for this method. */;
+- (id)_contentSizeChanged;
+- (void)_allDynamicAnimators;
+- (unsigned long long)_activateScene:withOptions: /* Error: Ran out of types for this method. */;
 - (_Bool)ct={CGPoint=dd}{CGSize=dd}},R,N,V_searchBarBackgroundLayoutFrame;
 - (id){CGPoint=dd}{CGSize=dd}},N,V_systemFrame;
 - (_Bool)ivityIndicatorForUnRenderedContent;
 - (void)andidatesInCurrentInputMode;
 - (id)"_UIVectorTextLayout",C,D,N;
 - (_Bool)W,N,V__departingParentViewController;
-- (id)ognizer;
+- (id)_gateRecognizer;
 - (_Bool)à;
 - (void);
 - (id)Ü~lÌ0T;
@@ -140,10 +94,10 @@ UICollectionView behavior with this layout is undefined. Break on UICollectionVi
 Error:%@ /* Error: Ran out of types for this method. */;
 - (_Bool)÷þÿQ;
 - (void)vÿÿBëîÿøÕïÿ`Ôïÿ;
-- (void)itleHide;
+- (void)UIMenuBarItemTitleHide;
 - (id)oldSectionCount=%ld);
 - (void)om.apple.UIKit.OverlayUI;
-- (void)eyboardTypeNumbersAndPunctuation;
+- (void)UIKBAttributeValueKeyboardTypeNumbersAndPunctuation;
 - (void)tionBinder.m;
 - (void)sConfiguration initWithItemProviders:] /* Error: Ran out of types for this method. */;
 - (void);
@@ -164,42 +118,7 @@ Error:%@ /* Error: Ran out of types for this method. */;
 - (id)e;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long activatedDriverStyle;
-@property(retain, nonatomic) id <_UIClickInteractionDriving> activeDriver; // @synthesize activeDriver=_activeDriver;
-@property(retain, nonatomic) NSArray *allDrivers; // @synthesize allDrivers=_allDrivers;
-@property(nonatomic) _Bool allowSimultaneousRecognition; // @synthesize allowSimultaneousRecognition=_allowSimultaneousRecognition;
-@property(nonatomic) __weak UIDragInteraction *associatedDragInteraction; // @synthesize associatedDragInteraction=_associatedDragInteraction;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy, nonatomic) NSString *debugIdentifier; // @synthesize debugIdentifier=_debugIdentifier;
-@property(readonly, nonatomic) __weak id <_UIClickPresentationInteractionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) _UIRelationshipGestureRecognizer *exclusionRelationshipGestureRecognizer; // @synthesize exclusionRelationshipGestureRecognizer=_exclusionRelationshipGestureRecognizer;
-@property(retain, nonatomic) _UIRelationshipGestureRecognizer *failureRelationshipGestureRecognizer; // @synthesize failureRelationshipGestureRecognizer=_failureRelationshipGestureRecognizer;
-@property(nonatomic) unsigned long long fallbackDriverStyle; // @synthesize fallbackDriverStyle=_fallbackDriverStyle;
-@property(retain, nonatomic) _UIClickPresentationFeedbackGenerator *feedbackGenerator; // @synthesize feedbackGenerator=_feedbackGenerator;
-@property(readonly, nonatomic) UIGestureRecognizer *gestureRecognizerForBeginningDragRelationships;
-@property(readonly, nonatomic) UIGestureRecognizer *gestureRecognizerForExclusionRelationship;
-@property(readonly, nonatomic) UIGestureRecognizer *gestureRecognizerForFailureRelationship;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct CAPoint3D initialLocation; // @synthesize initialLocation=_initialLocation;
-@property(readonly, nonatomic) unsigned long long inputPrecision;
-@property(retain, nonatomic) id <UIInteractionEffect> interactionEffect;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<UIInteractionEffect>",?,&,N
-
 @property(retain, nonatomic) UIDragInteraction *latentAssociatedDragInteraction; // @synthesize latentAssociatedDragInteraction=_latentAssociatedDragInteraction;
-@property(retain, nonatomic) NSArray *overrideDrivers; // @synthesize overrideDrivers=_overrideDrivers;
-@property(retain, nonatomic) _UIClickPresentation *pendingPresentation; // @synthesize pendingPresentation=_pendingPresentation;
-@property(retain, nonatomic) id <_UIClickPresentationAssisting> presentationAssistant; // @synthesize presentationAssistant=_presentationAssistant;
-@property(copy, nonatomic) NSString *presentationTypeDebugString; // @synthesize presentationTypeDebugString=_presentationTypeDebugString;
-@property(readonly, nonatomic) UITargetedPreview *primaryEffectPreview;
-@property(readonly, nonatomic, getter=_reachedForceThreshold) _Bool reachedForceThreshold;
-@property(readonly, nonatomic) NSArray *secondaryEffectPreviews;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end
 

@@ -6,5 +6,8 @@
 
 @protocol NSFileAccessArbiter
 - (oneway void);
+- (oneway void)MO-Bold;
+- (oneway void)parseFromStream;
+- (oneway void)_TtCO10Foundation3ICU10Enumerator;
 @end
 

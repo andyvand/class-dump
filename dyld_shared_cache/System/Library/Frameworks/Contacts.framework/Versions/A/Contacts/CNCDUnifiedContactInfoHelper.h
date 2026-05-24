@@ -16,9 +16,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id)URL+CopyFile.m;
 - (id);
-- (id);
-- (void)ContactEvent: /* Error: Ran out of types for this method. */;
+- (void)visitUnlinkContactEvent: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSManagedObjectContext *context; // @synthesize context=_context;

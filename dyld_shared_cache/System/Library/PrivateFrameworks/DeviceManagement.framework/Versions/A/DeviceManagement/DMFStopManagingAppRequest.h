@@ -11,15 +11,15 @@
     _Bool _shouldPreserveAppBinary;
 }
 
++ (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool);
 + (id);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)p~;
 - (void);
 
 // Remaining properties

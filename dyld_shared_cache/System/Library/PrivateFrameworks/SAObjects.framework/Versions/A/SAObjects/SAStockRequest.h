@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface SAStockRequest : SADomainObject
 {
@@ -20,13 +20,11 @@
 - (id);
 - (void);
 - (void);
-- (void)NotificationType:(id)arg1;
-- (id)mpanion;
+- (void)setNotificationType:(id)arg1;
+- (id)initiateHandoffOnCompanion;
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *endDate;
-@property(copy, nonatomic) NSString *requestType;
-@property(copy, nonatomic) NSDate *startDate;
 
 @end
 

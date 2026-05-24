@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSURLAuthenticationChallenge;
+
 @protocol NSURLAuthenticationChallengeSender
+
+@optional
+- (void)registerDisconnectHandler:(NSURLAuthenticationChallenge *)arg1;
 @end
 

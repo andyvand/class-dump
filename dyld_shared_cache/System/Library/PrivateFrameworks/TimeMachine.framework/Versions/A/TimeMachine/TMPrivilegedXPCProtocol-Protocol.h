@@ -5,5 +5,9 @@
 //
 
 @protocol TMPrivilegedXPCProtocol
+- (void)p;
+- (void)|;
+- (void);
+- (void);
 @end
 

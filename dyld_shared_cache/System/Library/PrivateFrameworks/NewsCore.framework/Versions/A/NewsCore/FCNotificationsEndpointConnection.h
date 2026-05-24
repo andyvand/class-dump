@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAsyncSerialQueue, FCEndpointConnection, FCFileCoordinatedNotificationDropbox, NSString, NSURL;
-@protocol FCBundleSubscriptionManagerType, FCCoreConfigurationManager;
+@class FCEndpointConnection;
 
 @interface FCNotificationsEndpointConnection
 {
     FCEndpointConnection *_endpointConnection;
-    id <FCCoreConfigurationManager> _configurationManager;
-    id <FCBundleSubscriptionManagerType> _bundleSubscriptionManager;
-    FCAsyncSerialQueue *_serialQueue;
-    NSString *_deviceType;
-    NSString *_deviceOSVersion;
-    FCFileCoordinatedNotificationDropbox *_fileCoordinatedNotificationDropbox;
-    NSURL *_baseURL;
 }
 
 - (int);
@@ -28,24 +20,24 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)_didLoadImage:(id)arg1 forKey:(id)arg2 client:isCurrent: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
 - (void);
+- (id)ں;
+- (void)displayID;
+- (id);
+- (id)7;
+- (void);
+- (id)_restoredContentOffset;
+- (id);
+- (void);
 - (void);
 - (void)ÔÁ!Ü@ùQ(	Ð1Â0@ù
 × ;
@@ -53,32 +45,18 @@
 × ;
 - (void)@"FCUserEventHistoryStorage";
 - (id)cationConfiguration",R,N;
-- (void)rLocking;
+- (void)FCCacheCoordinatorLocking;
 - (void)ì;
 - (void)ionTagScoringConfig.m;
 - (void)y/BuildRoots/4~CNquugBHTJeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCArticleHeadlineUtilities.m;
-- (void)tedToVersion;
+- (void)migratedToVersion;
 - (void)yDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCNotificationArticleHeadline.m;
-- (id)d;
+- (id)sportsSyncingConfigurationV2ResourceId;
 - (id)/Sources/FeldsparServices/feldsparcore/Classes/People Also Read/FCPeopleAlsoReadArticlesOperation.m;
 - (void)zîÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(retain, nonatomic) id <FCBundleSubscriptionManagerType> bundleSubscriptionManager; // @synthesize bundleSubscriptionManager=_bundleSubscriptionManager;
-@property(retain, nonatomic) id <FCCoreConfigurationManager> configurationManager; // @synthesize configurationManager=_configurationManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *deviceOSVersion; // @synthesize deviceOSVersion=_deviceOSVersion;
-@property(copy, nonatomic) NSString *deviceType; // @synthesize deviceType=_deviceType;
 @property(retain, nonatomic) FCEndpointConnection *endpointConnection; // @synthesize endpointConnection=_endpointConnection;
-@property(retain, nonatomic) FCFileCoordinatedNotificationDropbox *fileCoordinatedNotificationDropbox; // @synthesize fileCoordinatedNotificationDropbox=_fileCoordinatedNotificationDropbox;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) FCAsyncSerialQueue *serialQueue; // @synthesize serialQueue=_serialQueue;
-@property(readonly) Class superclass;
 
 @end
 

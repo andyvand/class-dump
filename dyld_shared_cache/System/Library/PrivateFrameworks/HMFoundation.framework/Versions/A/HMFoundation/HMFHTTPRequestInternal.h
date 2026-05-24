@@ -6,16 +6,12 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class HMFActivity, NSData, NSDictionary, NSMutableDictionary, NSString, NSURL;
+@class NSMutableDictionary, NSURL;
 
 __attribute__((visibility("hidden")))
 @interface HMFHTTPRequestInternal : HMFObject
 {
     NSMutableDictionary *_headerFields;
-    NSURL *_URL;
-    NSString *_method;
-    NSData *_body;
-    HMFActivity *_activity;
 }
 
 - (void);
@@ -29,14 +25,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id)n:suggestion:underlyingError: /* Error: Ran out of types for this method. */;
+- (id)hmfErrorWithCode:reason:suggestion:underlyingError: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(readonly, nonatomic) HMFActivity *activity; // @synthesize activity=_activity;
-@property(copy, nonatomic) NSData *body; // @synthesize body=_body;
-@property(readonly, copy, nonatomic) NSDictionary *headerFields;
-@property(copy, nonatomic) NSString *method; // @synthesize method=_method;
 
 @end
 

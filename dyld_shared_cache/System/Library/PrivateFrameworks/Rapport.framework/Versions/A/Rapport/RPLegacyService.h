@@ -4,33 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface RPLegacyService
 {
     _Bool _activateCalled;
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    NSMutableDictionary *_requestMap;
-    struct BonjourAdvertiserPrivate *_bonjourAdvertiser;
-    int _listenerPort;
-    int _tcpSockV4;
-    int _tcpSockV6;
-    unsigned char _deviceActionType;
-    _Bool _needsSetup;
-    unsigned int _advertiseRate;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSString *_label;
-    NSString *_serviceType;
-    NSDictionary *_txtDictionary;
-    CDUnknownBlockType _errorHandler;
-    CDUnknownBlockType _interruptionHandler;
-    CDUnknownBlockType _invalidationHandler;
-    CDUnknownBlockType _sessionStartedHandler;
-    CDUnknownBlockType _sessionEndedHandler;
-    CDUnknownBlockType _showPINHandler;
-    CDUnknownBlockType _hidePINHandler;
 }
 
 - (int);
@@ -40,14 +16,25 @@
 - (void);
 - (id);
 - (void);
-- (unsigned char);
+- (unsigned char)8ԧ;
 - (void);
 - (void);
+- (id)n.;
+- (id)Replacement word ';
+- (id)rpa2fst7inhouse16fst_builder_impl12ConvertToFSTclERK5NgramENK3$_3clEPK4TrieIj6BOnodeEjRKNS_6vectorIjNS_9allocatorIjEEEESG_EUliE_FviEEE;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (void);
+- (CDUnknownBlockType);
+- (void);
+- (void);
+- (CDUnknownBlockType);
+- (void);
+- (void);
+- (CDUnknownBlockType)|ߗ ;
+- (void);
+- (void);
+- (void);
 - (void);
 - (CDUnknownBlockType);
 - (void);
@@ -55,18 +42,7 @@
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)T*;
 - (unsigned int);
 - (void);
 - (void);
@@ -75,23 +51,10 @@
 - (void);
 - (void)¡´%ð!@BùñZ)1Â0@ù
 × ;
-- (_Bool)ysToFetchForMeCard;
+- (_Bool)getKeysToFetchForMeCard;
 
 // Remaining properties
 @property(nonatomic) unsigned int advertiseRate; // @synthesize advertiseRate=_advertiseRate;
-@property(nonatomic) unsigned char deviceActionType; // @synthesize deviceActionType=_deviceActionType;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType errorHandler; // @synthesize errorHandler=_errorHandler;
-@property(copy, nonatomic) CDUnknownBlockType hidePINHandler; // @synthesize hidePINHandler=_hidePINHandler;
-@property(copy, nonatomic) CDUnknownBlockType interruptionHandler; // @synthesize interruptionHandler=_interruptionHandler;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(retain, nonatomic) NSString *label; // @synthesize label=_label;
-@property(nonatomic) _Bool needsSetup; // @synthesize needsSetup=_needsSetup;
-@property(copy, nonatomic) NSString *serviceType; // @synthesize serviceType=_serviceType;
-@property(copy, nonatomic) CDUnknownBlockType sessionEndedHandler; // @synthesize sessionEndedHandler=_sessionEndedHandler;
-@property(copy, nonatomic) CDUnknownBlockType sessionStartedHandler; // @synthesize sessionStartedHandler=_sessionStartedHandler;
-@property(copy, nonatomic) CDUnknownBlockType showPINHandler; // @synthesize showPINHandler=_showPINHandler;
-@property(copy, nonatomic) NSDictionary *txtDictionary; // @synthesize txtDictionary=_txtDictionary;
 
 @end
 

@@ -15,18 +15,18 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
+- (id)R;
 - (id);
-- (id);
-- (id);
+- (id)sertionReleaseTime;
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (struct CGRect);
-- (id)UseCATransactionCompletionHandler;
+- (struct CGRect)peer_public_key_type;
+- (id)NSSavePanelCanUseCATransactionCompletionHandler;
 - (id)ð4D;
 
 // Remaining properties

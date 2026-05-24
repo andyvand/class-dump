@@ -7,20 +7,19 @@
 @interface ECEmailAddressFormatter
 {
     long long _style;
-    _Bool _shouldIncludeDisplayName;
 }
 
 - (id);
 - (void);
 - (id);
+- (id)URLByAppendingPathComponent:isDirectory: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)_UISPlaygroundsPassthroughActionResponse;
 - (_Bool);
+- (id).apple.Segmenter;
+- (id)experimentId = :(id)arg1 experiment_id     AND deploymentId = :(_Bool)arg2 deployment_id;;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)didPressLeadingButtonForSplitHeader:(id)arg1;
 - (_Bool);
 - (id);
 - (id);

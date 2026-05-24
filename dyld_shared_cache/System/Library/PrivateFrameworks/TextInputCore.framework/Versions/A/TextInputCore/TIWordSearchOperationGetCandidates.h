@@ -6,25 +6,11 @@
 
 #import <TextInputCore/TIWordSearchOperation.h>
 
-@class MCAcceptCandidateInput, MCKeyboardInput, NSArray, NSString, TIKeyboardCandidate, TIMecabraIMLogger, TIWordSearch, TIWordSearchCandidateResultSet;
+@class TIWordSearchCandidateResultSet;
 
 @interface TIWordSearchOperationGetCandidates : TIWordSearchOperation
 {
     _Bool _predictionEnabled;
-    _Bool _reanalysisMode;
-    _Bool _hardwareKeyboardMode;
-    NSString *_inputString;
-    MCKeyboardInput *_keyboardInput;
-    MCAcceptCandidateInput *_lastAcceptCandidateInput;
-    TIWordSearchCandidateResultSet *_results;
-    id _target;
-    SEL _action;
-    unsigned long long _segmentBreakIndex;
-    unsigned long long _autocapitalizationType;
-    NSArray *_geometryModelData;
-    TIMecabraIMLogger *_logger;
-    TIKeyboardCandidate *_candidateAfterSegmentBreak;
-    TIWordSearch *_wordSearch;
 }
 
 - (id);
@@ -33,42 +19,28 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
+- (id)setLastCallCountReset: /* Error: Ran out of types for this method. */;
+- (id)predicateForContactsWithIdentifiers:(id)arg1;
+- (id)bundleURL;
+- (void);
+- (void)teFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities;
+- (id)Returning setting:[%@] = '%@' /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
+- (_Bool)P;
 - (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
+- (id)nil or mismatched treatmentId;
 - (id);
 - (void);
-- (id);
+- (id)OS_dispatch_source_proc;
 - (SEL);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
-- (_Bool)InputModes:inputModePreferenceProvider:enabledInputModesProvider: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithRequestedInputModes:inputModePreferenceProvider:enabledInputModesProvider: /* Error: Ran out of types for this method. */;
 - (id)) for contentType '%@' (filteredWithRegion:%s) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) SEL action; // @synthesize action=_action;
-@property(readonly, nonatomic) unsigned long long autocapitalizationType; // @synthesize autocapitalizationType=_autocapitalizationType;
-@property(retain, nonatomic) TIKeyboardCandidate *candidateAfterSegmentBreak; // @synthesize candidateAfterSegmentBreak=_candidateAfterSegmentBreak;
-@property(readonly, nonatomic) NSArray *geometryModelData; // @synthesize geometryModelData=_geometryModelData;
-@property(readonly, nonatomic) _Bool hardwareKeyboardMode; // @synthesize hardwareKeyboardMode=_hardwareKeyboardMode;
-@property(readonly, nonatomic) NSString *inputString; // @synthesize inputString=_inputString;
-@property(readonly, nonatomic) MCKeyboardInput *keyboardInput; // @synthesize keyboardInput=_keyboardInput;
-@property(readonly, nonatomic) MCAcceptCandidateInput *lastAcceptCandidateInput; // @synthesize lastAcceptCandidateInput=_lastAcceptCandidateInput;
-@property(readonly, nonatomic) TIMecabraIMLogger *logger; // @synthesize logger=_logger;
-@property(readonly, nonatomic) _Bool predictionEnabled; // @synthesize predictionEnabled=_predictionEnabled;
-@property(readonly, nonatomic) _Bool reanalysisMode; // @synthesize reanalysisMode=_reanalysisMode;
 @property(retain, nonatomic) TIWordSearchCandidateResultSet *results; // @synthesize results=_results;
-@property(nonatomic) unsigned long long segmentBreakIndex; // @synthesize segmentBreakIndex=_segmentBreakIndex;
-@property(readonly, nonatomic) id target; // @synthesize target=_target;
-@property(retain) TIWordSearch *wordSearch; // @synthesize wordSearch=_wordSearch;
 
 @end
 

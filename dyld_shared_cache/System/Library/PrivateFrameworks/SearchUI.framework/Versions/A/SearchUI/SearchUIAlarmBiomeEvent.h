@@ -14,7 +14,7 @@
 }
 
 + (_Bool);
-- (void);
+- (void)};
 - (id);
 - (void);
 - (id);
@@ -22,7 +22,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) BMClockAlarm *biomeEvent; // @dynamic biomeEvent;
-@property(retain, nonatomic) NSString *observedAlarmIdentifier; // @synthesize observedAlarmIdentifier=_observedAlarmIdentifier;
 
 @end
 

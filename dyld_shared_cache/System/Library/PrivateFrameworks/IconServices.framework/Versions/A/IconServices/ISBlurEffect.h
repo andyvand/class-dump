@@ -4,28 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface ISBlurEffect
 {
     double _radius;
 }
 
-- (id);
+- (id)textWithStringValue:(id)arg1;
 - (id);
 - (void);
 - (double);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property double radius; // @synthesize radius=_radius;
-@property(readonly) Class superclass;
 
 @end
 

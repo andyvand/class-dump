@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, NSString, UIContextualAction, UISwipeActionController, UIView;
-@protocol UISwipeActionPullViewCommonProtocol, _UISwipeViewManipulator, _UISwipedView;
+@class NSIndexPath;
 
 @interface UISwipeOccurrence
 {
@@ -18,81 +17,60 @@
         unsigned int hasAmbiguousIndexPath:1;
         unsigned int didReloadData:1;
     } _flags;
-    unsigned long long _actionExecutionCounter;
-    UISwipeActionController *_controller;
-    unsigned long long _style;
-    unsigned long long _defaultStyle;
-    long long _styleFromConfiguration;
-    double _roundedStyleCornerRadius;
-    UIView<UISwipeActionPullViewCommonProtocol> *_leadingPullView;
-    UIView<UISwipeActionPullViewCommonProtocol> *_trailingPullView;
-    id <_UISwipeViewManipulator> _manipulator;
-    _Bool _swipedViewMaskWasRemoved;
-    _Bool _active;
-    NSIndexPath *_indexPath;
-    long long _direction;
-    double _offset;
-    long long _state;
-    unsigned long long _configuredDirection;
-    UIView<_UISwipedView> *_swipedView;
-    UIContextualAction *_currentAction;
-    struct UIEdgeInsets _extraInsets;
-    struct UIEdgeInsets _pullViewInsets;
-    CDStruct_9b6dff2a _currentSwipeInfo;
 }
 
 + (Class);
+- (void)cachedOffGridModeAndLastPublisherForHandle:completion: /* Error: Ran out of types for this method. */;
+- (void)broadcastHandlesSharingNicknamesDidChange;
+- (void)addMessagesID:(id)arg1;
+- (struct CGRect)_isAssociatedMessage: /* Error: Ran out of types for this method. */;
+- (_Bool)_isActiveForNickname: /* Error: Ran out of types for this method. */;
+- (id)_isActivated;
+- (void)_insertChatUsingSyncData:(id)arg1;
+- (void)PCSKeyRollPendingAsync:(_Bool)arg1 timeout: /* Error: Ran out of types for this method. */;
+- (void)ersistenceContainer;
 - (void);
 - (void);
 - (void);
-- (struct CGRect);
-- (_Bool);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (struct UIEdgeInsets);
-- (CDStruct_324b76a9);
+- (CDStruct_d18b0196)QC;
 - (void);
 - (id);
 - (_Bool);
-- (id);
-- (struct UIEdgeInsets);
-- (CDStruct_9b6dff2a);
-- (double);
-- (unsigned long long);
+- (id)h %s but we didn't find attachment in attachment store!;
+- (struct UIEdgeInsets)clearLocalCloudKitSyncState;
+- (CDStruct_b06b0113)sage:%@ /* Error: Ran out of types for this method. */;
+- (double)GUID:(id)arg1 %@;
+- (unsigned long long)was deleted %@;
+- (void)%@ account:(_Bool)arg1 %@ result:%@ /* Error: Ran out of types for this method. */;
+- (id)Message, we need to ask our peers for nickname info requestedInfoBefore %@ retry count %@;
+- (void)mber %@;
+- (void)rd again on the next sync;
+- (void)led, and it is not from default paired device;
+- (unsigned long long)ages value should be altered from %@ to 0;
+- (long long)and not from me for message:%@ /* Error: Ran out of types for this method. */;
+- (unsigned long long)r junk command for message GUID:(id)arg1 %@;
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (long long);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)0;
+- (_Bool);
 - (void);
 - (struct CGRect);
 - (void);
 - (double);
 - (void);
 - (_Bool);
-- (id);
-- (void);
+- (id)@;
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -118,26 +96,7 @@
 - (void):n /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool active; // @synthesize active=_active;
-@property(nonatomic) unsigned long long configuredDirection; // @synthesize configuredDirection=_configuredDirection;
-@property(retain, nonatomic) UIContextualAction *currentAction; // @synthesize currentAction=_currentAction;
-@property(nonatomic) CDStruct_9b6dff2a currentSwipeInfo; // @synthesize currentSwipeInfo=_currentSwipeInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) long long direction; // @synthesize direction=_direction;
-@property(nonatomic) struct UIEdgeInsets extraInsets; // @synthesize extraInsets=_extraInsets;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSIndexPath *indexPath; // @synthesize indexPath=_indexPath;
-@property(readonly, nonatomic) _Bool isDynamicPullView;
-@property(nonatomic) double offset; // @synthesize offset=_offset;
-@property(nonatomic) struct UIEdgeInsets pullViewInsets; // @synthesize pullViewInsets=_pullViewInsets;
-@property(readonly, nonatomic) long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIView<_UISwipedView> *swipedView; // @synthesize swipedView=_swipedView;
-@property(nonatomic) _Bool swipedViewMaskWasRemoved; // @synthesize swipedViewMaskWasRemoved=_swipedViewMaskWasRemoved;
 
 @end
 

@@ -9,7 +9,7 @@
     double _separatorHeight;
 }
 
-+ (id);
++ (id);
 + (unsigned long long);
 - (void);
 - (void);
@@ -17,7 +17,7 @@
 - (struct CGSize);
 - (struct CGSize);
 - (void);
-- (void);
+- (void)c;
 - (double);
 
 // Remaining properties

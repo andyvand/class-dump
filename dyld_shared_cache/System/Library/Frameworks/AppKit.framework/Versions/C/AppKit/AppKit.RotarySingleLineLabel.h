@@ -9,14 +9,6 @@
 @interface AppKit.RotarySingleLineLabel : NSView
 {
     id attributedStrings;
-    id defaultAttributes;
-    id _attributedStrings;
-    id label;
-    id timer;
-    id attributedStringRotarySequenceIterator;
-    id becomeKeyWindowObserver;
-    id resignKeyWindowObserver;
-    id didCommonInit;
 }
 
 - (void);
@@ -25,15 +17,13 @@
 - (void);
 - (_Bool)aï/°!àAùå3°1Â0@ù
 × ;
-- (void)dTextEntry:(_Bool)arg1 timestamp:senderIdentifier:entryIdentifier: /* Error: Ran out of types for this method. */;
-- (id)redAt:(struct CGRect)arg1 animate: /* Error: Ran out of types for this method. */;
+- (void)addTextEntry:(_Bool)arg1 timestamp:senderIdentifier:entryIdentifier: /* Error: Ran out of types for this method. */;
+- (id)_smartMagnifyToRect:(struct CGRect)arg1 centeredAt:animate: /* Error: Ran out of types for this method. */;
 - (void)ýqÿa,rE;
 - (struct NSEdgeInsets)ÿú¼G;
 
 // Remaining properties
 @property(nonatomic, readonly) struct NSEdgeInsets alignmentRectInsets;
-@property(nonatomic, readonly) double firstBaselineOffsetFromTop;
-@property(nonatomic) _Bool hidden;
 
 @end
 

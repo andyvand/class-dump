@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _SFPBOpenCoreSpotlightItemCommand
 {
     NSString *_coreSpotlightIdentifier;
-    NSString *_applicationBundleIdentifier;
-    NSString *_actionIdentifier;
 }
 
 - (void);
@@ -22,26 +20,16 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)placeholderForCreatedCloudSharedAlbum;
+- (id)_checkAndResolveExistingAssetUUIDWithCreationRequest:recoveredFromFileURL: /* Error: Ran out of types for this method. */;
+- (id)ure:error %@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (void)"hasClip"b1"forceOpenInBrowser"b1};
 
 // Remaining properties
-@property(copy, nonatomic) NSString *actionIdentifier; // @synthesize actionIdentifier=_actionIdentifier;
-@property(copy, nonatomic) NSString *applicationBundleIdentifier; // @synthesize applicationBundleIdentifier=_applicationBundleIdentifier;
 @property(copy, nonatomic) NSString *coreSpotlightIdentifier; // @synthesize coreSpotlightIdentifier=_coreSpotlightIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 
 @end
 

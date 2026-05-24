@@ -7,28 +7,6 @@
 @interface MRReflectionsLayout
 {
     struct CGRect rect;
-    long long slideIndex;
-    _Bool flipped;
-    double totalHeight;
-    struct CGPoint borderOffset;
-    struct CGPoint border;
-    double pInYRot;
-    double pInYTilt;
-    double pInSpeedYRight;
-    double pInSpeedYLeft;
-    double pOutYRot;
-    double pOutYTilt;
-    double pOutYNoTilt;
-    double pOutSpeedrYRight;
-    double pOutSpeedrYLeft;
-    double pOutTxTilt;
-    double pOutTxNoTilt;
-    double pOutYFactor;
-    double pOutSpeedYRight;
-    double pOutSpeedYLeft;
-    double pOutTxFactorRight;
-    double pOutTxFactorLeft;
-    _Bool isBreak;
 }
 
 @end

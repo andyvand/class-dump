@@ -19,7 +19,7 @@ struct os_unfair_lock_s {
 };
 
 struct os_unfair_recursive_lock_s {
-    struct os_unfair_lock_s ourl_lock;
-    unsigned int ourl_count;
+    struct os_unfair_lock_s _field1;
+    unsigned int _field2;
 };
 

@@ -5,18 +5,15 @@
 //
 
 @class NSString;
-@protocol GCSControllers, GCSCopilotFusedControllers, GCSGames, GCSMouseProfiles, GCSProfiles;
+@protocol GCSMouseProfiles;
 
 @protocol GCSSettingsStoreService
+- (id <GCSMouseProfiles>);
+- (NSString *)bileMe-AuthToken %@;
+- (_Bool)triggerProgressTransparencyMessageForAttachmentID: /* Error: Ran out of types for this method. */;
+- (void)hasManagedAccount;
 
 // Remaining properties
-@property(readonly, nonatomic) id <GCSControllers> controllers;
-@property(readonly, nonatomic) id <GCSCopilotFusedControllers> copilotFusedControllers;
-@property(readonly, nonatomic) id <GCSGames> games;
-@property _Bool hasPairedSpatialController;
-@property(readonly, nonatomic) id <GCSMouseProfiles> mouseProfiles;
-@property(readonly, nonatomic) id <GCSProfiles> profiles;
 @property(readonly, nonatomic) NSString *settingsVersion;
-@property _Bool showGCPreferencesPane;
 @end
 

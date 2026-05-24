@@ -4,6 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSCollectionView, NSCollectionViewTransitionLayout, NSEvent, NSSet;
+
 @protocol NSCollectionViewDelegate
+
+@optional
+- (_Bool);
+- (_Bool)(@C9)DC9;
+- (unsigned long long);
+- (void);
+- (void)_startObservingPlayerLayerContentSource:(NSCollectionView *)arg1;
+- (void)ECPARAMETERS;
+- (NSCollectionViewTransitionLayout *)s;
+- (void);
+- (_Bool)n:(NSCollectionView *)arg1 user:(NSSet *)arg2 isManaged:(NSEvent *)arg3 streamIdentifier:currentDevice: /* Error: Ran out of types for this method. */;
 @end
 

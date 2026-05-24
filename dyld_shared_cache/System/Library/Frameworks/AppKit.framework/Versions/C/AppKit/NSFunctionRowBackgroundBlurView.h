@@ -6,26 +6,24 @@
 
 #import <AppKit/NSView.h>
 
-@class _NSFunctionRowBackgroundBlurViewBackdropLayer, _NSFunctionRowBackgroundBlurViewLayer;
+@class _NSFunctionRowBackgroundBlurViewLayer;
 
 @interface NSFunctionRowBackgroundBlurView : NSView
 {
     _NSFunctionRowBackgroundBlurViewLayer *_container;
-    _NSFunctionRowBackgroundBlurViewBackdropLayer *_backdrop;
-    double _blurRadius;
 }
 
-+ (id);
++ (id)_kCFNTimingDataInternalTransactionMetrics;
 - (id);
 - (Class);
 - (void);
-- (id);
+- (id)UNSUPPORTED_KEY_DERIVATION_FUNCTION;
 - (void);
 - (double);
 - (void)ñß3Ð1Â0@ù
 × ;
-- (id)yStringForLineHeightMultiple:(struct CGRect)arg1 min:max:lineSpacing:paragraphSpacingBefore:after: /* Error: Ran out of types for this method. */;
-- (void)wColor;
+- (id)displayStringForLineHeightMultiple:(struct CGRect)arg1 min:max:lineSpacing:paragraphSpacingBefore:after: /* Error: Ran out of types for this method. */;
+- (void)NSBelowColor;
 
 // Remaining properties
 @property double blurRadius;

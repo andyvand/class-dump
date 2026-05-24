@@ -4,30 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSNumber;
+@class NSNumber;
 
 @interface SUCoreDDMDeclarationGlobalSettings
 {
     NSNumber *_enableGlobalNotifications;
-    NSNumber *_majorOSDeferralPeriod;
-    NSNumber *_minorOSDeferralPeriod;
-    NSNumber *_systemUpdatesDeferralPeriod;
-    NSNumber *_combinedUpdatesDeferralPeriod;
-    NSNumber *_recommendationCadence;
-    NSNumber *_automaticallyInstallOSUpdates;
-    NSNumber *_automaticallyInstallSystemAndSecurityUpdates;
-    NSNumber *_automaticallyCheck;
-    NSNumber *_automaticallyDownload;
-    NSNumber *_adminInstallRequired;
-    NSNumber *_enableRapidSecurityResponse;
-    NSNumber *_enableRapidSecurityResponseRollback;
-    NSArray *_serializedKeys;
-    NSNumber *_programEnrollment;
-    NSArray *_offerPrograms;
-    NSDictionary *_requireProgram;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (void);
@@ -39,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -59,35 +43,19 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)wrongPasswordWarningLabel;
+- (id)_isFetchInProgress;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *adminInstallRequired; // @synthesize adminInstallRequired=_adminInstallRequired;
-@property(retain, nonatomic) NSNumber *automaticallyCheck; // @synthesize automaticallyCheck=_automaticallyCheck;
-@property(retain, nonatomic) NSNumber *automaticallyDownload; // @synthesize automaticallyDownload=_automaticallyDownload;
-@property(retain, nonatomic) NSNumber *automaticallyInstallOSUpdates; // @synthesize automaticallyInstallOSUpdates=_automaticallyInstallOSUpdates;
-@property(retain, nonatomic) NSNumber *automaticallyInstallSystemAndSecurityUpdates; // @synthesize automaticallyInstallSystemAndSecurityUpdates=_automaticallyInstallSystemAndSecurityUpdates;
-@property(retain, nonatomic) NSNumber *combinedUpdatesDeferralPeriod; // @synthesize combinedUpdatesDeferralPeriod=_combinedUpdatesDeferralPeriod;
 @property(retain, nonatomic) NSNumber *enableGlobalNotifications; // @synthesize enableGlobalNotifications=_enableGlobalNotifications;
-@property(retain, nonatomic) NSNumber *enableRapidSecurityResponse; // @synthesize enableRapidSecurityResponse=_enableRapidSecurityResponse;
-@property(retain, nonatomic) NSNumber *enableRapidSecurityResponseRollback; // @synthesize enableRapidSecurityResponseRollback=_enableRapidSecurityResponseRollback;
-@property(retain, nonatomic) NSNumber *majorOSDeferralPeriod; // @synthesize majorOSDeferralPeriod=_majorOSDeferralPeriod;
-@property(retain, nonatomic) NSNumber *minorOSDeferralPeriod; // @synthesize minorOSDeferralPeriod=_minorOSDeferralPeriod;
-@property(retain, nonatomic) NSArray *offerPrograms; // @synthesize offerPrograms=_offerPrograms;
-@property(retain, nonatomic) NSNumber *programEnrollment; // @synthesize programEnrollment=_programEnrollment;
-@property(retain, nonatomic) NSNumber *recommendationCadence; // @synthesize recommendationCadence=_recommendationCadence;
-@property(retain, nonatomic) NSDictionary *requireProgram; // @synthesize requireProgram=_requireProgram;
-@property(retain, nonatomic) NSArray *serializedKeys; // @synthesize serializedKeys=_serializedKeys;
-@property(retain, nonatomic) NSNumber *systemUpdatesDeferralPeriod; // @synthesize systemUpdatesDeferralPeriod=_systemUpdatesDeferralPeriod;
 
 @end
 

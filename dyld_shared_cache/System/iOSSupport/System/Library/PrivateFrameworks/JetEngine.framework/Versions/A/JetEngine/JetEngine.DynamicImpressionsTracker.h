@@ -7,9 +7,6 @@
 @interface JetEngine.DynamicImpressionsTracker
 {
     id configuration;
-    id journalsByElementID;
-    id dynamicEvents;
-    id elementPositions;
 }
 
 @end

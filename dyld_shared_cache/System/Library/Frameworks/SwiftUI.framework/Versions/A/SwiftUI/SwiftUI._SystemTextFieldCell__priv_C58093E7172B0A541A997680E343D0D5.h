@@ -7,9 +7,6 @@
 @interface SwiftUI._SystemTextFieldCell__priv_C58093E7172B0A541A997680E343D0D5
 {
     id trailingInset;
-    id insertsNewLineOnReturn;
-    id selectionTintColor;
-    id disableAutocorrection;
 }
 
 - (_Bool);

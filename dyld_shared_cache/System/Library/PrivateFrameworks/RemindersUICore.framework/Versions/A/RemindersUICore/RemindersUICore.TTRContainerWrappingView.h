@@ -7,14 +7,9 @@
 @interface RemindersUICore.TTRContainerWrappingView
 {
     id horizontalSpacing;
-    id verticalSpacing;
-    id maxRowCount;
-    id lastLayoutResult;
-    id viewsRequiringNewRows;
-    id customSpacingByView;
 }
 
-- (_Bool);
+- (_Bool)B;
 - (struct CGSize);
 - (void);
 - (id);

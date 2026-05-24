@@ -7,8 +7,6 @@
 @interface SiriOntology.UsoBuilder
 {
     id usoIdentifiers;
-    id utteranceAlignments;
-    id entitySpans;
 }
 
 @end

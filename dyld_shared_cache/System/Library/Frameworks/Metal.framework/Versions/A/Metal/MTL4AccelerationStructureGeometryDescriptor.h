@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MTL4AccelerationStructureGeometryDescriptor
 {
     _Bool _opaque;
-    _Bool _allowDuplicateIntersectionFunctionInvocation;
-    unsigned long long _intersectionFunctionTableOffset;
-    NSString *_label;
-    unsigned long long _primitiveDataStride;
-    unsigned long long _primitiveDataElementSize;
-    struct MTL4BufferRange _primitiveDataBuffer;
 }
 
 - (void);
@@ -40,13 +32,7 @@
 - (void)oundsMinBuffer:(id)arg1 boundsMinBufferOffset:boundsMaxBuffer:boundsMaxBufferOffset:boundsEndMinBuffer:boundsEndMinBufferOffset:boundsEndMaxBuffer:boundsEndMaxBufferOffset:boundsEndTimeBuffer:boundsEndTimeBufferOffset:boundsStartTimeBuffer:boundsStartTimeBufferOffset:fragmentScratchBuffer:fragmentScratchBufferOffset: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool allowDuplicateIntersectionFunctionInvocation; // @synthesize allowDuplicateIntersectionFunctionInvocation=_allowDuplicateIntersectionFunctionInvocation;
 @property(nonatomic) unsigned long long intersectionFunctionTableOffset; // @synthesize intersectionFunctionTableOffset=_intersectionFunctionTableOffset;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(nonatomic) _Bool opaque; // @synthesize opaque=_opaque;
-@property(nonatomic) struct MTL4BufferRange primitiveDataBuffer; // @synthesize primitiveDataBuffer=_primitiveDataBuffer;
-@property(nonatomic) unsigned long long primitiveDataElementSize; // @synthesize primitiveDataElementSize=_primitiveDataElementSize;
-@property(nonatomic) unsigned long long primitiveDataStride; // @synthesize primitiveDataStride=_primitiveDataStride;
 
 @end
 

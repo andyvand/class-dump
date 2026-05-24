@@ -4,41 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSObject, STManagementState;
-@protocol OS_dispatch_queue;
+@class NSNumber;
 
 @interface STManagementStateObserver
 {
     int _screenTimeSettingsChangeNotifyToken;
-    long long _contactManagementState;
-    NSNumber *_dsid;
-    STManagementState *_managementState;
-    STManagementStateObserver *_me;
-    NSObject<OS_dispatch_queue> *_screenTimeSettingsChangeQueue;
 }
 
-+ (void);
-- (id);
-- (int);
-- (void);
-- (id);
-- (void);
++ (void)DEFAULT 0, storefront_id INTEGER NOT NULL DEFAULT 0, purchase_history_id INTEGER NOT NULL DEFAULT 0, purchase_history_token INTEGER NOT NULL DEFAULT 0, purchase_history_redownload_params TEXT, store_saga_id INTEGER NOT NULL DEFAULT 0, match_redownload_params TEXT, sync_id INTEGER NOT NULL DEFAULT 0, home_sharing_id INTEGER NOT NULL DEFAULT 0, is_ota_purchased INTEGER NOT NULL DEFAULT 0, store_kind INTEGER NOT NULL DEFAULT 0, account_id INTEGER NOT NULL DEFAULT 0, key_versions INTEGER NOT NULL DEFAULT 0, key_platform_id INTEGER NOT NULL DEFAULT 0, key_id INTEGER NOT NULL DEFAULT 0, key_id_2 INTEGER NOT NULL DEFAULT 0, date_purchased INTEGER NOT NULL DEFAULT 0, date_released INTEGER NOT NULL DEFAULT 0, external_guid TEXT, feed_url TEXT, artwork_url TEXT, store_xid TEXT, store_flavor TEXT, store_matched_status INTEGER NOT NULL DEFAULT 0, store_redownloaded_status INTEGER NOT NULL DEFAULT 0, store_link_id INTEGER NOT NULL DEFAULT 0;
+- (id)T 0, liked_state INTEGER NOT NULL DEFAULT 0);
+- (int)T 0, chosen_by_auto_fill INTEGER NOT NULL DEFAULT 0, liked_state INTEGER NOT NULL DEFAULT 0);
+- (void), exclude_from_shuffle INTEGER NOT NULL DEFAULT 0;
+- (id)tIsMediaColumns;;
+- (void)PortTooltip_FlipCulling;
 - (void);
 - (long long);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id)ailureInMethod:object:file:lineNumber:description: /* Error: Ran out of types for this method. */;
-- (void);
+- (id)handleFailureInMethod:object:file:lineNumber:description: /* Error: Ran out of types for this method. */;
+- (void)naturalUI;
 
 // Remaining properties
-@property long long contactManagementState; // @synthesize contactManagementState=_contactManagementState;
 @property(readonly, copy) NSNumber *dsid; // @synthesize dsid=_dsid;
-@property(retain) STManagementState *managementState; // @synthesize managementState=_managementState;
-@property(retain) STManagementStateObserver *me; // @synthesize me=_me;
-@property(readonly) int screenTimeSettingsChangeNotifyToken; // @synthesize screenTimeSettingsChangeNotifyToken=_screenTimeSettingsChangeNotifyToken;
-@property(readonly) NSObject<OS_dispatch_queue> *screenTimeSettingsChangeQueue; // @synthesize screenTimeSettingsChangeQueue=_screenTimeSettingsChangeQueue;
 
 @end
 

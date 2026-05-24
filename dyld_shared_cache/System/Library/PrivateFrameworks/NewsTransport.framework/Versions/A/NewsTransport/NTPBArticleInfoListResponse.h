@@ -9,30 +9,28 @@
 @interface NTPBArticleInfoListResponse
 {
     NSMutableArray *_articleInfoLists;
-    _Bool _isValidBucketGroup;
 }
 
-+ (Class);
++ (Class)_performStabilization;
+- (void)attractionVelocityThreshold;
+- (void)_updateWantsFooter;
+- (_Bool)_updateEffectViewCornerRadius;
+- (void)_setVisibleRect: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_setCounterToNumber: /* Error: Ran out of types for this method. */;
+- (id)_setCount: /* Error: Ran out of types for this method. */;
+- (id)_setContentLayer:(unsigned long long)arg1;
+- (void)_secondaryToolbarPlacement;
+- (id);
 - (void);
-- (void);
-- (_Bool);
 - (void);
 - (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (void)mumHeightInPixels;
+- (void)hasDynamicThumbnailSizePresetMinimumHeightInPixels;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *articleInfoLists; // @synthesize articleInfoLists=_articleInfoLists;
 @property(nonatomic) _Bool isValidBucketGroup; // @synthesize isValidBucketGroup=_isValidBucketGroup;
 
 @end

@@ -4,23 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessoryTransportReachabilityReport, NSDictionary, NSNumber, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryReachabilityChangedLogEvent
 {
     _Bool _accessoryBatteryPowered;
-    _Bool _accessoryBridged;
-    _Bool _batteryLow;
-    _Bool _changed;
-    _Bool _reachable;
-    double _duration;
-    NSString *_accessoryCategory;
-    NSString *_accessoryFirmwareVersion;
-    NSString *_accessoryManufacturer;
-    NSString *_accessoryModel;
-    NSNumber *_accessoryNumber;
-    HMDAccessoryTransportReachabilityReport *_transportReport;
 }
 
 + (id);
@@ -28,55 +15,23 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)ing default handling for challenge %@ with authenticationMethod %@;
+- (id)ed!;
+- (id)ng bytes to %@ with:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (double);
+- (double)CIPortraitEffectBlack;
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void)8=;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool accessoryBatteryPowered; // @synthesize accessoryBatteryPowered=_accessoryBatteryPowered;
-@property(readonly, nonatomic) _Bool accessoryBridged; // @synthesize accessoryBridged=_accessoryBridged;
-@property(readonly, copy, nonatomic) NSString *accessoryCategory; // @synthesize accessoryCategory=_accessoryCategory;
-@property(readonly, copy, nonatomic) NSString *accessoryFirmwareVersion; // @synthesize accessoryFirmwareVersion=_accessoryFirmwareVersion;
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, copy, nonatomic) NSString *accessoryManufacturer; // @synthesize accessoryManufacturer=_accessoryManufacturer;
-@property(readonly, copy, nonatomic) NSString *accessoryModel; // @synthesize accessoryModel=_accessoryModel;
-@property(readonly, copy, nonatomic) NSNumber *accessoryNumber; // @synthesize accessoryNumber=_accessoryNumber;
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, nonatomic) _Bool batteryLow; // @synthesize batteryLow=_batteryLow;
-@property(readonly, nonatomic) _Bool changed; // @synthesize changed=_changed;
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, nonatomic) _Bool reachable; // @synthesize reachable=_reachable;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) HMDAccessoryTransportReachabilityReport *transportReport; // @synthesize transportReport=_transportReport;
 
 @end
 

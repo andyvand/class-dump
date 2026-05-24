@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (void);
-+ (Class);
++ (Class)dler:. /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id);

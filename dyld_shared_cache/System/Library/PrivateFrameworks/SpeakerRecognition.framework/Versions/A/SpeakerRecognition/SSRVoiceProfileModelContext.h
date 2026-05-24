@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSURL;
+@class NSURL;
 
 @interface SSRVoiceProfileModelContext
 {
     NSURL *_configFilePath;
-    NSURL *_voiceProfileModelFilePath;
-    NSURL *_secureProfileModelFilePath;
-    NSDictionary *_compareModelFilePaths;
 }
 
 - (id);
@@ -23,10 +20,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *compareModelFilePaths; // @synthesize compareModelFilePaths=_compareModelFilePaths;
 @property(readonly, nonatomic) NSURL *configFilePath; // @synthesize configFilePath=_configFilePath;
-@property(readonly, nonatomic) NSURL *secureProfileModelFilePath; // @synthesize secureProfileModelFilePath=_secureProfileModelFilePath;
-@property(readonly, nonatomic) NSURL *voiceProfileModelFilePath; // @synthesize voiceProfileModelFilePath=_voiceProfileModelFilePath;
 
 @end
 

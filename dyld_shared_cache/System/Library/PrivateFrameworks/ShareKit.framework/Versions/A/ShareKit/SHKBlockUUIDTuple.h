@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface SHKBlockUUIDTuple
 {
     CDUnknownBlockType _block;
-    NSUUID *_uuid;
 }
 
 - (id);
@@ -21,7 +18,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, copy) CDUnknownBlockType block; // @synthesize block=_block;
-@property(readonly) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

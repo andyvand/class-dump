@@ -9,18 +9,16 @@
 @interface AttendeeListElement
 {
     _Bool _xMore;
-    NSMutableAttributedString *_string;
 }
 
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (void)nRepresentationWithNotification:event:date:endDate:timeZone: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)invitationNotificationRepresentationWithNotification:event:date:endDate:timeZone: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) NSMutableAttributedString *string; // @synthesize string=_string;
-@property _Bool xMore; // @synthesize xMore=_xMore;
 
 @end
 

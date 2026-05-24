@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSUUID, _HMDAccountIdentifier;
+@class _HMDAccountIdentifier;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccountIdentifier
@@ -12,48 +12,28 @@ __attribute__((visibility("hidden")))
     _HMDAccountIdentifier *_internal;
 }
 
++ (id)name:(id)arg1;
 + (id);
 + (id);
-+ (id);
-+ (id)uplicateUserModelBulletinForHome:(id)arg1 user: /* Error: Ran out of types for this method. */;
++ (id)insertHH2DuplicateUserModelBulletinForHome:(id)arg1 user: /* Error: Ran out of types for this method. */;
 + (_Bool)Ð:¨"j /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)aceBalanceAutoCalculator.responseQueue;
 - (id);
 - (unsigned long long);
-- (id);
+- (id)lO4PdP;
 - (_Bool);
 - (void);
-- (id)ecodedValue:(struct _NSZone *)arg1 error: /* Error: Ran out of types for this method. */;
+- (id)decodedValue:(struct _NSZone *)arg1 error: /* Error: Ran out of types for this method. */;
 - (id)´;
 - (id)arget list - removing...;
-- (void)oProtoOctagonState;
+- (void)HMAccessoryDiagnosticInfoProtoOctagonState;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, getter=isAuthenticated) _Bool authenticated;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSUUID *identifier;
 @property(readonly, copy) _HMDAccountIdentifier *internal; // @synthesize internal=_internal;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *senderCorrelationIdentifier;
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 
 @end
 

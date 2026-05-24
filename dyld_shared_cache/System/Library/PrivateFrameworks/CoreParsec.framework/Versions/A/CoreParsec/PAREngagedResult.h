@@ -4,48 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString;
+@class NSString;
 
 @interface PAREngagedResult
 {
     int _type;
-    NSString *_title;
-    NSString *_searchString;
-    NSData *_encodedNormalizedTopic;
-    NSDate *_engagementTime;
-    double _score;
-    double _freshnessScore;
 }
 
 + (_Bool);
-- (void);
-- (void);
-- (void);
-- (double);
-- (id);
-- (id);
+- (void)t:(double)arg1:RunBeforeUnloadConfirmPanelResultListener, Source = API::Object] /* Error: Ran out of types for this method. */;
+- (void)= API:(id)arg1:CompletionListener, Source = API::Object] /* Error: Ran out of types for this method. */;
+- (void)s_t<Source, Target> *WTF:(id)arg1:downcast(Source *) [Target = WebKit::WebOpenPanelResultListenerProxy, Source = API::Object] /* Error: Ran out of types for this method. */;
+- (double)sQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::WeakRef<API::ContentWorld>>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::WeakRef<API::ContentWorld>>>, WTF::DefaultHash<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, WTF::HashMap<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::WeakRef<API::ContentWorld>>::KeyValuePairTraits, WTF::HashTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>>::validateKey(const ValueType &) [Key = WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Value = WTF::KeyValuePair<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::WeakRef<API::ContentWorld>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::WeakRef<API::ContentWorld>>>, HashFunctions = WTF::DefaultHash<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Traits = WTF::HashMap<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::WeakRef<API::ContentWorld>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id)&&);
+- (id)le List source recovery failed:Length is not a multiple of char16_t size; data is corrupted. /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (int);
 - (void);
 - (void);
 - (void);
-- (double);
+- (double)setLocalSenderIdentityUUID: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (void)1Â0@ù
 × ;
-- (id)geLast7Days;
+- (id)_averageEngagementAgeLast7Days;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *encodedNormalizedTopic; // @synthesize encodedNormalizedTopic=_encodedNormalizedTopic;
-@property(copy, nonatomic) NSDate *engagementTime; // @synthesize engagementTime=_engagementTime;
-@property(nonatomic) double freshnessScore; // @synthesize freshnessScore=_freshnessScore;
-@property(nonatomic) double score; // @synthesize score=_score;
-@property(copy, nonatomic) NSString *searchString; // @synthesize searchString=_searchString;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

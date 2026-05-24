@@ -6,12 +6,11 @@
 
 #import <PassKitCore/PKPassVerificationMethod.h>
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface PKPassVerificationAppClipMethod : PKPassVerificationMethod
 {
     NSURL *_url;
-    NSString *_appName;
 }
 
 + (_Bool)0@ù
@@ -22,17 +21,16 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)authSuccess;
 - (id);
-- (id)hnology;
-- (void)le;
+- (id)carKeyVehicleKeyTechnology;
+- (void)unavailableActionTitle;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *appName; // @synthesize appName=_appName;
 @property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

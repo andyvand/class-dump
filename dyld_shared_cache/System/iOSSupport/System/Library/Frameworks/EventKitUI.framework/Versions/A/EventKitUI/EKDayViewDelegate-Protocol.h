@@ -4,11 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKDayView;
+@class EKDayView, NSArray, UIViewController;
 
 @protocol EKDayViewDelegate
+- (NSArray *)@;
 
 @optional
-- (_Bool)ace:(EKDayView *)arg1;
+- (UIViewController *);
+- (_Bool)TDataConnectionAvailabilityStatus";
+- (void);
+- (void);
+- (void)__TEXT;
+- (void)ntext",&,N,V_context;
+- (_Bool)setExportedInterface:(EKDayView *)arg1;
 @end
 

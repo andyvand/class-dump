@@ -9,40 +9,31 @@
 @interface AFDeviceRequestHandlingRecord
 {
     NSString *_requestID;
-    unsigned long long _deviceRoles;
 }
 
 + (id);
 + (_Bool);
 - (id);
+- (unsigned long long)T;
+- (id)@"NSNumber",R,N,V_size;
+- (id);
+- (id);
+- (id);
+- (id)P;
+- (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (id)B;
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)ts;
+- (id)A;
+- (void)_advertisements;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned long long deviceRoles; // @synthesize deviceRoles=_deviceRoles;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *requestID; // @synthesize requestID=_requestID;
-@property(readonly) Class superclass;
 
 @end
 

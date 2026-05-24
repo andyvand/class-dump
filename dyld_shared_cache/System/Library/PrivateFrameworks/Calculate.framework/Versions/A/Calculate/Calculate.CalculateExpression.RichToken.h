@@ -7,24 +7,6 @@
 @interface Calculate.CalculateExpression.RichToken
 {
     id id;
-    id text;
-    id type;
-    id isImplicit;
-    id left;
-    id right;
-    id maxSuperscript;
-    id formattedText;
-    id maximumIntegerDigits;
-    id minimumFractionDigits;
-    id maximumFractionDigits;
-    id flexibleFractionDigits;
-    id usesGroupingSeparator;
-    id usesSignificantDigits;
-    id maximumSignificantDigits;
-    id preformattedText;
-    id locale;
-    id localizedSymbol;
-    id allowsLocalization;
 }
 
 @end

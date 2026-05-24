@@ -9,10 +9,6 @@
 @interface CPLSuggestionMemory
 {
     NSString *_context;
-    unsigned int _feature;
-    NSString *_memoryIdentifier;
-    unsigned int _type;
-    CDStruct_35f57793 _has;
 }
 
 - (_Bool);
@@ -25,31 +21,23 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (unsigned int)ñª1\íò0
-ÁÚð;
-- (id)àªeOó_©øg©è#;
-- (_Bool)àªdç÷@ùàªeçàª_çà@ù]çàC@ù[çà?@ùYçàªWçàCRäåàªRçàªPçàªNç¨Yø	)ñEù)@ù?ëá;
-- (void);
-- (void);
-- (id);
-- (void);
+- (unsigned int)?;
 - (id);
 - (_Bool);
+- (void)?;
+- (void)s;
+- (id);
+- (void);
+- (id);
 - (_Bool);
+- (_Bool)max_write_size;
 - (void);
 - (void);
-- (void)Full;
+- (void)JPEGFull;
 - (unsigned int)elete;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *context; // @synthesize context=_context;
-@property(nonatomic) unsigned int feature; // @synthesize feature=_feature;
-@property(readonly, nonatomic) _Bool hasContext;
-@property(nonatomic) _Bool hasFeature;
 @property(readonly, nonatomic) _Bool hasMemoryIdentifier;
-@property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) NSString *memoryIdentifier; // @synthesize memoryIdentifier=_memoryIdentifier;
-@property(nonatomic) unsigned int type; // @synthesize type=_type;
 
 @end
 

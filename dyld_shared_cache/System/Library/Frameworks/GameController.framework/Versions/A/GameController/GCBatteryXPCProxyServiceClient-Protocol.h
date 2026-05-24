@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol GCBatteryXPCProxyServiceRemoteServerInterface, _GCIPCEndpointConnection;
+@protocol _GCIPCEndpointConnection;
 
 @protocol GCBatteryXPCProxyServiceClient
 
 // Remaining properties
 @property(readonly) id <_GCIPCEndpointConnection> batteryXPCProxyServiceConnection;
-@property(readonly) id <GCBatteryXPCProxyServiceRemoteServerInterface> batteryXPCProxyServiceRemoteServer;
 @end
 

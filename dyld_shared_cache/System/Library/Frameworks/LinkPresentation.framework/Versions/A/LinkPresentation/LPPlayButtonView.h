@@ -6,17 +6,12 @@
 
 #import <LinkPresentation/LPComponentView.h>
 
-@class LPAudioPlayButtonStyle, LPInlineMediaPlaybackInformation, LPPlayButtonControl, LPPlayButtonPresentationProperties;
+@class LPPlayButtonControl;
 
 __attribute__((visibility("hidden")))
 @interface LPPlayButtonView : LPComponentView
 {
     LPPlayButtonControl *_button;
-    LPInlineMediaPlaybackInformation *_playbackInformation;
-    struct NSEdgeInsets _contentInset;
-    LPAudioPlayButtonStyle *_style;
-    _Bool _hasBuilt;
-    LPPlayButtonPresentationProperties *_properties;
 }
 
 - (void);
@@ -27,8 +22,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)Request.framework/Versions/A/DiagnosticRequest;
+- (void)4;
 - (void);
 - (id);
 - (id);

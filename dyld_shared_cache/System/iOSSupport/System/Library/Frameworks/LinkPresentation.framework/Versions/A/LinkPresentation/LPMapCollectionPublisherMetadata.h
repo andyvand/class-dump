@@ -6,25 +6,21 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPImage, NSString;
-
 @interface LPMapCollectionPublisherMetadata : LPSpecializationMetadata
 {
     unsigned int _numberOfPublishedCollections;
-    NSString *_name;
-    LPImage *_icon;
 }
 
-+ (id);
++ (id)splitViewController:displayModeForExpandingToProposedDisplayMode: /* Error: Ran out of types for this method. */;
 + (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
+- (id)textEffectCoordinatorPaused;
+- (id)textEffectCoordinator:(id)arg1 willRequestAnimatorUsing: /* Error: Ran out of types for this method. */;
+- (id)textEffectCoordinator:(id)arg1 textViewForTextViewIdentifier: /* Error: Ran out of types for this method. */;
+- (void)textEffectCoordinator:(id)arg1 explodeConfigurationForTextViewIdentifier: /* Error: Ran out of types for this method. */;
+- (id)systemLayoutSizeFittingSize:(id)arg1;
+- (_Bool)suppressAppearanceCallbacksBecauseOfFirstInitialization;
+- (id)startTimingForKey: /* Error: Ran out of types for this method. */;
+- (void)startPlayingInlineVideo;
 - (void);
 - (unsigned int);
 - (void);
@@ -35,21 +31,13 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)refreshPolicy %@
+;
 - (void)á÷!|FùQð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) LPImage *icon; // @synthesize icon=_icon;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) unsigned int numberOfPublishedCollections; // @synthesize numberOfPublishedCollections=_numberOfPublishedCollections;
-@property(readonly) Class superclass;
 
 @end
 

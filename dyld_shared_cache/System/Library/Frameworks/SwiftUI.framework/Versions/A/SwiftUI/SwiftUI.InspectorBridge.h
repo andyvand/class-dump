@@ -7,14 +7,10 @@
 @interface SwiftUI.InspectorBridge
 {
     id host;
-    id lastContentHost;
-    id lastEnvironment;
-    id inspectorSeed;
-    id inspectorSplitViewItem;
 }
 
 - (id);
-- (void)ation;
+- (void)_ResolvedMatchedTransitionSourceConfiguration;
 
 @end
 

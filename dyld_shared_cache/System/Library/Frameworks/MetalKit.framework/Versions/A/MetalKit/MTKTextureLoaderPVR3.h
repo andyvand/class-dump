@@ -6,15 +6,10 @@
 
 #import <MetalKit/MTKTextureLoaderData.h>
 
-@class NSData;
-
 __attribute__((visibility("hidden")))
 @interface MTKTextureLoaderPVR3 : MTKTextureLoaderData
 {
     int _pvrCompressedFormat;
-    struct MTLPixelFormatInfo _pixelFormatInfo;
-    unsigned int _metaDataSize;
-    NSData *_imageData;
 }
 
 + (_Bool);

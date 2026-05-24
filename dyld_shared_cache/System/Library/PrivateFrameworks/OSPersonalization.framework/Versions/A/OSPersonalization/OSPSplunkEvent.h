@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface OSPSplunkEvent
 {
     NSMutableDictionary *_dict;
-    NSString *_uuid;
 }
 
 + (id);
 + (id);
 - (void);
 - (id);
-- (id);
+- (id)MA/1M1M>0{;
 - (id);
 - (void);
 - (void);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(retain) NSMutableDictionary *dict; // @synthesize dict=_dict;
-@property(retain) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end
 

@@ -7,18 +7,6 @@
 @interface NewsArticles.ArticleRecirculationService
 {
     id coreConfigurationManager;
-    id articleRecirculationConfigService;
-    id tagService;
-    id headlineService;
-    id articleRecirculationConfigFactory;
-    id articleProviderService;
-    id paidAccessChecker;
-    id bundleSubscriptionManager;
-    id readingList;
-    id endOfArticleQuotaSatisfierFactory;
-    id personalizationService;
-    id endOfArticleResultFactory;
-    id articleGroupData;
 }
 
 @end

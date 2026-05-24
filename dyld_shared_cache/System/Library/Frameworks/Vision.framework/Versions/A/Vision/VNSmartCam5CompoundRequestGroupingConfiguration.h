@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet;
-
 __attribute__((visibility("hidden")))
 @interface VNSmartCam5CompoundRequestGroupingConfiguration
 {
     unsigned long long _imageCropAndScaleOption;
-    NSMutableSet *_originalRequests;
-    NSMutableDictionary *_detectorConfigurationOptions;
 }
 
 - (id);
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
-- (void);
+- (void)@;
 - (id);
 - (id)e = %f; rotationAngle = %f; yawAngle = %f label = %d petFaceScore = %f matchingX = %f matchingY %f; boxCenter = %@;
-- (void)estPrivateRevisionSceneNetV4StillCapturePipeline;
+- (void)VNGenerateAttentionBasedSaliencyImageRequestPrivateRevisionSceneNetV4StillCapturePipeline;
 
 @end
 

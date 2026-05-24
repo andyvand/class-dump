@@ -4,44 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBActionItem, _SFPBButton, _SFPBColor, _SFPBFormattedText, _SFPBImage, _SFPBRichText;
+@class NSArray, NSData, _SFPBButton, _SFPBColor, _SFPBRichText;
 
 @protocol _SFPBDetailedRowCardSection
-- (void)ntext;
-- (_SFPBButton *)actionItemTypes;
+- (void);
+- (_SFPBRichText *)B;
+- (_Bool)ic_setActiveStoreAccount: /* Error: Ran out of types for this method. */;
+- (_Bool)host;
+- (void)_startPlaybackForStateDescriptor:(_SFPBColor *)arg1 usingConfirmedPlayableAsset: /* Error: Ran out of types for this method. */;
+- (void);
+- (NSData *)_PHDictionaryKeyValueWrapper;
+- (id)h;
+- (void)_context;
+- (_SFPBButton *)_actionItemTypes;
 - (int);
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBActionItem *action;
-@property(retain, nonatomic) _SFPBColor *backgroundColor;
-@property(retain, nonatomic) _SFPBButton *button;
-@property(copy, nonatomic) NSArray *buttonItems;
-@property(nonatomic) _Bool buttonItemsAreTrailing;
-@property(nonatomic) _Bool canBeHidden;
-@property(copy, nonatomic) NSArray *descriptions;
-@property(retain, nonatomic) _SFPBRichText *footnote;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(nonatomic) _Bool isSecondaryTitleDetached;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) _Bool preventThumbnailImageScaling;
 @property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(retain, nonatomic) _SFPBRichText *richTrailingBottomText;
-@property(retain, nonatomic) _SFPBRichText *richTrailingMiddleText;
-@property(retain, nonatomic) _SFPBRichText *richTrailingTopText;
-@property(retain, nonatomic) _SFPBFormattedText *secondaryTitle;
-@property(retain, nonatomic) _SFPBImage *secondaryTitleImage;
-@property(nonatomic) int separatorStyle;
-@property(nonatomic) _Bool shouldUseCompactDisplay;
-@property(retain, nonatomic) _SFPBImage *thumbnail;
-@property(retain, nonatomic) _SFPBRichText *title;
-@property(retain, nonatomic) _SFPBRichText *topText;
-@property(retain, nonatomic) _SFPBFormattedText *trailingBottomText;
-@property(retain, nonatomic) _SFPBFormattedText *trailingMiddleText;
-@property(retain, nonatomic) _SFPBImage *trailingThumbnail;
-@property(retain, nonatomic) _SFPBFormattedText *trailingTopText;
-@property(copy, nonatomic) NSString *type;
 @end
 

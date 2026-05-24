@@ -17,7 +17,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *hour; // @dynamic hour;
-@property(copy, nonatomic) NSNumber *minute; // @dynamic minute;
 
 @end
 

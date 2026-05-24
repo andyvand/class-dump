@@ -9,8 +9,6 @@
 @interface ChatKit.TapbackPickerStrokeContainerView__priv_522A160BBD24E8726EEE99D68A03969E : ChatKit.TapbackPickerMaskedViewContainer__priv_522A160BBD24E8726EEE99D68A03969E
 {
     id solidStrokeView;
-    id backdropView;
-    id vibrancyView;
 }
 
 - (id);

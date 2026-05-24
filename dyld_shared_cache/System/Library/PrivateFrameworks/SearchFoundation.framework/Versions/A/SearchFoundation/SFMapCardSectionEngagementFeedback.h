@@ -16,9 +16,9 @@
 + (_Bool);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void)ed_url_variant;
+- (id)setMainThreadBoundDestination:(id)arg1 forRepresentationKinds:configurationBlock: /* Error: Ran out of types for this method. */;
+- (void)tateDescriptor:(id)arg1 (%{public}@) withOptions:(%{public}@) playbackCompletionType:(%{public}@). /* Error: Ran out of types for this method. */;
+- (void)_matched_url_variant;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *modifiedPlacemarkData; // @synthesize modifiedPlacemarkData=_modifiedPlacemarkData;

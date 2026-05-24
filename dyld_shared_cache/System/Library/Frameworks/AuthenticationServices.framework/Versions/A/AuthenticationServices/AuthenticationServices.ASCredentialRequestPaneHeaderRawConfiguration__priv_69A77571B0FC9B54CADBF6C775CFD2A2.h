@@ -7,9 +7,6 @@
 @interface AuthenticationServices.ASCredentialRequestPaneHeaderRawConfiguration__priv_69A77571B0FC9B54CADBF6C775CFD2A2
 {
     id _title;
-    id _subtitle;
-    id _icon;
-    id _$observationRegistrar;
 }
 
 @end

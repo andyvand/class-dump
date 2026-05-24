@@ -6,22 +6,18 @@
 
 #import <UIKitCore/_UIStatusBarSignalView.h>
 
-@class _UIStatusBarCycleAnimation;
-
 @interface _UIStatusBarCellularSignalView : _UIStatusBarSignalView
 {
     _Bool _needsLargerScale;
-    _Bool _needsCycleAnimationUpdate;
-    _UIStatusBarCycleAnimation *_cycleAnimation;
 }
 
-+ (struct CGSize);
++ (struct CGSize)_superclassRegisterNotifications;
 + (double);
 + (double);
 + (double)tion;
 + (double)> *__strong);
 - (_Bool);
-- (void);
+- (void)oadXAuthName;
 - (void);
 - (void);
 - (void);
@@ -30,10 +26,10 @@
 - (struct CGSize);
 - (id);
 - (_Bool);
-- (void)rTranslucentGapsForGeometry:key:onKeyplane: /* Error: Ran out of types for this method. */;
-- (double)cloneGenericView:(long long)arg1;
+- (void)edgesAdjustedForTranslucentGapsForGeometry:key:onKeyplane: /* Error: Ran out of types for this method. */;
+- (double)_cloneGenericView:(long long)arg1;
 - (void)vailableConfigurationState",N,R;
-- (void)viewParametersCornerRadii;
+- (void)_UIPreviewParametersCornerRadii;
 - (void)paØa;
 - (void);
 - (void)8];
@@ -44,8 +40,6 @@
 - (void)ê^;
 
 // Remaining properties
-@property(retain, nonatomic) _UIStatusBarCycleAnimation *cycleAnimation; // @synthesize cycleAnimation=_cycleAnimation;
-@property(nonatomic) _Bool needsCycleAnimationUpdate; // @synthesize needsCycleAnimationUpdate=_needsCycleAnimationUpdate;
 @property(nonatomic) _Bool needsLargerScale; // @synthesize needsLargerScale=_needsLargerScale;
 
 @end

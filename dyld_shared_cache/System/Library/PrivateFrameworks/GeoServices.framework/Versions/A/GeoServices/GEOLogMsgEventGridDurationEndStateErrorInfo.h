@@ -9,30 +9,24 @@
 @interface GEOLogMsgEventGridDurationEndStateErrorInfo
 {
     PBUnknownFields *_unknownFields;
-    unsigned int _count;
-    int _type;
-    struct {
-        unsigned int has_count:1;
-        unsigned int has_type:1;
-    } _flags;
 }
 
-+ (_Bool)sholdMps:(id)arg1;
-- (void);
++ (_Bool)setHasSpeedThresholdMps:(id)arg1;
+- (void)servation(:(_Bool)arg1;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)	;
+- (id))A;
 - (unsigned long long);
+- (_Bool)o set UUID property.;
+- (int)mapkit_imageNamed: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (int);
-- (_Bool);
-- (void);
-- (id)ourceApplication:(struct _NSZone *)arg1;
+- (void);
+- (id)setSourceApplication:(struct _NSZone *)arg1;
 - (void)ice;
 - (id)ewState;
 - (int)C­@Ï,;
@@ -46,11 +40,7 @@
 - (void)Q5Àü3;
 
 // Remaining properties
-@property(nonatomic) unsigned int count;
 @property(nonatomic) _Bool hasCount;
-@property(nonatomic) _Bool hasType;
-@property(nonatomic) int type;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

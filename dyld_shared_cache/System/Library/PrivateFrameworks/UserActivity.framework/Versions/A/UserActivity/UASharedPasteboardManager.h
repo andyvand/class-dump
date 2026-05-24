@@ -4,35 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, NSSet, NSString, NSXPCConnection, UAPasteboardGeneration;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface UASharedPasteboardManager
 {
     _Bool _remotePasteboardAvailable;
-    _Bool _currentGenerationHasUpdates;
-    _Bool _updateScheduled;
-    int _disableCount;
-    CDUnknownBlockType _localPasteboardWasFetched;
-    UAPasteboardGeneration *_currentGeneration;
-    NSObject<OS_dispatch_queue> *_serverQ;
-    NSXPCConnection *_connection;
-    NSXPCConnection *_controllConnection;
-    id _controllSyncObject;
-    NSObject<OS_dispatch_queue> *_pasteboardReadQ;
-    NSSet *_disallowedTypesForSending;
-    NSSet *_disallowedTypesForReceiving;
-    NSSet *_bomCheckTypes;
-    NSDictionary *_typeBOMs;
-    NSDictionary *_typeAliases;
-    CDUnknownBlockType _completionBlock;
 }
 
 + (_Bool);
 + (id);
 + (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -48,12 +32,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)T2;
 - (id);
+- (id)?;
 - (id);
-- (id);
-- (void);
-- (_Bool);
+- (void)R	;
+- (_Bool);j ;
 - (_Bool);
 - (void);
 - (CDUnknownBlockType);
@@ -67,57 +51,34 @@
 - (int);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
+- (id)T;
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (void);
+- (id);
+- (id)h;
+- (_Bool);
+- (void);
+- (void);
+- (void)c;
+- (void);
+- (id)^;
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)@9H;
 - (CDUnknownBlockType);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain) NSSet *bomCheckTypes; // @synthesize bomCheckTypes=_bomCheckTypes;
-@property CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(retain) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(retain) NSXPCConnection *controllConnection; // @synthesize controllConnection=_controllConnection;
-@property(retain) id controllSyncObject; // @synthesize controllSyncObject=_controllSyncObject;
-@property(retain) UAPasteboardGeneration *currentGeneration; // @synthesize currentGeneration=_currentGeneration;
-@property _Bool currentGenerationHasUpdates; // @synthesize currentGenerationHasUpdates=_currentGenerationHasUpdates;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property int disableCount; // @synthesize disableCount=_disableCount;
-@property(retain) NSSet *disallowedTypesForReceiving; // @synthesize disallowedTypesForReceiving=_disallowedTypesForReceiving;
-@property(retain) NSSet *disallowedTypesForSending; // @synthesize disallowedTypesForSending=_disallowedTypesForSending;
-@property(readonly) unsigned long long hash;
-@property(copy) CDUnknownBlockType localPasteboardWasFetched; // @synthesize localPasteboardWasFetched=_localPasteboardWasFetched;
-@property(retain) NSObject<OS_dispatch_queue> *pasteboardReadQ; // @synthesize pasteboardReadQ=_pasteboardReadQ;
-@property _Bool remotePasteboardAvailable; // @synthesize remotePasteboardAvailable=_remotePasteboardAvailable;
 @property(retain) NSObject<OS_dispatch_queue> *serverQ; // @synthesize serverQ=_serverQ;
-@property(readonly) Class superclass;
-@property(retain) NSDictionary *typeAliases; // @synthesize typeAliases=_typeAliases;
-@property(retain) NSDictionary *typeBOMs; // @synthesize typeBOMs=_typeBOMs;
-@property _Bool updateScheduled; // @synthesize updateScheduled=_updateScheduled;
 
 @end
 

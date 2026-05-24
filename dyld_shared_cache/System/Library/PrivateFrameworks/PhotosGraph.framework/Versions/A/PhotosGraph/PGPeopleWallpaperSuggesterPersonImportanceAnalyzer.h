@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSCurationContext, NSDate, NSMutableDictionary, NSObject, NSString, PGGraph;
-@protocol OS_os_log;
+@class PGGraph;
 
 @interface PGPeopleWallpaperSuggesterPersonImportanceAnalyzer
 {
     PGGraph *_graph;
-    CLSCurationContext *_curationContext;
-    NSObject<OS_os_log> *_loggingConnection;
-    NSString *_mePersonLocalIdentifier;
-    _Bool _hasFavoritedPersons;
-    NSDate *_latestLibraryDate;
-    NSDate *_earliestDateForCandidates;
-    NSDate *_earliestDateForBasePersons;
-    NSMutableDictionary *_personInformationByPersonLocalIdentifier;
-    NSMutableDictionary *_momentLocalIdentifiersByPersonLocalIdentifier;
-    _Bool _favoritePersonsAreVIPs;
-    double _normalizedDeviationForVeryImportantPersons;
-    double _normalizedDeviationForImportantPersons;
 }
 
 - (void);
@@ -29,18 +16,16 @@
 - (void);
 - (double);
 - (double);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (id)copy;
+- (void)_clearAllSavedScreenCursorLocation;
+- (void)_classMap;
+- (_Bool)ch_queue>",&,N,V__trackerQueue;
+- (void)MRequirement - ACMRequirementDataKeyRef;
 - (_Bool);
 - (id);
 - (void)tatistics.txt;
 
 // Remaining properties
-@property(nonatomic) _Bool favoritePersonsAreVIPs; // @synthesize favoritePersonsAreVIPs=_favoritePersonsAreVIPs;
-@property(nonatomic) double normalizedDeviationForImportantPersons; // @synthesize normalizedDeviationForImportantPersons=_normalizedDeviationForImportantPersons;
 @property(nonatomic) double normalizedDeviationForVeryImportantPersons; // @synthesize normalizedDeviationForVeryImportantPersons=_normalizedDeviationForVeryImportantPersons;
 
 @end

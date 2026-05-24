@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface CNVSchemaCollatedActionCandidate : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_primaryActionCandidateId;
-    NSArray *_alternativeActionCandidateIds;
-    _Bool _hasPrimaryActionCandidateId;
 }
 
 - (void);
@@ -21,28 +19,25 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)h^;
 - (id);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)rescribedPlanConvertTool";
-- (id)commended;
+- (id)MHSchemaMHMitigationDecisionRecommended;
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *alternativeActionCandidateIds; // @synthesize alternativeActionCandidateIds=_alternativeActionCandidateIds;
-@property(nonatomic) _Bool hasPrimaryActionCandidateId; // @synthesize hasPrimaryActionCandidateId=_hasPrimaryActionCandidateId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *primaryActionCandidateId; // @synthesize primaryActionCandidateId=_primaryActionCandidateId;
 
 @end

@@ -9,18 +9,16 @@
 @interface MPFrameInternal
 {
     NSString *frameID;
-    NSString *presetID;
 }
 
-- (void);
-- (void);
+- (void)newsEdgeWidgetConfigAndTodayConfigLite;
+- (void)velopeTracker registerEnvelopeContentTypesAsDropped:(id)arg1 forReason:withError:] /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
+- (id)@;
+- (void)T;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *frameID; // @synthesize frameID;
-@property(retain, nonatomic) NSString *presetID; // @synthesize presetID;
 
 @end
 

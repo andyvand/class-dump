@@ -10,20 +10,16 @@ __attribute__((visibility("hidden")))
 @interface UINSDragItem
 {
     NSItemProvider *_itemProvider;
-    long long _preferredPresentationStyle;
-    struct CGRect _frame;
 }
 
 - (id);
 - (long long);
-- (id);
+- (id)(WebResourcePrivate) _initWithData:URL:MIMEType:textEncodingName:frameName:response:copyData:] /* Error: Ran out of types for this method. */;
 - (struct CGRect);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect frame; // @synthesize frame=_frame;
 @property(readonly, nonatomic) NSItemProvider *itemProvider; // @synthesize itemProvider=_itemProvider;
-@property(readonly, nonatomic) long long preferredPresentationStyle; // @synthesize preferredPresentationStyle=_preferredPresentationStyle;
 
 @end
 

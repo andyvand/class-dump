@@ -26,14 +26,14 @@ struct CGSize {
 };
 
 struct CLLocationCoordinate2D {
-    double latitude;
-    double longitude;
+    double _field1;
+    double _field2;
 };
 
 struct NSEdgeInsets {
-    double top;
-    double left;
-    double bottom;
-    double right;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
 };
 

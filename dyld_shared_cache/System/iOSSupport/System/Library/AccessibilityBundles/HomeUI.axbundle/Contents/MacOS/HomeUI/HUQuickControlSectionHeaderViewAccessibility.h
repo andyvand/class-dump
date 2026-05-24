@@ -12,11 +12,11 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void)]H;
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)accessibilityValue;
 
 @end
 

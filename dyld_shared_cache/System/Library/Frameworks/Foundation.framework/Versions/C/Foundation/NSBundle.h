@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
-
 @interface NSBundle
 {
     _Atomic unsigned long long _flags;
-    _Atomic struct __CFBundle *_cfBundle;
-    NSMutableDictionary *_attributedStringTable;
-    Class _principalClass;
-    id _initialPath;
-    id _resolvedPath;
-    NSString *_firstClassName;
-    struct os_unfair_lock_s _lock;
 }
 
 @end

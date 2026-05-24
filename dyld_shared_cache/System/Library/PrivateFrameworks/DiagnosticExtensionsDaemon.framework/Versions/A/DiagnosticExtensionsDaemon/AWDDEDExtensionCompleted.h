@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDDEDExtensionCompleted
 {
     unsigned long long _duration;
-    unsigned long long _numbytes;
-    unsigned long long _numfiles;
-    unsigned long long _timestamp;
-    int _error;
-    NSString *_extension;
-    struct {
-        unsigned int duration:1;
-        unsigned int numbytes:1;
-        unsigned int numfiles:1;
-        unsigned int timestamp:1;
-        unsigned int error:1;
-    } _has;
 }
 
 - (void);
@@ -31,48 +17,37 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)_TtC12SiriOntology30UsoEntity_common_CalendarEvent;
 - (int);
-- (int);
-- (id);
+- (int)ON UPDATE CASCADE, date INTEGER NOT NULL);;
+- (id)sealMessage:guid:sendingURI:sendingPushToken:receivingURI:receivingPushToken:forceSizeOptimizations:resetState:encryptedAttributes:signedByFullIdentity:errors: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (void);
-- (void);
-- (void);
+- (void)_fetchDependentPCSInSharedDatabase;
+- (void)pMergeableDeltaFromDelta:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)4o;
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)2;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)h_Velocity_RavenConvergence;
+- (_Bool).LogEntry.InternalToolData.GnssMsmtAnalysisToolData.GnssMsmtAnalysisToolDataCapture;
+- (void);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)_standardInterfaceFromVendor: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool)7Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long duration; // @synthesize duration=_duration;
-@property(nonatomic) int error; // @synthesize error=_error;
-@property(retain, nonatomic) NSString *extension; // @synthesize extension=_extension;
-@property(nonatomic) _Bool hasDuration;
-@property(nonatomic) _Bool hasError;
-@property(readonly, nonatomic) _Bool hasExtension;
-@property(nonatomic) _Bool hasNumbytes;
-@property(nonatomic) _Bool hasNumfiles;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long numbytes; // @synthesize numbytes=_numbytes;
-@property(nonatomic) unsigned long long numfiles; // @synthesize numfiles=_numfiles;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

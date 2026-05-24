@@ -12,14 +12,15 @@
 }
 
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)stopDeviceAppearanceTimeoutTimer;
+- (void)rVerify response no pairing data:(id)arg1 %#m
+;
 - (id);
 - (id);
 - (void)STestableLinkWithScheduler;

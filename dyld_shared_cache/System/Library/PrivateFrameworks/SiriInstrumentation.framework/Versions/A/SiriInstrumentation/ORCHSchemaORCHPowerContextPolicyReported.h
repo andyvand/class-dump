@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ORCHSchemaORCHPowerContextPolicies, ORCHSchemaORCHVisionPowerState;
+@class ORCHSchemaORCHPowerContextPolicies;
 
 @interface ORCHSchemaORCHPowerContextPolicyReported : SISchemaInstrumentationMessage
 {
     ORCHSchemaORCHPowerContextPolicies *_powerContextPolicies;
-    ORCHSchemaORCHVisionPowerState *_visionPowerState;
-    _Bool _hasPowerContextPolicies;
-    _Bool _hasVisionPowerState;
-    unsigned long long _whichPlatformspecificpowerstates;
 }
 
 - (unsigned long long);
@@ -37,17 +33,12 @@
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)ingDurationInMs;
-- (id)irstPassFireSampleCount: /* Error: Ran out of types for this method. */;
+- (id)_dataFilteringDurationInMs;
+- (id)setHasFirstPassFireSampleCount: /* Error: Ran out of types for this method. */;
 - (void)on.items.collection.typeIdentifier.custom.bundleId;
 
 // Remaining properties
-@property(nonatomic) _Bool hasPowerContextPolicies; // @synthesize hasPowerContextPolicies=_hasPowerContextPolicies;
-@property(nonatomic) _Bool hasVisionPowerState; // @synthesize hasVisionPowerState=_hasVisionPowerState;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) ORCHSchemaORCHPowerContextPolicies *powerContextPolicies; // @synthesize powerContextPolicies=_powerContextPolicies;
-@property(retain, nonatomic) ORCHSchemaORCHVisionPowerState *visionPowerState; // @synthesize visionPowerState=_visionPowerState;
-@property(readonly, nonatomic) unsigned long long whichPlatformspecificpowerstates; // @synthesize whichPlatformspecificpowerstates=_whichPlatformspecificpowerstates;
 
 @end
 

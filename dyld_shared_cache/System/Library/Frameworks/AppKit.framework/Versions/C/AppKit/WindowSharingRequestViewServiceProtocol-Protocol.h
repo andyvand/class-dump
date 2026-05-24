@@ -5,5 +5,7 @@
 //
 
 @protocol WindowSharingRequestViewServiceProtocol
+- (void);
+- (void)_dataTaskWithTaskForClass:(long long)arg1;
 @end
 

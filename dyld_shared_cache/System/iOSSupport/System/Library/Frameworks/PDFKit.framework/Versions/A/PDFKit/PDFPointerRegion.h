@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)_change_token, ck_sync_state, original_group_id, last_read_message_timestamp, cloudkit_record_id, last_addressed_sim_id, is_blackholed, syndication_date, syndication_type, is_recovered, is_deleting_incoming_messages FROM chat WHERE guid = ? ORDER BY chat.ROWID ASC;;
 - (struct CGRect);
 - (id);
 - (void);
-- (void);
+- (void);
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSBag, AMSBagValue, NSString;
+@class AMSBag;
 
 __attribute__((visibility("hidden")))
 @interface MMCommerceBagContract
@@ -13,23 +13,14 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
+- (id)Y7;
 - (id);
 - (void)!ÄGù1Y1Â0@ù
 × ;
 - (id);
 
 // Remaining properties
-@property(readonly) AMSBagValue *appleMusicDeviceOfferDeepLink;
 @property(readonly, nonatomic) AMSBag *bag; // @synthesize bag=_bag;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) AMSBagValue *iCloudDeviceOfferDeepLink;
-@property(readonly) Class superclass;
 
 @end
 

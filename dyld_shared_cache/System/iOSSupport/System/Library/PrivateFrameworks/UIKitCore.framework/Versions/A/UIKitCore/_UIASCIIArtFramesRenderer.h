@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (double);
-- (id);
+- (id)network.interface;
 - (id)Ô ;
 - (id)ngState";
 - (void)äÌÝÿ;

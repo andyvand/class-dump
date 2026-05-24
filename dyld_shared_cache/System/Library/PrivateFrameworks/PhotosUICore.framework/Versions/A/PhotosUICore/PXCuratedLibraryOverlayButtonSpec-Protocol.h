@@ -10,8 +10,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) double buttonHeight;
-@property(readonly, nonatomic) _Bool ellipsisButtonSpecialTreatment;
-@property(readonly, nonatomic) _Bool isFloating;
-@property(readonly, nonatomic) long long variant;
 @end
 

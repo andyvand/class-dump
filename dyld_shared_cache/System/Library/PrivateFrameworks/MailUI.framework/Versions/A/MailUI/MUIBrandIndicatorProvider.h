@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMMessageRepository, MUICachingSVGConverter, NSString;
-@protocol EFScheduler;
+@class EMMessageRepository;
 
 @interface MUIBrandIndicatorProvider
 {
     EMMessageRepository *_messageRepository;
-    MUICachingSVGConverter *_svgConverter;
-    id <EFScheduler> _scheduler;
 }
 
 + (id);
@@ -25,20 +22,10 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)objectID;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) EMMessageRepository *messageRepository; // @synthesize messageRepository=_messageRepository;
-@property(readonly, nonatomic) id <EFScheduler> scheduler; // @synthesize scheduler=_scheduler;
-@property(readonly) unsigned long long signpostID;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) MUICachingSVGConverter *svgConverter; // @synthesize svgConverter=_svgConverter;
 
 @end
 

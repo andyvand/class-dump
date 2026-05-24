@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface FI_TColumnPreviewSpotlightAttributesExtractor : FI_ISpotlightAttributesExtractor
 {
     struct mutex _queryAttributesLock;
-    NSArray *_queryAttributes;
 }
 
 - (id);

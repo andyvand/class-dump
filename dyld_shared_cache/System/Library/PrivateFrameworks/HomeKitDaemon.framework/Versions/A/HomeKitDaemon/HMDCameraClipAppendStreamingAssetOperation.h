@@ -6,26 +6,23 @@
 
 #import <HomeKitDaemon/HMDCameraClipOperation.h>
 
-@class HMCameraClipEncryptionManager, HMDCameraClipSegmentMetadata, HMFTimer, NSData, NSString;
+@class HMFTimer, NSData;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraClipAppendStreamingAssetOperation : HMDCameraClipOperation
 {
     NSData *_data;
-    HMDCameraClipSegmentMetadata *_metadata;
-    HMCameraClipEncryptionManager *_encryptionManager;
-    HMFTimer *_retryTimer;
 }
 
-+ (id);
++ (id);
 + (id);
 + (_Bool);
 + (id),ÿ;
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -34,22 +31,12 @@ __attribute__((visibility("hidden")))
 - (void)1ð1Â0@ù
 × ;
 - (id)cancel for homeInvitationID:%@ /* Error: Ran out of types for this method. */;
-- (void)rator;
+- (void)AsyncIterator;
 - (void)á}&;
 - (id)ÿ;
 
 // Remaining properties
-@property(readonly) NSData *data; // @synthesize data=_data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) HMCameraClipEncryptionManager *encryptionManager; // @synthesize encryptionManager=_encryptionManager;
-@property(readonly) unsigned long long hash;
-@property(readonly) HMDCameraClipSegmentMetadata *metadata; // @synthesize metadata=_metadata;
 @property(retain) HMFTimer *retryTimer; // @synthesize retryTimer=_retryTimer;
-@property(readonly) Class superclass;
 
 @end
 

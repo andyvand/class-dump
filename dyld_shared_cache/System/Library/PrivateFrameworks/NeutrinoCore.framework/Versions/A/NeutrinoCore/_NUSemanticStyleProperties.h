@@ -4,35 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSNumber, NSString, NUVersion;
+@class NUVersion;
 
 @interface _NUSemanticStyleProperties
 {
     _Bool _styleDataIsFloat16;
-    _Bool _isVideo;
-    NSNumber *_tuningType;
-    NSNumber *_brightness;
-    NUVersion *_version;
-    NSData *_styleData;
-    NSData *_globalToneCurveData;
-    double _baselineExposure;
-    NSNumber *_sceneType;
-    NSNumber *_subjectRelightingValue;
-    NSDictionary *_stats;
-    NSData *_lightMapData;
-    NSData *_linearLightMapData;
-    NSNumber *_lightMapWidth;
-    NSNumber *_lightMapHeight;
-    NSNumber *_baseGain;
-    NSNumber *_linearGain;
-    NSNumber *_linearRangeMin;
-    NSNumber *_linearRangeMax;
-    NSNumber *_faceBasedGlobalExposureBoostRatio;
-    NSDictionary *_extendedStats;
-    CDStruct_1b6d18a9 _keyTime;
 }
 
-+ (id);
++ (id)b;
 + (id);
 + (id);
 + (id);
@@ -46,7 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)X;
 - (void);
 - (void);
 - (void);
@@ -71,10 +50,10 @@
 - (id);
 - (CDStruct_1b6d18a9);
 - (void);
+- (void)J;
 - (void);
-- (void);
-- (id);
-- (void);
+- (id);
+- (void).external_id, record_v2.external_data, record_v2.model_encoding, record_v2.model_data, record_v2.model_schema, record_v2.type, record_v2.push_encoding, record_v2.push_data, record_v2.push_block_id, record_v2.uuid FROM record_v2 WHERE store_v2_id=?1;
 - (double);
 - (id);
 - (id);
@@ -87,34 +66,6 @@
 - (id)r not satisfying:%s /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *baseGain; // @synthesize baseGain=_baseGain;
-@property(nonatomic) double baselineExposure; // @synthesize baselineExposure=_baselineExposure;
-@property(retain, nonatomic) NSNumber *brightness; // @synthesize brightness=_brightness;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSDictionary *extendedStats; // @synthesize extendedStats=_extendedStats;
-@property(retain, nonatomic) NSNumber *faceBasedGlobalExposureBoostRatio; // @synthesize faceBasedGlobalExposureBoostRatio=_faceBasedGlobalExposureBoostRatio;
-@property(copy, nonatomic) NSData *globalToneCurveData; // @synthesize globalToneCurveData=_globalToneCurveData;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isVideo; // @synthesize isVideo=_isVideo;
-@property(nonatomic) CDStruct_1b6d18a9 keyTime; // @synthesize keyTime=_keyTime;
-@property(copy, nonatomic) NSData *lightMapData; // @synthesize lightMapData=_lightMapData;
-@property(retain, nonatomic) NSNumber *lightMapHeight; // @synthesize lightMapHeight=_lightMapHeight;
-@property(retain, nonatomic) NSNumber *lightMapWidth; // @synthesize lightMapWidth=_lightMapWidth;
-@property(retain, nonatomic) NSNumber *linearGain; // @synthesize linearGain=_linearGain;
-@property(copy, nonatomic) NSData *linearLightMapData; // @synthesize linearLightMapData=_linearLightMapData;
-@property(retain, nonatomic) NSNumber *linearRangeMax; // @synthesize linearRangeMax=_linearRangeMax;
-@property(retain, nonatomic) NSNumber *linearRangeMin; // @synthesize linearRangeMin=_linearRangeMin;
-@property(retain, nonatomic) NSNumber *sceneType; // @synthesize sceneType=_sceneType;
-@property(copy, nonatomic) NSDictionary *stats; // @synthesize stats=_stats;
-@property(copy, nonatomic) NSData *styleData; // @synthesize styleData=_styleData;
-@property(nonatomic) _Bool styleDataIsFloat16; // @synthesize styleDataIsFloat16=_styleDataIsFloat16;
-@property(copy, nonatomic) NSNumber *subjectRelightingValue; // @synthesize subjectRelightingValue=_subjectRelightingValue;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSNumber *tuningType; // @synthesize tuningType=_tuningType;
 @property(retain, nonatomic) NUVersion *version; // @synthesize version=_version;
 
 @end

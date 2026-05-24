@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol PFCameraViewfinderSessionWatcherDelegate;
-
 @interface PFCameraViewfinderSessionWatcher
 {
     _Atomic _Bool _isCameraRunning;
-    id <PFCameraViewfinderSessionWatcherDelegate> _delegate;
 }
 
 - (void);
@@ -20,7 +17,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) __weak id <PFCameraViewfinderSessionWatcherDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly) _Bool isCameraRunning;
 
 @end

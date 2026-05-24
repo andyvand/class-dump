@@ -9,13 +9,6 @@
 @interface ITLibMediaItemVideoInfo
 {
     NSString *_series;
-    NSString *_sortSeries;
-    unsigned long long _season;
-    NSString *_episode;
-    long long _episodeOrder;
-    _Bool _hd;
-    unsigned long long _videoWidth;
-    unsigned long long _videoHeight;
 }
 
 - (id);
@@ -30,21 +23,14 @@
 - (id);
 - (void);
 - (id);
+- (unsigned long long)callTreeForThread:inTask:options: /* Error: Ran out of types for this method. */;
+- (void)C;
 - (unsigned long long);
 - (void);
-- (unsigned long long);
-- (void);
-- (void);
+- (void)__cfstring;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *episode; // @synthesize episode=_episode;
-@property(nonatomic) long long episodeOrder; // @synthesize episodeOrder=_episodeOrder;
-@property(nonatomic, getter=isHD) _Bool hd; // @synthesize hd=_hd;
-@property(nonatomic) unsigned long long season; // @synthesize season=_season;
 @property(copy, nonatomic) NSString *series; // @synthesize series=_series;
-@property(copy, nonatomic) NSString *sortSeries; // @synthesize sortSeries=_sortSeries;
-@property(nonatomic) unsigned long long videoHeight; // @synthesize videoHeight=_videoHeight;
-@property(nonatomic) unsigned long long videoWidth; // @synthesize videoWidth=_videoWidth;
 
 @end
 

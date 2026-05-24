@@ -7,16 +7,60 @@
 @class CWFRequestParameters;
 
 @protocol CWFXPCRequestProtocolPrivateReadonly
+- (void);
+- (void)<h;
+- (void);
+- (void)@;
+- (void)2;
+- (void)setLinkToBundleIdentifier:(CWFRequestParameters *)arg1;
+- (void);
+- (void) ;
+- (void)C;
+- (void)SObject<OS_dispatch_queue>";
+- (void)outConstraint",W,N,V_titleLabelCenterXConstraint;
+- (void)iew load timer expired;
+- (void)(;
+- (void)ath;
+- (void));
+- (void));
+- (void)_createRequestForAccount:(CWFRequestParameters *)arg1 requestHandler:(void (^)(NSError *, NSData *))arg2;
+- (void);
+- (void)H;
+- (void),&,N,V_entitiesMatchingPredicate;
+- (void)$;
+- (void)";
+- (void)Ɵ;
+- (void)_sharpnessParameter;
+- (void)rvice' on connection %@:(CWFRequestParameters *)arg1 %@;
+- (void)ted;
+- (void)%@ %p '%@'> %@;
+- (void)hasRotationRate;
+- (void);
+- (void)initWithMachineStoreURL:(CWFRequestParameters *)arg1;
+- (void)ackupDataSource/TMAPFSBackupListener.m;
+- (void)j6;
+- (void)initWithLanguageID:(CWFRequestParameters *)arg1 responseKitSentence:(void (^)(NSError *, NSDictionary *))arg2;
+- (void)W0(;
+- (void)for canceling %lld;
+- (void);
+- (void)d
+;
+- (void)skImage:(CWFRequestParameters *)arg1:(void (^)(NSError *, NSData *))arg2 LPic2CFD:added kDI_SLA_AgreeKey (name of Agree button for this entry)
+ /* Error: Ran out of types for this method. */;
+- (void)XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.8/crypto/x509/by_mem.c;
+- (void)ui/ui_openssl.c;
+- (void)documentPublisher;
+- (void){;
 - (void)ù±(°1Â0@ù
 × ;
 - (void)or"@"NSDictionary">24;
 - (void)Error">32;
-- (void)th:(CWFRequestParameters *)arg1;
-- (void)ory;
+- (void)checkForDeletedPath:(CWFRequestParameters *)arg1;
+- (void)__accessory;
 - (void)T:(CWFRequestParameters *)arg1 D<;
 - (void)Z3;
 - (void)workSSIDAge=%lu, location=%{public}@, preferred=%{public}@);
 - (void){public}s:(CWFRequestParameters *)arg1 %u) [bbh] Will ping %{public}@ (count=%d, timeout=%dms, limit=%d%%);
-- (void)Data;
+- (void)_authorizationExternalFormData;
 @end
 

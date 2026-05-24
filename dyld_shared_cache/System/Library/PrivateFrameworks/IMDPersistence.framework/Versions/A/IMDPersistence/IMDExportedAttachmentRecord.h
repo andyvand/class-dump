@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDAttachmentRecord, NSString;
+@class IMDAttachmentRecord;
 
 @interface IMDExportedAttachmentRecord
 {
     IMDAttachmentRecord *attachmentRecord;
-    void messageGUID;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)MPhoneNumberFormatter",&,V_smsTargetFormatter;
 - (id);
 - (void);
 - (void).a_id ORDER BY tmp2.m_date DESC LIMIT ?;
 
 // Remaining properties
 @property(nonatomic, readonly) IMDAttachmentRecord *attachmentRecord; // @synthesize attachmentRecord;
-@property(nonatomic, readonly) NSString *messageGUID;
 
 @end
 

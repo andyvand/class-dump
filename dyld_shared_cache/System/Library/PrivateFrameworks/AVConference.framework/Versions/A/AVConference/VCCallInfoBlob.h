@@ -10,36 +10,30 @@ __attribute__((visibility("hidden")))
 @interface VCCallInfoBlob
 {
     NSString *_audioDeviceUID;
-    unsigned int _callID;
-    unsigned int _clientVersion;
-    NSString *_deviceName;
-    NSString *_deviceType;
-    NSString *_frameworkVersion;
-    NSString *_osVersion;
 }
 
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (id);
+- (void)isTranslated;
 - (void);
+- (unsigned int)T;
 - (void);
-- (unsigned int);
-- (void);
-- (id);
+- (id)P;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id)0@ù
 × ;
 - (unsigned int)CAudioFrameFormat={AudioStreamBasicDescription=dIIIIIIII}I}^v^?@}16;
-- (id)stimateTxAudioBytes;
+- (id)_estimateTxAudioBytes;
 - (void)antID='%@' but could not decrypt it. Dropping message...;
 - (id)onferencePeriodicReport_TxPacketLoss:%llu /* Error: Ran out of types for this method. */;
 - (id)pe_Global;
@@ -48,15 +42,7 @@ __attribute__((visibility("hidden")))
 - (void)}';
 
 // Remaining properties
-@property(retain, nonatomic) NSString *audioDeviceUID; // @synthesize audioDeviceUID=_audioDeviceUID;
 @property(nonatomic) unsigned int callID; // @synthesize callID=_callID;
-@property(nonatomic) unsigned int clientVersion; // @synthesize clientVersion=_clientVersion;
-@property(retain, nonatomic) NSString *deviceName; // @synthesize deviceName=_deviceName;
-@property(retain, nonatomic) NSString *deviceType; // @synthesize deviceType=_deviceType;
-@property(retain, nonatomic) NSString *frameworkVersion; // @synthesize frameworkVersion=_frameworkVersion;
-@property(readonly, nonatomic) _Bool hasAudioDeviceUID;
-@property(readonly, nonatomic) _Bool hasDeviceName;
-@property(retain, nonatomic) NSString *osVersion; // @synthesize osVersion=_osVersion;
 
 @end
 

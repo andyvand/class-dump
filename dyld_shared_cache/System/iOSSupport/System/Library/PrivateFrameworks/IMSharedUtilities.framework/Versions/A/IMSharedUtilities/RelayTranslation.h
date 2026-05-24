@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface RelayTranslation
 {
     long long type;
-    void sourceLocaleIdentifier;
-    void destinationLocaleIdentifier;
-    void messages;
-    void requestID;
 }
 
 + (_Bool);
@@ -21,7 +15,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)";
 - (id);
 - (long long);
 - (void);
@@ -29,10 +23,6 @@
 - (void)´êÿÿd1ùÿh4Ýÿ\;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *destinationLocaleIdentifier;
-@property(nonatomic, readonly) NSArray *messages;
-@property(nonatomic, readonly) NSString *requestID;
-@property(nonatomic, readonly) NSString *sourceLocaleIdentifier;
 @property(nonatomic, readonly) long long type; // @synthesize type;
 
 @end

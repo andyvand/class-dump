@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
-+ (id);
++ (id)noThumbnail;
++ (id)ICCalculateDocumentControllerRemoved;
 + (_Bool);
 + (_Bool);
 - (void);

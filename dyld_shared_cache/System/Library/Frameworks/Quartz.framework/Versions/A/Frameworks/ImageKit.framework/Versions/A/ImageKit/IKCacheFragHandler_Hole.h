@@ -7,14 +7,13 @@
 @interface IKCacheFragHandler_Hole
 {
     unsigned long long _start;
-    unsigned long long _len;
 }
 
 + (id);
 - (void);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)_cardIdentifiers;
 - (struct _NSRange);
 - (void);
 

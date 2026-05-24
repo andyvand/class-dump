@@ -9,8 +9,6 @@
 @interface FCTagBanner
 {
     FCAssetHandle *_assetHandle;
-    struct CGSize _size;
-    struct FCEdgeInsets _insets;
 }
 
 - (id);
@@ -21,8 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) FCAssetHandle *assetHandle; // @synthesize assetHandle=_assetHandle;
-@property(readonly, nonatomic) struct FCEdgeInsets insets; // @synthesize insets=_insets;
-@property(readonly, nonatomic) struct CGSize size; // @synthesize size=_size;
 
 @end
 

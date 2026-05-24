@@ -4,21 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface CPFont
 {
     struct CGPDFFont *cgPDFFont;
-    struct CGFont *cgFont;
-    NSString *fontName;
-    _Bool exactMatch;
-    CDStruct_05724ab2 descriptor;
-    struct __CFDictionary *kernDictionary;
-    double kernUnitsPerEm;
-    _Bool isHorizontal;
-    double defaultWidth;
-    _Bool disposed;
 }
 
 - (void);
@@ -38,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (struct CGPDFFont *);
 - (struct CGFont *);
 - (double);
-- (double);
+- (double);
 - (double);
 - (double);
 - (double);
@@ -50,7 +39,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (void);
-- (id);
+- (id);
 - (void);
 - (double);
 - (id);

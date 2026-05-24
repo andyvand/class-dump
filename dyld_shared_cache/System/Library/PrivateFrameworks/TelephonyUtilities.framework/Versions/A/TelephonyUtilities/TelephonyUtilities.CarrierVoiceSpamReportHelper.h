@@ -7,11 +7,6 @@
 @interface TelephonyUtilities.CarrierVoiceSpamReportHelper
 {
     id voiceSpamReportTelephonyManager;
-    id logger;
-    id metricsDictionary;
-    id contactStore;
-    id dateFormatter;
-    id analyticsLogger;
 }
 
 @end

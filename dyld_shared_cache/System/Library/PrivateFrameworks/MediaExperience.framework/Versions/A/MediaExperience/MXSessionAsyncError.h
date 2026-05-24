@@ -9,17 +9,15 @@
 @interface MXSessionAsyncError
 {
     int _error;
-    NSString *_applicationCausingFailure;
 }
 
-- (id);
+- (id);
 - (id);
 - (int);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *applicationCausingFailure; // @synthesize applicationCausingFailure=_applicationCausingFailure;
-@property(readonly, nonatomic) int error; // @synthesize error=_error;
 
 @end
 

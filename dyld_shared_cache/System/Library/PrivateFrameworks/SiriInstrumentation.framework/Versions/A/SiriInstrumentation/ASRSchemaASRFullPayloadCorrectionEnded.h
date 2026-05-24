@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
-
 @interface ASRSchemaASRFullPayloadCorrectionEnded : SISchemaInstrumentationMessage
 {
     unsigned long long _responseTimeInNs;
-    SISchemaUUID *_linkId;
-    struct {
-        unsigned int responseTimeInNs:1;
-    } _has;
-    _Bool _hasLinkId;
 }
 
 - (void);
@@ -28,23 +21,19 @@
 - (void);
 - (id);
 - (_Bool);
+- (id)40@0:(id)arg1 8@16@24@?32;
 - (id);
-- (id);
-- (void);
+- (void)A;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)ativeRanksMiddleNameRank;
+- (id)speechAlternativeRanksMiddleNameRank;
 - (id)b0d´dflg;
 - (id)æöÿtä2ÿ;
 - (void)<;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasResponseTimeInNs;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
 @property(nonatomic) unsigned long long responseTimeInNs; // @synthesize responseTimeInNs=_responseTimeInNs;
 
 @end

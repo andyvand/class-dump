@@ -7,10 +7,6 @@
 @interface FamilyCircleUI.WrappedWebViewController__priv_B5D07B4A24E9590DB5483B417CF66F7E.WebViewDelegate
 {
     id onClose;
-    id dismiss;
-    id url;
-    id size;
-    id showMemberPurchaseSharingAction;
 }
 
 - (void);

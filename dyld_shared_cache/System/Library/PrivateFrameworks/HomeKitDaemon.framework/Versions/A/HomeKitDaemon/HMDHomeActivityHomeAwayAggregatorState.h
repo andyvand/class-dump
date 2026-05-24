@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 __attribute__((visibility("hidden")))
 @interface HMDHomeActivityHomeAwayAggregatorState
 {
     unsigned long long _type;
-    NSDate *_awayChangedTimestamp;
 }
 
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool));
 - (id)ser info %@;
 - (id)le in HH2;
 - (void)PerMonthCount:%lu
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *awayChangedTimestamp; // @synthesize awayChangedTimestamp=_awayChangedTimestamp;
 @property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

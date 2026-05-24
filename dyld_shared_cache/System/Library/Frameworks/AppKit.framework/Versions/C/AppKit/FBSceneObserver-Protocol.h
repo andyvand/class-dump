@@ -4,15 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBScene;
+@class FBScene, NSSet;
 
 @protocol FBSceneObserver
 
 @optional
-- (void)ocusRingBoundsForBounds:(FBScene *)arg1;
-- (void)teOrUpdateMaximumSizeConstraint;
-- (void)perAppearanceVisualProvider;
+- (void);
+- (void);
+- (NSSet *)v;
+- (void)accessibilityFocusRingBoundsForBounds:(FBScene *)arg1;
+- (void)_createOrUpdateMaximumSizeConstraint;
+- (void)NSStepperAppearanceVisualProvider;
 - (void)À	d¸`	;
-- (void)tChanged;
+- (void)AppleAquaColorVariantChanged;
 @end
 

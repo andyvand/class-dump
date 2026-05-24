@@ -4,28 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface _CLLSLHeadingEstimation
 {
     int _status;
-    NSArray *_headings;
 }
 
 + (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)(%d)
+;
 - (id);
 - (id);
+- (void)ock on main thread in Mode='%@' + CFRunLoopWakeUp;
 - (void);
-- (void);
-- (id);
-- (int);
+- (id)setPrimitiveDataSize:(struct _NSZone *)arg1;
+- (int)];
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *headings; // @synthesize headings=_headings;
 @property(nonatomic) int status; // @synthesize status=_status;
 
 @end

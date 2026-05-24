@@ -5,5 +5,7 @@
 //
 
 @protocol TRIXPCStatusServiceProtocol
+- (void)|>;
+- (void);
 @end
 

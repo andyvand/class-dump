@@ -6,21 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NLRouterSchemaNLRouterSubComponentSetupEnded, NLRouterSchemaNLRouterSubComponentSetupFailed, NLRouterSchemaNLRouterSubComponentSetupStarted, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface NLRouterSchemaNLRouterSubComponentSetupContext : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_contextId;
-    NLRouterSchemaNLRouterSubComponentSetupStarted *_startedOrChanged;
-    NLRouterSchemaNLRouterSubComponentSetupEnded *_ended;
-    NLRouterSchemaNLRouterSubComponentSetupFailed *_failed;
-    SISchemaUUID *_traceId;
-    _Bool _hasContextId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    _Bool _hasTraceId;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -28,26 +18,26 @@
 - (void);
 - (void);
 - (void);
+- (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
+- (void)6;
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
+- (_Bool);
+- (void);
+- (void)CalendarCreateWithIdentifier() failed;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)AiI/Sources/libressl/libressl-2.2/crypto/pem/pem_oth.c;
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
@@ -65,17 +55,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *contextId; // @synthesize contextId=_contextId;
-@property(retain, nonatomic) NLRouterSchemaNLRouterSubComponentSetupEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) NLRouterSchemaNLRouterSubComponentSetupFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasContextId; // @synthesize hasContextId=_hasContextId;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(nonatomic) _Bool hasTraceId; // @synthesize hasTraceId=_hasTraceId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) NLRouterSchemaNLRouterSubComponentSetupStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(retain, nonatomic) SISchemaUUID *traceId; // @synthesize traceId=_traceId;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

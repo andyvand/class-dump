@@ -9,12 +9,11 @@
 @interface SLSBridgedSpaceGetSpacersAtPointOperation : SLSSynchronousBridgedWindowManagementOperation
 {
     unsigned long long _spaceID;
-    struct CGPoint _point;
 }
 
-+ (_Bool);
-- (id);
-- (id);
++ (_Bool);
+- (id)reate an index element with composite property;
+- (id)tions;
 - (id);
 - (unsigned long long);
 - (id);
@@ -22,7 +21,6 @@
 - (struct CGPoint);
 
 // Remaining properties
-@property(readonly) struct CGPoint point; // @synthesize point=_point;
 @property(readonly) unsigned long long spaceID; // @synthesize spaceID=_spaceID;
 
 @end

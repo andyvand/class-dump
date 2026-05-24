@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     id <UIDragSession> _dragSession;
 }
 
-- (id);
+- (id)e;
 - (_Bool)
 × ;
 - (void)entTransition. Captured debug information outside block:(id)arg1 %@;

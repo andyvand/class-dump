@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CKBannerButtonObject
 {
     NSString *_title;
-    CDUnknownBlockType _handler;
-    NSArray *_menuItems;
 }
 
-- (id);
+- (id)"NSManagedObjectID"8Q16^B24;
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)`;
+- (void)NSArray"@"NSError">32;
 - (CDUnknownBlockType);
 - (id);
 - (void)(;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(retain, nonatomic) NSArray *menuItems; // @synthesize menuItems=_menuItems;
 @property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

@@ -6,24 +6,24 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSArray, NSNumber, NSString, SADataSourceInfo;
+@class SADataSourceInfo;
 
 @interface SAAlarmObject : SADomainObject
 {
 }
 
 + (id);
-+ (id);
++ (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
+- (void)0;
 - (void);
-- (void);
 - (id);
 - (id);
-- (id);
+- (id)h;
 - (void);
 - (void);
 - (void);
@@ -35,13 +35,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SADataSourceInfo *dataSourceInfo;
-@property(copy, nonatomic) NSNumber *enabled;
-@property(copy, nonatomic) NSNumber *firing;
-@property(copy, nonatomic) NSArray *frequency;
-@property(copy, nonatomic) NSNumber *hour;
-@property(copy, nonatomic) NSString *label;
-@property(copy, nonatomic) NSNumber *minute;
-@property(copy, nonatomic) NSNumber *relativeOffsetMinutes;
 
 @end
 

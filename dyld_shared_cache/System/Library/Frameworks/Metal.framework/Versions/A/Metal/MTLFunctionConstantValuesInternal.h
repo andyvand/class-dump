@@ -13,17 +13,19 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)vp2)) + (wp1 * vp1)) / wsum;
+}
+;
 - (void);
 - (void *);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)TSMTraceInputSourceNotifications;
 - (const void *);
 - (_Bool);
-- (void);
+- (void)D868DDF5;
 - (void);
 - (id);
 - (id);

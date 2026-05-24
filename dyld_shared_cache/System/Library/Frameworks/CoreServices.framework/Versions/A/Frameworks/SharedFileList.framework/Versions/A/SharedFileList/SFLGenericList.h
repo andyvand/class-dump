@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSHashTable, NSMutableDictionary, NSString, _SFLList;
+@class _SFLList;
 
 __attribute__((visibility("hidden")))
 @interface SFLGenericList
 {
     struct os_unfair_lock_s _propertiesLock;
-    struct os_unfair_lock_s _internalObserverLock;
-    NSString *_identifier;
-    _SFLList *_internalList;
-    id _notifyToken;
-    NSHashTable *_internalObservers;
-    NSArray *_internalItems;
-    NSMutableDictionary *_itemsByIdentifier;
 }
 
 + (id);
@@ -29,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
@@ -55,19 +48,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (id);
-- (_Bool);
+- (id)V_modelIsMIL;
+- (_Bool)<DE;
 - (void);
+- (id)output feature named '%@'.;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)SString",&,N,V_objectClassPrefix;
 - (id);
 - (id);
-- (void);
+- (void)!;
 - (id);
 - (_Bool);
 - (void);
@@ -76,23 +69,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long)ø;
 
 // Remaining properties
-@property(readonly, copy) NSArray *allItems; // @dynamic allItems;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, retain) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSArray *internalItems; // @synthesize internalItems=_internalItems;
 @property(retain) _SFLList *internalList; // @synthesize internalList=_internalList;
-@property(readonly) NSHashTable *internalObservers; // @synthesize internalObservers=_internalObservers;
-@property(retain) NSMutableDictionary *itemsByIdentifier; // @synthesize itemsByIdentifier=_itemsByIdentifier;
-@property(retain) id notifyToken; // @synthesize notifyToken=_notifyToken;
-@property(copy) NSDictionary *properties;
-@property(readonly) unsigned long long seed; // @dynamic seed;
-@property(readonly, copy) NSArray *snapshotItems;
-@property(readonly) Class superclass;
 
 @end
 

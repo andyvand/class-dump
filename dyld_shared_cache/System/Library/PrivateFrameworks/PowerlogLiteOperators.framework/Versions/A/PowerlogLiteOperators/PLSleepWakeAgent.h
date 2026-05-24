@@ -4,27 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, PLEventForwardPowerStateEntry, PLIOKitOperatorComposition, PLSemaphore, PLTimer, PLXPCListenerOperatorComposition;
-
 @interface PLSleepWakeAgent
 {
     unsigned int _rootDomainConnect;
-    unsigned int _pmNotifier;
-    struct IONotificationPort *_systemPowerPortRef;
-    PLSemaphore *_canSleepSemaphore;
-    double _apSOCBasePower;
-    PLXPCListenerOperatorComposition *_wakeGestureXPCListener;
-    struct __IOPMConnection *_pmConnection;
-    PLEventForwardPowerStateEntry *_lastSleepEntry;
-    PLEventForwardPowerStateEntry *_lastWakeEntry;
-    PLIOKitOperatorComposition *_iokitCoSocPower;
-    PLTimer *_CoSocPowerTimer;
-    NSDate *_lastEntryDate;
-    unsigned long long _prevIntervalsPos;
-    unsigned long long _prevPropertiesPos;
 }
 
 + (id);
++ (id)p;
 + (id);
 + (id);
 + (id);
@@ -40,8 +26,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (void)nsitions;
++ (void)HIGH_LVL_WOT_Transitions;
 - (id);
 - (id);
 - (id);
@@ -53,7 +38,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)h8;
 - (void);
 - (void);
 - (void);
@@ -88,10 +73,10 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)!;
 - (void);
-- (double);
-- (id);
+- (double);
+- (id)?;
 - (id);
 - (void);
 - (void);
@@ -105,20 +90,7 @@
 - (void)SPFTLParseBufferToCxt:bdrHostPingMoreNeeded(542) cannot add 1 element to context /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) PLTimer *CoSocPowerTimer; // @synthesize CoSocPowerTimer=_CoSocPowerTimer;
-@property double apSOCBasePower; // @synthesize apSOCBasePower=_apSOCBasePower;
-@property(retain) PLSemaphore *canSleepSemaphore; // @synthesize canSleepSemaphore=_canSleepSemaphore;
-@property(readonly) PLIOKitOperatorComposition *iokitCoSocPower; // @synthesize iokitCoSocPower=_iokitCoSocPower;
-@property(retain) NSDate *lastEntryDate; // @synthesize lastEntryDate=_lastEntryDate;
-@property(retain) PLEventForwardPowerStateEntry *lastSleepEntry; // @synthesize lastSleepEntry=_lastSleepEntry;
-@property(retain) PLEventForwardPowerStateEntry *lastWakeEntry; // @synthesize lastWakeEntry=_lastWakeEntry;
-@property struct __IOPMConnection *pmConnection; // @synthesize pmConnection=_pmConnection;
-@property unsigned int pmNotifier; // @synthesize pmNotifier=_pmNotifier;
-@property unsigned long long prevIntervalsPos; // @synthesize prevIntervalsPos=_prevIntervalsPos;
-@property unsigned long long prevPropertiesPos; // @synthesize prevPropertiesPos=_prevPropertiesPos;
 @property unsigned int rootDomainConnect; // @synthesize rootDomainConnect=_rootDomainConnect;
-@property struct IONotificationPort *systemPowerPortRef; // @synthesize systemPowerPortRef=_systemPowerPortRef;
-@property(retain) PLXPCListenerOperatorComposition *wakeGestureXPCListener; // @synthesize wakeGestureXPCListener=_wakeGestureXPCListener;
 
 @end
 

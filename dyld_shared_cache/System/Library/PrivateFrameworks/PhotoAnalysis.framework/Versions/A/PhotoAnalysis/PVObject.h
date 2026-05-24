@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (id);
-- (void)ErrorWithUserInfo: /* Error: Ran out of types for this method. */;
+- (void)errorForPhotoVisionStorageErrorWithUserInfo: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *localIdentifier; // @synthesize localIdentifier=_localIdentifier;

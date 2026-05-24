@@ -6,19 +6,17 @@
 
 #import <MediaPlayer/MPRemoteCommand.h>
 
-@class NSArray, NSDictionary, NSString;
+@class NSString;
 
 @interface MPSetPlaybackSessionCommand : MPRemoteCommand
 {
     NSString *_currentPlaybackSessionIdentifier;
-    NSString *_currentPlaybackSessionRevision;
-    NSArray *_exportableSessionTypes;
-    NSArray *_supportedSessionTypes;
-    NSDictionary *_requirements;
 }
 
 - (id);
-- (void);
+- (void)J
+dJ
+;
 - (void);
 - (void);
 - (void);
@@ -28,14 +26,10 @@
 - (id);
 - (void);
 - (id);
-- (void)countIdentifier_KEY;
+- (void)__accountIdentifier_KEY;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *currentPlaybackSessionIdentifier; // @synthesize currentPlaybackSessionIdentifier=_currentPlaybackSessionIdentifier;
-@property(copy, nonatomic) NSString *currentPlaybackSessionRevision; // @synthesize currentPlaybackSessionRevision=_currentPlaybackSessionRevision;
-@property(copy, nonatomic) NSArray *exportableSessionTypes; // @synthesize exportableSessionTypes=_exportableSessionTypes;
-@property(copy, nonatomic) NSDictionary *requirements; // @synthesize requirements=_requirements;
-@property(copy, nonatomic) NSArray *supportedSessionTypes; // @synthesize supportedSessionTypes=_supportedSessionTypes;
 
 @end
 

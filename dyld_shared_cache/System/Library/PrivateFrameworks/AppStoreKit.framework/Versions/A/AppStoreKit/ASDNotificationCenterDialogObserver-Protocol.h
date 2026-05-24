@@ -5,5 +5,10 @@
 //
 
 @protocol ASDNotificationCenterDialogObserver
+
+@optional
+- (void)RLRequest";
+- (void);
+- (void)uleSettings";
 @end
 

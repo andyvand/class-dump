@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSString;
 
 @interface CAState
 {
     NSString *_name;
-    NSString *_basedOn;
-    NSMutableArray *_elements;
-    double _nextDelay;
-    double _previousDelay;
-    _Bool _enabled;
-    _Bool _locked;
-    _Bool _initial;
 }
 
 + (void);
-+ (_Bool);
++ (_Bool)P;
 - (void);
 - (double);
 - (void);
@@ -28,10 +21,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)accessPropertiesInBlock:(double)arg1;
 - (id);
 - (id);
-- (id);
+- (id)@?0@"CKDistributedSiteIdentifier"8@"CKDistributedSiteIdentifier"16;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -39,10 +32,10 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)^v,N,V_localizationdb;
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -50,14 +43,7 @@
 - (id)_surfaces;
 
 // Remaining properties
-@property(copy) NSString *basedOn; // @synthesize basedOn=_basedOn;
-@property(copy, nonatomic) NSArray *elements;
-@property(getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(getter=isInitial) _Bool initial; // @synthesize initial=_initial;
-@property(nonatomic, getter=isLocked) _Bool locked; // @synthesize locked=_locked;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property double nextDelay; // @synthesize nextDelay=_nextDelay;
-@property double previousDelay; // @synthesize previousDelay=_previousDelay;
 
 @end
 

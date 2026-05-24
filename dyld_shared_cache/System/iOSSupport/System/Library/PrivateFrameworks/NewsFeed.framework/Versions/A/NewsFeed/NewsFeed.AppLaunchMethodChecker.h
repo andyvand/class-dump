@@ -7,9 +7,6 @@
 @interface NewsFeed.AppLaunchMethodChecker
 {
     id appActivationURLHandler;
-    id launchMethod;
-    id sourceApplication;
-    id notificationLaunchStatusProvider;
 }
 
 @end

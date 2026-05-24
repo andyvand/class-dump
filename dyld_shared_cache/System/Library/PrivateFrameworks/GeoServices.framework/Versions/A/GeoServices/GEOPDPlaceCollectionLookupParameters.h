@@ -4,35 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDPlaceCollectionLookupParameters
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOLatLng *_center;
-    NSMutableArray *_collectionIds;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_center:1;
-        unsigned int read_collectionIds:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
-- (unsigned long long);
+- (id)_handleClientEvent: /* Error: Ran out of types for this method. */;
+- (unsigned long long)c`;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)has_categorySearchResultSectionCellType"b1"read_unknownFields"b1"read_sectionHeaderDisplayName"b1"read_sectionSubHeaderDisplayNameWithEnrichment"b1"read_sectionSubHeaderDisplayName"b1"read_styleAttributes"b1"wrote_anyField"b1};
-- (id)ferredSignals;
+- (id)_inferredSignals;
 - (id)H);
 - (void);
 

@@ -6,25 +6,19 @@
 
 #import <CryptoTokenKit/TKClientTokenSession.h>
 
-@class NSArray, NSNumber, NSString;
-@protocol TKRegisteredTokenManaging;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface TKExtensionClientTokenSession : TKClientTokenSession
 {
     long long _connectionIdentifier;
-    NSArray *_advertisedItems;
-    NSString *_slotName;
-    _Bool _authenticationContextWasProvidedByCaller;
-    id <TKRegisteredTokenManaging> _tokenManager;
-    NSNumber *_sessionID;
 }
 
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)"њK;
 - (_Bool);
 - (void);
 - (void);
@@ -34,20 +28,20 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (id);
 - (id);
 - (id);
 - (_Bool);
+- (id)FullGamut;
+- (id);
+- (_Bool)P;
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)com.apple.LocalAuthentication.environment.StateDidChange;
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *sessionID; // @synthesize sessionID=_sessionID;

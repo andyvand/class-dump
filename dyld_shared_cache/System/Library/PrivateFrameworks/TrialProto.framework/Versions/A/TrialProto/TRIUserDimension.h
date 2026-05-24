@@ -9,7 +9,6 @@
 @interface TRIUserDimension
 {
     NSString *_name;
-    NSString *_value;
 }
 
 + (id);
@@ -20,7 +19,7 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)ies] Invalid coordinates for asset uuid %@;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -32,9 +31,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasName;
-@property(readonly, nonatomic) _Bool hasValue;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

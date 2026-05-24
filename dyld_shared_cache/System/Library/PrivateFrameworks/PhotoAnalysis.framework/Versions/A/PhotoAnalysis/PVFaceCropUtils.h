@@ -19,7 +19,7 @@
 + (struct CGRect);
 + (struct CGRect);
 + (struct CGImageMetadata *);
-+ (id);
++ (id);
 
 @end
 

@@ -6,19 +6,12 @@
 
 #import <MediaRemote/MRExternalDeviceTransport.h>
 
-@class AVOutputDevice, MRAirPlayTransportConnection, NSError, NSObject, NSString, _MRDeviceInfoMessageProtobuf;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface MRAVOutputDeviceTransport : MRExternalDeviceTransport
 {
     NSObject<OS_dispatch_queue> *_workerQueue;
-    _MRDeviceInfoMessageProtobuf *_deviceInfo;
-    NSError *_error;
-    MRAirPlayTransportConnection *_connection;
-    _Bool _useSystemAuthenticationPrompt;
-    NSString *_outputDeviceUID;
-    NSString *_groupID;
-    AVOutputDevice *_avOutputDevice;
 }
 
 + (id);
@@ -30,15 +23,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)onfiguration",&,V_currentDisplayConfiguration;
 - (void);
 - (long long);
 - (void);
 - (id);
-- (id);
+- (id)i;
 - (id);
 - (void)V_playerPath;
-- (id)fication;
+- (id)kMRMediaRemoteElectedPlayerDidChangeNotification;
 
 @end
 

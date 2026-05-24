@@ -6,16 +6,11 @@
 
 #import <ReminderKit/REMStoreInvocation.h>
 
-@class NSDate, NSNumber, NSString;
+@class NSString;
 
 @interface REMSiriSearchLimitedDataViewInvocation_fetchReminders : REMStoreInvocation
 {
     NSString *_title;
-    NSDate *_dueAfter;
-    NSDate *_dueBefore;
-    NSNumber *_completed;
-    NSNumber *_hasLocation;
-    NSString *_location;
 }
 
 + (_Bool);
@@ -27,19 +22,14 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)resetServerStateForPersonID: /* Error: Ran out of types for this method. */;
+- (id)didEndExternalPower;
 - (id);
 - (void)
 × ;
-- (id)BeSavedWithAccountID:completion: /* Error: Ran out of types for this method. */;
+- (id)retryAccountZoneIDsNeedingToBeSavedWithAccountID:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *completed; // @synthesize completed=_completed;
-@property(readonly, nonatomic) NSDate *dueAfter; // @synthesize dueAfter=_dueAfter;
-@property(readonly, nonatomic) NSDate *dueBefore; // @synthesize dueBefore=_dueBefore;
-@property(readonly, nonatomic) NSNumber *hasLocation; // @synthesize hasLocation=_hasLocation;
-@property(readonly, nonatomic) NSString *location; // @synthesize location=_location;
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

@@ -5,5 +5,9 @@
 //
 
 @protocol SFAirDropDiscoveryControllerDelegate
+
+@optional
+- (void);
+- (void);
 @end
 

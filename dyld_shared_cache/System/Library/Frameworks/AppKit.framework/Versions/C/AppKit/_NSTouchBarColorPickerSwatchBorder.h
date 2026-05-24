@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)subOperationStartedHandler: /* Error: Ran out of types for this method. */;
 
 @end
 

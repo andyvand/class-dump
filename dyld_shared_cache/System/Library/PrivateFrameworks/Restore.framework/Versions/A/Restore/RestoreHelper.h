@@ -4,30 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSTimer;
-@protocol OS_xpc_object;
+@class NSTimer;
 
 @interface RestoreHelper
 {
     NSTimer *_startTimer;
-    CDUnknownFunctionPointerType _statusFn;
-    CDUnknownFunctionPointerType _completionFn;
-    void *_context;
-    NSObject<OS_xpc_object> *_connection;
-    NSMutableDictionary *_operation;
-    struct AuthorizationOpaqueRef *_authRef;
-    struct {
-        char bytes[32];
-    } _authorization;
 }
 
 - (void);
-- (int);
+- (int);
 - (int);
 - (void);
 - (void);
-- (int);
-- (int);
+- (int)nvas configuration tone mapping mode;
+- (int)gh Dynamic Range through canvas configuration tone mapping mode;
 - (int);
 - (int);
 - (_Bool);

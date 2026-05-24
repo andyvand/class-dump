@@ -6,15 +6,12 @@
 
 #import <CMCapture/BWNode.h>
 
-@class VCProcessor;
 @protocol BWCinematicFramingStatesProvider;
 
 __attribute__((visibility("hidden")))
 @interface BWCinematicFramingWarpingNode : BWNode
 {
     id <BWCinematicFramingStatesProvider> _framingStatesProvider;
-    VCProcessor *_vcProcessor;
-    CDStruct_79c71658 _outputDimensions;
 }
 
 + (void)nnel;

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet;
+@class NSMutableSet;
 
 @interface IMAutomationMessageSend
 {
     NSMutableSet *_pendingSendGUIDs;
-    NSMutableDictionary *_sentMessageInfo;
 }
 
 - (id);
@@ -37,7 +36,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *pendingSendGUIDs; // @synthesize pendingSendGUIDs=_pendingSendGUIDs;
-@property(retain, nonatomic) NSMutableDictionary *sentMessageInfo; // @synthesize sentMessageInfo=_sentMessageInfo;
 
 @end
 

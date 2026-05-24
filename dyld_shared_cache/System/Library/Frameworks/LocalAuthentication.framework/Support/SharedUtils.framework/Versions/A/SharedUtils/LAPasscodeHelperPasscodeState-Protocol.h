@@ -5,5 +5,6 @@
 //
 
 @protocol LAPasscodeHelperPasscodeState
+- (_Bool);
 @end
 

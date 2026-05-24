@@ -6,29 +6,25 @@
 
 #import <UIKitCore/_UITableViewDropAnimation.h>
 
-@class UIDragPreviewTarget, UITableViewCell;
+@class UIDragPreviewTarget;
 
 __attribute__((visibility("hidden")))
 @interface _UITableViewDropAnimationToTarget : _UITableViewDropAnimation
 {
     _Bool _didSearchForCell;
-    UIDragPreviewTarget *_target;
-    UITableViewCell *_cell;
 }
 
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)6@"NSString"24@"NSArray"32@"NSArray"40q48;
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)So36UIViewControllerContextTransitioning_p;
 
 // Remaining properties
-@property(retain, nonatomic) UITableViewCell *cell; // @synthesize cell=_cell;
-@property(nonatomic) _Bool didSearchForCell; // @synthesize didSearchForCell=_didSearchForCell;
 @property(retain, nonatomic) UIDragPreviewTarget *target; // @synthesize target=_target;
 
 @end

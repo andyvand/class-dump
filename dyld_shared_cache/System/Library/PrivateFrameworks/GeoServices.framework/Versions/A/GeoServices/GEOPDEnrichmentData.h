@@ -4,36 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDEnrichmentData
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_entitys;
-    NSData *_placecardEnrichmentMetadata;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_entitys:1;
-        unsigned int read_placecardEnrichmentMetadata:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (id);
 - (id);
 - (void);
-- (id);
+- (id)@"NSDictionary",R,N;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)ctions"b1"read_sortPriorityMappings"b1"wrote_anyField"b1};
-- (id)yCode;
+- (id)_currencyCode;
 - (id)Ö
 üÖ
 x×Ø

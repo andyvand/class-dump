@@ -9,18 +9,16 @@
 @interface TLSystemApplication
 {
     NSString *_bundleIdentifier;
-    NSString *_name;
 }
 
 + (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void));
 
 // Remaining properties
 @property(readonly) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly) NSString *name; // @synthesize name=_name;
 
 @end
 

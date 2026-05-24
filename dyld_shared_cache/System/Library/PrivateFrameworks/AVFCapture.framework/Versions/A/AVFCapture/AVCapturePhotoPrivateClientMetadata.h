@@ -9,31 +9,24 @@
 @interface AVCapturePhotoPrivateClientMetadata
 {
     NSDictionary *_inferenceAttachments;
-    NSDictionary *_detectedObjectInfo;
 }
 
 + (_Bool);
+- (id)`;
+- (void)postMonthlyAnalyticsWithCompletionHandler: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (unsigned int);
+- (void)re.moviefile.stereo.companion.vis.tail.%d;
+- (unsigned int)@ tried to connect output %@ to input:%@, but the output's port interface isn't owned by this graph /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (float);
-- (float);
+- (float)_5ErrorEEERKNSA_IyEEE3$_0FvyEEE;
 - (id)ù
 × ;
 
 // Remaining properties
 @property(readonly) NSString *captureFolderClientPath;
-@property(readonly) NSDictionary *detectedObjectInfo;
-@property(readonly) NSDictionary *inferenceAttachments;
-@property(readonly) float spatialOverCaptureImageHorizonLineAngleInDegrees;
-@property(readonly) _Bool spatialOverCaptureImageHorizonLinePresent;
-@property(readonly) float spatialOverCaptureImageHorizonLineVerticalCenterlineIntersection;
-@property(readonly) unsigned int spatialOverCaptureImageStitchingConfidenceScore;
 
 @end
 

@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface SISchemaTurnMTERequest : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_mteRequestId;
-    _Bool _hasMteRequestId;
 }
 
 - (void);
@@ -22,18 +21,16 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)_thirtyTwoBitOnly;
 - (_Bool);
-- (_Bool);
+- (_Bool)NOT EXISTS message_attachment_join ( message_id INTEGER REFERENCES message (ROWID) ON DELETE CASCADE, attachment_id INTEGER REFERENCES attachment (ROWID) ON DELETE CASCADE, UNIQUE(message_id, attachment_id));;
 - (id);
 - (id);
-- (id)ceCallCount;
-- (id)cModelVersion;
-- (void)OVIDER_PEER;
+- (id)deleteDraftModelInferenceCallCount;
+- (id)_hasAcousticModelVersion;
+- (void)NETPROVIDER_PEER;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMteRequestId; // @synthesize hasMteRequestId=_hasMteRequestId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *mteRequestId; // @synthesize mteRequestId=_mteRequestId;
 
 @end

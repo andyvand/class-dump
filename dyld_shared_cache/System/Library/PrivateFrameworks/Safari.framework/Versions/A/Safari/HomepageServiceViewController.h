@@ -27,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void)è;
 - (id)ÿÿ);
 

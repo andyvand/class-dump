@@ -20,8 +20,8 @@
 - (void);
 - (long long);
 - (id);
-- (id);
-- (void);
+- (id)uest, returning default gray colors;
+- (void)predicateForContactsMatchingFullTextSearch:(id)arg1 containerIdentifiers:groupIdentifiers:] /* Error: Ran out of types for this method. */;
 - (long long)L$T;
 - (_Bool);
 - (id)TMJ;

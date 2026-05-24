@@ -7,17 +7,6 @@
 @interface MailUI.BucketItem
 {
     id id;
-    id title;
-    id isUnseen;
-    id foregroundColor;
-    id backgroundColor;
-    id accessibilityIdentifier;
-    id $__lazy_storage_$_image;
-    id $__lazy_storage_$_selectedImage;
-    id $__lazy_storage_$_unseenImage;
-    id imageProvider;
-    id selectedImageProvider;
-    id unseenImageProvider;
 }
 
 @end

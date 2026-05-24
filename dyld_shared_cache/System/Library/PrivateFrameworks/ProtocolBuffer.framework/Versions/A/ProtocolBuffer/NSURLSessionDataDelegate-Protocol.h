@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSCachedURLResponse, NSURLSession, NSURLSessionDataTask;
+
 @protocol NSURLSessionDataDelegate
+
+@optional
+- (void);
+- (void)requestAccessForAccountTypeWithIdentifier:(NSURLSession *)arg1 options:(NSURLSessionDataTask *)arg2 withHandler:(NSCachedURLResponse *)arg3;
 @end
 

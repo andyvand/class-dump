@@ -12,11 +12,11 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void)U3;
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)__CKBrowserSwitcherViewControllerAccessibility_super;
 
 @end
 

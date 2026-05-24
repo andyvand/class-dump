@@ -8,16 +8,13 @@ __attribute__((visibility("hidden")))
 @interface WebArchivePrivate
 {
     struct RetainPtr<WebResource> cachedMainResource;
-    struct RetainPtr<NSArray> cachedSubresources;
-    struct RetainPtr<NSArray> cachedSubframeArchives;
-    struct RefPtr<WebCore::LegacyWebArchive, WTF::RawPtrTraits<WebCore::LegacyWebArchive>, WTF::DefaultRefDerefTraits<WebCore::LegacyWebArchive>> coreArchive;
 }
 
 + (void)rage;
 - (id);
 - (void *);
 - (void);
-- (void);
+- (void)al sampling percentage value of %{public}@;
 - (id);
 - (id);
 - (void)q'°1Â0@ù

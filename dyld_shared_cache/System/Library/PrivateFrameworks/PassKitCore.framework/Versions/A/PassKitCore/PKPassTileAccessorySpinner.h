@@ -16,10 +16,10 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)B;
 - (id);
-- (unsigned long long);
-- (void);
+- (unsigned long long)I!ɚ	;
+- (void)wpsDeviceNameData;
 
 // Remaining properties
 @property(nonatomic, getter=isSpinnerEnabled) _Bool spinnerEnabled; // @synthesize spinnerEnabled=_spinnerEnabled;

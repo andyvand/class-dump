@@ -4,77 +4,72 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCContainerNavigator, MCPlug, MPNavigatorInternal, NSMutableDictionary, NSString;
+@class MPNavigatorInternal, NSString;
 
 @interface MPNavigator
 {
     MPNavigatorInternal *_internal;
-    NSMutableDictionary *_layers;
-    NSMutableDictionary *_actions;
-    MCPlug *_plug;
-    MCContainerNavigator *_navigator;
-    id _parent;
-    NSMutableDictionary *_animationPaths;
 }
 
 + (_Bool);
+- (double)initWithDelegate: /* Error: Ran out of types for this method. */;
+- (double)initWithContentsOfURL: /* Error: Ran out of types for this method. */;
+- (double)URLSession:task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend: /* Error: Ran out of types for this method. */;
+- (_Bool)Configuration>",R,N;
+- (void)0;
+- (void);
+- (void);
+- (void)wwan5G;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)newsEdgeWidgetConfigAndTodayConfigLite;
+- (void):(id)arg1 ];
+- (void)elope"8Q16^B24;
+- (void);
+- (id);
+- (id);
 - (double);
+- (id)par-1
+;
+- (id);
+- (id);
+- (id);
+- (id)(;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (double);
-- (double);
+- (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (double);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (double);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
 - (double);
 - (void);
 - (double);
 - (double);
 - (void);
 - (void);
-- (void);
+- (void)u>;
 - (id);
+- (id);
+- (double)K;
+- (void);
 - (id);
 - (double);
-- (void);
 - (id);
-- (double);
-- (id);
-- (struct CGSize);
-- (void);
+- (struct CGSize)DefaultSubscribedChannelScoreCoefficent;
+- (void)+;
 - (struct CGPoint);
 - (void);
 - (double);
@@ -93,7 +88,7 @@
 - (void)* factorColor + offsetColor; 
 		} 
 		;
-- (void)eratorIfE;
+- (void)16ThenElseOperatorIfE;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *initialLayer; // @dynamic initialLayer;

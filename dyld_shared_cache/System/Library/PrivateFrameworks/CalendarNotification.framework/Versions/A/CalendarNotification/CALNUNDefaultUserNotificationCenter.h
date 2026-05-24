@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UNUserNotificationCenter;
-@protocol UNUserNotificationCenterDelegate;
+@class UNUserNotificationCenter;
 
 @interface CALNUNDefaultUserNotificationCenter
 {
@@ -14,30 +13,22 @@
 
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)?;
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)*J;
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)hjz8;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <UNUserNotificationCenterDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) UNUserNotificationCenter *userNotificationCenter; // @synthesize userNotificationCenter=_userNotificationCenter;
 
 @end

@@ -6,76 +6,63 @@
 
 #import <AppKit/NSArrayController.h>
 
-@class NSArray, NSDictionary, NSString;
+@class NSString;
 
 @interface NSDictionaryController : NSArrayController
 {
     id _contentDictionary;
-    NSString *_initialKey;
-    id _initialValue;
-    unsigned long long _minimumInsertionKeyIndex;
-    NSString *_localizedKeyStringsFileName;
-    NSDictionary *_localizedKeyForKeyDictionary;
-    NSDictionary *_keyForLocalizedKeyDictionary;
-    NSArray *_includedKeys;
-    NSArray *_excludedKeys;
-    struct __dictionaryControllerFlags {
-        unsigned int _deepCopiesValues:1;
-        unsigned int _suppressBuildingDictionary:1;
-        unsigned int _reservedDictionaryController:30;
-    } _dictionaryControllerFlags;
 }
 
 + (id);
-+ (Class);
++ (Class)@;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)B;
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)redForLoader}@^^?^^?@@q^{RedirectionRecorder}CCC@CddC^{URLProtocol}@C^{CoreSchedulingSet}ddQ{ConfigFlags=b1b1b1b1b1b1b1b1}CCCCQICB};
+- (id)?^^?@};
+- (id)initWithType:port: /* Error: Ran out of types for this method. */;
+- (id)_onqueue_handleConnectionsAtAPSleep;
+- (id)HTTPOnly;
 - (_Bool);
-- (_Bool);
+- (_Bool)e singleton;
+- (void);
+- (id);
+- (void)FDictionary=}8;
+- (void)d cookies in %d domains>;
+- (void)CFN_USE_HTTP2_CONNECTION_COALESCING;
+- (void)to be offline.;
+- (_Bool)onDownloadTask;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)@;
+- (void);
+- (id);
+- (id);
+- (id)@;
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)-ESDH;
+- (id)g;
+- (void)@;
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void)!BùQà31Â0@ù
 × ;
 - (void)@È;
@@ -83,12 +70,7 @@
 - (void)Ôþþ-¦¸J;
 
 // Remaining properties
-@property(copy) NSArray *excludedKeys;
-@property(copy) NSArray *includedKeys;
 @property(copy) NSString *initialKey;
-@property(retain) id initialValue;
-@property(copy) NSDictionary *localizedKeyDictionary;
-@property(copy) NSString *localizedKeyTable;
 
 @end
 

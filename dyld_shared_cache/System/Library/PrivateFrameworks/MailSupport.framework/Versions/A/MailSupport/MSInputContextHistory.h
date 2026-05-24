@@ -4,37 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECEmailAddress, NSArray, NSDictionary, NSMutableDictionary, NSSet, NSString;
+@class NSString;
 
 @interface MSInputContextHistory
 {
     _Bool _hasCustomSignature;
-    _Bool _showSmartReplySuggestions;
-    NSString *_threadIdentifier;
-    ECEmailAddress *_senderEmailAddress;
-    NSArray *_toRecipients;
-    NSArray *_ccRecipients;
-    NSString *_subject;
-    NSString *_originalMessageCategorySubtype;
-    NSArray *_originalContentMessages;
-    NSDictionary *_recipientNamesByEmailAddress;
-    NSSet *_firstPerson;
-    NSSet *_primaryRecipients;
-    NSSet *_secondaryRecipients;
-    NSDictionary *_infoDict;
-    NSDictionary *_toRecipientNamesByEmailAddress;
-    NSDictionary *_ccRecipientNamesByEmailAddress;
-    NSMutableDictionary *_participantsByEmailAddress;
 }
 
 - (id);
-- (_Bool);
+- (_Bool)9	(;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -46,11 +30,11 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)6;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)<;
 - (id);
 - (id);
 - (id);
@@ -66,40 +50,12 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)pReadIO:Member name without attribute. /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *ccRecipientNamesByEmailAddress; // @synthesize ccRecipientNamesByEmailAddress=_ccRecipientNamesByEmailAddress;
-@property(retain, nonatomic) NSArray *ccRecipients; // @synthesize ccRecipients=_ccRecipients;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(retain, nonatomic) NSSet *firstPerson; // @synthesize firstPerson=_firstPerson;
-@property(nonatomic) _Bool hasCustomSignature; // @synthesize hasCustomSignature=_hasCustomSignature;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSDictionary *infoDict; // @synthesize infoDict=_infoDict;
-@property(retain, nonatomic) NSArray *originalContentMessages; // @synthesize originalContentMessages=_originalContentMessages;
-@property(copy, nonatomic) NSString *originalMessageCategorySubtype; // @synthesize originalMessageCategorySubtype=_originalMessageCategorySubtype;
-@property(retain, nonatomic) NSMutableDictionary *participantsByEmailAddress; // @synthesize participantsByEmailAddress=_participantsByEmailAddress;
-@property(retain, nonatomic) NSSet *primaryRecipients; // @synthesize primaryRecipients=_primaryRecipients;
-@property(retain, nonatomic) NSDictionary *recipientNamesByEmailAddress; // @synthesize recipientNamesByEmailAddress=_recipientNamesByEmailAddress;
-@property(retain, nonatomic) NSSet *secondaryRecipients; // @synthesize secondaryRecipients=_secondaryRecipients;
-@property(retain, nonatomic) ECEmailAddress *senderEmailAddress; // @synthesize senderEmailAddress=_senderEmailAddress;
-@property(nonatomic) _Bool showSmartReplySuggestions; // @synthesize showSmartReplySuggestions=_showSmartReplySuggestions;
-@property(copy, nonatomic) NSString *subject; // @synthesize subject=_subject;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *threadIdentifier; // @synthesize threadIdentifier=_threadIdentifier;
-@property(retain, nonatomic) NSDictionary *toRecipientNamesByEmailAddress; // @synthesize toRecipientNamesByEmailAddress=_toRecipientNamesByEmailAddress;
-@property(retain, nonatomic) NSArray *toRecipients; // @synthesize toRecipients=_toRecipients;
 
 @end
 

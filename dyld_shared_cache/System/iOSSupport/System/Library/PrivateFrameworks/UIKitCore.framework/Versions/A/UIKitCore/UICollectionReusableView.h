@@ -6,42 +6,17 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSMutableArray, NSString, UICollectionView, UICollectionViewLayoutAttributes, _UICollectionViewMaskView, _UIScrollPocketContainerInteraction;
+@class NSMutableArray, UICollectionViewLayoutAttributes;
 
 @interface UICollectionReusableView : UIView
 {
     UICollectionViewLayoutAttributes *_layoutAttributes;
-    UICollectionView *_collectionView;
-    long long _updateAnimationCount;
-    struct UIEdgeInsets _defaultLayoutMargins;
-    struct {
-        unsigned int wasDequeued:1;
-        unsigned int hasBeenReused:1;
-        unsigned int preferredAttributesValid:1;
-        unsigned int generatingPreferredAttributes:1;
-        unsigned int didSetMasksToBounds:1;
-        unsigned int didSetMaskedCorners:1;
-        unsigned int didSetCornerRadius:1;
-        unsigned int didSetMaskView:1;
-        unsigned int hasBlocksToPerformWhenReused:1;
-        unsigned int isBeingReused:1;
-        unsigned int isDisplayed:1;
-        unsigned int collectionViewHasBeenExplicitlySet:1;
-        unsigned int shouldConstrainWidth:1;
-        unsigned int shouldConstrainHeight:1;
-        unsigned int hasDefaultLayoutMargins:1;
-        unsigned int automaticIntrinsicContentSizeInvalidationEnabled:1;
-    } _reusableViewFlags;
-    _Bool _preferredAttributesValid;
-    NSString *_reuseIdentifier;
-    _UIScrollPocketContainerInteraction *__scrollPocketContainerInteraction;
-    NSString *_elementKind;
 }
 
+- (void)d because the sender is unknown and we have been told drop incoming payloads from this or all unknown senders.;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)t;
 - (void);
 - (void);
 - (id);
@@ -52,14 +27,14 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -74,7 +49,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (_Bool);
@@ -93,7 +68,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)h;
 - (void);
 - (_Bool);
 - (id);
@@ -103,43 +78,20 @@
 - (void)aÐ!HAùñb°1Â0@ù
 × ;
 - (id);
-- (struct UIEdgeInsets)ernalURI:accessibilityLabel:metadata: /* Error: Ran out of types for this method. */;
-- (void)Origin;
-- (void)Transform;
-- (void)ertion;
-- (void)nAttributes:skipDelegateAssignment: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)stageStickerWithIdentifier:representations:name:externalURI:accessibilityLabel:metadata: /* Error: Ran out of types for this method. */;
+- (void)frameOrigin;
+- (void)_updateHostingTraitsScreenTransform;
+- (void)_showInputModesCursorAssertion;
+- (void)_setAnimationAttributes:skipDelegateAssignment: /* Error: Ran out of types for this method. */;
 - (void)ngImageLayoutSize;
 - (id);
-- (void)ultiTapRecognizer;
-- (void)ct;
+- (void)UITextMultiTapRecognizer;
+- (void)isCompact;
 - (_Bool)hóÿ§Ù|Xi;
 - (void)ùúÏìni;
 
 // Remaining properties
-@property(nonatomic, setter=_setAutomaticIntrinsicContentSizeInvalidationEnabled:) _Bool _automaticIntrinsicContentSizeInvalidationEnabled;
-@property(nonatomic, getter=_isHiddenForReordering, setter=_setHiddenForReordering:) _Bool _hiddenForReordering;
-@property(retain, nonatomic, setter=_setInternalMaskView:) _UICollectionViewMaskView *_internalMaskView;
-@property(retain, nonatomic, setter=_setScrollPocketContainerInteraction:) _UIScrollPocketContainerInteraction *_scrollPocketContainerInteraction; // @synthesize _scrollPocketContainerInteraction=__scrollPocketContainerInteraction;
 @property(retain, nonatomic, setter=_setUpdateAnimationCompletionBlocks:) NSMutableArray *_updateAnimationCompletionBlocks;
-@property(readonly, nonatomic) _Bool canBeEdited;
-@property(nonatomic, getter=_collectionView, setter=_setCollectionView:) __weak UICollectionView *collectionView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEditing) _Bool editing;
-@property(copy, nonatomic, getter=_elementKind, setter=_setElementKind:) NSString *elementKind; // @synthesize elementKind=_elementKind;
-@property(readonly, nonatomic, getter=_hasBeenReused) _Bool hasBeenReused;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=_isInUpdateAnimation) _Bool inUpdateAnimation;
-@property(nonatomic, getter=_isBeingReused, setter=_setIsBeingReused:) _Bool isBeingReused;
-@property(copy, nonatomic, getter=_layoutAttributes, setter=_setLayoutAttributes:) UICollectionViewLayoutAttributes *layoutAttributes;
-@property(nonatomic, getter=_arePreferredAttributesValid) _Bool preferredAttributesValid; // @synthesize preferredAttributesValid=_preferredAttributesValid;
-@property(copy, nonatomic, setter=_setReuseIdentifier:) NSString *reuseIdentifier; // @synthesize reuseIdentifier=_reuseIdentifier;
-@property(nonatomic, getter=_shouldConstrainHeight, setter=_setShouldConstrainHeight:) _Bool shouldConstrainHeight;
-@property(nonatomic, getter=_shouldConstrainWidth, setter=_setShouldConstrainWidth:) _Bool shouldConstrainWidth;
-@property(readonly) Class superclass;
 
 @end
 

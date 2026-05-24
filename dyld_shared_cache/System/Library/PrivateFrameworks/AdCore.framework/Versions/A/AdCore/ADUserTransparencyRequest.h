@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface ADUserTransparencyRequest
 {
     NSData *_contentiAdID;
-    NSData *_dPID;
-    NSData *_iAdID;
-    NSString *_iTunesStore;
-    NSString *_localeIdentifier;
-    _Bool _isSignedInToiTunes;
-    _Bool _limitAdTracking;
-    struct {
-        unsigned int isSignedInToiTunes:1;
-        unsigned int limitAdTracking:1;
-    } _has;
 }
 
 + (id);
@@ -35,18 +25,18 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (unsigned long long);
+- (_Bool);
+- (_Bool)C;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
+- (id)%lu and %lu).;
+- (_Bool)CUSTOM_RESPONSES_COMPATIBILITY_VERSION;
 - (void);
 - (_Bool);
 - (id);
@@ -57,20 +47,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *contentiAdID; // @synthesize contentiAdID=_contentiAdID;
-@property(retain, nonatomic) NSData *dPID; // @synthesize dPID=_dPID;
-@property(readonly, nonatomic) _Bool hasContentiAdID;
 @property(readonly, nonatomic) _Bool hasDPID;
-@property(readonly, nonatomic) _Bool hasIAdID;
-@property(readonly, nonatomic) _Bool hasITunesStore;
-@property(nonatomic) _Bool hasIsSignedInToiTunes;
-@property(nonatomic) _Bool hasLimitAdTracking;
-@property(readonly, nonatomic) _Bool hasLocaleIdentifier;
-@property(retain, nonatomic) NSData *iAdID; // @synthesize iAdID=_iAdID;
-@property(retain, nonatomic) NSString *iTunesStore; // @synthesize iTunesStore=_iTunesStore;
-@property(nonatomic) _Bool isSignedInToiTunes; // @synthesize isSignedInToiTunes=_isSignedInToiTunes;
-@property(nonatomic) _Bool limitAdTracking; // @synthesize limitAdTracking=_limitAdTracking;
-@property(retain, nonatomic) NSString *localeIdentifier; // @synthesize localeIdentifier=_localeIdentifier;
 
 @end
 

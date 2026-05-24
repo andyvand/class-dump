@@ -6,22 +6,15 @@
 
 #import <NeutrinoCore/_NUAbstractBufferStorage.h>
 
-@class NSString, NUColorSpace, NUPixelFormat, NURegion;
-
 @interface NUBufferStorage : _NUAbstractBufferStorage
 {
     long long _purgeLevel;
-    long long _length;
-    long long _rowBytes;
-    void *_bytes;
-    _Bool _purgeable;
-    _Atomic int _useCount;
 }
 
 - (long long);
+- (long long);
 - (long long);
-- (long long);
-- (long long);
+- (long long)P;
 - (long long);
 - (id);
 - (void);
@@ -30,17 +23,17 @@
 - (id);
 - (int);
 - (int);
-- (void);
+- (void);
 - (void *);
 - (_Bool);
 - (void);
 - (_Bool);
 - (long long);
 - (_Bool);
-- (void);
+- (void)h;
 - (long long);
 - (id);
-- (id);
+- (id)newEnumeratorFromBookmark:(CDStruct_912cb5d2)arg1 options:(id)arg2 error: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (const void *);
 - (void *);
@@ -48,23 +41,7 @@
 - (int);
 
 // Remaining properties
-@property(readonly, nonatomic) const void *bytes; // @synthesize bytes=_bytes;
-@property(retain) NUColorSpace *colorSpace;
-@property float contentHeadroom;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NUPixelFormat *format;
-@property(readonly) unsigned long long hash;
-@property _Bool isDirty;
-@property(readonly, nonatomic) void *mutableBytes;
-@property(readonly, nonatomic) long long rowBytes; // @synthesize rowBytes=_rowBytes;
 @property(readonly, nonatomic) CDStruct_912cb5d2 size;
-@property(readonly) long long sizeInBytes;
-@property(readonly) Class superclass;
-@property(readonly) NURegion *validRegion;
 
 @end
 

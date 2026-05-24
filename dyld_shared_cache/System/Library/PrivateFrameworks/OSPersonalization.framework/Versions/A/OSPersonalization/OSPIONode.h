@@ -9,25 +9,23 @@
 @interface OSPIONode
 {
     unsigned int _entry;
-    NSString *_nodePath;
 }
 
 - (unsigned long long);
 - (void);
 - (id);
 - (unsigned char);
-- (unsigned int);
+- (unsigned int)rk/SiriEntityMatcher;
 - (id);
 - (unsigned int);
 - (void);
 - (void);
+- (id)ictions from duet prediction store data.;
+- (_Bool)h;
 - (id);
-- (_Bool);
-- (id);
-- (void);
+- (void)ijh8I;
 
 // Remaining properties
-@property unsigned int entry; // @synthesize entry=_entry;
 @property(retain) NSString *nodePath; // @synthesize nodePath=_nodePath;
 
 @end

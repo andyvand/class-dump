@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFSettingsConnection, NSMutableArray, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class AFSettingsConnection;
 
 @interface AFArbitrationParticipationController
 {
     AFSettingsConnection *_settingsConnection;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_participationsForUserFeedback;
-    NSMutableArray *_participationsPublished;
 }
 
 - (id);
@@ -30,24 +26,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)encryptedPIN;
 - (id);
 - (void);
 - (id);
-- (void)equest;
+- (void)AFSiriExternalRequest;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableDictionary *participationsForUserFeedback; // @synthesize participationsForUserFeedback=_participationsForUserFeedback;
-@property(retain, nonatomic) NSMutableArray *participationsPublished; // @synthesize participationsPublished=_participationsPublished;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property(retain, nonatomic) AFSettingsConnection *settingsConnection; // @synthesize settingsConnection=_settingsConnection;
-@property(readonly) Class superclass;
 
 @end
 

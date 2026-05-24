@@ -9,21 +9,17 @@
 @interface NSNibExternalObjectEntry
 {
     NSString *_key;
-    NSString *_objectDescription;
-    id _object;
 }
 
-+ (id);
++ (id)V;
 - (id);
-- (id);
-- (id);
+- (id)>R;
+- (id)unarchiveItemAtURL:passphrases:destinationFolderURL:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *key; // @synthesize key=_key;
-@property(readonly) __weak id object; // @synthesize object=_object;
-@property(readonly, copy) NSString *objectDescription; // @synthesize objectDescription=_objectDescription;
 
 @end
 

@@ -4,9 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
+@class NSDictionary, NSString;
 
 @protocol SFCoreAnalyticsEvent
++ (NSString *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *eventPayload;

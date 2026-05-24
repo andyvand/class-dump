@@ -4,27 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MediaIOGraphNodeDescription, NSArray, NSDictionary;
+@class MediaIOGraphNodeDescription;
 
 __attribute__((visibility("hidden")))
 @interface AVCaptureScreenInputInternal_Tundra
 {
     MediaIOGraphNodeDescription *inputUnitNodeDescription;
-    NSArray *ports;
-    CDStruct_1b6d18a9 minFrameDuration;
-    unsigned int displayID;
-    struct CGRect cropRect;
-    double scaleFactor;
-    _Bool scaleFactorIsSetByClient;
-    _Bool capturesMouseClicks;
-    _Bool capturesCursor;
-    int captureTimeScale;
-    int graphicsSubsystemErrorStatus;
-    NSDictionary *pixelBufferAttributesFromSession;
-    NSArray *outputCodecTypesFromSession;
-    CDStruct_1b6d18a9 minFrameDurationFromSession;
-    struct OpaqueCMClock *clock;
-    void *callbackContextToken;
 }
 
 @end

@@ -4,36 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCallbackContextRegistry, NSObject, NSString;
+@class AVCallbackContextRegistry;
 
 __attribute__((visibility("hidden")))
 @interface AVClientBlockKVONotifier
 {
     AVCallbackContextRegistry *_callbackContextRegistry;
-    void *_callbackContextToken;
-    NSObject *_observer;
-    NSObject *_object;
-    NSString *_keyPath;
-    unsigned long long _options;
-    CDUnknownBlockType _block;
 }
 
 - (void);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
+- (void);
+- (id)ntity>",&,N;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSObject *observedObject;
-@property(readonly) Class superclass;
 
 @end
 

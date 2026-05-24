@@ -8,16 +8,13 @@
 @protocol NSObject><NSCopying;
 
 @protocol UITextSearching
+- (UITextRange *)arrayLength;
+
+@optional
+- (void);
+- (id <NSObject><NSCopying>);
 
 // Remaining properties
 @property(readonly) UITextRange *selectedTextRange;
-@property(readonly) id <NSObject><NSCopying> selectedTextSearchDocument;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<NSObject><NSCopying>",?,R
-
-@property(readonly, nonatomic) _Bool supportsTextReplacement;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @end
 

@@ -7,7 +7,6 @@
 @interface ContactsUICore.ContactCardViewModel
 {
     id widgetViewModels;
-    id contact;
 }
 
 @end

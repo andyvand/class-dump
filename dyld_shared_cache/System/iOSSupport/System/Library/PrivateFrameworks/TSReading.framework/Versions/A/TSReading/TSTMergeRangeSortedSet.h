@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_semaphore;
-
 @interface TSTMergeRangeSortedSet
 {
     void *mSet;
-    struct __tree_const_iterator<TSTMergeRangeElem, std::__tree_node<TSTMergeRangeElem, void *>*, long> {
-        void *__ptr_;
-    } mIter;
-    NSObject<OS_dispatch_semaphore> *mSem;
 }
 
 - (_Bool);
 - (struct UIEdgeInsets);
 - (void);
-- (CDStruct_5f1f7aa9);
+- (CDStruct_f5d1269f);
 - (struct CGSize);
 - (void);
 - (void);
 - (id);
-- (id);
-- (CDStruct_5f1f7aa9);
+- (id)@;
+- (CDStruct_f5d1269f);
 - (unsigned long long)ð1Â0@ù
 × ;
 

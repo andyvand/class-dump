@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrowserWindowController, NSArray, NSMutableDictionary;
+@class BrowserWindowController, NSArray;
 
 __attribute__((visibility("hidden")))
 @interface PinnedTabsManager
 {
     BrowserWindowController *_browserWindowControllerForMainWindow;
-    NSArray *_pinnedTabsStatesToRestore;
-    NSArray *_privatePinnedTabsStatesToRestore;
-    long long _pinnedTabsChangesSuppressionCounter;
-    NSMutableDictionary *_pinnedTabsStatesToRestoreByProfileIdentifier;
-    NSMutableDictionary *_pinnedTabsByProfileIdentifier;
-    _Bool _applicationDidFinishLaunching;
-    _Bool _isMergingWindows;
-    _Bool _shouldReleaseIconsAfterStatesAreRestored;
-    NSArray *_pinnedTabs;
-    NSArray *_privatePinnedTabs;
 }
 
 + (id)ÿ;
@@ -38,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -66,7 +56,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)L;
 - (_Bool);
 - (void);
 - (void);
@@ -75,10 +65,7 @@ __attribute__((visibility("hidden")))
 - (id)U±±+;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *currentPinnedTabsStates;
-@property(readonly, copy, nonatomic) NSArray *currentPrivatePinnedTabsStates;
 @property(readonly, copy, nonatomic) NSArray *pinnedTabs; // @synthesize pinnedTabs=_pinnedTabs;
-@property(readonly, copy, nonatomic) NSArray *privatePinnedTabs; // @synthesize privatePinnedTabs=_privatePinnedTabs;
 
 @end
 

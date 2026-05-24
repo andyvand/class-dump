@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue, OS_xpc_object;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface HIDPreferences
 {
     NSObject<OS_dispatch_queue> *_queue;
-    int _option;
-    NSObject<OS_xpc_object> *_connection;
 }
 
 + (id);
@@ -23,20 +21,14 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

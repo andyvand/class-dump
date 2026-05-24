@@ -15,10 +15,10 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id),;
 - (id);
 - (void);
-- (id)L;
+- (id)TL;
 
 @end
 

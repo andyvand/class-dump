@@ -13,7 +13,7 @@
 
 + (id);
 - (id);
-- (void);
+- (void)conferenceMicrophoneMute;
 - (void);
 - (void);
 - (id);

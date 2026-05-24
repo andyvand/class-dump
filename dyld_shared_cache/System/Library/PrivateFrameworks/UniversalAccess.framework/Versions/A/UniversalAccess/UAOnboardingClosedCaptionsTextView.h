@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer;
-
 __attribute__((visibility("hidden")))
 @interface UAOnboardingClosedCaptionsTextView
 {
     struct OpaqueFigSubtitleRenderer *_subtitleRenderer;
-    CALayer *_imageLayer;
 }
 
+- (id)WCrossIntentRankerResponse";
+- (void)cesCount"b1"airPlaySuccessfullyPlayingDevicesCount"b1"airPlayRouteSettingStatus"b1"userPersona"b1"wasOnScreenItemSelected"b1};
+- (void)romptFailed";
+- (void)viceSuccessCount"b1};
+- (void)PEGASUSKGQAUSECASE_ELECTIONS;
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)F
+;
 - (void);
 - (void);
 

@@ -6,57 +6,34 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSDictionary, NSLayoutManager, NSString, NSTextContainer, UIColor, UIScrollView, UITextView, _UIAnimatedTextLayoutInfo, _UITextEmphasisBackgroundView, _UITextLayoutControllerBase;
-@protocol NSCustomTextRendering, _UITextCanvas, _UITextContainerViewDelegate, _UITextLayoutController;
+@class NSTextContainer;
 
 __attribute__((visibility("hidden")))
 @interface _UITextContainerView : UIView
 {
     _Bool _drawingFindIndicator;
-    struct UIEdgeInsets _textContainerInset;
-    struct CGPoint _textContainerOrigin;
-    struct CGSize _minSize;
-    struct CGSize _maxSize;
-    NSTextContainer *_textContainer;
-    NSDictionary *_linkTextAttributes;
-    unsigned long long _invalidationSeqNo;
-    long long _invalidationSeqClipsToBounds;
-    UIScrollView *_enclosingScrollView;
-    struct {
-        unsigned int textContainerOriginInvalid:1;
-        unsigned int verticalLayout:2;
-        unsigned int horizontallyResizable:1;
-        unsigned int verticallyResizable:1;
-        unsigned int freezeTextContainerSize:1;
-        unsigned int usesStandardTextScaling:1;
-    } _tcvFlags;
-    UITextView *_textView;
-    NSDictionary *_textHighlightAttributes;
-    _UITextLayoutControllerBase<_UITextLayoutController> *_textLayoutController;
-    id <_UITextContainerViewDelegate> _delegate;
-    UIView<_UITextCanvas> *_canvasView;
 }
 
 - (void);
+- (_Bool);
+- (id)__swift5_typeref__TEXT;
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (id)imageWithCVImageBuffer: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void)ion",R,N,V_connection;
+- (id)MPAVCompanionProxiedOutputDeviceRoutingDataSource;
+- (void);
+- (void);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (struct CGRect);
+- (struct CGRect);
 - (_Bool);
 - (void)!ÔAùÑ[1Â0@ù
 × ;
@@ -68,21 +45,21 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)=dd}}24;
 - (void)ement<_UIMenuStateObserverableLeaf>"16;
-- (void)SecureValues;
-- (id)tionalSafeAreaInsets: /* Error: Ran out of types for this method. */;
-- (void)arAutofill:(id)arg1;
-- (void)pConstraint: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)etInteractionWithEdge: /* Error: Ran out of types for this method. */;
-- (struct CGRect)wUpdatesSink: /* Error: Ran out of types for this method. */;
-- (void)nterHorizontallyWhilePreservingLayoutWithKeys:inRect:scale: /* Error: Ran out of types for this method. */;
-- (void)owToolbarController;
-- (_Bool)eplacementDeliveryUUIDs;
-- (id)askForRects:(struct CGRect)arg1;
+- (void)setToSecureValues;
+- (id)setSidebarAdditionalSafeAreaInsets: /* Error: Ran out of types for this method. */;
+- (void)setNeedCellularAutofill:(id)arg1;
+- (void)setBubbleTopConstraint: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)prepareScrollPocketInteractionWithEdge: /* Error: Ran out of types for this method. */;
+- (struct CGRect)initWithViewUpdatesSink: /* Error: Ran out of types for this method. */;
+- (void)centerHorizontallyWhilePreservingLayoutWithKeys:inRect:scale: /* Error: Ran out of types for this method. */;
+- (void)_windowToolbarController;
+- (_Bool)_replacementDeliveryUUIDs;
+- (id)_maskForRects:(struct CGRect)arg1;
 - (void)_hasBeenReused;
-- (id)nment: /* Error: Ran out of types for this method. */;
+- (id)_action:changedToTitleTextAlignment: /* Error: Ran out of types for this method. */;
 - (void)n;
 - (void)T@"_UIBasicHeaderFooterContentViewConfiguration",C,N,V_configuration;
-- (void)oundCoversContentOnly:(id)arg1;
+- (void)setBackgroundCoversContentOnly:(id)arg1;
 - (void)enuPanControllerDelegate>",W,N,V_delegate;
 - (_Bool)eftConstraint;
 - (void)@;
@@ -99,7 +76,7 @@ __attribute__((visibility("hidden")))
 - (id)ù;
 - (id)Ähþ;
 - (struct CGSize)h;
-- (_Bool)BlinkingEffect;
+- (_Bool)SpringLoadedBlinkingEffect;
 - (struct _NSRange)Ì¨;
 - (id);
 - (_Bool);
@@ -127,50 +104,7 @@ __attribute__((visibility("hidden")))
 - (id)²;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect _clipRectForFadedEdges;
-@property(readonly, nonatomic) UIView<_UITextCanvas> *canvasView; // @synthesize canvasView=_canvasView;
-@property(readonly, nonatomic) id <NSCustomTextRendering> customRenderController;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<NSCustomTextRendering>",?,R,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <_UITextContainerViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) struct CGPoint drawingScale;
-@property(readonly, nonatomic, getter=isEditable) _Bool editable;
-@property(readonly, nonatomic, getter=isEditing) _Bool editing;
-@property(nonatomic) __weak UIScrollView *enclosingScrollView;
-@property(nonatomic, getter=_freezeTextContainerSize, setter=_setFreezeTextContainerSize:) _Bool freezeTextContainerSize;
-@property(readonly, nonatomic) _Bool hasOverriddenEnclosingScrollView;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isHorizontallyResizable) _Bool horizontallyResizable;
-@property(readonly, nonatomic) NSLayoutManager *layoutManager;
-@property(readonly, nonatomic) long long layoutOrientation;
-@property(nonatomic) struct _NSRange markedRange;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{_NSRange=QQ},?,N
-
-@property(readonly, nonatomic) NSDictionary *markedTextStyle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,R,N
-
-@property(nonatomic) struct CGSize maxSize; // @synthesize maxSize=_maxSize;
-@property(nonatomic) struct CGSize minSize; // @synthesize minSize=_minSize;
-@property(retain, nonatomic) UIView *selectionContainerView;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) UIColor *textColor;
 @property(nonatomic) __weak NSTextContainer *textContainer; // @synthesize textContainer=_textContainer;
-@property(nonatomic) struct UIEdgeInsets textContainerInset;
-@property(readonly, nonatomic) struct CGPoint textContainerOrigin;
-@property(readonly, nonatomic) _UITextEmphasisBackgroundView *textEmphasisBackgroundView;
-@property(copy, nonatomic) NSDictionary *textHighlightAttributes; // @synthesize textHighlightAttributes=_textHighlightAttributes;
-@property(readonly, nonatomic) _UITextLayoutControllerBase<_UITextLayoutController> *textLayoutController; // @synthesize textLayoutController=_textLayoutController;
-@property(retain, nonatomic) _UIAnimatedTextLayoutInfo *uniqueWritingToolsAnimatedLayoutInfo;
-@property(nonatomic) _Bool usesStandardTextScaling;
-@property(nonatomic, getter=isVerticallyResizable) _Bool verticallyResizable;
 
 @end
 

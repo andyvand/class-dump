@@ -18,13 +18,13 @@
 - (struct NSDirectionalEdgeInsets);
 - (id);
 - (id);
+- (_Bool)eHandler;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)not remove treatment %@.;
 - (id);
 - (long long);
 - (_Bool);
-- (_Bool)age;
+- (_Bool)_alternateLeadingImage;
 
 // Remaining properties
 @property long long numberOfRows; // @synthesize numberOfRows=_numberOfRows;

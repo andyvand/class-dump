@@ -4,32 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSSet;
+@class NSSet;
 
 @interface PKExpressPassCredentialEntry
 {
     NSSet *_selectionCriteria;
-    NSData *_readerIdentifier;
-    NSSet *_associatedReaders;
 }
 
 + (_Bool)î%°1Â0@ù
 × ;
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id));
 - (unsigned long long);
-- (_Bool);
+- (_Bool)lTETxPower;
 - (void);
-- (void)etchPeriodPassed;
+- (void)proactiveFetchPeriodPassed;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *associatedReaders; // @synthesize associatedReaders=_associatedReaders;
-@property(readonly, nonatomic) NSData *readerIdentifier; // @synthesize readerIdentifier=_readerIdentifier;
 @property(readonly, nonatomic) NSSet *selectionCriteria; // @synthesize selectionCriteria=_selectionCriteria;
 
 @end

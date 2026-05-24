@@ -9,15 +9,6 @@
 @interface NSFetchRequestExpression
 {
     void *_reserved1;
-    void *_reserved2;
-    void *_reserved3;
-    void *_reserved4;
-    NSExpression *_fetchRequest;
-    NSExpression *_managedObjectContext;
-    struct _fetchExpressionFlags {
-        unsigned int isCountOnly:1;
-        unsigned int _RESERVED:31;
-    } _flags;
 }
 
 + (id);
@@ -34,14 +25,12 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void));
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)?i(8;
 
 // Remaining properties
-@property(readonly) NSExpression *contextExpression;
-@property(readonly, getter=isCountOnlyRequest) _Bool countOnlyRequest;
 @property(readonly) NSExpression *requestExpression;
 
 @end

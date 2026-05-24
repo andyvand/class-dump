@@ -11,7 +11,7 @@
     NSMutableDictionary *_availabilityHandlers;
 }
 
-+ (id);
++ (id)n",&,N,V_rightChevron;
 - (_Bool);
 - (void);
 - (void);

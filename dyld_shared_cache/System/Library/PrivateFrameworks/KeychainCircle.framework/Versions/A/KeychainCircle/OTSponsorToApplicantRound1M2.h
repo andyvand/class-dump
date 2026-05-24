@@ -8,13 +8,10 @@ __attribute__((visibility("hidden")))
 @interface OTSponsorToApplicantRound1M2
 {
     unsigned long long _epoch;
-    struct {
-        unsigned int epoch:1;
-    } _has;
 }
 
 - (_Bool);
-- (id);
+- (id)8^{?=[8I]}16;
 - (void);
 - (void);
 - (unsigned long long);
@@ -28,7 +25,6 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) unsigned long long epoch; // @synthesize epoch=_epoch;
 @property(nonatomic) _Bool hasEpoch;
 
 @end

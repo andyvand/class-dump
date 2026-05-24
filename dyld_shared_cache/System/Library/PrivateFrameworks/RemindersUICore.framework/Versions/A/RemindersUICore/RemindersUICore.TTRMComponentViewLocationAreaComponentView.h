@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSView;
+@class NSButton;
 
 @interface RemindersUICore.TTRMComponentViewLocationAreaComponentView
 {
     id delegate;
-    void arrivingRadioButton;
-    void leavingRadioButton;
-    void mapContainerView;
-    id mapViewController;
 }
 
 - (void);
@@ -21,19 +17,17 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)port/BodyField.js;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic) __weak NSButton *arrivingRadioButton; // @synthesize arrivingRadioButton;
-@property(nonatomic) __weak NSButton *leavingRadioButton; // @synthesize leavingRadioButton;
-@property(nonatomic) __weak NSView *mapContainerView; // @synthesize mapContainerView;
 
 @end
 

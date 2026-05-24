@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSString, SADomainObject;
+@class SADomainObject;
 
 @interface SADomainObjectUpdate : SABaseClientBoundCommand
 {
@@ -14,30 +14,20 @@
 
 + (id);
 + (id);
+- (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (id)6T;
+- (id);
+- (id)@9;
+- (void);
+- (id);
+- (_Bool)A;
 
 // Remaining properties
 @property(retain, nonatomic) SADomainObject *addFields;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SADomainObject *identifier;
-@property(retain, nonatomic) SADomainObject *removeFields;
-@property(retain, nonatomic) SADomainObject *setFields;
-@property(readonly) Class superclass;
 
 @end
 

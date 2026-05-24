@@ -10,7 +10,7 @@
 
 + (id)¸>ìF;
 + (id)G;
-- (void);
+- (void)_isEarlyReturn;
 - (id);
 
 @end

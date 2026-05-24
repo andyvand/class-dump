@@ -5,5 +5,9 @@
 //
 
 @protocol PXCuratedLibraryViewModelPresenter
+
+@optional
+- (long long);
+- (void)D@9�;
 @end
 

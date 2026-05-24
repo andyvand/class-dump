@@ -7,14 +7,6 @@
 @interface ConversationKit.CaptionsViewModel
 {
     id _source;
-    id _sectioner;
-    id _expirationTimer;
-    id _suppressionTimer;
-    id _onRequestMinimizeHandler;
-    id _onRequestDismissControlsHandler;
-    id _layoutIdiom;
-    id _cancellables;
-    id _$observationRegistrar;
 }
 
 @end

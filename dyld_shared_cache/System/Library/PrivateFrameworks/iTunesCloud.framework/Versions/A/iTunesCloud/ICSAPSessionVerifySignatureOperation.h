@@ -6,29 +6,25 @@
 
 #import <iTunesCloud/ICSAPSessionAbstractOperation.h>
 
-@class NSData, NSMutableData;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface ICSAPSessionVerifySignatureOperation : ICSAPSessionAbstractOperation
 {
     NSData *_signatureData;
-    NSMutableData *_data;
-    CDUnknownBlockType _responseHandler;
 }
 
 - (id);
-- (void);
+- (void)NSString",&,N,V_appIdentifier;
 - (CDUnknownBlockType);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void)oreURLRequest;
+- (void)storeURLRequest;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableData *data; // @synthesize data=_data;
-@property(copy, nonatomic) CDUnknownBlockType responseHandler; // @synthesize responseHandler=_responseHandler;
 @property(copy, nonatomic) NSData *signatureData; // @synthesize signatureData=_signatureData;
 
 @end

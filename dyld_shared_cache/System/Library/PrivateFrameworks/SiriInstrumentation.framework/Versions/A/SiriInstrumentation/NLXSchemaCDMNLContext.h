@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface NLXSchemaCDMNLContext : SISchemaInstrumentationMessage
 {
     NSArray *_activeTasks;
-    NSArray *_executedTasks;
-    NSArray *_salientEntities;
-    NSArray *_systemDialogActs;
 }
 
 - (unsigned long long);
@@ -46,7 +43,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)n.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -58,10 +55,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *activeTasks; // @synthesize activeTasks=_activeTasks;
-@property(copy, nonatomic) NSArray *executedTasks; // @synthesize executedTasks=_executedTasks;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *salientEntities; // @synthesize salientEntities=_salientEntities;
-@property(copy, nonatomic) NSArray *systemDialogActs; // @synthesize systemDialogActs=_systemDialogActs;
 
 @end
 

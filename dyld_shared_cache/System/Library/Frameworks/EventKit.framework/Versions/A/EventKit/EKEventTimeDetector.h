@@ -9,10 +9,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)e Error. Disconnecting...;
++ (id)use a hijack (%{public}@) playerPath %{public}@. Posting MRNowPlayingSessionManagerActiveSessionWillBeHijackedByNativePlayback;
++ (id)ayingSessionManager] Got command preview that will cause a hijack (%{public}@) playerPath %{public}@. Posting MRNowPlayingSessionManagerActiveSessionWillBeHijackedByNativePlayback;
++ (id)devicePlaybackSessionID;
 
 @end
 

@@ -4,25 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableOrderedSet, NSMutableSet, NSString, UIDragInteraction, UIDragItem, UIDropInteraction, UITab;
-@protocol UIDropSession, _UIFloatingTabBarDragControllerDelegate;
+@class UIDragInteraction;
 
 __attribute__((visibility("hidden")))
 @interface _UIFloatingTabBarDragController
 {
     _Bool _needsFavoriteOrderUpdate;
-    _Bool _editing;
-    _Bool _pendingDropTabHasValidTarget;
-    id <_UIFloatingTabBarDragControllerDelegate> _delegate;
-    UITab *_pendingDropTab;
-    UIDragItem *_activeDropItem;
-    UIDragInteraction *_dragInteraction;
-    UIDropInteraction *_dropInteraction;
-    UITab *_currentDragTab;
-    long long _currentDragTabOriginalIndex;
-    id <UIDropSession> _activeDropSession;
-    NSMutableOrderedSet *_pendingFavoriteOrder;
-    NSMutableSet *_pendingExcludedItems;
 }
 
 - (void);
@@ -30,26 +17,26 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)36@?44;
+- (void)totalFileTransferSize;
+- (void)stopRecordingMessagesReplayDatabase;
+- (id)resultsForLogging;
+- (id)restoreDefaultStoreControllerInstance;
+- (_Bool)responseInformation;
+- (id)responseHandlers;
+- (void)BehaviorLastModificationDate:(id)arg1 isRecovered:isDeletingIncomingMessages:domainIdentifiers: /* Error: Ran out of types for this method. */;
+- (id)defuseCollaborationClearNoticePayload:(id)arg1 resultHandler:(id)arg2;
+- (id)_setUnderScrutiny: /* Error: Ran out of types for this method. */;
+- (long long)_attemptToEnableMiCByDefaultOnceAttempt: /* Error: Ran out of types for this method. */;
+- (id)_attemptToEnableMiCByDefaultOnceAttempt: /* Error: Ran out of types for this method. */;
+- (void)eDispatcher;
 - (id);
 - (id);
+- (void);
 - (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (long long);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (double);
+- (void)r %{public}ld identifiers;
+- (void)iss for chats with group ID:(long long)arg1 %@ result:%@ /* Error: Ran out of types for this method. */;
+- (double)o Transcode and upload, error:(id)arg1 %@;
 - (void);
 - (void);
 - (id);
@@ -75,25 +62,7 @@ __attribute__((visibility("hidden")))
 - (_Bool) ¤åb;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak UIDragItem *activeDropItem; // @synthesize activeDropItem=_activeDropItem;
-@property(nonatomic) __weak id <UIDropSession> activeDropSession; // @synthesize activeDropSession=_activeDropSession;
-@property(retain, nonatomic) UITab *currentDragTab; // @synthesize currentDragTab=_currentDragTab;
-@property(nonatomic) long long currentDragTabOriginalIndex; // @synthesize currentDragTabOriginalIndex=_currentDragTabOriginalIndex;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) __weak id <_UIFloatingTabBarDragControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) UIDragInteraction *dragInteraction; // @synthesize dragInteraction=_dragInteraction;
-@property(readonly, nonatomic) UIDropInteraction *dropInteraction; // @synthesize dropInteraction=_dropInteraction;
-@property(readonly, nonatomic, getter=isEditing) _Bool editing; // @synthesize editing=_editing;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UITab *pendingDropTab; // @synthesize pendingDropTab=_pendingDropTab;
-@property(nonatomic) _Bool pendingDropTabHasValidTarget; // @synthesize pendingDropTabHasValidTarget=_pendingDropTabHasValidTarget;
-@property(retain, nonatomic) NSMutableSet *pendingExcludedItems; // @synthesize pendingExcludedItems=_pendingExcludedItems;
-@property(retain, nonatomic) NSMutableOrderedSet *pendingFavoriteOrder; // @synthesize pendingFavoriteOrder=_pendingFavoriteOrder;
-@property(readonly) Class superclass;
 
 @end
 

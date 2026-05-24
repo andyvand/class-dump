@@ -4,39 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _CPSearchResultForFeedback;
-
 @interface _CPVisibleResultsFeedback
 {
     _Bool _isFilterBarShown;
-    int _triggerEvent;
-    int _inputToResultShownMs;
-    unsigned long long _timestamp;
-    NSArray *_results;
-    _CPSearchResultForFeedback *_goTakeoverResult;
-    NSArray *_uniqueIdsOfVisibleButtons;
-    NSArray *_uniqueIdentifiersOfVisibleCardSections;
 }
 
-- (void);
+- (void)	;
 - (unsigned long long);
 - (id);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
-- (void);
+- (id)$;
+- (void)1;
 - (unsigned long long);
 - (void);
 - (unsigned long long);
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)(;
 - (_Bool);
 - (void);
-- (id);
+- (id)T8;
 - (int);
 - (id);
 - (void);
@@ -44,8 +35,8 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
-- (_Bool);
+- (void)finishWritingWithCompletionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (void);
 - (void);
 - (id);
@@ -55,22 +46,7 @@
 - (int)earchType;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) _CPSearchResultForFeedback *goTakeoverResult; // @synthesize goTakeoverResult=_goTakeoverResult;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int inputToResultShownMs; // @synthesize inputToResultShownMs=_inputToResultShownMs;
-@property(nonatomic) _Bool isFilterBarShown; // @synthesize isFilterBarShown=_isFilterBarShown;
-@property(readonly, nonatomic) NSData *jsonData; // @dynamic jsonData;
-@property(copy, nonatomic) NSArray *results; // @synthesize results=_results;
-@property(readonly) Class superclass;
 @property(nonatomic) unsigned long long timestamp;
-@property(nonatomic) int triggerEvent; // @synthesize triggerEvent=_triggerEvent;
-@property(copy, nonatomic) NSArray *uniqueIdentifiersOfVisibleCardSections; // @synthesize uniqueIdentifiersOfVisibleCardSections=_uniqueIdentifiersOfVisibleCardSections;
-@property(copy, nonatomic) NSArray *uniqueIdsOfVisibleButtons; // @synthesize uniqueIdsOfVisibleButtons=_uniqueIdsOfVisibleButtons;
 
 @end
 

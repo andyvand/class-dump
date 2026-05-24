@@ -5,5 +5,9 @@
 //
 
 @protocol SUSoftwareUpdateControllerDelegate
+
+@optional
+- (void);
+- (void)xh;
 @end
 

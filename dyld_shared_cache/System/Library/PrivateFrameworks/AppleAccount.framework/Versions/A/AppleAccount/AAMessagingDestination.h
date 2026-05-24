@@ -4,32 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface AAMessagingDestination
 {
     NSObject<OS_dispatch_queue> *_idsQueue;
-    long long _destinationType;
-    NSString *_destination;
-    NSString *_destinationURI;
 }
 
-- (void);
-- (id);
-- (long long);
-- (id);
-- (id);
-- (id);
+- (void)us error = %d;
+- (id)ngCPProfiles server returned result %d, status = %d;
+- (long long)GetExpectedValueFromDictionary;
+- (id);
 - (id);
 - (id);
-- (void)dianID;
+- (id);
+- (id)acknowledgeSystemTaskSuspensionWithIdentifier:(struct _NSZone *)arg1 retryAfter: /* Error: Ran out of types for this method. */;
+- (void)otCustodianID;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *destination; // @synthesize destination=_destination;
 @property(readonly, nonatomic) long long destinationType; // @synthesize destinationType=_destinationType;
-@property(readonly, nonatomic) NSString *destinationURI; // @synthesize destinationURI=_destinationURI;
 
 @end
 

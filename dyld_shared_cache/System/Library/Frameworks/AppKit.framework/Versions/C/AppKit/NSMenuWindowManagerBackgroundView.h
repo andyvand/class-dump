@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (id)ariesForElementKind:(struct CGRect)arg1;
+- (id)indexPathsForDeletedSupplememtariesForElementKind:(struct CGRect)arg1;
 - (void)NSCollectionUpdateActionInsert;
 
 @end

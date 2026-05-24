@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface NSATSUStyleObject
 {
     struct OpaqueATSUStyle *style;
-    NSMutableArray *exclusives;
 }
 
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)set_phskip_credStorage:(unsigned short *)arg1;
+- (void)initWithCFNetService:(unsigned int *)arg1;
 - (void);
 - (void);
 - (void);
@@ -23,13 +20,13 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)_delegate_cacheTrifecta;
+- (void)in (SELECT entry_ID FROM cfurl_cache_response WHERE time_stamp >= "%s");
 - (void);
 - (struct OpaqueATSUStyle *);
 - (void);
-- (id);
-- (void);
+- (id)filterAndModifyInteractionsWithPolicies:enforceDataLimits:enforcePrivacy: /* Error: Ran out of types for this method. */;
+- (void)adataKey-name;
 - (id);
 - (id)&¸;
 

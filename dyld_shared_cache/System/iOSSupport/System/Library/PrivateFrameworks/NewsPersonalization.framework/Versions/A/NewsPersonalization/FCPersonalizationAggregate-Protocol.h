@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString;
+@class NSString;
 
 @protocol FCPersonalizationAggregate
+- (double);
+- (double)server;
 - (double)"<_TtP8NewsFeed32LocationDetectionManagerObserver_>"16;
 
 // Remaining properties
-@property(readonly, nonatomic) double clicks;
-@property(readonly, nonatomic) double confidence;
-@property(readonly, nonatomic) double ctr;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) unsigned long long eventCount;
 @property(readonly, nonatomic) NSString *featureKey;
-@property(readonly, nonatomic) double impressions;
-@property(readonly, nonatomic) NSDate *lastModified;
 @end
 

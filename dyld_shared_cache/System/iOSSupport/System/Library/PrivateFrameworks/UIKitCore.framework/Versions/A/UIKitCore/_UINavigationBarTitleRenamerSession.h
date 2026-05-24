@@ -4,51 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPLinkMetadata, NSString, NSUUID, UIView, _UINavigationBarTitleRenamer;
+@class NSString, UIView;
 @protocol _UINavigationBarTitleRenamerContentView;
 
 __attribute__((visibility("hidden")))
 @interface _UINavigationBarTitleRenamerSession
 {
     UIView<_UINavigationBarTitleRenamerContentView> *_renamerContentView;
-    _UINavigationBarTitleRenamer *_attachedRenamer;
-    NSString *_title;
-    LPLinkMetadata *_iconMetadata;
-    id _context;
-    NSUUID *_sessionIdentifier;
 }
 
 + (_Bool);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)verifyOffGridSubscriptionMatchesSubscriptionValidationToken:(id)arg1 encryptionValidationToken:(id)arg2 receivedByHandleID:fromHandleID:messageDate: /* Error: Ran out of types for this method. */;
+- (id)verifyCurrentRelayDevicesActive:(id)arg1;
+- (id)refreshIDStatusForDestinations:service:listenerID:queue:completionBlock: /* Error: Ran out of types for this method. */;
+- (id)highlightURL;
+- (id)So30IMDScheduledMessageCoordinatorCXDXMT;
+- (id)guid list.;
 - (void);
-- (id);
+- (id)audioConfiguration;
 - (id);
 - (_Bool);
 - (void);
 - (id)a1Â0@ù
 × ;
 - (id);
-- (void)toOrientation:(id)arg1 duration: /* Error: Ran out of types for this method. */;
-- (void)Connected;
-- (void)InteractionIfNeeded;
-- (void)e;
+- (void)_prepareToTransitionToViewSize:(id)arg1 fromOrientation:toOrientation:duration: /* Error: Ran out of types for this method. */;
+- (void)_isConnected;
+- (void)_configureSceneActivationInteractionIfNeeded;
+- (void)_autoSplitElapsedTime;
 - (id)const __strong, _UIFastIndexSet *const __strong, _UIFastIndexSet *const __strong, const _UIDataSourceUpdateProcessingCallbacks *, NSString *__autoreleasing *);
-- (void)ntrolPointerHoverStyleDriver;
+- (void)UIControlPointerHoverStyleDriver;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) __weak _UINavigationBarTitleRenamer *attachedRenamer; // @synthesize attachedRenamer=_attachedRenamer;
-@property(nonatomic) __weak id context; // @synthesize context=_context;
-@property(readonly, nonatomic) LPLinkMetadata *iconMetadata; // @synthesize iconMetadata=_iconMetadata;
-@property(readonly, nonatomic) UIView<_UINavigationBarTitleRenamerContentView> *renamerContentView; // @synthesize renamerContentView=_renamerContentView;
-@property(readonly, nonatomic) NSUUID *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
 @property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

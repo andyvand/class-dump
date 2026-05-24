@@ -5,5 +5,7 @@
 //
 
 @protocol CWFXPCConnectionDelegate
+- (void).;
+- (void)ata",&,N,V_msk;
 @end
 

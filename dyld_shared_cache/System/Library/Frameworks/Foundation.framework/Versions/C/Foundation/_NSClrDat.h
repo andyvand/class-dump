@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
+- (id)i8;
 - (_Bool);
 - (void);
 - (_Bool);

@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PXComposeRecipientDataSourceManager, PXPeopleSuggestionsMediaProvider;
+@class PXComposeRecipientDataSourceManager;
 
 @interface PXComposeRecipientTableViewModel
 {
     _Bool _canAddRecipients;
-    _Bool _canDeleteRecipients;
-    _Bool _canSelectRecipients;
-    _Bool _useGroupedBackgroundColor;
-    PXComposeRecipientDataSourceManager *_composeRecipientDataSourceManager;
-    PXPeopleSuggestionsMediaProvider *_peopleSuggestionsMediaProvider;
-    NSArray *_recipients;
-    NSArray *_composeRecipients;
-    NSString *_headerTitle;
-    NSString *_footerTitle;
 }
 
 - (_Bool);
@@ -37,23 +28,14 @@
 - (void);
 - (id);
 - (void);
-- (void)lientEncodingPolicyKey;
-- (id)braryCreatePreview;
+- (void)urlQueryItemClientEncodingPolicyKey;
+- (id)PXSharedLibraryCreatePreview;
 - (void)CustomizationViewModel;
 - (id)w;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canAddRecipients; // @synthesize canAddRecipients=_canAddRecipients;
-@property(readonly, nonatomic) _Bool canDeleteRecipients; // @synthesize canDeleteRecipients=_canDeleteRecipients;
-@property(readonly, nonatomic) _Bool canSelectRecipients; // @synthesize canSelectRecipients=_canSelectRecipients;
 @property(readonly, nonatomic) PXComposeRecipientDataSourceManager *composeRecipientDataSourceManager; // @synthesize composeRecipientDataSourceManager=_composeRecipientDataSourceManager;
-@property(readonly, copy, nonatomic) NSArray *composeRecipients; // @synthesize composeRecipients=_composeRecipients;
-@property(readonly, copy, nonatomic) NSString *footerTitle; // @synthesize footerTitle=_footerTitle;
-@property(readonly, copy, nonatomic) NSString *headerTitle; // @synthesize headerTitle=_headerTitle;
-@property(readonly, nonatomic) PXPeopleSuggestionsMediaProvider *peopleSuggestionsMediaProvider; // @synthesize peopleSuggestionsMediaProvider=_peopleSuggestionsMediaProvider;
-@property(readonly, copy, nonatomic) NSArray *recipients; // @synthesize recipients=_recipients;
-@property(readonly, nonatomic) _Bool useGroupedBackgroundColor; // @synthesize useGroupedBackgroundColor=_useGroupedBackgroundColor;
 
 @end
 

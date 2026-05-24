@@ -15,12 +15,12 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)@;
 - (void)ýl¶¹;
 - (unsigned long long)hdOÚ>;
 

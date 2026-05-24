@@ -5,5 +5,6 @@
 //
 
 @protocol NSExtensionRequestHandling
+- (void)߈(;
 @end
 

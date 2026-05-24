@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SVAVPlayer, SXImageView, SXPlayerLayer, SXVideoResource;
+@class SXVideoResource;
 
 @interface SXVideoFillPlayerView
 {
     _Bool _shouldLoop;
-    _Bool _hasRequestedPlayback;
-    unsigned long long _fillMode;
-    SXVideoResource *_videoResource;
-    SXPlayerLayer *_playerLayer;
-    SVAVPlayer *_player;
-    SXImageView *_stillImageView;
 }
 
 - (id);
-- (void);
+- (void)_ֈ@9;
 - (id);
 - (void);
 - (void);
@@ -27,17 +21,17 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)setMissingObjectsPolicy: /* Error: Ran out of types for this method. */;
+- (void)setContentsGravity:(_Bool)arg1;
 - (void);
 - (void);
+- (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)`;
 - (id);
-- (void);
+- (void)!;
 - (void);
 - (id);
 - (void)1Â0@ù
@@ -45,12 +39,6 @@
 - (void)t",R,N;
 
 // Remaining properties
-@property(nonatomic) unsigned long long fillMode; // @synthesize fillMode=_fillMode;
-@property(nonatomic) _Bool hasRequestedPlayback; // @synthesize hasRequestedPlayback=_hasRequestedPlayback;
-@property(retain, nonatomic) SVAVPlayer *player; // @synthesize player=_player;
-@property(retain, nonatomic) SXPlayerLayer *playerLayer; // @synthesize playerLayer=_playerLayer;
-@property(nonatomic) _Bool shouldLoop; // @synthesize shouldLoop=_shouldLoop;
-@property(retain, nonatomic) SXImageView *stillImageView; // @synthesize stillImageView=_stillImageView;
 @property(retain, nonatomic) SXVideoResource *videoResource; // @synthesize videoResource=_videoResource;
 
 @end

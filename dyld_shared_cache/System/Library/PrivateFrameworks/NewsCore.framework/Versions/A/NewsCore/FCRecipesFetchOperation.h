@@ -6,23 +6,11 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class FCAccessChecker, FCCachePolicy, FCTagController, NSArray;
-@protocol FCContentContext, FCNewsAppConfigurationManager;
+@class FCCachePolicy;
 
 @interface FCRecipesFetchOperation : FCOperation
 {
     FCCachePolicy *_cachePolicy;
-    unsigned long long _missingObjectsPolicy;
-    CDUnknownBlockType _fetchCompletionHandler;
-    CDUnknownBlockType _interestTokenHandler;
-    id <FCContentContext> _context;
-    FCAccessChecker *_accessChecker;
-    FCTagController *_tagController;
-    NSArray *_recipeIDs;
-    NSArray *_recipeListIDs;
-    id <FCNewsAppConfigurationManager> _appConfigurationManager;
-    NSArray *_resultRecipeLists;
-    NSArray *_resultRecipes;
 }
 
 - (id);
@@ -31,11 +19,11 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)P;
 - (CDUnknownBlockType)Ñ(	Ð1Â0@ù
 × ;
 - (void);
-- (void)qjTNL2QUPg;
+- (void)TdHuOh5emSY6EqjTNL2QUPg;
 - (void)KProtocolTranslator(RecordFields) fieldValueOfType:(id)arg1 withObject:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
@@ -43,9 +31,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) FCCachePolicy *cachePolicy; // @synthesize cachePolicy=_cachePolicy;
-@property(copy, nonatomic) CDUnknownBlockType fetchCompletionHandler; // @synthesize fetchCompletionHandler=_fetchCompletionHandler;
-@property(copy, nonatomic) CDUnknownBlockType interestTokenHandler; // @synthesize interestTokenHandler=_interestTokenHandler;
-@property(nonatomic) unsigned long long missingObjectsPolicy; // @synthesize missingObjectsPolicy=_missingObjectsPolicy;
 
 @end
 

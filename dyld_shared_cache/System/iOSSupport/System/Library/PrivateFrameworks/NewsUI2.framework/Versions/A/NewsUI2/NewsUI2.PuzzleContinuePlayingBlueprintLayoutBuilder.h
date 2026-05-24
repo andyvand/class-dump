@@ -7,7 +7,6 @@
 @interface NewsUI2.PuzzleContinuePlayingBlueprintLayoutBuilder
 {
     id feedLayoutSolver;
-    id config;
 }
 
 @end

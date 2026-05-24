@@ -6,43 +6,35 @@
 
 #import <AppleAccount/AARequest.h>
 
-@class ACAccount, NSDictionary, NSString;
+@class NSDictionary;
 
 @interface AAGenericTermsUIRequest : AARequest
 {
     _Bool _preferPassword;
-    NSDictionary *_requestDictionary;
-    ACAccount *_account;
-    NSDictionary *_additionalHeaders;
-    NSString *_serverInfo;
 }
 
 + (Class);
-- (void);
-- (void);
+- (void)granted = %s;
+- (void)login reset combined policy = %s;
+- (id)olicies changeAtNextAuth = false, so we won't add a policy;
+- (_Bool)cfDataCreateFromFile():CFURLCreateWithFileSystemPath() = NULL /* Error: Ran out of types for this method. */;
+- (id)nverted to datavault;
+- (id)CP_SetupACMContextWithBootstrapToken;
+- (id)CP_HasBootstrapTokenBeenReceivedByMDM;
+- (id)all returning error:(id)arg1 %s;
+- (id)ccountPolicyDataAttribute setValue = %ld;
+- (id)tlement(s) for %{public}@ due to provisioning profile (isUPP:(id)arg1 %d);
+- (id)tching hash;
 - (id);
-- (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void)e;
-- (void)nviteMessageModelProtocol;
+- (id)_};
+- (void)isFamilyEligible;
+- (void)AAOBTrustedContactInviteMessageModelProtocol;
 - (id)altDSID passed;
 - (id)m£ùâ`(®<g~qü¨7»;Õí#Rk÷©>À¡5óïI8ÍØZÓXH;
 
 // Remaining properties
-@property(readonly, nonatomic) ACAccount *account; // @synthesize account=_account;
-@property(retain, nonatomic) NSDictionary *additionalHeaders; // @synthesize additionalHeaders=_additionalHeaders;
-@property(nonatomic) _Bool preferPassword; // @synthesize preferPassword=_preferPassword;
 @property(readonly, nonatomic) NSDictionary *requestDictionary; // @synthesize requestDictionary=_requestDictionary;
-@property(copy, nonatomic) NSString *serverInfo; // @synthesize serverInfo=_serverInfo;
 
 @end
 

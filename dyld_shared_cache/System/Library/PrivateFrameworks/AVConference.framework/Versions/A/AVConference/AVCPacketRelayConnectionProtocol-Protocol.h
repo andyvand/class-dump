@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCPacketFilter;
-
 @protocol AVCPacketRelayConnectionProtocol
+- (_Bool);
+- (void);
 
 // Remaining properties
-@property _Bool isDemuxNeeded;
-@property(retain) AVCPacketFilter *packetFilter;
-@property(copy) CDUnknownBlockType readHandler;
 @property(readonly) unsigned char type;
 @end
 

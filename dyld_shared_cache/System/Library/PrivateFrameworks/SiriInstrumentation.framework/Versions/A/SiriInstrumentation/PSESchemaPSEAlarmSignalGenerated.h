@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PSESchemaPSEAlarm, PSESchemaPSECommonSignal;
+@class PSESchemaPSECommonSignal;
 
 @interface PSESchemaPSEAlarmSignalGenerated : SISchemaInstrumentationMessage
 {
     PSESchemaPSECommonSignal *_commonSignal;
-    PSESchemaPSEAlarm *_alarmSignal;
-    _Bool _hasCommonSignal;
-    _Bool _hasAlarmSignal;
 }
 
 - (void);
@@ -29,21 +26,17 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)forceUpsell;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id)speakerIdModelDeviceSelected;
+- (id)_speakerIdModelDeviceSelected;
 - (id)ocal;
-- (void)N;
+- (void)FLOWSTATETYPE_HANDOFF_COMPANION;
 
 // Remaining properties
-@property(retain, nonatomic) PSESchemaPSEAlarm *alarmSignal; // @synthesize alarmSignal=_alarmSignal;
 @property(retain, nonatomic) PSESchemaPSECommonSignal *commonSignal; // @synthesize commonSignal=_commonSignal;
-@property(nonatomic) _Bool hasAlarmSignal; // @synthesize hasAlarmSignal=_hasAlarmSignal;
-@property(nonatomic) _Bool hasCommonSignal; // @synthesize hasCommonSignal=_hasCommonSignal;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

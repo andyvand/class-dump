@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAccount, ABAddressBook, ABBookCreateGroupCommand, ABBookGroupAddMembersCommand, ABGroupEntriesList, NSSet;
+@class ABAccount;
 
 @interface ABBookCreateGroupWithMembersCommand
 {
     ABAccount *_account;
-    ABAddressBook *_addressBook;
-    ABGroupEntriesList *_groupEntriesList;
-    ABBookCreateGroupCommand *_createCommand;
-    ABBookGroupAddMembersCommand *_addMembersCommand;
-    NSSet *_memberUids;
-    _Bool ignoresGuardianRestrictions;
 }
 
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)c;
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)h;
 - (void)0@ù
 × ;
 

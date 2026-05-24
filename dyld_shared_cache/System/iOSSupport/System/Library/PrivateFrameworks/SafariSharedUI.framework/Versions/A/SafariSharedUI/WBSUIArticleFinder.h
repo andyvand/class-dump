@@ -8,10 +8,10 @@
 {
 }
 
-+ (id)e: /* Error: Ran out of types for this method. */;
-- (void);
++ (id)didActualizeImpressionForURL:provenance: /* Error: Ran out of types for this method. */;
+- (void)T@�4;
 - (id);
-- (void)edWebpage:requestCount:iconInCache:requestDidSucceed:lastResponseStatusCode:transparencyAnalysisResult:higherPriorityIconDownloadFailedDueToNetworkError:UUIDString: /* Error: Ran out of types for this method. */;
+- (void)initWithHost:lastRequestDate:lastRequestWasInUserLoadedWebpage:requestCount:iconInCache:requestDidSucceed:lastResponseStatusCode:transparencyAnalysisResult:higherPriorityIconDownloadFailedDueToNetworkError:UUIDString: /* Error: Ran out of types for this method. */;
 
 @end
 

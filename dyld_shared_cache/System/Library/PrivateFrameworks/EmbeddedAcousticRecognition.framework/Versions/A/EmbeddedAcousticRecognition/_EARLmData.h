@@ -7,13 +7,11 @@
 @interface _EARLmData
 {
     _Bool _roundingEnabled;
-    long long _inputType;
-    shared_ptr_3024e64e _data;
 }
 
 + (void)Õ;
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -28,18 +26,16 @@
 - (_Bool);
 - (unsigned long long);
 - (long long);
+- (double)_localAssistedDiscoveryMetric;
+- (id);
+- (id)replyToCurrentUser;
 - (double);
 - (id);
-- (id);
-- (double);
-- (id);
-- (shared_ptr_3024e64e);
+- (shared_ptr_46b1bbf0)_;
 - (void)¨0;
 
 // Remaining properties
-@property(readonly, nonatomic) shared_ptr_3024e64e data; // @synthesize data=_data;
-@property(readonly, nonatomic) long long inputType; // @synthesize inputType=_inputType;
-@property(nonatomic) _Bool roundingEnabled; // @synthesize roundingEnabled=_roundingEnabled;
+@property(readonly, nonatomic) shared_ptr_46b1bbf0 data; // @synthesize data=_data;
 
 @end
 

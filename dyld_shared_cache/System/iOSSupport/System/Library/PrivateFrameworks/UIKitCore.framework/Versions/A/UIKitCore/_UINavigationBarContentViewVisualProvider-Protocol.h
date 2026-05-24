@@ -7,6 +7,6 @@
 @protocol _UINavigationBarContentViewVisualProvider
 - (struct CGPoint);
 - (unsigned long long)";
-- (double)ackEnginePrewarmDurationWithSuffix: /* Error: Ran out of types for this method. */;
+- (double)feedbackEnginePrewarmDurationWithSuffix: /* Error: Ran out of types for this method. */;
 @end
 

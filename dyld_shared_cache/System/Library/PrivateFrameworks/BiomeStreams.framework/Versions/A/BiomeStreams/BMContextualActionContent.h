@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface BMContextualActionContent
 {
     NSString *_contentType;
-    NSDictionary *_contentMetadata;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
-- (id)riExecutionTaskStepTypeSaved;
+- (id)SiriExecutionTaskStepTypeSaved;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *contentMetadata; // @synthesize contentMetadata=_contentMetadata;
 @property(readonly, nonatomic) NSString *contentType; // @synthesize contentType=_contentType;
 
 @end

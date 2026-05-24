@@ -6,32 +6,25 @@
 
 #import <GeoServices/GEOXPCRequest.h>
 
-@class GEOActiveResourceFilter, NSString;
+@class GEOActiveResourceFilter;
 
 @interface GEOResourceManifestActivateFilterRequest : GEOXPCRequest
 {
     GEOActiveResourceFilter *_filter;
 }
 
-+ (Class);
++ (Class)equestMultiPartInputStream";
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (void):(id)arg1;
-- (id)RE;
+- (_Bool)ne_url_filter_check_block_invoke;
+- (void)setDriveStep:(id)arg1;
+- (id)MODULE_TYPE_TRANSIT_DEPARTURE;
 - (void)EE3$_0;
 - (void)Ò°¨)P@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) GEOActiveResourceFilter *filter; // @synthesize filter=_filter;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

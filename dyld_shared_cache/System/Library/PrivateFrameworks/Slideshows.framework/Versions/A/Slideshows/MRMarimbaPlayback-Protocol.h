@@ -4,7 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MPSlide, MPText, NSArray, NSSet;
+
 @protocol MRMarimbaPlayback
+- (void);
+- (void)re;
+- (double)orks/TelephonyUtilities.framework/Versions/A/TelephonyUtilities;
+- (void)registerEnvelopeCreationAnticipatedForContentType:(MPText *)arg1;
+- (void)registerEnvelopeContentTypesAsUploaded:(MPSlide *)arg1;
+- (void)registerEnvelopeContentTypesAsPreparedForUpload:(_Bool)arg1;
+- (void)propertyWithName:range: /* Error: Ran out of types for this method. */;
+- (NSSet *),?,R,C,N;
+- (NSArray *)FCOperationThrottlerDelegate;
+- (MPSlide *)NAUAnalyticsEnvelopeTracker;
 - (_Bool)index;
 
 // Remaining properties

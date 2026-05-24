@@ -4,56 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDApplicationData, HMDBulletinBoardNotification, HMDHAPAccessory, HMFMessageDispatcher, NSArray, NSDictionary, NSMutableDictionary, NSNumber, NSObject, NSString, NSUUID;
-@protocol HMDServiceOwner, OS_dispatch_queue;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDService
 {
     struct os_unfair_recursive_lock_s _lock;
-    _Bool _powerManagementSupportedSleepCharRead;
-    _Bool _hidden;
-    _Bool _primary;
-    HMDApplicationData *_appData;
-    NSUUID *_uuid;
-    NSNumber *_instanceID;
-    NSNumber *_labelIndex;
-    NSNumber *_labelNamespace;
-    NSString *_serviceSubtype;
-    NSNumber *_configurationState;
-    NSArray *_characteristics;
-    NSString *_configuredName;
-    NSString *_expectedConfiguredName;
-    NSString *_lastSeenConfiguredName;
-    NSString *_providedName;
-    HMDHAPAccessory *_accessory;
-    NSString *_name;
-    NSString *_defaultName;
-    NSNumber *_matterEndpointID;
-    NSString *_associatedServiceType;
-    NSArray *_linkedServices;
-    NSString *_serviceType;
-    HMDBulletinBoardNotification *_bulletinBoardNotification;
-    NSNumber *_mediaSourceIdentifier;
-    NSArray *_mediaSourceDisplayOrder;
-    unsigned long long _serviceProperties;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMFMessageDispatcher *_messageDispatcher;
-    NSUUID *_cachedAccessoryUUID;
-    id <HMDServiceOwner> _owner;
-    NSNumber *_lastKnownDiscoveryMode;
-    NSMutableDictionary *_deviceLastRequestPresenceDateMap;
-    NSString *_logID;
-    NSNumber *_lastKnownOperatingState;
-    NSNumber *_lastKnownOperatingStateAbnormalReasons;
 }
 
-+ (_Bool);
-+ (_Bool);
-+ (id);
-+ (_Bool);
++ (_Bool)contentsTimestamp;
 + (_Bool);
 + (id);
++ (_Bool);
++ (_Bool);
++ (id)enumerateLocalizedSubcategoryNodesUsingBlock:(id)arg1;
 + (_Bool)Ú;
 + (id)^Jÿ ÀNB;
 - (void);
@@ -72,32 +36,32 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)b/libsqlite3.dylib;
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
+- (id)hs";
+- (id)48;
+- (id)edTripCapabilityFetchingQueue"16@"NSDictionary"24;
+- (id)RouteInformationSource>";
+- (_Bool)nection"24;
+- (_Bool)supportsWaypointRouteSharing;
+- (id)mutableCopy;
+- (id)list updates;
+- (id)ty;
+- (id)ledSearches.mapsdata;
+- (id)psdata;
+- (id)contactHandle;
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)^8;
 - (void);
 - (id);
 - (id);
@@ -109,57 +73,57 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)X;
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void)};
+- (id);
+- (void);
 - (id);
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
 - (_Bool);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void)C;
+- (void);
+- (void);
+- (id);
+- (id)/4~CNrdugCizy9_6YFCo7bFC3vDIeoaS1mU7llX-F0/Library/Caches/com.apple.xbs/TemporaryDirectory.nEUAsL/Sources/ScreenSharing/RFBViewerLib/DecodeRaw.c;
+- (void)KDCUnsupportedDomainMigration;
+- (void);
+- (id);
+- (_Bool)h;
 - (id);
 - (id);
 - (id);
@@ -178,13 +142,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)y;
 - (id)!Dùqð1Â0@ù
 × ;
 - (id);
 - (void)1Â0@ù
 × ;
-- (id)emoteScreenAttributesDidChange:(long long)arg1;
+- (id)remoteVideoClient:(long long)arg1 remoteScreenAttributesDidChange: /* Error: Ran out of types for this method. */;
 - (void)N,V_currentAutomaticApplyRetriesCount;
 - (void)ðÝ9x¤X;
 - (id)lic}@unsubscribing to home:%@, (owner) accessory:%@ topics:%@ /* Error: Ran out of types for this method. */;
@@ -195,7 +159,7 @@ __attribute__((visibility("hidden")))
 - (id)%{public}@Updating DestinationControllerData:(id)arg1 %@;
 - (void)accessoryCommunicationProtocol;
 - (id)-0026BB765291;
-- (id)tLAN;
+- (id)networkClientLAN;
 - (void)@"MTRServiceAreaClusterAreaStruct"8;
 - (void);
 - (void);
@@ -203,61 +167,7 @@ __attribute__((visibility("hidden")))
 - (id)êÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak HMDHAPAccessory *accessory; // @synthesize accessory=_accessory;
-@property(retain, nonatomic) HMDApplicationData *appData; // @synthesize appData=_appData;
-@property(readonly, copy) NSDictionary *assistantObject;
-@property(readonly, nonatomic) NSString *associatedServiceType; // @synthesize associatedServiceType=_associatedServiceType;
-@property(retain, nonatomic) HMDBulletinBoardNotification *bulletinBoardNotification; // @synthesize bulletinBoardNotification=_bulletinBoardNotification;
-@property(retain, nonatomic) NSUUID *cachedAccessoryUUID; // @synthesize cachedAccessoryUUID=_cachedAccessoryUUID;
-@property(copy, nonatomic) NSArray *characteristics; // @synthesize characteristics=_characteristics;
-@property(retain, nonatomic) NSNumber *configurationState; // @synthesize configurationState=_configurationState;
-@property(copy, nonatomic) NSString *configuredName; // @synthesize configuredName=_configuredName;
 @property(readonly, copy, nonatomic) NSString *contextID;
-@property(readonly, copy, nonatomic) NSUUID *contextSPIUniqueIdentifier;
-@property(readonly, getter=isCustom) _Bool custom;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy, nonatomic) NSString *defaultName; // @synthesize defaultName=_defaultName;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableDictionary *deviceLastRequestPresenceDateMap; // @synthesize deviceLastRequestPresenceDateMap=_deviceLastRequestPresenceDateMap;
-@property(copy, nonatomic) NSString *expectedConfiguredName; // @synthesize expectedConfiguredName=_expectedConfiguredName;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isHidden) _Bool hidden; // @synthesize hidden=_hidden;
-@property(copy, nonatomic) NSNumber *instanceID; // @synthesize instanceID=_instanceID;
-@property(retain, nonatomic) NSNumber *labelIndex; // @synthesize labelIndex=_labelIndex;
-@property(retain, nonatomic) NSNumber *labelNamespace; // @synthesize labelNamespace=_labelNamespace;
-@property(retain, nonatomic) NSNumber *lastKnownDiscoveryMode; // @synthesize lastKnownDiscoveryMode=_lastKnownDiscoveryMode;
-@property(retain, nonatomic) NSNumber *lastKnownOperatingState; // @synthesize lastKnownOperatingState=_lastKnownOperatingState;
-@property(retain, nonatomic) NSNumber *lastKnownOperatingStateAbnormalReasons; // @synthesize lastKnownOperatingStateAbnormalReasons=_lastKnownOperatingStateAbnormalReasons;
-@property(copy, nonatomic) NSString *lastSeenConfiguredName; // @synthesize lastSeenConfiguredName=_lastSeenConfiguredName;
-@property(copy, nonatomic) NSArray *linkedServices; // @synthesize linkedServices=_linkedServices;
-@property(readonly, nonatomic) NSString *logID; // @synthesize logID=_logID;
-@property(copy, nonatomic) NSNumber *matterEndpointID; // @synthesize matterEndpointID=_matterEndpointID;
-@property(retain, nonatomic) NSArray *mediaSourceDisplayOrder; // @synthesize mediaSourceDisplayOrder=_mediaSourceDisplayOrder;
-@property(retain, nonatomic) NSNumber *mediaSourceIdentifier; // @synthesize mediaSourceIdentifier=_mediaSourceIdentifier;
-@property(readonly, nonatomic) HMFMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) __weak id <HMDServiceOwner> owner; // @synthesize owner=_owner;
-@property(nonatomic) _Bool powerManagementSupportedSleepCharRead; // @synthesize powerManagementSupportedSleepCharRead=_powerManagementSupportedSleepCharRead;
-@property(nonatomic, getter=isPrimary) _Bool primary; // @synthesize primary=_primary;
-@property(retain, nonatomic) NSString *providedName; // @synthesize providedName=_providedName;
-@property(readonly, copy, nonatomic) NSString *serviceIdentifier;
-@property(nonatomic) unsigned long long serviceProperties; // @synthesize serviceProperties=_serviceProperties;
-@property(retain, nonatomic) NSString *serviceSubtype; // @synthesize serviceSubtype=_serviceSubtype;
-@property(retain, nonatomic) NSString *serviceType; // @synthesize serviceType=_serviceType;
-@property(readonly, copy, nonatomic) NSUUID *spiClientIdentifier;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *type;
-@property(readonly, copy) NSString *urlString;
-@property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

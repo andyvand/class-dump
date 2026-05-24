@@ -9,16 +9,14 @@
 @interface AppStoreKit.OnDevicePersonalizationDataContainer
 {
     void personalizationData;
-    void metricsData;
 }
 
 - (id);
-- (id);
-- (id);
+- (id)A;
+- (id)U;
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSDictionary *metricsData;
 @property(nonatomic, readonly) NSDictionary *personalizationData;
 
 @end

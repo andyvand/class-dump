@@ -6,14 +6,14 @@
 
 #import <MusicLibrary/ML3Predicate.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface ML3CompoundPredicate : ML3Predicate
 {
     NSArray *_predicates;
 }
 
-+ (id);
++ (id)}@Message %@ missing uuid;
 + (_Bool);
 - (id);
 - (id);
@@ -25,14 +25,13 @@
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)writeTransactionTTLTimer;
 - (id);
-- (void)singConnection:(id)arg1;
+- (void)deleteFromLibrary:(id)arg1 deletionType:(Class)arg2 persistentIDs:count:usingConnection: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)0, store_kind INTEGER NOT NULL DEFAULT 0, account_id INTEGER NOT NULL DEFAULT 0, key_versions INTEGER NOT NULL DEFAULT 0, key_platform_id INTEGER NOT NULL DEFAULT 0, key_id INTEGER NOT NULL DEFAULT 0, key_id_2 INTEGER NOT NULL DEFAULT 0, date_purchased INTEGER NOT NULL DEFAULT 0, date_released INTEGER NOT NULL DEFAULT 0, external_guid TEXT, feed_url TEXT, artwork_url TEXT, store_xid TEXT, store_flavor TEXT, store_matched_status INTEGER NOT NULL DEFAULT 0, store_redownloaded_status INTEGER NOT NULL DEFAULT 0);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *compoundOperatorJoiner; // @dynamic compoundOperatorJoiner;
 @property(retain, nonatomic) NSArray *predicates; // @synthesize predicates=_predicates;
 
 @end

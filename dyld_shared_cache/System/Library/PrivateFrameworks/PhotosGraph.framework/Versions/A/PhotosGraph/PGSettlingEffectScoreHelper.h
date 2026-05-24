@@ -8,7 +8,7 @@
 {
 }
 
-+ (float);
++ (float)AXKResourceManager;
 + (float);
 
 @end

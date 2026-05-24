@@ -7,23 +7,6 @@
 @interface VCCapabilities
 {
     _Bool isAudioEnabled;
-    _Bool isAudioPausedToStart;
-    _Bool isVideoEnabled;
-    _Bool isVideoPausedToStart;
-    _Bool isVideoSourceScreen;
-    _Bool isDuplexAudioOnly;
-    _Bool isDuplexVideoOnly;
-    _Bool isHalfDuplexAudio;
-    _Bool isKeyExchangeEnabled;
-    _Bool isRelayEnabled;
-    _Bool isRelayForced;
-    _Bool requiresWifi;
-    _Bool isDTLSEnabled;
-    unsigned int preferredAudioCodec;
-    unsigned int actualAudioCodec;
-    unsigned int preferredVideoCodec;
-    unsigned int actualVideoCodec;
-    int deviceRole;
 }
 
 + (id);
@@ -31,9 +14,9 @@
 + (id);
 + (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)+;
 - (void);
 - (void);
 - (void);
@@ -48,14 +31,14 @@
 - (void);
 - (_Bool);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)km;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -65,34 +48,17 @@
 - (unsigned int);
 - (unsigned int);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id)cTask_block_invoke;
+- (id)_VCMediaQueue_ReportingRegisterPeriodicTask_block_invoke;
 
 // Remaining properties
-@property unsigned int actualAudioCodec; // @synthesize actualAudioCodec;
-@property unsigned int actualVideoCodec; // @synthesize actualVideoCodec;
-@property int deviceRole; // @synthesize deviceRole;
 @property _Bool isAudioEnabled; // @synthesize isAudioEnabled;
-@property _Bool isAudioPausedToStart; // @synthesize isAudioPausedToStart;
-@property _Bool isDTLSEnabled; // @synthesize isDTLSEnabled;
-@property _Bool isDuplexAudioOnly; // @synthesize isDuplexAudioOnly;
-@property _Bool isDuplexVideoOnly; // @synthesize isDuplexVideoOnly;
-@property _Bool isHalfDuplexAudio; // @synthesize isHalfDuplexAudio;
-@property _Bool isKeyExchangeEnabled; // @synthesize isKeyExchangeEnabled;
-@property _Bool isRelayEnabled; // @synthesize isRelayEnabled;
-@property _Bool isRelayForced; // @synthesize isRelayForced;
-@property _Bool isVideoEnabled; // @synthesize isVideoEnabled;
-@property _Bool isVideoPausedToStart; // @synthesize isVideoPausedToStart;
-@property _Bool isVideoSourceScreen; // @synthesize isVideoSourceScreen;
-@property unsigned int preferredAudioCodec; // @synthesize preferredAudioCodec;
-@property unsigned int preferredVideoCodec; // @synthesize preferredVideoCodec;
-@property _Bool requiresWifi; // @synthesize requiresWifi;
 
 @end
 

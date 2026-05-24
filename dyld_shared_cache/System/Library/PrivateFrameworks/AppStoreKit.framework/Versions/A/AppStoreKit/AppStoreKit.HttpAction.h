@@ -9,16 +9,6 @@
 @interface AppStoreKit.HttpAction : AppStoreKit.Action
 {
     id url;
-    id method;
-    id headers;
-    id body;
-    id isStoreRequest;
-    id needsAuthentication;
-    id needsMediaToken;
-    id retryCount;
-    id disableCache;
-    id successAction;
-    id failureAction;
 }
 
 @end

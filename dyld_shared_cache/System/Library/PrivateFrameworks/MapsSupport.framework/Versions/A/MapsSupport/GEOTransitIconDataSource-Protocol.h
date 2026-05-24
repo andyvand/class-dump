@@ -4,31 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOStyleAttributes;
-
 @protocol GEOTransitIconDataSource
+- (int)brary backfillDateLastViewedAttribute];
+
+@optional
+- (unsigned int)ages.message_id IN (%@));
+- (unsigned int)ash FROM messages WHERE (messages.message_id IN (%@));
+- (unsigned int)l.emlx') && (%@ == 0);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int cartoID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TI,?,R,N
-
-@property(readonly, nonatomic) unsigned int defaultTransitType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TI,?,R,N
-
-@property(readonly, nonatomic) unsigned int iconAttributeKey;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TI,?,R,N
-
-@property(readonly, nonatomic) unsigned int iconAttributeValue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TI,?,R,N
-
 @property(readonly, nonatomic) int iconType;
-@property(readonly, nonatomic) GEOStyleAttributes *styleAttributes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"GEOStyleAttributes",?,R,N
-
 @end
 

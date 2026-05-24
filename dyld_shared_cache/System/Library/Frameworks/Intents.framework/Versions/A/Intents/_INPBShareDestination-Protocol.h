@@ -7,12 +7,11 @@
 @class _INPBContact;
 
 @protocol _INPBShareDestination
+- (_Bool)';
+- (void)__cachedWiFiUIStateFlags:(_Bool)arg1 forInterfaceName: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) _INPBContact *contact;
-@property(nonatomic) int deviceType;
-@property(readonly, nonatomic) _Bool hasContact;
-@property(nonatomic) _Bool hasDeviceType;
 @end
 

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface FilteredCollectionHelper
 {
     NSArray *_fullCollection;
-    NSArray *_filteredCollection;
-    NSSet *_filteredSet;
 }
 
 - (void);
@@ -24,7 +22,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *filteredCollection; // @synthesize filteredCollection=_filteredCollection;
 @property(copy, nonatomic) NSArray *fullCollection; // @synthesize fullCollection=_fullCollection;
 
 @end

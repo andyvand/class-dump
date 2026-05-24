@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-- (_Bool);
+- (_Bool)UConversationManager"16@"TUConversation"24@"TUConversationActivityEvent"32;
 - (id);
 - (_Bool);
 - (id)$C²Ê&C²[8C²:(Class)arg1 C²Ó$C²t&C²@8C²Ú:C²$C²&C²8C² :C²ùDC²¸FC²uXC²%ZC²DC²FC²yXC²}ZC²ODC²FC²WXC²ZC²´DC²«FC²öXC²fZC²($C²&C²8C²ì:C²$C²4&C²Q8C²5:C²$C²¾&C²ú8C²°:C² $C²X&C²o8C²:C²BÄL²òÆL²õØL²+ÚL²áÄL²ÒÆL²üØL²LÚL²ÇÄL²hÆL²UØL²IÚL²ýÄL²ÆL²aØL²¬ÚL²À¤L²Ý¦L²&¸L²½ºL²¤L²¹¦L²6¸L²wºL²Ë¤L²N¦L²¸L²bºL²r¤L²;¦L²R¸L²gºL²CÄL²ÐÆL²ÖØL²mÚL²ÄL²ôÆL²ØL²ÚL²ÄL²ÆL²#ØL²>ÚL²ÄL²¯ÆL²MØL²¼ÚL²¤L²p¦L²÷¸L²YºL²¤L²Þ¦L²§¸L²ÔºL²ª¤L²\¦L²^¸L²ñºL²¤L²G¦L²Ñ¸L²ºL²kDC²FC²JXC²ÆZC²ÅDC²-FC²XC²îZC²DC²sFC²eXC²jZC²DC²ÏFC²<XC²'ZC²ï$C²P&C²8C²7:C²·$C²Á&C²|8C²:C²$C²³&C²â8C²9:C²ð$C².&C²8C²K:C²ÙDC²ßFC²ÈXC²nZC²	DC²FC²0XC²/ZC²DC²¶FC²XC²FZC²DC²FC²XC²þZC²×$C²è&C²8C²:C²

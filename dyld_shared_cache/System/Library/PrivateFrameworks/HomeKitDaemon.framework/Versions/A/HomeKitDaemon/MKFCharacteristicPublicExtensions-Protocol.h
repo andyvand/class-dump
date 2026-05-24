@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCharacteristicMetadata, NSDictionary;
+@class HMDCharacteristicMetadata;
 
 @protocol MKFCharacteristicPublicExtensions
+- (HMDCharacteristicMetadata *);
 
 // Remaining properties
-@property(readonly, copy) NSDictionary *pr_dictionaryRepresentation;
 @property(readonly, copy) HMDCharacteristicMetadata *pr_hapMetadata;
 @end
 

@@ -7,10 +7,6 @@
 @interface RemindersUICore.TTRReminderLocationOptionsProvider
 {
     id delegate;
-    id geoService;
-    id meCardProvider;
-    id locationOptionsSubject;
-    id subjectUpdateCancellable;
 }
 
 @end

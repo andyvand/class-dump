@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CHSExtensionIdentity
 {
     id extensionBundleIdentifier;
-    id containerBundleIdentifier;
-    id deviceIdentifier;
 }
 
 + (_Bool);
-+ (_Bool);
++ (_Bool)setButtonsBaselineConstraint: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -35,18 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *containerBundleIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *deviceIdentifier;
-@property(nonatomic, readonly) NSString *extensionBundleIdentifier;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, readonly) _Bool isRemote;
-@property(readonly) Class superclass;
-@property(nonatomic, readonly) NSString *tokenString;
+@property(readonly) unsigned long long hash;
 
 @end
 

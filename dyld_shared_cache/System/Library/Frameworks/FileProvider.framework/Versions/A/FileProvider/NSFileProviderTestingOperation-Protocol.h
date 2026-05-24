@@ -4,7 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol NSFileProviderTestingCollisionResolution, NSFileProviderTestingContentFetch, NSFileProviderTestingCreation;
+
 @protocol NSFileProviderTestingOperation
+- (id <NSFileProviderTestingCreation>)M;
+- (id <NSFileProviderTestingContentFetch>);
+- (id <NSFileProviderTestingCollisionResolution>)aM;
 
 // Remaining properties
 @property(readonly, nonatomic) long long type;

@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface ICEvernoteResource
 {
     _Bool _isAttachment;
-    NSString *_mime;
-    NSString *_fileName;
-    NSData *_data;
-    NSString *_md5Hash;
-    double _imageWidth;
-    double _imageHeight;
-    double _duration;
 }
 
 + (_Bool);
@@ -25,7 +16,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (double);
 - (double);
@@ -34,20 +25,13 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)CarrierVal;
+- (void)t Object trusted, invalid trusted tag length;
 - (id);
 - (void)p;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *data; // @synthesize data=_data;
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(copy, nonatomic) NSString *fileName; // @synthesize fileName=_fileName;
-@property(nonatomic) double imageHeight; // @synthesize imageHeight=_imageHeight;
-@property(nonatomic) double imageWidth; // @synthesize imageWidth=_imageWidth;
 @property(nonatomic) _Bool isAttachment; // @synthesize isAttachment=_isAttachment;
-@property(copy, nonatomic) NSString *md5Hash; // @synthesize md5Hash=_md5Hash;
-@property(copy, nonatomic) NSString *mime; // @synthesize mime=_mime;
 
 @end
 

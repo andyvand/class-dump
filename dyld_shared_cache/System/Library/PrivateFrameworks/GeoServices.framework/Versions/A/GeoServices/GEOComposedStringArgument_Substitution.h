@@ -6,13 +6,9 @@
 
 #import <GeoServices/GEOComposedStringArgument.h>
 
-@class GEOComposedStringSubstitutionCandidate, NSMapTable;
-
 @interface GEOComposedStringArgument_Substitution : GEOComposedStringArgument
 {
     unsigned long long _waypointIndex;
-    NSMapTable *_substitutionCandidates;
-    GEOComposedStringSubstitutionCandidate *_substituteToUse;
 }
 
 + (_Bool)source at "%@" - %@;
@@ -21,11 +17,11 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
-- (id)onName:(struct _NSZone *)arg1;
+- (id)setDirectionName:(struct _NSZone *)arg1;
 - (void);
 
 // Remaining properties

@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSGFTMetricsRequest, NSString;
-
 @interface IDSGlobalLinkRequestMetadata
 {
     BOOL _linkID;
-    unsigned int _localRAT;
-    double _startTime;
-    NSString *_token;
-    NSString *_path;
-    IDSGFTMetricsRequest *_metricsRequest;
 }
 
 - (id);
@@ -26,12 +19,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) BOOL linkID; // @synthesize linkID=_linkID;
-@property(readonly) unsigned int localRAT; // @synthesize localRAT=_localRAT;
-@property(readonly) IDSGFTMetricsRequest *metricsRequest; // @synthesize metricsRequest=_metricsRequest;
-@property(readonly) NSString *path; // @synthesize path=_path;
 @property(readonly) double startTime; // @synthesize startTime=_startTime;
-@property(readonly) NSString *token; // @synthesize token=_token;
 
 @end
 

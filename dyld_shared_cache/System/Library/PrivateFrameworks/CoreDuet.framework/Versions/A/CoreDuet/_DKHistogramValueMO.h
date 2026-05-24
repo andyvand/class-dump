@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, _DKHistogramMO;
+@class NSNumber;
 
 @interface _DKHistogramValueMO
 {
@@ -13,10 +13,7 @@
 + (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *count; // @dynamic count;
-@property(retain, nonatomic) _DKHistogramMO *histogram; // @dynamic histogram;
 @property(copy, nonatomic) NSNumber *integerValue; // @dynamic integerValue;
-@property(copy, nonatomic) NSString *stringValue; // @dynamic stringValue;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface SAAnswerDefinitionGroup : AceObject
 {
@@ -18,25 +18,15 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
-- (id);
+- (id)v;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(copy, nonatomic) NSArray *definitionEntries;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *origin;
-@property(copy, nonatomic) NSString *partOfSpeech;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *synonyms;
 
 @end
 

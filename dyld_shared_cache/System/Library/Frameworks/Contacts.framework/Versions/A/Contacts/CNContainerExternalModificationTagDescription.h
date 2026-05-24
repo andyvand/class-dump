@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (id);
-- (_Bool);
+- (id)attributesOfFileSystemForPath:error: /* Error: Ran out of types for this method. */;
+- (_Bool):] /* Error: Ran out of types for this method. */;
 - (Class)ù1*ð1Â0@ù
 × ;
 

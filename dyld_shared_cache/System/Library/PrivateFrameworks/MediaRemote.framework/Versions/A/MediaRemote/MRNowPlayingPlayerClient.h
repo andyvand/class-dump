@@ -4,40 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRContentItem, MRNowPlayingArtwork, MRNowPlayingPlayerClientCallbacks, MRPlaybackQueue, MRPlaybackQueueSubscriptionController, MRPlayerPath, NSArray, NSDate, NSDictionary, NSMutableArray, NSMutableDictionary, NSMutableSet, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface MRNowPlayingPlayerClient
 {
     NSObject<OS_dispatch_queue> *_serialQueue;
-    NSObject<OS_dispatch_queue> *_replayQueue;
-    _Bool _canBeNowPlayingPlayer;
-    double _canBeNowPlayingPlayerTimestamp;
-    MRPlaybackQueue *_playbackQueue;
-    NSArray *_supportedCommands;
-    NSDictionary *_nowPlayingInfo;
-    NSString *_nowPlayingArtworkID;
-    MRNowPlayingArtwork *_nowPlayingArtwork;
-    NSMutableDictionary *_nowPlayingAnimatedArtwork;
-    unsigned int _playbackState;
-    NSDate *_playbackStateDate;
-    unsigned long long _capabilities;
-    NSDate *_lastReceivedCommandDate;
-    NSDate *_activeRequestedDate;
-    _Bool _pictureInPictureEnabled;
-    _Bool _invalidatingPlaybackQueue;
-    double _invalidatationTimestamp;
-    NSMutableDictionary *_pendingPlaybackSessionMigrateEvents;
-    NSMutableDictionary *_cachedContentItemChangedForPendingPlaybackQueueRequest;
-    NSMutableArray *_enqueuedContentItemChangesForPendingPlaybackQueueInvalidation;
-    NSMutableSet *_homeUserIdentifiers;
-    MRPlayerPath *_playerPath;
-    MRPlaybackQueueSubscriptionController *_subscriptionController;
-    MRNowPlayingPlayerClientCallbacks *_clientCallbacks;
 }
 
 - (void);
-- (unsigned int);
+- (unsigned int)6;
 - (void);
 - (id);
 - (_Bool);
@@ -57,24 +33,24 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool),N,V_xContentOffset;
 - (void);
 - (id);
-- (void);
+- (void)IMPhoneNumbersEnabledForMultipleSubscriptionDevice;
 - (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (_Bool);
+- (id);
+- (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (unsigned long long)erred Languages = %@, -> Best Supported Languages = %@;
 - (void);
 - (void);
 - (unsigned int);
@@ -85,32 +61,15 @@
 - (id);
 - (id);
 - (id)meMessageProtobuf";
-- (id)rtedPlaybackSessionIdentifiersAtIndex: /* Error: Ran out of types for this method. */;
-- (id)etActionImageName: /* Error: Ran out of types for this method. */;
+- (id)supportedPlaybackSessionIdentifiersAtIndex: /* Error: Ran out of types for this method. */;
+- (id)setActionImageName: /* Error: Ran out of types for this method. */;
 - (void)"NSString",R,N,V_label;
 - (void)@"MRNowPlayingPlayerResponse",R,N;
 - (void)id MRNowPlayingPlayerPathSetClient(MRNowPlayingPlayerPathRef, MRNowPlayingClientRef);
-- (void)kRateCommand;
+- (void)ChangePlaybackRateCommand;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *activeRequestedDate;
-@property(nonatomic) _Bool canBeNowPlayingPlayer; // @synthesize canBeNowPlayingPlayer=_canBeNowPlayingPlayer;
-@property(nonatomic) unsigned long long capabilities;
-@property(readonly, nonatomic) MRNowPlayingPlayerClientCallbacks *clientCallbacks; // @synthesize clientCallbacks=_clientCallbacks;
-@property(readonly, nonatomic) _Bool hasReceivedCommandRecently;
-@property(nonatomic) double invalidatationTimestamp;
 @property(nonatomic) _Bool invalidatingPlaybackQueue;
-@property(readonly, nonatomic) NSArray *nowPlayingAnimatedArtworkFormats;
-@property(retain, nonatomic) MRNowPlayingArtwork *nowPlayingArtwork;
-@property(retain, nonatomic) NSString *nowPlayingArtworkID;
-@property(readonly, nonatomic) MRContentItem *nowPlayingContentItem;
-@property(copy, nonatomic) NSDictionary *nowPlayingInfo;
-@property(nonatomic, getter=isPictureInPictureEnabled) _Bool pictureInPictureEnabled;
-@property(retain, nonatomic) MRPlaybackQueue *playbackQueue;
-@property(readonly, nonatomic) unsigned int playbackState;
-@property(retain, nonatomic) MRPlayerPath *playerPath; // @synthesize playerPath=_playerPath;
-@property(readonly, nonatomic) MRPlaybackQueueSubscriptionController *subscriptionController; // @synthesize subscriptionController=_subscriptionController;
-@property(readonly, nonatomic) NSArray *supportedCommands;
 
 @end
 

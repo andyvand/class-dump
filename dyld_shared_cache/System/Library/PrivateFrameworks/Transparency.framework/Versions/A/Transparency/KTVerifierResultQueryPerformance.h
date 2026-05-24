@@ -11,8 +11,8 @@
 
 + (_Bool);
 - (void);
-- (double);
-- (id);
+- (double);
+- (id)sibilityDescriptionMetadataBehavior;
 - (void);
 
 // Remaining properties

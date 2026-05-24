@@ -9,12 +9,6 @@
 @interface SiriUIButton
 {
     NSColor *_titleColor;
-    NSColor *_highligtTitleColor;
-    double highlightAlpha;
-    _Bool _highlightsOnHover;
-    _Bool _isHovered;
-    NSColor *_defaultBackgroundColor;
-    NSColor *_hoverBackgroundColor;
 }
 
 + (id);
@@ -32,7 +26,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)hment;
 - (id);
 - (_Bool);
 - (id);
@@ -47,11 +41,6 @@
 
 // Remaining properties
 @property(retain) NSColor *defaultBackgroundColor; // @synthesize defaultBackgroundColor=_defaultBackgroundColor;
-@property(nonatomic) _Bool highlightsOnHover; // @synthesize highlightsOnHover=_highlightsOnHover;
-@property(retain) NSColor *hoverBackgroundColor; // @synthesize hoverBackgroundColor=_hoverBackgroundColor;
-@property struct NSEdgeInsets imageEdgeInsets;
-@property(nonatomic, setter=setIsHovered:) _Bool isHovered; // @synthesize isHovered=_isHovered;
-@property struct NSEdgeInsets titleEdgeInsets;
 
 @end
 

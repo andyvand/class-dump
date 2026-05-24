@@ -7,9 +7,6 @@
 @interface AppStoreKit.JSGarbageCollector
 {
     id targetType;
-    id stack;
-    id shrinkTimeGuard;
-    id lastShrinkTime;
 }
 
 @end

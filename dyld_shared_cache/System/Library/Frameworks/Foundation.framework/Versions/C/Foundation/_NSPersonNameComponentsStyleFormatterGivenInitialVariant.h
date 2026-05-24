@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (long long);
-- (id);
+- (long long);
+- (id)TS;
 - (id)$Ù°Ù;
 
 @end

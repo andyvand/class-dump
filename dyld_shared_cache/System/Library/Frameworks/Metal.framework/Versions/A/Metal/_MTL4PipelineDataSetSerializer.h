@@ -6,35 +6,25 @@
 
 #import <Metal/_MTLObjectWithLabel.h>
 
-@class NSString;
-@protocol MTLBinaryArchive, MTLDevice;
+@protocol MTLBinaryArchive;
 
 @interface _MTL4PipelineDataSetSerializer : _MTLObjectWithLabel
 {
     id <MTLBinaryArchive> _destinationBinaryArchive;
-    id <MTLDevice> _device;
-    struct unique_ptr<MTL4MetalScriptBuilder, std::default_delete<MTL4MetalScriptBuilder>> _mtl4ScriptBuilder;
-    unsigned long long _configuration;
 }
 
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)(;
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)MTLFunctionHandleSPI;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

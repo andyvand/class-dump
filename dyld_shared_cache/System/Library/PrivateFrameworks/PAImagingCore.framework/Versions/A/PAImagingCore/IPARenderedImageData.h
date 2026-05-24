@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface IPARenderedImageData
 {
     unsigned long long _histogramA[256];
-    unsigned long long _histogramR[256];
-    unsigned long long _histogramG[256];
-    unsigned long long _histogramB[256];
-    unsigned long long *_histograms[4];
-    _Bool _histogramCalculated;
-    long long _width;
-    long long _height;
-    long long _rowBytes;
-    NSData *_rasterData;
 }
 
 - (void);
@@ -28,21 +17,17 @@
 - (unsigned long long *);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (long long);
 - (void);
 - (long long);
 - (long long);
 - (long long);
-- (void);
-- (void);
+- (void)";
+- (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long height; // @synthesize height=_height;
-@property(nonatomic) _Bool histogramCalculated; // @synthesize histogramCalculated=_histogramCalculated;
-@property(retain, nonatomic) NSData *rasterData; // @synthesize rasterData=_rasterData;
-@property(nonatomic) long long rowBytes; // @synthesize rowBytes=_rowBytes;
 @property(nonatomic) long long width; // @synthesize width=_width;
 
 @end

@@ -9,8 +9,6 @@
 @interface BPSWindowState
 {
     _Bool _completed;
-    NSString *_identifier;
-    id _aggregate;
 }
 
 + (_Bool);
@@ -20,17 +18,15 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)nContext;
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)eryPending;
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id aggregate; // @synthesize aggregate=_aggregate;
-@property(nonatomic) _Bool completed; // @synthesize completed=_completed;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end

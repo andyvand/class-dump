@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, NSXPCConnection, _CDInteractionStore, _PSContactResolver;
+@class _CDInteractionStore, _PSContactResolver;
 
 @interface _PSContactSuggester
 {
     _PSContactResolver *contactResolver;
-    NSXPCConnection *_connection;
-    struct os_unfair_lock_s _lock;
-    _CDInteractionStore *_interactionStore;
-    CNContactStore *_contactStore;
 }
 
 + (id);
@@ -20,7 +16,7 @@
 + (void);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 - (void);
 - (void);
@@ -28,38 +24,37 @@
 - (id);
 - (id);
 - (id);
+- (id)ary"8@"NSError"16;
+- (id);
+- (id);
+- (id)PF;
+- (float);
+- (id)V;
+- (void);
+- (id);
+- (void);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
 - (id);
 - (float);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (float);
-- (void);
+- (void)try=%@;
 - (void);
 - (void);
 - (id);
 - (void)for %@. Using default of %ld;
 - (id)ed people sets had cardinality zero;
-- (id);
+- (id)fallbackInteractionsModelType;
 
 // Remaining properties
-@property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
 @property(retain, nonatomic) _CDInteractionStore *interactionStore; // @synthesize interactionStore=_interactionStore;
 
 @end

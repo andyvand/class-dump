@@ -7,24 +7,6 @@
 @interface UIKit._UILiquidMorphAnimation
 {
     id morphAnimations;
-    id clientContainerView;
-    id inferGlassGroupFromContainer;
-    id sharedAnimationContainer;
-    id sharedGroupCompletion;
-    id currentMorphables;
-    id reparentingViews;
-    id $__lazy_storage_$_traitObserver;
-    id viewsToRemove;
-    id _overrideReduceMotion;
-    id prevReparentingReferenceView;
-    id hidingAssertions;
-    id $__lazy_storage_$_morphTimeline;
-    id $__lazy_storage_$_lensingSDFView;
-    id $__lazy_storage_$_pivotView;
-    id $__lazy_storage_$_lensingView;
-    id $__lazy_storage_$_lensingPortalContainer;
-    id $__lazy_storage_$_lensingPortals;
-    id minLensingDimension;
 }
 
 - (id);

@@ -13,7 +13,7 @@
 }
 
 - (id);
-- (id);
+- (id)ULL!;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) ASDPurchaseRequestOptions *options; // @dynamic options;

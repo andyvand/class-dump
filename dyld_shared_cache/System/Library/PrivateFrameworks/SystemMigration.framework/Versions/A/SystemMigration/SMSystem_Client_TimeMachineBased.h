@@ -6,23 +6,15 @@
 
 #import <SystemMigration/SMSystem_Client.h>
 
-@class NSDate, NSImage, NSMutableArray, NSString;
-
 @interface SMSystem_Client_TimeMachineBased : SMSystem_Client
 {
     _Bool isLiteBackup;
-    _Bool isLatestBackup;
-    NSString *storageVolume;
-    NSDate *backupCompletedDate;
-    NSString *machineName;
-    NSMutableArray *_backups;
-    NSImage *_volumeIcon;
 }
 
 + (id);
 + (id);
 + (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -46,13 +38,7 @@
 × ;
 
 // Remaining properties
-@property(retain) NSDate *backupCompletedDate; // @synthesize backupCompletedDate;
-@property(retain) NSMutableArray *backups; // @synthesize backups=_backups;
-@property _Bool isLatestBackup; // @synthesize isLatestBackup;
 @property _Bool isLiteBackup; // @synthesize isLiteBackup;
-@property(retain) NSString *machineName; // @synthesize machineName;
-@property(retain) NSString *storageVolume; // @synthesize storageVolume;
-@property(retain) NSImage *volumeIcon; // @synthesize volumeIcon=_volumeIcon;
 
 @end
 

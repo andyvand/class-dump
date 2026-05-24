@@ -14,10 +14,10 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)ist",R,N;
 - (void);
 - (void);
-- (void);
+- (void)authenticationIcloudEnvironment;
 
 @end
 

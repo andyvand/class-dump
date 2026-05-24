@@ -4,44 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, CLPlacemark, NSString, NSUUID;
-
 @interface _CLPlaceInference
 {
     unsigned long long _userType;
-    unsigned long long _placeType;
-    CLPlacemark *_placemark;
-    CLLocation *_referenceLocation;
-    double _confidence;
-    NSString *_preferredName;
-    NSUUID *__loiIdentifier;
 }
 
 + (unsigned long long);
 + (_Bool);
 + (unsigned long long);
 - (id);
+- (id)Ž jR;
 - (id);
+- (id);
+- (void)OR:indexedColor cannot be used with YCC data
+ /* Error: Ran out of types for this method. */;
+- (id)Q@yLQ@yk";
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)setResourceBufferWithDescriptor:(struct _NSZone *)arg1 retainedResources:onEncoder:atIndex: /* Error: Ran out of types for this method. */;
 - (double);
 - (unsigned long long)rnion;
 - (unsigned long long)s, dropStreaming[%{public}s->%{public}s];
 
 // Remaining properties
-@property(readonly, nonatomic) NSUUID *_loiIdentifier; // @synthesize _loiIdentifier=__loiIdentifier;
-@property(readonly, nonatomic) double confidence; // @synthesize confidence=_confidence;
-@property(readonly, nonatomic) unsigned long long placeType; // @synthesize placeType=_placeType;
-@property(readonly, nonatomic) CLPlacemark *placemark; // @synthesize placemark=_placemark;
-@property(readonly, nonatomic) NSString *preferredName; // @synthesize preferredName=_preferredName;
-@property(readonly, nonatomic) CLLocation *referenceLocation; // @synthesize referenceLocation=_referenceLocation;
 @property(readonly, nonatomic) unsigned long long userType; // @synthesize userType=_userType;
 
 @end

@@ -6,7 +6,7 @@
 
 #import <PhotoImaging/PIAdjustmentController.h>
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface PIAutoLoopAdjustmentController : PIAdjustmentController
 {
@@ -22,9 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *flavor;
 @property(copy, nonatomic) NSDictionary *recipe;
-@property(readonly, nonatomic) struct CGRect stabilizedCropRect;
 
 @end
 

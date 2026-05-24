@@ -7,6 +7,7 @@
 @class NSDictionary;
 
 @protocol MKFWeekDayScheduleRulePrivateExtensions
-- (NSDictionary *)kupReceiver;
+- (_Bool)sageRelative.1d;
+- (NSDictionary *)_groupsBackupReceiver;
 @end
 

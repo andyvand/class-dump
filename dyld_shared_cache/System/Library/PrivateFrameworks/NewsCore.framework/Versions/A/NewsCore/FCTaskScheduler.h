@@ -13,18 +13,18 @@
 + (id);
 + (void);
 + (void);
++ (void);
 + (void);
 + (void);
-+ (void);
-+ (void);
-+ (void);
-+ (id);
++ (void)<k;
 + (void);
 + (id);
 + (void);
++ (id);
 + (void);
-+ (void)yRecordZone;
-+ (void)ager;
++ (void);
++ (void)issueReadingHistoryRecordZone;
++ (void)manager;
 
 @end
 

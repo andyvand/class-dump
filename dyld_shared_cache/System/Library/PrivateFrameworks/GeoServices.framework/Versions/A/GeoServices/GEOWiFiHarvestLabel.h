@@ -4,30 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEOWiFiHarvestLabel
 {
     PBDataReader *_reader;
-    NSString *_comment;
-    NSString *_internalIdentifier;
-    NSString *_venueCategory;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _networkType;
-    int _originator;
-    struct {
-        unsigned int has_networkType:1;
-        unsigned int has_originator:1;
-        unsigned int read_comment:1;
-        unsigned int read_internalIdentifier:1;
-        unsigned int read_venueCategory:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)riginalAddressFields:(id)arg1;
++ (_Bool)setOriginalAddressFields:(id)arg1;
 - (id);
 - (void);
 - (void);
@@ -36,14 +20,14 @@
 - (id);
 - (id);
 - (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (int);
-- (int);
-- (void);
+- (int)lly removed store at URL:(id)arg1 %@;
+- (int)RL"8;
+- (void)externalImageId;
 - (id);
 - (void);
 - (id);
@@ -51,33 +35,24 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (int);
+- (void)speechCapturingDidRecordPCMAudioData:(id)arg1;
+- (unsigned long long);
+- (_Bool);
+- (int)p;
 - (_Bool);
 - (id);
 - (void);
 - (id)0@ù
 × ;
-- (id)dValues;
+- (id)keyStringsAndValues;
 - (id)routeId;
 - (id)appid, requesttype, result, xmitbytes, recvbytes, interface    FROM reqcountdata    WHERE startTime >= @startTime and endTime <= @endTime    ORDER BY startTime, rowid;;
-- (void)t3__120__shared_ptr_emplaceIN3geo25DbReaderTarFileDescriptorENS_9allocatorIS2_EEEE;
+- (void)NSt3__120__shared_ptr_emplaceIN3geo25DbReaderTarFileDescriptorENS_9allocatorIS2_EEEE;
 - (int)g©@;
 - (void)S2;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *comment;
-@property(readonly, nonatomic) _Bool hasComment;
-@property(readonly, nonatomic) _Bool hasInternalIdentifier;
-@property(nonatomic) _Bool hasNetworkType;
 @property(nonatomic) _Bool hasOriginator;
-@property(readonly, nonatomic) _Bool hasVenueCategory;
-@property(retain, nonatomic) NSString *internalIdentifier;
-@property(nonatomic) int networkType;
-@property(nonatomic) int originator;
-@property(retain, nonatomic) NSString *venueCategory;
 
 @end
 

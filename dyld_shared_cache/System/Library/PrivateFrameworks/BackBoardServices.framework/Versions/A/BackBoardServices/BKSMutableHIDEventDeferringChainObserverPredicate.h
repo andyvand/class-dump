@@ -6,19 +6,18 @@
 
 #import <BackBoardServices/BKSHIDEventDeferringChainObserverPredicate.h>
 
-@class BKSHIDEventDeferringEnvironment, BKSHIDEventDisplay;
+@class BKSHIDEventDisplay;
 
 @interface BKSMutableHIDEventDeferringChainObserverPredicate : BKSHIDEventDeferringChainObserverPredicate
 {
 }
 
-- (void);
+- (void)Th[;
 - (void);
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) BKSHIDEventDisplay *display; // @dynamic display;
-@property(retain, nonatomic) BKSHIDEventDeferringEnvironment *environment; // @dynamic environment;
 
 @end
 

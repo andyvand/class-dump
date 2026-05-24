@@ -4,47 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CDPContext, CDPDPCSController, NSString;
-@protocol CDPDAuthProviderInternal, CDPStateUIProviderInternal;
+@class CDPContext, CDPDPCSController;
 
 @interface CDPDPDPRecoveryController
 {
     CDPContext *_cdpContext;
-    CDPDPCSController *_pcsController;
-    id <CDPStateUIProviderInternal> _uiProvider;
-    id <CDPDAuthProviderInternal> _authProvider;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)NSTextInputClient_IncrementalSearch;
+- (void)UnifiedFieldButtonHostViewController;
+- (void)TopSitesButton;
+- (void)TabsPreferences;
+- (void)TabDialogViewControllerPresentationDelegate;
+- (_Bool)TabDialogDimmingView;
+- (void)TabContentViewDelegate;
+- (void)NSAccessibilityRadioButton;
+- (void)StartPageFeatureAvailabilityCollectionViewItemDelegate;
+- (void)StartPageFeatureAvailabilityCollectionViewItemSection;
+- (void)StartPageFeatureAvailabilityCollectionViewItem;
+- (void)StartPageFeatureAvailabilityBrowseInSafariCollectionViewItem;
+- (id)StartPageEmptyTabGroupFavoritesItemDelegate;
+- (id)SidebarTableCellView;
+- (void)SafariWBTabGroupExtras;
+- (void)SafariNSWindowExtras;
+- (unsigned long long)SafariExtensionCommandMenuController;
+- (void)RolloverActionButtonTableCellView;
+- (void)ReadingListSidebarViewControllerBase;
+- (void)ReadingListSegmentedControlDelegate;
+- (void)ReaderContainerView;
+- (id)PrivacyReportPopoverOutlineSectionHeaderView;
+- (id)PrivacyReportPopoverOutlineSectionHeaderItem;
+- (id)PrivacyReportPopoverOutlineTopLevelRowView;
+- (id)PrivacyProxyDisabledStatusSection;
+- (id)PrivacyProxyStatusSection;
+- (void)WBSPageTestDelegate;
+- (id)CloseOtherTabsContext;
+- (void)GeneralPreferences;
+- (void)FileFormatAccessoryViewController;
 - (id);
 - (void);
 - (void);
@@ -56,17 +52,7 @@
 - (id)ÿ¼R?;
 
 // Remaining properties
-@property(retain, nonatomic) id <CDPDAuthProviderInternal> authProvider; // @synthesize authProvider=_authProvider;
-@property(retain, nonatomic) CDPContext *cdpContext; // @synthesize cdpContext=_cdpContext;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) CDPDPCSController *pcsController; // @synthesize pcsController=_pcsController;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <CDPStateUIProviderInternal> uiProvider; // @synthesize uiProvider=_uiProvider;
 
 @end
 

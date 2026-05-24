@@ -12,10 +12,6 @@ __attribute__((visibility("hidden")))
 @interface GEOMapTransitPointFinder : GEOMapRequest
 {
     GEOMapTileFinder *_tileFinder;
-    CDStruct_34734122 _centerPoint;
-    double _mapRadius;
-    unsigned long long _pointID;
-    unsigned long long _parentID;
 }
 
 - (id);

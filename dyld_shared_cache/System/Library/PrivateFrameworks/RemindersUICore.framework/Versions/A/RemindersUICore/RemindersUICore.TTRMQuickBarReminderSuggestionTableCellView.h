@@ -7,13 +7,9 @@
 @interface RemindersUICore.TTRMQuickBarReminderSuggestionTableCellView
 {
     id viewModel;
-    id $__lazy_storage_$_contentView;
-    id $__lazy_storage_$_titleLabel;
-    id $__lazy_storage_$_subtitleLabel;
-    id $__lazy_storage_$_thumbnailContainerView;
 }
 
-- (id);
+- (id);
 - (id);
 - (void);
 

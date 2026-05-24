@@ -11,15 +11,14 @@
 @interface IOUSBHostStream : IOUSBHostIOSource
 {
     IOUSBHostPipe *_hostPipe;
-    unsigned long long _streamID;
 }
 
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)d;
 - (_Bool);
-- (_Bool);
+- (_Bool)ClipSamplingFrequency;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -27,7 +26,6 @@
 
 // Remaining properties
 @property(retain) IOUSBHostPipe *hostPipe; // @synthesize hostPipe=_hostPipe;
-@property unsigned long long streamID; // @synthesize streamID=_streamID;
 
 @end
 

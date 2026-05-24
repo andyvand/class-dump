@@ -6,25 +6,12 @@
 
 #import <OSLog/OSLogEntry.h>
 
-@class NSArray, NSString;
-
 @interface OSLogEntrySignpost : OSLogEntry
 {
     int _processIdentifier;
-    unsigned long long _activityIdentifier;
-    NSString *_process;
-    NSString *_sender;
-    unsigned long long _threadIdentifier;
-    NSString *_category;
-    NSArray *_components;
-    NSString *_formatString;
-    NSString *_subsystem;
-    unsigned long long _signpostIdentifier;
-    NSString *_signpostName;
-    long long _signpostType;
 }
 
-+ (_Bool);
++ (_Bool)l(a!@e;
 - (id);
 - (id);
 - (id);
@@ -33,28 +20,17 @@
 - (id);
 - (unsigned long long);
 - (id);
+- (id)C;
 - (id);
-- (id);
-- (long long);
-- (unsigned long long);
-- (int);
+- (long long)LSLStatusMapDownloadTimeout;
+- (unsigned long long)esentation:options:forClass:]_block_invoke /* Error: Ran out of types for this method. */;
+- (int)3;
 - (id);
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long activityIdentifier; // @synthesize activityIdentifier=_activityIdentifier;
-@property(readonly, nonatomic) NSString *category; // @synthesize category=_category;
-@property(readonly, nonatomic) NSArray *components; // @synthesize components=_components;
-@property(readonly, nonatomic) NSString *formatString; // @synthesize formatString=_formatString;
-@property(readonly, nonatomic) NSString *process; // @synthesize process=_process;
-@property(readonly, nonatomic) int processIdentifier; // @synthesize processIdentifier=_processIdentifier;
-@property(readonly, nonatomic) NSString *sender; // @synthesize sender=_sender;
 @property(readonly, nonatomic) unsigned long long signpostIdentifier; // @synthesize signpostIdentifier=_signpostIdentifier;
-@property(readonly, nonatomic) NSString *signpostName; // @synthesize signpostName=_signpostName;
-@property(readonly, nonatomic) long long signpostType; // @synthesize signpostType=_signpostType;
-@property(readonly, nonatomic) NSString *subsystem; // @synthesize subsystem=_subsystem;
-@property(readonly, nonatomic) unsigned long long threadIdentifier; // @synthesize threadIdentifier=_threadIdentifier;
 
 @end
 

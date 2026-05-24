@@ -6,18 +6,16 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSNumber, NSString;
-
 @interface INCopyFileIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
++ (int)_drawInCurrentContextOfSize:(long long)arg1 colorSpace:drawingBlock: /* Error: Ran out of types for this method. */;
 + (int);
 + (long long);
 + (_Bool);
 + (_Bool);
-- (void);
+- (void)6;
 - (void);
 - (id);
 - (id);
@@ -26,34 +24,22 @@
 - (long long);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)setDefaultItemIdentifiers: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
+- (id)_GCDefaultPhysicalDeviceDelegate;
+- (id);
+- (id);
+- (void)74-11eb-9301-f45c89abb0d9;
 - (id);
 - (id);
 - (id)or;
-- (long long)sInCarIntentExport;
+- (long long)INSetDefrosterSettingsInCarIntentExport;
 - (void);
 - (id);
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSString *destinationName;
-@property(copy) NSString *entityName;
-@property(copy) NSString *entityType;
-@property(readonly) unsigned long long hash;
-@property(copy) NSNumber *overwrite;
-@property(copy) NSNumber *success;
-@property(readonly) Class superclass;
 
 @end
 

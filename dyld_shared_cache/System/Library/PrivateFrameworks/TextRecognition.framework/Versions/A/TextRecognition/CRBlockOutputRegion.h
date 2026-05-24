@@ -6,8 +6,6 @@
 
 #import <TextRecognition/CRCompositeOutputRegion.h>
 
-@class CRNormalizedQuad, NSArray, NSString, NSUUID;
-
 @interface CRBlockOutputRegion : CRCompositeOutputRegion
 {
     _Bool _canWrapToNextGroup;
@@ -20,24 +18,11 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)_toggleTitlebarViewController:(id)arg1 toBeVisible: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly) CRNormalizedQuad *boundingQuad;
 @property _Bool canWrapToNextGroup; // @synthesize canWrapToNextGroup=_canWrapToNextGroup;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long layoutDirection;
-@property(readonly) NSArray *subregions;
-@property(readonly) Class superclass;
-@property(readonly) NSString *text;
-@property(readonly) unsigned long long textRegionType;
-@property(readonly) NSUUID *uuid;
 
 @end
 

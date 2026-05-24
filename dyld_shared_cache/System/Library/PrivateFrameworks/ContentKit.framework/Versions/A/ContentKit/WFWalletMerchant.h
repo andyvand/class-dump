@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface WFWalletMerchant
 {
     NSString *_displayName;
-    NSString *_uniqueIdentifier;
-    NSURL *_logoURL;
-    unsigned long long _merchantType;
 }
 
 + (_Bool);
@@ -21,16 +18,13 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)C;
 - (id);
-- (id);
-- (void);
+- (id)';
+- (void)6;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) NSURL *logoURL; // @synthesize logoURL=_logoURL;
-@property(readonly, nonatomic) unsigned long long merchantType; // @synthesize merchantType=_merchantType;
-@property(readonly, nonatomic) NSString *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end
 

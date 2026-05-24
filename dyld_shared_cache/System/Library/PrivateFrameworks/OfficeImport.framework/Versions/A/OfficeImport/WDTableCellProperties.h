@@ -10,13 +10,6 @@ __attribute__((visibility("hidden")))
 @interface WDTableCellProperties
 {
     short mWidth;
-    short mPosition;
-    unsigned int mOriginal:1;
-    unsigned int mTracked:1;
-    unsigned int mResolved:1;
-    CDStruct_dbdf0818 mOriginalProperties;
-    CDStruct_dbdf0818 mTrackedProperties;
-    WDDocument *mDocument;
 }
 
 - (int);
@@ -27,7 +20,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)-
++;
 - (void);
 - (void);
 - (void);
@@ -40,9 +34,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (id)TJ;
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -54,15 +48,15 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)#;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)q;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -84,35 +78,37 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (unsigned short);
-- (unsigned short);
+- (unsigned short)A;
 - (unsigned short);
 - (int);
-- (id);
+- (id)y)
+@9J
+;
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)Ѥg;
 - (int);
 - (void);
 - (id);
 - (void);
 - (int);
 - (void);
-- (_Bool);
+- (_Bool)KB_;
 - (id);
 - (id);
 - (int);
 - (void);
 - (int);
 - (void);
-- (int);
+- (int)@;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)kCTOtaspSplUnlocked;
 - (id);
 - (id);
 - (int);
@@ -123,11 +119,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (short);
 - (short);
+- (void)ۺ;
 - (void);
-- (void);
-- (id);
+- (id);
 - (short);
-- (void):(short)arg1;
+- (void)setCharactersToBeSkipped:(short)arg1;
 - (short)OCMapper setup];
 - (void)ogress initWithMaxValue:numberOfStages:] /* Error: Ran out of types for this method. */;
 - (void)¬;

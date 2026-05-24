@@ -4,26 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSScrollView, NSStackView;
+@class NSScrollView;
 @protocol CNUIColorPaletteDelegate;
 
 @interface CNUIColorPalette
 {
     id <CNUIColorPaletteDelegate> _delegate;
-    NSArray *_colors;
-    unsigned long long _indexForSelectedColor;
-    NSScrollView *_scrollView;
-    NSStackView *_stackView;
-    NSArray *_colorButtons;
-    double _swatchSize;
-    double _swatchSpacing;
 }
 
 - (double);
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (void);
@@ -32,27 +25,20 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)(;
+- (id)(;
 - (struct CGSize);
 - (id);
 - (id);
+- (void)27HttpRequestFactoryInterface;
+- (id);
+- (id)remoteObjectProxyWithErrorHandler:(id)arg1;
+- (id)+!;
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)rray:(id)arg1;
+- (void)isEqualToArray:(id)arg1;
 
 // Remaining properties
-@property(retain) NSArray *colorButtons; // @synthesize colorButtons=_colorButtons;
-@property(copy, nonatomic) NSArray *colors; // @synthesize colors=_colors;
-@property __weak id <CNUIColorPaletteDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) unsigned long long indexForSelectedColor; // @synthesize indexForSelectedColor=_indexForSelectedColor;
 @property(retain) NSScrollView *scrollView; // @synthesize scrollView=_scrollView;
-@property(retain) NSStackView *stackView; // @synthesize stackView=_stackView;
-@property double swatchSize; // @synthesize swatchSize=_swatchSize;
-@property double swatchSpacing; // @synthesize swatchSpacing=_swatchSpacing;
 
 @end
 

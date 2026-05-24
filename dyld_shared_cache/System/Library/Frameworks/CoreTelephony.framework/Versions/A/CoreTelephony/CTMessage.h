@@ -4,42 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTPhoneNumber, CTXPCServiceSubscriptionContext, NSArray, NSDate, NSDictionary, NSMutableArray, NSMutableDictionary, NSObject, NSString, NSUUID;
+@class NSArray, NSObject;
 @protocol CTMessageAddress><NSCopying;
 
 @interface CTMessage
 {
     NSObject<CTMessageAddress><NSCopying> *_sender;
-    NSMutableArray *_recipients;
-    NSMutableArray *_items;
-    NSDictionary *_rawHeaders;
-    NSDate *_date;
-    unsigned int _messageId;
-    int _messageType;
-    CTPhoneNumber *_serviceCenter;
-    NSString *_subject;
-    NSString *_contentType;
-    NSMutableDictionary *_contentTypeParams;
-    unsigned int _replaceMessage;
-    NSString *_countryCode;
-    NSString *_lazuliGUID;
-    NSUUID *_uuid;
-    _Bool _bypassSupportedMessageModesCheck;
-    _Bool _appCheckBypassForCriticalMessaging;
-    CTXPCServiceSubscriptionContext *_context;
-    _Bool _replyEnabled;
-    int _smsType;
 }
 
 - (void);
 - (void);
+- (void)o7;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)�!;
 - (unsigned int);
 - (void);
 - (void);
@@ -58,7 +39,7 @@
 - (int);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -67,17 +48,17 @@
 - (int);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)ctions destined for unknown extension "%{public}@";
+- (void)clientProcessHandle;
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id));
+- (void)i;
 - (id);
 - (void)qª)ð1Â0@ù
 × ;
@@ -85,24 +66,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool appCheckBypassForCriticalMessaging; // @synthesize appCheckBypassForCriticalMessaging=_appCheckBypassForCriticalMessaging;
-@property(nonatomic) _Bool bypassSupportedMessageModesCheck; // @synthesize bypassSupportedMessageModesCheck=_bypassSupportedMessageModesCheck;
-@property(copy, nonatomic) NSString *contentType; // @synthesize contentType=_contentType;
-@property(copy, nonatomic) CTXPCServiceSubscriptionContext *context; // @synthesize context=_context;
-@property(readonly, copy, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(readonly) NSDate *date; // @synthesize date=_date;
-@property(readonly) NSArray *items; // @synthesize items=_items;
-@property(nonatomic) unsigned int messageId; // @synthesize messageId=_messageId;
-@property(nonatomic) int messageType; // @synthesize messageType=_messageType;
-@property(readonly) NSDictionary *rawHeaders; // @synthesize rawHeaders=_rawHeaders;
 @property(readonly) NSArray *recipients; // @synthesize recipients=_recipients;
-@property(readonly) unsigned int replaceMessage; // @synthesize replaceMessage=_replaceMessage;
-@property(readonly, nonatomic) _Bool replyEnabled; // @synthesize replyEnabled=_replyEnabled;
-@property(copy, nonatomic) NSObject<CTMessageAddress><NSCopying> *sender; // @synthesize sender=_sender;
-@property(copy, nonatomic) CTPhoneNumber *serviceCenter; // @synthesize serviceCenter=_serviceCenter;
-@property(nonatomic) int smsType; // @synthesize smsType=_smsType;
-@property(copy, nonatomic) NSString *subject; // @synthesize subject=_subject;
-@property(retain, nonatomic) NSUUID *uniqueIdentifier; // @synthesize uniqueIdentifier=_uuid;
 
 @end
 

@@ -9,6 +9,6 @@
 + (id);
 + (id);
 - (id);
-- (struct _NSCornerInsets);
+- (struct _NSCornerInsets)ramework/Versions/A/CoreGraphics;
 @end
 

@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKShareParticipant, HMUser, HMUserCloudShareClientInfo;
+@class CKShareParticipant;
 
 @interface HMHomeCloudShareResponse
 {
     CKShareParticipant *_participant;
-    HMUser *_ownerUser;
-    HMUserCloudShareClientInfo *_clientInfo;
 }
 
 - (id);
 - (id);
-- (id);
-- (id)sForSettingValueEvent;
+- (id)rActivityDaemonJob runDaemonSide];
+- (id)clearOneofValuesForSettingValueEvent;
 - (void)K;
 
 // Remaining properties
-@property(readonly) HMUserCloudShareClientInfo *clientInfo; // @synthesize clientInfo=_clientInfo;
-@property(readonly) HMUser *ownerUser; // @synthesize ownerUser=_ownerUser;
 @property(readonly) CKShareParticipant *participant; // @synthesize participant=_participant;
 
 @end

@@ -6,7 +6,7 @@
 
 #import <Vision/VNImageBasedRequest.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface VNDetectFaceGazeRequest : VNImageBasedRequest
 {
@@ -23,7 +23,7 @@
 - (float);
 - (float);
 - (float);
-- (id);
+- (id)ickname contains a wallpaper object containing no data;
 - (void);
 - (long long)³p;
 - (_Bool);
@@ -31,19 +31,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) float commonGazeLocationRadius;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) float gazeHeatMapThreshold;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *inputFaceObservations;
-@property(nonatomic) float minimumFaceDimension;
-@property(nonatomic) _Bool resolveSomewhereElseDirection;
 @property(readonly, copy) NSArray *results; // @dynamic results;
-@property(readonly) Class superclass;
 
 @end
 

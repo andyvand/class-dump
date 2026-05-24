@@ -6,26 +6,21 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MHSchemaMHAttendingEnded : SISchemaInstrumentationMessage
 {
     int _endReason;
-    struct {
-        unsigned int endReason:1;
-    } _has;
 }
 
 - (void);
-- (void);
-- (_Bool);
+- (void)showPaymentVerificationWithServerAttributes:(_Bool)arg1 window:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)AOSUIWalrusAccountContactsViewController;
 - (id);
 - (void);
-- (void);
+- (void)to/asn1/tasn_utl.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)a;
 - (int);
 - (id)asð!XCùqßð1Â0@ù
 × ;
@@ -34,8 +29,6 @@
 
 // Remaining properties
 @property(nonatomic) int endReason; // @synthesize endReason=_endReason;
-@property(nonatomic) _Bool hasEndReason;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

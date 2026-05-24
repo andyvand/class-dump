@@ -11,11 +11,11 @@
     NSColor *_highlightedTextColor;
 }
 
-- (id);
+- (id)yS;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id)ets:(struct _NSZone *)arg1;
+- (id)initWithIdentifier:(struct _NSZone *)arg1 gadgets: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)Nÿ(<;
 

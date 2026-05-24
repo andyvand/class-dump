@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface BWGraphLiveExtension
 {
     long long _configurationID;
-    NSMutableArray *_nodes;
-    _Bool _committed;
 }
 
 - (id);

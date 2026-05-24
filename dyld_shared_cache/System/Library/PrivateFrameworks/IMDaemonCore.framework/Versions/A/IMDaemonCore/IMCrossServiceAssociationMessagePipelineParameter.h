@@ -4,35 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDAccount, IMDChat, IMDServiceSession, NSArray, NSDictionary, NSString;
+@class NSString;
 
 @interface IMCrossServiceAssociationMessagePipelineParameter
 {
     _Bool _isFromMe;
-    _Bool _isFromStorage;
-    _Bool _isLastFromStorage;
-    NSString *_replicationSourceServiceName;
-    NSString *_toIdentifier;
-    IMDAccount *_account;
-    IMDServiceSession *_serviceSession;
-    NSString *_fromIdentifier;
-    NSString *_fromDisplayID;
-    NSString *_groupID;
-    NSString *_currentGroupName;
-    NSArray *_participantIdentifiers;
-    IMDChat *_chat;
-    NSString *_replacementGUID;
-    unsigned long long _crossServiceDeduplicationMechanism;
-    NSString *_GUID;
-    NSDictionary *_batchContext;
-    NSArray *_messageItems;
 }
 
-- (id);
+- (id) (;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -41,10 +24,10 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)rtingAgent]_block_invoke;
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -56,24 +39,7 @@
 - (void)lete for guidString:%s /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *GUID; // @synthesize GUID=_GUID;
-@property(retain, nonatomic) IMDAccount *account; // @synthesize account=_account;
-@property(readonly, nonatomic) NSDictionary *batchContext; // @synthesize batchContext=_batchContext;
-@property(retain, nonatomic) IMDChat *chat; // @synthesize chat=_chat;
-@property(readonly, nonatomic) unsigned long long crossServiceDeduplicationMechanism; // @synthesize crossServiceDeduplicationMechanism=_crossServiceDeduplicationMechanism;
-@property(readonly, nonatomic) NSString *currentGroupName; // @synthesize currentGroupName=_currentGroupName;
-@property(readonly, nonatomic) NSString *fromDisplayID; // @synthesize fromDisplayID=_fromDisplayID;
-@property(readonly, nonatomic) NSString *fromIdentifier; // @synthesize fromIdentifier=_fromIdentifier;
-@property(readonly, nonatomic) NSString *groupID; // @synthesize groupID=_groupID;
-@property(readonly, nonatomic) _Bool isFromMe; // @synthesize isFromMe=_isFromMe;
-@property(readonly, nonatomic) _Bool isFromStorage; // @synthesize isFromStorage=_isFromStorage;
-@property(readonly, nonatomic) _Bool isLastFromStorage; // @synthesize isLastFromStorage=_isLastFromStorage;
-@property(retain, nonatomic) NSArray *messageItems; // @synthesize messageItems=_messageItems;
-@property(readonly, nonatomic) NSArray *participantIdentifiers; // @synthesize participantIdentifiers=_participantIdentifiers;
-@property(readonly, nonatomic) NSString *replacementGUID; // @synthesize replacementGUID=_replacementGUID;
 @property(readonly, nonatomic) NSString *replicationSourceServiceName; // @synthesize replicationSourceServiceName=_replicationSourceServiceName;
-@property(retain, nonatomic) IMDServiceSession *serviceSession; // @synthesize serviceSession=_serviceSession;
-@property(readonly, nonatomic) NSString *toIdentifier; // @synthesize toIdentifier=_toIdentifier;
 
 @end
 

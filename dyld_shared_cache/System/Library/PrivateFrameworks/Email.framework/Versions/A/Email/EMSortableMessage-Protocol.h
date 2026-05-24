@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMReadLater, NSDate;
+@class NSDate;
 
 @protocol EMSortableMessage
+- (NSDate *)?;
+- (NSDate *)r;
 
 // Remaining properties
 @property(readonly) NSDate *date;
-@property(readonly) NSDate *displayDate;
-@property(readonly) EMReadLater *readLater;
-@property(readonly) NSDate *sendLaterDate;
 @end
 

@@ -7,11 +7,6 @@
 @interface ConversationKit.HUDActivity
 {
     id _dismissed;
-    id isShowing;
-    id dismissHandler;
-    id activityManager;
-    id activityId;
-    id relatedUpdate;
 }
 
 @end

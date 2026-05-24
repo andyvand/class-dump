@@ -28,7 +28,7 @@
 + (id);
 + (_Bool);
 + (oneway void);
-+ (id);
++ (id)larItalic;
 + (id);
 + (unsigned long long);
 + (id);
@@ -40,8 +40,8 @@
 + (_Bool);
 + (_Bool);
 + (id)andler:(struct _NSZone *)arg1;
-+ (void)range: /* Error: Ran out of types for this method. */;
-+ (CDUnknownFunctionPointerType)Policy:(SEL)arg1;
++ (void)rangeOfFirstMatchInString:options:range: /* Error: Ran out of types for this method. */;
++ (CDUnknownFunctionPointerType)setCachePolicy:(SEL)arg1;
 + (_Bool)nces.;
 + (_Bool)text:(SEL)arg1 message was received but not handled.
 Key path:%@
@@ -63,10 +63,7 @@ Context:%p /* Error: Ran out of types for this method. */;
 + (_Bool)gº;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
 @property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

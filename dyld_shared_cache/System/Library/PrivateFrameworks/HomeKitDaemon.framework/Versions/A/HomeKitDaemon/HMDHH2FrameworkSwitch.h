@@ -4,51 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMBCloudDatabase, HMDHomeManager, NSObject, NSString;
-@protocol HMDHH2FrameworkSwitchDataSource, OS_dispatch_queue, OS_os_log;
+@class NSObject;
+@protocol OS_os_log;
 
 __attribute__((visibility("hidden")))
 @interface HMDHH2FrameworkSwitch
 {
     NSObject<OS_os_log> *_logger;
-    _Bool _autoFrameworkSwitch;
-    _Bool _isTapToSetupOngoing;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMBCloudDatabase *_cloudDatabaseToDetectHH2Zone;
-    CDUnknownBlockType _blockToBeCalledBeforeSwitchingFramework;
-    HMDHomeManager *_homeManager;
-    id <HMDHH2FrameworkSwitchDataSource> _dataSource;
 }
 
 + (id);
 + (void);
 + (void);
-+ (void);
-+ (void)Details;
++ (void);
++ (void)_interfaceDetails;
 + (id);
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)setServerSecureInput:(_Bool)arg1;
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (CDUnknownBlockType);
+- (void)QF;
+- (id)raitMinorVersion;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id)`;
+- (void);
+- (void);
+- (_Bool)equest type;
+- (void)ankerSELFSerialization create could not create independentSignals;
+- (CDUnknownBlockType)useContactAliasSpanMatches;
+- (void);
+- (void)ȭ;
+- (void);
+- (void);
+- (void)";
 - (_Bool);
 - (_Bool);
 - (void);
@@ -58,30 +51,17 @@ __attribute__((visibility("hidden")))
 - (void)rror">40;
 - (void)^@48;
 - (_Bool);
-- (void)angedCharacteristics: /* Error: Ran out of types for this method. */;
+- (void)_auditChangedCharacteristics: /* Error: Ran out of types for this method. */;
 - (id)tDevice:%@ /* Error: Ran out of types for this method. */;
 - (void)%{public}@Accessory %@ is configuring, so we skip checking for the WiFi network mismatch symptom. ;
 - (void)und user %s with no qualified devices;
 - (_Bool);
 - (void)tring"16@?0@"HMDResidentDevice"8;
-- (void)RequestKey;
+- (void)kRenameTriggerRequestKey;
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool autoFrameworkSwitch; // @synthesize autoFrameworkSwitch=_autoFrameworkSwitch;
-@property(copy, nonatomic) CDUnknownBlockType blockToBeCalledBeforeSwitchingFramework; // @synthesize blockToBeCalledBeforeSwitchingFramework=_blockToBeCalledBeforeSwitchingFramework;
-@property(retain, nonatomic) HMBCloudDatabase *cloudDatabaseToDetectHH2Zone; // @synthesize cloudDatabaseToDetectHH2Zone=_cloudDatabaseToDetectHH2Zone;
-@property(retain, nonatomic) id <HMDHH2FrameworkSwitchDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak HMDHomeManager *homeManager; // @synthesize homeManager=_homeManager;
-@property(nonatomic) _Bool isTapToSetupOngoing; // @synthesize isTapToSetupOngoing=_isTapToSetupOngoing;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

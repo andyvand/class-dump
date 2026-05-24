@@ -7,11 +7,6 @@
 @interface Curve
 {
     CDUnknownBlockType _function;
-    CDUnknownBlockType _inverse;
-    double _domainMin;
-    double _domainMax;
-    double _rangeMin;
-    double _rangeMax;
 }
 
 + (id);
@@ -21,17 +16,17 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)ng",C,N,V_placeholderTitle;
 - (double);
 - (double);
 - (id);
 - (id);
 - (id);
+- (id)J;
 - (id);
 - (id);
 - (id);
-- (id);
-- (double);
+- (double);
 - (double);
 - (void);
 - (CDUnknownBlockType);
@@ -41,12 +36,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) double domainMax; // @synthesize domainMax=_domainMax;
-@property(readonly) double domainMin; // @synthesize domainMin=_domainMin;
 @property(copy) CDUnknownBlockType function; // @synthesize function=_function;
-@property(copy) CDUnknownBlockType inverse; // @synthesize inverse=_inverse;
-@property(readonly) double rangeMax; // @synthesize rangeMax=_rangeMax;
-@property(readonly) double rangeMin; // @synthesize rangeMin=_rangeMin;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol PHAPhotoLibraryTask
+- (_Bool);
 @end
 

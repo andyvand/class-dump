@@ -12,9 +12,9 @@
 }
 
 - (void);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool);
+- (id).accessibility.cache.AppleTVRemoteClickpadTapsForDirectionalNavigationEnabled;
+- (void)NSt3__120__shared_ptr_emplaceIN3ctu20PropertyRestResourceENS_9allocatorIS2_EEEE;
 - (id);
 - (void);
 

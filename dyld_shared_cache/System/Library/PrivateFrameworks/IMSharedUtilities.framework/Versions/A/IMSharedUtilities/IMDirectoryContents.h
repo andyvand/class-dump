@@ -4,33 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSSet, NSString;
+@class NSDictionary, NSString;
 
 @interface IMDirectoryContents
 {
     NSString *_rootPath;
-    NSString *_attachmentsPath;
-    NSString *_syncAssetsPath;
-    NSString *_stickersPath;
-    long long _spaceSavedFromIgnoreLivePhotoBundles;
-    NSDictionary *_fileInfoMap;
-    NSArray *_sortedPaths;
-    NSArray *_topLevelPaths;
-    NSArray *_attachmentPaths;
-    NSArray *_syncAssetPaths;
-    NSSet *_allPaths;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (long long);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)c;
 - (void);
 - (void);
 - (_Bool);
@@ -45,22 +35,12 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)ansenSecondaryOriginStation;
 - (void)_;
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *allPaths; // @synthesize allPaths=_allPaths;
-@property(retain, nonatomic) NSArray *attachmentPaths; // @synthesize attachmentPaths=_attachmentPaths;
-@property(readonly, nonatomic) NSString *attachmentsPath; // @synthesize attachmentsPath=_attachmentsPath;
 @property(retain, nonatomic) NSDictionary *fileInfoMap; // @synthesize fileInfoMap=_fileInfoMap;
-@property(readonly, nonatomic) NSString *rootPath; // @synthesize rootPath=_rootPath;
-@property(retain, nonatomic) NSArray *sortedPaths; // @synthesize sortedPaths=_sortedPaths;
-@property(nonatomic) long long spaceSavedFromIgnoreLivePhotoBundles; // @synthesize spaceSavedFromIgnoreLivePhotoBundles=_spaceSavedFromIgnoreLivePhotoBundles;
-@property(readonly, nonatomic) NSString *stickersPath; // @synthesize stickersPath=_stickersPath;
-@property(retain, nonatomic) NSArray *syncAssetPaths; // @synthesize syncAssetPaths=_syncAssetPaths;
-@property(readonly, nonatomic) NSString *syncAssetsPath; // @synthesize syncAssetsPath=_syncAssetsPath;
-@property(retain, nonatomic) NSArray *topLevelPaths; // @synthesize topLevelPaths=_topLevelPaths;
 
 @end
 

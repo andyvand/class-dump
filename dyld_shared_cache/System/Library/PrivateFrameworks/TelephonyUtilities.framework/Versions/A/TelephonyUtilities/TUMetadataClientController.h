@@ -11,7 +11,7 @@
     TUMetadataCache *_metadataCache;
 }
 
-+ (id)genceEnabled;
++ (id)isAppleIntelligenceEnabled;
 - (id);
 - (void);
 - (void);
@@ -20,15 +20,15 @@
 - (id);
 - (id);
 - (void);
+- (id)`;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void)destinationID:completion: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)startRequestWithMediaType:forStreamToken:requesteeID:destinationID:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) TUMetadataCache *metadataCache; // @synthesize metadataCache=_metadataCache;

@@ -7,13 +7,6 @@
 @interface NewsArticles.BrandBarRenderer
 {
     id preferredHeight;
-    id edgeToIconPadding;
-    id iconToTextPadding;
-    id textToButtonPadding;
-    id buttonToEdgePadding;
-    id buttonSize;
-    id configManager;
-    id styler;
 }
 
 @end

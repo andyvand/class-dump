@@ -7,14 +7,6 @@
 @interface NewsFeed.FormatFlexBoxNodeLayout
 {
     id _display;
-    id _direction;
-    id _wrap;
-    id _justifyContent;
-    id _alignContent;
-    id _alignItems;
-    id _rowGap;
-    id _columnGap;
-    id _integral;
 }
 
 @end

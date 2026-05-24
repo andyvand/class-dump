@@ -7,15 +7,6 @@
 @interface GVNode
 {
     double x;
-    double y;
-    double w;
-    double h;
-    long long rank;
-    long long index;
-    GVNode *prev;
-    GVNode *next;
-    unsigned long long inPriority;
-    unsigned long long outPriority;
 }
 
 - (void);
@@ -48,28 +39,13 @@
 - (double);
 - (void);
 - (double);
-- (double);
+- (double)ng, std::stack<std::string>>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::pair<const std::string, std::stack<std::string>>>>={unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::stack<std::string>>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::stack<std::string>>, void *> *> *>>>={?=^^v{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::stack<std::string>>, void *> *> *>>={?=Q}}}}{?={__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::stack<std::string>>, void *> *>=^v}}{?=Q}{?=f}}}16@0:8 /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGPoint center;
-@property(nonatomic) double cx;
-@property(nonatomic) double cy;
-@property(readonly, nonatomic) struct CGRect frame;
-@property(nonatomic) double h; // @synthesize h;
-@property(nonatomic) unsigned long long inPriority; // @synthesize inPriority;
-@property(nonatomic) long long index; // @synthesize index;
-@property(nonatomic) __weak GVNode *next; // @synthesize next;
-@property(readonly, nonatomic) struct CGPoint origin;
-@property(nonatomic) unsigned long long outPriority; // @synthesize outPriority;
-@property(nonatomic) __weak GVNode *prev; // @synthesize prev;
-@property(nonatomic) long long rank; // @synthesize rank;
-@property(nonatomic) struct CGSize size;
-@property(nonatomic) double w; // @synthesize w;
 @property(nonatomic) double x; // @synthesize x;
-@property(nonatomic) double y; // @synthesize y;
 
 @end
 

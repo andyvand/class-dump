@@ -5,5 +5,6 @@
 //
 
 @protocol SecKeyProxyProtocol
+- (void);
 @end
 

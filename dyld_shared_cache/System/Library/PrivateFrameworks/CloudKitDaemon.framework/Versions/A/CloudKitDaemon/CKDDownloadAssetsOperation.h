@@ -6,36 +6,12 @@
 
 #import <CloudKitDaemon/CKDDatabaseOperation.h>
 
-@class CKDCancelTokenGroup, CKDMMCS, NSArray, NSMapTable, NSMutableArray, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
-
 @interface CKDDownloadAssetsOperation : CKDDatabaseOperation
 {
     struct os_unfair_lock_s _prepareLock;
-    NSMutableArray *_prepareMMCSItemsToDownload;
-    NSMutableArray *_prepareMMCSItemsToDownloadInMemory;
-    _Bool _shouldCloneFileInAssetCache;
-    CDUnknownBlockType _downloadPreparationBlock;
-    CDUnknownBlockType _downloadProgressBlock;
-    CDUnknownBlockType _downloadCommandBlock;
-    CDUnknownBlockType _downloadCompletionBlock;
-    CDUnknownBlockType _urlFilledOutBlock;
-    NSMutableDictionary *_keyOrErrorForHostname;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSArray *_assetsToDownload;
-    NSArray *_assetsToDownloadInMemory;
-    NSArray *_assetURLInfosToFillOut;
-    NSArray *_MMCSItemsToDownload;
-    NSArray *_MMCSItemsToDownloadInMemory;
-    NSMutableArray *_assetsToDownloadFromTranscoder;
-    NSMutableArray *_assetsToDownloadFromTranscoderInMemory;
-    NSMapTable *_downloadTasksByPackages;
-    CKDCancelTokenGroup *_cancelTokens;
-    unsigned long long _maxPackageDownloadsPerBatch;
-    CKDMMCS *_mmcs;
 }
 
-+ (id);
++ (id)setRxBACKOverRxCtrlFrmsPercentage:(unsigned long long)arg1;
 - (CDUnknownBlockType);
 - (_Bool);
 - (void);
@@ -53,8 +29,8 @@
 - (unsigned long long);
 - (id);
 - (CDUnknownBlockType);
+- (CDUnknownBlockType)D�5;
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
 - (id);
 - (id);
 - (id);
@@ -79,63 +55,45 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (CDUnknownBlockType);
+- (void)C;
+- (id);
+- (void);
+- (CDUnknownBlockType);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)NSString",&,N,V_trigger;
+- (void)WiFi3BarsNetwork;
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)%x
+;
 - (id);
 - (void);
-- (void);
+- (void)ThreadScopeToDatabase:needsUpdate:lastViewedDate:updateThreadScopeManager:] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
-- (int);
+- (int)ent queue, dispatch it on background;
 - (id);
 - (id);
-- (_Bool)tedMergeFields:outKeysToSend: /* Error: Ran out of types for this method. */;
-- (void)ries;
+- (_Bool)deltaPRecordFromRecord:withAllFields:outDeletedMergeFields:outKeysToSend: /* Error: Ran out of types for this method. */;
+- (void)retries;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *MMCSItemsToDownload; // @synthesize MMCSItemsToDownload=_MMCSItemsToDownload;
-@property(retain, nonatomic) NSArray *MMCSItemsToDownloadInMemory; // @synthesize MMCSItemsToDownloadInMemory=_MMCSItemsToDownloadInMemory;
-@property(retain, nonatomic) NSArray *assetURLInfosToFillOut; // @synthesize assetURLInfosToFillOut=_assetURLInfosToFillOut;
-@property(retain, nonatomic) NSArray *assetsToDownload; // @synthesize assetsToDownload=_assetsToDownload;
-@property(retain, nonatomic) NSMutableArray *assetsToDownloadFromTranscoder; // @synthesize assetsToDownloadFromTranscoder=_assetsToDownloadFromTranscoder;
-@property(retain, nonatomic) NSMutableArray *assetsToDownloadFromTranscoderInMemory; // @synthesize assetsToDownloadFromTranscoderInMemory=_assetsToDownloadFromTranscoderInMemory;
-@property(retain, nonatomic) NSArray *assetsToDownloadInMemory; // @synthesize assetsToDownloadInMemory=_assetsToDownloadInMemory;
-@property(retain, nonatomic) CKDCancelTokenGroup *cancelTokens; // @synthesize cancelTokens=_cancelTokens;
-@property(copy, nonatomic) CDUnknownBlockType downloadCommandBlock; // @synthesize downloadCommandBlock=_downloadCommandBlock;
-@property(copy, nonatomic) CDUnknownBlockType downloadCompletionBlock; // @synthesize downloadCompletionBlock=_downloadCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType downloadPreparationBlock; // @synthesize downloadPreparationBlock=_downloadPreparationBlock;
-@property(copy, nonatomic) CDUnknownBlockType downloadProgressBlock; // @synthesize downloadProgressBlock=_downloadProgressBlock;
-@property(retain, nonatomic) NSMapTable *downloadTasksByPackages; // @synthesize downloadTasksByPackages=_downloadTasksByPackages;
-@property(retain, nonatomic) NSMutableDictionary *keyOrErrorForHostname; // @synthesize keyOrErrorForHostname=_keyOrErrorForHostname;
-@property(nonatomic) unsigned long long maxPackageDownloadsPerBatch; // @synthesize maxPackageDownloadsPerBatch=_maxPackageDownloadsPerBatch;
-@property(retain, nonatomic) CKDMMCS *mmcs; // @synthesize mmcs=_mmcs;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) _Bool shouldCloneFileInAssetCache; // @synthesize shouldCloneFileInAssetCache=_shouldCloneFileInAssetCache;
 @property(nonatomic) unsigned long long state; // @dynamic state;
-@property(copy, nonatomic) CDUnknownBlockType urlFilledOutBlock; // @synthesize urlFilledOutBlock=_urlFilledOutBlock;
 
 @end
 

@@ -14,12 +14,12 @@
 }
 
 + (_Bool);
-- (id);
+- (id)l;
 - (void);
 - (id);
 - (void);
 - (long long);
-- (void)ContainerOptions;
+- (void)_TtC8CloudKit25CloudCoreContainerOptions;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *shareURLsToRequestAccessFor; // @synthesize shareURLsToRequestAccessFor=_shareURLsToRequestAccessFor;

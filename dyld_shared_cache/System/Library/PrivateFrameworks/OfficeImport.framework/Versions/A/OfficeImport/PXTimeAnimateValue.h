@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface PXTimeAnimateValue
 {
     id mVariant;
-    _Bool mHasPercentTime;
-    double mPercentTime;
-    NSString *mFormula;
 }
 
 - (void);
-- (double);
-- (_Bool);
+- (double))	;
+- (_Bool)k;
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void)ats.medium;
 - (id);
 

@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectContext, NSString;
+@class NSManagedObjectContext;
 
 @interface UnknownClass (ICLegacyContext)
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)getServerNames;
+- (_Bool)fileDescriptor;
+- (_Bool)createRecordWithRecordType:name:attributes:error: /* Error: Ran out of types for this method. */;
+- (id);
 - (unsigned long long);
 - (id);
 - (id);
@@ -22,16 +22,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool ic_isHTMLAccountContext;
-@property(readonly, nonatomic) _Bool ic_isModernAccountContext;
-@property(readonly, nonatomic) _Bool ic_isNoteContext;
 @property(readonly, nonatomic) NSManagedObjectContext *managedObjectContext;
-@property(readonly) Class superclass;
 @end
 

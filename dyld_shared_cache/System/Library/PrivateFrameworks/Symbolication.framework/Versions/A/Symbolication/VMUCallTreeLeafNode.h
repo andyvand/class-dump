@@ -6,19 +6,18 @@
 
 #import <Symbolication/VMUCallTreeNode.h>
 
-@class NSCountedSet, NSString;
+@class NSCountedSet;
 
 __attribute__((visibility("hidden")))
 @interface VMUCallTreeLeafNode : VMUCallTreeNode
 {
     NSCountedSet *_addresses;
-    NSString *_combinedName;
 }
 
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)ki;
+- (id)4;
 - (void);
 
 @end

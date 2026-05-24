@@ -9,9 +9,6 @@
 @interface AppStoreKit.RateLimitedAction : AppStoreKit.Action
 {
     id actionKey;
-    id primaryAction;
-    id fallbackAction;
-    id rateLimit;
 }
 
 @end

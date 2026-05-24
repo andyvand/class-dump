@@ -10,7 +10,7 @@
 {
 }
 
-- (id);
+- (id)e (ms):(Class)arg1 %.3f;
 
 @end
 

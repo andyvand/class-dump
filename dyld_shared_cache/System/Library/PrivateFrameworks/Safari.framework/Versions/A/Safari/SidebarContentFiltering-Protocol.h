@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSearchField;
+@class NSSearchField;
 
 @protocol SidebarContentFiltering
 - (NSSearchField *)ÿÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allFilteringControls;
 @property(readonly, nonatomic) NSSearchField *searchField;
 @end
 

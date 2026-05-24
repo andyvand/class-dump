@@ -8,16 +8,13 @@ __attribute__((visibility("hidden")))
 @interface NSDistributedObjectsStatistics
 {
     unsigned long long requestsReceived;
-    unsigned long long repliesSent;
-    unsigned long long requestsSent;
-    unsigned long long repliesReceived;
 }
 
-- (void);
+- (void)8;
 - (id);
 - (id);
-- (id);
-- (id)Object:(struct _NSZone *)arg1 toStream:options:error: /* Error: Ran out of types for this method. */;
+- (id)open ;
+- (id)writeJSONObject:(struct _NSZone *)arg1 toStream:options:error: /* Error: Ran out of types for this method. */;
 - (unsigned long long)HHIIIIJJKKKKKKLLMMNNNNOOOOPPPQRRSSSSTTUUUUUUUVVWWXXYYYZZZ[[\]^^^^^^__`abbccdddddeeefgghiijjjkkllmmmmnnnoooppqrstuuvvvvwwxxxxyz{{|||}}}}}~  ¡¢£¤¥¥¥¥¥¥¥¥¦¦§¨¨¨¨©©©©©©ªªªª«¬­®¯°°±±²³´µµµµ¶¶¶··¸¸¹¹ºººº»»¼¼¼½½½½½½½½½¾¾¿¿ÀÀÁÁÂÃÃÄÅÆÆÇÈÉÉÉÉÊËÌÌÍÎÎÏÐÑÑÒÓÓÓÔÔÕÕÖ××××ØÙÙÚÛÜÜÜÜÜÜÝÞßàááâââãããäääååæççèèèèèéêêêêêêëëìíííîîïïïïïïððññòòòòòóóóôõõõöö÷÷÷øùùúúúúúúûûüýýýýþþþÿÿÿÿÿÿÿÿ;
 
 @end

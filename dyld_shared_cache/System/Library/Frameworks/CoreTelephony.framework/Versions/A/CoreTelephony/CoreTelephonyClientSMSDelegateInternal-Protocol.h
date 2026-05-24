@@ -5,5 +5,15 @@
 //
 
 @protocol CoreTelephonyClientSMSDelegateInternal
+
+@optional
+- (void);
+- (void);
+- (void)C;
+- (void)[;
+- (void)w
+;
+- (void);
+- (void)h;
 @end
 

@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSArray, NSMutableArray;
 
 @interface EMFDPReporterMock
 {
     NSMutableArray *_recordsWritten;
 }
 
-- (id);
-- (void);
-- (id);
+- (id)accountTypesToSkipForSetup;
+- (void)8p;
+- (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSArray *recordsWritten;
-@property(readonly) Class superclass;
 
 @end
 

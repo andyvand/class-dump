@@ -4,36 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol UIKeyboardScenePresentationModeManagerDelegate;
-
 @interface UIKeyboardScenePresentationModeManager
 {
     _Bool _enhancedWindowingModeEnabled;
-    id <UIKeyboardScenePresentationModeManagerDelegate> _delegate;
-    unsigned long long _currentPresentationMode;
 }
 
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
+- (void)evice to device encryption, aborting sync;
+- (void)pleted processing Clear Collaboration Notice protobuf fromHandle:(_Bool)arg1 %@, notice:%@ /* Error: Ran out of types for this method. */;
+- (void)rt:(unsigned long long)arg1;
+- (unsigned long long)to Tell all my clients that message with GUID %@ has been delivered;
+- (unsigned long long)e now]:%@ /* Error: Ran out of types for this method. */;
+- (unsigned long long):Telling session it became active /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (id)á!ÜAù[1Â0@ù
 × ;
 - (void)@0:(id)arg1 8^{CGImage=}16@24;
-- (unsigned long long)mn: /* Error: Ran out of types for this method. */;
-- (void)rdShortcutTrailingToTrailing;
+- (unsigned long long)maximumWidthForSplitViewControllerColumn: /* Error: Ran out of types for this method. */;
+- (void)keyboardShortcutTrailingToTrailing;
 - (void)à§e;
 
 // Remaining properties
-@property(nonatomic) unsigned long long currentPresentationMode; // @synthesize currentPresentationMode=_currentPresentationMode;
-@property(nonatomic) __weak id <UIKeyboardScenePresentationModeManagerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(nonatomic) _Bool enhancedWindowingModeEnabled; // @synthesize enhancedWindowingModeEnabled=_enhancedWindowingModeEnabled;
-@property(readonly, nonatomic) unsigned long long presentationMode;
 
 @end
 

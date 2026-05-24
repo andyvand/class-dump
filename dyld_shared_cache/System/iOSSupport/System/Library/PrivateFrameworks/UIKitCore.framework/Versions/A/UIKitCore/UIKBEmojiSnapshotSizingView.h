@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
     UIView *_snapshotView;
 }
 
-- (id);
+- (id)reatedDate:(id)arg1 %@;
 - (struct CGSize)0@ù
 × ;
 - (void)Ð¸éÿª;

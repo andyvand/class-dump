@@ -6,14 +6,12 @@
 
 #import <SAObjects/SAMPMediaEntity.h>
 
-@class NSArray;
-
 @interface SAMPCollection : SAMPMediaEntity
 {
 }
 
 + (id);
-+ (id)istPlayablesWithDictionary:context: /* Error: Ran out of types for this method. */;
++ (id)getWatchListPlayablesWithDictionary:context: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
@@ -23,7 +21,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool editable;
-@property(copy, nonatomic) NSArray *items;
 
 @end
 

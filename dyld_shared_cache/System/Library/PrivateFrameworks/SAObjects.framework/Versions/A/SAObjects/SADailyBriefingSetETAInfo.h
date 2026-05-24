@@ -19,16 +19,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)nt _reregisterProfileIDs];
+- (void)P;
 - (_Bool);
-- (id)ecipients;
+- (id)msgRecipients;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *destination;
-@property(nonatomic) double eta;
-@property(copy, nonatomic) NSString *transportType;
-@property(copy, nonatomic) NSString *viaRoute;
 
 @end
 

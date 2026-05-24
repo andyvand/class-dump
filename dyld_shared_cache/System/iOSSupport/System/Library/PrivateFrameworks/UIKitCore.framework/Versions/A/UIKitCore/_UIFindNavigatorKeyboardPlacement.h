@@ -11,9 +11,9 @@
     _Bool _asInputAccessoryView;
 }
 
-- (void);
-- (id);
-- (_Bool);
+- (void)tring"48@"IDSMessageContext"56;
+- (id)Store:chatRegistry:accountController:storageController:recentsController:attachmentStore: /* Error: Ran out of types for this method. */;
+- (_Bool)IMBalloonPluginPipelineParameter;
 
 // Remaining properties
 @property(nonatomic) _Bool asInputAccessoryView; // @synthesize asInputAccessoryView=_asInputAccessoryView;

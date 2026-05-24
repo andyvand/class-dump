@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface UnknownClass (MediaPlaybackCore)
 - (void);
 - (long long);
@@ -13,6 +11,5 @@
 
 // Remaining properties
 @property(nonatomic, readonly) long long playbackType;
-@property(nonatomic, readonly) NSDictionary *stateDictionary;
 @end
 

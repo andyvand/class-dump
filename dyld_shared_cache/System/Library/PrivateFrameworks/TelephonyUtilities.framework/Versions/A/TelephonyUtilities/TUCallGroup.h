@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface TUCallGroup
 {
@@ -13,12 +13,12 @@
 
 - (_Bool);
 - (id);
-- (id);
+- (id)H;
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)>R;
 - (void);
 - (int);
 - (id);
@@ -26,8 +26,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *calls; // @synthesize calls=_calls;
-@property(readonly, copy, nonatomic) NSString *displayName;
-@property(readonly, nonatomic) int status;
 
 @end
 

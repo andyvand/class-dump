@@ -8,8 +8,8 @@
 {
 }
 
-+ (long long);
-+ (id);
++ (long long)s];
++ (id)NSRange=QQ}16{_NSRange=QQ}32^B48;
 + (long long);
 - (id);
 

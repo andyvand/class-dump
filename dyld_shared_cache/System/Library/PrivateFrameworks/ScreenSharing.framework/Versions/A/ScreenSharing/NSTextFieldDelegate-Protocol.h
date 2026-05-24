@@ -5,5 +5,8 @@
 //
 
 @protocol NSTextFieldDelegate
+
+@optional
+- (_Bool)J;
 @end
 

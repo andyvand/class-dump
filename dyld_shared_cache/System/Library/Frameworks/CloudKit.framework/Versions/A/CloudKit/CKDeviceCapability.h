@@ -23,7 +23,7 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)initWithShiftValue:scaleValue:description:configuration: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
@@ -32,11 +32,7 @@
 - (int);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, readonly) int level;
 @property(nonatomic, readonly) NSString *name;
-@property(nonatomic, readonly) NSString *value;
 
 @end
 

@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)m;
 
 // Remaining properties
 @property(readonly, nonatomic) id <CHContactDataSource> dataSource; // @synthesize dataSource=_dataSource;

@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (id);
-- (id)mageInsets;
+- (id)_nameImageInsets;
 - (void)Internal/Library/BuildRoots/4~CNquugBHTJeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCArticle.m;
 
 // Remaining properties

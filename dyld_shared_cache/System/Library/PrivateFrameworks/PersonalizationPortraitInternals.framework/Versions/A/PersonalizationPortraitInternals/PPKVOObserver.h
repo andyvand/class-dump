@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface PPKVOObserver
 {
     NSString *_name;
-    NSString *_key;
-    id _observee;
-    CDUnknownBlockType _handler;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (id);
 - (void);
-- (void);
+- (void)Associating location item with guid %@ to chat.;
 - (void)reInputSet";
 
 @end

@@ -7,8 +7,10 @@
 @class NSString;
 
 @protocol FCNewsWidgetConfiguration
+- (long long):%@ /* Error: Ran out of types for this method. */;
 
 @optional
+- (_Bool):%s /* Error: Ran out of types for this method. */;
 - (long long)ame:%@; /* Error: Ran out of types for this method. */;
 - (long long)46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCCKPrivateDatabaseSchema.m;
 - (long long)s/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCChannelIssuesFetchOperation.m;
@@ -17,77 +19,11 @@
 - (long long)istory-commands;
 - (long long)ey-value store <%{public}@> will save %lu pairs;
 - (_Bool)te model from database, recordID=%{public}@, error=%{public}@;
-- (long long);
-- (long long)difiedAt;
+- (unsigned int);
+- (long long)_modifiedAt;
 - (long long)ÿ*Äÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) long long smallWidgetSystemHoneymoonDuration;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long smallWidgetSystemReloadInterval;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long smallWidgetSystemReloadIntervalHoneymoon;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long smallWidgetSystemReloadJitterMax;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long smallWidgetSystemReloadJitterMaxHoneymoon;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) _Bool userSegmentationInWidgetAllowed;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool widgetAnalyticsEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool widgetBackgroundInteractionEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(readonly, nonatomic) NSString *widgetConfigID;
-@property(readonly, nonatomic) _Bool widgetContentPrefetchEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool widgetFetchOfTodayFeedLiteConfigEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) long long widgetMinimumArticleExposureDurationToBePreseenInMilliseconds;
-@property(readonly, nonatomic) unsigned int widgetMinimumNumberOfTimesPreseenToBeSeen;
-@property(readonly, nonatomic) long long widgetSystemHoneymoonDuration;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long widgetSystemReloadInterval;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long widgetSystemReloadIntervalHoneymoon;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long widgetSystemReloadJitterMax;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long widgetSystemReloadJitterMaxHoneymoon;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) double widgetTelemetrySamplingRate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
 @end
 

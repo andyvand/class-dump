@@ -11,7 +11,6 @@
 @interface PXCuratedLibraryLayoutZoomLevelChangeToOrFromAllPhotosAnimationHelper : PXCuratedLibraryLayoutAnimationHelper
 {
     _PXCuratedLibraryLayoutAssetsSnapshot *_fromSnapshot;
-    _PXCuratedLibraryLayoutAssetsSnapshot *_toSnapshot;
 }
 
 - (void);

@@ -6,19 +6,17 @@
 
 #import <UIKitCore/UIButton.h>
 
-@class UIImage, UIImageView;
+@class UIImageView;
 
 __attribute__((visibility("hidden")))
 @interface UIScriptSwitcherButton : UIButton
 {
     UIImageView *_contentImageView;
-    UIImage *_image;
-    struct NSDirectionalEdgeInsets _contentInsets;
 }
 
 - (void);
-- (id);
-- (void);
+- (id)@);
+- (void));
 - (void);
 - (void);
 - (struct CGSize);
@@ -34,8 +32,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) UIImageView *contentImageView; // @synthesize contentImageView=_contentImageView;
-@property(nonatomic) struct NSDirectionalEdgeInsets contentInsets; // @synthesize contentInsets=_contentInsets;
-@property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
 
 @end
 

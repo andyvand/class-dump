@@ -9,7 +9,7 @@
 }
 
 + (id);
-+ (id);
++ (id)ID:0x%lx channelID:%u behavior:%u /* Error: Ran out of types for this method. */;
 
 @end
 

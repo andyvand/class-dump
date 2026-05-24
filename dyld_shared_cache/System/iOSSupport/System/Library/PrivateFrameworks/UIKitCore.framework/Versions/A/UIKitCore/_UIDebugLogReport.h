@@ -10,29 +10,26 @@ __attribute__((visibility("hidden")))
 @interface _UIDebugLogReport
 {
     unsigned long long _currentIndentLevel;
-    CDUnknownBlockType _fallbackMessagePrefixHandler;
-    NSMutableArray *_statements;
-    NSMutableArray *_prefixStack;
 }
 
+- (void)ryReporter";
+- (void)o:(unsigned long long)arg1 representations:isLQMEnabled:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)requestVCWithPerson:properties:conference:account: /* Error: Ran out of types for this method. */;
+- (void)persistedDictionaryRepresentation;
+- (void)persistToken:(id)arg1 forKey: /* Error: Ran out of types for this method. */;
+- (void)loadDataForTransfer: /* Error: Ran out of types for this method. */;
+- (void)_receiveFileTransfer:(id)arg1 transferID:balloonBundleID:senderContext:progressBlock:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)_rebuildUnreadMessageCountRefreshingReports:guids:delta: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)_checkMMSEnablementForPhoneNumber:simID: /* Error: Ran out of types for this method. */;
+- (void)handleMessageDeliveryReceiptWithPipeline:input:completionBlock: /* Error: Ran out of types for this method. */;
+- (void),N,V_toParticipants;
+- (unsigned long long)_didReceivePotentialCollaborationMessage:forChat:style:account: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)sending edit of message. GUID:%@ /* Error: Ran out of types for this method. */;
+- (id)r:(unsigned long long)arg1 %@ account:%@ result:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (unsigned long long);
@@ -41,10 +38,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long currentIndentLevel; // @synthesize currentIndentLevel=_currentIndentLevel;
-@property(copy, nonatomic) CDUnknownBlockType fallbackMessagePrefixHandler; // @synthesize fallbackMessagePrefixHandler=_fallbackMessagePrefixHandler;
-@property(readonly, nonatomic) unsigned long long messageCount;
-@property(retain, nonatomic, getter=_prefixStack) NSMutableArray *prefixStack; // @synthesize prefixStack=_prefixStack;
 @property(retain, nonatomic, getter=_statements) NSMutableArray *statements; // @synthesize statements=_statements;
 
 @end

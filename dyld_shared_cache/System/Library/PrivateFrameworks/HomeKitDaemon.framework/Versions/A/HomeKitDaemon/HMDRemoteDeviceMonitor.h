@@ -4,46 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccountRegistry, HMDAppleAccountManager, HMDIDSActivityMonitorObserver, HMDRemoteAccountManager, HMFNetMonitor, HMFTimer, IDSAccount, NSArray, NSMapTable, NSObject, NSOperationQueue, NSString;
-@protocol HMDIDSService, HMDRemoteDeviceMonitorFactory, OS_dispatch_queue;
+@class HMDAccountRegistry;
 
 __attribute__((visibility("hidden")))
 @interface HMDRemoteDeviceMonitor
 {
     struct os_unfair_lock_s _lock;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSOperationQueue *_operationQueue;
-    _Bool _reachable;
-    _Bool _started;
-    HMDAccountRegistry *_accountRegistry;
-    id <HMDIDSService> _service;
-    IDSAccount *_iCloudAccount;
-    HMDIDSActivityMonitorObserver *_activityObserver;
-    HMDAppleAccountManager *_accountManager;
-    HMDRemoteAccountManager *_remoteAccountManager;
-    HMFNetMonitor *_netMonitor;
-    id <HMDRemoteDeviceMonitorFactory> _factory;
-    NSMapTable *_deviceInformationByDevice;
-    HMFTimer *_deviceHealthTimer;
-    HMFTimer *_initialDeviceHealthTimer;
 }
 
 + (id);
 + (id)î÷t[B;
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)#;
+- (void));
 - (void);
 - (id);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)6locale_SS12relationshipSS5aliastG;
 - (void);
 - (id);
 - (void);
@@ -61,21 +45,12 @@ __attribute__((visibility("hidden")))
 - (id)orts - trying the next link;
 - (id)gator:Skipping matching deviceIRK for accessory:%@ /* Error: Ran out of types for this method. */;
 - (void)Failed to handle received accessory public pairing identity due to missing backing store context:(id)arg1 %@;
-- (void)ickAccessories;
+- (void)numTelevisionStreamingStickAccessories;
 - (void)HIP wed support;
 - (_Bool)ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) HMDAccountRegistry *accountRegistry; // @synthesize accountRegistry=_accountRegistry;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, getter=isReachable) _Bool reachable; // @synthesize reachable=_reachable;
-@property(readonly) Class superclass;
-@property(readonly) NSArray *unreachableDevices;
 
 @end
 

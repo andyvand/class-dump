@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString, NSXPCConnection, NSXPCListener;
-@protocol AuthenticationHintsDelegate, OS_dispatch_queue, OS_os_transaction;
+@class NSXPCConnection;
 
 @interface SFAuthenticationHintsProvider
 {
     NSXPCConnection *_userConnection;
-    NSXPCConnection *_clientConnection;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSXPCListener *_listener;
-    NSObject<OS_os_transaction> *_transaction;
-    id <AuthenticationHintsDelegate> _hintsDelegate;
-    NSMutableDictionary *_userXPCConnections;
 }
 
 + (void);
@@ -29,7 +22,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)#;
 - (void);
 - (_Bool);
 - (void);
@@ -39,32 +32,19 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (id);
 - (void);
 - (_Bool);
 - (id)SDXPCUserNotificationInterface;
-- (void)Token;
+- (void)keyBagToken;
 
 // Remaining properties
-@property(retain) NSXPCConnection *clientConnection; // @synthesize clientConnection=_clientConnection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(readonly) unsigned long long hash;
-@property(retain) id <AuthenticationHintsDelegate> hintsDelegate; // @synthesize hintsDelegate=_hintsDelegate;
-@property(retain) NSXPCListener *listener; // @synthesize listener=_listener;
-@property(readonly) Class superclass;
-@property(retain) NSObject<OS_os_transaction> *transaction; // @synthesize transaction=_transaction;
 @property(retain) NSXPCConnection *userConnection; // @synthesize userConnection=_userConnection;
-@property(retain) NSMutableDictionary *userXPCConnections; // @synthesize userXPCConnections=_userXPCConnections;
 
 @end
 

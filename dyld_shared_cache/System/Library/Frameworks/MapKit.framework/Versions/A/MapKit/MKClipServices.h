@@ -12,14 +12,14 @@
     NSObject<OS_dispatch_queue> *_requestAppClipMetadataQueue;
 }
 
-+ (id): /* Error: Ran out of types for this method. */;
++ (id)animationMatchingCurrentAnimationParametersWithName: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
+- (id)VNFaceAnalyzerMultiDetectorProcessingOptionFaceprintForceFaceprintCreation;
+- (void)enumerateObjectsUsingBlock: /* Error: Ran out of types for this method. */;
 
 @end
 

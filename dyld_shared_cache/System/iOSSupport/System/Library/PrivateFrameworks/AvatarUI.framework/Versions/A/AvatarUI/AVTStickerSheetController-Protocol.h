@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol AVTAvatarRecord, AVTStickerDisclosureValidationDelegate, AVTStickerSheetControllerDelegate;
-
 @protocol AVTStickerSheetController
 
+@optional
+- (struct UIEdgeInsets);
+
 // Remaining properties
-@property(readonly, nonatomic) id <AVTAvatarRecord> avatarRecord;
-@property(nonatomic) __weak id <AVTStickerSheetControllerDelegate> delegate;
-@property(nonatomic) __weak id <AVTStickerDisclosureValidationDelegate> disclosureValidationDelegate;
 @property(nonatomic) struct UIEdgeInsets sectionInsets;
 @end
 

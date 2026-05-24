@@ -12,29 +12,23 @@ __attribute__((visibility("hidden")))
 @interface _UITextSelectionRangeView : UIView
 {
     UIColor *_selectionColor;
-    UIColor *_selectionBorderColor;
-    double _selectionBorderWidth;
 }
 
-+ (Class);
++ (Class)allowsNowPlayingApplicationLaunch;
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void)enuPresentationLayout";
 - (double)B,GisPresentation,V_presentation;
-- (struct CGPath *)ndidateReceiver;
+- (struct CGPath *)TUIKeyboardCandidateReceiver;
 - (void);
 - (void)°f];
 
 // Remaining properties
-@property(nonatomic) struct CGPath *path;
 @property(readonly, nonatomic) CAShapeLayer *pathLayer;
-@property(retain, nonatomic) UIColor *selectionBorderColor; // @synthesize selectionBorderColor=_selectionBorderColor;
-@property(nonatomic) double selectionBorderWidth; // @synthesize selectionBorderWidth=_selectionBorderWidth;
-@property(retain, nonatomic) UIColor *selectionColor; // @synthesize selectionColor=_selectionColor;
 
 @end
 

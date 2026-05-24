@@ -11,29 +11,23 @@
 @interface SSUsernamePasswordCredentials : SSCredentials
 {
     _Bool _serverSupportsSRP;
-    NSString *_username;
-    NSString *_password;
-    NSString *_label;
 }
 
 + (id);
 + (id);
-+ (id);
-- (void);
++ (id);
+- (void)T;
 - (_Bool);
-- (id);
+- (id)6;
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(retain) NSString *label; // @synthesize label=_label;
-@property(retain) NSString *password; // @synthesize password=_password;
-@property _Bool serverSupportsSRP; // @synthesize serverSupportsSRP=_serverSupportsSRP;
 @property(retain) NSString *username; // @synthesize username=_username;
 
 @end

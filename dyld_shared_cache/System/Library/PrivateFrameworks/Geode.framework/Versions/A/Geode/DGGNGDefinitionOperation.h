@@ -11,7 +11,6 @@
 @interface DGGNGDefinitionOperation : DGOperation
 {
     NSNumber *_inputRadius;
-    NSNumber *_inputIntensity;
 }
 
 + (id);
@@ -24,7 +23,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id).rrrr + s.gggg + s.bbbb) * 0.33333; 
     float highlightcoeff = luma.x * luma.x * (3.0 - 2.0 * luma.x);
     float shadowcoeff = 1.0 - highlightcoeff;
@@ -47,7 +46,6 @@
 ;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *inputIntensity; // @synthesize inputIntensity=_inputIntensity;
 @property(copy, nonatomic) NSNumber *inputRadius; // @synthesize inputRadius=_inputRadius;
 
 @end

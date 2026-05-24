@@ -4,42 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface RichLinkAttachmentSubstituter
 {
     _Bool _shouldSubstituteAttachments;
-    _Bool _shouldIgnoreAppStoreMetadata;
-    NSMutableArray *_archivedAttachments;
-    NSArray *_attachmentsForUnarchiving;
 }
 
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)tuConversationBalloonTitleFont;
+- (_Bool)tuConversationBalloonLabelTrailingPadding;
+- (void)translationIndicatorCellDidSelectStopTranslation:(_Bool)arg1;
+- (void)transcriptSatelliteAvailabilityFontAttributes;
+- (id)toolbarItemsForRecentlyDeletedFilterHasConversations:hasSelectedConversations: /* Error: Ran out of types for this method. */;
+- (id)toolbarDefaultItemIdentifiers: /* Error: Ran out of types for this method. */;
+- (id)tokenWithIcon:(id)arg1 text: /* Error: Ran out of types for this method. */;
+- (void)tableView:(_Bool)arg1 viewForHeaderInSection: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)encryptedMessage;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSMutableArray *archivedAttachments; // @synthesize archivedAttachments=_archivedAttachments;
-@property(copy, nonatomic) NSArray *attachmentsForUnarchiving; // @synthesize attachmentsForUnarchiving=_attachmentsForUnarchiving;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool shouldIgnoreAppStoreMetadata; // @synthesize shouldIgnoreAppStoreMetadata=_shouldIgnoreAppStoreMetadata;
-@property(nonatomic) _Bool shouldSubstituteAttachments; // @synthesize shouldSubstituteAttachments=_shouldSubstituteAttachments;
-@property(readonly) Class superclass;
 
 @end
 

@@ -11,14 +11,11 @@
 @interface GLKReflectionMapEffect : GLKBaseEffect
 {
     GLKEffectPropertyTexture *_textureCubeMap;
-    union _GLKMatrix3 _matrix;
-    _Bool _dirtyUniforms;
-    int _matrixLoc;
 }
 
-- (id);
+- (id)R;
 - (void);
-- (void);
+- (void);
 - (void);
 - (int);
 - (_Bool);
@@ -30,9 +27,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool dirtyUniforms; // @synthesize dirtyUniforms=_dirtyUniforms;
-@property(nonatomic) union _GLKMatrix3 matrix; // @synthesize matrix=_matrix;
-@property(nonatomic) int matrixLoc; // @synthesize matrixLoc=_matrixLoc;
-@property(readonly, nonatomic) GLKEffectPropertyTexture *textureCubeMap; // @synthesize textureCubeMap=_textureCubeMap;
 
 @end
 

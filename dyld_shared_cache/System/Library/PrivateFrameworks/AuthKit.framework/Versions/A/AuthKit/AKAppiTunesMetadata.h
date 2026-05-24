@@ -9,12 +9,6 @@
 @interface AKAppiTunesMetadata
 {
     _Bool _hasEula;
-    NSString *_bundleId;
-    NSString *_appName;
-    NSString *_appDeveloperName;
-    NSString *_adamID;
-    NSString *_privacyURL;
-    NSString *_eula;
 }
 
 - (void);
@@ -24,23 +18,17 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)R#;
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)9;
 - (void)¸<;
 - (id)÷}H1K^Y»ÏÍ6[ñ«Nét,C½üfí$¥M¬çæ­ÕôIÞ3ÒVsêoÀi¹`Ü0ÿ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *adamID; // @synthesize adamID=_adamID;
-@property(copy, nonatomic) NSString *appDeveloperName; // @synthesize appDeveloperName=_appDeveloperName;
-@property(copy, nonatomic) NSString *appName; // @synthesize appName=_appName;
 @property(copy, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(readonly, copy, nonatomic) NSString *eula; // @synthesize eula=_eula;
-@property(nonatomic) _Bool hasEula; // @synthesize hasEula=_hasEula;
-@property(copy, nonatomic) NSString *privacyURL; // @synthesize privacyURL=_privacyURL;
 
 @end
 

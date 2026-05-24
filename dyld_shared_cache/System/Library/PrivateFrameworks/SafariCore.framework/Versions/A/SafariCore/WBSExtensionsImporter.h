@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSMutableArray, NSString;
+@class NSError;
 @protocol WBSExtensionsImporterDelegate;
 
 @interface WBSExtensionsImporter
 {
     NSError *_lastError;
-    NSMutableArray *_stack;
-    _Bool _foundExtensionsArray;
-    NSString *_composedIdentifier;
-    NSString *_developerName;
-    NSString *_displayName;
-    NSString *_adamIdentifier;
-    NSString *_alternatePlatformAppBundleIdentifier;
-    NSString *_alternatePlatformExtensionBundleIdentifier;
-    id <WBSExtensionsImporterDelegate> _delegate;
 }
 
 + (id);
@@ -32,10 +23,10 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)newTextStorageOriginalFontSavvyWithString:attributes: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)ÑX1Â0@ù
 × ;

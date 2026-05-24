@@ -6,13 +6,9 @@
 
 #import <PhotosUICore/PXDataSectionManager.h>
 
-@class NSString, PXDataSectionEnablementForwarder;
-
 @interface PXStackedDataSectionManager : PXDataSectionManager
 {
     _Bool _enabled;
-    _Bool _alwaysContainsObjects;
-    PXDataSectionEnablementForwarder *_enablementForwarder;
 }
 
 - (void);
@@ -24,25 +20,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)T;
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)=;
 - (void)k»!Õ;
 
 // Remaining properties
 @property(nonatomic) _Bool alwaysContainsObjects; // @synthesize alwaysContainsObjects=_alwaysContainsObjects;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(retain, nonatomic) PXDataSectionEnablementForwarder *enablementForwarder; // @synthesize enablementForwarder=_enablementForwarder;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

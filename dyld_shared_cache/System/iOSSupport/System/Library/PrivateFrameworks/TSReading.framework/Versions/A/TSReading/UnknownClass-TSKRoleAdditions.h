@@ -5,22 +5,22 @@
 //
 
 @interface UnknownClass (TSKRoleAdditions)
+- (id);
 - (id);
+- (void);
+- (void);
+- (void)];
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)6;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (long long);
@@ -32,10 +32,10 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)(a!@e;
 @end
 

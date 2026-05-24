@@ -6,22 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PLUSSchemaPLUSRECTIFIPatternSequenceGenerated : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_patternId;
-    NSArray *_sequences;
-    NSArray *_constraints;
-    SISchemaUUID *_originalRequestId;
-    unsigned int _numberOfRequestsReviewed;
-    unsigned int _numberOfUniqueRequestsReviewed;
-    struct {
-        unsigned int numberOfRequestsReviewed:1;
-        unsigned int numberOfUniqueRequestsReviewed:1;
-    } _has;
-    _Bool _hasPatternId;
-    _Bool _hasOriginalRequestId;
 }
 
 - (void);
@@ -57,31 +46,21 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)A;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)rror! being called in a process that is not in IMDPersistenceAgent!;
 - (id);
 - (id);
-- (id)lueDisambiguation;
+- (id)_hasValueDisambiguation;
 - (id)TB,N,V_hasIntelligenceFlowQuerySent;
-- (unsigned long long)SON_UNSUPPORTED_RESPONSE;
-- (void)ITYINTENT__INTENTHANDLEDRESPONSE__TITLE;
+- (unsigned long long)FLOWLOCATIONACCESSPERMISSIONFAILUREREASON_UNSUPPORTED_RESPONSE;
+- (void)DIALOGENGINENAMEDENTITYPARAMETER__UPDATEMEDIAAFFINITYINTENT__INTENTHANDLEDRESPONSE__TITLE;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *constraints; // @synthesize constraints=_constraints;
-@property(nonatomic) _Bool hasNumberOfRequestsReviewed;
-@property(nonatomic) _Bool hasNumberOfUniqueRequestsReviewed;
-@property(nonatomic) _Bool hasOriginalRequestId; // @synthesize hasOriginalRequestId=_hasOriginalRequestId;
-@property(nonatomic) _Bool hasPatternId; // @synthesize hasPatternId=_hasPatternId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int numberOfRequestsReviewed; // @synthesize numberOfRequestsReviewed=_numberOfRequestsReviewed;
-@property(nonatomic) unsigned int numberOfUniqueRequestsReviewed; // @synthesize numberOfUniqueRequestsReviewed=_numberOfUniqueRequestsReviewed;
-@property(retain, nonatomic) SISchemaUUID *originalRequestId; // @synthesize originalRequestId=_originalRequestId;
 @property(retain, nonatomic) SISchemaUUID *patternId; // @synthesize patternId=_patternId;
-@property(copy, nonatomic) NSArray *sequences; // @synthesize sequences=_sequences;
 
 @end
 

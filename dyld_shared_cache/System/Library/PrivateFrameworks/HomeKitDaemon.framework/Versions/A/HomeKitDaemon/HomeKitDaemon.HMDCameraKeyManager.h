@@ -9,15 +9,6 @@
 @interface HomeKitDaemon.HMDCameraKeyManager
 {
     id $defaultActor;
-    id notificationCenter;
-    id accessory;
-    id taskManager;
-    id logIdentifier;
-    id uniqueIdentifier;
-    id taskIdentifier;
-    id keyManagementService;
-    id keyCharacteristic;
-    id cameraKeyProviderFactory;
 }
 
 - (void);

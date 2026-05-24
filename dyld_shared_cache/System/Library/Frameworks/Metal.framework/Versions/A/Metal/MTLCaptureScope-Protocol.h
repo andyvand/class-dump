@@ -5,17 +5,15 @@
 //
 
 @class NSString;
-@protocol MTL4CommandQueue, MTLCommandQueue, MTLDevice;
+@protocol MTLCommandQueue, MTLDevice;
 
 @protocol MTLCaptureScope
+- (id <MTLDevice>)anglebracketleft;
 - (void)ffset:(NSString *)arg1 toBuffer:sizeBufferOffset: /* Error: Ran out of types for this method. */;
-- (void)orSupported;
+- (void)isCustomBorderColorSupported;
 - (id <MTLCommandQueue>)MTLVertexStepFunctionPerInstance.;
 
 // Remaining properties
-@property(readonly, nonatomic) id <MTLCommandQueue> commandQueue;
-@property(readonly, nonatomic) id <MTLDevice> device;
 @property(copy) NSString *label;
-@property(readonly, nonatomic) id <MTL4CommandQueue> mtl4CommandQueue;
 @end
 

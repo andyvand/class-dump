@@ -6,39 +6,28 @@
 
 #import <AppKit/NSTouchBarColorPickerSliders.h>
 
-@class NSTouchBarColorPickerSliderArtworkProvider, NSTouchBarColorPickerSliderCMYKArtworkProvider;
-
 __attribute__((visibility("hidden")))
 @interface NSTouchBarColorPickerSlidersCMYK : NSTouchBarColorPickerSliders
 {
 }
 
-+ (id);
-+ (id);
++ (id)_kCFNTimingDataRemoteAddressAndPort;
++ (id)ND port = ? AND type = ?);
 + (id);
 + (id)@, %ld laps from %0.1f to %0.1f in %ld steps per leg; step size of:%0.1f. Layer-backed:%@ /* Error: Ran out of types for this method. */;
 - (id);
+- (id)NSMemoryHTTPCookie2Storage;
+- (double)ublic}@;
+- (double)receive HTTP response;
+- (double)%@ error %@;
+- (double)g %{public}@;
+- (double)tart load for %{public}@;
+- (id),;
 - (id);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (id);
-- (id);
-- (id);
+- (id)XOUT_VALUE;
 
 // Remaining properties
-@property(readonly, copy) NSTouchBarColorPickerSliderArtworkProvider *_alphaArtworkProvider;
-@property(readonly, copy) NSTouchBarColorPickerSliderCMYKArtworkProvider *_blackArtworkProvider;
-@property(readonly, copy) NSTouchBarColorPickerSliderCMYKArtworkProvider *_cyanArtworkProvider;
-@property(readonly) double _displayedAlphaComponent;
-@property(readonly) double _displayedBlackComponent;
 @property(readonly) double _displayedCyanComponent;
-@property(readonly) double _displayedMagentaComponent;
-@property(readonly) double _displayedYellowComponent;
-@property(readonly, copy) NSTouchBarColorPickerSliderCMYKArtworkProvider *_magentaArtworkProvider;
-@property(readonly, copy) NSTouchBarColorPickerSliderCMYKArtworkProvider *_yellowArtworkProvider;
 
 @end
 

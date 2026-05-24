@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NFApplet, NSData;
+@class NFApplet;
 
 @interface NFAppletExtraInfo
 {
     NFApplet *_applet;
-    NSData *_ssdAID;
-    NSData *_obgk;
 }
 
 + (id);
@@ -18,12 +16,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)c;
 
 // Remaining properties
 @property(readonly, nonatomic) NFApplet *applet; // @synthesize applet=_applet;
-@property(readonly, nonatomic) NSData *obgk; // @synthesize obgk=_obgk;
-@property(readonly, nonatomic) NSData *ssdAID; // @synthesize ssdAID=_ssdAID;
 
 @end
 

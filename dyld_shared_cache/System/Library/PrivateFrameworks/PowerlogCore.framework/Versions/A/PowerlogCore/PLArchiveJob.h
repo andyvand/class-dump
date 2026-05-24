@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PLArchiveEntry, PLTimer;
+@class PLTimer;
 @protocol PLArchiveJobManager;
 
 @interface PLArchiveJob
 {
     id <PLArchiveJobManager> _manager;
-    PLArchiveEntry *_archiveEntry;
-    PLTimer *_watchdog;
 }
 
 + (SEL);
@@ -40,13 +38,9 @@
 - (id);
 - (void);
 - (void);
-- (void)gEntries;
+- (void)logEntries;
 
 // Remaining properties
-@property(retain) PLArchiveEntry *archiveEntry; // @synthesize archiveEntry=_archiveEntry;
-@property(retain) id <PLArchiveJobManager> manager; // @synthesize manager=_manager;
-@property(nonatomic) unsigned long long numAttempts;
-@property(nonatomic) long long stage;
 @property(retain) PLTimer *watchdog; // @synthesize watchdog=_watchdog;
 
 @end

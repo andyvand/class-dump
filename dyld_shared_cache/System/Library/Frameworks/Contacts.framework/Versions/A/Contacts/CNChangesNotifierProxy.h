@@ -4,24 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNCoalescingTimer, NSCountedSet, NSMapTable, NSMutableDictionary, NSObject, NSString;
-@protocol CNContactsLoggerProvider, CNSchedulerProvider, OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface CNChangesNotifierProxy
 {
     _Bool forwardsSelfGeneratedDistributedSaveNotifications;
-    double _externalNotificationCoalescingDelay;
-    NSMapTable *_removalBlocks;
-    NSMapTable *_notifyingBlocks;
-    id <CNSchedulerProvider> _schedulerProvider;
-    id <CNContactsLoggerProvider> _loggerProvider;
-    NSMutableDictionary *_notificationForwardingMapping;
-    NSCountedSet *_supressedNotificationNames;
-    NSMutableDictionary *_notificationsToBeSentOnceAllowed;
-    NSObject<OS_dispatch_queue> *_notifierQueue;
-    CNCoalescingTimer *_coalescingTimer;
-    NSString *_coalescingNotificationName;
 }
 
 - (void);
@@ -29,20 +15,12 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)dwareVolume:hardwareRole:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void)agedObject"16;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double externalNotificationCoalescingDelay; // @synthesize externalNotificationCoalescingDelay=_externalNotificationCoalescingDelay;
 @property(nonatomic) _Bool forwardsSelfGeneratedDistributedSaveNotifications; // @synthesize forwardsSelfGeneratedDistributedSaveNotifications;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

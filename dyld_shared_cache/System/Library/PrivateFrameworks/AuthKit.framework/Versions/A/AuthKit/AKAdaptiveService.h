@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCInterface, NSXPCListener;
+@class NSXPCInterface;
 
 @interface AKAdaptiveService
 {
     NSXPCInterface *_exportedInterface;
-    id _exportedObject;
-    NSXPCListener *_listener;
-    NSXPCInterface *_remoteObjectInterface;
-    CDUnknownBlockType _interruptionHandler;
-    CDUnknownBlockType _invalidationHandler;
 }
 
 - (id);
@@ -24,26 +19,17 @@
 - (CDUnknownBlockType);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)tsoffset option with length %u != 8;
 - (_Bool);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)_kMDItemEventRelatedSourceBundleIdentifiers;
 - (void);
 - (id)Pù;
 - (void)¨Ô;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType interruptionHandler; // @synthesize interruptionHandler=_interruptionHandler;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
 @property(retain, nonatomic) NSXPCInterface *remoteObjectInterface; // @synthesize remoteObjectInterface=_remoteObjectInterface;
-@property(readonly) Class superclass;
 
 @end
 

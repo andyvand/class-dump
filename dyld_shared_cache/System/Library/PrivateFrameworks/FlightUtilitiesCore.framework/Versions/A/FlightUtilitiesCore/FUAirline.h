@@ -4,41 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface FUAirline
 {
     NSString *_IATACode;
-    NSString *_FAACode;
-    NSString *_name;
-    NSString *_phoneNumber;
-    NSURL *_URL;
 }
 
 + (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)P;
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
+- (id)	;
 - (id);
 - (void);
+- (_Bool);
 - (id);
 - (void);
+- (id)erName value is empty.;
+- (void)H;
 - (void);
 
 // Remaining properties
-@property(retain) NSString *FAACode; // @synthesize FAACode=_FAACode;
 @property(retain) NSString *IATACode; // @synthesize IATACode=_IATACode;
-@property(retain) NSURL *URL; // @synthesize URL=_URL;
-@property(retain) NSString *name; // @synthesize name=_name;
-@property(retain) NSString *phoneNumber; // @synthesize phoneNumber=_phoneNumber;
 
 @end
 

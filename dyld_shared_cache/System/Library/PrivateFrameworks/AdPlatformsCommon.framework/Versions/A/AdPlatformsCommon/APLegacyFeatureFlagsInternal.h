@@ -22,7 +22,7 @@
 + (_Bool);
 + (_Bool);
 - (id);
-- (void);
+- (void)v5;
 
 @end
 

@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, USOSchemaUSOGraphTier1;
+@class USOSchemaUSOGraphTier1;
 
 @interface NLXSchemaCDMUsoGraphTier1 : SISchemaInstrumentationMessage
 {
     USOSchemaUSOGraphTier1 *_usoGraphTier1;
-    _Bool _hasUsoGraphTier1;
 }
 
 - (id);
@@ -21,7 +20,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)oTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/x509v3/v3_cpols.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -29,12 +28,10 @@
 - (id)
 × ;
 - (id)ailable;
-- (id)Specifier;
+- (id)AssetSpecifier;
 - (void)~;
 
 // Remaining properties
-@property(nonatomic) _Bool hasUsoGraphTier1; // @synthesize hasUsoGraphTier1=_hasUsoGraphTier1;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) USOSchemaUSOGraphTier1 *usoGraphTier1; // @synthesize usoGraphTier1=_usoGraphTier1;
 
 @end

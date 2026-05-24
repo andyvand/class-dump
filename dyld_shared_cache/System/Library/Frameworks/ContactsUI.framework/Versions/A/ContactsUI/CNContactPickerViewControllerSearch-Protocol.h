@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABPersonListSearchController, CNContactListController;
+@class CNContactListController;
 
 @protocol CNContactPickerViewControllerSearch
 
 // Remaining properties
 @property(readonly) CNContactListController *contactListController;
-@property(readonly) ABPersonListSearchController *searchController;
-@property(getter=isSearchFieldVisible) _Bool searchFieldVisible;
 @end
 

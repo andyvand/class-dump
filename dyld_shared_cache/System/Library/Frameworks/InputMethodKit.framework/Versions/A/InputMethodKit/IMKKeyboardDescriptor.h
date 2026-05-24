@@ -13,7 +13,7 @@
 
 - (id);
 - (id);
-- (id);
+- (id)_useScreenCaptureKitForAudio;
 - (void);
 
 // Remaining properties

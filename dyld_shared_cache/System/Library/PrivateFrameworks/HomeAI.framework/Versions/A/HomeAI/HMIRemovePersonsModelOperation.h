@@ -9,8 +9,6 @@
 @interface HMIRemovePersonsModelOperation
 {
     _Bool _external;
-    NSUUID *_sourceUUID;
-    NSUUID *_homeUUID;
 }
 
 + (id);
@@ -18,15 +16,13 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly) _Bool external; // @synthesize external=_external;
-@property(readonly) NSUUID *homeUUID; // @synthesize homeUUID=_homeUUID;
 @property(readonly) NSUUID *sourceUUID; // @synthesize sourceUUID=_sourceUUID;
 
 @end

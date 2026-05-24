@@ -12,12 +12,12 @@
 + (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)薘	;
 - (id);
 - (void);
-- (void);
+- (void)Lc;
 - (id);
-- (id)lementPassProvisioning;
+- (id)_secureElementPassProvisioning;
 
 // Remaining properties
 @property(nonatomic) unsigned long long style; // @synthesize style=_style;

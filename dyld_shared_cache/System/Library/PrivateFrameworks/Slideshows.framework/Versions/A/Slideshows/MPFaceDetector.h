@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPDocument, NSLock, NSMutableSet, NSObject, NSOperationQueue, NSTimer;
-@protocol MRMarimbaPlayback;
+@class MPDocument;
 
 @interface MPFaceDetector
 {
     MPDocument *mDocument;
-    NSObject<MRMarimbaPlayback> *mRenderer;
-    NSOperationQueue *mDetectionQueue;
-    _Bool mIsCancelled;
-    NSMutableSet *mPathsInQueue;
-    NSLock *mPathQueueLock;
-    NSMutableSet *mPlayingSlides;
-    NSLock *mPlayingSlidesLock;
-    NSLock *mStartStopLock;
-    NSTimer *mCheckTimer;
 }
 
 - (void);
@@ -39,15 +29,13 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (id)enderer;
+- (id)_renderer;
 - (void);
 - (void)od _cleanup must be implemented in class %@!
 ;
 
 // Remaining properties
 @property(retain, nonatomic) MPDocument *document; // @synthesize document=mDocument;
-@property(nonatomic) _Bool isCancelled; // @synthesize isCancelled=mIsCancelled;
-@property(retain, nonatomic) NSObject<MRMarimbaPlayback> *renderer; // @synthesize renderer=mRenderer;
 
 @end
 

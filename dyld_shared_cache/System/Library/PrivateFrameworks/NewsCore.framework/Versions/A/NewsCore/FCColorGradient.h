@@ -9,25 +9,22 @@
 @interface FCColorGradient
 {
     NSArray *_colors;
-    NSArray *_locations;
-    struct CGPoint _startPoint;
-    struct CGPoint _endPoint;
 }
 
 + (id);
 + (_Bool);
 + (id);
-+ (id);
++ (id)mf_getQuickReplyStyleElement=function(){return this.querySelector("#"+MFHtmlIDQuickReplyStyle)},HTMLDocument.prototype.mf_quickReplyDisplayHiddenNodes=function(e){if(!isQuickReplyEnabled)return;let t=this.mf_getQuickReplyStyleElement();if(e){if(t&&t.remove(),this.quickReplyHiddenNodes)for(let e of this.quickReplyHiddenNodes)this.body.appendChild(e)}else if(this.quickReplyHiddenNodes===undefined)(t=this.createElement("style")).setAttribute("id",MFHtmlIDQuickReplyStyle),this.head.appendChild(t),t.sheet.insertRule(HTMLDocument.mf_quickReplyElementsToHideSelector+" {display:none;}");else for(let e of this.quickReplyHiddenNodes)e.remove()},HTMLDocument.prototype.mf_quickReplyClearStylesAndSaveNodesIfNeeded=function(){if(!isQuickReplyEnabled||this.quickReplyHiddenNodes!==undefined)return;let e=this.querySelectorAll(HTMLDocument.mf_quickReplyElementsToHideSelector);this.quickReplyHiddenNodes=Array.from(e);for(let t=0;t<e.length;++t){let i=e[t];for(let l=t+1;l<e.length;++l){let t=e[l];if(i.contains(t)){let e=this.quickReplyHiddenNodes.indexOf(t);e>-1&&this.quickReplyHiddenNodes.splice(e,1)}}}for(let e of this.quickReplyHiddenNodes)e.remove();let t=this.mf_getQuickReplyStyleElement();t&&t.remove()}; /* Error: Ran out of types for this method. */;
 + (id)@ù
 × ;
-- (struct CGPoint);
+- (struct CGPoint)P;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
+- (id)went away in %{public}s;
+- (id)_rtpSequenceNumber;
 - (_Bool);
 - (void);
 - (id);
@@ -35,9 +32,6 @@
 - (void)orPuzzleID:fastCacheOnly:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *colors; // @synthesize colors=_colors;
-@property(readonly, nonatomic) struct CGPoint endPoint; // @synthesize endPoint=_endPoint;
-@property(readonly, nonatomic) NSArray *locations; // @synthesize locations=_locations;
 @property(readonly, nonatomic) struct CGPoint startPoint; // @synthesize startPoint=_startPoint;
 
 @end

@@ -9,7 +9,6 @@
 @interface LXLexiconChecker
 {
     struct unique_ptr<lexicon::LexiconCheckerImpl, std::default_delete<lexicon::LexiconCheckerImpl>> _impl;
-    NSArray *_availableLocales;
 }
 
 - (_Bool);

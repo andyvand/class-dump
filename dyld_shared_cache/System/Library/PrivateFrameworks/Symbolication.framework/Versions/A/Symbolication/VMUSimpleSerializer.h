@@ -10,18 +10,17 @@ __attribute__((visibility("hidden")))
 @interface VMUSimpleSerializer : VMUAbstractSerializer
 {
     struct unordered_map<const char *, unsigned int, cstring_callbacks, cstring_callbacks, std::allocator<std::pair<const char *const, unsigned int>>> _internMap;
-    unsigned int _internCursor;
 }
 
 - (void);
 - (unsigned int);
 - (void);
-- (void);
+- (void)ismatch:(unsigned long long)arg1 %@ (process) vs %@ (lock)|;
 - (id);
 - (id);
 - (unsigned int);
 - (void);
-- (void);
+- (void)_changeInternalStateTo: /* Error: Ran out of types for this method. */;
 
 @end
 

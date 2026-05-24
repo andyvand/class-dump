@@ -6,48 +6,37 @@
 
 #import <TSReading/TSDKnobTracker.h>
 
-@class NSTimer, TSWPEditingController, TSWPTextMagnifierRanged;
+@class TSWPEditingController;
 
 @interface TSWPTextKnobTracker : TSDKnobTracker
 {
     TSWPEditingController *_editingController;
-    struct _NSRange _rangeAtStart;
-    int _selectionType;
-    unsigned long long _headCharAtStart;
-    unsigned long long _tailCharAtStart;
-    _Bool _multiTap;
-    NSTimer *_textMagnifierTimer;
-    TSWPTextMagnifierRanged *_magnifier;
-    _Bool _doneTracking;
-    _Bool _knobMoved;
-    _Bool _didShowMagnifier;
-    _Bool _ignoreNextCall;
 }
 
 + (const void *);
-- (void);
-- (void);
+- (void)ernalController.canStartPictureInPictureAutomaticallyFromInline;
+- (void).allowsPictureInPicturePlayback;
 - (double);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)sponseButton"8;
+- (void)for identifiers:(_Bool)arg1 %@;
+- (void)aming key adam ID;
+- (void).apple.amp.mediaplayer.playperf.PlayError;
+- (void)SessionMigrate;
+- (void):(struct CGPoint)arg1 %@ - mean:%2.5fms - std:%2.5fms - min:%2.5fms - max:%2.5fms - samples:%d - glitches:%d - thermal level:%d> /* Error: Ran out of types for this method. */;
+- (id)AVOutputDevice"8;
+- (_Bool)em after session restored;
+- (_Bool)etPlaybackSession customData;
+- (_Bool)nknown reason for remaining on placeholder item;
+- (void)tification` and `timeJumpNotification`: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
+- (void):(struct CGPoint)arg1 task:) /* Error: Ran out of types for this method. */;
+- (id)ItemTransition;
+- (_Bool);
+- (_Bool);
 - (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool);
 - (struct _NSRange);
 - (void);
 - (id);
@@ -56,9 +45,7 @@
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool didShowMagnifier; // @synthesize didShowMagnifier=_didShowMagnifier;
 @property(retain, nonatomic) TSWPEditingController *editingController; // @synthesize editingController=_editingController;
-@property(nonatomic) _Bool ignoreNextCall; // @synthesize ignoreNextCall=_ignoreNextCall;
 
 @end
 

@@ -4,37 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface CPXKeyboardEventProcessingExtras
 {
     unsigned short _windowHeight;
-    unsigned short _mainDisplayHeight;
-    unsigned int _window;
 }
 
-- (unsigned short);
-- (unsigned short);
+- (unsigned short)on"8Q16^B24;
+- (unsigned short)= 38000;
+- (id)ragma secure_delete=0;
+- (void)RAISE(FAIL, 'Batch delete failed due to mandatory OTO nullify inverse on %@/%@') FROM %@ WHERE Z_PK = OLD.%@;
 - (id);
-- (void);
-- (id);
-- (unsigned long long);
+- (unsigned long long)% 3.10f ;
 - (unsigned int);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned short mainDisplayHeight; // @synthesize mainDisplayHeight=_mainDisplayHeight;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) unsigned int window; // @synthesize window=_window;
-@property(readonly, nonatomic) unsigned short windowHeight; // @synthesize windowHeight=_windowHeight;
 
 @end
 

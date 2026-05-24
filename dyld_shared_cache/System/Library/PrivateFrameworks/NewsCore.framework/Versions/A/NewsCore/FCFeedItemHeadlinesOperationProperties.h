@@ -9,17 +9,15 @@
 @interface FCFeedItemHeadlinesOperationProperties
 {
     FCMapTable *_resultHeadlinesByFeedItem;
-    FCMapTable *_feedItemScoreProfiles;
 }
 
-- (void);
+- (void)};
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) FCMapTable *feedItemScoreProfiles; // @synthesize feedItemScoreProfiles=_feedItemScoreProfiles;
 @property(retain, nonatomic) FCMapTable *resultHeadlinesByFeedItem; // @synthesize resultHeadlinesByFeedItem=_resultHeadlinesByFeedItem;
 
 @end

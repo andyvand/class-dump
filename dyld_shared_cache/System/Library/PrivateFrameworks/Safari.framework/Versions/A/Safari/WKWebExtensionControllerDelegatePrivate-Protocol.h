@@ -5,5 +5,8 @@
 //
 
 @protocol WKWebExtensionControllerDelegatePrivate
+
+@optional
+- (void)P;
 @end
 

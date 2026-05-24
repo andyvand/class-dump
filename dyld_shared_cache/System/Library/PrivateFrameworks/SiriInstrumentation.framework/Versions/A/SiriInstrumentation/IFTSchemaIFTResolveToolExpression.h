@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface IFTSchemaIFTResolveToolExpression : SISchemaInstrumentationMessage
 {
@@ -20,21 +20,20 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)$;
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)mework/Versions/A/SwiftData;
 - (id)
 × ;
 - (id)PNRODMetricDuration",&,N,V_responseGenerationTime;
-- (id)IMEphemeralToAggregationIdentifierMap;
+- (id)DIMSchemaDIMEphemeralToAggregationIdentifierMap;
 - (void)ü­¶*#;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *toolIds; // @synthesize toolIds=_toolIds;
 
 @end

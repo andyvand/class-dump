@@ -9,12 +9,11 @@
 @interface _PSCNAutocompleteFeedbackTypedHandle
 {
     _Bool _viaContactPicker;
-    CNContact *_contact;
 }
 
 + (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)_firstNamePhonemes;
+- (id)_assistantDiagnosticAndUsageOptInDigestReported;
 - (id);
 - (void);
 - (id);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly, nonatomic) _Bool viaContactPicker; // @synthesize viaContactPicker=_viaContactPicker;
 
 @end
 

@@ -7,6 +7,7 @@
 @protocol NUImageBuffer;
 
 @protocol NUVisionForegroundIsolationSegmentationResult
+- (id <NUImageBuffer>);
 
 // Remaining properties
 @property(readonly, nonatomic) id <NUImageBuffer> maskBuffer;

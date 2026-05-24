@@ -4,71 +4,52 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TSKHideOnTouchOutsideViewGestureRecognizer, TSKModalShieldView, TSKPopoverController, UIView, UIViewController;
-@protocol TSKPopoverBasedViewControllerDelegate;
+@class TSKPopoverController, UIViewController;
 
 @interface TSKPopoverBasedViewController
 {
     TSKPopoverController *mPopoverController;
-    TSKHideOnTouchOutsideViewGestureRecognizer *mHideOnTouchGestureRecognizer;
-    _Bool mWrapInNavigationController;
-    _Bool mUseDoneButton;
-    _Bool mViewResizesWithKeyboard;
-    _Bool mAllowsOutsideTouch;
-    _Bool mStaysOpenOnOutsideTouches;
-    UIView *mPopoverToggleView;
-    id <TSKPopoverBasedViewControllerDelegate> mPopoverDelegate;
-    UIViewController *mHalfHeightViewController;
-    CDUnknownBlockType mHalfHeightCloseBlock;
-    _Bool mHalfHeightAnimated;
-    TSKModalShieldView *mHalfHeightTapShield;
-    struct CGRect mHalfHeightOriginalFrame;
-    UIView *mHalfHeightParentView;
-    _Bool mViewControllerVisible;
-    _Bool mDismissOnUndo;
-    _Bool mUndoManagerNotificationsRegistered;
-    _Bool mImposeContentSizeOnViewControllers;
 }
 
+- (_Bool)ipant-id;
+- (_Bool)remote-control-begin;
+- (_Bool)-begin;
+- (_Bool)E INDEX IF NOT EXISTS events_type ON events (type, _ns);
+- (_Bool)0^{__CFError=}8;
+- (void)CML disabled;
+- (void)t support delegation;
+- (void)features;
+- (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (void);
+- (void)USER_REMOVED_ALERT_DELETE_BUTTON_;
+- (void)RADIO_ADD_STATION_FAILED_ALERT_MESSAGE;
+- (void)completion;
+- (void)hange - state:(_Bool)arg1;
 - (void);
+- (void)setQueue item] - time:(_Bool)arg1;
+- (void)sks - ;
+- (void)ncelled due to player losing overlap support;
+- (void)┃ ┣⇢ STATE ENTERED           ;
+- (void)one more time;
+- (void)shuffleChangeCount;
 - (void);
+- (void)sessionUniqueAccountsCount;
+- (void)itemsInsertedCount;
 - (void);
-- (_Bool);
+- (void)kCore/PlaybackHistory;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)er;
+- (id)n/a;
+- (void)OpenMusicCodingKeys;
 - (id);
 - (void);
-- (id);
-- (void);
 - (_Bool);
+- (void);
 - (void);
-- (void);
+- (id)O;
 - (id);
-- (id);
-- (id);
+- (id)H;
 - (void);
 - (void);
 - (void);
@@ -76,27 +57,27 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)AsyncAssetReaderSequence;
+- (void)_MPCPlaybackEngineElapsedTimeProviding;
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)tM;
 - (struct CGRect);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)};
 - (void);
 - (double);
 - (_Bool);
-- (void);
+- (void)PinCompletionData;
 - (void);
 - (id);
 - (void);
@@ -106,36 +87,16 @@
 - (id);
 - (void);
 - (void)d}24;
-- (void)racterSet;
-- (unsigned long long)linkUISessionID;
-- (_Bool)ylePreset;
+- (void)smartSingleQuotesCharacterSet;
+- (unsigned long long)_hyperlinkUISessionID;
+- (_Bool)TSTTableStylePreset;
 - (id)pleInternal/Library/BuildRoots/4~CNqXugCNkc61oj3lvwzie9kuzoKIFqlCIQAPn3w/Library/Caches/com.apple.xbs/TemporaryDirectory.AbPtYx/Sources/AlderShared/drawables/TSDConnectionLineInfo.m;
 - (_Bool)ld read lock;
 - (struct CGSize)é;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowsOutsideTouch; // @synthesize allowsOutsideTouch=mAllowsOutsideTouch;
-@property(readonly, nonatomic) struct CGSize contentSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool dismissOnUndo; // @synthesize dismissOnUndo=mDismissOnUndo;
 @property(retain, nonatomic) UIViewController *halfHeightViewController; // @synthesize halfHeightViewController=mHalfHeightViewController;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool imposeContentSizeOnViewControllers; // @synthesize imposeContentSizeOnViewControllers=mImposeContentSizeOnViewControllers;
-@property(readonly, nonatomic) _Bool isPopoverGestureInFlight;
-@property(readonly, retain, nonatomic) TSKPopoverController *popoverController; // @synthesize popoverController=mPopoverController;
-@property(nonatomic) id <TSKPopoverBasedViewControllerDelegate> popoverDelegate; // @synthesize popoverDelegate=mPopoverDelegate;
-@property(retain, nonatomic) UIView *popoverToggleView; // @synthesize popoverToggleView=mPopoverToggleView;
-@property(readonly, nonatomic) _Bool shouldHideToolbar;
-@property(nonatomic) _Bool staysOpenOnOutsideTouches; // @synthesize staysOpenOnOutsideTouches=mStaysOpenOnOutsideTouches;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool useDoneButton; // @synthesize useDoneButton=mUseDoneButton;
-@property(nonatomic) _Bool viewResizesWithKeyboard; // @synthesize viewResizesWithKeyboard=mViewResizesWithKeyboard;
-@property(nonatomic) _Bool wrapInNavigationController; // @synthesize wrapInNavigationController=mWrapInNavigationController;
 
 @end
 

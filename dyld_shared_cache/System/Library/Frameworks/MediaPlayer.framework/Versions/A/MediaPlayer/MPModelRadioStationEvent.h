@@ -6,7 +6,7 @@
 
 #import <MediaPlayer/MPModelObject.h>
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface MPModelRadioStationEvent : MPModelObject
 {
@@ -14,10 +14,10 @@
 
 + (long long);
 + (id);
++ (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)&;
 + (void);
 + (void);
 + (void);
@@ -29,11 +29,6 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType artworkCatalogBlock; // @dynamic artworkCatalogBlock;
-@property(copy, nonatomic) NSString *descriptionText; // @dynamic descriptionText;
-@property(copy, nonatomic) NSDate *endTime; // @dynamic endTime;
-@property(copy, nonatomic) CDUnknownBlockType heroArtworkCatalogBlock; // @dynamic heroArtworkCatalogBlock;
-@property(copy, nonatomic) NSDate *startTime; // @dynamic startTime;
 @property(copy, nonatomic) NSString *title; // @dynamic title;
 
 @end

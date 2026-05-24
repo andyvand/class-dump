@@ -9,7 +9,6 @@
 @interface AVPictureInPictureIndicatorView
 {
     NSString *_customMessage;
-    AVPictureInPictureIndicatorLayer *_pipIndicatorLayer;
 }
 
 - (void);
@@ -18,14 +17,13 @@
 - (id);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)_dataTaskWithRequest:runAtForegroundPriority:completionHandler: /* Error: Ran out of types for this method. */;
 - (void)q[1Â0@ù
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *customMessage; // @synthesize customMessage=_customMessage;
 @property(retain, nonatomic) AVPictureInPictureIndicatorLayer *pipIndicatorLayer; // @synthesize pipIndicatorLayer=_pipIndicatorLayer;
 
 @end

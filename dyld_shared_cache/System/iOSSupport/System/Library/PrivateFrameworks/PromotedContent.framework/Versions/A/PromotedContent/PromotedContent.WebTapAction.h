@@ -9,7 +9,6 @@
 @interface PromotedContent.WebTapAction : APPCTapAction
 {
     id url;
-    id opensInstalledApp;
 }
 
 - (id);

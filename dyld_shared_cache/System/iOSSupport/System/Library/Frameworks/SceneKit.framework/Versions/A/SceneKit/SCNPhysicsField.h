@@ -4,39 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SCNNode, SCNPhysicsWorld;
-
 @interface SCNPhysicsField
 {
     struct SCNVector3 _halfExtent;
-    double _strength;
-    double _falloffExponent;
-    double _minimumDistance;
-    _Bool _active;
-    long long _scope;
-    _Bool _usesEllipsoidalExtent;
-    _Bool _exclusive;
-    struct SCNVector3 _offset;
-    struct SCNVector3 _direction;
-    unsigned long long _categoryBitMask;
-    SCNPhysicsWorld *_world;
-    SCNNode *_node;
-    struct c3dPhysicsField *_field;
 }
 
++ (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)X@�;
 + (id);
 + (id);
 + (id);
 + (void);
 + (double);
 + (id);
-+ (id);
-+ (_Bool);
++ (id)8@"<WBSTranslationContentExtracting>"16@"NSArray"24;
++ (_Bool)w:completionHandler:] /* Error: Ran out of types for this method. */;
 + (id)tx.packedIndices.data[fl - 1] == li;
 - (_Bool);
 - (_Bool);
@@ -62,7 +47,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (long long);
+- (long long)"SOAuthorizationResult",R,N,V_authorizationResult;
 - (void);
 - (_Bool);
 - (id);
@@ -72,11 +57,12 @@
 - (struct c3dPhysicsField *);
 - (void);
 - (id);
-- (struct SCNVector3);
+- (struct SCNVector3)nqueue(e){const t=this.#n(e);if(!t)return;let n=null;"keydown"===e.type&&(n={key:e.key,shiftKey:e.shiftKey});const s={target:t,type:e.type,data:n};this.#t?this.#t.dispatchEvent(s):(mainScriptLoadRequest.scheduleIfNeeded(),this.#e.push(s))}setDelegate(e){this.#t=e;for(const e of this.#e)this.#t.dispatchEvent(e);this.#e.length=0}}const eventQueue=new EventQueue;class MainScriptLoadRequest{#s=null;#u=!1;scheduleIfNeeded(){this.#u||this.#s||("complete"===document.readyState?this.#i():this.#s=setTimeout(this.#i.bind(this),100))}#i(){this.#u=!0,window.webkit.messageHandlers.controller.postMessage({name:"loadMainScriptRequest"})}}const mainScriptLoadRequest=new MainScriptLoadRequest;addEventListeners();
+0; /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (void)d;
+- (void)T;
+- (void)isASTCPixelFormatsSupported;
 - (id)h[1] = texture2D( depthSampler, v_tcDepth1.xy + rowOfs[0] ).r;
     depth[2] = texture2D( depthSampler, v_tcDepth2.xy + rowOfs[0] ).r;
     depth[3] = texture2D( depthSampler, v_tcDepth3.xy + rowOfs[0] ).r;
@@ -110,17 +96,7 @@
 - (struct SCNVector3)precision. You must clear your depth to 0.0 or everything will be discarded. To opt out of this new behavior you can set the SCNDisableReverseZ key to a boolean value of YES in your app's Info.plist file.;
 
 // Remaining properties
-@property(nonatomic, getter=isActive) _Bool active;
-@property(nonatomic) unsigned long long categoryBitMask;
-@property(nonatomic) struct SCNVector3 direction;
-@property(nonatomic, getter=isExclusive) _Bool exclusive;
-@property(nonatomic) double falloffExponent;
-@property(nonatomic) struct SCNVector3 halfExtent;
-@property(nonatomic) double minimumDistance;
-@property(nonatomic) struct SCNVector3 offset;
-@property(nonatomic) long long scope;
 @property(nonatomic) double strength;
-@property(nonatomic) _Bool usesEllipsoidalExtent;
 
 @end
 

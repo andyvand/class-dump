@@ -9,24 +9,20 @@
 @interface _NSHTTPAlternativeServicesFilter
 {
     NSString *_host;
-    NSString *_partition;
-    long long _port;
 }
 
 + (id);
 - (void);
-- (id);
+- (id)e;
 - (id);
 - (long long);
-- (id);
+- (id);
 - (void)Ü¬;
 - (void);
 - (void);;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *host; // @synthesize host=_host;
-@property(retain, nonatomic) NSString *partition; // @synthesize partition=_partition;
-@property(nonatomic) long long port; // @synthesize port=_port;
 
 @end
 

@@ -7,6 +7,9 @@
 @class _UIDestructionConditionSetBSXPCCodingAdapter;
 
 @protocol _UISceneDestructionClientSettings
+- (void)a
+;
+- (_UIDestructionConditionSetBSXPCCodingAdapter *)PrivateFrameworks/GPUSupport.framework/Versions/A/Libraries/libGPUSupportMercury.dylib;
 
 // Remaining properties
 @property(retain, nonatomic) _UIDestructionConditionSetBSXPCCodingAdapter *destructionConditions;

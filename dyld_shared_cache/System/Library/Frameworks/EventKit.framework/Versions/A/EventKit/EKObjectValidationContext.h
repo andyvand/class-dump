@@ -10,13 +10,11 @@ __attribute__((visibility("hidden")))
 @interface EKObjectValidationContext
 {
     _Bool _reachedMaxDepth;
-    EKObject *_rootObject;
-    unsigned long long _depth;
 }
 
 - (void);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)r content items %{public}@.;
 - (id);
 - (id);
 - (void);
@@ -25,8 +23,6 @@ __attribute__((visibility("hidden")))
 - (unsigned long long)CalendarIdentifiers:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned long long depth; // @synthesize depth=_depth;
-@property(nonatomic) _Bool reachedMaxDepth; // @synthesize reachedMaxDepth=_reachedMaxDepth;
 @property(readonly, nonatomic) EKObject *rootObject; // @synthesize rootObject=_rootObject;
 
 @end

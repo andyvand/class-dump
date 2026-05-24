@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface SCSchemaSCClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_scId;
-    SISchemaUUID *_requestId;
-    SISchemaUUID *_subRequestId;
-    _Bool _hasScId;
-    _Bool _hasRequestId;
-    _Bool _hasSubRequestId;
 }
 
 - (id);
@@ -24,35 +19,29 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
+- (void)=@n;
 - (void);
 - (_Bool);
+- (_Bool);
+- (void);
+- (void)_simulateMediaServiceLibrarySizeExceeded;
+- (_Bool)setPassPhraseProgressIndicator: /* Error: Ran out of types for this method. */;
+- (id)A;
+- (id);
+- (void);
+- (unsigned long long){public}@]:error in reloadFromServer:%{public}@ /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void);
+- (_Bool))       WHERE         message.ROWID = NEW.message_id; END;
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id)ns;
+- (id)clearCorrections;
 - (id)yStatus;
-- (void)emplateId;
+- (void)templateId;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasRequestId; // @synthesize hasRequestId=_hasRequestId;
-@property(nonatomic) _Bool hasScId; // @synthesize hasScId=_hasScId;
-@property(nonatomic) _Bool hasSubRequestId; // @synthesize hasSubRequestId=_hasSubRequestId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *requestId; // @synthesize requestId=_requestId;
 @property(retain, nonatomic) SISchemaUUID *scId; // @synthesize scId=_scId;
-@property(retain, nonatomic) SISchemaUUID *subRequestId; // @synthesize subRequestId=_subRequestId;
 
 @end
 

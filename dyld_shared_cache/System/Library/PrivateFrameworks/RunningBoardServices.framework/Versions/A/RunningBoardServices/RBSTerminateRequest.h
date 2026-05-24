@@ -6,16 +6,11 @@
 
 #import <RunningBoardServices/RBSRequest.h>
 
-@class NSString, RBSProcessPredicate, RBSTerminateContext;
 @protocol RBSServiceLocalProtocol;
 
 @interface RBSTerminateRequest : RBSRequest
 {
     id <RBSServiceLocalProtocol> _service;
-    _Bool _targetsAllManagedProcesses;
-    RBSProcessPredicate *_predicate;
-    RBSProcessPredicate *_allow;
-    RBSTerminateContext *_context;
 }
 
 + (_Bool);
@@ -24,7 +19,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)H];
 - (id);
 - (id);
 - (id);
@@ -41,16 +36,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) RBSProcessPredicate *allow; // @synthesize allow=_allow;
-@property(readonly, nonatomic) RBSTerminateContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) RBSProcessPredicate *predicate; // @synthesize predicate=_predicate;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) _Bool targetsAllManagedProcesses; // @synthesize targetsAllManagedProcesses=_targetsAllManagedProcesses;
 
 @end

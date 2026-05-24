@@ -7,16 +7,13 @@
 @class NSArray, NSNumber, NSString;
 
 @protocol INSearchForFilesIntentResponseExport
-- (NSNumber *)tion: /* Error: Ran out of types for this method. */;
-- (long long)monWholeHouseAudioRoutes;
-- (void)ATION_DIRECTION;
+- (NSString *)�;
+- (NSNumber *)resolveSeatForSetSeatSettingsInCar:withCompletion: /* Error: Ran out of types for this method. */;
+- (long long)hasShouldSuppressCommonWholeHouseAudioRoutes;
+- (void)ROTATION_DIRECTION;
 - (NSArray *)Naä;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) NSArray *entities;
-@property(copy) NSNumber *numResults;
-@property(copy) NSString *query;
-@property(copy) NSNumber *success;
 @end
 

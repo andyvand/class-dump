@@ -6,12 +6,9 @@
 
 #import <MetalTools/MTLToolsComputeCommandEncoder.h>
 
-@class MTLCountersTraceComputeCommandEncoder;
-
 @interface MTLCountersComputeCommandEncoder : MTLToolsComputeCommandEncoder
 {
     _Bool _APITimingEnabled;
-    MTLCountersTraceComputeCommandEncoder *_traceEncoder;
 }
 
 - (void);
@@ -34,19 +31,19 @@
 - (void);
 - (void);
 - (void);
+- (void)NSt3__110__function6__baseIFbRKNS_10unique_ptrIN11InputEngine19ConversionCandidateENS_14default_deleteIS4_EEEES9_EEE;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)k@;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

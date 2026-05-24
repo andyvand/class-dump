@@ -7,13 +7,6 @@
 @interface IMDMutedChatListRebuilder
 {
     id findChat;
-    id mutedChatList;
-    id muteChat;
-    id muteIdentifiers;
-    id batchLimit;
-    id identifiersFound;
-    id chatsFound;
-    id state;
 }
 
 - (void);

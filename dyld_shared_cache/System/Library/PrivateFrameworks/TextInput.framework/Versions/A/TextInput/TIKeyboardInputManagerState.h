@@ -4,113 +4,62 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, TICharacterSetDescription, TIKeyEventMap, TIKeyboardBehaviors, TIKeyboardCandidate;
+@class NSNumber, TIKeyboardBehaviors;
 
 @interface TIKeyboardInputManagerState
 {
     TIKeyboardBehaviors *_keyboardBehaviors;
-    union {
-        long long integerValue;
-        struct {
-            unsigned int canHandleKeyHitTest:1;
-            unsigned int ignoresDeadKeys:1;
-            unsigned int shouldExtendPriorWord:1;
-            unsigned int suppliesCompletions:1;
-            unsigned int supportsNumberKeySelection:1;
-            unsigned int supportsSetPhraseBoundary:1;
-            unsigned int suppressCompletionsForFieldEditor:1;
-            unsigned int usesAutoDeleteWord:1;
-            unsigned int usesCandidateSelection:1;
-            unsigned int commitsAcceptedCandidate:1;
-            unsigned int newInputAcceptsUserSelectedCandidate:1;
-            unsigned int nextInputWouldStartSentence:1;
-            unsigned int inputStringIsExemptFromChecker:1;
-            unsigned int suppressPlaceholderCandidate:1;
-            unsigned int usesAutocorrectionLists:1;
-            unsigned int autoquoteType:2;
-            unsigned int usesContinuousPath:1;
-            unsigned int usesContinuousPathProgressiveCandidates:1;
-            unsigned int usesPunctuationKeysForRowNavigation:1;
-            unsigned int insertsSpaceAfterPredictiveInput:1;
-            unsigned int shouldFixupIncompleteRomaji:1;
-            unsigned int acceptAutocorrectionCommitsInline:1;
-            unsigned int usesLiveConversion:1;
-            unsigned int delayedCandidateList:1;
-            unsigned int ignoreContinuousPathRequirements:1;
-            unsigned int supportsReversionUI:1;
-        } fields;
-    } _mask;
-    _Bool _shouldAddModifierSymbolsToWordCharacters;
-    _Bool _hasSupplementalPrefix;
-    TIKeyboardCandidate *_autocorrectionRecordForInputString;
-    NSString *_wordSeparator;
-    unsigned long long _inputCount;
-    unsigned long long _inputIndex;
-    NSString *_inputString;
-    TIKeyEventMap *_keyEventMap;
-    NSString *_replacementForDoubleSpace;
-    NSString *_shadowTyping;
-    unsigned long long _initialCandidateBatchCount;
-    TICharacterSetDescription *_wordCharacters;
-    TICharacterSetDescription *_supplementalLexiconWordExtraCharacters;
-    TICharacterSetDescription *_shortcutCompletions;
-    TICharacterSetDescription *_inputsPreventingAcceptSelectedCandidate;
-    TICharacterSetDescription *_inputsToReject;
-    TICharacterSetDescription *_terminatorsPreventingAutocorrection;
-    TICharacterSetDescription *_terminatorsDeletingAutospace;
-    unsigned long long _learningFlagsMaskForLastAcceptedCandidate;
-    NSString *_searchStringForMarkedText;
 }
 
 + (_Bool);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)_selectIdentifiers: /* Error: Ran out of types for this method. */;
+- (id)rray"12;
+- (void)DSAssetProvidingDelegate>"16@0:(_Bool)arg1 8;
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (id)B;
+- (void);
+- (_Bool);
+- (_Bool);
+- (void)invalidateHighlightSubtitlesAndRegenerateHighlightTitlesWithForceUpdateLocale:(unsigned long long)arg1 completionBlock: /* Error: Ran out of types for this method. */;
+- (void)duplicateCloudResource:(id)arg1 forAsset:withFilePath:inManagedObjectContext: /* Error: Ran out of types for this method. */;
+- (void)descriptionForAnalysisStates;
+- (void)_setDefaultCinematicAdjustementsWithMainFileMetadata:(id)arg1;
+- (unsigned long long);
+- (void)_inq_submitBackgroundProcessingNeededForBuffer:(_Bool)arg1 context: /* Error: Ran out of types for this method. */;
+- (void)__idleStateTransitionOneTimeAction;
+- (id)wantsUnscopedSuggestions;
+- (void);
+- (void)udLocalState:(id)arg1 failed:%@ %@ /* Error: Ran out of types for this method. */;
+- (unsigned long long)eMetadataAndMigrationHistoryWithStore:] /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (unsigned long long);
+- (id);
+- (_Bool);
+- (void)$;
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
+- (id)B;
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (unsigned long long);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)P;
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -118,7 +67,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -132,7 +81,7 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -140,13 +89,13 @@
 - (id);
 - (_Bool);
 - (id);
+- (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)<;
 - (id);
 - (void);
 - (void);
-- (void)bjectAtIndexedSubscript:(_Bool)arg1;
+- (void)objectAtIndexedSubscript:(_Bool)arg1;
 - (void);
 - (void)!A;
 - (unsigned long long)G
@@ -183,61 +132,14 @@
 - (_Bool);
 - (void)sip ;
 - (_Bool)guox ;
-- (_Bool)ortal;
-- (void)diness;
+- (_Bool)mortal;
+- (void)sturdiness;
 - (id)pyrometer;
-- (_Bool)m;
-- (_Bool)d;
+- (_Bool)equiprobabilism;
+- (_Bool)anguished;
 
 // Remaining properties
-@property(nonatomic) _Bool acceptAutocorrectionCommitsInline;
-@property(retain, nonatomic) TIKeyboardCandidate *autocorrectionRecordForInputString; // @synthesize autocorrectionRecordForInputString=_autocorrectionRecordForInputString;
-@property(nonatomic) unsigned long long autoquoteType;
-@property(nonatomic) _Bool canHandleKeyHitTest;
-@property(nonatomic) _Bool commitsAcceptedCandidate;
-@property(nonatomic) _Bool delayedCandidateList;
-@property(nonatomic) _Bool hasSupplementalPrefix; // @synthesize hasSupplementalPrefix=_hasSupplementalPrefix;
-@property(nonatomic) _Bool ignoreContinuousPathRequirements;
-@property(nonatomic) _Bool ignoresDeadKeys;
-@property(nonatomic) unsigned long long initialCandidateBatchCount; // @synthesize initialCandidateBatchCount=_initialCandidateBatchCount;
-@property(nonatomic) unsigned long long inputCount; // @synthesize inputCount=_inputCount;
-@property(nonatomic) unsigned long long inputIndex; // @synthesize inputIndex=_inputIndex;
-@property(copy, nonatomic) NSString *inputString; // @synthesize inputString=_inputString;
-@property(nonatomic) _Bool inputStringIsExemptFromChecker;
-@property(copy, nonatomic) TICharacterSetDescription *inputsPreventingAcceptSelectedCandidate; // @synthesize inputsPreventingAcceptSelectedCandidate=_inputsPreventingAcceptSelectedCandidate;
-@property(copy, nonatomic) TICharacterSetDescription *inputsToReject; // @synthesize inputsToReject=_inputsToReject;
-@property(nonatomic) _Bool insertsSpaceAfterPredictiveInput;
-@property(retain, nonatomic) TIKeyEventMap *keyEventMap; // @synthesize keyEventMap=_keyEventMap;
-@property(retain, nonatomic) TIKeyboardBehaviors *keyboardBehaviors; // @synthesize keyboardBehaviors=_keyboardBehaviors;
 @property(copy, nonatomic) NSNumber *learningFlagsForLastAcceptedCandidate;
-@property(nonatomic) unsigned long long learningFlagsMaskForLastAcceptedCandidate; // @synthesize learningFlagsMaskForLastAcceptedCandidate=_learningFlagsMaskForLastAcceptedCandidate;
-@property(nonatomic) _Bool newInputAcceptsUserSelectedCandidate;
-@property(nonatomic) _Bool nextInputWouldStartSentence;
-@property(copy, nonatomic) NSString *replacementForDoubleSpace; // @synthesize replacementForDoubleSpace=_replacementForDoubleSpace;
-@property(copy, nonatomic) NSString *searchStringForMarkedText; // @synthesize searchStringForMarkedText=_searchStringForMarkedText;
-@property(copy, nonatomic) NSString *shadowTyping; // @synthesize shadowTyping=_shadowTyping;
-@property(copy, nonatomic) TICharacterSetDescription *shortcutCompletions; // @synthesize shortcutCompletions=_shortcutCompletions;
-@property(nonatomic) _Bool shouldAddModifierSymbolsToWordCharacters; // @synthesize shouldAddModifierSymbolsToWordCharacters=_shouldAddModifierSymbolsToWordCharacters;
-@property(nonatomic) _Bool shouldExtendPriorWord;
-@property(nonatomic) _Bool shouldFixupIncompleteRomaji;
-@property(copy, nonatomic) TICharacterSetDescription *supplementalLexiconWordExtraCharacters; // @synthesize supplementalLexiconWordExtraCharacters=_supplementalLexiconWordExtraCharacters;
-@property(nonatomic) _Bool suppliesCompletions;
-@property(nonatomic) _Bool supportsNumberKeySelection;
-@property(nonatomic) _Bool supportsReversionUI;
-@property(nonatomic) _Bool supportsSetPhraseBoundary;
-@property(nonatomic) _Bool suppressCompletionsForFieldEditor;
-@property(nonatomic) _Bool suppressPlaceholderCandidate;
-@property(copy, nonatomic) TICharacterSetDescription *terminatorsDeletingAutospace; // @synthesize terminatorsDeletingAutospace=_terminatorsDeletingAutospace;
-@property(copy, nonatomic) TICharacterSetDescription *terminatorsPreventingAutocorrection; // @synthesize terminatorsPreventingAutocorrection=_terminatorsPreventingAutocorrection;
-@property(nonatomic) _Bool usesAutoDeleteWord;
-@property(nonatomic) _Bool usesAutocorrectionLists;
-@property(nonatomic) _Bool usesCandidateSelection;
-@property(nonatomic) _Bool usesContinuousPath;
-@property(nonatomic) _Bool usesContinuousPathProgressiveCandidates;
-@property(nonatomic) _Bool usesLiveConversion;
-@property(nonatomic) _Bool usesPunctuationKeysForRowNavigation;
-@property(copy, nonatomic) TICharacterSetDescription *wordCharacters; // @synthesize wordCharacters=_wordCharacters;
-@property(copy, nonatomic) NSString *wordSeparator; // @synthesize wordSeparator=_wordSeparator;
 
 @end
 

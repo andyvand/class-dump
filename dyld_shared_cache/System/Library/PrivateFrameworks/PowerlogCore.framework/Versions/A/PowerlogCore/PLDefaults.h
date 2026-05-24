@@ -9,11 +9,6 @@
 @interface PLDefaults
 {
     _Bool _debugEnabled;
-    _Bool _eplEnabled;
-    _Bool _enableRestartAtEPL;
-    NSMutableDictionary *_managedPrefsCache;
-    NSMutableDictionary *_instancePrefsCache;
-    NSMutableDictionary *_userPrefsCache;
 }
 
 + (double);
@@ -30,40 +25,41 @@
 + (void);
 + (id);
 + (void);
++ (id);
++ (void)loadImageWithURL:(id)arg1 enableTextOverlay:(id)arg2 completion: /* Error: Ran out of types for this method. */;
++ (void);
++ (_Bool);
++ (_Bool);
++ (_Bool);
++ (_Bool);
++ (_Bool);
++ (_Bool);
++ (_Bool);
++ (void);
++ (_Bool);
 + (id);
-+ (void);
-+ (void);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (void);
-+ (_Bool);
-+ (id);
-+ (_Bool);
++ (_Bool)
+J;
 + (void);
 + (id);
 + (long long);
 + (id);
 + (_Bool);
-+ (double);
-+ (_Bool);
++ (double)diskStoreForURL:(id)arg1;
++ (_Bool);
 + (_Bool);
 + (void);
 + (void);
-+ (id);
++ (id);
 + (void);
-+ (_Bool);
++ (_Bool);
 + (long long);
-+ (_Bool);
++ (_Bool)removeDownloadQueueObserver: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)s;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -76,17 +72,12 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)(;
 - (void);
 - (void);
 
 // Remaining properties
-@property _Bool debugEnabled; // @synthesize debugEnabled=_debugEnabled;
-@property _Bool enableRestartAtEPL; // @synthesize enableRestartAtEPL=_enableRestartAtEPL;
-@property _Bool eplEnabled; // @synthesize eplEnabled=_eplEnabled;
-@property(retain) NSMutableDictionary *instancePrefsCache; // @synthesize instancePrefsCache=_instancePrefsCache;
 @property(retain) NSMutableDictionary *managedPrefsCache; // @synthesize managedPrefsCache=_managedPrefsCache;
-@property(retain) NSMutableDictionary *userPrefsCache; // @synthesize userPrefsCache=_userPrefsCache;
 
 @end
 

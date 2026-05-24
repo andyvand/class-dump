@@ -4,40 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSSet, NSString;
+@class NSString;
 
 @interface UIConversationEntry
 {
     NSString *_text;
-    NSString *_senderIdentifier;
-    NSDate *_sentDate;
-    NSString *_entryIdentifier;
-    NSString *_replyThreadIdentifier;
-    NSSet *_primaryRecipientIdentifiers;
 }
 
-- (void);
+- (void)sfer. Record hasAsset %@;
+- (id)on ID %@ zoneID %@;
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (id);
+- (void);
 - (id);
 - (id)_ð1Â0@ù
 × ;
-- (void)ckgroundGradient;
+- (void)UIKBColorHandwritingTransparentBackgroundGradient;
 - (void)$&;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *entryIdentifier; // @synthesize entryIdentifier=_entryIdentifier;
-@property(copy, nonatomic) NSSet *primaryRecipientIdentifiers; // @synthesize primaryRecipientIdentifiers=_primaryRecipientIdentifiers;
-@property(copy, nonatomic) NSString *replyThreadIdentifier; // @synthesize replyThreadIdentifier=_replyThreadIdentifier;
-@property(copy, nonatomic) NSString *senderIdentifier; // @synthesize senderIdentifier=_senderIdentifier;
-@property(copy, nonatomic) NSDate *sentDate; // @synthesize sentDate=_sentDate;
 @property(copy, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end

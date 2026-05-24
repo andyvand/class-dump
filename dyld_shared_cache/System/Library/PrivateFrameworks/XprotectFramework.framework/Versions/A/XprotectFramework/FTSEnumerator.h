@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL;
-
 @interface FTSEnumerator
 {
     struct {
@@ -23,14 +21,12 @@
         } _field9;
         int _field10;
     } *fts;
-    NSURL *original;
-    CDUnknownBlockType errHandler;
 }
 
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)unsignedIntegerValue;
 - (id);
 - (void);
 

@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface MFPhoneHatchBrush : MFPhoneBrush
 {
     OITSUColor *m_colour;
-    int m_style;
 }
 
 + (id);

@@ -9,11 +9,11 @@
 }
 
 + (_Bool);
++ (Class);
 + (Class);
-+ (Class);
-+ (long long)AsAlarmSearchStatus: /* Error: Ran out of types for this method. */;
++ (long long)StringAsAlarmSearchStatus: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)ntUnsupportedReason:(id)arg1;
+- (id)StringAsTargetEventUnsupportedReason:(id)arg1;
 
 @end
 

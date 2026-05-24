@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSString, RBSService;
+@class RBSService;
 
 @interface BSRBSService
 {
     RBSService *_underlying;
-    NSMutableDictionary *_lock_inheritanceToEndpoint;
-    NSMutableDictionary *_lock_endpointToInheritances;
-    NSMutableDictionary *_lock_serviceIdentifierToEndpoints;
-    NSMutableDictionary *_lock_serviceIdentifierToMonitors;
-    NSDictionary *_lock_machNameToLaunchIdentifiers;
-    NSMutableDictionary *_callOutLock_serviceIdentifierToEndpointsToEnvironments;
-    struct os_unfair_lock_s _lock;
-    struct os_unfair_lock_s _callOutLock;
 }
 
-+ (id);
-+ (id);
++ (id);
++ (id)allowedUsers;
 - (void);
 - (void);
 - (id);
@@ -28,17 +20,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)boolForKey:error: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

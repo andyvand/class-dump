@@ -4,11 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATRemoteConnection;
+@class CATRemoteConnection, NSData;
 
 @protocol CATRemoteConnectionDelegate
 
 @optional
-- (void):(CATRemoteConnection *)arg1;
+- (void);
+- (void);
+- (void)URLsForResourcesWithExtension:(CATRemoteConnection *)arg1 subdirectory:(NSData *)arg2;
 @end
 

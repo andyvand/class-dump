@@ -7,6 +7,7 @@
 @class MNNavigationSessionState;
 
 @protocol MNNavigationSessionStateListener
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) MNNavigationSessionState *navigationSessionState;

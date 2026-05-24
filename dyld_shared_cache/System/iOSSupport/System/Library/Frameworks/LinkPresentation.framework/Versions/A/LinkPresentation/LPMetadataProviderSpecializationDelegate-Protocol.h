@@ -5,5 +5,10 @@
 //
 
 @protocol LPMetadataProviderSpecializationDelegate
+- (void)transcriptEmphasizedPreferredFontAttributes;
+- (void)transcriptEditingUnselectedImage;
+
+@optional
+- (void)transcriptNotifyAnywayFontAttributes;
 @end
 

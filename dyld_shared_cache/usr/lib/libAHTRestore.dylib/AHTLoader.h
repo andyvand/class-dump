@@ -4,31 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface AHTLoader
 {
     unsigned int _imageTag;
     unsigned int _loadingGroup;
-    unsigned int _service;
-    unsigned int _connect;
-    NSString *_name;
 }
 
 + (id);
 + (id);
 + (_Bool);
-+ (_Bool);
++ (_Bool)R;
 + (id);
++ (id)R;
 + (id);
-+ (id);
 - (_Bool);
 - (_Bool);
+- (_Bool)C;
+- (unsigned int));
 - (_Bool);
-- (unsigned int);
-- (_Bool);
-- (unsigned int);
+- (unsigned int));
 - (void);
 - (id);
 - (void);
@@ -36,16 +31,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned int);
 - (void);
-- (id);
+- (id)for StringTable;
 - (void);
-- (unsigned int);
-- (void);
+- (unsigned int)tent request sizes;
+- (void)__objc_classlist__DATA_CONST;
 
 // Remaining properties
 @property(nonatomic) unsigned int connect; // @synthesize connect=_connect;
-@property(readonly, nonatomic) unsigned int imageTag; // @synthesize imageTag=_imageTag;
-@property(readonly, nonatomic) unsigned int loadingGroup; // @synthesize loadingGroup=_loadingGroup;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 @property(nonatomic) unsigned int service; // @synthesize service=_service;
 
 @end

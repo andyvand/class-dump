@@ -11,7 +11,6 @@
 @interface MUIMessageListGroupedSenderSectionDataSource : MessageListSectionDataSource
 {
     _Bool _hideMessageListAvatar;
-    id <EFCancelable> _avatarUserDefaultObserver;
 }
 
 - (void);
@@ -20,12 +19,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)ontroller: /* Error: Ran out of types for this method. */;
+- (id)P;
+- (void)refreshFontsForViewController: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) id <EFCancelable> avatarUserDefaultObserver; // @synthesize avatarUserDefaultObserver=_avatarUserDefaultObserver;
-@property(nonatomic) _Bool hideMessageListAvatar; // @synthesize hideMessageListAvatar=_hideMessageListAvatar;
 
 @end
 

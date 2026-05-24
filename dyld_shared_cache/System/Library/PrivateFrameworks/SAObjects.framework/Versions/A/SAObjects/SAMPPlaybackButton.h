@@ -23,7 +23,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *pauseCommands;
-@property(copy, nonatomic) NSArray *playCommands;
 
 @end
 

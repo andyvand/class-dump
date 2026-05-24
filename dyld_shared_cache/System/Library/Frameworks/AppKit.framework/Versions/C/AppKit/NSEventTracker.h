@@ -9,12 +9,6 @@
 @interface NSEventTracker
 {
     _Bool _wantsEventCoalescing;
-    _Bool _wantsPeriodicCallbacks;
-    _Bool _wantsKeyboardEvents;
-    unsigned long long _deviceID;
-    unsigned long long _modifierFlags;
-    unsigned long long _phase;
-    NSEvent *_currentEvent;
 }
 
 - (_Bool);
@@ -24,25 +18,19 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)ct;
 - (unsigned long long);
 - (void);
-- (void);
+- (void)6@24Q32Q40@48B56@?60;
 - (id)à3Ð1Â0@ù
 × ;
 - (void);
 - (unsigned long long);
 - (void)ôÿÿÿ°ðÿxÿl;
-- (void)r;
+- (void)ar;
 
 // Remaining properties
 @property(retain) NSEvent *currentEvent; // @synthesize currentEvent=_currentEvent;
-@property unsigned long long deviceID; // @synthesize deviceID=_deviceID;
-@property unsigned long long modifierFlags; // @synthesize modifierFlags=_modifierFlags;
-@property unsigned long long phase; // @synthesize phase=_phase;
-@property _Bool wantsEventCoalescing; // @synthesize wantsEventCoalescing=_wantsEventCoalescing;
-@property _Bool wantsKeyboardEvents; // @synthesize wantsKeyboardEvents=_wantsKeyboardEvents;
-@property _Bool wantsPeriodicCallbacks; // @synthesize wantsPeriodicCallbacks=_wantsPeriodicCallbacks;
 
 @end
 

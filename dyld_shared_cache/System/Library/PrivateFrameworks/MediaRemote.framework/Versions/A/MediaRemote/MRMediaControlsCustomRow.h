@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UTType;
+@class NSString;
 
 @interface MRMediaControlsCustomRow
 {
     NSString *_identifier;
-    UTType *_type;
-    NSString *_titleOverride;
 }
 
 + (id);
@@ -19,18 +17,16 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)(!Ț;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)aemon.audio.bt-info.fetch.end;
 - (id);
-- (void)sIsVolumeControlAvailable: /* Error: Ran out of types for this method. */;
+- (void)setHasIsVolumeControlAvailable: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSString *titleOverride; // @synthesize titleOverride=_titleOverride;
-@property(copy, nonatomic) UTType *type; // @synthesize type=_type;
 
 @end
 

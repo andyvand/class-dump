@@ -9,8 +9,6 @@
 @interface PKPaymentOfferDynamicContentIcon
 {
     PKPaymentOfferDynamicContentIconVariant *_defaultVariant;
-    PKPaymentOfferDynamicContentIconVariant *_darkVariant;
-    PKPaymentOfferDynamicContentIconVariant *_lightVariant;
 }
 
 + (_Bool)qî%Ð1Â0@ù
@@ -24,18 +22,16 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)setLessThan55mHistogram:(id)arg1;
+- (void)AWDCoreRoutineMagicalMomentsExpertInstance;
 - (id);
-- (id);
-- (id)ssIdentifier;
+- (id)?;
+- (id)defaultExpressFelicaTransitPassIdentifier;
 - (void)anization-name;
 - (id)long label. You should really not be reading this! Feel free to not read this in the future. Also, here is some more text for some more fun!;
 
 // Remaining properties
-@property(retain, nonatomic) PKPaymentOfferDynamicContentIconVariant *darkVariant; // @synthesize darkVariant=_darkVariant;
 @property(retain, nonatomic) PKPaymentOfferDynamicContentIconVariant *defaultVariant; // @synthesize defaultVariant=_defaultVariant;
-@property(retain, nonatomic) PKPaymentOfferDynamicContentIconVariant *lightVariant; // @synthesize lightVariant=_lightVariant;
 
 @end
 

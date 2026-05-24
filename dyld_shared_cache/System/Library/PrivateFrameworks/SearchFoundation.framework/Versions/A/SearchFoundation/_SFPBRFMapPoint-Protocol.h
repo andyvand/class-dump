@@ -7,11 +7,11 @@
 @class NSData;
 
 @protocol _SFPBRFMapPoint
-- (double)dSection;
+- (void)initWithKeyName:(double)arg1 searchable:searchableByDefault:unique:multiValued: /* Error: Ran out of types for this method. */;
+- (NSData *)_lazyChangeHandlingPhotoLibrary;
+- (double)mediaRemoteControlCardSection;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) double x;
-@property(nonatomic) double y;
 @end
 

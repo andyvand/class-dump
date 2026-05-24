@@ -6,23 +6,20 @@
 
 #import <TextInput/TIKeyboardCandidateSingle.h>
 
-@class NSString;
-
 @interface TIPinyinDisambiguationCandidate : TIKeyboardCandidateSingle
 {
     _Bool _generatedByChoosePinyin;
-    NSString *_label;
 }
 
 + (id);
 + (int);
-+ (_Bool);
++ (_Bool);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);

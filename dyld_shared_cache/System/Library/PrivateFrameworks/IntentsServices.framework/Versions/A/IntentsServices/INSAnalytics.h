@@ -5,30 +5,27 @@
 //
 
 @class NSHashTable, NSObject;
-@protocol INSAnalyticsDataSource, OS_dispatch_queue;
+@protocol OS_dispatch_queue;
 
 @interface INSAnalytics
 {
     NSObject<OS_dispatch_queue> *_observerQueue;
-    id <INSAnalyticsDataSource> _dataSource;
-    NSHashTable *_observers;
 }
 
 + (id);
 - (id);
 - (id);
 - (id);
+- (void)notifySessionDelegateDidBegin:(id)arg1;
+- (id);
+- (void)6;
+- (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)roviderProxy",&,N,V_uiProviderProxy;
 
 // Remaining properties
-@property(nonatomic) __weak id <INSAnalyticsDataSource> dataSource; // @synthesize dataSource=_dataSource;
 @property(retain, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
 
 @end

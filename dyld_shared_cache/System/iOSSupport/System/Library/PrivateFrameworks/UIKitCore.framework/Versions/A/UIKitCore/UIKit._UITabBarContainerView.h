@@ -11,21 +11,18 @@
 @interface UIKit._UITabBarContainerView : _UITouchPassthroughView
 {
     UITabBar *tabBar;
-    id isBarHidden;
-    id host;
-    id layoutManager;
 }
 
-- (void);
-- (id);
+- (void)%@;
+- (id)count, but found no service; %@;
 - (long long);
 - (struct CGRect);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void)tion: /* Error: Ran out of types for this method. */;
-- (id)ingualKeyboardIntroductionView;
+- (void)_defaultCircleDisclosureImageForTraitCollection: /* Error: Ran out of types for this method. */;
+- (id)UIKBMultilingualKeyboardIntroductionView;
 - (void)q;
 
 // Remaining properties

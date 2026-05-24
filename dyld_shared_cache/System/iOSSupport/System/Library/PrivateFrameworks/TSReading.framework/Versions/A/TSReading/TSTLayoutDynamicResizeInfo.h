@@ -4,50 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TSTCellRegion;
-
 @interface TSTLayoutDynamicResizeInfo
 {
     _Bool mValid;
-    int mTableRowsBehavior;
-    TSTCellRegion *mRowRegion;
-    unsigned short mStartRowIndex;
-    unsigned short mNumberOfRows;
-    unsigned short mNumberOfResizableRows;
-    double *mCapturedRowHeights;
-    double *mCurrentRowHeights;
-    double *mMinimumRowHeights;
-    double mCapturedRowHeightTotal;
-    TSTCellRegion *mColumnRegion;
-    unsigned char mStartColumnIndex;
-    unsigned short mNumberOfColumns;
-    unsigned short mNumberOfResizableColumns;
-    double *mCapturedColumnWidths;
-    double *mCurrentColumnWidths;
-    double *mMinimumColumnWidths;
-    double mCapturedColumnWidthTotal;
 }
 
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)AssetProducerDataSource;
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)Y;
 - (double);
+- (double);
 - (double);
-- (double);
-- (double);
-- (double);
+- (double)MPCPlaybackEngineInternalError;
+- (double)NMPCPlaybackSessionManagerErrorCode;
 - (void);
 - (void);
-- (struct CGSize);
-- (void);
+- (struct CGSize);
+- (void)a;
 - (double);
 - (double);
 - (double);
 - (double);
-- (id);
+- (id);
 - (double);
 - (id);
 - (id);
@@ -56,13 +37,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

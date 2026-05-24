@@ -6,13 +6,10 @@
 
 #import <OfficeImport/CMDiagramPointMapper.h>
 
-@class NSDictionary;
-
 __attribute__((visibility("hidden")))
 @interface CMDiagramPointTransitionMapper : CMDiagramPointMapper
 {
     int mShapeType;
-    NSDictionary *mAdjustValues;
 }
 
 - (void);

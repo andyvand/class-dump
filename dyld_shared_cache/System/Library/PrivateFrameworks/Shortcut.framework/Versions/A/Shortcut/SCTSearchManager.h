@@ -4,67 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSConditionLock, NSLayoutConstraint, NSMenu, NSMutableArray, NSMutableDictionary, NSSearchField, NSStatusItem, NSString, NSTimer, NSWindow, SCTBackgroundView, SCTGRL, SCTGRLIndex, SCTMenuBarVisibilityManager, SCTMenuView, SCTTableView;
+@class NSMutableArray, SCTMenuView;
 
 __attribute__((visibility("hidden")))
 @interface SCTSearchManager
 {
     SCTMenuView *mSearchView;
-    SCTBackgroundView *mBackgroundView;
-    NSSearchField *mSearchField;
-    SCTTableView *mResultsTable;
-    NSLayoutConstraint *mLabelWidthConstraint;
-    NSStatusItem *mStatusItem;
-    NSButton *mSCTIconView;
-    SCTGRLIndex *mGRLIndex;
-    NSMutableArray *mSearchHandlers;
-    NSMutableDictionary *mRawSearchResults;
-    NSMutableDictionary *mCollatedResults;
-    NSMutableArray *mResultCategories;
-    NSMutableArray *mViewRowTable;
-    long long mSelectedResult;
-    _Bool mSelectionInProgress;
-    _Bool mIgnoreMenuClosedEvents;
-    _Bool mHelpMenuIsInSearchMode;
-    _Bool mHasNoResultsFound;
-    SCTGRL *mGRLToBeShown;
-    SCTGRL *mShownGRL;
-    SCTGRL *mPrevShownGRL;
-    SCTGRL *mSpaceGRL;
-    NSWindow *mSavedKeyWindow;
-    NSTimer *mClearSearchTimer;
-    unsigned int mLastNavigationDirection;
-    double mLabelWidthOriginal;
-    struct OpaqueEventHandlerRef *mCloseMenuHandler;
-    _Bool mDebugMode;
-    int mThreadCount;
-    NSConditionLock *mSearchThreadLock;
-    _Bool mResetSearch;
-    NSString *mSearchString;
-    _Bool mTerminateSearchThread;
-    unsigned long long mResultSequenceNumber;
-    unsigned long long mQuerySequenceNumber;
-    unsigned long long mCustomQuerySequenceNumber;
-    double mSearchTimeInterval;
-    _Bool mMenuBarIndexIsStale;
-    SEL mMoveUpSelector;
-    SEL mMoveDownSelector;
-    SEL mMoveLeftSelector;
-    SEL mMoveRightSelector;
-    SEL mCarriageReturnSelector;
-    SEL mNewLineSelector;
-    SEL mEnterSelector;
-    struct OpaqueMenuRef *mPreviousHelpMenu;
-    NSMenu *akm_mPreviousHelpMenu;
-    SCTMenuBarVisibilityManager *mMenuBarVisibilityManager;
-    struct OpaqueEventHandlerRef *mInstallWhenTrackingHandlerRef;
 }
 
++ (id);
 + (id);
-+ (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -80,20 +32,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
+- (void)7;
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (long long);
-- (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (id)S)=;
+- (long long);
+- (id);
 - (_Bool);
 - (id);
 - (struct CGRect);
@@ -109,13 +61,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)Y;
 - (int);
 - (int);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
@@ -165,21 +117,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)C;
 - (id);
 - (void) ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) SCTMenuBarVisibilityManager *mMenuBarVisibilityManager; // @synthesize mMenuBarVisibilityManager;
 @property(readonly) NSMutableArray *searchHandlers; // @synthesize searchHandlers=mSearchHandlers;
-@property(readonly) Class superclass;
 
 @end
 

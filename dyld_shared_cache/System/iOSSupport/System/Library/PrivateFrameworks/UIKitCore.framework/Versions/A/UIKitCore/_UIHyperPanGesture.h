@@ -11,26 +11,22 @@
 @interface _UIHyperPanGesture : _UIHyperGesture
 {
     UIPanGestureRecognizer *__panGestureRecognizer;
-    unsigned long long __axes;
-    double __multiplier;
 }
 
-- (id);
-- (id);
+- (id)isSMSSpam;
+- (id)initWithContainerID:(unsigned long long)arg1 options: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
-- (void);
-- (id);
-- (double);
-- (void);
-- (void);
-- (unsigned long long);
+- (id)status to synced;
+- (double)MiC by default:failed to get exit record attempt %d, done /* Error: Ran out of types for this method. */;
+- (void)o all listeners;
+- (void)s;
+- (unsigned long long)g to local device, requiresUpload %@;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic, setter=_setAxes:) unsigned long long _axes; // @synthesize _axes=__axes;
-@property(nonatomic, setter=_setMultiplier:) double _multiplier; // @synthesize _multiplier=__multiplier;
 @property(retain, nonatomic, setter=_setPanGestureRecognizer:) UIPanGestureRecognizer *_panGestureRecognizer; // @synthesize _panGestureRecognizer=__panGestureRecognizer;
 
 @end

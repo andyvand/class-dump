@@ -9,11 +9,11 @@
     unsigned long long _type;
 }
 
-+ (id);
++ (id)RO;
 + (_Bool)î%Ð1Â0@ù
 × ;
 - (id);
-- (unsigned long long);
+- (unsigned long long)setView: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);

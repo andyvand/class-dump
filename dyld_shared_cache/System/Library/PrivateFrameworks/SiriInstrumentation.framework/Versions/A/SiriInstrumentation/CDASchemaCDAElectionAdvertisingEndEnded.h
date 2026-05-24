@@ -6,12 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface CDASchemaCDAElectionAdvertisingEndEnded : SISchemaInstrumentationMessage
 {
     int _state;
-    CDStruct_5accba53 _has;
 }
 
 - (void);
@@ -22,16 +19,14 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (int);
+- (int)chat_message_join cmj WHERE message.ROWID = cmj.message_id LIMIT 1) IS NULL;;
 - (_Bool);
 - (id);
 - (id)VIntentEagerExecutionContext";
-- (id)assificationEnded;
+- (id)CLPInstSchemaCLPCurareAppIntentTaskClassificationEnded;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasState;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int state; // @synthesize state=_state;
 
 @end

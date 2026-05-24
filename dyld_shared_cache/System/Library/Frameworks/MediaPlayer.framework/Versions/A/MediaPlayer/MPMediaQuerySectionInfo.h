@@ -9,8 +9,6 @@
 @interface MPMediaQuerySectionInfo
 {
     NSArray *_sections;
-    NSArray *_sectionIndexTitles;
-    _Bool _hasUnknownSection;
 }
 
 + (_Bool);
@@ -21,18 +19,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
-- (void)ilterForFilterText: /* Error: Ran out of types for this method. */;
+- (void)_additionalPropertyFilterForFilterText: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count;
-@property(nonatomic) _Bool hasUnknownSection; // @synthesize hasUnknownSection=_hasUnknownSection;
 @property(copy, nonatomic) NSArray *sectionIndexTitles;
-@property(readonly, copy, nonatomic) NSArray *sections; // @synthesize sections=_sections;
 
 @end
 

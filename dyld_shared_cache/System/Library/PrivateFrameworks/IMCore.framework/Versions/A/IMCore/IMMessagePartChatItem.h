@@ -6,105 +6,49 @@
 
 #import <IMCore/IMMessageChatItem.h>
 
-@class IMMessageItem, IMMessagePartHighlightChatItem, NSArray, NSAttributedString, NSLocale, NSString;
+@class NSString;
 
 @interface IMMessagePartChatItem : IMMessageChatItem
 {
     _Bool _isBusiness;
-    _Bool _chatInScrutinyMode;
-    _Bool _supportsSuggestedActionsMenu;
-    _Bool _pendingSatelliteSend;
-    _Bool _allowlistedRichLinkSender;
-    NSAttributedString *_text;
-    NSAttributedString *_translationSecondaryText;
-    long long _index;
-    NSAttributedString *_fallbackCorruptText;
-    NSArray *_visibleAssociatedMessageChatItems;
-    long long _syndicationType;
-    long long _syndicationStatus;
-    IMMessagePartHighlightChatItem *_messageHighlightChatItem;
-    long long _syndicationBehavior;
-    NSArray *_suggestedActionsList;
-    NSLocale *_translationSourceLanguage;
-    unsigned long long _replyCount;
-    struct _NSRange _messagePartRange;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (_Bool);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (long long);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)TIMESTAMP) !!!!!!!!!!!!;
++ (id)%d ARPLSessionRelease:(id)arg1 old session (%08X)...;
++ (id)e detector=%p is stopped and destroyed in audio transmitter=%p;
++ (id)AllowedBitrateHighRat = %d, _maxAllowedBitrateWifi = %d;
++ (id)ranslateBufferPool is NULL;
++ (_Bool)r:(id)arg1 %u] Video[%ukbps %4.1ffps] Frames Received=%u Processed=%u;
++ (id)rumForCellularTapType;
++ (id)end or buffer with a nil message;
++ (id)nfigure local participant failed to switch;
++ (_Bool)> ERROR:(id)arg1 VideoConference context is nil (in VideoConferenceManagerCategories) <<<<<;
++ (id)up that is already stopped;
++ (_Bool)or streamToken=%u;
++ (_Bool)ot exist;
++ (id)am [%s] %s:(id)arg1 %d VCVideoStream:(id)arg2 no image queue/layer to draw to... This should be reported!;
++ (id)CVideoStream:(id)arg1 null object was passed to DidReceiveRemoteFrame;
++ (id)y size (%lu);
++ (id)f transports.;
++ (id)figuring VCVideoStream with a different number of transports.;
++ (id)eoStream with a different number of transports.;
++ (id)to create frame data;
++ (id)] error[%s];
++ (_Bool)eam [%s] %s:(id)arg1 %d Failed to create video redundancy controller;
++ (_Bool)[%s] %s:(id)arg1 %d %s %s;
++ (_Bool)eam [%s] %s:(id)arg1 %d %@(%p) videoReceiver=%p;
++ (id)othing to remove;
++ (id)tput to %u;
++ (id)x %d;
++ (long long)lobal succeeded;
++ (id)speaker sample buffer is too small (%d). Expected=%d frames=%d bytesPerFrame=%d channels=%d! BufferCount=%d size=%d;
++ (id)ceIOProperty_SpatialMetadata) failed(%d);
++ (id)rary/Caches/com.apple.xbs/TemporaryDirectory.ZMSfoZ/Sources/AVConference/AVConference.subproj/Sources/AUIO/AUIO.mm:(id)arg1 %d:AUIO=%p ERROR AudioOutputUnitStart returned %d /* Error: Ran out of types for this method. */;
++ (id):(id)arg1 %d AUIO=%p Failed to find component;
 + (_Bool);
 
 // Remaining properties
-@property(nonatomic, getter=isAllowlistedRichLinkSender) _Bool allowlistedRichLinkSender; // @synthesize allowlistedRichLinkSender=_allowlistedRichLinkSender;
-@property(nonatomic) _Bool chatInScrutinyMode; // @synthesize chatInScrutinyMode=_chatInScrutinyMode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSAttributedString *fallbackCorruptText; // @synthesize fallbackCorruptText=_fallbackCorruptText;
-@property(readonly, nonatomic) _Bool hasSubject;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, setter=_setIndex:) long long index; // @synthesize index=_index;
-@property(nonatomic) _Bool isBusiness; // @synthesize isBusiness=_isBusiness;
-@property(readonly, nonatomic) _Bool isCorrupt;
-@property(readonly, nonatomic) _Bool isEditedMessagePart;
-@property(readonly, nonatomic) _Bool isFailedEditMessagePart;
-@property(readonly, nonatomic) _Bool isFailedRetractMessagePart;
-@property(readonly, nonatomic) _Bool isRetractedMessagePart;
-@property(readonly, copy, nonatomic) IMMessagePartHighlightChatItem *messageHighlightChatItem; // @synthesize messageHighlightChatItem=_messageHighlightChatItem;
-@property(nonatomic) struct _NSRange messagePartRange; // @synthesize messagePartRange=_messagePartRange;
-@property(readonly, nonatomic) struct _NSRange originalMessagePartRange;
-@property(nonatomic, getter=isPendingSatelliteSend) _Bool pendingSatelliteSend; // @synthesize pendingSatelliteSend=_pendingSatelliteSend;
-@property(nonatomic) unsigned long long replyCount; // @synthesize replyCount=_replyCount;
-@property(readonly, nonatomic) _Bool requiresCriticalMessagingAPIAttribution;
-@property(readonly, nonatomic) _Bool requiresFaceTimeAttribution;
-@property(readonly, nonatomic) _Bool requiresSiriAttribution;
-@property(readonly, nonatomic) unsigned long long scheduleState;
-@property(readonly, nonatomic) unsigned long long scheduleType;
-@property(readonly, nonatomic) NSArray *suggestedActionsList; // @synthesize suggestedActionsList=_suggestedActionsList;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsSuggestedActionsMenu; // @synthesize supportsSuggestedActionsMenu=_supportsSuggestedActionsMenu;
-@property(readonly, nonatomic) long long syndicationBehavior; // @synthesize syndicationBehavior=_syndicationBehavior;
-@property(readonly, nonatomic) long long syndicationStatus; // @synthesize syndicationStatus=_syndicationStatus;
-@property(readonly, nonatomic) long long syndicationType; // @synthesize syndicationType=_syndicationType;
-@property(readonly, copy, nonatomic) NSAttributedString *text; // @synthesize text=_text;
-@property(readonly, copy, nonatomic) NSString *threadIdentifier;
 @property(readonly, copy, nonatomic) NSString *threadIdentifierForTapback;
-@property(readonly, nonatomic) IMMessageItem *threadOriginator;
-@property(readonly, copy, nonatomic) NSAttributedString *translationSecondaryText; // @synthesize translationSecondaryText=_translationSecondaryText;
-@property(retain, nonatomic) NSLocale *translationSourceLanguage; // @synthesize translationSourceLanguage=_translationSourceLanguage;
-@property(retain, nonatomic, setter=_setVisibleAssociatedMessageChatItems:) NSArray *visibleAssociatedMessageChatItems; // @synthesize visibleAssociatedMessageChatItems=_visibleAssociatedMessageChatItems;
 
 @end
 

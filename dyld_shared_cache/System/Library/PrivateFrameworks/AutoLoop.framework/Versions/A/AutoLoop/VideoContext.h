@@ -4,42 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIContext, NSDictionary, VideoWriter;
+@class NSDictionary;
 
 @interface VideoContext
 {
     _Bool _colorManagement;
-    unsigned int pixelFormatFlags;
-    unsigned int pixelFormat;
-    CIContext *ciCtx;
-    VideoWriter *writer;
-    NSDictionary *pixelAttrs;
 }
 
 - (void);
-- (unsigned int);
+- (unsigned int)@9Q;
 - (struct __CVBuffer *);
 - (struct __CVBuffer *);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (struct __CVBuffer *);
 - (struct __CVBuffer *);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool)Q;
 - (id);
 - (void);
 - (unsigned int);
 
 // Remaining properties
-@property(readonly) CIContext *ciCtx; // @synthesize ciCtx;
-@property _Bool colorManagement; // @synthesize colorManagement=_colorManagement;
 @property(readonly) NSDictionary *pixelAttrs; // @synthesize pixelAttrs;
-@property(readonly) unsigned int pixelFormat; // @synthesize pixelFormat;
-@property(readonly) unsigned int pixelFormatFlags; // @synthesize pixelFormatFlags;
-@property(readonly) VideoWriter *writer; // @synthesize writer;
 
 @end
 

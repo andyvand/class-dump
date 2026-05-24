@@ -10,7 +10,7 @@
 {
 }
 
-+ (id);
++ (id)allowsCellularAccess;
 - (long long);
 - (id);
 - (id);

@@ -4,35 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDSelectedAudioParameters, HMDSelectedVideoParameters, HMDSessionControl, NSData;
+@class HMDSessionControl;
 
 __attribute__((visibility("hidden")))
 @interface HMDSelectedStreamConfigurationWrite
 {
     HMDSessionControl *_sessionControl;
-    HMDSelectedVideoParameters *_videoParameters;
-    HMDSelectedAudioParameters *_audioParameters;
 }
 
 + (_Bool)´Ö;
 - (id);
-- (id);
-- (id);
+- (id)descriptorForRequiredKeysForStyle:(id)arg1;
+- (id)departuresAreVehicleSpecific;
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)fersize %lu too big (> %d);
 - (void);
 - (id)ù
 × ;
 - (void)gramServer"8@?0;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) HMDSelectedAudioParameters *audioParameters; // @synthesize audioParameters=_audioParameters;
 @property(readonly, copy, nonatomic) HMDSessionControl *sessionControl; // @synthesize sessionControl=_sessionControl;
-@property(readonly, copy) NSData *tlvData;
-@property(readonly, copy, nonatomic) HMDSelectedVideoParameters *videoParameters; // @synthesize videoParameters=_videoParameters;
 
 @end
 

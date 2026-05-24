@@ -20,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)CPKEmojiBarForSearchFieldDismissedNotification;
 
 // Remaining properties
 @property(retain) NSString *parentAddress; // @synthesize parentAddress=_parentAddress;

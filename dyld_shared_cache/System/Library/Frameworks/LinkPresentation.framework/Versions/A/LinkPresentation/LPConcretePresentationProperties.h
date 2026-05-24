@@ -12,15 +12,13 @@ __attribute__((visibility("hidden")))
 @interface LPConcretePresentationProperties : LPWebLinkPresentationProperties
 {
     LPCaptionButtonPresentationProperties *_captionButton;
-    LPCaptionButtonPresentationProperties *_captionTextButton;
-    LPCaptionButtonPresentationProperties *_secondaryCaptionButton;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id){;
 - (id);
 - (id);
 - (_Bool);
@@ -29,8 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) LPCaptionButtonPresentationProperties *captionButton; // @synthesize captionButton=_captionButton;
-@property(retain, nonatomic) LPCaptionButtonPresentationProperties *captionTextButton; // @synthesize captionTextButton=_captionTextButton;
-@property(retain, nonatomic) LPCaptionButtonPresentationProperties *secondaryCaptionButton; // @synthesize secondaryCaptionButton=_secondaryCaptionButton;
 
 @end
 

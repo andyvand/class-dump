@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface ABCNPropertyDescription
 {
     NSString *_key;
-    NSString *_addressBookProperty;
-    NSString *_coreDataKey;
-    SEL _readSelector;
-    SEL _writeSelector;
-    _Bool _isMultiValue;
-    CDUnknownBlockType _toAddressBookTransform;
-    CDUnknownBlockType _fromAddressBookTransform;
-    CDUnknownBlockType _valueForKeyTransform;
 }
 
 - (SEL);
@@ -35,31 +27,20 @@
 - (CDUnknownBlockType);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)FFLINE;
 - (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *addressBookProperty; // @synthesize addressBookProperty=_addressBookProperty;
 @property(readonly, copy, nonatomic) NSString *coreDataKey; // @synthesize coreDataKey=_coreDataKey;
-@property(readonly, nonatomic) NSArray *equivalentLabelSets;
-@property(readonly, copy, nonatomic) CDUnknownBlockType fromAddressBookTransform; // @synthesize fromAddressBookTransform=_fromAddressBookTransform;
-@property(readonly, nonatomic) _Bool isMultiValue; // @synthesize isMultiValue=_isMultiValue;
-@property(readonly, nonatomic) _Bool isSingleValue;
-@property(readonly, nonatomic) _Bool isWritable;
-@property(readonly, copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(readonly, nonatomic) SEL readSelector; // @synthesize readSelector=_readSelector;
-@property(readonly, copy, nonatomic) CDUnknownBlockType toAddressBookTransform; // @synthesize toAddressBookTransform=_toAddressBookTransform;
-@property(readonly, copy, nonatomic) CDUnknownBlockType valueForKeyTransform; // @synthesize valueForKeyTransform=_valueForKeyTransform;
-@property(readonly, nonatomic) SEL writeSelector; // @synthesize writeSelector=_writeSelector;
 
 @end
 

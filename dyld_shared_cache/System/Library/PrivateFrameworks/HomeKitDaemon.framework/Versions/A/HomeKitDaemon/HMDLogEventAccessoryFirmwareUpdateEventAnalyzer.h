@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id);
+- (id)ndow;
 - (void)ation for non-first transition point at %lld is zero.;
 - (id)ublic}@Could not find home with valid fabric ID corresponding to fabric UUID:(id)arg1 %@;
 - (void)et data type for %s from command %@;

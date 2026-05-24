@@ -5,5 +5,8 @@
 //
 
 @protocol AKPinFieldViewDelegate
+
+@optional
+- (void);
 @end
 

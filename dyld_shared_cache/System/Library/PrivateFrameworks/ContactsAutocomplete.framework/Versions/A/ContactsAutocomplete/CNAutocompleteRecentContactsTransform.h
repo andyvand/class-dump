@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRRecentContactsLibrary, NSArray, NSString;
+@class NSString;
 
 @interface CNAutocompleteRecentContactsTransform
 {
     NSString *_priorityDomainForSorting;
-    NSString *_sendingAddress;
-    NSArray *_otherAddressesAlreadyChosen;
-    NSString *_searchString;
-    CRRecentContactsLibrary *_library;
 }
 
 + (CDUnknownBlockType);
-+ (CDUnknownBlockType);
++ (CDUnknownBlockType);
 + (id);
 + (id);
 + (id);
@@ -25,7 +21,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -34,11 +30,7 @@
 - (id);
 
 // Remaining properties
-@property(retain) CRRecentContactsLibrary *library; // @synthesize library=_library;
-@property(copy) NSArray *otherAddressesAlreadyChosen; // @synthesize otherAddressesAlreadyChosen=_otherAddressesAlreadyChosen;
 @property(copy) NSString *priorityDomainForSorting; // @synthesize priorityDomainForSorting=_priorityDomainForSorting;
-@property(copy) NSString *searchString; // @synthesize searchString=_searchString;
-@property(copy) NSString *sendingAddress; // @synthesize sendingAddress=_sendingAddress;
 
 @end
 

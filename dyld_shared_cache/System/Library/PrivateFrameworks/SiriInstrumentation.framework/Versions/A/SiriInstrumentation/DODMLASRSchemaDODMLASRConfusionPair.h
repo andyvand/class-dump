@@ -6,34 +6,23 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface DODMLASRSchemaDODMLASRConfusionPair : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_asrId;
-    int _errorCode;
-    int _editMethod;
-    int _editReason;
-    int _recognizedTextStartIndex;
-    struct {
-        unsigned int errorCode:1;
-        unsigned int editMethod:1;
-        unsigned int editReason:1;
-        unsigned int recognizedTextStartIndex:1;
-    } _has;
-    _Bool _hasAsrId;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)@9;
+- (void)qA;
 - (void);
 - (int);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (int);
@@ -46,16 +35,16 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)eInfo"8;
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)p=;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)};
-- (id)lSpanMatcherEndedTier1;
+- (id)NLXSchemaMARRSContextualSpanMatcherEndedTier1;
 - (id)¸@;
 - (void)Ài¶ÿ1®2Á%;
 - (void)R';
@@ -63,16 +52,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *asrId; // @synthesize asrId=_asrId;
-@property(nonatomic) int editMethod; // @synthesize editMethod=_editMethod;
-@property(nonatomic) int editReason; // @synthesize editReason=_editReason;
-@property(nonatomic) int errorCode; // @synthesize errorCode=_errorCode;
-@property(nonatomic) _Bool hasAsrId; // @synthesize hasAsrId=_hasAsrId;
-@property(nonatomic) _Bool hasEditMethod;
-@property(nonatomic) _Bool hasEditReason;
-@property(nonatomic) _Bool hasErrorCode;
-@property(nonatomic) _Bool hasRecognizedTextStartIndex;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int recognizedTextStartIndex; // @synthesize recognizedTextStartIndex=_recognizedTextStartIndex;
 
 @end
 

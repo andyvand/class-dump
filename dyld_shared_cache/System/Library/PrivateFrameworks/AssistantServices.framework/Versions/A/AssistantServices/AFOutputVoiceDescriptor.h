@@ -9,7 +9,6 @@
 @interface AFOutputVoiceDescriptor
 {
     NSString *_localizedDisplay;
-    NSString *_localizedDisplayWithRegion;
 }
 
 + (id);
@@ -17,11 +16,11 @@
 - (id);
 - (id);
 - (id);
+- (id)NSArray",C,N,V_cloudStoreZoneNames;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)P;
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -31,7 +30,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *localizedDisplay; // @synthesize localizedDisplay=_localizedDisplay;
-@property(readonly, copy, nonatomic) NSString *localizedDisplayWithRegion; // @synthesize localizedDisplayWithRegion=_localizedDisplayWithRegion;
 
 @end
 

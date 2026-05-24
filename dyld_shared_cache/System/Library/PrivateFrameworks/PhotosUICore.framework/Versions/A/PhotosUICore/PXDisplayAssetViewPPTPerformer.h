@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, NSString;
-@protocol PXAnonymousView, PXPPTDelegate;
+@class NSObject;
+@protocol PXAnonymousView;
 
 @interface PXDisplayAssetViewPPTPerformer
 {
     NSObject<PXAnonymousView> *_containerView;
-    id <PXPPTDelegate> _delegate;
-    NSDictionary *_testOptions;
-    NSString *_testName;
-    long long _testIterations;
 }
 
-- (long long);
+- (long long);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)gB�?;
 - (void);
 - (void);
 - (void);
@@ -34,10 +30,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<PXAnonymousView> *containerView; // @synthesize containerView=_containerView;
-@property(readonly, nonatomic) __weak id <PXPPTDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) long long testIterations; // @synthesize testIterations=_testIterations;
-@property(readonly, nonatomic) NSString *testName; // @synthesize testName=_testName;
-@property(readonly, nonatomic) NSDictionary *testOptions; // @synthesize testOptions=_testOptions;
 
 @end
 

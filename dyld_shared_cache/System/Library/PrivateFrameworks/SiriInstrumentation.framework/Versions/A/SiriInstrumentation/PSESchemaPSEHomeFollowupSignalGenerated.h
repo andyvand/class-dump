@@ -6,44 +6,37 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PSESchemaPSECommonSignal, PSESchemaPSEHomeFollowUp;
+@class PSESchemaPSECommonSignal;
 
 @interface PSESchemaPSEHomeFollowupSignalGenerated : SISchemaInstrumentationMessage
 {
     PSESchemaPSECommonSignal *_commonSignal;
-    PSESchemaPSEHomeFollowUp *_homeFollowUpSignal;
-    _Bool _hasCommonSignal;
-    _Bool _hasHomeFollowUpSignal;
 }
 
 - (void);
 - (void);
 - (void);
+- (void)C;
+- (id);
+- (_Bool)0;
+- (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (_Bool);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDAggregateClusterMappingData_macOS.m:62 :Not supported on macOS /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool)rs and resetting state;
 - (id);
 - (id);
-- (id)d;
+- (id)_synthesizedAudioDurationInSecond;
 - (id)stSegmentDurationInMs;
-- (void)ATUSREASON_APP_DISABLED_FOR_SIRI;
+- (void)FLOWSTATUSREASON_APP_DISABLED_FOR_SIRI;
 
 // Remaining properties
 @property(retain, nonatomic) PSESchemaPSECommonSignal *commonSignal; // @synthesize commonSignal=_commonSignal;
-@property(nonatomic) _Bool hasCommonSignal; // @synthesize hasCommonSignal=_hasCommonSignal;
-@property(nonatomic) _Bool hasHomeFollowUpSignal; // @synthesize hasHomeFollowUpSignal=_hasHomeFollowUpSignal;
-@property(retain, nonatomic) PSESchemaPSEHomeFollowUp *homeFollowUpSignal; // @synthesize homeFollowUpSignal=_homeFollowUpSignal;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

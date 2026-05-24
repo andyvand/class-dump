@@ -5,9 +5,9 @@
 //
 
 @class NSString;
-@protocol MTLDevice, MTLHeap;
 
 @protocol MTLResource
+- (void);
 - (unsigned long long)Ü\;
 - (unsigned long long)ailed. Readwrite pass %s has an uninitialised input at index %d:%s should be null /* Error: Ran out of types for this method. */;
 - (unsigned long long)t odd integer
@@ -4783,17 +4783,8 @@ fragment SCNOutput commonprofile_frag(commonprofile_io                   in     
 }
  /* Error: Ran out of types for this method. */;
 - (unsigned long long)r-depth-%p;
-- (id <MTLHeap>);
 
 // Remaining properties
-@property(readonly) unsigned long long allocatedSize;
-@property(readonly) unsigned long long cpuCacheMode;
-@property(readonly) id <MTLDevice> device;
-@property(readonly) unsigned long long hazardTrackingMode;
-@property(readonly) id <MTLHeap> heap;
-@property(readonly) unsigned long long heapOffset;
 @property(copy) NSString *label;
-@property(readonly) unsigned long long resourceOptions;
-@property(readonly) unsigned long long storageMode;
 @end
 

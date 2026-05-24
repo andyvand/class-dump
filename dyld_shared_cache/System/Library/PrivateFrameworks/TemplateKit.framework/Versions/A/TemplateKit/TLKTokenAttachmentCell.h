@@ -11,7 +11,7 @@
 
 - (id);
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
 
 // Remaining properties

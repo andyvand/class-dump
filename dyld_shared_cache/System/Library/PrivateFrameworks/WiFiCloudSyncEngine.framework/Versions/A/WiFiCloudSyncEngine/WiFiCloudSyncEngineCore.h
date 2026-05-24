@@ -4,33 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSThread, NSUbiquitousKeyValueStore;
-@protocol OS_dispatch_queue;
+@class NSUbiquitousKeyValueStore;
 
 @interface WiFiCloudSyncEngineCore
 {
     NSUbiquitousKeyValueStore *keyValueStore;
-    void *context;
-    CDUnknownFunctionPointerType callback;
-    NSThread *clientThread;
-    NSObject<OS_dispatch_queue> *clientQueue;
-    _Bool iCloudSyncingEnabled;
-    _Bool isKVSEncrypted;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)_TtC12SiriOntology30UsoEntity_common_CrisisSupport;
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void)UsoTaskBuilder_open_common_AppEntity;
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -40,31 +33,25 @@
 - (void);
 - (void *);
 - (void);
-- (id);
+- (id)_interference80to85;
+- (void);
+- (void);
+- (void);
+- (void)eventBody;
+- (id)_backgroundProcessingAssertionsByMigratingThreadScope;
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void);
+- (id);
 - (void);
 - (CDUnknownFunctionPointerType);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)T;
 
 // Remaining properties
-@property CDUnknownFunctionPointerType callback; // @synthesize callback;
-@property NSObject<OS_dispatch_queue> *clientQueue; // @synthesize clientQueue;
-@property NSThread *clientThread; // @synthesize clientThread;
-@property void *context; // @synthesize context;
-@property _Bool iCloudSyncingEnabled; // @synthesize iCloudSyncingEnabled;
-@property _Bool isKVSEncrypted; // @synthesize isKVSEncrypted;
 @property(retain) NSUbiquitousKeyValueStore *keyValueStore; // @synthesize keyValueStore;
 
 @end

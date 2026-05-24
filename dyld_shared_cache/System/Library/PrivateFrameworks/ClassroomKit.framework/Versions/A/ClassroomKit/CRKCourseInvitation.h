@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DMFControlGroupIdentifier, NSArray, NSData, NSString;
+@class DMFControlGroupIdentifier;
 
 @interface CRKCourseInvitation
 {
     DMFControlGroupIdentifier *_courseIdentifier;
-    NSString *_courseName;
-    NSString *_courseDescription;
-    unsigned long long _courseMascotType;
-    unsigned long long _courseColorType;
-    NSString *_instructorName;
-    NSData *_instructorImageData;
-    NSArray *_anchorCertificateDatas;
 }
 
 + (_Bool);
@@ -34,20 +27,13 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)X(;
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *anchorCertificateDatas; // @synthesize anchorCertificateDatas=_anchorCertificateDatas;
-@property(readonly, nonatomic) unsigned long long courseColorType; // @synthesize courseColorType=_courseColorType;
-@property(readonly, copy, nonatomic) NSString *courseDescription; // @synthesize courseDescription=_courseDescription;
 @property(readonly, copy, nonatomic) DMFControlGroupIdentifier *courseIdentifier; // @synthesize courseIdentifier=_courseIdentifier;
-@property(readonly, nonatomic) unsigned long long courseMascotType; // @synthesize courseMascotType=_courseMascotType;
-@property(readonly, copy, nonatomic) NSString *courseName; // @synthesize courseName=_courseName;
-@property(readonly, copy, nonatomic) NSData *instructorImageData; // @synthesize instructorImageData=_instructorImageData;
-@property(readonly, copy, nonatomic) NSString *instructorName; // @synthesize instructorName=_instructorName;
 
 @end
 

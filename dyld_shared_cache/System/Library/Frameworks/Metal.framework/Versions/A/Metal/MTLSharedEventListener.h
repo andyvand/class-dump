@@ -15,7 +15,7 @@
 + (id)´,G;
 + (id)P­ãÿØ¶;
 - (id);
-- (id);
+- (id)content_light_level_info;
 
 // Remaining properties
 @property(readonly) NSObject<OS_dispatch_queue> *dispatchQueue; // @dynamic dispatchQueue;

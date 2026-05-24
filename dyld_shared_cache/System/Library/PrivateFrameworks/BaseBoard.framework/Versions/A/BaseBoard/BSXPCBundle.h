@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, NSString;
-@protocol OS_xpc_object;
+@class NSString;
 
 @interface BSXPCBundle
 {
     NSString *_bundleIdentifier;
-    NSString *_bundlePath;
-    NSString *_executablePath;
-    NSDictionary *_infoDictionary;
-    NSObject<OS_xpc_object> *_xpcBundle;
 }
 
 + (id);
@@ -29,23 +24,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)!;
+- (id)h;
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, copy, nonatomic) NSString *bundlePath; // @synthesize bundlePath=_bundlePath;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *executablePath; // @synthesize executablePath=_executablePath;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSDictionary *infoDictionary; // @synthesize infoDictionary=_infoDictionary;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSObject<OS_xpc_object> *xpcBundle; // @synthesize xpcBundle=_xpcBundle;
 
 @end
 

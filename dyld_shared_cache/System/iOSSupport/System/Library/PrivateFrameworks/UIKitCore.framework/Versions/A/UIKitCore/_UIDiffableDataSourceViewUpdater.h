@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UICollectionView, UITableView;
-@protocol _UICollectionDataSourceSnapshotTranslating, _UICollectionViewUpdateItemApplying;
+@protocol _UICollectionViewUpdateItemApplying;
 
 __attribute__((visibility("hidden")))
 @interface _UIDiffableDataSourceViewUpdater
 {
     _Bool _hasPerformedInitialUpdate;
-    long long _tableViewRowAnimation;
-    long long _sinkKind;
-    id <_UICollectionViewUpdateItemApplying> _updatesSink;
-    UICollectionView *_collectionView;
-    id <_UICollectionDataSourceSnapshotTranslating> _dataSourceSnapshot;
-    UITableView *_tableView;
 }
 
 - (long long);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)ypted.;
+- (void)_enumerateUnorderedCollectionPersistentIDsUsingBlock:(long long)arg1;
+- (id)Type;
 - (id);
 - (void);
 - (id);
@@ -38,11 +31,11 @@ __attribute__((visibility("hidden")))
 - (_Bool)!¨Aùf°1Â0@ù
 × ;
 - (long long)dd}24{CGPoint=dd}40B56B60;
-- (id)ToTrailing:(id)arg1;
-- (id)on: /* Error: Ran out of types for this method. */;
-- (_Bool)eForegroundColor;
-- (long long)le:animated: /* Error: Ran out of types for this method. */;
-- (void)arity;
+- (id)setIconViewCenterXToTrailing:(id)arg1;
+- (id)setEpsilon: /* Error: Ran out of types for this method. */;
+- (_Bool)baseForegroundColor;
+- (long long)_setCursorVisible:animated: /* Error: Ran out of types for this method. */;
+- (void)_inheritedGranularity;
 - (id)etsReference "%@" to collection view frame %@.
 UICollectionView behavior with this layout is undefined. Break on UICollectionViewCompositionalLayoutAlertForInvalidLayout to catch this in the debugger.
 Error:(id)arg1 %@;
@@ -55,19 +48,6 @@ Error:(id)arg1 %@;
 - (id)_a;
 
 // Remaining properties
-@property(nonatomic) __weak UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(retain, nonatomic) id <_UICollectionDataSourceSnapshotTranslating> dataSourceSnapshot; // @synthesize dataSourceSnapshot=_dataSourceSnapshot;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasPerformedInitialUpdate; // @synthesize hasPerformedInitialUpdate=_hasPerformedInitialUpdate;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long sinkKind; // @synthesize sinkKind=_sinkKind;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak UITableView *tableView; // @synthesize tableView=_tableView;
-@property(nonatomic) long long tableViewRowAnimation; // @synthesize tableViewRowAnimation=_tableViewRowAnimation;
 @property(nonatomic) __weak id <_UICollectionViewUpdateItemApplying> updatesSink; // @synthesize updatesSink=_updatesSink;
 
 @end

@@ -4,36 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, RTDistanceCalculator, RTVehicleLocationProvider;
+@class RTVehicleLocationProvider;
 
 @interface RTPredictedLocationOfInterestProviderVehicleLocation
 {
     RTVehicleLocationProvider *_vehicleLocationProvider;
-    RTDistanceCalculator *_distanceCalculator;
 }
 
-- (id);
+- (id);
 - (void);
+- (id)shouldAllowCloudDelivery;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)datagramSize %ld metadataSize %ld dataOffset %ld;
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (_Bool)rUponStateTransition;
+- (_Bool)_updateLocationObserverUponStateTransition;
 - (void)upLocationNull,%{public}d,isSetupLocationOld,%{public}d,isSetupLocationValid,%{public}d;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) RTDistanceCalculator *distanceCalculator; // @synthesize distanceCalculator=_distanceCalculator;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) RTVehicleLocationProvider *vehicleLocationProvider; // @synthesize vehicleLocationProvider=_vehicleLocationProvider;
 
 @end

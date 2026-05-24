@@ -11,7 +11,7 @@
     NSDictionary *_beaconEventByBeaconIdentifier;
 }
 
-+ (_Bool);
++ (_Bool)`;
 - (void);
 - (id);
 - (id);

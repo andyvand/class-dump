@@ -7,8 +7,6 @@
 @interface NewsUI2.MainRouter
 {
     id controller;
-    id resolver;
-    id navigator;
 }
 
 @end

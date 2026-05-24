@@ -10,9 +10,9 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)@?0@"NSError"8@"NSArray"16;
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 

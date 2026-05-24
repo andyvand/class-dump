@@ -6,42 +6,9 @@
 
 #import <AppKit/NSControl.h>
 
-@class NSArray, NSNumber, NSString, NSTextEncapsulation, NSTextPhraseAnimationController, NSToolbarItem;
-@protocol _NSTextFieldHostingToolbarItem;
-
 @interface NSTextField : NSControl
 {
     double _maxLayoutWidth;
-    long long _maximumNumberOfLines;
-    NSNumber *_layoutEngineWidth;
-    NSNumber *_cachedLayoutEngineWidth;
-    struct CGSize _cachedIntrinsicContentSize;
-    unsigned long long _textAlignmentPolicy;
-    long long _updateConstraintsPassCounter;
-    unsigned long long _lineBreakStrategy;
-    struct NSEdgeInsets _cachedLanguageAwareOutsets;
-    NSTextEncapsulation *_textEncapsulation;
-    _Bool _shouldUpdateCachedLanguageAwareOutsets;
-    _Bool _shouldCheckCurrentContentsForBoundsOutsets;
-    _Bool _contentsRequiresBoundsOutsets;
-    _Bool _passwordAutofillDisabled;
-    _Bool _finishedFirstConstraintsPass;
-    unsigned char _insideFormContext;
-    SEL _errorAction;
-    id _delegate;
-    _Bool __trackingMouseForCell;
-    _Bool _allowsWritingTools;
-    _Bool _allowsWritingToolsAffordance;
-    _Bool __isShowingTextSuggestions;
-    _Bool __searchSuggestionsFirstResponderOverrideEnabled;
-    _Bool __searchSuggestionsFirstResponderOverrideValue;
-    NSString *_contentType;
-    NSToolbarItem<_NSTextFieldHostingToolbarItem> *_hostingToolbarItem;
-    long long __focusRingAnimationType;
-    unsigned long long __allowsMultiPassIntrinsicContentSize;
-    NSArray *_placeholderStrings;
-    NSArray *_placeholderAttributedStrings;
-    NSTextPhraseAnimationController *_animatedPlaceholderAnimationController;
 }
 
 @end

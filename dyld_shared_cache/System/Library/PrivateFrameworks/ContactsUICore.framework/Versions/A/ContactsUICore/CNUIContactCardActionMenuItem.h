@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNUIUserActionItem, NSArray, NSAttributedString, NSString;
+@class NSString;
 
 @interface CNUIContactCardActionMenuItem
 {
     _Bool _shouldDisplayInline;
-    NSString *_title;
-    NSAttributedString *_attributedTitle;
-    NSString *_subtitle;
-    NSString *_imageName;
-    CNUIUserActionItem *_actionItem;
-    NSArray *_menuItems;
 }
 
 - (_Bool);
@@ -24,18 +18,12 @@
 - (id);
 - (id);
 - (id);
+- (id)";
 - (id);
 - (id);
-- (id);
-- (void)rFamilyMember: /* Error: Ran out of types for this method. */;
+- (void)storeForFamilyMember: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) CNUIUserActionItem *actionItem; // @synthesize actionItem=_actionItem;
-@property(readonly, nonatomic) NSAttributedString *attributedTitle; // @synthesize attributedTitle=_attributedTitle;
-@property(readonly, nonatomic) NSString *imageName; // @synthesize imageName=_imageName;
-@property(readonly, nonatomic) NSArray *menuItems; // @synthesize menuItems=_menuItems;
-@property(readonly, nonatomic) _Bool shouldDisplayInline; // @synthesize shouldDisplayInline=_shouldDisplayInline;
-@property(readonly, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

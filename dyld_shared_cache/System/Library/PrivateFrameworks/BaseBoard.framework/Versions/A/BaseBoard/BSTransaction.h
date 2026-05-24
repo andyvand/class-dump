@@ -4,39 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSAuditHistory, NSArray, NSDate, NSError, NSHashTable, NSMutableArray, NSMutableDictionary, NSMutableSet, NSObject, NSSet, NSString;
-@protocol OS_dispatch_queue, OS_os_log;
+@class NSMutableArray;
 
 @interface BSTransaction
 {
     NSMutableArray *_parentTransactionRelationships;
-    NSMutableSet *_lifeAssertions;
-    _Bool _aborted;
-    _Bool _interrupted;
-    _Bool _inSubclassBegin;
-    NSDate *_startTime;
-    NSMutableDictionary *_milestonesToHandlers;
-    NSMutableArray *_childTransactionRelationships;
-    NSMutableSet *_milestones;
-    NSHashTable *_observers;
-    unsigned long long _state;
-    BSAuditHistory *_auditHistory;
-    NSObject<OS_os_log> *_auditHistoryLog;
-    _Bool _disableDebugLogCheckForUnitTesting;
-    _Bool _debugLoggingEnabled;
-    NSMutableSet *_debugLogCategories;
-    NSString *_cachedDescriptionProem;
-    NSMutableArray *_blockObservers;
-    CDUnknownBlockType _completionBlock;
-    _Bool _cachedDefaultBasedAuditHistoryEnabled;
-    _Bool _failed;
-    _Bool _auditHistoryEnabled;
-    NSError *_error;
 }
 
 - (void);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)-;
 - (_Bool);
 - (void);
 - (void);
@@ -46,7 +23,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)(!;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -64,11 +41,11 @@
 - (void);
 - (id);
 - (_Bool);
+- (void)>;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
@@ -77,7 +54,7 @@
 - (id);
 - (void);
 - (void);
-- (double);
+- (double)C;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -88,7 +65,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)Q;
 - (id);
 - (_Bool);
 - (id);
@@ -98,8 +75,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (_Bool);
+- (void)A(;
+- (_Bool)Ȋ;
 - (_Bool);
 - (void);
 - (void);
@@ -108,38 +85,18 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)";
 - (CDUnknownBlockType);
 - (void);
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
-- (_Bool)etLog: /* Error: Ran out of types for this method. */;
+- (_Bool)setLog: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allErrors;
 @property(nonatomic, getter=isAuditHistoryEnabled) _Bool auditHistoryEnabled; // @synthesize auditHistoryEnabled=_auditHistoryEnabled;
-@property(readonly, nonatomic) NSArray *childTransactions;
-@property(readonly, nonatomic, getter=isComplete) _Bool complete;
-@property(copy, nonatomic) CDUnknownBlockType completionBlock;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic, getter=isFailed) _Bool failed; // @synthesize failed=_failed;
-@property(readonly, nonatomic, getter=isFinishedWorking) _Bool finishedWorking;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isInterrupted) _Bool interrupted;
-@property(readonly, nonatomic, getter=isInterruptible) _Bool interruptible;
-@property(readonly, nonatomic) NSSet *milestones;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue;
-@property(readonly, nonatomic, getter=isRunning) _Bool running;
-@property(readonly, nonatomic, getter=hasStarted) _Bool started;
-@property(readonly) Class superclass;
 
 @end
 

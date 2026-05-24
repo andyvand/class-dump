@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 __attribute__((visibility("hidden")))
 @interface SCNMaterialAttachment
 {
     unsigned int glID;
-    unsigned int target;
-    void *context;
-    struct CGSize size;
-    NSDictionary *options;
 }
 
 + (id);
 - (void);
-- (unsigned int);
+- (unsigned int);
 - (unsigned int);
 - (void);
 - (void);
@@ -27,14 +21,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void *);
-- (void);
+- (void)order_section, genre_id, genre_order, genre_order_section, IFNULL(disc_number, 0), IFNULL(track_number, 0), IFNULL(episode_sort_id, 0), base_location_id, remote_location_id, exclude_from_shuffle, keep_local, keep_local_status, in_my_library, is_compilation, date_added, IFNULL(show_composer, 0) FROM item;
 
 // Remaining properties
-@property(nonatomic) void *context; // @synthesize context;
 @property(nonatomic) unsigned int glID; // @synthesize glID;
-@property(copy, nonatomic) NSDictionary *options; // @synthesize options;
-@property(nonatomic) struct CGSize size; // @synthesize size;
-@property(nonatomic) unsigned int target; // @synthesize target;
 
 @end
 

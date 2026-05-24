@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _EditScriptIndexedAtom
 {
     long long _editOperation;
-    unsigned long long _indexToEdit;
-    unsigned long long _indexInArrayB;
-    NSString *_replacementText;
 }
 
 + (id);
-- (void);
-- (void);
+- (void)firstName;
+- (void)didLeaveChat:(long long)arg1 style:account: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (long long);
 - (void);
 - (id);
-- (id);
+- (id)nce) && "chunk set and dictionary count are inconsistent";
 - (void)¿?ÍÌÌÌÌÌÜ?Ä?ÜÛÛÛÛÛÛ?ÞÝÝÝÝÝÝ?ß?Ù?Û?Ü?Þ?ñðððððà?ÝÜÜÜÜÜÜ?000000à?³²²²²²â?ã?Î?______ß?ÑÐÐÐÐÐà?qqqqqqá?Û?Ü?YYYYYYÙ?ZZZZZZÚ?;
 - (void)t»ÿäÔX_;
 
 // Remaining properties
 @property(nonatomic) long long editOperation; // @synthesize editOperation=_editOperation;
-@property(nonatomic) unsigned long long indexInArrayB; // @synthesize indexInArrayB=_indexInArrayB;
-@property(nonatomic) unsigned long long indexToEdit; // @synthesize indexToEdit=_indexToEdit;
-@property(retain, nonatomic) NSString *replacementText; // @synthesize replacementText=_replacementText;
 
 @end
 

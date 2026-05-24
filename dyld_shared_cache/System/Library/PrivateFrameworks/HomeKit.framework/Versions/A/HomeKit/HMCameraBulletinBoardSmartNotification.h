@@ -6,7 +6,7 @@
 
 #import <HomeKit/HMBulletinBoardNotification.h>
 
-@class HMCameraUserSettings, NSArray, NSString;
+@class HMCameraUserSettings;
 
 @interface HMCameraBulletinBoardSmartNotification : HMBulletinBoardNotification
 {
@@ -15,7 +15,7 @@
 
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -28,32 +28,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)ect = "%@";
+- (id)initWithContactStore:featureFlags:protectedAppProvider:queue: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)¬à;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
 @property __weak HMCameraUserSettings *cameraUserSettings; // @synthesize cameraUserSettings=_cameraUserSettings;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long personFamiliarityOptions;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) unsigned long long significantEventTypes;
-@property(readonly) Class superclass;
 
 @end
 

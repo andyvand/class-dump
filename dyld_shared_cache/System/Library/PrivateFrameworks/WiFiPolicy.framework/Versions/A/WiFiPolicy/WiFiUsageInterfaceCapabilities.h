@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface WiFiUsageInterfaceCapabilities
 {
     int _supportedPhyModes;
-    NSString *_interfaceName;
-    struct _Apple80211 *_a11Ref;
-    unsigned long long _maxPHYRate;
-    NSSet *_deviceCapabilities;
 }
 
 - (_Bool);
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)inlineCardWithManageReservationButton:(struct _Apple80211 *)arg1 bodyCardSectionID:buttonsCardSectionID: /* Error: Ran out of types for this method. */;
 - (id);
 - (int);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)";
 - (struct _Apple80211 *);
 - (unsigned long long);
 - (void);
@@ -36,11 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct _Apple80211 *a11Ref; // @synthesize a11Ref=_a11Ref;
-@property(retain, nonatomic) NSSet *deviceCapabilities; // @synthesize deviceCapabilities=_deviceCapabilities;
 @property(copy, nonatomic) NSString *interfaceName; // @synthesize interfaceName=_interfaceName;
-@property(nonatomic) unsigned long long maxPHYRate; // @synthesize maxPHYRate=_maxPHYRate;
-@property(nonatomic) int supportedPhyModes; // @synthesize supportedPhyModes=_supportedPhyModes;
 
 @end
 

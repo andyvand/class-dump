@@ -9,7 +9,6 @@
 @interface WBSHashGenerator
 {
     NSData *_key;
-    NSData *_keyID;
 }
 
 + (_Bool);
@@ -24,12 +23,11 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)coalesceRequestKey:handler:executeRequestAndInvokeHandlersBlock:nowDate: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSData *key; // @synthesize key=_key;
-@property(readonly, copy, nonatomic) NSData *keyID; // @synthesize keyID=_keyID;
 
 @end
 

@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (IMFoundationAdditions)
-+ (id);
++ (id)ocationAwarenessManagerConfig";
 @end
 

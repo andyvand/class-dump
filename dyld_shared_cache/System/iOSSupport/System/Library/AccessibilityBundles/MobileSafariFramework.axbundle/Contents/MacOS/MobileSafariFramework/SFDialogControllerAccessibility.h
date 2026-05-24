@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)invalidate;
 + (void);
 - (long long);
 - (void);

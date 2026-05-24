@@ -5,12 +5,13 @@
 //
 
 @class NSString;
+@protocol PFStoryRecipeClip;
 
 @protocol PFStoryAutoEditDecisionList
+- (id <PFStoryRecipeClip>)_TtCVO10Accelerate6vImage27MultidimensionalLookupTable20LookupTableReference;
+- (NSString *)*;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *diagnosticDescription;
-@property(readonly, nonatomic) long long numberOfClips;
 @property(readonly, nonatomic) NSString *songAssetIdentifier;
 @end
 

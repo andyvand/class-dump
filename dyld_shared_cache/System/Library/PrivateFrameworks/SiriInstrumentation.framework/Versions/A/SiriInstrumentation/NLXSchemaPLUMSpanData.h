@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLXSchemaPLUMSpanData : SISchemaInstrumentationMessage
 {
     double _score;
-    CDStruct_4b1634df _has;
 }
 
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)stination;
+- (void)I;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)Þð1Â0@ù
 × ;
-- (double)guage: /* Error: Ran out of types for this method. */;
+- (double)setSiriInputLanguage: /* Error: Ran out of types for this method. */;
 - (id)oSiriEnabled;
 - (id)@"CNVSchemaCNVDisambiguationContext",&,N,V_disambiguationContext;
 - (void):(double)arg1 ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasScore;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) double score; // @synthesize score=_score;
 
 @end

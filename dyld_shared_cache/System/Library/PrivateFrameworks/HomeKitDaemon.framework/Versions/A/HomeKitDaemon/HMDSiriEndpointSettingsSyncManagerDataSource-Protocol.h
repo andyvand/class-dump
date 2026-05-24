@@ -8,6 +8,6 @@
 
 @protocol HMDSiriEndpointSettingsSyncManagerDataSource
 - (HMDCompositeSettingsControllerManager *)t.listener;
-- (NSArray *)iguredTier;
+- (NSArray *)kReconfiguredTier;
 @end
 

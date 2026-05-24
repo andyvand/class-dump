@@ -6,14 +6,12 @@
 
 #import <SafariSharedUI/WBSSiteMetadataRequest.h>
 
-@class NSArray, NSString;
-
 @interface WBSSVGImageRenderingRequest : WBSSiteMetadataRequest
 {
 }
 
 - (id);
-- (id);
+- (id),;
 - (id);
 - (id);
 - (id);
@@ -23,8 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize imageSize;
-@property(readonly, nonatomic) NSString *svgContent;
-@property(readonly, nonatomic) NSArray *urls;
 
 @end
 

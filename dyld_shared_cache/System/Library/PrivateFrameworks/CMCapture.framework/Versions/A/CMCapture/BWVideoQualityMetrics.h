@@ -7,7 +7,6 @@
 @interface BWVideoQualityMetrics
 {
     long long _totalLux;
-    int _frames;
 }
 
 + (double);

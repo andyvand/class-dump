@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSPPrivacyProxyBAAValidation, NSPPrivacyProxyTokenInfo;
+@class NSData;
 
 @interface NSPPrivacyProxyTokenActivationQuery
 {
     NSData *_authInfo;
-    int _authType;
-    NSMutableArray *_auxiliaryAuthArrays;
-    NSPPrivacyProxyBAAValidation *_baaParameters;
-    NSPPrivacyProxyTokenInfo *_tokenInfo;
 }
 
 + (Class);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -30,13 +26,13 @@
 - (_Bool);
 - (int);
 - (id);
-- (id);
+- (id)(;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
@@ -46,13 +42,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *authInfo; // @synthesize authInfo=_authInfo;
 @property(nonatomic) int authType; // @synthesize authType=_authType;
-@property(retain, nonatomic) NSMutableArray *auxiliaryAuthArrays; // @synthesize auxiliaryAuthArrays=_auxiliaryAuthArrays;
-@property(retain, nonatomic) NSPPrivacyProxyBAAValidation *baaParameters; // @synthesize baaParameters=_baaParameters;
-@property(readonly, nonatomic) _Bool hasAuthInfo;
-@property(readonly, nonatomic) _Bool hasBaaParameters;
-@property(retain, nonatomic) NSPPrivacyProxyTokenInfo *tokenInfo; // @synthesize tokenInfo=_tokenInfo;
 
 @end
 

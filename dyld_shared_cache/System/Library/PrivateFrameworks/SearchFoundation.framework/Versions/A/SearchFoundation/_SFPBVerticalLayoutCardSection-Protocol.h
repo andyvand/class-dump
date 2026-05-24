@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor, _SFPBImage, _SFPBRichText;
+@class NSArray, NSData, _SFPBRichText;
 
 @protocol _SFPBVerticalLayoutCardSection
-- (void)etAssetsRetrieved:(_SFPBRichText *)arg1;
-- (int)pe;
+- (void);
+- (_Bool)A;
+- (_Bool)setSharedListeningSessionIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool)setPrivateListeningEnabledForHomeUsers: /* Error: Ran out of types for this method. */;
+- (void)-URLSession:(int)arg1 dataTask:didReceiveData:not responding with data [currentOffset was greater than length] task=%{public}@ currentOffset=%lld, requestedLength=%ld requestedOffset=%lld /* Error: Ran out of types for this method. */;
+- (void)ension sheet;
+- (NSData *)er;
+- (id);
+- (void)setAssetsRetrieved:(_SFPBRichText *)arg1;
+- (int)_contentType;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor;
-@property(nonatomic) _Bool canBeHidden;
-@property(nonatomic) _Bool contentsLeading;
-@property(retain, nonatomic) _SFPBRichText *footnote;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(nonatomic) int separatorStyle;
-@property(retain, nonatomic) _SFPBImage *thumbnail;
-@property(retain, nonatomic) _SFPBRichText *thumbnailOverlayText;
-@property(retain, nonatomic) _SFPBRichText *title;
-@property(copy, nonatomic) NSString *type;
-@property(nonatomic) _Bool useAppIconMetrics;
 @end
 

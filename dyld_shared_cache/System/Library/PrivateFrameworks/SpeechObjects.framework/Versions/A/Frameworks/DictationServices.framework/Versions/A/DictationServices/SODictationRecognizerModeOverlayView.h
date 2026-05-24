@@ -13,8 +13,8 @@
 + (struct CGSize);
 + (id);
 - (id);
-- (id);
-- (void);
+- (id)setPreferredRelayNumber:(struct CGRect)arg1;
+- (void);
 
 // Remaining properties
 @property(retain) NSString *imageName; // @dynamic imageName;

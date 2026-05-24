@@ -7,33 +7,28 @@
 @interface AWDCoreRoutineModelStatus
 {
     unsigned long long _timestamp;
-    _Bool _enabled;
-    CDStruct_93f1cf87 _has;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)(;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)TH;
 - (id);
 - (_Bool);
 - (_Bool)InterfaceAttemptStatisticsReports;
 
 // Remaining properties
-@property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(nonatomic) _Bool hasEnabled;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

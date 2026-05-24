@@ -5,5 +5,6 @@
 //
 
 @protocol _UIDataTransferMonitorDelegate
+- (void);
 @end
 

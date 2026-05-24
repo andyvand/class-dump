@@ -14,10 +14,10 @@
 + (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)_{;
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 
 @end

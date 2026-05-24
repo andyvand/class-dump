@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol SLDataTimelineSessionProcessCollection;
-
 __attribute__((visibility("hidden")))
 @interface SLDataTimelineSessionEntry
 {
     unsigned int _cgID;
-    int _auditID;
 }
 
-+ (id);
-- (id);
-- (_Bool);
-- (unsigned int);
-- (int);
-- (id);
++ (id)DECIMAL;
+- (id)%@;
+- (_Bool)abase:%@ /* Error: Ran out of types for this method. */;
+- (unsigned int)database;
+- (int)IF NOT EXISTS ZQ_%@_%@_HISTORYBATCHDELETEUPDATE_TRIGGER AFTER UPDATE OF %@ ON %@ FOR EACH ROW BEGIN %@ END;
+- (id)%@ = OLD.Z_PK;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) int auditID; // @synthesize auditID=_auditID;
 @property(readonly, nonatomic) unsigned int cgID; // @synthesize cgID=_cgID;
-@property(readonly, nonatomic) _Bool currentSnapshotMember;
-@property(readonly, nonatomic) id <SLDataTimelineSessionProcessCollection> processData;
 
 @end
 

@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)_scale;
 - (void);
 - (id);
 

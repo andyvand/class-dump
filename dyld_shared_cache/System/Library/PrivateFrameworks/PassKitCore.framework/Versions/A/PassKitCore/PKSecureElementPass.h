@@ -6,72 +6,16 @@
 
 #import <PassKitCore/PKPass.h>
 
-@class NSArray, NSDate, NSSet, NSString, NSURL, PKPassAuxiliaryRegistrationRequirements, PKPassProvisioningMetadata, PKPaymentApplication, PKSiriIntentsConfiguration;
-
 @interface PKSecureElementPass : PKPass
 {
     _Bool _supportsDPANNotifications;
-    _Bool _supportsFPANNotifications;
-    _Bool _supportsDefaultCardSelection;
-    _Bool _hasAssociatedPeerPaymentAccount;
-    _Bool _supportsPeerPayment;
-    _Bool _supportsSerialNumberBasedProvisioning;
-    _Bool _shellPass;
-    _Bool _cobranded;
-    _Bool _requiresTransferSerialNumberBasedProvisioning;
-    NSString *_primaryAccountIdentifier;
-    NSString *_primaryAccountNumberSuffix;
-    long long _cardType;
-    long long _accessType;
-    NSString *_accessReportingType;
-    NSSet *_associatedApplicationIdentifiers;
-    NSSet *_associatedWebDomains;
-    NSString *_sanitizedPrimaryAccountNumber;
-    NSString *_sanitizedPrimaryAccountName;
-    NSString *_associatedAccountServiceAccountIdentifier;
-    unsigned long long _associatedAccountFeatureIdentifier;
-    NSString *_issuerCountryCode;
-    NSString *_issuerAdministrativeAreaCode;
-    NSString *_identityAccountKeyIdentifier;
-    unsigned long long _contactlessActivationGroupingType;
-    NSDate *_originalProvisioningDate;
-    PKPassProvisioningMetadata *_provisioningMetadata;
-    NSArray *_legalAgreements;
-    NSString *_topLeftBackgroundTitle;
-    NSString *_topRightBackgroundTitle;
-    NSSet *_paymentApplications;
-    NSSet *_devicePaymentApplications;
-    PKPaymentApplication *_devicePrimaryPaymentApplication;
-    PKPaymentApplication *_devicePrimaryContactlessPaymentApplication;
-    PKPaymentApplication *_devicePrimaryInAppPaymentApplication;
-    PKPaymentApplication *_devicePrimaryBarcodePaymentApplication;
-    NSSet *_deviceInAppPaymentApplications;
-    NSString *_partnerAccountIdentifier;
-    NSString *_transactionSourceIdentifier;
-    NSString *_cobrandName;
-    NSURL *_transactionServiceURL;
-    NSURL *_transactionServiceRegistrationURL;
-    NSString *_transactionPushTopic;
-    NSURL *_messageServiceURL;
-    NSURL *_messageServiceRegistrationURL;
-    NSString *_messagePushTopic;
-    NSString *_appURLScheme;
-    NSString *_customerServiceIdentifier;
-    NSString *_localizedSuspendedReason;
-    NSString *_shippingAddressSeed;
-    NSString *_speakableMake;
-    NSString *_speakableModel;
-    PKSiriIntentsConfiguration *_supportedSiriIntents;
-    PKPassAuxiliaryRegistrationRequirements *_auxiliaryRegistrationRequirements;
-    NSArray *_availableActions;
-    NSArray *_deviceUpgradeRequests;
 }
 
-+ (unsigned long long);
++ (unsigned long long);
 + (id);
 + (id);
-+ (id);
-+ (_Bool);
++ (id);
++ (_Bool)rameworks/WirelessDiagnostics.framework/Versions/A/Libraries/libAWDSupportFramework.dylib;
 
 @end
 

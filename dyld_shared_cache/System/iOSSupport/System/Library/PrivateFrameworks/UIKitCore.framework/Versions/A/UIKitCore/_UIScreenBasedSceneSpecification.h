@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
 - (Class);
 - (Class);
 - (_Bool);
-- (id);
-- (id);
+- (id): /* Error: Ran out of types for this method. */;
+- (id)sendRepositionStickerMessage:chatIdentifier:accountID:style: /* Error: Ran out of types for this method. */;
 - (_Bool);
 
 @end

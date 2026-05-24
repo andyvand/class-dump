@@ -4,38 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessorySettingsController, HMDAccessorySetupMetricDispatcher, HMDAppleMediaAccessory, HMDApplicationData, HMDBackingStore, HMDCurrentAccessorySetupMetricDispatcher, HMDHome, HMDMediaDestinationsManager, HMDMediaSession, HMDRoom, HMFActivity, HMFMessageDispatcher, HMMediaDestination, HMMediaSystemData, NSArray, NSNotificationCenter, NSObject, NSString, NSUUID;
-@protocol HMDMediaDestinationManager, HMDMediaGroupsAggregateConsumerDataProvider, HMDMediaSystemDataSource, OS_dispatch_queue;
+@class HMMediaSystemData;
 
 __attribute__((visibility("hidden")))
 @interface HMDMediaSystem
 {
     struct os_unfair_lock_s _lock;
-    _Bool _supportsUserMediaSettings;
-    NSString *_name;
-    NSArray *_components;
-    HMDApplicationData *_appData;
-    HMDMediaSession *_mediaSession;
-    NSString *_configuredName;
-    HMMediaDestination *_audioDestination;
-    id <HMDMediaSystemDataSource> _dataSource;
-    NSUUID *_uuid;
-    HMDHome *_home;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMFMessageDispatcher *_msgDispatcher;
-    HMDAccessorySettingsController *_settingsController;
-    HMMediaSystemData *_data;
-    HMDMediaDestinationsManager *_audioDestinationsManager;
-    id <HMDMediaGroupsAggregateConsumerDataProvider> _aggregateDataProvider;
-    NSNotificationCenter *_notificationCenter;
-    CDUnknownBlockType _audioDestinationsManagerFactory;
 }
 
 + (id);
 + (id);
 + (id);
 + (void);
-+ (id);
++ (id)deleteLegacySettlingEffectSuggestions;
 + (_Bool)ôb;
 + (id)O
 <B;
@@ -47,33 +28,33 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)NSString"36;
+- (id)r";
+- (void)@?@"<MSPHistoryEntryRoute>">24@?<v@?@"<MSPHistoryEntryPlaceDisplay>">32@?<v@?@"<MSPHistoryEntryTransitLineItem>">40;
+- (id)_stopAllSharingWithReason:(id)arg1 queue:completion: /* Error: Ran out of types for this method. */;
+- (id)_stopAllSharingWithReason:(id)arg1 completion:(id)arg2;
+- (id)_setState:forEvent: /* Error: Ran out of types for this method. */;
+- (void)_notifyPeersForIDSHandlesIfNeeded:(id)arg1;
+- (void)_muid;
+- (id)_maps_arrayWithObjectsConformingToProtocols:(id)arg1;
+- (void)_labeledValue;
+- (id)_joinedFromAccountIdentifier;
+- (id)MSPPinStorage;
+- (id)MSPCompanionSyncedItem;
+- (id)MSPMapsPushDaemonRemoteXPCProxy;
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (_Bool);
+- (_Bool);
+- (id)red;
+- (id){private}@;
+- (id)MSPMinimumETADifferenceIncrementKey;
+- (id)MSPDefaultTripExpirationCheckupIntervalKey;
 - (id);
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -99,25 +80,25 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)C;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)a;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)ternal inconsistency, quitting Screen Sharing;
+- (id)option_otherUserOnConsole:(id)arg1 ];
 - (_Bool);
 - (void);
+- (id)setAllowSpillMatteOnOlderPortraitV2Captures: /* Error: Ran out of types for this method. */;
+- (id)G;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
@@ -126,9 +107,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
+- (id)=;
 - (id);
-- (id);
-- (id)PairExternalRepresentation: /* Error: Ran out of types for this method. */;
+- (id)publicKeyExternalRepresentationFromKeyPairExternalRepresentation: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)ying clients.;
 - (id)a destination controller updated destination notification due to no delegate;
@@ -136,9 +117,9 @@ __attribute__((visibility("hidden")))
 - (void)cessory;
 - (void)the triggers as time has changed significantly;
 - (void)àÿÿôD÷ÿïþÌÿÿBÿÿ;
-- (void)ABLE_MESSAGE;
+- (void)HOME_USER_PREFERRED_HUB_REACHABLE_MESSAGE;
 - (id)eNowNotification;
-- (void)ange;
+- (void)temperatureRange;
 - (void)veTemperatureAutomationsDisclosureStatus(status:(id)arg1 );
 - (void);
 - (id);
@@ -154,46 +135,7 @@ __attribute__((visibility("hidden")))
 - (void)Dl@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *accessories;
-@property(readonly) HMDAccessorySetupMetricDispatcher *accessorySetupMetricDispatcher;
-@property(readonly) id <HMDMediaGroupsAggregateConsumerDataProvider> aggregateDataProvider; // @synthesize aggregateDataProvider=_aggregateDataProvider;
-@property(retain, nonatomic) HMDApplicationData *appData; // @synthesize appData=_appData;
-@property(readonly, copy) NSArray *associatedAudioDestinationManagers;
-@property(readonly) HMMediaDestination *audioDestination; // @synthesize audioDestination=_audioDestination;
-@property(readonly) id <HMDMediaDestinationManager> audioDestinationManager;
-@property(retain) HMDMediaDestinationsManager *audioDestinationsManager; // @synthesize audioDestinationsManager=_audioDestinationsManager;
-@property(copy) CDUnknownBlockType audioDestinationsManagerFactory; // @synthesize audioDestinationsManagerFactory=_audioDestinationsManagerFactory;
-@property(readonly) HMDBackingStore *backingStore;
-@property(readonly, copy, nonatomic) NSArray *components; // @synthesize components=_components;
-@property(copy, nonatomic) NSString *configuredName; // @synthesize configuredName=_configuredName;
-@property(readonly) HMDCurrentAccessorySetupMetricDispatcher *currentAccessorySetupMetricDispatcher;
 @property(retain) HMMediaSystemData *data; // @synthesize data=_data;
-@property __weak id <HMDMediaSystemDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) __weak HMDHome *home; // @synthesize home=_home;
-@property(retain, nonatomic) HMDMediaSession *mediaSession; // @synthesize mediaSession=_mediaSession;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(retain, nonatomic) HMFMessageDispatcher *msgDispatcher; // @synthesize msgDispatcher=_msgDispatcher;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly) HMDRoom *room;
-@property(readonly) HMDAccessorySettingsController *settingsController; // @synthesize settingsController=_settingsController;
-@property(retain) HMFActivity *setupActivity;
-@property double setupStartTimestamp;
-@property(readonly) Class superclass;
-@property(readonly) _Bool supportsUserMediaSettings; // @synthesize supportsUserMediaSettings=_supportsUserMediaSettings;
-@property(readonly, nonatomic) HMDAppleMediaAccessory *targetAccessory;
-@property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

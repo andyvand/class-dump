@@ -4,46 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CastlePlugin, MMInfoCapacityBarView, MMWebKitViewController, MM_Account, NSButton, NSLayoutConstraint, NSMutableDictionary, NSString, NSTableView, NSTextField, NSView;
+@class MM_Account;
 
 __attribute__((visibility("hidden")))
 @interface IACastleServicesView
 {
     MM_Account *_mmAccount;
-    NSTextField *_nameField;
-    NSTextField *_appleIDField;
-    NSTableView *_servicesTable;
-    NSButton *_detailsButton;
-    NSTextField *_iCloudLabel;
-    NSTextField *_storageLabel;
-    MMInfoCapacityBarView *_storageBar;
-    NSButton *_storageButton;
-    MMWebKitViewController *_webKitViewController;
-    NSString *_storageFormat;
-    NSView *_headerViewContainer;
-    NSView *_headerViewStandard;
-    NSView *_headerViewLocked;
-    NSView *_headerViewReauth;
-    NSTextField *_notVerifiedText;
-    NSTextField *_checkEmailText;
-    NSTextField *_lockedTitle;
-    NSTextField *_lockedText;
-    NSButton *_buttonDefault;
-    NSButton *_buttonAlternate;
-    NSButton *_buttonDefaultWithAlternate;
-    NSTextField *_reauthTitle;
-    NSTextField *_reauthText;
-    NSTextField *_secondaryAccountTitle;
-    NSTextField *_secondaryAccountDescription;
-    NSButton *_optimizeStorage;
-    NSTextField *_optimizeStorageDescription;
-    NSLayoutConstraint *_optimizeStorageToStorageLabelConstraint;
-    NSLayoutConstraint *_servicesViewToStorageLabelConstraint;
-    NSLayoutConstraint *_servicesViewToOptimizeStorageConstraint;
-    NSMutableDictionary *_rowViews;
-    _Bool _enabled;
-    NSView *_matterhornView;
-    CastlePlugin *_plugin;
 }
 
 + (id);
@@ -67,10 +33,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)K%
+	3;
 - (void);
-- (void);
-- (id);
-- (void);
+- (id)k3;
+- (void)q	3;
 - (void);
 - (void);
 - (id);
@@ -98,16 +65,7 @@ __attribute__((visibility("hidden")))
 - (void)error:(id)arg1 ];
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic, setter=setMMAccount:) MM_Account *mmAccount; // @synthesize mmAccount=_mmAccount;
-@property CastlePlugin *plugin; // @synthesize plugin=_plugin;
-@property(readonly) Class superclass;
 
 @end
 

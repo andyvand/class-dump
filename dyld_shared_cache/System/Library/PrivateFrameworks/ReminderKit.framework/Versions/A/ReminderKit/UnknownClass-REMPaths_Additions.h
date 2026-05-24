@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (REMPaths_Additions)
-- (id);
+- (id);
 @end
 

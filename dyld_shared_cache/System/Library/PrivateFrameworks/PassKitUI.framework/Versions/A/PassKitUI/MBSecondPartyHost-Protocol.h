@@ -5,5 +5,6 @@
 //
 
 @protocol MBSecondPartyHost
+- (void)=;
 @end
 

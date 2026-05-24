@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet, NSMutableIndexSet, NSTextStorage;
+@class NSIndexSet;
 
 __attribute__((visibility("hidden")))
 @interface _UISearchBarTextFieldTokenCounter
 {
     id _textStorageObservation;
-    NSTextStorage *_textStorage;
-    NSMutableIndexSet *_tokenCharacterIndexes;
 }
 
 - (struct _NSRange);
-- (struct _NSRange);
+- (struct _NSRange);
 - (unsigned long long);
 - (struct _NSRange);
 - (struct _NSRange);
@@ -23,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id)Á
 ð!dDùqgð1Â0@ù
 × ;
-- (void)iew;
+- (void)_TtC5UIKit22_UITabBarAuxiliaryView;
 - (id)requestHostingSceneCreationWithPersistentIdentifierCallback:(unsigned long long)arg1 persistentIdentifier must be non-nil;
 - (unsigned long long)dismiss for:(unsigned long long)arg1 %@;
 - (void).propertyMatch.%@;

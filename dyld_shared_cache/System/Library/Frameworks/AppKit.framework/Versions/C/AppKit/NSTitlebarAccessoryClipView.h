@@ -17,12 +17,12 @@ __attribute__((visibility("hidden")))
 + (id);
 - (void);
 - (_Bool);
-- (long long);
+- (long long)downloadTaskWithResumeData:extractor:identifier:uniqueIdentifier:reply: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)setFirstPartyMsgEveSat:(id)arg1;
 - (void)e.SiriNCService;
 
 // Remaining properties

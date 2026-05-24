@@ -9,11 +9,9 @@
 @interface AXMTraitDetectorNode : AXMEvaluationNode
 {
     _Bool _shouldEvaluateColorInformation;
-    long long _sampleFrequency;
-    double _colorDistanceTheshold;
 }
 
-+ (_Bool);
++ (_Bool)stringByAddingPercentEncodingWithAllowedCharacters: /* Error: Ran out of types for this method. */;
 + (id);
 + (_Bool);
 - (_Bool);
@@ -23,17 +21,15 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (double);
-- (void);
-- (id);
+- (void);
+- (double)N;\|;
+- (void);
+- (id);
 - (long long);
 - (id);
 
 // Remaining properties
-@property(nonatomic) double colorDistanceTheshold; // @synthesize colorDistanceTheshold=_colorDistanceTheshold;
 @property(nonatomic) long long sampleFrequency; // @synthesize sampleFrequency=_sampleFrequency;
-@property(nonatomic) _Bool shouldEvaluateColorInformation; // @synthesize shouldEvaluateColorInformation=_shouldEvaluateColorInformation;
 
 @end
 

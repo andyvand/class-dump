@@ -4,34 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSSet, NSString, NSURL;
+@class NSString;
 
 @protocol CoreDAVAccountInfoProvider
+- (long long)g;
+- (NSString *);
+
+@optional
+- (NSString *);
+- (_Bool)[�;
+- (void)˟;
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *accountID;
-@property(readonly, copy, nonatomic) NSString *clientToken;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSDictionary *contextDictionary;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,R,N
-
-@property(readonly, nonatomic) NSString *host;
-@property(readonly, nonatomic) NSData *identityPersist;
-@property(readonly, nonatomic) NSString *password;
-@property(readonly, nonatomic) long long port;
-@property(readonly, nonatomic) NSURL *principalURL;
 @property(readonly, nonatomic) NSString *scheme;
-@property(readonly, nonatomic) NSSet *serverComplianceClasses;
-@property(readonly, nonatomic) NSString *serverRoot;
-@property(readonly, nonatomic) _Bool shouldFailAllTasks;
-@property(readonly, nonatomic) _Bool shouldUseOpportunisticSockets;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSString *user;
-@property(readonly, nonatomic) NSString *userAgentHeader;
 @end
 

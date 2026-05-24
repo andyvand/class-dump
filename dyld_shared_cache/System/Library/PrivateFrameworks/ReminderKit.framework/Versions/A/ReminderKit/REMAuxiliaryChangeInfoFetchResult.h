@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary;
+@class NSArray;
 
 @interface REMAuxiliaryChangeInfoFetchResult
 {
     NSArray *_auxiliaryChangeInfos;
-    Class _typedKlass;
-    NSMutableDictionary *_changeObjectForAuxiliaryChangeInfoMap;
 }
 
 + (id);
@@ -27,8 +25,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *auxiliaryChangeInfos; // @synthesize auxiliaryChangeInfos=_auxiliaryChangeInfos;
-@property(retain, nonatomic) NSMutableDictionary *changeObjectForAuxiliaryChangeInfoMap; // @synthesize changeObjectForAuxiliaryChangeInfoMap=_changeObjectForAuxiliaryChangeInfoMap;
 @property(nonatomic) Class typedKlass; // @synthesize typedKlass=_typedKlass;
 
 @end

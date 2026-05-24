@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface EWSCalendarPermissionSetType
 {
     NSArray *_CalendarPermissions;
-    NSArray *_UnknownEntries;
 }
 
 + (id);
@@ -17,19 +16,11 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id));
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *CalendarPermissions; // @synthesize CalendarPermissions=_CalendarPermissions;
-@property(copy, nonatomic) NSArray *UnknownEntries; // @synthesize UnknownEntries=_UnknownEntries;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

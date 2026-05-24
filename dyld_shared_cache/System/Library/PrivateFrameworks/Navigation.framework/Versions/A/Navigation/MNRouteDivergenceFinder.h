@@ -7,26 +7,24 @@
 @interface MNRouteDivergenceFinder
 {
     double _toleranceMeters;
-    double _minLengthMetersForConvergence;
-    double _distancePaddingWhenAlternating;
 }
 
 - (void);
-- (void);
+- (void);
 - (double);
 - (id);
 - (id);
 - (id);
+- (id)SearchFieldToolbarItemPlacementKey;
+- (id)SearchField;
+- (id)SearchCustomScopeBar;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (struct PolylineCoordinate);
-- (void);
+- (struct PolylineCoordinate)SearchContentKey;
+- (void)@"G4;
 - (_Bool);
 - (_Bool);
-- (double);
+- (double);
 - (struct PolylineCoordinate);
 - (void);
 - (void);
@@ -39,7 +37,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) double minLengthMetersForConvergence; // @synthesize minLengthMetersForConvergence=_minLengthMetersForConvergence;
 @property(nonatomic) double toleranceMeters; // @synthesize toleranceMeters=_toleranceMeters;
 
 @end

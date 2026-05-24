@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLStageInputOutputDescriptor;
 @protocol MTLBlitCommandEncoder;
 
 @protocol SCNMTLDeformerInitComputeContext
 
 // Remaining properties
 @property(readonly, nonatomic) id <MTLBlitCommandEncoder> currentBlitEncoder;
-@property(readonly, nonatomic) MTLStageInputOutputDescriptor *stageInputDescriptor;
 @end
 

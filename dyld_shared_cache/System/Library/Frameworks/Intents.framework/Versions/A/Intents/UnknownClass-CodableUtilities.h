@@ -6,6 +6,6 @@
 
 @interface UnknownClass (CodableUtilities)
 + (Class);
-+ (long long)binationDictionary;
++ (long long)_parameterCombinationDictionary;
 @end
 

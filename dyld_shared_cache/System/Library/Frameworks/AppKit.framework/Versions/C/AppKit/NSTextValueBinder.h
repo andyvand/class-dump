@@ -6,8 +6,6 @@
 
 #import <AppKit/NSValueBinder.h>
 
-@class NSColor;
-
 __attribute__((visibility("hidden")))
 @interface NSTextValueBinder : NSValueBinder
 {
@@ -16,30 +14,24 @@ __attribute__((visibility("hidden")))
         unsigned int _hasRequestedTextColor:1;
         unsigned int _reservedTextBinder:30;
     } _textBinderFlags;
-    NSColor *_originalColor;
-    NSColor *_nullColor;
-    NSColor *_noSelectionColor;
-    NSColor *_multipleValuesSelectionColor;
-    NSColor *_notApplicableColor;
-    id _textColorBinder;
 }
 
-+ (void);
++ (void)downloadDidFinish:(id)arg1;
 + (id);
-+ (id);
++ (id)ACOAuthSigner@%p>;
 - (void);
 - (void);
 - (void);
+- (void)24@32i40;
+- (void)predicateWithBlock:(id)arg1;
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void);
+- (void)el Stream instruction; stream=%llu;
+- (void)euedOnConnection;
+- (void)l instance %p>;
+- (id)RTSPProxy;
 - (id);
 - (void);
 - (void);

@@ -4,9 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount;
+@class ACAccount, NSDictionary;
 
 @protocol FamilyCircle.FARequestSigner
+- (NSDictionary *)message;
 
 // Remaining properties
 @property(nonatomic, readonly) ACAccount *account;

@@ -6,18 +6,16 @@
 
 #import <CoreBrightness/CBModule.h>
 
-@class CBDisplayModuleMacOS, DisplayALSManager, NSString;
+@class CBDisplayModuleMacOS;
 
 __attribute__((visibility("hidden")))
 @interface CBABModuleMacBuiltIn : CBModule
 {
     CDUnknownBlockType _notificationBlock;
-    DisplayALSManager *_displayALSManager;
-    CBDisplayModuleMacOS *_displayModule;
 }
 
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (id);
@@ -26,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)Chirality;
 - (void);
 - (_Bool);
 - (void);
@@ -36,14 +34,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) CBDisplayModuleMacOS *displayModule; // @synthesize displayModule=_displayModule;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

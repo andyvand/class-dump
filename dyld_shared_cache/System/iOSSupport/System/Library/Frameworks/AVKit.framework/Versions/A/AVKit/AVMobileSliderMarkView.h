@@ -10,13 +10,12 @@ __attribute__((visibility("hidden")))
 @interface AVMobileSliderMarkView
 {
     CALayer *_markColorLayer;
-    UIColor *_markColor;
 }
 
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)K;
 - (void)q[°1Â0@ù
 × ;
 

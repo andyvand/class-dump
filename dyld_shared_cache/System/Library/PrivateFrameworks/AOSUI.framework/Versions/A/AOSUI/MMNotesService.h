@@ -6,13 +6,12 @@
 
 #import <AOSUI/MMService.h>
 
-@class MMWebKitViewController, NSString;
+@class MMWebKitViewController;
 
 __attribute__((visibility("hidden")))
 @interface MMNotesService : MMService
 {
     MMWebKitViewController *_webKitViewController;
-    _Bool _addressCreationPending;
 }
 
 - (_Bool);
@@ -30,7 +29,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)
+?91	3;
 - (_Bool);
 - (void);
 - (void);
@@ -43,14 +43,6 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool addressCreationPending; // @synthesize addressCreationPending=_addressCreationPending;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) MMWebKitViewController *webKitViewController; // @synthesize webKitViewController=_webKitViewController;
 
 @end

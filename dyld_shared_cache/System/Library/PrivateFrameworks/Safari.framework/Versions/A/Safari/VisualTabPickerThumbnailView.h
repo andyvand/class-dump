@@ -6,28 +6,12 @@
 
 #import <Safari/VisualTabPickerShadowTileView.h>
 
-@class NSImageView, NSLayoutConstraint, NSStackView, NSTextField, NSView, RolloverImageButton, VisualTabPickerMuteButton;
-@protocol VisualTabPickerThumbnailDataSource, VisualTabPickerThumbnailDelegate;
+@class NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface VisualTabPickerThumbnailView : VisualTabPickerShadowTileView
 {
     NSTextField *_titleTextField;
-    NSImageView *_siteIconImageView;
-    NSStackView *_headerContentStackView;
-    _Bool _reloadDataOnLayout;
-    NSView *_thumbnailView;
-    RolloverImageButton *_closeButton;
-    VisualTabPickerMuteButton *_muteButton;
-    NSLayoutConstraint *_muteButtonWidthConstraint;
-    NSLayoutConstraint *_muteButtonHeightConstraint;
-    _Bool _closeButtonVisible;
-    _Bool _visibleToUser;
-    _Bool _muteButtonVisible;
-    id <VisualTabPickerThumbnailDataSource> _dataSource;
-    id <VisualTabPickerThumbnailDelegate> _delegate;
-    NSView *_lowResolutionThumbnailView;
-    long long _muteButtonState;
 }
 
 - (_Bool);
@@ -49,11 +33,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)(
+;
 - (void);
 - (double);
 - (void);
@@ -76,13 +61,7 @@ __attribute__((visibility("hidden")))
 - (void)Àø@-;
 
 // Remaining properties
-@property(nonatomic, getter=isCloseButtonVisible) _Bool closeButtonVisible; // @synthesize closeButtonVisible=_closeButtonVisible;
-@property(nonatomic) __weak id <VisualTabPickerThumbnailDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(nonatomic) __weak id <VisualTabPickerThumbnailDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NSView *lowResolutionThumbnailView; // @synthesize lowResolutionThumbnailView=_lowResolutionThumbnailView;
-@property(nonatomic) long long muteButtonState; // @synthesize muteButtonState=_muteButtonState;
 @property(nonatomic, getter=isMuteButtonVisible) _Bool muteButtonVisible; // @synthesize muteButtonVisible=_muteButtonVisible;
-@property(nonatomic) _Bool visibleToUser; // @synthesize visibleToUser=_visibleToUser;
 
 @end
 

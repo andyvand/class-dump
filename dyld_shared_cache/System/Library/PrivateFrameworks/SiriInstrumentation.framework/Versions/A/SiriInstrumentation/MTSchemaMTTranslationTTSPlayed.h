@@ -6,20 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MTSchemaMTTranslationTTSPlayed : SISchemaInstrumentationMessage
 {
     int _sourceOrTarget;
-    _Bool _isAutoplayTranslation;
-    int _playbackSpeed;
-    int _audioChannel;
-    struct {
-        unsigned int sourceOrTarget:1;
-        unsigned int isAutoplayTranslation:1;
-        unsigned int playbackSpeed:1;
-        unsigned int audioChannel:1;
-    } _has;
 }
 
 - (int);
@@ -42,7 +31,7 @@
 - (void);
 - (int);
 - (_Bool);
-- (id);
+- (id)D;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -51,17 +40,9 @@
 - (id)ßð1Â0@ù
 × ;
 - (id)dInfoTier1;
-- (id)lUsingSiri;
+- (id)hasAppFreqForPhoneCallUsingSiri;
 
 // Remaining properties
-@property(nonatomic) int audioChannel; // @synthesize audioChannel=_audioChannel;
-@property(nonatomic) _Bool hasAudioChannel;
-@property(nonatomic) _Bool hasIsAutoplayTranslation;
-@property(nonatomic) _Bool hasPlaybackSpeed;
-@property(nonatomic) _Bool hasSourceOrTarget;
-@property(nonatomic) _Bool isAutoplayTranslation; // @synthesize isAutoplayTranslation=_isAutoplayTranslation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int playbackSpeed; // @synthesize playbackSpeed=_playbackSpeed;
 @property(nonatomic) int sourceOrTarget; // @synthesize sourceOrTarget=_sourceOrTarget;
 
 @end

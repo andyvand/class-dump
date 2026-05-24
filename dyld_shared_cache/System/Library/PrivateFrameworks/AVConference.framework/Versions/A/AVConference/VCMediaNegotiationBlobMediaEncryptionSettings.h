@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, VCMediaNegotiatorMediaEncryptionSettings;
+@class VCMediaNegotiatorMediaEncryptionSettings;
 
 __attribute__((visibility("hidden")))
 @interface VCMediaNegotiationBlobMediaEncryptionSettings
 {
     unsigned int _mediaCipherSuites;
-    NSData *_sendMediaKey;
-    unsigned int _srtcpCipherSuites;
-    struct {
-        unsigned int mediaCipherSuites:1;
-        unsigned int srtcpCipherSuites:1;
-    } _has;
 }
 
 - (unsigned int);
@@ -32,15 +26,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
+- (void);
 - (void);
+- (_Bool);
 - (void);
-- (_Bool);
+- (id));
+- (void)P;
 - (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)@;
+- (_Bool)=;
 - (_Bool);
 - (void);
 - (id);
@@ -48,13 +42,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMediaCipherSuites;
-@property(readonly, nonatomic) _Bool hasSendMediaKey;
-@property(nonatomic) _Bool hasSrtcpCipherSuites;
-@property(nonatomic) unsigned int mediaCipherSuites; // @synthesize mediaCipherSuites=_mediaCipherSuites;
 @property(readonly, nonatomic) VCMediaNegotiatorMediaEncryptionSettings *mediaEncryptionSettings;
-@property(retain, nonatomic) NSData *sendMediaKey; // @synthesize sendMediaKey=_sendMediaKey;
-@property(nonatomic) unsigned int srtcpCipherSuites; // @synthesize srtcpCipherSuites=_srtcpCipherSuites;
 
 @end
 

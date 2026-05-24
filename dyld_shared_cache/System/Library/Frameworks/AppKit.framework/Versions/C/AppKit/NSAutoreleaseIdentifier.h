@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAutoreleaseContext;
-
 __attribute__((visibility("hidden")))
 @interface NSAutoreleaseIdentifier
 {
     id _receiver;
-    NSAutoreleaseContext *_context;
 }
 
-- (id);
+- (id)ck_invoke;
 - (void);
-- (id);
+- (id)&,N,V_streamNamesWithDeletionsTriggeringSync;
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (_Bool);
 
 // Remaining properties
-@property(readonly) NSAutoreleaseContext *context; // @synthesize context=_context;
 @property(readonly) id receiver; // @synthesize receiver=_receiver;
 
 @end

@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DiagnosticsServiceImpl, NSObject, NSXPCListener;
-@protocol OS_dispatch_queue;
+@class NSXPCListener;
 
 __attribute__((visibility("hidden")))
 @interface DiagnosticsTransport
 {
     NSXPCListener *listener;
-    DiagnosticsServiceImpl *service;
-    NSObject<OS_dispatch_queue> *transport_queue;
 }
 
 - (id);

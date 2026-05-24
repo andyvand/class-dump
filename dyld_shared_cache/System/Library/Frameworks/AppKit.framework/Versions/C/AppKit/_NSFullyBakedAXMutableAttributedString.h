@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
+- (id)livePhotosOtherStream;
 - (id);
 - (void);
-- (id);
+- (id);
 - (void)0@ù
 × ;
 - (id)!@ùQã3°1Â0@ù

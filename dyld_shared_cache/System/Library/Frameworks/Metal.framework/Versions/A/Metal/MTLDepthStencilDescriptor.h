@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLStencilDescriptor, NSString;
-
 @interface MTLDepthStencilDescriptor
 {
 }
@@ -15,13 +13,7 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) MTLStencilDescriptor *backFaceStencil; // @dynamic backFaceStencil;
-@property(nonatomic) unsigned long long depthCompareFunction; // @dynamic depthCompareFunction;
 @property(readonly) const struct MTLDepthStencilDescriptorPrivate *depthStencilPrivate; // @dynamic depthStencilPrivate;
-@property(nonatomic, getter=isDepthWriteEnabled) _Bool depthWriteEnabled; // @dynamic depthWriteEnabled;
-@property(copy, nonatomic) MTLStencilDescriptor *frontFaceStencil; // @dynamic frontFaceStencil;
-@property(copy, nonatomic) NSString *label; // @dynamic label;
-@property(nonatomic) unsigned long long resourceIndex; // @dynamic resourceIndex;
 
 @end
 

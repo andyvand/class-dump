@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID, USOSerializedGraph;
+@class NSString, NSUUID;
 
 @interface SIRINLUSystemReportedFailure
 {
     NSString *renderedText;
-    NSUUID *_taskId;
-    USOSerializedGraph *_reason;
-    USOSerializedGraph *_task;
 }
 
 + (_Bool);
@@ -20,7 +17,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)MGPU3_EXT_TRIG0_ACT;
 - (id);
 - (void);
 - (id);
@@ -31,9 +28,6 @@
 - (void)mmon_Recipe;
 
 // Remaining properties
-@property(retain, nonatomic) USOSerializedGraph *reason; // @synthesize reason=_reason;
-@property(retain, nonatomic) NSString *renderedText; // @synthesize renderedText;
-@property(retain, nonatomic) USOSerializedGraph *task; // @synthesize task=_task;
 @property(retain, nonatomic) NSUUID *taskId; // @synthesize taskId=_taskId;
 
 @end

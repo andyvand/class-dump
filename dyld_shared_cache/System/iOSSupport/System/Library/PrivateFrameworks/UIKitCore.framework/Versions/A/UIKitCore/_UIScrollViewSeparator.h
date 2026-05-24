@@ -6,26 +6,21 @@
 
 #import <UIKitCore/UIView.h>
 
-@class CALayer, UIScrollView;
+@class UIScrollView;
 
 __attribute__((visibility("hidden")))
 @interface _UIScrollViewSeparator : UIView
 {
     _Bool _visible;
-    CALayer *_dividerLayer;
-    double _dividerHeight;
-    _Bool _overlay;
-    UIScrollView *_scrollView;
-    long long _edge;
 }
 
-- (void);
+- (void)%@ (rowid %@);
 - (void);
 - (struct CGSize);
 - (id);
-- (_Bool);
+- (_Bool)%llu being validated;
 - (void);
-- (id)htView;
+- (id)_inputBackdropRightView;
 - (void)erEndpoint;
 - (id)or-Writeboard-Key;
 - (void)OL _UIFocusItemIsFocusableInFocusSystem(__strong id<UIFocusItem> _Nonnull, UIFocusSystem *__strong _Nonnull);
@@ -34,8 +29,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long edge; // @synthesize edge=_edge;
-@property(readonly, nonatomic) _Bool overlay; // @synthesize overlay=_overlay;
 @property(nonatomic) __weak UIScrollView *scrollView; // @synthesize scrollView=_scrollView;
 
 @end

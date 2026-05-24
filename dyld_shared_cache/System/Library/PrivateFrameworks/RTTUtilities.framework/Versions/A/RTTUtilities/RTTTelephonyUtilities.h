@@ -4,52 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccountStore, AXDispatchTimer, CNContactStore, CTXPCContexts, CTXPCServiceSubscriptionContext, CoreTelephonyClient, NSArray, NSMutableDictionary, NSNumber, NSObject, NSSet, NSString;
-@protocol OS_dispatch_queue;
+@class ACAccountStore;
 
 @interface RTTTelephonyUtilities
 {
     ACAccountStore *_accountStore;
-    NSNumber *_callCapabilitiesSupportsTelephonyCalls;
-    AXDispatchTimer *_icloudAccountConsolidator;
-    AXDispatchTimer *_icloudRelayConsolidator;
-    _Bool _headphoneJackSupportsTTY;
-    CTXPCServiceSubscriptionContext *_defaultVoiceContext;
-    unsigned long long _activeContextCount;
-    NSSet *_allVoiceContexts;
-    CNContactStore *_contactStore;
-    CoreTelephonyClient *_telephonyClient;
-    NSObject<OS_dispatch_queue> *_telephonyUpdateQueue;
-    NSObject<OS_dispatch_queue> *_accountStoreQueue;
-    NSArray *_cachedSubscriptionContexts;
-    CTXPCContexts *_cachedActiveContexts;
-    NSMutableDictionary *_phoneNumberInfoCache;
 }
 
 + (_Bool);
 + (_Bool);
 + (_Bool);
++ (id);
++ (_Bool);
++ (_Bool);
++ (_Bool);
++ (_Bool)4;
++ (_Bool);
++ (void)?;
++ (_Bool);
++ (_Bool);
++ (_Bool);
++ (_Bool);
++ (_Bool);
++ (_Bool);
 + (id);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
 + (void);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)LPHighlightGestureRecognizer;
++ (_Bool)J;
 + (_Bool);
 + (id);
-+ (void);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (_Bool);
++ (id)stopRoutingVideoToPictureInPicturePlayerLayerView;
++ (_Bool)AVPlayerViewControllerConfiguration;
 + (long long);
 + (_Bool);
 + (_Bool);
@@ -68,15 +53,15 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
+- (void)nd continuing other checks;
+- (void)N8cnmatrix12CNMatrixBaseIPFiRKNS_8CNMatrixILj26ELj1EdEES4_dPvRS2_RNS1_ILj26ELj26EdEES8_EEE;
 - (id);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)TI;
 - (id);
 - (id);
 - (void);
@@ -84,31 +69,31 @@
 - (void);
 - (void);
 - (void);
+- (id)initWithContentIdentifier:majorVersion:minorVersion:libraries:assets:overallDurationInfo:currentStyle:seedSongIdentifiersByCatalog:autoDecisionLists:presentations: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
 - (id);
 - (_Bool);
 - (void);
 - (void);
+- (_Bool);
+- (id);
+- (_Bool);
 - (void);
+- (void);
+- (void);
 - (unsigned long long);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (void);
@@ -122,7 +107,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)ge_child_50.heic;
 - (void);
 - (void);
 - (void);
@@ -131,29 +116,11 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (id);
+- (void)XProtectShouldTranslocateDMG;
+- (id)x(;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *accountStoreQueue; // @synthesize accountStoreQueue=_accountStoreQueue;
-@property unsigned long long activeContextCount; // @synthesize activeContextCount=_activeContextCount;
-@property(retain) NSSet *allVoiceContexts; // @synthesize allVoiceContexts=_allVoiceContexts;
-@property(retain) CTXPCContexts *cachedActiveContexts; // @synthesize cachedActiveContexts=_cachedActiveContexts;
-@property(retain) NSArray *cachedSubscriptionContexts; // @synthesize cachedSubscriptionContexts=_cachedSubscriptionContexts;
-@property(retain) NSNumber *callCapabilitiesSupportsTelephonyCalls;
-@property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain) CTXPCServiceSubscriptionContext *defaultVoiceContext; // @synthesize defaultVoiceContext=_defaultVoiceContext;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool headphoneJackSupportsTTY; // @synthesize headphoneJackSupportsTTY=_headphoneJackSupportsTTY;
-@property(retain, nonatomic) NSMutableDictionary *phoneNumberInfoCache; // @synthesize phoneNumberInfoCache=_phoneNumberInfoCache;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) CoreTelephonyClient *telephonyClient; // @synthesize telephonyClient=_telephonyClient;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *telephonyUpdateQueue; // @synthesize telephonyUpdateQueue=_telephonyUpdateQueue;
 
 @end
 

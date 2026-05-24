@@ -12,7 +12,7 @@
 
 + (_Bool);
 - (id);
-- (void)ortKey:(id)arg1;
+- (void)initWithName:(id)arg1 nameSection:(Class)arg2 sortKey: /* Error: Ran out of types for this method. */;
 
 @end
 

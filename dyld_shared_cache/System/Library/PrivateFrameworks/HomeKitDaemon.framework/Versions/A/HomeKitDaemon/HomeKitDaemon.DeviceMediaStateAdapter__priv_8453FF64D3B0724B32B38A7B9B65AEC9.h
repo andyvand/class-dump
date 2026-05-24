@@ -7,8 +7,6 @@
 @interface HomeKitDaemon.DeviceMediaStateAdapter__priv_8453FF64D3B0724B32B38A7B9B65AEC9
 {
     id events;
-    id continuation;
-    id uuid;
 }
 
 @end

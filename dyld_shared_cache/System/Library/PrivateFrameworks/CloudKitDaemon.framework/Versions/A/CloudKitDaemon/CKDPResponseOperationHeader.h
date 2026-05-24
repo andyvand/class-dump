@@ -9,12 +9,11 @@
 @interface CKDPResponseOperationHeader
 {
     NSMutableArray *_assetAuthorizationResponses;
-    NSMutableArray *_throttleConfigs;
 }
 
 + (Class);
-+ (Class);
-- (void);
++ (Class);
+- (void)core_RecurringNamedDateRange_Afternoon;
 - (id);
 - (id);
 - (id);
@@ -23,23 +22,22 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)bufferedAudioEngine_setEndpointStreamInternalStage3;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (_Bool);
+- (void)String"16@0:8 /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (id);
 - (id);
-- (id);
 - (void);
-- (void);
+- (void)ramework/Contents/MacOS/AppleVirtualPlatform;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *assetAuthorizationResponses; // @synthesize assetAuthorizationResponses=_assetAuthorizationResponses;
-@property(retain, nonatomic) NSMutableArray *throttleConfigs; // @synthesize throttleConfigs=_throttleConfigs;
 
 @end
 

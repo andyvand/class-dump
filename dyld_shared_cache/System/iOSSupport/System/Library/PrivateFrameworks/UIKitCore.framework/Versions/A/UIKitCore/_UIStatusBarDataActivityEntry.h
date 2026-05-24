@@ -15,15 +15,15 @@
 }
 
 + (_Bool)"8;
-- (void);
-- (id);
+- (void);
+- (id);
 - (unsigned long long);
 - (long long);
 - (_Bool)SecureControlCategory";
-- (void)ObjCTypes:(id)arg1;
-- (id)w1PartImageInRect: /* Error: Ran out of types for this method. */;
-- (id)eationOfFileURLFromItemProvider;
-- (void)equiresCopying;
+- (void)signatureWithObjCTypes:(id)arg1;
+- (id)draw1PartImageInRect: /* Error: Ran out of types for this method. */;
+- (id)_allowsCreationOfFileURLFromItemProvider;
+- (void)requiresCopying;
 - (id)teractionCommitTransition.m;
 - (void);
 

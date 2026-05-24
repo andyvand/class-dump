@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, OADOrientedBounds;
-
 __attribute__((visibility("hidden")))
 @interface CMShapeBuilder
 {
     int _type;
-    OADOrientedBounds *_orientedBounds;
-    unsigned long long _format;
-    NSDictionary *_adjustValues;
 }
 
 + (struct CGRect);
@@ -21,9 +16,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (float);
 - (_Bool);
-- (struct CGPath *);
+- (struct CGPath *)U;
 - (void);
-- (struct CGAffineTransform);
+- (struct CGAffineTransform)"NSArray",&,V_registeredDragTypes;
 - (void)¤;;
 
 @end

@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface CNVCardReadingOptions
 {
     _Bool _useConcurrentParsing;
-    unsigned long long _contactLimit;
-    NSArray *_propertiesToFetch;
-    unsigned long long _maximumValueLength;
 }
 
 - (_Bool);
@@ -20,7 +15,7 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -28,9 +23,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long contactLimit; // @synthesize contactLimit=_contactLimit;
-@property(nonatomic) unsigned long long maximumValueLength; // @synthesize maximumValueLength=_maximumValueLength;
-@property(copy, nonatomic) NSArray *propertiesToFetch; // @synthesize propertiesToFetch=_propertiesToFetch;
-@property(nonatomic) _Bool useConcurrentParsing; // @synthesize useConcurrentParsing=_useConcurrentParsing;
 
 @end
 

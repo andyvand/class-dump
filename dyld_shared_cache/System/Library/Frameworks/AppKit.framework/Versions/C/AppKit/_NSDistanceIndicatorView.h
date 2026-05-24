@@ -10,10 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _NSDistanceIndicatorView : _NSConstraintIndicatorView
 {
     struct CGRect rect1;
-    unsigned long long edge1;
-    struct CGRect rect2;
-    unsigned long long edge2;
-    _Bool isHorizontal;
 }
 
 - (id);

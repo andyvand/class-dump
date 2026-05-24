@@ -7,15 +7,11 @@
 @interface NewsUI2.AudioRecentlyPlayedStore
 {
     id recentlyPlayedUpdatedSignal;
-    id readingHistory;
-    id headlineService;
-    id headlineCache;
-    id paidBundleConfigManager;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)SpringBoard;
 - (void);
 - (id);
 - (void)SportsManagementTitleViewStylerType;

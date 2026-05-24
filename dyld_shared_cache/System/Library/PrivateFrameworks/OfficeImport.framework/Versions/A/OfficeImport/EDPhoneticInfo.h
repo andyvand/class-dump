@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDCollection, EDResources, NSString;
+@class EDResources;
 
 __attribute__((visibility("hidden")))
 @interface EDPhoneticInfo
 {
     EDResources *mResources;
-    unsigned long long mFontIndex;
-    NSString *mString;
-    int mType;
-    int mAlign;
-    EDCollection *mRuns;
-    _Bool mDoNotModify;
 }
 
 + (id);
+- (void)b;
+- (id);
 - (void);
-- (id);
-- (void);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (void);
 - (void);
@@ -31,25 +25,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (unsigned long long);
-- (int);
+- (int)R;
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)ting data from disk;
 - (void)5$Ð1Â0@ù
 × ;
 - (void);
-- (void)t;
+- (void)7XlSxExt;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

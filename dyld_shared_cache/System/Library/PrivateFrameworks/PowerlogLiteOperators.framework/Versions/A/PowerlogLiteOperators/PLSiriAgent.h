@@ -9,10 +9,6 @@
 @interface PLSiriAgent
 {
     PLXPCListenerOperatorComposition *_asrEventListener;
-    PLXPCListenerOperatorComposition *_dictationConnectionListener;
-    PLXPCListenerOperatorComposition *_selfTriggerSuppressionDetectedListener;
-    PLXPCListenerOperatorComposition *_selfTriggerSuppressionProcessingListener;
-    PLXPCListenerOperatorComposition *_siriWakesListener;
 }
 
 + (id);
@@ -21,7 +17,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -39,9 +35,9 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)dialog.Pressure.toString;
 - (id);
-- (void);
+- (void)h;
 - (void);
 - (id);
 - (unsigned long long);
@@ -55,10 +51,6 @@
 
 // Remaining properties
 @property(retain) PLXPCListenerOperatorComposition *asrEventListener; // @synthesize asrEventListener=_asrEventListener;
-@property(retain) PLXPCListenerOperatorComposition *dictationConnectionListener; // @synthesize dictationConnectionListener=_dictationConnectionListener;
-@property(retain) PLXPCListenerOperatorComposition *selfTriggerSuppressionDetectedListener; // @synthesize selfTriggerSuppressionDetectedListener=_selfTriggerSuppressionDetectedListener;
-@property(retain) PLXPCListenerOperatorComposition *selfTriggerSuppressionProcessingListener; // @synthesize selfTriggerSuppressionProcessingListener=_selfTriggerSuppressionProcessingListener;
-@property(retain) PLXPCListenerOperatorComposition *siriWakesListener; // @synthesize siriWakesListener=_siriWakesListener;
 
 @end
 

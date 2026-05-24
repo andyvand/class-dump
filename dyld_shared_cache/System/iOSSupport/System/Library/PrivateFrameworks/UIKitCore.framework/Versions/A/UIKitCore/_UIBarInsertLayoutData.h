@@ -16,32 +16,23 @@ __attribute__((visibility("hidden")))
         unsigned int active:1;
         unsigned int verticalOriginValid:1;
     } _flags;
-    double _verticalOrigin;
-    NSString *_identifier;
-    double _minimumHeight;
-    double _preferredHeight;
-    double _bottomInsetForTransitionProgress;
-    double _assignedHeight;
-    double _collapsingHeight;
-    long long _priority;
-    long long _order;
 }
 
-+ (void);
++ (void)Saving changes;
 + (id);
 + (id);
-+ (CDStruct_39925896);
++ (CDStruct_bd34ff7f);
 + (void);
+- (void);
 - (void);
-- (void);
+- (_Bool)c;
 - (_Bool);
-- (_Bool);
 - (void);
-- (id);
-- (void);
-- (double);
-- (double);
-- (double);
+- (id)mmcs_update_item_set_error_if_not_already_done;
+- (void)ModelSong";
+- (double)__classical_KEY;
+- (double)gBoardServices unavailable];
+- (double)personID;
 - (id);
 - (double);
 - (void);
@@ -52,17 +43,17 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)Ô°!,@ùc°1Â0@ù
 × ;
-- (void)eneIdentifier:(double)arg1;
-- (_Bool):animated: /* Error: Ran out of types for this method. */;
-- (void)oordinator:(id)arg1;
-- (double)NeighborSpacingForAttribute: /* Error: Ran out of types for this method. */;
-- (double)Order;
+- (void)systemNavigationActionContextWithTitle:(double)arg1 sceneIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool)setBarSections:animated: /* Error: Ran out of types for this method. */;
+- (void)_setInteractiveAnimationCoordinator:(id)arg1;
+- (double)_hasCustomAutolayoutNeighborSpacingForAttribute: /* Error: Ran out of types for this method. */;
+- (double)_currentFavoriteOrder;
 - (id)ion",R,N,V_session;
 - (id)ÿÿ	t¤;
 - (_Bool)-[_UISplitViewControllerAdaptiveImpl showViewController:sender:] /* Error: Ran out of types for this method. */;
-- (long long)DirectoryUrl;
+- (long long)_UIImagePickerControllerTemporaryDirectoryUrl;
 - (double)n a storyboard;
-- (void)emItem;
+- (void)SystemItem;
 - (void);
 - (double)G©c;
 - (void)4ÿ;
@@ -70,30 +61,7 @@ __attribute__((visibility("hidden")))
 - (long long)(¬ÿ±È;
 
 // Remaining properties
-@property(nonatomic) _Bool active;
-@property(readonly, nonatomic) double assignedHeight; // @synthesize assignedHeight=_assignedHeight;
-@property(nonatomic) double bottomInsetForTransitionProgress; // @synthesize bottomInsetForTransitionProgress=_bottomInsetForTransitionProgress;
-@property(nonatomic, getter=isCollapsible) _Bool collapsible;
-@property(readonly, nonatomic) double collapsingHeight; // @synthesize collapsingHeight=_collapsingHeight;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool ignoredForCollapsingBehaviors;
-@property(readonly, nonatomic) double layoutMinimumHeight;
-@property(readonly, nonatomic) double maxY;
-@property(nonatomic) double minimumHeight; // @synthesize minimumHeight=_minimumHeight;
-@property(nonatomic) long long order; // @synthesize order=_order;
-@property(nonatomic) double preferredHeight; // @synthesize preferredHeight=_preferredHeight;
-@property(nonatomic) _Bool prefersExpanded;
-@property(nonatomic) long long priority; // @synthesize priority=_priority;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double transitionProgress;
-@property(readonly, nonatomic, getter=isVariableHeight) _Bool variableHeight;
-@property(readonly, nonatomic) double verticalOrigin; // @synthesize verticalOrigin=_verticalOrigin;
 
 @end
 

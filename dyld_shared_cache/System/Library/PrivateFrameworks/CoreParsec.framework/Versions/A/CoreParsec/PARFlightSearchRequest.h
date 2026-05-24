@@ -6,21 +6,19 @@
 
 #import <CoreParsec/PARRequest.h>
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface PARFlightSearchRequest : PARRequest
 {
     NSDate *_date;
-    NSString *_flightQuery;
-    NSString *_appBundleId;
 }
 
 + (_Bool);
-- (id);
-- (void);
+- (id)g long>>, WTF::WeakRef<API::ContentWorld>>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::WeakRef<API::ContentWorld>>>, WTF::DefaultHash<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, WTF::HashMap<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::WeakRef<API::ContentWorld>>::KeyValuePairTraits, WTF::HashTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>>::validateKey(const ValueType &) [Key = WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Value = WTF::KeyValuePair<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::WeakRef<API::ContentWorld>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::WeakRef<API::ContentWorld>>>, HashFunctions = WTF::DefaultHash<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Traits = WTF::HashMap<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::WeakRef<API::ContentWorld>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void), WTF:(id)arg1:IntHash<WebCore::ActivityStateForCPUSampling>, WTF::StrongEnumHashTraits<WebCore::ActivityStateForCPUSampling>>::KeyValuePairTraits, KeyTraits = WTF::StrongEnumHashTraits<WebCore::ActivityStateForCPUSampling>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -29,9 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *appBundleId; // @synthesize appBundleId=_appBundleId;
 @property(copy, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(copy, nonatomic) NSString *flightQuery; // @synthesize flightQuery=_flightQuery;
 
 @end
 

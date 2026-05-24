@@ -5,5 +5,7 @@
 //
 
 @protocol IMDaemonManageStatusProtocol
+- (void)c;
+- (void)H;
 @end
 

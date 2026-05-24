@@ -5,5 +5,8 @@
 //
 
 @protocol FindMyDeviceBTDiscoveryDelegateXPCInterface
+- (oneway void)ddd}16;
+- (oneway void);
+- (oneway void);
 @end
 

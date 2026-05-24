@@ -4,30 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPSImageBox;
-@protocol MTLComputePipelineState, MTLDevice, MTLLibrary, MTLTexture;
+@protocol MTLDevice;
 
 __attribute__((visibility("hidden")))
 @interface XMattingBoxTensorFilter
 {
     id <MTLDevice> _device;
-    id <MTLLibrary> _library;
-    MPSImageBox *_boxfilter;
-    unsigned int _radius;
-    unsigned int _depthRadius;
-    _Bool _supportsReadWriteTextures;
-    id <MTLTexture> _tmpTexture;
-    id <MTLComputePipelineState> _depthFilterSeparableSlidingStacks_arrayKernel;
-    id <MTLComputePipelineState> _renormalizeFromMPSImageEdgeModeZeroKernel;
 }
 
-+ (id);
++ (id);
 - (id);
 - (int);
 - (int);
 - (int);
 - (int);
-- (void);
+- (void)6 character;
 - (void)= abs(destCoord() - 0.5);
   return (max(d.x, d.y) < 0.5) ? p :vec4(0.0);
 }

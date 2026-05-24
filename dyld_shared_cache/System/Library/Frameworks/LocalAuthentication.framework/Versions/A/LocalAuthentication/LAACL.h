@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface LAACL
 {
     struct __SecAccessControl *_acl;
-    NSDictionary *_constraints;
-    NSData *_data;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)8,;
 - (_Bool);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *constraints;
 @property(readonly, nonatomic) NSData *data;
 
 @end

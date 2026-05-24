@@ -10,9 +10,9 @@
 }
 
 - (void);
-- (void);
+- (void)?;
 - (id);
-- (void)ew:shouldApplyTransitionContentOffset:contentSize: /* Error: Ran out of types for this method. */;
+- (void)_collectionView:shouldApplyTransitionContentOffset:contentSize: /* Error: Ran out of types for this method. */;
 
 @end
 

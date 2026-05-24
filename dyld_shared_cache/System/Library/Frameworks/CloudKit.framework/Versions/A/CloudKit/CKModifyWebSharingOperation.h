@@ -6,27 +6,18 @@
 
 #import <CloudKit/CKDatabaseOperation.h>
 
-@class CKModifyWebSharingOperationInfo, NSArray, NSMutableArray, NSMutableDictionary, NSString;
 @protocol CKModifyWebSharingOperationCallbacks;
 
 @interface CKModifyWebSharingOperation : CKDatabaseOperation
 {
     CDUnknownBlockType _recordSharedBlock;
-    CDUnknownBlockType _recordUnsharedBlock;
-    CDUnknownBlockType _webShareRecordsCompletionBlock;
-    NSArray *_recordIDsToShareReadWrite;
-    NSArray *_recordIDsToShare;
-    NSArray *_recordIDsToUnshare;
-    NSMutableDictionary *_recordErrors;
-    NSMutableArray *_sharedRecordIDs;
-    NSMutableArray *_unsharedRecordIDs;
 }
 
 + (SEL);
 + (void);
 - (CDUnknownBlockType);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -35,16 +26,17 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)=;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)=q;
 - (id);
 - (void);
+- (void);
 - (id);
+- (void);
+- (id)!do
+;
 - (void);
 - (id);
 - (void);
@@ -57,23 +49,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <CKModifyWebSharingOperationCallbacks> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CKModifyWebSharingOperationInfo *operationInfo; // @dynamic operationInfo;
-@property(retain, nonatomic) NSMutableDictionary *recordErrors; // @synthesize recordErrors=_recordErrors;
-@property(retain, nonatomic) NSArray *recordIDsToShare; // @synthesize recordIDsToShare=_recordIDsToShare;
-@property(copy, nonatomic) NSArray *recordIDsToShareReadWrite; // @synthesize recordIDsToShareReadWrite=_recordIDsToShareReadWrite;
-@property(retain, nonatomic) NSArray *recordIDsToUnshare; // @synthesize recordIDsToUnshare=_recordIDsToUnshare;
-@property(copy, nonatomic) CDUnknownBlockType recordSharedBlock; // @synthesize recordSharedBlock=_recordSharedBlock;
-@property(copy, nonatomic) CDUnknownBlockType recordUnsharedBlock; // @synthesize recordUnsharedBlock=_recordUnsharedBlock;
-@property(retain, nonatomic) NSMutableArray *sharedRecordIDs; // @synthesize sharedRecordIDs=_sharedRecordIDs;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSMutableArray *unsharedRecordIDs; // @synthesize unsharedRecordIDs=_unsharedRecordIDs;
-@property(copy, nonatomic) CDUnknownBlockType webShareRecordsCompletionBlock; // @synthesize webShareRecordsCompletionBlock=_webShareRecordsCompletionBlock;
 
 @end
 

@@ -4,26 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLocale, NSString;
 @protocol MKMapServiceTicket;
 
 @interface MKGeocodingRequest
 {
     id <MKMapServiceTicket> _ticket;
-    struct os_unfair_lock_s _stateLock;
-    _Bool _loading;
-    _Bool _cancelled;
-    NSString *_addressString;
-    NSLocale *_preferredLocale;
-    CDStruct_b7cb895d _region;
 }
 
 - (void);
-- (id);
+- (id)R;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)isEqualToString:(id)arg1;
+- (void)8ԛ;
 - (id);
 - (id);
 - (void);
@@ -31,16 +24,12 @@
 - (_Bool)0@ù
 × ;
 - (id)intValue;
-- (void)eiveTouch: /* Error: Ran out of types for this method. */;
-- (CDStruct_b7cb895d)ng default silhouette;
+- (void)gestureRecognizer:shouldReceiveTouch: /* Error: Ran out of types for this method. */;
+- (CDStruct_4760c753)ng default silhouette;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *addressString; // @synthesize addressString=_addressString;
 @property(readonly, nonatomic, getter=isCancelled) _Bool cancelled;
-@property(readonly, nonatomic, getter=isLoading) _Bool loading;
-@property(retain, nonatomic) NSLocale *preferredLocale; // @synthesize preferredLocale=_preferredLocale;
-@property(nonatomic) CDStruct_b7cb895d region; // @synthesize region=_region;
 
 @end
 

@@ -10,16 +10,16 @@ __attribute__((visibility("hidden")))
     id _controller;
 }
 
-- (void);
-- (void);
+- (void)CachedURLResponse">32;
+- (void);
+- (id)SURLRequest"16;
+- (_Bool)AVAssetDownloadTaskDestinationURLKey;
+- (void)NWIOConnection;
 - (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id)pedAutohideHeight;
+- (id);
+- (id)effectiveClampedAutohideHeight;
 - (void)ôÝ;
-- (unsigned long long)pe;
+- (unsigned long long)type;
 - (id)hA;
 
 @end

@@ -10,8 +10,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)setSendingAddressAccountIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool)_saveAttachment:toDirectory:filename:makePathUnique: /* Error: Ran out of types for this method. */;
 
 @end
 

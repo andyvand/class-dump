@@ -6,41 +6,35 @@
 
 #import <CoreBrightness/BLControl.h>
 
-@class NSMutableDictionary, NSObject, SLSBrightnessControlClient;
-@protocol OS_dispatch_queue, OS_os_log;
+@class NSObject;
+@protocol OS_os_log;
 
 __attribute__((visibility("hidden")))
 @interface TMBLControl : BLControl
 {
     NSObject<OS_os_log> *_logHandle;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _callback;
-    NSMutableDictionary *_displays;
-    SLSBrightnessControlClient *_SLSClient;
-    long long _displayState;
-    unsigned char _displayPowerState;
 }
 
 + (unsigned long long);
 + (long long);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)likely to happen). Break on DDScannerThreadDebug() to debug.;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)9;
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);

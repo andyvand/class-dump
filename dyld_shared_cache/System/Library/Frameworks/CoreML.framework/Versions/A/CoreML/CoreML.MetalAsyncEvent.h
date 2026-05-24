@@ -7,7 +7,6 @@
 @interface CoreML.MetalAsyncEvent
 {
     id sharedEvent;
-    id eventValue;
 }
 
 @end

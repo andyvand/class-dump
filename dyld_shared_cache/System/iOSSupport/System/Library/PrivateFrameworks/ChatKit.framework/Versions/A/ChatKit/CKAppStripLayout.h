@@ -9,13 +9,6 @@
 @interface CKAppStripLayout
 {
     NSArray *_minifiedAttributes;
-    NSArray *_magnifiedAttributes;
-    NSArray *_supplementryMinifiedAttributes;
-    NSArray *_supplementryMagnifiedAttributes;
-    _Bool _inLayoutModeTransition;
-    _Bool _shouldDimPluginCells;
-    _Bool _shouldShowCellBorders;
-    unsigned long long _layoutMode;
 }
 
 + (double);
@@ -25,10 +18,11 @@
 - (void);
 - (void);
 - (void);
+- (void)tem, update to the latest version of macOS.;
 - (void);
-- (void);
-- (struct CGSize);
-- (id);
+- (struct CGSize)X
+;
+- (id).;
 - (struct _Spec);
 - (long long);
 - (id);
@@ -37,10 +31,10 @@
 - (id);
 - (id);
 - (long long);
-- (long long);
+- (long long)@"<UIDragSession>"24@"NSIndexPath"32;
 - (void);
 - (unsigned long long);
-- (id);
+- (id)T;
 - (id);
 - (id);
 - (id);
@@ -48,7 +42,7 @@
 - (id);
 - (id)
 × ;
-- (struct CGSize)llerWillOpenInBrowser: /* Error: Ran out of types for this method. */;
+- (struct CGSize)safariViewControllerWillOpenInBrowser: /* Error: Ran out of types for this method. */;
 - (_Bool)2Ðùÿ¹ÿþÿ;
 - (id);
 - (void)pbackPickerCollectionViewLayoutDelegateP;
@@ -58,8 +52,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long layoutMode; // @synthesize layoutMode=_layoutMode;
-@property(nonatomic) _Bool shouldDimPluginCells; // @synthesize shouldDimPluginCells=_shouldDimPluginCells;
-@property(nonatomic) _Bool shouldShowCellBorders; // @synthesize shouldShowCellBorders=_shouldShowCellBorders;
 
 @end
 

@@ -6,20 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface GATSchemaGATGenerativeRequestEventStarted : SISchemaInstrumentationMessage
 {
     int _usecase;
-    int _mediaQAUseCase;
-    int _llmAgentName;
-    int _genAIAgentUsed;
-    struct {
-        unsigned int usecase:1;
-        unsigned int mediaQAUseCase:1;
-        unsigned int llmAgentName:1;
-        unsigned int genAIAgentUsed:1;
-    } _has;
 }
 
 - (void);
@@ -44,23 +33,15 @@
 - (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)_pickerRowItemAtIndex:inSectionForItem: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)@;
 - (id);
 - (id)iSchemaRGCatalogStarted";
 - (id)hemaMHAssistantDaemonAudioStopRecordingeStarted",&,N,V_startedOrChanged;
 - (id)Û¼Ü;
 
 // Remaining properties
-@property(nonatomic) int genAIAgentUsed; // @synthesize genAIAgentUsed=_genAIAgentUsed;
-@property(nonatomic) _Bool hasGenAIAgentUsed;
-@property(nonatomic) _Bool hasLlmAgentName;
-@property(nonatomic) _Bool hasMediaQAUseCase;
-@property(nonatomic) _Bool hasUsecase;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int llmAgentName; // @synthesize llmAgentName=_llmAgentName;
-@property(nonatomic) int mediaQAUseCase; // @synthesize mediaQAUseCase=_mediaQAUseCase;
 @property(nonatomic) int usecase; // @synthesize usecase=_usecase;
 
 @end

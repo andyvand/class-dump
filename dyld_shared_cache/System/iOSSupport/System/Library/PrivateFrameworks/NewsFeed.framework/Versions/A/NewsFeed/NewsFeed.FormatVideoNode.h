@@ -7,19 +7,6 @@
 @interface NewsFeed.FormatVideoNode
 {
     id _identifier;
-    id size;
-    id resize;
-    id _adjustments;
-    id style;
-    id animation;
-    id content;
-    id _zIndex;
-    id _visibility;
-    id _isUserInteractionEnabled;
-    id accessibilityRole;
-    id _selectors;
-    id properties;
-    id flex;
 }
 
 @end

@@ -5,5 +5,6 @@
 //
 
 @protocol CKJunkRecoveryTranscriptCellDelegate
+- (void)isMainThread;
 @end
 

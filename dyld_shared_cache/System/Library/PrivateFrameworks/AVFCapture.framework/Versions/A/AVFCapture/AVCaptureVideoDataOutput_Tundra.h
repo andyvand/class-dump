@@ -6,8 +6,8 @@
 
 #import <AVFCapture/AVCaptureOutput_Tundra.h>
 
-@class AVCaptureVideoDataOutputInternal_Tundra, NSArray, NSDictionary, NSObject;
-@protocol AVCaptureVideoDataOutputSampleBufferDelegate_Tundra, OS_dispatch_queue;
+@class AVCaptureVideoDataOutputInternal_Tundra;
+@protocol AVCaptureVideoDataOutputSampleBufferDelegate_Tundra;
 
 @interface AVCaptureVideoDataOutput_Tundra : AVCaptureOutput_Tundra
 {
@@ -16,81 +16,70 @@
 
 + (id);
 + (void)OäIÒ5Ç?­/Úr.Ñ?úD$]3Ñ¿;
-- (id);
-- (void);
+- (id)mapTableWithKeyOptions:(id)arg1 valueOptions: /* Error: Ran out of types for this method. */;
+- (void)linesAreSortedByStartTime;
+- (_Bool)initWithRandomSource:(id)arg1 lowestValue:highestValue: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithProjectID:(id)arg1 namespaceName: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithOutputStream:(id)arg1 queue: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithObjects:(id)arg1 forKeys:count: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithName:(id)arg1 uuid:version:root:debug: /* Error: Ran out of types for this method. */;
+- (id)initWithFormat:arguments: /* Error: Ran out of types for this method. */;
+- (void)gradientTextColorHex;
+- (void)gradientColorStartPosition;
+- (void)elementStack;
+- (void)disarm;
+- (void)decodedObjectOfClasses:(_Bool)arg1 fromData:error: /* Error: Ran out of types for this method. */;
+- (void)dataTaskWithRequest:(CDStruct_1b6d18a9)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (void)attributesOfItemAtPath:(_Bool)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)_validateClass:(_Bool)arg1 fromSupportedClasses: /* Error: Ran out of types for this method. */;
+- (void)_tertiaryTextColorHex;
+- (id)_scalarFunctions;
+- (id)_running;
+- (id)_primaryTextColorLight;
+- (void)_next;
+- (id)_lineIndex;
+- (id)_keyOpeningTagData;
+- (id)_isReporterEnabled;
+- (id)_interruptWithReason:(id)arg1;
+- (int)_inputStream;
+- (_Bool)_dictionaryClosingTagData;
+- (_Bool)_descriptionForLyricsInfoType: /* Error: Ran out of types for this method. */;
+- (id)_arrayOpeningTagData;
+- (_Bool)_uuid;
+- (_Bool)@"NSURL",C,N,V_sourceURL;
+- (_Bool)setMaxConcurrentOperationCount: /* Error: Ran out of types for this method. */;
+- (id)MSVArtworkServiceResizeRequestDestination;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (unsigned int)lh;
 - (int);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (unsigned int);
-- (int);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)ening database [] result=%d;
+- (id)nexpected stream event %lu;
+- (id)p Encountered error event;
+- (id)ic}@;
+- (id)ting stream reader;
+- (_Bool)rter snapshot accepted with sessionID %@;
+- (_Bool)n] <%p> Connection state .cancelled;
+- (_Bool)onnection] <%p> Connection state .preparing;
+- (_Bool)ction state .ready;
+- (_Bool)tion] <%p> Started QR connection and registered for message handling.;
+- (void)%{public}@ PID[%d] - Group:(id)arg1 %{public}@ - Entitlement:%{public}@ - Entitled:%{BOOL}u - Error:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)nd] name=%{public}@ id=%{public}@;
+- (void)ate}@, error %s;
+- (void)tion:(id)arg1 imageDestination cannot be NULL;
+- (void)und;
+- (_Bool)16^B24;
+- (id)writeWrapText:to: /* Error: Ran out of types for this method. */;
+- (void)g"40@"NSString"48@"IDSMessageContext"56;
 - (CDStruct_1b6d18a9);
 - (id);
 - (void);
 - (void);
-- (id)deoMirroringSupported;
+- (id)videoMirroringSupported;
 - (id)eDimensions: /* Error: Ran out of types for this method. */;
 - (void)tureDevice.constituentDevices.count is less than 2;
 
 // Remaining properties
-@property(nonatomic) _Bool alwaysDiscardsLateVideoFrames;
-@property(nonatomic) _Bool automaticallyConfiguresOutputBufferDimensions;
-@property(readonly, nonatomic) NSArray *availableVideoCVPixelFormatTypes;
-@property(readonly, nonatomic) NSArray *availableVideoCodecTypes;
-@property(nonatomic) _Bool deliversPreviewSizedOutputBuffers;
-@property(nonatomic) CDStruct_1b6d18a9 minFrameDuration;
-@property _Bool preparesCellularRadioForNetworkConnection;
-@property _Bool preservesDynamicHDRMetadata;
-@property(readonly, nonatomic) int recommendedMediaTimeScaleForAssetWriter;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *sampleBufferCallbackQueue;
 @property(readonly, nonatomic) id <AVCaptureVideoDataOutputSampleBufferDelegate_Tundra> sampleBufferDelegate;
-@property(copy, nonatomic) NSDictionary *videoSettings;
 
 @end
 

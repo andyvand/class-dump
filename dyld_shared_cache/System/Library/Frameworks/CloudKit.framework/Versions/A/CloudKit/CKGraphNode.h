@@ -5,12 +5,10 @@
 //
 
 @class NSMutableSet;
-@protocol NSSecureCoding><NSObject;
 
 @interface CKGraphNode
 {
     NSMutableSet *_edges;
-    NSMutableSet *_indegrees;
 }
 
 - (id);
@@ -18,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)supportsTexture2DMultisampleArray;
 - (id);
 - (_Bool);
 - (id);
@@ -28,9 +26,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *edges; // @synthesize edges=_edges;
-@property(readonly, nonatomic) unsigned long long indegree;
-@property(readonly, nonatomic) NSMutableSet *indegrees; // @synthesize indegrees=_indegrees;
-@property(readonly, nonatomic) id <NSSecureCoding><NSObject> itemID;
 
 @end
 

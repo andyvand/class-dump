@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INRestaurant, NSDate, NSNumber, NSString;
+@class INRestaurant;
 
 @protocol INGetUserCurrentRestaurantReservationBookingsIntentExport
+- (void)BKSHIDEventVendorDefinedDescriptor;
 
 // Remaining properties
-@property(copy) NSDate *earliestBookingDateForResults;
-@property(copy) NSNumber *maximumNumberOfResults;
-@property(copy) NSString *reservationIdentifier;
 @property(copy) INRestaurant *restaurant;
 @end
 

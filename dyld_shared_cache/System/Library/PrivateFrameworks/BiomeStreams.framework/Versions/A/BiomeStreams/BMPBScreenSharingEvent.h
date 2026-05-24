@@ -7,38 +7,30 @@
 @interface BMPBScreenSharingEvent
 {
     int _type;
-    _Bool _isStart;
-    struct {
-        unsigned int type:1;
-        unsigned int isStart:1;
-    } _has;
 }
 
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (int);
+- (int)mework/Versions/A/IOKit;
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (int);
-- (id)get_packed_size;
+- (id)pg_query__vacuum_relation__get_packed_size;
 - (_Bool)a;
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool hasIsStart;
-@property(nonatomic) _Bool hasType;
-@property(nonatomic) _Bool isStart; // @synthesize isStart=_isStart;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

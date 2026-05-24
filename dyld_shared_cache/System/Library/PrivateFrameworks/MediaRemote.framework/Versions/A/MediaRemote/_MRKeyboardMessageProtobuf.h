@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _MRTextEditingAttributesProtobuf;
+@class _MRTextEditingAttributesProtobuf;
 
 @interface _MRKeyboardMessageProtobuf
 {
     _MRTextEditingAttributesProtobuf *_attributes;
-    NSData *_encryptedTextCyphertext;
-    int _state;
-    CDStruct_5accba53 _has;
 }
 
 - (void);
@@ -32,18 +29,13 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)1;
+- (void)setTestRequestOptions:(id)arg1;
+- (id)xt(SubsystemSupport) audioDeviceIdentifier];
 - (void)_notifyDelegateOfUpdatedPlayerLastPlayingDate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) _MRTextEditingAttributesProtobuf *attributes; // @synthesize attributes=_attributes;
-@property(retain, nonatomic) NSData *encryptedTextCyphertext; // @synthesize encryptedTextCyphertext=_encryptedTextCyphertext;
-@property(readonly, nonatomic) _Bool hasAttributes;
-@property(readonly, nonatomic) _Bool hasEncryptedTextCyphertext;
 @property(nonatomic) _Bool hasState;
-@property(nonatomic) int state; // @synthesize state=_state;
 
 @end
 

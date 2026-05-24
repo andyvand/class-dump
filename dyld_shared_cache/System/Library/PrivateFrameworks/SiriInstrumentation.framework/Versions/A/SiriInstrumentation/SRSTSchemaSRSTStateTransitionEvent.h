@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SRSTSchemaSRSTStateTransitionEvent : SISchemaInstrumentationMessage
 {
     int _currentState;
-    int _previousState;
-    int _reason;
-    struct {
-        unsigned int currentState:1;
-        unsigned int previousState:1;
-        unsigned int reason:1;
-    } _has;
 }
 
 - (void);
@@ -28,31 +19,25 @@
 - (void);
 - (_Bool);
 - (id);
-- (int);
+- (int)_recordStylesheetStatement;
 - (_Bool);
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (int);
-- (_Bool);
+- (void);
+- (unsigned long long)removeMetricsForBadgeIDs:replyHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)_SGSuggestionsServiceMetricsProtocol;
+- (int)setRadarIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool)handledNicknamesStore;
 - (void);
 - (id);
 - (id);
-- (void)engthInCharactersWhenCompleted;
-- (int)AssetBringUpErrorDomain;
-- (id)MaxNumContinuousZerosOverThreshold;
-- (id)on;
-- (void)IONTYPE_START;
+- (void)userPayloadLengthInCharactersWhenCompleted;
+- (int)hasAssetBringUpErrorDomain;
+- (id)deleteIsMaxNumContinuousZerosOverThreshold;
+- (id)_hasMetricDuration;
+- (void)PSEAPPINTENTFOLLOWUPACTIONTYPE_START;
 
 // Remaining properties
 @property(nonatomic) int currentState; // @synthesize currentState=_currentState;
-@property(nonatomic) _Bool hasCurrentState;
-@property(nonatomic) _Bool hasPreviousState;
-@property(nonatomic) _Bool hasReason;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int previousState; // @synthesize previousState=_previousState;
-@property(nonatomic) int reason; // @synthesize reason=_reason;
 
 @end
 

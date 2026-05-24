@@ -10,11 +10,11 @@
 {
 }
 
-+ (id);
++ (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)hasItemConformingToTypeIdentifier: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

@@ -11,10 +11,10 @@
 }
 
 + (Class);
-+ (id);
-+ (void);
++ (id)___UIButtonBarButtonVisualProviderIOSAccessibility_super;
++ (void)AXIsSoftwareMimicKeyboardAttribute;
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 
 @end
 

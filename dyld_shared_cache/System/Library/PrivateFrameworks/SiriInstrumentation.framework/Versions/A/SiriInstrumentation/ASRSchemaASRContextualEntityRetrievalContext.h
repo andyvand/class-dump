@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class ASRSchemaASRContextualEntityRetrievalEnded, ASRSchemaASRContextualEntityRetrievalStarted, NSData;
+@class ASRSchemaASRContextualEntityRetrievalStarted;
 
 @interface ASRSchemaASRContextualEntityRetrievalContext : SISchemaInstrumentationMessage
 {
     ASRSchemaASRContextualEntityRetrievalStarted *_startedOrChanged;
-    ASRSchemaASRContextualEntityRetrievalEnded *_ended;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -25,28 +21,23 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)16@24;
+- (void)webView:(id)arg1 didStartProvisionalLoadForFrame: /* Error: Ran out of types for this method. */;
+- (id)6;
+- (id)getEphemerisURL:(id)arg1;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)A;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)eoPlayOnThirdPartyAppGroundTruthGenerated: /* Error: Ran out of types for this method. */;
+- (id)setVideoPlayOnThirdPartyAppGroundTruthGenerated: /* Error: Ran out of types for this method. */;
 - (id)ï;
 - (id);
 - (void)';
 
 // Remaining properties
-@property(retain, nonatomic) ASRSchemaASRContextualEntityRetrievalEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) ASRSchemaASRContextualEntityRetrievalStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

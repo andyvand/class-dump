@@ -7,12 +7,6 @@
 @interface NewsUI2.AudioPlaylistFeedAnimator.Plan.Item
 {
     id animation;
-    id kind;
-    id snapshot;
-    id startIndexPath;
-    id endIndexPath;
-    id startFrame;
-    id endFrame;
 }
 
 @end

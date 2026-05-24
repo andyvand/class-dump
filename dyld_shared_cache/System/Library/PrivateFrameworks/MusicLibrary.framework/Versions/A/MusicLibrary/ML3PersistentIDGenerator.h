@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ML3DatabaseConnection, NSString;
+@class ML3DatabaseConnection;
 
 @interface ML3PersistentIDGenerator
 {
     ML3DatabaseConnection *_connection;
-    NSString *_tableName;
-    long long _entityType;
-    long long _currentPersistentID;
-    long long _nextUsedPersistentID;
-    long long _maxPersistentID;
-    long long _minPersistentID;
 }
 
-- (long long);
-- (id);
-- (long long);
-- (void);
+- (long long)__originalUserFavoriteIndexes;
+- (id)_userOrientation;
+- (long long)",R,N,V_logPrefix;
+- (void)C,N,V_transactionToken;
 - (void)artwork_source_type) VALUES (?, ?, ?, ?, ?, ?);
 
 @end

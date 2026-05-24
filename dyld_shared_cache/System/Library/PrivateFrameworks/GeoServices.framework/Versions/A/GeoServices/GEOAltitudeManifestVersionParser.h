@@ -4,30 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOFlyoverRegionVersions, NSError, NSString, NSURL;
-
 __attribute__((visibility("hidden")))
 @interface GEOAltitudeManifestVersionParser
 {
     struct GEOOnce_s _parsed;
-    NSURL *_fileURL;
-    GEOFlyoverRegionVersions *_versions;
-    NSError *_parseError;
 }
 
 - (id);
-- (void):(id)arg1 callbackQueue:(id)arg2;
+- (void)_enumerateAllKeysOnQueueIncludingData:(id)arg1 dataHandler:(id)arg2 callbackQueue:(id)arg3;
 - (id)ÿÿ;
 - (void)Ü(ôþìê;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

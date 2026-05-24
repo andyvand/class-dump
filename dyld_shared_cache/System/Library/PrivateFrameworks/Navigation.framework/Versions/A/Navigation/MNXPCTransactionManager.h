@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSObject, geo_isolater;
+@class NSObject;
 @protocol OS_os_transaction;
 
 __attribute__((visibility("hidden")))
 @interface MNXPCTransactionManager
 {
     NSObject<OS_os_transaction> *_xpcTransaction;
-    NSHashTable *_requesters;
-    geo_isolater *_isolater;
 }
 
-+ (id)artTimedETAUpdates;
++ (id)startTimedETAUpdates;
 - (void);
 - (void);
-- (id);
+- (id)9;
 - (void)a!Dù1ð1Â0@ù
 × ;
 

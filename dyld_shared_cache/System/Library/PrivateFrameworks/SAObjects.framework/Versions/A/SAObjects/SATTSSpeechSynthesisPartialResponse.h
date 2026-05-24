@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class SATTSSpeechSynthesisAudioInfo, SAUIAudioData;
+@class SAUIAudioData;
 
 @interface SATTSSpeechSynthesisPartialResponse : SABaseClientBoundCommand
 {
@@ -26,8 +26,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SAUIAudioData *aceAudioData;
-@property(retain, nonatomic) SATTSSpeechSynthesisAudioInfo *aceAudioInfo;
-@property(nonatomic) long long currentPacketNumber;
 
 @end
 

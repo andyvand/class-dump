@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSObject, WFLoggerBase;
-@protocol OS_dispatch_queue;
+@class NSNumber, WFLoggerBase;
 
 @interface WFLogger
 {
     WFLoggerBase *_loggerBase;
-    unsigned long long _destination;
-    unsigned long long _privacy;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    unsigned char _wflRunningOnWatchClassDevice;
-    unsigned char _wflEnableDualLoggingOnWatchClassDevice;
 }
 
 + (id);
@@ -22,24 +16,19 @@
 - (id);
 - (void);
 - (id);
+- (unsigned long long)ceEngine",R,N,V_accountsDifferenceEngine;
+- (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (void);
-- (id);
-- (unsigned long long);
-- (unsigned long long);
+- (void)+;
+- (id)readCyclicLogFromVC:forCity:withError: /* Error: Ran out of types for this method. */;
+- (unsigned long long)*, CFTypeRef);
+- (unsigned long long);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, getter=getDestination) unsigned long long destination;
-@property(readonly, getter=getLogLevelEnable) unsigned long long logLevelEnable;
-@property(readonly, getter=getLogLevelPersist) unsigned long long logLevelPersist;
 @property(readonly, copy, getter=getLogLifespanInDays) NSNumber *logLifespanInDays;
-@property(readonly, getter=getLogPrivacy) unsigned long long logPrivacy;
-@property(readonly, getter=getMaxFileSizeInMB) unsigned long long maxFileSizeInMB;
 
 @end
 

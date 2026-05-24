@@ -6,7 +6,7 @@
 
 #import <WebInspector/RWIProtocolJSONObject.h>
 
-@class NSArray, RWIProtocolPageFrame;
+@class RWIProtocolPageFrame;
 
 @interface RWIProtocolPageFrameResourceTree : RWIProtocolJSONObject
 {
@@ -21,9 +21,7 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *childFrames;
 @property(retain, nonatomic) RWIProtocolPageFrame *frame;
-@property(copy, nonatomic) NSArray *resources;
 
 @end
 

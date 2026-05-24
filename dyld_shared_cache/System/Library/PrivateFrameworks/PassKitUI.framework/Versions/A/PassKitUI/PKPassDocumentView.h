@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKPassViewController;
-
 @interface PKPassDocumentView
 {
     _Bool _gestureInProgress;
-    PKPassViewController *_accessibilityPass;
 }
 
-- (void);
+- (void)m;
 - (void);
 - (_Bool);
 - (id);
@@ -22,7 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(retain) PKPassViewController *accessibilityPass; // @synthesize accessibilityPass=_accessibilityPass;
 @property _Bool gestureInProgress; // @synthesize gestureInProgress=_gestureInProgress;
 
 @end

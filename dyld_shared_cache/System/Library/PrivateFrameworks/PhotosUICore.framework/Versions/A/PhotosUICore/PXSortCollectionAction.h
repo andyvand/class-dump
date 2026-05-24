@@ -6,14 +6,9 @@
 
 #import <PhotosUICore/PXPhotosAction.h>
 
-@class PHCollection, PHFetchResult;
-
 @interface PXSortCollectionAction : PXPhotosAction
 {
     struct PXSortCollectionActionSortType _sortType;
-    PHCollection *_collection;
-    PHFetchResult *_originalCollectionContent;
-    struct PXSortCollectionActionSortType _originalSortType;
 }
 
 - (void);
@@ -29,9 +24,6 @@
 - (id)4EFE9365DB3CDF6996492F95ABEFLl7PreviewfMf0_15PreviewRegistryfMu_;
 
 // Remaining properties
-@property(readonly, nonatomic) PHCollection *collection; // @synthesize collection=_collection;
-@property(readonly, nonatomic) PHFetchResult *originalCollectionContent; // @synthesize originalCollectionContent=_originalCollectionContent;
-@property(readonly, nonatomic) struct PXSortCollectionActionSortType originalSortType; // @synthesize originalSortType=_originalSortType;
 @property(readonly, nonatomic) struct PXSortCollectionActionSortType sortType; // @synthesize sortType=_sortType;
 
 @end

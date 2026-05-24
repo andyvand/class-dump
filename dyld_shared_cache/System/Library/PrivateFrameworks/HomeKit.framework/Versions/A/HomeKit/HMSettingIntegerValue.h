@@ -17,7 +17,7 @@
 - (id);
 - (unsigned long long);
 - (long long);
-- (_Bool);
+- (_Bool)matchbox;
 - (id);
 - (id);
 

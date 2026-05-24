@@ -5,5 +5,6 @@
 //
 
 @protocol IMSpamFilterHelperProtocol
+- (_Bool)藁;
 @end
 

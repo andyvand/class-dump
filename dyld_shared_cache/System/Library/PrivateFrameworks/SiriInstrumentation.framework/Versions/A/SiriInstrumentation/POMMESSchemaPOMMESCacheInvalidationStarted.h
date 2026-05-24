@@ -6,32 +6,27 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface POMMESSchemaPOMMESCacheInvalidationStarted : SISchemaInstrumentationMessage
 {
     int _reason;
-    CDStruct_6555f803 _has;
 }
 
-- (id);
-- (int);
+- (id)";
+- (int)onnected notification.;
 - (_Bool);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)rencing *_legacy!;
 - (void);
 - (id);
 - (id);
-- (id)astOneHour;
+- (id)_numSelectedActionDisambiguationsLastOneHour;
 - (id)eryDecorationEventTime;
-- (void)EAKERDISTANCETYPE_ESTIMATION_INCOMPLETE;
+- (void)MHASVSPEAKERDISTANCETYPE_ESTIMATION_INCOMPLETE;
 
 // Remaining properties
-@property(nonatomic) _Bool hasReason;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int reason; // @synthesize reason=_reason;
 
 @end

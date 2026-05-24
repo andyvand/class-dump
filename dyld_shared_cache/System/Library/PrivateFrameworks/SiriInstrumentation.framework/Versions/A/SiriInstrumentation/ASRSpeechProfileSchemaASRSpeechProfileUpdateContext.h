@@ -6,22 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class ASRSpeechProfileSchemaASRSpeechProfileUpdateEnded, ASRSpeechProfileSchemaASRSpeechProfileUpdateFailed, ASRSpeechProfileSchemaASRSpeechProfileUpdateStarted, NSData;
+@class ASRSpeechProfileSchemaASRSpeechProfileUpdateStarted;
 
 @interface ASRSpeechProfileSchemaASRSpeechProfileUpdateContext : SISchemaInstrumentationMessage
 {
     ASRSpeechProfileSchemaASRSpeechProfileUpdateStarted *_startedOrChanged;
-    ASRSpeechProfileSchemaASRSpeechProfileUpdateEnded *_ended;
-    ASRSpeechProfileSchemaASRSpeechProfileUpdateFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
 - (id);
-- (void);
+- (void)";
 - (_Bool);
 - (void);
 - (void);
@@ -31,32 +25,25 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)legate>";
+- (id)vacuum failed;
+- (id)IAPAppAccessoryFirmwareRevisionKey;
+- (id)`;
 - (id);
 - (void);
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
-- (id)ded;
+- (id)wasAudioHintNeeded;
 - (id)	
 ;
 - (id);
 - (void)µ&;
 
 // Remaining properties
-@property(retain, nonatomic) ASRSpeechProfileSchemaASRSpeechProfileUpdateEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) ASRSpeechProfileSchemaASRSpeechProfileUpdateFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) ASRSpeechProfileSchemaASRSpeechProfileUpdateStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

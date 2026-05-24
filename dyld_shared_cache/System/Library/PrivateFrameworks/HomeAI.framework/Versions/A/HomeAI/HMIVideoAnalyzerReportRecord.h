@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface HMIVideoAnalyzerReportRecord
 {
     float _score;
-    NSString *_key;
-    unsigned long long _count;
-    NSArray *_frameResultIndices;
 }
 
 - (id);
@@ -20,14 +17,11 @@
 - (id);
 - (id);
 - (float);
-- (unsigned long long);
+- (unsigned long long)=;
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned long long count; // @synthesize count=_count;
-@property(readonly) NSArray *frameResultIndices; // @synthesize frameResultIndices=_frameResultIndices;
 @property(readonly) NSString *key; // @synthesize key=_key;
-@property(readonly) float score; // @synthesize score=_score;
 
 @end
 

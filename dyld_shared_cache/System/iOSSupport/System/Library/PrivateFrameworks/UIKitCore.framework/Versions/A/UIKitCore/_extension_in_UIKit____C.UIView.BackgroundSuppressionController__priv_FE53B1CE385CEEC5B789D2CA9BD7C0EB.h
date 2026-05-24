@@ -7,9 +7,6 @@
 @interface (extension in UIKit):__C.UIView.BackgroundSuppressionController__priv_FE53B1CE385CEEC5B789D2CA9BD7C0EB
 {
     id host;
-    id $__lazy_storage_$_assertionController;
-    id assertionID;
-    id numberOfAssertions;
 }
 
 - (id);

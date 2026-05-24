@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-@protocol NSCopying;
-
 @interface MPTiledArtworkRequest
 {
     struct os_unfair_lock_s _cacheLock;
-    NSArray *_artworkCatalogsCache;
-    long long _artworkCatalogsCacheCount;
-    _Bool _allowsSynchronousArtworkCatalogsBlockExecution;
-    CDUnknownBlockType _artworkCatalogsBlock;
-    unsigned long long _numberOfColumns;
-    unsigned long long _numberOfRows;
-    double _tileSpacing;
-    id <NSCopying> _entityIdentifier;
-    id <NSCopying> _namespaceIdentifier;
-    id <NSCopying> _revisionIdentifier;
 }
 
 - (double);
@@ -30,33 +17,26 @@
 - (id);
 - (CDUnknownBlockType);
 - (_Bool);
+- (void)monthP;
 - (void);
-- (void);
+- (id)TPClock pokeRemoteIPv6Destination:withDestinationAddress:] /* Error: Ran out of types for this method. */;
+- (void)uired in this case;
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (id)";
 - (void);
 - (void);
 - (id);
 - (unsigned long long)!¤Gù@Ð1Â0@ù
 × ;
-- (void)r;
+- (void)_artworkIdentifier;
 - (unsigned long long)Gðçcðçãøðçc{ðç£¼ðçcðçcSðçc¾ðç#ðç£4ðçãèðçcKðçãxðçãðçcÆðç#ðç£üðç£\ðçc;ðç£Oðçãpðç£/ðçã0ðç#]ðçãÕðçãHðç#*ðçcÎðç#ðçc.ðç£ðç#ðç#Êðçcþðçã½ðçcÛðç£ðçcFðçãðç#}ðçãÝðç#Jðç#Âðç£ðç#²ðçã]ðçc+ðçãuðçcðç#=ðçcðçcNðçãðç£ÿðçãØðçc^ðçãUðç#ðç£ðçc¦ðç£¬ðç#ðçã°ðçc«ðç£Ïðç£gðçc3ðç#ºðç#Mðçãµðçãðç£Tðçcãðç£ÌðçãÐðç#âðçcîðçcóðçcsðçc&ðç£tðç£_ðçãmðç#ðçãðçã-ðçcCðç#Ýðç£ðç£ðçcðç£ðçc6ðçãðçcðç#Bðçc[ðçã¸ðç#ðçc¢$>¢}$>®^$>®$>¢$>¢m$>®\$>®»$>R×$>R4$>^C$>^l$>R~$>R¬$>^$>^L$>¢$>¢6$>®Î$>®ê$>¢D$>¢r$>®Í$>®$>Ry$>R_$>^ª$>^¥$>R[$>Rì$>^;$>^©$>¢M$>¢S$>®$>®$>¢Û$>¢$>®/$>®I$>RÑ$>Rp$>^º$>^u$>R$>R:$>^k$>^$>¢K$>¢Þ$>®î$>®G$>¢	$>¢³$>®$>®%$>R§$>R.$>^w$>^¶$>R$>Ri$>^!$>^Á$>¢æ$>¢ô$>®J$>®$>¢$>¢5$>®$>®,$>R²$>Rß$>^t$>^$>Ró$>R£$>^¾$>^<$>¢e$>¢É$>®Q$>®v$>¢µ$>¢·$>®ù$>®­$>RZ$>R$>^¤$>^W$>Rf$>RÔ$>^H$>^0$>¢$>¢Ã$>®Ì$>®¸$>¢a$>¢$>®$>®$>R$>RX$>^$>^Ù$>R$>R$>^ç$>^ø$>¢*$>¢|$>®n$>®=$>¢Â$>¢7$>®$>®R$>R]$>R2$>^ÿ$>^d$>RO$>R $>^é$>^ý$>¢Ç$>¢Ë$>®ý$>®ú$>¢Ý$>¢â$>®É$>®$>RÊ$>Rb$>^Ñ$>^°$>Rô$>R$>^ã$>^$>¢$>¢($>®ª$>®Ä$>¢&$>¢{$>®$>®k$>R$>R©$>^Û$>^á$>Rð$>R¸$>^!$>^×$>¢T$>¢±$>®8$>®$>¢~$>¢"$>®'$>®$>RÆ$>R$>^$>^G$>R%$>RÜ$>^,$>^i$>¢$>¢D$>®0$>®Ô$>¢$>¢$>®§$>®)$>Ré$>R¾$>^X$>^®$>Rñ$>R$>^Ò$>^å$>¢$>¢?$>®Î$>®$>¢r$>¢z$>®$>®W$>RÓ$>Rà$>^2$>^Å$>R
 $>Rp$>^C$>^ö$>¢µ$>¢$>®÷$>®A$>¢a$>¢î$>®@$>®$>R$>R$>^Ù$>^$>R$>RÁ$>^¯$>^>$>¢$>¢$>®ä$>®ê$>¢y$>¢ó$>®U$>®$>R#$>R½$>^£$>^$>Rÿ$>R $>^*$>^$>¢û$>¢$>®n$>®O$>¢$>¢$>®$>®$>Rì$>R$>^$>^9$>Rc$>Rf$>^Q$>^¼$>GÕçuiûÉ[{éÛIUÇõgÄVdöêxJØøjXÊÖDvä,¾¢0°">¬¯=!³3¡½/»)5§'µ	©;
 8ª¶$¤6*¸ÐBpâþl^Ìì~LÞÂPbðSÁóa}ïÝOoýÏ]AÓásñcQÃßMíÍ_mÿãqCÑràÒ@\ÎünNÜî|`òÀR:¨´&¦4(º¹+7¥%·«9­?#±1£¿-.¼ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsSynchronousArtworkCatalogsBlockExecution; // @synthesize allowsSynchronousArtworkCatalogsBlockExecution=_allowsSynchronousArtworkCatalogsBlockExecution;
 @property(copy, nonatomic) CDUnknownBlockType artworkCatalogsBlock; // @synthesize artworkCatalogsBlock=_artworkCatalogsBlock;
-@property(copy, nonatomic) id <NSCopying> entityIdentifier; // @synthesize entityIdentifier=_entityIdentifier;
-@property(copy, nonatomic) id <NSCopying> namespaceIdentifier; // @synthesize namespaceIdentifier=_namespaceIdentifier;
-@property(nonatomic) unsigned long long numberOfColumns; // @synthesize numberOfColumns=_numberOfColumns;
-@property(nonatomic) unsigned long long numberOfRows; // @synthesize numberOfRows=_numberOfRows;
-@property(copy, nonatomic) id <NSCopying> revisionIdentifier; // @synthesize revisionIdentifier=_revisionIdentifier;
-@property(nonatomic) double tileSpacing; // @synthesize tileSpacing=_tileSpacing;
 
 @end
 

@@ -11,12 +11,12 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)set_xpcActivityBudgeted:(id)arg1;
+- (_Bool)set_DuetActivityProperties: /* Error: Ran out of types for this method. */;
+- (id)setDefaultTimeoutInterval: /* Error: Ran out of types for this method. */;
+- (id)setDefaultCredential:forProtectionSpace: /* Error: Ran out of types for this method. */;
+- (id)setBoundInterfaceIdentifier: /* Error: Ran out of types for this method. */;
+- (void);
 
 @end
 

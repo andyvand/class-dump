@@ -9,7 +9,7 @@
 }
 
 - (id);
-- (id);
+- (id)unarchiveIntoContentContext: /* Error: Ran out of types for this method. */;
 
 @end
 

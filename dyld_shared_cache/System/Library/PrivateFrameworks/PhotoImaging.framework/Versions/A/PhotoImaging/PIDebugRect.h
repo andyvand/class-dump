@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIColor, NSString;
+@class CIColor;
 
 @interface PIDebugRect
 {
     CIColor *_color;
-    NSString *_label;
-    struct CGRect _geometry;
 }
 
 + (id);
@@ -37,12 +35,10 @@
 - (id);
 - (id);
 - (struct CGRect);
-- (void)sVideoComposition;
+- (void)requiresVideoComposition;
 
 // Remaining properties
-@property(readonly, nonatomic) CIColor *color; // @synthesize color=_color;
 @property(readonly, nonatomic) struct CGRect geometry; // @synthesize geometry=_geometry;
-@property(readonly, copy, nonatomic) NSString *label; // @synthesize label=_label;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol NSCoding
+- (void)s the input data disappeared! the input stream has closed.;
 @end
 

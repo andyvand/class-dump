@@ -11,9 +11,9 @@
     id options;
 }
 
-- (id);
+- (id);
 - (void);
-- (id)ewControllerAllowsPropertyChange;
+- (id)_splitViewControllerAllowsPropertyChange;
 - (void)`;
 
 @end

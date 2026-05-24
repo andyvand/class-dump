@@ -7,11 +7,11 @@
 @class NSData, NSString;
 
 @protocol _SFPBOpenCoreSpotlightItemCommand
+- (NSString *)rd-manager.generated-passwords.testing;
+- (NSString *)firstMatchInString:options:range: /* Error: Ran out of types for this method. */;
+- (NSData *)results;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *actionIdentifier;
-@property(copy, nonatomic) NSString *applicationBundleIdentifier;
 @property(copy, nonatomic) NSString *coreSpotlightIdentifier;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

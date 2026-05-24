@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMenuItem, NSPopUpButton, UserNotificationPolicyData;
+@class NSPopUpButton, UserNotificationPolicyData;
 
 __attribute__((visibility("hidden")))
 @interface UserNotificationPreferenceTableCellView
 {
     UserNotificationPolicyData *_data;
-    NSPopUpButton *_policyPopUpButton;
-    NSMenuItem *_allowMenuItem;
-    NSMenuItem *_denyMenuItem;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)Rh;
 - (id);
 - (id);
 - (int);
@@ -29,9 +26,6 @@ __attribute__((visibility("hidden")))
 - (void)¤;
 
 // Remaining properties
-@property(nonatomic) __weak NSMenuItem *allowMenuItem; // @synthesize allowMenuItem=_allowMenuItem;
-@property(retain, nonatomic) UserNotificationPolicyData *data; // @synthesize data=_data;
-@property(nonatomic) __weak NSMenuItem *denyMenuItem; // @synthesize denyMenuItem=_denyMenuItem;
 @property(nonatomic) __weak NSPopUpButton *policyPopUpButton; // @synthesize policyPopUpButton=_policyPopUpButton;
 
 @end

@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface GSDocumentIdentifier
 {
     unsigned char volumeUUID[16];
-    unsigned long long documentID;
-    int deviceID;
 }
 
 + (_Bool);
@@ -17,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)_nonNilDictionaryForProperty: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);

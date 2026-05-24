@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASDServiceBroker, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class ASDServiceBroker;
 
 @interface ASDUpdatesService
 {
     ASDServiceBroker *_serviceBroker;
-    NSObject<OS_dispatch_queue> *_accessQueue;
-    NSObject<OS_dispatch_queue> *_calloutQueue;
-    int _storeChangedNotificationToken;
 }
 
 + (id);
@@ -24,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)`;
 - (void);
 - (void);
 - (void);
@@ -35,17 +31,11 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

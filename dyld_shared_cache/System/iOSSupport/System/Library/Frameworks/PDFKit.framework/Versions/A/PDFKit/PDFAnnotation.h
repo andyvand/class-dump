@@ -4,76 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRNormalizedQuad, NSArray, NSDate, NSDictionary, NSIndexSet, NSLock, NSMutableDictionary, NSString, NSURL, NSUUID, PDFAKAnnotationAdaptor, PDFAccessibilityNode, PDFAction, PDFBorder, PDFDestination, PDFPage, UIColor, UIFont;
-@protocol NSCopying;
+@class UIFont;
 
 @interface PDFAnnotation
 {
     _Bool _loggingEnabled;
-    _Bool _shouldExport;
-    PDFPage *_page;
-    struct CGPDFDictionary *_sourceDictionary;
-    struct __CFDictionary *_dictionaryRef;
-    NSUUID *_pdfAnnotationUUID;
-    struct CGPDFAnnotation *_cgAnnotation;
-    NSMutableDictionary *_PDFAnnotationDictionary;
-    NSDictionary *_PDFAnnotationKeyMapping;
-    NSMutableDictionary *_internalPDFAnnotationDictionary;
-    struct CGPDFForm *_normalAppearance;
-    struct CGPDFForm *_rolloverAppearance;
-    struct CGPDFForm *_downAppearance;
-    struct CGPDFForm *_normalOffAppearance;
-    struct CGPDFForm *_rolloverOffAppearance;
-    struct CGPDFForm *_downOffAppearance;
-    _Bool _saveAppearance;
-    struct os_unfair_lock_s _cachedAppearancesLock;
-    NSMutableDictionary *_cachedAppearances;
-    _Bool _isSelected;
-    _Bool _isHighlighted;
-    NSIndexSet *_quadPointsIndexSet;
-    struct CGPath *_quadPointsPath;
-    PDFAnnotation *_parent;
-    PDFAnnotation *_popup;
-    struct CGPDFDictionary *_popupDictionary;
-    _Bool _popupDrawCloseWidget;
-    _Bool _popupDrawText;
-    struct CGPath **_cgPaths;
-    NSLock *_pathLock;
-    _Bool _isSignatureWidget;
-    _Bool _shouldBurnIn;
-    id _signatureAnnotationForRendering;
-    NSString *_widgetOnStateString;
-    id _control;
-    _Bool _pointerIsOverAnnotation;
-    _Bool _shouldHideInteractiveBackgroundColor;
-    NSString *_autoFillTextContentType;
-    unsigned long long _formContentType;
-    unsigned long long _autofillEntryType;
-    NSString *_labelText;
-    _Bool _isDetectedCheckbox;
-    _Bool _isDetectedSignature;
-    _Bool _shouldReportAnalytics;
-    _Bool _isAutofillNewContextStart;
-    _Bool _suppressAppearanceStreamText;
-    double _suggestedLineHeight;
-    _Bool _restoreLinePoints;
-    _Bool _restoreQuadPoints;
-    struct CGPoint _startPoint;
-    struct CGPoint _endPoint;
-    NSArray *_quadPoints;
-    _Bool _isTransparent;
-    PDFAccessibilityNode *_accessibilityNode;
-    double _scaleFactor;
-    _Bool _isFullyConstructed;
-    _Bool _constructingDictionaryRef;
-    PDFAKAnnotationAdaptor *_akAnnotationAdaptor;
-    id <NSCopying> _akAnnotationForCopying;
 }
 
 + (void);
 + (id);
 + (id);
-+ (long long);
++ (long long)!;
 + (id);
 + (double);
 + (id);
@@ -97,11 +38,11 @@
 + (id);
 + (id);
 + (id);
++ (id)B;
 + (id);
-+ (id);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (void);
 - (void);
 - (id);
@@ -114,23 +55,10 @@
 - (struct CGPDFDictionary *);
 - (_Bool);
 - (_Bool);
+- (_Bool)˩C;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
@@ -149,6 +77,7 @@
 - (void);
 - (void);
 - (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -162,6 +91,18 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -190,7 +131,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (double);
+- (double);
 - (id);
 - (id);
 - (_Bool);
@@ -222,7 +163,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)7;
 - (id);
 - (id);
 - (id);
@@ -247,7 +188,7 @@
 - (void);
 - (struct __CFDictionary *);
 - (struct __CFDictionary *);
-- (void);
+- (void)@;
 - (id);
 - (id);
 - (id);
@@ -281,7 +222,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)?;
 - (void);
 - (void);
 - (void);
@@ -295,7 +236,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -311,7 +252,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
@@ -325,7 +266,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (struct CGRect);
+- (struct CGRect)I;
 - (void);
 - (void);
 - (void);
@@ -333,7 +274,7 @@
 - (id);
 - (CDStruct_e3b9714e);
 - (_Bool);
-- (_Bool);
+- (_Bool)T;
 - (_Bool);
 - (void);
 - (id);
@@ -359,46 +300,46 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
-- (id);
-- (long long);
-- (id);
+- (unsigned long long)enumeratorAtURL:includingPropertiesForKeys:options:errorHandler: /* Error: Ran out of types for this method. */;
+- (id)ocation.;
+- (long long)ng prediction for requesting location.;
+- (id)loc;
 - (void);
-- (void);
-- (long long);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)&;
 - (long long);
 - (_Bool);
+- (id);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (id)l7;
+- (void);
+- (id)remoteUsePhoneContinuityLocalMessage;
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (long long)`;
+- (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
-- (struct CGPoint);
+- (struct CGPoint)B;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -410,7 +351,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)onymous namespace):(id)arg1:PKMetalShaderKey, PKMetalShader *>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -422,8 +363,8 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)l:(id)arg1 associatedDomainsManager: /* Error: Ran out of types for this method. */;
+- (void)e=}16@0:(id)arg1 8;
 - (_Bool);
 - (unsigned long long);
 - (void);
@@ -433,7 +374,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)@;
 - (void);
 - (id);
 - (void);
@@ -442,24 +383,24 @@
 - (id);
 - (void);
 - (double);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)?;
 - (void);
 - (id);
+- (id);
+- (id)$;
+- (void);
+- (id)a;
 - (void);
 - (void);
 - (void);
 - (struct CGPoint);
 - (void);
-- (unsigned long long);
+- (unsigned long long)_baselineOffsetFromBottom;
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)__TEXT;
 - (id)0@ù
 × ;
 - (id)0@ù
@@ -467,99 +408,13 @@
 - (id)nDelta"d};
 - (void)ndererOptions"16;
 - (void)t="__sig"q"__opaque"[56c]}};
-- (id)le:inRect:onOverlayAtPageIndex:forAnnotationController: /* Error: Ran out of types for this method. */;
-- (long long)rstate;
+- (id)newContentSnapshotPDFDataIncludingAdornments:atScale:inRect:onOverlayAtPageIndex:forAnnotationController: /* Error: Ran out of types for this method. */;
+- (long long)_rstate;
 - (_Bool)ons.;
 - (unsigned long long)ÿÿü},{;
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *URL;
-@property(retain, nonatomic) PDFAction *action;
-@property(readonly, getter=isActivatableTextField) _Bool activatableTextField;
-@property(nonatomic) long long alignment;
-@property(nonatomic) _Bool allowsToggleToOff;
-@property(readonly, copy, nonatomic) NSDictionary *annotationKeyValues;
-@property _Bool autofillNewContextStart;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?
-
-@property(copy, nonatomic) UIColor *backgroundColor;
-@property(retain, nonatomic) PDFBorder *border;
-@property(readonly) CRNormalizedQuad *boundingQuad;
-@property(nonatomic) struct CGRect bounds;
-@property(nonatomic) long long buttonWidgetState;
-@property(copy, nonatomic) NSString *buttonWidgetStateString;
-@property(copy, nonatomic) NSString *caption;
-@property(copy, nonatomic) NSArray *choices;
-@property(copy, nonatomic) UIColor *color;
-@property(nonatomic, getter=hasComb) _Bool comb;
-@property(copy, nonatomic) NSString *contents;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) PDFDestination *destination;
-@property(nonatomic) long long endLineStyle;
-@property(nonatomic) struct CGPoint endPoint;
-@property(copy, nonatomic) NSString *fieldName;
-@property(readonly) unsigned long long fieldSource;
-@property(readonly) unsigned long long fieldType;
-@property(readonly, copy) NSString *fieldValue;
 @property(copy, nonatomic) UIFont *font;
-@property(copy, nonatomic) UIColor *fontColor;
-@property(readonly, nonatomic) _Bool hasAppearanceStream;
-@property(readonly) _Bool hasBoundedHeight;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) _Bool hasBoundedWidth;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isHighlighted) _Bool highlighted;
-@property(nonatomic) long long iconType;
-@property(copy, nonatomic) UIColor *interiorColor;
-@property(readonly, nonatomic) _Bool isPasswordField;
-@property(readonly) unsigned long long layoutDirection;
-@property(nonatomic, getter=isListChoice) _Bool listChoice;
-@property(nonatomic) long long markupType;
-@property(readonly) unsigned long long maxCharacterCount;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R
-
-@property(nonatomic) long long maximumLength;
-@property(copy, nonatomic) NSDate *modificationDate;
-@property(nonatomic, getter=isMultiline) _Bool multiline;
-@property(nonatomic, getter=isOpen) _Bool open;
-@property(nonatomic) __weak PDFPage *page;
-@property(readonly, nonatomic) NSArray *paths;
-@property(retain, nonatomic) PDFAnnotation *popup;
-@property(copy, nonatomic) NSArray *quadrilateralPoints;
-@property(nonatomic) _Bool radiosInUnison;
-@property(nonatomic, getter=isReadOnly) _Bool readOnly;
-@property(nonatomic) _Bool shouldDisplay; // @dynamic shouldDisplay;
-@property(nonatomic) _Bool shouldPrint; // @dynamic shouldPrint;
-@property(copy, nonatomic) NSString *stampName;
-@property(nonatomic) long long startLineStyle;
-@property(nonatomic) struct CGPoint startPoint;
-@property double suggestedLineHeight;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?
-
-@property(readonly) Class superclass;
-@property unsigned long long textContentType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?
-
-@property(copy, nonatomic) NSString *type;
-@property(copy, nonatomic) NSString *userName;
-@property(copy, nonatomic) NSArray *values;
-@property(nonatomic) long long widgetControlType;
-@property(copy, nonatomic) NSString *widgetDefaultStringValue;
-@property(copy, nonatomic) NSString *widgetFieldType;
-@property(copy, nonatomic) NSString *widgetStringValue;
 
 @end
 

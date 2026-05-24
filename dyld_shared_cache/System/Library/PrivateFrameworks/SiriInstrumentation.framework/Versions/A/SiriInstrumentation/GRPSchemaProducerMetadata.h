@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class GRPSchemaTrialExperimentIdentifiers, NSData;
+@class GRPSchemaTrialExperimentIdentifiers;
 
 @interface GRPSchemaProducerMetadata : SISchemaTopLevelUnionType
 {
     GRPSchemaTrialExperimentIdentifiers *_trialExperiment;
-    _Bool _hasTrialExperiment;
 }
 
 - (void);
@@ -19,23 +18,21 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (int);
+- (id);
+- (int)String",C,V_name;
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)tonePickerController:identifierOfMediaItemAtIndex: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)Session-HandlesQueue;
 - (id)SISchemaHardwareButtonInvocationContext";
-- (id);
-- (id)edTokens;
+- (id)hasUsecase;
+- (id)correctedTokens;
 - (id)l,;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasTrialExperiment; // @synthesize hasTrialExperiment=_hasTrialExperiment;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) GRPSchemaTrialExperimentIdentifiers *trialExperiment; // @synthesize trialExperiment=_trialExperiment;
 
 @end

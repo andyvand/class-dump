@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface KeychainEncryptionProvider
 {
     NSString *_keychainLabel;
-    NSData *_encryptionKey;
-    NSObject<OS_dispatch_queue> *_internalQueue;
 }
 
 - (id);

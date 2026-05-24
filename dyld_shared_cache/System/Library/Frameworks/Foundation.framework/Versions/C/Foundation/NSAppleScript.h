@@ -9,9 +9,6 @@
 @interface NSAppleScript
 {
     NSString *_source;
-    unsigned int _compiledScriptID;
-    void *_reserved1;
-    void *_reserved2;
 }
 
 @end

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSString;
+@class CLLocation;
 
 @interface INRestaurant
 {
     CLLocation *_location;
-    NSString *_name;
-    NSString *_vendorIdentifier;
-    NSString *_restaurantIdentifier;
 }
 
 + (_Bool);
@@ -20,33 +17,24 @@
 - (id);
 - (_Bool);
 - (id);
+- (id)initVibrationWithStartPosition:(id)arg1 amplitude:frequency: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
+- (id)ault crypto engine '%s' failed;
+- (id)ndThrottleUnit IOBSDNameMatching failed
+;
+- (_Bool)isEqualToXPCEvent:(id)arg1;
+- (void)ng post TD accounting with stop RSSI[%ld] boundary time %ld initial data stats inBytes[%@] outBytes[%@] inPackets[%@] outPackets[%@];
+- (id)6;
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id)OfChildren: /* Error: Ran out of types for this method. */;
-- (void):(id)arg1;
-- (id)OfType:(unsigned long long)arg1 completion: /* Error: Ran out of types for this method. */;
-- (void)tionsForSetTaskAttribute:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (id)setNumberOfChildren: /* Error: Ran out of types for this method. */;
+- (void)resolveLocationForCreateEvent:(id)arg1 withCompletion: /* Error: Ran out of types for this method. */;
+- (id)determineIfBundleID:(unsigned long long)arg1 canProvideVocabularyOfType:completion: /* Error: Ran out of types for this method. */;
+- (void)provideTaskTitleOptionsForSetTaskAttribute:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy) CLLocation *location; // @synthesize location=_location;
-@property(copy) NSString *name; // @synthesize name=_name;
-@property(copy) NSString *restaurantIdentifier; // @synthesize restaurantIdentifier=_restaurantIdentifier;
-@property(readonly) Class superclass;
-@property(copy) NSString *vendorIdentifier; // @synthesize vendorIdentifier=_vendorIdentifier;
 
 @end
 

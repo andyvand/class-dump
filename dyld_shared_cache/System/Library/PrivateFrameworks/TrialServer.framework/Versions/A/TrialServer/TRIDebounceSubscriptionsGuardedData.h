@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject;
+@class NSObject;
 @protocol OS_dispatch_source;
 
 @interface TRIDebounceSubscriptionsGuardedData
 {
     NSObject<OS_dispatch_source> *debounceTimer;
-    NSMutableSet *queuedSubscriptions;
 }
 
 - (void)×°!¼Bù1!ð1Â0@ù

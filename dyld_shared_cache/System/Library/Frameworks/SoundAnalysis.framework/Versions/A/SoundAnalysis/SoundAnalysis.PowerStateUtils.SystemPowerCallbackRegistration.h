@@ -7,7 +7,6 @@
 @interface SoundAnalysis.PowerStateUtils.SystemPowerCallbackRegistration
 {
     id id;
-    id value;
 }
 
 @end

@@ -4,31 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor;
-
 __attribute__((visibility("hidden")))
 @interface NANowPlayingTimeControl
 {
     id slider;
-    id elapsedTimeLabel;
-    id remainingTimeLabel;
-    id scrubbingDidChangeHandler;
-    void timeDidChangeHandler;
-    UIColor *elapsedTrackColor;
-    UIColor *remainingTrackColor;
-    UIColor *trackingTrackColor;
-    UIColor *timeLabelTextColor;
-    UIColor *timeLabelTrackingTextColor;
-    id _tracking;
-    id durationSnapshot;
-    id backgroundObserver;
-    id foregroundObserver;
-    id displayLink;
-    id isBackgrounded;
-    id timeFormatter;
-    id accessibilityTimeFormatter;
-    id $__lazy_storage_$_elapsedTimeLabelBaselineConstraint;
-    id $__lazy_storage_$_remainingTimeLabelBaselineConstraint;
 }
 
 - (id);
@@ -49,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)?;
 - (void);
 - (id);
 - (_Bool);
@@ -60,23 +39,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
-- (double);
+- (void)ription,NewsSubscriptionTests,NewsAnalytics,NewsAnalyticsTests,NewsPersonalization,NewsPersonalizationTests,NewsTag,NewsToday2,NewsArticles,NewsArticlesTests,NewsFeed,NewsFeedTests,Stocks,StocksAnalytics,StocksAnalyticsTests,StocksCore,StocksCoreTests,StocksTests,StocksToday,StocksUI,StocksUITests,NewsSubscription,StocksPersonalization,XavierCore,XavierCoreTests,XavierNews,XavierNewsTests;
+- (double)P;
 - (void)ëÿÿÿÿÿÌ;
-- (void)se;
+- (void)pause;
 
 // Remaining properties
-@property(nonatomic) struct CGPoint accessibilityActivationPoint;
-@property(nonatomic, copy) NSString *accessibilityValue;
-@property(nonatomic) double alpha;
-@property(nonatomic, retain) UIColor *elapsedTrackColor; // @synthesize elapsedTrackColor;
-@property(nonatomic) _Bool enabled;
-@property(nonatomic) _Bool hidden;
-@property(nonatomic, retain) UIColor *remainingTrackColor; // @synthesize remainingTrackColor;
 @property(nonatomic, copy) CDUnknownBlockType timeDidChangeHandler;
-@property(nonatomic, retain) UIColor *timeLabelTextColor; // @synthesize timeLabelTextColor;
-@property(nonatomic, retain) UIColor *timeLabelTrackingTextColor; // @synthesize timeLabelTrackingTextColor;
-@property(nonatomic, retain) UIColor *trackingTrackColor; // @synthesize trackingTrackColor;
 
 @end
 

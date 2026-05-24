@@ -7,12 +7,9 @@
 @interface CTLazuliEncryptionCapabilities
 {
     _Bool _carrierSupport;
-    _Bool _showSwitch;
-    _Bool _canSetSwitch;
-    _Bool _switchState;
 }
 
-+ (_Bool);
++ (_Bool)vents:%@ mediaSegmentRequestEvents:%@ contentKeyRequestEvents:%@> /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -26,14 +23,11 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)AD900410Properties;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool canSetSwitch; // @synthesize canSetSwitch=_canSetSwitch;
 @property(nonatomic) _Bool carrierSupport; // @synthesize carrierSupport=_carrierSupport;
-@property(nonatomic) _Bool showSwitch; // @synthesize showSwitch=_showSwitch;
-@property(nonatomic) _Bool switchState; // @synthesize switchState=_switchState;
 
 @end
 

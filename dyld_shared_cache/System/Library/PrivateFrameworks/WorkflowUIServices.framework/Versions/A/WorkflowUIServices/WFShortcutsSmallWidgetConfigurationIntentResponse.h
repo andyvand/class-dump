@@ -10,9 +10,9 @@ __attribute__((visibility("hidden")))
     long long _code;
 }
 
-- (id);
+- (id)J{;
 - (long long);
-- (void);
+- (void)initWithTime:(long long)arg1 tag:unit:attributes:values:length:valueSize: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property long long code; // @synthesize code=_code;

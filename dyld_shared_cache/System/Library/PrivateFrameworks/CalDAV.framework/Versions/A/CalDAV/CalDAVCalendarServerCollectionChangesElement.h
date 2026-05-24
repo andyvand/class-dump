@@ -9,8 +9,6 @@
 @interface CalDAVCalendarServerCollectionChangesElement : CalDAVCalendarServerResourceChangeElement
 {
     long long _created;
-    long long _updated;
-    long long _deleted;
 }
 
 - (long long);
@@ -18,8 +16,9 @@
 - (void);
 - (void);
 - (long long);
-- (id);
-- (id);
+- (id)
+H;
+- (id)charge_duration_p_0_75_at_charge_start_secs_curr_dynamic_bin_4;
 - (void);
 - (void);
 - (void);
@@ -27,8 +26,6 @@
 
 // Remaining properties
 @property(nonatomic) long long created; // @synthesize created=_created;
-@property(nonatomic) long long deleted; // @synthesize deleted=_deleted;
-@property(nonatomic) long long updated; // @synthesize updated=_updated;
 
 @end
 

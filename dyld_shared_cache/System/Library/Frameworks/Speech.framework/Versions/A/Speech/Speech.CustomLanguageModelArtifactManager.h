@@ -7,7 +7,6 @@
 @interface Speech.CustomLanguageModelArtifactManager
 {
     id artifactURL;
-    id configURL;
 }
 
 @end

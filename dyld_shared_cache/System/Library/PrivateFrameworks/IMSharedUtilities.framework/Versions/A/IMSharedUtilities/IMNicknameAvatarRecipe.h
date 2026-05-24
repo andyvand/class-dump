@@ -14,7 +14,7 @@
 }
 
 + (_Bool);
-- (void);
+- (void)R;
 - (_Bool);
 - (id);
 - (id);
@@ -25,7 +25,7 @@
 - (id);
 - (id);
 - (id);
-- (void)h;
+- (void)fallbackHash;
 
 // Remaining properties
 @property(copy, nonatomic) NSData *recipeData; // @synthesize recipeData=_recipeData;

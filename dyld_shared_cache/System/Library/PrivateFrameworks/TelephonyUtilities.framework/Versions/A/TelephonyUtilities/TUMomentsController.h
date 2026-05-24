@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue, TUMomentsControllerDataSource;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface TUMomentsController
 {
     NSObject<OS_dispatch_queue> *_queue;
-    id <TUMomentsControllerDataSource> _dataSource;
-    NSMutableDictionary *_capabilitiesByVideoStreamToken;
-    NSMutableDictionary *_providerByVideoStreamToken;
-    NSHashTable *_delegates;
-    CDUnknownBlockType _lockdownModeEnabled;
 }
 
 + (_Bool);
@@ -26,6 +21,21 @@
 + (_Bool);
 + (_Bool);
 + (id)isAvailable;
+- (void)7Rx;
+- (void);
+- (void);
+- (void)xn;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -36,22 +46,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -68,19 +63,7 @@
 - (void)stringByAddingURLEscapes;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *capabilitiesByVideoStreamToken; // @synthesize capabilitiesByVideoStreamToken=_capabilitiesByVideoStreamToken;
-@property(readonly, nonatomic) id <TUMomentsControllerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) NSHashTable *delegates; // @synthesize delegates=_delegates;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType lockdownModeEnabled; // @synthesize lockdownModeEnabled=_lockdownModeEnabled;
-@property(readonly, nonatomic) NSMutableDictionary *providerByVideoStreamToken; // @synthesize providerByVideoStreamToken=_providerByVideoStreamToken;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

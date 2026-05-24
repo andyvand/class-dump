@@ -12,7 +12,7 @@
 }
 
 + (id);
-- (id);
+- (id)`hpk;
 
 // Remaining properties
 @property(readonly) NSString *adjustmentType;

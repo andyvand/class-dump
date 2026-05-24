@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRLanguageCorrection, CRPerformanceStatistics, NSDictionary;
+@class CRPerformanceStatistics, NSDictionary;
 
 @interface CRLanguageCorrectionFacade
 {
     CRPerformanceStatistics *_languageCorrectionStats;
-    NSDictionary *_options;
-    long long _numberResultsNeeded;
-    CRLanguageCorrection *_languageCorrection;
 }
 
 + (id);
@@ -25,14 +22,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void)4d32@40@48;
 
 // Remaining properties
-@property(retain, nonatomic) CRLanguageCorrection *languageCorrection; // @synthesize languageCorrection=_languageCorrection;
-@property(retain, nonatomic) CRPerformanceStatistics *languageCorrectionStats; // @synthesize languageCorrectionStats=_languageCorrectionStats;
-@property(nonatomic) long long numberResultsNeeded; // @synthesize numberResultsNeeded=_numberResultsNeeded;
 @property(retain, nonatomic) NSDictionary *options; // @synthesize options=_options;
 
 @end

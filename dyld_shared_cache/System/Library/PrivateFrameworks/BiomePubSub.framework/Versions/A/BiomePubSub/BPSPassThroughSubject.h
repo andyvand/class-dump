@@ -6,38 +6,27 @@
 
 #import <BiomePubSub/BMBookmarkablePublisher.h>
 
-@class BPSCompletion, BPSSubscriberList, BPSSubscription, NSMutableArray, NSString;
-@protocol BPSSubscriber;
+@class NSMutableArray;
 
 @interface BPSPassThroughSubject : BMBookmarkablePublisher
 {
     struct os_unfair_lock_s _lock;
-    _Bool _hasAnyDownstreamDemand;
-    _Bool _active;
-    _Bool _complete;
-    NSMutableArray *_upstreamSubscriptions;
-    BPSCompletion *_completion;
-    BPSSubscriberList *_downstreams;
-    BPSSubscription *_sub;
-    id <BPSSubscriber> _subscriber;
-    NSMutableArray *_nextEvents;
-    struct os_unfair_recursive_lock_s _rlock;
 }
 
 + (id);
 - (void);
-- (void);
+- (void);
+- (id);
+- (void)@;
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)ލ;
+- (void)arrayByAddingObject:(id)arg1;
+- (id)setIsUnauthenticatedSession: /* Error: Ran out of types for this method. */;
 - (struct os_unfair_recursive_lock_s);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)setState:state: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -49,14 +38,14 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)es;
+- (void)lll;
 - (long long);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)satVTImplicitThreshold;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -68,26 +57,10 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool)or;
+- (_Bool)accumulator;
 - (void)ÿëÿÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool active; // @synthesize active=_active;
-@property(nonatomic) _Bool complete; // @synthesize complete=_complete;
-@property(retain, nonatomic) BPSCompletion *completion; // @synthesize completion=_completion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) BPSSubscriberList *downstreams; // @synthesize downstreams=_downstreams;
-@property(nonatomic) _Bool hasAnyDownstreamDemand; // @synthesize hasAnyDownstreamDemand=_hasAnyDownstreamDemand;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableArray *nextEvents; // @synthesize nextEvents=_nextEvents;
-@property(readonly, nonatomic) struct os_unfair_recursive_lock_s rlock; // @synthesize rlock=_rlock;
-@property(retain, nonatomic) BPSSubscription *sub; // @synthesize sub=_sub;
-@property(retain, nonatomic) id <BPSSubscriber> subscriber; // @synthesize subscriber=_subscriber;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSMutableArray *upstreamSubscriptions; // @synthesize upstreamSubscriptions=_upstreamSubscriptions;
 
 @end

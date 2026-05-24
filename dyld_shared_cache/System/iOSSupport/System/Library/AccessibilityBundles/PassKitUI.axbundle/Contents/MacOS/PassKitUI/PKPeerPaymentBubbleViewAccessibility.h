@@ -11,9 +11,9 @@
 }
 
 + (Class);
-+ (id);
-+ (void);
-- (id);
++ (id)_accessibilitySelectedTextRange;
++ (void)(;
+- (id);
 - (id);
 - (id);
 - (id);

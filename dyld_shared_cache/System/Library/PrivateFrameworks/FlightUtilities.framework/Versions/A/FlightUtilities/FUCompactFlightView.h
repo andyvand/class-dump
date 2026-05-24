@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
+- (id)o write event of size %zu. Attempting to create new segment;
 
 @end
 

@@ -9,9 +9,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
-+ (struct CGRect);
-+ (id);
++ (id)adcasting changes to the ignored list;
++ (struct CGRect)e %@ Error %@;
++ (id)*******;
 + (void);
 
 @end

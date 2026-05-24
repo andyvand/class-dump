@@ -6,26 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaISOLocale;
-
 @interface SIRISETUPSchemaSIRISETUPPHSEnrollmentUIUtteranceTrainingAttempted : SISchemaInstrumentationMessage
 {
     unsigned int _pageNumber;
-    int _enrollmentMode;
-    SISchemaISOLocale *_locale;
-    _Bool _isRetry;
-    int _trainingOutcome;
-    _Bool _wasAudioHintNeeded;
-    _Bool _wasAudioHintSpokenSuccessfully;
-    struct {
-        unsigned int pageNumber:1;
-        unsigned int enrollmentMode:1;
-        unsigned int isRetry:1;
-        unsigned int trainingOutcome:1;
-        unsigned int wasAudioHintNeeded:1;
-        unsigned int wasAudioHintSpokenSuccessfully:1;
-    } _has;
-    _Bool _hasLocale;
 }
 
 - (_Bool);
@@ -39,12 +22,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -64,33 +47,19 @@
 - (int);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)ng ASDPurchase with StoreKit service;
+- (_Bool)ACTION_NAME;
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)dule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id, m.index_state FROM message m JOIN chat_message_join AS cmj ON m.ROWID = cmj.message_id WHERE m.guid = ?;;
+- (id)syndication ranges for message:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id)clearVisualContextCategories;
 - (id)andonCountInUsingApp6Hrs;
-- (void)SiriCount6Hr;
+- (void)entityPartialSiriCount6Hr;
 
 // Remaining properties
-@property(nonatomic) int enrollmentMode; // @synthesize enrollmentMode=_enrollmentMode;
-@property(nonatomic) _Bool hasEnrollmentMode;
-@property(nonatomic) _Bool hasIsRetry;
-@property(nonatomic) _Bool hasLocale; // @synthesize hasLocale=_hasLocale;
-@property(nonatomic) _Bool hasPageNumber;
-@property(nonatomic) _Bool hasTrainingOutcome;
-@property(nonatomic) _Bool hasWasAudioHintNeeded;
-@property(nonatomic) _Bool hasWasAudioHintSpokenSuccessfully;
-@property(nonatomic) _Bool isRetry; // @synthesize isRetry=_isRetry;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaISOLocale *locale; // @synthesize locale=_locale;
 @property(nonatomic) unsigned int pageNumber; // @synthesize pageNumber=_pageNumber;
-@property(nonatomic) int trainingOutcome; // @synthesize trainingOutcome=_trainingOutcome;
-@property(nonatomic) _Bool wasAudioHintNeeded; // @synthesize wasAudioHintNeeded=_wasAudioHintNeeded;
-@property(nonatomic) _Bool wasAudioHintSpokenSuccessfully; // @synthesize wasAudioHintSpokenSuccessfully=_wasAudioHintSpokenSuccessfully;
 
 @end
 

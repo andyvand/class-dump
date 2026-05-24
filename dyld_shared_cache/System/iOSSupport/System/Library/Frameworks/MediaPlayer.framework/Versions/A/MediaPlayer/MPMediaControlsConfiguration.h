@@ -4,40 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSNumber, NSString;
+@class NSMutableArray;
 
 @interface MPMediaControlsConfiguration
 {
     _Bool _donatingAppEligible;
-    _Bool _shouldPreventAutorotation;
-    _Bool _allowsNowPlayingApplicationLaunch;
-    _Bool _sortByIsVideoRoute;
-    _Bool _useGenericDevicesIconInHeader;
-    int _presentingAppProcessIdentifier;
-    NSMutableArray *_customRows;
-    long long _style;
-    long long _initatorStyle;
-    long long _surface;
-    NSString *_routingContextUID;
-    NSString *_presentingAppBundleID;
-    NSString *_nowPlayingAppBundleID;
-    NSString *_donatingAppBundleID;
-    NSArray *_visibleMediaApps;
-    NSNumber *_userInterfaceStyle;
-    double _preferredWidth;
-    NSString *_routeUID;
-    unsigned long long _audioSessionID;
-    struct CGRect _sourceRect;
 }
 
 + (_Bool);
 - (id);
 - (long long);
 - (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
+- (_Bool)edStatusMessageAsURL;
+- (_Bool)N,V_chatItemsUpdater;
+- (void);
+- (id)IMHandleAvailabilityStateChangedNotification;
 - (_Bool);
 - (id);
 - (void);
@@ -47,8 +28,8 @@
 - (long long);
 - (void);
 - (long long);
-- (void);
-- (void);
+- (void)scoreTopics:(long long)arg1 scoringDate:decayRate:strictFiltering:sourceStats:decayedFeedbackCounts:streamingScorer:mlModel: /* Error: Ran out of types for this method. */;
+- (void)orCountsForItem:(double)arg1 %@;
 - (void);
 - (void);
 - (void);
@@ -68,37 +49,18 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)w;
+- (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void)ing",R,N,V_availableArtworkToken;
-- (id)rtyTVShowCreatorArtwork;
+- (id)MPModelPropertyTVShowCreatorArtwork;
 - (unsigned long long)r was missing mapping for MPModelPropertyPodcastEpisodeExplicit;
 - (void)instances didn't have a valid storeID.;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsNowPlayingApplicationLaunch; // @synthesize allowsNowPlayingApplicationLaunch=_allowsNowPlayingApplicationLaunch;
-@property(nonatomic) unsigned long long audioSessionID; // @synthesize audioSessionID=_audioSessionID;
 @property(copy, nonatomic) NSMutableArray *customRows; // @synthesize customRows=_customRows;
-@property(copy, nonatomic) NSString *donatingAppBundleID; // @synthesize donatingAppBundleID=_donatingAppBundleID;
-@property(nonatomic, getter=isDonatingAppEligible) _Bool donatingAppEligible; // @synthesize donatingAppEligible=_donatingAppEligible;
-@property(nonatomic) long long initatorStyle; // @synthesize initatorStyle=_initatorStyle;
-@property(copy, nonatomic) NSString *nowPlayingAppBundleID; // @synthesize nowPlayingAppBundleID=_nowPlayingAppBundleID;
-@property(nonatomic) double preferredWidth; // @synthesize preferredWidth=_preferredWidth;
-@property(copy, nonatomic) NSString *presentingAppBundleID; // @synthesize presentingAppBundleID=_presentingAppBundleID;
-@property(nonatomic) int presentingAppProcessIdentifier; // @synthesize presentingAppProcessIdentifier=_presentingAppProcessIdentifier;
-@property(copy, nonatomic) NSString *routeUID; // @synthesize routeUID=_routeUID;
-@property(copy, nonatomic) NSString *routingContextUID; // @synthesize routingContextUID=_routingContextUID;
-@property(nonatomic) _Bool shouldPreventAutorotation; // @synthesize shouldPreventAutorotation=_shouldPreventAutorotation;
-@property(nonatomic) _Bool sortByIsVideoRoute; // @synthesize sortByIsVideoRoute=_sortByIsVideoRoute;
-@property(nonatomic) struct CGRect sourceRect; // @synthesize sourceRect=_sourceRect;
-@property(nonatomic) long long style; // @synthesize style=_style;
-@property(nonatomic) long long surface; // @synthesize surface=_surface;
-@property(nonatomic) _Bool useGenericDevicesIconInHeader; // @synthesize useGenericDevicesIconInHeader=_useGenericDevicesIconInHeader;
-@property(retain, nonatomic) NSNumber *userInterfaceStyle; // @synthesize userInterfaceStyle=_userInterfaceStyle;
-@property(copy, nonatomic) NSArray *visibleMediaApps; // @synthesize visibleMediaApps=_visibleMediaApps;
 
 @end
 

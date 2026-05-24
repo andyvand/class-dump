@@ -11,7 +11,7 @@
     NSMutableArray *_strokePoints;
 }
 
-+ (id);
++ (id);
 - (id);
 - (id);
 - (id);

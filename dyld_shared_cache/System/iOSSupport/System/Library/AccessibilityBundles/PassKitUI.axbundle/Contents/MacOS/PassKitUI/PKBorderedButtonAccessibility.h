@@ -10,8 +10,8 @@
 {
 }
 
-+ (Class);
-+ (id);
++ (Class);
++ (id)VKCImageSubjectHighlightView;
 + (void);
 - (_Bool);
 - (unsigned long long);

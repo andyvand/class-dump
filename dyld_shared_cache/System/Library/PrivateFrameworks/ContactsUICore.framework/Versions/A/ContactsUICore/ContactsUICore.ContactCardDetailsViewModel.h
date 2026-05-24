@@ -7,12 +7,6 @@
 @interface ContactsUICore.ContactCardDetailsViewModel
 {
     id configuration;
-    id _rows;
-    id _sections;
-    id actionProvider;
-    id _viewConfiguration;
-    id _staticIdentity;
-    id _$observationRegistrar;
 }
 
 - (void);

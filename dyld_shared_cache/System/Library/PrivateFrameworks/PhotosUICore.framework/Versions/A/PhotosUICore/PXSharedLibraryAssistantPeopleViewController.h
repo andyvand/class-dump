@@ -6,47 +6,24 @@
 
 #import <PhotosUICore/PXAssistantTemplateViewController.h>
 
-@class NSArray, NSBox, NSLayoutConstraint, NSMutableArray, NSString, NSTextField, PXAssistantTemplateView, PXPeoplePickerCollectionView, PXSharedLibraryAssistantViewModel, PXSharedLibraryButtonBox, PXSharedLibraryIncludedPeopleDataSourceManager;
-@protocol PXAssistantViewControllerDelegate;
+@class NSMutableArray, NSString;
 
 @interface PXSharedLibraryAssistantPeopleViewController : PXAssistantTemplateViewController
 {
     NSMutableArray *_peopleInfosToIdentify;
-    _Bool _wantsToContinueToNextStep;
-    NSTextField *_footerLabel;
-    PXPeoplePickerCollectionView *_collectionView;
-    NSLayoutConstraint *_boxHeightConstraint;
-    NSLayoutConstraint *_buttonBoxToFooterConstraint;
-    NSLayoutConstraint *_buttonBoxToTopConstraint;
-    NSBox *_collectionViewBox;
-    PXSharedLibraryButtonBox *_buttonBox;
-    PXAssistantTemplateView *_templateView;
-    id <PXAssistantViewControllerDelegate> assistantViewControllerDelegate;
-    PXSharedLibraryAssistantViewModel *_viewModel;
-    PXSharedLibraryIncludedPeopleDataSourceManager *_dataSourceManager;
 }
 
 - (void);
 - (void);
 - (id);
+- (void)};
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
@@ -55,6 +32,16 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -64,29 +51,18 @@
 - (id);
 - (id);
 - (id);
+- (void)SWFeedConfigurationFactory;
 - (void);
-- (void);
-- (void)llStartSkimmingAssetCollectionReference:animationDuration: /* Error: Ran out of types for this method. */;
+- (void)skimmingController:willStartSkimmingAssetCollectionReference:animationDuration: /* Error: Ran out of types for this method. */;
 - (long long)B,N,V_reportColorNormalizationErrors;
-- (void)ts;
+- (void)assets;
 - (void)stepContexts containsObject:(id)arg1 stepContext];
 - (void);
 - (void):(id)arg1;
 - (id)YºQtÌ;;
 
 // Remaining properties
-@property(nonatomic) __weak id <PXAssistantViewControllerDelegate> assistantViewControllerDelegate; // @synthesize assistantViewControllerDelegate;
-@property(readonly, nonatomic) PXSharedLibraryIncludedPeopleDataSourceManager *dataSourceManager; // @synthesize dataSourceManager=_dataSourceManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *disabledIdentifiers;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSString *textForFooter;
-@property(readonly, nonatomic) PXSharedLibraryAssistantViewModel *viewModel; // @synthesize viewModel=_viewModel;
 
 @end
 

@@ -4,57 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMImmutableSettingsProtoAvailableLanguageListEvent, HMImmutableSettingsProtoBoolSettingEvent, HMImmutableSettingsProtoBoundedIntegerSettingEvent, HMImmutableSettingsProtoLanguageSettingEvent, HMImmutableSettingsProtoStringSettingEvent, NSString;
+@class HMImmutableSettingsProtoAvailableLanguageListEvent;
 
 @interface HMImmutableSettingsProtoSettingChangeEvent
 {
     HMImmutableSettingsProtoAvailableLanguageListEvent *_availableLanguages;
-    HMImmutableSettingsProtoBoolSettingEvent *_boolSetting;
-    HMImmutableSettingsProtoBoundedIntegerSettingEvent *_boundedIntegerSetting;
-    NSString *_keyPath;
-    HMImmutableSettingsProtoLanguageSettingEvent *_languageSetting;
-    int _settingChangeEvent;
-    HMImmutableSettingsProtoStringSettingEvent *_stringSetting;
-    _Bool _readOnly;
-    struct {
-        unsigned int settingChangeEvent:1;
-        unsigned int readOnly:1;
-    } _has;
 }
 
 - (id);
 - (id);
+- (int)7H;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool)@9?;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (id)#�i;
+- (id);
+- (void);
+- (id);
+- (void);
 - (int);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (int);
-- (_Bool);
-- (id);
+- (id)DLIBRARY_DELETE_MC_WARNING_%@%@;
 - (id);
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)malnutrition;
+- (void)ascetic;
 - (void);
 - (id);
 - (id);
@@ -63,22 +52,7 @@
 - (void)before any init segment:(_Bool)arg1 %@;
 
 // Remaining properties
-@property(retain, nonatomic) HMImmutableSettingsProtoAvailableLanguageListEvent *availableLanguages; // @synthesize availableLanguages=_availableLanguages;
-@property(retain, nonatomic) HMImmutableSettingsProtoBoolSettingEvent *boolSetting; // @synthesize boolSetting=_boolSetting;
-@property(retain, nonatomic) HMImmutableSettingsProtoBoundedIntegerSettingEvent *boundedIntegerSetting; // @synthesize boundedIntegerSetting=_boundedIntegerSetting;
-@property(readonly, nonatomic) _Bool hasAvailableLanguages;
-@property(readonly, nonatomic) _Bool hasBoolSetting;
-@property(readonly, nonatomic) _Bool hasBoundedIntegerSetting;
 @property(readonly, nonatomic) _Bool hasKeyPath;
-@property(readonly, nonatomic) _Bool hasLanguageSetting;
-@property(nonatomic) _Bool hasReadOnly;
-@property(nonatomic) _Bool hasSettingChangeEvent;
-@property(readonly, nonatomic) _Bool hasStringSetting;
-@property(retain, nonatomic) NSString *keyPath; // @synthesize keyPath=_keyPath;
-@property(retain, nonatomic) HMImmutableSettingsProtoLanguageSettingEvent *languageSetting; // @synthesize languageSetting=_languageSetting;
-@property(nonatomic) _Bool readOnly; // @synthesize readOnly=_readOnly;
-@property(nonatomic) int settingChangeEvent; // @synthesize settingChangeEvent=_settingChangeEvent;
-@property(retain, nonatomic) HMImmutableSettingsProtoStringSettingEvent *stringSetting; // @synthesize stringSetting=_stringSetting;
 
 @end
 

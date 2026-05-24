@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface PXSharedCollectionsCollaborationViewManager
 {
     id collaborationViewsById;
-    void observedPhotoLibraries;
 }
 
 + (id)F;
@@ -29,7 +26,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) id collaborationViewsById; // @synthesize collaborationViewsById;
-@property(nonatomic, copy) NSArray *observedPhotoLibraries;
 
 @end
 

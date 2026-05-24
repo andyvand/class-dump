@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBIntentMetadata, _INPBString;
+@class _INPBString;
 
 @interface _INPBOpenFileIntent
 {
     CDStruct_5a81f70e _has;
-    int _entityType;
-    int _scope;
-    _INPBString *_appId;
-    _INPBString *_entityName;
-    _INPBIntentMetadata *_intentMetadata;
-    NSArray *_properties;
-    _INPBString *_scopeEntityName;
 }
 
 + (Class);
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (id);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)b;
 - (id);
 - (id);
 - (int);
@@ -36,52 +29,32 @@
 - (id);
 - (id);
 - (void);
+- (unsigned long long);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (int);
 - (unsigned long long);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (int);
-- (unsigned long long);
-- (void);
-- (int);
-- (void);
+- (int)OS_dispatch_data>";
+- (void)n:(id)arg1 %s;
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)!;
 - (void);
 - (id);
 - (id);
 - (void);
 - (_Bool)ches;
-- (void)eCredentialsUnverified;
+- (void)INRequestPaymentIntentResponseCodeFailureCredentialsUnverified;
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) _INPBString *appId; // @synthesize appId=_appId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) _INPBString *entityName; // @synthesize entityName=_entityName;
-@property(nonatomic) int entityType; // @synthesize entityType=_entityType;
-@property(readonly, nonatomic) _Bool hasAppId;
-@property(readonly, nonatomic) _Bool hasEntityName;
-@property(nonatomic) _Bool hasEntityType;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasScope;
-@property(readonly, nonatomic) _Bool hasScopeEntityName;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(copy, nonatomic) NSArray *properties; // @synthesize properties=_properties;
-@property(readonly, nonatomic) unsigned long long propertiesCount;
-@property(nonatomic) int scope; // @synthesize scope=_scope;
-@property(retain, nonatomic) _INPBString *scopeEntityName; // @synthesize scopeEntityName=_scopeEntityName;
-@property(readonly) Class superclass;
 
 @end
 

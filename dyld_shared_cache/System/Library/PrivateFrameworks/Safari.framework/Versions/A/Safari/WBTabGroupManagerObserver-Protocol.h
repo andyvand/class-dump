@@ -7,11 +7,12 @@
 @protocol WBTabGroupManagerObserver
 
 @optional
+- (void);
+- (void);
 - (void)ata which can still be used to identify websites that you have visited.;
 - (void)¨
 P´;
 - (void)Ô@;
-- (void);
 - (void);
 @end
 

@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDDevice, NSString, NSUUID;
 @protocol HMDDeviceControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface HMDDeviceController
 {
     struct os_unfair_lock_s _lock;
-    NSUUID *_identifier;
-    HMDDevice *_device;
-    id <HMDDeviceControllerDelegate> _delegate;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id)ÿ©L;
 - (void);
 - (id);
@@ -33,16 +29,7 @@ __attribute__((visibility("hidden")))
 - (void)room identifier for ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property __weak id <HMDDeviceControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) HMDDevice *device;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly) Class superclass;
 
 @end
 

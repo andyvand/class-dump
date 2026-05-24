@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_driverMapItems;
 }
 
-- (void)deviceIdentifier;
+- (void)HomeKit_deviceIdentifier;
 
 @end
 

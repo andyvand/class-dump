@@ -5,8 +5,8 @@
 //
 
 @interface UnknownClass (MSUtilities)
-+ (id);
-+ (id);
++ (id)Allowing thread start for pairing with fabric:(id)arg1 %@;
++ (id)pairing with emac %@, error %@;
 + (id);
 @end
 

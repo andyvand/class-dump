@@ -13,7 +13,7 @@
 + (double);
 + (struct CGPath *);
 + (struct CGPath *);
-+ (unsigned long long);
++ (unsigned long long)B;
 + (void);
 + (struct CGPoint);
 + (void);
@@ -24,7 +24,7 @@
 + (struct CGRect);
 + (struct CGSize);
 + (void);
-+ (void);
++ (void);
 
 @end
 

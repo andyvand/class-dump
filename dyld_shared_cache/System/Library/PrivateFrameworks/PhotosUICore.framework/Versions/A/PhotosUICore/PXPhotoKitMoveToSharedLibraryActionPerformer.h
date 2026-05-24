@@ -15,9 +15,9 @@
 
 + (_Bool);
 + (id);
-+ (id);
++ (id)u;
 + (_Bool);
-+ (_Bool);
++ (_Bool)qG;
 - (void);
 - (void);
 - (_Bool);

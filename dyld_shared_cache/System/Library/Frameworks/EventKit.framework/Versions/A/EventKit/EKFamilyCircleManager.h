@@ -8,10 +8,10 @@
 {
 }
 
-+ (void);
-+ (_Bool);
-+ (_Bool);
-+ (void);
++ (void)ingSession(CoreUtils)] Failed to record successfully paired peer;
++ (_Bool)nt.;
++ (_Bool)agent endpoint.;
++ (void)ing television endpoint.;
 
 @end
 

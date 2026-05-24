@@ -7,22 +7,11 @@
 @interface PXTTRRadarObject
 {
     id title;
-    id radarDescription;
-    id classification;
-    id component;
-    id diagnosticProviders;
-    id additionalInfo;
-    id preflightScreenshotURL;
-    id metadataTags;
-    id keywordIds;
-    id attachmentImageURLs;
-    id attachmentFileURLs;
-    id additionalExtensionIdentifiers;
 }
 
 - (void);
 - (id);
-- (id)ewModel:(void *)arg1;
+- (id)setViewModel:(void *)arg1;
 - (void);
 
 @end

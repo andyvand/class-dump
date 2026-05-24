@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _INPBScoredValue
 {
     CDStruct_4b1634df _has;
-    long long _score;
-    NSString *_value;
 }
 
 + (_Bool);
@@ -28,21 +24,11 @@
 - (id);
 - (id);
 - (long long);
-- (void)lveTargetTimerForDeleteTimer:(long long)arg1 withCompletion: /* Error: Ran out of types for this method. */;
-- (void)seCodeFailureNotSupported;
+- (void)resolveTargetTimerForDeleteTimer:(long long)arg1 withCompletion: /* Error: Ran out of types for this method. */;
+- (void)INSetTimerAttributeIntentResponseCodeFailureNotSupported;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasScore;
-@property(readonly, nonatomic) _Bool hasValue;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) long long score; // @synthesize score=_score;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

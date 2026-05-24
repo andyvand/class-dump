@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PPScoreDict;
-
 @interface PPScoreInterpreterCtx
 {
     struct unique_ptr<std::vector<PPScoreInterpreterValue>, std::default_delete<std::vector<PPScoreInterpreterValue>>> _stack;
-    PPScoreDict *_scoreInputs;
-    PPScoreDict *_previousSubscores;
-    PPScoreDict *_subscores;
 }
 
 - (id);

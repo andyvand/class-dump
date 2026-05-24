@@ -4,7 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CNObservable;
+
 @protocol CNDDonationPreferences
++ (CNObservable *)ring",C,N,V_bonjourServiceName;
+- (void)uffer;
+- (_Bool)setRelatedUUID: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, getter=isDonationsEnabled) _Bool donationsEnabled;

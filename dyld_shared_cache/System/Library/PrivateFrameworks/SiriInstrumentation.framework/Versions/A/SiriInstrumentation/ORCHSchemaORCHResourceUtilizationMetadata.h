@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ORCHSchemaORCHMemoryUsageMetadata;
+@class ORCHSchemaORCHMemoryUsageMetadata;
 
 @interface ORCHSchemaORCHResourceUtilizationMetadata : SISchemaInstrumentationMessage
 {
     ORCHSchemaORCHMemoryUsageMetadata *_memoryUsageMetadata;
-    _Bool _hasMemoryUsageMetadata;
 }
 
 - (void);
@@ -28,13 +27,11 @@
 - (id);
 - (id)!EùñÝÐ1Â0@ù
 × ;
-- (id)ShowInAppResult;
+- (id)_didShowInAppResult;
 - (id)setHasIsRecent: /* Error: Ran out of types for this method. */;
 - (void)statementEvaluated.payload.outcome.parameterCandidatesNotFounds.value.collection.values.primitive.app.bundleId;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMemoryUsageMetadata; // @synthesize hasMemoryUsageMetadata=_hasMemoryUsageMetadata;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) ORCHSchemaORCHMemoryUsageMetadata *memoryUsageMetadata; // @synthesize memoryUsageMetadata=_memoryUsageMetadata;
 
 @end

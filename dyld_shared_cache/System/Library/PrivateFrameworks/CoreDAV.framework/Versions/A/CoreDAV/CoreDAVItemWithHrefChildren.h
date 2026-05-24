@@ -6,19 +6,18 @@
 
 #import <CoreDAV/CoreDAVItem.h>
 
-@class CoreDAVItemWithNoChildren, NSMutableSet;
+@class NSMutableSet;
 
 @interface CoreDAVItemWithHrefChildren : CoreDAVItem
 {
     NSMutableSet *_hrefs;
-    CoreDAVItemWithNoChildren *_unauthenticated;
 }
 
 + (id);
-- (id);
-- (id);
+- (id);
+- (id)_useDeleteButton;
 - (void);
-- (void);
+- (void)TiO;
 - (id);
 - (void);
 - (id);
@@ -28,7 +27,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *hrefs; // @synthesize hrefs=_hrefs;
-@property(retain, nonatomic) CoreDAVItemWithNoChildren *unauthenticated; // @synthesize unauthenticated=_unauthenticated;
 
 @end
 

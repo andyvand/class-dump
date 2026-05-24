@@ -9,13 +9,14 @@ __attribute__((visibility("hidden")))
 {
 }
 
++ (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
 + (id)process doesn't have entitlement to query Gemini information;
 - (void);
 - (void);
+- (void)NSt3__120__shared_ptr_emplaceI40SipClientNonInviteTryingTransactionStateNS_9allocatorIS1_EEEE;
 - (void);
 - (void);
 - (void);
@@ -24,8 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)?@"NSString"@"NSError">16;
 - (void);
 - (void);
 

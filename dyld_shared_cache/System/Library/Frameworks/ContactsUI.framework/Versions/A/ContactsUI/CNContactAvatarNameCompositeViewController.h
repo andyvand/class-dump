@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactAvatarViewController, CNContactNameViewController, NSLayoutConstraint, NSString, NSView;
+@class CNContactAvatarViewController;
 
 @interface CNContactAvatarNameCompositeViewController
 {
     CNContactAvatarViewController *_avatarWidgetController;
-    CNContactNameViewController *_nameWidgetController;
-    unsigned long long _displayStyle;
-    NSLayoutConstraint *_contentTopInsetConstraint;
-    NSLayoutConstraint *_nameViewExternalAlignmentConstraint;
-    NSView *_externalNameAlignmentView;
 }
 
 + (double);
@@ -29,33 +24,21 @@
 - (id);
 - (id);
 - (double);
-- (double);
+- (double);
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (void);
+- (id)8;
+- (void)@P;
 - (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)suggesterContextForFetchRequest: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)ictureData;
 
 // Remaining properties
 @property(retain) CNContactAvatarViewController *avatarWidgetController; // @synthesize avatarWidgetController=_avatarWidgetController;
-@property(retain) NSLayoutConstraint *contentTopInsetConstraint; // @synthesize contentTopInsetConstraint=_contentTopInsetConstraint;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long displayStyle; // @synthesize displayStyle=_displayStyle;
-@property(retain) NSView *externalNameAlignmentView; // @synthesize externalNameAlignmentView=_externalNameAlignmentView;
-@property(readonly) unsigned long long hash;
-@property(retain) NSLayoutConstraint *nameViewExternalAlignmentConstraint; // @synthesize nameViewExternalAlignmentConstraint=_nameViewExternalAlignmentConstraint;
-@property(retain) CNContactNameViewController *nameWidgetController; // @synthesize nameWidgetController=_nameWidgetController;
-@property(readonly) Class superclass;
 
 @end
 

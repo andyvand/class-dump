@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface QLTCacheSizeEvent
 {
     unsigned long long _cacheSize;
 }
 
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)kTestProbeStatusInProgress;
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 
 // Remaining properties
 @property(readonly) unsigned long long cacheSize; // @synthesize cacheSize=_cacheSize;
-@property(readonly) NSString *name;
-@property(readonly) CDUnknownBlockType propertiesBuilder;
 
 @end
 

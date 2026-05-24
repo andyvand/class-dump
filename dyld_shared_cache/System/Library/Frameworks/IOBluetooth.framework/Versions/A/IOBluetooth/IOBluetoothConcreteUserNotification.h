@@ -6,26 +6,12 @@
 
 #import <IOBluetooth/IOBluetoothUserNotification.h>
 
-@class NSString;
-
 @interface IOBluetoothConcreteUserNotification : IOBluetoothUserNotification
 {
     CDUnknownFunctionPointerType mCallback;
-    void *mRefCon;
-    SEL mSelector;
-    int mNotificationType;
-    id mWatchedObject;
-    id mRegisteredObject;
-    unsigned char mSelfRegistered;
-    int mDirection;
-    unsigned char mRFCOMMChannelID;
-    unsigned short mL2CAPPSM;
-    NSString *_selectorString;
-    id _watchedObject;
-    id _registeredObject;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -39,7 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -51,7 +37,7 @@
 - (void);
 - (void);
 - (int);
-- (id);
+- (id)h;
 - (void *);
 - (int);
 - (void);
@@ -64,15 +50,6 @@
 
 // Remaining properties
 @property unsigned short L2CAPPSM; // @synthesize L2CAPPSM=mL2CAPPSM;
-@property unsigned char RFCOMMChannelID; // @synthesize RFCOMMChannelID=mRFCOMMChannelID;
-@property CDUnknownFunctionPointerType callback; // @synthesize callback=mCallback;
-@property int direction; // @synthesize direction=mDirection;
-@property int notificationType; // @synthesize notificationType=mNotificationType;
-@property void *refCon; // @synthesize refCon=mRefCon;
-@property(retain, nonatomic) id registeredObject; // @synthesize registeredObject=_registeredObject;
-@property(nonatomic) SEL selector; // @synthesize selector=mSelector;
-@property(retain, nonatomic) NSString *selectorString; // @synthesize selectorString=_selectorString;
-@property(retain, nonatomic) id watchedObject; // @synthesize watchedObject=_watchedObject;
 
 @end
 

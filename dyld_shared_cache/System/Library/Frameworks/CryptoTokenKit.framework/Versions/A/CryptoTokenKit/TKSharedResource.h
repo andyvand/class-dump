@@ -14,8 +14,8 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)b;
+- (void)'genp' due to missing 'r_Data';
 
 // Remaining properties
 @property(readonly, nonatomic) id object;

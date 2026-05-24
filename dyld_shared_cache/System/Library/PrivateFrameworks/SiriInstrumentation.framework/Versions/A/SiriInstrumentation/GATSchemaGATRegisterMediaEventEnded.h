@@ -6,12 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface GATSchemaGATRegisterMediaEventEnded : SISchemaInstrumentationMessage
 {
     _Bool _exist;
-    CDStruct_f0caceea _has;
 }
 
 - (void);
@@ -21,9 +18,9 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)deselectRow: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)lable"b1"lastMobileAssetDownloadAttemptErrorUnderlyingCode"b1"mode"b1"subscriptionDownloadStatus"b1"timeSinceSubscriptionDownloadStatusCompleteInSeconds"b1"currentMode"b1"invocationsCountWhileAvailable"b1"numberOfMobileAssetAlters"b1"numberOfMobileAssetEliminates"b1"numberOfMobileAssetScans"b1"countFactoryAssetInBytes"b1"countFactoryAssets"b1"sizeInBytesPSUSAssets"b1"countPSUSAssetsMobileAsset"b1"totalBytesDownloaded"b1"totalNumberOfBytesDownloaded"b1};
 - (id)emaMWTClientEvent",&,N,V_mwtClientEvent;
@@ -31,8 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exist; // @synthesize exist=_exist;
-@property(nonatomic) _Bool hasExist;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

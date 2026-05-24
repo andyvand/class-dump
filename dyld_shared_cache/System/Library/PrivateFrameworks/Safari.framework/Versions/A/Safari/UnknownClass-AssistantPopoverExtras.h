@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (AssistantPopoverExtras)
-- (id);
+- (id);
 @end
 

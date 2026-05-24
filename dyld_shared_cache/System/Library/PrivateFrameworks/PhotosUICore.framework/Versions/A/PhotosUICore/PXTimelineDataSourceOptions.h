@@ -7,8 +7,6 @@
 @interface PXTimelineDataSourceOptions
 {
     _Bool _includeSuggestions;
-    _Bool _includeAssets;
-    struct CGSize _widgetSize;
 }
 
 - (void);
@@ -18,11 +16,9 @@
 - (_Bool);
 - (void);
 - (struct CGSize);
-- (void);
+- (void)interactiveCanvasControllerShouldEndEditingWhenLosingFirstResponder:(struct CGSize)arg1;
 
 // Remaining properties
-@property(nonatomic) _Bool includeAssets; // @synthesize includeAssets=_includeAssets;
-@property(nonatomic) _Bool includeSuggestions; // @synthesize includeSuggestions=_includeSuggestions;
 @property(nonatomic) struct CGSize widgetSize; // @synthesize widgetSize=_widgetSize;
 
 @end

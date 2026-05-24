@@ -4,33 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSArray, NSMutableArray;
 
 @interface MPModelLibraryPlaylistEditTransactionDetails
 {
     NSMutableArray *_changes;
-    NSString *_identifier;
-    NSString *_referenceIdentifier;
 }
 
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)_relname;
 - (id);
 - (void);
+- (void);
 - (id);
+- (void);
 - (id);
+- (id)(	;
 - (id);
 - (id);
 - (void)tyVersion;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *changes; // @synthesize changes=_changes;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSString *referenceIdentifier; // @synthesize referenceIdentifier=_referenceIdentifier;
 
 @end
 

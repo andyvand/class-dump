@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _PASLock, _PASSimpleCoalescingTimer;
+@class _PASLock;
 
 @interface TRIPruningFactorLevelCache
 {
     _PASLock *_lock;
-    _PASSimpleCoalescingTimer *_pruningTimer;
-    double _pruningDelaySeconds;
 }
 
-- (id);
+- (id)4;
 - (id);
 - (void);
 - (id);

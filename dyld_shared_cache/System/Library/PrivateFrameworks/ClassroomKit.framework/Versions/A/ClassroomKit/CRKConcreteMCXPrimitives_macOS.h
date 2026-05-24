@@ -18,11 +18,11 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)#;
 - (id);
 - (void);
 - (void);
-- (id)Request;
+- (id)CRKRefreshASMCoursesRequest;
 - (void)}@. Invaliding transport %{public}@ because its common name prefix is invalid;
 
 // Remaining properties

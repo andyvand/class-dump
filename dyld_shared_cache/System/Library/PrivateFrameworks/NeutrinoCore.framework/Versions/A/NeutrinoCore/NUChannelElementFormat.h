@@ -13,16 +13,16 @@
 
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (id)jh8;
 - (id);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)";
 - (long long);
 - (id);
 - (void);

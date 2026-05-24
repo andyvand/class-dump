@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface BMRuleExtractor
 {
     _Bool _shouldStop;
-    NSMutableDictionary *_patterns;
-    NSArray *_items;
-    unsigned long long _basketCount;
 }
 
 - (void);
@@ -23,18 +20,15 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)previewController:previewItemAtIndex: /* Error: Ran out of types for this method. */;
+- (void)presentsQuickLookController;
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long basketCount; // @synthesize basketCount=_basketCount;
-@property(retain, nonatomic) NSArray *items; // @synthesize items=_items;
 @property(retain, nonatomic) NSMutableDictionary *patterns; // @synthesize patterns=_patterns;
-@property _Bool shouldStop; // @synthesize shouldStop=_shouldStop;
 
 @end
 

@@ -7,17 +7,15 @@
 @interface CRKIndexPair
 {
     long long _sourceIndex;
-    long long _destinationIndex;
 }
 
 - (void);
 - (void);
-- (long long);
+- (long long)ptrINS2_14ConditionEntryEE27__shared_ptr_default_deleteIS6_S3_EENS_9allocatorIS3_EEEE;
 - (long long);
 - (id);
 
 // Remaining properties
-@property(nonatomic) long long destinationIndex; // @synthesize destinationIndex=_destinationIndex;
 @property(nonatomic) long long sourceIndex; // @synthesize sourceIndex=_sourceIndex;
 
 @end

@@ -10,11 +10,6 @@ __attribute__((visibility("hidden")))
 @interface CHDCategoryAxis : CHDAxis
 {
     _Bool mAutomatic;
-    _Bool mNoMultipleLevelLabel;
-    int mLabelAlignment;
-    long long mLabelFrequency;
-    _Bool mLabelFrequencyAutomatic;
-    _Bool mShowSeriesNames;
 }
 
 - (_Bool);
@@ -25,10 +20,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (int);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 
 @end

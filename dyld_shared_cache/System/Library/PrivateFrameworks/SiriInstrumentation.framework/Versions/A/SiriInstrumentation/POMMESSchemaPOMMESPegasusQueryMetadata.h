@@ -6,46 +6,13 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface POMMESSchemaPOMMESPegasusQueryMetadata : SISchemaInstrumentationMessage
 {
     _Bool _hasLatitude;
-    _Bool _hasLongitude;
-    _Bool _hasCountryCode;
-    _Bool _hasStorefront;
-    _Bool _hasSiriLocale;
-    float _uiScale;
-    _Bool _isNavigationMode;
-    int _temperatureScale;
-    int _measurementSystem;
-    unsigned int _installedAppsSignatureLength;
-    NSString *_storefrontValue;
-    _Bool _heySiriEnabled;
-    unsigned int _locationAgeInSeconds;
-    int _locationSource;
-    int _locationPreciseStatus;
-    struct {
-        unsigned int hasLatitude:1;
-        unsigned int hasLongitude:1;
-        unsigned int hasCountryCode:1;
-        unsigned int hasStorefront:1;
-        unsigned int hasSiriLocale:1;
-        unsigned int uiScale:1;
-        unsigned int isNavigationMode:1;
-        unsigned int temperatureScale:1;
-        unsigned int measurementSystem:1;
-        unsigned int installedAppsSignatureLength:1;
-        unsigned int heySiriEnabled:1;
-        unsigned int locationAgeInSeconds:1;
-        unsigned int locationSource:1;
-        unsigned int locationPreciseStatus:1;
-    } _has;
-    _Bool _hasStorefrontValue;
 }
 
 - (int);
-- (void);
+- (void)=;
 - (void);
 - (void);
 - (void);
@@ -73,16 +40,16 @@
 - (int);
 - (int);
 - (unsigned int);
-- (_Bool);
+- (_Bool)RB;
 - (unsigned int);
+- (_Bool)(=;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)TZ	;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -110,58 +77,28 @@
 - (_Bool);
 - (void);
 - (int);
-- (void);
-- (_Bool);
+- (void)openTransferUI;
+- (_Bool)initWithObjects: /* Error: Ran out of types for this method. */;
 - (id);
 - (float);
+- (void);
+- (unsigned long long)e4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDLaunchableAppsRequest_macOS.m:24 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (void);
-- (unsigned long long);
-- (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)_populateTimeSensitiveOrCriticalForNotificationContent:chatDictionary:messageDictionary: /* Error: Ran out of types for this method. */;
+- (_Bool)load (2);
 - (id);
 - (id);
-- (id)Reason;
-- (void)AtEndpoint;
+- (id)_profileSwitchFailureReason;
+- (void)_hasEndpointFeaturesAtEndpoint;
 - (id)nationContext;
-- (_Bool)essingEnded;
+- (_Bool)NLXSchemaCDMXPCEventProcessingEnded;
 - (void)¼ ¾;
-- (void)rId;
+- (void)answerId;
 
 // Remaining properties
-@property(nonatomic) _Bool hasCountryCode; // @synthesize hasCountryCode=_hasCountryCode;
-@property(nonatomic) _Bool hasHasCountryCode;
-@property(nonatomic) _Bool hasHasLatitude;
-@property(nonatomic) _Bool hasHasLongitude;
-@property(nonatomic) _Bool hasHasSiriLocale;
-@property(nonatomic) _Bool hasHasStorefront;
-@property(nonatomic) _Bool hasHeySiriEnabled;
-@property(nonatomic) _Bool hasInstalledAppsSignatureLength;
-@property(nonatomic) _Bool hasIsNavigationMode;
 @property(nonatomic) _Bool hasLatitude; // @synthesize hasLatitude=_hasLatitude;
-@property(nonatomic) _Bool hasLocationAgeInSeconds;
-@property(nonatomic) _Bool hasLocationPreciseStatus;
-@property(nonatomic) _Bool hasLocationSource;
-@property(nonatomic) _Bool hasLongitude; // @synthesize hasLongitude=_hasLongitude;
-@property(nonatomic) _Bool hasMeasurementSystem;
-@property(nonatomic) _Bool hasSiriLocale; // @synthesize hasSiriLocale=_hasSiriLocale;
-@property(nonatomic) _Bool hasStorefront; // @synthesize hasStorefront=_hasStorefront;
-@property(nonatomic) _Bool hasStorefrontValue; // @synthesize hasStorefrontValue=_hasStorefrontValue;
-@property(nonatomic) _Bool hasTemperatureScale;
-@property(nonatomic) _Bool hasUiScale;
-@property(nonatomic) _Bool heySiriEnabled; // @synthesize heySiriEnabled=_heySiriEnabled;
-@property(nonatomic) unsigned int installedAppsSignatureLength; // @synthesize installedAppsSignatureLength=_installedAppsSignatureLength;
-@property(nonatomic) _Bool isNavigationMode; // @synthesize isNavigationMode=_isNavigationMode;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int locationAgeInSeconds; // @synthesize locationAgeInSeconds=_locationAgeInSeconds;
-@property(nonatomic) int locationPreciseStatus; // @synthesize locationPreciseStatus=_locationPreciseStatus;
-@property(nonatomic) int locationSource; // @synthesize locationSource=_locationSource;
-@property(nonatomic) int measurementSystem; // @synthesize measurementSystem=_measurementSystem;
-@property(copy, nonatomic) NSString *storefrontValue; // @synthesize storefrontValue=_storefrontValue;
-@property(nonatomic) int temperatureScale; // @synthesize temperatureScale=_temperatureScale;
-@property(nonatomic) float uiScale; // @synthesize uiScale=_uiScale;
 
 @end
 

@@ -6,17 +6,12 @@
 
 #import <ImageKit/IKSFElement.h>
 
-@class CIImage;
-
 @interface IKSFCropElement : IKSFElement
 {
     id _delegate;
-    unsigned int _glTexture;
-    _Bool _live;
-    CIImage *_image;
 }
 
-+ (id);
++ (id);
 - (void);
 - (void);
 - (void);
@@ -30,7 +25,7 @@
 - (id);
 - (void);
 - (float);
-- (struct CGPoint);
+- (struct CGPoint);
 - (void);
 - (id);
 - (id)7;

@@ -4,92 +4,74 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKCalendar, EKEventStore, NSMutableArray, NSString;
-@protocol EKCalendarEditorDelegate;
+@class EKEventStore;
 
 @interface EKAbstractCalendarEditor
 {
     struct CGSize _preferredContentSize;
-    _Bool _isNewCalendar;
-    _Bool _enableDoneInitially;
-    NSMutableArray *_editItems;
-    _Bool _shouldShowCancelButton;
-    id <EKCalendarEditorDelegate> _delegate;
-    EKCalendar *_calendar;
-    EKEventStore *_eventStore;
 }
 
-+ (id);
++ (id)(s;
 - (void);
-- (void);
-- (int);
-- (void);
-- (void);
-- (id);
+- (void)%s;
+- (int)s;
+- (void)%s;
 - (void);
 - (id);
+- (void)s;
 - (id);
+- (id);
+- (_Bool)*s;
+- (id)%s;
+- (id);
+- (_Bool)*s;
+- (id)&s;
+- (id)c%s;
+- (void)s;
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (struct CGSize)s;
+- (void)%s;
+- (_Bool)S%s;
+- (void);
+- (void){;
+- (void);
+- (id);
+- (id)^Hz;
+- (_Bool);
+- (double);
+- (void);
 - (_Bool);
 - (id);
+- (void);
+- (id)ISAnalysisServiceResponse"@"NSError">;
+- (void):(id)arg1: /* Error: Ran out of types for this method. */;
+- (long long)"�e;
+- (void);
+- (void)@v;
+- (void);
+- (long long);
 - (id);
-- (_Bool);
 - (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
 - (struct CGSize);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (double);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (id);
-- (id);
-- (struct CGSize);
-- (void);
-- (_Bool);
-- (void);
+- (void)o;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)ilyCalendar:givenFamilySharees: /* Error: Ran out of types for this method. */;
+- (void)isFamilyCalendar:givenFamilySharees: /* Error: Ran out of types for this method. */;
 - (void)ndees sections.;
 - (void)ÿ;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) EKCalendar *calendar; // @synthesize calendar=_calendar;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <EKCalendarEditorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) EKEventStore *eventStore; // @synthesize eventStore=_eventStore;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool shouldShowCancelButton; // @synthesize shouldShowCancelButton=_shouldShowCancelButton;
-@property(readonly) Class superclass;
 
 @end
 

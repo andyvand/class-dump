@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PPXPCClientHelper, PPXPCClientPipelinedBatchQueryManager;
+@class PPXPCClientHelper;
 
 @interface PPContactClient
 {
     PPXPCClientHelper *_clientHelper;
-    PPXPCClientPipelinedBatchQueryManager *_queryManager;
 }
 
 + (id);
-- (void);
+- (void)CKKnowledgeStoreUtils;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -25,7 +24,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)RT;
 - (_Bool);
 - (void);
 - (_Bool);

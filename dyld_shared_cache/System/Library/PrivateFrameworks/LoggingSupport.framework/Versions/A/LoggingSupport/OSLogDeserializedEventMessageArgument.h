@@ -6,19 +6,18 @@
 
 #import <LoggingSupport/OSLogEventMessageArgument.h>
 
-@class NSDictionary, _OSLogEventSerializationMetadata;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface OSLogDeserializedEventMessageArgument : OSLogEventMessageArgument
 {
     NSDictionary *_backingDict;
-    _OSLogEventSerializationMetadata *_metadata;
 }
 
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned short);
+- (unsigned short)O;
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
@@ -31,11 +30,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)9;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *backingDict; // @synthesize backingDict=_backingDict;
-@property(readonly, nonatomic) _OSLogEventSerializationMetadata *metadata; // @synthesize metadata=_metadata;
 
 @end
 

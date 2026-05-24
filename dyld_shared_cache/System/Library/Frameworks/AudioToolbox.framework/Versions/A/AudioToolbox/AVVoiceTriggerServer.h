@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString, NSXPCListener;
-@protocol OS_dispatch_queue;
+@class NSXPCListener;
 
 __attribute__((visibility("hidden")))
 @interface AVVoiceTriggerServer
 {
     struct AVVoiceTriggerServerImpl *serverImpl;
-    NSXPCListener *_serverListener;
-    NSMutableArray *_clientConnections;
-    NSObject<OS_dispatch_queue> *_notificationQueue;
 }
 
 - (void);
@@ -29,18 +25,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)~;
 - (void);
-- (void);
-- (void);
+- (void)ying:polygon.vertices.count >= kRTBuildingPolygonManagerMinimumNumberOfVertices /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -48,19 +44,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void)erty:(id)arg1 size:data: /* Error: Ran out of types for this method. */;
+- (void)SetProperty:(id)arg1 size:data: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *clientConnections; // @synthesize clientConnections=_clientConnections;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *notificationQueue; // @synthesize notificationQueue=_notificationQueue;
 @property(retain, nonatomic) NSXPCListener *serverListener; // @synthesize serverListener=_serverListener;
-@property(readonly) Class superclass;
 
 @end
 

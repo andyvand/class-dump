@@ -9,7 +9,6 @@
 @interface NTPBViewArticleResponse
 {
     NSString *_articleId;
-    NSString *_channelId;
 }
 
 - (void);
@@ -19,19 +18,16 @@
 - (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
+- (unsigned long long)=qiIq}64@?88;
+- (id);
+- (_Bool)Local;
+- (void)preferredUpsellVariant;
+- (_Bool)rChannelsCommand:(id)arg1 no channels to add or remove;
 - (id);
 - (id);
 - (void)dSubscriptionConfig";
 
 // Remaining properties
-@property(retain, nonatomic) NSString *articleId; // @synthesize articleId=_articleId;
-@property(retain, nonatomic) NSString *channelId; // @synthesize channelId=_channelId;
-@property(readonly, nonatomic) _Bool hasArticleId;
 @property(readonly, nonatomic) _Bool hasChannelId;
 
 @end

@@ -9,8 +9,6 @@
 @interface MUISenderHeaderColors
 {
     NSColor *contrastingBackgroundColor;
-    NSColor *textColor;
-    NSColor *secondaryTextColor;
 }
 
 - (void);
@@ -18,15 +16,13 @@
 - (id);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void)edSenderColor;
+- (void)mailBlockedSenderColor;
 - (void)M;
 
 // Remaining properties
 @property(nonatomic, retain) NSColor *contrastingBackgroundColor; // @synthesize contrastingBackgroundColor;
-@property(nonatomic, retain) NSColor *secondaryTextColor; // @synthesize secondaryTextColor;
-@property(nonatomic, retain) NSColor *textColor; // @synthesize textColor;
 
 @end
 

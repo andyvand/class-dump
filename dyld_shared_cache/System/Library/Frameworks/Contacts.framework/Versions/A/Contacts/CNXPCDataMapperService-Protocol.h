@@ -5,5 +5,8 @@
 //
 
 @protocol CNXPCDataMapperService
+- (void);
+- (void);
+- (void);
 @end
 

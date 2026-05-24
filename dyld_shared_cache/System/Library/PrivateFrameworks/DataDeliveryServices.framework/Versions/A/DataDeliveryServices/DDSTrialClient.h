@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol DDSTRIClient, DDSTrialClientDelegate, OS_dispatch_queue, TRINotificationToken;
+@protocol DDSTRIClient, DDSTrialClientDelegate;
 
 @interface DDSTrialClient
 {
     id <DDSTrialClientDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    id <DDSTRIClient> _triClient;
-    NSString *_triNamespaceName;
-    id <TRINotificationToken> _notificationToken;
 }
 
-+ (id);
-- (id);
-- (void);
-- (id);
-- (void);
++ (id)setHasCirAlertRespectScoreOverrides:(id)arg1;
+- (id)setHasDataSharingSettings: /* Error: Ran out of types for this method. */;
+- (void)setHasCurrentTaskType:(id)arg1;
+- (id)setHasCountPSUSAssetsMobileAsset:(id)arg1;
+- (void)setHasCountAttributeBigramPrefixMatch:(CDUnknownBlockType)arg1;
 - (id);
 - (void);
 - (id);
@@ -31,18 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <DDSTrialClientDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) id <TRINotificationToken> notificationToken; // @synthesize notificationToken=_notificationToken;
-@property(readonly) Class superclass;
 @property(readonly) id <DDSTRIClient> triClient; // @synthesize triClient=_triClient;
-@property(readonly, copy) NSString *triNamespaceName; // @synthesize triNamespaceName=_triNamespaceName;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

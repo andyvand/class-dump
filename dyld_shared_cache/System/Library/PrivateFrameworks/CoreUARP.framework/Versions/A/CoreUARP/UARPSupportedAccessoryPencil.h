@@ -11,7 +11,7 @@
 }
 
 + (unsigned short);
-- (id);
+- (id)AMSSandboxAccountMigrator;
 
 @end
 

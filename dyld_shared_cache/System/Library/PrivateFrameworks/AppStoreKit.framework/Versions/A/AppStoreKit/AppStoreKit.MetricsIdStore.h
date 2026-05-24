@@ -7,8 +7,6 @@
 @interface AppStoreKit.MetricsIdStore
 {
     id accountStore;
-    id shouldCache;
-    id bag;
 }
 
 - (void);

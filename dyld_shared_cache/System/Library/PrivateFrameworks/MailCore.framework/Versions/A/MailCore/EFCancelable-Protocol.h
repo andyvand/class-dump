@@ -5,5 +5,6 @@
 //
 
 @protocol EFCancelable
+- (void)?;
 @end
 

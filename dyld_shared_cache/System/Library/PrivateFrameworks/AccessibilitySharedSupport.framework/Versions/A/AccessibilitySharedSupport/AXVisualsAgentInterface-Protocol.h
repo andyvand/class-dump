@@ -5,5 +5,6 @@
 //
 
 @protocol AXVisualsAgentInterface
+- (void);
 @end
 

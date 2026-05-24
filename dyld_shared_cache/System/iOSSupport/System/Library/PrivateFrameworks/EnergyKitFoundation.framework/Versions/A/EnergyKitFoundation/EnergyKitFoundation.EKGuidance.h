@@ -8,8 +8,6 @@
 {
     id forecastIdentifier;
     id start;
-    id interval;
-    id signal;
 }
 
 + (void);

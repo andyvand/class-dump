@@ -6,49 +6,43 @@
 
 #import <PhotosFormats/PFMetadataBuilder.h>
 
-@class NSDictionary, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface PFImageMetadataBuilder : PFMetadataBuilder
 {
     NSMutableDictionary *_iptcMutableDictionary;
-    NSMutableDictionary *_exifMutableDictionary;
-    NSMutableDictionary *_tiffMutableDictionary;
 }
 
 + (id);
++ (id)tv;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id)H&;
+- (id);
+- (void)M;
+- (void);
+- (void)[
+;
 - (void)status = %d;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *exifDictionary;
-@property(retain, nonatomic) NSMutableDictionary *exifMutableDictionary; // @synthesize exifMutableDictionary=_exifMutableDictionary;
-@property(readonly, copy, nonatomic) NSDictionary *iptcDictionary;
 @property(retain, nonatomic) NSMutableDictionary *iptcMutableDictionary; // @synthesize iptcMutableDictionary=_iptcMutableDictionary;
-@property(readonly, copy, nonatomic) NSDictionary *tiffDictionary;
-@property(retain, nonatomic) NSMutableDictionary *tiffMutableDictionary; // @synthesize tiffMutableDictionary=_tiffMutableDictionary;
 
 @end
 

@@ -6,15 +6,14 @@
 
 #import <QuartzComposer/QCPatch.h>
 
-@class QCIndexPort, QCStringPort;
+@class QCStringPort;
 
 @interface QCStringLength : QCPatch
 {
     QCStringPort *inputString;
-    QCIndexPort *outputLength;
 }
 
-+ (_Bool);
++ (_Bool)ure;
 + (_Bool);
 - (_Bool);
 

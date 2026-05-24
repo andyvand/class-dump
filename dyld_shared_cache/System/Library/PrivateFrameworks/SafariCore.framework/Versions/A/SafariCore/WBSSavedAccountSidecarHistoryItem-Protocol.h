@@ -7,11 +7,10 @@
 @class NSDate, NSDictionary, NSString;
 
 @protocol WBSSavedAccountSidecarHistoryItem
+- (NSString *)broadcastDirectCurrentItemChangedToItemIdentifier: /* Error: Ran out of types for this method. */;
+- (NSDictionary *)MPModelPropertyTVSeasonLibraryAddEligible;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *date;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, copy, nonatomic) NSString *type;
 @end
 

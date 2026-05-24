@@ -16,15 +16,15 @@
 + (id);
 + (id);
 + (_Bool);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)UUIDString;
 - (void);
-- (void)ionalPredicate;
+- (void)_conditionalPredicate;
 
 // Remaining properties
 @property(readonly, nonatomic) MPModelPodcastEpisodeKind *episodeKind; // @synthesize episodeKind=_episodeKind;

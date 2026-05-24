@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString;
 @protocol AMSUICommonTextViewDelegate;
 
 @interface AMSUICommonTextView
 {
     _Bool _centerText;
-    id <AMSUICommonTextViewDelegate> _ams_delegate;
 }
 
 - (double);
@@ -26,17 +24,12 @@
 - (void);
 - (void);
 - (_Bool);
-- (void)e: /* Error: Ran out of types for this method. */;
+- (void)setSize: /* Error: Ran out of types for this method. */;
 - (long long)ë=GtGG;
 - (void);
 
 // Remaining properties
 @property __weak id <AMSUICommonTextViewDelegate> ams_delegate; // @synthesize ams_delegate=_ams_delegate;
-@property(retain) NSAttributedString *attributedText;
-@property _Bool centerText; // @synthesize centerText=_centerText;
-@property(readonly) _Bool hasText;
-@property(retain) NSString *text;
-@property long long textAlignment;
 
 @end
 

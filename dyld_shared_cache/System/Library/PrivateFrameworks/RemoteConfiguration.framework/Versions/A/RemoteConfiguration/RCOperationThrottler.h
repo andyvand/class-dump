@@ -5,24 +5,21 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_group, OS_dispatch_queue, OS_dispatch_source;
+@protocol OS_dispatch_source;
 
 @interface RCOperationThrottler
 {
     NSObject<OS_dispatch_source> *_dispatchSource;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    NSObject<OS_dispatch_group> *_handlerSynchronizationGroup;
-    _Bool _suspended;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)_;
 - (void);
 - (void);
 

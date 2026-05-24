@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSImageView, NSString, NSTextField, NSView;
+@class NSArray, NSString;
 
 @interface LUIPasswordPolicyViewController
 {
     NSArray *_topLevelObjects;
-    NSString *_policyIdentifier;
-    NSView *_policyView;
-    NSImageView *_policySatisfiedImageView;
-    NSTextField *_policyDescriptionTextField;
 }
 
 - (void);
@@ -20,7 +16,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id))L;
 - (id);
 - (id);
 - (void);
@@ -28,10 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSTextField *policyDescriptionTextField; // @synthesize policyDescriptionTextField=_policyDescriptionTextField;
 @property(copy) NSString *policyIdentifier; // @synthesize policyIdentifier=_policyIdentifier;
-@property(retain) NSImageView *policySatisfiedImageView; // @synthesize policySatisfiedImageView=_policySatisfiedImageView;
-@property(retain) NSView *policyView; // @synthesize policyView=_policyView;
 
 @end
 

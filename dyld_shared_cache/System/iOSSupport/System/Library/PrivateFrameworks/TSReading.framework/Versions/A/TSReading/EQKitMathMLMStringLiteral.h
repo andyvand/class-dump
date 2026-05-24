@@ -10,7 +10,7 @@
 {
 }
 
-- (_Bool);
+- (_Bool)MPCPlaybackEngineEventPayloadKey;
 - (const void *);
 
 @end

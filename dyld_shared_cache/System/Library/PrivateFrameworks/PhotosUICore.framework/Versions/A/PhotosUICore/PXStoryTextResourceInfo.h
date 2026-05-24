@@ -4,28 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString, NSStringDrawingContext;
+@class NSString;
 
 @interface PXStoryTextResourceInfo
 {
     struct os_unfair_lock_s _lock;
-    _Bool _hasForcedPositioning;
-    NSAttributedString *_lock_attributedString;
-    NSStringDrawingContext *_lock_drawingContext;
-    long long _lock_textAlignment;
-    long long _lock_effectivePositionIndex;
-    long long _type;
-    long long _layoutScheme;
-    NSString *_string;
-    NSString *_associatedSubtitleString;
-    NSString *_assetCollectionUUID;
-    long long _forcedPositionIndex;
-    struct CGSize _lock_boundingSize;
-    struct CGPoint _lock_origin;
 }
 
 + (_Bool);
-+ (id);
++ (id)}�}�I;
 + (id);
 + (id);
 + (id);
@@ -33,7 +20,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (void);
 + (id);
@@ -49,9 +36,9 @@
 - (long long);
 - (long long);
 - (double);
-- (struct CGPoint);
+- (struct CGPoint)C;
 - (struct CGRect);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -83,30 +70,15 @@
 - (long long);
 - (long long);
 - (id);
-- (long long);
+- (long long)MREffectReflectionsBackground;
 - (_Bool);
-- (struct CGPoint)reURL:options:completionHandler: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)fetchMomentShareFromShareURL:options:completionHandler: /* Error: Ran out of types for this method. */;
 - (id)gDismissal;
 - (void)bilityBlurCurve;
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *assetCollectionUUID; // @synthesize assetCollectionUUID=_assetCollectionUUID;
 @property(readonly, nonatomic) NSString *associatedSubtitleString; // @synthesize associatedSubtitleString=_associatedSubtitleString;
-@property(readonly, nonatomic) NSAttributedString *attributedString; // @synthesize attributedString=_lock_attributedString;
-@property(readonly, nonatomic) double boundingRectPadding;
-@property(readonly, nonatomic) struct CGSize boundingSize; // @synthesize boundingSize=_lock_boundingSize;
-@property(readonly, nonatomic) NSStringDrawingContext *drawingContext; // @synthesize drawingContext=_lock_drawingContext;
-@property(readonly, nonatomic) long long drawingOptions;
-@property(nonatomic) long long effectivePositionIndex; // @synthesize effectivePositionIndex=_lock_effectivePositionIndex;
-@property(nonatomic) long long forcedPositionIndex; // @synthesize forcedPositionIndex=_forcedPositionIndex;
-@property(nonatomic) _Bool hasForcedPositioning; // @synthesize hasForcedPositioning=_hasForcedPositioning;
-@property(readonly, nonatomic) long long layoutScheme; // @synthesize layoutScheme=_layoutScheme;
-@property(readonly, nonatomic) struct CGPoint origin; // @synthesize origin=_lock_origin;
-@property(readonly, nonatomic) NSString *string; // @synthesize string=_string;
-@property(readonly, nonatomic) long long textAlignment; // @synthesize textAlignment=_lock_textAlignment;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
-@property(readonly, nonatomic) long long verticalAlignment;
 
 @end
 

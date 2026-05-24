@@ -4,10 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBundle, NSDictionary, NSObject, NSString, NSURL, NSUUID;
-@protocol OS_dispatch_queue, PKPlugIn;
+@class NSBundle, NSDictionary, NSObject, NSString;
+@protocol OS_dispatch_queue;
 
 @protocol PKPlugIn
+- (_Bool);
+- (NSString *);
+- (void);
+- (NSBundle *)P*;
+- (long long);
+- (void)AX_LIGHTS;
 - (void);
 - (NSString *)1Â0@ù
 × ;
@@ -24,27 +30,6 @@
 0; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) _Bool active;
-@property(readonly) NSDictionary *attributes;
-@property(readonly) NSDictionary *bundleInfoDictionary;
-@property(readonly) NSURL *containingUrl;
-@property(readonly) NSBundle *embeddedBundle;
-@property(readonly) id embeddedPrincipal;
-@property(readonly) NSDictionary *entitlements;
 @property(readonly) NSString *identifier;
-@property(readonly) NSString *localizedContainingName;
-@property(readonly) NSDictionary *localizedFileProviderActionNames;
-@property(readonly) NSString *localizedName;
-@property(readonly) NSString *localizedShortName;
-@property(readonly) NSUUID *multipleInstanceUUID;
-@property(copy) CDUnknownBlockType notificationBlock;
-@property(readonly) _Bool onSystemVolume;
-@property(readonly) NSDictionary *plugInDictionary;
-@property(readonly) id plugInPrincipal;
-@property(readonly) _Bool spent;
-@property(readonly) id <PKPlugIn> supersededBy;
-@property(readonly) NSURL *url;
-@property long long userElection;
-@property(readonly) NSString *version;
 @end
 

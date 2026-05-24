@@ -7,11 +7,6 @@
 @interface Network.NWActorSystem.RemoteCallActivity
 {
     id $defaultActor;
-    id nw;
-    id serializedMessageSize;
-    id compressedMessageSize;
-    id replyMetrics;
-    id submitted;
 }
 
 @end

@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface HMBSQLStatementQueryPlanTuple
 {
     int _row;
-    int _parent;
-    NSString *_detail;
 }
 
-- (id);
-- (id);
+- (id)_getTestAccountIdentitySetForService:forBackingMockAccount:shouldFaultInIdentities:withError: /* Error: Ran out of types for this method. */;
+- (id)capability check response for request %@;
 - (int);
-- (int);
+- (int)SystemEventEEEvvEUlPNS2_16ActiveObjectBaseERKNS2_12GenericEventEE_FvSA_SD_EEE;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *detail; // @synthesize detail=_detail;
-@property(readonly, nonatomic) int parent; // @synthesize parent=_parent;
 @property(readonly, nonatomic) int row; // @synthesize row=_row;
 
 @end

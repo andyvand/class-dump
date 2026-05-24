@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKEventStore, NSCache, NSObject;
-@protocol OS_dispatch_queue;
+@class NSCache;
 
 @interface CUIKNotificationConflictCache
 {
     NSCache *_cache;
-    NSObject<OS_dispatch_queue> *_fetchQueue;
-    EKEventStore *_store;
 }
 
-+ (id)DownloadAttachmentFromHost:promptToDownloadCallBack: /* Error: Ran out of types for this method. */;
-- (void)ªàòÑ
-?×9Qð9)³;
-- (id)ªÆ@;
-- (_Bool)åò0ÁÚñªñGÁÚë@;
-- (id)R«±MR±í;
++ (id)promptToDownloadAttachmentFromHost:promptToDownloadCallBack: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (_Bool);
+- (id);
 - (id);
 - (void)achmentDownloadControllerDelegate>";
 

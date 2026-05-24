@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSXPCConnection;
 @protocol IOBluetoothDaemonNSXPCDelegate;
 
 @interface IOBluetoothDaemonNSXPCClient
 {
     id <IOBluetoothDaemonNSXPCDelegate> _delegate;
-    NSXPCConnection *_connection;
 }
 
 - (void);
@@ -21,8 +19,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)R;
+- (void)86;
 - (id);
 - (void);
 - (id);
@@ -32,7 +30,6 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSXPCConnection *connection; // @synthesize connection=_connection;
 @property(retain) id <IOBluetoothDaemonNSXPCDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end

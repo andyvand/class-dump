@@ -12,19 +12,17 @@ __attribute__((visibility("hidden")))
 @interface HMDHAPMetricsReachabilityTimerLateEvent : HMDHAPMetrics
 {
     NSNumber *_actualDuration;
-    NSNumber *_expectedDuration;
 }
 
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void)eters_CodecParameters;
+- (void)kAudioParameters_CodecParameters;
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *actualDuration; // @synthesize actualDuration=_actualDuration;
-@property(readonly, nonatomic) NSNumber *expectedDuration; // @synthesize expectedDuration=_expectedDuration;
 
 @end
 

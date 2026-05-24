@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface TUContinuityCallInfo
 {
     _Bool _isBranded;
-    _Bool _isEmergency;
-    _Bool _handlesBlocked;
-    NSString *_callIdentifier;
-    NSString *_callerIdSubstring;
-    NSString *_displayName;
-    NSDictionary *_contactIdentifiersByHandle;
-    NSString *_senderIdentityShortName;
-    NSString *_senderIdentityName;
-    NSData *_handlesHash;
 }
 
 + (_Bool);
@@ -29,26 +20,17 @@
 - (_Bool);
 - (id);
 - (id);
+- (id)L;
+- (_Bool);
 - (id);
-- (_Bool);
 - (id);
 - (id);
+- (void)@;
 - (id);
-- (void);
-- (id);
-- (void)seudonym: /* Error: Ran out of types for this method. */;
+- (void)setAssociatedPseudonym: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *callIdentifier; // @synthesize callIdentifier=_callIdentifier;
-@property(readonly, nonatomic) NSString *callerIdSubstring; // @synthesize callerIdSubstring=_callerIdSubstring;
-@property(readonly, nonatomic) NSDictionary *contactIdentifiersByHandle; // @synthesize contactIdentifiersByHandle=_contactIdentifiersByHandle;
-@property(readonly, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) _Bool handlesBlocked; // @synthesize handlesBlocked=_handlesBlocked;
-@property(readonly, nonatomic) NSData *handlesHash; // @synthesize handlesHash=_handlesHash;
-@property(readonly, nonatomic) _Bool isBranded; // @synthesize isBranded=_isBranded;
-@property(readonly, nonatomic) _Bool isEmergency; // @synthesize isEmergency=_isEmergency;
-@property(readonly, nonatomic) NSString *senderIdentityName; // @synthesize senderIdentityName=_senderIdentityName;
-@property(readonly, nonatomic) NSString *senderIdentityShortName; // @synthesize senderIdentityShortName=_senderIdentityShortName;
 
 @end
 

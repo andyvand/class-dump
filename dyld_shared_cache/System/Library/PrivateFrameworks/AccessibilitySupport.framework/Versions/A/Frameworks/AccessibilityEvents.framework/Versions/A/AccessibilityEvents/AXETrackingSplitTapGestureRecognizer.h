@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXETrackingTouchEvent, NSDate, NSString;
-@protocol AXETrackingSplitTapGestureRecognizerDelegate;
+@class AXETrackingTouchEvent;
 
 @interface AXETrackingSplitTapGestureRecognizer
 {
     double _maximumTapDownDeviation;
-    id <AXETrackingSplitTapGestureRecognizerDelegate> _delegate;
-    AXETrackingTouchEvent *__firstTouchStart;
-    AXETrackingTouchEvent *__secondTouchStart;
-    NSDate *__secondTouchStartTime;
-    unsigned long long __currentState;
 }
 
 - (void);
@@ -35,19 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long _currentState; // @synthesize _currentState=__currentState;
 @property(retain, nonatomic) AXETrackingTouchEvent *_firstTouchStart; // @synthesize _firstTouchStart=__firstTouchStart;
-@property(retain, nonatomic) AXETrackingTouchEvent *_secondTouchStart; // @synthesize _secondTouchStart=__secondTouchStart;
-@property(retain, nonatomic) NSDate *_secondTouchStartTime; // @synthesize _secondTouchStartTime=__secondTouchStartTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AXETrackingSplitTapGestureRecognizerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double maximumTapDownDeviation; // @synthesize maximumTapDownDeviation=_maximumTapDownDeviation;
-@property(readonly) Class superclass;
 
 @end
 

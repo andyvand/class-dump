@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSURL, PHExternalAssetResource;
+@class PHExternalAssetResource;
 
 @interface PHAssetResourceValidatedContext
 {
     PHExternalAssetResource *_resource;
-    NSURL *_validatedURL;
-    NSData *_validatedData;
 }
 
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)scheduleCloudBackgroundImageSaveWithURL:isLightAppearance:successCompletionHandler: /* Error: Ran out of types for this method. */;
 - (void)@"NSNumber",N,V_pruneAfterAvailableLowDiskThresholdBytes;
 
 // Remaining properties
 @property(readonly, nonatomic) PHExternalAssetResource *resource; // @synthesize resource=_resource;
-@property(readonly, nonatomic) NSData *validatedData; // @synthesize validatedData=_validatedData;
-@property(readonly, nonatomic) NSURL *validatedURL; // @synthesize validatedURL=_validatedURL;
 
 @end
 

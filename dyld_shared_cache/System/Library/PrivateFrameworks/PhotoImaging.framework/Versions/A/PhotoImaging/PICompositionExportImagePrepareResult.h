@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NUColorSpace, NUImageExportRequest;
+@class NUImageExportRequest;
 
 @interface PICompositionExportImagePrepareResult
 {
     _Bool _inputIsHDR;
-    NUImageExportRequest *_request;
-    NUColorSpace *_inputColorSpace;
-    CDStruct_d58201db _inputSize;
 }
 
 - (void);
 - (_Bool);
 - (void);
-- (CDStruct_912cb5d2);
+- (CDStruct_912cb5d2);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)rawAdjustmentWithRawImageProperties: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NUColorSpace *inputColorSpace; // @synthesize inputColorSpace=_inputColorSpace;
-@property _Bool inputIsHDR; // @synthesize inputIsHDR=_inputIsHDR;
-@property CDStruct_912cb5d2 inputSize; // @synthesize inputSize=_inputSize;
 @property(retain) NUImageExportRequest *request; // @synthesize request=_request;
 
 @end

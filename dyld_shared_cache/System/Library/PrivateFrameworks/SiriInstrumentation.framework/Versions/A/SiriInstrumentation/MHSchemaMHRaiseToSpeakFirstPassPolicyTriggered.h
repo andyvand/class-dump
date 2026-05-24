@@ -6,13 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MHSchemaMHRaiseToSpeakFirstPassPolicyTriggered : SISchemaInstrumentationMessage
 {
     _Bool _isReplayModeEnabled;
-    double _firstPassTriggerScore;
-    CDStruct_0a205c72 _has;
 }
 
 - (void);
@@ -26,7 +22,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)DO_DSA_PRINT;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -37,11 +33,7 @@
 - (id)"INFERENCESchemaINFERENCEContactSignalSet",&,N,V_contactSignalSet;
 
 // Remaining properties
-@property(nonatomic) double firstPassTriggerScore; // @synthesize firstPassTriggerScore=_firstPassTriggerScore;
-@property(nonatomic) _Bool hasFirstPassTriggerScore;
-@property(nonatomic) _Bool hasIsReplayModeEnabled;
 @property(nonatomic) _Bool isReplayModeEnabled; // @synthesize isReplayModeEnabled=_isReplayModeEnabled;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

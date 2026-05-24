@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, REMList, REMSharee;
+@class REMList, REMSharee;
 
 @interface REMListShareeContext
 {
     REMSharee *_sharedOwner;
-    REMList *_list;
 }
 
 - (id);
-- (id);
+- (id)%@ when already invalidated.;
 - (id);
 - (id);
 - (void);
@@ -22,8 +21,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) REMList *list; // @synthesize list=_list;
-@property(readonly, nonatomic) REMSharee *sharedOwner; // @synthesize sharedOwner=_sharedOwner;
-@property(readonly, nonatomic) NSArray *sharees;
 
 @end
 

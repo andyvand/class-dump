@@ -7,11 +7,6 @@
 @interface IKSlideshowDebugItem
 {
     unsigned long long _index;
-    unsigned long long _flags;
-    _Bool _imageLoaded;
-    _Bool _thumbnailLoaded;
-    _Bool _dataSourceItemIsCached;
-    _Bool _current;
 }
 
 - (void);
@@ -34,17 +29,12 @@
 - (unsigned long long);
 - (void);
 - (unsigned long long);
-- (void)AtIndex:(unsigned long long)arg1;
+- (void)cellAnchorDocumentPointAtIndex:(unsigned long long)arg1;
 - (void)ä$;
-- (_Bool)r;
+- (_Bool)IKRotationLayer;
 
 // Remaining properties
-@property _Bool current; // @synthesize current=_current;
-@property(nonatomic) _Bool dataSourceItemIsCached; // @synthesize dataSourceItemIsCached=_dataSourceItemIsCached;
-@property unsigned long long flags; // @synthesize flags=_flags;
-@property _Bool imageLoaded; // @synthesize imageLoaded=_imageLoaded;
 @property unsigned long long index; // @synthesize index=_index;
-@property _Bool thumbnailLoaded; // @synthesize thumbnailLoaded=_thumbnailLoaded;
 
 @end
 

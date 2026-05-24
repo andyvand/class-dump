@@ -5,14 +5,14 @@
 //
 
 @interface UnknownClass (ForMessagesOnly)
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);

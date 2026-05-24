@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject, NSXPCConnection;
+@class NSMutableSet, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SFClient
 {
     NSMutableSet *_assertions;
-    _Bool _enableEnhancedDiscovery;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    NSXPCConnection *_xpcCnx;
-    NSXPCConnection *_syncXPCCnx;
-    CDUnknownBlockType _interruptionHandler;
-    CDUnknownBlockType _invalidationHandler;
 }
 
 - (void);
@@ -37,9 +29,9 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)`;
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (CDUnknownBlockType);
 - (void);
@@ -48,16 +40,16 @@
 - (void);
 - (void);
 - (void);
+- (void)\;
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)@;
+- (void)y;
+- (void)erZone>",R,N,V_zone;
 - (void);
 - (void);
 - (CDUnknownBlockType);
@@ -70,8 +62,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType interruptionHandler; // @synthesize interruptionHandler=_interruptionHandler;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
 
 @end
 

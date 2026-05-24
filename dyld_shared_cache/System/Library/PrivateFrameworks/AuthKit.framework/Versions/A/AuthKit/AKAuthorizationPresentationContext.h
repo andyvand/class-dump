@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKCredentialRequestContext, AKUserInformation, NSArray, NSData, NSNumber, NSString;
+@class NSNumber;
 
 @interface AKAuthorizationPresentationContext
 {
     _Bool _signInAllowsPCSKeyAccess;
-    _Bool _hasShownFirstTimeAlready;
-    NSString *_bundleID;
-    NSString *_localizedAppName;
-    NSString *_iconName;
-    NSString *_iconTypeID;
-    NSString *_iconSystemName;
-    NSData *_iconData;
-    NSNumber *_iconScale;
-    AKCredentialRequestContext *_credentialRequestContext;
-    AKUserInformation *_userInformation;
-    NSArray *_loginChoices;
-    NSNumber *_cachedHasSharedAccountLoginChoice;
-    NSNumber *_cachedHasCreateAccountLoginChoice;
-    NSData *_clientAuditTokenData;
 }
 
 + (id);
@@ -37,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)*(	!6;
 - (id);
 - (_Bool);
 - (id);
@@ -53,7 +39,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)� -;
 - (id);
 - (id);
 - (id);
@@ -63,29 +49,12 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id)asskeyCredentialRequestContext;
+- (id);
+- (id)AKAppleIDPasskeyCredentialRequestContext;
 - (void)x;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(retain, nonatomic) NSNumber *cachedHasCreateAccountLoginChoice; // @synthesize cachedHasCreateAccountLoginChoice=_cachedHasCreateAccountLoginChoice;
 @property(retain, nonatomic) NSNumber *cachedHasSharedAccountLoginChoice; // @synthesize cachedHasSharedAccountLoginChoice=_cachedHasSharedAccountLoginChoice;
-@property(retain, nonatomic) NSData *clientAuditTokenData; // @synthesize clientAuditTokenData=_clientAuditTokenData;
-@property(retain, nonatomic) AKCredentialRequestContext *credentialRequestContext; // @synthesize credentialRequestContext=_credentialRequestContext;
-@property(readonly, nonatomic) _Bool hasCreateAccountLoginChoice;
-@property(readonly, nonatomic) _Bool hasSharedAccountLoginChoices;
-@property(nonatomic) _Bool hasShownFirstTimeAlready; // @synthesize hasShownFirstTimeAlready=_hasShownFirstTimeAlready;
-@property(readonly, copy, nonatomic) NSData *iconData; // @synthesize iconData=_iconData;
-@property(readonly, copy, nonatomic) NSString *iconName; // @synthesize iconName=_iconName;
-@property(readonly, copy, nonatomic) NSNumber *iconScale; // @synthesize iconScale=_iconScale;
-@property(readonly, copy, nonatomic) NSString *iconSystemName; // @synthesize iconSystemName=_iconSystemName;
-@property(readonly, copy, nonatomic) NSString *iconTypeID; // @synthesize iconTypeID=_iconTypeID;
-@property(readonly, nonatomic) _Bool isSignInFlow;
-@property(copy, nonatomic) NSString *localizedAppName; // @synthesize localizedAppName=_localizedAppName;
-@property(copy, nonatomic) NSArray *loginChoices; // @synthesize loginChoices=_loginChoices;
-@property(nonatomic) _Bool signInAllowsPCSKeyAccess; // @synthesize signInAllowsPCSKeyAccess=_signInAllowsPCSKeyAccess;
-@property(retain, nonatomic) AKUserInformation *userInformation; // @synthesize userInformation=_userInformation;
 
 @end
 

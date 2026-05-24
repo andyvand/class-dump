@@ -7,16 +7,6 @@
 @interface NewsFeed.FormatLayeredMediaNodeLayoutAttributes
 {
     id identifier;
-    id layoutIdentifier;
-    id nodeIdentifier;
-    id frame;
-    id resizing;
-    id zIndex;
-    id visibility;
-    id isUserInteractionEnabled;
-    id accessibilityRole;
-    id style;
-    id auxViewRequirements;
 }
 
 @end

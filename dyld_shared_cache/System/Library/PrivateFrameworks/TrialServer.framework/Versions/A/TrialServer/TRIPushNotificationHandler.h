@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol TRIExperimentUpdateSchedulerProtocol, TRIHotfixRolloutTargetingSchedulerProtocol, TRINotificationReactionCheckerProtocol, TRIUrgentRollbackSchedulerProtocol;
+@protocol TRINotificationReactionCheckerProtocol;
 
 @interface TRIPushNotificationHandler
 {
     id <TRINotificationReactionCheckerProtocol> _notificationChecker;
-    id <TRIHotfixRolloutTargetingSchedulerProtocol> _hotfixScheduler;
-    id <TRIUrgentRollbackSchedulerProtocol> _rollbackScheduler;
-    id <TRIExperimentUpdateSchedulerProtocol> _experimentUpdateScheduler;
 }
 
 - (void);
@@ -27,10 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <TRIExperimentUpdateSchedulerProtocol> experimentUpdateScheduler; // @synthesize experimentUpdateScheduler=_experimentUpdateScheduler;
-@property(readonly, nonatomic) id <TRIHotfixRolloutTargetingSchedulerProtocol> hotfixScheduler; // @synthesize hotfixScheduler=_hotfixScheduler;
 @property(readonly, nonatomic) id <TRINotificationReactionCheckerProtocol> notificationChecker; // @synthesize notificationChecker=_notificationChecker;
-@property(readonly, nonatomic) id <TRIUrgentRollbackSchedulerProtocol> rollbackScheduler; // @synthesize rollbackScheduler=_rollbackScheduler;
 
 @end
 

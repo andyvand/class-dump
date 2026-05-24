@@ -10,10 +10,10 @@
     struct CGRect _lastRect;
 }
 
-- (void);
-- (void);
+- (void)conversationManager:(struct CGRect)arg1 conversationUpdatedMessagesGroupName:fromOldConversation: /* Error: Ran out of types for this method. */;
+- (void)allServiceSessions;
 - (struct CGRect);
-- (struct CGRect);
+- (struct CGRect)SaySSGIegg_;
 
 // Remaining properties
 @property(nonatomic) struct CGRect firstRect; // @synthesize firstRect=_firstRect;

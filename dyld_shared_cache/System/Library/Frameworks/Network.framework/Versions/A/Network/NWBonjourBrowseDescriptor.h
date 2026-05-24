@@ -13,13 +13,12 @@
 }
 
 + (id);
-+ (unsigned int);
++ (unsigned int)CGSize="width"d"height"d}"windowContentMaxSize"{CGSize="width"d"height"d}"windowFrameMinSize"{CGSize="width"d"height"d}"windowFrameMaxSize"{CGSize="width"d"height"d}"serviceViewFrame"{CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}}"serviceWindowID"I"touchBarsDescription"@"NSArray"};
 - (id);
 - (id);
 - (id)id buflet size, backtrace limit exceeded;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *domain;
 @property(readonly, nonatomic) NSString *type;
 
 @end

@@ -10,10 +10,10 @@
 {
 }
 
-+ (id);
++ (id)Util_WriteToBuffer;
 + (id);
 + (Class);
-+ (id);
++ (id)#;
 
 @end
 

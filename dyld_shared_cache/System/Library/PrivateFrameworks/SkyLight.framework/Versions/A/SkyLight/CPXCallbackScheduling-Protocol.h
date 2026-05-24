@@ -5,5 +5,10 @@
 //
 
 @protocol CPXCallbackScheduling
+- (void)elegate _scheduleAutomatedExportWithLabel:(double)arg1 activity:voucher:completionHandler:] /* Error: Ran out of types for this method. */;
+- (void)ionHandler:(double)arg1 ]_block_invoke;
+- (void)cheduleAutomatedImportWithLabel:(struct CPSProcessRec *)arg1 activity:voucher:completionHandler:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void)T %@ = MAX(0,IFNULL(%@,0) - 1);
+- (void)D (%@));;
 @end
 

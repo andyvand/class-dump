@@ -15,8 +15,8 @@
 
 - (void);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)setBorderRight: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *to; // @synthesize to=_to;

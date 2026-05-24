@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDateTimeRange, _INPBUserActivity;
-
 @interface _INPBReservationAction
 {
     CDStruct_f953fb60 _has;
-    int _type;
-    _INPBUserActivity *_userActivity;
-    _INPBDateTimeRange *_validDuration;
 }
 
 + (_Bool);
@@ -19,7 +14,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)xyCount REAL;
 - (id);
 - (void);
 - (unsigned long long);
@@ -32,25 +27,13 @@
 - (void);
 - (id);
 - (int);
-- (id);
-- (_Bool);
-- (void)butePromptDialogINIntentParameterPromptDialogFormatStringLanguageCode;
+- (id)clearPayloadActivityLists;
+- (_Bool)__INCodableEnumValueSynonymINEnumValueSynonymSynonym;
+- (void)__INCodableAttributePromptDialogINIntentParameterPromptDialogFormatStringLanguageCode;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasType;
-@property(readonly, nonatomic) _Bool hasUserActivity;
-@property(readonly, nonatomic) _Bool hasValidDuration;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) int type; // @synthesize type=_type;
-@property(retain, nonatomic) _INPBUserActivity *userActivity; // @synthesize userActivity=_userActivity;
-@property(retain, nonatomic) _INPBDateTimeRange *validDuration; // @synthesize validDuration=_validDuration;
 
 @end
 

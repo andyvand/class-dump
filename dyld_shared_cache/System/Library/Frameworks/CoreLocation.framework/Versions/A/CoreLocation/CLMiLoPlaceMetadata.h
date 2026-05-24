@@ -9,9 +9,9 @@
 }
 
 + (_Bool);
-- (id);
-- (void);
-- (id);
+- (id)h>;
+- (void)h;
+- (id)setErrorState:(struct _NSZone *)arg1;
 
 @end
 

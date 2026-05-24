@@ -5,19 +5,19 @@
 //
 
 @interface UnknownClass (ParsecExtras)
-- (id);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (int);
-- (float);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)resourceLoader:(id)arg1 shouldWaitForResponseToAuthenticationChallenge: /* Error: Ran out of types for this method. */;
+- (id)resourceLoader:(Class)arg1 shouldWaitForLoadingOfRequestedResource:(id)arg2;
+- (id)resourceLoader:(Class)arg1 didCancelLoadingRequest:(id)arg2;
+- (id)resourceLoader:(id)arg1 didCancelLoadingRequest: /* Error: Ran out of types for this method. */;
+- (long long)resourceLoader:(id)arg1 didCancelAuthenticationChallenge: /* Error: Ran out of types for this method. */;
+- (int)resolveCSSValue:(id)arg1;
+- (float)resetToPlaceholderView;
+- (id)resetDownloadState;
+- (id)resampleAndCropWithImage:(Class)arg1 width:(id)arg2 height: /* Error: Ran out of types for this method. */;
+- (id)requiresInlineButton;
+- (id)requirePrivateRelayForAllNetworkTraffic;
+- (id)_isCollaboration;
+- (id)_event;
+- (_Bool)_enumerateSubstitutableFields:(id)arg1;
 @end
 

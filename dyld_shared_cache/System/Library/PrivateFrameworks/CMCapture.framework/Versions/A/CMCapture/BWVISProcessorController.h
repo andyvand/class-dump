@@ -4,54 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWVISProcessorControllerConfiguration, NSString;
-@protocol BWVISProcessorDelegate, VISConfiguration, VISProcessor;
+@protocol VISProcessor;
 
 __attribute__((visibility("hidden")))
 @interface BWVISProcessorController
 {
     id <VISProcessor> _visProcessor;
-    id <VISConfiguration> _visConfiguration;
-    _Bool _buffersEnqueued;
-    _Bool _longPressModeEnabled;
-    _Bool _flipHorizontalOrientationEnabled;
-    _Bool _smartStyleReversibilityProcessingEnabled;
-    BWVISProcessorControllerConfiguration *_configuration;
-    id <BWVISProcessorDelegate> _delegate;
 }
 
-+ (void)Recording;
-- (void);
++ (void)ResumingRecording;
+- (void)CMDiagramSegmentedPyramidMapper;
 - (id);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (int);
-- (int);
-- (_Bool);
+- (int)vent from other device %{private}@;
+- (int)cause groupId is nil;
+- (_Bool)e.today(1);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (int)mporalFilterNode >>>> %s:%p:failed to get metadata from the dequeued input sample buffer /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) BWVISProcessorControllerConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <BWVISProcessorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool flipHorizontalOrientationEnabled; // @synthesize flipHorizontalOrientationEnabled=_flipHorizontalOrientationEnabled;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool longPressModeEnabled; // @synthesize longPressModeEnabled=_longPressModeEnabled;
-@property(nonatomic) _Bool smartStyleReversibilityProcessingEnabled; // @synthesize smartStyleReversibilityProcessingEnabled=_smartStyleReversibilityProcessingEnabled;
-@property(readonly) Class superclass;
 
 @end
 

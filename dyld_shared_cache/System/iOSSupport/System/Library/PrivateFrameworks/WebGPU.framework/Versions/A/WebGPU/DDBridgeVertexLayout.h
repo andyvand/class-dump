@@ -8,19 +8,17 @@
 {
     long long bufferIndex;
     long long bufferOffset;
-    long long bufferStride;
 }
 
 - (id);
 - (long long);
-- (id);
-- (long long);
+- (id)An Amazon URL to convert;
+- (long long);
 - (long long);
 
 // Remaining properties
 @property(nonatomic, readonly) long long bufferIndex; // @synthesize bufferIndex;
 @property(nonatomic, readonly) long long bufferOffset; // @synthesize bufferOffset;
-@property(nonatomic, readonly) long long bufferStride; // @synthesize bufferStride;
 
 @end
 

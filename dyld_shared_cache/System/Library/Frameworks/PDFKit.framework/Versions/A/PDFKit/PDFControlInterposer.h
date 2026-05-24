@@ -8,9 +8,6 @@ __attribute__((visibility("hidden")))
 @interface PDFControlInterposer
 {
     id _actualTarget;
-    SEL _actualAction;
-    id _actualSender;
-    CDUnknownBlockType _filterBlock;
 }
 
 - (void);
@@ -26,10 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property SEL actualAction; // @synthesize actualAction=_actualAction;
-@property(retain) id actualSender; // @synthesize actualSender=_actualSender;
 @property(retain) id actualTarget; // @synthesize actualTarget=_actualTarget;
-@property(copy) CDUnknownBlockType filterBlock; // @synthesize filterBlock=_filterBlock;
 
 @end
 

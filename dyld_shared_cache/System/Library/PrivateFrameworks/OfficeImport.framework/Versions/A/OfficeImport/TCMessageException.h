@@ -22,7 +22,7 @@ __attribute__((visibility("hidden")))
 + (void)Ä;
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void)PGK;
 

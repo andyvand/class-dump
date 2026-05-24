@@ -9,6 +9,9 @@
 @protocol FCPurchaseProviderType
 
 // Remaining properties
+// Error: Property attributes should begin with the type ('T') attribute, property name: @"NSSet"16@0:8
+// Property attributes: @"FCEntitlementsOverride"24@0:8@"NSArray"16
+
 @property(readonly, copy, nonatomic) NSSet *purchasedTagIDs;
 @end
 

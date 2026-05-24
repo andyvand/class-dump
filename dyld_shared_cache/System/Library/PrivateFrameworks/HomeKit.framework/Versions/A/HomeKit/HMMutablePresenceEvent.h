@@ -6,7 +6,7 @@
 
 #import <HomeKit/HMPresenceEvent.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface HMMutablePresenceEvent : HMPresenceEvent
 {
@@ -14,9 +14,6 @@
 
 
 // Remaining properties
-@property(nonatomic) unsigned long long presenceEventType; // @dynamic presenceEventType;
 @property(copy, nonatomic) NSString *presenceType; // @dynamic presenceType;
-@property(nonatomic) unsigned long long presenceUserType; // @dynamic presenceUserType;
-@property(retain, nonatomic) NSArray *users; // @dynamic users;
 @end
 

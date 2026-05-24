@@ -9,20 +9,18 @@
 @interface ASAuthorizationPublicKeyCredentialPRFAssertionOutput
 {
     void first;
-    void second;
 }
 
 - (id);
-- (void);
+- (void)tableView:(id)arg1 accessoryButtonTappedForRowWithIndexPath: /* Error: Ran out of types for this method. */;
+- (id)or_part, syndication_ranges, synced_syndication_ranges, was_delivered_quietly, did_notify_recipient, date_retracted, date_edited, date_recovered, was_detonated, part_count, is_stewie, is_sos, is_critical, bia_reference_id, is_kt_verified, fallback_hash, associated_message_emoji, is_pending_satellite_send, needs_relay, schedule_type, schedule_state, sent_or_received_off_grid, is_time_sensitive, ck_chat_id, index_state FROM message WHERE subject = ?   AND item_type = ? ORDER BY message.ROWID ASC;;
 - (id);
-- (id);
 - (void);
-- (id)ainCount;
+- (id)retainCount;
 - (void)ÿÿFÿÿ¶ÿÿ;
 
 // Remaining properties
 @property(nonatomic, copy) NSData *first;
-@property(nonatomic, copy) NSData *second;
 
 @end
 

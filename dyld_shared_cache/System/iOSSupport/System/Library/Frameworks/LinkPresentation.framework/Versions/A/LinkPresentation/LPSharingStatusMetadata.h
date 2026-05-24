@@ -6,17 +6,17 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class NSAttributedString, NSString;
+@class NSAttributedString;
 
 @interface LPSharingStatusMetadata : LPSpecializationMetadata
 {
     NSAttributedString *_status;
 }
 
-+ (id);
++ (id)stageFPLinkViewWithConversation:pluginPayload:url:shareOptions:mediaObjectComposition:navigationProvider:animated: /* Error: Ran out of types for this method. */;
 + (_Bool);
-- (id);
-- (_Bool);
+- (id)tightShadowLayer;
+- (_Bool)tableView:(id)arg1 titleForDeleteConfirmationButtonForRowAtIndexPath: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (unsigned long long);
@@ -28,14 +28,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSAttributedString *status; // @synthesize status=_status;
-@property(readonly) Class superclass;
 
 @end
 

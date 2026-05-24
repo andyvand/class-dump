@@ -5,5 +5,8 @@
 //
 
 @protocol MPSCNNConvolutionDataSource
+- (float *)=*;
+- (void);
+- (_Bool);
 @end
 

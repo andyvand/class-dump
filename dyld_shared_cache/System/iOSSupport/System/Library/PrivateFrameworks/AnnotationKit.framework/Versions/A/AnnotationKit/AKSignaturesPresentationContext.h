@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView, UIViewController;
+@class UIViewController;
 
 @interface AKSignaturesPresentationContext
 {
     UIViewController *_presentingViewController;
-    UIView *_sourceView;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
-- (void);
+- (void)_fieldRange;
 - (void);
 
 // Remaining properties
 @property(nonatomic) __weak UIViewController *presentingViewController; // @synthesize presentingViewController=_presentingViewController;
-@property(nonatomic) __weak UIView *sourceView; // @synthesize sourceView=_sourceView;
 
 @end
 

@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 @interface AMSURLSecurityPolicy
 {
     long long _trustMode;
-    NSSet *_pinnedCertificates;
 }
 
 + (id);
@@ -27,7 +24,6 @@
 à­ =² É{5CmPøÝ^/käºFÈÔþ/Þ8=b7ýB~;
 
 // Remaining properties
-@property(retain) NSSet *pinnedCertificates; // @synthesize pinnedCertificates=_pinnedCertificates;
 @property long long trustMode; // @synthesize trustMode=_trustMode;
 
 @end

@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKPageModelController, PDFPage;
-
 __attribute__((visibility("hidden")))
 @interface PDFAKPageAdaptorPrivate
 {
     _Bool isTornDown;
-    PDFPage *pdfPage;
-    AKPageModelController *akPageModelController;
-    _Bool isObservingPageModel;
-    _Bool isSyncingFromPDFPage;
-    _Bool isSyncingFromAKPageModel;
 }
 
 - (void);

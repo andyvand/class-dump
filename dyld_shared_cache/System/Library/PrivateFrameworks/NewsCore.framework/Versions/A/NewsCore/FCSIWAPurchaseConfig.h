@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface FCSIWAPurchaseConfig
 {
     _Bool _isEnabled;
-    NSString *_clientIdentifier;
-    NSString *_teamIdentifier;
 }
 
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)ystem/;
 - (void)[NTPBFeedItem(FCFeedItem) feedItemFromCKRecord:storefrontID:recordSource:]_block_invoke /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
 @property(readonly, nonatomic) _Bool isEnabled; // @synthesize isEnabled=_isEnabled;
-@property(readonly, copy, nonatomic) NSString *teamIdentifier; // @synthesize teamIdentifier=_teamIdentifier;
 
 @end
 

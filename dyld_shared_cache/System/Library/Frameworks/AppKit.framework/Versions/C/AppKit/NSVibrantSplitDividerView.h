@@ -6,21 +6,18 @@
 
 #import <AppKit/NSSplitDividerView.h>
 
-@class NSVisualEffectView;
-
 __attribute__((visibility("hidden")))
 @interface NSVibrantSplitDividerView : NSSplitDividerView
 {
     NSSplitDividerView *_innerDividerView;
-    NSVisualEffectView *_effectView;
 }
 
-- (void);
+- (void)er:(id)arg1 cfScreenSN %@, error %d;
 - (void);
 - (_Bool);
 - (id);
 - (long long);
-- (id);
+- (id)initWithAVAggregateAssetDownloadChildDownloadSessionIdentifier:assetTitle:assetArtworkData:options:taskIdentifier:uniqueIdentifier:bundleID:sessionID: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool);

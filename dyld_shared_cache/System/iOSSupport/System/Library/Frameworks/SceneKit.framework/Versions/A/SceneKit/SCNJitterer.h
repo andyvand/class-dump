@@ -4,18 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_source, SCNJittererDelegate;
-
 __attribute__((visibility("hidden")))
 @interface SCNJitterer
 {
     _Bool _enabled;
-    unsigned long long _state;
-    unsigned long long _iteration;
-    _Bool _restartSourceIsSuspended;
-    id <SCNJittererDelegate> _delegate;
-    NSObject<OS_dispatch_source> *_restartSource;
 }
 
 + (void)rtex count (%d != %d);

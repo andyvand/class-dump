@@ -6,6 +6,6 @@
 
 @protocol PDXPCServiceExportedInterface
 - (void)unable to set reader symlink mode - %{public}s.;
-- (void)rs;
+- (void)productIdentifiers;
 @end
 

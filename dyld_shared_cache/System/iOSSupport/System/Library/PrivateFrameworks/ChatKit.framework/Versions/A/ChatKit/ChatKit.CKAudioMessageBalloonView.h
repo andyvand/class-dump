@@ -6,31 +6,9 @@
 
 #import <ChatKit/CKColoredBalloonView.h>
 
-@class CKAudioMediaObject, ChatKit.AudioMessageWaveform;
-
 @interface ChatKit.CKAudioMessageBalloonView : CKColoredBalloonView
 {
     id panGestureRecognizer;
-    id isFromMe;
-    CKAudioMediaObject *mediaObject;
-    id $__lazy_storage_$_timeLabel;
-    id $__lazy_storage_$_speedLabel;
-    id transcriptionViewClass;
-    id $__lazy_storage_$_transcriptionLabel;
-    id $__lazy_storage_$_waveformView;
-    id $__lazy_storage_$_playPauseButton;
-    id $__lazy_storage_$_horizontalStackView;
-    id $__lazy_storage_$_verticalStackView;
-    double playbackSpeed;
-    long long waveformContentMode;
-    id displayedTime;
-    double time;
-    double initialTimeBeforePan;
-    double duration;
-    _Bool isPlaying;
-    _Bool isPlayed;
-    _Bool serviceIsSMS;
-    _Bool serviceIsRCS;
 }
 
 - (id);
@@ -42,28 +20,28 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (struct CGSize);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (double);
+- (id)ctor"24;
+- (struct CGSize)0;
+- (void)webView:(id)arg1 requestMediaCapturePermissionForOrigin:initiatedByFrame:type:decisionHandler: /* Error: Ran out of types for this method. */;
+- (void)webView:(long long)arg1 requestDeviceOrientationAndMotionPermissionForOrigin:initiatedByFrame:decisionHandler: /* Error: Ran out of types for this method. */;
+- (void)switchedToCustomPasswordModeInfoAlertWithAccount:(_Bool)arg1;
+- (void)switchedModeInfoAlertWithAccount:(_Bool)arg1;
+- (void)setHandwritingRecognitionEnabled:(double)arg1;
+- (_Bool)performAndWaitForFetchedResultsControllers:block: /* Error: Ran out of types for this method. */;
+- (_Bool)pendingMentionsInContext:createdBeforeDate: /* Error: Ran out of types for this method. */;
+- (id)getIndexes:maxCount:inIndexRange: /* Error: Ran out of types for this method. */;
+- (id)gestureRecognizer:shouldReceiveTouch: /* Error: Ran out of types for this method. */;
+- (id)gestureRecognizer:(BOOL)arg1 shouldBeRequiredToFailByGestureRecognizer: /* Error: Ran out of types for this method. */;
+- (id)dateHeadersTypeUserDefaultsKey;
+- (void),V_directlyEditing;
+- (double)sSessionUUID;
 - (void);
 - (void);
 - (void);
 - (struct CKBalloonDescriptor_t);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
@@ -76,25 +54,14 @@
 - (void);
 - (void);
 - (id);
-- (double);
+- (double)duration;
 - (_Bool)yAByAwNyÊ]SgGG_Qo_ANyÏ]GGANyAYSgGGA11_GGtGG ]GAEyAFyAL_AGyAFyAM_ATtGGÐ]A25_tGGGGS¸]yå^^GG6¦]GAFyABy²Ð]ySayAãGSSb^yAByÈa^yBã_AByACyAMGA22_GSgQo_A39_G_SSA47_Qo_G!ãG_"ãtGG;
 - (void)age == %@;
-- (void)nForDisplayQueue;
+- (void)CKIMIconGenerationForDisplayQueue;
 - (void)8p7H.;
 
 // Remaining properties
-@property(nonatomic) double duration; // @synthesize duration;
-@property(nonatomic) double initialTimeBeforePan; // @synthesize initialTimeBeforePan;
 @property(nonatomic, readonly) _Bool isAudioMessage;
-@property(nonatomic, retain) CKAudioMediaObject *mediaObject; // @synthesize mediaObject;
-@property(nonatomic) double playbackSpeed; // @synthesize playbackSpeed;
-@property(nonatomic) _Bool played; // @synthesize played=isPlayed;
-@property(nonatomic) _Bool playing; // @synthesize playing=isPlaying;
-@property(nonatomic) _Bool serviceIsRCS; // @synthesize serviceIsRCS;
-@property(nonatomic) _Bool serviceIsSMS; // @synthesize serviceIsSMS;
-@property(nonatomic) double time; // @synthesize time;
-@property(nonatomic) long long waveformContentMode; // @synthesize waveformContentMode;
-@property(nonatomic, retain) ChatKit.AudioMessageWaveform *waveformView;
 
 @end
 

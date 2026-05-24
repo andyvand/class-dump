@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface TMAPFSDisk
 {
     NSNumber *_volumeRole;
-    NSString *_volumeGroupUUID;
-    NSNumber *_bytesUsed;
-    NSNumber *_bytesFree;
-    NSNumber *_capacity;
-    NSNumber *_quota;
-    NSNumber *_maximumVolumeSize;
-    NSString *_snapshotUUID;
-    unsigned long long _snapshotXID;
 }
 
 + (unsigned long long);
@@ -35,14 +27,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSNumber *bytesFree; // @synthesize bytesFree=_bytesFree;
-@property(readonly, copy) NSNumber *bytesUsed; // @synthesize bytesUsed=_bytesUsed;
-@property(readonly, copy) NSNumber *capacity; // @synthesize capacity=_capacity;
-@property(readonly, copy) NSNumber *maximumVolumeSize; // @synthesize maximumVolumeSize=_maximumVolumeSize;
-@property(readonly, copy) NSNumber *quota; // @synthesize quota=_quota;
-@property(readonly, copy) NSString *snapshotUUID; // @synthesize snapshotUUID=_snapshotUUID;
-@property(readonly) unsigned long long snapshotXID; // @synthesize snapshotXID=_snapshotXID;
-@property(readonly, copy) NSString *volumeGroupUUID; // @synthesize volumeGroupUUID=_volumeGroupUUID;
 @property(readonly, copy) NSNumber *volumeRole; // @synthesize volumeRole=_volumeRole;
 
 @end

@@ -4,50 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, GEOMapRegion, GEOPDPoiIconCategoryFilter, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSpatialPlaceLookupParameters
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_95bda58d _categoryFilters;
-    CDStruct_9f2792e4 _excludeIconCategoryFilters;
-    CDStruct_9f2792e4 _includeIconCategoryFilters;
-    GEOLatLng *_center;
-    GEOMapRegion *_mapRegion;
-    GEOPDPoiIconCategoryFilter *_poiIconCategoryFilter;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _count;
-    int _radius;
-    int _spatialPlaceLookupRequestVersion;
-    struct {
-        unsigned int has_count:1;
-        unsigned int has_radius:1;
-        unsigned int has_spatialPlaceLookupRequestVersion:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_categoryFilters:1;
-        unsigned int read_excludeIconCategoryFilters:1;
-        unsigned int read_includeIconCategoryFilters:1;
-        unsigned int read_center:1;
-        unsigned int read_mapRegion:1;
-        unsigned int read_poiIconCategoryFilter:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (void);
 - (id);
-- (void);
-- (id);
-- (unsigned long long);
+- (void)_settingsArchivesByDomainID;
+- (id)getBestSupportedSiriLanguageWithFallback: /* Error: Ran out of types for this method. */;
+- (unsigned long long)P;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)b1};
-- (id)finementOriginType;
+- (id)_resultRefinementOriginType;
 - (id)Tup|´~	(T(üÐ¤xL  ¡ô¡©,¯ü±;
 - (void);
 

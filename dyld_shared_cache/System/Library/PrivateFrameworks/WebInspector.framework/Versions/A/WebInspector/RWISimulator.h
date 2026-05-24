@@ -6,19 +6,11 @@
 
 #import <WebInspector/RWITarget.h>
 
-@class NSImage, NSObject, NSString, SimDevice;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSString;
 
 @interface RWISimulator : RWITarget
 {
     NSString *_loggingIdentifier;
-    NSImage *_icon;
-    NSImage *_symbolImage;
-    SimDevice *_simDevice;
-    NSString *_simDeviceDomainSocketPath;
-    NSObject<OS_dispatch_queue> *_simAccessQueue;
-    NSObject<OS_dispatch_source> *_simAccessQueueReadinessTimer;
-    long long _deviceClass;
 }
 
 - (id);
@@ -30,19 +22,19 @@
 - (void);
 - (void);
 - (void);
+- (_Bool)ө";
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)@;
 - (id);
 - (void);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)6;
 - (_Bool);
 - (id);
 - (long long);
 - (id);
-- (void);
+- (void)X;
 - (id);
 
 // Remaining properties

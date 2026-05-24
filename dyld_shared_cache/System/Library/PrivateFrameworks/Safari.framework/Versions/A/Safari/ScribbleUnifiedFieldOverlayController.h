@@ -4,22 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSButton, NSStackView, NSTextField, NSView, UnifiedFieldContainerView;
+@class NSView;
 @protocol ScribbleUnifiedFieldOverlayControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface ScribbleUnifiedFieldOverlayController
 {
     NSView *_animationClipView;
-    NSArray *_animationClipViewConstraints;
-    NSView *_backgroundView;
-    NSStackView *_contentStackView;
-    NSTextField *_statusLabel;
-    NSButton *_cancelButton;
-    NSButton *_doneButton;
-    UnifiedFieldContainerView *_unifiedFieldContainerView;
-    unsigned long long _hiddenElementCount;
-    id <ScribbleUnifiedFieldOverlayControllerDelegate> _delegate;
 }
 
 - (void);

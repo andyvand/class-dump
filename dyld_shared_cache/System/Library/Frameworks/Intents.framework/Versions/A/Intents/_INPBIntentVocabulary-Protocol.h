@@ -7,11 +7,9 @@
 @class NSArray;
 
 @protocol _INPBIntentVocabulary
++ (Class);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *intentSlotVocabularyPolicies;
-@property(readonly, nonatomic) unsigned long long intentSlotVocabularyPoliciesCount;
-@property(copy, nonatomic) NSArray *intentTypePhrases;
-@property(readonly, nonatomic) unsigned long long intentTypePhrasesCount;
 @end
 

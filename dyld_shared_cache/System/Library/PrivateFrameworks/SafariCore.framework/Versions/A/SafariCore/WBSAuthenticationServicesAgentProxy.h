@@ -4,50 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSXPCConnection, NSXPCInterface, NSXPCListener;
-@protocol WBSAuthenticationServicesAgentDelegate, WBSConditionalRegistrationRequester;
+@class NSXPCConnection;
+@protocol WBSAuthenticationServicesAgentDelegate;
 
 @interface WBSAuthenticationServicesAgentProxy
 {
     NSXPCConnection *_connection;
-    NSXPCListener *_conditionalRegistrationListener;
-    struct os_unfair_lock_s _lock;
-    id <WBSAuthenticationServicesAgentDelegate> _delegate;
-    id <WBSConditionalRegistrationRequester> _conditionalRegistrationRequester;
-    NSXPCInterface *_conditionalRegistrationInterface;
 }
 
-- (id);
+- (id)J ;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)selectionFromPage:(id)arg1 atPoint:(id)arg2 toPage:(id)arg3 atPoint:(id)arg4 type:(id)arg5;
+- (void)_allowsMultipleSelection;
+- (id)ҥ;
 - (void);
 - (void);
 - (void);
+- (void)s packet is finished; can't write another address;
+- (void)finition.;
+- (id)B;
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)lineEndWithIdentifier: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
+- (id)setItemType: /* Error: Ran out of types for this method. */;
+- (void)AdamID;
+- (void)`(;
+- (void)$;
+- (void);
+- (id)ndler:(id)arg1 %@;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -55,8 +50,6 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSXPCInterface *conditionalRegistrationInterface; // @synthesize conditionalRegistrationInterface=_conditionalRegistrationInterface;
-@property(retain, nonatomic) id <WBSConditionalRegistrationRequester> conditionalRegistrationRequester; // @synthesize conditionalRegistrationRequester=_conditionalRegistrationRequester;
 @property(nonatomic) __weak id <WBSAuthenticationServicesAgentDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end

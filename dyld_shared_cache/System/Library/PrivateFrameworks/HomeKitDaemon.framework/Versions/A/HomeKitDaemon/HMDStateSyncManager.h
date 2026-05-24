@@ -4,29 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, HMDResidentStatusChannel, HMFMessageDispatcher, HMFTimer, NSHashTable, NSMapTable, NSMutableDictionary, NSMutableSet, NSNotificationCenter, NSObject, NSString, NSUUID;
-@protocol HMDResidentDeviceManagerContext, HMFTimerProvider, OS_dispatch_queue;
+@class HMDHome, NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDStateSyncManager
 {
     NSObject<OS_dispatch_queue> *_queue;
-    HMFMessageDispatcher *_dispatcher;
-    _Bool _isResidentCapable;
-    HMDHome *_home;
-    HMDResidentStatusChannel *_residentStatusChannel;
-    id <HMDResidentDeviceManagerContext> _residentDeviceManagerContext;
-    NSHashTable *_stateSyncDelegates;
-    NSMapTable *_stateSyncObserversByDomain;
-    NSMutableDictionary *_scopeByDomain;
-    NSMutableDictionary *_syncOptionsByDomain;
-    NSMutableDictionary *_lastPublishedStateByDomain;
-    NSMutableDictionary *_lastPublishedChangeTokenByDomain;
-    NSMutableDictionary *_lastSeenChangeTokensByDomain;
-    NSNotificationCenter *_notificationCenter;
-    id <HMFTimerProvider> _timerProvider;
-    HMFTimer *_fetchRetryTimer;
-    NSMutableSet *_fetchRetryDomains;
 }
 
 + (id)_KB;
@@ -36,18 +20,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
+- (void)c;
+- (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)_placeDisplayType;
+- (id)_peersByConnection;
+- (id)al text message body;
 - (void);
 - (void);
 - (void);
@@ -55,7 +39,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)7m;
 - (void);
 - (void);
 - (void);
@@ -85,33 +69,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)eÿO;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableSet *fetchRetryDomains; // @synthesize fetchRetryDomains=_fetchRetryDomains;
-@property(retain, nonatomic) HMFTimer *fetchRetryTimer; // @synthesize fetchRetryTimer=_fetchRetryTimer;
-@property(readonly) unsigned long long hash;
 @property(readonly) __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly) _Bool isResidentCapable; // @synthesize isResidentCapable=_isResidentCapable;
-@property(readonly, nonatomic) NSMutableDictionary *lastPublishedChangeTokenByDomain; // @synthesize lastPublishedChangeTokenByDomain=_lastPublishedChangeTokenByDomain;
-@property(readonly, nonatomic) NSMutableDictionary *lastPublishedStateByDomain; // @synthesize lastPublishedStateByDomain=_lastPublishedStateByDomain;
-@property(readonly, nonatomic) NSMutableDictionary *lastSeenChangeTokensByDomain; // @synthesize lastSeenChangeTokensByDomain=_lastSeenChangeTokensByDomain;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly, nonatomic) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly) __weak id <HMDResidentDeviceManagerContext> residentDeviceManagerContext; // @synthesize residentDeviceManagerContext=_residentDeviceManagerContext;
-@property(readonly) __weak HMDResidentStatusChannel *residentStatusChannel; // @synthesize residentStatusChannel=_residentStatusChannel;
-@property(readonly, nonatomic) NSMutableDictionary *scopeByDomain; // @synthesize scopeByDomain=_scopeByDomain;
-@property(readonly, nonatomic) NSHashTable *stateSyncDelegates; // @synthesize stateSyncDelegates=_stateSyncDelegates;
-@property(readonly, nonatomic) NSMapTable *stateSyncObserversByDomain; // @synthesize stateSyncObserversByDomain=_stateSyncObserversByDomain;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSMutableDictionary *syncOptionsByDomain; // @synthesize syncOptionsByDomain=_syncOptionsByDomain;
-@property(readonly, nonatomic) id <HMFTimerProvider> timerProvider; // @synthesize timerProvider=_timerProvider;
 
 @end
 

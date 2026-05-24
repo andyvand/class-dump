@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DMFPolicyRegistration, NSUUID;
+@class NSUUID;
 
 @interface DMFApplicationPolicyMonitor
 {
     NSUUID *_identifier;
-    DMFPolicyRegistration *_registration;
 }
 
 + (void);
@@ -21,11 +20,10 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)Vv;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) DMFPolicyRegistration *registration; // @synthesize registration=_registration;
 
 @end
 

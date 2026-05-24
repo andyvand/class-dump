@@ -4,37 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IXDemotingAppInstallCoordinator, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _IXDemoteToPlaceholderDelegate
 {
     NSString *_bundleID;
-    CDUnknownBlockType _completion;
-    IXDemotingAppInstallCoordinator *_coordinator;
 }
 
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (id);
+- (id)DistanceFromOriginToDestination;
 - (void);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(retain, nonatomic) IXDemotingAppInstallCoordinator *coordinator; // @synthesize coordinator=_coordinator;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

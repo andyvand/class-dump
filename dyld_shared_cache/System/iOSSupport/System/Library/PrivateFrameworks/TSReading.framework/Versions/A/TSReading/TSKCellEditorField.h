@@ -4,39 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UILabel, UITextView;
+@class UILabel, UITextView;
 
 @interface TSKCellEditorField
 {
     UITextView *mTextView;
-    UILabel *mLeftSymbolView;
-    UILabel *mRightSymbolView;
 }
 
 - (void);
-- (void);
-- (void);
+- (void)eturned from request;
+- (void)info;
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
+- (void);
+- (void)P;
 - (id);
+- (void);
+- (id)tagService;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *leftSymbol;
 @property(retain, nonatomic) UILabel *leftSymbolView; // @synthesize leftSymbolView=mLeftSymbolView;
-@property(retain, nonatomic) NSString *rightSymbol;
-@property(retain, nonatomic) UILabel *rightSymbolView; // @synthesize rightSymbolView=mRightSymbolView;
-@property(retain, nonatomic) NSString *text;
-@property(retain, nonatomic) UITextView *textView; // @synthesize textView=mTextView;
 
 @end
 

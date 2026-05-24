@@ -9,7 +9,6 @@
 @interface MPSMatrixSoftMax : MPSMatrixUnaryKernel
 {
     unsigned long long _sourceColumns;
-    unsigned long long _sourceRows;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -25,7 +24,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long sourceColumns; // @synthesize sourceColumns=_sourceColumns;
 @property(nonatomic) unsigned long long sourceRows; // @synthesize sourceRows=_sourceRows;
 
 @end

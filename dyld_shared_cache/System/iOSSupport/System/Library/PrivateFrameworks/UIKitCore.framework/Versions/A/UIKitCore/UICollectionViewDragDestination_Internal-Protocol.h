@@ -9,6 +9,6 @@
 @protocol UICollectionViewDragDestination_Internal
 
 @optional
-- (NSIndexPath *)l;
+- (NSIndexPath *)_impl;
 @end
 

@@ -6,7 +6,7 @@
 
 #import <FrontBoardServices/FBSSceneDefinition.h>
 
-@class FBSSceneClientIdentity, FBSSceneIdentity, FBSSceneSpecification;
+@class FBSSceneIdentity;
 
 @interface FBSMutableSceneDefinition : FBSSceneDefinition
 {
@@ -15,9 +15,7 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) FBSSceneClientIdentity *clientIdentity; // @dynamic clientIdentity;
 @property(copy, nonatomic) FBSSceneIdentity *identity; // @dynamic identity;
-@property(copy, nonatomic) FBSSceneSpecification *specification; // @dynamic specification;
 
 @end
 

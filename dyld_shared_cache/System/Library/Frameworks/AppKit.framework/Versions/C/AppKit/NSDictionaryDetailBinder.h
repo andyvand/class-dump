@@ -11,13 +11,13 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool);
-+ (id);
-+ (id);
++ (_Bool)n %llu:(id)arg1 source bundle id %@ is marked external;
++ (id)kCFFTPProtocolPropertyReturnDirectoryListing;
++ (id)allowsExpensiveNetworkAccess=%d allowsConstrainedNetworkAccess=%d requiresPowerPluggedIn=%d;
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)5;
 - (id);
 - (void);
 - (_Bool);

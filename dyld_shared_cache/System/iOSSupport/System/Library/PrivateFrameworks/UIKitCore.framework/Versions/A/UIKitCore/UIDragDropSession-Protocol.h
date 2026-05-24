@@ -7,12 +7,10 @@
 @class NSArray, UIView;
 
 @protocol UIDragDropSession
-- (struct CGPoint)_backgroundConfigurationShadowType:(UIView *)arg1;
-- (NSArray *)rtionalFillDenominator;
+- (struct CGPoint)set_backgroundConfigurationShadowType:(UIView *)arg1;
+- (NSArray *)proportionalFillDenominator;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsMoveOperation;
 @property(readonly, nonatomic) NSArray *items;
-@property(readonly, nonatomic, getter=isRestrictedToDraggingApplication) _Bool restrictedToDraggingApplication;
 @end
 

@@ -19,8 +19,8 @@
 - (void);
 - (struct MTLResourceID);
 - (id);
-- (void);
-- (id);
+- (void)*=;
+- (id),;
 - (void)uctureDescriptor"16Q24;
 
 @end

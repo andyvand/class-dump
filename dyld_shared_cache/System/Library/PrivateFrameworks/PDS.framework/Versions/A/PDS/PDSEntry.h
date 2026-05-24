@@ -4,37 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PDSRegistration, PDSUser;
+@class PDSUser;
 
 @interface PDSEntry
 {
     unsigned char _state;
-    PDSUser *_user;
-    PDSRegistration *_registration;
-    NSString *_clientID;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (id)=QAQ}^{__SecKeyDescriptor}^v}32;
+- (_Bool)entryWithValues:(id)arg1 label:error:setupBlock: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (unsigned char);
 - (_Bool);
-- (void);
+- (void)Running;
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *clientID; // @synthesize clientID=_clientID;
-@property(readonly, nonatomic) PDSRegistration *registration; // @synthesize registration=_registration;
-@property(readonly, nonatomic) unsigned char state; // @synthesize state=_state;
 @property(readonly, nonatomic) PDSUser *user; // @synthesize user=_user;
 
 @end

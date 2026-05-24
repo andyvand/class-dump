@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)CallControlError 1;
 
 @end
 

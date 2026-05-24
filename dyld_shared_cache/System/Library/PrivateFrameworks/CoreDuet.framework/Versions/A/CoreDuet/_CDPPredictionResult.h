@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface _CDPPredictionResult
 {
     NSMutableDictionary *_scoresForMembers;
-    NSArray *_rankedMembers;
-    double _weight;
 }
 
 - (void);
@@ -22,14 +20,13 @@
 - (id);
 - (id);
 - (double);
-- (void);
+- (void);
 - (void);
 - (void)·/!PBùª31Â0@ù
 × ;
 
 // Remaining properties
 @property(retain) NSMutableDictionary *scoresForMembers; // @synthesize scoresForMembers=_scoresForMembers;
-@property double weight; // @synthesize weight=_weight;
 
 @end
 

@@ -11,6 +11,5 @@
 
 // Remaining properties
 @property(readonly) id <MTLBinaryArchive> destinationBinaryArchive;
-@property(readonly) _Bool shouldMaximizeConcurrentCompilation;
 @end
 

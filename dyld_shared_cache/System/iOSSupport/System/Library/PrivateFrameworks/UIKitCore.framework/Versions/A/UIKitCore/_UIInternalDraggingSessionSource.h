@@ -6,94 +6,68 @@
 
 #import <UIKitCore/_UIDraggingImageSlotOwner.h>
 
-@class NSArray, NSString, NSTimer, PBItemCollection, UIDragEvent, UIDraggingBeginningSessionConfiguration, UIDraggingSystemTouchRoutingPolicy, UIView, UIWindow, _UIDragSetDownAnimation, _UIDruidSourceConnection;
-@protocol _UIDraggingSessionDelegate;
+@class _UIDruidSourceConnection;
 
 __attribute__((visibility("hidden")))
 @interface _UIInternalDraggingSessionSource : _UIDraggingImageSlotOwner
 {
     struct CAPoint3D _lastNotifiedCentroid;
-    _Bool _didHandOffDragImage;
-    PBItemCollection *_pbItemCollection;
-    UIDraggingSystemTouchRoutingPolicy *_touchRoutingPolicy;
-    _UIDragSetDownAnimation *_setDownAnimation;
-    long long _stateAfterSetDown;
-    _Bool _sentWillEnd;
-    _Bool _hostIsActive;
-    _Bool _originatedInHostedWindow;
-    NSTimer *_waitingToSendDidExitAppTimer;
-    UIDraggingBeginningSessionConfiguration *_configuration;
-    _Bool _restrictedToSourceApp;
-    unsigned int _sessionIdentifier;
-    id <_UIDraggingSessionDelegate> _delegate;
-    UIDragEvent *_dragEvent;
-    UIView *_sourceView;
-    long long _state;
-    unsigned long long _resultOperation;
-    NSArray *_internalItems;
-    long long _dataOwner;
-    UIWindow *_centroidWindow;
-    UIWindow *_weakCentroidWindow;
-    unsigned long long _withinAppSourceOperationMask;
-    unsigned long long _outsideAppSourceOperationMask;
-    _UIDruidSourceConnection *_druidConnection;
-    struct CAPoint3D _centroid;
 }
 
 - (unsigned long long);
 - (id);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)R);
+- (id)(;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (_Bool)orationMetadata"24q32@?<v@?>40;
+- (_Bool)2@40C48@52@60;
+- (unsigned long long)dleID:messageDate: /* Error: Ran out of types for this method. */;
+- (void)setHasBeenRemoteApproved:(id)arg1;
+- (id)methodSignatureForSelector:(id)arg1;
+- (_Bool)didReceiveBalloonPayload:forChat:style:messageGUID:account: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)deleteChatBotAttachmentSyncToken;
+- (id)deleteAllDataWithCompletionHandler: /* Error: Ran out of types for this method. */;
+- (void)defuseSatelliteSMSTextMessageDictionary:error: /* Error: Ran out of types for this method. */;
+- (_Bool)componentsJoinedByString: /* Error: Ran out of types for this method. */;
+- (long long)addNewAttachmentsSyncedCount: /* Error: Ran out of types for this method. */;
+- (id)_nicknamesForParticipants;
+- (_Bool)_listener;
+- (void)_forwardMessageToPeers:(CDUnknownBlockType)arg1 messageType:guid:originalSender:forcedCallerID:hasAttachment:watchOnly:sentToDevices:requiredCapabilities: /* Error: Ran out of types for this method. */;
+- (void)assetURLForKey:(id)arg1;
+- (void)newChatListenerTask;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)X;
+- (void)D;
 - (_Bool);
-- (_Bool);
+- (void)or delivered quietly receipt:%@ /* Error: Ran out of types for this method. */;
+- (void)%@;
+- (void)message to CKRecord with metadata:(id)arg1 %@;
+- (void)hile deleting messages %@;
+- (void)for chatGUID (%@);
+- (void)temporary map until we leave first unlock;
+- (_Bool)py file transfer:(id)arg1 %@;
+- (unsigned long long)n style=";
+- (void)IMSenderCapabilityPipelineComponent;
+- (void)@;-;%@;
+- (id)SharedWithYou.framework/Contents/MacOS/SharedWithYou;
+- (void);
+- (void)_pGGG;
+- (id)yxG;
 - (unsigned long long);
 - (void);
 - (id);
-- (_Bool);
-- (struct CGPoint);
-- (id);
-- (void);
-- (_Bool);
-- (long long);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (unsigned long long);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (void);
-- (id);
-- (void);
+- (void)O;
 - (id);
 - (void)!Bù^1Â0@ù
 × ;
@@ -109,34 +83,7 @@ __attribute__((visibility("hidden")))
 - (unsigned int)¬^;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canAddItems;
-@property(readonly, nonatomic) struct CAPoint3D centroid; // @synthesize centroid=_centroid;
-@property(readonly, nonatomic) UIWindow *centroidWindow; // @synthesize centroidWindow=_centroidWindow;
-@property(nonatomic) long long dataOwner; // @synthesize dataOwner=_dataOwner;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <_UIDraggingSessionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool didHandOffDragImage;
-@property(nonatomic) __weak UIDragEvent *dragEvent; // @synthesize dragEvent=_dragEvent;
-@property(readonly, nonatomic) unsigned long long draggingSourceOperationMask;
 @property(retain, nonatomic) _UIDruidSourceConnection *druidConnection; // @synthesize druidConnection=_druidConnection;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *internalItems; // @synthesize internalItems=_internalItems;
-@property(readonly, nonatomic) _Bool isActive;
-@property(readonly, nonatomic) unsigned long long outsideAppSourceOperationMask; // @synthesize outsideAppSourceOperationMask=_outsideAppSourceOperationMask;
-@property(readonly, nonatomic) _Bool prefersFullSizePreview;
-@property(readonly, nonatomic) _Bool restrictedToSourceApp; // @synthesize restrictedToSourceApp=_restrictedToSourceApp;
-@property(nonatomic) unsigned long long resultOperation; // @synthesize resultOperation=_resultOperation;
-@property(readonly, nonatomic) unsigned int sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
-@property(readonly, nonatomic) _Bool shouldCancelOnAppDeactivation;
-@property(nonatomic) __weak UIView *sourceView; // @synthesize sourceView=_sourceView;
-@property(nonatomic) long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) __weak UIWindow *weakCentroidWindow; // @synthesize weakCentroidWindow=_weakCentroidWindow;
-@property(readonly, nonatomic) unsigned long long withinAppSourceOperationMask; // @synthesize withinAppSourceOperationMask=_withinAppSourceOperationMask;
 
 @end
 

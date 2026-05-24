@@ -4,32 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PGGraphBuilder, PGGraphIngestHolidayProcessorHelper;
+@class PGGraphBuilder;
 
 @interface PGGraphIngestHolidaysProcessor
 {
     PGGraphBuilder *_graphBuilder;
-    PGGraphIngestHolidayProcessorHelper *_helper;
 }
 
-+ (unsigned long long);
++ (unsigned long long)erClassPreflight:applicationIdentifier:role:subrole:predicate:] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)setPredicate:(id)arg1;
+- (void)LibCall_ACMKernDoubleClickNotify;
+- (void)+ sizeof(commandBuffer);
 - (id);
 - (void);
 - (void)ity:%@, /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

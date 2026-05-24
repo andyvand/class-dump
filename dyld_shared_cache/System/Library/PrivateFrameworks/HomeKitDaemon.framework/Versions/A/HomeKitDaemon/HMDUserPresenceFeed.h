@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDUser, HMDUserPresenceRegion, HMDUserPresenceUpdateReason, HMUserPresenceAuthorization, HMUserPresenceCompute;
+@class HMDUser;
 
 __attribute__((visibility("hidden")))
 @interface HMDUserPresenceFeed
 {
     HMDUser *_user;
-    HMUserPresenceAuthorization *_presenceAuthStatus;
-    HMUserPresenceCompute *_presenceComputeStatus;
-    HMDUserPresenceRegion *_presenceRegion;
-    HMDUserPresenceUpdateReason *_reason;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)n;
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void)NetworkRouterControlOperationStatusTypeInvalidCredentialError;
-- (id)aptiveTemperatureAutomations;
+- (void)HMDNetworkRouterControlOperationStatusTypeInvalidCredentialError;
+- (id)supportsAdaptiveTemperatureAutomations;
 
 // Remaining properties
-@property(readonly, nonatomic) HMUserPresenceAuthorization *presenceAuthStatus; // @synthesize presenceAuthStatus=_presenceAuthStatus;
-@property(readonly, nonatomic) HMUserPresenceCompute *presenceComputeStatus; // @synthesize presenceComputeStatus=_presenceComputeStatus;
-@property(readonly, nonatomic) HMDUserPresenceRegion *presenceRegion; // @synthesize presenceRegion=_presenceRegion;
-@property(readonly, nonatomic) HMDUserPresenceUpdateReason *reason; // @synthesize reason=_reason;
 @property(readonly, nonatomic) __weak HMDUser *user; // @synthesize user=_user;
 
 @end

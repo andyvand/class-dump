@@ -9,8 +9,8 @@
 }
 
 + (id);
-+ (void);
-- (id);
++ (void)_updateForWillChangeWithAddedorModifiedAccount:store: /* Error: Ran out of types for this method. */;
+- (id);
 
 @end
 

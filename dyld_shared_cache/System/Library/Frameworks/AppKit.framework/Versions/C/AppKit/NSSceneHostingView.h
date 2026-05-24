@@ -6,48 +6,37 @@
 
 #import <AppKit/NSView.h>
 
-@class CALayerHost, FBScene, NSArray, NSLayoutConstraint, NSSceneHostingController;
-
 @interface NSSceneHostingView : NSView
 {
     _Bool useEventMask;
-    struct CGPoint overrideScreenPoint;
-    FBScene *scene;
-    void controller;
-    void windowObservers;
-    CALayerHost *layerHost;
-    NSLayoutConstraint *widthConstraint;
-    NSLayoutConstraint *heightConstraint;
-    void accessibilityUnorderedChildren;
-    void accessibilityHorizontalOrderedChildren;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
+- (void)?נ;
 - (void);
 - (void);
+- (struct CGPoint);
 - (void);
-- (struct CGPoint);
-- (void);
+- (id)searchForRegistrationDomains;
+- (id)download:decideDestinationWithSuggestedFilename: /* Error: Ran out of types for this method. */;
+- (id)countOfBytesClientExpectsToReceive;
+- (id)count;
+- (id)copyStreamProperty:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)cookiesWithResponseHeaderFields:forURL: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void).metadata:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (void)ñä3Ð1Â0@ù
 × ;
-- (id):(struct CGRect)arg1 autolaunch: /* Error: Ran out of types for this method. */;
-- (void)lProvider;
+- (id)launchApplication:(struct CGRect)arg1 showIcon:autolaunch: /* Error: Ran out of types for this method. */;
+- (void)NSBoxSeparatorVisualProvider;
 - (id);
 - (void)8¸;
 - (id)¨;
@@ -55,19 +44,10 @@
 - (id)place to cancel;
 - (id);
 - (void)t´;
-- (void)f;
+- (void)NCGPathRef;
 
 // Remaining properties
-@property(nonatomic, copy) NSArray *accessibilityHorizontalOrderedChildren;
-@property(nonatomic, copy) NSArray *accessibilityUnorderedChildren;
-@property(nonatomic) __weak NSSceneHostingController *controller; // @synthesize controller;
-@property(nonatomic, retain) NSLayoutConstraint *heightConstraint; // @synthesize heightConstraint;
-@property(nonatomic, readonly) CALayerHost *layerHost; // @synthesize layerHost;
-@property(nonatomic) struct CGPoint overrideScreenPoint; // @synthesize overrideScreenPoint;
-@property(nonatomic, readonly) FBScene *scene; // @synthesize scene;
 @property(nonatomic) _Bool useEventMask; // @synthesize useEventMask;
-@property(nonatomic, retain) NSLayoutConstraint *widthConstraint; // @synthesize widthConstraint;
-@property(nonatomic, copy) NSArray *windowObservers;
 
 @end
 

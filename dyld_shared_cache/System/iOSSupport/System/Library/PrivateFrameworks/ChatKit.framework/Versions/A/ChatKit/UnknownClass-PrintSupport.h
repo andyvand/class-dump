@@ -9,17 +9,17 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)Coordinator;
+- (_Bool)didPressLearnMore;
+- (_Bool)hasMultipleAccounts;
+- (void)Configuration;
+- (_Bool)isAsynchronous;
+- (id)isInverted;
+- (void)removeObjects;
 - (_Bool);
 - (void);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (unsigned long long);
-- (long long);
+- (void)attachment;
+- (unsigned long long)input;
+- (long long)mplemented;
 @end
 

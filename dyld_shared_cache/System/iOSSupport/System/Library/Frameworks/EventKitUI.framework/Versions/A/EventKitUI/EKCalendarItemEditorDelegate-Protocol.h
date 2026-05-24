@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol CUIKEditor;
+
 @protocol EKCalendarItemEditorDelegate
+- (id <CUIKEditor>)-+s;
+
+@optional
+- (_Bool);
+- (void)&s;
+- (void);
+- (void)D%s;
 @end
 

@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchBrowseCategorySuggestionResult
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_categorys;
-    _Bool _shouldRenderAsTopSectionSearchHome;
-    struct {
-        unsigned int has_shouldRenderAsTopSectionSearchHome:1;
-    } _flags;
 }
 
 - (id);
@@ -23,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)tPrimary"b1"read_responseAlertSecondary"b1"read_title"b1"wrote_anyField"b1};
-- (id)CardPlaceActionDetailsResultIndex;
+- (id)_placeCardPlaceActionDetailsResultIndex;
 - (id)(';
 - (void);
 

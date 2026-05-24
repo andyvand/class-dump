@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface DDSServerConfiguration
 {
     NSString *_xpcServiceName;
-    NSURL *_assertionStorageDirectoryURL;
 }
 
-- (id);
-- (id);
+- (id)setHasCountAttributeQPQUMatch:(id)arg1;
+- (id)setHasContextMatcherSpanCount: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (id);
+- (id)x;
 - (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSURL *assertionStorageDirectoryURL; // @synthesize assertionStorageDirectoryURL=_assertionStorageDirectoryURL;
 @property(readonly, copy) NSString *xpcServiceName; // @synthesize xpcServiceName=_xpcServiceName;
 
 @end

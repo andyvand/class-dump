@@ -5,5 +5,8 @@
 //
 
 @protocol _RWITCPConnectionDelegate
+
+@optional
+- (void);
 @end
 

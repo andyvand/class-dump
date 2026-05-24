@@ -7,7 +7,6 @@
 @interface NewsArticles.ArticleMessageLabel
 {
     id delegate;
-    id accessoryPresentationMode;
 }
 
 - (id);

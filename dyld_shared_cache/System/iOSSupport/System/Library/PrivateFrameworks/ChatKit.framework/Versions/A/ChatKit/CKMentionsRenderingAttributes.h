@@ -10,27 +10,24 @@ __attribute__((visibility("hidden")))
 @interface CKMentionsRenderingAttributes
 {
     UIColor *_color;
-    UIColor *_shadowColor;
-    double _scale;
 }
 
-+ (id);
-- (id);
-- (id);
-- (void);
++ (id)cludeOutlineParentItems:(id)arg1 ] is not implemented;
+- (id)Resume_t;
+- (id)u;
+- (void)2&Xi
+;
 - (double);
 - (id);
 - (void);
-- (void)nterrupted;
-- (id):forPlugin:allowAllCommits:error: /* Error: Ran out of types for this method. */;
+- (void)interrupted;
+- (id)commitPayload:forPlugin:allowAllCommits:error: /* Error: Ran out of types for this method. */;
 - (void)Ä
 ;
 - (void)øÿ©ÿ ;
 
 // Remaining properties
 @property(copy, nonatomic) UIColor *color; // @synthesize color=_color;
-@property(nonatomic) double scale; // @synthesize scale=_scale;
-@property(copy, nonatomic) UIColor *shadowColor; // @synthesize shadowColor=_shadowColor;
 
 @end
 

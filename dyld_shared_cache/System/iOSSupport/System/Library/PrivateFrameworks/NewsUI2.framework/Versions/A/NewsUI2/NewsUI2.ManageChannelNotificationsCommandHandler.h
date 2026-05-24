@@ -7,15 +7,6 @@
 @interface NewsUI2.ManageChannelNotificationsCommandHandler
 {
     id navigator;
-    id tracker;
-    id followingDataManager;
-    id subscriptionController;
-    id pushNotificationDataManager;
-    id userNotificationService;
-    id featureAvailability;
-    id offlineProvider;
-    id sportsOnboardingManager;
-    id commandCenter;
 }
 
 - (void);

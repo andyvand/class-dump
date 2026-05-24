@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AWDProactiveModelFittingMinibatchStats, AWDProactiveModelFittingModelInfo;
+@class AWDProactiveModelFittingModelInfo;
 
 @interface AWDProactiveModelFittingModelInfoStatsPair
 {
     AWDProactiveModelFittingModelInfo *_modelInfo;
-    AWDProactiveModelFittingMinibatchStats *_stats;
 }
 
 - (void);
@@ -17,23 +16,21 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)strongToStrongObjectsMapTable;
 - (void);
-- (void);
+- (void)9;
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)a
+;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasModelInfo;
-@property(readonly, nonatomic) _Bool hasStats;
-@property(retain, nonatomic) AWDProactiveModelFittingModelInfo *modelInfo; // @synthesize modelInfo=_modelInfo;
-@property(retain, nonatomic) AWDProactiveModelFittingMinibatchStats *stats; // @synthesize stats=_stats;
 
 @end
 

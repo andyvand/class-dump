@@ -4,60 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PXGItemPlacement, PXPhotosViewModel, PXStoryViewChromeTitleConfiguration;
-@protocol PXPhotosNavigationPermission, PXStoryViewActionPerformer, PXStoryViewEnvironmentModel;
-
 @protocol PXStoryMutableViewModel
 - (_Bool);
+- (void)!;
+- (void);
+- (long long)VPlayerViewController"16@"NSString"24;
+- (void);
+- (double)k/Versions/A/CoreServices;
 
 // Remaining properties
-@property(nonatomic) __weak id <PXStoryViewActionPerformer> actionPerformer;
-@property(nonatomic) unsigned long long allowedChromeItems;
-@property(nonatomic) double bufferingIndicatorVisibilityFraction;
-@property(nonatomic) unsigned long long chromeItems;
-@property(nonatomic) unsigned long long chromeItemsToBeDisplayedExternally;
-@property(nonatomic) double chromeVisibilityFraction;
-@property(retain, nonatomic) id <PXPhotosNavigationPermission> currentClosePermission;
-@property(copy, nonatomic) PXStoryViewChromeTitleConfiguration *customGeneralChromeTitleConfiguration;
-@property(nonatomic) long long desiredPlayState;
-@property(nonatomic) long long diagnosticHUDType;
-@property(nonatomic) unsigned long long edgeToHighlight;
-@property(nonatomic) double fadeOutOverlayVisibilityFraction;
-@property(nonatomic) long long highlightedRelatedIndex;
-@property(nonatomic) _Bool isActionMenuOpen;
 @property(nonatomic) _Bool isActive;
-@property(nonatomic) _Bool isHUDVisible;
-@property(nonatomic) _Bool isInSelectMode;
-@property(nonatomic) _Bool isPerformingCrossfadeTransitionToRelated;
-@property(nonatomic) _Bool isPerformingViewControllerTransition;
-@property(nonatomic) _Bool isRelatedOverlayScrolledIntoView;
-@property(nonatomic) _Bool isScrubbing;
-@property(nonatomic) _Bool isUserPerformingRemoteGesture;
-@property(nonatomic) double maximumIndividualTopChromeItemVisibilityFraction;
-@property(nonatomic) double muteToggleButtonVisibilityFraction;
-@property(nonatomic) _Bool needsStatusBarVisible;
-@property(retain, nonatomic) PXPhotosViewModel *photosGridViewModel;
-@property(nonatomic) double playbackEndDarkening;
-@property(nonatomic) _Bool pointerOverPlayer;
-@property(copy, nonatomic) NSArray *relatedConfigurations;
-@property(nonatomic) double relatedOverlayVisibilityFraction;
-@property(nonatomic) CDStruct_982265da scrubberPosition;
-@property(nonatomic) double scrubberVisibilityFraction;
-@property(nonatomic) _Bool shouldCountDownToUpNext;
-@property(nonatomic) _Bool shouldShowErrorIndicator;
-@property(nonatomic) _Bool showSongInTitleWhenPaused;
-@property(nonatomic) double styleSwitcherVisibilityFraction;
-@property(nonatomic) _Bool swipeDownDismissalPreviewEnabled;
-@property(nonatomic) double swipeDownDismissalPreviewFraction;
-@property(nonatomic) CDStruct_b546a901 swipeDownInteractionState;
-@property(nonatomic) _Bool swipeDownTriggeringDismissal;
-@property(retain, nonatomic) PXGItemPlacement *viewControllerDismissalTargetPlacement;
-@property(nonatomic) __weak id <PXStoryViewEnvironmentModel> viewEnvironmentModel;
-@property(nonatomic) long long viewMode;
-@property(nonatomic) double volume;
-@property(nonatomic) _Bool wantsChromeVisible;
-@property(nonatomic) _Bool wantsRelatedOverlayNavigationButtonsVisible;
-@property(nonatomic) _Bool wantsRelatedOverlayVisible;
-@property(nonatomic) _Bool wantsScrubberVisible;
 @end
 

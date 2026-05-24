@@ -5,6 +5,7 @@
 //
 
 @protocol CNKSharedContentPippable
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool isPipped;

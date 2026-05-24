@@ -7,19 +7,17 @@
 @interface RTMapItemProviderReverseGeocodeParameters
 {
     double _confidence;
-    double _relatedPlacesConfidence;
 }
 
 - (double);
 - (id);
+- (id)s:%d} /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (double);
+- (double)@;
 - (id)7lf;
 
 // Remaining properties
 @property(readonly, nonatomic) double confidence; // @synthesize confidence=_confidence;
-@property(readonly, nonatomic) double relatedPlacesConfidence; // @synthesize relatedPlacesConfidence=_relatedPlacesConfidence;
 
 @end
 

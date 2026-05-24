@@ -7,7 +7,6 @@
 @interface HomeKitDaemon.Concurrency.UnfairLock
 {
     id $defaultActor;
-    id runningTask;
 }
 
 @end

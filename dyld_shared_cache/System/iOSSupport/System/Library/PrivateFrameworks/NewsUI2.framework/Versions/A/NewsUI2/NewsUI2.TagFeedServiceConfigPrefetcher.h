@@ -7,14 +7,6 @@
 @interface NewsUI2.TagFeedServiceConfigPrefetcher
 {
     id configFetcher;
-    id cloudContext;
-    id operationQueue;
-    id formatService;
-    id sportsDataService;
-    id assetHandleFactory;
-    id cache;
-    id interest;
-    id $__lazy_storage_$_isEnabled;
 }
 
 - (void);

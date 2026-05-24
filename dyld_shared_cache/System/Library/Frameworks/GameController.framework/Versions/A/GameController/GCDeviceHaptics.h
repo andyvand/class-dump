@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GCController, GCHapticCapabilityGraph, NSMutableSet;
+@class GCController, GCHapticCapabilityGraph;
 
 @interface GCDeviceHaptics
 {
     GCHapticCapabilityGraph *_capabilityGraph;
-    NSMutableSet *_supportedLocalities;
-    GCController *_controller;
 }
 
 - (id);
-- (void);
+- (void),;
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)staged;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) GCHapticCapabilityGraph *capabilityGraph;
-@property(nonatomic) __weak GCController *controller; // @synthesize controller=_controller;
-@property(retain, nonatomic) NSMutableSet *supportedLocalities; // @synthesize supportedLocalities=_supportedLocalities;
+@property(nonatomic) __weak GCController *controller;
 
 @end
 

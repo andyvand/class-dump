@@ -11,8 +11,6 @@ __attribute__((visibility("hidden")))
 @interface AVMobileFullscreenController
 {
     AVPlayerViewController *_playerViewController;
-    id <AVMobileFullscreenControllerDelegate> _delegate;
-    unsigned long long _presentationState;
 }
 
 - (unsigned long long);
@@ -23,11 +21,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void)
 × ;
-- (void)n:(unsigned long long)arg1;
+- (void)setWantsDetachedFullscreenPresentation:(unsigned long long)arg1;
 
 // Remaining properties
 @property(nonatomic) __weak id <AVMobileFullscreenControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) unsigned long long presentationState; // @synthesize presentationState=_presentationState;
 
 @end
 

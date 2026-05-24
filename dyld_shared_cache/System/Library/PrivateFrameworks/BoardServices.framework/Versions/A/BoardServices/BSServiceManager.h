@@ -4,26 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSRBSService, BSServiceInitiatingConnectionMultiplexer, BSServicesConfiguration, NSMutableDictionary;
+@class BSRBSService;
 
 @interface BSServiceManager
 {
     BSRBSService *_RBSService;
-    BSServiceInitiatingConnectionMultiplexer *_uiMuxer;
-    BSServiceInitiatingConnectionMultiplexer *_dfMuxer;
-    BSServicesConfiguration *_bootstrapConfiguration;
-    BSServicesConfiguration *_lock_viewServiceConfiguration;
-    NSMutableDictionary *_lock_identifierToDomain;
-    struct os_unfair_lock_s _lock;
-    unsigned long long _lock_bootstrapExtensions;
-    _Bool _lock_bootstrapped;
-    _Bool _lock_invalidated;
 }
 
-+ (id);
++ (id)authenticationContext;
 - (void);
 - (id);
-- (id);
+- (id)debugDescription;
 - (void);
 
 @end

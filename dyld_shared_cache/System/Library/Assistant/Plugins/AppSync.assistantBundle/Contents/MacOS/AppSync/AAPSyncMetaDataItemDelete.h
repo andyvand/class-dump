@@ -4,24 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AAPSyncAnchor, AAPSyncAppIdentifier, NSString;
+@class AAPSyncAppIdentifier;
 
 @interface AAPSyncMetaDataItemDelete
 {
     AAPSyncAppIdentifier *_identifier;
-    AAPSyncAnchor *_anchor;
 }
 
 + (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)WD|;
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)05y;
+- (_Bool)_UIModalItemActionSheetContentView;
 - (void);
 - (id);
 - (id);
@@ -29,15 +28,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) AAPSyncAnchor *anchor; // @synthesize anchor=_anchor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) AAPSyncAppIdentifier *identifier; // @synthesize identifier=_identifier;
-@property(readonly) Class superclass;
 
 @end
 

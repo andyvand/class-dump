@@ -7,11 +7,9 @@
 @interface SwiftUI.DisplaySizeObserver__priv_DCA2EF9372568B1A9E0351DCB28EC8E7
 {
     id _window;
-    id _visibleRect;
-    id _$observationRegistrar;
 }
 
-- (void)le;
+- (void)UseToolbarStyle;
 
 @end
 

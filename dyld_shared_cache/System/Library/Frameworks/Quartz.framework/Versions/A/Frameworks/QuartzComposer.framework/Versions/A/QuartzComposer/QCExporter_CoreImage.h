@@ -11,16 +11,15 @@
 @interface QCExporter_CoreImage : QCImageExporter
 {
     CIFilter *_ciMatrixFilter;
-    _Bool _flipped;
 }
 
 - (id);
 - (unsigned int);
 - (void);
 - (id);
-- (id);
+- (id)�;
 - (void);
-- (void);
+- (void);
 
 @end
 

@@ -4,31 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableArray, NSMutableDictionary, NSMutableSet, NSObject, NSString, NSURL, NSXPCConnection, NSXPCInterface;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary, NSXPCConnection;
 
 @interface WAClient
 {
     NSMutableDictionary *_interestedMessageIdentifiers;
-    NSMutableDictionary *_configuredMessageIdentifiers;
-    unsigned char _daemonConnectionValid;
-    unsigned char _blockDaemonConnection;
-    NSDictionary *_deviceAnalyticsConfig;
-    NSXPCConnection *_conn;
-    NSXPCInterface *_exportedRemoteInterface;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_replyQueue;
-    NSObject<OS_dispatch_queue> *_propertyQueue;
-    NSObject<OS_dispatch_queue> *_fileHandlingQueue;
-    NSObject<OS_dispatch_queue> *_queryableQueue;
-    NSMutableArray *_queuedInvocations;
-    double _connectionRecoveryStartTime;
-    CDUnknownBlockType _recoveryTickBlock;
-    NSString *_tokenForThisClient;
-    NSString *_identifierForThisClient;
-    NSMutableSet *_registeredGroupTypes;
-    NSURL *_wifianalyticsTmpDir;
-    double _allowPurgeJSONFilesAfterSec;
 }
 
 + (id);
@@ -36,7 +16,8 @@
 + (id);
 + (id);
 + (id);
-- (void);
+- (void)y(e,i),!r){const o=allControlsForSingleCharacterLogicalFieldForControl(t),i=o.length;o.length&&e.length===i&&(await this._executeWhilePreventingUserInteraction((async()=>{for(let t=0;t<i;++t)await this._fillTextControl(o[t],e[t],n)})),r=this._oneTimeCodeAppearsToHaveFilledProperly(e,o))}}catch(e){}return{value:(unsigned long long)arg1 e,shouldSubmit:(CDUnknownBlockType)arg2 t,codeAppearsToHaveBeenFilledInItsEntirety:(id)arg3 r}}_oneTimeCodeAppearsToHaveFilledProperly(e,t){if(!RegExp.escape)return!0;let r=!0;const n=t.map((e=>e.value)).join(""),o=new RegExp(e.replaceAll("-","").split("").map((e=>RegExp.escape(e))).join(".*"),"s");if(r=o.test(n),!r){const e=this._logicalFormsCache.logicalFormForControl(t[0])?.backingElement;e&&(r=o.test(e.innerText))}return r}async _fillTextControl(e,t,r=0,n={}){if(e&&this._controlContainsAllCharactersFromValue(e,t))return;if(e&&userIsOnDomain("m.facebook.com")&&document.location.pathname.startsWith("/login")&&"m_login_email"===e.id)return void await this._fillGenericControl(e,t);let o=new Set;const i=!e;e??=innermostActiveElement(),await this._clearControl(e);const l=!!n.waitForSingleCharacterFieldsToAdvanceToNextField;let a=0;l&&(a=n.waitForSingleCharacterFieldsToAdvanceToNextField.durationToCheckBeforeGivingUpInMilliseconds);let s=!0;for(let n of t){if(l&&!s&&(1===e.maxLength||controlIsPartOfSingleCharacterLogicalField(e))&&e===innermostActiveElement()){const t=Date.now();await yieldUntilEventOrTimeout("focusin",a,{eventTargetToIgnore:e,requireEventTargetBeDocumentActiveElement:!0});Date.now()}const t=innermostActiveElement();if(t!==e){if(!i)break;e=t,await this._clearControl(e)}const u=KeyInfo.forCharacter(n);u.isShifted&&e.dispatchEvent(KeyInfo.shiftKeyEvent("keydown"));let c=!e.dispatchEvent(u.keyEvent("keydown"));if(c||(c=!e.dispatchEvent(u.keyEvent("keypress"))),!c)if(this.canUseTextInputEventsToFill)e.dispatchEvent(createTextInputEvent(n));else{const t=e.value+n;e.dispatchEvent(new InputEvent("beforeinput",{bubbles:!0,cancelable:!0,inputType:insertTextInputType,data:t})),e.value=t,e.dispatchEvent(new InputEvent("input",{bubbles:!0,cancelable:!1,inputType:insertTextInputType,data:t}))}e.dispatchEvent(u.keyEvent("keyup")),u.isShifted&&e.dispatchEvent(KeyInfo.shiftKeyEvent("keyup")),o.add(e),s=!1,await yieldToEventLoop(r)}return i||this._controlContainsAllCharactersFromValue(e,t)||(await yieldToEventLoopAfterAnimationFrameAndDelay(),await this._fillGenericControl(e,t)),Array.from(o)}async _fillGenericControl(e,t){await this._clearControl(e),this.canUseTextInputEventsToFill&&e===innermostActiveElement()&&(e.dispatchEvent(createTextInputEvent(t)),await yieldToEventLoop(),this._controlContainsAllCharactersFromValue(e,t))||(e.dispatchEvent(new InputEvent("beforeinput",{bubbles:!0,cancelable:!0,inputType:insertTextInputType,data:t})),e.value=t,e.dispatchEvent(new InputEvent("input",{bubbles:!0,cancelable:!1,inputType:insertTextInputType,data:t})),e.dispatchEvent(new Event("change",{bubbles:!0,cancelable:!1})),await yieldToEventLoop(),this._controlContainsAllCharactersFromValue(e,t))}async _fillControl(e,t,r,n){if(e.isDisabledOrReadOnly())return;if(e.shouldFocusDuringFilling()){let t=!1;document.hasFocus()||(await yieldUntilDocumentIsFocusedOrTimeout(100),t=!0),e!==innermostActiveElement()&&(e.focus({preventScroll:!0,focusVisible:!1}),t=!0),t&&await yieldToEventLoopAfterAnimationFrameAndDelay(20)}let o=!1;if(isRadioButtonElement(e)){if(!(e=await this._fillRadioButtonInGroupStartingWithControl(e,t)))return}else isSelectElement(e)?await this._fillSelectControlWithBestOptionFromSynonyms(e,t):(o=!0,this._isTextField(e)?await this._fillTextControl(e,t):await this._fillGenericControl(e,t));const i=t.length&&r;o&&n?FormMetadataJSController.setInputElementAutofilledAndObscured(e,i):FormMetadataJSController.setInputElementAutofilled(e,i)}async _executeWhilePreventingUserInteraction(e){const t=new AbortController,r=["keydown","keyup","keypress","pointerdown","pointerup","touchstart","touchend","mousedown","mouseup","click","dblclick"];for(const e of r)window.addEventListener(e,(e=>{e.isTrusted&&(e.preventDefault(),e.stopImmediatePropagation())}),{capture:!0,signal:t.signal});try{return await e()}finally{t.abort(null)}}async autoFillControlsByID(e,t,r,n,o,i,l){let a=arguments[arguments.length-1],s=n;if(s){let e=s.getAttribute("onfocus");e&&e.length&&/this\.value/.test(e)&&(s=null)}else s=innermostActiveElement();var u=null;for(let t in e){u=this._logicalFormsCache.logicalFormForControl(this.formControlWithUniqueID(t));break}const c=Object.entries(e).map((([e,t])=>[this.formControlWithUniqueID(e),t])).sort(((e,t)=>{const r=e[0],n=t[0],o=r.compareDocumentPosition(n);return o&(Node.DOCUMENT_POSITION_PRECEDING|Node.DOCUMENT_POSITION_CONTAINS)?1:o&(Node.DOCUMENT_POSITION_FOLLOWING|Node.DOCUMENT_POSITION_CONTAINED_BY)?-1:0}));return await this._executeWhilePreventingUserInteraction((async()=>{const e=new Set(i);for(let[t,n]of c){const o=e.has(t._controlUniqueID);await this._fillControl(t,n,r,o)}})),o?innermostActiveElement().blur():s&&setTimeout((()=>{this.selectIfTextField(s)}),0),u?.backingElement&&elementAppearsToContinueCaptchaWidget(u.backingElement)&&(a=!1),{formMetadata:this._getOrCreateCachedMetadataForLogicalForm(u),shouldSubmit:a}}_isInputAllowedInSearchForm(e,t){var r=this._getTagName(e).toLowerCase();if("button"===r||"fieldset"===r)return!0;if("select"===r)return!t||isSelectInDefaultState(e);if("input"!==r&&!this._textAreaElementLookLikeItIsPartOfASearchForm(e))return!1;var n=e.type;return"radio"===n||"checkbox"===n?!t||isCheckboxOrRadioButtonInDefaultState(e):"hidden"===n||"reset"===n||"submit"===n||"button"===n||"image"===n||this._isTextField(e)&&!this._isSecureTextField(e)}isSearchForm(e,t){if("get"!==e.method)return!1;for(var r=elementsInFormPiercingShadowDOM(e),n=r.length,o=0;o<n;++o)if(!this._isInputAllowedInSearchForm(r[o],t))return!1;return!0}_textAreaElementLookLikeItIsPartOfASearchForm(e){return!!this._isTextArea(e)&&("search"===e.getAttribute("type")||("search"===e.inputMode||"search"===e.getAttribute("enterkeyhint")))}_shouldInputBeIncludedInSearchURLQuery(e){if(e.disabled)return!1;if(!e.name.length)return!1;if(!e.value.length)return!1;if(isSelectElement(e))return!0;var t=this._getTagName(e).toLowerCase(),r=e.type;return"button"===t?"submit"===r:"input"===t&&("submit"===r||("checkbox"===r||"radio"===r?e.checked:"hidden"===r||this._isTextField(e)))}_isSubmitButton(e){return(e instanceof HTMLButtonElement||e instanceof HTMLInputElement)&&(e.type&&"submit"===e.type)}_isCustomFormButton(e){return"button"===e.type&&(e instanceof HTMLButtonElement||e instanceof HTMLInputElement)}_isCheckboxInputElement(e){return"checkbox"===e.type&&e instanceof HTMLInputElement}_setQueryString(e,t){var r=document.createElement("a");return r.href=e,r.search=t,r.href}searchTextFieldFormSubmissionURLString(e,t){if(visibilityCacheGeneration++,!this._isTextField(e)||this._isSecureTextField(e)||!e.isVisible())return null;var r=e.form;if(!r)return null;var n=r.getAttribute("action");if(!n||!n.length)return null;if(!/^https?:/i.test(r.action))return null;if(!this.isSearchForm(r,t))return null;for(var o=null,i="",l=elementsInFormPiercingShadowDOM(r),a=l.length,s=0;s<a;++s){var u=l[s];if((u===e||this._shouldInputBeIncludedInSearchURLQuery(u))&&(!this._isSubmitButton(u)||(o||(o=u),u===o))){i.length&&(i+="&");var c=u===e?"{searchTerms}":urlEncode(u.value);i+=urlEncode(u.name)+"="+c}}return this._setQueryString(r.action,i)}_collectExtraControlMetadata(e,t){let r=e.getAttribute("passwordrules");r?t.ControlPasswordRules=r:"\\d*"===e.pattern&&(t.ControlPasswordRules="allowed:digit;")}removeAutomaticStrongPasswordFromPasswordElement(e){let t=this.formControlWithUniqueID(e);t&&this._isTextField(t)&&(this.clearField(e),this._updateAnnotationsForField(t),FormMetadataJSController.setInputElementAutofilled(t,!1))}}var FormMetadataJS=new FormMetadata;
+0; /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -49,13 +30,13 @@
 - (void);
 - (void);
 - (void);
+- (void)`;
 - (void);
-- (void);
-- (void);
+- (void)policyAttributePasswordHashes;
 - (unsigned char);
 - (void);
-- (void);
-- (void);
+- (void)L[;
+- (void)versal,%d,originLat,%0.6f,originLon,%0.6f,destLat,%0.6f,destLon,%0.6f,avgTripTime,%0.2f,avgTripDistance,%0.2f,minTripTime,%0.2f,maxTripTime,%0.2f,minTripDistance,%0.2f,maxTripDistance,%0.2f,commuteID,%@,isLocked,%d,bikeTime,%0.2f,bikeDist,%02.f,walkTime,%0.2f,walkDist,%0.2f,cntBikeTravel,%d,cntWalkTravel,%d,clusterOrder,%d;
 - (id);
 - (void);
 - (id);
@@ -63,14 +44,8 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)rangeOfString:(double)arg1 options: /* Error: Ran out of types for this method. */;
+- (id):%ld] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -78,26 +53,32 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (id);
+- (void);
+- (CDUnknownBlockType)h;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (double)}�!;
+- (void);
+- (id);
+- (void);
+- (void);
+- (void)#;
+- (void);
+- (void)`B;
 - (void);
 - (void);
 - (_Bool);
@@ -111,11 +92,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (long long);
-- (void);
-- (void);
-- (void);
+- (void)Range=QQ}24@"NSString"40;
+- (long long)_selectionContainerView;
+- (void)ackSpeed. Found %@.;
 - (void);
 - (void);
 - (void);
@@ -124,20 +103,22 @@
 - (void);
 - (void);
 - (void);
+- (void)setSidebandSensorFusionEnable:(CDUnknownBlockType)arg1 withSnoopHandler: /* Error: Ran out of types for this method. */;
+- (void)authorizationStatus;
 - (void);
 - (void);
-- (void);
-- (double);
-- (void);
-- (void);
-- (void);
+- (void)navailable on this platform;
+- (double)detectionMask;
+- (void)vehicleProbabilityLongTermMean0;
+- (void)ial numbers, will omit from message.;
+- (void)ublic}@ = %{public}@ for service ref %{private}p;
 - (void);
 - (void);
 - (void);
 - (id);
 - (unsigned char);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -145,7 +126,7 @@
 - (id);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)-;
 - (id);
 - (void);
 - (id);
@@ -153,26 +134,7 @@
 - (void)Ïñÿ;
 
 // Remaining properties
-@property(nonatomic) double allowPurgeJSONFilesAfterSec; // @synthesize allowPurgeJSONFilesAfterSec=_allowPurgeJSONFilesAfterSec;
-@property(nonatomic) unsigned char blockDaemonConnection; // @synthesize blockDaemonConnection=_blockDaemonConnection;
-@property(retain, nonatomic) NSMutableDictionary *configuredMessageIdentifiers;
 @property(retain, nonatomic) NSXPCConnection *conn; // @synthesize conn=_conn;
-@property(nonatomic) double connectionRecoveryStartTime; // @synthesize connectionRecoveryStartTime=_connectionRecoveryStartTime;
-@property(nonatomic) unsigned char daemonConnectionValid; // @synthesize daemonConnectionValid=_daemonConnectionValid;
-@property(retain, nonatomic) NSDictionary *deviceAnalyticsConfig; // @synthesize deviceAnalyticsConfig=_deviceAnalyticsConfig;
-@property(retain, nonatomic) NSXPCInterface *exportedRemoteInterface; // @synthesize exportedRemoteInterface=_exportedRemoteInterface;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *fileHandlingQueue; // @synthesize fileHandlingQueue=_fileHandlingQueue;
-@property(retain, nonatomic) NSString *identifierForThisClient; // @synthesize identifierForThisClient=_identifierForThisClient;
-@property(retain, nonatomic) NSMutableDictionary *interestedMessageIdentifiers;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *propertyQueue; // @synthesize propertyQueue=_propertyQueue;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queryableQueue; // @synthesize queryableQueue=_queryableQueue;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSMutableArray *queuedInvocations; // @synthesize queuedInvocations=_queuedInvocations;
-@property(copy, nonatomic) CDUnknownBlockType recoveryTickBlock; // @synthesize recoveryTickBlock=_recoveryTickBlock;
-@property(retain, nonatomic) NSMutableSet *registeredGroupTypes; // @synthesize registeredGroupTypes=_registeredGroupTypes;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *replyQueue; // @synthesize replyQueue=_replyQueue;
-@property(retain, nonatomic) NSString *tokenForThisClient; // @synthesize tokenForThisClient=_tokenForThisClient;
-@property(retain, nonatomic) NSURL *wifianalyticsTmpDir; // @synthesize wifianalyticsTmpDir=_wifianalyticsTmpDir;
 
 @end
 

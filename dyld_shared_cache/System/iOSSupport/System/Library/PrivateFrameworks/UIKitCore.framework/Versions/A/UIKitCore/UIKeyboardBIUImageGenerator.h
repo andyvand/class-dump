@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, UIColor, UIImage;
+@class UIColor;
 
 __attribute__((visibility("hidden")))
 @interface UIKeyboardBIUImageGenerator
 {
     _Bool _useButtonShapes;
-    UIImage *_biuBoldImage;
-    UIImage *_biuItalicImage;
-    UIImage *_biuUnderlineImage;
-    NSMutableDictionary *_imageCache;
-    UIColor *_tintColor;
-    UIColor *_normalColor;
 }
 
 - (id);
 - (id);
 - (void);
-- (void);
-- (void)Recognizer;
-- (id)tSelectionDirectionNavigation;
+- (void)visualStyleClassForView:(id)arg1;
+- (void)_gateRecognizer;
+- (id)BETextSelectionDirectionNavigation;
 - (void)P ;
 - (id)Þd;
 - (void))ÌXhf;

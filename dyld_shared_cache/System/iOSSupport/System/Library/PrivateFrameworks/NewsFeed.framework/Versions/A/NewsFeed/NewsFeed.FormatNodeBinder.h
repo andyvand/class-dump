@@ -7,12 +7,6 @@
 @interface NewsFeed.FormatNodeBinder
 {
     id debugger;
-    id nodeBindings;
-    id bindingContext;
-    id auxiliaryBinders;
-    id slots;
-    id wildcardSlotFallback;
-    id sortBy;
 }
 
 @end

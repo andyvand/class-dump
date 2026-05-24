@@ -8,14 +8,14 @@
 {
 }
 
-+ (int);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (int);
++ (int)_confirmationSnippet;
++ (id)in;
++ (id)N,V_mitigationResponseDecision;
++ (id)ptionStatus;
++ (id)ount28Day;
++ (id)bsoluteCount7Day;
++ (id)atorName;
++ (int)oundUpdateType;
 
 @end
 

@@ -4,37 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDMediaPropertyRequest, NSDate, NSError;
+@class HMDMediaPropertyRequest;
 
 __attribute__((visibility("hidden")))
 @interface HMDMediaPropertyResponse
 {
     HMDMediaPropertyRequest *_request;
-    id _value;
-    NSError *_error;
-    NSDate *_valueUpdatedTime;
 }
 
 + (id);
 + (id);
 + (id);
++ (id)bo;
++ (id);
 + (id);
-+ (id);
-+ (id);
+- (id)ring trip with Maps/Messages contacts:(id)arg1 %@;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id)sSupportsHomeLevelLocationServiceSetting;
-- (void)yVoiceOptIn;
+- (id)componentsSupportsHomeLevelLocationServiceSetting;
+- (void)recognizeMyVoiceOptIn;
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
 @property(readonly, nonatomic) HMDMediaPropertyRequest *request; // @synthesize request=_request;
-@property(readonly, nonatomic) id value; // @synthesize value=_value;
-@property(readonly, nonatomic) NSDate *valueUpdatedTime; // @synthesize valueUpdatedTime=_valueUpdatedTime;
 
 @end
 

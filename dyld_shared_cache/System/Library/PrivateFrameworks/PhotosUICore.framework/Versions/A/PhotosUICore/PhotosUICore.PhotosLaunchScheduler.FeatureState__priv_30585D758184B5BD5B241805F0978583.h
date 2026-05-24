@@ -7,13 +7,6 @@
 @interface PhotosUICore.PhotosLaunchScheduler.FeatureState__priv_30585D758184B5BD5B241805F0978583
 {
     id feature;
-    id loadQueue;
-    id willLoad;
-    id isActive;
-    id didLoad;
-    id didInteract;
-    id didLoadSignpost;
-    id activeSignpost;
 }
 
 @end

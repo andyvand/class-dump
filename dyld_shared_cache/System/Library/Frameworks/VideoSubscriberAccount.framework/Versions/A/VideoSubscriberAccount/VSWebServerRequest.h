@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSURL;
-
 __attribute__((visibility("hidden")))
 @interface VSWebServerRequest
 {
@@ -21,14 +19,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id): /* Error: Ran out of types for this method. */;
+- (id)setAccountDescription: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *HTTPVersion;
-@property(readonly, copy, nonatomic) NSURL *URL;
-@property(readonly, copy, nonatomic) NSDictionary *headerFields;
-@property(readonly, copy, nonatomic) NSString *method;
-@property(readonly, copy, nonatomic) NSString *path;
 @property(readonly, nonatomic) struct _CFHTTPServerRequest *request; // @synthesize request=_request;
 
 @end

@@ -9,10 +9,6 @@
 @interface BMStreamInternalMetadata
 {
     _Bool _publiclyIndexable;
-    NSString *_summary;
-    NSString *_fullDescription;
-    NSString *_eventName;
-    NSString *_radarComponent;
 }
 
 - (id);
@@ -21,14 +17,10 @@
 - (id);
 - (id);
 - (id);
-- (id)r__pack;
+- (id)pg_query__bool_expr__pack;
 - (void)NOPQRSTUVWXYa;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *eventName; // @synthesize eventName=_eventName;
-@property(readonly, nonatomic) NSString *fullDescription; // @synthesize fullDescription=_fullDescription;
-@property(readonly, nonatomic) _Bool publiclyIndexable; // @synthesize publiclyIndexable=_publiclyIndexable;
-@property(readonly, nonatomic) NSString *radarComponent; // @synthesize radarComponent=_radarComponent;
 @property(readonly, nonatomic) NSString *summary; // @synthesize summary=_summary;
 
 @end

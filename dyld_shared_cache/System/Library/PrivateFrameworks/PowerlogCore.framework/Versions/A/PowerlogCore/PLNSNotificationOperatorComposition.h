@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSObject, NSString, PLOperator;
-@protocol OS_dispatch_queue;
+@class PLOperator;
 
 @interface PLNSNotificationOperatorComposition
 {
     struct os_unfair_lock_s _lock;
-    NSMutableArray *_notificationObservers;
-    NSArray *_notificationNames;
-    CDUnknownBlockType _operatorBlock;
-    PLOperator *_operator;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 - (void);
@@ -36,11 +30,7 @@
 - (id)DLOG_6;
 
 // Remaining properties
-@property(readonly, copy) NSString *notificationName;
-@property(readonly, copy) NSArray *notificationNames; // @synthesize notificationNames=_notificationNames;
 @property __weak PLOperator *operator; // @synthesize operator=_operator;
-@property(copy) CDUnknownBlockType operatorBlock; // @synthesize operatorBlock=_operatorBlock;
-@property(retain) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

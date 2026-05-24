@@ -4,35 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEOPBOfflineRequestMetadata
 {
     PBDataReader *_reader;
-    NSMutableArray *_downloadedRegions;
-    NSString *_requestIdentifier;
-    unsigned long long _requestStartTimeMs;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _messageType;
-    _Bool _debugLog;
-    _Bool _performanceMetrics;
-    struct {
-        unsigned int has_requestStartTimeMs:1;
-        unsigned int has_messageType:1;
-        unsigned int has_debugLog:1;
-        unsigned int has_performanceMetrics:1;
-        unsigned int read_downloadedRegions:1;
-        unsigned int read_requestIdentifier:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)etHasUserPreferredTransportType:(id)arg1;
++ (_Bool)setHasUserPreferredTransportType:(id)arg1;
 - (void);
-- (void);
+- (void)X;
 - (void);
 - (void);
 - (void);
@@ -51,14 +33,14 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
-- (_Bool);
+- (_Bool)pendingRemoraVoiceTriggerResult;
 - (id);
-- (void);
+- (void)mplAVPlayerBased _resetPlayerItem];
 - (_Bool);
 - (unsigned long long);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void);
@@ -67,7 +49,7 @@
 - (int);
 - (id);
 - (id);
-- (void);
+- (void)4;
 - (void);
 - (id)nKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16^@24^C32^B40;
 - (id)nForClientOnlyResults;
@@ -77,17 +59,7 @@
 - (void)4Ø	;
 
 // Remaining properties
-@property(nonatomic) _Bool debugLog;
-@property(retain, nonatomic) NSMutableArray *downloadedRegions;
-@property(nonatomic) _Bool hasDebugLog;
 @property(nonatomic) _Bool hasMessageType;
-@property(nonatomic) _Bool hasPerformanceMetrics;
-@property(readonly, nonatomic) _Bool hasRequestIdentifier;
-@property(nonatomic) _Bool hasRequestStartTimeMs;
-@property(nonatomic) int messageType;
-@property(nonatomic) _Bool performanceMetrics;
-@property(retain, nonatomic) NSString *requestIdentifier;
-@property(nonatomic) unsigned long long requestStartTimeMs;
 
 @end
 

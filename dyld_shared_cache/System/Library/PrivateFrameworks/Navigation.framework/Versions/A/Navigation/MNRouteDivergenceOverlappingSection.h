@@ -11,11 +11,11 @@
     NSArray *_components;
 }
 
-- (void);
+- (void);
 - (id);
 - (void)
 × ;
-- (id)edValuesCount;
+- (id)mappedValuesCount;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *components; // @synthesize components=_components;

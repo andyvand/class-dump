@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKMapView, NSView;
+@class NSView;
 @protocol MKCompassView;
 
 @interface MKCompassButton
 {
     NSView<MKCompassView> *_compassView;
-    _Bool _visible;
-    _Bool _listeningForYawUpdateNotifications;
-    MKMapView *_mapView;
-    long long _compassVisibility;
-    long long _compassSize;
 }
 
-+ (id);
++ (id);
 - (void);
 - (void);
 - (id);
@@ -25,26 +20,24 @@
 - (long long);
 - (long long);
 - (void);
-- (void);
+- (void)0:(_Bool)arg1 8;
 - (_Bool);
 - (void);
 - (void);
 - (struct CGSize);
 - (struct CGSize);
 - (void);
-- (void);
-- (id);
+- (void)ch time;
+- (id)tendingServiceClient speechPauseDetected];
 - (void)0@ù
 × ;
-- (void)gateForSharingService:(double)arg1;
-- (void)es;
-- (id)nizer;
+- (void)sharingServicePicker:(double)arg1 delegateForSharingService: /* Error: Ran out of types for this method. */;
+- (void)excludedClientResultTypes;
+- (id)_pinchGestureRecognizer;
 - (void)°Ò¨Õ%¼ÚÛ%pß,àààÈá%¤åHæ(çPçPè`ëíhî;
 
 // Remaining properties
 @property(nonatomic) long long compassSize; // @synthesize compassSize=_compassSize;
-@property(nonatomic) long long compassVisibility; // @synthesize compassVisibility=_compassVisibility;
-@property(nonatomic) __weak MKMapView *mapView; // @synthesize mapView=_mapView;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseCommand.h>
 
-@class NSData, NSString;
+@class NSData;
 
 @interface SACreateAssistant : SABaseCommand
 {
@@ -28,7 +28,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)n;
 - (id);
 - (id);
 - (id);
@@ -37,30 +37,11 @@
 - (id);
 - (void);
 - (_Bool);
-- (void)temWithDictionary:(id)arg1 context: /* Error: Ran out of types for this method. */;
+- (void)comparisonItemWithDictionary:(id)arg1 context: /* Error: Ran out of types for this method. */;
 - (id)½;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceId; // @dynamic aceId;
 @property(copy, nonatomic) NSData *activationToken;
-@property(copy, nonatomic) NSString *appleConnectServiceTicket;
-@property(copy, nonatomic) NSString *appleConnectSessionToken;
-@property(copy, nonatomic) NSString *connectionMode;
-@property(copy, nonatomic) NSString *connectionType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *language;
-@property(copy, nonatomic) NSString *linkedAssistantId;
-@property(copy, nonatomic) NSString *linkedSpeechId;
-@property(copy, nonatomic) NSData *linkedValidationData;
-@property(copy, nonatomic) NSString *refId; // @dynamic refId;
-@property(copy, nonatomic) NSString *speechId;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSData *validationData;
 
 @end
 

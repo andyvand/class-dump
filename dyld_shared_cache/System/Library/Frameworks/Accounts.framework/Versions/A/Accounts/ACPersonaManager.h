@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccountStore, NSArray, NSSet, NSString;
+@class NSString;
 
 @interface ACPersonaManager
 {
     unsigned long long _personaGenerationID;
-    struct os_unfair_lock_s _personaStorageLock;
-    NSString *_enterprisePersonaUID;
-    NSString *_personalPersonaUID;
-    NSSet *_guestPersonasUID;
-    NSArray *_dataSeparatedPersonasUIDs;
-    ACAccountStore *_store;
 }
 
 + (void);
@@ -24,7 +18,7 @@
 + (id);
 - (void);
 - (void);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (void);
@@ -36,10 +30,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *dataSeparatedPersonasUIDs;
 @property(readonly, copy, nonatomic) NSString *enterprisePersonaUID;
-@property(readonly, copy, nonatomic) NSSet *guestPersonasUIDs;
-@property(readonly, copy, nonatomic) NSString *personalPersonaUID;
 
 @end
 

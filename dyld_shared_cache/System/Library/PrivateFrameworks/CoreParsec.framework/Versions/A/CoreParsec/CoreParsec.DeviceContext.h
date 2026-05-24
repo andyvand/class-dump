@@ -7,9 +7,6 @@
 @interface CoreParsec.DeviceContext
 {
     id localeIdentifier;
-    id country;
-    id deviceModel;
-    id osVersion;
 }
 
 @end

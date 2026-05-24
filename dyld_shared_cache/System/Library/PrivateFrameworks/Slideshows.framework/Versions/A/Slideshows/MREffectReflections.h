@@ -6,36 +6,20 @@
 
 #import <Slideshows/MREffect.h>
 
-@class MRImageProvider, MRReflectionsRenderable, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface MREffectReflections : MREffect
 {
     NSMutableDictionary *mSprites;
-    _Bool mSpeedUpRight;
-    _Bool mIsLoaded;
-    NSMutableDictionary *mLayoutInfo;
-    NSMutableDictionary *mBreakInformation;
-    _Bool mHasBreak;
-    _Bool mShrink;
-    long long mTilt;
-    long long mPhaseOutType;
-    long long mDirection;
-    long long mLayout;
-    long long mAspect;
-    MRImageProvider *mGroundShadowCenterProvider;
-    MRImageProvider *mGroundShadowLeftProvider;
-    MRImageProvider *mGroundShadowRightProvider;
-    MRReflectionsRenderable *mHead;
-    MRReflectionsRenderable *mTail;
 }
 
 + (void)\&;
+- (void)fc_dictionaryOfTransformedSortedObjectsWithKeyBlock:(double)arg1 valueBlock:(double)arg2;
+- (void),N,V_schedulingAndForegroundUploadThrottler;
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)cellularRadioAccessTechnology;
+- (_Bool)tentTypesAsRetainedForUploadRetry:(double)arg1 ];
+- (id)opeStore.m;
 - (_Bool);
 - (void);
 - (void);

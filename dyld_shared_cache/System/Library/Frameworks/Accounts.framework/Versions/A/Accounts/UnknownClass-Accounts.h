@@ -11,7 +11,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=ac_isDiskFullSQLError) _Bool ac_diskFullSQLError;
 @property(readonly, nonatomic, getter=ac_isUnrecoverableDatabaseError) _Bool ac_unrecoverableDatabaseError;
 @end
 

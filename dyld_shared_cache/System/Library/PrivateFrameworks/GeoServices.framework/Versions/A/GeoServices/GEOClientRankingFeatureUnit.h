@@ -4,29 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOClientRankingModelFeatureFunction, GEOClientRankingModelFeatureSourceIdentifier, GEOClientRankingModelFeatureTypeIdentifier;
-
 @interface GEOClientRankingFeatureUnit
 {
     long long _featureType;
-    GEOClientRankingModelFeatureSourceIdentifier *_source;
-    GEOClientRankingModelFeatureTypeIdentifier *_feature;
-    GEOClientRankingModelFeatureFunction *_function;
 }
 
-- (id);
-- (id);
-- (id);
-- (id)tion: /* Error: Ran out of types for this method. */;
+- (id)_mainThreadScheduler;
+- (id)key;
+- (id)jo;
+- (id)initWithGEOCoordinate:isUserLocation: /* Error: Ran out of types for this method. */;
 - (void)f4i\6;
 - (long long)ÿ@³;
 - (id)a;
 
 // Remaining properties
-@property(readonly, nonatomic) GEOClientRankingModelFeatureTypeIdentifier *feature; // @synthesize feature=_feature;
 @property(readonly, nonatomic) long long featureType; // @synthesize featureType=_featureType;
-@property(readonly, nonatomic) GEOClientRankingModelFeatureFunction *function; // @synthesize function=_function;
-@property(readonly, nonatomic) GEOClientRankingModelFeatureSourceIdentifier *source; // @synthesize source=_source;
 
 @end
 

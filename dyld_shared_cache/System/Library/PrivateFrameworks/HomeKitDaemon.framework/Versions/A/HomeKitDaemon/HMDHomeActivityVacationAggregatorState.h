@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface HMDHomeActivityVacationAggregatorState
 {
     unsigned long long _type;
-    unsigned long long _changedReason;
 }
 
 - (id);
@@ -19,7 +18,6 @@ __attribute__((visibility("hidden")))
 - (id)Preparing to execute natural lighting actions for matter:(unsigned long long)arg1 [%@];
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long changedReason; // @synthesize changedReason=_changedReason;
 @property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

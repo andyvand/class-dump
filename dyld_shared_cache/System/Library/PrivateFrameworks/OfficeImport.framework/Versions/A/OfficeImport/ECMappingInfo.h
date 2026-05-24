@@ -20,8 +20,6 @@ __attribute__((visibility("hidden")))
 - (void)¬;
 
 // Remaining properties
-@property(readonly, nonatomic) int columnOffset;
-@property(readonly, nonatomic) int rowOffset;
 @property(readonly, nonatomic) NSString *sheetName; // @synthesize sheetName=mSheetName;
 
 @end

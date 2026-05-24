@@ -5,5 +5,8 @@
 //
 
 @protocol GMAvailabilityListenerDelegate
+
+@optional
+- (void)_HTTPShouldUsePipelining;
 @end
 

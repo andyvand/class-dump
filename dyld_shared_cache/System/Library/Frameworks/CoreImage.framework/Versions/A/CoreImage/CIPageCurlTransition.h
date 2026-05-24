@@ -6,19 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIPageCurlTransition : CIFilter
 {
     CIImage *inputImage;
-    CIImage *inputTargetImage;
-    CIImage *inputBacksideImage;
-    CIImage *inputShadingImage;
-    CIVector *inputExtent;
-    NSNumber *inputTime;
-    NSNumber *inputAngle;
-    NSNumber *inputRadius;
 }
 
 + (id);
@@ -28,17 +21,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (id)ssssenknqtrv    ®®®®©©©©{frmrpoiptzzz|x\zzevvy~~~yyyyisuu||||p}}vvvvjjjjQ[Qd]jdpxZkf{bqnyqxxxoonoEZPeNYMidvtynywbpl|lyy|zzzzqqqq>XNcGVK_mmmm ¨­°¯°°¤¤¤¤}}~||~e}z|xt|Shao?\SiRc[nUrn~io~~~~bjej/K;_;
 
 // Remaining properties
-@property(retain, nonatomic) CIImage *inputBacksideImage; // @synthesize inputBacksideImage;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) CIImage *inputShadingImage; // @synthesize inputShadingImage;
-@property(retain, nonatomic) CIImage *inputTargetImage; // @synthesize inputTargetImage;
 
 @end
 

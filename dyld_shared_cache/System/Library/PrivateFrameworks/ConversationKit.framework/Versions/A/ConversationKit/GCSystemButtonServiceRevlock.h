@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 
 @interface GCSystemButtonServiceRevlock
 {
     NSObject *service;
-    _Bool _available;
 }
 
 + (id)ÿÿ;
@@ -18,14 +17,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (_Bool)lsSize;
+- (id)__DATA;
+- (_Bool)bannerControlsSize;
 - (void)8Xüÿ;
 
 // Remaining properties
 @property(readonly, getter=isAvailable) _Bool available; // @synthesize available=_available;
-@property(readonly, copy) NSString *localizedName;
-@property(readonly, copy) NSString *sfSymbolName;
 
 @end
 

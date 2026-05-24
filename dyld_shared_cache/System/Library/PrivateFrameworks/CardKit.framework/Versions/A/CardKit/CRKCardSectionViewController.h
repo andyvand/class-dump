@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRKCardSectionViewConfiguration, INUIRemoteViewController, NSArray, NSString, NSView;
-@protocol CRCardSection, CRKCardSectionView, CRKCardSectionViewControllerDelegate;
+@class NSArray;
 
 @interface CRKCardSectionViewController
 {
     _Bool _childVCDesiresInteractivity;
-    _Bool _loading;
-    id <CRKCardSectionViewControllerDelegate> _delegate;
-    id <CRCardSection> _cardSection;
-    NSArray *_extraCommands;
-    INUIRemoteViewController *__remoteViewController;
-    CRKCardSectionViewConfiguration *_viewConfiguration;
 }
 
 + (void);
 + (id);
 + (id);
 + (id);
-+ (void);
++ (void);
 - (id);
 - (void);
 - (_Bool);
@@ -31,6 +24,49 @@
 - (void);
 - (void);
 - (void);
+- (void)C;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool)r;
+- (void);
+- (void)?r;
+- (void);
+- (void);
+- (id)Rr;
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (id)s;
+- (_Bool);
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)T@�4;
+- (void);
+- (id);
+- (id);
+- (void);
+- (id)_queryFilePathsWithString:scopes:filePathAttribute:identifierAttribute: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -39,67 +75,11 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void)ocked;
+- (void)_canShowWhileLocked;
 
 // Remaining properties
-@property(readonly, nonatomic) INUIRemoteViewController *_remoteViewController; // @synthesize _remoteViewController=__remoteViewController;
-@property(retain, nonatomic) id <CRCardSection> cardSection; // @synthesize cardSection=_cardSection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CRKCardSectionViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic, getter=_extraCommands, setter=_setExtraCommands:) NSArray *extraCommands; // @synthesize extraCommands=_extraCommands;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isLoading) _Bool loading; // @synthesize loading=_loading;
-@property(readonly) Class superclass;
-@property(retain) NSView<CRKCardSectionView> *view; // @dynamic view;
-@property(nonatomic) __weak CRKCardSectionViewConfiguration *viewConfiguration; // @synthesize viewConfiguration=_viewConfiguration;
 
 @end
 

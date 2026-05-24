@@ -9,17 +9,17 @@
     unsigned char _signpostId;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (void);
-- (void);
-- (void);
+- (void)_sharePcsIdentityResponse;
+- (void)_shareParticipantKeyFetchedBlock;
+- (void)_shareParticipantFetchedBlock;
+- (void)_shareMetadatasToRequestAccess;
+- (void)_shareMetadatasToAcceptByURL;
+- (void)_shareMetadatasByURL;
+- (void)_shareMetadataFetchedBlock;
+- (long long)_maxChangedZones;
+- (void)_handleSharePCSData:(long long)arg1 zonePCSData:(_Bool)arg2;
+- (void)_handleShareAccessRequestedForURL:(long long)arg1 responseCode:(_Bool)arg2;
+- (void)_downloadPackageSectionsWithTask:(id)arg1 completionBlock: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

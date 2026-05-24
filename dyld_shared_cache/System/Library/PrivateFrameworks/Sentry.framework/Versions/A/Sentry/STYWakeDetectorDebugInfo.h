@@ -7,9 +7,6 @@
 @interface STYWakeDetectorDebugInfo
 {
     unsigned long long _lastWakeTime;
-    unsigned long long _physicalWakeAdjustment;
-    unsigned long long _lastHIDWakeEvent;
-    CDStruct_e0bc66f8 _state;
 }
 
 - (void);
@@ -23,9 +20,6 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) unsigned long long lastHIDWakeEvent; // @synthesize lastHIDWakeEvent=_lastHIDWakeEvent;
-@property(nonatomic) unsigned long long lastWakeTime; // @synthesize lastWakeTime=_lastWakeTime;
-@property(nonatomic) unsigned long long physicalWakeAdjustment; // @synthesize physicalWakeAdjustment=_physicalWakeAdjustment;
 @property(nonatomic) CDStruct_e0bc66f8 state; // @synthesize state=_state;
 
 @end

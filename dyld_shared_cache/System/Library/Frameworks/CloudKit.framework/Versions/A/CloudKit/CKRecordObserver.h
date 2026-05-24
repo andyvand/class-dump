@@ -5,40 +5,28 @@
 //
 
 @class CKContainerSetupInfo, NSString;
-@protocol CKRecordObservable;
 
 @interface CKRecordObserver
 {
     NSString *_recordType;
-    CKContainerSetupInfo *_containerInfo;
-    id <CKRecordObservable> _provider;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (void)aType:strides:deallocator:mutableShapedBufferProvider:error:]E3$_0NS_9allocatorIhEEEE /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)remoteFPFSObject;
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CKContainerSetupInfo *containerInfo; // @synthesize containerInfo=_containerInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <CKRecordObservable> provider; // @synthesize provider=_provider;
-@property(readonly, copy, nonatomic) NSString *recordType; // @synthesize recordType=_recordType;
-@property(readonly) Class superclass;
 
 @end
 

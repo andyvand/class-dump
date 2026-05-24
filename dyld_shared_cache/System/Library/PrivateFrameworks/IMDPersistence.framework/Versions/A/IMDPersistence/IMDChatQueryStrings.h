@@ -14,6 +14,7 @@
 + (id);
 + (id);
 + (id);
++ (id)yIA	*;
 + (id);
 + (id);
 + (id);
@@ -24,8 +25,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)`;
 - (id);
 - (void)ssage_join cm WHERE m.cache_has_attachments = 1 AND cm.chat_id AND cm.chat_id = ? AND m.rowid = cm.message_id) as tmp WHERE ma.message_id = tmp.message_id) as tmp2 WHERE a.rowid = tmp2.a_id ORDER BY tmp2.m_date DESC LIMIT ?;
 

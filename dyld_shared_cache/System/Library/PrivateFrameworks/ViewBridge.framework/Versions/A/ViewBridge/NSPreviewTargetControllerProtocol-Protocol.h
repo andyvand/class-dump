@@ -5,5 +5,6 @@
 //
 
 @protocol NSPreviewTargetControllerProtocol
+- (void);
 @end
 

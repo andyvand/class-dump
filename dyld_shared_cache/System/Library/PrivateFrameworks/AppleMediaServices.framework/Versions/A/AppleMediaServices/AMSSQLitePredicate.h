@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)onActivityEvent"32;
 - (id);
 - (id)Aäæ&Oz'4bmÆWâ!VjK*!=À½lÂ~+lkKWDv ¥ßúè ã½		ÖÁBVÿû£ÿÊî¼À)¼Ûh':(Class)arg1 Á­[w¾Ûî`ÝHÇZ<áò&qa7±¸*ZÌYo°ü÷õU,¾
 ±_£0ÍÜFóusö«[º¶JòÊùæ$Ìñ­{åËLÒÐ·­¦ðàÈx])°M!dÏ;ffÎ9' /\bïdFQgW@ü¶®uûÑÇx6»Q'°*ýýñ\ºXiÆ4EÕì·kÁ,y:ôP2eÝjÓÌè³Q«-]aÚ:¼ÈïFñ·¬}[AGºè°;÷Æ|>ó /* Error: Ran out of types for this method. */;

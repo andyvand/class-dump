@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface _INPBDataString
 {
     struct _has;
-    NSArray *_alternatives;
-    NSString *_localizedValue;
-    NSString *_pronunciationHint;
-    NSString *_vocabularyIdentifier;
 }
 
 + (Class);
-+ (_Bool);
-- (void);
++ (_Bool)(	;
+- (void)(	;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -30,10 +26,10 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (_Bool);
-- (void);
-- (id);
+- (void)to set NDDRequest %{public}@ to driver[%d];
+- (id)abb0d9;
 - (void);
 - (id);
 - (id);
@@ -44,20 +40,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *alternatives; // @synthesize alternatives=_alternatives;
-@property(readonly, nonatomic) unsigned long long alternativesCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasLocalizedValue;
-@property(readonly, nonatomic) _Bool hasPronunciationHint;
-@property(readonly, nonatomic) _Bool hasVocabularyIdentifier;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *localizedValue; // @synthesize localizedValue=_localizedValue;
-@property(copy, nonatomic) NSString *pronunciationHint; // @synthesize pronunciationHint=_pronunciationHint;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *vocabularyIdentifier; // @synthesize vocabularyIdentifier=_vocabularyIdentifier;
 
 @end
 

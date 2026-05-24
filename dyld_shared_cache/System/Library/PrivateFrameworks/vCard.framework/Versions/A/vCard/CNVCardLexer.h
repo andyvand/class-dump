@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableData;
+@class NSMutableData;
 
 @interface CNVCardLexer
 {
     NSMutableData *_data;
-    char *_bytes;
-    unsigned long long _length;
-    unsigned long long _peekedPoint;
-    unsigned long long _cursor;
-    _Bool _unicode;
-    long long _errorCount;
-    NSArray *_activeTokenSets;
 }
 
 + (id);
@@ -27,7 +20,7 @@
 - (id);
 - (int);
 - (int);
-- (id);
+- (id)`;
 - (id);
 - (id);
 - (id);
@@ -38,7 +31,7 @@
 - (id);
 - (int);
 - (int);
-- (int);
+- (int);
 - (int);
 - (id);
 - (id);
@@ -72,8 +65,8 @@
 - (long long);
 - (int);
 - (id);
-- (id);
-- (long long);
+- (id)H;
+- (long long)`;
 - (id);
 - (unsigned long long);
 - (void);

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSSearchableItemAttributeSet, NSNumber, NSString;
+@class NSString;
 
 @interface SPCoreSpotlightResult
 {
     id _score;
-    unsigned long long _hashValue;
-    NSString *_section_header;
-    NSNumber *_groupNumber;
-    _Bool _isSearchToolClient;
-    NSString *_threadId;
-    NSString *_sectionIdentifier;
-    CSSearchableItemAttributeSet *_attributeSet;
 }
 
 + (id);
@@ -40,11 +33,11 @@
 - (id);
 - (void);
 - (_Bool);
+- (id)ControllerXPC sendUpdateFirmwareAnalyticsEventForAccessoryID:assetID:params:] /* Error: Ran out of types for this method. */;
+- (id)eWithTagName:contentsOfURL:] /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)setDrain_depth_p_0_00_at_charge_start_soc_curr_dynamic_bin_1: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -52,31 +45,20 @@
 - (id);
 - (unsigned long long);
 - (id);
+- (id)i;
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) CSSearchableItemAttributeSet *attributeSet; // @synthesize attributeSet=_attributeSet;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSNumber *groupNumber;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isSearchToolClient; // @synthesize isSearchToolClient=_isSearchToolClient;
-@property(readonly, nonatomic) NSString *sectionIdentifier; // @synthesize sectionIdentifier=_sectionIdentifier;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSString *threadId; // @synthesize threadId=_threadId;
 
 @end

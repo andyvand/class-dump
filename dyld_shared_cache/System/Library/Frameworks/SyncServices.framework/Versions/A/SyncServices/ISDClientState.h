@@ -4,26 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISDRecordIdMapper, ISDRecordStore, ISDSqliteChangeStore, NSString;
+@class NSString;
 
 @interface ISDClientState
 {
     NSString *_dataDirectory;
-    NSString *_clientId;
-    ISDRecordStore *_recordStore;
-    ISDRecordIdMapper *_recordIdMapper;
-    ISDSqliteChangeStore *_changeStore;
-    id _resetHandler;
-    unsigned long long _flushCount;
-    id _dirtyCoderDelegate;
-    _Bool _isLocalClientType;
-    _Bool _isTransferClient;
 }
 
 + (id);
 - (void);
 - (id);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (unsigned long long);
@@ -56,10 +47,10 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)setWithObjects: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
+- (void)@9?qA;
 - (void);
 - (void);
 - (void);
@@ -67,13 +58,7 @@
 - (void)'Çs;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,7 +7,10 @@
 @protocol NSURLSessionTaskDelegate
 
 @optional
+- (void);
+- (void)tatement for alt_services;
+- (void);
 - (void)%@,;
-- (void)geMetadataKey__osBuild;
+- (void)_DKDiscoverabilityUsageMetadataKey__osBuild;
 @end
 

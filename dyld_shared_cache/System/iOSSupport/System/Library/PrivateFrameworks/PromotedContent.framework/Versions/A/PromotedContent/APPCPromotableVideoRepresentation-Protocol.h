@@ -9,10 +9,6 @@
 @protocol APPCPromotableVideoRepresentation
 
 // Remaining properties
-@property(nonatomic, readonly) double bitrate;
-@property(nonatomic, readonly) _Bool skipEnabled;
-@property(nonatomic, readonly) double skipThreshold;
-@property(nonatomic, readonly) _Bool unbranded;
 @property(nonatomic, readonly) NSURL *videoURL;
 @end
 

@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface CHTextSynthesizerChunkedData
 {
     NSArray *_dataChunks;
-    NSString *_originalString;
 }
 
-+ (_Bool);
++ (_Bool)_initNicestRenderingCellOrderedIndexes;
 - (id);
 - (id);
 - (id);
@@ -20,15 +19,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)4;
 - (id);
 - (void)¸
 ;
 
 // Remaining properties
 @property(readonly) NSArray *dataChunks; // @synthesize dataChunks=_dataChunks;
-@property(readonly) NSString *originalString; // @synthesize originalString=_originalString;
 
 @end
 

@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface CMDPGrammar
 {
     int _nextFstState;
-    int _nextLabelIndex;
-    _Bool _addOptionalFst;
-    struct unique_ptr<fst::VectorFst<fst::ArcTpl<fst::TropicalWeightTpl<float>>>, std::default_delete<fst::VectorFst<fst::ArcTpl<fst::TropicalWeightTpl<float>>>>> _grammarFst;
-    _Bool _rebuildGrammar;
-    struct vector<std::pair<std::string, std::unique_ptr<fst::VectorFst<fst::ArcTpl<fst::TropicalWeightTpl<float>>>>>, std::allocator<std::pair<std::string, std::unique_ptr<fst::VectorFst<fst::ArcTpl<fst::TropicalWeightTpl<float>>>>>>> _labelFstPairVector;
-    struct unique_ptr<CMDPNormalizer, std::default_delete<CMDPNormalizer>> _normalizer;
-    NSString *_currentBuiltInLMString;
-    NSString *_currentCommandIdentifier;
-    NSMutableArray *_grammarDataArray;
-    struct set<std::string, std::less<std::string>, std::allocator<std::string>> _symbol_set;
-    struct set<std::string, std::less<std::string>, std::allocator<std::string>> _special_symbol_set;
 }
 
 - (id);

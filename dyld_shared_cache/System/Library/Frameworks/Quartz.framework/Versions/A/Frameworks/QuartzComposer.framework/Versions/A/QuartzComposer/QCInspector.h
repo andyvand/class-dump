@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSView, QCPatch;
+@class NSView;
 
 @interface QCInspector
 {
     NSView *view;
-    QCPatch *_patch;
-    struct CGSize _minSize;
-    void *_unused2[2];
 }
 
 + (id);
 + (_Bool)ÇÿþeÝ;
 - (void);
-- (void);
+- (void)k;
 - (id);
 - (id);
 - (void);

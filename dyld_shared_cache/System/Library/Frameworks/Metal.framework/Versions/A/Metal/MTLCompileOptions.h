@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
-
 @interface MTLCompileOptions
 {
 }
@@ -15,26 +13,6 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *additionalCompilerArguments; // @dynamic additionalCompilerArguments;
-@property(nonatomic) _Bool allowReferencingUndefinedSymbols; // @dynamic allowReferencingUndefinedSymbols;
-@property(nonatomic) long long compileSymbolVisibility; // @dynamic compileSymbolVisibility;
-@property(nonatomic) _Bool compileTimeStatisticsEnabled; // @dynamic compileTimeStatisticsEnabled;
-@property(nonatomic) _Bool debuggingEnabled; // @dynamic debuggingEnabled;
-@property(nonatomic) _Bool enableLogging; // @dynamic enableLogging;
-@property(nonatomic) _Bool fastMathEnabled; // @dynamic fastMathEnabled;
-@property(nonatomic) _Bool framebufferReadEnabled; // @dynamic framebufferReadEnabled;
-@property(copy, nonatomic) NSString *installName; // @dynamic installName;
-@property(nonatomic) unsigned long long languageVersion; // @dynamic languageVersion;
-@property(copy, nonatomic) NSArray *libraries; // @dynamic libraries;
-@property(nonatomic) long long libraryType; // @dynamic libraryType;
-@property(nonatomic) long long mathFloatingPointFunctions; // @dynamic mathFloatingPointFunctions;
-@property(nonatomic) long long mathMode; // @dynamic mathMode;
-@property(nonatomic) unsigned long long maxTotalThreadsPerThreadgroup; // @dynamic maxTotalThreadsPerThreadgroup;
-@property(nonatomic) long long optimizationLevel; // @dynamic optimizationLevel;
-@property(copy, nonatomic) NSDictionary *preprocessorMacros; // @dynamic preprocessorMacros;
-@property(nonatomic) _Bool preserveInvariance; // @dynamic preserveInvariance;
-@property(nonatomic) CDStruct_da2e99ad requiredThreadsPerThreadgroup; // @dynamic requiredThreadsPerThreadgroup;
-@property(nonatomic) unsigned char sourceLanguage; // @dynamic sourceLanguage;
 @property(nonatomic) _Bool tracingEnabled; // @dynamic tracingEnabled;
 
 @end

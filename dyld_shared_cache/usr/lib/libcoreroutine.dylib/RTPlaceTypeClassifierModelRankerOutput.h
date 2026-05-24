@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 __attribute__((visibility("hidden")))
 @interface RTPlaceTypeClassifierModelRankerOutput
 {
     double _target;
 }
 
-- (double);
+- (double)#;
 - (void);
 - (id)ink;
 - (id)à;
 - (id)%@, triggers, %@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *featureNames;
 @property(nonatomic) double target; // @synthesize target=_target;
 
 @end

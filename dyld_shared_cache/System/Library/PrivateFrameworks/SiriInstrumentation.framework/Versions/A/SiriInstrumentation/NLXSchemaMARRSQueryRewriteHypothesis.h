@@ -6,45 +6,34 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLXSchemaMARRSQueryRewriteHypothesis : SISchemaInstrumentationMessage
 {
     double _confidence;
-    int _rewriteType;
-    struct {
-        unsigned int confidence:1;
-        unsigned int rewriteType:1;
-    } _has;
 }
 
 - (void);
 - (_Bool);
-- (void);
+- (void)A;
 - (void);
 - (int);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/x509v3/v3_sxnet.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)Árð!ÜEù±Þ°1Â0@ù
 × ;
-- (double)ass: /* Error: Ran out of types for this method. */;
-- (void)SuggesterEnabled;
+- (double)setHasScoreClass: /* Error: Ran out of types for this method. */;
+- (void)deleteIsSuggesterEnabled;
 - (id)wPlayingBundlePSE2;
 - (id)emaASRIntermediateUtteranceInfoTier1",&,N,V_intermediateUtteranceInfoTier1;
 
 // Remaining properties
 @property(nonatomic) double confidence; // @synthesize confidence=_confidence;
-@property(nonatomic) _Bool hasConfidence;
-@property(nonatomic) _Bool hasRewriteType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int rewriteType; // @synthesize rewriteType=_rewriteType;
 
 @end
 

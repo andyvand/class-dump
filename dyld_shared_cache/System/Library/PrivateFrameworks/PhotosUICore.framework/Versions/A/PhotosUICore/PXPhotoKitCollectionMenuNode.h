@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary, NSString, PHCollection;
+@class NSMutableArray, PHCollection;
 
 @interface PXPhotoKitCollectionMenuNode
 {
     NSMutableArray *_childNodes;
-    NSMutableDictionary *_childNodesByLocalIdentifier;
-    PHCollection *_collection;
-    NSString *_symbolName;
 }
 
 + (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id)øÿ;
 - (void)µ@Ãùþ=µ°$Kÿ;
@@ -26,10 +23,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *childNodes;
 @property(readonly, nonatomic) PHCollection *collection; // @synthesize collection=_collection;
-@property(readonly, nonatomic) NSString *localizedTitle;
-@property(readonly, nonatomic) NSString *symbolName; // @synthesize symbolName=_symbolName;
 
 @end
 

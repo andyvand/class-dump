@@ -7,9 +7,6 @@
 @interface AuthenticationServices.ASCredentialExportManager
 {
     id proxy;
-    id presentationAnchor;
-    id presentationAnchorProvider;
-    id remotePresenter;
 }
 
 @end

@@ -7,17 +7,13 @@
 @interface AppleMediaServicesUI.ReviewLockupStyle
 {
     id cornerRadius;
-    id placeholderCornerRadius;
-    id showPlaceholder;
-    id shape;
-    id font;
 }
 
-+ (void);
++ (void)itemsAtIndexes:(_Bool)arg1;
 + (_Bool);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)UpdateManualUpdateAvailableNotification;
 
 @end
 

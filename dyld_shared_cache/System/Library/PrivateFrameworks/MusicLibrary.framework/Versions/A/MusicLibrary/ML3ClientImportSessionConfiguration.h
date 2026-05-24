@@ -4,31 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ML3DatabasePrivacyContext, NSString;
+@class NSString;
 
 @interface ML3ClientImportSessionConfiguration
 {
     _Bool _allowAccountMerging;
-    _Bool _shouldLibraryAdd;
-    int _sourceType;
-    NSString *_libraryPath;
-    unsigned long long _operationCount;
-    ML3DatabasePrivacyContext *_privacyContext;
 }
 
 + (_Bool);
-- (_Bool);
+- (_Bool)URLForPartialVideoDirectoryWithAssetUUID: /* Error: Ran out of types for this method. */;
+- (void)LocationCoordinate2D=dd},R;
+- (void)alState;
+- (void)axResourcesPerFetch;
+- (_Bool)SMutableSet",&,N,V_faceChangedAssetUuids;
+- (void);
+- (id);
+- (id)=;
+- (id)homeManager:didUpdateDevices: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)<;
 - (id);
 - (id);
 - (void)rk_token, fetchable_artwork_source_type, artwork_variant_type) SELECT album_pid, %d, %d, available_artwork_token, fetchable_artwork_token, fetchable_artwork_source_type, artwork_variant_type FROM best_artwork_token JOIN item ON (item_pid = entity_pid) WHERE artwork_type = %d AND entity_type = %d AND entity_pid;
@@ -36,12 +31,7 @@
 - (int)è(;
 
 // Remaining properties
-@property(nonatomic) _Bool allowAccountMerging; // @synthesize allowAccountMerging=_allowAccountMerging;
 @property(copy, nonatomic) NSString *libraryPath; // @synthesize libraryPath=_libraryPath;
-@property(nonatomic) unsigned long long operationCount; // @synthesize operationCount=_operationCount;
-@property(nonatomic) ML3DatabasePrivacyContext *privacyContext; // @synthesize privacyContext=_privacyContext;
-@property(nonatomic) _Bool shouldLibraryAdd; // @synthesize shouldLibraryAdd=_shouldLibraryAdd;
-@property(nonatomic) int sourceType; // @synthesize sourceType=_sourceType;
 
 @end
 

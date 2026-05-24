@@ -4,85 +4,64 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, NSToolbar, UIView, UIWindowScene;
-@protocol CKMacToolbarDelegate, CKMacToolbarItemProvider;
+@class NSToolbar;
 
 @interface CKMacToolbarController
 {
     _Bool _shouldDrawPrimaryBlur;
-    _Bool _shouldDrawSecondaryBlur;
-    _Bool _isShowingInspector;
-    _Bool _isInStandaloneWindow;
-    id <CKMacToolbarDelegate> _delegate;
-    NSString *_sceneSessionIdentifier;
-    id <CKMacToolbarItemProvider> _primaryItemProvider;
-    id <CKMacToolbarItemProvider> _secondaryItemProvider;
-    id <CKMacToolbarItemProvider> _inspectorItemProvider;
-    NSToolbar *_toolbar;
-    UIWindowScene *_windowScene;
-    NSMutableDictionary *_toolbarItemCache;
-    UIView *_primaryVirtualBackgroundView;
-    UIView *_secondaryVirtualBackgroundView;
-    double _preferredPrimaryHeight;
-    double _preferredSecondaryHeight;
-    UIView *_primaryProvidedVirtualView;
-    UIView *_secondaryProvidedVirtualView;
-    UIView *_inspectorProvidedVirtualView;
-    double _splitViewDividerXPosition;
-    double _inspectorDividerXPosition;
 }
 
++ (id)o;
++ (id)h;
 + (id);
 + (id);
-+ (id);
-+ (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (double);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)initWithAttributedString:(struct CGRect)arg1 replicaID:sourceZoomController:keepSourceZoomController:existingStyler: /* Error: Ran out of types for this method. */;
+- (void)initWithAttachment:(id)arg1 textAttachment:automatic: /* Error: Ran out of types for this method. */;
+- (void)ic_stringByTrimmingLeadingTrailingWhitespace;
+- (id)doneWidthConstraint;
+- (double)attributedStringWithMatchHighlighted:optionalAttributedHighlightedString:textCheckingResult:usingAttributes:highlightColor:insideFrame:isSnippetForParticipantMatch:finishingUpRegexMatchFinder: /* Error: Ran out of types for this method. */;
+- (_Bool)_sanitizedFilteredModernSourceObjects;
+- (_Bool)_sanitizeAndScreenFilteredModernSourceObjectsIfNecessary;
+- (void)_collaborationControllerDelegate;
+- (void)h;
+- (void)m;
+- (void)terTextSelection;
+- (void)w",W,N,V_oldPasswordContainer;
+- (void)cachedDrawingViewForPlaceView;
+- (void)h_queue>",&,N,V_convertDispatchQueue;
+- (void)setObject:(id)arg1 columnIndex:rowIndex: /* Error: Ran out of types for this method. */;
+- (void)ersToVirtualSmartFolderIdentifiers;
+- (void)ionary",&,N,V_folderListSectionIdentifiersToVirtualSmartFolderIdentifiers;
+- (void)NSTextAttachment";
+- (void)topButtonTitle;
+- (void)iding>",R,W,N,V_delegate;
+- (void)setNeedsUpdateManagedObjectIDs:(id)arg1;
+- (void)umber",R,N;
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)Pf;
+- (void);
+- (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (double);
-- (double);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (double);
-- (id);
-- (id);
-- (void);
+- (double);
+- (_Bool)G;
+- (_Bool)ytIegr_;
 - (_Bool);
+- (id);
+- (id);
+- (double);
+- (id)c;
+- (id)ty/secure-features-in-the-notes-app-sec1782bcab1;
+- (void)a cell without a row or column;
+- (_Bool)ted list;
 - (void);
 - (void);
 - (_Bool);
@@ -91,11 +70,11 @@
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id);
 - (double);
 - (id);
 - (long long);
-- (void);
+- (void)L;
 - (void);
 - (id);
 - (id);
@@ -110,34 +89,7 @@
 - (void):r1 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKMacToolbarDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double inspectorDividerXPosition; // @synthesize inspectorDividerXPosition=_inspectorDividerXPosition;
-@property(retain, nonatomic) id <CKMacToolbarItemProvider> inspectorItemProvider; // @synthesize inspectorItemProvider=_inspectorItemProvider;
-@property(nonatomic) __weak UIView *inspectorProvidedVirtualView; // @synthesize inspectorProvidedVirtualView=_inspectorProvidedVirtualView;
-@property(nonatomic) _Bool isInStandaloneWindow; // @synthesize isInStandaloneWindow=_isInStandaloneWindow;
-@property(nonatomic) _Bool isShowingInspector; // @synthesize isShowingInspector=_isShowingInspector;
-@property(nonatomic) double preferredPrimaryHeight; // @synthesize preferredPrimaryHeight=_preferredPrimaryHeight;
-@property(nonatomic) double preferredSecondaryHeight; // @synthesize preferredSecondaryHeight=_preferredSecondaryHeight;
-@property(retain, nonatomic) id <CKMacToolbarItemProvider> primaryItemProvider; // @synthesize primaryItemProvider=_primaryItemProvider;
-@property(nonatomic) __weak UIView *primaryProvidedVirtualView; // @synthesize primaryProvidedVirtualView=_primaryProvidedVirtualView;
-@property(readonly, nonatomic) UIView *primaryVirtualBackgroundView; // @synthesize primaryVirtualBackgroundView=_primaryVirtualBackgroundView;
-@property(readonly, nonatomic) __weak NSString *sceneSessionIdentifier; // @synthesize sceneSessionIdentifier=_sceneSessionIdentifier;
-@property(retain, nonatomic) id <CKMacToolbarItemProvider> secondaryItemProvider; // @synthesize secondaryItemProvider=_secondaryItemProvider;
-@property(nonatomic) __weak UIView *secondaryProvidedVirtualView; // @synthesize secondaryProvidedVirtualView=_secondaryProvidedVirtualView;
-@property(readonly, nonatomic) UIView *secondaryVirtualBackgroundView; // @synthesize secondaryVirtualBackgroundView=_secondaryVirtualBackgroundView;
-@property(nonatomic) _Bool shouldDrawPrimaryBlur; // @synthesize shouldDrawPrimaryBlur=_shouldDrawPrimaryBlur;
-@property(nonatomic) _Bool shouldDrawSecondaryBlur; // @synthesize shouldDrawSecondaryBlur=_shouldDrawSecondaryBlur;
-@property(nonatomic) double splitViewDividerXPosition; // @synthesize splitViewDividerXPosition=_splitViewDividerXPosition;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSToolbar *toolbar; // @synthesize toolbar=_toolbar;
-@property(retain, nonatomic) NSMutableDictionary *toolbarItemCache; // @synthesize toolbarItemCache=_toolbarItemCache;
-@property(readonly, nonatomic) __weak UIWindowScene *windowScene; // @synthesize windowScene=_windowScene;
 
 @end
 

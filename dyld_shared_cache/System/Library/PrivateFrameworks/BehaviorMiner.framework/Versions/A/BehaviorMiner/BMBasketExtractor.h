@@ -7,7 +7,6 @@
 @interface BMBasketExtractor
 {
     _Bool _shouldStop;
-    double _samplingInterval;
 }
 
 - (void);
@@ -18,12 +17,11 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)presentationControllerDidDismiss: /* Error: Ran out of types for this method. */;
+- (void)presentViewController:(_Bool)arg1 animated:completion: /* Error: Ran out of types for this method. */;
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) double samplingInterval; // @synthesize samplingInterval=_samplingInterval;
 @property _Bool shouldStop; // @synthesize shouldStop=_shouldStop;
 
 @end

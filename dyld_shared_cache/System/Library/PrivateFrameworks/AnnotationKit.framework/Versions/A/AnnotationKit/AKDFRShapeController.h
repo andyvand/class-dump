@@ -6,37 +6,33 @@
 
 #import <AnnotationKit/AKDFRAnnotationPropertiesController.h>
 
-@class NSStackView, NSStepperTouchBarItem, NSTouchBarItem;
+@class NSTouchBarItem;
 
 @interface AKDFRShapeController : AKDFRAnnotationPropertiesController
 {
     NSTouchBarItem *_lineStyleItem;
-    NSStepperTouchBarItem *_lineWidthStepperItem;
-    NSStackView *_lineStyleView;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (id);
 
 // Remaining properties
 @property(retain) NSTouchBarItem *lineStyleItem; // @synthesize lineStyleItem=_lineStyleItem;
-@property(retain) NSStackView *lineStyleView; // @synthesize lineStyleView=_lineStyleView;
-@property(retain) NSStepperTouchBarItem *lineWidthStepperItem; // @synthesize lineWidthStepperItem=_lineWidthStepperItem;
 
 @end
 

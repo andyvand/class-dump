@@ -9,24 +9,22 @@
 @interface HMCameraClipEncryptionContext
 {
     NSData *_key;
-    unsigned long long _scheme;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)kleptocracy;
 - (void);
 - (id);
-- (unsigned long long)nAllowedPeriod: /* Error: Ran out of types for this method. */;
+- (unsigned long long)setRestrictedGuestInAllowedPeriod: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(readonly, copy) NSData *key; // @synthesize key=_key;
-@property(readonly) unsigned long long scheme; // @synthesize scheme=_scheme;
 
 @end
 

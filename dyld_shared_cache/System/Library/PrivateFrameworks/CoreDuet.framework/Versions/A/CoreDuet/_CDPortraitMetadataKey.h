@@ -8,9 +8,9 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)remoteContext;
++ (id);
++ (id)+;
 + (id);
 + (id);
 + (id);

@@ -4,31 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKEntitlements, NSHashTable, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
-
 @interface CKProcessScopedStateManager
 {
     _Bool _systemIsAvailable;
-    _Bool _hasDeferredAuthorizationChangeNotice;
-    _Bool _hasDeferredAccountChangeNotice;
-    NSHashTable *_registeredContainers;
-    CKEntitlements *_baseEntitlements;
-    CKEntitlements *_resolvedEntitlements;
-    NSMutableDictionary *_fakeEntitlements;
-    NSObject<OS_dispatch_queue> *_notificationQueue;
 }
 
-+ (id);
-- (void);
-- (id);
-- (void);
-- (void);
++ (id)extensions-worth-preserving;
+- (void);
+- (id)`;
 - (void);
 - (void);
 - (void);
+- (void)@;
 - (void);
-- (void)gatePort;
+- (void);
+- (void)namedDelegatePort;
 - (void)ÿÿÿÿ;
 - (void)rver;
 

@@ -5,18 +5,18 @@
 //
 
 @class GEOMapRegion, NSArray;
-@protocol GEOEncyclopedicInfo, GEOTransitAttribution;
+@protocol GEOEncyclopedicInfo;
 
 @protocol GEOTransitLineItem
+- (NSArray *)address.;
+- (_Bool)sage:%@ '%@':Message criterion type %d not supported for evaluation. /* Error: Ran out of types for this method. */;
+- (NSArray *)e for UID;
+- (_Bool)onseOperation isKindOfClass:[MFEWSGetItemDataResponseOperation class]] /* Error: Ran out of types for this method. */;
+- (_Bool)D;
+- (id <GEOEncyclopedicInfo>)ns;
+- (GEOMapRegion *);
 
 // Remaining properties
-@property(readonly, nonatomic) id <GEOTransitAttribution> attribution;
-@property(readonly, nonatomic) id <GEOEncyclopedicInfo> encyclopedicInfo;
-@property(readonly, nonatomic) _Bool hasEncyclopedicInfo;
-@property(readonly, nonatomic) _Bool hasIncidentComponent;
-@property(readonly, nonatomic) NSArray *incidents;
-@property(readonly, nonatomic) _Bool isIncidentsTTLExpired;
 @property(readonly, nonatomic) NSArray *labelItems;
-@property(readonly, nonatomic) GEOMapRegion *mapRegion;
 @end
 

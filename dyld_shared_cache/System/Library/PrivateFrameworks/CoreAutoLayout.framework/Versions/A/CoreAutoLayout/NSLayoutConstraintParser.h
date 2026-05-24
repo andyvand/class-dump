@@ -4,34 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableArray, NSString;
-@protocol NSLayoutItem;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NSLayoutConstraintParser
 {
     NSString *_line;
-    const char *_lineChars;
-    unsigned long long _lineLength;
-    unsigned long long _opts;
-    _Bool _useHorizontalArrangement;
-    NSDictionary *_metrics;
-    NSDictionary *_views;
-    id <NSLayoutItem> _containerView;
-    NSMutableArray *_constraints;
-    NSMutableArray *_unflushedWidthConstraints;
-    NSMutableArray *_alignmentConstraints;
-    unsigned long long _currentCharacter;
-    NSMutableArray *_incompleteConstraints;
-    id <NSLayoutItem> _parsedLeftView;
-    id <NSLayoutItem> _parsedRightView;
-    id <NSLayoutItem> _parsedConstrainedWidthView;
 }
 
 + (id);
 - (void);
 - (double);
-- (void);
+- (void)_TtC6CoreML23MLModelTensorAsyncEvent;
 - (void);
 - (id);
 - (id);

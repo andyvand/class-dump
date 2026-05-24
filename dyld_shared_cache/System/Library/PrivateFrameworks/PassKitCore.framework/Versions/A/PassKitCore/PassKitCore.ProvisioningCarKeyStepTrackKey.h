@@ -7,8 +7,6 @@
 @interface PassKitCore.ProvisioningCarKeyStepTrackKey
 {
     id context;
-    id credential;
-    id sharedState;
 }
 
 @end

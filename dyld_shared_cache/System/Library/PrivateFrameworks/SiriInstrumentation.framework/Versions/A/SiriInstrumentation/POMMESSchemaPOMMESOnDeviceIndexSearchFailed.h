@@ -6,32 +6,27 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface POMMESSchemaPOMMESOnDeviceIndexSearchFailed : SISchemaInstrumentationMessage
 {
     int _reason;
-    CDStruct_6555f803 _has;
 }
 
-- (id);
-- (int);
+- (id);
+- (int)rrival region and location accuracy (%gm) is worse than the required accuracy (%gm);
 - (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)or"20;
 - (_Bool);
-- (_Bool);
+- (_Bool)d;
 - (void);
+- (id);
 - (id);
-- (id);
-- (id)xtPolicies;
+- (id)_powerContextPolicies;
 - (id)sUuid;
 - (void)riggerMitigated;
 
 // Remaining properties
-@property(nonatomic) _Bool hasReason;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int reason; // @synthesize reason=_reason;
 
 @end

@@ -4,26 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSServiceManager, NSDictionary, NSMutableArray, NSMutableDictionary, NSSet, PGGraph, PGGraphMomentNodeCollection, PGGraphPersonNodeCollection;
-
 @interface PGGraphRelationshipProcessor
 {
     unsigned long long _runOptions;
-    NSMutableArray *_analyzersToRun;
-    unsigned long long _numberOfSignals;
-    PGGraphPersonNodeCollection *_personNodes;
-    PGGraphMomentNodeCollection *_momentNodes;
-    NSSet *_contactIdentifiers;
-    NSDictionary *_personLocalIdentifierByContactIdentifier;
-    PGGraph *_graph;
-    NSMutableDictionary *_relationshipAnalyzerPropertiesByPersonLocalIdentifier;
-    NSMutableDictionary *_partnerScoreByPersonLocalIdentifier;
-    NSMutableDictionary *_parentScoreByPersonLocalIdentifier;
-    NSMutableDictionary *_childScoreByPersonLocalIdentifier;
-    NSMutableDictionary *_familyScoreByPersonLocalIdentifier;
-    NSMutableDictionary *_coworkerScoreByPersonLocalIdentifier;
-    NSMutableDictionary *_friendScoreByPersonLocalIdentifier;
-    CLSServiceManager *_serviceManager;
 }
 
 - (void);
@@ -38,12 +21,12 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)supportsActivateAction;
+- (id)spokenDescription;
+- (id)sortUsingFunction:context: /* Error: Ran out of types for this method. */;
+- (id)setFocusedElementController:forApplication: /* Error: Ran out of types for this method. */;
+- (id)setCurrentTokenRange: /* Error: Ran out of types for this method. */;
+- (id),N,V_trackingTextElement;
 - (id);
 - (id);
 - (void);
@@ -66,25 +49,10 @@
 - (void)4~CNrLugBm5mZzGZhQIi0idKaHXqMbtQ878o7HncI/Library/Caches/com.apple.xbs/TemporaryDirectory.52v2gD/Sources/Photos_Swift/workspaces/photoanalysis/PhotosGraph/Framework/Memories/Memory Generators/PGMemoryGenerationHelper.m;
 - (id);
 - (id)åÿÿÜú¤ÿXåÿÿåÿÿ;
-- (id)omentGraphWriter;
+- (id)eventLabelingMomentGraphWriter;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *analyzersToRun; // @synthesize analyzersToRun=_analyzersToRun;
-@property(retain, nonatomic) NSMutableDictionary *childScoreByPersonLocalIdentifier; // @synthesize childScoreByPersonLocalIdentifier=_childScoreByPersonLocalIdentifier;
-@property(readonly, nonatomic) NSSet *contactIdentifiers; // @synthesize contactIdentifiers=_contactIdentifiers;
-@property(retain, nonatomic) NSMutableDictionary *coworkerScoreByPersonLocalIdentifier; // @synthesize coworkerScoreByPersonLocalIdentifier=_coworkerScoreByPersonLocalIdentifier;
-@property(retain, nonatomic) NSMutableDictionary *familyScoreByPersonLocalIdentifier; // @synthesize familyScoreByPersonLocalIdentifier=_familyScoreByPersonLocalIdentifier;
-@property(retain, nonatomic) NSMutableDictionary *friendScoreByPersonLocalIdentifier; // @synthesize friendScoreByPersonLocalIdentifier=_friendScoreByPersonLocalIdentifier;
-@property(readonly, nonatomic) PGGraph *graph; // @synthesize graph=_graph;
-@property(readonly, nonatomic) PGGraphMomentNodeCollection *momentNodes; // @synthesize momentNodes=_momentNodes;
-@property(readonly, nonatomic) unsigned long long numberOfSignals; // @synthesize numberOfSignals=_numberOfSignals;
-@property(retain, nonatomic) NSMutableDictionary *parentScoreByPersonLocalIdentifier; // @synthesize parentScoreByPersonLocalIdentifier=_parentScoreByPersonLocalIdentifier;
-@property(retain, nonatomic) NSMutableDictionary *partnerScoreByPersonLocalIdentifier; // @synthesize partnerScoreByPersonLocalIdentifier=_partnerScoreByPersonLocalIdentifier;
-@property(readonly, nonatomic) NSDictionary *personLocalIdentifierByContactIdentifier; // @synthesize personLocalIdentifierByContactIdentifier=_personLocalIdentifierByContactIdentifier;
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *personNodes; // @synthesize personNodes=_personNodes;
-@property(retain, nonatomic) NSMutableDictionary *relationshipAnalyzerPropertiesByPersonLocalIdentifier; // @synthesize relationshipAnalyzerPropertiesByPersonLocalIdentifier=_relationshipAnalyzerPropertiesByPersonLocalIdentifier;
 @property(readonly, nonatomic) unsigned long long runOptions; // @synthesize runOptions=_runOptions;
-@property(readonly) CLSServiceManager *serviceManager; // @synthesize serviceManager=_serviceManager;
 
 @end
 

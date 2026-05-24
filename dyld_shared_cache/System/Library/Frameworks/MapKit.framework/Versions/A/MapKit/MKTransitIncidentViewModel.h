@@ -4,31 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSString;
+@class NSString;
 
 @interface MKTransitIncidentViewModel
 {
     _Bool _blocking;
-    _Bool _showImage;
-    NSString *_message;
 }
 
+- (_Bool)og(%d, %@ at %@)
+;
+- (void)t to enqueue new quick energy snapshot;
+- (void)ice;
 - (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)d to take runningboard assertion, error:(id)arg1 %{public}@;
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (void)sabled;
+- (id);
+- (void)resizableViewsDisabled;
 
 // Remaining properties
-@property(nonatomic, getter=isBlocking) _Bool blocking; // @synthesize blocking=_blocking;
-@property(retain, nonatomic) NSString *message; // @synthesize message=_message;
-@property(nonatomic) _Bool showImage; // @synthesize showImage=_showImage;
-@property(readonly, nonatomic) NSColor *symbolColor;
 @property(readonly, nonatomic) NSString *symbolName;
 
 @end

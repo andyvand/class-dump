@@ -7,10 +7,9 @@
 @class NSDate, NSString;
 
 @protocol NDAnalyticsEnvelopeStoreEntry
+- (NSDate *)$;
 
 // Remaining properties
-@property(readonly, nonatomic) int envelopeContentType;
 @property(readonly, copy, nonatomic) NSString *envelopeIdentifier;
-@property(readonly, copy, nonatomic) NSDate *envelopeSubmissionDate;
 @end
 

@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSNumber;
+@class NSNumber;
 
 @interface ExclaveStackEntry
 {
     NSNumber *_addressSpaceId;
-    NSMutableArray *_frames;
 }
 
-- (void);
-- (id);
-- (void);
+- (void)KStoreButton",&,N,V_viewButton;
+- (id)V_currentLeadingViewController;
+- (void)verlayLabel;
 - (id);
 - (void);
 - (void)¬4 "\#Ü$|%Ð&'Ä(x)<0Ì0;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *addressSpaceId; // @synthesize addressSpaceId=_addressSpaceId;
-@property(retain, nonatomic) NSMutableArray *frames; // @synthesize frames=_frames;
 
 @end
 

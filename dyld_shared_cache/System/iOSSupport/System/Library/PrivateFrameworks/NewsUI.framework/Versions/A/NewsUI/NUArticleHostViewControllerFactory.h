@@ -4,37 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol NUArticleContentSizeManager, NUArticleViewControllerFactory, NUErrorMessageFactory, NUSettings;
+@protocol NUArticleViewControllerFactory;
 
 @interface NUArticleHostViewControllerFactory
 {
     id <NUArticleViewControllerFactory> _articleViewControllerFactory;
-    id <NUSettings> _settings;
-    id <NUErrorMessageFactory> _errorMessageFactory;
-    id <NUArticleContentSizeManager> _contentSizeManager;
 }
 
+- (id)C;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)#;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <NUArticleViewControllerFactory> articleViewControllerFactory; // @synthesize articleViewControllerFactory=_articleViewControllerFactory;
-@property(readonly, nonatomic) id <NUArticleContentSizeManager> contentSizeManager; // @synthesize contentSizeManager=_contentSizeManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <NUErrorMessageFactory> errorMessageFactory; // @synthesize errorMessageFactory=_errorMessageFactory;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) id <NUSettings> settings; // @synthesize settings=_settings;
-@property(readonly) Class superclass;
 
 @end
 

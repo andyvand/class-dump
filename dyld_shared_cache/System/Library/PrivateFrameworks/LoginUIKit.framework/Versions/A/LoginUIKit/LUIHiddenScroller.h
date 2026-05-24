@@ -8,11 +8,11 @@
 {
 }
 
-+ (_Bool);
++ (_Bool);
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void);
 - (struct CGRect);
 
 @end

@@ -6,37 +6,30 @@
 
 #import <CloudKit/CKDatabaseOperation.h>
 
-@class CKPublishAssetsOperationInfo, NSArray, NSDictionary, NSMutableDictionary, NSString;
-@protocol CKPublishAssetsOperationCallbacks;
+@class NSArray;
 
 @interface CKPublishAssetsOperation : CKDatabaseOperation
 {
     CDUnknownBlockType _assetPublishedBlock;
-    CDUnknownBlockType _publishAssetCompletionBlock;
-    NSDictionary *_fileNamesByAssetFieldNames;
-    unsigned long long _requestedTTL;
-    unsigned long long _URLOptions;
-    NSArray *_recordIDs;
-    NSMutableDictionary *_perItemErrorsByRecordID;
 }
 
-+ (SEL);
++ (SEL)(b;
 + (void);
 - (void);
 - (void);
-- (void);
+- (void)A;
 - (CDUnknownBlockType);
 - (id);
+- (void)";
+- (id);
+- (CDUnknownBlockType)T;
+- (void)I?;
+- (id)�;
 - (void);
 - (id);
-- (CDUnknownBlockType);
-- (void);
-- (id);
-- (void);
-- (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)brc_errorNoDocument:underlyingPOSIXError: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (unsigned long long);
@@ -50,22 +43,7 @@
 - (void)¸¨;
 
 // Remaining properties
-@property(nonatomic) unsigned long long URLOptions; // @synthesize URLOptions=_URLOptions;
-@property(copy, nonatomic) CDUnknownBlockType assetPublishedBlock; // @synthesize assetPublishedBlock=_assetPublishedBlock;
-@property(readonly, nonatomic) id <CKPublishAssetsOperationCallbacks> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSDictionary *fileNamesByAssetFieldNames; // @synthesize fileNamesByAssetFieldNames=_fileNamesByAssetFieldNames;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CKPublishAssetsOperationInfo *operationInfo;
-@property(retain, nonatomic) NSMutableDictionary *perItemErrorsByRecordID; // @synthesize perItemErrorsByRecordID=_perItemErrorsByRecordID;
-@property(copy, nonatomic) CDUnknownBlockType publishAssetCompletionBlock; // @synthesize publishAssetCompletionBlock=_publishAssetCompletionBlock;
 @property(retain, nonatomic) NSArray *recordIDs; // @synthesize recordIDs=_recordIDs;
-@property(nonatomic) unsigned long long requestedTTL; // @synthesize requestedTTL=_requestedTTL;
-@property(readonly) Class superclass;
 
 @end
 

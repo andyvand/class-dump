@@ -7,15 +7,9 @@
 @interface PromotedContentUI.CarouselCollectionViewCell
 {
     id touchPoint;
-    id $__lazy_storage_$_assetImageView;
-    id $__lazy_storage_$_captionView;
-    id $__lazy_storage_$_captionLabel;
-    id $__lazy_storage_$_blurImageView;
-    id filterView;
-    id delegate;
 }
 
-- (id);
+- (id)P;
 - (void);
 - (void);
 - (id);

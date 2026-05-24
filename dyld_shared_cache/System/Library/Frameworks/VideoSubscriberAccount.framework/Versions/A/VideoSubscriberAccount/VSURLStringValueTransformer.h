@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 
 + (_Bool);
 + (Class);
-- (id);
+- (id)"fObserver"@"FI_TKeyValueObserverGlue""fObjectToObserve"@"NSObject""fArrayOfObjectsToObserve"@"NSArray""fIndexesOfObjectsToObserve"@"NSIndexSet""fKeyPathToObserve"{TString="fString"{TRef<const __CFString *, TRetainReleasePolicy<CFStringRef>>="fRef"^{__CFString}}}}"fProgress"{TNSWeakPtr<NSProgress>="fWeakObject"@"NSProgress"}};
 - (id);
 
 @end

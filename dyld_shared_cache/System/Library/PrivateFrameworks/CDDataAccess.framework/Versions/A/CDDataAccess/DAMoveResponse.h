@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DAMessageMoveRequest, NSString;
-
 @interface DAMoveResponse
 {
     int _status;
-    NSString *_sourceID;
-    NSString *_destID;
-    DAMessageMoveRequest *_origRequest;
 }
 
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
-- (int);
-- (void);
+- (id);
 - (id);
 - (void);
+- (int)deviceWake;
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *destID; // @synthesize destID=_destID;
-@property(retain, nonatomic) DAMessageMoveRequest *origRequest; // @synthesize origRequest=_origRequest;
-@property(copy, nonatomic) NSString *sourceID; // @synthesize sourceID=_sourceID;
 @property(nonatomic) int status; // @synthesize status=_status;
 
 @end

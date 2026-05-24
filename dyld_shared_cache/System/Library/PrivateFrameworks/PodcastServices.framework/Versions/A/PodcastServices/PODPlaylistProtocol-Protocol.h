@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString;
+@class NSArray, NSString;
 
 @protocol PODPlaylistProtocol
+- (NSArray *)h2;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *addedDate;
-@property(readonly, nonatomic) NSArray *episodeSyncIDs;
 @property(readonly, nonatomic) NSString *title;
 @end
 

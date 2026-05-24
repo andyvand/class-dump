@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
+@class NSArray;
 
 @interface _CDSiriLearningSettings
 {
     _Bool _hasPrefsAccess;
-    int _notifyToken;
-    struct os_unfair_lock_s _lock;
-    NSArray *_allLearningDisabledBundleIDs;
-    NSMutableArray *_delegates;
 }
 
 + (id)?<v@?@"NSArray">24;
 - (void);
 - (_Bool);
-- (id);
-- (void);
+- (id)mt_composite;
+- (void);
 - (void);
 - (void)ñ©3ð1Â0@ù
 × ;

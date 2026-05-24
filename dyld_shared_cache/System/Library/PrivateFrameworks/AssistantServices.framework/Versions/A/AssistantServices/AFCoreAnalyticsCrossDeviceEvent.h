@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSString;
 
 @interface AFCoreAnalyticsCrossDeviceEvent
 {
     NSString *_nearbyDevicesLoggingID;
-    NSMutableDictionary *_nearbyDevicesPayloads;
 }
 
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)H;
+- (id);
+- (void)+;
 - (void);
 - (void);
 - (id);
@@ -27,7 +26,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *nearbyDevicesLoggingID; // @synthesize nearbyDevicesLoggingID=_nearbyDevicesLoggingID;
-@property(retain, nonatomic) NSMutableDictionary *nearbyDevicesPayloads; // @synthesize nearbyDevicesPayloads=_nearbyDevicesPayloads;
 
 @end
 

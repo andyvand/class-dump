@@ -6,12 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMPayloadBase.h>
 
-@class CEMAnyPayload, NSString;
+@class NSString;
 
 @interface CEMActivationAdvancedDeclaration_ConfigurationsItem : CEMPayloadBase
 {
     NSString *_payloadIdentifier;
-    CEMAnyPayload *_payloadOverrides;
 }
 
 + (id);
@@ -23,12 +22,11 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *payloadIdentifier; // @synthesize payloadIdentifier=_payloadIdentifier;
-@property(copy, nonatomic) CEMAnyPayload *payloadOverrides; // @synthesize payloadOverrides=_payloadOverrides;
 
 @end
 

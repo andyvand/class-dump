@@ -7,8 +7,6 @@
 @interface PXLivePhotoTrimScrubberHiddenAnimationHelper
 {
     long long _hideRequestCounter;
-    _Bool _hidden;
-    CDUnknownBlockType _animationBlock;
 }
 
 - (id);
@@ -23,7 +21,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType animationBlock; // @synthesize animationBlock=_animationBlock;
-@property(nonatomic) _Bool hidden; // @synthesize hidden=_hidden;
 
 @end
 

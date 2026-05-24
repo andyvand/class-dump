@@ -7,9 +7,10 @@
 @protocol NSTabBarSyncedButtonDelegate;
 
 @protocol NSTabBarSyncedButton
+- (void);
+- (_Bool)0000000000000000;
 
 // Remaining properties
 @property(nonatomic) __weak id <NSTabBarSyncedButtonDelegate> buttonInTabSyncGroupDelegate;
-@property(nonatomic, getter=isSyncedWithOtherButton) _Bool syncedWithOtherButton;
 @end
 

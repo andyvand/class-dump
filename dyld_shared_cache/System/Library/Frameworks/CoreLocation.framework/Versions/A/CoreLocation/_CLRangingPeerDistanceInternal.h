@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, _CLRangingPeer;
+@class _CLRangingPeer;
 
 @interface _CLRangingPeerDistanceInternal
 {
     _CLRangingPeer *_peer;
-    NSDate *_date;
-    NSNumber *_distanceMeters;
-    NSNumber *_accuracyMeters;
-    _Bool _initiator;
-    _Bool _shouldUnlock;
 }
 
-- (id);
-- (void);
-- (id);
+- (id);
+- (void)IIO_use_hw_decoder;
+- (id)setSharedIndirectionTable:(struct _NSZone *)arg1;
 
 @end
 

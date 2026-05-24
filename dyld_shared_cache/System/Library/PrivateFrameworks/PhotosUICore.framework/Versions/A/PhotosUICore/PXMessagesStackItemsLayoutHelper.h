@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PFMessagesStackLayoutFrameSolver;
-
 @interface PXMessagesStackItemsLayoutHelper
 {
     unsigned long long _nestedChanges;
-    unsigned long long _baseGeometriesSize;
-    CDStruct_e6e97baa *_baseGeometries;
-    CDStruct_e6e97baa _initialItemCentralGeometry;
-    CDStruct_e6e97baa _finalItemCentralGeometry;
-    PFMessagesStackLayoutFrameSolver *_frameSolver;
-    unsigned long long _stackedItemsCount;
-    double _normalizedStackSizeTransform;
-    NSArray *_normalizedStackHorizontalOffsets;
-    double _normalizedStackVerticalOffset;
-    double _normalizedContentInsets;
-    double _rotationAngle;
-    unsigned long long _zOrderArchSide;
 }
 
 - (unsigned long long);
@@ -36,11 +22,11 @@
 - (struct CGSize);
 - (double);
 - (void);
-- (CDStruct_e6e97baa);
+- (CDStruct_decfe93a);
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)<;
 - (void);
 - (double);
 - (void);
@@ -49,20 +35,7 @@
 - (void)QÄ¶|;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double normalizedContentInsets; // @synthesize normalizedContentInsets=_normalizedContentInsets;
-@property(copy, nonatomic) NSArray *normalizedStackHorizontalOffsets; // @synthesize normalizedStackHorizontalOffsets=_normalizedStackHorizontalOffsets;
-@property(nonatomic) double normalizedStackSizeTransform; // @synthesize normalizedStackSizeTransform=_normalizedStackSizeTransform;
-@property(nonatomic) double normalizedStackVerticalOffset; // @synthesize normalizedStackVerticalOffset=_normalizedStackVerticalOffset;
-@property(nonatomic) double rotationAngle; // @synthesize rotationAngle=_rotationAngle;
 @property(nonatomic) unsigned long long stackedItemsCount; // @synthesize stackedItemsCount=_stackedItemsCount;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long zOrderArchSide; // @synthesize zOrderArchSide=_zOrderArchSide;
 
 @end
 

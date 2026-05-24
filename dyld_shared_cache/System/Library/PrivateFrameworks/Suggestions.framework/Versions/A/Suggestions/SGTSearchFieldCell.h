@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SGTSearchField, SGTSearchFieldCellReserved;
+@class SGTSearchField, SGTSearchFieldCellReserved;
 
 @interface SGTSearchFieldCell
 {
@@ -14,14 +14,14 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
@@ -32,49 +32,40 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)h.;
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id));
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (_Bool);
+- (id)d;
+- (id);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)_writeToDataConsumer:embedSourceImageAndEditModel:withOutputType:error: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)d attributes replacing them by style rules and structural markup as appropriate. It works well on the HTML saved by Microsoft Office products. ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) SGTSearchField *searchField;
-@property(readonly) Class superclass;
-@property(readonly) NSString *untokenizedStringValue;
-@property _Bool useTokens;
 
 @end
 

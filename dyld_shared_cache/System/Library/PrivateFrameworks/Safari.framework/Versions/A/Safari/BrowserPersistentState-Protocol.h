@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString;
+@class NSDate, NSDictionary;
 
 @protocol BrowserPersistentState
+- (NSDictionary *);
 - (NSDate *)ô;
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) long long closedItemType;
 @property(readonly, nonatomic) NSDate *dateClosed;
-@property(readonly, nonatomic) unsigned long long numberOfTabs;
-@property(readonly, copy, nonatomic) NSString *profileIdentifier;
-@property(readonly, copy, nonatomic) NSArray *tabUUIDs;
 @end
 

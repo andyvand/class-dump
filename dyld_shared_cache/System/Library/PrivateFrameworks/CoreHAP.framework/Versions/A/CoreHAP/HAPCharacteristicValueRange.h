@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface HAPCharacteristicValueRange
 {
     NSData *_lowerBound;
-    NSData *_upperBound;
 }
 
 + (id);
@@ -21,21 +20,13 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)newEnumeratorFromBookmark:(id)arg1 options: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void)48@0:8@"NSData"16^@24^@32^@40 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSData *lowerBound; // @synthesize lowerBound=_lowerBound;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSData *upperBound; // @synthesize upperBound=_upperBound;
 
 @end
 

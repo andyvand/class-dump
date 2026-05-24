@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUIVectorGlyphManagedPointArray, NSData;
+@class NSData;
 
 @interface CUIVectorGlyphDrawAttachmentDataStore
 {
     NSData *_data;
-    CUIVectorGlyphManagedPointArray *_anchors;
 }
 
 + (unsigned int);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id);
+- (id)9;
+- (id);
+- (void)T;
 - (id);
 - (void);
 - (id);
@@ -29,8 +28,6 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) CUIVectorGlyphManagedPointArray *anchors; // @synthesize anchors=_anchors;
-@property(readonly, nonatomic) unsigned long long count;
 @property(readonly, retain, nonatomic) NSData *data; // @synthesize data=_data;
 
 @end

@@ -18,13 +18,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ler;
 - (id);
 - (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *appBundleId;
-@property(copy, nonatomic) NSString *sceneId;
 
 @end
 

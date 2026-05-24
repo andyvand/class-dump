@@ -4,41 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _MSVSQLConnection;
-@protocol _MSVSQLAssertion;
+@class NSString;
 
 @interface MSVSQLDatabaseTransaction
 {
     _Bool _invalid;
-    _MSVSQLConnection *_connection;
-    id <_MSVSQLAssertion> _assertion;
-    NSString *_name;
 }
 
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)initializeSynchronously;
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)$;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)age_$_autoLoginName;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
 
 @end
 

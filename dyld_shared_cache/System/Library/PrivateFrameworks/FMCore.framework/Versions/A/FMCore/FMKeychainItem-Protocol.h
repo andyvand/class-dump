@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString;
+@class NSDate, NSString;
 
 @protocol FMKeychainItem
+- (NSDate *)SEARCH_PERSON_RELATIONSHIP_SISTER;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *creationDate;
-@property(readonly, nonatomic) NSDate *lastModifyDate;
 @property(readonly, nonatomic) NSString *password;
-@property(readonly, nonatomic) NSData *rawData;
 @end
 

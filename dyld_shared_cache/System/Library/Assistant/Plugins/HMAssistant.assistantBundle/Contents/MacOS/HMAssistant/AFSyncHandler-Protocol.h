@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class AFSyncSnapshot, NSString;
+
 @protocol AFSyncHandler
+
+@optional
+- (NSString *);
+- (AFSyncSnapshot *);
 @end
 

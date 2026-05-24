@@ -15,7 +15,7 @@
 
 - (int);
 - (void);
-- (void);
+- (void)X;
 
 @end
 

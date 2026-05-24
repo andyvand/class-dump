@@ -4,90 +4,55 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMSPIHandle, LPLinkMetadata, NSArray, NSAttributedString, NSDate, NSDictionary, NSString, NSURL, PKCurrencyAmount;
-
 @interface IMSPIMessage
 {
     _Bool _isRead;
-    _Bool _isOutgoing;
-    _Bool _isAudioMessage;
-    _Bool _isGroupChat;
-    _Bool _hasDataDetectedResults;
-    NSString *_guid;
-    long long _messageID;
-    NSAttributedString *_attributedText;
-    NSString *_text;
-    IMSPIHandle *_sender;
-    NSArray *_recipients;
-    NSString *_subject;
-    NSDate *_date;
-    NSArray *_chatGuids;
-    NSArray *_attachments;
-    long long _itemType;
-    NSString *_groupID;
-    NSString *_chatIdentifier;
-    NSString *_body;
-    NSString *_summary;
-    NSString *_effect;
-    NSString *_displayName;
-    NSString *_service;
-    NSDate *_dateRead;
-    NSDate *_dateForLastReadMessageInChat;
-    NSURL *_extensionPayloadURL;
-    IMSPIMessage *_referencedMessage;
-    NSString *_bundleId;
-    long long _messageType;
-    NSString *_displayAppName;
-    LPLinkMetadata *_richLinkMetadata;
-    PKCurrencyAmount *_peerPaymentAmount;
-    NSString *_associatedMessageEmoji;
-    NSDictionary *_translatedMessagePartsMap;
 }
 
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)%s:%d Could not create local endpoint /* Error: Ran out of types for this method. */;
+- (void)ion not supported for videoStreamMode=%ld;
+- (void)workUplinkClockUsesBaseband=%u;
+- (void)Sources/AVConference/AVConference.subproj/Sources/AVCPacketRelayDriverThread.m:(id)arg1 %d:AVCPacketRelayDriverProc failed due to invalid handle. /* Error: Ran out of types for this method. */;
+- (void)dio Stream Group has paused, swapping sync sources;
+- (void)stream token dictionary;
+- (void)to configure, bypassing configuration;
+- (void)ig;
+- (void)%@(%p) Failed to setup the audio stream config;
+- (void)%@(%p) Failed to start stream group. streamGroupID=%s streamToken=%u error=%@;
+- (id)clientSessionID in the options is not of NSUUIDtype;
+- (id)info updated:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)ergyInfo.energyAvg[%f];
+- (id)Size[%f] DesiredQsize[%f] QueuedSamples[%d];
+- (id)d Noted jump in AddLagToHistory %f;
+- (id)streamToken=%d, error=%@;
+- (void)Failed to allocate XPC connection;
+- (id)nnection[%p] that already exists;
 - (id);
 - (_Bool);
+- (void);
 - (id);
+- (id);
+- (void)l;
+- (void)nt started due to activeStreamGroups change from [%@] to [%@];
+- (void)ctiveStreams=%@. Ignoring its telemetry...;
+- (void)ailed to allocate thermal data collectors array;
+- (id)-[VCSymptomReporter reportFailedToSetupAudioCodec];
+- (_Bool)NoPacketsWiFi;
+- (id)RelayedCT;
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
+- (void);
+- (id)containingBundleIdentifier;
+- (id);
+- (void)-;
 - (void);
 - (id);
-- (id);
-- (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (id)modifier cannot have ORDER BY;
+- (void)&;
 - (void);
 - (id);
 - (id);
@@ -108,13 +73,13 @@
 - (void);
 - (id);
 - (void);
-- (_Bool)etTransitionedHandles: /* Error: Ran out of types for this method. */;
-- (id)es;
-- (id)ilterIMHandlesForBestAccountSiblings: /* Error: Ran out of types for this method. */;
+- (_Bool)setTransitionedHandles: /* Error: Ran out of types for this method. */;
+- (id)mergedThreadFilterModes;
+- (id)filterIMHandlesForBestAccountSiblings: /* Error: Ran out of types for this method. */;
 - (void)²;
 - (id);
 - (id);
-- (long long)a;
+- (long long)ha;
 - (long long)@"NSArray"28;
 - (void)(Øbä;
 - (void);
@@ -122,42 +87,6 @@
 
 // Remaining properties
 @property(readonly) _Bool allowedByScreenTime;
-@property(retain) NSString *associatedMessageEmoji; // @synthesize associatedMessageEmoji=_associatedMessageEmoji;
-@property(retain) NSArray *attachments; // @synthesize attachments=_attachments;
-@property(retain) NSAttributedString *attributedText; // @synthesize attributedText=_attributedText;
-@property(retain) NSString *body; // @synthesize body=_body;
-@property(retain) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(retain) NSArray *chatGuids; // @synthesize chatGuids=_chatGuids;
-@property(retain) NSString *chatIdentifier; // @synthesize chatIdentifier=_chatIdentifier;
-@property(retain) NSDate *date; // @synthesize date=_date;
-@property(retain) NSDate *dateForLastReadMessageInChat; // @synthesize dateForLastReadMessageInChat=_dateForLastReadMessageInChat;
-@property(retain) NSDate *dateRead; // @synthesize dateRead=_dateRead;
-@property(retain) NSString *displayAppName; // @synthesize displayAppName=_displayAppName;
-@property(retain) NSString *displayName; // @synthesize displayName=_displayName;
-@property(retain) NSString *effect; // @synthesize effect=_effect;
-@property(retain) NSURL *extensionPayloadURL; // @synthesize extensionPayloadURL=_extensionPayloadURL;
-@property(retain) NSString *groupID; // @synthesize groupID=_groupID;
-@property(retain) NSString *guid; // @synthesize guid=_guid;
-@property _Bool hasDataDetectedResults; // @synthesize hasDataDetectedResults=_hasDataDetectedResults;
-@property _Bool isAudioMessage; // @synthesize isAudioMessage=_isAudioMessage;
-@property _Bool isGroupChat; // @synthesize isGroupChat=_isGroupChat;
-@property _Bool isOutgoing; // @synthesize isOutgoing=_isOutgoing;
-@property _Bool isRead; // @synthesize isRead=_isRead;
-@property long long itemType; // @synthesize itemType=_itemType;
-@property(readonly) NSDate *lastReadDate;
-@property long long messageID; // @synthesize messageID=_messageID;
-@property long long messageType; // @synthesize messageType=_messageType;
-@property(retain) PKCurrencyAmount *peerPaymentAmount; // @synthesize peerPaymentAmount=_peerPaymentAmount;
-@property(retain) NSArray *recipients; // @synthesize recipients=_recipients;
-@property(retain) IMSPIMessage *referencedMessage; // @synthesize referencedMessage=_referencedMessage;
-@property(retain) LPLinkMetadata *richLinkMetadata; // @synthesize richLinkMetadata=_richLinkMetadata;
-@property(retain) IMSPIHandle *sender; // @synthesize sender=_sender;
-@property(retain) NSString *service; // @synthesize service=_service;
-@property(retain) NSString *subject; // @synthesize subject=_subject;
-@property(retain) NSString *summary; // @synthesize summary=_summary;
-@property(retain) NSString *text; // @synthesize text=_text;
-@property(retain) NSDictionary *translatedMessagePartsMap; // @synthesize translatedMessagePartsMap=_translatedMessagePartsMap;
-@property(readonly) NSURL *url;
 
 @end
 

@@ -7,35 +7,28 @@
 @interface GEOPDGeographicCoordinate
 {
     double _altitude;
-    double _latitude;
-    double _longitude;
-    struct {
-        unsigned int has_altitude:1;
-        unsigned int has_latitude:1;
-        unsigned int has_longitude:1;
-    } _flags;
 }
 
-+ (_Bool)ing:(id)arg1;
++ (_Bool)setHikeTypeString:(id)arg1;
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)lVersion=%lu, deviceCategory=%lu, buildVersion=%@, deviceProductVersion=%@, deviceProductType=%@;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void)imeGaps"b1"wrote_anyField"b1};
 - (id)gestionResult"b1"read_publisherSuggestionResult"b1"read_searchBrowseCategorySuggestionResult"b1"read_tapMetadata"b1"wrote_anyField"b1};
-- (double)lExperimentMetadata: /* Error: Ran out of types for this method. */;
-- (void)rIndex:(double)arg1;
-- (id)lts;
+- (double)setTrialExperimentMetadata: /* Error: Ran out of types for this method. */;
+- (void)setHasArrivalParameterIndex:(double)arg1;
+- (id)_displayedResults;
 - (id)dñ;
-- (id)emoved_muid;
+- (id)removed_muid;
 - (void)be enum types.;
 - (double)¸;
 - (_Bool)d;
@@ -44,12 +37,7 @@
 - (double)Û%;
 
 // Remaining properties
-@property(nonatomic) double altitude;
-@property(nonatomic) _Bool hasAltitude;
 @property(nonatomic) _Bool hasLatitude;
-@property(nonatomic) _Bool hasLongitude;
-@property(nonatomic) double latitude;
-@property(nonatomic) double longitude;
 
 @end
 

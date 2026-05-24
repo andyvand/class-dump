@@ -6,24 +6,20 @@
 
 #import <Foundation/NSXMLElement.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface NSXMLFidelityElement : NSXMLElement
 {
     unsigned long long _fidelity;
-    NSString *_startWhitespace;
-    NSString *_endWhitespace;
 }
 
 - (void);
-- (void);
+- (void)h;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)B;
 - (id);
 - (id)0@ù
 × ;

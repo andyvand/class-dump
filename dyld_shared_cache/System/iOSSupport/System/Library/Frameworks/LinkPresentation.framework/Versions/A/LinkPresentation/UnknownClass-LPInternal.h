@@ -5,15 +5,15 @@
 //
 
 @interface UnknownClass (LPInternal)
-- (unsigned long long);
-- (id);
-- (void);
+- (unsigned long long)shouldProvideDragPreview;
+- (id)shouldOfferTranslateConversationInTranslateMenu;
+- (void)shouldOfferNicknameSharingForChat:(unsigned long long)arg1;
+- (_Bool)shouldInsetForStatusBar;
+- (_Bool)shouldIgnoreRestoreState;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)shouldIgnoreKeyboardAnimationDuration;
+- (_Bool)shouldHideStatusBarForFullScreenEffects;
+- (id)setWaveformProgressView: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, setter=_lp_setStringType:) unsigned long long _lp_stringType;

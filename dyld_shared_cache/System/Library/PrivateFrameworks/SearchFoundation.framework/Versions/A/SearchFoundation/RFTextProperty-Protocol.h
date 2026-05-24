@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary;
+@class NSArray;
 
 @protocol RFTextProperty
+- (NSArray *)_presentPopupView_macOS;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) _Bool is_safe_for_logging;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *text_elements;
 @end
 

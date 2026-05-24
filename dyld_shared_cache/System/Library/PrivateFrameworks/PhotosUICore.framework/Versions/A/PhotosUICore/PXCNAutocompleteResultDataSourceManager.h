@@ -6,21 +6,12 @@
 
 #import <PhotosUICore/PXRecipientSearchDataSourceManager.h>
 
-@class CNAutocompleteStore, NSArray, NSDictionary, NSMutableArray, NSObject, NSString, PXCNAutocompleteResultDataSource, PXSharedLibraryParticipantValidationManager;
-@protocol CNCancelable, OS_dispatch_queue;
+@class NSArray, NSObject;
+@protocol OS_dispatch_queue;
 
 @interface PXCNAutocompleteResultDataSourceManager : PXRecipientSearchDataSourceManager
 {
     NSObject<OS_dispatch_queue> *_creationQueue;
-    CNAutocompleteStore *_autocompleteStore;
-    id <CNCancelable> _currentSearch;
-    _Bool _shouldUnifyResults;
-    NSMutableArray *_autocompleteResults;
-    NSMutableArray *_concreteResults;
-    NSObject<OS_dispatch_queue> *_searchResultsQueue;
-    NSDictionary *_searchResultsByDestination;
-    PXSharedLibraryParticipantValidationManager *_cloudKitShareQueryController;
-    NSArray *_unifiedResults;
 }
 
 - (id);
@@ -29,8 +20,8 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
-- (void);
+- (void)C;
+- (void)P;
 - (void);
 - (void);
 - (id);
@@ -40,14 +31,6 @@
 - (void)Y¿­;
 
 // Remaining properties
-@property(readonly, nonatomic) PXCNAutocompleteResultDataSource *dataSource; // @dynamic dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSArray *unifiedResults; // @synthesize unifiedResults=_unifiedResults;
 
 @end

@@ -8,25 +8,21 @@ __attribute__((visibility("hidden")))
 @interface PDFPanGestureRecognizer
 {
     _Bool _didForcePress;
-    _Bool _touchesDidHavePressure;
-    struct CGPoint _locationOfFirstTouch;
 }
 
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (struct CGPoint);
 - (struct CGPoint);
 - (void);
-- (void);
+- (void)initWithDomain:(id)arg1 identifier:(id)arg2 reason: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool didForcePress; // @synthesize didForcePress=_didForcePress;
 @property(nonatomic) struct CGPoint locationOfFirstTouch; // @synthesize locationOfFirstTouch=_locationOfFirstTouch;
-@property(nonatomic) _Bool touchesDidHavePressure; // @synthesize touchesDidHavePressure=_touchesDidHavePressure;
 
 @end
 

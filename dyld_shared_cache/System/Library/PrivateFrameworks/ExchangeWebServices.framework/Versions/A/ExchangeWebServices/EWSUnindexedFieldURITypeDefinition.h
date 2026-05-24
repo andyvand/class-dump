@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id);
+- (id)^{CGColor=},R,N,V_tertiaryDropShadowColor;
 
 @end
 

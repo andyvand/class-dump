@@ -6,25 +6,15 @@
 
 #import <CoreHandwriting/CHTokenizedResult.h>
 
-@class NSArray, NSIndexPath, NSLocale, NSString;
+@class NSArray;
 
 @interface CHTokenizedTextResult : CHTokenizedResult
 {
     NSArray *_tokenColumns;
-    NSArray *_transcriptionPaths;
-    NSArray *_transcriptionPathScores;
-    long long _recognizerGenerationIdentifier;
-    long long _precedingLineBreaks;
-    long long _changeableCount;
-    NSArray *_inputStrokeIdentifiers;
-    NSLocale *_locale;
-    int _baseWritingDirection;
-    NSString *_trailingSeparator;
-    NSArray *_originalTokens;
 }
 
 + (id);
-+ (id);
++ (id)9;
 + (id);
 + (id);
 + (id);
@@ -35,10 +25,10 @@
 + (_Bool);
 + (id);
 + (_Bool);
++ (id)!;
 + (id);
 + (id);
-+ (id);
-+ (_Bool);
++ (_Bool)_irisListener;
 - (id);
 - (id);
 - (id);
@@ -59,20 +49,20 @@
 - (long long);
 - (id);
 - (long long);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)R!;
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
-- (long long);
+- (long long)JB;
 - (id);
 - (id);
 - (id);
@@ -89,7 +79,7 @@
 - (CDStruct_c3b9c2ee);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)c;
 - (id);
 - (id);
 - (id);
@@ -100,7 +90,7 @@
 - (id);
 - (long long);
 - (double);
-- (_Bool);
+- (_Bool)r;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -118,38 +108,23 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)kA;
 - (int);
 - (id);
+- (id)d;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (double);
+- (double)kIKScannerDeviceView_ScannerNotAvailable;
 - (void)t;
 
 // Remaining properties
-@property(readonly, nonatomic) int baseWritingDirection;
-@property(readonly, nonatomic) long long changeableTokenColumnCount;
-@property(readonly, nonatomic) _Bool isSingleTokenResult;
 @property(copy, nonatomic) NSArray *originalTokens; // @synthesize originalTokens=_originalTokens;
-@property(readonly, copy, nonatomic) NSString *rawTranscription;
-@property(readonly, copy, nonatomic) NSIndexPath *rawTranscriptionPath;
-@property(readonly, nonatomic) NSString *recognizerDebugDescription;
-@property(readonly, copy, nonatomic) NSString *refinableTranscription;
-@property(readonly, copy, nonatomic) NSIndexPath *refinableTranscriptionPath;
-@property(readonly, nonatomic) long long tokenColumnCount;
-@property(readonly, copy, nonatomic) NSString *topModelTranscription;
-@property(readonly, copy, nonatomic) NSIndexPath *topModelTranscriptionPath;
-@property(readonly, copy, nonatomic) NSString *topTranscription;
-@property(readonly, copy, nonatomic) NSString *trailingSeparator; // @synthesize trailingSeparator=_trailingSeparator;
-@property(readonly, copy, nonatomic) NSArray *transcriptionPathScores; // @synthesize transcriptionPathScores=_transcriptionPathScores;
-@property(readonly, copy, nonatomic) NSArray *transcriptionPaths; // @synthesize transcriptionPaths=_transcriptionPaths;
 
 @end
 

@@ -7,10 +7,6 @@
 @interface NewsUI2.ThumbnailImageProcessorRequest
 {
     id assetHandles;
-    id assetHandle;
-    id imageSize;
-    id cacheIdentifier;
-    id uniqueIdentifier;
 }
 
 @end

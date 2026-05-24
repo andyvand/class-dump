@@ -4,28 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSURL, WBSFaviconResponse, WBSTemplateIconResponse, WBSTouchIconResponse;
-@protocol OS_dispatch_source;
-
 __attribute__((visibility("hidden")))
 @interface FavoritesPickerImageResponseState
 {
     _Bool _atLeastOneResponseServed;
-    long long _deferredUpdateImageSource;
-    NSObject<OS_dispatch_source> *_deferredUpdateDispatchSource;
-    CDUnknownBlockType _removeRequestHandler;
-    id _faviconRequestToken;
-    id _touchIconRequestToken;
-    id _templateIconRequestToken;
-    WBSFaviconResponse *_faviconResponse;
-    WBSTouchIconResponse *_touchIconResponse;
-    WBSTemplateIconResponse *_templateIconResponse;
-    NSURL *_originalRequestURL;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -49,18 +36,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allRequestTokens;
 @property(nonatomic) _Bool atLeastOneResponseServed; // @synthesize atLeastOneResponseServed=_atLeastOneResponseServed;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *deferredUpdateDispatchSource; // @synthesize deferredUpdateDispatchSource=_deferredUpdateDispatchSource;
-@property(nonatomic) long long deferredUpdateImageSource; // @synthesize deferredUpdateImageSource=_deferredUpdateImageSource;
-@property(retain, nonatomic) id faviconRequestToken; // @synthesize faviconRequestToken=_faviconRequestToken;
-@property(retain, nonatomic) WBSFaviconResponse *faviconResponse; // @synthesize faviconResponse=_faviconResponse;
-@property(retain, nonatomic) NSURL *originalRequestURL; // @synthesize originalRequestURL=_originalRequestURL;
-@property(copy, nonatomic) CDUnknownBlockType removeRequestHandler; // @synthesize removeRequestHandler=_removeRequestHandler;
-@property(retain, nonatomic) id templateIconRequestToken; // @synthesize templateIconRequestToken=_templateIconRequestToken;
-@property(retain, nonatomic) WBSTemplateIconResponse *templateIconResponse; // @synthesize templateIconResponse=_templateIconResponse;
-@property(retain, nonatomic) id touchIconRequestToken; // @synthesize touchIconRequestToken=_touchIconRequestToken;
-@property(retain, nonatomic) WBSTouchIconResponse *touchIconResponse; // @synthesize touchIconResponse=_touchIconResponse;
 
 @end
 

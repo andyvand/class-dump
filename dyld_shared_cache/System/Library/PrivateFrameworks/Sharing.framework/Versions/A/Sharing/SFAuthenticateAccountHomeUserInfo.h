@@ -9,17 +9,15 @@
 @interface SFAuthenticateAccountHomeUserInfo
 {
     NSUUID *_homeUniqueIdentifier;
-    NSUUID *_userUniqueIdentifier;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)b;
 - (void)resolvedValueDescription;
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *homeUniqueIdentifier; // @synthesize homeUniqueIdentifier=_homeUniqueIdentifier;
-@property(readonly, nonatomic) NSUUID *userUniqueIdentifier; // @synthesize userUniqueIdentifier=_userUniqueIdentifier;
 
 @end
 

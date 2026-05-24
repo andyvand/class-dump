@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NEHotspotNetwork, NSArray, NSObject;
-@protocol OS_nw_interface;
-
 @interface NEHotspotHelperCommand
 {
     struct __CNPluginCommand *_command;
@@ -16,17 +13,14 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)ntity ;
 - (long long);
 - (id);
 - (id);
 
 // Remaining properties
 @property(readonly) long long commandType;
-@property(readonly) NSObject<OS_nw_interface> *interface;
-@property(readonly) NEHotspotNetwork *network;
-@property(readonly) NSArray *networkList;
 
 @end
 

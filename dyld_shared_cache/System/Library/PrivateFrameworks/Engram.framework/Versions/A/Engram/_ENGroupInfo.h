@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ENAccountIdentity, NSArray, NSData;
+@class ENAccountIdentity;
 
 @interface _ENGroupInfo
 {
     ENAccountIdentity *_accountIdentity;
-    NSArray *_participants;
-    NSData *_sharedApplicationData;
 }
 
 + (_Bool);
@@ -19,16 +17,14 @@
 - (id);
 - (void);
 - (void);
+- (id)_;
 - (id);
-- (id);
-- (void);
+- (void)(;
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain) ENAccountIdentity *accountIdentity; // @synthesize accountIdentity=_accountIdentity;
-@property(retain, nonatomic) NSArray *participants; // @synthesize participants=_participants;
-@property(retain, nonatomic) NSData *sharedApplicationData; // @synthesize sharedApplicationData=_sharedApplicationData;
 
 @end
 

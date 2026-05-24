@@ -11,12 +11,11 @@ __attribute__((visibility("hidden")))
 @interface TSUOnce
 {
     NSObject<OS_dispatch_queue> *_queue;
-    _Bool _didPerformOnce;
 }
 
 - (void);
 - (id);
-- (id);
+- (id){objc_property=}8B16;
 - (void)@-scientificFormat;
 
 @end

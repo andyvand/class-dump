@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSAttributedString, NSImage, NSString;
+@class CALayer, NSImage;
 
 __attribute__((visibility("hidden")))
 @interface ContinuousReadingBannerLayer
 {
     CALayer *_backgroundLayer;
-    CALayer *_bannerIconImageLayer;
-    CALayer *_bannerTextLayer;
-    NSAttributedString *_bannerTextTitle;
-    double _scaleFactor;
-    _Bool _iconDrawsDropShadowAndMask;
-    NSImage *_icon;
 }
 
 + (double);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (double);
+- (double);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (double);
 - (id);
@@ -42,22 +36,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)lDataToReceive;
 - (void)`6Ü6|=à=P>d>;
 - (void)ror:(id)arg1 %{public}@;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSImage *icon; // @synthesize icon=_icon;
-@property(nonatomic) _Bool iconDrawsDropShadowAndMask; // @synthesize iconDrawsDropShadowAndMask=_iconDrawsDropShadowAndMask;
-@property(copy, nonatomic) NSAttributedString *itemTitle;
-@property(readonly) Class superclass;
 
 @end
 

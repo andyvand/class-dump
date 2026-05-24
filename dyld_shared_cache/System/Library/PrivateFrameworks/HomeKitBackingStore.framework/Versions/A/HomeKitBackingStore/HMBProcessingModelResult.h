@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMBModel, HMBProcessingOptions, NAFuture;
+@class HMBModel;
 
 @interface HMBProcessingModelResult
 {
     HMBModel *_model;
-    HMBProcessingOptions *_options;
-    NAFuture *_mirrorOutputFuture;
 }
 
 + (id)rror"16;
@@ -22,9 +20,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NAFuture *mirrorOutputFuture; // @synthesize mirrorOutputFuture=_mirrorOutputFuture;
 @property(readonly) HMBModel *model; // @synthesize model=_model;
-@property(readonly) HMBProcessingOptions *options; // @synthesize options=_options;
 
 @end
 

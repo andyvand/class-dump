@@ -5,6 +5,7 @@
 //
 
 @protocol BWObjectDetector
+- (float);
 
 // Remaining properties
 @property(readonly) float secondsSinceLastObjectDetected;

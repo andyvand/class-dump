@@ -10,11 +10,11 @@
 {
 }
 
-+ (_Bool);
-+ (id);
-- (unsigned long long);
++ (_Bool)_signalKeyboardFocusedElementChanged:(id)arg1;
++ (id)o;
+- (unsigned long long)@9I;
 - (void);
-- (double);
+- (double)s;
 
 @end
 

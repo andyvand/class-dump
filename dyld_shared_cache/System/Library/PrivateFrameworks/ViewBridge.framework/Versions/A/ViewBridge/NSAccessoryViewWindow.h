@@ -4,28 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAccessibilityRemoteUIElement, NSRemoteView, NSWindow;
+@class NSAccessibilityRemoteUIElement;
 
 __attribute__((visibility("hidden")))
 @interface NSAccessoryViewWindow
 {
     id _eventMonitor;
-    const long long *_orderingMode;
-    NSRemoteView *_remoteView;
-    NSWindow *_windowObserved;
-    struct CGRect _serviceAccessoryViewWindowRelativeFrame;
-    unsigned int _notifyingDelegateAccessoryWindowDidUpdateConstraintsIfNeeded:1;
-    unsigned int _reactingToServiceAccessoryViewBecomingFirstResponder:1;
-    unsigned int _serviceAccessoryViewWindowRelativeFrameIsValid:1;
-    unsigned int _willAdjustFrameToServiceAccessoryView:1;
-    unsigned int _willUpdateAccessibilityChildren:1;
-    NSAccessibilityRemoteUIElement *_serviceAccessibilityParent;
 }
 
 + (id);
+- (void)qh;
 - (void);
-- (void);
-- (id);
+- (id)o;
 - (void);
 - (void);
 - (_Bool);
@@ -39,7 +29,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)!;
 - (void);
 - (void);
 - (void);

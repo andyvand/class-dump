@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, USOSerializedGraph;
+@class NSString;
 
 @interface SIRINLUSpan
 {
     unsigned int _startTokenIndex;
-    unsigned int _endTokenIndex;
-    NSString *_label;
-    NSString *_input;
-    USOSerializedGraph *_usoGraph;
-    double _score;
-    NSArray *_matcherNames;
 }
 
 + (_Bool);
@@ -29,23 +23,17 @@
 - (unsigned int);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)(;
+- (id)&;
+- (void)`;
 - (void);
-- (void);
-- (double);
-- (void)ommon_Interjection_Attention;
+- (double)broadcastHandlers;
+- (void)common_Interjection_Attention;
 - (void)Áÿ;
 - (void)HealthLog;
 
 // Remaining properties
-@property unsigned int endTokenIndex; // @synthesize endTokenIndex=_endTokenIndex;
-@property(retain, nonatomic) NSString *input; // @synthesize input=_input;
 @property(retain, nonatomic) NSString *label; // @synthesize label=_label;
-@property(retain, nonatomic) NSArray *matcherNames; // @synthesize matcherNames=_matcherNames;
-@property double score; // @synthesize score=_score;
-@property unsigned int startTokenIndex; // @synthesize startTokenIndex=_startTokenIndex;
-@property(retain, nonatomic) USOSerializedGraph *usoGraph; // @synthesize usoGraph=_usoGraph;
 
 @end
 

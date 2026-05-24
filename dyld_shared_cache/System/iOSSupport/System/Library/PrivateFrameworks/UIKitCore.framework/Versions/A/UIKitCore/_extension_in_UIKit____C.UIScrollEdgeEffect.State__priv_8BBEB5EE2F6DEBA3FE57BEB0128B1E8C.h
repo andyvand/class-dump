@@ -7,12 +7,6 @@
 @interface (extension in UIKit):__C.UIScrollEdgeEffect.State__priv_8BBEB5EE2F6DEBA3FE57BEB0128B1E8C
 {
     id _style;
-    id _isHidden;
-    id _prefersSolidColorHardPocket;
-    id _preferredUserInterfaceStyle;
-    id _fixedUserInterfaceStyle;
-    id _overrideGeometryView;
-    id _$observationRegistrar;
 }
 
 @end

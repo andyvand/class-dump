@@ -7,9 +7,6 @@
 @interface ChatKit.DetailsAttachmentsTab
 {
     id _viewModel;
-    id _currentSelection;
-    id _position;
-    id _$observationRegistrar;
 }
 
 @end

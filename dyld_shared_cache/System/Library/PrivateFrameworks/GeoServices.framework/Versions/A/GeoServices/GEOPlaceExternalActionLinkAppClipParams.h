@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDAppClipParams, NSString, NSURL;
+@class GEOPDAppClipParams, NSURL;
 
 @interface GEOPlaceExternalActionLinkAppClipParams
 {
@@ -12,12 +12,11 @@
 }
 
 - (id);
-- (id);
-- (id)y: /* Error: Ran out of types for this method. */;
+- (id)multaneousLightDarkSnapshots:,V_allowsSimultaneousLightDarkSnapshots /* Error: Ran out of types for this method. */;
+- (id)setTransitUpdateInitialDelay: /* Error: Ran out of types for this method. */;
 - (void)jmÛkcK@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *bundleId;
 @property(readonly, nonatomic) NSURL *url;
 
 @end

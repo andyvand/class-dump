@@ -7,12 +7,6 @@
 @interface NewsFeed.FormatWebEmbedNodeStyle
 {
     id _identifier;
-    id class;
-    id cornerRadius;
-    id errorCornerRadius;
-    id ignoresSmartInvertColors;
-    id showsLoadingSpinner;
-    id _selectors;
 }
 
 @end

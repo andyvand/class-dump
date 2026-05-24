@@ -9,12 +9,11 @@
 @interface TRIGenericRequiredAssets
 {
     NSArray *_cloudKit;
-    NSArray *_mobileAsset;
 }
 
-+ (id);
++ (id)_spatialVideoRecommendationForImmersiveModeForAssetVideoTrack:(id)arg1;
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (unsigned long long);
@@ -23,13 +22,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)cator<std::pair<double, float __attribute__((ext_vector_type(3)))>>>="__begin_"^v"__end_"^v""{?="__cap_"^v}}"_keyedShear"{vector<std::pair<double, float __attribute__((ext_vector_type(3)))>, std::allocator<std::pair<double, float __attribute__((ext_vector_type(3)))>>>="__begin_"^v"__end_"^v""{?="__cap_"^v}}"_keyedScale"{vector<std::pair<double, float __attribute__((ext_vector_type(3)))>, std::allocator<std::pair<double, float __attribute__((ext_vector_type(3)))>>>="__begin_"^v"__end_"^v""{?="__cap_"^v}}"_startTime"d"_greatestTime"d"_identity"B"_resetTransformStack"B"_evaluationTime"d"_transform"{float4x4="columns"[4]}"_invTransform"{float4x4="columns"[4]}"_jacobiRotation"{float4x4="columns"[4]}"_invJacobiRotation"{float4x4="columns"[4]}} /* Error: Ran out of types for this method. */;
 - (void)0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *cloudKit; // @synthesize cloudKit=_cloudKit;
-@property(readonly, nonatomic) NSArray *mobileAsset; // @synthesize mobileAsset=_mobileAsset;
 
 @end
 

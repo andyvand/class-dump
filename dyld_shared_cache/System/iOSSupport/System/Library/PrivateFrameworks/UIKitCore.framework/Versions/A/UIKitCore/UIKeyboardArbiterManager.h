@@ -11,7 +11,7 @@
 + (id);
 + (id)kspace"16@"FBSSceneTransitionContext"24;
 - (id);
-- (void)rientation:(id)arg1;
+- (void)application:(id)arg1 didChangeStatusBarOrientation: /* Error: Ran out of types for this method. */;
 - (void)nerSettings;
 - (void);
 - (void);

@@ -9,7 +9,6 @@
 @interface CHRecognitionSessionIndexableContent
 {
     NSString *_indexableTextRepresentation;
-    NSString *_presentableTextRepresentation;
 }
 
 - (id);
@@ -18,7 +17,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *indexableTextRepresentation; // @synthesize indexableTextRepresentation=_indexableTextRepresentation;
-@property(readonly, copy, nonatomic) NSString *presentableTextRepresentation; // @synthesize presentableTextRepresentation=_presentableTextRepresentation;
 
 @end
 

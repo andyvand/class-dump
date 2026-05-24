@@ -7,20 +7,18 @@
 @interface PAImageRequestCacheHint
 {
     _Bool _shouldCache;
-    _Bool _temporary;
-    int _purgeLevel;
 }
 
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-- (int);
+- (int)"16;
 - (id);
 - (_Bool);
 - (_Bool);

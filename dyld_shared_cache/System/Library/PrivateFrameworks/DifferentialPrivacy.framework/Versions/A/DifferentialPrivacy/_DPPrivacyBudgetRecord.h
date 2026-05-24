@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectID, NSString;
+@class NSString;
 
 @interface _DPPrivacyBudgetRecord
 {
     _Bool _submitted;
-    NSString *_key;
-    double _creationDate;
-    double _lastUpdate;
-    long long _balance;
-    double _cohortAggregateBalance;
-    NSManagedObjectID *_objectId;
 }
 
 + (id);
 + (_Bool);
 + (id)Ñ.1Â0@ù
 × ;
-- (double);
+- (double)iew;
 - (_Bool);
 - (long long);
 - (id);
@@ -32,32 +26,26 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)downloadProgress:(double)arg1;
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)__objc_imageinfo__DATA_CONST;
+- (void)updateOneTimeCodeFieldOrOtherFieldIsEmpty:inWindow: /* Error: Ran out of types for this method. */;
 - (double);
 - (id)0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) long long balance; // @synthesize balance=_balance;
-@property(nonatomic) double cohortAggregateBalance; // @synthesize cohortAggregateBalance=_cohortAggregateBalance;
-@property(nonatomic) double creationDate; // @synthesize creationDate=_creationDate;
 @property(copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(nonatomic) double lastUpdate; // @synthesize lastUpdate=_lastUpdate;
-@property(retain, nonatomic) NSManagedObjectID *objectId; // @synthesize objectId=_objectId;
-@property(nonatomic) _Bool submitted; // @synthesize submitted=_submitted;
 
 @end
 

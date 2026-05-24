@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSString;
 
 @interface AKCAReporter
 {
     NSString *_eventName;
-    NSMutableDictionary *_reportData;
-    unsigned long long _initTime;
-    struct mach_timebase_info _clock_timebase;
 }
 
+- (void);
+- (double);
 - (void);
-- (double);
-- (void);
-- (id);
+- (id)H;
 - (id);
 - (void);
 

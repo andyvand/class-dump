@@ -4,40 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDWiFiUIScanCount
 {
     unsigned int _max;
-    NSString *_section;
-    struct {
-        unsigned int max:1;
-    } _has;
 }
 
 - (_Bool);
 - (void);
+- (_Bool);
+- (void)`;
+- (id);
+- (void);
+- (void);
+- (void);
+- (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)H;
 - (id);
 - (void);
 - (id);
 - (id);
-- (unsigned int);
+- (unsigned int)keyEnumerator;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMax;
 @property(readonly, nonatomic) _Bool hasSection;
-@property(nonatomic) unsigned int max; // @synthesize max=_max;
-@property(retain, nonatomic) NSString *section; // @synthesize section=_section;
 
 @end
 

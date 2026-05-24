@@ -7,7 +7,8 @@
 @class NSString;
 
 @protocol IDSRegistrationEventTracingEvent
-- (void)sionInfoResponse:(NSString *)arg1 receivedBytes:isLightweightParticipant: /* Error: Ran out of types for this method. */;
+- (NSString *);
+- (void)processQUICSessionInfoResponse:(NSString *)arg1 receivedBytes:isLightweightParticipant: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *name;

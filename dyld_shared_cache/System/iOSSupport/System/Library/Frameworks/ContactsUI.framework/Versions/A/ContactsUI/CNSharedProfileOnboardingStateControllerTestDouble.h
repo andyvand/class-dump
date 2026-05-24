@@ -4,25 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface CNSharedProfileOnboardingStateControllerTestDouble
 {
     _Bool _isPhotosReadyForOnboarding;
-    _Bool _alwaysShowSNaPOnboarding;
-    _Bool _multiplePhoneNumbersTiedToAppleID;
-    _Bool _accountCanCreateSNaP;
-    _Bool _iCloudSignedInToUseNicknames;
-    _Bool _deviceSupportsPosters;
-    _Bool _didSkipPosterSetup;
-    _Bool _hasCompletedOnboarding;
-    long long _currentOnboardingVersion;
-    long long _lastShownOnboardingVersion;
-    long long _lastShowOnboardingVersionInSettings;
 }
 
-+ (id):shouldPerformDefaultActionForContactProperty: /* Error: Ran out of types for this method. */;
++ (id)unknownContactsController:shouldPerformDefaultActionForContactProperty: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool);
@@ -35,42 +23,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)q;
+- (long long);
 - (long long);
-- (long long);
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool);
+- (id)d;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (long long);
 
 // Remaining properties
-@property(nonatomic) _Bool accountCanCreateSNaP; // @synthesize accountCanCreateSNaP=_accountCanCreateSNaP;
-@property(nonatomic) _Bool alwaysShowSNaPOnboarding; // @synthesize alwaysShowSNaPOnboarding=_alwaysShowSNaPOnboarding;
-@property(nonatomic) long long currentOnboardingVersion; // @synthesize currentOnboardingVersion=_currentOnboardingVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool deviceSupportsPosters; // @synthesize deviceSupportsPosters=_deviceSupportsPosters;
-@property(nonatomic) _Bool didSkipPosterSetup; // @synthesize didSkipPosterSetup=_didSkipPosterSetup;
-@property(nonatomic) _Bool hasCompletedOnboarding; // @synthesize hasCompletedOnboarding=_hasCompletedOnboarding;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool iCloudSignedInToUseNicknames; // @synthesize iCloudSignedInToUseNicknames=_iCloudSignedInToUseNicknames;
 @property(nonatomic) _Bool isPhotosReadyForOnboarding; // @synthesize isPhotosReadyForOnboarding=_isPhotosReadyForOnboarding;
-@property(nonatomic) long long lastShowOnboardingVersionInSettings; // @synthesize lastShowOnboardingVersionInSettings=_lastShowOnboardingVersionInSettings;
-@property(nonatomic) long long lastShownOnboardingVersion; // @synthesize lastShownOnboardingVersion=_lastShownOnboardingVersion;
-@property(nonatomic) _Bool multiplePhoneNumbersTiedToAppleID; // @synthesize multiplePhoneNumbersTiedToAppleID=_multiplePhoneNumbersTiedToAppleID;
-@property(readonly, nonatomic) _Bool shouldShowOnboarding;
-@property(readonly) Class superclass;
 
 @end
 

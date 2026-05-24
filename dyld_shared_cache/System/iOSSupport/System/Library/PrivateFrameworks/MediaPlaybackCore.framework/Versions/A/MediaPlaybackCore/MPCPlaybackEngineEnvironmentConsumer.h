@@ -4,36 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlaybackEngine, NSDictionary, NSNumber, NSString;
 @protocol MPCPlaybackEngineEventStreamSubscription;
 
 __attribute__((visibility("hidden")))
 @interface MPCPlaybackEngineEnvironmentConsumer
 {
     struct os_unfair_lock_s _lock;
-    long long _reachability;
-    MPCPlaybackEngine *_playbackEngine;
-    id <MPCPlaybackEngineEventStreamSubscription> _subscription;
-    NSDictionary *_signalStrength;
-    NSDictionary *_signalInfo;
-    long long _networkType;
-    NSNumber *_isNetworkConstrained;
-    NSNumber *_isCurrentNetworkLinkExpensive;
-    NSNumber *_isCurrentNetworkLinkHighQuality;
 }
 
-+ (unsigned int);
++ (unsigned int)spatch_queue>";
 + (id);
 - (void);
+- (void). All dataclasses are valid;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -55,8 +45,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (long long);
@@ -71,21 +61,7 @@ __attribute__((visibility("hidden")))
 `Áÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *isCurrentNetworkLinkExpensive; // @synthesize isCurrentNetworkLinkExpensive=_isCurrentNetworkLinkExpensive;
-@property(copy, nonatomic) NSNumber *isCurrentNetworkLinkHighQuality; // @synthesize isCurrentNetworkLinkHighQuality=_isCurrentNetworkLinkHighQuality;
-@property(copy, nonatomic) NSNumber *isNetworkConstrained; // @synthesize isNetworkConstrained=_isNetworkConstrained;
-@property(nonatomic) long long networkType; // @synthesize networkType=_networkType;
-@property(readonly, nonatomic) __weak MPCPlaybackEngine *playbackEngine; // @synthesize playbackEngine=_playbackEngine;
-@property(copy, nonatomic) NSDictionary *signalInfo; // @synthesize signalInfo=_signalInfo;
-@property(copy, nonatomic) NSDictionary *signalStrength; // @synthesize signalStrength=_signalStrength;
 @property(readonly, nonatomic) id <MPCPlaybackEngineEventStreamSubscription> subscription; // @synthesize subscription=_subscription;
-@property(readonly) Class superclass;
 
 @end
 

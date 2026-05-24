@@ -6,30 +6,26 @@
 
 #import <AppleMediaServicesUI/AMSUIWebAction.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebFetchCardMetadataAction : AMSUIWebAction
 {
     NSNumber *_cardArtworkSize;
-    NSString *_passTypeIdentifier;
-    NSString *_serialNumber;
 }
 
-- (void);
+- (void)o asset:(id)arg1 %@ with error:%@ /* Error: Ran out of types for this method. */;
+- (id)public}@;
 - (id);
 - (id);
+- (void)assID == %d AND dataStoreSubtype != %d AND localAvailability == %d AND remoteAvailability == %d;
 - (id);
-- (void);
-- (id);
-- (id);
+- (id)�;
 - (void);
 - (void)rray"@"NSArray">32;
 
 // Remaining properties
 @property(retain) NSNumber *cardArtworkSize; // @synthesize cardArtworkSize=_cardArtworkSize;
-@property(retain) NSString *passTypeIdentifier; // @synthesize passTypeIdentifier=_passTypeIdentifier;
-@property(retain) NSString *serialNumber; // @synthesize serialNumber=_serialNumber;
 
 @end
 

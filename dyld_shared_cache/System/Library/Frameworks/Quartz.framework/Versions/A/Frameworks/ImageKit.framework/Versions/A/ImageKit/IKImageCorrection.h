@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKImageCorrectionHandler, NSMutableDictionary, NSString;
+@class IKImageCorrectionHandler;
 
 @interface IKImageCorrection
 {
     IKImageCorrectionHandler *_imageCorrectionHandler;
-    NSString *_className;
-    _Bool _correctionEnabled;
-    NSMutableDictionary *_minMaxInfo;
 }
 
 - (void);
@@ -26,17 +23,13 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)P;
 - (void)Áið!xDù±î°1Â0@ù
 × ;
 - (id)8×;
 
 // Remaining properties
-@property(copy) NSString *className; // @synthesize className=_className;
-@property _Bool correctionEnabled; // @synthesize correctionEnabled=_correctionEnabled;
 @property IKImageCorrectionHandler *imageCorrectionHandler; // @synthesize imageCorrectionHandler=_imageCorrectionHandler;
-@property(readonly) _Bool isIdentity;
-@property(readonly) NSString *name;
 
 @end
 

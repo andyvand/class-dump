@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHSVersionedWidgetMetrics, CHSWidgetMargins, NSDictionary, NSString;
+@class CHSVersionedWidgetMetrics;
 
 @interface CHSWidgetMetrics
 {
     double _cornerRadius;
-    double _scaleFactor;
-    unsigned long long _dynamicTextSupport;
-    long long _fontStyle;
-    CHSWidgetMargins *_margins;
-    CHSWidgetMargins *_groupMargins;
-    NSDictionary *_nestedContentMetrics;
-    struct CGSize _size;
 }
 
 + (void);
@@ -23,7 +16,7 @@
 + (id);
 + (void);
 + (_Bool);
-- (void);
+- (void)z;
 - (id);
 - (id);
 - (id);
@@ -42,21 +35,21 @@
 - (struct CGSize);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (struct CGSize);
+- (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
-- (struct CGSize);
+- (struct CGSize)A;
 - (id);
 - (id);
 - (id);
 - (id);
-- (struct CHSEdgeInsets);
-- (id);
+- (struct CHSEdgeInsets);
+- (id);
 - (struct CGSize);
 - (id);
 - (struct CGSize);
@@ -77,8 +70,8 @@
 - (id);
 - (double);
 - (id);
-- (id);
-- (long long);
+- (id)led but not in circle and not pending or notification sheet is already showing:%@ /* Error: Ran out of types for this method. */;
+- (long long)w is nil.;
 - (struct CHSEdgeInsets);
 - (double);
 - (id);
@@ -88,25 +81,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;
-@property(readonly, copy, nonatomic) CHSVersionedWidgetMetrics *crystalglowVersionedWidgetMetrics;
 @property(readonly, copy, nonatomic) CHSVersionedWidgetMetrics *currentVersionedWidgetMetrics;
-@property(readonly, copy, nonatomic) CHSVersionedWidgetMetrics *dawnburstVersionedWidgetMetrics;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned long long dynamicTextSupport; // @synthesize dynamicTextSupport=_dynamicTextSupport;
-@property(readonly, nonatomic) long long fontStyle; // @synthesize fontStyle=_fontStyle;
-@property(readonly, copy, nonatomic) CHSWidgetMargins *groupMargins; // @synthesize groupMargins=_groupMargins;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) CHSVersionedWidgetMetrics *luckierVersionedWidgetMetrics;
-@property(readonly, copy, nonatomic) CHSWidgetMargins *margins; // @synthesize margins=_margins;
-@property(readonly, nonatomic) NSDictionary *nestedContentMetrics; // @synthesize nestedContentMetrics=_nestedContentMetrics;
-@property(readonly, nonatomic) double scaleFactor; // @synthesize scaleFactor=_scaleFactor;
-@property(readonly, nonatomic) struct CGSize size; // @synthesize size=_size;
-@property(readonly) Class superclass;
 
 @end
 

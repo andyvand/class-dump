@@ -4,48 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface CIGVNode
 {
     struct CGRect extent;
-    struct CGSize titleSize;
-    struct CGSize labelSize;
-    struct CGSize imagesSize;
-    struct CGSize roisSize;
-    struct CGSize badgeSize;
-    struct CGSize contentSize;
-    NSMutableArray *images;
-    NSMutableArray *rois;
-    int color;
-    int shape;
-    struct __CFString *title;
-    struct __CFString *label;
 }
 
-+ (struct __CFDictionary *);
++ (struct __CFDictionary *);
 + (struct __CFDictionary *);
 - (void);
 - (struct CGRect);
 - (struct CGRect);
 - (struct __CFArray *);
 - (struct CGRect);
-- (id);
+- (id)3;
 - (struct CGRect);
 - (struct CGSize);
 - (struct CGSize);
 - (struct CGRect);
 - (void);
 - (void);
-- (void);
+- (void)'N�;
 - (struct CGRect);
-- (struct __CFArray *);
+- (struct __CFArray *)I;
 - (void);
 - (id);
 - (id);
 - (struct __CFString *);
-- (void);
+- (void);
 - (int);
 - (void);
 - (void);
@@ -129,21 +115,7 @@ kernel vec4 _distanceMask(sampler image, vec4 ext, float stride) {
 ;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect badgeFrame;
-@property(nonatomic) int color; // @synthesize color;
-@property(readonly, nonatomic) struct CGSize contentCornerSize;
-@property(readonly, nonatomic) struct CGRect contentFrame;
-@property(readonly, nonatomic) struct CGSize contentInsertSize;
 @property(readonly) struct CGRect extent;
-@property(readonly, nonatomic) struct __CFArray *images;
-@property(readonly, nonatomic) struct CGRect imagesFrame;
-@property(nonatomic) struct __CFString *label; // @synthesize label;
-@property(readonly, nonatomic) struct CGRect labelFrame;
-@property(readonly, nonatomic) struct __CFArray *rois;
-@property(readonly, nonatomic) struct CGRect roisFrame;
-@property(nonatomic) int shape; // @synthesize shape;
-@property(nonatomic) struct __CFString *title; // @synthesize title;
-@property(readonly, nonatomic) struct CGRect titleFrame;
 
 @end
 

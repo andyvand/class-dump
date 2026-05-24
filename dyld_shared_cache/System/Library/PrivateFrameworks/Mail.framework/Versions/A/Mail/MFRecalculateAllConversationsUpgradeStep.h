@@ -12,7 +12,7 @@
 
 + (_Bool);
 + (unsigned long long);
-- (void);
+- (void);
 
 @end
 

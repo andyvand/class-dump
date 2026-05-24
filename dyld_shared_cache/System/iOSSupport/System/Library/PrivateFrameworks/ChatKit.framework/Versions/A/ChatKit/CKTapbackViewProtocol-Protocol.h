@@ -4,15 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol CKTapbackViewDelegate;
-
 @protocol CKTapbackViewProtocol
+- (struct UIEdgeInsets)indentRange:byAmount:inTextStorage:textView: /* Error: Ran out of types for this method. */;
+- (void)ic_rangeByTrimmingCharactersInSet:inRange: /* Error: Ran out of types for this method. */;
+- (void)ic_preferredSingleLineAFontForTextStyle: /* Error: Ran out of types for this method. */;
+- (void)ic_preferredFontForSubheadingTextWithContentSizeCategory: /* Error: Ran out of types for this method. */;
+- (void)ject ID %@ for checking preview image integrity;
 - (_Bool)èô;
 
+@optional
+- (void)managedObjectContextChangeController:managedObjectIDsToUpdateForUpdatedManagedObjects: /* Error: Ran out of types for this method. */;
+
 // Remaining properties
-@property(readonly, nonatomic) double attributionScaleFactor;
-@property(nonatomic) __weak id <CKTapbackViewDelegate> delegate;
 @property(nonatomic) _Bool isSelected;
-@property(readonly, nonatomic) struct UIEdgeInsets platterEdgeInsets;
 @end
 

@@ -13,8 +13,8 @@
 
 - (id);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)charge_duration_p_0_50_at_charge_start_secs_curr_dynamic_bin_2;
 - (id);
 - (void);
 

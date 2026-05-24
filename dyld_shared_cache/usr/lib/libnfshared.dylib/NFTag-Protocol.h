@@ -5,22 +5,13 @@
 //
 
 @class NSData;
-@protocol NFTagA, NFTagB, NFTagF;
 
 @protocol NFTag
+- (id)=;
+- (unsigned int)KECHAINRECOVERY_RESET_COMPLETED_TITLE;
 - (NSData *)length field;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *AppData;
-@property(readonly, copy, nonatomic) NSData *UID;
-@property(readonly, nonatomic) unsigned int ndefAvailability;
-@property(readonly, nonatomic) unsigned long long ndefContainerSize;
-@property(readonly, nonatomic) unsigned long long ndefMessageSize;
-@property(readonly, nonatomic) id <NFTagA> tagA;
-@property(readonly, nonatomic) id <NFTagB> tagB;
-@property(readonly, nonatomic) id <NFTagF> tagF;
-@property(readonly, copy, nonatomic) NSData *tagID;
-@property(readonly, nonatomic) unsigned int technology;
 @property(readonly, nonatomic) unsigned int type;
 @end
 

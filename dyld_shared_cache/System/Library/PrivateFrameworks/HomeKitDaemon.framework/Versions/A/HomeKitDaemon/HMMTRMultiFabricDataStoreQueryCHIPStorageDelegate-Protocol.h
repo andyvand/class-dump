@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString;
+@class NSNumber, NSString;
 
 @protocol HMMTRMultiFabricDataStoreQueryCHIPStorageDelegate
+- (NSNumber *)hasReferenceFrame;
 - (NSString *)ceDelegate>",W;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSNumber *fabricID;
-@property(readonly, copy, nonatomic) NSDictionary *keyValueStore;
 @end
 

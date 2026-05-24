@@ -4,38 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableOrderedSet, NSString;
+@class NSString;
 
 @interface EFSQLInsertStatement
 {
     NSString *_table;
-    unsigned long long _conflictResolution;
-    NSMutableArray *_values;
-    NSMutableOrderedSet *_requiredColumns;
 }
 
-- (id);
+- (id)avkit_isEffectivelyFullScreen;
+- (void)ublic}@);
 - (void);
-- (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)P;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) _Bool isEmpty;
-@property(readonly, copy, nonatomic) NSString *queryString;
-@property(readonly) Class superclass;
 
 @end
 

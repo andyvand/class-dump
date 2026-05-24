@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDate, NSString;
+@class NSArray;
 
 @interface PKArchive
 {
@@ -12,7 +12,7 @@
 
 + (id);
 + (id);
-+ (id);
++ (id)setStringKeyFields:(id)arg1;
 - (_Bool);
 - (id);
 - (id);
@@ -32,10 +32,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly) NSString *archiveDigest;
-@property(readonly) NSData *archiveDigestData;
-@property(readonly) NSString *archivePath;
-@property(readonly) NSDate *archiveSignatureDate;
 @property(readonly) NSArray *archiveSignatures;
 
 @end

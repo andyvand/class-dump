@@ -4,51 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSURL;
+@class NSDictionary;
 
 @interface PPSSubmissionRecord
 {
     _Bool _isExpedited;
-    NSDictionary *_contextDictionary;
-    NSURL *_filePath;
-    NSString *_fileType;
-    NSString *_issueCategory;
-    NSString *_issueDescription;
-    NSString *_recordType;
-    NSString *_targetContainer;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)Y;
+- (void)IFTSYSTEMREQUIREMENTAUTHENTICATIONREQUESTAUTHENTICATIONLEVEL_ORIGIN_DEVICE_AUTHENTICATION_REQUIRED;
+- (id)FLOWHOMEKITSERVICETYPE_TEMPERATURE_SENSOR;
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
 - (id);
 - (_Bool);
-- (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id)esFromDictionary: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (id);
-- (void)ELNAOffPercentage;
+- (void);
+- (id)F'
+;
+- (void)4E*J
+;
+- (void);
+- (id)addEntriesFromDictionary: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)scanCoreELNAOffPercentage;
 
 // Remaining properties
 @property(retain) NSDictionary *contextDictionary; // @synthesize contextDictionary=_contextDictionary;
-@property(retain) NSURL *filePath; // @synthesize filePath=_filePath;
-@property(retain) NSString *fileType; // @synthesize fileType=_fileType;
-@property _Bool isExpedited; // @synthesize isExpedited=_isExpedited;
-@property(readonly) _Bool isValid;
-@property(retain) NSString *issueCategory; // @synthesize issueCategory=_issueCategory;
-@property(retain) NSString *issueDescription; // @synthesize issueDescription=_issueDescription;
-@property(retain) NSString *recordType; // @synthesize recordType=_recordType;
-@property(retain) NSString *targetContainer; // @synthesize targetContainer=_targetContainer;
 
 @end
 

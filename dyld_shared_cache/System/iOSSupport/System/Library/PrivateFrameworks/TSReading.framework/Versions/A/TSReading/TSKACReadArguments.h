@@ -7,13 +7,10 @@
 @interface TSKACReadArguments
 {
     SEL _selector;
-    id _target;
-    void *_argument;
-    id _argument2;
 }
 
-- (id);
-- (id);
+- (id)&\;
+- (id)|;
 - (id);
 - (id);
 - (void);
@@ -21,10 +18,7 @@
 - (void *)Ä-;
 
 // Remaining properties
-@property(readonly, nonatomic) void *argument; // @synthesize argument=_argument;
-@property(readonly, nonatomic) id argument2; // @synthesize argument2=_argument2;
 @property(readonly, nonatomic) SEL selector; // @synthesize selector=_selector;
-@property(readonly, nonatomic) id target; // @synthesize target=_target;
 
 @end
 

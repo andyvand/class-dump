@@ -7,6 +7,7 @@
 @protocol WBSUnifiedBarAnalyticsProviding;
 
 @protocol WBSUnifiedBarAnalyticsRecorderDelegate
+- (id <WBSUnifiedBarAnalyticsProviding>);
 
 // Remaining properties
 @property(readonly, nonatomic) id <WBSUnifiedBarAnalyticsProviding> unifiedBarAnalyticsProvider;

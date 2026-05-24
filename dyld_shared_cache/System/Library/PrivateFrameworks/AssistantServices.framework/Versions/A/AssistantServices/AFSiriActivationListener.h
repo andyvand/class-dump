@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFNotifyObserver, NSObject, NSString, NSXPCListener;
-@protocol AFSiriActivationListenerDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface AFSiriActivationListener
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_connectionQueue;
-    NSXPCListener *_xpcListener;
-    id <AFSiriActivationListenerDelegate> _delegate;
-    unsigned long long _clientState;
-    AFNotifyObserver *_clientStateObserver;
 }
 
-- (void);
+- (void);
 - (oneway void);
-- (oneway void);
+- (oneway void)K9q;
 - (oneway void);
 - (oneway void);
 - (oneway void);
@@ -31,23 +26,17 @@
 - (void);
 - (id);
 - (oneway void);
-- (void);
+- (void)t.bubble.account-off;
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void)ss;
+- (void)_aceCollectionClass;
 - (void)Q,R,N,V_startedHostTime;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

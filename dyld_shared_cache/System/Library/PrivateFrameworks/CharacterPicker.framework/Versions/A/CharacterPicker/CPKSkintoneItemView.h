@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface CPKSkintoneItemView
 {
     NSString *_emojiString;
-    NSImage *_emojiImage;
 }
 
 - (void);
@@ -21,7 +20,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(copy) NSImage *emojiImage; // @synthesize emojiImage=_emojiImage;
 @property(copy) NSString *emojiString; // @synthesize emojiString=_emojiString;
 
 @end

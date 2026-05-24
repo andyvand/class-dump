@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SFColor, TLKAppearance;
+@class SFColor;
 
 @interface SearchUIColorRequest
 {
     SFColor *_sfColor;
-    TLKAppearance *_appearance;
 }
 
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)public}@No completion routine for name resolution;
 - (unsigned long long);
 - (void);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) TLKAppearance *appearance; // @synthesize appearance=_appearance;
 @property(retain, nonatomic) SFColor *sfColor; // @synthesize sfColor=_sfColor;
 
 @end

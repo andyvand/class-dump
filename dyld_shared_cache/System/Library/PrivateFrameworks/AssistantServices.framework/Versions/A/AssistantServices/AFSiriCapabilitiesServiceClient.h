@@ -19,8 +19,8 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)selectedOfferConfirmationRecord;
+- (void)ore.missing-tlks-user-did-not-reset;
 - (id);
 - (id);
 - (void);

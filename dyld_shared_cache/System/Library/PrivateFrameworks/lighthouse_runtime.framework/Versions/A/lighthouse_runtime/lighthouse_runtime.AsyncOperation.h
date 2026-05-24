@@ -8,28 +8,23 @@
 {
     id lockQueue;
     id action;
-    id task;
-    id error;
-    id _isExecuting;
-    id _isFinished;
 }
 
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)exture;
 - (void);
 - (void);
 - (_Bool);
 - (void);
+- (void);
+- (_Bool)STATUS_INVALID_MESSAGE;
+- (void)STATUS_NO_TRUST_LSA_SECRET;
 - (_Bool);
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool asynchronous;
 @property(nonatomic) _Bool executing;
-@property(nonatomic) _Bool finished;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseAceObject.h>
 
-@class NSArray, NSString, SAUITemplateEdgeInsets;
+@class NSArray;
 
 @interface SAUITemplateBaseItem : SABaseAceObject
 {
@@ -18,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)\0;
 - (_Bool);
 - (id);
 - (id);
@@ -26,23 +26,11 @@
 - (id);
 - (id);
 - (id);
-- (id)ediaDomainObject;
-- (void)ayRouteClientStateWithDictionary:(id)arg1 context: /* Error: Ran out of types for this method. */;
+- (id)encyclopediaDomainObject;
+- (void)currentDisplayRouteClientStateWithDictionary:(id)arg1 context: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *communicationOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) SAUITemplateEdgeInsets *fullScreenPaddingDelta;
-@property(nonatomic) _Bool hasPriorityLayout;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SAUITemplateEdgeInsets *padding;
-@property(copy, nonatomic) NSArray *presentationOptions;
-@property(nonatomic) _Bool shouldBeOffscreenInPartial;
-@property(readonly) Class superclass;
 
 @end
 

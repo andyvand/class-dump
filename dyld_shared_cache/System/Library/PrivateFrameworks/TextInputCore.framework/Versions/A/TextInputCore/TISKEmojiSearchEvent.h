@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     _Bool _engaged;
 }
 
-- (void);
-- (id);
+- (void)isTTYSupportedForContext:(id)arg1;
+- (id)r %@;
 - (void);
 - (_Bool);
-- (id);
+- (id)`;
 
 // Remaining properties
 @property(nonatomic) _Bool engaged; // @synthesize engaged=_engaged;

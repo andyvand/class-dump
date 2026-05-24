@@ -16,7 +16,7 @@
 + (_Bool);
 + (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (unsigned long long);
@@ -30,12 +30,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)discovery event='%{public}@';
 - (id);
 
 // Remaining properties
 @property(readonly) SFOpenPunchoutCommand *command; // @dynamic command;
-@property unsigned long long punchoutType; // @synthesize punchoutType=_punchoutType;
 
 @end
 

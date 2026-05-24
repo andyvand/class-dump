@@ -6,26 +6,11 @@
 
 #import <MapsSync/MapsSync.MapsSyncObject.h>
 
-@class GEOMapItemStorage, NSDate, NSNumber, NSString;
+@class NSNumber;
 
 @interface MSVisitedLocation : MapsSync.MapsSyncObject
 {
     id _enclosingRegionMuid;
-    id _enclosingRegionProvider;
-    id _hidden;
-    id _latestVisitDate;
-    id _latitude;
-    id _longitude;
-    id _mapItemAddress;
-    id _mapItemCategory;
-    id _mapItemCity;
-    id _mapItemIdentifier;
-    id _mapItemLastRefreshed;
-    id _mapItemName;
-    id _mapItemStorage;
-    id _mapItemTopLevelCategory;
-    id _muid;
-    id _visits;
 }
 
 + (id);
@@ -45,51 +30,37 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)HC;
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)to initialize histogram for type=%d;
 - (id);
 - (void);
 - (void);
-- (id)rageKey;
+- (id)legacyMapItemStorageKey;
 
 // Remaining properties
 @property(nonatomic, retain) NSNumber *enclosingRegionMuid;
-@property(nonatomic, retain) NSNumber *enclosingRegionProvider;
-@property(nonatomic) _Bool hidden;
-@property(nonatomic, readonly) NSDate *latestVisitDate;
-@property(nonatomic, retain) NSNumber *latitude;
-@property(nonatomic, retain) NSNumber *longitude;
-@property(nonatomic, copy) NSString *mapItemAddress;
-@property(nonatomic, copy) NSString *mapItemCategory;
-@property(nonatomic, copy) NSString *mapItemCity;
-@property(nonatomic, copy) NSString *mapItemIdentifier;
-@property(nonatomic, copy) NSDate *mapItemLastRefreshed;
-@property(nonatomic, copy) NSString *mapItemName;
-@property(nonatomic, retain) GEOMapItemStorage *mapItemStorage;
-@property(nonatomic) int mapItemTopLevelCategory;
-@property(nonatomic, retain) NSNumber *muid;
 
 @end
 

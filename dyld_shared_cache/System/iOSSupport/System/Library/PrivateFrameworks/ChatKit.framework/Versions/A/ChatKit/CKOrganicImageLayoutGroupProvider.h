@@ -4,30 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CKOrganicImageLayoutGroupProvider
 {
 }
 
-- (double);
+- (double)setOrientation:(struct CGSize)arg1;
 - (id);
-- (struct CGSize);
+- (struct CGSize)ivityStreamDigest(UI) initWithObject:(id)arg1 ];
+- (id)NodeStruct=*IQQBBddddddddd}16;
 - (id);
-- (id);
-- (double);
-- (double);
-- (unsigned long long);
-- (id);
+- (double)galleryTempPDFFolder;
+- (double)ICFolderListSectionTypeCloudKitSecondary;
+- (unsigned long long)er.fill;
+- (id)T;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

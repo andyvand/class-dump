@@ -13,7 +13,7 @@
 }
 
 - (id);
-- (id);
+- (id)setHasDoublePredicateValue: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;

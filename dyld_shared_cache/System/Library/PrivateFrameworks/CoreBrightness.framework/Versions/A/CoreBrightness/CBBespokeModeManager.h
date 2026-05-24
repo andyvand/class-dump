@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_os_log;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface CBBespokeModeManager
 {
     NSMutableDictionary *_modes;
-    long long _currentModeType;
-    long long _previousModeType;
-    NSObject<OS_os_log> *_logHandle;
-    float _rampTimeGameModeEntry;
-    float _rampTimeGameModeExit;
-    float _activeTransitionRampTime;
 }
 
 - (void);
@@ -29,10 +22,10 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void)Y;
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (float);
 - (_Bool);
@@ -43,7 +36,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 
 @end
 

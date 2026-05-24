@@ -5,5 +5,6 @@
 //
 
 @protocol SMSizingDelegate
+- (void);
 @end
 

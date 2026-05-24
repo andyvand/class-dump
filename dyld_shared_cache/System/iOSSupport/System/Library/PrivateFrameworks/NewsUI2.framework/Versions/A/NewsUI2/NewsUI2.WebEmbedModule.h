@@ -7,7 +7,6 @@
 @interface NewsUI2.WebEmbedModule
 {
     id resolver;
-    id tracker;
 }
 
 - (id);

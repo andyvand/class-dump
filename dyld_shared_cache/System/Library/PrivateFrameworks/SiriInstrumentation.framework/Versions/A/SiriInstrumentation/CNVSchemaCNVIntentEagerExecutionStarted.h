@@ -6,16 +6,13 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface CNVSchemaCNVIntentEagerExecutionStarted : SISchemaInstrumentationMessage
 {
     int _plugin;
-    CDStruct_8777a98f _has;
 }
 
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (int);
@@ -26,12 +23,10 @@
 - (_Bool);
 - (id);
 - (id)onConfirmationSystemStyle";
-- (id)hemaLRComponentIdentifierRedactionSignal;
+- (id)LRSchemaLRComponentIdentifierRedactionSignal;
 - (id)¼ ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasPlugin;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int plugin; // @synthesize plugin=_plugin;
 
 @end

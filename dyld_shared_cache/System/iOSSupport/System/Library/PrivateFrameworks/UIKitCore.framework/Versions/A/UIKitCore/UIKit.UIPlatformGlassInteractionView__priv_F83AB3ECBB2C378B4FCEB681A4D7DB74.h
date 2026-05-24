@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (id)llPocketLumaObserver;
+- (id)_UIScrollPocketLumaObserver;
 - (void)hÿFËxl;
 
 @end

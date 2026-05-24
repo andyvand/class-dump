@@ -6,14 +6,12 @@
 
 #import <OfficeImport/WDRun.h>
 
-@class WDCharacterRun, WDText;
+@class WDText;
 
 __attribute__((visibility("hidden")))
 @interface WDNote : WDRun
 {
     WDText *mText;
-    WDCharacterRun *mReference;
-    _Bool mAutomaticNumbering;
 }
 
 - (void);

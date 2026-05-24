@@ -5,5 +5,12 @@
 //
 
 @protocol HMHomeDelegate
+
+@optional
+- (void);
+- (void)";
+- (void)sY8	;
+- (void)xpandableTextView",&,N,V_descriptionExpandableTextView;
+- (void);
 @end
 

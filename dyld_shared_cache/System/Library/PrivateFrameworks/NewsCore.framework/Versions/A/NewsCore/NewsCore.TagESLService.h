@@ -7,11 +7,6 @@
 @interface NewsCore.TagESLService
 {
     id contentContext;
-    id subscriptionList;
-    id bundleSubscriptionManager;
-    id smarterFetchRequestFactory;
-    id smarterFetchService;
-    id feedItemFactory;
 }
 
 - (void);

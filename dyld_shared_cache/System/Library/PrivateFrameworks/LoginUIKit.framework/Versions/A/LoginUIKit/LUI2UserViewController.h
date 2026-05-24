@@ -6,32 +6,23 @@
 
 #import <LoginUIKit/LUI2ViewController.h>
 
-@class AVTAvatarDescriptor, AVTLockscreenCoordinator, LUI2UserView, LUIMutableBoolean, NSTimer;
-
 @interface LUI2UserViewController : LUI2ViewController
 {
     _Bool _usesVisualEffectBackgroundUserViewInternal;
-    _Bool _paused;
-    LUI2UserView *_userView;
-    AVTLockscreenCoordinator *_lsCoordinator;
-    LUIMutableBoolean *_canSetDebugInfo;
-    NSTimer *_avatarIdleTimer;
-    AVTAvatarDescriptor *_avatarDescriptor;
-    double _nextAvatarPasswordEntryTime;
 }
 
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)b;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)I;
 - (void);
 - (void);
 - (void);
@@ -57,15 +48,6 @@
 - (void)horizationPluginView";
 
 // Remaining properties
-@property(retain) AVTAvatarDescriptor *avatarDescriptor; // @synthesize avatarDescriptor=_avatarDescriptor;
-@property(retain) NSTimer *avatarIdleTimer; // @synthesize avatarIdleTimer=_avatarIdleTimer;
-@property LUIMutableBoolean *canSetDebugInfo; // @synthesize canSetDebugInfo=_canSetDebugInfo;
-@property(readonly) double defaultInitialPoseDelay;
-@property(retain) AVTLockscreenCoordinator *lsCoordinator; // @synthesize lsCoordinator=_lsCoordinator;
-@property double nextAvatarPasswordEntryTime; // @synthesize nextAvatarPasswordEntryTime=_nextAvatarPasswordEntryTime;
-@property _Bool paused; // @synthesize paused=_paused;
-@property(retain) LUI2UserView *userView; // @synthesize userView=_userView;
-@property _Bool usesVisualEffectBackgroundUserView;
 @property _Bool usesVisualEffectBackgroundUserViewInternal; // @synthesize usesVisualEffectBackgroundUserViewInternal=_usesVisualEffectBackgroundUserViewInternal;
 
 @end

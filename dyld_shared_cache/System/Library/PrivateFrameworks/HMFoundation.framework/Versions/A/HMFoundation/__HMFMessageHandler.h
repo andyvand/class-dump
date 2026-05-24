@@ -6,61 +6,38 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class NSArray, NSObject, NSString, NSUUID;
+@class NSObject;
 @protocol HMFMessageReceiver, OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface __HMFMessageHandler : HMFObject
 {
     id <HMFMessageReceiver> _receiver;
-    NSString *_name;
-    NSArray *_policies;
 }
 
-+ (id);
++ (id)A;
 + (id);
 + (id)@ù
 × ;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)FillBoundaryTopBottomCornersLuma;
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long)8	M	$	M	0	@	;
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)ection back [by] one word;
 - (id);
 - (_Bool);
-- (id);
+- (id)HMAttributeRequest",R,D,N;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *name; // @synthesize name=_name;
-@property(readonly, copy) NSArray *policies; // @synthesize policies=_policies;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly) NSObject<OS_dispatch_queue> *queue;
-@property(readonly) __weak id <HMFMessageReceiver> receiver; // @synthesize receiver=_receiver;
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSUUID *target;
 
 @end
 

@@ -11,12 +11,10 @@ __attribute__((visibility("hidden")))
 @interface PopoverTouchBarItemPlus
 {
     NSView *_customCollapsedRepresentation;
-    NSView *_customCustomizationView;
-    id <PopoverTouchBarItemPlusDelegate> _popoverItemPlusDelegate;
 }
 
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void)ì;

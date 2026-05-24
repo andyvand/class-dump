@@ -11,20 +11,19 @@
 @interface PGCurationArrayTrait : PGCurationTrait
 {
     NSArray *_items;
-    NSArray *_negativeItems;
 }
 
-- (id);
+- (id)=%s ptr=%p size=%u (total=%u raw=%u data=%u types=%u) %s:%d (%s).
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id)insertHighlightsWithGraphUpdate:progressBlock: /* Error: Ran out of types for this method. */;
-- (void)ghlightsPerMonth;
+- (void)averageNumberOfPromotedHighlightsPerMonth;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(readonly, nonatomic) NSArray *negativeItems; // @synthesize negativeItems=_negativeItems;
 
 @end
 

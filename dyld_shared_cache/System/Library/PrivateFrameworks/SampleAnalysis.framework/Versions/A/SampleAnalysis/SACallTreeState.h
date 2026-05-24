@@ -6,27 +6,10 @@
 
 #import <SampleAnalysis/SACallTreeNode.h>
 
-@class NSArray, NSMutableArray, NSString, SACountedState;
-
 __attribute__((visibility("hidden")))
 @interface SACallTreeState : SACallTreeNode
 {
     unsigned char _threadPriority;
-    _Bool _isPartOfADeadlock;
-    _Bool _isBlockedByADeadlock;
-    int _pid;
-    unsigned int _pageGrabUPLSampleCount;
-    unsigned int _pageGrabIOPLSampleCount;
-    unsigned int _microstackshotState;
-    int _originPid;
-    int _proximatePid;
-    unsigned long long _threadId;
-    NSArray *_blockingInfos;
-    SACountedState *_state;
-    unsigned long long _energyNJ;
-    NSMutableArray *_childIOEvents;
-    NSMutableArray *_timeRanges;
-    unsigned long long _endSampleIndex;
 }
 
 - (id);
@@ -35,13 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

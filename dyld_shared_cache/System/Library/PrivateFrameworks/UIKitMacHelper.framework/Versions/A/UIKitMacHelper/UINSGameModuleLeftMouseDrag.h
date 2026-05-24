@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (void);
-- (void)nownToBeOpen;
+- (void)_systemSceneIdentifiersKnownToBeOpen;
 - (void)<4;
 
 @end

@@ -4,11 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class GEOComposedRouteStep;
+
 @protocol _GEORouteHypothesisMonitorETAProvider
+- (double)XPCListenerEndpoint"16@0:(GEOComposedRouteStep *)arg1 8;
+- (double)q16;
+- (double)CNCDIOSLegacyIdentifierRegistrationRequest"16^@24;
+- (double)SLegacyIdentifierRegistrations"32@0:8@"CNCDIOSLegacyIdentifierRegistrationRequest"16^@24 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) double _hypothesis_travelDuration;
-@property(readonly, nonatomic) double _hypothesis_travelDurationAggressiveEstimate;
-@property(readonly, nonatomic) double _hypothesis_travelDurationConservativeEstimate;
 @end
 

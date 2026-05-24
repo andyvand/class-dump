@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol INSendMessageIntentResponseExport
-- (long long)lyingIntentResponse;
+- (long long)hasUnderlyingIntentResponse;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) NSArray *sentMessages;
 @end
 

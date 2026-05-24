@@ -7,19 +7,12 @@
 @interface NewsSubscription.DynamicViewControllerDelegate
 {
     id purchaseContext;
-    id resultDelegate;
-    id bundleSubscriptionManager;
-    id router;
-    id postPurchaseOnboardingManager;
-    id paidBundleViaOfferHandler;
-    id offerConfigMatcher;
-    id configurableOffersConfigFetcher;
 }
 
-- (_Bool);
+- (_Bool)#;
 - (void);
 - (void);
-- (id);
+- (id)Index:] /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

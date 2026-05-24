@@ -7,16 +7,6 @@
 @interface FCUserEventHistoryEventCounts
 {
     long long _articleSeenEventCount;
-    long long _articleVisitedEventCount;
-    long long _articleReadEventCount;
-    long long _articleLikedEventCount;
-    long long _articleDislikedEventCount;
-    long long _articleSharedEventCount;
-    long long _articleSavedEventCount;
-    long long _feedViewEventCount;
-    long long _tagFollowedEventCount;
-    long long _tagUnfollowedEventCount;
-    long long _tagMutedEventCount;
 }
 
 + (id);
@@ -46,17 +36,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) long long articleDislikedEventCount; // @synthesize articleDislikedEventCount=_articleDislikedEventCount;
-@property(nonatomic) long long articleLikedEventCount; // @synthesize articleLikedEventCount=_articleLikedEventCount;
-@property(nonatomic) long long articleReadEventCount; // @synthesize articleReadEventCount=_articleReadEventCount;
-@property(nonatomic) long long articleSavedEventCount; // @synthesize articleSavedEventCount=_articleSavedEventCount;
 @property(nonatomic) long long articleSeenEventCount; // @synthesize articleSeenEventCount=_articleSeenEventCount;
-@property(nonatomic) long long articleSharedEventCount; // @synthesize articleSharedEventCount=_articleSharedEventCount;
-@property(nonatomic) long long articleVisitedEventCount; // @synthesize articleVisitedEventCount=_articleVisitedEventCount;
-@property(nonatomic) long long feedViewEventCount; // @synthesize feedViewEventCount=_feedViewEventCount;
-@property(nonatomic) long long tagFollowedEventCount; // @synthesize tagFollowedEventCount=_tagFollowedEventCount;
-@property(nonatomic) long long tagMutedEventCount; // @synthesize tagMutedEventCount=_tagMutedEventCount;
-@property(nonatomic) long long tagUnfollowedEventCount; // @synthesize tagUnfollowedEventCount=_tagUnfollowedEventCount;
 
 @end
 

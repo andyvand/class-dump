@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSImage, NSLayoutConstraint, NSPulldownIndicatorImageView, NSString;
-@protocol AKUserInterfaceItem;
+@class NSLayoutConstraint;
 
 @interface AKToolbarButtonItem_Mac
 {
     NSLayoutConstraint *_buttonWidthConstraint;
-    NSLayoutConstraint *_buttonHeightConstraint;
-    NSLayoutConstraint *_plainWidthConstraint;
-    NSLayoutConstraint *_menuWidthConstraint;
-    NSPulldownIndicatorImageView *_pulldownIndicatorView;
-    NSButton *_highlightButton;
-    _Bool _enabled;
-    unsigned long long _displayMode;
-    NSButton<AKUserInterfaceItem> *_button;
 }
 
 - (_Bool);
@@ -30,10 +21,10 @@
 - (double);
 - (void);
 - (void);
-- (void);
+- (void)=;
 - (id);
 - (_Bool);
-- (void);
+- (void)mappingCountChannel0;
 - (void);
 - (_Bool);
 - (id);
@@ -45,14 +36,7 @@
 - (void)when finished.;
 
 // Remaining properties
-@property(copy, nonatomic) NSImage *alternateImage;
-@property(readonly, nonatomic) NSButton<AKUserInterfaceItem> *button; // @synthesize button=_button;
-@property(nonatomic) unsigned long long buttonType;
 @property(nonatomic) unsigned long long displayMode; // @synthesize displayMode=_displayMode;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(copy, nonatomic) NSImage *image;
-@property(nonatomic) _Bool showsPulldown;
-@property(copy, nonatomic) NSString *title;
 
 @end
 

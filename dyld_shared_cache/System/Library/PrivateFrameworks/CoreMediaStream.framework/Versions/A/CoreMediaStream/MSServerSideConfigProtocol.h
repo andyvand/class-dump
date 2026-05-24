@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
 @protocol MSServerSideConfigProtocolDelegate;
 
 @interface MSServerSideConfigProtocol
 {
     id <MSServerSideConfigProtocolDelegate> _delegate;
-    NSString *_personID;
-    NSURL *_configURL;
-    struct __MSSSCPCContext {
-        struct __MSSPCContext _super;
-        CDUnknownFunctionPointerType didFinishCallback;
-        CDUnknownFunctionPointerType didFailAuthenticationCallback;
-    } _context;
 }
 
 - (void);
@@ -28,11 +20,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void),/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation;
 
 // Remaining properties
 @property(nonatomic) id <MSServerSideConfigProtocolDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NSString *personID; // @synthesize personID=_personID;
 
 @end
 

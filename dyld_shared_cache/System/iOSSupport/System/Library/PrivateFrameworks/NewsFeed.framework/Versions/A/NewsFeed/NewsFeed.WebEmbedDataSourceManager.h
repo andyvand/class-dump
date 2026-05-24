@@ -7,12 +7,6 @@
 @interface NewsFeed.WebEmbedDataSourceManager
 {
     id dataService;
-    id observers;
-    id dataCache;
-    id workItems;
-    id sportsRecordFactory;
-    id defaultMaxAge;
-    id pollingQueue;
 }
 
 @end

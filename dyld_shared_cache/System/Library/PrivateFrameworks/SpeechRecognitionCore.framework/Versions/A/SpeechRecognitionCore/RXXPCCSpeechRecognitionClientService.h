@@ -4,30 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol SRDClientProtocol;
-
 @interface RXXPCCSpeechRecognitionClientService
 {
     struct RXXPC *_xpc;
-    id <SRDClientProtocol> _externalServiceClient;
 }
 
+- (void)ʈ;
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)^m	;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

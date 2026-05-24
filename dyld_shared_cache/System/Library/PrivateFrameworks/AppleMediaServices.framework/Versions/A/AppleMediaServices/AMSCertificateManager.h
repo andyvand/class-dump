@@ -17,7 +17,7 @@
 + (_Bool);
 + (void);
 + (id);
-+ (struct __SecAccessControl *);
++ (struct __SecAccessControl *);
 + (void);
 + (void);
 + (id);

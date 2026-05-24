@@ -12,19 +12,17 @@ __attribute__((visibility("hidden")))
 @interface _NSSnapshotWindowForAnimation : NSPanel
 {
     CALayer *_rootLayer;
-    CALayer *_snapshotLayer;
 }
 
 - (id);
 - (void);
 - (id);
 - (void);
-- (id)effectiveWithinWindowBackdropGroupName;
+- (id)_effectiveWithinWindowBackdropGroupName;
 - (void)nt to replace it with this document?;
 
 // Remaining properties
 @property(retain, nonatomic) CALayer *rootLayer; // @synthesize rootLayer=_rootLayer;
-@property(retain, nonatomic) CALayer *snapshotLayer; // @synthesize snapshotLayer=_snapshotLayer;
 
 @end
 

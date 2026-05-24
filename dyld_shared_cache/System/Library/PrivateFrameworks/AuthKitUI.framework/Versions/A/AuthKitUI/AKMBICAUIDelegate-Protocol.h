@@ -5,5 +5,9 @@
 //
 
 @protocol AKMBICAUIDelegate
+- (void);
+- (void);
+- (void);
+- (void);
 @end
 

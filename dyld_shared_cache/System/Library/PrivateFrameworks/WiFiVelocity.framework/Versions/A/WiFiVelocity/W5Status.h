@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, W5AWDLStatus, W5BluetoothStatus, W5NetworkStatus, W5PowerStatus, W5SummaryFaults, W5SummaryLinkTests, W5SummaryRecoveries, W5WiFiStatus;
+@class W5WiFiStatus;
 
 @interface W5Status
 {
     W5WiFiStatus *_wifi;
-    W5AWDLStatus *_awdl;
-    W5BluetoothStatus *_bluetooth;
-    W5NetworkStatus *_network;
-    W5PowerStatus *_power;
-    NSArray *_diagnosticsModes;
-    W5SummaryFaults *_lastHrFaults;
-    W5SummaryLinkTests *_lastHrLinkTests;
-    W5SummaryRecoveries *_lastHrRecoveries;
 }
 
 + (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (void);
+- (id);
+- (id)ansitioningView"16q24;
+- (unsigned long long)Td,R,N,V_minimumProminentPlayButtonDimension;
 - (id);
 - (void);
+- (id);
+- (void)should NOT be sent.;
 - (_Bool);
 - (void);
 - (void);
@@ -37,7 +29,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)iIq}}16@64;
 - (id);
 - (id);
 - (void);
@@ -49,14 +41,6 @@
 - (id)ddev;
 
 // Remaining properties
-@property(copy, nonatomic) W5AWDLStatus *awdl; // @synthesize awdl=_awdl;
-@property(copy, nonatomic) W5BluetoothStatus *bluetooth; // @synthesize bluetooth=_bluetooth;
-@property(copy, nonatomic) NSArray *diagnosticsModes; // @synthesize diagnosticsModes=_diagnosticsModes;
-@property(copy, nonatomic) W5SummaryFaults *lastHrFaults; // @synthesize lastHrFaults=_lastHrFaults;
-@property(copy, nonatomic) W5SummaryLinkTests *lastHrLinkTests; // @synthesize lastHrLinkTests=_lastHrLinkTests;
-@property(copy, nonatomic) W5SummaryRecoveries *lastHrRecoveries; // @synthesize lastHrRecoveries=_lastHrRecoveries;
-@property(copy, nonatomic) W5NetworkStatus *network; // @synthesize network=_network;
-@property(copy, nonatomic) W5PowerStatus *power; // @synthesize power=_power;
 @property(copy, nonatomic) W5WiFiStatus *wifi; // @synthesize wifi=_wifi;
 
 @end

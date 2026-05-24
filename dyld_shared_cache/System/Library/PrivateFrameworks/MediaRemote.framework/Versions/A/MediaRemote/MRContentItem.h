@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRArtwork, MRContentItemMetadata, NSArray, NSData, NSDictionary, NSString;
+@class MRContentItemMetadata, NSString;
 
 @interface MRContentItem
 {
     MRContentItemMetadata *_metadata;
-    NSString *_identifier;
-    NSString *_info;
-    NSArray *_transcriptAlignments;
-    NSArray *_availableLanguageOptions;
-    NSArray *_currentLanguageOptions;
-    NSArray *_sections;
-    NSString *_parentIdentifier;
-    NSString *_ancestorIdentifier;
-    NSString *_associatedParticipantIdentifier;
-    NSString *_queueIdentifier;
-    NSString *_requestIdentifier;
-    NSArray *_availableArtworkFormats;
-    NSArray *_availableRemoteArtworkFormats;
-    NSArray *_availableAnimatedArtworkFormats;
-    MRArtwork *_artwork;
-    NSDictionary *_artworks;
-    NSDictionary *_remoteArtworks;
-    NSDictionary *_animatedArtworkPreviewFrames;
-    NSDictionary *_animatedArtworks;
 }
 
 + (id);
@@ -48,7 +29,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)d}d{CGSize=dd}}24@0:(id)arg1 8d16;
 - (id);
 - (id);
 - (id);
@@ -56,9 +37,9 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)sendCounterProposalToPerson:properties:conference:account: /* Error: Ran out of types for this method. */;
+- (id)payloadDataFor:luminance:isHighKey:extensionIdentfier: /* Error: Ran out of types for this method. */;
+- (id)isRichLinkImprovementsEnabled;
 - (void);
 - (void);
 - (_Bool);
@@ -72,11 +53,11 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)setKnowledgeStoreData:forKey:inStoreWithName:completion: /* Error: Ran out of types for this method. */;
+- (void)dateByAddingTimeInterval:(id)arg1;
+- (void)me;
+- (void)aemon.Audio.FirstChanceTriggerInfo;
+- (id)nection startSpeechPronunciationRequestWithOptions:pronunciationContext:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -91,30 +72,7 @@
 - (id)OutputContext.setVolume;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *ancestorIdentifier; // @synthesize ancestorIdentifier=_ancestorIdentifier;
-@property(retain, nonatomic) NSDictionary *animatedArtworkPreviewFrames; // @synthesize animatedArtworkPreviewFrames=_animatedArtworkPreviewFrames;
-@property(retain, nonatomic) NSDictionary *animatedArtworks; // @synthesize animatedArtworks=_animatedArtworks;
-@property(retain, nonatomic) MRArtwork *artwork; // @synthesize artwork=_artwork;
-@property(retain, nonatomic) NSDictionary *artworks; // @synthesize artworks=_artworks;
-@property(copy, nonatomic) NSString *associatedParticipantIdentifier; // @synthesize associatedParticipantIdentifier=_associatedParticipantIdentifier;
-@property(retain, nonatomic) NSArray *availableAnimatedArtworkFormats; // @synthesize availableAnimatedArtworkFormats=_availableAnimatedArtworkFormats;
-@property(retain, nonatomic) NSArray *availableArtworkFormats; // @synthesize availableArtworkFormats=_availableArtworkFormats;
-@property(copy, nonatomic) NSArray *availableLanguageOptions; // @synthesize availableLanguageOptions=_availableLanguageOptions;
-@property(retain, nonatomic) NSArray *availableRemoteArtworkFormats; // @synthesize availableRemoteArtworkFormats=_availableRemoteArtworkFormats;
-@property(copy, nonatomic) NSArray *currentLanguageOptions; // @synthesize currentLanguageOptions=_currentLanguageOptions;
-@property(readonly, copy, nonatomic) NSData *data;
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSString *info; // @synthesize info=_info;
-@property(copy, nonatomic) MRContentItemMetadata *metadata;
-@property(readonly, copy, nonatomic) NSDictionary *nowPlayingInfo;
-@property(copy, nonatomic) NSString *parentIdentifier; // @synthesize parentIdentifier=_parentIdentifier;
-@property(copy, nonatomic) NSString *queueIdentifier; // @synthesize queueIdentifier=_queueIdentifier;
-@property(retain, nonatomic) NSDictionary *remoteArtworks; // @synthesize remoteArtworks=_remoteArtworks;
-@property(copy, nonatomic) NSString *requestIdentifier; // @synthesize requestIdentifier=_requestIdentifier;
-@property(copy, nonatomic) NSArray *sections; // @synthesize sections=_sections;
-@property(readonly, nonatomic) MRContentItem *skeleton;
-@property(copy, nonatomic) NSArray *transcriptAlignments; // @synthesize transcriptAlignments=_transcriptAlignments;
 
 @end
 

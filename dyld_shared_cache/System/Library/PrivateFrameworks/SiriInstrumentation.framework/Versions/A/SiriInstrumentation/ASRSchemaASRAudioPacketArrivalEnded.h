@@ -6,23 +6,20 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ASRSchemaASRAudioPacketArrivalEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
-- (id);
+- (id)_accessorySearchPredicate;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)yStatus: /* Error: Ran out of types for this method. */;
+- (id)setUafAssetDailyStatus: /* Error: Ran out of types for this method. */;
 - (id)PÌ;
 - (id);
 - (_Bool)¡O%;
@@ -31,8 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCKeyboardState, NSArray, NSMutableArray;
+@class NSMutableArray;
 
 @interface MCKeyboardInput
 {
     NSMutableArray *_mutableInputs;
-    unsigned long long _composingInputIndex;
-    MCKeyboardState *_sourceKeyboardState;
 }
 
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
+- (unsigned long long)axtty_reset_cloud_support_store_action;
+- (id)@"AXLTTranscribedData"8;
+- (id)ents/MacOS/Speech;
+- (id)System/Library/Frameworks/Speech.framework/Contents/MacOS/Speech;
 - (void);
 - (void);
 - (void);
@@ -30,32 +28,27 @@
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
-- (_Bool);
+- (_Bool)[;
+- (unsigned long long);
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
+- (id)$;
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)-;
 - (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) MCKeyboardInput *composingInput;
-@property(nonatomic) unsigned long long composingInputIndex; // @synthesize composingInputIndex=_composingInputIndex;
-@property(readonly, nonatomic) NSArray *inputs;
 @property(readonly, nonatomic) NSMutableArray *mutableInputs; // @synthesize mutableInputs=_mutableInputs;
-@property(readonly, nonatomic) MCKeyboardState *sourceKeyboardState; // @synthesize sourceKeyboardState=_sourceKeyboardState;
-@property(readonly, nonatomic) unsigned long long totalDrawSamples;
 
 @end
 

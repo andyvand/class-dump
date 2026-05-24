@@ -5,14 +5,11 @@
 //
 
 @protocol _MKPlaceCardRefreshable
+- (void);
+- (void)Ѻ;
+- (_Bool)H;
 
 // Remaining properties
-@property(readonly, nonatomic) double headerSecondaryNameLabelPadding;
-@property(nonatomic) unsigned long long options;
-@property(nonatomic) _Bool placeHasRating;
-@property(nonatomic) _Bool placeInBookmarks;
 @property(nonatomic) _Bool placeInCollections;
-@property(nonatomic) _Bool placeInFavoritesGuide;
-@property(nonatomic) _Bool placeInShortcuts;
 @end
 

@@ -7,7 +7,6 @@
 @interface HomeKitDaemon.BiomeLogEventObserver
 {
     id biomeEventManager;
-    id dataSource;
 }
 
 - (id);

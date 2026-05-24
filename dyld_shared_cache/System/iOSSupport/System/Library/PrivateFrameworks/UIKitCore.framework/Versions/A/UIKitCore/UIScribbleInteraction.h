@@ -4,45 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView;
-@protocol UIScribbleInteractionDelegate;
+@class UIView;
 
 @interface UIScribbleInteraction
 {
     _Bool _handlingWriting;
-    _Bool __defaultSystemInteraction;
-    id <UIScribbleInteractionDelegate> _delegate;
-    UIView *_view;
 }
 
-+ (_Bool);
++ (_Bool)etITLibMediaItemPropertyUserSkipCount();
 + (void);
 + (double)Å ÆLÉ4ËôË°Ì¸ÍlÎ)ü× Ú\Û;
 + (_Bool)yÿ»À;
-- (void);
+- (void)conformsToProtocol:(_Bool)arg1;
 - (_Bool);
 - (id);
 - (void)1Â0@ù
 × ;
-- (_Bool)e;
+- (_Bool)_backgroundEffectViewGroupName;
 - (id)undsAfterAnimation;
-- (id)tegoryBar_iPad;
-- (void)BColorWhite_Alpha73;
+- (id)UIKeyboardEmojiCategoryBar_iPad;
+- (void)UIKBColorWhite_Alpha73;
 - (void)orted in setTabs:(id)arg1 animated: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)Xd;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=_isDefaultSystemInteraction) _Bool _defaultSystemInteraction; // @synthesize _defaultSystemInteraction=__defaultSystemInteraction;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) __weak id <UIScribbleInteractionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isHandlingWriting) _Bool handlingWriting; // @synthesize handlingWriting=_handlingWriting;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end

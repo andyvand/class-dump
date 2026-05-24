@@ -6,33 +6,26 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPImage, NSString;
-
 @interface LPSharedObjectMetadata : LPSpecializationMetadata
 {
     _Bool _isCollaboration;
-    NSString *_title;
-    NSString *_subtitle;
-    NSString *_information;
-    LPImage *_icon;
-    LPSpecializationMetadata *_specialization;
 }
 
-+ (id);
++ (id)stageDetailsFindMyCompositionWithShareType: /* Error: Ran out of types for this method. */;
 + (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)transcriptBoldFont;
+- (id)thumbnailsFillToSize:(id)arg1 maxCount: /* Error: Ran out of types for this method. */;
+- (id)thumbnailURL;
+- (id)thumbnailFillToSizeCropping:(id)arg1;
+- (void)thumbnailDataForAsset:(id)arg1 targetSize:onlyFromCache:outDataSpec: /* Error: Ran out of types for this method. */;
+- (id)tapbackPickerViewControllerDidChangePreferredContentSize:(id)arg1;
+- (_Bool)tableView:(id)arg1 shouldDrawTopSeparatorForSection: /* Error: Ran out of types for this method. */;
+- (id)tableView:(id)arg1 commitEditingStyle:forRowAtIndexPath: /* Error: Ran out of types for this method. */;
+- (void)stretchSpringsAttachedToCellsForBoundsChange:(CDUnknownBlockType)arg1;
+- (id)stickerEffectType;
+- (id)statusCommSafetySensitiveReceiveMultiButtonTranscriptText;
 - (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
+- (_Bool)y unsharing focus with handleID:%s error:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -50,19 +43,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) LPImage *icon; // @synthesize icon=_icon;
-@property(copy, nonatomic) NSString *information; // @synthesize information=_information;
-@property(nonatomic) _Bool isCollaboration; // @synthesize isCollaboration=_isCollaboration;
-@property(retain, nonatomic) LPSpecializationMetadata *specialization; // @synthesize specialization=_specialization;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

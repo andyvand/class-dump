@@ -4,28 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSString;
+@class NSDictionary, NSMutableDictionary;
 
 @interface IMKUICandidateItemLayout
 {
     NSDictionary *_annotationAttributes;
-    NSMutableDictionary *_cellDictionary;
-    NSDictionary *_hintAttributes;
-    NSString *_identifier;
-    NSDictionary *_noCandidatesMessageAttributes;
-    NSDictionary *_selectionKeyAttributes;
-    NSDictionary *_supplementalAttributes;
-    double _selectionKeyMargin;
-    double _selectionPadding;
-    NSDictionary *_titleAttributes;
 }
 
 - (id);
+- (void);
+- (void)y9?;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)@;
 - (void);
 - (double);
 - (double);
@@ -37,9 +28,9 @@
 - (void);
 - (void);
 - (void);
+- (id)9?;
 - (id);
-- (id);
-- (id);
+- (id)rence/AVConference.subproj/Sources/VCSecurityKeyManager.m:%d:Notified of new keyMaterial '%@' /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -48,16 +39,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSDictionary *annotationAttributes; // @synthesize annotationAttributes=_annotationAttributes;
 @property(retain, nonatomic) NSMutableDictionary *cellDictionary; // @synthesize cellDictionary=_cellDictionary;
-@property(retain) NSDictionary *hintAttributes; // @synthesize hintAttributes=_hintAttributes;
-@property(retain) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain) NSDictionary *noCandidatesMessageAttributes; // @synthesize noCandidatesMessageAttributes=_noCandidatesMessageAttributes;
-@property(retain) NSDictionary *selectionKeyAttributes; // @synthesize selectionKeyAttributes=_selectionKeyAttributes;
-@property double selectionKeyMargin; // @synthesize selectionKeyMargin=_selectionKeyMargin;
-@property double selectionPadding; // @synthesize selectionPadding=_selectionPadding;
-@property(retain) NSDictionary *supplementalAttributes; // @synthesize supplementalAttributes=_supplementalAttributes;
-@property(retain) NSDictionary *titleAttributes; // @synthesize titleAttributes=_titleAttributes;
 
 @end
 

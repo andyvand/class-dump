@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (unsigned long long);
+- (unsigned long long)checked_didReceiveData_withCB;
 
 @end
 

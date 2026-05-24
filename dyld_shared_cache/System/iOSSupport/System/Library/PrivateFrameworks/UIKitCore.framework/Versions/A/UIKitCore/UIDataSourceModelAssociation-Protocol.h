@@ -7,7 +7,7 @@
 @class NSIndexPath, NSString;
 
 @protocol UIDataSourceModelAssociation
-- (NSString *)lement;
+- (NSString *)UISwitchDesignLibraryVisualElement;
 - (NSIndexPath *);
 @end
 

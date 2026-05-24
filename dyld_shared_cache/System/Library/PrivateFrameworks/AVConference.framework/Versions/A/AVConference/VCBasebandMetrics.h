@@ -10,41 +10,6 @@ __attribute__((visibility("hidden")))
 @interface VCBasebandMetrics
 {
     VCRateControlMediaController *_mediaController;
-    CDStruct_b203c80d _lastBasebandNotification;
-    double _bdcd;
-    double _normalizedBDCD;
-    double _normalizedDelay;
-    _Bool _isBDCDListReady;
-    _Bool _useAverageQueueDepthForDelay;
-    struct {
-        double time[15];
-        double bdcd[15];
-        double delay[15];
-        int frontIndex;
-        int rearIndex;
-        unsigned int size;
-    } _bdcdList;
-    struct {
-        double time[15];
-        unsigned int transmittedBytes[15];
-        unsigned int nonFlushableQueueDepth[15];
-        int frontIndex;
-        int rearIndex;
-        unsigned int size;
-    } _infoList;
-    unsigned int _targetBitrate;
-    unsigned int _txBitrate;
-    unsigned int _averageBitrate;
-    unsigned int _previousAverageBitrate;
-    unsigned int _averageBitrateShort;
-    unsigned int _averageBitrateLong;
-    double _averageQueueDepth;
-    double _expectedQueuingDelay;
-    double _expectedQueuingDelayLong;
-    double _averageBitrateMovingAverageFactor;
-    _Bool _isTargetBitrateStabilized;
-    _Bool _resetAverageBitrateLong;
-    void *_logBasebandDump;
 }
 
 - (double);
@@ -55,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (struct tagVCStatisticsMessage);
 - (void);
 - (void);
@@ -63,11 +28,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)4;
 
 // Remaining properties
-@property(nonatomic) _Bool isTargetBitrateStabilized; // @synthesize isTargetBitrateStabilized=_isTargetBitrateStabilized;
-@property(retain, nonatomic) VCRateControlMediaController *mediaController; // @synthesize mediaController=_mediaController;
 @property(nonatomic) unsigned int targetBitrate; // @synthesize targetBitrate=_targetBitrate;
 
 @end

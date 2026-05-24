@@ -4,43 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface NEAppRule
 {
     _Bool _noRestriction;
-    _Bool _noDivertDNS;
-    _Bool _allowEmptyDesignatedRequirement;
-    NSString *_matchSigningIdentifier;
-    NSString *_matchDesignatedRequirement;
-    NSString *_matchPath;
-    NSArray *_matchDomains;
-    NSArray *_matchTools;
-    struct __SecRequirement *_cachedRequirement;
-    NSArray *_cachedMachOUUIDs;
-    NSArray *_matchAccountIdentifiers;
 }
 
-+ (_Bool);
++ (_Bool)setInviteTimetout:forSessionWithUniqueID: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id):(id)arg1 ];
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)alid counter.;
 - (id);
-- (id);
+- (id)�c;
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
-- (id);
-- (void)derConfiguration:(id)arg1;
-- (void)Array;
-- (_Bool)onnectionForEnabledEnterpriseConfigurationWithName:(id)arg1;
-- (id)s;
+- (id)`;
+- (void)setProviderConfiguration:(id)arg1;
+- (void)predictedInterfaceArray;
+- (_Bool)createConnectionForEnabledEnterpriseConfigurationWithName:(id)arg1;
+- (id)_options;
 - (id);
 - (id)NEIKEv2Identifier",&,V_localIdentifier;
 - (void)z;
@@ -50,20 +38,11 @@
 - (void)n item (referenced by another relay config);
 - (id)packet flags;
 - (void);
-- (_Bool)ORK_HEADER;
+- (_Bool)APP_WANTS_LOCAL_NETWORK_HEADER;
 - (id)loadData:(id)arg1 ];
-- (id)Disablement;
+- (id)ProhibitDisablement;
 
 // Remaining properties
-@property _Bool allowEmptyDesignatedRequirement; // @synthesize allowEmptyDesignatedRequirement=_allowEmptyDesignatedRequirement;
-@property(retain) NSArray *cachedMachOUUIDs; // @synthesize cachedMachOUUIDs=_cachedMachOUUIDs;
-@property(copy) NSArray *matchAccountIdentifiers; // @synthesize matchAccountIdentifiers=_matchAccountIdentifiers;
-@property(readonly) NSString *matchDesignatedRequirement; // @synthesize matchDesignatedRequirement=_matchDesignatedRequirement;
-@property(copy) NSArray *matchDomains; // @synthesize matchDomains=_matchDomains;
-@property(copy) NSString *matchPath; // @synthesize matchPath=_matchPath;
-@property(readonly) NSString *matchSigningIdentifier; // @synthesize matchSigningIdentifier=_matchSigningIdentifier;
-@property(copy) NSArray *matchTools; // @synthesize matchTools=_matchTools;
-@property _Bool noDivertDNS; // @synthesize noDivertDNS=_noDivertDNS;
 @property _Bool noRestriction; // @synthesize noRestriction=_noRestriction;
 
 @end

@@ -7,7 +7,6 @@
 @interface NewsUI2.SearchMoreBlueprintModifierFactory
 {
     id headlineModelFactory;
-    id sectionFactory;
 }
 
 @end

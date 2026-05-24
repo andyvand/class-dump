@@ -4,13 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMDPersonDataBatchChange, NAFuture, NSData, NSSet;
 @protocol HMDPersonManagerSettings;
 
 @protocol HMDPersonDataSource
+- (void)setAccessibilityText:(NSData *)arg1;
+- (NAFuture *)service:account:incomingResourceAtURL:metadata:fromID:context: /* Error: Ran out of types for this method. */;
+- (NAFuture *)blockIdentifier:(NSSet *)arg1;
+- (NAFuture *)beginCoalescingEditsWithContext:(NSSet *)arg1;
+- (NAFuture *)automobileOptions;
+- (void)_positionTimestamp;
+- (void)_polylineCoordinateForRoute:(void (^)(HMPerson *, _Bool *))arg1;
+- (void)_placeDisplay;
+- (void)_performInitialLoadNotifyingObservers:(void (^)(HMFaceprint *, _Bool *))arg1 kickOffSynchronously:completion: /* Error: Ran out of types for this method. */;
+- (void)_performEditWithStateTransformation:(NSSet *)arg1 containerEdit:(void (^)(HMFaceprint *, _Bool *))arg2;
+- (HMDPersonDataBatchChange *)_purgeExpiredBlockedTripIdentifiers;
+- (NAFuture *)e the access.;
+- (NAFuture *)ificate request;
+- (NAFuture *)ACertificateFetching;
+- (NAFuture *)viceIdentity;
+- (NAFuture *);
+- (NAFuture *)eIdentity.framework/DeviceIdentity;
+- (id <HMDPersonManagerSettings>)h";
 
 // Remaining properties
-@property(readonly, getter=isCurrentDeviceAvailableResident) _Bool currentDeviceAvailableResident;
 @property(readonly, getter=isDataAvailable) _Bool dataAvailable;
-@property(readonly, copy) id <HMDPersonManagerSettings> settings;
 @end
 

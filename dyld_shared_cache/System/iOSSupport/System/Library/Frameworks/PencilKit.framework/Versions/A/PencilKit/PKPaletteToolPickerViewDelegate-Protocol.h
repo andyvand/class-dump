@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIView;
+
 @protocol PKPaletteToolPickerViewDelegate
+- (UIView *)on.dylib;
+- (struct CGRect)eImage.dylib;
+- (void)ift/libswiftCore.dylib;
+- (double);
+- (void)brary/PrivateFrameworks/CorePhoneNumbers.framework/Versions/A/CorePhoneNumbers;
+- (void)rameworks/AppKit.framework/Versions/C/AppKit;
 @end
 

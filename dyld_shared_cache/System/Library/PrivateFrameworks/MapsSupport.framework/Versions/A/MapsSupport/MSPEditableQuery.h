@@ -6,18 +6,16 @@
 
 #import <MapsSupport/MSPQuery.h>
 
-@class MSPContainer, NSString, _MSPQueryState;
+@class _MSPQueryState;
 
 @interface MSPEditableQuery : MSPQuery
 {
     _MSPQueryState *_editedState;
-    MSPContainer *_container;
-    NSString *_context;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)d;
 - (id);
 - (void);
 - (void);

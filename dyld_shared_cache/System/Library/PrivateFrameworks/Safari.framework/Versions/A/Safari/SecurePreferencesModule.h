@@ -6,16 +6,12 @@
 
 #import <Safari/PreferencesModule.h>
 
-@class NSOcclusionDetectionView, NSView, SLSecureCursorAssertion;
+@class NSView, SLSecureCursorAssertion;
 
 __attribute__((visibility("hidden")))
 @interface SecurePreferencesModule : PreferencesModule
 {
     SLSecureCursorAssertion *_cursorAssertion;
-    NSOcclusionDetectionView *_occlusionDetectionView;
-    _Bool _windowIsOccluded;
-    id _occlusionValidationToken;
-    NSView *_viewToSecure;
 }
 
 - (id);
@@ -32,7 +28,6 @@ __attribute__((visibility("hidden")))
 - (void)4X;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canTrustUserInteraction;
 @property(nonatomic) __weak NSView *viewToSecure; // @synthesize viewToSecure=_viewToSecure;
 
 @end

@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString, NSURLSession;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary, NSURLSession;
 
 __attribute__((visibility("hidden")))
 @interface AVAssetCustomURLBridgeForNSURLSession
 {
     NSMutableDictionary *_taskToRequest;
-    NSURLSession *_session;
-    struct OpaqueFigCustomURLHandler *_handler;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
 }
 
 - (void);
@@ -29,18 +25,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (int);
-- (void);
+- (void)WMF;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSURLSession *session; // @synthesize session=_session;
-@property(readonly) Class superclass;
 
 @end
 

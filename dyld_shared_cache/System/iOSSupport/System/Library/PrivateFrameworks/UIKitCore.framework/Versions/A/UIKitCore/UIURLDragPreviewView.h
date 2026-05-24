@@ -6,41 +6,33 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSString, NSURL, UILabel;
+@class NSString, UILabel;
 
 @interface UIURLDragPreviewView : UIView
 {
     UILabel *_titleLabel;
-    UILabel *_urlLabel;
-    NSArray *_titleAndUrlConstraints;
-    NSArray *_urlOnlyConstraints;
-    NSString *_title;
-    NSURL *_url;
-    NSString *_urlText;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)Ignoring priority message command, no message guid received;
++ (id):(id)arg1 %@ total file Size:%f /* Error: Ran out of types for this method. */;
++ (id)file create date:(id)arg1 %@ delivered time:(id)arg2 %@ total file Size:%f /* Error: Ran out of types for this method. */;
++ (id)r message:(id)arg1 %@ timeDuration:(id)arg2 %f file create date:%@ delivered time:%@ total file Size:%f /* Error: Ran out of types for this method. */;
++ (id);
 + (id);
 + (void)ÈKo;
-- (void);
+- (void)didUpdateChatStatus:(id)arg1 chat:style:displayName:groupID:lastAddressedHandle:lastAddressedSIMID:handleInfo:account:category:spamExtensionName:isBlackholed: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)ð!lCù1c1Â0@ù
 × ;
 - (void)nObservingGestureRecognizer";
-- (void)straintsLoggingSuspensionCount;
+- (void)_decrementUnsatisfiableConstraintsLoggingSuspensionCount;
 - (id)nt;
-- (id)onActivityProviding;
+- (id)_UIViewServiceSessionActivityProviding;
 - (id);
 - (void)¬ÿbí;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(copy, nonatomic) NSURL *url; // @synthesize url=_url;
-@property(copy, nonatomic) NSString *urlText; // @synthesize urlText=_urlText;
 
 @end
 

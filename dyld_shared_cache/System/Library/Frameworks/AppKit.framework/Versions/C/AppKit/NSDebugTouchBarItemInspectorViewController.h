@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
     NSGridView *_gridView;
 }
 
+- (void)6n:(id)arg1;
 - (void);
-- (void);
-- (void)erActivity: /* Error: Ran out of types for this method. */;
+- (void)_restoreProviders:withUserActivity: /* Error: Ran out of types for this method. */;
 
 @end
 

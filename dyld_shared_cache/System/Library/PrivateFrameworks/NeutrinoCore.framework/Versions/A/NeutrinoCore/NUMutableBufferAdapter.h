@@ -6,8 +6,6 @@
 
 #import <NeutrinoCore/NUBufferAdapter.h>
 
-@class NSString, NUPixelFormat;
-
 @interface NUMutableBufferAdapter : NUBufferAdapter
 {
     void *_mutableBytes;
@@ -22,18 +20,7 @@
 - (void *);
 
 // Remaining properties
-@property(readonly, nonatomic) const void *bytes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NUPixelFormat *format;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) void *mutableBytes;
-@property(readonly, nonatomic) long long rowBytes;
-@property(readonly, nonatomic) CDStruct_912cb5d2 size;
-@property(readonly) Class superclass;
 
 @end
 

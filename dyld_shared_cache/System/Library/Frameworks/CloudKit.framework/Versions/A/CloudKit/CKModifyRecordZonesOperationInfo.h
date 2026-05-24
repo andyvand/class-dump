@@ -11,14 +11,6 @@
 @interface CKModifyRecordZonesOperationInfo : CKDatabaseOperationInfo
 {
     _Bool _allowDefaultZoneSave;
-    _Bool _markZonesAsUserPurged;
-    _Bool _dontFetchFromServer;
-    NSArray *_recordZonesToSave;
-    NSArray *_recordZoneIDsToDelete;
-    NSArray *_configurationsToSave;
-    NSArray *_configurationsToDelete;
-    unsigned long long _savePolicy;
-    long long _maxZoneSaveAttempts;
 }
 
 + (_Bool);
@@ -27,13 +19,13 @@
 - (void);
 - (void);
 - (id);
-- (long long);
+- (long long)B;
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)_modelAssetDescription;
+- (id)0;
+- (void);
 - (_Bool);
-- (void);
+- (void)i;
 - (_Bool);
 - (void);
 - (void);
@@ -46,15 +38,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowDefaultZoneSave; // @synthesize allowDefaultZoneSave=_allowDefaultZoneSave;
-@property(retain, nonatomic) NSArray *configurationsToDelete; // @synthesize configurationsToDelete=_configurationsToDelete;
-@property(retain, nonatomic) NSArray *configurationsToSave; // @synthesize configurationsToSave=_configurationsToSave;
-@property(nonatomic) _Bool dontFetchFromServer; // @synthesize dontFetchFromServer=_dontFetchFromServer;
-@property(nonatomic) _Bool markZonesAsUserPurged; // @synthesize markZonesAsUserPurged=_markZonesAsUserPurged;
-@property(nonatomic) long long maxZoneSaveAttempts; // @synthesize maxZoneSaveAttempts=_maxZoneSaveAttempts;
-@property(retain, nonatomic) NSArray *recordZoneIDsToDelete; // @synthesize recordZoneIDsToDelete=_recordZoneIDsToDelete;
 @property(retain, nonatomic) NSArray *recordZonesToSave; // @synthesize recordZonesToSave=_recordZonesToSave;
-@property(nonatomic) unsigned long long savePolicy; // @synthesize savePolicy=_savePolicy;
 
 @end
 

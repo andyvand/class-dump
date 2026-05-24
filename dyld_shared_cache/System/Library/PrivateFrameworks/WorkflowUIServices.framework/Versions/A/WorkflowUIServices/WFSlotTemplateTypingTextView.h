@@ -6,67 +6,43 @@
 
 #import <WorkflowUIServices/WFAppKitAutocompleteTextView.h>
 
-@class NSAttributedString, NSFont, NSString;
 @protocol WFSlotTemplateTypingTextViewDelegate;
 
 __attribute__((visibility("hidden")))
 @interface WFSlotTemplateTypingTextView : WFAppKitAutocompleteTextView
 {
     _Bool _clearsZeroWhenTyping;
-    _Bool _typingAllowsMultipleLines;
-    double _topTextContainerInset;
-    NSFont *_emojiOverrideFont;
 }
 
 - (void);
 - (void);
+- (_Bool)*T;
+- (double);
+- (void)G*T;
+- (void);
+- (void);
+- (void);
+- (id)**T;
 - (_Bool);
-- (double);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)+;
 - (struct CGPoint)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSAttributedString *attributedText;
-@property(nonatomic) _Bool clearsZeroWhenTyping; // @synthesize clearsZeroWhenTyping=_clearsZeroWhenTyping;
-@property(copy) NSString *contentType;
 @property __weak id <WFSlotTemplateTypingTextViewDelegate> delegate; // @dynamic delegate;
-@property(readonly) struct CGRect documentVisibleRect;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R
-
-@property(retain, nonatomic) NSFont *emojiOverrideFont; // @synthesize emojiOverrideFont=_emojiOverrideFont;
-@property(readonly, nonatomic) NSFont *font;
-@property(nonatomic) struct _NSRange selectedRange;
-@property(readonly) _Bool supportsAdaptiveImageGlyph;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(nonatomic) double topTextContainerInset; // @synthesize topTextContainerInset=_topTextContainerInset;
-@property(nonatomic) _Bool typingAllowsMultipleLines; // @synthesize typingAllowsMultipleLines=_typingAllowsMultipleLines;
-@property(readonly) struct CGRect unionRectInVisibleSelectedRange;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R
-
 
 @end
 

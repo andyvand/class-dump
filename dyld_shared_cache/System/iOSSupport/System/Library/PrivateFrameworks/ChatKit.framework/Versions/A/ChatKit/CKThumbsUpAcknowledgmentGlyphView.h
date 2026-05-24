@@ -12,13 +12,12 @@ __attribute__((visibility("hidden")))
 @interface CKThumbsUpAcknowledgmentGlyphView : CKSimpleAcknowledgementGlyphView
 {
     CALayer *_animationLayer;
-    CALayer *_contentLayer;
 }
 
-- (void);
+- (void)componentsSeparatedByString:(id)arg1;
 - (id);
-- (void);
-- (long long);
+- (void)e;
+- (long long)n;
 - (void);
 - (id);
 - (void);
@@ -27,7 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) CALayer *animationLayer; // @synthesize animationLayer=_animationLayer;
-@property(retain, nonatomic) CALayer *contentLayer; // @synthesize contentLayer=_contentLayer;
 
 @end
 

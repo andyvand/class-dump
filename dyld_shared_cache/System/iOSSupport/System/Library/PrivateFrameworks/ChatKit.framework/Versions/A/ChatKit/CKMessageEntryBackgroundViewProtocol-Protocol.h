@@ -4,12 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UITraitCollection;
+@class NSArray, NSString, UIColor, UITraitCollection;
 
 @protocol CKMessageEntryBackgroundViewProtocol
+- (void)setOutlineStateData:(UITraitCollection *)arg1;
+- (NSArray *)_firstFieldHeightLayoutConstraint;
+- (UITraitCollection *)ineAttachmentUIModel",R,N;
+- (UIColor *)nt is not authenticated — skipping {note:%@} /* Error: Ran out of types for this method. */;
+- (void)`;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *backdropGroupName;
-@property(retain, nonatomic) UITraitCollection *entryViewTraitCollection;
 @end
 

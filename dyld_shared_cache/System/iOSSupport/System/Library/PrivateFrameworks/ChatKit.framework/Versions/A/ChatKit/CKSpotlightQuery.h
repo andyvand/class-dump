@@ -4,38 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMChatRegistry, MDSearchQuery, NSArray, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_group;
-
 __attribute__((visibility("hidden")))
 @interface CKSpotlightQuery
 {
     _Bool _cancelled;
-    CDUnknownBlockType _completion;
-    MDSearchQuery *_currentQuery;
-    unsigned long long _resultIndex;
-    NSArray *_searchResults;
-    NSMutableDictionary *_chatGUIDToLatestSearchResult;
-    NSObject<OS_dispatch_group> *_searchResultLoadingGroup;
-    IMChatRegistry *_chatRegisteryOverride;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)ic_numberOfItemsInAllSections;
+- (void)cellFrameForTextContainer:(id)arg1 proposedLineFragment:glyphPosition:characterIndex: /* Error: Ran out of types for this method. */;
+- (void)cancelPreviousPerformRequestsWithTarget:(id)arg1 selector:object: /* Error: Ran out of types for this method. */;
+- (id)_webView:requestCookieConsentWithMoreInfoHandler:decisionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id));
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (unsigned long long);
@@ -45,27 +35,13 @@ __attribute__((visibility("hidden")))
 - (void)!ìEùñ1Â0@ù
 × ;
 - (CDUnknownBlockType);
-- (void)dDismissCustomizationPicker:(_Bool)arg1;
+- (void)messageEntryViewDidDismissCustomizationPicker:(_Bool)arg1;
 - (void)¨;
 - (void);
 - (id)ýËjD?´ÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool cancelled; // @synthesize cancelled=_cancelled;
-@property(retain, nonatomic) NSMutableDictionary *chatGUIDToLatestSearchResult; // @synthesize chatGUIDToLatestSearchResult=_chatGUIDToLatestSearchResult;
-@property(retain, nonatomic) IMChatRegistry *chatRegisteryOverride; // @synthesize chatRegisteryOverride=_chatRegisteryOverride;
-@property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(readonly, nonatomic) MDSearchQuery *currentQuery; // @synthesize currentQuery=_currentQuery;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) unsigned long long resultIndex; // @synthesize resultIndex=_resultIndex;
-@property(retain, nonatomic) NSObject<OS_dispatch_group> *searchResultLoadingGroup; // @synthesize searchResultLoadingGroup=_searchResultLoadingGroup;
-@property(retain, nonatomic) NSArray *searchResults; // @synthesize searchResults=_searchResults;
-@property(readonly) Class superclass;
 
 @end
 

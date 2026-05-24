@@ -8,7 +8,6 @@
 {
     id $defaultActor;
     id usageSummary;
-    id sharedContext;
 }
 
 @end

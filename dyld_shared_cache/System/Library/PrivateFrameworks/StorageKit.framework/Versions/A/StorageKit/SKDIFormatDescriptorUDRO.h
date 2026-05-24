@@ -4,30 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface SKDIFormatDescriptorUDRO
 {
 }
 
-- (_Bool);
+- (_Bool)u;
 - (id);
-- (id);
-- (long long);
+- (id)mToken:] /* Error: Ran out of types for this method. */;
+- (long long)`;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSString *defaultExtension;
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) long long format;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isSupportedForBlankInitialization;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,11 +7,10 @@
 @interface AMSAutoBugCaptureDiagnosticExtensionOptions
 {
     id enabled;
-    id commonActionsEnabled;
 }
 
 - (id);
-- (id);
+- (id);
 
 @end
 

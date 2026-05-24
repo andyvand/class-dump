@@ -4,50 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSSet, NSString;
-@protocol OS_dispatch_queue, PKPushRegistryDelegate;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface PKPushRegistry
 {
     int _voipToken;
-    int _complicationToken;
-    int _fileProviderToken;
-    int _outstandingVoIPPushes;
-    NSSet *_desiredPushTypes;
-    id <PKPushRegistryDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    NSObject<OS_dispatch_queue> *_ivarQueue;
-    NSMutableDictionary *_pushTypeToToken;
-    NSMutableDictionary *_pushTypeToConnection;
-    double _lastReportedCallTime;
 }
 
-+ (id);
++ (id)?;
 + (void);
-- (id);
+- (id);
+- (void);
+- (void)R3Y;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)`k;
+- (void)ramework or milPython on adding this to the MIL text.;
 - (void);
 - (id);
 - (void);
 - (int);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)';
+- (void)T;
 - (id);
 - (id);
 - (void);
-- (int);
+- (int)@;
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)B;
 - (void);
 - (void);
 - (double);
@@ -67,27 +57,10 @@
 - (void);
 - (int);
 - (void);
-- (void);
+- (void)setPushTrigger:(id)arg1;
 
 // Remaining properties
-@property(nonatomic) int complicationToken; // @synthesize complicationToken=_complicationToken;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <PKPushRegistryDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(readonly, copy) NSString *description;
-@property(copy) NSSet *desiredPushTypes; // @synthesize desiredPushTypes=_desiredPushTypes;
-@property(nonatomic) int fileProviderToken; // @synthesize fileProviderToken=_fileProviderToken;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *ivarQueue; // @synthesize ivarQueue=_ivarQueue;
-@property(nonatomic) double lastReportedCallTime; // @synthesize lastReportedCallTime=_lastReportedCallTime;
-@property(nonatomic) int outstandingVoIPPushes; // @synthesize outstandingVoIPPushes=_outstandingVoIPPushes;
-@property(retain, nonatomic) NSMutableDictionary *pushTypeToConnection; // @synthesize pushTypeToConnection=_pushTypeToConnection;
-@property(retain, nonatomic) NSMutableDictionary *pushTypeToToken; // @synthesize pushTypeToToken=_pushTypeToToken;
-@property(readonly) Class superclass;
-@property(nonatomic) int voipToken; // @synthesize voipToken=_voipToken;
 
 @end
 

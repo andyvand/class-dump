@@ -4,34 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDIndexingContext, NSArray, NSObject;
-@protocol OS_dispatch_group;
+@class NSArray;
 
 @interface IMDCoreSpotlightSelectiveReindexingJob
 {
     NSArray *_messageGUIDs;
-    NSArray *_chatGUIDs;
-    IMDIndexingContext *_context;
-    NSObject<OS_dispatch_group> *_group;
 }
 
 + (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)ingMetadata:starting fetch bundleIDs (container=%@) /* Error: Ran out of types for this method. */;
 - (id);
 - (void)ice;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *chatGUIDs; // @synthesize chatGUIDs=_chatGUIDs;
-@property(readonly, nonatomic) IMDIndexingContext *context; // @synthesize context=_context;
-@property(readonly, nonatomic) NSObject<OS_dispatch_group> *group; // @synthesize group=_group;
 @property(readonly, nonatomic) NSArray *messageGUIDs; // @synthesize messageGUIDs=_messageGUIDs;
 
 @end

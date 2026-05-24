@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNPropertyGroupItem, NSArray, NSMutableArray;
-@protocol CNCancelable, CNPropertyBestIDSValueQueryDelegate;
+@class NSArray, NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface CNPropertyBestIDSValueQuery
 {
     NSMutableArray *_validIDSItems;
-    id <CNPropertyBestIDSValueQueryDelegate> _delegate;
-    NSArray *_propertyItems;
-    NSArray *_idsHandles;
-    id <CNCancelable> _idsLookupToken;
-    NSMutableArray *_validIDSHandles;
 }
 
 - (id);
@@ -23,26 +17,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
+- (id);
+- (void)A;
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
 - (void);
-- (void);
-- (void);
+- (void)_reloadStaticIdentityGroup;
 
 // Remaining properties
-@property(readonly, nonatomic) CNPropertyGroupItem *bestIDSProperty;
-@property(nonatomic) __weak id <CNPropertyBestIDSValueQueryDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSArray *idsHandles; // @synthesize idsHandles=_idsHandles;
-@property(retain, nonatomic) id <CNCancelable> idsLookupToken; // @synthesize idsLookupToken=_idsLookupToken;
 @property(retain, nonatomic) NSArray *propertyItems; // @synthesize propertyItems=_propertyItems;
-@property(retain, nonatomic) NSMutableArray *validIDSHandles; // @synthesize validIDSHandles=_validIDSHandles;
-@property(readonly, nonatomic) NSMutableArray *validIDSItems; // @synthesize validIDSItems=_validIDSItems;
 
 @end
 

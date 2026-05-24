@@ -15,7 +15,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) SAUIPluginSnippet *pluginSnippet;

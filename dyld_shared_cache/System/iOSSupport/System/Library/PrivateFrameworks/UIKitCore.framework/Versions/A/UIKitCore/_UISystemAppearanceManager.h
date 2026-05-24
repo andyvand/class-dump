@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIScene, UIWindow, UIWindowScene;
-@protocol BSInvalidatable;
+@class UIWindowScene;
 
 __attribute__((visibility("hidden")))
 @interface _UISystemAppearanceManager
 {
     _Bool _homeIndicatorAutoHidden;
-    unsigned long long _screenEdgesDeferringSystemGestures;
-    long long _userInterfaceStyle;
-    long long _whitePointAdaptivityStyle;
-    NSArray *_multitaskingDragExclusionRects;
-    unsigned long long _supportedInterfaceOrientations;
-    long long _preferredInterfaceOrientation;
-    UIWindowScene *_windowScene;
-    UIWindow *_previousWindowDrivingSystemAppearance;
-    id <BSInvalidatable> _stateCaptureToken;
 }
 
 - (void);
@@ -38,13 +28,13 @@ __attribute__((visibility("hidden")))
 - (long long)@ù
 × ;
 - (void)zes;
-- (void)yboardShowSegueTemplate;
+- (void)UIStoryboardShowSegueTemplate;
 - (id);
 - (id)In a future release, this will render the gesture nonfunctional;
 - (unsigned long long)nItem has no searchController and search bar is not hosted by navigation bar. self if a %@. viewController is a %@. navigationItem = %@;
 - (void)ould not be called if the client adopts UIScene lifecycle. Call -[UIWindow setWindowScene:] instead. /* Error: Ran out of types for this method. */;
 - (void)his is indicative of a host issue, where it may have crashed or invalidated the connection before the view service request completed.;
-- (id)roppedSuccessfullyByType;
+- (id)itemsDroppedSuccessfullyByType;
 - (unsigned long long).swift;
 - (id);
 - (void)«ªªªªªú?;
@@ -54,23 +44,6 @@ __attribute__((visibility("hidden")))
 - (long long)0 ¹;
 
 // Remaining properties
-@property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool homeIndicatorAutoHidden; // @synthesize homeIndicatorAutoHidden=_homeIndicatorAutoHidden;
-@property(readonly, nonatomic) NSArray *multitaskingDragExclusionRects; // @synthesize multitaskingDragExclusionRects=_multitaskingDragExclusionRects;
-@property(readonly, nonatomic) long long preferredInterfaceOrientation; // @synthesize preferredInterfaceOrientation=_preferredInterfaceOrientation;
-@property(nonatomic) __weak UIWindow *previousWindowDrivingSystemAppearance; // @synthesize previousWindowDrivingSystemAppearance=_previousWindowDrivingSystemAppearance;
-@property(readonly, nonatomic) unsigned long long screenEdgesDeferringSystemGestures; // @synthesize screenEdgesDeferringSystemGestures=_screenEdgesDeferringSystemGestures;
-@property(retain, nonatomic) id <BSInvalidatable> stateCaptureToken; // @synthesize stateCaptureToken=_stateCaptureToken;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long supportedInterfaceOrientations; // @synthesize supportedInterfaceOrientations=_supportedInterfaceOrientations;
-@property(readonly, nonatomic) long long userInterfaceStyle; // @synthesize userInterfaceStyle=_userInterfaceStyle;
-@property(readonly, nonatomic) long long whitePointAdaptivityStyle; // @synthesize whitePointAdaptivityStyle=_whitePointAdaptivityStyle;
 @property(retain, nonatomic) UIWindowScene *windowScene; // @synthesize windowScene=_windowScene;
 
 @end

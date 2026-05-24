@@ -4,35 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSOperationQueue;
+@class NSMutableDictionary;
 
 @interface MRNowPlayingOriginClientManager
 {
     NSMutableDictionary *_originClients;
-    NSMutableDictionary *_originClientRequests;
-    CDUnknownBlockType _createPlayerCallback;
-    CDUnknownBlockType _destroyPlayerCallback;
-    CDUnknownBlockType _generatePlayerIDCallback;
-    NSMutableDictionary *_activeSystemEndpointUIDs;
-    NSMutableDictionary *_activeSystemEndpointUIDCompletions;
-    NSMutableDictionary *_resolveActiveSystemEndpointCompletions;
 }
 
 + (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)_fullMiddle;
 - (void);
 - (id);
-- (id);
+- (id)isWatchMultiReplyEnabled;
 - (id);
 - (id);
 - (void);
@@ -43,8 +36,8 @@
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (id);
-- (id);
+- (id)ion;
+- (id)ersion;
 - (CDUnknownBlockType);
 - (void);
 - (void);
@@ -54,11 +47,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType createNewPlayerCallback;
-@property(copy, nonatomic) CDUnknownBlockType destroyPlayerCallback;
-@property(copy, nonatomic) CDUnknownBlockType generatePlayerIDCallback;
-@property(readonly, nonatomic) NSArray *originClientRequests;
-@property(readonly, nonatomic) NSArray *originClients;
-@property(readonly, nonatomic) NSOperationQueue *playbackQueueDataSourceOperationQueue;
 
 @end
 

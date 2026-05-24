@@ -4,36 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PIGlobalSettings
 {
     _Bool parallaxStyleAvoidColorWashBrownOverride;
-    _Bool _forceGlassesMatteOff;
-    _Bool _forceSpillMatteOff;
-    _Bool _allowSpillMatteOnOlderPortraitV2Captures;
-    long long parallaxStyleKeyLevelOverride;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (double);
-- (_Bool);
-- (void);
 - (_Bool);
 - (double);
+- (_Bool);
 - (void);
-- (void);
-- (void);
+- (_Bool)setFeatureTransformersForFeatureExtractors: /* Error: Ran out of types for this method. */;
+- (double)initFromPersonNode:toInferredPersonNode: /* Error: Ran out of types for this method. */;
+- (void)enumerateUniversalStartDatesUsingBlock:(_Bool)arg1;
+- (void)PGGraphInferredPersonEdge;
+- (void)Suggestion] Asking for recipient suggestions from options %@, for assets %@ moments %@;
 - (_Bool);
 - (double);
 - (_Bool);
@@ -50,7 +44,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)P;
 - (void);
 - (_Bool);
 - (void);
@@ -72,14 +66,14 @@
 - (double);
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (_Bool);
 - (_Bool);
 - (void);
+- (void);
+- (void);
 - (_Bool);
+- (void);
+- (_Bool)ts Writes Status: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
@@ -93,17 +87,17 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)ache with new timestamp %f, error:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (long long);
-- (void);
+- (void)enumerateIDSIDsForCNContact:(_Bool)arg1 usingBlock: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -113,7 +107,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void)tmentsToModifyBasedOnSourceCompositionController:(_Bool)arg1;
+- (void)adjustmentsToModifyBasedOnSourceCompositionController:(_Bool)arg1;
 - (float)VectorData;
 - (_Bool)¨P©Tª
 À­;
@@ -125,55 +119,7 @@ return premultiply(color);
 ;
 
 // Remaining properties
-@property(nonatomic) _Bool allowSpillMatteOnOlderPortraitV2Captures; // @synthesize allowSpillMatteOnOlderPortraitV2Captures=_allowSpillMatteOnOlderPortraitV2Captures;
-@property(nonatomic) _Bool cinematicAllowRGB10Packed;
-@property(nonatomic) _Bool cinematicAllowYUVSourceInput;
-@property(nonatomic) _Bool debugUseStyleEngine;
-@property(nonatomic) _Bool disableHeadroom;
-@property(nonatomic) _Bool disableMADForSettlingEffect;
-@property(nonatomic) _Bool disableSegmentation;
 @property(nonatomic) _Bool falseColorHDR;
-@property(nonatomic) _Bool forceEnableSegmentation;
-@property(nonatomic) _Bool forceEnableSettlingEffect;
-@property(nonatomic) _Bool forceEnableSpatialPhoto;
-@property(nonatomic) _Bool forceGlassesMatteOff; // @synthesize forceGlassesMatteOff=_forceGlassesMatteOff;
-@property(nonatomic) _Bool forceSpillMatteOff; // @synthesize forceSpillMatteOff=_forceSpillMatteOff;
-@property(nonatomic) _Bool inpaintApplySafetyFilterOnFaceLandmarks;
-@property(copy, nonatomic) NSString *inpaintDumpPath;
-@property(nonatomic) _Bool inpaintDumpsOriginalMasks;
-@property(nonatomic) _Bool inpaintDumpsProcessedMasks;
-@property(nonatomic) _Bool inpaintFillsMaskHoles;
-@property(nonatomic) double inpaintGainMapMixFactor;
-@property(nonatomic) double inpaintMaxAreaPercentage;
-@property(nonatomic) _Bool inpaintOrientInputImages;
-@property(nonatomic) _Bool inpaintOverlaysMaskBounds;
-@property(nonatomic) _Bool inpaintOverlaysMasks;
-@property(nonatomic) double inpaintPixellationIntersectionAreaToFaceAreaThreshold;
-@property(nonatomic) double inpaintPixellationIntersectionAreaToMaskAreaThreshold;
-@property(nonatomic) _Bool objectRemovalRegionOverride;
-@property(copy, nonatomic) NSString *parallaxLayoutConfigurationOverride;
-@property(nonatomic) _Bool parallaxStyleAvoidColorWashBrownOverride; // @synthesize parallaxStyleAvoidColorWashBrownOverride;
-@property(nonatomic) _Bool parallaxStyleEnableGreenScreen;
-@property(nonatomic) long long parallaxStyleKeyLevelOverride; // @synthesize parallaxStyleKeyLevelOverride;
-@property(nonatomic) _Bool parallaxWallpaperDisableUpgrade;
-@property(nonatomic) _Bool portraitDisableFuzzball;
-@property(nonatomic) _Bool portraitDrawDebugInfo;
-@property(nonatomic) _Bool portraitForceLightMapLinear;
-@property(nonatomic) _Bool posterDisableCropVariant;
-@property(nonatomic) _Bool rawApplyBoostFirst;
-@property(nonatomic) _Bool segmentationDebugPreviewDisableClock;
-@property(nonatomic) _Bool segmentationDebugPreviewHighQuality;
-@property(nonatomic) _Bool segmentationDebugRoundTripProxyImage;
-@property(nonatomic) _Bool segmentationDebugTintLayers;
-@property(nonatomic) _Bool segmentationDisableCaching;
-@property(nonatomic) long long segmentationInfillAlgorithm;
-@property(nonatomic) double segmentationInfillDilationPercent;
-@property(nonatomic) double segmentationManualGatingLenience;
-@property(nonatomic) _Bool semanticStyleDisableStyleEngine;
-@property(nonatomic) _Bool sensitivityCheckDumpsImages;
-@property(nonatomic) float settlingEffectMinimumMotionScore;
-@property(copy, nonatomic) NSString *styleRecipeConfigDirectoryPath;
-@property(nonatomic) _Bool useStyleRecipeConfigDirectory;
 
 @end
 

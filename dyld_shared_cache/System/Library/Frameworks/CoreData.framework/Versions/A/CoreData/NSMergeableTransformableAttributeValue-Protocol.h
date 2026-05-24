@@ -5,5 +5,6 @@
 //
 
 @protocol NSMergeableTransformableAttributeValue
++ (_Bool);
 @end
 

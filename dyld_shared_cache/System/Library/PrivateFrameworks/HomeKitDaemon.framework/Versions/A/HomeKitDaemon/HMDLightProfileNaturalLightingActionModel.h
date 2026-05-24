@@ -6,8 +6,6 @@
 
 #import <HomeKitDaemon/HMDActionModel.h>
 
-@class NSNumber, NSSet, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDLightProfileNaturalLightingActionModel : HMDActionModel
 {
@@ -20,21 +18,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (_Bool);
-- (id)udShareParticipantManaging;
+- (id)HMDCloudShareParticipantManaging;
 
 // Remaining properties
-@property(retain) NSUUID *accessoryUUID; // @dynamic accessoryUUID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(retain) NSUUID *lightProfileUUID; // @dynamic lightProfileUUID;
-@property(getter=isNaturalLightingEnabled) _Bool naturalLightingEnabled;
-@property(retain) NSNumber *naturalLightingEnabledField; // @dynamic naturalLightingEnabledField;
-@property(retain) NSSet *serviceUUIDs; // @dynamic serviceUUIDs;
-@property(readonly) Class superclass;
 
 @end
 

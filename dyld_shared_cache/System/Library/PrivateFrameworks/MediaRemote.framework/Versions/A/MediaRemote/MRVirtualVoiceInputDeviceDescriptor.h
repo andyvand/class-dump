@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, _MRVoiceInputDeviceDescriptorProtobuf;
+@class NSArray;
 
 @interface MRVirtualVoiceInputDeviceDescriptor
 {
     NSArray *_supportedFormats;
-    NSDictionary *_defaultFormat;
 }
 
 - (id);
 - (id);
+- (id)configurationByApplyingConfiguration:(struct _NSZone *)arg1;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id)gnatureWithObjCTypes: /* Error: Ran out of types for this method. */;
+- (id)signatureWithObjCTypes: /* Error: Ran out of types for this method. */;
 - (void)pointUpdates;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *data;
-@property(readonly, nonatomic) NSDictionary *defaultFormat; // @synthesize defaultFormat=_defaultFormat;
-@property(readonly, nonatomic) _MRVoiceInputDeviceDescriptorProtobuf *protobuf;
 @property(readonly, nonatomic) NSArray *supportedFormats; // @synthesize supportedFormats=_supportedFormats;
 
 @end

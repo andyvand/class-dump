@@ -7,7 +7,6 @@
 @interface PFJSONDebugDumpConverter
 {
     _Bool _enablePretty;
-    CDUnknownBlockType _unknownTypeHandler;
 }
 
 - (CDUnknownBlockType);
@@ -21,7 +20,6 @@
 - (void);
 
 // Remaining properties
-@property _Bool enablePretty; // @synthesize enablePretty=_enablePretty;
 @property(copy) CDUnknownBlockType unknownTypeHandler; // @synthesize unknownTypeHandler=_unknownTypeHandler;
 
 @end

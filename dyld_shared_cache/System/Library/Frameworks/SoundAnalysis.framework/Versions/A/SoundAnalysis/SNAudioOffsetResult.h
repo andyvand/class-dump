@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SNAudioOffsetResult
 {
     id impl;
 }
 
-+ (_Bool);
++ (_Bool)E;
 - (void);
 - (id);
 - (id);
@@ -27,10 +25,6 @@
 - (double)ý2yALGGAI_pGÚJó6yDû2y_õû2yypAI_pGèVó6ySfGGAHSó6GGAgI_pGypG;
 
 // Remaining properties
-@property(nonatomic) double confidence;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic) double offset;
 @property(nonatomic) CDStruct_3c1748cc timeRange;
 
 @end

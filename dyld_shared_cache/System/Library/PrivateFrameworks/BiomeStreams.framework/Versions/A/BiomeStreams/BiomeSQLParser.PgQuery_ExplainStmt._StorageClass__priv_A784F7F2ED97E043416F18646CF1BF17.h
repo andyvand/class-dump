@@ -7,7 +7,6 @@
 @interface BiomeSQLParser.PgQuery_ExplainStmt._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _query;
-    id _options;
 }
 
 @end

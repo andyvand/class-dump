@@ -4,55 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADisplayLink, NSArray, NSDictionary, NSObject, NSString, UIGestureRecognizer, UIImageView, UIPreviewInteractionController, UIView, UIViewController;
+@class NSObject;
 @protocol UIPreviewItemDelegate;
 
 @interface UIPreviewItemController
 {
     NSObject *_lookupItem;
-    UIPreviewInteractionController *_previewInteractionController;
-    UIView *_previewIndicatorView;
-    UIImageView *_previewIndicatorImageView;
-    UIView *_previewIndicatorSnapshotView;
-    CADisplayLink *_previewIndicatorDisplayLink;
-    double _lastPreviewIndicatorAnimationTimestamp;
-    double _previewIndicatorAnimationTargetAlpha;
-    struct CGRect _previewIndicatorBoundingRect;
-    _Bool _previewIndicatorUsesStandardAnimation;
-    _Bool _contentManagedByClient;
-    UIPreviewItemController *_strongSelf;
-    _Bool _interactionInProgress;
-    id <UIPreviewItemDelegate> _delegate;
-    long long _type;
-    NSDictionary *_previewData;
-    UIViewController *_presentedViewController;
-    UIViewController *_presentingViewController;
-    UIView *_view;
 }
 
+- (void)MessageProcessingController",R,N,V_bgstMessageProcessingController;
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)m;
+- (id)-;
+- (void)A3;
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)};
+- (void)};
+- (_Bool)e decision;
+- (_Bool)g inconsistent merged chats. Leaving inconsistency as is.;
+- (void)OOL}d;
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)buildWithIdentifier:withAllowGameCenter:withAllowMultiplayerGaming:withAllowAddingGameCenterFriends:withAllowGameCenterNearbyMultiplayer:withAllowGameCenterPrivateMessaging:withAllowGameCenterProfilePrivacyModification:withAllowGameCenterProfileModification:withAllowedGameCenterOtherPlayerTypes: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id)!\GùÑZÐ1Â0@ù
@@ -60,29 +42,13 @@
 - (long long);
 - (void)placement"b1"shouldReplaceFoundTextInRange"b1"replaceFoundTextInRange"b1"replaceAllOccurrencesOfQueryString"b1"willHighlightFoundTextRange"b1"scrollRangeToVisible"b1"shouldBeginTextSearchOperation"b1"didBeginTextSearchOperation"b1"didEndTextSearchOperation"b1"searchResultDisplayStyle"b1"selectedTextSearchDocument"b1"compareOrderFromDocument"b1"compareFoundRangeToRange"b1};
 - (id)UIScenePresentationContext;
-- (void)HostingSceneOldScreenUserInfoKey;
-- (void)_timer_p;
+- (void)_UIWindowHostingSceneOldScreenUserInfoKey;
+- (void)So24OS_dispatch_source_timer_p;
 - (void)lÿïPØìd;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <UIPreviewItemDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *gestureRecognizers;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool interactionInProgress; // @synthesize interactionInProgress=_interactionInProgress;
-@property(readonly, nonatomic) UIGestureRecognizer *presentationGestureRecognizer;
-@property(readonly, nonatomic) UIGestureRecognizer *presentationSecondaryGestureRecognizer;
-@property(readonly, nonatomic) UIViewController *presentedViewController; // @synthesize presentedViewController=_presentedViewController;
-@property(readonly, nonatomic) UIViewController *presentingViewController; // @synthesize presentingViewController=_presentingViewController;
-@property(readonly, nonatomic) NSDictionary *previewData; // @synthesize previewData=_previewData;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
-@property(readonly, nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end
 

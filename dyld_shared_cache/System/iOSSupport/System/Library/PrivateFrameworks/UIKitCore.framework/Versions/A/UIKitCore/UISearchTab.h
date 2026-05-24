@@ -15,10 +15,10 @@
 }
 
 + (id)extendStateRestoration called outside of state restoration!;
+- (void)g;
 - (void);
-- (void);
-- (_Bool);
-- (void);
+- (_Bool)citly:%@ /* Error: Ran out of types for this method. */;
+- (void)ntVersion %@ serverVersion %@;
 - (void);
 - (void);
 - (id);
@@ -30,9 +30,7 @@
 - (void)T¿ÑDd;
 
 // Remaining properties
-@property(retain, nonatomic, setter=_setCustomSearchFieldConfiguration:) _UISearchTabHostedFieldConfiguration *_customSearchFieldConfiguration; // @synthesize _customSearchFieldConfiguration;
 @property(nonatomic, getter=_isTransient, setter=_setTransient:) _Bool _transient;
-@property(nonatomic) _Bool automaticallyActivatesSearch; // @synthesize automaticallyActivatesSearch=_automaticallyActivatesSearch;
 
 @end
 

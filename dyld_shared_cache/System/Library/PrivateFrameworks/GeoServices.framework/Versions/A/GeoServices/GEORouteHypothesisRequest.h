@@ -4,37 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapItemStorage;
-
 @interface GEORouteHypothesisRequest
 {
     double _arrivalDate;
-    GEOMapItemStorage *_destinationLocation;
-    double _expirationDate;
-    int _transportType;
-    struct {
-        unsigned int has_arrivalDate:1;
-        unsigned int has_expirationDate:1;
-        unsigned int has_transportType:1;
-    } _flags;
 }
 
-+ (_Bool)oidTolls:(id)arg1;
++ (_Bool)setMapSettingsAvoidTolls:(id)arg1;
 - (void);
-- (_Bool);
+- (_Bool)nnecting to remote Exchange endpoint:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
+- (void)"CNCache",&,N,V_accountsCache;
+- (id);
+- (_Bool)computeDescriptorForImageData:context:error: /* Error: Ran out of types for this method. */;
+- (double)_supportedJointsGroupNamesRevision1;
 - (void);
 - (id);
 - (_Bool);
-- (double);
-- (void);
 - (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)DownloadTask"24@"NSURL"32;
+- (void)rowWithTitle:(double)arg1 action: /* Error: Ran out of types for this method. */;
+- (void)_inAttendingWindow;
+- (void)lu, First Pass Best End :(unsigned long long)arg1 %llu;
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
@@ -42,28 +32,21 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)#@;
 - (int)
 × ;
 - (void)× ;
 - (id)h<GEOTileKey>, std:(struct _NSZone *)arg1:equal_to<GEOTileKey>, geo::GEOGenericContainerWeakReferenceTag, 0, 0>::_value_ptr>, void *>>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<_GEOTileKey, std::__list_iterator<geo::detail::_CacheItem<_GEOTileKey, id, geo::detail::_GEOGenericContainer<_GEOTileKey, id, std::hash<GEOTileKey>, std::equal_to<GEOTileKey>, geo::GEOGenericContainerWeakReferenceTag, 0, 0>::_value_ptr>, void *>>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}}"_maxCapacity"Q"_maxCost"Q"_currentCost"Q"_currentCount"Q} /* Error: Ran out of types for this method. */;
-- (id)String: /* Error: Ran out of types for this method. */;
-- (double)ionInfo;
-- (id)chBrowseCategorySuggestionParameters;
-- (id)SPITAL;
+- (id)guidancePreferenceTypesAsString: /* Error: Ran out of types for this method. */;
+- (double)_GEOWalkingRouteMatcherRecentLocationInfo;
+- (id)GEOPDSearchBrowseCategorySuggestionParameters;
+- (id)SPATIAL_LOOKUP_CATEGORY_HOSPITAL;
 - (void)ü;
 - (void)#}P@;
 - (int);
 
 // Remaining properties
-@property(nonatomic) double arrivalDate;
-@property(retain, nonatomic) GEOMapItemStorage *destinationLocation;
-@property(nonatomic) double expirationDate;
 @property(nonatomic) _Bool hasArrivalDate;
-@property(readonly, nonatomic) _Bool hasDestinationLocation;
-@property(nonatomic) _Bool hasExpirationDate;
-@property(nonatomic) _Bool hasTransportType;
-@property(nonatomic) int transportType;
 
 @end
 

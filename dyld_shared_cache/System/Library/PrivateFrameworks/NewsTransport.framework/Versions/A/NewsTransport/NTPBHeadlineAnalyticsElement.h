@@ -4,30 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NTPBHeadlineAnalyticsElement
 {
     long long _articleVersion;
-    NSString *_articleID;
-    NSString *_channelID;
-    NSString *_preseenCountTrackingIdentifier;
-    _Bool _needsSeenStateTracking;
-    struct {
-        unsigned int articleVersion:1;
-        unsigned int needsSeenStateTracking:1;
-    } _has;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)i;
+- (void)popToRootViewControllerAnimated:(id)arg1;
+- (void);
 - (void);
 - (id);
 - (long long);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)internalLMTokenIDMapFile;
+- (_Bool)ataList"16^B24;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -41,22 +31,13 @@
 - (id);
 - (id);
 - (void);
-- (void)hRate: /* Error: Ran out of types for this method. */;
-- (_Bool)yArticleListID2s;
-- (_Bool)undGradientColor;
+- (void)setAppConfigRefreshRate: /* Error: Ran out of types for this method. */;
+- (_Bool)_surfacedByArticleListID2s;
+- (_Bool)_backgroundGradientColor;
 - (_Bool)ÐÎÐÑ<ÓdÔ¤Õ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *articleID; // @synthesize articleID=_articleID;
-@property(nonatomic) long long articleVersion; // @synthesize articleVersion=_articleVersion;
-@property(retain, nonatomic) NSString *channelID; // @synthesize channelID=_channelID;
 @property(readonly, nonatomic) _Bool hasArticleID;
-@property(nonatomic) _Bool hasArticleVersion;
-@property(readonly, nonatomic) _Bool hasChannelID;
-@property(nonatomic) _Bool hasNeedsSeenStateTracking;
-@property(readonly, nonatomic) _Bool hasPreseenCountTrackingIdentifier;
-@property(nonatomic) _Bool needsSeenStateTracking; // @synthesize needsSeenStateTracking=_needsSeenStateTracking;
-@property(retain, nonatomic) NSString *preseenCountTrackingIdentifier; // @synthesize preseenCountTrackingIdentifier=_preseenCountTrackingIdentifier;
 
 @end
 

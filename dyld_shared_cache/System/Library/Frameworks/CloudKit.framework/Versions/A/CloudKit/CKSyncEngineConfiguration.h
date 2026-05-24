@@ -4,29 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKAssetDownloadStagingManager, CKDatabase, CKSyncEngineStateSerialization, NSData, NSObject, NSString;
-@protocol CKSyncEngineAsyncDelegate, CKSyncEngineDataSource, CKSyncEngineDelegate, OS_xpc_object;
-
 @interface CKSyncEngineConfiguration
 {
     _Bool _automaticallySync;
-    _Bool _immediatePushSyncEnabled;
-    _Bool _continueSendingChangesAfterFailure;
-    _Bool _allowFetchAndModifyConcurrently;
-    _Bool _useOpportunisticPushTopic;
-    CKDatabase *_database;
-    CKSyncEngineStateSerialization *_stateSerialization;
-    id <CKSyncEngineDelegate> _delegate;
-    NSString *_subscriptionID;
-    id <CKSyncEngineAsyncDelegate> _asyncDelegate;
-    id <CKSyncEngineDataSource> _dataSource;
-    NSString *_apsMachServiceName;
-    long long _priority;
-    NSObject<OS_xpc_object> *_xpcActivityCriteriaOverrides;
-    CKAssetDownloadStagingManager *_assetDownloadStagingManager;
 }
 
-- (void);
+- (void)'.;
 - (id);
 - (void);
 - (_Bool);
@@ -34,70 +17,46 @@
 - (id);
 - (void);
 - (id);
+- (void),;
 - (void);
-- (void);
-- (id);
+- (id));
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)tion>"40@0:(_Bool)arg1 8^v16@"OS_dispatch_data"24Q32;
+- (void)D;
+- (id)D;
 - (id);
 - (id);
 - (void);
 - (_Bool);
+- (void);
+- (void);
+- (id);
+- (id)~;
+- (void);
+- (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (id);
+- (void)?<v@?BB@"NSString"@"NSError">16;
 - (void);
 - (void);
 - (id);
 - (_Bool)ration";
-- (id)llySync:(id)arg1;
+- (id)setAutomaticallySync:(id)arg1;
 - (void)CKPrettyError;
 - (void)LIENT OF CLOUDKIT:(id)arg1 Trying to listen for push notifications in an XCTestRunner, but the bundle identifier does not match your entitlements. Please append '.xctrunner' to your %@ entitlement, otherwise you may not properly receive push notifications.;
 - (void)URL %@ with ID %@:(id)arg1 %@;
 - (id)ÀbÎÿHeÎÿäoÎÿrÎÿ¸³ÍÿL°Îÿ;
-- (void)ErrorDisabledAppLocalizedName;
+- (void)CKErrorDisabledAppLocalizedName;
 - (long long)cEngine_FetchChanges.swift;
-- (id)ainerSetupInfoC;
+- (id)So20CKContainerSetupInfoC;
 
 // Remaining properties
-@property(nonatomic) _Bool allowFetchAndModifyConcurrently; // @synthesize allowFetchAndModifyConcurrently=_allowFetchAndModifyConcurrently;
-@property(retain, nonatomic) NSString *apsMachServiceName; // @synthesize apsMachServiceName=_apsMachServiceName;
-@property(retain) CKAssetDownloadStagingManager *assetDownloadStagingManager; // @synthesize assetDownloadStagingManager=_assetDownloadStagingManager;
-@property __weak id <CKSyncEngineAsyncDelegate> asyncDelegate; // @synthesize asyncDelegate=_asyncDelegate;
-@property(nonatomic) _Bool automaticSyncingEnabled;
-@property _Bool automaticallySync; // @synthesize automaticallySync=_automaticallySync;
-@property(nonatomic) _Bool continueSendingChangesAfterFailure; // @synthesize continueSendingChangesAfterFailure=_continueSendingChangesAfterFailure;
-@property(nonatomic) __weak id <CKSyncEngineDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(retain) CKDatabase *database; // @synthesize database=_database;
-@property(retain, nonatomic) NSString *databaseSubscriptionIDOverride;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <CKSyncEngineDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic, getter=isImmediateSyncEnabled) _Bool immediatePushSyncEnabled; // @synthesize immediatePushSyncEnabled=_immediatePushSyncEnabled;
-@property(retain, nonatomic) NSData *metadata;
-@property(nonatomic) long long priority; // @synthesize priority=_priority;
-@property(copy) CKSyncEngineStateSerialization *stateSerialization; // @synthesize stateSerialization=_stateSerialization;
-@property(copy) NSString *subscriptionID; // @synthesize subscriptionID=_subscriptionID;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool useOpportunisticPushTopic; // @synthesize useOpportunisticPushTopic=_useOpportunisticPushTopic;
-@property(retain, nonatomic) NSObject<OS_xpc_object> *xpcActivityCriteriaOverrides; // @synthesize xpcActivityCriteriaOverrides=_xpcActivityCriteriaOverrides;
 
 @end
 

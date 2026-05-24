@@ -6,18 +6,17 @@
 
 #import <CoreML/MLModelEngine.h>
 
-@class MLFeatureValue, NSString;
+@class MLFeatureValue;
 
 @interface MLImputer : MLModelEngine
 {
     MLFeatureValue *_imputeValue;
-    MLFeatureValue *_replaceValue;
 }
 
++ (id);
 + (id);
 + (id);
-+ (id);
-- (id);
+- (id)`;
 - (id);
 - (id);
 - (id);
@@ -25,15 +24,7 @@
 - (void)ity recommender must be a sequence.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) MLFeatureValue *imputeValue; // @synthesize imputeValue=_imputeValue;
-@property(readonly, nonatomic) MLFeatureValue *replaceValue; // @synthesize replaceValue=_replaceValue;
-@property(readonly) Class superclass;
 
 @end
 

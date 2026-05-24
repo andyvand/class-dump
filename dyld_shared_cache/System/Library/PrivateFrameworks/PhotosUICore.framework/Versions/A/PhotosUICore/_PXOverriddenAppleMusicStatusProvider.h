@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSError, PXObservable;
-@protocol PXAppleMusicStatusProvider;
+@class NSDictionary, PXObservable;
 
 @interface _PXOverriddenAppleMusicStatusProvider
 {
     NSDictionary *_overrides;
-    id <PXAppleMusicStatusProvider> _subProvider;
 }
 
 - (long long);
@@ -23,7 +21,6 @@
 - (id)pþþue¸´¼þþ]e¸Lpþþue¸¨¼þþ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *error;
 @property(readonly, nonatomic) PXObservable *observable;
 
 @end

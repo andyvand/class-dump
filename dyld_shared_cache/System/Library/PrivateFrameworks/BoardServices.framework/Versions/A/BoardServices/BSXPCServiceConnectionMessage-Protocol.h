@@ -5,6 +5,6 @@
 //
 
 @protocol BSXPCServiceConnectionMessage
-- (_Bool)ceDomains;
+- (_Bool)BSServiceDomains;
 @end
 

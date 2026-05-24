@@ -7,8 +7,6 @@
 @interface NewsFeed.FileBasedDismissalStorage
 {
     id storageFileName;
-    id state;
-    id writeQueue;
 }
 
 @end

@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBIntentMetadata;
+@class NSArray;
 
 @protocol _INPBListShortcutsIntent
+- (_Bool);
 - (_Bool)cupUSUnit;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *appTitles;
-@property(readonly, nonatomic) unsigned long long appTitlesCount;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasOriginDevice;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(nonatomic) int originDevice;
 @end
 

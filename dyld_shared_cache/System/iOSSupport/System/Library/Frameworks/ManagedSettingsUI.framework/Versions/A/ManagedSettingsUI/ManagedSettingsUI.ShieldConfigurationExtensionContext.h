@@ -7,17 +7,18 @@
 @interface ManagedSettingsUI.ShieldConfigurationExtensionContext
 {
     id $__lazy_storage_$_shieldConfigurationDataSource;
+    void v48@0:8@"NSString"16@"NSData"24@"NSString"32@?<v@?@"NSData"@"NSError">40;
 }
 
++ (id)P;
 + (id);
-+ (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)setCppAction:(id)arg1;
+- (id)x;
 - (void);
 - (id);
 

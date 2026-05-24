@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface SUCorePolicyResume
 {
     _Bool _skipPhase;
-    long long _specifiedFields;
-    NSDictionary *_baseResumeOptions;
-    NSDictionary *_additionalOptions;
 }
 
 + (_Bool);
@@ -26,17 +21,14 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)NSString"24@"NSError"32;
+- (id)_magnifyingGlassButtonClicked: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *additionalOptions; // @synthesize additionalOptions=_additionalOptions;
-@property(retain, nonatomic) NSDictionary *baseResumeOptions; // @synthesize baseResumeOptions=_baseResumeOptions;
-@property(nonatomic) _Bool skipPhase; // @synthesize skipPhase=_skipPhase;
 @property long long specifiedFields; // @synthesize specifiedFields=_specifiedFields;
 
 @end

@@ -7,10 +7,6 @@
 @interface ktrace.WaitGroup
 {
     id waiters;
-    id queue;
-    id semaphore;
-    id listener;
-    id waited;
 }
 
 @end

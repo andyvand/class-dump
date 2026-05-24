@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSBundle;
+@class NSArray;
 
 @interface HMLocalization
 {
     struct os_unfair_lock_s _lock;
-    NSArray *_stringTable;
-    NSBundle *_bundle;
 }
 
 + (id);

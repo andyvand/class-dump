@@ -6,24 +6,20 @@
 
 #import <HomeKitDaemon/HMDHAPAccessoryTask.h>
 
-@class HMDDevice, NSDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDHAPAccessoryRemoteOperationTask : HMDHAPAccessoryTask
 {
     _Bool _finished;
-    NSString *_remoteMessageName;
-    HMDDevice *_delegateDevice;
-    NSDictionary *_logEvents;
-    double _remoteMessageTimeout;
 }
 
-- (void);
-- (double);
+- (void)emailAddresses;
+- (double)sharing entitlement:%@ /* Error: Ran out of types for this method. */;
+- (id)Server] will not accept connection due to missing sharing entitlement:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)R_;
 - (id);
 - (void);
 - (id);
@@ -31,17 +27,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool)rationEvent;
+- (_Bool)_markEndDateAndSubmitUploadOperationEvent;
 - (void);
 - (void)apple.private.alloy.alarms-timers;
 - (void)q;
 
 // Remaining properties
-@property(readonly) HMDDevice *delegateDevice; // @synthesize delegateDevice=_delegateDevice;
-@property(nonatomic, getter=isFinished) _Bool finished; // @synthesize finished=_finished;
-@property(retain) NSDictionary *logEvents; // @synthesize logEvents=_logEvents;
 @property(readonly) NSString *remoteMessageName; // @synthesize remoteMessageName=_remoteMessageName;
-@property(readonly, nonatomic) double remoteMessageTimeout; // @synthesize remoteMessageTimeout=_remoteMessageTimeout;
 
 @end
 

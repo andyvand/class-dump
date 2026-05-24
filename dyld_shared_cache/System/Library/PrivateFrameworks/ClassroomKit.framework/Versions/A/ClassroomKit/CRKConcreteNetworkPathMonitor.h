@@ -4,34 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRKConcreteNetworkPath, NSObject, NSString;
+@class NSObject;
 @protocol OS_nw_path_monitor;
 
 @interface CRKConcreteNetworkPathMonitor
 {
     NSObject<OS_nw_path_monitor> *_underlyingPathMonitor;
-    CRKConcreteNetworkPath *_path;
 }
 
 - (id);
 - (id);
 - (void);
+- (void));
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CRKConcreteNetworkPath *path; // @synthesize path=_path;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSObject<OS_nw_path_monitor> *underlyingPathMonitor; // @synthesize underlyingPathMonitor=_underlyingPathMonitor;
 
 @end

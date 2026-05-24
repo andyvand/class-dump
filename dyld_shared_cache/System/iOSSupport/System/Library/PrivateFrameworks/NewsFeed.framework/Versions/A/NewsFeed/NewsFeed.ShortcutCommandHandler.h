@@ -7,10 +7,6 @@
 @interface NewsFeed.ShortcutCommandHandler
 {
     id shortcutManager;
-    id shortcutList;
-    id featureAvailability;
-    id bundleSubscriptionManager;
-    id commandCenter;
 }
 
 - (void);

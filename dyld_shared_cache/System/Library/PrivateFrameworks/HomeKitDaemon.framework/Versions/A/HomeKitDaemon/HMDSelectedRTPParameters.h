@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface HMDSelectedRTPParameters
 {
     NSNumber *_payloadType;
-    NSNumber *_synchronizationSource;
-    NSNumber *_maximumBitrate;
-    NSNumber *_minimumBitrate;
-    NSNumber *_rtcpInterval;
-    NSNumber *_maxMTU;
-    NSNumber *_comfortNoisePayloadType;
 }
 
 + (_Bool)`ãÿ¼Ô;
@@ -23,28 +17,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)_sharedTripGroupIDSSessions;
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)confidenceThresholdByPositiveSceneIdentifierWithCurationModel: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)o long to create SRP buffer string
+;
 - (void);
 - (void)"HMBCloudZoneConfiguration"16@"HMBCloudZoneStateModel"24;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSNumber *comfortNoisePayloadType; // @synthesize comfortNoisePayloadType=_comfortNoisePayloadType;
-@property(copy, nonatomic) NSNumber *maxMTU; // @synthesize maxMTU=_maxMTU;
-@property(readonly, copy, nonatomic) NSNumber *maximumBitrate; // @synthesize maximumBitrate=_maximumBitrate;
-@property(readonly, copy, nonatomic) NSNumber *minimumBitrate; // @synthesize minimumBitrate=_minimumBitrate;
 @property(readonly, copy, nonatomic) NSNumber *payloadType; // @synthesize payloadType=_payloadType;
-@property(readonly, copy, nonatomic) NSNumber *rtcpInterval; // @synthesize rtcpInterval=_rtcpInterval;
-@property(retain, nonatomic) NSNumber *synchronizationSource; // @synthesize synchronizationSource=_synchronizationSource;
-@property(readonly, copy) NSData *tlvData;
 
 @end
 

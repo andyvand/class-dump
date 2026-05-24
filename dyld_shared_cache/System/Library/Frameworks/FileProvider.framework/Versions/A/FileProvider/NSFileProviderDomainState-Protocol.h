@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSFileProviderDomainVersion;
+@class NSFileProviderDomainVersion;
 
 @protocol NSFileProviderDomainState
+- (NSFileProviderDomainVersion *)A state: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSFileProviderDomainVersion *domainVersion;
-@property(readonly, nonatomic) NSDictionary *userInfo;
 @end
 

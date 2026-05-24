@@ -16,11 +16,11 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)R9;
 - (id);
 - (unsigned int);
-- (id);
-- (id);
+- (id)ework/Versions/A/caulk;
+- (id)isRenderingOffline;
 
 @end
 

@@ -7,43 +7,6 @@
 @interface NewsUI2.TagFeedGroupEmitterFactory
 {
     id featureAvailability;
-    id paywallFactory;
-    id formatService;
-    id weatherService;
-    id channelLocationService;
-    id channelPersonalizer;
-    id tagService;
-    id personalizationService;
-    id sportsDataService;
-    id sportsTopicClusteringService;
-    id sportsGraphManager;
-    id sportsScoreSectionService;
-    id tagHighlightsService;
-    id sportsFavoritesService;
-    id webEmbedDataSourceManager;
-    id headlineService;
-    id promotedHeadlineService;
-    id sportsScoreSorter;
-    id sportsEmbedConfigurationManager;
-    id sportsNavigationTitleStringBuilder;
-    id tagFeedCurationService;
-    id sportsRecommendationManager;
-    id latestPuzzleProvider;
-    id puzzleArchiveService;
-    id puzzleStatsService;
-    id puzzleService;
-    id mySportsTagService;
-    id cloudContext;
-    id feedPersonalizer;
-    id puzzleArchiveFilterOptionsManager;
-    id sportsConfiguringDataService;
-    id foodClusteringService;
-    id adSponsorshipService;
-    id articleForYouAvailability;
-    id recipeService;
-    id offerManager;
-    id issueService;
-    id magazineCategoryConfigService;
 }
 
 @end

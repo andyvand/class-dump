@@ -7,8 +7,6 @@
 @interface RemindersUICore.TTRReminderPrintingHTMLGenerator
 {
     id isRightToLeft;
-    id customHTMLTemplate;
-    id listColorLookupTable;
 }
 
 @end

@@ -6,18 +6,13 @@
 
 #import <UIKitCore/UIDelayedAction.h>
 
-@class NSDate;
-
 __attribute__((visibility("hidden")))
 @interface UIHeldAction : UIDelayedAction
 {
     _Bool _holding;
-    NSDate *_holdBegan;
-    double _baseDelay;
-    double _timeBalance;
 }
 
-- (void)ectsImage:style: /* Error: Ran out of types for this method. */;
+- (void)_tintedImageForSize:withTint:maskImage:effectsImage:style: /* Error: Ran out of types for this method. */;
 - (void)L[[\;
 - (_Bool)l presentation style other than full screen or custom %@.;
 - (void)th unsupported;

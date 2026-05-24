@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSEnumerator, Protocol;
+@class Protocol;
 
 @interface MPMiddlewareChain
 {
     Protocol *_protocol;
-    NSArray *_builders;
-    NSEnumerator *_middlewareEnumerator;
-    SEL _builderSelector;
 }
 
 + (id);
@@ -21,7 +18,7 @@
 - (void);
 - (id);
 - (id);
-- (void)withDefaultValue: /* Error: Ran out of types for this method. */;
+- (void)_adjustedItemPropertyEQPresetOfEntity:withDefaultValue: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) SEL builderSelector; // @synthesize builderSelector=_builderSelector;

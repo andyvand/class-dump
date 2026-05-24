@@ -5,5 +5,7 @@
 //
 
 @protocol Core_Audio_Driver_Service_Protocol
+- (void);
+- (void)c;
 @end
 

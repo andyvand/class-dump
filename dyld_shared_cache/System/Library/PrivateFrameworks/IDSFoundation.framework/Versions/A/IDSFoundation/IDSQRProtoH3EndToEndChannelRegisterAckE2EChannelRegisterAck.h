@@ -13,8 +13,8 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)userDefinedPincode;
+- (void)essionSendPayload:(id)arg1 ];
 - (id);
 - (id);
 

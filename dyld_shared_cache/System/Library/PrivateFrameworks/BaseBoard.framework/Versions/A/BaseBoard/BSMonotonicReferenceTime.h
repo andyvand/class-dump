@@ -21,7 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) double timeIntervalSinceNow;
-@property(readonly, nonatomic) double timeIntervalToNow;
 
 @end
 

@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSURL;
+@protocol WBSFormAutoFillFrame;
+
 @protocol WBSFormAutoFillFrame
+- (id <WBSFormAutoFillFrame>);
+- (struct OpaqueFormAutoFillFrame *)app;
+- (NSURL *)SFPasswordManagerURL;
 @end
 

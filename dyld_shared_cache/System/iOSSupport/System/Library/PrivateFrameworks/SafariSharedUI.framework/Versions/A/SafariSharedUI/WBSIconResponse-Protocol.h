@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, UIImage;
+@class UIImage;
 
 @protocol WBSIconResponse
 
 // Remaining properties
-@property(readonly, nonatomic) UIColor *extractedBackgroundColor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIColor",?,R,N
-
-@property(readonly, nonatomic, getter=isGenerated) _Bool generated;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,GisGenerated
-
 @property(readonly, nonatomic) UIImage *icon;
 @end
 

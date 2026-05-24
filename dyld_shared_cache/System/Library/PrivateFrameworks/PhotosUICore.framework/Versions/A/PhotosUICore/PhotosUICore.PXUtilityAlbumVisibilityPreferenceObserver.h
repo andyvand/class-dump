@@ -7,16 +7,12 @@
 @interface PhotosUICore.PXUtilityAlbumVisibilityPreferenceObserver
 {
     id _hiddenAlbumVisible;
-    id _recentlyViewedAndSharedAlbumVisible;
-    id photoLibrary;
-    id localDefaults;
-    id _$observationRegistrar;
 }
 
 - (void);
 - (void);
 - (id);
-- (void)ILTER_SHORTCUT;
+- (void)DISABLE_PORTRAIT_FILTER_SHORTCUT;
 - (void);
 
 @end

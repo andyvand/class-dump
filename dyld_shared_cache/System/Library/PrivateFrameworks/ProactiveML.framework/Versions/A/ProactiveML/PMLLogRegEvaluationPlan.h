@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PMLModelWeights, PMLSessionDescriptor, PMLTrainingStore;
-@protocol PMLEvaluationTrackerProtocol;
+@class PMLTrainingStore;
 
 @interface PMLLogRegEvaluationPlan
 {
     PMLTrainingStore *_store;
-    id <PMLEvaluationTrackerProtocol> _tracker;
-    PMLSessionDescriptor *_sessionDescriptor;
-    unsigned long long _maxSessionsLimit;
-    unsigned long long _sessionsInBatch;
-    PMLModelWeights *_currentModelWeights;
-    _Bool _intercept;
-    double _skew;
-    _Bool _isMultiLabel;
-    unsigned long long _positiveLabel;
-    double _threshold;
-    unsigned long long _evaluationLevel;
-    NSString *_planId;
 }
 
 - (id);
@@ -30,30 +17,18 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)unregisterObserver:forAuthTokenRenewalInProgressNotificationsForAccountID: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) PMLModelWeights *currentModelWeights; // @synthesize currentModelWeights=_currentModelWeights;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long maxSessionsLimit; // @synthesize maxSessionsLimit=_maxSessionsLimit;
-@property(readonly, nonatomic) NSString *planId; // @synthesize planId=_planId;
-@property(readonly, nonatomic) PMLSessionDescriptor *sessionDescriptor; // @synthesize sessionDescriptor=_sessionDescriptor;
 @property(readonly, nonatomic) PMLTrainingStore *store; // @synthesize store=_store;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <PMLEvaluationTrackerProtocol> tracker; // @synthesize tracker=_tracker;
 
 @end
 

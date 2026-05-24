@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAddressBook, CNAutocompleteFetchRequest, CNAutocompleteResultTracing, NSArray, NSMutableArray, NSOperationQueue, NSPredicate, NSString;
-@protocol CNScheduler;
+@class CNAutocompleteFetchRequest, CNAutocompleteResultTracing;
 
 @interface ABAutocompleteServerSearchObservable
 {
     CNAutocompleteFetchRequest *_fetchRequest;
-    id <CNScheduler> _scheduler;
-    NSArray *_accounts;
-    NSOperationQueue *_queue;
-    ABAddressBook *_addressBook;
-    CDUnknownBlockType _resultTransform;
-    NSMutableArray *_results;
-    NSPredicate *_postFilterPredicate;
-    CNAutocompleteResultTracing *_tracer;
 }
 
-+ (id);
++ (id);
 + (id);
 - (id);
 - (CDUnknownBlockType);
@@ -35,13 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain) CNAutocompleteResultTracing *tracer; // @synthesize tracer=_tracer;
 
 @end

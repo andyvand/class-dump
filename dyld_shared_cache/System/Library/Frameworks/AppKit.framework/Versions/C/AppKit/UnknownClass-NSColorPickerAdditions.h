@@ -6,6 +6,6 @@
 
 @interface UnknownClass (NSColorPickerAdditions)
 + (id);
-+ (id);
++ (id)1;
 @end
 

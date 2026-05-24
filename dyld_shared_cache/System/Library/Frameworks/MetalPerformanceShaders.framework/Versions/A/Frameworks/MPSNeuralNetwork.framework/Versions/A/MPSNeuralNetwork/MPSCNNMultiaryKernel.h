@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol MPSImageAllocator, MPSNNPadding;
-
 @interface MPSCNNMultiaryKernel
 {
     struct NNKernelSourceParams *_srcInfo;
-    unsigned long long _srcCount;
-    CDStruct_1e3be3a8 _clipRect;
-    unsigned long long _destinationFeatureChannelOffset;
-    _Bool _isBackwards;
-    _Bool _supportsBroadcasting;
-    id <MPSNNPadding> _padding;
-    id <MPSImageAllocator> _destinationImageAllocator;
-    int _checkFlags;
-    CDUnknownFunctionPointerType _batchEncode;
-    void *_encodeData;
 }
 
 - (id);
@@ -31,6 +19,11 @@
 - (unsigned long long);
 - (unsigned long long);
 - (void);
+- (void)Qw;
+- (void);
+- (void);
+- (void);
+- (void)S;
 - (void);
 - (void);
 - (void);
@@ -39,29 +32,24 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)8;
+- (id);
 - (CDStruct_d6af7fc0);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
+- (id);
+- (id)";
+- (void);
+- (id);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -80,30 +68,30 @@
 - (CDStruct_1e3be3a8);
 - (unsigned long long);
 - (void);
+- (_Bool)i;
+- (void);
+- (id);
+- (void);
+- (void)& ;
+- (id);
+- (id);
+- (_Bool)unregisterSubscriptionWithInfo: /* Error: Ran out of types for this method. */;
+- (void);
 - (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (unsigned long long);
+- (unsigned long long)batchStart;
 - (id);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)M;
 - (void);
 - (unsigned long long);
 - (unsigned long long)2r^f40r^f48r^f56Q64Q72;
-- (void)ights:(unsigned long long)arg1 matrixId:matrix:copyFromWeightsToMatrix:matrixOffset: /* Error: Ran out of types for this method. */;
-- (unsigned long long)gradientClipMin;
-- (void)oat;
-- (CDStruct_d6af7fc0)5x1_0;
-- (void);
+- (void)encodeCopyWeightsToCommandBuffer:(unsigned long long)arg1 weights:matrixId:matrix:copyFromWeightsToMatrix:matrixOffset: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_gradientClipMin;
+- (void)MPSCNNBinarizePixelFC_2dArray_2dArray_float;
+- (CDStruct_d6af7fc0)MPSCNNPooling_new_tex2d_tex2d_avg_swEdge_5x1_0;
+- (void)MPSCNNPooling_new_tex2d_tex2d_avg_swEdge_2x1_0;
 - (void)ilon parameter is valid only for the following loss type(s):(unsigned long long)arg1 MPSCNNLossTypeLog;
 - (id)r:nothing reads the result state from node %p %@ "%@".
 		%@
@@ -113,12 +101,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) CDStruct_1e3be3a8 clipRect; // @synthesize clipRect=_clipRect;
-@property(nonatomic) unsigned long long destinationFeatureChannelOffset; // @synthesize destinationFeatureChannelOffset=_destinationFeatureChannelOffset;
-@property(retain, nonatomic) id <MPSImageAllocator> destinationImageAllocator; // @synthesize destinationImageAllocator=_destinationImageAllocator;
-@property(readonly, nonatomic) _Bool isBackwards; // @synthesize isBackwards=_isBackwards;
-@property(readonly, nonatomic) _Bool isStateModified;
-@property(retain, nonatomic) id <MPSNNPadding> padding; // @synthesize padding=_padding;
 @property(readonly, nonatomic) unsigned long long sourceCount; // @synthesize sourceCount=_srcCount;
 
 @end

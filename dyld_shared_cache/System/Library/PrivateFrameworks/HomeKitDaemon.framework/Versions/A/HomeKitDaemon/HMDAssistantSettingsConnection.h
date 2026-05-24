@@ -4,37 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFScheduler, NSString;
+@class HMFScheduler;
 @protocol HMDAssistantSettingsConnectionDataSource;
 
 __attribute__((visibility("hidden")))
 @interface HMDAssistantSettingsConnection
 {
     id <HMDAssistantSettingsConnectionDataSource> _dataSource;
-    HMFScheduler *_scheduler;
 }
 
 + (id)5ÿ¯ó
 èÚB;
 - (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id)aracteristicName;
+- (id)aPH/Sources/Photos/workspaces/neutrino/PhotoImaging/Adjustments/PINeutralGrayWhiteBalanceFilter.m;
+- (void)	k!;
+- (id)readHAPCharacteristicName;
 - (void);
 
 // Remaining properties
-@property __weak id <HMDAssistantSettingsConnectionDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) HMFScheduler *scheduler; // @synthesize scheduler=_scheduler;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,14 +6,11 @@
 
 #import <PhotosUICore/PXStoryConcreteTransition.h>
 
-@class CAMediaTimingFunction, PXStoryPanTransitionConfiguration;
+@class PXStoryPanTransitionConfiguration;
 
 @interface PXStoryTransitionPan : PXStoryConcreteTransition
 {
     PXStoryPanTransitionConfiguration *_configuration;
-    CAMediaTimingFunction *_effectCurveBeforeMidpoint;
-    CAMediaTimingFunction *_effectCurveAfterMidpoint;
-    CAMediaTimingFunction *_movementCurve;
 }
 
 + (id);
@@ -22,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void)I;
+- (void)GenerativeStorySettingsUI;
 
 @end
 

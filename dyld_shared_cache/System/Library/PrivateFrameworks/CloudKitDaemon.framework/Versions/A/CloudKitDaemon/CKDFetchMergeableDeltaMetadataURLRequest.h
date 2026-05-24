@@ -6,14 +6,11 @@
 
 #import <CloudKitDaemon/CKDURLRequest.h>
 
-@class NSArray, NSDictionary, NSMutableDictionary;
+@class NSArray;
 
 @interface CKDFetchMergeableDeltaMetadataURLRequest : CKDURLRequest
 {
     NSArray *_mergeableValueIDs;
-    NSDictionary *_continuationTokens;
-    CDUnknownBlockType _metadataFetchedBlock;
-    NSMutableDictionary *_mergeableValueIDByRequestID;
 }
 
 - (void);
@@ -24,11 +21,11 @@
 - (void);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)c;
 - (id);
 - (int);
 - (id)= $ACCOUNT AND serviceName = $SERVICE;
-- (void)lWhenFetchedFromCache;
+- (void)ForceKeyRollWhenFetchedFromCache;
 - (id);
 - (id)lly created a web sharing identity for %@:(id)arg1 %@;
 - (void)values from behavior options:(id)arg1 %@;
@@ -39,10 +36,7 @@
 - (_Bool)làÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *continuationTokens; // @synthesize continuationTokens=_continuationTokens;
-@property(retain, nonatomic) NSMutableDictionary *mergeableValueIDByRequestID; // @synthesize mergeableValueIDByRequestID=_mergeableValueIDByRequestID;
 @property(retain, nonatomic) NSArray *mergeableValueIDs; // @synthesize mergeableValueIDs=_mergeableValueIDs;
-@property(copy, nonatomic) CDUnknownBlockType metadataFetchedBlock; // @synthesize metadataFetchedBlock=_metadataFetchedBlock;
 
 @end
 

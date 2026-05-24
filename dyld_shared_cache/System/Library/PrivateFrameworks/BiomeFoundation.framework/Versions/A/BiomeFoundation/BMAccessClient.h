@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMAccessAssertionCache, BMAccessTracker, BMXPCConnectionWrapper, NSString;
+@class NSString;
 
 @interface BMAccessClient
 {
     NSString *_useCase;
-    BMXPCConnectionWrapper *_connectionWrapper;
-    BMAccessAssertionCache *_accessAssertionCache;
-    BMAccessTracker *_accessTracker;
 }
 
 - (id);

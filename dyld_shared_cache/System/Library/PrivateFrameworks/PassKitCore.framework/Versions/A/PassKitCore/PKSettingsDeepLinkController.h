@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol PKSettingsDeepLinkControllerDataSource, PKSettingsDeepLinkControllerDelegate;
+@protocol PKSettingsDeepLinkControllerDataSource;
 
 @interface PKSettingsDeepLinkController
 {
     id <PKSettingsDeepLinkControllerDataSource> _dataSource;
-    id <PKSettingsDeepLinkControllerDelegate> _delegate;
 }
 
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void)sedTransaction;
+- (void)lastUsedTransaction;
 
 @end
 

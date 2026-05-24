@@ -11,23 +11,19 @@
 @interface PKPaymentRewrapRequest : PKPaymentRewrapRequestBase
 {
     NSString *_merchantIdentifier;
-    NSString *_hostApplicationIdentifier;
-    NSString *_merchantDisplayName;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)>;
+- (void);
 - (id);
 - (id);
 - (void)m.apple.passbook.peerpayment.activation.identity-verification-first-view-controller-error;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *hostApplicationIdentifier; // @synthesize hostApplicationIdentifier=_hostApplicationIdentifier;
-@property(copy, nonatomic) NSString *merchantDisplayName; // @synthesize merchantDisplayName=_merchantDisplayName;
 @property(copy, nonatomic) NSString *merchantIdentifier; // @synthesize merchantIdentifier=_merchantIdentifier;
 
 @end

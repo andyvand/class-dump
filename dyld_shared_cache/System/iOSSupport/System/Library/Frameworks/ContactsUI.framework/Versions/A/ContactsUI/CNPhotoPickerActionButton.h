@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNPhotoPickerActionButtonBlockHandler;
-
 __attribute__((visibility("hidden")))
 @interface CNPhotoPickerActionButton
 {
     _Bool _isDestructive;
-    CNPhotoPickerActionButtonBlockHandler *_blockHandler;
 }
 
 + (id);
@@ -18,15 +15,14 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 - (void);
-- (void);
+- (void)@;
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (void)derStringForContacts: /* Error: Ran out of types for this method. */;
+- (id)resymbolicateObjectDescriptionStringsWithGraph:(struct CGRect)arg1;
+- (void)_headerStringForContacts: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) CNPhotoPickerActionButtonBlockHandler *blockHandler; // @synthesize blockHandler=_blockHandler;
 @property(nonatomic) _Bool isDestructive; // @synthesize isDestructive=_isDestructive;
 
 @end

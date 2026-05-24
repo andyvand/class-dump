@@ -6,22 +6,9 @@
 
 #import <Photos/PHObject.h>
 
-@class NSDate, NSString;
-
 @interface PHAssetComment : PHObject
 {
     _Bool _isLike;
-    _Bool _isCaption;
-    _Bool _isBatchComment;
-    _Bool _isMyComment;
-    _Bool _canBeDeletedByUser;
-    _Bool _isDeletable;
-    _Bool _isInterestingToUser;
-    NSString *_commentText;
-    NSDate *_commentDate;
-    NSDate *_commentClientDate;
-    NSString *_cloudGUID;
-    NSString *_commenterHashedPersonID;
 }
 
 + (id);
@@ -29,7 +16,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)disableSubscriptionWithCompletionHandler: /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (id);
@@ -53,19 +40,7 @@
 - (void)ion",R,C,N,V_videoComposition;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canBeDeletedByUser; // @synthesize canBeDeletedByUser=_canBeDeletedByUser;
-@property(readonly, nonatomic) NSString *cloudGUID; // @synthesize cloudGUID=_cloudGUID;
-@property(readonly, nonatomic) NSDate *commentClientDate; // @synthesize commentClientDate=_commentClientDate;
-@property(readonly, nonatomic) NSDate *commentDate; // @synthesize commentDate=_commentDate;
-@property(readonly, nonatomic) NSString *commentText; // @synthesize commentText=_commentText;
-@property(readonly, nonatomic) NSString *commenterHashedPersonID; // @synthesize commenterHashedPersonID=_commenterHashedPersonID;
-@property(readonly, nonatomic) _Bool isBatchComment; // @synthesize isBatchComment=_isBatchComment;
-@property(readonly, nonatomic) _Bool isCaption; // @synthesize isCaption=_isCaption;
 @property(readonly, nonatomic) _Bool isDeletable; // @synthesize isDeletable=_isDeletable;
-@property(readonly, nonatomic) _Bool isInterestingForAlbumsSorting;
-@property(readonly, nonatomic) _Bool isInterestingToUser; // @synthesize isInterestingToUser=_isInterestingToUser;
-@property(readonly, nonatomic) _Bool isLike; // @synthesize isLike=_isLike;
-@property(readonly, nonatomic) _Bool isMyComment; // @synthesize isMyComment=_isMyComment;
 
 @end
 

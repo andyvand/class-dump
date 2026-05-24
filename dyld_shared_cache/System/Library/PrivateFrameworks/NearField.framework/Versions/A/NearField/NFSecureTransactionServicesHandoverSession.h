@@ -7,38 +7,34 @@
 #import <NearField/NFSession.h>
 
 @class NSObject;
-@protocol NFSecureTransactionServicesHandoverSessionDelegate, NFTNEPReaderDelegate, NFTNEPTagDeviceDelegate;
+@protocol NFSecureTransactionServicesHandoverSessionDelegate, NFTNEPTagDeviceDelegate;
 
 @interface NFSecureTransactionServicesHandoverSession : NFSession
 {
     id <NFSecureTransactionServicesHandoverSessionDelegate> _delegate;
-    NSObject<NFTNEPTagDeviceDelegate> *_tagDeviceDelegate;
-    NSObject<NFTNEPReaderDelegate> *_tagReaderDelegate;
 }
 
+- (id)"16@?0@"CNContact"8;
+- (id)B16@?0@"CNContact"8;
+- (void)tCast(__unsafe_unretained Class, __strong id);
+- (id)2@?0@"ABCollectionViewItem"8Q16^B24;
+- (id)coreDataProperty;
+- (void)0@"ABCollectionViewItem"8;
+- (void)lectionViewItem"8Q16^B24;
+- (void)eArray"24@?0@"NSMutableArray"8@"ABCollectionViewItem"16;
+- (void)CNUISaveNonCuratedValueOntoReadOnlyContactCommand.m;
+- (void)nerResult"8;
+- (id)mporaryDirectory.BCIcGs/Sources/AddressBook/Framework/AddressBookUI/ABBindingsValueTransformers.m;
+- (id)CNPostalAddressSubLocalityKey;
+- (void)ocols' names should contain the "Async" string;
+- (void)as nil;
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)fo returned %d;
 
 // Remaining properties
-@property __weak id <NFSecureTransactionServicesHandoverSessionDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) NSObject<NFTNEPTagDeviceDelegate> *tagDeviceDelegate; // @synthesize tagDeviceDelegate=_tagDeviceDelegate;
-@property(retain, nonatomic) NSObject<NFTNEPReaderDelegate> *tagReaderDelegate; // @synthesize tagReaderDelegate=_tagReaderDelegate;
 
 @end
 

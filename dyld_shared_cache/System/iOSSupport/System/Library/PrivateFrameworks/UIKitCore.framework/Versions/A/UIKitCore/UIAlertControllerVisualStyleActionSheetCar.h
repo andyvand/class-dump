@@ -11,17 +11,17 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
-- (long long);
-- (id);
-- (id);
+- (_Bool)ClientConnectionManaging;
+- (long long);
+- (id);
+- (id)P؁|N;
 - (long long);
 - (long long);
 - (double);
 - (double);
 - (struct UIEdgeInsets);
 - (id);
-- (id)Background;
+- (id)nonLargeBackground;
 
 @end
 

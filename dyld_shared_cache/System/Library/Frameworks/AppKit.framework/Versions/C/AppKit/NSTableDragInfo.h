@@ -4,24 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet;
-
 __attribute__((visibility("hidden")))
 @interface NSTableDragInfo
 {
     unsigned long long _dragOperation;
-    long long _dropCandidateRow;
-    long long _dropCandidateParentRow;
-    unsigned long long _tableViewDropOperation;
-    NSIndexSet *_draggedRowIndexes;
-    long long _lastDropHoverRow;
-    unsigned long long _lastDropHoverSourceMask;
-    id _dropCandidateItem;
-    long long _dropCandidateChildIndex;
-    struct CGRect _lastOffscreenDropIndicatorFrame;
 }
 
-- (unsigned long long);
+- (unsigned long long)$;
 - (void);
 - (void);
 - (void);
@@ -34,10 +23,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (long long);
-- (long long);
-- (long long);
-- (id);
-- (long long);
+- (long long)ne_socket_set_website_attribution;
+- (long long)developer;
+- (id)ne_socket_set_attribution;
+- (long long)ne_socket_set_domains;
 - (id);
 - (unsigned long long);
 - (struct CGRect);
@@ -46,15 +35,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) unsigned long long dragOperation; // @synthesize dragOperation=_dragOperation;
-@property(retain, nonatomic) NSIndexSet *draggedRowIndexes; // @synthesize draggedRowIndexes=_draggedRowIndexes;
-@property(nonatomic) long long dropCandidateChildIndex; // @synthesize dropCandidateChildIndex=_dropCandidateChildIndex;
-@property(retain, nonatomic) id dropCandidateItem; // @synthesize dropCandidateItem=_dropCandidateItem;
-@property(nonatomic) long long dropCandidateParentRow; // @synthesize dropCandidateParentRow=_dropCandidateParentRow;
-@property(nonatomic) long long dropCandidateRow; // @synthesize dropCandidateRow=_dropCandidateRow;
-@property(nonatomic) long long lastDropHoverRow; // @synthesize lastDropHoverRow=_lastDropHoverRow;
-@property(nonatomic) unsigned long long lastDropHoverSourceMask; // @synthesize lastDropHoverSourceMask=_lastDropHoverSourceMask;
-@property(nonatomic) struct CGRect lastOffscreenDropIndicatorFrame; // @synthesize lastOffscreenDropIndicatorFrame=_lastOffscreenDropIndicatorFrame;
-@property(nonatomic) unsigned long long tableViewDropOperation; // @synthesize tableViewDropOperation=_tableViewDropOperation;
 
 @end
 

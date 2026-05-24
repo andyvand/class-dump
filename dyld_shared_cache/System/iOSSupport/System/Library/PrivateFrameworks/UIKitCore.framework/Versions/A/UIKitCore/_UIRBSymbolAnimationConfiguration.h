@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id)0@ù
 × ;
-- (void)atorSize;
+- (void)activeIndicatorSize;
 - (void)Y23¤};
 
 // Remaining properties

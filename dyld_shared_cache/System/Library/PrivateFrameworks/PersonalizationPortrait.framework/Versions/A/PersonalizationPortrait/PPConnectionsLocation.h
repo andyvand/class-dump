@@ -4,37 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSNumber, NSString, NSURL;
+@class NSString;
 
 @interface PPConnectionsLocation
 {
     _Bool _copiedToPasteboard;
-    _Bool _shouldAggregate;
-    NSString *_identifier;
-    NSString *_name;
-    NSString *_originatingBundleID;
-    NSString *_fullFormattedAddress;
-    NSString *_thoroughfare;
-    NSString *_subThoroughfare;
-    NSString *_locality;
-    NSString *_administrativeArea;
-    NSString *_postalCode;
-    NSString *_country;
-    NSNumber *_latitude;
-    NSNumber *_longitude;
-    NSURL *_originatingWebsiteURL;
-    NSURL *_mapItemURL;
-    NSArray *_contactHandles;
-    NSString *_authorHandle;
-    NSString *_label;
-    NSString *_value;
-    NSString *_shortValue;
-    NSString *_documentID;
-    NSDictionary *_addressComponents;
-    NSString *_source;
-    NSString *_trigger;
-    NSDate *_createdAt;
-    NSNumber *_lifetime;
 }
 
 + (unsigned long long);
@@ -46,38 +20,38 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (unsigned long long);
 - (unsigned char);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)tributes.characterRecognitionVersion;
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)isOnenessApplication;
 - (void);
 - (id);
 - (id);
 - (void);
+- (void);
+- (id);
 - (id);
 - (id);
 - (id);
+- (void);
+- (void);
+- (id)kACMCredentialTypeUnknown;
+- (id)_strokeDataPointsPrivate;
+- (void);
+- (id)""@  ;
 - (id);
+- (id);
+- (id)kIKCameraDeviceView_StatusText_DownloadSelectedItems;
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
-- (void);
+- (id)initWithModel:startTime:endTime:data: /* Error: Ran out of types for this method. */;
+- (void)URLByDeletingLastPathComponent;
 - (id);
 - (void);
 - (_Bool);
@@ -85,17 +59,17 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)rvationHolderName:(id)arg1 actions:lodgingBusinessLocation:reservationDuration:numberOfAdults:numberOfChildren: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (id);
+- (id)restrictMSUToFullReplacements;
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)continuationsByIdentifier;
+- (void)-4;
 - (id);
 - (void);
 - (void);
@@ -109,33 +83,7 @@
 - (id)û;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *addressComponents; // @synthesize addressComponents=_addressComponents;
-@property(copy, nonatomic) NSString *administrativeArea; // @synthesize administrativeArea=_administrativeArea;
-@property(copy, nonatomic) NSString *authorHandle; // @synthesize authorHandle=_authorHandle;
-@property(copy, nonatomic) NSArray *contactHandles; // @synthesize contactHandles=_contactHandles;
-@property(nonatomic) _Bool copiedToPasteboard; // @synthesize copiedToPasteboard=_copiedToPasteboard;
-@property(copy, nonatomic) NSString *country; // @synthesize country=_country;
-@property(copy, nonatomic) NSDate *createdAt; // @synthesize createdAt=_createdAt;
-@property(copy, nonatomic) NSString *documentID; // @synthesize documentID=_documentID;
-@property(copy, nonatomic) NSString *fullFormattedAddress; // @synthesize fullFormattedAddress=_fullFormattedAddress;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(copy, nonatomic) NSNumber *latitude; // @synthesize latitude=_latitude;
-@property(copy, nonatomic) NSNumber *lifetime; // @synthesize lifetime=_lifetime;
-@property(copy, nonatomic) NSString *locality; // @synthesize locality=_locality;
-@property(copy, nonatomic) NSNumber *longitude; // @synthesize longitude=_longitude;
-@property(copy, nonatomic) NSURL *mapItemURL; // @synthesize mapItemURL=_mapItemURL;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy, nonatomic) NSString *originatingBundleID; // @synthesize originatingBundleID=_originatingBundleID;
-@property(copy, nonatomic) NSURL *originatingWebsiteURL; // @synthesize originatingWebsiteURL=_originatingWebsiteURL;
-@property(copy, nonatomic) NSString *postalCode; // @synthesize postalCode=_postalCode;
-@property(copy, nonatomic) NSString *shortValue; // @synthesize shortValue=_shortValue;
-@property(nonatomic) _Bool shouldAggregate; // @synthesize shouldAggregate=_shouldAggregate;
-@property(copy, nonatomic) NSString *source; // @synthesize source=_source;
-@property(copy, nonatomic) NSString *subThoroughfare; // @synthesize subThoroughfare=_subThoroughfare;
-@property(copy, nonatomic) NSString *thoroughfare; // @synthesize thoroughfare=_thoroughfare;
-@property(copy, nonatomic) NSString *trigger; // @synthesize trigger=_trigger;
-@property(copy, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

@@ -5,7 +5,21 @@
 //
 
 @protocol PDPaymentServiceExtendedExportedInterface
-- (void)ntsForPassIdentifier:completion: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void)(;
+- (void)J;
+- (void);
+- (void)ԡV;
+- (void);
+- (void)�;
+- (void);
+- (void)H;
+- (void);
+- (void)$;
+- (void)ommendation;
+- (void)AWDCoreRoutineMagicMomentsSuggestionInstance;
+- (void)displayableEntitlementsForPassIdentifier:completion: /* Error: Ran out of types for this method. */;
 - (void)Name;
 - (void)ed geo fence type %@;
 - (void)session - %@.;

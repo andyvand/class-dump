@@ -4,37 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface IMTimer
 {
     id _timer;
-    id _target;
-    NSString *_name;
-    double _timeInterval;
-    NSObject<OS_dispatch_queue> *_queue;
-    SEL _selector;
-    _Bool _wakeDevice;
-    _Bool _useCurrentRunLoop;
-    id _userInfo;
 }
 
 - (id);
 - (void);
+- (void)";
+- (id);
+- (id);
+- (void)initWithSecretDelegate:dsid:altDSID:flowID:deviceSessionID:rng:error: /* Error: Ran out of types for this method. */;
+- (id)_successStageCancelOperationIsSynchronous:(double)arg1 completion:(id)arg2;
+- (id);
+- (void)`;
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)m/Library/Frameworks/Foundation.framework/Versions/C/Foundation;
 - (void);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSDate *fireDate;
 @property(retain, nonatomic) id userInfo; // @synthesize userInfo=_userInfo;
 
 @end

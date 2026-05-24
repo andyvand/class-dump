@@ -6,36 +6,27 @@
 
 #import <AppKit/NSView.h>
 
-@class NSHardPocketView, NSVisualEffectView, _NSBannerDecorationView;
-
 @interface NSBannerView : NSView
 {
     unsigned long long _bannerStyle;
-    unsigned long long _dividerPosition;
-    NSVisualEffectView *_gladeBlurView;
-    NSHardPocketView *_solariumBlurView;
-    _NSBannerDecorationView *_decorationView;
-    _Bool _drawsBackground;
-    _Bool _contiguousWithTitlebar;
-    long long _scrollPocketCount;
 }
 
-+ (id);
-+ (double);
++ (id)nt (stmt=%p);
++ (double)B)=;
 - (void);
-- (void);
-- (void);
-- (long long);
+- (void)}"fCookiePartitionIdentifier"^{__CFString}"fTimeWindowDelay"d"fTimeWindowDuration"d"fStartTimeoutTime"d"fRequiresShortConnectionTimeout"C"fPreventHSTSStorage"C"fIgnoreHSTS"C"fSchemeWasUpgradedDueToDynamicHSTS"C"fAssumesHTTP3Capable"C"fKnownTracker"C"fPrivacyProxyFailClosed"C"fPrivacyProxyStrictFailClosed"C"fPrivacyProxyFailClosedForUnreachableNonMainHosts"C"fPrivacyProxyFailClosedForUnreachableHosts"C"fProhibitPrivacyProxy"C"fAllowPrivateAccessTokensForThirdParty"C"fUseEnhancedPrivacyMode"C"fBlockTrackers"C"fFailInsecureLoadWithHTTPSDNSRecord"C"fIsWebSearchContent"C"fAllowOnlyPartitionedCookies"C"fUnsafeAllowedInEarlyData"C"fRequiresDNSSECValidation"C"fAllowsPersistentDNS"C"fAttribution"Q"fPayloadTransmissionTimeout"d"fATSOverrides"^{__CFDictionary}"fHSTSPolicy"{unique_ptr<_CFHSTSPolicy, Deleter_CFRelease>=""{?="__ptr_"^{_CFHSTSPolicy}}}"fAllowsExpensiveNetworkAccess"C"fAllowsConstrainedNetworkAccess"C"fAllowsUltraConstrainedNetworkAccess"C"_explicitStorageSession"^{__CFURLStorageSession}};
+- (void):(_Bool)arg1:string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (long long)responseReceived;
 - (_Bool);
-- (void);
-- (void);
+- (void)figuration %d,%d %@;
+- (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)_kCFURLProtectionSpaceAuthenticationSchemePrivateAccessToken;
 - (_Bool);
 - (long long);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
@@ -44,19 +35,14 @@
 - (void);
 - (void)
 × ;
-- (id)tions;
+- (id)_windowForOptions;
 - (void)f!;
 - (void)«ìÇ?;
 - (_Bool)ÄÿoëïFD;
 - (void)ØÌC;
 
 // Remaining properties
-@property(readonly) NSVisualEffectView *_blurView;
 @property(nonatomic, readonly) _Bool _wantsHardScrollPocket;
-@property unsigned long long bannerStyle; // @synthesize bannerStyle=_bannerStyle;
-@property(getter=isContiguousWithTitlebar) _Bool contiguousWithTitlebar;
-@property unsigned long long dividerPosition;
-@property long long scrollPocketCount;
 
 @end
 

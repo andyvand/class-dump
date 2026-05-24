@@ -4,7 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSIndexSet;
+
 @protocol PXPresentedGridLayout
+- (NSIndexSet *);
 
 // Remaining properties
 @property(readonly, nonatomic) long long presentedNumberOfRows;

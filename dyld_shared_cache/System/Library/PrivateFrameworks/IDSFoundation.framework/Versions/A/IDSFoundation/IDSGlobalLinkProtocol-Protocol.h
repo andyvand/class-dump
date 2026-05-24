@@ -5,5 +5,10 @@
 //
 
 @protocol IDSGlobalLinkProtocol
+- (void);
+- (void)`;
+- (void);
+- (void)#;
+- (void);
 @end
 

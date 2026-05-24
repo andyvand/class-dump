@@ -4,41 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, NSString;
+@class NSSet;
 
 @interface _INVocabularyGenerationDiff
 {
     _Bool _isFullReset;
-    NSSet *_deletedSiriIDs;
-    NSArray *_updatedVocabularyItems;
-    long long _countOfVocabularyItemsAfterApplying;
-    NSString *_intentSlotName;
-    NSString *_appBundleID;
 }
 
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)OR*** unable to convert TITLE pascal string to CFString
+;
 - (_Bool);
 - (long long);
-- (id);
+- (id)ET PRIVATE MAC MODE;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void)armOperationUnknown will be reformed to notRequired.;
 - (void)ularyStoreManager _writeLatestVocabularyItems:(id)arg1 forIntentSlot:completion:] /* Error: Ran out of types for this method. */;
-- (_Bool)UpCallIntentResponse;
+- (_Bool)HangUpCallIntentResponse;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *appBundleID; // @synthesize appBundleID=_appBundleID;
-@property(nonatomic) long long countOfVocabularyItemsAfterApplying; // @synthesize countOfVocabularyItemsAfterApplying=_countOfVocabularyItemsAfterApplying;
 @property(copy, nonatomic) NSSet *deletedSiriIDs; // @synthesize deletedSiriIDs=_deletedSiriIDs;
-@property(copy, nonatomic) NSString *intentSlotName; // @synthesize intentSlotName=_intentSlotName;
-@property(nonatomic) _Bool isFullReset; // @synthesize isFullReset=_isFullReset;
-@property(copy, nonatomic) NSArray *updatedVocabularyItems; // @synthesize updatedVocabularyItems=_updatedVocabularyItems;
 
 @end
 

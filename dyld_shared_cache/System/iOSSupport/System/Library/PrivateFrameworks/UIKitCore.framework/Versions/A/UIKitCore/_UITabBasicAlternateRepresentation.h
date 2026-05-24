@@ -14,23 +14,15 @@
 
 - (id);
 - (void);
-- (id);
+- (id)h_geom_trans_x_std;
 - (unsigned long long);
 - (id);
 - (_Bool)24@0:(id)arg1 8@"UISplitViewControllerDisplayModeBarButtonItem"16;
-- (void)ineBreakStrategy:(id)arg1;
+- (void)_setLineBreakStrategy:(id)arg1;
 - (id)ived a callback from a session not attached to this renamer.;
 - (void)System/Library/PrivateFrameworks/DocumentManager.framework/DocumentManager;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIImage *image; // @synthesize image;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *title; // @synthesize title;
 
 @end

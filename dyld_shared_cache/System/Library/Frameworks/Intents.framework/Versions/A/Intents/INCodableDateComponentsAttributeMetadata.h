@@ -6,27 +6,15 @@
 
 #import <Intents/INCodableAttributeMetadata.h>
 
-@class NSString;
-
 @interface INCodableDateComponentsAttributeMetadata : INCodableAttributeMetadata
 {
     long long _type;
-    long long _format;
-    unsigned long long _dateStyle;
-    unsigned long long _timeStyle;
-    NSString *_formatString;
-    NSString *_formatStringID;
 }
 
 + (_Bool);
-+ (id)tWithEntityTypeSet:(id)arg1 entityNames:(id *)arg2 sourceType:sourceName:destinationType:destinationName:properties: /* Error: Ran out of types for this method. */;
++ (id)initWithEntityTypeSet:(id)arg1 entityNames:(id *)arg2 sourceType:sourceName:destinationType:destinationName:properties: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long dateStyle; // @synthesize dateStyle=_dateStyle;
-@property(readonly, nonatomic) long long format; // @synthesize format=_format;
-@property(readonly, copy, nonatomic) NSString *formatString; // @synthesize formatString=_formatString;
-@property(readonly, copy, nonatomic) NSString *formatStringID; // @synthesize formatStringID=_formatStringID;
-@property(readonly, nonatomic) unsigned long long timeStyle; // @synthesize timeStyle=_timeStyle;
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end

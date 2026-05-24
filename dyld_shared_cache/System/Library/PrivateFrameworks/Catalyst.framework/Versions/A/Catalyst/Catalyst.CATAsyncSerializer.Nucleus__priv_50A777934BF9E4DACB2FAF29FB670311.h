@@ -7,14 +7,6 @@
 @interface Catalyst.CATAsyncSerializer.Nucleus__priv_50A777934BF9E4DACB2FAF29FB670311
 {
     id $defaultActor;
-    id currentWorkItem;
-    id queuedWork;
-    id executionLoopStream;
-    id executionLoopContinuation;
-    id executionLoop;
-    id commandLoopStream;
-    id commandLoopContinuation;
-    id commandLoop;
 }
 
 @end

@@ -20,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (void)nAudio;
+- (void)ITWTinCanAudio;
 - (id)andidatePairConnected:linkID %d /* Error: Ran out of types for this method. */;
 - (id);
 

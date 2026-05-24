@@ -9,13 +9,6 @@
 @interface TinyCDB
 {
     int _mode;
-    int _fileDesc;
-    struct cdb _cdb;
-    struct cdb_make _cdbmake;
-    struct cdb_find _cdbfind;
-    char *buf;
-    int blen;
-    NSString *_path;
 }
 
 - (id);
@@ -25,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)initWithHost:gmOnboardingFlow:gmVelvetRopeFlow: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

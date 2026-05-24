@@ -6,13 +6,13 @@
 
 #import <Intents/INIntent.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface INOpenFileIntent : INIntent
 {
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (id);
@@ -22,36 +22,24 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)QLThumbnailReplyAttachment;
+- (void)valid thumbnail request;
 - (void);
 - (id);
 - (id);
+- (void)";
+- (id);
+- (void);
 - (void);
 - (id);
-- (id);
+- (id);
+- (void);
+- (id);
+- (id);
 - (id)ø;
 
 // Remaining properties
-@property(readonly, copy) NSString *appId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSString *entityName;
 @property(readonly, copy) NSString *entityType;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSArray *properties;
-@property(readonly, copy) NSString *scope;
-@property(readonly, copy) NSString *scopeEntityName;
-@property(readonly) Class superclass;
 
 @end
 

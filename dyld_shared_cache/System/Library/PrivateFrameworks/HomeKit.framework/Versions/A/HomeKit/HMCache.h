@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSString;
-@protocol HMCacheDelegate;
+@class NSString;
 
 @interface HMCache
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_cachedItems;
-    id <HMCacheDelegate> _delegate;
-    NSString *_cacheName;
 }
 
 + (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)hlight Item lists should be merged (%@ - %@) - (%@ - %@);
+- (id)>;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)_typedString;
 - (id);
 - (void);
 - (void);
@@ -34,16 +30,6 @@
 
 // Remaining properties
 @property(readonly, copy) NSString *cacheName; // @synthesize cacheName=_cacheName;
-@property(readonly, copy) NSDictionary *cachedObjects;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMCacheDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *name;
-@property(readonly) Class superclass;
 
 @end
 

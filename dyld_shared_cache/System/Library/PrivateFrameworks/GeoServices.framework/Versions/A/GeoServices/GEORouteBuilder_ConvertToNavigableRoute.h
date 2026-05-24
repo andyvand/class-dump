@@ -6,18 +6,15 @@
 
 #import <GeoServices/GEORouteBuilderBase.h>
 
-@class GEOComposedRoute, GEODirectionsRequest, GEODirectionsResponse, NSArray;
+@class NSArray;
 
 @interface GEORouteBuilder_ConvertToNavigableRoute : GEORouteBuilderBase
 {
     NSArray *_waypoints;
-    GEODirectionsRequest *_directionsRequest;
-    GEODirectionsResponse *_directionsResponse;
-    GEOComposedRoute *_sourceRoute;
 }
 
 - (id);
-- (int);
+- (int)o3;
 - (_Bool);
 - (id);
 - (void);
@@ -26,13 +23,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)`;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) GEODirectionsRequest *directionsRequest; // @synthesize directionsRequest=_directionsRequest;
-@property(retain, nonatomic) GEODirectionsResponse *directionsResponse; // @synthesize directionsResponse=_directionsResponse;
-@property(retain, nonatomic) GEOComposedRoute *sourceRoute; // @synthesize sourceRoute=_sourceRoute;
 @property(copy, nonatomic) NSArray *waypoints; // @synthesize waypoints=_waypoints;
 
 @end

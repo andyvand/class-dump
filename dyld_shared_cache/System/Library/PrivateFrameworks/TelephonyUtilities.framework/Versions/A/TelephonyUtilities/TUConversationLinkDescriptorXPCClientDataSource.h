@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCConnection;
-@protocol TUConversationLinkDescriptorDataSourceDelegate;
-
 @interface TUConversationLinkDescriptorXPCClientDataSource
 {
     struct os_unfair_lock_s _accessorLock;
-    id <TUConversationLinkDescriptorDataSourceDelegate> _conversationLinkDescriptorDataSourceDelegate;
-    NSXPCConnection *_xpcConnection;
 }
 
 + (id);
@@ -21,27 +16,27 @@
 + (id);
 + (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)qA;
 - (void);
 - (unsigned long long);
 - (id);
-- (struct os_unfair_lock_s);
+- (struct os_unfair_lock_s)(;
 - (void);
 - (id);
 - (long long);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
@@ -54,23 +49,14 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void)cludeContacts: /* Error: Ran out of types for this method. */;
+- (void)_onlyEmailFormat;
+- (void)conformsToProtocol:(id)arg1;
+- (void)setIncludeContacts: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)ckChangedNotification;
+- (id)TUCallCenterSupportsEmergencyFallbackChangedNotification;
 
 // Remaining properties
 @property(readonly, nonatomic) struct os_unfair_lock_s accessorLock; // @synthesize accessorLock=_accessorLock;
-@property(retain, nonatomic) id <TUConversationLinkDescriptorDataSourceDelegate> conversationLinkDescriptorDataSourceDelegate; // @synthesize conversationLinkDescriptorDataSourceDelegate=_conversationLinkDescriptorDataSourceDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSXPCConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
 
 @end
 

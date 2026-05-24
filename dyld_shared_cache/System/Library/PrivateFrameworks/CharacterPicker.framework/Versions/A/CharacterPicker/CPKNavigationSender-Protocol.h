@@ -5,5 +5,6 @@
 //
 
 @protocol CPKNavigationSender
+- (void)?kL;
 @end
 

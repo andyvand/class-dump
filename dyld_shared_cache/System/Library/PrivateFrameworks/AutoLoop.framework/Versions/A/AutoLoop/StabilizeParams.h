@@ -7,27 +7,19 @@
 @interface StabilizeParams
 {
     struct vector<SP_FrameInfo, std::allocator<SP_FrameInfo>> mFrameInfo;
-    vector_aad29ef0 mFrameTimeArray;
-    _Bool passThrough;
-    _Bool sparseFrames;
-    unsigned int numFrames;
-    unsigned int version;
-    CDStruct_1b6d18a9 roiStart;
-    CDStruct_1b6d18a9 roiLength;
-    struct CGRect cropRect;
 }
 
 + (id);
 + (id);
 + (id);
-- (CDStruct_1b6d18a9);
+- (CDStruct_198678f7);
 - (_Bool);
+- (void)C;
 - (void);
 - (void);
-- (void);
-- (CDStruct_1b6d18a9);
-- (CDStruct_1b6d18a9);
-- (_Bool);
+- (CDStruct_198678f7);
+- (CDStruct_198678f7);
+- (_Bool);
 - (id);
 - (void);
 - (void *);
@@ -44,13 +36,7 @@
 - (struct CGRect);
 
 // Remaining properties
-@property struct CGRect cropRect; // @synthesize cropRect;
 @property(readonly) unsigned int numFrames; // @synthesize numFrames;
-@property _Bool passThrough; // @synthesize passThrough;
-@property CDStruct_1b6d18a9 roiLength; // @synthesize roiLength;
-@property CDStruct_1b6d18a9 roiStart; // @synthesize roiStart;
-@property _Bool sparseFrames; // @synthesize sparseFrames;
-@property(readonly) unsigned int version; // @synthesize version;
 
 @end
 

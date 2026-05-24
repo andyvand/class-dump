@@ -8,7 +8,6 @@
 {
     id $defaultActor;
     id sharedContext;
-    id loadDailyDigestModel;
 }
 
 @end

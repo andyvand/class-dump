@@ -8,26 +8,26 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id)Sets.parameters.candidate.value.value.entity.typeIdentifier.custom.bundleId;
++ (id)ted.unresolvedParameterSets.parameters.candidate.value.value.entity.typeIdentifier.custom.bundleId;
++ (_Bool)numeration.typeIdentifier.custom.bundleId;
++ (_Bool)lverRequestCreated.resolvedParameters.parameters.candidate.value.collection.values.query.typeIdentifier.custom.bundleId;
++ (id)edParameters.parameters.candidate.value.value.enumeration.typeIdentifier.custom.bundleId;
++ (_Bool)ers.parameters.candidate.value.value.primitive.app.bundleId;
++ (_Bool)solverRequestCreated.resolvedParameters.parameters.candidate.value.value.primitive.app.bundleId;
++ (_Bool)Created.toolId;
++ (_Bool)n.values.query.typeIdentifier.custom.bundleId;
++ (_Bool)redSearch.returnType.collection.values.query.typeIdentifier.custom.bundleId;
++ (_Bool)ted.statements.expressionName.structuredSearch.returnType.collection.values.query.typeIdentifier.custom.bundleId;
++ (_Bool)er.custom.bundleId;
++ (_Bool)ction.values.entity.typeIdentifier.custom.bundleId;
++ (_Bool)structuredSearch.returnType.collection.values.entity.typeIdentifier.custom.bundleId;
++ (_Bool)Created.statements.expressionName.structuredSearch.returnType.collection.values.entity.typeIdentifier.custom.bundleId;
++ (_Bool)ypeIdentifier.custom.bundleId;
++ (_Bool)collection.values.enumeration.typeIdentifier.custom.bundleId;
 + (_Bool);
-+ (_Bool);
-+ (id);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)ranscript;
++ (_Bool)esultTier1.modifiedTranscript;
 + (_Bool);
 + (_Bool);
 

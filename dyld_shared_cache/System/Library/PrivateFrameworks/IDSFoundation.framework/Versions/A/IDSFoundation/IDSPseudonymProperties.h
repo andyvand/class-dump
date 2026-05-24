@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSString;
+@class NSString;
 
 @interface IDSPseudonymProperties
 {
     NSString *_featureID;
-    NSString *_scopeID;
-    NSArray *_allowedServices;
-    double _expiryEpoch;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -24,8 +21,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)setFloatFeatureReport:(id)arg1 value: /* Error: Ran out of types for this method. */;
+- (void)׉;
 - (id);
 - (double);
 - (id);
@@ -33,16 +30,11 @@
 - (id);
 - (id);
 - (id)ind to udp port %u succeeded for %s.;
-- (void)ial;
+- (void)IDSRemoteCredential;
 - (_Bool)%@) for %@.;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allowedServices; // @synthesize allowedServices=_allowedServices;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSDate *expirationDate;
 @property(readonly, nonatomic) double expiryEpoch; // @synthesize expiryEpoch=_expiryEpoch;
-@property(readonly, nonatomic) NSString *featureID; // @synthesize featureID=_featureID;
-@property(readonly, nonatomic) NSString *scopeID; // @synthesize scopeID=_scopeID;
 
 @end
 

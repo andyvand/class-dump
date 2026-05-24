@@ -4,25 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainer, CKInitiateParticipantVettingOperation, CKShareMetadata, NSButton, NSDictionary, NSString, NSTableView, NSTextField, NSTouchBar, NSWindow, iCloudTouchBarController;
+@class CKContainer, NSWindow;
 
 __attribute__((visibility("hidden")))
 @interface MMOutOfNetworkSheetController
 {
     NSWindow *_outOfNetworkSheet;
-    NSTableView *_emailAddressTable;
-    NSButton *_verifyButton;
-    NSButton *_cancelButton;
-    NSTextField *_titleText;
-    NSTextField *_contactOwnerText;
-    CDUnknownBlockType _completionHandler;
-    NSDictionary *_userInfo;
-    NSWindow *_parentWindow;
-    CKContainer *_clouddContainer;
-    CKContainer *_metadataSpecifiedContainer;
-    CKShareMetadata *_shareMetadata;
-    CKInitiateParticipantVettingOperation *_operation;
-    iCloudTouchBarController *_touchBarController;
 }
 
 - (void);
@@ -40,61 +27,40 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
+- (id)	K))?Iq	3;
+- (void);
+- (id)_Eq*3;
 - (id);
 - (void);
 - (id);
-- (id);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (long long);
-- (void);
-- (void);
+- (void);
+- (void)T;
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)˩C;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void)1Â0@ù
 × ;
-- (id)ication: /* Error: Ran out of types for this method. */;
+- (id)_handleBeginMigrationNotification: /* Error: Ran out of types for this method. */;
 - (void)opyGSRequestHeaders for key kAOSIsAbsintheRequiredKey info should not be nil;
-- (id)APRROVAL_SENT_MESSAGE;
+- (id)ACCOUNT_SYNC_MANUAL_RESET_APRROVAL_SENT_MESSAGE;
 
 // Remaining properties
-@property __weak NSButton *cancelButton; // @synthesize cancelButton=_cancelButton;
 @property(retain) CKContainer *clouddContainer; // @synthesize clouddContainer=_clouddContainer;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property __weak NSTextField *contactOwnerText; // @synthesize contactOwnerText=_contactOwnerText;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property __weak NSTableView *emailAddressTable; // @synthesize emailAddressTable=_emailAddressTable;
-@property(readonly) unsigned long long hash;
-@property(retain) CKContainer *metadataSpecifiedContainer; // @synthesize metadataSpecifiedContainer=_metadataSpecifiedContainer;
-@property(retain) CKInitiateParticipantVettingOperation *operation; // @synthesize operation=_operation;
-@property(retain) NSWindow *outOfNetworkSheet; // @synthesize outOfNetworkSheet=_outOfNetworkSheet;
-@property NSWindow *parentWindow; // @synthesize parentWindow=_parentWindow;
-@property(retain) CKShareMetadata *shareMetadata; // @synthesize shareMetadata=_shareMetadata;
-@property(readonly) Class superclass;
-@property __weak NSTextField *titleText; // @synthesize titleText=_titleText;
-@property(readonly) NSTouchBar *touchBar;
-@property(retain) iCloudTouchBarController *touchBarController; // @synthesize touchBarController=_touchBarController;
-@property(retain) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
-@property __weak NSButton *verifyButton; // @synthesize verifyButton=_verifyButton;
 
 @end
 

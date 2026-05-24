@@ -7,10 +7,10 @@
 @class NSSet;
 
 @protocol GEOTransitIncidentEntity
+- (NSSet *)naming temp messages_new table to messages;
+- (_Bool)entifier) ON CONFLICT ABORT);;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasNextStopIDs;
 @property(readonly, nonatomic) unsigned long long muid;
-@property(readonly, nonatomic) NSSet *nextStopIDs;
 @end
 

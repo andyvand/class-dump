@@ -7,6 +7,6 @@
 @protocol TSDRepTextContaining
 
 @optional
-- (_Bool)ar: /* Error: Ran out of types for this method. */;
+- (_Bool)positionForBar: /* Error: Ran out of types for this method. */;
 @end
 

@@ -7,7 +7,6 @@
 @interface ConversationKit.ParticipantContactDetailsCache
 {
     id contactStore;
-    id cache;
 }
 
 @end

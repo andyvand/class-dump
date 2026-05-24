@@ -6,14 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSArray, NSString;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIRedEyeCorrections : CIFilter
 {
     CIImage *inputImage;
-    NSString *inputCameraModel;
-    NSArray *inputCorrectionInfo;
 }
 
 - (void);
@@ -26,11 +24,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id)^kbtzzyz]xumvr|hqlyaywu¯¯¯¯¸¸¸¸³³³³§§§§xxxx_bZcaa\adiciah_o_piy¡¡¡¡xxxxFXP^4I<RTTKT````qqqq||||||||kspxxxxxyyyy||||zWmjuIaZkP^VfPd_immmmggggGWO[USIU>MBS8H;S?OEXdddddoooxxxx}}}}izy~Olfy¥¥¥¥Ui`rPbUrhvn««««««««~{x~hqlup{{{zzzzkkkkmmmm{{{{l{xy}wvwqZog}g|§§§§    irmzoqltwwwwtxw{cwvw|{QkesL`Vkwwvwr§¤§§««««uxuyyyykxxyB\TlI]Ufeeeeeedemmmm¡¡¡¡¬¬¬¬¥¥¥¥{{x~hh_hLTF\fe]fvurvJ^VjUjfnsxxx{zzzzoooooooouuuu^rqwXpl|xf{}}wwwwnnnnASI[AK>TaaaammmmOf]v~{Snhmoi{lIhfr`gbjYieq|||mwvzwwwwnnnnOeaikkkkffffJTG`Wd[mh{zwwwwrrmr||||v|cwpk~TskSunh{w~z}mz®®®®¡©«r¢{{{{=OBY0G7VvvvvxTlet\dYlMcWsn|xyyyyrqnrPhcrvvvv_pmy[xztttt+K?_cb[cvvvvg{{{|z|zzwz}|ztttteaWeFZOfwwwwyqcjawSZMgUXL`ccccjjjjhqmsZur}ftp{APB_">*QDQDYWe`jUlhrmpnubut}}vwt~C^UoRe_nssssrrpr?]SnLf`rxxxxvvvvvvvvyZsosryyyooooeeeeU[U_jjjjxttqtdbZgdjeotgwwwwQe^jllfl]tqyfo¨¨¨¨¨¨¨¨xxxx]][]ANAR\YN\Ukfq|zOkeMha~ssss^^\^OYPZkkkkWusn`tneoiwwwwwxxxx}}}}k~;
-- (void);
+- (void)RedEyeMinMorphology;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *inputCameraModel; // @synthesize inputCameraModel;
-@property(copy, nonatomic) NSArray *inputCorrectionInfo; // @synthesize inputCorrectionInfo;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
 
 @end

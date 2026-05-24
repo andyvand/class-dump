@@ -12,20 +12,18 @@ __attribute__((visibility("hidden")))
 @interface _MKPlacePoisInlineMapContentView : _MKPlaceInlineMapContentView
 {
     _MKUILabel *_storesLabel;
-    _MKUILabel *_seeMoreLabel;
-    _Bool _visible;
 }
 
-+ (id);
++ (id)ier:(id)arg1 %{public}s);
 - (_Bool);
-- (void);
-- (double);
+- (void)_curatedBatchingList;
+- (double)coalitions data for identifier=%@, mockDataForIdentifier=%@;
 - (struct CGSize);
-- (_Bool);
-- (id);
-- (void): /* Error: Ran out of types for this method. */;
+- (_Bool)@;
+- (id)eDuration at endpointer(%{public}f) is longer than threshold(%{public}f), force to make 0;
+- (void)setMinimumPressDuration: /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool)egionMinInset;
+- (_Bool)MKCommonSnapshotRegionMinInset;
 
 // Remaining properties
 @property(nonatomic) _Bool visible; // @synthesize visible=_visible;

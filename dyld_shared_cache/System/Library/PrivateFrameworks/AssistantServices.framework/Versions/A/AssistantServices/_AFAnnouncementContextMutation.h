@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFAnnouncementContext, NSDate, NSString;
+@class AFAnnouncementContext;
 
 @interface _AFAnnouncementContextMutation
 {
     AFAnnouncementContext *_base;
-    long long _platform;
-    long long _notificationType;
-    NSDate *_lastAnnouncementTimestamp;
-    _Bool _isSameAppIdAsLastAnnounce;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasPlatform:1;
-        unsigned int hasNotificationType:1;
-        unsigned int hasLastAnnouncementTimestamp:1;
-        unsigned int hasIsSameAppIdAsLastAnnounce:1;
-    } _mutationFlags;
 }
 
 - (void);
@@ -31,17 +20,11 @@
 - (void);
 - (void);
 - (_Bool);
-- (id)eadySource:(id)arg1;
-- (void)eErrorIfNeeded;
+- (id)setUufrReadySource:(id)arg1;
+- (void)_handleStateMachineErrorIfNeeded;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

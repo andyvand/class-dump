@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EAEmailAddressSet, NSString;
+@class NSString;
 
 @interface EMVIP
 {
     NSString *_identifier;
-    NSString *_name;
-    NSString *_displayName;
-    EAEmailAddressSet *_emailAddresses;
 }
 
 + (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)|;
+- (id)A;
+- (id)A;
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -30,10 +27,7 @@
 - (id)L·;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, copy, nonatomic) EAEmailAddressSet *emailAddresses; // @synthesize emailAddresses=_emailAddresses;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

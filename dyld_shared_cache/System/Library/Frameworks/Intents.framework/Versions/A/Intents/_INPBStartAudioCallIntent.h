@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBIntentMetadata, _INPBStartCallRequestMetadata;
-
 @interface _INPBStartAudioCallIntent
 {
     struct {
@@ -15,18 +13,9 @@
         unsigned int recordTypeForRedialing:1;
         unsigned int ttyType:1;
     } _has;
-    int _audioRoute;
-    int _destinationType;
-    int _preferredCallProvider;
-    int _recordTypeForRedialing;
-    int _ttyType;
-    _INPBStartCallRequestMetadata *_callRequestMetadata;
-    NSArray *_contacts;
-    _INPBIntentMetadata *_intentMetadata;
-    NSArray *_targetContacts;
 }
 
-+ (Class);
++ (Class);
 + (Class);
 + (_Bool);
 - (id);
@@ -35,7 +24,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)T8;
 - (void);
 - (void);
 - (void);
@@ -62,8 +51,8 @@
 - (int);
 - (unsigned long long);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)A9;
+- (id)e path supplied was an empty string;
 - (int);
 - (void);
 - (int);
@@ -72,47 +61,23 @@
 - (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)__unwind_info;
 - (void);
 - (int);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (_Bool)n;
 - (void)"NSError"16;
-- (void)rtPhotoPlaybackIntentResponseCodeUnspecified;
+- (void)INStartPhotoPlaybackIntentResponseCodeUnspecified;
 
 // Remaining properties
 @property(nonatomic) int audioRoute; // @synthesize audioRoute=_audioRoute;
-@property(retain, nonatomic) _INPBStartCallRequestMetadata *callRequestMetadata; // @synthesize callRequestMetadata=_callRequestMetadata;
-@property(copy, nonatomic) NSArray *contacts; // @synthesize contacts=_contacts;
-@property(readonly, nonatomic) unsigned long long contactsCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) int destinationType; // @synthesize destinationType=_destinationType;
-@property(nonatomic) _Bool hasAudioRoute;
-@property(readonly, nonatomic) _Bool hasCallRequestMetadata;
-@property(nonatomic) _Bool hasDestinationType;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasPreferredCallProvider;
-@property(nonatomic) _Bool hasRecordTypeForRedialing;
-@property(nonatomic) _Bool hasTtyType;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(nonatomic) int preferredCallProvider; // @synthesize preferredCallProvider=_preferredCallProvider;
-@property(nonatomic) int recordTypeForRedialing; // @synthesize recordTypeForRedialing=_recordTypeForRedialing;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *targetContacts; // @synthesize targetContacts=_targetContacts;
-@property(readonly, nonatomic) unsigned long long targetContactsCount;
-@property(nonatomic) int ttyType; // @synthesize ttyType=_ttyType;
 
 @end
 

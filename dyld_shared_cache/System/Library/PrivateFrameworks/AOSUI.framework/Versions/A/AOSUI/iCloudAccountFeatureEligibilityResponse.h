@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface iCloudAccountFeatureEligibilityResponse
 {
     _Bool _enable;
-    _Bool _showNotification;
 }
 
 - (_Bool);
@@ -17,7 +16,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool enable; // @synthesize enable=_enable;
-@property(readonly, nonatomic) _Bool showNotification; // @synthesize showNotification=_showNotification;
 
 @end
 

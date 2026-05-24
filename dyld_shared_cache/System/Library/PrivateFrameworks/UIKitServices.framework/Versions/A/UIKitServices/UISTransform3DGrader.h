@@ -7,12 +7,6 @@
 @interface UISTransform3DGrader
 {
     struct vector<double, std::allocator<double>> _allowedRotations;
-    struct vector<double, std::allocator<double>> _allowedScales;
-    double _allowedShear;
-    double _allowedTranslation;
-    double _allowedShift;
-    _Bool _allowHorizontalFlip;
-    _Bool _allowVerticalFlip;
 }
 
 - (struct _UISTransform3DGrade);
@@ -23,8 +17,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)resetAuxiliaryImageProperties;
+- (void)cheNode nodeByReplayingAgainstCache] could not get resolve settings;
 - (unsigned long long);
 - (void);
 - (void);

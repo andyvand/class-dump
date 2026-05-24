@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
-
 @interface HAPMetadataService
 {
     _Bool _allowAssociatedService;
-    NSString *_name;
-    NSString *_svcDescription;
-    NSString *_uuidStr;
-    NSString *_btleuuidStr;
-    NSNumber *_properties;
-    NSArray *_linkedServices;
-    NSArray *_mandatoryCharacteristics;
-    NSArray *_optionalCharacteristics;
 }
 
 - (id);
@@ -25,22 +15,22 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)eyelashes_spreadSparse_short.aa;
 - (unsigned long long);
-- (void);
+- (void)subscription contexts %@;
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)16Q20^I28;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)pData;
 - (void);
 - (void)ragmentationStreamDelegate>";
 - (void)Name:%@,

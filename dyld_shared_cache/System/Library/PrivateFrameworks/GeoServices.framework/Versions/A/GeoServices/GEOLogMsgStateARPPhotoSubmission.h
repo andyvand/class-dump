@@ -4,28 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOLogMsgStateARPPhotoSubmission
 {
     PBUnknownFields *_unknownFields;
-    NSString *_originTarget;
-    unsigned int _numberOfAprSuggestedPhotos;
-    unsigned int _numberOfPhotos;
-    _Bool _isFromMapsSuggesions;
-    _Bool _isFromRecommendationCard;
-    _Bool _isPlacecardInlineSubmission;
-    struct {
-        unsigned int has_numberOfAprSuggestedPhotos:1;
-        unsigned int has_numberOfPhotos:1;
-        unsigned int has_isFromMapsSuggesions:1;
-        unsigned int has_isFromRecommendationCard:1;
-        unsigned int has_isPlacecardInlineSubmission:1;
-    } _flags;
 }
 
-+ (_Bool)ctions:(id)arg1;
-- (void);
++ (_Bool)setHasSuccessfulConnections:(id)arg1;
+- (void)ʩ;
 - (void);
 - (void);
 - (void);
@@ -38,14 +25,14 @@
 - (unsigned int);
 - (unsigned int);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)setWeekOfMonth:(_Bool)arg1;
 - (void);
 - (_Bool);
 - (void);
@@ -58,27 +45,15 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id)egories;
+- (void);
+- (id)spatialMappedCategories;
 - (id)val;
 - (id)archAttributionManifest] Search attribution manifest URL is unchanged, but file is gone!. Will re-download.;
 - (id)ô	;
 - (void)ê3;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsFromMapsSuggesions;
-@property(nonatomic) _Bool hasIsFromRecommendationCard;
-@property(nonatomic) _Bool hasIsPlacecardInlineSubmission;
-@property(nonatomic) _Bool hasNumberOfAprSuggestedPhotos;
-@property(nonatomic) _Bool hasNumberOfPhotos;
 @property(readonly, nonatomic) _Bool hasOriginTarget;
-@property(nonatomic) _Bool isFromMapsSuggesions;
-@property(nonatomic) _Bool isFromRecommendationCard;
-@property(nonatomic) _Bool isPlacecardInlineSubmission;
-@property(nonatomic) unsigned int numberOfAprSuggestedPhotos;
-@property(nonatomic) unsigned int numberOfPhotos;
-@property(retain, nonatomic) NSString *originTarget;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

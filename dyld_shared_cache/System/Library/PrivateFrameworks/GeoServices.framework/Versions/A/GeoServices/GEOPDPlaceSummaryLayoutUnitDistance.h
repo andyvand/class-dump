@@ -7,13 +7,10 @@
 @interface GEOPDPlaceSummaryLayoutUnitDistance
 {
     unsigned long long _maximumDistanceInMeters;
-    struct {
-        unsigned int has_maximumDistanceInMeters:1;
-    } _flags;
 }
 
-+ (_Bool)tIncidentField:(id)arg1;
-- (void);
++ (_Bool)setIncidentField:(id)arg1;
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -21,19 +18,18 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)nabled = %{public}@;
 - (unsigned long long);
-- (_Bool);
+- (_Bool).@A�1;
 - (_Bool);
 - (void);
 - (id)tusURL"b1"read_problemSubmissionURL"b1"read_realtimeTrafficProbeURL"b1"read_regionalResources"b1"read_releaseInfo"b1"read_resourcesURL"b1"read_resources"b1"read_reverseGeocoderVersionsURL"b1"read_searchAttributionManifestURL"b1"read_simpleETAURL"b1"read_spatialLookupURL"b1"read_styleSheetChecksums"b1"read_styleSheets"b1"read_textureChecksums"b1"read_textures"b1"read_tileGroups"b1"read_tileSets"b1"read_urlInfoSets"b1"read_versionManifest"b1"read_wifiConnectionQualityProbeURL"b1"read_xmlChecksums"b1"read_xmls"b1"wrote_anyField"b1};
-- (id)stTileGroupRetryTimestamp;
+- (id)_lastTileGroupRetryTimestamp;
 - (id)H;
 - (id)ionDirectedSearchParametersReadAllFrom can only be called once per object;
 
 // Remaining properties
 @property(nonatomic) _Bool hasMaximumDistanceInMeters;
-@property(nonatomic) unsigned long long maximumDistanceInMeters;
 
 @end
 

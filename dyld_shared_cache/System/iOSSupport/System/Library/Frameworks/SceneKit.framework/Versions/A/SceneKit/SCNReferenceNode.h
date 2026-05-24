@@ -6,20 +6,15 @@
 
 #import <SceneKit/SCNNode.h>
 
-@class NSMutableDictionary, NSURL;
+@class NSURL;
 
 @interface SCNReferenceNode : SCNNode
 {
     NSURL *_referenceURL;
-    _Bool _loaded;
-    NSMutableDictionary *_overrides;
-    long long _loadingPolicy;
-    NSURL *_catalogURL;
-    NSURL *_sourceDocumentURL;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)tadataJSController.clearControls(controlIDs);;
 - (void);
 - (void);
 - (void);
@@ -30,7 +25,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)9	;
 - (void);
 - (id);
 - (_Bool);
@@ -39,18 +34,18 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)RB;
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)addActivityMonitor:withID: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (id);
-- (_Bool)textureOptions:needsMipMapGeneration: /* Error: Ran out of types for this method. */;
+- (_Bool)_copyImage:toTexture:desc:textureOptions:needsMipMapGeneration: /* Error: Ran out of types for this method. */;
 - (id)ONAL_ODD_SPACING || OSD_FRACTIONAL_EVEN_SPACING)) || !OSD_ENABLE_SCREENSPACE_TESSELLATION, "OSD_ENABLE_SCREENSPACE_TESSELLATION requires OSD_FRACTIONAL_ODD_SPACING or OSD_FRACTIONAL_EVEN_SPACING");
 
 #endif
@@ -2083,11 +2078,9 @@ static void OsdComputePerPatchVertexGregory(int3 patchParam, unsigned ID, unsign
 
 
  /* Error: Ran out of types for this method. */;
-- (void)eCheckConsistency;
+- (void)kSceneSourceCheckConsistency;
 
 // Remaining properties
-@property(readonly, getter=isLoaded) _Bool loaded;
-@property(nonatomic) long long loadingPolicy; // @synthesize loadingPolicy=_loadingPolicy;
 @property(copy, nonatomic) NSURL *referenceURL;
 
 @end

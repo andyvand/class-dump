@@ -11,7 +11,6 @@
 @interface IMMessageSyndicationAction : IMSyndicationAction
 {
     IMMessagePartGUID *_messagePartGUID;
-    struct _NSRange _messagePartRange;
 }
 
 + (_Bool);
@@ -29,16 +28,12 @@
 - (id);
 - (_Bool);
 - (void);
+- (id)7;
 - (id);
-- (id);
-- (void)nreadCountToZero;
+- (void)setUnreadCountToZero;
 - (_Bool), operation:%d} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isHighlighted) _Bool highlighted;
-@property(readonly, copy, nonatomic) IMMessagePartGUID *messagePartGUID; // @synthesize messagePartGUID=_messagePartGUID;
-@property(readonly, nonatomic) struct _NSRange messagePartRange; // @synthesize messagePartRange=_messagePartRange;
-@property(readonly, nonatomic) long long messagePartSyndicationStatus;
 @property(readonly, nonatomic) long long messagePartSyndicationType;
 
 @end

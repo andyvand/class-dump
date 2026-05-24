@@ -4,33 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPAnalytics, NSDate, NSMutableArray, NSSet, NSString;
+@class CPAnalytics;
 
 @interface CPAnalyticsScreenManager
 {
     long long _screensViewCount;
-    NSSet *_namesOfViewsToTrack;
-    CPAnalytics *_cpAnalyticsInstance;
-    long long _appVisiblePeriodSignpostID;
-    NSDate *_currentScreenStartTime;
-    long long _foregroundEventCount;
-    NSSet *_namesOfViewsToIgnore;
-    NSMutableArray *_currentlyOpenViews;
-    NSMutableArray *_priorViews;
-    NSString *_currentTabIdentifierDescription;
-    NSString *_pendingTabIdentifierDescription;
-    unsigned long long _priorViewsMaxIndex;
 }
 
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (id);
-+ (id);
++ (id)te, mask.hash}sno need to renew emergency registration;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)AssistiveTouch;
+- (void)ary"24@?0@8@"AceObject"16;
 - (unsigned long long);
 - (void);
 - (void);
@@ -42,14 +31,14 @@
 - (void);
 - (void);
 - (long long);
-- (id);
+- (id)updateHudWithDisplayString: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (long long);
-- (void);
+- (long long)GetIsInHomeCountryResponse;
+- (void)kCTIndicatorsVoiceMailAvailable;
 - (void);
 - (void);
 - (void);
@@ -59,37 +48,19 @@
 - (id);
 - (id);
 - (id);
+- (void)G;
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)A;
 
 // Remaining properties
-@property(nonatomic) long long appVisiblePeriodSignpostID; // @synthesize appVisiblePeriodSignpostID=_appVisiblePeriodSignpostID;
 @property(nonatomic) __weak CPAnalytics *cpAnalyticsInstance; // @synthesize cpAnalyticsInstance=_cpAnalyticsInstance;
-@property(retain, nonatomic) NSDate *currentScreenStartTime; // @synthesize currentScreenStartTime=_currentScreenStartTime;
-@property(retain, nonatomic) NSString *currentTabIdentifierDescription; // @synthesize currentTabIdentifierDescription=_currentTabIdentifierDescription;
-@property(retain, nonatomic) NSMutableArray *currentlyOpenViews; // @synthesize currentlyOpenViews=_currentlyOpenViews;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long foregroundEventCount; // @synthesize foregroundEventCount=_foregroundEventCount;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSSet *namesOfViewsToIgnore; // @synthesize namesOfViewsToIgnore=_namesOfViewsToIgnore;
-@property(retain, nonatomic) NSSet *namesOfViewsToTrack; // @synthesize namesOfViewsToTrack=_namesOfViewsToTrack;
-@property(retain, nonatomic) NSString *pendingTabIdentifierDescription; // @synthesize pendingTabIdentifierDescription=_pendingTabIdentifierDescription;
-@property(retain, nonatomic) NSMutableArray *priorViews; // @synthesize priorViews=_priorViews;
-@property(readonly, nonatomic) unsigned long long priorViewsMaxIndex; // @synthesize priorViewsMaxIndex=_priorViewsMaxIndex;
-@property(nonatomic) long long screensViewCount; // @synthesize screensViewCount=_screensViewCount;
-@property(readonly) Class superclass;
 
 @end
 

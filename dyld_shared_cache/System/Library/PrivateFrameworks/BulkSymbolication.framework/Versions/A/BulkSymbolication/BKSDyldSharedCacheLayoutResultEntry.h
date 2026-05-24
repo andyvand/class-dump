@@ -4,28 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
-
 @interface BKSDyldSharedCacheLayoutResultEntry
 {
     unsigned long long _offsetFromDyldSharedCacheBaseAddress;
-    NSUUID *_symbolOwnerUUID;
-    NSString *_symbolOwnerInstallPath;
-    NSString *_segmentName;
 }
 
+- (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long).;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long offsetFromDyldSharedCacheBaseAddress; // @synthesize offsetFromDyldSharedCacheBaseAddress=_offsetFromDyldSharedCacheBaseAddress;
-@property(readonly, nonatomic) NSString *segmentName; // @synthesize segmentName=_segmentName;
-@property(readonly, nonatomic) NSString *symbolOwnerInstallPath; // @synthesize symbolOwnerInstallPath=_symbolOwnerInstallPath;
-@property(readonly, nonatomic) NSUUID *symbolOwnerUUID; // @synthesize symbolOwnerUUID=_symbolOwnerUUID;
 
 @end
 

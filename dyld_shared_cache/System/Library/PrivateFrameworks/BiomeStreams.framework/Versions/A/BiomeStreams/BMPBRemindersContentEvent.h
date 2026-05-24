@@ -4,38 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BMPBRemindersContentEvent
 {
     double _absoluteTimestamp;
-    double _completionDateTimestamp;
-    double _dueDateTimestamp;
-    NSString *_contentProtection;
-    NSString *_domainId;
-    NSString *_notes;
-    NSString *_personaId;
-    int _priority;
-    NSString *_title;
-    NSString *_uniqueId;
-    _Bool _isAllDay;
-    struct {
-        unsigned int absoluteTimestamp:1;
-        unsigned int completionDateTimestamp:1;
-        unsigned int dueDateTimestamp:1;
-        unsigned int priority:1;
-        unsigned int isAllDay:1;
-    } _has;
 }
 
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -43,10 +24,10 @@
 - (double);
 - (double);
 - (_Bool);
-- (void);
+- (void)deoRuleCollectionsScreenSecondaryMac setupH264Rules];
 - (void);
 - (_Bool);
-- (id);
+- (id)j&;
 - (id);
 - (_Bool);
 - (void);
@@ -79,28 +60,7 @@
 - (int)/;
 
 // Remaining properties
-@property(nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
-@property(nonatomic) double completionDateTimestamp; // @synthesize completionDateTimestamp=_completionDateTimestamp;
-@property(retain, nonatomic) NSString *contentProtection; // @synthesize contentProtection=_contentProtection;
-@property(retain, nonatomic) NSString *domainId; // @synthesize domainId=_domainId;
-@property(nonatomic) double dueDateTimestamp; // @synthesize dueDateTimestamp=_dueDateTimestamp;
-@property(nonatomic) _Bool hasAbsoluteTimestamp;
-@property(nonatomic) _Bool hasCompletionDateTimestamp;
-@property(readonly, nonatomic) _Bool hasContentProtection;
-@property(readonly, nonatomic) _Bool hasDomainId;
-@property(nonatomic) _Bool hasDueDateTimestamp;
-@property(nonatomic) _Bool hasIsAllDay;
-@property(readonly, nonatomic) _Bool hasNotes;
-@property(readonly, nonatomic) _Bool hasPersonaId;
-@property(nonatomic) _Bool hasPriority;
-@property(readonly, nonatomic) _Bool hasTitle;
 @property(readonly, nonatomic) _Bool hasUniqueId;
-@property(nonatomic) _Bool isAllDay; // @synthesize isAllDay=_isAllDay;
-@property(retain, nonatomic) NSString *notes; // @synthesize notes=_notes;
-@property(retain, nonatomic) NSString *personaId; // @synthesize personaId=_personaId;
-@property(nonatomic) int priority; // @synthesize priority=_priority;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
-@property(retain, nonatomic) NSString *uniqueId; // @synthesize uniqueId=_uniqueId;
 
 @end
 

@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void);
-- (void);
+- (void)N,V_componentsPerRow;
+- (void)lippingMode;
 - (void);
 - (id);
 

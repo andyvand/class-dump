@@ -7,9 +7,6 @@
 @interface NUSoftwareBuildNumber
 {
     BOOL _minor;
-    BOOL _rebuild;
-    unsigned short _major;
-    unsigned short _update;
 }
 
 + (id);
@@ -20,14 +17,11 @@
 - (id);
 - (unsigned short);
 - (_Bool);
-- (BOOL);
+- (BOOL)stationConfiguration;
 - (unsigned short);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned short major; // @synthesize major=_major;
-@property(readonly, nonatomic) BOOL minor; // @synthesize minor=_minor;
-@property(readonly, nonatomic) BOOL rebuild; // @synthesize rebuild=_rebuild;
-@property(readonly, nonatomic) unsigned short update; // @synthesize update=_update;
 
 @end
 

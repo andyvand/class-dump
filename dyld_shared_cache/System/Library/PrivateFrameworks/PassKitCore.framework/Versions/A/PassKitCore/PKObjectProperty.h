@@ -9,10 +9,6 @@
 @interface PKObjectProperty
 {
     NSString *_name;
-    NSString *_variableName;
-    Class _aClass;
-    unsigned long long _type;
-    NSString *_valueGetter;
 }
 
 - (void)ss Type Identifier in %@ array needs to be a string.  Found object of class %@.;

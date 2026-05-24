@@ -6,32 +6,25 @@
 
 #import <CalendarUIKit/CUIKUserActivityWithSource.h>
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface CUIKUserActivityCalendarEvent : CUIKUserActivityWithSource
 {
     NSString *_title;
-    NSString *_externalID;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    NSString *_location;
-    NSString *_relatedUniqueIdentifier;
-    unsigned long long _view;
 }
 
-- (id)©öWC©ø_B©úgA©üoÆ¨ÿ_Ö4;
+- (id);
 - (void);
-- (id)uðá;
 - (id);
-- (id);
+- (id)blic.data;
+- (id)";
 - (unsigned long long);
-- (id);
-- (id);
+- (id)hdr10_createLUTFromDMConfig:(id)arg1 DM:HDRControl:TMParam:TMParam:EdrAdaptationParam:AmbAdaptationParam: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) unsigned long long view; // @synthesize view=_view;
 
 @end
 

@@ -6,44 +6,28 @@
 
 #import <ScreenTimeCore/STUniquedManagedObject.h>
 
-@class NSData, NSNumber, NSString, STUserDeviceState;
+@class NSString;
 
 @interface STInstalledApp : STUniquedManagedObject
 {
 }
 
++ (id)k INTEGER NOT NULL DEFAULT 0, date_created INTEGER NOT NULL DEFAULT 0, date_modified INTEGER NOT NULL DEFAULT 0, media_kind INTEGER NOT NULL DEFAULT 0, content_rating INTEGER NOT NULL DEFAULT 0, content_rating_level INTEGER NOT NULL DEFAULT 0, is_user_disabled INTEGER NOT NULL DEFAULT 0, bpm INTEGER DEFAULT 0, genius_id INTEGER NOT NULL DEFAULT 0, comment TEXT, grouping TEXT, description TEXT, description_long TEXT, collection_description TEXT, copyright TEXT, pending_genius_checksum INTEGER NOT NULL DEFAULT 0;
++ (id)is_compilation INTEGER NOT NULL DEFAULT 0, is_audible_audio_book INTEGER NOT NULL DEFAULT 0, date_created INTEGER NOT NULL DEFAULT 0, date_modified INTEGER NOT NULL DEFAULT 0, media_kind INTEGER NOT NULL DEFAULT 0, content_rating INTEGER NOT NULL DEFAULT 0, content_rating_level INTEGER NOT NULL DEFAULT 0, is_user_disabled INTEGER NOT NULL DEFAULT 0, bpm INTEGER DEFAULT 0, genius_id INTEGER NOT NULL DEFAULT 0, comment TEXT, grouping TEXT, description TEXT, description_long TEXT, collection_description TEXT, copyright TEXT, pending_genius_checksum INTEGER NOT NULL DEFAULT 0;
++ (id)NULL DEFAULT 0, is_streaming_quality INTEGER NOT NULL DEFAULT 0, is_compilation INTEGER NOT NULL DEFAULT 0, is_audible_audio_book INTEGER NOT NULL DEFAULT 0, date_created INTEGER NOT NULL DEFAULT 0, date_modified INTEGER NOT NULL DEFAULT 0, media_kind INTEGER NOT NULL DEFAULT 0, content_rating INTEGER NOT NULL DEFAULT 0, content_rating_level INTEGER NOT NULL DEFAULT 0, is_user_disabled INTEGER NOT NULL DEFAULT 0, bpm INTEGER DEFAULT 0, genius_id INTEGER NOT NULL DEFAULT 0, comment TEXT, grouping TEXT, description TEXT, description_long TEXT, collection_description TEXT, copyright TEXT, pending_genius_checksum INTEGER NOT NULL DEFAULT 0;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-- (void);
-- (void);
+- (void)entative_item_pid, representative_item_artwork_token, keep_local, keep_local_status FROM item_artist;
+- (void)tems, has_been_shuffled, filepath, is_saveable, is_src_remote, is_ignored_syncing, container_type, is_container_type_active_target, orig_date_modified, store_cloud_id, has_cloud_play_order, cloud_global_id, reserved1, reserved2, reserved3, reserved4, reserved5, reserved6, keep_local, keep_local_status) SELECT container_pid, distinguished_kind, date_created, date_modified, name, name_order, parent_pid, contained_media_type, workout_template_id, is_hidden, is_ignorable_itunes_playlist, description, play_count_user, play_count_recent, liked_state, smart_evaluation_order, smart_is_folder, smart_is_dynamic, smart_is_filtered, smart_is_genius, smart_enabled_only, smart_is_limited, smart_limit_kind, smart_limit_order, smart_limit_value, smart_reverse_limit_order, smart_criteria, play_order, is_reversed, album_field_order, repeat_mode, shuffle_items, has_been_shuffled, filepath, is_saveable, is_src_remote, is_ignored_syncing, container_type, is_container_type_active_target, orig_date_modified, store_cloud_id, has_cloud_play_order, cloud_global_id, reserved1, reserved2, reserved3, reserved4, reserved5, reserved6, keep_local, keep_local_status FROM container;
 - (id);
 - (_Bool);
-- (void);
+- (void)e, &buffer, &buffer_size);
 - (id);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *adamID; // @dynamic adamID;
-@property(copy, nonatomic) NSNumber *betaVersionIdentifier; // @dynamic betaVersionIdentifier;
 @property(copy, nonatomic) NSString *bundleIdentifier; // @dynamic bundleIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *displayName; // @dynamic displayName;
-@property(copy, nonatomic) NSString *distributorID; // @dynamic distributorID;
-@property(nonatomic) _Bool distributorIsThirdParty; // @dynamic distributorIsThirdParty;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSData *iconData; // @dynamic iconData;
-@property(nonatomic) _Bool installedLocally; // @dynamic installedLocally;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) STUserDeviceState *userDeviceState; // @dynamic userDeviceState;
-@property(copy, nonatomic) NSNumber *versionIdentifier; // @dynamic versionIdentifier;
 
 @end
 

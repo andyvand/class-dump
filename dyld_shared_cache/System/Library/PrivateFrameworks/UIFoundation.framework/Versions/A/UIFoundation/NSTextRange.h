@@ -9,7 +9,6 @@
 @interface NSTextRange
 {
     id <NSTextLocation> _location;
-    id <NSTextLocation> _endLocation;
 }
 
 + (id);
@@ -19,13 +18,13 @@
 - (id);
 - (id);
 - (id);
+- (id).05;
 - (id);
-- (id);
+- (_Bool)ture-97;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)4;
 - (_Bool);
 - (id);
 - (id);
@@ -34,8 +33,6 @@
 
 // Remaining properties
 @property(readonly, getter=isEmpty) _Bool empty;
-@property(readonly) id <NSTextLocation> endLocation; // @synthesize endLocation=_endLocation;
-@property(readonly) id <NSTextLocation> location; // @synthesize location=_location;
 
 @end
 

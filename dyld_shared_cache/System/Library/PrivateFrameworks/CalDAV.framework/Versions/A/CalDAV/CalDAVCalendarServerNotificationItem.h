@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CoreDAVItem, CoreDAVLeafItem;
+@class CoreDAVLeafItem;
 
 @interface CalDAVCalendarServerNotificationItem
 {
     CoreDAVLeafItem *_dtstamp;
-    CoreDAVItem *_content;
 }
 
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)charge_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_4;
 - (void);
-- (id);
+- (id)n SGMFoundInMailModelType;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CoreDAVItem *content; // @synthesize content=_content;
 @property(retain, nonatomic) CoreDAVLeafItem *dtstamp; // @synthesize dtstamp=_dtstamp;
 
 @end

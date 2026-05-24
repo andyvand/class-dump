@@ -10,16 +10,14 @@ __attribute__((visibility("hidden")))
 @interface _NSUndoActionInfo
 {
     NSUUID *_uuid;
-    id _name;
-    _Bool _discardable;
 }
 
 + (_Bool)sequence %d on thread %p;
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (id);
 
 @end

@@ -24,7 +24,7 @@ __attribute__((visibility("hidden")))
 + (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (void)n::mod::BinSerializedModelFileInfo &) /* Error: Ran out of types for this method. */;
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFTimer, MovingAverage, NSString;
+@class HMFTimer;
 
 @interface HMIMemorySampler
 {
     long long _highWaterMark;
-    HMFTimer *_tick;
-    MovingAverage *_average;
 }
 
 + (id);
@@ -21,20 +19,11 @@
 - (void);
 - (void);
 - (long long);
-- (id);
+- (id)showGridOverlayWithErrorCallback:successCallback:nodeId:gridOverlayConfig: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly) MovingAverage *average; // @synthesize average=_average;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property long long highWaterMark; // @synthesize highWaterMark=_highWaterMark;
-@property(readonly) Class superclass;
 @property(readonly) HMFTimer *tick; // @synthesize tick=_tick;
 
 @end

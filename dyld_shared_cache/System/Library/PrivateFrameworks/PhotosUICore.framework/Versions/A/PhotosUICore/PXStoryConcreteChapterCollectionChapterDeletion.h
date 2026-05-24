@@ -20,7 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<NSCopying> *deletedChapterIdentifier; // @synthesize deletedChapterIdentifier=_deletedChapterIdentifier;
-@property(readonly, nonatomic) long long kind;
 
 @end
 

@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSEvent, NSGestureRecognizer, NSString, UXCollectionView, UXCollectionViewCell, UXCollectionViewLayout, _UXCollectionViewLayoutProxy;
-@protocol UXCollectionViewDataSource_Rearranging, UXCollectionViewDelegate_Rearranging;
+@class _UXCollectionViewLayoutProxy;
 
 @interface _UXCollectionViewRearrangingCoordinator
 {
@@ -33,38 +32,6 @@
         unsigned int delegateImplementsDraggingExited:1;
         unsigned int delegateImplementsDraggingEnded:1;
     } _collectionViewFlags;
-    NSArray *_initialIndexPaths;
-    NSArray *_targetIndexPaths;
-    NSArray *_movedIndexPaths;
-    NSArray *_exchangedIndexPaths;
-    struct CGPoint _screenPoint;
-    _Bool _initialIndexPathsAreContiguous;
-    NSGestureRecognizer *_gestureRecognizer;
-    double _dragStartTime;
-    double _collectionViewReloadLastCallTime;
-    double _dragEnteredTime;
-    _Bool _updatesLayoutOnDrag;
-    _Bool _autoscrolling;
-    unsigned long long _sequenceNumber;
-    NSEvent *_mouseDownEvent;
-    _Bool _isRearranging;
-    _Bool _enabled;
-    _Bool _allowDragOutsideCells;
-    _Bool _continuouslyUpdateInsideCells;
-    _Bool _usePileForSingleItem;
-    _Bool _allowAutoscroll;
-    _Bool _shouldExchange;
-    UXCollectionView *_collectionView;
-    long long _initiationMode;
-    double _rearrangingInitialDelay;
-    double _rearrangingPreviewDelay;
-    UXCollectionViewCell *_dropTargetCell;
-    unsigned long long _dropOperation;
-    NSString *_dragSourceIdentifier;
-    struct _NSRange _initialIndexRange;
-    struct _NSRange _targetIndexRange;
-    struct _NSRange _movedIndexRange;
-    struct _NSRange _exchangedIndexRange;
 }
 
 - (_Bool);
@@ -84,7 +51,7 @@
 - (void);
 - (void);
 - (double);
-- (double);
+- (double)`;
 - (id);
 - (_Bool);
 - (long long);
@@ -94,7 +61,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -109,12 +76,12 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)C;
 - (struct _NSRange);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)a;
 - (void);
 - (void);
 - (_Bool);
@@ -127,50 +94,22 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
-- (id);
+- (void)';
+- (id)+;
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id)7M;
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool allowAutoscroll; // @synthesize allowAutoscroll=_allowAutoscroll;
-@property(nonatomic) _Bool allowDragOutsideCells; // @synthesize allowDragOutsideCells=_allowDragOutsideCells;
-@property(readonly, nonatomic) UXCollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(readonly, nonatomic) UXCollectionViewLayout *collectionViewLayout;
-@property(nonatomic) _Bool continuouslyUpdateInsideCells; // @synthesize continuouslyUpdateInsideCells=_continuouslyUpdateInsideCells;
-@property(readonly, nonatomic) id <UXCollectionViewDataSource_Rearranging> dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) id <UXCollectionViewDelegate_Rearranging> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *dragSourceIdentifier; // @synthesize dragSourceIdentifier=_dragSourceIdentifier;
-@property(nonatomic) unsigned long long dropOperation; // @synthesize dropOperation=_dropOperation;
-@property(retain, nonatomic) UXCollectionViewCell *dropTargetCell; // @synthesize dropTargetCell=_dropTargetCell;
-@property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(nonatomic) struct _NSRange exchangedIndexRange; // @synthesize exchangedIndexRange=_exchangedIndexRange;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct _NSRange initialIndexRange; // @synthesize initialIndexRange=_initialIndexRange;
-@property(nonatomic) long long initiationMode; // @synthesize initiationMode=_initiationMode;
-@property(readonly, nonatomic) _Bool isRearranging; // @synthesize isRearranging=_isRearranging;
 @property(readonly, nonatomic) _UXCollectionViewLayoutProxy *layoutProxy;
-@property(nonatomic) struct _NSRange movedIndexRange; // @synthesize movedIndexRange=_movedIndexRange;
-@property(nonatomic) double rearrangingInitialDelay; // @synthesize rearrangingInitialDelay=_rearrangingInitialDelay;
-@property(nonatomic) double rearrangingPreviewDelay; // @synthesize rearrangingPreviewDelay=_rearrangingPreviewDelay;
-@property(nonatomic) _Bool shouldExchange; // @synthesize shouldExchange=_shouldExchange;
-@property(readonly) Class superclass;
-@property(nonatomic) struct _NSRange targetIndexRange; // @synthesize targetIndexRange=_targetIndexRange;
-@property(nonatomic) _Bool usePileForSingleItem; // @synthesize usePileForSingleItem=_usePileForSingleItem;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface CoreML.MLComputePlan
 {
     id modelStructure;
-    id impl;
 }
 
 @end

@@ -6,25 +6,22 @@
 
 #import <DialogEngine/DEParameter.h>
 
-@class NSString;
-
 @interface DEPatternSetting : DEParameter
 {
     shared_ptr_762379bf _This;
 }
 
-- (void);
+- (void);
 - (id);
 - (void *);
 - (id);
 - (shared_ptr_762379bf);
 - (id);
-- (id);
+- (id)";
 - (void);
 
 // Remaining properties
 @property shared_ptr_762379bf This; // @synthesize This=_This;
-@property(readonly) NSString *defaultValueFromSetting;
 
 @end
 

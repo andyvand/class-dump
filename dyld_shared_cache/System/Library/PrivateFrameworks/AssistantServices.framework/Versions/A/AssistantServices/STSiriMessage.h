@@ -6,53 +6,41 @@
 
 #import <AssistantServices/STSiriModelObject.h>
 
-@class NSArray, NSDate, NSString, NSURL, STContactAddress;
-
 @interface STSiriMessage : STSiriModelObject
 {
     _Bool _outbound;
-    STContactAddress *_senderAddress;
-    NSString *_senderInternalGUID;
-    NSArray *_recipientAddresses;
-    NSString *_groupName;
-    NSString *_groupNameId;
-    NSString *_subjectText;
-    NSString *_bodyText;
-    NSString *_effect;
-    NSURL *_attachmentURL;
-    NSDate *_sendDate;
-    NSString *_chatIdentifier;
 }
 
-+ (_Bool);
++ (_Bool)o;
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)I@9?;
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
+- (id)
+ʊ;
+- (void);
 - (id);
-- (void)thToken: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void)_getState:withToken: /* Error: Ran out of types for this method. */;
 - (void)dio-session-assertion.connection-workloop;
 
 @end

@@ -7,8 +7,6 @@
 @interface PodcastsFoundation.ICReachability
 {
     id environmentMonitor;
-    id _isReachable;
-    id environmentMonitorObserver;
 }
 
 - (_Bool);
@@ -19,11 +17,7 @@
 - (_Bool)|d;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool isGlobalCellularEnabled;
-@property(nonatomic, readonly) _Bool isPodcastsCellularDownloadsEnabled;
 @property(nonatomic) _Bool isReachable;
-@property(nonatomic, readonly) _Bool isReachableViaCellular;
-@property(nonatomic, readonly) _Bool isReachableViaWifi;
 
 @end
 

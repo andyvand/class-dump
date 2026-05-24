@@ -5,32 +5,27 @@
 //
 
 @class VNFaceObservation;
-@protocol NSObject><NSCopying><NSSecureCoding;
 
 @interface VNPersonsModelPrediction
 {
     VNFaceObservation *_faceObservation;
-    id <NSObject><NSCopying><NSSecureCoding> _predictedPersonUniqueIdentifier;
-    float _confidence;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)fp_isDownloadRequested;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
-- (float);
-- (void)yHeatmapBoundingBoxGeneratorType;
+- (float)initWithInitialState:condition:nextState:resultSelector:delay:scheduler: /* Error: Ran out of types for this method. */;
+- (void)VNObjectnessBasedSaliencyHeatmapBoundingBoxGeneratorType;
 
 // Remaining properties
-@property(readonly, nonatomic) float confidence; // @synthesize confidence=_confidence;
 @property(readonly, nonatomic) VNFaceObservation *faceObservation; // @synthesize faceObservation=_faceObservation;
-@property(readonly, copy, nonatomic) id <NSObject><NSCopying><NSSecureCoding> predictedPersonUniqueIdentifier; // @synthesize predictedPersonUniqueIdentifier=_predictedPersonUniqueIdentifier;
 
 @end
 

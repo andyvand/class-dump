@@ -10,19 +10,20 @@
 {
 }
 
-- (_Bool);
+- (_Bool)get itunes-min-ver
+;
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (oneway void);
-- (id);
+- (id)7;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (Class);
+- (void)__NSURLSessionStatistics;
+- (Class)L0;
 
 @end
 

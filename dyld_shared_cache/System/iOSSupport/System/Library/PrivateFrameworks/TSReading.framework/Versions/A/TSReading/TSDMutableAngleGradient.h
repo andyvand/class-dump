@@ -6,13 +6,11 @@
 
 #import <TSReading/TSDAngleGradient.h>
 
-@class NSArray, NSString, TSUColor;
-
 @interface TSDMutableAngleGradient : TSDAngleGradient
 {
 }
 
-- (void);
+- (void)nSeeking - identifier:(unsigned long long)arg1;
 - (void);
 - (void);
 - (void);
@@ -23,28 +21,14 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)j;
 - (void);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) TSUColor *firstColor;
-@property(nonatomic) double gradientAngle; // @dynamic gradientAngle;
 @property(nonatomic) double gradientAngleInDegrees; // @dynamic gradientAngleInDegrees;
-@property(retain, nonatomic) NSArray *gradientStops; // @dynamic gradientStops;
-@property(nonatomic) unsigned long long gradientType; // @dynamic gradientType;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isAdvancedGradient; // @dynamic isAdvancedGradient;
-@property(retain, nonatomic) TSUColor *lastColor;
-@property(nonatomic) double opacity; // @dynamic opacity;
-@property(readonly) Class superclass;
 
 @end
 

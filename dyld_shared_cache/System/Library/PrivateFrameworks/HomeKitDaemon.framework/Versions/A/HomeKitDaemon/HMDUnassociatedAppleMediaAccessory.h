@@ -6,24 +6,12 @@
 
 #import <HomeKitDaemon/HMDUnassociatedMediaAccessory.h>
 
-@class HMDCapabilityFlags, HMDDevice, HMDHomeKitVersion, HMFSoftwareVersion, NSData, NSString;
+@class HMDDevice;
 
 __attribute__((visibility("hidden")))
 @interface HMDUnassociatedAppleMediaAccessory : HMDUnassociatedMediaAccessory
 {
     _Bool _currentAccessory;
-    NSString *_model;
-    NSString *_serialNumber;
-    HMFSoftwareVersion *_softwareVersion;
-    HMDDevice *_device;
-    long long _productColor;
-    unsigned long long _supportedStereoPairVersions;
-    HMDHomeKitVersion *_minimumRequiredPairingSoftwareVersion;
-    NSString *_idsIdentifierString;
-    NSData *_rawAccessoryCapabilities;
-    NSData *_rawResidentCapabilities;
-    HMDCapabilityFlags *_requiredPairingCapabilities;
-    unsigned long long _variant;
 }
 
 + (_Bool)ÈÄ;
@@ -31,11 +19,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id)ary/Frameworks/Network.framework/Versions/A/Network;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)mapItemStorageForGEOMapItem:(id)arg1 forUseType:(id)arg2;
+- (id)lookupTransactionType;
+- (id)subscribeToSharedTripUpdatesWithIdentifier:(_Bool)arg1 completion:(id)arg2 ];
 - (_Bool);
 - (id);
 - (void);
@@ -44,8 +32,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
-- (id);
+- (unsigned long long)>"8@"<CLSSimilarlyStackableItem>"16;
+- (id)rtStr = %s;
 - (id);
 - (void);
 - (long long);
@@ -53,7 +41,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id)y"16@?<v@?>24;
-- (id)kend: /* Error: Ran out of types for this method. */;
+- (id)initWithWorkQueue:messageDispatcher:notificationBackend: /* Error: Ran out of types for this method. */;
 - (void)hreadNetworkStatusReport",R,N,V_threadNetworkStatusReport;
 - (id)%@ :%@ /* Error: Ran out of types for this method. */;
 - (void)is neither a bool nor a number;
@@ -61,19 +49,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long)s not found;
 
 // Remaining properties
-@property(nonatomic, getter=isCurrentAccessory) _Bool currentAccessory; // @synthesize currentAccessory=_currentAccessory;
 @property(retain) HMDDevice *device; // @synthesize device=_device;
-@property(readonly) NSString *idsIdentifierString; // @synthesize idsIdentifierString=_idsIdentifierString;
-@property(readonly) HMDHomeKitVersion *minimumRequiredPairingSoftwareVersion; // @synthesize minimumRequiredPairingSoftwareVersion=_minimumRequiredPairingSoftwareVersion;
-@property(copy) NSString *model; // @synthesize model=_model;
-@property(readonly) long long productColor; // @synthesize productColor=_productColor;
-@property(readonly) NSData *rawAccessoryCapabilities; // @synthesize rawAccessoryCapabilities=_rawAccessoryCapabilities;
-@property(readonly) NSData *rawResidentCapabilities; // @synthesize rawResidentCapabilities=_rawResidentCapabilities;
-@property(readonly) HMDCapabilityFlags *requiredPairingCapabilities; // @synthesize requiredPairingCapabilities=_requiredPairingCapabilities;
-@property(copy) NSString *serialNumber; // @synthesize serialNumber=_serialNumber;
-@property(copy) HMFSoftwareVersion *softwareVersion; // @synthesize softwareVersion=_softwareVersion;
-@property unsigned long long supportedStereoPairVersions; // @synthesize supportedStereoPairVersions=_supportedStereoPairVersions;
-@property unsigned long long variant; // @synthesize variant=_variant;
 
 @end
 

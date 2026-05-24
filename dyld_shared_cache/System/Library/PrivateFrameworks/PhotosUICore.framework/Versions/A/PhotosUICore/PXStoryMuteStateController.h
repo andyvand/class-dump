@@ -6,15 +6,11 @@
 
 #import <PhotosUICore/PXStoryController.h>
 
-@class NSString, PXStoryModel, PXStoryViewModel, PXVolumeController;
-@protocol PXUserDefaultsDataSource;
+@class PXStoryModel, PXStoryViewModel;
 
 @interface PXStoryMuteStateController : PXStoryController
 {
     PXStoryViewModel *_viewModel;
-    PXVolumeController *_volumeController;
-    id <PXUserDefaultsDataSource> _userDefaults;
-    PXStoryModel *_mainModel;
 }
 
 - (void);
@@ -26,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (id)ctiveMemoryButtonAccessibilityLabelUnmute;
+- (id)InteractiveMemoryButtonAccessibilityLabelUnmute;
 - (void)ken:(id)arg1 %@
 ;
 - (void)1l´È³úþ9l´lööþl´¼³úþ;
@@ -34,17 +30,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) PXStoryModel *mainModel; // @synthesize mainModel=_mainModel;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <PXUserDefaultsDataSource> userDefaults; // @synthesize userDefaults=_userDefaults;
-@property(readonly, nonatomic) __weak PXStoryViewModel *viewModel; // @synthesize viewModel=_viewModel;
-@property(readonly, nonatomic) PXVolumeController *volumeController; // @synthesize volumeController=_volumeController;
 
 @end
 

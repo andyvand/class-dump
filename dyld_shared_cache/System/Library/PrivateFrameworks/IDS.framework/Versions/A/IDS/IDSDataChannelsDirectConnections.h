@@ -10,7 +10,6 @@
 @interface IDSDataChannelsDirectConnections
 {
     NSObject<OS_nw_connection> *_udpConnection;
-    NSObject<OS_nw_connection> *_qpodConnection;
 }
 
 - (id);
@@ -21,7 +20,6 @@
 × ;
 
 // Remaining properties
-@property(retain) NSObject<OS_nw_connection> *qpodConnection; // @synthesize qpodConnection=_qpodConnection;
 @property(retain) NSObject<OS_nw_connection> *udpConnection; // @synthesize udpConnection=_udpConnection;
 
 @end

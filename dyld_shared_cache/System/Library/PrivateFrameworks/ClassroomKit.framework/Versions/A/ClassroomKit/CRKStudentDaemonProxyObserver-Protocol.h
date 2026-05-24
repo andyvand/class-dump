@@ -5,5 +5,8 @@
 //
 
 @protocol CRKStudentDaemonProxyObserver
+
+@optional
+- (void);
 @end
 

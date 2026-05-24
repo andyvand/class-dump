@@ -9,7 +9,7 @@
 }
 
 - (id);
-- (long long);
+- (long long)Rcd;
 
 @end
 

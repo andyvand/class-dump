@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSUbiquitousKeyValueStore;
-@protocol EDConversationRemoteStorageDelegate, OS_dispatch_queue;
+@protocol EDConversationRemoteStorageDelegate;
 
 @interface EDConversationRemoteKVSStorage
 {
     _Bool _initialized;
-    id <EDConversationRemoteStorageDelegate> _delegate;
-    NSUbiquitousKeyValueStore *_kvStore;
-    NSObject<OS_dispatch_queue> *_privateQueue;
 }
 
 + (id)³ð1Â0@ù
@@ -24,7 +20,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)S;
 - (id);
 - (id);
 - (_Bool);
@@ -40,17 +36,7 @@ t¨;
 - (_Bool)è;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <EDConversationRemoteStorageDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isInitialized) _Bool initialized; // @synthesize initialized=_initialized;
-@property(retain, nonatomic) NSUbiquitousKeyValueStore *kvStore; // @synthesize kvStore=_kvStore;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *privateQueue; // @synthesize privateQueue=_privateQueue;
-@property(readonly) Class superclass;
 
 @end
 

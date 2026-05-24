@@ -5,5 +5,9 @@
 //
 
 @protocol CNChangeHistoryEventVisitor
+- (void)PgQuery_MultiAssignRef;
+
+@optional
+- (void);
 @end
 

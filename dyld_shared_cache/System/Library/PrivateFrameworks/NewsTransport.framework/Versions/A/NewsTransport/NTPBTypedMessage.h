@@ -4,43 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NTPBCKRecord, NTPBSmarterFetchResponse;
+@class NTPBCKRecord;
 
 @interface NTPBTypedMessage
 {
     NTPBCKRecord *_ckRecord;
-    NTPBSmarterFetchResponse *_smarterFetchResponse;
-    int _type;
-    CDStruct_f953fb60 _has;
 }
 
+- (id)initWithSelectionSnapshot:undoManager: /* Error: Ran out of types for this method. */;
+- (void)initWithMomentShare:(id)arg1 presentationStyle: /* Error: Ran out of types for this method. */;
+- (void)footerTextWithCompletion:(id)arg1;
+- (_Bool)ensureUniquePath:andAlternateExtension: /* Error: Ran out of types for this method. */;
+- (_Bool)defaultSimulatedMediaRequestWithOriginalOptions:simulatedResultHandler: /* Error: Ran out of types for this method. */;
+- (id)creationRequestForAssetFromGuestAsset: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)0:8:16@24@32 /* Error: Ran out of types for this method. */;
+- (_Bool)(GID:(id)arg1 %lu UID:%@) /* Error: Ran out of types for this method. */;
+- (int)writeSeenHistoryItems: /* Error: Ran out of types for this method. */;
+- (_Bool)lize FCNewsTabiSmarterFetchOutputConfiguration due to failure to decode bundleOutputConfiguration from configuration %{public}@;
 - (id);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (int);
-- (_Bool);
-- (id);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
 - (void)k"b1"lastModifiedDateMilliseconds"b1"minimumNewsVersion"b1"order"b1"publishDateMilliseconds"b1"publisherArticleVersion"b1"surfacedByFlags"b1"storyType"b1"hasAudioTrack"b1"hasThumbnail"b1"hasVideo"b1"hasVideoStillImage"b1"isAIGenerated"b1"isBundlePaid"b1"isCoread"b1"isEvergreen"b1"isExplicitContent"b1"isFeatureCandidate"b1"isFeatured"b1"isFromBlockedStorefront"b1"isHiddenFromAutoFavorites"b1"isIssueOnly"b1"isPaid"b1"isSponsored"b1"reduceVisibility"b1"reduceVisibilityForNonFollowers"b1"webConverted"b1};
 
 // Remaining properties
-@property(retain, nonatomic) NTPBCKRecord *ckRecord; // @synthesize ckRecord=_ckRecord;
-@property(readonly, nonatomic) _Bool hasCkRecord;
-@property(readonly, nonatomic) _Bool hasSmarterFetchResponse;
 @property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) NTPBSmarterFetchResponse *smarterFetchResponse; // @synthesize smarterFetchResponse=_smarterFetchResponse;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

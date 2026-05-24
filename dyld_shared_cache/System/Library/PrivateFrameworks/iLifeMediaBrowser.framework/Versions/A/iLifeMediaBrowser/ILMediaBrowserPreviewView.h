@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ILMediaBrowserImagePreviewView, ILMediaBrowserMovieView, NSArray, NSWindow;
+@class ILMediaBrowserMovieView;
 
 @interface ILMediaBrowserPreviewView
 {
     ILMediaBrowserMovieView *_movieView;
-    ILMediaBrowserImagePreviewView *_imageView;
-    id _representedObject;
-    NSArray *_objectList;
-    _Bool _showingThumbnail;
-    id _enterKeyTarget;
-    SEL _enterKeyAction;
-    id _viewDelegate;
-    NSWindow *_flagWindow;
 }
 
 + (id);
@@ -42,10 +34,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)So11UITableViewCSgXw;
 - (_Bool);
 - (void);
-- (void);
+- (void)t;
 - (void);
 - (void);
 - (id);
@@ -55,7 +47,7 @@
 - (_Bool);
 - (void)Ð1Â0@ù
 × ;
-- (void)lineViewDidBecomeFirstResponder: /* Error: Ran out of types for this method. */;
+- (void)outlineViewDidBecomeFirstResponder: /* Error: Ran out of types for this method. */;
 
 @end
 

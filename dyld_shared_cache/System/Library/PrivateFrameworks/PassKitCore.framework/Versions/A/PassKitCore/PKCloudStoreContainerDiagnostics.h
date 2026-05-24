@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PKCloudStoreContainerDiagnostics
 {
     _Bool _isEnabled;
-    _Bool _isSetup;
-    _Bool _isSyncEnabled;
-    _Bool _didFinishInitialSync;
-    _Bool _isAccountManateeCapable;
-    _Bool _isDeviceManateeCapable;
-    _Bool _isManateeEnabled;
-    NSString *_status;
-    NSString *_syncToken;
-    NSString *_lastSyncDate;
 }
 
 + (id);
@@ -29,25 +18,16 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)hasClientConnectionCount;
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void)"NSDecimalNumber"16@?0@"NSString"8;
 - (id)L¤~ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool didFinishInitialSync; // @synthesize didFinishInitialSync=_didFinishInitialSync;
-@property(readonly, nonatomic) _Bool isAccountManateeCapable; // @synthesize isAccountManateeCapable=_isAccountManateeCapable;
-@property(readonly, nonatomic) _Bool isDeviceManateeCapable; // @synthesize isDeviceManateeCapable=_isDeviceManateeCapable;
 @property(readonly, nonatomic) _Bool isEnabled; // @synthesize isEnabled=_isEnabled;
-@property(readonly, nonatomic) _Bool isManateeEnabled; // @synthesize isManateeEnabled=_isManateeEnabled;
-@property(readonly, nonatomic) _Bool isSetup; // @synthesize isSetup=_isSetup;
-@property(readonly, nonatomic) _Bool isSyncEnabled; // @synthesize isSyncEnabled=_isSyncEnabled;
-@property(readonly, nonatomic) NSString *lastSyncDate; // @synthesize lastSyncDate=_lastSyncDate;
-@property(readonly, nonatomic) NSString *status; // @synthesize status=_status;
-@property(readonly, nonatomic) NSString *syncToken; // @synthesize syncToken=_syncToken;
 
 @end
 

@@ -6,24 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaAnnounceNotifications : SISchemaInstrumentationMessage
 {
     _Bool _isEnabled;
-    _Bool _proxCardSeen;
-    _Bool _replyWithoutConfirmation;
-    int _carPlayStatus;
-    _Bool _isEnabledForHeadphones;
-    _Bool _isCarPlayMuted;
-    struct {
-        unsigned int isEnabled:1;
-        unsigned int proxCardSeen:1;
-        unsigned int replyWithoutConfirmation:1;
-        unsigned int carPlayStatus:1;
-        unsigned int isEnabledForHeadphones:1;
-        unsigned int isCarPlayMuted:1;
-    } _has;
 }
 
 - (void);
@@ -35,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)B;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -51,35 +36,24 @@
 - (int);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)�;
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)A;
 - (unsigned long long);
+- (_Bool)CNCollectionViewTouchBar;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)and c.guid = ?   WHERE crmj.delete_date < ?    AND NOT (m.group_action_type IN (1,3) AND (m.ROWID IN (SELECT message_id FROM message_attachment_join))) );;
 - (id);
-- (id);
-- (id)IndexLists;
-- (id)sCount;
+- (id)mageBuffer_InitForCopyToCVPixelBuffer?
+;
+- (id)correctAlignedUnfilteredPartialResultIndexLists;
+- (id)_airPlayTargetedDevicesCount;
 - (void);
 
 // Remaining properties
-@property(nonatomic) int carPlayStatus; // @synthesize carPlayStatus=_carPlayStatus;
-@property(nonatomic) _Bool hasCarPlayStatus;
-@property(nonatomic) _Bool hasIsCarPlayMuted;
-@property(nonatomic) _Bool hasIsEnabled;
-@property(nonatomic) _Bool hasIsEnabledForHeadphones;
-@property(nonatomic) _Bool hasProxCardSeen;
-@property(nonatomic) _Bool hasReplyWithoutConfirmation;
-@property(nonatomic) _Bool isCarPlayMuted; // @synthesize isCarPlayMuted=_isCarPlayMuted;
 @property(nonatomic) _Bool isEnabled; // @synthesize isEnabled=_isEnabled;
-@property(nonatomic) _Bool isEnabledForHeadphones; // @synthesize isEnabledForHeadphones=_isEnabledForHeadphones;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) _Bool proxCardSeen; // @synthesize proxCardSeen=_proxCardSeen;
-@property(nonatomic) _Bool replyWithoutConfirmation; // @synthesize replyWithoutConfirmation=_replyWithoutConfirmation;
 
 @end
 

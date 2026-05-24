@@ -7,12 +7,11 @@
 @class NSString;
 
 @protocol INSetLabeledSettingIntentResponseExport
-- (long long)our;
+- (NSString *);
+- (void)tyResubmission;
+- (long long)hour;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) NSString *errorDetail;
-@property(copy) NSString *oldValue;
-@property(copy) NSString *updatedValue;
 @end
 

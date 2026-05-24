@@ -6,9 +6,6 @@
 
 #import <CoreBluetooth/CBManager.h>
 
-@class NSHashTable, NSLock, NSMapTable, NSMutableArray, NSMutableDictionary, NSNumber;
-@protocol CBPeripheralManagerDelegate;
-
 @interface CBPeripheralManager : CBManager
 {
     struct {
@@ -36,19 +33,6 @@
         unsigned int didCloseL2CAPChannel:1;
         unsigned int didReceiveL2CAPData:1;
     } _delegateFlags;
-    _Bool _observingKeyPaths;
-    _Bool _isAdvertising;
-    _Bool _readyForUpdates;
-    _Bool _waitingForReady;
-    id <CBPeripheralManagerDelegate> _delegate;
-    NSMapTable *_centrals;
-    NSMutableArray *_services;
-    NSMutableDictionary *_characteristicIDs;
-    NSLock *_updateLock;
-    NSNumber *_multipleAdvertisingSupported;
-    NSHashTable *_l2capChannels;
-    CDUnknownBlockType _incomingConnectionRequestCompletion;
-    unsigned long long _attributeIDGenerator;
 }
 
 + (_Bool);
@@ -58,22 +42,22 @@
 - (_Bool);
 - (void);
 - (void);
+- (void);
+- (void);
+- (id)AVFragmentedAssetInternal;
+- (void).;
+- (id)ter after segmentation has started.;
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
+- (void)T;
 - (void);
 - (void);
 - (void);
+- (void);
+- (unsigned long long)DispatchTime;
+- (void);
+- (void)ion;
+- (void)eDisabledStoreDemo;
 - (_Bool);
 - (id);
 - (void);
@@ -92,68 +76,56 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)h;
 - (void);
 - (void);
 - (_Bool);
 - (void);
+- (id);
 - (void);
 - (void);
+- (id);
+- (void);
+- (id)`A9?;
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void)A;
 - (void);
 - (id);
+- (void)SK_DM_Daemon2ClientDelegate;
+- (id)@;
+- (void)eDatabaseAndForceRebuild:(id)arg1 ];
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)d-only;
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
+- (void)@9H;
+- (id)#;
+- (void);
 - (_Bool);
 - (void);
 - (void);
+- (id)ameMapping count=%lu;
+- (void)tartCount=%f;
 - (id);
 - (void);
-- (id);
-- (void);
-- (id)viceIndex;
-- (_Bool)ckingOptionRssiIncreaseScanThreshold;
+- (id)_targetDeviceIndex;
+- (_Bool)kCBTrackingOptionRssiIncreaseScanThreshold;
 
 // Remaining properties
-@property unsigned long long attributeIDGenerator; // @synthesize attributeIDGenerator=_attributeIDGenerator;
-@property(readonly, retain, nonatomic) NSMapTable *centrals; // @synthesize centrals=_centrals;
-@property(readonly, retain, nonatomic) NSMutableDictionary *characteristicIDs; // @synthesize characteristicIDs=_characteristicIDs;
-@property(nonatomic) __weak id <CBPeripheralManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(copy, nonatomic) CDUnknownBlockType incomingConnectionRequestCompletion; // @synthesize incomingConnectionRequestCompletion=_incomingConnectionRequestCompletion;
 @property(nonatomic) _Bool isAdvertising; // @synthesize isAdvertising=_isAdvertising;
-@property(readonly, nonatomic, getter=supportsMultipleAdvertising) _Bool isSupportingMultipleAdvertising;
-@property(readonly, retain, nonatomic) NSHashTable *l2capChannels; // @synthesize l2capChannels=_l2capChannels;
-@property(retain, nonatomic) NSNumber *multipleAdvertisingSupported; // @synthesize multipleAdvertisingSupported=_multipleAdvertisingSupported;
-@property(readonly, nonatomic) _Bool readyForUpdates; // @synthesize readyForUpdates=_readyForUpdates;
-@property(readonly, retain, nonatomic) NSMutableArray *services; // @synthesize services=_services;
-@property(readonly, retain, nonatomic) NSLock *updateLock; // @synthesize updateLock=_updateLock;
-@property(readonly, nonatomic) _Bool waitingForReady; // @synthesize waitingForReady=_waitingForReady;
 
 @end
 

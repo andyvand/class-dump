@@ -17,14 +17,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)	?א;
 - (id);
 - (id);
 - (void)0¨: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *actionIdentifier;
-@property(nonatomic, readonly) NSString *localizedActionName;
 
 @end
 

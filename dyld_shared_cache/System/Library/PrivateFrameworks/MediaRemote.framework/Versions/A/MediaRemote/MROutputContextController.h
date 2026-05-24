@@ -6,33 +6,18 @@
 
 #import <MediaRemote/MROutputContextDataSource.h>
 
-@class MRAVOutputContext, MRAVOutputDevice, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_group, OS_dispatch_queue;
+@class MRAVOutputContext;
 
 @interface MROutputContextController : MROutputContextDataSource
 {
     MRAVOutputContext *_outputContext;
-    float _masterVolume;
-    unsigned int _masterVolumeControlCapabilities;
-    _Bool _groupVolumeMuted;
-    _Bool _localVolumeInitialized;
-    _Bool _localVolumeControlCapabilitiesInitialized;
-    _Bool _localVolumeMutedInitialized;
-    NSMutableDictionary *_outputDeviceVolume;
-    NSMutableDictionary *_outputDeviceVolumeMuted;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    NSObject<OS_dispatch_group> *_initializationGroup;
-    _Bool _localVolumeMuted;
-    float _localVolume;
-    unsigned int _localVolumeControlCapabilities;
-    MRAVOutputDevice *_designatedGroupLeaderWhenContextEmpty;
 }
 
-+ (id);
++ (id);
 - (id);
 - (id);
 - (void);
-- (unsigned int);
+- (unsigned int);
 - (void);
 - (id);
 - (id);
@@ -40,13 +25,13 @@
 - (id);
 - (void);
 - (void);
+- (void)C;
 - (void);
 - (void);
+- (_Bool)"s;
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
+- (void)_publishingService;
+- (_Bool)elayTranslationMessage;
 - (void);
 - (void);
 - (unsigned int);
@@ -54,10 +39,10 @@
 - (void);
 - (float);
 - (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
+- (void)assistantIsSupportedForLanguageCode:(id)arg1 error:(CDUnknownBlockType)arg2;
+- (id)ctivateWithRequestInfo:(id)arg1 context:completion:] /* Error: Ran out of types for this method. */;
+- (id):]_block_invoke /* Error: Ran out of types for this method. */;
+- (_Bool)homeKitMediaSystemIdentifier;
 - (_Bool);
 - (void);
 - (id);
@@ -67,12 +52,7 @@
 - (void)uf",&,N,V_time;
 
 // Remaining properties
-@property(retain, nonatomic) MRAVOutputDevice *designatedGroupLeaderWhenContextEmpty; // @synthesize designatedGroupLeaderWhenContextEmpty=_designatedGroupLeaderWhenContextEmpty;
-@property(readonly, nonatomic, getter=isLocalDeviceDesignatedGroupLeader) _Bool localDeviceDesignatedGroupLeader;
 @property(nonatomic) float localVolume; // @synthesize localVolume=_localVolume;
-@property(nonatomic) unsigned int localVolumeControlCapabilities; // @synthesize localVolumeControlCapabilities=_localVolumeControlCapabilities;
-@property(nonatomic) _Bool localVolumeMuted; // @synthesize localVolumeMuted=_localVolumeMuted;
-@property(readonly, nonatomic, getter=isOutputContextEmpty) _Bool outputContextEmpty;
 
 @end
 

@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     UIColor *_lineColor;
 }
 
-- (_Bool)gForeground;
+- (_Bool)excludingForeground;
 - (id)$ö;
 - (void)$B];
 - (id)8¦e;

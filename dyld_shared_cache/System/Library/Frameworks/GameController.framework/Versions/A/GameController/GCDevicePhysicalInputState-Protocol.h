@@ -8,17 +8,11 @@
 @protocol GCDevice;
 
 @protocol GCDevicePhysicalInputState
+- (double);
 - (GCPhysicalInputElementCollection *)Á½$ð!èBùñ^(ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly) GCPhysicalInputElementCollection *axes;
-@property(readonly) GCPhysicalInputElementCollection *buttons;
 @property(readonly) __weak id <GCDevice> device;
-@property(readonly) GCPhysicalInputElementCollection *dpads;
-@property(readonly) GCPhysicalInputElementCollection *elements;
-@property(readonly) double lastEventLatency;
-@property(readonly) double lastEventTimestamp;
-@property(readonly) GCPhysicalInputElementCollection *switches;
 @end
 

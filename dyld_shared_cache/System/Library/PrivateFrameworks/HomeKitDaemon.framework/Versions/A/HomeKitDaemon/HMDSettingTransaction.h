@@ -4,41 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDSettingTransaction
 {
     _Bool _initialCreation;
-    NSString *_transactionLabel;
-    NSMutableSet *_updateModels;
-    NSMutableSet *_removeUUIDs;
 }
 
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)preciseChicago;
+- (id)rvice] Error starting to share with contact %{private}@:(id)arg1 %{public}@;
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (void)anged room notification:(id)arg1 %@;
-- (void)ryUpdatePairingMetricNotification;
+- (void)HMDMatterAccessoryUpdatePairingMetricNotification;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool initialCreation; // @synthesize initialCreation=_initialCreation;
-@property(readonly) NSMutableSet *removeUUIDs; // @synthesize removeUUIDs=_removeUUIDs;
-@property(readonly) Class superclass;
 @property(readonly) NSString *transactionLabel; // @synthesize transactionLabel=_transactionLabel;
-@property(readonly) NSMutableSet *updateModels; // @synthesize updateModels=_updateModels;
 
 @end
 

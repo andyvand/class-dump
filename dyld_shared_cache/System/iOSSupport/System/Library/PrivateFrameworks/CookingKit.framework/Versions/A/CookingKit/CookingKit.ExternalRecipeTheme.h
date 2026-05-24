@@ -7,6 +7,7 @@
 @interface CookingKit.ExternalRecipeTheme
 {
     id store;
+    id;
 }
 
 @end

@@ -15,9 +15,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long endOfEncoderSampleIndex; // @dynamic endOfEncoderSampleIndex;
 @property(retain, nonatomic) id <MTLCounterSampleBuffer> sampleBuffer; // @dynamic sampleBuffer;
-@property(nonatomic) unsigned long long startOfEncoderSampleIndex; // @dynamic startOfEncoderSampleIndex;
 
 @end
 

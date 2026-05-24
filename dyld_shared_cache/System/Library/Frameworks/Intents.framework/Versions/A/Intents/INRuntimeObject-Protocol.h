@@ -5,5 +5,6 @@
 //
 
 @protocol INRuntimeObject
+- (id)fs_quota;
 @end
 

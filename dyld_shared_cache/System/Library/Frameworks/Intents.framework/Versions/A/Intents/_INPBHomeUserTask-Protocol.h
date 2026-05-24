@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBHomeAttributeValue;
-
 @protocol _INPBHomeUserTask
-- (int)mbers;
+- (void);
+- (int);
+- (int)INTypePropertyMetadataSupportsNegativeNumbers;
 - (int)ØPiF;
 
 // Remaining properties
 @property(nonatomic) int attribute;
-@property(nonatomic) _Bool hasAttribute;
-@property(nonatomic) _Bool hasTaskType;
-@property(readonly, nonatomic) _Bool hasValue;
-@property(nonatomic) int taskType;
-@property(retain, nonatomic) _INPBHomeAttributeValue *value;
 @end
 

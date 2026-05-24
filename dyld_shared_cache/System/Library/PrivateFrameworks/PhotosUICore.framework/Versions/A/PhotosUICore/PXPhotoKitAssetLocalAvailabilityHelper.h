@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSProgress, PHResourceLocalAvailabilityRequest;
-@protocol OS_dispatch_queue, PXFastEnumeration;
+@protocol PXFastEnumeration;
 
 @interface PXPhotoKitAssetLocalAvailabilityHelper
 {
     _Bool _treatLivePhotoAsStill;
-    _Bool _wasInterrupted;
-    id <PXFastEnumeration> _assets;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSMutableArray *_pinnedResourceLocalAvailabilityRequests;
-    NSMutableArray *_resourceLocalAvailabilityRequests;
-    PHResourceLocalAvailabilityRequest *_currentResourceRequest;
-    NSProgress *_overallProgress;
-    NSProgress *_localAvailabilityProgress;
 }
 
 - (void);
@@ -31,23 +22,15 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)DefaultSavedAggregateModificationConfiguration;
 - (id);
 - (void);
-- (_Bool)yIfNeededWithUpdatedConsiderNewAfterDate: /* Error: Ran out of types for this method. */;
+- (_Bool)copyIfNeededWithUpdatedConsiderNewAfterDate: /* Error: Ran out of types for this method. */;
 - (id)g;
 - (void)±¡´Ã¡;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXFastEnumeration> assets; // @synthesize assets=_assets;
-@property(readonly, nonatomic) PHResourceLocalAvailabilityRequest *currentResourceRequest; // @synthesize currentResourceRequest=_currentResourceRequest;
-@property(retain, nonatomic) NSProgress *localAvailabilityProgress; // @synthesize localAvailabilityProgress=_localAvailabilityProgress;
-@property(readonly, nonatomic) NSProgress *overallProgress; // @synthesize overallProgress=_overallProgress;
-@property(readonly, nonatomic) NSMutableArray *pinnedResourceLocalAvailabilityRequests; // @synthesize pinnedResourceLocalAvailabilityRequests=_pinnedResourceLocalAvailabilityRequests;
-@property(readonly, nonatomic) NSMutableArray *resourceLocalAvailabilityRequests; // @synthesize resourceLocalAvailabilityRequests=_resourceLocalAvailabilityRequests;
-@property(readonly, nonatomic) _Bool treatLivePhotoAsStill; // @synthesize treatLivePhotoAsStill=_treatLivePhotoAsStill;
-@property(readonly, nonatomic) _Bool wasInterrupted; // @synthesize wasInterrupted=_wasInterrupted;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFZoneDatabaseID, NSArray, NSDate, NSString;
+@class NSArray, NSString;
 @protocol MKFHome;
 
 @protocol MKFZone
@@ -14,10 +14,6 @@
 - (NSArray *)blic}@Firmware Update Available for accessory:%@ status:%s /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFZoneDatabaseID *databaseID;
-@property(readonly, retain, nonatomic) id <MKFHome> home;
 @property(copy, nonatomic) NSString *name;
-@property(readonly, retain, nonatomic) NSArray *rooms;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 @end
 

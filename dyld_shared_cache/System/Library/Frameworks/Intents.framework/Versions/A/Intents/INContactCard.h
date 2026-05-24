@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INImage, NSArray, NSDateComponents, NSPersonNameComponents, NSString;
+@class NSString;
 
 @interface INContactCard
 {
     NSString *_contactIdentifier;
-    NSPersonNameComponents *_nameComponents;
-    _Bool _isMe;
-    INImage *_image;
-    NSString *_organizationName;
-    NSString *_departmentName;
-    NSString *_jobTitle;
-    NSArray *_phoneNumbers;
-    NSArray *_emailAddresses;
-    NSArray *_postalAddresses;
-    NSArray *_urlAddresses;
-    NSArray *_contactRelations;
-    NSArray *_instantMessageAddresses;
-    NSDateComponents *_birthday;
-    NSArray *_dates;
 }
 
 + (id);
@@ -33,40 +19,26 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)GCAdaptiveTriggersXPCProxyRemoteClientEndpointInterface;
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)__coalesceAndCacheEvent:(id)arg1;
 - (id);
-- (id);
-- (void);
-- (id);
+- (id)-8BEF-1312288CF029;
+- (void)_Lucky_ca.573204be-d474-11eb-8c3d-f45c89abb0d9;
+- (id).;
 - (_Bool);
 - (id);
 - (id)!Dù¿(ð1Â0@ù
 × ;
 - (id)¼È;
-- (void): /* Error: Ran out of types for this method. */;
+- (void)provideAlarmsOptionsForSnoozeAlarm:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 - (id)óÿAOºè;
 - (id)úMû8;
 - (id)èÂÿ;
 
 // Remaining properties
-@property(readonly, copy) NSDateComponents *birthday; // @synthesize birthday=_birthday;
 @property(readonly, copy) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(readonly, copy) NSArray *contactRelations; // @synthesize contactRelations=_contactRelations;
-@property(readonly, copy) NSArray *dates; // @synthesize dates=_dates;
-@property(readonly, copy) NSString *departmentName; // @synthesize departmentName=_departmentName;
-@property(readonly, copy) NSArray *emailAddresses; // @synthesize emailAddresses=_emailAddresses;
-@property(readonly, copy) INImage *image; // @synthesize image=_image;
-@property(readonly, copy) NSArray *instantMessageAddresses; // @synthesize instantMessageAddresses=_instantMessageAddresses;
-@property(readonly) _Bool isMe; // @synthesize isMe=_isMe;
-@property(readonly, copy) NSString *jobTitle; // @synthesize jobTitle=_jobTitle;
-@property(readonly, copy) NSPersonNameComponents *nameComponents; // @synthesize nameComponents=_nameComponents;
-@property(readonly, copy) NSString *organizationName; // @synthesize organizationName=_organizationName;
-@property(readonly, copy) NSArray *phoneNumbers; // @synthesize phoneNumbers=_phoneNumbers;
-@property(readonly, copy) NSArray *postalAddresses; // @synthesize postalAddresses=_postalAddresses;
-@property(readonly, copy) NSArray *urlAddresses; // @synthesize urlAddresses=_urlAddresses;
 
 @end
 

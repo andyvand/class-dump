@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapItemAttribution, NSArray, NSString;
+@class NSArray;
+@protocol GEOFactoid;
 
 @protocol GEOEncyclopedicInfo
+- (NSArray *);
+- (id <GEOFactoid>)_synthesizeURLFromUserIdentifier;
 
 // Remaining properties
-@property(readonly, nonatomic) GEOMapItemAttribution *encyclopedicAttribution;
-@property(readonly, nonatomic) NSArray *factoids;
-@property(readonly, nonatomic) _Bool hasPairOfFactoids;
-@property(readonly, nonatomic) _Bool hasStandAloneFactoids;
 @property(readonly, nonatomic) _Bool hasTextBlock;
-@property(readonly, nonatomic) NSArray *placeSummaryFactoids;
-@property(readonly, nonatomic) NSString *textBlockText;
-@property(readonly, nonatomic) NSString *textBlockTitle;
 @end
 

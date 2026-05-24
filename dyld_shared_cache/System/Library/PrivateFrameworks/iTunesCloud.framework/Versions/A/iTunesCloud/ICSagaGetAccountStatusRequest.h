@@ -11,9 +11,6 @@
 @interface ICSagaGetAccountStatusRequest : ICRequestOperation
 {
     ICStoreRequestContext *_storeRequestContext;
-    _Bool _isEnabled;
-    _Bool _canSubscribe;
-    _Bool _isSubscriber;
 }
 
 - (void);

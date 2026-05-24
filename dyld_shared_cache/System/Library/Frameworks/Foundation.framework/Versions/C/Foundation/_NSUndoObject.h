@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _NSUndoObject
 {
     _NSUndoObject *next;
-    _NSUndoObject *previous;
-    id _target;
 }
 
 - (id);

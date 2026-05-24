@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol CDPDSecureBackupDelegate
+- (_Bool),R,N;
+- (void)OnDeviceSummarizationDelegate;
+- (void)_TtP6Safari41BookmarksSidebarTableCarouselViewDelegate_;
+- (NSString *)UnifiedFieldTransientUIAction;
 @end
 

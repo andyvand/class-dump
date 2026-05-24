@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface MAAutoAssetSetInfoControl
 {
     _Bool _clearingAfter;
-    NSArray *_limitedToClientDomains;
-    NSArray *_limitedToSetIdentifiers;
 }
 
 + (_Bool);
@@ -23,15 +19,13 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)isWatchKitApp;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool clearingAfter; // @synthesize clearingAfter=_clearingAfter;
-@property(readonly, retain, nonatomic) NSArray *limitedToClientDomains; // @synthesize limitedToClientDomains=_limitedToClientDomains;
-@property(readonly, retain, nonatomic) NSArray *limitedToSetIdentifiers; // @synthesize limitedToSetIdentifiers=_limitedToSetIdentifiers;
 
 @end
 

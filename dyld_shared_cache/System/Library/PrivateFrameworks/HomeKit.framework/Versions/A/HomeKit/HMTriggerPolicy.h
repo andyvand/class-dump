@@ -16,8 +16,8 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void)AccessorySetupPayload;
+- (id)N3fst10MemoryPoolINS_13PoolAllocatorINSt3__111__list_nodeIiPvEEE2TNILi16EEEEE;
+- (void)HMAccessorySetupPayload;
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;

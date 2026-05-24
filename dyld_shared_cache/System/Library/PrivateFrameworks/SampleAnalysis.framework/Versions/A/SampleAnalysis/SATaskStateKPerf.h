@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface SATaskStateKPerf : SATaskState
 {
     _Bool _filledSnap;
-    _Bool _filledMem;
-    _Bool _filledLatencyQoS;
-    _Bool _filledRunawayMitigated;
 }
 
 @end

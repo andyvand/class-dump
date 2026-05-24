@@ -7,9 +7,6 @@
 @interface AXCoreUtilities.AXCachedLocaleCharacterSupportMatrix
 {
     id locale;
-    id supportedCharacters;
-    id unsupportedCharacters;
-    id lock;
 }
 
 @end

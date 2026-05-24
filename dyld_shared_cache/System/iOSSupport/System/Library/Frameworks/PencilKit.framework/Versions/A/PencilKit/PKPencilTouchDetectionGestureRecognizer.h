@@ -9,14 +9,14 @@
 }
 
 - (void);
+- (_Bool)e;
 - (_Bool);
+- (id)[;
 - (_Bool);
-- (id);
-- (_Bool);
+- (void)/;
 - (void);
 - (void);
-- (void);
-- (void)ent:(id)arg1;
+- (void)selectionInteraction:(id)arg1 pathForElement:(id)arg2 inAttachment: /* Error: Ran out of types for this method. */;
 
 @end
 

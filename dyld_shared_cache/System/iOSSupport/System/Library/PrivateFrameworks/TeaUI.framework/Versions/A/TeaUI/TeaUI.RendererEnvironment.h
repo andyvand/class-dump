@@ -7,14 +7,11 @@
 @interface TeaUI.RendererEnvironment
 {
     id scrollView;
-    id isTesting;
-    id isLiveResizing;
-    id transition;
 }
 
+- (void)E;
 - (void);
-- (void);
-- (id);
+- (id)topicBoostForSourceRelatedFeedClickValue;
 - (void)Áÿÿ;
 
 @end

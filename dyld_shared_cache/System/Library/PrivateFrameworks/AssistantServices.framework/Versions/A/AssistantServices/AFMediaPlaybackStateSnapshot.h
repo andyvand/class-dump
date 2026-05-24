@@ -4,55 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-
 @interface AFMediaPlaybackStateSnapshot
 {
     _Bool _isProxyGroupPlayer;
-    long long _playbackState;
-    NSDate *_nowPlayingTimestamp;
-    NSString *_mediaType;
-    NSString *_groupIdentifier;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
+- (id)FDICBehaviorShowSettingsBalance;
+- (long long)productsPushTopic;
 - (id);
-- (long long);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)P;
+- (id)P;
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)rocess when not paused
+;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)PathComponent: /* Error: Ran out of types for this method. */;
+- (void)stringByAppendingPathComponent: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *groupIdentifier; // @synthesize groupIdentifier=_groupIdentifier;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isProxyGroupPlayer; // @synthesize isProxyGroupPlayer=_isProxyGroupPlayer;
-@property(readonly, copy, nonatomic) NSString *mediaType; // @synthesize mediaType=_mediaType;
-@property(readonly, copy, nonatomic) NSDate *nowPlayingTimestamp; // @synthesize nowPlayingTimestamp=_nowPlayingTimestamp;
-@property(readonly, nonatomic) long long playbackState; // @synthesize playbackState=_playbackState;
-@property(readonly) Class superclass;
 
 @end
 

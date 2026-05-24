@@ -4,40 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrightnessSystemClient, NSObject;
-@protocol OS_dispatch_queue, OS_os_log;
+@class BrightnessSystemClient;
 
 @interface CBAdaptationClient
 {
     BrightnessSystemClient *bsc;
-    _Bool ownsClient;
-    int _mode;
-    _Bool _modeSet;
-    CDUnknownBlockType _notificationBlock;
-    NSObject<OS_dispatch_queue> *_notificationQueue;
-    NSObject<OS_os_log> *_logHandle;
-    _Bool _supported;
 }
 
 + (_Bool);
-- (int);
+- (int)payloadIdentifiers;
+- (_Bool)deleteAllSavedUserActivitiesWithCompletionHandler:(int *)arg1;
+- (_Bool)pound;
+- (void)P;
 - (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)1�HF3D;
 - (void);
 - (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (id)K;
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool)t ALC (%{public}@);
-- (_Bool)eDimensions;
+- (_Bool)SurfaceDimensions;
 - (void)>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>
 ×#<
 ×#<

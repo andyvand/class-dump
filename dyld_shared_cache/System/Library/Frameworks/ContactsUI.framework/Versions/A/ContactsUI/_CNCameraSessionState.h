@@ -9,21 +9,17 @@
 @interface _CNCameraSessionState
 {
     _Bool _active;
-    _Bool _configured;
-    AVCaptureSession *_session;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)stringByReplacingCharactersInRange:(_Bool)arg1 withString: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
-@property(nonatomic, getter=isConfigured) _Bool configured; // @synthesize configured=_configured;
 @property(retain, nonatomic) AVCaptureSession *session; // @synthesize session=_session;
 
 @end

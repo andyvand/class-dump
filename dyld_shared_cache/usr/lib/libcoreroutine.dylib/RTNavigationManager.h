@@ -6,17 +6,11 @@
 
 #import <coreroutine/RTService.h>
 
-@class GEONavigationListener, GEONavigationRouteSummary, NSString, RTAuthorizationManager, RTMapServiceManager;
+@class GEONavigationListener;
 
 @interface RTNavigationManager : RTService
 {
     _Bool _monitorRouteSummary;
-    _Bool _monitorNavigationState;
-    _Bool _routineEnabled;
-    GEONavigationListener *_navigationListener;
-    GEONavigationRouteSummary *_routeSummary;
-    RTAuthorizationManager *_authorizationManager;
-    RTMapServiceManager *_mapServiceManager;
 }
 
 + (id);
@@ -28,23 +22,23 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)setRestoreHSM:(CDUnknownBlockType)arg1;
+- (void)set, forcing re-enrollment and unsetting flag;
+- (void)ate:%{public}@ %{public}@ /* Error: Ran out of types for this method. */;
+- (void)se identity item:%@:%@ /* Error: Ran out of types for this method. */;
+- (void)sdmn;
+- (void)tarfishRecord;
+- (void);
+- (void)T;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (id)stenceMirroringPolicy",&,N,V_mirroringPolicy;
 - (void)tupPersistenceStores];
@@ -55,20 +49,7 @@
 - (void)T;
 
 // Remaining properties
-@property(retain, nonatomic) RTAuthorizationManager *authorizationManager; // @synthesize authorizationManager=_authorizationManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) RTMapServiceManager *mapServiceManager; // @synthesize mapServiceManager=_mapServiceManager;
-@property(nonatomic) _Bool monitorNavigationState; // @synthesize monitorNavigationState=_monitorNavigationState;
-@property(nonatomic) _Bool monitorRouteSummary; // @synthesize monitorRouteSummary=_monitorRouteSummary;
 @property(retain, nonatomic) GEONavigationListener *navigationListener; // @synthesize navigationListener=_navigationListener;
-@property(retain, nonatomic) GEONavigationRouteSummary *routeSummary; // @synthesize routeSummary=_routeSummary;
-@property(nonatomic) _Bool routineEnabled; // @synthesize routineEnabled=_routineEnabled;
-@property(readonly) Class superclass;
 
 @end
 

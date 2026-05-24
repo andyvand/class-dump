@@ -9,29 +9,24 @@
 @interface MCFileTypeInfo
 {
     unsigned int _osType;
-    NSString *_mimeType;
-    NSString *_pathExtension;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned int);
 - (id);
 - (id);
-- (id);
+- (id)dictionaryWithObjects:forKeys:count: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *mimeType; // @synthesize mimeType=_mimeType;
-@property(nonatomic) unsigned int osType; // @synthesize osType=_osType;
-@property(copy, nonatomic) NSString *pathExtension; // @synthesize pathExtension=_pathExtension;
-@property(readonly, copy, nonatomic) NSString *typeIdentifier;
 
 @end
 

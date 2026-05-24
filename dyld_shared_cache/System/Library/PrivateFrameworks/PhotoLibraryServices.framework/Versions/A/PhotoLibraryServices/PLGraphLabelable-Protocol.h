@@ -5,5 +5,9 @@
 //
 
 @protocol PLGraphLabelable
+
+@optional
+- (unsigned int)F'
+;
 @end
 

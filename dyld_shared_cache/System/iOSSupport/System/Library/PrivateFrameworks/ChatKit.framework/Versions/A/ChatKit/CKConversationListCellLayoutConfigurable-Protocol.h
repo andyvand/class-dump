@@ -7,6 +7,8 @@
 @class CKConversationListCellLayout;
 
 @protocol CKConversationListCellLayoutConfigurable
+- (void)saveShare:(CKConversationListCellLayout *)arg1 forObject:qualityOfService:completionHandler: /* Error: Ran out of types for this method. */;
+- (CKConversationListCellLayout *);
 
 // Remaining properties
 @property(retain, nonatomic) CKConversationListCellLayout *cellLayout;

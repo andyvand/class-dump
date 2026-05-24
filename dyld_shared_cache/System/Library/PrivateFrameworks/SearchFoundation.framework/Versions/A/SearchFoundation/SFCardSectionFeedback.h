@@ -6,14 +6,11 @@
 
 #import <SearchFoundation/SFFeedback.h>
 
-@class NSString;
 @protocol SFCardSection;
 
 @interface SFCardSectionFeedback : SFFeedback
 {
     id <SFCardSection> _cardSection;
-    NSString *_cardSectionId;
-    NSString *_resultId;
 }
 
 + (_Bool);
@@ -24,14 +21,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)preloadedSessions;
+- (void)rver.m;
 - (void)_SFPBURL",&,N,V_hostPageURL;
 
 // Remaining properties
 @property(retain, nonatomic) id <SFCardSection> cardSection; // @synthesize cardSection=_cardSection;
-@property(copy, nonatomic) NSString *cardSectionId; // @synthesize cardSectionId=_cardSectionId;
-@property(copy, nonatomic) NSString *resultId; // @synthesize resultId=_resultId;
 
 @end
 

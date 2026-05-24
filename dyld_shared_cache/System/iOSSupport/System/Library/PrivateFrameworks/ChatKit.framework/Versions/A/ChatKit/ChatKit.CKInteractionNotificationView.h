@@ -9,11 +9,10 @@
 @interface ChatKit.CKInteractionNotificationView
 {
     void delegate;
-    id passthroughViews;
 }
 
-- (void);
-- (void);
+- (void)create file wrapper from generated PDF:(id)arg1 %@;
+- (void)((language) != nil);
 - (void);
 - (void);
 - (void);

@@ -6,20 +6,11 @@
 
 #import <Silex/SXComponentViewFactory.h>
 
-@class SXVideoPlayerViewControllerManager;
-@protocol SWReachabilityProvider, SXAnalyticsReportingProvider, SXAppStateMonitor, SXBookmarkManager, SXResourceDataSourceProvider, SXSceneStateMonitor, SXScrollObserverManager, SXVideoAdProviderFactory;
+@protocol SXAnalyticsReportingProvider;
 
 @interface SXVideoComponentViewFactory : SXComponentViewFactory
 {
     id <SXAnalyticsReportingProvider> _analyticsReportingProvider;
-    id <SXResourceDataSourceProvider> _resourceDataSourceProvider;
-    id <SWReachabilityProvider> _reachabilityProvider;
-    id <SXAppStateMonitor> _appStateMonitor;
-    id <SXSceneStateMonitor> _sceneStateMonitor;
-    id <SXScrollObserverManager> _scrollObserverManager;
-    SXVideoPlayerViewControllerManager *_videoPlayerViewControllerManager;
-    id <SXBookmarkManager> _bookmarkManager;
-    id <SXVideoAdProviderFactory> _prerollAdFactory;
 }
 
 - (id);
@@ -40,14 +31,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXAnalyticsReportingProvider> analyticsReportingProvider; // @synthesize analyticsReportingProvider=_analyticsReportingProvider;
-@property(readonly, nonatomic) id <SXAppStateMonitor> appStateMonitor; // @synthesize appStateMonitor=_appStateMonitor;
-@property(readonly, nonatomic) id <SXBookmarkManager> bookmarkManager; // @synthesize bookmarkManager=_bookmarkManager;
-@property(readonly, nonatomic) id <SXVideoAdProviderFactory> prerollAdFactory; // @synthesize prerollAdFactory=_prerollAdFactory;
-@property(readonly, nonatomic) id <SWReachabilityProvider> reachabilityProvider; // @synthesize reachabilityProvider=_reachabilityProvider;
-@property(readonly, nonatomic) id <SXResourceDataSourceProvider> resourceDataSourceProvider; // @synthesize resourceDataSourceProvider=_resourceDataSourceProvider;
-@property(readonly, nonatomic) id <SXSceneStateMonitor> sceneStateMonitor; // @synthesize sceneStateMonitor=_sceneStateMonitor;
-@property(readonly, nonatomic) id <SXScrollObserverManager> scrollObserverManager; // @synthesize scrollObserverManager=_scrollObserverManager;
-@property(readonly, nonatomic) SXVideoPlayerViewControllerManager *videoPlayerViewControllerManager; // @synthesize videoPlayerViewControllerManager=_videoPlayerViewControllerManager;
 
 @end
 

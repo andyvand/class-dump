@@ -9,14 +9,11 @@
 @interface UIKit.NavigationBarSubtitleView : UIView
 {
     id content;
-    id intrinsicContentSizeInvalidationHandler;
-    id label;
-    id customView;
 }
 
 - (id);
 - (void);
-- (id)BorderView;
+- (id)_UITabSidebarBorderView;
 - (void)_compression_all(struct ui_archive *);
 - (struct CGSize);
 - (void)HÇFÿSÕXÑl;

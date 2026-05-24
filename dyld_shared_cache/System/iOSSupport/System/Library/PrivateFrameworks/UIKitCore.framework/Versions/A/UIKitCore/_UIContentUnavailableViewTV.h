@@ -11,14 +11,14 @@ __attribute__((visibility("hidden")))
 {
 }
 
+- (double)xport;
+- (double)ersisting attachment at fileURL:%@ for transfer:%@ /* Error: Ran out of types for this method. */;
 - (double);
-- (double);
-- (double);
-- (struct CGSize);
+- (struct CGSize)*;
+- (id)fP;
 - (id);
-- (id);
 - (double);
-- (id);
+- (id)ew"16@"NSIndexPath"24;
 
 @end
 

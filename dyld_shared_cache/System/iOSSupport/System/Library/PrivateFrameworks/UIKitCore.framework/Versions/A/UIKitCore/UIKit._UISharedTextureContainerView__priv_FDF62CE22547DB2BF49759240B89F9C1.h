@@ -12,7 +12,7 @@
 
 - (id);
 - (int)onWhiteSpaceContent;
-- (id)avigationAction;
+- (id)_UIStatusBarSystemNavigationAction;
 
 @end
 

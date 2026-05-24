@@ -5,12 +5,12 @@
 //
 
 @class NSString;
-@protocol HAP2Accessory;
+@protocol HAP2Cancelable;
 
 @protocol HAP2UnpairedAccessoryServer
+- (id <HAP2Cancelable>);
 
 // Remaining properties
-@property(readonly, nonatomic) id <HAP2Accessory> primaryAccessory;
 @property(readonly, nonatomic) NSString *setupID;
 @end
 

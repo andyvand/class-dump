@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SATimestamp;
+@class SATimestamp;
 
 @interface SALostPerfEvent
 {
     SATimestamp *_startTime;
-    SATimestamp *_endTime;
 }
 
 + (id);
-+ (id);
++ (id)accessibilityEnabled;
 - (id);
+- (id);
 - (id);
+- (id)I"epoch"q}"duration"{?="value"q"timescale"i"flags"I"epoch"q}};
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)schemaTypeFromString:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id);
@@ -31,20 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSString *domain;
-@property(readonly) SATimestamp *endTime;
 @property(readonly) unsigned long long hash;
-@property(readonly) NSString *lostPerf;
-@property(readonly) NSString *mode;
-@property(readonly) NSString *source;
-@property(readonly) SATimestamp *startTime;
-@property(readonly) Class superclass;
-@property(readonly) NSString *type;
 
 @end
 

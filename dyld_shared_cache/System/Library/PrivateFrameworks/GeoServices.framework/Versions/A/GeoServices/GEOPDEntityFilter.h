@@ -10,25 +10,15 @@ __attribute__((visibility("hidden")))
 @interface GEOPDEntityFilter
 {
     PBUnknownFields *_unknownFields;
-    _Bool _includeName;
-    _Bool _includeSpokenNames;
-    _Bool _populateAltCategory;
-    _Bool _useLegacyTaxonomy;
-    struct {
-        unsigned int has_includeName:1;
-        unsigned int has_includeSpokenNames:1;
-        unsigned int has_populateAltCategory:1;
-        unsigned int has_useLegacyTaxonomy:1;
-    } _flags;
 }
 
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)oButtonThreshold"b1"read_relatedEntitySections"b1"read_relatedSearchSuggestions"b1"read_resultDetourInfos"b1"read_resultRefinementGroup"b1"read_searchClientBehavior"b1"read_searchSessionData"b1"read_searchTierMetadatas"b1"read_sectionList"b1"wrote_anyField"b1};
-- (id)CurrencyCode;
+- (id)_defaultCurrencyCode;
 - (id)Àð
 ñ
 pñ

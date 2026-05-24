@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSConditionLock, NSObject;
-@protocol OS_dispatch_queue;
-
 @interface AOSTransaction
 {
     unsigned char didSucceed;
-    unsigned char didFinish;
-    void *result;
-    struct __CFError *error;
-    CDUnknownFunctionPointerType callbackFunction;
-    CDUnknownBlockType callbackBlock;
-    NSObject<OS_dispatch_queue> *callbackQueue;
-    void *context;
-    NSConditionLock *waitLock;
-    CDUnknownFunctionPointerType contextRetain;
-    CDUnknownFunctionPointerType contextRelease;
 }
 
 + (_Bool);
@@ -29,7 +16,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 
 @end

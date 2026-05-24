@@ -4,66 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSView;
-@protocol NUIContainerViewDelegate;
-
 @interface NUIContainerView
 {
     _Bool _isRTL;
-    id <NUIContainerViewDelegate> _delegate;
-    struct map<NSView *, _NUIContainerViewArrangedSubview, std::less<NSView *>, std::allocator<std::pair<NSView *const, _NUIContainerViewArrangedSubview>>> _arrangedSubviewInfo;
-    NSMutableArray *_arrangedSubviews;
-    NSArray *_visibleArrangedSubviews;
-    struct NSEdgeInsets _effectiveLayoutMargins;
-    NSView *_firstBaselineView;
-    NSView *_lastBaselineView;
-    struct vector<CALayer *, std::allocator<CALayer *>> _debugBoundingBoxLayers;
-    struct {
-        unsigned int hiddenArrangedSubviewCount:16;
-        unsigned int delaydInvalidation:8;
-        unsigned int batchDepth:4;
-        unsigned int inLayoutPass:2;
-        unsigned int inMeasurementPass:2;
-        unsigned int layoutDependency:2;
-        unsigned int removalPolicy:2;
-        unsigned int removalPolicyHasBeenSet:1;
-        unsigned int additionPolicy:1;
-        unsigned int inEnsureArranged:1;
-        unsigned int inEffectiveSize:1;
-        unsigned int hasMargins:1;
-        unsigned int debugBoundingBoxes:1;
-        unsigned int baselineRelative:1;
-        unsigned int layoutMarginsRelative:1;
-        unsigned int baselineLayoutMargins:1;
-        unsigned int mustRestart:1;
-        unsigned int delegateSystemLayoutSizeFittingSizeForArrangedSubview:1;
-        unsigned int delegateLayoutFrameForArrangedSubview:1;
-        unsigned int delegateWillMeasureFitting:1;
-        unsigned int delegateShouldRestart:1;
-        unsigned int delegateDidLayout:1;
-    } _containerFlags;
-    struct NSEdgeInsets _layoutMargins;
 }
 
 + (void);
 + (_Bool);
 + (_Bool);
 + (id);
-+ (_Bool);
++ (_Bool)deploymentTarget;
 + (void);
 
 // Remaining properties
-@property(nonatomic) long long arrangedSubviewAdditionPolicy;
-@property(nonatomic) long long arrangedSubviewRemovalPolicy;
-@property(copy, nonatomic) NSArray *arrangedSubviews;
-@property(nonatomic, getter=isBaselineRelativeArrangement) _Bool baselineRelativeArrangement;
-@property(nonatomic, getter=hasBaselineRelativeLayoutMarginsForArrangement) _Bool baselineRelativeLayoutMarginsForArrangement;
 @property(nonatomic, getter=isDebugBoundingBoxesEnabled) _Bool debugBoundingBoxesEnabled;
-@property(nonatomic) __weak id <NUIContainerViewDelegate> delegate;
-@property(nonatomic) struct NUIDirectionalEdgeInsets directionalLayoutMargins;
-@property(nonatomic) struct NSEdgeInsets layoutMargins; // @synthesize layoutMargins=_layoutMargins;
-@property(nonatomic, getter=isLayoutMarginsRelativeArrangement) _Bool layoutMarginsRelativeArrangement;
-@property(readonly, nonatomic) NSArray *visibleArrangedSubviews;
 
 @end
 

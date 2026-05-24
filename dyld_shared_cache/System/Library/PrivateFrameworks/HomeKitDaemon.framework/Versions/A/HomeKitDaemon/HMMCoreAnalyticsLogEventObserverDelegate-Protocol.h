@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol HMMCoreAnalyticsLogEventObserverDelegate
+- (void)MSPMutableObjectContentDidUpdateNotification;
+- (void)Fetcher;
+- (void)ay"8;
+
+@optional
+- (void)update;
+- (void)tionListener route update:(NSString *)arg1 %{public}@;
 @end
 

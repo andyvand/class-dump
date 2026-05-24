@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface PXGPPTAnimationLayout
 {
     CDStruct_af00bf4e _updateFlags;
-    NSArray *_colors;
-    unsigned int _numberOfRows;
-    unsigned int _numberOfColumns;
-    long long _style;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)`;
 - (void);
-- (long long);
-- (id);
+- (long long)%{public}@;
+- (id)&;
 - (void);
 - (void);
-- (void);
+- (void)rounded-corner-small;
 - (void)Q<ð1Â0@ù
 × ;
 - (unsigned int);
@@ -31,17 +25,7 @@
 - (unsigned int);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *configurationDescription;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned int numberOfColumns; // @synthesize numberOfColumns=_numberOfColumns;
 @property(nonatomic) unsigned int numberOfRows; // @synthesize numberOfRows=_numberOfRows;
-@property(nonatomic) long long style; // @synthesize style=_style;
-@property(readonly) Class superclass;
 
 @end
 

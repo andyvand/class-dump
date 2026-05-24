@@ -4,14 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class IDSAccount, IDSService;
+
 @protocol IDSServiceDelegate
 
 @optional
+- (void)setName:(IDSService *)arg1;
+- (void)initWithData:(IDSService *)arg1 encoding:(IDSAccount *)arg2;
+- (void)IDSSocketPairTranslation;
+- (void)x
+;
+- (void);
+- (void)noCNAMERecursion;
 - (void)
 × ;
 - (void)ñB,Ð1Â0@ù
 × ;
-- (void)ekend_Home_Work_Others;
+- (void)average_occurrence_weekend_Home_Work_Others;
 - (void), duration too long,%lf,threshold,%lu;
 @end
 

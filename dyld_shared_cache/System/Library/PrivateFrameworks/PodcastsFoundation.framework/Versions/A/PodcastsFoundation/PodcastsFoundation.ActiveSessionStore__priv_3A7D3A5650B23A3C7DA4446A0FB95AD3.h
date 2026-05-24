@@ -7,8 +7,6 @@
 @interface PodcastsFoundation.ActiveSessionStore__priv_3A7D3A5650B23A3C7DA4446A0FB95AD3
 {
     id sessions;
-    id $__lazy_storage_$_logPrefix;
-    id $__lazy_storage_$_internalQueue;
 }
 
 @end

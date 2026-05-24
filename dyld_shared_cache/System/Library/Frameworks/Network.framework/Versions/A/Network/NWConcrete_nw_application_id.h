@@ -4,37 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface NWConcrete_nw_application_id
 {
     struct mutex lock;
-    unsigned char uuid[16];
-    unsigned int signature_length;
-    unsigned char signature_data[32];
-    char *originating_process;
-    char *bundle_id;
-    unsigned char persona_id[16];
-    _Bool is_bundle_id_external;
-    CDStruct_4c969caf audit_token;
-    int pid;
-    int system_service;
 }
 
-- (void);
+- (void)Seamless Titlebar;
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

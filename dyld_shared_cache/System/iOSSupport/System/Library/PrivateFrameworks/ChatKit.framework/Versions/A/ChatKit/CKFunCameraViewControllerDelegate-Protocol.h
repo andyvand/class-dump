@@ -5,5 +5,8 @@
 //
 
 @protocol CKFunCameraViewControllerDelegate
+- (void);
+- (void)indentRange:byAmount:inTextStorage:textView:forceUpdateAttributes: /* Error: Ran out of types for this method. */;
+- (void)4;
 @end
 

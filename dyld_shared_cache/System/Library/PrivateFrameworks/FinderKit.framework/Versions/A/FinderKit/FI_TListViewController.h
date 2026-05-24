@@ -6,72 +6,32 @@
 
 #import <FinderKit/FI_TBrowserViewController.h>
 
-@class FI_TBrowserViewDataSource, FI_TKindFormatter, FI_TListHeaderRowView, FI_TListNameCellView, NSDictionary, NSEvent, NSFont, NSLayoutGuide, NSString;
-
 __attribute__((visibility("hidden")))
 @interface FI_TListViewController : FI_TBrowserViewController
 {
     _Bool _isRecursivelyCollapsing;
-    _Bool _ignoreIncomingCollapses;
-    FI_TKindFormatter *_strongKindFormatter;
-    struct shared_ptr<TBestFitFormatterSelector> _dateFormatterSelector;
-    struct unordered_set<TFENode, std::hash<TFENode>, std::equal_to<TFENode>, std::allocator<TFENode>> _nodesToRecursivelyExpand;
-    _Bool _setupExpandingNodes;
-    struct unordered_set<TFENode, std::hash<TFENode>, std::equal_to<TFENode>, std::allocator<TFENode>> _nodesToExpand;
-    struct vector<std::pair<TFENode, TFENode>, std::allocator<std::pair<TFENode, TFENode>>> _disclosedAliasNodes;
-    NSFont *_monospacedDigitsCellViewFont;
-    NSFont *_nameCellViewFont;
-    NSFont *_cellViewFont;
-    struct multimap<long, TFENode, std::less<long>, std::allocator<std::pair<const long, TFENode>>> _depthToOpenContainerMap;
-    struct TFENode _fakeHeaderRowNode;
-    struct TNotificationCenterObserver _dateTimeFormattersChangedObserver;
-    NSLayoutGuide *_nameCellViewMasterLayoutGuide;
-    struct TKeyValueObserver _nameCellViewMasterLayoutGuideFrameDidChangeObserver;
-    _Bool _showDateModified;
-    _Bool _showShareOwner;
-    _Bool _showShareLastModifiedBy;
-    _Bool _showShareInvitationStatus;
-    _Bool _showDateCreated;
-    _Bool _showDateLastOpened;
-    _Bool _showDateAdded;
-    _Bool _showSize;
-    _Bool _showKind;
-    _Bool _showVersion;
-    _Bool _showComments;
-    _Bool _showLabel;
-    _Bool _showICloudStatus;
-    _Bool _useRelativeDates;
-    _Bool _calculateAllSizes;
-    _Bool _updatingColumns;
-    _Bool _nodesBeingDraggedAreAllAtTheRootLevel;
-    _Bool _editing;
-    int _sortColumn;
-    NSDictionary *_columnSettings;
-    FI_TListNameCellView *_originalEditedNameCellView;
-    FI_TListHeaderRowView *_headerRowView;
-    struct TFENode _nodeBeingReloaded;
 }
 
 + (void);
 + (void);
 + (void);
 + (void);
++ (void);
 + (void);
 + (void);
 + (void);
 + (void);
++ (void);
 + (void);
 + (void);
 + (void);
 + (void);
-+ (void);
-+ (void);
-+ (void);
++ (void)I;
 - (void);
 - (void);
 - (void);
-- (optional_f91669a0);
-- (_Bool);
+- (optional_daaa6776)	;
+- (_Bool)D;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -101,23 +61,24 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)?%@qa;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)H;
+- (_Bool)J-
++;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)Q;
 - (void);
 - (void);
 - (void);
@@ -137,7 +98,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)t;
 - (unsigned long long);
 - (void);
 - (void);
@@ -159,8 +120,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (struct TFENodeVector);
 - (struct TFENodeVector);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)%@qa;
 - (_Bool);
 - (struct TFENode);
 - (struct TFENode);
@@ -178,7 +139,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)jB;
 - (void);
 - (id);
 - (unsigned long long);
@@ -192,7 +153,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (struct CGRect);
-- (int);
+- (int)Th;
 - (void);
 - (id);
 - (id);
@@ -204,8 +165,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)o+;
+- (void)	;
 - (void);
 - (void);
 - (void);
@@ -226,11 +187,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (void)T_;
 - (void);
-- (void);
-- (void);
+- (void)@;
 - (struct TFENodeVector);
-- (void);
+- (void)_;
 - (_Bool);
 - (void);
 - (void);
@@ -243,13 +204,13 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)C;
 - (void);
 - (_Bool);
 - (struct TFENode);
 - (void);
 - (void);
-- (void);
+- (void);
 - (int);
 - (_Bool);
 - (_Bool);
@@ -257,22 +218,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)b6;
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)6;
 - (id);
 - (unsigned long long);
 - (id);
 - (double);
+- (_Bool)C;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)7;
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)8;
 - (id);
 - (long long);
 - (_Bool);
@@ -284,12 +245,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)task. Not querying server.;
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)*;
 - (unsigned long long)=^{OpaqueNodeRef}},R,N,V_parentNode;
 - (void);
 - (_Bool)´;
@@ -297,49 +258,7 @@ __attribute__((visibility("hidden")))
 - (void)ZZ52-[FI_TIconView configureTitleBubbleViewBeforeLayout]ENK3$_2clEP18FI_TTitleViewBadge16TitleViewBadgeIDEUl6CGRectbbbbE_;
 
 // Remaining properties
-@property(setter=_setWantsPageAlignedHorizontalAxis:) _Bool _wantsPageAlignedHorizontalAxis;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,S_setWantsPageAlignedHorizontalAxis:
-
-@property(setter=_setWantsPageAlignedVerticalAxis:) _Bool _wantsPageAlignedVerticalAxis;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,S_setWantsPageAlignedVerticalAxis:
-
-@property(nonatomic) _Bool calculateAllSizes; // @synthesize calculateAllSizes=_calculateAllSizes;
-@property(retain, nonatomic) NSDictionary *columnSettings; // @synthesize columnSettings=_columnSettings;
-@property(retain, nonatomic) FI_TBrowserViewDataSource *dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEditing) _Bool editing; // @synthesize editing=_editing;
-@property(nonatomic, getter=isGrouping) _Bool grouping;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) FI_TListHeaderRowView *headerRowView; // @synthesize headerRowView=_headerRowView;
-@property(retain, nonatomic) NSEvent *mouseDownEventForDrag;
-@property(nonatomic) struct TFENode nodeBeingReloaded; // @synthesize nodeBeingReloaded=_nodeBeingReloaded;
-@property struct TFENode nodeToDoubleClick;
-@property(nonatomic) _Bool nodesBeingDraggedAreAllAtTheRootLevel; // @synthesize nodesBeingDraggedAreAllAtTheRootLevel=_nodesBeingDraggedAreAllAtTheRootLevel;
-@property(retain, nonatomic) FI_TListNameCellView *originalEditedNameCellView; // @synthesize originalEditedNameCellView=_originalEditedNameCellView;
-@property(nonatomic) _Bool showComments; // @synthesize showComments=_showComments;
-@property(nonatomic) _Bool showDateAdded; // @synthesize showDateAdded=_showDateAdded;
-@property(nonatomic) _Bool showDateCreated; // @synthesize showDateCreated=_showDateCreated;
-@property(nonatomic) _Bool showDateLastOpened; // @synthesize showDateLastOpened=_showDateLastOpened;
 @property(nonatomic) _Bool showDateModified; // @synthesize showDateModified=_showDateModified;
-@property(nonatomic) _Bool showICloudStatus; // @synthesize showICloudStatus=_showICloudStatus;
-@property(nonatomic) _Bool showKind; // @synthesize showKind=_showKind;
-@property(nonatomic) _Bool showLabel; // @synthesize showLabel=_showLabel;
-@property(nonatomic) _Bool showShareInvitationStatus; // @synthesize showShareInvitationStatus=_showShareInvitationStatus;
-@property(nonatomic) _Bool showShareLastModifiedBy; // @synthesize showShareLastModifiedBy=_showShareLastModifiedBy;
-@property(nonatomic) _Bool showShareOwner; // @synthesize showShareOwner=_showShareOwner;
-@property(nonatomic) _Bool showSize; // @synthesize showSize=_showSize;
-@property(nonatomic) _Bool showVersion; // @synthesize showVersion=_showVersion;
-@property(nonatomic) int sortColumn; // @synthesize sortColumn=_sortColumn;
-@property(readonly) Class superclass;
-@property(getter=isTornDown) _Bool tornDown;
-@property(nonatomic) _Bool updatingColumns; // @synthesize updatingColumns=_updatingColumns;
-@property(nonatomic) _Bool useRelativeDates; // @synthesize useRelativeDates=_useRelativeDates;
 
 @end
 

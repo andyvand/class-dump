@@ -6,18 +6,9 @@
 
 #import <HomeAI/HMIVideoProcessingNode.h>
 
-@class NSObject, NSString;
-@protocol HMIVideoEncoderDelegate, OS_dispatch_queue;
-
 @interface HMIVideoEncoder : HMIVideoProcessingNode
 {
     _Bool _forceKeyFrameOnNextEncodedFrame;
-    NSString *_logIdentifier;
-    unsigned long long _numberOfDroppedFrames;
-    struct OpaqueVTCompressionSession *_session;
-    id <HMIVideoEncoderDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 + (id)¥;
@@ -43,20 +34,20 @@
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (void);
+- (void);
 - (double);
-- (long long);
+- (long long)k;
 - (void);
 - (void);
 - (struct OpaqueVTCompressionSession *);
 - (id);
-- (id);
+- (id)7;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)setCustomUserAgent: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -64,27 +55,7 @@
 - (void)Á*Ð!;
 
 // Remaining properties
-@property(nonatomic) long long averageBitRate;
-@property(nonatomic) struct HMIVideoEncoderDataRate dataRateLimit;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMIVideoEncoderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double expectedDuration;
-@property(nonatomic) long long expectedFrameRate;
-@property _Bool forceKeyFrameOnNextEncodedFrame; // @synthesize forceKeyFrameOnNextEncodedFrame=_forceKeyFrameOnNextEncodedFrame;
-@property(readonly) unsigned long long hash;
-@property(retain) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property(nonatomic) long long maxFrameDelayCount;
-@property(nonatomic) long long maxKeyFrameIntervalDuration;
-@property(readonly) unsigned long long numberOfDroppedFrames; // @synthesize numberOfDroppedFrames=_numberOfDroppedFrames;
-@property(nonatomic) double quality;
 @property struct OpaqueVTCompressionSession *session; // @synthesize session=_session;
-@property(readonly) Class superclass;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

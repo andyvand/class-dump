@@ -5,5 +5,8 @@
 //
 
 @protocol IDSDirectMessageConnectionDelegate
+
+@optional
+- (void)[C%llu(C%llu)];
 @end
 

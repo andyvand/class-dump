@@ -8,7 +8,7 @@
 {
 }
 
-+ (void);
++ (void)O[;
 + (struct CGRect);
 + (_Bool);
 + (_Bool);

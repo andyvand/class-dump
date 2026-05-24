@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSImage, NSImageView, NSString, NSTextField, NSTouchBar;
+@class NSImageView;
 
 @interface NSSharingAccountConfigurationViewController
 {
     NSImageView *logoImageView;
-    NSImageView *iconImageView;
-    NSTextField *setupTextField;
-    NSButton *cancelButton;
-    NSButton *configureButton;
-    NSTouchBar *configurationTouchBar;
 }
 
 - (id);
@@ -31,29 +26,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)notifyDelegateDidDismiss;
 
 // Remaining properties
-@property(readonly) NSButton *cancelButton; // @synthesize cancelButton;
-@property(readonly) NSButton *configureButton; // @synthesize configureButton;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSImageView *iconImageView; // @synthesize iconImageView;
 @property(readonly) NSImageView *logoImageView; // @synthesize logoImageView;
-@property(retain) NSImage *previewImage;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSImage",?,&
-
-@property(getter=isPreviewImageVisible) _Bool previewImageVisible;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,GisPreviewImageVisible
-
-@property(readonly) NSTextField *setupTextField; // @synthesize setupTextField;
-@property(readonly) Class superclass;
 
 @end
 

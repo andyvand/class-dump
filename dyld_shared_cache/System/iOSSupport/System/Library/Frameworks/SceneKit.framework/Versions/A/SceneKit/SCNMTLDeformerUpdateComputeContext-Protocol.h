@@ -7,8 +7,6 @@
 @protocol SCNMTLDeformerUpdateComputeContext
 
 // Remaining properties
-@property(readonly, nonatomic) struct SCNMTLComputeCommandEncoder *currentComputeEncoder;
 @property(readonly, nonatomic) unsigned long long currentFrameHash;
-@property(readonly, nonatomic) CDStruct_f3b280c4 currentTransforms;
 @end
 

@@ -12,18 +12,18 @@ __attribute__((visibility("hidden")))
     PDFScrollViewPrivate *_private;
 }
 
-+ (_Bool);
++ (_Bool)name from %@ to %@;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void)T@"HMUser",R,N,V_currentUser;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)%{public}@[%{public,uuid_t}.16P] Failed to unpack audio uplink token:(id)arg1 %@;
+- (void):(id)arg1 %@, and updated subscribed homes to:%@ /* Error: Ran out of types for this method. */;
+- (void)kCalendarTimeEventFireDateComponents;
 - (void);
 - (id);
 - (void);

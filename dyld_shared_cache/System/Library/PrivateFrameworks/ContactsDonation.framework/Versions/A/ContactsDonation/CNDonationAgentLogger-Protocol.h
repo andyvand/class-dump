@@ -5,5 +5,21 @@
 //
 
 @protocol CNDonationAgentLogger
+- (void);
+- (void)P;
+- (void)javaPackage;
+- (void)DataAndSocialIntelligenceAutomationSuggestions;
+- (void);
+- (void)Masks: /* Error: Ran out of types for this method. */;
+- (void)C;
+- (void)x;
+- (void);
+- (void)@;
+- (void)Z;
+- (void)S;
+- (void)_delegate;
+- (void);
+- (void);
+- (void)	;
 @end
 

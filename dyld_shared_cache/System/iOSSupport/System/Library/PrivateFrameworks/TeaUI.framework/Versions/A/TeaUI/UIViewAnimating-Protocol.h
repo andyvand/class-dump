@@ -5,14 +5,14 @@
 //
 
 @protocol UIViewAnimating
+- (_Bool);
+- (void);
+- (void)?;
 - (double):8@"UIPresentationController"16@"UITraitCollection"24 /* Error: Ran out of types for this method. */;
 - (_Bool)¬êýÿDÿÿ;
 - (void)ÿ;
 
 // Remaining properties
-@property(nonatomic) double fractionComplete;
-@property(nonatomic, getter=isReversed) _Bool reversed;
-@property(readonly, nonatomic, getter=isRunning) _Bool running;
 @property(readonly, nonatomic) long long state;
 @end
 

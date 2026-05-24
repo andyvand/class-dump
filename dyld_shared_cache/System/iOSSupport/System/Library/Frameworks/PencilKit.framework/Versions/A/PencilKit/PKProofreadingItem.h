@@ -26,7 +26,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *chStrokeIdentifiers;
-@property(readonly, nonatomic) NSArray *replacementStrings;
 
 @end
 

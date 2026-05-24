@@ -7,8 +7,6 @@
 @interface NewsUI2.ArticleListAudioHistoryFeedGroupEmitter
 {
     id config;
-    id knobs;
-    id formatService;
 }
 
 @end

@@ -4,32 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, PGGraph, PGGraphMomentNodeCollection, PGGraphPublicEventNodeCollection, PHPhotoLibrary;
-@protocol OS_os_log;
+@class PGGraph;
 
 @interface PGPublicEventContextualRule
 {
     PGGraph *_graph;
-    PGGraphPublicEventNodeCollection *_publicEventNodes;
-    PGGraphMomentNodeCollection *_momentNodesMatchingPublicEvents;
-    PHPhotoLibrary *_photoLibrary;
-    NSObject<OS_os_log> *_loggingConnection;
 }
 
-- (id);
-- (id);
-- (void);
-- (_Bool);
+- (id)performSelector:(id)arg1 withObject:(id)arg2;
+- (id)_zoomFocusRectForZeroLengthMarkerBasedRange:(id)arg1 textElementController:(unsigned short)arg2 currentFocusedLineFrame:(id)arg3;
+- (void)xt;
+- (_Bool)LibCall_ACMSecCredentialProviderEnrollmentStateChangedForUser;
 - (void)Region of Interest;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

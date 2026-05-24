@@ -10,31 +10,26 @@ __attribute__((visibility("hidden")))
 @interface _UIResizableImage : UIImage
 {
     struct UIEdgeInsets _capInsets;
-    struct UIEdgeInsets _subimageInsets;
-    struct {
-        unsigned int alwaysStretches:1;
-        unsigned int isSubimage:1;
-    } _rImageFlags;
 }
 
 + (_Bool)cQueue;
 - (struct UIEdgeInsets);
 - (struct CGRect);
 - (struct CGRect);
-- (_Bool);
+- (_Bool).c;
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)elPropertyAlbumKeepLocalManagedStatusReason;
 - (struct UIEdgeInsets);
 - (_Bool)e°1Â0@ù
 × ;
 - (id);
 - (void)nt=dd}16@"UIView"32;
 - (_Bool)";
-- (void)rMode:(id)arg1;
+- (void)setStrokeColorMode:(id)arg1;
 - (void)_setPosition:(struct UIEdgeInsets)arg1 forItem: /* Error: Ran out of types for this method. */;
-- (id);
+- (id)_heightForTableHeaderViewHiding;
 - (_Bool)4?@AôAÈBE¼E¼FøFGHIJèKL;
 - (struct CGRect)raryKeyKeyboardInputCandidate(void);
 - (long long);

@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id)pellingGuessesForRange:(struct CGRect)arg1 inAnnotatedString: /* Error: Ran out of types for this method. */;
+- (id)_spellingGuessesForRange:(struct CGRect)arg1 inAnnotatedString: /* Error: Ran out of types for this method. */;
 
 @end
 

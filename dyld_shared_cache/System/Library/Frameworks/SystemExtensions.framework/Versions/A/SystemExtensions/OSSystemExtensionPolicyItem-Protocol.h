@@ -7,22 +7,18 @@
 @class NSString, NSURL;
 
 @protocol OSSystemExtensionPolicyItem
+- (NSString *)ktQueryKickedConcurrently;
+- (_Bool)AWDIDSRegistrationCompleted;
+- (_Bool)IDSRegistrationError;
+- (_Bool)(errno %d);
+- (NSString *)IDSSocketPairResourceTransferSender:created with path %@  metadata %@ sequenceNumber %lu streamID %u expectsPeerResponse %@ wantsAppAck %@ compressed %@ peerResponseIdentifier %@ messageUUID %@ expiryDate %@ /* Error: Ran out of types for this method. */;
+- (NSURL *)ng all %llu  bytes to file %@;
+- (NSURL *)ta (%lu);
+- (void)h#;
+- (NSString *)_transactionMessageFromTransportMessage:withParticipants:accountInfo: /* Error: Ran out of types for this method. */;
+- (NSString *)I;
 
 // Remaining properties
-@property(readonly) NSString *applicationName;
-@property(readonly) NSString *bundleVersion;
-@property(readonly) NSURL *containingAppURL;
-@property(readonly) NSString *developerName;
-@property _Bool enabled;
-@property(readonly) NSString *extensionDisplayName;
 @property(readonly) NSString *identifier;
-@property(readonly) _Bool modified;
-@property(readonly) _Bool rebootRequired;
-@property(readonly) NSString *shortVersionString;
-@property(readonly) NSURL *stagedBundleURL;
-@property(readonly) NSString *teamID;
-@property(readonly) _Bool teamIDNone;
-@property(readonly) _Bool teamIDPlatformBinary;
-@property(readonly) NSString *usageDescription;
 @end
 

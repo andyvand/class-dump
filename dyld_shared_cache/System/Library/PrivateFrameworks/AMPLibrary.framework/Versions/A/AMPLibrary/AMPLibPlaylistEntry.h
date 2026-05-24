@@ -9,15 +9,13 @@
 @interface AMPLibPlaylistEntry
 {
     NSNumber *_mediaItemID;
-    NSNumber *_playlistEntryID;
-    NSNumber *_position;
 }
 
 + (id);
 + (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -27,8 +25,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *mediaItemID; // @synthesize mediaItemID=_mediaItemID;
-@property(retain, nonatomic) NSNumber *playlistEntryID; // @synthesize playlistEntryID=_playlistEntryID;
-@property(retain, nonatomic) NSNumber *position; // @synthesize position=_position;
 
 @end
 

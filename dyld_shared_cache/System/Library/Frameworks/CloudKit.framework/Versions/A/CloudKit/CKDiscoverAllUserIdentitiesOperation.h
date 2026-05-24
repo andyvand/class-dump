@@ -6,21 +6,18 @@
 
 #import <CloudKit/CKOperation.h>
 
-@class CKDiscoverUserIdentitiesOperationInfo, NSMutableDictionary, NSString;
-@protocol CKDiscoverAllUserIdentitiesOperationCallbacks;
+@class NSMutableDictionary;
 
 @interface CKDiscoverAllUserIdentitiesOperation : CKOperation
 {
     CDUnknownBlockType _userIdentityDiscoveredBlock;
-    CDUnknownBlockType _discoverAllUserIdentitiesCompletionBlock;
-    NSMutableDictionary *_identityToContactIdentifiers;
 }
 
 + (SEL);
 + (Class);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)K)?;
 - (id);
 - (void);
 - (CDUnknownBlockType);
@@ -28,25 +25,14 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)iner.workloop;
 - (void);
 - (_Bool);
 - (void)èË;
 - (void)(~áÿ{©X9;
 
 // Remaining properties
-@property(readonly, nonatomic) id <CKDiscoverAllUserIdentitiesOperationCallbacks> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType discoverAllUserIdentitiesCompletionBlock; // @synthesize discoverAllUserIdentitiesCompletionBlock=_discoverAllUserIdentitiesCompletionBlock;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSMutableDictionary *identityToContactIdentifiers; // @synthesize identityToContactIdentifiers=_identityToContactIdentifiers;
-@property(readonly, nonatomic) CKDiscoverUserIdentitiesOperationInfo *operationInfo; // @dynamic operationInfo;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) CDUnknownBlockType userIdentityDiscoveredBlock; // @synthesize userIdentityDiscoveredBlock=_userIdentityDiscoveredBlock;
 
 @end
 

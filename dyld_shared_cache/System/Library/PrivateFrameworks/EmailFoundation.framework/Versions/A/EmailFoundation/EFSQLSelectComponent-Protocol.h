@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+@protocol EFSQLSelectComponent;
+
 @protocol EFSQLSelectComponent
+- (id <EFSQLSelectComponent>);
+- (id <EFSQLSelectComponent>);
+- (void)0:(NSString *)arg1 8q16q24;
+- (id <EFSQLSelectComponent>)__collectBusyFallbackLogsWithReason:(NSString *)arg1 compress:(NSString *)arg2;
 @end
 

@@ -6,23 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class NSData, RFSchemaRFClientEventMetadata, RFSchemaRFComponentShown, RFSchemaRFGradingDialogReportedTier1, RFSchemaRFInteractionPerformed, RFSchemaRFPatternExecuted, RFSchemaRFSnippetRenderingContext, SISchemaInstrumentationMessage;
+@class RFSchemaRFClientEventMetadata, SISchemaInstrumentationMessage;
 
 @interface RFSchemaRFClientEvent : SISchemaTopLevelUnionType
 {
     RFSchemaRFClientEventMetadata *_eventMetadata;
-    RFSchemaRFPatternExecuted *_patternExecuted;
-    RFSchemaRFInteractionPerformed *_interactionPerformed;
-    RFSchemaRFComponentShown *_componentShown;
-    RFSchemaRFSnippetRenderingContext *_snippetRenderingContext;
-    RFSchemaRFGradingDialogReportedTier1 *_rfGradingDialogReportedTier1;
-    _Bool _hasEventMetadata;
-    _Bool _hasPatternExecuted;
-    _Bool _hasInteractionPerformed;
-    _Bool _hasComponentShown;
-    _Bool _hasSnippetRenderingContext;
-    _Bool _hasRfGradingDialogReportedTier1;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
@@ -40,7 +28,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -61,37 +49,24 @@
 - (void);
 - (id);
 - (id);
-- (int);
-- (id);
-- (void);
-- (unsigned long long);
+- (int);
+- (id);
+- (void)?
+k;
+- (unsigned long long)upported on macOS;
 - (_Bool);
-- (_Bool);
+- (_Bool)eLocation_t=****i}QQ^{__CFString}ddd}}^{__CFError}}8;
 - (id);
 - (id);
 - (id)alogSource"b1"dialogFallbackReason"b1};
-- (unsigned long long)umDocumentsTyped;
-- (id)nfo;
+- (unsigned long long)deleteNumDocumentsTyped;
+- (id)_whichTaskinfo;
 - (id)fsetInNs;
 - (int)t;
-- (void)RORCODE_INVALID_VERSION;
+- (void)GMSOPENAIERRORCODE_INVALID_VERSION;
 
 // Remaining properties
-@property(retain, nonatomic) RFSchemaRFComponentShown *componentShown; // @synthesize componentShown=_componentShown;
-@property(retain, nonatomic) RFSchemaRFClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasComponentShown; // @synthesize hasComponentShown=_hasComponentShown;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasInteractionPerformed; // @synthesize hasInteractionPerformed=_hasInteractionPerformed;
-@property(nonatomic) _Bool hasPatternExecuted; // @synthesize hasPatternExecuted=_hasPatternExecuted;
-@property(nonatomic) _Bool hasRfGradingDialogReportedTier1; // @synthesize hasRfGradingDialogReportedTier1=_hasRfGradingDialogReportedTier1;
-@property(nonatomic) _Bool hasSnippetRenderingContext; // @synthesize hasSnippetRenderingContext=_hasSnippetRenderingContext;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(retain, nonatomic) RFSchemaRFInteractionPerformed *interactionPerformed; // @synthesize interactionPerformed=_interactionPerformed;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) RFSchemaRFPatternExecuted *patternExecuted; // @synthesize patternExecuted=_patternExecuted;
-@property(retain, nonatomic) RFSchemaRFGradingDialogReportedTier1 *rfGradingDialogReportedTier1; // @synthesize rfGradingDialogReportedTier1=_rfGradingDialogReportedTier1;
-@property(retain, nonatomic) RFSchemaRFSnippetRenderingContext *snippetRenderingContext; // @synthesize snippetRenderingContext=_snippetRenderingContext;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

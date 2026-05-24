@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSArray, NSString;
+@class NSString;
 
 @interface MapsSuggestions.MapsSuggestionsFakeFindMyConnector
 {
     void uniqueName;
-    void friends;
-    CLLocation *cachedLocation;
-    CLLocation *refreshedLocation;
 }
 
 - (void);
@@ -23,19 +20,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)nU(;
+- (void)titleAttributedString;
+- (id):fetchPropertySets:libraryFilter:includeOthersInSocialGroupAssets: /* Error: Ran out of types for this method. */;
+- (void)d to merge people of different detection types.;
 - (id);
-- (void);
 - (id);
-- (id);
-- (void)lletPlaceStyling;
+- (void)walletPlaceStyling;
 - (id)D;
 
 // Remaining properties
-@property(nonatomic, retain) CLLocation *cachedLocation; // @synthesize cachedLocation;
-@property(nonatomic, copy) NSArray *friends;
-@property(nonatomic, retain) CLLocation *refreshedLocation; // @synthesize refreshedLocation;
 @property(nonatomic, copy) NSString *uniqueName;
 
 @end

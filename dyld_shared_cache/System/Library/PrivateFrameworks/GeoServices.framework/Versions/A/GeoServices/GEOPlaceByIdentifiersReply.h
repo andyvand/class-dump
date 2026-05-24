@@ -6,7 +6,7 @@
 
 #import <GeoServices/GEOXPCReply.h>
 
-@class GEOPDPlaceResponse, NSString;
+@class GEOPDPlaceResponse;
 
 @interface GEOPlaceByIdentifiersReply : GEOXPCReply
 {
@@ -17,18 +17,11 @@
 - (id);
 - (_Bool);
 - (void);
-- (void)ClientInfo;
+- (void)isNavdClientInfo;
 - (void)[aú^C:K@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) GEOPDPlaceResponse *response; // @synthesize response=_response;
-@property(readonly) Class superclass;
 
 @end
 

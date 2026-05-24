@@ -7,7 +7,6 @@
 @interface FCUserEventHistoryPruningPolicy
 {
     long long _type;
-    unsigned long long _value;
 }
 
 - (void);
@@ -15,11 +14,10 @@
 - (id);
 - (long long);
 - (unsigned long long);
-- (void);
+- (void)NSDictionary",&,V_attributes;
 
 // Remaining properties
 @property(nonatomic) long long type; // @synthesize type=_type;
-@property(nonatomic) unsigned long long value; // @synthesize value=_value;
 
 @end
 

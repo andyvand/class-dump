@@ -7,12 +7,9 @@
 @interface ConversationKit.MonogramView
 {
     id lastSizeForFont;
-    id font;
-    id colorStyle;
-    id text;
 }
 
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);

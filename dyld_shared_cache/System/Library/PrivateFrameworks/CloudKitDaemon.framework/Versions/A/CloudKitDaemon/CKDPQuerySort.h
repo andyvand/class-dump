@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPLocationCoordinate, CKDPRecordFieldIdentifier;
+@class CKDPLocationCoordinate;
 
 @interface CKDPQuerySort
 {
     CKDPLocationCoordinate *_coordinate;
-    CKDPRecordFieldIdentifier *_fieldName;
-    int _order;
-    struct {
-        unsigned int order:1;
-    } _has;
 }
 
 - (void);
-- (_Bool);
+- (_Bool)UsoTaskBuilder_RecipientsEventTrigger_uso_unknown_entity;
 - (id);
+- (void)_dispatch_source>";
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)=%1.3f, transcodeRestExpiryTicks(sec)=%1.3f, haveBufferedUpToStartWaterMark=%s;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -36,17 +31,12 @@
 - (void);
 - (_Bool)!CùqÛ1Â0@ù
 × ;
-- (void)ousShareToSharedDBOperation;
+- (void)CKDAddAnonymousShareToSharedDBOperation;
 - (id)h an authPutRequest was sent. While unexpected, this just means the MMCS operation requires a trip to the Content server;
 - (void)ant PCS from invited PCS for participant %@;
 
 // Remaining properties
-@property(retain, nonatomic) CKDPLocationCoordinate *coordinate; // @synthesize coordinate=_coordinate;
-@property(retain, nonatomic) CKDPRecordFieldIdentifier *fieldName; // @synthesize fieldName=_fieldName;
-@property(readonly, nonatomic) _Bool hasCoordinate;
 @property(readonly, nonatomic) _Bool hasFieldName;
-@property(nonatomic) _Bool hasOrder;
-@property(nonatomic) int order; // @synthesize order=_order;
 
 @end
 

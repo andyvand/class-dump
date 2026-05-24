@@ -7,8 +7,6 @@
 @interface (extension in AVFoundation):__C.AVAssetWriterInput.MetadataReceiver
 {
     id writer;
-    id input;
-    id metadataAdaptor;
 }
 
 @end

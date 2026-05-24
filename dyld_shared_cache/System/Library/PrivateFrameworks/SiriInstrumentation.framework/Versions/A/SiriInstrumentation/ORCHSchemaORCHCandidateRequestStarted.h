@@ -6,35 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHCandidateRequestStarted : SISchemaInstrumentationMessage
 {
     int _requestType;
-    struct {
-        unsigned int requestType:1;
-    } _has;
 }
 
 - (void);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)t;
+- (unsigned long long)A;
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)A;
 - (id)!@CùÞð1Â0@ù
 × ;
-- (id)Day;
-- (id)adableCount;
+- (id)_appUsageCount1Day;
+- (id)isReadableCount;
 - (void)\;
 - (void);
 - (int)Ð=ÛÿÉ¬Af";
 
 // Remaining properties
-@property(nonatomic) _Bool hasRequestType;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int requestType; // @synthesize requestType=_requestType;
 
 @end

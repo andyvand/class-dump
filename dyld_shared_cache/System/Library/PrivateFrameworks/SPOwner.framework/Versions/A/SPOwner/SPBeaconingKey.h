@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDateInterval;
+@class NSDateInterval;
 
 @interface SPBeaconingKey
 {
     NSDateInterval *_dateInterval;
-    NSData *_key;
-    NSData *_secondaryKey;
-    unsigned long long _primaryIndex;
-    unsigned long long _secondaryIndex;
 }
 
 + (_Bool);
@@ -20,7 +16,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)J;
 - (unsigned long long);
 - (void);
 - (unsigned long long);
@@ -30,16 +26,12 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)kCLLocationCoordinate2DInvalid;
 - (void);
-- (void);
+- (void)@;
 
 // Remaining properties
 @property(copy, nonatomic) NSDateInterval *dateInterval; // @synthesize dateInterval=_dateInterval;
-@property(copy, nonatomic) NSData *key; // @synthesize key=_key;
-@property(nonatomic) unsigned long long primaryIndex; // @synthesize primaryIndex=_primaryIndex;
-@property(nonatomic) unsigned long long secondaryIndex; // @synthesize secondaryIndex=_secondaryIndex;
-@property(copy, nonatomic) NSData *secondaryKey; // @synthesize secondaryKey=_secondaryKey;
 
 @end
 

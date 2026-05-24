@@ -6,20 +6,9 @@
 
 #import <OSLog/OSLogEntry.h>
 
-@class NSArray, NSString;
-
 @interface OSLogEntryLog : OSLogEntry
 {
     int _processIdentifier;
-    unsigned long long _activityIdentifier;
-    NSString *_process;
-    NSString *_sender;
-    unsigned long long _threadIdentifier;
-    NSString *_category;
-    NSArray *_components;
-    NSString *_formatString;
-    NSString *_subsystem;
-    long long _level;
 }
 
 + (_Bool);
@@ -29,27 +18,18 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)==;
 - (unsigned long long);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)nvoke;
 - (int);
 - (id);
 - (void);
-- (long long);
+- (long long)rsions/A/SystemConfiguration;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long activityIdentifier; // @synthesize activityIdentifier=_activityIdentifier;
-@property(readonly, nonatomic) NSString *category; // @synthesize category=_category;
-@property(readonly, nonatomic) NSArray *components; // @synthesize components=_components;
-@property(readonly, nonatomic) NSString *formatString; // @synthesize formatString=_formatString;
 @property(readonly, nonatomic) long long level; // @synthesize level=_level;
-@property(readonly, nonatomic) NSString *process; // @synthesize process=_process;
-@property(readonly, nonatomic) int processIdentifier; // @synthesize processIdentifier=_processIdentifier;
-@property(readonly, nonatomic) NSString *sender; // @synthesize sender=_sender;
-@property(readonly, nonatomic) NSString *subsystem; // @synthesize subsystem=_subsystem;
-@property(readonly, nonatomic) unsigned long long threadIdentifier; // @synthesize threadIdentifier=_threadIdentifier;
 
 @end
 

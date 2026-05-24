@@ -10,14 +10,10 @@ __attribute__((visibility("hidden")))
 @interface UIPDFSquareOrCircleAnnotation : UIPDFAnnotation
 {
     double _W;
-    unsigned short _S;
-    struct CGPDFArray *_D;
-    double _SE;
-    double _I;
 }
 
 - (void);
-- (id);
+- (id)message:(struct CGPDFDictionary *)arg1 %@;
 - (void);
 
 @end

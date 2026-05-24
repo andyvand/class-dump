@@ -4,35 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, RBProcess, RBSProcessIdentity;
+@class RBProcess;
 
 @interface RBConcreteTarget
 {
 }
 
-+ (id);
++ (id)_nonDefaultFeatureFlags;
 + (id);
 + (id);
 - (id);
-- (id);
+- (id)e;
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)gssapi_server_mech_authneg;
+- (id)PassiveDataSourceError;
+- (id)recommendedTypologyLogFilename;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *environment;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) RBSProcessIdentity *identity;
 @property(readonly, nonatomic) RBProcess *process;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic, getter=isSystem) _Bool system;
 
 @end
 

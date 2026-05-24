@@ -9,19 +9,17 @@
 @interface _EARSpeechRecognitionPersonalEntityMention
 {
     float _score;
-    NSString *_mention;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (float);
 - (void)"$;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *mention; // @synthesize mention=_mention;
-@property(readonly, nonatomic) float score; // @synthesize score=_score;
 
 @end
 

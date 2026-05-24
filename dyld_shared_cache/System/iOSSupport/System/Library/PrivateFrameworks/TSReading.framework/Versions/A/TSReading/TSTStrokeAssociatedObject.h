@@ -9,7 +9,7 @@
     _Bool dontClearBackground;
 }
 
-- (void);
+- (void)nt"8@"NSError"16;
 - (_Bool);
 
 // Remaining properties

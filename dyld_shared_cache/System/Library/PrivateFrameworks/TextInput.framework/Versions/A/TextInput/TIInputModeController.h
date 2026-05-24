@@ -9,32 +9,26 @@
 @interface TIInputModeController
 {
     NSArray *_supportedInputModeIdentifiers;
-    NSArray *_supportedInputModeLanguageAndRegions;
-    NSString *currentLocale;
-    NSArray *preferredLanguages;
-    NSArray *enabledInputModes;
-    NSArray *defaultInputModes;
-    NSArray *inputModesForTesting;
 }
 
 + (id);
 + (id);
 - (id);
+- (id)payloadWithData:(id)arg1 forPayloadID:(id)arg2 version:(id)arg3 andNilProperties:(id)arg4 error:(id)arg5;
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
 - (void);
 - (void);
-- (id)ility;
+- (id)contextProbability;
 - (id)2>?G/A;
 - (void)¿¯²Í;
 - (id)¾°®Í;
@@ -46,19 +40,12 @@
 Á
 
 ;
-- (id)athomable;
-- (id)prehensible;
-- (id)ght;
+- (id)fathomable;
+- (id)incomprehensible;
+- (id)KeyboardContinuousPathLanguageWeight;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *currentLocale; // @synthesize currentLocale;
-@property(copy, nonatomic) NSArray *defaultInputModes; // @synthesize defaultInputModes;
-@property(readonly) NSArray *enabledInputModeIdentifiers;
-@property(copy, nonatomic) NSArray *enabledInputModes; // @synthesize enabledInputModes;
-@property(copy, nonatomic) NSArray *inputModesForTesting; // @synthesize inputModesForTesting;
-@property(copy, nonatomic) NSArray *preferredLanguages; // @synthesize preferredLanguages;
-@property(readonly) NSArray *supportedInputModeIdentifiers;
-@property(readonly) NSArray *supportedInputModeLanguageAndRegions;
 
 @end
 

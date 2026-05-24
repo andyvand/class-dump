@@ -9,12 +9,11 @@
 @interface _PASPosixDataCollector
 {
     NSMutableArray *_chunks;
-    unsigned long long _totalBytes;
 }
 
 - (id);
 - (CDUnknownBlockType);
-- (void);
+- (void)stringByTrimmingCharactersInSet: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownBlockType handleData;

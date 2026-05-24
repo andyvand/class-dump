@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLRenderPipelineReflection, NSString;
 @protocol MTLRenderPipelineState;
 
 @interface TSDMetalShader
 {
     long long _vertexUniformsIndex;
-    unsigned long long _vertexUniformsSize;
-    long long _fragmentUniformsIndex;
-    unsigned long long _fragmentUniformsSize;
-    id <MTLRenderPipelineState> _pipelineState;
-    MTLRenderPipelineReflection *_pipelineReflectionObject;
-    unsigned long long _bufferIndex;
-    NSString *_name;
 }
 
 - (void);
@@ -33,33 +25,30 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)W;
 - (void)1Â0@ù
 × ;
 - (void)bs/TemporaryDirectory.AbPtYx/Sources/AlderShared/tables/TSTTableBadge.m;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long bufferIndex; // @synthesize bufferIndex=_bufferIndex;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) MTLRenderPipelineReflection *pipelineReflectionObject; // @synthesize pipelineReflectionObject=_pipelineReflectionObject;
 @property(readonly, nonatomic) id <MTLRenderPipelineState> pipelineState; // @synthesize pipelineState=_pipelineState;
 
 @end

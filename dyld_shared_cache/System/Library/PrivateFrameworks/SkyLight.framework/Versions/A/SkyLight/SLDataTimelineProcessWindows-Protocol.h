@@ -5,11 +5,12 @@
 //
 
 @protocol SLDataTimelineProcessWindows
+- (unsigned long long)sform data;
+- (unsigned long long){public}d bytes) -> %{public}s;
+- (unsigned long long)wrong number of parameters;
+- (unsigned long long)CloudKitMirroringDelegate observeChangesForStore:inPersistentStoreCoordinator:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long offScreen;
-@property(readonly, nonatomic) unsigned long long onScreenOccluded;
-@property(readonly, nonatomic) unsigned long long onScreenVisible;
 @property(readonly, nonatomic) unsigned long long orderedOut;
 @end
 

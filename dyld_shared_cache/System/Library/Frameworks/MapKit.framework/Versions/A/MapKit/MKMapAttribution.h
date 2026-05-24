@@ -4,37 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSImage, NSString, NSURL;
+@class NSAttributedString, NSString;
 
 @interface MKMapAttribution
 {
     NSAttributedString *_string;
-    NSURL *_url;
-    NSURL *_plainTextFileURL;
-    NSImage *_providerImage;
-    NSString *_providerString;
-    NSString *_providerName;
 }
 
 + (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)liablePipe;
+- (id)Frameworks/Foundation.framework/Versions/C/Foundation;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void)Identifier:allowPlaceholder:error: /* Error: Ran out of types for this method. */;
+- (void)initWithBundleIdentifier:allowPlaceholder:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *plainTextFileURL; // @synthesize plainTextFileURL=_plainTextFileURL;
-@property(readonly, nonatomic) NSImage *providerImage; // @synthesize providerImage=_providerImage;
-@property(readonly, nonatomic) NSString *providerName; // @synthesize providerName=_providerName;
 @property(readonly, nonatomic) NSString *providerString; // @synthesize providerString=_providerString;
-@property(readonly, nonatomic) NSAttributedString *string; // @synthesize string=_string;
-@property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

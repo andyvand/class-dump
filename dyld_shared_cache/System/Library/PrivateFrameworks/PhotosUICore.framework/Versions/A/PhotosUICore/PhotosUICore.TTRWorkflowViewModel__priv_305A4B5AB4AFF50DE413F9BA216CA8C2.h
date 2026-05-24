@@ -7,10 +7,6 @@
 @interface PhotosUICore.TTRWorkflowViewModel__priv_305A4B5AB4AFF50DE413F9BA216CA8C2
 {
     id dataSource;
-    id _navigationDestination;
-    id _shouldDismiss;
-    id _desiredContainerHeight;
-    id _$observationRegistrar;
 }
 
 @end

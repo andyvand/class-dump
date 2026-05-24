@@ -8,8 +8,8 @@
 {
 }
 
-+ (void);
-+ (void);
++ (void)er:(CDUnknownBlockType)arg1;
++ (void)webView:(CDUnknownBlockType)arg1 runJavaScriptConfirmPanelWithMessage:initiatedByFrame:completionHandler: /* Error: Ran out of types for this method. */;
 
 @end
 

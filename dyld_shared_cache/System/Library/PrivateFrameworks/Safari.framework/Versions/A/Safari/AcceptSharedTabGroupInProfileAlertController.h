@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSPopUpButton, NSString, WBTabGroupManager;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface AcceptSharedTabGroupInProfileAlertController
 {
     NSString *_title;
-    WBTabGroupManager *_tabGroupManager;
-    CDUnknownBlockType _completionHandler;
-    NSButton *_openInProfileButton;
-    NSPopUpButton *_profilePopUpButton;
 }
 
 + (id);
@@ -22,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 

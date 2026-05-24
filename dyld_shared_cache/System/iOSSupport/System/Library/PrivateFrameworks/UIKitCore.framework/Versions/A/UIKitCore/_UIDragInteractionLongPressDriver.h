@@ -6,15 +6,11 @@
 
 #import <UIKitCore/_UIDragInteractionDriver.h>
 
-@class NSString, UIDelayedAction, _UIDragLiftGestureRecognizer, _UIRelationshipGestureRecognizer;
+@class UIDelayedAction, _UIRelationshipGestureRecognizer;
 
 @interface _UIDragInteractionLongPressDriver : _UIDragInteractionDriver
 {
     UIDelayedAction *_gateTimer;
-    UIDelayedAction *_cancellationTimer;
-    _UIDragLiftGestureRecognizer *_gestureRecognizerForDragInitiation;
-    _UIRelationshipGestureRecognizer *_gestureRecognizerForFailureRelationship;
-    _UIRelationshipGestureRecognizer *_gestureRecognizerForExclusionRelationship;
 }
 
 - (_Bool);
@@ -22,53 +18,45 @@
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)taSource>";
+- (void)__MPModelPropertyPodcastEpisodeTranscriptIdentifier__MAPPING_MISSING__;
 - (id);
 - (double);
 - (void)ð1Â0@ù
 × ;
 - (void)0@ù
 × ;
-- (_Bool)irectionSelector:(id)arg1;
-- (void)antViewInfo;
-- (void)PanelVisible;
-- (_Bool)ntrollerProvider;
-- (id);
-- (void)odeSubviews;
-- (id)oveGeometryChangeObserver: /* Error: Ran out of types for this method. */;
-- (void)neInactiveWidth;
-- (void)Customized_supportMultilineShrinkToFit;
-- (void)tinueWithTimingParameters:(double)arg1 duration: /* Error: Ran out of types for this method. */;
-- (_Bool)nimatedTransitionsPermitted;
-- (id)evertTexts;
+- (_Bool)viewWithContentsImage:(id)arg1 rect:center:antialiasingMask:directionSelector: /* Error: Ran out of types for this method. */;
+- (void)remoteAssistantViewInfo;
+- (void)isFontPanelVisible;
+- (_Bool)interactionViewControllerProvider;
+- (id)dropInteraction:item:willAnimateDropWithAnimator: /* Error: Ran out of types for this method. */;
+- (void)_shouldDecodeSubviews;
+- (id)_removeGeometryChangeObserver: /* Error: Ran out of types for this method. */;
+- (void)_overrideInlineInactiveWidth;
+- (void)_hasCustomized_supportMultilineShrinkToFit;
+- (void)_continueWithTimingParameters:(double)arg1 duration: /* Error: Ran out of types for this method. */;
+- (_Bool)_areAnimatedTransitionsPermitted;
+- (id)_alternativeRevertTexts;
 - (_Bool)ockFailureCount;
 - (void)groundEffectOnInputModeChange;
 - (void)AnimationPrototypeSettings",&,N,V_morph;
-- (void)sition;
-- (_Bool)d;
+- (void)alphaTransition;
+- (_Bool)_UIButtonBarGroupOrdererSelfContained;
 - (void)_UIScrollPocketProxyElement;
 - (void)n:(Accepted:%@, Undo:%@) /* Error: Ran out of types for this method. */;
 - (void)~ÿÿ$êÿdB{þ$¦þÿ^íÿ;
 - (_Bool)eneHostingImpl.m;
 - (void)first responder, can't handle %@;
 - (void)onP;
-- (void)erCSg;
+- (void)So16_UIBarCustomizerCSg;
 - (void)çPÝ6?];
 - (_Bool)Sû;
 - (_Bool);
 - (void)c;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _UIRelationshipGestureRecognizer *gestureRecognizerForExclusionRelationship; // @synthesize gestureRecognizerForExclusionRelationship=_gestureRecognizerForExclusionRelationship;
 @property(readonly, nonatomic) _UIRelationshipGestureRecognizer *gestureRecognizerForFailureRelationship; // @synthesize gestureRecognizerForFailureRelationship=_gestureRecognizerForFailureRelationship;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

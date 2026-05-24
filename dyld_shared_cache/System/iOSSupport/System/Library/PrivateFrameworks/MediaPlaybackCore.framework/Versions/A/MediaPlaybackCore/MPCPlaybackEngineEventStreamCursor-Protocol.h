@@ -7,9 +7,12 @@
 @class MPCPlaybackEngineEvent;
 
 @protocol MPCPlaybackEngineEventStreamCursor
+- (MPCPlaybackEngineEvent *);
+- (void);
+- (void)#;
+- (long long)A;
 
 // Remaining properties
-@property(readonly, nonatomic) MPCPlaybackEngineEvent *endEvent;
 @property(readonly, nonatomic) MPCPlaybackEngineEvent *startEvent;
 @end
 

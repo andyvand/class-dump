@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SGQuickResponsesStore, _PASRng;
+@class SGQuickResponsesStore;
 
 @interface SGQuickResponsesPersonalization
 {
     SGQuickResponsesStore *_store;
-    _PASRng *_rng;
 }
 
-+ (id);
++ (id);
 + (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);

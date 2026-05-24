@@ -5,10 +5,10 @@
 //
 
 @protocol CNFuture
+- (void);
 - (void)isNotesAccessGrantedCachedValue;
 
 // Remaining properties
-@property(readonly, getter=isCancelled) _Bool cancelled;
 @property(readonly, getter=isFinished) _Bool finished;
 @end
 

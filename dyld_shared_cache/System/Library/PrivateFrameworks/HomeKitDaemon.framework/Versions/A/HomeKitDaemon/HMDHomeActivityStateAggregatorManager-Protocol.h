@@ -4,10 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMFMessage;
 @protocol HMDHomeUserActivityStatesDetails;
 
 @protocol HMDHomeActivityStateAggregatorManager
-- (void)riod;
+- (void)startLiveUpdatesForCapabilityVersion:(HMFMessage *)arg1;
+- (void)simulateRAPStatusChangeNotification;
+- (void)ionTime:(HMFMessage *)arg1 transactionType:transactionLocation: /* Error: Ran out of types for this method. */;
+- (void)SenderSession unarchiver error %@;
+- (void);
+- (void)pairingReconfirmWaitPeriod;
 
 // Remaining properties
 @property(readonly, copy) id <HMDHomeUserActivityStatesDetails> userActivityStatesDetails;

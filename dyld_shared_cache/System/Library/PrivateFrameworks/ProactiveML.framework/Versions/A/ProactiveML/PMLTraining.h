@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DESRecordStore, NSDictionary, NSString, PMLAWDAvailableSessionsTracker, PMLTrainingStore;
+@class DESRecordStore, PMLTrainingStore;
 
 @interface PMLTraining
 {
     DESRecordStore *_fidesStore;
-    PMLAWDAvailableSessionsTracker *_availableSessionsTracker;
-    NSDictionary *_isMultiLabel;
-    PMLTrainingStore *_store;
 }
 
 + (id);
@@ -23,29 +20,22 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (id);
+- (id);
+- (void)id now.;
+- (void)~4;
+- (void)I;
+- (void)G;
+- (id)initWithImageSource:(id)arg1 contentType:(id)arg2 options:(id)arg3 timeZoneLookup:cacheImageSource: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) PMLTrainingStore *store; // @synthesize store=_store;
-@property(readonly) Class superclass;
 
 @end
 

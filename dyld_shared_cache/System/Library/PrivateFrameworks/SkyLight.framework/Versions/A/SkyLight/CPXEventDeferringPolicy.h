@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSAuditHistory;
-
 __attribute__((visibility("hidden")))
 @interface CPXEventDeferringPolicy
 {
     long long _advicePolicy;
-    struct CPSProcessRec *_frontmostProcess;
-    unsigned int _keyThiefConnectionID;
-    BSAuditHistory *_auditHistory;
 }
 
 + (id);
 + (id);
-- (void);
-- (unsigned int);
-- (struct CPSProcessRec *);
+- (void)}%@;
+- (unsigned int)ity '%@' is missing mandatory text data for property '%@';
+- (struct CPSProcessRec *)ation.;
+- (id)INSERT INTO %@(%@, %@, %@, %@) VALUES(%u, '%@', %u, %qd);
+- (long long)DECIMAL;
+- (id)NEW.Z_PK) WHERE Z_PK = NEW.Z_PK;;
 - (id);
-- (long long);
 - (id);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)< %g]
+;
+- (id)Sy5x;
 - (_Bool);
 - (id);
 - (void);
@@ -37,9 +33,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) long long advicePolicy;
-@property(readonly, nonatomic) BSAuditHistory *auditHistory;
-@property(readonly, nonatomic) struct CPSProcessRec *frontmostProcess;
-@property(nonatomic) unsigned int keyThiefConnectionID; // @synthesize keyThiefConnectionID=_keyThiefConnectionID;
 
 @end
 

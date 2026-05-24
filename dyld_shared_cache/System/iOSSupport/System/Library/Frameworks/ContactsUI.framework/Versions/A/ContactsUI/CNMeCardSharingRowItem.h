@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface CNMeCardSharingRowItem
 {
     _Bool _isSelected;
-    NSString *_label;
-    UIView *_accessoryView;
-    CDUnknownBlockType _confirmationHandler;
 }
 
 - (id);
@@ -20,14 +17,11 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (void);
 - (id);
-- (void)iPickerHelper;
-- (id)SettingsNameEditingCell;
-- (_Bool)FavoriteAction;
+- (void)_emojiPickerHelper;
+- (id)CNMeCardSharingSettingsNameEditingCell;
+- (_Bool)CNContactAddFavoriteAction;
 
 // Remaining properties
-@property(readonly, nonatomic) UIView *accessoryView; // @synthesize accessoryView=_accessoryView;
-@property(readonly, copy, nonatomic) CDUnknownBlockType confirmationHandler; // @synthesize confirmationHandler=_confirmationHandler;
-@property(nonatomic) _Bool isSelected; // @synthesize isSelected=_isSelected;
 @property(readonly, nonatomic) NSString *label; // @synthesize label=_label;
 
 @end

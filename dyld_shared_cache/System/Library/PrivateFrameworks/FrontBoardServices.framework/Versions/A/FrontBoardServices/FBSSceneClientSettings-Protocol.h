@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSKeyedSettings, FBSSceneIdentityToken, NSString;
+@class BSKeyedSettings;
 
 @protocol FBSSceneClientSettings
+- (void)T;
+- (void);
+- (BSKeyedSettings *)_listenerWithManager:legacyConfigurator: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) BSKeyedSettings *layers;
-@property(nonatomic) long long preferredInterfaceOrientation;
-@property(nonatomic) double preferredLevel;
-@property(copy, nonatomic) NSString *preferredSceneHostIdentifier;
-@property(copy, nonatomic) FBSSceneIdentityToken *preferredSceneHostIdentity;
 @end
 

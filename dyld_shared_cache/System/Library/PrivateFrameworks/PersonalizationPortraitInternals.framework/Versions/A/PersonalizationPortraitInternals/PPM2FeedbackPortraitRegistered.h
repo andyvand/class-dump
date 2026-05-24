@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface PPM2FeedbackPortraitRegistered
 {
     NSString *_activeTreatments;
-    NSString *_clientId;
-    int _domain;
-    int _feedbackDomainStatus;
-    NSString *_mappingId;
-    NSMutableArray *_records;
-    int _type;
-    struct {
-        unsigned int domain:1;
-        unsigned int feedbackDomainStatus:1;
-        unsigned int type:1;
-    } _has;
 }
 
 + (Class);
@@ -34,7 +23,7 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 - (int);
 - (id);
@@ -46,15 +35,15 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long);
+- (_Bool)};
 - (int);
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
-- (_Bool);
-- (id);
+- (void);
+- (_Bool)_chatLoadedWithChatIdentifier:chats: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (id);
 - (int);
@@ -65,23 +54,11 @@
 - (void);
 - (id)Ô ;
 - (void)@16@24@32^v40;
-- (void)e:(id)arg1 locality:subLocality:administrativeArea:postalCode:category: /* Error: Ran out of types for this method. */;
+- (void)locationFromThoroughfare:(id)arg1 subThoroughfare:locality:subLocality:administrativeArea:postalCode:category: /* Error: Ran out of types for this method. */;
 - (_Bool)e1305: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *activeTreatments; // @synthesize activeTreatments=_activeTreatments;
-@property(retain, nonatomic) NSString *clientId; // @synthesize clientId=_clientId;
-@property(nonatomic) int domain; // @synthesize domain=_domain;
-@property(nonatomic) int feedbackDomainStatus; // @synthesize feedbackDomainStatus=_feedbackDomainStatus;
-@property(readonly, nonatomic) _Bool hasActiveTreatments;
 @property(readonly, nonatomic) _Bool hasClientId;
-@property(nonatomic) _Bool hasDomain;
-@property(nonatomic) _Bool hasFeedbackDomainStatus;
-@property(readonly, nonatomic) _Bool hasMappingId;
-@property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) NSString *mappingId; // @synthesize mappingId=_mappingId;
-@property(retain, nonatomic) NSMutableArray *records; // @synthesize records=_records;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

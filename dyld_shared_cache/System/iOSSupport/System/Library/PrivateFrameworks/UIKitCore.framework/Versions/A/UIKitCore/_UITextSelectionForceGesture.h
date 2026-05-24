@@ -6,23 +6,9 @@
 
 #import <UIKitCore/UILongPressGestureRecognizer.h>
 
-@class UIKBPanGestureVelocitySample;
-
 @interface _UITextSelectionForceGesture : UILongPressGestureRecognizer
 {
     _Bool _shouldFailWithoutForce;
-    _Bool _didLongPress;
-    _Bool _touchEclipsesVelocity;
-    UIKBPanGestureVelocitySample *_velocitySample;
-    UIKBPanGestureVelocitySample *_previousVelocitySample;
-    UIKBPanGestureVelocitySample *_liftOffSample;
-    double _increasingForceTimestamp;
-    double _lastTouchTime;
-    long long _liftOffState;
-    long long _increasingForceState;
-    struct CGPoint _lastSceneReferenceLocation;
-    struct CGPoint _lastUnadjustedSceneReferenceLocation;
-    struct CGRect _velocityRange;
 }
 
 - (void);
@@ -30,9 +16,9 @@
 - (struct CGRect);
 - (id)qgð1Â0@ù
 × ;
-- (void)imaryProgress:(id)arg1;
-- (void)etToUpgrade;
-- (void)joint;
+- (void)setHasPrimaryProgress:(id)arg1;
+- (void)assetToUpgrade;
+- (void)_joint;
 - (void)T;
 - (_Bool)/height. {%f, %f};
 - (double)napshotting a view (%p, %@) that has not been rendered at least once requires afterScreenUpdates:YES. /* Error: Ran out of types for this method. */;
@@ -45,18 +31,18 @@
 - (struct CGPoint)singPlainText:(id)arg1 %d
 ;
 - (struct CGPoint)cDimension.;
-- (_Bool)eyboardPrivateDidChangeFrameNotification;
+- (_Bool)UIKeyboardPrivateDidChangeFrameNotification;
 - (void)SceneZoomTransitionClientComponent.m;
-- (long long)troller;
-- (void)ActiveBlueGradientStart;
+- (long long)GameController;
+- (void)UIKBColorWildcatKeyActiveBlueGradientStart;
 - (id)ot defined for the UIColor %@; need to first convert colorspace.;
 - (_Bool)UIKit.kbProductivity.threeFingerSingleTap;
 - (struct CGPoint)B32@?0@"_UIFocusGroup"8Q16^B24;
-- (_Bool)hasisStylesComponent;
+- (_Bool)UITextFormattingViewControllerEmphasisStylesComponent;
 - (void)e == NSDirectionalRectEdgeBottom;
 - (void)WithReuseIdentifier:(long long)arg1 forIndexPath:. Collection view:%@; index path:%@; cell:%@ /* Error: Ran out of types for this method. */;
 - (void)roller idle];
-- (long long);
+- (long long)bottomLeftRadius;
 - (struct CGPoint)ers.glassBackground.inputBleedColorMatrixSaturation;
 - (struct CGPoint);
 - (void)&Íþÿ;
@@ -73,19 +59,7 @@
 - (struct CGPoint)1ÿW;
 
 // Remaining properties
-@property(readonly, getter=_liftOffSample) UIKBPanGestureVelocitySample *_liftOffSample; // @synthesize _liftOffSample;
-@property(readonly, getter=_previousVelocitySample) UIKBPanGestureVelocitySample *_previousVelocitySample; // @synthesize _previousVelocitySample;
-@property(readonly, getter=_velocitySample) UIKBPanGestureVelocitySample *_velocitySample; // @synthesize _velocitySample;
 @property(nonatomic) _Bool didLongPress; // @synthesize didLongPress=_didLongPress;
-@property(nonatomic) long long increasingForceState; // @synthesize increasingForceState=_increasingForceState;
-@property(nonatomic) double increasingForceTimestamp; // @synthesize increasingForceTimestamp=_increasingForceTimestamp;
-@property(nonatomic) struct CGPoint lastSceneReferenceLocation; // @synthesize lastSceneReferenceLocation=_lastSceneReferenceLocation;
-@property(nonatomic) double lastTouchTime; // @synthesize lastTouchTime=_lastTouchTime;
-@property(nonatomic) struct CGPoint lastUnadjustedSceneReferenceLocation; // @synthesize lastUnadjustedSceneReferenceLocation=_lastUnadjustedSceneReferenceLocation;
-@property(nonatomic) long long liftOffState; // @synthesize liftOffState=_liftOffState;
-@property(nonatomic) _Bool shouldFailWithoutForce; // @synthesize shouldFailWithoutForce=_shouldFailWithoutForce;
-@property(nonatomic) _Bool touchEclipsesVelocity; // @synthesize touchEclipsesVelocity=_touchEclipsesVelocity;
-@property(nonatomic) struct CGRect velocityRange; // @synthesize velocityRange=_velocityRange;
 
 @end
 

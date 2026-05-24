@@ -4,35 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCapturePhotoSettings_Tundra, AVCaptureResolvedPhotoSettings_Tundra, AVWeakReference;
 @protocol AVCapturePhotoCaptureDelegate_Tundra;
 
 __attribute__((visibility("hidden")))
 @interface AVCapturePhotoRequest_Tundra
 {
     long long _imageOrientation;
-    _Bool _imageMirrored;
-    AVCapturePhotoSettings_Tundra *_unresolvedSettings;
-    AVCaptureResolvedPhotoSettings_Tundra *_resolvedSettings;
-    AVWeakReference *_weakReferenceDelegate;
 }
 
-+ (id);
-- (id);
-- (_Bool);
-- (void);
++ (id);
+- (id)ecause connection is not started.;
+- (_Bool)ublic}@ - Entitled:%{BOOL}u - Error:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)propertyListWithData:options:format:error: /* Error: Ran out of types for this method. */;
 - (long long);
-- (id);
+- (id)t;
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) id <AVCapturePhotoCaptureDelegate_Tundra> delegate;
-@property(readonly, nonatomic) _Bool imageMirrored; // @synthesize imageMirrored=_imageMirrored;
-@property(readonly, nonatomic) long long imageOrientation; // @synthesize imageOrientation=_imageOrientation;
-@property(retain, nonatomic) AVCaptureResolvedPhotoSettings_Tundra *resolvedSettings;
-@property(readonly, nonatomic) AVCapturePhotoSettings_Tundra *unresolvedSettings; // @synthesize unresolvedSettings=_unresolvedSettings;
 
 @end
 

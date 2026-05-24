@@ -6,8 +6,7 @@
 
 #import <AVFCore/AVAssetReaderOutput.h>
 
-@class AVAssetReaderVideoCompositionOutputInternal, AVVideoComposition, NSArray, NSDictionary;
-@protocol AVVideoCompositing;
+@class AVAssetReaderVideoCompositionOutputInternal, NSArray;
 
 @interface AVAssetReaderVideoCompositionOutput : AVAssetReaderOutput
 {
@@ -15,32 +14,29 @@
 }
 
 + (id);
-- (id);
+- (id),;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (void);
-- (void);
+- (id) ;
+- (void)D;
+- (void);
 - (_Bool);
 - (id);
 - (id);
 - (void);
+- (id)h;
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (id);
+- (_Bool)B;
+- (id)NSXPCListenerDelegate;
 
 // Remaining properties
-@property(readonly, nonatomic) id <AVVideoCompositing> customVideoCompositor;
-@property(copy, nonatomic) AVVideoComposition *videoComposition;
-@property(readonly, nonatomic) NSDictionary *videoSettings;
 @property(readonly, nonatomic) NSArray *videoTracks;
 
 @end

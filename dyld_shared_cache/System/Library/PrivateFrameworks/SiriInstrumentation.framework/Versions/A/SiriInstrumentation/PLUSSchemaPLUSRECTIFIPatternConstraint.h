@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PLUSSchemaPLUSRECTIFIPatternConstraint : SISchemaInstrumentationMessage
 {
     int _constraintType;
-    float _constraintValue;
-    struct {
-        unsigned int constraintType:1;
-        unsigned int constraintValue:1;
-    } _has;
 }
 
 - (void);
@@ -31,20 +24,16 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)2;
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)dLengthInCharactersWhenRejected;
+- (id)_hasUserPayloadLengthInCharactersWhenRejected;
 - (id)tateDetected;
-- (int)ZATION;
+- (int)HALFAILUREREASON_INITIALIZATION;
 
 // Remaining properties
 @property(nonatomic) int constraintType; // @synthesize constraintType=_constraintType;
-@property(nonatomic) float constraintValue; // @synthesize constraintValue=_constraintValue;
-@property(nonatomic) _Bool hasConstraintType;
-@property(nonatomic) _Bool hasConstraintValue;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

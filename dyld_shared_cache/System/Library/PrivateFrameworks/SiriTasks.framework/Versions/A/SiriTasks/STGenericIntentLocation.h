@@ -9,9 +9,6 @@
 @interface STGenericIntentLocation
 {
     _Bool _isLatLong;
-    NSString *_name;
-    double _latitude;
-    double _longitude;
 }
 
 + (_Bool);
@@ -20,18 +17,15 @@
 - (id);
 - (id);
 - (id);
+- (void);
 - (void);
-- (void);
-- (double);
+- (double)_);
 - (void);
 - (void);
 - (void);
 - (double);
 
 // Remaining properties
-@property(nonatomic) _Bool isLatLong; // @synthesize isLatLong=_isLatLong;
-@property(nonatomic) double latitude; // @synthesize latitude=_latitude;
-@property(nonatomic) double longitude; // @synthesize longitude=_longitude;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

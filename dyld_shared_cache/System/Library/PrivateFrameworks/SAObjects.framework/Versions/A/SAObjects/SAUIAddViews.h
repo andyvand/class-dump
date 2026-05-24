@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSArray, NSString, SASendCommands, SAUIFeedbackForm, SAUIRequestEndBehavior;
+@class NSArray;
 
 @interface SAUIAddViews : SABaseClientBoundCommand
 {
@@ -16,36 +16,7 @@
 + (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceId; // @dynamic aceId;
-@property(copy, nonatomic) NSString *appId; // @dynamic appId;
-@property(copy, nonatomic) NSArray *callbacks; // @dynamic callbacks;
 @property(copy, nonatomic) NSArray *coordinationOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *dialogPhase;
-@property(copy, nonatomic) NSString *displayTarget;
-@property(retain, nonatomic) SAUIFeedbackForm *feedbackForm;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool immersiveExperience;
-@property(nonatomic) _Bool mutatingCommand;
-@property(copy, nonatomic) NSString *patternId;
-@property(copy, nonatomic) NSString *patternType;
-@property(nonatomic) _Bool persistentAcrossInvocations;
-@property(copy, nonatomic) NSString *personaAccessLevel;
-@property(copy, nonatomic) NSString *personaId;
-@property(copy, nonatomic) NSString *refId; // @dynamic refId;
-@property(retain, nonatomic) SASendCommands *refreshCommand;
-@property(retain, nonatomic) SAUIRequestEndBehavior *requestEndBehavior;
-@property(nonatomic) _Bool requiresResponse;
-@property(copy, nonatomic) NSString *responseMode;
-@property(nonatomic) _Bool scrollToTop;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool supplemental;
-@property(nonatomic) _Bool temporary;
-@property(copy, nonatomic) NSArray *views;
 
 @end
 

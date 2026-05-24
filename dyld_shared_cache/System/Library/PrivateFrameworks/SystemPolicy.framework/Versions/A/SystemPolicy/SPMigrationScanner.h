@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSURL;
+@class NSURL;
 
 @interface SPMigrationScanner
 {
     NSURL *_volumeRoot;
-    NSArray *_allKextURLs;
-    NSArray *_allBundleURLs;
 }
 
-- (id);
+- (id)PKLRUCache;
 - (_Bool);
 - (id);
 - (id);
@@ -21,8 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allBundleURLs; // @synthesize allBundleURLs=_allBundleURLs;
-@property(readonly, nonatomic) NSArray *allKextURLs; // @synthesize allKextURLs=_allKextURLs;
 @property(readonly, nonatomic) NSURL *volumeRoot; // @synthesize volumeRoot=_volumeRoot;
 
 @end

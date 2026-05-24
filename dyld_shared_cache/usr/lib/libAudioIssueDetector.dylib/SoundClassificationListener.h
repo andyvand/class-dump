@@ -8,15 +8,14 @@ __attribute__((visibility("hidden")))
 @interface SoundClassificationListener
 {
     _Bool isFalsePositiveState;
-    _Bool isListenerON;
 }
 
 + (id);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (id);
+- (void);
+- (id);
 
 @end
 

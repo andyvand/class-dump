@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioPlayer, NSString;
+@class AVAudioPlayer;
 
 __attribute__((visibility("hidden")))
 @interface CUAudioRequest
 {
     AVAudioPlayer *_audioPlayer;
-    CDUnknownBlockType _completion;
-    NSString *_label;
 }
 
 - (id);
@@ -24,8 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) AVAudioPlayer *audioPlayer; // @synthesize audioPlayer=_audioPlayer;
-@property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
 
 @end
 

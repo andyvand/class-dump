@@ -9,11 +9,9 @@
 @interface PBMessageStreamReader
 {
     NSInputStream *_stream;
-    Class _classOfNextMessage;
-    unsigned long long _position;
 }
 
-- (Class);
+- (Class)H9E;
 - (void);
 - (id);
 - (id);
@@ -22,7 +20,6 @@
 
 // Remaining properties
 @property(nonatomic) Class classOfNextMessage; // @synthesize classOfNextMessage=_classOfNextMessage;
-@property(readonly, nonatomic) unsigned long long position; // @synthesize position=_position;
 
 @end
 

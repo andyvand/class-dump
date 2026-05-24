@@ -4,58 +4,48 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSegmentedCell, NSSegmentedControlBezelConfiguration, NSView;
+@class NSView;
 
 __attribute__((visibility("hidden")))
 @interface NSSegmentedControlAquaduckVisualProvider
 {
     void controlView;
-    void segmentedCell;
-    NSSegmentedControlBezelConfiguration *bezelConfiguration;
-    void segmentItemConfigurations;
-    id hostingView;
-    id trackingPoint;
-    id $__lazy_storage_$_debugDrawFrames;
 }
 
-+ (_Bool);
++ (_Bool)setIgnoreHTTPOnlyCookie:(id)arg1;
 - (_Bool);
 - (int);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)set_preventsSystemHTTPProxyAuthentication:(struct CGPoint)arg1;
+- (void)set_duetPreClearedMode:(struct CGPoint)arg1;
+- (void)_privacyStance;
+- (void)_preventsSystemHTTPProxyAuthentication;
 - (void);
 - (id);
 - (id);
 - (_Bool);
+- (struct CGRect)lic}@ authenticator finished cont %d req %{sensitive}@ headers %{sensitive}@;
+- (struct CGSize)AppSSOProtocol did not receive HTTP response;
 - (struct CGRect);
-- (struct CGSize);
-- (struct CGRect);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGSize);
-- (id);
+- (void)CFStreamStatusNotOpen;
+- (void)%x) - encrypted?;
+- (void)contentDispositionEncodingFallbackArray;
+- (void)dResponsesSince:(struct CGRect)arg1 with nil date.;
+- (struct CGSize)ces;;
+- (id)e.CFNetwork.HSTS.DisableHSTS;
 - (struct NSEdgeInsets);
-- (void);
-- (void);
-- (struct CGSize);
+- (void)'e;
+- (void)6;t;
+- (struct CGSize):(struct CGRect)arg1 xJ;
 - (id);
-- (id);
+- (id);
 - (void)P¬ÿÝh¥3C;
 - (double)¨xõD;
 - (void)E;
 
 // Remaining properties
-@property(nonatomic, retain) NSSegmentedControlBezelConfiguration *bezelConfiguration; // @synthesize bezelConfiguration;
 @property(nonatomic) __weak NSView *controlView; // @synthesize controlView;
-@property(nonatomic, copy) NSArray *segmentItemConfigurations;
-@property(nonatomic) __weak NSSegmentedCell *segmentedCell; // @synthesize segmentedCell;
-@property(nonatomic, readonly) _Bool wantsUpdateLayer;
 
 @end
 

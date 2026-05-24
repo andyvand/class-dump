@@ -11,7 +11,7 @@
     long long _type;
 }
 
-+ (_Bool);
++ (_Bool)(;
 + (id)ipients:(id)arg1 groupName:(id *)arg2 dateMessageWasLastRead:numberOfAttachments:messageType:messageEffectType:referencedMessage:serviceName: /* Error: Ran out of types for this method. */;
 
 // Remaining properties

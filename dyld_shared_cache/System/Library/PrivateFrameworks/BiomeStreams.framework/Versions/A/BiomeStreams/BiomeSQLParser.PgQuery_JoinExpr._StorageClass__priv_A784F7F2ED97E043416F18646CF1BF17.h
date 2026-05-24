@@ -7,13 +7,6 @@
 @interface BiomeSQLParser.PgQuery_JoinExpr._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _jointype;
-    id _isNatural;
-    id _larg;
-    id _rarg;
-    id _usingClause;
-    id _quals;
-    id _alias;
-    id _rtindex;
 }
 
 @end

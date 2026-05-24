@@ -14,19 +14,18 @@
 }
 
 - (void);
-- (double);
+- (double)port currentRequest property;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (id)_menuDidChangeUserInterfaceLayoutDirectionFrom:(struct _NSZone *)arg1 to: /* Error: Ran out of types for this method. */;
-- (double);
+- (double)_desiredTextAreaSize;
 - (void)ØVTA;
 
 // Remaining properties
 @property(copy) _NSFixedCornerRadius *_cornerRadius; // @synthesize _cornerRadius;
-@property double radius;
 
 @end
 

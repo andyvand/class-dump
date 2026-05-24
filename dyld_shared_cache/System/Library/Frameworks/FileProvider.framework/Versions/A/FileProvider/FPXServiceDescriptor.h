@@ -9,13 +9,12 @@
 @interface FPXServiceDescriptor
 {
     NSString *_serviceName;
-    NSString *_requiredEntitlement;
 }
 
 + (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)!;
+- (id)P;
 - (void);
 - (void);
 - (void);
@@ -24,7 +23,6 @@
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *requiredEntitlement; // @synthesize requiredEntitlement=_requiredEntitlement;
 @property(copy, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
 
 @end

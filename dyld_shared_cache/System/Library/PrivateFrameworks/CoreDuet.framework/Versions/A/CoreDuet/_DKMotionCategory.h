@@ -8,14 +8,14 @@
 {
 }
 
++ (id);
++ (id)=SSSSSSIQICCs}{?=ss(?=[15f][15i][30s][60c])}{?=ssIQSs[11i]}{_CGGestureData=IQBBCCIfSC(?={?=fff[8i]}{?=f[10i]}{?=fffI[7i]}{?=IIIffffffII}{?=II[9i]}{?=f[10i]}{?=I[10i]}{?=ff[9i]})}){?=ss[15i]})^vSS^{__CGSEventAppendix}IB^{__CFData}}16@24;
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)?201?202?202?20a?20a?20c?20c?20e?20e?20i?20i?20o?20o?20s?20s?20t?20tC20 C20%C20-C20.C20/C203C204C205C206C207C208C209C20=C20AC20_C20bC20dC20fC20gC20hC20lC20mC20nC20pC20rC20u*20;
++ (id);
 
 @end
 

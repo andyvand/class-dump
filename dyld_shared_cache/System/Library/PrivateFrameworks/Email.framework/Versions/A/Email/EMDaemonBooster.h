@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMRemoteConnection, NSProgress, NSString;
+@class EMRemoteConnection;
 
 @interface EMDaemonBooster
 {
     EMRemoteConnection *_connection;
-    NSString *_loggingDescription;
-    NSProgress *_remoteBoost;
 }
 
 + (id);
@@ -28,15 +26,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) EMRemoteConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *loggingDescription; // @synthesize loggingDescription=_loggingDescription;
-@property(retain, nonatomic) NSProgress *remoteBoost; // @synthesize remoteBoost=_remoteBoost;
-@property(readonly) Class superclass;
 
 @end
 

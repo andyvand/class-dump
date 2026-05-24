@@ -6,27 +6,20 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, UIColor;
 @protocol _UIScrollViewScrollIndicatorVisualStyle;
 
 @interface _UIScrollViewScrollIndicator : UIView
 {
     id <_UIScrollViewScrollIndicatorVisualStyle> _visualStyle;
-    _Bool _expandedForDirectManipulation;
-    long long _style;
-    unsigned long long _type;
-    UIColor *_foregroundColor;
-    UIView *_roundedFillView;
-    UIColor *_effectiveForegroundColor;
 }
 
 + (id);
 + (void);
-+ (id)er:(long long)arg1;
-+ (void)itles;
++ (id)sheetPresentationControllerDidChangeSelectedDetentIdentifier:(long long)arg1;
++ (void)scopeTitles;
 - (long long);
 - (void);
-- (void);
+- (void)setPayloadBurnSupport:(_Bool)arg1;
 - (void);
 - (struct CGRect);
 - (void);
@@ -40,10 +33,10 @@
 - (struct CGSize)!pEùQgð1Â0@ù
 × ;
 - (_Bool)dleScrollEvent"b1"inSetContentOffset"b1"canSkipTraitsAndOverlayUpdatesForViewControllerToNotifyOnLayout"b1"needToIncrementScrollBounceStatistic"b1"didSetContentSizeAtLeastOnce"b1"forcingPanGestureToEndImmediately"b1"applicationHasExplicitlySetBounces"b1"applyVerticalSafeAreaInsetsToNonscrollingContent"b1"topScrollIndicatorFollowsContentOffset"b1"verticalScrollIndicatorUsesAlternativeTopSafeAreaInset"b1"systemInsetAdjustmentSumValid"b1"allowsKeyboardScrolling"b2"autoScrollDisabled"b1"contentScrollsAlongXAxis"b2"contentScrollsAlongYAxis"b2"indicatorInsetAdjustmentBehavior"b2"observingBoundingPathChanges"b1"resetsBoundingPathForSubtree"b1"scrubbing"b4"defersScrollerUpdate"b1"scrubbingKnobWithOption"b1"waitingForMacPagingScrollTimer"b1"registeredScrollviewTrackingAdapter"b1"retargetScrollDynamicsBasedDeceleration"b1"alwaysAppliesKeyboardBottomInsetAdjustment"b1"shouldAdjustLayoutToCollapseTopSpacing"b1"shouldAdjustLayoutToDrawTopSeparator"b1"focusFastScrollingDisabled"b1"supportsPointerDragScrolling"b1"needsLayoutOnVisibleBoundsChange"b1"needsUsesStaticScrollBarUpdate"b1"shouldContentOffsetAlwaysIgnoreSafeAreaInsetsChange"b1"shouldPreventFocusScrollPastContentSize"b1"wantsShadowWhenContentIsScrolled"b1"disableScrollViewTrackingRegistration"b1"allowsAsyncScrollEvent"b1"clientDidSetShowsVerticalScrollIndicator"b1"clientDidSetShowsHorizontalScrollIndicator"b1"preventsDescendentGestureInteraction"I};
-- (id)ryContainer;
-- (id)ngHandler;
+- (id)_inlineSearchFieldAccessoryContainer;
+- (id)_cellPruningHandler;
 - (id)",&,N,V_screenEdgePanRecognizer;
-- (void)Animations:(unsigned long long)arg1;
+- (void)addInProcessProgressAnimations:(unsigned long long)arg1;
 - (void);
 - (id)o¾7yÛ«;
 - (void)Ù.3yALyAAy_ABy¸;
@@ -52,21 +45,7 @@
 - (id)2ÿòÙÐÐ^;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=_visualStyle) id <_UIScrollViewScrollIndicatorVisualStyle> _visualStyle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UIColor *effectiveForegroundColor; // @synthesize effectiveForegroundColor=_effectiveForegroundColor;
-@property(nonatomic) _Bool expandedForDirectManipulation; // @synthesize expandedForDirectManipulation=_expandedForDirectManipulation;
-@property(retain, nonatomic) UIColor *foregroundColor; // @synthesize foregroundColor=_foregroundColor;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct CGSize layoutOffset;
 @property(retain, nonatomic) UIView *roundedFillView; // @synthesize roundedFillView=_roundedFillView;
-@property(nonatomic) long long style; // @synthesize style=_style;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

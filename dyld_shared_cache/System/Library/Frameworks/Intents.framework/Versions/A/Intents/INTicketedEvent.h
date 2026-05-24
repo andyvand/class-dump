@@ -4,46 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLPlacemark, INDateComponentsRange, NSString;
-
 @interface INTicketedEvent
 {
     long long _category;
-    NSString *_name;
-    INDateComponentsRange *_eventDuration;
-    CLPlacemark *_location;
 }
 
 + (id);
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)unsignedLongLongValue;
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)setNetworkOfInterestHomeState:(id)arg1;
+- (void)tandalone 6GHz networks (%{public}@);
 - (long long);
-- (id);
+- (id)R;
 - (id);
 - (id)PBHomeAttribute"24@0:8Q16 /* Error: Ran out of types for this method. */;
 - (id)Play:(unsigned long long)arg1 isPersonalizedRequest:internalSignals:entityConfidenceSignalsEnabled:entityConfidenceSignalsFrequencyDenominatorInternal:entityConfidenceSignalsFrequencyDenominatorProd:entityConfidenceSignalsMaxItemsToDisambiguate:alternativeProviderBundleIdentifier:ampPAFDataSetID:pegasusMetaData: /* Error: Ran out of types for this method. */;
-- (void)orkout: /* Error: Ran out of types for this method. */;
+- (void)defaultWorkoutNameForCancelWorkout: /* Error: Ran out of types for this method. */;
 - (id) ;
 
 // Remaining properties
 @property(readonly) long long category; // @synthesize category=_category;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) INDateComponentsRange *eventDuration; // @synthesize eventDuration=_eventDuration;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) CLPlacemark *location; // @synthesize location=_location;
-@property(readonly, copy) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,15 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface CEMSecuritySettingsDeclaration : CEMConfigurationBase
 {
     NSNumber *_payloadAllowUntrustedTLSPrompt;
-    NSNumber *_payloadAllowOTAPKIUpdates;
-    NSNumber *_payloadForceEncryptedBackup;
-    NSNumber *_payloadAllowEraseContentAndSettings;
-    NSNumber *_payloadAllowEnablingRestrictions;
 }
 
 + (id);
@@ -39,23 +35,12 @@
 - (_Bool);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool)audio queue.;
 - (id);
-- (void);
+- (void)notify;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *payloadAllowEnablingRestrictions; // @synthesize payloadAllowEnablingRestrictions=_payloadAllowEnablingRestrictions;
-@property(copy, nonatomic) NSNumber *payloadAllowEraseContentAndSettings; // @synthesize payloadAllowEraseContentAndSettings=_payloadAllowEraseContentAndSettings;
-@property(copy, nonatomic) NSNumber *payloadAllowOTAPKIUpdates; // @synthesize payloadAllowOTAPKIUpdates=_payloadAllowOTAPKIUpdates;
 @property(copy, nonatomic) NSNumber *payloadAllowUntrustedTLSPrompt; // @synthesize payloadAllowUntrustedTLSPrompt=_payloadAllowUntrustedTLSPrompt;
-@property(copy, nonatomic) NSNumber *payloadForceEncryptedBackup; // @synthesize payloadForceEncryptedBackup=_payloadForceEncryptedBackup;
-@property(readonly) Class superclass;
 
 @end
 

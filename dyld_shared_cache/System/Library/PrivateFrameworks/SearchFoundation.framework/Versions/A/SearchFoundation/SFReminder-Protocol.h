@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSDictionary, NSString;
+@class NSString;
 
 @protocol SFReminder
+- (void);
+- (NSString *)!;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSDate *dueDate;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *notes;
 @property(copy, nonatomic) NSString *title;
 @end
 

@@ -4,45 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NTPBAlternateHeadline;
+@class NTPBAlternateHeadline;
 
 @interface NTPBTodayWidgetHeadlineExposure
 {
     NTPBAlternateHeadline *_alternateHeadline;
-    NSString *_articleId;
-    float _personalizationScore;
-    NSString *_sourceChannelId;
-    NSString *_storyType;
-    NSString *_webEmbedId;
-    int _widgetArticleCount;
-    int _widgetArticleCountInSection;
-    int _widgetArticleRank;
-    int _widgetArticleRankInSection;
-    int _widgetContentType;
-    int _widgetExposureStackLocation;
-    int _widgetSectionDisplayRank;
-    NSString *_widgetSectionId;
-    NSString *_widgetSectionSubid;
-    int _widgetType;
-    struct {
-        unsigned int personalizationScore:1;
-        unsigned int widgetArticleCount:1;
-        unsigned int widgetArticleCountInSection:1;
-        unsigned int widgetArticleRank:1;
-        unsigned int widgetArticleRankInSection:1;
-        unsigned int widgetContentType:1;
-        unsigned int widgetExposureStackLocation:1;
-        unsigned int widgetSectionDisplayRank:1;
-        unsigned int widgetType:1;
-    } _has;
 }
 
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
+- (void)indexForListItem:(_Bool)arg1;
+- (void)fetchSuggestedPersonsForClient:(id)arg1 options: /* Error: Ran out of types for this method. */;
+- (_Bool)drawSegmentOfTimeline:withIdentifier:inRect:context: /* Error: Ran out of types for this method. */;
+- (_Bool)dataDetectorExistsAtPoint: /* Error: Ran out of types for this method. */;
+- (id)copyLayoutForSpritesInRange:entities:geometries:styles:infos: /* Error: Ran out of types for this method. */;
+- (void)WfzdiQRB62Ilb1OI3CMcY/Library/Caches/com.apple.xbs/TemporaryDirectory.ssEsu8/Sources/Photos_Apps/lib/paimaging/PhotoApps/PAImageItemView.m;
 - (_Bool);
 - (id);
 - (id);
@@ -50,9 +24,9 @@
 - (id);
 - (id);
 - (int);
-- (void);
+- (void)ignalPack for Entry %@;
 - (_Bool);
-- (void);
+- (void)H;
 - (int);
 - (id);
 - (void);
@@ -60,29 +34,29 @@
 - (_Bool);
 - (void);
 - (void);
+- (int)P;
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (unsigned long long)sizeThatFits: /* Error: Ran out of types for this method. */;
+- (id);
+- (_Bool)appDownloadScanner;
+- (_Bool)not active or has no root!;
+- (_Bool);
+- (_Bool);
 - (int);
 - (void);
+- (id)@"FCSportsEventController"16@0:(int)arg1 8;
 - (void);
+- (_Bool)clientToServerRecordType:withRecordID:inDatabase:error: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (_Bool);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (int);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCPrivateZoneSyncManager.m;
+- (void)s you love, all in one place.;
+- (void)roller:(int)arg1 ];
+- (_Bool)istorySessionCKRecord) :%s %s:%d %{public}@ /* Error: Ran out of types for this method. */;
+- (_Bool)tag allow list, returning default list;
 - (int);
 - (void);
 - (int);
@@ -107,42 +81,11 @@
 - (void);
 - (void);
 - (void)"b1};
-- (id)onalizationTreatmentId;
-- (void)eedbackScore;
+- (id)hasPersonalizationTreatmentId;
+- (void)_userFeedbackScore;
 
 // Remaining properties
-@property(retain, nonatomic) NTPBAlternateHeadline *alternateHeadline; // @synthesize alternateHeadline=_alternateHeadline;
-@property(retain, nonatomic) NSString *articleId; // @synthesize articleId=_articleId;
-@property(readonly, nonatomic) _Bool hasAlternateHeadline;
 @property(readonly, nonatomic) _Bool hasArticleId;
-@property(nonatomic) _Bool hasPersonalizationScore;
-@property(readonly, nonatomic) _Bool hasSourceChannelId;
-@property(readonly, nonatomic) _Bool hasStoryType;
-@property(readonly, nonatomic) _Bool hasWebEmbedId;
-@property(nonatomic) _Bool hasWidgetArticleCount;
-@property(nonatomic) _Bool hasWidgetArticleCountInSection;
-@property(nonatomic) _Bool hasWidgetArticleRank;
-@property(nonatomic) _Bool hasWidgetArticleRankInSection;
-@property(nonatomic) _Bool hasWidgetContentType;
-@property(nonatomic) _Bool hasWidgetExposureStackLocation;
-@property(nonatomic) _Bool hasWidgetSectionDisplayRank;
-@property(readonly, nonatomic) _Bool hasWidgetSectionId;
-@property(readonly, nonatomic) _Bool hasWidgetSectionSubid;
-@property(nonatomic) _Bool hasWidgetType;
-@property(nonatomic) float personalizationScore; // @synthesize personalizationScore=_personalizationScore;
-@property(retain, nonatomic) NSString *sourceChannelId; // @synthesize sourceChannelId=_sourceChannelId;
-@property(retain, nonatomic) NSString *storyType; // @synthesize storyType=_storyType;
-@property(retain, nonatomic) NSString *webEmbedId; // @synthesize webEmbedId=_webEmbedId;
-@property(nonatomic) int widgetArticleCount; // @synthesize widgetArticleCount=_widgetArticleCount;
-@property(nonatomic) int widgetArticleCountInSection; // @synthesize widgetArticleCountInSection=_widgetArticleCountInSection;
-@property(nonatomic) int widgetArticleRank; // @synthesize widgetArticleRank=_widgetArticleRank;
-@property(nonatomic) int widgetArticleRankInSection; // @synthesize widgetArticleRankInSection=_widgetArticleRankInSection;
-@property(nonatomic) int widgetContentType; // @synthesize widgetContentType=_widgetContentType;
-@property(nonatomic) int widgetExposureStackLocation; // @synthesize widgetExposureStackLocation=_widgetExposureStackLocation;
-@property(nonatomic) int widgetSectionDisplayRank; // @synthesize widgetSectionDisplayRank=_widgetSectionDisplayRank;
-@property(retain, nonatomic) NSString *widgetSectionId; // @synthesize widgetSectionId=_widgetSectionId;
-@property(retain, nonatomic) NSString *widgetSectionSubid; // @synthesize widgetSectionSubid=_widgetSectionSubid;
-@property(nonatomic) int widgetType; // @synthesize widgetType=_widgetType;
 
 @end
 

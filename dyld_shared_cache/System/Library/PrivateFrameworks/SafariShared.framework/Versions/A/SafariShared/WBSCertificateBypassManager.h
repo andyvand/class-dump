@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, WBSCoalescedAsynchronousWriter;
+@class NSMutableDictionary;
 
 @interface WBSCertificateBypassManager
 {
     NSMutableDictionary *_bypassedHostsToCertificateExceptions;
-    NSMutableDictionary *_bypassedHostsToCertificateExceptionsInPrivateBrowsing;
-    WBSCoalescedAsynchronousWriter *_plistWriter;
 }
 
 + (id);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);

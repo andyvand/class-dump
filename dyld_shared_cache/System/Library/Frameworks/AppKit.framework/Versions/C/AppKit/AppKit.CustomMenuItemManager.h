@@ -7,8 +7,6 @@
 @interface AppKit.CustomMenuItemManager
 {
     id itemIdentifierToWindow;
-    id $__lazy_storage_$_windowReuseSet;
-    id trackedWindow;
 }
 
 @end

@@ -4,26 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor, _SFPBDrillDownMetadata, _SFPBImage, _SFPBSymbolImage;
+@class NSArray, NSData, NSString;
 
 @protocol _SFPBPerformEntityQueryCommand
-- (void)veResultsAfterTimeout:(NSString *)arg1;
-- (NSArray *)fier;
+- (void)%;
+- (NSArray *)_lastModifiedDateForPasskeyCredentialOnSavedAccount: /* Error: Ran out of types for this method. */;
+- (NSData *)tleFontName;
+- (id);
+- (void)didReceiveResultsAfterTimeout:(NSString *)arg1;
+- (NSArray *)_entityIdentifier;
 - (NSString *)&,N,V_attribution_caveat;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bundleIdentifier;
-@property(retain, nonatomic) _SFPBDrillDownMetadata *drilldownMetadata;
-@property(copy, nonatomic) NSArray *enabledDomains;
-@property(retain, nonatomic) _SFPBColor *entityBackgroundColor;
-@property(copy, nonatomic) NSString *entityIdentifier;
-@property(nonatomic) int entityType;
-@property(copy, nonatomic) NSArray *filterQueries;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBDrillDownMetadata *metadata;
 @property(copy, nonatomic) NSString *searchString;
-@property(retain, nonatomic) _SFPBSymbolImage *symbolImage;
-@property(retain, nonatomic) _SFPBImage *tokenImage;
-@property(copy, nonatomic) NSString *tokenString;
 @end
 

@@ -10,7 +10,21 @@
 
 @interface BKEnrollTouchIDOperation : BKEnrollOperation
 {
-    CDStruct_87aaca7b _compSet;
+    struct {
+        int count;
+        int capa;
+        CDStruct_183601bc **items;
+        int unusedImageCount;
+        int componentCount;
+        int componentCapa;
+        int bestComponentIndex;
+        int bestMapiComponentIndex;
+        CDStruct_183601bc **components;
+        short mapiNodeAddedIndex;
+        short mapiNodeRemovedIndex;
+        int updateCount;
+        _Bool structureIsInconsistent;
+    } _compSet;
 }
 
 - (id);

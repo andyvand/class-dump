@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSString;
+@class NSDictionary, NSMutableArray;
 
 @interface AFUserUtterance
 {
     NSMutableArray *_phrases;
-    NSMutableArray *_tokens;
-    NSString *_text;
-    long long _sentenceConfidence;
-    NSMutableArray *_utterances;
-    NSDictionary *_correctionIdentifier;
 }
 
 - (id);
@@ -27,25 +22,23 @@
 - (id);
 - (id);
 - (id);
+- (id));
+- (id);
+- (id)9;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void)etion: /* Error: Ran out of types for this method. */;
+- (void)_deliverButtonEventFromContext:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allPhrases;
 @property(readonly, nonatomic) NSDictionary *correctionIdentifier; // @synthesize correctionIdentifier=_correctionIdentifier;
-@property(readonly, nonatomic) NSArray *dictationResult;
 
 @end
 

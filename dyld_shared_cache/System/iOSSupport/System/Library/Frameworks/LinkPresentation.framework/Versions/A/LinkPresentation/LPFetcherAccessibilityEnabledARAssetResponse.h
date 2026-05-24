@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)showFullScreenTapbackKeyboardInputForChatItem:(id)arg1;
 
 @end
 

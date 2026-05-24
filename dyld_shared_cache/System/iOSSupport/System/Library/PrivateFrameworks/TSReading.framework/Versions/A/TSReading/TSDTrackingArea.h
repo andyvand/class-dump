@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, TSDRep, TSDTrackingController;
+@class NSMutableArray;
 
 @interface TSDTrackingArea
 {
     _Bool _inTransformedRect;
-    _Bool _inTrackingArea;
-    NSMutableArray *_actions;
-    TSDRep *_rep;
-    CDUnknownBlockType _filterBlock;
-    TSDTrackingController *_trackingController;
-    struct CGRect _rectRelativeToRep;
 }
 
-- (void);
-- (void);
+- (void)formatInfoSpartialized;
+- (void)TaskIteration;
 - (id);
+- (void)r:(id)arg1 - setMXSessionProperty: /* Error: Ran out of types for this method. */;
+- (void)RED     〔;
 - (void);
 - (void);
-- (void);
-- (void);
-- (struct CGRect);
+- (struct CGRect)k-	;
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)c;
+- (_Bool)]lS;
 - (void);
 - (void);
 - (void);
@@ -40,7 +34,7 @@
 - (struct CGRect);
 - (void);
 - (_Bool);
-- (void);
+- (void)<j;
 - (void);
 - (id);
 - (void);
@@ -50,18 +44,12 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id);
 - (void),y;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSMutableArray *actions; // @synthesize actions=_actions;
-@property(copy, nonatomic) CDUnknownBlockType filterBlock; // @synthesize filterBlock=_filterBlock;
-@property(nonatomic) _Bool inTrackingArea; // @synthesize inTrackingArea=_inTrackingArea;
-@property(nonatomic) _Bool inTransformedRect; // @synthesize inTransformedRect=_inTransformedRect;
-@property(nonatomic) struct CGRect rectRelativeToRep; // @synthesize rectRelativeToRep=_rectRelativeToRep;
-@property(retain, nonatomic) TSDRep *rep; // @synthesize rep=_rep;
-@property(nonatomic) TSDTrackingController *trackingController; // @synthesize trackingController=_trackingController;
 
 @end
 

@@ -9,17 +9,15 @@
 @interface TSWPDragItem
 {
     UITargetedDragPreview *_targetedDragPreview;
-    struct CGRect _canvasRect;
 }
 
-- (id);
-- (id);
-- (struct CGRect);
+- (id)ject type:%ld /* Error: Ran out of types for this method. */;
+- (id)=%@ canAutoPlay=%@ storeFront=%@ subscriptionStatus=%@ bag=%@>;
+- (struct CGRect){c6;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect canvasRect; // @synthesize canvasRect=_canvasRect;
 @property(readonly, retain, nonatomic) UITargetedDragPreview *targetedDragPreview; // @synthesize targetedDragPreview=_targetedDragPreview;
 
 @end

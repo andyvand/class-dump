@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKBarButtonItem, NSString;
+@class NSString;
 
 @interface AKNavigationItem
 {
     NSString *_title;
-    AKBarButtonItem *_rightBarButtonItem;
 }
 
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -21,7 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) AKBarButtonItem *rightBarButtonItem; // @synthesize rightBarButtonItem=_rightBarButtonItem;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

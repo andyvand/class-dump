@@ -9,20 +9,18 @@
 @interface SODarkWakeHelper
 {
     id <SODarkWakeHelperDelegate> _delegate;
-    struct __CFRunLoopSource *_ioRunLoopSource;
 }
 
 + (_Bool);
 - (void);
 - (struct __CFRunLoopSource *);
-- (void);
+- (void)setTextEffectsState: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)setTranslatesAutoresizingMaskIntoConstraints: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property __weak id <SODarkWakeHelperDelegate> delegate; // @synthesize delegate=_delegate;
 @property(nonatomic) struct __CFRunLoopSource *ioRunLoopSource; // @synthesize ioRunLoopSource=_ioRunLoopSource;
 
 @end

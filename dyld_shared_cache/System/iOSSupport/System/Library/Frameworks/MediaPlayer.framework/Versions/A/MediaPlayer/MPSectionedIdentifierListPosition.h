@@ -9,28 +9,24 @@
 @interface MPSectionedIdentifierListPosition
 {
     NSString *_sectionIdentifier;
-    NSString *_itemIdentifier;
-    long long _entryType;
 }
 
 + (id);
-+ (id);
-+ (id);
++ (id)atAddConstraint;
++ (id)atDropColumnRecurse;
 + (_Bool);
 - (id);
-- (id);
+- (id)IMDMessageRecordCopyMessagesWithChatIdentifiersOnServicesWithOnlyUnreadAndLimit;
 - (long long);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)storeTypeDescription: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (void)MISSING__;
-- (id)ropertyArtistArtwork;
+- (void)__MPModelRelationshipPlaylistAuthorSocialProfile__MAPPING_MISSING__;
+- (id)MPModelPropertyArtistArtwork;
 
 // Remaining properties
-@property(readonly, nonatomic) long long entryType; // @synthesize entryType=_entryType;
-@property(readonly, nonatomic) NSString *itemIdentifier; // @synthesize itemIdentifier=_itemIdentifier;
 @property(readonly, nonatomic) NSString *sectionIdentifier; // @synthesize sectionIdentifier=_sectionIdentifier;
 
 @end

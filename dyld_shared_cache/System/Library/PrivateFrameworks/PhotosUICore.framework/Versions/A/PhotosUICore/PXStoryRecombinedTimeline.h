@@ -6,20 +6,11 @@
 
 #import <PhotosUICore/PXStoryBaseTimeline.h>
 
-@class PXCArrayStore;
 @protocol PXStoryTimeline;
 
 @interface PXStoryRecombinedTimeline : PXStoryBaseTimeline
 {
     id <PXStoryTimeline> _sourceTimeline;
-    long long _lastSourceSegmentIndex;
-    id <PXStoryTimeline> _targetTimeline;
-    long long _firstTargetSegmentIndex;
-    PXCArrayStore *_shiftedTimeRangesStore;
-    CDStruct_1b6d18a9 _targetTimeOffset;
-    CDStruct_e83c9415 _sourceTimeRange;
-    CDStruct_e83c9415 _targetTimeRangeInSourceTime;
-    CDStruct_e83c9415 _targetTimeRange;
 }
 
 + (id);
@@ -39,7 +30,7 @@
 - (long long);
 - (struct CGRect);
 - (long long);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -49,19 +40,11 @@
 - (id);
 - (struct CGSize);
 - (CDStruct_e83c9415);
-- (CDStruct_e83c9415)eedback;
+- (CDStruct_e83c9415)generalFeedback;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long firstTargetSegmentIndex; // @synthesize firstTargetSegmentIndex=_firstTargetSegmentIndex;
-@property(readonly, nonatomic) long long lastSourceSegmentIndex; // @synthesize lastSourceSegmentIndex=_lastSourceSegmentIndex;
-@property(readonly, nonatomic) PXCArrayStore *shiftedTimeRangesStore; // @synthesize shiftedTimeRangesStore=_shiftedTimeRangesStore;
-@property(readonly, nonatomic) CDStruct_e83c9415 sourceTimeRange; // @synthesize sourceTimeRange=_sourceTimeRange;
 @property(readonly, nonatomic) id <PXStoryTimeline> sourceTimeline; // @synthesize sourceTimeline=_sourceTimeline;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 targetTimeOffset; // @synthesize targetTimeOffset=_targetTimeOffset;
-@property(readonly, nonatomic) CDStruct_e83c9415 targetTimeRange; // @synthesize targetTimeRange=_targetTimeRange;
-@property(readonly, nonatomic) CDStruct_e83c9415 targetTimeRangeInSourceTime; // @synthesize targetTimeRangeInSourceTime=_targetTimeRangeInSourceTime;
-@property(readonly, nonatomic) id <PXStoryTimeline> targetTimeline; // @synthesize targetTimeline=_targetTimeline;
 
 @end
 

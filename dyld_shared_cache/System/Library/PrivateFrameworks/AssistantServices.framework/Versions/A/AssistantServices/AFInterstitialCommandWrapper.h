@@ -10,20 +10,17 @@
 @interface AFInterstitialCommandWrapper
 {
     CDUnknownBlockType _completion;
-    AceObject<SAAceCommand> *_command;
-    AceObject<SAAceCommand> *_defaultReply;
 }
 
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)PKPeerPaymentControllerAccountDidChangeNotification;
 - (id);
 - (void)C,N,V_recordId;
 
 // Remaining properties
 @property(readonly, nonatomic) AceObject<SAAceCommand> *command; // @synthesize command=_command;
-@property(readonly, nonatomic) AceObject<SAAceCommand> *defaultReply; // @synthesize defaultReply=_defaultReply;
 
 @end
 

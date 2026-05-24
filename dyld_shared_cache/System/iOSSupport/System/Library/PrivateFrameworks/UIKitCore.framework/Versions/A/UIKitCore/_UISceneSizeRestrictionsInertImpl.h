@@ -4,36 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UISceneSizeRestrictionsInertImpl
 {
     _Bool allowsFullScreen;
-    struct CGSize minimumSize;
-    struct CGSize maximumSize;
 }
 
-+ (id);
++ (id);
 + (id);
 - (void);
 - (_Bool);
 - (void);
-- (struct CGSize)withVelocity: /* Error: Ran out of types for this method. */;
+- (struct CGSize)shouldBeginMultiSelectInteraction:atPoint:withVelocity: /* Error: Ran out of types for this method. */;
 - (void)6à9(:(struct CGSize)arg1 ;D<À=¬AxB|C;
 - (struct CGSize)H/;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsFullScreen; // @synthesize allowsFullScreen;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct CGSize maximumSize; // @synthesize maximumSize;
 @property(nonatomic) struct CGSize minimumSize; // @synthesize minimumSize;
-@property(readonly) Class superclass;
 
 @end
 

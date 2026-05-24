@@ -7,8 +7,6 @@
 @interface RemindersUICore.TTRRemindersListCurrentTipCapability
 {
     id visibleTipDidChange;
-    id activeTip;
-    id pendingTip;
 }
 
 @end

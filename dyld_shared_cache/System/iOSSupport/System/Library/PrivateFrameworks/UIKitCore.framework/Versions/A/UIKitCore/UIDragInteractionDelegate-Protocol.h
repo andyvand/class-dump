@@ -12,9 +12,9 @@
 Ljðjèo`q¬q4ss;
 
 @optional
-- (id <UIDragSession>)erm:(UIDragInteraction *)arg1;
-- (void)mptDragLiftAtLocation:(UIDragInteraction *)arg1 useDefaultLiftAnimation:(id <UIDragSession>)arg2;
-- (void)mBarIsTabBar;
+- (id <UIDragSession>)_hasDefinitionForTerm:(UIDragInteraction *)arg1;
+- (void)_attemptDragLiftAtLocation:(UIDragInteraction *)arg1 useDefaultLiftAnimation:(id <UIDragSession>)arg2;
+- (void)__transitioningBottomBarIsTabBar;
 - (NSArray *)imultaneousDropSessions;
 - (void)etDrawsDebugGlyphPathBoundsClipping:(UIDragInteraction *)arg1;
 - (void)UIContentPlatterView",N,R;
@@ -24,7 +24,7 @@ Ljðjèo`q¬q4ss;
 - (_Bool)tþÿ;
 - (_Bool)e (%@);
 - (void)NSDirectionalEdgeInsets;
-- (void)pplementaryViewNibDict;
+- (void)UICollectionViewSupplementaryViewNibDict;
 - (UITargetedDragPreview *)t"8;
 - (_Bool);
 @end

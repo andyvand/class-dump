@@ -9,21 +9,19 @@
 @interface SSRVoiceProfileLoader
 {
     NSString *_locale;
-    NSString *_personaId;
-    NSString *_siriSharedUserId;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)livePhotoPairingIdentifier;
 - (void);
 - (id);
 - (void);
@@ -32,8 +30,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *locale; // @synthesize locale=_locale;
-@property(retain, nonatomic) NSString *personaId; // @synthesize personaId=_personaId;
-@property(retain, nonatomic) NSString *siriSharedUserId; // @synthesize siriSharedUserId=_siriSharedUserId;
 
 @end
 

@@ -4,17 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NSObject
+- (Class)issuer decode error;
+- (id)n;
+- (id)nvalid proxy policy setting;
+- (id)valid option;
+- (id);
+- (Class)id boolean string;
+- (unsigned long long)!;
+- (oneway void),V_labelRectangleFlipped;
+- (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

@@ -4,29 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, UIViewAnimationState;
-
 __attribute__((visibility("hidden")))
 @interface UIViewAnimationBlockDelegate
 {
     _Bool _didBeginBlockAnimation;
-    _Bool _allowUserInteraction;
-    _Bool _isZeroDuration;
-    _Bool _allowsUserInteractionToCutOffEndOfAnimation;
-    _Bool _allowsHitTesting;
-    _Bool _animationDidStopSent;
-    CDUnknownBlockType _start;
-    CDUnknownBlockType _completion;
-    NSMutableArray *_systemPostAnimationActions;
-    _Bool __forcingImmediateCompletion;
-    UIViewAnimationState *_animationState;
 }
 
 + (id)Ð!äGùQb°1Â0@ù
 × ;
 + (void)S_setMinificationFilterName:(double)arg1;
 - (_Bool);
-- (_Bool);
+- (_Bool)user:didUpdateAssistantAccessControl:forHome: /* Error: Ran out of types for this method. */;
 - (void)0@ù
 × ;
 - (void)ù
@@ -34,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void)Bùñf1Â0@ù
 × ;
-- (void)Delta:(_Bool)arg1;
+- (void)_coalesceContentSizeUpdateWithDelta:(_Bool)arg1;
 - (_Bool)V_curve;
 - (void);
 - (id)String"8@"UICollectionViewLayout"16^B24;
@@ -42,8 +30,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _allowsUserInteraction; // @synthesize _allowsUserInteraction=_allowUserInteraction;
-@property(nonatomic) __weak UIViewAnimationState *_animationState; // @synthesize _animationState;
-@property(nonatomic, setter=_setForcingImmediateCompletion:) _Bool _forcingImmediateCompletion; // @synthesize _forcingImmediateCompletion=__forcingImmediateCompletion;
 
 @end
 

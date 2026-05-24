@@ -6,13 +6,12 @@
 
 #import <OfficeImport/OADBackground.h>
 
-@class NSArray, OADFill;
+@class OADFill;
 
 __attribute__((visibility("hidden")))
 @interface OADBackgroundProperties : OADBackground
 {
     OADFill *mFill;
-    NSArray *mEffects;
 }
 
 - (void);

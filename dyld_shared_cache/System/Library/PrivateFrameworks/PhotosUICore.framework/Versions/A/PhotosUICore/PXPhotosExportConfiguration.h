@@ -4,24 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, UTType;
-
 @interface PXPhotosExportConfiguration
 {
     _Bool _shouldIncludeLocation;
-    _Bool _shouldIncludeCaption;
-    _Bool _shouldExportForMail;
-    unsigned long long _itemType;
-    long long _encodingPolicy;
-    NSNumber *_downscalingTargetDimension;
-    UTType *_possibleContentType;
-    NSString *_activityTypeForAssetExportAnalytics;
 }
 
 + (id);
 + (id);
 - (id);
-- (_Bool);
+- (_Bool)B;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -34,14 +25,7 @@
 - (unsigned long long)~èNÜU<;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *activityTypeForAssetExportAnalytics; // @synthesize activityTypeForAssetExportAnalytics=_activityTypeForAssetExportAnalytics;
-@property(readonly, nonatomic) NSNumber *downscalingTargetDimension; // @synthesize downscalingTargetDimension=_downscalingTargetDimension;
-@property(readonly, nonatomic) long long encodingPolicy; // @synthesize encodingPolicy=_encodingPolicy;
 @property(readonly, nonatomic) unsigned long long itemType; // @synthesize itemType=_itemType;
-@property(readonly, nonatomic) UTType *possibleContentType; // @synthesize possibleContentType=_possibleContentType;
-@property(readonly, nonatomic) _Bool shouldExportForMail; // @synthesize shouldExportForMail=_shouldExportForMail;
-@property(readonly, nonatomic) _Bool shouldIncludeCaption; // @synthesize shouldIncludeCaption=_shouldIncludeCaption;
-@property(readonly, nonatomic) _Bool shouldIncludeLocation; // @synthesize shouldIncludeLocation=_shouldIncludeLocation;
 
 @end
 

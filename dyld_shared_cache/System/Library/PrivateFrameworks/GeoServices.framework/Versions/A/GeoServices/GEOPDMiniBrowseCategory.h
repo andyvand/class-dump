@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOStyleAttributes, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDMiniBrowseCategory
 {
     PBUnknownFields *_unknownFields;
-    GEOStyleAttributes *_styleAttributes;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)#;
 - (_Bool);
 - (id)read_vendorId"b1"wrote_anyField"b1};
 - (id)ount:error: /* Error: Ran out of types for this method. */;

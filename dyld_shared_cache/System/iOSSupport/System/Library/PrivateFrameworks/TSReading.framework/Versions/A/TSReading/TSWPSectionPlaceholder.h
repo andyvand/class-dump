@@ -6,22 +6,21 @@
 
 #import <TSReading/TSPObject.h>
 
-@class TPDocumentRoot, TSWPStorage;
+@class TPDocumentRoot;
 
 @interface TSWPSectionPlaceholder : TSPObject
 {
     TPDocumentRoot *_documentRoot;
-    TSWPStorage *_parentStorage;
 }
 
+- (void)ayback queue from intent %@;
+- (void)action with options:(id)arg1 %@;
+- (void)key=%@;
+- (void)playback context:(id)arg1 %@;
+- (id)reFront=%@ subscriptionStatus=%@ bag=%@>;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)3;
+- (void) a;
 - (id);
 - (id);
 - (_Bool);

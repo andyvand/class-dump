@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BUZipArchive, BUZipEntry, NSString;
-@protocol BUReadChannel;
+@class BUZipEntry;
 
 @interface BUZipReadChannel
 {
     _Bool _validateCRC;
-    BUZipEntry *_entry;
-    BUZipArchive *_archive;
-    id <BUReadChannel> _archiveReadChannel;
 }
 
 - (_Bool);
@@ -38,18 +34,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) BUZipArchive *archive; // @synthesize archive=_archive;
-@property(retain, nonatomic) id <BUReadChannel> archiveReadChannel; // @synthesize archiveReadChannel=_archiveReadChannel;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) BUZipEntry *entry; // @synthesize entry=_entry;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isValid;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool validateCRC; // @synthesize validateCRC=_validateCRC;
 
 @end
 

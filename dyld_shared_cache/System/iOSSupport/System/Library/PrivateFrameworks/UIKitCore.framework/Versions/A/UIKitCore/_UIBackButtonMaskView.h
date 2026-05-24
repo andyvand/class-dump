@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
     UIImageView *_maskImageView;
 }
 
+- (id)[;
 - (id);
-- (id);
-- (id)ddedDraggingItemsWaitingForHandOffOfDragImage;
+- (id)_addedDraggingItemsWaitingForHandOffOfDragImage;
 - (void)q;
 
 // Remaining properties

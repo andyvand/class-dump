@@ -14,7 +14,7 @@
 - (void);
 - (id);
 - (id);
-- (id)tAutoExpandingItemFlash;
+- (id)_startAutoExpandingItemFlash;
 - (void)!\TLE;
 
 @end

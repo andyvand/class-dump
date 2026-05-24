@@ -12,8 +12,8 @@
 }
 
 - (id);
-- (void);
-- (id)des;
+- (void);
+- (id)experimentOverrides;
 - (id)pped-address.;
 - (void)ightParticipant:%@ /* Error: Ran out of types for this method. */;
 

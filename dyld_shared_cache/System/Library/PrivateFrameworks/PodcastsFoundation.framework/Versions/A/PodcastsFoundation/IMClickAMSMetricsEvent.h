@@ -10,8 +10,2148 @@
 {
 }
 
-- (void);
-- (void);
+- (void)Helper.@call(this, array, kind);
+})
+(function (value)
+{
+"use strict";
+@assert(@isAsyncFromSyncIterator(this));
+var promise = @newPromise();
+if (!@isObject(this) || !@isObject(@getAsyncFromSyncIteratorInternalField(this, @asyncFromSyncIteratorFieldSyncIterator))) {
+@rejectPromiseWithFirstResolvingFunctionCallCheck(promise, @makeTypeError('Iterator is not an object.'));
+return promise;
+}
+var syncIterator = @getAsyncFromSyncIteratorInternalField(this, @asyncFromSyncIteratorFieldSyncIterator);
+var nextMethod = @getAsyncFromSyncIteratorInternalField(this, @asyncFromSyncIteratorFieldNextMethod);
+try {
+var nextResult = @argumentCount() === 0 ? nextMethod.@call(syncIterator) :(id)arg1 nextMethod.@call(syncIterator, value);
+var task = nextResult.done ? @InternalMicrotaskAsyncFromSyncIteratorDone :@InternalMicrotaskAsyncFromSyncIteratorContinue;
+@resolveWithInternalMicrotaskForAsyncAwait(nextResult.value, task, { @promise:promise, @syncIterator:syncIterator });
+} catch (e) {
+@rejectPromiseWithFirstResolvingFunctionCallCheck(promise, e);
+}
+return promise;
+})
+(function (value)
+{
+"use strict";
+var promise = @newPromise();
+var resumeMode = @asyncGeneratorQueueEnqueue(this, value, @GeneratorResumeModeNormal, promise);
+if (resumeMode !== @AsyncGeneratorResumeModeEmpty)
+@asyncGeneratorResumeNext(this, resumeMode);
+return promise;
+})
+(function (value)
+{
+"use strict";
+if (!@isGenerator(this))
+@throwTypeError("|this| should be a generator");
+var state = @getGeneratorInternalField(this, @generatorFieldState);
+if (state === @GeneratorStateExecuting)
+@throwTypeError("Generator is executing");
+if (state === @GeneratorStateCompleted)
+value = @undefined;
+return @generatorResume(this, state, value, @GeneratorResumeModeNormal);
+})
+(function ()
+{
+"use strict";
+if (!@isIteratorHelper(this))
+@throwTypeError("|this| should be an iterator helper");
+var generator = @getIteratorHelperInternalField(this, @iteratorHelperFieldGenerator);
+var state = @getGeneratorInternalField(generator, @generatorFieldState);
+if (state === @GeneratorStateExecuting)
+@throwTypeError("Generator is executing");
+return @generatorResume(generator, state, @undefined, @GeneratorResumeModeNormal);
+})
+(function () {
+"use strict";
+if (!@isMapIterator(this))
+@throwTypeError("%MapIteratorPrototype%.next requires that |this| be an Map Iterator instance");
+var value;
+var done = @mapIteratorNext(this);
+if (!done) {
+var kind = @getMapIteratorInternalField(this, @mapIteratorFieldKind);
+if (kind === @iterationKindKey)
+value = @mapIteratorKey(this);
+else if (kind === @iterationKindValue)
+value = @mapIteratorValue(this);
+else
+value = [@mapIteratorKey(this), @mapIteratorValue(this)];
+}
+return { value, done };
+})
+(function ()
+{
+"use strict";
+if (!@isObject(this))
+@throwTypeError("%RegExpStringIteratorPrototype%.next requires |this| to be an Object");
+if (!@isRegExpStringIterator(this))
+@throwTypeError("%RegExpStringIteratorPrototype%.next requires |this| to be an RegExp String Iterator instance");
+var done = @getRegExpStringIteratorInternalField(this, @regExpStringIteratorFieldDone);
+if (done)
+return { value:@undefined, done:true };
+var regExp = @getRegExpStringIteratorInternalField(this, @regExpStringIteratorFieldRegExp);
+var string = @getRegExpStringIteratorInternalField(this, @regExpStringIteratorFieldString);
+var global = @getRegExpStringIteratorInternalField(this, @regExpStringIteratorFieldGlobal);
+var fullUnicode = @getRegExpStringIteratorInternalField(this, @regExpStringIteratorFieldFullUnicode);
+var match = @regExpExec(regExp, string);
+if (match === null) {
+@putRegExpStringIteratorInternalField(this, @regExpStringIteratorFieldDone, true);
+return { value:@undefined, done:true };
+}
+if (global) {
+var matchStr = @toString(match[0]);
+if (matchStr === "") {
+var thisIndex = @toLength(regExp.lastIndex);
+regExp.lastIndex = @advanceStringIndex(string, thisIndex, fullUnicode);
+}
+} else
+@putRegExpStringIteratorInternalField(this, @regExpStringIteratorFieldDone, true);
+return { value:match, done:false };
+})
+(function () {
+"use strict";
+if (!@isSetIterator(this))
+@throwTypeError("%SetIteratorPrototype%.next requires that |this| be a Set Iterator instance");
+var value;
+var done = @setIteratorNext(this);
+if (!done) {
+var kind = @getSetIteratorInternalField(this, @setIteratorFieldKind);
+var value = @setIteratorKey(this);
+if (kind === @iterationKindEntries)
+value = [value, value];
+}
+return { value, done };
+})
+(function ()
+{
+"use strict";
+if (!@isStringIterator(this))
+@throwTypeError("%StringIteratorPrototype%.next requires that |this| be a String Iterator instance");
+var done = true;
+var value = @undefined;
+var position = @getStringIteratorInternalField(this, @stringIteratorFieldIndex);
+if (position !== -1) {
+var string = @getStringIteratorInternalField(this, @stringIteratorFieldIteratedString);
+var length = string.length >>> 0;
+if (position >= length)
+@putStringIteratorInternalField(this, @stringIteratorFieldIndex, -1);
+else {
+done = false;
+var first = string.@charCodeAt(position);
+if (first < 0xD800 || first > 0xDBFF || position + 1 === length)
+value = string[position];
+else {
+var second = string.@charCodeAt(position + 1);
+if (second < 0xDC00 || second > 0xDFFF)
+value = string[position];
+else
+value = string[position] + string[position + 1];
+}
+@putStringIteratorInternalField(this, @stringIteratorFieldIndex, position + value.length);
+}
+}
+return { value, done };
+})
+(function ()
+{
+"use strict";
+if (!@isWrapForValidIterator(this))
+@throwTypeError("%WrapForValidIteratorPrototype%.next requires that |this| be a WrapForValidIteratorPrototype object");
+return @getWrapForValidIteratorInternalField(this, @wrapForValidIteratorFieldIteratedNextMethod).@call(@getWrapForValidIteratorInternalField(this, @wrapForValidIteratorFieldIteratedIterator));
+})
+(function ()
+{
+"use strict";
+var len = @argumentCount();
+if (!@isConstructor(this))
+@throwTypeError("TypedArray.of requires |this| to be a constructor");
+var result = new this(len);
+if (@typedArrayLength(result) < len)
+@throwTypeError("TypedArray.of constructed typed array of insufficient length");
+for (var i = 0; i < len; i++)
+result[i] = arguments[i];
+return result;
+})
+(function (iterable)
+{
+"use strict";
+var result = [];
+if (@isUndefinedOrNull(iterable))
+@throwTypeError('Spread syntax requires ...iterable not be null or undefined');
+var iteratorMethod = iterable.@@iterator;
+if (!@isCallable(iteratorMethod))
+@throwTypeError('Spread syntax requires ...iterable[Symbol.iterator] to be a function');
+var iterator = iteratorMethod.@call(iterable);
+var next = iterator.next;
+var item;
+var index = 0;
+while (true) {
+item = next.@call(iterator);
+if (!@isObject(item))
+@throwTypeError("Iterator result interface is not an object");
+if (item.done)
+return result;
+@putByValDirect(result, index++, item.value);
+}
+})
+(function (propertyName, receiver)
+{
+"use strict";
+var target = @getProxyInternalField(this, @proxyFieldTarget);
+var handler = @getProxyInternalField(this, @proxyFieldHandler);
+if (handler === null)
+@throwTypeError("Proxy has already been revoked. No more operations are allowed to be performed on it");
+var trap = handler.get;
+if (@isUndefinedOrNull(trap))
+return @getByValWithThis(target, receiver, propertyName);
+if (!@isCallable(trap))
+@throwTypeError("'get' property of a Proxy's handler should be callable");
+var trapResult = trap.@call(handler, target, propertyName, @toThis(receiver));
+if (@mustValidateResultOfProxyGetAndSetTraps(target))
+@handleProxyGetTrapResult(trapResult, target, propertyName);
+return trapResult;
+})
+(function (propertyName, receiver)
+{
+"use strict";
+var target = @getProxyInternalField(this, @proxyFieldTarget);
+var handler = @getProxyInternalField(this, @proxyFieldHandler);
+var propertyName = @toPropertyKey(propertyName);
+if (handler === null)
+@throwTypeError("Proxy has already been revoked. No more operations are allowed to be performed on it");
+var trap = handler.get;
+if (@isUndefinedOrNull(trap))
+return @getByValWithThis(target, receiver, propertyName);
+if (!@isCallable(trap))
+@throwTypeError("'get' property of a Proxy's handler should be callable");
+var trapResult = trap.@call(handler, target, propertyName, @toThis(receiver));
+if (@mustValidateResultOfProxyGetAndSetTraps(target))
+@handleProxyGetTrapResult(trapResult, target, propertyName);
+return trapResult;
+})
+(function (propertyName)
+{
+"use strict";
+var target = @getProxyInternalField(this, @proxyFieldTarget);
+var handler = @getProxyInternalField(this, @proxyFieldHandler);
+if (handler === null)
+@throwTypeError("Proxy has already been revoked. No more operations are allowed to be performed on it");
+var trap = handler.has;
+if (@isUndefinedOrNull(trap))
+return propertyName in target;
+if (!@isCallable(trap))
+@throwTypeError("'has' property of a Proxy's handler should be callable");
+if (trap.@call(handler, target, propertyName))
+return true;
+if (@mustValidateResultOfProxyTrapsExceptGetAndSet(target))
+@handleNegativeProxyHasTrapResult(target, propertyName);
+return false;
+})
+(function (propertyName)
+{
+"use strict";
+var target = @getProxyInternalField(this, @proxyFieldTarget);
+var handler = @getProxyInternalField(this, @proxyFieldHandler);
+var propertyName = @toPropertyKey(propertyName);
+if (handler === null)
+@throwTypeError("Proxy has already been revoked. No more operations are allowed to be performed on it");
+var trap = handler.has;
+if (@isUndefinedOrNull(trap))
+return propertyName in target;
+if (!@isCallable(trap))
+@throwTypeError("'has' property of a Proxy's handler should be callable");
+if (trap.@call(handler, target, propertyName))
+return true;
+if (@mustValidateResultOfProxyTrapsExceptGetAndSet(target))
+@handleNegativeProxyHasTrapResult(target, propertyName);
+return false;
+})
+(function (propertyName, receiver, value)
+{
+"use strict";
+var target = @getProxyInternalField(this, @proxyFieldTarget);
+var handler = @getProxyInternalField(this, @proxyFieldHandler);
+var propertyName = @toPropertyKey(propertyName);
+if (handler === null)
+@throwTypeError("Proxy has already been revoked. No more operations are allowed to be performed on it");
+var trap = handler.set;
+if (@isUndefinedOrNull(trap)) {
+@putByValWithThisSloppy(target, receiver, propertyName, value);
+return;
+}
+if (!@isCallable(trap))
+@throwTypeError("'set' property of a Proxy's handler should be callable");
+if (!trap.@call(handler, target, propertyName, value, @toThis(receiver)))
+return;
+if (@mustValidateResultOfProxyGetAndSetTraps(target))
+@handlePositiveProxySetTrapResult(target, propertyName, value);
+})
+(function (propertyName, receiver, value)
+{
+"use strict";
+var target = @getProxyInternalField(this, @proxyFieldTarget);
+var handler = @getProxyInternalField(this, @proxyFieldHandler);
+var propertyName = @toPropertyKey(propertyName);
+if (handler === null)
+@throwTypeError("Proxy has already been revoked. No more operations are allowed to be performed on it");
+var trap = handler.set;
+if (@isUndefinedOrNull(trap)) {
+@putByValWithThisStrict(target, receiver, propertyName, value);
+return;
+}
+if (!@isCallable(trap))
+@throwTypeError("'set' property of a Proxy's handler should be callable");
+if (!trap.@call(handler, target, propertyName, value, @toThis(receiver)))
+@throwTypeError("Proxy object's 'set' trap returned falsy value for property '" + @String(propertyName) + "'");
+if (@mustValidateResultOfProxyGetAndSetTraps(target))
+@handlePositiveProxySetTrapResult(target, propertyName, value);
+})
+(function (propertyName, receiver, value)
+{
+"use strict";
+var target = @getProxyInternalField(this, @proxyFieldTarget);
+var handler = @getProxyInternalField(this, @proxyFieldHandler);
+if (handler === null)
+@throwTypeError("Proxy has already been revoked. No more operations are allowed to be performed on it");
+var trap = handler.set;
+if (@isUndefinedOrNull(trap)) {
+@putByValWithThisSloppy(target, receiver, propertyName, value);
+return;
+}
+if (!@isCallable(trap))
+@throwTypeError("'set' property of a Proxy's handler should be callable");
+if (!trap.@call(handler, target, propertyName, value, @toThis(receiver)))
+return;
+if (@mustValidateResultOfProxyGetAndSetTraps(target))
+@handlePositiveProxySetTrapResult(target, propertyName, value);
+})
+(function (propertyName, receiver, value)
+{
+"use strict";
+var target = @getProxyInternalField(this, @proxyFieldTarget);
+var handler = @getProxyInternalField(this, @proxyFieldHandler);
+if (handler === null)
+@throwTypeError("Proxy has already been revoked. No more operations are allowed to be performed on it");
+var trap = handler.set;
+if (@isUndefinedOrNull(trap)) {
+@putByValWithThisStrict(target, receiver, propertyName, value);
+return;
+}
+if (!@isCallable(trap))
+@throwTypeError("'set' property of a Proxy's handler should be callable");
+if (!trap.@call(handler, target, propertyName, value, @toThis(receiver)))
+@throwTypeError("Proxy object's 'set' trap returned falsy value for property '" + @String(propertyName) + "'");
+if (@mustValidateResultOfProxyGetAndSetTraps(target))
+@handlePositiveProxySetTrapResult(target, propertyName, value);
+})
+(function (argument)
+{
+"use strict";
+return @undefined;
+})
+(function (key, value)
+{
+"use strict";
+var entry = this.ensureRegistered(key);
+if (entry.state > @ModuleFetch)
+@throwTypeError("Requested module is already fetched.");
+@fulfillFetch(entry, value);
+})
+(function (template)
+{
+"use strict";
+var cookedSegments = @toObject(template, "String.raw requires template not be null or undefined");
+var rawSegments = @toObject(cookedSegments.raw, "String.raw requires template.raw not be null or undefined");
+var numberOfSubstitutions = @argumentCount() - 1;
+var segmentCount = @toLength(rawSegments.length);
+if (segmentCount <= 0)
+return '';
+var stringElements = '';
+for (var i = 0; ; ++i) {
+var segment = @toString(rawSegments[i]);
+stringElements += segment;
+if ((i + 1) === segmentCount)
+return stringElements;
+if (i < numberOfSubstitutions) {
+var substitutionIndexInArguments = i + 1;
+var next = @toString(arguments[substitutionIndexInArguments]);
+stringElements += next;
+}
+}
+})
+(function (callback )
+{
+"use strict";
+var array = @toObject(this, "Array.prototype.reduce requires that |this| not be null or undefined");
+var length = @toLength(array.length);
+if (!@isCallable(callback))
+@throwTypeError("Array.prototype.reduce callback must be a function");
+var argumentCount = @argumentCount();
+if (length === 0 && argumentCount < 2)
+@throwTypeError("reduce of empty array with no initial value");
+var accumulator, k = 0;
+if (argumentCount > 1)
+accumulator = @argument(1);
+else {
+while (k < length && !(k in array))
+k += 1;
+if (k >= length)
+@throwTypeError("reduce of empty array with no initial value");
+accumulator = array[k++];
+}
+while (k < length) {
+if (k in array)
+accumulator = callback.@call(@undefined, accumulator, array[k], k, array);
+k += 1;
+}
+return accumulator;
+})
+(function (reducer )
+{
+"use strict";
+if (!@isObject(this))
+@throwTypeError("Iterator.prototype.reduce requires that |this| be an Object.");
+if (!@isCallable(reducer)) {
+try {
+@iteratorGenericClose(this);
+} finally {
+@throwTypeError("Iterator.prototype.reduce reducer argument must be a function.");
+}
+}
+var iterated = this;
+var iteratedNextMethod = this.next;
+var accumulator;
+var counter = 0;
+if (@argumentCount() <= 1) {
+var result = @iteratorGenericNext(iteratedNextMethod, iterated);
+if (result.done)
+@throwTypeError("Iterator.prototype.reduce requires an initial value or an iterator that is not done.");
+accumulator = result.value;
+counter = 1;
+} else
+accumulator = @argument(1);
+for (;;) {
+var result = @iteratorGenericNext(iteratedNextMethod, iterated);
+if (result.done)
+break;
+var value = result.value;
+@ifAbruptCloseIterator(iterated, (
+accumulator = reducer(accumulator, value, counter++)
+));
+}
+return accumulator;
+})
+(function (callback )
+{
+"use strict";
+var length = @typedArrayLength(this);
+if (!@isCallable(callback))
+@throwTypeError("TypedArray.prototype.reduce callback must be a function");
+var argumentCount = @argumentCount();
+if (length === 0 && argumentCount < 2)
+@throwTypeError("TypedArray.prototype.reduce of empty array with no initial value");
+var accumulator, k = 0;
+if (argumentCount > 1)
+accumulator = @argument(1);
+else
+accumulator = this[k++];
+for (; k < length; k++)
+accumulator = callback.@call(@undefined, accumulator, this[k], k, this);
+return accumulator;
+})
+(function (callback )
+{
+"use strict";
+var array = @toObject(this, "Array.prototype.reduceRight requires that |this| not be null or undefined");
+var length = @toLength(array.length);
+if (!@isCallable(callback))
+@throwTypeError("Array.prototype.reduceRight callback must be a function");
+var argumentCount = @argumentCount();
+if (length === 0 && argumentCount < 2)
+@throwTypeError("reduceRight of empty array with no initial value");
+var accumulator, k = length - 1;
+if (argumentCount > 1)
+accumulator = @argument(1);
+else {
+while (k >= 0 && !(k in array))
+k -= 1;
+if (k < 0)
+@throwTypeError("reduceRight of empty array with no initial value");
+accumulator = array[k--];
+}
+while (k >= 0) {
+if (k in array)
+accumulator = callback.@call(@undefined, accumulator, array[k], k, array);
+k -= 1;
+}
+return accumulator;
+})
+(function (callback )
+{
+"use strict";
+var length = @typedArrayLength(this);
+if (!@isCallable(callback))
+@throwTypeError("TypedArray.prototype.reduceRight callback must be a function");
+var argumentCount = @argumentCount();
+if (length === 0 && argumentCount < 2)
+@throwTypeError("TypedArray.prototype.reduceRight of empty array with no initial value");
+var accumulator, k = length - 1;
+if (argumentCount > 1)
+accumulator = @argument(1);
+else
+accumulator = this[k--];
+for (; k >= 0; k--)
+accumulator = callback.@call(@undefined, accumulator, this[k], k, this);
+return accumulator;
+})
+(function (regexp, str)
+{
+"use strict";
+var exec = regexp.exec;
+var builtinExec = @regExpBuiltinExec;
+if (exec !== builtinExec && @isCallable(exec)) {
+var result = exec.@call(regexp, str);
+if (result !== null && !@isObject(result))
+@throwTypeError("The result of a RegExp exec must be null or an object");
+return result;
+}
+return builtinExec.@call(regexp, str);
+})
+(function (entry, parameters, fetcher)
+{
+"use strict";
+if (entry.fetch) {
+var promiseConstructor = @InternalPromise;
+var newPromise = @createPromise(promiseConstructor,  true);
+entry.fetch.then(
+(result) => @fulfillPromiseWithFirstResolvingFunctionCallCheck(newPromise, result),
+(error) => @rejectPromiseWithFirstResolvingFunctionCallCheck(newPromise, this.createTypeErrorCopy(error)));
+return newPromise;
+}
+var fetchPromise = this.fetch(entry.key, parameters, fetcher).then((source) => {
+@setStateToMax(entry, @ModuleInstantiate);
+return source;
+});
+entry.fetch = fetchPromise;
+return fetchPromise;
+})
+(async function (moduleName, referrer, parameters, fetcher)
+{
+"use strict";
+var key = this.resolve(moduleName, referrer, fetcher);
+var type = this.typeFromParameters(parameters);
+var entry = await this.requestSatisfy(this.ensureRegistered(key, type), parameters, fetcher, new @Set);
+await this.linkAndEvaluateModule(entry.key, fetcher, type);
+return this.getModuleNamespaceObject(entry.module);
+})
+(function (entry, parameters, fetcher)
+{
+"use strict";
+if (entry.instantiate)
+return entry.instantiate;
+var instantiatePromise = (async () => {
+var source = await this.requestFetch(entry, parameters, fetcher);
+if (entry.instantiate)
+return await entry.instantiate;
+entry.instantiate = instantiatePromise;
+var key = entry.key;
+var type = entry.type;
+var moduleRecord = await this.parseModule(key, source);
+var dependenciesMap = moduleRecord.dependenciesMap;
+var requestedModules = this.requestedModules(moduleRecord);
+var dependencies = @newArrayWithSize(requestedModules.length);
+for (var i = 0, length = requestedModules.length; i < length; ++i) {
+var item = requestedModules[i];
+var depName = item.key;
+var depKey = this.resolve(depName, key, fetcher);
+var depEntry = this.ensureRegistered(depKey, item.type);
+@putByValDirect(dependencies, i, depEntry);
+dependenciesMap.@set(depName, depEntry);
+}
+entry.dependencies = dependencies;
+entry.module = moduleRecord;
+@setStateToMax(entry, @ModuleSatisfy);
+return entry;
+})();
+return instantiatePromise;
+})
+(function (entry, parameters, fetcher, visited)
+{
+"use strict";
+var satisfyingEntries = new @Set;
+return this.requestSatisfyUtil(entry, parameters, fetcher, visited, satisfyingEntries).then((entry) => {
+satisfyingEntries.@forEach((satisfyingEntry) => {
+@cacheSatisfy(satisfyingEntry);
+satisfyingEntry.isSatisfied = true;
+});
+return entry;
+});
+})
+(function (entry, parameters, fetcher, visited, satisfyingEntries)
+{
+"use strict";
+if (entry.satisfy)
+return entry.satisfy;
+visited.@add(entry);
+var satisfyPromise = this.requestInstantiate(entry, parameters, fetcher).then((entry) => {
+if (entry.satisfy)
+return entry.satisfy;
+var depLoads = this.requestedModuleParameters(entry.module);
+for (var i = 0, length = entry.dependencies.length; i < length; ++i) {
+var parameters = depLoads[i];
+var depEntry = entry.dependencies[i];
+var promise;
+if (visited.@has(depEntry))
+promise = this.requestInstantiate(depEntry, parameters, fetcher);
+else {
+promise = this.requestSatisfyUtil(depEntry, parameters, fetcher, visited, satisfyingEntries);
+}
+@putByValDirect(depLoads, i, promise);
+}
+return @InternalPromise.internalAll(depLoads).then((depEntries) => {
+if (entry.satisfy)
+return entry;
+return @cacheSatisfyAndReturn(entry, depEntries, satisfyingEntries);
+});
+});
+return satisfyPromise;
+})
+(function (value)
+{
+"use strict";
+@assert(@isAsyncFromSyncIterator(this));
+var promise = @newPromise();
+if (!@isObject(this) || !@isObject(@getAsyncFromSyncIteratorInternalField(this, @asyncFromSyncIteratorFieldSyncIterator))) {
+@rejectPromiseWithFirstResolvingFunctionCallCheck(promise, @makeTypeError('Iterator is not an object.'));
+return promise;
+}
+var syncIterator = @getAsyncFromSyncIteratorInternalField(this, @asyncFromSyncIteratorFieldSyncIterator);
+var returnMethod;
+try {
+returnMethod = syncIterator.return;
+} catch (e) {
+@rejectPromiseWithFirstResolvingFunctionCallCheck(promise, e);
+return promise;
+}
+if (@isUndefinedOrNull(returnMethod)) {
+@resolvePromiseWithFirstResolvingFunctionCallCheck(promise, { value, done:true });
+return promise;
+}
+try {
+var returnResult = @argumentCount() === 0 ? returnMethod.@call(syncIterator) :returnMethod.@call(syncIterator, value);
+if (!@isObject(returnResult)) {
+@rejectPromiseWithFirstResolvingFunctionCallCheck(promise, @makeTypeError('Iterator result interface is not an object.'));
+return promise;
+}
+var task = returnResult.done ? @InternalMicrotaskAsyncFromSyncIteratorDone :@InternalMicrotaskAsyncFromSyncIteratorContinue;
+@resolveWithInternalMicrotaskForAsyncAwait(returnResult.value, task, { @promise:promise, @syncIterator:@undefined });
+} catch (e) {
+@rejectPromiseWithFirstResolvingFunctionCallCheck(promise, e);
+}
+return promise;
+})
+(function (value)
+{
+"use strict";
+var promise = @newPromise();
+var resumeMode = @asyncGeneratorQueueEnqueue(this, value, @GeneratorResumeModeReturn, promise);
+if (resumeMode !== @AsyncGeneratorResumeModeEmpty)
+@asyncGeneratorResumeNext(this, resumeMode);
+return promise;
+})
+(function (value)
+{
+"use strict";
+if (!@isGenerator(this))
+@throwTypeError("|this| should be a generator");
+var state = @getGeneratorInternalField(this, @generatorFieldState);
+if (state === @GeneratorStateExecuting)
+@throwTypeError("Generator is executing");
+return @generatorResume(this, state, value, @GeneratorResumeModeReturn);
+})
+(function ()
+{
+"use strict";
+if (!@isIteratorHelper(this))
+@throwTypeError("|this| should be an iterator helper");
+var generator = @getIteratorHelperInternalField(this, @iteratorHelperFieldGenerator);
+var state = @getGeneratorInternalField(generator, @generatorFieldState);
+if (state === @GeneratorStateInit) {
+@putGeneratorInternalField(generator, @generatorFieldState, @GeneratorStateCompleted);
+var underlyingIterator = @getIteratorHelperInternalField(this, @iteratorHelperFieldUnderlyingIterator);
+if (underlyingIterator !== null)
+@iteratorGenericClose(underlyingIterator);
+return { value:@undefined, done:true };
+}
+if (state === @GeneratorStateExecuting)
+@throwTypeError("Generator is executing");
+return @generatorResume(generator, state, @undefined, @GeneratorResumeModeReturn);
+})
+(function ()
+{
+"use strict";
+if (!@isWrapForValidIterator(this))
+@throwTypeError("%WrapForValidIteratorPrototype%.next requires that |this| be a WrapForValidIteratorPrototype object");
+var iterator = @getWrapForValidIteratorInternalField(this, @wrapForValidIteratorFieldIteratedIterator);
+@assert(@isObject(iterator));
+var returnMethod = iterator.return;
+if (@isUndefinedOrNull(returnMethod))
+return { value:@undefined, done:true };
+return returnMethod.@call(iterator);
+})
+(function (regexp)
+{
+"use strict";
+if (@isUndefinedOrNull(this))
+@throwTypeError("String.prototype.search requires that |this| not be null or undefined");
+if (@isObject(regexp)) {
+var searcher = regexp.@@search;
+if (!@isUndefinedOrNull(searcher))
+return searcher.@call(regexp, this);
+}
+var thisString = @toString(this);
+var createdRegExp = @regExpCreate(regexp, @undefined);
+return createdRegExp.@@search(thisString);
+})
+(function (entry, newState)
+{
+"use strict";
+if (entry.state < newState)
+entry.state = newState;
+})
+(function (callback )
+{
+"use strict";
+var array = @toObject(this, "Array.prototype.some requires that |this| not be null or undefined");
+var length = @toLength(array.length);
+if (!@isCallable(callback))
+@throwTypeError("Array.prototype.some callback must be a function");
+var thisArg = @argument(1);
+for (var i = 0; i < length; i++) {
+if (!(i in array))
+continue;
+if (callback.@call(thisArg, array[i], i, array))
+return true;
+}
+return false;
+})
+(function (predicate)
+{
+"use strict";
+if (!@isObject(this))
+@throwTypeError("Iterator.prototype.some requires that |this| be an Object.");
+if (!@isCallable(predicate)) {
+try {
+@iteratorGenericClose(this);
+} finally {
+@throwTypeError("Iterator.prototype.some callback must be a function.");
+}
+}
+var iterated = this;
+var count = 0;
+var wrapper = { @@iterator:function () { return iterated; }};
+for (var item of wrapper) {
+if (predicate(item, count++))
+return true;
+}
+return false;
+})
+(function (obj, defaultConstructor)
+{
+"use strict";
+var constructor = obj.constructor;
+if (constructor === @undefined)
+return defaultConstructor;
+if (!@isObject(constructor))
+@throwTypeError("|this|.constructor is not an Object or undefined");
+constructor = constructor.@@species;
+if (@isUndefinedOrNull(constructor))
+return defaultConstructor;
+if (@isConstructor(constructor))
+return constructor;
+@throwTypeError("|this|.constructor[Symbol.species] is not a constructor");
+})
+(function (string, limit)
+{
+"use strict";
+if (!@isObject(this))
+@throwTypeError("RegExp.prototype.@@split requires that |this| be an Object");
+var regexp = this;
+var str = @toString(string);
+var speciesConstructor = @speciesConstructor(regexp, @RegExp);
+if (speciesConstructor === @RegExp && !@hasObservableSideEffectsForRegExpSplit(regexp))
+return @regExpSplitFast.@call(regexp, str, limit);
+var flags = @toString(regexp.flags);
+var unicodeMatching = @stringIncludesInternal.@call(flags, "u") || @stringIncludesInternal.@call(flags, "v");
+var newFlags = @stringIncludesInternal.@call(flags, "y") ? flags :flags + "y";
+var splitter = new speciesConstructor(regexp, newFlags);
+if (!@hasObservableSideEffectsForRegExpSplit(splitter))
+return @regExpSplitFast.@call(splitter, str, limit);
+var result = [];
+limit = (limit === @undefined) ? 0xffffffff :limit >>> 0;
+if (!limit)
+return result;
+var size = str.length;
+if (!size) {
+var z = @regExpExec(splitter, str);
+if (z !== null)
+return result;
+@putByValDirect(result, 0, str);
+return result;
+}
+var position = 0;
+var matchPosition = 0;
+while (matchPosition < size) {
+splitter.lastIndex = matchPosition;
+var matches = @regExpExec(splitter, str);
+if (matches === null)
+matchPosition = @advanceStringIndex(str, matchPosition, unicodeMatching);
+else {
+var endPosition = @toLength(splitter.lastIndex);
+endPosition = (endPosition <= size) ? endPosition :size;
+if (endPosition === position)
+matchPosition = @advanceStringIndex(str, matchPosition, unicodeMatching);
+else {
+var subStr = @stringSubstring.@call(str, position, matchPosition);
+@arrayPush(result, subStr);
+if (result.length == limit)
+return result;
+position = endPosition;
+var numberOfCaptures = matches.length > 1 ? matches.length - 1 :0;
+var i = 1;
+while (i <= numberOfCaptures) {
+var nextCapture = matches[i];
+@arrayPush(result, nextCapture);
+if (result.length == limit)
+return result;
+i++;
+}
+matchPosition = position;
+}
+}
+}
+var remainingStr = @stringSubstring.@call(str, position, size);
+@arrayPush(result, remainingStr);
+return result;
+})
+(function (separator, limit)
+{
+"use strict";
+if (@isUndefinedOrNull(this))
+@throwTypeError("String.prototype.split requires that |this| not be null or undefined");
+if (@isObject(separator)) {
+var splitter = separator.@@split;
+if (!@isUndefinedOrNull(splitter))
+return splitter.@call(separator, this, limit);
+}
+return @stringSplitFast.@call(this, separator, limit);
+})
+(function (value)
+{
+"use strict";
+if (!@isCallable(this))
+return false;
+if (@isBoundFunction(this))
+return @hasInstanceBoundFunction(this, value);
+var target = this.prototype;
+return @instanceOf(value, target);
+})
+(function (limit)
+{
+"use strict";
+if (!@isObject(this))
+@throwTypeError("Iterator.prototype.take requires that |this| be an Object.");
+var numLimit;
+@ifAbruptCloseIterator(this, numLimit = @toNumber(limit));
+if (numLimit !== numLimit) {
+try {
+@iteratorGenericClose(this);
+} finally {
+@throwRangeError("Iterator.prototype.take argument must not be NaN.");
+}
+}
+var intLimit = @toIntegerOrInfinity(numLimit);
+if (intLimit < 0) {
+try {
+@iteratorGenericClose(this);
+} finally {
+@throwRangeError("Iterator.prototype.take argument must be non-negative.");
+}
+}
+var iterated = this;
+var iteratedNextMethod = iterated.next;
+var generator = (function*() {
+var remaining = intLimit;
+for (;;) {
+if (remaining === 0) {
+@iteratorGenericClose(iterated);
+return;
+}
+if (remaining !== @Infinity)
+remaining--;
+var result = @iteratorGenericNext(iteratedNextMethod, iterated);
+if (result.done)
+return;
+var value = result.value;
+@ifAbruptCloseIterator(iterated, (
+yield value
+));
+}
+})();
+return @iteratorHelperCreate(generator, iterated);
+})
+(function (exception)
+{
+"use strict";
+@assert(@isAsyncFromSyncIterator(this));
+var promise = @newPromise();
+if (!@isObject(this) || !@isObject(@getAsyncFromSyncIteratorInternalField(this, @asyncFromSyncIteratorFieldSyncIterator))) {
+@rejectPromiseWithFirstResolvingFunctionCallCheck(promise, @makeTypeError('Iterator is not an object.'));
+return promise;
+}
+var syncIterator = @getAsyncFromSyncIteratorInternalField(this, @asyncFromSyncIteratorFieldSyncIterator);
+var throwMethod;
+try {
+throwMethod = syncIterator.throw;
+} catch (e) {
+@rejectPromiseWithFirstResolvingFunctionCallCheck(promise, e);
+return promise;
+}
+if (@isUndefinedOrNull(throwMethod)) {
+var returnMethod;
+try {
+returnMethod = syncIterator.return;
+} catch (e) {
+@rejectPromiseWithFirstResolvingFunctionCallCheck(promise, e);
+return promise;
+}
+var returnResult = returnMethod.@call(syncIterator);
+if (!@isObject(returnResult)) {
+@rejectPromiseWithFirstResolvingFunctionCallCheck(promise, @makeTypeError('Iterator result interface is not an object.'));
+return promise;
+}
+@rejectPromiseWithFirstResolvingFunctionCallCheck(promise, @makeTypeError('Iterator does not provide a throw method.'));
+return promise;
+}
+try {
+var throwResult = @argumentCount() === 0 ? throwMethod.@call(syncIterator) :throwMethod.@call(syncIterator, exception);
+if (!@isObject(throwResult)) {
+@rejectPromiseWithFirstResolvingFunctionCallCheck(promise, @makeTypeError('Iterator result interface is not an object.'));
+return promise;
+}
+var task = throwResult.done ? @InternalMicrotaskAsyncFromSyncIteratorDone :@InternalMicrotaskAsyncFromSyncIteratorContinue;
+@resolveWithInternalMicrotaskForAsyncAwait(throwResult.value, task, { @promise:promise, @syncIterator:syncIterator });
+} catch (e) {
+@rejectPromiseWithFirstResolvingFunctionCallCheck(promise, e);
+}
+return promise;
+})
+(function (value)
+{
+"use strict";
+var promise = @newPromise();
+var resumeMode = @asyncGeneratorQueueEnqueue(this, value, @GeneratorResumeModeThrow, promise);
+if (resumeMode !== @AsyncGeneratorResumeModeEmpty)
+@asyncGeneratorResumeNext(this, resumeMode);
+return promise;
+})
+(function (exception)
+{
+"use strict";
+if (!@isGenerator(this))
+@throwTypeError("|this| should be a generator");
+var state = @getGeneratorInternalField(this, @generatorFieldState);
+if (state === @GeneratorStateExecuting)
+@throwTypeError("Generator is executing");
+if (state === @GeneratorStateCompleted)
+throw exception;
+return @generatorResume(this, state, exception, @GeneratorResumeModeThrow);
+})
+(function ()
+{
+"use strict";
+var length = @typedArrayLength(this);
+if (length == 0)
+return "";
+var string = "";
+for (var i = 0; i < length; ++i) {
+if (i > 0)
+string += ",";
+var element = this[i];
+if (!@isUndefinedOrNull(element))
+string += @toString(element.toLocaleString(@argument(0), @argument(1)));
+}
+return string;
+})
+(function (callback )
+{
+"use strict";
+if (!@isObject(this))
+@throwTypeError("|this| is not an object");
+var args = [];
+for (var i = 1; i < @argumentCount(); i++)
+@putByValDirect(args, i - 1, arguments[i]);
+var promiseCapability = @newPromiseCapability(this);
+try {
+var value = callback.@apply(@undefined, args);
+promiseCapability.resolve.@call(@undefined, value);
+} catch (error) {
+promiseCapability.reject.@call(@undefined, error);
+}
+return promiseCapability.promise;
+})
+(function (value)
+{
+'use strict';
+if (!@isAsyncDisposableStack(this))
+@throwTypeError("AsyncDisposableStack.prototype.use requires that |this| be a AsyncDisposableStack object");
+if (@getAsyncDisposableStackInternalField(this, @asyncDisposableStackFieldState) === @AsyncDisposableStackStateDisposed)
+throw new @ReferenceError("AsyncDisposableStack.prototype.use requires that |this| be a pending AsyncDisposableStack object");
+@addDisposableResource(@getDisposableStackInternalField(this, @disposableStackFieldCapability), value,  true);
+return value;
+})
+(function (value)
+{
+'use strict';
+if (!@isDisposableStack(this))
+@throwTypeError("DisposableStack.prototype.use requires that |this| be a DisposableStack object");
+if (@getDisposableStackInternalField(this, @disposableStackFieldState) === @DisposableStackStateDisposed)
+throw new @ReferenceError("DisposableStack.prototype.use requires that |this| be a pending DisposableStack object");
+@addDisposableResource(@getDisposableStackInternalField(this, @disposableStackFieldCapability), value,  false);
+return value;
+})
+(function (windowSize )
+{
+"use strict";
+if (!@isObject(this))
+@throwTypeError("Iterator.prototype.windows requires that |this| be an Object.");
+var numWindowSize = @toNumber(windowSize);
+if (numWindowSize !== numWindowSize)
+@throwRangeError("Iterator.prototype.windows requires that first argument not be NaN.");
+var intWindowSize = @toIntegerOrInfinity(numWindowSize);
+if (intWindowSize < 1 || intWindowSize > @MAX_ARRAY_INDEX)
+@throwRangeError("Iterator.prototype.windows requires that first argument be between 1 and 2**32 - 1.");
+var undersized = @argument(1) ?? "only-full";
+if (undersized !== "only-full" && undersized !== "allow-partial")
+@throwTypeError("Iterator.prototype.windows requires that second argument be \"only-full\" or \"allow-partial\".");
+var iterated = this;
+var iteratedNextMethod = this.next;
+var generator = (function*() {
+var buffer = [];
+for (;;) {
+var result = @iteratorGenericNext(iteratedNextMethod, iterated);
+if (result.done) {
+if (undersized === "allow-partial" && buffer.length && buffer.length < intWindowSize)
+yield buffer;
+return;
+}
+if (buffer.length === intWindowSize) {
+for (var i = 0; i < buffer.length - 1; ++i)
+buffer[i] = buffer[i + 1];
+buffer[buffer.length - 1] = result.value;
+} else
+@arrayPush(buffer, result.value);
+if (buffer.length === intWindowSize) {
+var copy = @newArrayWithSize(buffer.length);
+for (var i = 0; i < buffer.length; ++i)
+copy[i] = buffer[i];
+@ifAbruptCloseIterator(iterated, (
+yield copy
+));
+}
+}
+})();
+return @iteratorHelperCreate(generator, iterated);
+})
+(function (fromShadowRealm, shadowRealm, target)
+{
+"use strict";
+if (@isCallable(target))
+return @createRemoteFunction(target, fromShadowRealm ? null :shadowRealm);
+if (@isObject(target))
+@throwTypeError("value passing between realms must be callable or primitive");
+return target;
+})
+(function (iterator)
+{
+var wrapper = @Object.@create(null);
+wrapper.@@iterator = function() { return iterator; }
+return wrapper;
+})
+ /* Error: Ran out of types for this method. */;
+- (void)return @arrayIteratorNextHelper.@call(this, array, kind);
+})
+(function (value)
+{
+"use strict";
+@assert(@isAsyncFromSyncIterator(this));
+var promise = @newPromise();
+if (!@isObject(this) || !@isObject(@getAsyncFromSyncIteratorInternalField(this, @asyncFromSyncIteratorFieldSyncIterator))) {
+@rejectPromiseWithFirstResolvingFunctionCallCheck(promise, @makeTypeError('Iterator is not an object.'));
+return promise;
+}
+var syncIterator = @getAsyncFromSyncIteratorInternalField(this, @asyncFromSyncIteratorFieldSyncIterator);
+var nextMethod = @getAsyncFromSyncIteratorInternalField(this, @asyncFromSyncIteratorFieldNextMethod);
+try {
+var nextResult = @argumentCount() === 0 ? nextMethod.@call(syncIterator) :(id)arg1 nextMethod.@call(syncIterator, value);
+var task = nextResult.done ? @InternalMicrotaskAsyncFromSyncIteratorDone :@InternalMicrotaskAsyncFromSyncIteratorContinue;
+@resolveWithInternalMicrotaskForAsyncAwait(nextResult.value, task, { @promise:promise, @syncIterator:syncIterator });
+} catch (e) {
+@rejectPromiseWithFirstResolvingFunctionCallCheck(promise, e);
+}
+return promise;
+})
+(function (value)
+{
+"use strict";
+var promise = @newPromise();
+var resumeMode = @asyncGeneratorQueueEnqueue(this, value, @GeneratorResumeModeNormal, promise);
+if (resumeMode !== @AsyncGeneratorResumeModeEmpty)
+@asyncGeneratorResumeNext(this, resumeMode);
+return promise;
+})
+(function (value)
+{
+"use strict";
+if (!@isGenerator(this))
+@throwTypeError("|this| should be a generator");
+var state = @getGeneratorInternalField(this, @generatorFieldState);
+if (state === @GeneratorStateExecuting)
+@throwTypeError("Generator is executing");
+if (state === @GeneratorStateCompleted)
+value = @undefined;
+return @generatorResume(this, state, value, @GeneratorResumeModeNormal);
+})
+(function ()
+{
+"use strict";
+if (!@isIteratorHelper(this))
+@throwTypeError("|this| should be an iterator helper");
+var generator = @getIteratorHelperInternalField(this, @iteratorHelperFieldGenerator);
+var state = @getGeneratorInternalField(generator, @generatorFieldState);
+if (state === @GeneratorStateExecuting)
+@throwTypeError("Generator is executing");
+return @generatorResume(generator, state, @undefined, @GeneratorResumeModeNormal);
+})
+(function () {
+"use strict";
+if (!@isMapIterator(this))
+@throwTypeError("%MapIteratorPrototype%.next requires that |this| be an Map Iterator instance");
+var value;
+var done = @mapIteratorNext(this);
+if (!done) {
+var kind = @getMapIteratorInternalField(this, @mapIteratorFieldKind);
+if (kind === @iterationKindKey)
+value = @mapIteratorKey(this);
+else if (kind === @iterationKindValue)
+value = @mapIteratorValue(this);
+else
+value = [@mapIteratorKey(this), @mapIteratorValue(this)];
+}
+return { value, done };
+})
+(function ()
+{
+"use strict";
+if (!@isObject(this))
+@throwTypeError("%RegExpStringIteratorPrototype%.next requires |this| to be an Object");
+if (!@isRegExpStringIterator(this))
+@throwTypeError("%RegExpStringIteratorPrototype%.next requires |this| to be an RegExp String Iterator instance");
+var done = @getRegExpStringIteratorInternalField(this, @regExpStringIteratorFieldDone);
+if (done)
+return { value:@undefined, done:true };
+var regExp = @getRegExpStringIteratorInternalField(this, @regExpStringIteratorFieldRegExp);
+var string = @getRegExpStringIteratorInternalField(this, @regExpStringIteratorFieldString);
+var global = @getRegExpStringIteratorInternalField(this, @regExpStringIteratorFieldGlobal);
+var fullUnicode = @getRegExpStringIteratorInternalField(this, @regExpStringIteratorFieldFullUnicode);
+var match = @regExpExec(regExp, string);
+if (match === null) {
+@putRegExpStringIteratorInternalField(this, @regExpStringIteratorFieldDone, true);
+return { value:@undefined, done:true };
+}
+if (global) {
+var matchStr = @toString(match[0]);
+if (matchStr === "") {
+var thisIndex = @toLength(regExp.lastIndex);
+regExp.lastIndex = @advanceStringIndex(string, thisIndex, fullUnicode);
+}
+} else
+@putRegExpStringIteratorInternalField(this, @regExpStringIteratorFieldDone, true);
+return { value:match, done:false };
+})
+(function () {
+"use strict";
+if (!@isSetIterator(this))
+@throwTypeError("%SetIteratorPrototype%.next requires that |this| be a Set Iterator instance");
+var value;
+var done = @setIteratorNext(this);
+if (!done) {
+var kind = @getSetIteratorInternalField(this, @setIteratorFieldKind);
+var value = @setIteratorKey(this);
+if (kind === @iterationKindEntries)
+value = [value, value];
+}
+return { value, done };
+})
+(function ()
+{
+"use strict";
+if (!@isStringIterator(this))
+@throwTypeError("%StringIteratorPrototype%.next requires that |this| be a String Iterator instance");
+var done = true;
+var value = @undefined;
+var position = @getStringIteratorInternalField(this, @stringIteratorFieldIndex);
+if (position !== -1) {
+var string = @getStringIteratorInternalField(this, @stringIteratorFieldIteratedString);
+var length = string.length >>> 0;
+if (position >= length)
+@putStringIteratorInternalField(this, @stringIteratorFieldIndex, -1);
+else {
+done = false;
+var first = string.@charCodeAt(position);
+if (first < 0xD800 || first > 0xDBFF || position + 1 === length)
+value = string[position];
+else {
+var second = string.@charCodeAt(position + 1);
+if (second < 0xDC00 || second > 0xDFFF)
+value = string[position];
+else
+value = string[position] + string[position + 1];
+}
+@putStringIteratorInternalField(this, @stringIteratorFieldIndex, position + value.length);
+}
+}
+return { value, done };
+})
+(function ()
+{
+"use strict";
+if (!@isWrapForValidIterator(this))
+@throwTypeError("%WrapForValidIteratorPrototype%.next requires that |this| be a WrapForValidIteratorPrototype object");
+return @getWrapForValidIteratorInternalField(this, @wrapForValidIteratorFieldIteratedNextMethod).@call(@getWrapForValidIteratorInternalField(this, @wrapForValidIteratorFieldIteratedIterator));
+})
+(function ()
+{
+"use strict";
+var len = @argumentCount();
+if (!@isConstructor(this))
+@throwTypeError("TypedArray.of requires |this| to be a constructor");
+var result = new this(len);
+if (@typedArrayLength(result) < len)
+@throwTypeError("TypedArray.of constructed typed array of insufficient length");
+for (var i = 0; i < len; i++)
+result[i] = arguments[i];
+return result;
+})
+(function (iterable)
+{
+"use strict";
+var result = [];
+if (@isUndefinedOrNull(iterable))
+@throwTypeError('Spread syntax requires ...iterable not be null or undefined');
+var iteratorMethod = iterable.@@iterator;
+if (!@isCallable(iteratorMethod))
+@throwTypeError('Spread syntax requires ...iterable[Symbol.iterator] to be a function');
+var iterator = iteratorMethod.@call(iterable);
+var next = iterator.next;
+var item;
+var index = 0;
+while (true) {
+item = next.@call(iterator);
+if (!@isObject(item))
+@throwTypeError("Iterator result interface is not an object");
+if (item.done)
+return result;
+@putByValDirect(result, index++, item.value);
+}
+})
+(function (propertyName, receiver)
+{
+"use strict";
+var target = @getProxyInternalField(this, @proxyFieldTarget);
+var handler = @getProxyInternalField(this, @proxyFieldHandler);
+if (handler === null)
+@throwTypeError("Proxy has already been revoked. No more operations are allowed to be performed on it");
+var trap = handler.get;
+if (@isUndefinedOrNull(trap))
+return @getByValWithThis(target, receiver, propertyName);
+if (!@isCallable(trap))
+@throwTypeError("'get' property of a Proxy's handler should be callable");
+var trapResult = trap.@call(handler, target, propertyName, @toThis(receiver));
+if (@mustValidateResultOfProxyGetAndSetTraps(target))
+@handleProxyGetTrapResult(trapResult, target, propertyName);
+return trapResult;
+})
+(function (propertyName, receiver)
+{
+"use strict";
+var target = @getProxyInternalField(this, @proxyFieldTarget);
+var handler = @getProxyInternalField(this, @proxyFieldHandler);
+var propertyName = @toPropertyKey(propertyName);
+if (handler === null)
+@throwTypeError("Proxy has already been revoked. No more operations are allowed to be performed on it");
+var trap = handler.get;
+if (@isUndefinedOrNull(trap))
+return @getByValWithThis(target, receiver, propertyName);
+if (!@isCallable(trap))
+@throwTypeError("'get' property of a Proxy's handler should be callable");
+var trapResult = trap.@call(handler, target, propertyName, @toThis(receiver));
+if (@mustValidateResultOfProxyGetAndSetTraps(target))
+@handleProxyGetTrapResult(trapResult, target, propertyName);
+return trapResult;
+})
+(function (propertyName)
+{
+"use strict";
+var target = @getProxyInternalField(this, @proxyFieldTarget);
+var handler = @getProxyInternalField(this, @proxyFieldHandler);
+if (handler === null)
+@throwTypeError("Proxy has already been revoked. No more operations are allowed to be performed on it");
+var trap = handler.has;
+if (@isUndefinedOrNull(trap))
+return propertyName in target;
+if (!@isCallable(trap))
+@throwTypeError("'has' property of a Proxy's handler should be callable");
+if (trap.@call(handler, target, propertyName))
+return true;
+if (@mustValidateResultOfProxyTrapsExceptGetAndSet(target))
+@handleNegativeProxyHasTrapResult(target, propertyName);
+return false;
+})
+(function (propertyName)
+{
+"use strict";
+var target = @getProxyInternalField(this, @proxyFieldTarget);
+var handler = @getProxyInternalField(this, @proxyFieldHandler);
+var propertyName = @toPropertyKey(propertyName);
+if (handler === null)
+@throwTypeError("Proxy has already been revoked. No more operations are allowed to be performed on it");
+var trap = handler.has;
+if (@isUndefinedOrNull(trap))
+return propertyName in target;
+if (!@isCallable(trap))
+@throwTypeError("'has' property of a Proxy's handler should be callable");
+if (trap.@call(handler, target, propertyName))
+return true;
+if (@mustValidateResultOfProxyTrapsExceptGetAndSet(target))
+@handleNegativeProxyHasTrapResult(target, propertyName);
+return false;
+})
+(function (propertyName, receiver, value)
+{
+"use strict";
+var target = @getProxyInternalField(this, @proxyFieldTarget);
+var handler = @getProxyInternalField(this, @proxyFieldHandler);
+var propertyName = @toPropertyKey(propertyName);
+if (handler === null)
+@throwTypeError("Proxy has already been revoked. No more operations are allowed to be performed on it");
+var trap = handler.set;
+if (@isUndefinedOrNull(trap)) {
+@putByValWithThisSloppy(target, receiver, propertyName, value);
+return;
+}
+if (!@isCallable(trap))
+@throwTypeError("'set' property of a Proxy's handler should be callable");
+if (!trap.@call(handler, target, propertyName, value, @toThis(receiver)))
+return;
+if (@mustValidateResultOfProxyGetAndSetTraps(target))
+@handlePositiveProxySetTrapResult(target, propertyName, value);
+})
+(function (propertyName, receiver, value)
+{
+"use strict";
+var target = @getProxyInternalField(this, @proxyFieldTarget);
+var handler = @getProxyInternalField(this, @proxyFieldHandler);
+var propertyName = @toPropertyKey(propertyName);
+if (handler === null)
+@throwTypeError("Proxy has already been revoked. No more operations are allowed to be performed on it");
+var trap = handler.set;
+if (@isUndefinedOrNull(trap)) {
+@putByValWithThisStrict(target, receiver, propertyName, value);
+return;
+}
+if (!@isCallable(trap))
+@throwTypeError("'set' property of a Proxy's handler should be callable");
+if (!trap.@call(handler, target, propertyName, value, @toThis(receiver)))
+@throwTypeError("Proxy object's 'set' trap returned falsy value for property '" + @String(propertyName) + "'");
+if (@mustValidateResultOfProxyGetAndSetTraps(target))
+@handlePositiveProxySetTrapResult(target, propertyName, value);
+})
+(function (propertyName, receiver, value)
+{
+"use strict";
+var target = @getProxyInternalField(this, @proxyFieldTarget);
+var handler = @getProxyInternalField(this, @proxyFieldHandler);
+if (handler === null)
+@throwTypeError("Proxy has already been revoked. No more operations are allowed to be performed on it");
+var trap = handler.set;
+if (@isUndefinedOrNull(trap)) {
+@putByValWithThisSloppy(target, receiver, propertyName, value);
+return;
+}
+if (!@isCallable(trap))
+@throwTypeError("'set' property of a Proxy's handler should be callable");
+if (!trap.@call(handler, target, propertyName, value, @toThis(receiver)))
+return;
+if (@mustValidateResultOfProxyGetAndSetTraps(target))
+@handlePositiveProxySetTrapResult(target, propertyName, value);
+})
+(function (propertyName, receiver, value)
+{
+"use strict";
+var target = @getProxyInternalField(this, @proxyFieldTarget);
+var handler = @getProxyInternalField(this, @proxyFieldHandler);
+if (handler === null)
+@throwTypeError("Proxy has already been revoked. No more operations are allowed to be performed on it");
+var trap = handler.set;
+if (@isUndefinedOrNull(trap)) {
+@putByValWithThisStrict(target, receiver, propertyName, value);
+return;
+}
+if (!@isCallable(trap))
+@throwTypeError("'set' property of a Proxy's handler should be callable");
+if (!trap.@call(handler, target, propertyName, value, @toThis(receiver)))
+@throwTypeError("Proxy object's 'set' trap returned falsy value for property '" + @String(propertyName) + "'");
+if (@mustValidateResultOfProxyGetAndSetTraps(target))
+@handlePositiveProxySetTrapResult(target, propertyName, value);
+})
+(function (argument)
+{
+"use strict";
+return @undefined;
+})
+(function (key, value)
+{
+"use strict";
+var entry = this.ensureRegistered(key);
+if (entry.state > @ModuleFetch)
+@throwTypeError("Requested module is already fetched.");
+@fulfillFetch(entry, value);
+})
+(function (template)
+{
+"use strict";
+var cookedSegments = @toObject(template, "String.raw requires template not be null or undefined");
+var rawSegments = @toObject(cookedSegments.raw, "String.raw requires template.raw not be null or undefined");
+var numberOfSubstitutions = @argumentCount() - 1;
+var segmentCount = @toLength(rawSegments.length);
+if (segmentCount <= 0)
+return '';
+var stringElements = '';
+for (var i = 0; ; ++i) {
+var segment = @toString(rawSegments[i]);
+stringElements += segment;
+if ((i + 1) === segmentCount)
+return stringElements;
+if (i < numberOfSubstitutions) {
+var substitutionIndexInArguments = i + 1;
+var next = @toString(arguments[substitutionIndexInArguments]);
+stringElements += next;
+}
+}
+})
+(function (callback )
+{
+"use strict";
+var array = @toObject(this, "Array.prototype.reduce requires that |this| not be null or undefined");
+var length = @toLength(array.length);
+if (!@isCallable(callback))
+@throwTypeError("Array.prototype.reduce callback must be a function");
+var argumentCount = @argumentCount();
+if (length === 0 && argumentCount < 2)
+@throwTypeError("reduce of empty array with no initial value");
+var accumulator, k = 0;
+if (argumentCount > 1)
+accumulator = @argument(1);
+else {
+while (k < length && !(k in array))
+k += 1;
+if (k >= length)
+@throwTypeError("reduce of empty array with no initial value");
+accumulator = array[k++];
+}
+while (k < length) {
+if (k in array)
+accumulator = callback.@call(@undefined, accumulator, array[k], k, array);
+k += 1;
+}
+return accumulator;
+})
+(function (reducer )
+{
+"use strict";
+if (!@isObject(this))
+@throwTypeError("Iterator.prototype.reduce requires that |this| be an Object.");
+if (!@isCallable(reducer)) {
+try {
+@iteratorGenericClose(this);
+} finally {
+@throwTypeError("Iterator.prototype.reduce reducer argument must be a function.");
+}
+}
+var iterated = this;
+var iteratedNextMethod = this.next;
+var accumulator;
+var counter = 0;
+if (@argumentCount() <= 1) {
+var result = @iteratorGenericNext(iteratedNextMethod, iterated);
+if (result.done)
+@throwTypeError("Iterator.prototype.reduce requires an initial value or an iterator that is not done.");
+accumulator = result.value;
+counter = 1;
+} else
+accumulator = @argument(1);
+for (;;) {
+var result = @iteratorGenericNext(iteratedNextMethod, iterated);
+if (result.done)
+break;
+var value = result.value;
+@ifAbruptCloseIterator(iterated, (
+accumulator = reducer(accumulator, value, counter++)
+));
+}
+return accumulator;
+})
+(function (callback )
+{
+"use strict";
+var length = @typedArrayLength(this);
+if (!@isCallable(callback))
+@throwTypeError("TypedArray.prototype.reduce callback must be a function");
+var argumentCount = @argumentCount();
+if (length === 0 && argumentCount < 2)
+@throwTypeError("TypedArray.prototype.reduce of empty array with no initial value");
+var accumulator, k = 0;
+if (argumentCount > 1)
+accumulator = @argument(1);
+else
+accumulator = this[k++];
+for (; k < length; k++)
+accumulator = callback.@call(@undefined, accumulator, this[k], k, this);
+return accumulator;
+})
+(function (callback )
+{
+"use strict";
+var array = @toObject(this, "Array.prototype.reduceRight requires that |this| not be null or undefined");
+var length = @toLength(array.length);
+if (!@isCallable(callback))
+@throwTypeError("Array.prototype.reduceRight callback must be a function");
+var argumentCount = @argumentCount();
+if (length === 0 && argumentCount < 2)
+@throwTypeError("reduceRight of empty array with no initial value");
+var accumulator, k = length - 1;
+if (argumentCount > 1)
+accumulator = @argument(1);
+else {
+while (k >= 0 && !(k in array))
+k -= 1;
+if (k < 0)
+@throwTypeError("reduceRight of empty array with no initial value");
+accumulator = array[k--];
+}
+while (k >= 0) {
+if (k in array)
+accumulator = callback.@call(@undefined, accumulator, array[k], k, array);
+k -= 1;
+}
+return accumulator;
+})
+(function (callback )
+{
+"use strict";
+var length = @typedArrayLength(this);
+if (!@isCallable(callback))
+@throwTypeError("TypedArray.prototype.reduceRight callback must be a function");
+var argumentCount = @argumentCount();
+if (length === 0 && argumentCount < 2)
+@throwTypeError("TypedArray.prototype.reduceRight of empty array with no initial value");
+var accumulator, k = length - 1;
+if (argumentCount > 1)
+accumulator = @argument(1);
+else
+accumulator = this[k--];
+for (; k >= 0; k--)
+accumulator = callback.@call(@undefined, accumulator, this[k], k, this);
+return accumulator;
+})
+(function (regexp, str)
+{
+"use strict";
+var exec = regexp.exec;
+var builtinExec = @regExpBuiltinExec;
+if (exec !== builtinExec && @isCallable(exec)) {
+var result = exec.@call(regexp, str);
+if (result !== null && !@isObject(result))
+@throwTypeError("The result of a RegExp exec must be null or an object");
+return result;
+}
+return builtinExec.@call(regexp, str);
+})
+(function (entry, parameters, fetcher)
+{
+"use strict";
+if (entry.fetch) {
+var promiseConstructor = @InternalPromise;
+var newPromise = @createPromise(promiseConstructor,  true);
+entry.fetch.then(
+(result) => @fulfillPromiseWithFirstResolvingFunctionCallCheck(newPromise, result),
+(error) => @rejectPromiseWithFirstResolvingFunctionCallCheck(newPromise, this.createTypeErrorCopy(error)));
+return newPromise;
+}
+var fetchPromise = this.fetch(entry.key, parameters, fetcher).then((source) => {
+@setStateToMax(entry, @ModuleInstantiate);
+return source;
+});
+entry.fetch = fetchPromise;
+return fetchPromise;
+})
+(async function (moduleName, referrer, parameters, fetcher)
+{
+"use strict";
+var key = this.resolve(moduleName, referrer, fetcher);
+var type = this.typeFromParameters(parameters);
+var entry = await this.requestSatisfy(this.ensureRegistered(key, type), parameters, fetcher, new @Set);
+await this.linkAndEvaluateModule(entry.key, fetcher, type);
+return this.getModuleNamespaceObject(entry.module);
+})
+(function (entry, parameters, fetcher)
+{
+"use strict";
+if (entry.instantiate)
+return entry.instantiate;
+var instantiatePromise = (async () => {
+var source = await this.requestFetch(entry, parameters, fetcher);
+if (entry.instantiate)
+return await entry.instantiate;
+entry.instantiate = instantiatePromise;
+var key = entry.key;
+var type = entry.type;
+var moduleRecord = await this.parseModule(key, source);
+var dependenciesMap = moduleRecord.dependenciesMap;
+var requestedModules = this.requestedModules(moduleRecord);
+var dependencies = @newArrayWithSize(requestedModules.length);
+for (var i = 0, length = requestedModules.length; i < length; ++i) {
+var item = requestedModules[i];
+var depName = item.key;
+var depKey = this.resolve(depName, key, fetcher);
+var depEntry = this.ensureRegistered(depKey, item.type);
+@putByValDirect(dependencies, i, depEntry);
+dependenciesMap.@set(depName, depEntry);
+}
+entry.dependencies = dependencies;
+entry.module = moduleRecord;
+@setStateToMax(entry, @ModuleSatisfy);
+return entry;
+})();
+return instantiatePromise;
+})
+(function (entry, parameters, fetcher, visited)
+{
+"use strict";
+var satisfyingEntries = new @Set;
+return this.requestSatisfyUtil(entry, parameters, fetcher, visited, satisfyingEntries).then((entry) => {
+satisfyingEntries.@forEach((satisfyingEntry) => {
+@cacheSatisfy(satisfyingEntry);
+satisfyingEntry.isSatisfied = true;
+});
+return entry;
+});
+})
+(function (entry, parameters, fetcher, visited, satisfyingEntries)
+{
+"use strict";
+if (entry.satisfy)
+return entry.satisfy;
+visited.@add(entry);
+var satisfyPromise = this.requestInstantiate(entry, parameters, fetcher).then((entry) => {
+if (entry.satisfy)
+return entry.satisfy;
+var depLoads = this.requestedModuleParameters(entry.module);
+for (var i = 0, length = entry.dependencies.length; i < length; ++i) {
+var parameters = depLoads[i];
+var depEntry = entry.dependencies[i];
+var promise;
+if (visited.@has(depEntry))
+promise = this.requestInstantiate(depEntry, parameters, fetcher);
+else {
+promise = this.requestSatisfyUtil(depEntry, parameters, fetcher, visited, satisfyingEntries);
+}
+@putByValDirect(depLoads, i, promise);
+}
+return @InternalPromise.internalAll(depLoads).then((depEntries) => {
+if (entry.satisfy)
+return entry;
+return @cacheSatisfyAndReturn(entry, depEntries, satisfyingEntries);
+});
+});
+return satisfyPromise;
+})
+(function (value)
+{
+"use strict";
+@assert(@isAsyncFromSyncIterator(this));
+var promise = @newPromise();
+if (!@isObject(this) || !@isObject(@getAsyncFromSyncIteratorInternalField(this, @asyncFromSyncIteratorFieldSyncIterator))) {
+@rejectPromiseWithFirstResolvingFunctionCallCheck(promise, @makeTypeError('Iterator is not an object.'));
+return promise;
+}
+var syncIterator = @getAsyncFromSyncIteratorInternalField(this, @asyncFromSyncIteratorFieldSyncIterator);
+var returnMethod;
+try {
+returnMethod = syncIterator.return;
+} catch (e) {
+@rejectPromiseWithFirstResolvingFunctionCallCheck(promise, e);
+return promise;
+}
+if (@isUndefinedOrNull(returnMethod)) {
+@resolvePromiseWithFirstResolvingFunctionCallCheck(promise, { value, done:true });
+return promise;
+}
+try {
+var returnResult = @argumentCount() === 0 ? returnMethod.@call(syncIterator) :returnMethod.@call(syncIterator, value);
+if (!@isObject(returnResult)) {
+@rejectPromiseWithFirstResolvingFunctionCallCheck(promise, @makeTypeError('Iterator result interface is not an object.'));
+return promise;
+}
+var task = returnResult.done ? @InternalMicrotaskAsyncFromSyncIteratorDone :@InternalMicrotaskAsyncFromSyncIteratorContinue;
+@resolveWithInternalMicrotaskForAsyncAwait(returnResult.value, task, { @promise:promise, @syncIterator:@undefined });
+} catch (e) {
+@rejectPromiseWithFirstResolvingFunctionCallCheck(promise, e);
+}
+return promise;
+})
+(function (value)
+{
+"use strict";
+var promise = @newPromise();
+var resumeMode = @asyncGeneratorQueueEnqueue(this, value, @GeneratorResumeModeReturn, promise);
+if (resumeMode !== @AsyncGeneratorResumeModeEmpty)
+@asyncGeneratorResumeNext(this, resumeMode);
+return promise;
+})
+(function (value)
+{
+"use strict";
+if (!@isGenerator(this))
+@throwTypeError("|this| should be a generator");
+var state = @getGeneratorInternalField(this, @generatorFieldState);
+if (state === @GeneratorStateExecuting)
+@throwTypeError("Generator is executing");
+return @generatorResume(this, state, value, @GeneratorResumeModeReturn);
+})
+(function ()
+{
+"use strict";
+if (!@isIteratorHelper(this))
+@throwTypeError("|this| should be an iterator helper");
+var generator = @getIteratorHelperInternalField(this, @iteratorHelperFieldGenerator);
+var state = @getGeneratorInternalField(generator, @generatorFieldState);
+if (state === @GeneratorStateInit) {
+@putGeneratorInternalField(generator, @generatorFieldState, @GeneratorStateCompleted);
+var underlyingIterator = @getIteratorHelperInternalField(this, @iteratorHelperFieldUnderlyingIterator);
+if (underlyingIterator !== null)
+@iteratorGenericClose(underlyingIterator);
+return { value:@undefined, done:true };
+}
+if (state === @GeneratorStateExecuting)
+@throwTypeError("Generator is executing");
+return @generatorResume(generator, state, @undefined, @GeneratorResumeModeReturn);
+})
+(function ()
+{
+"use strict";
+if (!@isWrapForValidIterator(this))
+@throwTypeError("%WrapForValidIteratorPrototype%.next requires that |this| be a WrapForValidIteratorPrototype object");
+var iterator = @getWrapForValidIteratorInternalField(this, @wrapForValidIteratorFieldIteratedIterator);
+@assert(@isObject(iterator));
+var returnMethod = iterator.return;
+if (@isUndefinedOrNull(returnMethod))
+return { value:@undefined, done:true };
+return returnMethod.@call(iterator);
+})
+(function (regexp)
+{
+"use strict";
+if (@isUndefinedOrNull(this))
+@throwTypeError("String.prototype.search requires that |this| not be null or undefined");
+if (@isObject(regexp)) {
+var searcher = regexp.@@search;
+if (!@isUndefinedOrNull(searcher))
+return searcher.@call(regexp, this);
+}
+var thisString = @toString(this);
+var createdRegExp = @regExpCreate(regexp, @undefined);
+return createdRegExp.@@search(thisString);
+})
+(function (entry, newState)
+{
+"use strict";
+if (entry.state < newState)
+entry.state = newState;
+})
+(function (callback )
+{
+"use strict";
+var array = @toObject(this, "Array.prototype.some requires that |this| not be null or undefined");
+var length = @toLength(array.length);
+if (!@isCallable(callback))
+@throwTypeError("Array.prototype.some callback must be a function");
+var thisArg = @argument(1);
+for (var i = 0; i < length; i++) {
+if (!(i in array))
+continue;
+if (callback.@call(thisArg, array[i], i, array))
+return true;
+}
+return false;
+})
+(function (predicate)
+{
+"use strict";
+if (!@isObject(this))
+@throwTypeError("Iterator.prototype.some requires that |this| be an Object.");
+if (!@isCallable(predicate)) {
+try {
+@iteratorGenericClose(this);
+} finally {
+@throwTypeError("Iterator.prototype.some callback must be a function.");
+}
+}
+var iterated = this;
+var count = 0;
+var wrapper = { @@iterator:function () { return iterated; }};
+for (var item of wrapper) {
+if (predicate(item, count++))
+return true;
+}
+return false;
+})
+(function (obj, defaultConstructor)
+{
+"use strict";
+var constructor = obj.constructor;
+if (constructor === @undefined)
+return defaultConstructor;
+if (!@isObject(constructor))
+@throwTypeError("|this|.constructor is not an Object or undefined");
+constructor = constructor.@@species;
+if (@isUndefinedOrNull(constructor))
+return defaultConstructor;
+if (@isConstructor(constructor))
+return constructor;
+@throwTypeError("|this|.constructor[Symbol.species] is not a constructor");
+})
+(function (string, limit)
+{
+"use strict";
+if (!@isObject(this))
+@throwTypeError("RegExp.prototype.@@split requires that |this| be an Object");
+var regexp = this;
+var str = @toString(string);
+var speciesConstructor = @speciesConstructor(regexp, @RegExp);
+if (speciesConstructor === @RegExp && !@hasObservableSideEffectsForRegExpSplit(regexp))
+return @regExpSplitFast.@call(regexp, str, limit);
+var flags = @toString(regexp.flags);
+var unicodeMatching = @stringIncludesInternal.@call(flags, "u") || @stringIncludesInternal.@call(flags, "v");
+var newFlags = @stringIncludesInternal.@call(flags, "y") ? flags :flags + "y";
+var splitter = new speciesConstructor(regexp, newFlags);
+if (!@hasObservableSideEffectsForRegExpSplit(splitter))
+return @regExpSplitFast.@call(splitter, str, limit);
+var result = [];
+limit = (limit === @undefined) ? 0xffffffff :limit >>> 0;
+if (!limit)
+return result;
+var size = str.length;
+if (!size) {
+var z = @regExpExec(splitter, str);
+if (z !== null)
+return result;
+@putByValDirect(result, 0, str);
+return result;
+}
+var position = 0;
+var matchPosition = 0;
+while (matchPosition < size) {
+splitter.lastIndex = matchPosition;
+var matches = @regExpExec(splitter, str);
+if (matches === null)
+matchPosition = @advanceStringIndex(str, matchPosition, unicodeMatching);
+else {
+var endPosition = @toLength(splitter.lastIndex);
+endPosition = (endPosition <= size) ? endPosition :size;
+if (endPosition === position)
+matchPosition = @advanceStringIndex(str, matchPosition, unicodeMatching);
+else {
+var subStr = @stringSubstring.@call(str, position, matchPosition);
+@arrayPush(result, subStr);
+if (result.length == limit)
+return result;
+position = endPosition;
+var numberOfCaptures = matches.length > 1 ? matches.length - 1 :0;
+var i = 1;
+while (i <= numberOfCaptures) {
+var nextCapture = matches[i];
+@arrayPush(result, nextCapture);
+if (result.length == limit)
+return result;
+i++;
+}
+matchPosition = position;
+}
+}
+}
+var remainingStr = @stringSubstring.@call(str, position, size);
+@arrayPush(result, remainingStr);
+return result;
+})
+(function (separator, limit)
+{
+"use strict";
+if (@isUndefinedOrNull(this))
+@throwTypeError("String.prototype.split requires that |this| not be null or undefined");
+if (@isObject(separator)) {
+var splitter = separator.@@split;
+if (!@isUndefinedOrNull(splitter))
+return splitter.@call(separator, this, limit);
+}
+return @stringSplitFast.@call(this, separator, limit);
+})
+(function (value)
+{
+"use strict";
+if (!@isCallable(this))
+return false;
+if (@isBoundFunction(this))
+return @hasInstanceBoundFunction(this, value);
+var target = this.prototype;
+return @instanceOf(value, target);
+})
+(function (limit)
+{
+"use strict";
+if (!@isObject(this))
+@throwTypeError("Iterator.prototype.take requires that |this| be an Object.");
+var numLimit;
+@ifAbruptCloseIterator(this, numLimit = @toNumber(limit));
+if (numLimit !== numLimit) {
+try {
+@iteratorGenericClose(this);
+} finally {
+@throwRangeError("Iterator.prototype.take argument must not be NaN.");
+}
+}
+var intLimit = @toIntegerOrInfinity(numLimit);
+if (intLimit < 0) {
+try {
+@iteratorGenericClose(this);
+} finally {
+@throwRangeError("Iterator.prototype.take argument must be non-negative.");
+}
+}
+var iterated = this;
+var iteratedNextMethod = iterated.next;
+var generator = (function*() {
+var remaining = intLimit;
+for (;;) {
+if (remaining === 0) {
+@iteratorGenericClose(iterated);
+return;
+}
+if (remaining !== @Infinity)
+remaining--;
+var result = @iteratorGenericNext(iteratedNextMethod, iterated);
+if (result.done)
+return;
+var value = result.value;
+@ifAbruptCloseIterator(iterated, (
+yield value
+));
+}
+})();
+return @iteratorHelperCreate(generator, iterated);
+})
+(function (exception)
+{
+"use strict";
+@assert(@isAsyncFromSyncIterator(this));
+var promise = @newPromise();
+if (!@isObject(this) || !@isObject(@getAsyncFromSyncIteratorInternalField(this, @asyncFromSyncIteratorFieldSyncIterator))) {
+@rejectPromiseWithFirstResolvingFunctionCallCheck(promise, @makeTypeError('Iterator is not an object.'));
+return promise;
+}
+var syncIterator = @getAsyncFromSyncIteratorInternalField(this, @asyncFromSyncIteratorFieldSyncIterator);
+var throwMethod;
+try {
+throwMethod = syncIterator.throw;
+} catch (e) {
+@rejectPromiseWithFirstResolvingFunctionCallCheck(promise, e);
+return promise;
+}
+if (@isUndefinedOrNull(throwMethod)) {
+var returnMethod;
+try {
+returnMethod = syncIterator.return;
+} catch (e) {
+@rejectPromiseWithFirstResolvingFunctionCallCheck(promise, e);
+return promise;
+}
+var returnResult = returnMethod.@call(syncIterator);
+if (!@isObject(returnResult)) {
+@rejectPromiseWithFirstResolvingFunctionCallCheck(promise, @makeTypeError('Iterator result interface is not an object.'));
+return promise;
+}
+@rejectPromiseWithFirstResolvingFunctionCallCheck(promise, @makeTypeError('Iterator does not provide a throw method.'));
+return promise;
+}
+try {
+var throwResult = @argumentCount() === 0 ? throwMethod.@call(syncIterator) :throwMethod.@call(syncIterator, exception);
+if (!@isObject(throwResult)) {
+@rejectPromiseWithFirstResolvingFunctionCallCheck(promise, @makeTypeError('Iterator result interface is not an object.'));
+return promise;
+}
+var task = throwResult.done ? @InternalMicrotaskAsyncFromSyncIteratorDone :@InternalMicrotaskAsyncFromSyncIteratorContinue;
+@resolveWithInternalMicrotaskForAsyncAwait(throwResult.value, task, { @promise:promise, @syncIterator:syncIterator });
+} catch (e) {
+@rejectPromiseWithFirstResolvingFunctionCallCheck(promise, e);
+}
+return promise;
+})
+(function (value)
+{
+"use strict";
+var promise = @newPromise();
+var resumeMode = @asyncGeneratorQueueEnqueue(this, value, @GeneratorResumeModeThrow, promise);
+if (resumeMode !== @AsyncGeneratorResumeModeEmpty)
+@asyncGeneratorResumeNext(this, resumeMode);
+return promise;
+})
+(function (exception)
+{
+"use strict";
+if (!@isGenerator(this))
+@throwTypeError("|this| should be a generator");
+var state = @getGeneratorInternalField(this, @generatorFieldState);
+if (state === @GeneratorStateExecuting)
+@throwTypeError("Generator is executing");
+if (state === @GeneratorStateCompleted)
+throw exception;
+return @generatorResume(this, state, exception, @GeneratorResumeModeThrow);
+})
+(function ()
+{
+"use strict";
+var length = @typedArrayLength(this);
+if (length == 0)
+return "";
+var string = "";
+for (var i = 0; i < length; ++i) {
+if (i > 0)
+string += ",";
+var element = this[i];
+if (!@isUndefinedOrNull(element))
+string += @toString(element.toLocaleString(@argument(0), @argument(1)));
+}
+return string;
+})
+(function (callback )
+{
+"use strict";
+if (!@isObject(this))
+@throwTypeError("|this| is not an object");
+var args = [];
+for (var i = 1; i < @argumentCount(); i++)
+@putByValDirect(args, i - 1, arguments[i]);
+var promiseCapability = @newPromiseCapability(this);
+try {
+var value = callback.@apply(@undefined, args);
+promiseCapability.resolve.@call(@undefined, value);
+} catch (error) {
+promiseCapability.reject.@call(@undefined, error);
+}
+return promiseCapability.promise;
+})
+(function (value)
+{
+'use strict';
+if (!@isAsyncDisposableStack(this))
+@throwTypeError("AsyncDisposableStack.prototype.use requires that |this| be a AsyncDisposableStack object");
+if (@getAsyncDisposableStackInternalField(this, @asyncDisposableStackFieldState) === @AsyncDisposableStackStateDisposed)
+throw new @ReferenceError("AsyncDisposableStack.prototype.use requires that |this| be a pending AsyncDisposableStack object");
+@addDisposableResource(@getDisposableStackInternalField(this, @disposableStackFieldCapability), value,  true);
+return value;
+})
+(function (value)
+{
+'use strict';
+if (!@isDisposableStack(this))
+@throwTypeError("DisposableStack.prototype.use requires that |this| be a DisposableStack object");
+if (@getDisposableStackInternalField(this, @disposableStackFieldState) === @DisposableStackStateDisposed)
+throw new @ReferenceError("DisposableStack.prototype.use requires that |this| be a pending DisposableStack object");
+@addDisposableResource(@getDisposableStackInternalField(this, @disposableStackFieldCapability), value,  false);
+return value;
+})
+(function (windowSize )
+{
+"use strict";
+if (!@isObject(this))
+@throwTypeError("Iterator.prototype.windows requires that |this| be an Object.");
+var numWindowSize = @toNumber(windowSize);
+if (numWindowSize !== numWindowSize)
+@throwRangeError("Iterator.prototype.windows requires that first argument not be NaN.");
+var intWindowSize = @toIntegerOrInfinity(numWindowSize);
+if (intWindowSize < 1 || intWindowSize > @MAX_ARRAY_INDEX)
+@throwRangeError("Iterator.prototype.windows requires that first argument be between 1 and 2**32 - 1.");
+var undersized = @argument(1) ?? "only-full";
+if (undersized !== "only-full" && undersized !== "allow-partial")
+@throwTypeError("Iterator.prototype.windows requires that second argument be \"only-full\" or \"allow-partial\".");
+var iterated = this;
+var iteratedNextMethod = this.next;
+var generator = (function*() {
+var buffer = [];
+for (;;) {
+var result = @iteratorGenericNext(iteratedNextMethod, iterated);
+if (result.done) {
+if (undersized === "allow-partial" && buffer.length && buffer.length < intWindowSize)
+yield buffer;
+return;
+}
+if (buffer.length === intWindowSize) {
+for (var i = 0; i < buffer.length - 1; ++i)
+buffer[i] = buffer[i + 1];
+buffer[buffer.length - 1] = result.value;
+} else
+@arrayPush(buffer, result.value);
+if (buffer.length === intWindowSize) {
+var copy = @newArrayWithSize(buffer.length);
+for (var i = 0; i < buffer.length; ++i)
+copy[i] = buffer[i];
+@ifAbruptCloseIterator(iterated, (
+yield copy
+));
+}
+}
+})();
+return @iteratorHelperCreate(generator, iterated);
+})
+(function (fromShadowRealm, shadowRealm, target)
+{
+"use strict";
+if (@isCallable(target))
+return @createRemoteFunction(target, fromShadowRealm ? null :shadowRealm);
+if (@isObject(target))
+@throwTypeError("value passing between realms must be callable or primitive");
+return target;
+})
+(function (iterator)
+{
+var wrapper = @Object.@create(null);
+wrapper.@@iterator = function() { return iterator; }
+return wrapper;
+})
+ /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

@@ -8,12 +8,11 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 - (_Bool);
 - (_Bool);
 
 // Remaining properties
-@property(readonly) _Bool xctas_isProcessStallError;
 @property(readonly) _Bool xctas_isUnknownElementError;
 @end
 

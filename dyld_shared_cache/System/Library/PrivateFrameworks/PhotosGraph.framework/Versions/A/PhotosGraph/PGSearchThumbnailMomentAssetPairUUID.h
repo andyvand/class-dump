@@ -9,20 +9,18 @@
 @interface PGSearchThumbnailMomentAssetPairUUID
 {
     NSString *_assetUUID;
-    NSString *_momentUUID;
 }
 
 + (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)selectionRangeFrame;
+- (id);
 - (id);
 - (void);
 - (void)darUnitNode.m;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *assetUUID; // @synthesize assetUUID=_assetUUID;
-@property(readonly, nonatomic) NSString *momentUUID; // @synthesize momentUUID=_momentUUID;
 
 @end
 

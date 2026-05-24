@@ -6,28 +6,19 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIColor, CIImage, CIVector, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CUIShapeEffectBlur1 : CIFilter
 {
     CIImage *inputImage;
-    CIImage *inputFill;
-    CIVector *inputOffset;
-    NSNumber *inputRadius;
-    CIColor *inputGlowColorInner;
-    CIColor *inputGlowColorOuter;
-    CIColor *inputShadowColorInner;
-    CIColor *inputShadowColorOuter;
-    NSNumber *inputShadowBlurInner;
-    NSNumber *inputShadowBlurOuter;
 }
 
 + (id);
+- (void) ;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void) ;
 - (void);
 - (void);
 - (void);
@@ -35,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)C]xhRxmF	)`*;
 - (id);
 - (id);
 - (id);
@@ -48,16 +39,7 @@ __attribute__((visibility("hidden")))
 - (id)qqqq©­°¶¶¯®°°k||mp~}e}|Zqmw}}}}z||||o}}}e}}Xnj{N_UoUkgr{{{{~~Fc\{\qoxqqqqG_XfPb[l§§§§¬®°°¡§§vvvvcc`c4K<ZZd]i|}dicnTXNgxxxxisss5L>_H]Tkªªªª©©©©}|y}Umgtssssssssuuruyyyyxxxxci_uOdYtcrmvvvvvttttaqj{l~xxxxmmmmkkkkmmkmvvvvlvt{ispuisrsuuuuvvvvuuuuxxxxwwszqtpuehsl}cyuxisn|]`Tlee[kwwtwl~}~{k{v~}    ©©©©¯¯¯¯¬¬¬¬ciaqFPAXNQEX`kkl}}}}rrrr>TN[\\\\qqqq}}}}gsrykmhx~~tyyyrrqruuuu     £¤¤~q|zdlfwnxx{ppppRPDR'<)J[e^iÁÁÁÁ¾¾¾¾vupvY_U_^^^^pppp}}n{rrrr`]QbQWJbdf^mMhaxt~Qroiyx    ££££s}xWslcldn6O?`ITE^dd[dQg`p|mvvxMVLeBXOaZ^W^/F8T6E6Wjidk||||~~~~q}hrqr]YO]@NAU^^^^ccccOYR^BRJYV]]]ffffllllUkhu    ~}}}}ltpteiar||{|¡¡¡¡­­­­¢¢¢¢m}wKbUmU_QgPf[n`tm{ark{wuow||||{{w{iupx||y|y|^xvuuuuaa[aIQGS8I;R6OB`~{wwwwhhhh]]\]W^\^ddddQa\debZeVe]mVibxw|r¡¡¡¡¢¢¢¢zzwzonhoanjriyy}nzzw~ttqt_qjtpwxttttkkkkqqqqzzzzbssxgkgniicixxxxZjdsGaXieqpq}}}}||||~~~~k{y_oisnkto{cdZl[^Rfrqkrr~|yyvyNf^pqniqxxxxp{zblgxN[QieeeeW^Z^?NAUHUI]`try~ewq~k}w}}}gmhplokp{{{{£¸¸¸¸»»»»ªbUum\pff}yz|||LbWl^_Seilelttttqqqq`e[knsms££££yyyyYcYg[[O[KSCW>R@`nyt§§§§ºººº´´´´    z{¡¡¡¡¢¢¢¢ssquc`Ycbbbbjjjjrrrrsxxx|;
 
 // Remaining properties
-@property(retain, nonatomic) CIImage *inputFill; // @synthesize inputFill;
-@property(retain, nonatomic) CIColor *inputGlowColorInner; // @synthesize inputGlowColorInner;
-@property(retain, nonatomic) CIColor *inputGlowColorOuter; // @synthesize inputGlowColorOuter;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) CIVector *inputOffset; // @synthesize inputOffset;
-@property(retain, nonatomic) NSNumber *inputRadius; // @synthesize inputRadius;
-@property(retain, nonatomic) NSNumber *inputShadowBlurInner; // @synthesize inputShadowBlurInner;
-@property(retain, nonatomic) NSNumber *inputShadowBlurOuter; // @synthesize inputShadowBlurOuter;
-@property(retain, nonatomic) CIColor *inputShadowColorInner; // @synthesize inputShadowColorInner;
-@property(retain, nonatomic) CIColor *inputShadowColorOuter; // @synthesize inputShadowColorOuter;
 
 @end
 

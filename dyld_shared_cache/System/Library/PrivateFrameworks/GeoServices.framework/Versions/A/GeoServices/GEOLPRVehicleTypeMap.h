@@ -4,32 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLPRVehicleType, NSString, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOLPRVehicleTypeMap
 {
     PBDataReader *_reader;
-    NSString *_key;
-    GEOLPRVehicleType *_vehicleType;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_key:1;
-        unsigned int read_vehicleType:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)gnized];
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)ants:(struct _NSZone *)arg1;
+- (id)setNumChainedVariants:(struct _NSZone *)arg1;
 - (id),R,N;
 - (id)g counters, failed to unarchive %@:%@ /* Error: Ran out of types for this method. */;
 - (void)Ììxÿ±È;

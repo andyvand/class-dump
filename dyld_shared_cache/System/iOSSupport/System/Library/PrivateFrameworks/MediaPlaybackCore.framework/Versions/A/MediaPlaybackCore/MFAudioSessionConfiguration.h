@@ -7,10 +7,6 @@
 @interface MFAudioSessionConfiguration
 {
     id category;
-    id routeSharingPolicy;
-    id options;
-    id audioSessionMXProperties;
-    id allowEnhanceDialogue;
 }
 
 - (void);

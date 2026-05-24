@@ -4,37 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSMPPublicDeviceIdentity, IDSMPPublicLegacyIdentity, IDSPublicAccountIdentity, NSString;
+@class IDSMPPublicLegacyIdentity;
 
 @interface IDSPublicDeviceIdentity
 {
     IDSMPPublicLegacyIdentity *_legacyIdentity;
-    IDSMPPublicDeviceIdentity *_modernIdentity;
-    IDSPublicAccountIdentity *_accountIdentity;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)$;
 - (id);
 - (void);
-- (id);
-- (id)o;
+- (id)|�;
+- (id)refreshIDInfo;
 - (void)equest %s;
 
 // Remaining properties
-@property(readonly, nonatomic) IDSPublicAccountIdentity *accountIdentity; // @synthesize accountIdentity=_accountIdentity;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) IDSMPPublicLegacyIdentity *legacyIdentity; // @synthesize legacyIdentity=_legacyIdentity;
-@property(readonly, nonatomic) IDSMPPublicDeviceIdentity *modernIdentity; // @synthesize modernIdentity=_modernIdentity;
-@property(readonly) Class superclass;
 
 @end
 

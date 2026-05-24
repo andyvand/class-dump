@@ -17,7 +17,7 @@
 - (unsigned long long);
 - (id)!Fù1)	1Â0@ù
 × ;
-- (unsigned long long)alityOfService:completionQueue:completionHandler: /* Error: Ran out of types for this method. */;
+- (unsigned long long)fetchAllDatabaseChangesWithServerChangeToken:qualityOfService:completionQueue:completionHandler: /* Error: Ran out of types for this method. */;
 - (id)onTrainingConfiguration",&,N,V_trainingConfiguration;
 - (unsigned long long);
 - (id);

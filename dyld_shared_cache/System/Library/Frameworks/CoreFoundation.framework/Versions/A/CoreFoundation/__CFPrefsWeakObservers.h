@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface __CFPrefsWeakObservers
 {
     struct __cfobservers_t values;
-    unsigned long long count;
 }
 
 - (void);
@@ -17,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned char);
 - (unsigned long long)ldMetadata";
-- (unsigned char)ollerTimeValue;
+- (unsigned char)QTMoviePlaybackControllerTimeValue;
 - (id)_;
 
 @end

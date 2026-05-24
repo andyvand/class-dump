@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, PXDataSection, PXNavigationListDataSection;
+@class NSMutableDictionary, PXDataSection;
 
 @interface PXNavigationListDataSubsection
 {
     NSMutableDictionary *_listItemsCache;
-    _Bool _skipAssetCountFetches;
-    PXDataSection *_dataSection;
-    PXNavigationListDataSection *_listDataSection;
-    long long _indentationLevel;
-    long long _indexDelta;
-    long long _expandedIndex;
-    long long _externalStartIndex;
 }
 
 - (_Bool);
@@ -23,21 +16,15 @@
 - (id);
 - (long long);
 - (long long);
-- (long long);
+- (long long);
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)shortcutsMaxCount;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) PXDataSection *dataSection; // @synthesize dataSection=_dataSection;
-@property(readonly, nonatomic) long long expandedIndex; // @synthesize expandedIndex=_expandedIndex;
-@property(readonly, nonatomic) long long externalStartIndex; // @synthesize externalStartIndex=_externalStartIndex;
-@property(readonly, nonatomic) long long indentationLevel; // @synthesize indentationLevel=_indentationLevel;
-@property(readonly, nonatomic) long long indexDelta; // @synthesize indexDelta=_indexDelta;
-@property(readonly, nonatomic) PXNavigationListDataSection *listDataSection; // @synthesize listDataSection=_listDataSection;
-@property(readonly, nonatomic) _Bool skipAssetCountFetches; // @synthesize skipAssetCountFetches=_skipAssetCountFetches;
 
 @end
 

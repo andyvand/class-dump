@@ -5,5 +5,6 @@
 //
 
 @protocol TLValidatable
+- (_Bool);
 @end
 

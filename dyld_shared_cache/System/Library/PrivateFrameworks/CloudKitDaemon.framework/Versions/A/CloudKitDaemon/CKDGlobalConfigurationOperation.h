@@ -6,27 +6,24 @@
 
 #import <CloudKitDaemon/CKDOperation.h>
 
-@class CKDServerConfiguration, NSObject;
-@protocol OS_dispatch_group;
+@class CKDServerConfiguration;
 
 @interface CKDGlobalConfigurationOperation : CKDOperation
 {
     CKDServerConfiguration *_configuration;
-    NSObject<OS_dispatch_group> *_configurationFetchedGroup;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)";
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)on message;
+- (id);
 - (void);
-- (void)eUserKeyRegistrySyncRetryOnDecryption;
+- (void)ForceUserKeyRegistrySyncRetryOnDecryption;
 
 // Remaining properties
 @property(retain, nonatomic) CKDServerConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(retain, nonatomic) NSObject<OS_dispatch_group> *configurationFetchedGroup; // @synthesize configurationFetchedGroup=_configurationFetchedGroup;
 
 @end
 

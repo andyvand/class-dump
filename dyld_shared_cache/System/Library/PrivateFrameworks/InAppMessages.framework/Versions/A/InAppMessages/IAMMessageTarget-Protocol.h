@@ -8,11 +8,10 @@
 
 @protocol IAMMessageTarget
 
-// Remaining properties
-@property(readonly, nonatomic) _Bool shouldBeNotifiedOfNilPriorityMessageAfterRegistration;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
+@optional
+- (_Bool);
 
+// Remaining properties
 @property(readonly, nonatomic) NSString *targetIdentifier;
 @end
 

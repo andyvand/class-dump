@@ -7,24 +7,13 @@
 @interface TeaUI.SettingsStepper
 {
     id valueChanged;
-    id value;
-    id stepValue;
-    id minimumValue;
-    id maximumValue;
-    id isEnabled;
-    id minusButton;
-    id plusButton;
-    id $__lazy_storage_$_minusImage;
-    id $__lazy_storage_$_plusImage;
-    id $__lazy_storage_$_minusButtonSize;
-    id $__lazy_storage_$_plusButtonSize;
 }
 
 - (void);
 - (void);
 - (id);
 - (struct CGSize);
-- (id);
+- (id)setTappedNextArticleAffordanceFeedId:(struct CGRect)arg1;
 - (void);
 
 // Remaining properties

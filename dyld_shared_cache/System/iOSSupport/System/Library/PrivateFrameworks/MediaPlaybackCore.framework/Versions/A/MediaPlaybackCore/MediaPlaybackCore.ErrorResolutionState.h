@@ -9,10 +9,6 @@
 @interface MediaPlaybackCore.ErrorResolutionState : MediaPlaybackCore.State
 {
     id triggerEvent;
-    id playerItem;
-    id initialLoadFailure;
-    id initialLoadShouldPlay;
-    id steps;
 }
 
 @end

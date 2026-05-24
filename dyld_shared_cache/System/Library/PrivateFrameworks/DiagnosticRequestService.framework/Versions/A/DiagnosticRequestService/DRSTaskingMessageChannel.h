@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class APSConnection, DRSCloudChannelConfig, NSObject, NSString, PKPublicChannel;
-@protocol OS_dispatch_queue;
+@class DRSCloudChannelConfig, PKPublicChannel;
 
 @interface DRSTaskingMessageChannel
 {
     DRSCloudChannelConfig *_config;
-    CDUnknownBlockType _processingBlock;
-    PKPublicChannel *_pubSubChannel;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    APSConnection *_apsConnection;
-    NSString *_apsEnvironmentString;
 }
 
 - (id);
@@ -25,29 +19,17 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (CDUnknownBlockType);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (_Bool)tion:(id *)arg1 isSeed:isCarrier:platform: /* Error: Ran out of types for this method. */;
+- (_Bool)_coreAnimationTeamConfiguration:(id *)arg1 isSeed:isCarrier:platform: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) APSConnection *apsConnection; // @synthesize apsConnection=_apsConnection;
-@property(readonly, nonatomic) NSString *apsEnvironmentString; // @synthesize apsEnvironmentString=_apsEnvironmentString;
-@property(readonly, nonatomic) DRSCloudChannelConfig *config; // @synthesize config=_config;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CDUnknownBlockType processingBlock; // @synthesize processingBlock=_processingBlock;
 @property(readonly, nonatomic) PKPublicChannel *pubSubChannel; // @synthesize pubSubChannel=_pubSubChannel;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

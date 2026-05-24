@@ -4,40 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFullDeveloperPlaceCardSelectionAccessoryView, MKMapItem, NSString;
-@protocol MKMapItemDetailViewControllerDelegate;
+@class MKMapItem;
 
 @interface MKMapItemDetailViewController
 {
     _Bool _displaysMap;
-    MKFullDeveloperPlaceCardSelectionAccessoryView *_accessoryView;
-    MKMapItem *_mapItem;
-    id <MKMapItemDetailViewControllerDelegate> _delegate;
 }
 
+- (void)T;
+- (id)t;
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void)er: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)initWithLocationManager:handler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MKMapItemDetailViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) MKMapItem *mapItem; // @synthesize mapItem=_mapItem;
-@property(readonly) Class superclass;
 
 @end
 

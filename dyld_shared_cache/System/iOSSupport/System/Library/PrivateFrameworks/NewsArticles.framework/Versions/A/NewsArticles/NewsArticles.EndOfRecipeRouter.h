@@ -7,10 +7,6 @@
 @interface NewsArticles.EndOfRecipeRouter
 {
     id controller;
-    id resolver;
-    id tracker;
-    id router;
-    id contextBuilder;
 }
 
 @end

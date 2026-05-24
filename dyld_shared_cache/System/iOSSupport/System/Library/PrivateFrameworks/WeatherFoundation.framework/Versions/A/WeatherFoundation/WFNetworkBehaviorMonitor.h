@@ -13,7 +13,7 @@
 
 + (id);
 - (void);
-- (id);
+- (id)DELETE_SMART_LIST_ALERT_DELETE_BUTTON_N_LISTS_N_TAGS;
 - (void);
 - (id);
 - (void);

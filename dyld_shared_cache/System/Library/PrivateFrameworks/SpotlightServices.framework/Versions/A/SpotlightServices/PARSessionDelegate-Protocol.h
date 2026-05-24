@@ -5,5 +5,9 @@
 //
 
 @protocol PARSessionDelegate
+- (void)kOnTopOfSwiftAsyncCallstacksAlways and swiftAsyncPrintLeafyCCallstackOnTopOfCRootCallstacksAlways both set;
+
+@optional
+- (void);
 @end
 

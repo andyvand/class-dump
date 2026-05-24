@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLock, NSMutableArray, NSMutableIndexSet;
+@class NSLock;
 
 @interface _EFCombineLatestObservableSubscription
 {
     NSLock *_lock;
-    NSArray *_observables;
-    NSMutableArray *_results;
-    NSMutableArray *_tokens;
-    NSMutableIndexSet *_activeIndexes;
-    NSMutableIndexSet *_silentIndexes;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)AVBonjourServiceClientDidResolveNetServiceNotification;
 - (void);
 - (void);
 - (id);
 - (id);
+- (void)lH;
+- (void)NS server (%@ / %.2fms / %@ / %ld bytes / i=%fs / W=%fs / t=%fs / c=%ld);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)tical results;
 - (void);
 - (id);
 - (id);
@@ -36,12 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableIndexSet *activeIndexes; // @synthesize activeIndexes=_activeIndexes;
 @property(retain, nonatomic) NSLock *lock; // @synthesize lock=_lock;
-@property(copy, nonatomic) NSArray *observables; // @synthesize observables=_observables;
-@property(retain, nonatomic) NSMutableArray *results; // @synthesize results=_results;
-@property(retain, nonatomic) NSMutableIndexSet *silentIndexes; // @synthesize silentIndexes=_silentIndexes;
-@property(retain, nonatomic) NSMutableArray *tokens; // @synthesize tokens=_tokens;
 
 @end
 

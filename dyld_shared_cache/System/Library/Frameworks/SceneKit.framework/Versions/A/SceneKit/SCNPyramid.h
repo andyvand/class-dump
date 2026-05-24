@@ -9,24 +9,18 @@
 @interface SCNPyramid : SCNGeometry
 {
     double _pyramidwidth;
-    double _pyramidheight;
-    double _pyramidlength;
-    long long _pyramidwidthSegmentCount;
-    long long _pyramidheightSegmentCount;
-    long long _pyramidlengthSegmentCount;
-    long long _pyramidprimitiveType;
 }
 
 + (id);
 + (_Bool);
-- (long long);
+- (long long);
 - (void);
 - (void);
 - (void);
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id)P;
 - (long long);
 - (id);
 - (void);
@@ -39,8 +33,8 @@
 - (long long);
 - (id);
 - (id);
-- (double);
-- (id);
+- (double)en:audioUplinkToken:streamToken: /* Error: Ran out of types for this method. */;
+- (id);
 - (double);
 - (double);
 - (void);
@@ -59,12 +53,7 @@
 };
 
 // Remaining properties
-@property(nonatomic) double height;
-@property(nonatomic) long long heightSegmentCount;
-@property(nonatomic) double length;
-@property(nonatomic) long long lengthSegmentCount;
 @property(nonatomic) double width;
-@property(nonatomic) long long widthSegmentCount;
 
 @end
 

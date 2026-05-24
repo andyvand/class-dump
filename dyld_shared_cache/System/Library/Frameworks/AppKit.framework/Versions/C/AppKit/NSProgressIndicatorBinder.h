@@ -11,13 +11,13 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
-+ (_Bool);
-+ (id);
++ (id)5;
++ (_Bool)g for proxy info!;
++ (id)}}8;
 - (Class);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)NSURLAuthenticationChallengeSender;
+- (_Bool)cookies_deleted_handler_queue_default;
 
 @end
 

@@ -4,24 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate;
-
 @interface TRITaskRunResult
 {
     _Bool _reportResultToServer;
-    int _runStatus;
-    NSArray *_nextTasks;
-    NSDate *_earliestRetryDate;
 }
 
-+ (id);
++ (id).rgb, weq); 
+  float maxRGB = max(max(im.r, im.g), im.b); 
+  luma = 0.5 * (luma + maxRGB); 
+  luma = log2(1.0 + luma); 
+  float light = dot(lm.rgb, weq); 
+  light = log2(1.0 +light); 
+  float glog2 = a.x * light + a.y * luma; 
+  float g = exp2(glog2) - 1.0; 
+  return vec4(g, g, g, 1.0); 
+}
+;
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)NU_RENDER_RESOURCE_EVICTION_DELAY;
 - (id);
 - (id);
 - (_Bool);
@@ -34,9 +39,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *earliestRetryDate; // @synthesize earliestRetryDate=_earliestRetryDate;
-@property(readonly, nonatomic) NSArray *nextTasks; // @synthesize nextTasks=_nextTasks;
-@property(readonly, nonatomic) _Bool reportResultToServer; // @synthesize reportResultToServer=_reportResultToServer;
 @property(readonly, nonatomic) int runStatus; // @synthesize runStatus=_runStatus;
 
 @end

@@ -6,15 +6,12 @@
 
 #import <BiomeStreams/BMEventBase.h>
 
-@class NSString;
-
 @interface BMGameControllerEvent : BMEventBase
 {
     _Bool _isControllerConnected;
-    unsigned long long _numberOfControllersConnected;
 }
 
-+ (id);
++ (id);
 - (id);
 - (id);
 - (unsigned int);
@@ -23,24 +20,15 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)stReportedUplinkPacketsSent;
 - (void);
-- (_Bool);
+- (_Bool);
 - (id)BOSE ;
 - (_Bool)ÿÿÿÿÿÿÿÿÿÿÿÿ ¡¢£¤¥¦§ÿÿÿÿª«¬­®¯ÿÿ±²³´µ¶·ÿÿ¹º»¼½¾ÿÿÿÿÁÿÿÿÿÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×;
 - (unsigned long long)ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿêÿÿ£ÿÿÿÿÿÿ§ÿÿÿÿÿÿÿÿÿÿ®ÿÿÿÿÿÿÆÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ×ÿÿÿÿÿÿÿÿ¾Æÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿé11ÿÿÿÿÿÿ×ÿÿÿÿÿÿjÿÿÿÿ×?ÿÿÿÿÿÿÿÿÿÿÿÿFFéÿÿÿÿÿÿ,ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿTÿÿñÿÿYÿÿÿÿIÿÿKÿÿÿÿÿÿbÿÿÿÿÿÿÿÿÿÿ!iÿÿÿÿlÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ.ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ!ÿÿ;ÿÿÿÿÿÿgÿÿÿÿ.ÿÿ.Gÿÿÿÿÿÿ:ÿÿÿÿÿÿ;ÿÿÿÿÿÿÿÿÿÿÿÿ¢ÿÿÿÿÿÿGÿÿÿÿ©ÿÿÿÿ¬ÿÿÿÿ¯ÿÿÿÿÿÿÿÿÿÿÿÿÿÿè¦st¼ÿÿÿÿ¾ÿÿÿÿÿÿÿÿÿÿÿÿÿÿ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool isControllerConnected; // @synthesize isControllerConnected=_isControllerConnected;
-@property(nonatomic) unsigned long long numberOfControllersConnected; // @synthesize numberOfControllersConnected=_numberOfControllersConnected;
-@property(readonly) Class superclass;
 
 @end
 

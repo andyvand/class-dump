@@ -10,11 +10,6 @@
 @interface WFBlackListNode
 {
     NSMutableArray *_blacklistMetrics;
-    _Bool _enterprisePolicy;
-    id <WFBlacklistNetwork> _networkDelegate;
-    NSMutableArray *_blacklistTriggers;
-    NSMutableArray *_blacklistedStatesCurrent;
-    NSMutableArray *_blacklistedStatesHistory;
 }
 
 - (void);
@@ -42,10 +37,6 @@
 × ;
 
 // Remaining properties
-@property(retain) NSMutableArray *blacklistTriggers; // @synthesize blacklistTriggers=_blacklistTriggers;
-@property(retain) NSMutableArray *blacklistedStatesCurrent; // @synthesize blacklistedStatesCurrent=_blacklistedStatesCurrent;
-@property(retain) NSMutableArray *blacklistedStatesHistory; // @synthesize blacklistedStatesHistory=_blacklistedStatesHistory;
-@property _Bool enterprisePolicy; // @synthesize enterprisePolicy=_enterprisePolicy;
 @property(retain) id <WFBlacklistNetwork> networkDelegate; // @synthesize networkDelegate=_networkDelegate;
 
 @end

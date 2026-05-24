@@ -9,8 +9,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned char contentScale;
-@property(readonly, nonatomic) struct CGSize contentSize;
-@property(readonly, nonatomic) _Bool isRemote;
-@property(readonly, nonatomic) _Bool shouldReplaceExistingContent;
 @end
 

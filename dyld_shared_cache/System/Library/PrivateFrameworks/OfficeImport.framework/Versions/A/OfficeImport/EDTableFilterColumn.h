@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface EDTableFilterColumn
 {
     unsigned long long mColumnIndex;
-    NSMutableArray *mFilters;
-    int mFiltersRelation;
 }
 
 - (void);
@@ -21,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)!;
 - (id);
 - (void)¨	<;
 

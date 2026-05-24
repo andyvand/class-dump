@@ -13,9 +13,9 @@ __attribute__((visibility("hidden")))
     struct CGPoint _offset;
 }
 
-- (id);
-- (void);
-- (struct CGPoint);
+- (id)reportAvailableSpaceToBeDeleted:(double)arg1 urgency:(_Bool)arg2;
+- (void)erious issue that needs to be identified and addressed.;
+- (struct CGPoint)%s;
 - (void);
 - (struct CGPoint)¼+àÿÓÎ¸^;
 

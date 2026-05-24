@@ -9,12 +9,10 @@
 @interface ADRotatingIdentifiers
 {
     NSString *_anonymousSessionId;
-    NSMutableArray *_experimentBuckets;
-    NSString *_rotatedAnonymousId;
 }
 
 + (Class);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -31,18 +29,14 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool).;
+- (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *anonymousSessionId; // @synthesize anonymousSessionId=_anonymousSessionId;
 @property(retain, nonatomic) NSMutableArray *experimentBuckets; // @synthesize experimentBuckets=_experimentBuckets;
-@property(readonly, nonatomic) _Bool hasAnonymousSessionId;
-@property(readonly, nonatomic) _Bool hasRotatedAnonymousId;
-@property(retain, nonatomic) NSString *rotatedAnonymousId; // @synthesize rotatedAnonymousId=_rotatedAnonymousId;
 
 @end
 

@@ -7,15 +7,6 @@
 @interface NewsFeed.FormatVBoxNode
 {
     id _identifier;
-    id _name;
-    id _description;
-    id _size;
-    id resize;
-    id _adjustments;
-    id _children;
-    id _reversed;
-    id _reverse;
-    id flex;
 }
 
 @end

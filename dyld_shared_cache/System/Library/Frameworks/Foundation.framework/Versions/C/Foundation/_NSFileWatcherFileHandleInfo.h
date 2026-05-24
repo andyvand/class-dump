@@ -8,15 +8,14 @@ __attribute__((visibility("hidden")))
 @interface _NSFileWatcherFileHandleInfo
 {
     int fileHandle;
-    _Bool closed;
 }
 
 + (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)P;
 - (_Bool);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly) _Bool isDirectory;

@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLEngineScheduler, NSString;
+@class NSString;
 
 @interface CPLEngineSchedulerBlocker
 {
     _Bool _blocking;
-    NSString *_reason;
-    CPLEngineScheduler *_scheduler;
 }
 
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)P;
+- (id)d;
 - (void);
 - (void)Âð!ðEù°1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *reason; // @synthesize reason=_reason;
-@property(readonly, nonatomic) CPLEngineScheduler *scheduler; // @synthesize scheduler=_scheduler;
 
 @end
 

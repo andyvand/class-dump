@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVMediaFileType, AVWeakReference, NSDictionary, NSObject, NSOperationQueue, NSString;
-@protocol OS_dispatch_queue;
+@class AVWeakReference;
 
 __attribute__((visibility("hidden")))
 @interface AVFigAssetWriterTrack
 {
     AVWeakReference *_weakReference;
-    struct OpaqueFigAssetWriter *_figAssetWriter;
-    int _trackID;
-    NSString *_mediaType;
-    AVMediaFileType *_mediaFileType;
-    NSObject<OS_dispatch_queue> *_aboveHighWaterLevelQueue;
-    _Bool _aboveHighWaterLevel;
-    NSOperationQueue *_operationQueue;
-    NSObject<OS_dispatch_queue> *_finalHDRMetadataGenerationStateQueue;
-    NSDictionary *_finalHDRMetadataGenerationState;
 }
 
 + (id);
@@ -30,50 +20,43 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (struct OpaqueFigAssetWriter *);
+- (_Bool)̲;
+- (struct OpaqueFigAssetWriter *)q;
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void)<;
 - (void);
 - (void);
+- (void)9;
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (_Bool)`;
+- (void);
 - (void);
 - (id);
 - (id);
 - (int);
-- (id);
-- (void);
+- (id)sourceLinkPodWithDictionary:context: /* Error: Ran out of types for this method. */;
+- (void)SALocalSearchReviewList;
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)CGImage=};
 - (id);
 - (void);
-- (struct __CVPixelBufferPool *);
+- (struct __CVPixelBufferPool *)(;
 - (void);
 - (void)
 × ;
 - (void);
-- (void)ying;
+- (void)airPlayVideoPlaying;
 - (int)dx;
 
 // Remaining properties
-@property(readonly, getter=isAboveHighWaterLevel) _Bool aboveHighWaterLevel;
-@property(readonly, nonatomic) _Bool encoderSupportsMultiPass;
 @property(readonly, nonatomic) struct OpaqueFigAssetWriter *figAssetWriter; // @synthesize figAssetWriter=_figAssetWriter;
-@property(readonly, getter=finalHDRMetadataGenerationState) NSDictionary *finalHDRMetadataGenerationState;
-@property(readonly, nonatomic) AVMediaFileType *mediaFileType; // @synthesize mediaFileType=_mediaFileType;
-@property(readonly, nonatomic) NSString *mediaType; // @synthesize mediaType=_mediaType;
-@property(readonly, nonatomic) struct __CVPixelBufferPool *pixelBufferPool;
-@property(readonly, nonatomic) int trackID; // @synthesize trackID=_trackID;
 
 @end
 

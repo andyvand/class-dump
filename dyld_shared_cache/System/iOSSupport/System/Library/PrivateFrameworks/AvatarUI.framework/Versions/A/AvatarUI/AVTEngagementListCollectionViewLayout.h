@@ -9,11 +9,9 @@
 @interface AVTEngagementListCollectionViewLayout
 {
     AVTEngagementLayout *_engagementLayout;
-    NSValue *_ignoredProposedContentOffset;
-    NSValue *_targetContentOffset;
 }
 
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -22,7 +20,7 @@
 - (id);
 - (struct UIEdgeInsets);
 - (struct CGSize);
-- (void);
+- (void);
 - (struct CGPoint);
 - (_Bool);
 - (struct CGPoint);
@@ -30,14 +28,12 @@
 - (id);
 - (void);
 - (struct CGSize);
-- (_Bool);
+- (_Bool)public}@:(struct CGRect)arg1 SLOW synchronous XPC operation for selector:%{public}@ took %.2f seconds /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) AVTEngagementLayout *engagementLayout; // @synthesize engagementLayout=_engagementLayout;
-@property(retain, nonatomic) NSValue *ignoredProposedContentOffset; // @synthesize ignoredProposedContentOffset=_ignoredProposedContentOffset;
 @property(retain, nonatomic) NSValue *targetContentOffset; // @synthesize targetContentOffset=_targetContentOffset;
 
 @end

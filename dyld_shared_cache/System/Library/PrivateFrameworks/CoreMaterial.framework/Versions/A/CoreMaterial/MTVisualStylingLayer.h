@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTVisualStylingLayerHelper, NSString;
+@class MTVisualStylingLayerHelper;
 
 @interface MTVisualStylingLayer
 {
@@ -13,7 +13,7 @@
 
 + (id);
 + (id);
-+ (id);
++ (id)AqL;
 - (void);
 - (id);
 - (id);
@@ -22,17 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *category; // @dynamic category;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) MTVisualStylingLayerHelper *helper; // @synthesize helper=_helper;
-@property(copy, nonatomic) NSString *recipe; // @dynamic recipe;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *visualStyle; // @dynamic visualStyle;
 
 @end
 

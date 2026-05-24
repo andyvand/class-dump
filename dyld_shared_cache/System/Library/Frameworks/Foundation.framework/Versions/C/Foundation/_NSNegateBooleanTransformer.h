@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (Class)ames: /* Error: Ran out of types for this method. */;
-- (id);
+- (id);
 - (_Bool);
 - (id)ÓÞ;
 

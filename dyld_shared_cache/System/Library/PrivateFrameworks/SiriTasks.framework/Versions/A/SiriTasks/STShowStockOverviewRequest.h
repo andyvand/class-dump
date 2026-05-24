@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface STShowStockOverviewRequest
 {
     NSString *_name;
-    NSString *_symbol;
-    NSString *_exchange;
-    NSNumber *_price;
-    NSNumber *_high;
-    NSNumber *_low;
-    NSNumber *_change;
-    NSNumber *_changePercent;
-    NSString *_chartData;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
+- (id)p;
 - (id);
 - (id);
+- (id));
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);

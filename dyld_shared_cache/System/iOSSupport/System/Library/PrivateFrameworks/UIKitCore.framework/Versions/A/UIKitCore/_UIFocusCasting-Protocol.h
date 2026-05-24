@@ -7,6 +7,8 @@
 @class UIFocusSystem;
 
 @protocol _UIFocusCasting
+- (void);
+- (void)	?ր;
 - (void)× ;
 - (void)°! Dù±gð1Â0@ù
 × ;

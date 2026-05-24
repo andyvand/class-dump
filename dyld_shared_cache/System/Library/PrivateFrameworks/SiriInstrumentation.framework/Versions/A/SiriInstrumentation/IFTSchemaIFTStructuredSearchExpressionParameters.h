@@ -6,17 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTStatementId, NSData, NSString;
+@class NSString;
 
 @interface IFTSchemaIFTStructuredSearchExpressionParameters : SISchemaInstrumentationMessage
 {
     NSString *_structuredSearchParameterName;
-    IFTSchemaIFTStatementId *_statementId;
-    _Bool _hasStructuredSearchParameterName;
-    _Bool _hasStatementId;
 }
 
-- (id);
+- (id)Ң;
 - (id);
 - (void);
 - (void);
@@ -36,14 +33,10 @@
 - (id)1Â0@ù
 × ;
 - (id)B,N,V_hasGroup;
-- (id)onConversionFailed;
+- (id)FLOWLINKSchemaFLOWLINKActionConversionFailed;
 - (void)«#;
 
 // Remaining properties
-@property(nonatomic) _Bool hasStatementId; // @synthesize hasStatementId=_hasStatementId;
-@property(nonatomic) _Bool hasStructuredSearchParameterName; // @synthesize hasStructuredSearchParameterName=_hasStructuredSearchParameterName;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) IFTSchemaIFTStatementId *statementId; // @synthesize statementId=_statementId;
 @property(copy, nonatomic) NSString *structuredSearchParameterName; // @synthesize structuredSearchParameterName=_structuredSearchParameterName;
 
 @end

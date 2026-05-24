@@ -14,7 +14,7 @@
 
 - (void);
 - (id);
-- (void)n;
+- (void)WBSCloudHistoryItemsWereRemovedNotification;
 
 @end
 

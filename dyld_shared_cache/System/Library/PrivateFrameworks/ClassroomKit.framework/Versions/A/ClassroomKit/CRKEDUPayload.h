@@ -4,29 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
-
 @interface CRKEDUPayload
 {
     _Bool _screenObservationPermissionModificationAllowed;
-    _Bool _isEphemeralMultiUserDevice;
-    NSString *_payloadDisplayName;
-    NSString *_payloadDescriptionName;
-    NSString *_organizationUUID;
-    NSString *_organizationName;
-    NSString *_payloadCertificateUUID;
-    NSData *_payloadCertificatePersistentID;
-    NSArray *_leaderPayloadCertificateAnchorUUID;
-    NSArray *_leaderPayloadCertificateAnchorPersistentID;
-    NSArray *_memberPayloadCertificateAnchorUUID;
-    NSArray *_memberPayloadCertificateAnchorPersistentID;
-    NSString *_resourcePayloadCertificateUUID;
-    NSData *_resourcePayloadCertificatePersistentID;
-    NSString *_userIdentifier;
-    NSArray *_departments;
-    NSArray *_groups;
-    NSArray *_users;
-    NSArray *_deviceGroups;
 }
 
 - (void);
@@ -45,29 +25,29 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
+- (id)c#;
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
+- (id);
+- (id));
+- (void)mspBootBlockProgFail;
 - (void);
 - (id);
 - (id);
@@ -76,30 +56,11 @@
 - (void);
 - (id)1Â0@ù
 × ;
-- (void)portProvider;
+- (void)mTransportProvider;
 - (id)r:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *configuration;
-@property(retain, nonatomic) NSArray *departments; // @synthesize departments=_departments;
-@property(retain, nonatomic) NSArray *deviceGroups; // @synthesize deviceGroups=_deviceGroups;
-@property(retain, nonatomic) NSArray *groups; // @synthesize groups=_groups;
 @property(readonly, nonatomic) _Bool isEphemeralMultiUserDevice; // @synthesize isEphemeralMultiUserDevice=_isEphemeralMultiUserDevice;
-@property(retain, nonatomic) NSArray *leaderPayloadCertificateAnchorPersistentID; // @synthesize leaderPayloadCertificateAnchorPersistentID=_leaderPayloadCertificateAnchorPersistentID;
-@property(retain, nonatomic) NSArray *leaderPayloadCertificateAnchorUUID; // @synthesize leaderPayloadCertificateAnchorUUID=_leaderPayloadCertificateAnchorUUID;
-@property(retain, nonatomic) NSArray *memberPayloadCertificateAnchorPersistentID; // @synthesize memberPayloadCertificateAnchorPersistentID=_memberPayloadCertificateAnchorPersistentID;
-@property(retain, nonatomic) NSArray *memberPayloadCertificateAnchorUUID; // @synthesize memberPayloadCertificateAnchorUUID=_memberPayloadCertificateAnchorUUID;
-@property(retain, nonatomic) NSString *organizationName; // @synthesize organizationName=_organizationName;
-@property(retain, nonatomic) NSString *organizationUUID; // @synthesize organizationUUID=_organizationUUID;
-@property(retain, nonatomic) NSData *payloadCertificatePersistentID; // @synthesize payloadCertificatePersistentID=_payloadCertificatePersistentID;
-@property(retain, nonatomic) NSString *payloadCertificateUUID; // @synthesize payloadCertificateUUID=_payloadCertificateUUID;
-@property(retain, nonatomic) NSString *payloadDescriptionName; // @synthesize payloadDescriptionName=_payloadDescriptionName;
-@property(retain, nonatomic) NSString *payloadDisplayName; // @synthesize payloadDisplayName=_payloadDisplayName;
-@property(retain, nonatomic) NSData *resourcePayloadCertificatePersistentID; // @synthesize resourcePayloadCertificatePersistentID=_resourcePayloadCertificatePersistentID;
-@property(retain, nonatomic) NSString *resourcePayloadCertificateUUID; // @synthesize resourcePayloadCertificateUUID=_resourcePayloadCertificateUUID;
-@property(nonatomic) _Bool screenObservationPermissionModificationAllowed; // @synthesize screenObservationPermissionModificationAllowed=_screenObservationPermissionModificationAllowed;
-@property(retain, nonatomic) NSString *userIdentifier; // @synthesize userIdentifier=_userIdentifier;
-@property(retain, nonatomic) NSArray *users; // @synthesize users=_users;
 
 @end
 

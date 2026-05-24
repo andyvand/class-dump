@@ -7,17 +7,14 @@
 @interface StabilizationSuccessClassifier
 {
     int classifierMode;
-    unsigned long long subsegmentLength;
-    unsigned long long subsegmentStep;
-    float lastClassifierScore;
 }
 
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
+- (void)a;
 - (void);
 - (float);
 - (id);
@@ -34,9 +31,6 @@
 
 // Remaining properties
 @property int classifierMode; // @synthesize classifierMode;
-@property(readonly) float lastClassifierScore; // @synthesize lastClassifierScore;
-@property unsigned long long subsegmentLength; // @synthesize subsegmentLength;
-@property unsigned long long subsegmentStep; // @synthesize subsegmentStep;
 
 @end
 

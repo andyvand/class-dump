@@ -6,41 +6,32 @@
 
 #import <ChatKit/CKTranscriptCell.h>
 
-@class NSAttributedString, NSString, UILabel;
+@class NSAttributedString, UILabel;
 
 @interface CKTranscriptSatelliteSMSFallbackStatusCell : CKTranscriptCell
 {
     NSAttributedString *_SMSFallbackStatusTitleLabelAttributedText;
-    UILabel *_satelliteNoNotificationTitleLabel;
 }
 
 + (id);
 + (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)noteHTMLEditorViewShouldPaste:(id)arg1;
+- (void)noteHTMLEditorView:(id)arg1 updateAttachments: /* Error: Ran out of types for this method. */;
+- (id)creationDateFor: /* Error: Ran out of types for this method. */;
+- (void)_fetchedResultsController;
+- (void)rDelayer",R,N,V_updateSharesDelayer;
 - (void);
 - (id);
 - (void);
+- (void)provide additional security, but if you forget this password, there is no way to recover access to these locked notes.;
+- (id)ccess-queue;
 - (void);
-- (id);
+- (void);
+- (id)includeUpcomingEventMembers;
 - (void):%@, frame in window:%@, rotation:%f, scale:%f> /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSAttributedString *SMSFallbackStatusTitleLabelAttributedText; // @synthesize SMSFallbackStatusTitleLabelAttributedText=_SMSFallbackStatusTitleLabelAttributedText;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) UILabel *satelliteNoNotificationTitleLabel; // @synthesize satelliteNoNotificationTitleLabel=_satelliteNoNotificationTitleLabel;
-@property(readonly) Class superclass;
 
 @end
 

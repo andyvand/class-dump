@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface TIProactiveTrigger
 {
     unsigned char _triggerSourceType;
-    NSDictionary *_attributes;
 }
 
-- (id);
+- (id)saving conversation because dataBlock was empty:(unsigned char)arg1 %@;
 - (unsigned char);
 - (unsigned long long);
 - (id);
@@ -22,7 +19,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *attributes; // @synthesize attributes=_attributes;
 @property(readonly, nonatomic) unsigned char triggerSourceType; // @synthesize triggerSourceType=_triggerSourceType;
 
 @end

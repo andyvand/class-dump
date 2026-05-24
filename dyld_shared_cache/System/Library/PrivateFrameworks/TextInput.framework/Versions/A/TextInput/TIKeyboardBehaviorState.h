@@ -7,41 +7,29 @@
 @interface TIKeyboardBehaviorState
 {
     _Bool hasInput;
-    _Bool hasCandidates;
-    _Bool hasCandidateSelected;
-    _Bool hasNextPage;
-    _Bool showsExtendedList;
-    _Bool followsZhuyin;
-    _Bool spaceConfirmation;
-    _Bool hardwareKeyboardMode;
-    _Bool followsIncompleteRomaji;
-    _Bool _hasAutocorrection;
-    _Bool _userSelectedCurrentCandidate;
-    _Bool _showsCandidatesInLayout;
-    _Bool _continuousPathUnderway;
 }
 
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void)_privatizationIdentifier;
+- (_Bool)objectIDForLabelWithCode:inContext: /* Error: Ran out of types for this method. */;
+- (void)initWithInvitationRecordStatusChanged:(_Bool)arg1;
+- (void)V_sortComparator;
+- (void);
+- (_Bool)atching predicate %@:%@ /* Error: Ran out of types for this method. */;
+- (void)for asset %@:(_Bool)arg1 removing cached image file at path:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)ore not permitted for self created archive;
 - (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
-- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void)h�<;
 - (void)/Ì;
 - (void);
 - (void)9	?		8	>	5	>	&	;
@@ -50,19 +38,7 @@
 - (_Bool)¾	¬	Ç	;
 
 // Remaining properties
-@property(nonatomic, getter=isContinuousPathUnderway) _Bool continuousPathUnderway; // @synthesize continuousPathUnderway=_continuousPathUnderway;
-@property(nonatomic) _Bool followsIncompleteRomaji; // @synthesize followsIncompleteRomaji;
-@property(nonatomic) _Bool followsZhuyin; // @synthesize followsZhuyin;
-@property(nonatomic) _Bool hardwareKeyboardMode; // @synthesize hardwareKeyboardMode;
-@property(nonatomic) _Bool hasAutocorrection; // @synthesize hasAutocorrection=_hasAutocorrection;
-@property(nonatomic) _Bool hasCandidateSelected; // @synthesize hasCandidateSelected;
-@property(nonatomic) _Bool hasCandidates; // @synthesize hasCandidates;
 @property(nonatomic) _Bool hasInput; // @synthesize hasInput;
-@property(nonatomic) _Bool hasNextPage; // @synthesize hasNextPage;
-@property(nonatomic) _Bool showsCandidatesInLayout; // @synthesize showsCandidatesInLayout=_showsCandidatesInLayout;
-@property(nonatomic) _Bool showsExtendedList; // @synthesize showsExtendedList;
-@property(nonatomic) _Bool spaceConfirmation; // @synthesize spaceConfirmation;
-@property(nonatomic) _Bool userSelectedCurrentCandidate; // @synthesize userSelectedCurrentCandidate=_userSelectedCurrentCandidate;
 
 @end
 

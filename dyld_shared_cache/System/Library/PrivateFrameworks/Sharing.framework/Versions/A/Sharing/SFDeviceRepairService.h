@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccountStore, AKAccountManager, NSObject, NSString, SFDeviceOperationHandlerCDPSetup, SFDeviceOperationHandlerWiFiSetup, SFService, SFSession;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSString;
 
 @interface SFDeviceRepairService
 {
     _Bool _activateCalled;
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    unsigned int _invalidateFlags;
-    SFService *_sfService;
-    SFSession *_sfSession;
-    unsigned long long _peerFeatureFlags;
-    ACAccountStore *_accountStore;
-    _Bool _prefCDPEnabled;
-    SFDeviceOperationHandlerCDPSetup *_cdpSetupHandler;
-    SFDeviceOperationHandlerWiFiSetup *_wifiSetupHandler;
-    unsigned long long _startTicks;
-    unsigned long long _startProblemFlags;
-    NSObject<OS_dispatch_source> *_repairMetricsTimer;
-    AKAccountManager *_akAccountManager;
-    NSString *_altDSID;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    unsigned long long _problemFlags;
-    CDUnknownBlockType _progressHandler;
 }
 
 - (id);
@@ -49,7 +30,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (void);
@@ -61,9 +42,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(nonatomic) unsigned long long problemFlags; // @synthesize problemFlags=_problemFlags;
-@property(copy, nonatomic) CDUnknownBlockType progressHandler; // @synthesize progressHandler=_progressHandler;
 
 @end
 

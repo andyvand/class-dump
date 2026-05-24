@@ -6,13 +6,11 @@
 
 #import <WirelessProximity/WPClient.h>
 
-@class NSObject;
-@protocol OS_dispatch_queue, WPObjectDiscoveryDelegate;
+@protocol WPObjectDiscoveryDelegate;
 
 @interface WPObjectDiscovery : WPClient
 {
     id <WPObjectDiscoveryDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);
@@ -42,8 +40,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -54,7 +52,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak id <WPObjectDiscoveryDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) __weak NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

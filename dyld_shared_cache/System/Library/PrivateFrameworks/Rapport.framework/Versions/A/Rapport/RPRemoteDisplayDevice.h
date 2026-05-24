@@ -6,15 +6,11 @@
 
 #import <Rapport/RPEndpoint.h>
 
-@class NSDictionary, NSObject, NSString;
-@protocol OS_dispatch_source;
+@class NSString;
 
 @interface RPRemoteDisplayDevice : RPEndpoint
 {
     unsigned int _flags;
-    NSDictionary *_cameraCapabilities;
-    NSString *_persistentIdentifier;
-    NSObject<OS_dispatch_source> *_cameraCapabilitiesRefetchTimer;
 }
 
 + (_Bool);
@@ -22,25 +18,22 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)gistration %@;
+- (id)X1e/Sources/EmbeddedAcousticRecognition/libquasar/liblm/src/impl/arpa2fst.cpp;
 - (void);
 - (unsigned int);
-- (id);
+- (id)A;
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy) NSDictionary *cameraCapabilities; // @synthesize cameraCapabilities=_cameraCapabilities;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *cameraCapabilitiesRefetchTimer; // @synthesize cameraCapabilitiesRefetchTimer=_cameraCapabilitiesRefetchTimer;
-@property(readonly, nonatomic) unsigned int flags; // @synthesize flags=_flags;
 @property(copy, nonatomic) NSString *persistentIdentifier; // @synthesize persistentIdentifier=_persistentIdentifier;
 
 @end

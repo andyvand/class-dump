@@ -6,23 +6,9 @@
 
 #import <AppKit/NSToolbarItem.h>
 
-@class NSObject;
-@protocol NSSearchToolbarItemDelegate;
-
 @interface NSSearchToolbarItem : NSToolbarItem
 {
     _Bool _isEditing;
-    _Bool _forceVisbility;
-    _Bool _inTemporaryIconDisplayMode;
-    NSObject<NSSearchToolbarItemDelegate> *_delegate;
-    _Bool _resignsFirstResponderWithCancel;
-    _Bool _allowsButtonRepresentation;
-    _Bool _usesNativeSearchField;
-    _Bool _usesBridgedSearchField;
-    SEL _cancelButtonAction;
-    id _cancelButtonTarget;
-    double _minimumWidthForSearchFieldRepresentation;
-    double _preferredWidthForSearchField;
 }
 
 @end

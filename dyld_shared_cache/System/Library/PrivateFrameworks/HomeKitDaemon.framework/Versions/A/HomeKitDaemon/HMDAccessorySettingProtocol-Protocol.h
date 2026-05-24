@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @protocol HMDAccessorySettingProtocol
-- (id)stinationRelatedToIdentifier: /* Error: Ran out of types for this method. */;
+- (id)hasSetDestinationRelatedToIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSArray *constraints;
-@property(readonly, copy) NSString *name;
 @property(readonly) long long type;
-@property(readonly, copy) id value;
 @end
 

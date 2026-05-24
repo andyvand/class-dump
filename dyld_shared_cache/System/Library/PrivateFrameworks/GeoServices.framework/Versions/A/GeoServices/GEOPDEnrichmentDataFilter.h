@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)BE;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)BL;
 - (_Bool);
 - (id)ead_unknownFields"b1"read_allowedTypeClientOnlySections"b1"read_excludedClientResultTypes"b1"read_includedClientResultTypes"b1"read_entries"b1"read_name"b1"wrote_anyField"b1};
-- (id)ntEnvironmentState;
+- (id)_currentEnvironmentState;
 - (id)èn;
 - (void)¿®{hVB/#úìÝÎ±¿ÍÛéø$3BQap|rh]RG;Å¾·°¨  °ÁÑâò%6HYk| ñíèãÝØÒÌ
 ýúö²Ä×éü!4GZm¨»Ïã÷4H]q°ÅÚð

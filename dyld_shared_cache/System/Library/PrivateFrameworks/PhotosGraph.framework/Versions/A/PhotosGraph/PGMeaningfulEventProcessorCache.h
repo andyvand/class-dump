@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MABinaryAdjacency, PGGraphMomentNodeCollection;
+@class PGGraphMomentNodeCollection;
 
 @interface PGMeaningfulEventProcessorCache
 {
     struct os_unfair_lock_s _lock;
-    MABinaryAdjacency *_sceneNodesByMomentNode;
-    MABinaryAdjacency *_reliableSceneNodesByMomentNode;
-    MABinaryAdjacency *_poiNodesByMomentNode;
-    MABinaryAdjacency *_roiNodesByMomentNode;
-    MABinaryAdjacency *_addressNodesByMomentNode;
-    MABinaryAdjacency *_preciseAddressNodesByMomentNode;
-    MABinaryAdjacency *_dateNodesByMomentNode;
-    MABinaryAdjacency *_personNodesByMomentNode;
-    MABinaryAdjacency *_socialGroupNodesByMomentNode;
-    MABinaryAdjacency *_publicEventCategoryNodesByMomentNode;
-    MABinaryAdjacency *_partOfDayNodesByMomentNode;
-    MABinaryAdjacency *_significantPartOfDayNodesByMomentNode;
-    MABinaryAdjacency *_mobilityNodesByMomentNode;
-    PGGraphMomentNodeCollection *_momentNodes;
 }
 
 - (unsigned long long);
@@ -34,13 +20,13 @@
 - (id);
 - (id);
 - (unsigned long long);
+- (id)onDelegate>"16@0:(id)arg1 8;
+- (id)_setDockProcessSwitcherListElementController:(id)arg1;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void)ts to insert:%@ /* Error: Ran out of types for this method. */;
-- (id);
+- (id)Q;
 
 // Remaining properties
 @property(readonly, nonatomic) PGGraphMomentNodeCollection *momentNodes; // @synthesize momentNodes=_momentNodes;

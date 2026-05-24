@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TRIPBTimestamp;
+@class NSString;
 
 @interface TRIPersistedNamespaceStatus
 {
@@ -13,13 +13,6 @@
 + (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasLastFetchWasSuccess; // @dynamic hasLastFetchWasSuccess;
-@property(nonatomic) _Bool hasLatestNotificationQueryLocalTime; // @dynamic hasLatestNotificationQueryLocalTime;
-@property(nonatomic) _Bool hasNamespaceCompatibilityVersion; // @dynamic hasNamespaceCompatibilityVersion;
-@property(nonatomic) _Bool hasNamespaceName; // @dynamic hasNamespaceName;
-@property(nonatomic) _Bool lastFetchWasSuccess; // @dynamic lastFetchWasSuccess;
-@property(retain, nonatomic) TRIPBTimestamp *latestNotificationQueryLocalTime; // @dynamic latestNotificationQueryLocalTime;
-@property(nonatomic) unsigned int namespaceCompatibilityVersion; // @dynamic namespaceCompatibilityVersion;
 @property(copy, nonatomic) NSString *namespaceName; // @dynamic namespaceName;
 
 @end

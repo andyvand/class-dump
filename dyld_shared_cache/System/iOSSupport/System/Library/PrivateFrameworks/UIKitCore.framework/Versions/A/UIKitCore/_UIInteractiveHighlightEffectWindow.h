@@ -12,7 +12,7 @@
 
 + (_Bool)0@ù
 × ;
-- (_Bool);
+- (_Bool)es to the syndication library. syndicationLibrary:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool)%@, right->left=%@>;
 - (_Bool)roll views found for edges:%ld /* Error: Ran out of types for this method. */;

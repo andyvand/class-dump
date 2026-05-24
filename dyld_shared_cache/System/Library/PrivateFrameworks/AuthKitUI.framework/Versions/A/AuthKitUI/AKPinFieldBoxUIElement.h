@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKPinFieldView;
-
 @interface AKPinFieldBoxUIElement
 {
     int _index;
-    AKPinFieldView *_parent;
 }
 
 - (id);

@@ -9,9 +9,6 @@
 @interface ContactsUICore.ContactCardPostalAddressViewModel : ContactsUICore.ContactCardLabeledPropertyViewModel
 {
     id $__lazy_storage_$_mainThreadScheduler;
-    id _postalAddress;
-    id _imageCancelable;
-    id _$observationRegistrar;
 }
 
 @end

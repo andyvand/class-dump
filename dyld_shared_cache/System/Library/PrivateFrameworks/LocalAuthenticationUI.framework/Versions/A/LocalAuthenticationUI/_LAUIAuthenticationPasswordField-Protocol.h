@@ -5,5 +5,7 @@
 //
 
 @protocol _LAUIAuthenticationPasswordField
+- (void)air flow;
+- (void)orithm type;
 @end
 

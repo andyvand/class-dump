@@ -6,21 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PFAClockEnvelopeStatistics : SISchemaInstrumentationMessage
 {
     unsigned int _messageCount;
-    unsigned long long _totalBytes;
-    struct {
-        unsigned int messageCount:1;
-        unsigned int totalBytes:1;
-    } _has;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (_Bool);
 - (void);
 - (void);
@@ -30,21 +23,17 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)/;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)0@ù
 × ;
-- (id)anguage;
+- (id)_hasLanguage;
 - (id)_hasActionConfirmation;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMessageCount;
-@property(nonatomic) _Bool hasTotalBytes;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned int messageCount; // @synthesize messageCount=_messageCount;
-@property(nonatomic) unsigned long long totalBytes; // @synthesize totalBytes=_totalBytes;
 
 @end
 

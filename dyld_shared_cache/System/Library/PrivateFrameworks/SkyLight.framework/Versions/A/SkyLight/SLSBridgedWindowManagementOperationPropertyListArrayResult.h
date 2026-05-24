@@ -14,9 +14,9 @@
 }
 
 + (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)ed future has not been downloaded.;
+- (id)xes can only be created on attributes).;
+- (id)K;
 - (void);
 - (void)L@Ì;
 

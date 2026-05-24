@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol PXLabeledValueType;
 
 @interface PXLabeledValue
 {
     _Bool _separator;
-    id <PXLabeledValueType> _value;
-    NSString *_localizedLabel;
-    NSString *_localizedBadgeLabel;
 }
 
 + (id);
@@ -26,15 +22,12 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id)reItems: /* Error: Ran out of types for this method. */;
+- (id)sharingService:didShareItems: /* Error: Ran out of types for this method. */;
 - (id)performSearchWithQuery:(struct _NSZone *)arg1 completionHandler: /* Error: Ran out of types for this method. */;
-- (id)dateFocusInContext: /* Error: Ran out of types for this method. */;
+- (id)axDidUpdateFocusInContext: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *localizedBadgeLabel; // @synthesize localizedBadgeLabel=_localizedBadgeLabel;
-@property(readonly, nonatomic) NSString *localizedLabel; // @synthesize localizedLabel=_localizedLabel;
-@property(readonly, nonatomic, getter=isSeparator) _Bool separator; // @synthesize separator=_separator;
 @property(readonly, nonatomic) id <PXLabeledValueType> value; // @synthesize value=_value;
 
 @end

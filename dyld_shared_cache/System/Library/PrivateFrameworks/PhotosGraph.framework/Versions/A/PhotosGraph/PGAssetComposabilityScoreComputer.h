@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSSimilarStacker, PHPhotoLibrary;
+@class PHPhotoLibrary;
 
 @interface PGAssetComposabilityScoreComputer
 {
     PHPhotoLibrary *_photoLibrary;
-    CLSSimilarStacker *_similarStacker;
-    _Bool _computeDiptychScores;
-    _Bool _computeTriptychScores;
 }
 
+- (double)ation;
 - (double);
-- (double);
-- (double);
+- (double)aH;
 - (double);
 - (double);
 - (id);
 - (id);
-- (void)erAssetSuggesterFilteringContextTimeIntervalForCandidateDeduping;
+- (void)PGSinglePersonWallpaperAssetSuggesterFilteringContextTimeIntervalForCandidateDeduping;
 - (id)hFÿÿ;
 
 @end

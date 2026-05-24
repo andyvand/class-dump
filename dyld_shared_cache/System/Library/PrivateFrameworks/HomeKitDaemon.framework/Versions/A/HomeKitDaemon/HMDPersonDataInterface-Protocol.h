@@ -4,18 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMIExternalPersonManager, HMIHomePersonManager;
+@class HMIHomePersonManager;
 
 @protocol HMDPersonDataInterface
+- (void)%{private}s;
+
+@optional
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly) HMIHomePersonManager *homePersonManager;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"HMIHomePersonManager",?,R
-
-@property(readonly) HMIExternalPersonManager *photosPersonManager;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"HMIExternalPersonManager",?,R
 
 @end
 

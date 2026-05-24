@@ -11,10 +11,9 @@
 @interface IMLocationShareActionChatItem : IMTranscriptChatItem
 {
     IMHandle *_sender;
-    IMHandle *_otherHandle;
 }
 
-- (id);
+- (id)nary is nil;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -27,10 +26,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long actionType;
-@property(readonly, nonatomic) long long direction;
-@property(readonly, nonatomic) _Bool isFromMe;
-@property(readonly, nonatomic) IMHandle *otherHandle; // @synthesize otherHandle=_otherHandle;
-@property(readonly, nonatomic) IMHandle *sender; // @synthesize sender=_sender;
 
 @end
 

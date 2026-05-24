@@ -5,12 +5,12 @@
 //
 
 @interface UnknownClass (PKCAUtilities)
+- (void)#;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 @end

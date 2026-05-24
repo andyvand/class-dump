@@ -7,7 +7,6 @@
 @interface PhotosUICore.LemonadeStoryFilterProvider
 {
     id $defaultActor;
-    id forcedColorGradeKind;
 }
 
 @end

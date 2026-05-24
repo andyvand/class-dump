@@ -4,68 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSAddParticipantsViewController, NSAlert, NSArray, NSDictionary, NSMenu, NSMutableArray, NSObject, NSOperationQueue, NSPopover, NSSet, NSSharingCollaborationModeRestriction, NSSharingServicePicker, NSString, NSUUID, NSView, NSWindow, SFCollaborationItemsProvider, SFCollaborationPerformer, SFShareSheetSessionManager, SFShareSheetSessionTestingDataDump, SHKCollaborationService, SHKShareSheetHEICOptionsModel, SHKShareSheetRemoteViewController, SHKSharingService, SHKSharingServicePickerMenuItemConfig, SHKSharingServicePickerMenuLatencyMetric;
-@protocol OS_dispatch_source, SHKMenuControllerDelegate;
+@class SFCollaborationItemsProvider;
+@protocol SHKMenuControllerDelegate;
 
 @interface SHKSharingServicePicker
 {
     id <SHKMenuControllerDelegate> _delegate;
-    NSSharingServicePicker *_nsSharingServicePicker;
-    NSArray *_items;
-    _Bool _itemsReady;
-    NSMenu *_menu;
-    NSOperationQueue *_serviceItemProviderOperationQueue;
-    NSArray *_serviceItemProviderOperations;
-    NSMutableArray *_sharingServices;
-    NSObject<OS_dispatch_source> *_fetchingKeepTimer;
-    _Bool _menuAvailable;
-    _Bool _isCollaborationMode;
-    _Bool _hasActionServices;
-    _Bool _menuItemsComplete;
-    _Bool _usesMetricsAppearance;
-    _Bool _didSelectService;
-    _Bool _didLoadMetadata;
-    _Bool _isWaitingForSendCopyLoad;
-    unsigned long long _collaborationMode;
-    NSArray *_applicationServices;
-    NSArray *_excludedSharingServiceNames;
-    NSDictionary *_info;
-    long long _style;
-    SFCollaborationItemsProvider *_collaborationItemsProvider;
-    SFCollaborationPerformer *_collaborationPerformer;
-    SHKCollaborationService *_collaborationService;
-    SFShareSheetSessionManager *_sessionManager;
-    NSSharingCollaborationModeRestriction *_collaborationModeRestriction;
-    NSView *_presentingView;
-    NSMutableArray *_processedCollaborationItems;
-    long long _completedProviderCount;
-    NSUUID *_currentMenuItemsQueryID;
-    NSArray *_menuItems;
-    long long _menuIndentationLevel;
-    SHKSharingServicePickerMenuLatencyMetric *_menuLatencyMetric;
-    SHKSharingService *_selectedSharingService;
-    long long _totalProviderCount;
-    NSPopover *_shareSheetPopover;
-    SHKShareSheetRemoteViewController *_shareSheetRemoteViewController;
-    CDUnknownBlockType _shareSheetCompletion;
-    NSArray *_headerMetadata;
-    NSArray *_popoverSharingServices;
-    NSArray *_popoverActionServices;
-    NSArray *_popoverCollaborativeSharingServices;
-    NSArray *_popoverCollaborativeActionServices;
-    SHKSharingServicePickerMenuItemConfig *_menuItemConfig;
-    SHKShareSheetHEICOptionsModel *_options;
-    NSSet *_restrictedSharingServices;
-    NSMutableArray *_hiddenSharingServices;
-    CSAddParticipantsViewController *_addParticipantsViewController;
-    NSWindow *_addParticipantsWindow;
-    struct _NSModalSession *_addParticipantsModalSession;
-    NSUUID *_addParticipantsCollaborationItemIdentifier;
-    CDUnknownBlockType _addParticipantsCompletionBlock;
-    NSAlert *_progressView;
-    SFShareSheetSessionTestingDataDump *_testingDataDump;
-    SFShareSheetSessionTestingDataDump *_testingReferenceDataDump;
-    CDUnknownBlockType _dataDumpHandler;
 }
 
 + (id);
@@ -96,6 +40,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -115,8 +60,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)8;
 - (void);
 - (id);
 - (id);
@@ -132,7 +76,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -169,8 +113,8 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (struct _NSModalSession *);
+- (id)a;
+- (struct _NSModalSession *)P;
 - (CDUnknownBlockType);
 - (id);
 - (void);
@@ -194,7 +138,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)`;
 - (id);
 - (id);
 - (_Bool);
@@ -224,25 +168,25 @@
 - (void);
 - (void);
 - (void);
+- (id)gB�g;
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
 - (CDUnknownBlockType);
 - (id);
-- (_Bool);
+- (_Bool)L;
 - (void);
 - (void);
 - (void);
@@ -254,9 +198,9 @@
 - (id);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)(7@;
 - (void);
 - (void);
 - (void);
@@ -270,7 +214,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)a[9H;
 - (_Bool);
 - (id);
 - (id);
@@ -286,12 +230,12 @@
 - (id);
 - (unsigned long long);
 - (id);
+- (id)!;
 - (id);
-- (id);
-- (id);
+- (id)˟;
 - (void);
 - (long long);
-- (void);
+- (void)_body;
 - (id);
 - (id);
 - (void);
@@ -309,65 +253,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSUUID *addParticipantsCollaborationItemIdentifier; // @synthesize addParticipantsCollaborationItemIdentifier=_addParticipantsCollaborationItemIdentifier;
-@property(copy) CDUnknownBlockType addParticipantsCompletionBlock; // @synthesize addParticipantsCompletionBlock=_addParticipantsCompletionBlock;
-@property(nonatomic) struct _NSModalSession *addParticipantsModalSession; // @synthesize addParticipantsModalSession=_addParticipantsModalSession;
-@property(retain, nonatomic) CSAddParticipantsViewController *addParticipantsViewController; // @synthesize addParticipantsViewController=_addParticipantsViewController;
-@property(retain, nonatomic) NSWindow *addParticipantsWindow; // @synthesize addParticipantsWindow=_addParticipantsWindow;
-@property(copy) NSArray *applicationServices; // @synthesize applicationServices=_applicationServices;
 @property(retain, nonatomic) SFCollaborationItemsProvider *collaborationItemsProvider; // @synthesize collaborationItemsProvider=_collaborationItemsProvider;
-@property unsigned long long collaborationMode; // @synthesize collaborationMode=_collaborationMode;
-@property(retain, nonatomic) NSSharingCollaborationModeRestriction *collaborationModeRestriction; // @synthesize collaborationModeRestriction=_collaborationModeRestriction;
-@property(retain, nonatomic) SFCollaborationPerformer *collaborationPerformer; // @synthesize collaborationPerformer=_collaborationPerformer;
-@property(retain, nonatomic) SHKCollaborationService *collaborationService; // @synthesize collaborationService=_collaborationService;
-@property(nonatomic) long long completedProviderCount; // @synthesize completedProviderCount=_completedProviderCount;
-@property(retain) NSUUID *currentMenuItemsQueryID; // @synthesize currentMenuItemsQueryID=_currentMenuItemsQueryID;
-@property(copy, nonatomic) CDUnknownBlockType dataDumpHandler; // @synthesize dataDumpHandler=_dataDumpHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <SHKMenuControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property _Bool didLoadMetadata; // @synthesize didLoadMetadata=_didLoadMetadata;
-@property _Bool didSelectService; // @synthesize didSelectService=_didSelectService;
-@property(copy) NSArray *excludedSharingServiceNames; // @synthesize excludedSharingServiceNames=_excludedSharingServiceNames;
-@property _Bool hasActionServices; // @synthesize hasActionServices=_hasActionServices;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *headerMetadata; // @synthesize headerMetadata=_headerMetadata;
-@property(copy, nonatomic) NSMutableArray *hiddenSharingServices; // @synthesize hiddenSharingServices=_hiddenSharingServices;
-@property(retain) NSDictionary *info; // @synthesize info=_info;
-@property _Bool isCollaborationMode; // @synthesize isCollaborationMode=_isCollaborationMode;
-@property _Bool isWaitingForSendCopyLoad; // @synthesize isWaitingForSendCopyLoad=_isWaitingForSendCopyLoad;
-@property(retain) NSArray *items;
-@property long long menuIndentationLevel; // @synthesize menuIndentationLevel=_menuIndentationLevel;
-@property(retain, nonatomic) SHKSharingServicePickerMenuItemConfig *menuItemConfig; // @synthesize menuItemConfig=_menuItemConfig;
-@property(retain) NSArray *menuItems; // @synthesize menuItems=_menuItems;
-@property _Bool menuItemsComplete; // @synthesize menuItemsComplete=_menuItemsComplete;
-@property(retain) SHKSharingServicePickerMenuLatencyMetric *menuLatencyMetric; // @synthesize menuLatencyMetric=_menuLatencyMetric;
-@property __weak NSSharingServicePicker *nsSharingServicePicker; // @synthesize nsSharingServicePicker=_nsSharingServicePicker;
-@property(retain, nonatomic) SHKShareSheetHEICOptionsModel *options; // @synthesize options=_options;
-@property(copy, nonatomic) NSArray *popoverActionServices; // @synthesize popoverActionServices=_popoverActionServices;
-@property(copy, nonatomic) NSArray *popoverCollaborativeActionServices; // @synthesize popoverCollaborativeActionServices=_popoverCollaborativeActionServices;
-@property(copy, nonatomic) NSArray *popoverCollaborativeSharingServices; // @synthesize popoverCollaborativeSharingServices=_popoverCollaborativeSharingServices;
-@property(copy, nonatomic) NSArray *popoverSharingServices; // @synthesize popoverSharingServices=_popoverSharingServices;
-@property(nonatomic) __weak NSView *presentingView; // @synthesize presentingView=_presentingView;
-@property(retain) NSMutableArray *processedCollaborationItems; // @synthesize processedCollaborationItems=_processedCollaborationItems;
-@property(retain, nonatomic) NSAlert *progressView; // @synthesize progressView=_progressView;
-@property(copy, nonatomic) NSSet *restrictedSharingServices; // @synthesize restrictedSharingServices=_restrictedSharingServices;
-@property(retain) SHKSharingService *selectedSharingService; // @synthesize selectedSharingService=_selectedSharingService;
-@property(retain, nonatomic) NSOperationQueue *serviceItemProviderOperationQueue; // @synthesize serviceItemProviderOperationQueue=_serviceItemProviderOperationQueue;
-@property(retain, nonatomic) NSArray *serviceItemProviderOperations; // @synthesize serviceItemProviderOperations=_serviceItemProviderOperations;
-@property(retain, nonatomic) SFShareSheetSessionManager *sessionManager; // @synthesize sessionManager=_sessionManager;
-@property(copy) CDUnknownBlockType shareSheetCompletion; // @synthesize shareSheetCompletion=_shareSheetCompletion;
-@property(retain, nonatomic) NSPopover *shareSheetPopover; // @synthesize shareSheetPopover=_shareSheetPopover;
-@property(retain, nonatomic) SHKShareSheetRemoteViewController *shareSheetRemoteViewController; // @synthesize shareSheetRemoteViewController=_shareSheetRemoteViewController;
-@property long long style; // @synthesize style=_style;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) SFShareSheetSessionTestingDataDump *testingDataDump; // @synthesize testingDataDump=_testingDataDump;
-@property(retain, nonatomic) SFShareSheetSessionTestingDataDump *testingReferenceDataDump; // @synthesize testingReferenceDataDump=_testingReferenceDataDump;
-@property(nonatomic) long long totalProviderCount; // @synthesize totalProviderCount=_totalProviderCount;
-@property _Bool usesMetricsAppearance; // @synthesize usesMetricsAppearance=_usesMetricsAppearance;
 
 @end
 

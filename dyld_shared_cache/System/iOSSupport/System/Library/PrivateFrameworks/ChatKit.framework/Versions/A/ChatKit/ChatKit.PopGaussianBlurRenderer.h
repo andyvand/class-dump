@@ -7,9 +7,6 @@
 @interface ChatKit.PopGaussianBlurRenderer
 {
     id device;
-    id pixelFormat;
-    id gaussianBlur;
-    id blurTexture;
 }
 
 @end

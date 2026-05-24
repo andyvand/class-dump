@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _INPBValueMetadata;
+@class NSData;
 
 @interface _INPBImageValue
 {
@@ -14,53 +14,45 @@
         unsigned int type:1;
         unsigned int width:1;
     } _has;
-    int _renderingMode;
-    int _type;
-    NSData *_data;
-    double _height;
-    NSString *_proxyServiceIdentifier;
-    NSString *_uri;
-    _INPBValueMetadata *_valueMetadata;
-    double _width;
 }
 
-+ (_Bool);
++ (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (int);
 - (int);
 - (void);
-- (_Bool);
+- (_Bool)identifier = %{public}@, httpAuthorizationHeaders = %{sensitive, mask.hash}@ on %@;
 - (unsigned long long);
-- (void);
+- (void)/usr/lib/libobjc.A.dylib;
 - (id);
+- (_Bool)+ih8Kik8+i(8;
+- (void);
+- (double)233;
+- (double);
+- (int));
+- (_Bool);
+- (id);
+- (void)determination for network signature %@;
+- (void));
 - (_Bool);
 - (void);
-- (double);
-- (double);
+- (id);
+- (void);
+- (void);
+- (void)(;
+- (id);
 - (int);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (int);
-- (_Bool);
-- (id)NeedsValueForParameters;
-- (_Bool)eIntentResponse;
+- (id)_forceNeedsValueForParameters;
+- (_Bool)INCancelRideIntentResponse;
 - (_Bool)ÚÝ|à;
 - (void)tÞ;
 - (void)tityType.Folder;
-- (void)RequiringAppLaunch;
-- (void)encesForGetReservationDetails:(_Bool)arg1;
-- (_Bool)eAlarm:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)INSetCarLockStatusIntentResponseCodeFailureRequiringAppLaunch;
+- (void)defaultReservationItemReferencesForGetReservationDetails:(_Bool)arg1;
+- (_Bool)provideAlarmsOptionsForDeleteAlarm:withCompletion: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -69,28 +61,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasData;
-@property(nonatomic) _Bool hasHeight;
-@property(readonly, nonatomic) _Bool hasProxyServiceIdentifier;
-@property(nonatomic) _Bool hasRenderingMode;
-@property(nonatomic) _Bool hasType;
-@property(readonly, nonatomic) _Bool hasUri;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
-@property(nonatomic) _Bool hasWidth;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double height; // @synthesize height=_height;
-@property(copy, nonatomic) NSString *proxyServiceIdentifier; // @synthesize proxyServiceIdentifier=_proxyServiceIdentifier;
-@property(nonatomic) int renderingMode; // @synthesize renderingMode=_renderingMode;
-@property(readonly) Class superclass;
-@property(nonatomic) int type; // @synthesize type=_type;
-@property(copy, nonatomic) NSString *uri; // @synthesize uri=_uri;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata; // @synthesize valueMetadata=_valueMetadata;
-@property(nonatomic) double width; // @synthesize width=_width;
 
 @end
 

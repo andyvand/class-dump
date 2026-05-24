@@ -13,13 +13,13 @@
 + (Class);
 + (id);
 - (id);
+- (id)rh|;
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)qh|;
+- (id)h|;
+- (_Bool);
+- (id)@;
+- (id)g;
 
 @end
 

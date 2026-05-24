@@ -4,39 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
+@class NSArray;
 @protocol _UIBarCustomizerAnimating;
 
 @interface _UIBarCustomizationSession
 {
     id <_UIBarCustomizerAnimating> _beginAnimationCoordinator;
-    id <_UIBarCustomizerAnimating> _endAnimationCoordinator;
-    NSArray *_sourceItems;
-    NSMutableArray *__mutableVisibleItems;
-    NSMutableArray *__mutableAdditionalItems;
 }
 
 + (id);
+- (id)0:8@16C24@28 /* Error: Ran out of types for this method. */;
+- (void)unEnrollDeviceForSMSRelay:(id)arg1 account: /* Error: Ran out of types for this method. */;
+- (void)typingIndicatorIconData;
 - (id);
+- (id);
+- (id)u, rejecting replicated message;
+- (id)to notification - didRespondWithText:%@ didMarkAsRead :%@ while screentime not allowed for chatIdentifier:%@. returning early. /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id)ew:completion: /* Error: Ran out of types for this method. */;
+- (id)prepareForContextMenuAtLocationInView:completion: /* Error: Ran out of types for this method. */;
 - (void)¯Ñ×x¶^;
 
 // Remaining properties
-@property(retain, nonatomic, getter=_mutableAdditionalItems) NSMutableArray *_mutableAdditionalItems; // @synthesize _mutableAdditionalItems=__mutableAdditionalItems;
-@property(retain, nonatomic, getter=_mutableVisibleItems) NSMutableArray *_mutableVisibleItems; // @synthesize _mutableVisibleItems=__mutableVisibleItems;
-@property(readonly, nonatomic) NSArray *additionalItems;
-@property(readonly, nonatomic) id <_UIBarCustomizerAnimating> beginAnimationCoordinator; // @synthesize beginAnimationCoordinator=_beginAnimationCoordinator;
-@property(readonly, nonatomic) id <_UIBarCustomizerAnimating> endAnimationCoordinator; // @synthesize endAnimationCoordinator=_endAnimationCoordinator;
 @property(copy, nonatomic) NSArray *sourceItems; // @synthesize sourceItems=_sourceItems;
-@property(readonly, nonatomic) NSArray *visibleItems;
 
 @end
 

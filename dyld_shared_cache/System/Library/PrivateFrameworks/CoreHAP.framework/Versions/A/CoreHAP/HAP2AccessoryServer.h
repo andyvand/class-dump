@@ -6,34 +6,11 @@
 
 #import <CoreHAP/HAP2LoggingObject.h>
 
-@class HAP2PropertyLock, HAP2SerializedOperationQueue, HAPDeviceID, HMFVersion, NSArray, NSBackgroundActivityScheduler, NSData, NSString;
-@protocol HAP2Accessory, HAP2AccessoryServerBrowserPrivate, HAP2AccessoryServerControllerPrivate, HAP2AccessoryServerDelegate, HAP2AccessoryServerMetadata, HAP2AccessoryServerPairingDriver, HAP2Cancelable, HAP2UnpairedAccessoryServerPairDelegate, HAPAccessoryReachabilityClient, HAPAccessoryReachabilityProfile;
+@protocol HAP2AccessoryServerBrowserPrivate;
 
 @interface HAP2AccessoryServer : HAP2LoggingObject
 {
     _Bool _internallyPaired;
-    _Bool _hasDiscoveryAdvertisement;
-    id <HAP2AccessoryServerDelegate> _delegate;
-    unsigned long long _connectionState;
-    HAP2SerializedOperationQueue *_operationQueue;
-    NSString *_setupID;
-    id <HAP2AccessoryServerControllerPrivate> _controller;
-    id <HAP2AccessoryServerBrowserPrivate> _browser;
-    id <HAP2AccessoryServerMetadata> _currentMetadata;
-    NSString *_productData;
-    NSArray *_privateAccessories;
-    NSString *_pairedName;
-    HMFVersion *_pairedProtocolVersion;
-    id <HAP2Cancelable> _outstandingUpdateAccessoriesRequest;
-    id <HAP2AccessoryServerPairingDriver> _internalPairingDriver;
-    id <HAP2UnpairedAccessoryServerPairDelegate> _pairDelegate;
-    id <HAPAccessoryReachabilityClient> _reachability;
-    id <HAPAccessoryReachabilityProfile> _reachabilityProfile;
-    NSBackgroundActivityScheduler *_backgroundScheduler;
-    long long _reachabilityChangedReason;
-    double _sessionCheckInterval;
-    NSData *_removedAccessoryKey;
-    HAP2PropertyLock *_propertyLock;
 }
 
 + (id);
@@ -59,7 +36,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -69,7 +46,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -99,60 +76,30 @@
 - (void);
 - (id);
 - (id);
+- (unsigned short)jh8	;
 - (unsigned short);
-- (unsigned short);
-- (id);
-- (void);
+- (id)ptor data at path:(CDUnknownBlockType)arg1 %@ error:%@ /* Error: Ran out of types for this method. */;
+- (void)s isZeroBasedAndContiguous:replyModels] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)y.framework/Versions/A/CallHistory;
 - (id);
 - (void);
-- (unsigned long long);
-- (id);
+- (unsigned long long)tableView:shouldTypeSelectForEvent:withCurrentSearchString: /* Error: Ran out of types for this method. */;
+- (id)_selectLastSelectedItem;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id)@"NSObject<OS_dispatch_queue>"16;
-- (void)sionType;
+- (void)permissionType;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *accessories;
-@property(readonly, nonatomic) __weak id <HAP2AccessoryServerBrowserPrivate> browser; // @synthesize browser=_browser;
-@property(readonly, nonatomic) unsigned long long category;
-@property(readonly, nonatomic) unsigned short configNumber;
-@property(readonly, nonatomic) unsigned long long connectionState; // @synthesize connectionState=_connectionState;
-@property(readonly, nonatomic) id <HAP2AccessoryServerControllerPrivate> controller; // @synthesize controller=_controller;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <HAP2AccessoryServerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) HAPDeviceID *deviceID;
-@property(nonatomic) _Bool hasDiscoveryAdvertisement; // @synthesize hasDiscoveryAdvertisement=_hasDiscoveryAdvertisement;
-@property(readonly, nonatomic) _Bool hasPairings;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *model;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) HAP2SerializedOperationQueue *operationQueue; // @synthesize operationQueue=_operationQueue;
-@property(readonly, nonatomic, getter=isPaired) _Bool paired;
-@property(readonly, nonatomic) id <HAP2AccessoryServerPairingDriver> pairingDriver;
-@property(readonly, nonatomic) id <HAP2Accessory> primaryAccessory;
-@property(retain, nonatomic) NSString *productData; // @synthesize productData=_productData;
-@property(readonly, nonatomic) HMFVersion *protocolVersion;
-@property(nonatomic) long long reachabilityChangedReason; // @synthesize reachabilityChangedReason=_reachabilityChangedReason;
-@property(retain) NSData *removedAccessoryKey; // @synthesize removedAccessoryKey=_removedAccessoryKey;
-@property(readonly, nonatomic) double sessionCheckInterval; // @synthesize sessionCheckInterval=_sessionCheckInterval;
-@property(readonly, nonatomic) NSData *setupHash;
-@property(retain, nonatomic) NSString *setupID; // @synthesize setupID=_setupID;
-@property(readonly, nonatomic) unsigned short stateNumber;
-@property(readonly) Class superclass;
+@property(readonly, nonatomic) __weak id <HAP2AccessoryServerBrowserPrivate> browser;
 
 @end
 

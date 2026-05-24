@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSString;
+@class NSMutableDictionary, NSString;
 
 @interface RTITextStyling
 {
     NSMutableDictionary *_attributes;
-    NSString *_fontName;
-    double _fontSize;
-    double _fontWeight;
 }
 
 + (id);
 + (_Bool);
-- (void);
+- (void)updateUIForCurrentSelection;
 - (double);
 - (id);
 - (id);
@@ -29,10 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *attributes; // @synthesize attributes=_attributes;
 @property(readonly, copy, nonatomic) NSString *fontName; // @synthesize fontName=_fontName;
-@property(readonly, nonatomic) double fontSize; // @synthesize fontSize=_fontSize;
-@property(readonly, nonatomic) double fontWeight; // @synthesize fontWeight=_fontWeight;
 
 @end
 

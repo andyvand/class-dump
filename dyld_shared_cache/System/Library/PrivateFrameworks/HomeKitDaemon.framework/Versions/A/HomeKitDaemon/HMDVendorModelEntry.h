@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessoryVersion, NSArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDVendorModelEntry
 {
     NSString *_model;
-    NSString *_manufacturer;
-    NSString *_appBundleID;
-    NSString *_appStoreID;
-    HMDAccessoryVersion *_firmwareVersion;
-    NSString *_productData;
-    NSArray *_productDataAlternates;
 }
 
 - (id);
@@ -23,11 +17,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)PHAMusicForArtistCacheJob;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id)EntitledForAPIAccess;
+- (id)isEntitledForAPIAccess;
 - (long long).userResponseDelay %@;
 - (id)}@:No valid destinations /* Error: Ran out of types for this method. */;
 - (void)ype:%ld, wolanVersion:%hhu /* Error: Ran out of types for this method. */;
@@ -35,13 +29,7 @@ __attribute__((visibility("hidden")))
 - (id)xF>;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *appBundleID; // @synthesize appBundleID=_appBundleID;
-@property(readonly, nonatomic) NSString *appStoreID; // @synthesize appStoreID=_appStoreID;
-@property(readonly, nonatomic) HMDAccessoryVersion *firmwareVersion; // @synthesize firmwareVersion=_firmwareVersion;
-@property(readonly, nonatomic) NSString *manufacturer; // @synthesize manufacturer=_manufacturer;
 @property(readonly, nonatomic) NSString *model; // @synthesize model=_model;
-@property(readonly, nonatomic) NSString *productData; // @synthesize productData=_productData;
-@property(readonly, nonatomic) NSArray *productDataAlternates; // @synthesize productDataAlternates=_productDataAlternates;
 
 @end
 

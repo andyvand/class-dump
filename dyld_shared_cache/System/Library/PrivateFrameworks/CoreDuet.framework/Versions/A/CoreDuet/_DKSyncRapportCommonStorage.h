@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSMutableSet, NSObject, NSString, RPCompanionLinkClient, _DKEventTypeResultStatsCounter;
-@protocol OS_dispatch_source;
-
 @interface _DKSyncRapportCommonStorage
 {
     _Bool _running;
-    NSDictionary *_failIfAsleepOption;
-    _DKEventTypeResultStatsCounter *_failIfAsleepStats;
-    NSString *_deviceID;
-    RPCompanionLinkClient *_client;
-    NSMutableDictionary *_companionLinkClients;
-    unsigned long long _outstandingRequestCount;
-    NSObject<OS_dispatch_source> *_companionLinkClientsCleanupTimer;
-    double _retryTimeout;
-    NSMutableSet *_peerSourceDeviceIDsWithCompletedHandshakes;
-    _Bool _isAvailable;
 }
 
 + (id)pToGroupEvent"16;
@@ -40,8 +27,8 @@
 - (void);
 - (void)@ù
 × ;
-- (long long)ryForStream:withPredicate:withPredictionType: /* Error: Ran out of types for this method. */;
-- (void)tIdentifiers;
+- (long long)predictionQueryForStream:withPredicate:withPredictionType: /* Error: Ran out of types for this method. */;
+- (void)_ignoreContactIdentifiers;
 - (void):Failed to fetch %{public}@ sync count for %{public}@peer %{public}@%{public}@:%{public}@:%lld (%@) /* Error: Ran out of types for this method. */;
 
 // Remaining properties

@@ -13,9 +13,9 @@ __attribute__((visibility("hidden")))
     struct _NSRange _affectedRange;
 }
 
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)ushHandler"16@"NSString"24B32B36@"NSString"40@"NSString"48@"NSNumber"56@"NSNumber"64;
 - (struct _NSRange);
 - (id);
 - (void)¡;

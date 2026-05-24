@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDateInterval, NSNumber;
+@class NSDateInterval;
 
 @interface RTStoredPredictedContextRequestFetchOptions
 {
     NSDateInterval *_dateInterval;
-    long long _inferenceTriggerReason;
-    NSArray *_resultSortDescriptors;
-    NSNumber *_limit;
 }
 
 + (_Bool);
@@ -20,19 +17,16 @@
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id)%s to plain text at %s:%s /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void)ture option:%lu /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSDateInterval *dateInterval; // @synthesize dateInterval=_dateInterval;
-@property(readonly, nonatomic) long long inferenceTriggerReason; // @synthesize inferenceTriggerReason=_inferenceTriggerReason;
-@property(readonly, nonatomic) NSNumber *limit; // @synthesize limit=_limit;
-@property(readonly, nonatomic) NSArray *resultSortDescriptors; // @synthesize resultSortDescriptors=_resultSortDescriptors;
 
 @end
 

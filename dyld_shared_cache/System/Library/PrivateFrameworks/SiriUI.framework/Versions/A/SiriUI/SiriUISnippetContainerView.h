@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString, NSView;
-@protocol SiriUIReusableView, SiriUISnippetContainerViewDelegate;
+@class NSImage, NSView;
 
 __attribute__((visibility("hidden")))
 @interface SiriUISnippetContainerView
 {
     NSImage *_dragOutImage;
-    NSView *_sashView;
-    NSView *_snippetView;
-    NSView<SiriUIReusableView> *_headerView;
-    NSView<SiriUIReusableView> *_footerView;
-    id <SiriUISnippetContainerViewDelegate> _delegate;
 }
 
 - (_Bool);
@@ -29,32 +23,21 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)invalidateAtomPresentationOptions;
 - (id);
-- (_Bool);
+- (_Bool)alwaysShowSyndicationOnboarding;
+- (void);
+- (id)@;
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (id)tableView:writeRowsWithIndexes:toPasteboard: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (_Bool)ion:%{BOOL}d /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SiriUISnippetContainerViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSView<SiriUIReusableView> *footerView; // @synthesize footerView=_footerView;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSView<SiriUIReusableView> *headerView; // @synthesize headerView=_headerView;
 @property(retain, nonatomic) NSView *sashView; // @synthesize sashView=_sashView;
-@property(retain, nonatomic) NSView *snippetView; // @synthesize snippetView=_snippetView;
-@property(readonly) Class superclass;
 
 @end
 

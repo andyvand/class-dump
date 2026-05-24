@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface PKProvisioningExistingCardAuthorization
 {
     NSString *_passTypeIdentifier;
-    NSString *_passSerialNumber;
-    NSArray *_authorizations;
 }
 
-+ (_Bool);
++ (_Bool)__TEXT;
 - (id);
 - (void);
 - (void);
@@ -21,13 +19,11 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void)dCardType;
+- (id);
+- (void)_eapNetsCount;
+- (void)addCardType;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *authorizations; // @synthesize authorizations=_authorizations;
-@property(copy, nonatomic) NSString *passSerialNumber; // @synthesize passSerialNumber=_passSerialNumber;
 @property(copy, nonatomic) NSString *passTypeIdentifier; // @synthesize passTypeIdentifier=_passTypeIdentifier;
 
 @end

@@ -5,5 +5,7 @@
 //
 
 @protocol SiriUIAutoDismissalControllerDelegate
+- (long long);
+- (void);
 @end
 

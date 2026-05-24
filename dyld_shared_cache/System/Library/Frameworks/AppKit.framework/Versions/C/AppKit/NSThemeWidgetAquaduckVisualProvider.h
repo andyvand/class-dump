@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButtonCell, NSColor;
+@class NSButtonCell;
 
 __attribute__((visibility("hidden")))
 @interface NSThemeWidgetAquaduckVisualProvider
 {
     void buttonCell;
-    id button;
-    id $__lazy_storage_$_hostingView;
-    id currentBezelConfiguration;
-    id currentView;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)setLoadingPoolPriority:(id)arg1 forTaskWithIdentifier:(id)arg2;
 + (_Bool)× ;
 - (unsigned long long);
 - (int);
@@ -27,11 +23,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (unsigned long long);
-- (struct CGRect);
-- (void);
-- (void);
-- (id);
-- (int);
+- (struct CGRect)ree_"{__tree<std:(struct CGRect)arg1:(id)arg2 __value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_requestHostToConnectionKey"{map<std::string, std::shared_ptr<__CoalescingConnectionKey>, std::less<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__tree_"{__tree<std::__value_type<std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::__map_value_compare<std::string, std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllRequestHosts"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (void)_NSCFURLProtocol;
+- (void)xm;
+- (id)reateATSExceptionEventMetadata failed;
+- (int)st!;
 - (void);
 - (long long);
 - (struct CGRect);
@@ -43,39 +39,31 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (_Bool);
-- (struct CGRect);
-- (void);
-- (struct CGRect);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGSize);
-- (id);
-- (int);
+- (struct CGRect)e;
+- (void)oved Permanently;
+- (struct CGRect)28;
+- (void)kCFHTTPServerAllowAnonymousServer;
+- (void)RE;
+- (void)tatus(_stream.get()) == kCFStreamStatusNotOpen;
+- (void)4;
+- (void)_TLSMinimumSupportedProtocolVersion;
+- (void)countOfBytesExpectedToSend;
+- (struct CGSize)GopherProxy;
+- (id)ad resumption;
+- (int)listener=%p, info=%@};
 - (struct NSEdgeInsets);
+- (id)>,U;
+- (struct CGSize):(struct CGSize)arg1 &l;
+- (void)6y%;
 - (id);
-- (struct CGSize);
 - (void);
-- (id);
-- (void);
-- (void);
-- (CDStruct_507282ca)tcuts:(struct CGSize)arg1 %@;
+- (void)emissionHandler;
+- (CDStruct_c3b9c2ee)tcuts:(struct CGSize)arg1 %@;
 - (void)<vA;
 - (void)ÿKìE;
 
 // Remaining properties
-@property(nonatomic, readonly) int blendModeForImageContent;
 @property(nonatomic) __weak NSButtonCell *buttonCell; // @synthesize buttonCell;
-@property(nonatomic, readonly) _Bool hasBezelTint;
-@property(nonatomic, readonly) _Bool hasDestructiveAppearance;
-@property(nonatomic, readonly) _Bool hasInactiveAppearance;
-@property(nonatomic, readonly) _Bool hasRolloverAppearance;
-@property(nonatomic, readonly) _Bool hasSubviews;
-@property(nonatomic, readonly) long long interiorBackgroundStyle;
-@property(nonatomic, readonly) NSColor *preferredTemplateImageFillColor;
 
 @end
 

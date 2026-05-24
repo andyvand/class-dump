@@ -9,15 +9,13 @@
 @interface AFCheckSRT
 {
     NSString *_pluginSelected;
-    NSString *_currentTurnID;
-    struct os_unfair_lock_s _stateLock;
 }
 
 - (_Bool);
 - (void);
-- (void);
+- (void)symbolCharacterSet;
 - (id);
-- (void)edUserInfoMutating;
+- (void)AFASRSharedUserInfoMutating;
 
 @end
 

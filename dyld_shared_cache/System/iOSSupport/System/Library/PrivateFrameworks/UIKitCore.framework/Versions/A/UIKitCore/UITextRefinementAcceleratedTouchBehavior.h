@@ -4,38 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UITextLoupeSession, UITextRange, _UIKeyboardTextSelectionController;
+@class UITextRange;
 
 __attribute__((visibility("hidden")))
 @interface UITextRefinementAcceleratedTouchBehavior
 {
     UITextRange *_originalTextRange;
-    _UIKeyboardTextSelectionController *_activeSelectionController;
-    UITextLoupeSession *_loupeSession;
 }
 
-- (_Bool);
-- (_Bool);
-- (struct CGPoint);
-- (void);
-- (struct CGPoint);
-- (_Bool);
+- (_Bool)recipientsForBundleID: /* Error: Ran out of types for this method. */;
+- (_Bool)eSync:(id)arg1 didSucceedSyncingRecoverableMessageSync:syncAttemptCount: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)localizedStringWithFormat:(id)arg1;
+- (void)initWithParticipantsToAdd:(id)arg1 participantsToRemove:(long long)arg2 previousDisplayName:(CDUnknownBlockType)arg3;
+- (struct CGPoint)expectedFileSize;
+- (_Bool)conversationManager:(id)arg1 systemActivitySessionsChangedForConversation:(id)arg2 fromOldConversation: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (Class);
+- (void)teEnabledReturned [%{bool}d] setting up...;
 - (void);
-- (void);
-- (void);
+- (void)e preview for transfer %@;
 - (struct CGPoint);
 - (void)oÞÖia;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

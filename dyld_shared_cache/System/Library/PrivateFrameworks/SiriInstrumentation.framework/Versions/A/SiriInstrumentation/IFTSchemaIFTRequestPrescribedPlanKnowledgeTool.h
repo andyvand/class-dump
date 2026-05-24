@@ -6,12 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface IFTSchemaIFTRequestPrescribedPlanKnowledgeTool : SISchemaInstrumentationMessage
 {
     _Bool _isExplicit;
-    CDStruct_30801e2d _has;
 }
 
 - (void);
@@ -28,12 +25,10 @@
 - (id)tÐ!h@ùQà1Â0@ù
 × ;
 - (id)SRRecognitionMetrics",&,N,V_metrics;
-- (id)ancelled;
+- (id)CNVSchemaCNVIntentFinalExecutionCancelled;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsExplicit;
 @property(nonatomic) _Bool isExplicit; // @synthesize isExplicit=_isExplicit;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

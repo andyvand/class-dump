@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, CALayerHost, NSResponder, NSViewHostingTraits, NSViewLayerHostingContext;
-@protocol NSViewHostDelegate;
+@class CALayer, NSViewLayerHostingContext;
 
 @interface NSViewHost
 {
     NSViewLayerHostingContext *_context;
-    CALayerHost *_layerHost;
-    id <NSViewHostDelegate> _delegate;
 }
 
 - (void);
-- (void);
+- (void)K	;
 - (_Bool);
 - (id);
 - (id);
@@ -31,10 +28,6 @@
 - (struct NSEdgeInsets);
 
 // Remaining properties
-@property(readonly) struct NSEdgeInsets alignmentRectInsets;
-@property(readonly) NSResponder *firstResponder;
-@property(copy) NSViewHostingTraits *hostingTraits;
-@property(readonly) struct CGSize intrinsicContentSize;
 @property(readonly) CALayer *layerHost;
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSMessageContext, NSData, NSString;
+@class IDSMessageContext, NSString;
 
 @interface IDSIncomingMessage
 {
     IDSMessageContext *_messageContext;
-    NSData *_decryptedData;
-    NSString *_service;
 }
 
 + (_Bool);
@@ -20,13 +18,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)?;
 - (void);
 - (void)from sessionInfo.;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *decryptedData; // @synthesize decryptedData=_decryptedData;
-@property(retain, nonatomic) IDSMessageContext *messageContext; // @synthesize messageContext=_messageContext;
 @property(readonly, nonatomic) NSString *service; // @synthesize service=_service;
 
 @end

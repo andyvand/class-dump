@@ -9,9 +9,6 @@
 @interface LSAppTranslocationResult
 {
     NSURL *_relativePathRoot;
-    NSURL *_originalApplicationURL;
-    NSURL *_effectiveApplicationURL;
-    NSURL *_secureDirectoryURL;
 }
 
 + (id);
@@ -24,9 +21,7 @@
 - (void)°Ö;
 
 // Remaining properties
-@property(readonly) NSURL *effectiveApplicationURL; // @synthesize effectiveApplicationURL=_effectiveApplicationURL;
 @property(readonly) NSURL *originalApplicationURL; // @synthesize originalApplicationURL=_originalApplicationURL;
-@property(readonly) NSURL *secureDirectoryURL; // @synthesize secureDirectoryURL=_secureDirectoryURL;
 
 @end
 

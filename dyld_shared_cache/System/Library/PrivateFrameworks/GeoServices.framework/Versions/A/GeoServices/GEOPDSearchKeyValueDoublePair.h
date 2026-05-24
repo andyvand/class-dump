@@ -10,17 +10,15 @@ __attribute__((visibility("hidden")))
 @interface GEOPDSearchKeyValueDoublePair
 {
     NSString *_key;
-    double _value;
-    CDStruct_38ef1b98 _flags;
 }
 
 - (id);
-- (void);
+- (void)to scalar;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)lidDistance"b1"has_zilchPathIndex"b1"has_preserveEventInUpdates"b1"has_sticky"b1"read_unknownFields"b1"read_arGuidance"b1"read_importanceInfo"b1"read_junctionView"b1"read_laneGuidance"b1"read_navTrayGuidance"b1"read_signGuidance"b1"read_spokenGuidance"b1"wrote_anyField"b1};
-- (id)refCategoryIds;
+- (id)_prefCategoryIds;
 - (id)Ðìð;
 - (void)ÁäFµH@;
 

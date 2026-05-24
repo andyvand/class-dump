@@ -12,40 +12,27 @@ __attribute__((visibility("hidden")))
 @interface NSISInlineStorageVariable : NSISVariable
 {
     NSString *_name;
-    int _valueRestriction;
-    _Bool _shouldBeMinimized;
-    _Bool _valueIsUserObservable;
 }
 
-- (_Bool);
-- (oneway void);
+- (_Bool)isASTCPixelFormatsSupported;
+- (oneway void)h;
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (int);
 - (void);
-- (void);
+- (void)_entryEnumerator;
 - (void);
 - (int);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy) NSString *name; // @synthesize name=_name;
-@property _Bool shouldBeMinimized; // @synthesize shouldBeMinimized=_shouldBeMinimized;
-@property(readonly) Class superclass;
-@property _Bool valueIsUserObservable; // @synthesize valueIsUserObservable=_valueIsUserObservable;
-@property int valueRestriction; // @synthesize valueRestriction=_valueRestriction;
 
 @end
 

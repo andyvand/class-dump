@@ -21,13 +21,13 @@ struct CGRect {
 };
 
 struct CGSize {
-    double width;
-    double height;
+    double _field1;
+    double _field2;
 };
 
 struct CLLocationCoordinate2D {
-    double latitude;
-    double longitude;
+    double _field1;
+    double _field2;
 };
 
 struct NSEdgeInsets {

@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NSConcreteArrayChange : NSArrayChange
 {
     unsigned long long _changeType;
-    unsigned long long _sourceIndex;
-    unsigned long long _destinationIndex;
-    id _value;
 }
 
 - (unsigned long long);

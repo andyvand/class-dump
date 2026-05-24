@@ -7,12 +7,6 @@
 @interface RTIDocumentRequest
 {
     _Bool _didSetRectGranularity;
-    long long _flags;
-    long long _textGranularity;
-    long long _rectGranularity;
-    long long _surroundingGranularityCount;
-    long long _rectCountBefore;
-    long long _rectCountAfter;
 }
 
 + (_Bool);
@@ -28,20 +22,15 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)readRequiredAngleFromXmlNode:name: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (long long);
 - (void);
 
 // Remaining properties
 @property(nonatomic) long long flags; // @synthesize flags=_flags;
-@property(nonatomic) long long rectCountAfter; // @synthesize rectCountAfter=_rectCountAfter;
-@property(nonatomic) long long rectCountBefore; // @synthesize rectCountBefore=_rectCountBefore;
-@property(nonatomic) long long rectGranularity; // @synthesize rectGranularity=_rectGranularity;
-@property(nonatomic) long long surroundingGranularityCount; // @synthesize surroundingGranularityCount=_surroundingGranularityCount;
-@property(nonatomic) long long textGranularity; // @synthesize textGranularity=_textGranularity;
 
 @end
 

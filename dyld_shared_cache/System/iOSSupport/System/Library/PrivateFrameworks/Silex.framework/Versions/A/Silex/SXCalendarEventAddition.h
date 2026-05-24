@@ -6,7 +6,7 @@
 
 #import <Silex/SXAddition.h>
 
-@class NSString, NSURL, SXFormattedText;
+@class NSString;
 
 @interface SXCalendarEventAddition : SXAddition
 {
@@ -15,12 +15,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *URL; // @dynamic URL;
-@property(readonly, nonatomic) NSString *endDate; // @dynamic endDate;
-@property(readonly, nonatomic) NSString *location; // @dynamic location;
-@property(readonly, nonatomic) SXFormattedText *notes; // @dynamic notes;
 @property(readonly, nonatomic) NSString *startDate; // @dynamic startDate;
-@property(readonly, nonatomic) NSString *title; // @dynamic title;
 
 @end
 

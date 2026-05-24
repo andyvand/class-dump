@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFProcessTransaction, JSContext, JSValue, NSMutableArray, NSString, WKWebProcessPlugInBrowserContextController;
-@protocol MSComposeBodyFieldObserver, MSRichLinkGeneration, WKWebProcessPlugIn;
+@protocol WKWebProcessPlugIn;
 
 @interface MSComposeBundlePageController
 {
     unsigned long long _performOnPageSuspendCount;
-    NSMutableArray *_blocksToPerformOnPage;
-    JSValue *_jsBodyField;
-    id <MSRichLinkGeneration> _linkGeneratorProxy;
-    EFProcessTransaction *_webContentProcessTransaction;
-    _Bool _isQuickReplyEnabled;
-    _Bool _addLinkPreviewsEnabled;
-    _Bool _isSmartReplyAvailable;
-    id <WKWebProcessPlugIn> _plugIn;
-    WKWebProcessPlugInBrowserContextController *_controller;
-    JSContext *_jsContext;
 }
 
 - (void);
@@ -33,15 +22,15 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)&� ;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void){CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}}{NSEdgeInsets=dddd}{?={?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{?=qiIq}}{?={?={CGAffineTransform=dddddd}}{?={CGAffineTransform=dddddd}}{?=qiIq}}{?=cC{?=qiIq}c(?=cccc)(?=ddc)}{?=qqfdddd}}8;
+- (void);
 - (id);
 - (void);
 - (id);
@@ -52,18 +41,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) WKWebProcessPlugInBrowserContextController *controller; // @synthesize controller=_controller;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) JSValue *jsBodyField; // @synthesize jsBodyField=_jsBodyField;
-@property(readonly, nonatomic) JSContext *jsContext; // @synthesize jsContext=_jsContext;
-@property(readonly, nonatomic) id <MSComposeBodyFieldObserver> observerProxy;
 @property(readonly, nonatomic) __weak id <WKWebProcessPlugIn> plugIn; // @synthesize plugIn=_plugIn;
-@property(readonly) Class superclass;
 
 @end
 

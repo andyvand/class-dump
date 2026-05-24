@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber, NUColorSpace;
+@class CIImage;
 
 @interface NUHDRApplyToneMapFilter
 {
     CIImage *_inputImage;
-    NSNumber *_inputSourceHeadroom;
-    NSNumber *_inputTargetHeadroom;
-    NUColorSpace *_inputColorSpace;
 }
 
 - (void);
@@ -20,16 +17,13 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void)}{?=qq}}16;
 
 // Remaining properties
-@property(retain, nonatomic) NUColorSpace *inputColorSpace; // @synthesize inputColorSpace=_inputColorSpace;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage=_inputImage;
-@property(retain, nonatomic) NSNumber *inputSourceHeadroom; // @synthesize inputSourceHeadroom=_inputSourceHeadroom;
-@property(retain, nonatomic) NSNumber *inputTargetHeadroom; // @synthesize inputTargetHeadroom=_inputTargetHeadroom;
 
 @end
 

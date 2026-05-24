@@ -7,9 +7,6 @@
 @interface NewsArticles.EndOfRecipeFeedServiceConfigFetcher
 {
     id name;
-    id appConfigManager;
-    id configManager;
-    id featureAvailability;
 }
 
 @end

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, PPRecordMonitoringHelper;
+@class PPRecordMonitoringHelper;
 
 @interface PPXPCNamedEntityStoreQueryMonitorSession
 {
     PPRecordMonitoringHelper *_monitoringHelper;
-    NSDate *_lastCallDate;
 }
 
 - (id);

@@ -6,16 +6,12 @@
 
 #import <AuthKitUI/AKAuthorizationPaneViewController.h>
 
-@class AKAuthorizationPresentationContext, AKModalSignInViewController, NSLayoutConstraint, NSString;
+@class AKModalSignInViewController;
 @protocol AKAuthorizationPasswordAuthenticationDelegate;
 
 @interface AKAuthorizationPasswordAuthenticationViewController : AKAuthorizationPaneViewController
 {
     AKModalSignInViewController *_modalSignInViewController;
-    NSLayoutConstraint *_modalSignInViewBottomConstraint;
-    double _keyboardHeight;
-    id <AKAuthorizationPasswordAuthenticationDelegate> _delegate;
-    AKAuthorizationPresentationContext *_presentationContext;
 }
 
 - (void);
@@ -29,25 +25,17 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
+- (void)SCNSceneSourceStatusProcessing;
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <AKAuthorizationPasswordAuthenticationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) AKAuthorizationPresentationContext *presentationContext; // @synthesize presentationContext=_presentationContext;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,46 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapItemIdentifier, NSString;
-
 @interface GEOURLLocationQueryItem
 {
     _Bool _isCurrentLocation;
-    GEOMapItemIdentifier *_mapItemIdentifier;
-    NSString *_address;
-    NSString *_name;
-    CDStruct_2c43369c _coordinate;
 }
 
 + (id);
-+ (id);
++ (id)tP;
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)resultBeforeDate:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)probabilityForHiddenSequence:knowingObservationSequence:boost: /* Error: Ran out of types for this method. */;
+- (id)lic}@;
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)reshing,V_refreshing;
 - (CDStruct_c3b9c2ee);
 - (void)¬üÐàüÈ;
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *address; // @synthesize address=_address;
 @property(nonatomic) CDStruct_c3b9c2ee coordinate; // @synthesize coordinate=_coordinate;
-@property(readonly, nonatomic) _Bool hasMapItemIdentifier;
-@property(nonatomic) _Bool isCurrentLocation; // @synthesize isCurrentLocation=_isCurrentLocation;
-@property(readonly, nonatomic) _Bool isValid;
-@property(retain, nonatomic) GEOMapItemIdentifier *mapItemIdentifier; // @synthesize mapItemIdentifier=_mapItemIdentifier;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSString *resolvedLocation;
 
 @end
 

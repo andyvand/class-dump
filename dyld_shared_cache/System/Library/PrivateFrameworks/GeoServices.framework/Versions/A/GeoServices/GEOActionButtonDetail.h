@@ -4,33 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOActionButtonDetail
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_category;
-    NSString *_providerId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _linkType;
-    _Bool _dropDown;
-    struct {
-        unsigned int has_linkType:1;
-        unsigned int has_dropDown:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_category:1;
-        unsigned int read_providerId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)SettingsWalkingAvoidBusyRoads:(id)arg1;
++ (_Bool)setHasMapSettingsWalkingAvoidBusyRoads:(id)arg1;
 - (void);
-- (void);
-- (id);
+- (void)doOnCancel:(_Bool)arg1;
+- (id)ections;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -43,38 +27,30 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)_logUptimeWithVTSwitchChanged:(id)arg1 VTEnabled: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool);
+- (_Bool)(;
+- (id)`;
 - (id);
 - (void);
 - (void)0@ù
 × ;
-- (id)lacesCount;
-- (_Bool)s;
+- (id)mapFeatureLibraryGuidesSavedPlacesCount;
+- (_Bool)_parsecRankingFeatures;
 - (id)`0äÌ	
 T<ôÄ¬|<Øô;
-- (id)nHeader;
-- (void)YPE_SUGGESTIONS_PARKED_CAR;
+- (id)IncludeTileReasonHeader;
+- (void)AUTOCOMPLETE_RESULT_SUBTYPE_SUGGESTIONS_PARKED_CAR;
 - (id)à;
 - (void);
 - (int)ÄØÿà7Ö=;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *category;
-@property(nonatomic) _Bool dropDown;
 @property(readonly, nonatomic) _Bool hasCategory;
-@property(nonatomic) _Bool hasDropDown;
-@property(nonatomic) _Bool hasLinkType;
-@property(readonly, nonatomic) _Bool hasProviderId;
-@property(nonatomic) int linkType;
-@property(retain, nonatomic) NSString *providerId;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -12,12 +12,10 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id);
++ (id)c;
 
 // Remaining properties
 @property(nonatomic) long long notificationModes; // @dynamic notificationModes;
-@property(nonatomic) long long personFamiliarityOptions; // @dynamic personFamiliarityOptions;
-@property(nonatomic) long long significantEventTypes; // @dynamic significantEventTypes;
 
 @end
 

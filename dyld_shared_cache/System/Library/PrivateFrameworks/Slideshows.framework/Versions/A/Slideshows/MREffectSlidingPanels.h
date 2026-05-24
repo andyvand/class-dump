@@ -6,43 +6,29 @@
 
 #import <Slideshows/MREffect.h>
 
-@class MRCAMLBezierData, MRCroppingSprite, MRImage, MRTextRenderer, NSArray, NSDictionary, NSMutableDictionary;
+@class MRTextRenderer;
 
 @interface MREffectSlidingPanels : MREffect
 {
     MRTextRenderer *mTextRenderer;
-    MRImage *mTextImage;
-    struct CGContext *mCachedRenderedText;
-    NSMutableDictionary *mSprites;
-    NSDictionary *mBreakInformation;
-    MRCroppingSprite *mTextSprite;
-    struct CGSize mMaxTextSize;
-    _Bool mIsLoaded;
-    NSArray *mCurrentInfo;
-    _Bool mHasBreak;
-    struct CGSize mTextSize;
-    _Bool mFitMovies;
-    MRCAMLBezierData *mEnterCurve;
-    MRCAMLBezierData *mExitCurve;
-    double _interactiveModeStartTime;
 }
 
-- (void);
+- (void)ionThrottler>",&,N,V_schedulingAndForegroundUploadThrottler;
 - (_Bool);
-- (_Bool);
-- (double);
-- (double);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)ibrary/BuildRoots/4~CNrLugCE8UX-AzDlcf3V1M_lrZzemFpoZKYL49I/Library/Caches/com.apple.xbs/TemporaryDirectory.AP33Sb/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NDAnalyticsPayloadAssemblerUtilities.m;
+- (double)eduler operationThrottler:(double)arg1 performAsyncOperationWithCompletion:]_block_invoke /* Error: Ran out of types for this method. */;
+- (double)];
+- (_Bool)peStore deleteEnvelopesForEntries:(double)arg1 ];
+- (_Bool)eManager _handleOutcomeOfUploadAttemptWithPayload:(struct CGPoint (*)[4])arg1 success:(float [16])arg2 error:(id)arg3 willRetry:hitEndpoint:] /* Error: Ran out of types for this method. */;
+- (_Bool)nalyticsEnvelopeManager _handleDroppedEnvelopesForLocalReasons:(double *)arg1 ]_block_invoke;
+- (void)lopes:(double *)arg1 withCompletion:(double *)arg2 ];
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (struct CGSize);
-- (struct CGSize);
+- (struct CGSize);
 - (long long);
 - (void);
 - (void);

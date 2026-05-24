@@ -7,7 +7,6 @@
 @interface ContactsFoundation.CNKeychainResult
 {
     id value;
-    id error;
 }
 
 - (id);

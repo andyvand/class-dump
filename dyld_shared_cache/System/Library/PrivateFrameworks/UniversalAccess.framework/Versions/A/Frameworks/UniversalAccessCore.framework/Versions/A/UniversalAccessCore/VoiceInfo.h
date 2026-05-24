@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface VoiceInfo
 {
     NSString *_path;
-    NSString *_voiceID;
 }
 
 - (void);
@@ -22,7 +21,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy) NSString *path; // @synthesize path=_path;
-@property(copy) NSString *voiceID; // @synthesize voiceID=_voiceID;
 
 @end
 

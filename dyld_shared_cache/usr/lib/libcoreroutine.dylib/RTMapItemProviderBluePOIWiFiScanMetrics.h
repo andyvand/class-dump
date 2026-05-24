@@ -6,34 +6,26 @@
 
 #import <coreroutine/RTMetric.h>
 
-@class NSString;
-
 @interface RTMapItemProviderBluePOIWiFiScanMetrics : RTMetric
 {
 }
 
 + (id);
 + (void);
-+ (unsigned long long);
-+ (unsigned long long);
-+ (unsigned long long);
-+ (unsigned long long);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (unsigned long long)CSKeySet encode error:(double)arg1 %d;
++ (unsigned long long)PCSIdentityCopyExternalForm;
++ (unsigned long long)PCSIdentityCopyExternalForm_block_invoke;
++ (unsigned long long)ing;
++ (id)i.knowledge;
++ (id)apple.siri.profile;
++ (id)utined;
++ (id).KeyboardServices.Secure;
 + (CDStruct_b8464340);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

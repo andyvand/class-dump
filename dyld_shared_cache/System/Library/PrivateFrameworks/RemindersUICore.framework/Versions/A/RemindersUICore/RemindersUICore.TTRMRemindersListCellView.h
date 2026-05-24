@@ -4,77 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, NSStackView, NSTextField, RemindersUICore.TTRMReminderCompletionButton, RemindersUICore.TTRMRemindersListCellTitleTextField, RemindersUICore.TTRMRemindersListCustomTextStorageTextField;
-
 @interface RemindersUICore.TTRMRemindersListCellView
 {
     id delegate;
-    id intermediateViewModelObserver;
-    id alwaysHidesBottomSeparator;
-    id isRowCollapsed;
-    id isDynamicFontSizeSupported;
-    id titleModule;
-    id notesModule;
-    id hashtagsModule;
-    void completedButton;
-    void highPriorityIndicator;
-    void titleStackView;
-    void titleTextField;
-    void notesTextField;
-    void cellStackView;
-    void quickBarStackView;
-    void cellContentsBottomConstraint;
-    id $__lazy_storage_$_suggestedSectionButtonContainer;
-    id $__lazy_storage_$_urgentButton;
-    id $__lazy_storage_$_suggestedSectionButton;
-    id $__lazy_storage_$_flaggedButton;
-    id $__lazy_storage_$_hashtagButton;
-    id $__lazy_storage_$_hashtagsTextField;
-    id $__lazy_storage_$_hashtagsStaticLabel;
-    id $__lazy_storage_$_timeZoneMultipleDayEncapsulationProvider;
-    id viewModelState;
-    id $__lazy_storage_$_firstResponderChangeFilter;
-    id cellViewSizeCache;
-    id datePickerModule;
-    id datePickerViewController;
-    id timePickerModule;
-    id timePickerViewController;
-    id locationPickerModule;
-    id locationPickerViewController;
-    id assigneePickerModule;
-    id assigneePickerViewController;
-    id assigneeView;
-    id attachmentCollectionModule;
-    id suggestionsModule;
-    id suggestionsViewController;
-    id accessoryStackView;
-    id flaggedIndicator;
-    id outlineControl;
-    id hoverButton;
-    id attributesWrappingView;
-    id basicAttributeDescriptionLabel;
-    id locationLabel;
-    id messagingLabel;
-    id appLinkViews;
-    id subtaskCountButton;
-    id completionDateLabel;
-    id $__lazy_storage_$_locationImageView;
-    id $__lazy_storage_$_messagingImageView;
-    id assigneeViewWidthConstraint;
-    id attachmentViewHeightConstraint;
-    id editModeState;
-    id trackingArea;
-    id forceBottomSeparatorHidden;
-    id accessibilityDisplayOptionsDidChangeNotificationObserver;
-    id $__lazy_storage_$_detailButtonIcon;
-    id $__lazy_storage_$_moreButtonIcon;
-    id dynamicTypeSizeObserver;
-    id contentSizeCancellable;
-    id symbolSizeCancellable;
-    id contentSizeCache;
-    id imageSizeCache;
-    id currentControlColor;
-    id isQuickbarLoaded;
 }
 
 - (void);
@@ -93,31 +25,31 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)`;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)NSCoding;
 - (_Bool);
 - (id);
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (id);
+- (void)tory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCCKPrivateSaveRecordsOperation.m;
+- (id)hourlyFlowRateDampeningFactor;
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void)ÄjÚ;
+- (void);
 - (void);
 - (id);
-- (void);
+- (void):(id)arg1;
 - (id);
 - (void);
-- (id)pdates;
+- (id)isPerformingSubviewUpdates;
 - (void)ÿG;
 - (void)pability failed to edit attributes to match custom smart list due to invalid filter descriptor {customSmartList.objectID:%{public}@} /* Error: Ran out of types for this method. */;
 - (id)alert with a specific date and time or repeat interval;
@@ -125,14 +57,6 @@
 
 // Remaining properties
 @property(nonatomic) long long backgroundStyle;
-@property(nonatomic) __weak NSLayoutConstraint *cellContentsBottomConstraint; // @synthesize cellContentsBottomConstraint;
-@property(nonatomic) __weak NSStackView *cellStackView; // @synthesize cellStackView;
-@property(nonatomic) __weak RemindersUICore.TTRMReminderCompletionButton *completedButton; // @synthesize completedButton;
-@property(nonatomic) __weak NSTextField *highPriorityIndicator; // @synthesize highPriorityIndicator;
-@property(nonatomic) __weak RemindersUICore.TTRMRemindersListCustomTextStorageTextField *notesTextField; // @synthesize notesTextField;
-@property(nonatomic) __weak NSStackView *quickBarStackView; // @synthesize quickBarStackView;
-@property(nonatomic) __weak NSStackView *titleStackView; // @synthesize titleStackView;
-@property(nonatomic) __weak RemindersUICore.TTRMRemindersListCellTitleTextField *titleTextField; // @synthesize titleTextField;
 
 @end
 

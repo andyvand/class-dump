@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSearchField, SFCard, SFColor, SearchUITableModel;
-@protocol SFFeedbackListener, SearchUICardViewDelegate, SearchUICommandDelegate;
+@class SFCard, SearchUITableModel;
+@protocol SearchUICommandDelegate;
 
 @protocol SearchUINSCardTableBridgingProtocol
-- (_Bool)rdSectionRowModels: /* Error: Ran out of types for this method. */;
+- (SearchUITableModel *);
+- (_Bool);
+- (_Bool)initWithPosition:records:actualOptionsDisplayedCount:imputedOptionsDisplayedCount:imputedOptionsDisplayed:config: /* Error: Ran out of types for this method. */;
+- (SFCard *)release!;
+- (void)@;
+- (_Bool)accessibilityMaxValue;
+- (void)appEntityRelevanceUserFocusModeAndTimeOfDayFeatures;
+- (id <SearchUICommandDelegate>)16@24^@32B40;
+- (_Bool);
+- (_Bool)setCardSectionRowModels: /* Error: Ran out of types for this method. */;
 - (void)d»¨»;
 
 // Remaining properties
-@property(retain, nonatomic) SFCard *card;
-@property(nonatomic) __weak id <SearchUICardViewDelegate> cardViewDelegate;
-@property(nonatomic) __weak id <SearchUICommandDelegate> commandDelegate;
-@property(nonatomic) _Bool disableEmphasizedSelection;
 @property(nonatomic) _Bool disableNextCards;
-@property(nonatomic) _Bool dragInteractionEnabled;
-@property(nonatomic) __weak id <SFFeedbackListener> feedbackListener;
-@property(nonatomic) _Bool floatingHeaders;
-@property(nonatomic, getter=isInPreviewPlatter) _Bool inPreviewPlatter;
-@property(nonatomic) _Bool scrollEnabled;
-@property(nonatomic) __weak NSSearchField *searchField;
-@property(retain, nonatomic) SFColor *searchUIBackgroundColor;
-@property(nonatomic) _Bool selectOnHover;
-@property(nonatomic) _Bool selectionShouldFillWidth;
-@property(nonatomic) _Bool singleClickExecutesCommands;
-@property(retain, nonatomic) SearchUITableModel *tableModel;
 @end
 

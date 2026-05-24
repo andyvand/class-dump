@@ -9,7 +9,6 @@
 @interface MPMediaLibraryConnectionAssertion
 {
     MPMediaLibrary *_library;
-    NSString *_identifier;
 }
 
 - (id);

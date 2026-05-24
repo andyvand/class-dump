@@ -4,30 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CVNLPCaptionRuntimeParameters, NSCharacterSet;
+@class NSCharacterSet;
 
 @interface CVNLPCaptionPostProcessingHandler
 {
     NSCharacterSet *_trimSet;
-    CVNLPCaptionRuntimeParameters *_runtimeParameters;
 }
 
+- (id);
+- (id)*';
+- (id)D;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id),ND;
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly) __weak CVNLPCaptionRuntimeParameters *runtimeParameters; // @synthesize runtimeParameters=_runtimeParameters;
 @property(readonly) NSCharacterSet *trimSet; // @synthesize trimSet=_trimSet;
 
 @end

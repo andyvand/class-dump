@@ -4,64 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRRenderer, NSDictionary, NSOperationQueue;
+@class MRRenderer, NSOperationQueue;
 
 @interface MRRenderArguments
 {
     MRRenderer *_renderer;
-    NSOperationQueue *_preloadQueue;
-    NSDictionary *_forcedState;
-    double _unalteredTime;
-    CDStruct_489f4f2f _displayLinkTimestamp;
-    double _morphingProgress;
-    int _thumbnailPolicy;
-    unsigned char _currentLayoutIndex;
-    _Bool _isPreloading;
-    _Bool _freezesSizeOfImageRequests;
-    _Bool _skipsAnimations;
-    _Bool _timeWasSet;
 }
 
-- (double);
+- (double)#;
 - (_Bool);
+- (void)ystem/Library/Frameworks/Foundation.framework/Versions/C/Foundation;
+- (void);
+- (void)ks/CoreBrightness.framework/Versions/A/CoreBrightness;
+- (void)y/PrivateFrameworks/NewsCore.framework/Versions/A/NewsCore;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (double);
+- (id)setConfigProvider: /* Error: Ran out of types for this method. */;
+- (double)arrayWithObjects:count: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
+- (id)C;
 - (_Bool);
-- (id);
-- (CDStruct_489f4f2f);
-- (unsigned char);
-- (id);
+- (id)So14AAEndpointType_p;
+- (CDStruct_e50ab651)UI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NDAnalyticsUploadScheduler.m;
+- (unsigned char)UAnalyticsEnvelopeTracker.m;
+- (id).m;
 - (_Bool);
 - (int);
-- (void);
+- (void)`;
 - (id);
 - (void);
 - (void)easeOut %f;
 
 // Remaining properties
-@property unsigned char currentLayoutIndex; // @synthesize currentLayoutIndex=_currentLayoutIndex;
-@property CDStruct_489f4f2f displayLinkTimestamp; // @synthesize displayLinkTimestamp=_displayLinkTimestamp;
-@property(retain) NSDictionary *forcedState; // @synthesize forcedState=_forcedState;
-@property _Bool freezesSizeOfImageRequests; // @synthesize freezesSizeOfImageRequests=_freezesSizeOfImageRequests;
-@property(readonly) _Bool isPreloading; // @synthesize isPreloading=_isPreloading;
-@property double morphingProgress; // @synthesize morphingProgress=_morphingProgress;
 @property(retain) NSOperationQueue *preloadQueue; // @synthesize preloadQueue=_preloadQueue;
-@property(readonly, retain) MRRenderer *renderer; // @synthesize renderer=_renderer;
-@property(nonatomic) _Bool skipsAnimations; // @synthesize skipsAnimations=_skipsAnimations;
-@property int thumbnailPolicy; // @synthesize thumbnailPolicy=_thumbnailPolicy;
-@property _Bool timeWasSet; // @synthesize timeWasSet=_timeWasSet;
-@property double unalteredTime; // @synthesize unalteredTime=_unalteredTime;
 
 @end
 

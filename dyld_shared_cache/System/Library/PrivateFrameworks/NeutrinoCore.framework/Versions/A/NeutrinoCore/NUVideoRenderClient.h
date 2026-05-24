@@ -6,14 +6,11 @@
 
 #import <NeutrinoCore/NURenderClient.h>
 
-@class NSArray;
 @protocol NUScalePolicy;
 
 @interface NUVideoRenderClient : NURenderClient
 {
     id <NUScalePolicy> _scalePolicy;
-    long long _sampleMode;
-    NSArray *_pipelineFilters;
 }
 
 - (void);
@@ -27,8 +24,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *pipelineFilters; // @synthesize pipelineFilters=_pipelineFilters;
-@property(nonatomic) long long sampleMode; // @synthesize sampleMode=_sampleMode;
 @property(retain, nonatomic) id <NUScalePolicy> scalePolicy; // @synthesize scalePolicy=_scalePolicy;
 
 @end

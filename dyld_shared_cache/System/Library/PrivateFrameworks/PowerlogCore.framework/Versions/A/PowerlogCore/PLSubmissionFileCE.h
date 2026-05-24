@@ -13,8 +13,8 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)FAFamilyMemberCGG;
 - (id);
 - (void);
 - (id);

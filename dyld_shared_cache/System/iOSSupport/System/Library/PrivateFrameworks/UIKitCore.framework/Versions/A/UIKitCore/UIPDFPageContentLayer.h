@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSString;
+@class CALayer;
 
 __attribute__((visibility("hidden")))
 @interface UIPDFPageContentLayer
@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
+- (void)_payloadAllowEnterpriseBookBackup;
 - (id);
 - (void)termine the intialIndexPath before shadow update;
 - (void)8¾7yÿ¾7_G0¾7G;
@@ -21,13 +21,7 @@ __attribute__((visibility("hidden")))
 l;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

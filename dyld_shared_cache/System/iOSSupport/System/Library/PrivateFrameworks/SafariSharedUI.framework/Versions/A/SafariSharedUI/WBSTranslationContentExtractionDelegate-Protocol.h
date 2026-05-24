@@ -5,5 +5,8 @@
 //
 
 @protocol WBSTranslationContentExtractionDelegate
+
+@optional
+- (void);
 @end
 

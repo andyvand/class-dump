@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NWConcrete_nw_authentication_credential;
-@protocol OS_nw_array;
+@class NWConcrete_nw_authentication_credential;
 
 __attribute__((visibility("hidden")))
 @interface NWConcrete_nw_authentication_challenge
 {
     NWConcrete_nw_authentication_credential *proposed_credential;
-    void *http_message;
-    NSObject<OS_nw_array> *protection_space_array;
-    unsigned long long preferred_space_index;
-    unsigned int attempt_count;
 }
 
 - (void);
@@ -22,13 +17,7 @@ __attribute__((visibility("hidden")))
 - (void)@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

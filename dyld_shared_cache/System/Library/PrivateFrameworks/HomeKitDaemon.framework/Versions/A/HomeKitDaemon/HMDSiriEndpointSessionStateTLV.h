@@ -4,41 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDSiriEndpointSessionStateTypeWrapper, NSData, NSString, NSUUID;
+@class HMDSiriEndpointSessionStateTypeWrapper, NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDSiriEndpointSessionStateTLV
 {
     HMDSiriEndpointSessionStateTypeWrapper *_sessionState;
-    NSData *_hubIdentifier;
 }
 
-+ (id);
++ (id)numberOfAppearancesInSharedAssets;
 - (void);
+- (id)sendMessage:(id)arg1 fromAccount:(id)arg2 toDestinations:priority:options:identifier:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id)trations;
+- (id)notificationDeregistrations;
 - (void)°;
 - (id)public}@[Flow:%@] Successfully saved supportsMatterYearDaySchedule:%@ /* Error: Ran out of types for this method. */;
-- (void)agerResidentDeviceNotificationKey;
+- (void)HMDResidentDeviceManagerResidentDeviceNotificationKey;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSData *hubIdentifier; // @synthesize hubIdentifier=_hubIdentifier;
 @property(readonly) NSUUID *hubUUID;
-@property(retain, nonatomic) HMDSiriEndpointSessionStateTypeWrapper *sessionState; // @synthesize sessionState=_sessionState;
-@property(readonly) Class superclass;
 
 @end
 

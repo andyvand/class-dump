@@ -9,7 +9,7 @@
 @interface UnknownClass (MPArtworkColorAnalyzer)
 - (id);
 - (struct CGImage *);
-- (struct CGImage *);
+- (struct CGImage *)Q];
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *artworkCatalogBackingFileURL;

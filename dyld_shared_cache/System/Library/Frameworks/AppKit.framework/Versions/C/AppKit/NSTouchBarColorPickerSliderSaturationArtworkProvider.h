@@ -12,14 +12,14 @@ __attribute__((visibility("hidden")))
     double _displayHue;
 }
 
-- (double);
-- (void);
-- (id);
+- (double)while-scrolling;
+- (void)DeviceRGBColor;
+- (id)2zyzecwSf2ZYRpB3tuQhOQ;
 - (long long);
 - (double);
 - (id);
 - (id);
-- (id);
+- (id).cpp;
 - (_Bool);
 
 @end

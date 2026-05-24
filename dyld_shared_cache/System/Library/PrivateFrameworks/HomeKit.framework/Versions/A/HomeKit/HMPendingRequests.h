@@ -9,7 +9,6 @@
 @interface HMPendingRequests
 {
     struct os_unfair_lock_s _lock;
-    NSMutableArray *_contextLists;
 }
 
 - (id);
@@ -27,7 +26,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);

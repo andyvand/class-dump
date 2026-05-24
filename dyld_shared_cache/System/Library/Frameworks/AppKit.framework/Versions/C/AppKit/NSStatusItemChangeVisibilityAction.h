@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface NSStatusItemChangeVisibilityAction
 {
     _Bool _isVisible;
-    _Bool _isTemporary;
 }
 
 - (void);
@@ -20,7 +19,6 @@ __attribute__((visibility("hidden")))
 - (_Bool)B;
 
 // Remaining properties
-@property _Bool isTemporary; // @synthesize isTemporary=_isTemporary;
 @property _Bool isVisible; // @synthesize isVisible=_isVisible;
 
 @end

@@ -4,42 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, RTBluePOIMetricManager, RTDefaultsManager, RTDistanceCalculator, RTLocalBluePOIResult, RTPlatform;
+@class NSMutableDictionary;
 
 @interface RTBluePOIAggregator
 {
     NSMutableDictionary *_maximumSingleShotConfidenceSeen;
-    RTBluePOIMetricManager *_bluePOIMetricManager;
-    RTDefaultsManager *_defaultsManager;
-    RTDistanceCalculator *_distanceCalculator;
-    RTPlatform *_platform;
-    RTLocalBluePOIResult *_currentPOIEstimate;
 }
 
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)_PCSKEKeyFromSeed(CFDataRef, CFIndex, size_t, const char *const, CFErrorRef *);
+- (void)c%c%c%c%c] %08d %08x [accessGroup:(id)arg1 %@];
 - (_Bool);
 - (id);
-- (id);
+- (id)!;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)P;
 - (id):]_block_invoke /* Error: Ran out of types for this method. */;
 - (void)sitive}@, latest valid location, %{sensitive}@, distance, %@, error, %@;
 
 // Remaining properties
-@property(readonly, nonatomic) RTBluePOIMetricManager *bluePOIMetricManager; // @synthesize bluePOIMetricManager=_bluePOIMetricManager;
-@property(retain, nonatomic) RTLocalBluePOIResult *currentPOIEstimate; // @synthesize currentPOIEstimate=_currentPOIEstimate;
-@property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(retain, nonatomic) RTDistanceCalculator *distanceCalculator; // @synthesize distanceCalculator=_distanceCalculator;
 @property(retain, nonatomic) NSMutableDictionary *maximumSingleShotConfidenceSeen; // @synthesize maximumSingleShotConfidenceSeen=_maximumSingleShotConfidenceSeen;
-@property(readonly, nonatomic) RTPlatform *platform; // @synthesize platform=_platform;
 
 @end
 

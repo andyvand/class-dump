@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface AWDSymptomsDiagnosticNotificationToken
 {
     unsigned long long _timestamp;
-    NSString *_notificationToken;
-    struct {
-        unsigned int timestamp:1;
-    } _has;
 }
 
 - (_Bool);
@@ -25,20 +19,17 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)acControllerSplatRollbackManager",&,N,V_splatRollbackManager;
+- (_Bool)MapsExtras_ContactWork;
+- (void)bleNavigationCapability:(_Bool)arg1 ];
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)(;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasNotificationToken;
 @property(nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) NSString *notificationToken; // @synthesize notificationToken=_notificationToken;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

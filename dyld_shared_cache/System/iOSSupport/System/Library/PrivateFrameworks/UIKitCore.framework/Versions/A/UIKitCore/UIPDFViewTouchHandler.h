@@ -6,64 +6,43 @@
 
 #import <UIKitCore/UIResponder.h>
 
-@class NSString, UILongPressGestureRecognizer, UIMenuController, UIPDFMagnifierController, UIPDFPageView, UIPDFSelectionController, UITapGestureRecognizer;
+@class UIPDFPageView;
 
 __attribute__((visibility("hidden")))
 @interface UIPDFViewTouchHandler : UIResponder
 {
     UIPDFPageView *_pdfPageView;
-    UITapGestureRecognizer *_doubleTapRecognizer;
-    UITapGestureRecognizer *_singleTapRecognizer;
-    UILongPressGestureRecognizer *_briefPressRecognizer;
-    UILongPressGestureRecognizer *_longPressRecognizer;
-    UITapGestureRecognizer *_twoFingerTapRecognizer;
-    UIMenuController *_menuController;
-    UIPDFSelectionController *_selectionController;
-    UIPDFMagnifierController *_magnifyController;
-    _Bool _trackingSelection;
-    _Bool _showMagnifier;
-    _Bool _showLoupe;
-    _Bool _firstTouch;
-    _Bool _useDelegateForLinks;
-    _Bool _allowMenu;
 }
 
-+ (void);
++ (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ug;
+- (void)valid sticker properties passed to retrieveStickerWithProperties %@;
+- (void)ore edited message:%@ /* Error: Ran out of types for this method. */;
+- (void)nished processing SMSFilteringSettingsMessage. Success = (%@), error = (%@).;
+- (void)for message guid %@ as %@;
+- (void)CMM state %@ (%lu);
+- (_Bool));
+- (void)ng %@ name %@ the devices to send this message to ;
+- (_Bool)ateLimiter.plist;
 - (_Bool);
-- (void);
+- (void)_payloadCategories;
 - (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void);
+- (void)MPModelRelationshipLibraryPinPlaylist;
 - (_Bool)!@ù±c°1Â0@ù
 × ;
-- (void)ionDidEnter:(id)arg1 isNewSession:isResuming: /* Error: Ran out of types for this method. */;
-- (_Bool)ow:(id)arg1;
+- (void)dragDestinationControllerSessionDidEnter:(id)arg1 isNewSession:isResuming: /* Error: Ran out of types for this method. */;
+- (_Bool)setPortalsDotToContainerWindow:(id)arg1;
 - (_Bool);
-- (_Bool)orC;
+- (_Bool)So7NSErrorC;
 - (id)ÖÄÎÈáh;
 - (id)ÿÆÑû.j;
 
 // Remaining properties
 @property _Bool allowMenu; // @synthesize allowMenu=_allowMenu;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,42 +6,32 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSArray, NSString;
-
 @interface INSearchForBillsIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)BasicVersionedFileIdentifier";
++ (int)initWithType:(long long)arg1;
++ (long long)initWithFPItem:(int)arg1 size:(int)arg2 minimumDimension:(_Bool)arg3 scale:iconMode: /* Error: Ran out of types for this method. */;
++ (_Bool)imageNameFor1024ThumbnailInMetadataDictionary:(long long)arg1;
 + (_Bool);
 - (void);
-- (void);
+- (void)<;
 - (id);
 - (id);
 - (long long);
 - (id);
-- (long long);
+- (long long);
+- (id)Versions/C/Foundation;
+- (id)maximumDegreesOfRotation;
+- (id)P;
+- (void)] PROCESS NOT ALLOWED FOR REQUEST TYPE (proc=%{public}@ service=%{public}@ req=%{public}@);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (long long)tTaskAttributeIntentTemporalEventTriggerUnsupportedReason: /* Error: Ran out of types for this method. */;
+- (long long)setSetTaskAttributeIntentTemporalEventTriggerUnsupportedReason: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) NSArray *bills;
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

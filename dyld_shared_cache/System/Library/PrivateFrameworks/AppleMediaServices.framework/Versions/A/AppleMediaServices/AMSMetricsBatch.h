@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, NSArray, NSData, NSString, NSURL;
+@class ACAccount;
 
 __attribute__((visibility("hidden")))
 @interface AMSMetricsBatch
 {
     _Bool _anonymous;
-    _Bool _disableLoadURLMetrics;
-    ACAccount *_account;
-    NSString *_canaryIdentifier;
-    NSArray *_droppedEvents;
-    NSArray *_events;
-    NSURL *_reportURL;
-    NSArray *_skippedEvents;
-    NSData *_serializedEventsData;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)translate - text translation succeeded;
 - (id);
 - (void);
 - (_Bool);
@@ -30,12 +22,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)ct.;
 - (void);
 - (id);
 - (id)
 × ;
-- (void)rtClassification:(id)arg1;
+- (void)_convertClassification:(id)arg1;
 - (id)provided;
 - (void)Õû^Õ[ÕSÕ{VÕ«^ÕÛ[Õ;]ÕKXÕPÕëUÕËZÕ»_ÕkWÕRÕûTÕQÕ[YÕ+\Õ«TÕÛQÕYÕ{\ÕZÕë_Õ;WÕKRÕ[VÕ+SÕû[Õ^ÕkXÕ]ÕËUÕ»PÕ;XÕK]ÕUÕëPÕVÕ{SÕ«[ÕÛ^ÕKPÕ;UÕë]ÕXÕ{^Õ[ÕÛSÕ«VÕ+^Õ[[ÕSÕûVÕPÕkUÕ»]ÕËXÕÛ\Õ«YÕ{QÕTÕëRÕWÕK_Õ;ZÕ»RÕËWÕ_ÕkZÕ\ÕûYÕ+QÕ[TÕ{[Õ^ÕÛVÕ«SÕKUÕ;PÕëXÕ]ÕUÕkPÕ»XÕË]Õ+[Õ[^ÕVÕûSÕëWÕRÕKZÕ;_ÕÛYÕ«\Õ{TÕQÕYÕû\Õ+TÕ[QÕ»WÕËRÕZÕk_ÕSÕëVÕ;^ÕK[Õ«]ÕÛXÕPÕ{UÕû]ÕXÕ[PÕ+UÕËSÕ»VÕk^Õ[Õ_Õ{ZÕ«RÕÛWÕ;QÕKTÕ\ÕëYÕkQÕTÕË\Õ»YÕ[_Õ+ZÕûRÕWÕ«XÕÛ]ÕUÕ{PÕVÕëSÕ;[ÕK^ÕËVÕ»SÕk[Õ^ÕûXÕ]Õ[UÕ+PÕ;TÕKQÕYÕë\ÕZÕ{_Õ«WÕÛRÕ[ZÕ+_ÕûWÕRÕkTÕQÕËYÕ»\AÞÝBZÅÆY	
 JÕÖIQÎÍRÐOLÓËTWÈÛDGØÀ_\ÃÏPSÌÔKH×Ä[XÇß@CÜ;
@@ -45,14 +37,6 @@ JÕÖIQÎÍRÐOLÓËTWÈÛDGØÀ_\ÃÏPSÌÔ
 
 // Remaining properties
 @property(retain, nonatomic) ACAccount *account; // @synthesize account=_account;
-@property(nonatomic) _Bool anonymous; // @synthesize anonymous=_anonymous;
-@property(copy, nonatomic) NSString *canaryIdentifier; // @synthesize canaryIdentifier=_canaryIdentifier;
-@property(nonatomic) _Bool disableLoadURLMetrics; // @synthesize disableLoadURLMetrics=_disableLoadURLMetrics;
-@property(copy, nonatomic) NSArray *droppedEvents; // @synthesize droppedEvents=_droppedEvents;
-@property(copy, nonatomic) NSArray *events; // @synthesize events=_events;
-@property(retain, nonatomic) NSURL *reportURL; // @synthesize reportURL=_reportURL;
-@property(copy, nonatomic) NSData *serializedEventsData; // @synthesize serializedEventsData=_serializedEventsData;
-@property(copy, nonatomic) NSArray *skippedEvents; // @synthesize skippedEvents=_skippedEvents;
 
 @end
 

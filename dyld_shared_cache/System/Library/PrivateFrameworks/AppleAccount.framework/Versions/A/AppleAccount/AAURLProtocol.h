@@ -12,9 +12,9 @@
 + (_Bool);
 + (_Bool);
 + (id);
+- (id)/Store;
 - (id);
-- (id);
-- (void);
+- (void)ZN8Espresso26linear_quantize_kernel_cpu9__computeINS_4blobIfLi4EEEfNS2_ItLi4EEEEEvRKNT_3ptrERKNS_11layer_shapeERKNT1_3ptrESB_E18linear_quantize_op;
 - (void);
 
 @end

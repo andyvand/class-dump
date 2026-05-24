@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, _NSCGSWindowLocalOrderingState, _NSCGSWindowOrderingProperties;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface _NSCGSWindowOrdering
 {
     NSMutableArray *_operations;
-    _NSCGSWindowOrderingProperties *_transactionProperties;
-    _NSCGSWindowLocalOrderingState *_localState;
 }
 
 + (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id).;
 - (id);
 - (void);
+- (void)FaceTimeCameraSupportsHardwareFaceDetection;
+- (void)DeviceSupports80ChargeLimit;
+- (void);
+- (id);
 - (void);
 - (void);
+- (void)`;
 - (void);
 - (unsigned long long);
 - (void);
@@ -38,22 +36,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)yList:(id)arg1;
 - (void);
 - (int);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void)UIAggregateUnarchiver decodeIntForKey:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

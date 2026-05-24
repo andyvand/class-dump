@@ -16,7 +16,7 @@
 - (void);
 - (long long);
 - (id);
-- (struct CGImageSource *);
+- (struct CGImageSource *)$;
 
 // Remaining properties
 @property(readonly) struct CGImageSource *imageSource; // @synthesize imageSource=_imageSource;

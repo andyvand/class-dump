@@ -8,6 +8,6 @@
 
 @optional
 - (void)!;
-- (void)ingQuotesAndParens;
+- (void)componentsSeparatedByCommaRespectingQuotesAndParens;
 @end
 

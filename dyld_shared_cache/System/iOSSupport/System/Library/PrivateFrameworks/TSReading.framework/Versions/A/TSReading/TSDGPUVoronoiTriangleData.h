@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface TSDGPUVoronoiTriangleData
 {
     unsigned long long *_triangleIndexToCellIndexMappingTable;
-    unsigned long long *_triangleIndexToCellTriangleIndexMappingTable;
-    unsigned long long _triangleIndexToCellMappingTableCount;
-    unsigned long long _triangleCount;
-    NSArray *_cells;
-    struct CGRect _bounds;
 }
 
 - (unsigned long long);
@@ -28,9 +21,6 @@
 - (struct CGRect);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect bounds; // @synthesize bounds=_bounds;
-@property(readonly, nonatomic) unsigned long long cellCount;
-@property(readonly, nonatomic) NSArray *cells; // @synthesize cells=_cells;
 @property(readonly, nonatomic) unsigned long long triangleCount; // @synthesize triangleCount=_triangleCount;
 
 @end

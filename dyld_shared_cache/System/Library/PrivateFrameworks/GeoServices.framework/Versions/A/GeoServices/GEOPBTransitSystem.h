@@ -4,36 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPBTransitArtwork, GEOStyleAttributes, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOPBTransitSystem
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPBTransitArtwork *_artwork;
-    unsigned long long _muid;
-    NSString *_nameDisplayString;
-    GEOStyleAttributes *_styleAttributes;
-    NSString *_website;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _systemIndex;
-    struct {
-        unsigned int has_muid:1;
-        unsigned int has_systemIndex:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_artwork:1;
-        unsigned int read_nameDisplayString:1;
-        unsigned int read_styleAttributes:1;
-        unsigned int read_website:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)sVerticalIndex:(id)arg1;
++ (_Bool)setHasVerticalIndex:(id)arg1;
 - (void);
-- (void);
+- (void)D;
 - (void);
 - (id);
 - (_Bool);
@@ -49,22 +29,23 @@
 - (id);
 - (unsigned int);
 - (void);
-- (void);
+- (void)__DATA_CONST;
 - (id);
-- (void);
+- (void)ogger _writeDictionary:(id)arg1 toPath:] /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
+- (void)app-bundle-id;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)updateTableHeightConstraintAnimated: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)3
+;
 - (void)
 × ;
 - (id)fDetail"C"type"C"supportsASTC"b1"padding"b39}"muninMesh"{_GEOMuninMeshKey="pointId"b64"buildId"b32"bucketId"b16"cameraId"b5"lod"b3}"s2Tile"{_GEOS2TileKey="z"b6"x"b26"y"b26"f"b3"type"b14"pixelSize"b4"textScale"b4"padding"b37}"liveTile"{_GEOLiveTileKey="z"b6"x"b26"y"b26"type"b14"pixelSize"b4"textScale"b4"domain"b4"padding"b36})};
@@ -76,26 +57,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) GEOPBTransitArtwork *artwork;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasArtwork;
 @property(nonatomic) _Bool hasMuid;
-@property(readonly, nonatomic) _Bool hasNameDisplayString;
-@property(readonly, nonatomic) _Bool hasStyleAttributes;
-@property(nonatomic) _Bool hasSystemIndex;
-@property(readonly, nonatomic) _Bool hasWebsite;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long muid;
-@property(retain, nonatomic) NSString *nameDisplayString;
-@property(retain, nonatomic) GEOStyleAttributes *styleAttributes;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned int systemIndex;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) NSString *website;
 
 @end
 

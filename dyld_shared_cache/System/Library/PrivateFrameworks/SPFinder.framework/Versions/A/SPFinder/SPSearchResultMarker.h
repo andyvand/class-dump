@@ -12,10 +12,10 @@
 }
 
 + (_Bool);
-- (id);
+- (id)A;
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties

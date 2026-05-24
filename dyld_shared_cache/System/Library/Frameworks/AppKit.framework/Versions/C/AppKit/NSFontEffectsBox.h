@@ -6,103 +6,64 @@
 
 #import <AppKit/NSBox.h>
 
-@class AppKit.TextShadowViewController__priv_05EA0EB8E781FFE22747790FC22932B1, NSComboBox, NSFont, NSFontPanel, NSMutableArray, NSMutableDictionary, NSPopUpButton, NSString, NSToolbarItem;
+@class NSFont;
 
 __attribute__((visibility("hidden")))
 @interface NSFontEffectsBox : NSBox
 {
     id _blurSlider;
-    id _opacitySlider;
-    id _radiusSlider;
-    id _angleDial;
-    id _mainControlsBox;
-    id _shadowControlsBox;
-    id _mainEffectsBox;
-    id _angleLabel;
-    id _underlineButton;
-    id _strikeButton;
-    id _shadowOpacitySliderToolbarItem;
-    id _shadowBlurSliderToolbarItem;
-    id _shadowOffsetSliderToolbarItem;
-    id _shadowAngleDialToolbarItem;
-    id _shadowToggleButton;
-    id _textColorButton;
-    id _documentColorButton;
-    NSMutableDictionary *_attributesToAdd;
-    NSMutableArray *_attributesToRemove;
-    id _febUnused[5];
-    int _shadowBlur;
-    int _colorState;
-    struct __feblags {
-        unsigned int showCollections:1;
-        unsigned int showSize:1;
-        unsigned int showBoldItalic:1;
-        unsigned int showUnderline:1;
-        unsigned int showStrikethrough:1;
-        unsigned int showTextColor:1;
-        unsigned int showDocumentColor:1;
-        unsigned int showShadowEffects:1;
-        unsigned int updatingAttributes:1;
-        unsigned int reserved:26;
-    } _febFlags;
-    NSFontPanel *__fontPanel;
-    NSToolbarItem *__collectionsToolbarItem;
-    NSPopUpButton *__collectionsButton;
-    NSToolbarItem *__fontSizeToolbarItem;
-    NSComboBox *__fontSizeButton;
-    NSToolbarItem *__biusToolbarItem;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (id)HTTPMaximumConnectionsPerHost;
+- (id)_didSendMetrics;
+- (void);
+- (void *)e;
+- (void)$k6;
+- (void)- updateOrAddCredential - Error update cred.  Error=%d, query=%@, attrs=%@;
+- (void)ForProtSpace - Error removing cred.  Error=%d, query=%@;
+- (void)eference Unrecognized(%{public}@);
+- (void)twork I/O Path Preference Forcing NW;
+- (void)eBrowsingEnabled is not implemented;
+- (void)d in call to prepareForExtractionToPath for task %@.  Error=%@ [%ld];
+- (void)or for task:(_Bool)arg1 %@;
+- (void)actor for task:(_Bool)arg1 %@ because of error:%@ [%ld] /* Error: Ran out of types for this method. */;
+- (void)%@ and current path was %@- reconstructing downloadfile object;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void *);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (long long);
+- (long long);
+- (void);
+- (void)ConfigurationWithIdentifier:(long long)arg1 instead;
+- (void)undSessionConfiguration:(id)arg1 is deprecated. Please use +backgroundSessionConfigurationWithIdentifier:(id)arg2 instead;
+- (void)__NSCFURLSessionConfiguration_Mutable;
+- (void)IMRemoteURLConnectionAgent;
+- (void)NSErrorFailingURLKey;
+- (_Bool)binarycookies;
+- (void)HTTPCookieStorage:(unsigned int)arg1:(const void *)arg2 copyCookiesForURL;
+- (void)com.apple.NSHTTPCookieManagerNotification;
+- (id)WriteStream;
+- (double)Challenge;
+- (id)ROR.  Failed to allocate a CFDataRef of size %ld.;
+- (void)@;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (double);
-- (id);
-- (void);
-- (void);
-- (void);
-- (long long);
+- (long long);
 - (_Bool);
 - (id);
 - (id);
@@ -124,21 +85,7 @@ __attribute__((visibility("hidden")))
 - (void)À®Íÿ$EàA;
 
 // Remaining properties
-@property(retain) NSToolbarItem *_biusToolbarItem; // @synthesize _biusToolbarItem=__biusToolbarItem;
-@property(retain) NSPopUpButton *_collectionsButton; // @synthesize _collectionsButton=__collectionsButton;
-@property(retain) NSToolbarItem *_collectionsToolbarItem; // @synthesize _collectionsToolbarItem=__collectionsToolbarItem;
-@property __weak NSFontPanel *_fontPanel; // @synthesize _fontPanel=__fontPanel;
-@property(retain) NSComboBox *_fontSizeButton; // @synthesize _fontSizeButton=__fontSizeButton;
-@property(retain) NSToolbarItem *_fontSizeToolbarItem; // @synthesize _fontSizeToolbarItem=__fontSizeToolbarItem;
-@property(nonatomic, retain) AppKit.TextShadowViewController__priv_05EA0EB8E781FFE22747790FC22932B1 *_textShadowViewController;
 @property(nonatomic, readonly) NSFont *currentFont;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

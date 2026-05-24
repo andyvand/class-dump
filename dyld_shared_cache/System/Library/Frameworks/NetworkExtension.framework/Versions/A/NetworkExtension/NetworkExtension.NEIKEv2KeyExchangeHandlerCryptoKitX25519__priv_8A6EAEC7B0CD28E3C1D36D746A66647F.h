@@ -13,7 +13,7 @@
 
 - (_Bool);
 - (id);
-- (void)ssword:domain: /* Error: Ran out of types for this method. */;
+- (void)initWithPassword:domain: /* Error: Ran out of types for this method. */;
 
 @end
 

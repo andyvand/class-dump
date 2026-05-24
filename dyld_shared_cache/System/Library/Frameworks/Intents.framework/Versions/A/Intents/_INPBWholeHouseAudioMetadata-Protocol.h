@@ -7,39 +7,20 @@
 @class NSArray;
 
 @protocol _INPBWholeHouseAudioMetadata
++ (Class);
++ (Class);
++ (Class);
+- (NSArray *);
+- (NSArray *)k;
+- (void)9;
+- (void);
+- (void);
+- (_Bool);
+- (_Bool))	;
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool hasExcept;
-@property(nonatomic) _Bool hasHasExcept;
-@property(nonatomic) _Bool hasIsAllSpeakers;
-@property(nonatomic) _Bool hasIsInHere;
-@property(nonatomic) _Bool hasIsParticipatingSpeaker;
-@property(nonatomic) _Bool hasIsPauseOrStop;
-@property(nonatomic) _Bool hasIsWholeHouseAudioCommand;
-@property(nonatomic) _Bool hasNumberOfHomeAutomationWords;
-@property(copy, nonatomic) NSArray *intentDestinationSpeakers;
-@property(readonly, nonatomic) unsigned long long intentDestinationSpeakersCount;
-@property(copy, nonatomic) NSArray *intentPermanentNames;
-@property(readonly, nonatomic) unsigned long long intentPermanentNamesCount;
-@property(copy, nonatomic) NSArray *intentSpeakerNames;
-@property(readonly, nonatomic) unsigned long long intentSpeakerNamesCount;
-@property(copy, nonatomic) NSArray *intentSpeakerRooms;
-@property(readonly, nonatomic) unsigned long long intentSpeakerRoomsCount;
-@property(nonatomic) _Bool isAllSpeakers;
-@property(nonatomic) _Bool isInHere;
-@property(nonatomic) _Bool isParticipatingSpeaker;
-@property(nonatomic) _Bool isPauseOrStop;
-@property(nonatomic) _Bool isWholeHouseAudioCommand;
-@property(nonatomic) int numberOfHomeAutomationWords;
-@property(copy, nonatomic) NSArray *permanentNames;
-@property(readonly, nonatomic) unsigned long long permanentNamesCount;
-@property(copy, nonatomic) NSArray *speakerNames;
-@property(readonly, nonatomic) unsigned long long speakerNamesCount;
-@property(copy, nonatomic) NSArray *speakerRooms;
-@property(readonly, nonatomic) unsigned long long speakerRoomsCount;
-@property(copy, nonatomic) NSArray *spokenEntityNames;
-@property(readonly, nonatomic) unsigned long long spokenEntityNamesCount;
-@property(copy, nonatomic) NSArray *spokenEntityTypes;
-@property(readonly, nonatomic) unsigned long long spokenEntityTypesCount;
 @end
 

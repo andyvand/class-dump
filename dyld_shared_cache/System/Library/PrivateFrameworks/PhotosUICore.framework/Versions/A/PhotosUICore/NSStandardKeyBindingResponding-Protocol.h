@@ -7,9 +7,16 @@
 @protocol NSStandardKeyBindingResponding
 
 @optional
+- (void);
+- (void);
+- (void)B;
+- (void);
+- (void);
+- (void);
+- (void)S;
+- (void)T;
 - (void)9ð1Â0@ù
 × ;
-- (void);
 - (void)ùþY³4ùþ;
 - (void)U~³;
 @end

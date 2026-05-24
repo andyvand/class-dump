@@ -5,5 +5,6 @@
 //
 
 @protocol EDSearchableIndexDataSource
+- (void);
 @end
 

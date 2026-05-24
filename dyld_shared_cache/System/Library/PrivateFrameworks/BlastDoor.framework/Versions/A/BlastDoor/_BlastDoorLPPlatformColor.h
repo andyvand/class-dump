@@ -7,13 +7,10 @@
 @interface _BlastDoorLPPlatformColor
 {
     double _r;
-    double _g;
-    double _b;
-    double _a;
 }
 
 - (void);
-- (double);
+- (double)SEARCH_SHOW_MORE_MAC;
 - (void);
 - (double);
 - (unsigned long long);
@@ -25,9 +22,6 @@
 - (double)|ÿ}½ÌC|ÿ;
 
 // Remaining properties
-@property(nonatomic) double a; // @synthesize a=_a;
-@property(nonatomic) double b; // @synthesize b=_b;
-@property(nonatomic) double g; // @synthesize g=_g;
 @property(nonatomic) double r; // @synthesize r=_r;
 
 @end

@@ -7,6 +7,7 @@
 @class UIEvent;
 
 @protocol WKFormPeripheral
+- (void);
 - (_Bool)gned long long>>, std::tuple<WTF::Ref<WebKit::PlaybackSessionModelContext>, WTF::Ref<WebCore::PlaybackSessionInterfaceIOS>>>>, HashFunctions = WTF::DefaultHash<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::MediaPlayerClientIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Traits = WTF::HashMap<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::MediaPlayerClientIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, std::tuple<WTF::Ref<WebKit::PlaybackSessionModelContext>, WTF::Ref<WebCore::PlaybackSessionInterfaceIOS>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::MediaPlayerClientIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 
 @optional

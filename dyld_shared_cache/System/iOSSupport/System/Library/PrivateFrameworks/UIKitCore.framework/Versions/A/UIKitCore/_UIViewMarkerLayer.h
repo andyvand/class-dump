@@ -4,43 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _UIViewMarkerLayer
 {
     void label;
-    void subLabel;
-    UIColor *alternateColor;
-    long long labelAlignment;
-    id fontSize;
-    id radius;
-    id width;
-    id labels;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)aemonCore/IMDChatRegistry.m;
+- (void)SimulatedNicknameBatch;
+- (void)<;
 - (void);
 - (long long);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id)
 × ;
-- (void)resentedViewInContainerView;
+- (void)FrameOfPresentedViewInContainerView;
 - (void)®àn;
 - (void)êl;
 
 // Remaining properties
-@property(nonatomic, retain) UIColor *alternateColor; // @synthesize alternateColor;
 @property(nonatomic, copy) NSString *label;
-@property(nonatomic) long long labelAlignment; // @synthesize labelAlignment;
-@property(nonatomic, copy) NSString *subLabel;
 
 @end
 

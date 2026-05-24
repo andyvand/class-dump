@@ -16,12 +16,12 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (unsigned int);
-- (id);
+- (id)�h;
 - (void);
 - (id);
 - (unsigned int);
 - (id);
-- (id);
+- (id)stopObserving: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) unsigned int isRequired; // @synthesize isRequired=_isRequired;

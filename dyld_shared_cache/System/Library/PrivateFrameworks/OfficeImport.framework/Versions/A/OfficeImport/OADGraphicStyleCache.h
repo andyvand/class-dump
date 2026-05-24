@@ -4,28 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, OADGraphicFeatureCache;
+@class OADGraphicFeatureCache;
 
 __attribute__((visibility("hidden")))
 @interface OADGraphicStyleCache
 {
     OADGraphicFeatureCache *mFillCacheArray[4];
-    OADGraphicFeatureCache *mStrokeCache;
-    OADGraphicFeatureCache *mShadowCache;
-    OADGraphicFeatureCache *mColorCache;
-    OADGraphicFeatureCache *mFontFaceCache;
-    OADGraphicFeatureCache *mTextStyleCache;
-    OADGraphicFeatureCache *mTableIdCache;
-    NSMutableDictionary *mTableStyleCache;
-    OADGraphicFeatureCache *mChartIdCache;
-    OADGraphicFeatureCache *mDrawableStyleCacheArray[4];
 }
 
-+ (int);
++ (int);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)|;
 - (id);
 - (id);
 - (id);
@@ -36,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)K;
 - (void);
 - (void);
 - (id);

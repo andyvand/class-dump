@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKConversation, NSDictionary;
+@class CKConversation;
 
 @interface CKCallButtonStateResolver
 {
     CKConversation *_conversation;
-    NSDictionary *_screenSharingCapabilities;
 }
 
+- (void)refreshInterval;
+- (id)tedString;
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)t;
 - (void);
 - (id)
 × ;
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CKConversation *conversation; // @synthesize conversation=_conversation;
-@property(retain, nonatomic) NSDictionary *screenSharingCapabilities; // @synthesize screenSharingCapabilities=_screenSharingCapabilities;
 
 @end
 

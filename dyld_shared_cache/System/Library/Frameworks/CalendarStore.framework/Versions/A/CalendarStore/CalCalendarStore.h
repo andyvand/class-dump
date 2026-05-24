@@ -11,7 +11,7 @@
     EKEventStore *_eventStore;
 }
 
-+ (id);
++ (id)!;
 + (id);
 + (id);
 + (id);
@@ -24,7 +24,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)2	;
 + (id);
 + (id);
 - (id);
@@ -33,14 +33,14 @@
 - (_Bool);
 - (void);
 - (id);
+- (id);
 - (id);
+- (long long)A;
 - (id);
-- (long long);
-- (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)R;
+- (_Bool);
 - (id);
 - (_Bool);
 - (id);

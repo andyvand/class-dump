@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 + (_Bool)ceive reply;
 - (id);
-- (id);
+- (id)<;
 - (void);
 - (id)a}1Ð!ÀEù1z51Â0@ù
 × ;

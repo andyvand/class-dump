@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSSet, _PFVMData;
+@class _PFVMData;
 
 @interface NSManagedObjectModel
 {
     _PFVMData *_dataForOptimization;
-    id *_optimizationHints;
-    id *_additionalPrivateIvars;
-    NSMutableDictionary *_entities;
-    NSMutableDictionary *_configurations;
-    NSMutableDictionary *_fetchRequestTemplates;
-    NSSet *_versionIdentifiers;
-    struct __managedObjectModelFlags {
-        unsigned int _isInUse:1;
-        unsigned int _isImmutable:1;
-        unsigned int _isOptimizedForEncoding:1;
-        unsigned int _hasEntityWithConstraints:1;
-        unsigned int _skipUserInfoTombstones:1;
-        unsigned int _reservedEntityDescription:27;
-    } _managedObjectModelFlags;
 }
 
 @end

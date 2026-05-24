@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, TranscriptDOMController;
+@class TranscriptDOMController;
 
 @interface TranscriptDOMEventHandler
 {
     _Bool _selectedMessagesAreTextSelectable;
-    _Bool _anyTextSelectable;
-    TranscriptDOMController *_domController;
-    NSMutableDictionary *_queuedRemoves;
-    NSMutableDictionary *_elementIDToAnimationBlock;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)";
 - (void);
 - (void);
 - (_Bool);
@@ -31,23 +27,12 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)Factor;
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool anyTextSelectable; // @synthesize anyTextSelectable=_anyTextSelectable;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) __weak TranscriptDOMController *domController; // @synthesize domController=_domController;
-@property(retain, nonatomic) NSMutableDictionary *elementIDToAnimationBlock; // @synthesize elementIDToAnimationBlock=_elementIDToAnimationBlock;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableDictionary *queuedRemoves; // @synthesize queuedRemoves=_queuedRemoves;
-@property(nonatomic) _Bool selectedMessagesAreTextSelectable; // @synthesize selectedMessagesAreTextSelectable=_selectedMessagesAreTextSelectable;
-@property(readonly) Class superclass;
 
 @end
 

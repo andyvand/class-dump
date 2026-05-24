@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 
 - (double);
 - (id);
-- (double)w;
-- (double)extInputSessionUndoAction;
+- (double)_UIDocumentPropertiesHeaderView;
+- (double)_UITextInputSessionUndoAction;
 - (double)IndexPath:. Collection view:%@; index path:%@; cell:%@ /* Error: Ran out of types for this method. */;
 
 @end

@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCUserEventHistoryAggregateStoreData, FCUserEventHistoryEventCounts;
-
 @interface FCUserEventHistoryMetadata
 {
     long long _aggregateStoreGenerationTime;
-    long long _aggregateTotalCount;
-    double _meanCountOfEvents;
-    long long _sessionsOnDiskSize;
-    double _standardDeviationOfEvents;
-    long long _totalEventsCount;
-    long long _headlineEventCount;
-    long long _headlinesWithValidTitleEmbeddingsEventCount;
-    long long _headlinesWithInvalidTitleEmbeddingsEventCount;
-    long long _headlinesWithValidBodyEmbeddingsEventCount;
-    long long _headlinesWithInvalidBodyEmbeddingsEventCount;
-    FCUserEventHistoryEventCounts *_eventCounts;
-    FCUserEventHistoryAggregateStoreData *_aggregateStoreData;
 }
 
 + (id);
@@ -36,39 +22,27 @@
 - (void);
 - (void);
 - (long long);
-- (void);
-- (void);
-- (void);
+- (void)rgeableTile beginAccess]_block_invoke;
+- (void)functionWithControlPoints:(long long)arg1::: /* Error: Ran out of types for this method. */;
+- (void)onsSimpleStrategy.m;
 - (id);
-- (void);
-- (void);
-- (long long);
+- (void)hasSimilarOptionsTo:(double)arg1;
 - (void);
 - (long long);
+- (void);
+- (long long);
 - (long long);
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (long long);
 - (long long)1)	ð1Â0@ù
 × ;
-- (long long)ifyNetworkReachabilityConnectivityDidChange;
-- (void)terSizeIPadAutoFavorite;
+- (long long)_notifyNetworkReachabilityConnectivityDidChange;
+- (void)maxIdealClusterSizeIPadAutoFavorite;
 
 // Remaining properties
-@property(retain, nonatomic) FCUserEventHistoryAggregateStoreData *aggregateStoreData; // @synthesize aggregateStoreData=_aggregateStoreData;
 @property(nonatomic) long long aggregateStoreGenerationTime; // @synthesize aggregateStoreGenerationTime=_aggregateStoreGenerationTime;
-@property(nonatomic) long long aggregateTotalCount; // @synthesize aggregateTotalCount=_aggregateTotalCount;
-@property(retain, nonatomic) FCUserEventHistoryEventCounts *eventCounts; // @synthesize eventCounts=_eventCounts;
-@property(nonatomic) long long headlineEventCount; // @synthesize headlineEventCount=_headlineEventCount;
-@property(nonatomic) long long headlinesWithInvalidBodyEmbeddingsEventCount; // @synthesize headlinesWithInvalidBodyEmbeddingsEventCount=_headlinesWithInvalidBodyEmbeddingsEventCount;
-@property(nonatomic) long long headlinesWithInvalidTitleEmbeddingsEventCount; // @synthesize headlinesWithInvalidTitleEmbeddingsEventCount=_headlinesWithInvalidTitleEmbeddingsEventCount;
-@property(nonatomic) long long headlinesWithValidBodyEmbeddingsEventCount; // @synthesize headlinesWithValidBodyEmbeddingsEventCount=_headlinesWithValidBodyEmbeddingsEventCount;
-@property(nonatomic) long long headlinesWithValidTitleEmbeddingsEventCount; // @synthesize headlinesWithValidTitleEmbeddingsEventCount=_headlinesWithValidTitleEmbeddingsEventCount;
-@property(nonatomic) double meanCountOfEvents; // @synthesize meanCountOfEvents=_meanCountOfEvents;
-@property(nonatomic) long long sessionsOnDiskSize; // @synthesize sessionsOnDiskSize=_sessionsOnDiskSize;
-@property(nonatomic) double standardDeviationOfEvents; // @synthesize standardDeviationOfEvents=_standardDeviationOfEvents;
-@property(nonatomic) long long totalEventsCount; // @synthesize totalEventsCount=_totalEventsCount;
 
 @end
 

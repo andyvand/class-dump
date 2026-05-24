@@ -9,8 +9,6 @@
 @interface PXGHostingControllerProposedSize
 {
     _Bool _shouldPreferAcceptingReferenceSize;
-    PXGHostingController *_hostingController;
-    struct CGSize _referenceSize;
 }
 
 - (void);
@@ -25,8 +23,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak PXGHostingController *hostingController; // @synthesize hostingController=_hostingController;
-@property(readonly, nonatomic) struct CGSize referenceSize; // @synthesize referenceSize=_referenceSize;
-@property(readonly, nonatomic) _Bool shouldPreferAcceptingReferenceSize; // @synthesize shouldPreferAcceptingReferenceSize=_shouldPreferAcceptingReferenceSize;
 
 @end
 

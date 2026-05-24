@@ -4,10 +4,78 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKConversation, CKFullScreenEffectManager, CKImpactEffectManager, CKTranscriptCollectionView, CKTranscriptLayoutMessageEditingContext, IMChat, NSArray, NSIndexSet, NSMutableArray, NSObject, NSString, UIColor, UIInputContextHistory, UITapGestureRecognizer, UIView;
-@protocol CKGradientReferenceView, CKTranscriptCollectionViewControllerDelegate, OS_dispatch_group, UIDragInteractionDelegate, UIGestureRecognizerDelegate;
+@class CKBalloonView, CKFullScreenEffectManager, CKImpactEffectManager, CKMessagePartChatItem, CKRaiseGesture, CKTranscriptLayoutMessageEditingContext, NSArray, NSIndexPath, NSIndexSet, NSMutableArray, NSString, UIInputContextHistory, UITapGestureRecognizer, UIView;
+@protocol CKGradientReferenceView, UIDragInteractionDelegate, UIGestureRecognizerDelegate;
 
 @protocol CKCoreTranscriptControllerProtocol
+- (id <UIGestureRecognizerDelegate>);
+- (void)"16@"WKNavigationAction"24@"WKDownload"32;
+- (_Bool)tifier";
+- (void)rsionedDocument";
+- (void)t<ICTTTextUndoTarget>";
+- (void)}24;
+- (void)d}{CGSize=dd}}16B48;
+- (void)omiseProvider"16;
+- (void)webView:(id <UIGestureRecognizerDelegate>)arg1 runJavaScriptConfirmPanelWithMessage:initiatedByFrame:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)updateStringsForChangeModeFrom;
+- (void)unprocessedDocumentImage;
+- (void)textStorage:(NSString *)arg1 didReplace:with: /* Error: Ran out of types for this method. */;
+- (void)textContentStorageCreateIfNeeded;
+- (void)sortDescriptorsWithDirection: /* Error: Ran out of types for this method. */;
+- (void)showRecentUpdatesForNoteWithObjectID:(CKTranscriptLayoutMessageEditingContext *)arg1;
+- (void)setRenderingMode:(CKImpactEffectManager *)arg1;
+- (void)setPauseMergeForScrollingCounter:(NSIndexSet *)arg1;
+- (void)setPasswordProtectedOnly:(NSIndexSet *)arg1;
+- (void)setPasswordLabel:(NSIndexSet *)arg1;
+- (void)setNegative:(NSMutableArray *)arg1;
+- (void)setNeedsFetchedResultsControllerUpdate:(CKFullScreenEffectManager *)arg1;
+- (void)setHasSharedObjectsNotFromDestinationAccountInSource:(id <UIDragInteractionDelegate>)arg1;
+- (void)setCachedControlViewForPlaceView:(long long)arg1;
+- (void)removeLockWithCompletionHandler:(_Bool)arg1;
+- (NSArray *)postProcessThumbnail:configuration: /* Error: Ran out of types for this method. */;
+- (void)oldPasswordLabel;
+- (void)isPreviewingResult;
+- (void)isPerformingHighlightUpdatesForTextStorage:(long long)arg1;
+- (void)initWithSystemPaperThumbnailService:(CKRaiseGesture *)arg1;
+- (NSString *)ic_preferredFontAndLineHeight:forAttachmentBoldTextWithZoomController: /* Error: Ran out of types for this method. */;
+- (double)ic_localizedNameWithDefaultFormattingStyle;
+- (CKTranscriptLayoutMessageEditingContext *)cipherVersionForObject: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)attributedStringFromHTMLString:baseURL:readerDelegate: /* Error: Ran out of types for this method. */;
+- (UITapGestureRecognizer *)assetWithCompletion: /* Error: Ran out of types for this method. */;
+- (CKMessagePartChatItem *)_webView:requestNotificationPermissionForSecurityOrigin:decisionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)_showsEditorDebugTooltips;
+- (_Bool)_shouldIgnoreUndoRedoBecauseWritingToolsIsActiveWithOpenGroup;
+- (void)_foregroundAlpha;
+- (id)nary",R,N,V_mergeableStringDelegates;
+- (id)"NSMutableDictionary",R,N,V_cachedIdealColumnWidths;
+- (id)SMutableDictionary",&,N,V_hairlineLayers;
+- (id)stSectionIdentifiersToVirtualSmartFolderIdentifiers;
+- (NSIndexPath *)inkWithIdentifier:color:weight: /* Error: Ran out of types for this method. */;
+- (NSIndexPath *)earchHighlightColor;
+- (NSIndexPath *)initWithNote:(CKBalloonView *)arg1 textLayoutManager: /* Error: Ran out of types for this method. */;
+- (CKImpactEffectManager *)ic_serializeWithFlags:dataPersister:managedObjectContext:error: /* Error: Ran out of types for this method. */;
+- (void)canAuthenticate;
+- (NSIndexSet *)V_touchBarController;
+- (NSIndexSet *)attachmentSizeForTextContainer: /* Error: Ran out of types for this method. */;
+- (NSIndexSet *)urationLabel;
+- (NSMutableArray *)setNeedsUpdateManagedObjectIDs: /* Error: Ran out of types for this method. */;
+- (CKFullScreenEffectManager *)refreshInterval;
+- (void)ICCopyModernNotesToLegacyAccountOperation;
+- (void)ItemIdentifier;
+- (void)ICTK2TodoTextAttachment;
+- (void)Private;
+- (void)41(2;
+- (void);
+- (void)ticipantCSgG;
+- (CKBalloonView *)G;
+- (_Bool)So7CKShareCSg;
+- (struct UIEdgeInsets)l;
+- (NSString *)an't get selection rect from NoteWKWebView, error:%@ /* Error: Ran out of types for this method. */;
+- (void)e identifier is nil;
+- (void)e after accepting share %@;
+- (_Bool)ect:(NSString *)arg1 qualityOfService:completionHandler:shareArgument is nil /* Error: Ran out of types for this method. */;
+- (double)size:%.1f, scale %.1f /* Error: Ran out of types for this method. */;
+- (void)ating locked note if needed… {note:(UITapGestureRecognizer *)arg1 %@}%s:%d /* Error: Ran out of types for this method. */;
 - (UIView<CKGradientReferenceView> *)°1Â0@ù
 × ;
 - (void)0@ù
@@ -16,41 +84,10 @@
 - (UIInputContextHistory *)L;
 - (void).;
 
+@optional
+- (UIView *)objectWithID:(UIView *)arg1;
+
 // Remaining properties
-@property(retain, nonatomic, setter=__setCurrentTestName:) NSString *__CurrentTestName;
-@property(nonatomic) _Bool allowsPluginPlayback;
-@property(readonly, copy, nonatomic) NSArray *associatedChatItems;
-@property(readonly, nonatomic) double balloonMaxWidth;
-@property(readonly, nonatomic) IMChat *chat;
-@property(readonly, copy, nonatomic) NSArray *chatItems;
-@property(readonly, nonatomic) CKTranscriptCollectionView *collectionView;
-@property(nonatomic) long long contentAnimationPauseReasons;
-@property(readonly, nonatomic) CKConversation *conversation;
-@property(nonatomic) __weak id <CKTranscriptCollectionViewControllerDelegate> delegate;
-@property(nonatomic) __weak id <UIDragInteractionDelegate> dragInteractionDelegate;
-@property(retain, nonatomic) CKFullScreenEffectManager *fullscreenEffectManager;
-@property(copy, nonatomic) NSString *generatedSummary;
-@property(copy, nonatomic) NSMutableArray *generativeContextHistory;
-@property(retain, nonatomic) UIView<CKGradientReferenceView> *gradientReferenceView;
-@property(copy, nonatomic) NSIndexSet *hiddenAssociatedItems;
-@property(copy, nonatomic) NSIndexSet *hiddenAssociatedItemsForMessageEditing;
-@property(copy, nonatomic) NSIndexSet *hiddenBalloonViews;
-@property(copy, nonatomic) NSIndexSet *hiddenItems;
-@property(retain, nonatomic) CKImpactEffectManager *impactEffectManager;
-@property(retain, nonatomic) UIInputContextHistory *inputContextHistory;
-@property(retain, nonatomic) UITapGestureRecognizer *loggingTapGestureRecognizer;
-@property(readonly, nonatomic) struct UIEdgeInsets marginInsets;
-@property(retain, nonatomic) CKTranscriptLayoutMessageEditingContext *messageEditingContext;
-@property(nonatomic) double pluginPlaybackDelay;
-@property(copy, nonatomic) NSString *poppedBalloonGUIDHiddenUntilNextChatItemUpdate;
-@property(nonatomic) _Bool shouldLoadDefaultConversationViewingMessageCountOnAppear;
-@property(nonatomic) __weak id <UIGestureRecognizerDelegate> stickerRepositionGestureDelegate;
-@property(retain, nonatomic) UIColor *transcriptBackgroundColor;
-@property(nonatomic) double transcriptBackgroundLuminance;
 @property(readonly, nonatomic) NSString *transcriptIdentifier;
-@property(nonatomic, getter=isTranscriptUpdateAnimated) _Bool transcriptUpdateAnimated;
-@property(nonatomic) _Bool transitionedFromComposing;
-@property(nonatomic) _Bool transitioningFromComposing;
-@property(readonly, nonatomic) NSObject<OS_dispatch_group> *updateAnimationGroup;
 @end
 

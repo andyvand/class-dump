@@ -7,9 +7,6 @@
 @interface RemindersUICore.TTRMReminderDetailURLTextEditorCoordinator
 {
     id textView;
-    id isHandlingReturnKey;
-    id urlString;
-    id delegate;
 }
 
 - (id);

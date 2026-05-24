@@ -6,37 +6,31 @@
 
 #import <ConfigurationEngineModel/CEMPayloadBase.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface CEMSystemMigrationDeclaration_CustomBehaviorItemPathsItem : CEMPayloadBase
 {
     NSString *_payloadSourcePath;
-    NSNumber *_payloadSourcePathInUserHome;
-    NSString *_payloadTargetPath;
-    NSNumber *_payloadTargetPathInUserHome;
 }
 
++ (id);
 + (id);
 + (id);
-+ (id);
+- (void)i;
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
+- (_Bool)on failed with info dictionary %s;
+- (id)nalysis25XPCTerminalProxyEncodableP;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *payloadSourcePath; // @synthesize payloadSourcePath=_payloadSourcePath;
-@property(copy, nonatomic) NSNumber *payloadSourcePathInUserHome; // @synthesize payloadSourcePathInUserHome=_payloadSourcePathInUserHome;
-@property(copy, nonatomic) NSString *payloadTargetPath; // @synthesize payloadTargetPath=_payloadTargetPath;
-@property(copy, nonatomic) NSNumber *payloadTargetPathInUserHome; // @synthesize payloadTargetPathInUserHome=_payloadTargetPathInUserHome;
 
 @end
 

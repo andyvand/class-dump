@@ -9,7 +9,6 @@
 @interface PKPaymentSummaryItemValidator
 {
     NSString *_currencyCode;
-    PKPaymentSummaryItem *_item;
 }
 
 + (id);
@@ -20,18 +19,10 @@
 - (id);
 - (id)24@?<v@?@"NSError">32;
 - (_Bool)invitation!;
-- (void)anagerURL;
+- (void)TrustedServiceManagerURL;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) PKPaymentSummaryItem *item; // @synthesize item=_item;
-@property(readonly) Class superclass;
 
 @end
 

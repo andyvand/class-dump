@@ -10,9 +10,6 @@
 @interface ICPeerMessageController
 {
     NSMutableDictionary *_deviceRequests;
-    NSMutableDictionary *_sourceToDevices;
-    NSMutableDictionary *_deviceUUIDToSource;
-    id <ICPeerMessageControllerDelegate> _delegate;
 }
 
 - (id);
@@ -22,13 +19,13 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
+- (id).A.dylib;
+- (id)R;
 - (id);
 - (void);
 - (void)Ô¹àº	¤»¼¼¾p¾è¾T¿;

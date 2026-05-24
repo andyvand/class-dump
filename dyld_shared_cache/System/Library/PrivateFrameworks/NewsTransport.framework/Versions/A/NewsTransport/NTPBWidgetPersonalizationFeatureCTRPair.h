@@ -4,39 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NTPBWidgetPersonalizationFeatureCTRPair
 {
     float _ctr;
-    NSString *_personalizationFeatureId;
-    struct {
-        unsigned int ctr:1;
-    } _has;
 }
 
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (float);
+- (void)initWithPathToVideo:(id)arg1 pathToImage: /* Error: Ran out of types for this method. */;
+- (void)importSource:(_Bool)arg1 didAddAssets: /* Error: Ran out of types for this method. */;
+- (id)focusOnGeotaggablesAnimated: /* Error: Ran out of types for this method. */;
+- (_Bool)enumerateStatesAtIndexes:usingBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)nge: /* Error: Ran out of types for this method. */;
+- (void)countOfQueryTerms;
+- (float)coordinatorForActivity: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)init];
+- (_Bool)e has changed, firing observers;
 - (id);
 - (id);
 - (void)reenPresentationReason"b1"arrivedFromAd"b1"subscriptionOnlyArticlePreview"b1};
 
 // Remaining properties
-@property(nonatomic) float ctr; // @synthesize ctr=_ctr;
-@property(nonatomic) _Bool hasCtr;
 @property(readonly, nonatomic) _Bool hasPersonalizationFeatureId;
-@property(retain, nonatomic) NSString *personalizationFeatureId; // @synthesize personalizationFeatureId=_personalizationFeatureId;
 
 @end
 

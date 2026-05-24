@@ -4,35 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface PGMeaningSummarizedFeature
 {
     _Bool _isMandatoryForKeyAsset;
-    unsigned short _type;
-    NSSet *_intervalsPresent;
-    NSString *_meaningLabel;
 }
 
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)makeApplicationFrontmost:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)isEditableTextElement: /* Error: Ran out of types for this method. */;
+- (id)_findNextEffectiveElementFromElement:(id)arg1 direction:(_Bool)arg2 type:(id)arg3 scope: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned short);
 - (void).m;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSSet *intervalsPresent; // @synthesize intervalsPresent=_intervalsPresent;
-@property(readonly, nonatomic) _Bool isMandatoryForKeyAsset; // @synthesize isMandatoryForKeyAsset=_isMandatoryForKeyAsset;
 @property(readonly, nonatomic) NSString *meaningLabel; // @synthesize meaningLabel=_meaningLabel;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned short type; // @synthesize type=_type;
 
 @end
 

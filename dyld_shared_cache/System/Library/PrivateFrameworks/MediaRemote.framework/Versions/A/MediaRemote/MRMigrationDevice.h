@@ -4,45 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRAVEndpoint, MRNowPlayingPlayerResponse, MRQHONowPlayingController, NSError, NSObject, NSString;
-@protocol MRMigrationDeviceDelegate, OS_dispatch_queue;
+@class MRQHONowPlayingController;
 
 __attribute__((visibility("hidden")))
 @interface MRMigrationDevice
 {
     _Bool _preparedForAirPlay;
-    unsigned long long _deviceState;
-    NSError *_prepareError;
-    id <MRMigrationDeviceDelegate> _delegate;
-    MRQHONowPlayingController *_controller;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
-+ (id);
++ (id)hhx;
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (id);
+- (void)6{;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)c;
+- (id)*;
+- (id)setImageRefInternal: /* Error: Ran out of types for this method. */;
+- (id)cancelPreviousPerformRequestsWithTarget: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)simulateMessageReceive:(id)arg1 serviceName:groupID:handles:sender: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)SecMPComputePaddingForStorage;
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id),ey
+;
 - (unsigned long long);
 - (id);
 - (void);
@@ -51,22 +46,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) MRQHONowPlayingController *controller; // @synthesize controller=_controller;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MRMigrationDeviceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long deviceState; // @synthesize deviceState=_deviceState;
-@property(readonly, nonatomic) MRAVEndpoint *endpoint;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isPrepared;
-@property(readonly, nonatomic) MRNowPlayingPlayerResponse *playerState;
-@property(retain, nonatomic) NSError *prepareError; // @synthesize prepareError=_prepareError;
-@property(nonatomic) _Bool preparedForAirPlay; // @synthesize preparedForAirPlay=_preparedForAirPlay;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *uid;
 
 @end
 

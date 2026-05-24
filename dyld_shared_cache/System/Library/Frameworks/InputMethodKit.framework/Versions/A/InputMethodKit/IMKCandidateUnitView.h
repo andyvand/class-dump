@@ -6,19 +6,11 @@
 
 #import <InputMethodKit/IMKUIView.h>
 
-@class IMKCandidateController, IMKCandidateLayoutUnit, IMKCandidateUnitViewContentView, NSColor, NSString;
+@class IMKCandidateLayoutUnit, IMKCandidateUnitViewContentView;
 
 @interface IMKCandidateUnitView : IMKUIView
 {
     IMKCandidateLayoutUnit *_layoutUnit;
-    IMKCandidateController *_controller;
-    IMKCandidateUnitViewContentView *_contentView;
-    _Bool _animateChanges;
-    _Bool _keptHidden;
-    NSString *_guideNumber;
-    _Bool _forceNoSelection;
-    _Bool _roundsLeftCorners;
-    _Bool _roundsRightCorners;
 }
 
 - (void);
@@ -27,13 +19,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)8h;
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)9;
+- (id);
 - (id);
-- (id);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -47,7 +39,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)tRemote setOneToOneModeEnabled:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -59,25 +51,7 @@
 - (id)8@H`;
 
 // Remaining properties
-@property(nonatomic) _Bool animateChanges; // @synthesize animateChanges=_animateChanges;
-@property(retain, nonatomic) NSColor *backgroundColor;
 @property(retain, nonatomic) IMKCandidateUnitViewContentView *contentView; // @synthesize contentView=_contentView;
-@property(nonatomic) IMKCandidateController *controller; // @synthesize controller=_controller;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool drawsBackgroundColor;
-@property(nonatomic) _Bool forceNoSelection; // @synthesize forceNoSelection=_forceNoSelection;
-@property(copy, nonatomic) NSString *guideNumber; // @synthesize guideNumber=_guideNumber;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool keptHidden; // @synthesize keptHidden=_keptHidden;
-@property(retain, nonatomic) IMKCandidateLayoutUnit *layoutUnit; // @synthesize layoutUnit=_layoutUnit;
-@property(nonatomic) _Bool roundsLeftCorners; // @synthesize roundsLeftCorners=_roundsLeftCorners;
-@property(nonatomic) _Bool roundsRightCorners; // @synthesize roundsRightCorners=_roundsRightCorners;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *uniqueKey;
 
 @end
 

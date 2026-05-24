@@ -7,7 +7,6 @@
 @interface PXPlacesMapThumbnailLocationCurator
 {
     Class _locationCuratorClass;
-    unsigned long long _curatedThumbnailsLimit;
 }
 
 - (Class);
@@ -15,10 +14,9 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void)creenshotDimension;
+- (void)maximumFullPageScreenshotDimension;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long curatedThumbnailsLimit; // @synthesize curatedThumbnailsLimit=_curatedThumbnailsLimit;
 @property(readonly, nonatomic) Class locationCuratorClass; // @synthesize locationCuratorClass=_locationCuratorClass;
 
 @end

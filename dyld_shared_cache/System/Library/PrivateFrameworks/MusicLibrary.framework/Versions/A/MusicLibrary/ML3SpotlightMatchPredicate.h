@@ -6,20 +6,18 @@
 
 #import <MusicLibrary/ML3Predicate.h>
 
-@class ML3SpotlightNameCache, NSArray, NSString;
+@class ML3SpotlightNameCache, NSString;
 
 @interface ML3SpotlightMatchPredicate : ML3Predicate
 {
     ML3SpotlightNameCache *_names;
-    NSArray *_searchProperties;
-    NSString *_searchString;
 }
 
-+ (id);
-- (id);
++ (id)transactionToken;
+- (id)_MSASSharingRelationships;
 - (void);
-- (id);
-- (void);
+- (id)HMFHTTPRequestHandler;
+- (void)itemsAtIndex:(id)arg1;
 - (void)mote_location_id < 200 OR item_stats.liked_state = 2)) OR (item.base_location_id = 0 AND item.keep_local_status = 1);
 - (id)0 AND purchase_history_id != 0 AND sync_id = 0;
 - (id)ent_rating, movie_info, has_alternate_audio, has_subtitles, audio_language, audio_track_index, audio_track_id, subtitle_language, subtitle_track_index, rental_duration, rental_playback_duration, rental_playback_date_started, rental_date_started, is_demo FROM item_extra;

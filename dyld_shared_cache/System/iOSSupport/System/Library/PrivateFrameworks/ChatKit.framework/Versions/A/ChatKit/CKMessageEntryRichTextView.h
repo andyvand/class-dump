@@ -6,36 +6,27 @@
 
 #import <ChatKit/CKMessageEntryTextView.h>
 
-@class NSMutableDictionary, NSString, UIView;
-@protocol CKMessageEntryRichTextViewDelegate;
+@class NSMutableDictionary;
 
 @interface CKMessageEntryRichTextView : CKMessageEntryTextView
 {
     BOOL _balloonColor;
-    _Bool _disableKeyboardStickers;
-    _Bool _allowPollSuggestions;
-    _Bool _disableAttachments;
-    UIView *_textContainerOverlayView;
-    NSMutableDictionary *_mediaObjects;
-    NSMutableDictionary *_pluginDisplayContainers;
-    NSMutableDictionary *_embeddedRichLinkConfigurations;
-    NSMutableDictionary *_composeImages;
 }
 
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)invalidateAttachmentPreviewImages;
+- (id)generateFullSizePreviewWithAttachmentIdentifier:existingPreviewImage:markupModelData:imageOrientation:imageFilterType:mediaDecryptedData:mediaURL:mediaSize:croppingQuad: /* Error: Ran out of types for this method. */;
+- (_Bool)errorNameForResultAttachment:(id)arg1;
+- (void)copyValuesFromLegacyNote:(id)arg1 toNote:styler:attachmentPreviewGenerator: /* Error: Ran out of types for this method. */;
+- (void)copyValuesFromButton:(id)arg1 toButton: /* Error: Ran out of types for this method. */;
+- (void)copyNSParagraphStylefromAttributes:(id)arg1 toAttributes: /* Error: Ran out of types for this method. */;
+- (_Bool)attachmentPreviewImageWithMinSize:scale:appearanceType:requireAppearance: /* Error: Ran out of types for this method. */;
+- (void)_thumbnailDecorationType;
+- (void)V_size;
+- (void)acceptShareWithMetadata:(id)arg1 managedObjectContext:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)electedPlainLinkAction;
+- (void)lableTableWidthProviding>",R,W,N,V_delegate;
+- (void),V_observedButtons;
+- (void)initWithDefaults:(BOOL)arg1 initialValues: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -43,44 +34,45 @@
 - (id);
 - (double);
 - (void);
+- (void)SgG;
+- (void)yAbLGAPGGG;
+- (void);
+- (void)So20ICCloudSyncingObjectCSg;
+- (void)gG;
+- (void)So20ICCloudSyncingObjectCSgG;
 - (void);
 - (void);
 - (void);
+- (id)Z9yyXlG;
+- (_Bool)a;
 - (void);
+- (void)x;
+- (id)s;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id));
 - (_Bool);
-- (void);
-- (void);
+- (void)h;
+- (void)D;
+- (id)lculate result {note:%s} /* Error: Ran out of types for this method. */;
+- (id)};
+- (void)xist for attachment, taking some extra time to generate it:(id)arg1 %@;
+- (void)as removed from the note;
+- (id)%lld notes;
 - (id);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (BOOL);
-- (id);
-- (_Bool);
-- (id);
-- (void);
+- (BOOL)ordPromptPresentedCount-%@;
+- (id)troller updatePendingInvitationsInAccountWithID:(id)arg1 receivedSince:]_block_invoke_4 /* Error: Ran out of types for this method. */;
+- (_Bool)AXEnhancedUserInterface;
+- (id)ForParticipants:(id)arg1 ];
+- (void)Expected nil value for '%s';
 - (struct _NSRange);
-- (id);
-- (id);
+- (id);
+- (id)?l!
+;
 - (void);
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
@@ -102,38 +94,22 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (id)data:(SEL)arg1 completionHandler:(id)arg2;
-- (void)leURL:(id)arg1;
+- (void)setLinkFileURL:(id)arg1;
 - (_Bool)TÅ¢ÿì;
 - (void)render because no drawable available;
 - (void)p°;
 - (void);
-- (void)ameraUserConsentManager;
+- (void)FunCameraUserConsentManager;
 - (void)(;
 - (void);
 - (_Bool)1;
 
 // Remaining properties
-@property(nonatomic) _Bool allowPollSuggestions; // @synthesize allowPollSuggestions=_allowPollSuggestions;
-@property(nonatomic) BOOL balloonColor; // @synthesize balloonColor=_balloonColor;
-@property(retain, nonatomic) NSMutableDictionary *composeImages; // @synthesize composeImages=_composeImages;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKMessageEntryRichTextViewDelegate> delegate; // @dynamic delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool disableAttachments; // @synthesize disableAttachments=_disableAttachments;
-@property(nonatomic) _Bool disableKeyboardStickers; // @synthesize disableKeyboardStickers=_disableKeyboardStickers;
-@property(retain, nonatomic) NSMutableDictionary *embeddedRichLinkConfigurations; // @synthesize embeddedRichLinkConfigurations=_embeddedRichLinkConfigurations;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSMutableDictionary *mediaObjects; // @synthesize mediaObjects=_mediaObjects;
-@property(retain, nonatomic) NSMutableDictionary *pluginDisplayContainers; // @synthesize pluginDisplayContainers=_pluginDisplayContainers;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIView *textContainerOverlayView; // @synthesize textContainerOverlayView=_textContainerOverlayView;
 
 @end
 

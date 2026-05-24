@@ -9,25 +9,6 @@
 @interface VNFaceAttributes
 {
     unsigned long long _requestRevision;
-    VNFaceAttributeCategory *_ageCategory;
-    VNFaceAttributeCategory *_VN7exwFFmQF0AI9P7FjBljwEFu7QYUGCYE;
-    VNFaceAttributeCategory *_eyesCategory;
-    VNFaceAttributeCategory *_smilingCategory;
-    VNFaceAttributeCategory *_faceHairCategory;
-    VNFaceAttributeCategory *_hairColorCategory;
-    VNFaceAttributeCategory *_baldCategory;
-    VNFaceAttributeCategory *_glassesCategory;
-    VNFaceAttributeCategory *_makeupCategory;
-    VNFaceAttributeCategory *_makeupEyesCategory;
-    VNFaceAttributeCategory *_makeupLipsCategory;
-    VNFaceAttributeCategory *_VN1uMyFtnYEWjbrdx3yAuDndKkPeyzNJhB;
-    VNFaceAttributeCategory *_VN4UfLbvVUqMvYV8bbGFQcxg5yRLm8ekI1;
-    VNFaceAttributeCategory *_VN7CbCeAogPS2iHE6VQwu6H96xanljtMqk;
-    VNFaceAttributeCategory *_VN7fiLHgGnvqPqG63cfDUCK4Xm8obUuWoP;
-    VNFaceAttributeCategory *_VN2riiZbQrloRhCzYW56f0rk4N3ROe151S;
-    VNFaceAttributeCategory *_VNpLorzxnyAlLcPFNcKhgoNCmy9b5BRWyk;
-    VNFaceAttributeCategory *_VN3iT1YRjjnIuELobV1olJiO1vvItN6Kdq;
-    VNFaceAttributeCategory *_facemaskCategory;
 }
 
 + (_Bool);
@@ -61,7 +42,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)checkDomainsCanBeStored:(id)arg1 onVolumeAtURL:unsupportedReason:error: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
 - (_Bool);
@@ -74,34 +55,6 @@
 
 // Remaining properties
 @property(readonly) VNFaceAttributeCategory *VN1uMyFtnYEWjbrdx3yAuDndKkPeyzNJhB; // @synthesize VN1uMyFtnYEWjbrdx3yAuDndKkPeyzNJhB=_VN1uMyFtnYEWjbrdx3yAuDndKkPeyzNJhB;
-@property(readonly) VNFaceAttributeCategory *VN2riiZbQrloRhCzYW56f0rk4N3ROe151S; // @synthesize VN2riiZbQrloRhCzYW56f0rk4N3ROe151S=_VN2riiZbQrloRhCzYW56f0rk4N3ROe151S;
-@property(readonly) VNFaceAttributeCategory *VN3iT1YRjjnIuELobV1olJiO1vvItN6Kdq; // @synthesize VN3iT1YRjjnIuELobV1olJiO1vvItN6Kdq=_VN3iT1YRjjnIuELobV1olJiO1vvItN6Kdq;
-@property(readonly) VNFaceAttributeCategory *VN4UfLbvVUqMvYV8bbGFQcxg5yRLm8ekI1; // @synthesize VN4UfLbvVUqMvYV8bbGFQcxg5yRLm8ekI1=_VN4UfLbvVUqMvYV8bbGFQcxg5yRLm8ekI1;
-@property(readonly) VNFaceAttributeCategory *VN7CbCeAogPS2iHE6VQwu6H96xanljtMqk; // @synthesize VN7CbCeAogPS2iHE6VQwu6H96xanljtMqk=_VN7CbCeAogPS2iHE6VQwu6H96xanljtMqk;
-@property(readonly) VNFaceAttributeCategory *VN7exwFFmQF0AI9P7FjBljwEFu7QYUGCYE; // @synthesize VN7exwFFmQF0AI9P7FjBljwEFu7QYUGCYE=_VN7exwFFmQF0AI9P7FjBljwEFu7QYUGCYE;
-@property(readonly) VNFaceAttributeCategory *VN7fiLHgGnvqPqG63cfDUCK4Xm8obUuWoP; // @synthesize VN7fiLHgGnvqPqG63cfDUCK4Xm8obUuWoP=_VN7fiLHgGnvqPqG63cfDUCK4Xm8obUuWoP;
-@property(readonly) VNFaceAttributeCategory *VNpLorzxnyAlLcPFNcKhgoNCmy9b5BRWyk; // @synthesize VNpLorzxnyAlLcPFNcKhgoNCmy9b5BRWyk=_VNpLorzxnyAlLcPFNcKhgoNCmy9b5BRWyk;
-@property(readonly) VNFaceAttributeCategory *ageCategory; // @synthesize ageCategory=_ageCategory;
-@property(readonly) VNFaceAttributeCategory *baldCategory; // @synthesize baldCategory=_baldCategory;
-@property(readonly) VNFaceAttributeCategory *eyesCategory; // @synthesize eyesCategory=_eyesCategory;
-@property(readonly) VNFaceAttributeCategory *faceHairCategory; // @synthesize faceHairCategory=_faceHairCategory;
-@property(readonly) VNFaceAttributeCategory *facemaskCategory; // @synthesize facemaskCategory=_facemaskCategory;
-@property(readonly) VNFaceAttributeCategory *genderCategory;
-@property(readonly) VNFaceAttributeCategory *glassesCategory; // @synthesize glassesCategory=_glassesCategory;
-@property(readonly) VNFaceAttributeCategory *hairColorCategory; // @synthesize hairColorCategory=_hairColorCategory;
-@property(readonly) VNFaceAttributeCategory *makeupCategory; // @synthesize makeupCategory=_makeupCategory;
-@property(readonly) VNFaceAttributeCategory *makeupEyesCategory; // @synthesize makeupEyesCategory=_makeupEyesCategory;
-@property(readonly) VNFaceAttributeCategory *makeupLipsCategory; // @synthesize makeupLipsCategory=_makeupLipsCategory;
-@property(readonly, nonatomic) unsigned long long requestRevision; // @synthesize requestRevision=_requestRevision;
-@property(readonly) VNFaceAttributeCategory *smilingCategory; // @synthesize smilingCategory=_smilingCategory;
-@property(readonly) VNFaceAttributeCategory *vNpLorzxnyAlLcPFNcKhgoNCmy9b5BRWyk;
-@property(readonly) VNFaceAttributeCategory *vn1uMyFtnYEWjbrdx3yAuDndKkPeyzNJhB;
-@property(readonly) VNFaceAttributeCategory *vn2riiZbQrloRhCzYW56f0rk4N3ROe151S;
-@property(readonly) VNFaceAttributeCategory *vn3iT1YRjjnIuELobV1olJiO1vvItN6Kdq;
-@property(readonly) VNFaceAttributeCategory *vn4UfLbvVUqMvYV8bbGFQcxg5yRLm8ekI1;
-@property(readonly) VNFaceAttributeCategory *vn7CbCeAogPS2iHE6VQwu6H96xanljtMqk;
-@property(readonly) VNFaceAttributeCategory *vn7exwFFmQF0AI9P7FjBljwEFu7QYUGCYE;
-@property(readonly) VNFaceAttributeCategory *vn7fiLHgGnvqPqG63cfDUCK4Xm8obUuWoP;
 
 @end
 

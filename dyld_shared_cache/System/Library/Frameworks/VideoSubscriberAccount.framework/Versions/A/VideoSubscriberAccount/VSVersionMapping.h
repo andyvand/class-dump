@@ -11,7 +11,7 @@
     NSString *_iOSSupportVersion;
 }
 
-+ (id);
++ (id)ts:%@, lacks:%@) /* Error: Ran out of types for this method. */;
 + (id);
 - (id);
 - (id);

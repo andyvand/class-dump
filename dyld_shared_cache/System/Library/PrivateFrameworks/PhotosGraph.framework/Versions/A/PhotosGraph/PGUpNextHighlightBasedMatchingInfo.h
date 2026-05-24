@@ -6,7 +6,7 @@
 
 #import <PhotosGraph/PGUpNextMomentCollectionBasedMatchingInfo.h>
 
-@class CLLocation, NSDate, NSString, PGGraphFeatureNodeCollection, PGGraphHighlightNodeCollection, PGGraphMeaningNodeCollection, PGGraphMomentNodeCollection, PGGraphPersonNodeCollection, PGGraphSceneNodeCollection;
+@class PGGraphHighlightNodeCollection;
 
 @interface PGUpNextHighlightBasedMatchingInfo : PGUpNextMomentCollectionBasedMatchingInfo
 {
@@ -16,30 +16,13 @@
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)set_trackingIndividualScreenCursor: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (id);
+- (id);
 - (void)phIngestLocationsOfInterestProcessor.m;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSString *debugInfo;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) PGGraphHighlightNodeCollection *highlightNodeAsCollection; // @synthesize highlightNodeAsCollection=_highlightNodeAsCollection;
-@property(readonly, nonatomic) _Bool isTripMemory;
-@property(readonly, nonatomic) PGGraphMeaningNodeCollection *meaningNodes;
-@property(readonly, nonatomic) PGGraphFeatureNodeCollection *memoryFeatureNodes;
-@property(readonly, nonatomic) PGGraphMomentNodeCollection *momentNodes;
-@property(readonly, nonatomic) unsigned long long nodeIdentifier;
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *personNodes;
-@property(readonly, nonatomic) NSDate *representativeDate;
-@property(readonly, nonatomic) CLLocation *representativeLocation;
-@property(readonly, nonatomic) PGGraphSceneNodeCollection *sceneNodes;
-@property(readonly) Class superclass;
 
 @end
 

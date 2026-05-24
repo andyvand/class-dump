@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface IKGLTextInfo
 {
     NSString *_text;
-    NSDictionary *_attributes;
-    struct CGRect _specifiedRect;
-    struct CGSize _textMinimalSize;
-    float _alpha;
-    _Bool _needsPostProcess;
-    id _buffer;
-    struct CGRect _region;
-    struct CGRect _rect;
-    unsigned int _textureID;
-    int _subCacheSizeIndex;
-    unsigned int _pageIndex;
-    unsigned int _session;
 }
 
 - (unsigned int);
@@ -32,29 +20,28 @@
 - (void);
 - (void);
 - (_Bool);
-- (struct CGSize);
+- (struct CGSize);
+- (void);
+- (unsigned int)or::initHMM() - wrong num_keywords /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (unsigned int);
-- (void);
-- (void);
-- (unsigned int);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (struct CGRect);
+- (struct CGRect);
 - (void);
-- (void);
+- (void);
 - (void);
 - (float);
 - (void);
 - (void)Ô ;
-- (id)ntext:fillRect:settings:metrics: /* Error: Ran out of types for this method. */;
+- (id)drawDecorationInContext:fillRect:settings:metrics: /* Error: Ran out of types for this method. */;
 - (struct CGRect)sallow imports...;
 
 // Remaining properties
-@property unsigned int pageIndex; // @synthesize pageIndex=_pageIndex;
 @property unsigned int session; // @synthesize session=_session;
 
 @end

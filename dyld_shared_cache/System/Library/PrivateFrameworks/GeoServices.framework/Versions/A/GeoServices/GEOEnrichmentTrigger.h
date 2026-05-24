@@ -9,18 +9,16 @@
 @interface GEOEnrichmentTrigger
 {
     NSString *_experimentId;
-    NSString *_treatmentId;
 }
 
 - (id);
+- (id)ybridEndpointAnalyzer resetForNewRequestWithSampleRate:recordContext:recordOption:voiceTriggerInfo:]_block_invoke /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id)onds;
+- (id)_timeSinceMapViewportChangedSeconds;
 - (void)Ðrþþ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *experimentId; // @synthesize experimentId=_experimentId;
-@property(readonly, nonatomic) NSString *treatmentId; // @synthesize treatmentId=_treatmentId;
 
 @end
 

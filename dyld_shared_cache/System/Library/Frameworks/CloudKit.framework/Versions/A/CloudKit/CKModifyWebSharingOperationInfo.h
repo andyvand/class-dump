@@ -11,13 +11,11 @@
 @interface CKModifyWebSharingOperationInfo : CKDatabaseOperationInfo
 {
     NSArray *_recordIDsToShare;
-    NSArray *_recordIDsToUnshare;
-    NSArray *_recordIDsToShareReadWrite;
 }
 
 + (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -28,8 +26,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *recordIDsToShare; // @synthesize recordIDsToShare=_recordIDsToShare;
-@property(retain, nonatomic) NSArray *recordIDsToShareReadWrite; // @synthesize recordIDsToShareReadWrite=_recordIDsToShareReadWrite;
-@property(retain, nonatomic) NSArray *recordIDsToUnshare; // @synthesize recordIDsToUnshare=_recordIDsToUnshare;
 
 @end
 

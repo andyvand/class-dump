@@ -7,10 +7,6 @@
 @interface MPGaplessInfo
 {
     unsigned int _encodingDelayInFrames;
-    unsigned int _encodingDrainInFrames;
-    unsigned int _heuristicInfo;
-    unsigned long long _durationInFrames;
-    unsigned long long _lastPacketsResync;
 }
 
 - (void);
@@ -20,16 +16,12 @@
 - (void);
 - (unsigned long long);
 - (unsigned int);
-- (unsigned int);
-- (unsigned int);
-- (unsigned long long);
+- (unsigned int)noKeyword;
+- (unsigned int)nullsLa;
+- (unsigned long long)storage;
 
 // Remaining properties
 @property(nonatomic) unsigned long long durationInFrames; // @synthesize durationInFrames=_durationInFrames;
-@property(nonatomic) unsigned int encodingDelayInFrames; // @synthesize encodingDelayInFrames=_encodingDelayInFrames;
-@property(nonatomic) unsigned int encodingDrainInFrames; // @synthesize encodingDrainInFrames=_encodingDrainInFrames;
-@property(nonatomic) unsigned int heuristicInfo; // @synthesize heuristicInfo=_heuristicInfo;
-@property(nonatomic) unsigned long long lastPacketsResync; // @synthesize lastPacketsResync=_lastPacketsResync;
 
 @end
 

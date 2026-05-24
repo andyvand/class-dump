@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSXPCConnection, SDRemoteInteractionAgent, SFDevice, SFSession;
-@protocol OS_dispatch_queue;
+@class SDRemoteInteractionAgent;
 
 @interface SFRemoteInteractionSession
 {
     _Bool _activateCalled;
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    SFSession *_remoteSession;
-    NSXPCConnection *_xpcCnx;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _interruptionHandler;
-    CDUnknownBlockType _invalidationHandler;
-    SFDevice *_peerDevice;
-    CDUnknownBlockType _remoteTextEventHandler;
-    CDUnknownBlockType _textSessionDidBegin;
-    CDUnknownBlockType _textSessionDidEnd;
-    CDUnknownBlockType _textSessionDidChange;
-    SDRemoteInteractionAgent *_agent;
 }
 
 + (_Bool);
@@ -35,46 +21,38 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
+- (void)A;
 - (CDUnknownBlockType);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)?%;
 - (CDUnknownBlockType);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) SDRemoteInteractionAgent *agent; // @synthesize agent=_agent;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType interruptionHandler; // @synthesize interruptionHandler=_interruptionHandler;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(retain, nonatomic) SFDevice *peerDevice; // @synthesize peerDevice=_peerDevice;
-@property(copy, nonatomic) CDUnknownBlockType remoteTextEventHandler; // @synthesize remoteTextEventHandler=_remoteTextEventHandler;
-@property(copy, nonatomic) CDUnknownBlockType textSessionDidBegin; // @synthesize textSessionDidBegin=_textSessionDidBegin;
-@property(copy, nonatomic) CDUnknownBlockType textSessionDidChange; // @synthesize textSessionDidChange=_textSessionDidChange;
-@property(copy, nonatomic) CDUnknownBlockType textSessionDidEnd; // @synthesize textSessionDidEnd=_textSessionDidEnd;
 
 @end
 

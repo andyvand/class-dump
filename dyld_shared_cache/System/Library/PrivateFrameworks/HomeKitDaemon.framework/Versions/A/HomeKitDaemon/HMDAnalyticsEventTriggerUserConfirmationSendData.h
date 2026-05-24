@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDAnalyticsEventTriggerUserConfirmationSendData
 {
     int _resultErrorCode;
-    unsigned long long _timestamp;
-    NSString *_sessionID;
 }
 
 - (void);
-- (int);
+- (int)initWithChannel:authStrategyVersion: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (void)istingMatCredRPK:(id)arg1;
-- (void)thHAPAccessory:(unsigned long long)arg1 zoneName:workQueue: /* Error: Ran out of types for this method. */;
-- (id)veZoneWithName:isPrivate: /* Error: Ran out of types for this method. */;
+- (void)setPreexistingMatCredRPK:(id)arg1;
+- (void)initWithHAPAccessory:(unsigned long long)arg1 zoneName:workQueue: /* Error: Ran out of types for this method. */;
+- (id)database:didRemoveZoneWithName:isPrivate: /* Error: Ran out of types for this method. */;
 - (void)éþ;
 
 // Remaining properties
-@property int resultErrorCode; // @synthesize resultErrorCode=_resultErrorCode;
-@property(copy, nonatomic) NSString *sessionID; // @synthesize sessionID=_sessionID;
 @property unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end

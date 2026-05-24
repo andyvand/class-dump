@@ -11,26 +11,20 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct CLLocationCoordinate2D {
-    double latitude;
-    double longitude;
+    double _field1;
+    double _field2;
 };
 
 struct CLSRoutineServiceStatisticsStruct {
-    _Bool routineAvailable;
-    unsigned long long numberOfLocationsOfInterest;
-    unsigned long long numberOfVisits;
-    unsigned long long numberOfTransitions;
-    unsigned long long numberOfTimeMatches;
-    unsigned long long numberOfCloseByLocationMatches;
-    unsigned long long numberOfRemoteLocationMatches;
-    unsigned long long numberOfMatchRequests;
-    double pinningVisitsRatio;
-};
-
-struct _CLSLRUMemoryCacheList {
-    unsigned long long _field1;
-    struct _CLSLRUMemoryCacheListElement *_field2;
-    struct _CLSLRUMemoryCacheListElement *_field3;
+    _Bool _field1;
+    unsigned long long _field2;
+    unsigned long long _field3;
+    unsigned long long _field4;
+    unsigned long long _field5;
+    unsigned long long _field6;
+    unsigned long long _field7;
+    unsigned long long _field8;
+    double _field9;
 };
 
 struct _CLSLRUMemoryCacheListElement {
@@ -48,15 +42,6 @@ struct in_addr {
     unsigned int _field1;
 };
 
-struct os_unfair_lock_s {
-    unsigned int _os_unfair_lock_opaque;
-};
-
-struct os_unfair_recursive_lock_s {
-    struct os_unfair_lock_s ourl_lock;
-    unsigned int ourl_count;
-};
-
 struct sockaddr_in {
     unsigned char _field1;
     unsigned char _field2;
@@ -68,12 +53,12 @@ struct sockaddr_in {
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    unsigned long long numberOfLocations;
-    unsigned long long numberOfResolvedLocations;
-    unsigned long long numberOfUnneededLocations;
-    unsigned long long numberOfRequests;
-    unsigned long long batchSize;
-} CDStruct_95c2efd7;
+    unsigned long long _field1;
+    unsigned long long _field2;
+    unsigned long long _field3;
+    unsigned long long _field4;
+    unsigned long long _field5;
+} CDStruct_889e84b8;
 
 typedef struct {
     double _field1;

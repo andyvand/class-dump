@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PKApplicationMessageKey
 {
     long long _source;
-    NSString *_identifier;
 }
 
 + (id);
@@ -17,17 +14,16 @@
 × ;
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long);
+- (_Bool)excludedDueToAJBlacklistCounts;
 - (void);
 - (id);
 - (long long);
 - (id)1Â0@ù
 × ;
-- (void)sCodeKey;
+- (void)PKErrorHTTPResponseStatusCodeKey;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 @property(readonly, nonatomic) long long source; // @synthesize source=_source;
 
 @end

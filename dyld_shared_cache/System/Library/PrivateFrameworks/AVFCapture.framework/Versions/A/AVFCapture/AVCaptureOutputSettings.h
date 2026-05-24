@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 __attribute__((visibility("hidden")))
 @interface AVCaptureOutputSettings
 {
     _Bool _settingsArePassthru;
 }
 
-- (_Bool);
-- (void);
-- (id);
+- (_Bool)String",N,R;
+- (void)initWithProbabilityForOutcomeA:(_Bool)arg1;
+- (id)setLongDocumentPropertyWithId:to:givenPropStream: /* Error: Ran out of types for this method. */;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *outputSettingsDictionary;
 @property(nonatomic) _Bool settingsArePassthru; // @synthesize settingsArePassthru=_settingsArePassthru;
 
 @end

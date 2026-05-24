@@ -9,8 +9,6 @@
 @interface MediaPlaybackCore.InitiatingPlaybackState : MediaPlaybackCore.State
 {
     id metadata;
-    id timeContinuity;
-    id fromInterruption;
 }
 
 @end

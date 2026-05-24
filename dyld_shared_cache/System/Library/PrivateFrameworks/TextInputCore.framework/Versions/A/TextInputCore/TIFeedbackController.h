@@ -10,9 +10,16 @@ __attribute__((visibility("hidden")))
 @interface TIFeedbackController
 {
     NSString *_studyID;
-    NSString *_preferenceName;
 }
 
+- (_Bool)w;
+- (void)rror getting contexts %@;
+- (void)d;
+- (void)nnected notification:%{private}@ /* Error: Ran out of types for this method. */;
+- (void)@"TTYContactList"8Q16^B24;
+- (void)s;
+- (void)Contents/MacOS/AccessibilityUtilities;
+- (void)RTTUtteranceKey;
 - (_Bool);
 - (void);
 - (void);
@@ -21,21 +28,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);

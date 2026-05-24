@@ -7,21 +7,14 @@
 @interface CPLAccountFlags
 {
     long long _version;
-    int _reason;
-    _Bool _defaultHEVC;
-    struct {
-        unsigned int version:1;
-        unsigned int reason:1;
-        unsigned int defaultHEVC:1;
-    } _has;
 }
 
 - (_Bool);
-- (void);
+- (void)A;
 - (int);
 - (long long);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (void);
@@ -30,24 +23,19 @@
 - (unsigned long long);
 - (_Bool);
 - (int);
-- (_Bool)";
+- (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
-- (id);
+- (id)+;
 - (_Bool);
 - (void)1Â0@ù
 × ;
 - (id)but we don't have a client cache identifier;
 
 // Remaining properties
-@property(nonatomic) _Bool defaultHEVC; // @synthesize defaultHEVC=_defaultHEVC;
 @property(nonatomic) _Bool hasDefaultHEVC;
-@property(nonatomic) _Bool hasReason;
-@property(nonatomic) _Bool hasVersion;
-@property(nonatomic) int reason; // @synthesize reason=_reason;
-@property(nonatomic) long long version; // @synthesize version=_version;
 
 @end
 

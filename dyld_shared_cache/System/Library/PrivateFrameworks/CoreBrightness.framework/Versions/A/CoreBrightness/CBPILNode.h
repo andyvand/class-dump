@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface CBPILNode
 {
     CBPILParams *_cil;
-    CBPILParams *_mil;
 }
 
 - (id);
@@ -20,7 +19,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) CBPILParams *cil; // @synthesize cil=_cil;
-@property(readonly) CBPILParams *mil; // @synthesize mil=_mil;
 
 @end
 

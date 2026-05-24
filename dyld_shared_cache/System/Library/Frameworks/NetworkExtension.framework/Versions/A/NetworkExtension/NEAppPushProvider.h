@@ -17,13 +17,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)B;
 - (id);
+- (void)`";
+- (void)rfaceName %@ will discard existing pair:(CDUnknownBlockType)arg1 %@ in %u seconds.;
+- (id)p;
 - (void);
-- (void);
-- (id);
-- (void);
-- (void)xyForIdentifier: /* Error: Ran out of types for this method. */;
+- (void)pluginKitProxyForIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) NSDictionary *providerConfiguration; // @synthesize providerConfiguration=_providerConfiguration;

@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UITextInputController;
+@class UITextInputController;
 
 __attribute__((visibility("hidden")))
 @interface _UIUndoTextOperation
 {
     UITextInputController *_inputController;
-    NSArray *_affectedRanges;
-    struct _NSRange _affectedRange;
 }
 
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)NSDictionary"24@"NSString"32@"NSString"40;
 - (void);
 - (struct _NSRange);
 - (id);
@@ -29,8 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) struct _NSRange affectedRange; // @synthesize affectedRange=_affectedRange;
-@property(copy, nonatomic) NSArray *affectedRanges; // @synthesize affectedRanges=_affectedRanges;
-@property(nonatomic) __weak UITextInputController *inputController; // @synthesize inputController=_inputController;
 
 @end
 

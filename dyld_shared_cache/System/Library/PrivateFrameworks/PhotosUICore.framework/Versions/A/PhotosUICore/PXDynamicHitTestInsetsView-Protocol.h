@@ -5,7 +5,7 @@
 //
 
 @protocol PXDynamicHitTestInsetsView
-- (void)lt;
+- (void)SocialGroupCropFetchResult;
 
 // Remaining properties
 @property(nonatomic) unsigned long long extendedHitTestInsetsEdges;

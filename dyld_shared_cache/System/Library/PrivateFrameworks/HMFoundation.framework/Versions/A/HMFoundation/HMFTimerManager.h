@@ -4,53 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFTimer, HMFTimerManagerTimerContext, NSMutableArray, NSObject, NSString;
-@protocol HMFTimerManagerDataSource, HMFTimerManagerDelegate, OS_dispatch_queue;
-
 @interface HMFTimerManager
 {
     struct os_unfair_lock_s _lock;
-    unsigned int _options;
-    HMFTimer *_nextTimer;
-    HMFTimerManagerTimerContext *_nextTimerContext;
-    id <HMFTimerManagerDataSource> _dataSource;
-    NSMutableArray *_sortedTimerContexts;
-    id <HMFTimerManagerDelegate> delegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
 }
 
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)^;
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void);
 - (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)i;
 - (id);
 - (void);
+- (_Bool)�#;
+- (void)>j;
+- (id);
+- (id);
+- (void);
+- (id);
+- (void)ansactions on %@;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMFTimerManagerDelegate> delegate; // @synthesize delegate;
-@property(retain) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface EspressoDataFrame
 {
     NSMutableDictionary *_inputAttachments;
-    NSMutableDictionary *_outputAttachments;
-    NSMutableDictionary *_groundTruthAttachments;
-    NSString *_function_name;
 }
 
 - (void);
@@ -34,13 +31,7 @@
 - (void)à;
 
 // Remaining properties
-@property(retain) NSString *function_name; // @synthesize function_name=_function_name;
-@property(readonly) NSArray *groundTruthAttachmentNames;
-@property(retain) NSMutableDictionary *groundTruthAttachments; // @synthesize groundTruthAttachments=_groundTruthAttachments;
-@property(readonly) NSArray *inputAttachmentNames;
 @property(retain) NSMutableDictionary *inputAttachments; // @synthesize inputAttachments=_inputAttachments;
-@property(readonly) NSArray *outputAttachmentNames;
-@property(retain) NSMutableDictionary *outputAttachments; // @synthesize outputAttachments=_outputAttachments;
 
 @end
 

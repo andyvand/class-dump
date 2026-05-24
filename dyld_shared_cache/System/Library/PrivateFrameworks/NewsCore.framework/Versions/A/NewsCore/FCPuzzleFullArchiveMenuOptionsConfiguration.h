@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface FCPuzzleFullArchiveMenuOptionsConfiguration
 {
     NSString *_title;
-    NSString *_icon;
-    unsigned long long _type;
-    NSArray *_items;
 }
 
 - (unsigned long long);
 - (id);
 - (id);
-- (id)ct:withObject: /* Error: Ran out of types for this method. */;
+- (id)performSelector:withObject:withObject: /* Error: Ran out of types for this method. */;
 - (void)Classes/FCArticleHeadline.m;
 - (id)zÚÿÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *icon; // @synthesize icon=_icon;
-@property(readonly, nonatomic) NSArray *items; // @synthesize items=_items;
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

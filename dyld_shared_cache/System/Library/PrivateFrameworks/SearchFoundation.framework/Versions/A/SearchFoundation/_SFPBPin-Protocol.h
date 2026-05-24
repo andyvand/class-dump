@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBColor, _SFPBLatLng;
+@class NSData, NSString, _SFPBLatLng;
 
 @protocol _SFPBPin
+- (NSString *)87;
+- (NSData *)oConversionServiceClient;
+- (_SFPBLatLng *);
+- (void);
 - (void)KãÛÎ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *label;
 @property(retain, nonatomic) _SFPBLatLng *location;
-@property(copy, nonatomic) NSData *mapsData;
-@property(nonatomic) int pinBehavior;
-@property(retain, nonatomic) _SFPBColor *pinColor;
-@property(copy, nonatomic) NSString *pinText;
-@property(copy, nonatomic) NSString *resultID;
 @end
 

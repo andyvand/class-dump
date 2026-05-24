@@ -6,13 +6,11 @@
 
 #import <PassKitCore/PKSetupProductMethod.h>
 
-@class NSArray, NSURL;
+@class NSURL;
 
 @interface PKSetupProductMethodInApp : PKSetupProductMethod
 {
     NSURL *_appLaunchURL;
-    NSArray *_cardTypeSupport;
-    NSArray *_associatedStoreIdentifiers;
 }
 
 - (id);
@@ -25,12 +23,10 @@
 - (id);
 - (id);
 - (id);
-- (void)l;
+- (void)_Horizontal;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSURL *appLaunchURL; // @synthesize appLaunchURL=_appLaunchURL;
-@property(readonly, copy, nonatomic) NSArray *associatedStoreIdentifiers; // @synthesize associatedStoreIdentifiers=_associatedStoreIdentifiers;
-@property(readonly, copy, nonatomic) NSArray *cardTypeSupport; // @synthesize cardTypeSupport=_cardTypeSupport;
 
 @end
 

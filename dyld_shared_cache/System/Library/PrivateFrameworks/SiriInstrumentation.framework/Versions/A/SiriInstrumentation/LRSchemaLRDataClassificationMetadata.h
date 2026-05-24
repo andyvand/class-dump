@@ -6,25 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface LRSchemaLRDataClassificationMetadata : SISchemaInstrumentationMessage
 {
     _Bool _partOfARequest;
-    int _kind;
-    int _general;
-    int _onDevice;
-    int _tool;
-    int _sensor;
-    struct {
-        unsigned int partOfARequest:1;
-        unsigned int kind:1;
-    } _has;
-    _Bool _hasGeneral;
-    _Bool _hasOnDevice;
-    _Bool _hasTool;
-    _Bool _hasSensor;
-    unsigned long long _whichProvenance_Type;
 }
 
 - (unsigned long long);
@@ -33,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (int);
@@ -45,7 +31,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -64,28 +50,14 @@
 - (int)× ;
 - (id)
 × ;
-- (void)asPageNumberCompleted:(_Bool)arg1;
-- (_Bool)essionCounts;
+- (void)setHasPageNumberCompleted:(_Bool)arg1;
+- (_Bool)_hasSessionCounts;
 - (id)text",&,N,V_cdmBridgeContext;
-- (id);
+- (id)Introspection;
 - (int);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic) int general; // @synthesize general=_general;
-@property(nonatomic) _Bool hasGeneral; // @synthesize hasGeneral=_hasGeneral;
-@property(nonatomic) _Bool hasKind;
-@property(nonatomic) _Bool hasOnDevice; // @synthesize hasOnDevice=_hasOnDevice;
-@property(nonatomic) _Bool hasPartOfARequest;
-@property(nonatomic) _Bool hasSensor; // @synthesize hasSensor=_hasSensor;
-@property(nonatomic) _Bool hasTool; // @synthesize hasTool=_hasTool;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int kind; // @synthesize kind=_kind;
-@property(nonatomic) int onDevice; // @synthesize onDevice=_onDevice;
-@property(nonatomic) _Bool partOfARequest; // @synthesize partOfARequest=_partOfARequest;
-@property(nonatomic) int sensor; // @synthesize sensor=_sensor;
-@property(nonatomic) int tool; // @synthesize tool=_tool;
-@property(readonly, nonatomic) unsigned long long whichProvenance_Type; // @synthesize whichProvenance_Type=_whichProvenance_Type;
 
 @end
 

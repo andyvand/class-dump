@@ -10,11 +10,10 @@ __attribute__((visibility("hidden")))
 @interface MSPSharedTripSubscriptionToken
 {
     NSString *_sharedTripIdentifier;
-    CDUnknownBlockType _invalidationHandler;
 }
 
-- (id);
-- (void);
+- (id);
+- (void)@;
 - (void);
 
 @end

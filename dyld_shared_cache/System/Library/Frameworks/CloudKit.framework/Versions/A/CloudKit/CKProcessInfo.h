@@ -4,34 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKEntitlements, NSString;
-
 @interface CKProcessInfo
 {
     unsigned long long _sessionType;
-    CKEntitlements *_entitlements;
 }
 
-+ (id)CoreEntryPoint;
++ (id)CloudCoreEntryPoint;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)!;
 - (id);
 - (void)ÿÿÿÿ;
 - (unsigned long long)Video;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) CKEntitlements *entitlements; // @synthesize entitlements=_entitlements;
-@property(readonly) unsigned long long hash;
 @property(readonly) unsigned long long sessionType; // @synthesize sessionType=_sessionType;
-@property(readonly) Class superclass;
-@property(readonly) _Bool testingEnabled;
-@property(readonly) _Bool useDebugServices;
 
 @end
 

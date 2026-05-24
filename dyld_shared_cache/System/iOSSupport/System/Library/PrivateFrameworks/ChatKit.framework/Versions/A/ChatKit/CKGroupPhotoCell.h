@@ -6,7 +6,7 @@
 
 #import <ChatKit/CKDetailsCell.h>
 
-@class NSString, UIView;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface CKGroupPhotoCell : CKDetailsCell
@@ -20,18 +20,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id)DidCollapseOrDismiss:(long long)arg1 withReason:(id)arg2;
+- (id)browserTransitionCoordinatorDidCollapseOrDismiss:(long long)arg1 withReason:(id)arg2;
 - (void)Ä!ü#;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) UIView *groupView; // @synthesize groupView=_groupView;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

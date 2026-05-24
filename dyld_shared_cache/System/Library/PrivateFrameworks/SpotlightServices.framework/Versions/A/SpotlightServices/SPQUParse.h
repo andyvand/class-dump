@@ -4,73 +4,55 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSNumber, NSString;
+@class NSString;
 
 @interface SPQUParse
 {
     _Bool _hasPerson;
-    NSString *_entityString;
-    NSArray *_tokenArguments;
-    NSDictionary *_encodedDict;
-    NSArray *_filterTypes;
-    NSArray *_preferredTypes;
-    NSArray *_eventTypes;
-    NSString *_intentLabel;
-    NSNumber *_intentLabelId;
-    NSNumber *_isPQA;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)setAlignButtonWithCaptionTextLeadingEdge: /* Error: Ran out of types for this method. */;
++ (id)minimumNumberOfLinesToVerticallyCenter;
++ (id)minimumIconCornerRadius;
++ (id)animateInWithBaseAnimation:currentTime: /* Error: Ran out of types for this method. */;
++ (id)_lp_CSSTextHexFormatForcingUserInterfaceStyle: /* Error: Ran out of types for this method. */;
++ (id)_inlineiTunesMediaPlaybackInformationWithType:storeIdentifier:storefrontIdentifier:offers:previewURL:lyricExcerpt:startTime: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (_Bool)"16@"AVAssetResourceLoadingRequest"24;
+- (_Bool)stringFromTimeInterval:(long long)arg1;
+- (_Bool)stringFromPostalAddress:(long long)arg1 style: /* Error: Ran out of types for this method. */;
+- (_Bool)stringByTrimmingCharactersInSet:(long long)arg1;
+- (_Bool)stringByEvaluatingJavaScriptFromString:(long long)arg1;
+- (id)stringByDeletingPathExtension;
+- (_Bool)startFetchingMetadataForWebView:(long long)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)startAccessingSecurityScopedResource;
+- (id)showsControls;
+- (id)setMinimumMediaCornerRadius:(id)arg1;
+- (id)setMinimumIconCornerRadius:(id)arg1;
+- (id)setDarkeningAmount: /* Error: Ran out of types for this method. */;
+- (id)setAllowedUnits: /* Error: Ran out of types for this method. */;
+- (id)setAccessibilityIdentifier: /* Error: Ran out of types for this method. */;
+- (void)initWithType:(id)arg1 subtitle: /* Error: Ran out of types for this method. */;
+- (void)imageSizeThatFits:(id)arg1;
+- (void)enumeratorAtURL:(id)arg1 includingPropertiesForKeys:options:errorHandler: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)B;
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool)enableFullPayloadCorrection;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)compareSafariTopHitCandidate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *encodedDict; // @synthesize encodedDict=_encodedDict;
-@property(retain, nonatomic) NSString *entityString; // @synthesize entityString=_entityString;
-@property(retain, nonatomic) NSArray *eventTypes; // @synthesize eventTypes=_eventTypes;
-@property(retain, nonatomic) NSArray *filterTypes; // @synthesize filterTypes=_filterTypes;
-@property(nonatomic) _Bool hasPerson; // @synthesize hasPerson=_hasPerson;
 @property(retain, nonatomic) NSString *intentLabel; // @synthesize intentLabel=_intentLabel;
-@property(retain, nonatomic) NSNumber *intentLabelId; // @synthesize intentLabelId=_intentLabelId;
-@property(retain, nonatomic) NSNumber *isPQA; // @synthesize isPQA=_isPQA;
-@property(retain, nonatomic) NSArray *preferredTypes; // @synthesize preferredTypes=_preferredTypes;
-@property(retain, nonatomic) NSArray *tokenArguments; // @synthesize tokenArguments=_tokenArguments;
 
 @end
 

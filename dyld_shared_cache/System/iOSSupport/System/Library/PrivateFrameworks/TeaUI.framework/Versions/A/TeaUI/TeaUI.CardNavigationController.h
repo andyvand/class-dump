@@ -9,12 +9,11 @@
 @interface TeaUI.CardNavigationController : TeaUI.NavigationController
 {
     id toolbarSection;
-    id commandCenter;
 }
 
 - (long long);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);

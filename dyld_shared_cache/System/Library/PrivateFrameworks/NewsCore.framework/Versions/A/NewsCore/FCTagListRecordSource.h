@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (id)!øAùñ(	Ð1Â0@ù
 × ;

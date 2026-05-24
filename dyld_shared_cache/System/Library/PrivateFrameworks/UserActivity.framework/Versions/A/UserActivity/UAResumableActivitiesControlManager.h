@@ -9,21 +9,18 @@
 @interface UAResumableActivitiesControlManager
 {
     int _pid;
-    int _recordingPath;
-    NSXPCConnection *connection;
-    id _delegate;
 }
 
 + (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (int);
-- (void);
-- (void);
+- (void);
 - (void);
 - (int);
+- (void);
+- (void);
+- (void);
+- (int)=;
 - (id);
 - (void);
 - (id);
@@ -37,9 +34,9 @@
 - (id);
 - (id);
 - (void);
+- (void)c;
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -56,9 +53,6 @@
 
 // Remaining properties
 @property(retain) NSXPCConnection *connection; // @synthesize connection;
-@property id delegate; // @synthesize delegate=_delegate;
-@property int recordingPath; // @synthesize recordingPath=_recordingPath;
-@property(readonly) int serverPID;
 
 @end
 

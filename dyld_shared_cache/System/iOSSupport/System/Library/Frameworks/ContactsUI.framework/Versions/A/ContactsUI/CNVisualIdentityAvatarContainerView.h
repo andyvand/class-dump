@@ -13,9 +13,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (struct CGSize);
-- (id);
+- (id);
 - (void);
-- (void)ontrollerDidCancel: /* Error: Ran out of types for this method. */;
+- (void)avatarEditorViewControllerDidCancel: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <CNVisualIdentityAvatarContainerViewDelegate> delegate; // @synthesize delegate=_delegate;

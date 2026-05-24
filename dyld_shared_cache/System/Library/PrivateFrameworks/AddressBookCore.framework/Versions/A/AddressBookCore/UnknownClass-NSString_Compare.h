@@ -9,11 +9,11 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -22,7 +22,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)a;
 - (_Bool);
 - (_Bool);
 - (_Bool);

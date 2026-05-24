@@ -12,71 +12,9 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 
 #pragma mark Named Structures
 
-struct _ExtraEntityIVars {
-    id _field1;
-    id _field2;
-    _Atomic id _field3;
-    id _field4;
-    id _field5;
-    id _field6;
-    struct os_unfair_lock_s _field7;
-    int _field8;
-    void *_field9;
-};
-
-struct _NSExtraFetchRequestIVars {
-    unsigned long long _field1;
-    _Atomic id _field2;
-    _Atomic _Bool _field3;
-    _Atomic _Bool _field4;
-    _Atomic _Bool _field5;
-    _Atomic _Bool _field6;
-    _Atomic _Bool _field7;
-    _Atomic _Bool _field8;
-};
-
-struct _NSFaultingMutableArrayFlags {
-    unsigned int _isFault:1;
-    unsigned int _reserved:31;
-};
-
-struct _NSFaultingMutableOrderedSetFlags {
-    unsigned int _isFault:1;
-    unsigned int _mustPropagateDelete:1;
-    unsigned int _ignoringIdempotentKVO:1;
-    unsigned int _mustCopyOnWrite:1;
-    unsigned int _isImmutableCopy:1;
-    unsigned int _reserved:11;
-    unsigned int _relationship:16;
-};
-
-struct _NSFaultingMutableSetFlags {
-    unsigned int _isFault:1;
-    unsigned int _mustPropagateDelete:1;
-    unsigned int _reserved:14;
-    unsigned int _relationship:16;
-};
-
 struct _NSRange {
     unsigned long long location;
     unsigned long long length;
-};
-
-struct _PFArrayFlags {
-    unsigned int shouldRetain:1;
-    unsigned int shouldRelease:1;
-    unsigned int useExtendedRelease:1;
-    unsigned int freeBackingArray:1;
-    unsigned int copyBackingArray:1;
-    unsigned int managedObjects:1;
-    unsigned int _RESERVED:27;
-};
-
-struct _PFBatchFaultingArrayFlags {
-    unsigned int _LRUIndex:8;
-    unsigned int _uniformEntity:1;
-    unsigned int _LRUEntryCount:11;
-    unsigned int _RESERVED:12;
 };
 
 struct _opaque_pthread_mutex_t {
@@ -86,11 +24,6 @@ struct _opaque_pthread_mutex_t {
 
 struct os_unfair_lock_s {
     unsigned int _os_unfair_lock_opaque;
-};
-
-struct persistentStoreCacheFlags {
-    unsigned int _preserveToManyRelationships:1;
-    unsigned int _reserved:31;
 };
 
 struct sqlite3_snapshot {
@@ -107,8 +40,8 @@ typedef struct {
 } CDStruct_70511ce9;
 
 typedef struct {
-    unsigned int val[8];
-} CDStruct_4c969caf;
+    unsigned int _field1[8];
+} CDStruct_6ad76789;
 
 typedef struct {
     unsigned int _field1;

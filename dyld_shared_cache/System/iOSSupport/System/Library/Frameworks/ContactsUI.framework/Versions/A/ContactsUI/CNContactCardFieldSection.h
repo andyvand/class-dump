@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CNContactCardFieldSection
 {
     NSString *_sectionType;
-    NSArray *_items;
-    NSString *_displayTitle;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::unordered_set<unsigned long long>>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
 - (void)"CNContactAddAddressingGrammarAction",&,N,V_addAddressingGrammarAction;
 - (id)ðÿJW;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *displayTitle; // @synthesize displayTitle=_displayTitle;
-@property(readonly, nonatomic) NSArray *items; // @synthesize items=_items;
 @property(readonly, nonatomic) NSString *sectionType; // @synthesize sectionType=_sectionType;
 
 @end

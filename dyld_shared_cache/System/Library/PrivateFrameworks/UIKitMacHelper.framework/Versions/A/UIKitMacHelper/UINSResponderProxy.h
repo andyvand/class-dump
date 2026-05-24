@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol UINSMenuItem;
-
 __attribute__((visibility("hidden")))
 @interface UINSResponderProxy
 {
     id _wrappedResponder;
-    id <UINSMenuItem> _wrappedMenuProxy;
-    SEL _action;
-    id _sender;
 }
 
 + (id);
@@ -22,7 +16,7 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)RQ;
 + (id);
 + (id);
 - (id);
@@ -31,29 +25,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id)"s;
+- (id)WebKitCSSURLModifiersEnabled;
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (SEL);
+- (id)p:%f, queryTime:%f) /* Error: Ran out of types for this method. */;
+- (SEL)onds;
 - (void);
 - (_Bool)nlock:(id)arg1;
-- (_Bool)ceneAndOrWindowForScene:(id)arg1 calledFromDidDisconnect: /* Error: Ran out of types for this method. */;
+- (_Bool)_closeSceneAndOrWindowForScene:(id)arg1 calledFromDidDisconnect: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) SEL action; // @synthesize action=_action;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id sender; // @synthesize sender=_sender;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <UINSMenuItem> wrappedMenuProxy; // @synthesize wrappedMenuProxy=_wrappedMenuProxy;
 @property(readonly, nonatomic) id wrappedResponder; // @synthesize wrappedResponder=_wrappedResponder;
 
 @end

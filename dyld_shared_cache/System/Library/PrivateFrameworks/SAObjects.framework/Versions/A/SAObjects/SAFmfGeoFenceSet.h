@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainCommand.h>
 
-@class NSNumber, NSString, SALocation, SAPerson;
+@class NSNumber;
 
 @interface SAFmfGeoFenceSet : SADomainCommand
 {
@@ -27,19 +27,13 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)B;
 - (id);
 - (id);
 - (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *enable;
-@property(copy, nonatomic) NSString *fenceType;
-@property(retain, nonatomic) SAPerson *friend;
-@property(copy, nonatomic) NSString *geoFenceTrigger;
-@property(copy, nonatomic) NSNumber *oneTimeOnly;
-@property(retain, nonatomic) SALocation *requestedLocation;
-@property(retain, nonatomic) SAPerson *theFriend;
 
 @end
 

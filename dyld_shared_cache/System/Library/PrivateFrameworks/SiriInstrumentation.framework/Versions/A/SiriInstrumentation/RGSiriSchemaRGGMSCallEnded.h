@@ -6,24 +6,21 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface RGSiriSchemaRGGMSCallEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (unsigned long long);
+- (void)+;
+- (void)";
+- (unsigned long long)nted at /AppleInternal/Library/BuildRoots/4~CNq7ugDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDDebug_macOS.m:56 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)age (ROWID) ON DELETE CASCADE, part_index INTEGER, delete_date INTEGER, part_text BLOB NOT NULL, ck_sync_state INTEGER DEFAULT 0, PRIMARY KEY (chat_id, message_id, part_index), CHECK (delete_date != 0);
 - (id);
 - (id);
-- (id)ros:(id)arg1;
+- (id)addMidSegmentContinousZeros:(id)arg1;
 - (id)whichSystemdialogacttype;
 - (_Bool)d;
 - (_Bool)arameters.candidate.value.collection.values.enumeration.typeIdentifier.custom.bundleId;
@@ -31,8 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

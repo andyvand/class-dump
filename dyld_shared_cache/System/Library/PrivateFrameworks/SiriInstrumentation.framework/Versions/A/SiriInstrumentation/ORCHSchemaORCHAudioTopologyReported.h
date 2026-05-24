@@ -6,13 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHAudioTopologyReported : SISchemaInstrumentationMessage
 {
     int _audioTopology;
-    _Bool _isLeader;
-    CDStruct_aee7aefc _has;
 }
 
 - (void);
@@ -32,15 +28,11 @@
 - (_Bool);
 - (id);
 - (id);
-- (id)ppContactAffinityScoreForMessagesReceived;
+- (id)_appContactAffinityScoreForMessagesReceived;
 - (id)ng",C,N,V_treatmentId;
 
 // Remaining properties
 @property(nonatomic) int audioTopology; // @synthesize audioTopology=_audioTopology;
-@property(nonatomic) _Bool hasAudioTopology;
-@property(nonatomic) _Bool hasIsLeader;
-@property(nonatomic) _Bool isLeader; // @synthesize isLeader=_isLeader;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

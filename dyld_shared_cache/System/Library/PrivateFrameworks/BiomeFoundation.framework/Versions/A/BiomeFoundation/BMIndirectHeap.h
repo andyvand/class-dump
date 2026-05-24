@@ -7,9 +7,6 @@
 @interface BMIndirectHeap
 {
     unsigned long long *_array;
-    unsigned long long _count;
-    unsigned long long _size;
-    CDUnknownBlockType _isAscending;
 }
 
 + (id);
@@ -21,21 +18,18 @@
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (unsigned long long);
+- (unsigned long long)Q;
 - (void);
-- (unsigned long long);
+- (unsigned long long)updateAuthorizationCredentials:token:account: /* Error: Ran out of types for this method. */;
 - (unsigned long long *);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)lastKeyRollDate;
+- (unsigned long long)%@;
 - (void);
 - (unsigned long long);
 
 // Remaining properties
 @property unsigned long long *array; // @synthesize array=_array;
-@property unsigned long long count; // @synthesize count=_count;
-@property(copy) CDUnknownBlockType isAscending; // @synthesize isAscending=_isAscending;
-@property unsigned long long size; // @synthesize size=_size;
 
 @end
 

@@ -4,26 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCameraStreamMetrics, HMDCameraStreamSessionInfo, HMDCameraStreamSnapshotHandler, HMDHAPAccessory, HMDService, NSObject, NSString;
-@protocol HMDCameraStreamControlManagerDelegate, OS_dispatch_queue;
+@protocol HMDCameraStreamControlManagerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraStreamControlManager
 {
     id <HMDCameraStreamControlManagerDelegate> _delegate;
-    HMDHAPAccessory *_accessory;
-    HMDService *_streamManagementService;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMDCameraStreamSessionInfo *_streamSessionInfo;
-    HMDCameraStreamSnapshotHandler *_streamSnapshotHandler;
-    HMDCameraStreamMetrics *_streamMetrics;
 }
 
 + (id)C;
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)addRouteLeg: /* Error: Ran out of types for this method. */;
+- (id)addObserver:selector:name:object:suspensionBehavior: /* Error: Ran out of types for this method. */;
+- (id)addNewSession:originator:receivingHandle:receivingAccountIdentifier: /* Error: Ran out of types for this method. */;
+- (id)addLiveParticipants: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (_Bool);
@@ -45,20 +38,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property __weak HMDHAPAccessory *accessory; // @synthesize accessory=_accessory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property __weak id <HMDCameraStreamControlManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) HMDService *streamManagementService; // @synthesize streamManagementService=_streamManagementService;
-@property(readonly, nonatomic) HMDCameraStreamMetrics *streamMetrics; // @synthesize streamMetrics=_streamMetrics;
-@property(readonly, nonatomic) HMDCameraStreamSessionInfo *streamSessionInfo; // @synthesize streamSessionInfo=_streamSessionInfo;
-@property(readonly, nonatomic) HMDCameraStreamSnapshotHandler *streamSnapshotHandler; // @synthesize streamSnapshotHandler=_streamSnapshotHandler;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

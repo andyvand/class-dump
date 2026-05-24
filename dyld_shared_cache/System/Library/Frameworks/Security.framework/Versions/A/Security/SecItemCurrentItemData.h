@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate;
+@class NSData;
 
 @interface SecItemCurrentItemData
 {
     NSData *_persistentRef;
-    NSDate *_currentItemPointerModificationTime;
 }
 
 - (void);
@@ -20,7 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSDate *currentItemPointerModificationTime; // @synthesize currentItemPointerModificationTime=_currentItemPointerModificationTime;
 @property(retain) NSData *persistentRef; // @synthesize persistentRef=_persistentRef;
 
 @end

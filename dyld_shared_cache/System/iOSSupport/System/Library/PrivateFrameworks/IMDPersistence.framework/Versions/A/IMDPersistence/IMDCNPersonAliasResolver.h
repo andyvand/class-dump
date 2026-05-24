@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, NSData, NSMutableDictionary;
+@class CNContactStore;
 
 @interface IMDCNPersonAliasResolver
 {
     CNContactStore *_contactStore;
-    CNContactStore *_acceptedContactStore;
-    NSData *_currentHistoryToken;
-    NSMutableDictionary *_aliasToCNIDMap;
 }
 
 + (id);
@@ -21,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -41,10 +38,7 @@
 - (id)d IMDSqlStatementBindInt64(IMDSqlStatement *, int64_t);
 
 // Remaining properties
-@property(retain, nonatomic) CNContactStore *acceptedContactStore; // @synthesize acceptedContactStore=_acceptedContactStore;
-@property(retain, nonatomic) NSMutableDictionary *aliasToCNIDMap; // @synthesize aliasToCNIDMap=_aliasToCNIDMap;
 @property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(retain, nonatomic) NSData *currentHistoryToken; // @synthesize currentHistoryToken=_currentHistoryToken;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSString, _UIViewServiceViewControllerOperator;
+@class NSHashTable, _UIViewServiceViewControllerOperator;
 
 __attribute__((visibility("hidden")))
 @interface _UISceneKeyboardProxyLayerForwardingHostingViewService
@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
     _UIViewServiceViewControllerOperator *_viewControllerOperator;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -22,18 +22,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool)up";
-- (void)sualFeedbackWindowForScene:(id)arg1;
+- (void)visualFeedbackWindowForScene:(id)arg1;
 - (void)nvoke_2;
-- (void)arkerLayer;
+- (void)_UIViewMarkerLayer;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) __weak _UIViewServiceViewControllerOperator *viewControllerOperator; // @synthesize viewControllerOperator=_viewControllerOperator;
 
 @end

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLPNetwork, MPSNNOptimizer;
+@class MPSNNOptimizer;
 
 @interface MLPOptimizer
 {
     MPSNNOptimizer *_mpsOptimizer;
-    MLPNetwork *_network;
 }
 
 + (id);
@@ -19,11 +18,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)?	;
 
 // Remaining properties
 @property(readonly) MPSNNOptimizer *mpsOptimizer; // @synthesize mpsOptimizer=_mpsOptimizer;
-@property(readonly) __weak MLPNetwork *network; // @synthesize network=_network;
 
 @end
 

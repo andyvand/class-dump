@@ -6,13 +6,10 @@
 
 #import <EventKitUI/EKEventEditItem.h>
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface EKEventAvailabilityEditItem : EKEventEditItem
 {
     long long _availability;
-    NSArray *_choices;
 }
 
 - (_Bool);
@@ -21,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void)dBeginEditing: /* Error: Ran out of types for this method. */;
+- (void)searchBarTextDidBeginEditing: /* Error: Ran out of types for this method. */;
 
 @end
 

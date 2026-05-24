@@ -5,5 +5,9 @@
 //
 
 @protocol FIFinderViewDelegate
+
+@optional
+- (void);
+- (_Bool)*;
 @end
 

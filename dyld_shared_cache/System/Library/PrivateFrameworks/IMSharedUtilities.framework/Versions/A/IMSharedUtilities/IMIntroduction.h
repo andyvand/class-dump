@@ -9,21 +9,19 @@
 @interface IMIntroduction
 {
     NSString *_handle;
-    NSString *_suggestedName;
 }
 
 + (id);
 - (id);
 - (id);
+- (id)setCellMaxUlCaNumConfigured: /* Error: Ran out of types for this method. */;
+- (void)setAggregateMetrics:(id)arg1;
 - (id);
-- (void);
-- (id);
-- (void)ailable;
+- (void)unavailable;
 - (void)e@O;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *handle; // @synthesize handle=_handle;
-@property(retain, nonatomic) NSString *suggestedName; // @synthesize suggestedName=_suggestedName;
 
 @end
 

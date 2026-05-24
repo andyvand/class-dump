@@ -6,19 +6,16 @@
 
 #import <BiomeStreams/BMEventBase.h>
 
-@class NSString;
-
 @interface BMBacklightEvent : BMEventBase
 {
     double _absoluteTimestamp;
-    unsigned long long _backlightLevel;
 }
 
-+ (id);
++ (id);;
 + (id);
 - (id);
-- (id);
-- (unsigned int);
+- (id)# ;
+- (unsigned int);
 - (id);
 - (id);
 - (id);
@@ -27,19 +24,10 @@
 - (double);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)start;
 
 // Remaining properties
 @property(readonly, nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
-@property(readonly, nonatomic) unsigned long long backlightLevel; // @synthesize backlightLevel=_backlightLevel;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,15 +6,10 @@
 
 #import <Safari/AssistantPopoverResult.h>
 
-@class NSString;
-@protocol AssistantPopoverViewControllerDelegate;
-
 __attribute__((visibility("hidden")))
 @interface AssistantPopoverPageMenuItemInfo : AssistantPopoverResult
 {
     long long _pageMenuType;
-    id <AssistantPopoverViewControllerDelegate> _popoverDelegate;
-    NSString *_accessibilityIdentifier;
 }
 
 - (void);
@@ -27,9 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *accessibilityIdentifier; // @synthesize accessibilityIdentifier=_accessibilityIdentifier;
 @property(nonatomic) long long pageMenuType; // @synthesize pageMenuType=_pageMenuType;
-@property(nonatomic) __weak id <AssistantPopoverViewControllerDelegate> popoverDelegate; // @synthesize popoverDelegate=_popoverDelegate;
 
 @end
 

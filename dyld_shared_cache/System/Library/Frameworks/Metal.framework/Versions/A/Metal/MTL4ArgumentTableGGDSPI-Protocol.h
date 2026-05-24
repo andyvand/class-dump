@@ -5,5 +5,6 @@
 //
 
 @protocol MTL4ArgumentTableGGDSPI
+- (void);
 @end
 

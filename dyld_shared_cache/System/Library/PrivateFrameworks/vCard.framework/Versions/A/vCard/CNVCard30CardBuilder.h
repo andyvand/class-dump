@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-@protocol CNVCardLineFactory, CNVCardPerson;
+@protocol CNVCardPerson;
 
 @interface CNVCard30CardBuilder
 {
     _Bool _photoHandled;
-    id <CNVCardPerson> _person;
-    NSMutableArray *_lines;
-    long long _groupCount;
-    unsigned long long _countOfLinesBeforePhoto;
-    CDUnknownBlockType _retrofitPhoto;
-    NSMutableArray *_unknownProperties;
-    id <CNVCardLineFactory> _lineFactory;
 }
 
 + (unsigned long long);
@@ -84,14 +76,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long countOfLinesBeforePhoto; // @synthesize countOfLinesBeforePhoto=_countOfLinesBeforePhoto;
-@property(nonatomic) long long groupCount; // @synthesize groupCount=_groupCount;
-@property(readonly, nonatomic) id <CNVCardLineFactory> lineFactory; // @synthesize lineFactory=_lineFactory;
-@property(readonly, nonatomic) NSMutableArray *lines; // @synthesize lines=_lines;
 @property(readonly, nonatomic) id <CNVCardPerson> person; // @synthesize person=_person;
-@property(nonatomic) _Bool photoHandled; // @synthesize photoHandled=_photoHandled;
-@property(readonly, copy, nonatomic) CDUnknownBlockType retrofitPhoto; // @synthesize retrofitPhoto=_retrofitPhoto;
-@property(readonly, nonatomic) NSMutableArray *unknownProperties; // @synthesize unknownProperties=_unknownProperties;
 
 @end
 

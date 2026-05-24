@@ -10,8 +10,8 @@
 {
 }
 
-- (long long);
-- (id);
+- (long long)_textInputContextBeingObserved;
+- (id)_textForPasswordItem:(id)arg1;
 
 @end
 

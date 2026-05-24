@@ -6,31 +6,20 @@
 
 #import <SampleAnalysis/SABlockingInfo.h>
 
-@class NSString;
-
 @interface SAVMRangeLock : SABlockingInfo
 {
     unsigned long long _blockingTid;
-    _Bool _waiterExclusive;
-    _Bool _waiterShared;
-    _Bool _waiterAtomic;
-    _Bool _waiterStreaming;
-    _Bool _blockerExclusive;
-    _Bool _blockerShared;
-    _Bool _blockerAtomic;
-    _Bool _blockerStreaming;
-    unsigned long long _flags;
 }
 
 + (id);
-+ (id);
-- (_Bool);
-- (_Bool);
++ (id)accessibilityMinimized;
+- (_Bool)puted normalizations,N,%u,M,%u;
+- (_Bool)izations,layer_num,%u,computed normalizations,N,%u,M,%u;
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long)t;
 - (int);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -46,22 +35,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) _Bool blockerAtomic; // @synthesize blockerAtomic=_blockerAtomic;
-@property(readonly) _Bool blockerExclusive; // @synthesize blockerExclusive=_blockerExclusive;
-@property(readonly) _Bool blockerShared; // @synthesize blockerShared=_blockerShared;
-@property(readonly) _Bool blockerStreaming; // @synthesize blockerStreaming=_blockerStreaming;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long flags; // @synthesize flags=_flags;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly) _Bool waiterAtomic; // @synthesize waiterAtomic=_waiterAtomic;
-@property(readonly) _Bool waiterExclusive; // @synthesize waiterExclusive=_waiterExclusive;
-@property(readonly) _Bool waiterShared; // @synthesize waiterShared=_waiterShared;
-@property(readonly) _Bool waiterStreaming; // @synthesize waiterStreaming=_waiterStreaming;
 
 @end
 

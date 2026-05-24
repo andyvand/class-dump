@@ -5,5 +5,8 @@
 //
 
 @protocol LSInternalWorkspaceObserverProtocol
+- (void);
+- (void)zero; it is set to %d.;
+- (void) ;
 @end
 

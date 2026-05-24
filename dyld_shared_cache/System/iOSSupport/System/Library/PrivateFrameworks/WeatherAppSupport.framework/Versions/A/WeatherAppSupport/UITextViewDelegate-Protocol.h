@@ -4,6 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UITextItemMenuConfiguration, UITextView;
+
 @protocol UITextViewDelegate
+
+@optional
+- (_Bool);
+- (void)D%;
+- (void);
+- (void)VoiceShortcutClient;
+- (void)WFGlyphCharacter;
+- (void)NNSAttributedStringKey;
+- (void)St;
+- (_Bool)WFAskLLMFeedbackPresenter;
+- (UITextItemMenuConfiguration *)*\n;
+- (void)setPreferredContentAlignment:(UITextView *)arg1;
 @end
 

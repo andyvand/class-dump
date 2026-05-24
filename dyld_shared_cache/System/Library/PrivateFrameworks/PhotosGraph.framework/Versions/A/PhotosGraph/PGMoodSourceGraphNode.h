@@ -11,7 +11,7 @@
 }
 
 + (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (double);
 

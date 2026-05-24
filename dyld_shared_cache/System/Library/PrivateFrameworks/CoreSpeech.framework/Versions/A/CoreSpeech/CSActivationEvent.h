@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSDeviceActivationEvent, NSDictionary, NSString;
+@class CSDeviceActivationEvent, NSString;
 
 @interface CSActivationEvent
 {
@@ -13,34 +13,27 @@
 
 + (id);
 + (id);
-+ (id);
++ (id)VNDetectHumanHeadRectanglesRequestPrivateRevisionANODv4;
 + (id);
 + (id);
 + (id);
 + (id)× ;
 - (id);
 - (id);
-- (id);
+- (id)o contact changes to index;
 - (id);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
-- (id);
+- (unsigned long long)R;
+- (id)RTExecutionOutputs(_:(id)arg1 _:_:_:):commonGaze: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (float);
 - (id);
-- (void)set: /* Error: Ran out of types for this method. */;
+- (void)_trailStageDirectoryForAsset: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *UUID;
-@property(readonly, nonatomic) NSDictionary *activationInfo;
-@property(readonly, nonatomic) CSDeviceActivationEvent *deviceActivationEvent; // @synthesize deviceActivationEvent=_deviceActivationEvent;
-@property(readonly, nonatomic) NSString *deviceId;
-@property(readonly, nonatomic) unsigned long long hosttime;
-@property(readonly, nonatomic) NSString *localizedDescription;
-@property(readonly, nonatomic) unsigned long long type;
-@property(readonly, nonatomic) float vadScore;
 
 @end
 

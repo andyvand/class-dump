@@ -7,14 +7,16 @@
 @class NSString;
 
 @protocol NSObject
+- (unsigned long long)kA;
+- (id){
+;
+- (_Bool)tUpMidnightTimer]E3$_2;
+- (id);
+
+@optional
+- (NSString *);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

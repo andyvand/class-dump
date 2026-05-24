@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUTWeakReference, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface _IDSContinuity
 {
     id _delegateContext;
-    CUTWeakReference *_delegate;
-    NSObject<OS_dispatch_queue> *_queue;
-    long long _state;
 }
 
 - (void);
@@ -28,11 +22,9 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (long long);
-- (void);
-- (void);
+- (id)SFNotificationNameBTPoweredOff;
+- (void)initWithData:(long long)arg1 identifier:serviceName:accountUniqueID:options: /* Error: Ran out of types for this method. */;
+- (long long)has_pessimisticCheck;
 - (void);
 - (void);
 - (void);
@@ -44,18 +36,13 @@
 - (void);
 - (void);
 - (void);
-- (void)erAcknowledgedBlockWithInvitationMap;
-- (void)acquiringDaemonConnection;
+- (void);
+- (void);
+- (void)_serverAcknowledgedBlockWithInvitationMap;
+- (void)_acquiringDaemonConnection;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

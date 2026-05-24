@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMBLocalZone, NSNotificationCenter, NSObject, NSString;
-@protocol HMDNetworkRouterFirewallRuleManagerBackingStoreCloudFetchScheduler, HMDNetworkRouterFirewallRuleManagerBackingStoreMirror, HMDNetworkRouterFirewallRuleManagerInternal, OS_dispatch_queue;
+@protocol HMDNetworkRouterFirewallRuleManagerInternal;
 
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterFirewallRuleManagerBackingStoreCoordinator
 {
     id <HMDNetworkRouterFirewallRuleManagerInternal> _firewallRuleManager;
-    id <HMDNetworkRouterFirewallRuleManagerBackingStoreMirror> _mirror;
-    NSNotificationCenter *_notificationCenter;
-    id <HMDNetworkRouterFirewallRuleManagerBackingStoreCloudFetchScheduler> _cloudFetchScheduler;
-    NSObject<OS_dispatch_queue> *_ownerQueue;
-    HMBLocalZone *_mirroredLocalZone;
 }
 
 + (_Bool);
@@ -33,43 +27,61 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-+ (long long);
++ (long long)ix5.rgb + diff6 * pix6.rgb + diff7 * pix7.rgb + diff8 * pix8.rgb + diff9 * pix9.rgb,
+diff1 + diff2 + diff3 + diff4 + diff5 + diff6 + diff7 + diff8 + diff9);
+}
+kernel vec4 bilateralAdd_9(sampler src, sampler sums, float slope, vec2 offset1, vec2 offset2, vec2 offset3, vec2 offset4, vec2 offset5,
+vec2 offset6, vec2 offset7, vec2 offset8, vec2 offset9, vec4 weight1, vec4 weight2, float weight3, float sumWeight)
+{
+vec4 sum;
+sum = sample(sums, samplerCoord(sums))*sumWeight;
+return sum + bilateralRow_9(src, slope, offset1, offset2, offset3, offset4, offset5, offset6, offset7, offset8, offset9,
+weight1, weight2, weight3);
+}
+kernel vec4 bilateralFinalize(sampler sums)
+{
+vec4 sum;
+sum = sample(sums, samplerCoord(sums));
+return vec4(sum.rgb / max(sum.a, 0.001), 1.0);
+}
+
+;
 + (id)Ä ;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (id)storageController:(id)arg1 updatedSharedTripGroupStorage:(id)arg2;
+- (id)stopSharingWith:reason:error: /* Error: Ran out of types for this method. */;
+- (id)initWithSharedTripIdentifier:invalidationHandler: /* Error: Ran out of types for this method. */;
+- (id)redTripContact"8Q16;
+- (id)iconDataCarPlay;
+- (id)%s, blocked:(id)arg1 %s>;
+- (void);
+- (void)E;
+- (id);
+- (void)#;
+- (id);
+- (id);
+- (void);
+- (void);
+- (id)b;
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (void)";
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -80,20 +92,7 @@ __attribute__((visibility("hidden")))
 ¨·=;
 
 // Remaining properties
-@property(readonly, nonatomic) id <HMDNetworkRouterFirewallRuleManagerBackingStoreCloudFetchScheduler> cloudFetchScheduler; // @synthesize cloudFetchScheduler=_cloudFetchScheduler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) __weak id <HMDNetworkRouterFirewallRuleManagerInternal> firewallRuleManager; // @synthesize firewallRuleManager=_firewallRuleManager;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <HMDNetworkRouterFirewallRuleManagerBackingStoreMirror> mirror; // @synthesize mirror=_mirror;
-@property(retain, nonatomic) HMBLocalZone *mirroredLocalZone; // @synthesize mirroredLocalZone=_mirroredLocalZone;
-@property(readonly, nonatomic) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *ownerQueue; // @synthesize ownerQueue=_ownerQueue;
 @property(readonly, nonatomic, getter=isRunning) _Bool running;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,32 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFHomeAccessorySiriDataSharingChangeLogEvent, NSDate, NSString;
+@class AFHomeAccessorySiriDataSharingChangeLogEvent;
 
 @interface _AFHomeAccessorySiriDataSharingChangeLogEventMutation
 {
     AFHomeAccessorySiriDataSharingChangeLogEvent *_base;
-    NSDate *_date;
-    long long _previousOptInStatus;
-    long long _newOptInStatus;
-    long long _changeSource;
-    NSString *_changeReason;
-    NSString *_buildVersion;
-    NSString *_productVersion;
-    NSString *_schemaVersion;
-    NSString *_logEventIdentifier;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasDate:1;
-        unsigned int hasPreviousOptInStatus:1;
-        unsigned int hasNewOptInStatus:1;
-        unsigned int hasChangeSource:1;
-        unsigned int hasChangeReason:1;
-        unsigned int hasBuildVersion:1;
-        unsigned int hasProductVersion:1;
-        unsigned int hasSchemaVersion:1;
-        unsigned int hasLogEventIdentifier:1;
-    } _mutationFlags;
 }
 
 - (void);
@@ -37,31 +16,25 @@
 - (void);
 - (void);
 - (id);
+- (id)H;
+- (long long);
+- (long long);
 - (id);
-- (long long);
-- (long long);
-- (id);
-- (long long);
+- (long long)_k`;
 - (id);
 - (void);
 - (_Bool);
 - (void);
+- (void)IMWatchSyncSatelliteStatus;
+- (id)inline_tapback_menu;
+- (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id)tartExpectingGestureRecognitionForContexts:(id)arg1;
-- (void)NetworkDidBecomeActive;
-- (void)ringChangeLogEvent;
+- (id)startExpectingGestureRecognitionForContexts:(id)arg1;
+- (void)_markNetworkDidBecomeActive;
+- (void)AFHomeAccessorySiriDataSharingChangeLogEvent;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

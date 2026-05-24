@@ -7,9 +7,9 @@
 @class NSString;
 
 @protocol NSLayoutRule
+- (NSString *)a;
 
 // Remaining properties
 @property(readonly, copy) NSString *identifier;
-@property(readonly, copy) NSString *ruleDescription;
 @end
 

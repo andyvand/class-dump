@@ -6,27 +6,19 @@
 
 #import <HomeKitDaemon/HMDRemoveAccessoryPairingOperation.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDRemoveAccessoryPairingSharedUserOperation : HMDRemoveAccessoryPairingOperation
 {
 }
 
 + (id);C;
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)setFullDescription:(id *)arg1;
+- (id)ed composedRoute because incoming waypoint count differs from ours;
+- (id)or reason %lu, etaInPast %{public}@);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

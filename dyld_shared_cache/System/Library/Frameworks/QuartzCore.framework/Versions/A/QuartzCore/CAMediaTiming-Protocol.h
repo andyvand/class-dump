@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol CAMediaTiming
+- (double)_tocTableGroup;
+- (void)2X;
+- (double)gement;
+- (void)setAllowsDeepmap2ImageCompression:(double)arg1;
 
 // Remaining properties
-@property _Bool autoreverses;
 @property double beginTime;
-@property double duration;
-@property(copy) NSString *fillMode;
-@property float repeatCount;
-@property double repeatDuration;
-@property float speed;
-@property double timeOffset;
 @end
 

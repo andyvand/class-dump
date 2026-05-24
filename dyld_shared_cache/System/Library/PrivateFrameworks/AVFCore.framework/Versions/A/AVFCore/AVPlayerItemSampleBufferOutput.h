@@ -6,19 +6,12 @@
 
 #import <AVFCore/AVPlayerItemOutput.h>
 
-@class AVWeakReference, AVWeakReferencingDelegateStorage, NSObject;
+@class NSObject;
 @protocol AVPlayerItemSampleBufferOutputDelegate, OS_dispatch_queue;
 
 @interface AVPlayerItemSampleBufferOutput : AVPlayerItemOutput
 {
     NSObject<OS_dispatch_queue> *_stateQueue;
-    AVWeakReference *_weakReference;
-    AVWeakReference *_weakReferenceToPlayerItemTrack;
-    AVWeakReferencingDelegateStorage *_delegateStorage;
-    struct OpaqueFigPlaybackItem *_figPlaybackItem;
-    int _trackID;
-    int _extractionID;
-    double _advanceInterval;
 }
 
 + (void)eDuration must be numeric;
@@ -39,7 +32,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -48,7 +41,6 @@
 
 // Remaining properties
 @property(readonly) __weak id <AVPlayerItemSampleBufferOutputDelegate> delegate;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue;
 
 @end
 

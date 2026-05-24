@@ -11,7 +11,6 @@
 @interface CKModifySubscriptionsOperationInfo : CKDatabaseOperationInfo
 {
     NSArray *_subscriptionsToSave;
-    NSArray *_subscriptionIDsToDelete;
 }
 
 + (_Bool);
@@ -24,7 +23,6 @@
 - (void)Ø;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *subscriptionIDsToDelete; // @synthesize subscriptionIDsToDelete=_subscriptionIDsToDelete;
 @property(retain, nonatomic) NSArray *subscriptionsToSave; // @synthesize subscriptionsToSave=_subscriptionsToSave;
 
 @end

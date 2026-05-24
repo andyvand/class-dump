@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOperationQueue, NSUndoManager, VSPersistentStorage;
+@class NSOperationQueue;
 
 @interface VSAccountSerializationCenter
 {
     NSOperationQueue *_serializationQueue;
-    VSPersistentStorage *_storage;
 }
 
 + (id);
-- (void);
+- (void)	;
 - (id);
 - (id);
 - (id);
@@ -26,8 +25,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSOperationQueue *serializationQueue; // @synthesize serializationQueue=_serializationQueue;
-@property(retain, nonatomic) VSPersistentStorage *storage; // @synthesize storage=_storage;
-@property(retain, nonatomic) NSUndoManager *undoManager;
 
 @end
 

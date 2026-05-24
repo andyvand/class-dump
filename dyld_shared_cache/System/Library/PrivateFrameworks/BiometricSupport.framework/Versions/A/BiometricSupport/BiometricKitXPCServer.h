@@ -4,49 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ActivityTracker, BKCatacomb, BiometricAutoBugCapture, BiometricOperation, CatacombStateCache, EntitlementABCIssueReporter, NSMutableArray, NSMutableDictionary, NSMutableSet, NSObject, NSRecursiveLock, NSString;
-@protocol OS_dispatch_queue;
-
 @interface BiometricKitXPCServer
 {
     unsigned long long _osStateHandle;
-    NSMutableSet *_exportedObjects;
-    _Bool _connectionsSuspended;
-    unsigned int _maxTemplatesPerUser;
-    unsigned int _maxSupportedUsers;
-    int _activeOperationNtfToken;
-    _Bool _activeOperationNtfTokenValid;
-    NSObject<OS_dispatch_queue> *_activeOperationNtfQueue;
-    _Bool _userListChangeDetected;
-    int _lastDisplayState;
-    int _enrollChgNtfToken;
-    _Bool _enrollChgNtfTokenValid;
-    NSString *_bioLockoutPath;
-    NSMutableDictionary *_catacombUserUUIDs;
-    NSMutableDictionary *_catacombUserKeybagUUIDs;
-    int _mkbLockStatusNtfToken;
-    struct __FSEventStream *_fsEventStream;
-    int _connectedAccessoriesChgNtfToken;
-    _Bool _connectedAccessoriesChgNtfTokenValid;
-    _Bool _ariadneSignposts;
-    _Bool _templatesAtBoot;
-    _Bool _catacombFileAccessed;
-    _Bool _catacombRestored;
-    struct IONotificationPort *_notifyport;
-    NSObject<OS_dispatch_queue> *_cmdDispatchQueue;
-    NSMutableArray *_bioOpsQueue;
-    NSMutableArray *_activeBioOpsQueue;
-    BiometricOperation *_runningBioOp;
-    ActivityTracker *_ongoingCatacombSaveTimer;
-    ActivityTracker *_ongoingBiometricOperation;
-    NSMutableArray *_cachedIdentities;
-    NSRecursiveLock *_catacombLock;
-    BKCatacomb *_catacomb;
-    CatacombStateCache *_catacombStateCache;
-    BiometricAutoBugCapture *_biometricABC;
-    NSObject<OS_dispatch_queue> *_biometricABCDispatchQueue;
-    NSMutableSet *_accessories;
-    EntitlementABCIssueReporter *_reporter;
 }
 
 + (void);
@@ -54,7 +14,7 @@
 - (id);
 - (id);
 - (int);
-- (struct os_state_data_s *);
+- (struct os_state_data_s *)A;
 - (id);
 - (id);
 - (_Bool);
@@ -79,7 +39,7 @@
 - (id);
 - (void);
 - (int);
-- (int);
+- (int);
 - (int);
 - (int);
 - (int);
@@ -127,7 +87,7 @@
 - (int);
 - (id);
 - (int);
-- (id);
+- (id);
 - (int);
 - (int);
 - (void);
@@ -136,10 +96,10 @@
 - (int);
 - (id);
 - (int);
-- (long long);
+- (long long);
 - (int);
 - (void);
-- (void);
+- (void)6@;
 - (int);
 - (id);
 - (void);
@@ -148,7 +108,7 @@
 - (_Bool);
 - (int);
 - (id);
-- (id);
+- (id)]@�K;
 - (int);
 - (_Bool);
 - (id);
@@ -156,30 +116,30 @@
 - (id);
 - (id);
 - (id);
+- (int)24@32B40;
+- (int)getValue:(_Bool)arg1;
 - (int);
+- (int),;
+- (_Bool);
 - (int);
+- (id)keesde;
+- (void);
+- (int)1ES5_RKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEdSE_EUldE_FddEEE;
 - (int);
-- (int);
+- (int);
+- (void);
 - (_Bool);
 - (int);
 - (id);
-- (void);
-- (int);
-- (int);
-- (int);
-- (void);
-- (_Bool);
 - (int);
 - (id);
-- (int);
-- (id);
-- (int);
+- (int);
 - (id);
 - (int);
 - (int);
 - (void);
 - (id);
-- (int);
+- (int)"	;
 - (unsigned int);
 - (int);
 - (int);
@@ -193,11 +153,11 @@
 - (int);
 - (id);
 - (int);
-- (int);
+- (int)(;
 - (id);
+- (int);
 - (int);
-- (int);
-- (id);
+- (id)!;
 - (_Bool);
 - (int);
 - (id);
@@ -208,54 +168,55 @@
 - (id);
 - (void);
 - (void);
+- (int)P;
+- (int);
+- (id);
+- (int)a;
+- (int);
+- (void);
 - (int);
 - (int);
 - (id);
 - (int);
-- (int);
-- (void);
-- (int);
-- (int);
-- (id);
-- (int);
 - (void);
 - (void);
-- (int);
+- (int)h;
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (int);
+- (int);
+- (int)6;
 - (int);
 - (int);
-- (int);
-- (int);
-- (int);
+- (int)s;
 - (int);
 - (void);
+- (int)rss_size;
+- (int)_periodicAggdTimer;
+- (id)_lastThermalInstantEntry;
+- (long long)n",&,V_accessoryUARPListener;
+- (id)o!;
+- (int)ms:(unsigned int)arg1 could not get remCap control efforts;
+- (int)_get_all_zones;
+- (void)native/custom refresh rate;
+- (unsigned long long)level;
+- (int)Parameter150(4308):(unsigned int *)arg1 cfg 6 elements; (6*4) cfg bytes != (%d) buffer bytes;
+- (void)Error adding 1 elements to context;
+- (void)context;
+- (_Bool)elements != (%d) buffer elements;
+- (int)raidReconstructFailBMXUnsup;
+- (int)raidExpectedFailRMXReconstructionHost;
+- (void);
+- (void)ئ
+;
 - (int);
+- (int)!W;
 - (int);
-- (id);
 - (long long);
-- (id);
-- (int);
-- (int);
 - (void);
-- (unsigned long long);
-- (int);
-- (void);
-- (void);
-- (_Bool);
-- (int);
-- (int);
-- (void);
-- (void);
-- (int);
-- (int);
-- (int);
-- (long long);
-- (void);
-- (_Bool);
+- (_Bool)Uc9;
 - (int);
 - (void);
 - (_Bool);
@@ -268,7 +229,7 @@
 - (void);
 - (int);
 - (void);
-- (void);
+- (void)A;
 - (int);
 - (int);
 - (int);
@@ -284,7 +245,7 @@
 - (int);
 - (int);
 - (void);
-- (_Bool);
+- (_Bool);
 - (int);
 - (void);
 - (int);
@@ -293,38 +254,12 @@
 - (int);
 - (id);
 - (id);
-- (id);
+- (id);
 - (int);
-- (id)te_reset_all_peers;
+- (id)aks_remote_reset_all_peers;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSMutableSet *accessories; // @synthesize accessories=_accessories;
-@property(readonly, retain, nonatomic) NSMutableArray *activeBioOpsQueue; // @synthesize activeBioOpsQueue=_activeBioOpsQueue;
-@property(nonatomic) _Bool ariadneSignposts; // @synthesize ariadneSignposts=_ariadneSignposts;
-@property(readonly, retain, nonatomic) NSMutableArray *bioOpsQueue; // @synthesize bioOpsQueue=_bioOpsQueue;
-@property(retain, nonatomic) BiometricAutoBugCapture *biometricABC; // @synthesize biometricABC=_biometricABC;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *biometricABCDispatchQueue; // @synthesize biometricABCDispatchQueue=_biometricABCDispatchQueue;
-@property(readonly, retain, nonatomic) NSMutableArray *cachedIdentities; // @synthesize cachedIdentities=_cachedIdentities;
-@property(readonly, retain, nonatomic) BKCatacomb *catacomb; // @synthesize catacomb=_catacomb;
-@property(nonatomic) _Bool catacombFileAccessed; // @synthesize catacombFileAccessed=_catacombFileAccessed;
-@property(readonly, retain, nonatomic) NSRecursiveLock *catacombLock; // @synthesize catacombLock=_catacombLock;
-@property(nonatomic) _Bool catacombRestored; // @synthesize catacombRestored=_catacombRestored;
-@property(readonly, retain, nonatomic) CatacombStateCache *catacombStateCache; // @synthesize catacombStateCache=_catacombStateCache;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *cmdDispatchQueue; // @synthesize cmdDispatchQueue=_cmdDispatchQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool lastDisplayState;
 @property(readonly, nonatomic) struct IONotificationPort *notifyport; // @synthesize notifyport=_notifyport;
-@property(readonly, retain, nonatomic) ActivityTracker *ongoingBiometricOperation; // @synthesize ongoingBiometricOperation=_ongoingBiometricOperation;
-@property(readonly, retain, nonatomic) ActivityTracker *ongoingCatacombSaveTimer; // @synthesize ongoingCatacombSaveTimer=_ongoingCatacombSaveTimer;
-@property(retain, nonatomic) EntitlementABCIssueReporter *reporter; // @synthesize reporter=_reporter;
-@property(readonly, retain, nonatomic) BiometricOperation *runningBioOp; // @synthesize runningBioOp=_runningBioOp;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool templatesAtBoot; // @synthesize templatesAtBoot=_templatesAtBoot;
 
 @end
 

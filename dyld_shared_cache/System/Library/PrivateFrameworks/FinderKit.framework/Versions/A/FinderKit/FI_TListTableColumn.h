@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface FI_TListTableColumn
 {
     _Bool _isSortColumn;
-    int _mainProperty;
 }
 
 - (void);
@@ -16,13 +15,12 @@ __attribute__((visibility("hidden")))
 - (int);
 - (_Bool);
 - (id);
-- (void);
+- (void)lter"16@0:8 /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool isSortColumn; // @synthesize isSortColumn=_isSortColumn;
-@property(nonatomic) int mainProperty; // @synthesize mainProperty=_mainProperty;
 
 @end
 

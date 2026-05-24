@@ -22,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)Rect:,V_remoteLandscapeContentRect /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

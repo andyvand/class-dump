@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class EARSyncPSRAudioProcessor;
+
 @protocol EARSyncPSRAudioProcessorDelegate
+
+@optional
+- (void)shareId;
+- (void)setZoneRetrieveChangesResponse:(EARSyncPSRAudioProcessor *)arg1;
 @end
 

@@ -9,22 +9,15 @@
 @interface MAMusicHapticsManager
 {
     _Bool treatCodesAsAdamIDs;
-    _Bool musicHapticsActive;
-    NSMutableDictionary *statusObservers;
-    NSMutableDictionary *ahapAvailableObservers;
-    NSMutableDictionary *ahapAvailableCache;
-    NSMutableDictionary *appSupportsCache;
-    NSMutableDictionary *appSupportedObservers;
-    NSMutableDictionary *pendingAvailableObservers;
 }
 
 + (_Bool);
 + (id);
 - (_Bool);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)h;
 - (void);
 - (void);
 - (void);
@@ -50,15 +43,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *ahapAvailableCache; // @synthesize ahapAvailableCache;
-@property(retain, nonatomic) NSMutableDictionary *ahapAvailableObservers; // @synthesize ahapAvailableObservers;
-@property(retain, nonatomic) NSMutableDictionary *appSupportedObservers; // @synthesize appSupportedObservers;
-@property(retain, nonatomic) NSMutableDictionary *appSupportsCache; // @synthesize appSupportsCache;
-@property(readonly, nonatomic) _Bool isActive;
-@property(nonatomic) _Bool musicHapticsActive; // @synthesize musicHapticsActive;
-@property(retain, nonatomic) NSMutableDictionary *pendingAvailableObservers; // @synthesize pendingAvailableObservers;
 @property(retain, nonatomic) NSMutableDictionary *statusObservers; // @synthesize statusObservers;
-@property(nonatomic) _Bool treatCodesAsAdamIDs; // @synthesize treatCodesAsAdamIDs;
 
 @end
 

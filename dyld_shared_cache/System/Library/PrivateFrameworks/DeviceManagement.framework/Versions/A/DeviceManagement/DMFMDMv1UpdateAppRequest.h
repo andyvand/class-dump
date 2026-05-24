@@ -6,24 +6,11 @@
 
 #import <DeviceManagement/DMFUpdateAppRequest.h>
 
-@class NSArray, NSDictionary, NSNumber, NSString;
+@class NSString;
 
 @interface DMFMDMv1UpdateAppRequest : DMFUpdateAppRequest
 {
     NSString *_originator;
-    unsigned long long _managementOptions;
-    NSString *_VPNUUIDString;
-    NSString *_cellularSliceUUIDString;
-    NSString *_contentFilterUUIDString;
-    NSString *_DNSProxyUUIDString;
-    NSString *_relayUUIDString;
-    NSArray *_associatedDomains;
-    NSNumber *_associatedDomainsEnableDirectDownloads;
-    NSNumber *_removable;
-    NSNumber *_tapToPayScreenLock;
-    NSNumber *_allowUserToHide;
-    NSNumber *_allowUserToLock;
-    NSDictionary *_configuration;
 }
 
 + (Class);
@@ -50,32 +37,19 @@
 - (id);
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
+- (id)9;
+- (void)onlyEmailFormat;
 - (id)B16B20B24B28B32Q36Q44;
-- (void)iveConnection;
+- (void)requireActiveConnection;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *DNSProxyUUIDString; // @synthesize DNSProxyUUIDString=_DNSProxyUUIDString;
-@property(copy, nonatomic) NSString *VPNUUIDString; // @synthesize VPNUUIDString=_VPNUUIDString;
-@property(copy, nonatomic) NSNumber *allowUserToHide; // @synthesize allowUserToHide=_allowUserToHide;
-@property(copy, nonatomic) NSNumber *allowUserToLock; // @synthesize allowUserToLock=_allowUserToLock;
-@property(copy, nonatomic) NSArray *associatedDomains; // @synthesize associatedDomains=_associatedDomains;
-@property(copy, nonatomic) NSNumber *associatedDomainsEnableDirectDownloads; // @synthesize associatedDomainsEnableDirectDownloads=_associatedDomainsEnableDirectDownloads;
-@property(copy, nonatomic) NSString *cellularSliceUUIDString; // @synthesize cellularSliceUUIDString=_cellularSliceUUIDString;
-@property(copy, nonatomic) NSDictionary *configuration; // @synthesize configuration=_configuration;
-@property(copy, nonatomic) NSString *contentFilterUUIDString; // @synthesize contentFilterUUIDString=_contentFilterUUIDString;
-@property(nonatomic) unsigned long long managementOptions; // @synthesize managementOptions=_managementOptions;
 @property(copy, nonatomic) NSString *originator; // @synthesize originator=_originator;
-@property(copy, nonatomic) NSString *relayUUIDString; // @synthesize relayUUIDString=_relayUUIDString;
-@property(copy, nonatomic) NSNumber *removable; // @synthesize removable=_removable;
-@property(copy, nonatomic) NSNumber *tapToPayScreenLock; // @synthesize tapToPayScreenLock=_tapToPayScreenLock;
 
 @end
 

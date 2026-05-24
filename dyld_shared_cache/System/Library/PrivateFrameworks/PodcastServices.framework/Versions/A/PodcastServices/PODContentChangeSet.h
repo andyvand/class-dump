@@ -4,43 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PODContentAnchor, PODLibrarySettings;
+@class NSArray, PODContentAnchor;
 
 @interface PODContentChangeSet
 {
     NSArray *_changes;
-    PODContentAnchor *_anchor;
-    PODLibrarySettings *_librarySettings;
-    NSArray *_libraryStationSyncDictionaries;
 }
 
 + (id);
 + (_Bool);
 - (void);
-- (void);
+- (void)�9C;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)shouldDelayGroupSubmissionOfActivity: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) PODContentAnchor *anchor; // @synthesize anchor=_anchor;
-@property(readonly, nonatomic) NSArray *changes; // @synthesize changes=_changes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) PODLibrarySettings *librarySettings; // @synthesize librarySettings=_librarySettings;
-@property(retain, nonatomic) NSArray *libraryStationSyncDictionaries; // @synthesize libraryStationSyncDictionaries=_libraryStationSyncDictionaries;
-@property(readonly) Class superclass;
 
 @end
 

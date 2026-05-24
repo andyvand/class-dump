@@ -11,16 +11,14 @@ __attribute__((visibility("hidden")))
 @interface NLLogCategory
 {
     NSObject<OS_os_log> *_internal;
-    NSString *_loggingCategory;
-    NSString *_loggingSubsystem;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)P;
 + (void);
 + (id);
-+ (void);
++ (void)setToolbarItemsNeedUpdateForExtensionWithUUID: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -28,8 +26,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_os_log> *internal; // @synthesize internal=_internal;
-@property(readonly, nonatomic) NSString *loggingCategory; // @synthesize loggingCategory=_loggingCategory;
 @property(readonly, nonatomic) NSString *loggingSubsystem; // @synthesize loggingSubsystem=_loggingSubsystem;
 
 @end

@@ -6,24 +6,22 @@
 
 #import <FamilyCircle/FAFamilyCircleRequest.h>
 
-@class FAScreentimeSettingsObjectCache, NSNumber;
+@class NSNumber;
 
 @interface FASaveScreenTimeSettingsCacheRequest : FAFamilyCircleRequest
 {
     NSNumber *_memberDSID;
-    FAScreentimeSettingsObjectCache *_object;
 }
 
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)speakers;
+- (id)SetTvSubscriptionsClientState;
+- (id)firing;
+- (void)g to resume the call;
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy) NSNumber *memberDSID; // @synthesize memberDSID=_memberDSID;
-@property(readonly, copy) FAScreentimeSettingsObjectCache *object; // @synthesize object=_object;
 
 @end
 

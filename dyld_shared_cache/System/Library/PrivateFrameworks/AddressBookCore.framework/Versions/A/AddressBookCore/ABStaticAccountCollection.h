@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAccount, NSArray, NSString;
+@class NSString;
 
 @interface ABStaticAccountCollection
 {
     NSString *_basePath;
-    NSArray *_accounts;
-    unsigned long long _indexOfDefaultAccount;
-    NSString *_tag;
 }
 
 - (id);
@@ -22,31 +19,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void)
 × ;
-- (id);
+- (id)nts_coreDataFullNameIncludingAuxiliaryElements: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSArray *allAccounts;
-@property(readonly, copy) NSString *basePath;
-@property(readonly) _Bool canBeReplacedByCachedAccounts;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) ABAccount *defaultAccount;
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSArray *enabledAccounts;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSArray *hiddenAccounts;
-@property(readonly, copy) NSArray *persistentAccounts;
-@property(readonly) Class superclass;
 @property(copy) NSString *tag; // @synthesize tag=_tag;
 
 @end

@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, NSURL;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface DownloadFile
 {
     long long _type;
-    _Bool _isSubFile;
-    _Bool _isTrashed;
-    NSDictionary *_securityAssessment;
-    NSURL *_fileURL;
-    NSData *_bookmarkData;
 }
 
++ (id)@;
 + (id);
-+ (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -36,8 +31,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (_Bool)alidTemporaryWebExtension;
+- (id)height;
+- (_Bool)safari_isValidTemporaryWebExtension;
 - (id)ackground load because of navigation error:(id)arg1 %{public}@;
 - (void)ä;
 - (void)Ä;
@@ -45,15 +40,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *MIMETypeFromFileExtension;
-@property(readonly, copy, nonatomic) NSData *bookmarkData; // @synthesize bookmarkData=_bookmarkData;
-@property(copy, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(readonly, nonatomic) _Bool isArchive;
-@property(readonly, nonatomic) _Bool isBOM;
-@property(readonly, nonatomic) _Bool isGZIP;
-@property(readonly, nonatomic) _Bool isMovableOrRemovable;
-@property(nonatomic) _Bool isSubFile; // @synthesize isSubFile=_isSubFile;
-@property(nonatomic) _Bool isTrashed; // @synthesize isTrashed=_isTrashed;
-@property(readonly, copy, nonatomic) NSDictionary *securityAssessment; // @synthesize securityAssessment=_securityAssessment;
 
 @end
 

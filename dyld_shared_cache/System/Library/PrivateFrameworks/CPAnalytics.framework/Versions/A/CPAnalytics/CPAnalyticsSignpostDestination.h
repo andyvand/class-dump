@@ -4,39 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPAnalytics, NSMutableIndexSet, NSString;
+@class CPAnalytics;
 
 @interface CPAnalyticsSignpostDestination
 {
     CPAnalytics *_cpAnalyticsInstance;
-    NSMutableIndexSet *_startedSignpostIDs;
 }
 
 - (void);
+- (void)_resolveUIDelegateFromDelegate:(id)arg1;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)updated;
+- (void)kCTPowerRadioModuleOffErrorNotification;
 - (id);
-- (id);
+- (id)4;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic) __weak CPAnalytics *cpAnalyticsInstance; // @synthesize cpAnalyticsInstance=_cpAnalyticsInstance;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool disabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSMutableIndexSet *startedSignpostIDs; // @synthesize startedSignpostIDs=_startedSignpostIDs;
-@property(readonly) Class superclass;
 
 @end
 

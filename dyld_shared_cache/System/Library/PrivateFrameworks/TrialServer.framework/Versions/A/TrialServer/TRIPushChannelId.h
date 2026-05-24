@@ -9,15 +9,12 @@
 @interface TRIPushChannelId
 {
     NSString *_rawIdentifier;
-    NSString *_base64ChannelId;
-    int _populationType;
-    unsigned long long _type;
 }
 
-+ (id);
-+ (_Bool);
-- (id);
-- (id);
++ (id)_workingElements;
++ (_Bool)_title;
+- (id)playerItemWithAsset:(id)arg1;
+- (id)parseISO6709String:(id)arg1 outLatitude:outLongitude: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned long long);
@@ -25,15 +22,13 @@
 - (unsigned long long);
 - (_Bool);
 - (int);
-- (_Bool);
-- (id);
+- (_Bool)'t;
+- (id)2;
 - (void)a×ð!xAù1!1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) int populationType; // @synthesize populationType=_populationType;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

@@ -7,14 +7,15 @@
 @class NSData, NSString;
 
 @protocol _CPDidGoToSearchFeedback
+- (id):(NSData *)arg1;
+- (unsigned long long) ;
+- (int);
+- (NSString *)A;
+- (void)K;
 - (void)@24@32B40;
-- (int);
+- (int)_isStaticCorrection;
 
 // Remaining properties
-@property(nonatomic) int endpoint;
-@property(copy, nonatomic) NSString *input;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned long long timestamp;
-@property(nonatomic) int triggerEvent;
 @end
 

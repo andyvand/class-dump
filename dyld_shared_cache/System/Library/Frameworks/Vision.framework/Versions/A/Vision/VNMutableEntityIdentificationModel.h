@@ -27,7 +27,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void)ageProcessorCLI;
+- (void)ImageProcessorCLI;
 
 @end
 

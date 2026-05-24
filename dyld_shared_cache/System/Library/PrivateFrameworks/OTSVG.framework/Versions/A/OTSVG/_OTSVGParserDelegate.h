@@ -4,57 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _OTSVGParserDelegate
 {
     _Bool errorOccurred;
-    unsigned int skipDepth;
-    unsigned int unitsPerEm;
-    void *root;
-    vector_76038cb7 stack;
-    unordered_map_7e644981 namespaces;
 }
 
 - (unsigned int);
 - (void);
-- (void);
-- (void);
-- (id);
-- (unsigned int);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)C;
 - (void);
 - (id);
-- (unordered_map_7e644981);
-- (vector_76038cb7);
+- (unsigned int)};
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)N;
+- (unordered_map_896e9326)@9!;
+- (vector_457cd715);
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void *);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property _Bool errorOccurred; // @synthesize errorOccurred;
-@property(readonly) unsigned long long hash;
-@property unordered_map_7e644981 namespaces; // @synthesize namespaces;
-@property void *root; // @synthesize root;
-@property unsigned int skipDepth; // @synthesize skipDepth;
-@property vector_76038cb7 stack; // @synthesize stack;
-@property(readonly) Class superclass;
-@property unsigned int unitsPerEm; // @synthesize unitsPerEm;
 
 @end
 

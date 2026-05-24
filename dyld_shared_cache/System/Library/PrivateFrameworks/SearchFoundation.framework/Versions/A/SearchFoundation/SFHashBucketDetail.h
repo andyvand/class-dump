@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface SFHashBucketDetail
 {
     NSString *_hash_prefix;
-    NSArray *_hash_details;
 }
 
 + (_Bool);
@@ -17,28 +16,18 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)setCompanionDiscoverySession:(id)arg1;
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)B;
+- (void). playbackCompletionType:(id)arg1 %{public}@. Calling AudioServicesStopSystemSound for soundID:%lu with inStopNow = %{bool}d for alert %{public}@. /* Error: Ran out of types for this method. */;
+- (id)56B64;
+- (id)penultimateRenderedVideoContentURL;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)_cloudCover;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *hash_details; // @synthesize hash_details=_hash_details;
 @property(copy, nonatomic) NSString *hash_prefix; // @synthesize hash_prefix=_hash_prefix;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 
 @end
 

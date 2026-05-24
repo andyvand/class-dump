@@ -4,25 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
 @protocol NSNetServiceDelegate;
 
 @interface NSNetService
 {
     id _netService;
-    id _delegate;
-    id _reserved;
 }
 
 
 // Remaining properties
-@property(readonly, copy) NSArray *addresses;
 @property id <NSNetServiceDelegate> delegate;
-@property(readonly, copy) NSString *domain;
-@property(readonly, copy) NSString *hostName;
-@property _Bool includesPeerToPeer;
-@property(readonly, copy) NSString *name;
-@property(readonly) long long port;
-@property(readonly, copy) NSString *type;
 @end
 

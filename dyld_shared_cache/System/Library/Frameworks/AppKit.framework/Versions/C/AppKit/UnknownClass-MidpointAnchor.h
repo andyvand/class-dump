@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (MidpointAnchor)
-- (id);
+- (id)@;
 @end
 

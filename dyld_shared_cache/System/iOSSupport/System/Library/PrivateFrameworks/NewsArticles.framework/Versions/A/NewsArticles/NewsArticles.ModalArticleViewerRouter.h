@@ -7,8 +7,6 @@
 @interface NewsArticles.ModalArticleViewerRouter
 {
     id controller;
-    id tracker;
-    id router;
 }
 
 @end

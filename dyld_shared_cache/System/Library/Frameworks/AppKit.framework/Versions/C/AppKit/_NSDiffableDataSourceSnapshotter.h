@@ -10,7 +10,7 @@
 {
 }
 
-- (void);
+- (void)%{public}@ due to missing value;
 - (void);
 - (void);
 - (void)äèä;

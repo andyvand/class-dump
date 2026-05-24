@@ -9,7 +9,6 @@
 @interface EspressoDataFrameImageAttachment : EspressoDataFrameAttachment
 {
     struct vImage_Buffer buffer;
-    int _nChannels;
 }
 
 + (struct __CVBuffer *);

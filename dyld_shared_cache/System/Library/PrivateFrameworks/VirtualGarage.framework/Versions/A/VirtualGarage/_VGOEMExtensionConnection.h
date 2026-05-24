@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INCExtensionConnection, NSMutableArray;
+@class INCExtensionConnection;
 
 __attribute__((visibility("hidden")))
 @interface _VGOEMExtensionConnection
 {
     INCExtensionConnection *_connection;
-    CDUnknownBlockType _completion;
-    NSMutableArray *_connectionTimeoutHandlers;
-    NSMutableArray *_connectionErrorHandlers;
-    NSMutableArray *_intentCompletionHandlers;
-    struct os_unfair_lock_s _handlersLock;
-    struct os_unfair_lock_s _completionLock;
 }
 
 - (void);
@@ -23,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)R;
 - (id);
 - (void);
 

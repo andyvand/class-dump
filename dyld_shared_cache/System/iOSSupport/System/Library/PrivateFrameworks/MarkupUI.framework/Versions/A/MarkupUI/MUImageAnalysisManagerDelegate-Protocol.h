@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, UIImage, UIView;
+@class UIView, UIViewController, VKCImageAnalysisInteraction;
 
 @protocol MUImageAnalysisManagerDelegate
 
-// Remaining properties
-@property(readonly, nonatomic) NSDictionary *clientPreviewOptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,R,N
+@optional
+- (UIViewController *)setRatingView:(VKCImageAnalysisInteraction *)arg1;
 
+// Remaining properties
 @property(readonly, nonatomic) UIView *imageAnalysisView;
-@property(readonly, nonatomic) UIImage *imageForAnalysis;
 @end
 

@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSNumber, SCNProgram;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface SCNShadableHelper
 {
     id _owner;
-    SCNProgram *_program;
-    NSDictionary *_shaderModifiers;
-    NSArray *_c3dShaderModifierCache;
-    NSNumber *_minimumLanguageVersion;
-    NSMutableArray *_argumentsNames;
-    NSDictionary *_symbolToBinder;
-    NSDictionary *_symbolToUnbinder;
 }
 
-+ (_Bool);
++ (_Bool)ocusControlForStreamlinedLogin:inFrame:webView:completionHandler:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -32,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (struct __C3DFXTechnique *);
+- (struct __C3DFXTechnique *)?ן;
 - (void);
 - (void);
 - (void);
@@ -46,22 +39,37 @@ __attribute__((visibility("hidden")))
 - (struct __C3DFXGLSLProgram *);
 - (void);
 - (void *);
-- (void);
+- (void);
 - (void);
 - (id);
-- (id);
+- (id)_message_join)) AND
+        (
+            message.is_read == 0 AND
+            message.is_finished == 1 AND
+            message.is_from_me == 0 AND
+            message.item_type == 0 AND
+            message.is_system_message == 0
+        )
+),
+--- Gets all interesting messages
+interesting_messages AS (
+    SELECT * FROM unread_messages
+    UNION
+    SELECT * FROM time_sensitive_messages
+),
+-- Get an unread count per-chat, where unreads are present
+chat_unreads AS (
+    SELECT
+        interesting_messages.chat_id,
+        MIN(CASE WHEN interesting_messages.is_time_sensitive AND interesting_messages.time_sensitive_expiration > ;
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void)thDescriptor:offset:bytesPerRow: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)newTextureWithDescriptor:offset:bytesPerRow: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *minimumLanguageVersion;
-@property(readonly, nonatomic) id owner;
-@property(retain, nonatomic) SCNProgram *program;
 @property(copy, nonatomic) NSDictionary *shaderModifiers;
-@property(readonly, nonatomic) NSArray *shaderModifiersArgumentsNames;
 
 @end
 

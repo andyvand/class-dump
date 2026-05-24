@@ -6,16 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIPerspectiveTransform : CIFilter
 {
     CIImage *inputImage;
-    CIVector *inputTopLeft;
-    CIVector *inputTopRight;
-    CIVector *inputBottomRight;
-    CIVector *inputBottomLeft;
 }
 
 + (id);
@@ -25,18 +21,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)@@(;
 - (id)¥ ¡mqmtiiiisssst¦¦¦¦®®®®¨©©~~}~Pd\okhbkdielK^Wh<TJ]SRFSTPBUO_Vf||||dyxwwww\e_gfc\fyyyymmmmbbZbgkfl{§§§§`uqildqmmimhoitcrk|Uf[rosnuvvvvllgrwutw~~~~Nb_h=RI]bbabWaZg@ZPkmokuttttAYOdfe^ixyx{wwwwhrosooookkkkU_UiI^Tkooko\miooomoWhcm`gbkkkkkkkkkmmmmvvvv¥¥¥¥µµµµ¶¶¶¶¥¥¥¥mr|{extd~|qs|xktqucc^cPZP[eeeewwww}m|xQld|{vuov@YKm;
 
 // Remaining properties
-@property(retain, nonatomic) CIVector *inputBottomLeft; // @synthesize inputBottomLeft;
-@property(retain, nonatomic) CIVector *inputBottomRight; // @synthesize inputBottomRight;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) CIVector *inputTopLeft; // @synthesize inputTopLeft;
-@property(retain, nonatomic) CIVector *inputTopRight; // @synthesize inputTopRight;
 
 @end
 

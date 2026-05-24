@@ -10,7 +10,7 @@
 {
 }
 
-- (double);
+- (double)ic_preferredFontForTitleTextWithContentSizeCategory: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 

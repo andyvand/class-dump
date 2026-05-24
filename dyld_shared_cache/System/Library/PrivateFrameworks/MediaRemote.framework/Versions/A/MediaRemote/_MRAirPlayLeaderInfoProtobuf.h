@@ -15,18 +15,17 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)translateXBy:(id)arg1 yBy: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)loc];
 - (_Bool);
-- (id);
-- (void)ordData;
+- (id));
+- (void)TXTRecordData;
 - (void)uf",&,N,V_removeClientMessage;
 
 // Remaining properties
-@property(retain, nonatomic) _MRDeviceInfoMessageProtobuf *deviceInfo; // @synthesize deviceInfo=_deviceInfo;
 @property(readonly, nonatomic) _Bool hasDeviceInfo;
 
 @end

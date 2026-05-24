@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface PerSitePreferencesPopoverViewController : TitleAndStackViewController
 {
     NSStackView *_checkBoxElementStackView;
-    NSArray *_checkBoxElements;
 }
 
 - (void);

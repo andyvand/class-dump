@@ -12,18 +12,16 @@ __attribute__((visibility("hidden")))
 @interface NSSyncedTabWrapper : NSBaseTabData
 {
     NSWindow *_window;
-    _Bool _snapshotIsDisabled;
 }
 
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (void)otWillChange;
+- (void)_viewRootWillChange;
 - (void);
 
 // Remaining properties
-@property _Bool snapshotIsDisabled; // @synthesize snapshotIsDisabled=_snapshotIsDisabled;
 @property(retain) NSWindow *window; // @synthesize window=_window;
 
 @end

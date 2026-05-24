@@ -6,42 +6,34 @@
 
 #import <AppStoreKit/AppStoreKit.ClickableView.h>
 
-@class AppStoreKit.DynamicTypeTextField, NSAttributedString, NSBezierPath, NSFont, NSString;
+@class AppStoreKit.DynamicTypeTextField;
 
 @interface AppStoreKit.ButtonView : AppStoreKit.ClickableView
 {
     AppStoreKit.DynamicTypeTextField *titleLabelView;
-    id titleColor;
-    id background;
-    _Bool includeLastBaselineMeasurement;
-    _Bool wantsPillShape;
-    id actionBlockTrampoline;
-    struct CGSize minimumSize;
-    struct CGSize maximumSize;
-    _Bool isImportantForAccessibility;
 }
 
 + (id);
 + (id);
 + (id);
-+ (struct CGSize);
-+ (struct CGSize);
++ (struct CGSize);
++ (struct CGSize);
 + (struct CGSize);
 + (struct NSEdgeInsets);
 + (id);
-- (_Bool);
-- (void);
+- (_Bool)o;
+- (void)o;
 - (id);
-- (struct CGSize);
+- (struct CGSize);
 - (void);
-- (void);
+- (void);
 - (struct JUMeasurements);
 - (_Bool);
-- (id);
+- (id)o;
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 - (struct CGRect);
 - (CDUnknownBlockType);
 - (struct CGRect);
@@ -60,7 +52,7 @@
 - (struct CGRect);
 - (struct CGRect);
 - (struct CGSize);
-- (void);
+- (void)&;
 - (id);
 - (void);
 - (void);
@@ -68,7 +60,7 @@
 - (struct CGSize);
 - (id);
 - (id);
-- (id)yTitle;
+- (id)accessibilityTitle;
 - (void)additionalRecorders;
 - (id);
 - (void)ªYAAIegnr_;
@@ -76,23 +68,7 @@
 - (void)\ù8IÄØ	n;
 
 // Remaining properties
-@property(nonatomic, copy) CDUnknownBlockType actionBlock;
-@property(nonatomic, retain) NSAttributedString *attributedTitle;
-@property(nonatomic, readonly) NSBezierPath *backgroundPath;
-@property(nonatomic, readonly) struct CGRect backgroundRect;
-@property(nonatomic, readonly) struct CGRect focusRingMaskBounds;
-@property(nonatomic) struct CGRect frame;
-@property(nonatomic, readonly) _Bool hasContent;
-@property(nonatomic) _Bool includeLastBaselineMeasurement; // @synthesize includeLastBaselineMeasurement;
-@property(nonatomic, readonly) struct CGSize intrinsicContentSize;
-@property(nonatomic) _Bool isImportantForAccessibility; // @synthesize isImportantForAccessibility;
-@property(nonatomic) struct CGSize maximumSize; // @synthesize maximumSize;
-@property(nonatomic) struct CGSize minimumSize; // @synthesize minimumSize;
-@property(nonatomic, readonly) struct CGRect textLayoutFrame;
-@property(nonatomic, copy) NSString *title;
-@property(nonatomic, retain) NSFont *titleFont;
 @property(nonatomic, readonly) AppStoreKit.DynamicTypeTextField *titleLabelView; // @synthesize titleLabelView;
-@property(nonatomic) _Bool wantsPillShape; // @synthesize wantsPillShape;
 
 @end
 

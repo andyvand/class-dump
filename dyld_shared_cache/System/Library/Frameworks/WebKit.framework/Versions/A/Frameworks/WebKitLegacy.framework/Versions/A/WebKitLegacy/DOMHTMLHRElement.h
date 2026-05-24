@@ -23,9 +23,6 @@
 
 // Remaining properties
 @property(copy) NSString *align;
-@property _Bool noShade;
-@property(copy) NSString *size;
-@property(copy) NSString *width;
 
 @end
 

@@ -6,26 +6,22 @@
 
 #import <coreroutine/RTMetric.h>
 
-@class NSString;
-
 @interface RTSettledStateMetrics : RTMetric
 {
     _Bool _isSettledState;
-    double _distancetraveledAfterEnteringState;
-    double _duration;
 }
 
 + (id);
 + (void);
-+ (id);
-+ (unsigned long long);
-+ (unsigned long long);
-+ (id);
++ (id)kMnemonicUseAfterStoreHSMForRTStoreHSM;
++ (unsigned long long)kPCSSetupMTTCallback;
++ (unsigned long long)kPCSSetupCallbackKeyRegistry;
++ (id)Liverpool;
 + (id);
 + (CDStruct_b8464340);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)';
 - (id);
 - (double);
 - (double);
@@ -33,16 +29,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) double distancetraveledAfterEnteringState; // @synthesize distancetraveledAfterEnteringState=_distancetraveledAfterEnteringState;
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isSettledState; // @synthesize isSettledState=_isSettledState;
-@property(readonly) Class superclass;
 
 @end
 

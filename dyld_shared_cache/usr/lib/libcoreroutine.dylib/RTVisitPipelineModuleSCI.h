@@ -4,79 +4,55 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSMutableArray, NSObject, NSString, RTDefaultsManager, RTDelayedLocationRequester, RTDistanceCalculator, RTHint, RTHintManager, RTLocation, RTVisitHyperParameter, RTVisitSCIStayCluster;
-@protocol OS_dispatch_queue;
-
 @interface RTVisitPipelineModuleSCI
 {
     _Bool _useLowConfidence;
-    NSMutableArray *_clusters;
-    RTLocation *_lastPointProcessed;
-    RTDistanceCalculator *_distanceCalculator;
-    NSArray *_hintCache;
-    RTLocation *_hintCacheUpdateLocation;
-    double _requiredDwellTimeCache;
-    NSDate *_requiredDwellTimeCacheDateToUpdate;
-    _Bool _latestGeofenceHintChecked;
-    _Bool _latestSignificantRegionHintChecked;
-    _Bool _latestCompanionSyncVisitHintChecked;
-    RTVisitSCIStayCluster *_workingHypothesis;
-    unsigned long long _fsmState;
-    unsigned long long _lcFSMState;
-    RTDefaultsManager *_defaultsManager;
-    RTDelayedLocationRequester *_delayedLocationRequester;
-    RTHintManager *_hintManager;
-    NSObject<OS_dispatch_queue> *_queue;
-    RTVisitHyperParameter *_hyperParameter;
-    RTHint *_latestGeofenceHint;
-    RTHint *_latestSignificantRegionHint;
-    RTHint *_latestCompanionSyncVisitHint;
 }
 
 + (id);
 + (id);
 + (_Bool);
 + (id);
-- (void);
+- (void);
 - (double);
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)I;
 - (void);
 - (double);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)_cacheLoader;
+- (void)nvalid probing interval, return;
+- (id)@; qualifiedHandlesCount = %@; qualifiedHandlesIML = %@; primaryHandlesCount = %@; qualifiedPrimaryHandles = %@; qualifiedPrimaryHandlesIML = %@; familyHandlesCount = %@; emergencyHandlesCount = %@; qualifiedEmergencyHandles = %@; qualifiedEmergencyHandlesIML = %@>;
+- (id)callmodeupdate_response;
 - (id);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)(=;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
+- (_Bool)Q;
 - (_Bool);
-- (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)yR;
 - (id);
 - (id);
+- (id)*;
+- (void)?;
+- (id)`;
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)listSenderKeysForURIs:(id)arg1 completion:(double)arg2;
 - (id);
 - (unsigned long long);
 - (double);
@@ -84,8 +60,8 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
+- (void)_resultType;
+- (void)with null payloadVector;
 - (id);
 - (void);
 - (double);
@@ -100,38 +76,18 @@
 × ;
 - (void)1Â0@ù
 × ;
-- (void)rigger:(_Bool)arg1;
-- (void)ta;
-- (_Bool)PHint: /* Error: Ran out of types for this method. */;
-- (id)icleConnectionEventInstanceWithConnectionStatus: /* Error: Ran out of types for this method. */;
-- (void)gerNotificationTrustedConnectionEstablished;
+- (void)setIsSOSTrigger:(_Bool)arg1;
+- (void)metadata;
+- (_Bool)initWithRTPHint: /* Error: Ran out of types for this method. */;
+- (id)_submitFMCVehicleConnectionEventInstanceWithConnectionStatus: /* Error: Ran out of types for this method. */;
+- (void)RTStarkManagerNotificationTrustedConnectionEstablished;
 - (id)SessionForSessionID:reason:handler:] /* Error: Ran out of types for this method. */;
 - (id)tion:locations:roads:isEndOfSegment:originLocation:destinationLocation:tripSegSequenceNumber:tripSegSequenceNumberMax:tripCommuteID:handler:] /* Error: Ran out of types for this method. */;
 - (void)essionID, %@, handles, %@, groupID, %@;
 - (void)valid location timestamp, %@, stationary since, %@.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(retain, nonatomic) RTDelayedLocationRequester *delayedLocationRequester; // @synthesize delayedLocationRequester=_delayedLocationRequester;
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) unsigned long long fsmState; // @synthesize fsmState=_fsmState;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) RTHintManager *hintManager; // @synthesize hintManager=_hintManager;
-@property(retain, nonatomic) RTVisitHyperParameter *hyperParameter; // @synthesize hyperParameter=_hyperParameter;
-@property(retain, nonatomic) RTHint *latestCompanionSyncVisitHint; // @synthesize latestCompanionSyncVisitHint=_latestCompanionSyncVisitHint;
-@property(nonatomic) _Bool latestCompanionSyncVisitHintChecked; // @synthesize latestCompanionSyncVisitHintChecked=_latestCompanionSyncVisitHintChecked;
-@property(retain, nonatomic) RTHint *latestGeofenceHint; // @synthesize latestGeofenceHint=_latestGeofenceHint;
-@property(nonatomic) _Bool latestGeofenceHintChecked; // @synthesize latestGeofenceHintChecked=_latestGeofenceHintChecked;
-@property(retain, nonatomic) RTHint *latestSignificantRegionHint; // @synthesize latestSignificantRegionHint=_latestSignificantRegionHint;
-@property(nonatomic) _Bool latestSignificantRegionHintChecked; // @synthesize latestSignificantRegionHintChecked=_latestSignificantRegionHintChecked;
-@property(readonly, nonatomic) unsigned long long lcFSMState; // @synthesize lcFSMState=_lcFSMState;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) RTVisitSCIStayCluster *workingHypothesis; // @synthesize workingHypothesis=_workingHypothesis;
 
 @end
 

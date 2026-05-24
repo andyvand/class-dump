@@ -5,5 +5,8 @@
 //
 
 @protocol CXProviderDelegatePrivate
+
+@optional
+- (void);
 @end
 

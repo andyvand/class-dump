@@ -6,34 +6,11 @@
 
 #import <TemplateKit/TLKView.h>
 
-@class NSColor, NSFont, NSImageView, NSSymbolContentTransition, NSView, TLKBadgePlatterView, TLKImage, TLKProminenceView;
-@protocol TLKImageViewDelegate;
+@class NSSymbolContentTransition, NSView;
 
 @interface TLKImageView : TLKView
 {
     NSSymbolContentTransition *_transition;
-    _Bool _useButtonColoring;
-    _Bool _disableCornerRounding;
-    _Bool _shadowDisabled;
-    _Bool _allowsAnimatedImageLoading;
-    _Bool _ignoreImageAlignmentRectInsets;
-    _Bool _animateNextImageTransition;
-    TLKImage *_tlkImage;
-    unsigned long long _prominence;
-    NSColor *_overrideColor;
-    unsigned long long _placeholderVisibility;
-    NSFont *_symbolFont;
-    long long _symbolScale;
-    double _symbolWeight;
-    NSImageView *_imageView;
-    TLKProminenceView *_placeholderView;
-    id <TLKImageViewDelegate> _delegate;
-    unsigned long long _alignment;
-    NSView *_shadowContainer;
-    TLKImage *_lastTlkImage;
-    TLKImageView *_badgeImageView;
-    double _lastBaselineOffset;
-    TLKBadgePlatterView *_circleView;
 }
 
 + (_Bool);
@@ -45,7 +22,7 @@
 - (void);
 - (double);
 - (void);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
@@ -60,50 +37,50 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (double);
+- (double)a;
 - (struct CGSize);
 - (id);
 - (id);
-- (struct CGRect);
+- (struct CGRect);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)!;
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (double);
+- (double)9#;
 - (double);
 - (struct NSEdgeInsets);
 - (struct CGSize);
 - (void);
-- (void);
-- (id);
-- (void);
+- (void)this function;
+- (id)kImg4ObjectProperty;
+- (void)compute digest %d;
 - (void);
 - (unsigned long long);
 - (id);
 - (void);
 - (id);
+- (void);
+- (struct CGSize);
+- (void);
+- (void);
+- (_Bool);
+- (void)shouldDisplayRichLink;
+- (id)4;
 - (void);
 - (struct CGSize);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (struct CGSize);
-- (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)So20HVConsumptionContextCySo23BMRemindersContentEventCG;
 - (void);
 - (_Bool);
 - (void);
@@ -113,37 +90,15 @@
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (void);
 - (void);
 - (id);
 - (void)ct={CGPoint=dd}{CGSize=dd}}16;
-- (unsigned long long)oint:forCGImage: /* Error: Ran out of types for this method. */;
+- (unsigned long long)hasTransparencyAtPoint:forCGImage: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned long long alignment; // @synthesize alignment=_alignment;
-@property(nonatomic) _Bool allowsAnimatedImageLoading; // @synthesize allowsAnimatedImageLoading=_allowsAnimatedImageLoading;
-@property(nonatomic) _Bool animateNextImageTransition; // @synthesize animateNextImageTransition=_animateNextImageTransition;
-@property(retain, nonatomic) TLKImageView *badgeImageView; // @synthesize badgeImageView=_badgeImageView;
-@property(retain, nonatomic) TLKBadgePlatterView *circleView; // @synthesize circleView=_circleView;
-@property(nonatomic) __weak id <TLKImageViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool disableCornerRounding; // @synthesize disableCornerRounding=_disableCornerRounding;
-@property(nonatomic) _Bool ignoreImageAlignmentRectInsets; // @synthesize ignoreImageAlignmentRectInsets=_ignoreImageAlignmentRectInsets;
-@property(retain, nonatomic) NSImageView *imageView; // @synthesize imageView=_imageView;
-@property(nonatomic) double lastBaselineOffset; // @synthesize lastBaselineOffset=_lastBaselineOffset;
-@property(retain, nonatomic) TLKImage *lastTlkImage; // @synthesize lastTlkImage=_lastTlkImage;
-@property(retain, nonatomic) NSColor *overrideColor; // @synthesize overrideColor=_overrideColor;
-@property(retain, nonatomic) TLKProminenceView *placeholderView; // @synthesize placeholderView=_placeholderView;
-@property(nonatomic) unsigned long long placeholderVisibility; // @synthesize placeholderVisibility=_placeholderVisibility;
-@property(nonatomic) unsigned long long prominence; // @synthesize prominence=_prominence;
 @property(retain, nonatomic) NSView *shadowContainer; // @synthesize shadowContainer=_shadowContainer;
-@property(nonatomic) _Bool shadowDisabled; // @synthesize shadowDisabled=_shadowDisabled;
-@property(retain, nonatomic) NSFont *symbolFont; // @synthesize symbolFont=_symbolFont;
-@property(nonatomic) long long symbolScale; // @synthesize symbolScale=_symbolScale;
-@property(nonatomic) double symbolWeight; // @synthesize symbolWeight=_symbolWeight;
-@property(retain, nonatomic) TLKImage *tlkImage; // @synthesize tlkImage=_tlkImage;
-@property(retain) NSSymbolContentTransition *transition;
-@property(nonatomic) _Bool useButtonColoring; // @synthesize useButtonColoring=_useButtonColoring;
 
 @end
 

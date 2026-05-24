@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSNumber;
+@class NSNumber;
 
 @interface CDRecentInfo
 {
     NSNumber *_version;
-    NSMutableDictionary *_volumes;
-    NSMutableSet *_pushingServices;
-    NSMutableSet *_invalidVolumes;
 }
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool);
 - (void);
 - (id);
 - (id);
@@ -26,12 +23,12 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)bundleForClass:(id)arg1;
+- (id)ionConfig %@ responseChildConfig %@;
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
@@ -41,7 +38,7 @@
 - (void);
 - (long long);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -52,15 +49,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableSet *invalidVolumes; // @synthesize invalidVolumes=_invalidVolumes;
-@property(retain, nonatomic) NSMutableSet *pushingServices; // @synthesize pushingServices=_pushingServices;
 @property(retain, nonatomic) NSNumber *version; // @synthesize version=_version;
-@property(retain, nonatomic) NSMutableDictionary *volumes; // @synthesize volumes=_volumes;
 
 @end
 

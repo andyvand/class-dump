@@ -12,10 +12,10 @@
 {
 }
 
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 - (void);
-- (id);
+- (id)INPUTKEY;
 
 // Remaining properties
 @property(retain, nonatomic) TLKButtonView *contentView; // @dynamic contentView;

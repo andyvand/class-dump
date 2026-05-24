@@ -7,18 +7,17 @@
 @interface CSPhraseSpotterEnabledMonitor
 {
     int _notifyToken;
-    _Bool _isPhraseSpotterEnabled;
 }
 
-+ (id)ting: /* Error: Ran out of types for this method. */;
++ (id)_notifyObserver:withSRFUserSetting: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)|;
 - (void);
 - (void);
-- (void);
+- (void)l>;
 
 @end
 

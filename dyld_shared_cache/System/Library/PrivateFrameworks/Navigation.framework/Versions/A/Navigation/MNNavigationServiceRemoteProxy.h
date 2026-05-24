@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MNStartNavigationDetails, MNStartNavigationReconnectionDetails, MNUserOptions, NSArray, NSHashTable, NSMutableArray, NSObject, NSString, NSXPCConnection, geo_isolater;
-@protocol MNNavigationServiceClientInterface, OS_dispatch_queue;
+@protocol MNNavigationServiceClientInterface;
 
 __attribute__((visibility("hidden")))
 @interface MNNavigationServiceRemoteProxy
 {
     _Bool _applicationActive;
-    NSXPCConnection *_connection;
-    MNUserOptions *_userOptions;
-    geo_isolater *_clientsLock;
-    NSHashTable *_clients;
-    MNStartNavigationDetails *_startNavigationDetails;
-    geo_isolater *_interruptionDatesLock;
-    NSMutableArray *_interruptionDates;
-    MNStartNavigationReconnectionDetails *_reconnectionDetails;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    long long _sandboxHandle;
-    id <MNNavigationServiceClientInterface> _delegate;
 }
 
 - (void);
@@ -31,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -42,15 +30,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)ent"32^{CGPoint=dd}40;
+- (void)initWithRecipientHandle:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)%{public}@);
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -61,19 +49,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void):(double)arg1;
+- (void)ServerDidDieNotification;
+- (void)accHardwareVersion;
 - (id);
 - (void);
+- (void)/8;
 - (void);
+- (void)getNMEATimestampAverageSamples;
+- (void)descriptor, for [_session _sessionID] %d 0x%X, zeroBytesReadCount %d, cancel sockListenSource;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)I;
 - (void);
 - (void);
 - (void)0@ù
@@ -87,17 +75,17 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)rt"24;
 - (void)q16d24@32@40;
-- (void);
-- (void)euver:(_Bool)arg1 timeUntilManeuver:forStepIndex: /* Error: Ran out of types for this method. */;
-- (void)erSessionStateInfo;
-- (void)Location;
-- (void)ginalMatchType;
+- (void)setContext:(_Bool)arg1;
+- (void)navigationServiceProxy:(_Bool)arg1 didUpdateDistanceUntilManeuver:timeUntilManeuver:forStepIndex: /* Error: Ran out of types for this method. */;
+- (void)_serverSessionStateInfo;
+- (void)_rawLocation;
+- (void)_originalMatchType;
 - (void),N;
 - (void)ÿÿ¨;
 - (void)LATING state. Cancelling pending request to ensure state integrity.;
 - (void)updates. Target battery charge:%d Wh /* Error: Ran out of types for this method. */;
 - (void)Did not find navigation session while rerouting with waypoints;
-- (void)DeltaTurn;
+- (void)ARGuidanceHeadingDeltaTurn;
 - (void)current_range_m) AS "range (meters)",
         PRINTF("%.1f", current_battery_capacity_kwh) AS "capacity (kwh)",
         is_charging,
@@ -136,17 +124,7 @@ CREATE VIEW route_creation_actions_view AS
 - (void)Ìé;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long clientCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <MNNavigationServiceClientInterface> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long interruptionCount;
-@property(readonly, nonatomic) NSArray *interruptionDates;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,10 +7,6 @@
 @interface NewsUI2.FollowingRouter
 {
     id resolver;
-    id tracker;
-    id navigator;
-    id featureAvailability;
-    id controller;
 }
 
 @end

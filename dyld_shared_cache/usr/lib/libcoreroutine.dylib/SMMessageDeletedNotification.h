@@ -13,8 +13,8 @@
     SMMessage *_message;
 }
 
-- (id);
-- (id);
+- (id)w1h8;
+- (id)P;
 - (id);
 - (void)d configuration set to skip reprocessing trip segment data.;
 

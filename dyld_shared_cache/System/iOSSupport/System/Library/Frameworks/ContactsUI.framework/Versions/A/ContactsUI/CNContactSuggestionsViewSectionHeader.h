@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 + (id);
 - (void);
 - (void);
-- (id);
-- (void)tionsColor;
+- (id)descriptionForRegionTotals:(struct CGRect)arg1;
+- (void)_actionsColor;
 - (id)l;
 
 // Remaining properties

@@ -9,24 +9,23 @@
 @interface PHPhotoLibraryManager
 {
     PLLazyObject *_lazyAssetsdClient;
-    NSDictionary *_internalTestOptions;
 }
 
 + (_Bool);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)qk1;
 - (id);
 - (id);
 - (_Bool);
+- (id)N@;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)brary:(id)arg1 ];
 - (id);
 - (void)aptions;
 - (id)nID;

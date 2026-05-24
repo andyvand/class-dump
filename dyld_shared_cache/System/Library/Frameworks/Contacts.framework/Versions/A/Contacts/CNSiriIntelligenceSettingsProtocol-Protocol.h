@@ -5,5 +5,6 @@
 //
 
 @protocol CNSiriIntelligenceSettingsProtocol
+- (_Bool);
 @end
 

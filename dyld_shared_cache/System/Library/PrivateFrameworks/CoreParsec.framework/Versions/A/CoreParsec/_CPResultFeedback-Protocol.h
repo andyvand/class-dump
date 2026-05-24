@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _CPSearchResultForFeedback;
-
 @protocol _CPResultFeedback
+- (id);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _CPSearchResultForFeedback *result;
 @property(nonatomic) unsigned long long timestamp;
 @end
 

@@ -7,7 +7,6 @@
 @interface EDLexicon
 {
     struct os_unfair_lock_s _lexiconLock;
-    struct _LXLexicon *_lexiconRef;
 }
 
 + (id);

@@ -4,28 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface NTPBTodayModuleDescriptor
 {
     NSMutableArray *_availableContents;
-    NSString *_identifier;
-    int _type;
-    CDStruct_f953fb60 _has;
 }
 
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void)OL MapsSuggestionsEntryTypeCouldBeShortcut(MapsSuggestionsEntryType);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (_Bool);
-- (int);
-- (_Bool);
+- (void);
+- (unsigned long long)observeValueForKeyPath:ofObject:change:context: /* Error: Ran out of types for this method. */;
+- (void)_copiesHomeDirectories;
+- (_Bool)r(FileManager) copyPath:(id)arg1 toPath:createIntermediatePaths:] /* Error: Ran out of types for this method. */;
+- (int)topicsConfig;
+- (_Bool), fetchedAt=%{public}@, invalidatedAt=%{public}@;
 - (void);
 - (void);
 - (id);
@@ -38,11 +35,7 @@
 - (void)webEmbed;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *availableContents; // @synthesize availableContents=_availableContents;
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

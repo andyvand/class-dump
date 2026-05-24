@@ -10,24 +10,15 @@
 @interface SXDefaultFontDescribing
 {
     id <SXTextStyleFontAttributes> _fontAttributes;
-    NSString *_fontName;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (void)XFeatures";
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <SXTextStyleFontAttributes> fontAttributes; // @synthesize fontAttributes=_fontAttributes;
 @property(readonly, nonatomic) NSString *fontName; // @synthesize fontName=_fontName;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

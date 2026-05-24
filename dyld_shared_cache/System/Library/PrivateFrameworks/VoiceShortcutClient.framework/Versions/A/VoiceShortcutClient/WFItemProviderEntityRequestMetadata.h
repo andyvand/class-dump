@@ -6,20 +6,19 @@
 
 #import <VoiceShortcutClient/WFItemProviderRequestMetadata.h>
 
-@class LNEntity, LNEntityMetadata;
+@class LNEntity;
 
 @interface WFItemProviderEntityRequestMetadata : WFItemProviderRequestMetadata
 {
     LNEntity *_entity;
-    LNEntityMetadata *_metadata;
 }
 
-+ (_Bool);
-- (id);
++ (_Bool)__TEXT;
+- (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)System.B.dylib;
 - (void);
 - (id);
 - (void)0@ù
@@ -27,7 +26,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) LNEntity *entity; // @synthesize entity=_entity;
-@property(readonly, nonatomic) LNEntityMetadata *metadata; // @synthesize metadata=_metadata;
 
 @end
 

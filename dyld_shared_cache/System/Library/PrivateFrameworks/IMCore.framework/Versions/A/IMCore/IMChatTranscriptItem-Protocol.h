@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMHandle, IMServiceImpl, NSAttributedString, NSDate;
+@class IMHandle, IMServiceImpl, NSAttributedString;
 
 @protocol IMChatTranscriptItem
+- (_Bool);
+- (NSAttributedString *)s] %s:%d VCRCML enrollment disabled through storebags /* Error: Ran out of types for this method. */;
+- (IMServiceImpl *);
+- (IMHandle *);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSAttributedString *alternateTranscriptText;
 @property(readonly, nonatomic, getter=isFromMe) _Bool fromMe;
-@property(readonly, nonatomic) IMHandle *handle;
-@property(readonly, nonatomic) IMServiceImpl *service;
-@property(readonly, nonatomic) NSDate *transcriptDate;
-@property(readonly, copy, nonatomic) NSAttributedString *transcriptText;
-@property(readonly, nonatomic) _Bool wantsTail;
 @end
 

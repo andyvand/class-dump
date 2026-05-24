@@ -4,8 +4,8 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUIKEditingContext, EKEvent, NSString, NSViewController;
-@protocol EKEventViewControllerImpl, EKHidePopover, EKTransmogrificationDelegate, EKViewApplicationDelegate, EKViewWindowControllerPrivate;
+@class CUIKEditingContext, NSViewController;
+@protocol EKEventViewControllerImpl;
 
 @interface EKEventViewController
 {
@@ -13,7 +13,7 @@
 }
 
 + (id);
-+ (long long);
++ (long long)?!;
 - (_Bool);
 - (void);
 - (void);
@@ -35,7 +35,7 @@
 - (id);
 - (long long);
 - (id);
-- (_Bool);
+- (_Bool)�;
 - (void);
 - (void);
 - (id);
@@ -54,28 +54,19 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)(;
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)*
++);
 - (_Bool);
-- (void);
+- (void)rk/Versions/A/iCloudNotification;
 - (void)
 ;
 
 // Remaining properties
-@property __weak id <EKViewApplicationDelegate> applicationDelegate;
-@property(nonatomic) __weak NSString *canvasViewName;
 @property(readonly) CUIKEditingContext *editingContext;
-@property(retain, nonatomic) EKEvent *event;
-@property _Bool isProposedEvent;
-@property _Bool isReadOnly;
-@property long long numOccurrencesSelected;
-@property __weak id <EKHidePopover> presentingPopoverController;
-@property(nonatomic) __weak id <EKTransmogrificationDelegate> transmogrificationDelegate;
-@property _Bool useDynamicSpacing;
-@property(nonatomic) __weak id <EKViewWindowControllerPrivate> windowController;
 
 @end
 

@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface HMDNetworkMismatchDetectorResult
 {
     NSArray *_accessoriesNotOnWiFi;
-    NSArray *_accessoriesNotOnWiFiAndNotConnectingToPrimaryResident;
-    NSArray *_accessoriesReportingDiagnostic;
 }
 
 - (id);
@@ -23,8 +21,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, copy) NSArray *accessoriesNotOnWiFi; // @synthesize accessoriesNotOnWiFi=_accessoriesNotOnWiFi;
-@property(readonly, copy) NSArray *accessoriesNotOnWiFiAndNotConnectingToPrimaryResident; // @synthesize accessoriesNotOnWiFiAndNotConnectingToPrimaryResident=_accessoriesNotOnWiFiAndNotConnectingToPrimaryResident;
-@property(readonly, copy) NSArray *accessoriesReportingDiagnostic; // @synthesize accessoriesReportingDiagnostic=_accessoriesReportingDiagnostic;
 
 @end
 

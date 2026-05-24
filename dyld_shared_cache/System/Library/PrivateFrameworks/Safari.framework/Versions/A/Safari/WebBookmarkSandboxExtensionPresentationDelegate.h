@@ -4,33 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrowserWindowController, NSString;
+@class BrowserWindowController;
 
 __attribute__((visibility("hidden")))
 @interface WebBookmarkSandboxExtensionPresentationDelegate
 {
     BrowserWindowController *_browserWindowController;
-    NSString *_title;
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id)n;
 - (void)¨;
 
 // Remaining properties
 @property(nonatomic) __weak BrowserWindowController *browserWindowController; // @synthesize browserWindowController=_browserWindowController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

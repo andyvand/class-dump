@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, RTLearnedLocationStore, RTMapsSupportManager, RTPlaceTypeClassifierMetricsCalculator;
+@class RTLearnedLocationStore;
 
 @interface RTPlaceTypeClassifierExpertMaps
 {
     RTLearnedLocationStore *_learnedLocationStore;
-    RTMapsSupportManager *_mapsSupportManager;
-    RTPlaceTypeClassifierMetricsCalculator *_placeTypeClassifierMetricsCalculator;
 }
 
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)manager;
+- (id)business;
+- (id)s repair;
 - (id);
 - (id);
 - (void);
@@ -27,16 +25,7 @@
 - (void)us, %@, locationOfInterest, %@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) RTLearnedLocationStore *learnedLocationStore; // @synthesize learnedLocationStore=_learnedLocationStore;
-@property(retain, nonatomic) RTMapsSupportManager *mapsSupportManager; // @synthesize mapsSupportManager=_mapsSupportManager;
-@property(retain, nonatomic) RTPlaceTypeClassifierMetricsCalculator *placeTypeClassifierMetricsCalculator; // @synthesize placeTypeClassifierMetricsCalculator=_placeTypeClassifierMetricsCalculator;
-@property(readonly) Class superclass;
 
 @end
 

@@ -11,7 +11,6 @@
 @interface CNContactPosterFetchRequest : CNContactPosterDataFetchRequest
 {
     NSArray *_contactIdentifiers;
-    long long _recencyType;
 }
 
 + (id);
@@ -26,7 +25,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)@"NSObject<OS_sec_protocol_metadata>"8@"NSObject<OS_sec_trust>"16@?<v@?B>24;
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -35,7 +34,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *contactIdentifiers; // @synthesize contactIdentifiers=_contactIdentifiers;
-@property(readonly, nonatomic) long long recencyType; // @synthesize recencyType=_recencyType;
 
 @end
 

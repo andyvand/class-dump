@@ -6,19 +6,16 @@
 
 #import <PassKitCore/PKWebServiceRegionFeature.h>
 
-@class NSArray, NSDictionary, PKOSVersionRequirementRange;
+@class PKOSVersionRequirementRange;
 
 @interface PKWebServiceCarAccessFeature : PKWebServiceRegionFeature
 {
     PKOSVersionRequirementRange *_ownerSharingOSVersionRequirement;
-    PKOSVersionRequirementRange *_friendSharingOSVersionRequirement;
-    NSArray *_supportedTerminals;
-    NSDictionary *_brandIdentifierForBrandCode;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)isTriggeredByProximityChange;
 - (id);
 - (id)ÁX"ð!@Cùï%ð1Â0@ù
 × ;
@@ -27,10 +24,7 @@
 - (id)(%lu).;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *brandIdentifierForBrandCode; // @synthesize brandIdentifierForBrandCode=_brandIdentifierForBrandCode;
-@property(readonly, nonatomic) PKOSVersionRequirementRange *friendSharingOSVersionRequirement; // @synthesize friendSharingOSVersionRequirement=_friendSharingOSVersionRequirement;
 @property(readonly, nonatomic) PKOSVersionRequirementRange *ownerSharingOSVersionRequirement; // @synthesize ownerSharingOSVersionRequirement=_ownerSharingOSVersionRequirement;
-@property(readonly, copy, nonatomic) NSArray *supportedTerminals; // @synthesize supportedTerminals=_supportedTerminals;
 
 @end
 

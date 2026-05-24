@@ -7,13 +7,12 @@
 @interface WidgetKit.WidgetRelevanceFetchResult
 {
     id isDefaultImplementation;
-    id widgetRelevances;
 }
 
-+ (_Bool);
++ (_Bool))A;
 - (id);
 - (id);
-- (void);
+- (void)k!;
 - (void);
 
 @end

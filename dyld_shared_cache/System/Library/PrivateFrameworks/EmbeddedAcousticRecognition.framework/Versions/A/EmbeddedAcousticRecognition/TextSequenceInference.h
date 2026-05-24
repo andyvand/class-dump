@@ -4,32 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSNumber, NSString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface TextSequenceInference
 {
     NSMutableArray *_sequence;
-    NSNumber *_target;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)__gcc_except_tab__TEXT;
+- (id)ed;
 - (id);
-- (id);
-- (id)State;
+- (id)OptionalPronWordsState;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

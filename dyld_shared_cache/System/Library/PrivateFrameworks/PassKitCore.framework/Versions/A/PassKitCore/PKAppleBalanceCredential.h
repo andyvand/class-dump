@@ -11,21 +11,17 @@
 @interface PKAppleBalanceCredential : PKPaymentCredential
 {
     _Bool _isFromBackgroundProvisioning;
-    PKPaymentSetupProduct *_product;
-    long long _eligibilitySource;
 }
 
-- (id);
+- (id) ;
 - (void);
 - (_Bool);
 - (id);
 - (long long);
 - (id);
-- (void)neNumberVersion;
+- (void)signedPhoneNumberVersion;
 
 // Remaining properties
-@property(readonly, nonatomic) long long eligibilitySource; // @synthesize eligibilitySource=_eligibilitySource;
-@property(nonatomic) _Bool isFromBackgroundProvisioning; // @synthesize isFromBackgroundProvisioning=_isFromBackgroundProvisioning;
 @property(readonly, nonatomic) PKPaymentSetupProduct *product; // @synthesize product=_product;
 
 @end

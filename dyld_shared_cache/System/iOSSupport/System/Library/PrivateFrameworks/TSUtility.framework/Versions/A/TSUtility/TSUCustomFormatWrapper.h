@@ -9,8 +9,8 @@
     void *mCustomFormat;
 }
 
-- (const void *);
-- (id);
+- (const void *)dimNonSubscriberContentOffline;
+- (id);
 - (const CDStruct_8acff13f *);
 - (const CDStruct_8acff13f *);
 - (id);

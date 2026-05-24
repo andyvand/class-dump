@@ -6,42 +6,32 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class INTimer, NSString;
-
 @interface INSetTimerAttributeIntentResponse : INIntentResponse
 {
 }
 
 + (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)removeCachedThumbnailsFromUninstalledFileProvidersWithIdentifiers:(long long)arg1 completionHandler: /* Error: Ran out of types for this method. */;
++ (long long)performSelector:(int)arg1 withObject:(int)arg2 withObject:(_Bool)arg3;
++ (_Bool)metadataForGeneratedThumbnailForURL:(long long)arg1 maximumDimension: /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (id);
 - (void);
 - (void);
 - (id);
 - (long long);
+- (id);
+- (long long)h;
 - (id);
-- (long long);
+- (id)setDeviceSystemGestureTriggeredHandler:(id)arg1;
 - (id);
+- (void)ic}s:(id)arg1 %u) RPCompanionLinkClient was invalidated.;
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (long long)okAuthor;
+- (id)9;
+- (long long)audioBookAuthor;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(copy) INTimer *updatedTimer;
 
 @end
 

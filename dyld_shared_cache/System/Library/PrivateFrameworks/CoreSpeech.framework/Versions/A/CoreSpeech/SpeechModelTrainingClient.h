@@ -12,7 +12,7 @@
 }
 
 + (void)allows = %d, resultCandidateId = %@);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -28,7 +28,7 @@
 - (id);
 - (void);
 - (id);
-- (void)Trigger:deviceId:myriadPHash:myriadLateActivationExpirationTime:completion: /* Error: Ran out of types for this method. */;
+- (void)notifyDarwinVoiceTrigger:deviceId:myriadPHash:myriadLateActivationExpirationTime:completion: /* Error: Ran out of types for this method. */;
 
 @end
 

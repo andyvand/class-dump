@@ -10,15 +10,14 @@ __attribute__((visibility("hidden")))
 @interface NSSceneFenceAction
 {
     CAFenceHandle *_fence;
-    unsigned int _deferIPCPort;
 }
 
-+ (id);
++ (id)Pt;
+- (void)k_count}}24@40;
+- (void)�;
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (void);
 
 @end

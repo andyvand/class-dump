@@ -12,21 +12,19 @@ __attribute__((visibility("hidden")))
 @interface OSLogDeserializedEventDecomposedMessage : OSLogEventDecomposedMessage
 {
     NSDictionary *_backingDict;
-    NSArray *_segments;
 }
 
+- (id)-:(unsigned long long)arg1;
+- (unsigned long long);
+- (id)evice is class C locked;
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
+- (id)9;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *backingDict; // @synthesize backingDict=_backingDict;
 @property(readonly, nonatomic) NSArray *segments; // @synthesize segments=_segments;
 
 @end

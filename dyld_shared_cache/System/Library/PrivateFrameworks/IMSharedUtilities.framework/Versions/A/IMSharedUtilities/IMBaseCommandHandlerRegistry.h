@@ -9,7 +9,6 @@
 @interface IMBaseCommandHandlerRegistry
 {
     NSMutableDictionary *_standardHandlers;
-    NSMutableDictionary *_lockdownHandlers;
 }
 
 - (id);
@@ -22,16 +21,13 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)8;
+- (id)r:Products /* Error: Ran out of types for this method. */;
 - (id)Q;
 - (void)terP;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *handlers;
-@property(readonly, nonatomic) NSDictionary *lockdownHandlers; // @synthesize lockdownHandlers=_lockdownHandlers;
-@property(readonly, nonatomic, getter=isLockedDown) _Bool lockedDown;
-@property(readonly, nonatomic) NSDictionary *standardHandlers; // @synthesize standardHandlers=_standardHandlers;
 
 @end
 

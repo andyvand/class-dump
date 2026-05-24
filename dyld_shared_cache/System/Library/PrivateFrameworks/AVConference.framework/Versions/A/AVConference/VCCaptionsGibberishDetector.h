@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 __attribute__((visibility("hidden")))
 @interface VCCaptionsGibberishDetector
 {
     double _gibberishThreshold;
-    unsigned long long _windowLength;
-    NSMutableDictionary *_gibberishStates;
-    NSMutableDictionary *_history;
 }
 
 - (_Bool);

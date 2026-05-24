@@ -4,36 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DMAPFS, DMManager, NSArray, NSString, NSURL;
+@class NSString;
 
 @interface LFVolume
 {
     NSString *_uuid;
-    struct __DASession *_DASession;
-    DMManager *_DMManager;
-    DMAPFS *_DMAPFS;
-    struct __DADisk *_apfsDiskRef;
-    NSURL *_prebootURL;
-    NSString *_volumeGroupUUIDInternal;
-    long long _isPrebootVolumeFlag;
-    long long _isDataVolumeFlag;
-    long long _isSystemVolumeFlag;
-    long long _isVolumeGroupFlag;
 }
 
 + (id);
 + (void);
 + (id);
 + (id);
-+ (id);
++ (id)@;
 - (id);
 - (id);
 - (id);
-- (int);
+- (int);
 - (void);
 - (int);
-- (id);
-- (void);
+- (id)u;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -55,54 +45,30 @@
 - (long long);
 - (_Bool);
 - (id);
+- (struct __DADisk *)<4l;
 - (struct __DADisk *);
-- (struct __DADisk *);
 - (id);
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (id);
-- (struct __DASession *);
+- (struct __DASession *)c>;
+- (id);
+- (id);
+- (void)4F;
+- (_Bool)'1y';
+- (id);
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)v;
 - (id);
 
 // Remaining properties
-@property(readonly) NSString *BSDName;
-@property struct __DASession *DASession; // @synthesize DASession=_DASession;
-@property(retain) DMAPFS *DMAPFS; // @synthesize DMAPFS=_DMAPFS;
-@property(retain) DMManager *DMManager; // @synthesize DMManager=_DMManager;
-@property struct __DADisk *apfsDiskRef; // @synthesize apfsDiskRef=_apfsDiskRef;
-@property(readonly) NSArray *dataVolumes;
-@property(readonly) _Bool isDataVolume;
-@property long long isDataVolumeFlag; // @synthesize isDataVolumeFlag=_isDataVolumeFlag;
-@property(readonly) _Bool isLocked;
-@property(readonly) _Bool isMounted;
-@property(readonly) _Bool isPrebootVolume;
-@property long long isPrebootVolumeFlag; // @synthesize isPrebootVolumeFlag=_isPrebootVolumeFlag;
-@property(readonly) _Bool isSystemVolume;
-@property long long isSystemVolumeFlag; // @synthesize isSystemVolumeFlag=_isSystemVolumeFlag;
-@property long long isVolumeGroupFlag; // @synthesize isVolumeGroupFlag=_isVolumeGroupFlag;
-@property(readonly) NSURL *macOSPrebootURL;
-@property(readonly) NSString *passwordHint;
-@property(retain) NSURL *prebootURL; // @synthesize prebootURL=_prebootURL;
-@property(readonly) LFVolume *prebootVolume;
-@property(readonly) LFVolume *systemVolume;
 @property(retain) NSString *uuid; // @synthesize uuid=_uuid;
-@property(readonly) NSString *volumeGroupUUID;
-@property(retain) NSString *volumeGroupUUIDInternal; // @synthesize volumeGroupUUIDInternal=_volumeGroupUUIDInternal;
-@property(readonly) NSString *volumeName;
-@property(readonly) NSURL *volumeURL;
 
 @end
 

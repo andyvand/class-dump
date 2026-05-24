@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)treetAddress="%@*"cwd || kMDItemEventFlightDepartureAirportLocality="%@*"cwd || kMDItemEventFlightDepartureAirportRegion="%@*"cwd || kMDItemEventFlightDepartureAirportCountry="%@*"cwd);
 - (void);
 - (id);
 - (id);
@@ -23,7 +23,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *domains;
 @property(copy, nonatomic) NSArray *specifiers;
 
 @end

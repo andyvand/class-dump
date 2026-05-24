@@ -12,14 +12,13 @@
 {
 }
 
-- (void);
-- (id);
+- (void)AMSPaymentSheetPriceSectionItem;
+- (id);
 - (int);
 - (void);
 
 // Remaining properties
 @property(copy) NSString *type;
-@property int value;
 
 @end
 

@@ -9,21 +9,19 @@
 @interface WFDetectedDate
 {
     _Bool _timeIsSignificant;
-    NSDate *_date;
 }
 
-+ (_Bool);
++ (_Bool)h;
 - (id);
-- (id);
+- (id)@9?;
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)__objc_imageinfo__DATA_CONST;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, nonatomic) _Bool timeIsSignificant; // @synthesize timeIsSignificant=_timeIsSignificant;
 
 @end
 

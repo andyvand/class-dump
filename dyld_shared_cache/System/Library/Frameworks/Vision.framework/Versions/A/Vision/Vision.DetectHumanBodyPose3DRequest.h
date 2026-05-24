@@ -7,10 +7,6 @@
 @interface Vision.DetectHumanBodyPose3DRequest
 {
     id frameAnalysisSpacing;
-    id revision;
-    id configuration;
-    id uuid;
-    id state;
 }
 
 @end

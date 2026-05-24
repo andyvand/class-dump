@@ -6,8 +6,6 @@
 
 #import <SAObjects/SABaseCommand.h>
 
-@class NSString;
-
 @interface SASSpeechCorrectionStatistics : SABaseCommand
 {
 }
@@ -16,21 +14,7 @@
 + (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceId; // @dynamic aceId;
 @property(nonatomic) long long alternativeSelectCount;
-@property(nonatomic) long long characterChangeCount;
-@property(copy, nonatomic) NSString *correctionSource;
-@property(copy, nonatomic) NSString *correctionText;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *interactionId;
-@property(copy, nonatomic) NSString *refId; // @dynamic refId;
-@property(copy, nonatomic) NSString *sessionId;
-@property(readonly) Class superclass;
 
 @end
 

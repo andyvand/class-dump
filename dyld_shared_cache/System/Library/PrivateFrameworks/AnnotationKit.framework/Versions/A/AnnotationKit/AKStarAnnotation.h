@@ -19,7 +19,7 @@
 - (id);
 - (id);
 - (double);
-- (id);
+- (id).GoBack;
 - (id);
 - (id);
 - (void);

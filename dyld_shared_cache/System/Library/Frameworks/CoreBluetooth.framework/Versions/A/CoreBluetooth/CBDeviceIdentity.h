@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSUUID;
+@class NSString;
 
 @interface CBDeviceIdentity
 {
     int _type;
-    NSString *_accountID;
-    NSUUID *_bluetoothIdentifier;
-    NSString *_contactID;
-    NSString *_identifier;
-    NSString *_idsDeviceID;
-    NSData *_irkData;
-    NSString *_model;
-    NSString *_name;
 }
 
 - (void);
@@ -26,34 +18,26 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)15SipAcceptHeader;
+- (id);
 - (id);
 - (int);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)fp_insecureTempDirectoryIgnoringPersona;
 - (void);
 - (id);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
-- (void);
+- (void)DRCDTextTitleKey;
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountID; // @synthesize accountID=_accountID;
-@property(copy, nonatomic) NSUUID *bluetoothIdentifier; // @synthesize bluetoothIdentifier=_bluetoothIdentifier;
-@property(copy, nonatomic) NSString *contactID; // @synthesize contactID=_contactID;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSString *idsDeviceID; // @synthesize idsDeviceID=_idsDeviceID;
-@property(copy, nonatomic) NSData *irkData; // @synthesize irkData=_irkData;
-@property(copy, nonatomic) NSString *model; // @synthesize model=_model;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

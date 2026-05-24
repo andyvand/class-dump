@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKAdopterProcessScopedDaemonProxy, CKProcessScopedDaemonProxy, NSMutableArray, NSXPCConnection;
-@protocol CKProcessInfo;
+@class NSXPCConnection;
 
 @interface CKXPCConnection
 {
     _Bool _hasValidConnection;
-    NSXPCConnection *_connection;
-    CKProcessScopedDaemonProxy *_processScopedDaemonProxy;
-    CKAdopterProcessScopedDaemonProxy *_adopterProcessScopedDaemonProxy;
-    id <CKProcessInfo> _processInfo;
-    NSMutableArray *_invalidationCompletionHandlers;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)fE;
 - (void);
 - (id);
 - (void);
@@ -30,19 +24,16 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (int);
+- (int)A;
 - (id);
 - (void);
 - (void)_componentName;
-- (void)coverUserInfosOperation;
+- (void)CKDiscoverUserInfosOperation;
 
 // Remaining properties
-@property(readonly, nonatomic) CKAdopterProcessScopedDaemonProxy *adopterProcessScopedDaemonProxy; // @synthesize adopterProcessScopedDaemonProxy=_adopterProcessScopedDaemonProxy;
 @property(readonly) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly) int processIdentifier;
-@property(readonly, nonatomic) CKProcessScopedDaemonProxy *processScopedDaemonProxy; // @synthesize processScopedDaemonProxy=_processScopedDaemonProxy;
 
 @end
 

@@ -7,15 +7,6 @@
 @interface PKImageResizingConstraints
 {
     int _constraintType;
-    double _fixedDimension;
-    struct CGSize _size;
-    double _minAspectRatio;
-    double _maxAspectRatio;
-    _Bool _respectAspectRatioRange;
-    _Bool _outputMirrored;
-    double _outputScale;
-    double _outputBorderTrim;
-    double _outputCornerRadius;
 }
 
 + (id);
@@ -37,7 +28,7 @@
 - (_Bool);
 - (double);
 - (double);
-- (_Bool);
+- (_Bool)c;
 - (_Bool);
 - (_Bool);
 - (struct CGRect);
@@ -46,9 +37,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) double outputBorderTrim; // @synthesize outputBorderTrim=_outputBorderTrim;
-@property(nonatomic) double outputCornerRadius; // @synthesize outputCornerRadius=_outputCornerRadius;
-@property(nonatomic) _Bool outputMirrored; // @synthesize outputMirrored=_outputMirrored;
 @property(nonatomic) double outputScale; // @synthesize outputScale=_outputScale;
 
 @end

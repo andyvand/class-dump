@@ -4,41 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSDataWrapper, CSSearchableIndex, NSData, NSObject, NSString;
-@protocol OS_xpc_object;
+@class CSSearchableIndex;
 
 @interface CSSearchableIndexRequest
 {
     unsigned int _cost;
-    unsigned int _requestID;
-    _Bool _shouldThrottle;
-    _Bool _started;
-    _Bool _finished;
-    _Bool _throttled;
-    _Bool _critical;
-    unsigned long long _maxRetryCount;
-    NSData *_data;
-    CDUnknownBlockType _performBlock;
-    CDUnknownBlockType _completionDataBlock;
-    CDUnknownBlockType _completionXPCValueBlock;
-    CDUnknownBlockType _completionBlock;
-    CSSearchableIndex *_index;
-    NSString *_label;
-    CSDataWrapper *_dataWrapper;
-    NSObject<OS_xpc_object> *_xpcValue;
-    unsigned long long _retryCount;
 }
 
-+ (void)ype;
++ (void)bundleType;
 - (void);
 - (id);
 - (void);
 - (void);
 - (unsigned int);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void)qA;
+- (void)H;
+- (id)k;
 - (_Bool);
 - (void);
 - (void);
@@ -46,26 +28,26 @@
 - (void);
 - (id);
 - (void);
+- (void)a;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)+ ;
 - (void);
 - (unsigned long long);
 - (void);
 - (id);
 - (CDUnknownBlockType);
 - (_Bool);
-- (id);
+- (id)y;
 - (void);
 - (void);
 - (_Bool);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)-;
 - (unsigned int);
 - (void);
 - (id);
-- (CDUnknownBlockType);
-- (id);
+- (CDUnknownBlockType)p6;
+- (id);
 - (void);
 - (CDUnknownBlockType);
 - (void);
@@ -73,31 +55,14 @@
 - (void);
 - (_Bool);
 - (void)ownerName;
-- (void)tWithQuery:(_Bool)arg1 language:fuzzyThreshold:options: /* Error: Ran out of types for this method. */;
+- (void)initWithQuery:(_Bool)arg1 language:fuzzyThreshold:options: /* Error: Ran out of types for this method. */;
 - (void)ÿÿÿÿX;
-- (unsigned long long)tyMethod;
-- (void)me;
-- (void)axSecondsBetweenRetries;
+- (unsigned long long)securityMethod;
+- (void)kMDItemLastEditorName;
+- (void)maxSecondsBetweenRetries;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(copy, nonatomic) CDUnknownBlockType completionDataBlock; // @synthesize completionDataBlock=_completionDataBlock;
-@property(copy, nonatomic) CDUnknownBlockType completionXPCValueBlock; // @synthesize completionXPCValueBlock=_completionXPCValueBlock;
-@property(readonly, nonatomic) unsigned int cost;
-@property(nonatomic) _Bool critical; // @synthesize critical=_critical;
-@property(readonly, nonatomic) NSData *data; // @synthesize data=_data;
-@property(retain, nonatomic) CSDataWrapper *dataWrapper; // @synthesize dataWrapper=_dataWrapper;
-@property(nonatomic) _Bool finished; // @synthesize finished=_finished;
 @property(retain, nonatomic) CSSearchableIndex *index; // @synthesize index=_index;
-@property(retain, nonatomic) NSString *label; // @synthesize label=_label;
-@property(nonatomic) unsigned long long maxRetryCount; // @synthesize maxRetryCount=_maxRetryCount;
-@property(copy, nonatomic) CDUnknownBlockType performBlock; // @synthesize performBlock=_performBlock;
-@property(readonly, nonatomic) unsigned int requestID;
-@property(nonatomic) unsigned long long retryCount; // @synthesize retryCount=_retryCount;
-@property(nonatomic) _Bool shouldThrottle; // @synthesize shouldThrottle=_shouldThrottle;
-@property(nonatomic) _Bool started; // @synthesize started=_started;
-@property(nonatomic) _Bool throttled; // @synthesize throttled=_throttled;
-@property(retain, nonatomic) NSObject<OS_xpc_object> *xpcValue; // @synthesize xpcValue=_xpcValue;
 
 @end
 

@@ -6,45 +6,30 @@
 
 #import <SearchFoundation/SFCommand.h>
 
-@class NSArray, NSData, NSDictionary, NSString, SFCommandReference, SFPhotosLibraryImage, SFTopic;
+@class NSArray;
 
 @interface SFRejectPeopleInPhotoCommand : SFCommand
 {
     NSArray *_rejectedPeople;
-    SFPhotosLibraryImage *_photosLibraryImage;
 }
 
 + (_Bool);
+- (void)B;
 - (void);
-- (void);
 - (id);
 - (id);
-- (id);
+- (id)shouldProhibitActionsForCurrentNetworkConditions;
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)n;
 - (id);
+- (id)ources;
+- (id)tionary<PHResourceLocalAvailabilityRequestResourceInfoKey,NSURL *> *__strong);
 - (id);
-- (id);
-- (id);
-- (void)s:count: /* Error: Ran out of types for this method. */;
+- (void)arrayWithObjects:count: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *backendData;
-@property(copy, nonatomic) NSString *commandDetail;
-@property(retain, nonatomic) SFCommandReference *commandReference;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFTopic *normalizedTopic;
-@property(retain, nonatomic) SFPhotosLibraryImage *photosLibraryImage; // @synthesize photosLibraryImage=_photosLibraryImage;
 @property(copy, nonatomic) NSArray *rejectedPeople; // @synthesize rejectedPeople=_rejectedPeople;
-@property(readonly) Class superclass;
 
 @end
 

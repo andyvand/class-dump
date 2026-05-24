@@ -14,8 +14,8 @@
 
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)taUtilities;
 - (id);
 - (id);
 - (id);

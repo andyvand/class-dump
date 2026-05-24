@@ -4,49 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface NTPBAppleIdSignInResult
 {
     int _paidSubscriptionConversionPointType;
-    int _signInResult;
-    NSData *_subscriptionPurchaseSessionId;
-    struct {
-        unsigned int paidSubscriptionConversionPointType:1;
-        unsigned int signInResult:1;
-    } _has;
 }
 
+- (id)canPerformActionType:onAssetCollectionReference:withInputs: /* Error: Ran out of types for this method. */;
+- (int)cameraMake;
+- (void)backgroundQueue_queryID;
+- (void)axContainingGroup;
+- (void)assetsWidgetPlaceholderAspectRatio;
+- (void)albumsDataSectionManagerForLibrary:(_Bool)arg1 context: /* Error: Ran out of types for this method. */;
+- (void)addItemWithTitle:(_Bool)arg1 systemImageName:state:options:handler: /* Error: Ran out of types for this method. */;
+- (id)_updateContentsRect;
+- (int)_updateContentViewLayout;
+- (_Bool)_targetRectWithoutRotation;
+- (_Bool)_storyHitTestResultAtPoint: /* Error: Ran out of types for this method. */;
+- (_Bool)_queue_updateScopeStatusCounts;
+- (int)_qualifiedLayouts;
 - (id);
-- (int);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (int);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (int);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
 - (id);
 - (id);
-- (void)inerEnvironment;
+- (void)hasApplicationContainerEnvironment;
 
 // Remaining properties
-@property(nonatomic) _Bool hasPaidSubscriptionConversionPointType;
 @property(nonatomic) _Bool hasSignInResult;
-@property(readonly, nonatomic) _Bool hasSubscriptionPurchaseSessionId;
-@property(nonatomic) int paidSubscriptionConversionPointType; // @synthesize paidSubscriptionConversionPointType=_paidSubscriptionConversionPointType;
-@property(nonatomic) int signInResult; // @synthesize signInResult=_signInResult;
-@property(retain, nonatomic) NSData *subscriptionPurchaseSessionId; // @synthesize subscriptionPurchaseSessionId=_subscriptionPurchaseSessionId;
 
 @end
 

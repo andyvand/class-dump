@@ -4,18 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _CPRange;
+@class NSData, _CPRange;
 
 @protocol _CPLookupHintRelevancyFeedback
+- (void)WTF:(_CPRange *)arg1:HashTraits<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RefPtr<WebKit::ProcessAssertion>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RefPtr<WebKit::ProcessAssertion>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RefPtr<WebKit::ProcessAssertion>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)IdentifierType, WTF:(_Bool)arg1:ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<API::DataTask>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::DataTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (_CPRange *)readyStateChanged;
+- (void)M!;
+- (unsigned long long);
+- (void);
+- (void));
+- (NSData *)(;
 - (int);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *context;
-@property(nonatomic) _Bool discarded;
-@property(copy, nonatomic) NSString *domain;
-@property(nonatomic) int grade;
-@property(retain, nonatomic) _CPRange *hintRange;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned long long timestamp;
 @end
 

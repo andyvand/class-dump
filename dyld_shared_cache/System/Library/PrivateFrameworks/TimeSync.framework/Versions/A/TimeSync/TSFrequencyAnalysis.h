@@ -7,10 +7,6 @@
 @interface TSFrequencyAnalysis
 {
     double _averagePeriod;
-    double _averageFrequency;
-    double _averageTimeError;
-    double _lowestFrequency;
-    double _highestFrequency;
 }
 
 - (void);
@@ -22,15 +18,11 @@
 - (double);
 - (double);
 - (double);
-- (double);
+- (double);
 - (double);
 
 // Remaining properties
-@property(nonatomic) double averageFrequency; // @synthesize averageFrequency=_averageFrequency;
 @property(nonatomic) double averagePeriod; // @synthesize averagePeriod=_averagePeriod;
-@property(nonatomic) double averageTimeError; // @synthesize averageTimeError=_averageTimeError;
-@property(nonatomic) double highestFrequency; // @synthesize highestFrequency=_highestFrequency;
-@property(nonatomic) double lowestFrequency; // @synthesize lowestFrequency=_lowestFrequency;
 
 @end
 

@@ -9,13 +9,6 @@
 @interface AXFComposedCharacter
 {
     NSString *__originalCombinedCharacter;
-    unsigned long long __originalCombinedCharacterLength;
-    int *__original;
-    unsigned long long __originalLength;
-    int *__normalizationFormD;
-    unsigned long long __normalizationFormDLength;
-    int *__normalizationFormKC;
-    unsigned long long __normalizationFormKCLength;
 }
 
 - (void);
@@ -54,17 +47,10 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)IsSendingAudio;
 
 // Remaining properties
-@property(nonatomic) int *_normalizationFormD; // @synthesize _normalizationFormD=__normalizationFormD;
-@property(nonatomic) unsigned long long _normalizationFormDLength; // @synthesize _normalizationFormDLength=__normalizationFormDLength;
-@property(nonatomic) int *_normalizationFormKC; // @synthesize _normalizationFormKC=__normalizationFormKC;
-@property(nonatomic) unsigned long long _normalizationFormKCLength; // @synthesize _normalizationFormKCLength=__normalizationFormKCLength;
-@property(nonatomic) int *_original; // @synthesize _original=__original;
 @property(copy, nonatomic) NSString *_originalCombinedCharacter; // @synthesize _originalCombinedCharacter=__originalCombinedCharacter;
-@property(nonatomic) unsigned long long _originalCombinedCharacterLength; // @synthesize _originalCombinedCharacterLength=__originalCombinedCharacterLength;
-@property(nonatomic) unsigned long long _originalLength; // @synthesize _originalLength=__originalLength;
 
 @end
 

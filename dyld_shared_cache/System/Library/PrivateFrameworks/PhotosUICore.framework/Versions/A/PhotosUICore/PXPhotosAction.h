@@ -6,31 +6,25 @@
 
 #import <PhotosUICore/PXAction.h>
 
-@class PHFetchOptions, PHPhotoLibrary;
-@protocol PXFastEnumeration;
+@class PHPhotoLibrary;
 
 @interface PXPhotosAction : PXAction
 {
     PHPhotoLibrary *_photoLibrary;
-    PHFetchOptions *_standardFetchOptions;
 }
 
 - (id);
 - (void);
 - (long long);
 - (id);
-- (id);
+- (id);
 - (id)ges;
 - (void)áZ;
 - (id);
 - (id)Ty©ÿnTd·;;
 
 // Remaining properties
-@property(readonly, nonatomic) long long assetCount;
-@property(readonly, nonatomic) id <PXFastEnumeration> assets;
-@property(readonly, nonatomic) id <PXFastEnumeration> collections;
 @property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(readonly, nonatomic) PHFetchOptions *standardFetchOptions; // @synthesize standardFetchOptions=_standardFetchOptions;
 
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface _ICSearchContext
 {
     _Bool _isResponseContextDenylisted;
-    _Bool _shouldDisableAutoCaps;
-    NSString *_locale;
-    NSArray *_recipients;
-    NSString *_applicationBundleIdentifier;
 }
 
 - (_Bool);
@@ -24,11 +20,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *applicationBundleIdentifier; // @synthesize applicationBundleIdentifier=_applicationBundleIdentifier;
-@property(readonly, nonatomic) _Bool isResponseContextDenylisted; // @synthesize isResponseContextDenylisted=_isResponseContextDenylisted;
 @property(readonly, nonatomic) NSString *locale; // @synthesize locale=_locale;
-@property(readonly, nonatomic) NSArray *recipients; // @synthesize recipients=_recipients;
-@property(readonly, nonatomic) _Bool shouldDisableAutoCaps; // @synthesize shouldDisableAutoCaps=_shouldDisableAutoCaps;
 
 @end
 

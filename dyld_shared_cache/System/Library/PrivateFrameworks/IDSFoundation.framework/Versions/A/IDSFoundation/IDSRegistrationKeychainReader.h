@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDispatchTimer, NSMutableArray;
+@class NSMutableArray;
 
 @interface IDSRegistrationKeychainReader
 {
     NSMutableArray *_registrationData;
-    IMDispatchTimer *_purgeTimer;
-    CDUnknownBlockType _purgeCancelBlock;
-    CDUnknownBlockType _purgeEnqueueBlock;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)Uu;
 + (id)DSGLUsedLink linkID=%u serverIP=%@ localIP=%@;
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)h;
 - (void);
 - (void);
 - (void);

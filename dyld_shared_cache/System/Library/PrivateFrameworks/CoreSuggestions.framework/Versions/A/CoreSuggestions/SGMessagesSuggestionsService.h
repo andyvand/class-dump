@@ -6,14 +6,12 @@
 
 #import <CoreSuggestions/SGSuggestionsService.h>
 
-@class NSMutableDictionary, SGMessagesDaemonConnection;
+@class SGMessagesDaemonConnection;
 @protocol SGMessagesSuggestionsServiceDelegate;
 
 @interface SGMessagesSuggestionsService : SGSuggestionsService
 {
     id <SGMessagesSuggestionsServiceDelegate> _delegate;
-    SGMessagesDaemonConnection *_messagesDaemonConnection;
-    NSMutableDictionary *_previousMessages;
 }
 
 - (void);
@@ -24,19 +22,17 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)˦;
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)dTime;
+- (void)_endTime;
 
 // Remaining properties
-@property __weak id <SGMessagesSuggestionsServiceDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain) SGMessagesDaemonConnection *messagesDaemonConnection; // @synthesize messagesDaemonConnection=_messagesDaemonConnection;
-@property(retain) NSMutableDictionary *previousMessages; // @synthesize previousMessages=_previousMessages;
 
 @end
 

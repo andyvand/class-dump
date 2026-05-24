@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSURL;
+@class NSDictionary, NSURL;
 
 @protocol SFURLCopyItem
+- (NSDictionary *)A;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSURL *url;
 @end
 

@@ -9,8 +9,6 @@
     struct _mach_right_send {
         unsigned int mrs_name;
     } fSendRight;
-    unsigned long long fAssertionType;
-    unsigned long long fAssertionOptions;
 }
 
 - (id);

@@ -7,6 +7,7 @@
 @interface HomeEnergyDaemon.HomeEnergyWindowNotificationsManager
 {
     id $defaultActor;
+    id;
 }
 
 @end

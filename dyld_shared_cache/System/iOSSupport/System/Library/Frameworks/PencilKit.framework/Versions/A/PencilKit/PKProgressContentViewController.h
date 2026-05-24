@@ -10,8 +10,8 @@
 }
 
 - (_Bool);
-- (void);
-- (void);
+- (void)P;
+- (void)!;
 - (double);
 - (void);
 - (id);

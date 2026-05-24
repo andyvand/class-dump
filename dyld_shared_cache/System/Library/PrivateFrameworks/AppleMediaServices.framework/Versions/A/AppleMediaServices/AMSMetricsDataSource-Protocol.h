@@ -5,5 +5,9 @@
 //
 
 @protocol AMSMetricsDataSource
+- (void);
+- (void)yingClient = %@
+    nowPlayingClients = %@
+;
 @end
 

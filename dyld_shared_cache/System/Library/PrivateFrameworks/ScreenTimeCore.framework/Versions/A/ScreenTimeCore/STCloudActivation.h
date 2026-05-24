@@ -6,8 +6,6 @@
 
 #import <ScreenTimeCore/STUniquedManagedObject.h>
 
-@class NSData, NSString, NSUUID;
-
 @interface STCloudActivation : STUniquedManagedObject
 {
 }
@@ -18,19 +16,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *activationPlist; // @dynamic activationPlist;
 @property(nonatomic) long long activationType; // @dynamic activationType;
-@property(copy, nonatomic) NSString *ckRecordID; // @dynamic ckRecordID;
-@property(retain, nonatomic) NSData *ckRecordSystemFields; // @dynamic ckRecordSystemFields;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier; // @dynamic identifier;
-@property(copy, nonatomic) NSUUID *sortKey; // @dynamic sortKey;
-@property(readonly) Class superclass;
 
 @end
 

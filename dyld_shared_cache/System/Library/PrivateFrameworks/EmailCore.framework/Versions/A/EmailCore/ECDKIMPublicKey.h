@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface ECDKIMPublicKey
 {
     NSString *_version;
-    unsigned long long _hashingAlgorithm;
-    unsigned long long _signingAlgorithm;
-    NSString *_notes;
-    NSData *_publicKeyData;
-    NSString *_serviceType;
-    NSString *_flags;
 }
 
-- (unsigned long long);
-- (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)rizationToken not set). Dismissing.;
+- (id)@;
+- (id)receiver (if there is one).;
+- (unsigned long long)d bytes from being read! (%{public}@);
 - (void);
 - (void);
 - (void);
@@ -34,16 +28,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)kMDItemDisplayNameOrSubjectOrTitleExactMatch;
+- (void)MDaemon called with NULL message;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *flags; // @synthesize flags=_flags;
-@property(readonly, nonatomic) unsigned long long hashingAlgorithm; // @synthesize hashingAlgorithm=_hashingAlgorithm;
-@property(readonly, copy, nonatomic) NSString *notes; // @synthesize notes=_notes;
-@property(readonly, copy, nonatomic) NSData *publicKeyData; // @synthesize publicKeyData=_publicKeyData;
-@property(readonly, copy, nonatomic) NSString *serviceType; // @synthesize serviceType=_serviceType;
-@property(readonly, nonatomic) unsigned long long signingAlgorithm; // @synthesize signingAlgorithm=_signingAlgorithm;
 @property(readonly, copy, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end

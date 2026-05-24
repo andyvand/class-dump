@@ -7,18 +7,12 @@
 @interface PXEditorialLayoutMetrics
 {
     _Bool _useSaliency;
-    _Bool _useNewImplementation;
-    unsigned long long _numberOfColumns;
-    double _interTileSpacing;
-    double _headerHeight;
-    unsigned long long _lowerItemCountThreshold;
-    struct NSEdgeInsets _padding;
 }
 
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)9);
 - (void);
 - (unsigned long long);
 - (double);
@@ -28,19 +22,13 @@
 - (id);
 - (void)!xGù<°1Â0@ù
 × ;
-- (id)gAssetAction:(struct _NSZone *)arg1 inResult: /* Error: Ran out of types for this method. */;
+- (id)logAssetAction:(struct _NSZone *)arg1 inResult: /* Error: Ran out of types for this method. */;
 - (struct NSEdgeInsets)(mÄÿMýRZ°<;
 - (void)Øÿ8:(struct NSEdgeInsets)arg1 KôÏ<;
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) double headerHeight; // @synthesize headerHeight=_headerHeight;
-@property(nonatomic) double interTileSpacing; // @synthesize interTileSpacing=_interTileSpacing;
-@property(nonatomic) unsigned long long lowerItemCountThreshold; // @synthesize lowerItemCountThreshold=_lowerItemCountThreshold;
 @property(nonatomic) unsigned long long numberOfColumns; // @synthesize numberOfColumns=_numberOfColumns;
-@property(nonatomic) struct NSEdgeInsets padding; // @synthesize padding=_padding;
-@property(nonatomic) _Bool useNewImplementation; // @synthesize useNewImplementation=_useNewImplementation;
-@property(nonatomic) _Bool useSaliency; // @synthesize useSaliency=_useSaliency;
 
 @end
 

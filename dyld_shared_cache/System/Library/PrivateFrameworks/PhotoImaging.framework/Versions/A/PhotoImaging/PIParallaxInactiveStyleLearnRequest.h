@@ -9,13 +9,10 @@
 @interface PIParallaxInactiveStyleLearnRequest
 {
     NUCVPixelBuffer *_fromBuffer;
-    NUCVPixelBuffer *_toBuffer;
-    struct CGRect _sourceFrame;
-    struct CGRect _targetFrame;
 }
 
-- (id);
-- (void);
+- (id);
+- (void)7;
 - (void);
 - (id);
 - (id);
@@ -25,15 +22,12 @@
 - (void);
 - (struct CGRect);
 - (void);
-- (id);
+- (id)P;
 - (void);
-- (void);
+- (void)setInputWhiteDstGreen: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NUCVPixelBuffer *fromBuffer; // @synthesize fromBuffer=_fromBuffer;
-@property(nonatomic) struct CGRect sourceFrame; // @synthesize sourceFrame=_sourceFrame;
-@property(nonatomic) struct CGRect targetFrame; // @synthesize targetFrame=_targetFrame;
-@property(retain, nonatomic) NUCVPixelBuffer *toBuffer; // @synthesize toBuffer=_toBuffer;
 
 @end
 

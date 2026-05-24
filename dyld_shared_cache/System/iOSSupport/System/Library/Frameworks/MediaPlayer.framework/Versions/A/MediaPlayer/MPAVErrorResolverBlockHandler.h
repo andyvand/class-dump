@@ -4,33 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPAVErrorResolver, NSString;
+@class MPAVErrorResolver;
 
 @interface MPAVErrorResolverBlockHandler
 {
     MPAVErrorResolverBlockHandler *_strongSelf;
-    MPAVErrorResolver *_errorResolver;
-    CDUnknownBlockType _resolutionHandler;
 }
 
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (id);
+- (id)expression;
 - (void);
 - (id);
-- (void)onCategory: /* Error: Ran out of types for this method. */;
+- (void)setIsAlarmAudioSessionCategory: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) MPAVErrorResolver *errorResolver; // @synthesize errorResolver=_errorResolver;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType resolutionHandler; // @synthesize resolutionHandler=_resolutionHandler;
-@property(readonly) Class superclass;
 
 @end
 

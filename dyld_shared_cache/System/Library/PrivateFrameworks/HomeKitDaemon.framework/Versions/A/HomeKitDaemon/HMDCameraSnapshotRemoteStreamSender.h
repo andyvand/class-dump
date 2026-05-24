@@ -6,23 +6,20 @@
 
 #import <HomeKitDaemon/HMDCameraSnapshotSender.h>
 
-@class HMDCameraSnapshotIDSStreamInitiator, HMDCameraSnapshotLocal, NSString;
-@protocol HMDCameraSnapshotRemoteStreamSenderDelegate;
+@class HMDCameraSnapshotLocal;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraSnapshotRemoteStreamSender : HMDCameraSnapshotSender
 {
     HMDCameraSnapshotLocal *_snapshotLocal;
-    id <HMDCameraSnapshotRemoteStreamSenderDelegate> _delegate;
-    HMDCameraSnapshotIDSStreamInitiator *_streamInitiator;
 }
 
 + (id)«[;
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)_updateWaypointsIfNeeded:(id)arg1;
+- (void)_isValidParticipant: /* Error: Ran out of types for this method. */;
+- (void)_identifierToMessagesStatus;
+- (id)_identifierToMessagesStatus;
+- (void)8{_NSRange=QQ}16{_NSRange=QQ}32^B48;
 - (id);
 - (void);
 - (void);
@@ -35,16 +32,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) __weak id <HMDCameraSnapshotRemoteStreamSenderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) HMDCameraSnapshotLocal *snapshotLocal; // @synthesize snapshotLocal=_snapshotLocal;
-@property(readonly, nonatomic) HMDCameraSnapshotIDSStreamInitiator *streamInitiator; // @synthesize streamInitiator=_streamInitiator;
-@property(readonly) Class superclass;
 
 @end
 

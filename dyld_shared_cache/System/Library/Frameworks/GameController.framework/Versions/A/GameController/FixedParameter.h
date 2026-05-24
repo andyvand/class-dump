@@ -8,17 +8,15 @@ __attribute__((visibility("hidden")))
 @interface FixedParameter
 {
     int _identifier;
-    float _value;
 }
 
-- (id);
+- (id)qa;
 - (id);
 - (float);
 - (int);
 
 // Remaining properties
 @property(readonly, nonatomic) int identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) float value; // @synthesize value=_value;
 
 @end
 

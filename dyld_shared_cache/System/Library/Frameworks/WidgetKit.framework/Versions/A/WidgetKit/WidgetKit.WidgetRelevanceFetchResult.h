@@ -7,13 +7,12 @@
 @interface WidgetKit.WidgetRelevanceFetchResult
 {
     id isDefaultImplementation;
-    id widgetRelevances;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)initWithDeltaPositionX:(id)arg1 deltaPositionY:deltaPositionZ:deltaVelocityX:deltaVelocityY:deltaVelocityZ:quaternionX:quaternionY:quaternionZ:quaternionW:rotationArbitraryToTrueNorth:staticFlag:isDOTBiasChangePossible:isMounted:isZUPT:timestamp: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

@@ -4,55 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, UIImage, _UIEdgeFeedbackGenerator, _UIModulationFeedbackGenerator;
-
 @interface UISliderDataModel
 {
     struct __CFDictionary *_contentLookup;
-    _UIEdgeFeedbackGenerator *_edgeFeedbackGenerator;
-    _UIModulationFeedbackGenerator *_modulationFeedbackGenerator;
-    _Bool _overrideMinimumEnabledValue;
-    _Bool _overrideMaximumEnabledValue;
-    _Bool _continuous;
-    _Bool _showValue;
-    _Bool _thumbEnabled;
-    _Bool _trackEnabled;
-    _Bool _minimumTrackVisible;
-    _Bool _fluidTrackHidden;
-    _Bool _userInteractionEnabled;
-    _Bool _enabled;
-    _Bool _highlighted;
-    _Bool _selected;
-    _Bool _tracking;
-    float _value;
-    float _minValue;
-    float _maxValue;
-    float _minEnabledValue;
-    float _maxEnabledValue;
-    float _sliderSpeedMultiplier;
-    UIImage *_minimumValueImage;
-    UIImage *_maximumValueImage;
-    UIColor *_minTintColor;
-    UIColor *_maxTintColor;
-    UIColor *_thumbTintColor;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)setStatusBlockAllIncoming: /* Error: Ran out of types for this method. */;
 - (_Bool);
+- (id)icate;
+- (_Bool);
+- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)[👮‍♂️ denied due to authorization status];
 - (float);
 - (id);
 - (void);
@@ -70,17 +42,17 @@
 × ;
 - (void)oint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}{?=dd}{?=b1b1b1b1b1b1}}48@0:(id)arg1 8{CGRect={CGPoint=dd}{CGSize=dd}}16;
 - (id)ApplicationSceneDeactivationManager";
-- (void)ressesCallbacksForLegacyBehavior;
-- (id)etButtonMinimumDistanceFromEdge:(unsigned long long)arg1;
-- (id)edTopView;
-- (void)iewController;
-- (_Bool)llFrame:withEmptyKeyNamed:inKeyplane:withTransformationContext: /* Error: Ran out of types for this method. */;
-- (void)Delegate;
-- (void)ate:(id)arg1;
+- (void)simulatePressesCallbacksForLegacyBehavior;
+- (id)setButtonMinimumDistanceFromEdge:(unsigned long long)arg1;
+- (id)rightArrowPinnedTopView;
+- (void)hasCustomInputViewController;
+- (_Bool)fillFrame:withEmptyKeyNamed:inKeyplane:withTransformationContext: /* Error: Ran out of types for this method. */;
+- (void)doneButtonStringForCurrentInputDelegate;
+- (void)_shouldHideTopSeparatorAtIndexPath:(id)arg1 interactionState:(unsigned long long)arg2;
 - (_Bool)n:,V_contextIDForChosenSuggestion /* Error: Ran out of types for this method. */;
 - (id)r;
-- (void)onDelegate;
-- (id)ectionLayoutSupplementaryEnrollment;
+- (void)_UIDragSetDownItemAnimationDelegate;
+- (id)_UICollectionLayoutSupplementaryEnrollment;
 - (float);
 - (float)9t´$;
 - (_Bool)nitialized to:%@ /* Error: Ran out of types for this method. */;
@@ -108,31 +80,6 @@
 - (float)³h;
 
 // Remaining properties
-@property(nonatomic, getter=isContinuous) _Bool continuous; // @synthesize continuous=_continuous;
-@property(retain, nonatomic) _UIEdgeFeedbackGenerator *edgeFeedbackGenerator;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(nonatomic, getter=isFluidTrackHidden) _Bool fluidTrackHidden; // @synthesize fluidTrackHidden=_fluidTrackHidden;
-@property(readonly, nonatomic) _Bool hasAnyThumbImage;
-@property(readonly, nonatomic) _Bool hasAnyTrackImage;
-@property(nonatomic, getter=isHighlighted) _Bool highlighted; // @synthesize highlighted=_highlighted;
-@property(readonly, nonatomic) float maximumEnabledValue; // @synthesize maximumEnabledValue=_maxEnabledValue;
-@property(retain, nonatomic) UIColor *maximumTrackTintColor; // @synthesize maximumTrackTintColor=_maxTintColor;
-@property(readonly, nonatomic) float maximumValue; // @synthesize maximumValue=_maxValue;
-@property(retain, nonatomic) UIImage *maximumValueImage; // @synthesize maximumValueImage=_maximumValueImage;
-@property(readonly, nonatomic) float minimumEnabledValue; // @synthesize minimumEnabledValue=_minEnabledValue;
-@property(retain, nonatomic) UIColor *minimumTrackTintColor; // @synthesize minimumTrackTintColor=_minTintColor;
-@property(nonatomic, getter=isMinimumTrackVisible) _Bool minimumTrackVisible; // @synthesize minimumTrackVisible=_minimumTrackVisible;
-@property(readonly, nonatomic) float minimumValue; // @synthesize minimumValue=_minValue;
-@property(retain, nonatomic) UIImage *minimumValueImage; // @synthesize minimumValueImage=_minimumValueImage;
-@property(retain, nonatomic) _UIModulationFeedbackGenerator *modulationFeedbackGenerator;
-@property(nonatomic, getter=isSelected) _Bool selected; // @synthesize selected=_selected;
-@property(nonatomic) _Bool showValue; // @synthesize showValue=_showValue;
-@property(nonatomic) float sliderSpeedMultiplier; // @synthesize sliderSpeedMultiplier=_sliderSpeedMultiplier;
-@property(nonatomic, getter=isThumbEnabled) _Bool thumbEnabled; // @synthesize thumbEnabled=_thumbEnabled;
-@property(retain, nonatomic) UIColor *thumbTintColor; // @synthesize thumbTintColor=_thumbTintColor;
-@property(nonatomic, getter=isTrackEnabled) _Bool trackEnabled; // @synthesize trackEnabled=_trackEnabled;
-@property(nonatomic, getter=isTracking) _Bool tracking; // @synthesize tracking=_tracking;
-@property(nonatomic, getter=isUserInteractionEnabled) _Bool userInteractionEnabled; // @synthesize userInteractionEnabled=_userInteractionEnabled;
 @property(readonly, nonatomic) float value; // @synthesize value=_value;
 
 @end

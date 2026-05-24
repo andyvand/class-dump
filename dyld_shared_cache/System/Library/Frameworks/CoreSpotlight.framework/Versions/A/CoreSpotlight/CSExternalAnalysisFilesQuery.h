@@ -9,15 +9,13 @@
 @interface CSExternalAnalysisFilesQuery : CSFilesSearchQuery
 {
     CDUnknownBlockType clientFoundItemsHandler;
-    CDUnknownBlockType clientCompletionHandler;
-    long long _maxCount;
 }
 
 - (id);
 - (void);
-- (void);
-- (void);
-- (long long);
+- (void)?;
+- (void)0";
+- (long long)!;
 - (void);
 
 // Remaining properties

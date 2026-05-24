@@ -4,31 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MSVideoDerivativeSpecification
 {
     _Bool _useCellular;
-    _Bool _powerRequired;
-    double _bitRate;
-    NSString *_videoType;
-    unsigned long long _mediaAssetType;
 }
 
-+ (id);
++ (id)sident capabilities to %@;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (double);
 - (id);
 - (id)collections %{public}@ to album %{public}@.;
 
 // Remaining properties
-@property(readonly, nonatomic) double bitRate; // @synthesize bitRate=_bitRate;
-@property(readonly, nonatomic) unsigned long long mediaAssetType; // @synthesize mediaAssetType=_mediaAssetType;
-@property(readonly, nonatomic) _Bool powerRequired; // @synthesize powerRequired=_powerRequired;
 @property(readonly, nonatomic) _Bool useCellular; // @synthesize useCellular=_useCellular;
-@property(readonly, nonatomic) NSString *videoType; // @synthesize videoType=_videoType;
 
 @end
 

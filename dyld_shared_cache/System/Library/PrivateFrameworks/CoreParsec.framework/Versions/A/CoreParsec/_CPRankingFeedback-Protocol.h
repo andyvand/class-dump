@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData;
+@class _CPSearchResultForFeedback, _CPSectionRankingFeedback;
 
 @protocol _CPRankingFeedback
+- (unsigned long long)objectAtIndexedSubscript: /* Error: Ran out of types for this method. */;
+- (_CPSectionRankingFeedback *);
+- (void)captionsClient:(_CPSearchResultForFeedback *)arg1 didConfigureCaptionsWithError: /* Error: Ran out of types for this method. */;
+- (void)ng *getkCHCoalescingStrategyRecents(void);
 
 // Remaining properties
-@property(nonatomic) double blendingDuration;
-@property(copy, nonatomic) NSArray *hiddenResults;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *sections;
-@property(nonatomic) int spotlightQueryIntent;
 @property(nonatomic) unsigned long long timestamp;
 @end
 

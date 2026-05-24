@@ -6,24 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PLUSSchemaPLUSSuggesterDomainSuggestionMetadata, PLUSSchemaPLUSSuggestionDomainMetadata, SISchemaUUID;
+@class PLUSSchemaPLUSSuggestionDomainMetadata;
 
 @interface PLUSSchemaPLUSSuggesterSuggestionMetadataReported : SISchemaInstrumentationMessage
 {
     PLUSSchemaPLUSSuggestionDomainMetadata *_suggestionDomainMetadata;
-    SISchemaUUID *_suggestionLinkId;
-    SISchemaUUID *_originalRequestId;
-    int _suggestionSurfaced;
-    int _suggestionNoveltyState;
-    PLUSSchemaPLUSSuggesterDomainSuggestionMetadata *_domainSuggestionMetadata;
-    struct {
-        unsigned int suggestionSurfaced:1;
-        unsigned int suggestionNoveltyState:1;
-    } _has;
-    _Bool _hasSuggestionDomainMetadata;
-    _Bool _hasSuggestionLinkId;
-    _Bool _hasOriginalRequestId;
-    _Bool _hasDomainSuggestionMetadata;
 }
 
 - (int);
@@ -33,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -49,7 +36,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -61,28 +48,16 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)e re-fetched with both the existing and newly-required keys;
 - (id);
 - (id)!FùqÝ°1Â0@ù
 × ;
-- (id)nt;
+- (id)_homeClientEvent;
 - (id)VariantClassifierResult;
-- (void)RIBERRADIOFALLBACK;
+- (void)DIALOGENGINENAMEDENTITYCATID__PLAYMEDIAINTENT__PLAYNONSUBSCRIBERRADIOFALLBACK;
 
 // Remaining properties
-@property(retain, nonatomic) PLUSSchemaPLUSSuggesterDomainSuggestionMetadata *domainSuggestionMetadata; // @synthesize domainSuggestionMetadata=_domainSuggestionMetadata;
-@property(nonatomic) _Bool hasDomainSuggestionMetadata; // @synthesize hasDomainSuggestionMetadata=_hasDomainSuggestionMetadata;
-@property(nonatomic) _Bool hasOriginalRequestId; // @synthesize hasOriginalRequestId=_hasOriginalRequestId;
-@property(nonatomic) _Bool hasSuggestionDomainMetadata; // @synthesize hasSuggestionDomainMetadata=_hasSuggestionDomainMetadata;
-@property(nonatomic) _Bool hasSuggestionLinkId; // @synthesize hasSuggestionLinkId=_hasSuggestionLinkId;
-@property(nonatomic) _Bool hasSuggestionNoveltyState;
-@property(nonatomic) _Bool hasSuggestionSurfaced;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *originalRequestId; // @synthesize originalRequestId=_originalRequestId;
 @property(retain, nonatomic) PLUSSchemaPLUSSuggestionDomainMetadata *suggestionDomainMetadata; // @synthesize suggestionDomainMetadata=_suggestionDomainMetadata;
-@property(retain, nonatomic) SISchemaUUID *suggestionLinkId; // @synthesize suggestionLinkId=_suggestionLinkId;
-@property(nonatomic) int suggestionNoveltyState; // @synthesize suggestionNoveltyState=_suggestionNoveltyState;
-@property(nonatomic) int suggestionSurfaced; // @synthesize suggestionSurfaced=_suggestionSurfaced;
 
 @end
 

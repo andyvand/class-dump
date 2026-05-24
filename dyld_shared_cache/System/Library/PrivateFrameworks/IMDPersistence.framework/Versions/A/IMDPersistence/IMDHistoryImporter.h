@@ -7,12 +7,6 @@
 @interface IMDHistoryImporter
 {
     unsigned long long _filesImported;
-    unsigned long long _messagesImported;
-    unsigned long long _messagesSkipped;
-    unsigned long long _messageErrors;
-    _Bool _loggingEnabled;
-    _Bool _testing;
-    float _lastProgress;
 }
 
 - (void);
@@ -28,8 +22,8 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (unsigned long long);
+- (void)@yIA	*;
+- (unsigned long long);
 - (void);
 - (void);
 - (_Bool);
@@ -39,11 +33,6 @@
 
 // Remaining properties
 @property unsigned long long filesImported; // @synthesize filesImported=_filesImported;
-@property _Bool loggingEnabled; // @synthesize loggingEnabled=_loggingEnabled;
-@property unsigned long long messageErrors; // @synthesize messageErrors=_messageErrors;
-@property unsigned long long messagesImported; // @synthesize messagesImported=_messagesImported;
-@property unsigned long long messagesSkipped; // @synthesize messagesSkipped=_messagesSkipped;
-@property _Bool testing; // @synthesize testing=_testing;
 
 @end
 

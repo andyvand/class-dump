@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString, WAPersistentContainer;
+@class NSArray;
 
 @interface NeighborGraph
 {
     NSArray *_bssids;
-    NSMutableArray *_graph;
-    WAPersistentContainer *_persistentContainer;
-    NSMutableArray *_bssidsDwellTimes;
-    NSString *_ssid;
 }
 
 - (void);
@@ -36,10 +32,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *bssids; // @synthesize bssids=_bssids;
-@property(retain, nonatomic) NSMutableArray *bssidsDwellTimes; // @synthesize bssidsDwellTimes=_bssidsDwellTimes;
-@property(retain, nonatomic) NSMutableArray *graph; // @synthesize graph=_graph;
-@property(retain, nonatomic) WAPersistentContainer *persistentContainer; // @synthesize persistentContainer=_persistentContainer;
-@property(retain, nonatomic) NSString *ssid; // @synthesize ssid=_ssid;
 
 @end
 

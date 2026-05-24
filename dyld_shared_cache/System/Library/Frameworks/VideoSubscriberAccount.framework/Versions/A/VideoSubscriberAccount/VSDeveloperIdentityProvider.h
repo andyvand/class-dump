@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface VSDeveloperIdentityProvider
@@ -13,13 +13,6 @@ __attribute__((visibility("hidden")))
 
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *authenticationSchemes; // @dynamic authenticationSchemes;
-@property(copy, nonatomic) NSString *authenticationURL; // @dynamic authenticationURL;
-@property(copy, nonatomic) NSString *certificateURL; // @dynamic certificateURL;
-@property(copy, nonatomic) NSString *nameForSorting; // @dynamic nameForSorting;
-@property(copy, nonatomic) NSString *providerID; // @dynamic providerID;
-@property(nonatomic) _Bool requireBootUrlSystemTrust; // @dynamic requireBootUrlSystemTrust;
-@property(nonatomic) _Bool requireXHRRequestSystemTrust; // @dynamic requireXHRRequestSystemTrust;
 @property(copy, nonatomic) NSString *uniqueID; // @dynamic uniqueID;
 @end
 

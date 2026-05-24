@@ -4,26 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, _SFPBButtonItem, _SFPBRFTextProperty, _SFPBRFVisualProperty;
+@class NSData, _SFPBRFTextProperty;
 
 @protocol _SFPBRFSummaryItemPairNumberCardSection
+- (_SFPBRFTextProperty *);
+- (_SFPBRFTextProperty *)#;
+- (void)B;
+- (void);
+- (_SFPBRFTextProperty *)=}32@0:8@16q24 /* Error: Ran out of types for this method. */;
+- (NSData *),&,N,V_controlQueue;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBButtonItem *button_1;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBRFTextProperty *number_1;
-@property(retain, nonatomic) _SFPBRFTextProperty *number_2;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_1;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_10;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_2;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_3;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_4;
-@property(copy, nonatomic) NSArray *text_5s;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_6;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_7;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_8;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_9;
-@property(retain, nonatomic) _SFPBRFVisualProperty *thumbnail_1;
-@property(retain, nonatomic) _SFPBRFVisualProperty *thumbnail_2;
 @end
 

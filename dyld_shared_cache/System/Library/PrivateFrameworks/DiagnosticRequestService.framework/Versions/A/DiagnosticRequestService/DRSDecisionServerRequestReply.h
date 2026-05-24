@@ -4,29 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
-
 @interface DRSDecisionServerRequestReply
 {
     id _request;
-    NSNumber *_acceptedNum;
-    NSString *_rejectionReason;
-    NSString *_errorString;
 }
 
 - (id);
+- (id)I;
 - (id);
+- (id)K;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)hasTrendingByParsecForegroundMinimumUpdateInterval;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *acceptedNum; // @synthesize acceptedNum=_acceptedNum;
-@property(readonly, nonatomic) NSString *errorString; // @synthesize errorString=_errorString;
-@property(readonly, nonatomic) NSString *rejectionReason; // @synthesize rejectionReason=_rejectionReason;
 @property(readonly, nonatomic) id request; // @synthesize request=_request;
 
 @end

@@ -4,46 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableIndexSet, NSMutableRangeArray, _NSTextFinderAsyncSearchOperation, _NSTextFinderImpl;
+@class _NSTextFinderImpl;
 
 __attribute__((visibility("hidden")))
 @interface NSTextFinderAsyncSearch
 {
     _NSTextFinderImpl *_textFinderImpl;
-    _NSTextFinderAsyncSearchOperation *_operation;
-    NSMutableArray *_findFirstMatchOperations;
-    NSMutableRangeArray *_matchRanges;
-    NSMutableIndexSet *_searchedIndexes;
-    unsigned long long _firstMatchIndex;
-    CDUnknownBlockType _firstMatchBlock;
-    _Bool _foundFirstMatch;
-    _Bool _nextMatchIsFirst;
-    CDUnknownBlockType _completionBlock;
-    _Bool _started;
 }
 
 + (id)ø]6¸§;
-- (_Bool);
+- (_Bool)ry.0cDdlr/Sources/MobileGestalt/libMobileGestalt/device_map.c;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)*;
+- (void)_explicitlySetAllowsExpensiveNetworkAccess;
+- (void)_credentials;
+- (void)Proxy Challenge invoking completion with cred %@ cancel %d;
 - (void);
 - (void);
 - (void);
+- (void)@?0^{CFURLDownloadClient=q^v^?^?^?^?^?^?^?^?^?^?^?^?^?^?}8;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
-- (CDUnknownBlockType)ators;
+- (CDUnknownBlockType)NSTableViewShowsInsetSelectionSeparators;
 - (void)LA@;
 
 // Remaining properties
 @property(copy) CDUnknownBlockType completionBlock;
-@property(readonly) _Bool isSearching;
 
 @end
 

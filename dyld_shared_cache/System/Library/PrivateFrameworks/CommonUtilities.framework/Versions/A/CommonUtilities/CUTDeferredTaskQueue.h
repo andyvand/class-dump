@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSNumber, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CUTDeferredTaskQueue
 {
     struct os_unfair_lock_s _lock;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _originalBlock;
-    NSMutableArray *_pendingDispatchBlocks;
-    NSNumber *_capacity;
 }
 
 - (void);
-- (id);
+- (id)!;
 - (id);
 - (id);
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (id);
+- (id)!;
 - (void);
 - (struct os_unfair_lock_s);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *capacity; // @synthesize capacity=_capacity;
-@property(readonly, nonatomic) struct os_unfair_lock_s lock; // @synthesize lock=_lock;
-@property(readonly, nonatomic) CDUnknownBlockType originalBlock; // @synthesize originalBlock=_originalBlock;
-@property(readonly, nonatomic) NSMutableArray *pendingDispatchBlocks; // @synthesize pendingDispatchBlocks=_pendingDispatchBlocks;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end

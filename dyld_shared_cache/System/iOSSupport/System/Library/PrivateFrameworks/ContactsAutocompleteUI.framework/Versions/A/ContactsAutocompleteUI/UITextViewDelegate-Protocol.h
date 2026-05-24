@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIMenu;
+
 @protocol UITextViewDelegate
+
+@optional
+- (_Bool);
+- (UIMenu *);
 @end
 

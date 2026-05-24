@@ -4,32 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATHTTPMessageParser, CATRemoteConnectionSocketOptions, CATSerialOperationQueue, NSArray, NSError, NSInputStream, NSMutableArray, NSMutableData, NSObject, NSOutputStream, NSString;
-@protocol CATRemoteConnectionDelegate, OS_dispatch_source;
+@class CATHTTPMessageParser, NSInputStream;
 
 @interface CATRemoteConnection
 {
     CATHTTPMessageParser *mMessageParser;
-    long long mState;
-    NSMutableArray *mPendingSendContexts;
-    NSObject<OS_dispatch_source> *mConnectionTimeoutTimer;
-    NSError *mInterruptionError;
-    NSMutableData *mReadBuffer;
-    NSArray *mTrustedCertificates;
-    long long mPeerTrustState;
-    CATSerialOperationQueue *mStreamEventQueue;
-    _Bool _usesSSL;
-    id <CATRemoteConnectionDelegate> _delegate;
-    NSString *_name;
-    double _connectionTimeoutInterval;
-    CATRemoteConnectionSocketOptions *_socketOptions;
-    NSArray *_customTrustEvaluationPolicies;
-    NSInputStream *_inputStream;
-    NSOutputStream *_outputStream;
-    unsigned long long _bufferSize;
 }
 
-+ (void);
++ (void)^;
 + (void);
 - (void);
 - (_Bool);
@@ -39,7 +21,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)q;
 - (void);
 - (void);
 - (_Bool);
@@ -48,17 +30,17 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)T	;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)%;
 - (void);
 - (void);
 - (void);
@@ -73,24 +55,24 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)ingScore;
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)6;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)";
+- (id);
+- (void)queryDidUpdateResult:(_Bool)arg1;
+- (struct __SecTrust *)x;
 - (void);
-- (struct __SecTrust *);
-- (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
 - (id);
@@ -98,23 +80,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long bufferSize; // @synthesize bufferSize=_bufferSize;
-@property(nonatomic) double connectionTimeoutInterval; // @synthesize connectionTimeoutInterval=_connectionTimeoutInterval;
-@property(copy, nonatomic) NSArray *customTrustEvaluationPolicies; // @synthesize customTrustEvaluationPolicies=_customTrustEvaluationPolicies;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CATRemoteConnectionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSInputStream *inputStream; // @synthesize inputStream=_inputStream;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSOutputStream *outputStream; // @synthesize outputStream=_outputStream;
-@property(readonly, nonatomic) struct __SecTrust *peerTrust;
-@property(copy, nonatomic) CATRemoteConnectionSocketOptions *socketOptions; // @synthesize socketOptions=_socketOptions;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool usesSSL; // @synthesize usesSSL=_usesSSL;
 
 @end
 

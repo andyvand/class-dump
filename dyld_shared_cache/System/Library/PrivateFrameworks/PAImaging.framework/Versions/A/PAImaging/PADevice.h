@@ -10,7 +10,7 @@
 
 + (id);
 + (id);
-+ (id);
++ (id)h Index Status;
 + (id);
 - (id);
 - (struct _cl_device_id *);
@@ -20,7 +20,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (int);
 - (_Bool);
 - (id);

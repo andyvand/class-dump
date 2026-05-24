@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface PAImageDifferencer
 {
     struct CGImage *_image1;
-    struct CGImage *_image2;
-    struct CGImage *_diffImage;
-    NSDictionary *_differenceDictionary;
 }
 
-+ (id);
++ (id);
 + (id);
 - (id);
 - (id);
@@ -29,8 +24,8 @@
 - (void);
 - (long long);
 - (struct CGImage *);
-- (void);
-- (void);
+- (void)	;
+- (void)@;
 
 @end
 

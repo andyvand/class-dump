@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PSGInputSuggestionsExplanationSet;
-
 @interface PSGInputSuggestionsResponse
 {
     int _triggeredItemsCount;
-    NSArray *_responseItems;
-    PSGInputSuggestionsExplanationSet *_explanationSet;
-    double _triggeringTimeMillis;
-    double _servingTimeMillis;
 }
 
 + (_Bool);
@@ -27,18 +21,14 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)j ;
 
 // Remaining properties
-@property(readonly, nonatomic) PSGInputSuggestionsExplanationSet *explanationSet; // @synthesize explanationSet=_explanationSet;
-@property(readonly, nonatomic) NSArray *responseItems; // @synthesize responseItems=_responseItems;
-@property(nonatomic) double servingTimeMillis; // @synthesize servingTimeMillis=_servingTimeMillis;
-@property(nonatomic) int triggeredItemsCount; // @synthesize triggeredItemsCount=_triggeredItemsCount;
 @property(nonatomic) double triggeringTimeMillis; // @synthesize triggeringTimeMillis=_triggeringTimeMillis;
 
 @end

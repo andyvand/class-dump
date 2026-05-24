@@ -14,11 +14,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)T);
 - (_Bool);
-- (void);
-- (void);
-- (_Bool)ubberContainer;
+- (void)));
+- (void)ing"16@?<v@?@"ICQAppsSyncingToDrive"@"NSError">24;
+- (_Bool)scrubberContainer;
 
 // Remaining properties
 @property __weak id <IIDatePickerPanelDelegate> panelDelegate; // @synthesize panelDelegate=_panelDelegate;

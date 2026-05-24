@@ -6,43 +6,12 @@
 
 #import <Safari/TabBarViewButton.h>
 
-@class NSArray, NSImage, NSImageView, NSLayoutConstraint, NSMutableArray, NSStackView, NSString, NSTextField, NSView, RolloverImageButton;
-@protocol TabBarViewItem, TabButtonDelegate;
+@protocol TabButtonDelegate;
 
 __attribute__((visibility("hidden")))
 @interface TabButton : TabBarViewButton
 {
     _Bool _didEstablishTabBarViewItemBindings;
-    NSMutableArray *_accessoryViews;
-    NSView *_placeholderAccessoryViewForCentering;
-    NSView *_mainContentClippingContainer;
-    NSStackView *_mainContentContainer;
-    NSStackView *_titleContainerView;
-    NSTextField *_titleTextField;
-    NSView *_focusRingView;
-    RolloverImageButton *_closeButton;
-    NSImageView *_iconView;
-    _Bool _isMouseOver;
-    NSLayoutConstraint *_mainContentContainerWidthConstraint;
-    NSLayoutConstraint *_mainContentContainerLeftConstraint;
-    NSLayoutConstraint *_mainContentContainerRightConstraint;
-    NSLayoutConstraint *_mainContentContainerHorizontalCenteringConstraint;
-    NSLayoutConstraint *_titleContainerViewHorizontalCenteringConstraint;
-    id _flagsChangedEventMonitor;
-    _Bool _deferringKeyStateChangeUpdateUntilVisible;
-    _Bool _canShowCloseButton;
-    _Bool _pinned;
-    _Bool _dragging;
-    _Bool _showIcon;
-    id <TabButtonDelegate> _delegate;
-    id <TabBarViewItem> _tabBarViewItem;
-    NSString *_title;
-    long long _alignment;
-    NSImage *_image;
-    double _buttonWidthForTitleLayout;
-    double _mainContentContainerCenterOffset;
-    double _titleTextFieldCenterOffset;
-    long long _tabButtonLayoutMode;
 }
 
 + (double);
@@ -55,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -71,8 +40,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (struct NSEdgeInsets);
-- (void);
-- (double);
+- (void)�;
+- (double);
 - (id);
 - (id);
 - (_Bool);
@@ -110,10 +79,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)infoProvider;
 - (id);
 - (void);
-- (id);
+- (id)rver enables named group merging? %@ {serverBagValue:%@ maximum:%@} /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (long long);
@@ -121,7 +90,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (_Bool)Layout: /* Error: Ran out of types for this method. */;
+- (_Bool)didReloadEvent:withReloadType:withReloadProvenance:withLayout: /* Error: Ran out of types for this method. */;
 - (id)a;
 - (void)ÿÿ;
 - (_Bool)LH;
@@ -132,28 +101,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)|;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *accessoryViews; // @synthesize accessoryViews=_accessoryViews;
-@property(nonatomic) long long alignment; // @synthesize alignment=_alignment;
-@property(nonatomic) double buttonWidthForTitleLayout; // @synthesize buttonWidthForTitleLayout=_buttonWidthForTitleLayout;
-@property(nonatomic) _Bool canShowCloseButton; // @synthesize canShowCloseButton=_canShowCloseButton;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <TabButtonDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isDragging) _Bool dragging; // @synthesize dragging=_dragging;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(nonatomic) double mainContentContainerCenterOffset; // @synthesize mainContentContainerCenterOffset=_mainContentContainerCenterOffset;
-@property(readonly, nonatomic, getter=isNarrowMode) _Bool narrowMode;
-@property(nonatomic, getter=isPinned) _Bool pinned; // @synthesize pinned=_pinned;
-@property(nonatomic) _Bool showIcon; // @synthesize showIcon=_showIcon;
-@property(readonly) Class superclass;
-@property(readonly) id <TabBarViewItem> tabBarViewItem; // @synthesize tabBarViewItem=_tabBarViewItem;
-@property(readonly, nonatomic) long long tabButtonLayoutMode; // @synthesize tabButtonLayoutMode=_tabButtonLayoutMode;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(nonatomic) double titleTextFieldCenterOffset; // @synthesize titleTextFieldCenterOffset=_titleTextFieldCenterOffset;
 
 @end
 

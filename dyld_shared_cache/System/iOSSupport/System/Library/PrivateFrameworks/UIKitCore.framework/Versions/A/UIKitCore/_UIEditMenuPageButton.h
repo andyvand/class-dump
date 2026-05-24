@@ -12,16 +12,13 @@ __attribute__((visibility("hidden")))
 @interface _UIEditMenuPageButton : UIButton
 {
     UIVisualEffectView *_separatorView;
-    struct NSDirectionalEdgeInsets _defaultInsets;
-    long long _direction;
-    struct UIEdgeInsets _arrowEdgeInsets;
 }
 
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)userNotificationDidFinish:(struct UIEdgeInsets)arg1;
+- (id)cancelVCRequestWithPerson:(long long)arg1 properties:(id)arg2 conference: /* Error: Ran out of types for this method. */;
+- (id)member relation using raw handles! %@;
+- (id)ming from madrid;
+- (void)decisionInfo:(id)arg1 );
 - (struct UIEdgeInsets);
 - (void);
 - (id)0@ù

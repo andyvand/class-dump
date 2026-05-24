@@ -9,7 +9,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_GCLegacyPublishedControllerManager;
 - (_Bool);
 - (int);
 - (_Bool);

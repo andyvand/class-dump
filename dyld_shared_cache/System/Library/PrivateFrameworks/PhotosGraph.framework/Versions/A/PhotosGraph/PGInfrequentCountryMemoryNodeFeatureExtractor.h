@@ -12,9 +12,9 @@
 
 + (id);
 + (id);
-- (id);
-- (id);
-- (id);
+- (id)_navigationOrderChildControllers;
+- (id)@"AXFUIElement",&,N,V_nextPageElement;
+- (id);
 
 @end
 

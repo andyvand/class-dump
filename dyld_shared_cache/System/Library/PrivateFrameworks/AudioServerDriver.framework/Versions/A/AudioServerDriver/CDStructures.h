@@ -12,10 +12,6 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 
 struct ASDBufferList;
 
-struct ASDDSPStreamHelper;
-
-struct ASDSRCStreamHelper;
-
 struct AudioChannelDescription {
     unsigned int _field1;
     unsigned int _field2;
@@ -37,40 +33,6 @@ struct AudioServerPlugInClientInfo {
     struct __CFString *_field4;
 };
 
-struct AudioServerPlugInDriverInterface {
-    void *_field1;
-    CDUnknownFunctionPointerType _field2;
-    CDUnknownFunctionPointerType _field3;
-    CDUnknownFunctionPointerType _field4;
-    CDUnknownFunctionPointerType _field5;
-    CDUnknownFunctionPointerType _field6;
-    CDUnknownFunctionPointerType _field7;
-    CDUnknownFunctionPointerType _field8;
-    CDUnknownFunctionPointerType _field9;
-    CDUnknownFunctionPointerType _field10;
-    CDUnknownFunctionPointerType _field11;
-    CDUnknownFunctionPointerType _field12;
-    CDUnknownFunctionPointerType _field13;
-    CDUnknownFunctionPointerType _field14;
-    CDUnknownFunctionPointerType _field15;
-    CDUnknownFunctionPointerType _field16;
-    CDUnknownFunctionPointerType _field17;
-    CDUnknownFunctionPointerType _field18;
-    CDUnknownFunctionPointerType _field19;
-    CDUnknownFunctionPointerType _field20;
-    CDUnknownFunctionPointerType _field21;
-    CDUnknownFunctionPointerType _field22;
-    CDUnknownFunctionPointerType _field23;
-};
-
-struct AudioServerPlugInHostInterface {
-    CDUnknownFunctionPointerType _field1;
-    CDUnknownFunctionPointerType _field2;
-    CDUnknownFunctionPointerType _field3;
-    CDUnknownFunctionPointerType _field4;
-    CDUnknownFunctionPointerType _field5;
-};
-
 struct AudioUnitParameterInfo {
     char _field1[52];
     struct __CFString *_field2;
@@ -88,19 +50,11 @@ struct Graph;
 struct Interpreter;
 
 struct _ASDSliderRange {
-    unsigned int mMinimum;
-    unsigned int mMaximum;
+    unsigned int _field1;
+    unsigned int _field2;
 };
 
 struct __CFString;
-
-struct list<ASDDSPGraphHelper, std::allocator<ASDDSPGraphHelper>> {
-    struct __list_node_base<ASDDSPGraphHelper, void *> {
-        void *__prev_;
-        void *__next_;
-    } __end_;
-    CDStruct_a7186859 ;
-};
 
 struct optional<AudioCapturerOptions> {
     union {
@@ -108,10 +62,6 @@ struct optional<AudioCapturerOptions> {
         unsigned long long _field2;
     } _field1;
     _Bool _field2;
-};
-
-struct os_unfair_lock_s {
-    unsigned int _os_unfair_lock_opaque;
 };
 
 struct shared_ptr<DSPGraph::Graph> {
@@ -122,18 +72,6 @@ struct shared_ptr<DSPGraph::Graph> {
 struct unique_ptr<ASDBufferList, std::default_delete<ASDBufferList>> {
     struct {
         struct ASDBufferList *__ptr_;
-    } ;
-};
-
-struct unique_ptr<ASDDSPStreamHelper, std::default_delete<ASDDSPStreamHelper>> {
-    struct {
-        struct ASDDSPStreamHelper *__ptr_;
-    } ;
-};
-
-struct unique_ptr<ASDSRCStreamHelper, std::default_delete<ASDSRCStreamHelper>> {
-    struct {
-        struct ASDSRCStreamHelper *__ptr_;
     } ;
 };
 
@@ -149,15 +87,11 @@ struct unique_ptr<DSPGraph::Interpreter, std::default_delete<DSPGraph::Interpret
     } ;
 };
 
-struct unique_ptr<caulk::concurrent::guarded_lookup_hash_table<unsigned long long, ASDDSPGraphHelper *, caulk::concurrent::guarded_lookup_hash_table_must_count_dereferences>, std::default_delete<caulk::concurrent::guarded_lookup_hash_table<unsigned long long, ASDDSPGraphHelper *, caulk::concurrent::guarded_lookup_hash_table_must_count_dereferences>>> {
-    CDStruct_cffa721c ;
-};
-
 struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::string>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::string>, void *>*>*>>> {
     struct {
         void **_field1;
         struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::string>, void *>*>*>> {
-            CDStruct_a7186859 _field1;
+            CDStruct_69d7cc99 _field1;
         } _field2;
     } _field1;
 };
@@ -170,7 +104,7 @@ struct unordered_map<std::string, std::string, std::hash<std::string>, std::equa
                 void *_field1;
             } _field1;
         } _field2;
-        CDStruct_a7186859 _field3;
+        CDStruct_69d7cc99 _field3;
         struct {
             float _field1;
         } _field4;
@@ -180,18 +114,16 @@ struct unordered_map<std::string, std::string, std::hash<std::string>, std::equa
 struct vector<std::string, std::allocator<std::string>> {
     void *_field1;
     void *_field2;
-    CDStruct_cffa721c _field3;
+    struct {
+        void *_field1;
+    } _field3;
 };
 
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    unsigned long long __size_;
-} CDStruct_a7186859;
-
-typedef struct {
-    void *__ptr_;
-} CDStruct_cffa721c;
+    unsigned long long _field1;
+} CDStruct_69d7cc99;
 
 // Template types
 typedef struct optional<AudioCapturerOptions> {
@@ -215,16 +147,18 @@ typedef struct unordered_map<std::string, std::string, std::hash<std::string>, s
                 void *_field1;
             } _field1;
         } _field2;
-        CDStruct_a7186859 _field3;
+        CDStruct_69d7cc99 _field3;
         struct {
             float _field1;
         } _field4;
     } _field1;
-} unordered_map_c933905a;
+} unordered_map_cd141acc;
 
 typedef struct vector<std::string, std::allocator<std::string>> {
     void *_field1;
     void *_field2;
-    CDStruct_cffa721c _field3;
-} vector_13ac111c;
+    struct {
+        void *_field1;
+    } _field3;
+} vector_1399404a;
 

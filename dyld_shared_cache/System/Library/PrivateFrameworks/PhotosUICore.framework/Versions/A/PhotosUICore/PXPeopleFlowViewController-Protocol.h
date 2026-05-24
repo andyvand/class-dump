@@ -5,24 +5,13 @@
 //
 
 @class PXPeopleBootstrapContext;
-@protocol PXPeopleFlowViewControllerActionDelegate;
 
 @protocol PXPeopleFlowViewController
 
+@optional
+- (void);
+
 // Remaining properties
-@property(nonatomic) __weak id <PXPeopleFlowViewControllerActionDelegate> actionDelegate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<PXPeopleFlowViewControllerActionDelegate>",?,W,N
-
 @property(readonly, nonatomic) PXPeopleBootstrapContext *bootstrapContext;
-@property(readonly, nonatomic) struct CGSize preferredSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGSize=dd},?,R,N
-
-@property(readonly, nonatomic) _Bool shouldConfirmAdvancement;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool wantsCancelButton;
 @end
 

@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, VGVehicle;
-
 @interface MNTraceEVDataRow
 {
     double _timestamp;
-    VGVehicle *_vehicle;
 }
 
 - (void);
@@ -21,16 +18,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) double position;
-@property(readonly) Class superclass;
-@property(nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
-@property(retain, nonatomic) VGVehicle *vehicle; // @synthesize vehicle=_vehicle;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface IDSFoundation.IDSDisableMultiStackInterfacePlugin
 {
     id name;
-    id matchTags;
-    id state;
 }
 
 @end

@@ -11,18 +11,15 @@ __attribute__((visibility("hidden")))
 @interface UIAutoRespondingScrollViewControllerKeyboardSupport
 {
     UIViewController<_UIKeyboardAutoRespondingScrollViewController> *_viewController;
-    double _adjustmentForKeyboard;
-    unsigned int _viewIsDisappearing:1;
-    unsigned int _registeredForNotifications:1;
 }
 
-- (id);
-- (_Bool);
-- (double);
+- (id)_payloadAuthenticationType;
+- (_Bool)placeViewsForSize:forRow:completion: /* Error: Ran out of types for this method. */;
+- (double)sentingAppName:completion: /* Error: Ran out of types for this method. */;
 - (void);
+- (void);
 - (void);
-- (void);
-- (void)yle;
+- (void)_focusStyle;
 - (void)SArray",&,N,S_setSecondaryEdgeAdditionalBarButtonItemGroups:(id)arg1;
 - (_Bool)|Ì ;
 - (void)	
@@ -34,8 +31,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) double adjustmentForKeyboard; // @synthesize adjustmentForKeyboard=_adjustmentForKeyboard;
-@property(nonatomic) _Bool registeredForNotifications;
-@property(nonatomic) _Bool viewIsDisappearing;
 
 @end
 

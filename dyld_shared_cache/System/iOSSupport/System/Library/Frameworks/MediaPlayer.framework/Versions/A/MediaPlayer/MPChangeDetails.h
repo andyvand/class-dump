@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexSet, NSMutableDictionary, NSMutableIndexSet, NSMutableSet;
+@class NSIndexSet, NSMutableDictionary;
 
 @interface MPChangeDetails
 {
     NSMutableDictionary *_sectionMoves;
-    NSMutableDictionary *_sectionUpdates;
-    NSMutableIndexSet *_updatedSectionMoveFromIndexes;
-    NSMutableDictionary *_itemMoves;
-    NSMutableDictionary *_itemUpdates;
-    NSMutableSet *_updatedItemMoveFromIndexPaths;
-    _Bool _isFlatCollection;
-    _Bool _isFinalized;
-    NSIndexSet *_insertedSections;
-    NSIndexSet *_deletedSections;
-    NSArray *_insertedItemIndexPaths;
-    NSArray *_deletedItemIndexPaths;
 }
 
 + (id);
@@ -32,49 +21,40 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)constInteger;
+- (void)_lateral;
+- (void)_orderClause;
+- (void)_useOp;
+- (void)_aggFilter;
+- (void)_withCheck;
+- (void)_table;
+- (id)_aggstar;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id);
+- (void)mework/CoreDuet;
 - (id);
 - (id);
-- (void);
 - (id);
-- (id);
-- (void);
+- (id)existingChatWithHandles:allowAlternativeService:groupID:displayName:joinedChatsOnly:findMatchingNamedGroups: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
+- (void);
+- (void);
+- (id)forceAirPrintTrustedTLSRequirement;
+- (id)ect"8;
 - (id);
 - (id);
 - (void)perties;
-- (_Bool)odeAuthor;
+- (_Bool)MPModelRelationshipPodcastEpisodeAuthor;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSIndexSet *deletedIndexes;
-@property(copy, nonatomic) NSArray *deletedItemIndexPaths; // @synthesize deletedItemIndexPaths=_deletedItemIndexPaths;
-@property(copy, nonatomic) NSIndexSet *deletedSections; // @synthesize deletedSections=_deletedSections;
-@property(readonly, nonatomic) _Bool hasChanges;
-@property(readonly, copy, nonatomic) NSIndexSet *insertedIndexes;
-@property(copy, nonatomic) NSArray *insertedItemIndexPaths; // @synthesize insertedItemIndexPaths=_insertedItemIndexPaths;
 @property(copy, nonatomic) NSIndexSet *insertedSections; // @synthesize insertedSections=_insertedSections;
-@property(readonly, copy, nonatomic) NSIndexSet *updatedIndexes;
-@property(copy, nonatomic) NSArray *updatedItemIndexPaths;
-@property(copy, nonatomic) NSIndexSet *updatedSections;
 
 @end
 

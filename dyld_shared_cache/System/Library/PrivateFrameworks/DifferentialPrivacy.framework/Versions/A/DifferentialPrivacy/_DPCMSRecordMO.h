@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _DPCMSRecordMO
 {
 }
@@ -13,8 +11,5 @@
 
 // Remaining properties
 @property(nonatomic) double creationDate; // @dynamic creationDate;
-@property(retain, nonatomic) NSString *key; // @dynamic key;
-@property(nonatomic) long long reportVersion; // @dynamic reportVersion;
-@property(nonatomic) _Bool submitted; // @dynamic submitted;
 @end
 

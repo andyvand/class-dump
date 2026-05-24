@@ -6,21 +6,11 @@
 
 #import <IOBluetooth/HardcopyCableReplacement.h>
 
-@class IOBluetoothDevice, IOBluetoothL2CAPChannel, NSString;
+@class IOBluetoothDevice;
 
 @interface IOBluetoothHardcopyCableReplacement : HardcopyCableReplacement
 {
     unsigned short commandChannel;
-    unsigned short dataChannel;
-    _Bool dataChannelIsOpen;
-    _Bool commandChannelIsOpen;
-    char *mBufferForOutgoingData;
-    unsigned int mReadPointerInBuffer;
-    unsigned int mWritePointerInBuffer;
-    NSString *stringFor1284ID;
-    IOBluetoothDevice *_printer;
-    IOBluetoothL2CAPChannel *_command;
-    IOBluetoothL2CAPChannel *_data;
 }
 
 + (id);
@@ -36,7 +26,7 @@
 - (int);
 - (void);
 - (void);
-- (int);
+- (int)5;;
 - (void);
 - (id);
 - (int);
@@ -51,9 +41,9 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)?;
 - (void);
 - (id);
 - (void);
@@ -64,11 +54,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) IOBluetoothL2CAPChannel *command; // @synthesize command=_command;
-@property(retain, nonatomic) IOBluetoothL2CAPChannel *data; // @synthesize data=_data;
-@property(readonly) _Bool isConnected;
 @property(retain, nonatomic) IOBluetoothDevice *printer; // @synthesize printer=_printer;
-@property(copy) NSString *printer1284ID; // @synthesize printer1284ID=stringFor1284ID;
 
 @end
 

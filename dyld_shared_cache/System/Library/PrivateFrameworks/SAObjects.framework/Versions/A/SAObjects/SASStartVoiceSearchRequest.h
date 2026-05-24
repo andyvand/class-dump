@@ -6,7 +6,7 @@
 
 #import <SAObjects/SASStartSpeechDictation.h>
 
-@class NSArray, NSDictionary;
+@class NSDictionary;
 
 @interface SASStartVoiceSearchRequest : SASStartSpeechDictation
 {
@@ -15,7 +15,7 @@
 + (id);
 + (id);
 - (void);
-- (id);
+- (id)!;
 - (id);
 - (id);
 - (id);
@@ -26,8 +26,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *headers;
-@property(copy, nonatomic) NSDictionary *queryParameters;
-@property(copy, nonatomic) NSArray *searchTypes;
 
 @end
 

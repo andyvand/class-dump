@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface JRSchemaSegmentedCandidateCount : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_candidateId;
-    unsigned int _count;
-    CDStruct_bbadad30 _has;
-    _Bool _hasCandidateId;
 }
 
 - (void);
@@ -34,17 +31,13 @@
 - (id)
 × ;
 - (id)antProperties",&,N,V_assistant;
-- (id)andingContext;
+- (id)STSchemaSTLLMQueryUnderstandingContext;
 - (void)P;
 - (unsigned int)2;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *candidateId; // @synthesize candidateId=_candidateId;
-@property(nonatomic) unsigned int count; // @synthesize count=_count;
-@property(nonatomic) _Bool hasCandidateId; // @synthesize hasCandidateId=_hasCandidateId;
-@property(nonatomic) _Bool hasCount;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

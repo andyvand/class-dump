@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)RXG;
 - (void);
 - (void)|';
 

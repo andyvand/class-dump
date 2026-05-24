@@ -4,34 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKAccountSupportTopicExplanationContent, PKAccountSupportTopicExplanationLink;
+@class NSString;
 
 @interface PKAccountSupportTopicExplanation
 {
     NSString *_headerTitle;
-    NSString *_headerSubtitle;
-    NSString *_primaryActionTitle;
-    NSString *_secondaryActionTitle;
-    PKAccountSupportTopicExplanationContent *_content;
-    PKAccountSupportTopicExplanationLink *_link;
 }
 
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id)ses;
+- (id)_downloadAllPaymentPasses;
 - (id)T VIOLATION:NFLoyaltyAndPaymentSession returned NFExpressModeStateServiceRequested. /* Error: Ran out of types for this method. */;
-- (id)emoval;
+- (id)holdRemoval;
 - (void)o encode 'Payment Sheet Shown (;
 
 // Remaining properties
-@property(readonly, nonatomic) PKAccountSupportTopicExplanationContent *content; // @synthesize content=_content;
-@property(readonly, copy, nonatomic) NSString *headerSubtitle; // @synthesize headerSubtitle=_headerSubtitle;
 @property(readonly, copy, nonatomic) NSString *headerTitle; // @synthesize headerTitle=_headerTitle;
-@property(readonly, nonatomic) PKAccountSupportTopicExplanationLink *link; // @synthesize link=_link;
-@property(readonly, copy, nonatomic) NSString *primaryActionTitle; // @synthesize primaryActionTitle=_primaryActionTitle;
-@property(readonly, copy, nonatomic) NSString *secondaryActionTitle; // @synthesize secondaryActionTitle=_secondaryActionTitle;
 
 @end
 

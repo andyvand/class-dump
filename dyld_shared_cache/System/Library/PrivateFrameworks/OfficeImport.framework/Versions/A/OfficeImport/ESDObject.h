@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ESDContainer;
-
 __attribute__((visibility("hidden")))
 @interface ESDObject
 {
     struct EshObject *mEshObject;
-    ESDContainer *mParent;
-    _Bool mIsChart;
 }
 
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -22,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void *);
 - (struct EshObject *);
-- (void *);
+- (void *)@9k;
 - (_Bool);
 - (int);
 - (void);

@@ -6,40 +6,37 @@
 
 #import <CoreUI/CUINamedLayerImage.h>
 
-@class NSString, TXRTexture;
+@class TXRTexture;
 
 @interface CUIMutableNamedLayerImage : CUINamedLayerImage
 {
     struct CGImage *_image;
-    TXRTexture *_texture;
-    id _gradientOrColor;
-    NSString *_appearance;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)a;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (struct CGImage *);
-- (int);
+- (int)LastTTRPromptDates;
 - (struct CGColor *);
-- (id);
+- (id);
 - (double);
 - (void);
 - (void);
+- (void);
+- (void)`;
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)unable to create observer;
 
 // Remaining properties
 @property(retain, nonatomic) TXRTexture *sdfTexture; // @synthesize sdfTexture=_texture;

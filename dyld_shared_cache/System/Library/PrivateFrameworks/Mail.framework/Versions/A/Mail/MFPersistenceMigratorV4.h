@@ -11,10 +11,10 @@
     ACAccountStore *_accountStore;
 }
 
-- (void);
+- (void);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)@;
 - (void);
 - (id);
 - (void)ü

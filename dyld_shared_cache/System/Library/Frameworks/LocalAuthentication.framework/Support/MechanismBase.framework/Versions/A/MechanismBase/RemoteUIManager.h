@@ -4,41 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol LACRemoteUIManaging><RemoteUIActivatorDelegate, OS_dispatch_queue;
+@protocol LACRemoteUIManaging><RemoteUIActivatorDelegate;
 
 @interface RemoteUIManager
 {
     id <LACRemoteUIManaging><RemoteUIActivatorDelegate> _responder;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)Layer:(id)arg1:(CDUnknownBlockType)arg2 initialize() - input and output size must be the same;
+- (void)() - Layer uninitialized;
+- (void)eriorWeightedMean() - not supported for this distribution type;
+- (void)read() - invalid cookie;
+- (void)me() - buffer empty;
+- (void)full - redundant test;
+- (void)ize;
+- (void)r sat_initialize();
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)initWithContentRect:styleMask:backing:defer: /* Error: Ran out of types for this method. */;
+- (id)allDeclarationsRemovingInvalidDeclarations:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

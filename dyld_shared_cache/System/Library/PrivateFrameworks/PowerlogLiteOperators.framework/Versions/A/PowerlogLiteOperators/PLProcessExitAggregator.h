@@ -7,10 +7,6 @@
 @interface PLProcessExitAggregator
 {
     unsigned char _exitReasonNamespace;
-    unsigned int _labelIdx;
-    unsigned int _lastTTR;
-    unsigned long long _exitReasonCode;
-    unsigned long long _jetsamPriority;
 }
 
 - (void);
@@ -23,17 +19,13 @@
 - (unsigned int);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)B;
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id);
 
 // Remaining properties
-@property unsigned long long exitReasonCode; // @synthesize exitReasonCode=_exitReasonCode;
-@property unsigned char exitReasonNamespace; // @synthesize exitReasonNamespace=_exitReasonNamespace;
-@property unsigned long long jetsamPriority; // @synthesize jetsamPriority=_jetsamPriority;
 @property unsigned int labelIdx; // @synthesize labelIdx=_labelIdx;
-@property unsigned int lastTTR; // @synthesize lastTTR=_lastTTR;
 
 @end
 

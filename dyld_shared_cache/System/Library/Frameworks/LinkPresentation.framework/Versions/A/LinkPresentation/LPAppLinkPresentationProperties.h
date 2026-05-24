@@ -4,28 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPCaptionBarPresentationProperties, LPImage, LPIndeterminateProgressSpinnerPresentationProperties, LPVideo, NSColor, NSString;
+@class LPCaptionBarPresentationProperties;
 
 @interface LPAppLinkPresentationProperties
 {
     LPCaptionBarPresentationProperties *_captionBar;
-    LPCaptionBarPresentationProperties *_mediaTopCaptionBar;
-    LPCaptionBarPresentationProperties *_mediaBottomCaptionBar;
-    NSString *_topCaption;
-    NSString *_bottomCaption;
-    NSString *_trailingTopCaption;
-    NSString *_trailingBottomCaption;
-    NSString *_mediaTopCaption;
-    NSString *_mediaBottomCaption;
-    LPImage *_image;
-    LPImage *_icon;
-    LPVideo *_video;
-    NSColor *_backgroundColor;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -42,41 +30,18 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (long long);
+- (id)1a;
+- (long long)*Z;
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)l);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(copy, nonatomic) NSString *bottomCaption; // @synthesize bottomCaption=_bottomCaption;
 @property(retain, nonatomic) LPCaptionBarPresentationProperties *captionBar; // @synthesize captionBar=_captionBar;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) LPImage *icon; // @synthesize icon=_icon;
-@property(retain, nonatomic) LPImage *image; // @synthesize image=_image;
-@property(copy, nonatomic) NSString *mediaBottomCaption; // @synthesize mediaBottomCaption=_mediaBottomCaption;
-@property(retain, nonatomic) LPCaptionBarPresentationProperties *mediaBottomCaptionBar; // @synthesize mediaBottomCaptionBar=_mediaBottomCaptionBar;
-@property(copy, nonatomic) NSString *mediaTopCaption; // @synthesize mediaTopCaption=_mediaTopCaption;
-@property(retain, nonatomic) LPCaptionBarPresentationProperties *mediaTopCaptionBar; // @synthesize mediaTopCaptionBar=_mediaTopCaptionBar;
-@property(retain, nonatomic) LPIndeterminateProgressSpinnerPresentationProperties *progressSpinner;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"LPIndeterminateProgressSpinnerPresentationProperties",?,&,N
-
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *topCaption; // @synthesize topCaption=_topCaption;
-@property(copy, nonatomic) NSString *trailingBottomCaption; // @synthesize trailingBottomCaption=_trailingBottomCaption;
-@property(copy, nonatomic) NSString *trailingTopCaption; // @synthesize trailingTopCaption=_trailingTopCaption;
-@property(retain, nonatomic) LPVideo *video; // @synthesize video=_video;
 
 @end
 

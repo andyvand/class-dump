@@ -8,20 +8,20 @@
 {
 }
 
-+ (_Bool)ngsLocationPrecisionType:(id)arg1;
++ (_Bool)setHasMapSettingsLocationPrecisionType:(id)arg1;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)_holdAudioStreamWithTimeout:(id)arg1;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void)0@ù
 × ;
-- (id)alizedIncidentSubBannersCount;
+- (id)localizedIncidentSubBannersCount;
 - (id)<l;
-- (id)verride;
+- (id)__debug_ActiveTileGroupModelVersionOverride;
 - (id)°;
 
 @end

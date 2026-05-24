@@ -9,12 +9,11 @@
 @interface CDPLocalizedStringBuilder
 {
     NSString *_key;
-    NSString *_table;
 }
 
 + (id);
 + (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

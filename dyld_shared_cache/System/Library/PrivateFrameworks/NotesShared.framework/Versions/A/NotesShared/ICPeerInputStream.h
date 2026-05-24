@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSInputStream, NSMutableData, NSString;
-@protocol ICPeerInputStreamDelegate;
+@class NSMutableData;
 
 @interface ICPeerInputStream
 {
     _Bool _isMessage;
-    NSInputStream *_inputStream;
-    id <ICPeerInputStreamDelegate> _delegate;
-    NSMutableData *_data;
-    unsigned long long _length;
-    unsigned long long _maxLength;
 }
 
 - (void);
@@ -24,7 +18,7 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)˿;
 - (void);
 - (void);
 - (_Bool);
@@ -32,24 +26,12 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void)Ü<;
 - (unsigned long long)derType == %d;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableData *data; // @synthesize data=_data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <ICPeerInputStreamDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSInputStream *inputStream; // @synthesize inputStream=_inputStream;
-@property(nonatomic) _Bool isMessage; // @synthesize isMessage=_isMessage;
-@property(nonatomic) unsigned long long length; // @synthesize length=_length;
-@property(nonatomic) unsigned long long maxLength; // @synthesize maxLength=_maxLength;
-@property(readonly) Class superclass;
 
 @end
 

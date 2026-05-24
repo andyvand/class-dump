@@ -5,5 +5,6 @@
 //
 
 @protocol CRCameraReaderDelegate
+- (void);
 @end
 

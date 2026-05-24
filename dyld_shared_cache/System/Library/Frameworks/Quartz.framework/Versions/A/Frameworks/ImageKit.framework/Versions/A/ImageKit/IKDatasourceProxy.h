@@ -9,15 +9,11 @@
 @interface IKDatasourceProxy
 {
     NSString *_representationType;
-    id _representation;
-    struct __CFDictionary *_quicklookOptions;
-    id _proxySource;
-    NSString *_uti;
 }
 
 + (_Bool);
 + (id);
-+ (id);
++ (id)#;
 + (id);
 + (id);
 - (id);
@@ -35,25 +31,14 @@
 - (void);
 - (int);
 - (void);
-- (void);
-- (id);
+- (void)A;
+- (id)5;
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) id proxySource; // @synthesize proxySource=_proxySource;
-@property struct __CFDictionary *quicklookOptions;
-@property(retain) id representation; // @synthesize representation=_representation;
 @property(retain) NSString *representationType; // @synthesize representationType=_representationType;
-@property(readonly) Class superclass;
-@property(retain) NSString *uti; // @synthesize uti=_uti;
 
 @end
 

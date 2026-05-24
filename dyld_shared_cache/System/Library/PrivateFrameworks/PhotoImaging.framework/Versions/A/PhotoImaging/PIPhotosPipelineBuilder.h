@@ -5,32 +5,26 @@
 //
 
 @class NUIdentifier;
-@protocol NUAsset;
 
 @interface PIPhotosPipelineBuilder
 {
     NUIdentifier *_pipelineIdentifier;
-    NUIdentifier *_schemaIdentifier;
-    id <NUAsset> _asset;
 }
 
 + (id);
 + (id);
-- (id);
+- (id)+;
 - (_Bool);
 - (_Bool);
 - (id);
+- (id)_inTransactionCheckIsEnabled;
 - (id);
+- (id)Library/PrivateFrameworks/PhotosIntelligence.framework/Versions/A/PhotosIntelligence;
 - (id);
-- (id);
-- (id);
-- (void)int: /* Error: Ran out of types for this method. */;
+- (void)setTargetAssetScenePrint: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) id <NUAsset> asset; // @synthesize asset=_asset;
-@property(readonly, nonatomic) NUIdentifier *identifier;
 @property(readonly, nonatomic) NUIdentifier *pipelineIdentifier; // @synthesize pipelineIdentifier=_pipelineIdentifier;
-@property(readonly, nonatomic) NUIdentifier *schemaIdentifier; // @synthesize schemaIdentifier=_schemaIdentifier;
 
 @end
 

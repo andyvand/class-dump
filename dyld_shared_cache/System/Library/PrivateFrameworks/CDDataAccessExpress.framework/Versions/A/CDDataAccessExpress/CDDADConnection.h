@@ -4,30 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSObject;
-@protocol OS_dispatch_queue, OS_xpc_object;
+@class NSObject;
+@protocol OS_xpc_object;
 
 @interface CDDADConnection
 {
     NSObject<OS_xpc_object> *_conn;
-    NSObject<OS_dispatch_queue> *_muckingWithConn;
-    NSObject<OS_dispatch_queue> *_muckingWithInFlightCollections;
-    NSMutableSet *_accountIdsWithAlreadyResetCerts;
-    NSMutableSet *_accountIdsWithAlreadyResetThrottleTimers;
-    CDUnknownBlockType _statusReportBlock;
-    NSMutableDictionary *_inFlightSearchQueries;
-    NSMutableDictionary *_inFlightFolderChanges;
-    NSMutableDictionary *_inFlightAttachmentDownloads;
-    NSMutableDictionary *_inFlightCalendarAvailabilityRequests;
-    NSMutableDictionary *_inFlightCalendarDirectorySearches;
-    NSMutableDictionary *_inFlightShareRequests;
-    NSMutableDictionary *_inFlightOofSettingsRequests;
-    _Bool _registered;
 }
 
 + (unsigned long long);
 + (id);
-+ (void);
++ (void)t:coge_lru_num_of_searches(16399):Error adding 1 elements to context /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -48,18 +35,18 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)Y5;
 - (id);
 - (void);
-- (void);
+- (void)h;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)!;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -68,8 +55,8 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)ing GradingAllowListFactory:(id)arg1:(id)arg2 RegisterBundle.;
+- (id)NSt3__120__shared_ptr_emplaceIN4siri12dialogengine15ExecuteTableSetENS_9allocatorIS3_EEEE;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -77,41 +64,41 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool)!;
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
+- (void)}};
+- (void)PLXPCClientDebug;
+- (void)UnknownDuration;
+- (id)OPTICAL_POWER_SC1_17;
+- (void)or adding 5 elements to context;
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
 - (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 

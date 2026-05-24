@@ -5,5 +5,6 @@
 //
 
 @protocol _UXSettingsKeyPathObserver
+- (void)yxG;
 @end
 

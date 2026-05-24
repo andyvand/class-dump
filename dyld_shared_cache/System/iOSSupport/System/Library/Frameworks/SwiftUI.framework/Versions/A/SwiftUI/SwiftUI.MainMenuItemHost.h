@@ -7,15 +7,6 @@
 @interface SwiftUI.MainMenuItemHost
 {
     id viewGraph;
-    id valuesNeedingUpdate;
-    id renderingPhase;
-    id currentTimestamp;
-    id externalUpdateCount;
-    id mainMenuItem;
-    id environment;
-    id focusedValues;
-    id focusStore;
-    id delegate;
 }
 
 @end

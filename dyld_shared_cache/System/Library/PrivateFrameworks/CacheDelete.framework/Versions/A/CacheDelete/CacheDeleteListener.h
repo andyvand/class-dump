@@ -4,51 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSString, NSXPCListener, Protocol;
-
 @interface CacheDeleteListener
 {
     _Bool _isResumed;
-    id _xObj;
-    NSMutableSet *_requiredEntitlements;
-    Protocol *_protocol;
-    NSXPCListener *_listener;
-    NSString *_serviceName;
 }
 
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)`;
 - (id);
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (id);
+- (void)h;
+- (id) ;
 - (void);
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (void)nfo">28;
-- (void)Type:(id)arg1 replyBlock: /* Error: Ran out of types for this method. */;
+- (void)clientUnifiedPurgeableSpace:(id)arg1 queryType:replyBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool isResumed; // @synthesize isResumed=_isResumed;
-@property(retain, nonatomic) NSXPCListener *listener; // @synthesize listener=_listener;
-@property(retain, nonatomic) Protocol *protocol; // @synthesize protocol=_protocol;
-@property(retain, nonatomic) NSMutableSet *requiredEntitlements; // @synthesize requiredEntitlements=_requiredEntitlements;
-@property(retain, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id xObj; // @synthesize xObj=_xObj;
 
 @end
 

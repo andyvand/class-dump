@@ -7,7 +7,6 @@
 @interface NewsUI2.FeedPuzzleProgressCommandHandler
 {
     id puzzleHistory;
-    id commandCenter;
 }
 
 - (id);

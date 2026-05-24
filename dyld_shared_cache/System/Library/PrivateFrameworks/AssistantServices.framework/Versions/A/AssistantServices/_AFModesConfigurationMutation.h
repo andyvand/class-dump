@@ -4,48 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFModesConfiguration, NSString;
+@class AFModesConfiguration;
 
 @interface _AFModesConfigurationMutation
 {
     AFModesConfiguration *_base;
-    _Bool _isEyesFree;
-    _Bool _isUIFree;
-    _Bool _isForCarDND;
-    _Bool _isInAmbient;
-    _Bool _isMapsNavigationActive;
-    _Bool _isVoiceTriggerRequest;
-    _Bool _isConnectedToCarPlay;
-    _Bool _isRequestMadeWithPhysicalDeviceInteraction;
-    _Bool _isAudioAccessoryButtonActivation;
-    _Bool _isSiriAutoPrompt;
-    _Bool _isFlexibleFollowup;
-    _Bool _userTypedInSiri;
-    NSString *_modeOverrideValue;
-    _Bool _isDeviceUnlocked;
-    _Bool _isDeviceScreenON;
-    _Bool _isInitialBringUp;
-    long long _isUserEngagedWithDevice;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasIsEyesFree:1;
-        unsigned int hasIsUIFree:1;
-        unsigned int hasIsForCarDND:1;
-        unsigned int hasIsInAmbient:1;
-        unsigned int hasIsMapsNavigationActive:1;
-        unsigned int hasIsVoiceTriggerRequest:1;
-        unsigned int hasIsConnectedToCarPlay:1;
-        unsigned int hasIsRequestMadeWithPhysicalDeviceInteraction:1;
-        unsigned int hasIsAudioAccessoryButtonActivation:1;
-        unsigned int hasIsSiriAutoPrompt:1;
-        unsigned int hasIsFlexibleFollowup:1;
-        unsigned int hasUserTypedInSiri:1;
-        unsigned int hasModeOverrideValue:1;
-        unsigned int hasIsDeviceUnlocked:1;
-        unsigned int hasIsDeviceScreenON:1;
-        unsigned int hasIsInitialBringUp:1;
-        unsigned int hasIsUserEngagedWithDevice:1;
-    } _mutationFlags;
 }
 
 - (void);
@@ -56,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -71,29 +34,24 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)T
+%@y_=;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (_Bool);
-- (id)peechPronunciationRequestWithOptions:(id)arg1 pronunciationContext: /* Error: Ran out of types for this method. */;
-- (void)versDidChangeActiveGestureContexts:added:removed:reason: /* Error: Ran out of types for this method. */;
+- (id)startSpeechPronunciationRequestWithOptions:(id)arg1 pronunciationContext: /* Error: Ran out of types for this method. */;
+- (void)_notifyObserversDidChangeActiveGestureContexts:added:removed:reason: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

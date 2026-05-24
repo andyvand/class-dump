@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface ICFPContentInfo
 {
     long long _vodkaType;
-    unsigned long long _accountID;
 }
 
 + (id);
@@ -18,8 +17,6 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long accountID; // @synthesize accountID=_accountID;
-@property(readonly, nonatomic) union FPContentInfo_ fpContentInfo;
 @property(readonly, nonatomic) long long vodkaType; // @synthesize vodkaType=_vodkaType;
 
 @end

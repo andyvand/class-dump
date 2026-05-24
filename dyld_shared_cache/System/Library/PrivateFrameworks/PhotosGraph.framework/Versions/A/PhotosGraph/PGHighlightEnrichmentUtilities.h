@@ -9,21 +9,21 @@
 }
 
 + (id);
-+ (id);
++ (id)LibCall_ACMGetEnvironmentVariable;
 + (unsigned short);
 + (double);
++ (id)`;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)�;
 + (id);
 + (_Bool);
 + (_Bool);
 + (id);
-+ (id);
++ (id);
 
 @end
 

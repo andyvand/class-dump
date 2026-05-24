@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPSKernelDAGObject;
 @protocol MPSNDArrayAllocator;
 
 @interface MPSNDArrayMultiaryBase
 {
     unsigned long long _srcCount;
-    void *_encodeData;
-    CDUnknownFunctionPointerType _encodeGradient;
-    id <MPSNDArrayAllocator> _destinationArrayAllocator;
-    MPSKernelDAGObject *_defaultKernelDAG;
-    MPSKernelDAGObject *_defaultGradientDAG;
 }
 
 + (_Bool);
 + (_Bool);
 + (unsigned long long);
 - (id);
-- (id);
+- (id)P;
 - (id);
 - (_Bool);
 - (id);
@@ -34,12 +28,12 @@
 - (unsigned long long);
 - (unsigned long long);
 - (CDStruct_129fbded);
-- (void);
+- (void);
 - (unsigned long long);
 - (unsigned long long);
-- (void);
+- (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)A;
 - (id);
 - (id);
 - (CDStruct_129fbded);
@@ -51,7 +45,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties

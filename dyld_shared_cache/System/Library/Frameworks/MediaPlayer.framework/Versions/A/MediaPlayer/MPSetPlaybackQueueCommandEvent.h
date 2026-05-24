@@ -6,12 +6,11 @@
 
 #import <MediaPlayer/MPRemoteCommandEvent.h>
 
-@class MPRemotePlaybackQueue, NSString;
+@class MPRemotePlaybackQueue;
 
 @interface MPSetPlaybackQueueCommandEvent : MPRemoteCommandEvent
 {
     MPRemotePlaybackQueue *_playbackQueue;
-    NSString *_sessionIdentifierOverride;
 }
 
 - (id);
@@ -19,11 +18,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)_relationshipKinds;
 
 // Remaining properties
 @property(readonly, nonatomic) MPRemotePlaybackQueue *playbackQueue; // @synthesize playbackQueue=_playbackQueue;
-@property(readonly, nonatomic) NSString *sessionIdentifierOverride; // @synthesize sessionIdentifierOverride=_sessionIdentifierOverride;
 
 @end
 

@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface _NSJSONRoundTrippingNumber
 {
     NSNumber *_number;
-    NSString *_representation;
 }
 
 + (_Bool);
@@ -22,11 +21,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)@;
 - (_Bool);
 - (id);
 - (_Bool)4× Û;

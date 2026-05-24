@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface PHUserFeedback
 {
     NSString *_uuid;
-    unsigned long long _type;
-    unsigned long long _feature;
-    unsigned long long _creationType;
-    NSString *_context;
-    NSDate *_lastModifiedDate;
 }
 
 + (unsigned long long);
@@ -37,25 +32,20 @@
 - (id);
 - (id);
 - (id);
+- (id)egateQueue;
 - (id);
-- (id);
+- (unsigned long long)works/ProtocolBuffer.framework/Versions/A/ProtocolBuffer;
 - (unsigned long long);
-- (unsigned long long);
-- (id);
+- (id)generateFakeEncodedPasswordForLowFrequencyBucket;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void)eDeleteClient;
+- (void)_cacheDeleteClient;
 - (unsigned long long)d;
 
 // Remaining properties
-@property(readonly, copy) NSString *context; // @synthesize context=_context;
-@property(readonly) unsigned long long creationType; // @synthesize creationType=_creationType;
-@property(readonly) unsigned long long feature; // @synthesize feature=_feature;
-@property(readonly, copy) NSDate *lastModifiedDate; // @synthesize lastModifiedDate=_lastModifiedDate;
-@property(readonly) unsigned long long type; // @synthesize type=_type;
 @property(readonly) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end

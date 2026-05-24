@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)<;
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool enableSubstreams; // @synthesize enableSubstreams=_enableSubstreams;

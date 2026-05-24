@@ -15,7 +15,7 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -24,13 +24,9 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)selectedOfferActiveDuration;
 
 // Remaining properties
-@property(nonatomic) _Bool imageForkedFromMeCard;
-@property(nonatomic) _Bool nameForkedFromMeCard;
-@property(nonatomic) unsigned long long nameFormat;
-@property(nonatomic) unsigned long long sharingAudience;
 @property(nonatomic) _Bool sharingEnabled;
 
 @end

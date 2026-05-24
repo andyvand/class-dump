@@ -9,26 +9,24 @@
 @interface TUCallTranslationRequest
 {
     NSUUID *_UUID;
-    NSUUID *_callUUID;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (_Bool);
-- (id);
-- (id);
+- (id);
+- (id)erGeneric<type-parameter-0-0, type-parameter-0-1, type-parameter-0-2> WTF::ObjectIdentifierGeneric<IPC::SyncRequestIDType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>::generate() [T = IPC::SyncRequestIDType, ThreadSafety = WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, RawValue = unsigned long long] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)q;
+- (id);
 - (id);
-- (id);
 - (void);
-- (void)tions:service:preferredFromID:listenerID:queue:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)requiredIDStatusForDestinations:service:preferredFromID:listenerID:queue:completionBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;
 @property(retain, nonatomic) NSUUID *callUUID; // @synthesize callUUID=_callUUID;
 
 @end

@@ -7,15 +7,6 @@
 @interface WiFiAnalytics.WANWActivityTransform
 {
     id timeOffset;
-    id measurement;
-    id issues;
-    id singleFragment;
-    id performPerPeerCalculations;
-    id allowSingleFragmentDeltaCalculations;
-    id shorthandConstantStats;
-    id includeStdDev;
-    id early;
-    id later;
 }
 
 - (id);
@@ -24,9 +15,10 @@
 - (id);
 - (id);
 - (id);
+- (id)1
+;
 - (id);
-- (id);
-- (id);
+- (id)ickLookNonBaseSystem.framework/Versions/A/QuickLookNonBaseSystem;
 - (void);
 
 @end

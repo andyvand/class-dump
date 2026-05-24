@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSString, NSXPCConnection, NSXPCListener;
-@protocol FAFamilyNotificationDelegate;
+@class NSString, NSXPCConnection;
 
 @interface FAFamilyNotifier
 {
     NSXPCConnection *_conn;
-    NSLock *_connLock;
-    NSXPCListener *_listener;
-    NSString *_identifier;
-    NSString *_serviceName;
-    id <FAFamilyNotificationDelegate> _delegate;
 }
 
 - (id);
@@ -29,7 +23,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)N;
 - (void);
 - (void);
 - (void);
@@ -39,16 +33,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <FAFamilyNotificationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHomeActivityComingHomeAggregatorState, HMDHomeActivityHomeAwayAggregatorState, HMDHomeActivityVacationAggregatorState;
-@protocol HMDHomeActivityStateAggregatedComingHomeStateProviding, HMDHomeActivityStateAggregatedHomeAwayStateProviding, HMDHomeActivityStateAggregatedVacationStateProviding;
+@protocol HMDHomeActivityStateAggregatedHomeAwayStateProviding;
 
 @interface HMDDefaultHomeActivityStateAggregatorStateDataSource
 {
     id <HMDHomeActivityStateAggregatedHomeAwayStateProviding> homeAwayProvider;
-    id <HMDHomeActivityStateAggregatedVacationStateProviding> vacationProvider;
-    id <HMDHomeActivityStateAggregatedComingHomeStateProviding> comingHomeProvider;
 }
 
 - (id);
+- (id)G;
 - (id);
-- (id);
-- (id);
+- (id)#;
 - (id);
 - (id);
 - (id);
@@ -25,12 +22,7 @@
 - (void)¨/¥ÿ;
 
 // Remaining properties
-@property(nonatomic, readonly) HMDHomeActivityComingHomeAggregatorState *comingHomeAggregatorState;
-@property(nonatomic, readonly) id <HMDHomeActivityStateAggregatedComingHomeStateProviding> comingHomeProvider; // @synthesize comingHomeProvider;
-@property(nonatomic, readonly) HMDHomeActivityHomeAwayAggregatorState *homeAwayAggregatorState;
 @property(nonatomic, readonly) id <HMDHomeActivityStateAggregatedHomeAwayStateProviding> homeAwayProvider; // @synthesize homeAwayProvider;
-@property(nonatomic, readonly) HMDHomeActivityVacationAggregatorState *vacationAggregatorState;
-@property(nonatomic, readonly) id <HMDHomeActivityStateAggregatedVacationStateProviding> vacationProvider; // @synthesize vacationProvider;
 
 @end
 

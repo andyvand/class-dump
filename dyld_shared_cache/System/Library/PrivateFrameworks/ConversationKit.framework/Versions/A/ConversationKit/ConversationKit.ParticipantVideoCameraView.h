@@ -7,11 +7,10 @@
 @interface ConversationKit.ParticipantVideoCameraView
 {
     id _videoLayer;
-    id style;
 }
 
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)escriptor",R,N,V_timeNumericAxisDescriptor;
 - (id);
 - (void)1Â0@ù
 × ;

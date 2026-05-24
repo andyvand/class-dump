@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMIndexSearch, NSDate;
+@class NSDate;
 
 @interface BMPublisherOptions
 {
     _Bool _reversed;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    unsigned long long _maxEvents;
-    unsigned long long _lastN;
-    BMIndexSearch *_indexSearch;
 }
 
 + (id);
@@ -23,26 +18,21 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)8 ;
+- (id)VCWRSFrame_GetNumberOfReceivedParityPackets;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
-- (void);
+- (id);
+- (void)|;
 - (void)0y½$Ú5_pG;
 - (void)WX;
 - (void)N;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(retain, nonatomic) BMIndexSearch *indexSearch; // @synthesize indexSearch=_indexSearch;
-@property(nonatomic) unsigned long long lastN; // @synthesize lastN=_lastN;
-@property(nonatomic) unsigned long long maxEvents; // @synthesize maxEvents=_maxEvents;
-@property(nonatomic) _Bool reversed; // @synthesize reversed=_reversed;
 @property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end

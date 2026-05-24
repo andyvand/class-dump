@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (id);
 - (void);
-- (id);
+- (id)initWithBase64EncodedString:options: /* Error: Ran out of types for this method. */;
 
 @end
 

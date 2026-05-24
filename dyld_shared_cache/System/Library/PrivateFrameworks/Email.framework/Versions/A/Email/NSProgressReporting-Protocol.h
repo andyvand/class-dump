@@ -7,6 +7,7 @@
 @class NSProgress;
 
 @protocol NSProgressReporting
+- (NSProgress *)lic}@;
 
 // Remaining properties
 @property(readonly) NSProgress *progress;

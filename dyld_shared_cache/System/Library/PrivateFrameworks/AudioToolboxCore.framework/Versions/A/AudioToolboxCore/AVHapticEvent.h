@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVHapticPlayerParameterCurve;
-
 @interface AVHapticEvent
 {
     double _time;
-    double _duration;
-    unsigned long long _eventCategory;
-    union {
-        unsigned long long _eventType;
-        unsigned long long _paramType;
-    } _u;
-    struct AVHapticPlayerFixedParameter _fixedParams[8];
-    AVHapticPlayerParameterCurve *_paramCurve;
-    long long _fixedParamCount;
-    float _value;
 }
 
 + (id);
@@ -26,14 +14,14 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (_Bool);
++ (id);
++ (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (struct AVHapticPlayerFixedParameter *);
+- (struct AVHapticPlayerFixedParameter *)(;
 - (long long);
 - (unsigned long long);
 - (id);
@@ -41,20 +29,12 @@
 - (unsigned long long);
 - (void);
 - (float);
-- (double);
+- (double)ugu-Light;
 - (unsigned long long);
 - (void)l;
 
 // Remaining properties
-@property(readonly) double duration; // @synthesize duration=_duration;
-@property(readonly) unsigned long long eventCategory; // @synthesize eventCategory=_eventCategory;
-@property(readonly) unsigned long long eventType;
-@property(readonly) long long fixedParamCount; // @synthesize fixedParamCount=_fixedParamCount;
-@property(readonly) struct AVHapticPlayerFixedParameter *fixedParams;
-@property(readonly) unsigned long long paramType;
-@property(readonly) AVHapticPlayerParameterCurve *parameterCurve;
 @property(readonly) double time; // @synthesize time=_time;
-@property(readonly) float value; // @synthesize value=_value;
 
 @end
 

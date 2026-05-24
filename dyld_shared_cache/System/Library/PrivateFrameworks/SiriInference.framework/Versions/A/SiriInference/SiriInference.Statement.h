@@ -7,10 +7,6 @@
 @interface SiriInference.Statement
 {
     id handle;
-    id connection;
-    id $__lazy_storage_$_columnCount;
-    id $__lazy_storage_$_columnNames;
-    id $__lazy_storage_$_row;
 }
 
 @end

@@ -5,14 +5,12 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface VNControlledCapacityTasksQueue
 {
     NSObject<OS_dispatch_queue> *_queue;
-    long long _maximumTasksCount;
-    NSObject<OS_dispatch_semaphore> *_semaphore;
 }
 
 + (long long);
@@ -26,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (id);

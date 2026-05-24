@@ -4,40 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableArray, NSView;
+@class NSMutableArray, NSView;
 
 __attribute__((visibility("hidden")))
 @interface _MKLineHeaderModel
 {
     NSMutableArray *_tokens;
-    _Bool _shouldUseEmptyPlaceholder;
-    NSView *_ownerView;
-    NSDictionary *_fontAttribute;
-    CDUnknownBlockType _colorProvider;
 }
 
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (_Bool)logEnergyReport: /* Error: Ran out of types for this method. */;
+- (void)_bundleID;
+- (void)en = %d;
+- (void)er;
 - (id);
 - (id);
 - (CDUnknownBlockType);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)VNDetectFacePoseRequestPrivateRevisionANSTModel;
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)htColor: /* Error: Ran out of types for this method. */;
+- (void)setHighlightColor: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType colorProvider; // @synthesize colorProvider=_colorProvider;
-@property(copy, nonatomic) NSDictionary *fontAttribute; // @synthesize fontAttribute=_fontAttribute;
 @property(nonatomic) __weak NSView *ownerView; // @synthesize ownerView=_ownerView;
-@property(nonatomic) _Bool shouldUseEmptyPlaceholder; // @synthesize shouldUseEmptyPlaceholder=_shouldUseEmptyPlaceholder;
 
 @end
 

@@ -7,9 +7,6 @@
 @interface AVTStickerGeneratorPosterOptions
 {
     _Bool _growsForExtraTallContent;
-    double _minimumHorizontalMargin;
-    double _scaleFactor;
-    struct CGSize _size;
 }
 
 - (void);
@@ -19,13 +16,10 @@
 - (struct CGSize);
 - (void);
 - (double);
-- (double);
+- (double)initWithCapacity: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool growsForExtraTallContent; // @synthesize growsForExtraTallContent=_growsForExtraTallContent;
-@property(nonatomic) double minimumHorizontalMargin; // @synthesize minimumHorizontalMargin=_minimumHorizontalMargin;
-@property(nonatomic) double scaleFactor; // @synthesize scaleFactor=_scaleFactor;
 @property(nonatomic) struct CGSize size; // @synthesize size=_size;
 
 @end

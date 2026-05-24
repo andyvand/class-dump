@@ -9,10 +9,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
++ (id)tocol=};
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)l %p>{ identity = %@, certificate array = %@, persistence = %d};
++ (id)g policy from %d to %d, cookie file:%@ /* Error: Ran out of types for this method. */;
 + (_Bool);
 
 @end

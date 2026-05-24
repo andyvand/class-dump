@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSBundle, NSDate, NSIndexSet, NSMutableDictionary, NSObject, NSString, NSUUID, NSXPCConnection, NSXPCListener, NSXPCListenerEndpoint, OS_xpc_remote_connection, _NSUndoManagerMainExportedObject;
+@class NSArray, NSBundle, NSIndexSet, NSMutableDictionary, NSObject, NSString, NSUUID, NSXPCConnection, NSXPCListener, NSXPCListenerEndpoint, OS_xpc_remote_connection, _NSUndoManagerMainExportedObject;
 
 #pragma mark Function Pointers and Blocks
 
@@ -42,9 +42,9 @@ struct OpaqueAEDataStorageType;
 struct _NSOrderedChange;
 
 struct _NSProgressFraction {
-    long long completed;
-    long long total;
-    _Bool overflowed;
+    long long _field1;
+    long long _field2;
+    _Bool _field3;
 };
 
 struct _NSProgressFractionTuple {
@@ -94,12 +94,6 @@ struct _NSRunArrayItem {
     id _field2;
 };
 
-struct _NSSimpleAttributeDictionaryElement {
-    unsigned long long hash;
-    id key;
-    id value;
-};
-
 struct _TidyDoc {
     int _field1;
 };
@@ -108,22 +102,9 @@ struct _TidyNode {
     int _field1;
 };
 
-struct __CFDictionary;
-
-struct _opaque_pthread_cond_t {
-    long long __sig;
-    char __opaque[40];
-};
-
 struct _opaque_pthread_mutex_t {
     long long __sig;
     char __opaque[56];
-};
-
-struct _opaque_pthread_t {
-    long long _field1;
-    struct __darwin_pthread_handler_rec *_field2;
-    char _field3[8176];
 };
 
 struct _xmlAttr;
@@ -341,40 +322,7 @@ struct _xmlParserInputBuffer;
 
 struct _xmlParserNodeInfo;
 
-struct _xmlSAXHandler {
-    CDUnknownFunctionPointerType _field1;
-    CDUnknownFunctionPointerType _field2;
-    CDUnknownFunctionPointerType _field3;
-    CDUnknownFunctionPointerType _field4;
-    CDUnknownFunctionPointerType _field5;
-    CDUnknownFunctionPointerType _field6;
-    CDUnknownFunctionPointerType _field7;
-    CDUnknownFunctionPointerType _field8;
-    CDUnknownFunctionPointerType _field9;
-    CDUnknownFunctionPointerType _field10;
-    CDUnknownFunctionPointerType _field11;
-    CDUnknownFunctionPointerType _field12;
-    CDUnknownFunctionPointerType _field13;
-    CDUnknownFunctionPointerType _field14;
-    CDUnknownFunctionPointerType _field15;
-    CDUnknownFunctionPointerType _field16;
-    CDUnknownFunctionPointerType _field17;
-    CDUnknownFunctionPointerType _field18;
-    CDUnknownFunctionPointerType _field19;
-    CDUnknownFunctionPointerType _field20;
-    CDUnknownFunctionPointerType _field21;
-    CDUnknownFunctionPointerType _field22;
-    CDUnknownFunctionPointerType _field23;
-    CDUnknownFunctionPointerType _field24;
-    CDUnknownFunctionPointerType _field25;
-    CDUnknownFunctionPointerType _field26;
-    CDUnknownFunctionPointerType _field27;
-    unsigned int _field28;
-    void *_field29;
-    CDUnknownFunctionPointerType _field30;
-    CDUnknownFunctionPointerType _field31;
-    CDUnknownFunctionPointerType _field32;
-};
+struct _xmlSAXHandler;
 
 struct _xmlTextReader {
     int _field1;
@@ -489,43 +437,32 @@ struct os_unfair_lock_s {
     unsigned int _os_unfair_lock_opaque;
 };
 
-struct os_unfair_recursive_lock_s {
-    struct os_unfair_lock_s _field1;
-    unsigned int _field2;
-};
-
 struct sockaddr;
 
 struct stat {
-    int st_dev;
-    unsigned short st_mode;
-    unsigned short st_nlink;
-    unsigned long long st_ino;
-    unsigned int st_uid;
-    unsigned int st_gid;
-    int st_rdev;
-    struct timespec st_atimespec;
-    struct timespec st_mtimespec;
-    struct timespec st_ctimespec;
-    struct timespec st_birthtimespec;
-    long long st_size;
-    long long st_blocks;
-    int st_blksize;
-    unsigned int st_flags;
-    unsigned int st_gen;
-    int st_lspare;
-    long long st_qspare[2];
+    int _field1;
+    unsigned short _field2;
+    unsigned short _field3;
+    unsigned long long _field4;
+    unsigned int _field5;
+    unsigned int _field6;
+    int _field7;
+    struct timespec _field8;
+    struct timespec _field9;
+    struct timespec _field10;
+    struct timespec _field11;
+    long long _field12;
+    long long _field13;
+    int _field14;
+    unsigned int _field15;
+    unsigned int _field16;
+    int _field17;
+    long long _field18[2];
 };
 
 struct timespec {
-    long long tv_sec;
-    long long tv_nsec;
-};
-
-struct vertex {
-    unsigned long long _field1;
-    unsigned long long _field2;
-    unsigned long long *_field3;
+    long long _field1;
+    long long _field2;
 };
 
 #pragma mark Typedef'd Structures
@@ -635,23 +572,23 @@ typedef struct {
 } CDStruct_70511ce9;
 
 typedef struct {
-    unsigned long long offset;
-    int type;
-} CDStruct_1b1be194;
+    unsigned long long _field1;
+    int _field2;
+} CDStruct_b54abf8e;
 
 typedef struct {
-    unsigned char _unused[5];
-    unsigned char _sortVersion;
-    unsigned char _offsetIntSize;
-    unsigned char _objectRefSize;
-    unsigned long long _numObjects;
-    unsigned long long _topObject;
-    unsigned long long _offsetTableOffset;
-} CDStruct_f10e9336;
+    unsigned char _field1[5];
+    unsigned char _field2;
+    unsigned char _field3;
+    unsigned char _field4;
+    unsigned long long _field5;
+    unsigned long long _field6;
+    unsigned long long _field7;
+} CDStruct_03f25805;
 
 typedef struct {
-    unsigned int val[8];
-} CDStruct_4c969caf;
+    unsigned int _field1[8];
+} CDStruct_6ad76789;
 
 typedef struct {
     unsigned int :8;
@@ -698,21 +635,21 @@ typedef struct {
 typedef struct CDStruct_183601bc;
 
 typedef struct {
-    unsigned int creatorCode;
-    unsigned int fileTypeCode;
-    NSDate *creationDate;
+    unsigned int _field1;
+    unsigned int _field2;
+    id _field3;
     struct _fields {
-        unsigned int creatorCode:1;
-        unsigned int fileTypeCode:1;
-        unsigned int extensionHidden:1;
-        unsigned int creationDate:1;
-        unsigned int fileBusy:1;
-        unsigned int reserved:27;
-    } validFields;
-    _Bool extensionHidden;
-    _Bool fileBusy;
-    char _padding[2];
-} CDStruct_c5923d77;
+        unsigned int :1;
+        unsigned int :1;
+        unsigned int :1;
+        unsigned int :1;
+        unsigned int :1;
+        unsigned int :27;
+    } _field4;
+    _Bool _field5;
+    _Bool _field6;
+    char _field7[2];
+} CDStruct_0f5aa912;
 
 typedef struct {
     id objects;
@@ -729,7 +666,6 @@ typedef struct {
 
 #pragma mark Typedef'd Unions
 
-// Ambiguous groups
 typedef union {
     NSObject *xpc;
     OS_xpc_remote_connection *remote;

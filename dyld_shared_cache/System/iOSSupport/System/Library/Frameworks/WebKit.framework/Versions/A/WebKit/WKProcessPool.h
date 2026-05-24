@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, WKGeolocationProviderIOS, _WKProcessPoolConfiguration;
-@protocol _WKAutomationDelegate, _WKDownloadDelegate, _WKGeolocationCoreLocationProvider;
+@class _WKProcessPoolConfiguration;
 
 @interface WKProcessPool
 {
     struct AlignedStorage<WebKit::WebProcessPool, 8UL> _processPool;
-    struct WeakObjCPtr<id<_WKAutomationDelegate>> _automationDelegate;
-    struct WeakObjCPtr<id<_WKDownloadDelegate>> _downloadDelegate;
-    struct RetainPtr<_WKAutomationSession> _automationSession;
-    struct RetainPtr<WKGeolocationProviderIOS> _geolocationProvider;
-    struct RetainPtr<id<_WKGeolocationCoreLocationProvider>> _coreLocationProvider;
 }
 
 - (void);
@@ -29,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -47,7 +41,7 @@
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (id);
@@ -70,39 +64,25 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (struct Object *);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id)ThreadAccessTraits<uint64_t>, unsigned long long>, WTF:(id)arg1:MarkableTraits<WTF::ObjectIdentifierGeneric<WebKit::WebPageProxyIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>="m_value"{ObjectIdentifierGeneric<WebKit::WebPageProxyIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>="m_identifier"Q}}"parentFrameID"{Markable<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::MarkableTraits<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>="m_value"{ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>="m_identifier"Q}}"documentID"{Markable<WebCore::ProcessQualified<WTF::UUID>, WTF::MarkableTraits<WebCore::ProcessQualified<UUID>>>="m_value"{ProcessQualified<WTF::UUID>="m_object"{UUID="m_data"T}"m_processIdentifier"{ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>="m_identifier"Q}}}"certificateInfo"{CertificateInfo="m_trust"{RetainPtr<__SecTrust *>="m_ptr"^{__SecTrust}}}"processID"i"isFocused"B"errorOccurred"B"frameMetrics"{WebFrameMetrics="isScrollable"C"contentSize"{IntSize="m_width"i"m_height"i}"visibleContentSize"{IntSize="m_width"i"m_height"i}"visibleContentSizeExcludingScrollbars"{IntSize="m_width"i"m_height"i}}})"__engaged_"B} /* Error: Ran out of types for this method. */;
 - (void)= WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (id)Target = API::UInt64, Source = API::Object] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) struct Object *_apiObject;
-@property(nonatomic, setter=_setAutomationDelegate:) __weak id <_WKAutomationDelegate> _automationDelegate;
 @property(readonly, nonatomic) _WKProcessPoolConfiguration *_configuration;
-@property(nonatomic, getter=_isCookieStoragePartitioningEnabled, setter=_setCookieStoragePartitioningEnabled:) _Bool _cookieStoragePartitioningEnabled;
-@property(nonatomic, setter=_setCoreLocationProvider:) id <_WKGeolocationCoreLocationProvider> _coreLocationProvider;
-@property(nonatomic, setter=_setDownloadDelegate:) __weak id <_WKDownloadDelegate> _downloadDelegate;
-@property(readonly) WKGeolocationProviderIOS *_geolocationProvider;
-@property(copy, nonatomic, setter=_setJavaScriptConfigurationDirectory:) NSURL *_javaScriptConfigurationDirectory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

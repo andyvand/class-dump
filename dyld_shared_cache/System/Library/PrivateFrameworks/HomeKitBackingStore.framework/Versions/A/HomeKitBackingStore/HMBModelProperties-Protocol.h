@@ -5,5 +5,6 @@
 //
 
 @protocol HMBModelProperties
+- (_Bool);
 @end
 

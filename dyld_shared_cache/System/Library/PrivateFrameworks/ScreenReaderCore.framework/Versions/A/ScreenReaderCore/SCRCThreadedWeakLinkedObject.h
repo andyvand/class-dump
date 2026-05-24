@@ -9,8 +9,6 @@
 @interface SCRCThreadedWeakLinkedObject
 {
     NSLock *_releaseLock;
-    int _referenceCount;
-    _Bool _calledDealloc;
 }
 
 - (id);

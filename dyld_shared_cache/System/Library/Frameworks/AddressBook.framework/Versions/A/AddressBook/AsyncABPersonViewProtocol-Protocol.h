@@ -5,5 +5,8 @@
 //
 
 @protocol AsyncABPersonViewProtocol
+- (void);
+- (void)kIza;
+- (void)i$;
 @end
 

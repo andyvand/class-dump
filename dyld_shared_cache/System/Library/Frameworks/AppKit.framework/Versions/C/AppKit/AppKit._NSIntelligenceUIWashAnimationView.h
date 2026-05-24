@@ -9,8 +9,6 @@
 @interface AppKit._NSIntelligenceUIWashAnimationView : NSView
 {
     id animationCount;
-    id animationCompletionHandler;
-    id gradientView;
 }
 
 - (void);
@@ -18,7 +16,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (id)ringTransfer;
+- (id)_sourceWindowForPreviousSharingTransfer;
 - (void)Jl;
 
 // Remaining properties

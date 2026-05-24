@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSToolbarItem;
+
 @protocol NSToolbarDelegate
+
+@optional
+- (void);
+- (NSToolbarItem *)p;
 @end
 

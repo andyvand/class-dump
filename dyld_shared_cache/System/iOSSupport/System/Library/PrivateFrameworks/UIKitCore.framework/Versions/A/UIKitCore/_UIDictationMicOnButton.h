@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
     CAShapeLayer *_shapeLayer;
 }
 
-- (void);
+- (void);
 - (id);
+- (void)D;
 - (void);
-- (void);
-- (void)Presentation: /* Error: Ran out of types for this method. */;
+- (void)interactionControllerForPresentation: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

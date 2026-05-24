@@ -15,7 +15,7 @@
 - (void);
 - (void);
 - (id);
-- (void)LandscapeCropScore: /* Error: Ran out of types for this method. */;
+- (void)setLandscapeCropScore: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) id <MTLTexture> sourceTexture; // @synthesize sourceTexture=_sourceTexture;

@@ -5,5 +5,13 @@
 //
 
 @protocol AVConferenceDelegate
+- (void)`B;
+- (void);
+- (void);
+
+@optional
+- (void);
+- (void);
+- (void);
 @end
 

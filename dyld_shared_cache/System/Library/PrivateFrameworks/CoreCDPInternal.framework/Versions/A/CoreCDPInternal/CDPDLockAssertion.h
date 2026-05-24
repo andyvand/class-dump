@@ -8,8 +8,8 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id)ReadingListSidebarViewControllerBase;
++ (id),>;
 - (void);
 
 @end

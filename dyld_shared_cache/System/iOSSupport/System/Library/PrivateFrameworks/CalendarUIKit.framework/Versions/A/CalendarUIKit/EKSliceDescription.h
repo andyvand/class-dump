@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKEvent, EKSeriesDetails;
+@class EKEvent;
 
 @interface EKSliceDescription
 {
     EKEvent *_originalEventToSliceOn;
-    EKSeriesDetails *_originalMainSeriesDetails;
 }
 
-+ (id);
++ (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)TimeZone;
+- (id)'$;
+- (id)setState:(struct _NSZone *)arg1 onLayer:animated:transitionSpeed:completion: /* Error: Ran out of types for this method. */;
+- (void)systemTimeZone;
 
 // Remaining properties
 @property(retain) EKEvent *originalEventToSliceOn;
-@property(retain) EKSeriesDetails *originalMainSeriesDetails; // @synthesize originalMainSeriesDetails=_originalMainSeriesDetails;
 
 @end
 

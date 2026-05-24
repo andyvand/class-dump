@@ -4,38 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKUserInformation, NSArray, NSData, NSString;
+@class NSArray;
 
 @interface AKAuthorizationCredential
 {
     _Bool _isLikelyRealUser;
-    NSString *_userIdentifier;
-    NSArray *_authorizedScopes;
-    NSData *_identityToken;
-    NSData *_authorizationCode;
-    NSString *_state;
-    AKUserInformation *_userInformation;
-    NSString *_transactionID;
 }
 
 + (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSData *authorizationCode; // @synthesize authorizationCode=_authorizationCode;
 @property(copy, nonatomic) NSArray *authorizedScopes; // @synthesize authorizedScopes=_authorizedScopes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSData *identityToken; // @synthesize identityToken=_identityToken;
-@property(nonatomic) _Bool isLikelyRealUser; // @synthesize isLikelyRealUser=_isLikelyRealUser;
-@property(copy, nonatomic) NSString *state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *transactionID; // @synthesize transactionID=_transactionID;
-@property(readonly, copy, nonatomic) NSString *userIdentifier; // @synthesize userIdentifier=_userIdentifier;
-@property(retain, nonatomic) AKUserInformation *userInformation; // @synthesize userInformation=_userInformation;
 
 @end
 

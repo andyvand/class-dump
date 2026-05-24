@@ -7,9 +7,9 @@
 @class NSAppearance;
 
 @protocol NSAppearanceCustomization
+- (void)objectsForEntity:(NSAppearance *)arg1 withPredicate:sortDescriptors:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) NSAppearance *appearance;
-@property(readonly) NSAppearance *effectiveAppearance;
 @end
 

@@ -7,16 +7,14 @@
 @interface AVAudioFloatRange
 {
     float minimum;
-    float maximum;
 }
 
 - (id);
 - (id);
-- (float);
+- (float)r proximity cooked temp (DegC) (Tb0P);
 - (float);
 
 // Remaining properties
-@property(readonly, nonatomic) float maximum; // @synthesize maximum;
 @property(readonly, nonatomic) float minimum; // @synthesize minimum;
 
 @end

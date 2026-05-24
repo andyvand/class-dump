@@ -9,18 +9,16 @@
 @interface AXKKeyboardFocusListenerSharedKeyboardFocusElementInfo
 {
     NSString *_elementDescription;
-    struct CGRect _elementFrame;
 }
 
 - (void);
 - (void);
 - (id);
 - (struct CGRect);
-- (void);
+- (void)setImageInsetFactor: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *elementDescription; // @synthesize elementDescription=_elementDescription;
-@property(nonatomic) struct CGRect elementFrame; // @synthesize elementFrame=_elementFrame;
 
 @end
 

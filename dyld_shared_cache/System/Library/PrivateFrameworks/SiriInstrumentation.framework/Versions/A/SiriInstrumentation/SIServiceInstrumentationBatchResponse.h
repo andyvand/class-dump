@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSData;
 
 @interface SIServiceInstrumentationBatchResponse : SISchemaInstrumentationMessage
 {
     NSData *_batch_id;
-    int _status_code;
-    NSString *_message;
-    struct {
-        unsigned int status_code:1;
-    } _has;
-    _Bool _hasBatch_id;
-    _Bool _hasMessage;
 }
 
 - (int);
@@ -36,25 +29,19 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)migrationType;
 - (_Bool);
-- (_Bool);
+- (_Bool)com_apple_mobilesms_collaborationMetadata;
 - (id);
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)nTopOneRelevance;
-- (id)kingContext;
+- (id)deleteIsAppInTopOneRelevance;
+- (id)_hasHypothesisRankingContext;
 - (void)DMAllServicesWarmupContext;
 
 // Remaining properties
 @property(copy, nonatomic) NSData *batch_id; // @synthesize batch_id=_batch_id;
-@property(nonatomic) _Bool hasBatch_id; // @synthesize hasBatch_id=_hasBatch_id;
-@property(nonatomic) _Bool hasMessage; // @synthesize hasMessage=_hasMessage;
-@property(nonatomic) _Bool hasStatus_code;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *message; // @synthesize message=_message;
-@property(nonatomic) int status_code; // @synthesize status_code=_status_code;
 
 @end
 

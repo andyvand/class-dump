@@ -4,25 +4,109 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAppReviewRequestConfig, FCArticleLinkBehaviorConfig, FCArticleModalBrandBarConfig, FCEmbedProxyConfiguration, FCFeaturePromotionResourceConfiguration, FCForYouGroupsConfiguration, FCLaunchPresentationConfig, FCLocationSharingUpsellConfig, FCNewsPersonalizationConfiguration, FCNewsPlusLabelConfigGroup, FCNewsTabiConfiguration, FCNotificationsConfiguration, FCPaidBundleConfiguration, FCPaidBundleViaOfferConfig, FCPuzzlesConfiguration, FCSmarterMessagingConfig, FCSportsFavoritesSyncModalConfig, FCSportsPrivacyConfiguration, FCSportsUpsellConfig, FCStatelessPersonalizationPublisherFavorability, FCTimesOfDayConfiguration, FCTipConfig, FCVideoGroupsConfig, NSArray, NSDictionary, NSNumber, NSString;
+@class FCAppReviewRequestConfig, FCLaunchPresentationConfig, FCLocationSharingUpsellConfig, FCNewsPersonalizationConfiguration, FCPuzzlesConfiguration, FCSportsPrivacyConfiguration, FCStatelessPersonalizationPublisherFavorability, NSArray, NSDictionary, NSString;
 
 @protocol FCCoreConfiguration
-- (long long)hangedRecordZoneNames: /* Error: Ran out of types for this method. */;
+- (long long)!;
+- (long long)qq}32q48B56B60;
+- (long long)ler(Loading) _notifyLoading];
+- (long long):] /* Error: Ran out of types for this method. */;
+- (FCPuzzlesConfiguration *);
+- (NSString *)service:account:inviteReceivedForSession:fromID:withOptions: /* Error: Ran out of types for this method. */;
+- (NSString *)ssageComposeExtensionImplProtocol>";
+- (NSString *)storeKeyInSystemKeychain:forUser:serverURL: /* Error: Ran out of types for this method. */;
+- (NSString *)initWithOperation:paths:omitPaths: /* Error: Ran out of types for this method. */;
+- (long long)setTFetchedChangedRecordZoneNames: /* Error: Ran out of types for this method. */;
 - (NSString *),C,N,V_channelID;
-- (_Bool)rContextConfiguration;
+- (_Bool)FCNewsTabiRecommendedIssuesUserContextConfiguration;
 - (_Bool)FCDateRange init];
 - (NSString *)ÿÿ¥SC;
-- (NSString *)BTagType;
+- (NSString *)FCPBTagType;
 
 @optional
+- (long long);
+- (_Bool);
+- (double);
+- (long long);
+- (long long)4;
+- (double)r;
+- (long long)start, counter = %lu;
+- (NSDictionary *)umbnailImageAsset imageExtentWithSize:scale:orientation:] /* Error: Ran out of types for this method. */;
+- (FCLaunchPresentationConfig *)s, 0.0, 1.0 ); 
+			v = (reduceWhite( s,  p , .6)); 
+				//q =   findSaturationMax( v, 1.3, .95 ); 
+				
+				//v = mix( v, q, p ); 
+				v.a = s.a; 
+					//return clamp(v, 0.0, 1.0); 
+					return v; 
+} 
+
+/* historical note:tried higher values of maxMultiplier, nonlinear interpolating p*p */ 
+//****kernel 2 
+kernel vec4 oversaturate1 (sampler src, float p) __attribute__ ((preserves_opacity)) 
+{ 
+	vec4 s, v, q; 
+		s = max( sample (src, samplerCoord (src)) , vec4(0.0) ); 
+			
+			v = (reduceWhite(s,  p , .6)); 
+				q =   findSaturationMax( v, 1.5, .95 ); 
+					
+					v = mix( v, q, p ); 
+						v.a = s.a; 
+							return clamp(v, 0.0, 1.0); 
+} 
+
+
+//****kernel 3 
+kernel vec4 oversaturate2 (sampler src, float p) __attribute__ ((preserves_opacity)) 
+{ 
+	vec4 s, v, q; 
+		s = sample (src, samplerCoord (src)); 
+			
+			v = (reduceWhite(s,  p , .6)); 
+				q =   findSaturationMax( v, 1.5, .93 ); 
+					
+					v = mix( v, q, p ); 
+						v.a = s.a; 
+							return clamp(v, 0.0, 1.0); 
+} 
+
+//****kernel 4 
+kernel vec4 oversaturate3 (sampler src, float p) __attribute__ ((preserves_opacity))
+{ 
+	vec4 s, v; 
+		vec3 v1, v2; 
+			s = sample (src, samplerCoord (src)); 
+				v = s; 
+					v1 = ((s.r + s.g + s.b) / 3.0 )* vec3(1.0) ; 
+						v2 =  normalize( s.rgb-v1); 
+							
+							//Note:constant value .33 entirely arbitrary! 
+							v = (reduceWhite(s,  p , .6)); 
+								v.rgb = v.rgb + (.33 * v.a * v2); 
+									
+									v.a = s.a; 
+										return clamp(v, 0.0, 1.0); 
+} 
+ /* Error: Ran out of types for this method. */;
+- (long long){public}s forbids:%{public}s. Trigger cannot be nil /* Error: Ran out of types for this method. */;
+- (long long)%{public}s forbids:%{public}s. tracker object is not allowed to be nil /* Error: Ran out of types for this method. */;
+- (NSArray *)Debug_updateGraph;
+- (long long)ing",C,N,V_name;
+- (_Bool);
+- (double)dataStorageHome;
+- (long long)computeVisibilityOffsetsInScrollView:withTargetContentOffset:usingBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)oes not share the same URL Base! (%@ vs %@);
+- (NSString *)7r;
 - (_Bool)1Â0@ù
 × ;
 - (NSString *)0@ù
 × ;
 - (NSString *)mber"16@0:8 /* Error: Ran out of types for this method. */;
-- (long long)icates;
-- (NSString *)l;
-- (NSString *)hNonImageResourceIDs:optimalImageResourceIDs:smallestImageResourceIDs: /* Error: Ran out of types for this method. */;
+- (long long)subpredicates;
+- (NSString *)notificationPoolAutoRefreshInterval;
+- (NSString *)initWithNonImageResourceIDs:optimalImageResourceIDs:smallestImageResourceIDs: /* Error: Ran out of types for this method. */;
 - (FCAppReviewRequestConfig *)ionHandler: /* Error: Ran out of types for this method. */;
 - (FCNewsPersonalizationConfiguration *),N,V_newspaperGroupMagazineFeedHeadlineScoringOutputName;
 - (_Bool)everse:block:] /* Error: Ran out of types for this method. */;
@@ -32,9 +116,8 @@
 - (_Bool)failed to fetch cache invalidation resource, error=%{public}@;
 - (FCSportsPrivacyConfiguration *)ÿÿ¤ÿÿ¼ÿÿ;
 - (NSString *)xþÿÐxþÿôxþÿ0yþÿTyþÿÄyþÿØzþÿ {þÿÈ{þÿ¤ÿÿP$ÿÿäÿÿ|þÿp|þÿ¨|þÿ$ÿÿP}þÿt}þÿ}þÿ¼}þÿà}þÿ¸~þÿÜ~þÿ;
-- (NSString *);
 - (NSArray *)¬ÜµÿB;
-- (_Bool)idating_p;
+- (_Bool)So19FCCacheInvalidating_p;
 - (NSString *)²j`¹;
 - (long long)@;
 - (NSString *);
@@ -42,495 +125,6 @@
 - (_Bool)¡Ä;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *aLaCartePaidSubscriptionGroupWhitelistedChannelIDs;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) _Bool adInstrumentationEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSArray *allowedRecipeRelatedTopicIDs;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) NSArray *allowedRecipeSuitableForDietTagIDs;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) long long alternateUniversalLinksResourceRefreshRate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
 @property(readonly, nonatomic) long long appConfigRefreshRate;
-@property(readonly, nonatomic) FCAppReviewRequestConfig *appReviewRequestConfig;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCAppReviewRequestConfig",?,R,N
-
-@property(readonly, nonatomic) NSArray *appleNewsNotificationChannelIDs;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) FCArticleLinkBehaviorConfig *articleLinkBehaviorConfig;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCArticleLinkBehaviorConfig",?,R,N
-
-@property(readonly, nonatomic) FCArticleModalBrandBarConfig *articleModalBrandBarConfig;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCArticleModalBrandBarConfig",?,R,N
-
-@property(readonly, nonatomic) NSString *audioConfigRecordID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) _Bool autoOnboardShortcuts;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) long long bestOfferRequestTimeoutDurationInSeconds;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) NSString *blockedArticleLearnMoreURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *breakingNewsChannelID;
-@property(readonly, nonatomic) NSString *briefingsTagID;
-@property(readonly, nonatomic) NSString *cacheInvalidationResourceID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSDictionary *campaignReferralConfigsByID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,R,N
-
-@property(readonly, nonatomic) NSDictionary *channelPaywallConfigsByChannelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,R,N
-
-@property(readonly, nonatomic) NSDictionary *channelPickerConfigsByName;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,R,N
-
-@property(readonly, nonatomic) NSDictionary *channelUpsellConfigsByChannelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,R,N
-
-@property(readonly, nonatomic) _Bool checkForPaywallConfigChangesEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSNumber *currentTreatment;
-@property(readonly, nonatomic) long long dailyChannelUpsellsCountLimit;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) double delayBeforeRetryingDroppedFeeds;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) double derivedPersonalizationDataBalanceValue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) _Bool diversifyOptionalTopStories;
-@property(readonly, nonatomic) NSString *editorialChannelID;
-@property(readonly, nonatomic) NSString *editorialGemsSectionID;
-@property(readonly, nonatomic) FCEmbedProxyConfiguration *embedProxyConfiguration;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCEmbedProxyConfiguration",?,R,N
-
-@property(readonly, nonatomic) _Bool enableCacheFallbackForArticleRecirculation;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) long long endOfArticleExpireArticlesAfter;
-@property(readonly, nonatomic) long long endOfArticleMaxInaccessiblePaidArticleCount;
-@property(readonly, nonatomic) double endOfArticleMinPaidHeadlineRatio;
-@property(readonly, nonatomic) long long endOfArticleOnscreenPercentageRequirement;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) NSDictionary *endpointConfigsByEnvironment;
-@property(readonly, nonatomic) long long entitlementsCacheRecoveryAttemptDurationInSeconds;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long entitlementsRequestTimeoutDurationInSeconds;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long expirePinnedArticlesAfter;
-@property(readonly, nonatomic) long long expiredPaidSubscriptionGroupCutoffTime;
-@property(readonly, nonatomic) FCFeaturePromotionResourceConfiguration *featurePromotionResourceConfiguration;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCFeaturePromotionResourceConfiguration",?,R,N
-
-@property(readonly, nonatomic) NSString *featuredStoriesTagID;
-@property(readonly, nonatomic) double feedLineHeightMultiplier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) NSString *foodHubTagID;
-@property(readonly, nonatomic) FCForYouGroupsConfiguration *forYouGroupsConfiguration;
-@property(readonly, nonatomic) long long forYouMaxDailyEvergreenArticlesForFreeUsers;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long forYouMaxDailyEvergreenArticlesForPaidUsers;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) NSString *forYouPremiumRecordConfigID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *forYouRecordConfigID;
-@property(readonly, copy, nonatomic) FCVideoGroupsConfig *forYouVideoGroupsConfig;
-@property(readonly, nonatomic) NSArray *freeGlobalESLArticleListIDs;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) NSArray *freeGlobalRecipeListIDs;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) NSArray *freeNotificationItemListIDs;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) NSArray *freeRecentRecipeListIDs;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) NSString *freeTagESLArticleListIDPrefix;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *freeTagRecipeListIDPrefix;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) _Bool isDefaultConfiguration;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) FCLaunchPresentationConfig *launchPresentationConfig;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCLaunchPresentationConfig",?,R,N
-
-@property(readonly, nonatomic) NSString *localNewsHubTagID;
-@property(readonly, nonatomic) FCLocationSharingUpsellConfig *locationSharingUpsellConfig;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCLocationSharingUpsellConfig",?,R,N
-
-@property(readonly, nonatomic) NSString *magazinesConfigRecordID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) long long maxContentShortcutsCount;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long maxIssuesPerESLInventoryRequest;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long maxRetriesForDroppedFeeds;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long maxTagESLArticleListsToQuery;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long maximumNumberOfExpiredPaidSubscriptionGroups;
-@property(readonly, nonatomic) long long maximumPaidSubscriptionGroupSizeiPad;
-@property(readonly, nonatomic) long long maximumPaidSubscriptionGroupSizeiPhone;
-@property(readonly, nonatomic) long long maximumTimesHeadlineInPaidSubscriptionGroup;
-@property(readonly, nonatomic) long long minShortcutsOnboardCount;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long minimumBucketGroupConfigVersion;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long minimumDistanceBetweenImageOnTopTiles;
-@property(readonly, nonatomic) long long minimumDurationBetweenForYouGroupsWeekday;
-@property(readonly, nonatomic) long long minimumDurationBetweenForYouGroupsWeekend;
-@property(readonly, nonatomic) long long minimumDurationBetweenTrendingGroupsWeekday;
-@property(readonly, nonatomic) long long minimumDurationBetweenTrendingGroupsWeekend;
-@property(readonly, nonatomic) double minimumTrendingUnseenRatio;
-@property(readonly, nonatomic) NSString *myMagazinesTagID;
-@property(readonly, nonatomic) NSString *mySportsHighlightsTagID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *mySportsScoresTagID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *mySportsTagID;
-@property(readonly, nonatomic) _Bool newNotificationHandlingEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSString *newsFeedFormatConfiguration;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, copy, nonatomic) FCNewsPersonalizationConfiguration *newsPersonalizationConfiguration;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCNewsPersonalizationConfiguration",?,R,C,N
-
-@property(readonly, nonatomic) FCNewsPlusLabelConfigGroup *newsPlusLabelConfigGroup;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCNewsPlusLabelConfigGroup",?,R,N
-
-@property(readonly, copy, nonatomic) FCNewsTabiConfiguration *newsTabiConfiguration;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCNewsTabiConfiguration",?,R,C,N
-
-@property(readonly, nonatomic) long long notificationEnabledChannelsRefreshFrequency;
-@property(readonly, nonatomic) long long notificationPoolAutoRefreshInterval;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long notificationPoolMaxAge;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) FCNotificationsConfiguration *notificationsConfig;
-@property(readonly, nonatomic) long long optionalTopStoriesRefreshRate;
-@property(readonly, nonatomic) FCPaidBundleConfiguration *paidBundleConfig;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCPaidBundleConfiguration",?,R,N
-
-@property(readonly, nonatomic) FCPaidBundleViaOfferConfig *paidBundleViaOfferConfig;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCPaidBundleViaOfferConfig",?,R,N
-
-@property(readonly, nonatomic) NSArray *paidGlobalESLArticleListIDs;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) NSArray *paidGlobalRecipeListIDs;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) NSArray *paidNotificationItemListIDs;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) NSArray *paidRecentRecipeListIDs;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) NSString *paidTagESLArticleListIDPrefix;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *paidTagRecipeListIDPrefix;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) _Bool paywallExperimentationEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSArray *paywallExperimentationTagIDs;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) NSString *paywallTagID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSArray *permanentChannelIDs;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) NSArray *presubscribedFeedIDs;
-@property(readonly, nonatomic, getter=isPrivateDataEncryptionAllowed) _Bool privateDataEncryptionAllowed;
-@property(readonly, nonatomic, getter=isPrivateDataEncryptionMigrationDesired) _Bool privateDataEncryptionMigrationDesired;
-@property(readonly, nonatomic, getter=isPrivateDataEncryptionRequired) _Bool privateDataEncryptionRequired;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,GisPrivateDataEncryptionRequired
-
-@property(readonly, nonatomic, getter=isPrivateDataMigrationCleanupEnabled) _Bool privateDataMigrationCleanupEnabled;
-@property(readonly, nonatomic) _Bool privateDataShouldCleanupAfterSecureSubscriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool privateDataShouldCleanupToV4;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool privateDataShouldMigrateToV4;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool privateDataShouldSecureSubscriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic, getter=shouldProxyURLBucketFetch) _Bool proxyURLBucketFetch;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,GshouldProxyURLBucketFetch
-
-@property(readonly, nonatomic) FCPuzzlesConfiguration *puzzlesConfig;
-@property(readonly, nonatomic) NSString *recipeAlcoholicDrinkTagID;
-@property(readonly, nonatomic) NSString *recipeBakingTagID;
-@property(readonly, nonatomic) NSString *recipeCatalogTagID;
-@property(readonly, nonatomic) NSString *recipeNonAlcoholicDrinkTagID;
-@property(readonly, nonatomic) long long savedArticlesCutoffTime;
-@property(readonly, nonatomic) long long savedArticlesMaximumCountCellular;
-@property(readonly, nonatomic) long long savedArticlesMaximumCountWiFi;
-@property(readonly, nonatomic) long long savedArticlesOpenedCutoffTime;
-@property(readonly, nonatomic) NSString *savedStoriesTagID;
-@property(readonly, nonatomic) _Bool searchFeedEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSString *searchHubTagID;
-@property(readonly, nonatomic) NSString *sharedWithYouTagID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) long long shortcutsMaxCount;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long shortcutsOnboardCount;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) NSString *shortcutsTagID;
-@property(readonly, nonatomic) _Bool shouldManuallySupplementEvergreenWithIssueArticles;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) long long singleChannelFeedMinFeedItemsPerRequest;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long singleTopicFeedMinFeedItemsPerRequest;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) FCSmarterMessagingConfig *smarterMessagingConfig;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCSmarterMessagingConfig",?,R,N
-
-@property(readonly, nonatomic) NSString *sportEventHighlightsTagID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *sportHighlightsTagID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *sportLeagueHighlightsTagID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *sportLeagueScoresTagID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *sportScoresTagID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *sportTeamHighlightsTagID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *sportTeamScoresTagID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *sportsBracketTagID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) FCSportsFavoritesSyncModalConfig *sportsFavoritesSyncModalConfig;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCSportsFavoritesSyncModalConfig",?,R,N
-
-@property(readonly, nonatomic) FCSportsPrivacyConfiguration *sportsPrivacyConfiguration;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCSportsPrivacyConfiguration",?,R,N
-
-@property(readonly, nonatomic) NSString *sportsStandingsTagID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *sportsTopStoriesTagID;
-@property(readonly, nonatomic) FCSportsUpsellConfig *sportsUpsellConfig;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCSportsUpsellConfig",?,R,N
-
-@property(readonly, nonatomic) NSString *spotlightChannelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, copy, nonatomic) FCStatelessPersonalizationPublisherFavorability *statelessPersonalizationPublisherFavorability;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCStatelessPersonalizationPublisherFavorability",?,R,C,N
-
-@property(readonly, nonatomic) long long subscriptionsGlobalMeteredCount;
-@property(readonly, nonatomic) _Bool tagFeedEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, copy, nonatomic) FCTimesOfDayConfiguration *timesOfDayConfiguration;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCTimesOfDayConfiguration",?,R,C,N
-
-@property(readonly, nonatomic) FCTipConfig *tipConfig;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCTipConfig",?,R,N
-
-@property(readonly, nonatomic) _Bool todayFeedEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSString *todayFeedKnobs;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) _Bool treatmentIDAdDonationEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSString *trendingRecipesListID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *trendingTagID;
-@property(readonly, nonatomic) long long trendingTopicsRefreshRate;
-@property(readonly, nonatomic) double ttlForGlobalRecipes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) double ttlForPersonalizedRecipes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) double ttlForRecentRecipes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) double ttlForTrendingRecipes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) long long widgetForYouBackgroundMinimumUpdateInterval;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
 @end
 

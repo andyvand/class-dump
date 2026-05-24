@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
++ (id)abling timer, all inconsistencies resolved;
 + (id);
-+ (id);
-+ (id);
++ (id)c;
 
 @end
 

@@ -5,5 +5,7 @@
 //
 
 @protocol RTEventLocationAssociationProtocol
+- (void)t a %d message for a non-existent socket;
+- (void);
 @end
 

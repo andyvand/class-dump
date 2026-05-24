@@ -7,6 +7,7 @@
 @class NSImage;
 
 @protocol CNKAudioRoutingDelegate
+- (NSImage *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSImage *audioRouteGlyphForDevice;

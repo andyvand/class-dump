@@ -11,23 +11,20 @@
 @interface UIKit._UISliderGlassVisualElement : UIKit._UISliderFluidVisualElement
 {
     id minimumThumbHitSize;
-    id lensView;
-    id thumbImageView;
-    id defaultThumbTintColor;
 }
 
 + (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)/;
 - (void);
-- (struct CGSize);
+- (struct CGSize)leReferenceData.V2;
 - (id);
-- (void)ptionWithText:type: /* Error: Ran out of types for this method. */;
-- (void)rimaryColumnWidth: /* Error: Ran out of types for this method. */;
-- (struct UIEdgeInsets)ockedEnvironments;
+- (void)textOptionWithText:type: /* Error: Ran out of types for this method. */;
+- (void)setMaximumPrimaryColumnWidth: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)_validateLockedEnvironments;
 - (struct CGRect)tSentSessionDidBegin:(struct CGRect)arg1 ,V_sentSessionDidBegin;
-- (id)lStyle;
+- (id)_UIScrollViewScrollIndicatorFallbackVisualStyle;
 - (struct CGSize)UIResponder or UIStateRestoring:(struct CGSize)arg1 %@;
 - (void)LGÿ¡Û;
 

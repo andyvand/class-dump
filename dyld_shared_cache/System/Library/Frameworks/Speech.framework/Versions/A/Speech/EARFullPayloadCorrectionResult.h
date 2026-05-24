@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSError, NSString;
+@class NSString;
 
 @interface EARFullPayloadCorrectionResult
 {
     NSString *_result;
-    NSDictionary *_loggingInfo;
-    NSError *_error;
 }
 
 + (_Bool);
@@ -24,8 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, copy, nonatomic) NSDictionary *loggingInfo; // @synthesize loggingInfo=_loggingInfo;
 @property(readonly, copy, nonatomic) NSString *result; // @synthesize result=_result;
 
 @end

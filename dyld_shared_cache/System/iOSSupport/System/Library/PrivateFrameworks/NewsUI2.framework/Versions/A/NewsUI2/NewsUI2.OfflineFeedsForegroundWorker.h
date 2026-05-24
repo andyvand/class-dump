@@ -7,19 +7,11 @@
 @interface NewsUI2.OfflineFeedsForegroundWorker
 {
     id offlineFeedsSupervisor;
-    id offlineFeatures;
-    id appConfigManager;
-    id networkReachability;
-    id readingList;
-    id readingHistory;
-    id audioPlaylist;
-    id sharedItemManager;
-    id recipeBox;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)AudioVisualizationView;
 - (void);
 - (id);
 - (void);

@@ -11,8 +11,6 @@
 @interface PKModifyStrokeInkCommand : PKUndoCommand
 {
     NSArray *_strokes;
-    NSArray *_inks;
-    NSArray *_oldInks;
 }
 
 + (id);
@@ -27,8 +25,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *inks; // @synthesize inks=_inks;
-@property(readonly, nonatomic) NSArray *oldInks; // @synthesize oldInks=_oldInks;
 @property(readonly, nonatomic) NSArray *strokes; // @synthesize strokes=_strokes;
 
 @end

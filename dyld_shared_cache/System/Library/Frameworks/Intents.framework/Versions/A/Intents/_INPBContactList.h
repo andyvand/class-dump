@@ -4,48 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBCondition;
+@class _INPBCondition;
 
 @interface _INPBContactList
 {
     struct _has;
-    _INPBCondition *_condition;
-    NSArray *_contacts;
 }
 
-+ (Class);
++ (Class)C;
 + (_Bool);
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)icePhysicalInputComponentDescription"48@0:(id)arg1 8@"_GCDefaultLogicalDevice"16@"<NSObject><NSCopying><NSSecureCoding>"24@"NSArray"32@40;
 - (void);
 - (unsigned long long);
-- (id);
+- (id)L@;
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)24Q32@40Q48@?56;
+- (void)to register for service characteristic %{public}@;
 - (id);
 - (void);
 - (id);
 - (id);
-- (void)onseCodeUnspecified;
+- (void)INSetAudioSourceInCarIntentResponseCodeUnspecified;
 - (void)r;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBCondition *condition; // @synthesize condition=_condition;
-@property(copy, nonatomic) NSArray *contacts; // @synthesize contacts=_contacts;
-@property(readonly, nonatomic) unsigned long long contactsCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasCondition;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

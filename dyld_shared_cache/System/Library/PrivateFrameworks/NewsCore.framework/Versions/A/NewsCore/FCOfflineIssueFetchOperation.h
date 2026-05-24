@@ -6,26 +6,9 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class FCCachePolicy, FCOfflineDownloadsConfiguration, FCThreadSafeMutableArray, NSMutableSet, NSObject, NSString;
-@protocol FCANFHelper, FCContentContext, OS_dispatch_queue;
-
 @interface FCOfflineIssueFetchOperation : FCOperation
 {
     _Bool cachedOnly;
-    CDUnknownBlockType archiveHandler;
-    NSObject<OS_dispatch_queue> *archiveQueue;
-    CDUnknownBlockType fetchCompletionHandler;
-    NSObject<OS_dispatch_queue> *fetchCompletionQueue;
-    CDUnknownBlockType progressHandler;
-    NSObject<OS_dispatch_queue> *progressQueue;
-    id <FCContentContext> _context;
-    id <FCANFHelper> _ANFHelper;
-    NSString *_issueID;
-    FCOfflineDownloadsConfiguration *_config;
-    NSMutableSet *_recipeIDs;
-    FCThreadSafeMutableArray *_resultInterestTokens;
-    double _progress;
-    FCCachePolicy *_issueRecordCachePolicy;
 }
 
 - (id);
@@ -34,34 +17,50 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)r;
+uniform vec4 fgTextureValidRect;
+uniform sampler2DRect bgTexture;
+uniform vec2 bgScaleInv;
+uniform sampler3D bgColorLUT;
+uniform vec4 bgDebugColor;
+uniform vec4 bgTextureValidRect;
+uniform vec4 channelMask;
+noperspective centroid varying vec2 fgTexCoord;
+noperspective centroid varying vec2 bgTexCoord;
+uniform float fgRatio;
+void main()
+{
+vec4 fgTexColor = linearSample2DRect(fgTexture, fgTexCoord, fgScaleInv, fgTextureValidRect);
+vec4 bgTexColor = linearSample2DRect(bgTexture, bgTexCoord, bgScaleInv, bgTextureValidRect);
+vec4 fgColor = colorMatch(fgTexColor, fgColorLUT);
+vec4 bgColor = colorMatch(bgTexColor, bgColorLUT);
+vec4 fgOutColor = fgColor + fgDebugColor;
+vec4 bgOutColor = bgColor + bgDebugColor;
+vec4 outColor = mix(fgOutColor, bgOutColor, fgRatio);
+gl_FragColor = outColor * channelMask;
+}
+;
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (_Bool);
+- (void)6X;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)c;
 - (unsigned long long);
 - (id);
 - (void)CNquugBHTJeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCArticleClassification.m;
 - (void)METHOD;
 - (void)/BuildRoots/4~CNquugBHTJeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCCKRecordZone.m;
 - (void)have no cursor if bypassing the cache;
-- (_Bool)ankedAllSubscribedTagIDs;
+- (_Bool)rankedAllSubscribedTagIDs;
 - (CDUnknownBlockType);
 - (_Bool);
 - (void)åÿ;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType archiveHandler; // @synthesize archiveHandler;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *archiveQueue; // @synthesize archiveQueue;
 @property(nonatomic) _Bool cachedOnly; // @synthesize cachedOnly;
-@property(copy, nonatomic) CDUnknownBlockType fetchCompletionHandler; // @synthesize fetchCompletionHandler;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *fetchCompletionQueue; // @synthesize fetchCompletionQueue;
-@property(copy, nonatomic) CDUnknownBlockType progressHandler; // @synthesize progressHandler;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *progressQueue; // @synthesize progressQueue;
 
 @end
 

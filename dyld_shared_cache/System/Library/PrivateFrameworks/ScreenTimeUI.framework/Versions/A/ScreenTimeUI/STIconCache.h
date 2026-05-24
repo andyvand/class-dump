@@ -4,49 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSImage, NSMutableSet, NSObject, NSURLSession;
+@class NSCache, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface STIconCache
 {
     NSCache *_iconByKeyCache;
-    NSObject<OS_dispatch_queue> *_lookupQueue;
-    NSURLSession *_urlSession;
-    NSMutableSet *_bundleIdentifiersWithPendingRequests;
 }
 
 + (id);
-+ (id);
++ (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
+- (void);
+- (id)P;
+- (id);
+- (void)ax_paragraphFromPosition:inDirection: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableSet *bundleIdentifiersWithPendingRequests; // @synthesize bundleIdentifiersWithPendingRequests=_bundleIdentifiersWithPendingRequests;
-@property(readonly) NSImage *imageForBlankApplicationIcon;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *lookupQueue; // @synthesize lookupQueue=_lookupQueue;
-@property(readonly, nonatomic) NSURLSession *urlSession; // @synthesize urlSession=_urlSession;
 
 @end
 

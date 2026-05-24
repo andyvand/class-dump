@@ -18,13 +18,13 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void)putShadows: /* Error: Ran out of types for this method. */;
+- (void)setInputShadows: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) PFParallaxColor *color; // @synthesize color=_color;

@@ -7,9 +7,6 @@
 @interface FMNetworking.FMNAuthenticationCredential
 {
     id authToken;
-    id personId;
-    id hostName;
-    id accountType;
 }
 
 @end

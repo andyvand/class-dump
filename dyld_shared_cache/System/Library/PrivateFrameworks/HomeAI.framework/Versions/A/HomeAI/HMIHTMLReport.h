@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOutputStream, NSString;
+@class NSOutputStream;
 
 @interface HMIHTMLReport
 {
     NSOutputStream *_stream;
-    NSString *_outputPath;
 }
 
 + (id);
@@ -25,15 +24,14 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void)¬A;
 
 // Remaining properties
-@property(readonly) NSString *outputPath; // @synthesize outputPath=_outputPath;
 @property(readonly) NSOutputStream *stream; // @synthesize stream=_stream;
 
 @end

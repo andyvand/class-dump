@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLBatchExtractionStep, NSArray, NSEnumerator, NSString;
-@protocol CPLBatchExtractionStrategyStorage;
+@class NSArray, NSString;
 
 @interface CPLBatchExtractionStrategy
 {
     NSArray *_steps;
-    NSEnumerator *_stepEnumerator;
-    CPLBatchExtractionStep *_currentStep;
-    _Bool _loggedForThisStep;
-    _Bool _finished;
-    NSString *_strategyName;
-    id <CPLBatchExtractionStrategyStorage> _storage;
-    NSString *_scopeIdentifier;
-    unsigned long long _maximumRecordCountPerBatch;
-    NSString *_name;
 }
 
 + (id);
@@ -34,8 +24,8 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool),;
+- (id)/;
 - (void);
 - (_Bool);
 - (id);
@@ -44,16 +34,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)!;
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *currentStepDescription;
-@property(nonatomic) unsigned long long maximumRecordCountPerBatch; // @synthesize maximumRecordCountPerBatch=_maximumRecordCountPerBatch;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSString *scopeIdentifier; // @synthesize scopeIdentifier=_scopeIdentifier;
-@property(readonly, copy, nonatomic) NSString *stepsDescription;
-@property(readonly, nonatomic) __weak id <CPLBatchExtractionStrategyStorage> storage; // @synthesize storage=_storage;
 @property(readonly, copy, nonatomic) NSString *strategyName; // @synthesize strategyName=_strategyName;
 
 @end

@@ -11,15 +11,13 @@
 @interface WiFiUsageLQMKernelSampleAWDLCoex : WiFiUsageLQMSample
 {
     NSDate *_timestamp;
-    double _duration;
-    unsigned long long _awdlActiveDurationPerc;
 }
 
 + (id);
 - (void);
 - (id);
 - (unsigned long long);
-- (double);
+- (double)logPreLoadingNeededForIndex:section: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -27,8 +25,6 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long awdlActiveDurationPerc; // @synthesize awdlActiveDurationPerc=_awdlActiveDurationPerc;
-@property(nonatomic) double duration; // @synthesize duration=_duration;
 @property(retain, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end

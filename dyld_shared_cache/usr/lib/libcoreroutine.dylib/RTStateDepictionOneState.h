@@ -4,25 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableArray, NSString, RTMapItem, RTStateModelLocation;
-@protocol GEOMapItem;
+@class RTStateModelLocation;
 
 @interface RTStateDepictionOneState
 {
     RTStateModelLocation *_location;
-    long long _type;
-    unsigned long long _typeSource;
-    RTMapItem *_mapItem;
-    unsigned long long _mapItemSource;
-    NSDate *_geocodeDate;
-    NSMutableArray *_histEntryExit_s;
-    NSString *_customLabel;
-    id <GEOMapItem> _geoMapItem;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id)heticStatsPacket:request packet on link %s /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (long long);
@@ -35,10 +26,10 @@
 × ;
 - (unsigned long long)Ð1Â0@ù
 × ;
-- (void)s:(id)arg1;
-- (void)essionManager:(id)arg1;
-- (id)y:store: /* Error: Ran out of types for this method. */;
-- (id)pMonitoringScenarioTriggerOfType: /* Error: Ran out of types for this method. */;
+- (void)setHistogramBins:(id)arg1;
+- (void)removeObserverForSessionManager:(id)arg1;
+- (id)initWithName:readOnly:store: /* Error: Ran out of types for this method. */;
+- (id)_stopMonitoringScenarioTriggerOfType: /* Error: Ran out of types for this method. */;
 - (id)tOfTraversal;
 - (void)onciliationModels;
 - (void)8z°{
@@ -50,15 +41,7 @@ t|};
 - (void)Í;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *customLabel; // @synthesize customLabel=_customLabel;
-@property(retain, nonatomic) id <GEOMapItem> geoMapItem; // @synthesize geoMapItem=_geoMapItem;
-@property(retain, nonatomic) NSDate *geocodeDate; // @synthesize geocodeDate=_geocodeDate;
-@property(retain, nonatomic) NSMutableArray *histEntryExit_s; // @synthesize histEntryExit_s=_histEntryExit_s;
 @property(retain, nonatomic) RTStateModelLocation *location; // @synthesize location=_location;
-@property(retain, nonatomic) RTMapItem *mapItem; // @synthesize mapItem=_mapItem;
-@property(nonatomic) unsigned long long mapItemSource; // @synthesize mapItemSource=_mapItemSource;
-@property(nonatomic) long long type; // @synthesize type=_type;
-@property(nonatomic) unsigned long long typeSource; // @synthesize typeSource=_typeSource;
 
 @end
 

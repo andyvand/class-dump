@@ -4,47 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXCuratedLibraryLayout, PXCuratedLibraryViewModel;
 @protocol PXCuratedLibraryGuestAssetTrackerDelegate;
 
 @interface PXCuratedLibraryGuestAssetTracker
 {
     unsigned long long _numberOfGuestAssetsVisible;
-    PXCuratedLibraryViewModel *_viewModel;
-    PXCuratedLibraryLayout *_layout;
-    _Bool _isActive;
-    _Bool _canDisplayGuestAssets;
-    _Bool _isDisplayingGuestAssets;
-    id <PXCuratedLibraryGuestAssetTrackerDelegate> _delegate;
 }
 
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)9A;
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
-- (void);
-- (void)sStyle;
+- (_Bool)teEdgeSoftenerScalar(vTextureCoordinates0 * invTextureSize, invRadii)); 
+		} 
+		;
+- (void);
+- (void)RowsStyle;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canDisplayGuestAssets; // @synthesize canDisplayGuestAssets=_canDisplayGuestAssets;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <PXCuratedLibraryGuestAssetTrackerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isActive; // @synthesize isActive=_isActive;
-@property(readonly, nonatomic) _Bool isDisplayingGuestAssets; // @synthesize isDisplayingGuestAssets=_isDisplayingGuestAssets;
-@property(readonly) Class superclass;
 
 @end
 

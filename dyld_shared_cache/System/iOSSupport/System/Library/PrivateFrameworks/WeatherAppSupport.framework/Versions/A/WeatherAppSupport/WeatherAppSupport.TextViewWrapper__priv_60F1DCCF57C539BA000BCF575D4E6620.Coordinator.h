@@ -7,6 +7,7 @@
 @interface WeatherAppSupport.TextViewWrapper__priv_60F1DCCF57C539BA000BCF575D4E6620.Coordinator
 {
     id onInteraction;
+    id;
 }
 
 - (_Bool);

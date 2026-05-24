@@ -10,11 +10,11 @@
 {
 }
 
-- (void);
+- (void)loudEnabled=%{BOOL}u];
 - (void)1b1b1b1}}24;
-- (_Bool): /* Error: Ran out of types for this method. */;
-- (void)Views:forSearchResult:inViewCoordinates: /* Error: Ran out of types for this method. */;
-- (void)dEmojiCategory;
+- (_Bool)transformLastRowKeysForKeyplane:row:withTransformationContext: /* Error: Ran out of types for this method. */;
+- (void)_resultRects:andResultViews:forSearchResult:inViewCoordinates: /* Error: Ran out of types for this method. */;
+- (void)UIKeyboardEmojiCategory;
 - (void)âîÿïÿØ÷îÿ;
 - (void)Høëþ;
 - (void)@o;

@@ -7,6 +7,7 @@
 @class NSTextAttachment;
 
 @protocol NSTextAttachmentCell
+- (void);
 
 // Remaining properties
 @property NSTextAttachment *attachment;

@@ -7,16 +7,13 @@
 @interface NewsFeed.CoverViewActionButton
 {
     id onTap;
-    id touchInsets;
-    id tintColorForNormalState;
-    id createMenuElementsBlock;
 }
 
 - (id);
 - (id)
 × ;
 - (_Bool)ÚYïÿ;
-- (void)tion;
+- (void)_currentLocation;
 - (id)Bþÿÿÿÿ;
 - (void)-]:¸½wþ-]:TÆ}þ /* Error: Ran out of types for this method. */;
 - (_Bool)u;

@@ -6,22 +6,11 @@
 
 #import <PassKitCore/PKAccountFeatureDescriptor.h>
 
-@class NSArray, NSDecimalNumber, NSSet, NSTimeZone;
+@class NSDecimalNumber;
 
 @interface PKPeerPaymentAccountFeatureDescriptor : PKAccountFeatureDescriptor
 {
     _Bool _supported;
-    NSDecimalNumber *_feePercentage;
-    NSDecimalNumber *_minimumFee;
-    NSDecimalNumber *_maximumFee;
-    NSArray *_amountSuggestions;
-    NSArray *_thresholdSuggestions;
-    NSArray *_frequencyOptions;
-    NSTimeZone *_productTimeZone;
-    long long _maximumPayments;
-    long long _endProcessingHour;
-    double _proactiveFetchPeriod;
-    NSSet *_supportedFundingSourceCountryCodes;
 }
 
 + (_Bool)áW"Ð!ÔEùqî%°1Â0@ù
@@ -42,10 +31,10 @@
 - (double);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
-- (id);
-- (long long);
+- (id);
+- (long long);
 - (id);
 - (id);
 - (id);
@@ -53,26 +42,15 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (id)racy:(id)arg1 timestamp: /* Error: Ran out of types for this method. */;
+- (_Bool)foSuccessCount"b1"timestamp"b1"alternatePathCount"b1"captivePresentFailedCount"b1"exceededMssCount"b1"interfaceType"b1"protocolType"b1"restrictedNetworkFailedCount"b1};
+- (void)althBeforeDecision;
+- (id)initWithCoordinate:(id)arg1 altitude:horizontalAccuracy:verticalAccuracy:timestamp: /* Error: Ran out of types for this method. */;
 - (_Bool)Þ;
-- (void)rtiallyApprovedAmount;
+- (void)partiallyApprovedAmount;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *amountSuggestions; // @synthesize amountSuggestions=_amountSuggestions;
-@property(nonatomic) long long endProcessingHour; // @synthesize endProcessingHour=_endProcessingHour;
 @property(copy, nonatomic) NSDecimalNumber *feePercentage; // @synthesize feePercentage=_feePercentage;
-@property(retain, nonatomic) NSArray *frequencyOptions; // @synthesize frequencyOptions=_frequencyOptions;
-@property(copy, nonatomic) NSDecimalNumber *maximumFee; // @synthesize maximumFee=_maximumFee;
-@property(nonatomic) long long maximumPayments; // @synthesize maximumPayments=_maximumPayments;
-@property(copy, nonatomic) NSDecimalNumber *minimumFee; // @synthesize minimumFee=_minimumFee;
-@property(nonatomic) double proactiveFetchPeriod; // @synthesize proactiveFetchPeriod=_proactiveFetchPeriod;
-@property(copy, nonatomic) NSTimeZone *productTimeZone; // @synthesize productTimeZone=_productTimeZone;
-@property(nonatomic, getter=isSupported) _Bool supported; // @synthesize supported=_supported;
-@property(copy, nonatomic) NSSet *supportedFundingSourceCountryCodes; // @synthesize supportedFundingSourceCountryCodes=_supportedFundingSourceCountryCodes;
-@property(copy, nonatomic) NSArray *thresholdSuggestions; // @synthesize thresholdSuggestions=_thresholdSuggestions;
 
 @end
 

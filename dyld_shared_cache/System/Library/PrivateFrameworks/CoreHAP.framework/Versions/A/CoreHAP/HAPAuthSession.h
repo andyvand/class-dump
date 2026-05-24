@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber, NSObject, NSString, NSUUID;
-@protocol HAPAuthSessionDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface HAPAuthSession
 {
     unsigned char _currentTID;
-    id <HAPAuthSessionDelegate> _delegate;
-    long long _role;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    unsigned long long _currentState;
-    NSNumber *_instanceId;
-    NSData *_token1;
-    NSData *_token2;
-    NSUUID *_provisionUUID;
 }
 
 + (id)ator:Ignoring lost accessory while not discovering /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (void);
+- (void),;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (unsigned char);
@@ -47,27 +39,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (long long);
 - (void){_NSZone=}16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned long long currentState; // @synthesize currentState=_currentState;
-@property(nonatomic) unsigned char currentTID; // @synthesize currentTID=_currentTID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) __weak id <HAPAuthSessionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSNumber *instanceId; // @synthesize instanceId=_instanceId;
-@property(retain, nonatomic) NSUUID *provisionUUID; // @synthesize provisionUUID=_provisionUUID;
-@property(readonly, nonatomic) long long role; // @synthesize role=_role;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSData *token1; // @synthesize token1=_token1;
-@property(retain, nonatomic) NSData *token2; // @synthesize token2=_token2;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

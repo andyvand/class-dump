@@ -16,7 +16,7 @@
 - (_Bool);
 - (int);
 - (void);
-- (_Bool);
+- (_Bool)T@"NSHashTable",&,N,V_notificationClients;
 - (id);
 
 @end

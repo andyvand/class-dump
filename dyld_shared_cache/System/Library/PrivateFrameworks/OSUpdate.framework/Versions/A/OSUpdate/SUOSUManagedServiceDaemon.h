@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, SUCoreDDMActivityScheduler, SUCorePolicyDDMConfiguration, SUMacControllerDescriptor, SUOSUAuthenticationManager, SUOSUDDMErrorReporter, SUOSUMobileSoftwareUpdateController, SUOSUServiceClient;
+@class NSObject, SUOSUServiceClient;
 @protocol OS_dispatch_queue;
 
 @interface SUOSUManagedServiceDaemon
 {
     SUOSUServiceClient *_client;
-    SUMacControllerDescriptor *_descriptorToUpdate;
-    SUOSUDDMErrorReporter *_ddmErrorReporter;
-    NSObject<OS_dispatch_queue> *_clientQueue;
-    NSObject<OS_dispatch_queue> *_serviceQueue;
-    SUOSUMobileSoftwareUpdateController *_mobileSoftwareUpdateController;
-    SUCoreDDMActivityScheduler *_ddmActivityScheduler;
-    SUOSUAuthenticationManager *_authenticationManager;
-    SUCorePolicyDDMConfiguration *_ddmConfiguration;
 }
 
 - (void);
@@ -54,11 +46,11 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)#;
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -73,29 +65,14 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void)X$;
 
 // Remaining properties
-@property(retain) SUOSUAuthenticationManager *authenticationManager; // @synthesize authenticationManager=_authenticationManager;
-@property(retain) SUOSUServiceClient *client; // @synthesize client=_client;
 @property(retain) NSObject<OS_dispatch_queue> *clientQueue; // @synthesize clientQueue=_clientQueue;
-@property(retain, nonatomic) SUCoreDDMActivityScheduler *ddmActivityScheduler; // @synthesize ddmActivityScheduler=_ddmActivityScheduler;
-@property(retain) SUCorePolicyDDMConfiguration *ddmConfiguration; // @synthesize ddmConfiguration=_ddmConfiguration;
-@property(retain) SUOSUDDMErrorReporter *ddmErrorReporter; // @synthesize ddmErrorReporter=_ddmErrorReporter;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) SUMacControllerDescriptor *descriptorToUpdate; // @synthesize descriptorToUpdate=_descriptorToUpdate;
-@property(readonly) unsigned long long hash;
-@property(retain) SUOSUMobileSoftwareUpdateController *mobileSoftwareUpdateController; // @synthesize mobileSoftwareUpdateController=_mobileSoftwareUpdateController;
-@property(retain) NSObject<OS_dispatch_queue> *serviceQueue; // @synthesize serviceQueue=_serviceQueue;
-@property(readonly) Class superclass;
 
 @end
 

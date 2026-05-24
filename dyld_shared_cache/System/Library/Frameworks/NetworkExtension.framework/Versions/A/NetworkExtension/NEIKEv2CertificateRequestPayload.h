@@ -6,21 +6,18 @@
 
 #import <NetworkExtension/NEIKEv2Payload.h>
 
-@class NSData;
-
 @interface NEIKEv2CertificateRequestPayload : NEIKEv2Payload
 {
     unsigned long long _encoding;
-    NSData *_certificateData;
 }
 
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (unsigned long long);
-- (void)sOffset: /* Error: Ran out of types for this method. */;
-- (id)lete;
+- (unsigned long long)	?נ;
+- (void)setOutboundPassOffset: /* Error: Ran out of types for this method. */;
+- (id)IKESADelete;
 
 @end
 

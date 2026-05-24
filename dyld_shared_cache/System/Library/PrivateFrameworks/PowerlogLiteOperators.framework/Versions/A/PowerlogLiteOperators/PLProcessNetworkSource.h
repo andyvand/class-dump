@@ -9,8 +9,6 @@
 @interface PLProcessNetworkSource
 {
     NSDictionary *_descriptionDictionary;
-    NSDictionary *_countsDictionary;
-    struct __NStatSource *_source;
 }
 
 - (void);
@@ -18,14 +16,12 @@
 - (void);
 - (id);
 - (void);
-- (struct __NStatSource *);
+- (struct __NStatSource *)1;
 - (void)usterReadResults;
 - (id)a.bytes;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *countsDictionary; // @synthesize countsDictionary=_countsDictionary;
 @property(copy, nonatomic) NSDictionary *descriptionDictionary; // @synthesize descriptionDictionary=_descriptionDictionary;
-@property(nonatomic) struct __NStatSource *source; // @synthesize source=_source;
 
 @end
 

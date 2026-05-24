@@ -14,7 +14,7 @@
 + (id);
 + (void);
 - (void);
-- (id);
+- (id)_accessibilitySetIsInActivate:(id)arg1;
 
 @end
 

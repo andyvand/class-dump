@@ -5,11 +5,10 @@
 //
 
 @protocol GCPhysicalInputExtents
+- (double)B;
 - (double)Ð;
 
 // Remaining properties
-@property(readonly) double maximumValue;
-@property(readonly) double minimumValue;
 @property(readonly) double scaledValue;
 @end
 

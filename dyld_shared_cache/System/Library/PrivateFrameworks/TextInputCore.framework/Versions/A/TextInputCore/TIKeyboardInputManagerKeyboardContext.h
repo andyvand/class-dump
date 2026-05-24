@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TIKeyboardOutput, TIKeyboardState, TIRevisionHistory;
+@class TIKeyboardOutput, TIKeyboardState;
 
 @interface TIKeyboardInputManagerKeyboardContext
 {
     TIKeyboardOutput *_output;
-    TIRevisionHistory *_revisionHistory;
-    TIKeyboardState *_currentState;
 }
 
-- (void);
+- (void)didChangeThumperCallingProvisionalURLForSenderIdentityWithUUID:(id)arg1;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)oIAiI/Sources/libressl/libressl-2.6/crypto/rsa/rsa_none.c;
 - (void);
 - (void);
 - (id);
@@ -33,8 +31,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) TIKeyboardState *currentState; // @synthesize currentState=_currentState;
-@property(readonly, nonatomic) TIKeyboardOutput *output; // @synthesize output=_output;
-@property(retain, nonatomic) TIRevisionHistory *revisionHistory; // @synthesize revisionHistory=_revisionHistory;
 
 @end
 

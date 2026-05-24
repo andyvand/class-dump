@@ -6,15 +6,12 @@
 
 #import <AppKit/_NSViewLFLDChangeRecord.h>
 
-@class NSString, NSValue, NSView;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _NSViewLFLDGeometryChangeRecord : _NSViewLFLDChangeRecord
 {
     NSString *_geometricPropertyName;
-    NSValue *_geometricPropertyValue;
-    NSView *_currentLayoutView;
-    NSString *_currentLayoutMethodName;
 }
 
 - (id);
@@ -23,13 +20,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void)SF;
+- (void)EPSF;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *currentLayoutMethodName; // @synthesize currentLayoutMethodName=_currentLayoutMethodName;
-@property(readonly, nonatomic) NSView *currentLayoutView; // @synthesize currentLayoutView=_currentLayoutView;
 @property(readonly, nonatomic) NSString *geometricPropertyName; // @synthesize geometricPropertyName=_geometricPropertyName;
-@property(readonly, nonatomic) NSValue *geometricPropertyValue; // @synthesize geometricPropertyValue=_geometricPropertyValue;
 
 @end
 

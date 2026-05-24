@@ -7,8 +7,6 @@
 @interface TeaUI.BlueprintInfiniteScrollBuilder
 {
     id infiniteScrollProvider;
-    id trigger;
-    id idleTrigger;
 }
 
 @end

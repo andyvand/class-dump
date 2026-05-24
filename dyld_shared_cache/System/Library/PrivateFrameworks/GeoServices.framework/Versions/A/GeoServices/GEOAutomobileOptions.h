@@ -4,35 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOUserPreferences, GEOVehicleSpecifications, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOAutomobileOptions
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOUserPreferences *_userPreferences;
-    GEOVehicleSpecifications *_vehicleSpecifications;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _trafficType;
-    _Bool _includeHistoricTravelTime;
-    _Bool _includeStaticTravelTime;
-    _Bool _optoutIncidentReporting;
-    struct {
-        unsigned int has_trafficType:1;
-        unsigned int has_includeHistoricTravelTime:1;
-        unsigned int has_includeStaticTravelTime:1;
-        unsigned int has_optoutIncidentReporting:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_userPreferences:1;
-        unsigned int read_vehicleSpecifications:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)BatteryCharge:(id)arg1;
-- (_Bool);
++ (_Bool)setHasMinBatteryCharge:(id)arg1;
+- (_Bool)C;
 - (void);
 - (void);
 - (void);
@@ -44,33 +24,33 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)initWithRecordDeviceInfo:playbackRoute:playbackDeviceTypeList: /* Error: Ran out of types for this method. */;
+- (void)hUserInfo:(id)arg1;
+- (int):deviceId:audioProviderUUID:firstPassInfo:rtModelRequestOptions:completion:] /* Error: Ran out of types for this method. */;
+- (id)X;
 - (void);
-- (int);
-- (id);
 - (void);
-- (void);
-- (id);
+- (id)J;
 - (id);
 - (unsigned long long);
+- (_Bool);
+- (void);
 - (_Bool);
+- (_Bool)_userLocationWithinVisibleMapBounds;
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id)kRXLanguageObjectProperty_Optional;
 - (void)1Â0@ù
 × ;
 - (id)@"GEORPFeedbackUserInfo";
-- (id)aceMuid;
-- (_Bool)ayImageURL;
+- (id)placeMuid;
+- (_Bool)_overlayImageURL;
 - (id)XTU;
 - (_Bool)¸d®ìF^;
 - (id)OAddressObject address];
-- (void);
+- (void)SmartDataModeAllowCellular;
 - (void)l;
 - (id)ü;
 - (void)i	8.6;
@@ -78,18 +58,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasIncludeHistoricTravelTime;
-@property(nonatomic) _Bool hasIncludeStaticTravelTime;
-@property(nonatomic) _Bool hasOptoutIncidentReporting;
-@property(nonatomic) _Bool hasTrafficType;
-@property(readonly, nonatomic) _Bool hasUserPreferences;
-@property(readonly, nonatomic) _Bool hasVehicleSpecifications;
-@property(nonatomic) _Bool includeHistoricTravelTime;
-@property(nonatomic) _Bool includeStaticTravelTime;
-@property(nonatomic) _Bool optoutIncidentReporting;
-@property(nonatomic) int trafficType;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) GEOUserPreferences *userPreferences;
-@property(retain, nonatomic) GEOVehicleSpecifications *vehicleSpecifications;
 
 @end
 

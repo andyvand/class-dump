@@ -4,33 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKPersona;
 @protocol CKDSystemAvailabilityWatcher;
 
 @interface CKDSystemAvailabilityWatcherWrapper
 {
     id <CKDSystemAvailabilityWatcher> _delegate;
-    unsigned long long _savedDelegateHash;
-    CKPersona *_persona;
 }
 
 - (void);
 - (unsigned long long);
-- (void);
+- (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)] RemovePlayQueueItem %'@
+;
 - (id);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)`B;
 - (void);
 - (void)j¡´j¢lkl;
 
 // Remaining properties
 @property(nonatomic) __weak id <CKDSystemAvailabilityWatcher> delegate; // @synthesize delegate=_delegate;
-@property(copy, nonatomic) CKPersona *persona; // @synthesize persona=_persona;
-@property(nonatomic) unsigned long long savedDelegateHash; // @synthesize savedDelegateHash=_savedDelegateHash;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol SXLayoutProcessor
+- (void);
 @end
 

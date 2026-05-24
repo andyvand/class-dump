@@ -6,34 +6,20 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class FCCKContentDatabase, FCEdgeCacheHint, NSArray, NSDictionary, NSError;
+@class FCCKContentDatabase;
 
 @interface FCCKOrderFeedQueryOperation : FCOperation
 {
     FCCKContentDatabase *_database;
-    NSArray *_feedRequests;
-    NSArray *_desiredKeys;
-    unsigned long long _resultsLimit;
-    unsigned long long _queryPriority;
-    NSArray *_articleLinkKeys;
-    NSDictionary *_additionalRequestHTTPHeaders;
-    FCEdgeCacheHint *_edgeCacheHint;
-    NSArray *_networkEvents;
-    CDUnknownBlockType _queryCompletionHandler;
-    NSArray *_resultFeedItemAndArticleRecords;
-    NSArray *_resultTagRecords;
-    NSArray *_resultIssueRecords;
-    NSArray *_resultFeedResponses;
-    NSError *_resultError;
 }
 
 + (id);
 + (id);
-+ (id)onValue;
++ (id)sportsTagSeenBaselineImpressionValue;
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void)Reading-List;
 - (void)c}@ is missing article record referenced by config, id=%{public}@;

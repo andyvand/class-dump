@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTrackingArea, SiriUIButton, SiriUIContentLabel, SiriUISymbolButton;
+@class SiriUIContentLabel;
 
 __attribute__((visibility("hidden")))
 @interface SiriUINavigationBarView
 {
     _Bool _isHovered;
-    SiriUIContentLabel *_titleView;
-    SiriUIButton *_backButton;
-    SiriUISymbolButton *_squareBackDrop;
-    NSTrackingArea *_trackingArea;
 }
 
 - (id);
@@ -26,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)_showViewWithMode:alwaysDefinition: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
@@ -34,18 +30,14 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
-- (id)emURL;
+- (id)previewItemURL;
 
 // Remaining properties
-@property(retain, nonatomic) SiriUIButton *backButton; // @synthesize backButton=_backButton;
-@property(nonatomic) _Bool isHovered; // @synthesize isHovered=_isHovered;
-@property(retain, nonatomic) SiriUISymbolButton *squareBackDrop; // @synthesize squareBackDrop=_squareBackDrop;
 @property(retain, nonatomic) SiriUIContentLabel *titleView; // @synthesize titleView=_titleView;
-@property(retain, nonatomic) NSTrackingArea *trackingArea; // @synthesize trackingArea=_trackingArea;
 
 @end
 

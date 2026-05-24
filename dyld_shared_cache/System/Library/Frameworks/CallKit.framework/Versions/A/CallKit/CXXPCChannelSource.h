@@ -26,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (int);
-- (id);
+- (id)hedResultsController",&,V_settingsController;
 - (void);
 
 // Remaining properties

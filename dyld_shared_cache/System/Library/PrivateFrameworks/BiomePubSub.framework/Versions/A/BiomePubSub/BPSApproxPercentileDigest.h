@@ -9,23 +9,17 @@
 @interface BPSApproxPercentileDigest
 {
     float _min;
-    float _max;
-    NSMutableArray *_mergedCentroids;
-    NSMutableArray *_unmergedCentroids;
-    unsigned long long _maxCentroidCount;
-    unsigned long long _totalWeight;
-    unsigned long long _unmergedBufferSize;
 }
 
 + (_Bool);
+- (double);
+- (id);
+- (unsigned long long);
+- (void);
+- (void);
+- (void)R;
+- (void);
 - (double);
-- (id);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
 - (void);
 - (unsigned long long);
 - (id);
@@ -38,24 +32,18 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)x;
 - (void);
-- (id);
+- (id)`;
 - (void);
 - (float);
-- (float);
+- (float);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) float max; // @synthesize max=_max;
-@property(nonatomic) unsigned long long maxCentroidCount; // @synthesize maxCentroidCount=_maxCentroidCount;
 @property(retain, nonatomic) NSMutableArray *mergedCentroids; // @synthesize mergedCentroids=_mergedCentroids;
-@property(nonatomic) float min; // @synthesize min=_min;
-@property(nonatomic) unsigned long long totalWeight; // @synthesize totalWeight=_totalWeight;
-@property(nonatomic) unsigned long long unmergedBufferSize; // @synthesize unmergedBufferSize=_unmergedBufferSize;
-@property(retain, nonatomic) NSMutableArray *unmergedCentroids; // @synthesize unmergedCentroids=_unmergedCentroids;
 
 @end
 

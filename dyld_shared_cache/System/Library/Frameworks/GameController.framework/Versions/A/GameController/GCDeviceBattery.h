@@ -7,11 +7,10 @@
 @interface GCDeviceBattery
 {
     float _batteryLevel;
-    long long _batteryState;
 }
 
 + (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -19,15 +18,14 @@
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void);
 - (float);
 
 // Remaining properties
 @property(nonatomic) float batteryLevel; // @synthesize batteryLevel=_batteryLevel;
-@property(nonatomic) long long batteryState; // @synthesize batteryState=_batteryState;
 
 @end
 

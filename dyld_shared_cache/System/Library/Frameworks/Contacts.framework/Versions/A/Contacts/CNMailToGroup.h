@@ -29,7 +29,7 @@
 - (id);
 - (void)0@ù
 × ;
-- (id)tionType;
+- (id)DateActionType;
 - (void)p;
 
 // Remaining properties

@@ -5,5 +5,11 @@
 //
 
 @protocol _UIViewServiceTextEffectsOperator_RemoteViewControllerInterface
+- (void);
+- (void)aliasToCNIDMapUnavailable;
+- (void)identifier;
+- (void)completed;
+- (void)identifiersWithoutChats;
+- (void)latestTaskReports;
 @end
 

@@ -6,22 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PEGASUSSchemaPEGASUSIntent : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    int _intentCategory;
-    NSString *_name;
-    int _source;
-    float _confidence;
-    struct {
-        unsigned int intentCategory:1;
-        unsigned int source:1;
-        unsigned int confidence:1;
-    } _has;
-    _Bool _hasLinkId;
-    _Bool _hasName;
 }
 
 - (void);
@@ -30,50 +19,40 @@
 - (void);
 - (void);
 - (void);
+- (void)arySizeAsNumber:(id)arg1 completionHandler:] /* Error: Ran out of types for this method. */;
+- (void)ViewControllerDidFailLoading:(_Bool)arg1 error:]_block_invoke /* Error: Ran out of types for this method. */;
+- (id)ACCOUNT_BENEFICIARY;
+- (_Bool)SECONDARY_SERVICESVIEW_DESCRIPTION;
 - (void);
+- (_Bool);
+- (_Bool);
+- (id);
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
+- (_Bool)4;
+- (void)An4RIPhda0kDGxz-sNUlGSu45C4/Library/Caches/com.apple.xbs/TemporaryDirectory.sfEDjv/Sources/MessagesCore/IMCore/IMDPersistence/Source/ImportExport/Exporting/Exporters/IMDParticipantExporter.swift;
+- (_Bool)Nil or empty path parameter;
+- (void)!;
 - (id);
 - (int);
 - (id)
 × ;
-- (float)InMs;
-- (void)Handheld;
-- (id)er;
+- (float)siriResponseTimeInMs;
+- (void)hasDeviceHandheld;
+- (id)_hasAssetSpecifier;
 - (id)eCommandExecuted;
-- (void)rBridgeSubComponentContext;
-- (int)AlternativesPresent;
-- (_Bool)DATACOLLECTIONGROUP_LIVEON;
+- (void)ORCHSchemaORCHNLRouterBridgeSubComponentContext;
+- (int)dictationAlternativesPresent;
+- (_Bool)CDADATACOLLECTIONGROUP_LIVEON;
 - (void).bundleId;
 - (void)ss.returnValue.value.enumeration.typeIdentifier.custom.bundleId;
 
 // Remaining properties
-@property(nonatomic) float confidence; // @synthesize confidence=_confidence;
-@property(nonatomic) _Bool hasConfidence;
-@property(nonatomic) _Bool hasIntentCategory;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasName; // @synthesize hasName=_hasName;
-@property(nonatomic) _Bool hasSource;
-@property(nonatomic) int intentCategory; // @synthesize intentCategory=_intentCategory;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) int source; // @synthesize source=_source;
 
 @end
 

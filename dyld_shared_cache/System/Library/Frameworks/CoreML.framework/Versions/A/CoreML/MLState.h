@@ -5,29 +5,24 @@
 //
 
 @class NSDictionary;
-@protocol MLFeatureProvider;
 
 @interface MLState
 {
     struct os_unfair_lock_s _featureProviderRepresentationCacheLock;
-    id <MLFeatureProvider> _featureProviderRepresentationCache;
-    struct os_unfair_lock_s _stateBuffersLock;
-    NSDictionary *_backings;
 }
 
 + (id);
-- (void);
+- (void)rArrayInternal setObject:(CDUnknownBlockType)arg1 atIndexedSubscript:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)ritableState() called in state DtlsTransportState::kFailed. /* Error: Ran out of types for this method. */;
 - (void)during compilation.;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *backings; // @synthesize backings=_backings;
-@property(readonly, copy, nonatomic) id <MLFeatureProvider> featureProviderRepresentation;
 
 @end
 

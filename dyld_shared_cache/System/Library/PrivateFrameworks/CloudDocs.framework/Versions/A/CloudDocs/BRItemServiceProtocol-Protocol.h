@@ -5,5 +5,9 @@
 //
 
 @protocol BRItemServiceProtocol
+- (void);
+- (void)h~=;
+- (void)o ;
+- (void)h;
 @end
 

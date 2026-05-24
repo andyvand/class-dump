@@ -6,13 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMPayloadBase.h>
 
-@class CEMApplicationLockDeclaration_AppOptions, CEMApplicationLockDeclaration_AppUserEnabledOptions, NSString;
+@class NSString;
 
 @interface CEMApplicationLockDeclaration_App : CEMPayloadBase
 {
     NSString *_payloadIdentifier;
-    CEMApplicationLockDeclaration_AppOptions *_payloadOptions;
-    CEMApplicationLockDeclaration_AppUserEnabledOptions *_payloadUserEnabledOptions;
 }
 
 + (id);
@@ -23,16 +21,14 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqssssssssssssqqqqqqqqqqqqqqqssqqqqqqqqqqqqqqqsqqqqqqqqqqqqqqrsqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqssssssssss6;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)h;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *payloadIdentifier; // @synthesize payloadIdentifier=_payloadIdentifier;
-@property(copy, nonatomic) CEMApplicationLockDeclaration_AppOptions *payloadOptions; // @synthesize payloadOptions=_payloadOptions;
-@property(copy, nonatomic) CEMApplicationLockDeclaration_AppUserEnabledOptions *payloadUserEnabledOptions; // @synthesize payloadUserEnabledOptions=_payloadUserEnabledOptions;
 
 @end
 

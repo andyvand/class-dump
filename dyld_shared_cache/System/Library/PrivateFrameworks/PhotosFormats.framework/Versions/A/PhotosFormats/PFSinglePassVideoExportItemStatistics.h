@@ -4,44 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface PFSinglePassVideoExportItemStatistics
 {
     float _frameRate;
-    unsigned long long _lastOutputChunkTimestamp;
-    NSMutableArray *_outputChunkMeasurements;
-    unsigned long long _processedOutputTotalBytes;
-    unsigned long long _processedVideoSampleBytes;
-    unsigned long long _processedAdditionalSampleBytes;
-    double _conversionDuration;
-    double _lastProcessedInputFramePresentationTime;
-    long long _processedOutputFrameCount;
-    unsigned long long _targetOutputTotalBytes;
-    double _targetPlaybackDuration;
 }
 
 + (id);
-- (double);
+- (double). 8 ;
 - (unsigned long long);
 - (long long);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)*;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (float);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)C/Foundation;
+- (unsigned long long)meworks/Foundation.framework/Versions/C/Foundation;
 - (long long);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
+- (unsigned long long)amework/Versions/A/CoreSpotlight;
+- (unsigned long long)/System/Library/Frameworks/CoreSpotlight.framework/Versions/A/CoreSpotlight;
+- (id)tem/Library/PrivateFrameworks/SpotlightDaemon.framework/Versions/A/SpotlightDaemon;
 - (id);
 - (double);
 - (unsigned long long);
@@ -49,32 +37,16 @@
 - (long long);
 - (double);
 - (double);
-- (unsigned long long);
+- (unsigned long long)I;
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (float);
-- (void);
+- (void)NSCopying;
 
 // Remaining properties
-@property(readonly) unsigned long long averageOutputChunkBytes;
-@property(readonly) double averageOutputChunkTimeInterval;
-@property double conversionDuration; // @synthesize conversionDuration=_conversionDuration;
-@property(readonly) long long effectiveEncodingBitRate;
-@property float frameRate; // @synthesize frameRate=_frameRate;
 @property unsigned long long lastOutputChunkTimestamp; // @synthesize lastOutputChunkTimestamp=_lastOutputChunkTimestamp;
-@property double lastProcessedInputFramePresentationTime; // @synthesize lastProcessedInputFramePresentationTime=_lastProcessedInputFramePresentationTime;
-@property(retain) NSMutableArray *outputChunkMeasurements; // @synthesize outputChunkMeasurements=_outputChunkMeasurements;
-@property unsigned long long processedAdditionalSampleBytes; // @synthesize processedAdditionalSampleBytes=_processedAdditionalSampleBytes;
-@property(readonly) unsigned long long processedOutputBytesPerSecond;
-@property long long processedOutputFrameCount; // @synthesize processedOutputFrameCount=_processedOutputFrameCount;
-@property unsigned long long processedOutputTotalBytes; // @synthesize processedOutputTotalBytes=_processedOutputTotalBytes;
-@property unsigned long long processedVideoSampleBytes; // @synthesize processedVideoSampleBytes=_processedVideoSampleBytes;
-@property(readonly) float processingFramesPerSecond;
-@property(readonly) long long targetEncodingBitRate;
-@property unsigned long long targetOutputTotalBytes; // @synthesize targetOutputTotalBytes=_targetOutputTotalBytes;
-@property double targetPlaybackDuration; // @synthesize targetPlaybackDuration=_targetPlaybackDuration;
 
 @end
 

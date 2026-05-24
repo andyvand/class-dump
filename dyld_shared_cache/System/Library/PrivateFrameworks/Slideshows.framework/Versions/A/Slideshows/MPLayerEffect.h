@@ -6,43 +6,31 @@
 
 #import <Slideshows/MPLayer.h>
 
-@class MCContainerEffect, NSArray, NSMutableArray, NSMutableDictionary, NSObject, NSString;
-@protocol MZEffectTiming;
+@class MCContainerEffect, NSString;
 
 @interface MPLayerEffect : MPLayer
 {
     MCContainerEffect *_layerEffect;
-    NSString *_effectID;
-    NSString *_presetID;
-    NSMutableArray *_slides;
-    NSMutableArray *_secondarySlides;
-    NSMutableArray *_texts;
-    NSMutableDictionary *_effectAttributes;
-    long long _randomSeed;
-    NSObject<MZEffectTiming> *_effectTiming;
-    _Bool _supportsEffectTiming;
-    _Bool _skipEffectTiming;
-    long long _liveIndex;
 }
 
++ (id)a';
 + (id);
 + (id);
 + (id);
-+ (id);
-- (id);
-- (id);
-- (id);
+- (id)iCloudAccountState;
+- (id)userID;
+- (id)cacheState;
+- (void);
+- (void)}@;
 - (void);
 - (void);
+- (void)external;
+- (void)_scheduleBackgroundUploadInWindow:(id)arg1 ];
+- (void)thError:(id)arg1 ];
+- (void);
+- (void)?;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)G;
 - (id);
 - (void);
 - (void);
@@ -64,7 +52,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)A;
 - (void);
 - (void);
 - (void);
@@ -74,7 +62,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -87,7 +75,7 @@
 - (double);
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (void);
 - (id);
 - (_Bool);
@@ -103,10 +91,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *effectID;
-@property(readonly, nonatomic) NSObject<MZEffectTiming> *effectTiming; // @synthesize effectTiming=_effectTiming;
-@property(copy, nonatomic) NSString *presetID;
-@property(readonly, nonatomic) NSArray *slides;
-@property(readonly, nonatomic) NSArray *texts;
 
 @end
 

@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NWConcrete_nw_listener;
-@protocol OS_nw_advertise_descriptor, OS_nw_dictionary, OS_nw_parameters, OS_nw_path_evaluator;
+@class NWConcrete_nw_listener;
 
 __attribute__((visibility("hidden")))
 @interface _NWAdvertiser
 {
     NWConcrete_nw_listener *listener;
-    NSObject<OS_nw_advertise_descriptor> *advertise;
-    _NWAdvertiser *parent;
-    NSObject<OS_nw_path_evaluator> *evaluator;
-    NSObject<OS_nw_parameters> *parameters;
-    NSArray *children;
-    NSObject<OS_nw_dictionary> *flow_registrations;
-    struct _DNSServiceRef_t *dnsref;
 }
 
-- (void);
+- (void)Tree '%s' is read-only tree can't update values;
 - (void)@;
 
 @end

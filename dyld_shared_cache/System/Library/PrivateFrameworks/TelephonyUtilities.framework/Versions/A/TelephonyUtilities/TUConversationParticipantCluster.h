@@ -9,7 +9,6 @@
 @interface TUConversationParticipantCluster
 {
     NSUUID *_UUID;
-    long long _type;
 }
 
 + (long long);
@@ -23,18 +22,17 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (unsigned long long);
 - (long long);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void)gStartedDate: /* Error: Ran out of types for this method. */;
+- (void)setRecordingStartedDate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

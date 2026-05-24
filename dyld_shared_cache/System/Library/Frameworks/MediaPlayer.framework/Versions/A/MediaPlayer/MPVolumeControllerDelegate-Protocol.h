@@ -5,5 +5,10 @@
 //
 
 @protocol MPVolumeControllerDelegate
+
+@optional
+- (void);
+- (void);
+- (void)to send message as there is no longer a pairing session;
 @end
 

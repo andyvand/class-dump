@@ -16,7 +16,7 @@
 + (id);
 - (unsigned long long);
 - (void);
-- (oneway void);
+- (oneway void)?Iq ;
 - (id);
 - (id);
 - (double);
@@ -24,7 +24,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (id)figurations;
+- (id)HMDeviceConfigurations;
 
 @end
 

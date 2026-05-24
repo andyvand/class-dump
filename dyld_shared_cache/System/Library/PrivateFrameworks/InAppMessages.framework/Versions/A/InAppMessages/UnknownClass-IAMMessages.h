@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (IAMMessages)
-+ (id);
++ (id);
 @end
 

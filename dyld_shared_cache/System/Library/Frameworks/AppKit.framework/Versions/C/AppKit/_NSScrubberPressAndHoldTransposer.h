@@ -7,19 +7,16 @@
 #import <AppKit/NSTouchBarStandardPopoverTransposer.h>
 
 @class NSScrubber;
-@protocol _NSGestureEnvironment;
 
 __attribute__((visibility("hidden")))
 @interface _NSScrubberPressAndHoldTransposer : NSTouchBarStandardPopoverTransposer
 {
     NSScrubber *_targetScrubber;
-    id <_NSGestureEnvironment> _gestureEnvironment;
-    unsigned int _trackingLatched:1;
 }
 
 - (id);
-- (void);
-- (void);
+- (void)t-effective-pid;
+- (void)default handling did not find creds, will send challenge %@;
 - (void);
 
 @end

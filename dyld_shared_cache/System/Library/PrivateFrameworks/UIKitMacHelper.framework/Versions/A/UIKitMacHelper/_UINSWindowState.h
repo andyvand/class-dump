@@ -8,25 +8,19 @@ __attribute__((visibility("hidden")))
 @interface _UINSWindowState
 {
     _Bool _minimizedToDock;
-    _Bool _onInvisibleSpace;
-    _Bool _orderedOut;
-    _Bool _tabbedOut;
 }
 
 - (_Bool);
 - (void);
 - (void);
+- (void)B;
 - (void);
-- (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool minimizedToDock; // @synthesize minimizedToDock=_minimizedToDock;
-@property(nonatomic) _Bool onInvisibleSpace; // @synthesize onInvisibleSpace=_onInvisibleSpace;
-@property(nonatomic) _Bool orderedOut; // @synthesize orderedOut=_orderedOut;
-@property(nonatomic) _Bool tabbedOut; // @synthesize tabbedOut=_tabbedOut;
 
 @end
 

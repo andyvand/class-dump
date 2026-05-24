@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSMutableDictionary, NSString;
+
 @protocol AceObject
+- (NSMutableDictionary *)ck_textKit2_enumerateAllAutomaticConfirmedMentionsUsingBlock: /* Error: Ran out of types for this method. */;
+- (id);
+- (NSString *)H;
 @end
 

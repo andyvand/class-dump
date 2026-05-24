@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWNode, NSString;
+@class BWNode;
 
 @interface FigBWNodeRenderObserver
 {
     BWNode *_node;
-    CDUnknownBlockType _willRenderSampleBufferHandler;
-    CDUnknownBlockType _formatDidBecomeLiveHandler;
 }
 
-- (void);
+- (void)encodedLengthForDataLength:key: /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType);
 - (id);
 - (void);
@@ -24,14 +22,6 @@
 - (void)ÿçÿèÿ èÿ§èÿ­èÿ³éÿ¹éÿÀéÿÆéÿÌêÿÒêÿÙêÿàêÿæêÿíêÿóêÿûêÿÿêÿÿêÿÿêÿÿêÿwîÿxîÿyîÿ{îÿ}îÿîÿîÿîÿïÿïÿïÿïÿïÿ¤ðÿªðÿ°ðÿ¶ðÿ¼ðÿÃñÿÉñÿÏñÿÕñÿÛñÿãñÿéòÿïòÿöòÿýòÿÿòÿÿòÿÿòÿÿòÿ~öÿöÿöÿ÷ÿ÷ÿ÷ÿ÷ÿ÷ÿ÷ÿ÷ÿøÿøÿ£øÿ©øÿ¯øÿ´ùÿºùÿÀùÿÆùÿÌùÿÒùÿØúÿßúÿåúÿìúÿòúÿøúÿÿúÿÿúÿÿúÿÿúÿÿúÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType formatDidBecomeLiveHandler; // @synthesize formatDidBecomeLiveHandler=_formatDidBecomeLiveHandler;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) CDUnknownBlockType willRenderSampleBufferHandler; // @synthesize willRenderSampleBufferHandler=_willRenderSampleBufferHandler;
 
 @end

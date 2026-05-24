@@ -5,9 +5,10 @@
 //
 
 @protocol ASDManagedRingBuffer
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool readerRunning;
-@property(readonly, nonatomic) _Bool writerRunning;
 @end
 

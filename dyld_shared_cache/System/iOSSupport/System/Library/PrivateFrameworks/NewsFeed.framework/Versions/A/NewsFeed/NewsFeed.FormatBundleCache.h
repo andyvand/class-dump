@@ -7,7 +7,6 @@
 @interface NewsFeed.FormatBundleCache
 {
     id lock;
-    id cache;
 }
 
 @end

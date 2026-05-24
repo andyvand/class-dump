@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileHandle, NSURL;
+@class NSURL;
 
 @interface DEFileWriter
 {
     NSURL *_dest;
-    NSFileHandle *_file;
 }
 
 - (void);
@@ -17,15 +16,14 @@
 - (void);
 - (id);
 - (void);
+- (id)(A;
 - (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (void)Ñ;
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *dest; // @synthesize dest=_dest;
-@property(retain, nonatomic) NSFileHandle *file; // @synthesize file=_file;
 
 @end
 

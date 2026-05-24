@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, HMHomeManager, NSString;
+@class HMHomeManager;
 
 @interface _CDHomeManagerUtilities
 {
     HMHomeManager *_homeManager;
-    CNContactStore *_contactStore;
 }
 
 + (id)48;
-- (id);
-- (id);
-- (id);
+- (id)tj;
+- (id);
+- (id)F;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

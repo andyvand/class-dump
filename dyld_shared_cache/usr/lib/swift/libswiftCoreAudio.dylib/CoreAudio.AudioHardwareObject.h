@@ -7,9 +7,6 @@
 @interface CoreAudio.AudioHardwareObject
 {
     id id;
-    id delegatesMutex;
-    id registeredPropertiesMutex;
-    id asyncSetterDelegate;
 }
 
 @end

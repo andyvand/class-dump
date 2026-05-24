@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceConnectionListener, BSServiceQueue, NSString;
+@class BSServiceConnectionListener;
 @protocol UISApplicationStateServiceDelegate;
 
 @interface UISApplicationStateService
 {
     BSServiceConnectionListener *_listener;
-    BSServiceQueue *_calloutQueue;
-    id <UISApplicationStateServiceDelegate> _delegate;
-    struct {
-        unsigned int delegateDataSourceForApplicationBundleIdentifier:1;
-    } _delegateFlags;
 }
 
 - (_Bool);
@@ -22,7 +17,7 @@
 - (void);
 - (id);
 - (id);
-- (oneway void);
+- (oneway void)setDataStreamTransportInterruptSequenceNumber:(id)arg1;
 - (_Bool);
 - (oneway void);
 - (id);
@@ -38,14 +33,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <UISApplicationStateServiceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

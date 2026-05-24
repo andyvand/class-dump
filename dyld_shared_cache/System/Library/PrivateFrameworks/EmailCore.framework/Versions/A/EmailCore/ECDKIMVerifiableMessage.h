@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECRawMessageHeaders, NSData;
+@class ECRawMessageHeaders;
 
 @interface ECDKIMVerifiableMessage
 {
     ECRawMessageHeaders *_headers;
-    NSData *_bodyData;
 }
 
+- (id)iver (if there is one).;
+- (id)SelectRolloutNotificationList;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)lock system without a password;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *bodyData; // @synthesize bodyData=_bodyData;
 @property(readonly, nonatomic) ECRawMessageHeaders *headers; // @synthesize headers=_headers;
 
 @end

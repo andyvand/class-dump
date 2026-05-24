@@ -4,38 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableSet, NSObject;
-@protocol OS_dispatch_queue, _UIKBRTRecognizerDelegate, _UIKBRTRecognizerTouchLoggingProtocol, _UIKBRTRecognizerTouchPointTrackingProtocol;
-
 __attribute__((visibility("hidden")))
 @interface _UIKBRTRecognizer
 {
     _Bool _isWaiting;
-    _Bool _disableHomeRowReturn;
-    id <_UIKBRTRecognizerDelegate> _delegate;
-    id <_UIKBRTRecognizerTouchLoggingProtocol> _touchLogger;
-    id <_UIKBRTRecognizerTouchPointTrackingProtocol> _touchTracker;
-    NSMutableSet *_definitiveRules;
-    NSMutableSet *_averagingRules;
-    double _maximumNonRestMoveDistance;
-    NSObject<OS_dispatch_queue> *_touchQueue;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    NSMutableArray *_touchInfos;
-    NSMutableSet *_activeTouches;
-    NSObject<OS_dispatch_queue> *_activeTouchesQueue;
-    NSMutableArray *_ignoredTouches;
-    NSObject<OS_dispatch_queue> *_ignoredTouchesQueue;
-    unsigned long long _numProlongedTouches;
-    double _touchIntervalAverage;
-    struct CGSize _clusterRestHaloSize;
 }
 
+- (void)butes;
 - (void);
-- (void);
 - (id);
 - (id);
-- (id);
-- (double);
+- (id)h;
+- (double);
 - (id);
 - (void);
 - (void);
@@ -53,72 +33,56 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)String"24C32@"NSDictionary"36@"NSDictionary"44;
+- (_Bool)"16@"NSNumber"24;
+- (_Bool)NSString"16q24;
+- (void)onary"16@0:(id)arg1 8;
+- (unsigned long long)@40@0:8@16@24@32 /* Error: Ran out of types for this method. */;
+- (void)writeAccount:(id)arg1 defaults: /* Error: Ran out of types for this method. */;
 - (void);
-- (unsigned long long);
+- (_Bool)whitespaceAndNewlineCharacterSet;
+- (void)wellKnownPhotoLibraryURLForIdentifier:(id)arg1;
+- (void)weakToStrongObjectsMapTable;
+- (double)syncCoordinatorFinishedFetchingRecordsOfType:name:identifier:count:error: /* Error: Ran out of types for this method. */;
+- (void)submitCloudKitMetricWithData:(id)arg1 operationGroupName:(id)arg2 completion: /* Error: Ran out of types for this method. */;
+- (void)D:(id)arg1;
+- (void)storeMessages:(id)arg1 messagesToWithdraw:(_Bool)arg2 messagesToPost:chatIdentifier:style:account:fromIDSID: /* Error: Ran out of types for this method. */;
+- (_Bool)storeMessages:(id)arg1 messagesToWithdraw:messagesToPost:chatIdentifier:style:account:fromIDSID: /* Error: Ran out of types for this method. */;
+- (float)shouldTrackForRequery;
+- (void)setPlainTextBody:(id)arg1;
+- (id)loadFrequentRepliesForChatWithGUID:chatIdentifiers:style:services:limit:reply: /* Error: Ran out of types for this method. */;
+- (id)loadFrequentRepliesForChatWithGUID:chatIdentifiers:style:services:limit:reply: /* Error: Ran out of types for this method. */;
+- (void)generateUnusedChatIdentifierForGroupChatWithAccount:(id)arg1;
+- (_Bool)currentRemoteDevicesForDestinations:service:listenerID:queue:completionBlock: /* Error: Ran out of types for this method. */;
+- (struct CGSize)_reportMessageDictionaryForMessages:isAutoReport:withChat:conversationID:maxMessagesToReport:totalMessageCount:isJunkReportedToCarrier:reportReason:context: /* Error: Ran out of types for this method. */;
+- (void)_pendingIncomingSatelliteMessageCount;
+- (id)_handleChatParticipantsDidChange: /* Error: Ran out of types for this method. */;
+- (_Bool)_askToBuyResponseHandler;
+- (id)ReadWithV1NoQOI;
+- (void)tched salt %@, error %@;
+- (void)bled %@ first unlock %@;
+- (void)**;
+- (void)salt :(id)arg1 %@;
+- (void)to handle unknown payload type (type:(id)arg1 %tu).;
 - (void);
+- (id)geSortOrderAssigner compareMessageToOtherMessagesWithSameReplyToGUIDAndAssignSortID:existingMessagesWithSameReplyToGUID:] /* Error: Ran out of types for this method. */;
+- (void)estContext.currentContext;
+- (void)esid;
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (double);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (float);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (struct CGSize);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)__kIMDManagedPreferencesChangedNotification;
+- (void)h;
+- (id)libraryPathDidChangeForDataProvider: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)0@ù
 × ;
-- (id)verPresentationController;
-- (void)Section:(id)arg1;
-- (void)espace;
+- (id)creatingPopoverPresentationController;
+- (void)_subviewRouterForOrthogonalScrollViewAtSection:(id)arg1;
+- (void)whitespace;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableSet *activeTouches; // @synthesize activeTouches=_activeTouches;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *activeTouchesQueue; // @synthesize activeTouchesQueue=_activeTouchesQueue;
-@property(readonly, nonatomic) NSMutableSet *averagingRules; // @synthesize averagingRules=_averagingRules;
 @property(nonatomic) struct CGSize clusterRestHaloSize; // @synthesize clusterRestHaloSize=_clusterRestHaloSize;
-@property(readonly, nonatomic) NSMutableSet *definitiveRules; // @synthesize definitiveRules=_definitiveRules;
-@property(nonatomic) id <_UIKBRTRecognizerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(nonatomic) _Bool disableHomeRowReturn; // @synthesize disableHomeRowReturn=_disableHomeRowReturn;
-@property(retain, nonatomic) NSMutableArray *ignoredTouches; // @synthesize ignoredTouches=_ignoredTouches;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *ignoredTouchesQueue; // @synthesize ignoredTouchesQueue=_ignoredTouchesQueue;
-@property(nonatomic) double maximumNonRestMoveDistance; // @synthesize maximumNonRestMoveDistance=_maximumNonRestMoveDistance;
-@property(nonatomic) unsigned long long numProlongedTouches; // @synthesize numProlongedTouches=_numProlongedTouches;
-@property(retain, nonatomic) NSMutableArray *touchInfos; // @synthesize touchInfos=_touchInfos;
-@property(nonatomic) double touchIntervalAverage; // @synthesize touchIntervalAverage=_touchIntervalAverage;
-@property(retain, nonatomic) id <_UIKBRTRecognizerTouchLoggingProtocol> touchLogger; // @synthesize touchLogger=_touchLogger;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *touchQueue; // @synthesize touchQueue=_touchQueue;
-@property(retain, nonatomic) id <_UIKBRTRecognizerTouchPointTrackingProtocol> touchTracker; // @synthesize touchTracker=_touchTracker;
 
 @end
 

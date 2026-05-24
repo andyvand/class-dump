@@ -9,26 +9,24 @@
 @interface CTDataUsed
 {
     CTDataUsage *_native;
-    CTDataUsage *_proxied;
 }
 
-+ (_Bool);
++ (_Bool)ength;
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)�?;
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)v;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) CTDataUsage *native; // @synthesize native=_native;
-@property(readonly, nonatomic) CTDataUsage *proxied; // @synthesize proxied=_proxied;
 
 @end
 

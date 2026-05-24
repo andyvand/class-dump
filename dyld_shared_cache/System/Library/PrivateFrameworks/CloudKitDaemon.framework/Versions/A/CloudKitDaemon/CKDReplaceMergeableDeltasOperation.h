@@ -7,35 +7,30 @@
 #import <CloudKitDaemon/CKDDatabaseOperation.h>
 
 @class NSArray;
-@protocol CKReplaceMergeableDeltasOperationCallbacks><CKDOperationCallbackProxy;
 
 @interface CKDReplaceMergeableDeltasOperation : CKDDatabaseOperation
 {
     CDUnknownBlockType _perReplacementCompletionBlock;
-    NSArray *_replaceDeltasRequests;
 }
 
-+ (id);
++ (id)setThermalIndex50Duration:(unsigned long long)arg1;
 - (void);
 - (void);
+- (void)h;
 - (void);
-- (void);
-- (void);
+- (void){;
 - (id);
-- (CDUnknownBlockType);
-- (_Bool);
+- (CDUnknownBlockType);
+- (_Bool)recategorize.recategorizationBy,           receive.isL1,           ROW_NUMBER() OVER (ORDER BY RANDOM()) AS rn    FROM receive         LEFT JOIN read                 ON receive.accountId = read.accountId                    AND receive.messageId = read.messageId         LEFT JOIN recategorize                 ON receive.accountId = recategorize.accountId                    AND receive.messageId = recategorize.messageId), sampled_msg_cnt AS (    SELECT MIN(500, (ABS(RANDOM()) %% (COUNT(*) - FLOOR(0.9 * COUNT(*)) + 1)) + FLOOR(0.9 * COUNT(*))) AS max_rn    FROM flattened) SELECT accountId,       messageId,       senderId,       receivingAccountDomain,       metadataPrimaryKey,       isAllInboxesBlackPearlEnabled,       isMailAccountPersonalAccount,       isMailAccountBlackPearlEnabled,       predictedCategory,       currCategoryView,       hadFirstReadWithBlackPearlEnabled,       hadReadBeforeRecat,       reasonCodes,       recategorizationBy,       isL1 FROM flattened      JOIN sampled_msg_cnt           ON 1=1 WHERE rn <= max_rn;;
 - (id);
 - (void);
 - (int);
 - (id);
-- (_Bool)GroupFrequency: /* Error: Ran out of types for this method. */;
+- (_Bool)setReportOperationGroupFrequency: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <CKReplaceMergeableDeltasOperationCallbacks><CKDOperationCallbackProxy> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(copy, nonatomic) CDUnknownBlockType perReplacementCompletionBlock; // @synthesize perReplacementCompletionBlock=_perReplacementCompletionBlock;
 @property(retain, nonatomic) NSArray *replaceDeltasRequests; // @synthesize replaceDeltasRequests=_replaceDeltasRequests;
-@property(nonatomic) unsigned long long state; // @dynamic state;
 
 @end
 

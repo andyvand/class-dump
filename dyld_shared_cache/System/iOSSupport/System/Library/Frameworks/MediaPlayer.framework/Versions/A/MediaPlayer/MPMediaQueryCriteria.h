@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableSet, NSSet;
+@class NSMutableSet;
 
 @interface MPMediaQueryCriteria
 {
     NSMutableSet *_filterPredicates;
-    unsigned long long _entityOrder;
-    long long _groupingType;
-    unsigned long long _entityLimit;
-    NSArray *_orderingProperties;
-    NSSet *_itemPropertiesToFetch;
-    NSSet *_collectionPropertiesToFetch;
-    _Bool _useSections;
-    _Bool _ignoreSystemFilterPredicates;
-    _Bool _ignoreRestrictionsPredicates;
-    _Bool _includeNonLibraryEntities;
-    _Bool _includeEntitiesWithBlankNames;
-    NSDictionary *_orderingDirectionMappings;
 }
 
 - (_Bool);
@@ -32,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -41,40 +29,27 @@
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
+- (id)returnType;
+- (void)listenStmt;
+- (void)renameStmt;
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)a:remoteOnly:error:block: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
-- (_Bool)ngIsFinalMetadata: /* Error: Ran out of types for this method. */;
-- (void)mage:(_Bool)arg1 forState: /* Error: Ran out of types for this method. */;
+- (_Bool)storeItemMetadataForItemIdentifier:returningIsFinalMetadata: /* Error: Ran out of types for this method. */;
+- (void)setMinimumVolumeSliderImage:(_Bool)arg1 forState: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)count=%zu;
 - (_Bool)ntainedWithinSyncIDs:groupingType:existentPID:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *collectionPropertiesToFetch; // @synthesize collectionPropertiesToFetch=_collectionPropertiesToFetch;
-@property(nonatomic) unsigned long long entityLimit; // @synthesize entityLimit=_entityLimit;
-@property(nonatomic) unsigned long long entityOrder; // @synthesize entityOrder=_entityOrder;
-@property(readonly, nonatomic) _Bool excludesEntitiesWithBlankNames;
-@property(copy, nonatomic) NSSet *filterPredicates; // @synthesize filterPredicates=_filterPredicates;
-@property(nonatomic) long long groupingType; // @synthesize groupingType=_groupingType;
-@property(nonatomic) _Bool ignoreRestrictionsPredicates; // @synthesize ignoreRestrictionsPredicates=_ignoreRestrictionsPredicates;
-@property(nonatomic) _Bool ignoreSystemFilterPredicates; // @synthesize ignoreSystemFilterPredicates=_ignoreSystemFilterPredicates;
-@property(nonatomic) _Bool includeEntitiesWithBlankNames; // @synthesize includeEntitiesWithBlankNames=_includeEntitiesWithBlankNames;
-@property(nonatomic) _Bool includeNonLibraryEntities; // @synthesize includeNonLibraryEntities=_includeNonLibraryEntities;
-@property(copy, nonatomic) NSSet *itemPropertiesToFetch; // @synthesize itemPropertiesToFetch=_itemPropertiesToFetch;
-@property(copy, nonatomic) NSDictionary *orderingDirectionMappings; // @synthesize orderingDirectionMappings=_orderingDirectionMappings;
-@property(copy, nonatomic) NSArray *orderingProperties; // @synthesize orderingProperties=_orderingProperties;
 @property(readonly, nonatomic) _Bool specifiesPlaylistItems;
 
 @end

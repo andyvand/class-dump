@@ -7,17 +7,6 @@
 @interface (extension in HomeKitDaemon):__C.HMDHome.HomeWiFiInfoFetchMetricEventTracker__priv_73012FE8AC56C4A293325838CCBABF8F
 {
     id homeUUID;
-    id logEventSubmitter;
-    id currentNetworkSSID;
-    id startTime;
-    id primaryResidentAccessoryExist;
-    id primaryResidentRapportDiscoverable;
-    id fetchSucceeded;
-    id fetchedResponseHasWiFiInfo;
-    id fetchedResponseHasSSID;
-    id fetchedResponseHasSameSSIDAsController;
-    id currentSSIDExist;
-    id fetchDurationInMS;
 }
 
 @end

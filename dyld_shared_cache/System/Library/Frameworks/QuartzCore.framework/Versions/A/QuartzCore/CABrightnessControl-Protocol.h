@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSUUID;
+@class NSUUID;
 
 @protocol CABrightnessControl
-- (_Bool)mA2S1Xhfcu_Icir;
+- (void)r;
+- (_Bool);
+- (void)ader_yuvs_DV420p   */
+;
+- (_Bool)!;
+- (void)NSViewBridgeErrorUnknownKey;
+- (NSUUID *)kCUIWidgetButtonPushToolbar;
+- (unsigned int)`;
+- (_Bool)Pb3a8BsovXm_TcimA2S1Xhfcu_Icir;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool brightnessAvailable;
-@property(readonly, nonatomic) NSDictionary *brightnessCapabilities;
 @property(readonly) unsigned int displayId;
-@property(readonly) long long displayType;
-@property(nonatomic) double maximumHDRLuminance;
-@property(nonatomic) double maximumReferenceLuminance;
-@property(nonatomic) double maximumSDRLuminance;
-@property(nonatomic) double minimumLuminance;
-@property(readonly, nonatomic) unsigned long long productId;
-@property(readonly, nonatomic) unsigned int serviceObject;
-@property(readonly, nonatomic) NSUUID *uuid;
-@property(readonly, nonatomic) unsigned long long vendorId;
-@property(readonly, nonatomic) _Bool whitePointAvailable;
-@property(readonly, nonatomic) _Bool whitePointD50XYZ;
 @end
 

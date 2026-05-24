@@ -6,7 +6,7 @@
 
 #import <DifferentialPrivacy/_DPCMSRecordMO.h>
 
-@class NSData, NSString;
+@class NSData;
 
 @interface _DPCMSSequenceMO : _DPCMSRecordMO
 {
@@ -14,8 +14,6 @@
 
 
 // Remaining properties
-@property(retain, nonatomic) NSString *plainSequence; // @dynamic plainSequence;
 @property(retain, nonatomic) NSData *sequence; // @dynamic sequence;
-@property(nonatomic) short sequenceHashIndex; // @dynamic sequenceHashIndex;
 @end
 

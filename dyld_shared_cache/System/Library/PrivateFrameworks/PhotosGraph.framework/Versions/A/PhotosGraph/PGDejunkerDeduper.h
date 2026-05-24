@@ -4,35 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSSimilarStacker, NSObject, PLKMeansClustering;
+@class CLSSimilarStacker, NSObject;
 @protocol OS_os_log;
 
 @interface PGDejunkerDeduper
 {
     CLSSimilarStacker *_similarStacker;
-    PLKMeansClustering *_kMeanTimeClusterer;
-    NSObject<OS_os_log> *_loggingConnection;
 }
 
-+ (_Bool);
++ (_Bool)_elementDestroyed:(id)arg1;
 - (id);
+- (id)Observer>";
+- (id)rotocol"16;
+- (id)0@0:(id)arg1 8:(unsigned long long)arg2 16@24@32;
+- (_Bool)set_didRegisterWindowDidMovedNotification:(id)arg1;
+- (_Bool)set_didRegisterWindowDidMiniaturizeNotification:(id)arg1;
+- (id)_performBlockOnApplicationCacheQueue:(id)arg1;
+- (double)_parseAttributes:(id)arg1 intoAttributedString:(id)arg2 font:fontColor:backgroundColor:fontSize:shouldUseOriginalAlpha: /* Error: Ran out of types for this method. */;
+- (double)_orderedArrayFromUnorderedElements:(id)arg1 ordering:(id)arg2;
+- (id)_didRegisterFocusedWindowNotification;
+- (id)C3;
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool);
 - (double);
 - (double);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (double);
-- (double);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

@@ -18,7 +18,7 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)setStateForNotification:withState: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

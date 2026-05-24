@@ -4,36 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SLDisplayPresetDeviceManager
 {
     NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _deviceEventBlock;
-    struct IONotificationPort *_notifyPort;
-    unsigned int _publishedNotifier;
-    unsigned int _terminatedNotifier;
-    struct WSMainThreadBlockHoist *_mainThreadHoist;
-    NSMutableArray *_devices;
-    NSMutableDictionary *_devicesByContainerId;
-    NSMutableDictionary *_devicesByService;
-    NSMutableDictionary *_validContainerIdsByRegId;
-    unsigned int _pmAssertionID;
 }
 
-+ (void);
-+ (float);
++ (void)t statement:(float)arg1 %@;
++ (float)NEW.Z_PK;;
 + (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (_Bool)ecord:(CDStruct_bd2f613f)arg1 withMetadata:] /* Error: Ran out of types for this method. */;
+- (void)or SQLITE_DBCONFIG_NO_CKPT_ON_CLOSE failed:(unsigned int)arg1 %d;
+- (void)sqlite3_rekey_v2;
 - (void);
 - (id);
-- (id);
+- (void);
+- (void);
+- (id);
+- (id);
 
 @end
 

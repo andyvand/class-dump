@@ -7,7 +7,6 @@
 @interface NewsUI2.PuzzleContinuePlayingBlueprintViewCellProvider
 {
     id delegate;
-    id feedItemRenderer;
 }
 
 @end

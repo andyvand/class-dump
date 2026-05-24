@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSOperationQueue, NSString;
+@class NSObject;
 
 @interface IMKObserver
 {
     NSObject *_observedObject;
-    NSString *_observedKeyPath;
-    NSOperationQueue *_queue;
-    CDUnknownBlockType _observerBlock;
 }
 
 - (id);
@@ -27,11 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isObserving;
-@property(readonly, copy, nonatomic) NSString *observedKeyPath; // @synthesize observedKeyPath=_observedKeyPath;
 @property __weak NSObject *observedObject; // @synthesize observedObject=_observedObject;
-@property(readonly, copy, nonatomic) CDUnknownBlockType observerBlock; // @synthesize observerBlock=_observerBlock;
-@property(readonly, nonatomic) NSOperationQueue *queue; // @synthesize queue=_queue;
 
 @end
 

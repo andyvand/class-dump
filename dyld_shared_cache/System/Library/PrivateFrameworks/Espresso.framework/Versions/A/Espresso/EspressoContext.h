@@ -11,7 +11,7 @@
 
 - (id);
 - (void);
-- (id);
+- (id)v24@0:(id)arg1 8S16S20;
 - (shared_ptr_ae8b808b);
 - (id);
 - (int);
@@ -21,7 +21,6 @@
 
 // Remaining properties
 @property(readonly) shared_ptr_ae8b808b ctx; // @synthesize ctx=_ctx;
-@property(readonly) int platform;
 
 @end
 

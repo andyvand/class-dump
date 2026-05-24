@@ -12,8 +12,6 @@ __attribute__((visibility("hidden")))
 @interface CNPropertyEmailAddressCell : CNPropertySimpleTransportCell
 {
     _Bool _VIP;
-    _Bool _staticIdentityVerified;
-    CNStaticIdentityBadgeView *_staticIdentityBadgeView;
 }
 
 - (void);
@@ -21,19 +19,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)1;
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (void)ms;
+- (void)_searchIncludesSupplementalItems;
 
 // Remaining properties
-@property(nonatomic, getter=isVIP) _Bool VIP; // @synthesize VIP=_VIP;
 @property(retain, nonatomic) CNStaticIdentityBadgeView *staticIdentityBadgeView; // @synthesize staticIdentityBadgeView=_staticIdentityBadgeView;
-@property(nonatomic, getter=isStaticIdentityVerified) _Bool staticIdentityVerified; // @synthesize staticIdentityVerified=_staticIdentityVerified;
 
 @end
 

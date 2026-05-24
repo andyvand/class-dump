@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface IDSQRProtoErrorIndication
 {
     unsigned long long _txnId;
-    unsigned int _channelId;
-    NSString *_clientAddress;
-    unsigned int _errorCode;
-    NSString *_errorReason;
-    struct {
-        unsigned int txnId:1;
-        unsigned int channelId:1;
-        unsigned int errorCode:1;
-    } _has;
 }
 
 - (unsigned long long);
@@ -32,34 +21,26 @@
 - (_Bool);
 - (id);
 - (unsigned int);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)?;
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)timeout:(id)arg1;
+- (void)airing data?
+;
 - (id);
 - (id);
 - (void)icDownlinkStatsPacket(atTime:) /* Error: Ran out of types for this method. */;
-- (void)tsScreenTimeErrors;
-- (unsigned int)_prefix_t;
+- (void)_supportsScreenTimeErrors;
+- (unsigned int)nw_nat64_prefix_t;
 
 // Remaining properties
-@property(nonatomic) unsigned int channelId; // @synthesize channelId=_channelId;
-@property(retain, nonatomic) NSString *clientAddress; // @synthesize clientAddress=_clientAddress;
-@property(nonatomic) unsigned int errorCode; // @synthesize errorCode=_errorCode;
-@property(retain, nonatomic) NSString *errorReason; // @synthesize errorReason=_errorReason;
 @property(nonatomic) _Bool hasChannelId;
-@property(readonly, nonatomic) _Bool hasClientAddress;
-@property(nonatomic) _Bool hasErrorCode;
-@property(readonly, nonatomic) _Bool hasErrorReason;
-@property(nonatomic) _Bool hasTxnId;
-@property(nonatomic) unsigned long long txnId; // @synthesize txnId=_txnId;
 
 @end
 

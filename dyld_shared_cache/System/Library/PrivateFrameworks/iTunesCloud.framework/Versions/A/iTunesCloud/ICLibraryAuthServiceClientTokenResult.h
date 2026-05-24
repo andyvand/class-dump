@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICLibraryAuthServiceClientTokenIdentifier, NSDate, NSString;
+@class NSString;
 
 @interface ICLibraryAuthServiceClientTokenResult
 {
     NSString *_token;
-    long long _generatedAtMillis;
-    long long _timeToLiveMillis;
-    long long _lifespanMillis;
-    ICLibraryAuthServiceClientTokenIdentifier *_tokenIdentitifer;
 }
 
 + (_Bool);
@@ -24,20 +20,14 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
-- (void)ssionDelegate;
+- (void)NSURLSessionDelegate;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDate *expirationDate;
-@property(readonly, nonatomic) long long generatedAtMillis; // @synthesize generatedAtMillis=_generatedAtMillis;
-@property(readonly, nonatomic) _Bool isExpired;
-@property(readonly, nonatomic) long long lifespanMillis; // @synthesize lifespanMillis=_lifespanMillis;
-@property(readonly, nonatomic) long long timeToLiveMillis; // @synthesize timeToLiveMillis=_timeToLiveMillis;
 @property(readonly, copy, nonatomic) NSString *token; // @synthesize token=_token;
-@property(readonly, copy, nonatomic) ICLibraryAuthServiceClientTokenIdentifier *tokenIdentitifer; // @synthesize tokenIdentitifer=_tokenIdentitifer;
 
 @end
 

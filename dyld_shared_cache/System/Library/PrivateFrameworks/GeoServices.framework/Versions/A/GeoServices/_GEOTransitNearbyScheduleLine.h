@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDDepartureSequenceContainer, NSArray, NSString;
+@class GEOPDDepartureSequenceContainer, NSString;
 
 __attribute__((visibility("hidden")))
 @interface _GEOTransitNearbyScheduleLine
 {
     GEOPDDepartureSequenceContainer *_departureSequenceContainer;
-    NSArray *_departureSequences;
 }
 
 - (_Bool);
@@ -21,17 +20,7 @@ __attribute__((visibility("hidden")))
 - (void)ýÿÿÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *artworks;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSArray *departureSequences; // @synthesize departureSequences=_departureSequences;
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSString *displayName;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isSignificant;
-@property(readonly) Class superclass;
 
 @end
 

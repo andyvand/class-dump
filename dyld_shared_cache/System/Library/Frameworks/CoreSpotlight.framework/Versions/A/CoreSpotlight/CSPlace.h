@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface CSPlace
 {
     NSString *_fullyFormattedAddress;
-    NSString *_namedLocation;
-    NSNumber *_latitude;
-    NSNumber *_longitude;
 }
 
 + (_Bool);
@@ -19,12 +16,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)*;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
-- (id);
+- (id)!;
 - (id);
 - (id);
 - (void);
@@ -32,9 +29,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *fullyFormattedAddress; // @synthesize fullyFormattedAddress=_fullyFormattedAddress;
-@property(readonly, nonatomic) NSNumber *latitude; // @synthesize latitude=_latitude;
-@property(readonly, nonatomic) NSNumber *longitude; // @synthesize longitude=_longitude;
-@property(readonly, nonatomic) NSString *namedLocation; // @synthesize namedLocation=_namedLocation;
 
 @end
 

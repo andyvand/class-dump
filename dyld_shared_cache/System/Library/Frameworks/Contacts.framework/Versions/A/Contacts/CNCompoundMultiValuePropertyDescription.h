@@ -6,8 +6,6 @@
 
 #import <Contacts/CNMultiValuePropertyDescription.h>
 
-@class NSArray;
-
 @interface CNCompoundMultiValuePropertyDescription : CNMultiValuePropertyDescription
 {
 }
@@ -21,8 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownBlockType dictionaryTransform;
-@property(readonly, nonatomic) CDUnknownBlockType fromDictionaryTransform;
-@property(readonly, nonatomic) NSArray *summarizationKeys;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol RBCoalitionKernelAdapting
+- (long long);
 @end
 

@@ -9,7 +9,6 @@
 @interface ATMicrophoneInjectionInsert
 {
     NSUUID *_streamUUID;
-    shared_ptr_258f9881 _mixTapToUplinkHost;
 }
 
 - (void);
@@ -25,18 +24,15 @@
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)ActiveSessionDetails,  fetch attempt, didFail, %@;
+- (void)%@, regionMonitoring %@, error, %@;
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (id);
+- (id)?	;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType inPlaceProcessBlock;
-@property(nonatomic, getter=isInputMuted) _Bool inputMuted;
-@property(readonly, nonatomic) CDUnknownBlockType processBlock;
 @property(readonly, nonatomic) NSUUID *streamUUID; // @synthesize streamUUID=_streamUUID;
 
 @end

@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol UITextDocumentProxy_Private
+- (_Bool)T;
 - (NSString *);
 
 // Remaining properties

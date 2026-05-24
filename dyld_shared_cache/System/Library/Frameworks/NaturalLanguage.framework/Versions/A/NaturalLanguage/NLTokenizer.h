@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NLTokenizer
 {
     long long _unit;
-    NSString *_string;
-    NSString *_language;
-    struct __NLTokenizer *_tokenizer;
 }
 
-- (struct _NSRange);
-- (struct _NSRange);
-- (void);
+- (struct _NSRange).keyboardLayout { background-image:(struct _NSRange)arg1 -webkit-image-set(url('%@_dark.png') 1x, url('%@_dark-HiDPI.png') 2x); }             };
+- (struct _NSRange)k-interface) {                 .keyboardLayout { background-image:(unsigned long long)arg1 -webkit-image-set(url('%@_dark.png') 1x, url('%@_dark-HiDPI.png') 2x); }             };
+- (void)@;
 - (id);
 - (const CDStruct_b1a60774 *);
-- (id);
+- (id);
 - (id);
 - (void);
-- (id);
+- (id)(;
 - (void);
 - (id);
 - (void);
@@ -30,7 +25,6 @@
 - (long long);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *string;
 @property(readonly, nonatomic) long long unit;
 
 @end

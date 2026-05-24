@@ -11,14 +11,13 @@
 @interface MSAnalyticsIdentifier : MapsSync.MapsSyncObject
 {
     id _data;
-    id _positionIndex;
 }
 
 + (Class);
-- (void);
+- (void)@h !;
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (long long);
 - (void);
@@ -27,7 +26,6 @@
 
 // Remaining properties
 @property(nonatomic, copy) NSData *data;
-@property(nonatomic) long long positionIndex;
 
 @end
 

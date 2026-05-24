@@ -10,10 +10,9 @@ __attribute__((visibility("hidden")))
 @interface nw_listener_inbox_protocol : nw_listener_inbox
 {
     struct nw_listen_protocol_callbacks _listen_callbacks;
-    struct nw_listen_protocol _listen_protocol;
 }
 
-- (id);
+- (id)H;
 - (_Bool);
 
 @end

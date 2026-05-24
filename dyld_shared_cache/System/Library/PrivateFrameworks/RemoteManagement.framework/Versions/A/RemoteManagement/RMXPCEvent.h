@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface RMXPCEvent
 {
     NSString *_streamName;
-    NSString *_notificationName;
-    NSDictionary *_descriptor;
 }
 
 + (id);
@@ -24,14 +22,11 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *descriptor; // @synthesize descriptor=_descriptor;
-@property(readonly, nonatomic) NSString *eventKey;
-@property(readonly, nonatomic) NSString *notificationName; // @synthesize notificationName=_notificationName;
 @property(readonly, nonatomic) NSString *streamName; // @synthesize streamName=_streamName;
 
 @end

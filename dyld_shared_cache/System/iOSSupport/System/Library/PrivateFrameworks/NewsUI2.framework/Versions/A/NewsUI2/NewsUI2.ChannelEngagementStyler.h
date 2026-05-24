@@ -7,7 +7,6 @@
 @interface NewsUI2.ChannelEngagementStyler
 {
     id baseStyler;
-    id topMargin;
 }
 
 @end

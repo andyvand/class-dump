@@ -5,5 +5,6 @@
 //
 
 @protocol BRShareOperationProtocol
+- (void), if set;
 @end
 

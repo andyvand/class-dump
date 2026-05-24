@@ -7,11 +7,10 @@
 @interface TeaUI.TextFieldTableViewCell
 {
     id onChange;
-    id textField;
 }
 
 - (id);
-- (void);
+- (void)newspaperTodayFeedTopicsConfig;
 - (id);
 - (void)JsýÿÔÿÿ;
 

@@ -7,10 +7,6 @@
 @interface PhotosUICore.PhotosViewCurationModel.Mutator
 {
     id observable;
-    id _defaultCurationKind;
-    id _currentCurationKind;
-    id _availableCurationKinds;
-    id _allCurationKinds;
 }
 
 @end

@@ -6,23 +6,12 @@
 
 #import <GameController/_GCDevicePhysicalInputElement.h>
 
-@class NSSet, NSString;
-@protocol GCAxis2DInput, GCAxisInput, GCLinearInput><GCPressedStateInput;
+@protocol GCAxis2DInput;
 
 __attribute__((visibility("hidden")))
 @interface _GCDevicePhysicalInputDirectionPadElement : _GCDevicePhysicalInputElement
 {
     unsigned long long _upValueFieldSlot;
-    unsigned long long _downValueFieldSlot;
-    unsigned long long _leftValueFieldSlot;
-    unsigned long long _rightValueFieldSlot;
-    unsigned long long _xyAxesSlot;
-    unsigned long long _xAxisSlot;
-    unsigned long long _yAxisSlot;
-    unsigned long long _upInputSlot;
-    unsigned long long _downInputSlot;
-    unsigned long long _leftInputSlot;
-    unsigned long long _rightInputSlot;
 }
 
 + (unsigned short);
@@ -32,34 +21,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)5;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSSet *aliases;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <GCLinearInput><GCPressedStateInput> down;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <GCLinearInput><GCPressedStateInput> left;
-@property(readonly, copy) NSString *localizedName;
-@property(readonly) id <GCLinearInput><GCPressedStateInput> right;
-@property(readonly, copy) NSString *sfSymbolsName;
-@property(readonly) Class superclass;
-@property(readonly) id <GCLinearInput><GCPressedStateInput> up;
-@property(readonly) id <GCAxisInput> xAxis;
 @property(readonly) id <GCAxis2DInput> xyAxes;
-@property(readonly) id <GCAxisInput> yAxis;
 
 @end
 

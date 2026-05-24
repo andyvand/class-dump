@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNCDSaveContext, NSMutableArray;
+@class CNCDSaveContext;
 
 __attribute__((visibility("hidden")))
 @interface CNCDGroupSaveExecutor
 {
     CNCDSaveContext *_saveContext;
-    NSMutableArray *_addedGroupsToRefresh;
 }
 
 - (void);
@@ -18,17 +17,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)! `;
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void)ey: /* Error: Ran out of types for this method. */;
+- (void)valueForKey: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableArray *addedGroupsToRefresh; // @synthesize addedGroupsToRefresh=_addedGroupsToRefresh;
 @property(readonly, nonatomic) CNCDSaveContext *saveContext; // @synthesize saveContext=_saveContext;
 
 @end

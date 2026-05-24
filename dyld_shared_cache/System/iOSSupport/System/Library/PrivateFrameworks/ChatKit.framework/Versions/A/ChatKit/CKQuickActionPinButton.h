@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct UIEdgeInsets);
-- (id);
-- (double);
+- (struct UIEdgeInsets)t;
+- (id)e;
+- (double)review images to a nil instance of LPLinkMetadata;
 
 @end
 

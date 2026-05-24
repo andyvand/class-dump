@@ -5,5 +5,8 @@
 //
 
 @protocol NSComboBoxDelegate
+
+@optional
+- (void);
 @end
 

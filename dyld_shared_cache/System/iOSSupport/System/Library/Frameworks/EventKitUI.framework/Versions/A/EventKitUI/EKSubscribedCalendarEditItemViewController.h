@@ -6,19 +6,18 @@
 
 #import <EventKitUI/EKEditItemViewController.h>
 
-@class EKAbstractCalendarEditor, EKCalendar;
+@class EKCalendar;
 
 @interface EKSubscribedCalendarEditItemViewController : EKEditItemViewController
 {
     EKCalendar *_calendar;
-    EKAbstractCalendarEditor *_calendarEditor;
 }
 
-- (id);
+- (id);
 - (struct CGSize);
 - (void);
 - (void);
-- (void)d: /* Error: Ran out of types for this method. */;
+- (void)shouldShowNextOccurrenceOfEvent:forward: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol DEExtensionVendorProtocol
+- (void)anged;
 @end
 

@@ -9,7 +9,6 @@
 @interface SXMosaicGalleryVerticalLivingRoomLayout : SXMosaicGalleryGroupLayout
 {
     double _largeItemHeight;
-    double _smallItemHeight;
 }
 
 - (id);
@@ -21,7 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) double largeItemHeight; // @synthesize largeItemHeight=_largeItemHeight;
-@property(readonly, nonatomic) double smallItemHeight; // @synthesize smallItemHeight=_smallItemHeight;
 
 @end
 

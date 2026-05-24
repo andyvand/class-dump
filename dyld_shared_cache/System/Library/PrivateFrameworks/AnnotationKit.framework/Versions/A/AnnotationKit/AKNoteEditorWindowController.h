@@ -6,17 +6,11 @@
 
 #import <AnnotationKit/AKNoteAnimationWindowController.h>
 
-@class BKMutableNoteMarginView, NSString;
-@protocol AKNoteEditorWindowDelegate;
+@class BKMutableNoteMarginView;
 
 @interface AKNoteEditorWindowController : AKNoteAnimationWindowController
 {
     _Bool _isOpening;
-    _Bool _hasClosed;
-    id <AKNoteEditorWindowDelegate> _delegate;
-    BKMutableNoteMarginView *_mutableMarginView;
-    unsigned long long _presentedEdge;
-    id _eventMonitor;
 }
 
 + (id);
@@ -34,12 +28,12 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)length;
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)location_id != 100);
 - (void);
 - (void);
 - (id);
@@ -47,19 +41,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AKNoteEditorWindowDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain) id eventMonitor; // @synthesize eventMonitor=_eventMonitor;
-@property(nonatomic) _Bool hasClosed; // @synthesize hasClosed=_hasClosed;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isOpening; // @synthesize isOpening=_isOpening;
 @property(retain, nonatomic) BKMutableNoteMarginView *mutableMarginView; // @synthesize mutableMarginView=_mutableMarginView;
-@property(nonatomic) unsigned long long presentedEdge; // @synthesize presentedEdge=_presentedEdge;
-@property(readonly) Class superclass;
 
 @end
 

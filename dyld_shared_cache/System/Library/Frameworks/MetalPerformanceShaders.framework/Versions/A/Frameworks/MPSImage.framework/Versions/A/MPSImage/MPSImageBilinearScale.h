@@ -14,7 +14,7 @@
 - (id);
 - (struct MPSRegion);
 - (id);
-- (void);
+- (void)indexSearchableItems:(id)arg1 deleteSearchableItemsWithIdentifiers:clientState:protectionClass:forBundleID:options:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

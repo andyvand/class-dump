@@ -7,9 +7,6 @@
 @interface NewsFeed.FormatVideoPlayerRestrictionManager
 {
     id entries;
-    id observers;
-    id accessQueue;
-    id writerTask;
 }
 
 @end

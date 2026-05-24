@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol MPMediaLibraryResultSet
-- (long long)elName__MAPPING_MISSING__;
+- (long long);
+- (void)D;
+- (unsigned long long)i;
+- (void);
+- (long long)__MPModelPropertyRecordLabelName__MAPPING_MISSING__;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count;
-@property(readonly, nonatomic) long long localRevision;
 @property(readonly, nonatomic) long long revision;
-@property(readonly, nonatomic) NSArray *sectionIndexTitles;
 @end
 

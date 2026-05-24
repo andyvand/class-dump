@@ -9,9 +9,9 @@
 }
 
 + (id)\i;
-- (void);
-- (id);
-- (void);
+- (void)dRate=%ukbps redDiscardedRate=%ukbps;
+- (id)e captions blob. Error=%d;
+- (void)p-Resume;
 
 @end
 

@@ -9,8 +9,6 @@
 @interface AVCaptureAudioChannel
 {
     AVCaptureAudioChannelInternal *_internal;
-    _Bool _enabled;
-    float _volume;
 }
 
 + (void)tedSmartFramings;
@@ -26,9 +24,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) float averagePowerLevel;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly, nonatomic) float peakHoldLevel;
-@property(nonatomic) float volume; // @synthesize volume=_volume;
 
 @end
 

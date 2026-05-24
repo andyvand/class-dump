@@ -6,12 +6,11 @@
 
 #import <QuartzComposer/QCInspector.h>
 
-@class NSButton, QCImageLoaderView;
+@class QCImageLoaderView;
 
 @interface QCImageLoaderUI : QCInspector
 {
     QCImageLoaderView *imageView;
-    NSButton *reloadButton;
 }
 
 + (id);

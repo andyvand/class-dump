@@ -6,49 +6,35 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class HMFNetAddress, NSMutableArray, NSObject, NSString, _HMFCFHTTPServerConnection;
+@class NSObject;
 @protocol HMFHTTPClientConnectionDelegate, OS_dispatch_queue;
 
 @interface HMFHTTPClientConnection : HMFObject
 {
     id <HMFHTTPClientConnectionDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_clientQueue;
-    NSMutableArray *_pendingRespones;
-    _HMFCFHTTPServerConnection *_internal;
 }
 
 + (id){Ð1Â0@ù
 × ;
 - (void);
+- (void)x;
+- (id);
+- (void);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)z;
+- (id);
 - (id);
 - (void);
 - (void)T@"NSSet",R,C,V_events;
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *clientQueue; // @synthesize clientQueue=_clientQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMFHTTPClientConnectionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _HMFCFHTTPServerConnection *internal; // @synthesize internal=_internal;
-@property(readonly, nonatomic) HMFNetAddress *peerAddress;
-@property(readonly, nonatomic) NSMutableArray *pendingRespones; // @synthesize pendingRespones=_pendingRespones;
-@property(readonly) Class superclass;
 
 @end
 

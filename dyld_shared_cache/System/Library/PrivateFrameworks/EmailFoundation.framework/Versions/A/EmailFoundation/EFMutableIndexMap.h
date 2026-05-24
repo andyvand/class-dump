@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary;
+@class NSMutableArray;
 
 @interface EFMutableIndexMap
 {
     NSMutableArray *_tuples;
-    NSMutableDictionary *_keyToTuple;
 }
 
 - (void);
@@ -22,21 +21,19 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (unsigned long long);
 - (void);
 - (id);
-- (void);
+- (void)r settings did change, reloading context and relay phone numbers;
 - (id);
-- (long long);
+- (long long)stringByAppendingPathComponent:(unsigned long long)arg1;
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count;
-@property(retain, nonatomic) NSMutableDictionary *keyToTuple; // @synthesize keyToTuple=_keyToTuple;
 @property(retain, nonatomic) NSMutableArray *tuples; // @synthesize tuples=_tuples;
 
 @end

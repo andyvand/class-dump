@@ -4,24 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, HMDHomeMediaSystemControllerMessageHandler, HMDStereoPairSettingsController, HMFMessageDispatcher, NSArray, NSMutableDictionary, NSNotificationCenter, NSObject, NSString, NSUUID;
-@protocol HMDHomeMediaSystemHandlerDataSource, HMDHomeMediaSystemHandlerDelegate, OS_dispatch_queue, OS_os_log;
+@class NSObject;
+@protocol HMDHomeMediaSystemHandlerDelegate, OS_os_log;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomeMediaSystemHandler
 {
     NSObject<OS_os_log> *_logger;
-    struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_uuidToMediaSystems;
-    id <HMDHomeMediaSystemHandlerDataSource> _dataSource;
-    id <HMDHomeMediaSystemHandlerDelegate> _delegate;
-    NSUUID *_parentUUID;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMFMessageDispatcher *_messageDispatcher;
-    NSNotificationCenter *_notificationCenter;
-    HMDHome *_home;
-    HMDHomeMediaSystemControllerMessageHandler *_messageHandler;
-    HMDStereoPairSettingsController *_stereoPairSettingsController;
 }
 
 + (_Bool)dÖ;
@@ -30,24 +19,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id)sr/lib/swift/libswiftObjectiveC.dylib;
+- (void);
+- (void)navigationListener:(id)arg1 didUpdateNavigationVoiceVolume: /* Error: Ran out of types for this method. */;
+- (void)affectedEntitiesAtIndex:(id)arg1;
+- (id)trategyIdentifiers;
+- (void);
+- (void)pabilityLevelNoLongerNeededForContact did remove %@ across Maps/Messages queues;
+- (void)ated:(id)arg1 %@;
+- (void)elForContact returning cached service name %{public}@;
+- (void)orContact cache miss for handle %@ (%{public}@);
+- (id)pdate, scheduling coalescing check in %#.1lfs;
+- (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -62,23 +51,23 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id);
+- (id)domain %lld %s;
+- (id)deserializeCompositionFromAdjustments:metadata:formatIdentifier:formatVersion:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
 - (void);
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)ureStreams;
+- (id)_reconfigureStreams;
 - (id)er configuration:%@, requested fragment length is %@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void)sory %@;
@@ -89,23 +78,7 @@ __attribute__((visibility("hidden")))
 - (void)0;
 
 // Remaining properties
-@property __weak id <HMDHomeMediaSystemHandlerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property __weak id <HMDHomeMediaSystemHandlerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly, copy) NSArray *mediaSystems;
-@property(retain, nonatomic) HMFMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;
-@property(retain) HMDHomeMediaSystemControllerMessageHandler *messageHandler; // @synthesize messageHandler=_messageHandler;
-@property(retain) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(retain) NSUUID *parentUUID; // @synthesize parentUUID=_parentUUID;
-@property(retain, nonatomic) HMDStereoPairSettingsController *stereoPairSettingsController; // @synthesize stereoPairSettingsController=_stereoPairSettingsController;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

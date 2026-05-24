@@ -6,7 +6,7 @@
 
 #import <WebInspector/RWIProtocolJSONObject.h>
 
-@class NSString, RWIProtocolDebuggerLocation, RWIProtocolRuntimeRemoteObject;
+@class RWIProtocolRuntimeRemoteObject;
 
 @interface RWIProtocolDebuggerScope : RWIProtocolJSONObject
 {
@@ -15,21 +15,17 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)_;
 - (void);
 - (long long);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)(٢r!;
 - (void)º ;
 
 // Remaining properties
-@property(nonatomic) _Bool empty;
-@property(retain, nonatomic) RWIProtocolDebuggerLocation *location;
-@property(copy, nonatomic) NSString *name;
 @property(retain, nonatomic) RWIProtocolRuntimeRemoteObject *object;
-@property(nonatomic) long long type;
 
 @end
 

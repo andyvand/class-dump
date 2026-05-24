@@ -4,9 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class BWStillImageInferences;
+
 @protocol BWStillImageProcessorControllerDelegate
+- (void);
 
 @optional
+- (void);
+- (struct __CVBuffer *);
+- (struct __CVBuffer *);
+- (BWStillImageInferences *)f;
+- (void)i;
 - (struct __CVBuffer *)st allowed still capture host time %.4fs;
 @end
 

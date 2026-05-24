@@ -7,11 +7,10 @@
 @interface NewsFeed.DebugFormatInspectorSplitView
 {
     id left;
-    id right;
 }
 
 - (id);
-- (void);
+- (void)ity/TSUNetworkReachability.m;
 - (id)
 × ;
 - (void)ìæ$ÿ;

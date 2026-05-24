@@ -6,16 +6,12 @@
 
 #import <OfficeImport/CMMapper.h>
 
-@class CMStyle, OADTableCell;
+@class OADTableCell;
 
 __attribute__((visibility("hidden")))
 @interface PMTableCellMapper : CMMapper
 {
     OADTableCell *mCell;
-    CMStyle *mStyle;
-    int mColIndex;
-    unsigned long long mRowIndex;
-    float mWidth;
 }
 
 - (id);
@@ -23,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)<;
 - (float);
 - (void)AppleInternal/Library/BuildRoots/4~CNqXugClK-v5MmHtrhxGeQiIf33qItBVDmza7bg/Library/Caches/com.apple.xbs/TemporaryDirectory.ObjdbM/Sources/OfficeImport/OfficeParser/shared/utility/TSUDateFormatter.m;
 

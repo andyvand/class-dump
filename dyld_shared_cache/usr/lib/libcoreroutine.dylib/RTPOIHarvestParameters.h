@@ -7,10 +7,6 @@
 @interface RTPOIHarvestParameters
 {
     unsigned long long _harvestMask;
-    double _locationLookupWindowMaxMinutes;
-    double _locationLookupWindowMinMinutes;
-    double _locationUncertaintyThreshold;
-    unsigned long long _maxLocationsPerFingerprint;
 }
 
 - (unsigned long long);
@@ -19,16 +15,12 @@
 - (double);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)length]:%d < STUN_TRANSACTIONID_LEN = %ld, return NO /* Error: Ran out of types for this method. */;
 - (id);
 - (id)able 4);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long harvestMask; // @synthesize harvestMask=_harvestMask;
-@property(readonly, nonatomic) double locationLookupWindowMaxMinutes; // @synthesize locationLookupWindowMaxMinutes=_locationLookupWindowMaxMinutes;
-@property(readonly, nonatomic) double locationLookupWindowMinMinutes; // @synthesize locationLookupWindowMinMinutes=_locationLookupWindowMinMinutes;
-@property(readonly, nonatomic) double locationUncertaintyThreshold; // @synthesize locationUncertaintyThreshold=_locationUncertaintyThreshold;
-@property(readonly, nonatomic) unsigned long long maxLocationsPerFingerprint; // @synthesize maxLocationsPerFingerprint=_maxLocationsPerFingerprint;
 
 @end
 

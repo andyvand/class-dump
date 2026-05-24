@@ -7,12 +7,11 @@
 @class NSNumber, NSString;
 
 @protocol HMHAPMetadataCategory
-- (NSNumber *);
+- (void);
+- (NSNumber *)__removeBrowsingObserver:error: /* Error: Ran out of types for this method. */;
 - (NSString *)ew name %@ from namespace %@  error %@;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *catDescription;
-@property(retain, nonatomic) NSNumber *identifier;
 @property(retain, nonatomic) NSString *uuidStr;
 @end
 

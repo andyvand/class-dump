@@ -6,12 +6,11 @@
 
 #import <CoreHandwriting/CHRemoteRecognizer.h>
 
-@class NSCharacterSet, NSString, NSXPCConnection;
+@class NSCharacterSet, NSXPCConnection;
 
 @interface CHRemoteSketchRecognizer : CHRemoteRecognizer
 {
     NSXPCConnection *__connection;
-    NSCharacterSet *_activeCharacterSet;
 }
 
 - (id);
@@ -19,7 +18,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)Aggregation;
 - (id);
 - (_Bool);
 - (id);
@@ -28,16 +27,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSCharacterSet *activeCharacterSet; // @synthesize activeCharacterSet=_activeCharacterSet;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool enableCachingIfAvailable;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long maxRecognitionResultCount;
-@property(nonatomic) struct CGSize minimumDrawingSize;
-@property(readonly) Class superclass;
 
 @end
 

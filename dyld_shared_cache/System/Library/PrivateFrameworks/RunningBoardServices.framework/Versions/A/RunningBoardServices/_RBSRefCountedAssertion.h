@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSCountedSet, NSMutableDictionary;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface _RBSRefCountedAssertion
 {
     NSMutableDictionary *_pidToAssertionMap;
-    NSCountedSet *_refcounts;
-    NSArray *_attributes;
 }
 
 - (id);

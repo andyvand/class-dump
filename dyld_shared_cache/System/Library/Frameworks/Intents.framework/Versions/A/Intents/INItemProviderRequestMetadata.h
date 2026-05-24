@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData;
+@class NSData;
 
 @interface INItemProviderRequestMetadata
 {
     NSData *_metadata;
-    NSArray *_supportedContentTypes;
 }
 
 + (_Bool);
 - (id);
+- (id)_legacy_unpublishController:(id)arg1;
 - (id);
+- (id)eSelector(tmp)) {                uniqueSelector = tmp;                break;            }            list.shift();        }        list.unshift(sel);        tmp = list.join(' ');        if (isUniqueSelector(tmp)) {            uniqueSelector = tmp;            break;        }        elem = elem.parentNode;    }    return uniqueSelector;}var p = new Promise(function(resolve, reject) { document.addEventListener('focusout', function(event){ if ((event.target.tagName.toLowerCase() == 'textarea' || event.target.tagName.toLowerCase() == 'input') && event.target.type.toLowerCase() != 'checkbox') { resolve(getSelectorPathForElement(event.target)); } else { resolve(undefined); } }, {once:true}); }); await p; return p; /* Error: Ran out of types for this method. */;
+- (void)rAll(`${sel}`);        return matches.length == 1;    }    function getSelectorPathForElement(elem) {    let uniqueSelector = null;    let list = [];    while (elem.parentNode) {        let sel = '';        let tmp = '';        let tagName = elem.tagName;        if (tagName) {            sel += tagName.toLowerCase();        }        let idAttr = elem.getAttribute('id');        if (idAttr) {            sel += '#'+idAttr;        }        let nameAttr = elem.getAttribute('name');        if (nameAttr) {            sel += '[name='+nameAttr+']';        }        let typeAttr = elem.getAttribute('type');        if (typeAttr) {            sel += '[type='+typeAttr+']';        }        list.unshift(sel);        tmp = list.join(' ');        if (isUniqueSelector(tmp)) {            uniqueSelector = tmp;            break;        }        list.shift();        let classAttr = elem.getAttribute('class');        if (classAttr) {            sel += '.'+classAttr.split(' ').join('.');            list.unshift(sel);            tmp = list.join(' ');            if (isUniqueSelector(tmp)) {                uniqueSelector = tmp;                break;            }            list.shift();        }        if (elem.previousElementSibling || elem.nextElementSibling) {            let sib = elem;            let nth = 0;            while (sib) {                nth++;                sib = sib.previousElementSibling;            }            sel += ':(id)arg1 nth-child('+nth+')';            list.unshift(sel);            tmp = list.join(' ');            if (isUniqueSelector(tmp)) {                uniqueSelector = tmp;                break;            }            list.shift();        }        list.unshift(sel);        tmp = list.join(' ');        if (isUniqueSelector(tmp)) {            uniqueSelector = tmp;            break;        }        elem = elem.parentNode;    }    return uniqueSelector;}console.log('check123'); let element = document.querySelector('%@'); if (element){ console.log('check4'); let value = '%@'; if (element.type.toLowerCase() == 'checkbox'){ element.value = value; element.checked = true; element.dispatchEvent(new Event('change', { bubbles:true, composed:true, cancelable:true } )); element.dispatchEvent(new Event('click', { bubbles:true, composed:true, cancelable:true } )); } else { element.value = value; element.dispatchEvent(new Event('input', { bubbles:true, composed:true, cancelable:true } )); } } /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
-- (id);
-- (void)eScopeEntityNameOptionsForSearchForFiles:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideScopeEntityNameOptionsForSearchForFiles:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSData *metadata; // @synthesize metadata=_metadata;
-@property(readonly, copy) NSArray *supportedContentTypes; // @synthesize supportedContentTypes=_supportedContentTypes;
 
 @end
 

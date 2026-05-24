@@ -7,25 +7,19 @@
 @interface CSAssetDownloadingOption
 {
     _Bool _allowVoiceTriggerAssetDownloading;
-    _Bool _allowEndpointAssetDownloading;
-    _Bool _allowLanguageDetectorAssetDownloading;
-    _Bool _allowAdBlockerAssetDownloading;
-    _Bool _allowSpeakerRecognitionAssetDownloading;
-    _Bool _allowVoiceTriggerAccessoryAssetDownloading;
-    _Bool _allowGibraltarVoiceTriggerAssetDownloading;
 }
 
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)CNDuplicateSetContactImage;
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)P;
+- (void);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -33,12 +27,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowAdBlockerAssetDownloading; // @synthesize allowAdBlockerAssetDownloading=_allowAdBlockerAssetDownloading;
-@property(nonatomic) _Bool allowEndpointAssetDownloading; // @synthesize allowEndpointAssetDownloading=_allowEndpointAssetDownloading;
-@property(nonatomic) _Bool allowGibraltarVoiceTriggerAssetDownloading; // @synthesize allowGibraltarVoiceTriggerAssetDownloading=_allowGibraltarVoiceTriggerAssetDownloading;
-@property(nonatomic) _Bool allowLanguageDetectorAssetDownloading; // @synthesize allowLanguageDetectorAssetDownloading=_allowLanguageDetectorAssetDownloading;
-@property(nonatomic) _Bool allowSpeakerRecognitionAssetDownloading; // @synthesize allowSpeakerRecognitionAssetDownloading=_allowSpeakerRecognitionAssetDownloading;
-@property(nonatomic) _Bool allowVoiceTriggerAccessoryAssetDownloading; // @synthesize allowVoiceTriggerAccessoryAssetDownloading=_allowVoiceTriggerAccessoryAssetDownloading;
 @property(nonatomic) _Bool allowVoiceTriggerAssetDownloading; // @synthesize allowVoiceTriggerAssetDownloading=_allowVoiceTriggerAssetDownloading;
 
 @end

@@ -4,75 +4,56 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BCInvalidCertificatView, BCProgressIndicatorView, BCServerErrorView, NSString, NSURL, WKWebView;
+@class BCInvalidCertificatView, BCProgressIndicatorView;
 @protocol BCWebViewControllerDelegate;
 
 @interface BCWebViewController
 {
     _Bool _wasCallbackCaptured;
     id <BCWebViewControllerDelegate> _delegate;
-    WKWebView *_webkitView;
-    NSString *_callbackURI;
-    BCInvalidCertificatView *_invalidCertificatView;
-    BCProgressIndicatorView *_progressIndicatorView;
-    BCServerErrorView *_serverErrorView;
-    NSURL *_originURL;
 }
 
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)requestFileAccessForURLs:workflowName:workflowID:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)requestFileAccessForURLs:workflowName:workflowID:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)requestActionInterfacePresentationForActionClassName:classNamesByType:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)requestActionInterfacePresentationForActionClassName:(id)arg1 classNamesByType:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)replaceObjectAtIndex:(_Bool)arg1 withObject: /* Error: Ran out of types for this method. */;
+- (void)removeHandlerForIncomingRequestsWithAction:(id)arg1 scheme: /* Error: Ran out of types for this method. */;
+- (void)removeConstraint:(id)arg1;
+- (id)registerClass:forCellReuseIdentifier: /* Error: Ran out of types for this method. */;
+- (void)redSquareWidthConstraint;
+- (void)recoveryButton;
+- (_Bool)printInteractionControllerParentViewController:(id)arg1;
+- (id)printInteractionControllerDidFinishJob: /* Error: Ran out of types for this method. */;
+- (id)previewController:(id)arg1 transitionImageForPreviewItem:contentRect: /* Error: Ran out of types for this method. */;
+- (void)presentationControllerDidDismiss: /* Error: Ran out of types for this method. */;
+- (id)presentationController:viewControllerForAdaptivePresentationStyle: /* Error: Ran out of types for this method. */;
+- (void)presentFromRect:(id)arg1 inView:animated:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id);
+- (void)_amsAltDSID;
 - (void);
+- (void);
+- (void)setBypassUIKit:(id)arg1;
+- (void)P;
 - (void);
 - (id);
 - (void);
 - (void);
+- (void)ExtensionKit;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)_delegate;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *callbackURI; // @synthesize callbackURI=_callbackURI;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <BCWebViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) BCInvalidCertificatView *invalidCertificatView; // @synthesize invalidCertificatView=_invalidCertificatView;
-@property(retain, nonatomic) NSURL *originURL; // @synthesize originURL=_originURL;
 @property(retain, nonatomic) BCProgressIndicatorView *progressIndicatorView; // @synthesize progressIndicatorView=_progressIndicatorView;
-@property(retain, nonatomic) BCServerErrorView *serverErrorView; // @synthesize serverErrorView=_serverErrorView;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool wasCallbackCaptured; // @synthesize wasCallbackCaptured=_wasCallbackCaptured;
-@property(retain, nonatomic) WKWebView *webkitView; // @synthesize webkitView=_webkitView;
 
 @end
 

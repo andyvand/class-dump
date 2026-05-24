@@ -9,8 +9,6 @@
 @interface UNNotificationTopicRequest
 {
     UNNotificationTopic *_topic;
-    unsigned long long _supportedOptions;
-    unsigned long long _enabledOptions;
 }
 
 + (id);
@@ -24,7 +22,7 @@
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (unsigned long long);
@@ -32,10 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned long long enabledOptions; // @synthesize enabledOptions=_enabledOptions;
-@property(readonly) unsigned long long options;
 @property(readonly) unsigned long long supportedOptions; // @synthesize supportedOptions=_supportedOptions;
-@property(readonly, copy) UNNotificationTopic *topic; // @synthesize topic=_topic;
 
 @end
 

@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateInterval, NSUUID;
-
 @interface RTTripSegment
 {
     _Bool _isConsumedByClustering;
-    int _tripSegmentSequence;
-    int _tripSegmentSequenceMax;
-    NSUUID *_identifier;
-    NSDateInterval *_dateInterval;
-    double _tripDistance;
-    double _tripDistanceUncertainty;
-    long long _modeOfTransportation;
-    double _originLatitude;
-    double _originLongitude;
-    double _destinationLatitude;
-    double _destinationLongitude;
-    NSUUID *_tripCommuteID;
 }
 
 @end

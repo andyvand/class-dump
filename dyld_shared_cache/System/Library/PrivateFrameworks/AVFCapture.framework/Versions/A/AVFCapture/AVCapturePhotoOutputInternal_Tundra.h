@@ -4,29 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureStillImageOutputUtils, NSArray, NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface AVCapturePhotoOutputInternal_Tundra
 {
     struct __CFDictionary *videoDecompressorUnits;
-    struct __CFDictionary *videoToProcsUnits;
-    AVCaptureStillImageOutputUtils *tranformUtils;
-    NSMutableArray *requests;
-    _Bool isConsumerLive;
-    _Bool highResolutionCaptureEnabled;
-    long long maxPhotoQualityPrioritization;
-    long long lastSettingsUniqueID;
-    struct os_unfair_lock_s internalLock;
-    int numberOfPhotoCaptures;
-    CDStruct_79c71658 maxPhotoDimensions;
-    NSArray *supportedFlashModes;
-    NSArray *availablePhotoCodecTypes;
-    NSArray *availablePhotoFileTypes;
 }
 
-- (void);
-- (id);
+- (void)notifyRemoteDevicesOfModifiedAccount:withChangeType: /* Error: Ran out of types for this method. */;
+- (id)(J;
 
 @end
 

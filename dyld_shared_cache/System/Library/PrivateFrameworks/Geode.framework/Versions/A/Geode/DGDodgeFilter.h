@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface DGDodgeFilter
 {
     CIImage *inputImage;
-    CIImage *inputMaskImage;
-    NSNumber *inputExposure;
 }
 
 + (id);

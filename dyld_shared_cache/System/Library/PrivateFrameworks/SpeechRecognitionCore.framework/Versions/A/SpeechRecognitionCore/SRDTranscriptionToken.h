@@ -4,25 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SRDMachTime;
+@class NSString;
 
 @interface SRDTranscriptionToken
 {
     _Bool _hasSpaceAfter;
-    _Bool _hasSpaceBefore;
-    _Bool _appendedAutoPunctuation;
-    _Bool _prependedAutoPunctuation;
-    _Bool _isModifiedByAutoPunctuation;
-    NSString *_tokenName;
-    SRDMachTime *_start;
-    SRDMachTime *_end;
-    SRDMachTime *_silenceStart;
-    double _confidence;
-    NSString *_phoneSequence;
-    NSString *_ipaPhoneSequence;
 }
 
-+ (_Bool);
++ (_Bool)rlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16@0:8 /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -34,20 +23,20 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)VNGenerateForegroundInstanceMaskRequest;
 - (id);
 - (id);
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (double);
+- (double)_routeAttributes;
 - (void);
 - (id);
 - (void);
@@ -55,17 +44,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool appendedAutoPunctuation; // @synthesize appendedAutoPunctuation=_appendedAutoPunctuation;
-@property(nonatomic) double confidence; // @synthesize confidence=_confidence;
-@property(retain, nonatomic) SRDMachTime *end; // @synthesize end=_end;
-@property(nonatomic) _Bool hasSpaceAfter; // @synthesize hasSpaceAfter=_hasSpaceAfter;
-@property(nonatomic) _Bool hasSpaceBefore; // @synthesize hasSpaceBefore=_hasSpaceBefore;
-@property(retain, nonatomic) NSString *ipaPhoneSequence; // @synthesize ipaPhoneSequence=_ipaPhoneSequence;
-@property(nonatomic) _Bool isModifiedByAutoPunctuation; // @synthesize isModifiedByAutoPunctuation=_isModifiedByAutoPunctuation;
-@property(retain, nonatomic) NSString *phoneSequence; // @synthesize phoneSequence=_phoneSequence;
-@property(nonatomic) _Bool prependedAutoPunctuation; // @synthesize prependedAutoPunctuation=_prependedAutoPunctuation;
-@property(retain, nonatomic) SRDMachTime *silenceStart; // @synthesize silenceStart=_silenceStart;
-@property(retain, nonatomic) SRDMachTime *start; // @synthesize start=_start;
 @property(retain, nonatomic) NSString *tokenName; // @synthesize tokenName=_tokenName;
 
 @end

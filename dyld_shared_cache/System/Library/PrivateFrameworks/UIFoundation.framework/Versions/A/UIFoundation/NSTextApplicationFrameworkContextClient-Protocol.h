@@ -5,6 +5,7 @@
 //
 
 @protocol NSTextApplicationFrameworkContextClient
+- (void);
 
 // Remaining properties
 @property long long applicationFrameworkContext;

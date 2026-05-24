@@ -11,15 +11,12 @@
 @interface IMRichActionCarouselCountChatItem : IMTranscriptChatItem
 {
     IMHandle *_handle;
-    long long _selectedIndex;
-    long long _totalCount;
 }
 
 + (id);
 
 // Remaining properties
 @property(readonly, nonatomic) long long selectedIndex; // @synthesize selectedIndex=_selectedIndex;
-@property(readonly, nonatomic) long long totalCount; // @synthesize totalCount=_totalCount;
 
 @end
 

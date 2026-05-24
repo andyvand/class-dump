@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSXPCConnection;
 @protocol DeviceCollectionDelegate;
 
 @interface DeviceCollection
 {
     _Bool _shouldReconnectToService;
-    unsigned int _clientID;
-    int _serviceProcessID;
-    id <DeviceCollectionDelegate> _delegate;
-    NSMutableDictionary *_devices;
-    NSMutableArray *_connections;
-    NSXPCConnection *_connectionToService;
 }
 
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (int);
 - (void);
@@ -54,20 +47,14 @@
 - (void);
 - (id);
 - (unsigned int);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)public}@;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int clientID; // @synthesize clientID=_clientID;
-@property(retain, nonatomic) NSXPCConnection *connectionToService; // @synthesize connectionToService=_connectionToService;
-@property(retain, nonatomic) NSMutableArray *connections; // @synthesize connections=_connections;
 @property(nonatomic) __weak id <DeviceCollectionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSMutableDictionary *devices; // @synthesize devices=_devices;
-@property(nonatomic) int serviceProcessID; // @synthesize serviceProcessID=_serviceProcessID;
-@property(nonatomic) _Bool shouldReconnectToService; // @synthesize shouldReconnectToService=_shouldReconnectToService;
 
 @end
 

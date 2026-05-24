@@ -6,17 +6,17 @@
 
 #import <OfficeImport/OADTextRun.h>
 
-@class NSString, OADParagraphProperties;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface OADTextField : OADTextRun
 {
     NSString *mText;
-    OADParagraphProperties *mParagraphProperties;
 }
 
 - (void);
-- (id);
+- (id)*
+;
 - (id);
 - (id);
 - (unsigned long long);

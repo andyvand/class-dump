@@ -4,40 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface WiFiAnalyticsAWDWiFiNWActivityStateBin
 {
     unsigned long long _residentTime;
-    NSString *_state;
-    struct {
-        unsigned int residentTime:1;
-    } _has;
 }
 
 - (void);
-- (void);
+- (void)sions/A/IOKit;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)postMDMRequestedInstallNowNotificationToAllLoggedInUsersWithOptions: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (id);
+- (void)$;
+- (unsigned long long)a;
 - (_Bool);
 - (void);
 - (id);
+- (_Bool)�;
+- (void);
+- (id)MotionProviders CLPlatformInfo:(struct _NSZone *)arg1:motionProviders() /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasResidentTime;
 @property(readonly, nonatomic) _Bool hasState;
-@property(nonatomic) unsigned long long residentTime; // @synthesize residentTime=_residentTime;
-@property(retain, nonatomic) NSString *state; // @synthesize state=_state;
 
 @end
 

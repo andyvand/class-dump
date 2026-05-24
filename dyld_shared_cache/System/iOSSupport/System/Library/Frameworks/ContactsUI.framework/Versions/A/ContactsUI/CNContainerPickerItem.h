@@ -10,22 +10,18 @@ __attribute__((visibility("hidden")))
 @interface CNContainerPickerItem
 {
     NSString *_name;
-    NSString *_identifier;
-    long long _type;
 }
 
 - (id);
 - (long long);
 - (void);
+- (void)ك;
+- (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)_bannerValue;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

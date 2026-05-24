@@ -10,8 +10,6 @@
 @interface CRKASMEasyMAIDSignInRosterProvider
 {
     id <CRKASMRosterProviding> _instructorRosterProviderWithoutKeychain;
-    CRKASMRosterProviderConfiguration *_configuration;
-    CDUnknownBlockType _providerGenerator;
 }
 
 - (CDUnknownBlockType);
@@ -24,8 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CRKASMRosterProviderConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, nonatomic) id <CRKASMRosterProviding> instructorRosterProviderWithoutKeychain; // @synthesize instructorRosterProviderWithoutKeychain=_instructorRosterProviderWithoutKeychain;
-@property(readonly, nonatomic) CDUnknownBlockType providerGenerator; // @synthesize providerGenerator=_providerGenerator;
 
 @end
 

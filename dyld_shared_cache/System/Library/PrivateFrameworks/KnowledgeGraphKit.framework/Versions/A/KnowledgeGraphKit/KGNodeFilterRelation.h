@@ -16,8 +16,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)!A;
+- (void)ic}s;
 
 // Remaining properties
 @property(readonly, nonatomic) KGNodeFilter *nodeFilter; // @synthesize nodeFilter=_nodeFilter;

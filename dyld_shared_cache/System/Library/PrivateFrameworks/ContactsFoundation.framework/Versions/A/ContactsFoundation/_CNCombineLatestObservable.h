@@ -6,26 +6,21 @@
 
 #import <ContactsFoundation/CNObservable.h>
 
-@class NSArray, NSMutableArray, NSMutableIndexSet;
-@protocol CNScheduler;
+@class NSArray;
 
 @interface _CNCombineLatestObservable : CNObservable
 {
     NSArray *_observables;
-    NSMutableArray *_results;
-    NSMutableArray *_tokens;
-    NSMutableIndexSet *_activeObservableIndexes;
-    NSMutableIndexSet *_silentObservableIndexes;
-    id <CNScheduler> _resultScheduler;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (id);
+- (id)�
+;
 - (id);
 - (id);
 - (id);
@@ -35,12 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableIndexSet *activeObservableIndexes; // @synthesize activeObservableIndexes=_activeObservableIndexes;
 @property(readonly, nonatomic) NSArray *observables; // @synthesize observables=_observables;
-@property(readonly, nonatomic) id <CNScheduler> resultScheduler; // @synthesize resultScheduler=_resultScheduler;
-@property(readonly, nonatomic) NSMutableArray *results; // @synthesize results=_results;
-@property(readonly, nonatomic) NSMutableIndexSet *silentObservableIndexes; // @synthesize silentObservableIndexes=_silentObservableIndexes;
-@property(readonly, nonatomic) NSMutableArray *tokens; // @synthesize tokens=_tokens;
 
 @end
 

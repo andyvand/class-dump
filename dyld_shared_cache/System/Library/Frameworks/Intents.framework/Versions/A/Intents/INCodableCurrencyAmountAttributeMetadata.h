@@ -6,20 +6,18 @@
 
 #import <Intents/INCodableNumberAttributeMetadata.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface INCodableCurrencyAmountAttributeMetadata : INCodableNumberAttributeMetadata
 {
     NSString *_currencyCode;
-    NSArray *_currencyCodes;
 }
 
 + (_Bool);
-+ (id)entityName:(id)arg1 sourceType:(id *)arg2 sourceName:destinationType:destinationName:properties: /* Error: Ran out of types for this method. */;
++ (id)initWithEntityType:(id)arg1 entityName:(id *)arg2 sourceType:sourceName:destinationType:destinationName:properties: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
-@property(readonly, nonatomic) NSArray *currencyCodes; // @synthesize currencyCodes=_currencyCodes;
 
 @end
 

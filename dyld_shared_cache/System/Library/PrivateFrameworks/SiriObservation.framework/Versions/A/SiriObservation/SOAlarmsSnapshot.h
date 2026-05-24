@@ -4,40 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSOrderedSet;
+@class NSDate;
 
 @interface SOAlarmsSnapshot
 {
     NSDate *_date;
-    NSDictionary *_alarmsByID;
-    NSOrderedSet *_firingAlarmIDs;
-    NSOrderedSet *_dismissedAlarmIDs;
 }
 
 + (id);
 + (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)(5vl;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *alarmsByID; // @synthesize alarmsByID=_alarmsByID;
 @property(readonly, copy, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, copy, nonatomic) NSOrderedSet *dismissedAlarmIDs; // @synthesize dismissedAlarmIDs=_dismissedAlarmIDs;
-@property(readonly, copy, nonatomic) NSOrderedSet *firingAlarmIDs; // @synthesize firingAlarmIDs=_firingAlarmIDs;
 
 @end
 

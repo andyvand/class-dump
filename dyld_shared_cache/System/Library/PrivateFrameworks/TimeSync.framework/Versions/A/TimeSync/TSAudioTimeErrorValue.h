@@ -7,7 +7,6 @@
 @interface TSAudioTimeErrorValue
 {
     double _sampleTimestamp;
-    double _timeError;
 }
 
 - (double);
@@ -17,7 +16,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) double sampleTimestamp; // @synthesize sampleTimestamp=_sampleTimestamp;
-@property(readonly, nonatomic) double timeError; // @synthesize timeError=_timeError;
 
 @end
 

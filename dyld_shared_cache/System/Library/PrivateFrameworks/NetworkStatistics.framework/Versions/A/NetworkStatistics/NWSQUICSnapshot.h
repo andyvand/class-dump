@@ -6,33 +6,21 @@
 
 #import <NetworkStatistics/NWSProtocolSnapshot.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface NWSQUICSnapshot : NWSProtocolSnapshot
 {
     NSString *_processName;
-    NSString *_uuid;
-    NSString *_euuid;
-    NSString *_fuuid;
-    NSString *_vuuid;
-    NSData *_localAddress;
-    NSData *_remoteAddress;
-    struct nstat_tcp_descriptor _descriptor;
-    unsigned int _provider;
-    unsigned long long _eventFlags;
-    double _rttMinimum;
-    double _rttAverage;
-    double _rttVariation;
 }
 
 - (double);
-- (id);
+- (id)CoreTelephonyClientSubscriberDelegate;
 - (id);
 - (double);
 - (double);
 - (id);
 - (id);
-- (id);
+- (id)c;
 - (_Bool);
 - (unsigned long long);
 - (unsigned int);
@@ -43,7 +31,7 @@
 - (unsigned int);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
@@ -56,11 +44,11 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long));
 - (unsigned int);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)KFeedbackDelegateProxying>";
 - (double);
 - (int)!ÜEùÑ1Â0@ù
 × ;
@@ -69,9 +57,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly) double rttAverage; // @synthesize rttAverage=_rttAverage;
 @property(readonly) double rttMinimum; // @synthesize rttMinimum=_rttMinimum;
-@property(readonly) double rttVariation; // @synthesize rttVariation=_rttVariation;
 
 @end
 

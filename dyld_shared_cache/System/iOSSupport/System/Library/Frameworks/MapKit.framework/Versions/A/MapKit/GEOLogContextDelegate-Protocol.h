@@ -5,5 +5,9 @@
 //
 
 @protocol GEOLogContextDelegate
+
+@optional
+- (int);
+- (int);
 @end
 

@@ -6,42 +6,32 @@
 
 #import <Foundation/NSFormatter.h>
 
-@class NSString;
-
 @interface NSByteCountFormatter : NSFormatter
 {
     unsigned int _allowedUnits;
-    int _formattingContext;
-    BOOL _countStyle;
-    _Bool _allowsNonnumericFormatting;
-    _Bool _includesUnit;
-    _Bool _includesCount;
-    _Bool _includesActualByteCount;
-    _Bool _adaptive;
-    _Bool _zeroPadsFractionDigits;
 }
 
 - (void);
 - (long long);
 - (_Bool);
-- (id);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (id)H1;
+- (unsigned long long)AllowVariableRate;
+- (_Bool);
+- (void);
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (unsigned long long);
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (id)aloneMonthSymbols:(struct _NSZone *)arg1;
+- (id)setStandaloneMonthSymbols:(struct _NSZone *)arg1;
 - (_Bool)HIJK;
 - (_Bool)er.swift;
 - (long long)³´µ¶¶····¸¹¹¹¹º»¼¼¼½½¾¾¿¿ÀÀÁÂÃÄÄÅÅÅÅÅÆÇÈÉÊËÌÍÎÎÏÏÐÐÐÑÑÑÑÒÒÒÒÒÒÒÓÓÓÓÔÕÕÕÖÖÖÖÖÖ××ØØÙÚÛÛÜÜÝÝÝÝÞÞßßààààáââãääååæçèèééêêëìíîïïððððññòòòóôõõõõööööö÷øùùúúúúúûüüýýþÿ;
@@ -53,22 +43,7 @@
 - (id)*;
 
 // Remaining properties
-@property(getter=isAdaptive) _Bool adaptive; // @synthesize adaptive=_adaptive;
-@property unsigned long long allowedUnits;
-@property _Bool allowsNonnumericFormatting; // @synthesize allowsNonnumericFormatting=_allowsNonnumericFormatting;
-@property long long countStyle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property long long formattingContext;
 @property(readonly) unsigned long long hash;
-@property _Bool includesActualByteCount; // @synthesize includesActualByteCount=_includesActualByteCount;
-@property _Bool includesCount; // @synthesize includesCount=_includesCount;
-@property _Bool includesUnit; // @synthesize includesUnit=_includesUnit;
-@property(readonly) Class superclass;
-@property _Bool zeroPadsFractionDigits; // @synthesize zeroPadsFractionDigits=_zeroPadsFractionDigits;
 
 @end
 

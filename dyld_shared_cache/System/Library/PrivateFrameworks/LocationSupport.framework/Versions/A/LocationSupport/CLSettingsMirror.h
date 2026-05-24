@@ -6,15 +6,11 @@
 
 #import <LocationSupport/CLSettingsDictionary.h>
 
-@class NSString;
-@protocol CLIntersiloUniverse, CLSettingsManagerProtocol;
+@protocol CLSettingsManagerProtocol;
 
 @interface CLSettingsMirror : CLSettingsDictionary
 {
     _Bool _valid;
-    CDUnknownBlockType _settingsChangeHandler;
-    id <CLSettingsManagerProtocol> _manager;
-    id <CLIntersiloUniverse> _universe;
 }
 
 - (void);
@@ -29,29 +25,19 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)H;
+- (_Bool);
+- (void);
 - (void);
 - (void);
+- (void);
+- (void)llection:(id)arg1:(id)arg2 NotificationDelegates>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, avas::NotificationDelegateCollection::NotificationDelegates>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}}"_currentDelegateID"Q}} /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) id <CLSettingsManagerProtocol> manager; // @synthesize manager=_manager;
-@property(copy, nonatomic) CDUnknownBlockType settingsChangeHandler; // @synthesize settingsChangeHandler=_settingsChangeHandler;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <CLIntersiloUniverse> universe; // @synthesize universe=_universe;
-@property(nonatomic) _Bool valid; // @synthesize valid=_valid;
 
 @end
 

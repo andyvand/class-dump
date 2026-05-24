@@ -10,26 +10,18 @@ __attribute__((visibility("hidden")))
 @interface _MKMarkerAnnotationBaseImageContent
 {
     int _blendMode;
-    NSColor *_fillColor;
-    NSColor *_strokeColor;
-    double _strokeWidth;
-    long long _baseImageType;
 }
 
 - (id);
 - (long long);
 - (int);
-- (id);
+- (id)that is too short (%zu);
 - (id);
 - (double);
-- (void)BreakMode: /* Error: Ran out of types for this method. */;
+- (void)setLineBreakMode: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long baseImageType; // @synthesize baseImageType=_baseImageType;
-@property(readonly, nonatomic) int blendMode; // @synthesize blendMode=_blendMode;
 @property(readonly, nonatomic) NSColor *fillColor; // @synthesize fillColor=_fillColor;
-@property(readonly, nonatomic) NSColor *strokeColor; // @synthesize strokeColor=_strokeColor;
-@property(readonly, nonatomic) double strokeWidth; // @synthesize strokeWidth=_strokeWidth;
 
 @end
 

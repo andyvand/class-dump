@@ -5,5 +5,6 @@
 //
 
 @protocol STPasscodeReceiverInterface
+- (void)NULL DEFAULT '', sync_redownload_params TEXT NOT NULL DEFAULT '');
 @end
 

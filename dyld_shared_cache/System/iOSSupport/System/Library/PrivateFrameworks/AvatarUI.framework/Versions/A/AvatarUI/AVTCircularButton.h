@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAShapeLayer, UIColor, UIImage;
+@class CAShapeLayer;
 
 @interface AVTCircularButton
 {
     _Bool _isUsingDynamicBackground;
-    CAShapeLayer *_clippingLayer;
-    UIColor *_dynamicBackgroundColor;
-    UIImage *_symbolImage;
-    UIColor *_symbolTintColor;
 }
 
 - (void);
+- (void)Ҁ;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)A;
 - (_Bool);
 - (id);
 - (id);
@@ -31,8 +27,8 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)A;
+- (void)Channel;
 - (void);
 - (void);
 - (id);
@@ -41,10 +37,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CAShapeLayer *clippingLayer; // @synthesize clippingLayer=_clippingLayer;
-@property(retain, nonatomic) UIColor *dynamicBackgroundColor; // @synthesize dynamicBackgroundColor=_dynamicBackgroundColor;
-@property(nonatomic) _Bool isUsingDynamicBackground; // @synthesize isUsingDynamicBackground=_isUsingDynamicBackground;
-@property(retain, nonatomic) UIImage *symbolImage; // @synthesize symbolImage=_symbolImage;
-@property(retain, nonatomic) UIColor *symbolTintColor; // @synthesize symbolTintColor=_symbolTintColor;
 
 @end
 

@@ -4,9 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class RBSystemState;
+@class RBProcess, RBSAssertionIdentifier, RBSProcessIdentifier, RBSProcessLimitations, RBSystemState;
 
 @protocol RBAssertionManaging
+- (_Bool)etion_=B}16@?0@"_PASSqlWriteTransaction"8;
+- (_Bool)asyncLoaderSupportingSectionModel:(RBSProcessIdentifier *)arg1 result:(_Bool)arg2 queryId:(RBSAssertionIdentifier *)arg3;
+- (_Bool);
+- (RBSProcessLimitations *)enum_kMDItemAcquisitionMake_QueryTermsRatio_Word;
+- (RBProcess *)tCore.dylib;
+- (void);
+- (_Bool);
+- (void)s Adding contact observer;
+- (void)߆;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) RBSystemState *systemState;

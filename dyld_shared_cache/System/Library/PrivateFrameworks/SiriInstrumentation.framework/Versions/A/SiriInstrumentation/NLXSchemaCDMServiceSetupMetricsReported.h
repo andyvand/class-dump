@@ -6,23 +6,23 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface NLXSchemaCDMServiceSetupMetricsReported : SISchemaInstrumentationMessage
 {
     NSArray *_setupMetrics;
 }
 
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)e mismatch;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -33,7 +33,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *setupMetrics; // @synthesize setupMetrics=_setupMetrics;
 
 @end

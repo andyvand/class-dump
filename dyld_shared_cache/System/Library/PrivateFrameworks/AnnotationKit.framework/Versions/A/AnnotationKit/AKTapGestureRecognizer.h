@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AKTapGestureRecognizer
 {
     _Bool _penGestureDetected;
@@ -13,17 +11,10 @@
 
 - (void);
 - (_Bool);
-- (void);
+- (void)te max allowed pin count to %u, error=%{public}@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property _Bool penGestureDetected; // @synthesize penGestureDetected=_penGestureDetected;
-@property(readonly) Class superclass;
 
 @end
 

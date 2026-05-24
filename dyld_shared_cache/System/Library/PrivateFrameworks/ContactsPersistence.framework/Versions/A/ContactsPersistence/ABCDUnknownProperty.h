@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABCDRecord, NSData, NSString;
+@class NSData;
 
 @interface ABCDUnknownProperty
 {
@@ -14,8 +14,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSData *originalLine; // @dynamic originalLine;
-@property(retain, nonatomic) ABCDRecord *owner; // @dynamic owner;
-@property(retain, nonatomic) NSString *propertyName; // @dynamic propertyName;
 
 @end
 

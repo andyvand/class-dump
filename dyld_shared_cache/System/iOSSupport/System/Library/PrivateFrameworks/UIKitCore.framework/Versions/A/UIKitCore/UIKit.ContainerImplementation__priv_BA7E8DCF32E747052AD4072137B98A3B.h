@@ -7,21 +7,6 @@
 @interface UIKit.ContainerImplementation__priv_BA7E8DCF32E747052AD4072137B98A3B
 {
     id containerModel;
-    id materialBackdropContext;
-    id glassPocketContainer;
-    id containerElementInteraction;
-    id scrollView;
-    id collectorInteraction;
-    id edge;
-    id view;
-    id isActive;
-    id findsParentScrollView;
-    id geometryObservingView;
-    id targetScrollPocket;
-    id glassProperties;
-    id parentScrollViewNeedsUpdate;
-    id parentScrollViewAndSubview;
-    id activeParentScrollViewAndSubview;
 }
 
 - (void);

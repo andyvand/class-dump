@@ -8,8 +8,8 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id)applyBlock: /* Error: Ran out of types for this method. */;
++ (id)appendString: /* Error: Ran out of types for this method. */;
 
 @end
 

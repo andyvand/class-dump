@@ -9,16 +9,10 @@
 @interface PLMDNSAgent
 {
     PLXPCListenerOperatorComposition *_startBrowse;
-    PLXPCListenerOperatorComposition *_stopBrowse;
-    PLXPCListenerOperatorComposition *_startAdvertise;
-    PLXPCListenerOperatorComposition *_stopAdvertise;
-    PLXPCListenerOperatorComposition *_startResolve;
-    PLXPCListenerOperatorComposition *_stopResolve;
-    PLXPCListenerOperatorComposition *_clientSummary;
 }
 
 + (id);
-+ (id);
++ (id)a;
 + (id);
 + (id);
 + (id);
@@ -26,13 +20,13 @@
 + (void)ms;
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)!;
+- (id)unts.framework/Versions/A/Accounts;
 - (void);
 - (void);
 - (void);
@@ -46,13 +40,7 @@
 - (void)ufferToCxt:raidSLCPadding(440) cannot add 1 element to context /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) PLXPCListenerOperatorComposition *clientSummary; // @synthesize clientSummary=_clientSummary;
-@property(retain) PLXPCListenerOperatorComposition *startAdvertise; // @synthesize startAdvertise=_startAdvertise;
 @property(retain) PLXPCListenerOperatorComposition *startBrowse; // @synthesize startBrowse=_startBrowse;
-@property(retain) PLXPCListenerOperatorComposition *startResolve; // @synthesize startResolve=_startResolve;
-@property(retain) PLXPCListenerOperatorComposition *stopAdvertise; // @synthesize stopAdvertise=_stopAdvertise;
-@property(retain) PLXPCListenerOperatorComposition *stopBrowse; // @synthesize stopBrowse=_stopBrowse;
-@property(retain) PLXPCListenerOperatorComposition *stopResolve; // @synthesize stopResolve=_stopResolve;
 
 @end
 

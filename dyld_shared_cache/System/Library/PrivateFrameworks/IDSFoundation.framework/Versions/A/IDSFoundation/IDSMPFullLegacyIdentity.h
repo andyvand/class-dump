@@ -22,9 +22,9 @@
 - (_Bool);
 - (unsigned int);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
-- (id);
+- (id)stringByAppendingPathComponent:(id)arg1;
 - (void);
 - (id);
 - (id);

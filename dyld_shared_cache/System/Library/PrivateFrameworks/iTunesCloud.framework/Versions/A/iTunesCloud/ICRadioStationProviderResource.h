@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface ICRadioStationProviderResource
 {
     NSURL *_url;
-    NSString *_bundleIdentifier;
 }
 
 - (id);
@@ -18,7 +17,6 @@
 - (void)V_siriInitiated;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
 @property(readonly, copy, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

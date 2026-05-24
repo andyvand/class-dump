@@ -4,71 +4,60 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCondition, NSRecursiveLock, NSString, PPSQLDatabaseHandlePool;
+@class NSRecursiveLock;
 
 @interface PPSQLDatabase
 {
     NSRecursiveLock *_writeLock;
-    PPSQLDatabaseHandlePool *_handlePool;
-    NSCondition *_handlePoolCond;
-    NSString *_path;
-    NSString *_parentDirectory;
-    unsigned char _migrationCount;
 }
 
 + (id);
-+ (id);
++ (id)ing broadcast.;
 + (id);
 + (id);
 + (void);
 + (void);
-+ (id);
-+ (id)aDetectorsEnabledForHighMemoryDevices;
-- (_Bool);
++ (id);
++ (id)safariDataDetectorsEnabledForHighMemoryDevices;
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)";
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (unsigned char);
 - (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (unsigned long long);
+- (id)sendReadReceiptForMessage:(unsigned char)arg1 toChatID:identifier:style: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)eURL %@;
+- (_Bool)redDevice = %@, isConnected = %@, isNearby = %@;
+- (id)date to nil;
 - (void);
 - (id);
+- (_Bool);
+- (_Bool);
+- (id);
+- (unsigned long long)@;
+- (void);
+- (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)b;
 - (_Bool);
 - (void);
 - (void);
 - (_Bool)eText:(unsigned char)arg1 error:(double)arg2;
-- (id)nsumer;
-- (id)N_PORTRAIT_GLOBAL;
+- (id)consumer;
+- (id)PERSONALIZATION_PORTRAIT_GLOBAL;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

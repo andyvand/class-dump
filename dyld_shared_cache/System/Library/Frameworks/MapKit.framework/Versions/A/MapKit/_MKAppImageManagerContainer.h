@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableData, NSString;
-
 __attribute__((visibility("hidden")))
 @interface _MKAppImageManagerContainer
 {
     CDUnknownBlockType _completionHandler;
-    NSMutableData *_data;
-    NSString *_urlString;
-    unsigned long long _signpostID;
 }
 
 - (void);
@@ -20,16 +15,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (CDUnknownBlockType);
+- (void)A;
 - (void);
-- (void);
-- (void)sterAnnotationView: /* Error: Ran out of types for this method. */;
-- (id)tePickingStateStyleAttribute:selected: /* Error: Ran out of types for this method. */;
+- (void)setClusterAnnotationView: /* Error: Ran out of types for this method. */;
+- (id)_updatePickingStateStyleAttribute:selected: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(retain, nonatomic) NSMutableData *data; // @synthesize data=_data;
-@property(nonatomic) unsigned long long signpostID; // @synthesize signpostID=_signpostID;
-@property(copy, nonatomic) NSString *urlString; // @synthesize urlString=_urlString;
 
 @end
 

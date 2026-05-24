@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol CLSClientDelegate;
 
 @interface CLSClient
@@ -14,18 +13,11 @@
 
 - (oneway void);
 - (id);
-- (void);
+- (void)setWantsAuthenticationProgress:(id)arg1;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <CLSClientDelegate> delagate; // @synthesize delagate=_delagate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -9,9 +9,6 @@
 @interface PromotedContent.OutstreamVideoTapAction : APPCTapAction
 {
     id url;
-    id opensInstalledApp;
-    id adamIdentifier;
-    id iTunesMetadata;
 }
 
 - (id);

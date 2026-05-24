@@ -4,38 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSURL;
-@protocol PFStoryMotionStyleTable, PFStoryTransitionTable;
+@class NSDictionary;
 
 @interface PFStoryAutoEditConfiguration
 {
     NSDictionary *_durationTablesByPlaybackStyle;
-    NSDictionary *_transitionDurationsByKind;
-    NSDictionary *_clusteringPropertiesByCategory;
-    NSDictionary *_overallDurationTable;
-    NSDictionary *_outroDurations;
-    NSURL *_url;
-    id <PFStoryTransitionTable> _defaultTransitionTable;
-    id <PFStoryTransitionTable> _interMomentTransitionTable;
-    id <PFStoryTransitionTable> _portraitTransitionTable;
-    id <PFStoryTransitionTable> _nUpTransitionTable;
-    id <PFStoryTransitionTable> _interModuleTransitionTable;
-    id <PFStoryMotionStyleTable> _motionStyleTable;
-    id <PFStoryMotionStyleTable> _diptychMotionStyleTable;
-    id <PFStoryMotionStyleTable> _triptychMotionStyleTable;
-    double _diptychDurationMultiplier;
-    double _triptychDurationMultiplier;
-    double _initialDurationMultiplier;
-    double _chapterBeginDurationMultiplier;
-    double _finalDurationMultiplier;
-    double _slowVisualTempoTarget;
-    double _mediumVisualTempoTarget;
-    double _fastVisualTempoTarget;
-    double _composabilityTargetDurationMultiplier;
-    long long _composabilityMinimum1UpRunCount;
-    long long _composabilityMinimumNUpCount;
-    long long _composabilityMaximumNUpRunCount;
-    double _composabilityScoreThreshold;
 }
 
 + (id);
@@ -43,72 +16,46 @@
 - (id);
 - (double);
 - (double);
-- (CDStruct_c8943d03);
+- (CDStruct_d00fdffd);
+- (id);
+- (double)it.framework/Versions/A/PlugInKit;
+- (id);
+- (id)n;
+- (CDStruct_d00fdffd)aemon.framework/Versions/A/SpotlightDaemon;
+- (double);
+- (CDStruct_d00fdffd);
+- (CDStruct_d00fdffd);
+- (CDStruct_d00fdffd);
+- (id);
 - (id);
 - (double);
 - (id);
-- (id);
-- (CDStruct_c8943d03);
 - (double);
-- (CDStruct_c8943d03);
-- (CDStruct_c8943d03);
-- (CDStruct_c8943d03);
-- (id);
-- (id);
+- (double);
+- (CDStruct_d00fdffd);
 - (double);
 - (id);
 - (double);
-- (double);
-- (CDStruct_c8943d03);
-- (double);
-- (id);
-- (double);
-- (id);
+- (id);
 - (double);
 - (double);
 - (long long);
 - (id);
-- (double);
-- (CDStruct_c8943d03);
+- (double);
+- (CDStruct_d00fdffd);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)x;
 - (long long);
 - (id);
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id));
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double chapterBeginDurationMultiplier; // @synthesize chapterBeginDurationMultiplier=_chapterBeginDurationMultiplier;
-@property(readonly, nonatomic) long long composabilityMaximumNUpRunCount; // @synthesize composabilityMaximumNUpRunCount=_composabilityMaximumNUpRunCount;
-@property(readonly, nonatomic) long long composabilityMinimum1UpRunCount; // @synthesize composabilityMinimum1UpRunCount=_composabilityMinimum1UpRunCount;
-@property(readonly, nonatomic) long long composabilityMinimumNUpCount; // @synthesize composabilityMinimumNUpCount=_composabilityMinimumNUpCount;
-@property(readonly, nonatomic) double composabilityScoreThreshold; // @synthesize composabilityScoreThreshold=_composabilityScoreThreshold;
-@property(readonly, nonatomic) double composabilityTargetDurationMultiplier; // @synthesize composabilityTargetDurationMultiplier=_composabilityTargetDurationMultiplier;
-@property(readonly, nonatomic) id <PFStoryTransitionTable> defaultTransitionTable; // @synthesize defaultTransitionTable=_defaultTransitionTable;
-@property(readonly, nonatomic) double diptychDurationMultiplier; // @synthesize diptychDurationMultiplier=_diptychDurationMultiplier;
-@property(readonly, nonatomic) id <PFStoryMotionStyleTable> diptychMotionStyleTable; // @synthesize diptychMotionStyleTable=_diptychMotionStyleTable;
-@property(readonly, nonatomic) double fastVisualTempoTarget; // @synthesize fastVisualTempoTarget=_fastVisualTempoTarget;
-@property(readonly, nonatomic) double finalDurationMultiplier; // @synthesize finalDurationMultiplier=_finalDurationMultiplier;
-@property(readonly, nonatomic) double initialDurationMultiplier; // @synthesize initialDurationMultiplier=_initialDurationMultiplier;
-@property(readonly, nonatomic) id <PFStoryTransitionTable> interModuleTransitionTable; // @synthesize interModuleTransitionTable=_interModuleTransitionTable;
-@property(readonly, nonatomic) id <PFStoryTransitionTable> interMomentTransitionTable; // @synthesize interMomentTransitionTable=_interMomentTransitionTable;
-@property(readonly, nonatomic) CDStruct_c8943d03 longOverallDuration;
-@property(readonly, nonatomic) CDStruct_c8943d03 maximumDurations;
-@property(readonly, nonatomic) CDStruct_c8943d03 mediumOverallDuration;
-@property(readonly, nonatomic) double mediumVisualTempoTarget; // @synthesize mediumVisualTempoTarget=_mediumVisualTempoTarget;
-@property(readonly, nonatomic) CDStruct_c8943d03 minimumDurations;
-@property(readonly, nonatomic) id <PFStoryMotionStyleTable> motionStyleTable; // @synthesize motionStyleTable=_motionStyleTable;
-@property(readonly, nonatomic) id <PFStoryTransitionTable> nUpTransitionTable; // @synthesize nUpTransitionTable=_nUpTransitionTable;
-@property(readonly, nonatomic) id <PFStoryTransitionTable> portraitTransitionTable; // @synthesize portraitTransitionTable=_portraitTransitionTable;
-@property(readonly, nonatomic) CDStruct_c8943d03 shortOverallDuration;
-@property(readonly, nonatomic) double slowVisualTempoTarget; // @synthesize slowVisualTempoTarget=_slowVisualTempoTarget;
-@property(readonly, nonatomic) double triptychDurationMultiplier; // @synthesize triptychDurationMultiplier=_triptychDurationMultiplier;
-@property(readonly, nonatomic) id <PFStoryMotionStyleTable> triptychMotionStyleTable; // @synthesize triptychMotionStyleTable=_triptychMotionStyleTable;
-@property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
+@property(readonly, nonatomic) CDStruct_d00fdffd minimumDurations;
 
 @end
 

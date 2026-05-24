@@ -5,5 +5,8 @@
 //
 
 @protocol SafariViewDelegate
+
+@optional
+- (void);
 @end
 

@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDateComponents, NSDictionary;
-
 @interface TTRNLTextStructuredEventRecurrentEvent
 {
     _Bool _isAllDay;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    NSDictionary *_frequency;
-    NSDateComponents *_startDateComponents;
-    NSDateComponents *_endDateComponents;
-    NSDateComponents *_frequencyComponents;
-    struct _NSRange _range;
 }
 
 - (long long);
@@ -28,13 +19,13 @@
 - (id);
 - (long long);
 - (long long);
-- (id);
+- (id);
 - (long long);
 - (long long);
 - (id);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)c;
 - (long long);
 - (id);
 - (id);
@@ -52,24 +43,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) long long dayFrequency;
-@property(retain, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(copy, nonatomic) NSDateComponents *endDateComponents; // @synthesize endDateComponents=_endDateComponents;
-@property(copy, nonatomic) NSDictionary *frequency; // @synthesize frequency=_frequency;
-@property(copy, nonatomic) NSDateComponents *frequencyComponents; // @synthesize frequencyComponents=_frequencyComponents;
-@property(readonly, nonatomic) long long hourFrequency;
-@property(nonatomic) _Bool isAllDay; // @synthesize isAllDay=_isAllDay;
-@property(readonly, nonatomic) long long monthFrequency;
 @property(nonatomic) struct _NSRange range; // @synthesize range=_range;
-@property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(copy, nonatomic) NSDateComponents *startDateComponents; // @synthesize startDateComponents=_startDateComponents;
-@property(readonly, nonatomic) long long weekDay;
-@property(readonly, nonatomic) long long weekOfMonthFrequency;
-@property(readonly, nonatomic) long long weekOfYear;
-@property(readonly, nonatomic) long long weekdayEnd;
-@property(readonly, nonatomic) long long weekdayOrdinal;
-@property(readonly, nonatomic) long long weekdayStart;
-@property(readonly, nonatomic) long long yearFrequency;
 
 @end
 

@@ -4,37 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOComposedRoute, GEOComposedRouteLeg, GEOObserverHashTable, MNEVChargingStateMonitor, MNNavigationSessionState, MNParkedVehicleDetector, NSMutableArray, NSString, _MNArrivalUpdaterDetails, _MNArrivalUpdaterState;
+@class GEOObserverHashTable;
 
 __attribute__((visibility("hidden")))
 @interface MNArrivalUpdater
 {
     GEOObserverHashTable *_safeDelegate;
-    _MNArrivalUpdaterState *_currentState;
-    _MNArrivalUpdaterDetails *_details;
-    NSMutableArray *_timeoutRegions;
-    MNEVChargingStateMonitor *_evChargingStateMonitor;
-    MNParkedVehicleDetector *_parkedVehicleDetector;
-    unsigned long long _stateCaptureHandle;
 }
 
-- (void);
+- (void)SearchCustomScopeBar;
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)NavigationSplitTabView;
 - (void);
 - (id);
 - (_Bool);
+- (void)SwiftUIOutlineListView;
+- (void)FilterToolbarKey;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)WidgetBorderedProminentButtonStyle;
+- (void)Z7gO;
+- (_Bool)6;
 - (id);
 - (void);
 - (id);
@@ -42,8 +36,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)tableView:selectionIndexesForProposedSelection: /* Error: Ran out of types for this method. */;
+- (id)pletion:%@|sfrScanCompletion:%@) 
+    proxyObject:%@ 
+    progressManager:%@ 
+    accessControlContext:%@ 
+    descriptor:%@ 
+    overrides:%@ 
+<<<] /* Error: Ran out of types for this method. */;
 - (void)Token";
 - (void)INTEGER -- MNRouteEditorAction in MNNavigationEnums.h
 );
@@ -147,19 +147,7 @@ CREATE VIEW route_creation_actions_view AS
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isApproachingWaypoint;
-@property(readonly, nonatomic) _Bool isInPreArrivalRegion;
-@property(copy, nonatomic) MNNavigationSessionState *navigationSessionState;
-@property(readonly, nonatomic) GEOComposedRoute *route;
 @property(readonly, nonatomic) GEOObserverHashTable *safeDelegate; // @synthesize safeDelegate=_safeDelegate;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) GEOComposedRouteLeg *targetLeg;
 
 @end
 

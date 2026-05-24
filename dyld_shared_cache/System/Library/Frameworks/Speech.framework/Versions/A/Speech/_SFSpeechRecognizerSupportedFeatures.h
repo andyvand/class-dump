@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EARVoiceCommandActiveSet, NSLocale, NSSet, _SFSpeechRecognizerEndpointDetectorOptions, _SFSpeechRecognizerModelOptions, _SFSpeechRecognizerSpeechDetectorOptions;
+@class NSLocale;
 
 @interface _SFSpeechRecognizerSupportedFeatures
 {
     _Bool _isSingleUtteranceTask;
-    _Bool _concatenateUtterances;
-    NSLocale *_locale;
-    NSSet *_taskNames;
-    EARVoiceCommandActiveSet *_voiceCommandActiveSet;
-    _SFSpeechRecognizerModelOptions *_modelOptions;
-    unsigned long long _flags;
-    _SFSpeechRecognizerEndpointDetectorOptions *_endpointDetectionOptions;
-    _SFSpeechRecognizerSpeechDetectorOptions *_speechDetectionOptions;
 }
 
-+ (_Bool);
++ (_Bool)^/;
 - (id);
 - (id);
 - (id);
@@ -28,23 +20,15 @@
 - (id);
 - (id);
 - (_Bool);
+- (id)	k;
 - (id);
-- (id);
-- (id);
+- (id)R_armMiddleOutfit_JNT;
 - (void);
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool concatenateUtterances; // @synthesize concatenateUtterances=_concatenateUtterances;
-@property(readonly, copy, nonatomic) _SFSpeechRecognizerEndpointDetectorOptions *endpointDetectionOptions; // @synthesize endpointDetectionOptions=_endpointDetectionOptions;
-@property(readonly, nonatomic) unsigned long long flags; // @synthesize flags=_flags;
-@property(readonly, nonatomic) _Bool isSingleUtteranceTask; // @synthesize isSingleUtteranceTask=_isSingleUtteranceTask;
 @property(readonly, copy, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(readonly, copy, nonatomic) _SFSpeechRecognizerModelOptions *modelOptions; // @synthesize modelOptions=_modelOptions;
-@property(readonly, copy, nonatomic) _SFSpeechRecognizerSpeechDetectorOptions *speechDetectionOptions; // @synthesize speechDetectionOptions=_speechDetectionOptions;
-@property(readonly, copy, nonatomic) NSSet *taskNames; // @synthesize taskNames=_taskNames;
-@property(readonly, copy, nonatomic) EARVoiceCommandActiveSet *voiceCommandActiveSet; // @synthesize voiceCommandActiveSet=_voiceCommandActiveSet;
 
 @end
 

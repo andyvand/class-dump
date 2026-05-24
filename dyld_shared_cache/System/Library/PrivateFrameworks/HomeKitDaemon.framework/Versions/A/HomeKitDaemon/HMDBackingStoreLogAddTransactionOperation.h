@@ -12,8 +12,6 @@ __attribute__((visibility("hidden")))
 @interface HMDBackingStoreLogAddTransactionOperation : HMDBackingStoreOperation
 {
     _Bool _isAtomicSaveEnabled;
-    HMDBackingStoreTransactionBlock *_transaction;
-    long long _pushFlags;
 }
 
 - (id);
@@ -22,13 +20,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void)eType;
+- (void)SecurableType;
 - (void);
 - (long long)8ëB;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isAtomicSaveEnabled; // @synthesize isAtomicSaveEnabled=_isAtomicSaveEnabled;
-@property(nonatomic) long long pushFlags; // @synthesize pushFlags=_pushFlags;
 @property(retain, nonatomic) HMDBackingStoreTransactionBlock *transaction; // @synthesize transaction=_transaction;
 
 @end

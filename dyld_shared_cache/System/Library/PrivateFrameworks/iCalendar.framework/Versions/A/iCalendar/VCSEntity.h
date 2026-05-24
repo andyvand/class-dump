@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary, NSString;
+@class NSMutableArray;
 
 @interface VCSEntity
 {
     NSMutableArray *_children;
-    NSMutableDictionary *_propertyMap;
-    VCSEntity *_parent;
 }
 
 + (id);
@@ -32,18 +30,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *alarms;
-@property(readonly, nonatomic) NSArray *children;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) unsigned long long entityType;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak VCSEntity *parent; // @synthesize parent=_parent;
-@property(readonly, nonatomic) NSArray *properties;
-@property(readonly) Class superclass;
 
 @end
 

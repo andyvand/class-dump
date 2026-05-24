@@ -6,29 +6,27 @@
 
 #import <PassKitCore/PKPassAuxiliaryCapabilityKeyCreationMetadata.h>
 
-@class NSData, NSDictionary;
+@class NSData;
 
 @interface PKPassAuxiliaryCapabilitySignatureUnifiedAccessHydraKeyCreationMetadata : PKPassAuxiliaryCapabilityKeyCreationMetadata
 {
     NSData *_readerGroupIdentifier;
-    NSDictionary *_serverParameters;
 }
 
 + (_Bool)0@ù
 × ;
+- (id);
 - (id);
 - (id);
 - (id);
+- (void)requestErrorDomain;
 - (id);
-- (void);
 - (id);
-- (id);
-- (id)tilIdentityVerification;
+- (id)amountRemainingUntilIdentityVerification;
 - (void)ize of %g megabytes.;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *readerGroupIdentifier; // @synthesize readerGroupIdentifier=_readerGroupIdentifier;
-@property(readonly, nonatomic) NSDictionary *serverParameters; // @synthesize serverParameters=_serverParameters;
 
 @end
 

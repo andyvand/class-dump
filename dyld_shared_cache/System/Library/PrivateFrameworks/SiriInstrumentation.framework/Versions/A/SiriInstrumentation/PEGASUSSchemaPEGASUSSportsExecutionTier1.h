@@ -6,23 +6,19 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface PEGASUSSchemaPEGASUSSportsExecutionTier1 : SISchemaInstrumentationMessage
 {
     NSArray *_sportNames;
-    NSArray *_leagues;
-    NSArray *_athleteEntities;
-    NSArray *_teamEntities;
-    NSArray *_eventEntities;
 }
 
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (int);
+- (unsigned long long)Th:xs /* Error: Ran out of types for this method. */;
+- (int);
 - (void);
 - (void);
 - (void);
@@ -40,37 +36,32 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)ׁ;
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
 - (id);
 - (id);
-- (id)peHashBytes;
+- (id);
+- (void);
+- (unsigned long long);
+- (_Bool)L(;
+- (_Bool)essage record %@;
+- (id);
+- (id);
+- (id)_hasEnrollmentDataDedupeHashBytes;
 - (id)ompleteSuggestionMetaData",&,N,V_autoCompleteSuggestionMetaData;
 - (void)iml.siri.asr.ASRClientEvent.ASRFirstSecondAfterLeadingSilenceProcessed;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *athleteEntities; // @synthesize athleteEntities=_athleteEntities;
-@property(copy, nonatomic) NSArray *eventEntities; // @synthesize eventEntities=_eventEntities;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *leagues; // @synthesize leagues=_leagues;
 @property(copy, nonatomic) NSArray *sportNames; // @synthesize sportNames=_sportNames;
-@property(copy, nonatomic) NSArray *teamEntities; // @synthesize teamEntities=_teamEntities;
 
 @end
 

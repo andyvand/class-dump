@@ -4,33 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchTaggedSpan
 {
     PBDataReader *_reader;
-    NSString *_span;
-    NSString *_tag;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_span:1;
-        unsigned int read_tag:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)ldSettingsKeyPath;
+- (id)enhancedEndpointerTaskThresholdMap;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)h;
 - (_Bool);
 - (id);
 - (id)as_toFreeway"b1"has_tollAhead"b1"has_tollPrior"b1"read_unknownFields"b1"read_junctionElements"b1"read_artworkOverride"b1"read_chargingInfo"b1"read_evInfo"b1"read_evStateInfo"b1"read_exitNumber"b1"read_guidanceEvents"b1"read_instructionSet"b1"read_instructions"b1"read_maneuverNames"b1"read_notice"b1"read_roadDescriptions"b1"read_signposts"b1"read_stopWaypoint"b1"read_timeCheckpoints"b1"wrote_anyField"b1};
-- (id)ime;
+- (id)_remainingTime;
 - (id)ÐI JQ R¬R(STlUðVpX	[`\È^4_;
 - (void);
 

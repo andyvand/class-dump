@@ -7,8 +7,6 @@
 @interface BiomeSQLParser.PgQuery_PartitionRangeDatum._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _kind;
-    id _value;
-    id _location;
 }
 
 @end

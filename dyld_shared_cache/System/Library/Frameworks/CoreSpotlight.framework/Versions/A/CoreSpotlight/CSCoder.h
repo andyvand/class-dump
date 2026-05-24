@@ -4,48 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface CSCoder
 {
     _Bool _finalized;
-    NSData *_data;
-    struct _MDPlistContainer *_container;
 }
 
 + (id);
-+ (id);
++ (id)Ǘ;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)H;
 - (void);
 - (void);
 - (struct _MDPlistContainer *);
 - (void);
-- (void);
+- (void)%;
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id).;
+- (void) ;
 - (void);
 - (_Bool);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)uildRoots/4~CNpmugByHThFILy_bMjv542ofl6MlH9zYmBtCXU/Library/Caches/com.apple.xbs/TemporaryDirectory.jsp6pJ/Sources/copyfile/copyfile.c;
 - (void);
 - (struct _MDPlistContainer *);
-- (void);
+- (void)__AUTH_CONST;
 - (void)tionBlock:(id)arg1 ];
 
 // Remaining properties
 @property(readonly, nonatomic) struct _MDPlistContainer *container; // @synthesize container=_container;
-@property(readonly, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, nonatomic) _Bool finalized; // @synthesize finalized=_finalized;
 
 @end
 

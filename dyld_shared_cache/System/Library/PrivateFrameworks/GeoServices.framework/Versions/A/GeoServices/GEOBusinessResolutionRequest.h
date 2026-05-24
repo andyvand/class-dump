@@ -4,45 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLocation, NSString, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOBusinessResolutionRequest
 {
     PBDataReader *_reader;
-    GEOLocation *_deviceLocation;
-    NSString *_shortBusinessName;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_deviceLocation:1;
-        unsigned int read_shortBusinessName:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)tHasMuid:(id)arg1;
++ (_Bool)setHasMuid:(id)arg1;
 - (id);
 - (void);
+- (_Bool)gURLScheme, %@;
+- (void);
+- (id);
 - (_Bool);
-- (void);
 - (id);
-- (_Bool);
-- (id);
-- (void);
+- (void)dateByAddingTimeInterval:(id)arg1;
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)r;
 - (unsigned int);
-- (void);
+- (void)ate2D=dd}{?=dd}}72@0:(id)arg1 8Q16{CGSize=dd}24{?={CLLocationCoordinate2D=dd}{?=dd}}40;
 - (_Bool);
 - (id);
 - (void)·*1Â0@ù
 × ;
-- (id)ersion:(struct _NSZone *)arg1;
+- (id)pruneExpiredKeyPathsOlderThanOSVersion:(struct _NSZone *)arg1;
 - (id);< =¼>ì@üBD;
 - (id)@Ô;
 - (id)representative_latitude, representative_longitude    FROM region_view_v2    WHERE (type & @type) != 0 AND language_code = @language_code AND (lc_areas & @areas) != 0 AND (ri_areas & @areas) != 0 AND region_id != @region_id AND region_id IN children_of_recursive    ORDER BY name COLLATE region_collater, sort_order, iso_code, time_zone_name;;
@@ -52,10 +42,7 @@ __attribute__((visibility("hidden")))
 - (void)T/§þ;
 
 // Remaining properties
-@property(retain, nonatomic) GEOLocation *deviceLocation;
-@property(readonly, nonatomic) _Bool hasDeviceLocation;
 @property(readonly, nonatomic) _Bool hasShortBusinessName;
-@property(retain, nonatomic) NSString *shortBusinessName;
 
 @end
 

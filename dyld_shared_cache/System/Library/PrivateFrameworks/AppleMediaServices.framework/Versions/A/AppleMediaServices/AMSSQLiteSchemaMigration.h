@@ -10,15 +10,13 @@ __attribute__((visibility("hidden")))
 @interface AMSSQLiteSchemaMigration
 {
     AMSSQLiteConnection *_connection;
-    NSError *_error;
-    _Bool _success;
 }
 
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);
@@ -28,7 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) NSError *error; // @synthesize error=_error;
-@property(readonly) _Bool success; // @synthesize success=_success;
 
 @end
 

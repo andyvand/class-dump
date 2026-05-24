@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCoreData, HMDCoreDataCloudTransformChangeSet, NSManagedObjectContext, NSString, NSUUID;
+@class HMDCoreData;
 
 @interface UnknownClass (HMDCoreData)
 - (void);
@@ -15,35 +15,26 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)enumerateContactsWithFetchRequest:error:usingBlock: /* Error: Ran out of types for this method. */;
+- (unsigned long long)emailAddresses;
+- (_Bool)editObjectsWithIdentifiers:(unsigned long long)arg1 usingBarrierBlock:(id *)arg2 completionQueue:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)editContentsUsingBarrierBlock:(unsigned long long)arg1 context:(id)arg2 completionQueue:(_Bool)arg3 completion:(id *)arg4;
+- (void)didFetchCapabilitiesForParticipants:(id)arg1;
+- (id)dateWithTimeIntervalSinceNow: /* Error: Ran out of types for this method. */;
+- (id)dataWithPropertyList:format:options:error: /* Error: Ran out of types for this method. */;
+- (_Bool)dataWithContentsOfURL:options:error: /* Error: Ran out of types for this method. */;
+- (id)cyclingOptions;
+- (id)currentWaypointIndex;
+- (_Bool)currentState;
+- (void)currentConnection;
+- (void)createdTimestamp;
+- (id)copyIfValidWithError: /* Error: Ran out of types for this method. */;
+- (id)coordinates;
+- (id)containsAnyIdentifiersInArray: /* Error: Ran out of types for this method. */;
+- (void)containerDidLoadFromPersister: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *hmd_cloudPrivateStoreIdentifier;
-@property(readonly, nonatomic) NSString *hmd_cloudSharedStoreIdentifier;
 @property(readonly, nonatomic) __weak HMDCoreData *hmd_coreData;
-@property(readonly, nonatomic) HMDCoreDataCloudTransformChangeSet *hmd_currentChangeSet;
-@property(readonly, nonatomic) _Bool hmd_fakeRecordsEnabled;
-@property(readonly, nonatomic) _Bool hmd_homeManagerApplicationDataChanged;
-@property(retain, nonatomic) NSManagedObjectContext *hmd_homeManagerContext;
-@property(readonly, copy, nonatomic) NSUUID *hmd_homeUUID;
-@property(readonly, nonatomic) unsigned long long hmd_transactionAuthor;
-@property(readonly, nonatomic) NSString *hmd_workingStoreIdentifier;
 @end
 

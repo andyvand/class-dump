@@ -7,17 +7,6 @@
 @interface ConversationKit.InCallControlsFooterCell
 {
     id footerStackView;
-    id addParticipantContainer;
-    id addPersonButton;
-    id nameLabel;
-    id shareLinkButton;
-    id buttonStackView;
-    id $__lazy_storage_$_toggleCaptionsButton;
-    id $__lazy_storage_$_silenceJoinRequestsButton;
-    id addParticipantEnabled;
-    id shareLinkEnabled;
-    id liveCaptionsEnabled;
-    id delegate;
 }
 
 - (void);

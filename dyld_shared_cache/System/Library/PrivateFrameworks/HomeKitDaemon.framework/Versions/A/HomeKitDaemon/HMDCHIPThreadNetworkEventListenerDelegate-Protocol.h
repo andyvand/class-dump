@@ -5,5 +5,7 @@
 //
 
 @protocol HMDCHIPThreadNetworkEventListenerDelegate
+- (void)refreshReceivedTripsWithCompletion:(_Bool)arg1;
+- (void)initWithIDSService:capabilityType:delegate:queue:label: /* Error: Ran out of types for this method. */;
 @end
 

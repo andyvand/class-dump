@@ -4,43 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATOperationQueue, DMFConnection, DMFReportingRequirements, NSObject, NSString, NSXPCConnection, NSXPCListener;
-@protocol DMFConfigurationSourceClientDelegate, OS_dispatch_queue, OS_dispatch_source;
+@class DMFReportingRequirements;
 
 @interface DMFConfigurationSourceClient
 {
     DMFReportingRequirements *_reportingRequirements;
-    id <DMFConfigurationSourceClientDelegate> _delegate;
-    unsigned long long _state;
-    DMFConnection *_connection;
-    NSXPCListener *_listener;
-    NSXPCConnection *_incomingConnection;
-    NSObject *_reportingRequirementsLock;
-    NSString *_configurationSourceName;
-    NSString *_organizationIdentifier;
-    NSString *_machServiceName;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    CATOperationQueue *_operationQueue;
-    NSObject<OS_dispatch_source> *_registerConfigurationSource;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
+- (void)5;
 - (void);
+- (void);
+- (id);
+- (id);
+- (id)B;
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)7;
 - (void);
 - (void);
 - (void);
@@ -51,7 +38,7 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -60,7 +47,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)I$;
 - (void);
 - (void);
 - (void);
@@ -68,8 +55,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)loadName;
 - (void);
 - (id);
 - (id);
@@ -77,27 +64,7 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *configurationSourceName; // @synthesize configurationSourceName=_configurationSourceName;
-@property(retain, nonatomic) DMFConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <DMFConfigurationSourceClientDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSXPCConnection *incomingConnection; // @synthesize incomingConnection=_incomingConnection;
-@property(readonly, nonatomic, getter=isInvalid) _Bool invalid;
-@property(retain, nonatomic) NSXPCListener *listener; // @synthesize listener=_listener;
-@property(copy, nonatomic) NSString *machServiceName; // @synthesize machServiceName=_machServiceName;
-@property(retain, nonatomic) CATOperationQueue *operationQueue; // @synthesize operationQueue=_operationQueue;
-@property(copy, nonatomic) NSString *organizationIdentifier; // @synthesize organizationIdentifier=_organizationIdentifier;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *registerConfigurationSource; // @synthesize registerConfigurationSource=_registerConfigurationSource;
-@property(copy, nonatomic) DMFReportingRequirements *reportingRequirements;
-@property(retain, nonatomic) NSObject *reportingRequirementsLock; // @synthesize reportingRequirementsLock=_reportingRequirementsLock;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *serialQueue; // @synthesize serialQueue=_serialQueue;
 @property unsigned long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,40 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSObject;
+@class NSObject;
 @protocol OS_os_log;
 
 __attribute__((visibility("hidden")))
 @interface CBHIDEvent
 {
     NSObject<OS_os_log> *_logHandle;
-    struct __IOHIDEvent *_event;
-    struct __IOHIDServiceClient *_service;
-    NSNumber *_serviceRegistryID;
 }
 
 + (id);
 - (struct __IOHIDServiceClient *);
 - (void);
-- (id);
+- (id)(H1';
 - (id);
 - (id);
 - (int);
 - (float);
-- (unsigned int);
+- (unsigned int);
 - (struct __IOHIDEvent *);
-- (id);
+- (id)F;
 - (float);
 - (void)#/DñëCø^ÎCqì4DfòCtÓCÅÐ:(struct __IOHIDServiceClient *)arg1 D\ðøCaäØC3Ð@DÛÿC´<ÞC×êFD!D;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *copyChildren;
 @property struct __IOHIDEvent *event; // @synthesize event=_event;
-@property(readonly, nonatomic) unsigned int eventType;
-@property struct __IOHIDServiceClient *service; // @synthesize service=_service;
-@property(readonly, nonatomic) NSNumber *serviceRegistryID; // @synthesize serviceRegistryID=_serviceRegistryID;
-@property(readonly, nonatomic) float timestamp;
 
 @end
 

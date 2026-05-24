@@ -11,11 +11,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
+- (id)x;
 - (void);
 - (void);
-- (void)riesPickerViewDelegate;
-- (void)eGlyphViewConfiguration;
+- (void)CPKCategoriesPickerViewDelegate;
+- (void)STKImageGlyphViewConfiguration;
 
 @end
 

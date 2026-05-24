@@ -8,15 +8,8 @@
 ?×¸Pøàª!
 
 // Remaining properties
-// Error: Property attributes should begin with the type ('T') attribute, property name: 
-// Property attributes: ;O
-
 // Error: Property attributes should begin with the type ('T') attribute, property name: ËiÂ
 // Property attributes: r©áªôª¹ýàª¢ã
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: è
-// Property attributes: @PøªÑAPøñªàò1	?×àª¨ÃÑ	Pø(@øªÃ
-Ñ¨øÿ¨cÑPøàª¨cÑPø¢Pø¨CÑPø©Ñ)Pø(	?×¨ÑPøèª Óq©Ùàÿ¨cÑPø´Sø@ù0ÁÚñªñGÁÚë@
 
 @end
 

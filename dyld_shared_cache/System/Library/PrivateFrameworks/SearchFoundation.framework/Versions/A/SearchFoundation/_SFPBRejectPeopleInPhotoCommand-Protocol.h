@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, _SFPBPhotosLibraryImage;
+@class NSArray, NSData;
 
 @protocol _SFPBRejectPeopleInPhotoCommand
+- (NSData *)C,N,V_uuid;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBPhotosLibraryImage *photosLibraryImage;
 @property(copy, nonatomic) NSArray *rejectedPeoples;
 @end
 

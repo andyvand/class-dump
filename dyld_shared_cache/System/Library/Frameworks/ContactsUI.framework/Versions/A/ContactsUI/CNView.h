@@ -8,27 +8,27 @@
 {
 }
 
-+ (_Bool);
++ (_Bool);
 + (void);
 + (id);
 + (id);
-+ (void);
-+ (id);
-+ (id);
-+ (void);
++ (void)TP;
++ (id);
 + (id);
 + (void);
 + (id);
 + (void);
 + (id);
++ (void)!;
 + (id);
 + (id);
++ (id);
 + (void);
 + (id);
 + (void);
 + (void);
 + (void);
-+ (void);
++ (void);
 + (id);
 + (id);
 + (id)

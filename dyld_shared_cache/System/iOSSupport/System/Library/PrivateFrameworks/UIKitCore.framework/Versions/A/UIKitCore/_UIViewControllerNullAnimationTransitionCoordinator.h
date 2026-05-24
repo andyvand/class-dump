@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, UIView;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface _UIViewControllerNullAnimationTransitionCoordinator
 {
     _Bool _transitionIsInFlight;
-    NSMutableArray *_alongsideAnimations;
-    NSMutableArray *_alongsideCompletions;
-    UIView *_containerView;
 }
 
 - (void)neBaselineFrameOriginY: /* Error: Ran out of types for this method. */;
@@ -21,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id)vate}@';
 - (_Bool);
 - (long long)er != NULL;
-- (_Bool)ensesBarsWhenKeyboardAppears;
+- (_Bool)UINavigationControllerCondensesBarsWhenKeyboardAppears;
 - (double)UIStyle;
 - (id)l-Key;
 - (_Bool);
@@ -29,43 +26,25 @@ __attribute__((visibility("hidden")))
 - (_Bool)ÿ;
 - (_Bool)ÿHÁþÿ;
 - (void);
-- (void)llerAppearanceCSg;
-- (void)torConfigurationC;
+- (void)So40_UISheetPresentationControllerAppearanceCSg;
+- (void)So28UIListSeparatorConfigurationC;
 - (_Bool){;
 - (_Bool)tlink:(CDUnknownBlockType)arg1 r:(CDUnknownBlockType)arg2 path:/System/Library/PrivateFrameworks/RevealCore.framework/RevealCore /* Error: Ran out of types for this method. */;
 - (id);
 - (void)-Âþ¥¢13-Âþ¢13-Âþ}¢13-Âþ;
-- (void)rollEdgeEffectTagReceiver;
+- (void)UIScrollEdgeEffectTagReceiver;
 - (_Bool)2­À03,C;
-- (id)ement;
+- (id)_UIWindowSceneBackgroundPlacement;
 - (double)¤{þ;
 - (double);
 - (void);
-- (void)rnerRadii;
+- (void)UIAnimatableCornerRadii;
 - (long long)b43O;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAnimated) _Bool animated;
-@property(readonly, nonatomic, getter=isCancelled) _Bool cancelled;
-@property(readonly, nonatomic) long long completionCurve;
-@property(readonly, nonatomic) double completionVelocity;
 @property(nonatomic) UIView *containerView; // @synthesize containerView=_containerView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool initiallyInteractive;
-@property(readonly, nonatomic, getter=isInteractive) _Bool interactive;
-@property(readonly, nonatomic) _Bool isInterruptible;
-@property(readonly, nonatomic) double percentComplete;
-@property(readonly, nonatomic) long long presentationStyle;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) struct CGAffineTransform targetTransform;
-@property(readonly, nonatomic) double transitionDuration;
 
 @end
 

@@ -6,34 +6,21 @@
 
 #import <BiomeStreams/BMEventBase.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface BMNotificationEvent : BMEventBase
 {
     _Bool _isGroupMessage;
-    NSString *_uniqueID;
-    double _absoluteTimestamp;
-    unsigned long long _usageType;
-    NSString *_bundleID;
-    NSString *_notificationID;
-    NSString *_deviceID;
-    NSString *_title;
-    NSString *_subtitle;
-    unsigned long long _badge;
-    NSString *_threadID;
-    NSString *_categoryID;
-    NSString *_sectionID;
-    NSArray *_contactIDs;
 }
 
++ (id);
 + (id);
-+ (id);
 - (id);
 - (id);
 - (id);
-- (unsigned int);
+- (unsigned int)`;
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -41,14 +28,14 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)ShySo15NSManagedObjectCG;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)pr;
-- (id)Y__TOKEN__SEQUENCES;
+- (id)convertRowtypeExpr;
+- (id)PG_QUERY__TOKEN__SEQUENCES;
 - (id)u,;
 - (id)spaceAttribution = %@
 };
@@ -57,28 +44,7 @@
 - (unsigned long long)8SÄÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
-@property(readonly, nonatomic) unsigned long long badge; // @synthesize badge=_badge;
-@property(readonly, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(readonly, nonatomic) NSString *categoryID; // @synthesize categoryID=_categoryID;
-@property(readonly, nonatomic) NSArray *contactIDs; // @synthesize contactIDs=_contactIDs;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *deviceID; // @synthesize deviceID=_deviceID;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isGroupMessage; // @synthesize isGroupMessage=_isGroupMessage;
-@property(readonly, nonatomic) NSString *notificationID; // @synthesize notificationID=_notificationID;
-@property(readonly, nonatomic) NSString *sectionID; // @synthesize sectionID=_sectionID;
-@property(readonly, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *threadID; // @synthesize threadID=_threadID;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 @property(readonly, nonatomic) NSString *uniqueID; // @synthesize uniqueID=_uniqueID;
-@property(readonly, nonatomic) unsigned long long usageType; // @synthesize usageType=_usageType;
 
 @end
 

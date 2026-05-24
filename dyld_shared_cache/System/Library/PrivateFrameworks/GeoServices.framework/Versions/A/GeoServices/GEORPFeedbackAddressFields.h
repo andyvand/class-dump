@@ -4,66 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPFeedbackAddressFields
 {
     PBDataReader *_reader;
-    NSString *_addressBasic;
-    NSString *_addressBuilding;
-    NSString *_addressFloor;
-    NSString *_addressUnit;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_addressBasic:1;
-        unsigned int read_addressBuilding:1;
-        unsigned int read_addressFloor:1;
-        unsigned int read_addressUnit:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)redIpadForEducation:(id)arg1;
-- (void);
-- (void);
++ (_Bool)setIsSharedIpadForEducation:(id)arg1;
+- (void)ABCDLegacyFilesystemImageHelper;
+- (void)ABCDContainedRecord;
+- (void)CNCDRemotePersistentStoreEndpointFactory;
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (id);
 - (void);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)setIsOpportuneSpeakListening: /* Error: Ran out of types for this method. */;
+- (void)audio logging directory at path %{public}@ %{public}@;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)`b;
 - (id)ateModule"b1};
-- (id)archResults: /* Error: Ran out of types for this method. */;
+- (id)addSearchResults: /* Error: Ran out of types for this method. */;
 - (id)¬f;
-- (id)Info;
+- (id)trafficControlDeviceInfo;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *addressBasic;
-@property(retain, nonatomic) NSString *addressBuilding;
-@property(retain, nonatomic) NSString *addressFloor;
-@property(retain, nonatomic) NSString *addressUnit;
 @property(readonly, nonatomic) _Bool hasAddressBasic;
-@property(readonly, nonatomic) _Bool hasAddressBuilding;
-@property(readonly, nonatomic) _Bool hasAddressFloor;
-@property(readonly, nonatomic) _Bool hasAddressUnit;
 
 @end
 

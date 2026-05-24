@@ -12,15 +12,12 @@ __attribute__((visibility("hidden")))
 @interface HMDCompositeLanguageSetting : HMDCompositeSetting
 {
     NSString *_inputLanguageCode;
-    NSString *_outputVoiceGenderCode;
-    NSString *_outputVoiceLanguageCode;
-    NSString *_voiceName;
 }
 
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)t>>, std::__unordered_map_hasher<std::string, std::pair<const std::string, std::shared_ptr<E5RT::IOPort>>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::pair<const std::string, std::shared_ptr<E5RT::IOPort>>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<E5RT::IOPort>>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::IOPort>>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::IOPort>>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::IOPort>>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::IOPort>>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (_Bool);
@@ -29,9 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, copy) NSString *inputLanguageCode; // @synthesize inputLanguageCode=_inputLanguageCode;
-@property(readonly, copy) NSString *outputVoiceGenderCode; // @synthesize outputVoiceGenderCode=_outputVoiceGenderCode;
-@property(readonly, copy) NSString *outputVoiceLanguageCode; // @synthesize outputVoiceLanguageCode=_outputVoiceLanguageCode;
-@property(readonly, copy) NSString *voiceName; // @synthesize voiceName=_voiceName;
 
 @end
 

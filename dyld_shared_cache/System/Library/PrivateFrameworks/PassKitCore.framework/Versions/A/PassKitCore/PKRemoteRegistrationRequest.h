@@ -7,7 +7,6 @@
 @interface PKRemoteRegistrationRequest
 {
     _Bool _registerBroker;
-    _Bool _registerPeerPayment;
 }
 
 + (id);
@@ -20,12 +19,11 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)_lastSSIDAttempted;
 - (id);
 
 // Remaining properties
 @property(nonatomic) _Bool registerBroker; // @synthesize registerBroker=_registerBroker;
-@property(nonatomic) _Bool registerPeerPayment; // @synthesize registerPeerPayment=_registerPeerPayment;
 
 @end
 

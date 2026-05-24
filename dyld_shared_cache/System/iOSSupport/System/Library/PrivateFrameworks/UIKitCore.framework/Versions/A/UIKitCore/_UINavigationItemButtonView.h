@@ -6,20 +6,10 @@
 
 #import <UIKitCore/_UINavigationItemView.h>
 
-@class NSString, UIColor, UIImageView, _UIBarButtonItemAppearanceStorage;
-
 __attribute__((visibility("hidden")))
 @interface _UINavigationItemButtonView : _UINavigationItemView
 {
     long long _style;
-    _Bool _pressed;
-    _UIBarButtonItemAppearanceStorage *_appearanceStorage;
-    _Bool _customBackgroundImageChangedToOrFromNil;
-    UIImageView *_backgroundImageView;
-    UIImageView *_imageView;
-    _Bool _wantsBlendModeForAccessibilityBackgrounds;
-    unsigned long long _abbreviatedTitleIndex;
-    UIColor *_accessibilityBackgroundTintColor;
 }
 
 - (_Bool);
@@ -32,8 +22,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (struct CGSize);
-- (void);
-- (void);
+- (void)遹;
+- (void)cloudItemIDList;
 - (void);
 - (void);
 - (void);
@@ -50,18 +40,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void)1Â0@ù
 × ;
-- (double)sformDecorationLayoutAttributes:(long long)arg1 isDisappearing: /* Error: Ran out of types for this method. */;
-- (_Bool)ultVibrancyEffect;
-- (void)jiButtonVisible;
-- (id)eometryDidUpdateWithTransitionContext:(struct CGRect)arg1;
-- (struct UIOffset)effectiveSafeAreaInsets;
+- (double)transformDecorationLayoutAttributes:(long long)arg1 isDisappearing: /* Error: Ran out of types for this method. */;
+- (_Bool)selectedSegmentDefaultVibrancyEffect;
+- (void)_isEmojiButtonVisible;
+- (id)_geometryDidUpdateWithTransitionContext:(struct CGRect)arg1;
+- (struct UIOffset)_effectiveSafeAreaInsets;
 - (unsigned long long)eGeometryChanges;
 - (void)tionHandler;
 - (void)R,W,N,V_representedView;
 - (void)_setMaterial:(id)arg1;
-- (_Bool)vel;
-- (id)leForFloatingAssistantTransition;
-- (id)mageContainer;
+- (_Bool)UITraitUserInterfaceLevel;
+- (id)UIInputViewSetPlacementInvisibleForFloatingAssistantTransition;
+- (id)_UIBarBackgroundCustomImageContainer;
 - (void);
 - (void)i columns as there are only %li preferredContentSizes;
 - (void)%@; Accessories:(_Bool)arg1 %@;
@@ -74,20 +64,20 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void)&öîÿ<øîÿ;
 - (_Bool);
-- (void)us;
+- (void)floatingBlurRadius;
 - (void)empt to extend state restoration made after restoration is finalized.;
 - (void)ionaryRef);
-- (void)ompositing;
-- (_Bool)t;
-- (_Bool)izedBody;
+- (void)CISourceAtopCompositing;
+- (_Bool)const;
+- (_Bool)UICTFontTextStyleShortEmphasizedBody;
 - (void)checkmark.circle.platter;
 - (_Bool)isplayID=%li;
-- (void);
+- (void)__preFenceHandler_block_invoke_7;
 - (struct CGSize)ist;
 - (id)s:Decoded scene restoration activity user info:%@ /* Error: Ran out of types for this method. */;
-- (void)owControllerHosting;
+- (void)InputWindowControllerHosting;
 - (id).backboardd.unambiguousOrientation;
-- (void)lor;
+- (void)_controlVibrantTopBackgroundColor;
 - (id):[self(==_contentView)] /* Error: Ran out of types for this method. */;
 - (void);
 - (id)@ fillColor=%@;
@@ -104,16 +94,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic, setter=_setAbbreviatedTitleIndex:) unsigned long long _abbreviatedTitleIndex; // @synthesize _abbreviatedTitleIndex;
-@property(retain, nonatomic, setter=_setAccessibilityBackgroundTintColor:) UIColor *_accessibilityBackgroundTintColor; // @synthesize _accessibilityBackgroundTintColor;
-@property(retain, nonatomic, setter=_setTintColor:) UIColor *_tintColor;
-@property(nonatomic, setter=_setWantsBlendModeForAccessibilityBackgrounds:) _Bool _wantsBlendModeForAccessibilityBackgrounds; // @synthesize _wantsBlendModeForAccessibilityBackgrounds;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

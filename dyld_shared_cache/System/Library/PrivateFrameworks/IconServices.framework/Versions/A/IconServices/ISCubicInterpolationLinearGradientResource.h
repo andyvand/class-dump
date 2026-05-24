@@ -4,37 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IFColor, NSString;
+@class IFColor;
 
 __attribute__((visibility("hidden")))
 @interface ISCubicInterpolationLinearGradientResource
 {
     IFColor *_startingColor;
-    IFColor *_endingColor;
 }
 
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)_completionQueue;
+- (id)H1F;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) IFColor *endingColor; // @synthesize endingColor=_endingColor;
-@property(readonly) unsigned long long hash;
 @property(copy) IFColor *startingColor; // @synthesize startingColor=_startingColor;
-@property(readonly) Class superclass;
-@property _Bool usesExternalCompositor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?
-
 
 @end
 

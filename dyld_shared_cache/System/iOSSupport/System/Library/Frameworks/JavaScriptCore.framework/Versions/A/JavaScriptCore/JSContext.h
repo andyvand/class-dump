@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class JSValue, JSVirtualMachine, NSString;
+@class JSValue;
 
 @interface JSContext
 {
     struct RetainPtr<JSVirtualMachine> m_virtualMachine;
-    struct OpaqueJSContext *m_context;
-    struct RetainPtr<JSValue> m_exception;
-    struct WeakObjCPtr<id<JSModuleLoaderDelegate>> m_moduleLoaderDelegate;
-    CDUnknownBlockType _exceptionHandler;
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -27,9 +23,9 @@
 - (id);
 - (void);
 - (void);
+- (void)C;
 - (void);
-- (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -51,7 +47,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (struct OpaqueJSContext *);
+- (struct OpaqueJSContext *)_֡(;
 - (id);
 - (void);
 - (void);
@@ -63,12 +59,7 @@
 - (void)Ç;
 
 // Remaining properties
-@property(retain) JSValue *exception;
-@property(copy) CDUnknownBlockType exceptionHandler; // @synthesize exceptionHandler=_exceptionHandler;
 @property(readonly) JSValue *globalObject;
-@property(nonatomic, getter=isInspectable) _Bool inspectable;
-@property(copy) NSString *name;
-@property(readonly) JSVirtualMachine *virtualMachine;
 
 @end
 

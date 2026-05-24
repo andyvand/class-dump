@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _RWIAutomaticInspectionSession
 {
     NSString *_identifier;
-    NSArray *_debuggers;
-    NSNumber *_pageId;
-    NSString *_applicationIdentifier;
-    int _applicationPID;
-    unsigned long long _currentDebuggerIndex;
-    _Bool _shouldAllowSameProcess;
 }
 
 - (_Bool);
@@ -23,12 +17,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *debuggers; // @synthesize debuggers=_debuggers;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end

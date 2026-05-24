@@ -7,6 +7,8 @@
 @protocol MSBucketBarConfigurationProviderDelegate;
 
 @protocol MSBucketBarConfigurationProvider
+- (void)@y	?%@qa;
+- (id <MSBucketBarConfigurationProviderDelegate>);
 
 // Remaining properties
 @property(nonatomic) __weak id <MSBucketBarConfigurationProviderDelegate> delegate;

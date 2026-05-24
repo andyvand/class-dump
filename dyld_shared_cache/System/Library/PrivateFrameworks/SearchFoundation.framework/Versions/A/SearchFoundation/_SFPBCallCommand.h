@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _SFPBCallCommand
 {
@@ -18,22 +18,14 @@
 - (void);
 - (_Bool);
 - (id);
+- (id)ingVersion:(id)arg1 videoEmbeddingVersion: /* Error: Ran out of types for this method. */;
+- (id)for %@ request should be reporting network access allowed error;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)nceItemButtonCardSection;
+- (void)rfReferenceItemButtonCardSection;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *phoneNumber; // @synthesize phoneNumber=_phoneNumber;
-@property(readonly) Class superclass;
 
 @end
 

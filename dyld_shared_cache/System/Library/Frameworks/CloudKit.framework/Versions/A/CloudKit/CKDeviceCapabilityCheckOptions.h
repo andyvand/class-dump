@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-
 @interface CKDeviceCapabilityCheckOptions
 {
     id _wrapped;
@@ -17,18 +15,15 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (long long);
+- (id);
+- (long long)initWithSpecification:configuration:error: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *description;
 @property(nonatomic, readonly) _Bool excludeDevicesWithoutCapabilityCheckingSupport;
-@property(nonatomic, readonly) NSDate *excludeZoneAccessBefore;
-@property(nonatomic, readonly) long long hash;
 
 @end
 

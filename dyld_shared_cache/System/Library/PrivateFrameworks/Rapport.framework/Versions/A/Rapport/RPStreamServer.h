@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue, RPMessageable;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface RPStreamServer
 {
     NSObject<OS_dispatch_queue> *_dispatchQueue;
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    id _selfRef;
-    NSMutableDictionary *_streamSessions;
-    unsigned int _streamFlags;
-    int _streamQoS;
-    CDUnknownBlockType _invalidationHandler;
-    id <RPMessageable> _messenger;
-    NSString *_serviceType;
-    CDUnknownBlockType _streamAcceptHandler;
-    CDUnknownBlockType _streamPrepareHandlerEx;
-    CDUnknownBlockType _streamPrepareHandler;
 }
 
 - (int);
@@ -41,26 +29,19 @@
 - (id);
 - (void);
 - (void);
+- (id)nt variable ;
+- (id)r\;
 - (id);
-- (id);
-- (id);
+- (void)`;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)!M;
 - (CDUnknownBlockType);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(retain, nonatomic) id <RPMessageable> messenger; // @synthesize messenger=_messenger;
-@property(copy, nonatomic) NSString *serviceType; // @synthesize serviceType=_serviceType;
-@property(copy, nonatomic) CDUnknownBlockType streamAcceptHandler; // @synthesize streamAcceptHandler=_streamAcceptHandler;
-@property(nonatomic) unsigned int streamFlags; // @synthesize streamFlags=_streamFlags;
-@property(copy, nonatomic) CDUnknownBlockType streamPrepareHandler; // @synthesize streamPrepareHandler=_streamPrepareHandler;
-@property(copy, nonatomic) CDUnknownBlockType streamPrepareHandlerEx; // @synthesize streamPrepareHandlerEx=_streamPrepareHandlerEx;
-@property(nonatomic) int streamQoS; // @synthesize streamQoS=_streamQoS;
 
 @end
 

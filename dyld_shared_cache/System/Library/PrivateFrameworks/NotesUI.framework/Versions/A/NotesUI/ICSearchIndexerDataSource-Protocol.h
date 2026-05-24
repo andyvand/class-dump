@@ -4,9 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICSearchIndexProgressCoordinator;
+@class ICSearchIndexProgressCoordinator, NSArray, NSPersistentStoreCoordinator;
 
 @protocol ICSearchIndexerDataSource
+- (void)C;
+- (void);
+- (NSArray *);
+- (unsigned long long)node {itemID:%s} /* Error: Ran out of types for this method. */;
+- (NSPersistentStoreCoordinator *);
 
 // Remaining properties
 @property(readonly, nonatomic) ICSearchIndexProgressCoordinator *progressCoordinator;

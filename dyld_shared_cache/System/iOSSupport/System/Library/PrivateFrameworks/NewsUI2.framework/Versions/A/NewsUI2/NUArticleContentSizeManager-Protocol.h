@@ -4,6 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+@protocol FCHeadlineProviding;
+
 @protocol NUArticleContentSizeManager
+- (void)d
+;
+- (void)WithRegistryEntry:(long long)arg1 pthread_mutex_init failed
+;
+- (NSString *)Group kIOReportDriverIDKey expected obj is%s NULL, with type %ld, but has type %ld
+;
+- (long long)r:(id <FCHeadlineProviding>)arg1:storeChannelDescriptionFromDriverGroup kIOReportDriverIDKey expected obj is%s NULL, with type %ld, but has type %ld
+ /* Error: Ran out of types for this method. */;
 @end
 

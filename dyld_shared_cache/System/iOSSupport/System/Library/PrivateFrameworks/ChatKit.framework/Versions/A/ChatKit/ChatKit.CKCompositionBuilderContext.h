@@ -7,18 +7,14 @@
 @interface ChatKit.CKCompositionBuilderContext
 {
     _Bool isInLockdownMode;
-    _Bool isPastingAfterBracketCharacter;
-    _Bool supportsExpressiveText;
-    _Bool conversationSupportsInlineAdaptiveImageGlyphs;
-    _Bool canUseRichTextAttributes;
 }
 
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)a;
+- (void)n;
+- (void)r;
+- (void)c;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -27,12 +23,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool canUseRichTextAttributes; // @synthesize canUseRichTextAttributes;
-@property(nonatomic) _Bool conversationSupportsInlineAdaptiveImageGlyphs; // @synthesize conversationSupportsInlineAdaptiveImageGlyphs;
 @property(nonatomic) _Bool isInLockdownMode; // @synthesize isInLockdownMode;
-@property(nonatomic) _Bool isPastingAfterBracketCharacter; // @synthesize isPastingAfterBracketCharacter;
-@property(nonatomic) _Bool supportsExpressiveText; // @synthesize supportsExpressiveText;
-@property(nonatomic, readonly) _Bool wantsInlinedRichLinks;
 
 @end
 

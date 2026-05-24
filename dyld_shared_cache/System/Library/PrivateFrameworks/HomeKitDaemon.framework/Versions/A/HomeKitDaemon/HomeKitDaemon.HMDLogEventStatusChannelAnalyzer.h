@@ -9,7 +9,7 @@
     id dataSource;
 }
 
-- (id);
+- (id)4;
 - (void)i*Ôæ>;
 - (void)q;
 

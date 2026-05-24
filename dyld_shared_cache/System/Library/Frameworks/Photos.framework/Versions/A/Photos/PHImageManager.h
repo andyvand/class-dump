@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSString;
+@class NSMapTable;
 
 @interface PHImageManager
 {
     NSMapTable *_requestContextsByID;
-    _Atomic int _nextRequestID;
-    struct os_unfair_lock_s _lock;
-    unsigned long long _managerID;
 }
 
 + (void);
-+ (id);
++ (id));
 + (id);
 + (id);
 + (id);
@@ -38,15 +35,15 @@
 - (int);
 - (int);
 - (int);
-- (int);
-- (int);
+- (int)<A;
+- (int)!N	;
 - (int);
 - (int);
 - (int);
 - (int);
 - (int);
 - (void);
-- (void);
+- (void);
 - (int);
 - (int);
 - (void);
@@ -62,14 +59,7 @@
 - (void)enrichmentState;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) unsigned long long managerID; // @synthesize managerID=_managerID;
-@property(readonly) Class superclass;
 
 @end
 

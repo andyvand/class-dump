@@ -7,7 +7,6 @@
 @interface NewsCore.PrivateDataContext
 {
     id accessModel;
-    id relatedAppBundleID;
 }
 
 @end

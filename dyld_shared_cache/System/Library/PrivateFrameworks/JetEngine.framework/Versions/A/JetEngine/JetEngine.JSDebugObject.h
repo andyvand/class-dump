@@ -7,8 +7,6 @@
 @interface JetEngine.JSDebugObject
 {
     id isDebugPointsEnabled;
-    id newPoints;
-    id encoder;
 }
 
 - (id);

@@ -14,9 +14,6 @@ __attribute__((visibility("hidden")))
         unsigned int _field2;
         unsigned int _field3;
     } *_inputs;
-    struct __C3DFXPassInput *_samplerInput;
-    long long inputsCount;
-    long long bufferSize;
 }
 
 - (long long);
@@ -27,7 +24,6 @@ __attribute__((visibility("hidden")))
 - (long long);
 
 // Remaining properties
-@property(nonatomic) long long bufferSize; // @synthesize bufferSize;
 @property(nonatomic) long long inputsCount; // @synthesize inputsCount;
 
 @end

@@ -4,32 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDUserActivityStateType6DetectorTransitionLogEvent
 {
     unsigned long long _trackerType;
-    unsigned long long _reason;
-    long long _timeInEvent;
-    long long _secondaryOffset;
-    NSString *_eventString;
 }
 
 - (unsigned long long);
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id)public}@] will send state %@;
 - (long long);
 - (unsigned long long);
 - (void)deferralDate;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *eventString; // @synthesize eventString=_eventString;
-@property(readonly, nonatomic) unsigned long long reason; // @synthesize reason=_reason;
-@property(readonly, nonatomic) long long secondaryOffset; // @synthesize secondaryOffset=_secondaryOffset;
-@property(readonly, nonatomic) long long timeInEvent; // @synthesize timeInEvent=_timeInEvent;
 @property(readonly, nonatomic) unsigned long long trackerType; // @synthesize trackerType=_trackerType;
 
 @end

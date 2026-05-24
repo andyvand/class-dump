@@ -5,5 +5,9 @@
 //
 
 @protocol HMMediaObjectDelegate
+
+@optional
+- (void)d;
+- (void);
 @end
 

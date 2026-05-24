@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSArray, NSString;
 
 @interface IAProvider
 {
     NSString *_providerType;
-    NSMutableArray *_servicesProvided;
 }
 
 + (_Bool);
@@ -20,10 +19,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly) NSString *providerType; // @synthesize providerType=_providerType;
 @property(retain, nonatomic) NSArray *serviceTypesProvided; // @synthesize serviceTypesProvided=_servicesProvided;
 
 @end

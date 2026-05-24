@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, NSURL, SFImage;
+@class NSString, SFImage;
 
 @protocol SFMetaInfoCardSection
+- (void);
+- (void);
+- (void)_filenameBaseForAsset:(SFImage *)arg1;
 - (SFImage *);
 
 // Remaining properties
-@property(retain, nonatomic) SFImage *badge;
-@property(copy, nonatomic) NSURL *contentURL;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSURL *hostPageURL;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) _Bool trending;
 @property(copy, nonatomic) NSString *type;
 @end
 

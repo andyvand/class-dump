@@ -4,32 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface SPDefaults
 {
     long long _useCount;
-    _Bool _showedFTE;
-    _Bool _showedLearnMore;
-    NSObject<OS_dispatch_queue> *_prefsQueue;
-    _Bool _parsecEnabled;
-    _Bool _ttrEnabled;
-    _Bool _reloadPrefs;
-    _Bool _spotlightSuggestionsDisabled;
-    _Bool _clearOnClose;
-    _Bool _spotEnabled;
-    _Bool _highlightShownWithSpot;
-    _Bool _demoEnabled;
-    _Bool _didShowFTE;
-    _Bool _customAppPreview;
-    _Bool _customFolderPreview;
-    NSString *_spotlightExtraQueryClause;
-    long long _parsecMaxResults;
-    long long _parsecMaxBingResults;
-    NSArray *_parsecBlessedResults;
-    NSString *_spotlightExtraQueryFlags;
-    long long _maxResultsPerGroup;
 }
 
 + (id);
@@ -37,7 +14,7 @@
 + (_Bool);
 + (_Bool);
 + (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -45,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -55,8 +32,8 @@
 - (id);
 - (long long);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -67,40 +44,19 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)a calendar before _calendars was initialized. Ignoring.;
 - (void);
 - (void);
 - (void);
 - (long long)ÍéXhJ;
 
 // Remaining properties
-@property _Bool clearOnClose; // @synthesize clearOnClose=_clearOnClose;
-@property(readonly) _Bool customAppPreview; // @synthesize customAppPreview=_customAppPreview;
-@property(readonly) _Bool customFolderPreview; // @synthesize customFolderPreview=_customFolderPreview;
-@property(getter=isDemoEnabled) _Bool demoEnabled; // @synthesize demoEnabled=_demoEnabled;
-@property _Bool didShowFTE; // @synthesize didShowFTE=_didShowFTE;
-@property(readonly) _Bool firstUse;
-@property(readonly) _Bool groupResults;
-@property(getter=isHighlightShownWithSpot) _Bool highlightShownWithSpot; // @synthesize highlightShownWithSpot=_highlightShownWithSpot;
-@property(readonly) long long maxResultsPerGroup; // @synthesize maxResultsPerGroup=_maxResultsPerGroup;
-@property(readonly, getter=isParsecAllowed) _Bool parsecAllowed;
-@property(readonly) NSArray *parsecBlessedResults; // @synthesize parsecBlessedResults=_parsecBlessedResults;
-@property(getter=isParsecEnabled) _Bool parsecEnabled; // @synthesize parsecEnabled=_parsecEnabled;
-@property(readonly) long long parsecMaxBingResults; // @synthesize parsecMaxBingResults=_parsecMaxBingResults;
-@property(readonly) long long parsecMaxResults; // @synthesize parsecMaxResults=_parsecMaxResults;
-@property(getter=shouldReloadPrefs) _Bool reloadPrefs; // @synthesize reloadPrefs=_reloadPrefs;
-@property _Bool showedFTE;
-@property _Bool showedLearnMore;
 @property(getter=isSpotEnabled) _Bool spotEnabled; // @synthesize spotEnabled=_spotEnabled;
-@property(readonly) NSString *spotlightExtraQueryClause; // @synthesize spotlightExtraQueryClause=_spotlightExtraQueryClause;
-@property(readonly) NSString *spotlightExtraQueryFlags; // @synthesize spotlightExtraQueryFlags=_spotlightExtraQueryFlags;
-@property(getter=areSpotlightSuggestionsDisabled) _Bool spotlightSuggestionsDisabled; // @synthesize spotlightSuggestionsDisabled=_spotlightSuggestionsDisabled;
-@property(getter=isTTREnabled) _Bool ttrEnabled; // @synthesize ttrEnabled=_ttrEnabled;
 
 @end
 

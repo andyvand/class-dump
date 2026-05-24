@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBAirport;
+@class _INPBAirport;
 
 @interface _INPBAirportGate
 {
     struct _has;
-    _INPBAirport *_airport;
-    NSString *_gate;
-    NSString *_terminal;
 }
 
 + (_Bool);
@@ -21,14 +18,14 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id);
+- (id)0:(id)arg1 8@"NSString"16@?<v@?f>24;
 - (void);
 - (unsigned long long);
-- (void);
+- (void)to find identity in the keychain:(id)arg1 (%d);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)supportsHomeKit2;
+- (void)i] PRIVATE MAC:(id)arg1 Failed to get HW MAC address from the WiFi stack (intf=%{public}@);
 - (id);
 - (id);
 - (id);
@@ -36,18 +33,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) _INPBAirport *airport; // @synthesize airport=_airport;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *gate; // @synthesize gate=_gate;
-@property(readonly, nonatomic) _Bool hasAirport;
-@property(readonly, nonatomic) _Bool hasGate;
-@property(readonly, nonatomic) _Bool hasTerminal;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *terminal; // @synthesize terminal=_terminal;
 
 @end
 

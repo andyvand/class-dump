@@ -15,8 +15,8 @@
 
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)\;
+- (id)supportsRenderPassWithoutRenderTarget;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *functionName; // @synthesize functionName=_functionName;

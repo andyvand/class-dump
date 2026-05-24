@@ -6,13 +6,10 @@
 
 #import <FinderKit/FI_IAirDropProgressViewController.h>
 
-@class NSMutableArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface FI_TAirDropReceiverProgressViewController : FI_IAirDropProgressViewController
 {
     shared_ptr_316908df _receiverOpController;
-    NSMutableArray *_downloads;
 }
 
 + (void);
@@ -25,20 +22,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)B;
+- (void)?q;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (shared_ptr_466d67c7);
 - (void);
 - (id);
-- (id);
+- (id)9;
 - (long long);
 - (id);
 - (void);
@@ -48,19 +45,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)shouldDisplayGroupedSenders;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

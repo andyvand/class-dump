@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LUIPinFieldView;
-
 @interface LUIPinFieldBoxUIElement
 {
     int _index;
-    LUIPinFieldView *_parent;
 }
 
 - (id);
@@ -19,14 +16,14 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)RelyingParty,V_trustedRelyingParty;
 - (_Bool);
 - (void);
 

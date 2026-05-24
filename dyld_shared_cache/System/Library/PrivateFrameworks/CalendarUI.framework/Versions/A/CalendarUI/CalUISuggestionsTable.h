@@ -12,14 +12,14 @@
 }
 
 - (id);
-- (void);
+- (void)9(;
+- (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)h;
 - (void);
-- (void);
+- (void)__DATA_CONST;
 - (void)ÿr;
 
 // Remaining properties

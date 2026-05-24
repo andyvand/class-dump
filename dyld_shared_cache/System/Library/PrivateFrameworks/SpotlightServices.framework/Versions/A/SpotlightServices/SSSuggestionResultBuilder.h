@@ -6,19 +6,14 @@
 
 #import <SpotlightServices/SSResultBuilder.h>
 
-@class CSSuggestion, NSString, SFSearchSuggestion, SPSearchEntity;
+@class NSString;
 
 @interface SSSuggestionResultBuilder : SSResultBuilder
 {
     NSString *_contactIdentifier;
-    NSString *_suggestionString;
-    NSString *_queryString;
-    SFSearchSuggestion *_suggestion;
-    CSSuggestion *_spotlightSuggestion;
-    SPSearchEntity *_entity;
 }
 
-+ (id);
++ (id)actionForLayer:(id)arg1 forKey:(id)arg2;
 + (id);
 + (id);
 + (id);
@@ -28,30 +23,25 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)transportDriveIcon;
+- (id)titleForStyle: /* Error: Ran out of types for this method. */;
+- (id)themePath;
+- (id)systemPurpleColor;
+- (id)subsampleImagesToScreenSize;
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)!;
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
 - (id)temAuthors_QUPP_ARG_SEARCH_TERM:kMDItemTextContent_QUPP_ARG_EVENT_TYPE_FLIGHT:kMDItemTextContent_QUPP_ARG_TIME:kMDItemAppEntityTitle_QUPP_ARG_SEARCH_TERM:kMDItemSubject_QUPP_ARG_LOCATION:kMDItemSubject_QUPP_ARG_PERSON:kMDItemTextContent_QUPP_ARG_EVENT_TYPE_HOTEL:kMDItemAppEntityTitle_QUPP_ARG_LOCATION:kMDItemTextContent_QUPP_ARG_APP_CONTAINS_TYPE_CONTACT:kMDItemTextContent_QUPP_ARG_EVENT_TYPE_RESTAURANT:kMDItemAuthors_QUPP_ARG_PERSON_SENDER:kMDItemTextContent_QUPP_ARG_LOCATION_ARRIVAL:kMDItemAuthors_QUPP_ARG_PERSON:kMDItemSubject_QUPP_ARG_TIME:kMDItemAuthorEmailAddresses_QUPP_ARG_PERSON_SENDER:kMDItemAuthors_QUPP_ARG_LOCATION:error: /* Error: Ran out of types for this method. */;
-- (void)rceKind:sections:groupedResults:error: /* Error: Ran out of types for this method. */;
+- (void)initWithQueryID:kind:sourceKind:sections:groupedResults:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(retain, nonatomic) SPSearchEntity *entity; // @synthesize entity=_entity;
-@property(retain, nonatomic) NSString *queryString; // @synthesize queryString=_queryString;
-@property(retain, nonatomic) CSSuggestion *spotlightSuggestion; // @synthesize spotlightSuggestion=_spotlightSuggestion;
-@property(retain, nonatomic) SFSearchSuggestion *suggestion; // @synthesize suggestion=_suggestion;
 @property(retain, nonatomic) NSString *suggestionString; // @synthesize suggestionString=_suggestionString;
 
 @end

@@ -6,37 +6,30 @@
 
 #import <iLifeMediaBrowser/ILMediaBrowserTableThumbnailCell.h>
 
-@class NSImage, NSProgressIndicator;
+@class NSImage;
 
 @interface ILMediaBrowserTableItemCell : ILMediaBrowserTableThumbnailCell
 {
     NSImage *mIcon;
-    NSImage *mBadgeImage;
-    NSProgressIndicator *mProgressIndicator;
-    _Bool _showProgress;
-    id mObserving;
-    id mControlView;
 }
 
 - (_Bool);
 - (void);
 - (struct CGRect);
-- (void);
+- (void)er cancel request no longer in blueprint, trigger=%{public}@;
 - (struct CGSize);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id)¸DÔEìGüGH¸O;
 
 // Remaining properties
-@property(retain) NSImage *badge; // @synthesize badge=mBadgeImage;
 @property(retain) NSImage *icon; // @synthesize icon=mIcon;
-@property(nonatomic) _Bool showProgress; // @synthesize showProgress=_showProgress;
 
 @end
 

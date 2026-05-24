@@ -4,6 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary;
+
 @protocol WKUIDelegatePrivate
+
+@optional
+- (void);
+- (double);
+- (void);
+- (void)kA;
+- (void);
+- (void);
+- (void)?;
+- (void)b!(#B(##(!;
+- (NSDictionary *)@;
 @end
 

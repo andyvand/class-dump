@@ -9,22 +9,17 @@
 @interface AppKit.ReplacementAnimationCapableSingleLineLabel : NSView
 {
     id _attributedText;
-    id _segmentLayout;
-    id outgoingSegmentLayouts;
-    id firstBaselineOffsetFromTopCache;
 }
 
 - (double);
 - (id);
-- (struct CGSize);
+- (struct CGSize);
 - (id);
 - (void));
 - (struct NSEdgeInsets)inputTextFieldsContainerView];
 
 // Remaining properties
 @property(nonatomic, readonly) struct NSEdgeInsets alignmentRectInsets;
-@property(nonatomic, readonly) double firstBaselineOffsetFromTop;
-@property(nonatomic, readonly) struct CGSize intrinsicContentSize;
 
 @end
 

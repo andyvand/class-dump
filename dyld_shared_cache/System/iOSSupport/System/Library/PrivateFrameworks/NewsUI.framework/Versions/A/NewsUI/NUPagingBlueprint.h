@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSOrderedSet, NSString;
-@protocol NUPage;
+@class NSOrderedSet;
 
 @interface NUPagingBlueprint
 {
@@ -25,17 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allPages;
 @property(retain, nonatomic) NSOrderedSet *blueprintItems; // @synthesize blueprintItems=_blueprintItems;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <NUPage> firstPage;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <NUPage> lastPage;
-@property(readonly) Class superclass;
 
 @end
 

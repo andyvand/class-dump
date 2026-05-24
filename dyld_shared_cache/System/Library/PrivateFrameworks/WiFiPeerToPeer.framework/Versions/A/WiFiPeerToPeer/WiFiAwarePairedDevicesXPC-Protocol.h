@@ -5,5 +5,6 @@
 //
 
 @protocol WiFiAwarePairedDevicesXPC
+- (void);
 @end
 

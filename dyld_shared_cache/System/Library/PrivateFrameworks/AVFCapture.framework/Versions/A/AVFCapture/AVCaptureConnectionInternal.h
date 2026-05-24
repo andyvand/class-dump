@@ -4,60 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureDevice, AVCaptureDeviceInput, AVCaptureInputPort, AVWeakReference, NSArray, NSMutableArray, NSString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface AVCaptureConnectionInternal
 {
     NSMutableArray *inputPorts;
-    AVCaptureDeviceInput *sourceDeviceInput;
-    AVCaptureDevice *sourceDevice;
-    AVWeakReference *outputWeakReference;
-    AVWeakReference *videoPreviewLayerWeakReference;
-    _Bool hasActiveObservers;
-    _Bool active;
-    _Bool enabled;
-    int changeSeed;
-    AVCaptureInputPort *audioInputPort;
-    unsigned int spatialAudioChannelLayoutTagForChannelLevels;
-    NSMutableArray *audioChannels;
-    NSArray *audioChannelLevels;
-    long long lastGetAudioLevelsTime;
-    AVCaptureInputPort *videoInputPort;
-    AVCaptureInputPort *metadataInputPort;
-    AVCaptureInputPort *metadataItemInputPort;
-    AVCaptureInputPort *depthDataInputPort;
-    AVCaptureInputPort *visionDataInputPort;
-    AVCaptureInputPort *pointCloudDataInputPort;
-    AVCaptureInputPort *cameraCalibrationDataInputPort;
-    _Bool videoMirroringSupported;
-    _Bool automaticallyAdjustsVideoMirroring;
-    _Bool videoMirrored;
-    _Bool videoRotationSupported;
-    double videoRotationAngle;
-    _Bool isAlmondUIImagePickerControllerClient;
-    CDStruct_1b6d18a9 videoMinFrameDuration;
-    CDStruct_1b6d18a9 videoMaxFrameDuration;
-    double videoMaxScaleAndCropFactor;
-    double videoScaleAndCropFactor;
-    int videoRetainedBufferCountHint;
-    long long preferredVideoStabilizationMode;
-    _Bool videoStabilizationEnabled;
-    long long activeVideoStabilizationMode;
-    _Bool hasVideoMinFrameDurationObserver;
-    NSString *connectionID;
-    _Bool cameraIntrinsicMatrixDeliverySupported;
-    _Bool cameraIntrinsicMatrixDeliveryEnabled;
-    _Bool livePhotoMetadataWritingEnabled;
-    _Bool debugMetadataSidecarFileEnabled;
-    NSArray *supportedVideoMirroringMethodsForMovieRecording;
-    long long videoMirroringMethodForMovieRecording;
-    _Bool videoZoomSmoothingSupported;
-    _Bool videoZoomSmoothingEnabled;
-    _Bool videoGreenGhostMitigationSupported;
-    _Bool videoGreenGhostMitigationEnabled;
-    _Bool videoDeviceOrientationCorrectionSupported;
-    _Bool videoDeviceOrientationCorrectionEnabled;
 }
 
 @end

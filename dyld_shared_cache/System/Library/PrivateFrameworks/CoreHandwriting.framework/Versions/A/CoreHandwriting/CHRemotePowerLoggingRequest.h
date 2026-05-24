@@ -9,12 +9,12 @@
     unsigned long long _modelIdentifier;
 }
 
-+ (_Bool);
++ (_Bool)_hideiOSDraggedItem: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)e=QQ}16;
 - (unsigned long long)øÄ;
 
 // Remaining properties

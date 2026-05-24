@@ -9,9 +9,6 @@
 @protocol CBCentralManagerDelegate
 
 @optional
-- (void);
-- (void)¸;
-- (void)èb>l;
-- (void)lockWithCompletion:(CBCentralManager *)arg1;
+- (void)setStatusChangedBlockWithCompletion:(CBCentralManager *)arg1;
 @end
 

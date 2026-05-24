@@ -7,7 +7,6 @@
 @interface Network.NWMultiplexGroup
 {
     id remoteEndpoint;
-    id _nw;
 }
 
 @end

@@ -4,43 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
-
 @interface CTMobileEquipmentInfo
 {
     long long _slotId;
-    NSString *_currentMobileId;
-    NSString *_currentSubscriberId;
-    NSString *_IMEI;
-    NSString *_ICCID;
-    NSString *_IMSI;
-    NSString *_cdmaIMSI;
-    NSString *_MEID;
-    NSString *_EUIMID;
-    NSNumber *_PRLVersion;
-    NSNumber *_ERIVersion;
-    NSString *_MIN;
-    NSString *_NAI;
-    NSString *_baseVersion;
-    NSString *_baseId;
-    NSString *_baseProfile;
-    NSString *_effectiveICCID;
-    NSString *_CSN;
-    NSString *_displayCSN;
 }
 
-+ (_Bool);
++ (_Bool)newFormatDescription != NULL;
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)#;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -48,28 +28,28 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)afterNotificationId;
 - (void);
 - (long long);
-- (void);
+- (void)le.xbs/TemporaryDirectory.GLvNsd/Sources/CoreHaptics/Source/CHHapticPatternPlayer.mm;
 - (id);
 - (_Bool);
-- (void);
+- (void)defaultSecretIdentifierForRightWithIdentifier:(id)arg1;
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)_workQueue_reloadProfiles;
+- (void)_specification;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)clientRequestedPlaybackCoordinator;
 - (id);
-- (void);
-- (id);
+- (void);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -77,24 +57,6 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *CSN; // @synthesize CSN=_CSN;
-@property(retain, nonatomic) NSNumber *ERIVersion; // @synthesize ERIVersion=_ERIVersion;
-@property(retain, nonatomic) NSString *EUIMID; // @synthesize EUIMID=_EUIMID;
-@property(retain, nonatomic) NSString *ICCID; // @synthesize ICCID=_ICCID;
-@property(retain, nonatomic) NSString *IMEI; // @synthesize IMEI=_IMEI;
-@property(retain, nonatomic) NSString *IMSI; // @synthesize IMSI=_IMSI;
-@property(retain, nonatomic) NSString *MEID; // @synthesize MEID=_MEID;
-@property(retain, nonatomic) NSString *MIN; // @synthesize MIN=_MIN;
-@property(retain, nonatomic) NSString *NAI; // @synthesize NAI=_NAI;
-@property(retain, nonatomic) NSNumber *PRLVersion; // @synthesize PRLVersion=_PRLVersion;
-@property(retain, nonatomic) NSString *baseId; // @synthesize baseId=_baseId;
-@property(retain, nonatomic) NSString *baseProfile; // @synthesize baseProfile=_baseProfile;
-@property(retain, nonatomic) NSString *baseVersion; // @synthesize baseVersion=_baseVersion;
-@property(retain, nonatomic) NSString *cdmaIMSI; // @synthesize cdmaIMSI=_cdmaIMSI;
-@property(retain, nonatomic) NSString *currentMobileId; // @synthesize currentMobileId=_currentMobileId;
-@property(retain, nonatomic) NSString *currentSubscriberId; // @synthesize currentSubscriberId=_currentSubscriberId;
-@property(retain, nonatomic) NSString *displayCSN; // @synthesize displayCSN=_displayCSN;
-@property(retain, nonatomic) NSString *effectiveICCID; // @synthesize effectiveICCID=_effectiveICCID;
 @property(nonatomic) long long slotId; // @synthesize slotId=_slotId;
 
 @end

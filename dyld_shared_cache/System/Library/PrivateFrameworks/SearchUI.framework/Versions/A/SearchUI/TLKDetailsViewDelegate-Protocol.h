@@ -5,5 +5,6 @@
 //
 
 @protocol TLKDetailsViewDelegate
+- (void)hasSuffix: /* Error: Ran out of types for this method. */;
 @end
 

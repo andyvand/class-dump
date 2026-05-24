@@ -5,5 +5,6 @@
 //
 
 @protocol BWFigVideoCaptureDeviceZoomFactorChangedDelegate
+- (void)JS:(float)arg1 Tried to call reverseMapEntity without JS assets;
 @end
 

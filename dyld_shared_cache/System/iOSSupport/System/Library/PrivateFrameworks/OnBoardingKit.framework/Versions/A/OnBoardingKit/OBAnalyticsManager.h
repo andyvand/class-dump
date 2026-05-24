@@ -9,7 +9,6 @@
 @interface OBAnalyticsManager
 {
     _Bool _shouldStashMetrics;
-    NSMutableArray *_events;
 }
 
 + (id);
@@ -20,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)	;
 - (void);
 - (id);
 - (void);
@@ -29,7 +28,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *events; // @synthesize events=_events;
-@property _Bool shouldStashMetrics; // @synthesize shouldStashMetrics=_shouldStashMetrics;
 
 @end
 

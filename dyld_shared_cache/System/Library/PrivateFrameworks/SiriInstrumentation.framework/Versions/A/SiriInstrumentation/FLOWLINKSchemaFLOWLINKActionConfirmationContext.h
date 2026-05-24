@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class FLOWLINKSchemaFLOWLINKActionConfirmationEnded, FLOWLINKSchemaFLOWLINKActionConfirmationStarted, NSData;
+@class FLOWLINKSchemaFLOWLINKActionConfirmationStarted;
 
 @interface FLOWLINKSchemaFLOWLINKActionConfirmationContext : SISchemaInstrumentationMessage
 {
     FLOWLINKSchemaFLOWLINKActionConfirmationStarted *_startedOrChanged;
-    FLOWLINKSchemaFLOWLINKActionConfirmationEnded *_ended;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -23,30 +19,25 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void)=;
+- (_Bool)ess_options_t soft_hwtrace_live_recording_postprocess_options_init();
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)postNotificationName:(id)arg1 object: /* Error: Ran out of types for this method. */;
+- (id)_pollingProfileUpdate;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)aCDMRequestFailed";
-- (id)eneralSearchEnded;
+- (id)STSchemaSTGeneralSearchEnded;
 - (id)È£P¤;
 - (void)¿;
 
 // Remaining properties
-@property(retain, nonatomic) FLOWLINKSchemaFLOWLINKActionConfirmationEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) FLOWLINKSchemaFLOWLINKActionConfirmationStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

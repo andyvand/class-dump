@@ -6,44 +6,16 @@
 
 #import <PassKitCore/PKPaymentOfferCriteria.h>
 
-@class NSArray, NSSet, NSString, NSURL, PKApplyFooterContent, PKPaymentOfferDynamicContentIcon;
+@class NSArray;
 
 @interface PKPaymentOfferInstallmentCriteria : PKPaymentOfferCriteria
 {
     _Bool _requiresChallenge;
-    _Bool _suppressPayInFull;
-    _Bool _hasPreconfiguredOffers;
-    _Bool _hasDefaultPlan;
-    _Bool _requiresInStorePlanSelection;
-    _Bool _isHandoff;
-    NSArray *_supportedCurrencyCodes;
-    NSSet *_supportedMerchantCountryCodes;
-    NSSet *_supportedDeviceRegionCountryCodes;
-    NSArray *_supportedLanguages;
-    long long _paymentNetworkIdentifier;
-    unsigned long long _paymentMethodType;
-    NSString *_localizedPayInFullTitleOverride;
-    NSString *_localizedPayInFullSubtitleOverride;
-    NSString *_localizedTitleOverride;
-    NSString *_localizedSubtitleOverride;
-    NSString *_programName;
-    NSString *_issuerName;
-    PKPaymentOfferDynamicContentIcon *_icon;
-    PKApplyFooterContent *_disclosureFooter;
-    NSString *_merchandisingIdentifier;
-    NSSet *_minimumAmounts;
-    NSSet *_maximumAmounts;
-    double _setupAfterPurchaseStickyDuration;
-    double _setupAfterPurchaseActiveDuration;
-    NSSet *_associatedStoreIdentifiers;
-    NSSet *_associatedApplicationIdentifiers;
-    NSSet *_associatedWebDomains;
-    NSURL *_appLaunchURL;
 }
 
 + (_Bool)qî%Ð1Â0@ù
 × ;
-- (_Bool);
+- (_Bool)k,1;
 - (id);
 - (id);
 - (id);
@@ -54,9 +26,9 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -74,11 +46,11 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)W;
 - (long long);
 - (id);
-- (id);
-- (id);
+- (id)T	A;
+- (id)I;
 - (id);
 - (id);
 - (id);
@@ -97,52 +69,24 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)setMaxQueueFullDurMS:(id)arg1;
+- (void)setHasCurrentNatType:(id)arg1;
+- (void)AWDFaceTimeCallConnected;
 - (id);
+- (id)c;
 - (id);
-- (id);
-- (id)taWithCompletion:(id)arg1;
+- (id)deleteAllCounterpartImageDataWithCompletion:(id)arg1;
 - (id)signature;
 - (id)er payment pass %s in state %ld;
 - (void)uotequeue;
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *appLaunchURL; // @synthesize appLaunchURL=_appLaunchURL;
-@property(copy, nonatomic) NSSet *associatedApplicationIdentifiers; // @synthesize associatedApplicationIdentifiers=_associatedApplicationIdentifiers;
-@property(copy, nonatomic) NSSet *associatedStoreIdentifiers; // @synthesize associatedStoreIdentifiers=_associatedStoreIdentifiers;
-@property(copy, nonatomic) NSSet *associatedWebDomains; // @synthesize associatedWebDomains=_associatedWebDomains;
-@property(retain, nonatomic) PKApplyFooterContent *disclosureFooter; // @synthesize disclosureFooter=_disclosureFooter;
-@property(nonatomic) _Bool hasDefaultPlan; // @synthesize hasDefaultPlan=_hasDefaultPlan;
-@property(nonatomic) _Bool hasPreconfiguredOffers; // @synthesize hasPreconfiguredOffers=_hasPreconfiguredOffers;
-@property(retain, nonatomic) PKPaymentOfferDynamicContentIcon *icon; // @synthesize icon=_icon;
-@property(nonatomic) _Bool isHandoff; // @synthesize isHandoff=_isHandoff;
-@property(copy, nonatomic) NSString *issuerName; // @synthesize issuerName=_issuerName;
-@property(copy, nonatomic) NSString *localizedPayInFullSubtitleOverride; // @synthesize localizedPayInFullSubtitleOverride=_localizedPayInFullSubtitleOverride;
-@property(copy, nonatomic) NSString *localizedPayInFullTitleOverride; // @synthesize localizedPayInFullTitleOverride=_localizedPayInFullTitleOverride;
-@property(copy, nonatomic) NSString *localizedSubtitleOverride; // @synthesize localizedSubtitleOverride=_localizedSubtitleOverride;
-@property(copy, nonatomic) NSString *localizedTitleOverride; // @synthesize localizedTitleOverride=_localizedTitleOverride;
-@property(copy, nonatomic) NSSet *maximumAmounts; // @synthesize maximumAmounts=_maximumAmounts;
-@property(copy, nonatomic) NSString *merchandisingIdentifier; // @synthesize merchandisingIdentifier=_merchandisingIdentifier;
-@property(copy, nonatomic) NSSet *minimumAmounts; // @synthesize minimumAmounts=_minimumAmounts;
-@property(nonatomic) unsigned long long paymentMethodType; // @synthesize paymentMethodType=_paymentMethodType;
-@property(nonatomic) long long paymentNetworkIdentifier; // @synthesize paymentNetworkIdentifier=_paymentNetworkIdentifier;
-@property(copy, nonatomic) NSString *programName; // @synthesize programName=_programName;
-@property(nonatomic) _Bool requiresChallenge; // @synthesize requiresChallenge=_requiresChallenge;
-@property(nonatomic) _Bool requiresInStorePlanSelection; // @synthesize requiresInStorePlanSelection=_requiresInStorePlanSelection;
-@property(nonatomic) double setupAfterPurchaseActiveDuration; // @synthesize setupAfterPurchaseActiveDuration=_setupAfterPurchaseActiveDuration;
-@property(nonatomic) double setupAfterPurchaseStickyDuration; // @synthesize setupAfterPurchaseStickyDuration=_setupAfterPurchaseStickyDuration;
 @property(copy, nonatomic) NSArray *supportedCurrencyCodes; // @synthesize supportedCurrencyCodes=_supportedCurrencyCodes;
-@property(copy, nonatomic) NSSet *supportedDeviceRegionCountryCodes; // @synthesize supportedDeviceRegionCountryCodes=_supportedDeviceRegionCountryCodes;
-@property(copy, nonatomic) NSArray *supportedLanguages; // @synthesize supportedLanguages=_supportedLanguages;
-@property(copy, nonatomic) NSSet *supportedMerchantCountryCodes; // @synthesize supportedMerchantCountryCodes=_supportedMerchantCountryCodes;
-@property(nonatomic) _Bool suppressPayInFull; // @synthesize suppressPayInFull=_suppressPayInFull;
 
 @end
 

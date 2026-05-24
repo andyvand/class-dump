@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSNetServiceBrowser, NSObject, NSString;
+@class NSObject;
 @protocol MRExternalDeviceControllerDelegate, OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface MRExternalDeviceController
 {
     NSObject<OS_dispatch_queue> *_serialQueue;
-    NSNetServiceBrowser *_serviceBrowser;
-    NSMutableSet *_discoveredDevices;
-    NSMutableSet *_resolvingServices;
-    NSMutableSet *_monitoringServices;
-    _Bool _discovering;
-    id <MRExternalDeviceControllerDelegate> _delegate;
-    NSString *_bonjourServiceType;
 }
 
 + (Class);
@@ -25,28 +18,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id):%@, locale:%@, code:%@, parentID:%@, displayRegion:%.4f/%.4f, %.4f/%.4f> /* Error: Ran out of types for this method. */;
 - (void);
+- (void)G;
 - (void);
-- (void);
-- (id);
-- (void);
+- (id)pageForwardButtonYCenterConstraint;
+- (void).approve-15-minutes;
 - (void);
 - (void);
 - (_Bool);
 - (void)roupedDevices;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *bonjourServiceType; // @synthesize bonjourServiceType=_bonjourServiceType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <MRExternalDeviceControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isDiscovering) _Bool discovering; // @synthesize discovering=_discovering;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

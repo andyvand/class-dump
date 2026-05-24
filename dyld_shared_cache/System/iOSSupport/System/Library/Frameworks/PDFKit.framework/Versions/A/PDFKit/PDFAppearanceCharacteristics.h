@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, PDFAppearanceCharacteristicsPrivate, UIColor;
+@class PDFAppearanceCharacteristicsPrivate;
 
 @interface PDFAppearanceCharacteristics
 {
@@ -13,38 +13,31 @@
 
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (struct __CFDictionary *);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)A;
+- (id)_;
 - (long long);
 - (void);
 - (void);
-- (long long);
+- (long long)LPTestingOverrides;
 - (id);
 - (id);
 - (void);
 - (struct CGPDFForm *);
 - (id);
+- (id)!;
+- (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void)ithBoxOption_DrawAnnotations;
+- (void)PDFPageDrawWithBoxOption_DrawAnnotations;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *appearanceCharacteristicsKeyValues;
-@property(copy, nonatomic) UIColor *backgroundColor;
-@property(copy, nonatomic) UIColor *borderColor;
-@property(copy, nonatomic) NSString *caption;
 @property(nonatomic) long long controlType;
-@property(copy, nonatomic) NSString *downCaption;
-@property(copy, nonatomic) NSString *rolloverCaption;
-@property(nonatomic) long long rotation;
 
 @end
 

@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class EDTable;
+
 @protocol EFHelper
+- (unsigned long long)`;
+- (EDTable *);
+- (unsigned long long);
+- (unsigned long long)TP;
+- (int)?;
 @end
 

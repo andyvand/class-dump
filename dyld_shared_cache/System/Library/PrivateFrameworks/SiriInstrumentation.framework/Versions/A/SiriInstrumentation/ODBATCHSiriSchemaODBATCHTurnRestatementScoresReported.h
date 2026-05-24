@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface ODBATCHSiriSchemaODBATCHTurnRestatementScoresReported : SISchemaInstrumentationMessage
 {
@@ -19,22 +19,21 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void);
+- (void)zR;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)
 × ;
 - (id)I,N,V_falseWakeWithContextualMitigationCount;
 - (id)ExecutorAppIntentCallContext",&,N,V_executorAppIntentCallContext;
-- (void)REASON_SPEECH_CANCELED;
+- (void)IFTMGRUSERTURNCANCELLEDREASON_SPEECH_CANCELED;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *turnRestatementScores; // @synthesize turnRestatementScores=_turnRestatementScores;
 
 @end

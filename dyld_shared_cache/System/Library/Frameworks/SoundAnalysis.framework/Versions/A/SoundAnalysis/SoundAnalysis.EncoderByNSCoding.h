@@ -14,10 +14,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)not taking updates coming from madrid;
 - (id);
 - (void);
-- (void);
+- (void)ng is disabled for %@;
 - (void);
 - (void);
 - (_Bool);
@@ -27,11 +27,11 @@
 ùÿ¤
 ùÿÈ
 ùÿùÿ`ùÿ¬ùÿèùÿôùÿùÿ8ùÿtùÿùÿ¼ùÿøùÿùÿ@ùÿdùÿ ùÿÄùÿèùÿùÿHùÿlùÿùÿ´ùÿðùÿùÿ8ùÿ\ùÿ¨ùÿôùÿ@ùÿ ùÿÄùÿèùÿ$ùÿHùÿTùÿxùÿ´ùÿØùÿ0ùÿTùÿxùÿ´ùÿØùÿ0ùÿ<ùÿHùÿÜùÿ;
-- (void)tionOfArrivalCodingKeys;
+- (void)DirectionOfArrivalCodingKeys;
 - (void);
 - (void);
 - (void);
-- (void)mpler_sdf_node_t;
+- (void)snaop_sampler_sdf_node_t;
 - (void);
 
 // Remaining properties

@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateFormatter, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface SGReverseTemplatesJSDataDetectors
 {
     NSMutableDictionary *_scanners;
-    NSDateFormatter *_dateFormatter;
-    NSDateFormatter *_naiveDateFormatter;
-    NSDateFormatter *_noTimeFormatter;
 }
 
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);

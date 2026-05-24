@@ -9,16 +9,11 @@
 @interface ProfileMessage
 {
     NSData *_pushCert;
-    struct __SecKey *_pushKey;
-    struct __SecKey *_pushPublicKey;
-    NSData *_pushToken;
-    NSString *_authToken;
-    NSString *_profileID;
 }
 
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)C;
 - (void);
 - (void);
 - (void);
@@ -28,29 +23,24 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)setSupplementaryViews: /* Error: Ran out of types for this method. */;
+- (void)gG_V;
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool);
 - (long long);
 - (id);
 - (long long);
-- (void);
+- (void)setAssistantWindowTitle: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)!tAùqÐ1Â0@ù
 × ;
-- (void)attedHandle:(id)arg1;
+- (void)setCachedFormattedHandle:(id)arg1;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *authToken; // @synthesize authToken=_authToken;
 @property(copy, nonatomic) NSString *profileID; // @synthesize profileID=_profileID;
-@property(copy, nonatomic) NSData *pushCertificate; // @synthesize pushCertificate=_pushCert;
-@property(nonatomic) struct __SecKey *pushPrivateKey; // @synthesize pushPrivateKey=_pushKey;
-@property(nonatomic) struct __SecKey *pushPublicKey; // @synthesize pushPublicKey=_pushPublicKey;
-@property(copy, nonatomic) NSData *pushToken; // @synthesize pushToken=_pushToken;
 
 @end
 

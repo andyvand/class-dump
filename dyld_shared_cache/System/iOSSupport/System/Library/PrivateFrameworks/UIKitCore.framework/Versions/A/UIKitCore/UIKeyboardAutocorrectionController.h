@@ -4,38 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSHashTable, NSMutableDictionary, TIAutocorrectionList, TIKeyboardCandidate, _UIKeyboardCandidateGenerationContext;
-@protocol UIKeyboardAutocorrectionControllerDelegate;
-
 @interface UIKeyboardAutocorrectionController
 {
     unsigned long long _signpostToken;
-    _Bool _requestedAutocorrection;
-    _Bool _needsAutocorrection;
-    _Bool _hasPendingAutocorrection;
-    TIAutocorrectionList *_autocorrectionList;
-    TIAutocorrectionList *_textSuggestionList;
-    unsigned long long _maximumNumberOfCandidates;
-    _UIKeyboardCandidateGenerationContext *_candidateGenerationContext;
-    NSHashTable *_autocorrectionObservers;
-    NSMutableDictionary *_recentCandidates;
-    id <UIKeyboardAutocorrectionControllerDelegate> _delegate;
 }
 
-- (id);
+- (id)C,N,V_payloadMagsizeImmutable;
+- (void)CEMBookEnterpriseDeclaration;
 - (void);
+- (void)failed to allocate %llu bytes.;
+- (_Bool);
+- (void);
+- (void);
+- (void)';
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (id);
@@ -56,17 +43,17 @@
 - (_Bool)UIView"24;
 - (id)on"16;
 - (void)"16@"<UIDropSession>"24;
-- (void)sTintColorCapsuleForSelection;
-- (void)ion:(id)arg1;
-- (void)gFrame:(id)arg1;
-- (id)ecessary: /* Error: Ran out of types for this method. */;
-- (_Bool)etAdjustmentEnabledWhenLastIdle;
-- (_Bool)ormDocumentUnavailableConfigurationUpdate;
+- (void)usesTintColorCapsuleForSelection;
+- (void)settingsWithDuration:(id)arg1 delay:timingFunction: /* Error: Ran out of types for this method. */;
+- (void)copyWithGlobalPinningFrame:(id)arg1;
+- (id)adjustFontForVerticalColonIfNecessary: /* Error: Ran out of types for this method. */;
+- (_Bool)_refreshControlAutomaticContentOffsetAdjustmentEnabledWhenLastIdle;
+- (_Bool)_performDocumentUnavailableConfigurationUpdate;
 - (_Bool)artOne:partTwo: /* Error: Ran out of types for this method. */;
 - (_Bool)ngs:,V__ignoreBarButtonItemSiblings /* Error: Ran out of types for this method. */;
 - (void)enceHandler;
-- (void)entifiers;
-- (_Bool)ControllerTransition;
+- (void)selfIdentifiers;
+- (_Bool)_UIPreviewInteractionViewControllerTransition;
 - (void)pple.menu.substitutions;
 - (void);
 - (void):©ÔÔ²f /* Error: Ran out of types for this method. */;
@@ -74,19 +61,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) TIKeyboardCandidate *autocorrection;
-@property(retain, nonatomic) TIAutocorrectionList *autocorrectionList; // @synthesize autocorrectionList=_autocorrectionList;
-@property(retain, nonatomic) NSHashTable *autocorrectionObservers; // @synthesize autocorrectionObservers=_autocorrectionObservers;
-@property(retain, nonatomic) _UIKeyboardCandidateGenerationContext *candidateGenerationContext; // @synthesize candidateGenerationContext=_candidateGenerationContext;
-@property(nonatomic) __weak id <UIKeyboardAutocorrectionControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) _Bool hasActiveObservers;
-@property(nonatomic) _Bool hasPendingAutocorrection; // @synthesize hasPendingAutocorrection=_hasPendingAutocorrection;
-@property(nonatomic) unsigned long long maximumNumberOfCandidates; // @synthesize maximumNumberOfCandidates=_maximumNumberOfCandidates;
 @property(nonatomic) _Bool needsAutocorrection; // @synthesize needsAutocorrection=_needsAutocorrection;
-@property(retain, nonatomic) NSMutableDictionary *recentCandidates; // @synthesize recentCandidates=_recentCandidates;
-@property(nonatomic) _Bool requestedAutocorrection; // @synthesize requestedAutocorrection=_requestedAutocorrection;
-@property(readonly, nonatomic) NSArray *textCompletions;
-@property(retain, nonatomic) TIAutocorrectionList *textSuggestionList; // @synthesize textSuggestionList=_textSuggestionList;
 
 @end
 

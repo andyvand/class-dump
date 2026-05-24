@@ -7,10 +7,6 @@
 @interface MediaPlaybackCore.EventReporter
 {
     id stream;
-    id activeSubsystems;
-    id mode;
-    id queue;
-    id identifier;
 }
 
 @end

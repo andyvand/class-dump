@@ -4,39 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, NSURLSessionConfiguration;
+@class NSString;
 
 @interface WBSPasswordBreachConfiguration
 {
     _Bool _isInternalBuild;
-    _Bool _shouldRefillBagWhenEmpty;
-    _Bool _verboseSensitiveLoggingEnabled;
-    NSString *_highFrequencyBucketHashSalt;
-    NSString *_lowFrequencyBucketHashSalt;
-    unsigned long long _highFrequencyBucketHashWorkFactor;
-    unsigned long long _lowFrequencyBucketHashWorkFactor;
-    unsigned long long _highFrequencyBucketScryptBlockSizeR;
-    unsigned long long _lowFrequencyBucketScryptBlockSizeR;
-    unsigned long long _highFrequencyBucketScryptParallelismFactorP;
-    unsigned long long _lowFrequencyBucketScryptParallelismFactorP;
-    unsigned long long _lowFrequencyBucketIdentifierBitCount;
-    NSURL *_highFrequencyBucketURL;
-    NSURL *_lowFrequencyBucketURL;
-    NSURLSessionConfiguration *_urlSessionConfiguration;
-    double _minimumDelayBetweenSessions;
-    unsigned long long _passwordCheckBatchSize;
-    unsigned long long _numberOfBatchesPerSession;
-    unsigned long long _fakePasswordLengthBytes;
-    unsigned long long _lowFrequencyBucketFetchTimeout;
 }
 
 + (id);
 - (unsigned long long);
 - (unsigned long long);
+- (unsigned long long): /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
+- (id)QCC3D_SceneGetRootNode;
+- (unsigned long long)he equation;
 - (unsigned long long);
 - (unsigned long long);
 - (id);
@@ -47,10 +28,10 @@
 - (_Bool);
 - (unsigned long long);
 - (id);
+- (id)ю;
 - (id);
-- (id);
-- (double);
-- (id);
+- (double)artworkCatalog:didConfigureView:withRepresentation: /* Error: Ran out of types for this method. */;
+- (id)Library_Oversize;
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -58,25 +39,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long fakePasswordLengthBytes; // @synthesize fakePasswordLengthBytes=_fakePasswordLengthBytes;
 @property(readonly, nonatomic) NSString *highFrequencyBucketHashSalt; // @synthesize highFrequencyBucketHashSalt=_highFrequencyBucketHashSalt;
-@property(readonly, nonatomic) unsigned long long highFrequencyBucketHashWorkFactor; // @synthesize highFrequencyBucketHashWorkFactor=_highFrequencyBucketHashWorkFactor;
-@property(readonly, nonatomic) unsigned long long highFrequencyBucketScryptBlockSizeR; // @synthesize highFrequencyBucketScryptBlockSizeR=_highFrequencyBucketScryptBlockSizeR;
-@property(readonly, nonatomic) unsigned long long highFrequencyBucketScryptParallelismFactorP; // @synthesize highFrequencyBucketScryptParallelismFactorP=_highFrequencyBucketScryptParallelismFactorP;
-@property(readonly, nonatomic) NSURL *highFrequencyBucketURL; // @synthesize highFrequencyBucketURL=_highFrequencyBucketURL;
-@property(readonly, nonatomic) unsigned long long lowFrequencyBucketFetchTimeout; // @synthesize lowFrequencyBucketFetchTimeout=_lowFrequencyBucketFetchTimeout;
-@property(readonly, nonatomic) NSString *lowFrequencyBucketHashSalt; // @synthesize lowFrequencyBucketHashSalt=_lowFrequencyBucketHashSalt;
-@property(readonly, nonatomic) unsigned long long lowFrequencyBucketHashWorkFactor; // @synthesize lowFrequencyBucketHashWorkFactor=_lowFrequencyBucketHashWorkFactor;
-@property(readonly, nonatomic) unsigned long long lowFrequencyBucketIdentifierBitCount; // @synthesize lowFrequencyBucketIdentifierBitCount=_lowFrequencyBucketIdentifierBitCount;
-@property(readonly, nonatomic) unsigned long long lowFrequencyBucketScryptBlockSizeR; // @synthesize lowFrequencyBucketScryptBlockSizeR=_lowFrequencyBucketScryptBlockSizeR;
-@property(readonly, nonatomic) unsigned long long lowFrequencyBucketScryptParallelismFactorP; // @synthesize lowFrequencyBucketScryptParallelismFactorP=_lowFrequencyBucketScryptParallelismFactorP;
-@property(readonly, nonatomic) NSURL *lowFrequencyBucketURL; // @synthesize lowFrequencyBucketURL=_lowFrequencyBucketURL;
-@property(readonly, nonatomic) double minimumDelayBetweenSessions; // @synthesize minimumDelayBetweenSessions=_minimumDelayBetweenSessions;
-@property(readonly, nonatomic) unsigned long long numberOfBatchesPerSession; // @synthesize numberOfBatchesPerSession=_numberOfBatchesPerSession;
-@property(readonly, nonatomic) unsigned long long passwordCheckBatchSize; // @synthesize passwordCheckBatchSize=_passwordCheckBatchSize;
-@property(readonly, nonatomic) _Bool shouldRefillBagWhenEmpty;
-@property(readonly, nonatomic) NSURLSessionConfiguration *urlSessionConfiguration; // @synthesize urlSessionConfiguration=_urlSessionConfiguration;
-@property(readonly, nonatomic) _Bool verboseSensitiveLoggingEnabled; // @synthesize verboseSensitiveLoggingEnabled=_verboseSensitiveLoggingEnabled;
 
 @end
 

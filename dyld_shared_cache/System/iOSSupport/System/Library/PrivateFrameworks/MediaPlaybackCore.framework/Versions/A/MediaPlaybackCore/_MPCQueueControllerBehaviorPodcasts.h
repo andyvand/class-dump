@@ -4,24 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-@protocol MPCQueueControllerBehaviorHost;
-
 @interface _MPCQueueControllerBehaviorPodcasts
 {
     id managedQueue;
-    id podcastsMediaLibrary;
-    id nextRequest;
-    id contentItemIDsMap;
-    id lastEmittedBehaviorMetadata;
-    id queueRestorationSnapshot;
-    id restorationTrackIdentifiers;
-    id restorationTailInsertionContentIdentifier;
-    id activePlaybackContext;
-    _Bool hasUserMutations;
-    _Bool allowsQueueModifications;
-    void sessionID;
-    id <MPCQueueControllerBehaviorHost> host;
 }
 
 + (_Bool);
@@ -29,64 +14,56 @@
 + (void);
 + (_Bool);
 - (id);
-- (void);
+- (void)works/Foundation.framework/Versions/C/Foundation;
 - (void);
 - (id);
 - (long long);
 - (long long);
-- (id);
+- (id)16;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)stringWithFormat:(id)arg1;
+- (void)aa_accountClass;
+- (void)AACloudPolicyRestrictions;
+- (void)sManager failed to maintain ref to self.;
+- (_Bool)tion:(id)arg1 %@.;
+- (_Bool)dy enabled;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)ctionary"8@"NSError"16;
 - (_Bool);
 - (id);
 - (long long);
 - (void);
 - (void);
 - (void);
+- (void);
+- (id);
 - (void);
-- (id);
 - (void);
-- (void);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
+- (id)__AUTH_CONST;
+- (void);
 - (id);
+- (_Bool)@@9	}S}S(3;
+- (void);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (void)ionDuration:(id)arg1;
+- (void)setVocalAttenuationDuration:(id)arg1;
 - (void)etion:additional loading skipped [data source loading or frozen] - _frozen=%{BOOL}u _state=%{public}ld /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsQueueModifications; // @synthesize allowsQueueModifications;
-@property(nonatomic, readonly) _Bool containsRestorableContent;
-@property(nonatomic) _Bool hasUserMutations; // @synthesize hasUserMutations;
-@property(nonatomic, retain) id <MPCQueueControllerBehaviorHost> host; // @synthesize host;
-@property(nonatomic, readonly) _Bool isEmpty;
-@property(nonatomic, readonly) long long playbackPositionRestorationPolicy;
 @property(nonatomic, readonly) long long preferredUpcomingItemCount;
-@property(nonatomic, readonly) NSArray *queueTrackIdentifiers;
-@property(nonatomic, copy) NSString *sessionID;
 
 @end
 

@@ -22,7 +22,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)identifier=%@, snapshottingEnabled=%d;
 - (id);
 - (void);
 

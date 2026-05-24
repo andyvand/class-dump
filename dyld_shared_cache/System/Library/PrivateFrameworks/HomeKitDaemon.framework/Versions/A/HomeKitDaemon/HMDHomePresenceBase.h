@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, HMDNotificationRegistration, HMFMessageDispatcher, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue;
+@class HMDHome;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomePresenceBase
 {
     HMDHome *_home;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSString *_logString;
-    NSUUID *_presenceMonitorMessageTargetUUID;
-    HMFMessageDispatcher *_msgDispatcher;
-    HMDNotificationRegistration *_notificationRegistration;
 }
 
 + (id);
@@ -23,14 +17,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id)hasFloorOrdinal;
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)resizeSessionForFrame;
 - (id);
 - (id);
 - (void);
@@ -42,24 +36,7 @@ __attribute__((visibility("hidden")))
 - (id)x?­ÿCÀ«?;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak HMDHome *home; // @synthesize home=_home;
-@property(retain, nonatomic) NSString *logString; // @synthesize logString=_logString;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(retain, nonatomic) HMFMessageDispatcher *msgDispatcher; // @synthesize msgDispatcher=_msgDispatcher;
-@property(readonly, nonatomic) HMDNotificationRegistration *notificationRegistration; // @synthesize notificationRegistration=_notificationRegistration;
-@property(retain, nonatomic) NSUUID *presenceMonitorMessageTargetUUID; // @synthesize presenceMonitorMessageTargetUUID=_presenceMonitorMessageTargetUUID;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

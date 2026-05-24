@@ -5,5 +5,6 @@
 //
 
 @protocol UIViewControllerAnimatedTransitioning
+- (void)circle.fill;
 @end
 

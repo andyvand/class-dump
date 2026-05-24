@@ -7,14 +7,6 @@
 @interface PhotosGraph.PGSharedLibrarySimulationEvent
 {
     id photoLibrary;
-    id sharedLibraryDiagnostics;
-    id capturedSharedLibraryMode;
-    id assetIsCurrentlyInSharedLibrary;
-    id mdataFilePath;
-    id asset;
-    id dateFormatter;
-    id name;
-    id photosChallengeInferredSuggestsSharing;
 }
 
 @end

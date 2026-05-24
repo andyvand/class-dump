@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PXPublishMomentShareBudgetOverridePromptConfiguration
 {
     _Bool _useWLAN;
-    unsigned long long _networkType;
-    unsigned long long _assetCount;
-    NSString *_deviceModel;
 }
 
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (unsigned long long);
 - (void);
@@ -26,9 +21,6 @@
 - (id)@³;;
 
 // Remaining properties
-@property(nonatomic) unsigned long long assetCount; // @synthesize assetCount=_assetCount;
-@property(copy, nonatomic) NSString *deviceModel; // @synthesize deviceModel=_deviceModel;
-@property(nonatomic) unsigned long long networkType; // @synthesize networkType=_networkType;
 @property(nonatomic) _Bool useWLAN; // @synthesize useWLAN=_useWLAN;
 
 @end

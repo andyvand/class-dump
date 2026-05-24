@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
     double _height;
 }
 
-- (id);
+- (id)SyncCompletedRecordIfNeeded Requesting last sync date for metrics:(id)arg1 %@;
 - (id);
 - (id);
 - (double)dÐ1Â0@ù
 × ;
-- (void)aryWithIdentifier:(id)arg1;
+- (void)boundaryWithIdentifier:(id)arg1;
 - (void)V)ÿ1;
 
 // Remaining properties

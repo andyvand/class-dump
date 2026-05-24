@@ -4,36 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ColorPickerWellViewController, NSArray, NSGridCell, NSGridRow, NSLayoutConstraint, NSPopUpButton, NSString, NSTextField, ProfileIconPickerViewController, ProfilesPreferences;
+@class NSArray, NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface GeneralProfilesPreferencesViewController
 {
     NSArray *_sortedIdentifiersForExtensionsWithOverridePages;
-    ColorPickerWellViewController *_colorPickerWellViewController;
-    ProfileIconPickerViewController *_profileIconPickerViewController;
-    NSGridRow *_tabAndWindowConfigurationGridRow;
-    NSTextField *_tabAndWindowConfigurationTextField;
-    ProfilesPreferences *_profilesPreferences;
-    NSString *_profileIdentifier;
-    NSTextField *_iconLabel;
-    NSTextField *_favoritesLabel;
-    NSTextField *_nameTextField;
-    NSPopUpButton *_favoritesPopUpButton;
-    NSPopUpButton *_tabBehaviorPopupButton;
-    NSPopUpButton *_windowBehaviorPopupButton;
-    NSGridCell *_symbolsCell;
-    NSGridRow *_tabBehaviorGridRow;
-    NSGridRow *_windowBehaviorGridRow;
-    NSGridRow *_favoritesGridRow;
-    NSLayoutConstraint *_explanationLabelToGridViewConstraint;
-    NSGridCell *_colorWellGridCell;
 }
 
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -89,34 +71,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)supportsObjectDiscovery;
 - (void);
 - (id);
 - (void)SButton",W,N,V_command1Through9SwitchesTabsCheckbox;
 - (void)ÿÿ;
 
 // Remaining properties
-@property __weak NSGridCell *colorWellGridCell; // @synthesize colorWellGridCell=_colorWellGridCell;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSLayoutConstraint *explanationLabelToGridViewConstraint; // @synthesize explanationLabelToGridViewConstraint=_explanationLabelToGridViewConstraint;
-@property __weak NSGridRow *favoritesGridRow; // @synthesize favoritesGridRow=_favoritesGridRow;
-@property __weak NSTextField *favoritesLabel; // @synthesize favoritesLabel=_favoritesLabel;
-@property __weak NSPopUpButton *favoritesPopUpButton; // @synthesize favoritesPopUpButton=_favoritesPopUpButton;
-@property(readonly) unsigned long long hash;
 @property __weak NSTextField *iconLabel; // @synthesize iconLabel=_iconLabel;
-@property __weak NSTextField *nameTextField; // @synthesize nameTextField=_nameTextField;
-@property(copy, nonatomic) NSString *profileIdentifier; // @synthesize profileIdentifier=_profileIdentifier;
-@property(nonatomic) __weak ProfilesPreferences *profilesPreferences; // @synthesize profilesPreferences=_profilesPreferences;
-@property(readonly) Class superclass;
-@property __weak NSGridCell *symbolsCell; // @synthesize symbolsCell=_symbolsCell;
-@property __weak NSGridRow *tabBehaviorGridRow; // @synthesize tabBehaviorGridRow=_tabBehaviorGridRow;
-@property __weak NSPopUpButton *tabBehaviorPopupButton; // @synthesize tabBehaviorPopupButton=_tabBehaviorPopupButton;
-@property __weak NSGridRow *windowBehaviorGridRow; // @synthesize windowBehaviorGridRow=_windowBehaviorGridRow;
-@property __weak NSPopUpButton *windowBehaviorPopupButton; // @synthesize windowBehaviorPopupButton=_windowBehaviorPopupButton;
 
 @end
 

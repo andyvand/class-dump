@@ -4,41 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MNActiveRouteInfo, MNDispatchTimer, MNLocation, NSArray, NSDate;
 @protocol MNTunnelLocationProjectorDelegate;
 
 @interface MNTunnelLocationProjector
 {
     id <MNTunnelLocationProjectorDelegate> _delegate;
-    MNActiveRouteInfo *_currentRouteInfo;
-    NSArray *_tunnelRanges;
-    MNLocation *_lastUnprojectedLocation;
-    NSDate *_lastUnprojectedLocationDate;
-    MNDispatchTimer *_locationUpdateOverdueTimer;
-    double _locationOverdueTimeoutForTunnel;
-    _Bool _isProjecting;
 }
 
-- (void);
-- (_Bool);
+- (void)2
+;
+- (_Bool)f
+;
 - (id);
 - (void);
 - (CDStruct_3f2a7a20);
-- (id);
+- (id)DefaultMenuButtonStyle;
 - (void);
 - (struct GEOPolylineCoordinateRange);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void)a°!àBùQ1Â0@ù
 × ;
 
 // Remaining properties
 @property(nonatomic) __weak id <MNTunnelLocationProjectorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) _Bool isProjecting; // @synthesize isProjecting=_isProjecting;
 
 @end
 

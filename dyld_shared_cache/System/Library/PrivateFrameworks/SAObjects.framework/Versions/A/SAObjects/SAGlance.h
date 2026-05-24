@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface SAGlance : SADomainObject
 {
@@ -21,15 +21,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)J(4;
 - (id);
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *appId;
-@property(copy, nonatomic) NSString *glanceDisplayName;
-@property(copy, nonatomic) NSString *glanceId;
-@property(copy, nonatomic) NSDictionary *localizedGlanceDisplayNameMap;
 
 @end
 

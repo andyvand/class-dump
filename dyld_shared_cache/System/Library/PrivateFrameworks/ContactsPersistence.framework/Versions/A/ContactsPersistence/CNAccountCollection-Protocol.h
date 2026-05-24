@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNObservable, NSArray, NSString, NSURL;
-@protocol CNAccountDescription;
+@class NSString, NSURL;
 
 @protocol CNAccountCollection
+- (NSString *);
 
 // Remaining properties
-@property(readonly, copy) NSArray *allAccounts;
 @property(readonly, copy) NSURL *baseURL;
-@property(readonly) id <CNAccountDescription> defaultAccount;
-@property(readonly, copy) NSArray *enabledAccounts;
-@property(readonly) CNObservable *enabledAccountsObservable;
-@property(readonly) CNObservable *enabledPersistentAccountsObservable;
-@property(readonly) _Bool includeLocalAccount;
-@property(readonly, copy) NSArray *persistentEnabledAccounts;
-@property(copy) NSString *tag;
 @end
 

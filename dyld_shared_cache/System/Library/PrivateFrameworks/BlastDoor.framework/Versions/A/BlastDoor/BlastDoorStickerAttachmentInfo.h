@@ -16,12 +16,12 @@
 - (id);
 - (struct CGPoint);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (double);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)˟;
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -30,33 +30,13 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
+- (id)CGRect={CGPoint=dd}{CGSize=dd}}32;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) unsigned long long associatedPositionIntent;
-@property(nonatomic, readonly) NSString *balloonBundleID;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) _Bool has_associatedPositionIntent;
-@property(nonatomic, readonly) _Bool has_parentPreviewWidth;
-@property(nonatomic, readonly) _Bool has_positionIntent;
-@property(nonatomic, readonly) _Bool has_stickerOffset;
-@property(nonatomic, readonly) _Bool has_stickerPositionVersion;
-@property(nonatomic, readonly) _Bool has_stickerRotation;
-@property(nonatomic, readonly) _Bool has_stickerScale;
-@property(nonatomic, readonly) _Bool isReaction;
-@property(nonatomic, readonly) double parentPreviewWidth;
-@property(nonatomic, readonly) unsigned long long positionIntent;
-@property(nonatomic, readonly) NSString *stickerExternalURI;
-@property(nonatomic, readonly) NSString *stickerHash;
-@property(nonatomic, readonly) NSString *stickerIdentifier;
-@property(nonatomic, readonly) struct CGPoint stickerOffset;
-@property(nonatomic, readonly) NSString *stickerPackIdentifier;
-@property(nonatomic, readonly) unsigned long long stickerPositionVersion;
-@property(nonatomic, readonly) double stickerRotation;
-@property(nonatomic, readonly) double stickerScale;
 
 @end
 

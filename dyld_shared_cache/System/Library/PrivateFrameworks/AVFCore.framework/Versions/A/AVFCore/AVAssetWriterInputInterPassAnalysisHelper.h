@@ -6,13 +6,12 @@
 
 #import <AVFCore/AVAssetWriterInputHelper.h>
 
-@class AVAssetWriterInputPassDescription, AVAssetWriterInputWritingHelper;
+@class AVAssetWriterInputWritingHelper;
 
 __attribute__((visibility("hidden")))
 @interface AVAssetWriterInputInterPassAnalysisHelper : AVAssetWriterInputHelper
 {
     AVAssetWriterInputWritingHelper *_writingHelper;
-    AVAssetWriterInputPassDescription *_initialPassDescription;
 }
 
 - (void);
@@ -22,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (long long);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (long long);
@@ -31,7 +30,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (struct __CVPixelBufferPool *);
-- (id);
+- (id)B�;
 - (void);
 - (void)
 × ;

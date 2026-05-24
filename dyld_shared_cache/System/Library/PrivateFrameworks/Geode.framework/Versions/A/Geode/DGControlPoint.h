@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface DGControlPoint
 {
     double _x;
-    double _y;
-    _Bool _selected;
-    _Bool _editable;
-    _Bool _hidden;
 }
 
 + (id);
 - (id);
-- (CDStruct_ad6741ac);
+- (CDStruct_c3b9c2ee);
 - (id);
 - (double);
 - (id);
-- (_Bool);
+- (_Bool)@;
 - (_Bool);
 - (id);
 - (id);
@@ -31,21 +25,10 @@
 × ;
 - (_Bool)!@EùèÐ1Â0@ù
 × ;
-- (double)lackVOffset;
+- (double)_inputBlackVOffset;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isEditable) _Bool editable; // @synthesize editable=_editable;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isHidden) _Bool hidden; // @synthesize hidden=_hidden;
-@property(readonly, nonatomic, getter=isSelected) _Bool selected; // @synthesize selected=_selected;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) double x; // @synthesize x=_x;
-@property(readonly, nonatomic) double y; // @synthesize y=_y;
 
 @end
 

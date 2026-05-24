@@ -12,8 +12,8 @@
 
 - (id);
 - (long long);
-- (id);
-- (id)MomentEnvelope;
+- (id)requestSendFeedbackForTranslationIssue: /* Error: Ran out of types for this method. */;
+- (id)PGGraphBuilderMomentEnvelope;
 
 @end
 

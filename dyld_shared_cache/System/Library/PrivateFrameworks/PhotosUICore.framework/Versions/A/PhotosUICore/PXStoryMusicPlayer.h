@@ -4,41 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableSet, NSObject, NSSet, NSString, NSTimer, PXAudioPlayer, PXNumberAnimator, PXStoryModel, PXUpdater;
-@protocol OS_dispatch_queue, PXAudioAsset, PXAudioCueProvider, PXAudioCueSource, PXStorySongResource;
+@class PXAudioPlayer;
 
 @interface PXStoryMusicPlayer
 {
     _Bool _isActive;
-    _Bool _shouldDuckForCurrentTouch;
-    _Bool _targetDurationMatchesTimeline;
-    _Bool _isDucked;
-    float _volume;
-    float _duckedVolume;
-    NSObject<OS_dispatch_queue> *_storyQueue;
-    PXStoryModel *_model;
-    long long _readinessStatus;
-    PXAudioPlayer *_player;
-    PXUpdater *_updater;
-    long long _cueRequestID;
-    PXNumberAnimator *_duckingVolumeAnimator;
-    PXNumberAnimator *_focusVolumeAnimator;
-    PXNumberAnimator *_fadeOutVolumeAnimator;
-    PXNumberAnimator *_viewControllerTransitionVolumeAnimator;
-    id <PXAudioAsset> _currentAudioAsset;
-    id <PXAudioCueSource> _cueSource;
-    long long _desiredPlayState;
-    long long _cuesVersion;
-    NSString *_pauseReason;
-    NSString *_duckingReason;
-    NSDate *_touchingBeganDate;
-    long long _bufferingEvents;
-    NSTimer *_playbackTimer;
-    NSMutableSet *_internalFailedAudioAssets;
-    id <PXStorySongResource> _currentSongResource;
-    long long _audioDesiredPlayState;
-    id <PXAudioCueProvider> _cueProvider;
-    CDStruct_1b6d18a9 _targetDuration;
 }
 
 - (id);
@@ -61,7 +31,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (CDStruct_1b6d18a9);
 - (id);
 - (_Bool);
@@ -72,7 +42,7 @@
 - (id);
 - (id);
 - (id);
-- (float);
+- (float)0;
 - (id);
 - (id);
 - (id);
@@ -80,12 +50,14 @@
 - (long long);
 - (id);
 - (id);
-- (long long);
+- (long long);
 - (id);
 - (long long);
 - (id);
 - (long long);
-- (id);
+- (id)=;
+- (void);
+- (void)s";
 - (void);
 - (void);
 - (void);
@@ -103,6 +75,7 @@
 - (void);
 - (void);
 - (void);
+- (void)R;
 - (void);
 - (void);
 - (void);
@@ -114,10 +87,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -141,60 +111,30 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)scaleDurationsForLayerGroup:inDocument:withOptions: /* Error: Ran out of types for this method. */;
+- (void)lowp float lum = dot(vec3(.33333), inColor); 
+			inColor = mix(vec3(lum), inColor, .7); 
+			lowp float p1 = .6 + 1.0; 
+			lowp vec3 sPart = .6*.6*inColor*(1.-inColor*inColor)/(p1*p1); 
+			inColor.b = pow(inColor.b, p1) + sPart.b; 
+			inColor.r = (1. - pow(1.-inColor.r, p1) - sPart.r); 
+			inColor = pow(inColor, vec3(1. / 1.8)); 
+			return inColor; 
+		} 
+		;
 - (float)±71Â0@ù
 × ;
 - (id);
-- (id)oveOutput: /* Error: Ran out of types for this method. */;
-- (CDStruct_1b6d18a9)eBytesRequiredToImport;
+- (id)removeOutput: /* Error: Ran out of types for this method. */;
+- (CDStruct_1b6d18a9)approximateBytesRequiredToImport;
 - (id)_previewIsOutdated;
-- (void)acy;
-- (void)setModel;
+- (void)Legacy;
+- (void)PhotosPreviewableCollectionKeyAssetModel;
 - (id);
 - (void)Ì:(_Bool)arg1;
 
 // Remaining properties
-@property(readonly, nonatomic) id <PXAudioCueSource> audioCueSource;
-@property(readonly, nonatomic) long long audioDesiredPlayState; // @synthesize audioDesiredPlayState=_audioDesiredPlayState;
-@property(nonatomic) long long bufferingEvents; // @synthesize bufferingEvents=_bufferingEvents;
-@property(retain, nonatomic) id <PXAudioCueProvider> cueProvider; // @synthesize cueProvider=_cueProvider;
-@property(nonatomic) long long cueRequestID; // @synthesize cueRequestID=_cueRequestID;
-@property(retain, nonatomic) id <PXAudioCueSource> cueSource; // @synthesize cueSource=_cueSource;
-@property(nonatomic) long long cuesVersion; // @synthesize cuesVersion=_cuesVersion;
-@property(retain, nonatomic) id <PXAudioAsset> currentAudioAsset; // @synthesize currentAudioAsset=_currentAudioAsset;
-@property(readonly, nonatomic) id <PXStorySongResource> currentSongResource; // @synthesize currentSongResource=_currentSongResource;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 currentTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long desiredPlayState; // @synthesize desiredPlayState=_desiredPlayState;
-@property(nonatomic) float duckedVolume; // @synthesize duckedVolume=_duckedVolume;
-@property(copy, nonatomic) NSString *duckingReason; // @synthesize duckingReason=_duckingReason;
-@property(readonly, nonatomic) PXNumberAnimator *duckingVolumeAnimator; // @synthesize duckingVolumeAnimator=_duckingVolumeAnimator;
-@property(readonly, nonatomic) PXNumberAnimator *fadeOutVolumeAnimator; // @synthesize fadeOutVolumeAnimator=_fadeOutVolumeAnimator;
-@property(readonly, copy, nonatomic) NSSet *failedAudioAssets;
-@property(readonly, nonatomic) PXNumberAnimator *focusVolumeAnimator; // @synthesize focusVolumeAnimator=_focusVolumeAnimator;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSMutableSet *internalFailedAudioAssets; // @synthesize internalFailedAudioAssets=_internalFailedAudioAssets;
-@property(readonly, nonatomic) _Bool isActive; // @synthesize isActive=_isActive;
-@property(nonatomic) _Bool isDucked; // @synthesize isDucked=_isDucked;
-@property(readonly, nonatomic) PXStoryModel *model; // @synthesize model=_model;
-@property(copy, nonatomic) NSString *pauseReason; // @synthesize pauseReason=_pauseReason;
-@property(retain, nonatomic) NSTimer *playbackTimer; // @synthesize playbackTimer=_playbackTimer;
 @property(readonly, nonatomic) PXAudioPlayer *player; // @synthesize player=_player;
-@property(nonatomic) long long readinessStatus; // @synthesize readinessStatus=_readinessStatus;
-@property(nonatomic) _Bool shouldDuckForCurrentTouch; // @synthesize shouldDuckForCurrentTouch=_shouldDuckForCurrentTouch;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *storyQueue; // @synthesize storyQueue=_storyQueue;
-@property(readonly) Class superclass;
-@property(nonatomic) CDStruct_1b6d18a9 targetDuration; // @synthesize targetDuration=_targetDuration;
-@property(readonly, nonatomic) _Bool targetDurationMatchesTimeline; // @synthesize targetDurationMatchesTimeline=_targetDurationMatchesTimeline;
-@property(retain, nonatomic) NSDate *touchingBeganDate; // @synthesize touchingBeganDate=_touchingBeganDate;
-@property(readonly, nonatomic) PXUpdater *updater; // @synthesize updater=_updater;
-@property(readonly, nonatomic) PXNumberAnimator *viewControllerTransitionVolumeAnimator; // @synthesize viewControllerTransitionVolumeAnimator=_viewControllerTransitionVolumeAnimator;
-@property(readonly, nonatomic) float volume; // @synthesize volume=_volume;
 
 @end
 

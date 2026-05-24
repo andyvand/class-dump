@@ -9,7 +9,6 @@
 @interface TPCachedViableBottles
 {
     NSArray *_viableBottles;
-    NSArray *_partialBottles;
 }
 
 - (id);
@@ -18,7 +17,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, retain) NSArray *partialBottles; // @synthesize partialBottles=_partialBottles;
 @property(readonly, retain) NSArray *viableBottles; // @synthesize viableBottles=_viableBottles;
 
 @end

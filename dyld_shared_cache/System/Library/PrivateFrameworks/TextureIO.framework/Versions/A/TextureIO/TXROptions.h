@@ -7,9 +7,6 @@
 @interface TXROptions
 {
     _Bool _cubemapFromVerticallyStackedImage;
-    unsigned long long _originOperation;
-    unsigned long long _colorSpaceHandling;
-    _Bool _multiplyAlpha;
 }
 
 - (void);
@@ -23,10 +20,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long colorSpaceHandling; // @synthesize colorSpaceHandling=_colorSpaceHandling;
 @property(nonatomic) _Bool cubemapFromVerticallyStackedImage; // @synthesize cubemapFromVerticallyStackedImage=_cubemapFromVerticallyStackedImage;
-@property(nonatomic) _Bool multiplyAlpha; // @synthesize multiplyAlpha=_multiplyAlpha;
-@property(nonatomic) unsigned long long originOperation; // @synthesize originOperation=_originOperation;
 
 @end
 

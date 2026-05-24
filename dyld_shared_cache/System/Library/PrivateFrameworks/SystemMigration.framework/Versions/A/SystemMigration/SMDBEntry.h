@@ -25,12 +25,12 @@
 - (id);
 - (id);
 - (id);
+- (id)outputToInputTransform;
+- (void)collectionView:(id)arg1 shouldBeginDraggingSessionWithClickedItemAtIndexPath: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
 - (id);
-- (id);
-- (void);
-- (id);
+- (void)X;
+- (id)x;
 - (void)ñ	Ð1Â0@ù
 × ;
 

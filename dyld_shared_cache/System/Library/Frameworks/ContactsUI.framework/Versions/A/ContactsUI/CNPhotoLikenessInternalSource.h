@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSImage, NSString;
+@class NSArray;
 
 @interface CNPhotoLikenessInternalSource
 {
@@ -21,18 +21,6 @@
 
 // Remaining properties
 @property(readonly) NSArray *childGroups;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSImage *iconImage;
-@property(readonly, copy) NSString *mediaSourceIdentifier;
-@property(readonly) NSString *name;
-@property(readonly) id parent;
-@property(readonly) long long sourceType; // @synthesize sourceType=_sourceType;
-@property(readonly) Class superclass;
 
 @end
 

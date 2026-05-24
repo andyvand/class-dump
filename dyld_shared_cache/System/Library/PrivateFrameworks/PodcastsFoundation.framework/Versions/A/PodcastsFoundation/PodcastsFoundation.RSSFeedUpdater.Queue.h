@@ -7,14 +7,6 @@
 @interface PodcastsFoundation.RSSFeedUpdater.Queue
 {
     id name;
-    id concurrentLimit;
-    id ctx;
-    id ingesterProvider;
-    id externalFeedDownloader;
-    id workQueue;
-    id pendingQueue;
-    id jobs;
-    id completionCallback;
 }
 
 @end

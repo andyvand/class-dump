@@ -7,13 +7,10 @@
 @interface AVVideoCompositionTimeWindow
 {
     CDStruct_1b6d18a9 _durationBefore;
-    CDStruct_1b6d18a9 _durationAfter;
-    CDStruct_1b6d18a9 _durationBeforeWhenSeeking;
-    CDStruct_1b6d18a9 _durationAfterWhenSeeking;
 }
 
-- (id);
-- (id);
+- (id)_TtC27EmbeddedAcousticRecognition24EAREntityTaggerUtilities;
+- (id)_TtC27EmbeddedAcousticRecognition21_EARASRTaggerCreateML;
 - (CDStruct_1b6d18a9);
 - (CDStruct_1b6d18a9);
 - (CDStruct_1b6d18a9);
@@ -24,10 +21,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_1b6d18a9 durationAfter; // @synthesize durationAfter=_durationAfter;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 durationAfterWhenSeeking; // @synthesize durationAfterWhenSeeking=_durationAfterWhenSeeking;
 @property(readonly, nonatomic) CDStruct_1b6d18a9 durationBefore; // @synthesize durationBefore=_durationBefore;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 durationBeforeWhenSeeking; // @synthesize durationBeforeWhenSeeking=_durationBeforeWhenSeeking;
 
 @end
 

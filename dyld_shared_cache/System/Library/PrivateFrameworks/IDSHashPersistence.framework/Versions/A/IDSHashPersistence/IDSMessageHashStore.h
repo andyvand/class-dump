@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
-
 @interface IDSMessageHashStore
 {
     unsigned long long _initialProcessTime;
-    unsigned long long _initialServerTime;
-    NSObject<OS_dispatch_queue> *_ivarQueue;
-    NSObject<OS_dispatch_source> *_databaseCloseTimer;
-    double _databaseLastUpdateTime;
-    NSMutableArray *_recentlySeenHashes;
 }
 
 + (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -39,16 +31,11 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)";
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *databaseCloseTimer; // @synthesize databaseCloseTimer=_databaseCloseTimer;
-@property(nonatomic) double databaseLastUpdateTime; // @synthesize databaseLastUpdateTime=_databaseLastUpdateTime;
 @property(nonatomic) unsigned long long initialProcessTime; // @synthesize initialProcessTime=_initialProcessTime;
-@property(nonatomic) unsigned long long initialServerTime; // @synthesize initialServerTime=_initialServerTime;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *ivarQueue; // @synthesize ivarQueue=_ivarQueue;
-@property(retain, nonatomic) NSMutableArray *recentlySeenHashes; // @synthesize recentlySeenHashes=_recentlySeenHashes;
 
 @end
 

@@ -11,18 +11,6 @@
 @interface BWCameraInfoMetadataNode : BWNode
 {
     _Bool _generateLivePhotosMetadata;
-    struct opaqueCMFormatDescription *_boxedMetadataFormatDescription;
-    struct opaqueCMFormatDescription *_formatSpecificBoxedMetadataFormatDescription;
-    struct opaqueCMFormatDescription *_basicBoxedMetadataFormatDescription;
-    _Bool _previousGeneratedMetadataBufferWasEmpty;
-    struct OpaqueCMBlockBuffer *_emptyMetadataSampleData;
-    BWNodeOutput *_passthruOutput;
-    BWNodeOutput *_boxedMetadataOutput;
-    CDStruct_79c71658 _videoDimensions;
-    unsigned int _localIDForLivePhotosMetadata_BE;
-    unsigned int _localIDForOpticalCenterMetadata_BE;
-    _Bool _generateGreenGhostMetadata;
-    _Bool _updateBoxedMetadataFormatDescriptionForFirstBuffer;
 }
 
 + (void)tIndex++] pipelineStage:((void *)0)] /* Error: Ran out of types for this method. */;
@@ -41,7 +29,6 @@ FCÿFBÿF@ÿF?ÿ#F=ÿ*E<ÿ1E<ÿ8E<ÿ?F=ÿEF?ÿLFAÿRFCÿYGDÿaGFÿhGGÿoHIÿv
 - (id)={?=^{opaqueCMSampleBuffer}}{?=q^{opaqueCMFormatDescription}})}8@?<v@?{FigLocalQueueMessage=i(?={?=^{opaqueCMSampleBuffer}}{?=q^{opaqueCMFormatDescription}})}>28;
 
 // Remaining properties
-@property(readonly, nonatomic) BWNodeOutput *boxedMetadataOutput; // @synthesize boxedMetadataOutput=_boxedMetadataOutput;
 @property(readonly, nonatomic) BWNodeOutput *passthruOutput; // @synthesize passthruOutput=_passthruOutput;
 
 @end

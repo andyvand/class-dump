@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     double _cornerRadius;
 }
 
-- (void);
-- (id)keyplaneForKey:(struct CGRect)arg1;
+- (void);
+- (id)_keyplaneForKey:(struct CGRect)arg1;
 - (double)SceneStack.count;
 - (void)t=}8;
 

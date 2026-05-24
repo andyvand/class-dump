@@ -4,31 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject, NSString, NUCacheNodeRegistry, NUMLModelRegistry, NUPlatform, NUPurgeableStoragePool, NURenderNodeCache, NURenderPipelineRegistry, NURenderResourcePool, NURenderResultCache, NUScheduler, NUSchemaRegistry, VNSession;
-@protocol NUStorageFactory, OS_dispatch_queue;
+@class NSObject, NUSchemaRegistry;
+@protocol OS_dispatch_queue;
 
 @interface NUFactory
 {
     NSObject<OS_dispatch_queue> *_queue;
-    VNSession *_visionSession;
-    NSDate *_visionSessionLastUseTime;
-    NUSchemaRegistry *_schemaRegistry;
-    NURenderPipelineRegistry *_renderPipelineRegistry;
-    NSString *_defaultNamespace;
-    NUScheduler *_scheduler;
-    NUPurgeableStoragePool *_bufferStoragePool;
-    NUPurgeableStoragePool *_surfaceStoragePool;
-    id <NUStorageFactory> _bufferFactory;
-    id <NUStorageFactory> _surfaceFactory;
-    NURenderNodeCache *_renderNodeCache;
-    NURenderResultCache *_renderResultCache;
-    NURenderResourcePool *_renderResourcePool;
-    NUPlatform *_platform;
-    NUCacheNodeRegistry *_cacheNodeRegistry;
-    NUMLModelRegistry *_modelRegistry;
 }
 
-+ (void);
++ (void)variant_lips_oval_thin;
 + (_Bool);
 + (void);
 + (id);
@@ -43,52 +27,38 @@
 - (void);
 - (id);
 - (void);
+- (id)writeToFile:options:error: /* Error: Ran out of types for this method. */;
+- (void)Handler cancelTrainingViaXPCForID:(id)arg1 ];
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (id);
+- (void)ReportingOption;
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void){;
 - (id);
 - (id);
+- (void)ity] W5ActivityManager Attempting Daemon Eager Exit due to inactivity timeout of %f seconds;
+- (id);
+- (void)bat0;
 - (void);
+- (void)ing default %lu;
+- (id);
 - (id);
 - (void);
+- (id)jsonObject:key: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void):(id)arg1;
+- (void);
+- (void)setInputSourceHeadroom:(id)arg1;
 
 // Remaining properties
-@property(retain, nonatomic) id <NUStorageFactory> bufferFactory; // @synthesize bufferFactory=_bufferFactory;
-@property(retain, nonatomic) NUPurgeableStoragePool *bufferStoragePool; // @synthesize bufferStoragePool=_bufferStoragePool;
-@property(retain, nonatomic) NUCacheNodeRegistry *cacheNodeRegistry; // @synthesize cacheNodeRegistry=_cacheNodeRegistry;
-@property(copy, nonatomic) NSString *defaultNamespace; // @synthesize defaultNamespace=_defaultNamespace;
-@property(retain, nonatomic) NUMLModelRegistry *modelRegistry; // @synthesize modelRegistry=_modelRegistry;
-@property(retain, nonatomic) NUPlatform *platform; // @synthesize platform=_platform;
-@property(retain, nonatomic) NURenderNodeCache *renderNodeCache; // @synthesize renderNodeCache=_renderNodeCache;
-@property(retain, nonatomic) NURenderPipelineRegistry *renderPipelineRegistry; // @synthesize renderPipelineRegistry=_renderPipelineRegistry;
-@property(retain, nonatomic) NURenderResourcePool *renderResourcePool; // @synthesize renderResourcePool=_renderResourcePool;
-@property(retain, nonatomic) NURenderResultCache *renderResultCache; // @synthesize renderResultCache=_renderResultCache;
-@property(retain, nonatomic) NUScheduler *scheduler; // @synthesize scheduler=_scheduler;
 @property(retain, nonatomic) NUSchemaRegistry *schemaRegistry; // @synthesize schemaRegistry=_schemaRegistry;
-@property(retain, nonatomic) id <NUStorageFactory> surfaceFactory; // @synthesize surfaceFactory=_surfaceFactory;
-@property(retain, nonatomic) NUPurgeableStoragePool *surfaceStoragePool; // @synthesize surfaceStoragePool=_surfaceStoragePool;
-@property(retain, nonatomic) VNSession *visionSession; // @synthesize visionSession=_visionSession;
 
 @end
 

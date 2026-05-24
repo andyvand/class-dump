@@ -10,6 +10,7 @@
 }
 
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -25,8 +26,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -62,46 +62,20 @@
 - (unsigned long long);
 - (long long);
 - (_Bool);
-- (void);
-- (void);
+- (void));
+}
+;
+- (void)}{?=[3]}}{?={?=i{?=ffffffff}^v}{?=i{?=ffffffff}^v{?={?=[3]}B}{?=i{?=ffffffff}^v}}{?={?=[3]}B}}}{?={?=i{?=}{?=[3]}{?=[3]}}{?={?=i{?=}}{?={?=[3]}B}}}}16@0:(_Bool)arg1 8;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)B#;
 - (id);
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) long long allowOverrideRenderStates;
-@property(nonatomic) unsigned long long commandTypes;
-@property(nonatomic) _Bool inheritBlendColor;
-@property(nonatomic) _Bool inheritBuffers;
-@property(nonatomic) _Bool inheritCullMode;
-@property(nonatomic) _Bool inheritDepthBias;
-@property(nonatomic) _Bool inheritDepthClipMode;
-@property(nonatomic) _Bool inheritDepthStencilState;
-@property(nonatomic) _Bool inheritDepthTestBounds;
-@property(nonatomic) _Bool inheritFrontFacingWinding;
-@property(nonatomic) _Bool inheritPipelineState;
-@property(nonatomic) _Bool inheritScissorRects;
-@property(nonatomic) _Bool inheritStencilReferenceValues;
-@property(nonatomic) _Bool inheritTriangleFillMode;
-@property(nonatomic) _Bool inheritViewports;
-@property(nonatomic) unsigned long long maxFragmentBufferBindCount;
-@property(nonatomic) unsigned long long maxKernelBufferBindCount;
-@property(nonatomic) unsigned long long maxKernelThreadgroupMemoryBindCount;
-@property(nonatomic) unsigned long long maxMeshBufferBindCount;
-@property(nonatomic) unsigned long long maxObjectBufferBindCount;
-@property(nonatomic) unsigned long long maxObjectThreadgroupMemoryBindCount;
-@property(nonatomic) unsigned long long maxScissorRectCount;
-@property(nonatomic) unsigned long long maxToolsDispatchBindings;
-@property(nonatomic) unsigned long long maxVertexBufferBindCount;
-@property(nonatomic) unsigned long long maxViewportCount;
 @property(nonatomic) unsigned long long resourceIndex;
-@property(nonatomic) _Bool supportColorAttachmentMapping;
-@property(nonatomic) _Bool supportDynamicAttributeStride;
-@property(nonatomic) _Bool supportRayTracing;
 
 @end
 

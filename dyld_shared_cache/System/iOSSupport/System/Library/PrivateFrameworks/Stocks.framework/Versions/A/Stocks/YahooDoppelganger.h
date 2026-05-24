@@ -4,66 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURLSession, NSURLSessionDataTask;
-@protocol NSURLSessionDataDelegate;
+@class NSString;
 
 @interface YahooDoppelganger
 {
     NSString *_expectedRequestPattern;
-    NSData *_response;
-    unsigned long long _responseChunkSize;
-    unsigned long long _responseChunkDelay;
-    unsigned long long _responseChunkInitialDelay;
-    unsigned long long _responseOffset;
-    _Bool _cancelled;
-    NSURLSession *_session;
-    NSURLSessionDataTask *_dataTask;
-    id <NSURLSessionDataDelegate> _delegate;
 }
 
++ (_Bool);
++ (void);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
 + (_Bool);
-+ (void);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
+- (unsigned long long)m|;
+- (unsigned long long){;
 - (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
+- (id)z;
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)dicate";
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)_hasValidSetterForKey: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak id <NSURLSessionDataDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) NSString *expectedRequestPattern; // @synthesize expectedRequestPattern=_expectedRequestPattern;
-@property(retain, nonatomic) NSData *response; // @synthesize response=_response;
-@property(nonatomic) unsigned long long responseChunkDelay; // @synthesize responseChunkDelay=_responseChunkDelay;
-@property(nonatomic) unsigned long long responseChunkInitialDelay; // @synthesize responseChunkInitialDelay=_responseChunkInitialDelay;
-@property(nonatomic) unsigned long long responseChunkSize; // @synthesize responseChunkSize=_responseChunkSize;
 
 @end
 

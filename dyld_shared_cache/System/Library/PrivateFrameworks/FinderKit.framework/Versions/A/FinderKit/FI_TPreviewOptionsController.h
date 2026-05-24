@@ -8,15 +8,13 @@ __attribute__((visibility("hidden")))
 @interface FI_TPreviewOptionsController
 {
     struct unordered_map<TString, FI_TPreviewOptions *, std::hash<TString>, std::equal_to<TString>, std::allocator<std::pair<const TString, FI_TPreviewOptions *>>> _utiOptionsMap;
-    struct unique_ptr<TMetadataAvailability, std::default_delete<TMetadataAvailability>> _metadataSource;
-    struct mutex _cacheLock;
 }
 
 + (id);
-- (void);
+- (void);
 - (id);
 - (id);
-- (id);
+- (id)WhenTransferredOutOfInbox;
 - (id);
 - (void);
 

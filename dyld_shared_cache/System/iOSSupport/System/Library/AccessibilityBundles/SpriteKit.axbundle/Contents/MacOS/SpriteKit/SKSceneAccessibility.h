@@ -11,13 +11,13 @@
 }
 
 + (Class);
-+ (id);
++ (id)mirroredBlendShapeMapping;
 + (void);
 - (void);
 - (id);
-- (void);
-- (struct CGRect);
-- (void);
+- (void)awOnaD0V17AssignmentOptionsO10CodingKeys33_BD561F9A27AB4160087055D0635B6D02LLO;
+- (struct CGRect)nged:%u /* Error: Ran out of types for this method. */;
+- (void)9(;
 
 @end
 

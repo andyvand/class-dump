@@ -6,48 +6,38 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSMutableArray, NSString, TIKeyboardCandidate;
-@protocol UITextCompletionAcceptanceDelegate;
+@class TIKeyboardCandidate;
 
 __attribute__((visibility("hidden")))
 @interface UIInlineTextCompletionPrompt : UIView
 {
     UIView *_textCompletionView;
-    NSMutableArray *_typedTextViews;
-    _Bool _touchDown;
-    id <UITextCompletionAcceptanceDelegate> _delegate;
-    TIKeyboardCandidate *_textCompletionCandidate;
-    NSString *_textCompletion;
-    NSString *_typedText;
 }
 
 - (int);
+- (id);
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)@ (%@);
+- (void)ete -- periodic block called with info:%@ and urgency:%d isMainThread:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)ȓ;
 - (id)¡°!Aù\°1Â0@ù
 × ;
 - (void)<const long, UICollectionViewLayoutAttributes *>, std:(id)arg1:hash<long>, std::equal_to<long>>, std::__unordered_map_equal<long, std::pair<const long, UICollectionViewLayoutAttributes *>, std::equal_to<long>, std::hash<long>>, std::allocator<std::pair<const long, UICollectionViewLayoutAttributes *>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
-- (void)teInDirection:(id)arg1 inResponseToTapGestureRecognizer:(id)arg2;
-- (void)idgedPresentationIfNeeded;
-- (int)nimationCoordination;
-- (id)_currentOffset;
+- (void)_shouldNavigateInDirection:(id)arg1 inResponseToTapGestureRecognizer:(id)arg2;
+- (void)_beginBridgedPresentationIfNeeded;
+- (int)_allowClientAnimationCoordination;
+- (id)__currentOffset;
 - (void)tCollection",&,N,G_localOverrideTraitCollection,S_setLocalOverrideTraitCollection:(id)arg1;
 - (_Bool)etting removed from the hierarchy in response of that item becoming focused. This is a client bug that leaves the focus system in an undefined state. Focused item:(struct CGPoint)arg1 %@; environment being removed:(id)arg2 %@. This will become an assert in a future version.;
-- (_Bool)y;
+- (_Bool)PLPrivacy;
 - (void).;
 - (void)HÁg;
 
 // Remaining properties
-@property(nonatomic) __weak id <UITextCompletionAcceptanceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NSString *textCompletion; // @synthesize textCompletion=_textCompletion;
 @property(readonly, nonatomic) TIKeyboardCandidate *textCompletionCandidate; // @synthesize textCompletionCandidate=_textCompletionCandidate;
-@property(readonly, nonatomic) NSString *typedText; // @synthesize typedText=_typedText;
 
 @end
 

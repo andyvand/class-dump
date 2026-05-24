@@ -6,56 +6,11 @@
 
 #import <ContactsAutocompleteUI/CNComposeHeaderView.h>
 
-@class CNAutocompleteSearchControllerOptions, CNComposeDragSource, CNComposeDropTarget, NSArray, NSMutableArray, NSMutableDictionary, NSString, NSTimer, NSUndoManager, UIButton, UIColor, UIFont, UITextView, UIView, _CNAtomTextAttachment, _CNAtomTextView;
-@protocol CNComposeRecipientTextViewDelegate, NSObject;
+@class _CNAtomTextAttachment, _CNAtomTextView;
 
 @interface CNComposeRecipientTextView : CNComposeHeaderView
 {
     _CNAtomTextView *_textView;
-    UITextView *_inactiveTextView;
-    UIColor *_inactiveTextColor;
-    CNAutocompleteSearchControllerOptions *_options;
-    NSMutableArray *_atomViews;
-    NSMutableDictionary *_atomPresentationOptionsByRecipient;
-    NSMutableDictionary *_atomLayoutOptionsByRecipient;
-    CNComposeDragSource *_dragSource;
-    CNComposeDropTarget *_dropTarget;
-    struct CGRect _currentTextRect;
-    long long _atomViewAnimationDepth;
-    _Bool _parentIsClosing;
-    _Bool _textViewExclusionPathsAreValid;
-    _Bool _isTextFieldCollapsed;
-    _Bool _collapsedStateInitialized;
-    _Bool _indicatesUnsafeRecipientsWhenCollapsed;
-    _Bool _notifyDelegateOfSizeChange;
-    _Bool _addButtonWasTapped;
-    NSTimer *_collapsableUpdateTimer;
-    NSArray *_properties;
-    NSMutableArray *_recipientsBeingRemoved;
-    NSUndoManager *_undoManager;
-    struct CGRect _addButtonFrame;
-    UIView *_glassBackgroundView;
-    _Bool _usingActiveAppearance;
-    _Bool _separatorHidden;
-    _Bool _expanded;
-    _Bool _didIgnoreFirstResponderResign;
-    _Bool _showsAddButtonWhenExpanded;
-    _Bool _expandRecipientsInNamedGroups;
-    _Bool _shouldAlwaysShowAddContactsButton;
-    _Bool _showGlassBackground;
-    _Bool _editable;
-    _Bool _enabled;
-    _Bool _keyboardIsHiding;
-    int _hideLastAtomComma;
-    UIFont *_baseFont;
-    long long _maxRecipients;
-    UIButton *_addButton;
-    UIColor *_typingTextColor;
-    double _trailingButtonMidlineInsetFromLayoutMargin;
-    _CNAtomTextAttachment *_placeholderAttachment;
-    UIView *_atomContainerView;
-    id <NSObject> _keyboardWillHideNotificationObserver;
-    id <NSObject> _keyboardDidHideNotificationObserver;
 }
 
 - (_Bool);
@@ -74,7 +29,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)�;
 - (void);
 - (void);
 - (void);
@@ -98,21 +53,21 @@
 - (void);
 - (_Bool);
 - (id);
-- (double);
+- (double)1;
 - (_Bool);
+- (void)Ѩ#;
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)�;
 - (id);
 - (void);
 - (double);
@@ -120,7 +75,7 @@
 - (long long);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (id);
 - (int);
@@ -153,14 +108,14 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (struct _NSRange);
 - (id);
-- (struct _NSRange);
+- (struct _NSRange);
 - (void);
 - (void);
 - (_Bool);
@@ -190,7 +145,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
@@ -205,25 +160,25 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (struct CGSize);
 - (_Bool);
+- (void)w ;
+- (void);
+- (id);
+- (void)@;
+- (id);
+- (_Bool);
+- (void);
 - (void);
 - (void);
 - (id);
+- (void);
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool)rk activity with success=YES (label=%d);
 - (_Bool);
 - (id);
 - (void);
@@ -234,44 +189,7 @@
 - (_Bool)ÌPÿÿu·,è;
 
 // Remaining properties
-@property(readonly, nonatomic) UIButton *addButton; // @synthesize addButton=_addButton;
-@property(copy, nonatomic) NSArray *addresses;
-@property(readonly, nonatomic) UIView *atomContainerView; // @synthesize atomContainerView=_atomContainerView;
-@property(retain, nonatomic) UIFont *baseFont; // @synthesize baseFont=_baseFont;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNComposeRecipientTextViewDelegate> delegate; // @dynamic delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool didIgnoreFirstResponderResign; // @synthesize didIgnoreFirstResponderResign=_didIgnoreFirstResponderResign;
-@property(nonatomic) _Bool editable; // @synthesize editable=_editable;
-@property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(nonatomic) _Bool expandRecipientsInNamedGroups; // @synthesize expandRecipientsInNamedGroups=_expandRecipientsInNamedGroups;
-@property(nonatomic) _Bool expanded; // @synthesize expanded=_expanded;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int hideLastAtomComma; // @synthesize hideLastAtomComma=_hideLastAtomComma;
-@property(retain, nonatomic) UIColor *inactiveTextColor;
-@property(nonatomic) _Bool indicatesUnsafeRecipientsWhenCollapsed; // @synthesize indicatesUnsafeRecipientsWhenCollapsed=_indicatesUnsafeRecipientsWhenCollapsed;
-@property(retain, nonatomic) id <NSObject> keyboardDidHideNotificationObserver; // @synthesize keyboardDidHideNotificationObserver=_keyboardDidHideNotificationObserver;
-@property(nonatomic) _Bool keyboardIsHiding; // @synthesize keyboardIsHiding=_keyboardIsHiding;
-@property(retain, nonatomic) id <NSObject> keyboardWillHideNotificationObserver; // @synthesize keyboardWillHideNotificationObserver=_keyboardWillHideNotificationObserver;
-@property(nonatomic) long long maxRecipients; // @synthesize maxRecipients=_maxRecipients;
-@property(readonly, nonatomic) unsigned long long numberOfRowsOfTextInField;
-@property(readonly, nonatomic) double offsetForRowWithTextField;
 @property(retain, nonatomic) _CNAtomTextAttachment *placeholderAttachment; // @synthesize placeholderAttachment=_placeholderAttachment;
-@property(copy, nonatomic) NSArray *recipients;
-@property(nonatomic, getter=isSeparatorHidden) _Bool separatorHidden; // @synthesize separatorHidden=_separatorHidden;
-@property(nonatomic) _Bool shouldAlwaysShowAddContactsButton; // @synthesize shouldAlwaysShowAddContactsButton=_shouldAlwaysShowAddContactsButton;
-@property(nonatomic) _Bool showGlassBackground; // @synthesize showGlassBackground=_showGlassBackground;
-@property(nonatomic) _Bool showsAddButtonWhenExpanded; // @synthesize showsAddButtonWhenExpanded=_showsAddButtonWhenExpanded;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *text;
-@property(readonly, nonatomic) UITextView *textView;
-@property(nonatomic) double trailingButtonMidlineInsetFromLayoutMargin; // @synthesize trailingButtonMidlineInsetFromLayoutMargin=_trailingButtonMidlineInsetFromLayoutMargin;
-@property(retain, nonatomic) UIColor *typingTextColor; // @synthesize typingTextColor=_typingTextColor;
-@property(readonly, copy, nonatomic) NSArray *uncommentedAddresses;
-@property(nonatomic) _Bool usingActiveAppearance; // @synthesize usingActiveAppearance=_usingActiveAppearance;
 
 @end
 

@@ -4,49 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDWalletKeyAliroHealingEvent
 {
     long long _controllerType;
-    unsigned long long _userPrivilege;
 }
 
 - (unsigned long long);
 - (void);
-- (void);
-- (id);
+- (void)x;
+- (id)isAppleCard;
 - (long long);
 - (unsigned long long);
-- (id);
+- (id)m answer message;
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
 @property long long controllerType; // @synthesize controllerType=_controllerType;
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly) Class superclass;
-@property unsigned long long userPrivilege; // @synthesize userPrivilege=_userPrivilege;
 
 @end
 

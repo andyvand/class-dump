@@ -7,7 +7,6 @@
 @interface PhotosUICore.LemonadeMemoriesShelfProvider
 {
     id shelfProvider;
-    id wrappedProvider;
 }
 
 @end

@@ -4,51 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccountRegistry, HMDDevice, NSArray, NSMutableArray, NSObject, NSString;
-@protocol HMDSecureRemoteSessionDataSource, HMFMessageTransportDelegate, OS_dispatch_queue;
+@protocol HMDSecureRemoteSessionDataSource;
 
 __attribute__((visibility("hidden")))
 @interface HMDSecureRemoteSession
 {
     struct os_unfair_lock_s _lock;
-    NSMutableArray *_pendingMessages;
-    NSMutableArray *_clientStreams;
-    NSMutableArray *_serverStreams;
-    HMDDevice *_device;
-    id <HMDSecureRemoteSessionDataSource> _dataSource;
-    NSObject<OS_dispatch_queue> *_clientQueue;
-    HMDAccountRegistry *_accountRegistry;
-    unsigned long long _maximumRemoteStreams;
-    long long _state;
 }
 
 + (_Bool);
 + (id)yB;
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
+- (id)Pe;
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -62,28 +52,12 @@ __attribute__((visibility("hidden")))
 - (id){public}@Removing constraints:%@ /* Error: Ran out of types for this method. */;
 - (id)ry;
 - (void)resident, currentHomePresence is nil) -> NO;
-- (void)esponseHasSameSSIDAsController;
+- (void)fetchedResponseHasSameSSIDAsController;
 - (void)6B758FA;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) HMDAccountRegistry *accountRegistry; // @synthesize accountRegistry=_accountRegistry;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *clientQueue; // @synthesize clientQueue=_clientQueue;
-@property(readonly, copy, nonatomic) NSArray *clientStreams;
 @property(readonly, nonatomic) id <HMDSecureRemoteSessionDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMFMessageTransportDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) HMDDevice *device; // @synthesize device=_device;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long maximumRemoteStreams; // @synthesize maximumRemoteStreams=_maximumRemoteStreams;
-@property(readonly, copy, nonatomic) NSArray *pendingMessages;
-@property(readonly, copy, nonatomic) NSArray *serverStreams;
-@property(nonatomic) long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

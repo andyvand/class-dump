@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBarLayout, NSString;
+@class NSBarLayout;
 
 @interface NSTouchBarLayout
 {
     NSBarLayout *_barLayout;
-    double _centerX;
 }
 
 + (id);
 + (id);
-- (double);
-- (double);
-- (void);
+- (double)%016llX;
+- (double)9Bp5z20HsA1f7dqvelXKXA;
+- (void)ileGestalt/device_map.c;
 - (void);
 - (void);
 - (void);
@@ -42,33 +41,14 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (long long);
+- (long long)main - label contains non-printable ASCII character(s);
 - (id);
+- (id)cookie since policy is NSHTTPCookieAcceptPolicyExclusivelyFromMainDocumentDomain and the inURL and mainDocumentURL are in different domains;
+- (_Bool)@, password = %@ realm = %@, persistence = %d};
 - (id);
-- (_Bool);
-- (id);
-- (void)tResponder;
+- (void)NSControlRefusesFirstResponder;
 
 // Remaining properties
-@property long long accessoryUserInterfaceLayoutDirection;
-@property _Bool allowsSingleItemClipping;
-@property(getter=isCenterPrincipal) _Bool centerIsPrincipal;
-@property _Bool centerRequiresTrueCenterLayout;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property double defaultItemPadding;
-@property(readonly, copy) NSString *description;
-@property _Bool enforcesUniformHeight;
-@property(readonly) unsigned long long hash;
-@property long long itemUserInterfaceLayoutDirection;
-@property double leadingWidgetWidth;
-@property _Bool overflowPreventsReflow;
-@property _Bool overflowRequired;
-@property _Bool overlayRequiresTrueCenterLayout;
-@property double standardCenterWidth;
-@property(readonly) Class superclass;
 @property double visualCenterX;
 
 @end

@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABPersonEntriesList, NSDictionary, NSMutableArray;
-@protocol ABPersonListControllerProtocol;
+@class NSDictionary;
 
 @interface ABPersonListUIReflector
 {
     NSDictionary *_notificationUserInfo;
-    id <ABPersonListControllerProtocol> _personListController;
-    ABPersonEntriesList *_personEntriesList;
-    NSMutableArray *_touchedEntries;
-    NSMutableArray *_newEntries;
-    NSMutableArray *_emptyEntries;
-    _Bool _needsRearranged;
-    _Bool _touchedEntryNeedsRearranged;
 }
 
 - (id);
@@ -25,26 +17,26 @@
 - (void);
 - (void);
 - (void);
+- (void)";
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id)@;
 - (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (void)1Â0@ù
 × ;
 - (id)A°! CùQªÐ1Â0@ù
@@ -52,8 +44,6 @@
 
 // Remaining properties
 @property(retain) NSDictionary *notificationUserInfo; // @synthesize notificationUserInfo=_notificationUserInfo;
-@property(retain) ABPersonEntriesList *personEntriesList; // @synthesize personEntriesList=_personEntriesList;
-@property(retain) id <ABPersonListControllerProtocol> personListController; // @synthesize personListController=_personListController;
 
 @end
 

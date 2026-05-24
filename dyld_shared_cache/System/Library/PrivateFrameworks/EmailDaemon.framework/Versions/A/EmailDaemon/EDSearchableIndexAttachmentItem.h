@@ -4,85 +4,52 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSSearchableItem, EDEnqueuedDonation, EDPersistedAttachmentID, EDPersistedMessageID, EDSearchableIndexAttachmentItemMetadatum, EFPromise, NSDate, NSString;
+@class CSSearchableItem, EFPromise;
 
 @interface EDSearchableIndexAttachmentItem
 {
     CSSearchableItem *_searchableItem;
-    _Bool _requiresPreprocessing;
-    NSString *_identifier;
-    long long _indexingType;
-    unsigned long long _itemInstantiationTime;
-    EDEnqueuedDonation *_enqueuedDonation;
-    EDPersistedAttachmentID *_attachmentPersistentID;
-    EDPersistedMessageID *_messagePersistentID;
-    EDSearchableIndexAttachmentItemMetadatum *_metadatum;
-    EFPromise *_attributeSetForFilePromise;
-    double _searchableItemProcessingDelay;
 }
 
 + (id);
-+ (id);
++ (id);
 + (id)tÐ!@Bù³Ð1Â0@ù
 × ;
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)};
 - (double);
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)=;
 - (long long);
+- (id)@;
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
-- (void)has_unflagged;
+- (id)lfCoreID%d;
+- (void):has_unflagged /* Error: Ran out of types for this method. */;
 - (id)ä!ðÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool alwaysMarkAsIndexed;
-@property(copy, nonatomic) EDPersistedAttachmentID *attachmentPersistentID; // @synthesize attachmentPersistentID=_attachmentPersistentID;
 @property(retain, nonatomic) EFPromise *attributeSetForFilePromise; // @synthesize attributeSetForFilePromise=_attributeSetForFilePromise;
-@property(readonly, nonatomic) NSDate *dateReceived;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *domainIdentifier;
-@property(retain) EDEnqueuedDonation *enqueuedDonation; // @synthesize enqueuedDonation=_enqueuedDonation;
-@property(readonly, nonatomic) unsigned long long estimatedSizeInBytes;
-@property(readonly, nonatomic) _Bool hasCompleteData;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) long long indexingType; // @synthesize indexingType=_indexingType;
-@property(readonly, nonatomic) unsigned long long itemInstantiationTime; // @synthesize itemInstantiationTime=_itemInstantiationTime;
-@property(copy, nonatomic) EDPersistedMessageID *messagePersistentID; // @synthesize messagePersistentID=_messagePersistentID;
-@property(retain, nonatomic) EDSearchableIndexAttachmentItemMetadatum *metadatum; // @synthesize metadatum=_metadatum;
-@property(nonatomic) _Bool requiresPreprocessing; // @synthesize requiresPreprocessing=_requiresPreprocessing;
-@property(nonatomic) double searchableItemProcessingDelay; // @synthesize searchableItemProcessingDelay=_searchableItemProcessingDelay;
-@property(readonly, nonatomic) _Bool shouldExcludeFromIndex;
-@property(readonly, nonatomic) _Bool shouldIndexImmediatelyPostPreprocessing;
-@property(readonly) Class superclass;
 
 @end
 

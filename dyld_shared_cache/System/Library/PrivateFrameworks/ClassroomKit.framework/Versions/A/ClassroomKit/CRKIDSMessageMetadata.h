@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSUUID;
+@class NSUUID;
 
 @interface CRKIDSMessageMetadata
 {
     NSUUID *_messageIdentifier;
-    long long _messageType;
-    long long _messagingVersion;
 }
 
 + (id);
 + (id);
 - (long long);
-- (id);
-- (id);
-- (long long);
+- (id);
+- (id)ABCUI;
+- (long long)ublic, signpost.telemetry:number1}lu DeleteLength=%{public, signpost.telemetry:number2}lu  enableTelemetry=YES  /* Error: Ran out of types for this method. */;
 - (void);
 - (id)rvice %{public}@;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryValue;
 @property(readonly, nonatomic) NSUUID *messageIdentifier; // @synthesize messageIdentifier=_messageIdentifier;
-@property(readonly, nonatomic) long long messageType; // @synthesize messageType=_messageType;
-@property(readonly, nonatomic) long long messagingVersion; // @synthesize messagingVersion=_messagingVersion;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol PLSyncableMaster
+- (id);
 @end
 

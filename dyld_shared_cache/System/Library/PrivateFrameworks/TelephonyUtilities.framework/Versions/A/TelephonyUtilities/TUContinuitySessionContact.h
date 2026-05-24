@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSSet, NSString;
+@class CNContact;
 
 @interface TUContinuitySessionContact
 {
     CNContact *_contact;
-    NSString *_contactIdentifier;
-    NSSet *_anonyms;
 }
 
 + (_Bool);
@@ -22,13 +20,10 @@
 - (id);
 - (void);
 - (id);
-- (void)hShareNameAndPhotoController: /* Error: Ran out of types for this method. */;
+- (void)setBatchQuerySearchShareNameAndPhotoController: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *anonyms; // @synthesize anonyms=_anonyms;
 @property(readonly, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(readonly, nonatomic) NSString *displayName;
 
 @end
 

@@ -7,20 +7,16 @@
 @interface _MTLIndirectViewports
 {
     CDStruct_8727d297 *viewports;
-    unsigned long long count;
-    CDStruct_8727d297 *_viewports;
-    unsigned long long _count;
 }
 
 - (void);
 - (CDStruct_8727d297 *);
-- (void);
-- (id);
+- (void)#;
+- (id))A;
 - (void);
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) unsigned long long count; // @synthesize count=_count;
 @property(nonatomic) CDStruct_8727d297 *viewports; // @synthesize viewports=_viewports;
 
 @end

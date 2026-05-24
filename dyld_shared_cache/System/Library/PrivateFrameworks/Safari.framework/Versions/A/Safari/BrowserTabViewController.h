@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrowserTabViewItem, NSViewController;
+@class BrowserTabViewItem;
 
 __attribute__((visibility("hidden")))
 @interface BrowserTabViewController
 {
     BrowserTabViewItem *_tabViewItem;
-    NSViewController *_contentViewController;
 }
 
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSViewController *contentViewController; // @synthesize contentViewController=_contentViewController;
 @property(readonly, nonatomic) __weak BrowserTabViewItem *tabViewItem; // @synthesize tabViewItem=_tabViewItem;
 
 @end

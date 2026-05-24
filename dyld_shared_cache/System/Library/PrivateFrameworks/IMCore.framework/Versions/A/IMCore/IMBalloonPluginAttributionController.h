@@ -9,32 +9,28 @@
 @interface IMBalloonPluginAttributionController
 {
     _Bool _hasPerformedFirstAppExtensionLoad;
-    NSMutableDictionary *_expiredBundleIDToTimestampMap;
-    NSMutableDictionary *_bundleIDsDisplayingAttribution;
 }
 
 + (id)È6ütúÿÌXëÿØb;
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (double);
-- (void);
+- (void)CAudioPlayer [%s] %s:%d Player:Failed initializing Timescaler /* Error: Ran out of types for this method. */;
+- (_Bool)or=%@;
+- (void)xAudioPacketSize=%u for default mode, useWiFiTiers=%{BOOL}d;
+- (void)age=%d;
+- (void)iled to allocate redundancy delay value;
+- (_Bool)s:%d forcedCapBitrate=%d /* Error: Ran out of types for this method. */;
+- (id)enerating key frame;
+- (id):%d Failed to setup XPC /* Error: Ran out of types for this method. */;
+- (void)ate oneToOne data with participant=%p;
+- (void)yV2 tuples must not be nil;
+- (void)or creating VCMediaStreamRateControlConfig object;
+- (double)p) P3D65-sRGB color settings used to configure capture and encoder;
+- (void)vice pair:(id)arg1 inputDevice=%u outputDevice=%u  configured err=%u;
 - (id);
 - (id);
 - (void)©ÄÿÿWÿÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *bundleIDsDisplayingAttribution; // @synthesize bundleIDsDisplayingAttribution=_bundleIDsDisplayingAttribution;
 @property(retain, nonatomic) NSMutableDictionary *expiredBundleIDToTimestampMap; // @synthesize expiredBundleIDToTimestampMap=_expiredBundleIDToTimestampMap;
-@property(nonatomic) _Bool hasPerformedFirstAppExtensionLoad; // @synthesize hasPerformedFirstAppExtensionLoad=_hasPerformedFirstAppExtensionLoad;
 
 @end
 

@@ -15,7 +15,7 @@
 - (unsigned long long);
 - (id)1Â0@ù
 × ;
-- (unsigned long long)hConfigurableValues:publisherID: /* Error: Ran out of types for this method. */;
+- (unsigned long long)featureWeightWithConfigurableValues:publisherID: /* Error: Ran out of types for this method. */;
 - (id)",&,N,V_issueRecordSource;
 - (unsigned long long)d;
 - (id);

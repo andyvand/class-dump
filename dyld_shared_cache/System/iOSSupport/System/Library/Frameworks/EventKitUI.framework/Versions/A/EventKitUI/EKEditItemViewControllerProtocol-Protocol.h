@@ -8,22 +8,16 @@
 
 @protocol EKEditItemViewControllerProtocol
 
+@optional
+- (void)Y%s;
+- (void);
+- (void);
+- (void);
+
 // Remaining properties
 @property(nonatomic) __weak id <EKEditItemViewControllerDelegate> editDelegate;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"<EKEditItemViewControllerDelegate>",?,W,N
-
-@property(nonatomic) _Bool editItemShouldBeAskedForInjectableViewController;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool presentModally;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool useCustomBackButton;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
 
 @end
 

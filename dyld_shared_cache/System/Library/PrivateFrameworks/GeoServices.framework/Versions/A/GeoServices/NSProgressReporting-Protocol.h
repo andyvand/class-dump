@@ -7,7 +7,7 @@
 @class NSProgress;
 
 @protocol NSProgressReporting
-- (NSProgress *)l;
+- (NSProgress *)isCardinal;
 
 // Remaining properties
 @property(readonly) NSProgress *progress;

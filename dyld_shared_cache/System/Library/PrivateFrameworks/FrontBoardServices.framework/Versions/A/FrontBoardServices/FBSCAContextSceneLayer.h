@@ -19,8 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CAContext *CAContext; // @dynamic CAContext;
-@property(readonly, nonatomic) unsigned int contextID; // @dynamic contextID;
-@property(readonly, nonatomic) unsigned long long renderID; // @dynamic renderID;
 
 @end
 

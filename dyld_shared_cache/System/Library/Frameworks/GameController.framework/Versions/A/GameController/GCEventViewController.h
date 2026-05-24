@@ -7,12 +7,9 @@
 @interface GCEventViewController
 {
     unsigned char padding[240];
-    _Bool _controllerUserInteractionEnabled;
-    _Bool _controllerUserInteractionEnabledSetExternally;
-    _Bool _internalControllerUserInteractionEnabled;
 }
 
-+ (void)TimestampSlot;
++ (void)_valueTimestampSlot;
 - (void);
 - (void);
 - (_Bool);

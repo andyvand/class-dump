@@ -16,7 +16,7 @@
 + (id);
 + (unsigned long long)omAnalytics.framework/Versions/A/SymptomAnalytics;
 - (void);
-- (void)ensionsOnboardingIconProvider;
+- (void)_TtC14SafariSharedUI35WBSExtensionsOnboardingIconProvider;
 - (id).plist;
 
 @end

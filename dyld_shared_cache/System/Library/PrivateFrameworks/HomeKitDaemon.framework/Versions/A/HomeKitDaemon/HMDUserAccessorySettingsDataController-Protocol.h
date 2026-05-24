@@ -7,11 +7,15 @@
 @class NSArray;
 
 @protocol HMDUserAccessorySettingsDataController
+- (void);
+- (void)MSPRouteInformationSource>";
+- (void)4;
+- (void)setMerchantAdamId:(NSArray *)arg1;
+- (void)_usageDate;
+- (_Bool)@, %{private}@%s, %lu%s trips;
+- (NSArray *)l not %s, connection lacks entitlement:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSArray *assistantAccessControlAccessoriesToEncode;
 @property(readonly) _Bool assistantAccessControlActivityNotificationsEnabledForPersonalRequests;
-@property(readonly, copy) NSArray *mediaContentProfileAccessControlAccessoriesToEncode;
-@property(readonly, copy) NSArray *userListeningHistoryUpdateControlModelAccessoriesToEncode;
 @end
 

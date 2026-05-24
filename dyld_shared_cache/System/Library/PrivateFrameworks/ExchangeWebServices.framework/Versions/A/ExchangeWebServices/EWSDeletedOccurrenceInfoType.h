@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateComponents, NSString;
+@class NSDateComponents;
 
 @interface EWSDeletedOccurrenceInfoType
 {
     NSDateComponents *_Start;
 }
 
-+ (id);
++ (id)yytACyADyι:HyAKyA2EGAEGGAHGGtG /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -19,13 +19,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSDateComponents *Start; // @synthesize Start=_Start;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

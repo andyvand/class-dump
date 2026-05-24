@@ -6,20 +6,18 @@
 
 #import <AppleAccount/AARequest.h>
 
-@class AASigningSession, ACAccount, NSDictionary;
+@class NSDictionary;
 
 @interface AASetupAssistantSetupDelegatesRequest : AARequest
 {
     NSDictionary *setupParameters;
-    AASigningSession *signingSession;
-    ACAccount *_account;
 }
 
 + (Class);
+- (id)] CPHasActivationRecord returned inProgress:(id)arg1 %d  registered:(id)arg2 %d;
 - (id);
-- (id);
-- (void)or:context: /* Error: Ran out of types for this method. */;
-- (id)tonTitle;
+- (void)service:account:identifier:didSendWithSuccess:error:context: /* Error: Ran out of types for this method. */;
+- (id)AAErrorDetailsDismissButtonTitle;
 
 @end
 

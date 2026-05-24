@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface RelayTranslationMessage
 {
     void guid;
-    void parts;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)ransaction.cancel;
 - (void);
 - (id)´íÿÿÿÿÿ¬;
 - (void)LyAÛ;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *guid;
-@property(nonatomic, readonly) NSArray *parts;
 
 @end
 

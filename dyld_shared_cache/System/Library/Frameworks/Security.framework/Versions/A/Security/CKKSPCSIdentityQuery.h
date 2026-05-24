@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface CKKSPCSIdentityQuery
 {
     NSNumber *_serviceNumber;
-    NSString *_accessGroup;
-    NSString *_publicKey;
-    NSString *_zoneID;
 }
 
 + (_Bool);
@@ -20,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -30,10 +27,7 @@
 - (id)SHA224:24 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSString *accessGroup; // @synthesize accessGroup=_accessGroup;
-@property(retain) NSString *publicKey; // @synthesize publicKey=_publicKey;
 @property(retain) NSNumber *serviceNumber; // @synthesize serviceNumber=_serviceNumber;
-@property(retain) NSString *zoneID; // @synthesize zoneID=_zoneID;
 
 @end
 

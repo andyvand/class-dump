@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (void);
-- (_Bool);
+- (_Bool)OptionSetP;
 - (id);
 
 // Remaining properties

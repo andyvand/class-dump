@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SCNNode, SCNOffscreenRenderer, SCNScene, SKTransition;
+@class SCNScene;
 
 __attribute__((visibility("hidden")))
 @interface SCNRendererTransitionContext
 {
     double _transitionStartTime;
-    SKTransition *_transition;
-    SCNScene *_outgoingScene;
-    SCNNode *_outgoingPointOfView;
-    CDUnknownBlockType completionHandler;
-    struct __C3DFXPass *_transitionPass;
-    SCNOffscreenRenderer *_renderers[2];
 }
 
 - (double);
@@ -25,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id)__CFString}^{__CFString}^{__CFDictionary}^{__C3DScene}q}^{CGContext}^{__C3DTextureRawData}b1b1(?=^{__CFString}^{__CFURL}^{__CFData}^{CGImage}^v)iSCCb1b1b1b1b1b1i}8@?0;
@@ -33,10 +27,7 @@ __attribute__((visibility("hidden")))
 .Z?3O.½Éék=C?ùØY?ª¼wç<·Ò?;
 
 // Remaining properties
-@property(retain, nonatomic) SCNNode *outgoingPointOfView; // @synthesize outgoingPointOfView=_outgoingPointOfView;
 @property(retain, nonatomic) SCNScene *outgoingScene; // @synthesize outgoingScene=_outgoingScene;
-@property(retain, nonatomic) SKTransition *transition; // @synthesize transition=_transition;
-@property(nonatomic) double transitionStartTime; // @synthesize transitionStartTime=_transitionStartTime;
 
 @end
 

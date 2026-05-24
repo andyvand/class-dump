@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAutocompleteFetchRequest, NSMutableDictionary;
+@class CNAutocompleteFetchRequest;
 
 @interface _CNAutocompleteUserSessionDisplayedResults
 {
     _Bool _ignored;
-    _Bool _containsDuetResults;
-    CNAutocompleteFetchRequest *_request;
-    NSMutableDictionary *_datesByBatchIndexes;
 }
 
 - (void);
@@ -22,14 +19,11 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)N5boost6detail17sp_counted_impl_pINS_8signals26detail12grouped_listIiNSt3__14lessIiEENS_10shared_ptrINS3_15connection_bodyINS5_4pairINS3_15slot_meta_groupENS_8optionalIiEEEENS2_4slotIFvRK13PersonalityIDNS5_12basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEENS_8functionISP_EEEENS2_5mutexEEEEEEEEE;
+- (id);
+- (void)__eh_frame;
 
 // Remaining properties
-@property(nonatomic) _Bool containsDuetResults; // @synthesize containsDuetResults=_containsDuetResults;
-@property(retain, nonatomic) NSMutableDictionary *datesByBatchIndexes; // @synthesize datesByBatchIndexes=_datesByBatchIndexes;
-@property(nonatomic) _Bool ignored; // @synthesize ignored=_ignored;
 @property(readonly, nonatomic) CNAutocompleteFetchRequest *request; // @synthesize request=_request;
 
 @end

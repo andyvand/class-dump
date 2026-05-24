@@ -6,8 +6,6 @@
 
 #import <SecurityFoundation/_SFKey.h>
 
-@class NSString, _SFPublicKey;
-
 @interface _SFKeyPair : _SFKey
 {
     id _keyPairInternal;
@@ -15,12 +13,12 @@
 
 + (Class);
 + (id);
-- (id);
-- (id);
+- (id) ;
+- (id)rh ;
 - (id);
 - (id);
 - (struct __SecKey *);
-- (id);
+- (id)__const;
 - (void);
 - (id);
 - (void);
@@ -28,8 +26,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *privateKeyDomain;
-@property(readonly, nonatomic) _SFPublicKey *publicKey;
 @property(readonly, nonatomic, getter=_secKey) struct __SecKey *secKey;
 
 @end

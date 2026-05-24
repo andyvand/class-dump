@@ -6,12 +6,11 @@
 
 #import <HomeKit/HMEvent.h>
 
-@class HMCharacteristic, HMNumberRange, NSString;
+@class HMCharacteristic, HMNumberRange;
 
 @interface HMCharacteristicThresholdRangeEvent : HMEvent
 {
     HMNumberRange *_thresholdRange;
-    HMCharacteristic *_characteristic;
 }
 
 + (_Bool);
@@ -28,21 +27,13 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) HMCharacteristic *characteristic; // @synthesize characteristic=_characteristic;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) HMNumberRange *thresholdRange; // @synthesize thresholdRange=_thresholdRange;
 
 @end
 

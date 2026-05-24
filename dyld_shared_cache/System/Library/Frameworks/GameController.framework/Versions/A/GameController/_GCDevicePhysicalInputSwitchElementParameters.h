@@ -6,21 +6,15 @@
 
 #import <GameController/_GCDevicePhysicalInputElementParameters.h>
 
-@class NSSet;
-
 __attribute__((visibility("hidden")))
 @interface _GCDevicePhysicalInputSwitchElementParameters : _GCDevicePhysicalInputElementParameters
 {
     _Bool _sequential;
-    _Bool _canWrap;
-    NSSet *_sources;
-    unsigned long long _eventPositionField;
-    struct _NSRange _positionRange;
 }
 
-- (id);
+- (id)@  d;
 - (_Bool);
-- (id);
+- (id)setService:(struct _NSZone *)arg1;
 - (void);
 
 @end

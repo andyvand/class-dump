@@ -7,19 +7,16 @@
 @interface IMSyncedSettingsManager_Impl
 {
     id daemonController;
-    id connection;
-    id notificationCenter;
-    id valueCache;
 }
 
 - (void);
 - (_Bool);
 - (void);
 - (id);
+- (void)(=;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void));
 - (id);
 - (void);
 

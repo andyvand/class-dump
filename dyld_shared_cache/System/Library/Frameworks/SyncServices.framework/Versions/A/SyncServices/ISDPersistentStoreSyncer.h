@@ -4,27 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISyncClient, ISyncSession, NSArray, NSDictionary, NSError, NSManagedObjectContext, NSMutableDictionary, NSMutableSet, NSPersistentStoreCoordinator, NSSet;
-
 @interface ISDPersistentStoreSyncer
 {
     id _syncHandler;
-    NSPersistentStoreCoordinator *_persistentStoreCoordinator;
-    NSManagedObjectContext *_syncContext;
-    NSDictionary *_fastSyncHelpers;
-    NSArray *_contextsToMonitor;
-    NSArray *_contextsToReload;
-    NSSet *_synchronizedEntities;
-    NSMutableDictionary *_qualifiedEntityNames;
-    _Bool _isSyncing;
-    ISyncClient *_syncClient;
-    ISyncSession *_session;
-    NSError *_error;
-    NSMutableSet *_objectsToFormat;
-    NSMutableDictionary *_updatedObjects;
-    NSMutableDictionary *_deletedObjects;
-    NSMutableDictionary *_relations;
-    NSArray *_syncEntityNames;
 }
 
 - (void);
@@ -50,7 +32,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -65,7 +47,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
@@ -79,9 +61,9 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (_Bool);
+- (_Bool)?;
 - (id);
 
 @end

@@ -9,7 +9,6 @@
 @interface NSSNewsAnalyticsSubmitEnvelopesOperation
 {
     NSArray *_envelopes;
-    CDUnknownBlockType _submissionCompletion;
 }
 
 - (CDUnknownBlockType);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *envelopes; // @synthesize envelopes=_envelopes;
-@property(copy, nonatomic) CDUnknownBlockType submissionCompletion; // @synthesize submissionCompletion=_submissionCompletion;
 
 @end
 

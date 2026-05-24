@@ -7,9 +7,6 @@
 @interface NewsFeed.FormatSpaceNode
 {
     id _identifier;
-    id size;
-    id _adjustments;
-    id flex;
 }
 
 @end

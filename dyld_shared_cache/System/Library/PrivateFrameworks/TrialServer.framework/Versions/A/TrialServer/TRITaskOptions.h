@@ -8,10 +8,9 @@
 {
 }
 
-+ (id);
++ (id)s;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsManuallyTargeted; // @dynamic hasIsManuallyTargeted;
 @property(nonatomic) _Bool isManuallyTargeted; // @dynamic isManuallyTargeted;
 
 @end

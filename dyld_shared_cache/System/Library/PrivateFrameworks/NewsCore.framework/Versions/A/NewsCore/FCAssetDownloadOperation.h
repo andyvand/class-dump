@@ -6,26 +6,11 @@
 
 #import <NewsCore/FCNetworkOperation.h>
 
-@class FCNetworkEvent, FCURLRequestScheduler, NSData, NSDictionary, NSString, NSURL;
-@protocol FCNetworkBehaviorMonitor;
+@class FCURLRequestScheduler;
 
 @interface FCAssetDownloadOperation : FCNetworkOperation
 {
     int _networkEventType;
-    NSURL *_URL;
-    NSString *_loggingKey;
-    long long _downloadDestination;
-    unsigned long long _cachePolicy;
-    NSDictionary *_additionalRequestHTTPHeaders;
-    NSString *_etag;
-    id <FCNetworkBehaviorMonitor> _networkBehaviorMonitor;
-    CDUnknownBlockType _fileDownloadCompletionHandler;
-    CDUnknownBlockType _dataDownloadCompletionHandler;
-    FCURLRequestScheduler *_scheduler;
-    NSURL *_downloadedFileURL;
-    NSData *_downloadedData;
-    NSString *_requestUUID;
-    FCNetworkEvent *_networkEvent;
 }
 
 + (id);
@@ -41,17 +26,17 @@
 - (id);
 - (void);
 - (int);
+- (id)gradientSlope;
 - (id);
-- (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)rating;
 - (void);
-- (id);
+- (id)!;
 - (id);
 - (CDUnknownBlockType);
 - (long long);
 - (void);
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (void);
@@ -60,7 +45,7 @@
 - (void)V_packageAssetID;
 - (id)d¢´£;
 - (void)sapps.apple.com/newsletter;
-- (void)Config;
+- (void)affinityGroupOntologyLevelConfig;
 - (void)nil;
 - (void)n;
 - (void)es;
@@ -73,20 +58,6 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(copy, nonatomic) NSDictionary *additionalRequestHTTPHeaders; // @synthesize additionalRequestHTTPHeaders=_additionalRequestHTTPHeaders;
-@property(nonatomic) unsigned long long cachePolicy; // @synthesize cachePolicy=_cachePolicy;
-@property(copy, nonatomic) CDUnknownBlockType dataDownloadCompletionHandler; // @synthesize dataDownloadCompletionHandler=_dataDownloadCompletionHandler;
-@property(nonatomic) long long downloadDestination; // @synthesize downloadDestination=_downloadDestination;
-@property(retain, nonatomic) NSData *downloadedData; // @synthesize downloadedData=_downloadedData;
-@property(retain, nonatomic) NSURL *downloadedFileURL; // @synthesize downloadedFileURL=_downloadedFileURL;
-@property(copy, nonatomic) NSString *etag; // @synthesize etag=_etag;
-@property(copy, nonatomic) CDUnknownBlockType fileDownloadCompletionHandler; // @synthesize fileDownloadCompletionHandler=_fileDownloadCompletionHandler;
-@property(copy, nonatomic) NSString *loggingKey; // @synthesize loggingKey=_loggingKey;
-@property(retain, nonatomic) id <FCNetworkBehaviorMonitor> networkBehaviorMonitor; // @synthesize networkBehaviorMonitor=_networkBehaviorMonitor;
-@property(retain, nonatomic) FCNetworkEvent *networkEvent; // @synthesize networkEvent=_networkEvent;
-@property(nonatomic) int networkEventType; // @synthesize networkEventType=_networkEventType;
-@property(retain, nonatomic) NSString *requestUUID; // @synthesize requestUUID=_requestUUID;
 @property(retain, nonatomic) FCURLRequestScheduler *scheduler; // @synthesize scheduler=_scheduler;
 
 @end

@@ -4,34 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SUCoreSplunkHistory
 {
     int _lockFD;
-    NSObject<OS_dispatch_queue> *_splunkHistoryQueue;
-    NSString *_lastUUID;
 }
 
-+ (id);
-+ (void);
-- (id);
-- (int);
-- (void);
-- (void);
-- (void);
-- (void);
-- (int);
-- (void);
++ (id)outlineView:sortDescriptorsDidChange: /* Error: Ran out of types for this method. */;
++ (void)outlineView:(id)arg1 namesOfPromisedFilesDroppedAtDestination:forDraggedItems: /* Error: Ran out of types for this method. */;
+- (id)selectionAffectedByAnyNavigation;
+- (int)selectedTabViewItem;
+- (void)selectable;
+- (void)selectTabViewItemAtIndex:(id)arg1;
+- (void)secondaryBehavior;
+- (void)scrollView:didChangePresentationOrigin:active: /* Error: Ran out of types for this method. */;
+- (int)scrollSeed;
+- (void)responsiveScrollingDelegate;
 - (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *lastUUID; // @synthesize lastUUID=_lastUUID;
-@property int lockFD; // @synthesize lockFD=_lockFD;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *splunkHistoryQueue; // @synthesize splunkHistoryQueue=_splunkHistoryQueue;
 
 @end

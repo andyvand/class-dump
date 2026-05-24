@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LegacySigningKeyPublic, SecKeyRSAPublic;
+@class LegacySigningKeyPublic;
 
 @interface SecMessageLegacyPublicIdentity
 {
     LegacySigningKeyPublic *_signingKey;
-    SecKeyRSAPublic *_encryptionKey;
 }
 
 + (id);
@@ -24,11 +23,10 @@
 - (struct __SecKey *);
 - (id);
 - (void);
-- (id);
+- (id)x;
 - (struct _SecMPPublicIdentity *);
 
 // Remaining properties
-@property(readonly, nonatomic) SecKeyRSAPublic *encryptionKey; // @synthesize encryptionKey=_encryptionKey;
 @property(readonly, nonatomic) LegacySigningKeyPublic *signingKey; // @synthesize signingKey=_signingKey;
 
 @end

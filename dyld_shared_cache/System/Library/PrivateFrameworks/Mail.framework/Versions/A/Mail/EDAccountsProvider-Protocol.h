@@ -7,10 +7,10 @@
 @class NSArray;
 
 @protocol EDAccountsProvider
+- (NSArray *);
+- (NSArray *)A;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasActiveAccounts;
-@property(readonly, nonatomic) unsigned long long numberOfActiveAccounts;
 @property(readonly, copy, nonatomic) NSArray *receivingAddresses;
 @end
 

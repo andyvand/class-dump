@@ -4,45 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUIBackgroundStyleEffectConfiguration, NSColor, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NSAppearanceContentStyle
 {
     NSString *_referenceWidget;
-    NSColor *_tintColor;
-    CUIBackgroundStyleEffectConfiguration *_cachedStyleEffectConfiguration;
-    long long _state;
-    long long _value;
-    long long _presentationState;
-    _Bool _emphasized;
 }
 
 + (id);
 + (id);
++ (id)}}"_connectionKeyToAllIPAddresses"{map<std:(id)arg1:(id)arg2 shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_requestHostToConnectionKey"{map<std::string, std::shared_ptr<__CoalescingConnectionKey>, std::less<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__tree_"{__tree<std::__value_type<std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::__map_value_compare<std::string, std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllRequestHosts"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
++ (id)node_"{__tree_end_node<std:(long long)arg1:(long long)arg2 __tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllIPAddresses"{map<std:(unsigned long long)arg3:(id)arg4 shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_requestHostToConnectionKey"{map<std::string, std::shared_ptr<__CoalescingConnectionKey>, std::less<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__tree_"{__tree<std::__value_type<std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::__map_value_compare<std::string, std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllRequestHosts"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
 + (id);
++ (id)eme for background downloads:%@. Valid schemes are http or https /* Error: Ran out of types for this method. */;
++ (id)v20@?0Q8i16;
++ (id)%@, path = %@, client = %p};
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)6z8;
 - (id);
-- (struct CGImage *);
-- (id);
-- (void);
-- (void);
-- (int);
+- (struct CGImage *)__DATA_CONST;
 - (id);
 - (void);
+- (void);
+- (int)B,N,V__updatedStreamingZipModificationDate;
+- (id);
+- (void),;
 - (void);
 - (void);
 - (id);
 - (double);
+- (id)@;
 - (id);
-- (id);
-- (id);
+- (id)@;
 - (unsigned long long);
 - (int);
 - (id);
@@ -59,30 +53,15 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void)1á3ð1Â0@ù
 × ;
-- (id)geNotifications;
-- (id)DStuff;
+- (id)_disableKeyStateChangeNotifications;
+- (id)_deallocatePPDStuff;
 - (long long)ible;
 - (_Bool)nts (%ld) than previously saved (%ld).;
 - (void)àè0.D;
 - (void)ý7;
 
 // Remaining properties
-@property(retain) CUIBackgroundStyleEffectConfiguration *_cachedStyleEffectConfiguration; // @synthesize _cachedStyleEffectConfiguration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(getter=isEmphasized) _Bool emphasized; // @synthesize emphasized=_emphasized;
-@property(readonly) NSColor *equivalentForegroundColorForTemplateImage;
-@property(readonly) unsigned long long hash;
-@property(readonly) int outputBlendModeForTemplateContent;
-@property long long presentationState; // @synthesize presentationState=_presentationState;
 @property(copy) NSString *referenceWidget; // @synthesize referenceWidget=_referenceWidget;
-@property long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(copy) NSColor *tintColor; // @synthesize tintColor=_tintColor;
-@property long long value; // @synthesize value=_value;
 
 @end
 

@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NLProbabilityInfo, NSArray, NSString;
+@class NSArray, NSString;
 
 @interface NLPredictionInfo
 {
     NSArray *_tokenIDArray;
-    void *_tokenIDs;
-    NSString *_prediction;
-    unsigned long long _contextLength;
-    NLProbabilityInfo *_probabilityInfo;
 }
 
 + (_Bool);
-- (unsigned long long);
-- (id);
+- (unsigned long long)ru;
+- (id)PronounAutofill;
 - (id);
 - (id);
 - (id);
@@ -25,7 +21,7 @@
 - (unsigned long long);
 - (id);
 - (const unsigned int *);
-- (id);
+- (id)predictedLikelihoodOfEngagement;
 - (void);
 - (id);
 - (id);
@@ -36,9 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long contextLength; // @synthesize contextLength=_contextLength;
 @property(readonly, copy, nonatomic) NSString *prediction; // @synthesize prediction=_prediction;
-@property(readonly, copy, nonatomic) NLProbabilityInfo *probabilityInfo; // @synthesize probabilityInfo=_probabilityInfo;
 
 @end
 

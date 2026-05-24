@@ -5,5 +5,9 @@
 //
 
 @protocol FCBundleSubscriptionChangeObserver
+
+@optional
+- (void);
+- (void);
 @end
 

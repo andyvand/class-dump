@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SKMountParams;
-
 @interface SKDiskImageAttachParams
 {
     _Bool _readOnly;
-    _Bool _stdinPassPhrase;
-    _Bool _isManagedAttach;
-    _Bool _is4KBlockSize;
-    _Bool _emulateExternalDisk;
-    long long _policy;
-    SKMountParams *_mountParams;
 }
 
 - (void);
@@ -27,27 +19,21 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
-- (id);
-- (id);
+- (id)rt"I"averageBitrateLong"I"transmittedBytes"I"averageQueueDepth"d"expectedQueuingDelay"d"bdcd"d"normalizedBDCD"d"normalizedDelay"d"bbString"[64c]"radioTechnology"i}"feedback"{?="sendTimestamp"I"queuingDelay"I"remoteBWEstimation"I"remoteBWEStability"I"maxVideoBurstyLoss"I"audioConsecutiveLoss"I"mostBurstyLoss"I"audioReceivedPackets"I"videoReceivedPackets"I"totalReceivedKBytes"I"totalSentPackets"I"echoedSendTimestamp"I"mediaTimestamp"I"owrd"d"packetLossRate"d"actualBitrate"I"instantBitrate"I"roundTripTime"d"receiveQueueTarget"I"isPacketReceivedValid"B"packetReceived"{?="packetType"i"packetId"I"sampleRate"I"totalPacketsReceived"I"totalReceivedKBytes"I"receiveTimestamp"d"owrd"d"targetJitterQueueSize"d"bandwidthEstimation"I"localBurstyLoss"I}"connectionStats"{?="sequenceNumber"S"isDuplicatePacket"B"isReceivedOnPrimary"B"connectionStatsBuffer"I}"ecnStats"{tagVCStatisticsECNStats="ecnECT1Count"S"ecnCECount"S}"ecnRecvd"{tagVCStatisticsECNStats="ecnECT1Count"S"ecnCECount"S}"isECNEnabled"B"isOverRelay"B"remoteSSRC"I}"network"{?="packetLossPercentage"d"packetLossPercentageAudio"d"packetLossPercentageVideo"d"burstPacketLoss"I"roundTripTimeMilliseconds"I"isNetworkCongested"I"owrd"I"targetBitrate"I"statisticsID"Q"videoPacketsReceived"I}"probing"{?="estimatorID"I"deregisterEstimator"B"isProbingSequence"B"isEndOfProbingSequence"B"probingSequenceID"I"messageLength"I"arrivalTime"d"mediaTimestamp"I"isPacketReceivedValid"B"packetReceived"{?="packetType"i"packetId"I"sampleRate"I"totalPacketsReceived"I"totalReceivedKBytes"I"receiveTimestamp"d"owrd"d"targetJitterQueueSize"d"bandwidthEstimation"I"localBurstyLoss"I}}"serverStats"{?="linkID"C"sendTimestamp"I"receiveTimestamp"I"totalPacketSent"I"totalPacketReceived"I"totalByteSent"I"totalByteReceived"I"serverStatsByteUsed"I"bandwidthSample"I"bandwidthEstimation"I"roundTripTime"d"owrd"d"packetLossRate"d"packetLossRateShortWindow"d"actualBitrate"I"instantBitrate"I"serverStatsBitrate"I"expectedBitrate"I}"packetSent"{?="packetId"I"totalPacketsSent"I"totalBytesSent"I"sendTimestamp"d}"packetReceived"{?="packetType"i"packetId"I"sampleRate"I"totalPacketsReceived"I"totalReceivedKBytes"I"receiveTimestamp"d"owrd"d"targetJitterQueueSize"d"bandwidthEstimation"I"localBurstyLoss"I}"rtcpRR"{?="ssrc"I"packetLossPercentage"I"lastSequenceNumber"I"roundTripTimeMilliseconds"I}"config"{?="mode"I"remoteRadioAccessTechnology"I"localRadioAccessTechnology"I"maxBitrate"I"minBitrate"I"initialBitrate"I"isTrafficBursty"B"isTrafficSpatial"B"featureFlags"I"configType"i}"mediaEvent"{?="mediaEventType"I"additionalFlushCount"I"transactionID"I"audioStallBitrate"I"audioErasure"f"isKeyFrame"B"isTransitionToFEC"B"videoStallTimeDelta"d"videoStallTimeTotal"d"refreshFrameTimestamp"I"refreshFramePayloadType"I"refreshFramePacketCount"I"idsParticipantID"Q}"nwConnection"{?="version"C"direction"C"interfaceType"C"notificationType"C"timestamp"Q"maxThroughputBps"Q"totalByteCount"Q"flushableQueueSize"I"nonFlushableQueueSize"I"averageDelayMillisecond"I"averageThroughputBps"Q"rateTrendSuggestion"i"packetLossPerFrame"I"sequenceNumber"S""(?="wifi"{?="frequencyBand"C"intermittentState"C"estimatedIntermittentPeriod"S"singleOutagePeriod"S"btCoex"C"radioCoex"C"qualityScoreDelayRx"C"qualityScoreDelayTx"C"qualityScoreLossRx"C"qualityScoreLossTx"C"qualityScoreChannel"C"offChannelTimeRatio"f"detectedFrequentOffChannelActivity"B"wlanDutyCycle"S"wifiObservedTxBitrate"[6I]"maxRadioCoex"C"accumulatedOffChannelTime"q"maxSingleOutagePeriod"S"qualityScoreDelayRxAverage"f"qualityScoreDelayTxAverage"f"qualityScoreLossRxAverage"f"qualityScoreLossTxAverage"f"qualityScoreChannelAverage"f}"baseband"{?="radioAccessTechnology"C"referenceSignalLevel"s"signalLevel"s"signalQuality"c"uplinkBLER"C"downlinkBLER"C"bandwidthLimitationIndication"C"cdrxState"C"cdrxCycle"S"estimatedOutagePeriod"S"outageState"C})}"videoLossFeedback"{tagVCStatisticsVideoLossFeedback="frameRTPTimestamp"I"packetsReceived"S"frameSize"C"packetsLost"C}"localRCEvent"{tagVCStatisticsLocalRCEvent="recentSendTime"d"recentFeedbackTime"d"bytesInFlight"I}"receiveTimeReport"{tagVCStatisticsReceiveTimeReport="reportTimestamp"I"packetSendTimestamp"I"packetReceiveTimestamp"I"packetLength"S"packetSeqNumber"S"probingSequenceID"I"isProbingSequence"B"owrd"d"bandwidthEstimation"I"sendBitrate"I"receiveBitrate"I}"addRemoveEndPoint"{tagVCStatisticsAddRemoveEndPoint="remoteSSRC"I"isAdd"B})};
+- (id)ateArbiter maxAllowedAudioOnlyBitrateForConnection:] /* Error: Ran out of types for this method. */;
 - (id);
 - (long long);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
-- (void);
+- (void)kAirPortDisconnectFromKey;
 
 // Remaining properties
-@property(nonatomic) _Bool emulateExternalDisk; // @synthesize emulateExternalDisk=_emulateExternalDisk;
 @property(nonatomic) _Bool is4KBlockSize; // @synthesize is4KBlockSize=_is4KBlockSize;
-@property(nonatomic) _Bool isManagedAttach; // @synthesize isManagedAttach=_isManagedAttach;
-@property(copy, nonatomic) SKMountParams *mountParams; // @synthesize mountParams=_mountParams;
-@property(nonatomic) long long policy; // @synthesize policy=_policy;
-@property(nonatomic) _Bool readOnly; // @synthesize readOnly=_readOnly;
-@property(nonatomic) _Bool stdinPassPhrase; // @synthesize stdinPassPhrase=_stdinPassPhrase;
 
 @end
 

@@ -6,31 +6,21 @@
 
 #import <CFNetwork/__NSCFURLSessionConnection.h>
 
-@class NSArray, NSCachedURLResponse, NSString, NSURLRequest, NSURLSessionTask;
+@class NSURLSessionTask;
 
 __attribute__((visibility("hidden")))
 @interface __NSCFURLProxySessionConnection : __NSCFURLSessionConnection
 {
     NSURLSessionTask *_proxyTask;
-    NSURLSessionTask *_cacheTask;
-    _Bool _shouldCancelOnCacheTaskCompletion;
-    _Bool _clientWantsCacheOnly;
-    _Bool _completedLocalCacheLookup;
-    _Bool _requestIsUncacheable;
-    _Bool _handledNeedNewBodyStream;
-    NSCachedURLResponse *_cachedResponseForConditionalRequest;
-    NSURLRequest *_conditionalRequest;
-    NSArray *_cachedResponseDataArray;
-    NSString *_originalUploadFilePath;
 }
 
+- (void)hasquare;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)supportsAtomicUlongVoidMinMax;
 - (void);
 - (void);
 - (void);
@@ -43,21 +33,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void)ú_ÿ;
 - (void)2V2;
-- (void);
-- (void)V;
+- (void)6H5;
+- (void)6_V;
 - (void):(float)arg1 .,;
 - (id)20C;
 - (void);
-- (void)eReadTimeout;
+- (void)_kCFStreamPropertyTCPAdaptiveReadTimeout;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

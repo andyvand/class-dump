@@ -7,11 +7,9 @@
 @class _INPBAlarm;
 
 @protocol _INPBCreateAlarmIntentResponse
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) _INPBAlarm *createdAlarm;
-@property(readonly, nonatomic) _Bool hasCreatedAlarm;
-@property(nonatomic) _Bool hasSuccessCode;
-@property(nonatomic) int successCode;
 @end
 

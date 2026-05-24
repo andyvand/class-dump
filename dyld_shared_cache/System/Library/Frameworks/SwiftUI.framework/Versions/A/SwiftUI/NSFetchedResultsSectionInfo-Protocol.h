@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @protocol NSFetchedResultsSectionInfo
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *indexTitle;
 @property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) unsigned long long numberOfObjects;
-@property(readonly, nonatomic) NSArray *objects;
 @end
 

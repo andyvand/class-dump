@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface _EARWordPart
 {
     NSString *_tagName;
-    NSString *_orthography;
-    long long _tag;
-    unsigned long long _frequency;
-    NSSet *_pronunciations;
-    NSString *_phoneticOrthography;
 }
 
 - (id);
@@ -25,15 +20,10 @@
 - (id);
 - (long long);
 - (void);
-- (unsigned long long)basic_string_viewIcNS2_11char_traitsIcEEEEwE14ComparatorImplILb0EEE;
+- (unsigned long long)N6quasar9tennessee17IterableCollationINSt3__117basic_string_viewIcNS2_11char_traitsIcEEEEwE14ComparatorImplILb0EEE;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long frequency; // @synthesize frequency=_frequency;
 @property(readonly, nonatomic) NSString *orthography; // @synthesize orthography=_orthography;
-@property(readonly, nonatomic) NSString *phoneticOrthography; // @synthesize phoneticOrthography=_phoneticOrthography;
-@property(readonly, nonatomic) NSSet *pronunciations; // @synthesize pronunciations=_pronunciations;
-@property(readonly, nonatomic) long long tag; // @synthesize tag=_tag;
-@property(readonly, nonatomic) NSString *tagName;
 
 @end
 

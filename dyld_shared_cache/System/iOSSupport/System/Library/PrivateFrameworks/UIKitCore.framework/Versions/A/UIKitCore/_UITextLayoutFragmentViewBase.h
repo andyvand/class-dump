@@ -6,17 +6,10 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, NSTextLayoutFragment;
-
 __attribute__((visibility("hidden")))
 @interface _UITextLayoutFragmentViewBase : UIView
 {
     _Bool _textAttachmentGeometryNeedsUpdate;
-    NSTextLayoutFragment *_layoutFragment;
-    struct CGPoint _containerOrigin;
-    struct CGSize _containerSize;
-    struct CGRect _clipRect;
-    struct CGRect _clipFrame;
 }
 
 - (void);
@@ -25,12 +18,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (struct CGRect);
-- (void);
-- (struct CGRect);
-- (struct CGPoint);
-- (struct CGRect);
-- (struct CGPoint);
-- (void);
+- (void)setServerBagFinishedLoadingObserver: /* Error: Ran out of types for this method. */;
+- (struct CGRect)sage %s at message part %ld.;
+- (struct CGPoint)mpatibility message %s does not match any edited message in our database.;
+- (struct CGRect)amReport from legacy service session, please file a radar-------*/;
+- (struct CGPoint)an error. This breaks our ability to get FindMy friendship updates throughout the app. If you see this error, please file a radar to the FindMy team. Error:%@ /* Error: Ran out of types for this method. */;
+- (void)or retaining transient subscription assertion for subscription:"%@" and handle:"%@". Error:%@ /* Error: Ran out of types for this method. */;
 - (struct CGRect);
 - (void);
 - (void);
@@ -41,23 +34,11 @@ __attribute__((visibility("hidden")))
 × ;
 - (struct CGSize)× ;
 - (void)reserveBackgroundMaskingForReorderAnimationEnding"b1"needsConfigurationStateUpdate"b1"hasContentConfiguration"b1"hasCustomBackgroundColor"b1"hasCustomBackgroundView"b1"hasCustomSelectedBackgroundView"b1"hasCustomMultipleSelectionBackgroundView"b1"hasCustomBackgroundViewConfigurationProvider"b1"hasCustomBackgroundViewConfiguration"b1"hasCustomIndentationWidth"b1"automaticallyUpdatesContentViewConfiguration"b1"automaticallyUpdatesBackgroundViewConfiguration"b1"hasShownHighlightedOrSelectedBackground"b1"needsFocusRingUpdateAfterLayout"b1"hasBeenReused"b1"isDisplayed"b1"automaticIntrinsicContentSizeInvalidationEnabled"b1"shouldSkipPrepareForConfigurationStateUpdate"b1};
-- (void)aryProgress: /* Error: Ran out of types for this method. */;
-- (void)torConfigurationC;
+- (void)setHasSecondaryProgress: /* Error: Ran out of types for this method. */;
+- (void)So28UIListSeparatorConfigurationC;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect clipFrame; // @synthesize clipFrame=_clipFrame;
-@property(nonatomic) struct CGRect clipRect; // @synthesize clipRect=_clipRect;
 @property(nonatomic) struct CGPoint containerOrigin; // @synthesize containerOrigin=_containerOrigin;
-@property(nonatomic) struct CGSize containerSize; // @synthesize containerSize=_containerSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isLayoutFragmentView;
-@property(readonly, nonatomic) NSTextLayoutFragment *layoutFragment; // @synthesize layoutFragment=_layoutFragment;
-@property(readonly) Class superclass;
 
 @end
 

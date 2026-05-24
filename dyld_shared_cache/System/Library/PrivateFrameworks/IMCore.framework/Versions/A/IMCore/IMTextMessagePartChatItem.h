@@ -6,45 +6,39 @@
 
 #import <IMCore/IMMessagePartChatItem.h>
 
-@class NSAttributedString, NSDate;
+@class NSAttributedString;
 
 @interface IMTextMessagePartChatItem : IMMessagePartChatItem
 {
     _Bool _isShowingEditHistory;
-    _Bool _showTranslationAlternateText;
-    NSAttributedString *_subject;
 }
 
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)ytes[%d] SeqNumber[%d];
+- (_Bool)[%s] %s:%d Invalid JitterBuffer handle (nil) /* Error: Ran out of types for this method. */;
+- (_Bool)s] %s:%d %@(%p) Failed to create NWConnection for remoteEndpoint with remoteEndpoint=%p /* Error: Ran out of types for this method. */;
+- (_Bool)ovided endpoint=%s is not of type of nw_endpoint_type_address;
+- (void)nfo;
+- (id)ream configuration!;
+- (long long)stream=%@, didPauseStream=%d, error=%@;
+- (id)[%s] %s:%d Local NW Endpoint=%@, callID=%@, options=%s /* Error: Ran out of types for this method. */;
+- (_Bool)eDidChange callback for mediaType=%@ mediaState=%@ did succeed[%d];
+- (void)%-4i  skip %i -> %i adjust %d;
+- (id)= %f [max interarrival = %f, average jitter size = %f, average interarrival = %f];
+- (id)ds = %f, missing = %d, total = %d, average = %f [max interarrival = %f, average jitter size = %f, average interarrival = %f];
+- (_Bool)(Mbps)=%.2f, delta=%.2f, newRecommendedBitrate(Mbps)=%.2f, appliedBitrate(Mbps)=%.2f;
+- (void)iver [%s] %s:(_Bool)arg1 %d audioReceiver=%p Received unknown RTCP packetType=%u;
+- (id)d slot for mode=%d;
+- (id)ERROR invalid videoMode in setVideoLayer:(id)arg1 forMode:(id)arg2 %d;
+- (id)de=%d;
 - (id);
-- (long long);
 - (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (unsigned char)es;
+- (_Bool)IMEnhancedStorageMetrics;
+- (id)4˟;
+- (unsigned char)updateAttachmentFileSizes;
 - (void)üõPö;
 - (id)erver for handle %@;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isShowingEditHistory; // @synthesize isShowingEditHistory=_isShowingEditHistory;
-@property(readonly, nonatomic) NSDate *lastEditDateForMessagePart;
-@property(readonly, nonatomic) long long numberOfPreviousEdits;
-@property(readonly, nonatomic) _Bool showTranslationAlternateText; // @synthesize showTranslationAlternateText=_showTranslationAlternateText;
 @property(readonly, copy, nonatomic) NSAttributedString *subject; // @synthesize subject=_subject;
 
 @end

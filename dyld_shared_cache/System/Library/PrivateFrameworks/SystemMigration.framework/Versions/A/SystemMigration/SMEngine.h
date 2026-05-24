@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSError, NSMutableArray, NSMutableSet, NSObject, NSString, SMEngineDelegateProxy, SMMigrationRequest, SMStopwatch;
-@protocol OS_dispatch_queue;
+@class SMMigrationRequest;
 
 @interface SMEngine
 {
     _Bool _engineWaitingForPathing;
-    unsigned long long _state;
-    unsigned long long _enginePhase;
-    NSMutableArray *_engineSteps;
-    SMMigrationRequest *_migrationRequest;
-    SMEngineDelegateProxy *_delegate;
-    NSString *_tracingUUID;
-    NSMutableSet *_pathsInSandbox;
-    NSObject<OS_dispatch_queue> *_enginePropertiesQueue;
-    NSObject<OS_dispatch_queue> *_engineQueue;
-    unsigned long long _totalBytes;
-    unsigned long long _deletedBytes;
-    unsigned long long _finishedBytes;
-    unsigned long long _requestedDaemonScannerState;
-    NSDate *_startTime;
-    NSError *_error;
-    NSDate *_pathingStartTime;
-    double _timeDelayedByPathing;
-    SMStopwatch *_engineStopWatch;
 }
 
 - (void);
@@ -45,6 +26,7 @@
 - (_Bool);
 - (void);
 - (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -55,61 +37,60 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (_Bool);
+- (unsigned long long);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (id);
+- (void);
 - (unsigned long long);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (unsigned long long);
-- (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (unsigned long long);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
 - (id);
 - (unsigned long long);
 - (void);
+- (unsigned long long);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (unsigned long long);
+- (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -117,7 +98,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (void);
 - (void);
@@ -126,35 +107,7 @@
 - (void)th;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain) SMEngineDelegateProxy *delegate; // @synthesize delegate=_delegate;
-@property unsigned long long deletedBytes; // @synthesize deletedBytes=_deletedBytes;
-@property(readonly, copy) NSString *description;
-@property unsigned long long enginePhase; // @synthesize enginePhase=_enginePhase;
-@property(retain) NSObject<OS_dispatch_queue> *enginePropertiesQueue; // @synthesize enginePropertiesQueue=_enginePropertiesQueue;
-@property(retain) NSObject<OS_dispatch_queue> *engineQueue; // @synthesize engineQueue=_engineQueue;
-@property(readonly) _Bool engineShouldContinue;
-@property(retain) NSMutableArray *engineSteps; // @synthesize engineSteps=_engineSteps;
-@property(retain) SMStopwatch *engineStopWatch; // @synthesize engineStopWatch=_engineStopWatch;
-@property _Bool engineWaitingForPathing; // @synthesize engineWaitingForPathing=_engineWaitingForPathing;
-@property(retain) NSError *error; // @synthesize error=_error;
-@property unsigned long long finishedBytes; // @synthesize finishedBytes=_finishedBytes;
-@property(readonly) unsigned long long hash;
 @property(retain) SMMigrationRequest *migrationRequest; // @synthesize migrationRequest=_migrationRequest;
-@property(retain) NSDate *pathingStartTime; // @synthesize pathingStartTime=_pathingStartTime;
-@property(retain) NSMutableSet *pathsInSandbox; // @synthesize pathsInSandbox=_pathsInSandbox;
-@property unsigned long long requestedDaemonScannerState; // @synthesize requestedDaemonScannerState=_requestedDaemonScannerState;
-@property(readonly) _Bool shouldContinueSteps;
-@property(retain) NSDate *startTime; // @synthesize startTime=_startTime;
-@property unsigned long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property double timeDelayedByPathing; // @synthesize timeDelayedByPathing=_timeDelayedByPathing;
-@property unsigned long long totalBytes; // @synthesize totalBytes=_totalBytes;
-@property(retain) NSString *tracingUUID; // @synthesize tracingUUID=_tracingUUID;
-@property(readonly) _Bool useSandbox;
 
 @end
 

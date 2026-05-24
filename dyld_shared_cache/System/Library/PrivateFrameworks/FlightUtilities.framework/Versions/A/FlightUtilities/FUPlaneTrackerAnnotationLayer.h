@@ -10,16 +10,14 @@ __attribute__((visibility("hidden")))
 @interface FUPlaneTrackerAnnotationLayer
 {
     CALayer *_planeImageLayer;
-    struct CLLocationCoordinate2D _startLocation;
-    struct CLLocationCoordinate2D _endLocation;
 }
 
-+ (struct CLLocationCoordinate2D);
-- (void);
-- (void);
-- (void);
-- (double);
-- (id);
++ (struct CLLocationCoordinate2D)ith bookmark %@;
+- (void)ile size of 0 bytes;
+- (void)tten, someone else seems to have overwritten the value. We expect to see %u, but instead are seeing %u. The write status is %d;
+- (void)ble to update status to written, someone else seems to have overwritten the value. We expect to see %u, but instead are seeing %u. The write status is %d;
+- (double)th %d frames;
+- (id)rameNumber=%d for segment:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
 - (struct CLLocationCoordinate2D);
 - (void);
@@ -29,10 +27,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly) struct CLLocationCoordinate2D currentLocation;
-@property(nonatomic) double currentProgress; // @dynamic currentProgress;
-@property(nonatomic) struct CLLocationCoordinate2D endLocation; // @synthesize endLocation=_endLocation;
-@property(nonatomic) __weak CALayer *planeImageLayer; // @synthesize planeImageLayer=_planeImageLayer;
 @property(nonatomic) struct CLLocationCoordinate2D startLocation; // @synthesize startLocation=_startLocation;
 
 @end

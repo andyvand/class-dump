@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSUUID;
+
 @protocol _CDRemoteUserContextServer
+- (void);
+- (void);
+- (NSUUID *)j;
 @end
 

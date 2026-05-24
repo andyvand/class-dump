@@ -4,52 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSImage, NSImageView;
+@class NSImage;
 
 @interface MKImageView
 {
     NSImage *_currentImage;
-    _Bool _shouldHighlight;
-    NSImage *_highlightImage;
-    NSImage *_image;
-    NSColor *_highlightColor;
-    long long _imageContentMode;
-    NSImageView *_imageView;
-    NSColor *_templateTintColor;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)P;
 - (void);
-- (void);
-- (void);
-- (long long);
+- (void)expected object %@ of class %@ as exception for type %@;
+- (void)sticPayloadsForSignatures:(long long)arg1 ) remote object proxy error %@;
+- (long long)apiRateLimit;
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)r:(id)arg1;
 - (struct CGSize);
 - (id);
 - (void);
-- (id);
+- (id)ointAnalyzer _updateEnhancedEndpointerDefaultThresholdPartial:(struct CGRect)arg1 defaultThresholdRC:relaxedThresholdPartial:relaxedThresholdRC:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (void);
-- (void)Value:forString:errorDescription: /* Error: Ran out of types for this method. */;
+- (void)getObjectValue:forString:errorDescription: /* Error: Ran out of types for this method. */;
 - (void)³6;
 
 // Remaining properties
-@property(nonatomic, setter=_mapkit_setImageContentMode:) long long _mapkit_imageContentMode; // @synthesize _mapkit_imageContentMode=_imageContentMode;
-@property(retain, nonatomic) NSColor *highlightColor; // @synthesize highlightColor=_highlightColor;
-@property(retain, nonatomic) NSImage *highlightImage; // @synthesize highlightImage=_highlightImage;
 @property(retain, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(readonly, nonatomic) NSImageView *imageView; // @synthesize imageView=_imageView;
-@property(nonatomic) _Bool shouldHighlight; // @synthesize shouldHighlight=_shouldHighlight;
-@property(retain, nonatomic) NSColor *templateTintColor; // @synthesize templateTintColor=_templateTintColor;
 
 @end
 

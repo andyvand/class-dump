@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPProtectionInfo, CKDPShareIdentifier, NSString;
+@class NSString;
 
 @interface CKDPShareAcceptRequest
 {
     NSString *_etag;
-    NSString *_participantId;
-    CKDPProtectionInfo *_protectionInfo;
-    CKDPProtectionInfo *_publicKey;
-    int _publicKeyVersion;
-    CKDPProtectionInfo *_selfAddedPcs;
-    CKDPShareIdentifier *_shareId;
-    _Bool _acceptedInProcess;
-    struct {
-        unsigned int publicKeyVersion:1;
-        unsigned int acceptedInProcess:1;
-    } _has;
 }
 
 + (id);
@@ -31,21 +20,22 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (void);
+- (void)_AVTAvatarToStaticNoTransition;
+- (id)o;
+- (_Bool)mber"16^B24;
+- (void);
 - (void);
 - (int);
 - (_Bool);
-- (id);
-- (id);
+- (id)UsoTask_noVerb_common_Size;
+- (id)(;
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long)sample range command over the wire
+;
 - (_Bool);
 - (_Bool);
 - (unsigned int);
@@ -65,22 +55,7 @@ Default should report:%@ Default should check:%@ /* Error: Ran out of types for 
 - (id)options:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool acceptedInProcess; // @synthesize acceptedInProcess=_acceptedInProcess;
-@property(retain, nonatomic) NSString *etag; // @synthesize etag=_etag;
-@property(nonatomic) _Bool hasAcceptedInProcess;
-@property(readonly, nonatomic) _Bool hasEtag;
-@property(readonly, nonatomic) _Bool hasParticipantId;
-@property(readonly, nonatomic) _Bool hasProtectionInfo;
-@property(readonly, nonatomic) _Bool hasPublicKey;
-@property(nonatomic) _Bool hasPublicKeyVersion;
-@property(readonly, nonatomic) _Bool hasSelfAddedPcs;
 @property(readonly, nonatomic) _Bool hasShareId;
-@property(retain, nonatomic) NSString *participantId; // @synthesize participantId=_participantId;
-@property(retain, nonatomic) CKDPProtectionInfo *protectionInfo; // @synthesize protectionInfo=_protectionInfo;
-@property(retain, nonatomic) CKDPProtectionInfo *publicKey; // @synthesize publicKey=_publicKey;
-@property(nonatomic) int publicKeyVersion; // @synthesize publicKeyVersion=_publicKeyVersion;
-@property(retain, nonatomic) CKDPProtectionInfo *selfAddedPcs; // @synthesize selfAddedPcs=_selfAddedPcs;
-@property(retain, nonatomic) CKDPShareIdentifier *shareId; // @synthesize shareId=_shareId;
 
 @end
 

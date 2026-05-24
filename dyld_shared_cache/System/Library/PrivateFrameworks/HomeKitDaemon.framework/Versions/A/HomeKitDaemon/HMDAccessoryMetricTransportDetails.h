@@ -10,13 +10,9 @@ __attribute__((visibility("hidden")))
 @interface HMDAccessoryMetricTransportDetails
 {
     _Bool _isAccessoryBatteryPowered;
-    _Bool _isAccessoryBridged;
-    _Bool _isThreadAccessory;
-    _Bool _isHH2Enabled;
-    NSString *_accessoryProtocol;
 }
 
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
@@ -25,17 +21,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)numberOfWeakBirthdayMomentsAroundBirthdayDate;
 - (_Bool);
 - (id)ic}@Opening client stream;
 - (void)©<y=;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accessoryProtocol; // @synthesize accessoryProtocol=_accessoryProtocol;
-@property(nonatomic) _Bool isAccessoryBatteryPowered; // @synthesize isAccessoryBatteryPowered=_isAccessoryBatteryPowered;
-@property(nonatomic) _Bool isAccessoryBridged; // @synthesize isAccessoryBridged=_isAccessoryBridged;
-@property(nonatomic) _Bool isHH2Enabled; // @synthesize isHH2Enabled=_isHH2Enabled;
-@property(nonatomic) _Bool isThreadAccessory; // @synthesize isThreadAccessory=_isThreadAccessory;
 
 @end
 

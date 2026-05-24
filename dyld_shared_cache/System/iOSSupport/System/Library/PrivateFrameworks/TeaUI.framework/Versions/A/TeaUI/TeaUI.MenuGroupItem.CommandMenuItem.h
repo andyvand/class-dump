@@ -7,17 +7,6 @@
 @interface TeaUI.MenuGroupItem.CommandMenuItem
 {
     id identifier;
-    id command;
-    id state;
-    id keyInput;
-    id keyModifierFlags;
-    id execute;
-    id determineState;
-    id determineTitle;
-    id determineSymbolName;
-    id options;
-    id canHandle;
-    id alternate;
 }
 
 @end

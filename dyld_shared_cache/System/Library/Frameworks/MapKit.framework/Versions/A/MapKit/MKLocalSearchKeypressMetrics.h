@@ -4,36 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
+@class NSString;
 
 @interface MKLocalSearchKeypressMetrics
 {
     int _responseStatus;
-    NSString *_modelVersion;
-    NSString *_rolloutId;
-    NSString *_rolloutDeploymentId;
-    NSString *_rolloutFactorpackId;
-    NSString *_rolloutRampId;
-    NSString *_experimentId;
-    NSNumber *_deploymentId;
-    NSString *_treatmentId;
-    NSString *_experimentDescription;
-    NSString *_query;
-    NSArray *_queryTokens;
-    NSArray *_suggestionEntries;
 }
 
 - (id);
 - (void);
 - (id);
+- (id),N,V_objectDiscoveryNearOwnerID;
 - (id);
-- (id);
-- (void)e:widthPaddingMultiple: /* Error: Ran out of types for this method. */;
+- (void)imageForArtwork:size:featureType:scale:nightMode:widthPaddingMultiple: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *query; // @synthesize query=_query;
-@property(readonly, copy, nonatomic) NSArray *queryTokens; // @synthesize queryTokens=_queryTokens;
-@property(readonly, nonatomic) NSArray *suggestionEntries; // @synthesize suggestionEntries=_suggestionEntries;
 
 @end
 

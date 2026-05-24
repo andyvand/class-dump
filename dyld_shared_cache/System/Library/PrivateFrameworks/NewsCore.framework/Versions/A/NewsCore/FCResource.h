@@ -4,30 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAssetHandle, FCContentArchive, FCContentManifest, FCInterestToken, NSData, NSDate, NSString, NSURL, NTPBResourceRecord;
+@class NSString, NTPBResourceRecord;
 
 @interface FCResource
 {
     NSString *_resourceID;
-    FCAssetHandle *_assetHandle;
-    NSDate *_fetchDate;
-    NSData *_data;
-    NTPBResourceRecord *_resourceRecord;
-    FCInterestToken *_interestToken;
 }
 
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (id);
-- (_Bool);
-- (id);
+- (id);
+- (_Bool)sionRefCount:(id)arg1 rtmSessionWith24GOnlyCount:rtmLowLatencySessionRefCount:ndiInfos:preferredChannelNumbers:preferredChannelClasses:ndiSessionInfos: /* Error: Ran out of types for this method. */;
+- (id)createDatapathWithConfiguration:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
+- (id)8@16^@24^@32^@40^@48^@56;
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)enDirectory;
+- (id)umberOfOtherCharacters-a.length,this._checkEmojiFontSize(),this.hasValidNumOfEmojis&&this.hasOnlyEmojis&&o?this._enableBigEmoji(o):this.hasValidNumOfEmojis&&this.hasOnlyEmojis||!o||o.className!=MFMailBigEmojiAttribute||this._disableBigEmoji(o)}else 1==n.length&&1==numberOfEmojis&&(o="BODY"==t.tagName?document.querySelector("."+MFMailBigEmojiAttribute):o,this._disableBigEmoji(o))}},manageReplacementText:function(e){let t=e.anchorNode;if(t&&!this._isInsideQuoteOrSignature(t)){let n=e.anchorNode.wholeText;var i=n?n.match(document.stringToArrayRegex):[];this._updateCounts(i),this._checkEmojiFontSize();let o=t.parentElement;if(o&&this.hasValidNumOfEmojis&&this.hasOnlyEmojis)if(o.className==MFMailBigEmojiAttribute||"SPAN"==o.nodeName)this._enableBigEmoji(o);else{let e=document.createElement("span");e.innerHTML+=n,this._enableBigEmoji(e),t.parentNode.insertBefore(e,t),t.parentNode.removeChild(t),this._placeCaretAfter(e),event.preventDefault()}else o.className==MFMailBigEmojiAttribute&&this._disableBigEmoji(o)}},manageCurrentEmojiFontSize:function(){let e=document.getSelection(),t=e.anchorNode,i=e.anchorNode.wholeText;if(this.newParagraphInserted=!i,t&&!this._isInsideQuoteOrSignature(t)){var n=i?i.match(document.stringToArrayRegex):[];this._updateCounts(n),this._checkEmojiFontSize();let e=t.parentElement;this.hasValidNumOfEmojis&&this.hasOnlyEmojis&&e?this._enableBigEmoji(e):e.className==MFMailBigEmojiAttribute&&this._disableBigEmoji(e)}},_enableBigEmoji:function(e){e.setAttribute("style","font-size:"+bigEmojiFontSize),e.className=MFMailBigEmojiAttribute},_disableBigEmoji:function(e){"FONT"==e.tagName?e.setAttribute("size",defaultEmojiFontSize):(e.setAttribute("style","font-size:"+defaultEmojiFontSize),e.removeAttribute("class"))},_locateSignatureDiv:function(e){let t=e.body.querySelectorAll(`div[id="${MFHtmlIDSignature}"]`);for(let e=0;e<t.length;++e){let i=t.item(e);if(!i.mf_isQuoteOrWithinQuote())return i}return null},_updateCounts:function(e){numberOfEmojis=0,numberOfOtherCharacters=0,e.map(e=>{document.whitespaceRegex.test(e)||(document.emojiRegex.test(e)?numberOfEmojis+=1:numberOfOtherCharacters+=1)})},_getCurrentEmojiElement:function(e){return"BODY"==e.tagName?document.querySelector(".AppleMailBigEmoji"):e.nodeType===Node.TEXT_NODE?e.parentElement:e},_removeSignatureFromEmojiCount:function(e,t){if(this._locateSignatureDiv(t)){var i=this._locateSignatureDiv(t).textContent.trim();return e.trim().includes(i.trim())&&(e=e.trim().replace(i.trim(),"")),e}return e},_checkEmojiFontSize:function(){this.hasValidNumOfEmojis=numberOfEmojis<=maxNumberBigEmoji&&numberOfEmojis>0,this.hasOnlyEmojis=0==numberOfOtherCharacters},_isInsideQuoteOrSignature:function(e){let t=e.mf_containingBlockQuote(),i=e.mf_isDescendantOfNode(this._locateSignatureDiv(document));return t||i},_placeCaretAfter:function(e){if(e.focus(),"undefined"!=typeof window.getSelection&&"undefined"!=typeof document.createRange){var t=document.createRange();t.setStartAfter(e),t.collapse(!0);var i=window.getSelection();i.removeAllRanges(),i.addRange(t)}else if("undefined"!=typeof document.body.createTextRange){var n=document.body.createTextRange();n.moveToElementText(e),n.collapse(!1),n.select()}},stripCustomBodyIdentifiers:function(){let e=document.querySelectorAll("[class=AppleMailBigEmoji]");e.length>0&&e.forEach(function(e){e.removeAttribute("class")})}}; /* Error: Ran out of types for this method. */;
 - (id);
 - (id)setShadowNewspaperGroupMagazineFeedHeadlineScoringOutputName: /* Error: Ran out of types for this method. */;
 - (id),N;
@@ -37,15 +32,6 @@
 - (id)ailed to obtain metrics URL from bag with error:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) FCAssetHandle *assetHandle; // @synthesize assetHandle=_assetHandle;
-@property(readonly, nonatomic) FCContentArchive *contentArchive;
-@property(readonly, nonatomic) FCContentManifest *contentManifest;
-@property(readonly, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, nonatomic) NSDate *fetchDate; // @synthesize fetchDate=_fetchDate;
-@property(readonly, nonatomic) NSURL *fileURL;
-@property(retain, nonatomic) FCInterestToken *interestToken; // @synthesize interestToken=_interestToken;
-@property(readonly, nonatomic, getter=isOnDisk) _Bool onDisk;
-@property(readonly, nonatomic) NSString *resourceID; // @synthesize resourceID=_resourceID;
 @property(retain, nonatomic) NTPBResourceRecord *resourceRecord; // @synthesize resourceRecord=_resourceRecord;
 
 @end

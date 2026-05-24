@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct _NSRange);
+- (struct _NSRange)ansaction %{public}@;
 - (void)lityChangeDelegate>",N,V_graphicsQualityChangeDelegate;
 
 // Remaining properties

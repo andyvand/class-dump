@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, PHFetchOptions, PHPhotoLibrary;
-@protocol OS_dispatch_queue;
+@class PHFetchOptions, PHPhotoLibrary;
 
 @interface IMDPhotosSyndicationLibraryChangeListener
 {
     PHFetchOptions *_analysisFetchOptions;
-    PHPhotoLibrary *_syndicationLibrary;
-    NSObject<OS_dispatch_queue> *_changeObservationQueue;
 }
 
 + (id)ocked by low power mode;
 - (id);
+- (id)H;
 - (id);
-- (id);
-- (void);
+- (void)could not allocate stream format;
 - (void);
 - (id);
 - (void)4;
@@ -26,15 +23,6 @@
 - (void)¼°Pä;
 
 // Remaining properties
-@property(readonly, nonatomic) PHFetchOptions *analysisFetchOptions; // @synthesize analysisFetchOptions=_analysisFetchOptions;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *changeObservationQueue; // @synthesize changeObservationQueue=_changeObservationQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) PHPhotoLibrary *syndicationLibrary; // @synthesize syndicationLibrary=_syndicationLibrary;
 
 @end

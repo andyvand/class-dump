@@ -6,13 +6,11 @@
 
 #import <InstallCoordination/IXDataPromise.h>
 
-@class IXOwnedDataPromiseSeed, NSString, NSURL;
-@protocol MILocationProtocol;
+@class IXOwnedDataPromiseSeed, NSURL;
 
 @interface IXOwnedDataPromise : IXDataPromise
 {
     NSURL *_stagedPath;
-    NSString *_targetLastPathComponent;
 }
 
 - (id);
@@ -26,19 +24,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)4;
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <MILocationProtocol> location;
 @property(retain, nonatomic) IXOwnedDataPromiseSeed *seed; // @dynamic seed;
-@property(retain, nonatomic) NSURL *stagedPath; // @synthesize stagedPath=_stagedPath;
-@property(readonly, nonatomic) NSURL *stagingBaseDir; // @dynamic stagingBaseDir;
-@property(retain, nonatomic) NSString *targetLastPathComponent; // @synthesize targetLastPathComponent=_targetLastPathComponent;
 
 @end
 

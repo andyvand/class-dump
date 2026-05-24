@@ -11,22 +11,20 @@
 @interface CLSActivityReportItem : CLSReportItem
 {
     NSString *_title;
-    NSString *_identifier;
 }
 
-+ (_Bool);
++ (_Bool)_appleAccount;
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)Declined;
+- (id)0;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

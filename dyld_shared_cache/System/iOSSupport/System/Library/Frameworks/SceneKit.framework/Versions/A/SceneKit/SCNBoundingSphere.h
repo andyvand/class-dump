@@ -8,18 +8,16 @@ __attribute__((visibility("hidden")))
 @interface SCNBoundingSphere
 {
     struct SCNVector3 center;
-    double radius;
 }
 
-- (id);
-- (void);
+- (id)meManager",&,N,V_businessNameManager;
+- (void);
 - (struct SCNVector3);
-- (double);
+- (double)URLByAppendingPathComponent:isDirectory: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(nonatomic) struct SCNVector3 center; // @synthesize center;
-@property(nonatomic) double radius; // @synthesize radius;
 
 @end
 

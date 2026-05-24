@@ -23,9 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) float averagePowerLevel;
-@property(nonatomic, getter=isEnabled) _Bool enabled;
-@property(readonly, nonatomic) float peakHoldLevel;
-@property(nonatomic) float volume;
 
 @end
 

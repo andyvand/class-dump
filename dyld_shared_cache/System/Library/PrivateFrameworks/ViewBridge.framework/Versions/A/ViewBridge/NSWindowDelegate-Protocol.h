@@ -4,25 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNotification, NSWindow;
+@class NSArray, NSNotification, NSUndoManager, NSWindow;
 
 @protocol NSWindowDelegate
 
 @optional
+- (NSUndoManager *);
+- (void);
+- (struct CGSize);
+- (_Bool)-;
+- (struct CGRect)classLabelOfMaxProbability;
+- (struct CGSize)h;
+- (void)configuration;
 - (void)}11Â0@ù
 × ;
-- (void);
 - (NSArray *)ansport";
 - (void)NSProxy<NSXPCProxyCreating>";
-- (void)fier:(NSNotification *)arg1;
-- (void)bject:(NSNotification *)arg1;
-- (void)sendingEvent;
+- (void)setServiceInstanceIdentifier:(NSNotification *)arg1;
+- (void)addObserver:(NSNotification *)arg1 selector:name:object: /* Error: Ran out of types for this method. */;
+- (void)_sendingEvent;
 - (void)vel;
 - (void)t on %s to catch it in the act.;
 - (unsigned long long)A of free window %@ %@;
 - (void)able to create CG event from %@;
 - (void)indow:(NSNotification *)arg1 ];
-- (void)LostKeyFocus;
+- (void)handleOneEvent_kCPSNotifyLostKeyFocus;
 - (struct CGRect)without a window;
 - (void)mationAttributes:(NSNotification *)arg1 ];
 - (void)rvice window changed);

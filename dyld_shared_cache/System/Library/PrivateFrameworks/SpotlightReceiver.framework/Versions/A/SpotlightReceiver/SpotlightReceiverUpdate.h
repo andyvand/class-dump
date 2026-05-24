@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-@protocol SpotlightReceiverInfo;
-
 @interface SpotlightReceiverUpdate
 {
     long long _status;
-    id <SpotlightReceiverInfo> _info;
-    NSDictionary *_attributes;
 }
 
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id)notes on %@ has length %tu;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *attributes; // @synthesize attributes=_attributes;
-@property(readonly, nonatomic) id <SpotlightReceiverInfo> info; // @synthesize info=_info;
 @property(readonly, nonatomic) long long status; // @synthesize status=_status;
 
 @end

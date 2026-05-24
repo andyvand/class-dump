@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOKService;
-
 @interface IOKConnection
 {
     unsigned int _connection;
@@ -13,13 +11,13 @@
 
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
-- (unsigned int);
+- (unsigned int)a;
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (id);
@@ -40,7 +38,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int connection; // @synthesize connection=_connection;
-@property(readonly, copy, nonatomic) IOKService *service;
 
 @end
 

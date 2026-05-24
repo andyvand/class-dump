@@ -4,33 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOApplicationAuditToken, GEOCommonOptions, GEOComposedETARoute, GEOComposedRoute, GEOComposedWaypoint, GEOETATrafficUpdateRequest, GEOLocation, GEORouteAttributes, GEORouteMatch, NSArray, NSData, NSString, NSTimer;
 @protocol GEOETAUpdaterDelegate;
 
 @interface GEOETAUpdater
 {
     id <GEOETAUpdaterDelegate> _delegate;
-    NSString *_requestingAppIdentifier;
-    GEOETATrafficUpdateRequest *_currentETARequest;
-    GEOLocation *_userLocation;
-    GEORouteMatch *_routeMatch;
-    GEOComposedRoute *_route;
-    GEOComposedWaypoint *_destination;
-    GEORouteAttributes *_routeAttributes;
-    GEOComposedETARoute *_etaRoute;
-    long long _etaState;
-    _Bool _allowRequests;
-    _Bool _shouldUseConditionalRequest;
-    _Bool _shouldUpdateTrafficOnRoute;
-    double _requestInterval;
-    NSTimer *_etaIdleTimer;
-    double _lastETARequestTime;
-    double _debugTimeWindowDuration;
-    unsigned long long _maxAlternateRoutesCount;
-    NSData *_directionsResponseID;
-    GEOCommonOptions *_commonOptions;
-    GEOApplicationAuditToken *_auditToken;
-    NSArray *_waypoints;
 }
 
 - (id);
@@ -45,42 +23,42 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)rk/Versions/A/vCard;
 - (unsigned long long);
 - (id);
-- (id);
-- (double);
-- (_Bool);
-- (id);
+- (id)_CNForkJoinObservableBlockObserver;
+- (double)_CNCombineLatestObservableBlockObserver;
+- (_Bool)rror updating family circle CardDAV ACAccounts:%@ %@ /* Error: Ran out of types for this method. */;
+- (id)AddressingGrammar;
+- (void)a non-suspended scheduler;
+- (void)ps?:(id)arg1 //(?:www\.)?(facebook\.com)/([%\w\d\.]+)$ /* Error: Ran out of types for this method. */;
+- (void)w.;
+- (_Bool)rk/CoreText;
+- (void)Vanuatu;
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (double);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (id);
 - (double);
 - (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id)_voiceTriggerQueue;
+- (id)active;
+- (void);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (id);
+- (double);
+- (void)_clampZPriority:(id)arg1;
 - (id);
 - (void);
 - (void);
 - (void)× ;
-- (double)ffic_description_artwork;
+- (double)traffic_description_artwork;
 - (id)|¼;
 - (void)¼ýàÐýÈàý°ðý$;
 - (id)options (2.google.protobuf.EnumOptionsN
@@ -158,22 +136,7 @@ deprecated (:false
 - (void)ÈÃ6;
 
 // Remaining properties
-@property(nonatomic) _Bool allowRequests; // @synthesize allowRequests=_allowRequests;
-@property(retain, nonatomic) GEOApplicationAuditToken *auditToken; // @synthesize auditToken=_auditToken;
-@property(nonatomic) double debugTimeWindowDuration; // @synthesize debugTimeWindowDuration=_debugTimeWindowDuration;
-@property(nonatomic) __weak id <GEOETAUpdaterDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSData *directionsResponseID; // @synthesize directionsResponseID=_directionsResponseID;
-@property(nonatomic) unsigned long long maxAlternateRoutesCount; // @synthesize maxAlternateRoutesCount=_maxAlternateRoutesCount;
 @property(readonly, nonatomic) _Bool requestInProgress;
-@property(nonatomic) double requestInterval; // @synthesize requestInterval=_requestInterval;
-@property(retain, nonatomic) NSString *requestingAppIdentifier; // @synthesize requestingAppIdentifier=_requestingAppIdentifier;
-@property(retain, nonatomic) GEOComposedRoute *route; // @synthesize route=_route;
-@property(retain, nonatomic) GEORouteAttributes *routeAttributes; // @synthesize routeAttributes=_routeAttributes;
-@property(retain, nonatomic) GEORouteMatch *routeMatch; // @synthesize routeMatch=_routeMatch;
-@property(nonatomic) _Bool shouldUpdateTrafficOnRoute; // @synthesize shouldUpdateTrafficOnRoute=_shouldUpdateTrafficOnRoute;
-@property(nonatomic) _Bool shouldUseConditionalRequest; // @synthesize shouldUseConditionalRequest=_shouldUseConditionalRequest;
-@property(retain, nonatomic) GEOLocation *userLocation; // @synthesize userLocation=_userLocation;
-@property(retain, nonatomic) NSArray *waypoints; // @synthesize waypoints=_waypoints;
 
 @end
 

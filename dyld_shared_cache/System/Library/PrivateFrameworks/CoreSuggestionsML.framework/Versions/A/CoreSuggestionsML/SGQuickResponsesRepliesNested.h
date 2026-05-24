@@ -6,27 +6,11 @@
 
 #import <CoreSuggestionsML/SGQuickResponsesReplies.h>
 
-@class NSArray, NSSet;
+@class NSArray;
 
 @interface SGQuickResponsesRepliesNested : SGQuickResponsesReplies
 {
     NSArray *_models;
-    NSArray *_semanticClasses;
-    NSArray *_styleGroups;
-    NSArray *_replyTexts;
-    NSArray *_selectedPseudocounts;
-    NSArray *_semanticClassReplyTextStrings;
-    NSArray *_semanticClassSelectedPseudocounts;
-    NSArray *_semanticClassParent;
-    NSArray *_styleGroupParent;
-    NSArray *_replyTextParent;
-    NSArray *_categoryModels;
-    NSArray *_categorySemanticClasses;
-    NSArray *_categoryStyleGroups;
-    NSArray *_semanticClassStyleGroups;
-    NSArray *_semanticClassReplyTexts;
-    NSArray *_styleGroupReplyTexts;
-    NSSet *_normalizedReplyTextsSet;
 }
 
 + (id);
@@ -40,6 +24,7 @@
 + (id);
 + (id);
 + (id);
+- (id)P;
 - (id);
 - (id);
 - (id);
@@ -48,43 +33,26 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
+- (unsigned long long);
+- (id);
+- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
 - (id);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
+- (id)h;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *categoryModels; // @synthesize categoryModels=_categoryModels;
-@property(readonly, nonatomic) NSArray *categorySemanticClasses; // @synthesize categorySemanticClasses=_categorySemanticClasses;
-@property(readonly, nonatomic) NSArray *categoryStyleGroups; // @synthesize categoryStyleGroups=_categoryStyleGroups;
 @property(readonly, nonatomic) NSArray *models; // @synthesize models=_models;
-@property(readonly, nonatomic) NSSet *normalizedReplyTextsSet; // @synthesize normalizedReplyTextsSet=_normalizedReplyTextsSet;
-@property(readonly, nonatomic) NSArray *replyTextParent; // @synthesize replyTextParent=_replyTextParent;
-@property(readonly, nonatomic) NSArray *replyTexts; // @synthesize replyTexts=_replyTexts;
-@property(readonly, nonatomic) NSArray *selectedPseudocounts; // @synthesize selectedPseudocounts=_selectedPseudocounts;
-@property(readonly, nonatomic) NSArray *semanticClassParent; // @synthesize semanticClassParent=_semanticClassParent;
-@property(readonly, nonatomic) NSArray *semanticClassReplyTextStrings; // @synthesize semanticClassReplyTextStrings=_semanticClassReplyTextStrings;
-@property(readonly, nonatomic) NSArray *semanticClassReplyTexts; // @synthesize semanticClassReplyTexts=_semanticClassReplyTexts;
-@property(readonly, nonatomic) NSArray *semanticClassSelectedPseudocounts; // @synthesize semanticClassSelectedPseudocounts=_semanticClassSelectedPseudocounts;
-@property(readonly, nonatomic) NSArray *semanticClassStyleGroups; // @synthesize semanticClassStyleGroups=_semanticClassStyleGroups;
-@property(readonly, nonatomic) NSArray *semanticClasses; // @synthesize semanticClasses=_semanticClasses;
-@property(readonly, nonatomic) NSArray *styleGroupParent; // @synthesize styleGroupParent=_styleGroupParent;
-@property(readonly, nonatomic) NSArray *styleGroupReplyTexts; // @synthesize styleGroupReplyTexts=_styleGroupReplyTexts;
-@property(readonly, nonatomic) NSArray *styleGroups; // @synthesize styleGroups=_styleGroups;
 
 @end
 

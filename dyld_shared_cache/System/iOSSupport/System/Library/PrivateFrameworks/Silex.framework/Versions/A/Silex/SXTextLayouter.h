@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, SXTextSource, SXTextTangierContainerInfo, SXTextTangierDocumentRoot, TSDLayoutController;
+@class SXTextSource, SXTextTangierDocumentRoot;
 
 @interface SXTextLayouter
 {
     SXTextSource *_textSource;
-    NSSet *_exclusionPaths;
-    SXTextTangierDocumentRoot *_documentRoot;
-    TSDLayoutController *_layoutController;
-    SXTextTangierContainerInfo *_textInfo;
 }
 
 - (id);
@@ -23,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)=;
 - (id);
 - (id);
 - (void);
@@ -44,17 +40,12 @@
 - (void);
 - (struct CGRect);
 - (id);
-- (void);
+- (void);
 - (void)ïÐ1Â0@ù
 × ;
 
 // Remaining properties
 @property(retain, nonatomic) SXTextTangierDocumentRoot *documentRoot; // @synthesize documentRoot=_documentRoot;
-@property(retain, nonatomic) NSSet *exclusionPaths; // @synthesize exclusionPaths=_exclusionPaths;
-@property(retain, nonatomic) TSDLayoutController *layoutController; // @synthesize layoutController=_layoutController;
-@property(readonly, nonatomic) NSArray *paragraphRanges;
-@property(retain, nonatomic) SXTextTangierContainerInfo *textInfo; // @synthesize textInfo=_textInfo;
-@property(retain, nonatomic) SXTextSource *textSource; // @synthesize textSource=_textSource;
 
 @end
 

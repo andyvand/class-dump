@@ -6,17 +6,14 @@
 
 #import <JetEngine/JETreatmentAction.h>
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface JEDeresNumberTreatmentAction : JETreatmentAction
 {
     double _precision;
-    NSArray *_buckets;
 }
 
 - (id);
-- (id);
+- (id)P;
 - (void);
 
 @end

@@ -6,14 +6,11 @@
 
 #import <MapsSuggestions/MapsSuggestionsBaseSource.h>
 
-@class MapsSuggestionsAppGuardian, MapsSuggestionsEventKit, NSObject, NSString;
-@protocol MapsSuggestionsSourceDelegate, OS_dispatch_queue;
+@class MapsSuggestionsEventKit, NSString;
 
 @interface MapsSuggestionsCalendarSource : MapsSuggestionsBaseSource
 {
     MapsSuggestionsEventKit *_eventKit;
-    MapsSuggestionsAppGuardian *_guardian;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (_Bool);
@@ -22,7 +19,7 @@
 - (_Bool);
 - (id);
 - (double);
-- (void);
+- (void)!;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -30,14 +27,6 @@
 - (void)"<MapsSuggestionsBiomeConnector>";
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MapsSuggestionsSourceDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSString *uniqueName;
 
 @end

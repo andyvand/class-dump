@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, RFSummaryItemStandardCardSection;
+@class NSData, NSDictionary, RFSummaryItemStandardCardSection;
 
 @protocol RFExpandableStandardCardSection
+- (NSData *);
+- (NSDictionary *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSArray *expanding_component_content;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) RFSummaryItemStandardCardSection *summary_item_standard_card_section;
 @end
 

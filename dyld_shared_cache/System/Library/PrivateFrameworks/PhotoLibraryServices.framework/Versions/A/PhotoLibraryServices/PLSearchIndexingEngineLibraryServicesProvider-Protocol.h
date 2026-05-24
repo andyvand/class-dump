@@ -5,6 +5,8 @@
 //
 
 @protocol PLSearchIndexingEngineLibraryServicesProvider
+- (id);
+- (id);
 - (id)L;
 - (id)Ò·;PEÿ;
 @end

@@ -5,5 +5,16 @@
 //
 
 @protocol FamilyControls.FamilyControlsAgentPrivate
+- (void)2 (WFDateFormatStyle);
+- (void);
+- (void)Date;
+- (void)tion Name);
+- (void)/reports/tr35/tr35-31/tr35-dates.html#Date_Format_Patterns).;
+- (void)ings use the format patterns from Unicode Technical Standard #35 (unicode.org/reports/tr35/tr35-31/tr35-dates.html#Date_Format_Patterns).;
+- (void)WFFormatDateAction;
+- (void)WFScreenshotAccessResource;
+- (void)Contextual Assistance Layers (WFTakeScreenshotIgnoreContextualAssistanceLayers);
+- (void)Type);
+- (void)WFTakeScreenshotScreenshotType;
 @end
 

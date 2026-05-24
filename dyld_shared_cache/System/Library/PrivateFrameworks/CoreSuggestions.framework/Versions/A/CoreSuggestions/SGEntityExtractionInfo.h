@@ -9,11 +9,6 @@
 @interface SGEntityExtractionInfo
 {
     NSString *_spotlightIdentifier;
-    NSString *_source;
-    long long _entityType;
-    struct SGUnixTimestamp_ _creationTimestamp;
-    long long _extractionType;
-    NSString *_contactIdentifier;
 }
 
 + (_Bool);
@@ -22,7 +17,7 @@
 - (long long);
 - (struct SGUnixTimestamp_);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (id);
 - (void);
@@ -31,11 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(readonly, nonatomic) struct SGUnixTimestamp_ creationTimestamp; // @synthesize creationTimestamp=_creationTimestamp;
-@property(readonly, nonatomic) long long entityType; // @synthesize entityType=_entityType;
-@property(readonly, nonatomic) long long extractionType; // @synthesize extractionType=_extractionType;
-@property(readonly, nonatomic) NSString *source; // @synthesize source=_source;
 @property(readonly, nonatomic) NSString *spotlightIdentifier; // @synthesize spotlightIdentifier=_spotlightIdentifier;
 
 @end

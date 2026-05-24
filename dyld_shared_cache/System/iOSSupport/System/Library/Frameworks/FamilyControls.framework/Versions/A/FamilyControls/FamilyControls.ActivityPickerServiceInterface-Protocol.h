@@ -5,5 +5,7 @@
 //
 
 @protocol FamilyControls.ActivityPickerServiceInterface
+- (void)e Main Display Only (WFTakeScreenshotMainMonitorOnly);
+- (void)WFTakeScreenshotMainMonitorOnly;
 @end
 

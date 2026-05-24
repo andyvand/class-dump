@@ -5,15 +5,11 @@
 //
 
 @class NSString;
-@protocol FCChannelProviding;
 
 @protocol FCPurchaseAccessCheckable
 - (_Bool)entoryType>",R,N,V_globalInventory;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isBundlePaid) _Bool bundlePaid;
 @property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, nonatomic, getter=isPaid) _Bool paid;
-@property(readonly, copy, nonatomic) id <FCChannelProviding> sourceChannel;
 @end
 

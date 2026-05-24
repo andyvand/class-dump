@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, UIFont;
+@class UIColor;
 
 __attribute__((visibility("hidden")))
 @interface _UIBadgeVisualStyle
 {
 }
 
-- (double);
+- (double)K0S$VLYh]<`(bd;
 - (id);
 - (double)_UIDatePickerContainerViewController;
-- (double)ew;
+- (double)_UIPageControlIndicatorContentView;
 - (id)future version.;
 - (double)toolbar visual provider class, falling back to the default.;
 - (double)egistration:forIndexPath:item:or -dequeueReusableCellWithReuseIdentifier:forIndexPath:. Collection view:%@; index path:%@; cell:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) double cornerRadius;
 @property(readonly, nonatomic) UIColor *defaultBadgeColor;
-@property(readonly, nonatomic) double edgePadding;
-@property(readonly, nonatomic) UIFont *font;
-@property(readonly, nonatomic) double fontSize;
-@property(readonly, nonatomic) double maxWidth;
-@property(readonly, nonatomic) double minWidth;
 
 @end
 

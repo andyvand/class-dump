@@ -12,14 +12,14 @@
 }
 
 + (_Bool);
-- (id);
+- (id)_deviceBoost;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (void);
+- (void)?;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *chatGuid; // @synthesize chatGuid=_chatGuid;

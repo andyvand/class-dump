@@ -5,15 +5,12 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface OITSUDelayTimer
 {
     _Bool _automaticallyCancelPendingBlockUponSchedulingNewBlock;
-    _Bool _cancelled;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSObject<OS_dispatch_source> *_dispatchTimer;
 }
 
 - (void);
@@ -23,19 +20,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
+- (id)guardianPolicy;
 - (id);
-- (id);
+- (_Bool)>;
+- (void)q};
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
-- (void)FormatterSymbolsFallbackDictionary;
+- (void)numberFormatterSymbolsFallbackDictionary;
 
 // Remaining properties
-@property(nonatomic, getter=_isCancelled, setter=_setCancelled:) _Bool _cancelled; // @synthesize _cancelled;
 @property(retain, nonatomic, setter=_setDispatchQueue:) NSObject<OS_dispatch_queue> *_dispatchQueue; // @synthesize _dispatchQueue;
-@property(retain, nonatomic, setter=_setDispatchTimer:) NSObject<OS_dispatch_source> *_dispatchTimer; // @synthesize _dispatchTimer;
-@property(nonatomic) _Bool automaticallyCancelPendingBlockUponSchedulingNewBlock; // @synthesize automaticallyCancelPendingBlockUponSchedulingNewBlock=_automaticallyCancelPendingBlockUponSchedulingNewBlock;
 
 @end
 

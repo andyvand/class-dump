@@ -7,6 +7,7 @@
 @protocol HAP2AccessoryServerPairingDriver;
 
 @protocol HAP2UnpairedAccessoryServerPrivate
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <HAP2AccessoryServerPairingDriver> pairingDriver;

@@ -4,34 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEORPFeedbackComponent
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_values;
-    int _status;
-    int _type;
-    struct {
-        unsigned int has_status:1;
-        unsigned int has_type:1;
-    } _flags;
 }
 
-+ (Class);
-+ (_Bool)etIsStrictGeocoding:(id)arg1;
++ (Class)ap failed for file %s:[%d] %s /* Error: Ran out of types for this method. */;
++ (_Bool)setIsStrictGeocoding:(id)arg1;
 - (void);
-- (id);
+- (id)9c;
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)?;
 - (int);
 - (void);
 - (_Bool);
@@ -40,9 +33,9 @@
 × ;
 - (id)"has_userPreferredTransportType"b1"has_beepBeforeInstruction"b1"has_muteSpeechOverride"b1"has_pauseSpokenAudio"b1"has_shouldUseGuidanceEventManager"b1"has_speechEnabled"b1};
 - (id)ms"b1"wrote_anyField"b1};
-- (int): /* Error: Ran out of types for this method. */;
-- (void)Time;
-- (id);
+- (int)parseResponseTypeWithReader: /* Error: Ran out of types for this method. */;
+- (void)hasArrivalTime;
+- (id)addTitleElements: /* Error: Ran out of types for this method. */;
 - (int)@35;
 - (id)Èvxì<<<	È¢ø¤¦<¨T©8¯d°	ÈµT¶;
 - (id)kCluster is nil for artworkIndex:(int)arg1 %lu;
@@ -58,12 +51,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasStatus;
 @property(nonatomic) _Bool hasType;
-@property(nonatomic) int status;
-@property(nonatomic) int type;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) NSMutableArray *values;
 
 @end
 

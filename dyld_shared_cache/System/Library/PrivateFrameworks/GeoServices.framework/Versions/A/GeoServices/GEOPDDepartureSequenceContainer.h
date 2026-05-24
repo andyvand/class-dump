@@ -4,40 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDDepartureSequenceContainer
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_62a50c50 _departureSequenceIndexs;
-    NSString *_displayName;
-    NSMutableArray *_labels;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _isSignificant;
-    struct {
-        unsigned int has_isSignificant:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_departureSequenceIndexs:1;
-        unsigned int read_displayName:1;
-        unsigned int read_labels:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (void);
 - (id);
 - (void);
-- (id);
-- (unsigned long long);
+- (id)ggerAssetDownloadMonitor;
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)onInfo";
-- (id)oordinateFromQueryValue: /* Error: Ran out of types for this method. */;
+- (id)_coordinateFromQueryValue: /* Error: Ran out of types for this method. */;
 - (id)ÈçÄêÜëì íî;
 - (void);
 

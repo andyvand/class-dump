@@ -15,30 +15,23 @@
 - (id);
 - (id);
 - (id);
+- (id)y;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (long long);
-- (_Bool);
+- (_Bool)ticipant(s) on invalid stack ;
 - (void);
 - (id);
 - (void)!>&°!¼Bù±ç)Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) long long type;
 
 @end

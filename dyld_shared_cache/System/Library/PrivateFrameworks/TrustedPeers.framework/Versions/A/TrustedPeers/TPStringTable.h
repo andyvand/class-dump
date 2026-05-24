@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface TPStringTable
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSHashTable *_table;
 }
 
 + (id);
@@ -21,14 +20,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
-- (void);
+- (id)`;
+- (void)amePrefix:(id)arg1 %s;
 - (void);
 
 // Remaining properties
 @property(readonly) unsigned long long _count;
-@property(retain) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain) NSHashTable *table; // @synthesize table=_table;
 
 @end
 

@@ -15,11 +15,10 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)charge_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_4;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CalDAVUpdateOwnerItem *changedBy; // @synthesize changedBy=_changedBy;
 @property(readonly, nonatomic) NSURL *fullHrefURL;
 
 @end

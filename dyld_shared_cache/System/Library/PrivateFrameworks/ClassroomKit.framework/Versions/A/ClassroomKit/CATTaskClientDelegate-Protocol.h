@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CATTaskClient;
+
 @protocol CATTaskClientDelegate
+
+@optional
+- (void)setStartResolve:(CATTaskClient *)arg1;
+- (void);
 @end
 

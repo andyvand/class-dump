@@ -11,9 +11,9 @@
 }
 
 + (Class);
-+ (id);
++ (id)isPosition:atBoundary:inDirection: /* Error: Ran out of types for this method. */;
 + (void);
-- (id);
+- (id)PKPaymentAuthorizationFooterViewAccessibility;
 
 @end
 

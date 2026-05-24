@@ -9,13 +9,12 @@
 @interface IDSStunConnectionDataController
 {
     NSMutableDictionary *_tokenToConnectionData;
-    NSMutableDictionary *_tokenToDeliveryStatus;
 }
 
 + (id);
 - (void);
 - (void);
-- (id);
+- (id)C;
 - (id);
 - (unsigned long long);
 - (void)d hmac key.;

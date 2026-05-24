@@ -4,34 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class C2MetricOptions, NSNumber, NSString, NSUUID;
-
 @interface C2MetricRequestOptions
 {
     unsigned char _allowsCellularAccess;
-    unsigned char __allowsExpensiveAccess;
-    unsigned char __allowsPowerNapScheduling;
-    NSString *__sourceApplicationBundleIdentifier;
-    NSString *__sourceApplicationSecondaryIdentifier;
-    NSNumber *_privacyProxyFailClosedOverride;
-    NSNumber *_useNWLoaderOverride;
-    NSUUID *_metricUUID;
-    C2MetricOptions *_metricOptions;
 }
 
 - (id);
-- (void);
-- (void);
+- (void)P;
+- (void)@0:(id)arg1 8r^@16r^@24Q32;
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)(;
 - (void);
 - (id);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void);
+- (id);
+- (id)(;
 - (id);
 - (void);
 - (void);
@@ -43,15 +33,7 @@
 - (unsigned char)llowExpensive=%{public}@:powerNap=%{public}@:app=%{public}@:2app=%{public}@:pool=%{public}@:tlsPinning=%{public}@:retryNetworkFailures=%{public}@:disc=%{public}@:duet=%{public}@:reqTimeout=%.2f:resTimeout=%.2f:appleIdSessionId=%{public}@:metricRequest=%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned char _allowsExpensiveAccess; // @synthesize _allowsExpensiveAccess=__allowsExpensiveAccess;
-@property(nonatomic) unsigned char _allowsPowerNapScheduling; // @synthesize _allowsPowerNapScheduling=__allowsPowerNapScheduling;
-@property(retain, nonatomic) NSString *_sourceApplicationBundleIdentifier; // @synthesize _sourceApplicationBundleIdentifier=__sourceApplicationBundleIdentifier;
-@property(retain, nonatomic) NSString *_sourceApplicationSecondaryIdentifier; // @synthesize _sourceApplicationSecondaryIdentifier=__sourceApplicationSecondaryIdentifier;
 @property(nonatomic) unsigned char allowsCellularAccess; // @synthesize allowsCellularAccess=_allowsCellularAccess;
-@property(retain, nonatomic) C2MetricOptions *metricOptions; // @synthesize metricOptions=_metricOptions;
-@property(retain, nonatomic) NSUUID *metricUUID; // @synthesize metricUUID=_metricUUID;
-@property(nonatomic) NSNumber *privacyProxyFailClosedOverride; // @synthesize privacyProxyFailClosedOverride=_privacyProxyFailClosedOverride;
-@property(nonatomic) NSNumber *useNWLoaderOverride; // @synthesize useNWLoaderOverride=_useNWLoaderOverride;
 
 @end
 

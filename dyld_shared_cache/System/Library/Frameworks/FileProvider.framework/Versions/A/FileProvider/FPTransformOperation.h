@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface FPTransformOperation : FPActionOperation
 {
     NSArray *_items;
-    CDUnknownBlockType _transformCompletionBlock;
 }
 
 + (id)tensionContext could not get the bundle record for the current process.;
@@ -20,20 +19,19 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (void);
+- (void)M;
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void)!>&°!ðBù±ç)Ð1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(copy, nonatomic) CDUnknownBlockType transformCompletionBlock; // @synthesize transformCompletionBlock=_transformCompletionBlock;
 
 @end
 

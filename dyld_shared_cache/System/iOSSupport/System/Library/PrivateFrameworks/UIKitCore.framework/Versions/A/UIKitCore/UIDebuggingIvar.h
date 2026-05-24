@@ -10,22 +10,17 @@ __attribute__((visibility("hidden")))
 @interface UIDebuggingIvar
 {
     NSString *_name;
-    NSString *_typeDescription;
-    id _value;
-    NSObject *_object;
-    struct objc_ivar *_objcIvar;
-    const char *_typeEncoding;
 }
 
 + (id);
+- (void)rm downgrade/routing check. Is the account and service set correctly?;
+- (void)n unlock but first unlock notifications were missed, performing first unlock as if we did just now;
+- (struct objc_ivar *)%@;
 - (void);
-- (void);
-- (struct objc_ivar *);
-- (void);
-- (id);
+- (id)E�;
 - (const char *);
 - (id);
-- (void);
+- (void)buildRequiredOnlyWithIdentifier:(id)arg1 withEnable: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -35,14 +30,7 @@ __attribute__((visibility("hidden")))
 - (void)¬¹Ò$È];
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isObject;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) struct objc_ivar *objcIvar; // @synthesize objcIvar=_objcIvar;
 @property(nonatomic) NSObject *object; // @synthesize object=_object;
-@property(copy, nonatomic) NSString *typeDescription; // @synthesize typeDescription=_typeDescription;
-@property(nonatomic) const char *typeEncoding; // @synthesize typeEncoding=_typeEncoding;
-@property(nonatomic) id value; // @synthesize value=_value;
-@property(readonly, nonatomic) NSString *valueDescription;
 
 @end
 

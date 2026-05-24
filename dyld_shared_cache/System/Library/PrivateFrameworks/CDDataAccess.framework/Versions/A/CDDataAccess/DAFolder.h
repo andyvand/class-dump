@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface DAFolder
 {
     _Bool _isDefault;
-    _Bool _hasRemoteChanges;
-    NSString *_folderName;
-    NSString *_folderID;
-    NSString *_parentFolderID;
-    long long _dataclass;
 }
 
 - (void);
@@ -36,12 +29,7 @@
 - (id)efusing to delete password from keychain because one or more of the necessary fields are null:%@%@%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) long long dataclass; // @synthesize dataclass=_dataclass;
-@property(copy, nonatomic) NSString *folderID; // @synthesize folderID=_folderID;
-@property(copy, nonatomic) NSString *folderName; // @synthesize folderName=_folderName;
 @property(nonatomic) _Bool hasRemoteChanges; // @synthesize hasRemoteChanges=_hasRemoteChanges;
-@property(nonatomic) _Bool isDefault; // @synthesize isDefault=_isDefault;
-@property(copy, nonatomic) NSString *parentFolderID; // @synthesize parentFolderID=_parentFolderID;
 
 @end
 

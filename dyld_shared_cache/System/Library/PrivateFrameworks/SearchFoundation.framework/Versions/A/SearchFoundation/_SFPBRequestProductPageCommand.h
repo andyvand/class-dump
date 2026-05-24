@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _SFPBRequestProductPageCommand
 {
     NSString *_distributorBundleIdentifier;
-    unsigned long long _itemIdentifier;
-    unsigned long long _versionIdentifier;
 }
 
 - (id);
@@ -22,26 +20,16 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool):(id)arg1;
+- (id)resourceURLForRole:(id)arg1;
+- (id)ectionList hierarchy for %@;
 - (id);
 - (id);
 - (void)"_SFPBRFMultiButtonCardSection"16;
 - (unsigned long long)#g&m2;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSString *distributorBundleIdentifier; // @synthesize distributorBundleIdentifier=_distributorBundleIdentifier;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long itemIdentifier; // @synthesize itemIdentifier=_itemIdentifier;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long versionIdentifier; // @synthesize versionIdentifier=_versionIdentifier;
 
 @end
 

@@ -4,45 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDModifyRecordsOperation, CKDPCSCache, CKDPCSManager, CKDProgressTracker, CKDRecordPCSData, CKDSharePCSData, CKDZonePCSData, CKRecord, CKRecordID, NSDictionary, NSError, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_group;
+@class CKRecord;
 
 @interface CKDModifyRecordHandler
 {
     _Bool _isDelete;
-    _Bool _saveCompletionBlockCalled;
-    _Bool _needsRefetch;
-    _Bool _didAttemptZoneWideShareKeyRoll;
-    _Bool _didRollRecordPCSMasterKey;
-    int _saveAttempts;
-    CKDModifyRecordsOperation *_operation;
-    CKRecord *_record;
-    CKRecordID *_recordID;
-    NSObject<OS_dispatch_group> *_pcsGroup;
-    CKDRecordPCSData *_recordPCSData;
-    CKDSharePCSData *_sharePCSData;
-    CKRecord *_serverRecord;
-    NSString *_etag;
-    unsigned long long _state;
-    NSError *_error;
-    NSMutableDictionary *_rereferencedAssetArrayByFieldname;
-    CKDProgressTracker *_progressTracker;
-    long long _batchRank;
-    CKDZonePCSData *_sharedZonePCSData;
-    NSDictionary *_assetUUIDToExpectedProperties;
 }
 
 + (id);
 + (id);
 + (id);
-- (id);
-- (id);
+- (id)noVerb::common_VoiceCommand /* Error: Ran out of types for this method. */;
+- (id)`;
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -50,43 +29,58 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)d display size:(unsigned long long)arg1 %.1f x %.1f
+;
 - (void);
 - (id);
+- (void)2;
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)inCompatibilityModeEnabledDuration;
+- (_Bool)r;
 - (unsigned long long);
 - (void);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)_iteratePersistedMessagesDroppingLockForMatchingQuery:(id *)arg1 limit:batchSize:cancelationToken:requireProtectedData:handler:completion: /* Error: Ran out of types for this method. */;
+- (id)̌;
+- (void)G;
+- (_Bool)_red_flag,   has_orange_flag,   has_yellow_flag,   has_green_flag,   has_blue_flag,   has_purple_flag,   has_gray_flag,   is_icloud_cleanup ) VALUES (  :(id)arg1 scope,   :(struct _OpaquePCSShareProtection *)arg2 conversation_id,   :(id)arg3 date,   :(id)arg4 display_date,   :read_later_date,   (SELECT count(DISTINCT ifnull(message_id, ROWID || '-fake-message-id')) FROM temp_thread_scope_message WHERE conversation_id = :conversation_id),   :journaled,   :has_unflagged,   :has_attachments,   :read,   :flagged,   :draft,   :replied,   :forwarded,   :redirected,   :junk_level_set_by_user,   :junk_level,   :has_Red_flag,   :has_Orange_flag,   :has_Yellow_flag,   :has_Green_flag,   :has_Blue_flag,   :has_Purple_flag,   :has_Gray_flag,   :is_icloud_cleanup ) ON CONFLICT (scope, conversation) DO UPDATE SET   date = max(date, excluded.date),   display_date = max(display_date, excluded.display_date),   read_later_date = max(read_later_date, excluded.read_later_date),   count = excluded.count,   journaled = journaled OR excluded.journaled,   has_attachments = has_attachments OR excluded.has_attachments,   has_attachments = has_attachments OR excluded.has_attachments,   read = read AND excluded.read,   flagged = flagged OR excluded.flagged,   draft = draft OR excluded.draft,   replied = replied OR excluded.replied,   forwarded = forwarded OR excluded.forwarded,   redirected = redirected OR excluded.redirected,   junk_level_set_by_user = junk_level_set_by_user OR excluded.junk_level_set_by_user,   junk_level = min(junk_level, excluded.junk_level),   has_red_flag = has_red_flag OR excluded.has_red_flag,   has_orange_flag = has_orange_flag OR excluded.has_orange_flag,   has_yellow_flag = has_yellow_flag OR excluded.has_yellow_flag,   has_green_flag = has_green_flag OR excluded.has_green_flag,   has_blue_flag = has_blue_flag OR excluded.has_blue_flag,   has_purple_flag = has_purple_flag OR excluded.has_purple_flag,   has_gray_flag = has_gray_flag OR excluded.has_gray_flag,   is_icloud_cleanup = is_icloud_cleanup OR excluded.is_icloud_cleanup WHERE count != excluded.count; /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (void);
 - (_Bool);
 - (void);
 - (id);
 - (void);
+- (_Bool);
+- (void);
+- (id);
 - (void);
 - (void);
+- (void)lIGlQaG9uZSBBY3RpdmF0aW9uMIGfMA0GCSqG
+SIb3DQEBAQUAA4GNADCBiQKBgQDFAXzRImArmoiHfbS2oPcqAfbEv0d1jk7GbnX7
++4YUlyIfprzBVdlmz2JHYv1+04IzJtL7cL97UI7fk0i0OMY0al8a+JPQa4Ug611T
+bqEt+njAmAkge3HXWDBdAXD9MhkC7T/9o77zOQ1oli4cUdzlnYWfzmW0PduOxuve
+AeYY4wIDAQABo4GbMIGYMA4GA1UdDwEB/wQEAwIHgDAMBgNVHRMBAf8EAjAAMB0G
+A1UdDgQWBBShoNL+t7Rz/psUaq/NPXNPH+/WlDAfBgNVHSMEGDAWgBTnNCouIt45
+YGu0lM53g2EvMaB8NTA4BgNVHR8EMTAvMC2gK6AphidodHRwOi8vd3d3LmFwcGxl
+LmNvbS9hcHBsZWNhL2lwaG9uZS5jcmwwDQYJKoZIhvcNAQEFBQADggEBAF9qmrUN
+dA+FROYGP7pWcYTAK+pLyOf9zOaE7aeVI885V8Y/BKHhlwAo+zEkiOU3FbEPCS9V
+tS18ZBcwD/+d5ZQTMFknhcUJwdPqqjnm9LqTfH/x4pw8ONHRDzxHdp96gOV3A4+8
+abkoASfcYqvIRypXnbur3bRRhTzAs4VILS6jTyFYymZeSewtBubmmigo1kCQiZGc
+76c5feDAyHb2bzEqtvx3WprljtS46QT5CR6YelinZnio32jAzRYTxtS6r3JsvZDi
+J07+EHcmfGdpxwgO+7btW1pFar0ZjF9/jYKKnOYNyvCrwszhafbSYwzAG5EJoXFB
+4d+piWHUDcPxtcc=
+-----END CERTIFICATE-----;
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (id)!ØFùÜÐ1Â0@ù
 × ;
-- (void)date;
+- (void)invalidate;
 - (_Bool)d;
-- (void)enceSignature;
-- (id)loadedFileSize;
+- (void)referenceSignature;
+- (id)assetsUploadedFileSize;
 - (id)CS oplock failed;
 - (void);
 - (void)Server requested an AutoBugCapture snapshot to be triggered with reason:(id)arg1 %{public}@";
@@ -130,31 +124,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *assetUUIDToExpectedProperties; // @synthesize assetUUIDToExpectedProperties=_assetUUIDToExpectedProperties;
-@property(nonatomic) long long batchRank; // @synthesize batchRank=_batchRank;
-@property(nonatomic) _Bool didAttemptZoneWideShareKeyRoll; // @synthesize didAttemptZoneWideShareKeyRoll=_didAttemptZoneWideShareKeyRoll;
-@property(nonatomic) _Bool didRollRecordPCSMasterKey; // @synthesize didRollRecordPCSMasterKey=_didRollRecordPCSMasterKey;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(retain, nonatomic) NSString *etag; // @synthesize etag=_etag;
-@property(nonatomic) _Bool isDelete; // @synthesize isDelete=_isDelete;
-@property(readonly, nonatomic) _Bool isShare;
-@property(nonatomic) _Bool needsRefetch; // @synthesize needsRefetch=_needsRefetch;
-@property(nonatomic) __weak CKDModifyRecordsOperation *operation; // @synthesize operation=_operation;
-@property(readonly, nonatomic) CKDPCSCache *pcsCache;
-@property(retain, nonatomic) NSObject<OS_dispatch_group> *pcsGroup; // @synthesize pcsGroup=_pcsGroup;
-@property(readonly, nonatomic) CKDPCSManager *pcsManager;
-@property(retain, nonatomic) CKDProgressTracker *progressTracker; // @synthesize progressTracker=_progressTracker;
 @property(retain, nonatomic) CKRecord *record; // @synthesize record=_record;
-@property(retain, nonatomic) CKRecordID *recordID; // @synthesize recordID=_recordID;
-@property(retain, nonatomic) CKDRecordPCSData *recordPCSData; // @synthesize recordPCSData=_recordPCSData;
-@property(readonly, nonatomic) _Bool requiresPCS;
-@property(retain, nonatomic) NSMutableDictionary *rereferencedAssetArrayByFieldname; // @synthesize rereferencedAssetArrayByFieldname=_rereferencedAssetArrayByFieldname;
-@property(nonatomic) int saveAttempts; // @synthesize saveAttempts=_saveAttempts;
-@property(nonatomic) _Bool saveCompletionBlockCalled; // @synthesize saveCompletionBlockCalled=_saveCompletionBlockCalled;
-@property(retain, nonatomic) CKRecord *serverRecord; // @synthesize serverRecord=_serverRecord;
-@property(retain, nonatomic) CKDSharePCSData *sharePCSData; // @synthesize sharePCSData=_sharePCSData;
-@property(retain, nonatomic) CKDZonePCSData *sharedZonePCSData; // @synthesize sharedZonePCSData=_sharedZonePCSData;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
 
 @end
 

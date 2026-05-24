@@ -4,24 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_os_log, PILTransportProtocol;
-
 __attribute__((visibility("hidden")))
 @interface PILController
 {
     float _knownNits;
-    unsigned int _knownDutyCycle;
-    _Bool _running;
-    NSObject<OS_os_log> *_logHandle;
-    id <PILTransportProtocol> _transport;
-    struct PILDefaults _defaults;
-    _Bool _isIndicatorEnabled;
-    _Bool _dutyCycleRangeFetched;
-    float _calibrationScalar;
-    float _systemDesiredScalar;
-    unsigned int _minimumDutyCycle;
-    unsigned int _maximumDutyCycle;
 }
 
 - (float);
@@ -49,20 +35,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property float calibrationScalar; // @synthesize calibrationScalar=_calibrationScalar;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) _Bool dutyCycleRangeFetched; // @synthesize dutyCycleRangeFetched=_dutyCycleRangeFetched;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isIndicatorEnabled; // @synthesize isIndicatorEnabled=_isIndicatorEnabled;
-@property(readonly) float maximumAchievableBrightness;
-@property(readonly) unsigned int maximumDutyCycle; // @synthesize maximumDutyCycle=_maximumDutyCycle;
-@property(readonly) float minimumAchievableBrightness;
-@property(readonly) unsigned int minimumDutyCycle; // @synthesize minimumDutyCycle=_minimumDutyCycle;
-@property(readonly) Class superclass;
-@property float systemDesiredScalar; // @synthesize systemDesiredScalar=_systemDesiredScalar;
 
 @end
 

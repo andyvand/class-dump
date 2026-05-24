@@ -11,16 +11,11 @@
 @interface PARLookupRequest : PARRequest
 {
     NSString *_queryString;
-    NSString *_queryContext;
-    NSString *_domain;
-    long long _lookupSelectionType;
-    NSString *_appBundleId;
-    NSString *_preferredLanguage;
 }
 
 + (_Bool);
-- (void);
-- (long long);
+- (void)) [Target = WebKit:(long long)arg1:WebContextMenuListenerProxy, Source = API::Object] /* Error: Ran out of types for this method. */;
+- (long long)API::ContentWorld, WeakPtrImpl = WTF::DefaultWeakPtrImpl] /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (void);
 - (id);
@@ -29,20 +24,15 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)autocompleteFetchDidEndNetworkActivity:(id)arg1;
+- (void)N,V_coreTelephonyClient;
 - (id);
-- (id);
+- (id);
 - (id);
 - (Class);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *appBundleId; // @synthesize appBundleId=_appBundleId;
-@property(copy, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(nonatomic) long long lookupSelectionType; // @synthesize lookupSelectionType=_lookupSelectionType;
-@property(retain, nonatomic) NSString *preferredLanguage; // @synthesize preferredLanguage=_preferredLanguage;
-@property(copy, nonatomic) NSString *queryContext; // @synthesize queryContext=_queryContext;
 @property(copy, nonatomic) NSString *queryString; // @synthesize queryString=_queryString;
 
 @end

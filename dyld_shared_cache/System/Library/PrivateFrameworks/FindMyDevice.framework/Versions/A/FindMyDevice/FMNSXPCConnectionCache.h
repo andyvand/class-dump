@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface FMNSXPCConnectionCache
 {
     NSObject<OS_dispatch_queue> *_modsSerialQueue;
-    NSMutableDictionary *_connectionsByServiceName;
 }
 
-+ (id);
++ (id)CATRemoteConnectionSocketOptions;
 - (void);
 - (id);
 - (void);
@@ -24,7 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *connectionsByServiceName; // @synthesize connectionsByServiceName=_connectionsByServiceName;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *modsSerialQueue; // @synthesize modsSerialQueue=_modsSerialQueue;
 
 @end

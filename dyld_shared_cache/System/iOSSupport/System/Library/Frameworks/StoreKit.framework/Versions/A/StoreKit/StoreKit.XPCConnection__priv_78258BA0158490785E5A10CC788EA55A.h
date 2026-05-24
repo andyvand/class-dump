@@ -7,7 +7,6 @@
 @interface StoreKit.XPCConnection__priv_78258BA0158490785E5A10CC788EA55A
 {
     id connection;
-    id connectionKey;
 }
 
 @end

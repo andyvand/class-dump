@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectContext, NSPersistentContainer;
+@class NSManagedObjectContext;
 
 __attribute__((visibility("hidden")))
 @interface VSPersistentContainer
 {
     long long _modelVersion;
-    NSManagedObjectContext *_viewContext;
-    NSPersistentContainer *_persistentContainer;
 }
 
 + (id);
-+ (id);
++ (id)se"32Q40;
 - (void);
 - (void);
 - (id);
@@ -31,8 +29,6 @@ __attribute__((visibility("hidden")))
 - (id)ter must not be nil.;
 
 // Remaining properties
-@property(readonly, nonatomic) long long modelVersion; // @synthesize modelVersion=_modelVersion;
-@property(retain, nonatomic) NSPersistentContainer *persistentContainer; // @synthesize persistentContainer=_persistentContainer;
 @property(retain, nonatomic) NSManagedObjectContext *viewContext; // @synthesize viewContext=_viewContext;
 
 @end

@@ -5,5 +5,6 @@
 //
 
 @protocol SCRCDictionarySpecifierFactoryProtocol
+- (id);
 @end
 

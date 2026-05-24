@@ -9,11 +9,11 @@
 }
 
 + (_Bool);
++ (Class);
 + (Class);
-+ (Class);
-+ (long long)ntParticipantAtIndex: /* Error: Ran out of types for this method. */;
++ (long long)payloadEventParticipantAtIndex: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)rmer;
+- (id)INIntentCallRecordFilterSlotValueTransformer;
 
 @end
 

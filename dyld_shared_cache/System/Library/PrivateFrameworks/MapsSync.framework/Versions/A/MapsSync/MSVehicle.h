@@ -6,32 +6,11 @@
 
 #import <MapsSync/MapsSync.MapsSyncObject.h>
 
-@class NSData, NSDate, NSNumber, NSString;
+@class NSString;
 
 @interface MSVehicle : MapsSync.MapsSyncObject
 {
     id _colorHex;
-    id _currentVehicleState;
-    id _dateOfVehicleIngestion;
-    id _displayName;
-    id _headUnitBluetoothIdentifier;
-    id _headUnitMacAddress;
-    id _iapIdentifier;
-    id _lastStateUpdateDate;
-    id _licensePlate;
-    id _lprPowerType;
-    id _lprVehicleType;
-    id _manufacturer;
-    id _model;
-    id _pairedAppIdentifier;
-    id _positionIndex;
-    id _powerByConnector;
-    id _preferredChargingNetworks;
-    id _siriIntentsIdentifier;
-    id _supportedConnectors;
-    id _vehicleIdentifier;
-    id _vehicleType;
-    id _year;
 }
 
 + (Class);
@@ -48,9 +27,10 @@
 - (void);
 - (id);
 - (void);
-- (long long);
+- (long long)U;
 - (id);
 - (id);
+- (void)";
 - (void);
 - (void);
 - (void);
@@ -58,7 +38,6 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
@@ -73,10 +52,10 @@
 - (id);
 - (void);
 - (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)eporting=}32;
 - (id);
 - (id);
 - (void);
@@ -87,27 +66,6 @@
 
 // Remaining properties
 @property(nonatomic, copy) NSString *colorHex;
-@property(nonatomic, copy) NSData *currentVehicleState;
-@property(nonatomic, copy) NSDate *dateOfVehicleIngestion;
-@property(nonatomic, copy) NSString *displayName;
-@property(nonatomic, copy) NSString *headUnitBluetoothIdentifier;
-@property(nonatomic, copy) NSString *headUnitMacAddress;
-@property(nonatomic, copy) NSString *iapIdentifier;
-@property(nonatomic, copy) NSDate *lastStateUpdateDate;
-@property(nonatomic, copy) NSString *licensePlate;
-@property(nonatomic, copy) NSString *lprPowerType;
-@property(nonatomic, copy) NSString *lprVehicleType;
-@property(nonatomic, copy) NSString *manufacturer;
-@property(nonatomic, copy) NSString *model;
-@property(nonatomic, copy) NSString *pairedAppIdentifier;
-@property(nonatomic) long long positionIndex;
-@property(nonatomic, copy) NSData *powerByConnector;
-@property(nonatomic, copy) NSData *preferredChargingNetworks;
-@property(nonatomic, copy) NSString *siriIntentsIdentifier;
-@property(nonatomic, retain) NSNumber *supportedConnectors;
-@property(nonatomic, copy) NSString *vehicleIdentifier;
-@property(nonatomic, retain) NSNumber *vehicleType;
-@property(nonatomic, retain) NSNumber *year;
 
 @end
 

@@ -10,14 +10,12 @@
 @interface ICNotesImporterClient
 {
     NSXPCConnection *_connectionToService;
-    NSObject<OS_dispatch_queue> *_requestCountQueue;
-    unsigned long long _requestCount;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -28,10 +26,9 @@
 - (id);
 - (void);
 - (void)s:requiredFeaturesRequested:optionalFeaturesRequested:completionHandler: /* Error: Ran out of types for this method. */;
-- (unsigned long long)CompletedKey;
+- (unsigned long long)ICNoteAddPasswordFirstTimeMessageCompletedKey;
 
 // Remaining properties
-@property(nonatomic) unsigned long long requestCount; // @synthesize requestCount=_requestCount;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *requestCountQueue; // @synthesize requestCountQueue=_requestCountQueue;
 
 @end

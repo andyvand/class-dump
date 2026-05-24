@@ -15,14 +15,13 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)from serialized color string:%@ /* Error: Ran out of types for this method. */;
+- (id)om System Paper;
 - (id);
 - (struct UIEdgeInsets);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isRetractedReply;
-@property(readonly, nonatomic) _Bool isRetractedReplyThreadOriginator;
 
 @end
 

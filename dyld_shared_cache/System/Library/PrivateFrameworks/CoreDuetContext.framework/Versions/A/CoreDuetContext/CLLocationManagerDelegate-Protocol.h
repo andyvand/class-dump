@@ -5,5 +5,12 @@
 //
 
 @protocol CLLocationManagerDelegate
+
+@optional
+- (void);
+- (void);
+- (void);
+- (void)INResetTimerIntentResponseCodeUnspecified;
+- (void);
 @end
 

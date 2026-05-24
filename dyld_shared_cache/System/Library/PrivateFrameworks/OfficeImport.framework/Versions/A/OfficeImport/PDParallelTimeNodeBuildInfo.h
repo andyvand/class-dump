@@ -10,30 +10,22 @@ __attribute__((visibility("hidden")))
 @interface PDParallelTimeNodeBuildInfo
 {
     PDAnimationTarget *mTarget;
-    double mDelay;
-    double mDuration;
-    int mIterateType;
-    id mValue;
 }
 
 - (int);
 - (void);
-- (id);
+- (id)setCollapsedRepresentationChevronBehavior: /* Error: Ran out of types for this method. */;
 - (void);
-- (double);
+- (double)`;
 - (void);
-- (double);
-- (void);
-- (id);
+- (double)ider";
+- (void)imageForResource:(id)arg1 template:onCacheMiss: /* Error: Ran out of types for this method. */;
+- (id)!$;
 - (void)à;
 - (void)»ÃRôîømNJ´ã÷;
 
 // Remaining properties
-@property double delay; // @synthesize delay=mDelay;
-@property double duration; // @synthesize duration=mDuration;
-@property int iterateType; // @synthesize iterateType=mIterateType;
 @property(retain) PDAnimationTarget *target; // @synthesize target=mTarget;
-@property(retain) id value; // @synthesize value=mValue;
 
 @end
 

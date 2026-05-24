@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DMManager;
-
 __attribute__((visibility("hidden")))
 @interface DMRepairDiskPrivVars
 {
     struct __DASession *_clientDASession;
-    DMManager *_dmManager;
-    long long _verb;
 }
 
 @end

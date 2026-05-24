@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface AVMobileContentTag
 {
     float _normalizedCornerRadius;
-    NSString *_title;
-    UIColor *_tintColor;
-    UIColor *_labelTextColor;
-    unsigned long long _placement;
-    struct UIEdgeInsets _layoutMargins;
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -29,15 +24,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void)Að!Dù[1Â0@ù
 × ;
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets)setEdgesInsettingLayoutMarginsFromSafeArea: /* Error: Ran out of types for this method. */;
 - (unsigned long long)rstitialOverlayViews;
 
 // Remaining properties
-@property(readonly, nonatomic) UIColor *labelTextColor; // @synthesize labelTextColor=_labelTextColor;
-@property(readonly, nonatomic) struct UIEdgeInsets layoutMargins; // @synthesize layoutMargins=_layoutMargins;
-@property(readonly, nonatomic) float normalizedCornerRadius; // @synthesize normalizedCornerRadius=_normalizedCornerRadius;
-@property(readonly, nonatomic) unsigned long long placement; // @synthesize placement=_placement;
-@property(readonly, nonatomic) UIColor *tintColor; // @synthesize tintColor=_tintColor;
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

@@ -10,7 +10,6 @@
 - (SXJSONDictionary *)yTypeP;
 
 // Remaining properties
-@property(readonly, nonatomic) SXJSONDictionary *analytics;
 @property(readonly, nonatomic) NSString *type;
 @end
 

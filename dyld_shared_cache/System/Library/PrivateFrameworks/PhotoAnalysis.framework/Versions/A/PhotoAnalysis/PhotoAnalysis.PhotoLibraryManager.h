@@ -7,8 +7,6 @@
 @interface PhotoAnalysis.PhotoLibraryManager
 {
     id $defaultActor;
-    id photoLibrary;
-    id analytics;
 }
 
 @end

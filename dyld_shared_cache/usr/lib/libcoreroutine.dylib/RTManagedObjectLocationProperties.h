@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface RTManagedObjectLocationProperties
 {
     NSArray *_latitudePropertyPath;
-    NSArray *_longitudePropertyPath;
-    NSArray *_referenceFramePropertyPath;
 }
 
 - (id);
@@ -25,8 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *latitudePropertyPath; // @synthesize latitudePropertyPath=_latitudePropertyPath;
-@property(retain, nonatomic) NSArray *longitudePropertyPath; // @synthesize longitudePropertyPath=_longitudePropertyPath;
-@property(retain, nonatomic) NSArray *referenceFramePropertyPath; // @synthesize referenceFramePropertyPath=_referenceFramePropertyPath;
 
 @end
 

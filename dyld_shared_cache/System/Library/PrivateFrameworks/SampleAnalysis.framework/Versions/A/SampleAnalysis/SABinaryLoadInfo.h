@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SABinary, SAExclave, SASegment;
+@class SABinary;
 
 @interface SABinaryLoadInfo
 {
     SABinary *_binary;
-    SASegment *_segment;
-    unsigned long long _loadAddress;
 }
 
 + (id);
++ (id)Q;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)accessibilityChildren;
 - (unsigned long long);
 - (id);
 - (id);
@@ -33,26 +31,13 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
+- (id)B;
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly) SABinary *binary; // @synthesize binary=_binary;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) __weak SAExclave *exclave;
 @property(readonly) unsigned long long hash;
-@property(readonly) _Bool isInKernelAddressSpace;
-@property(readonly) unsigned long long length;
-@property(readonly) unsigned long long loadAddress;
-@property(readonly) SASegment *segment; // @synthesize segment=_segment;
-@property(readonly) Class superclass;
-@property(readonly) unsigned long long textSegmentLoadAddress;
 
 @end
 

@@ -23,12 +23,12 @@ __attribute__((visibility("hidden")))
 - (struct CGPoint)á	ð!@ùQf°1Â0@ù
 × ;
 - (struct CGPoint)4@0:8@"UIInterfaceAction"16 /* Error: Ran out of types for this method. */;
-- (struct CGPoint)ler:destinationIndexPathForDropSession: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)heString: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)ontentSize: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)ainerScrollView;
-- (struct CGPoint)terAsScrollToTopViewIfPossible;
-- (double)FromAttachmentPoint;
+- (struct CGPoint)tabDragController:destinationIndexPathForDropSession: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)shouldSkipCacheString: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)layoutSplitSubviewsWithLeftContentSize:rightContentSize: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)containerScrollView;
+- (struct CGPoint)_registerAsScrollToTopViewIfPossible;
+- (double)morphPreviewFromAttachmentPoint;
 - (struct CGPoint)À@ÁÄ;
 - (struct UIEdgeInsets);
 - (double)redSymbolConfigurationForImage=%@;

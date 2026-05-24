@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSObject, NSString;
+@class NSObject, NSString;
 @protocol OS_dispatch_group;
 
 @interface _PXTapToRadarDiagnosticCollectionOperation
 {
     NSObject<OS_dispatch_group> *_completionGroup;
-    _Bool _timedOut;
-    _Bool _ended;
-    _Bool _success;
-    NSError *_error;
-    NSString *_name;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void)ÍÌL¾;
 
 // Remaining properties

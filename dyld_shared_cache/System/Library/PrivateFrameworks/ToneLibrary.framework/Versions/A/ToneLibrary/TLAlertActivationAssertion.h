@@ -9,7 +9,6 @@
 @interface TLAlertActivationAssertion
 {
     TLAlert *_alert;
-    _Atomic long long _activeAcquisitionCount;
 }
 
 - (id);

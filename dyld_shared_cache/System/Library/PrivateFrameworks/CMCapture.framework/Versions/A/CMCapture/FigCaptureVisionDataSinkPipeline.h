@@ -6,18 +6,16 @@
 
 #import <CMCapture/FigCaptureRemoteQueueSinkPipeline.h>
 
-@class BWFigVideoCaptureStream, NSString;
+@class BWFigVideoCaptureStream;
 
 __attribute__((visibility("hidden")))
 @interface FigCaptureVisionDataSinkPipeline : FigCaptureRemoteQueueSinkPipeline
 {
     BWFigVideoCaptureStream *_captureStream;
-    NSString *_sourceID;
-    int _sourceDeviceType;
 }
 
 + (void)-ObjectDetection;
-- (void);
+- (void)N,VmType;
 
 @end
 

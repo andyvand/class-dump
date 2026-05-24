@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString, NSURL, PKOSVersionRequirementRange;
+@class NSString, PKOSVersionRequirementRange;
 
 @interface PKLayoutAssetLink
 {
     PKOSVersionRequirementRange *_osVersionRange;
-    NSDictionary *_configuration;
-    NSString *_name;
-    NSString *_displayText;
-    NSURL *_url;
-    NSNumber *_adamID;
 }
 
 + (id);
 + (id);
-- (void);
+- (void)ԁS;
 - (id);
 - (void);
 - (id);
@@ -27,26 +22,14 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id)NameToRecords;
+- (id)hh8);
+- (id)_zoneNameToRecords;
 - (void);
-- (void)COUNT_ON_FILE;
+- (void)ACCOUNT_ON_FILE;
 - (id)h°;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *adamID; // @synthesize adamID=_adamID;
-@property(retain, nonatomic) NSDictionary *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSString *displayText; // @synthesize displayText=_displayText;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) PKOSVersionRequirementRange *osVersionRange; // @synthesize osVersionRange=_osVersionRange;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

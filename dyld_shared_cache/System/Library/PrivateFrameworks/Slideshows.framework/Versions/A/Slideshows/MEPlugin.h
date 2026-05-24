@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MEExporter, MPDocument;
+@class MEExporter;
 
 @interface MEPlugin
 {
     MEExporter *_delegate;
-    MPDocument *_document;
 }
 
 - (id);

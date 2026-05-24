@@ -10,9 +10,9 @@
 {
 }
 
-+ (Class);
++ (Class);
 + (id);
-+ (void);
++ (void)PUTransparentViewAccessibility;
 - (_Bool);
 - (id);
 - (id);
@@ -24,10 +24,11 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id);
+- (id)H
+;
 - (unsigned long long);
-- (id);
+- (id)UILabel;
 
 @end
 

@@ -5,23 +5,14 @@
 //
 
 @class MTLAccelerationStructureDescriptor;
-@protocol MTLBuffer;
 
 @protocol MTLAccelerationStructureSPI
+- (unsigned long long)9;
 
 @optional
 - (void)izeTexture:(MTLAccelerationStructureDescriptor *)arg1 slice:level:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long accelerationStructureUniqueIdentifier;
-@property(readonly, nonatomic) id <MTLBuffer> buffer;
-@property(readonly, nonatomic) unsigned long long bufferOffset;
-@property(retain, nonatomic) MTLAccelerationStructureDescriptor *descriptor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"MTLAccelerationStructureDescriptor",?,&,N
-
-@property(readonly) unsigned long long gpuHandle;
-@property(readonly, nonatomic) unsigned long long resourceIndex;
 @property(readonly, nonatomic) unsigned long long uniqueIdentifier;
 @end
 

@@ -7,8 +7,6 @@
 @interface CalendarWidget.NarrowMultidayLayout.SingleDayViewModel.ReminderViewModel
 {
     id height;
-    id event;
-    id id;
 }
 
 @end

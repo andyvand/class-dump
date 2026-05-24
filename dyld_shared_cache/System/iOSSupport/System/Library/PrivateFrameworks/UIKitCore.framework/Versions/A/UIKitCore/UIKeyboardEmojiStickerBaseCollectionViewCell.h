@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     _Bool _cellBeingTouched;
 }
 
-- (void);
-- (_Bool);
+- (void)info:(_Bool)arg1 %@;
+- (_Bool)e.MessagesEvents;
 
 // Remaining properties
 @property(nonatomic) _Bool cellBeingTouched; // @synthesize cellBeingTouched=_cellBeingTouched;

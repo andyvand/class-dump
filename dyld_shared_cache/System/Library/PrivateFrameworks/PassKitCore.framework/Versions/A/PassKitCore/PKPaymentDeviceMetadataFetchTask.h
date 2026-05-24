@@ -9,26 +9,20 @@
 @interface PKPaymentDeviceMetadataFetchTask
 {
     PKPaymentDeviceMetadata *_deviceMetadata;
-    unsigned long long _remaningFields;
-    unsigned long long _requestedFields;
-    CDUnknownBlockType _completion;
 }
 
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)k ;
 - (void);
 - (void);
 - (unsigned long long);
 - (CDUnknownBlockType);
-- (void)ITY_SHAREABILITY_PROPAGATE_DESCRIPTION;
+- (void)CAPABILITY_SHAREABILITY_PROPAGATE_DESCRIPTION;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
 @property(retain, nonatomic) PKPaymentDeviceMetadata *deviceMetadata; // @synthesize deviceMetadata=_deviceMetadata;
-@property(nonatomic) unsigned long long remaningFields; // @synthesize remaningFields=_remaningFields;
-@property(nonatomic) unsigned long long requestedFields; // @synthesize requestedFields=_requestedFields;
 
 @end
 

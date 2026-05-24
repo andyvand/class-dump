@@ -8,20 +8,20 @@
 {
 }
 
-+ (_Bool)ncidentEndOffsetsInETARoutes:(id)arg1 count: /* Error: Ran out of types for this method. */;
++ (_Bool)setIncidentEndOffsetsInETARoutes:(id)arg1 count: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)+G;
+- (void)dictionary is nil;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)P;
 - (id)SupportedLanguages"b1"read_announcementsURL"b1"read_attributions"b1"read_authProxyURL"b1"read_authToken"b1"read_backgroundDispatcherURL"b1"read_backgroundRevGeoURL"b1"read_batchReverseGeocoderURL"b1"read_batchTrafficProbeURL"b1"read_bluePOIDispatcherURL"b1"read_businessPortalBaseURL"b1"read_dataSetURLOverrides"b1"read_dataSets"b1"read_directionsURL"b1"read_dispatcherURL"b1"read_displayStrings"b1"read_etaURL"b1"read_fontChecksums"b1"read_fonts"b1"read_iconChecksums"b1"read_icons"b1"read_locationShiftEnabledRegions"b1"read_logMessageUsageURL"b1"read_logMessageUsageV3URL"b1"read_muninBaseURL"b1"read_muninBuckets"b1"read_muninVersions"b1"read_offlineMetadatas"b1"read_polyLocationShiftURL"b1"read_proactiveRoutingURL"b1"read_problemCategoriesURL"b1"read_problemOptInURL"b1"read_problemStatusURL"b1"read_problemSubmissionURL"b1"read_realtimeTrafficProbeURL"b1"read_regionalResources"b1"read_releaseInfo"b1"read_resourcesURL"b1"read_resources"b1"read_reverseGeocoderVersionsURL"b1"read_searchAttributionManifestURL"b1"read_simpleETAURL"b1"read_spatialLookupURL"b1"read_styleSheetChecksums"b1"read_styleSheets"b1"read_textureChecksums"b1"read_textures"b1"read_tileGroups"b1"read_tileSets"b1"read_urlInfoSets"b1"read_versionManifest"b1"read_wifiConnectionQualityProbeURL"b1"read_xmlChecksums"b1"read_xmls"b1"wrote_anyField"b1};
-- (id)osureType;
+- (id)_laneClosureType;
 - (id)¬8t:< /* Error: Ran out of types for this method. */;
-- (id);
+- (id)is_unclaimable;
 
 @end
 

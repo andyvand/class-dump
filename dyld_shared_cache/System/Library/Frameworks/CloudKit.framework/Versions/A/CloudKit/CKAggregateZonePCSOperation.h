@@ -6,25 +6,23 @@
 
 #import <CloudKit/CKDatabaseOperation.h>
 
-@class CKAggregateZonePCSOperationInfo, CKRecordZone, NSArray;
+@class CKAggregateZonePCSOperationInfo;
 
 @interface CKAggregateZonePCSOperation : CKDatabaseOperation
 {
     CDUnknownBlockType _aggregateZonePCSCompletionBlock;
-    NSArray *_sourceZoneIDs;
-    CKRecordZone *_targetZone;
 }
 
 + (SEL);
 - (id);
-- (void);
+- (void)A;
 - (void);
 - (id);
 - (CDUnknownBlockType);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -35,10 +33,7 @@
 - (void)`nÏÿÅi;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType aggregateZonePCSCompletionBlock; // @synthesize aggregateZonePCSCompletionBlock=_aggregateZonePCSCompletionBlock;
 @property(readonly, nonatomic) CKAggregateZonePCSOperationInfo *operationInfo; // @dynamic operationInfo;
-@property(copy, nonatomic) NSArray *sourceZoneIDs; // @synthesize sourceZoneIDs=_sourceZoneIDs;
-@property(copy, nonatomic) CKRecordZone *targetZone; // @synthesize targetZone=_targetZone;
 
 @end
 

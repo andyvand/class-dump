@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol SKUIRemoteEngagementClientProtocol;
 
 @interface SKUIRemoteEngagementRemoteViewController
@@ -13,7 +12,7 @@
 }
 
 + (id);
-+ (id);
++ (id)ntifier is nil and notification path:%s is Downloads folder:%s. Posting notification with no identifier. /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -23,14 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <SKUIRemoteEngagementClientProtocol> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

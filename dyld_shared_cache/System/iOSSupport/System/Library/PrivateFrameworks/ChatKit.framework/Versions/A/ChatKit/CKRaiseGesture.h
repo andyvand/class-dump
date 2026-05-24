@@ -7,26 +7,21 @@
 @interface CKRaiseGesture
 {
     int proximityToken;
-    _Bool _enabled;
-    _Bool _proximityState;
-    long long _gestureState;
-    id _target;
-    SEL _action;
 }
 
-+ (_Bool);
-+ (_Bool);
-- (void);
-- (void);
++ (_Bool)Change Creation Date;
++ (_Bool)ICMDatePickerDebugWindowController;
+- (void)accountsOfHTMLSourceObjects;
+- (void)ttomLayoutConstraint;
 - (_Bool);
 - (long long);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)@;
 - (void);
 - (id);
 - (SEL)´Aúÿÿÿ;
@@ -34,11 +29,6 @@
 - (void)Ì	;
 
 // Remaining properties
-@property(nonatomic) SEL action; // @synthesize action=_action;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(nonatomic) long long gestureState; // @synthesize gestureState=_gestureState;
-@property(nonatomic) _Bool proximityState; // @synthesize proximityState=_proximityState;
-@property(readonly, nonatomic, getter=isRecognized) _Bool recognized;
 @property(nonatomic) __weak id target; // @synthesize target=_target;
 
 @end

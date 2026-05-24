@@ -9,13 +9,6 @@
 @interface ASDUpdateMetricsEvent
 {
     NSNumber *_available;
-    NSNumber *_discovery;
-    NSNumber *_purchaseStart;
-    NSNumber *_purchaseComplete;
-    NSNumber *_downloadStart;
-    NSNumber *_downloadComplete;
-    NSNumber *_installStart;
-    NSNumber *_installComplete;
 }
 
 + (id);
@@ -36,20 +29,13 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)f);
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *available; // @synthesize available=_available;
-@property(copy, nonatomic) NSNumber *discovery; // @synthesize discovery=_discovery;
-@property(copy, nonatomic) NSNumber *downloadComplete; // @synthesize downloadComplete=_downloadComplete;
-@property(copy, nonatomic) NSNumber *downloadStart; // @synthesize downloadStart=_downloadStart;
-@property(copy, nonatomic) NSNumber *installComplete; // @synthesize installComplete=_installComplete;
-@property(copy, nonatomic) NSNumber *installStart; // @synthesize installStart=_installStart;
-@property(copy, nonatomic) NSNumber *purchaseComplete; // @synthesize purchaseComplete=_purchaseComplete;
-@property(copy, nonatomic) NSNumber *purchaseStart; // @synthesize purchaseStart=_purchaseStart;
 
 @end
 

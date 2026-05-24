@@ -6,18 +6,18 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface SARemembersGetRelativeAppUsageProbabilities : SABaseClientBoundCommand
 {
 }
 
 + (id);
-+ (id);
++ (id);
 - (void);
 - (_Bool);
 - (long long);
-- (id);
+- (id);
 - (id);
 - (void);
 - (_Bool);
@@ -25,14 +25,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *bundleIDs;
-@property(nonatomic) long long days;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

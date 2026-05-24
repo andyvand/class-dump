@@ -4,33 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceDispatchQueue, BSServiceInterface, BSServiceQueue, BSXPCCoder, BSXPCServiceConnection, BSXPCServiceConnectionProxy, NSObject, NSString, RBSTarget;
-@protocol OS_xpc_object;
+@class RBSTarget;
 
 @interface BSXPCServiceConnectionEventHandler
 {
     RBSTarget *_assertionTarget;
-    BSXPCServiceConnection *_lock_connection;
-    NSObject<OS_xpc_object> *_lock_activeXPCConnection;
-    BSServiceDispatchQueue *_lock_xpcConnectionTargetQueue;
-    BSXPCServiceConnectionProxy *_lock_remoteTarget;
-    id _interfaceTarget;
-    CDUnknownBlockType _connectionHandler;
-    CDUnknownBlockType _noMoreChildrenHandler;
-    CDUnknownBlockType _messageHandler;
-    CDUnknownBlockType _errorHandler;
-    CDUnknownBlockType _activationHandler;
-    CDUnknownBlockType _interruptionHandler;
-    CDUnknownBlockType _invalidationHandler;
-    CDUnknownBlockType _batchingHandler;
-    struct os_unfair_lock_s _lock;
-    unsigned int _lock_activationGeneration;
-    _Bool _nonLaunchingAware;
-    id _calloutContext;
-    NSString *_name;
-    BSServiceQueue *_queue;
-    BSServiceInterface *_interface;
-    BSXPCCoder *_initiatingContext;
 }
 
 - (id);

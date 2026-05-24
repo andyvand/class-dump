@@ -4,33 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSUIWebClientContext, NSDictionary;
+@class AMSUIWebClientContext;
 @protocol AMSUIWebJSPropertiesDelegate;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebJSProperties
 {
     id <AMSUIWebJSPropertiesDelegate> _delegate;
-    AMSUIWebClientContext *_context;
-    NSDictionary *_lastAccountsExport;
 }
 
-- (void);
+- (void)assets being evaluated for removal:(id)arg1 %{public}@;
+- (id)KindOfClass:[NSString class]] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)_ֽ;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
 - (id);
 - (void);
+- (void);
+- (id);
+- (void)a@9;
 - (id);
 - (void);
 - (id);
@@ -41,8 +39,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property __weak AMSUIWebClientContext *context; // @synthesize context=_context;
-@property __weak id <AMSUIWebJSPropertiesDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) NSDictionary *lastAccountsExport; // @synthesize lastAccountsExport=_lastAccountsExport;
 
 @end
 

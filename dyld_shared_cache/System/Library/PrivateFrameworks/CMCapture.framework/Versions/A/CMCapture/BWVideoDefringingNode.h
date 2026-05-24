@@ -6,24 +6,15 @@
 
 #import <CMCapture/BWNode.h>
 
-@class BWLimitedGMErrorLogger, FigVideoDefringingProcessor, NSString;
-
 __attribute__((visibility("hidden")))
 @interface BWVideoDefringingNode : BWNode
 {
     _Bool _isSlomo;
-    _Bool _propagateSynchronizedSlaveFrame;
-    NSString *_sensorIDString;
-    NSString *_portType;
-    struct opaqueCMFormatDescription *_outputFormatDescription;
-    NSString *_cameraToDefringe;
-    FigVideoDefringingProcessor *_videoDefringingProcessor;
-    BWLimitedGMErrorLogger *_limitedGMErrorLogger;
 }
 
 + (void)ocalQueue >>>> Fig;
 - (id);
-- (void);
+- (void)der;
 - (void);
 - (void);
 - (void);

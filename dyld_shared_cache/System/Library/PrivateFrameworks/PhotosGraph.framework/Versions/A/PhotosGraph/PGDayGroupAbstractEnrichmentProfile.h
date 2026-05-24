@@ -4,63 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSObject, NSString, PGCurationManager, PGDejunkerDeduperOptions;
-@protocol OS_os_log;
+@class PGCurationManager;
 
 @interface PGDayGroupAbstractEnrichmentProfile
 {
     _Bool _collectsDebugInfo;
-    PGCurationManager *_curationManager;
-    NSObject<OS_os_log> *_loggingConnection;
-    PGDejunkerDeduperOptions *_extendedCurationOptions;
-    NSMutableDictionary *_mutableDebugInfos;
 }
 
-- (id);
-- (id);
-- (void);
-- (void);
-- (double);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)6@24Q32;
+- (id)6@"NSArray"24;
+- (void)_sharedKeyboardFocusedElementDestroyed:(id)arg1;
+- (void)_screenInScreens:(_Bool)arg1 closestToPoint:horizontally: /* Error: Ran out of types for this method. */;
+- (double)eDictionary",&,N,V_classMap;
+- (id)ttributes;
+- (id)crypto_decryptText_version1;
+- (id)ccgcm_init;
+- (id)G6;
+- (id)9;
+- (id);
 - (id);
 - (id);
 - (id);
 - (unsigned short);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)S;
 - (_Bool);
 - (id);
-- (void)ultDurationOfPhoto;
+- (_Bool);
+- (id);
+- (void)defaultDurationOfPhoto;
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool collectsDebugInfo; // @synthesize collectsDebugInfo=_collectsDebugInfo;
 @property(readonly, nonatomic) PGCurationManager *curationManager; // @synthesize curationManager=_curationManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSDictionary *debugInfos;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) PGDejunkerDeduperOptions *extendedCurationOptions; // @synthesize extendedCurationOptions=_extendedCurationOptions;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) NSObject<OS_os_log> *loggingConnection; // @synthesize loggingConnection=_loggingConnection;
-@property(readonly, nonatomic) NSMutableDictionary *mutableDebugInfos; // @synthesize mutableDebugInfos=_mutableDebugInfos;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned short targetEnrichmentState;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TS,?,R,N
-
 
 @end
 

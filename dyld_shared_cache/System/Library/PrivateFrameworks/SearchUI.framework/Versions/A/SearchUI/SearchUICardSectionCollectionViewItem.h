@@ -6,14 +6,11 @@
 
 #import <SearchUI/SearchUICollectionViewItem.h>
 
-@class NSView, SearchUICardSectionView;
-@protocol SearchUIResultAccessoryView;
+@class SearchUICardSectionView;
 
 @interface SearchUICardSectionCollectionViewItem : SearchUICollectionViewItem
 {
     _Bool _isHovered;
-    SearchUICardSectionView *_cardSectionView;
-    NSView<SearchUIResultAccessoryView> *_accessoryView;
 }
 
 - (id);
@@ -37,19 +34,17 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)"q};
 - (void);
 - (void);
 - (void);
 - (void);
 - (id)
 × ;
-- (void)geEntity;
+- (void)SearchUIKnowledgeEntity;
 
 // Remaining properties
-@property(retain) NSView<SearchUIResultAccessoryView> *accessoryView; // @synthesize accessoryView=_accessoryView;
 @property(retain) SearchUICardSectionView *cardSectionView; // @synthesize cardSectionView=_cardSectionView;
-@property(nonatomic) _Bool isHovered; // @synthesize isHovered=_isHovered;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSPushToken, IDSURI, NSArray, NSData, NSDictionary, NSNumber, NSString;
+@class NSDictionary;
 
 @interface IDSIncomingNiceMessage
 {
     NSDictionary *_messageDictionary;
-    NSString *_topic;
-    NSString *_cachedDescription;
 }
 
 - (_Bool);
@@ -18,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -34,7 +32,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)Z;
 - (id);
 - (id);
 - (id);
@@ -57,7 +55,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)`;
 - (id);
 - (id);
 - (id);
@@ -68,7 +66,7 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)mProgressSelector;
 - (id);
 - (id);
 - (id);
@@ -80,62 +78,7 @@
 ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *batchNumber;
-@property(retain, nonatomic) NSString *cachedDescription; // @synthesize cachedDescription=_cachedDescription;
-@property(readonly, nonatomic) NSData *certifiedDeliveryRTS;
-@property(readonly, nonatomic) NSNumber *certifiedDeliveryVersion;
-@property(readonly, nonatomic) NSNumber *command;
-@property(readonly, nonatomic) NSNumber *commandContext;
-@property(readonly, nonatomic) NSDictionary *deliveryStatusContext;
-@property(readonly, nonatomic) NSNumber *desiredProtocol;
-@property(readonly, nonatomic) NSNumber *deviceID;
-@property(readonly, nonatomic) NSData *encryptedPayload;
-@property(readonly, nonatomic) NSString *encryptionTypeStr;
-@property(readonly, nonatomic) NSNumber *expectsPeerResponse;
-@property(readonly, nonatomic) NSNumber *expirationDate;
-@property(readonly, nonatomic) NSString *failureMessageID;
-@property(readonly, nonatomic) NSNumber *failureReason;
-@property(readonly, nonatomic) NSString *failureReasonMessage;
-@property(readonly, nonatomic) IDSURI *fromURI;
-@property(readonly, nonatomic) NSData *groupIDData;
-@property(readonly, nonatomic) unsigned long long ifUnknownAction;
-@property(readonly, nonatomic) NSNumber *isBulkedPayload;
-@property(readonly, nonatomic) _Bool isTrustedSender;
-@property(readonly, nonatomic) NSNumber *messageChunkNumber;
 @property(retain, nonatomic) NSDictionary *messageDictionary; // @synthesize messageDictionary=_messageDictionary;
-@property(readonly, nonatomic) NSArray *messageList;
-@property(readonly, nonatomic) NSNumber *originalCommand;
-@property(readonly, nonatomic) NSNumber *originalTimestamp;
-@property(readonly, nonatomic) NSString *originalUUID;
-@property(readonly, nonatomic) NSData *payloadMetadataData;
-@property(readonly, nonatomic) NSString *peerResponseIdentifier;
-@property(readonly, nonatomic) NSNumber *pendingMessageCount;
-@property(readonly, nonatomic) NSNumber *pendingMessagePerSenderCount;
-@property(readonly, nonatomic) NSString *pushUUID;
-@property(readonly, nonatomic) NSString *queueOneIdentifier;
-@property(readonly, nonatomic) NSData *rawBulkedData;
-@property(readonly, nonatomic) NSDictionary *rawMessage;
-@property(readonly, nonatomic) NSData *rawUnencryptedPayload;
-@property(readonly, nonatomic) NSString *receiverShortHandle;
-@property(readonly, nonatomic) NSString *reportID;
-@property(readonly, nonatomic) NSNumber *retryCount;
-@property(readonly, nonatomic) NSString *samplingUUID;
-@property(readonly, nonatomic) IDSPushToken *senderPushToken;
-@property(readonly, nonatomic) NSString *senderShortHandle;
-@property(readonly, nonatomic) NSData *serverStorageSSM;
-@property(readonly, nonatomic) NSNumber *serverTimestamp;
-@property(readonly, nonatomic) NSNumber *snapTrustedUser;
-@property(readonly, nonatomic) NSNumber *storageContext;
-@property(readonly, nonatomic) NSString *storageFetchUUID;
-@property(readonly, nonatomic) NSNumber *storageFlags;
-@property(readonly, nonatomic) IDSURI *toURI;
-@property(retain, nonatomic) NSString *topic; // @synthesize topic=_topic;
-@property(readonly, nonatomic) NSNumber *totalBatchCount;
-@property(readonly, nonatomic) NSNumber *totalChunkCount;
-@property(readonly, nonatomic) NSData *updateHash;
-@property(readonly, nonatomic) NSNumber *wantsAppAck;
-@property(readonly, nonatomic) NSNumber *wantsCheckpointing;
-@property(readonly, nonatomic) _Bool wantsDeliveryStatus;
 
 @end
 

@@ -4,50 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAllowanceTimeControl, FCCurfewTimeControl;
+@class FCAllowanceTimeControl;
 
 @interface FCTimeControls
 {
     FCAllowanceTimeControl *_weekdayAllowance;
-    FCAllowanceTimeControl *_weekendAllowance;
-    FCCurfewTimeControl *_weekdayCurfew;
-    FCCurfewTimeControl *_weekendCurfew;
 }
 
-+ (int);
-+ (int);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (int);
-+ (void);
-+ (id);
-+ (int);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (int);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
++ (int)initWithSubcredentialIdentifier:(id)arg1;
++ (int)initWithStrokeStartT0:(id)arg1 strokeStartT1:(id)arg2 strokeEndT0:strokeEndT1: /* Error: Ran out of types for this method. */;
++ (id)dAmountCategory:(id)arg1;
++ (id)initWithStatementIdentifier:(id)arg1 transactionDate:transactionAmount:suggestedAmountCategory: /* Error: Ran out of types for this method. */;
++ (id)initWithShareablePassMetadata:(id)arg1 isoCredentialIdentifier:(id)arg2;
++ (_Bool)initWithShareableMetadata:(id)arg1;
++ (int)initWithShare:(id)arg1 pass:(id)arg2;
++ (void)initWithSetupContext:(long long)arg1 credential:(id)arg2 previouslyAcceptedTerms:(id)arg3;
++ (id)initWithSetupContext:credential:previouslyAcceptedTerms: /* Error: Ran out of types for this method. */;
++ (int)initWithSessionInfo:(id)arg1 userInfo:(id)arg2 frameworksToCheck: /* Error: Ran out of types for this method. */;
+- (id)initWithTransactionIdentifier:amount:foreignAmount:foreignCurrencyExchangeRate:transactionDate:transactionStatusChangedDate:type:status:transactionDescription:originalTransactionDescription:localizedTypeDescription:merchantCategoryCode:hasNotificationServiceData:paymentHash:altDSID:insights:serviceIdentifier: /* Error: Ran out of types for this method. */;
+- (id)initWithTransactionCategory:updatedAt: /* Error: Ran out of types for this method. */;
+- (id)uppressionMode:options: /* Error: Ran out of types for this method. */;
+- (id)erchantCapabilities:payLaterSuppressionMode:options: /* Error: Ran out of types for this method. */;
+- (void)initWithTransaction:(id)arg1 paymentApplication: /* Error: Ran out of types for this method. */;
+- (void)initWithTransaction:(id)arg1 paymentApplication: /* Error: Ran out of types for this method. */;
+- (void)initWithTransaction:(id)arg1 passUniqueID:criteriaIdentifier:context:type: /* Error: Ran out of types for this method. */;
+- (void)initWithTransaction:(id)arg1 passUniqueID:criteriaIdentifier:context:type: /* Error: Ran out of types for this method. */;
+- (int)initWithTitle:(int)arg1 preferences:(id)arg2 selectedIndex:(int *)arg3 readOnly:(id)arg4;
+- (id)initWithTitle:(id)arg1 actionType:actionURL: /* Error: Ran out of types for this method. */;
+- (id)initWithTimeout:(id)arg1 messageHandler:invalidationHandler:replyQueue: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithSubcredential:(id)arg1 automaticSelectionCriterion: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithStatementIdentifier:(id)arg1 transactionDate:transactionAmount:suggestedAmountCategory: /* Error: Ran out of types for this method. */;
+- (id)initWithStatementIdentifier:(id)arg1 transactionDate:transactionAmount:suggestedAmountCategory: /* Error: Ran out of types for this method. */;
+- (id)untKeyIdentifier:(id)arg1 idType:learnMoreURL: /* Error: Ran out of types for this method. */;
+- (id)initWithState:(id)arg1 country:target:credentialIdentifier:status:productIdentifier:accountKeyIdentifier:idType: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 
 // Remaining properties
 @property(retain) FCAllowanceTimeControl *weekdayAllowance; // @synthesize weekdayAllowance=_weekdayAllowance;
-@property(retain) FCCurfewTimeControl *weekdayCurfew; // @synthesize weekdayCurfew=_weekdayCurfew;
-@property(retain) FCAllowanceTimeControl *weekendAllowance; // @synthesize weekendAllowance=_weekendAllowance;
-@property(retain) FCCurfewTimeControl *weekendCurfew; // @synthesize weekendCurfew=_weekendCurfew;
 
 @end
 

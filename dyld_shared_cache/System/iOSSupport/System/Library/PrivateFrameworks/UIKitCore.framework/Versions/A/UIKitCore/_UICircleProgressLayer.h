@@ -4,42 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor;
-
 __attribute__((visibility("hidden")))
 @interface _UICircleProgressLayer
 {
     double _progressLineWidth;
-    double _oneFullRotation;
-    _Bool _showProgressTray;
-    long long _progressStartPoint;
-    UIColor *_progressColor;
-    UIColor *_progressBackgroundColor;
 }
 
 + (_Bool)AnimatedTransitioning>"48@0:(id)arg1 8@"UINavigationController"16q24@"UIViewController"32@"UIViewController"40;
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (double);
+- (_Bool)8q36@44@52@60@68@76;
+- (void)syncStartDate;
+- (void)setRunResult:(long long)arg1;
+- (void)setRetryToParticipant:(double)arg1;
+- (void)setResultHandlerQueue:(id)arg1;
+- (void)setResources:(id)arg1;
+- (long long)containsMessageID:completion: /* Error: Ran out of types for this method. */;
+- (double)containsActiveBIASession;
+- (id)consumeCodeWithMessageGUID: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
+- (void)request;
 - (id);
 - (id);
 - (void)ð0³ÿ/eÔh^;
 
 // Remaining properties
-@property(nonatomic) double progress; // @dynamic progress;
-@property(retain, nonatomic) UIColor *progressBackgroundColor; // @synthesize progressBackgroundColor=_progressBackgroundColor;
-@property(retain, nonatomic) UIColor *progressColor; // @synthesize progressColor=_progressColor;
-@property(nonatomic) double progressLineWidth; // @synthesize progressLineWidth=_progressLineWidth;
 @property(nonatomic) long long progressStartPoint; // @synthesize progressStartPoint=_progressStartPoint;
-@property(nonatomic) _Bool showProgressTray; // @synthesize showProgressTray=_showProgressTray;
 
 @end
 

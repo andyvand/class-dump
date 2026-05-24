@@ -4,29 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_xpc_object;
-
 @interface _DKSyncType
 {
     _Bool _isSingleDevice;
-    _Bool _forceSync;
-    _Bool _isInitialSync;
-    _Bool _isPeriodicSync;
-    _Bool _isTriggeredSync;
-    _Bool _didActivatePeer;
-    _Bool _didReceivePush;
-    _Bool _didAddSyncedEvents;
-    _Bool _didDeleteSyncedEvents;
-    unsigned long long _urgency;
-    double _periodicSyncInterval;
-    NSObject<OS_xpc_object> *_xpcActivity;
 }
 
 + (_Bool);
-- (id);
-- (id);
-- (void);
+- (id);
+- (id);
+- (void)x;
 - (void)0@ù
 × ;
 

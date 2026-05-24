@@ -4,44 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSDate, NSError, NSString;
+@class NSString;
 
 @interface SUAdminAvailableUpdate
 {
     _Bool _criticalUpdate;
-    _Bool _configDataUpdate;
-    _Bool _firmwareUpdate;
-    _Bool _macOSUpdate;
-    _Bool _majorOSUpdate;
-    _Bool _restartRequiredUpdate;
-    _Bool _allowedToUseDoItLater;
-    _Bool _isRecommended;
-    _Bool _adminDeferred;
-    _Bool _autoUpdateEligible;
-    NSDate *_adminDeferralDate;
-    NSString *_productKey;
-    NSString *_title;
-    NSString *_version;
-    NSArray *_applicationIdentifiersToClose;
-    NSString *_serverMetadataURL;
-    NSString *_currentLocalization;
-    NSAttributedString *_licenseAgreement;
-    NSDate *_postDate;
-    NSString *_productVersion;
-    NSString *_productBuildVersion;
-    long long _installStatus;
-    NSError *_lastError;
-    double _downloadPercentComplete;
-    long long _downloadSize;
-    NSString *_majorOSVersion;
-    NSString *_majorOSBundleIdentifier;
-    NSString *_humanReadableName;
-    NSString *_majorOSBundleShortVersion;
 }
 
+- (void)2;
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
@@ -52,62 +24,34 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)q;
 - (_Bool);
 - (long long);
 - (id);
-- (id);
+- (id)׾;
 - (_Bool);
 - (double);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)/4-;
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)untIdentity",R,N,V_accountIdentity;
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)M&;
 - (long long)ed for rights:%ld /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSDate *adminDeferralDate; // @synthesize adminDeferralDate=_adminDeferralDate;
-@property(readonly) _Bool adminDeferred; // @synthesize adminDeferred=_adminDeferred;
-@property(readonly) _Bool allowedToUseDoItLater; // @synthesize allowedToUseDoItLater=_allowedToUseDoItLater;
-@property(readonly) NSArray *applicationIdentifiersToClose; // @synthesize applicationIdentifiersToClose=_applicationIdentifiersToClose;
-@property(readonly, getter=isAutoUpdateEligible) _Bool autoUpdateEligible; // @synthesize autoUpdateEligible=_autoUpdateEligible;
-@property(readonly) _Bool configDataUpdate; // @synthesize configDataUpdate=_configDataUpdate;
-@property(readonly) _Bool criticalUpdate; // @synthesize criticalUpdate=_criticalUpdate;
-@property(readonly) NSString *currentLocalization; // @synthesize currentLocalization=_currentLocalization;
-@property(readonly) double downloadPercentComplete; // @synthesize downloadPercentComplete=_downloadPercentComplete;
-@property(readonly) long long downloadSize; // @synthesize downloadSize=_downloadSize;
-@property(readonly) _Bool firmwareUpdate; // @synthesize firmwareUpdate=_firmwareUpdate;
-@property(retain) NSString *humanReadableName; // @synthesize humanReadableName=_humanReadableName;
-@property(readonly) long long installStatus; // @synthesize installStatus=_installStatus;
-@property(readonly) _Bool isRecommended; // @synthesize isRecommended=_isRecommended;
-@property(readonly) NSError *lastError; // @synthesize lastError=_lastError;
-@property(readonly) NSAttributedString *licenseAgreement; // @synthesize licenseAgreement=_licenseAgreement;
-@property(readonly) _Bool macOSUpdate; // @synthesize macOSUpdate=_macOSUpdate;
-@property(retain) NSString *majorOSBundleIdentifier; // @synthesize majorOSBundleIdentifier=_majorOSBundleIdentifier;
-@property(retain) NSString *majorOSBundleShortVersion; // @synthesize majorOSBundleShortVersion=_majorOSBundleShortVersion;
-@property(readonly) _Bool majorOSUpdate; // @synthesize majorOSUpdate=_majorOSUpdate;
 @property(retain) NSString *majorOSVersion; // @synthesize majorOSVersion=_majorOSVersion;
-@property(readonly) NSDate *postDate; // @synthesize postDate=_postDate;
-@property(readonly) NSString *productBuildVersion; // @synthesize productBuildVersion=_productBuildVersion;
-@property(readonly) NSString *productKey; // @synthesize productKey=_productKey;
-@property(readonly) NSString *productVersion; // @synthesize productVersion=_productVersion;
-@property(readonly) _Bool restartRequiredUpdate; // @synthesize restartRequiredUpdate=_restartRequiredUpdate;
-@property(readonly) NSString *serverMetadataURL; // @synthesize serverMetadataURL=_serverMetadataURL;
-@property(readonly) NSString *title; // @synthesize title=_title;
-@property(readonly) NSString *version; // @synthesize version=_version;
 
 @end
 

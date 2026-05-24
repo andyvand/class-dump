@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHSEntitlementCollection, CHSExtensionIdentity, NSArray, NSSet, NSString;
+@class CHSEntitlementCollection, NSString;
 
 @interface CHSWidgetExtension
 {
     NSString *_localizedDisplayName;
-    NSString *_containerBundleLocalizedDisplayName;
-    CHSExtensionIdentity *_identity;
-    NSArray *_orderedWidgetDescriptors;
-    NSArray *_orderedControlDescriptors;
-    NSSet *_liveActivityDescriptors;
-    CHSEntitlementCollection *_entitlements;
-    long long _dataProtectionLevel;
-    unsigned long long _hashValue;
-    _Bool _hasValidHash;
 }
 
 + (_Bool);
@@ -26,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)vJ?;
 - (id);
 - (id);
 - (_Bool);
@@ -35,7 +26,7 @@
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id)n?;
 - (id);
 - (id);
 - (id);
@@ -57,21 +48,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *containerBundleLocalizedDisplayName; // @synthesize containerBundleLocalizedDisplayName=_containerBundleLocalizedDisplayName;
-@property(readonly, nonatomic) long long dataProtectionLevel; // @synthesize dataProtectionLevel=_dataProtectionLevel;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) CHSEntitlementCollection *entitlements;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CHSExtensionIdentity *identity; // @synthesize identity=_identity;
-@property(readonly, copy, nonatomic) NSSet *liveActivityDescriptors;
-@property(readonly, nonatomic) NSString *localizedDisplayName; // @synthesize localizedDisplayName=_localizedDisplayName;
-@property(readonly, nonatomic) NSArray *orderedControlDescriptors; // @synthesize orderedControlDescriptors=_orderedControlDescriptors;
-@property(readonly, nonatomic) NSArray *orderedWidgetDescriptors; // @synthesize orderedWidgetDescriptors=_orderedWidgetDescriptors;
-@property(readonly) Class superclass;
+@property(readonly, copy, nonatomic) CHSEntitlementCollection *entitlements; // @synthesize entitlements=_entitlements;
 
 @end
 

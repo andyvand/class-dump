@@ -4,45 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface SFSafariTableOfContentsItem
 {
     NSString *_text;
-    NSString *_elementPath;
-    NSString *_trailingText;
 }
 
 + (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)setBookmarkTimestamp:(id)arg1;
 - (id);
-- (id);
+- (id)stringPredicateValue;
 - (unsigned long long);
 - (id);
 - (_Bool);
+- (void)_didReachTimeoutForAlert:(id)arg1;
+- (id);
+- (id)extendeduratedAssets;
+- (id)0E6XlRUL-OSm3IbHa0/Library/Caches/com.apple.xbs/TemporaryDirectory.3GkaPH/Sources/Photos/Projects/PhotoKit/Sources/Import/PHImportAsset.m;
+- (id)P;
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)uttonItem;
+- (void)commandButtonItem;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSString *elementPath; // @synthesize elementPath=_elementPath;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *text; // @synthesize text=_text;
-@property(copy, nonatomic) NSString *trailingText; // @synthesize trailingText=_trailingText;
 
 @end
 

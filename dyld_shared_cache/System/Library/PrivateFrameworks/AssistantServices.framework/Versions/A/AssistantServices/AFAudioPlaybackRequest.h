@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, NSURL;
+@class NSURL;
 
 @interface AFAudioPlaybackRequest
 {
     float _volume;
-    NSURL *_itemURL;
-    NSData *_itemData;
-    long long _numberOfLoops;
-    double _fadeInDuration;
-    double _fadeOutDuration;
-    NSDictionary *_userInfo;
-    NSString *_hapticLibraryKey;
-    NSString *_UUID;
 }
 
 + (id);
@@ -27,32 +19,24 @@
 - (id);
 - (double);
 - (double);
+- (id)g",C,N,V_initiativeContext;
+- (id)"NSDate",&,N,V_timestamp;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)userViewHitOnMouseDown;
 - (void);
+- (id)Loader;
+- (float);
 - (id);
-- (float);
-- (id);
-- (void)dingAlertBehaviorMutability;
+- (void)AFSpeechRecordingAlertBehaviorMutability;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *UUID; // @synthesize UUID=_UUID;
-@property(readonly, nonatomic) double fadeInDuration; // @synthesize fadeInDuration=_fadeInDuration;
-@property(readonly, nonatomic) double fadeOutDuration; // @synthesize fadeOutDuration=_fadeOutDuration;
-@property(readonly, copy, nonatomic) NSString *hapticLibraryKey; // @synthesize hapticLibraryKey=_hapticLibraryKey;
-@property(readonly, copy, nonatomic) NSData *itemData; // @synthesize itemData=_itemData;
 @property(readonly, copy, nonatomic) NSURL *itemURL; // @synthesize itemURL=_itemURL;
-@property(readonly, nonatomic) long long numberOfLoops; // @synthesize numberOfLoops=_numberOfLoops;
-@property(readonly, copy, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
-@property(readonly, nonatomic) float volume; // @synthesize volume=_volume;
 
 @end
 

@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString;
+@class NSDictionary;
 
 @interface SDSeedingConfiguration
 {
     long long _seedProgram;
-    NSString *_assetAudience;
-    NSString *_catalog;
-    NSNumber *_seedProgramID;
-    NSNumber *_accountID;
 }
 
-+ (id);
++ (id)g"32;
 + (id);
 + (_Bool);
-- (void);
-- (id);
-- (long long);
-- (id);
-- (id);
+- (void)@0:(id)arg1 8@"NSString"16;
+- (id)@0:8i16 /* Error: Ran out of types for this method. */;
+- (long long)0;
+- (id)24@?32;
+- (id)q32@40@48q56@64B72B76B80B84B88@92;
 - (void);
 - (id);
 - (id);
@@ -30,22 +26,16 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)rge recommendation response;
 - (void);
-- (void);
+- (void)thod %d with error 0x%x;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *accountID; // @synthesize accountID=_accountID;
-@property(retain, nonatomic) NSString *assetAudience; // @synthesize assetAudience=_assetAudience;
-@property(retain, nonatomic) NSString *catalog; // @synthesize catalog=_catalog;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(readonly, nonatomic) NSDictionary *enrollmentMetadata;
-@property(nonatomic) long long seedProgram; // @synthesize seedProgram=_seedProgram;
-@property(retain, nonatomic) NSNumber *seedProgramID; // @synthesize seedProgramID=_seedProgramID;
 
 @end
 

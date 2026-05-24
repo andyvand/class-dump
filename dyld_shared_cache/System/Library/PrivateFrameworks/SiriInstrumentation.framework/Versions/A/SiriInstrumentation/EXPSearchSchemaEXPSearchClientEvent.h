@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class EXPSearchSchemaEXPSearchSessionExperiments, NSData, SISchemaInstrumentationMessage;
+@class EXPSearchSchemaEXPSearchSessionExperiments, SISchemaInstrumentationMessage;
 
 @interface EXPSearchSchemaEXPSearchClientEvent : SISchemaTopLevelUnionType
 {
     EXPSearchSchemaEXPSearchSessionExperiments *_sessionExperiments;
-    _Bool _hasSessionExperiments;
-    unsigned long long _whichEvent_Type;
 }
 
 + (id);
@@ -20,30 +18,26 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
-- (id);
+- (id)nManeuverInfo:(id)arg1 forAccessory:withComponent:]_block_invoke /* Error: Ran out of types for this method. */;
 - (int);
-- (id);
+- (id)identifier;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)nterDecisionLagInNs"b1"extraDelayInNs"b1"derivedBufferTimeFromHistoricalAudio"b1"endpointerThreshold"b1"endpointerScore"b1"audioSkippedDurationInNs"b1"endpointResetPositionInNs"b1"trpDetectionType"b1};
-- (id)nBridgeContext;
+- (id)hasExecutionBridgeContext;
 - (unsigned long long)yncTokenReceived",&,N,V_syncTokenReceived;
-- (id)SchemaPOMMESKnowledgeFallbackTurnOffAlwaysPromptConfirmationShown;
+- (id)POMMESSchemaPOMMESKnowledgeFallbackTurnOffAlwaysPromptConfirmationShown;
 - (id),;
 - (void)w¹ÿñ·%;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSessionExperiments; // @synthesize hasSessionExperiments=_hasSessionExperiments;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) EXPSearchSchemaEXPSearchSessionExperiments *sessionExperiments; // @synthesize sessionExperiments=_sessionExperiments;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

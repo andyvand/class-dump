@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface IMDIndexableAttachmentRecord
 {
     _Bool _commSafetySensitive;
-    _Bool _sticker;
-    NSString *_guid;
-    NSString *_path;
-    NSString *_name;
-    NSDictionary *_attributionInfo;
-    NSString *_uti;
-    long long _previewGenerationState;
 }
 
 - (_Bool);
@@ -24,22 +17,15 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)";
 - (id);
 - (id);
 - (id)_identifier;
 - (void)d;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *attributionInfo; // @synthesize attributionInfo=_attributionInfo;
-@property(readonly, nonatomic, getter=isCommSafetySensitive) _Bool commSafetySensitive; // @synthesize commSafetySensitive=_commSafetySensitive;
 @property(readonly, nonatomic) NSString *guid; // @synthesize guid=_guid;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSString *path; // @synthesize path=_path;
-@property(readonly, nonatomic) long long previewGenerationState; // @synthesize previewGenerationState=_previewGenerationState;
-@property(readonly, nonatomic, getter=isSticker) _Bool sticker; // @synthesize sticker=_sticker;
-@property(readonly, nonatomic) NSString *uti; // @synthesize uti=_uti;
 
 @end
 

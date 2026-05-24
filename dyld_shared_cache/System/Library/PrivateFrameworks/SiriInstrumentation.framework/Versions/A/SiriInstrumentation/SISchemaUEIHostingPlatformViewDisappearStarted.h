@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaUEIHostingPlatformViewDisappearStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long)downloadTotalUnitCount;
 - (_Bool);
-- (_Bool);
+- (_Bool)GetRowCountForTable(CFStringRef);
+- (id)E;
 - (id);
-- (id);
-- (id)script;
-- (id)ndidateIdentifier;
-- (_Bool)ippetRenderingContext;
-- (_Bool)DIAINTENT__PLAYBROADCASTRADIOONHOMEPODONMUSIC;
+- (id)deleteFailedToWriteTranscript;
+- (id)_hasCandidateIdentifier;
+- (_Bool)snippetRenderingContext;
+- (_Bool)DIALOGENGINENAMEDENTITYCATID__PLAYMEDIAINTENT__PLAYBROADCASTRADIOONHOMEPODONMUSIC;
 - (void)!;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCondition, NSString, PPQuickTypeBroker;
+@class NSCondition, PPQuickTypeBroker;
 
 @interface _ICPortraitPredictionSource
 {
     NSCondition *_ppBrokerLoadedCondition;
-    NSString *_name;
-    PPQuickTypeBroker *_ppBroker;
 }
 
 - (void);
@@ -21,14 +19,14 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (void);
+- (void)a;
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool)+ġ;
 - (void);
 - (id);
 

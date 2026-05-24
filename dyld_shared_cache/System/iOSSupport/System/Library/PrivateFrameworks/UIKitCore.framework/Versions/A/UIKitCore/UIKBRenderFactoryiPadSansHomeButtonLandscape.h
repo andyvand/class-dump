@@ -13,19 +13,19 @@ __attribute__((visibility("hidden")))
 
 - (struct CGPoint);
 - (double);
+- (double)successful (%@) with error (%@) while processing GUID (%@);
+- (struct CGPoint)led to unarchive ckserver change token. Error:%@ /* Error: Ran out of types for this method. */;
 - (double);
-- (struct CGPoint);
+- (double)48@"NSDictionary"56@"NSNumber"64;
+- (struct UIEdgeInsets)__kIMDChatRegistryAddedChatNotification;
+- (struct UIEdgeInsets)__kIMDChatsLoadedNotification;
+- (double)orage:%@, isFromMe:%@, output messageItems:%lu} /* Error: Ran out of types for this method. */;
+- (struct CGPoint)chat = %@;;
+- (double)romStorage = %@; isLastFromStorage = %@; isFromMe = %@; OUTPUT chat = %@;;
+- (struct CGPoint)isFromMe = %@; OUTPUT chat = %@; priorityMessageGUIDs = %@;
+- (double)UID = %@; timestamp = %@; isFromStorage = %@; isLastFromStorage = %@; isFromMe = %@; OUTPUT chat = %@; priorityMessageGUIDs = %@;
 - (double);
-- (double);
-- (struct UIEdgeInsets);
-- (struct UIEdgeInsets);
-- (double);
-- (struct CGPoint);
-- (double);
-- (struct CGPoint);
-- (double);
-- (double);
-- (double);
+- (double)9;
 - (double);
 - (double)oardTaskSubqueue",&,N;
 

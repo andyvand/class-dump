@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface STSchemaSTGlobalSearchRequestEnded : SISchemaInstrumentationMessage
 {
     NSArray *_results;
-    struct _has;
 }
 
 - (void);
@@ -21,20 +20,19 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)setSubscriptionFamilyId: /* Error: Ran out of types for this method. */;
+- (_Bool)CNUISaveSuggestedContactCommand;
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)hash.;
 - (id);
 - (id);
 - (id)deleteLocation;
-- (id)asRef_id;
-- (void)eLast24Hours;
-- (unsigned long long)VoiceCommandExecutionStatus;
+- (id)_hasRef_id;
+- (void)bluetoothCarConnectionsInTheLast24Hours;
+- (unsigned long long)SISchemaUEIVoiceCommandExecutionStatus;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *results; // @synthesize results=_results;
 
 @end

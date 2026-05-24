@@ -10,14 +10,12 @@
 @interface IOGPUMetalIOHandleRaw
 {
     IOGPUMetalDevice<MTLDevice> *_dev;
-    unsigned int _vnioID;
-    unsigned long long _globalTraceObjectID;
 }
 
-- (id);
-- (unsigned int);
+- (id);
+- (unsigned int);
 - (void);
-- (void);
+- (void)y Timeout;
 - (unsigned long long);
 
 // Remaining properties

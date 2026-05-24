@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDMessagePersistence, EMThread, EMThreadObjectID, NSArray, _EDThreadPersistence_SQLHelper, _EDThreadPersistence_ThreadMessages;
+@class _EDThreadPersistence_ThreadMessages;
 
 @interface _EDThreadPersistence_PersistedThread
 {
     _Bool _didCreateTempMessagesView;
-    _EDThreadPersistence_ThreadMessages *_messages;
-    long long _threadDatabaseID;
-    _EDThreadPersistence_SQLHelper *_sqlHelper;
 }
 
 - (_Bool);
@@ -28,14 +25,14 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -45,14 +42,7 @@
 VALUES (:mail_id, :remote_id, :mailbox, :date_received, :have_body_locally, :mail_status, :spotlight_status, :mail_local_status, :mail_remote_status, :needs_redonation, :subject, :senders) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) EDMessagePersistence *messagePersistence;
 @property(readonly, nonatomic) _EDThreadPersistence_ThreadMessages *messages; // @synthesize messages=_messages;
-@property(readonly, nonatomic) _EDThreadPersistence_SQLHelper *sqlHelper; // @synthesize sqlHelper=_sqlHelper;
-@property(readonly, nonatomic) EMThread *thread;
-@property(readonly, nonatomic) long long threadDatabaseID; // @synthesize threadDatabaseID=_threadDatabaseID;
-@property(readonly, nonatomic) EMThreadObjectID *threadObjectID;
-@property(readonly, nonatomic) long long threadScopeDatabaseID;
-@property(readonly, nonatomic) NSArray *wrappedMessages;
 
 @end
 

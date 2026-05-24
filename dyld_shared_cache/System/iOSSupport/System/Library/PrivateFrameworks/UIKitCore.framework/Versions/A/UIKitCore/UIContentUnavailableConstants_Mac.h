@@ -26,11 +26,11 @@ __attribute__((visibility("hidden")))
 - (id)@ù1f°1Â0@ù
 × ;
 - (id)uttonBar";
-- (id)ableRootPresentationAppearanceCallbacks;
-- (id)learImages;
-- (id)viewActionItems;
-- (double)aceOrientation;
-- (id)nt;
+- (id)shouldDisableRootPresentationAppearanceCallbacks;
+- (id)clearImages;
+- (id)_previewActionItems;
+- (double)UIApplicationInvalidInterfaceOrientation;
+- (id)_UIKBRT_MaximumNonRestMovePercent;
 - (id)?0@"UISActivityContinuationAction"8@"NSError"16;
 - (double)Õg;
 

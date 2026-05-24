@@ -5,6 +5,8 @@
 //
 
 @protocol UISDrawing
+- (void)_SwiftUI.CocoaWrapper;
+- (struct CGSize);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect alignmentRect;

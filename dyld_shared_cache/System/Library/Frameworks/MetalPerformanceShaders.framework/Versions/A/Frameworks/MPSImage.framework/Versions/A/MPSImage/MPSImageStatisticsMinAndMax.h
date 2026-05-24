@@ -13,11 +13,11 @@
 
 + (const struct MPSLibraryInfo *);
 - (CDStruct_1e3be3a8);
-- (void);
+- (void)I;
 - (id);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)initWithPipeline:(id)arg1 bundleID:overallCompleteness:donationCompeleteness:pipelineCompleteness:pipelineCompletenessHeuristicScore:pipelineReportAge:donationProgress:pipelineCompletenessFirstTimeBucket:pipelineCompletenessSecondBucket:pipelineCompletenessThirdBucket: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)êÄÃ·?õDyâ©?xTþYg?;
 

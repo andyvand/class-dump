@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAShapeLayer, UIImageView, UILabel, UIVibrancyEffect, UIView, UIVisualEffectView;
+@class CAShapeLayer;
 
 __attribute__((visibility("hidden")))
 @interface CKEffectSelectionCollectionViewCell
 {
     CAShapeLayer *_selectionLayer;
-    UIView *_shadowView;
-    UIImageView *_imageView;
-    UILabel *_label;
-    UIVisualEffectView *_titleContainerView;
-    UIVibrancyEffect *_titleVibrancyEffect;
 }
 
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)_workerContext;
+- (void)visibleCommands;
+- (void)ot even Apple.
+
+Do you still want to know more about how your information is secured? ;
+- (void)K;
 - (id);
 - (void);
 - (id);
@@ -37,18 +34,13 @@ __attribute__((visibility("hidden")))
 × ;
 - (id)!ý°!@ùÑð1Â0@ù
 × ;
-- (void);
+- (void)_remoteViewControllerInterface;
 - (void)ðZG_Qo_÷ÕZyæZGG®ë;
-- (void)ExtensionVersion;
+- (void)spamFiltrationFirstPartyExtensionVersion;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;
-@property(retain, nonatomic) UILabel *label; // @synthesize label=_label;
 @property(retain, nonatomic) CAShapeLayer *selectionLayer; // @synthesize selectionLayer=_selectionLayer;
-@property(retain, nonatomic) UIView *shadowView; // @synthesize shadowView=_shadowView;
-@property(retain, nonatomic) UIVisualEffectView *titleContainerView; // @synthesize titleContainerView=_titleContainerView;
-@property(retain, nonatomic) UIVibrancyEffect *titleVibrancyEffect; // @synthesize titleVibrancyEffect=_titleVibrancyEffect;
 
 @end
 

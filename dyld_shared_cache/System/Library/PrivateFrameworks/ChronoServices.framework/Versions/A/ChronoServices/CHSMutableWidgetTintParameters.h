@@ -6,8 +6,6 @@
 
 #import <ChronoServices/CHSWidgetTintParameters.h>
 
-@class BSColor, CHSGlassOptions;
-
 @interface CHSMutableWidgetTintParameters : CHSWidgetTintParameters
 {
 }
@@ -20,18 +18,12 @@
 - (void);
 - (void);
 - (void);
+- (void)STableView"16q24;
 - (void);
-- (void);
-- (void)bject:(long long)arg1 file:lineNumber:description: /* Error: Ran out of types for this method. */;
+- (void)handleFailureInMethod:(long long)arg1 object:file:lineNumber:description: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool accentedAlternateBackground; // @dynamic accentedAlternateBackground;
-@property(nonatomic) long long accentedDesaturatedMode; // @dynamic accentedDesaturatedMode;
 @property(nonatomic) long long filterStyle; // @dynamic filterStyle;
-@property(nonatomic) double fraction; // @dynamic fraction;
-@property(copy, nonatomic) CHSGlassOptions *glassOptions; // @dynamic glassOptions;
-@property(retain, nonatomic) BSColor *primaryTintColor; // @dynamic primaryTintColor;
-@property(retain, nonatomic) BSColor *secondaryTintColor; // @dynamic secondaryTintColor;
 
 @end
 

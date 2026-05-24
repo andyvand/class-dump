@@ -6,29 +6,26 @@
 
 #import <UIKitCore/UIGestureRecognizer.h>
 
-@class NSMutableSet, UIPress;
+@class UIPress;
 
 __attribute__((visibility("hidden")))
 @interface _UIFocusLinearMovementDebugGestureRecognizer : UIGestureRecognizer
 {
     UIPress *_press;
-    _Bool _allowsGroupMode;
-    NSMutableSet *_presses;
-    _Bool _groupMode;
 }
 
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)memberStatusChangeContextForUpdateType:participant: /* Error: Ran out of types for this method. */;
+- (id)tryCode:(id)arg1 forChat:(SEL)arg2 style:(_Bool)arg3 account:destinationCallerID:messageTime:silently: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool)wView";
 - (id)<@"NSDictionary"@?@"NSDictionary">16;
-- (_Bool)SceneNewEffectiveGeometryKey;
+- (_Bool)_UIWindowSceneNewEffectiveGeometryKey;
 - (void)mponent:(id)arg1;
 - (void)action is removed or replaced by the new action.
 ;
-- (void)rch;
+- (void)NavigationBarTransitionContextDismissSearch;
 - (void)4»[;
 - (void)ºÿ;
 

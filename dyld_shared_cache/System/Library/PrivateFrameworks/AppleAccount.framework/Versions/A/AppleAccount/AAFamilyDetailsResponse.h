@@ -6,58 +6,36 @@
 
 #import <AppleAccount/AAResponse.h>
 
-@class AAFamilyMember, NSArray, NSString;
+@class NSArray;
 
 @interface AAFamilyDetailsResponse : AAResponse
 {
     NSArray *_members;
-    _Bool _canAddMembers;
-    _Bool _canAddChildMembers;
-    AAFamilyMember *_organizer;
-    AAFamilyMember *_me;
-    NSArray *_invites;
-    NSArray *_pendingMembers;
-    NSString *_addMemberInstructions;
-    NSString *_childAccountPrompt;
-    NSString *_childAccountButtonTitle;
 }
 
-+ (id);
++ (id)rofile.getAccountInfoForAccountType found info in profile even though it was missing in user preference file;
 - (id);
 - (id);
 - (_Bool);
+- (id)]@9K;
+- (id);
+- (long long);
+- (id);
+- (_Bool);
 - (id);
 - (id);
 - (long long);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (long long);
 - (long long);
 - (id);
 - (id);
-- (id);
-- (void)nitWithModel: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)initWithModel: /* Error: Ran out of types for this method. */;
 - (id)¸AÐz÷7#ÛÓ£´4!Jc?	2ÕØº <ëÛ£¥i\Ýß»8|*_¸Oi07·Bj«îô 
 ²Ø½íyH	)þîçG:ÏåñÝ|D9T<²ÞerMYM
 û¾þ«ZÖÓ¸½Þ%löàEAfom9Ð\w/tèÇ®lïÖÚëÅ?àíG»^æNãvøGÐo¨±dÜ	Dôqògü:o¶ÔBÙQgã,µOR~ÕeÕV­Ó2å&ÖÍt1øçô¤Q!¤÷?Yí&o[pÎ®½¶sµý¢3E.$Æ¡\pF7Áj9&¬ËÌÂ³z%®Z­."É5î-ûXÊ,µ§MÍª·läNR©_Ïx¿'y{$þ:°Å=Èsüi¦0ÿh+@õ?ÌóTÊ(Û,|ÏêbHÂ5¯q»ÀKYÃv¬Që}yð]ÊQ¨~â)ÓgáûWùH¾¢`ÆúJ/ÃñbWuÑöòù6ÈÀÉà¸uS{a<vs*¡§[R@èóâ¤ÀTCñÅ«ÄÙ½#jèÇBd^ ga¹ñ×^Ù¾"ºjÆ]BkÚsðÝ=[Q(Ùè)>ÀbïÈµà»@ìSÃö{	Jõ¿kbTJÑ,ühùÅ+cÓ½ûh`HdÞ`*! /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *addMemberInstructions; // @synthesize addMemberInstructions=_addMemberInstructions;
-@property(readonly, nonatomic) _Bool canAddChildMembers; // @synthesize canAddChildMembers=_canAddChildMembers;
-@property(readonly, nonatomic) _Bool canAddMembers; // @synthesize canAddMembers=_canAddMembers;
-@property(readonly, nonatomic) NSString *childAccountButtonTitle; // @synthesize childAccountButtonTitle=_childAccountButtonTitle;
-@property(readonly, nonatomic) NSString *childAccountPrompt; // @synthesize childAccountPrompt=_childAccountPrompt;
-@property(readonly, nonatomic) NSArray *firstNames;
-@property(readonly, nonatomic) NSArray *invites; // @synthesize invites=_invites;
-@property(readonly, nonatomic) AAFamilyMember *me; // @synthesize me=_me;
-@property(readonly, nonatomic) long long memberCount;
 @property(readonly, nonatomic) NSArray *members; // @synthesize members=_members;
-@property(readonly, nonatomic) AAFamilyMember *organizer; // @synthesize organizer=_organizer;
-@property(readonly, nonatomic) long long pendingInviteCount;
-@property(readonly, nonatomic) long long pendingMemberCount;
-@property(readonly, nonatomic) NSArray *pendingMembers; // @synthesize pendingMembers=_pendingMembers;
 
 @end
 

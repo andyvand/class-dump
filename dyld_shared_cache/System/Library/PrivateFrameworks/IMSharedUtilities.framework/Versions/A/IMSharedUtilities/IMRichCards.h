@@ -20,16 +20,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)nt.blesseduser.ownership.none;
 - (long long);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void)ÿ­Ùÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *cards;
-@property(nonatomic, readonly) long long hash;
 
 @end
 

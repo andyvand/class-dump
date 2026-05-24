@@ -6,16 +6,12 @@
 
 #import <UIKitCore/_UIEditMenuPresentation.h>
 
-@class _UIEditMenuContainerView, _UIEditMenuListView, _UIEditMenuPresentationLayout;
+@class _UIEditMenuListView;
 
 __attribute__((visibility("hidden")))
 @interface _UIEditMenuContentPresentation : _UIEditMenuPresentation
 {
     _Bool _observingSourceView;
-    long long _userInterfaceStyle;
-    _UIEditMenuListView *_currentListView;
-    _UIEditMenuPresentationLayout *_currentMenuLayout;
-    struct CGRect _targetRectInSourceView;
 }
 
 - (_Bool);
@@ -23,49 +19,44 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGRect);
 - (void);
+- (void)IMDRelayAttachmentController";
+- (void)setFetchedExitDateOnLaunch:(id)arg1;
+- (_Bool)messageActionType;
+- (long long)didReceiveMessage:forChat:style:fromIDSID: /* Error: Ran out of types for this method. */;
+- (void)_teardownCoreTelephonyObservation;
+- (void)_findMessageItemForAssociatedMessageItem:(id)arg1;
+- (void)_findLosingChatGUIDsInArrayOfChats:(id)arg1 withWinner:(id)arg2;
+- (void)_convertIMMessageItemDictionaryToIMMessageItem:(id)arg1 timestamp:(id)arg2;
+- (void)_calculateHandlersForLocalMessage:(unsigned long long)arg1 userInfo:(unsigned long long)arg2 completionBlock: /* Error: Ran out of types for this method. */;
+- (id)errorIndicatesBatchSizeFailure: /* Error: Ran out of types for this method. */;
+- (void)stringFromDate:(id)arg1;
+- (id)ubscriptionValidationTokenByHandleIDCache;
+- (_Bool)IMDLocationSharingController;
 - (void);
+- (_Bool);
+- (void)r:(inout long long *)arg1 %s style:(struct CGRect)arg2 %hhu;
+- (id)e, missing properties:(id)arg1 %s;
 - (void);
-- (_Bool);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)lu ;
+- (struct CGRect)@;
+- (struct UIEdgeInsets)ller _chatsToUpload] on main thread *******;
+- (void)message; existingMessage:(id)arg1 %@;
+- (void)Created bad chat:%@ ************* /* Error: Ran out of types for this method. */;
+- (long long)rce, bad transfer/data (assetPath %@ mimeType %@ utiType %@ guid %@);
+- (void)ments, we'll try this record again on the next sync;
+- (void)tching chat zone.;
+- (void)IDs%@ DB %@;
+- (id)ult paired device has no identities, this means it is NOT proxy registered for SMS;
+- (struct CGRect)serverVersion %@;
 - (id);
 - (void);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (struct CGRect);
-- (struct UIEdgeInsets);
-- (void);
-- (void);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (id);
-- (struct CGRect);
-- (id);
-- (void);
-- (void);
+- (void)s=%{public}@;
 - (struct CGRect)Activity"8;
 - (void)P\;
 - (long long)Üÿ;
 
 // Remaining properties
-@property(retain, nonatomic) _UIEditMenuContainerView *containerView; // @dynamic containerView;
 @property(readonly, nonatomic) _UIEditMenuListView *currentListView; // @synthesize currentListView=_currentListView;
-@property(retain, nonatomic) _UIEditMenuPresentationLayout *currentMenuLayout; // @synthesize currentMenuLayout=_currentMenuLayout;
-@property(readonly, nonatomic) _Bool observingSourceView; // @synthesize observingSourceView=_observingSourceView;
-@property(readonly, nonatomic) struct CGRect targetRectInSourceView; // @synthesize targetRectInSourceView=_targetRectInSourceView;
-@property(nonatomic) long long userInterfaceStyle; // @synthesize userInterfaceStyle=_userInterfaceStyle;
 
 @end
 

@@ -10,7 +10,7 @@
 
 + (_Bool);
 + (id);
-+ (id): /* Error: Ran out of types for this method. */;
++ (id)attribute:atIndex:effectiveRange: /* Error: Ran out of types for this method. */;
 + (double);
 
 @end

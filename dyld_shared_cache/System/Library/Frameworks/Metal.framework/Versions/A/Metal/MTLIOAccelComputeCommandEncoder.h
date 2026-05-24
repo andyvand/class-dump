@@ -13,12 +13,12 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)createDataWithMappedFile;
 - (void);
 - (void);
 - (void);
@@ -28,7 +28,7 @@
 - (void);
 - (void);
 - (void);
-- (void *);
+- (void *)notsucceeds;
 - (void);
 - (void);
 - (void);

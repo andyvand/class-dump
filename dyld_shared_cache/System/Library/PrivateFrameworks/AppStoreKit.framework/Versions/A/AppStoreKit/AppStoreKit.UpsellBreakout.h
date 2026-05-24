@@ -7,16 +7,6 @@
 @interface AppStoreKit.UpsellBreakout
 {
     id details;
-    id offerButtonAction;
-    id offerDisplayProperties;
-    id buttonCallToAction;
-    id artwork;
-    id video;
-    id displayProperties;
-    id clickAction;
-    id id;
-    id impressionMetrics;
-    id automationMetadata;
 }
 
 @end

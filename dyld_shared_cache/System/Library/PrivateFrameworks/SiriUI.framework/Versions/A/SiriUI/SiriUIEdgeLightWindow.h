@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSView, SUICEdgeLightMaskMetalLayer;
+@class NSView;
 
 @interface SiriUIEdgeLightWindow
 {
     NSView *_edgeLightView;
-    SUICEdgeLightMaskMetalLayer *_edgeLightLayer;
-    CDUnknownBlockType _offCompletion;
-    long long _mode;
 }
 
 - (void);
 - (void);
 - (void);
+- (_Bool)ectionView"16@"NSIndexPath"24;
 - (_Bool);
-- (_Bool);
-- (long long);
-- (id);
+- (long long)nerate file handle at path %@. %@--|;
+- (id)!;
 - (void);
-- (_Bool);
+- (_Bool)T;
 - (void);
 
 // Remaining properties

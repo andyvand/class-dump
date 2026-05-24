@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _GEOSearchAttributionListener
 {
     NSString *_identifier;
-    NSMutableArray *_completionHandlers;
-    NSMutableArray *_errorHandlers;
 }
 
 - (void);
-- (void);
+- (void)setPrimitiveModificationDateYearless:(CDUnknownBlockType)arg1;
 - (id);
-- (void)yTag;
-- (id)eo_filtered: /* Error: Ran out of types for this method. */;
+- (void)entityTag;
+- (id)_geo_filtered: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

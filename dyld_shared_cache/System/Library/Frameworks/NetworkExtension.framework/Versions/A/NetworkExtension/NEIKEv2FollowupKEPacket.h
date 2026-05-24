@@ -6,19 +6,18 @@
 
 #import <NetworkExtension/NEIKEv2Packet.h>
 
-@class NEIKEv2KeyExchangePayload, NEIKEv2NotifyPayload;
+@class NEIKEv2KeyExchangePayload;
 
 @interface NEIKEv2FollowupKEPacket : NEIKEv2Packet
 {
     NEIKEv2KeyExchangePayload *_ke;
-    NEIKEv2NotifyPayload *_link;
 }
 
 - (void);
 - (unsigned long long);
 - (void);
 - (id);
-- (void)eIdentifier: /* Error: Ran out of types for this method. */;
+- (void)setRemoteIdentifier: /* Error: Ran out of types for this method. */;
 
 @end
 

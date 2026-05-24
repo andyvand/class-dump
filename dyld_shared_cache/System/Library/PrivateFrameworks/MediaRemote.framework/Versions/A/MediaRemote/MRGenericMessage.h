@@ -6,19 +6,18 @@
 
 #import <MediaRemote/MRProtocolMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface MRGenericMessage : MRProtocolMessage
 {
 }
 
+- (id)_;
 - (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)unt(_:blockingModeChanged:) /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *data;
 @property(readonly, nonatomic) NSString *key;
 
 @end

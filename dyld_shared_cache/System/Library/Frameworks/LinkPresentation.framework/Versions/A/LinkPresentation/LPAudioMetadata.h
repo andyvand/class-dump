@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
-
 @interface LPAudioMetadata
 {
     unsigned int _version;
-    NSURL *_URL;
-    NSString *_type;
-    NSString *_accessibilityText;
 }
 
 + (_Bool);
@@ -19,11 +14,11 @@
 - (id);
 - (void);
 - (id);
+- (id)setValue;
+- (unsigned int)NSKeyPathExpressionType argument for distanceToLocation:fromLocation: /* Error: Ran out of types for this method. */;
+- (id)) had a different identifier than the server PCS data (%@) for record %@;
 - (id);
-- (unsigned int);
-- (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)";
 - (id);
 - (_Bool);
 - (void);
@@ -32,16 +27,6 @@
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(copy, nonatomic) NSString *accessibilityText; // @synthesize accessibilityText=_accessibilityText;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 @property(readonly, nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end

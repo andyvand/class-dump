@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, PEGASUSSchemaPEGASUSEntityInfo;
+@class NSString;
 
 @interface PEGASUSSchemaPEGASUSIntentArg : SISchemaInstrumentationMessage
 {
     NSString *_key;
-    NSString *_attributeType;
-    PEGASUSSchemaPEGASUSEntityInfo *_entity;
-    _Bool _hasKey;
-    _Bool _hasAttributeType;
-    _Bool _hasEntity;
 }
 
 - (void);
@@ -32,27 +27,21 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
+- (id)P;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)ted;
 - (id);
 - (id)
 × ;
-- (id)reInsufficientPriority;
+- (id)_hasAssistantDaemonAudioRecordingFailureInsufficientPriority;
 - (id)UEILaunchContext",&,N,V_ueiLaunchContext;
 - (void)ummaryReported",&,N,V_mediaEvaluationSummaryReported;
 - (id)entScoresReported;
 - (_Bool)´o÷ÿ;
-- (void)K_FAILURE;
+- (void)ORCHINTELLIGENCEFLOWFAILUREREASON_PRE_FLIGHT_CHECK_FAILURE;
 - (void)res.loggableSharedUserId;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *attributeType; // @synthesize attributeType=_attributeType;
-@property(retain, nonatomic) PEGASUSSchemaPEGASUSEntityInfo *entity; // @synthesize entity=_entity;
-@property(nonatomic) _Bool hasAttributeType; // @synthesize hasAttributeType=_hasAttributeType;
-@property(nonatomic) _Bool hasEntity; // @synthesize hasEntity=_hasEntity;
-@property(nonatomic) _Bool hasKey; // @synthesize hasKey=_hasKey;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *key; // @synthesize key=_key;
 
 @end

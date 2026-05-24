@@ -8,10 +8,6 @@
 {
     id _$scope;
     id _recipeID;
-    id _currentRegion;
-    id _showNotes;
-    id _showNutrition;
-    id _$observationRegistrar;
 }
 
 @end

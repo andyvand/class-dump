@@ -11,7 +11,7 @@
 }
 
 + (id);
-+ (id);
++ (id)urity.framework/Versions/A/Security;
 - (id);
 - (id);
 - (id);

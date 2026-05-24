@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL, OITSUTemporaryDirectory;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface TSUSafeSaveAssistant
 {
     NSURL *_saveURL;
-    OITSUTemporaryDirectory *_temporaryDirectory;
-    NSURL *_writeURL;
 }
 
 + (void);
 + (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (void)yDirectory.ObjdbM/Sources/OfficeImport/OfficeParser/shared/utility/TSUCast.m;

@@ -9,8 +9,6 @@
 @interface _MKLegibilitySettings
 {
     NSColor *_primaryColor;
-    NSColor *_contentColor;
-    long long _style;
 }
 
 - (id);
@@ -20,12 +18,10 @@
 - (void);
 - (id);
 - (void);
-- (void)deDirectionsButtons: /* Error: Ran out of types for this method. */;
+- (void)setHideDirectionsButtons: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSColor *contentColor; // @synthesize contentColor=_contentColor;
-@property(retain, nonatomic) NSColor *primaryColor; // @synthesize primaryColor=_primaryColor;
-@property(nonatomic) long long style; // @synthesize style=_style;
 
 @end
 

@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AWDWiFiDPSEpilogue, AWDWiFiDPSSnapshot, NSMutableArray;
-
 @interface AWDWiFiDPSReport
 {
     unsigned long long _timestamp;
-    NSMutableArray *_dpsCounterSamples;
-    AWDWiFiDPSEpilogue *_dpsEpiloge;
-    NSMutableArray *_probeResults;
-    AWDWiFiDPSSnapshot *_snapshot;
-    NSMutableArray *_stallNotifications;
-    NSMutableArray *_usbEvents;
-    CDStruct_b5306035 _has;
 }
 
 + (Class);
@@ -37,47 +28,38 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)O;
+- (void);
+- (void);
+- (void)S%;
+- (void);
+- (void)M9;
 - (void);
 - (void);
 - (void);
 - (void);
+- (id)I;
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)?;
+- (unsigned long long)*;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
+- (void)3;
 - (void);
-- (void);
+- (id)_;
 - (id);
-- (id);
-- (void)nectionDurationBucketsAtIndex:(id)arg1;
-- (id)sageAttachmentUpload;
+- (void)connectionDurationBucketsAtIndex:(id)arg1;
+- (id)AWDIMessageAttachmentUpload;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *dpsCounterSamples; // @synthesize dpsCounterSamples=_dpsCounterSamples;
-@property(retain, nonatomic) AWDWiFiDPSEpilogue *dpsEpiloge; // @synthesize dpsEpiloge=_dpsEpiloge;
-@property(readonly, nonatomic) _Bool hasDpsEpiloge;
-@property(readonly, nonatomic) _Bool hasSnapshot;
 @property(nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) NSMutableArray *probeResults; // @synthesize probeResults=_probeResults;
-@property(retain, nonatomic) AWDWiFiDPSSnapshot *snapshot; // @synthesize snapshot=_snapshot;
-@property(retain, nonatomic) NSMutableArray *stallNotifications; // @synthesize stallNotifications=_stallNotifications;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(retain, nonatomic) NSMutableArray *usbEvents; // @synthesize usbEvents=_usbEvents;
 
 @end
 

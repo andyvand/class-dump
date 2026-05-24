@@ -4,33 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSFileHandle, NSImage, NSString, NSURL;
+@class NSImage;
 
 @interface NSSharingServiceDescription
 {
     _Bool _isSymbolImage;
-    _Bool _shouldDimSourceWindow;
-    _Bool _viewBased;
-    _Bool _enabled;
-    _Bool _isSymbolImageIdentifier;
-    _Bool _isCollaborationSpecific;
-    _Bool _allowInactive;
-    NSString *_identifier;
-    NSString *_title;
-    NSImage *_storedImage;
-    NSFileHandle *_imageFileHandle;
-    NSString *_plugInIdentifier;
-    NSURL *_plugInURL;
-    NSDictionary *_parameters;
-    long long _order;
-    unsigned long long _mask;
-    NSDictionary *_serviceDictionary;
-    NSString *_iconImageIdentifier;
 }
 
 + (id);
-+ (id);
-+ (_Bool);
++ (id)addressBookAutoFillableFieldFocused:textFieldMetadata:formMetadata:inFrame: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -59,7 +42,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)ristic %{public}@ for client %{public}@ - send didUnSubsribe;
 - (id);
 - (void);
 - (id);
@@ -72,33 +55,15 @@
 - (unsigned long long);
 - (id);
 - (long long);
-- (_Bool);
+- (_Bool)?;
 - (id);
 - (void);
-- (void);
+- (void)String"16@0:8 /* Error: Ran out of types for this method. */;
 - (void)CùQ	Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property _Bool allowInactive; // @synthesize allowInactive=_allowInactive;
-@property _Bool enabled; // @synthesize enabled=_enabled;
-@property(copy) NSString *iconImageIdentifier; // @synthesize iconImageIdentifier=_iconImageIdentifier;
-@property(copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy) NSImage *image;
-@property(retain, nonatomic) NSFileHandle *imageFileHandle; // @synthesize imageFileHandle=_imageFileHandle;
-@property _Bool isCollaborationSpecific; // @synthesize isCollaborationSpecific=_isCollaborationSpecific;
-@property(nonatomic) _Bool isSymbolImage; // @synthesize isSymbolImage=_isSymbolImage;
-@property _Bool isSymbolImageIdentifier; // @synthesize isSymbolImageIdentifier=_isSymbolImageIdentifier;
-@property unsigned long long mask; // @synthesize mask=_mask;
-@property long long order; // @synthesize order=_order;
-@property(copy) NSDictionary *parameters; // @synthesize parameters=_parameters;
-@property(copy) NSString *plugInIdentifier; // @synthesize plugInIdentifier=_plugInIdentifier;
-@property(copy) NSURL *plugInURL; // @synthesize plugInURL=_plugInURL;
-@property(copy) NSDictionary *serviceDictionary; // @synthesize serviceDictionary=_serviceDictionary;
-@property _Bool shouldDimSourceWindow; // @synthesize shouldDimSourceWindow=_shouldDimSourceWindow;
 @property(copy, nonatomic) NSImage *storedImage; // @synthesize storedImage=_storedImage;
-@property(copy) NSString *title; // @synthesize title=_title;
-@property _Bool viewBased; // @synthesize viewBased=_viewBased;
 
 @end
 

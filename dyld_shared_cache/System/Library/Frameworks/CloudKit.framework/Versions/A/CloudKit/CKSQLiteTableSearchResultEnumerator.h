@@ -4,38 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKSQLiteCompiledStatement, CKSQLiteTable, NSError, NSString;
+@class CKSQLiteCompiledStatement, CKSQLiteTable;
 
 @interface CKSQLiteTableSearchResultEnumerator
 {
     CKSQLiteTable *_table;
-    NSString *_groupName;
-    NSString *_tableName;
-    NSError *_error;
-    id _entry;
-    _Bool _enumerationStarted;
-    CDUnknownBlockType _valueTransformBlock;
-    CKSQLiteCompiledStatement *_statement;
 }
 
 - (id);
-- (void);
+- (void)1;
 - (id);
 - (void);
-- (void);
+- (void)N6CoreML3MIL6Opsets12CoreML6OpsetE;
 - (CDUnknownBlockType);
 - (id);
 - (id);
-- (id);
+- (id)compute providerID;
 - (void);
 - (void). Otherwise, your process won't be launched for push notifications.;
-- (id)able;
+- (id)shouldSendContentAvailable;
 - (unsigned long long)te callbacks serially. Try performing this in a detached Task.;
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(retain, nonatomic) CKSQLiteCompiledStatement *statement; // @synthesize statement=_statement;
-@property(copy, nonatomic) CDUnknownBlockType valueTransformBlock; // @synthesize valueTransformBlock=_valueTransformBlock;
+@property(retain, nonatomic) CKSQLiteCompiledStatement *statement; // @dynamic statement;
 
 @end
 

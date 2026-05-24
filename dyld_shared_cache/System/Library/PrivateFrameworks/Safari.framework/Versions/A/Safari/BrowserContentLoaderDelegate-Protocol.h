@@ -5,6 +5,7 @@
 //
 
 @protocol BrowserContentLoaderDelegate
+- (void);
 - (void)¤
 ;
 - (void);

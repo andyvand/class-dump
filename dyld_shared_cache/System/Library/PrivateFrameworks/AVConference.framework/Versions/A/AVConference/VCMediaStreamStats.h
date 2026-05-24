@@ -8,12 +8,6 @@ __attribute__((visibility("hidden")))
 @interface VCMediaStreamStats
 {
     struct tagHANDLE *_summerHandle;
-    double _lastRecordingTime;
-    unsigned int _maxBitrateKbps;
-    unsigned int _minBitrateKbps;
-    double _maxFramerate;
-    double _minFramerate;
-    unsigned short _maxFrameDurationMillis;
 }
 
 - (void);
@@ -29,20 +23,14 @@ __attribute__((visibility("hidden")))
 - (double);
 - (unsigned int);
 - (unsigned int);
-- (double);
+- (double)e - %i;
 - (void);
 - (double);
 - (void);
-- (id);
+- (id)V5;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int bitrateKbps;
-@property(readonly, nonatomic) double framerate;
-@property(nonatomic) unsigned int maxBitrateKbps; // @synthesize maxBitrateKbps=_maxBitrateKbps;
-@property(nonatomic) unsigned short maxFrameDurationMillis; // @synthesize maxFrameDurationMillis=_maxFrameDurationMillis;
-@property(nonatomic) double maxFramerate; // @synthesize maxFramerate=_maxFramerate;
-@property(nonatomic) unsigned int minBitrateKbps; // @synthesize minBitrateKbps=_minBitrateKbps;
-@property(nonatomic) double minFramerate; // @synthesize minFramerate=_minFramerate;
 
 @end
 

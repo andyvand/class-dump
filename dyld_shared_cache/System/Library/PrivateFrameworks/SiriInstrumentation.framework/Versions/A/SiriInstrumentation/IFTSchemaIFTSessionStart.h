@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface IFTSchemaIFTSessionStart : SISchemaInstrumentationMessage
 {
     _Bool _originatingDeviceWasLocal;
-    struct {
-        unsigned int originatingDeviceWasLocal:1;
-    } _has;
 }
 
 - (void);
@@ -26,14 +21,12 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)m.dylib;
 - (id);
 - (id)ceNotifications;
-- (id)pIntentCallContext;
+- (id)ExecutorSiriSchemaExecutorAppIntentCallContext;
 
 // Remaining properties
-@property(nonatomic) _Bool hasOriginatingDeviceWasLocal;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) _Bool originatingDeviceWasLocal; // @synthesize originatingDeviceWasLocal=_originatingDeviceWasLocal;
 
 @end

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol SXDocumentLanguageProviding, SXFontAttributesConstructor, SXSmartFieldFactory;
+@protocol SXSmartFieldFactory;
 
 @interface SXDataTableTextSourceFactory
 {
     id <SXSmartFieldFactory> _smartFieldFactory;
-    id <SXDocumentLanguageProviding> _documentLanguageProvider;
-    id <SXFontAttributesConstructor> _fontAttributesConstructor;
 }
 
 - (id);
@@ -22,16 +19,7 @@
 - (void)ecognizer";
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <SXDocumentLanguageProviding> documentLanguageProvider; // @synthesize documentLanguageProvider=_documentLanguageProvider;
-@property(readonly, nonatomic) id <SXFontAttributesConstructor> fontAttributesConstructor; // @synthesize fontAttributesConstructor=_fontAttributesConstructor;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <SXSmartFieldFactory> smartFieldFactory; // @synthesize smartFieldFactory=_smartFieldFactory;
-@property(readonly) Class superclass;
 
 @end
 

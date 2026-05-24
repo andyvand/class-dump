@@ -6,32 +6,26 @@
 
 #import <NewsCore/FCCommand.h>
 
-@class NSString;
-
 @interface FCModifyNotificationsForMarketingCommand : FCCommand
 {
     int _type;
-    int _action;
-    NSString *_dsid;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (int);
+- (void)_;
 - (void);
-- (void);
-- (void);
+- (void)up for user.;
 - (int)0@ù
 × ;
-- (void)IDs:(int)arg1 purchasedTagIDs:readArticleIDs:listenedArticleIDs:seenArticleIDs:bundleSubscription: /* Error: Ran out of types for this method. */;
+- (void)initWithSubscribedTagIDs:(int)arg1 mutedTagIDs:autofavoritedTagIDs:purchasedTagIDs:readArticleIDs:listenedArticleIDs:seenArticleIDs:bundleSubscription: /* Error: Ran out of types for this method. */;
 - (id)ng",C,N,V_trialText;
 - (void)xperimentationTagIDs;
-- (void)dation;
+- (void)TagRecommendation;
 
 // Remaining properties
-@property(nonatomic) int action; // @synthesize action=_action;
-@property(copy, nonatomic) NSString *dsid; // @synthesize dsid=_dsid;
 @property(nonatomic) int type; // @synthesize type=_type;
 
 @end

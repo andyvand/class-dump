@@ -5,5 +5,8 @@
 //
 
 @protocol NSSharingServicePickerDelegate
+
+@optional
+- (void);
 @end
 

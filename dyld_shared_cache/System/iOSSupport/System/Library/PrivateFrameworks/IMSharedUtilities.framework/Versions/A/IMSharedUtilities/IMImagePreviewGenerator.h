@@ -14,7 +14,7 @@
 + (struct CGImage *);
 + (struct CGImage *);
 + (id);
-+ (struct CGImage *);
++ (struct CGImage *)";
 + (struct CGImage *);
 + (_Bool);
 + (id);

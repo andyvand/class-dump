@@ -5,6 +5,6 @@
 //
 
 @protocol PLHighlightSortable
-- (id)ies;
+- (const out const)capabilities;
 @end
 

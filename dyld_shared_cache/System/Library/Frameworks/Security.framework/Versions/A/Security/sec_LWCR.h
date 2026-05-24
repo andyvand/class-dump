@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface sec_LWCR
 {
     NSData *backingStorage;
-    struct CEQueryContext *backingContext;
-    struct LWCR lwcr;
-    NSDictionary *_dictionary;
 }
 
 + (id);
-- (long long);
-- (_Bool);
+- (long long);
+- (_Bool)";
 - (void);
 - (long long);
 - (id);
-- (id);
+- (id)A;
 - (id);
 - (void)}};
 
 // Remaining properties
-@property(readonly) long long constraintCategory;
-@property(readonly) NSDictionary *dictionary; // @synthesize dictionary=_dictionary;
-@property(readonly) _Bool hasRequirements;
 @property(readonly) long long version;
 
 @end

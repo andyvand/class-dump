@@ -15,14 +15,14 @@
 
 + (id);
 + (id);
-+ (id);
-+ (unsigned int);
-- (id);
++ (id)H;
++ (unsigned int)oad:%s /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)AMSUserNotificationSettingsTask;
 - (void);
 
 // Remaining properties

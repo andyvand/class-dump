@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTimer;
-
 @interface IKImageBrowserMagnifying
 {
     struct CGPoint _center;
-    int _state;
-    double _time;
-    float _delay;
-    NSTimer *_timer;
-    int _mode;
 }
 
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)countNgramPrefixMatchInAttachmentNames;
 - (_Bool);
 - (void);
 - (void);

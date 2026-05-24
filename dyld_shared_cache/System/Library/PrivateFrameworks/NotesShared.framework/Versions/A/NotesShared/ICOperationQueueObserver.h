@@ -8,10 +8,6 @@ __attribute__((visibility("hidden")))
 @interface ICOperationQueueObserver
 {
     id queue;
-    id delegate;
-    id queueObservation;
-    id observationsLock;
-    id logger;
 }
 
 - (void);

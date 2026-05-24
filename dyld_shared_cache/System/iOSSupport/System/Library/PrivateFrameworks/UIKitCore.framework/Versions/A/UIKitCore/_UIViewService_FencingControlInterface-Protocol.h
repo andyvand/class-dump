@@ -5,5 +5,10 @@
 //
 
 @protocol _UIViewService_FencingControlInterface
+
+@optional
+- (void);
+- (void);
+- (void);
 @end
 

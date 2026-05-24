@@ -6,18 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PLUSSchemaPLUSTMDCSiriCurrentPronunciationTier1 : SISchemaInstrumentationMessage
 {
     NSString *_phonemes;
-    int _source;
-    CDStruct_dbbab10b _has;
-    _Bool _hasPhonemes;
 }
 
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -27,24 +24,20 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)messages with messages count:(id)arg1 %d;
 - (void);
 - (id);
 - (int);
 - (id)
 × ;
-- (id)isClientNavigating;
+- (id)_isClientNavigating;
 - (id)ilure;
-- (_Bool)WLOCATIONACCESSPERMISSIONFAILUREREASON_INSUFFICIENT_PRECISION;
-- (void)YCODE_SA;
-- (void)PLEXITY_MEDIUM;
+- (_Bool)FLOWLOCATIONACCESSPERMISSIONFAILUREREASON_INSUFFICIENT_PRECISION;
+- (void)COUNTRYCODE_SA;
+- (void)CHCONVERSATIONCOMPLEXITY_MEDIUM;
 
 // Remaining properties
-@property(nonatomic) _Bool hasPhonemes; // @synthesize hasPhonemes=_hasPhonemes;
-@property(nonatomic) _Bool hasSource;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *phonemes; // @synthesize phonemes=_phonemes;
-@property(nonatomic) int source; // @synthesize source=_source;
 
 @end
 

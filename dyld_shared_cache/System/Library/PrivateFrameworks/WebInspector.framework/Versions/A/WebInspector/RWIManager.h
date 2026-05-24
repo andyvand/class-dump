@@ -4,27 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSSet, NSString, RWIApplication, RWIBaseManager, RWINotificationManager, RWITarget, SimDeviceSet, SimServiceContext;
-@protocol OS_dispatch_queue, RWIManagerDelegate, _RWIRelayToClientMessageReceiver;
+@class NSObject, RWIBaseManager;
+@protocol _RWIRelayToClientMessageReceiver;
 
 @interface RWIManager
 {
     RWIBaseManager *_baseManager;
-    NSMutableDictionary *_debuggers;
-    NSMutableDictionary *_pendingPartialIncomingMessageData;
-    struct RetainPtrArc<__CFRunLoop *> _mobileDeviceNotificationRunLoop;
-    NSObject<OS_dispatch_queue> *_mobileDeviceNotificationQueue;
-    struct _AMDeviceNotificationContext *_notificationRef;
-    unsigned long long _resubscribeAttemptCount;
-    unsigned int _powerConnection;
-    unsigned int _powerNotifier;
-    struct IONotificationPort *_powerNotificationPort;
-    NSObject<OS_dispatch_queue> *_simulatorAccessQueue;
-    SimServiceContext *_simulatorService;
-    SimDeviceSet *_simulatorDevices;
-    struct optional<unsigned long long> _simulatorDeviceSetNotificationHandler;
-    id <RWIManagerDelegate> _delegate;
-    RWINotificationManager *_notificationManager;
 }
 
 + (id);
@@ -32,14 +17,14 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
@@ -47,18 +32,18 @@
 - (id);
 - (void);
 - (id);
+- (void);
+- (void);
 - (void);
-- (void);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -84,7 +69,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)qA;
 - (unsigned long long);
 - (id);
 - (id);
@@ -95,30 +80,13 @@
 - (void);
 - (id);
 - (void);
+- (id)%;
 - (id);
-- (id);
-- (void);
+- (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *activeInspectors;
-@property(readonly, nonatomic) NSSet *capableTargets;
-@property(readonly, nonatomic) RWIApplication *currentApplication;
-@property(readonly, nonatomic) RWITarget *currentTarget;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <RWIManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *identifier;
 @property(readonly, nonatomic) NSObject<_RWIRelayToClientMessageReceiver> *messageReceiver;
-@property(readonly, nonatomic) RWINotificationManager *notificationManager; // @synthesize notificationManager=_notificationManager;
-@property(readonly, nonatomic) NSSet *readyTargets;
-@property(readonly, nonatomic) _Bool simulatorsSupported;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSSet *targets;
 
 @end
 

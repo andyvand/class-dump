@@ -4,7 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIDragInteraction, UITargetedDragPreview;
+
 @protocol _UIDragInteractionPresentationDelegate
+- (UITargetedDragPreview *)_defaultSortDescriptorsForModelKind:(UIDragInteraction *)arg1;
+- (void);
 - (void);
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol WBSUserDefinedContentBlockerManagerObserver
+- (void);
 @end
 

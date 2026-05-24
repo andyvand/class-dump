@@ -4,40 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source;
-
 @interface APAssistedModeBrowser
 {
     _Bool _isBrowsing;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSString *_instanceName;
-    NSString *_bonjourServiceName;
-    NSString *_bonjourProtocol;
-    struct BonjourBrowser *_bonjourBrowser;
-    CDUnknownBlockType _deviceFoundHandlerBlock;
-    NSObject<OS_dispatch_queue> *_internalBrowserQueue;
-    NSObject<OS_dispatch_source> *_timeoutTimer;
 }
 
 - (id);
 - (void);
-- (int);
+- (int)A!s;
 - (void);
 - (int);
-- (int);
+- (int);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)%;
 - (id);
+- (id);
 - (id);
-- (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)Z;
 - (void);
-- (id);
+- (id)+;
 - (void);
 - (id);
 - (void);
@@ -48,18 +37,10 @@
 - (id);
 - (void);
 - (struct BonjourBrowser *);
-- (void);
+- (void);
 
 // Remaining properties
-@property(nonatomic) struct BonjourBrowser *bonjourBrowser; // @synthesize bonjourBrowser=_bonjourBrowser;
-@property(nonatomic) NSString *bonjourProtocol; // @synthesize bonjourProtocol=_bonjourProtocol;
-@property(nonatomic) NSString *bonjourServiceName; // @synthesize bonjourServiceName=_bonjourServiceName;
-@property(nonatomic) CDUnknownBlockType deviceFoundHandlerBlock; // @synthesize deviceFoundHandlerBlock=_deviceFoundHandlerBlock;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(nonatomic) NSString *instanceName; // @synthesize instanceName=_instanceName;
-@property(nonatomic) NSObject<OS_dispatch_queue> *internalBrowserQueue; // @synthesize internalBrowserQueue=_internalBrowserQueue;
 @property(nonatomic) _Bool isBrowsing; // @synthesize isBrowsing=_isBrowsing;
-@property(nonatomic) NSObject<OS_dispatch_source> *timeoutTimer; // @synthesize timeoutTimer=_timeoutTimer;
 
 @end
 

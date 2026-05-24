@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface EWSNotificationType
 {
     _Bool _MoreEvents;
-    NSString *_SubscriptionId;
-    NSString *_PreviousWatermark;
-    NSArray *_Events;
 }
 
 + (id);
 - (void);
-- (void);
+- (void));
 - (void);
 - (id);
 - (id);
@@ -26,17 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *Events; // @synthesize Events=_Events;
-@property(nonatomic) _Bool MoreEvents; // @synthesize MoreEvents=_MoreEvents;
-@property(copy, nonatomic) NSString *PreviousWatermark; // @synthesize PreviousWatermark=_PreviousWatermark;
 @property(copy, nonatomic) NSString *SubscriptionId; // @synthesize SubscriptionId=_SubscriptionId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

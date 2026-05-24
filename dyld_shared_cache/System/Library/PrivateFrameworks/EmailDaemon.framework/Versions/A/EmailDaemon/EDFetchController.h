@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol EDAccountsProvider;
 
 @interface EDFetchController
@@ -16,18 +15,11 @@
 × ;
 - (void);
 - (id);
-- (id)bled: /* Error: Ran out of types for this method. */;
+- (id)_isAllInboxesCategoriesEnabled: /* Error: Ran out of types for this method. */;
 - (void)hasCompleteContent;
 
 // Remaining properties
 @property(retain, nonatomic) id <EDAccountsProvider> accountsProvider; // @synthesize accountsProvider=_accountsProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

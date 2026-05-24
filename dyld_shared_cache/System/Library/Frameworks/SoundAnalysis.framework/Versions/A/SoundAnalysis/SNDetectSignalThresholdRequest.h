@@ -16,7 +16,8 @@
 - (void);
 - (id);
 - (id);
-- (long long);
+- (long long)@
+;
 - (_Bool);
 - (void);
 - (unsigned int);
@@ -24,9 +25,6 @@
 - (double);
 
 // Remaining properties
-@property(nonatomic) unsigned int blockSize;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic) double magnitudeThreshold;
 @property(nonatomic) double sampleRate;
 
 @end

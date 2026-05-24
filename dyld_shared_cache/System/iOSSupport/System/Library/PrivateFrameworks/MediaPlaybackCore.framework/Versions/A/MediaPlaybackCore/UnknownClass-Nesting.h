@@ -7,7 +7,7 @@
 @class MPModelPlayEvent;
 
 @interface UnknownClass (Nesting)
-+ (id);
++ (id)9;
 - (void);
 - (id);
 - (id);

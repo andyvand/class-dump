@@ -6,14 +6,11 @@
 
 #import <BlastDoor/_BlastDoorLPSpecializationMetadata.h>
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface _BlastDoorLPWalletPassMetadata : _BlastDoorLPSpecializationMetadata
 {
     NSString *_name;
-    long long _style;
-    NSDate *_eventDate;
-    NSDate *_expirationDate;
 }
 
 + (id);
@@ -21,24 +18,21 @@
 - (void);
 - (long long);
 - (id);
-- (void);
+- (void)P;
 - (id);
 - (unsigned long long);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)C;
 - (id);
 - (void);
 - (void)c-
 ;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *eventDate; // @synthesize eventDate=_eventDate;
-@property(retain, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) long long style; // @synthesize style=_style;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface BMAccount
 {
     NSString *_identifier;
-    NSString *_altDSID;
 }
 
 + (_Bool);
@@ -22,20 +21,17 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)P;
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)A;
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accountIdentifier;
-@property(readonly, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(readonly, copy, nonatomic) NSString *biomeAccountIdentifier;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end

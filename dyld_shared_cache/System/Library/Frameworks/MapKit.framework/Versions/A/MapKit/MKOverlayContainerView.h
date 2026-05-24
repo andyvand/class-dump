@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKMapView, NSArray, NSMapTable, NSMutableArray, NSMutableOrderedSet;
+@class NSMutableOrderedSet;
 @protocol MKOverlayContainerViewDelegate;
 
 __attribute__((visibility("hidden")))
 @interface MKOverlayContainerView
 {
     NSMutableOrderedSet *_overlays[2];
-    NSMapTable *_internalOverlayToProvider;
-    NSMapTable *_overlayToDrawable[2];
-    NSMutableArray *_drawables[2];
-    NSMutableArray *_vkOverlays[2];
-    id <MKOverlayContainerViewDelegate> _delegate;
-    double _mapZoomScale;
-    MKMapView *_mapView;
 }
 
 + (long long);
@@ -26,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (double);
-- (void);
+- (void)9;
 - (void);
 - (void);
 - (void);
@@ -36,44 +29,38 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)K;
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)d;
 - (unsigned long long);
-- (CDStruct_02837cd9);
+- (CDStruct_2f492f29);
 - (long long);
 - (void);
+- (void)stem.B.dylib;
 - (void);
-- (void);
-- (long long);
+- (long long)__AUTH_CONST;
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (id)stringWithUTF8String: /* Error: Ran out of types for this method. */;
+- (void)SDRDiagnosticReporter;
 - (void);
 - (void);
 - (id);
+- (void)q*;
 - (void);
-- (void)okAroundView:didChangeLocationInfo: /* Error: Ran out of types for this method. */;
-- (id)PrimaryActionTriggeredForAnnotationView: /* Error: Ran out of types for this method. */;
-- (void)eIncidentTypeForGEOTrafficIncidentType:(id)arg1;
+- (void);
+- (id)r speechControllerDidStopRecording:(struct CGRect)arg1 audioDeviceInfo:forReason:estimatedSpeechEndHostTime:] /* Error: Ran out of types for this method. */;
+- (void);
+- (void)lookAroundView:didChangeLocationInfo: /* Error: Ran out of types for this method. */;
+- (id)annotationContainer:calloutPrimaryActionTriggeredForAnnotationView: /* Error: Ran out of types for this method. */;
+- (void)GEORouteIncidentTypeForGEOTrafficIncidentType:(id)arg1;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allDrawables;
 @property(nonatomic) __weak id <MKOverlayContainerViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) __weak MKMapView *mapView; // @synthesize mapView=_mapView;
-@property(nonatomic) double mapZoomScale; // @synthesize mapZoomScale=_mapZoomScale;
-@property(readonly, nonatomic) NSArray *overlays;
-@property(readonly, nonatomic) _Bool requiresModernMap;
-@property(readonly, nonatomic) _Bool supportsElevation;
 
 @end
 

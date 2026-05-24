@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol UIViewControllerInteractiveTransitioning;
-
 @protocol UINavigationControllerDelegate
 
 @optional
-- (id <UIViewControllerInteractiveTransitioning>);
+- (long long);
 @end
 

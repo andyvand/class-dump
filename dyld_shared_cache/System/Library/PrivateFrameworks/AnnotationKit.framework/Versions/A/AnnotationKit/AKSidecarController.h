@@ -4,35 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAnnotation, AKController, NSArray, NSMutableSet, NSObject, PKDrawing, PKStroke, SidecarDevice, SidecarRequest, SidecarStream;
-@protocol AKSidecarControllerDelegate, OS_dispatch_source;
+@class AKController;
 
 @interface AKSidecarController
 {
     _Bool _performingLiveInk;
-    _Bool _sentInitialData;
-    id _deviceObserver;
-    unsigned long long _liveInkAnnotationIndex;
-    PKStroke *_liveStroke;
-    PKDrawing *_lastDrawing;
-    struct CGRect _lastInkRectangle;
-    double _liveScale;
-    _Bool _updatingModel;
-    _Bool _ignoreKVOChanges;
-    _Bool _handlingUndoRedo;
-    _Bool _sendingCheckpoint;
-    _Bool _needCheckpointSent;
-    NSMutableSet *_coalescingAnnotationKeys;
-    AKAnnotation *_coalescingAnnotationChange;
-    NSObject<OS_dispatch_source> *_coalescingAnnotationSource;
-    _Bool _shouldObserveEdits;
-    id <AKSidecarControllerDelegate> _delegate;
-    SidecarRequest *_request;
-    SidecarStream *_annotationsStream;
-    AKController *_controller;
-    NSMutableSet *_observedPageModelControllers;
-    NSMutableSet *_observedAnnotations;
-    SidecarStream *_markupStream;
 }
 
 - (void);
@@ -48,25 +24,26 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (id);
+- (id)P	;
 - (id);
-- (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -75,8 +52,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -104,16 +80,7 @@
 - (void)d}}48@0:8d16d24d32@40 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) SidecarStream *annotationsStream; // @synthesize annotationsStream=_annotationsStream;
-@property(readonly, nonatomic) NSArray *availableDevices;
-@property(readonly, nonatomic) SidecarDevice *connectedDevice;
 @property __weak AKController *controller; // @synthesize controller=_controller;
-@property(nonatomic) __weak id <AKSidecarControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) SidecarStream *markupStream; // @synthesize markupStream=_markupStream;
-@property(retain) NSMutableSet *observedAnnotations; // @synthesize observedAnnotations=_observedAnnotations;
-@property(retain) NSMutableSet *observedPageModelControllers; // @synthesize observedPageModelControllers=_observedPageModelControllers;
-@property(retain, nonatomic) SidecarRequest *request; // @synthesize request=_request;
-@property(nonatomic) _Bool shouldObserveEdits; // @synthesize shouldObserveEdits=_shouldObserveEdits;
 
 @end
 

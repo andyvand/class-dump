@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface PKPeerPaymentAssociatedAccountRemovalRecord
 {
     _Bool _hasPresentedNotification;
-    NSString *_altDSID;
-    long long _reason;
-    NSDate *_date;
 }
 
 + (_Bool)áW"Ð!äEùqî%°1Â0@ù
@@ -19,24 +16,21 @@
 - (void);
 - (_Bool);
 - (id);
-- (long long);
+- (long long)|;
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long);
+- (_Bool)Outcome"b1"passwordSharingMechanism"b1"receivedSharedPasswordOutcome"b1};
+- (void)StudyEnd;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id)ithDictionary:(id)arg1;
-- (void)aitingOnUserAction;
+- (id)initWithDictionary:(id)arg1;
+- (void)isWaitingOnUserAction;
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(copy, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(nonatomic) _Bool hasPresentedNotification; // @synthesize hasPresentedNotification=_hasPresentedNotification;
-@property(nonatomic) long long reason; // @synthesize reason=_reason;
 
 @end
 

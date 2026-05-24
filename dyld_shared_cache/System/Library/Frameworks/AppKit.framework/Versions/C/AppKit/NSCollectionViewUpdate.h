@@ -4,35 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSCollectionViewData, NSCollectionViewIndexMapper, NSIndexPath, NSMutableArray, NSMutableDictionary, NSString, NSUUID, _NSCollectionViewCore;
+@class NSUUID, _NSCollectionViewCore;
 
 __attribute__((visibility("hidden")))
 @interface NSCollectionViewUpdate
 {
     _NSCollectionViewCore *_collectionView;
-    NSArray *_updateItems;
-    NSCollectionViewData *_oldModel;
-    NSCollectionViewData *_newModel;
-    struct CGRect _oldVisibleBounds;
-    struct CGRect _newVisibleBounds;
-    NSCollectionViewIndexMapper *_globalIndexMap;
-    NSCollectionViewIndexMapper *_sectionMap;
-    NSMutableArray *_deletedSupplementaryIndexesSectionArray;
-    NSMutableArray *_insertedSupplementaryIndexesSectionArray;
-    NSMutableDictionary *_deletedSupplementaryTopLevelIndexesDict;
-    NSMutableDictionary *_insertedSupplementaryTopLevelIndexesDict;
-    id *_animatedItems;
-    id *_animatedHeaders;
-    id *_animatedFooters;
-    NSMutableArray *_viewAnimations;
-    NSIndexPath *_oldFocusedIndexPath;
-    NSIndexPath *_newFocusedIndexPath;
-    long long _oldFocusedViewType;
-    long long _newFocusedViewType;
-    NSUUID *_identifier;
 }
 
-- (id);
+- (id)_totalBytesSent;
 - (void);
 - (void);
 - (void);
@@ -43,27 +23,20 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (id);
 - (id);
-- (long long);
+- (long long)kDeleteOperation;
 - (id);
 - (struct _NSRange);
 - (struct _NSRange);
 - (long long);
 - (id);
-- (id)Action:(id)arg1;
+- (id)handleResult:(id)arg1 forAction:(id)arg2;
 - (id)!;
-- (long long)meSystem;
+- (long long)NSAppearanceNameSystem;
 - (long long)%@, bindings:(long long)arg1;
 - (void)'Ä;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly) Class superclass;
 
 @end
 

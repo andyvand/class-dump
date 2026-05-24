@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface BWDeferredIntermediate
 {
     struct _opaque_pthread_mutex_t _lock;
-    struct _opaque_pthread_cond_t {
-        long long __sig;
-        char __opaque[40];
-    } _cv;
-    NSString *_tag;
-    NSURL *_URL;
-    long long _settingsID;
-    _Bool _prefetching;
-    _Bool _dirty;
 }
 
 + (_Bool)1Â0@ù
@@ -30,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)Structured storage library generated a not supported excepiton.;
 - (id);
 - (id);
 - (id);
@@ -40,8 +31,6 @@ __attribute__((visibility("hidden")))
 - (int);
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(nonatomic) long long settingsID; // @synthesize settingsID=_settingsID;
 @property(readonly, nonatomic) NSString *tag; // @synthesize tag=_tag;
 
 @end

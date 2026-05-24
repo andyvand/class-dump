@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
-- (_Bool);
-- (_Bool);
-- (id);
++ (id)adjustRect:(id)arg1 forExifOrientation:aboutCenter: /* Error: Ran out of types for this method. */;
+- (_Bool)akInkFromInk:strokeWidth: /* Error: Ran out of types for this method. */;
+- (_Bool)akColorWithSRGBRed:green:blue:alpha: /* Error: Ran out of types for this method. */;
+- (id)akBundleIdentifier;
 - (id);
 - (void);
 

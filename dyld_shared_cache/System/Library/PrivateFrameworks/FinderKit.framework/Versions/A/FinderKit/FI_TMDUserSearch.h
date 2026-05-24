@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface FI_TMDUserSearch
 {
     NSString *_filter;
-    NSArray *_scope;
-    NSArray *_slices;
-    NSNumber *_searchSystemFiles;
-    NSNumber *_fileNameOnly;
-    NSNumber *_searchNonFinderFiles;
 }
 
 - (void);
@@ -25,22 +20,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)DatabaseGenerationWindow"24;
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void)iCloudQuotaUI.framework/iCloudQuotaUI;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *fileNameOnly; // @synthesize fileNameOnly=_fileNameOnly;
 @property(retain, nonatomic) NSString *filter; // @synthesize filter=_filter;
-@property(retain, nonatomic) NSArray *scope; // @synthesize scope=_scope;
-@property(retain, nonatomic) NSNumber *searchNonFinderFiles; // @synthesize searchNonFinderFiles=_searchNonFinderFiles;
-@property(retain, nonatomic) NSNumber *searchSystemFiles; // @synthesize searchSystemFiles=_searchSystemFiles;
-@property(retain, nonatomic) NSArray *slices; // @synthesize slices=_slices;
 
 @end
 

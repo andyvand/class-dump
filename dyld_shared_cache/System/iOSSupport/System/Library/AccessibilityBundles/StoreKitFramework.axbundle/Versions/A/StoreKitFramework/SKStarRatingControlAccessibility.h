@@ -11,10 +11,10 @@
 }
 
 + (Class);
-+ (id);
++ (id)aceGeometry";
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
 - (id);

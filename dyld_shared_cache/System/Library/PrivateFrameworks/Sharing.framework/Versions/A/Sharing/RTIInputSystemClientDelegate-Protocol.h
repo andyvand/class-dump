@@ -5,5 +5,8 @@
 //
 
 @protocol RTIInputSystemClientDelegate
+
+@optional
+- (void)P;
 @end
 

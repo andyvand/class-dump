@@ -9,11 +9,6 @@
 @interface MPSParallelScan : MPSKernel
 {
     unsigned int _kernelID;
-    unsigned int _sourceDataType;
-    unsigned int _destinationDataType;
-    int _scanOp;
-    unsigned long long _scanImpl;
-    _Bool _useSpinLockVersion;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -31,8 +26,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int destinationDataType; // @synthesize destinationDataType=_destinationDataType;
-@property(nonatomic) unsigned long long scanImpl; // @synthesize scanImpl=_scanImpl;
 @property(readonly, nonatomic) unsigned int sourceDataType; // @synthesize sourceDataType=_sourceDataType;
 
 @end

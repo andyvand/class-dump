@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIFont, UITableViewIndex;
+@class UIFont, UITableViewIndex;
 
 @interface UITableViewIndexVisualStyle_CarPlay
 {
@@ -12,35 +12,24 @@
     UIFont *_font;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)isOnLastBatchFromStorageForAccountID:(long long)arg1;
+- (void)didReceiveMessageEditingUnsupportedHandleIDs:forMessageGUID:partIndex:previousMessage:backwardCompatibilityMessageGUID: /* Error: Ran out of types for this method. */;
+- (void)ype: /* Error: Ran out of types for this method. */;
+- (id)conversationID;
+- (void)Locally:(id)arg1;
+- (void);
 - (double);
 - (id);
+- (double)@;
+- (void);
+- (void)error %@;
 - (double);
-- (void);
-- (void);
-- (double);
-- (double): /* Error: Ran out of types for this method. */;
+- (double)setUIKeyboardCandidateListDelegate: /* Error: Ran out of types for this method. */;
 - (id);
-- (void)ypeAdd;
+- (void)UIApplicationShortcutIconTypeAdd;
 - (void)À*b;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UIFont *font; // @synthesize font=_font;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double indexWidth;
-@property(readonly, nonatomic) double lineSpacing;
-@property(readonly, nonatomic) double minLineSpacing;
-@property(readonly) Class superclass;
 @property(nonatomic) __weak UITableViewIndex *tableViewIndex; // @synthesize tableViewIndex=_tableViewIndex;
 
 @end

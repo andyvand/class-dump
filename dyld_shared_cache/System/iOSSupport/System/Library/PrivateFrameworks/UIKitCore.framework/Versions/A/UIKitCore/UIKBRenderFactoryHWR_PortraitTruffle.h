@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 - (struct UIEdgeInsets);
 - (struct CGPoint);
-- (struct CGPoint);
+- (struct CGPoint)tor.swift;
 - (double)onProgress",&,N,V_interactionProgressForCommit;
 
 @end

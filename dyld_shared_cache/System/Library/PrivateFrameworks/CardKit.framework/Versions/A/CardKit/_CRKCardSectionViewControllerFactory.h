@@ -11,10 +11,10 @@
     _CRKCardSectionViewControllerRegistry *_registry;
 }
 
-+ (void);
++ (void);
 + (id);
 + (id);
-- (void);
+- (void)gp;
 - (id);
 - (id);
 - (void);

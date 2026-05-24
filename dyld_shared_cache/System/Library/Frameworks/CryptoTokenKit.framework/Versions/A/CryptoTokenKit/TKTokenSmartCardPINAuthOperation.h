@@ -6,19 +6,14 @@
 
 #import <CryptoTokenKit/TKTokenAuthOperation.h>
 
-@class NSData, NSString, TKSmartCard, TKSmartCardPINFormat;
+@class NSString, TKSmartCardPINFormat;
 
 @interface TKTokenSmartCardPINAuthOperation : TKTokenAuthOperation
 {
     TKSmartCardPINFormat *_PINFormat;
-    NSData *_APDUTemplate;
-    long long _PINByteOffset;
-    TKSmartCard *_smartCard;
-    NSString *_PIN;
-    NSString *_localizedPINLabel;
 }
 
-+ (_Bool);
++ (_Bool)getUnspeakableRangeOfTextCompletedWithDictionary:context: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -30,22 +25,17 @@
 - (Class);
 - (void);
 - (id);
-- (id);
+- (id)C;
 - (long long);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)rightForIdentifier;
 
 // Remaining properties
-@property(copy) NSData *APDUTemplate; // @synthesize APDUTemplate=_APDUTemplate;
-@property(copy) NSString *PIN; // @synthesize PIN=_PIN;
-@property long long PINByteOffset; // @synthesize PINByteOffset=_PINByteOffset;
-@property(retain) TKSmartCardPINFormat *PINFormat; // @synthesize PINFormat=_PINFormat;
 @property(copy) NSString *localizedPINLabel; // @synthesize localizedPINLabel=_localizedPINLabel;
-@property(retain) TKSmartCard *smartCard; // @synthesize smartCard=_smartCard;
 
 @end
 

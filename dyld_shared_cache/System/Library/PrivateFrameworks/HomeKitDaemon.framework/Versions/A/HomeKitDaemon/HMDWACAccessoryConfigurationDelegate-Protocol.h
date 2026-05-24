@@ -5,5 +5,6 @@
 //
 
 @protocol HMDWACAccessoryConfigurationDelegate
+- (void)"CIVector",&,N,V_inputExtent;
 @end
 

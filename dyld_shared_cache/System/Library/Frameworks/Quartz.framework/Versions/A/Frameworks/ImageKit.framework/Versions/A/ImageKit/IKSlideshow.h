@@ -9,7 +9,7 @@
     id _privateData;
 }
 
-+ (void);
++ (void);
 + (void);
 + (_Bool);
 + (id);

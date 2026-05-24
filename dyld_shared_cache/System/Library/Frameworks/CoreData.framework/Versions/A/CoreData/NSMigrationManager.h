@@ -4,33 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSEntityMapping, NSError, NSManagedObjectContext, NSManagedObjectModel, NSMappingModel, NSMigrationContext, NSString;
+@class NSManagedObjectModel, NSString;
 
 @interface NSMigrationManager
 {
     NSManagedObjectModel *_sourceModel;
-    NSDictionary *_sourceEntitiesByVersionHash;
-    NSManagedObjectModel *_destinationModel;
-    NSDictionary *_destinationEntitiesByVersionHash;
-    NSMappingModel *_mappingModel;
-    NSManagedObjectContext *_sourceManagedObjectContext;
-    NSManagedObjectContext *_destinationManagedObjectContext;
-    NSMigrationContext *_migrationContext;
-    NSString *_stageLabel;
-    NSString *_destinationConfigurationForCloudKitValidation;
-    NSDictionary *_userInfo;
-    struct _migrationManagerFlags {
-        unsigned int _migrationWasCancelled:1;
-        unsigned int _usesStoreSpecificMigrationManager:1;
-        unsigned int _migrationWasInPlace:1;
-        unsigned int _forcedMigration:1;
-        unsigned int _reservedMigrationManager:28;
-    } _migrationManagerFlags;
-    NSError *_migrationCancellationError;
-    id _reserved1;
-    id _reserved2;
-    id _reserved3;
-    id _reserved4;
 }
 
 + (_Bool);
@@ -40,11 +18,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (float);
-- (_Bool);
+- (_Bool)!;
 - (id);
 - (id);
 - (id);
@@ -59,22 +37,13 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)T;
+- (void);
 - (id);
-- (void);
+- (void)";
 
 // Remaining properties
-@property(readonly) NSEntityMapping *currentEntityMapping;
-@property(retain, nonatomic) NSString *destinationConfigurationForCloudKitValidation; // @synthesize destinationConfigurationForCloudKitValidation=_destinationConfigurationForCloudKitValidation;
-@property(readonly) NSManagedObjectContext *destinationContext;
-@property(readonly) NSManagedObjectModel *destinationModel;
-@property(readonly) NSMappingModel *mappingModel;
-@property(readonly) float migrationProgress;
-@property(readonly) NSManagedObjectContext *sourceContext;
-@property(readonly) NSManagedObjectModel *sourceModel;
-@property(retain, nonatomic) NSDictionary *userInfo;
-@property _Bool usesStoreSpecificMigrationManager;
+@property(retain, nonatomic) NSString *destinationConfigurationForCloudKitValidation;
 
 @end
 

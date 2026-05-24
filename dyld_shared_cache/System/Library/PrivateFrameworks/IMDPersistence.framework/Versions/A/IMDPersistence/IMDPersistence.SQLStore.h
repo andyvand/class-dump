@@ -7,9 +7,6 @@
 @interface IMDPersistence.SQLStore
 {
     id identifier;
-    id schema;
-    id configuration;
-    id rowIDByPersistentIdentifier;
 }
 
 @end

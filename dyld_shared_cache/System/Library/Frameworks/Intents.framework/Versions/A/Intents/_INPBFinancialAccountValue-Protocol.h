@@ -4,28 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBBalanceAmountValue, _INPBDataString, _INPBValueMetadata;
+@class _INPBDataString, _INPBValueMetadata;
 
 @protocol _INPBFinancialAccountValue
+- (void);
+- (_Bool)&;
+- (_Bool);
+- (int);
 - (_Bool)uppressCommonWholeHouseAudioRoutes;
 - (void)ailed updating needsValue to needsDisambiguate for custom object:(_INPBValueMetadata *)arg1 %{public}@;
 - (_INPBValueMetadata *)ed; choosing that;
-- (_INPBDataString *);
 
 // Remaining properties
 @property(retain, nonatomic) _INPBDataString *accountNickname;
-@property(copy, nonatomic) NSString *accountNumber;
-@property(nonatomic) int accountType;
-@property(retain, nonatomic) _INPBBalanceAmountValue *balance;
-@property(readonly, nonatomic) _Bool hasAccountNickname;
-@property(readonly, nonatomic) _Bool hasAccountNumber;
-@property(nonatomic) _Bool hasAccountType;
-@property(readonly, nonatomic) _Bool hasBalance;
-@property(readonly, nonatomic) _Bool hasOrganizationName;
-@property(readonly, nonatomic) _Bool hasSecondaryBalance;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
-@property(retain, nonatomic) _INPBDataString *organizationName;
-@property(retain, nonatomic) _INPBBalanceAmountValue *secondaryBalance;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata;
 @end
 

@@ -9,13 +9,11 @@
 @interface BPSSubscriberList
 {
     NSMutableArray *_items;
-    NSMutableArray *_tickets;
-    long long _nextTicket;
 }
 
-- (id);
-- (long long);
-- (void);
+- (id)setTimberLorryUUID: /* Error: Ran out of types for this method. */;
+- (long long);
+- (void)since lexicon at following path is invalid in existence:(long long)arg1 %@;
 - (void);
 - (id);
 - (void);
@@ -27,8 +25,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *items; // @synthesize items=_items;
-@property(nonatomic) long long nextTicket; // @synthesize nextTicket=_nextTicket;
-@property(retain, nonatomic) NSMutableArray *tickets; // @synthesize tickets=_tickets;
 
 @end
 

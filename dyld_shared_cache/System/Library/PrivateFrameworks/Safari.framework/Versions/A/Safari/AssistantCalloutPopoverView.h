@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AssistantCalloutPopoverViewController, NSImageView, NSTextField;
+@class AssistantCalloutPopoverViewController, NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface AssistantCalloutPopoverView
 {
     NSTextField *_title;
-    NSImageView *_symbol;
-    AssistantCalloutPopoverViewController *_controller;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)=;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)31;
 
 // Remaining properties
 @property(retain, nonatomic) AssistantCalloutPopoverViewController *controller; // @synthesize controller=_controller;

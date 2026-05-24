@@ -5,8 +5,8 @@
 //
 
 @interface UnknownClass (AXPrivate)
-- (void);
-- (_Bool);
+- (void)@32q40;
+- (_Bool)erAssetsEdit";
 
 // Remaining properties
 @property(nonatomic) _Bool honorsGroups;

@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSError, NSHashTable, NSMutableArray, NSMutableDictionary, NSObject, NSString, WBSCloudTabDevice;
-@protocol OS_dispatch_queue, WBSCloudTabStoreDelegate;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface WBSCloudTabStore
 {
     NSObject<OS_dispatch_queue> *_internalQueue;
-    _Bool _isFetchingDataFromCloudKit;
-    _Bool _hasAttemptedToFetchDevicesAtLeastOnce;
-    NSMutableArray *_syncedCloudTabDevicesFromCloudKit;
-    NSArray *_filteredAndSortedSyncedCloudTabDevicesFromCloudKit;
-    WBSCloudTabDevice *_currentDevice;
-    NSMutableDictionary *_deviceUUIDsToCloseRequestsFromCloudKit;
-    NSError *_lastFetchError;
-    NSHashTable *_observers;
-    _Bool _syncAgentIsAvailable;
-    id <WBSCloudTabStoreDelegate> _wbsDelegate;
 }
 
 - (id);
@@ -42,12 +32,12 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
+- (id)x;
 - (id);
-- (id);
-- (id);
+- (id)T7;
 - (_Bool);
 - (void);
 - (void);
@@ -55,8 +45,8 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (void);
+- (id);
+- (void)};
 - (id);
 - (_Bool);
 - (_Bool);
@@ -64,22 +54,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool atLeastOneOtherActiveDeviceIsRegistered;
-@property(readonly, nonatomic) _Bool cloudTabsAreEnabled;
-@property(readonly, nonatomic) _Bool currentDeviceIsRegisteredInCloudKit;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryRepresentationOfCurrentDeviceInCloudKit;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSError *lastFetchError;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool syncAgentIsAvailable; // @synthesize syncAgentIsAvailable=_syncAgentIsAvailable;
-@property(readonly, copy, nonatomic) NSArray *syncedCloudTabDevices;
-@property(readonly, nonatomic) unsigned long long totalSyncedCloudTabDeviceCount;
-@property(readonly, nonatomic) long long uniqueDeviceMultiplicity;
-@property(nonatomic) __weak id <WBSCloudTabStoreDelegate> wbsDelegate; // @synthesize wbsDelegate=_wbsDelegate;
 
 @end
 

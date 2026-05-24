@@ -6,40 +6,20 @@
 
 #import <UIKitCore/UITableView.h>
 
-@class NSMutableArray, NSMutableIndexSet, NSString, UIColor;
-
 __attribute__((visibility("hidden")))
 @interface UIPickerTableView : UITableView
 {
     struct CGRect _selectionBarRect;
-    long long _selectionBarRow;
-    NSMutableIndexSet *_checkedRows;
-    double _lastClickedOffset;
-    long long _lastSelectedRow;
-    UIColor *_textColor;
-    struct CGRect _visibleRect;
-    NSMutableArray *_referencingCells;
-    struct {
-        unsigned int allowsMultipleSelection:1;
-        unsigned int scrollingDirection:2;
-        unsigned int didSelectDisabled:1;
-        unsigned int skipRowChangeNotifications:1;
-        unsigned int scrollingForSelection:1;
-        unsigned int cancellingAnimation:1;
-        unsigned int updatingContentInset:1;
-    } _pickerTableFlags;
-    _Bool _playsFeedback;
-    _Bool _generatorActivated;
 }
 
-+ (_Bool);
++ (_Bool)6;
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)_statusMaximumResidentUsers;
 - (id);
 - (void);
 - (void);
@@ -49,11 +29,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (struct CATransform3D);
+- (void)MPSectionedIdentifierListDelegate;
+- (struct CATransform3D)rce;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (long long);
 - (struct CGRect);
@@ -71,12 +51,12 @@ __attribute__((visibility("hidden")))
 - (id)ionFenceHandle"36@?<v@?{CGSize=dd}>44;
 - (_Bool)ractionController"b1"delegateSupportedInterfaceOrientations"b1"delegatePreferredInterfaceOrientationForPresentation"b1"delegateLayoutTransitioningClass"b1"delegateWasNonNil"b1"navigationBarHidesCompletelyOffscreen"b1"clipUnderlapWhileTransitioning"b1"isCrossfadingOutTabBar"b1"isCrossfadingInTabBar"b1"skipContentInsetCalculation"b1"useStandardStatusBarHeight"b1"allowUserInteractionDuringTransition"b1"enableBackButtonDuringTransition"b1"allowsGroupBlending"b1"allowNestedNavigationControllers"b1"allowChildSplitViewControllers"b1"nestedNavigationBarWasHidden"b1"nestedToolbarWasHidden"b1"isAnimatingExchangeBetweenInnerAndOuterToolbars"b1"isNested"b1"searchHidNavigationBar"b1"disappearingViewControllerIsBeingRemoved"b1"disappearingViewControllerNeedsToBeRemoved"b1"isWrappingDuringAdaptation"b1"cannotPerformShowViewController"b1"navigationSoundsEnabled"b1"didSetNeedsFocusInTransition"b1"layingOutTopViewController"b1"hasScheduledDeferredUpdateNavigationBarHostedRefreshControl"b1"allowsFreezeLayoutForOrientationChangeOnDismissal"b1"interactiveScrollActive"b1"scrollViewObservationReasonHasVariableHeightNavigationBar"b1"scrollViewObservationReasonIsEmulatingChromelessForFixedHeightNavigationBar"b1"scrollViewObservationReasonIsAutoUpdatingManualScrollEdgeAppearance"b1"scrollViewObservationReasonIsEmulatingChromelessEverywhere"b1"suspendToolbarBackgroundUpdating"b1"isBottomBarUnhidingDuringPushOrPop"b1"hasUpdatedToolbarBackgroundAfterAppLaunch"b1"createdBySplitViewController"b1"isExecutingSplitViewControllerActions"b1"shouldInteractivePopGestureBeEnabled"b1"allowsInteractivePopWhenNavigationBarHidden"b1"clipUnderlapWhileTransitioningWasChanged"b1"requiresToolbarHiddenForFindAndReplace"b1"floatingBarNeedsUpdateInViewWillAppear"b1};
 - (_Bool)Path"32@0:(long long)arg1 8@"UITableView"16@"NSIndexPath"24;
-- (long long);
-- (void)rsorEnabled;
-- (_Bool)iner;
-- (void)s;
-- (_Bool)ervableScrollViewForEdge: /* Error: Ran out of types for this method. */;
-- (_Bool)orDifferentialScrollingToShowFocusItemWithInfo:proposedContentOffset: /* Error: Ran out of types for this method. */;
+- (long long)viewWithURL: /* Error: Ran out of types for this method. */;
+- (void)soundReactiveCursorEnabled;
+- (_Bool)glassPocketContainer;
+- (void)_delegatesAllowingTextItemInteractions;
+- (_Bool)_contentOrObservableScrollViewForEdge: /* Error: Ran out of types for this method. */;
+- (_Bool)_ax_adjustedContentOffsetForDifferentialScrollingToShowFocusItemWithInfo:proposedContentOffset: /* Error: Ran out of types for this method. */;
 - (void)edback<_UIFeedbackDiscretePlayable>",R,N,V_detentFeedback;
 - (void)dSearchOptions;
 - (void)N;
@@ -92,19 +72,7 @@ __attribute__((visibility("hidden")))
 - (void)ôÔDÿ;
 
 // Remaining properties
-@property(retain, nonatomic, getter=_textColor, setter=_setTextColor:) UIColor *_textColor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool generatorActivated; // @synthesize generatorActivated=_generatorActivated;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long lastSelectedRow; // @synthesize lastSelectedRow=_lastSelectedRow;
-@property(getter=_playsFeedback, setter=_setPlaysFeedback:) _Bool playsFeedback; // @synthesize playsFeedback=_playsFeedback;
-@property(nonatomic) struct CGRect selectionBarRect; // @synthesize selectionBarRect=_selectionBarRect;
 @property(nonatomic, setter=_setSelectionBarRow:) long long selectionBarRow; // @synthesize selectionBarRow=_selectionBarRow;
-@property(readonly) Class superclass;
 
 @end
 

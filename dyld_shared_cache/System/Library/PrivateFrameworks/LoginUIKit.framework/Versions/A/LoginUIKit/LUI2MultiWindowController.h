@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LUI2Window, NSArray, NSMutableArray, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_source;
+@class NSArray;
 
 @interface LUI2MultiWindowController
 {
     _Bool _isVisible;
-    long long _backgroundViewStyle;
-    LUI2Window *_mainWindow;
-    NSMutableDictionary *_secondaryWindows;
-    NSMutableArray *_animationCompletions;
-    NSObject<OS_dispatch_source> *_displayReconfigurationTimer;
-    NSObject<OS_dispatch_source> *_prepareWindowsTimer;
-    id _wallpaperLockedAssertion;
-    _Bool _animate;
 }
 
 - (id);
@@ -29,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -43,7 +34,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -51,8 +42,6 @@
 - (void);
 
 // Remaining properties
-@property _Bool animate; // @synthesize animate=_animate;
-@property(readonly) LUI2Window *mainWindow;
 @property(readonly) NSArray *windows;
 
 @end

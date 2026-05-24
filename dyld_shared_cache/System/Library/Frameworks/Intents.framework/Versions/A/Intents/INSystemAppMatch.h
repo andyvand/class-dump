@@ -9,28 +9,20 @@
 @interface INSystemAppMatch
 {
     NSString *_iOSBundleIdentifier;
-    NSString *_macOSBundleIdentifier;
-    NSString *_watchOSBundleIdentifier;
-    NSString *_tvOSBundleIdentifier;
 }
 
-+ (id);
++ (id)f.c;
 - (id);
-- (id);
-- (id);
+- (id)hjh8;
+- (id)P;
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void)hCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideObjectTypeOptionsForSaveHealthSample:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool appIsUnavailableOnCurrentPlatform;
-@property(readonly, nonatomic) NSString *bundleIdentifierForCurrentPlatform;
 @property(readonly, nonatomic) NSString *iOSBundleIdentifier; // @synthesize iOSBundleIdentifier=_iOSBundleIdentifier;
-@property(readonly, nonatomic) NSString *macOSBundleIdentifier; // @synthesize macOSBundleIdentifier=_macOSBundleIdentifier;
-@property(readonly, nonatomic) NSString *tvOSBundleIdentifier; // @synthesize tvOSBundleIdentifier=_tvOSBundleIdentifier;
-@property(readonly, nonatomic) NSString *watchOSBundleIdentifier; // @synthesize watchOSBundleIdentifier=_watchOSBundleIdentifier;
 
 @end
 

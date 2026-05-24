@@ -14,7 +14,7 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)setEmulationSamplerStates:(struct _NSZone *)arg1 withRange: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long connectionState; // @synthesize connectionState=_connectionState;

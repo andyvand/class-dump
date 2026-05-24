@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PSESchemaPSECommonSignal;
+@class PSESchemaPSECommonSignal;
 
 @interface PSESchemaPSEGenericSignalGenerated : SISchemaInstrumentationMessage
 {
     PSESchemaPSECommonSignal *_commonSignal;
-    _Bool _hasCommonSignal;
 }
 
 - (void);
@@ -22,19 +21,17 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)tubs/ASDAggregateClusterMappingData_macOS.m:48 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)ection failed with error:(id)arg1 %@ for inspectors:%s /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id)yState;
+- (id)_suggestionRedundancyState;
 - (id)mInitialStartupItemCreationToLtluDurationInMs;
-- (void)RETRIEVE_TOOL_STARTED;
+- (void)FLOWSTATETYPE_RETRIEVE_TOOL_STARTED;
 
 // Remaining properties
 @property(retain, nonatomic) PSESchemaPSECommonSignal *commonSignal; // @synthesize commonSignal=_commonSignal;
-@property(nonatomic) _Bool hasCommonSignal; // @synthesize hasCommonSignal=_hasCommonSignal;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

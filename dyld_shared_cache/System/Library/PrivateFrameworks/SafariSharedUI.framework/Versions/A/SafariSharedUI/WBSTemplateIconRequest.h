@@ -6,7 +6,7 @@
 
 #import <SafariSharedUI/WBSSiteMetadataRequest.h>
 
-@class NSColor, NSString, WBSTemplateIconMonogramConfiguration;
+@class NSString;
 
 @interface WBSTemplateIconRequest : WBSSiteMetadataRequest
 {
@@ -18,9 +18,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) WBSTemplateIconMonogramConfiguration *monogramConfiguration;
 @property(readonly, copy, nonatomic) NSString *monogramTitle;
-@property(readonly, nonatomic) NSColor *overrideForegroundColor;
 
 @end
 

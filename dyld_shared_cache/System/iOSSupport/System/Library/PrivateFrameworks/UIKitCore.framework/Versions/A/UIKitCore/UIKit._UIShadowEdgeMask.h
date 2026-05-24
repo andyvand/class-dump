@@ -13,8 +13,8 @@
 }
 
 - (id);
-- (void);
-- (id)Layout;
+- (void);
+- (id)_UIStatusBarRegionAxisSquishyLayout;
 
 @end
 

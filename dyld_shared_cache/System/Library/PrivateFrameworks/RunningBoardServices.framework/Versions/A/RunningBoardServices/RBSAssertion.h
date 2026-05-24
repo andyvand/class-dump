@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, RBSAssertionDescriptor;
-@protocol RBSServiceLocalProtocol;
+@class NSHashTable;
 
 @interface RBSAssertion
 {
     NSHashTable *_observers;
-    CDUnknownBlockType _invalidationHandler;
-    CDUnknownBlockType _warningHandler;
-    RBSAssertionDescriptor *_descriptor;
-    id <RBSServiceLocalProtocol> _service;
-    unsigned long long _state;
-    struct os_unfair_lock_s _lock;
-    struct os_unfair_lock_s _dataLock;
 }
 
 @end

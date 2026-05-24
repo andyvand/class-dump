@@ -4,35 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSObject, NSString, _CDInMemoryContext;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface _CDInMemoryUserContext
 {
     NSObject<OS_dispatch_queue> *_syncQueue;
-    NSMutableDictionary *_contexts;
-    NSMutableArray *_pendingAllDeviceRegistrations;
-    _CDInMemoryContext *_userContext;
-    NSString *_localDeviceID;
 }
 
-+ (id);
++ (id)D;
+- (_Bool);
+- (id);
+- (id);
+- (id)l;
+- (id)ent);
+- (id);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)scan manager on interface:(id)arg1 %@ exception:%@ /* Error: Ran out of types for this method. */;
+- (id)FilteredNetwork;
 - (id);
 - (id);
 - (id);
@@ -46,7 +42,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)__TEXT;
 - (id);
 - (id);
 - (id);
@@ -58,8 +54,8 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
@@ -69,16 +65,12 @@
 - (id);
 - (void)1Â0@ù
 × ;
-- (void)er:(id)arg1;
+- (void)_predicateForChangeAtKeyPath:(id)arg1 identifier:(id)arg2;
 - (void)Not de-registering non-matching multi-device registration callback with device %{public}@:(id)arg1 %@;
 - (id)ltPaired/wifiQuality;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *contexts; // @synthesize contexts=_contexts;
-@property(retain, nonatomic) NSString *localDeviceID; // @synthesize localDeviceID=_localDeviceID;
-@property(retain, nonatomic) NSMutableArray *pendingAllDeviceRegistrations; // @synthesize pendingAllDeviceRegistrations=_pendingAllDeviceRegistrations;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *syncQueue; // @synthesize syncQueue=_syncQueue;
-@property(retain, nonatomic) _CDInMemoryContext *userContext; // @synthesize userContext=_userContext;
 
 @end
 

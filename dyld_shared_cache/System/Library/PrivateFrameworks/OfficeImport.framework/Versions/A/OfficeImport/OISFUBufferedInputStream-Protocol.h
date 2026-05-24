@@ -5,5 +5,7 @@
 //
 
 @protocol OISFUBufferedInputStream
+- (_Bool);
+- (unsigned long long);
 @end
 

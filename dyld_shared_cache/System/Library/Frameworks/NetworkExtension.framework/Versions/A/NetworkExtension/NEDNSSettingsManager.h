@@ -4,56 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NEConfiguration, NEConfigurationManager, NEDNSSettings, NEProfileIngestionPayloadInfo, NEVPNConnection, NSArray, NSObject, NSString, NSUUID;
-@protocol NEDNSSettingsManagerDelegate;
+@class NSUUID;
 
 @interface NEDNSSettingsManager
 {
     _Bool _hasLoaded;
-    NEConfigurationManager *_configurationManager;
-    NEVPNConnection *_connection;
-    NSObject *_statusObserver;
-    NEConfiguration *_configuration;
-    id <NEDNSSettingsManagerDelegate> _delegate;
 }
 
 + (void);
 + (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
+- (_Bool);
+- (void);
+- (id);
+- (void)hThumbnailRef:(id)arg1 url:fpItem:maxSize:minimumDimension:options:] /* Error: Ran out of types for this method. */;
+- (void);
+- (id)_activatedWithError: /* Error: Ran out of types for this method. */;
+- (id)KnownPairedContacts;
+- (id);
+- (void);
+- (id);
 - (_Bool);
-- (void);
+- (void)}@9	kA;
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void)me;
+- (id);
+- (id)_currentRemoteDevicesForDestinations:service:preferredFromID:listenerID:queue:waitForReply:completionBlock:completionBlockWithError: /* Error: Ran out of types for this method. */;
+- (void)resume;
 - (id)orkextension.dns-proxy-configuration-changed;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *appBundleIdentifier;
-@property(readonly, nonatomic, getter=isConfigurationGradeEnterprise) _Bool configurationGradeEnterprise;
-@property(readonly, nonatomic) NEProfileIngestionPayloadInfo *configurationPayloadInfo;
-@property __weak id <NEDNSSettingsManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) NEDNSSettings *dnsSettings;
-@property(getter=isEnabled) _Bool enabled;
-@property(readonly, nonatomic, getter=isFromProfile) _Bool fromProfile;
 @property(readonly, nonatomic) NSUUID *identifier;
-@property(copy) NSString *localizedDescription;
-@property(copy) NSArray *onDemandRules;
 
 @end
 

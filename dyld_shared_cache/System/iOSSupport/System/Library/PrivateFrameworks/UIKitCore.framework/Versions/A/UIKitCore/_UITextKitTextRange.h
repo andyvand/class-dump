@@ -6,24 +6,20 @@
 
 #import <UIKitCore/UITextRange.h>
 
-@class NSArray, NSTextRange, _UITextKitTextPosition;
+@class _UITextKitTextPosition;
 
 @interface _UITextKitTextRange : UITextRange
 {
     _UITextKitTextPosition *_start;
-    _UITextKitTextPosition *_end;
-    NSArray *_textKit2Ranges;
-    NSTextRange *_unionTextRange;
-    NSArray *_ranges;
 }
 
-+ (id);
-+ (id);
++ (id)control:(struct _NSRange)arg1 didFailToFormatString:(long long)arg2 errorDescription: /* Error: Ran out of types for this method. */;
++ (id)MPMediaPickerController";
 + (id);
 + (id);
 + (id)Ùa;
 - (id);
-- (id);
+- (id)setVideoArtworkInfo: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (id);
@@ -33,20 +29,16 @@
 - (id)1Â0@ù
 × ;
 - (_Bool)t"16@?<v@?@"NSArray"@"BKSAnimationFenceHandle"q>24;
-- (id)Scale;
+- (id)getIAPayloadKeySafariScale;
 - (id)_bestViewControllerForView;
 - (_Bool)è	;
 - (id)IdentifierProvider:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
-- (void)eReaderConfigurationC;
+- (void)So26UIImageReaderConfigurationC;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) _UITextKitTextPosition *end; // @synthesize end=_end;
-@property(readonly, nonatomic) NSArray *ranges; // @synthesize ranges=_ranges;
 @property(retain, nonatomic) _UITextKitTextPosition *start; // @synthesize start=_start;
-@property(retain, nonatomic) NSArray *textKit2Ranges; // @synthesize textKit2Ranges=_textKit2Ranges;
-@property(readonly, nonatomic) NSTextRange *unionTextRange; // @synthesize unionTextRange=_unionTextRange;
 
 @end
 

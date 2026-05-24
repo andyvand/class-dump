@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface FLOWSchemaFLOWMediaPlayerPlaylistContext : SISchemaInstrumentationMessage
 {
     int _playlistSubtype;
-    struct {
-        unsigned int playlistSubtype:1;
-    } _has;
 }
 
 - (void);
@@ -21,7 +16,7 @@
 - (_Bool);
 - (void);
 - (int);
-- (id);
+- (id)StashAutologin;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -32,8 +27,6 @@
 - (id)ð¡;
 
 // Remaining properties
-@property(nonatomic) _Bool hasPlaylistSubtype;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int playlistSubtype; // @synthesize playlistSubtype=_playlistSubtype;
 
 @end

@@ -6,7 +6,7 @@
 
 #import <ConfigurationEngineModel/CEMCommandBase.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface CEMEventSubscriptionNowCommand : CEMCommandBase
 {
@@ -21,21 +21,14 @@
 - (id);
 - (_Bool);
 - (int);
-- (_Bool);
+- (_Bool)ms;
 - (void);
 - (id);
-- (id);
+- (id)SS_SdtSg_Sit;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSArray *payloadEvents; // @synthesize payloadEvents=_payloadEvents;
-@property(readonly) Class superclass;
 
 @end
 

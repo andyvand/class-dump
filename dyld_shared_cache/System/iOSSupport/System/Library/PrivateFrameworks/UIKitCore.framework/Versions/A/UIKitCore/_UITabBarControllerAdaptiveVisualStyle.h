@@ -6,7 +6,7 @@
 
 #import <UIKitCore/_UITabBarControllerVisualStyle_iOS.h>
 
-@class NSString, UIAction, _UITabContainerView;
+@class _UITabContainerView;
 
 __attribute__((visibility("hidden")))
 @interface _UITabBarControllerAdaptiveVisualStyle : _UITabBarControllerVisualStyle_iOS
@@ -17,25 +17,25 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (_Bool);
+- (_Bool);
 - (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)16@0:8 /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
@@ -44,53 +44,42 @@ __attribute__((visibility("hidden")))
 - (struct UIEdgeInsets);
 - (void);
 - (void);
-- (struct CGRect);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (struct CGRect)@"NSArray"36B44B48Q52@?<v@?Q>60;
+- (_Bool)ary"68;
+- (_Bool)"NSString"16@"NSDictionary"24@"NSString"32C40@"NSString"44@"NSString"52@"NSString"60@"NSDictionary"68;
+- (_Bool)2C40@"NSDictionary"44;
 - (struct UIEdgeInsets);
-- (struct CGRect);
-- (struct UIEdgeInsets);
-- (struct UIEdgeInsets);
-- (struct UIEdgeInsets);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
+- (struct CGRect)setUnformattedNumber:(struct CGRect)arg1;
+- (struct UIEdgeInsets)setStore: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)setStartingPeriodicSyncSetByCloudKitHooks: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)setAddedObserverForUnexpectedlyLoggedOut: /* Error: Ran out of types for this method. */;
+- (void)provideDataForBundleID:protectionClass:itemIdentifier:typeIdentifier:options:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)numChatsMarkedRead;
+- (void)lastTUConversationItemForChat: /* Error: Ran out of types for this method. */;
+- (void)isSendEnabled;
+- (id)fetchMomentShareFromShareURL:options:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_recordStore;
+- (_Bool)l7;
 - (long long);
-- (id);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void)e;
-- (void);
-- (id)eError;
+- (id)ailed replacing iMessage app template image with BlastDoor copy for %@ and transfer %@;
+- (void)nce it is after %@;
+- (unsigned long long)Device does not support SMS auto reply becuase it does not support CoreTelephony subscriptions;
+- (void)iginal chat [%@], will use lastAddressedHandle %@ lastSIMID %@;
+- (void)ressedHandle %@ lastAddressedSIMID %@;
+- (void)on Received an incomming approval response from:%@ to:%@ /* Error: Ran out of types for this method. */;
+- (void)insetForDismissedKeyboardGuide;
+- (void)setRightBorder: /* Error: Ran out of types for this method. */;
+- (id)CKXPCSuitableError;
 - (long long)icImpl _collapseSecondaryViewController:ontoPrimaryViewController:] /* Error: Ran out of types for this method. */;
 - (long long)vidingP;
 - (void);
 - (_Bool)¦;
-- (long long)table;
+- (long long)Compactable;
 - (id);
 - (void)Ì·[;
 - (long long)ÿ×<Ú<·];
 
 // Remaining properties
-@property(nonatomic) struct UIEdgeInsets absoluteSidebarInsets;
-@property(nonatomic) struct UIEdgeInsets additionalSidebarInsets;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIAction *overrideTidebarButtonAction;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool supportsResizingSidebar;
 @property(readonly, nonatomic) _UITabContainerView *tabContainerView; // @synthesize tabContainerView=_tabContainerView;
 
 @end

@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSDate, NSNumber, NSString, SAStartLocalRequest;
+@class NSString;
 
 @interface SAPerformRemoteAnnouncement : SABaseClientBoundCommand
 {
@@ -22,19 +22,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)P7;
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *announcementIdentifier;
-@property(copy, nonatomic) NSNumber *announcementNotificationType;
-@property(copy, nonatomic) NSNumber *announcementPlatform;
-@property(copy, nonatomic) NSDate *announcementTimestamp;
-@property(copy, nonatomic) NSNumber *announcementType;
-@property(retain, nonatomic) SAStartLocalRequest *startLocalRequest;
 
 @end
 

@@ -9,7 +9,7 @@
 }
 
 + (long long);
-+ (id);
++ (id)_;
 + (id);
 + (struct CGRect);
 + (void);

@@ -15,10 +15,10 @@
 - (void);
 - (int);
 - (int);
-- (id);
+- (id);
 - (void)8@16@?24;
 - (void);
-- (int)fDayForStartDate;
+- (int)cachedStartOfDayForStartDate;
 
 @end
 

@@ -6,31 +6,30 @@
 
 #import <BaseBoard/BSSettings.h>
 
-@class BSMutableIntegerMap, NSMutableSet;
+@class NSMutableSet;
 
 @interface BSKeyedSettings : BSSettings
 {
     NSMutableSet *_keys;
-    BSMutableIntegerMap *_keyMap;
 }
 
 + (Class);
 + (_Bool);
 + (Class);
+- (void)!;
 - (void);
-- (void);
 - (id);
 - (id);
-- (id);
+- (id)`f;
 - (id);
 - (id);
 - (void);
 - (id);
 - (long long);
-- (void);
+- (void)?;
 - (id);
 - (id);
-- (void);
+- (void)R;
 - (_Bool);
 - (_Bool);
 - (void);

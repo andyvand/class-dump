@@ -4,26 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNGroup, NSArray, NSString, UIImage;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface CNAccountsAndGroupsItem
 {
     _Bool _selected;
-    _Bool _bypassIfUnique;
-    _Bool _shouldHide;
-    _Bool _soloSelect;
-    NSString *_identifier;
-    CDUnknownBlockType _nameProvider;
-    NSString *_name;
-    long long _type;
-    CNGroup *_group;
-    NSString *_containerIdentifier;
-    long long _containerType;
-    long long _contactCount;
-    NSArray *_childItems;
-    CNAccountsAndGroupsItem *_parentItem;
-    long long _indentationLevel;
 }
 
 - (_Bool);
@@ -41,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -52,16 +38,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (long long);
-- (id);
+- (id)ating subscriptions.;
 - (void);
 - (_Bool);
 - (long long);
 - (void);
-- (void);
+- (void)tCallTrees;
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)u;
 - (void)
 × ;
 - (long long)ctionsModel;
@@ -73,31 +59,7 @@ __attribute__((visibility("hidden")))
 - (void)#Èá;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool acceptsVCardDrop;
-@property(nonatomic) _Bool bypassIfUnique; // @synthesize bypassIfUnique=_bypassIfUnique;
-@property(readonly, nonatomic) _Bool canDelete;
-@property(readonly, nonatomic) _Bool canEmail;
-@property(readonly, nonatomic) _Bool canExport;
-@property(readonly, nonatomic) _Bool canMessage;
-@property(readonly, nonatomic) _Bool canRename;
-@property(readonly, nonatomic) _Bool canShowContextMenu;
-@property(retain, nonatomic) NSArray *childItems; // @synthesize childItems=_childItems;
-@property(nonatomic) long long contactCount; // @synthesize contactCount=_contactCount;
-@property(readonly, nonatomic) NSString *contactCountString;
-@property(retain, nonatomic) NSString *containerIdentifier; // @synthesize containerIdentifier=_containerIdentifier;
-@property(nonatomic) long long containerType; // @synthesize containerType=_containerType;
-@property(retain, nonatomic) CNGroup *group; // @synthesize group=_group;
-@property(readonly, nonatomic) UIImage *groupSymbol;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) long long indentationLevel; // @synthesize indentationLevel=_indentationLevel;
-@property(readonly, nonatomic) _Bool isEditable;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy, nonatomic) CDUnknownBlockType nameProvider; // @synthesize nameProvider=_nameProvider;
-@property(nonatomic) __weak CNAccountsAndGroupsItem *parentItem; // @synthesize parentItem=_parentItem;
-@property(nonatomic, getter=isSelected) _Bool selected; // @synthesize selected=_selected;
-@property(nonatomic) _Bool shouldHide; // @synthesize shouldHide=_shouldHide;
-@property(nonatomic) _Bool soloSelect; // @synthesize soloSelect=_soloSelect;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

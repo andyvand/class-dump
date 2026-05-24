@@ -5,7 +5,6 @@
 //
 
 @class NSString, UIImage;
-@protocol UIPopoverPresentationControllerSourceItem;
 
 @protocol UIMenuLeaf
 - (void)Ôá;
@@ -17,22 +16,14 @@
 × ;
 - (void)6;
 - (UIImage *)Point=dd}16{CGPoint=dd}32B48B52;
-- (NSString *)dFrame: /* Error: Ran out of types for this method. */;
-- (void)ionController;
+- (NSString *)setDelegateSearchFieldFrameForProposedFrame: /* Error: Ran out of types for this method. */;
+- (void)_temporaryPresentationController;
 - (void)Insets=dddd},N,V_concaveInsets;
 - (void);
 - (id);
 - (NSString *)@ column. Split view controller:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned long long attributes;
-@property(copy, nonatomic) NSString *discoverabilityTitle;
-@property(copy, nonatomic) UIImage *image;
-@property(readonly, nonatomic) id <UIPopoverPresentationControllerSourceItem> presentationSourceItem;
-@property(nonatomic) long long repeatBehavior;
-@property(copy, nonatomic) UIImage *selectedImage;
-@property(readonly, nonatomic) id sender;
-@property(nonatomic) long long state;
 @property(copy, nonatomic) NSString *title;
 @end
 

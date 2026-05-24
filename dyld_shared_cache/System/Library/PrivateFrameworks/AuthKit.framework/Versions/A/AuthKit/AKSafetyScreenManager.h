@@ -12,14 +12,14 @@
 }
 
 - (_Bool);
-- (void);
+- (void)#�;
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)K;
 - (void)<kxk k¼k;
 
 // Remaining properties

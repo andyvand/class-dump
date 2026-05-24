@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKController, AKGeometryHelper, AKInkPageOverlayController, AKLayerPresentationManager, AKPageModelController, NSMutableDictionary, NSString, NSView;
-@protocol AKControllerDelegateProtocol;
+@class AKController;
 
 @interface AKPageController
 {
     _Bool _shouldPixelate;
-    _Bool _superviewDependentThingsWereSetUp;
-    AKController *_controller;
-    AKPageModelController *_pageModelController;
-    unsigned long long _pageIndex;
-    AKGeometryHelper *_geometryHelper;
-    AKLayerPresentationManager *_layerPresentationManager;
-    NSView *_overlayView;
-    AKInkPageOverlayController *_inkPageOverlayController;
-    id _inkOverlayDrawingUndoTarget;
-    NSMutableDictionary *_noteEditors;
 }
 
 + (id);
@@ -38,18 +27,18 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (double);
+- (void);
+- (void);
+- (id);
+- (double);
 - (struct CGRect);
 - (id);
 - (id);
@@ -65,41 +54,23 @@
 - (id);
 - (double);
 - (struct CGPoint);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (struct CGPoint);
-- (void);
+- (void)assetWithURL:(unsigned long long)arg1;
 - (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)library;
 - (id);
 - (void);
+- (void)convertPoint:fromView: /* Error: Ran out of types for this method. */;
+- (void)C3DGenericSourceCreateDeepCopy;
+- (id);
+- (void)c;
 - (id);
 
 // Remaining properties
 @property __weak AKController *controller; // @synthesize controller=_controller;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) id <AKControllerDelegateProtocol> delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) AKGeometryHelper *geometryHelper; // @synthesize geometryHelper=_geometryHelper;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id inkOverlayDrawingUndoTarget; // @synthesize inkOverlayDrawingUndoTarget=_inkOverlayDrawingUndoTarget;
-@property(retain, nonatomic) AKInkPageOverlayController *inkPageOverlayController; // @synthesize inkPageOverlayController=_inkPageOverlayController;
-@property(retain, nonatomic) AKLayerPresentationManager *layerPresentationManager; // @synthesize layerPresentationManager=_layerPresentationManager;
-@property(retain) NSMutableDictionary *noteEditors; // @synthesize noteEditors=_noteEditors;
-@property(retain, nonatomic) NSView *overlayView; // @synthesize overlayView=_overlayView;
-@property unsigned long long pageIndex; // @synthesize pageIndex=_pageIndex;
-@property(retain) AKPageModelController *pageModelController; // @synthesize pageModelController=_pageModelController;
-@property _Bool shouldPixelate; // @synthesize shouldPixelate=_shouldPixelate;
-@property(readonly) Class superclass;
-@property _Bool superviewDependentThingsWereSetUp; // @synthesize superviewDependentThingsWereSetUp=_superviewDependentThingsWereSetUp;
 
 @end
 

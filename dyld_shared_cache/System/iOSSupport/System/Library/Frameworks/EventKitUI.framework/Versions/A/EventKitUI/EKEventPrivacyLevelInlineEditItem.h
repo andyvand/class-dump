@@ -9,18 +9,17 @@
 @interface EKEventPrivacyLevelInlineEditItem : EKEventEditItem
 {
     _Bool _originalSwitchState;
-    _Bool _currentSwitchState;
 }
 
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (double);
-- (_Bool);
+- (double);
+- (_Bool)&s;
 - (void);
-- (_Bool);
+- (_Bool)q;
 - (id);
-- (id);
+- (id)@@;
 - (void);
 
 @end

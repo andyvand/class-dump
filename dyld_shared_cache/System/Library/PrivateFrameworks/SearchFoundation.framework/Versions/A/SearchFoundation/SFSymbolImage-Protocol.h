@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSData, NSString;
 
 @protocol SFSymbolImage
+- (int)_trigger;
+- (int)yerController class];
+- (void)pdatedStatus:(int)arg1 (%{BOOL}d) previousStateDescriptor:(%{public}@) updatedStateDescriptor:(%{public}@). /* Error: Ran out of types for this method. */;
+- (NSData *)Lw;
 
 // Remaining properties
-@property(nonatomic) int backgroundColor;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) int fillStyle;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int primaryColor;
-@property(nonatomic) _Bool punchThroughBackground;
-@property(nonatomic) int secondaryColor;
 @property(copy, nonatomic) NSString *symbolName;
 @end
 

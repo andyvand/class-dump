@@ -5,5 +5,8 @@
 //
 
 @protocol NSPasteboardWriting_Private
+
+@optional
+- (void);
 @end
 

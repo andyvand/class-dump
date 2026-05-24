@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INIntentForwardingActionResponse, INIntentResponse;
+@class INIntentResponse;
 
 @interface UISIntentForwardingActionResponse
 {
     INIntentResponse *_cachedIntentResponse;
-    INIntentForwardingActionResponse *_cachedIntentForwardingActionResponse;
 }
 
-+ (id);
-+ (id);
++ (id);
++ (id)P;
 - (id);
 - (id);
 - (id);
@@ -22,7 +21,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) INIntentForwardingActionResponse *intentForwardingActionResponse;
 @property(readonly, nonatomic) INIntentResponse *intentResponse;
 
 @end

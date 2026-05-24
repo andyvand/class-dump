@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatarConfigurationImageRenderer, AVTCoreModel, AVTImageStore, AVTUIEnvironment, NSArray;
-@protocol AVTUILogger;
+@class AVTImageStore;
 
 @interface AVTAvatarRecordImageGenerator
 {
     AVTImageStore *_imageStore;
-    AVTAvatarConfigurationImageRenderer *_renderer;
-    NSArray *_scopes;
-    id <AVTUILogger> _logger;
-    AVTUIEnvironment *_environment;
 }
 
 + (id);
@@ -34,12 +29,7 @@
 - (id)¡n@;
 
 // Remaining properties
-@property(readonly, nonatomic) AVTCoreModel *coreModel;
-@property(readonly, nonatomic) AVTUIEnvironment *environment; // @synthesize environment=_environment;
 @property(readonly, nonatomic) AVTImageStore *imageStore; // @synthesize imageStore=_imageStore;
-@property(readonly, nonatomic) id <AVTUILogger> logger; // @synthesize logger=_logger;
-@property(readonly, nonatomic) AVTAvatarConfigurationImageRenderer *renderer; // @synthesize renderer=_renderer;
-@property(readonly, copy, nonatomic) NSArray *scopes; // @synthesize scopes=_scopes;
 
 @end
 

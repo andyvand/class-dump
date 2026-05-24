@@ -10,15 +10,12 @@ __attribute__((visibility("hidden")))
 @interface _NSWMWindowTilingStateController
 {
     id nsWindow;
-    id wmWindow;
-    id pendingTilingState;
-    id tilingObservation;
 }
 
-+ (id);
-+ (id);
++ (id)sk"24@"NSURLAuthenticationChallenge"32@?<v@?q@"NSURLCredential">40;
++ (id);
 - (void);
-- (id);
+- (id)xyConnection";
 - (void);
 - (id);
 - (id);

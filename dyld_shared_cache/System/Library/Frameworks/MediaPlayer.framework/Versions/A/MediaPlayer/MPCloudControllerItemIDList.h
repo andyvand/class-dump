@@ -18,8 +18,8 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (void)adioStationEndingAirDate__MAPPING_MISSING__;
+- (id)ȹF;
+- (void)__MPModelPropertyRadioStationEndingAirDate__MAPPING_MISSING__;
 
 // Remaining properties
 @property(retain, nonatomic) ICCloudItemIDList *cloudItemIDList; // @synthesize cloudItemIDList=_cloudItemIDList;

@@ -8,11 +8,11 @@
 {
 }
 
++ (id)_dataTaskData;
++ (id)nection;
++ (id)nablesEarlyData;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)r5;
 - (id);
 - (id);
 - (id);

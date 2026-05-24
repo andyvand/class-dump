@@ -4,42 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
 @protocol SLWindowMirroringManagerDelegate;
 
 @interface SLWindowMirroringManager
 {
     id <SLWindowMirroringManagerDelegate> _delegate;
-    NSMutableDictionary *_contexts;
-    int tokenShieldWindowChanged;
 }
 
 + (id)¼ÄÈ;
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (id)%d with known keys:(id)arg1 %@ and %@;
+- (id)ents.  parameter was %lu;
+- (_Bool)dKitMetadataPurger purgeMetadataAfterAccountChangeFromStore:(id)arg1 inMonitor:(id)arg2 inDatabaseWithScope:(id)arg3 error:]_block_invoke /* Error: Ran out of types for this method. */;
+- (_Bool)N %@;
+- (id)oots/4~CNqEugDh502GJL_x8DXQWxbCSoMfIJVbLF2LSGM/Library/Caches/com.apple.xbs/TemporaryDirectory.aLAJrA/Sources/Persistence/PFCloudKitHistoryAnalyzerContext.m;
+- (void)_recoverUnknownItemRecordIDs:(id)arg1 forStore:inMonitor:]_block_invoke /* Error: Ran out of types for this method. */;
+- (_Bool)ecoverFromError:(id)arg1 ]_block_invoke;
+- (_Bool):(id)arg1 %@;
+- (_Bool)e never successfully initialized due to error:(id)arg1 %@;
+- (_Bool)was aborted because the mirroring delegate never successfully initialized due to error:(id)arg1 %@;
+- (_Bool)6@"NSError"24;
+- (_Bool)rroringDelegate _acceptShareMetadatasInRequest:(id)arg1 workBlockContext:]_block_invoke /* Error: Ran out of types for this method. */;
+- (_Bool)oudKitMirroringDelegate _respondToPushNotification:(id)arg1 forSubscription:(id)arg2 ]_block_invoke;
+- (_Bool).cloudkit.push;
+- (_Bool)emoved;
+- (_Bool):(id)arg1 ]_block_invoke;
+- (void)NSCloudKitMirroringDelegate.m;
+- (id)able for %@, must be a collection;
+- (id)errorCode;
+- (id)PFCloudKitMetadataClientVersionHashesKey;
+- (_Bool)exception.;
+- (_Bool)@=%@;
+- (_Bool)y objectID for metadata link:(id)arg1 %@
+%@
+%@;
+- (_Bool)ame (%@) - the configuration will be ignored.;
+- (void)`>;
 - (id);
 - (id);
 - (void);

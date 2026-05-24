@@ -5,6 +5,6 @@
 //
 
 @protocol NSFastEnumeration
-- (unsigned long long)erving;
+- (unsigned long long)SXSubscriptionActivationEligibilityObserving;
 @end
 

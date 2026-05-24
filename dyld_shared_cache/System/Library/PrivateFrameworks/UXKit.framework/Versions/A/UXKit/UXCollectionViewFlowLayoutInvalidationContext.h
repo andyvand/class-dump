@@ -15,13 +15,12 @@
 }
 
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool invalidateFlowLayoutAttributes;
 @property(nonatomic) _Bool invalidateFlowLayoutDelegateMetrics;
 
 @end

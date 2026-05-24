@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PEGASUSSchemaPEGASUSAudioQueueStateItem : SISchemaInstrumentationMessage
 {
     int _audioQueueStateItemType;
-    struct {
-        unsigned int audioQueueStateItemType:1;
-    } _has;
 }
 
 - (void);
@@ -25,17 +20,15 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)IMDAttachmentRecordCopyAttachmentsToPurgeForDiskSpace_IPCAction;
 - (id);
 - (id)Ar!(BùÑÝð1Â0@ù
 × ;
-- (id)SameGroup28DayToInf;
+- (id)_freqSameGroup28DayToInf;
 - (id)Cancelled",&,N,V_cancelled;
 
 // Remaining properties
 @property(nonatomic) int audioQueueStateItemType; // @synthesize audioQueueStateItemType=_audioQueueStateItemType;
-@property(nonatomic) _Bool hasAudioQueueStateItemType;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

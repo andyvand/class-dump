@@ -7,7 +7,6 @@
 @interface IMAcceptedContactsChangeNotifier
 {
     struct __CFString *_notification;
-    CDUnknownBlockType _notifyBlock;
 }
 
 + (id);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) struct __CFString *notification; // @synthesize notification=_notification;
-@property(readonly, copy, nonatomic) CDUnknownBlockType notifyBlock; // @synthesize notifyBlock=_notifyBlock;
 
 @end
 

@@ -11,11 +11,11 @@
 }
 
 + (Class);
-+ (id);
++ (id);
 + (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)__objc_data;
 
 @end
 

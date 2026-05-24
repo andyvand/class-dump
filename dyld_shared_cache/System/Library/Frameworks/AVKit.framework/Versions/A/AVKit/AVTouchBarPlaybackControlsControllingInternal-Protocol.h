@@ -5,21 +5,20 @@
 //
 
 @protocol AVTouchBarPlaybackControlsControllingInternal
+- (void);
+- (_Bool)inally sent with an ECT(%d) marking;
+- (_Bool)mestamp:] /* Error: Ran out of types for this method. */;
+- (_Bool)I;
+- (void)H;
+- (_Bool);
+- (void)<;
 - (void)1Â0@ù
 × ;
-- (void)neControlWillBeginChanging:(id)arg1;
-- (_Bool)icon: /* Error: Ran out of types for this method. */;
+- (void)mediaTimelineControlWillBeginChanging:(id)arg1;
+- (_Bool)initWithLabelText:icon: /* Error: Ran out of types for this method. */;
 - (void)reController.audioPreviewVolume;
 
 // Remaining properties
-@property(readonly) _Bool allowsPictureInPicturePlayback;
-@property(readonly) _Bool canScanBackward;
-@property(readonly) _Bool canScanForward;
-@property(readonly) _Bool canTogglePictureInPicture;
-@property(readonly) _Bool canTogglePlayback;
-@property double defaultPlaybackRate;
-@property(readonly) _Bool hasLiveStreamingContent;
-@property(readonly, getter=isPictureInPictureActive) _Bool pictureInPictureActive;
 @property(getter=isPlaying) _Bool playing;
 @end
 

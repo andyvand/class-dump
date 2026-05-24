@@ -6,51 +6,34 @@
 
 #import <UIKitCore/UIPickerView.h>
 
-@class DOMHTMLSelectElement, NSArray, NSString;
-@protocol UIWebSelectedItemPrivate;
+@class DOMHTMLSelectElement;
 
 __attribute__((visibility("hidden")))
 @interface UIWebSelectMultiplePicker : UIPickerView
 {
     DOMHTMLSelectElement *_selectionNode;
-    NSArray *_cachedItems;
-    id <UIWebSelectedItemPrivate> _singleSelectionItem;
-    unsigned long long _singleSelectionIndex;
-    double _fontSize;
-    double _maximumTextWidth;
-    long long _textAlignment;
-    double _layoutWidth;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)receivedUrgentRequestForMessages:(id)arg1;
+- (void)receiveFileTransfer:(id)arg1 transferGUID:topic:path:requestURLString:ownerID:signature:decryptionKey:fileSize:balloonBundleID:senderContext:progressBlock:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)postNotificationForRecipientHandle:(id)arg1;
+- (id)bleDictionary",R,N,V_trackingContexts;
+- (void)registerForAccountNotifications;
+- (long long)bleDictionary",&,V_stickerPackGUIDToPackMap;
 - (id);
+- (void);
 - (void);
-- (long long);
+- (id)o write asset to disk because of nil path! Asset from ckrecord with guid %@ has path %@, finalAssetPath %@ and asset fileURL %@;
+- (id)reason=(%@);
+- (int)PeriodicSync;
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (int);
-- (id);
-- (long long);
-- (void);
-- (id);
+- (long long);
+- (void)d certificate hash value;
+- (id)er"32;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *_cachedItems; // @synthesize _cachedItems;
 @property(retain, nonatomic) DOMHTMLSelectElement *_selectionNode; // @synthesize _selectionNode;
-@property(retain, nonatomic) id <UIWebSelectedItemPrivate> _singleSelectionItem; // @synthesize _singleSelectionItem;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

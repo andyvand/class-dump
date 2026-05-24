@@ -9,23 +9,22 @@
 @interface TRILaunchDaemonActivityDescriptor
 {
     NSString *_name;
-    unsigned long long _supportedTaskCapabilities;
 }
 
 + (id);
++ (id)_version;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
++ (id)urface=};
++ (id)decompressionContainer;
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-- (id);
++ (id)entPickerExtension;
+- (id)UARPTLVPersonalizationFTABSubfileHashAlgorithmOS;
 - (id);
 - (id);
 - (id);
@@ -34,13 +33,12 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)_accessibilityChartDescriptor;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) unsigned long long supportedTaskCapabilities; // @synthesize supportedTaskCapabilities=_supportedTaskCapabilities;
 
 @end
 

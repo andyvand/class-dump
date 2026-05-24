@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PFStoryRecipeDisplayAssetNormalization, PXStoryColorNormalizationCubeLibrary;
+@class PXStoryColorNormalizationCubeLibrary;
 
 @interface PXStoryColorNormalizationEffect
 {
     PXStoryColorNormalizationCubeLibrary *_library;
-    PFStoryRecipeDisplayAssetNormalization *_assetNormalization;
-    long long _currentRequestID;
 }
 
 - (void);
@@ -21,14 +19,11 @@
 - (id);
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (void)HPfÿ;
 
 // Remaining properties
-@property(retain, nonatomic) PFStoryRecipeDisplayAssetNormalization *assetNormalization; // @synthesize assetNormalization=_assetNormalization;
 @property(nonatomic) long long currentRequestID; // @synthesize currentRequestID=_currentRequestID;
-@property(readonly, nonatomic) NSString *effectDetails;
-@property(readonly, nonatomic) NSString *effectSummary;
 
 @end
 

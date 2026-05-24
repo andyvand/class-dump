@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSButton, NSStackView, NSString, NSTextField;
-@protocol StartPagePrivateRelayInPrivateBrowsingCollectionViewItemDelegate;
+@class NSArray, NSButton;
 
 __attribute__((visibility("hidden")))
 @interface StartPagePrivateRelayInPrivateBrowsingCollectionViewItem
 {
     NSArray *_accessibiltyChildren;
-    id <StartPagePrivateRelayInPrivateBrowsingCollectionViewItemDelegate> _delegate;
-    NSButton *_closeButton;
-    NSButton *_learnMoreButton;
-    NSButton *_enablePrivateRelayButton;
-    NSTextField *_bodyText;
-    NSTextField *_titleText;
-    NSStackView *_stackView;
-    NSStackView *_buttonStackView;
 }
 
 - (void);
@@ -40,7 +31,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -50,21 +41,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak NSTextField *bodyText; // @synthesize bodyText=_bodyText;
-@property(nonatomic) __weak NSStackView *buttonStackView; // @synthesize buttonStackView=_buttonStackView;
 @property(nonatomic) __weak NSButton *closeButton; // @synthesize closeButton=_closeButton;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <StartPagePrivateRelayInPrivateBrowsingCollectionViewItemDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSButton *enablePrivateRelayButton; // @synthesize enablePrivateRelayButton=_enablePrivateRelayButton;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSButton *learnMoreButton; // @synthesize learnMoreButton=_learnMoreButton;
-@property(nonatomic) __weak NSStackView *stackView; // @synthesize stackView=_stackView;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak NSTextField *titleText; // @synthesize titleText=_titleText;
 
 @end
 

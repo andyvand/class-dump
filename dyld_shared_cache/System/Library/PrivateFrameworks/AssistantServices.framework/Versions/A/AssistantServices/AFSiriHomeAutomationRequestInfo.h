@@ -11,9 +11,9 @@
     NSData *_context;
 }
 
-+ (id);
++ (id)&#;
 + (_Bool);
-- (id);
+- (id)entries;
 - (id);
 - (id);
 - (unsigned long long);

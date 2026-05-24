@@ -9,22 +9,18 @@
 @interface PKInputPointAltitudeAndAzimuthZLimitFilter : PKInputPointBaseFilter
 {
     double _altitudeAndAzimuthZLimit;
-    double _lastKnownAzimuth;
-    double _lastKnownAltitude;
 }
 
 - (void);
 - (void);
 - (void);
-- (double);
+- (double);
 - (double);
 - (double);
 - (void);
 
 // Remaining properties
 @property(nonatomic) double altitudeAndAzimuthZLimit; // @synthesize altitudeAndAzimuthZLimit=_altitudeAndAzimuthZLimit;
-@property(nonatomic) double lastKnownAltitude; // @synthesize lastKnownAltitude=_lastKnownAltitude;
-@property(nonatomic) double lastKnownAzimuth; // @synthesize lastKnownAzimuth=_lastKnownAzimuth;
 
 @end
 

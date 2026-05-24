@@ -4,29 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _NSBinderPlugin
 {
     id _binder;
-    struct __binderPluginFlags {
-        unsigned int _isTableColumnPlugin:1;
-        unsigned int _isOutlineColumnPlugin:1;
-        unsigned int _isCellPlugin:1;
-        unsigned int _reservedBinderPlugin:29;
-    } _binderPluginFlags;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)e since accept policy doesn't allow the cookie to be set. AcceptPolicy = %lu. Cookie = %@;
 + (id);
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool){;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -41,13 +33,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

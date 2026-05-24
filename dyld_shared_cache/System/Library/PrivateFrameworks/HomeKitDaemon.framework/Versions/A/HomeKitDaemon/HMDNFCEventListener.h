@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDNFCEventStream, NSString;
+@class HMDNFCEventStream;
 
 __attribute__((visibility("hidden")))
 @interface HMDNFCEventListener
 {
     HMDNFCEventStream *_fieldEventStream;
-    HMDNFCEventStream *_proxyCardEventStream;
 }
 
 + (id)xB;
 - (void);
-- (void);
-- (id);
+- (void)ions/A/JavaScriptCore;
+- (id)cklist";
 - (id);
 - (id);
 - (void);
@@ -24,15 +23,7 @@ __attribute__((visibility("hidden")))
 - (void)ccessory Count;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain) HMDNFCEventStream *fieldEventStream; // @synthesize fieldEventStream=_fieldEventStream;
-@property(readonly) unsigned long long hash;
-@property(retain) HMDNFCEventStream *proxyCardEventStream; // @synthesize proxyCardEventStream=_proxyCardEventStream;
-@property(readonly) Class superclass;
 
 @end
 

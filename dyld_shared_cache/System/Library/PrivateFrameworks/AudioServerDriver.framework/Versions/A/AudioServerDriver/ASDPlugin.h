@@ -6,47 +6,15 @@
 
 #import <AudioServerDriver/ASDObject.h>
 
-@class NSMapTable, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSMapTable;
 
 @interface ASDPlugin : ASDObject
 {
     NSMapTable *_objects;
-    struct os_unfair_lock_s _objectsLock;
-    NSMutableDictionary *_boxes;
-    NSObject<OS_dispatch_queue> *_boxQueue;
-    NSMutableDictionary *_audioDevices;
-    NSObject<OS_dispatch_queue> *_audioDeviceQueue;
-    NSMutableDictionary *_clockDevices;
-    NSObject<OS_dispatch_queue> *_clockDeviceQueue;
-    NSString *_manufacturerName;
-    unsigned int _nextObjectID;
-    struct AudioServerPlugInDriverInterface *_interfacePtr;
-    struct AudioServerPlugInDriverInterface **_driverRef;
-    struct AudioServerPlugInHostInterface *_pluginHost;
-    unsigned int _pluginRefCount;
-    NSObject<OS_dispatch_queue> *_powerNotificationQueue;
-    struct IONotificationPort *_powerNotificationPort;
-    unsigned int _powerConnection;
-    unsigned int _powerNotifier;
-    unsigned int _transportType;
-    unsigned int _maximumNumberOfObjects;
-    NSString *_bundleID;
 }
 
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) struct AudioServerPlugInDriverInterface **driverRef; // @synthesize driverRef=_driverRef;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned int maximumNumberOfObjects; // @synthesize maximumNumberOfObjects=_maximumNumberOfObjects;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *powerNotificationQueue;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned int transportType; // @synthesize transportType=_transportType;
 @end
 

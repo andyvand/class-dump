@@ -9,7 +9,6 @@
 @interface REMListBadge
 {
     NSString *emblem;
-    NSString *emoji;
 }
 
 - (void);
@@ -21,16 +20,14 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void)ñr ð1Â0@ù
 × ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *emblem; // @synthesize emblem;
-@property(copy, nonatomic) NSString *emoji; // @synthesize emoji;
-@property(readonly, copy, nonatomic) NSString *rawValue;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol MSPSharedTripRelayDelegate
+- (void)er domain %{public}@ does not match node info of expected detached node %{public}@ - %{public}@;
 @end
 

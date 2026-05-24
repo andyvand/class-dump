@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary;
+@class NSData;
 
 @interface CUSPAKEM2
 {
     NSData *_confirmVData;
-    NSData *_shareVData;
 }
 
 - (id);
 - (void);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)superclass;
 
 // Remaining properties
 @property(copy, nonatomic) NSData *confirmVData; // @synthesize confirmVData=_confirmVData;
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSData *shareVData; // @synthesize shareVData=_shareVData;
 
 @end
 

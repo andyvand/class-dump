@@ -6,39 +6,27 @@
 
 #import <CoreSpotlight/CSSearchableIndex.h>
 
-@class NSError, NSMutableArray, NSMutableDictionary, NSMutableSet, NSString;
+@class NSString;
 @protocol CSSearchableIndexDelegate;
 
 @interface CSMockSearchableIndex : CSSearchableIndex
 {
     NSString *_name;
-    id <CSSearchableIndexDelegate> _indexDelegate;
-    NSMutableDictionary *_indexedItems;
-    NSMutableDictionary *_deletedItems;
-    NSMutableDictionary *_interactions;
-    NSMutableDictionary *_deletedInteractions;
-    NSMutableArray *_userActivities;
-    NSMutableArray *_deletedUserActivities;
-    _Bool _isInBatch;
-    _Bool _shouldSimulateErrors;
-    NSMutableDictionary *_clientStates;
-    NSMutableArray *_batchedItems;
-    NSMutableSet *_batchedDeletedIdentifiers;
-    NSError *_simulatedError;
 }
 
 + (void);
 + (void);
 + (void);
-+ (void);
++ (void)";
 + (id);
-+ (id);
++ (id);
 - (id);
+- (_Bool);
+- (void)/;
+- (void);
 - (_Bool);
-- (void);
-- (void);
 - (_Bool);
-- (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -46,20 +34,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)m;
+- (id)T8;
 - (id);
 - (id);
 - (id);
@@ -69,16 +45,27 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void)!;
+- (void);
+- (void);
+- (void)%;
+- (void);
+- (void);
+- (void);
+- (void)?;
+- (void)Z;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)?;
 - (void);
 - (id).1Â0@ù
 × ;
@@ -105,29 +92,29 @@
 - (void)A	+°!0@ùQÑ.Ð1Â0@ù
 × ;
 - (void)@24@32;
-- (void);
-- (void)lysisAttemptCount:(id)arg1;
-- (void)Names:(id)arg1;
-- (void)leted:(id)arg1;
-- (id)derContainsSearchString;
-- (void)cipientPhotosPersonIdentifiers;
-- (void)written;
-- (void)wedClientBundleIdentifier:(id)arg1;
-- (void)ithIdentifiers:(id)arg1 clientState:(id)arg2 clientStateName:(CDUnknownBlockType)arg3 updatingDonationProgress:protectionClass:forBundleID:options:reason:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)setTotalBitRate:(id)arg1;
+- (void)setMediaAnalysisAttemptCount:(id)arg1;
+- (void)setEventCustomerNames:(id)arg1;
+- (void)setCompleted:(id)arg1;
+- (id)senderContainsSearchString;
+- (void)recipientPhotosPersonIdentifiers;
+- (void)queryRewritten;
+- (void)isAllowedClientBundleIdentifier:(id)arg1;
+- (void)indexSearchableItems:(id)arg1 deleteSearchableItemsWithIdentifiers:(id)arg2 clientState:(CDUnknownBlockType)arg3 clientStateName:updatingDonationProgress:protectionClass:forBundleID:options:reason:completionHandler: /* Error: Ran out of types for this method. */;
 - (void)fileURLForSearchableIndex:(id)arg1 itemIdentifier:(id)arg2 typeIdentifier:(CDUnknownBlockType)arg3 options:block: /* Error: Ran out of types for this method. */;
-- (void)essLongitude;
-- (void)dDate;
-- (void)ey:(id)arg1 keyLength:(CDUnknownBlockType)arg2;
-- (void)rkThumbnailURL;
-- (void)y;
-- (void);
-- (void)ryCreateQueryDictionaryWithOptionsDict:(id)arg1 attribute:(id)arg2 input:(id)arg3 options:(CDUnknownBlockType)arg4;
-- (void)gestionWithUserString:(id)arg1 currentSuggestion:(id)arg2 parseResult:(id)arg3;
+- (void)eventStartLocationAddressLongitude;
+- (void)eventEndDate;
+- (void)encodeString:(id)arg1 stringLength:(CDUnknownBlockType)arg2 forKey:keyLength: /* Error: Ran out of types for this method. */;
+- (void)darkThumbnailURL;
+- (void)cardCategory;
+- (void)_containerIDs;
+- (void)_CSQueryCreateQueryDictionaryWithOptionsDict:(id)arg1 attribute:(id)arg2 input:(id)arg3 options:(CDUnknownBlockType)arg4;
+- (void)advancedSuggestionWithUserString:(id)arg1 currentSuggestion:(id)arg2 parseResult:(id)arg3;
 - (void)essFirstTimeBucket;
 - (void)y",C,N,V_madeCurrentDates;
 - (void)T@"<CNCancelable>",&,N,V_autocompleteRequest;
-- (void)elegateConnection;
-- (void)textProtocol;
+- (void)CSIndexDelegateConnection;
+- (void)_MDRemoteExtensionContextProtocol;
 - (void)hû;
 - (void);
 - (void);
@@ -137,21 +124,21 @@
 - (void)ting to NO.;
 - (id)dx=%ld] queryUnderstandingOutput has event intent, kQPQUIntentLabels = %@;
 - (void)e events;
-@property(readonly, nonatomic) NSMutableDictionary *interactions; // @synthesize interactions=_interactions;
+- (void)interactions;
 - (void)or:(id)arg1 %@;
 - (void)er;
-- (void)dressLocality;
-- (void)pes;
-- (void)cationDate;
-- (void)rnateTitles;
-- (void)dding;
-- (void)DItemCardExpirationDate;
-- (id)ModificationDateYear;
-- (void)mail_read;
-- (void)nces;
-- (void)cope;
-- (void)tionDisableU2;
-- (void)me;
+- (void)eventStartLocationAddressLocality;
+- (void)mediaTypes;
+- (void)metadataModificationDate;
+- (void)alternateTitles;
+- (void)_kMDItemSecondaryTextEmbedding;
+- (void)kMDItemCardExpirationDate;
+- (id)_kMDItemContentModificationDateYear;
+- (void)com_apple_mail_read;
+- (void)kMDItemPhotosSceneClassificationConfidences;
+- (void)suggestionTokenScope;
+- (void)SPQueryOptionDisableU2;
+- (void)FPFilename;
 - (void)»&A¢;
 - (void)>õÿàZ&Iª;
 - (void)&çÂ;
@@ -164,18 +151,7 @@
 - (void)ýÿü;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableSet *batchedDeletedIdentifiers; // @synthesize batchedDeletedIdentifiers=_batchedDeletedIdentifiers;
-@property(readonly, nonatomic) NSMutableArray *batchedItems; // @synthesize batchedItems=_batchedItems;
-@property(readonly, nonatomic) NSMutableDictionary *clientStates; // @synthesize clientStates=_clientStates;
-@property(readonly, nonatomic) NSMutableDictionary *deletedInteractions; // @synthesize deletedInteractions=_deletedInteractions;
-@property(readonly, nonatomic) NSMutableDictionary *deletedItems; // @synthesize deletedItems=_deletedItems;
-@property(readonly, nonatomic) NSMutableArray *deletedUserActivities; // @synthesize deletedUserActivities=_deletedUserActivities;
 @property __weak id <CSSearchableIndexDelegate> indexDelegate;
-@property(readonly, nonatomic) NSMutableDictionary *indexedItems; // @synthesize indexedItems=_indexedItems;
-@property(readonly, nonatomic) _Bool isInBatch; // @synthesize isInBatch=_isInBatch;
-@property(nonatomic) _Bool shouldSimulateErrors; // @synthesize shouldSimulateErrors=_shouldSimulateErrors;
-@property(retain, nonatomic) NSError *simulatedError; // @synthesize simulatedError=_simulatedError;
-@property(readonly, nonatomic) NSMutableArray *userActivities; // @synthesize userActivities=_userActivities;
 
 @end
 

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTFuzzyIndex, NSMetaphone;
+@class CTFuzzyIndex;
 
 @interface NSSpanMatcher
 {
     CTFuzzyIndex *_index;
-    NSMetaphone *_meta;
-    int _editDistance;
-    int _ignoredWordLength;
-    int _ignoredWordLengthForEditDistance;
-    unsigned long long _options;
-    long long _wordsMatched;
 }
 
 - (long long);
@@ -22,7 +16,7 @@
 - (id);
 - (void);
 - (int);
-- (id);
+- (id)_serviceColorForRecipients:(id)arg1;
 - (void);
 - (unsigned long long);
 - (void);
@@ -30,7 +24,6 @@
 
 // Remaining properties
 @property unsigned long long options; // @synthesize options=_options;
-@property long long wordsMatched; // @synthesize wordsMatched=_wordsMatched;
 
 @end
 

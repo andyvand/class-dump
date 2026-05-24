@@ -4,35 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet, _CDPModelTuningState, _CDPSimpleModel;
+@class _CDPModelTuningState;
 
 @interface _CDPModelTuning
 {
     _CDPModelTuningState *_currentState;
-    int _numberOfGridTests;
-    CDUnknownBlockType _scorer;
-    CDUnknownBlockType _heartBeat;
-    _CDPSimpleModel *_model;
-    NSIndexSet *_testIndices;
 }
 
 + (unsigned int *);
 + (void);
 + (void);
-+ (void);
-+ (void);
-+ (CDUnknownBlockType);
-+ (CDUnknownBlockType);
-+ (CDUnknownBlockType);
++ (void)kDaq;
++ (void)kDaM;
++ (CDUnknownBlockType);
++ (CDUnknownBlockType);
++ (CDUnknownBlockType)@`i;
 - (id);
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (void);
 - (int);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)Na;
 - (float);
-- (void);
+- (void)[;
 - (void);
 - (id);
 - (id);
@@ -40,12 +35,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) _CDPModelTuningState *currentState; // @synthesize currentState=_currentState;
-@property(copy, nonatomic) CDUnknownBlockType heartBeat; // @synthesize heartBeat=_heartBeat;
-@property(retain, nonatomic) _CDPSimpleModel *model; // @synthesize model=_model;
-@property(readonly, nonatomic) int numberOfGridTests; // @synthesize numberOfGridTests=_numberOfGridTests;
 @property(copy, nonatomic) CDUnknownBlockType scorer; // @synthesize scorer=_scorer;
-@property(retain, nonatomic) NSIndexSet *testIndices; // @synthesize testIndices=_testIndices;
 
 @end
 

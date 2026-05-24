@@ -4,52 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKEvent, NSMutableArray, NSMutableDictionary, NSMutableSet, NSOperationQueue, NSString;
+@class NSMutableArray;
 
 @interface EKUIInviteesViewNotRespondedInviteesSection
 {
     _Bool _canSeeAttendeeStatuses;
-    _Bool _editable;
-    CDUnknownBlockType _participantTapped;
-    CDUnknownBlockType _participantRemoved;
-    CDUnknownBlockType _addInviteesTapped;
-    CDUnknownBlockType _participantSetRole;
-    NSMutableArray *_participants;
-    EKEvent *_event;
-    NSString *_cachedInviteeCellReuseIdentifier;
-    NSString *_cachedAddInviteeCellReuseIdentifier;
-    unsigned long long _reuseIdentifierVersion;
-    NSOperationQueue *_availabilityRequestsQueue;
-    NSMutableDictionary *_participantAddressesToAvailabilityType;
-    NSMutableDictionary *_participantAddressesToParticipantIndex;
-    NSMutableSet *_participantAddressesForInFlightAvailabilityOperations;
-    CDUnknownBlockType _tableViewCellHook;
 }
 
 + (id);
-- (void);
-- (id);
+- (void)+s;
+- (id)Y%s;
 - (CDUnknownBlockType);
 - (_Bool);
 - (void);
+- (void);
+- (void).%s;
+- (void);
+- (void)s;
 - (void);
 - (void);
+- (void)%s;
+- (void);
+- (void)+s;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (unsigned long long);
+- (_Bool)s;
+- (unsigned long long)%s;
 - (void);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (id);
+- (CDUnknownBlockType)&s;
+- (id)%s;
 - (id);
 - (id);
 - (double);
@@ -57,14 +42,14 @@
 - (long long);
 - (id);
 - (void);
-- (id);
+- (id)s;
 - (_Bool);
-- (_Bool);
+- (_Bool)&s;
 - (_Bool);
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (id);
+- (id)X%s;
 - (void);
 - (void);
 - (void);
@@ -75,12 +60,12 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)n;
 - (id);
 - (_Bool);
 - (void);
@@ -92,34 +77,12 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (void)ing;
+- (void)topPadding;
 - (void);
 - (void)¢;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType addInviteesTapped; // @synthesize addInviteesTapped=_addInviteesTapped;
-@property(retain, nonatomic) NSOperationQueue *availabilityRequestsQueue; // @synthesize availabilityRequestsQueue=_availabilityRequestsQueue;
-@property(retain, nonatomic) NSString *cachedAddInviteeCellReuseIdentifier; // @synthesize cachedAddInviteeCellReuseIdentifier=_cachedAddInviteeCellReuseIdentifier;
-@property(retain, nonatomic) NSString *cachedInviteeCellReuseIdentifier; // @synthesize cachedInviteeCellReuseIdentifier=_cachedInviteeCellReuseIdentifier;
-@property(nonatomic) _Bool canSeeAttendeeStatuses; // @synthesize canSeeAttendeeStatuses=_canSeeAttendeeStatuses;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool editable; // @synthesize editable=_editable;
-@property(retain, nonatomic) EKEvent *event; // @synthesize event=_event;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableSet *participantAddressesForInFlightAvailabilityOperations; // @synthesize participantAddressesForInFlightAvailabilityOperations=_participantAddressesForInFlightAvailabilityOperations;
-@property(retain, nonatomic) NSMutableDictionary *participantAddressesToAvailabilityType; // @synthesize participantAddressesToAvailabilityType=_participantAddressesToAvailabilityType;
-@property(retain, nonatomic) NSMutableDictionary *participantAddressesToParticipantIndex; // @synthesize participantAddressesToParticipantIndex=_participantAddressesToParticipantIndex;
-@property(copy, nonatomic) CDUnknownBlockType participantRemoved; // @synthesize participantRemoved=_participantRemoved;
-@property(copy, nonatomic) CDUnknownBlockType participantSetRole; // @synthesize participantSetRole=_participantSetRole;
-@property(copy, nonatomic) CDUnknownBlockType participantTapped; // @synthesize participantTapped=_participantTapped;
 @property(retain, nonatomic) NSMutableArray *participants; // @synthesize participants=_participants;
-@property(nonatomic) unsigned long long reuseIdentifierVersion; // @synthesize reuseIdentifierVersion=_reuseIdentifierVersion;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) CDUnknownBlockType tableViewCellHook; // @synthesize tableViewCellHook=_tableViewCellHook;
 
 @end
 

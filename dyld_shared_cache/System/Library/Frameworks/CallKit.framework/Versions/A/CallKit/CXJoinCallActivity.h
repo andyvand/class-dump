@@ -4,52 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString, NSUUID;
+@class NSData;
 
 @interface CXJoinCallActivity
 {
     _Bool _startWhenStaged;
-    NSDate *_timestamp;
-    NSUUID *_UUID;
-    NSData *_applicationContext;
-    NSString *_bundleIdentifier;
-    NSString *_activityIdentifier;
-    NSData *_metadata;
 }
 
 + (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)^;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)+;
+- (unsigned long long)cted.;
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)_currentShuffleType;
+- (id)itunesNotes;
+- (void)d not find head entry for section identifier:(id)arg1 %@;
+- (id)P;
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(retain, nonatomic) NSString *activityIdentifier; // @synthesize activityIdentifier=_activityIdentifier;
 @property(copy, nonatomic) NSData *applicationContext; // @synthesize applicationContext=_applicationContext;
-@property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(retain, nonatomic) NSData *metadata; // @synthesize metadata=_metadata;
-@property(nonatomic) _Bool startWhenStaged; // @synthesize startWhenStaged=_startWhenStaged;
-@property(retain, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

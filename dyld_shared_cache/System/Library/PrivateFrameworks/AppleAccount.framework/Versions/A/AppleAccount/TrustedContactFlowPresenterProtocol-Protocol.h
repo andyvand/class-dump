@@ -5,5 +5,7 @@
 //
 
 @protocol TrustedContactFlowPresenterProtocol
+- (void)ta existing profiles count = %lu;
+- (void)_____________________________;
 @end
 

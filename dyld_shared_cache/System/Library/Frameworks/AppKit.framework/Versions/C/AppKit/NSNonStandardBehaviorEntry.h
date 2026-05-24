@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSValue;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NSNonStandardBehaviorEntry
 {
     NSString *_name;
-    long long _reason;
-    NSValue *_standardValue;
-    NSValue *_actualValue;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)foCompletionBlock;
 - (void);
 - (void);
 - (long long);
@@ -26,10 +23,7 @@ __attribute__((visibility("hidden")))
 - (void)ectionViewUpdateItem"16;
 
 // Remaining properties
-@property(copy) NSValue *actualValue; // @synthesize actualValue=_actualValue;
 @property(copy) NSString *name; // @synthesize name=_name;
-@property long long reason; // @synthesize reason=_reason;
-@property(copy) NSValue *standardValue; // @synthesize standardValue=_standardValue;
 
 @end
 

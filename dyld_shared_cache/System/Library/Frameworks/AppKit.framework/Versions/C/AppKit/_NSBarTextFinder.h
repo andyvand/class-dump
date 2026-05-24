@@ -6,63 +6,56 @@
 
 #import <AppKit/_NSTextFinderImpl.h>
 
-@class NSResponder, NSString, NSTextFinderBarView;
+@class NSTextFinderBarView;
 
 __attribute__((visibility("hidden")))
 @interface _NSBarTextFinder : _NSTextFinderImpl
 {
     NSTextFinderBarView *_view;
-    NSString *_replacementString;
-    _Bool _clientRespondsToReplace;
-    _Bool _clientRespondsToReplaceAll;
-    _Bool _divergedFromPasteboard;
-    _Bool _preventResetSettingsOnDivergeFromPasteboard;
-    _Bool _nextSearchFieldActionIsReturn;
-    NSResponder *_originalResponder;
 }
 
+- (void)uired libFDR symbols. _AMFDRSealingMapCopyInstanceForClass_fn %p;
+- (long long)ed to create vendor CF Number;
 - (void);
-- (long long);
-- (void);
-- (void);
-- (void);
+- (void)y length of kFDRTag_SrvT;
+- (void)IOService Path;
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
 - (id);
 - (void);
 - (void);
+- (void)_SHOULD_HANDLE_COOKIES"b1"_flag_SET_EXPLICIT_NETWORK_SERVICE_TYPE"b1"_flag_SET_EXPLICIT_ALLOWS_CELLULAR"b1"_flag_SET_EXPLICIT_PREVENTS_IDLE_SYSTEM_SLEEP"b1"_flag_SET_EXPLICIT_SHOULD_PIPELINE"b1"_flag_SET_EXPLICIT_CACHE_POLICY"b1"_flag_SET_EXPLICIT_TIMEOUT"b1"_flag_SET_EXPLICIT_PROXY_DICT"b1"_flag_SET_EXPLICIT_SSL_PROPERTIES"b1"_flag_SET_EXPLICIT_SHOULD_START_SYNCHRONOUSLY"b1}"fSSLProps"^{__CFDictionary}"fContentDispositionHeaderEncodingFallbackArray"^{__CFArray}"fRequestPriority"q"fAllowedProtocolTypes"Q"fNetworkServiceType"i"fBoundInterfaceIdentifier"^{__CFString}"fTrackerContext"^{__CFString}"fCookiePartitionIdentifier"^{__CFString}"fTimeWindowDelay"d"fTimeWindowDuration"d"fStartTimeoutTime"d"fRequiresShortConnectionTimeout"C"fPreventHSTSStorage"C"fIgnoreHSTS"C"fSchemeWasUpgradedDueToDynamicHSTS"C"fAssumesHTTP3Capable"C"fKnownTracker"C"fPrivacyProxyFailClosed"C"fPrivacyProxyStrictFailClosed"C"fPrivacyProxyFailClosedForUnreachableNonMainHosts"C"fPrivacyProxyFailClosedForUnreachableHosts"C"fProhibitPrivacyProxy"C"fAllowPrivateAccessTokensForThirdParty"C"fUseEnhancedPrivacyMode"C"fBlockTrackers"C"fFailInsecureLoadWithHTTPSDNSRecord"C"fIsWebSearchContent"C"fAllowOnlyPartitionedCookies"C"fUnsafeAllowedInEarlyData"C"fRequiresDNSSECValidation"C"fAllowsPersistentDNS"C"fAttribution"Q"fPayloadTransmissionTimeout"d"fATSOverrides"^{__CFDictionary}"fHSTSPolicy"{unique_ptr<_CFHSTSPolicy, Deleter_CFRelease>=""{?="__ptr_"^{_CFHSTSPolicy}}}"fAllowsExpensiveNetworkAccess"C"fAllowsConstrainedNetworkAccess"C"fAllowsUltraConstrainedNetworkAccess"C"_explicitStorageSession"^{__CFURLStorageSession}};
+- (_Bool)ie2LookupFilter"16;
+- (void)URLSession:(id)arg1 downloadTask:didWriteData:totalBytesWritten:totalBytesExpectedToWrite: /* Error: Ran out of types for this method. */;
+- (id)URLSession:avAssetDownloadTask:didReceiveAVAssetDownloadToken: /* Error: Ran out of types for this method. */;
+- (void)URLSession:(id)arg1 assetDownloadTask:didFinishDownloadingToURL: /* Error: Ran out of types for this method. */;
+- (void)URLSession:(id)arg1 aggregateAssetDownloadTask:willDownloadToURL: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void)ot done?;
+- (void)okieStorageCreateInMemory instead anyway.;
+- (void)ge type %lld %s;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (long long);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (void)!TBù±ß31Â0@ù
 × ;
 - (void);
@@ -74,13 +67,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

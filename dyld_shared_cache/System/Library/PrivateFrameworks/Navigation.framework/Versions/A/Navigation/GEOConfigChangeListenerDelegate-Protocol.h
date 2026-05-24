@@ -5,5 +5,6 @@
 //
 
 @protocol GEOConfigChangeListenerDelegate
+- (void)g 'endAt' (expected int) for:(CDStruct_35640fce)arg1 '%@';
 @end
 

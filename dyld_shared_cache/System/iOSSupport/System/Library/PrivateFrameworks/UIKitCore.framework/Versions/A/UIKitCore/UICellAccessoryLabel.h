@@ -6,13 +6,11 @@
 
 #import <UIKitCore/UICellAccessory.h>
 
-@class NSString, UIColor, UIFont;
+@class UIColor;
 
 @interface UICellAccessoryLabel : UICellAccessory
 {
     _Bool _adjustsFontForContentSizeCategory;
-    NSString *_text;
-    UIFont *_font;
 }
 
 + (_Bool);
@@ -21,14 +19,14 @@
 - (unsigned long long);
 - (id)Áð!Dùq_ð1Â0@ù
 × ;
-- (_Bool)VisibleAppearance;
-- (void)archControllerChange;
-- (void)eToCellEdges:(id)arg1;
+- (_Bool)didUpdateVisibleAppearance;
+- (void)_updateForGlobalSearchControllerChange;
+- (void)_setSeparatorInsetIsRelativeToCellEdges:(id)arg1;
 - (long long)utton;
 - (id)°_;
 - (void);
 - (_Bool)%{public}@, new layers:(id)arg1 %{public}@;
-- (id)eAwareLineHeightRatio;
+- (id)UITraitTypesettingLanguageAwareLineHeightRatio;
 - (id)¶;
 - (void)[;
 - (id)pHÙ9^;
@@ -37,10 +35,7 @@
 - (void)i;
 
 // Remaining properties
-@property(nonatomic) _Bool adjustsFontForContentSizeCategory; // @synthesize adjustsFontForContentSizeCategory=_adjustsFontForContentSizeCategory;
 @property(retain, nonatomic) UIColor *backgroundColor;
-@property(retain, nonatomic) UIFont *font; // @synthesize font=_font;
-@property(readonly, copy, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end
 

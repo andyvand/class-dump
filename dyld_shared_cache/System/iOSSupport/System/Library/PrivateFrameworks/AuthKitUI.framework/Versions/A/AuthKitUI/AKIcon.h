@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface AKIcon
 {
     double _scale;
-    struct CGSize _size;
-    NSString *_name;
-    NSString *_typeID;
-    NSString *_systemName;
-    NSString *_bundleID;
-    NSData *_data;
-    unsigned long long _maskingStyle;
 }
 
 + (id);
@@ -41,11 +32,11 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)q;
 - (id);
+- (id)C(b;
 - (id);
-- (id);
-- (struct CGImage *);
+- (struct CGImage *)z;
 - (id);
 - (id);
 - (id);

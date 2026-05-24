@@ -6,12 +6,11 @@
 
 #import <CloudKitDaemon/CKDPCSCacheFetchOperation.h>
 
-@class CKDRecordPCSData, CKRecordID, NSString;
+@class CKRecordID;
 
 @interface CKDPCSCacheRecordFetchOperation : CKDPCSCacheFetchOperation
 {
     _Bool _serverRecordHasNoProtectionData;
-    NSString *_serverRecordType;
 }
 
 - (_Bool);
@@ -21,27 +20,24 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool) ;
 - (id);
+- (void),&,N,V_sessionInfo;
+- (id);
+- (_Bool);
 - (void);
-- (id);
-- (_Bool);
-- (void);
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void)p to %d.;
-- (void)tyStringSet;
+- (void)deviceCapabilityStringSet;
 - (_Bool)a operation <%{public}@:%p; %{public}@, %@> is starting /* Error: Ran out of types for this method. */;
 - (id)ÿ¸ÿPÎ;
 
 // Remaining properties
 @property(readonly, nonatomic) CKRecordID *recordID;
-@property(retain, nonatomic) CKDRecordPCSData *recordPCSData;
-@property(nonatomic) _Bool serverRecordHasNoProtectionData; // @synthesize serverRecordHasNoProtectionData=_serverRecordHasNoProtectionData;
-@property(retain, nonatomic) NSString *serverRecordType; // @synthesize serverRecordType=_serverRecordType;
 
 @end
 

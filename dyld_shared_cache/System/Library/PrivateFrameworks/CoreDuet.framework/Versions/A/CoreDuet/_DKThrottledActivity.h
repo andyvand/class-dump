@@ -10,11 +10,14 @@
 @interface _DKThrottledActivity
 {
     NSString *_namespace;
-    id <_DKSimpleKeyValueStore> _store;
 }
 
 + (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -22,17 +25,14 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)4Property *, uint32_t, void *);
+- (void)d:(double)arg1 %d
+;
+- (void)HSTS;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)I8r^v12;
+- (void)@;
 - (void);
 - (void);
 - (void);

@@ -4,35 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSMutableDictionary, NSNumber, NSString, PKPackage, PKPackageRequirements;
+@class NSString;
 @protocol PKPackageReferable;
 
 @interface PKPackageSpecifier
 {
     id <PKPackageReferable> _packageReference;
-    NSString *_prefixPath;
-    NSNumber *_authLevel;
-    long long _options;
-    NSString *_displayName;
-    NSString *_displayVersion;
-    NSNumber *_installEnvironment;
-    NSString *_externalRootPath;
-    NSMutableDictionary *_userPathByComponentIdent;
-    NSDictionary *_resolvedPathByComponentIdent;
-    NSDictionary *_installPathByComponentIdent;
-    NSData *_validatedDigest;
-    NSString *_packageUniqueHash;
-    PKPackage *_package;
-    PKPackageRequirements *_requirements;
-    NSString *_destinationPath;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)c;
 - (void);
 - (void);
+- (void);
 - (void);
+- (id);
+- (id);
+- (id);
+- (_Bool)9;
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
+- (id);
+- (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -41,18 +38,6 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
 - (id);
 - (id);
 - (void);
@@ -61,7 +46,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -74,18 +59,10 @@
 - (void);
 - (id);
 - (id);
-- (id)ion;
+- (id)overwriteAction;
 
 // Remaining properties
-@property(copy) NSNumber *authLevel; // @synthesize authLevel=_authLevel;
-@property(copy) NSString *displayName; // @synthesize displayName=_displayName;
-@property(copy) NSString *displayVersion; // @synthesize displayVersion=_displayVersion;
 @property(copy) NSString *externalRootPath; // @synthesize externalRootPath=_externalRootPath;
-@property(copy) NSNumber *installEnvironment; // @synthesize installEnvironment=_installEnvironment;
-@property long long options; // @synthesize options=_options;
-@property(readonly) PKPackage *package;
-@property(retain) id <PKPackageReferable> packageReference; // @synthesize packageReference=_packageReference;
-@property(retain) NSString *prefixPath; // @synthesize prefixPath=_prefixPath;
 
 @end
 

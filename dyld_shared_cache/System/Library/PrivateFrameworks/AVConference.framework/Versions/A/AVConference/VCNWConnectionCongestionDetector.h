@@ -10,35 +10,22 @@ __attribute__((visibility("hidden")))
 @interface VCNWConnectionCongestionDetector
 {
     AVCStatisticsCollector *_statisticsCollector;
-    struct tagVCStatisticsMessage _previousStatistics;
-    void *_logNWDump;
-    unsigned int _averageThroughputBps;
-    unsigned int _averagePacketDelayMs;
-    unsigned int _maxAveragePacketDelayMs;
-    unsigned int _lastTimestampWithPacketDrop;
-    unsigned int _packetDropCount;
-    unsigned int _packetDropCountPerFrame;
-    _Bool _didSendCongestionEvent;
 }
 
 - (id);
-- (void);
-- (void);
+- (void)	?ր;
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (unsigned int);
 - (void);
-- (unsigned int);
+- (unsigned int);
 - (unsigned int);
 - (unsigned int);
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned int averagePacketDelayMs; // @synthesize averagePacketDelayMs=_averagePacketDelayMs;
-@property(readonly) unsigned int averageThroughputBps; // @synthesize averageThroughputBps=_averageThroughputBps;
-@property unsigned int maxAveragePacketDelayMs; // @synthesize maxAveragePacketDelayMs=_maxAveragePacketDelayMs;
-@property(readonly) unsigned int packetDropCount; // @synthesize packetDropCount=_packetDropCount;
 @property(retain, nonatomic) AVCStatisticsCollector *statisticsCollector; // @synthesize statisticsCollector=_statisticsCollector;
 
 @end

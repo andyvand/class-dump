@@ -14,13 +14,12 @@
 - (void);
 - (void);
 - (CDStruct_198678f7);
-- (id);
+- (id)R!;
 - (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic, retain) MLMultiArray *exemplar;
-@property(nonatomic) CDStruct_198678f7 inferenceWindowSize;
 
 @end
 

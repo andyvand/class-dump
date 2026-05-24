@@ -5,9 +5,10 @@
 //
 
 @protocol CALNTravelAdvisoryAuthority
+- (double)kSimStateChanged;
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) double maximumAllowableTravelTime;
 @property(readonly, nonatomic) double minimumAllowableTravelTime;
 @end
 

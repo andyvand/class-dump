@@ -6,23 +6,21 @@
 
 #import <CMCapture/FigCapturePipeline.h>
 
-@class BWNodeOutput, NSString;
+@class NSString;
 
 @interface FigCaptureSinkPipeline : FigCapturePipeline
 {
     NSString *_sinkID;
-    BWNodeOutput *_upstreamOutput;
 }
 
 - (void);
 - (id);
+- (void)setFieldOfView: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)documentTimeInterval:receivedAt:isOutgoingDocument: /* Error: Ran out of types for this method. */;
 - (id)48@52@60@68@76@84@92@100@108;
 
 // Remaining properties
-@property(nonatomic) _Bool discardsSampleData;
 @property(readonly, nonatomic) NSString *sinkID; // @synthesize sinkID=_sinkID;
 
 @end

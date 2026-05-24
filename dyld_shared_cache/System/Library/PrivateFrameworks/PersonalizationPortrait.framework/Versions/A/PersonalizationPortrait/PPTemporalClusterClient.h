@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PPXPCClientHelper, PPXPCClientPipelinedBatchQueryManager;
+@class PPXPCClientHelper;
 
 @interface PPTemporalClusterClient
 {
     PPXPCClientHelper *_clientHelper;
-    PPXPCClientPipelinedBatchQueryManager *_queryManager;
 }
 
 + (id);

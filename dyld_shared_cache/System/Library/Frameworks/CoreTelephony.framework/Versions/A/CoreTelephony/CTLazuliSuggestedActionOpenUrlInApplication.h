@@ -11,15 +11,15 @@
     NSURL *_url;
 }
 
-+ (_Bool);
-- (_Bool);
++ (_Bool)coverableErrorCount:%ld mediaResourceRequestCount:%ld bytesDownloadedCount:%ld downloadDuration:%f variants:%@> /* Error: Ran out of types for this method. */;
+- (_Bool)";
 - (id);
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (void);
-- (id);
+- (void)arrayByAddingObject:(id)arg1;
+- (id)g;
 - (id);
 - (void)&°!(Cùª)1Â0@ù
 × ;

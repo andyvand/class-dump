@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableDictionary;
-
 @interface AXETrackingGestureRecognizerTestsFingerSimulator
 {
     unsigned long long __eventSource;
-    NSDate *__lastGestureEventTimestamp;
-    NSMutableDictionary *__fingersToTouchEvents;
 }
 
 - (void);
@@ -30,8 +26,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long _eventSource; // @synthesize _eventSource=__eventSource;
-@property(retain, nonatomic) NSMutableDictionary *_fingersToTouchEvents; // @synthesize _fingersToTouchEvents=__fingersToTouchEvents;
-@property(retain, nonatomic) NSDate *_lastGestureEventTimestamp; // @synthesize _lastGestureEventTimestamp=__lastGestureEventTimestamp;
 
 @end
 

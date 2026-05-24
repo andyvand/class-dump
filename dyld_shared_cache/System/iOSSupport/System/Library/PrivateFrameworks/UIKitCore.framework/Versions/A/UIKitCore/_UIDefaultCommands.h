@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
     _UISelectorDictionary *_defaultCommandsContainingAppName;
 }
 
++ (id)view size for %@, transfer not found;
 + (id);
-+ (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)conversationManager:localVideoToggledForConversation:fromOldConversation: /* Error: Ran out of types for this method. */;
+- (id)_destinationCallerID;
+- (id)eDictionary",&,N,V_guidToTransferMap;
+- (id)achedAliasToCNIDMap;
 - (void);
 
 // Remaining properties

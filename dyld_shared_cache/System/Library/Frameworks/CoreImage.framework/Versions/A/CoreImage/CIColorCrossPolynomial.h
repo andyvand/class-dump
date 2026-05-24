@@ -6,15 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIColorCrossPolynomial : CIFilter
 {
     CIImage *inputImage;
-    CIVector *inputRedCoefficients;
-    CIVector *inputGreenCoefficients;
-    CIVector *inputBlueCoefficients;
 }
 
 + (id);
@@ -31,10 +28,7 @@ __attribute__((visibility("hidden")))
 - (id)fvswtsntUeZspvoM_Sh?WI`vvvvpzz||||wwwweniouuuuxxxx`kgpVb[e____J\T\\\R\M]TfxxxxUle~eyu=^Qw_oizozwwxt~~~~uuuuJe`mmmmmiiii__W_EPC[\e^errrrivszkwtIaVrHcYt    zhhghNRGRTTLTqqqqkxv;\QoP_Sj]ngv|    ¢§§m}Giaxzzzzxxxx<]QoloixVvs~~~~?VKcRd]i;
 
 // Remaining properties
-@property(retain, nonatomic) CIVector *inputBlueCoefficients; // @synthesize inputBlueCoefficients;
-@property(retain, nonatomic) CIVector *inputGreenCoefficients; // @synthesize inputGreenCoefficients;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) CIVector *inputRedCoefficients; // @synthesize inputRedCoefficients;
 
 @end
 

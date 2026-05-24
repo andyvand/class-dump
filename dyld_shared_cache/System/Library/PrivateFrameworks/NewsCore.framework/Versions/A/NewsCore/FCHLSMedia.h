@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface FCHLSMedia
 {
     NSString *_type;
-    NSURL *_url;
-    NSString *_name;
 }
 
 - (id);
-- (void)ration;
+- (void)sampleTrackDuration;
 
 @end
 

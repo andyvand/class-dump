@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, UIScreen, UITraitCollection;
+@class UIColor, UITraitCollection;
 
 __attribute__((visibility("hidden")))
 @interface UIInterfaceActionVisualStyleViewState
 {
     UITraitCollection *_traitCollection;
-    UIScreen *_screen;
-    UIColor *_tintColor;
 }
 
-- (id);
-- (id);
+- (id)send this message to, They were the original person who sent this message to us in the first place;
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -23,18 +21,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (_Bool)dioBrightness;
+- (_Bool)indivisualKeyAudioBrightness;
 - (id)2!R;
-- (id)seView;
+- (id)_TtCO5UIKit14IntelligenceUI17PromptComposeView;
 - (void){^þÞ;
 - (id)°j;
 - (id)(Rs;
 - (void)¥»Ùèm;
 
 // Remaining properties
-@property(readonly, nonatomic) UIScreen *screen; // @synthesize screen=_screen;
 @property(retain, nonatomic) UIColor *tintColor; // @synthesize tintColor=_tintColor;
-@property(readonly, nonatomic) UITraitCollection *traitCollection; // @synthesize traitCollection=_traitCollection;
 
 @end
 

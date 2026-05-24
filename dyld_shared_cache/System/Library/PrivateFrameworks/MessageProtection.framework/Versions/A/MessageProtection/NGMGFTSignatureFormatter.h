@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface NGMGFTSignatureFormatter
@@ -14,18 +14,11 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (id);
+- (id)CREATE TABLE IF NOT EXISTS rich_links (ROWID INTEGER PRIMARY KEY AUTOINCREMENT, title TEXT COLLATE BINARY, url TEXT COLLATE BINARY NOT NULL, hash TEXT COLLATE BINARY NOT NULL, UNIQUE(hash) ON CONFLICT ABORT);;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSData *signedData; // @synthesize signedData=_signedData;
-@property(readonly) Class superclass;
 
 @end
 

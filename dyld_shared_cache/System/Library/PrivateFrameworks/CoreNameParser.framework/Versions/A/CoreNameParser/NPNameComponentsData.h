@@ -15,7 +15,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)`;
 
 @end
 

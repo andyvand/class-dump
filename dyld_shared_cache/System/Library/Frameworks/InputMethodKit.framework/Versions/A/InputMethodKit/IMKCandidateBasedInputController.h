@@ -6,33 +6,19 @@
 
 #import <InputMethodKit/IMKInputController.h>
 
-@class IMKCandidates, NSArray, NSString;
-
 @interface IMKCandidateBasedInputController : IMKInputController
 {
     _Bool _automaticallyShowPrimaryCandidatesInSecondaryController;
-    IMKCandidates *_candidateController;
-    IMKCandidates *_candidateControllerForScrubber;
-    IMKCandidates *_candidateControllerForTouchBar;
-    _Bool _primaryCandidatesShownByScrubbing;
-    NSArray *_secondaryCandidates;
-    unsigned long long _touchBarCandidatesSelectionTimeStamp;
-    struct _NSRange _selectedRange;
-    unsigned long long _windowLevel;
-    _Bool _sInvalidateIMKTextOrientation;
-    _Bool _sInvalidateIsIncrementalSearchInputContext;
-    _Bool _sInvalidateIncrementalSearchClientGeometry;
-    _Bool _touchBarCandidatesDidPresent;
 }
 
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -42,20 +28,20 @@
 - (void);
 - (void);
 - (void);
+- (void)ڗ ;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)!;
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (_Bool);
 - (id);
@@ -77,7 +63,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)A9	;
 - (void);
 - (id);
 - (id);
@@ -86,7 +72,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)b;
 - (void);
 - (void);
 - (void);
@@ -96,7 +82,7 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)p;
 - (void);
 - (void);
 - (struct _NSRange);
@@ -105,28 +91,7 @@
 - (id)Àøÿ ð;
 
 // Remaining properties
-@property(nonatomic) _Bool automaticallyShowPrimaryCandidatesInSecondaryController; // @synthesize automaticallyShowPrimaryCandidatesInSecondaryController=_automaticallyShowPrimaryCandidatesInSecondaryController;
-@property(retain, nonatomic) IMKCandidates *candidateController; // @synthesize candidateController=_candidateController;
-@property(retain, nonatomic) IMKCandidates *candidateControllerForScrubber; // @synthesize candidateControllerForScrubber=_candidateControllerForScrubber;
-@property(retain, nonatomic) IMKCandidates *candidateControllerForTouchBar; // @synthesize candidateControllerForTouchBar=_candidateControllerForTouchBar;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long incrementalSearchClientGeometry;
-@property(readonly, nonatomic) _Bool isIncrementalSearchInputContext;
-@property(readonly, nonatomic) _Bool isVerticalLayout;
 @property(nonatomic) _Bool primaryCandidatesShownByScrubbing; // @synthesize primaryCandidatesShownByScrubbing=_primaryCandidatesShownByScrubbing;
-@property(nonatomic) _Bool sInvalidateIMKTextOrientation; // @synthesize sInvalidateIMKTextOrientation=_sInvalidateIMKTextOrientation;
-@property(nonatomic) _Bool sInvalidateIncrementalSearchClientGeometry; // @synthesize sInvalidateIncrementalSearchClientGeometry=_sInvalidateIncrementalSearchClientGeometry;
-@property(nonatomic) _Bool sInvalidateIsIncrementalSearchInputContext; // @synthesize sInvalidateIsIncrementalSearchInputContext=_sInvalidateIsIncrementalSearchInputContext;
-@property(nonatomic) struct _NSRange selectedRange; // @synthesize selectedRange=_selectedRange;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool touchBarCandidatesDidPresent; // @synthesize touchBarCandidatesDidPresent=_touchBarCandidatesDidPresent;
-@property(nonatomic) unsigned long long touchBarCandidatesSelectionTimeStamp; // @synthesize touchBarCandidatesSelectionTimeStamp=_touchBarCandidatesSelectionTimeStamp;
-@property(nonatomic) unsigned long long windowLevel; // @synthesize windowLevel=_windowLevel;
 
 @end
 

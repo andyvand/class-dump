@@ -8,10 +8,10 @@
 {
 }
 
+- (id)ervices20ActivitySceneMetrics";
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)pageFetchSubscription;
 
 @end
 

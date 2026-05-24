@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSObject, NSString;
-@protocol AXVSearchDropDownItemMouseDelegate, AXVSearchDropDownItemProtocol;
+@class NSImage, NSObject;
+@protocol AXVSearchDropDownItemProtocol;
 
 @protocol AXVSearchDropDownItemViewProtocol
+- (NSObject<AXVSearchDropDownItemProtocol> *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *itemViewDetails;
 @property(readonly, nonatomic) NSImage *itemViewIcon;
-@property(readonly, nonatomic) NSObject<AXVSearchDropDownItemProtocol> *itemViewItem;
-@property(readonly, nonatomic) NSString *itemViewLabel;
-@property(readonly, nonatomic) __weak id <AXVSearchDropDownItemMouseDelegate> itemViewMouseDelegate;
-@property(readonly, nonatomic) _Bool itemViewSelected;
 @end
 

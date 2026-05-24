@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKImageLayer, IKImageView;
+@class IKImageView;
 
 @interface IKRootLayer
 {
     IKImageView *_ikImageView;
-    IKImageLayer *_ikImageLayer;
 }
 
 - (void);
@@ -19,7 +18,7 @@
 - (struct CGPoint);
 - (void);
 - (id);
-- (void);
+- (void)KitTreatmentRecordAssetBuilder=^{FlatBufferBuilder}I};
 - (void);
 - (void);
 

@@ -4,44 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDSiriStreamStartEvent
 {
     unsigned long long _activationType;
 }
 
-- (id);
+- (id)MSPHistoryEntry;
 - (unsigned long long);
-- (unsigned long long);
-- (id);
+- (unsigned long long);
+- (id)d %d. %s;
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
 @property(readonly, nonatomic) unsigned long long activationType; // @synthesize activationType=_activationType;
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly) Class superclass;
 
 @end
 

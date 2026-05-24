@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ML3DatabaseConnection, NSMutableDictionary;
+@class ML3DatabaseConnection;
 
 __attribute__((visibility("hidden")))
 @interface ML3SortMapFaultingNameOrderDictionary
 {
     ML3DatabaseConnection *_connection;
-    NSMutableDictionary *_dirtyInserts;
 }
 
 - (id);

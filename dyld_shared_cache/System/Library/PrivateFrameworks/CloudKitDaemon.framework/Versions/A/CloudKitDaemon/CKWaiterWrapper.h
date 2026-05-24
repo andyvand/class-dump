@@ -4,35 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKPersona, NSArray, NSObject;
-@protocol CKDZoneGatekeeperWaiter, OS_os_activity;
+@protocol CKDZoneGatekeeperWaiter;
 
 @interface CKWaiterWrapper
 {
     id <CKDZoneGatekeeperWaiter> _waiter;
-    NSArray *_zoneIDs;
-    NSObject<OS_os_activity> *_activity;
-    CDUnknownBlockType _waitCompletedHandler;
-    CKPersona *_persona;
 }
 
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)*;
 - (void);
+- (id)9h;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)�Z;
+- (id)setScanningState:client:neighborBSS:otherBSS:withChannelInfoList:withRequest:forInterface: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)`Ôl	<8  "ô"\#;
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_os_activity> *activity; // @synthesize activity=_activity;
-@property(readonly, copy, nonatomic) CKPersona *persona; // @synthesize persona=_persona;
-@property(readonly, nonatomic) CDUnknownBlockType waitCompletedHandler; // @synthesize waitCompletedHandler=_waitCompletedHandler;
 @property(readonly, nonatomic) id <CKDZoneGatekeeperWaiter> waiter; // @synthesize waiter=_waiter;
-@property(readonly, nonatomic) NSArray *zoneIDs; // @synthesize zoneIDs=_zoneIDs;
 
 @end
 

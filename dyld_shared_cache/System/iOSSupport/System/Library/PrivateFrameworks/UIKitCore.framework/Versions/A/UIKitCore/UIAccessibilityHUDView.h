@@ -6,34 +6,27 @@
 
 #import <UIKitCore/UIView.h>
 
-@class UIAccessibilityHUDItem, UIBlurEffect, UIImageView, UILabel, UIVisualEffectView;
+@class UIAccessibilityHUDItem;
 
 @interface UIAccessibilityHUDView : UIView
 {
     UIAccessibilityHUDItem *_item;
-    UIView *_transformContainer;
-    UIVisualEffectView *_effectView;
-    UIBlurEffect *_blurEffect;
-    UIVisualEffectView *_itemEffectView;
-    UIImageView *_imageView;
-    UILabel *_titleLabel;
-    UIView *_customView;
 }
 
 + (struct CGSize);
-- (void);
+- (void)ave a fromHandle, so we can't send the nickname;
 - (id);
 - (id);
 - (struct UIEdgeInsets);
 - (id);
 - (void);
-- (void);
+- (void)#;
 - (id);
 - (void);
-- (id);
+- (id)payloadProtocolType;
 - (struct CGSize);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id)Á!Aù±\°1Â0@ù
 × ;
 - (id)(Ò;

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLModel, MLModelConfiguration, MLModelDescription, NSString;
+@class MLModelDescription, NSString;
 
 @interface CHSingletonMLModel
 {
     NSString *_modelKey;
-    long long _modelUseCount;
-    MLModel *_model;
 }
 
 + (void);
@@ -25,9 +23,7 @@
 - (void)	Ä6;
 
 // Remaining properties
-@property(readonly, nonatomic) MLModelConfiguration *configuration;
 @property(readonly, nonatomic) MLModelDescription *modelDescription;
-@property(readonly, nonatomic) NSString *modelKey; // @synthesize modelKey=_modelKey;
 
 @end
 

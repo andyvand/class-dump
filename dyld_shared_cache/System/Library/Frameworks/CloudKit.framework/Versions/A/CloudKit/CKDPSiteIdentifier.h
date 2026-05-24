@@ -9,7 +9,6 @@
 @interface CKDPSiteIdentifier
 {
     NSData *_identifier;
-    NSData *_modifier;
 }
 
 - (_Bool);
@@ -17,12 +16,12 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)setComputePipelineState: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)@c;
 - (id);
 - (id);
 - (id);
@@ -31,9 +30,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasModifier;
-@property(retain, nonatomic) NSData *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSData *modifier; // @synthesize modifier=_modifier;
 
 @end
 

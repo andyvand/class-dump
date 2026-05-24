@@ -9,26 +9,24 @@
 @interface SCNLevelOfDetail
 {
     struct __C3DLOD *_lod;
-    long long _mode;
-    SCNGeometry *_geometry;
 }
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)numberOfTextAreaElements;
 - (double);
 - (long long);
 - (double);
 - (id);
 - (id);
-- (void);
+- (void)%;
 - (void);
 - (void);
 - (void *);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)B,R,D,N,GisSent;
 - (void);
 - (id);
 - (id)the above four basis functions at t:if (OSD_OPTIONAL(wDP)) {
@@ -439,8 +437,6 @@ void OsdGetGregoryPatchWeights(
 
 // Remaining properties
 @property(readonly) SCNGeometry *geometry;
-@property(readonly) double screenSpaceRadius;
-@property(readonly) double worldSpaceDistance;
 
 @end
 

@@ -6,31 +6,11 @@
 
 #import <SocialUI/SOChatViewController.h>
 
-@class CNContactPicker, IMHeaderView, NSButton, NSImageView, NSLayoutConstraint, NSString, NSTextField, SOChatDetailsPopoverController, SOProgressBarViewController, SORecipientBarView, SOTokenFieldController;
+@class NSButton, SOChatDetailsPopoverController;
 
 @interface SORecipientBarViewController : SOChatViewController
 {
     NSButton *_layoutTestDetailsButton;
-    double _initialButtonWidth;
-    _Bool _reloadContactPicker;
-    SOProgressBarViewController *_progressBarViewController;
-    NSTextField *_toLabel;
-    SOTokenFieldController *_recipientTokenFieldController;
-    IMHeaderView *_recipientScrollViewContentView;
-    NSButton *_addRecipientButton;
-    NSButton *_detailsButton;
-    SOChatDetailsPopoverController *_detailsPopoverController;
-    NSImageView *_businessHeaderImageView;
-    NSLayoutConstraint *_maximumRecipientScrollViewHeightConstraint;
-    NSLayoutConstraint *_maximumRecipientScrollViewContentsHeightConstraint;
-    NSLayoutConstraint *_recipientTokenFieldWidth;
-    NSLayoutConstraint *_toLabelLeadingMarginConstraint;
-    NSLayoutConstraint *_toLabelTopMarginConstraint;
-    NSLayoutConstraint *_recipientTokenFieldTopMarginConstraint;
-    NSLayoutConstraint *_recipientTokenFieldBottomMarginConstraint;
-    NSLayoutConstraint *_recipientActionsViewBottomMarginConstraint;
-    NSLayoutConstraint *_recipientActionsViewTrailingMarginConstraint;
-    CNContactPicker *_contactPicker;
 }
 
 - (double);
@@ -59,7 +39,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (void);
@@ -68,7 +48,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -89,73 +69,37 @@
 - (_Bool);
 - (id);
 - (void);
+- (void)P;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)hasCaptionedPhotoAlbum;
+- (id)MAPS_FLIGHT_DEPARTS_TOMORROW_AT_1;
+- (void)+;
 - (double);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)imumHeight;
-- (void)rvalSinceReferenceDate:(id)arg1;
+- (void)forcedMinimumHeight;
+- (void)dateWithTimeIntervalSinceReferenceDate:(id)arg1;
 
 // Remaining properties
-@property(retain) NSButton *addRecipientButton; // @synthesize addRecipientButton=_addRecipientButton;
-@property(nonatomic) _Bool allowsTokenFieldScrolling; // @dynamic allowsTokenFieldScrolling;
-@property(retain) NSImageView *businessHeaderImageView; // @synthesize businessHeaderImageView=_businessHeaderImageView;
-@property(retain) CNContactPicker *contactPicker; // @synthesize contactPicker=_contactPicker;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property double defaultFontSize;
-@property(readonly, copy) NSString *description;
-@property(retain) NSButton *detailsButton; // @synthesize detailsButton=_detailsButton;
 @property(retain) SOChatDetailsPopoverController *detailsPopoverController; // @synthesize detailsPopoverController=_detailsPopoverController;
-@property(readonly) unsigned long long hash;
-@property(retain) NSLayoutConstraint *maximumRecipientScrollViewContentsHeightConstraint; // @synthesize maximumRecipientScrollViewContentsHeightConstraint=_maximumRecipientScrollViewContentsHeightConstraint;
-@property double maximumRecipientScrollViewHeight; // @dynamic maximumRecipientScrollViewHeight;
-@property(retain) NSLayoutConstraint *maximumRecipientScrollViewHeightConstraint; // @synthesize maximumRecipientScrollViewHeightConstraint=_maximumRecipientScrollViewHeightConstraint;
-@property double maximumStaticRecipientViewHeight; // @dynamic maximumStaticRecipientViewHeight;
-@property(retain) SOProgressBarViewController *progressBarViewController; // @synthesize progressBarViewController=_progressBarViewController;
-@property double recipientActionsViewBottomMargin; // @dynamic recipientActionsViewBottomMargin;
-@property(retain) NSLayoutConstraint *recipientActionsViewBottomMarginConstraint; // @synthesize recipientActionsViewBottomMarginConstraint=_recipientActionsViewBottomMarginConstraint;
-@property double recipientActionsViewTrailingMargin; // @dynamic recipientActionsViewTrailingMargin;
-@property(retain) NSLayoutConstraint *recipientActionsViewTrailingMarginConstraint; // @synthesize recipientActionsViewTrailingMarginConstraint=_recipientActionsViewTrailingMarginConstraint;
-@property(readonly) SORecipientBarView *recipientBarView; // @dynamic recipientBarView;
-@property(retain) IMHeaderView *recipientScrollViewContentView; // @synthesize recipientScrollViewContentView=_recipientScrollViewContentView;
-@property(retain) NSLayoutConstraint *recipientTokenFieldBottomMarginConstraint; // @synthesize recipientTokenFieldBottomMarginConstraint=_recipientTokenFieldBottomMarginConstraint;
-@property(retain) SOTokenFieldController *recipientTokenFieldController; // @synthesize recipientTokenFieldController=_recipientTokenFieldController;
-@property(retain) NSLayoutConstraint *recipientTokenFieldTopMarginConstraint; // @synthesize recipientTokenFieldTopMarginConstraint=_recipientTokenFieldTopMarginConstraint;
-@property(retain) NSLayoutConstraint *recipientTokenFieldWidth; // @synthesize recipientTokenFieldWidth=_recipientTokenFieldWidth;
-@property _Bool reloadContactPicker; // @synthesize reloadContactPicker=_reloadContactPicker;
-@property(readonly) Class superclass;
-@property(retain) NSTextField *toLabel; // @synthesize toLabel=_toLabel;
-@property double toLabelLeadingMargin; // @dynamic toLabelLeadingMargin;
-@property(retain) NSLayoutConstraint *toLabelLeadingMarginConstraint; // @synthesize toLabelLeadingMarginConstraint=_toLabelLeadingMarginConstraint;
-@property double toLabelTopMargin; // @dynamic toLabelTopMargin;
-@property(retain) NSLayoutConstraint *toLabelTopMarginConstraint; // @synthesize toLabelTopMarginConstraint=_toLabelTopMarginConstraint;
-@property double tokenFieldBottomMargin; // @dynamic tokenFieldBottomMargin;
-@property double tokenFieldTopMargin; // @dynamic tokenFieldTopMargin;
 
 @end
 

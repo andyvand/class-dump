@@ -4,34 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSString;
-@protocol SXLayoutBlueprintProvider, SXLayoutInvalidationManagerDelegate;
+@protocol SXLayoutBlueprintProvider;
 
 @interface SXLayoutInvalidationManager
 {
     _Bool _invalidationDispatched;
-    id <SXLayoutInvalidationManagerDelegate> _delegate;
-    id <SXLayoutBlueprintProvider> _layoutBlueprintProvider;
-    NSMutableArray *_possibleInvalidations;
-    NSMutableDictionary *_pendingInvalidations;
 }
 
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)h;
 - (id);
 - (void);
 - (id);
@@ -40,18 +35,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SXLayoutInvalidationManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool invalidationDispatched; // @synthesize invalidationDispatched=_invalidationDispatched;
 @property(readonly, nonatomic) id <SXLayoutBlueprintProvider> layoutBlueprintProvider; // @synthesize layoutBlueprintProvider=_layoutBlueprintProvider;
-@property(retain, nonatomic) NSMutableDictionary *pendingInvalidations; // @synthesize pendingInvalidations=_pendingInvalidations;
-@property(readonly, nonatomic) NSMutableArray *possibleInvalidations; // @synthesize possibleInvalidations=_possibleInvalidations;
-@property(readonly) Class superclass;
 
 @end
 

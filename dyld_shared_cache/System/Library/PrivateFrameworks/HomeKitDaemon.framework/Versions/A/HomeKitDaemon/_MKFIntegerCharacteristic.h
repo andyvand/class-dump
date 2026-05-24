@@ -6,8 +6,7 @@
 
 #import <HomeKitDaemon/_MKFCharacteristic.h>
 
-@class HMDCharacteristicMetadata, MKFIntegerCharacteristicDatabaseID, NSArray, NSData, NSDictionary, NSNumber, NSString, NSUUID;
-@protocol MKFHome, MKFService;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface _MKFIntegerCharacteristic : _MKFCharacteristic
@@ -15,7 +14,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id);
++ (id);
 - (void);
 - (id);
 - (id);
@@ -23,31 +22,7 @@ __attribute__((visibility("hidden")))
 - (id)AáÐ!;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *authorizationData;
-@property(readonly, retain, nonatomic) NSArray *bulletinRegistrations;
-@property(readonly, copy, nonatomic) MKFIntegerCharacteristicDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *format;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <MKFHome> home;
-@property(readonly, copy, nonatomic) NSNumber *instanceID;
-@property(copy, nonatomic) NSString *manufacturerDescription;
 @property(copy, nonatomic) NSNumber *maximumValue; // @dynamic maximumValue;
-@property(copy, nonatomic) NSNumber *minimumValue; // @dynamic minimumValue;
-@property(readonly, retain, nonatomic) NSArray *notificationRegistrations;
-@property(readonly, copy) NSDictionary *pr_dictionaryRepresentation;
-@property(readonly, copy) HMDCharacteristicMetadata *pr_hapMetadata;
-@property(copy, nonatomic) NSNumber *properties;
-@property(readonly, retain, nonatomic) id <MKFService> service;
-@property(copy, nonatomic) NSNumber *stepValue; // @dynamic stepValue;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSUUID *type;
-@property(copy, nonatomic) NSString *units;
-@property(retain, nonatomic) NSArray *validValues; // @dynamic validValues;
 
 @end
 

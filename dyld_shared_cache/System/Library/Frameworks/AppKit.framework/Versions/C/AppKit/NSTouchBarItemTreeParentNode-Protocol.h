@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property(readonly) NSTouchBar *touchBarContainingChildNodes;
-@property(readonly) long long touchBarLayoutDirection;
 @end
 

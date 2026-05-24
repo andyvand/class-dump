@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBAppAutoShortcutsItem;
+@class _SFPBAppAutoShortcutsItem;
 
 @interface _SFPBAppAutoShortcutsButtonItem
 {
     _SFPBAppAutoShortcutsItem *_appAutoShortcutsItem;
-    unsigned long long _uniqueId;
 }
 
 - (void);
@@ -17,27 +16,18 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
+- (_Bool);
+- (_Bool);
+- (unsigned long long)א;
+- (id)vered:(id)arg1;
+- (id)e:%{public}@ /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (void)g_item_standard_card_section"b1"reference_footnote_card_section"b1};
-- (void)Prefix;
+- (void)listPrefix;
 
 // Remaining properties
 @property(retain, nonatomic) _SFPBAppAutoShortcutsItem *appAutoShortcutsItem; // @synthesize appAutoShortcutsItem=_appAutoShortcutsItem;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long uniqueId; // @synthesize uniqueId=_uniqueId;
 
 @end
 

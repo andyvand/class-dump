@@ -6,6 +6,6 @@
 
 @interface UnknownClass (WFCrossPlatform)
 + (id);
-+ (id);
++ (id)9*T;
 @end
 

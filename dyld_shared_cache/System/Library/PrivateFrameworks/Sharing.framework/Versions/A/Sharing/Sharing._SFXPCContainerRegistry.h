@@ -7,9 +7,6 @@
 @interface Sharing._SFXPCContainerRegistry
 {
     id $defaultActor;
-    id blocks;
-    id sequences;
-    id iterators;
 }
 
 @end

@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSNumber;
+
 @protocol MTRDeviceControllerServerProtocol
+
+@optional
+- (void);
+- (void)showSharedTripNotification:(id)arg1 ofType:(NSNumber *)arg2 forState:(long long)arg3;
 @end
 

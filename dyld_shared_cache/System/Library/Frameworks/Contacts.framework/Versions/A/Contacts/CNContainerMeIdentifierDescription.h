@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (id);
-- (_Bool);
+- (id)currentScreenViewName;
+- (_Bool)XPCCompleted:reactivate:]_block_invoke /* Error: Ran out of types for this method. */;
 - (Class)ù1*ð1Â0@ù
 × ;
 

@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSSet, TPTypedSignedData;
+@class TPTypedSignedData;
 
 @interface TPPeerDynamicInfo
 {
     unsigned long long _clock;
-    NSSet *_includedPeerIDs;
-    NSSet *_excludedPeerIDs;
-    NSSet *_preapprovals;
-    TPTypedSignedData *_tsd;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 - (id);
@@ -24,26 +20,19 @@
 - (_Bool);
 - (id);
 - (_Bool);
+- (id)r_Resume(FigEndpointAudioSourceRef);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)K;
 - (unsigned long long);
-- (id);
+- (id)setInRoamSuppressionWaitForRoamStart: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long clock; // @synthesize clock=_clock;
-@property(readonly, nonatomic) NSData *data;
-@property(readonly, nonatomic) NSDictionary *dispositions;
-@property(readonly, nonatomic) NSSet *excludedPeerIDs; // @synthesize excludedPeerIDs=_excludedPeerIDs;
-@property(readonly, nonatomic) NSSet *includedPeerIDs; // @synthesize includedPeerIDs=_includedPeerIDs;
-@property(readonly, nonatomic) NSSet *preapprovals; // @synthesize preapprovals=_preapprovals;
-@property(readonly, nonatomic) NSData *sig;
 @property(retain, nonatomic) TPTypedSignedData *tsd; // @synthesize tsd=_tsd;
 
 @end

@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol AKAnisetteServiceProtocol;
 
 @interface _AKAnisetteProviderProxy
@@ -14,24 +13,17 @@
 
 - (void);
 - (void);
+- (id)M;
 - (id);
-- (id);
 - (void);
 - (void);
+- (void)4;
+- (void)T;
 - (void);
-- (void);
-- (void);
-- (void)llowUpSynchronizer;
+- (void)AKFollowUpSynchronizer;
 
 // Remaining properties
 @property(retain, nonatomic) id <AKAnisetteServiceProtocol> anisetteDataProvider; // @synthesize anisetteDataProvider=_anisetteDataProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

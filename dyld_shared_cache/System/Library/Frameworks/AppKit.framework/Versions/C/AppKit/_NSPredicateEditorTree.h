@@ -4,38 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSPredicateEditorRowTemplate, NSString;
+@class NSPredicateEditorRowTemplate;
 
 __attribute__((visibility("hidden")))
 @interface _NSPredicateEditorTree
 {
     NSPredicateEditorRowTemplate *template;
-    NSString *title;
-    NSArray *children;
-    long long indexIntoTemplate;
-    long long menuItemIndex;
 }
 
 - (id);
 - (void);
-- (void);
+- (void)ailableDisplayZoomSizes:(long long)arg1 Changed landscape to portrait for %dx%d;
 - (void);
 - (long long);
 - (long long);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)ף;
+- (id);
 - (void)1Â0@ù
 × ;
 - (id)intelligenceDelegate;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *children; // @synthesize children;
-@property(nonatomic) long long indexIntoTemplate; // @synthesize indexIntoTemplate;
-@property(nonatomic) long long menuItemIndex; // @synthesize menuItemIndex;
 @property(retain, nonatomic) NSPredicateEditorRowTemplate *template; // @synthesize template;
-@property(copy, nonatomic) NSString *title; // @synthesize title;
 
 @end
 

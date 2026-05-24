@@ -5,5 +5,6 @@
 //
 
 @protocol _DPMaintenance
+- (void)nPriorityList over XPC;
 @end
 

@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFAudioPlaybackRequest, AVAudioPlayer, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CSSiriAudioPlaybackSessionImplAVAudioPlayerBased
 {
     NSObject<OS_dispatch_queue> *_queue;
-    AVAudioPlayer *_player;
-    _Bool _isActive;
-    _Bool _isPrepared;
-    CDUnknownBlockType _completion;
-    AFAudioPlaybackRequest *_request;
-    unsigned long long _options;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)V;
 - (id);
 - (void);
 - (void);
@@ -35,21 +29,13 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)_ignoresContactProviderRestrictions;
+- (id)@;
 - (unsigned long long);
-- (void)n: /* Error: Ran out of types for this method. */;
+- (void)getVoiceTriggerAssetWithEndpointId:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(readonly, nonatomic) AFAudioPlaybackRequest *request; // @synthesize request=_request;
-@property(readonly) Class superclass;
 
 @end
 

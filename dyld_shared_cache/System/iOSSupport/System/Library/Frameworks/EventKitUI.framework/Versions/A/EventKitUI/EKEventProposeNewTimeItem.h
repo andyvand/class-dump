@@ -6,26 +6,24 @@
 
 #import <EventKitUI/EKEventDetailItem.h>
 
-@class CUIKCalendarModel, UITableViewCell;
+@class UITableViewCell;
 
 __attribute__((visibility("hidden")))
 @interface EKEventProposeNewTimeItem : EKEventDetailItem
 {
     UITableViewCell *_cell;
-    _Bool _cellNeedsUpdate;
-    CUIKCalendarModel *_model;
 }
 
 + (_Bool);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)=dd}diIiii}iii{basic_string<char, std:(double)arg1:__1::char_traits<char>, std::__1::allocator<char> >={__compressed_pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::__rep, std::__1::allocator<char> >={__rep}}}{CLDaemonLocation=i{?=dd}ddddddddidi{?=dd}diIiii}ii}{LteCell=iiiiiiiddii}} /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)textView:(struct CGRect)arg1 shouldChangeTypingAttributes:(unsigned long long)arg2 toAttributes: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
-- (void)NumberOfTimeSlotsToShow: /* Error: Ran out of types for this method. */;
+- (void)setMaximumNumberOfTimeSlotsToShow: /* Error: Ran out of types for this method. */;
 - (void)eScrollViewDelegate>",W,N,V_blockableDelegate;
 
 @end

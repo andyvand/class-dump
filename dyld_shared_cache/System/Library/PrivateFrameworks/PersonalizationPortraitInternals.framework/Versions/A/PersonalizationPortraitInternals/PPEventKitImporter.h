@@ -4,29 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PPLocalEventStore, PPLocalLocationStore, PPLocalNamedEntityStore, PPLocalTopicStore, PPNamedEntityDissector, PPSQLDatabase, SGSqlEntityStore, SGURLDissector;
+@class PPLocalEventStore;
 
 @interface PPEventKitImporter
 {
     PPLocalEventStore *_eventStore;
-    PPLocalNamedEntityStore *_namedEntityStore;
-    PPLocalLocationStore *_locationStore;
-    PPLocalTopicStore *_topicStore;
-    SGSqlEntityStore *_urlStore;
-    PPSQLDatabase *_sqlDatabase;
-    SGURLDissector *_urlDissector;
-    PPNamedEntityDissector *_neDissector;
-    Class _dataDetectorMatchClass;
-    struct atomic_flag _fullImportInProgress;
 }
 
 + (id);
-- (id);
-- (id);
+- (id)associatedURLString;
+- (id)?%;
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)ۂ;
 - (void);
 - (void);
 

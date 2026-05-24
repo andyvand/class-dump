@@ -10,17 +10,15 @@ __attribute__((visibility("hidden")))
 @interface AVCapturePrepareBracketRequest
 {
     CDUnknownBlockType _completionBlock;
-    FigCaptureStillImageSettings *_settings;
 }
 
 + (id);
-- (id);
+- (id)pports requests of type MSVArtworkServiceResizeRequest;
 - (void);
 - (id);
 - (CDUnknownBlockType);
 
 // Remaining properties
-@property(readonly) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
 @property(readonly) FigCaptureStillImageSettings *settings; // @synthesize settings=_settings;
 
 @end

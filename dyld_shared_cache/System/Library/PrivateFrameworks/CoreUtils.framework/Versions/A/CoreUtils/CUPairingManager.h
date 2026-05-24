@@ -4,44 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSXPCConnection, NSXPCListenerEndpoint;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CUPairingManager
 {
     _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    _Bool _monitoring;
-    unsigned long long _monitorOptions;
-    NSXPCConnection *_xpcCnx;
-    _Bool _targetUserSession;
-    unsigned int _targetUserID;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _identityCreatedHandler;
-    CDUnknownBlockType _identityDeletedHandler;
-    CDUnknownBlockType _interruptionHandler;
-    CDUnknownBlockType _invalidationHandler;
-    CDUnknownBlockType _pairedPeerAddedHandler;
-    CDUnknownBlockType _pairedPeerRemovedHandler;
-    CDUnknownBlockType _pairedPeerChangedHandler;
-    NSXPCListenerEndpoint *_testListenerEndpoint;
 }
 
 + (id);
-+ (id);
++ (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType identityCreatedHandler; // @synthesize identityCreatedHandler=_identityCreatedHandler;
-@property(copy, nonatomic) CDUnknownBlockType identityDeletedHandler; // @synthesize identityDeletedHandler=_identityDeletedHandler;
-@property(copy, nonatomic) CDUnknownBlockType interruptionHandler; // @synthesize interruptionHandler=_interruptionHandler;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(copy, nonatomic) CDUnknownBlockType pairedPeerAddedHandler; // @synthesize pairedPeerAddedHandler=_pairedPeerAddedHandler;
-@property(copy, nonatomic) CDUnknownBlockType pairedPeerChangedHandler; // @synthesize pairedPeerChangedHandler=_pairedPeerChangedHandler;
-@property(copy, nonatomic) CDUnknownBlockType pairedPeerRemovedHandler; // @synthesize pairedPeerRemovedHandler=_pairedPeerRemovedHandler;
-@property(nonatomic) unsigned int targetUserID; // @synthesize targetUserID=_targetUserID;
-@property(nonatomic) _Bool targetUserSession; // @synthesize targetUserSession=_targetUserSession;
-@property(retain, nonatomic) NSXPCListenerEndpoint *testListenerEndpoint; // @synthesize testListenerEndpoint=_testListenerEndpoint;
 
 @end
 

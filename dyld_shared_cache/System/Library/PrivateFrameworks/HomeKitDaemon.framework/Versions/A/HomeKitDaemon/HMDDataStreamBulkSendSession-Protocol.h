@@ -5,6 +5,7 @@
 //
 
 @protocol HMDDataStreamBulkSendSession
+- (void).SharedTrip.Capabilities;
 - (void)ã°!°GùQ°1Â0@ù
 × ;
 

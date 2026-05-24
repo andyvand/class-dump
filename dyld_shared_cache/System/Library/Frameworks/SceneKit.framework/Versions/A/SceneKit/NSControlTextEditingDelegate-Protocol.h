@@ -4,11 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSControl;
+@class NSControl, NSNotification;
 
 @protocol NSControlTextEditingDelegate
 
 @optional
+- (_Bool):(NSControl *)arg1 ';
+- (void)_promiseToFetchCardOnStackTokenURL:(NSNotification *)arg1;
 - (void)ve</string>
 	</array>
 	<key>passes</key>

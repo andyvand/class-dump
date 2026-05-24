@@ -11,12 +11,11 @@
 @interface SLSBridgedManagedDisplaySetCurrentSpaceOperation : SLSAsynchronousBridgedWindowManagementOperation
 {
     NSString *_displayIdentifier;
-    unsigned long long _spaceID;
 }
 
-+ (_Bool);
-- (void);
-- (id);
++ (_Bool);
+- (void)"; entity = "%@"; value = %@;
+- (id)eSchema for store:(id)arg1 %@;
 - (id);
 - (unsigned long long);
 - (id);
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(readonly, copy) NSString *displayIdentifier; // @synthesize displayIdentifier=_displayIdentifier;
-@property(readonly) unsigned long long spaceID; // @synthesize spaceID=_spaceID;
 
 @end
 

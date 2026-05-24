@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 __attribute__((visibility("hidden")))
 @interface _CUISubrangeData
 {
     struct _NSRange _range;
-    NSData *_data;
 }
 
 - (void);
 - (unsigned long long);
-- (const void *);
+- (const void *)kit.buddyAccess;
 - (id);
 - (id);
 

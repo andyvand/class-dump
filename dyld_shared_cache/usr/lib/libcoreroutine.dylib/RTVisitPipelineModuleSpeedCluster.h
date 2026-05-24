@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, RTLocation, RTVisit, RTVisitHyperParameter;
+@class RTVisit;
 
 @interface RTVisitPipelineModuleSpeedCluster
 {
     RTVisit *_workingVisit;
-    RTLocation *_lastPoint;
-    RTVisitHyperParameter *_hyperParameter;
 }
 
 - (id);
-- (void);
+- (void)ansfer cancel message does not have enought bytes for reason;
 - (id);
-- (id);
+- (id)4@0:(id)arg1 8@16@24q32@40^@48^@56;
 - (void);
 - (id);
 - (void)ing;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

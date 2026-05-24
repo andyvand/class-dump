@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNHandleStringClassification, NSArray, NSMutableArray;
+@class CNHandleStringClassification;
 
 __attribute__((visibility("hidden")))
 @interface CNContactClassifiedHandleStringInterpreter
 {
     _Bool _hasBeenInterpreted;
-    CNHandleStringClassification *_classification;
-    NSMutableArray *_emailAddressesImpl;
-    NSMutableArray *_phoneNumbersImpl;
-    NSMutableArray *_unconvertableHandles;
 }
 
 - (id);
@@ -26,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)lled;
 - (id);
 - (id);
 - (id);
@@ -35,12 +31,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) CNHandleStringClassification *classification; // @synthesize classification=_classification;
-@property(readonly) NSArray *emailAddresses;
-@property(readonly, nonatomic) NSMutableArray *emailAddressesImpl; // @synthesize emailAddressesImpl=_emailAddressesImpl;
-@property(nonatomic) _Bool hasBeenInterpreted; // @synthesize hasBeenInterpreted=_hasBeenInterpreted;
-@property(readonly) NSArray *phoneNumbers;
-@property(readonly, nonatomic) NSMutableArray *phoneNumbersImpl; // @synthesize phoneNumbersImpl=_phoneNumbersImpl;
-@property(readonly, nonatomic) NSMutableArray *unconvertableHandles; // @synthesize unconvertableHandles=_unconvertableHandles;
 
 @end
 

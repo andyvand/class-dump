@@ -4,26 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableSet, NSObject, TMVFSEventObserver, TMXPCConnectionInvalidator;
-@protocol OS_dispatch_queue;
-
 @interface TMBackupDataSource
 {
     CDUnknownBlockType _stateChangeBlock;
-    unsigned long long _options;
-    NSObject<OS_dispatch_queue> *_prepareQueue;
-    NSObject<OS_dispatch_queue> *_queue;
-    TMVFSEventObserver *_observer;
-    NSMutableArray *_listeners;
-    NSMutableSet *_installedListenerIDs;
-    NSArray *_listenersToAdd;
-    TMXPCConnectionInvalidator *_invalidator;
-    NSMutableSet *_foundDates;
-    NSMutableSet *_deletedDates;
 }
 
 + (void);
-+ (id);
++ (id);
 - (CDUnknownBlockType);
 - (id);
 - (void);
@@ -39,7 +26,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -54,20 +41,10 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id)<H;
 
 // Remaining properties
-@property(readonly) NSMutableSet *deletedDates; // @synthesize deletedDates=_deletedDates;
-@property(readonly) NSMutableSet *foundDates; // @synthesize foundDates=_foundDates;
-@property(readonly) NSMutableSet *installedListenerIDs; // @synthesize installedListenerIDs=_installedListenerIDs;
-@property(readonly) TMXPCConnectionInvalidator *invalidator; // @synthesize invalidator=_invalidator;
-@property(readonly) NSMutableArray *listeners; // @synthesize listeners=_listeners;
-@property(readonly) NSArray *listenersToAdd; // @synthesize listenersToAdd=_listenersToAdd;
-@property(readonly) TMVFSEventObserver *observer; // @synthesize observer=_observer;
-@property(readonly) unsigned long long options; // @synthesize options=_options;
-@property(readonly) NSObject<OS_dispatch_queue> *prepareQueue; // @synthesize prepareQueue=_prepareQueue;
-@property(retain) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property(readonly, copy) CDUnknownBlockType stateChangeBlock; // @synthesize stateChangeBlock=_stateChangeBlock;
 
 @end

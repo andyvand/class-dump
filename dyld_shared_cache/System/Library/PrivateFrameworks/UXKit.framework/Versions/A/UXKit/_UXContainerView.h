@@ -6,24 +6,21 @@
 
 #import <UXKit/UXView.h>
 
-@class NSView, NSVisualEffectView;
+@class NSVisualEffectView;
 
 @interface _UXContainerView : UXView
 {
     NSVisualEffectView *_effectView;
-    _Bool _wantsMaterialBackground;
-    NSView *_contentView;
 }
 
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id)rSupplementaryElementOfKind:hitByEvent: /* Error: Ran out of types for this method. */;
+- (void)P;
+- (id)indexPathForSupplementaryElementOfKind:hitByEvent: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSView *contentView; // @synthesize contentView=_contentView;
 @property(nonatomic) _Bool wantsMaterialBackground; // @synthesize wantsMaterialBackground=_wantsMaterialBackground;
 
 @end

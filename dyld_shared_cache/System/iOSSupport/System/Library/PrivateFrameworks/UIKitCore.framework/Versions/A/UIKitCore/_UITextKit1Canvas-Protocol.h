@@ -9,7 +9,7 @@
 @protocol _UITextKit1Canvas
 - (id <_UITextKit1CanvasContext>)
 × ;
-- (void)ction;
+- (void)_isDefaultSystemInteraction;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UITextKit1CanvasContext> context;

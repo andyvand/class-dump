@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NSSQLConstantValueIntermediate : NSSQLIntermediate
 {
     unsigned char _type;
-    id _constantValue;
 }
 
 - (void);

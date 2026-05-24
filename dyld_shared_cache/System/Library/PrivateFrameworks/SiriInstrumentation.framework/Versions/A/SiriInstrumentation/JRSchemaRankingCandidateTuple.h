@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface JRSchemaRankingCandidateTuple : SISchemaInstrumentationMessage
 {
@@ -22,7 +22,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -30,12 +30,11 @@
 - (id)
 × ;
 - (id)ehicleName;
-- (id)RebuildContext;
+- (id)SMTSchemaSMTAppLanguageModelProfileRebuildContext;
 - (void)ÀÞÿ;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *candidateIds; // @synthesize candidateIds=_candidateIds;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

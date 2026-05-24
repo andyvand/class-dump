@@ -6,8 +6,6 @@
 
 #import <QuartzCore/CALayer.h>
 
-@class NSDictionary;
-
 @interface CAPortalLayer : CALayer
 {
 }
@@ -21,12 +19,12 @@
 - (float);
 - (void);
 - (_Bool);
-- (id);
+- (id)J;
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)clearFakeEntitlementForKey: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -42,27 +40,14 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)!@%;
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
 
 // Remaining properties
-@property _Bool allowedInContextTransform;
-@property _Bool allowsBackdropGroups;
-@property _Bool crossDisplay;
-@property _Bool excludeSeparated;
-@property _Bool hidesSourceLayer;
-@property _Bool hidesSourceLayerInOtherPortals;
-@property _Bool matchesOpacity;
-@property _Bool matchesPosition;
-@property _Bool matchesTransform;
-@property(copy) NSDictionary *overrides;
-@property unsigned int sourceContextId;
 @property __weak CALayer *sourceLayer;
-@property float sourceLayerOpacityScale;
-@property unsigned long long sourceLayerRenderId;
 
 @end
 

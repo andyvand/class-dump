@@ -9,33 +9,16 @@
 @interface NewsAnalytics.SessionObserver
 {
     id sessionManager;
-    id aggregateStateModeProvider;
-    id cloudContext;
-    id client;
-    id fsidProvider;
-    id onboardingVersion;
-    id appExtensionCommunicator;
-    id kind;
-    id tracker;
-    id sessionStartSource;
-    id tabiDataProvider;
-    id liveActivityCountDataProvider;
-    id userEmbeddingDataProvider;
-    id sessionURLManager;
-    id subscriptionController;
-    id locationDetectionManager;
-    id window;
-    void sceneSessionIdentifier;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)text %{public}@;
+- (void)next cached ad from a daemon for context %{public}@;
+- (void)ill fetching one;
+- (void)t next ad from daemon;
+- (void)slpAdFilled;
+- (void)ith id:%{public}@. /* Error: Ran out of types for this method. */;
+- (void)pp store requested ad, finishing request with id:(id)arg1 %{public}@.;
+- (void)d ad, finishing request with id:%{public}@. Cached content can't be vended to a client - not relevant. /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);

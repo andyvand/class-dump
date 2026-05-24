@@ -7,10 +7,6 @@
 @interface RemindersUICore.TTRMRemindersListCellEditModeState
 {
     id delegate;
-    id pendingExit;
-    id itemWithActiveEditMode;
-    id capturingPendingChangesCounter;
-    id deferredAction;
 }
 
 @end

@@ -4,13 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, ACAccountType, NSNumber, NSString;
+@class ACAccount, ACAccountType, NSNumber, NSString, NSURL;
 
 @protocol ACRemoteAccountStoreProtocol
+- (void);
+- (void);
+- (void)_changes;
+- (void)ystem/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics;
+- (void)__DATA_CONST;
+- (void);
+- (void)setOperation:(void (^)(unsigned int))arg1;
+- (void)promiseLock;
+- (void)all:(NSString *)arg1;
+- (void)_isPrimaryCellular;
+- (void):(NSURL *)arg1 %{public}@;
+- (void);
+- (void)Y1;
+- (void)6;
 - (void)1²2Ð1Â0@ù
 × ;
 - (void)× ;
-- (void);
 - (void)²21Â0@ù
 × ;
 - (void)0@ù
@@ -18,13 +31,13 @@
 - (void)@ù
 × ;
 - (void)setEffectiveBundleID:(NSString *)arg1;
-- (void)ionForAccountType:(NSString *)arg1 withHandler:(NSString *)arg2;
-- (void)unt:(NSNumber *)arg1;
-- (void)pe;
+- (void)permissionForAccountType:(NSString *)arg1 withHandler:(NSString *)arg2;
+- (void)notifyRemoteDevicesOfModifiedAccount:(NSNumber *)arg1;
+- (void)enabledDataclassesType;
 - (void)correctPersonaScopedForAccount;
-- (void)s:(ACAccountType *)arg1 error:(void (^)(NSNumber *, NSError *))arg2;
-- (void)derlyingSet;
-- (void)ts;
+- (void)accountsWithAccountTypeIdentifiers:(ACAccountType *)arg1 preloadedProperties:(void (^)(NSNumber *, NSError *))arg2 error: /* Error: Ran out of types for this method. */;
+- (void)_underlyingSet;
+- (void)_haveCheckedForChildAccounts;
 - (void)umTimeInterval;
 - (void)ifier;
 - (void)ÄèD;
@@ -33,10 +46,10 @@
 - (void)GIN [%lld]:(ACAccount *)arg1 IsThetheredSyncingEnabledForDataclass %@;
 - (void)parent-account-for-account;
 - (void)8^B16;
-- (void)anagerTimerQueue;
-- (void)amID;
+- (void)ACSysConfigManagerTimerQueue;
+- (void)owningTeamID;
 - (void)0I8;
-- (void)ount;
+- (void)account;
 - (void)e.Dataclass.ProtectedCloudStorage;
 - (void)t;
 - (void)T;

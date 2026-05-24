@@ -4,41 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _UITouchForceObservationMessageReader;
-
 __attribute__((visibility("hidden")))
 @interface _UITouchForceMessage
 {
     _Bool _isReset;
-    _UITouchForceObservationMessageReader *_observeReader;
-    _Bool _shouldFilterDueToSystemGestures;
-    double _unclampedTouchForce;
-    double _maximumPossibleForce;
-    double _timestamp;
-    struct CGPoint _centroid;
 }
 
 + (id);
 + (id);
 - (void);
-- (void);
-- (double);
+- (void)_activeCommands;
+- (double)find the reference item in change %{public}@;
 - (double);
 - (double)iewControllerImpl>"64;
 - (_Bool)@"UIActionSheet";
-- (void)ractedContentAbsolutePaths;
-- (void)pDataOwner;
+- (void)_extractedContentAbsolutePaths;
+- (void)_dropDataOwner;
 - (void)Preference;
-- (void)ty:(struct CGPoint)arg1 key:target: /* Error: Ran out of types for this method. */;
+- (void)__swift_setVelocity:(struct CGPoint)arg1 key:target: /* Error: Ran out of types for this method. */;
 - (struct CGPoint)GRect={CGPoint=dd}{CGSize=dd}}16@?0@"UIZoomTransitionAlignmentRectContext"8;
 - (void)xSo16UIViewControllerCIegno_;
-- (void)ics;
+- (void)CellMetrics;
 
 // Remaining properties
-@property(nonatomic) struct CGPoint centroid; // @synthesize centroid=_centroid;
-@property(nonatomic) double maximumPossibleForce; // @synthesize maximumPossibleForce=_maximumPossibleForce;
-@property(nonatomic) _Bool shouldFilterDueToSystemGestures; // @synthesize shouldFilterDueToSystemGestures=_shouldFilterDueToSystemGestures;
-@property(nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
 @property(nonatomic) double unclampedTouchForce; // @synthesize unclampedTouchForce=_unclampedTouchForce;
 
 @end

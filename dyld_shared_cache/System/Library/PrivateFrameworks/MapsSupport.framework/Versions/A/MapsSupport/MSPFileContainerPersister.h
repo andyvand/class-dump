@@ -12,7 +12,6 @@
 @interface MSPFileContainerPersister : MSPContainerPersister
 {
     NSURL *_persistenceFileURL;
-    NSObject<OS_dispatch_queue> *_ioQueue;
 }
 
 - (id);
@@ -21,19 +20,18 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)|;
+- (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *ioQueue; // @synthesize ioQueue=_ioQueue;
-@property(readonly, nonatomic) NSURL *persistenceFileURL; // @synthesize persistenceFileURL=_persistenceFileURL;
 
 @end
 

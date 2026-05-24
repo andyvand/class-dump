@@ -9,12 +9,9 @@
 @interface CKDPFetchArchivedRecordsResponse
 {
     NSData *_archiveContinuationToken;
-    NSMutableArray *_records;
-    int _status;
-    CDStruct_47fe53f2 _has;
 }
 
-+ (Class);
++ (Class);
 - (void);
 - (id);
 - (_Bool);
@@ -23,9 +20,10 @@
 - (void);
 - (id);
 - (void);
+- (void)getAbsoluteDateComponentsWithDefaultMinutesAndTimezone:(id)arg1 withTime:withDefaultMinutes:withTimezone: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)E [%{ptr}] %s[0x%04X] Releasing cryptor [%{ptr}] with cryptorID:0x%llx
+ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -33,20 +31,16 @@
 - (int);
 - (id);
 - (void);
-- (id);
+- (id)undation.framework/Versions/C/Foundation;
 - (id);
 - (_Bool);
-- (void)itySetFromPDeviceCapabilitySet:(_Bool)arg1;
-- (int)rPrivacySettingsOperation;
+- (void)deviceCapabilitySetFromPDeviceCapabilitySet:(_Bool)arg1;
+- (int)CKDResetUserPrivacySettingsOperation;
 - (void)request %@;
 - (void)he server:(id)arg1 %@;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *archiveContinuationToken; // @synthesize archiveContinuationToken=_archiveContinuationToken;
-@property(readonly, nonatomic) _Bool hasArchiveContinuationToken;
-@property(nonatomic) _Bool hasStatus;
 @property(retain, nonatomic) NSMutableArray *records; // @synthesize records=_records;
-@property(nonatomic) int status; // @synthesize status=_status;
 
 @end
 

@@ -10,18 +10,17 @@ __attribute__((visibility("hidden")))
 @interface ModelKeyServerAPIRawKey
 {
     NSData *_encryptionIv;
-    NSData *_encryptionKey;
 }
 
-- (void);
+- (void)writeDeserializedMTLBVHKernel;
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)ution returned false!;
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -31,9 +30,6 @@ __attribute__((visibility("hidden")))
 - (void)exists.;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *encryptionIv; // @synthesize encryptionIv=_encryptionIv;
-@property(retain, nonatomic) NSData *encryptionKey; // @synthesize encryptionKey=_encryptionKey;
-@property(readonly, nonatomic) _Bool hasEncryptionIv;
 @property(readonly, nonatomic) _Bool hasEncryptionKey;
 
 @end

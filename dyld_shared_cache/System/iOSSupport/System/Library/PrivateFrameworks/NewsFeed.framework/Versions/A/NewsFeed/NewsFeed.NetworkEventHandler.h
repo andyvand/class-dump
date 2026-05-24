@@ -7,7 +7,6 @@
 @interface NewsFeed.NetworkEventHandler
 {
     id networkBehaviorMonitor;
-    id networkEventType;
 }
 
 @end

@@ -9,9 +9,6 @@
 @interface BMNamedHandle
 {
     NSString *_name;
-    NSString *_handleType;
-    NSString *_handle;
-    NSString *_contactIdentifier;
 }
 
 + (id);
@@ -32,7 +29,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeffffffffffffffffffffffffffffffffffggghiiijkkkkkkkkkkll.mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmnmmmommmm............mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmnmmmmmmmmmmmmmmm..................pppp.ppppppppppppppppppppppppppp.pp.p..p.pppppppppp.pppp.p.p......p....p.p.p.ppp.pp.p..p.p.p.p.p.pp.p..pppp.ppppppp.pppp.pppp.p.pppppppppp.ppppppppppppppppp.....ppp.ppppp.ppppppppppppppppp..................................................................qqqqrqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqssssqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqssssssssssssqqqqqqqqqqqqqqqssqqqqqqqqqqqqqqqsqqqqqqqqqqqqqqrsqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqssssssssss6;
 - (id);
 - (id);
 - (id)keClause":(id)arg1 {;
@@ -40,18 +37,7 @@
 - (id)ÿÚ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *handle; // @synthesize handle=_handle;
-@property(readonly, nonatomic) NSString *handleType; // @synthesize handleType=_handleType;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
 
 @end
 

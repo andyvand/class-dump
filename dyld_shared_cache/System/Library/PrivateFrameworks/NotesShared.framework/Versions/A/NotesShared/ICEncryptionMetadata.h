@@ -4,54 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface ICEncryptionMetadata
 {
     unsigned long long _hash;
-    long long _cipherVersion;
-    NSString *_objectIdentifier;
-    NSData *_passphraseSalt;
-    unsigned long long _passphraseIterationCount;
-    NSString *_passphraseHint;
-    NSString *_accountKeyIdentifier;
-    NSData *_serializedData;
-    NSData *_authenticatedData;
 }
 
++ (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-- (id);
-- (unsigned long long);
-- (id);
++ (id);
+- (id)array;
+- (unsigned long long)addValue:toAttribute:error: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (_Bool);
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id)=;
 - (id);
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
+- (id)t;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void)(;
 - (_Bool)|s;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *accountKeyIdentifier; // @synthesize accountKeyIdentifier=_accountKeyIdentifier;
-@property(readonly, nonatomic) NSData *authenticatedData; // @synthesize authenticatedData=_authenticatedData;
 @property(readonly, nonatomic) long long cipherVersion; // @synthesize cipherVersion=_cipherVersion;
-@property(readonly, nonatomic) NSString *objectIdentifier; // @synthesize objectIdentifier=_objectIdentifier;
-@property(readonly, nonatomic) NSString *passphraseHint; // @synthesize passphraseHint=_passphraseHint;
-@property(readonly, nonatomic) unsigned long long passphraseIterationCount; // @synthesize passphraseIterationCount=_passphraseIterationCount;
-@property(readonly, nonatomic) NSData *passphraseSalt; // @synthesize passphraseSalt=_passphraseSalt;
-@property(readonly, nonatomic) NSData *serializedData; // @synthesize serializedData=_serializedData;
 
 @end
 

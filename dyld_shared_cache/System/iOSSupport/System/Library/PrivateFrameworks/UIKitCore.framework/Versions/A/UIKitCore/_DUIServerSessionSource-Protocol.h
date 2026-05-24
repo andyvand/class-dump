@@ -5,5 +5,8 @@
 //
 
 @protocol _DUIServerSessionSource
+- (oneway void);
+- (oneway void)IMAVControlPlayPauseButton;
+- (oneway void);
 @end
 

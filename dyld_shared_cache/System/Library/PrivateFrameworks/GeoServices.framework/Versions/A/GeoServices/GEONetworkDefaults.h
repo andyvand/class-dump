@@ -4,38 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableArray, NSString, geo_isolater;
 @protocol _GEONetworkDefaultsServerProxy;
 
 @interface GEONetworkDefaults
 {
     id <_GEONetworkDefaultsServerProxy> _serverProxy;
-    NSMutableArray *_completionHandlers;
-    NSDictionary *_networkDefaults;
-    geo_isolater *_networkDefaultsIsolation;
 }
 
 + (id);
 + (void);
 + (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void)_anyField"b1};
-- (id)diskCapacity:(id)arg1 directoryURL: /* Error: Ran out of types for this method. */;
+- (id)initWithMemoryCapacity:(id)arg1 diskCapacity:directoryURL: /* Error: Ran out of types for this method. */;
 - (void)oÀ;
 - (void)°F2;
 - (void)ÿ»6@3;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

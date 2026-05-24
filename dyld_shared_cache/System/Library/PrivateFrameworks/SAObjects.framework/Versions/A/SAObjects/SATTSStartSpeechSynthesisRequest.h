@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseCommand.h>
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface SATTSStartSpeechSynthesisRequest : SABaseCommand
 {
@@ -21,40 +21,23 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)΃;
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
+- (id);
 - (id);
-- (id);
+- (void) ;
 - (void);
-- (void);
-- (void);
+- (void)M;
 - (id);
 - (_Bool);
 - (id);
-- (void)ls:(id)arg1;
+- (void)setQueueDetails:(id)arg1;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceId; // @dynamic aceId;
 @property(copy, nonatomic) NSString *audioType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool enableAudioInfo;
-@property(copy, nonatomic) NSString *gender;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *languageCode;
-@property(copy, nonatomic) NSString *quality;
-@property(copy, nonatomic) NSString *refId; // @dynamic refId;
-@property(copy, nonatomic) NSDictionary *speakableContextInfo;
-@property(nonatomic) _Bool streaming;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *text;
-@property(copy, nonatomic) NSString *voiceName;
 
 @end
 

@@ -8,10 +8,10 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
++ (id)capabilitiesInformationForCurrentDeviceWithOptions:(id)arg1;
++ (id)_simpleAdjustmentData;
++ (id)_shuffleFrequency;
++ (_Bool)_setOperationError: /* Error: Ran out of types for this method. */;
 + (id);
 
 @end

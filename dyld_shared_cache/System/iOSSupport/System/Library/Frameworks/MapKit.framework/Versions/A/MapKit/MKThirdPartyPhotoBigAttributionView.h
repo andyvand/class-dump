@@ -6,14 +6,12 @@
 
 #import <MapKit/MKPhotoBigAttributionView.h>
 
-@class NSString, UIView, _MKUILabel;
+@class _MKUILabel;
 
 __attribute__((visibility("hidden")))
 @interface MKThirdPartyPhotoBigAttributionView : MKPhotoBigAttributionView
 {
     _MKUILabel *_firstLineLabel;
-    _MKUILabel *_secondLineLabel;
-    UIView *_labelsView;
 }
 
 - (void);
@@ -24,16 +22,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void)efaultTitleFont;
+- (void)defaultTitleFont;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

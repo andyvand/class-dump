@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIImage, UIView;
+@protocol QLPreviewControllerConforming;
+
 @protocol QLPreviewControllerConformingDelegate
+
+@optional
+- (long long);
+- (void)renderCommandEncoderWithDescriptor:(id <QLPreviewControllerConforming>)arg1;
+- (UIView *)removeFromSuperlayer;
+- (UIImage *)relinquishScene:(id <QLPreviewControllerConforming>)arg1;
+- (struct CGRect)publishedObjectNames;
 @end
 

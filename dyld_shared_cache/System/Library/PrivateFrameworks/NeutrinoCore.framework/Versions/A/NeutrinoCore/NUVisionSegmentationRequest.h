@@ -6,17 +6,12 @@
 
 #import <NeutrinoCore/NURenderRequest.h>
 
-@protocol NUScalePolicy;
-
 @interface NUVisionSegmentationRequest : NURenderRequest
 {
     _Bool _produceConfidenceMap;
-    long long _segmentationType;
-    long long _visionSegmentationPolicy;
-    id <NUScalePolicy> _scalePolicy;
 }
 
-+ (void);
++ (void));
 - (long long);
 - (void);
 - (void);
@@ -24,7 +19,7 @@
 - (void);
 - (long long);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (long long);
 - (void);
@@ -36,10 +31,7 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool produceConfidenceMap; // @synthesize produceConfidenceMap=_produceConfidenceMap;
-@property(retain, nonatomic) id <NUScalePolicy> scalePolicy; // @synthesize scalePolicy=_scalePolicy;
 @property(nonatomic) long long segmentationType; // @synthesize segmentationType=_segmentationType;
-@property(nonatomic) long long visionSegmentationPolicy; // @synthesize visionSegmentationPolicy=_visionSegmentationPolicy;
 
 @end
 

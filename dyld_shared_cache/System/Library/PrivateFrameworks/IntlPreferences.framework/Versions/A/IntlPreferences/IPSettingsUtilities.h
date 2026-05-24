@@ -8,15 +8,15 @@
 {
 }
 
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
++ (void)olorSpace:(CDUnknownBlockType)arg1 destinationTexture:renderContext: /* Error: Ran out of types for this method. */;
++ (void)captureDeviceOutputConsumerSource;
++ (void)captureDevice;
++ (void)caAnimation;
++ (void)c3dTimingFunction;
++ (void)c3dAnimation;
++ (void)bezierPathWithOvalInRect:(_Bool)arg1;
++ (void)audioFile;
++ (void)_vertexDescriptorHash;
 + (void);
 + (void);
 

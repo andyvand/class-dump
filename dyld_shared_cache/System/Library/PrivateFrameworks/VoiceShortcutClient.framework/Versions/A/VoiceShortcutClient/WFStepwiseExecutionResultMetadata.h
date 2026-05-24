@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LNAttribution, LNUndoContext, NSData;
+@class LNUndoContext;
 
 @interface WFStepwiseExecutionResultMetadata
 {
     _Bool _didRunOpensIntent;
-    LNUndoContext *_undoContext;
-    LNAttribution *_attribution;
-    NSData *_executionMetricData;
 }
 
 + (_Bool);
 - (void);
 - (id);
-- (id);
+- (id){;
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -29,9 +26,6 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) LNAttribution *attribution; // @synthesize attribution=_attribution;
-@property(readonly, nonatomic) _Bool didRunOpensIntent; // @synthesize didRunOpensIntent=_didRunOpensIntent;
-@property(retain, nonatomic) NSData *executionMetricData; // @synthesize executionMetricData=_executionMetricData;
 @property(retain, nonatomic) LNUndoContext *undoContext; // @synthesize undoContext=_undoContext;
 
 @end

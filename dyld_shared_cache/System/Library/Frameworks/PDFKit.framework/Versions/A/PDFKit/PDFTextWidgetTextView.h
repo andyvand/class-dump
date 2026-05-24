@@ -10,9 +10,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
-- (id);
-- (id);
+- (void)otifying client of added media system:(id)arg1 %@ private delegate:(CDUnknownBlockType)arg2 %@;
+- (id)PolishedBrass;
+- (id)homeUUID;
 - (id);
 
 @end

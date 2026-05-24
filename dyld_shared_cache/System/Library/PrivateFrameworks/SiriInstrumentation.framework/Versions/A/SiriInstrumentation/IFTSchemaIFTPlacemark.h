@@ -6,34 +6,29 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface IFTSchemaIFTPlacemark : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)t;
 - (id);
 - (id)!DùQàÐ1Â0@ù
 × ;
 - (id)suppressMessage;
-- (id)RContextualEntityCollectionTriggered;
+- (id)ASRSchemaASRContextualEntityCollectionTriggered;
 - (_Bool);
 - (_Bool)¶ÿò­âÆ%;
 - (void)(*;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

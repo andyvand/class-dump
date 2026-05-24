@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSDictionary;
 
 @interface AMSDefaults
 {
@@ -12,86 +12,86 @@
 
 + (_Bool);
 + (id);
-+ (long long);
++ (long long);
 + (void);
 + (_Bool);
 + (_Bool);
 + (void);
 + (long long);
-+ (long long);
++ (long long);
 + (_Bool);
 + (void);
 + (id);
 + (_Bool);
 + (void);
 + (void);
-+ (void);
-+ (_Bool);
-+ (void);
-+ (long long);
-+ (_Bool);
-+ (id);
-+ (void);
-+ (void);
-+ (void);
-+ (_Bool);
-+ (void);
-+ (id);
-+ (void);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (void);
-+ (_Bool);
-+ (_Bool);
-+ (id);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (long long);
-+ (long long);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (void);
-+ (long long);
-+ (void);
-+ (void);
-+ (_Bool);
-+ (id);
-+ (void);
-+ (void);
-+ (id);
-+ (_Bool);
-+ (void);
-+ (_Bool);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (_Bool);
-+ (_Bool);
-+ (void);
-+ (_Bool);
-+ (_Bool);
-+ (id);
++ (void)fm_nullToNil;
++ (_Bool)decodeDoubleForKey: /* Error: Ran out of types for this method. */;
 + (void);
 + (long long);
 + (_Bool);
++ (id)secureTextFieldViewController;
++ (void)odAddedTrigger;
++ (void);
++ (void):(_Bool)arg1 o:path:/System/Library/PrivateFrameworks/IntlPreferences.framework/IntlPreferences /* Error: Ran out of types for this method. */;
++ (_Bool);
++ (void)4@"NSArray"28@"NSArray"36q44;
++ (id)__im_attributedStringByReplacingRichCardGUID:withUpdatedTransferGUID: /* Error: Ran out of types for this method. */;
++ (void)__imArrayByApplyingBlock:(id)arg1;
++ (id);
++ (id);
 + (_Bool);
 + (void);
 + (_Bool);
 + (_Bool);
-+ (void);
-+ (void);
-+ (void);
++ (id)image source from %@ to extract embedded JPEG;
++ (void)ntDetails>Account userName %@ | Account qualifiedUserName %@ <EndAccountDetails>;
 + (void);
 + (void);
 + (void);
 + (long long);
++ (long long)K;
++ (id);
++ (id);
++ (_Bool);
++ (id);
++ (void);
++ (long long);
++ (void);
++ (void);
++ (_Bool);
++ (id);
++ (void);
++ (void);
++ (id);
++ (_Bool);
++ (void);
++ (_Bool);
++ (void);
++ (void);
++ (void);
++ (void)L;
++ (void)C;
++ (_Bool);
++ (_Bool);
++ (void);
++ (_Bool);
++ (_Bool);
++ (id);
++ (void);
++ (long long)"16;
++ (_Bool);
++ (_Bool)shouldDisableServerFallbackDomain;
++ (void)setResultType:(id)arg1;
++ (_Bool)notifyState;
++ (_Bool)adjustByMultiplier:adding: /* Error: Ran out of types for this method. */;
++ (void)ostObserver:(id)arg1 %p).;
++ (void)n = %@, userClassified = %@, userIdentityClassification = %@, lowScoreThreshold = %@, highScoreThreshold = %@, confidentScoreThreshold = %@, deltaScoreThreshold = %@, hasSufficientAudioProcessed = %@};
++ (void)ces.daemon.speech-request.creation;
++ (void);
++ (void);
++ (void);
++ (long long);
 + (_Bool);
 + (void);
 + (id);
@@ -113,17 +113,25 @@
 + (id);
 + (_Bool);
 + (void);
++ (_Bool)alternativeFormatsType;
++ (void)vOutputDeviceIdentifier:(id)arg1 %@;
 + (_Bool);
-+ (void);
-+ (_Bool);
++ (id)LoadDate=     %@ (%lf seconds ago)
+   updateDate=         %@ (%lf seconds ago)
+   invalidationDate=   %@ (%lf seconds ago)
+   lastErrorDate=      %@ (%lf seconds ago)
+   lastError=          %@
+   impl=               %@
+   response=           %@
+}>
+;
++ (void)ying application.;
++ (void):(long long)arg1 completion:] /* Error: Ran out of types for this method. */;
++ (void)kMRMediaRemoteOptionSenderID;
++ (void)_MRMediaRemotePlaybackDidTimeoutNotification;
 + (id);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
 + (id);
-+ (id);
-+ (id);
++ (id)r;
 + (void);
 + (_Bool);
 + (void);
@@ -143,27 +151,27 @@
 + (_Bool);
 + (void);
 + (void);
++ (_Bool);
++ (id);
++ (void);
++ (void);
 + (_Bool);
++ (_Bool);
++ (void);
++ (void);
++ (void)b;
++ (void);
 + (id);
-+ (void);
-+ (void);
-+ (_Bool);
 + (_Bool);
 + (void);
 + (void);
 + (void);
-+ (void);
-+ (id);
-+ (_Bool);
-+ (void);
-+ (void);
-+ (void);
-+ (_Bool);
++ (_Bool);
 + (void);
 + (long long);
 + (_Bool);
 + (void);
-+ (_Bool);
++ (_Bool);
 + (id);
 + (void);
 + (_Bool)× ;
@@ -171,7 +179,7 @@
 × ;
 + (void)§&ð1Â0@ù
 × ;
-+ (_Bool)PlatformVersion;
++ (_Bool)targetPlatformVersion;
 + (id)_performAuthenticationWithInitialResultsAndAccount: /* Error: Ran out of types for this method. */;
 + (void);
 + (void);
@@ -214,7 +222,7 @@ WíJØ*HaÅrãn$Ö%mêï°³<¹tü·vlgðÔÈJÔoJ¾qDÛóv�
 + (_Bool)Mp;
 + (id);
 + (id)õÍlM@S³ÿõÍlMøÑ¦ÿõÍlMÈ¬ÿ;
-+ (void)pecifier;
++ (void)AccountSpecifier;
 + (id);
 + (void);
 + (_Bool)mMH¬ÿ;
@@ -242,11 +250,7 @@ WíJØ*HaÅrãn$Ö%mêï°³<¹tü·vlgðÔÈJÔoJ¾qDÛóv�
 - (id);
 
 // Remaining properties
-@property _Bool autoSyncDisabledForAccountData;
-@property _Bool autoSyncDisabledForTSDataSync;
-@property(retain) NSDictionary *campaignAttributionCohortParams;
 @property(retain) NSDictionary *mediaRestrictionsAccountData;
-@property(retain) NSArray *onStartupURLsForDeletion;
 
 @end
 

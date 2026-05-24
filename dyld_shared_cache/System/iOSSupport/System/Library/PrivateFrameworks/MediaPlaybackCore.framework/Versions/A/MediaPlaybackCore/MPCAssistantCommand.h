@@ -8,16 +8,16 @@
 {
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)retainCount;
+- (void)removeCredentialForAccount:(id)arg1 clientID:(id)arg2 error:(CDUnknownBlockType)arg3;
+- (void)performSelector:(id)arg1 withObject:(id)arg2 withObject:(id)arg3;
+- (void)performSelector:(id)arg1;
+- (void)hash;
+- (void)countByEnumeratingWithState:(id)arg1 objects:(id)arg2 count:(CDUnknownBlockType)arg3;
+- (void)canSaveAccount:(id)arg1 inStore:(id)arg2;
+- (void)autorelease;
+- (void)account:(unsigned int)arg1 didPerformActionsForDataclasses:(id)arg2;
+- (void)_appleIDAuthenticationAccountsMatchingAppleAccount:(unsigned int)arg1 inStore:(id)arg2;
 - (void);
 
 @end

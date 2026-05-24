@@ -16,9 +16,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *address; // @dynamic address;
 @property(retain, nonatomic) NSString *addressNormalized; // @dynamic addressNormalized;
-@property(retain, nonatomic) NSString *primitiveAddress; // @dynamic primitiveAddress;
 
 @end
 

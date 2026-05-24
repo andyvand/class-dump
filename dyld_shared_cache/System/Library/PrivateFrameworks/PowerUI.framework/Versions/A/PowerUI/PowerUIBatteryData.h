@@ -9,8 +9,6 @@
 @interface PowerUIBatteryData
 {
     NSMutableDictionary *_dateToWeekdayMedian;
-    NSMutableDictionary *_dateToWeekendMedian;
-    NSMutableDictionary *_yesterdayReference;
 }
 
 + (id);
@@ -20,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -29,8 +27,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *dateToWeekdayMedian; // @synthesize dateToWeekdayMedian=_dateToWeekdayMedian;
-@property(retain, nonatomic) NSMutableDictionary *dateToWeekendMedian; // @synthesize dateToWeekendMedian=_dateToWeekendMedian;
-@property(retain, nonatomic) NSMutableDictionary *yesterdayReference; // @synthesize yesterdayReference=_yesterdayReference;
 
 @end
 

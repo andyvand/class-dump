@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKSyncEngine, CKSyncEngineFetchChangesContext, CKSyncEngineFetchChangesOptions, CKSyncEngineRecordZoneChangeBatch;
+
 @protocol CKSyncEngineDelegate
+- (CKSyncEngineRecordZoneChangeBatch *)nnectionIntervalUpdate] Could not set report
+;
+- (void)set report
+;
+
+@optional
+- (CKSyncEngineFetchChangesOptions *)othSDPDataElement initWithElementValue:(CKSyncEngine *)arg1 ] Error - unrecognized data element type:(CKSyncEngineFetchChangesContext *)arg2 %d.
+;
 @end
 

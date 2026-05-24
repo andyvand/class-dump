@@ -4,49 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUTDeferredTaskQueue, IDSBaseMessage, NSArray, NSMutableArray;
-@protocol FTMessageQueueDelegate;
+@class NSMutableArray;
 
 @interface FTMessageQueue
 {
     NSMutableArray *_queue;
-    NSMutableArray *_addDates;
-    id <FTMessageQueueDelegate> _delegate;
-    CUTDeferredTaskQueue *_timeoutTask;
-    IDSBaseMessage *_currentMessage;
 }
 
 - (void);
 - (void);
+- (_Bool)$;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)pluginForType:(id)arg1;
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (void);
+- (void)_timespanDetermined;
 - (void);
-- (void);
-- (id);
+- (id)y;
 - (id);
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(retain) NSMutableArray *_addDates; // @synthesize _addDates;
 @property(retain) NSMutableArray *_queue; // @synthesize _queue;
-@property(readonly) long long count;
-@property(retain) IDSBaseMessage *currentMessage; // @synthesize currentMessage=_currentMessage;
-@property __weak id <FTMessageQueueDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly) NSArray *messages;
-@property(readonly) IDSBaseMessage *topMessage;
 
 @end
 

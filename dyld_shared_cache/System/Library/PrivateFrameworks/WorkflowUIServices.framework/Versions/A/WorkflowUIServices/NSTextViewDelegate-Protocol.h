@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSUndoManager;
+
 @protocol NSTextViewDelegate
+
+@optional
+- (NSUndoManager *);
+- (NSArray *);
 @end
 

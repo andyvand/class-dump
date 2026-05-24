@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock;
-
 @interface AALoginContextTransientStorage
 {
     _Bool _hasBeenCleared;
-    NSLock *_clearLock;
 }
 
-+ (id);
-- (id);
++ (id)eturned %d;
+- (id)ile.   Error = %ld; Datasize = %ld;
+- (void)nGroupUser removeMemberRecord unable to remove user from _mcxlpadmin group (%ld:(id)arg1 %s);
+- (void)er remove user from _mcxlpadmin;
+- (id)_lpadmin;
+- (id)%s;
+- (void)password when the auth method is set to None;
+- (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void)ageService:didReceiveMessage:fromID:sentToHandleUri: /* Error: Ran out of types for this method. */;
+- (void)messageService:didReceiveMessage:fromID:sentToHandleUri: /* Error: Ran out of types for this method. */;
 
 @end
 

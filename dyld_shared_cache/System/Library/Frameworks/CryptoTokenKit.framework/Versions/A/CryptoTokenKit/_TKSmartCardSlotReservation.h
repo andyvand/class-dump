@@ -10,17 +10,15 @@ __attribute__((visibility("hidden")))
 @interface _TKSmartCardSlotReservation
 {
     _Bool _exclusive;
-    NSNumber *_protocols;
 }
 
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)off_state_id)) == (true);
+- (void)5_9allocatorIcEEEEEEbbE3$_0;
+- (void)red XPC error on synchronous proxy:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property _Bool exclusive; // @synthesize exclusive=_exclusive;
 @property(retain) NSNumber *protocols; // @synthesize protocols=_protocols;
 
 @end

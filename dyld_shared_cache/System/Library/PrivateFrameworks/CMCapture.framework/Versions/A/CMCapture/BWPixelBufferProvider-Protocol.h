@@ -7,17 +7,14 @@
 @class NSString;
 
 @protocol BWPixelBufferProvider
+- (struct __CVBuffer *)maskBlt:in_yDest:in_widthDest:in_heightDest:in_sourceImage:in_xSrc:in_ySrc:in_maskImage:in_xMask:in_yMask:in_rop:in_xform:in_colour: /* Error: Ran out of types for this method. */;
+- (NSString *);
+- (unsigned long long)in Task failed with error:%@ /* Error: Ran out of types for this method. */;
 - (unsigned long long)é;
 - (CDStruct_1ef3fb1f),ÿ,ÿ,ÿ£,ÿ«+ÿ³*ÿ¼)ÿÄ(ÿÌ'ÿÔ&ÿÝ&ÿä&ÿì'ÿñ(ÿñ(ÿ;
 - (unsigned int)h¿;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_1ef3fb1f dimensions;
-@property(readonly, nonatomic) unsigned long long height;
 @property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) unsigned int pixelFormat;
-@property(readonly, nonatomic) unsigned long long sliceCount;
-@property(readonly, nonatomic) _Bool usesMemoryPool;
-@property(readonly, nonatomic) unsigned long long width;
 @end
 

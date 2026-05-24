@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCoreDataCloudShareService, HMDCoreDataCloudTransform, HMDHomeManager, NSString;
+@class HMDCoreDataCloudShareService;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomeOwnerCloudShareManager
 {
     HMDCoreDataCloudShareService *_shareService;
-    HMDCoreDataCloudTransform *_cloudTransform;
-    HMDHomeManager *_homeManager;
-    CDUnknownBlockType _modelSelectionBlock;
 }
 
 + (id)]ÿ;
 - (id);
 - (void);
 - (double);
-- (id);
-- (id);
-- (id);
+- (id)isMemberOfClass:(id)arg1;
+- (id)contactsFromVirtualReceiverHandles:(id)arg1;
+- (id)commandKey;
 - (id);
 - (id);
 - (id);
@@ -30,6 +27,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -38,17 +36,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)ageValueKey;
+- (void)HMDAccessoryMatterAttributeMessageValueKey;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

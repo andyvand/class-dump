@@ -11,11 +11,11 @@
 
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)	;
 - (_Bool);
 - (void);
 - (_Bool);
-- (void)monthlyRecurrenceInterval;
+- (void)_monthlyRecurrenceInterval;
 - (void);
 
 // Remaining properties

@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCAnimationPath, NSObject;
-@protocol MPAnimationSupport;
-
 @interface MPAnimationPath
 {
     _Bool _isTriggered;
-    NSObject<MPAnimationSupport> *_parentObject;
-    MCAnimationPath *_animationPath;
 }
 
 + (id);
 + (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView;
-
 @interface MTMPButton
 {
     unsigned int _holding:1;
-    UIView *_hitTestDebugView;
-    _Bool _hitTestDebugEnabled;
-    double _holdDelayInterval;
-    struct UIEdgeInsets _alignmentRectInsets;
-    struct UIEdgeInsets _hitRectInsets;
 }
 
-+ (double);
++ (double);
 + (struct UIEdgeInsets);
 + (id);
 - (void);
@@ -26,8 +19,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)qualifiedUsername;
+- (void)Sampling excluded page render event for ;
 - (void);
 - (void);
 - (id);
@@ -40,18 +33,14 @@
 - (struct UIEdgeInsets);
 - (void);
 - (void);
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets)__swift5_assocty__TEXT;
 - (void)q&°1Â0@ù
 × ;
-- (_Bool)eed;
+- (_Bool)_playbackSpeed;
 - (void)ñÿ;
 
 // Remaining properties
 @property(nonatomic) struct UIEdgeInsets alignmentRectInsets; // @synthesize alignmentRectInsets=_alignmentRectInsets;
-@property(nonatomic) struct UIEdgeInsets hitRectInsets; // @synthesize hitRectInsets=_hitRectInsets;
-@property(nonatomic) _Bool hitTestDebugEnabled; // @synthesize hitTestDebugEnabled=_hitTestDebugEnabled;
-@property(nonatomic) double holdDelayInterval; // @synthesize holdDelayInterval=_holdDelayInterval;
-@property(readonly, nonatomic, getter=isHolding) _Bool holding;
 
 @end
 

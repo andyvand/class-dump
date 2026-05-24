@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CMArchiveManager, NSString, OCDDocument;
-
 __attribute__((visibility("hidden")))
 @interface CMMapper
 {
     CMMapper *mParent;
-    CMMapper *mRoot;
-    OCDDocument *_document;
-    CMArchiveManager *mArchiver;
-    NSString *_fileName;
 }
 
-- (void);
-- (void);
+- (void)4X;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -30,15 +24,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id)lNode:toGrid:drawingState: /* Error: Ran out of types for this method. */;
+- (id)readGridFromXmlNode:toGrid:drawingState: /* Error: Ran out of types for this method. */;
 - (id)(int, int) [E = EshShape *];
 - (void)¼;
 - (id)\;
 - (id);
 
 // Remaining properties
-@property(readonly) OCDDocument *document;
-@property(retain) NSString *fileName; // @synthesize fileName=_fileName;
 @property(readonly) __weak CMMapper *parent; // @synthesize parent=mParent;
 
 @end

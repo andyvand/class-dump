@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface _BlastDoorRichLinkAttachmentSubstituter
 {
     _Bool _shouldSubstituteAttachments;
-    _Bool _shouldIgnoreAppStoreMetadata;
-    NSMutableArray *_archivedAttachments;
-    NSArray *_attachmentsForUnarchiving;
 }
 
 - (_Bool);
@@ -28,16 +25,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSMutableArray *archivedAttachments; // @synthesize archivedAttachments=_archivedAttachments;
-@property(copy, nonatomic) NSArray *attachmentsForUnarchiving; // @synthesize attachmentsForUnarchiving=_attachmentsForUnarchiving;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool shouldIgnoreAppStoreMetadata; // @synthesize shouldIgnoreAppStoreMetadata=_shouldIgnoreAppStoreMetadata;
-@property(nonatomic) _Bool shouldSubstituteAttachments; // @synthesize shouldSubstituteAttachments=_shouldSubstituteAttachments;
-@property(readonly) Class superclass;
 
 @end
 

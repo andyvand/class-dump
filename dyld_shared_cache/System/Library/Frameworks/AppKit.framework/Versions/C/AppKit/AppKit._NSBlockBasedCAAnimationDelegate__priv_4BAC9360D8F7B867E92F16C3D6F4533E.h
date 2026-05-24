@@ -7,7 +7,6 @@
 @interface AppKit._NSBlockBasedCAAnimationDelegate__priv_4BAC9360D8F7B867E92F16C3D6F4533E
 {
     id animationDidStartHandler;
-    id animationDidStopHandler;
 }
 
 - (id);

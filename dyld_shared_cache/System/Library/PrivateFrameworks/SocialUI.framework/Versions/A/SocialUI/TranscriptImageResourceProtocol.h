@@ -7,7 +7,6 @@
 @interface TranscriptImageResourceProtocol
 {
     int _previousScaleFactor;
-    long long _previousMax;
 }
 
 + (id);
@@ -25,11 +24,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)PREV_WORD;
 - (void);
 
 // Remaining properties
-@property long long previousMax; // @synthesize previousMax=_previousMax;
 @property int previousScaleFactor; // @synthesize previousScaleFactor=_previousScaleFactor;
 
 @end

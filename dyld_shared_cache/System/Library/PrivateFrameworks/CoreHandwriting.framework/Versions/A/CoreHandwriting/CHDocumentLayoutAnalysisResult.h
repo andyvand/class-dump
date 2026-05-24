@@ -9,20 +9,16 @@
 @interface CHDocumentLayoutAnalysisResult
 {
     struct vector<std::vector<float>, std::allocator<std::vector<float>>> _strokeClassificationMatrix;
-    struct vector<std::unordered_map<unsigned long, float>, std::allocator<std::unordered_map<unsigned long, float>>> _sparseAdjacencyMatrix;
-    unsigned long long _hash;
-    NSDictionary *_layoutAnalysisResultsPerTile;
-    NSDictionary *_strokeBoundsPerStrokeIdentifier;
 }
 
 + (void);
-+ (_Bool);
++ (_Bool)_endAlpha;
 - (void *);
 - (void *);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)1JQ;
 - (id);
 - (id);
 - (id);
@@ -30,14 +26,13 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (void)task handler root directory (%@) error:(id)arg1 %@;
 - (id);
 - (id);
 - (void)´1;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *layoutAnalysisResultsPerTile; // @synthesize layoutAnalysisResultsPerTile=_layoutAnalysisResultsPerTile;
-@property(readonly, nonatomic) NSDictionary *strokeBoundsPerStrokeIdentifier; // @synthesize strokeBoundsPerStrokeIdentifier=_strokeBoundsPerStrokeIdentifier;
 
 @end
 

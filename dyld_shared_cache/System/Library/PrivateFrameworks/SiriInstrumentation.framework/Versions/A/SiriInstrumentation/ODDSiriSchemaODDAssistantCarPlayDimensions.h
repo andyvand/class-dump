@@ -6,26 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, ODDSiriSchemaODDAssistantDimensions;
+@class ODDSiriSchemaODDAssistantDimensions;
 
 @interface ODDSiriSchemaODDAssistantCarPlayDimensions : SISchemaInstrumentationMessage
 {
     ODDSiriSchemaODDAssistantDimensions *_assistantDimensions;
-    NSString *_vehicleManufacturer;
-    NSString *_vehicleName;
-    NSString *_vehicleModel;
-    int _enhancedVoiceTriggerMode;
-    int _directAction;
-    int _carPlayConnection;
-    struct {
-        unsigned int enhancedVoiceTriggerMode:1;
-        unsigned int directAction:1;
-        unsigned int carPlayConnection:1;
-    } _has;
-    _Bool _hasAssistantDimensions;
-    _Bool _hasVehicleManufacturer;
-    _Bool _hasVehicleName;
-    _Bool _hasVehicleModel;
 }
 
 - (id);
@@ -47,7 +32,7 @@
 - (_Bool);
 - (int);
 - (void);
-- (void);
+- (void)_#;
 - (void);
 - (void);
 - (void);
@@ -68,30 +53,16 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)!GùÞ°1Â0@ù
 × ;
 - (id)stOneHour;
 - (id)WSchemaFLOWWebAnswerExecution",&,N,V_webAnswerExecution;
-- (void)ETERSUBTYPE_DEFERRED_MESSAGE;
+- (void)JRPARAMETERSUBTYPE_DEFERRED_MESSAGE;
 
 // Remaining properties
 @property(retain, nonatomic) ODDSiriSchemaODDAssistantDimensions *assistantDimensions; // @synthesize assistantDimensions=_assistantDimensions;
-@property(nonatomic) int carPlayConnection; // @synthesize carPlayConnection=_carPlayConnection;
-@property(nonatomic) int directAction; // @synthesize directAction=_directAction;
-@property(nonatomic) int enhancedVoiceTriggerMode; // @synthesize enhancedVoiceTriggerMode=_enhancedVoiceTriggerMode;
-@property(nonatomic) _Bool hasAssistantDimensions; // @synthesize hasAssistantDimensions=_hasAssistantDimensions;
-@property(nonatomic) _Bool hasCarPlayConnection;
-@property(nonatomic) _Bool hasDirectAction;
-@property(nonatomic) _Bool hasEnhancedVoiceTriggerMode;
-@property(nonatomic) _Bool hasVehicleManufacturer; // @synthesize hasVehicleManufacturer=_hasVehicleManufacturer;
-@property(nonatomic) _Bool hasVehicleModel; // @synthesize hasVehicleModel=_hasVehicleModel;
-@property(nonatomic) _Bool hasVehicleName; // @synthesize hasVehicleName=_hasVehicleName;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *vehicleManufacturer; // @synthesize vehicleManufacturer=_vehicleManufacturer;
-@property(copy, nonatomic) NSString *vehicleModel; // @synthesize vehicleModel=_vehicleModel;
-@property(copy, nonatomic) NSString *vehicleName; // @synthesize vehicleName=_vehicleName;
 
 @end
 

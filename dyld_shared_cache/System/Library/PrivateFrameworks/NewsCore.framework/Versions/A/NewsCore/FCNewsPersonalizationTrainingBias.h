@@ -9,32 +9,25 @@
 @interface FCNewsPersonalizationTrainingBias
 {
     double _bias;
-    NSString *_eventType;
-    NSString *_feedType;
-    NSString *_groupType;
 }
 
 + (id);
 - (id);
-- (id);
+- (id);
+- (void)setEffectView:(id)arg1;
 - (void);
-- (void);
-- (void);
+- (void)serAccountsStep transferUserAccounts];
 - (id);
 - (double);
 - (id);
 - (id)!<Eùq(	1Â0@ù
 × ;
-- (void)PuzzleItems:(id)arg1 removedPuzzleItems: /* Error: Ran out of types for this method. */;
+- (void)puzzleHistory:(id)arg1 didAddPuzzleItems:modifiedPuzzleItems:removedPuzzleItems: /* Error: Ran out of types for this method. */;
 - (void)figurationOperation.m;
 - (id)h;
 
 // Remaining properties
-@property(nonatomic) double bias; // @synthesize bias=_bias;
 @property(retain, nonatomic) NSString *eventType; // @synthesize eventType=_eventType;
-@property(retain, nonatomic) NSString *feedType; // @synthesize feedType=_feedType;
-@property(retain, nonatomic) NSString *groupType; // @synthesize groupType=_groupType;
-@property(readonly, nonatomic) NSString *identifier;
 
 @end
 

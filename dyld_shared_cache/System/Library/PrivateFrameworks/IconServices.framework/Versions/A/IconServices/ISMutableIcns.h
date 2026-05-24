@@ -6,35 +6,29 @@
 
 #import <IconServices/ISIcns.h>
 
-@class NSDictionary, NSString;
-
 @interface ISMutableIcns : ISIcns
 {
 }
 
-+ (struct CGImage *);
-+ (int);
++ (struct CGImage *)createElement:(struct CGImage *)arg1;
++ (int)_supportedMLResults;
 - (short);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (_Bool);
+- (void)1E1;
+- (_Bool)*;
 - (void);
 - (id);
-- (id);
+- (id)IOHIDALSTestMode;
 - (id);
 
 // Remaining properties
-@property(copy) NSString *name; // @dynamic name;
-@property(retain) ISIcns *selectedVariant; // @dynamic selectedVariant;
-@property(retain) ISIcns *templateVariant; // @dynamic templateVariant;
 @property unsigned int type; // @dynamic type;
-@property(retain) NSDictionary *userInfo; // @dynamic userInfo;
 
 @end
 

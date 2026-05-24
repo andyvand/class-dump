@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property(retain, nonatomic) PGPetWallpaperSuggesterFilteringContext *primaryFilteringContext;
-@property(retain, nonatomic) PGPetWallpaperSuggesterFilteringContext *secondaryFilteringContext;
 @end
 

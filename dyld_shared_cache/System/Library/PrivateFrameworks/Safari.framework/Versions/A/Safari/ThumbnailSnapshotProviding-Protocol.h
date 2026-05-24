@@ -10,8 +10,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSView *thumbnailContentView;
-@property(readonly, nonatomic) long long thumbnailContentViewType;
-@property(readonly, nonatomic) struct CGRect thumbnailContentViewVisibleBounds;
-@property(readonly, nonatomic) _Bool thumbnailContentViewWasShownInWindow;
 @end
 

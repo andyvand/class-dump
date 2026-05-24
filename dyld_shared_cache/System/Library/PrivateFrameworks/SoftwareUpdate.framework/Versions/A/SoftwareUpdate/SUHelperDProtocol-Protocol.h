@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol SUHelperDProtocol
+- (_Bool);
+- (_Bool)1<Z;
+- (NSString *)/ă;
+- (_Bool);
 @end
 

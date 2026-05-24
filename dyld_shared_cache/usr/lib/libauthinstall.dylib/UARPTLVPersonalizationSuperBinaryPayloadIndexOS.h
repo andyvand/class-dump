@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     unsigned int _payloadIndex;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 + (unsigned int);
@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (id);
 - (id);
-- (id);
+- (id)stretchLimit;
 
 // Remaining properties
 @property(readonly) unsigned int payloadIndex; // @synthesize payloadIndex=_payloadIndex;

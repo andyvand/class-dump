@@ -6,33 +6,31 @@
 
 #import <OfficeImport/PDSlideBase.h>
 
-@class OADColorMap, OADTextListStyle, OADTheme;
+@class OADTheme;
 
 __attribute__((visibility("hidden")))
 @interface PDNotesMaster : PDSlideBase
 {
     OADTheme *mTheme;
-    OADColorMap *mColorMap;
-    OADTextListStyle *mNotesTextStyle;
 }
 
 - (id);
 - (void);
 - (void);
+- (id)q;
+- (id)p;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)P;
 - (id);
 - (void);
 - (id);
+- (id)_attributedStringFromAttributedString:strikethrough: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void)ÿÿ: /* Error: Ran out of types for this method. */;
 - (id);

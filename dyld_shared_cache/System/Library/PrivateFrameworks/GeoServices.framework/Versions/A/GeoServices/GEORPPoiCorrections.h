@@ -4,55 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORPAddressCorrections, GEORPAmenityCorrections, GEORPCategoryCorrections, GEORPPlaceContainmentCorrections, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPPoiCorrections
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEORPAddressCorrections *_address;
-    GEORPAmenityCorrections *_amenity;
-    NSMutableArray *_businessHours;
-    GEORPCategoryCorrections *_category;
-    GEORPPlaceContainmentCorrections *_containmentCorrections;
-    NSString *_hoursText;
-    NSString *_name;
-    NSString *_originalName;
-    NSString *_originalPhone;
-    NSString *_originalUrl;
-    NSString *_phone;
-    NSString *_url;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _flagBadCuratedCollectionDescription;
-    _Bool _flagBrokenCuratedCollectionUrl;
-    _Bool _flagHoursIncorrect;
-    _Bool _flagNotAtThisAddress;
-    struct {
-        unsigned int has_flagBadCuratedCollectionDescription:1;
-        unsigned int has_flagBrokenCuratedCollectionUrl:1;
-        unsigned int has_flagHoursIncorrect:1;
-        unsigned int has_flagNotAtThisAddress:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_address:1;
-        unsigned int read_amenity:1;
-        unsigned int read_businessHours:1;
-        unsigned int read_category:1;
-        unsigned int read_containmentCorrections:1;
-        unsigned int read_hoursText:1;
-        unsigned int read_name:1;
-        unsigned int read_originalName:1;
-        unsigned int read_originalPhone:1;
-        unsigned int read_originalUrl:1;
-        unsigned int read_phone:1;
-        unsigned int read_url:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)ayoutTemplatePairs:(id)arg1;
++ (_Bool)setLayoutTemplatePairs:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -61,18 +21,18 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)writeWithoutEntitlement;
+- (void)writePropertyList:(_Bool)arg1 toStream:format:options:error: /* Error: Ran out of types for this method. */;
+- (void)writeByPreFall2022App;
+- (void)setDateComponents:(id)arg1;
+- (void)nts_persistentStoreForUrl:(id)arg1 inCoordinator: /* Error: Ran out of types for this method. */;
+- (id)ock;
+- (id)moveAsideDatabaseAtPath:reason: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -100,67 +60,36 @@
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)4@?32;
+- (id)supportRemoteDarwinVoiceTrigger;
+- (void)SSVCASignalToSigmoidNoiseVOffset;
+- (id)tor selfTriggerDetector:didDetectSelfTrigger:] /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)ckingInsets,V_annotationTrackingInsets;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)`;
 - (id);
 - (void);
 - (id)ad_appIdentifier"b1"read_appMajorVersion"b1"read_appMinorVersion"b1"read_hardwareClass"b1"read_hardwareModel"b1"read_loggedAbExperiment"b1"read_osVersion"b1"read_productName"b1"read_requestTime"b1"read_serviceTags"b1"wrote_anyField"b1};
 - (id)GEOMapItemDetourInfo"16@0:8 /* Error: Ran out of types for this method. */;
-- (_Bool)ionsAsString: /* Error: Ran out of types for this method. */;
-- (id)OriginalMuids;
+- (_Bool)subactionsAsString: /* Error: Ran out of types for this method. */;
+- (id)clearOriginalMuids;
 - (id)`8;
 - (void)cationHistory - timestamp exceeded INT32_MAX=%d;
-- (id)I_NETWORK_TYPE_RESERVED_5;
+- (id)WIFI_NETWORK_TYPE_RESERVED_5;
 - (void)(X;
 - (id);
 - (id)p÷P@;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) GEORPAddressCorrections *address;
-@property(retain, nonatomic) GEORPAmenityCorrections *amenity;
-@property(retain, nonatomic) NSMutableArray *businessHours;
-@property(retain, nonatomic) GEORPCategoryCorrections *category;
-@property(retain, nonatomic) GEORPPlaceContainmentCorrections *containmentCorrections;
-@property(nonatomic) _Bool flagBadCuratedCollectionDescription;
-@property(nonatomic) _Bool flagBrokenCuratedCollectionUrl;
-@property(nonatomic) _Bool flagHoursIncorrect;
-@property(nonatomic) _Bool flagNotAtThisAddress;
-@property(readonly, nonatomic) _Bool hasAddress;
-@property(readonly, nonatomic) _Bool hasAmenity;
-@property(readonly, nonatomic) _Bool hasCategory;
-@property(readonly, nonatomic) _Bool hasContainmentCorrections;
-@property(nonatomic) _Bool hasFlagBadCuratedCollectionDescription;
-@property(nonatomic) _Bool hasFlagBrokenCuratedCollectionUrl;
-@property(nonatomic) _Bool hasFlagHoursIncorrect;
-@property(nonatomic) _Bool hasFlagNotAtThisAddress;
-@property(readonly, nonatomic) _Bool hasHoursText;
 @property(readonly, nonatomic) _Bool hasName;
-@property(readonly, nonatomic) _Bool hasOriginalName;
-@property(readonly, nonatomic) _Bool hasOriginalPhone;
-@property(readonly, nonatomic) _Bool hasOriginalUrl;
-@property(readonly, nonatomic) _Bool hasPhone;
-@property(readonly, nonatomic) _Bool hasUrl;
-@property(retain, nonatomic) NSString *hoursText;
-@property(retain, nonatomic) NSString *name;
-@property(retain, nonatomic) NSString *originalName;
-@property(retain, nonatomic) NSString *originalPhone;
-@property(retain, nonatomic) NSString *originalUrl;
-@property(retain, nonatomic) NSString *phone;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) NSString *url;
 
 @end
 

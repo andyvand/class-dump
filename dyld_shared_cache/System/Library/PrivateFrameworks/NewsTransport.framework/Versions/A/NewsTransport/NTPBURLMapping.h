@@ -11,7 +11,7 @@
     NSMutableArray *_domains;
 }
 
-+ (Class);
++ (Class)_primaryDividerScale;
 - (void);
 - (id);
 - (unsigned long long);
@@ -19,9 +19,9 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)0:8d16@24@?32 /* Error: Ran out of types for this method. */;
+- (_Bool)oup %@ under "%@";
+- (_Bool)putConfiguration from configuration %{public}@;
 - (id);
 - (id);
 - (id);

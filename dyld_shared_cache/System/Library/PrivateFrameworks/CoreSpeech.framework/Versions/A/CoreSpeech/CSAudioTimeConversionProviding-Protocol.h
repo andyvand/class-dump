@@ -5,5 +5,6 @@
 //
 
 @protocol CSAudioTimeConversionProviding
+- (unsigned long long);
 @end
 

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, PHPhotoLibrary;
+@class PHPhotoLibrary;
 
 @interface PGHighlightItemModelManager
 {
     PHPhotoLibrary *_library;
-    NSMutableDictionary *_visibilityStatePrivateByHighlighItemUUID;
-    NSMutableDictionary *_visibilityStateSharedByHighlighItemUUID;
-    NSMutableDictionary *_visibilityStateMixedByHighlighItemUUID;
-    NSMutableDictionary *_contextualKeyAssetPrivateByHighlighItemUUID;
-    NSMutableDictionary *_contextualKeyAssetSharedByHighlighItemUUID;
-    NSMutableDictionary *_contextualKeyAssetMixedByHighlighItemUUID;
 }
 
 - (id);
@@ -24,9 +18,9 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)LibCall_ACMGlobalContextVerifyPolicyEx;
+- (id)LibCall_ACMSecContextVerifyPolicyAndCopyRequirementEx;
+- (id)peech.description.pause;
 - (id);
 - (id);
 - (id);
@@ -43,20 +37,7 @@
 - (id)ype%@%lu;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *contextualKeyAssetMixedByHighlighItemUUID; // @synthesize contextualKeyAssetMixedByHighlighItemUUID=_contextualKeyAssetMixedByHighlighItemUUID;
-@property(readonly, nonatomic) NSMutableDictionary *contextualKeyAssetPrivateByHighlighItemUUID; // @synthesize contextualKeyAssetPrivateByHighlighItemUUID=_contextualKeyAssetPrivateByHighlighItemUUID;
-@property(readonly, nonatomic) NSMutableDictionary *contextualKeyAssetSharedByHighlighItemUUID; // @synthesize contextualKeyAssetSharedByHighlighItemUUID=_contextualKeyAssetSharedByHighlighItemUUID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) PHPhotoLibrary *library; // @synthesize library=_library;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSMutableDictionary *visibilityStateMixedByHighlighItemUUID; // @synthesize visibilityStateMixedByHighlighItemUUID=_visibilityStateMixedByHighlighItemUUID;
-@property(readonly, nonatomic) NSMutableDictionary *visibilityStatePrivateByHighlighItemUUID; // @synthesize visibilityStatePrivateByHighlighItemUUID=_visibilityStatePrivateByHighlighItemUUID;
-@property(readonly, nonatomic) NSMutableDictionary *visibilityStateSharedByHighlighItemUUID; // @synthesize visibilityStateSharedByHighlighItemUUID=_visibilityStateSharedByHighlighItemUUID;
 
 @end
 

@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface EDRowBlock
 {
     struct __CFData *mPackedData;
-    struct __CFData *mCellOffsets;
 }
 
 + (id);
@@ -21,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int)9	kB#;
 - (void);
 - (unsigned int);
 - (unsigned int);
@@ -29,22 +28,18 @@ __attribute__((visibility("hidden")))
 - (struct EDCellHeader *);
 - (struct EDCellHeader *);
 - (void);
-- (struct EDRowInfo *);
+- (struct EDRowInfo *)H;
 - (struct EDCellHeader *);
 - (struct EDRowInfo *);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)on has been acquired;
 - (unsigned int);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int firstRowNumber;
-@property(readonly, nonatomic) unsigned int lastRowNumber;
-@property(readonly, nonatomic) unsigned int maxRowNumber;
-@property(readonly, nonatomic) unsigned int minRowNumber;
 @property(readonly, nonatomic) unsigned int rowCount;
 
 @end

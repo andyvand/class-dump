@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INDefaultCardTemplate, INImage, INShortcut, NSArray, NSString;
+@class INImage, NSArray;
 
 @interface INRelevantShortcut
 {
     NSArray *_relevanceProviders;
-    INDefaultCardTemplate *_watchTemplate;
-    NSString *_widgetKind;
-    long long _shortcutRole;
-    INShortcut *_shortcut;
 }
 
 + (_Bool);
-- (long long);
+- (long long))b;
 - (void);
 - (void);
 - (void);
@@ -24,32 +20,20 @@
 - (id);
 - (id);
 - (id);
+- (id)eventForceValueField;
 - (id);
 - (id);
+- (void)ds, %lld secs;
 - (id);
 - (void);
-- (id);
-- (void);
-- (id)sKey;
-- (long long)deConditionalObject:(id)arg1 forKey:(id)arg2;
-- (void)yload;
-- (void)lectionForSearchForNotebookItems:withCompletion: /* Error: Ran out of types for this method. */;
-- (void)deDefrosterOptionsCollectionForSetDefrosterSettingsInCar:(id)arg1 searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (id)_attributesKey;
+- (long long)encodeConditionalObject:(id)arg1 forKey:(id)arg2;
+- (void)payload;
+- (void)provideContentOptionsCollectionForSearchForNotebookItems:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideDefrosterOptionsCollectionForSetDefrosterSettingsInCar:(id)arg1 searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) INImage *_keyImage;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSArray *relevanceProviders; // @synthesize relevanceProviders=_relevanceProviders;
-@property(copy) INShortcut *shortcut; // @synthesize shortcut=_shortcut;
-@property long long shortcutRole; // @synthesize shortcutRole=_shortcutRole;
-@property(readonly) Class superclass;
-@property(copy) INDefaultCardTemplate *watchTemplate; // @synthesize watchTemplate=_watchTemplate;
-@property(copy) NSString *widgetKind; // @synthesize widgetKind=_widgetKind;
 
 @end
 

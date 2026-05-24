@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _NSCFURLProtocol : NSURLProtocol
 {
     struct _CFURLProtocol *_prot;
-    struct NSCFURLProtocolClient *_client;
 }
 
 + (id);
@@ -18,10 +17,10 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (const struct InternalProtocolImplementation *);
 + (_Bool);
-+ (id);
++ (id)*;
 - (id);
-- (void);
-- (void);
+- (void)};
+- (void)cmonospace;
 - (void);
 
 @end

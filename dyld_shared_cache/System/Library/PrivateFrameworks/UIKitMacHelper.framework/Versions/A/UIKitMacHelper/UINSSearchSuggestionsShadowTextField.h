@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)argingPredictor",&,N,V_pluggedInPredictor;
+- (_Bool),&,N,V_checkpointKP;
 
 // Remaining properties
 @property(nonatomic) _Bool isFirstResponderOverrideValue; // @synthesize isFirstResponderOverrideValue=_isFirstResponderOverrideValue;

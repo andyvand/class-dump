@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray;
+@class NSMutableArray;
 
 @interface CKDPZoneRetrieveResponse
 {
     NSMutableArray *_anonymousZoneInfos;
-    NSData *_continuationMarker;
-    NSMutableArray *_zoneSummarys;
 }
 
 + (Class);
@@ -25,15 +23,18 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (unsigned long long);
+- (id)lback with error:(unsigned long long)arg1 %#m
+;
+- (unsigned long long)pertyKey:'%@' 
+ /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (id);
+- (void)@preferred:(id)arg1 %@ trafficSwitch:%@ /* Error: Ran out of types for this method. */;
+- (id)mptom:q->sq_len %zdd >= cf->cf_queue_len_alert %d ALERT
+ /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)time_to_redonation_p50;
 - (void);
 - (void);
 - (id);
@@ -42,9 +43,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *anonymousZoneInfos; // @synthesize anonymousZoneInfos=_anonymousZoneInfos;
-@property(retain, nonatomic) NSData *continuationMarker; // @synthesize continuationMarker=_continuationMarker;
-@property(readonly, nonatomic) _Bool hasContinuationMarker;
 @property(retain, nonatomic) NSMutableArray *zoneSummarys; // @synthesize zoneSummarys=_zoneSummarys;
 
 @end

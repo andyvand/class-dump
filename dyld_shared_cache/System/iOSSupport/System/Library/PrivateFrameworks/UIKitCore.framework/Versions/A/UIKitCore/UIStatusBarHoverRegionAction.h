@@ -8,8 +8,8 @@
 {
 }
 
-- (id);
-- (id);
+- (id)P;
+- (id)sing mapping for MPModelRelationshipPlayEventNestedPlayEvent;
 - (long long);
 - (long long)µÛü/h;
 

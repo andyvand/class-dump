@@ -11,8 +11,6 @@
 @interface CoreDAVICloudQuotaItem : CoreDAVItem
 {
     CoreDAVLeafItem *_resourceBytes;
-    CoreDAVLeafItem *_resourceCount;
-    CoreDAVLeafItem *_otherBytes;
 }
 
 + (id);
@@ -22,13 +20,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_updateDatePickerTouchBar;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CoreDAVLeafItem *otherBytes; // @synthesize otherBytes=_otherBytes;
 @property(retain, nonatomic) CoreDAVLeafItem *resourceBytes; // @synthesize resourceBytes=_resourceBytes;
-@property(retain, nonatomic) CoreDAVLeafItem *resourceCount; // @synthesize resourceCount=_resourceCount;
 
 @end
 

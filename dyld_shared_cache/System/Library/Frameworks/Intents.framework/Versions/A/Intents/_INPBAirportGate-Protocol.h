@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBAirport;
+@class _INPBAirport;
 
 @protocol _INPBAirportGate
 
 // Remaining properties
 @property(retain, nonatomic) _INPBAirport *airport;
-@property(copy, nonatomic) NSString *gate;
-@property(readonly, nonatomic) _Bool hasAirport;
-@property(readonly, nonatomic) _Bool hasGate;
-@property(readonly, nonatomic) _Bool hasTerminal;
-@property(copy, nonatomic) NSString *terminal;
 @end
 

@@ -5,6 +5,7 @@
 //
 
 @protocol AVAudioHardwareControlling
+- (unsigned int)v2AuthenticationProtocol",&,V_authenticationProtocol;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int hardwareControlToken;

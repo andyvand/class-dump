@@ -4,35 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHSScreenshotPresentationAttributes, NSFileManager, NSString, NSURL;
+@class NSURL;
 
 @interface CHSSnapshotContext
 {
     _Bool _usesCAPackage;
-    _Bool _checkedContentType;
-    _Bool _fileExists;
-    _Bool _checkedFileExists;
-    CHSScreenshotPresentationAttributes *_attributes;
-    NSFileManager *_fileManager;
-    struct os_unfair_lock_s _fileManagerLock;
-    NSURL *_url;
 }
 
 - (id);
-- (id);
+- (id)T;
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)_presentEDPRecoveryTokenWindowWithCompletionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) CHSScreenshotPresentationAttributes *attributes; // @synthesize attributes=_attributes;
-@property(readonly, nonatomic) NSString *contentIdentifier;
-@property(readonly, nonatomic) _Bool fileExists;
-@property(readonly, nonatomic) _Bool needsCAPackage;
-@property(readonly, nonatomic) NSString *typeIdentifier;
 @property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

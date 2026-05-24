@@ -7,6 +7,7 @@
 @interface CookingKit.ClosureTapGestureRecognizer__priv_371E4750EAD71236DF383F3B5E5C07E1
 {
     id action;
+    id;
 }
 
 - (void);

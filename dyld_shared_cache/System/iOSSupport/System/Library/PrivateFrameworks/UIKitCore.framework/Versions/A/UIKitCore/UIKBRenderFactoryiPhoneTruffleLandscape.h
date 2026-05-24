@@ -13,16 +13,16 @@ __attribute__((visibility("hidden")))
 
 - (struct CGPoint);
 - (double);
-- (struct CGPoint);
-- (struct CGPoint);
-- (struct CGPoint);
-- (struct CGPoint);
-- (struct UIEdgeInsets);
-- (struct UIEdgeInsets);
-- (double);
-- (struct CGPoint);
-- (struct CGPoint);
-- (struct CGPoint);
+- (struct CGPoint)taking %@ over %@;
+- (struct CGPoint)ats that need update after contacts changed notification %@;
+- (struct CGPoint)ranges for message:%@ /* Error: Ran out of types for this method. */;
+- (struct CGPoint)shouldStore check, destinationCallerID:%@ /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)nd;
+- (struct UIEdgeInsets)ipt;
+- (double)esult"8;
+- (struct CGPoint)NicknameLowResWallpaperDataTag;
+- (struct CGPoint)romMe = %{BOOL}d; OUTPUT chat = %@;;
+- (struct CGPoint)@;
 - (struct CGPoint);
 - (double);
 - (double);
@@ -40,11 +40,11 @@ __attribute__((visibility("hidden")))
 - (struct CGPoint)0@ù
 × ;
 - (struct CGPoint)GestureRecognizer";
-- (struct CGPoint)DragController:previewForInsertingTab: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)sponseToGlobeKey:atPoint: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)viewsOfCell: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)rTopPadding;
-- (struct CGPoint)ndaryForIdentifier:path: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)tabDragController:previewForInsertingTab: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)shouldSkipResponseToGlobeKey:atPoint: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)layoutSubviewsOfCell: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)containerTopPadding;
+- (struct CGPoint)_registerBoundaryForIdentifier:path: /* Error: Ran out of types for this method. */;
 - (double)ndaryMenu;
 - (struct CGPoint)ï;
 - (struct UIEdgeInsets);

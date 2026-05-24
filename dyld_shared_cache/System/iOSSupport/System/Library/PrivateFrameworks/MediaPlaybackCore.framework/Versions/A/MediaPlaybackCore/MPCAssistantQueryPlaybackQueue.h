@@ -6,30 +6,26 @@
 
 #import <MediaPlaybackCore/MPCAssistantPlaybackQueue.h>
 
-@class MPMediaItem, MPMediaQuery;
+@class MPMediaQuery;
 
 @interface MPCAssistantQueryPlaybackQueue : MPCAssistantPlaybackQueue
 {
     MPMediaQuery *_query;
-    MPMediaItem *_firstItem;
-    long long _shuffleType;
 }
 
 + (id);
 - (id);
-- (void);
+- (void)/PhotoLibraryServicesCore;
 - (long long);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)�#;
 - (id);
 - (void)State changed:%{public}@ -> %{public}@ - New recording session:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) MPMediaItem *firstItem; // @synthesize firstItem=_firstItem;
 @property(readonly, nonatomic) MPMediaQuery *query; // @synthesize query=_query;
-@property(nonatomic) long long shuffleType; // @synthesize shuffleType=_shuffleType;
 
 @end
 

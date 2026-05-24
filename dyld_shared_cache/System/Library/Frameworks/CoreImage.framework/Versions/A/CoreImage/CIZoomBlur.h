@@ -6,18 +6,16 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIZoomBlur : CIFilter
 {
     CIImage *inputImage;
-    CIVector *inputCenter;
-    NSNumber *inputAmount;
 }
 
 + (id);
-- (id);
+- (id)B;
 - (id);
 - (id);
 - (void);
@@ -25,15 +23,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void)nkv=^Vnkkfnppppbnjr]nhvj~|¢¢¢¢kngtssps££££¯²²²«®®r§§§§©©©©©©©©¨¨¨¨   wmrnu]lfp}±±±±¶¶¶¶¥¥¥¥rvuyppppW_^_8(G*:(id)arg1 *Hggggx||snyyyjpopmmmm_heoNllyyyyyEWNb#?/RHJ=O1C4N.B3QZZQZ``Z`N[QbPYMaHVHb]cXmqwt}utzyRmju_ihiaa\a;VKebvuzq¡¡¡¡}ssssQWMXGJ=JUULUqvvv¥©©¬¦¬¬¤¨¨pk|{{|outwy{{{|kz}{{{{_jen_iciqqqqd±±±±ÄÄÄÄ­­­­lmhossssyyyyxxxxsssshhhh=TK]TWM^bickzzyz~c~gyud}wo}xnnzzzqqqqllilKc[oqvty}|{}[qmz{{{{¡¡¡¡¢¢¢¢|¢¢¢    TjaxLi`w~~~~^jcqetpys|yWme~Rmf|Tpk}bwsyzzzzopppuuuu||||fy|~isszWietSf`p]f`oMe^sy}blivbc]nfkhpvvvvuuuuiiii2QFc\e_oVpl|r{||{{{{Wkhn^d_itttt}}}}ssss>QD_%C1WR_Vdkxvzi££££    ¡¡¥¥¥¥{{{{Gf_pssss}}}}y¢¢¢¢}uuuuqpjqovsw}}}}bvtx_e\mL`Wl}{{}u{{{:OB_RYNa{{{{¡¡¡¡¬¨¬¬¸²¸¸¨·¼¼¯¯¯¯pvpzSjavcql{jwxx\gckL_XeWe_hjoloxxxx}ssssddddP^X`Tjioi{||Pjft{{{{Rhcv<[Rmmmmm[a\b0D6UVWN[ssssavvYd^paaZa:PEUGODR__^_tttt¢¢¢¢|Rnfy®®®®ÉÉÉÉÈÈÈÈ°¬°°u¡¡¡¡¡¡¡¡¡¡¡¡{~~~~SgamL_Vjltp{xxvz¢¢¢¢npnp_c]eaaaaVVVV6<+B)29FF>F[[[[ttttv%H8^8D3KFSHSppnp····¸¸¸¸¤¤¨¤ª¥ªª¢¢¢¢e{v`h]u©©©©¤¤¤¤wwww_^U`____ffffDZPgQ`Vp^ws}^xtisl{}mW_TmRf^o||||w|yvtbyq}}}}jzy|gyx{puqyaql~¡¡¡¡¨¨¨¨¥¥¥¥¢¢¢¢¢¢¢¢¢¢¢¢q~vCeVw /* Error: Ran out of types for this method. */;
 - (id)r|`un}ntmzPg^rO`Wlptpu~£¢£££¡££ ^nhxtttt|y}}foj{pyuqe{vxm¨¨¨¨¦¦¦¦|zw|HaWq}|{}¡¡¡¡¤¤¤¤sspxiicl[mjp©©©©ººººÃÃÃÃ¼º½½ ¥¬     Xsnkrouzxwz|}~~§§§§©©©©~~~~F`Wneeceggggnnnnyyyynwwwwbc\e9N@aQhcuUljsffffOYQ[ESH[oooomu|y~~|qywfwuzrrrrH`Wi?[Ql}}~~~~~S]SeI]Rj¯¯¯¯®®®®xjtm}ttttpuuuzzzzk|||t|||||||awt}\vstttt[f]hif\nn}myuNbWn:RD_ETG\S^Vb]oms||||ipppjjjjUc\ffd\f[`Ug3WJo_tp[e[m7O?_acYdppppssssee[mX_Smkvq{Vqlbjaufjbn^niowwwwaxv~iwtj{v}{££££¤¤¤¤¦¦§§§§§§yiiiiaa^annnn||||oooo!>0S-<+Pafbkibjdnffbfkkjk[plxv}Qa\i:K=Vffcfªªª±±±±{O^SfGP@ZDUIbxwuxg|z|j{{}_rpyhwv}|}}}}ptozQcYrismyk¡¡¡¡u=VGj%A,X>P@W``\``ljl||||]sszF^WmUb\g^^\^AL@Q>J=SV`ZePjhr_mktyyyy}}}}ppppWWOX(:)H+=-JRVNXbbbb^^^^HTNVYYYYffffyyyy««««¥¥¥¥jcrkyttttuuuuixty{¦««¶¶¶¶¨¨¨¨wwpwepgue\ngwhmfo_nioPg_mnnnnttqtNnfso|Vpj}|^rqzfc[h\_UdZjdq]vsF^UqBRG_=H:WHZT`oooorrrrSe_kM_Tjorkv~x\ojxPc[pzwuz    kxtk}{ctoxrrmrxxsx¤¤¤¤««««££££}}}}vvvvZc^i<QE^XkgoUpnLVIdXUIX[[[[``^`N^VbRbZennnnw}|}YoiYlfz{{z{||{|{yw{zywzbtqyyyyywwwwfzx~¥¥¥¥£¢££]}xisk|PjdvSbZmyyyy~~~~ssss\d\lwwtws{wyn_|z~w~~~vvvvtrot~k|wo{§£§§·¼½½¾¿ÀÀ¦©®µ¢¥±¶¶¶¶°°°°r~ynxs~~_{x~~^tnz¢¢¢¢ªªªª}¢¦s{{{{nnnncd]dO^S`Y_Tf}y££££¼¼¼¼ÁÁÁÁ¶¶¶¶¡¡¡¡zQof`xsxxxxIYP]:I<RY[U[hhhhhpnpvvvvwwww /* Error: Ran out of types for this method. */;
 - (void)ntqqqqNd]konho||z|u}baXgBTIY````\lgnn|{¥¥¥¥pyyyyoooohhhhKXP\2F6R*?,Q/C3WDSI\TTKT/>.HBB4HPRNR[[W[ijhj££££{{{{kkkknnnnpogvObVndndvw~ ¤§¨¨ffffSSOS7K>Vnooozjuvxoomonnjnpspvsrvvvv]]]]GPGP=RIVTfcioz{{}}}}rqprhhghffffPfci_lhnxxxx   yxr{`xwppmpggggU[Q`DUHdzzzz_sm|;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *inputAmount; // @synthesize inputAmount;
-@property(retain, nonatomic) CIVector *inputCenter; // @synthesize inputCenter;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
 
 @end

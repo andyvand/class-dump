@@ -7,18 +7,16 @@
 @interface TIMecabraWrapper
 {
     int _inputMethodType;
-    struct __Mecabra *_mecabraRef;
 }
 
 - (struct __Mecabra *);
-- (id);
+- (id)h result %li;
 - (id);
 - (int);
 - (void);
 
 // Remaining properties
 @property(readonly) int inputMethodType; // @synthesize inputMethodType=_inputMethodType;
-@property(readonly) struct __Mecabra *mecabraRef; // @synthesize mecabraRef=_mecabraRef;
 
 @end
 

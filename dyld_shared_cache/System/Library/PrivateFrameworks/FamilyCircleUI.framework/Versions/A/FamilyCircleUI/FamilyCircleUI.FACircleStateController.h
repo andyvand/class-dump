@@ -7,12 +7,6 @@
 @interface FamilyCircleUI.FACircleStateController
 {
     id parentWindow;
-    id presentationHandler;
-    id host;
-    id safetySettingsCompleted;
-    id safetySettingsCompletedWithPasscode;
-    id requestConfigurator;
-    id safetySettingsViewController;
 }
 
 - (id);

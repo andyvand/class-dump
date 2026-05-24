@@ -4,48 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOVLFUsageTileID, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOVLFFrameDetails
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_fae3dc92 _calibrationMatrixs;
-    CDStruct_82f37d05 _resultPoseRotations;
-    CDStruct_fae3dc92 _slamPoses;
-    CDStruct_fae3dc92 _vioPoses;
-    double _resultTranslationX;
-    double _resultTranslationY;
-    double _resultTranslationZ;
-    GEOVLFUsageTileID *_tileId;
-    double _timestamp;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    float _radialDistortion1;
-    float _radialDistortion2;
-    int _resultStatus;
-    unsigned int _vioStatus;
-    struct {
-        unsigned int has_resultTranslationX:1;
-        unsigned int has_resultTranslationY:1;
-        unsigned int has_resultTranslationZ:1;
-        unsigned int has_timestamp:1;
-        unsigned int has_radialDistortion1:1;
-        unsigned int has_radialDistortion2:1;
-        unsigned int has_resultStatus:1;
-        unsigned int has_vioStatus:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_calibrationMatrixs:1;
-        unsigned int read_resultPoseRotations:1;
-        unsigned int read_slamPoses:1;
-        unsigned int read_vioPoses:1;
-        unsigned int read_tileId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)edRegions:(id)arg1;
++ (_Bool)setNumberOfDownloadedRegions:(id)arg1;
 - (unsigned int);
 - (unsigned long long);
 - (float *);
@@ -81,33 +47,33 @@
 - (float);
 - (_Bool);
 - (_Bool);
+- (_Bool)Versions/A/ContactsPersistence;
+- (_Bool)rks/ContactsPersistence.framework/Versions/A/ContactsPersistence;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (float *);
+- (void)initWithTarget:action: /* Error: Ran out of types for this method. */;
+- (void)initWithCanCreateContacts:canDeleteContacts:canCreateGroups: /* Error: Ran out of types for this method. */;
+- (void)hasSubgroupCycleStartingWithSubgroups: /* Error: Ran out of types for this method. */;
+- (void)createDirectoryAtPath:withIntermediateDirectories:attributes:error: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_shouldCreateMyCard;
+- (float *)_shouldCreateEmptyDatabase;
+- (float)_shouldAddAsReadOnly;
+- (void)insertedObjects;
+- (void)_TtC19ContactsPersistence19CNCDFileSystemPhoto;
+- (void)CNContactStoreNotificationInfo;
+- (void);
 - (float);
-- (void);
-- (void);
-- (void);
-- (void);
-- (float);
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)T;
 - (id);
-- (void);
-- (id);
+- (void)sendVTNearMissGradingDataToCompanion;
+- (id)WeakReject;
 - (unsigned long long);
 - (double);
 - (_Bool);
@@ -120,40 +86,14 @@
 - (id)0@ù
 × ;
 - (int)0@0:8@16Q24Q32 /* Error: Ran out of types for this method. */;
-- (void)llEntriesWithBrowse:(int)arg1;
-- (id)nse: /* Error: Ran out of types for this method. */;
+- (void)setAllEntriesWithBrowse:(int)arg1;
+- (id)initWithPDMIFAutocompleteResponse: /* Error: Ran out of types for this method. */;
 - (id)laceRibbonConfiguration",R,N;
-- (id)E_SEARCH_TYPE_KEYWORD_SUGGESTION;
+- (id)REFINE_SEARCH_TYPE_KEYWORD_SUGGESTION;
 - (void)ö(\Âõ@)\Âõ a@;
 
 // Remaining properties
-@property(readonly, nonatomic) float *calibrationMatrixs;
-@property(readonly, nonatomic) unsigned long long calibrationMatrixsCount;
-@property(nonatomic) _Bool hasRadialDistortion1;
-@property(nonatomic) _Bool hasRadialDistortion2;
-@property(nonatomic) _Bool hasResultStatus;
-@property(nonatomic) _Bool hasResultTranslationX;
-@property(nonatomic) _Bool hasResultTranslationY;
-@property(nonatomic) _Bool hasResultTranslationZ;
-@property(readonly, nonatomic) _Bool hasTileId;
-@property(nonatomic) _Bool hasTimestamp;
 @property(nonatomic) _Bool hasVioStatus;
-@property(nonatomic) float radialDistortion1;
-@property(nonatomic) float radialDistortion2;
-@property(readonly, nonatomic) double *resultPoseRotations;
-@property(readonly, nonatomic) unsigned long long resultPoseRotationsCount;
-@property(nonatomic) int resultStatus;
-@property(nonatomic) double resultTranslationX;
-@property(nonatomic) double resultTranslationY;
-@property(nonatomic) double resultTranslationZ;
-@property(readonly, nonatomic) float *slamPoses;
-@property(readonly, nonatomic) unsigned long long slamPosesCount;
-@property(retain, nonatomic) GEOVLFUsageTileID *tileId;
-@property(nonatomic) double timestamp;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(readonly, nonatomic) float *vioPoses;
-@property(readonly, nonatomic) unsigned long long vioPosesCount;
-@property(nonatomic) unsigned int vioStatus;
 
 @end
 

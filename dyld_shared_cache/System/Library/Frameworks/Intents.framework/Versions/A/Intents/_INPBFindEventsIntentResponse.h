@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface _INPBFindEventsIntentResponse
 {
     struct _has;
-    NSArray *_events;
 }
 
-+ (Class);
++ (Class)n't retrieve (RETR failed) the specified file;
 + (_Bool);
 - (unsigned long long);
 - (id);
@@ -20,26 +19,18 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)g */%{public}@ (bundleID=%{public}@);
 - (id);
 - (id);
-- (id);
-- (void)NSearchForMessagesIntentResponseCodeFailureMessageServiceNotAvailable;
+- (id);
+- (void)INSearchForMessagesIntentResponseCodeFailureMessageServiceNotAvailable;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSArray *events; // @synthesize events=_events;
-@property(readonly, nonatomic) unsigned long long eventsCount;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

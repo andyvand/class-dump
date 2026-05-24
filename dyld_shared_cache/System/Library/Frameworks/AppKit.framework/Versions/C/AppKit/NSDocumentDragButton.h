@@ -6,7 +6,7 @@
 
 #import <AppKit/NSButton.h>
 
-@class NSString, NSURL;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NSDocumentDragButton : NSButton
@@ -17,40 +17,31 @@ __attribute__((visibility("hidden")))
         unsigned int shouldDrag:1;
         unsigned int disableDragDelay:1;
     } _ddbFlags;
-    NSURL *_representedURL;
 }
 
 - (_Bool);
-- (void);
-- (void);
+- (void)invalid;
+- (void);
 - (id);
 - (id);
-- (unsigned long long);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long):(_Bool)arg1;
+- (unsigned long long)lar:(id)arg1 ,V_connectionIsCellular;
+- (_Bool)@"NSURL",C,V_URL;
 - (id);
+- (void)sharedContainerIdentifier;
+- (void)AVAssetDownloadChildDownloadSessionIdentifier;
+- (struct CGPoint);
+- (id)@;
 - (void);
 - (void);
-- (struct CGPoint);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (void)t=dd}{CGSize=dd}}40;
 - (void)=;
 - (void);
 
 // Remaining properties
-@property(copy, setter=_setRepresentedURL:) NSURL *_representedURL; // @synthesize _representedURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy) NSString *representedFilename;
-@property(readonly) Class superclass;
 
 @end
 

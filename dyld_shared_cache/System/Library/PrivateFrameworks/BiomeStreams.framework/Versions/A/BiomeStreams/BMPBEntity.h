@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMPBPersonEntity, BMPBTopicEntity;
-
 @interface BMPBEntity
 {
     int _entityType;
-    BMPBPersonEntity *_personEntity;
-    BMPBTopicEntity *_topicEntity;
-    struct {
-        unsigned int entityType:1;
-    } _has;
 }
 
 - (id);
@@ -34,19 +27,14 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
-- (id);
+- (_Bool)_store;
+- (void)flippedQuad;
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) int entityType; // @synthesize entityType=_entityType;
-@property(nonatomic) _Bool hasEntityType;
 @property(readonly, nonatomic) _Bool hasPersonEntity;
-@property(readonly, nonatomic) _Bool hasTopicEntity;
-@property(retain, nonatomic) BMPBPersonEntity *personEntity; // @synthesize personEntity=_personEntity;
-@property(retain, nonatomic) BMPBTopicEntity *topicEntity; // @synthesize topicEntity=_topicEntity;
 
 @end
 

@@ -4,47 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDebugTDViewHierarchyItem, NSMutableArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NSDebugTDViewHierarchyOutlineTreeNode
 {
     _Bool _isWindow;
-    NSString *_title;
-    NSMutableArray *_children;
-    NSDebugTDViewHierarchyOutlineTreeNode *_parent;
-    NSDebugTDViewHierarchyItem *_item;
 }
 
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)set_maximumWatchCellularTransferSize: /* Error: Ran out of types for this method. */;
+- (_Bool)set_expiredDNSBehavior: /* Error: Ran out of types for this method. */;
+- (_Bool)setURLCache: /* Error: Ran out of types for this method. */;
+- (id)getCookiesWithFilter:(id)arg1;
+- (id)_pendingResponseDisposition_didFinish;
+- (void)stmt=%p);
 - (void);
 - (void);
+- (id)L;
+- (id)P;
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void)crollView:(id)arg1 panGestureRecognizer:shouldReceiveTouch: /* Error: Ran out of types for this method. */;
-- (void)ExpectedProcess;
-- (id)s;
+- (void)scrollView:(id)arg1 panGestureRecognizer:shouldReceiveTouch: /* Error: Ran out of types for this method. */;
+- (void)_didResignActiveForExpectedProcess;
+- (id)NSSearchToolbarItemOptionFlags;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *children; // @synthesize children=_children;
-@property(readonly, nonatomic) _Bool isTextItem;
-@property(readonly, nonatomic) _Bool isWindow; // @synthesize isWindow=_isWindow;
-@property(retain, nonatomic) NSDebugTDViewHierarchyItem *item; // @synthesize item=_item;
-@property(nonatomic) __weak NSDebugTDViewHierarchyOutlineTreeNode *parent; // @synthesize parent=_parent;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) _Bool usesTextKit1;
-@property(readonly, nonatomic) _Bool usesTextKit2;
 
 @end
 

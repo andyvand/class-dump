@@ -7,8 +7,6 @@
 @interface PromotedContent.MetricsUnloadTracker
 {
     id unfairLock;
-    id _isWebViewUnloaded;
-    id _eventCount;
 }
 
 @end

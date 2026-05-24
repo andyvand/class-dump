@@ -15,12 +15,12 @@
 
 + (id);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)23CallControllerInterface;
+- (id)alignView:attribute:toView:attribute: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
+- (id)_subscriptionId;
+- (void)EWSCalendarEventDetails;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *supportedReports; // @synthesize supportedReports=_supportedReports;

@@ -7,9 +7,9 @@
 @class NSColor;
 
 @interface UnknownClass (NSIconAppearanceConfiguration)
-+ (id);
-+ (void);
-+ (id);
++ (id)ceived advisory(%d);
++ (void)ary/Frameworks/Accounts.framework/Versions/A/Accounts;
++ (id)sk connection:(unsigned int)arg1 request:(id)arg2 needsNewBodyStreamFromOffset:callback:] /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties

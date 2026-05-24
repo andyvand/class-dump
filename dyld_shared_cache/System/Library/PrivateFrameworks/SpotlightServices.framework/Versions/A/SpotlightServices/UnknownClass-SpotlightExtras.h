@@ -9,7 +9,7 @@
 @interface UnknownClass (SpotlightExtras)
 - (id);
 - (void);
-- (id);
+- (id)combinedTitle;
 
 // Remaining properties
 @property(retain, nonatomic) SFSearchResult_SpotlightExtras *spotlightBackingResult;

@@ -15,14 +15,14 @@
 - (id);
 - (id);
 - (id);
+- (id)e:(id)arg1;
+- (id):(id)arg1 %@;
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (void)setBackgroundColor:(id)arg1;
+- (id)SMUserConflictNone;
+- (id);
 - (id),N,V_dictionary;
-- (void)backToReverseChronSorting;
+- (void)fallbackToReverseChronSorting;
 
 // Remaining properties
 @property(retain, nonatomic) id <FCContentContext> context; // @synthesize context=_context;

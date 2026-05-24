@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSObject;
+@class NSObject;
 
 @interface WiFiUsageLQMModes
 {
     NSObject *_value;
-    NSNumber *_occurrences;
 }
 
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void)0@ù
 × ;
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *occurrences; // @synthesize occurrences=_occurrences;
 @property(retain, nonatomic) NSObject *value; // @synthesize value=_value;
 
 @end

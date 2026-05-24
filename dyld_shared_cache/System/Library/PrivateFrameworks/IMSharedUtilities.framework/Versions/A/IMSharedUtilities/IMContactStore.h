@@ -4,36 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNContactStore, IMAcceptedContactsChangeNotifier, IMStateCaptureAssistant, NSArray, NSData, NSDictionary, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface IMContactStore
 {
     _Bool _hasOutOfProcessContactsEntitlement;
-    _Bool _batchFetchingForLaunchCompleted;
-    _Bool _shouldSkipMeContactLookup;
-    NSData *_currentHistoryToken;
-    NSDictionary *_handleIDToCNIDMap;
-    NSMutableDictionary *_CNIDToHandleIDsMap;
-    NSMutableDictionary *_IDToCNContactMap;
-    CNContactStore *_contactStore;
-    CNContactStore *_acceptedContactStore;
-    IMAcceptedContactsChangeNotifier *_acceptedContactsChangeNotifier;
-    CNContact *_meContact;
-    NSObject<OS_dispatch_queue> *_changeHistoryFetchQueue;
-    NSObject<OS_dispatch_queue> *_queue;
-    IMStateCaptureAssistant *_stateCaptureAssistant;
-    NSArray *_CNIDsForBatchFetch;
 }
 
 + (id);
 + (_Bool);
 + (_Bool);
 + (id);
++ (id)d;
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (void);
 + (void);
@@ -49,7 +32,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id),;
 + (id);
 + (id);
 + (id);
@@ -90,7 +73,7 @@
 + (Class);
 + (Class);
 + (Class);
-+ (id);
++ (id);
 + (id);
 + (id)´Ø¼Ä
 ;
@@ -106,7 +89,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)(;
 - (void);
 - (void);
 - (void);
@@ -123,18 +106,18 @@
 - (id);
 - (id);
 - (id);
+- (id)C;
 - (id);
+- (id);
+- (void);
+- (id);
+- (id)@;
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)�"A)	k@;
 - (void);
 - (id);
 - (id);
@@ -157,10 +140,10 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)@?B>40;
+- (void)initWithPaymentHash:(id)arg1 transactionDate:merchantName:merchantRawName:industryCategory:industryCode:merchantType:merchantCountryCode:terminalIdentifier:merchantAdditionalData:paymentNetwork:isMerchantTokenTransaction:isCoarseLocation:location:merchantIdentifier:merchantRawCANL:merchantRawCity:merchantRawState:merchantRawCountry:merchantCity:merchantZip:merchantState:merchantCleanConfidenceLevel:rewardsAmount:rewardsCurrency:rewardsEligibilityReason:adamIdentifier:webURL:webMerchantIdentifier:webMerchantName:isIssuerInstallmentTransaction:issuerInstallmentManagementURL: /* Error: Ran out of types for this method. */;
+- (id)PKUIOnlyDemoModeEnabledKey;
+- (void);
 - (id);
 - (void);
 - (id);
@@ -170,33 +153,12 @@
 - (id);
 - (id)ionBlock:(id)arg1;
 - (void)¡LSgt;
-- (id)oldFont;
+- (id)__kIMApplyBoldFont;
 - (void);
 - (id)I;
 
 // Remaining properties
-@property(retain, nonatomic, getter=getCNIDToHandleIDsMap) NSMutableDictionary *CNIDToHandleIDsMap; // @synthesize CNIDToHandleIDsMap=_CNIDToHandleIDsMap;
-@property(retain, nonatomic) NSArray *CNIDsForBatchFetch; // @synthesize CNIDsForBatchFetch=_CNIDsForBatchFetch;
-@property(retain, nonatomic, getter=getIDToCNContactMap) NSMutableDictionary *IDToCNContactMap; // @synthesize IDToCNContactMap=_IDToCNContactMap;
-@property(retain, nonatomic) CNContactStore *acceptedContactStore; // @synthesize acceptedContactStore=_acceptedContactStore;
-@property(retain, nonatomic) IMAcceptedContactsChangeNotifier *acceptedContactsChangeNotifier; // @synthesize acceptedContactsChangeNotifier=_acceptedContactsChangeNotifier;
-@property _Bool batchFetchingForLaunchCompleted; // @synthesize batchFetchingForLaunchCompleted=_batchFetchingForLaunchCompleted;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *changeHistoryFetchQueue; // @synthesize changeHistoryFetchQueue=_changeHistoryFetchQueue;
-@property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(retain, nonatomic) NSData *currentHistoryToken; // @synthesize currentHistoryToken=_currentHistoryToken;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic, getter=getHandleIDToCNIDMap) NSDictionary *handleIDToCNIDMap; // @synthesize handleIDToCNIDMap=_handleIDToCNIDMap;
 @property(readonly, nonatomic) _Bool hasOutOfProcessContactsEntitlement; // @synthesize hasOutOfProcessContactsEntitlement=_hasOutOfProcessContactsEntitlement;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CNContact *meContact; // @synthesize meContact=_meContact;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property _Bool shouldSkipMeContactLookup; // @synthesize shouldSkipMeContactLookup=_shouldSkipMeContactLookup;
-@property(retain, nonatomic) IMStateCaptureAssistant *stateCaptureAssistant; // @synthesize stateCaptureAssistant=_stateCaptureAssistant;
-@property(readonly) Class superclass;
 
 @end
 

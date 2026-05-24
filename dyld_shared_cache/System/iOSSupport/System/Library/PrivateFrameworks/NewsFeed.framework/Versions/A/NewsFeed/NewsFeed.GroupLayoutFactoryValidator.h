@@ -7,7 +7,6 @@
 @interface NewsFeed.GroupLayoutFactoryValidator
 {
     id groupLayoutRequirements;
-    id groupLayoutContentSizeCategory;
 }
 
 @end

@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaHomeKitAccessoryResponse : SISchemaInstrumentationMessage
 {
     int _homeKitAccessoryType;
-    int _numAccessoriesCompleted;
-    int _numAccessoriesNotCompleted;
-    struct {
-        unsigned int homeKitAccessoryType:1;
-        unsigned int numAccessoriesCompleted:1;
-        unsigned int numAccessoriesNotCompleted:1;
-    } _has;
 }
 
 - (void);
@@ -37,22 +28,16 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)Endpoint",&,V_paymentViewServiceListener;
+- (_Bool)@;
+- (_Bool)WHERE chat_id = ? ORDER BY ROWID DESC LIMIT ?;;
+- (id);
 - (id);
-- (id);
-- (id)eteChannelScore;
-- (id)red;
+- (id)deleteChannelScore;
+- (id)_debugNetworkConnectionStateReadySnapshotCaptured;
 
 // Remaining properties
-@property(nonatomic) _Bool hasHomeKitAccessoryType;
-@property(nonatomic) _Bool hasNumAccessoriesCompleted;
-@property(nonatomic) _Bool hasNumAccessoriesNotCompleted;
 @property(nonatomic) int homeKitAccessoryType; // @synthesize homeKitAccessoryType=_homeKitAccessoryType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int numAccessoriesCompleted; // @synthesize numAccessoriesCompleted=_numAccessoriesCompleted;
-@property(nonatomic) int numAccessoriesNotCompleted; // @synthesize numAccessoriesNotCompleted=_numAccessoriesNotCompleted;
 
 @end
 

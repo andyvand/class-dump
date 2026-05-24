@@ -7,21 +7,6 @@
 @interface SGMIMetricsMailAttachmentHistogram
 {
     int _category;
-    unsigned int _count128KBTo512KB;
-    unsigned int _count32KBTo128KB;
-    unsigned int _count512KBTo2MB;
-    unsigned int _count8KBTo32KB;
-    unsigned int _countOver2MB;
-    unsigned int _countUpTo8KB;
-    struct {
-        unsigned int category:1;
-        unsigned int count128KBTo512KB:1;
-        unsigned int count32KBTo128KB:1;
-        unsigned int count512KBTo2MB:1;
-        unsigned int count8KBTo32KB:1;
-        unsigned int countOver2MB:1;
-        unsigned int countUpTo8KB:1;
-    } _has;
 }
 
 - (void);
@@ -30,21 +15,22 @@
 - (void);
 - (void);
 - (void);
+- (void)rsions/A/FeatureFlags;
+- (void)rks/FeatureFlags.framework/Versions/A/FeatureFlags;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ernal;
+- (void)work/Versions/A/ArgumentParserInternal;
+- (void)works/ArgumentParserInternal.framework/Versions/A/ArgumentParserInternal;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (unsigned int);
 - (unsigned int);
 - (unsigned int);
-- (unsigned int);
-- (unsigned int);
-- (unsigned int);
+- (unsigned int)ple.phonenumbers;
+- (unsigned int)-1
+;
 - (_Bool);
 - (_Bool);
 - (unsigned int);
@@ -55,7 +41,7 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)NSUbiquitousKeyValueStoreDidChangeExternallyNotificationUserInfo;
 - (_Bool);
 - (int);
 - (void);
@@ -65,20 +51,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) int category; // @synthesize category=_category;
-@property(nonatomic) unsigned int count128KBTo512KB; // @synthesize count128KBTo512KB=_count128KBTo512KB;
-@property(nonatomic) unsigned int count32KBTo128KB; // @synthesize count32KBTo128KB=_count32KBTo128KB;
-@property(nonatomic) unsigned int count512KBTo2MB; // @synthesize count512KBTo2MB=_count512KBTo2MB;
-@property(nonatomic) unsigned int count8KBTo32KB; // @synthesize count8KBTo32KB=_count8KBTo32KB;
-@property(nonatomic) unsigned int countOver2MB; // @synthesize countOver2MB=_countOver2MB;
-@property(nonatomic) unsigned int countUpTo8KB; // @synthesize countUpTo8KB=_countUpTo8KB;
 @property(nonatomic) _Bool hasCategory;
-@property(nonatomic) _Bool hasCount128KBTo512KB;
-@property(nonatomic) _Bool hasCount32KBTo128KB;
-@property(nonatomic) _Bool hasCount512KBTo2MB;
-@property(nonatomic) _Bool hasCount8KBTo32KB;
-@property(nonatomic) _Bool hasCountOver2MB;
-@property(nonatomic) _Bool hasCountUpTo8KB;
 
 @end
 

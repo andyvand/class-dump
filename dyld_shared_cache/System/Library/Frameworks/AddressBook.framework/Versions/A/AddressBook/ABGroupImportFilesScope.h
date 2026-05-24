@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAccount, ABAddressBook, ABGroup, NSArray;
+@class ABAccount;
 
 @interface ABGroupImportFilesScope
 {
     ABAccount *_account;
-    ABAddressBook *_addressBook;
-    ABGroup *_group;
-    NSArray *_filenames;
 }
 
 - (id);
@@ -25,9 +22,6 @@
 
 // Remaining properties
 @property(readonly) ABAccount *account; // @synthesize account=_account;
-@property(readonly) ABAddressBook *addressBook; // @synthesize addressBook=_addressBook;
-@property(readonly) NSArray *filenames; // @synthesize filenames=_filenames;
-@property(readonly) ABGroup *group; // @synthesize group=_group;
 
 @end
 

@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface MTSchemaMTInvocationStartedTier1 : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    NSString *_appBundleId;
-    _Bool _hasLinkId;
-    _Bool _hasAppBundleId;
 }
 
 - (void);
@@ -26,7 +23,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)= %lu
+;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -39,10 +37,6 @@
 - (void)HALSchemaHALDeviceSharedContext;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *appBundleId; // @synthesize appBundleId=_appBundleId;
-@property(nonatomic) _Bool hasAppBundleId; // @synthesize hasAppBundleId=_hasAppBundleId;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
 
 @end

@@ -7,11 +7,6 @@
 @interface NewsFeed.DebugFormatWorkspaceTreeKindGroup
 {
     id id;
-    id editor;
-    id category;
-    id _workspaces;
-    id unfilteredWorkspaces;
-    id _isExpanded;
 }
 
 @end

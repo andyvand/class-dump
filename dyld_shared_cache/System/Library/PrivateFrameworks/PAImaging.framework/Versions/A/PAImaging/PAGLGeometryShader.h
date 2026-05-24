@@ -9,8 +9,6 @@
 @interface PAGLGeometryShader : PAGLShader
 {
     unsigned int _inputType;
-    unsigned int _outputType;
-    unsigned int _outVertexCount;
 }
 
 + (unsigned int);
@@ -18,15 +16,13 @@
 - (void);
 - (unsigned int);
 - (void);
-- (unsigned int);
-- (unsigned int);
-- (void);
-- (id)Index:(id)arg1;
+- (unsigned int)bookmarksFeed;
+- (unsigned int)zeLayout.m;
+- (void)g Delay;
+- (id)removeObjectAtIndex:(id)arg1;
 
 // Remaining properties
 @property(nonatomic) unsigned int inputType; // @synthesize inputType=_inputType;
-@property(nonatomic) unsigned int outVertexCount; // @synthesize outVertexCount=_outVertexCount;
-@property(nonatomic) unsigned int outputType; // @synthesize outputType=_outputType;
 
 @end
 

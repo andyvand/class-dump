@@ -5,5 +5,6 @@
 //
 
 @protocol CNPhotoPickerVariantListControllerDelegate
+- (void)P;
 @end
 

@@ -4,36 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SPAdvertisement, SPEstimatedLocation;
+@class SPAdvertisement;
 
 @interface SPBeaconPayload
 {
     _Bool _refreshGeotag;
-    SPAdvertisement *_advertisement;
-    SPEstimatedLocation *_location;
-    long long _observationValue;
 }
 
 + (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)=;
 - (long long);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)m/;
+- (id)h;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)~;
 - (void)ementCache saveAdvertisements:(id)arg1 completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) SPAdvertisement *advertisement; // @synthesize advertisement=_advertisement;
-@property(copy, nonatomic) SPEstimatedLocation *location; // @synthesize location=_location;
-@property(nonatomic) long long observationValue; // @synthesize observationValue=_observationValue;
-@property(nonatomic) _Bool refreshGeotag; // @synthesize refreshGeotag=_refreshGeotag;
 
 @end
 

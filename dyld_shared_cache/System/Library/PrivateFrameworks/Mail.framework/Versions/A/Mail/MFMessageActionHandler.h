@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDMessageActionHandler, EMMessageActionToMFMessageActionRuleTransformer, MCMessageToMEMessageTransformer, NSArray;
+@class EDMessageActionHandler;
 
 @interface MFMessageActionHandler
 {
     EDMessageActionHandler *_actionHandler;
-    MCMessageToMEMessageTransformer *_messageTransformer;
-    EMMessageActionToMFMessageActionRuleTransformer *_actionTransformer;
 }
 
 + (id);
@@ -26,10 +24,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) EDMessageActionHandler *actionHandler; // @synthesize actionHandler=_actionHandler;
-@property(readonly, nonatomic) EMMessageActionToMFMessageActionRuleTransformer *actionTransformer; // @synthesize actionTransformer=_actionTransformer;
-@property(readonly, nonatomic) NSArray *messageActionProviders;
-@property(readonly, nonatomic) MCMessageToMEMessageTransformer *messageTransformer; // @synthesize messageTransformer=_messageTransformer;
-@property(readonly, copy, nonatomic) NSArray *requiredHeaders;
 
 @end
 

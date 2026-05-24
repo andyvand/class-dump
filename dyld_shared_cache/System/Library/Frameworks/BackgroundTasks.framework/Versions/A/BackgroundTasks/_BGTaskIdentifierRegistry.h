@@ -11,8 +11,6 @@ __attribute__((visibility("hidden")))
 @interface _BGTaskIdentifierRegistry
 {
     NSObject<OS_os_log> *_log;
-    NSSet *_permittedContinuedProcessingBaseNotationIdentifiers;
-    NSSet *_permittedIdentifiers;
 }
 
 + (id);
@@ -24,11 +22,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)t>;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *permittedContinuedProcessingBaseNotationIdentifiers; // @synthesize permittedContinuedProcessingBaseNotationIdentifiers=_permittedContinuedProcessingBaseNotationIdentifiers;
 @property(readonly, nonatomic) NSSet *permittedIdentifiers; // @synthesize permittedIdentifiers=_permittedIdentifiers;
 
 @end

@@ -5,11 +5,9 @@
 //
 
 @protocol _INPBHomeAttributeRange
+- (double);
 
 // Remaining properties
-@property(nonatomic) _Bool hasLowerValue;
-@property(nonatomic) _Bool hasUpperValue;
 @property(nonatomic) double lowerValue;
-@property(nonatomic) double upperValue;
 @end
 

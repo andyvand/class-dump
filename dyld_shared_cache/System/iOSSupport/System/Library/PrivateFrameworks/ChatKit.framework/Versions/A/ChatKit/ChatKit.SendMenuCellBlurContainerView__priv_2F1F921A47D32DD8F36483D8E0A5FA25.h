@@ -7,11 +7,9 @@
 @interface ChatKit.SendMenuCellBlurContainerView__priv_2F1F921A47D32DD8F36483D8E0A5FA25
 {
     id hasActiveBlurFilter;
-    id $__lazy_storage_$_blurFilter;
-    id activeAnimationCount;
 }
 
-- (id);
+- (id)4;
 - (_Bool);
 - (id);
 - (void);

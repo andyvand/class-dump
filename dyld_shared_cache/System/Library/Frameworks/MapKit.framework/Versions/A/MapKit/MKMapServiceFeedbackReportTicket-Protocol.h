@@ -7,6 +7,7 @@
 @class GEOMapServiceTraits;
 
 @protocol MKMapServiceFeedbackReportTicket
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) GEOMapServiceTraits *traits;

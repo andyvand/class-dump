@@ -5,5 +5,9 @@
 //
 
 @protocol EQKitLayoutContext
+- (double);
+
+@optional
+- (struct CGColor *);
 @end
 

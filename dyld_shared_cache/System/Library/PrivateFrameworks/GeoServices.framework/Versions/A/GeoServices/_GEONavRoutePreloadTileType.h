@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _GEONavRoutePreloadTileType
 {
     int _style;
-    unsigned long long _restrictions;
 }
 
 - (unsigned long long);
@@ -17,7 +16,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long restrictions; // @synthesize restrictions=_restrictions;
 @property(readonly, nonatomic) int style; // @synthesize style=_style;
 
 @end

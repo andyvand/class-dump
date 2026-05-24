@@ -4,27 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCameraSnapshotRemoteRelayReceiver, HMDCameraSnapshotRemoteStreamSender, NSObject, NSString;
-@protocol HMDCameraSnapshotRemoteRelayStreamDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraSnapshotRemoteRelayStream
 {
     NSObject<OS_dispatch_queue> *_workQueue;
-    HMDCameraSnapshotRemoteStreamSender *_streamSender;
-    HMDCameraSnapshotRemoteRelayReceiver *_relayReceiver;
-    id <HMDCameraSnapshotRemoteRelayStreamDelegate> _delegate;
 }
 
 + (id)\;
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)_updateWaypointsIfNeeded: /* Error: Ran out of types for this method. */;
+- (void)_initiatorDisplayName;
+- (void)_initWithParentSource:(id)arg1 preprocessingBlock:(id)arg2 mappingBlock: /* Error: Ran out of types for this method. */;
+- (void)_initPendingStateIfNeededWithTransportType:(id)arg1 isResumingMultipointRoute:(id)arg2;
+- (void)_imageURL;
+- (void)_hasRoutingIncidentBadge;
+- (void)ier:(id)arg1;
+- (id)5;
 - (id);
 - (void);
 - (void);
@@ -38,16 +35,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) __weak id <HMDCameraSnapshotRemoteRelayStreamDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) HMDCameraSnapshotRemoteRelayReceiver *relayReceiver; // @synthesize relayReceiver=_relayReceiver;
-@property(readonly, nonatomic) HMDCameraSnapshotRemoteStreamSender *streamSender; // @synthesize streamSender=_streamSender;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

@@ -4,35 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, UIFont;
-
 __attribute__((visibility("hidden")))
 @interface CNMeCardSharingPickerLayoutAttributes
 {
     double _topToAvatarPadding;
-    UIFont *_headerFont;
-    double _avatarViewToNamePadding;
-    UIColor *_backgroundColor;
-    struct CGSize _avatarViewSize;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)+`	;
 - (double);
 - (id);
 - (double);
 - (struct CGSize);
 - (id);
 - (id);
-- (void)raction;
+- (void)_dropInteraction;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGSize avatarViewSize; // @synthesize avatarViewSize=_avatarViewSize;
-@property(readonly, nonatomic) double avatarViewToNamePadding; // @synthesize avatarViewToNamePadding=_avatarViewToNamePadding;
-@property(readonly, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(readonly, nonatomic) UIFont *headerFont; // @synthesize headerFont=_headerFont;
 @property(readonly, nonatomic) double topToAvatarPadding; // @synthesize topToAvatarPadding=_topToAvatarPadding;
 
 @end

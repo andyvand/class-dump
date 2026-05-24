@@ -11,9 +11,6 @@
 @interface UXCollectionViewCell : UXCollectionReusableView
 {
     NSView *_contentView;
-    _Bool _selected;
-    _Bool _selectionBorderShouldUsePrimaryColor;
-    _Bool _highlighted;
 }
 
 - (void);
@@ -27,24 +24,21 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)@;
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id)orChildViewController: /* Error: Ran out of types for this method. */;
+- (id)_toolbarLayoutInsetsForChildViewController: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSView *contentView; // @synthesize contentView=_contentView;
-@property(nonatomic, getter=isHighlighted) _Bool highlighted; // @synthesize highlighted=_highlighted;
-@property(nonatomic, getter=isSelected) _Bool selected; // @synthesize selected=_selected;
-@property(nonatomic) _Bool selectionBorderShouldUsePrimaryColor; // @synthesize selectionBorderShouldUsePrimaryColor=_selectionBorderShouldUsePrimaryColor;
 
 @end
 

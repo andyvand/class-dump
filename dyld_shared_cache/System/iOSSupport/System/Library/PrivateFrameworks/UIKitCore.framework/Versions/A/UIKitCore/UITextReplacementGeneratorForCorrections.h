@@ -6,43 +6,35 @@
 
 #import <UIKitCore/UITextReplacementGenerator.h>
 
-@class TIKeyboardCandidate, UITextChecker;
+@class UITextChecker;
 
 __attribute__((visibility("hidden")))
 @interface UITextReplacementGeneratorForCorrections : UITextReplacementGenerator
 {
     _Bool _showRevertingAutocorrectionInPredictionView;
-    _Bool _forceHistoryReplacement;
-    _Bool _forceAutocorrectionGuesses;
-    _Bool _forceSpellingGuesses;
-    UITextChecker *_textChecker;
-    TIKeyboardCandidate *_autocorrectionRecord;
-    unsigned long long _maxEditDistance;
-    unsigned long long _maxCountAfterAutocorrectionGuesses;
-    unsigned long long _maxCountAfterSpellingGuesses;
 }
 
 + (id);
 + (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)_handleSharingKVStore;
+- (void)_handleResourceRequestForContext:(unsigned long long)arg1 asset:transfer:didCompleteWithFileURL:error: /* Error: Ran out of types for this method. */;
+- (void)_handleReachabilityResult:(unsigned long long)arg1 messageID:fromToken: /* Error: Ran out of types for this method. */;
+- (void)_allowSelfRemoval;
+- (void)_allFileTransfers;
+- (void)_addedObserverForUnexpectedlyLoggedOut;
+- (void)setInlineAttachmentsDictionary:(id)arg1;
 - (unsigned long long);
 - (unsigned long long);
+- (_Bool)allowedEntitlements;
+- (_Bool)machServiceName;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (id)"%@";
+- (void)ll these transfers, just moving along as a success!;
+- (id)r:(id)arg1 %@   success:%@  error:%@ /* Error: Ran out of types for this method. */;
+- (void)L:(id)arg1 %@  Link:%@ /* Error: Ran out of types for this method. */;
+- (void)by TrustKit:(id)arg1 %@;
 - (void);
 - (unsigned long long);
 - (id);
@@ -52,13 +44,6 @@ __attribute__((visibility("hidden")))
 - (id)¼g;
 
 // Remaining properties
-@property(retain, nonatomic) TIKeyboardCandidate *autocorrectionRecord; // @synthesize autocorrectionRecord=_autocorrectionRecord;
-@property(nonatomic) _Bool forceAutocorrectionGuesses; // @synthesize forceAutocorrectionGuesses=_forceAutocorrectionGuesses;
-@property(nonatomic) _Bool forceHistoryReplacement; // @synthesize forceHistoryReplacement=_forceHistoryReplacement;
-@property(nonatomic) _Bool forceSpellingGuesses; // @synthesize forceSpellingGuesses=_forceSpellingGuesses;
-@property(nonatomic) unsigned long long maxCountAfterAutocorrectionGuesses; // @synthesize maxCountAfterAutocorrectionGuesses=_maxCountAfterAutocorrectionGuesses;
-@property(nonatomic) unsigned long long maxCountAfterSpellingGuesses; // @synthesize maxCountAfterSpellingGuesses=_maxCountAfterSpellingGuesses;
-@property(nonatomic) unsigned long long maxEditDistance; // @synthesize maxEditDistance=_maxEditDistance;
 @property(retain, nonatomic) UITextChecker *textChecker; // @synthesize textChecker=_textChecker;
 
 @end

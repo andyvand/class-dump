@@ -7,17 +7,15 @@
 @interface _NSWindowDesktopIconRectInfo
 {
     struct CGRect _iconRect;
-    struct CGRect _labelRect;
 }
 
 - (void);
-- (void);
-- (struct CGRect);
+- (void);
+- (struct CGRect)XrPbSCNx9X7Lyw9oGPgMDQ;
 - (struct CGRect);
 
 // Remaining properties
 @property struct CGRect iconRect; // @synthesize iconRect=_iconRect;
-@property struct CGRect labelRect; // @synthesize labelRect=_labelRect;
 
 @end
 

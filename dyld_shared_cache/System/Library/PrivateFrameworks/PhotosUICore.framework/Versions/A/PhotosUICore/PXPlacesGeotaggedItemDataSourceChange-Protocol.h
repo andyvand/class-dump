@@ -8,11 +8,9 @@
 
 @protocol PXPlacesGeotaggedItemDataSourceChange
 - (_Bool);
-- (NSSet *)aceholderPlaybackDelegate;
+- (NSSet *)PlaceholderPlaybackDelegate;
 
 // Remaining properties
 @property(readonly) NSSet *addedItems;
-@property(readonly) NSSet *removedItems;
-@property(readonly) NSSet *updatedItems;
 @end
 

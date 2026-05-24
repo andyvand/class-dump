@@ -4,31 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary, NSMutableIndexSet, UXCollectionView, UXCollectionViewData;
+@class NSArray, UXCollectionView;
 
 @interface UXCollectionViewUpdate
 {
     UXCollectionView *_collectionView;
-    NSArray *_updateItems;
-    UXCollectionViewData *_oldModel;
-    UXCollectionViewData *_newModel;
-    struct CGRect _oldVisibleBounds;
-    struct CGRect _newVisibleBounds;
-    NSMutableIndexSet *_movedItems;
-    NSMutableIndexSet *_movedSections;
-    NSMutableIndexSet *_deletedSections;
-    NSMutableIndexSet *_insertedSections;
-    long long *_oldSectionMap;
-    long long *_newSectionMap;
-    long long *_oldGlobalItemMap;
-    long long *_newGlobalItemMap;
-    NSMutableArray *_deletedSupplementaryIndexesSectionArray;
-    NSMutableArray *_insertedSupplementaryIndexesSectionArray;
-    NSMutableDictionary *_deletedSupplementaryTopLevelIndexesDict;
-    NSMutableDictionary *_insertedSupplementaryTopLevelIndexesDict;
-    NSMutableArray *_viewAnimations;
-    NSMutableArray *_gaps;
-    NSArray *_updateItemsSortedByIndexPaths;
 }
 
 - (id);

@@ -11,12 +11,21 @@
 @interface INTypeCodableDescription : INCodableDescription
 {
     NSString *_displayName;
-    NSString *_displayNameLocID;
 }
 
 + (id);
 + (id);
 + (id);
++ (id)_lostNetworkScanCount;
++ (id)void *RapportLibrary(void);
++ (id)A;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -35,19 +44,9 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -64,10 +63,10 @@
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -82,26 +81,26 @@
 + (id)%!ÀCù¿(ð1Â0@ù
 × ;
 + (id)ventTrigger"16@0:8 /* Error: Ran out of types for this method. */;
-+ (id)on: /* Error: Ran out of types for this method. */;
-+ (id)pantIntentParticipantsUnsupportedReason: /* Error: Ran out of types for this method. */;
-+ (id): /* Error: Ran out of types for this method. */;
-+ (id)nary:(id)arg1;
++ (id)setHasTargetEventUnsupportedReason: /* Error: Ran out of types for this method. */;
++ (id)setAddCallParticipantIntentParticipantsUnsupportedReason: /* Error: Ran out of types for this method. */;
++ (id)resolveEnableAutoModeForSetClimateSettingsInCar:completion: /* Error: Ran out of types for this method. */;
++ (id)isEqualToDictionary:(id)arg1;
 + (id)erviceName:messageType:numberOfAttachments: /* Error: Ran out of types for this method. */;
-+ (id)970: /* Error: Ran out of types for this method. */;
-+ (id)t: /* Error: Ran out of types for this method. */;
-+ (id)ry: /* Error: Ran out of types for this method. */;
++ (id)dateWithTimeIntervalSince1970: /* Error: Ran out of types for this method. */;
++ (id)arrayByAddingObject: /* Error: Ran out of types for this method. */;
++ (id)_updateOperatorsForIntent:JSONDictionary: /* Error: Ran out of types for this method. */;
 + (id)rActivity",&,N;
 + (id)imeRange;
 + (id)s;
-+ (id)nit;
++ (id)__INCodableMeasurementAttributeMetadataDefaultUnit;
 + (id)©;
 + (id)ÀÊ0Ë;
-+ (id)rStop;
-+ (id)cYards;
++ (id)isPauseOrStop;
++ (id)CubicYards;
 + (id)me.Size;
-+ (id)lEventTriggerOptionsForSetLabeledSetting:withCompletion: /* Error: Ran out of types for this method. */;
-+ (id)e:withCompletion: /* Error: Ran out of types for this method. */;
-+ (id)imateSettingsInCar:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
++ (id)provideTemporalEventTriggerOptionsForSetLabeledSetting:withCompletion: /* Error: Ran out of types for this method. */;
++ (id)provideContentOptionsForAppendToNote:withCompletion: /* Error: Ran out of types for this method. */;
++ (id)provideFanSpeedIndexOptionsForSetClimateSettingsInCar:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 + (id):] /* Error: Ran out of types for this method. */;
 + (id)om.apple.systempreferences;
 + (id)·¦;
@@ -119,8 +118,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(copy, nonatomic) NSString *displayNameLocID; // @synthesize displayNameLocID=_displayNameLocID;
-@property(readonly, copy) NSString *localizedDisplayName;
 
 @end
 

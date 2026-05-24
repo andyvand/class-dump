@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSDictionary;
 
 @interface _DKSync3FeaturePolicy
 {
     _Bool _isSyncDisabled;
-    _Bool _onlyMultiDevice;
-    _Bool _onlySingleDevice;
-    _Bool _requiresCharging;
-    _Bool _pushTriggersSync;
-    _Bool _additionsCountTowardTriggeredSyncBucket;
-    _Bool _deletionsCountTowardTriggeredSyncBucket;
-    _Bool _additionTriggersImmediateSync;
-    _Bool _deletionTriggersImmediateSync;
-    NSDictionary *_properties;
-    NSString *_name;
-    NSString *_feature;
-    NSArray *_streamNames;
-    NSArray *_sources;
-    NSArray *_destinations;
-    NSString *_transport;
-    unsigned long long _periodicSyncCadenceInMinutes;
-    unsigned long long _oldestEventToSyncInDays;
-    NSArray *_requiresCompanions;
 }
 
 - (id);

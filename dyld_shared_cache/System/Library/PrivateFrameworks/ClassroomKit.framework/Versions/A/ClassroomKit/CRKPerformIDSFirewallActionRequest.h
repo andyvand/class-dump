@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 @interface CRKPerformIDSFirewallActionRequest
 {
     long long _action;
-    NSSet *_allowedAppleIDs;
 }
 
 + (Class);
@@ -18,13 +15,12 @@
 - (id);
 - (id);
 - (void);
-- (long long);
+- (long long)subtitle;
 - (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic) long long action; // @synthesize action=_action;
-@property(copy, nonatomic) NSSet *allowedAppleIDs; // @synthesize allowedAppleIDs=_allowedAppleIDs;
 
 @end
 

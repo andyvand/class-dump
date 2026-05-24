@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXCuratedLibraryLayout, PXCuratedLibraryViewModel;
+@class PXCuratedLibraryLayout, PXCuratedLibraryViewModel;
 
 @interface PXCuratedLibraryVideoPlaybackController
 {
     PXCuratedLibraryViewModel *_viewModel;
-    long long _presentedZoomLevel;
-    long long _newZoomLevel;
-    PXCuratedLibraryLayout *_curatedLibraryLayout;
 }
 
 - (_Bool);
@@ -39,13 +36,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) PXCuratedLibraryLayout *curatedLibraryLayout; // @synthesize curatedLibraryLayout=_curatedLibraryLayout;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

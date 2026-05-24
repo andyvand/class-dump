@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     NSUserDefaults *_defaults;
 }
 
-+ (id);
-- (id);
-- (id);
++ (id);
+- (id);
+- (id)d;
 - (id);
 - (void);
 

@@ -6,28 +6,18 @@
 
 #import <CloudKitDaemon/CKDDatabaseOperation.h>
 
-@class NSArray, NSMutableDictionary, NSMutableSet;
-@protocol CKModifyWebSharingOperationCallbacks><CKDOperationCallbackProxy;
-
 @interface CKDModifyWebSharingOperation : CKDDatabaseOperation
 {
     int _numSaveAttempts;
-    CDUnknownBlockType _recordWebSharedBlock;
-    CDUnknownBlockType _recordWebUnsharedBlock;
-    NSArray *_recordIDsToShare;
-    NSArray *_recordIDsToUnshare;
-    NSArray *_recordIDsToShareReadWrite;
-    NSMutableSet *_fetchedRecordIDs;
-    NSMutableDictionary *_recordsToSaveByID;
 }
 
 + (long long);
-+ (id);
++ (id)setSARState:(unsigned long long)arg1 builtInReceiverOn: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)!;
 - (CDUnknownBlockType);
 - (id);
 - (void);
@@ -37,31 +27,22 @@
 - (struct _PCSIdentityData *);
 - (int);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)8;
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void)�;
+- (id)st_CellularState;
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (void)InfoUrl;
+- (void)chunkInfoUrl;
 
 // Remaining properties
-@property(retain, nonatomic) id <CKModifyWebSharingOperationCallbacks><CKDOperationCallbackProxy> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(retain, nonatomic) NSMutableSet *fetchedRecordIDs; // @synthesize fetchedRecordIDs=_fetchedRecordIDs;
-@property(nonatomic) int numSaveAttempts; // @synthesize numSaveAttempts=_numSaveAttempts;
-@property(retain, nonatomic) NSArray *recordIDsToShare; // @synthesize recordIDsToShare=_recordIDsToShare;
-@property(retain, nonatomic) NSArray *recordIDsToShareReadWrite; // @synthesize recordIDsToShareReadWrite=_recordIDsToShareReadWrite;
-@property(retain, nonatomic) NSArray *recordIDsToUnshare; // @synthesize recordIDsToUnshare=_recordIDsToUnshare;
-@property(copy, nonatomic) CDUnknownBlockType recordWebSharedBlock; // @synthesize recordWebSharedBlock=_recordWebSharedBlock;
-@property(copy, nonatomic) CDUnknownBlockType recordWebUnsharedBlock; // @synthesize recordWebUnsharedBlock=_recordWebUnsharedBlock;
-@property(retain, nonatomic) NSMutableDictionary *recordsToSaveByID; // @synthesize recordsToSaveByID=_recordsToSaveByID;
 @property(nonatomic) unsigned long long state; // @dynamic state;
 
 @end

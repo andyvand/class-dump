@@ -4,35 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TRIPersistedTaskAttribution, TRIPersistedTaskCapabilityModifier;
+@class NSString;
 
 @interface TRIFetchFactorPackSetPersistedTask
 {
 }
 
-+ (id);
++ (id)SignpostIntervalBuilderSource;
 
 // Remaining properties
-@property(retain, nonatomic) TRIPersistedTaskCapabilityModifier *capabilityModifier; // @dynamic capabilityModifier;
-@property(nonatomic) int construct; // @dynamic construct;
-@property(nonatomic) int deploymentId; // @dynamic deploymentId;
-@property(copy, nonatomic) NSString *experimentId; // @dynamic experimentId;
 @property(copy, nonatomic) NSString *factorPackSetId; // @dynamic factorPackSetId;
-@property(nonatomic) _Bool hasCapabilityModifier; // @dynamic hasCapabilityModifier;
-@property(nonatomic) _Bool hasConstruct; // @dynamic hasConstruct;
-@property(nonatomic) _Bool hasDeploymentId; // @dynamic hasDeploymentId;
-@property(nonatomic) _Bool hasExperimentId; // @dynamic hasExperimentId;
-@property(nonatomic) _Bool hasFactorPackSetId; // @dynamic hasFactorPackSetId;
-@property(nonatomic) _Bool hasIsCounterfactualTreatment; // @dynamic hasIsCounterfactualTreatment;
-@property(nonatomic) _Bool hasRetryCount; // @dynamic hasRetryCount;
-@property(nonatomic) _Bool hasRolloutId; // @dynamic hasRolloutId;
-@property(nonatomic) _Bool hasTaskAttribution; // @dynamic hasTaskAttribution;
-@property(nonatomic) _Bool hasTreatmentId; // @dynamic hasTreatmentId;
-@property(nonatomic) _Bool isCounterfactualTreatment; // @dynamic isCounterfactualTreatment;
-@property(nonatomic) int retryCount; // @dynamic retryCount;
-@property(copy, nonatomic) NSString *rolloutId; // @dynamic rolloutId;
-@property(retain, nonatomic) TRIPersistedTaskAttribution *taskAttribution; // @dynamic taskAttribution;
-@property(copy, nonatomic) NSString *treatmentId; // @dynamic treatmentId;
 
 @end
 

@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface RFSchemaRFSnippetRenderingCancelled : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
+- (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)reate BomCopier for zipping;
 - (_Bool);
-- (_Bool);
+- (_Bool)deleting_incoming_messages FROM chat LEFT OUTER JOIN chat_message_join on    chat_id == chat.rowid WHERE    original_group_id = ? AND    service_name = ? ORDER BY    chat_message_join.message_date DESC LIMIT    1;;
 - (id);
 - (id);
-- (id)eQuerySuggestionCandidateTier1:(id)arg1;
+- (id)addAlternateQuerySuggestionCandidateTier1:(id)arg1;
 - (id)TimeInNs;
-- (_Bool)DE_UNKNOWN;
+- (_Bool)SADSIRIMODE_UNKNOWN;
 - (_Bool)ts;
 - (void)ê";
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -4,41 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface XPProcess
 {
     _Bool notarized;
-    NSURL *executable_url;
-    NSString *cdhash;
-    NSString *sha256hash;
-    NSString *signing_identifier;
-    NSString *team_identifier;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)G;
+- (id);
+- (void)nalizationDisplayedPseudocount;
+- (id)setSource: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *cdhash; // @synthesize cdhash;
 @property(readonly, nonatomic) NSURL *executable_url; // @synthesize executable_url;
-@property(readonly, nonatomic) _Bool notarized; // @synthesize notarized;
-@property(readonly, nonatomic) NSString *sha256hash; // @synthesize sha256hash;
-@property(readonly, nonatomic) NSString *signing_identifier; // @synthesize signing_identifier;
-@property(readonly, nonatomic) NSString *team_identifier; // @synthesize team_identifier;
 
 @end
 

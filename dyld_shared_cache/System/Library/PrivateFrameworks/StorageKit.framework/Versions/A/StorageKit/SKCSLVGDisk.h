@@ -6,12 +6,11 @@
 
 #import <StorageKit/SKDisk.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SKCSLVGDisk : SKDisk
 {
     NSString *_csLVGUUID;
-    NSArray *_csPVChildrenUUIDs;
 }
 
 - (void);
@@ -20,19 +19,18 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)#;
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool);
+- (void)u;
+- (void)h(8";
 
 // Remaining properties
 @property(retain) NSString *csLVGUUID; // @synthesize csLVGUUID=_csLVGUUID;
-@property(retain) NSArray *csPVChildrenUUIDs; // @synthesize csPVChildrenUUIDs=_csPVChildrenUUIDs;
 
 @end
 

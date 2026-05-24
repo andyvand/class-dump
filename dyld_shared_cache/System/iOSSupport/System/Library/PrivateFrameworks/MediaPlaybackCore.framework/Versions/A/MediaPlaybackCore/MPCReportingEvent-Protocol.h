@@ -5,5 +5,6 @@
 //
 
 @protocol MPCReportingEvent
+- (_Bool):8@16@24@?32 /* Error: Ran out of types for this method. */;
 @end
 

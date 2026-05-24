@@ -9,8 +9,6 @@
 @interface _CLLSLLocation
 {
     _CLLSLLocationCoordinate *_coordinate;
-    double _altitude;
-    double _timestamp;
 }
 
 + (_Bool);
@@ -18,23 +16,22 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (double);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)oxes (%u)
+;
+- (id);
 - (id);
 - (double);
+- (void)`;
 - (id);
-- (id)eashTime;
+- (void);
+- (void)"MTLTextureDescriptor"16;
+- (id)setPrivateFunctionResourceIndices:(struct _NSZone *)arg1;
+- (double)lySupports32BitMSAA;
+- (id);
+- (id)dualLeashTime;
 
 // Remaining properties
-@property(nonatomic) double altitude; // @synthesize altitude=_altitude;
 @property(copy, nonatomic) _CLLSLLocationCoordinate *coordinate; // @synthesize coordinate=_coordinate;
-@property(nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

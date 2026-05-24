@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSString, SAUIDecoratedText;
+@class SAUIDecoratedText;
 
 @interface SASTSpecificAnswerItem : AceObject
 {
@@ -14,11 +14,11 @@
 
 + (id);
 + (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)NearestNeighborSearch.search;
 - (id);
 - (id);
 - (id);
@@ -26,17 +26,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(retain, nonatomic) SAUIDecoratedText *decoratedFooter;
-@property(retain, nonatomic) SAUIDecoratedText *decoratedValue;
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *footer;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *value;
 
 @end
 

@@ -4,33 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
-
 @interface FCSmarterMessagingConfig
 {
     _Bool _todayFeedMastheadBannerEnabledForSubscribers;
-    _Bool _discoverNewsPlusBubbleTipEnabled;
-    long long _lowChurnPropensitySegmentSetId;
-    long long _mediumChurnPropensitySegmentSetId;
-    long long _highChurnPropensitySegmentSetId;
-    NSArray *_segmentSetIdsAllowlist;
-    NSArray *_placementsBlocklist;
-    NSDictionary *_engagementUpsellConfig;
-    long long _maxEnableNotificationBubbleTipPresentations;
-    long long _notificationBubbleTipPresentationsQuiescenceInterval;
-    long long _maxSportsOnboardingBubbleTipPresentations;
-    long long _sportsBubbleTipPresentationsQuiescenceInterval;
-    long long _maxSportsScoresBubbleTipPresentations;
-    long long _sportsScoresBubbleTipPresentationsQuiescenceInterval;
-    long long _maxPuzzleHubInfoBubbleTipPresentations;
-    long long _puzzleHubInfoBubbleTipPresentationsQuiescenceInterval;
-    NSString *_puzzleHubInfoBubbleTipTitle;
-    NSString *_puzzleHubInfoBubbleTipBody;
-    NSString *_puzzleHubInfoBubbleTipIconUrl;
-    NSString *_discoverNewsPlusBubbleTipTitle;
-    NSString *_discoverNewsPlusBubbleTipBody;
-    long long _maxNewsPlusStoriesBubbleTipPresentations;
-    long long _newsPlusStoriesBubbleTipPresentationsQuiescenceInterval;
 }
 
 - (void);
@@ -43,51 +19,29 @@
 - (void);
 - (void);
 - (id);
+- (id)Warmth;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)7;
 - (long long);
 - (id);
-- (long long);
+- (long long);
 - (long long);
 - (_Bool);
 - (long long);
-- (long long);
-- (long long);
+- (long long)npostSupportSubsystemCategoryAllowlist",R;
+- (long long)ourceSameAs:] /* Error: Ran out of types for this method. */;
 - (id);
 - (long long);
-- (void);
-- (id);
-- (long long)hannelTagIDs;
+- (void);
+- (id)OnlyEmojis){let a=o.nodeType===Node.TEXT_NODE?o.parentElement:(id)arg1 o;if(a.className==MFMailBigEmojiAttribute)this._enableBigEmoji(a);else{let o=e.createElement("span");o.innerHTML+=i,this._enableBigEmoji(o);let a=n.getRangeAt(0);a.insertNode(o),n.setPosition(a.endContainer,a.endOffset),t.preventDefault()}this.newParagraphInserted=!1}else if(!this.hasOnlyEmojis||!this.hasValidNumOfEmojis){let e=this._getCurrentEmojiElement(o);if(e){let t=e.parentElement;(e.className==MFMailBigEmojiAttribute||"SPAN"==e.tagName&&"xxx-large"==e.style.fontSize)&&(this._disableBigEmoji(e),"FONT"==t.tagName?this._disableBigEmoji(t):t.className==MFMailBigEmojiAttribute&&this._disableBigEmoji(t)),"FONT"==e.tagName&&e.size==largeInheritedFontSize?this._disableBigEmoji(e):"FONT"==t.tagName&&t.size==largeInheritedFontSize&&this._disableBigEmoji(t)}}isQuickReplyEnabled&&(updateQuickReplyHeight(e,window),window.webkit.messageHandlers.MessageBodyIsEmpty.postMessage("\n"===e.firstChild.stringValue()))},manageBeforeDelete:function(e){let t=e.anchorNode,i=t.wholeText?t.wholeText:t.textContent;if(t&&!this._isInsideQuoteOrSignature(t)){let n=(i=this._removeSignatureFromEmojiCount(i,document)).match(document.stringToArrayRegex),o=t.parentElement;if(this._updateCounts(n),"cut"==event.type){let i=e.anchorOffset,n=e.focusOffset,a=t.wholeText.slice(i,n);document.emojiRegex.test(a)?numberOfEmojis=numberOfEmojis<0?0:numberOfEmojis-a.length:numberOfOtherCharacters=numberOfOtherCharacters<0?0:numberOfOtherCharacters-a.length,this._checkEmojiFontSize(),this.hasValidNumOfEmojis&&this.hasOnlyEmojis&&o?this._enableBigEmoji(o):this.hasValidNumOfEmojis&&this.hasOnlyEmojis||!o||o.className!=MFMailBigEmojiAttribute||this._disableBigEmoji(o)}else 1==n.length&&1==numberOfEmojis&&(o="BODY"==t.tagName?document.querySelector("."+MFMailBigEmojiAttribute):o,this._disableBigEmoji(o))}},manageReplacementText:function(e){let t=e.anchorNode;if(t&&!this._isInsideQuoteOrSignature(t)){let n=e.anchorNode.wholeText;var i=n?n.match(document.stringToArrayRegex):[];this._updateCounts(i),this._checkEmojiFontSize();let o=t.parentElement;if(o&&this.hasValidNumOfEmojis&&this.hasOnlyEmojis)if(o.className==MFMailBigEmojiAttribute||"SPAN"==o.nodeName)this._enableBigEmoji(o);else{let e=document.createElement("span");e.innerHTML+=n,this._enableBigEmoji(e),t.parentNode.insertBefore(e,t),t.parentNode.removeChild(t),this._placeCaretAfter(e),event.preventDefault()}else o.className==MFMailBigEmojiAttribute&&this._disableBigEmoji(o)}},manageCurrentEmojiFontSize:function(){let e=document.getSelection(),t=e.anchorNode,i=e.anchorNode.wholeText;if(this.newParagraphInserted=!i,t&&!this._isInsideQuoteOrSignature(t)){var n=i?i.match(document.stringToArrayRegex):[];this._updateCounts(n),this._checkEmojiFontSize();let e=t.parentElement;this.hasValidNumOfEmojis&&this.hasOnlyEmojis&&e?this._enableBigEmoji(e):e.className==MFMailBigEmojiAttribute&&this._disableBigEmoji(e)}},_enableBigEmoji:function(e){e.setAttribute("style","font-size:"+bigEmojiFontSize),e.className=MFMailBigEmojiAttribute},_disableBigEmoji:function(e){"FONT"==e.tagName?e.setAttribute("size",defaultEmojiFontSize):(e.setAttribute("style","font-size:"+defaultEmojiFontSize),e.removeAttribute("class"))},_locateSignatureDiv:function(e){let t=e.body.querySelectorAll(`div[id="${MFHtmlIDSignature}"]`);for(let e=0;e<t.length;++e){let i=t.item(e);if(!i.mf_isQuoteOrWithinQuote())return i}return null},_updateCounts:function(e){numberOfEmojis=0,numberOfOtherCharacters=0,e.map(e=>{document.whitespaceRegex.test(e)||(document.emojiRegex.test(e)?numberOfEmojis+=1:numberOfOtherCharacters+=1)})},_getCurrentEmojiElement:function(e){return"BODY"==e.tagName?document.querySelector(".AppleMailBigEmoji"):e.nodeType===Node.TEXT_NODE?e.parentElement:e},_removeSignatureFromEmojiCount:function(e,t){if(this._locateSignatureDiv(t)){var i=this._locateSignatureDiv(t).textContent.trim();return e.trim().includes(i.trim())&&(e=e.trim().replace(i.trim(),"")),e}return e},_checkEmojiFontSize:function(){this.hasValidNumOfEmojis=numberOfEmojis<=maxNumberBigEmoji&&numberOfEmojis>0,this.hasOnlyEmojis=0==numberOfOtherCharacters},_isInsideQuoteOrSignature:function(e){let t=e.mf_containingBlockQuote(),i=e.mf_isDescendantOfNode(this._locateSignatureDiv(document));return t||i},_placeCaretAfter:function(e){if(e.focus(),"undefined"!=typeof window.getSelection&&"undefined"!=typeof document.createRange){var t=document.createRange();t.setStartAfter(e),t.collapse(!0);var i=window.getSelection();i.removeAllRanges(),i.addRange(t)}else if("undefined"!=typeof document.body.createTextRange){var n=document.body.createTextRange();n.moveToElementText(e),n.collapse(!1),n.select()}},stripCustomBodyIdentifiers:function(){let e=document.querySelectorAll("[class=AppleMailBigEmoji]");e.length>0&&e.forEach(function(e){e.removeAttribute("class")})}}; /* Error: Ran out of types for this method. */;
+- (long long)channelTagIDs;
 - (id)ollowedIssues;
 - (long long)$þ;
 - (void)5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCNotificationsEndpointConnection.m;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *discoverNewsPlusBubbleTipBody; // @synthesize discoverNewsPlusBubbleTipBody=_discoverNewsPlusBubbleTipBody;
-@property(readonly, nonatomic) _Bool discoverNewsPlusBubbleTipEnabled; // @synthesize discoverNewsPlusBubbleTipEnabled=_discoverNewsPlusBubbleTipEnabled;
-@property(copy, nonatomic) NSString *discoverNewsPlusBubbleTipTitle; // @synthesize discoverNewsPlusBubbleTipTitle=_discoverNewsPlusBubbleTipTitle;
-@property(readonly, copy, nonatomic) NSDictionary *engagementUpsellConfig; // @synthesize engagementUpsellConfig=_engagementUpsellConfig;
-@property(readonly, nonatomic) long long highChurnPropensitySegmentSetId; // @synthesize highChurnPropensitySegmentSetId=_highChurnPropensitySegmentSetId;
 @property(readonly, nonatomic) long long lowChurnPropensitySegmentSetId; // @synthesize lowChurnPropensitySegmentSetId=_lowChurnPropensitySegmentSetId;
-@property(readonly, nonatomic) long long maxEnableNotificationBubbleTipPresentations; // @synthesize maxEnableNotificationBubbleTipPresentations=_maxEnableNotificationBubbleTipPresentations;
-@property(readonly, nonatomic) long long maxNewsPlusStoriesBubbleTipPresentations; // @synthesize maxNewsPlusStoriesBubbleTipPresentations=_maxNewsPlusStoriesBubbleTipPresentations;
-@property(readonly, nonatomic) long long maxPuzzleHubInfoBubbleTipPresentations; // @synthesize maxPuzzleHubInfoBubbleTipPresentations=_maxPuzzleHubInfoBubbleTipPresentations;
-@property(readonly, nonatomic) long long maxSportsOnboardingBubbleTipPresentations; // @synthesize maxSportsOnboardingBubbleTipPresentations=_maxSportsOnboardingBubbleTipPresentations;
-@property(readonly, nonatomic) long long maxSportsScoresBubbleTipPresentations; // @synthesize maxSportsScoresBubbleTipPresentations=_maxSportsScoresBubbleTipPresentations;
-@property(readonly, nonatomic) long long mediumChurnPropensitySegmentSetId; // @synthesize mediumChurnPropensitySegmentSetId=_mediumChurnPropensitySegmentSetId;
-@property(readonly, nonatomic) long long newsPlusStoriesBubbleTipPresentationsQuiescenceInterval; // @synthesize newsPlusStoriesBubbleTipPresentationsQuiescenceInterval=_newsPlusStoriesBubbleTipPresentationsQuiescenceInterval;
-@property(readonly, nonatomic) long long notificationBubbleTipPresentationsQuiescenceInterval; // @synthesize notificationBubbleTipPresentationsQuiescenceInterval=_notificationBubbleTipPresentationsQuiescenceInterval;
-@property(readonly, copy, nonatomic) NSArray *placementsBlocklist; // @synthesize placementsBlocklist=_placementsBlocklist;
-@property(copy, nonatomic) NSString *puzzleHubInfoBubbleTipBody; // @synthesize puzzleHubInfoBubbleTipBody=_puzzleHubInfoBubbleTipBody;
-@property(copy, nonatomic) NSString *puzzleHubInfoBubbleTipIconUrl; // @synthesize puzzleHubInfoBubbleTipIconUrl=_puzzleHubInfoBubbleTipIconUrl;
-@property(readonly, nonatomic) long long puzzleHubInfoBubbleTipPresentationsQuiescenceInterval; // @synthesize puzzleHubInfoBubbleTipPresentationsQuiescenceInterval=_puzzleHubInfoBubbleTipPresentationsQuiescenceInterval;
-@property(copy, nonatomic) NSString *puzzleHubInfoBubbleTipTitle; // @synthesize puzzleHubInfoBubbleTipTitle=_puzzleHubInfoBubbleTipTitle;
-@property(readonly, copy, nonatomic) NSArray *segmentSetIdsAllowlist; // @synthesize segmentSetIdsAllowlist=_segmentSetIdsAllowlist;
-@property(readonly, nonatomic) long long sportsBubbleTipPresentationsQuiescenceInterval; // @synthesize sportsBubbleTipPresentationsQuiescenceInterval=_sportsBubbleTipPresentationsQuiescenceInterval;
-@property(readonly, nonatomic) long long sportsScoresBubbleTipPresentationsQuiescenceInterval; // @synthesize sportsScoresBubbleTipPresentationsQuiescenceInterval=_sportsScoresBubbleTipPresentationsQuiescenceInterval;
-@property(readonly, nonatomic) _Bool todayFeedMastheadBannerEnabledForSubscribers; // @synthesize todayFeedMastheadBannerEnabledForSubscribers=_todayFeedMastheadBannerEnabledForSubscribers;
 
 @end
 

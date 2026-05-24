@@ -9,7 +9,6 @@
 @interface OSPConfigureRequestOperation : OSPOperation
 {
     _Bool _mountedPreboot;
-    int _prebootLockDescriptor;
 }
 
 - (void);
@@ -24,11 +23,10 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)Settings to %@;
 
 // Remaining properties
 @property _Bool mountedPreboot; // @synthesize mountedPreboot=_mountedPreboot;
-@property int prebootLockDescriptor; // @synthesize prebootLockDescriptor=_prebootLockDescriptor;
 
 @end
 

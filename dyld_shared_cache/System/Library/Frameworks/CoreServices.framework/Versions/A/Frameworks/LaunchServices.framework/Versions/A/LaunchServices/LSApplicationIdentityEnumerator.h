@@ -6,15 +6,12 @@
 
 #import <LaunchServices/LSEnumerator.h>
 
-@class LSApplicationRecord, NSEnumerator, NSError, _LSApplicationRecordEnumerator;
+@class NSError;
 
 __attribute__((visibility("hidden")))
 @interface LSApplicationIdentityEnumerator : LSEnumerator
 {
     NSError *_ctxError;
-    _LSApplicationRecordEnumerator *_recordEnumerator;
-    LSApplicationRecord *_currentRecord;
-    NSEnumerator *_currentRecordIdentitiesEnumerator;
 }
 
 - (id);

@@ -6,22 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ODDSiriSchemaODDAssistantDimensions, SISchemaUUID;
+@class ODDSiriSchemaODDAssistantDimensions;
 
 @interface ODDSiriSchemaODDAssistantExperimentDimensions : SISchemaInstrumentationMessage
 {
     ODDSiriSchemaODDAssistantDimensions *_assistantDimensions;
-    int _experimentAllocationStatus;
-    _Bool _isTriggered;
-    _Bool _isFirstTriggerOrAfterFirstTrigger;
-    SISchemaUUID *_codePathId;
-    struct {
-        unsigned int experimentAllocationStatus:1;
-        unsigned int isTriggered:1;
-        unsigned int isFirstTriggerOrAfterFirstTrigger:1;
-    } _has;
-    _Bool _hasAssistantDimensions;
-    _Bool _hasCodePathId;
 }
 
 - (void);
@@ -30,8 +19,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)�c;
+- (void)R";
 - (void);
 - (_Bool);
 - (_Bool);
@@ -42,9 +31,9 @@
 - (_Bool);
 - (int);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -60,20 +49,10 @@
 × ;
 - (id)ponseCount;
 - (id)&,N,V_eventMetadata;
-- (void)ISM;
+- (void)QDMATCHINGTRANSFORM_CONTACT_HYPOCORISM;
 
 // Remaining properties
 @property(retain, nonatomic) ODDSiriSchemaODDAssistantDimensions *assistantDimensions; // @synthesize assistantDimensions=_assistantDimensions;
-@property(retain, nonatomic) SISchemaUUID *codePathId; // @synthesize codePathId=_codePathId;
-@property(nonatomic) int experimentAllocationStatus; // @synthesize experimentAllocationStatus=_experimentAllocationStatus;
-@property(nonatomic) _Bool hasAssistantDimensions; // @synthesize hasAssistantDimensions=_hasAssistantDimensions;
-@property(nonatomic) _Bool hasCodePathId; // @synthesize hasCodePathId=_hasCodePathId;
-@property(nonatomic) _Bool hasExperimentAllocationStatus;
-@property(nonatomic) _Bool hasIsFirstTriggerOrAfterFirstTrigger;
-@property(nonatomic) _Bool hasIsTriggered;
-@property(nonatomic) _Bool isFirstTriggerOrAfterFirstTrigger; // @synthesize isFirstTriggerOrAfterFirstTrigger=_isFirstTriggerOrAfterFirstTrigger;
-@property(nonatomic) _Bool isTriggered; // @synthesize isTriggered=_isTriggered;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

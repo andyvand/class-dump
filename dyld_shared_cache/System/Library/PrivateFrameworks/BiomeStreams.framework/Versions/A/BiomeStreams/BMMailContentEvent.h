@@ -4,33 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMNamedHandle, BMPBMailContentEvent, NSArray, NSData, NSDate, NSDictionary, NSNumber, NSString;
+@class NSData, NSString;
 
 @interface BMMailContentEvent
 {
     NSData *_data;
-    BMPBMailContentEvent *_proto;
-    struct os_unfair_lock_s _protoLock;
-    NSString *_uniqueId;
-    NSString *_domainId;
-    NSString *_personaId;
-    BMNamedHandle *_fromHandle;
-    NSArray *_toHandles;
-    NSArray *_ccHandles;
-    NSArray *_bccHandles;
-    NSDictionary *_headers;
-    BMNamedHandle *_replyTo;
-    BMNamedHandle *_listId;
-    NSArray *_attachments;
-    NSDate *_dateReceived;
-    NSNumber *_mailCategories;
-    NSNumber *_isNew;
-    NSNumber *_isTwoFactorCode;
-    NSNumber *_isFromMe;
-    NSNumber *_isJunk;
-    NSNumber *_isRead;
-    NSNumber *_isVIP;
-    NSNumber *_isFlagged;
 }
 
 + (id);
@@ -51,81 +29,37 @@
 - (id);
 - (id);
 - (id);
+- (id)atrix:Matrix is non-invertible. /* Error: Ran out of types for this method. */;
+- (id)decode result=%s;
+- (id)DataPackets=%hu > totalReceivedParityPackets=%hu, decode result=%s;
+- (id)e speech recognizer already exists!!;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned int);
-- (id);
+- (unsigned int)I;
+- (id)A;
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)(5;
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)`;
 - (_Bool);
 - (void);
 - (id);
 - (id);
+- (id)@9A;
 - (id);
-- (id);
-- (id)eDelta:pseContents: /* Error: Ran out of types for this method. */;
+- (id)initWithDomain:action:isPostSiriEngagement:pseDelta:pseContents: /* Error: Ran out of types for this method. */;
 - (id){;
-- (id);
+- (id)eventCorrelationIdentifier;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) double absoluteTimestamp; // @dynamic absoluteTimestamp;
-@property(readonly, nonatomic) NSArray *accountHandles; // @dynamic accountHandles;
-@property(readonly, nonatomic) NSString *accountIdentifier; // @dynamic accountIdentifier;
-@property(readonly, nonatomic) NSString *accountType; // @dynamic accountType;
-@property(readonly, nonatomic) NSArray *attachments; // @synthesize attachments=_attachments;
-@property(readonly, nonatomic) NSArray *bccHandles; // @synthesize bccHandles=_bccHandles;
-@property(readonly, nonatomic) NSString *bundleId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSArray *ccHandles; // @synthesize ccHandles=_ccHandles;
-@property(readonly, nonatomic) NSString *contentProtection; // @dynamic contentProtection;
-@property(readonly, nonatomic) NSString *conversationId; // @dynamic conversationId;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, nonatomic) NSDate *dateReceived; // @synthesize dateReceived=_dateReceived;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *domainId; // @synthesize domainId=_domainId;
-@property(readonly, nonatomic) BMNamedHandle *fromHandle; // @synthesize fromHandle=_fromHandle;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSDictionary *headers; // @synthesize headers=_headers;
-@property(readonly, nonatomic) NSData *htmlContent; // @dynamic htmlContent;
-@property(readonly, nonatomic) NSNumber *isFlagged; // @synthesize isFlagged=_isFlagged;
-@property(readonly, nonatomic) NSNumber *isFromMe; // @synthesize isFromMe=_isFromMe;
-@property(readonly, nonatomic) _Bool isFullyDownloaded; // @dynamic isFullyDownloaded;
-@property(readonly, nonatomic) NSNumber *isJunk; // @synthesize isJunk=_isJunk;
-@property(readonly, nonatomic) NSNumber *isNew; // @synthesize isNew=_isNew;
-@property(readonly, nonatomic) NSNumber *isRead; // @synthesize isRead=_isRead;
-@property(readonly, nonatomic) NSNumber *isTwoFactorCode; // @synthesize isTwoFactorCode=_isTwoFactorCode;
-@property(readonly, nonatomic) NSNumber *isVIP; // @synthesize isVIP=_isVIP;
-@property(readonly, nonatomic) BMNamedHandle *listId; // @synthesize listId=_listId;
-@property(readonly, nonatomic) NSNumber *mailCategories; // @synthesize mailCategories=_mailCategories;
-@property(readonly, nonatomic) NSArray *mailboxIdentifiers; // @dynamic mailboxIdentifiers;
-@property(readonly, nonatomic) NSString *messageIdentifier; // @dynamic messageIdentifier;
-@property(readonly, nonatomic) NSString *personaId; // @synthesize personaId=_personaId;
-@property(readonly, nonatomic) BMNamedHandle *replyTo; // @synthesize replyTo=_replyTo;
-@property(readonly, nonatomic) NSString *securityMethod; // @dynamic securityMethod;
-@property(readonly, nonatomic) NSString *subject; // @dynamic subject;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *textContent; // @dynamic textContent;
-@property(readonly, nonatomic) NSArray *toHandles; // @synthesize toHandles=_toHandles;
 @property(readonly, nonatomic) NSString *uniqueId; // @synthesize uniqueId=_uniqueId;
 
 @end

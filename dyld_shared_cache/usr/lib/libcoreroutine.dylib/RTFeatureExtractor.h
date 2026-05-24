@@ -6,75 +6,63 @@
 
 #import <coreroutine/RTService.h>
 
-@class RTEventManager, RTHealthKitManager, RTHomeKitManager, RTLearnedLocationManager, RTLocationManager, RTMapsSupportManager, RTMotionActivityManager, RTNavigationManager, RTPredictedContextMetricsManager, RTTripLocationPropagator, RTVehicleLocationProvider, RTVisitConsolidator, RTVisitManager;
+@class RTLearnedLocationManager;
 
 @interface RTFeatureExtractor : RTService
 {
     RTLearnedLocationManager *_learnedLocationManager;
-    RTVisitManager *_visitManager;
-    RTLocationManager *_locationManager;
-    RTEventManager *_eventManager;
-    RTNavigationManager *_navigationManager;
-    RTMapsSupportManager *_mapsSupportManager;
-    RTMotionActivityManager *_motionActivityManager;
-    RTVehicleLocationProvider *_vehicleLocationProvider;
-    RTVisitConsolidator *_visitConsolidator;
-    RTHealthKitManager *_healthKitManager;
-    RTHomeKitManager *_homeKitManager;
-    RTTripLocationPropagator *_tripLocationPropagator;
-    RTPredictedContextMetricsManager *_metricsManager;
 }
 
 + (id);
-+ (long long);
-+ (void);
-+ (id);
-+ (id);
++ (long long)setRemoveFromRegistry:(unsigned long long)arg1;
++ (void)_primarySerializedEscrowRecord;
++ (id)Object<OS_os_log>",&,V_oslog;
++ (id)ed key :(id)arg1 %@;
 - (id);
 - (void);
 - (void);
 - (id);
+- (id)PCSAccountManager;
 - (id);
 - (id);
+- (id)m4dqUNNTVc8NKrKayvkXpWh+FPLQ3vCqWU1vOM99DQZjPsAo=;
+- (id)D2wVhal94Q6uhY1DrHpRPqQtAMnoA=;
+- (id)PCSIdentityCopyExternalForm;
+- (id)SyntheticManateeSharing;
+- (id)W EC KEY;
+- (id)loudStorage.GuitarfishRepairCompleted;
+- (id).apple.ProtectedCloudStorage.RemovedCredentials;
+- (id)apple.ProtectedCloudStorage.HaveCredentials;
+- (id)kmarks;
+- (id)ManateeSharingTesting;
+- (id)e.news.private.secure2;
+- (id)Messages;
+- (id)pple.KTAccountKey;
+- (id)ordGeneration provided, unable to attempt HSM p_password recovery;
+- (void);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void);
+- (void);
+- (id)@;
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)�;
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)`1;
 - (id);
 - (id);
 - (void)ce"16@0:(id)arg1 8;
 - (void)ItemStorage"32@"GEOMapItemStorage"40@?<v@?@"NSError">48;
 - (id)ÿ2;
-- (void)connection_others;
+- (void)percentage_of_days_with_uninterrupted_WiFi_connection_others;
 - (void)sitive}f, number of weeks for prediction, %{sensitive}d, sparse mode, %@;
 - (void)iplier >= 1;
 - (id)egion, %{sensitive}@;
@@ -84,19 +72,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) RTEventManager *eventManager; // @synthesize eventManager=_eventManager;
-@property(retain, nonatomic) RTHealthKitManager *healthKitManager; // @synthesize healthKitManager=_healthKitManager;
-@property(retain, nonatomic) RTHomeKitManager *homeKitManager; // @synthesize homeKitManager=_homeKitManager;
 @property(retain, nonatomic) RTLearnedLocationManager *learnedLocationManager; // @synthesize learnedLocationManager=_learnedLocationManager;
-@property(retain, nonatomic) RTLocationManager *locationManager; // @synthesize locationManager=_locationManager;
-@property(retain, nonatomic) RTMapsSupportManager *mapsSupportManager; // @synthesize mapsSupportManager=_mapsSupportManager;
-@property(retain, nonatomic) RTPredictedContextMetricsManager *metricsManager; // @synthesize metricsManager=_metricsManager;
-@property(retain, nonatomic) RTMotionActivityManager *motionActivityManager; // @synthesize motionActivityManager=_motionActivityManager;
-@property(retain, nonatomic) RTNavigationManager *navigationManager; // @synthesize navigationManager=_navigationManager;
-@property(retain, nonatomic) RTTripLocationPropagator *tripLocationPropagator; // @synthesize tripLocationPropagator=_tripLocationPropagator;
-@property(retain, nonatomic) RTVehicleLocationProvider *vehicleLocationProvider; // @synthesize vehicleLocationProvider=_vehicleLocationProvider;
-@property(retain, nonatomic) RTVisitConsolidator *visitConsolidator; // @synthesize visitConsolidator=_visitConsolidator;
-@property(retain, nonatomic) RTVisitManager *visitManager; // @synthesize visitManager=_visitManager;
 
 @end
 

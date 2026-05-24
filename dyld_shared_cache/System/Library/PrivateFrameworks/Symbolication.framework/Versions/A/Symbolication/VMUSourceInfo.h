@@ -9,15 +9,13 @@
 @interface VMUSourceInfo
 {
     NSString *_path;
-    NSString *_fileName;
-    unsigned int _lineNumber;
 }
 
 - (id);
 - (unsigned int);
 - (id);
 - (id);
-- (void);
+- (void)_changeMainButtonToEnterScreenTimePasscode;
 
 @end
 

@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AVQueuePlayerInternal
 {
     AVQueuePlayerObservationRegistrar *observationRegistrar;
-    _Bool isOverlapCurrentlyAllowed;
-    struct OpaqueFigSimpleMutex *ivarMutex;
 }
 
 @end

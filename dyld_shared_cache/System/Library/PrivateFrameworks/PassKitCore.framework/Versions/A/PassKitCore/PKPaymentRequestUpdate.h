@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PKAutomaticReloadPaymentRequest, PKDeferredPaymentRequest, PKRecurringPaymentRequest, PKShippingMethods;
+@class NSArray, PKShippingMethods;
 
 @interface PKPaymentRequestUpdate
 {
     PKShippingMethods *_availableShippingMethods;
-    long long _status;
-    NSArray *_paymentSummaryItems;
-    NSArray *_multiTokenContexts;
-    PKRecurringPaymentRequest *_recurringPaymentRequest;
-    PKAutomaticReloadPaymentRequest *_automaticReloadPaymentRequest;
-    PKDeferredPaymentRequest *_deferredPaymentRequest;
-    NSArray *_contentItems;
 }
 
 + (_Bool);
@@ -26,8 +19,8 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -37,22 +30,14 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)clearRxmpduWMEs;
 - (long long);
 - (void);
 - (id);
 - (void)pple.passbook.peerpayment.in.topup;
 
 // Remaining properties
-@property(retain, nonatomic) PKAutomaticReloadPaymentRequest *automaticReloadPaymentRequest; // @synthesize automaticReloadPaymentRequest=_automaticReloadPaymentRequest;
-@property(copy, nonatomic) PKShippingMethods *availableShippingMethods; // @synthesize availableShippingMethods=_availableShippingMethods;
 @property(copy, nonatomic) NSArray *contentItems; // @synthesize contentItems=_contentItems;
-@property(retain, nonatomic) PKDeferredPaymentRequest *deferredPaymentRequest; // @synthesize deferredPaymentRequest=_deferredPaymentRequest;
-@property(copy, nonatomic) NSArray *multiTokenContexts; // @synthesize multiTokenContexts=_multiTokenContexts;
-@property(copy, nonatomic) NSArray *paymentSummaryItems; // @synthesize paymentSummaryItems=_paymentSummaryItems;
-@property(retain, nonatomic) PKRecurringPaymentRequest *recurringPaymentRequest; // @synthesize recurringPaymentRequest=_recurringPaymentRequest;
-@property(copy, nonatomic) NSArray *shippingMethods;
-@property(nonatomic) long long status; // @synthesize status=_status;
 
 @end
 

@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLocationShifter, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface FMLocationShifter
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_semaphore> *_semaphore;
-    GEOLocationShifter *_locationShifter;
 }
 
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
+- (void)_registeredHWMgrCallbacks;
+- (id)_referencedAppIDs;
+- (id)_records;
+- (_Bool)_outTotalAPDUExecutionDuration;
+- (_Bool)_ignoreRFTechOnIsEqual;
+- (void)sions.framework/Versions/A/DiagnosticExtensions;
 - (void);
 - (id);
 - (id);
@@ -30,9 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) GEOLocationShifter *locationShifter; // @synthesize locationShifter=_locationShifter;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSObject<OS_dispatch_semaphore> *semaphore; // @synthesize semaphore=_semaphore;
 
 @end
 

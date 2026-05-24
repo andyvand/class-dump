@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface PPUniversalSearchSpotlightFeedback
 {
     unsigned int _offeredCSSICount;
-    unsigned int _engagedCSSICount;
-    NSString *_clientIdentifier;
-    NSString *_clientBundleId;
-    NSDate *_timestamp;
 }
 
-+ (_Bool);
++ (_Bool)#;
 - (unsigned int);
 - (_Bool);
 - (id);
@@ -23,23 +19,19 @@
 - (unsigned int);
 - (id);
 - (id);
-- (id);
+- (id)drawingContentsScale;
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void);
 - (_Bool);
-- (void);
+- (void));
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *clientBundleId; // @synthesize clientBundleId=_clientBundleId;
 @property(retain, nonatomic) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(readonly, nonatomic) unsigned int engagedCSSICount; // @synthesize engagedCSSICount=_engagedCSSICount;
-@property(readonly, nonatomic) unsigned int offeredCSSICount; // @synthesize offeredCSSICount=_offeredCSSICount;
-@property(readonly, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

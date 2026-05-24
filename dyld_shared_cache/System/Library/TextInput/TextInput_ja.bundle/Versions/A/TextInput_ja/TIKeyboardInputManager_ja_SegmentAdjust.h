@@ -4,34 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, TIWordSearch;
+@class NSString, TIWordSearch;
 
 @interface TIKeyboardInputManager_ja_SegmentAdjust
 {
     _Bool _romajiEnabled;
     TIWordSearch *_wordSearch;
-    NSArray *_segments;
-    unsigned long long _index;
-    unsigned long long _breaktAt;
-    NSString *_inputString;
-    NSString *_composingInputString;
-    NSString *_contextString;
-    NSArray *_contextSegments;
-    unsigned long long _segmentLength;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)|;
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)k
+;
 - (id);
 - (void);
 - (void);
@@ -40,36 +33,29 @@
 - (_Bool);
 - (void);
 - (id);
+- (unsigned long long)y ;
+- (void);
+- (id);
+- (id)`;
+- (void);
+- (unsigned int)U;
+- (id);
+- (void);
+- (_Bool);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool)phNciNfc_CoreValidateRfMgtCmd;
 - (unsigned long long);
-- (void);
-- (id);
-- (id);
-- (void);
-- (unsigned int);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (void);
+- (void)ary for argument %@ on kernel %@;
 - (_Bool);
 - (void);
 - (_Bool);
-- (id)aries;
+- (id)loadDictionaries;
 
 // Remaining properties
 @property(nonatomic) unsigned long long breaktAt; // @synthesize breaktAt=_breaktAt;
-@property(readonly, nonatomic) NSString *composingInputString; // @synthesize composingInputString=_composingInputString;
-@property(copy, nonatomic) NSArray *contextSegments; // @synthesize contextSegments=_contextSegments;
-@property(readonly, nonatomic) NSString *contextString; // @synthesize contextString=_contextString;
-@property(nonatomic) unsigned long long index; // @synthesize index=_index;
 @property(readonly, nonatomic) NSString *inputString; // @synthesize inputString=_inputString;
-@property(nonatomic) _Bool romajiEnabled; // @synthesize romajiEnabled=_romajiEnabled;
-@property(nonatomic) unsigned long long segmentLength; // @synthesize segmentLength=_segmentLength;
-@property(copy, nonatomic) NSArray *segments; // @synthesize segments=_segments;
 
 @end
 

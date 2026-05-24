@@ -5,5 +5,6 @@
 //
 
 @protocol STAuthenticationSource
+- (void)n, display_version FROM item_extra;
 @end
 

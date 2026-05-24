@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOArrivalRegion, MNDispatchTimer;
+@class GEOArrivalRegion;
 @protocol MNArrivalRegionTimerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface MNArrivalRegionTimer
 {
     GEOArrivalRegion *_arrivalRegion;
-    MNDispatchTimer *_timer;
-    id <MNArrivalRegionTimerDelegate> _delegate;
 }
 
-- (void);
+- (void)6;
 - (id);
 - (void);
 - (id);

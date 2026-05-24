@@ -9,9 +9,6 @@
 @interface TRIAggregateFetchRecordsProgressGuardedData
 {
     NSMutableDictionary *perCKRecordProgress;
-    NSMutableDictionary *perMARecordProgress;
-    unsigned long long expectedTotalBytes;
-    unsigned long long actualBytesTransferred;
 }
 
 - (void)32@0:8d16@24 /* Error: Ran out of types for this method. */;

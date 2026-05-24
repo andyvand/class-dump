@@ -11,7 +11,7 @@
     unsigned long long _options;
 }
 
-+ (id);
++ (id);
 + (id);
 - (void);
 - (id);

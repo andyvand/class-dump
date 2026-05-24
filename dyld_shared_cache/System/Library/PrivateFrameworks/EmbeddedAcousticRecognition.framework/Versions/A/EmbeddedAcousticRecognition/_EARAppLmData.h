@@ -6,13 +6,9 @@
 
 #import <EmbeddedAcousticRecognition/_EARLmData.h>
 
-@class NSArray;
-
 @interface _EARAppLmData : _EARLmData
 {
     _Bool roundingEnabled;
-    long long inputType;
-    shared_ptr_f52c68bb data;
 }
 
 + (void)\;
@@ -28,9 +24,9 @@
 - (id);
 - (void);
 - (long long);
-- (long long);
-- (long long);
-- (void);
+- (long long);
+- (long long)__objc_ivar;
+- (void)__objc_catlist;
 - (void);
 - (id);
 - (void);
@@ -38,14 +34,13 @@
 - (void);
 - (_Bool);
 - (long long);
-- (id);
+- (id)INSetProfileInCarIntentResponseCodeFailure;
 - (id);
 - (shared_ptr_f52c68bb);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) shared_ptr_f52c68bb data; // @synthesize data;
-@property(readonly, nonatomic) NSArray *orderedOovs;
 
 @end
 

@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString;
+@class NSString;
 
 @interface STPresetsEnableRestrictionsCoreAnalyticsEvent
 {
     NSString *_sessionId;
-    long long _selectionType;
-    NSNumber *_lowerBoundAgeRange;
-    NSNumber *_upperBoundAgeRange;
 }
 
 + (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)aylist_id, storefront_id, purchase_history_id, purchase_history_token, purchase_history_redownload_params, store_saga_id, match_redownload_params, cloud_status, sync_id, home_sharing_id, is_ota_purchased, store_kind, account_id, downloader_account_id, family_account_id, is_protected, key_versions, key_platform_id, key_id, key_id_2, date_purchased, date_released, external_guid, feed_url, artwork_url, store_xid, store_flavor, store_matched_status, store_redownloaded_status, store_link_id, reserved, vpp_is_licensed, vpp_org_id, vpp_org_name, IFNULL(sync_redownload_params, '') FROM item_store;
+- (id)ROM container;
+- (id)store_composer_id, store_genre_id, store_playlist_id, storefront_id, purchase_history_id, purchase_history_token, purchase_history_redownload_params, store_saga_id, match_redownload_params, sync_id, home_sharing_id, is_ota_purchased, store_kind, account_id, key_versions, key_platform_id, key_id, key_id_2, date_purchased, date_released, external_guid, feed_url, artwork_url, store_xid, store_flavor, store_matched_status, store_redownloaded_status, store_link_id, reserved, vpp_is_licensed, vpp_org_id, vpp_org_name FROM item_store;
+- (id)INDEX IF NOT EXISTS ComposerKeepLocal ON composer (keep_local);
 - (long long);
 - (id);
 - (id);
@@ -26,13 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *description;
-@property(readonly) NSNumber *lowerBoundAgeRange; // @synthesize lowerBoundAgeRange=_lowerBoundAgeRange;
-@property(readonly, copy) NSString *name;
-@property(readonly, copy) NSDictionary *payload;
-@property(readonly) long long selectionType; // @synthesize selectionType=_selectionType;
 @property(readonly) NSString *sessionId; // @synthesize sessionId=_sessionId;
-@property(readonly) NSNumber *upperBoundAgeRange; // @synthesize upperBoundAgeRange=_upperBoundAgeRange;
 
 @end
 

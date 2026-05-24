@@ -8,7 +8,6 @@
 {
     id notificationCenter;
     id notificationObserver;
-    id queue;
 }
 
 @end

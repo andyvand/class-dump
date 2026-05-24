@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface BlastDoorGroupContext
 {
@@ -24,14 +24,7 @@
 ;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *currentGroupName;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *groupID;
-@property(nonatomic, readonly) unsigned long long groupParticipantVersion;
-@property(nonatomic, readonly) unsigned long long groupProtocolVersion;
-@property(nonatomic, readonly) _Bool has_groupParticipantVersion;
-@property(nonatomic, readonly) _Bool has_groupProtocolVersion;
-@property(nonatomic, readonly) NSArray *participantDestinationIdentifiers;
 
 @end
 

@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, UIImage;
+@class NSString;
 
 @interface AVTStickerRecentsStickerItem
 {
     _Bool _prereleaseSticker;
-    UIImage *_image;
-    NSString *_localizedDescription;
-    CDUnknownBlockType _provider;
-    NSURL *_url;
-    CDUnknownBlockType discardableContentHandler;
-    NSString *_avatarIdentifier;
-    NSString *_stickerName;
 }
 
 - (void);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)`;
+- (id);
 - (CDUnknownBlockType);
 - (void);
 - (id);
@@ -37,20 +30,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *avatarIdentifier; // @synthesize avatarIdentifier=_avatarIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType discardableContentHandler; // @synthesize discardableContentHandler;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(readonly, copy, nonatomic) NSString *localizedDescription; // @synthesize localizedDescription=_localizedDescription;
-@property(nonatomic, getter=isPrereleaseSticker) _Bool prereleaseSticker; // @synthesize prereleaseSticker=_prereleaseSticker;
-@property(readonly, copy, nonatomic) CDUnknownBlockType provider; // @synthesize provider=_provider;
-@property(readonly, copy, nonatomic) NSString *stickerName; // @synthesize stickerName=_stickerName;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

@@ -7,10 +7,9 @@
 @class NSString;
 
 @protocol LPSongMetadata
+- (NSString *);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *album;
-@property(copy, nonatomic) NSString *artist;
 @property(copy, nonatomic) NSString *name;
 @end
 

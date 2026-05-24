@@ -6,8 +6,6 @@
 
 #import <HomeKitDaemon/HMDAccessoryBackgroundOperation.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDPersistAuditAccessoryResultOperation : HMDAccessoryBackgroundOperation
 {
@@ -15,18 +13,12 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id)!#ÿ.üF;
-- (_Bool);
-- (id);
+- (_Bool)clearContactStorages;
+- (id)ChargingStop;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,46 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MDLMaterialProperty, NSString;
+@class NSString;
 
 @interface MDLScatteringFunction
 {
     NSString *_name;
-    MDLMaterialProperty *_baseColor;
-    struct unique_ptr<ModelIO::BidirectionalScatteringDistributionFunction, std::default_delete<ModelIO::BidirectionalScatteringDistributionFunction>> _bsdf;
-    MDLMaterialProperty *_emission;
-    MDLMaterialProperty *_specular;
-    MDLMaterialProperty *_materialIndexOfRefraction;
-    MDLMaterialProperty *_interfaceIndexOfRefraction;
-    MDLMaterialProperty *_normal;
-    MDLMaterialProperty *_ambientOcclusion;
-    MDLMaterialProperty *_ambientOcclusionScale;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)signatureRequestForService:characteristic:requiresAuthentication:error: /* Error: Ran out of types for this method. */;
+- (id)he;
+- (id);
+- (id)(=;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) MDLMaterialProperty *ambientOcclusion; // @synthesize ambientOcclusion=_ambientOcclusion;
-@property(readonly, retain, nonatomic) MDLMaterialProperty *ambientOcclusionScale; // @synthesize ambientOcclusionScale=_ambientOcclusionScale;
-@property(readonly, retain, nonatomic) MDLMaterialProperty *baseColor; // @synthesize baseColor=_baseColor;
-@property(readonly, retain, nonatomic) MDLMaterialProperty *emission; // @synthesize emission=_emission;
-@property(readonly, retain, nonatomic) MDLMaterialProperty *interfaceIndexOfRefraction; // @synthesize interfaceIndexOfRefraction=_interfaceIndexOfRefraction;
-@property(readonly, retain, nonatomic) MDLMaterialProperty *materialIndexOfRefraction; // @synthesize materialIndexOfRefraction=_materialIndexOfRefraction;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, retain, nonatomic) MDLMaterialProperty *normal; // @synthesize normal=_normal;
-@property(readonly, retain, nonatomic) MDLMaterialProperty *specular; // @synthesize specular=_specular;
 
 @end
 

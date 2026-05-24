@@ -4,37 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFNotifyObserver, NSObject, NSString;
-@protocol AFBluetoothWirelessSplitterSessionStateObserverDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface AFBluetoothWirelessSplitterSessionStateObserver
 {
     NSObject<OS_dispatch_queue> *_queue;
-    id <AFBluetoothWirelessSplitterSessionStateObserverDelegate> _delegate;
-    AFNotifyObserver *_notifyObserver;
-    long long _state;
 }
 
 - (void);
-- (void);
-- (void);
+- (void)tanceRequired:'%@';  /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (void);
 - (long long);
+- (void)aA;
 - (void);
-- (void);
-- (void)ranceSuggestions;
-- (void)iguationAssistancePrivate;
+- (void)AFUtteranceSuggestions;
+- (void)AFDisambiguationAssistancePrivate;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

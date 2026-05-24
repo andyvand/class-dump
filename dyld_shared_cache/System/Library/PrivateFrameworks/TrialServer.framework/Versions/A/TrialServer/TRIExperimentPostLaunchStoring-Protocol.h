@@ -5,5 +5,6 @@
 //
 
 @protocol TRIExperimentPostLaunchStoring
+- (_Bool);
 @end
 

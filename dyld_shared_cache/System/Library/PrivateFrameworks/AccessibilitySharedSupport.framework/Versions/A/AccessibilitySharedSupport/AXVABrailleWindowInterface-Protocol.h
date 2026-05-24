@@ -5,5 +5,8 @@
 //
 
 @protocol AXVABrailleWindowInterface
+
+@optional
+- (void);
 @end
 

@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalDAVCalendarServerAccessItem, CalDAVCalendarServerOrganizerItem, CalDAVSupportedCalendarComponentSet, CoreDAVHrefItem, CoreDAVItemWithHrefChildItem, CoreDAVItemWithNoChildren, CoreDAVLeafItem;
+@class CoreDAVLeafItem;
 
 @interface CalDAVCalendarServerInviteNotificationItem
 {
     CoreDAVLeafItem *_uid;
-    CoreDAVHrefItem *_href;
-    CoreDAVItemWithNoChildren *_inviteStatus;
-    CoreDAVItemWithNoChildren *_calendarPublic;
-    CalDAVCalendarServerAccessItem *_access;
-    CoreDAVItemWithHrefChildItem *_hostURL;
-    CalDAVCalendarServerOrganizerItem *_organizer;
-    CoreDAVLeafItem *_summary;
-    CalDAVSupportedCalendarComponentSet *_supportedCalendarComponentSet;
 }
 
 - (void);
@@ -28,14 +20,14 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id)charge_duration_p_0_90_at_charge_start_secs_curr_dynamic_bin_1;
+- (void)kANE_AF_TO_L2_DATA;
+- (id)_;
 - (id);
 - (void);
 - (id);
@@ -44,14 +36,6 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) CalDAVCalendarServerAccessItem *access; // @synthesize access=_access;
-@property(retain, nonatomic) CoreDAVItemWithNoChildren *calendarPublic; // @synthesize calendarPublic=_calendarPublic;
-@property(retain, nonatomic) CoreDAVItemWithHrefChildItem *hostURL; // @synthesize hostURL=_hostURL;
-@property(retain, nonatomic) CoreDAVHrefItem *href; // @synthesize href=_href;
-@property(retain, nonatomic) CoreDAVItemWithNoChildren *inviteStatus; // @synthesize inviteStatus=_inviteStatus;
-@property(retain, nonatomic) CalDAVCalendarServerOrganizerItem *organizer; // @synthesize organizer=_organizer;
-@property(retain, nonatomic) CoreDAVLeafItem *summary; // @synthesize summary=_summary;
-@property(retain, nonatomic) CalDAVSupportedCalendarComponentSet *supportedCalendarComponentSet; // @synthesize supportedCalendarComponentSet=_supportedCalendarComponentSet;
 @property(retain, nonatomic) CoreDAVLeafItem *uid; // @synthesize uid=_uid;
 
 @end

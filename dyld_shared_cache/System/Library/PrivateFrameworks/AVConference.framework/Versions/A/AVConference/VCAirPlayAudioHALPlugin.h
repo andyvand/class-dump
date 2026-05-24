@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, VCAudioHALPluginMockAudioInject;
+@class VCAudioHALPluginMockAudioInject;
 
 __attribute__((visibility("hidden")))
 @interface VCAirPlayAudioHALPlugin
 {
     VCAudioHALPluginMockAudioInject *_mockAudioInject;
-    struct tagVCAudioHALPluginConfiguration _pluginConfig;
-    struct OpaqueFigHALAudioConduitDevice *_conduitDevice;
-    struct __CFDictionary *_conduitCreateOptions;
-    struct FigHALAudioConduitDeviceClientIODelegateConfiguration _conduitConfig;
-    struct _opaque_pthread_mutex_t _stateLock;
-    _Bool _resumed;
 }
 
 + (struct AudioServerPlugInDriverInterface **);
-+ (id);
++ (id)R;
 + (void);
 + (struct __CFDictionary *);
 + (struct tagVCAudioHALPluginConfiguration);
@@ -33,13 +27,7 @@ __attribute__((visibility("hidden")))
 - (id)ession(Messages) controlChannel:(struct tagVCAudioHALPluginConfiguration *)arg1 receivedData:transactionID:fromParticipant:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

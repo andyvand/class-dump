@@ -4,40 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSError, NSHTTPURLResponse, NSNumber, NSString;
+@class NSDictionary, NSHTTPURLResponse;
 
 @interface iCloudAccountResponse
 {
     NSDictionary *_responseDictionary;
-    NSHTTPURLResponse *_httpResponse;
-    NSError *_error;
-    long long _statusCode;
-    NSData *_data;
-    NSString *_protocolVersion;
-    NSNumber *_maxAge;
 }
 
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)`&;
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)disableFMMOnHostWindow:usingCallback: /* Error: Ran out of types for this method. */;
 - (void);
-- (id)criptResolver;
-- (long long)tactsViewController;
+- (id)_MMScriptResolver;
+- (long long)AOSUIAccountContactsViewController;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *data; // @synthesize data=_data;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
 @property(readonly, nonatomic) NSHTTPURLResponse *httpResponse; // @synthesize httpResponse=_httpResponse;
-@property(readonly, nonatomic) NSNumber *maxAge; // @synthesize maxAge=_maxAge;
-@property(readonly, nonatomic) NSString *protocolVersion; // @synthesize protocolVersion=_protocolVersion;
-@property(readonly, nonatomic) NSDictionary *responseDictionary; // @synthesize responseDictionary=_responseDictionary;
-@property(readonly, nonatomic) long long statusCode; // @synthesize statusCode=_statusCode;
 
 @end
 

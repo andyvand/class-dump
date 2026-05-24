@@ -8,9 +8,6 @@
 {
     id _importedRecipes;
     id processingPipeline;
-    id recipeLoader;
-    id imageColorAnalyzer;
-    id configuration;
 }
 
 @end

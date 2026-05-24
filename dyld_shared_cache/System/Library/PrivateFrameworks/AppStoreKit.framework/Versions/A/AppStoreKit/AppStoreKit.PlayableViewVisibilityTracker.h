@@ -7,10 +7,6 @@
 @interface AppStoreKit.PlayableViewVisibilityTracker
 {
     id focusAreaConfiguration;
-    id registeredItems;
-    id orderedPlaybackIds;
-    id orderedVisiblePlaybackIds;
-    id parentViewController;
 }
 
 @end

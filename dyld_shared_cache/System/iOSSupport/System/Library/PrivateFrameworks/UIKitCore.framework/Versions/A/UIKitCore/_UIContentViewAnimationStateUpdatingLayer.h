@@ -15,10 +15,10 @@ __attribute__((visibility("hidden")))
 + (_Bool)ontext"28;
 - (void);
 - (void);
-- (void);
+- (void)erredSessionType;
 - (id);
 - (double)are receiving presses methods.;
-- (void)nertialProjectionDeceleration;
+- (void)inertialProjectionDeceleration;
 - (void)èk];
 
 // Remaining properties

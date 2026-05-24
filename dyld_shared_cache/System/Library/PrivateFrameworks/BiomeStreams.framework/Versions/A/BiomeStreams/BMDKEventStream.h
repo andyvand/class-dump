@@ -9,7 +9,6 @@
 @interface BMDKEventStream
 {
     BMStoreStream *_storeStream;
-    NSString *_identifier;
 }
 
 + (id);

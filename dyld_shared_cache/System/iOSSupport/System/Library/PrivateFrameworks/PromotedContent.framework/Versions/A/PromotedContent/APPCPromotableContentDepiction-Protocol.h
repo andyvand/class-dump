@@ -7,16 +7,10 @@
 @class NSArray, NSString;
 
 @protocol APPCPromotableContentDepiction
-- (long long);
+- (NSArray *);
+- (NSString *);
 
 // Remaining properties
-@property(nonatomic, readonly) unsigned long long adjacentPosition;
-@property(nonatomic, readonly) NSArray *categories;
 @property(nonatomic, readonly) NSString *identifier;
-@property(nonatomic, readonly) NSArray *keywords;
-@property(nonatomic, readonly) NSString *language;
-@property(nonatomic, readonly) NSString *locale;
-@property(nonatomic, readonly) long long placement;
-@property(nonatomic, readonly) NSArray *searchTerms;
 @end
 

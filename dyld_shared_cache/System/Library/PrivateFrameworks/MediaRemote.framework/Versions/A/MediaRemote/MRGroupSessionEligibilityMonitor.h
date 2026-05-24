@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRGroupSessionEligibilityStatus, NSHashTable;
+@class NSHashTable;
 
 @interface MRGroupSessionEligibilityMonitor
 {
     struct os_unfair_lock_s _lock;
-    MRGroupSessionEligibilityStatus *_status;
-    NSHashTable *_observers;
 }
 
 - (void);
+- (void)ingType;
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id);
+- (void)Q;
+- (id)t.;
 - (id);
 - (void)
 × ;
@@ -27,9 +25,7 @@
 - (void){public}@> to <%{public}@>;
 
 // Remaining properties
-@property(nonatomic) struct os_unfair_lock_s lock; // @synthesize lock=_lock;
 @property(retain, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
-@property(readonly, nonatomic) MRGroupSessionEligibilityStatus *status; // @synthesize status=_status;
 
 @end
 

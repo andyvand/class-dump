@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface PXThreadSafeDictionary
 {
     NSMutableDictionary *_internalDictionary;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);
@@ -19,19 +17,18 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)S;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id)ispatchNextRequest;
+- (id)_dispatchNextRequest;
 - (void)",R;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *internalDictionary; // @synthesize internalDictionary=_internalDictionary;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

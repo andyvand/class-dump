@@ -5,5 +5,6 @@
 //
 
 @protocol ABSearchElementOrderManagerProtocol
+- (void);
 @end
 

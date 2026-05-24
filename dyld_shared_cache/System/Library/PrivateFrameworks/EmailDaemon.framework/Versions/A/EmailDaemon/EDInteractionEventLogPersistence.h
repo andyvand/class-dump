@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDPersistenceDatabase, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class EDPersistenceDatabase;
 
 @interface EDInteractionEventLogPersistence
 {
     EDPersistenceDatabase *_database;
-    NSObject<OS_dispatch_queue> *_writeQueue;
 }
 
 + (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void),D;
+- (void)find label description:(id)arg1 %ld;
 - (void);
 - (id);
 - (void);
@@ -33,14 +31,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) EDPersistenceDatabase *database; // @synthesize database=_database;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *writeQueue; // @synthesize writeQueue=_writeQueue;
 
 @end
 

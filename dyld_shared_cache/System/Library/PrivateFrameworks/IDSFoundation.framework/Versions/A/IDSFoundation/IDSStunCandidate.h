@@ -4,34 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
-
 @interface IDSStunCandidate
 {
     _Bool _active;
-    unsigned long long _type;
-    unsigned long long _priority;
-    long long _transport;
-    int _index;
-    struct sockaddr_storage _address;
-    struct sockaddr_storage _external;
-    CDStruct_330c469e _prefix;
-    unsigned int _radioAccessTechnology;
-    unsigned int _mtu;
-    double _extIPDetectionStartTime;
-    NSString *_allocbindDataBlob;
-    _Bool _isCLAT46;
-    unsigned char _cellularSlicingFlags;
-    _Bool _isSlicedInterface;
-    _Bool _isRealloc;
-    _Bool _isNAT64;
-    unsigned short _linkFlags;
-    unsigned int _dataSoMask;
-    int _delegatedIndex;
-    NSString *_serverSoftwareVersion;
-    NSString *_interfaceName;
-    NSString *_delegatedInterfaceName;
-    NSArray *_interfaceAllowList;
 }
 
 + (id);
@@ -82,20 +57,20 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)h;
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)containsValueForKey: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (unsigned int);
-- (void);
-- (CDStruct_330c469e *);
+- (void)timator;
+- (CDStruct_c3d3b44c *)iceRepairService _sfServiceStart];
 - (unsigned short);
 - (id);
 - (long long);
 - (struct sockaddr *);
 - (int);
-- (void)verBlob;
+- (void)hasServerBlob;
 - (const struct sockaddr *);
 - (id)UN;
 - (void)lu (received %llu out of %llu total) bytes to file %@ at %llu;
@@ -105,35 +80,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool active; // @synthesize active=_active;
-@property(readonly, nonatomic) const struct sockaddr *address;
-@property(readonly) NSData *addressData;
-@property(readonly) NSString *addressString;
-@property(copy, nonatomic) NSString *allocbindDataBlob; // @synthesize allocbindDataBlob=_allocbindDataBlob;
-@property(nonatomic) unsigned char cellularSlicingFlags; // @synthesize cellularSlicingFlags=_cellularSlicingFlags;
-@property(nonatomic) unsigned int dataSoMask; // @synthesize dataSoMask=_dataSoMask;
-@property(nonatomic) int delegatedIndex; // @synthesize delegatedIndex=_delegatedIndex;
-@property(retain, nonatomic) NSString *delegatedInterfaceName; // @synthesize delegatedInterfaceName=_delegatedInterfaceName;
-@property(nonatomic) double extIPDetectionStartTime; // @synthesize extIPDetectionStartTime=_extIPDetectionStartTime;
-@property(nonatomic) struct sockaddr *external;
-@property(readonly) NSData *externalAddressData;
-@property(readonly) NSString *externalAddressString;
-@property(readonly) unsigned short externalPort;
-@property(readonly, nonatomic) int index; // @synthesize index=_index;
-@property(retain) NSArray *interfaceAllowList; // @synthesize interfaceAllowList=_interfaceAllowList;
-@property(retain, nonatomic) NSString *interfaceName; // @synthesize interfaceName=_interfaceName;
-@property(nonatomic) _Bool isCLAT46; // @synthesize isCLAT46=_isCLAT46;
-@property _Bool isNAT64; // @synthesize isNAT64=_isNAT64;
-@property(nonatomic) _Bool isRealloc; // @synthesize isRealloc=_isRealloc;
-@property(nonatomic) _Bool isSlicedInterface; // @synthesize isSlicedInterface=_isSlicedInterface;
-@property(nonatomic) unsigned short linkFlags; // @synthesize linkFlags=_linkFlags;
-@property(nonatomic) unsigned int mtu; // @synthesize mtu=_mtu;
-@property(readonly) unsigned short port;
-@property(nonatomic) CDStruct_330c469e *prefix;
-@property(readonly, nonatomic) unsigned long long priority; // @synthesize priority=_priority;
-@property(nonatomic) unsigned int radioAccessTechnology; // @synthesize radioAccessTechnology=_radioAccessTechnology;
-@property(copy, nonatomic) NSString *serverSoftwareVersion; // @synthesize serverSoftwareVersion=_serverSoftwareVersion;
-@property(readonly, nonatomic) long long transport; // @synthesize transport=_transport;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

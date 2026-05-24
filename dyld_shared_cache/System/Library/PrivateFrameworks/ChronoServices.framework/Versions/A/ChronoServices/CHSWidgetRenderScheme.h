@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CHSWidgetRenderScheme
 {
     unsigned long long _renderingMode;
-    unsigned long long _backgroundViewPolicy;
-    unsigned long long _renderingModes;
 }
 
 + (_Bool);
-+ (_Bool);
++ (_Bool)setCscSMSTargetVC: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (id);
@@ -27,7 +23,7 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -38,15 +34,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long backgroundViewPolicy; // @synthesize backgroundViewPolicy=_backgroundViewPolicy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long renderingMode; // @synthesize renderingMode=_renderingMode;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic, getter=isValid) _Bool valid;
 
 @end

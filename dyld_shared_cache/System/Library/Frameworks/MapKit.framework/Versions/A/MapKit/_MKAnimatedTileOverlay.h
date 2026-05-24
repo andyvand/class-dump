@@ -6,33 +6,31 @@
 
 #import <MapKit/MKTileOverlay.h>
 
-@class NSNumber;
-
 @interface _MKAnimatedTileOverlay : MKTileOverlay
 {
     unsigned long long _keyframesCount;
-    double _duration;
-    _Bool _shouldCrossfade;
-    NSNumber *_visibleKeyframeOverride;
 }
 
-- (void);
+- (void)Key:(unsigned long long)arg1 %@ withType:%@
+query=%@
+
+result=%@
+
+pending=%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)];
 - (id);
 - (double);
 - (void);
 - (_Bool);
 - (void)!@ù *°1Â0@ù
 × ;
-- (void)ted: /* Error: Ran out of types for this method. */;
+- (void)setCenterCoordinate:animated: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double duration; // @synthesize duration=_duration;
 @property(nonatomic) unsigned long long keyframesCount; // @synthesize keyframesCount=_keyframesCount;
-@property(nonatomic) _Bool shouldCrossfade; // @synthesize shouldCrossfade=_shouldCrossfade;
 
 @end
 

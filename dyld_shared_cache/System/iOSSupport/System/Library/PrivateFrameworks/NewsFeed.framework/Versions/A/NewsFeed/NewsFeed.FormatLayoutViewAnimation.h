@@ -7,14 +7,6 @@
 @interface NewsFeed.FormatLayoutViewAnimation
 {
     id animationCompletion;
-    id runModeRunner;
-    id identifier;
-    id view;
-    id layer;
-    id supplementaryLayers;
-    id allLayers;
-    id animationData;
-    id animators;
 }
 
 @end

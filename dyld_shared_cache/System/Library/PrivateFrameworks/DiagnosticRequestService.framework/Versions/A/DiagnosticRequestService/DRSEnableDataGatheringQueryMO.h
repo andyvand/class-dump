@@ -4,27 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface DRSEnableDataGatheringQueryMO
 {
 }
 
-+ (id);
++ (id)excludeAll;
 
 // Remaining properties
 @property(nonatomic) short attemptCount; // @dynamic attemptCount;
-@property(copy, nonatomic) NSString *build; // @dynamic build;
-@property(retain, nonatomic) NSData *contextDictionaryData; // @dynamic contextDictionaryData;
-@property(nonatomic) _Bool isContinue; // @dynamic isContinue;
-@property(copy, nonatomic) NSString *issueCategory; // @dynamic issueCategory;
-@property(copy, nonatomic) NSString *logType; // @dynamic logType;
-@property(copy, nonatomic) NSDate *queryDate; // @dynamic queryDate;
-@property(copy, nonatomic) NSUUID *queryID; // @dynamic queryID;
-@property(copy, nonatomic) NSString *rejectionReason; // @dynamic rejectionReason;
-@property(nonatomic) short response; // @dynamic response;
-@property(copy, nonatomic) NSString *teamID; // @dynamic teamID;
 
 @end
 

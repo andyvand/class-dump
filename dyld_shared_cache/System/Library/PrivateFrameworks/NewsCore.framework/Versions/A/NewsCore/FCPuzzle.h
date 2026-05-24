@@ -4,44 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAssetHandle, FCContentArchive, FCContentManifest, FCInterestToken, NSArray, NSDate, NSString, NTPBPuzzleRecord;
-@protocol FCPuzzleTypeProviding;
+@class NTPBPuzzleRecord;
 
 @interface FCPuzzle
 {
     _Bool _paid;
-    _Bool _showInfoModalOnFirstPlay;
-    _Bool _ignoreFromStatsAndStreaks;
-    _Bool _deprecated;
-    _Bool _draft;
-    NSString *_identifier;
-    NSString *_title;
-    NSString *_subtitle;
-    NSString *_puzzleDescription;
-    id <FCPuzzleTypeProviding> _puzzleType;
-    NSArray *_authors;
-    NSString *_dataResourceID;
-    long long _difficulty;
-    NSString *_difficultyDescription;
-    NSArray *_relatedPuzzleIDs;
-    NSDate *_publishDate;
-    FCAssetHandle *_thumbnailSmallImageAssetHandle;
-    FCAssetHandle *_thumbnailLargeImageAssetHandle;
-    NSArray *_allowedStorefrontIDs;
-    NSArray *_blockedStorefrontIDs;
-    NSString *_language;
-    long long _minimumNewsVersion;
-    NSDate *_loadDate;
-    NSDate *_lastModifiedDate;
-    unsigned long long _behaviorFlags;
-    NSString *_teaserClue;
-    NSString *_teaserAnswer;
-    NSString *_teaserInfo;
-    NSString *_teaserNumber;
-    NSString *_teaserDirection;
-    NSString *_dismissingIdentifier;
-    NTPBPuzzleRecord *_puzzleRecord;
-    FCInterestToken *_interestToken;
 }
 
 - (id);
@@ -64,19 +31,19 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)processConstPixelsInArea:processor: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
+- (id));
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)TQ,R,N;
+- (id)ers.;
 - (id);
 - (id);
 - (void);
-- (id);
-- (id)entations: /* Error: Ran out of types for this method. */;
+- (id)entListener("DOMNodeInserted",i);let r=await this._createRichLink(e);if(window.webkit.messageHandlers.RichLinkLoaded.postMessage(n),!r)return void(t&&(t.outerHTML=o));let l=this.richLinkFromMarkup(r);if(t&&t.firstChild){t.replaceChild(l,t.firstChild);let e=t.nextSibling;if((!e||e.nodeType===Node.TEXT_NODE&&0==e.textContent.length)&&t.parentNode){let e=document.createElement("div");e.innerHTML="<br>",t.parentNode.insertBefore(e,null),e.focus()}t.setAttribute("style","display:block;")}},BodyField.prototype.richLinkFromMarkup=function(e){let t=document.createElementFromMarkup(e);return t.setAttribute("style","-webkit-user-select:all; -webkit-user-drag:element; display:inline-block;"),t.setAttribute("class",MFRichLinkClass),t.setAttribute("draggable","true"),t.setAttribute("role","link"),t.setAttribute("data-url",t.firstChild.getAttribute("href")),t.addEventListener("click",e=>{e.shiftKey||e.preventDefault()}),t},BodyField.prototype.makeRichLinkFromSelection=function(){document.lastRichLinkConvertedToPlain=!1;let e;if(this.selectionIsWebAddress())e=window.getSelection().getRangeAt(0).toString();else if(document.lastRichLinkElementOrRange&&document.lastRichLinkCandidateURL){let t=document.lastRichLinkElementOrRange;if(t instanceof Element&&t.parentNode){let e=t.parentNode.style;e&&"none"==e.getPropertyValue("-webkit-user-select")&&e.removeProperty("-webkit-user-select")}if(document.getSelection().removeAllRanges(),t instanceof Range)document.getSelection().addRange(t);else if(t instanceof HTMLElement){let e=new Range;e.selectNode(t),document.getSelection().addRange(e)}e=document.lastRichLinkCandidateURL,document.lastRichLinkCandidateURL=null,document.lastRichLinkElementOrRange=null}e&&this.insertRichLink(e)},BodyField.prototype.removeRichLinkFromSelection=function(){let e=document.lastRichLinkElementOrRange;if(e&&!(e instanceof Range)&&e.parentNode&&e.richLinkContainer()==e){document.lastRichLinkConvertedToPlain=!0;let t=decodeURI(e.getAttribute("data-url")),n=document.createElement("a");n.href=t,n.innerHTML=t;let i=e.parentNode.innerHTML==e.outerHTML?e.parentNode:e;if(replaceNodes([i],[n]),document.lastRichLinkElementOrRange=null,!document.undoManager)return;(()=>{const e=[n],t=[i];document.undoManager.addItem(new UndoItem({label:"",undo:()=>{replaceNodes(e,t)},redo:()=>{replaceNodes(t,e)}}))})()}},BodyField.prototype.selectionIsWebAddress=function(){let e=getSelectionRange();return!!e&&e.toString().ef_isWebAddress()},BodyField.prototype.selectionIsRichLink=function(){let e=document.lastRichLinkElementOrRange;return e&&!(e instanceof Range)&&e.parentNode&&e.richLinkContainer()==e},BodyField.prototype._canonicalizeSelection=function(e){let t,n,i,o,r=e.startContainer,l=e.endContainer,a=e.startOffset,s=e.endOffset,d=r===l;if(r instanceof Text)if(t=r.parentNode,a)if(a>=r.length)n=r.nextSibling;else{let e=r.cloneNode(!1),i=e.splitText(a);this.insertNodeWithParentAndNextSibling(e,t,r),this.insertNodeWithParentAndNextSibling(i,t,r),this.deleteNode(r),d&&(s-=Math.min(s,a),l=i),n=i}else n=r;else{for(n=r.firstChild;a--;)n=n.nextSibling;t=r}if(l instanceof Text)if(i=l.parentNode,s)if(s>=l.length)o=l.nextSibling;else{let e=l.cloneNode(!1),t=e.splitText(s);this.insertNodeWithParentAndNextSibling(e,i,l),this.insertNodeWithParentAndNextSibling(t,i,l),d&&l===n&&(n=e),this.deleteNode(l),o=t}else o=l;else{for(o=l.firstChild;s--;)o=o.nextSibling;i=l}return{startParent:t,startNextSibling:n,endParent:i,endNextSibling:o}},BodyField.prototype.deleteRange=function(e){let t=e.commonAncestorContainer,{startParent:n,startNextSibling:i,endParent:o,endNextSibling:r}=this._canonicalizeSelection(e),l=i;for(;l&&(!r||!r.isSameNode(l));)if(r&&r.mf_isDescendantOfNode(l)||!l.isSameNode(o)&&o.mf_isDescendantOfNode(l))l=l.mf_traverseNextNodeStayingWithin(t);else{let e=l.mf_traverseNextSiblingStayingWithin(t);if(this.deleteNode(l),l.isSameNode(o))break;l=e}},BodyField.prototype.splitUpBlockQuotesOverlappingStartOfRange=function(e){let t,n,i,o,r,l,a;for(e.mf_hoistRange(),n=e.mf_firstNode(),i=e.mf_lastNode(),t=(r=n).mf_containingBlockQuote();t;)n.mf_isAtBeginningOfContainerNode(t)?r=r.parentNode:((l=n.ownerDocument.createRange()).setStartBefore(t.firstChild),l.setEndBefore(n),a=l.cloneContents(),(o=n.ownerDocument.mf_createMessageQuoteElement()).appendChild(a),this.deleteRange(l),this.insertNodeWithParentAndNextSibling(o,t.parentNode,t),e.setStartBefore(n),e.setEndAfter(i),r=o.parentNode),t=r.mf_containingBlockQuote()},BodyField.prototype.splitUpBlockQuotesOverlappingEndOfRange=function(e){let t,n,i,o,r,l,a;for(n=e.mf_firstNode(),t=(o=i=e.mf_lastNode()).mf_containingBlockQuote();t;)i.mf_isAtEndOfContainerNode(t)?o=o.parentNode:((l=n.ownerDocument.createRange()).setStartBefore(t.firstChild),l.setEndAfter(e.mf_lastNode()),a=l.cloneContents(),r=n.ownerDocument.mf_createMessageQuoteElement(),n.mf_isDescendantOfNode(t)&&(n=a.firstChild),i=a.lastChild,r.appendChild(a),this.deleteRange(l),this.insertNodeWithParentAndNextSibling(r,t.parentNode,t),e.setStartBefore(n),e.setEndAfter(i),o=r.parentNode),t=o.mf_containingBlockQuote()},BodyField.prototype.replaceNode=function(e,t){e&&t&&(this.insertNodeWithParentAndNextSibling(e,t.parentNode,t),this.deleteNode(t))},BodyField.prototype.removeBlockQuoteFromTree=function(e){let t,n,i=e.parentNode,o=[],r=!1,l=e.ownerDocument.createNodeIterator(e,NodeFilter.SHOW_ELEMENT|NodeFilter.SHOW_TEXT);for(t=l.nextNode();t;t=l.nextNode())if(t!==e&&t.mf_blockNodeAncestor()===e){r=!0;break}for(n=e,r&&(i=e.ownerDocument.createElement("div"),n=null);t=e.firstChild;)this.deleteNode(t),this.insertNodeWithParentAndNextSibling(t,i,n),o.push(t);return r?this.replaceNode(i,e):this.deleteNode(e),o},BodyField.prototype.temporaryEndingSelectionMarker=function(){let e=[window],t=e.length;for(;t>0;){let n,i=e[0];try{n=i.document}catch(e){}if(e.shift(),t--,n instanceof HTMLDocument){let e=n.mf_findElement("SPAN",MFHtmlTemporaryEditingElement,MFHtmlIDSelectionEnd);if(e)return e}let o=i.frames;o.length&&(t+=o.length,e=e.concat(Array.from(o)))}return undefined},BodyField.prototype.insertTemporarySelectionMarkersForRange=function(e){let t=e;t||(t=getSelectionRange());let n;if(t){let{startParent:e,startNextSibling:i,endParent:o,endNextSibling:r}=this._canonicalizeSelection(t),l=e.ownerDocument;if(l&&l instanceof HTMLDocument){let t=l.createElement("SPAN");t.className=MFHtmlTemporaryEditingElement,t.id=MFHtmlIDSelectionStart,this.insertNodeWithParentAndNextSibling(t,e,i),(n=l.createElement("SPAN")).className=MFHtmlTemporaryEditingElement,n.id=MFHtmlIDSelectionEnd,this.insertNodeWithParentAndNextSibling(n,o,r)}}return n},BodyField.prototype.restoreSelectionFromTemporaryMarkers=function(e){let t=[window],n=t.length;for(;n>0;){let i,o=t[0];try{i=o.document}catch(e){}if(t.shift(),n--,i instanceof HTMLDocument){let t=e?undefined:MFHtmlTemporaryEditingElement,n=i.mf_findElement("SPAN",t,MFHtmlIDSelectionStart),o=i.mf_findElement("SPAN",t,MFHtmlIDSelectionEnd);if(n||o){let e=i.createRange();n&&e.setStartBefore(n),o&&e.setEndBefore(o),n||e.collapse(!1),o||e.collapse(!0),n&&this.deleteNode(n),o&&this.deleteNode(o);let t=window.getSelection();t.empty(),t.addRange(e)}}let r=o.frames;r.length&&(n+=r.length,t=t.concat(Array.from(r)))}},BodyField.prototype.changeQuoteLevel=function(e,t){let n=getSelectionRange();if(!n)return;let i=!1,o=n.startContainer,r=o instanceof Document?o:o.ownerDocument;if(n.mf_hoistRange(),!n.collapsed&&e>0){let e=n.endContainer;if(e instanceof Text&&!n.endOffset){let t=e.previousSibling;t&&"blockquote"===t.nodeName.toLowerCase()&&n.setEnd(t,t.childNodes.length)}}this.insertTemporarySelectionMarkersForRange(n);let{parent:l,nextSibling:a}=n.mf_getBlockBoundaryParentAndNextSibling(!0),{parent:s,nextSibling:d}=n.mf_getBlockBoundaryParentAndNextSibling(!1),c=r.createRange();if(a)c.setStartBefore(a);else{let e=l.lastChild;e||(e=l),c.setStartAfter(e)}if(d)c.setEndBefore(d);else{let e=s.lastChild;e||(e=s),c.setEndAfter(e)}let u,m=c.cloneContents();if(1===e){if(u=[],m.firstChild){let e;for(;e=m.firstChild;)u.push(e),m.removeChild(e)}}else-1===e&&(u=r.mf_createMessageQuoteElement()).appendChild(m);let f;if(1===e){let e,n,o,l,m;if(f=r.mf_createMessageQuoteElement(),(m=c.cloneContents())&&f.appendChild(m),f.mf_containsOnlySelectionMarkers()&&f.mf_appendBlockPlaceholder(),i=!0,o=c.startContainer,l=c.endContainer,o===l)this.insertNodeWithParentAndNextSibling(f,o,a),c.setStartAfter(f),d?c.setEndBefore(d):c.setEndAfter(s),this.deleteRange(c);else if((e=c.commonAncestorContainer)===l){for(this.deleteRange(c),n=d;n&&n.parentNode!==e;)n=n.parentNode;this.insertNodeWithParentAndNextSibling(f,e,n)}else if(e===o)this.deleteRange(c),this.insertNodeWithParentAndOffset(f,e,c.startOffset);else{if(this.splitUpBlockQuotesOverlappingStartOfRange(c),this.splitUpBlockQuotesOverlappingEndOfRange(c),f=r.mf_createMessageQuoteElement(),(m=c.cloneContents())&&f.appendChild(m),f.mf_containsOnlySelectionMarkers()&&f.mf_appendBlockPlaceholder(),"blockquote"===(e=c.commonAncestorContainer).nodeName.toLowerCase())c.setStart(e,0),n=undefined,this.deleteRange(c);else{let t=c.endContainer;for(let n=t.parentElement;n!==e;n=n.parentElement)t=n;n=t.nextSibling,this.deleteRange(c),t.parentElement===e&&(n=t)}this.insertNodeWithParentAndNextSibling(f,e,n)}document.undoManager&&(()=>{const e=[f],n=u;document.undoManager.addItem(new UndoItem({label:t,undo:()=>{replaceNodes(e,n)},redo:()=>{replaceNodes(n,e)}}))})()}else if(-1===e){let e,n,o,r,l,a;for(this.splitUpBlockQuotesOverlappingStartOfRange(c),this.splitUpBlockQuotesOverlappingEndOfRange(c),e=c.mf_lastNode(),o=c.mf_firstNode(),l=!1;!l&&o;)(r=(n=o).mf_highestContainingBlockQuote())||(r=n.mf_firstDescendantBlockQuote()),r?(l=e.mf_isDescendantOfNode(r),o=r.mf_nextSiblingOrAunt(),a=this.removeBlockQuoteFromTree(r),i=!0):(l=e.mf_isDescendantOfNode(n)||n.mf_isDescendantOfNode(e),o=n.mf_nextSiblingOrAunt());document.undoManager&&a&&u&&(()=>{const e=a,n=[u];document.undoManager.addItem(new UndoItem({label:t,undo:()=>{replaceNodes(e,n)},redo:()=>{replaceNodes(n,e)}}))})()}return f&&f.parentNode&&this.temporaryEndingSelectionMarker()===f.lastChild&&f.parentNode.insertBefore(this.temporaryEndingSelectionMarker(),f.nextSibling),this.restoreSelectionFromTemporaryMarkers(),i},BodyField.prototype.convertInternalImagesToAttachments=function(e,t,n){let i={},o=document.isInlineGenmojiEnabled?"img, picture > source":"img";for(let e of document.querySelectorAll(o)){let o=e instanceof HTMLSourceElement?e.srcset:e.src;if(!o||!o.startsWith("cid:"))continue;let r=t[o];if(!r)continue;let l=e instanceof HTMLSourceElement?"srcset":"src";e.removeAttribute(l),i[HTMLAttachmentElement.getAttachmentIdentifier(e)]=safeNSURL(o),n&&n(e,r)}return i},BodyField.prototype.replacePlaceholderWithAttachment=function(e,t){let n;if(t.isImage){let t=document.createElement("img");e.replaceWith(t),n=HTMLAttachmentElement.getAttachmentIdentifier(t)}else{let t=document.createElement("attachment");e.replaceWith(t),n=t.uniqueIdentifier}return n},BodyField.prototype.convertSourceElementsToAttachmentElements=function(e,t){return document.isInlineGenmojiEnabled?this.convertElementsToAttachmentElements("picture > source",e,t):{}},BodyField.prototype.convertObjectElementsToAttachmentElements=function(e,t){return this.convertElementsToAttachmentElements("object[type='application/x-apple-msg-attachment']",e,t)},BodyField.prototype.convertElementsToAttachmentElements=function(e,t,n){let i={};for(let o of t.querySelectorAll(e)){let e=o.getAttribute("data"),t=safeNSURL(e);if(!t)continue;let r=n[e];r&&(i[this.replacePlaceholderWithAttachment(o,r)]=t)}return i},BodyField.prototype.replaceRangeWithNode=function(e,t){e.deleteContents(),e.insertNode(t)},BodyField.prototype.stripCustomBodyIdentifiers=function(){this.bodyInputController.stripCustomBodyIdentifiers()},BodyField.prototype.remoteContentEnabled=function(e){document.remoteContentEnabled=e},BodyField.prototype.enableQuickReply=function(e){document.mf_quickReplyDisplayHiddenNodes(!e)};let previousQuickReplyComputedHeight=0;BodyField.prototype.enableSmartReply=function(e){e?postShowSmartReplySuggestionsMessageIfNecessary(document,window):(showSmartReplySuggestions=!1,window.webkit.messageHandlers.ShowSmartReplySuggestions.postMessage(showSmartReplySuggestions))}; /* Error: Ran out of types for this method. */;
+- (id)setMaxPrecedingSameSessionPresentations: /* Error: Ran out of types for this method. */;
 - (id)etion: /* Error: Ran out of types for this method. */;
 - (id)ateModificationConfiguration;
 - (_Bool);
@@ -88,49 +55,7 @@
 - (_Bool)d;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *allowedStorefrontIDs; // @synthesize allowedStorefrontIDs=_allowedStorefrontIDs;
-@property(readonly, copy, nonatomic) NSArray *authors; // @synthesize authors=_authors;
-@property(readonly, nonatomic) unsigned long long behaviorFlags; // @synthesize behaviorFlags=_behaviorFlags;
-@property(readonly, copy, nonatomic) NSArray *blockedStorefrontIDs; // @synthesize blockedStorefrontIDs=_blockedStorefrontIDs;
-@property(readonly, nonatomic) FCContentArchive *contentArchive;
-@property(readonly, nonatomic) FCContentManifest *contentManifest;
-@property(readonly, copy, nonatomic) NSString *dataResourceID; // @synthesize dataResourceID=_dataResourceID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic, getter=isDeprecated) _Bool deprecated; // @synthesize deprecated=_deprecated;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) long long difficulty; // @synthesize difficulty=_difficulty;
-@property(readonly, copy, nonatomic) NSString *difficultyDescription; // @synthesize difficultyDescription=_difficultyDescription;
-@property(readonly, copy, nonatomic) NSString *dismissingIdentifier; // @synthesize dismissingIdentifier=_dismissingIdentifier;
-@property(readonly, nonatomic, getter=isDraft) _Bool draft; // @synthesize draft=_draft;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool ignoreFromStatsAndStreaks; // @synthesize ignoreFromStatsAndStreaks=_ignoreFromStatsAndStreaks;
-@property(readonly, nonatomic) FCInterestToken *interestToken; // @synthesize interestToken=_interestToken;
-@property(readonly, copy, nonatomic) NSString *language; // @synthesize language=_language;
-@property(readonly, nonatomic) NSDate *lastModifiedDate; // @synthesize lastModifiedDate=_lastModifiedDate;
-@property(readonly, nonatomic) NSDate *loadDate; // @synthesize loadDate=_loadDate;
-@property(readonly, nonatomic) long long minimumNewsVersion; // @synthesize minimumNewsVersion=_minimumNewsVersion;
-@property(readonly, nonatomic, getter=isPaid) _Bool paid; // @synthesize paid=_paid;
-@property(readonly, copy, nonatomic) NSDate *publishDate; // @synthesize publishDate=_publishDate;
-@property(readonly, copy, nonatomic) NSString *publishDateString;
-@property(readonly, copy, nonatomic) NSString *puzzleDescription; // @synthesize puzzleDescription=_puzzleDescription;
 @property(readonly, nonatomic) NTPBPuzzleRecord *puzzleRecord; // @synthesize puzzleRecord=_puzzleRecord;
-@property(readonly, retain, nonatomic) id <FCPuzzleTypeProviding> puzzleType; // @synthesize puzzleType=_puzzleType;
-@property(readonly, copy, nonatomic) NSArray *relatedPuzzleIDs; // @synthesize relatedPuzzleIDs=_relatedPuzzleIDs;
-@property(readonly, nonatomic) _Bool showInfoModalOnFirstPlay; // @synthesize showInfoModalOnFirstPlay=_showInfoModalOnFirstPlay;
-@property(readonly, copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *teaserAnswer; // @synthesize teaserAnswer=_teaserAnswer;
-@property(readonly, nonatomic) NSString *teaserClue; // @synthesize teaserClue=_teaserClue;
-@property(readonly, nonatomic) NSString *teaserDirection; // @synthesize teaserDirection=_teaserDirection;
-@property(readonly, nonatomic) NSString *teaserInfo; // @synthesize teaserInfo=_teaserInfo;
-@property(readonly, nonatomic) NSString *teaserNumber; // @synthesize teaserNumber=_teaserNumber;
-@property(readonly, nonatomic) FCAssetHandle *thumbnailLargeImageAssetHandle; // @synthesize thumbnailLargeImageAssetHandle=_thumbnailLargeImageAssetHandle;
-@property(readonly, nonatomic) FCAssetHandle *thumbnailSmallImageAssetHandle; // @synthesize thumbnailSmallImageAssetHandle=_thumbnailSmallImageAssetHandle;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

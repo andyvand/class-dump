@@ -9,8 +9,6 @@
 @interface PKFirmwareBundleComponentModel
 {
     NSString *_modelID;
-    unsigned int _boardID;
-    unsigned int _chipID;
 }
 
 + (id);
@@ -23,8 +21,6 @@
 - (void)ories:(id)arg1 ];
 
 // Remaining properties
-@property unsigned int boardID; // @synthesize boardID=_boardID;
-@property unsigned int chipID; // @synthesize chipID=_chipID;
 @property(retain) NSString *modelID; // @synthesize modelID=_modelID;
 
 @end

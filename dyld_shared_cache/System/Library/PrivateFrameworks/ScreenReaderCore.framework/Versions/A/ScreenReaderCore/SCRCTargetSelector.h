@@ -7,17 +7,15 @@
 @interface SCRCTargetSelector
 {
     id _target;
-    SEL _selector;
 }
 
-+ (id);
++ (id)Uk;
 - (id);
-- (id);
+- (id)z;
 - (SEL);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) SEL selector; // @synthesize selector=_selector;
 @property(readonly, nonatomic) __weak id target; // @synthesize target=_target;
 
 @end

@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatarRecord, AVTAvatarRecordDataSource, UIAction;
-@protocol AVTAvatarActionsModelDelegate;
+@class AVTAvatarRecord;
 
 @interface AVTAvatarActionsProvider
 {
     _Bool _allowCreate;
-    id <AVTAvatarActionsModelDelegate> _delegate;
-    AVTAvatarRecord *_avatarRecord;
-    UIAction *_createAction;
-    UIAction *_editAction;
-    UIAction *_duplicateAction;
-    UIAction *_deleteAction;
-    AVTAvatarRecordDataSource *_dataSource;
 }
 
 + (unsigned long long);
@@ -25,12 +17,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)A;
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -38,21 +30,14 @@
 - (id);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowCreate; // @synthesize allowCreate=_allowCreate;
 @property(retain, nonatomic) AVTAvatarRecord *avatarRecord; // @synthesize avatarRecord=_avatarRecord;
-@property(retain, nonatomic) UIAction *createAction; // @synthesize createAction=_createAction;
-@property(readonly, nonatomic) AVTAvatarRecordDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(nonatomic) __weak id <AVTAvatarActionsModelDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) UIAction *deleteAction; // @synthesize deleteAction=_deleteAction;
-@property(retain, nonatomic) UIAction *duplicateAction; // @synthesize duplicateAction=_duplicateAction;
-@property(retain, nonatomic) UIAction *editAction; // @synthesize editAction=_editAction;
 
 @end
 

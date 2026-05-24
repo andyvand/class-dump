@@ -7,8 +7,6 @@
 @interface TeaUI.ScrollViewProxyManager
 {
     id delegate;
-    id delegateMap;
-    id observableScrollView;
 }
 
 @end

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXJSONDictionary;
 @protocol NUEmbedConfigurationLoader;
 
 @interface NUEmbedDataManager
 {
     _Bool _hasLoaded;
-    id <NUEmbedConfigurationLoader> _embedConfigurationLoader;
-    SXJSONDictionary *_embedConfiguration;
 }
 
 - (void);
@@ -24,16 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) SXJSONDictionary *embedConfiguration; // @synthesize embedConfiguration=_embedConfiguration;
 @property(readonly, nonatomic) id <NUEmbedConfigurationLoader> embedConfigurationLoader; // @synthesize embedConfigurationLoader=_embedConfigurationLoader;
-@property(readonly, nonatomic) _Bool hasLoaded; // @synthesize hasLoaded=_hasLoaded;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

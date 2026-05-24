@@ -5,6 +5,7 @@
 //
 
 @protocol WBSSavedAccountStoreWebsiteNameProvider
+- (void)̦;
 - (void);
 @end
 

@@ -4,34 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface GCNotificationOptions
 {
     NSString *_title;
-    NSString *_body;
-    NSString *_categoryID;
-    NSString *_threadID;
-    NSURL *_defaultActionURL;
 }
 
-- (id);
+- (id)V;
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)mentation!;
+- (void)sions/A/RemoteUI;
 - (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *body; // @synthesize body=_body;
-@property(retain, nonatomic) NSString *categoryID; // @synthesize categoryID=_categoryID;
-@property(retain, nonatomic) NSURL *defaultActionURL; // @synthesize defaultActionURL=_defaultActionURL;
-@property(retain, nonatomic) NSString *threadID; // @synthesize threadID=_threadID;
 @property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

@@ -6,22 +6,20 @@
 
 #import <TSReading/TSPFileDataStorage.h>
 
-@class NSURL, SFUCryptoKey;
+@class NSURL;
 
 @interface TSPTemporaryDataStorage : TSPFileDataStorage
 {
     NSURL *_URL;
-    SFUCryptoKey *_decryptionKey;
-    _Bool _isMissingData;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)SetQueue ;
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)ing.publisherConversionImpressions;
 - (void)(;
 
 // Remaining properties

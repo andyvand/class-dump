@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLMultiArray, NSSet;
+@class MLMultiArray;
 
 __attribute__((visibility("hidden")))
 @interface FCUserVectorModelInput
@@ -15,13 +15,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id)PurchaseIDs;
-- (void)gard_time_for_suggestions;
+- (id)allPurchaseIDs;
+- (void)personalization_disregard_time_for_suggestions;
 - (id)not equal to bundleSubscription:(id)arg1 %{public}@;
 
 // Remaining properties
 @property(retain, nonatomic) MLMultiArray *aggregates; // @synthesize aggregates=_aggregates;
-@property(readonly, nonatomic) NSSet *featureNames;
 
 @end
 

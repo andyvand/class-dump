@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface NSTabWell : NSView
 {
     NSRulerMarker *_prototype;
-    _Bool _disabled;
 }
 
 + (void);
@@ -27,14 +26,14 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)i;
 - (void);
 - (id);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id)gisteredPocketFooters;
+- (id)registeredPocketFooters;
 - (void)GE;
 
 @end

@@ -4,31 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, SGMIMetricsInferenceAndGroundTruth;
+@class SGMIMetricsInferenceAndGroundTruth;
 
 @interface SGMIMetricsMailIntelligenceForMessage
 {
     SGMIMetricsInferenceAndGroundTruth *_active;
-    SGMIMetricsInferenceAndGroundTruth *_background;
-    unsigned int _hoursSinceReference;
-    NSString *_lang;
-    NSString *_locale;
-    NSMutableArray *_mailAttachmentHistograms;
-    unsigned int _nbCharactersInMailSubject;
-    unsigned int _nbTokensInMailSubject;
-    unsigned int _previousInteractionFromUserOnConversationInMinutes;
-    unsigned int _previousInteractionOnConversationInMinutes;
-    float _senderConnectionScore;
-    unsigned int _timeDifferenceFromReceptionToSaliencyInferenceInSeconds;
-    struct {
-        unsigned int hoursSinceReference:1;
-        unsigned int nbCharactersInMailSubject:1;
-        unsigned int nbTokensInMailSubject:1;
-        unsigned int previousInteractionFromUserOnConversationInMinutes:1;
-        unsigned int previousInteractionOnConversationInMinutes:1;
-        unsigned int senderConnectionScore:1;
-        unsigned int timeDifferenceFromReceptionToSaliencyInferenceInSeconds:1;
-    } _has;
 }
 
 + (Class);
@@ -55,34 +35,34 @@
 - (unsigned int);
 - (unsigned long long);
 - (id);
-- (unsigned int);
+- (unsigned int));
 - (_Bool);
 - (_Bool);
+- (_Bool)5;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
 - (void);
 - (id);
 - (_Bool);
+- (_Bool);
+- (void)setBannerView:(id)arg1;
+- (id)promptAndAddAttachmentsWithURLs:userConfirmed:operationSucceeded: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)Y;
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)apple.private.ubiquity-additional-kvstore-identifiers;
 - (void);
-- (void);
+- (void)readAnnotationFor:(id)arg1 from:readState: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void)x??	¨C;
 - (void);
@@ -90,29 +70,7 @@
 - (id)d response from suggestContactMatchesByContactDetailTag;
 
 // Remaining properties
-@property(retain, nonatomic) SGMIMetricsInferenceAndGroundTruth *active; // @synthesize active=_active;
-@property(retain, nonatomic) SGMIMetricsInferenceAndGroundTruth *background; // @synthesize background=_background;
-@property(readonly, nonatomic) _Bool hasActive;
-@property(readonly, nonatomic) _Bool hasBackground;
 @property(nonatomic) _Bool hasHoursSinceReference;
-@property(readonly, nonatomic) _Bool hasLang;
-@property(readonly, nonatomic) _Bool hasLocale;
-@property(nonatomic) _Bool hasNbCharactersInMailSubject;
-@property(nonatomic) _Bool hasNbTokensInMailSubject;
-@property(nonatomic) _Bool hasPreviousInteractionFromUserOnConversationInMinutes;
-@property(nonatomic) _Bool hasPreviousInteractionOnConversationInMinutes;
-@property(nonatomic) _Bool hasSenderConnectionScore;
-@property(nonatomic) _Bool hasTimeDifferenceFromReceptionToSaliencyInferenceInSeconds;
-@property(nonatomic) unsigned int hoursSinceReference; // @synthesize hoursSinceReference=_hoursSinceReference;
-@property(retain, nonatomic) NSString *lang; // @synthesize lang=_lang;
-@property(retain, nonatomic) NSString *locale; // @synthesize locale=_locale;
-@property(retain, nonatomic) NSMutableArray *mailAttachmentHistograms; // @synthesize mailAttachmentHistograms=_mailAttachmentHistograms;
-@property(nonatomic) unsigned int nbCharactersInMailSubject; // @synthesize nbCharactersInMailSubject=_nbCharactersInMailSubject;
-@property(nonatomic) unsigned int nbTokensInMailSubject; // @synthesize nbTokensInMailSubject=_nbTokensInMailSubject;
-@property(nonatomic) unsigned int previousInteractionFromUserOnConversationInMinutes; // @synthesize previousInteractionFromUserOnConversationInMinutes=_previousInteractionFromUserOnConversationInMinutes;
-@property(nonatomic) unsigned int previousInteractionOnConversationInMinutes; // @synthesize previousInteractionOnConversationInMinutes=_previousInteractionOnConversationInMinutes;
-@property(nonatomic) float senderConnectionScore; // @synthesize senderConnectionScore=_senderConnectionScore;
-@property(nonatomic) unsigned int timeDifferenceFromReceptionToSaliencyInferenceInSeconds; // @synthesize timeDifferenceFromReceptionToSaliencyInferenceInSeconds=_timeDifferenceFromReceptionToSaliencyInferenceInSeconds;
 
 @end
 

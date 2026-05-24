@@ -6,28 +6,24 @@
 
 #import <SearchFoundation/SFResultFeedback.h>
 
-@class NSString;
-
 @interface SFResultGradingFeedback : SFResultFeedback
 {
     unsigned long long _grade;
-    NSString *_textFeedback;
 }
 
 + (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void)dImage:context: /* Error: Ran out of types for this method. */;
+- (id)songAdamID;
+- (void)rbMix;
+- (id)unge from Settings storage tip;
+- (void)canLoadImage:context: /* Error: Ran out of types for this method. */;
 - (unsigned long long)(;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long grade; // @synthesize grade=_grade;
-@property(copy, nonatomic) NSString *textFeedback; // @synthesize textFeedback=_textFeedback;
 
 @end
 

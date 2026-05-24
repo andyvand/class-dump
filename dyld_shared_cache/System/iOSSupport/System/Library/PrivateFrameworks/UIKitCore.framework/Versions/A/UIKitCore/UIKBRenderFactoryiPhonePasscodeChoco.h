@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (struct CGPoint)utDashboardViewController;
-- (struct CGPoint)orToItemWithOrder:inLayouts: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)shouldShowSmartReplyFeedbackInputDashboardViewController;
+- (struct CGPoint)layoutPriorToItemWithOrder:inLayouts: /* Error: Ran out of types for this method. */;
 - (struct UIEdgeInsets)þÿ;
 
 @end

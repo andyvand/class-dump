@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSMenu;
+
 @protocol PXFeedActionPerformer
+
+@optional
+- (_Bool);
+- (NSMenu *)
+Jy;
 @end
 

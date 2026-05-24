@@ -6,8 +6,6 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSString;
-
 @interface SAKnowledgeGraphTriple : AceObject
 {
 }
@@ -24,22 +22,11 @@
 - (void);
 - (id);
 - (void);
-- (void)neSpacing;
-- (id)ingCallEnabledNotification;
+- (void)lineSpacing;
+- (id)SAPhonePostVoiceTriggerDuringCallEnabledNotification;
 
 // Remaining properties
 @property(nonatomic) float confidence;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *object;
-@property(copy, nonatomic) NSString *predicate;
-@property(copy, nonatomic) NSString *storeName;
-@property(copy, nonatomic) NSString *subject;
-@property(readonly) Class superclass;
 
 @end
 

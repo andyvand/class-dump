@@ -16,7 +16,7 @@
 + (id);
 + (id);
 + (unsigned short);
-- (id);
+- (id)_AMSKeyValueObservable;
 - (void);
 
 @end

@@ -4,28 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
-
 @interface W5AWDLStatus
 {
     _Bool _power;
-    _Bool _isAWDLRealTimeMode;
-    NSString *_macAddress;
-    NSString *_hardwareMACAddress;
-    NSString *_interfaceName;
-    NSArray *_ipv6Addresses;
-    NSData *_awdlSyncEnabled;
-    NSData *_awdlSyncState;
-    NSData *_awdlSyncChannelSequence;
-    NSData *_awdlStrategy;
-    NSData *_awdlElectionParameters;
-    NSData *_awdlMasterChannel;
-    NSData *_awdlSecondaryMasterChannel;
-    NSData *_awdlOpMode;
-    NSData *_awdlSyncParameters;
-    NSData *_awdlPeerDatabase;
-    NSData *_awdlSidecarDiagnostics;
-    long long _airDropDiscoverableMode;
 }
 
 + (_Bool);

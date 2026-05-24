@@ -6,18 +6,11 @@
 
 #import <vCard/CNVCardImage.h>
 
-@class NSData, NSDictionary, NSNumber, NSValue;
+@class NSData;
 
 @interface CNVCardMutableImage : CNVCardImage
 {
     NSData *_originalData;
-    NSDictionary *_originalCropRects;
-    struct CGSize _originalSize;
-    struct CGImage *_CGImage;
-    _Bool _attemptedCGImage;
-    NSValue *_targetSizeValue;
-    NSNumber *_compressionQuality;
-    struct __CFString *_sourceImageFormatUTI;
 }
 
 + (struct CGRect);
@@ -40,8 +33,8 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (id);
+- (void)atch for ;
+- (id)urces/EmbeddedAcousticRecognition/libquasar/libtennessee/src/nashville/libtextproc/shared/regexp.cpp;
 - (_Bool);
 - (void);
 - (struct CGSize);
@@ -53,15 +46,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGImage *CGImage; // @synthesize CGImage=_CGImage;
-@property(readonly, nonatomic) _Bool attemptedCGImage; // @synthesize attemptedCGImage=_attemptedCGImage;
-@property(copy, nonatomic) NSNumber *compressionQuality; // @synthesize compressionQuality=_compressionQuality;
-@property(readonly, nonatomic) NSDictionary *originalCropRects; // @synthesize originalCropRects=_originalCropRects;
 @property(readonly, copy, nonatomic) NSData *originalData; // @synthesize originalData=_originalData;
-@property(readonly, nonatomic) struct CGSize originalSize; // @synthesize originalSize=_originalSize;
-@property(nonatomic) struct CGSize size;
-@property(nonatomic) struct __CFString *sourceImageFormatUTI; // @synthesize sourceImageFormatUTI=_sourceImageFormatUTI;
-@property(copy, nonatomic) NSValue *targetSizeValue; // @synthesize targetSizeValue=_targetSizeValue;
 
 @end
 

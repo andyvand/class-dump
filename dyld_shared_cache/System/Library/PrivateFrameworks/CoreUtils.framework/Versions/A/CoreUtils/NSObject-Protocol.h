@@ -7,15 +7,21 @@
 @class NSString;
 
 @protocol NSObject
+- (id)y;
+- (id)(Ay;
+- (id)s;
+- (unsigned long long)@;
+- (_Bool)48q56q64q72q80q88q96q104q112B120;
+- (NSString *)setForceSilentEscrowRecordRepairEnabledV2: /* Error: Ran out of types for this method. */;
+- (_Bool)copyMTLBuffer:(id)arg1 toBytes:length: /* Error: Ran out of types for this method. */;
+- (_Bool)_;
+- (_Bool)or converting public key to raw format;
 - (struct _NSZone *), error %#m;
 
-// Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
+@optional
+- (Class);
 
-@property(readonly, copy) NSString *description;
+// Remaining properties
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

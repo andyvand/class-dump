@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface LAAnalytics
 {
     _Bool _wasSent;
-    _Bool _allowsMultipleCollections;
-    NSString *_eventName;
-    NSMutableArray *_storage;
 }
 
 - (_Bool);
@@ -33,10 +30,7 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsMultipleCollections; // @synthesize allowsMultipleCollections=_allowsMultipleCollections;
-@property(readonly, nonatomic) NSString *eventName; // @synthesize eventName=_eventName;
 @property(nonatomic) __weak NSMutableArray *storage; // @synthesize storage=_storage;
-@property(readonly, nonatomic) _Bool wasSent; // @synthesize wasSent=_wasSent;
 
 @end
 

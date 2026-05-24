@@ -4,34 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSInspectorBar, NSString, NSView;
-@protocol NSInspectorBarItemController;
+@class NSString;
 
 @interface NSInspectorBarItem
 {
     NSString *_identifier;
-    NSInspectorBar *_inspectorBar;
-    id <NSInspectorBarItemController> _controller;
 }
 
-+ (id);
++ (id)_kCFStreamPropertyTCPConnection;
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)_socketWriteStreamForUpgrade;
+- (_Bool)V_sslSettings;
 - (void);
 - (void);
-- (id)tsTitle;
+- (id)_focusRingIntersectsTitle;
 - (id);
 - (id)de shortcut;
 
 // Remaining properties
-@property(readonly) _Bool canBeDetached;
-@property(readonly) id <NSInspectorBarItemController> controller; // @synthesize controller=_controller;
-@property(readonly) _Bool detachesFirst;
 @property(readonly) NSString *identifier;
-@property(readonly) NSInspectorBar *inspectorBar; // @synthesize inspectorBar=_inspectorBar;
-@property(readonly) NSView *view; // @dynamic view;
 
 @end
 

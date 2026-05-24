@@ -11,26 +11,24 @@
 @interface HMAppleMediaAccessoryPowerAction : HMAction
 {
     struct os_unfair_lock_s _lock;
-    HMAccessory *_accessory;
-    unsigned long long _targetSleepWakeState;
 }
 
-+ (_Bool);
++ (_Bool)NSt3__110__function6__baseIFjPK9CMDPTokenEEE;
 - (void);
 - (unsigned long long);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)t:(id)arg1;
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (_Bool);
+- (id)*		;
+- (_Bool)heptasyllabic;
 - (id);
 - (id);
 - (_Bool)0@ù
@@ -39,7 +37,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) HMAccessory *accessory; // @synthesize accessory=_accessory;
-@property(nonatomic) unsigned long long targetSleepWakeState; // @synthesize targetSleepWakeState=_targetSleepWakeState;
 
 @end
 

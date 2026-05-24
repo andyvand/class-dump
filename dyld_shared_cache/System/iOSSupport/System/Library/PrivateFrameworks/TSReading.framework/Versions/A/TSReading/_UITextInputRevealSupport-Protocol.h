@@ -7,6 +7,7 @@
 @class UITextRange;
 
 @protocol _UITextInputRevealSupport
+- (struct _NSRange);
 - (UITextRange *)shouldn't be adding animations after we've started showing them;
 @end
 

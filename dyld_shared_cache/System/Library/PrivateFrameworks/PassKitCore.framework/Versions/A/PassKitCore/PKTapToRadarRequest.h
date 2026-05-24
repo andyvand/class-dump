@@ -9,10 +9,6 @@
 @interface PKTapToRadarRequest
 {
     _Bool _serverGenerated;
-    NSString *_reason;
-    NSString *_relatedRadar;
-    NSString *_alertHeader;
-    NSString *_alertMessage;
 }
 
 + (_Bool);
@@ -27,16 +23,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)addAvgCCASelfInfraChannel:(id)arg1;
+- (void)sendDuration;
 - (void)asstations;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *alertHeader; // @synthesize alertHeader=_alertHeader;
-@property(copy, nonatomic) NSString *alertMessage; // @synthesize alertMessage=_alertMessage;
 @property(copy, nonatomic) NSString *reason; // @synthesize reason=_reason;
-@property(copy, nonatomic) NSString *relatedRadar; // @synthesize relatedRadar=_relatedRadar;
-@property(nonatomic, getter=isServerGenerated) _Bool serverGenerated; // @synthesize serverGenerated=_serverGenerated;
 
 @end
 

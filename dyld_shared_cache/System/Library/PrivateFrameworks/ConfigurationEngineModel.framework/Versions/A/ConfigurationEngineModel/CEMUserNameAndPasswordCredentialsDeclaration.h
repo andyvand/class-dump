@@ -11,7 +11,6 @@
 @interface CEMUserNameAndPasswordCredentialsDeclaration : CEMPayloadBase
 {
     NSString *_payloadUserName;
-    NSString *_payloadPassword;
 }
 
 + (id);
@@ -23,11 +22,10 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (void);
+- (id)G13stagedResultsSo0A3BoxC11clientStatetGGAkJ_pGAI_pG;
+- (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *payloadPassword; // @synthesize payloadPassword=_payloadPassword;
 @property(copy, nonatomic) NSString *payloadUserName; // @synthesize payloadUserName=_payloadUserName;
 
 @end

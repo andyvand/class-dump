@@ -10,15 +10,14 @@ __attribute__((visibility("hidden")))
     id reference;
 }
 
-+ (id);
++ (id)LE IF EXISTS ;
 - (void);
 - (id);
 - (void);
 - (id);
-- (id)Event:(id)arg1;
+- (id)applyToEvent:(id)arg1;
 
 // Remaining properties
-@property(readonly) id object;
 @property id reference; // @synthesize reference;
 
 @end

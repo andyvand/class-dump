@@ -5,16 +5,16 @@
 //
 
 @interface UnknownClass (OSAKCDataExtension)
-- (void);
+- (void)iewPlatter;
+- (void)SpotlightResultWorkflowRunnerClient",&,V_workflowClient;
+- (id)onIcon",&,N,V_icon;
+- (void)ew",W,V_cardSectionView;
+- (void)iew",W,N,V_cardSectionView;
+- (void)ckView;
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)setModulePathForMemoryPointer:(id)arg1;
 @end
 

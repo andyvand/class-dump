@@ -7,20 +7,6 @@
 @interface CalDrawTileOptions
 {
     _Bool _selected;
-    _Bool _dimmed;
-    _Bool _declined;
-    _Bool _canceled;
-    _Bool _maybe;
-    _Bool _needsReply;
-    _Bool _colorBar;
-    _Bool _darkBackground;
-    _Bool _fillDot;
-    _Bool _large;
-    _Bool _flippedForRTL;
-    _Bool _reminder;
-    _Bool _completed;
-    _Bool _allDay;
-    int _reminderStackDepth;
 }
 
 - (void);
@@ -32,46 +18,32 @@
 - (void);
 - (void);
 - (void);
-- (int);
+- (int);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)4~CN9qugDaj6yW3aidE-lucuns1EyaU8WzebByK7E/Library/Caches/com.apple.xbs/TemporaryDirectory.4923j9/Sources/WebKit/Source/WebKit/GPUProcess/graphics/RemoteImageBuffer.cpp 132:Invalid message dispatched %{public}s:putPixelBuffer() should not be called if (resolutionScale() != 1) /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)blic}@;
+- (_Bool)9(;
+- (_Bool)ctionView"16@"NSCollectionViewLayout"24@"NSCollectionViewLayout"32;
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property _Bool allDay; // @synthesize allDay=_allDay;
-@property _Bool canceled; // @synthesize canceled=_canceled;
-@property _Bool colorBar; // @synthesize colorBar=_colorBar;
-@property _Bool completed; // @synthesize completed=_completed;
-@property _Bool darkBackground; // @synthesize darkBackground=_darkBackground;
-@property _Bool declined; // @synthesize declined=_declined;
-@property _Bool dimmed; // @synthesize dimmed=_dimmed;
-@property _Bool fillDot; // @synthesize fillDot=_fillDot;
-@property _Bool flippedForRTL; // @synthesize flippedForRTL=_flippedForRTL;
-@property _Bool large; // @synthesize large=_large;
-@property _Bool maybe; // @synthesize maybe=_maybe;
-@property _Bool needsReply; // @synthesize needsReply=_needsReply;
-@property _Bool reminder; // @synthesize reminder=_reminder;
-@property int reminderStackDepth; // @synthesize reminderStackDepth=_reminderStackDepth;
 @property _Bool selected; // @synthesize selected=_selected;
 
 @end

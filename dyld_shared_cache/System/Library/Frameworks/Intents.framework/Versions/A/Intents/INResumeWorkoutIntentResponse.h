@@ -6,40 +6,31 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSString;
-
 @interface INResumeWorkoutIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)unsignedLongLongAtIndex:(long long)arg1;
++ (int)initWithBytesNoCopy:(long long)arg1 length:deallocator: /* Error: Ran out of types for this method. */;
++ (long long)getAllThumbnailsForFPItemID:(int)arg1 completionHandler:(int)arg2;
++ (_Bool)fileSize;
 + (_Bool);
 - (void);
 - (id);
 - (_Bool);
-- (long long);
+- (long long)T;
 - (id);
 - (long long);
 - (id);
+- (id)initWithIdentifier:(id)arg1 hapticEnginesInfo:hapticCapabilityGraph: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
+- (void)efix (%{public}@);
 - (id);
 - (id);
 - (long long)T@"NSArray",C,N,V_pairs;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

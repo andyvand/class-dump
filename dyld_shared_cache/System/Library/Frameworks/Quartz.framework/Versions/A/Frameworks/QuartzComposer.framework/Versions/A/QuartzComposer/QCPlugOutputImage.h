@@ -6,23 +6,18 @@
 
 #import <QuartzComposer/QCImageProvider.h>
 
-@class NSMutableArray, QCRegion;
 @protocol QCPlugInOutputImageProvider;
 
 @interface QCPlugOutputImage : QCImageProvider
 {
     id <QCPlugInOutputImageProvider> _image;
-    QCRegion *_region;
-    struct CGColorSpace *_colorspace;
-    NSMutableArray *_bufferFormats;
-    NSMutableArray *_textureFormats;
 }
 
 + (_Bool);
 + (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)�;
 - (id);
 - (id);
 - (id);

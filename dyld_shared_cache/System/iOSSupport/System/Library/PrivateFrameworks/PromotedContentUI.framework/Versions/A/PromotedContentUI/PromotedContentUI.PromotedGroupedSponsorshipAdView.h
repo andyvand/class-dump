@@ -9,11 +9,10 @@
 @interface PromotedContentUI.PromotedGroupedSponsorshipAdView : APPCPromotedContentView
 {
     id lockupView;
-    id configuration;
 }
 
 - (struct CGSize);
-- (void);
+- (void)(;
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize intrinsicContentSize;

@@ -21,7 +21,7 @@
 - (void *);
 - (id);
 - (id);
-- (id);
+- (id)_TtCO10Accelerate4BNNS12PaddingLayer;
 - (void);
 - (void)ke_common_UserFavorite;
 

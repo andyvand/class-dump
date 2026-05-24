@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface VCPVideoInterpolationConfiguration
 {
     struct VideoEnhancerModel model;
-    long long _width;
-    long long _height;
-    long long _pixfmt;
-    long long _spatialScaleFactor;
-    long long _maxTemporalExponentFactor;
-    NSDictionary *_sourcePixelBufferAttributes;
-    NSDictionary *_destinationPixelBufferAttributes;
 }
 
 - (long long);
@@ -32,12 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *destinationPixelBufferAttributes; // @synthesize destinationPixelBufferAttributes=_destinationPixelBufferAttributes;
-@property(readonly, nonatomic) long long height; // @synthesize height=_height;
-@property(readonly, nonatomic) long long maxTemporalExponentFactor; // @synthesize maxTemporalExponentFactor=_maxTemporalExponentFactor;
-@property(readonly, nonatomic) long long pixfmt; // @synthesize pixfmt=_pixfmt;
-@property(readonly, nonatomic) NSDictionary *sourcePixelBufferAttributes; // @synthesize sourcePixelBufferAttributes=_sourcePixelBufferAttributes;
-@property(readonly, nonatomic) long long spatialScaleFactor; // @synthesize spatialScaleFactor=_spatialScaleFactor;
 @property(readonly, nonatomic) long long width; // @synthesize width=_width;
 
 @end

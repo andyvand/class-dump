@@ -6,16 +6,11 @@
 
 #import <Geode/DGOperation.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface DGRawDecodeOperation : DGOperation
 {
     NSString *_inputMethodVersion;
-    _Bool _supportsNoiseReduction;
-    NSString *_boostVersion;
-    NSArray *_boostParams;
-    NSString *_gainMapVersion;
-    NSArray *_gainMapParameters;
 }
 
 + (id);
@@ -37,17 +32,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)?;
 - (void);
 - (id)@"¦Â?;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *boostParams; // @synthesize boostParams=_boostParams;
-@property(copy, nonatomic) NSString *boostVersion; // @synthesize boostVersion=_boostVersion;
-@property(copy, nonatomic) NSArray *gainMapParameters; // @synthesize gainMapParameters=_gainMapParameters;
-@property(copy, nonatomic) NSString *gainMapVersion; // @synthesize gainMapVersion=_gainMapVersion;
 @property(copy, nonatomic) NSString *inputMethodVersion;
-@property(nonatomic) _Bool supportsNoiseReduction; // @synthesize supportsNoiseReduction=_supportsNoiseReduction;
 
 @end
 

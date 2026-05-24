@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLocale, NSMutableArray, NSObject, NSString, TIBiomeObserver, TICoreAnalyticsEventDispatcher, TIDPEventDispatcher, TIFeatureUsageMetricsCache, TIKBUserModel, TIKeyboardInputManagerConfig, TIMetricDescriptorRegistry, TISKMetricCollector, TITypingDESRecordWriter, TITypingSession;
+@class NSObject, TIKeyboardInputManagerConfig;
 @protocol OS_dispatch_queue;
 
 @interface TITypingSessionMonitor
 {
     NSObject<OS_dispatch_queue> *_workQueue;
-    TIKBUserModel *_userModel;
-    TISKMetricCollector *_sensorKitMetricCollector;
-    TICoreAnalyticsEventDispatcher *_coreAnalyticsEventDispatcher;
-    TIDPEventDispatcher *_differentialPrivacyEventDispatcher;
-    TIBiomeObserver *_biomeObserver;
-    TIFeatureUsageMetricsCache *_featureUsageMetricsCache;
-    TIKeyboardInputManagerConfig *_config;
-    TIMetricDescriptorRegistry *_metricDescriptorRegistry;
-    TITypingDESRecordWriter *_desRecordWriter;
-    NSArray *_interactionObservers;
-    NSMutableArray *_aggregatedEventObservers;
-    NSLocale *_locale;
 }
 
 + (_Bool);
@@ -37,56 +25,37 @@
 - (id);
 - (void);
 - (void);
+- (id)";
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)name TEXT NOT NULL,     UNIQUE (rolloutsV2_rowid, name),     FOREIGN KEY (rolloutsV2_rowid) REFERENCES rolloutsV2 (rowid) );;
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
 - (void);
-- (void);
+- (id);
+- (id)setWalletBoardingPassDepartureAirportCity: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
+- (id)	;
+- (id)t of Memory in /AppleInternal/Library/BuildRoots/4~CNqyugANfjeykhXE7zlFjn-MBVpr5AKcVYUFpSU/Library/Caches/com.apple.xbs/TemporaryDirectory.277BGj/Sources/Mail_Email/Email/SASL/cyrus_sasl/plugins/login.c near line %d;
+- (void);
+- (id)ib;
+- (id)rno}d);
+- (id)E;
+- (id)0:8@"Protocol"16 /* Error: Ran out of types for this method. */;
+- (void);
 - (void)Ð!üFù1jÐ1Â0@ù
 × ;
-- (void);
-- (void)lled;
+- (void)acceptsCharacter:(id)arg1;
+- (void)_cancelled;
 - (void)!#;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *aggregatedEventObservers; // @synthesize aggregatedEventObservers=_aggregatedEventObservers;
-@property(readonly, nonatomic) TIBiomeObserver *biomeObserver; // @synthesize biomeObserver=_biomeObserver;
 @property(retain, nonatomic) TIKeyboardInputManagerConfig *config; // @synthesize config=_config;
-@property(readonly, nonatomic) TICoreAnalyticsEventDispatcher *coreAnalyticsEventDispatcher; // @synthesize coreAnalyticsEventDispatcher=_coreAnalyticsEventDispatcher;
-@property(readonly, nonatomic) TITypingSession *currentTypingSession;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) TITypingDESRecordWriter *desRecordWriter; // @synthesize desRecordWriter=_desRecordWriter;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) TIDPEventDispatcher *differentialPrivacyEventDispatcher; // @synthesize differentialPrivacyEventDispatcher=_differentialPrivacyEventDispatcher;
-@property(readonly, nonatomic) TIFeatureUsageMetricsCache *featureUsageMetricsCache; // @synthesize featureUsageMetricsCache=_featureUsageMetricsCache;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *interactionObservers; // @synthesize interactionObservers=_interactionObservers;
-@property(readonly, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(retain, nonatomic) TIMetricDescriptorRegistry *metricDescriptorRegistry; // @synthesize metricDescriptorRegistry=_metricDescriptorRegistry;
-@property(readonly, nonatomic) TISKMetricCollector *sensorKitMetricCollector; // @synthesize sensorKitMetricCollector=_sensorKitMetricCollector;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) TIKBUserModel *userModel; // @synthesize userModel=_userModel;
 
 @end
 

@@ -6,21 +6,17 @@
 
 #import <AuthKitUI/AKAppleIDAuthenticationInAppContext.h>
 
-@class AKAppleIDAuthenticationPrefPaneLogoContainerViewController, AKAppleIDAuthenticationiCloudPrefPaneSecondFactorViewController, AKAppleIDAuthenticationiCloudPrefPaneViewController, AKAuthWebTabView, NSString;
+@class AKAuthWebTabView;
 
 @interface AKAppleIDAuthenticationiCloudPrefPaneContext : AKAppleIDAuthenticationInAppContext
 {
     _Bool _isCreateEnabled;
-    AKAppleIDAuthenticationiCloudPrefPaneViewController *_prefPaneSignInViewController;
-    AKAppleIDAuthenticationiCloudPrefPaneSecondFactorViewController *_prefPaneSignInViewSecondFactorController;
-    AKAuthWebTabView *_webviewController;
-    AKAppleIDAuthenticationPrefPaneLogoContainerViewController *_logoContainerViewController;
 }
 
-- (id);
+- (id)g;
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -39,37 +35,26 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)ɚ;
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
+- (void)%@ [%@];
+- (void)%@];
+- (void)d to fetch nil predicate;
+- (void)r %@;
+- (void)%@;
+- (void):(id)arg1 %@;
+- (void)load Suggestions bundle with error:(CDUnknownBlockType)arg1 %@ userInfo:%@ /* Error: Ran out of types for this method. */;
+- (void)ks/CalendarLink.framework/CalendarLink;
+- (void)CoreSuggestionsUI;
+- (void).framework/CorePhoneNumbers;
+- (void)stem/Library/PrivateFrameworks/CorePhoneNumbers.framework/CorePhoneNumbers;
+- (_Bool)ock != nil;
+- (id)O;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isCreateEnabled; // @synthesize isCreateEnabled=_isCreateEnabled;
-@property(retain, nonatomic) AKAppleIDAuthenticationPrefPaneLogoContainerViewController *logoContainerViewController; // @synthesize logoContainerViewController=_logoContainerViewController;
-@property(retain, nonatomic) AKAppleIDAuthenticationiCloudPrefPaneViewController *prefPaneSignInViewController; // @synthesize prefPaneSignInViewController=_prefPaneSignInViewController;
-@property(retain, nonatomic) AKAppleIDAuthenticationiCloudPrefPaneSecondFactorViewController *prefPaneSignInViewSecondFactorController; // @synthesize prefPaneSignInViewSecondFactorController=_prefPaneSignInViewSecondFactorController;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) AKAuthWebTabView *webviewController; // @synthesize webviewController=_webviewController;
 
 @end

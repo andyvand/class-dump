@@ -4,26 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBIntentMetadata, _INPBString;
+@class NSString, _INPBString;
 
 @protocol _INPBOpenFileIntent
-- (_Bool)cumentTypes;
-- (_INPBString *)ttingsInCar:withCompletion: /* Error: Ran out of types for this method. */;
+- (NSString *);
+- (void)Intensive;
+- (_INPBString *);
+- (void)out because more than 1 EVENT are detected #FeatureManager;
+- (_Bool)documentTypes;
+- (_INPBString *)provideEnableFanOptionsForSetClimateSettingsInCar:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBString *appId;
-@property(retain, nonatomic) _INPBString *entityName;
-@property(nonatomic) int entityType;
-@property(readonly, nonatomic) _Bool hasAppId;
-@property(readonly, nonatomic) _Bool hasEntityName;
-@property(nonatomic) _Bool hasEntityType;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasScope;
-@property(readonly, nonatomic) _Bool hasScopeEntityName;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(copy, nonatomic) NSArray *properties;
-@property(readonly, nonatomic) unsigned long long propertiesCount;
-@property(nonatomic) int scope;
-@property(retain, nonatomic) _INPBString *scopeEntityName;
 @end
 

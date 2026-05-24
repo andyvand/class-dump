@@ -6,24 +6,24 @@
 
 #import <SAObjects/SADomainCommand.h>
 
-@class NSArray, NSDate, NSNumber, NSString, SASmsGroupName;
+@class NSDate;
 
 @interface SASmsSearch : SADomainCommand
 {
 }
 
-+ (id);
-+ (id);
++ (id);
++ (id)e: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)d;
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -34,19 +34,11 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
-- (id)ateRankedQueriesToPortrait;
+- (void).;
+- (id)donateRankedQueriesToPortrait;
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *end;
-@property(copy, nonatomic) NSString *message;
-@property(copy, nonatomic) NSNumber *outgoing;
-@property(copy, nonatomic) NSArray *recipients;
-@property(copy, nonatomic) NSArray *senders;
-@property(retain, nonatomic) SASmsGroupName *smsGroup;
-@property(copy, nonatomic) NSDate *start;
-@property(copy, nonatomic) NSString *subject;
-@property(copy, nonatomic) NSNumber *unread;
 
 @end
 

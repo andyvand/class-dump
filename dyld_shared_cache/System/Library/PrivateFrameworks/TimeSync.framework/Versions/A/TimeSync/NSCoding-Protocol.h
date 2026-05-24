@@ -5,5 +5,7 @@
 //
 
 @protocol NSCoding
+- (id);
+- (void)R,N,V_mailCategories;
 @end
 

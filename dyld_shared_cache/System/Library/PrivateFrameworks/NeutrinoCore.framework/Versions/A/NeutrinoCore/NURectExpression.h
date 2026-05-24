@@ -14,17 +14,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NUChannelExpression *heightExpression;
-@property(readonly, nonatomic) NUChannelExpression *widthExpression;
 @property(readonly, nonatomic) NUChannelExpression *xExpression;
-@property(readonly, nonatomic) NUChannelExpression *yExpression;
 
 @end
 

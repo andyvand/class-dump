@@ -4,48 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface ADAttributionRequest
 {
     double _downloadClickTimestamp;
-    double _iAdConversionTimestamp;
-    double _iAdImpressionTimestamp;
-    double _purchaseTimestamp;
-    double _searchAdClickTimestamp;
-    NSString *_adMetadata;
-    NSData *_anonymousDemandiAdID;
-    NSString *_bundleID;
-    NSData *_dPID;
-    int _downloadType;
-    NSData *_iAdID;
-    int _runState;
-    NSData *_tiltID;
-    NSData *_toroID;
-    _Bool _attributedByiTunes;
-    struct {
-        unsigned int downloadClickTimestamp:1;
-        unsigned int iAdConversionTimestamp:1;
-        unsigned int iAdImpressionTimestamp:1;
-        unsigned int purchaseTimestamp:1;
-        unsigned int searchAdClickTimestamp:1;
-        unsigned int downloadType:1;
-        unsigned int runState:1;
-        unsigned int attributedByiTunes:1;
-    } _has;
 }
 
 + (id);
 - (id);
-- (id);
+- (id)J;
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -57,7 +31,7 @@
 - (double);
 - (id);
 - (double);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -77,20 +51,20 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (double);
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (int);
+- (int)9�;
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -98,43 +72,14 @@
 - (void);
 - (id);
 - (id);
-- (int);
+- (int)ngTargetsKeptForVariant + numberOfDrivingTargetsKeptForAnimation == numberOfDrivingTargets;
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)relay changes:%d /* Error: Ran out of types for this method. */;
 - (int);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *adMetadata; // @synthesize adMetadata=_adMetadata;
-@property(retain, nonatomic) NSData *anonymousDemandiAdID; // @synthesize anonymousDemandiAdID=_anonymousDemandiAdID;
-@property(nonatomic) _Bool attributedByiTunes; // @synthesize attributedByiTunes=_attributedByiTunes;
-@property(retain, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(retain, nonatomic) NSData *dPID; // @synthesize dPID=_dPID;
-@property(nonatomic) double downloadClickTimestamp; // @synthesize downloadClickTimestamp=_downloadClickTimestamp;
-@property(nonatomic) int downloadType; // @synthesize downloadType=_downloadType;
-@property(readonly, nonatomic) _Bool hasAdMetadata;
-@property(readonly, nonatomic) _Bool hasAnonymousDemandiAdID;
-@property(nonatomic) _Bool hasAttributedByiTunes;
-@property(readonly, nonatomic) _Bool hasBundleID;
-@property(readonly, nonatomic) _Bool hasDPID;
-@property(nonatomic) _Bool hasDownloadClickTimestamp;
-@property(nonatomic) _Bool hasDownloadType;
-@property(nonatomic) _Bool hasIAdConversionTimestamp;
 @property(readonly, nonatomic) _Bool hasIAdID;
-@property(nonatomic) _Bool hasIAdImpressionTimestamp;
-@property(nonatomic) _Bool hasPurchaseTimestamp;
-@property(nonatomic) _Bool hasRunState;
-@property(nonatomic) _Bool hasSearchAdClickTimestamp;
-@property(readonly, nonatomic) _Bool hasTiltID;
-@property(readonly, nonatomic) _Bool hasToroID;
-@property(nonatomic) double iAdConversionTimestamp; // @synthesize iAdConversionTimestamp=_iAdConversionTimestamp;
-@property(retain, nonatomic) NSData *iAdID; // @synthesize iAdID=_iAdID;
-@property(nonatomic) double iAdImpressionTimestamp; // @synthesize iAdImpressionTimestamp=_iAdImpressionTimestamp;
-@property(nonatomic) double purchaseTimestamp; // @synthesize purchaseTimestamp=_purchaseTimestamp;
-@property(nonatomic) int runState; // @synthesize runState=_runState;
-@property(nonatomic) double searchAdClickTimestamp; // @synthesize searchAdClickTimestamp=_searchAdClickTimestamp;
-@property(retain, nonatomic) NSData *tiltID; // @synthesize tiltID=_tiltID;
-@property(retain, nonatomic) NSData *toroID; // @synthesize toroID=_toroID;
 
 @end
 

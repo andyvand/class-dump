@@ -15,7 +15,7 @@
 + (id);
 + (id);
 - (id);
-- (_Bool);
+- (_Bool)Auto Volume Slew Rate (dB/s);
 
 @end
 

@@ -4,52 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLTripSegmentLocation, NSArray, NSUUID;
+@class NSUUID;
 
 @interface CLTripSegmentInputData
 {
     _Bool _isFinalPart;
-    NSUUID *_commuteID;
-    NSUUID *_tripSegmentID;
-    long long _modeOfTransport;
-    NSArray *_inertialData;
-    NSArray *_tripLocations;
-    CLTripSegmentLocation *_startTripLocation;
-    CLTripSegmentLocation *_stopTripLocation;
-    NSArray *_inertialOdometryData;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)-A;
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (long long);
+- (void)ixelBufferRef *, CGImageBlockSetRef *);
+- (id)@!HzH;
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)setMeshVisibleFunctionTable:(struct _NSZone *)arg1 atBufferIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) NSUUID *commuteID; // @synthesize commuteID=_commuteID;
-@property(readonly) NSArray *inertialData; // @synthesize inertialData=_inertialData;
-@property(readonly) NSArray *inertialOdometryData; // @synthesize inertialOdometryData=_inertialOdometryData;
-@property(readonly, nonatomic) _Bool isFinalPart; // @synthesize isFinalPart=_isFinalPart;
-@property(readonly, nonatomic) long long modeOfTransport; // @synthesize modeOfTransport=_modeOfTransport;
-@property(readonly) CLTripSegmentLocation *startTripLocation; // @synthesize startTripLocation=_startTripLocation;
-@property(readonly) CLTripSegmentLocation *stopTripLocation; // @synthesize stopTripLocation=_stopTripLocation;
-@property(readonly) NSArray *tripLocations; // @synthesize tripLocations=_tripLocations;
-@property(readonly) NSUUID *tripSegmentID; // @synthesize tripSegmentID=_tripSegmentID;
 
 @end
 

@@ -5,5 +5,10 @@
 //
 
 @protocol UINavigationControllerDelegate
+
+@optional
+- (unsigned long long)-;
+- (long long);
+- (void)ޚe;
 @end
 

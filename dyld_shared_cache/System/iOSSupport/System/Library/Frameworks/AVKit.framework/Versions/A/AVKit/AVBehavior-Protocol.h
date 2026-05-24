@@ -5,5 +5,6 @@
 //
 
 @protocol AVBehavior
+- (void);
 @end
 

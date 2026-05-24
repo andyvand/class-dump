@@ -6,7 +6,7 @@
 
 @interface UnknownClass (PreviewText)
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 @end

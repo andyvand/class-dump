@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSCountedSet, NSMutableDictionary, NSObject, NSString, PXReusableObjectPool;
+@class NSObject;
 @protocol OS_dispatch_queue, PXAVResourceReclamationController;
 
 @interface PXVideoSessionManager
 {
     NSObject<OS_dispatch_queue> *_ivarQueue;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    PXReusableObjectPool *_ivarQueue_playerPool;
-    NSMutableDictionary *_ivarQueue_sessionsByIdentifier;
-    NSCountedSet *_ivarQueue_sessionCounts;
-    _Bool _ivarQueue_canStoreReusablePlayers;
-    id <PXAVResourceReclamationController> _resourceReclamationController;
 }
 
 + (CDStruct_1b6d18a9);
@@ -23,7 +17,7 @@
 + (id)È;
 - (id);
 - (id);
-- (id);
+- (id)?;
 - (id);
 - (id);
 - (id);
@@ -33,25 +27,17 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (id);
+- (void)mework/Versions/A/NewsFoundation;
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)2;
+- (id);
 - (void)k - ;
 - (void)(xÿ@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *activeSessions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <PXAVResourceReclamationController> resourceReclamationController; // @synthesize resourceReclamationController=_resourceReclamationController;
-@property(readonly) Class superclass;
 
 @end
 

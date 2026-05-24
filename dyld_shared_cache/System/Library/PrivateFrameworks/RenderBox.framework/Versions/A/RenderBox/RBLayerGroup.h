@@ -7,9 +7,6 @@
 @interface RBLayerGroup
 {
     struct objc_ptr<NSString *> _id_key;
-    struct atomic<unsigned int> _last_id;
-    struct spin_lock _lock;
-    void *_instances;
 }
 
 - (id);

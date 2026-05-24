@@ -9,54 +9,36 @@
 @interface CKTextMetricsRequest
 {
     _Bool _alreadyPadded;
-    NSAttributedString *_attributedString;
-    double _lineFragmentPadding;
-    long long _lineBreakMode;
-    unsigned long long _maximumNumberOfLines;
-    double _maximumWidth;
-    double _maximumHeight;
-    double _minimumViewHeight;
-    struct UIEdgeInsets _containerInset;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)ic_hashtagCharacterString;
+- (void)decryptEncryptedData:(struct UIEdgeInsets)arg1 identifier: /* Error: Ran out of types for this method. */;
+- (void)cloudObjectWithIdentifier:(_Bool)arg1 context: /* Error: Ran out of types for this method. */;
+- (double)r",&,N,V_borderColor;
+- (struct UIEdgeInsets)_9_p_G;
 - (double);
-- (struct UIEdgeInsets);
-- (double);
-- (struct CGSize);
+- (struct CGSize)o;
 - (_Bool);
 - (unsigned long long);
 - (double);
 - (void);
-- (id);
+- (id)!;
 - (void)ûð!@ùð1Â0@ù
 × ;
 - (id)1Â0@ù
 × ;
-- (id)omPreviousLayout: /* Error: Ran out of types for this method. */;
-- (void)l;
-- (double)col_p;
+- (id)setKeyboardHeightFromPreviousLayout: /* Error: Ran out of types for this method. */;
+- (void)FocusInternal;
+- (double)So21CKTapbackViewProtocol_p;
 - (void)of group conversation, sending separately;
-- (long long)nkDataKey;
+- (long long)CKRemoteItemForSendingAppendedRichLinkDataKey;
 - (void)t;
 - (void);
 - (double)åj@Dÿýjþ»ÿ;
 - (void)ü88Á.;
 
 // Remaining properties
-@property(readonly) struct CGSize adjustedMaximumSize;
-@property(readonly) double adjustedMaximumWidth;
-@property(nonatomic, getter=isAlreadyPadded) _Bool alreadyPadded; // @synthesize alreadyPadded=_alreadyPadded;
 @property(copy, nonatomic) NSAttributedString *attributedString; // @synthesize attributedString=_attributedString;
-@property(nonatomic) struct UIEdgeInsets containerInset; // @synthesize containerInset=_containerInset;
-@property(nonatomic) long long lineBreakMode; // @synthesize lineBreakMode=_lineBreakMode;
-@property(nonatomic) double lineFragmentPadding; // @synthesize lineFragmentPadding=_lineFragmentPadding;
-@property(nonatomic) double maximumHeight; // @synthesize maximumHeight=_maximumHeight;
-@property(nonatomic) unsigned long long maximumNumberOfLines; // @synthesize maximumNumberOfLines=_maximumNumberOfLines;
-@property(nonatomic) double maximumWidth; // @synthesize maximumWidth=_maximumWidth;
-@property(nonatomic) double minimumViewHeight; // @synthesize minimumViewHeight=_minimumViewHeight;
 
 @end
 

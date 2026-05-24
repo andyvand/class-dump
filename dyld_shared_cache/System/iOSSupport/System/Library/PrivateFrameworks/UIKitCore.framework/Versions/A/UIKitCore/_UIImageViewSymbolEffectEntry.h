@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSymbolEffect, NSSymbolEffectOptions;
+@class NSSymbolEffect;
 
 __attribute__((visibility("hidden")))
 @interface _UIImageViewSymbolEffectEntry
 {
     _Bool _animated;
-    NSSymbolEffect *_symbolEffect;
-    NSSymbolEffectOptions *_options;
-    CDUnknownBlockType _completionHandler;
 }
 
 - (id);
@@ -20,16 +17,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id)1Â0@ù
 × ;
-- (CDUnknownBlockType)ateIfNeeded:completion: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)rotateIfNeeded:completion: /* Error: Ran out of types for this method. */;
 - (void)et support UIWritingToolsResultTable. Troublesome SPI can make it possible for apps allowed to use SPI.;
-- (_Bool)rimaryLandscapeX;
+- (_Bool)primaryLandscapeX;
 - (void).apple.mobilenotes;
 - (void)_UISheetGrabberAction;
 
 // Remaining properties
-@property(nonatomic) _Bool animated; // @synthesize animated=_animated;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(retain, nonatomic) NSSymbolEffectOptions *options; // @synthesize options=_options;
 @property(retain, nonatomic) NSSymbolEffect *symbolEffect; // @synthesize symbolEffect=_symbolEffect;
 
 @end

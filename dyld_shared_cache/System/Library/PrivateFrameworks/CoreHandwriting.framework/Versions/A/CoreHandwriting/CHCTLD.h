@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRCTLD, CRCTLDConfig;
+@class CRCTLD;
 
 @interface CHCTLD
 {
     CRCTLD *_ctld;
-    CRCTLDConfig *_ctldConfig;
 }
 
 - (id);
-- (void);
+- (void)*;
 - (void);
 - (id);
 - (id);
@@ -26,7 +25,6 @@
 
 // Remaining properties
 @property(retain) CRCTLD *ctld; // @synthesize ctld=_ctld;
-@property(retain) CRCTLDConfig *ctldConfig; // @synthesize ctldConfig=_ctldConfig;
 
 @end
 

@@ -7,20 +7,10 @@
 @interface PHAPublicEventCachingTask
 {
     id worker;
-    id periodicity;
-    id name;
-    id identifier;
-    id version;
-    id priority;
-    id incrementalKey;
-    id shouldRecordCompletion;
-    id taskProductivityReporter;
-    id graphManager;
-    id cachingOptions;
 }
 
-- (id);
-- (void)error: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)_fetchObjectsForFingerprintVersion:options:localIdentifiers:error: /* Error: Ran out of types for this method. */;
 
 @end
 

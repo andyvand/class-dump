@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol MTLDevice;
 
 @interface _MTLRasterizationRateMap
 {
     id <MTLDevice> _device;
-    NSString *_label;
-    CDStruct_da2e99ad _dim;
-    unsigned long long _mutability;
-    float _minFactor;
 }
 
 - (CDStruct_6e3f967a);
@@ -33,27 +28,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)hF;
 - (id);
 - (CDStruct_da2e99ad);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) id <MTLDevice> device;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *label;
-@property(readonly) unsigned long long layerCount;
-@property(readonly, nonatomic) float minFactor;
-@property(readonly, nonatomic) unsigned long long mutability;
-@property(readonly) CDStruct_4bcfbbae parameterBufferSizeAndAlign;
-@property(readonly) CDStruct_da2e99ad physicalGranularity;
-@property(readonly) CDStruct_da2e99ad screenSize;
-@property(readonly) Class superclass;
 
 @end
 

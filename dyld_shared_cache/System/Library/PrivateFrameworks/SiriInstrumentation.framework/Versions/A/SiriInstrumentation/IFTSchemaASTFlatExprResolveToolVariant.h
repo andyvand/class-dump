@@ -6,13 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
-
 @interface IFTSchemaASTFlatExprResolveToolVariant : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    NSArray *_toolIds;
-    CDStruct_b33ad018 _has;
 }
 
 - (unsigned long long);
@@ -22,7 +18,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)6;
 - (id);
 - (id);
 - (void);
@@ -30,7 +26,7 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)setInterruptionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)ExecutionTier1;
 - (id)k°klØl´mDn ohoØp qüqrlsüs t0uvXv|wÄw4yz0{x{|ä| ~è~ÈèXxèxÀätpÜP0¸Ô$lØ\<d¬Øh<¬ <¡x¢P£t¤l¦(¨©´ªüªL¬$­H® ¯D°°l±´±²Ü²¼³´ä´L¶p·;
@@ -41,9 +37,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *toolIds; // @synthesize toolIds=_toolIds;
 
 @end
 

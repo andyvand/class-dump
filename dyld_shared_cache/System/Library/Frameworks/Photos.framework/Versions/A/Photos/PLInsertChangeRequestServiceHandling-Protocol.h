@@ -5,6 +5,9 @@
 //
 
 @protocol PLInsertChangeRequestServiceHandling
+- (_Bool);
+- (void);
+- (void)2;
 
 // Remaining properties
 @property(nonatomic) _Bool shouldPerformConcurrentWork;

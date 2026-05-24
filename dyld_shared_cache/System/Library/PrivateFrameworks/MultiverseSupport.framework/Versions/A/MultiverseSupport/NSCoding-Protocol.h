@@ -5,5 +5,7 @@
 //
 
 @protocol NSCoding
+- (id)did not have a policy handling.
+%@;
 @end
 

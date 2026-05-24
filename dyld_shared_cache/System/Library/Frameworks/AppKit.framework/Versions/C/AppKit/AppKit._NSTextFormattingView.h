@@ -9,18 +9,13 @@
 @interface AppKit._NSTextFormattingView : NSView
 {
     id model;
-    id configuration;
-    id layout;
-    id stackView;
-    id componentViews;
-    id componentConstraints;
-    id bottomConstraint;
 }
 
-- (id);
+- (id)U
+;
 - (void)¡ì/Ð!Fùñá3Ð1Â0@ù
 × ;
-- (id)ance;
+- (id)_snapDistance;
 - (void)rÿM¸ÀqE;
 
 @end

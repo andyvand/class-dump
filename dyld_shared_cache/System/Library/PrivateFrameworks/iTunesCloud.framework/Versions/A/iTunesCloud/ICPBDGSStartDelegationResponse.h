@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSString;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface ICPBDGSStartDelegationResponse
 {
     NSData *_playerAnisetteMID;
-    NSData *_playerDeviceGUID;
-    NSMutableArray *_playerInfoContextTokens;
-    NSString *_playerUserAgent;
 }
 
 - (id);
-- (void);
+- (void)`";
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)r;
+- (id);
 - (id);
 - (void)seudonym",&,N,V_pseudonym;
 

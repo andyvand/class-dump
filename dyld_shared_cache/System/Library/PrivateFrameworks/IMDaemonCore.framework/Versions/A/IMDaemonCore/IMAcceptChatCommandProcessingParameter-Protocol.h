@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @protocol IMAcceptChatCommandProcessingParameter
+- (_Bool):] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *GUID;
-@property(readonly, nonatomic) _Bool isFromMe;
-@property(readonly, nonatomic) _Bool isFromStorage;
-@property(readonly, nonatomic) _Bool isLastFromStorage;
-@property(copy, nonatomic) NSString *replicationSourceServiceName;
-@property(readonly, nonatomic) NSNumber *timestamp;
 @end
 

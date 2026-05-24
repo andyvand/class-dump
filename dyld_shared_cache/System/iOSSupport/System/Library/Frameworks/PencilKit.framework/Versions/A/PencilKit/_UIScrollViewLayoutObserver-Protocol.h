@@ -5,5 +5,6 @@
 //
 
 @protocol _UIScrollViewLayoutObserver
+- (void);
 @end
 

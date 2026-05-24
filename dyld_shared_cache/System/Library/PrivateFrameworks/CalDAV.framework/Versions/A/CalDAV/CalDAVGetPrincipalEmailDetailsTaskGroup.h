@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalDAVPrincipalEmailDetailsResult, NSSet, NSString, NSURL;
+@class CalDAVPrincipalEmailDetailsResult, NSURL;
 
 @interface CalDAVGetPrincipalEmailDetailsTaskGroup
 {
     NSURL *_principalURL;
-    CalDAVPrincipalEmailDetailsResult *_principalResult;
 }
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -26,17 +25,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSSet *addresses;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, retain, nonatomic) NSString *displayName;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) CalDAVPrincipalEmailDetailsResult *principalResult; // @synthesize principalResult=_principalResult;
-@property(retain, nonatomic) NSURL *principalURL; // @synthesize principalURL=_principalURL;
-@property(readonly) Class superclass;
 
 @end
 

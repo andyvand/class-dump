@@ -9,7 +9,6 @@
 @interface CLSEntitlements
 {
     NSString *_applicationBundleIdentifier;
-    NSDictionary *_entitlements;
 }
 
 + (id);
@@ -18,15 +17,15 @@
 + (id);
 + (_Bool);
 + (_Bool);
++ (id)Failed:(id *)arg1 %@;
 + (id);
-+ (id);
-+ (id);
++ (id)bilitySupport;
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)ct={CGPoint=dd}{CGSize=dd}}16;
 - (_Bool);
 - (id);
 - (id);
@@ -39,8 +38,6 @@
 - (_Bool)own dev mode type string:'%@' /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *applicationBundleIdentifier; // @synthesize applicationBundleIdentifier=_applicationBundleIdentifier;
-@property(readonly, nonatomic) NSString *classKitEnvironment;
 @property(readonly, copy, nonatomic) NSDictionary *entitlements; // @synthesize entitlements=_entitlements;
 
 @end

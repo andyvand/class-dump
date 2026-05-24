@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol NSSecureCoding;
-
 @interface NSPreviewHostViewControllerParameters
 {
     _Bool _allowTargetFrameRequests;
-    CDStruct_28acc417 _windowState;
-    long long _windowNumber;
-    NSString *_targetControllerClassName;
-    NSObject<NSSecureCoding> *_hostAppClientParameters;
-    CDStruct_4c969caf _targetAuditToken;
 }
 
-- (CDStruct_4c969caf);
-- (void);
+- (CDStruct_4c969caf)(&;
+- (void)K}Sk;
 - (_Bool);
 - (long long);
 - (id);
@@ -29,15 +21,10 @@
 - (id);
 - (id);
 - (void)inform host of change to service window frame, %@ encountered %@;
-- (CDStruct_28acc417)%@ unable to obtain current ASN (actual, post);
+- (CDStruct_5c52f79b)%@ unable to obtain current ASN (actual, post);
 
 // Remaining properties
-@property _Bool allowTargetFrameRequests; // @synthesize allowTargetFrameRequests=_allowTargetFrameRequests;
-@property(copy) NSObject<NSSecureCoding> *hostAppClientParameters; // @synthesize hostAppClientParameters=_hostAppClientParameters;
 @property CDStruct_4c969caf targetAuditToken; // @synthesize targetAuditToken=_targetAuditToken;
-@property(copy) NSString *targetControllerClassName; // @synthesize targetControllerClassName=_targetControllerClassName;
-@property long long windowNumber; // @synthesize windowNumber=_windowNumber;
-@property CDStruct_28acc417 windowState; // @synthesize windowState=_windowState;
 
 @end
 

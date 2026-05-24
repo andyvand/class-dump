@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface AWDSymptomsDiagnosticIncidentReport
 {
@@ -14,28 +12,6 @@ __attribute__((visibility("hidden")))
         unsigned long long count;
         unsigned long long size;
     } _timestampsIncidentEvents;
-    unsigned long long _duration;
-    unsigned long long _timestamp;
-    unsigned long long _version;
-    int _dampeningType;
-    NSString *_detectedName;
-    NSString *_domain;
-    NSString *_effectiveName;
-    NSString *_groupIdentifier;
-    int _handledResult;
-    NSString *_identifier;
-    NSMutableArray *_incidentEvents;
-    NSMutableArray *_relatedNames;
-    NSString *_subtype;
-    NSString *_subtypeContext;
-    NSString *_type;
-    struct {
-        unsigned int duration:1;
-        unsigned int timestamp:1;
-        unsigned int version:1;
-        unsigned int dampeningType:1;
-        unsigned int handledResult:1;
-    } _has;
 }
 
 + (Class);
@@ -48,68 +24,68 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
-- (unsigned long long *);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (unsigned long long)setAlternateButton:callback: /* Error: Ran out of types for this method. */;
+- (unsigned long long *)constraintWithItem:attribute:relatedBy:toItem:attribute:multiplier:constant: /* Error: Ran out of types for this method. */;
+- (void)oller;
 - (void);
 - (id);
 - (void);
 - (void);
+- (void);
 - (id);
-- (_Bool);
+- (void);
+- (void)(;
+- (id);
+- (_Bool)B;
+- (int);
+- (unsigned long long);
+- (void);
 - (int);
 - (unsigned long long);
-- (void);
-- (int);
+- (_Bool);
+- (id)PersistAcrossUpdates;
+- (_Bool)@;
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (_Bool);
-- (unsigned long long);
-- (_Bool);
+- (_Bool)anager",R,&,N,V_progressManager;
 - (_Bool);
 - (id);
 - (_Bool);
 - (unsigned long long);
+- (_Bool)e != nil;
+- (void)vigationServiceLocalProxy setHeadingOrientation:(_Bool)arg1 ];
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id)st id;
+- (void)oraryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/engine/eng_cnf.c;
+- (unsigned long long);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (int)m;
+- (id);
+- (id)_autoUpdateEnabled;
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (unsigned long long);
+- (void)initWithType:(unsigned long long *)arg1;
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (int);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)_hitCount;
 - (void);
 - (id);
 - (void);
@@ -119,36 +95,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(nonatomic) int dampeningType; // @synthesize dampeningType=_dampeningType;
-@property(retain, nonatomic) NSString *detectedName; // @synthesize detectedName=_detectedName;
-@property(retain, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(nonatomic) unsigned long long duration; // @synthesize duration=_duration;
-@property(retain, nonatomic) NSString *effectiveName; // @synthesize effectiveName=_effectiveName;
-@property(retain, nonatomic) NSString *groupIdentifier; // @synthesize groupIdentifier=_groupIdentifier;
-@property(nonatomic) int handledResult; // @synthesize handledResult=_handledResult;
-@property(nonatomic) _Bool hasDampeningType;
-@property(readonly, nonatomic) _Bool hasDetectedName;
-@property(readonly, nonatomic) _Bool hasDomain;
-@property(nonatomic) _Bool hasDuration;
-@property(readonly, nonatomic) _Bool hasEffectiveName;
-@property(readonly, nonatomic) _Bool hasGroupIdentifier;
-@property(nonatomic) _Bool hasHandledResult;
-@property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasSubtype;
-@property(readonly, nonatomic) _Bool hasSubtypeContext;
 @property(nonatomic) _Bool hasTimestamp;
-@property(readonly, nonatomic) _Bool hasType;
-@property(nonatomic) _Bool hasVersion;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSMutableArray *incidentEvents; // @synthesize incidentEvents=_incidentEvents;
-@property(retain, nonatomic) NSMutableArray *relatedNames; // @synthesize relatedNames=_relatedNames;
-@property(retain, nonatomic) NSString *subtype; // @synthesize subtype=_subtype;
-@property(retain, nonatomic) NSString *subtypeContext; // @synthesize subtypeContext=_subtypeContext;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(readonly, nonatomic) unsigned long long *timestampsIncidentEvents;
-@property(readonly, nonatomic) unsigned long long timestampsIncidentEventsCount;
-@property(retain, nonatomic) NSString *type; // @synthesize type=_type;
-@property(nonatomic) unsigned long long version; // @synthesize version=_version;
 
 @end
 

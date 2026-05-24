@@ -6,24 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class FLOWSchemaFLOWHomeCommunicationSendOrReply, FLOWSchemaFLOWHomeContext, NSData;
+@class FLOWSchemaFLOWHomeContext;
 
 @interface FLOWSchemaFLOWHomeCommunicationContext : SISchemaInstrumentationMessage
 {
     FLOWSchemaFLOWHomeContext *_homeContext;
-    int _taskType;
-    FLOWSchemaFLOWHomeCommunicationSendOrReply *_sendOrReplyContext;
-    CDStruct_91e2971b _has;
-    _Bool _hasHomeContext;
-    _Bool _hasSendOrReplyContext;
-    unsigned long long _whichTaskcontext;
 }
 
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -34,13 +28,13 @@
 - (_Bool);
 - (void);
 - (void);
+- (id)@;
 - (id);
-- (id);
-- (void);
+- (void)c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)`;
 - (id)?="viewMode"b1"audioInterface"b1"product"b1"siriAsrLocation"b1"siriNlLocation"b1"siriDataSharingOptInStatus"b1};
 - (id)hasMwtCheckpointReported;
 - (id)°n;
@@ -48,14 +42,7 @@
 - (int)myÿìê;
 
 // Remaining properties
-@property(nonatomic) _Bool hasHomeContext; // @synthesize hasHomeContext=_hasHomeContext;
-@property(nonatomic) _Bool hasSendOrReplyContext; // @synthesize hasSendOrReplyContext=_hasSendOrReplyContext;
-@property(nonatomic) _Bool hasTaskType;
 @property(retain, nonatomic) FLOWSchemaFLOWHomeContext *homeContext; // @synthesize homeContext=_homeContext;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) FLOWSchemaFLOWHomeCommunicationSendOrReply *sendOrReplyContext; // @synthesize sendOrReplyContext=_sendOrReplyContext;
-@property(nonatomic) int taskType; // @synthesize taskType=_taskType;
-@property(readonly, nonatomic) unsigned long long whichTaskcontext; // @synthesize whichTaskcontext=_whichTaskcontext;
 
 @end
 

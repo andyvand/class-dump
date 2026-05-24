@@ -10,7 +10,7 @@
 }
 
 - (void);
-- (id);
+- (id)H	;
 - (void)== 0 ORDER BY a.ROWID LIMIT ? ;
 
 @end

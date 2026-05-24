@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface RankingInfo
 {
 }
 
-+ (id);
++ (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *category; // @dynamic category;
-@property(nonatomic) short inputMethod; // @dynamic inputMethod;
-@property(copy, nonatomic) NSString *message; // @dynamic message;
-@property(copy, nonatomic) NSString *rankedList; // @dynamic rankedList;
-@property(copy, nonatomic) NSString *recipientId; // @dynamic recipientId;
-@property(copy, nonatomic) NSString *response; // @dynamic response;
-@property(nonatomic) short source; // @dynamic source;
-@property(copy, nonatomic) NSDate *timestamp; // @dynamic timestamp;
 
 @end
 

@@ -7,19 +7,16 @@
 @interface QSizeObject
 {
     double _width;
-    double _height;
 }
 
-- (struct CGSize);
+- (struct CGSize)__MPModelPropertySongTraits__MAPPING_MISSING__;
 - (double);
-- (double);
+- (double)A;
 - (void);
 - (id);
-- (void);
+- (void)_fetchedResultsController;
 
 // Remaining properties
-@property double height; // @synthesize height=_height;
-@property(readonly, nonatomic) struct CGSize size;
 @property double width; // @synthesize width=_width;
 
 @end

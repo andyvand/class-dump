@@ -11,11 +11,10 @@
 @interface EWSSubscribeResponseMessageType : EWSResponseMessageType
 {
     NSString *_SubscriptionId;
-    NSString *_Watermark;
 }
 
 + (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *SubscriptionId; // @synthesize SubscriptionId=_SubscriptionId;
-@property(copy, nonatomic) NSString *Watermark; // @synthesize Watermark=_Watermark;
 
 @end
 

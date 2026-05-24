@@ -4,36 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOrderedSet, NSString;
+@class NSString;
 
 @interface TIKeyboardCandidateGroup
 {
     NSString *_title;
-    NSOrderedSet *_candidates;
 }
 
-+ (_Bool);
++ (_Bool)?;
 - (id);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)
+;
+- (void)CE
+;
 - (id);
 - (id);
-- (id);
+- (id)postNotificationForInterestingMemoryWithMemoryUUID:library:notificationDeliveryDate: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id)ndidate;
+- (id);
+- (id)smartReplySourceCandidate;
 - (void)¾
 °
 À
 ;
-- (void)ffensively;
+- (void)offensively;
 
 // Remaining properties
-@property(copy) NSOrderedSet *candidates; // @synthesize candidates=_candidates;
 @property(copy) NSString *title; // @synthesize title=_title;
 
 @end

@@ -9,9 +9,9 @@
 @protocol UIDropInteractionDelegate
 
 @optional
-- (_Bool)ntroller;
+- (_Bool)_contactPickerViewController;
 - (void)urrentPrintableRect;
-- (void)edSticker;
+- (void)CKBrowserDraggedSticker;
 - (void)ÿ;
 - (UIDropProposal *)ÿÿÿôÙÿþÿÿÈþÿÿ;
 - (UITargetedDragPreview *)AEyAAyAAyAAy¤ò[G[G[GGGy[y[GGAEyAAyAAy%[yAT²[¨¸[GAMGG[y[GGSgGGv[G;
@@ -21,6 +21,6 @@
 |>>> Failed Tests %lu
 |>>> Suite Passed %@
 |-----------------------------------------------------|;
-- (void)ntent;
+- (void)GeneratingTileContent;
 @end
 

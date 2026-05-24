@@ -9,14 +9,11 @@
 @interface VMUFlattenGraphEnumerator : VMUGraphEnumerator
 {
     VMUGraphEnumerator *_graphEnumerator;
-    void *_deliveredReachable;
-    void *_topLevel;
-    _Bool _iteratingTopLevel;
 }
 
 - (id);
-- (id);
-- (void);
+- (id)*;
+- (void);
 - (void);
 - (void);
 

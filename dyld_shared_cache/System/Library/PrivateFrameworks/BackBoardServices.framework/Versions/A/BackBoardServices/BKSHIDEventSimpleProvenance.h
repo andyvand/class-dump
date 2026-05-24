@@ -4,32 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface BKSHIDEventSimpleProvenance
 {
     NSData *_signature;
-    long long _versionedPID;
-    unsigned int _eventType;
-    unsigned long long _timestamp;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)FOLLOWUP_LAST_CUSTODIAN_NO_LIVENESS_TITLE;
 + (_Bool);
 - (_Bool);
+- (id)updateSystemConstraintsWithParameters:(id)arg1;
 - (id);
-- (id);
-- (id);
+- (id);;
 - (unsigned long long);
 - (unsigned long long);
 - (id);
 - (unsigned int);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 - (long long);
 - (id);
@@ -37,17 +34,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned int eventType;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSData *signature;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long timestamp;
-@property(readonly, nonatomic) long long versionedPID;
 
 @end
 

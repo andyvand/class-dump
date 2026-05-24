@@ -9,7 +9,6 @@
 @interface ICSwiftSystemPaperImageGenerator : ICSystemPaperImageGenerator
 {
     id document;
-    id cachedPaper;
 }
 
 - (struct CGRect);
@@ -18,10 +17,9 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)fileURL;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool hasDeepLink;
 @property(nonatomic, readonly) struct CGRect paperContentBounds;
 
 @end

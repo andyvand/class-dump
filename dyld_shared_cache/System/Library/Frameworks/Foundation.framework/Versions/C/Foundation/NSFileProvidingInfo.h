@@ -4,33 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileProviderKernelMaterializationInfo, NSString;
-
 @interface NSFileProvidingInfo
 {
     unsigned long long recursiveGenerationCount;
-    NSString *readerID;
-    unsigned long long readingOptions;
-    NSFileProviderKernelMaterializationInfo *kernelMaterializationInfo;
-    CDStruct_4c969caf readerAuditToken;
 }
 
 + (id);
-+ (_Bool)formStruct;
++ (_Bool)NSTransformStruct;
 - (void);
+- (void);
+- (id);
+- (unsigned long long);
+- (id);
+- (id);
 - (void);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (CDStruct_4c969caf).;
+- (CDStruct_6ad76789).;
 
 // Remaining properties
-@property(readonly) NSFileProviderKernelMaterializationInfo *kernelMaterializationInfo; // @synthesize kernelMaterializationInfo;
-@property(readonly) CDStruct_4c969caf readerAuditToken; // @synthesize readerAuditToken;
-@property(readonly, copy) NSString *readerID; // @synthesize readerID;
-@property(readonly) unsigned long long readingOptions; // @synthesize readingOptions;
+@property(readonly) CDStruct_6ad76789 readerAuditToken; // @synthesize readerAuditToken;
 
 @end
 

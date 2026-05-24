@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface CUNANPairingPromptInfo
 {
     NSString *_name;
-    NSDictionary *_textInfo;
 }
 
 - (id);
 - (id);
+- (id)lastDataSyncTimestamp;
 - (id);
-- (id);
-- (void);
+- (void)sertion;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy, nonatomic) NSDictionary *textInfo; // @synthesize textInfo=_textInfo;
 
 @end
 

@@ -7,15 +7,10 @@
 @class NSString;
 
 @protocol _INPBAppNames
+- (NSString *);
+- (NSString *)ooo;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *appName;
-@property(copy, nonatomic) NSString *axSpokenName;
-@property(copy, nonatomic) NSString *displayName;
-@property(readonly, nonatomic) _Bool hasAppName;
-@property(readonly, nonatomic) _Bool hasAxSpokenName;
-@property(readonly, nonatomic) _Bool hasDisplayName;
-@property(readonly, nonatomic) _Bool hasSpotlightName;
-@property(copy, nonatomic) NSString *spotlightName;
 @end
 

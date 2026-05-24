@@ -7,13 +7,6 @@
 @interface AWDSafariContactAutoFillDidShowSetsEvent
 {
     unsigned long long _timestamp;
-    _Bool _isShowingMeCardSets;
-    _Bool _isShowingPreviouslyCustomizedSet;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int isShowingMeCardSets:1;
-        unsigned int isShowingPreviouslyCustomizedSet:1;
-    } _has;
 }
 
 - (void);
@@ -23,28 +16,23 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsShowingMeCardSets;
-@property(nonatomic) _Bool hasIsShowingPreviouslyCustomizedSet;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool isShowingMeCardSets; // @synthesize isShowingMeCardSets=_isShowingMeCardSets;
-@property(nonatomic) _Bool isShowingPreviouslyCustomizedSet; // @synthesize isShowingPreviouslyCustomizedSet=_isShowingPreviouslyCustomizedSet;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

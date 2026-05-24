@@ -7,7 +7,6 @@
 @interface IDSFoundation.IDSLinkSelectionMetricPlugin
 {
     id name;
-    id tracker;
 }
 
 @end

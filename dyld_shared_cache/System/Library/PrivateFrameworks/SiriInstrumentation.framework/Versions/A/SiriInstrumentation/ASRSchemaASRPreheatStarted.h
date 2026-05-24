@@ -6,23 +6,20 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ASRSchemaASRPreheatStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)l;
+- (void)#;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)kenWiseAsrConfidenceAtIndex: /* Error: Ran out of types for this method. */;
+- (id)tokenWiseAsrConfidenceAtIndex: /* Error: Ran out of types for this method. */;
 - (id)cef<ggôh<ikXkm\m<nnpTpxqÀqär,sPttvPv0wxwxäxzPz0{x{è|0}~X~|0À èTxt¼à(PÀ,L(pà(à¼t¼pPèxX ¼ª«À¬p®,°L±T³t´ µèµ8··¹Ð¹üºD»p¼¸¼ä½,¾X¿ ¿ÌÀÁ@Â¨ÃdÅ¬ÅÆÇüÇDÈ$ÉlÉLÊÜÊ¼ËÌÎTÎpÒ¸ÒÓàÓÀÔÕèÕ0Ö\×¤×ÈØÙ4Ú|ÚÈÛÜ<ÝÝ¨ÞðÞà\àÌáâ8ãã`ä¨äÌåæðæ8ç$êlê¼ëìîî¸ï;
 - (id);
 - (_Bool)`N¾ÿ×®úü$;
@@ -31,8 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

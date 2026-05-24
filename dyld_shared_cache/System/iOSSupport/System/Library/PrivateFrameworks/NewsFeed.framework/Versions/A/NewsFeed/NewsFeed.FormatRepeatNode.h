@@ -7,12 +7,6 @@
 @interface NewsFeed.FormatRepeatNode
 {
     id _identifier;
-    id iteration;
-    id min;
-    id max;
-    id stride;
-    id scope;
-    id _children;
 }
 
 @end

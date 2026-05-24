@@ -5,5 +5,6 @@
 //
 
 @protocol DDSAssetProvidingDelegate
+- (void);
 @end
 

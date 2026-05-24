@@ -6,34 +6,17 @@
 
 #import <AVKit/AVView.h>
 
-@class AVMobileChromelessSlider, AVMobileVolumeChromelessButtonControl, NSString, UIBlurEffect, UIView, UIViewPropertyAnimator;
-@protocol AVMobileChromelessVolumeControlsViewDelegate;
+@class AVMobileVolumeChromelessButtonControl, UIView;
 
 __attribute__((visibility("hidden")))
 @interface AVMobileChromelessVolumeControlsView : AVView
 {
     UIView *_volumeControls;
-    UIViewPropertyAnimator *_emphasizedAnimator;
-    UIBlurEffect *_enabledFilledBarViewEffect;
-    UIBlurEffect *_enabledUnfilledBarViewEffect;
-    struct CGRect _sliderShadowPathRect;
-    struct CGRect _buttonShadowPathRect;
-    _Bool _drawsShadow;
-    _Bool _allowsVolumeAdjustment;
-    _Bool _prefersVolumeSliderIncluded;
-    _Bool _prefersVolumeSliderEnabled;
-    _Bool _emphasized;
-    _Bool _mute;
-    _Bool _volumeSliderHidesWithAlphaChange;
-    id <AVMobileChromelessVolumeControlsViewDelegate> _delegate;
-    double _volume;
-    AVMobileVolumeChromelessButtonControl *_volumeButton;
-    AVMobileChromelessSlider *_volumeSlider;
 }
 
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)record %@ returned from oplock failure.;
 - (void);
 - (_Bool);
 - (void);
@@ -42,9 +25,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
+- (id)PrivateData::DaemonLocationPrivate_GnssEstimatorSource_IsValid(value) /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
+- (void)S_16ActiveObjectBaseERKNS_12GenericEventEE_;
 - (void);
 - (void);
 - (void);
@@ -57,9 +40,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)./;
 - (_Bool);
-- (void);
+- (void)le>",R,N,V_defaultTransitionTable;
 - (void);
 - (void);
 - (double);
@@ -68,7 +51,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)LPWebLinkPresentationProperties;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -76,25 +59,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=isTrackingEnabled) _Bool allowsVolumeAdjustment; // @synthesize allowsVolumeAdjustment=_allowsVolumeAdjustment;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <AVMobileChromelessVolumeControlsViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool drawsShadow; // @synthesize drawsShadow=_drawsShadow;
-@property(nonatomic, getter=isEmphasized) _Bool emphasized; // @synthesize emphasized=_emphasized;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isTracking;
-@property(nonatomic, getter=isMuted) _Bool mute; // @synthesize mute=_mute;
-@property(nonatomic) _Bool prefersVolumeSliderEnabled; // @synthesize prefersVolumeSliderEnabled=_prefersVolumeSliderEnabled;
-@property(nonatomic) _Bool prefersVolumeSliderIncluded; // @synthesize prefersVolumeSliderIncluded=_prefersVolumeSliderIncluded;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double volume; // @synthesize volume=_volume;
 @property(retain, nonatomic) AVMobileVolumeChromelessButtonControl *volumeButton; // @synthesize volumeButton=_volumeButton;
-@property(retain, nonatomic) AVMobileChromelessSlider *volumeSlider; // @synthesize volumeSlider=_volumeSlider;
-@property(nonatomic) _Bool volumeSliderHidesWithAlphaChange; // @synthesize volumeSliderHidesWithAlphaChange=_volumeSliderHidesWithAlphaChange;
 
 @end
 

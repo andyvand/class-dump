@@ -11,14 +11,14 @@
     id <CSAttSiriAttentionAssetsStatusProviderDelegate> _delegate;
 }
 
-+ (id)ogVTResult:metaFilePath:audioFilePath:completion: /* Error: Ran out of types for this method. */;
++ (id)_logVTResult:metaFilePath:audioFilePath:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void)hContext:successfully:option:withEventUUID:forAccessory: /* Error: Ran out of types for this method. */;
+- (void)accessorySiriClientBehaviorMonitor:didStartStreamWithContext:successfully:option:withEventUUID:forAccessory: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <CSAttSiriAttentionAssetsStatusProviderDelegate> delegate; // @synthesize delegate=_delegate;

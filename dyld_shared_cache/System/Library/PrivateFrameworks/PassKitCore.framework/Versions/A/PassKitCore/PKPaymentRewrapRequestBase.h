@@ -6,33 +6,11 @@
 
 #import <PassKitCore/PKPaymentWebServiceRequest.h>
 
-@class NSArray, NSData, NSDictionary, NSString, PKAccount, PKPaymentApplication, PKPaymentPass, PKWrappedPayment;
+@class NSArray;
 
 @interface PKPaymentRewrapRequestBase : PKPaymentWebServiceRequest
 {
     _Bool _isDeferredPayment;
-    long long _type;
-    PKPaymentPass *_pass;
-    PKPaymentApplication *_paymentApplication;
-    PKWrappedPayment *_wrappedPayment;
-    NSData *_applicationData;
-    long long _cryptogramType;
-    NSDictionary *_serviceProviderData;
-    NSString *_paymentHash;
-    NSString *_currencyCode;
-    NSString *_initiative;
-    NSString *_merchantTokenUseCase;
-    NSString *_initiativeContext;
-    NSString *_merchantTokenManagementURL;
-    NSArray *_multiTokenContexts;
-    NSDictionary *_fundingSourceDetails;
-    PKAccount *_account;
-    NSString *_shippingAddressHash;
-    NSString *_deviceAssessments;
-    NSString *_userAgent;
-    NSString *_remoteDeviceModel;
-    NSString *_remoteNetworkRequestPaymentTopicID;
-    NSString *_remoteNetworkRequestInitiatingUserAgent;
 }
 
 - (id);
@@ -45,12 +23,12 @@
 - (void);
 - (void);
 - (void);
+- (void)#;
+- (void)TCW;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)ga9;
 - (void);
 - (void);
 - (void);
@@ -59,10 +37,10 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)߈;
 - (_Bool);
 - (id);
 - (id);
@@ -70,7 +48,7 @@
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -81,36 +59,13 @@
 - (long long);
 - (void);
 - (id)6@"NSURLSessionTask"24@"NSURLAuthenticationChallenge"32@?<v@?q@"NSURLCredential">40;
-- (void)ValueToDictionary:(id)arg1;
-- (id)NT_SERVICE_BILL_PAYMENT_CATEGORY_PAY_IN_NINE_MONTHS_FOR_TRANSACTOR_MESSAGE;
+- (void)applySynchronizableValueToDictionary:(id)arg1;
+- (id)ACCOUNT_SERVICE_BILL_PAYMENT_CATEGORY_PAY_IN_NINE_MONTHS_FOR_TRANSACTOR_MESSAGE;
 - (void)ple.passbook.cloudstore.network-failure;
 - (void)passbook.webservices.error.moderate_push_rate_abuse;
 
 // Remaining properties
-@property(retain, nonatomic) PKAccount *account; // @synthesize account=_account;
-@property(copy, nonatomic) NSData *applicationData; // @synthesize applicationData=_applicationData;
-@property(nonatomic) long long cryptogramType; // @synthesize cryptogramType=_cryptogramType;
-@property(copy, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
-@property(copy, nonatomic) NSString *deviceAssessments; // @synthesize deviceAssessments=_deviceAssessments;
 @property(readonly, nonatomic) NSArray *endpointComponents;
-@property(copy, nonatomic) NSDictionary *fundingSourceDetails; // @synthesize fundingSourceDetails=_fundingSourceDetails;
-@property(copy, nonatomic) NSString *initiative; // @synthesize initiative=_initiative;
-@property(copy, nonatomic) NSString *initiativeContext; // @synthesize initiativeContext=_initiativeContext;
-@property(nonatomic) _Bool isDeferredPayment; // @synthesize isDeferredPayment=_isDeferredPayment;
-@property(copy, nonatomic) NSString *merchantTokenManagementURL; // @synthesize merchantTokenManagementURL=_merchantTokenManagementURL;
-@property(copy, nonatomic) NSString *merchantTokenUseCase; // @synthesize merchantTokenUseCase=_merchantTokenUseCase;
-@property(copy, nonatomic) NSArray *multiTokenContexts; // @synthesize multiTokenContexts=_multiTokenContexts;
-@property(retain, nonatomic) PKPaymentPass *pass; // @synthesize pass=_pass;
-@property(retain, nonatomic) PKPaymentApplication *paymentApplication; // @synthesize paymentApplication=_paymentApplication;
-@property(copy, nonatomic) NSString *paymentHash; // @synthesize paymentHash=_paymentHash;
-@property(copy, nonatomic) NSString *remoteDeviceModel; // @synthesize remoteDeviceModel=_remoteDeviceModel;
-@property(copy, nonatomic) NSString *remoteNetworkRequestInitiatingUserAgent; // @synthesize remoteNetworkRequestInitiatingUserAgent=_remoteNetworkRequestInitiatingUserAgent;
-@property(copy, nonatomic) NSString *remoteNetworkRequestPaymentTopicID; // @synthesize remoteNetworkRequestPaymentTopicID=_remoteNetworkRequestPaymentTopicID;
-@property(copy, nonatomic) NSDictionary *serviceProviderData; // @synthesize serviceProviderData=_serviceProviderData;
-@property(copy, nonatomic) NSString *shippingAddressHash; // @synthesize shippingAddressHash=_shippingAddressHash;
-@property(nonatomic) long long type; // @synthesize type=_type;
-@property(copy, nonatomic) NSString *userAgent; // @synthesize userAgent=_userAgent;
-@property(retain, nonatomic) PKWrappedPayment *wrappedPayment; // @synthesize wrappedPayment=_wrappedPayment;
 
 @end
 

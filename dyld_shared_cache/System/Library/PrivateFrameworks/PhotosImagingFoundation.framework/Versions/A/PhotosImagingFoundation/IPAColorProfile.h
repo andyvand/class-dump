@@ -4,27 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IPAChecksum, NSString, NSURL;
+@class NSString;
 
 @interface IPAColorProfile
 {
     struct os_unfair_lock_s _finishLoadingLock;
-    _Bool _finishLoading;
-    struct ColorSyncProfile *_colorSyncProfile;
-    struct CGColorSpace *_colorSpace;
-    _Bool _needsGamutMapping;
-    NSString *_name;
-    NSURL *_url;
-    IPAChecksum *_checksum;
-    NSString *_identifier;
-    NSString *_profileClass;
-    NSString *_colorSpaceType;
 }
 
 + (id);
 + (_Bool);
 + (id);
 + (id);
++ (id);
++ (id)"P@;
 + (id);
 + (id);
 + (id);
@@ -35,36 +27,34 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)EO�"D;
 + (_Bool);
 + (id);
 + (id);
 + (id);
++ (id)@F;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id)CGImage;
++ (id)CMTimeRange;
++ (id)CGSize;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)AVFoundation;
 - (id);
 - (id);
-- (id);
+- (id)AVFoundation;
 - (_Bool);
 - (void);
 - (id);
@@ -73,7 +63,7 @@
 - (struct ColorSyncProfile *);
 - (void);
 - (id);
-- (id);
+- (id)C;
 - (unsigned long long);
 - (struct CGColorSpace *);
 - (id);
@@ -81,18 +71,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)nextTimedMetadataGroup;
 
 // Remaining properties
-@property(readonly, nonatomic) IPAChecksum *checksum; // @synthesize checksum=_checksum;
-@property(readonly, nonatomic) struct CGColorSpace *colorSpace;
-@property(readonly, nonatomic) NSString *colorSpaceType; // @synthesize colorSpaceType=_colorSpaceType;
-@property(readonly, nonatomic) struct ColorSyncProfile *colorSyncProfile;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) _Bool needsGamutMapping; // @synthesize needsGamutMapping=_needsGamutMapping;
 @property(readonly, nonatomic) NSString *profileClass; // @synthesize profileClass=_profileClass;
-@property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

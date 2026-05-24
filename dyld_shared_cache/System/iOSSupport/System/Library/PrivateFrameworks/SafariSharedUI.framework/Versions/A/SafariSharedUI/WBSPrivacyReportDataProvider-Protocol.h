@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, WBSKnownTrackingThirdParty;
+@class NSArray;
 
 @protocol WBSPrivacyReportDataProvider
+- (NSArray *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *blockedKnownTrackers;
-@property(readonly, nonatomic) _Bool hasData;
 @property(readonly, nonatomic) NSArray *knownTrackers;
-@property(copy, nonatomic) NSArray *knownTrackersSortDescriptors;
-@property(readonly, nonatomic) WBSKnownTrackingThirdParty *mostSeenKnownTracker;
-@property(readonly, nonatomic) NSArray *preventedKnownTrackers;
-@property(readonly, nonatomic) double ratioOfTrackedFirstPartiesToAllVisited;
-@property(readonly, nonatomic) NSArray *trackedFirstParties;
-@property(copy, nonatomic) NSArray *trackedFirstPartiesSortDescriptors;
-@property(readonly, nonatomic) NSSet *trackerOwnerNames;
 @end
 

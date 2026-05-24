@@ -7,6 +7,7 @@
 @protocol NSURLSessionDelegate
 
 @optional
+- (void);
 - (void)v@?@"NSData"@"PKSecureElementSignatureInfo"@"NSError">40;
 @end
 

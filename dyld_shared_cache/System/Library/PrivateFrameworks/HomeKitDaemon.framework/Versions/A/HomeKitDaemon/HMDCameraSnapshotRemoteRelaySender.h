@@ -6,49 +6,37 @@
 
 #import <HomeKitDaemon/HMDCameraSnapshotSender.h>
 
-@class HMDCameraSnapshotIDSRelayInitiator, HMDCameraSnapshotLocal, NSString;
-@protocol HMDCameraSnapshotRemoteRelaySenderDelegate;
+@class HMDCameraSnapshotLocal;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraSnapshotRemoteRelaySender : HMDCameraSnapshotSender
 {
     HMDCameraSnapshotLocal *_snapshotLocal;
-    id <HMDCameraSnapshotRemoteRelaySenderDelegate> _delegate;
-    HMDCameraSnapshotIDSRelayInitiator *_relayInitiator;
 }
 
 + (id);
+- (void)_initPendingStateIfNeeded;
+- (void)_groupSession;
+- (id)_groupIdentifier;
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id): /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) __weak id <HMDCameraSnapshotRemoteRelaySenderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) HMDCameraSnapshotIDSRelayInitiator *relayInitiator; // @synthesize relayInitiator=_relayInitiator;
 @property(readonly, nonatomic) HMDCameraSnapshotLocal *snapshotLocal; // @synthesize snapshotLocal=_snapshotLocal;
-@property(readonly) Class superclass;
 
 @end
 

@@ -12,10 +12,10 @@
 }
 
 + (id);
-+ (id);
++ (id)Qj;
 + (void);
-+ (id);
-- (id);
++ (id)enDirectory.ODQueryCopyResults.context.%p;
+- (id)�;
 - (id);
 - (id);
 - (id);
@@ -24,18 +24,17 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)P�;
 - (id);
 - (id);
 - (_Bool);
 - (struct __ODSession *);
-- (void);
-- (id);
+- (void)ConstructorsERN3MIL10MILContextEE3$_0FNS_10unique_ptrINS6_10IROperatorENS_14default_deleteISB_EEEEvEEE;
+- (id)IA;
 - (unsigned long long);
 
 // Remaining properties
 @property(readonly, copy) NSArray *configurationTemplateNames;
-@property(readonly, copy) NSArray *mappingTemplateNames;
 
 @end
 

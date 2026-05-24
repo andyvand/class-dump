@@ -11,7 +11,6 @@
 @interface REMListFetchMetadata : REMFetchMetadata
 {
     NSDictionary *_incompleteReminderCounts;
-    long long _scheduledCount;
 }
 
 + (_Bool);
@@ -21,12 +20,11 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)P;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *incompleteReminderCounts; // @synthesize incompleteReminderCounts=_incompleteReminderCounts;
-@property(readonly, nonatomic) long long scheduledCount; // @synthesize scheduledCount=_scheduledCount;
 
 @end
 

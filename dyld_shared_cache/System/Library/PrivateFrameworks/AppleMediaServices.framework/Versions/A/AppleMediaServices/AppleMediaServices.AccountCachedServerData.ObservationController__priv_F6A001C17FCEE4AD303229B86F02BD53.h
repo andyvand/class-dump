@@ -7,9 +7,6 @@
 @interface AppleMediaServices.AccountCachedServerData.ObservationController__priv_F6A001C17FCEE4AD303229B86F02BD53
 {
     id lock;
-    id observedIDs;
-    id observedIDsContinuation;
-    id eventSender;
 }
 
 @end

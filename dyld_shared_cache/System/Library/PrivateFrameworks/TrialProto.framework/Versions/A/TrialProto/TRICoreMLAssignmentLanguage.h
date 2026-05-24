@@ -16,7 +16,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *ruleArray; // @dynamic ruleArray;
-@property(readonly, nonatomic) unsigned long long ruleArray_Count; // @dynamic ruleArray_Count;
 
 @end
 

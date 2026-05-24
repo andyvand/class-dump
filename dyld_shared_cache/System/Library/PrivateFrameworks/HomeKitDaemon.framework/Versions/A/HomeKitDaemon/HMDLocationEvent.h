@@ -6,20 +6,19 @@
 
 #import <HomeKitDaemon/HMDEvent.h>
 
-@class CLRegion, NSString, NSUUID;
+@class CLRegion;
 
 __attribute__((visibility("hidden")))
 @interface HMDLocationEvent : HMDEvent
 {
     CLRegion *_region;
-    NSUUID *_userUUID;
 }
 
 + (_Bool)¼TU$VV;
 + (id)°B;
 - (id);
-- (void);
-- (_Bool);
+- (void)tiple times for contact %{private}@;
+- (_Bool)(hasWaypoints:(id)arg1 %{public}@, hasETAInfos:%{public}@) /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -31,35 +30,26 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)n accepted on quick relay service;
+- (id);
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void)DataZoneUUIDString;
+- (void)photosPersonDataZoneUUIDString;
 - (id)Aä·;
 - (void)ÿ÷Î;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CLRegion *region;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) CLRegion *uniqueRegion;
-@property(retain, nonatomic) NSUUID *userUUID; // @synthesize userUUID=_userUUID;
+@property(retain, nonatomic) CLRegion *region; // @synthesize region=_region;
 
 @end
 

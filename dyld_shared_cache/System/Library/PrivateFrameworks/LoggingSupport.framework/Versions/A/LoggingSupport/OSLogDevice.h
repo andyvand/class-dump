@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SimDevice;
-
 @interface OSLogDevice
 {
     long long _devType;
-    void *_mobileDeviceRef;
-    SimDevice *_simDev;
-    NSString *_uid;
 }
 
 - (id);
@@ -31,9 +26,6 @@
 
 // Remaining properties
 @property(nonatomic) long long devType; // @synthesize devType=_devType;
-@property(nonatomic) void *mobileDeviceRef; // @synthesize mobileDeviceRef=_mobileDeviceRef;
-@property(retain, nonatomic) SimDevice *simDev; // @synthesize simDev=_simDev;
-@property(retain, nonatomic) NSString *uid; // @synthesize uid=_uid;
 
 @end
 

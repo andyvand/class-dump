@@ -7,10 +7,6 @@
 @interface NewsFeed.DebugFormatFileTreeItem
 {
     id id;
-    id cacheFile;
-    id name;
-    id children;
-    id _isExpanded;
 }
 
 @end

@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSString;
+@class NSString;
 
 @interface PKProtobufRelaySharingMessage
 {
     NSString *_carKeyReaderIdentifier;
-    NSData *_localData;
-    NSMutableArray *_mailboxURLs;
-    NSString *_provisioningCredentialHash;
-    NSString *_status;
-    NSString *_subtitle;
-    NSData *_thumbnailImage;
-    NSString *_title;
-    unsigned int _version;
 }
 
 + (Class);
@@ -24,18 +16,18 @@
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)A;
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)K)	k &;
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (unsigned int);
@@ -43,39 +35,24 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
+- (id);
+- (void)";
+- (_Bool)ler"16;
 - (_Bool);
-- (_Bool);
+- (void)_facetimeTimeDelay;
+- (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (_Bool)stToAllDevicesWithProximity: /* Error: Ran out of types for this method. */;
+- (_Bool)_queue_sendDeviceDiscoveryRequestToAllDevicesWithProximity: /* Error: Ran out of types for this method. */;
 - (id)lenge;
-- (void)Type;
+- (void)terminalType;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *carKeyReaderIdentifier; // @synthesize carKeyReaderIdentifier=_carKeyReaderIdentifier;
-@property(readonly, nonatomic) _Bool hasCarKeyReaderIdentifier;
-@property(readonly, nonatomic) _Bool hasLocalData;
-@property(readonly, nonatomic) _Bool hasProvisioningCredentialHash;
-@property(readonly, nonatomic) _Bool hasStatus;
-@property(readonly, nonatomic) _Bool hasSubtitle;
-@property(readonly, nonatomic) _Bool hasThumbnailImage;
-@property(readonly, nonatomic) _Bool hasTitle;
-@property(retain, nonatomic) NSData *localData; // @synthesize localData=_localData;
-@property(retain, nonatomic) NSMutableArray *mailboxURLs; // @synthesize mailboxURLs=_mailboxURLs;
-@property(retain, nonatomic) NSString *provisioningCredentialHash; // @synthesize provisioningCredentialHash=_provisioningCredentialHash;
-@property(retain, nonatomic) NSString *status; // @synthesize status=_status;
-@property(retain, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(retain, nonatomic) NSData *thumbnailImage; // @synthesize thumbnailImage=_thumbnailImage;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 @property(nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end

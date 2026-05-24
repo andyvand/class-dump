@@ -5,16 +5,12 @@
 //
 
 @protocol TSDOwningAttachment
+- (_Bool)FailedToDecodeCommandOptions;
+- (_Bool);
+- (unsigned long long)MPCPlaybackEngineEventDeviceMetadataKey;
 - (_Bool)ing rect;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long enabledKnobMask;
-@property(readonly, nonatomic) _Bool isAnchored;
-@property(readonly, nonatomic) _Bool isAttachedToBodyText;
 @property(readonly, nonatomic) _Bool isDrawable;
-@property(readonly, nonatomic) _Bool isPartitioned;
-@property(readonly, nonatomic) _Bool isSearchable;
-@property(readonly, nonatomic) Class positionerClass;
-@property(readonly, nonatomic) _Bool specifiesEnabledKnobMask;
 @end
 

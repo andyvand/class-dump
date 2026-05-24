@@ -8,17 +8,15 @@ __attribute__((visibility("hidden")))
 @interface AVScrubbingGesturePlatformConfiguration
 {
     float _magnitude;
-    float _nonLinearity;
 }
 
 + (id);
 + (id);
 - (float);
-- (float);
+- (float)8o;
 
 // Remaining properties
 @property(readonly, nonatomic) float magnitude; // @synthesize magnitude=_magnitude;
-@property(readonly, nonatomic) float nonLinearity; // @synthesize nonLinearity=_nonLinearity;
 
 @end
 

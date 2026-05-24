@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, NUColorSpace;
+@class NSString;
 
 @interface PIAutoLoopExportRequest
 {
     NSString *_destinationUTI;
-    NSURL *_destinationLongExposureURL;
-    NSURL *_destinationMaskURL;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)9;
 - (id);
 - (id);
 - (long long);
@@ -25,13 +23,10 @@
 - (id);
 - (void);
 - (id);
-- (void)atureFlagsMetadataKey;
+- (void)photosFeatureFlagsMetadataKey;
 
 // Remaining properties
-@property(readonly) NSURL *destinationLongExposureURL; // @synthesize destinationLongExposureURL=_destinationLongExposureURL;
-@property(readonly) NSURL *destinationMaskURL; // @synthesize destinationMaskURL=_destinationMaskURL;
 @property(readonly) NSString *destinationUTI; // @synthesize destinationUTI=_destinationUTI;
-@property(readonly) NUColorSpace *outputColorSpace;
 
 @end
 

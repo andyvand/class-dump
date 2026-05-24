@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAppiTunesMetadata, NSArray, NSDate, NSString;
+@class NSArray;
 
 @interface AKConsentedApplication
 {
     NSArray *_scopes;
-    NSString *_clientID;
-    NSString *_clientName;
-    long long _state;
-    NSString *_transferState;
-    NSString *_origin;
-    NSString *_primaryClientID;
-    NSDate *_creationDate;
-    AKAppiTunesMetadata *_appiTunesMetadata;
 }
 
 + (_Bool);
@@ -25,7 +17,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -46,15 +38,7 @@
 - (void)@';
 
 // Remaining properties
-@property(retain, nonatomic) AKAppiTunesMetadata *appiTunesMetadata; // @synthesize appiTunesMetadata=_appiTunesMetadata;
-@property(copy, nonatomic) NSString *clientID; // @synthesize clientID=_clientID;
-@property(copy, nonatomic) NSString *clientName; // @synthesize clientName=_clientName;
-@property(retain, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(retain, nonatomic) NSString *origin; // @synthesize origin=_origin;
-@property(retain, nonatomic) NSString *primaryClientID; // @synthesize primaryClientID=_primaryClientID;
 @property(copy, nonatomic) NSArray *scopes; // @synthesize scopes=_scopes;
-@property(nonatomic) long long state; // @synthesize state=_state;
-@property(retain, nonatomic) NSString *transferState; // @synthesize transferState=_transferState;
 
 @end
 

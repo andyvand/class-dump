@@ -6,19 +6,18 @@
 
 #import <NetworkExtension/NEIKEv2Packet.h>
 
-@class NEIKEv2KeyExchangePayload, NSArray;
+@class NSArray;
 
 @interface NEIKEv2IntermediatePacket : NEIKEv2Packet
 {
     NSArray *_authenticatedDataVector;
-    NEIKEv2KeyExchangePayload *_ke;
 }
 
 - (void);
 - (unsigned long long);
 - (void);
 - (id);
-- (void)ted: /* Error: Ran out of types for this method. */;
+- (void)setUserActivated: /* Error: Ran out of types for this method. */;
 
 @end
 

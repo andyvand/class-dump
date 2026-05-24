@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMMTRMatterKeypair, NSData, NSNumber, NSUUID;
+@class HMMTRMatterKeypair, NSNumber, NSUUID;
 
 @protocol HMMTRMultiFabricDataStoreQueryV2FabricDataItem
+- (NSNumber *);
+- (NSNumber *)hasRouteBookmark;
+- (NSNumber *)electedContact;
 - (NSUUID *)Ô;
 - (double)@="%@";
 
 // Remaining properties
-@property(readonly, nonatomic) double creationTime;
-@property(readonly, nonatomic) NSNumber *fabricID;
-@property(readonly, nonatomic) NSData *ipk;
-@property(readonly, nonatomic) NSNumber *rcac;
-@property(readonly, nonatomic) NSNumber *residentNodeID;
-@property(readonly, nonatomic) HMMTRMatterKeypair *residentOpKeyPair;
 @property(readonly, nonatomic) HMMTRMatterKeypair *rootKeyPair;
-@property(readonly, nonatomic) NSUUID *uuid;
-@property(readonly, nonatomic) NSNumber *version;
 @end
 

@@ -6,14 +6,11 @@
 
 #import <DifferentialPrivacy/_DPCMSSequenceRecord.h>
 
-@class NSData, NSString;
+@class NSData;
 
 @interface _DPCMSWordRecord : _DPCMSSequenceRecord
 {
     short _fragmentPosition;
-    short _fragmentHashIndex;
-    NSData *_fragment;
-    NSString *_plainFragment;
 }
 
 + (id)Ë!tCùÑ.1Â0@ù
@@ -21,12 +18,12 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (short);
 - (short);
-- (void);
-- (id);
+- (void)metadataOfActiveFormOrBestFormForPageLevelAutoFill:(id)arg1 frameHandle: /* Error: Ran out of types for this method. */;
+- (id)faultCharacterSetMenu;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -34,9 +31,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSData *fragment; // @synthesize fragment=_fragment;
-@property(nonatomic) short fragmentHashIndex; // @synthesize fragmentHashIndex=_fragmentHashIndex;
-@property(nonatomic) short fragmentPosition; // @synthesize fragmentPosition=_fragmentPosition;
-@property(copy, nonatomic) NSString *plainFragment; // @synthesize plainFragment=_plainFragment;
 
 @end
 

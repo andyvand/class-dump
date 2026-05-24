@@ -13,10 +13,10 @@
 
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)isSearchTokensForDatesEnabled;
+- (id)fetchUTITypes;
 - (id);
-- (id);
-- (void);
+- (void)_parentWindow;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *tableUUID; // @synthesize tableUUID=_tableUUID;

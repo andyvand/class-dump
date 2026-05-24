@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKMapView, NSButton, NSColor, NSGlassView, NSShadow, NSView, NSVisualEffectView;
+@class MKMapView;
 
 @interface MKPitchButton
 {
     long long _state;
-    NSButton *_button;
-    NSView *_buttonWrapper;
-    NSVisualEffectView *_effectView;
-    MKMapView *_mapView;
-    NSShadow *_shadow;
-    NSGlassView *_glass;
-    long long _visibility;
-    unsigned long long _backgroundStyle;
-    unsigned long long _controlSize;
 }
 
-+ (id);
++ (id)O;
 - (id);
 - (void);
 - (void);
@@ -29,28 +20,24 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
-- (id);
+- (id)`;
 - (unsigned long long);
 - (void);
 - (struct CGSize);
 - (struct CGSize);
-- (id);
+- (id)riSpeechRecorder speechControllerRequestsOperation:(struct CGRect)arg1 forReason:completion:] /* Error: Ran out of types for this method. */;
 - (long long);
 - (void)ñ*Ð1Â0@ù
 × ;
-- (void)HikingToolTipRegion: /* Error: Ran out of types for this method. */;
-- (id)fiers:bundleIdentifiers:artworkSize:screenScale:type:source:completion: /* Error: Ran out of types for this method. */;
-- (void)ns;
+- (void)mapLayer:locationInHikingToolTipRegion: /* Error: Ran out of types for this method. */;
+- (id)appleMediaServicesResultsWithIdentifiers:bundleIdentifiers:artworkSize:screenScale:type:source:completion: /* Error: Ran out of types for this method. */;
+- (void)_automobileOptions;
 - (void)TB,R,N,GisMouseDown,V_mouseDown;
 
 // Remaining properties
-@property(nonatomic, getter=_backgroundStyle, setter=_setBackgroundStyle:) unsigned long long backgroundStyle; // @synthesize backgroundStyle=_backgroundStyle;
-@property(retain, nonatomic, getter=_contentTintColor, setter=_setContentTintColor:) NSColor *contentTintColor;
-@property(nonatomic, getter=_controlSize, setter=_setControlSize:) unsigned long long controlSize; // @synthesize controlSize=_controlSize;
 @property(nonatomic) __weak MKMapView *mapView; // @synthesize mapView=_mapView;
-@property(nonatomic) long long visibility; // @synthesize visibility=_visibility;
 
 @end
 

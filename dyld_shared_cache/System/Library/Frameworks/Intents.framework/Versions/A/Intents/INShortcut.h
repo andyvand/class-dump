@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INImage, INIntent, NSData, NSString, NSUserActivity;
+@class NSData;
 
 @interface INShortcut
 {
     NSData *_activityData;
-    INIntent *_intent;
-    NSUserActivity *_userActivity;
-    INImage *_activityImage;
-    NSString *_activitySubtitle;
-    NSString *_activityBundleIdentifier;
 }
 
 + (id);
 + (id);
 + (long long);
-+ (id);
++ (id);
 + (_Bool);
 
 @end

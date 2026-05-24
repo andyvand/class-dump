@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface TUMomentsProvider
 {
     _Bool _remoteMomentsAvailable;
-    long long _streamToken;
-    NSString *_requesterID;
-    NSDictionary *_remoteIDSDestinations;
 }
 
 - (id);
@@ -25,9 +20,6 @@
 - (void)superclass;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *remoteIDSDestinations; // @synthesize remoteIDSDestinations=_remoteIDSDestinations;
-@property(readonly, nonatomic, getter=isRemoteMomentsAvailable) _Bool remoteMomentsAvailable; // @synthesize remoteMomentsAvailable=_remoteMomentsAvailable;
-@property(readonly, copy, nonatomic) NSString *requesterID; // @synthesize requesterID=_requesterID;
 @property(readonly, nonatomic) long long streamToken; // @synthesize streamToken=_streamToken;
 
 @end

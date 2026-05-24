@@ -6,46 +6,15 @@
 
 #import <SocialUI/SOChatViewController.h>
 
-@class NSButton, NSLayoutConstraint, NSStackView, NSString, NSTableView, NSTextField, NSView, SOAddRecipientFieldViewController, SOAttachmentsTabViewController, SOCKDownloadPurgedAttachmentsView, SOHandleMenuController, SOMapViewController;
+@class NSLayoutConstraint;
 
 @interface SOChatDetailsViewController : SOChatViewController
 {
     _Bool _hasUpdatedAttachments;
-    _Bool _didCacheIsCurrentlyDownloadingCheck;
-    _Bool _cachedValueForCurrentlyDownloadingCheck;
-    _Bool _didCacheAttachmentCount;
-    NSStackView *_stackView;
-    NSLayoutConstraint *_preferredScrollViewHeightConstraint;
-    NSLayoutConstraint *_maximumScrollViewHeightConstraint;
-    NSLayoutConstraint *_widthConstraint;
-    NSView *_titleTextFieldContainer;
-    NSTextField *_titleTextField;
-    NSView *_titleSeparatorView;
-    NSView *_mapViewContainer;
-    SOMapViewController *_mapViewController;
-    NSStackView *_multiwayButtonsAndGroupNameContainer;
-    NSView *_participantLabelContainer;
-    NSTextField *_participantLabel;
-    NSTableView *_participantTableView;
-    NSLayoutConstraint *_participantTableHeightConstraint;
-    SOHandleMenuController *_handleMenuController;
-    NSView *_addRecipientContainer;
-    SOAddRecipientFieldViewController *_addRecipientFieldViewController;
-    NSButton *_muteUnmuteButton;
-    NSView *_enableReadReceiptContainer;
-    NSButton *_enableDisableReadReceiptButton;
-    NSView *_leaveContainer;
-    NSButton *_leaveButton;
-    NSStackView *_attachmentsContainer;
-    SOAttachmentsTabViewController *_attachmentsTabViewController;
-    NSView *_attachmentsSeparator;
-    NSLayoutConstraint *_tabViewControllerViewHeightConstraint;
-    unsigned long long _cachedValueForAttachmentCount;
-    SOCKDownloadPurgedAttachmentsView *_downloadAttachmentsView;
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -54,7 +23,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)&;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -72,19 +41,19 @@
 - (void);
 - (void);
 - (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)qcaDdl;
 - (void);
 - (void);
 - (id);
@@ -93,7 +62,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)匹;
 - (id);
 - (id);
 - (void);
@@ -106,7 +75,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)9;
 - (void);
 - (id);
 - (_Bool);
@@ -143,39 +112,39 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (_Bool);
 - (id);
 - (id);
 - (void);
-- (id);
 - (void);
 - (void);
+- (id)setAudioEnabled: /* Error: Ran out of types for this method. */;
+- (void)displayedFrameIndex;
+- (id)delegate;
+- (_Bool)convertRect:(id)arg1 fromView:(long long)arg2;
+- (id)completionHandler;
+- (id)canPerformVitalityDidChange;
+- (void)behavior:(id)arg1 playVideoToTime:(id)arg2 initialRate:(long long)arg3 overDuration:progressHandler: /* Error: Ran out of types for this method. */;
+- (id)_fadeInRequestID;
+- (void);
+- (void);
 - (long long);
 - (void);
-- (id);
+- (id)interestedDaemonKeys;
+- (void)e_Client",&,V_security;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (double);
 - (void);
@@ -184,52 +153,7 @@
 - (_Bool)lesPerPixel:(id)arg1 hasAlpha:isPlanar:colorSpaceName:bitmapFormat:bytesPerRow:bitsPerPixel: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSView *addRecipientContainer; // @synthesize addRecipientContainer=_addRecipientContainer;
-@property(retain) SOAddRecipientFieldViewController *addRecipientFieldViewController; // @synthesize addRecipientFieldViewController=_addRecipientFieldViewController;
-@property(retain) NSStackView *attachmentsContainer; // @synthesize attachmentsContainer=_attachmentsContainer;
-@property(retain) NSView *attachmentsSeparator; // @synthesize attachmentsSeparator=_attachmentsSeparator;
-@property(retain) SOAttachmentsTabViewController *attachmentsTabViewController; // @synthesize attachmentsTabViewController=_attachmentsTabViewController;
-@property(nonatomic) unsigned long long cachedValueForAttachmentCount; // @synthesize cachedValueForAttachmentCount=_cachedValueForAttachmentCount;
-@property(nonatomic) _Bool cachedValueForCurrentlyDownloadingCheck; // @synthesize cachedValueForCurrentlyDownloadingCheck=_cachedValueForCurrentlyDownloadingCheck;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didCacheAttachmentCount; // @synthesize didCacheAttachmentCount=_didCacheAttachmentCount;
-@property(nonatomic) _Bool didCacheIsCurrentlyDownloadingCheck; // @synthesize didCacheIsCurrentlyDownloadingCheck=_didCacheIsCurrentlyDownloadingCheck;
-@property(retain, nonatomic) SOCKDownloadPurgedAttachmentsView *downloadAttachmentsView; // @synthesize downloadAttachmentsView=_downloadAttachmentsView;
-@property(retain) NSButton *enableDisableReadReceiptButton; // @synthesize enableDisableReadReceiptButton=_enableDisableReadReceiptButton;
-@property(retain) NSView *enableReadReceiptContainer; // @synthesize enableReadReceiptContainer=_enableReadReceiptContainer;
-@property(retain) SOHandleMenuController *handleMenuController; // @synthesize handleMenuController=_handleMenuController;
-@property _Bool hasUpdatedAttachments; // @synthesize hasUpdatedAttachments=_hasUpdatedAttachments;
-@property(readonly) unsigned long long hash;
-@property(retain) NSButton *leaveButton; // @synthesize leaveButton=_leaveButton;
-@property(retain, nonatomic) NSView *leaveContainer; // @synthesize leaveContainer=_leaveContainer;
-@property(retain) NSView *mapViewContainer; // @synthesize mapViewContainer=_mapViewContainer;
-@property(retain) SOMapViewController *mapViewController; // @synthesize mapViewController=_mapViewController;
-@property double maximumHeight; // @dynamic maximumHeight;
-@property(retain) NSLayoutConstraint *maximumScrollViewHeightConstraint; // @synthesize maximumScrollViewHeightConstraint=_maximumScrollViewHeightConstraint;
-@property(retain) NSStackView *multiwayButtonsAndGroupNameContainer; // @synthesize multiwayButtonsAndGroupNameContainer=_multiwayButtonsAndGroupNameContainer;
-@property(retain) NSButton *muteUnmuteButton; // @synthesize muteUnmuteButton=_muteUnmuteButton;
-@property(retain) NSTextField *participantLabel; // @synthesize participantLabel=_participantLabel;
-@property(retain) NSView *participantLabelContainer; // @synthesize participantLabelContainer=_participantLabelContainer;
-@property(retain) NSLayoutConstraint *participantTableHeightConstraint; // @synthesize participantTableHeightConstraint=_participantTableHeightConstraint;
-@property(retain) NSTableView *participantTableView; // @synthesize participantTableView=_participantTableView;
 @property(retain) NSLayoutConstraint *preferredScrollViewHeightConstraint; // @synthesize preferredScrollViewHeightConstraint=_preferredScrollViewHeightConstraint;
-@property(readonly) _Bool shouldShowAttachmentsContainer;
-@property(readonly) _Bool shouldShowAttachmentsGrid;
-@property(readonly) _Bool shouldShowDownloadMoreButton;
-@property _Bool showsAttachmentsContainer;
-@property _Bool showsAttachmentsGrid;
-@property(nonatomic) _Bool showsFMFMap; // @dynamic showsFMFMap;
-@property(retain) NSStackView *stackView; // @synthesize stackView=_stackView;
-@property(readonly) Class superclass;
-@property(retain) NSLayoutConstraint *tabViewControllerViewHeightConstraint; // @synthesize tabViewControllerViewHeightConstraint=_tabViewControllerViewHeightConstraint;
-@property(retain) NSView *titleSeparatorView; // @synthesize titleSeparatorView=_titleSeparatorView;
-@property(retain) NSTextField *titleTextField; // @synthesize titleTextField=_titleTextField;
-@property(retain) NSView *titleTextFieldContainer; // @synthesize titleTextFieldContainer=_titleTextFieldContainer;
-@property(retain) NSLayoutConstraint *widthConstraint; // @synthesize widthConstraint=_widthConstraint;
 
 @end
 

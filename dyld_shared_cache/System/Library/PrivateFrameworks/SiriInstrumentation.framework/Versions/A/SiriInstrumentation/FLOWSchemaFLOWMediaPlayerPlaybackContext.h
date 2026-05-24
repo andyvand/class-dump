@@ -6,32 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class FLOWSchemaFLOWMediaPlayerPlaylistContext, FLOWSchemaFLOWMediaPlayerRadioStationContext, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface FLOWSchemaFLOWMediaPlayerPlaybackContext : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    int _executionSource;
-    int _endpoint;
-    int _contentSource;
-    FLOWSchemaFLOWMediaPlayerRadioStationContext *_radioStationContext;
-    FLOWSchemaFLOWMediaPlayerPlaylistContext *_playlistContext;
-    struct {
-        unsigned int executionSource:1;
-        unsigned int endpoint:1;
-        unsigned int contentSource:1;
-    } _has;
-    _Bool _hasLinkId;
-    _Bool _hasRadioStationContext;
-    _Bool _hasPlaylistContext;
-    unsigned long long _whichContenttype;
 }
 
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)X;
 - (void);
 - (void);
 - (void);
@@ -56,12 +42,12 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (int);
-- (void);
+- (void)String}ddd}}^{__CFError}}16@?24;
 - (_Bool);
 - (id);
 - (id)imToolEnded";
@@ -71,20 +57,7 @@
 - (void)©Ø$;
 
 // Remaining properties
-@property(nonatomic) int contentSource; // @synthesize contentSource=_contentSource;
-@property(nonatomic) int endpoint; // @synthesize endpoint=_endpoint;
-@property(nonatomic) int executionSource; // @synthesize executionSource=_executionSource;
-@property(nonatomic) _Bool hasContentSource;
-@property(nonatomic) _Bool hasEndpoint;
-@property(nonatomic) _Bool hasExecutionSource;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasPlaylistContext; // @synthesize hasPlaylistContext=_hasPlaylistContext;
-@property(nonatomic) _Bool hasRadioStationContext; // @synthesize hasRadioStationContext=_hasRadioStationContext;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(retain, nonatomic) FLOWSchemaFLOWMediaPlayerPlaylistContext *playlistContext; // @synthesize playlistContext=_playlistContext;
-@property(retain, nonatomic) FLOWSchemaFLOWMediaPlayerRadioStationContext *radioStationContext; // @synthesize radioStationContext=_radioStationContext;
-@property(readonly, nonatomic) unsigned long long whichContenttype; // @synthesize whichContenttype=_whichContenttype;
 
 @end
 

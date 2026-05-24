@@ -12,21 +12,19 @@ __attribute__((visibility("hidden")))
 @interface NSTypeSelectBackgroundView : NSView
 {
     NSColor *_strokeColor;
-    NSColor *_backgroundColor;
 }
 
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (id)viceEntries:(struct CGRect)arg1;
+- (id)setShortcutServiceEntries:(struct CGRect)arg1;
 - (id);
 - (id)@È;
 - (void)ocument store type:(id)arg1 %@
 ;
 
 // Remaining properties
-@property(retain) NSColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
 @property(retain) NSColor *strokeColor; // @synthesize strokeColor=_strokeColor;
 
 @end

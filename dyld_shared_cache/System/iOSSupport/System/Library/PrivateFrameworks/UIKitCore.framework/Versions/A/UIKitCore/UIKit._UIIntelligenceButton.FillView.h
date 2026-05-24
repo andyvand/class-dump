@@ -9,13 +9,11 @@
 @interface UIKit._UIIntelligenceButton.FillView : UIView
 {
     id style;
-    id livingLightView;
-    id staticLightView;
 }
 
 - (id);
 - (void);
-- (id)IActionableStyleAttributes;
+- (id)UIStatusBarNewUIActionableStyleAttributes;
 - (void)ÑÎ¬ql;
 
 @end

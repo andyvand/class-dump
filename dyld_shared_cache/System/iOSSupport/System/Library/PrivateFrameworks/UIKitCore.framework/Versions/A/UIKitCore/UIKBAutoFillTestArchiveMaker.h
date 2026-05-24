@@ -4,44 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIKBAutoFillTestArchive, UIViewController;
+@class UIKBAutoFillTestArchive;
 
 __attribute__((visibility("hidden")))
 @interface UIKBAutoFillTestArchiveMaker
 {
     UIKBAutoFillTestArchive *_testArchive;
-    UIViewController *_viewControllerToSnapshot;
-    long long _currentTableViewTag;
-    long long _currentTextFieldTag;
 }
 
 + (id);
+- (id)Successfully retrieved local file URL for %@ at path %@;
+- (id)with specific group ID %@ for chat metadata:(id)arg1 %@;
+- (id);
+- (id)9;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)@�;
 - (id);
 - (void);
-- (void);
+- (void)B;
 - (id);
-- (id);
+- (id)l;
 - (void)Ø<Þþp\×89g;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

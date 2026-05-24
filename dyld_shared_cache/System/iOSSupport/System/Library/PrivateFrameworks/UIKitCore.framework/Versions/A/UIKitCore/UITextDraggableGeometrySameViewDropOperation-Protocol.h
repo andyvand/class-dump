@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, UITextRange;
+@class NSArray, UITextRange;
 
 @protocol UITextDraggableGeometrySameViewDropOperation
+- (UITextRange *);
 - (unsigned long long)R0;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long operation;
 @property(readonly, nonatomic) NSArray *sourceRanges;
-@property(readonly, nonatomic) UITextRange *targetRange;
-@property(readonly, nonatomic) NSAttributedString *text;
 @end
 

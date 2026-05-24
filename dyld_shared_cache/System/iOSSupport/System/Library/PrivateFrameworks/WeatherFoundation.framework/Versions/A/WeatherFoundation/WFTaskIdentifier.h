@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 @interface WFTaskIdentifier
 {
     int _pid;
-    NSUUID *_UUID;
-    NSString *_processName;
 }
 
 + (id);
 + (_Bool);
 - (int);
 - (id);
-- (id);
-- (id);
+- (id)eTime Video;
+- (id)ewItem>"24;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -29,8 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(readonly, nonatomic) int pid; // @synthesize pid=_pid;
-@property(readonly, nonatomic) NSString *processName; // @synthesize processName=_processName;
 
 @end
 

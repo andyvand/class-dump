@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCHeadlineThumbnailMetadata, NSString;
+@class NSString;
 
 @interface NewsFeed.FormatRecipeOverridesMetadata
 {
     void title;
-    void shortExcerpt;
-    FCHeadlineThumbnailMetadata *formatThumbnail;
 }
 
 - (id);
@@ -20,8 +18,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) FCHeadlineThumbnailMetadata *formatThumbnail; // @synthesize formatThumbnail;
-@property(nonatomic, readonly) NSString *shortExcerpt;
 @property(nonatomic, readonly) NSString *title;
 
 @end

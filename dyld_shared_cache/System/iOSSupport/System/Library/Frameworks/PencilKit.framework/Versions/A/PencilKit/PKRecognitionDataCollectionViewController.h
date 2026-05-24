@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSLayoutConstraint, NSString, UICollectionView, UILabel, UIScrollView, UIViewController;
+@class NSArray;
 
 @interface PKRecognitionDataCollectionViewController
 {
     NSArray *_drawings;
-    NSArray *_drawingImages;
-    NSDictionary *_metadata;
-    UIScrollView *_scrollView;
-    UILabel *_descriptionLabel;
-    UICollectionView *_collectionView;
-    NSLayoutConstraint *_collectionViewHeightConstraint;
 }
 
 - (id);
@@ -36,31 +30,17 @@
 - (void);
 - (long long);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id)
 × ;
 - (void)"<PKRulerHostingDelegate>",W,N,V_rulerHostingDelegate;
-- (id)bleViewCell;
-- (void)nes;
+- (id)EKUITableViewCell;
+- (void)scribbleLineBreakMultiLineMaxLines;
 
 // Remaining properties
-@property(retain, nonatomic) UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(retain, nonatomic) NSLayoutConstraint *collectionViewHeightConstraint; // @synthesize collectionViewHeightConstraint=_collectionViewHeightConstraint;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UILabel *descriptionLabel; // @synthesize descriptionLabel=_descriptionLabel;
-@property(retain, nonatomic) NSArray *drawingImages; // @synthesize drawingImages=_drawingImages;
 @property(retain, nonatomic) NSArray *drawings; // @synthesize drawings=_drawings;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSDictionary *metadata; // @synthesize metadata=_metadata;
-@property(retain, nonatomic) UIScrollView *scrollView; // @synthesize scrollView=_scrollView;
-@property(readonly) Class superclass;
-@property(readonly) UIViewController *viewController;
 
 @end
 

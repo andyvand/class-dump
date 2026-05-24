@@ -12,14 +12,12 @@ __attribute__((visibility("hidden")))
 @interface EPTableStyleFlattener : EPStyleFlattener
 {
     EDTable *mTable;
-    unsigned long long mHeaderRowCount;
-    unsigned long long mTotalsRowCount;
 }
 
 - (id);
-- (int);
+- (int);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);

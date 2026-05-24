@@ -11,7 +11,6 @@
 @interface NUVideoDataSourceDefinition : NUSingleSourceDefinition
 {
     NSData *_videoData;
-    long long _orientation;
 }
 
 - (id);
@@ -19,11 +18,10 @@
 - (id);
 - (long long);
 - (id);
-- (long long);
+- (long long)Jq;
 - (void);
 
 // Remaining properties
-@property(readonly) long long orientation; // @synthesize orientation=_orientation;
 @property(readonly) NSData *videoData; // @synthesize videoData=_videoData;
 
 @end

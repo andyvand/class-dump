@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSound;
-
 @interface TUCallSoundPlayerDescriptor
 {
     _Bool _audioPlayingWarmupNeeded;
-    long long _soundType;
-    NSSound *_sound;
-    unsigned long long _iterations;
-    double _pauseDuration;
 }
 
 - (void);
@@ -23,20 +17,16 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)ventTargetData>, WTF:(long long)arg1:WeakRef<WebKit::InjectedBundleNodeHandle>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::WeakPtr<WebCore::Node, WebCore::WeakPtrImplWithEventTargetData>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (void);
 - (long long);
 - (void);
 - (id);
-- (void)reScreenQueryItem;
+- (void)requestToShareScreenQueryItem;
 
 // Remaining properties
-@property(nonatomic) _Bool audioPlayingWarmupNeeded; // @synthesize audioPlayingWarmupNeeded=_audioPlayingWarmupNeeded;
-@property(nonatomic) unsigned long long iterations; // @synthesize iterations=_iterations;
-@property(nonatomic) double pauseDuration; // @synthesize pauseDuration=_pauseDuration;
-@property(retain, nonatomic) NSSound *sound; // @synthesize sound=_sound;
 @property(nonatomic) long long soundType; // @synthesize soundType=_soundType;
 
 @end

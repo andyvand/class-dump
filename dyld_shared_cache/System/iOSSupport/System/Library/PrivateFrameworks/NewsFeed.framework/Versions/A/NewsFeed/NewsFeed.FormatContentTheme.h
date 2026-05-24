@@ -7,8 +7,6 @@
 @interface NewsFeed.FormatContentTheme
 {
     id themes;
-    id properties;
-    id selectors;
 }
 
 @end

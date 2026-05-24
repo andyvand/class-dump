@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface NSURLQueueNode
 {
     id object;
-    NSURLQueueNode *next;
 }
 
 @end

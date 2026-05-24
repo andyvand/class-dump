@@ -4,25 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor;
+@class NSArray;
 
 @interface _SFPBInfoCardSection
 {
     _Bool _canBeHidden;
-    _Bool _hasTopPadding;
-    _Bool _hasBottomPadding;
-    int _separatorStyle;
-    NSArray *_punchoutOptions;
-    NSString *_punchoutPickerTitle;
-    NSString *_punchoutPickerDismissText;
-    NSString *_type;
-    _SFPBColor *_backgroundColor;
-    NSArray *_infoTuples;
-    unsigned long long _initiallyVisibleTuples;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -30,58 +20,40 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)R$;
 - (_Bool);
+- (void)`B;
+- (void);
+- (unsigned long long)Rh";
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (_Bool)ICLibraryAuthServiceClientTokenProviderProtocol;
+- (_Bool)ICMediaRedownloadResponse;
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (_Bool);
 - (_Bool);
 - (id);
+- (_Bool);
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
+- (id)ck:(id)arg1;
+- (id)etadata and original;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void)dInSpotlight: /* Error: Ran out of types for this method. */;
+- (void)setWasEngagedInSpotlight: /* Error: Ran out of types for this method. */;
 - (int)N	k;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(nonatomic) _Bool canBeHidden; // @synthesize canBeHidden=_canBeHidden;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasBottomPadding; // @synthesize hasBottomPadding=_hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding; // @synthesize hasTopPadding=_hasTopPadding;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *infoTuples; // @synthesize infoTuples=_infoTuples;
-@property(nonatomic) unsigned long long initiallyVisibleTuples; // @synthesize initiallyVisibleTuples=_initiallyVisibleTuples;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *punchoutOptions; // @synthesize punchoutOptions=_punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText; // @synthesize punchoutPickerDismissText=_punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle; // @synthesize punchoutPickerTitle=_punchoutPickerTitle;
-@property(nonatomic) int separatorStyle; // @synthesize separatorStyle=_separatorStyle;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

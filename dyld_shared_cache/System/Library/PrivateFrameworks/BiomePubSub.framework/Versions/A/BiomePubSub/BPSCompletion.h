@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
-
 @interface BPSCompletion
 {
     long long _state;
-    NSError *_error;
 }
 
++ (id)m;
 + (id);
 + (id);
-+ (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)sendMessage:withData:forDevices:isResponse: /* Error: Ran out of types for this method. */;
 - (long long);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
 @property(readonly, nonatomic) long long state; // @synthesize state=_state;
 
 @end

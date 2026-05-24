@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @protocol WBSExtensionWrapper
+- (_Bool);
+- (_Bool)to %@ from %@;
 - (void)ÿÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool allowedInPrivateBrowsing;
-@property(readonly, nonatomic) _Bool canEnable;
 @property(readonly, copy, nonatomic) NSString *containingAppDisplayName;
-@property(readonly, copy, nonatomic) NSString *displayName;
-@property(readonly, nonatomic, getter=isEnabled) _Bool enabled;
-@property(readonly, nonatomic, getter=isEnabledInAllNamedProfiles) _Bool enabledInAllNamedProfiles;
-@property(readonly, nonatomic, getter=isEnabledInAnyNamedProfile) _Bool enabledInAnyNamedProfile;
-@property(readonly, nonatomic, getter=isEnabledInAnyProfile) _Bool enabledInAnyProfile;
-@property(readonly, nonatomic) NSArray *enabledNamedProfiles;
-@property(readonly, nonatomic) NSArray *enabledProfiles;
-@property(readonly, nonatomic) _Bool isContentBlocker;
 @end
 

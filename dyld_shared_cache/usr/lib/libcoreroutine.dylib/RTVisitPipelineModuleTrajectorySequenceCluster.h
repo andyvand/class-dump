@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, RTLocation, RTVisitCluster, RTVisitDecoder, RTVisitHyperParameter;
 @protocol RTVisitModelController;
 
 @interface RTVisitPipelineModuleTrajectorySequenceCluster
 {
     double _sumOfNorthing;
-    double _sumOfEasting;
-    double _sumOfSquaredNorthing;
-    double _sumOfSquaredEasting;
-    RTLocation *_referenceLocation;
-    id <RTVisitModelController> _trajectorySequenceClassifier;
-    RTVisitHyperParameter *_hyperParameter;
-    RTVisitDecoder *_decoder;
-    RTVisitCluster *_workingVisitCluster;
-    unsigned long long _numOfLocations;
-    NSArray *_residualLocations;
 }
 
 + (double);
@@ -35,30 +24,18 @@
 - (id);
 - (id);
 - (double);
+- (float *)cationServices;
 - (float *);
-- (float *);
-- (_Bool);
+- (_Bool)ks/CoreFoundation.framework/Versions/A/CoreFoundation;
 - (void);
 - (id);
+- (id)(;
 - (id);
-- (id);
-- (id);
+- (id)l (payloadData.length >= sizeof(ikev2_fragment_hdr_t));
 - (void)retry, pendingRetryCount, %lu, retrying...;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) RTVisitDecoder *decoder; // @synthesize decoder=_decoder;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) RTVisitHyperParameter *hyperParameter; // @synthesize hyperParameter=_hyperParameter;
-@property(readonly, nonatomic) unsigned long long numOfLocations; // @synthesize numOfLocations=_numOfLocations;
-@property(readonly, nonatomic) NSArray *residualLocations; // @synthesize residualLocations=_residualLocations;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) id <RTVisitModelController> trajectorySequenceClassifier; // @synthesize trajectorySequenceClassifier=_trajectorySequenceClassifier;
-@property(readonly, nonatomic) RTVisitCluster *workingVisitCluster; // @synthesize workingVisitCluster=_workingVisitCluster;
 
 @end
 

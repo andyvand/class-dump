@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSString;
-
 @interface IMMessagePartDescriptor
 {
     _Bool _hasLoadedTransferGUID;
-    NSArray *_links;
-    NSArray *_mapLocations;
-    NSString *_transferGUID;
-    NSArray *_fileTransferGUIDsInMessagePartText;
-    unsigned long long _messagePartIndex;
-    NSAttributedString *_messagePartBody;
-    struct _NSRange _messagePartRange;
 }
 
 + (id);
@@ -32,17 +23,10 @@
 - (id);
 - (id);
 - (_Bool);
-- (void)ometimes;
+- (void)sometimes;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *fileTransferGUIDsInMessagePartText; // @synthesize fileTransferGUIDsInMessagePartText=_fileTransferGUIDsInMessagePartText;
 @property(nonatomic) _Bool hasLoadedTransferGUID; // @synthesize hasLoadedTransferGUID=_hasLoadedTransferGUID;
-@property(readonly, nonatomic) NSArray *links; // @synthesize links=_links;
-@property(readonly, nonatomic) NSArray *mapLocations; // @synthesize mapLocations=_mapLocations;
-@property(readonly, copy, nonatomic) NSAttributedString *messagePartBody; // @synthesize messagePartBody=_messagePartBody;
-@property(readonly, nonatomic) unsigned long long messagePartIndex; // @synthesize messagePartIndex=_messagePartIndex;
-@property(readonly, nonatomic) struct _NSRange messagePartRange; // @synthesize messagePartRange=_messagePartRange;
-@property(readonly, copy, nonatomic) NSString *transferGUID; // @synthesize transferGUID=_transferGUID;
 
 @end
 

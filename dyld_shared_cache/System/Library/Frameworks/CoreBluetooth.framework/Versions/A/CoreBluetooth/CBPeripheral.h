@@ -6,8 +6,7 @@
 
 #import <CoreBluetooth/CBPeer.h>
 
-@class NSArray, NSHashTable, NSMutableDictionary, NSNumber, NSString, NSUUID;
-@protocol CBPeripheralDelegate;
+@class NSString;
 
 @interface CBPeripheral : CBPeer
 {
@@ -30,54 +29,10 @@
         unsigned int didOpenL2CAPChannel:1;
         unsigned int didCloseL2CAPChannel:1;
     } _delegateFlags;
-    NSMutableDictionary *_attributes;
-    _Bool _canSendWriteWithoutResponse;
-    _Bool _ancsAuthorized;
-    _Bool _isConnectedToSystem;
-    _Bool _visibleInSettings;
-    _Bool _connectedToSystem;
-    unsigned char _findMyPartIdentifier;
-    _Bool _managedByFindMy;
-    unsigned short _appearance;
-    unsigned int _writesPending;
-    id <CBPeripheralDelegate> _delegate;
-    NSString *_name;
-    NSNumber *_RSSI;
-    long long _state;
-    NSArray *_services;
-    NSString *_remoteControllerId;
-    NSHashTable *_l2capChannels;
-    NSString *_BDAddress;
-    NSString *_stableIdentifier;
-    NSArray *_findMyGroupMembers;
-    NSString *_findMySerialNumberString;
-    NSUUID *_findMyBeaconIdentifier;
-    NSUUID *_findMyUserIdentifier;
 }
 
 
 // Remaining properties
-@property(retain) NSString *BDAddress; // @synthesize BDAddress=_BDAddress;
-@property(retain) NSNumber *RSSI; // @synthesize RSSI=_RSSI;
-@property _Bool ancsAuthorized; // @synthesize ancsAuthorized=_ancsAuthorized;
-@property unsigned short appearance; // @synthesize appearance=_appearance;
-@property _Bool canSendWriteWithoutResponse; // @synthesize canSendWriteWithoutResponse=_canSendWriteWithoutResponse;
-@property(readonly, nonatomic, getter=isConnectedToSystem) _Bool connectedToSystem; // @synthesize connectedToSystem=_connectedToSystem;
-@property(nonatomic) __weak id <CBPeripheralDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy, nonatomic) NSUUID *findMyBeaconIdentifier; // @synthesize findMyBeaconIdentifier=_findMyBeaconIdentifier;
-@property(readonly, copy, nonatomic) NSArray *findMyGroupMembers; // @synthesize findMyGroupMembers=_findMyGroupMembers;
-@property(readonly, nonatomic) unsigned char findMyPartIdentifier; // @synthesize findMyPartIdentifier=_findMyPartIdentifier;
-@property(readonly, copy, nonatomic) NSString *findMySerialNumberString; // @synthesize findMySerialNumberString=_findMySerialNumberString;
-@property(readonly, copy, nonatomic) NSUUID *findMyUserIdentifier; // @synthesize findMyUserIdentifier=_findMyUserIdentifier;
-@property(readonly, nonatomic) _Bool isConnectedToSystem; // @synthesize isConnectedToSystem=_isConnectedToSystem;
-@property(readonly, retain, nonatomic) NSHashTable *l2capChannels; // @synthesize l2capChannels=_l2capChannels;
-@property(readonly) _Bool managedByFindMy; // @synthesize managedByFindMy=_managedByFindMy;
 @property(retain) NSString *name; // @synthesize name=_name;
-@property(retain) NSString *remoteControllerId; // @synthesize remoteControllerId=_remoteControllerId;
-@property(retain) NSArray *services; // @synthesize services=_services;
-@property(retain) NSString *stableIdentifier; // @synthesize stableIdentifier=_stableIdentifier;
-@property long long state; // @synthesize state=_state;
-@property(readonly) _Bool visibleInSettings; // @synthesize visibleInSettings=_visibleInSettings;
-@property unsigned int writesPending; // @synthesize writesPending=_writesPending;
 @end
 

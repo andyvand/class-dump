@@ -4,26 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, RTCReporting;
-@protocol OS_dispatch_queue, OS_dispatch_source;
-
 @interface RTCReportingAVCDeprecatedPeriodic
 {
     int _counter;
-    NSMutableDictionary *_periodicServiceDict;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_periodicTaskQueue;
-    NSObject<OS_dispatch_source> *_timer;
-    RTCReporting *_session;
 }
 
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (id)dReply;
+- (id)invalidReply;
 
 @end
 

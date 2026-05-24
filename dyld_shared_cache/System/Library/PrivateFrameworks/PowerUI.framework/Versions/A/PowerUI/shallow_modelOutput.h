@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet;
-
 __attribute__((visibility("hidden")))
 @interface shallow_modelOutput
 {
     long long _next_discharge_is_shallow;
-    NSDictionary *_classProbability;
 }
 
 - (void);
@@ -20,11 +17,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id)00_at_charge_start_soc_curr_dynamic_bin_12;
+- (id)_drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_12;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *classProbability; // @synthesize classProbability=_classProbability;
-@property(readonly, nonatomic) NSSet *featureNames;
 @property(nonatomic) long long next_discharge_is_shallow; // @synthesize next_discharge_is_shallow=_next_discharge_is_shallow;
 
 @end

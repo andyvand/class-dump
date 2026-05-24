@@ -4,24 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSMutableSet, RBSAssertion, RBSProcessMonitor, RBSProcessPredicate, RBSTerminateContext;
-@protocol RBSServiceLocalProtocol;
-
 @interface RBSTerminationAssertion
 {
     struct os_unfair_lock_s _lock;
-    RBSAssertion *_assertion;
-    RBSProcessMonitor *_monitor;
-    RBSTerminateContext *_terminateContext;
-    RBSProcessPredicate *_predicate;
-    RBSProcessPredicate *_allow;
-    id <RBSServiceLocalProtocol> _service;
-    unsigned long long _state;
-    _Bool _processExists;
-    NSMutableSet *_runningHandles;
-    _Bool _deathMonitorsSetUp;
-    _Bool _observersHaveBeenNotified;
-    NSHashTable *_observers;
 }
 
 - (_Bool);
@@ -38,7 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool processExists;
 @property(readonly, nonatomic, getter=isValid) _Bool valid;
 
 @end

@@ -5,5 +5,9 @@
 //
 
 @protocol SYDTestDaemonProtocol
+- (void);
+- (void)?;
+- (void)ocGSg;
+- (void);
 @end
 

@@ -7,8 +7,6 @@
 @interface StreamState #1 in CloudKitDaemon.CKLogParser.logEvents(stream: __C.OSLogEventStreamBase, activation: @Sendable () -> ()) async throws -> Swift.Array<CloudKitDaemon.CKLogEvent>
 {
     id events;
-    id operationIDsByActivity;
-    id deviceName;
 }
 
 @end

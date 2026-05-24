@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)n buffer kCVPixelFormatType_DepthFloat32.;
 + (void);
 - (_Bool);
 - (void);

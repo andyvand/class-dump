@@ -6,35 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
-
 @interface MHSchemaMHCoreSpeechPreprocessorCompleted : SISchemaInstrumentationMessage
 {
     int _beepLocation;
-    int _statsComputed;
-    float _beepPower;
-    float _signalPower;
-    float _originalPower;
-    float _absMaxVal;
-    float _aboveNinetyFivepcOfMax;
-    unsigned long long _numTotalInputSamples;
-    unsigned long long _numTotalOutputSamples;
-    unsigned long long _initialContinousZeros;
-    unsigned long long _maxContinousZeros;
-    NSArray *_midSegmentContinousZeros;
-    struct {
-        unsigned int beepLocation:1;
-        unsigned int statsComputed:1;
-        unsigned int beepPower:1;
-        unsigned int signalPower:1;
-        unsigned int originalPower:1;
-        unsigned int absMaxVal:1;
-        unsigned int aboveNinetyFivepcOfMax:1;
-        unsigned int numTotalInputSamples:1;
-        unsigned int numTotalOutputSamples:1;
-        unsigned int initialContinousZeros:1;
-        unsigned int maxContinousZeros:1;
-    } _has;
 }
 
 - (int);
@@ -46,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)*(;
 - (void);
 - (void);
 - (void);
@@ -83,7 +57,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -101,7 +75,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)ry.MoIAiI/Sources/libressl/libressl-2.2/crypto/bn/bn_blind.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -112,30 +86,7 @@
 - (void)`6äÿ;
 
 // Remaining properties
-@property(nonatomic) float aboveNinetyFivepcOfMax; // @synthesize aboveNinetyFivepcOfMax=_aboveNinetyFivepcOfMax;
-@property(nonatomic) float absMaxVal; // @synthesize absMaxVal=_absMaxVal;
 @property(nonatomic) int beepLocation; // @synthesize beepLocation=_beepLocation;
-@property(nonatomic) float beepPower; // @synthesize beepPower=_beepPower;
-@property(nonatomic) _Bool hasAboveNinetyFivepcOfMax;
-@property(nonatomic) _Bool hasAbsMaxVal;
-@property(nonatomic) _Bool hasBeepLocation;
-@property(nonatomic) _Bool hasBeepPower;
-@property(nonatomic) _Bool hasInitialContinousZeros;
-@property(nonatomic) _Bool hasMaxContinousZeros;
-@property(nonatomic) _Bool hasNumTotalInputSamples;
-@property(nonatomic) _Bool hasNumTotalOutputSamples;
-@property(nonatomic) _Bool hasOriginalPower;
-@property(nonatomic) _Bool hasSignalPower;
-@property(nonatomic) _Bool hasStatsComputed;
-@property(nonatomic) unsigned long long initialContinousZeros; // @synthesize initialContinousZeros=_initialContinousZeros;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned long long maxContinousZeros; // @synthesize maxContinousZeros=_maxContinousZeros;
-@property(copy, nonatomic) NSArray *midSegmentContinousZeros; // @synthesize midSegmentContinousZeros=_midSegmentContinousZeros;
-@property(nonatomic) unsigned long long numTotalInputSamples; // @synthesize numTotalInputSamples=_numTotalInputSamples;
-@property(nonatomic) unsigned long long numTotalOutputSamples; // @synthesize numTotalOutputSamples=_numTotalOutputSamples;
-@property(nonatomic) float originalPower; // @synthesize originalPower=_originalPower;
-@property(nonatomic) float signalPower; // @synthesize signalPower=_signalPower;
-@property(nonatomic) int statsComputed; // @synthesize statsComputed=_statsComputed;
 
 @end
 

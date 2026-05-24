@@ -6,25 +6,10 @@
 
 #import <AVConference/VCTransportSession.h>
 
-@class VCNetworkAddress;
-
 __attribute__((visibility("hidden")))
 @interface VCTransportSessionSocket : VCTransportSession
 {
     int _rtpVFD;
-    int _rtcpVFD;
-    _Bool _isRTPUsable;
-    _Bool _isRTCPUsable;
-    _Bool _isSharedSocket;
-    struct sockaddr_storage _rtpIPPort;
-    unsigned int _rtpIPPortLength;
-    struct sockaddr_storage _rtcpIPPort;
-    unsigned int _rtcpIPPortLength;
-    VCNetworkAddress *_remoteAddress;
-    int _networkInterfaceType;
-    char _networkInterfaceName[16];
-    _Bool _isIPv6;
-    unsigned int _networkMTU;
 }
 
 - (int);
@@ -36,25 +21,25 @@ __attribute__((visibility("hidden")))
 - (int);
 - (void);
 - (unsigned int);
-- (int);
-- (int);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (int);
-- (int);
-- (int);
-- (int);
+- (int);
 - (int);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (int);
+- (int);
+- (int)km;
+- (int);
+- (int);
+- (void)>;
 - (struct tagVCNWConnectionMonitor *);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (id)thAllocator;
+- (id)VCAudioBufferList_CreateSampleBufferWithFormatWithAllocator;
 
 @end
 

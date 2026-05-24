@@ -8,11 +8,9 @@ __attribute__((visibility("hidden")))
 @interface AVTouchBarScrubberExpandButton
 {
     double _minValue;
-    double _maxValue;
-    double _currentValue;
 }
 
-+ (Class);
++ (Class)%@, error, %@;
 - (double);
 - (double);
 - (void);
@@ -22,10 +20,7 @@ __attribute__((visibility("hidden")))
 - (double)°;
 
 // Remaining properties
-@property double currentValue;
-@property double maxValue;
 @property double minValue;
-@property(readonly) double normalizedCurrentValue;
 
 @end
 

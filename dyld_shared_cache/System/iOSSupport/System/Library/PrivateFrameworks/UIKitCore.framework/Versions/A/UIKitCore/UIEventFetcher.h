@@ -4,58 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADisplayLink, NSMutableArray, NSMutableDictionary, NSMutableSet;
-@protocol UIEventFetcherSink;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface UIEventFetcher
 {
     NSMutableArray *_incomingHIDEventsFiltered;
-    struct __CFRunLoop *_cfRunLoop;
-    CDUnknownBlockType _receiveBlock;
-    CDUnknownBlockType _addToFilteredEventsBlock;
-    CDUnknownBlockType _gameControllerEventFilterGenerator;
-    CDUnknownBlockType _passiveObservationFilterGenerator;
-    CDUnknownBlockType _watchSystemAppFilter;
-    NSMutableArray *_eventFilters;
-    int _displayLinkIdleTicks;
-    CADisplayLink *_displayLink;
-    long long _countOfEventsReceivedSinceLastDisplayLinkCallback;
-    long long _countOfEventsReceivedInPreviousFrame;
-    _Bool _didSignalOneMoveEventSinceLastDisplayLinkCallback;
-    double _lastImportantEventTimestamp;
-    double _lastSignalTimestamp;
-    double _lastSignalEventTimestamp;
-    double _lastFilteredEventTimestamp;
-    double _estimatedDisplayLinkDrift;
-    long long _lastSignalType;
-    unsigned long long _lastSignalReason;
-    _Bool _needsSignalOnDisplayLink;
-    double _commitTimeForTouchEvents;
-    double _beginTimeForTouchEvents;
-    double _deadlineTimeForTouchEvents;
-    NSMutableDictionary *_latestMoveDragEventsBySessionID;
-    double _latestMoveDragEventTimestamp;
-    double _latestMoveDragEventResendTimestamp;
-    struct __CFRunLoopTimer *_resendDragEventsTimer;
-    NSMutableSet *_contextIDsNeedingHoverEventResend;
-    NSMutableDictionary *_latestHoverEventsByContextID;
-    id <UIEventFetcherSink> _eventFetcherSink;
 }
 
+- (void);
+- (void);
+- (void);
+- (double)sion ticket A;
 - (void);
 - (void);
 - (void);
-- (double);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)effectiveAlbumArtist;
 - (id);
 - (void);
 - (void);
@@ -70,13 +39,13 @@ __attribute__((visibility("hidden")))
 × ;
 - (void);
 - (_Bool)SUserActivity"16;
-- (void)llUpdateCellHandler;
-- (id)WithSize: /* Error: Ran out of types for this method. */;
-- (void)lumn:(CDUnknownBlockType)arg1;
-- (struct __CFRunLoopTimer *)ts:forKeys:count: /* Error: Ran out of types for this method. */;
-- (void)owClass;
-- (void)der:(double)arg1;
-- (void)barTitleData;
+- (void)willUpdateCellHandler;
+- (id)insertTextPlaceholderWithSize: /* Error: Ran out of types for this method. */;
+- (void)initWithSplitViewControllerColumn:(CDUnknownBlockType)arg1;
+- (struct __CFRunLoopTimer *)initWithObjects:forKeys:count: /* Error: Ran out of types for this method. */;
+- (void)_statusBarWindowClass;
+- (void)_setInitialBuildingResponder:(double)arg1;
+- (void)_barTitleData;
 - (struct __IOHIDEvent *)hStyle",R,N;
 - (void),W,N,V_delegate;
 - (void)bel",&,N,V_promptLabel;
@@ -84,12 +53,12 @@ __attribute__((visibility("hidden")))
 - (void)ÿÈÿ;
 - (double)aceAction"8^B16;
 - (void)postRotationPendingBlock;
-- (void)ypeShift;
+- (void)UIKBKeyInteractionTypeShift;
 - (void)stom content types;
 - (void)IButtonBarTrashLandscape.png;
-- (double)ilableConfiguration;
+- (double)contentUnavailableConfiguration;
 - (void)ÿ;
-- (double)InteractionUpdateC;
+- (double)So27_UIDismissInteractionUpdateC;
 - (void)ðø®?óWya§?©'ôú ?;
 - (void)?;
 - (void);
@@ -100,18 +69,7 @@ __attribute__((visibility("hidden")))
 - (void)xácÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) struct __CFRunLoop *_eventFetchRunLoop;
-@property(nonatomic) double beginTimeForTouchEvents; // @synthesize beginTimeForTouchEvents=_beginTimeForTouchEvents;
-@property(nonatomic) double commitTimeForTouchEvents; // @synthesize commitTimeForTouchEvents=_commitTimeForTouchEvents;
-@property(retain, nonatomic) NSMutableSet *contextIDsNeedingHoverEventResend; // @synthesize contextIDsNeedingHoverEventResend=_contextIDsNeedingHoverEventResend;
-@property(nonatomic) double deadlineTimeForTouchEvents; // @synthesize deadlineTimeForTouchEvents=_deadlineTimeForTouchEvents;
-@property(retain, nonatomic) id <UIEventFetcherSink> eventFetcherSink; // @synthesize eventFetcherSink=_eventFetcherSink;
-@property(retain, nonatomic) NSMutableDictionary *latestHoverEventsByContextID; // @synthesize latestHoverEventsByContextID=_latestHoverEventsByContextID;
-@property(nonatomic) double latestMoveDragEventResendTimestamp; // @synthesize latestMoveDragEventResendTimestamp=_latestMoveDragEventResendTimestamp;
-@property(nonatomic) double latestMoveDragEventTimestamp; // @synthesize latestMoveDragEventTimestamp=_latestMoveDragEventTimestamp;
-@property(retain, nonatomic) NSMutableDictionary *latestMoveDragEventsBySessionID; // @synthesize latestMoveDragEventsBySessionID=_latestMoveDragEventsBySessionID;
 @property(nonatomic) _Bool needsSignalOnDisplayLink; // @synthesize needsSignalOnDisplayLink=_needsSignalOnDisplayLink;
-@property(nonatomic) struct __CFRunLoopTimer *resendDragEventsTimer; // @synthesize resendDragEventsTimer=_resendDragEventsTimer;
 
 @end
 

@@ -16,14 +16,14 @@
     } _context;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)on (out of memory?);
+- (void)16P] Failed to create snapshot session with HMDCameraSnapshotRemoteRelayReceiver:(id)arg1 accessory reference is nil;
+- (void)pshotRemoteRelayReceiver;
 - (void);
 - (id);
 - (void);
+- (id);
+- (void)orks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers;
 
 @end
 

@@ -12,7 +12,7 @@
 
 + (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)deactivateConstraints:(id)arg1;
 
 @end
 

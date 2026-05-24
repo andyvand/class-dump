@@ -6,27 +6,19 @@
 
 #import <MPSNDArray/MPSNDArrayBinaryKernel.h>
 
-@class MPSNDArrayArgSort, MPSNDArrayGatherND, MPSNDArrayReduction;
-
 @interface MPSNDArrayNMS : MPSNDArrayBinaryKernel
 {
     float _scoreThreshold;
-    float _IOUThreshold;
-    long long _maxBoxes;
-    MPSNDArrayReduction *_reduceArgMaxKernel;
-    MPSNDArrayReduction *_reduceMaxKernel;
-    MPSNDArrayArgSort *_argSortKernel;
-    MPSNDArrayGatherND *_gatherKernel;
 }
 
-+ (const struct MPSLibraryInfo *);
++ (const struct MPSLibraryInfo *);
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
 - (float);
 - (void);
-- (long long);
+- (long long) ;
 - (void);
 - (id);
 - (id);
@@ -34,8 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) float IOUThreshold; // @synthesize IOUThreshold=_IOUThreshold;
-@property(nonatomic) long long maxBoxes; // @synthesize maxBoxes=_maxBoxes;
 @property(nonatomic) float scoreThreshold; // @synthesize scoreThreshold=_scoreThreshold;
 
 @end

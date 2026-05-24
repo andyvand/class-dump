@@ -5,5 +5,10 @@
 //
 
 @protocol NSMenuDelegate
+
+@optional
+- (long long);
+- (_Bool);
+- (_Bool)__DATA;
 @end
 

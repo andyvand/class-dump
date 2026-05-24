@@ -14,7 +14,7 @@
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (id);
+- (id)h;
 
 // Remaining properties
 @property(nonatomic) unsigned long long configuration; // @synthesize configuration=_configuration;

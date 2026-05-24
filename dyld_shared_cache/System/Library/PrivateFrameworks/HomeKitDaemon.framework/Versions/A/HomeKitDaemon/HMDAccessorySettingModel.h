@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/HMDBackingStoreModelObject.h>
 
-@class NSData, NSNumber, NSString;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessorySettingModel : HMDBackingStoreModelObject
@@ -14,14 +14,10 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)ctedGuestCapableServiceTypes: /* Error: Ran out of types for this method. */;
++ (id)doesAccessoryHaveRestrictedGuestCapableServiceTypes: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *configurationVersion; // @dynamic configurationVersion;
-@property(copy, nonatomic) NSString *name; // @dynamic name;
-@property(copy, nonatomic) NSNumber *properties; // @dynamic properties;
 @property(copy, nonatomic) NSNumber *type; // @dynamic type;
-@property(copy, nonatomic) NSData *value; // @dynamic value;
 
 @end
 

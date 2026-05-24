@@ -4,37 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, NSString, UIDragItem;
+@class UIDragItem;
 
 __attribute__((visibility("hidden")))
 @interface _UICollectionViewDropItem
 {
     UIDragItem *_dragItem;
-    NSIndexPath *_sourceIndexPath;
-    struct CGSize _previewSize;
 }
 
+- (void)rviceReachabilityResult";
+- (void)replicationSourceServiceName;
+- (struct CGSize)dispatcher:didReceiveDismissalRequest:fromID: /* Error: Ran out of types for this method. */;
+- (id)ndingReadReceiptFromStorageCount;
+- (id);
+- (id);
 - (void);
-- (void);
-- (struct CGSize);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id);
 - (void)Ërh^;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) UIDragItem *dragItem; // @synthesize dragItem=_dragItem;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct CGSize previewSize; // @synthesize previewSize=_previewSize;
-@property(retain, nonatomic) NSIndexPath *sourceIndexPath; // @synthesize sourceIndexPath=_sourceIndexPath;
-@property(readonly) Class superclass;
 
 @end
 

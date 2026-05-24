@@ -4,42 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSMutableOrderedSet, NSObject;
-@protocol OS_dispatch_queue;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface _NSCollectionViewPrefetchingContext
 {
     NSArray *_remainingIndexPaths;
-    NSMutableOrderedSet *_items;
-    NSMutableDictionary *_itemsDict;
-    NSObject<OS_dispatch_queue> *_dataAccessQueue;
 }
 
-+ (id);
-- (void);
++ (id)__NSCFURLLocalStreamTaskFromDataTask;
+- (void)DeviceEnclosureColor;
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)8@16@24i32;
+- (id)ot initWithResumeData with nil resume data;
 - (id);
 - (id);
 - (void);
 - (id);
 - (id)0@ù
 × ;
-- (id)ons:orthography:learnedDictionaries:completionHandler: /* Error: Ran out of types for this method. */;
-- (_Bool)ifier:inPasteboard:generation:item: /* Error: Ran out of types for this method. */;
+- (id)_xpc_proxyDataFromCheckingString:identifier:offset:types:options:orthography:learnedDictionaries:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)_setConversionFromData:typeIdentifier:inPasteboard:generation:item: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)ð;
 - (void)he restricted Service \U201C%@.\U201D;
 - (void)eIcon(submenuInitialMenuRef, imageTypeForCarbon, imageForCarbon);
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dataAccessQueue; // @synthesize dataAccessQueue=_dataAccessQueue;
-@property(retain, nonatomic) NSMutableOrderedSet *items; // @synthesize items=_items;
-@property(retain, nonatomic) NSMutableDictionary *itemsDict; // @synthesize itemsDict=_itemsDict;
 @property(retain, nonatomic) NSArray *remainingIndexPaths; // @synthesize remainingIndexPaths=_remainingIndexPaths;
 
 @end

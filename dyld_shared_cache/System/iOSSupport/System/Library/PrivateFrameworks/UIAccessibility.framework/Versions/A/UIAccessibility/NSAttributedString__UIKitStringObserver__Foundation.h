@@ -10,8 +10,8 @@
 {
 }
 
-+ (Class);
-+ (id);
++ (Class)24@0:8@16 /* Error: Ran out of types for this method. */;
++ (id)A;
 - (void);
 
 @end

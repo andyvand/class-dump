@@ -21,13 +21,13 @@
 + (id);
 + (id);
 + (id);
-- (double);
+- (double);
 - (_Bool);
 - (struct PFIntSize_st);
-- (_Bool);
-- (struct CGSize);
+- (_Bool);
+- (struct CGSize);
 - (id);
-- (void);
+- (void)a;
 
 @end
 

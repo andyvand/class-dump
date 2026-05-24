@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface WCMessage
 {
     _Bool _dictionaryMessage;
-    NSString *_pairingID;
-    NSString *_identifier;
-    NSData *_data;
 }
 
 + (_Bool);
@@ -28,9 +25,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSData *data; // @synthesize data=_data;
-@property(readonly, getter=isDictionaryMessage) _Bool dictionaryMessage; // @synthesize dictionaryMessage=_dictionaryMessage;
-@property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
 @property(readonly, copy) NSString *pairingID; // @synthesize pairingID=_pairingID;
 
 @end

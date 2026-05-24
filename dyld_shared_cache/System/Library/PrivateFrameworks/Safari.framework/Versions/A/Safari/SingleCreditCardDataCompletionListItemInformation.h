@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WBSSingleCreditCardData;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface SingleCreditCardDataCompletionListItemInformation
 {
     NSString *_displayText;
-    NSString *_headerTextForCompletionList;
-    NSString *_headerTextForFunctionBar;
-    WBSSingleCreditCardData *_singleCreditCardData;
 }
 
 - (id);
@@ -25,9 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *displayText; // @synthesize displayText=_displayText;
-@property(readonly, copy, nonatomic) NSString *headerTextForCompletionList; // @synthesize headerTextForCompletionList=_headerTextForCompletionList;
-@property(readonly, copy, nonatomic) NSString *headerTextForFunctionBar; // @synthesize headerTextForFunctionBar=_headerTextForFunctionBar;
-@property(readonly, nonatomic) WBSSingleCreditCardData *singleCreditCardData; // @synthesize singleCreditCardData=_singleCreditCardData;
 
 @end
 

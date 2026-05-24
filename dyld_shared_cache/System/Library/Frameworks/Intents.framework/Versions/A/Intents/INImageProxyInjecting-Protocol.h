@@ -5,5 +5,6 @@
 //
 
 @protocol INImageProxyInjecting
+- (void);
 @end
 

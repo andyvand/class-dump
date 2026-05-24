@@ -15,15 +15,15 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void);
-- (void);
+- (void)pendingGroupModification;
+- (void)overrideNetworkAvailability;
 - (id);
 - (id);
 - (long long);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)tls1_cert_verify_mac;
 - (id);
 
 // Remaining properties

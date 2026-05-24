@@ -4,28 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSUUID;
-@protocol OS_dispatch_queue;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface SFAuthenticationStateChangesObserver
 {
     NSUUID *_identifier;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _observer;
 }
 
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
-- (CDUnknownBlockType)pired;
+- (void)vcard;
+- (CDUnknownBlockType)Expired;
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) CDUnknownBlockType observer; // @synthesize observer=_observer;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

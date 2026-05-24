@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/HMDBackgroundOperation.h>
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryBackgroundOperation : HMDBackgroundOperation
@@ -26,16 +26,7 @@ __attribute__((visibility("hidden")))
 - (id)B;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
 @property(readonly, copy, nonatomic) NSUUID *accessoryUUID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSUUID *homeUUID;
-@property(readonly) Class superclass;
 
 @end
 

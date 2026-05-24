@@ -4,51 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UICollectionView;
+@class NSArray, UICollectionView;
 
 __attribute__((visibility("hidden")))
 @interface CKSyndicationSharedWithYouViewController
 {
     UICollectionView *_collectionView;
-    NSArray *_constraints;
-    NSArray *_defaultAppBundleIDs;
-    struct CGSize _maxContentSize;
 }
 
-- (void);
-- (long long);
+- (void)currentIdentifiers;
+- (long long)Saving preview image;
 - (id);
 - (void);
 - (void);
 - (struct CGSize);
 - (id);
 - (id);
-- (struct CGSize);
+- (struct CGSize)@B;
 - (void);
 - (double);
 - (struct UIEdgeInsets)ð!´Fù±1Â0@ù
 × ;
 - (double)þð!@Gù11Â0@ù
 × ;
-- (struct CGSize)xtViewWritingToolsDidEnd:(id)arg1;
-- (long long)achedToCellsForBoundsChange:(id)arg1;
-- (void)ulge;
+- (struct CGSize)textViewWritingToolsDidEnd:(id)arg1;
+- (long long)stretchSpringsAttachedToCellsForBoundsChange:(id)arg1;
+- (void)bulge;
 - (void)re update;
 - (void);
 - (id)QÎ;
 
 // Remaining properties
-@property(retain, nonatomic) UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
 @property(retain, nonatomic) NSArray *constraints; // @synthesize constraints=_constraints;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) NSArray *defaultAppBundleIDs; // @synthesize defaultAppBundleIDs=_defaultAppBundleIDs;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct CGSize maxContentSize; // @synthesize maxContentSize=_maxContentSize;
-@property(readonly) Class superclass;
 
 @end
 

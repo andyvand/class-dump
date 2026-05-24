@@ -12,9 +12,9 @@
 - (void);
 - (void);
 - (unsigned long long);
+- (void)x;
 - (void);
-- (void);
-- (id);
+- (id)H;
 - (void)ù
 × ;
 

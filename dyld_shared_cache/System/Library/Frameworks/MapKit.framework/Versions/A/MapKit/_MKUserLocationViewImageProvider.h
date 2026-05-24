@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAvatarImageRenderer, CNContactStore, NSObject, _MKUserLocationView;
-@protocol OS_dispatch_queue;
+@class _MKUserLocationView;
 
 __attribute__((visibility("hidden")))
 @interface _MKUserLocationViewImageProvider
 {
     _MKUserLocationView *_view;
-    NSObject<OS_dispatch_queue> *_queue;
-    CNContactStore *_contactStore;
-    CNAvatarImageRenderer *_monogrammer;
 }
 
+- (id)e=%@ with info=%@;
+- (void);
+- (void);
 - (id);
+- (id)background;
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void)SharingServices: /* Error: Ran out of types for this method. */;
+- (void)sharingServicePicker:sharingServicesForItems:proposedSharingServices: /* Error: Ran out of types for this method. */;
 
 @end
 

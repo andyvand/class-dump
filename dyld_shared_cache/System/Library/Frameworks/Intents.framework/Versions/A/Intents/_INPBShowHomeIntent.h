@@ -4,54 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBDateTimeRange, _INPBIntentMetadata;
+@class NSArray;
 
 @interface _INPBShowHomeIntent
 {
     struct _has;
-    NSArray *_filters;
-    _INPBIntentMetadata *_intentMetadata;
-    _INPBDateTimeRange *_time;
 }
 
 + (Class);
-+ (_Bool);
++ (_Bool)(;
 - (_Bool);
-- (id);
+- (id)/Versions/A/ImageIO;
 - (unsigned long long);
 - (id);
 - (void);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (void)h;
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)ientWithInvalidation:(id)arg1 ];
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void)Name;
+- (void)_fileName;
 - (_Bool)ndarSystem;
 - (void)ent activity;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSArray *filters; // @synthesize filters=_filters;
-@property(readonly, nonatomic) unsigned long long filtersCount;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasTime;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBDateTimeRange *time; // @synthesize time=_time;
 
 @end
 

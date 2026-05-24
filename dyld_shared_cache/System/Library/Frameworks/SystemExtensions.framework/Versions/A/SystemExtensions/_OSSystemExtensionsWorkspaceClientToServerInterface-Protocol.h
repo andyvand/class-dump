@@ -5,5 +5,9 @@
 //
 
 @protocol _OSSystemExtensionsWorkspaceClientToServerInterface
+- (void)nsferSender:(void (^)(NSArray *, NSError *))arg1 done with %@ attributes %@ fd %d messageUUID %@;
+- (void);
+- (void)DSSocketPairResourceTransferReceiver:(void (^)(NSError *))arg1 already done with this resource! messageUUID %@;
+- (void);
 @end
 

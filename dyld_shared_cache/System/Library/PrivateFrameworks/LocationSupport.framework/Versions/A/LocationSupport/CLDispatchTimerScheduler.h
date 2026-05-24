@@ -10,21 +10,19 @@
 @interface CLDispatchTimerScheduler
 {
     CLTimer *timer;
-    NSObject<OS_dispatch_source> *_source;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)ncy;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_source> *source; // @synthesize source=_source;
-@property(nonatomic) __weak CLTimer *timer; // @synthesize timer;
 
 @end
 

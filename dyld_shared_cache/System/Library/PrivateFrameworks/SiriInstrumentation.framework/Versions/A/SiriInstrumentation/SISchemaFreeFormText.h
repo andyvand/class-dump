@@ -6,17 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class NSString;
 
 @interface SISchemaFreeFormText : SISchemaInstrumentationMessage
 {
     NSString *_text;
-    SISchemaUUID *_explainabilityIdentifier;
-    _Bool _hasText;
-    _Bool _hasExplainabilityIdentifier;
 }
 
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void);
@@ -26,23 +23,19 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)tID;
+- (_Bool)be removed soon.;
 - (id);
-- (_Bool);
+- (_Bool)IMDSqlOperationInitWithCSDBDatabase;
 - (id);
 - (id);
 - (void)nSameActions"b1"minutesSinceLastActionDisambiguationForThisAction"b1"wasActionSelectedInLastDisambiguation"b1"minutesSinceLastDisambiguationForSameActions"b1};
-- (id)nContext;
-- (id)aced;
-- (_Bool)UAGEMODELBUILDFAILUREREASON_DATAPACK;
-- (void)hannel;
+- (id)deleteCarPlayInvocationContext;
+- (id)_countOfWordsReplaced;
+- (_Bool)SMTAPPLANGUAGEMODELBUILDFAILUREREASON_DATAPACK;
+- (void)audioChannel;
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaUUID *explainabilityIdentifier; // @synthesize explainabilityIdentifier=_explainabilityIdentifier;
-@property(nonatomic) _Bool hasExplainabilityIdentifier; // @synthesize hasExplainabilityIdentifier=_hasExplainabilityIdentifier;
-@property(nonatomic) _Bool hasText; // @synthesize hasText=_hasText;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end

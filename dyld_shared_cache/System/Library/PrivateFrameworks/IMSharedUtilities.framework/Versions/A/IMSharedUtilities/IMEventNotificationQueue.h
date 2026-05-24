@@ -5,15 +5,10 @@
 //
 
 @class IMDoubleLinkedList;
-@protocol IMEventNotificationQueueDelegate;
 
 @interface IMEventNotificationQueue
 {
     _Bool _paused;
-    _Bool _scheduled;
-    _Bool _busy;
-    id <IMEventNotificationQueueDelegate> _delegate;
-    IMDoubleLinkedList *_eventNotificationList;
 }
 
 - (void);
@@ -37,25 +32,20 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)PKAppleBalanceBackgroundProvisionDisabledKey;
 - (void);
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (long long);
-- (void)leInfoData;
+- (void)_handleInfoData;
 - (_Bool);
 - (_Bool)|SßÿÈ­eèÈ;
 
 // Remaining properties
-@property(readonly, getter=isBusy) _Bool busy; // @synthesize busy=_busy;
-@property(readonly) long long count;
-@property __weak id <IMEventNotificationQueueDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) IMDoubleLinkedList *eventNotificationList; // @synthesize eventNotificationList=_eventNotificationList;
-@property(getter=isPaused) _Bool paused; // @synthesize paused=_paused;
-@property(readonly, getter=isScheduled) _Bool scheduled; // @synthesize scheduled=_scheduled;
 
 @end
 

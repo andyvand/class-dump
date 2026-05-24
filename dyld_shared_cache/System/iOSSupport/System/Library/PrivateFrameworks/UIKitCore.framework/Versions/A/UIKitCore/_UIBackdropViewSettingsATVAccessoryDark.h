@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)on:glyphSize:glyphWeight:glyphPointSize:appearanceName:locale: /* Error: Ran out of types for this method. */;
+- (void)namedVectorGlyphWithName:scaleFactor:deviceIdiom:layoutDirection:glyphSize:glyphWeight:glyphPointSize:appearanceName:locale: /* Error: Ran out of types for this method. */;
 
 @end
 

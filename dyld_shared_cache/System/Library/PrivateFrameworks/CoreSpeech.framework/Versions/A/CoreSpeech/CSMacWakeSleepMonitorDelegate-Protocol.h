@@ -5,5 +5,6 @@
 //
 
 @protocol CSMacWakeSleepMonitorDelegate
+- (void);
 @end
 

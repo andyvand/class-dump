@@ -10,8 +10,8 @@
 }
 
 - (void);
-- (id);
-- (void)dGapLocation;
+- (id);
+- (void)SharedWithYouFeedGapLocation;
 
 @end
 

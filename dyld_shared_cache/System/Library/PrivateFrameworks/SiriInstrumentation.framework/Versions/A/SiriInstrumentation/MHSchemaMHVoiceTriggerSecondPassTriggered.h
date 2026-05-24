@@ -6,22 +6,21 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class MHSchemaMHVoiceTriggerEventInfo, NSData;
+@class MHSchemaMHVoiceTriggerEventInfo;
 
 @interface MHSchemaMHVoiceTriggerSecondPassTriggered : SISchemaInstrumentationMessage
 {
     MHSchemaMHVoiceTriggerEventInfo *_voiceTriggerEventInfo;
-    _Bool _hasVoiceTriggerEventInfo;
 }
 
 - (void);
 - (_Bool);
 - (void);
 - (void);
+- (id)hasapplemusicartistlistsharepermissions;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)EVP_MD_CTX_ctrl;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -29,11 +28,9 @@
 - (id);
 - (id)ate;
 - (id)cs;
-- (void)maORCHBlackboardUseCaseProfile;
+- (void)ORCHSchemaORCHBlackboardUseCaseProfile;
 
 // Remaining properties
-@property(nonatomic) _Bool hasVoiceTriggerEventInfo; // @synthesize hasVoiceTriggerEventInfo=_hasVoiceTriggerEventInfo;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) MHSchemaMHVoiceTriggerEventInfo *voiceTriggerEventInfo; // @synthesize voiceTriggerEventInfo=_voiceTriggerEventInfo;
 
 @end

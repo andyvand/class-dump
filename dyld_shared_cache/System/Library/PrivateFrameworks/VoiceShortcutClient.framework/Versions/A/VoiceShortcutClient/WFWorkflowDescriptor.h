@@ -6,29 +6,21 @@
 
 #import <VoiceShortcutClient/WFDatabaseObjectDescriptor.h>
 
-@class NSString;
-
 @interface WFWorkflowDescriptor : WFDatabaseObjectDescriptor
 {
     unsigned short _glyphCharacter;
-    NSString *_name;
-    long long _color;
-    struct CGImage *_iconImage;
-    double _iconImageScale;
-    NSString *_associatedAppBundleIdentifier;
-    NSString *_searchAttributionAppBundleIdentifier;
 }
 
 - (id);
-- (id);
+- (id)3|;
 - (double);
-- (id);
+- (id)i6z;
 - (void);
 - (id);
 - (id);
 - (unsigned short);
-- (id);
-- (unsigned long long);
+- (id);
+- (unsigned long long);
 - (long long);
 - (id);
 - (struct CGImage *);

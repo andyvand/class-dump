@@ -6,20 +6,17 @@
 
 #import <iTunesCloud/ICRequestOperation.h>
 
-@class ICPushNotificationsResponse, ICStoreRequestContext, NSDictionary, NSString;
+@class ICStoreRequestContext;
 
 @interface ICPushNotificationsEnableTypesRequest : ICRequestOperation
 {
     ICStoreRequestContext *_requestContext;
-    NSString *_notificationType;
-    NSDictionary *_notificationParams;
-    ICPushNotificationsResponse *_response;
 }
 
 - (id);
 - (void);
 - (void);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)mescalConfigurationForResponse: /* Error: Ran out of types for this method. */;
 
 @end
 

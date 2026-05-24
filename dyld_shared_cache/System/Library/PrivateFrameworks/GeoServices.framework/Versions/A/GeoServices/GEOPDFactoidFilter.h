@@ -10,10 +10,6 @@ __attribute__((visibility("hidden")))
 @interface GEOPDFactoidFilter
 {
     PBUnknownFields *_unknownFields;
-    _Bool _canSupportStructuredData;
-    struct {
-        unsigned int has_canSupportStructuredData:1;
-    } _flags;
 }
 
 - (id);
@@ -22,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)d_entrys"b1"read_exploreGuidesEntry"b1"read_exploreImageUrlTemplate"b1"wrote_anyField"b1};
-- (id)cePostureLocale;
+- (id)_devicePostureLocale;
 - (id)äÃ¼Ä;
 - (void);
 

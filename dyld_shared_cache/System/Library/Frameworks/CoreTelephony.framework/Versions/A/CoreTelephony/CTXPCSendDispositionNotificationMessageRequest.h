@@ -6,14 +6,14 @@
 
 #import <CoreTelephony/CTXPCSubscriptionContextRequest.h>
 
-@class CTLazuliDestination, CTLazuliGroupChatUri, CTLazuliMessageID;
+@class CTLazuliMessageID;
 
 __attribute__((visibility("hidden")))
 @interface CTXPCSendDispositionNotificationMessageRequest : CTXPCSubscriptionContextRequest
 {
 }
 
-+ (id);
++ (id);
 - (void);
 - (id);
 - (id);
@@ -24,14 +24,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (int);
-- (id)ModelNumber;
+- (id)kSettingsModelNumber;
 
 // Remaining properties
-@property(readonly, nonatomic) CTLazuliDestination *destination;
-@property(readonly, nonatomic) CTLazuliGroupChatUri *groupChatURI;
 @property(readonly, nonatomic) CTLazuliMessageID *messageID;
-@property(readonly, nonatomic) CTLazuliMessageID *notificationMessageID;
-@property(readonly, nonatomic) long long notificationType;
 
 @end
 

@@ -4,73 +4,52 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLayoutConstraint, UIButton, UILabel, UIView;
-@protocol CKFocusFilterBannerDelegate;
+@class UILabel;
 
 __attribute__((visibility("hidden")))
 @interface CKFocusFilterBannerCollectionViewCell
 {
     _Bool _isFocusFilterEnabled;
-    _Bool _useFullWidthKeylines;
-    id <CKFocusFilterBannerDelegate> _focusFilterBannerDelegate;
-    UILabel *_focusFilterStateDescriptionLabel;
-    UIButton *_focusFilterToggleButton;
-    UIView *_topKeylineView;
-    UIView *_bottomKeylineView;
-    NSLayoutConstraint *_topKeylineHeightConstraint;
-    NSLayoutConstraint *_bottomKeylineHeightConstraint;
-    NSArray *_sizeClassDependentConstraints;
-    NSArray *_keylineAlignmentConstraints;
 }
 
 + (_Bool);
 + (id);
 + (id)×¸9¸3;
+- (_Bool)fixAttachmentForAttributedString:range:forPlainText:forStandardizedText: /* Error: Ran out of types for this method. */;
+- (id)app_addChildWindow:ordered: /* Error: Ran out of types for this method. */;
+- (id)appURLForVirtualSmartFolder: /* Error: Ran out of types for this method. */;
+- (id)_cachedControlViewForPlaceView;
+- (void)folders;
+- (void)_window;
+- (void)_urlSuggestions;
+- (void)sharedWorkspace;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)c;
+- (id)(;
+- (id);
+- (id);
+- (void);
+- (id)6@"NSMutableDictionary"24;
+- (id)24;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void)TestsInBundleAtPath:(id)arg1 results: /* Error: Ran out of types for this method. */;
+- (void)unitTestRunner:(id)arg1 didRunTestsInBundleAtPath:results: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSLayoutConstraint *bottomKeylineHeightConstraint; // @synthesize bottomKeylineHeightConstraint=_bottomKeylineHeightConstraint;
-@property(retain, nonatomic) UIView *bottomKeylineView; // @synthesize bottomKeylineView=_bottomKeylineView;
-@property(nonatomic) __weak id <CKFocusFilterBannerDelegate> focusFilterBannerDelegate; // @synthesize focusFilterBannerDelegate=_focusFilterBannerDelegate;
 @property(retain, nonatomic) UILabel *focusFilterStateDescriptionLabel; // @synthesize focusFilterStateDescriptionLabel=_focusFilterStateDescriptionLabel;
-@property(retain, nonatomic) UIButton *focusFilterToggleButton; // @synthesize focusFilterToggleButton=_focusFilterToggleButton;
-@property(nonatomic) _Bool isFocusFilterEnabled; // @synthesize isFocusFilterEnabled=_isFocusFilterEnabled;
-@property(retain, nonatomic) NSArray *keylineAlignmentConstraints; // @synthesize keylineAlignmentConstraints=_keylineAlignmentConstraints;
-@property(retain, nonatomic) NSArray *sizeClassDependentConstraints; // @synthesize sizeClassDependentConstraints=_sizeClassDependentConstraints;
-@property(retain, nonatomic) NSLayoutConstraint *topKeylineHeightConstraint; // @synthesize topKeylineHeightConstraint=_topKeylineHeightConstraint;
-@property(retain, nonatomic) UIView *topKeylineView; // @synthesize topKeylineView=_topKeylineView;
-@property(nonatomic) _Bool useFullWidthKeylines; // @synthesize useFullWidthKeylines=_useFullWidthKeylines;
 
 @end
 

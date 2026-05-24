@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMPBHomeKitClientBase, NSMutableArray, NSString;
+@class NSString;
 
 @interface BMPBHomeKitClientMediaAccessoryControlEvent
 {
     NSString *_accessoryMediaRouteIdentifier;
-    NSString *_accessoryName;
-    NSMutableArray *_accessoryStates;
-    NSString *_accessoryUniqueIdentifier;
-    BMPBHomeKitClientBase *_base;
-    NSString *_homeName;
-    NSString *_roomName;
-    NSString *_roomUniqueIdentifier;
-    NSMutableArray *_zoneNames;
-    NSMutableArray *_zoneUniqueIdentifiers;
 }
 
 + (Class);
@@ -25,7 +16,7 @@
 + (Class);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)R;
 - (void);
 - (void);
 - (void);
@@ -37,8 +28,8 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (id);
@@ -62,7 +53,7 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)perspectiveCorrectedImageFromImage:(id)arg1 normalizedImageQuad: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id);
@@ -70,27 +61,11 @@
 - (_Bool);
 - (void)STUVWXY.;
 - (id)ìÿÿ¸;
-- (id)trategy;
+- (id)PgQuery_AggStrategy;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *accessoryMediaRouteIdentifier; // @synthesize accessoryMediaRouteIdentifier=_accessoryMediaRouteIdentifier;
-@property(retain, nonatomic) NSString *accessoryName; // @synthesize accessoryName=_accessoryName;
-@property(retain, nonatomic) NSMutableArray *accessoryStates; // @synthesize accessoryStates=_accessoryStates;
-@property(retain, nonatomic) NSString *accessoryUniqueIdentifier; // @synthesize accessoryUniqueIdentifier=_accessoryUniqueIdentifier;
-@property(retain, nonatomic) BMPBHomeKitClientBase *base; // @synthesize base=_base;
-@property(readonly, nonatomic) _Bool hasAccessoryMediaRouteIdentifier;
-@property(readonly, nonatomic) _Bool hasAccessoryName;
-@property(readonly, nonatomic) _Bool hasAccessoryUniqueIdentifier;
 @property(readonly, nonatomic) _Bool hasBase;
-@property(readonly, nonatomic) _Bool hasHomeName;
-@property(readonly, nonatomic) _Bool hasRoomName;
-@property(readonly, nonatomic) _Bool hasRoomUniqueIdentifier;
-@property(retain, nonatomic) NSString *homeName; // @synthesize homeName=_homeName;
-@property(retain, nonatomic) NSString *roomName; // @synthesize roomName=_roomName;
-@property(retain, nonatomic) NSString *roomUniqueIdentifier; // @synthesize roomUniqueIdentifier=_roomUniqueIdentifier;
-@property(retain, nonatomic) NSMutableArray *zoneNames; // @synthesize zoneNames=_zoneNames;
-@property(retain, nonatomic) NSMutableArray *zoneUniqueIdentifiers; // @synthesize zoneUniqueIdentifiers=_zoneUniqueIdentifiers;
 
 @end
 

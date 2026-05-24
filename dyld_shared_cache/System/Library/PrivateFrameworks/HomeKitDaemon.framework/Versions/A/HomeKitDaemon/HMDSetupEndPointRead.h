@@ -6,18 +6,14 @@
 
 #import <HomeKitDaemon/HMDSetupEndPointWrite.h>
 
-@class NSNumber;
-
 __attribute__((visibility("hidden")))
 @interface HMDSetupEndPointRead : HMDSetupEndPointWrite
 {
     unsigned long long _responseStatus;
-    NSNumber *_videoSSRC;
-    NSNumber *_audioSSRC;
 }
 
 + (_Bool)÷;
-- (id);
+- (id)hasResumed;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -25,15 +21,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)rFlags %x;
 - (unsigned long long);
 - (void);
-- (void)tterAccessoryPairingSubmitKey;
+- (void)HMDMatterAccessoryPairingSubmitKey;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSNumber *audioSSRC; // @synthesize audioSSRC=_audioSSRC;
 @property(readonly, nonatomic) unsigned long long responseStatus; // @synthesize responseStatus=_responseStatus;
-@property(readonly, copy, nonatomic) NSNumber *videoSSRC; // @synthesize videoSSRC=_videoSSRC;
 
 @end
 

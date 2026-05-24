@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ODDSiriSchemaODDAutoSendMessageProperties : SISchemaInstrumentationMessage
 {
     _Bool _isAutomaticallySendMessagesEnabled;
-    _Bool _isEnabledForHeadphones;
-    _Bool _isEnabledForCarPlay;
-    struct {
-        unsigned int isAutomaticallySendMessagesEnabled:1;
-        unsigned int isEnabledForHeadphones:1;
-        unsigned int isEnabledForCarPlay:1;
-    } _has;
 }
 
 - (void);
@@ -47,13 +38,7 @@
 - (id)electionTrainingContactDependentPhoneCallSignals",&,N,V_contactDependentPhoneCallSignals;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsAutomaticallySendMessagesEnabled;
-@property(nonatomic) _Bool hasIsEnabledForCarPlay;
-@property(nonatomic) _Bool hasIsEnabledForHeadphones;
 @property(nonatomic) _Bool isAutomaticallySendMessagesEnabled; // @synthesize isAutomaticallySendMessagesEnabled=_isAutomaticallySendMessagesEnabled;
-@property(nonatomic) _Bool isEnabledForCarPlay; // @synthesize isEnabledForCarPlay=_isEnabledForCarPlay;
-@property(nonatomic) _Bool isEnabledForHeadphones; // @synthesize isEnabledForHeadphones=_isEnabledForHeadphones;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

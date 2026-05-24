@@ -5,5 +5,6 @@
 //
 
 @protocol MKScrollableStacking
+- (double);
 @end
 

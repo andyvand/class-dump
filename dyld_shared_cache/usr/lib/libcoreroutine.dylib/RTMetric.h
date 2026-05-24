@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
-
 @interface RTMetric
 {
     _Bool _loggingEnabled;
-    _Bool _submitted;
-    NSMutableDictionary *_metrics;
 }
 
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)ManateeSharing;
++ (id)MessagesDevelopment;
++ (id)ri.knowledge;
 + (CDStruct_b8464340);
 + (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
-- (id);
+- (id)unAddressAttribute:for sin6_addr.s6_addr:remainingLength:%zd < 4 /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
@@ -32,16 +28,7 @@
 - (void)n with nonexistent endpoints. origin, identifier, %@, visit, %{sensitive}@, destination, identifier, %@, visit, %{sensitive}@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool loggingEnabled; // @synthesize loggingEnabled=_loggingEnabled;
-@property(readonly, nonatomic) NSMutableDictionary *metrics; // @synthesize metrics=_metrics;
-@property(nonatomic) _Bool submitted; // @synthesize submitted=_submitted;
-@property(readonly) Class superclass;
 
 @end
 

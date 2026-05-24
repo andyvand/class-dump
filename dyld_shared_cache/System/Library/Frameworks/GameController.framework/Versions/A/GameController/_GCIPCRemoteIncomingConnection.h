@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _GCIPCRemoteProcess;
+@class _GCIPCRemoteProcess;
 @protocol _GCIPCProcess;
 
 @interface _GCIPCRemoteIncomingConnection
@@ -12,19 +12,12 @@
     _GCIPCRemoteProcess *_process;
 }
 
-- (id);
+- (id)#;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isInvalid) _Bool invalid;
-@property(readonly) int peerAuditSessionIdentifier;
-@property(readonly) CDStruct_4c969caf peerAuditToken;
-@property(readonly) NSString *peerBundleIdentifier;
-@property(readonly) unsigned int peerEffectiveGroupIdentifier;
-@property(readonly) unsigned int peerEffectiveUserIdentifier;
-@property(readonly) int peerProcessIdentifier;
 @property(readonly, nonatomic) __weak id <_GCIPCProcess> process; // @synthesize process=_process;
 
 @end

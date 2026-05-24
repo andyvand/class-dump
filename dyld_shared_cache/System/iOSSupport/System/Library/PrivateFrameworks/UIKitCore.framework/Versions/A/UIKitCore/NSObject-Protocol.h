@@ -7,25 +7,21 @@
 @class NSString;
 
 @protocol NSObject
+- (Class);
+- (oneway void);
+- (NSString *);
 - (_Bool)0@ù
 × ;
 - (_Bool)onAnimating>"24;
-- (_Bool)sonNameComponents:(Class)arg1;
-- (_Bool)ctionHighlightColor;
+- (_Bool)initWithPersonNameComponents:(Class)arg1;
+- (_Bool)disabledSelectionHighlightColor;
 - (id)ÿÿiïÿiïÿ.6ïÿ;
-- (_Bool);
-- (struct _NSZone *)tivationState;
+- (struct _NSZone *)ActivationState;
 
 @optional
 - (NSString *)1;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

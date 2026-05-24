@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBAppId, _INPBBuildId;
+@class _INPBAppId;
 
 @interface _INPBAppBuild
 {
     struct _has;
-    _INPBAppId *_appId;
-    _INPBBuildId *_buildId;
 }
 
 + (_Bool);
@@ -19,29 +17,19 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)handleForwardedEvent:token: /* Error: Ran out of types for this method. */;
+- (id)0:(id)arg1 8;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
-- (id);
+- (_Bool)updateSoftAPBand:(id)arg1 requestParams:reply: /* Error: Ran out of types for this method. */;
+- (void)ange, skipping event, previous=%lu current=%lu interfaceName=%@;
+- (id);
 - (id);
 - (void)initWithCode:userActivity:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBAppId *appId; // @synthesize appId=_appId;
-@property(retain, nonatomic) _INPBBuildId *buildId; // @synthesize buildId=_buildId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasAppId;
-@property(readonly, nonatomic) _Bool hasBuildId;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

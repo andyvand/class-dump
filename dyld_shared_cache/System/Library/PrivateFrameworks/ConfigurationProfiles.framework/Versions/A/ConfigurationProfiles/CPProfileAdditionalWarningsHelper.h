@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface CPProfileAdditionalWarningsHelper
 {
     NSMutableArray *fWarnings;
-    NSString *fPayloadUUID;
 }
 
 + (id);

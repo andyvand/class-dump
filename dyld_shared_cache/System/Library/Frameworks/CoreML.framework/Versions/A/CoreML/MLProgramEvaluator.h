@@ -4,26 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol MLModeling, MLProgramInternal;
+@protocol MLProgramInternal;
 
 @interface MLProgramEvaluator
 {
     id <MLProgramInternal> _program;
 }
 
-- (void);
-- (void);
+- (void)copyMTLBVHTransformsKernel;
+- (void)t index %u is not within the range [0,1).;
+- (id)supportIndirectCommandBuffers;
+- (id)e 0.;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)d;
 - (id);
 - (id);
 - (id);
 - (void)d strides.;
 
 // Remaining properties
-@property(readonly, copy) id <MLModeling> model;
 @property(retain, nonatomic) id <MLProgramInternal> program; // @synthesize program=_program;
 
 @end

@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol IMDaemonListenerAnyProtocol
+- (void);
+- (void)=@;
+- (void)PTP Instance Identifier:(NSString *)arg1;
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCFeedRange, NSArray, NSError, NSString;
+@class NSString;
 
 @interface FCFeedResponse
 {
     _Bool _exhaustedRequestRange;
-    NSString *_feedID;
-    NSArray *_feedItems;
-    NSError *_error;
 }
 
 - (id);
@@ -25,15 +22,11 @@
 - (void);
 - (void);
 - (id);
-- (id)tonItemBackgroundColor;
+- (id)_barButtonItemBackgroundColor;
 - (void)le.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCPushNotificationCenter.m;
 
 // Remaining properties
-@property(copy, nonatomic) NSError *error; // @synthesize error=_error;
-@property(nonatomic) _Bool exhaustedRequestRange; // @synthesize exhaustedRequestRange=_exhaustedRequestRange;
 @property(copy, nonatomic) NSString *feedID; // @synthesize feedID=_feedID;
-@property(copy, nonatomic) NSArray *feedItems; // @synthesize feedItems=_feedItems;
-@property(readonly, copy, nonatomic) FCFeedRange *feedRange;
 
 @end
 

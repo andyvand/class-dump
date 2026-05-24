@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _NSCollectionViewMutableIndexPathSet
 {
     id _privateData;
-    unsigned long long _mutationCounter;
 }
 
 + (id);
@@ -16,7 +15,7 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -24,23 +23,23 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)@;
+- (id)e_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllIPAddresses"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_requestHostToConnectionKey"{map<std::string, std::shared_ptr<__CoalescingConnectionKey>, std::less<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__tree_"{__tree<std::__value_type<std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::__map_value_compare<std::string, std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllRequestHosts"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)"usedTabSpan"b1"encodingIsUnicode"b1"pad"b26};
 - (void);
 - (id)× ;
-- (id)yClosedHistories;
-- (id)e:(struct _NSZone *)arg1 withFrame:inView: /* Error: Ran out of types for this method. */;
+- (id)passivelyClosedHistories;
+- (id)drawTitle:(struct _NSZone *)arg1 withFrame:inView: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)atch. decompressSize=%ld height=%u bytesPerRow=%d;
-- (unsigned long long)esUpdate;
+- (unsigned long long)pendingPreferencesUpdate;
 - (id)ms):(const id *)arg1;
 - (id)AXSearchText;
 - (id);

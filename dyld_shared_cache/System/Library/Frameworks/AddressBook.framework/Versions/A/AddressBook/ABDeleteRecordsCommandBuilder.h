@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAddressBook, CNContactStore, NSMutableArray, NSMutableDictionary;
+@class NSMutableArray;
 
 @interface ABDeleteRecordsCommandBuilder
 {
     NSMutableArray *_deletedRecords;
-    ABAddressBook *_legacyAddressBook;
-    CNContactStore *_contactStore;
-    NSMutableDictionary *_removeMemberBuilders;
-    _Bool _ignoresGuardianRestrictions;
 }
 
 + (id);

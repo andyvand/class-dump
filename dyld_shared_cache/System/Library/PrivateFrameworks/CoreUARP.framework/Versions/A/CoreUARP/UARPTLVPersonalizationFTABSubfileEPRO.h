@@ -20,7 +20,7 @@
 - (id);
 - (unsigned short);
 - (id);
-- (id);
+- (id)AMSUniqueExecutionQueue;
 
 // Remaining properties
 @property(readonly) unsigned short epro; // @synthesize epro=_epro;

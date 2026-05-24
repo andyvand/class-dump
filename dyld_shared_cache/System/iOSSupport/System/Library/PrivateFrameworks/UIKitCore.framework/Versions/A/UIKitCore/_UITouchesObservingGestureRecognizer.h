@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
     NSSet *_touches;
 }
 
-+ (_Bool);
++ (_Bool)led 0x%x;
 + (_Bool);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)syncRemovedRecoverableMessagesToCloudKitWithCompletion:(id)arg1;
+- (_Bool)o guid %@;
 - (void);
 - (void);
 - (_Bool);
@@ -28,9 +28,9 @@ __attribute__((visibility("hidden")))
 × ;
 - (id);
 - (_Bool)ror"16;
-- (void);
-- (void)on;
-- (void)tle;
+- (void)setImageBaselineConstraint:(id)arg1;
+- (void)automaticallyUpdatesConfiguration;
+- (void)_largeSubtitle;
 - (_Bool),V_platterPopoverBackgroundView;
 - (_Bool);
 - (void)0@"UITextReplacement"8Q16^B24;

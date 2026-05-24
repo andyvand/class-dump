@@ -4,36 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFHomeAnnouncement, AFHomeAnnouncementSnapshot, NSString;
+@class AFHomeAnnouncementSnapshot;
 
 @interface _AFHomeAnnouncementSnapshotMutation
 {
     AFHomeAnnouncementSnapshot *_base;
-    unsigned long long _state;
-    AFHomeAnnouncement *_lastPlayedAnnouncement;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasState:1;
-        unsigned int hasLastPlayedAnnouncement:1;
-    } _mutationFlags;
 }
 
 - (void);
 - (id);
 - (void);
 - (_Bool);
-- (id)ession;
-- (unsigned long long);
-- (void)lAlertContentMessage;
+- (id)startObservingWirelessSplitterSession;
+- (unsigned long long)isStationaryDeviceLocationManagerEnabled;
+- (void)_modalAlertContentMessage;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

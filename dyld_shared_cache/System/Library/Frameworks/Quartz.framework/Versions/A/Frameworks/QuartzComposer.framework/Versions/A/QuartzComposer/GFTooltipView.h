@@ -13,13 +13,13 @@
 
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)- Completed with with %llu files marked and %llu failures;
 - (_Bool);
 - (void);
 

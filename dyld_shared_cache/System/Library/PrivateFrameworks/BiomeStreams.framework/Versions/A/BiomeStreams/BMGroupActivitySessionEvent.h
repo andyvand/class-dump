@@ -6,35 +6,26 @@
 
 #import <BiomeStreams/BMEventBase.h>
 
-@class NSArray, NSString;
-
 @interface BMGroupActivitySessionEvent : BMEventBase
 {
     _Bool _isActive;
-    NSString *_sourceBundleID;
-    NSString *_activitySessionID;
-    NSString *_activityID;
-    NSString *_messagesChatGuid;
-    NSArray *_participantHandles;
-    NSArray *_memberHandles;
-    NSString *_experienceType;
 }
 
 + (id);
 + (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
+- (id)&,N,V_sourceForSelectedIdentity;
+- (id)] %s:%d masterTransactionID is not nil, this shouldn't be happening /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
+- (unsigned int)`;
 - (id);
 - (id);
-- (id);
-- (unsigned int);
-- (id);
-- (id);
-- (id);
+- (id){;
 - (id);
 - (unsigned long long);
 - (id);
@@ -44,22 +35,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *activityID; // @synthesize activityID=_activityID;
-@property(readonly, copy, nonatomic) NSString *activitySessionID; // @synthesize activitySessionID=_activitySessionID;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *experienceType; // @synthesize experienceType=_experienceType;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) _Bool isActive; // @synthesize isActive=_isActive;
-@property(readonly, copy, nonatomic) NSArray *memberHandles; // @synthesize memberHandles=_memberHandles;
-@property(readonly, copy, nonatomic) NSString *messagesChatGuid; // @synthesize messagesChatGuid=_messagesChatGuid;
-@property(readonly, copy, nonatomic) NSArray *participantHandles; // @synthesize participantHandles=_participantHandles;
-@property(readonly, copy, nonatomic) NSString *sourceBundleID; // @synthesize sourceBundleID=_sourceBundleID;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface ISIconConfigurationMarkupParser
@@ -14,13 +14,12 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (id);
+- (id)j;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly) NSDictionary *configDict; // @synthesize configDict=_configDict;
-@property(readonly) NSString *symbolName;
 
 @end
 

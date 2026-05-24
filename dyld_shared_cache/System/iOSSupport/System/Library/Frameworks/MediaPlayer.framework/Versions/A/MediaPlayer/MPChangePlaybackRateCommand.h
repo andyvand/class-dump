@@ -11,16 +11,14 @@
 @interface MPChangePlaybackRateCommand : MPRemoteCommand
 {
     float _preferredRate;
-    NSArray *_extendedSupportedPlaybackRates;
-    NSArray *_supportedPlaybackRates;
 }
 
 - (void);
 - (void);
 - (id);
+- (id)_cterecursive;
 - (id);
-- (id);
-- (id);
+- (id);
 - (float);
 - (void)yItemInQueueCommand;
 - (void)ing [no token] result=%@ context=%p;

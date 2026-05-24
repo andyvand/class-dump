@@ -10,15 +10,13 @@
 @interface ACSystemConfigManager
 {
     NSObject<OS_dispatch_queue> *_preferencesQueue;
-    struct __SCPreferences *_preferencesSession;
-    int _applySkipCount;
 }
 
 + (void);
 + (id);
 + (unsigned long long);
 + (id);
-+ (void)ForAccountType:withHandler: /* Error: Ran out of types for this method. */;
++ (void)grantedPermissionsForAccountType:withHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);

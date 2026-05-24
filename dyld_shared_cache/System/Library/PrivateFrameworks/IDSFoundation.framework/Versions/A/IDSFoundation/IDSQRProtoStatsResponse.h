@@ -7,16 +7,6 @@
 @interface IDSQRProtoStatsResponse
 {
     unsigned long long _serverTimestampMs;
-    unsigned int _clientTimestampNtp;
-    unsigned int _receivedPackets;
-    unsigned int _sentPackets;
-    unsigned int _uplinkBandwidth;
-    struct {
-        unsigned int serverTimestampMs:1;
-        unsigned int receivedPackets:1;
-        unsigned int sentPackets:1;
-        unsigned int uplinkBandwidth:1;
-    } _has;
 }
 
 - (void);
@@ -42,21 +32,13 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)s=S{BluetoothDeviceAddress=[6C]}CCCSSC}128;
+- (void)message too small (%zu bytes);
 - (id);
 - (id);
 
 // Remaining properties
 @property(nonatomic) unsigned int clientTimestampNtp; // @synthesize clientTimestampNtp=_clientTimestampNtp;
-@property(nonatomic) _Bool hasReceivedPackets;
-@property(nonatomic) _Bool hasSentPackets;
-@property(nonatomic) _Bool hasServerTimestampMs;
-@property(nonatomic) _Bool hasUplinkBandwidth;
-@property(nonatomic) unsigned int receivedPackets; // @synthesize receivedPackets=_receivedPackets;
-@property(nonatomic) unsigned int sentPackets; // @synthesize sentPackets=_sentPackets;
-@property(nonatomic) unsigned long long serverTimestampMs; // @synthesize serverTimestampMs=_serverTimestampMs;
-@property(nonatomic) unsigned int uplinkBandwidth; // @synthesize uplinkBandwidth=_uplinkBandwidth;
 
 @end
 

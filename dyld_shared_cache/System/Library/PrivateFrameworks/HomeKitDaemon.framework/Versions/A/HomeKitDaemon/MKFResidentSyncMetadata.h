@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/_MKFObject.h>
 
-@class NSDate, NSPersistentHistoryToken, NSString, _MKFHome;
+@class NSPersistentHistoryToken;
 
 __attribute__((visibility("hidden")))
 @interface MKFResidentSyncMetadata : _MKFObject
@@ -17,11 +17,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) _MKFHome *home; // @dynamic home;
 @property(retain, nonatomic) NSPersistentHistoryToken *lastSeenToken; // @dynamic lastSeenToken;
-@property(copy, nonatomic) NSString *lastSyncChecksum; // @dynamic lastSyncChecksum;
-@property(copy, nonatomic) NSDate *lastSyncTimestamp; // @dynamic lastSyncTimestamp;
-@property(retain, nonatomic) NSPersistentHistoryToken *lastSyncToken; // @dynamic lastSyncToken;
 
 @end
 

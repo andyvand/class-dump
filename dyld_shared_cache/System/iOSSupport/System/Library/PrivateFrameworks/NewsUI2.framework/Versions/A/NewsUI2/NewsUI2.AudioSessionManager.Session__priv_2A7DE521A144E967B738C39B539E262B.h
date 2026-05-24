@@ -7,12 +7,6 @@
 @interface NewsUI2.AudioSessionManager.Session__priv_2A7DE521A144E967B738C39B539E262B
 {
     id identifier;
-    id tracker;
-    id lastPlaybackPosition;
-    id totalTimePlayed;
-    id deltaTimePlayed;
-    id hasPassedUpsellStartTime;
-    id hasPassedUpsellEndTime;
 }
 
 @end

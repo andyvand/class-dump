@@ -6,19 +6,16 @@
 
 #import <RunningBoardServices/RBSGrant.h>
 
-@class NSObject, NSString;
-@protocol OS_xpc_object;
+@class NSString;
 
 @interface RBSEndowmentGrant : RBSGrant
 {
     NSString *_endowmentNamespace;
-    NSObject<OS_xpc_object> *_encodedEndowment;
 }
 
 + (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_xpc_object> *encodedEndowment; // @synthesize encodedEndowment=_encodedEndowment;
 @property(readonly, copy, nonatomic) NSString *endowmentNamespace; // @synthesize endowmentNamespace=_endowmentNamespace;
 
 @end

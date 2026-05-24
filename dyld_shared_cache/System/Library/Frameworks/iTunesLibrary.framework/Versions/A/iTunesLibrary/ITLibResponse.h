@@ -9,7 +9,6 @@
 @interface ITLibResponse
 {
     NSArray *_items;
-    NSArray *_sections;
 }
 
 - (id);
@@ -17,11 +16,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)dation;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(copy, nonatomic) NSArray *sections; // @synthesize sections=_sections;
 
 @end
 

@@ -7,16 +7,13 @@
 @class NSString, NSURL;
 
 @protocol QLPreviewItem
+- (NSURL *)managedObjectOriginal_setWebsiteIdentifiers: /* Error: Ran out of types for this method. */;
+
+@optional
+- (NSString *)managedObjectModel;
+- (id)makeObjectsPerformSelector: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) id previewItemDisplayState;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@,?,R
-
-@property(readonly) NSString *previewItemTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R
-
 @property(readonly) NSURL *previewItemURL;
 @end
 

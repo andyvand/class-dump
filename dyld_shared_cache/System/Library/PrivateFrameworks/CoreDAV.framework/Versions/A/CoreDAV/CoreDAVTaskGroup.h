@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSMutableSet, NSString;
-@protocol CoreDAVAccountInfoProvider, CoreDAVTaskGroupDelegate, CoreDAVTaskManager;
+@class NSError;
+@protocol CoreDAVTaskManager;
 
 @interface CoreDAVTaskGroup
 {
     id <CoreDAVTaskManager> _taskManager;
-    id <CoreDAVAccountInfoProvider> _accountInfoProvider;
-    double _timeoutInterval;
-    NSMutableSet *_outstandingTasks;
-    _Bool _isCancelling;
-    _Bool _isTearingDown;
-    _Bool _isFinished;
-    id <CoreDAVTaskGroupDelegate> _delegate;
-    CDUnknownBlockType _progressBlock;
-    CDUnknownBlockType _completionBlock;
-    NSError *_error;
-    id _context;
 }
 
 - (void);
@@ -35,42 +24,27 @@
 - (void);
 - (id);
 - (void);
+- (id)h;
+- (void)ibility.cache.zoom;
 - (id);
+- (void)@;
+- (void);
+- (id);
+- (CDUnknownBlockType)autodiscoverDomain;
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
 - (CDUnknownBlockType);
 - (void);
-- (id);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (id);
+- (void)EWSDeleteItemResponseType;
+- (id);
 - (void);
 - (void);
 - (double);
 
 // Remaining properties
-@property(nonatomic) __weak id <CoreDAVAccountInfoProvider> accountInfoProvider; // @synthesize accountInfoProvider=_accountInfoProvider;
-@property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(retain, nonatomic) id context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CoreDAVTaskGroupDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSMutableSet *outstandingTasks; // @synthesize outstandingTasks=_outstandingTasks;
-@property(copy, nonatomic) CDUnknownBlockType progressBlock; // @synthesize progressBlock=_progressBlock;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak id <CoreDAVTaskManager> taskManager; // @synthesize taskManager=_taskManager;
-@property(nonatomic) double timeoutInterval; // @synthesize timeoutInterval=_timeoutInterval;
 
 @end
 

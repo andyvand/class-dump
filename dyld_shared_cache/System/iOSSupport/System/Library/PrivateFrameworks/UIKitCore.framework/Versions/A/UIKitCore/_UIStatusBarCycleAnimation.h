@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString, _UIStatusBarCycleLayerAnimation;
-
 __attribute__((visibility("hidden")))
 @interface _UIStatusBarCycleAnimation
 {
     _Bool _stopsAfterReversing;
-    _Bool _visible;
-    NSArray *_layerAnimations;
-    long long _state;
-    NSArray *_stoppingLayerAnimations;
-    NSMutableArray *_completionHandlers;
 }
 
 - (void);
@@ -22,12 +15,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)_];
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)9(;
+- (void)setHasTranscriptAlignments: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -35,9 +28,9 @@ __attribute__((visibility("hidden")))
 × ;
 - (long long)0@ù
 × ;
-- (void)setsForLayoutMargins:(_Bool)arg1;
-- (void)uchBehavior;
-- (void)Order: /* Error: Ran out of types for this method. */;
+- (void)setHeaderViewInsetsForLayoutMargins:(_Bool)arg1;
+- (void)sceneTouchBehavior;
+- (void)resetFavoriteOrderWithDefaultOrder: /* Error: Ran out of types for this method. */;
 - (id)¨;
 - (void);
 - (void)xí\;
@@ -45,19 +38,6 @@ __attribute__((visibility("hidden")))
 - (_Bool)];
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *completionHandlers; // @synthesize completionHandlers=_completionHandlers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *layerAnimations; // @synthesize layerAnimations=_layerAnimations;
-@property(readonly, nonatomic) _UIStatusBarCycleLayerAnimation *mainLayerAnimation;
-@property(readonly, nonatomic) long long state; // @synthesize state=_state;
-@property(retain, nonatomic) NSArray *stoppingLayerAnimations; // @synthesize stoppingLayerAnimations=_stoppingLayerAnimations;
-@property(nonatomic) _Bool stopsAfterReversing; // @synthesize stopsAfterReversing=_stopsAfterReversing;
-@property(readonly) Class superclass;
 @property(nonatomic) _Bool visible; // @synthesize visible=_visible;
 
 @end

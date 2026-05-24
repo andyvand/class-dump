@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRImage, MRLayer, NSDictionary, NSString;
+@class NSDictionary, NSString;
 
 @interface MRTransition
 {
     NSDictionary *mDescription;
-    id mTransitioner;
-    MRLayer *mSourceLayer;
-    MRLayer *mTargetLayer;
-    MRImage *mSourceLayerImage;
-    MRImage *mTargetLayerImage;
-    MRImage *mOutputImage;
-    NSString *mTransitionID;
-    NSString *mPresetID;
-    NSDictionary *mAttributes;
-    NSDictionary *mFlattenedAttributes;
-    _Bool mNeedsToUpdateAttributes;
-    struct CGSize mPixelSize;
-    BOOL _direction;
-    double _progress;
 }
 
 + (id);
@@ -32,7 +18,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -47,21 +33,21 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)setConfigProvider:(double)arg1;
+- (_Bool)freeValuedPropertyWithName: /* Error: Ran out of types for this method. */;
+- (_Bool)fetchAppConfigurationIfNeededWithCompletionQueue:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)fetchAppConfigurationIfNeededWithCompletion:(double)arg1;
+- (id)class;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)public}@;
 - (double);
+- (void)S;
+- (_Bool)#;
 - (void);
 - (_Bool);
+- (void)-;
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (void);
@@ -73,29 +59,10 @@
 - (void);
 - (id);
 - (_Bool)dscapes:imagePortraits:vPanoramas:hPanoramas:movies:fitsInExtraWide:aspectRatios:previousTags: /* Error: Ran out of types for this method. */;
-- (void)rLandscape;
+- (void)NoBorderLandscape;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *attributes; // @synthesize attributes=mAttributes;
-@property(readonly, nonatomic) _Bool controlsLayersTime;
-@property(nonatomic) BOOL direction; // @synthesize direction=_direction;
-@property(readonly, nonatomic) _Bool isAlphaFriendly;
-@property(readonly, nonatomic) _Bool isInfinite;
-@property(readonly, nonatomic) _Bool isNative3D;
-@property(readonly, nonatomic) _Bool isOpaque;
-@property(readonly) _Bool isSplit;
-@property(readonly, nonatomic) _Bool needsSourceLayerImageForPrecomputing;
-@property(readonly, nonatomic) _Bool needsTargetLayerImageForPrecomputing;
-@property(readonly, nonatomic) _Bool noContentsMotion;
-@property(nonatomic) struct CGSize pixelSize; // @synthesize pixelSize=mPixelSize;
 @property(copy) NSString *presetID; // @synthesize presetID=mPresetID;
-@property(readonly) double progress; // @synthesize progress=_progress;
-@property(retain) MRLayer *sourceLayer; // @synthesize sourceLayer=mSourceLayer;
-@property(retain, nonatomic) MRImage *sourceLayerImage; // @synthesize sourceLayerImage=mSourceLayerImage;
-@property(readonly) _Bool supportsDirectionOverride;
-@property(retain) MRLayer *targetLayer; // @synthesize targetLayer=mTargetLayer;
-@property(retain, nonatomic) MRImage *targetLayerImage; // @synthesize targetLayerImage=mTargetLayerImage;
-@property(readonly) NSString *transitionID; // @synthesize transitionID=mTransitionID;
 
 @end
 

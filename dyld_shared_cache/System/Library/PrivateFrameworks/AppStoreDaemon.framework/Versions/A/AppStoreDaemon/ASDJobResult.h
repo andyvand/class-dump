@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSNumber, NSString;
+@class NSString;
 
 @interface ASDJobResult
 {
     NSString *_bundleID;
-    NSError *_error;
-    NSNumber *_persistentID;
-    long long _status;
 }
 
 + (id);
@@ -26,15 +23,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)navigationSessionManager:(struct _NSZone *)arg1 didUpdatePreviewRoutes:withSelectedRouteIndex:] /* Error: Ran out of types for this method. */;
 - (long long);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) NSNumber *persistentID; // @synthesize persistentID=_persistentID;
-@property(readonly, nonatomic) long long status; // @synthesize status=_status;
 
 @end
 

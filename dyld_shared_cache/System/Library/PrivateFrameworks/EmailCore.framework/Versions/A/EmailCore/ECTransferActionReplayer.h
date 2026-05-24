@@ -10,12 +10,12 @@
 {
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)rolsView.;
+- (id).;
+- (id)%d, experienceWants? %d;
+- (id)red;
+- (id)eceived;
+- (id)nted bytes from being read! (%{public}@);
 - (id);
 
 @end

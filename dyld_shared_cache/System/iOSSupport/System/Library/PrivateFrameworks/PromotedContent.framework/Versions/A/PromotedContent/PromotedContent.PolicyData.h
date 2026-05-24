@@ -7,10 +7,9 @@
 @interface PromotedContent.PolicyData
 {
     id creativeIdentifier;
-    id policyValues;
 }
 
-- (id);
+- (id)H;
 - (void);
 
 @end

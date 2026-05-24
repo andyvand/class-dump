@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, SXDataRecordValueTransformerFactory, SXDataTableDictionary;
-@protocol SXDOMObjectProviding, SXDataTableComponentControllerDataSource, SXDataTableStyleFactory, SXDataTableTextSourceFactory;
+@class SXDataTableDictionary;
+@protocol SXDataTableStyleFactory;
 
 @interface SXDataTableComponentController
 {
     SXDataTableDictionary *_cellObjects;
-    SXDataTableDictionary *_textLayouters;
-    id <SXDataTableComponentControllerDataSource> _dataSource;
-    id <SXDataTableStyleFactory> _styleFactory;
-    id <SXDataTableTextSourceFactory> _textSourceFactory;
-    NSArray *_records;
-    SXDataRecordValueTransformerFactory *_recordValueTransformerFactory;
-    id <SXDOMObjectProviding> _DOMObjectProvider;
 }
 
 - (double);
@@ -39,7 +32,7 @@
 - (double);
 - (id);
 - (id);
-- (CDStruct_2fea82da);
+- (CDStruct_4bcfbbae);
 - (_Bool);
 - (unsigned long long);
 - (double);
@@ -65,33 +58,19 @@
 - (double);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)p;
 - (id);
 - (id);
 - (unsigned long long);
 - (void)Point=dd}{CGSize=dd}}48;
-- (void)continuousCorners:(id)arg1;
+- (void)sx_bezierPathWithRect:(id)arg1 byRoundingCorners:cornerRadius:continuousCorners: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) id <SXDOMObjectProviding> DOMObjectProvider; // @synthesize DOMObjectProvider=_DOMObjectProvider;
-@property(readonly, nonatomic) SXDataTableDictionary *cellObjects; // @synthesize cellObjects=_cellObjects;
-@property(readonly, nonatomic) __weak id <SXDataTableComponentControllerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SXDataRecordValueTransformerFactory *recordValueTransformerFactory; // @synthesize recordValueTransformerFactory=_recordValueTransformerFactory;
-@property(retain, nonatomic) NSArray *records; // @synthesize records=_records;
 @property(readonly, nonatomic) id <SXDataTableStyleFactory> styleFactory; // @synthesize styleFactory=_styleFactory;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) SXDataTableDictionary *textLayouters; // @synthesize textLayouters=_textLayouters;
-@property(readonly, nonatomic) id <SXDataTableTextSourceFactory> textSourceFactory; // @synthesize textSourceFactory=_textSourceFactory;
 
 @end
 

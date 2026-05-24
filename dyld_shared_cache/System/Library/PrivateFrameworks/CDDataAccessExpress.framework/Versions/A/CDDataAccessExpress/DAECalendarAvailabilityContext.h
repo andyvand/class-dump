@@ -7,7 +7,6 @@
 @interface DAECalendarAvailabilityContext
 {
     CDUnknownBlockType _resultsBlock;
-    CDUnknownBlockType _completionBlock;
 }
 
 - (void);

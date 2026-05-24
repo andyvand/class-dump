@@ -5,8 +5,8 @@
 //
 
 @interface UnknownClass (UISceneSafeArea)
-- (_Bool);
-- (_Bool);
+- (_Bool)[%@] could not be converted to CKRecord, marking it as clean and moving on.;
+- (_Bool)max number of attempts to creat CKRecords;
 - (_Bool);
 
 // Remaining properties

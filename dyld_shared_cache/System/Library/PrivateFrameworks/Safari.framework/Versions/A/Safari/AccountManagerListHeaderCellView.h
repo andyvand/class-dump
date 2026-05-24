@@ -10,22 +10,19 @@ __attribute__((visibility("hidden")))
 @interface AccountManagerListHeaderCellView
 {
     NSTrackingArea *_trackingArea;
-    NSButton *_expandToggleButton;
-    long long _buttonType;
 }
 
-- (void);
+- (void);
 - (id);
+- (void)k;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)T;
 - (void);
 - (void)¼;
 - (long long)P\0;
 
 // Remaining properties
-@property(nonatomic) long long buttonType; // @synthesize buttonType=_buttonType;
 @property(nonatomic) __weak NSButton *expandToggleButton; // @synthesize expandToggleButton=_expandToggleButton;
 
 @end

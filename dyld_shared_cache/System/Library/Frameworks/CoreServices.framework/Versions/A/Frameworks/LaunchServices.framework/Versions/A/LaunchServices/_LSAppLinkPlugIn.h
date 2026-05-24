@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURLComponents, _LSAppLinkOpenState;
+@class NSURLComponents;
 
 __attribute__((visibility("hidden")))
 @interface _LSAppLinkPlugIn
 {
     NSURLComponents *_URLComponents;
-    unsigned long long _limit;
-    _LSAppLinkOpenState *_state;
 }
 
 + (id);
@@ -22,13 +20,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)dEncoder validateSparseTextureMappingMode:] /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(retain) NSURLComponents *URLComponents; // @synthesize URLComponents=_URLComponents;
-@property unsigned long long limit; // @synthesize limit=_limit;
-@property(retain) _LSAppLinkOpenState *state; // @synthesize state=_state;
 
 @end
 

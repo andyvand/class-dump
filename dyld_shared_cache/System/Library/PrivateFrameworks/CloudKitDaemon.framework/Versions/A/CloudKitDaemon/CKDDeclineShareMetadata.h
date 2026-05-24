@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecordID, CKRoughlyEquivalentProperties, NSString, NSURL;
+@class NSURL;
 
 @interface CKDDeclineShareMetadata
 {
     NSURL *_shareURL;
-    CKRecordID *_shareRecordID;
-    NSString *_participantID;
 }
 
 - (id);
@@ -23,9 +21,6 @@
 - (void)tion handler;
 
 // Remaining properties
-@property(readonly, nonatomic) CKRoughlyEquivalentProperties *equivalencyProperties;
-@property(retain, nonatomic) NSString *participantID; // @synthesize participantID=_participantID;
-@property(retain, nonatomic) CKRecordID *shareRecordID; // @synthesize shareRecordID=_shareRecordID;
 @property(retain, nonatomic) NSURL *shareURL; // @synthesize shareURL=_shareURL;
 
 @end

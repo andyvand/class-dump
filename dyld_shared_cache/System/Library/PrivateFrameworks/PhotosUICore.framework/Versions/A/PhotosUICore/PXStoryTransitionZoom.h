@@ -6,15 +6,9 @@
 
 #import <PhotosUICore/PXStoryConcreteTransition.h>
 
-@class CAMediaTimingFunction;
-
 @interface PXStoryTransitionZoom : PXStoryConcreteTransition
 {
     float _scaleRelativeFactor;
-    _Bool _zoomingOut;
-    CAMediaTimingFunction *_animationCurve;
-    CAMediaTimingFunction *_effectCurveBeforeMidpoint;
-    CAMediaTimingFunction *_effectCurveAfterMidpoint;
 }
 
 - (void);

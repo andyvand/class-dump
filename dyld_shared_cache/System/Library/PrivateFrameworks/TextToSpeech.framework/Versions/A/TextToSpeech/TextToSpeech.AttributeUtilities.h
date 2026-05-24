@@ -7,7 +7,6 @@
 @interface TextToSpeech.AttributeUtilities
 {
     id regexCache;
-    id cacheLock;
 }
 
 @end

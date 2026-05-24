@@ -6,17 +6,15 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSArray, NSString;
-
 @interface INDeleteTimerIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
++ (int)_notifyClientWithNewThumbnailRepresentationForRequestIfNeeded:(long long)arg1 thumbnail:type:error: /* Error: Ran out of types for this method. */;
++ (int)QLFileThumbnailRequest;
 + (long long);
 + (_Bool);
-+ (_Bool);
++ (_Bool)(;
 - (void);
 - (void);
 - (id);
@@ -25,23 +23,15 @@
 - (id);
 - (long long);
 - (id);
+- (id)"GCHIDServiceInfo",R,N,V_serviceInfo;
+- (id)V;
+- (void).STC_sa.4558d150-d474-11eb-8552-f45c89abb0d9;
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (long long)data;
+- (long long)__INCodableEnumAttributeMetadata;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy) NSArray *deletedTimers;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

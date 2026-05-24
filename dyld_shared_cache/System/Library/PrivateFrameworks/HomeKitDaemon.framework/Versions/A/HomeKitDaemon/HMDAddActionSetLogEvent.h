@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     NSString *_actionSetType;
 }
 
-- (id);
+- (id)OspreyAnalytics;
 - (id);
 - (void)¨ýåþ;
 

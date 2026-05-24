@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPRecordFieldIdentifier, CKDPRecordFieldValue, NSMutableArray;
+@class NSMutableArray;
 
 @interface CKDPRecordField
 {
     NSMutableArray *_actions;
-    CKDPRecordFieldIdentifier *_identifier;
-    CKDPRecordFieldValue *_value;
 }
 
 + (id);
@@ -20,11 +18,11 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)dAudioEngine_processAndRetainSBufFromBufferQueue(FigEndpointStreamAudioEngineRef, Boolean);
+- (_Bool)H;
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)hasCandidateEpoch;
 - (_Bool);
 - (void);
 - (void);
@@ -35,16 +33,12 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)c key:0x%08x /* Error: Ran out of types for this method. */;
 - (void)ramework/CloudKitTesting;
 - (void)cord %@:(id)arg1 %@;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *actions; // @synthesize actions=_actions;
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasValue;
-@property(retain, nonatomic) CKDPRecordFieldIdentifier *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) CKDPRecordFieldValue *value; // @synthesize value=_value;
 
 @end
 

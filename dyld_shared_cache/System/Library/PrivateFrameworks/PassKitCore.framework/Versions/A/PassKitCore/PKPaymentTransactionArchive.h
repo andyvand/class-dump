@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
-
 @interface PKPaymentTransactionArchive
 {
     unsigned long long _type;
-    NSString *_identifier;
-    NSSet *_locations;
 }
 
 - (void);
@@ -25,16 +21,14 @@
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)onLockScreen"b1};
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)OIDValueKey;
+- (void)PKNearbyPeerPaymentEncryptionOIDValueKey;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSSet *locations; // @synthesize locations=_locations;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

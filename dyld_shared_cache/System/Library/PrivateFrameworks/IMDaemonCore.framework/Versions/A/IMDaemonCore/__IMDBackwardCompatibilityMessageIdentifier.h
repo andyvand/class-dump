@@ -7,11 +7,10 @@
 @interface __IMDBackwardCompatibilityMessageIdentifier
 {
     id parser;
-    id languages;
 }
 
-- (_Bool);
-- (id);
+- (_Bool);
+- (id);
 - (void);
 
 @end

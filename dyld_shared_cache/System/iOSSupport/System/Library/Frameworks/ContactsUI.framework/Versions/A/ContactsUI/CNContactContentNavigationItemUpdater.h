@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface CNContactContentNavigationItemUpdater
 {
     NSArray *_preEditLeftBarButtonItems;
-    NSArray *_extraLeftBarButtonItems;
-    NSArray *_extraRightBarButtonItems;
 }
 
 - (id);
@@ -24,20 +22,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
+- (void)(;
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)9I;
 - (id);
 - (void);
 - (id);
 - (void)V_idsAvailabilityProvider;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *extraLeftBarButtonItems; // @synthesize extraLeftBarButtonItems=_extraLeftBarButtonItems;
-@property(retain, nonatomic) NSArray *extraRightBarButtonItems; // @synthesize extraRightBarButtonItems=_extraRightBarButtonItems;
 @property(retain, nonatomic) NSArray *preEditLeftBarButtonItems; // @synthesize preEditLeftBarButtonItems=_preEditLeftBarButtonItems;
 
 @end

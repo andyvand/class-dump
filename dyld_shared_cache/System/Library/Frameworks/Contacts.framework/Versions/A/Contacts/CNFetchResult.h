@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface CNFetchResult
 {
     id _value;
-    NSData *_currentHistoryToken;
 }
 
-- (id);
+- (id)kRegTransportMode;
 - (id);
 - (id);
 - (void)!èCù1*ð1Â0@ù
@@ -20,7 +17,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *currentHistoryToken; // @synthesize currentHistoryToken=_currentHistoryToken;
 @property(readonly, nonatomic) id value; // @synthesize value=_value;
 
 @end

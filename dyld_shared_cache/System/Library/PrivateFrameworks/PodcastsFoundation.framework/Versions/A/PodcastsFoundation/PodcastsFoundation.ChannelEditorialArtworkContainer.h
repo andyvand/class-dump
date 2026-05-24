@@ -7,11 +7,6 @@
 @interface PodcastsFoundation.ChannelEditorialArtworkContainer
 {
     id subscriptionCardTall;
-    id subscriptionCardWide;
-    id channelPageBackground;
-    id channelFeaturingSquare;
-    id storeFlowcase;
-    id contentLogoTrimmed;
 }
 
 @end

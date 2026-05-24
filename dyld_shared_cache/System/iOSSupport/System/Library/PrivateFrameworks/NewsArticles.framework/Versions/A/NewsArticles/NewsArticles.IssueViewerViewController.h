@@ -4,25 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIViewController;
-
 @interface NewsArticles.IssueViewerViewController
 {
     id viewerIdentifier;
-    id contentViewControllerFactory;
-    id styler;
-    id eventHandler;
-    id sceneStateManager;
-    id coverViewManager;
-    id contentViewController;
-    id afterLoad;
 }
 
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)A;
 - (void);
 - (void);
 - (id);
@@ -33,7 +24,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) UIViewController *childViewControllerForStatusBarHidden;
 @property(nonatomic, readonly) unsigned long long viewingLocation;
 
 @end

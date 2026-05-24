@@ -11,7 +11,7 @@
     NSDictionary *_baseQueryAttributes;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);

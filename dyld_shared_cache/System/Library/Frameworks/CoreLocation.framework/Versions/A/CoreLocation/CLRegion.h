@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
-
 @interface CLRegion
 {
     _Bool _notifyOnEntry;
-    _Bool _notifyOnExit;
-    _Bool _conservativeEntry;
-    _Bool _emergency;
-    int _referenceFrame;
-    int _type;
-    double _radius;
-    NSString *_identifier;
-    NSUUID *_deviceId;
-    NSString *_handoffTag;
-    NSString *_onBehalfOfBundleId;
-    struct CLLocationCoordinate2D _center;
 }
 
 @end

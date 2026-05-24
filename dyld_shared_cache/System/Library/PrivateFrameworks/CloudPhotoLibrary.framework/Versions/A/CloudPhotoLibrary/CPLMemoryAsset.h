@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLMemoryAssetFlag, NSData, NSString;
+@class CPLMemoryAssetFlag;
 
 @interface CPLMemoryAsset
 {
     CPLMemoryAssetFlag *_assetFlag;
-    NSString *_assetIdentifier;
-    NSData *_assetMovieData;
-    NSString *_masterIdentifier;
 }
 
-- (id);
+- (id)C;
+- (_Bool)T;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)engagementScore;
+- (void),V_entityIdentifier;
+- (void)setPhotosMatch:(id)arg1;
+- (id)ons/A/Resources/WebsiteNamesForPasswordManager.sqlite;
+- (id)QUOTED_TRANSCRIPT_FORMAT;
 - (void);
 - (id);
 - (id);
@@ -31,7 +28,7 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -39,14 +36,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) CPLMemoryAssetFlag *assetFlag; // @synthesize assetFlag=_assetFlag;
-@property(retain, nonatomic) NSString *assetIdentifier; // @synthesize assetIdentifier=_assetIdentifier;
-@property(retain, nonatomic) NSData *assetMovieData; // @synthesize assetMovieData=_assetMovieData;
-@property(readonly, nonatomic) _Bool hasAssetFlag;
 @property(readonly, nonatomic) _Bool hasAssetIdentifier;
-@property(readonly, nonatomic) _Bool hasAssetMovieData;
-@property(readonly, nonatomic) _Bool hasMasterIdentifier;
-@property(retain, nonatomic) NSString *masterIdentifier; // @synthesize masterIdentifier=_masterIdentifier;
 
 @end
 

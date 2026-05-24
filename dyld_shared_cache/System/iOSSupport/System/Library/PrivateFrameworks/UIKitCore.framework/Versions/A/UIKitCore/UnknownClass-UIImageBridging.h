@@ -7,7 +7,7 @@
 @class UIImage;
 
 @interface UnknownClass (UIImageBridging)
-- (void);
+- (void);
 - (id);
 
 // Remaining properties

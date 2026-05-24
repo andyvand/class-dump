@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface UISceneAsynchronousRenderingOptions
 {
     NSArray *_renderTimes;
-    double _renderPeriod;
-    float _renderMaxAPL;
-    _Bool _opaque;
 }
 
 - (id);
 - (float);
 - (id);
 - (id);
-- (double);
+- (double)setArtistLabel: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned long long);
@@ -26,25 +23,15 @@
 - (id)
 × ;
 - (id)24;
-- (_Bool)orsForStartIndex:(id)arg1 fittingLength:hasExpandedActiveIndicator: /* Error: Ran out of types for this method. */;
+- (_Bool)numberOfVisibleIndicatorsForStartIndex:(id)arg1 fittingLength:hasExpandedActiveIndicator: /* Error: Ran out of types for this method. */;
 - (id)",R,N,V_editingConfiguration;
-- (id)Item;
+- (id)_backButtonItem;
 - (_Bool)¬à;
 - (id);
 - (void)å¾¬	d;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool opaque; // @synthesize opaque=_opaque;
-@property(readonly, nonatomic) float renderMaxAPL; // @synthesize renderMaxAPL=_renderMaxAPL;
-@property(readonly, nonatomic) double renderPeriod; // @synthesize renderPeriod=_renderPeriod;
 @property(readonly, copy, nonatomic) NSArray *renderTimes; // @synthesize renderTimes=_renderTimes;
-@property(readonly) Class superclass;
 
 @end
 

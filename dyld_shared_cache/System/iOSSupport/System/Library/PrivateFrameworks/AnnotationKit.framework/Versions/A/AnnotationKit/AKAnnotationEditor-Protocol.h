@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAnnotation, AKAnnotationTheme, AKPageController, IMTheme;
 @protocol AKAnnotationEditorDelegate;
 
 @protocol AKAnnotationEditor
 
-// Remaining properties
-@property(retain, nonatomic) AKAnnotation *annotation;
-@property(retain, nonatomic) AKPageController *annotationPageController;
-@property(retain, nonatomic) AKAnnotationTheme *annotationTheme;
-@property(nonatomic) __weak id <AKAnnotationEditorDelegate> delegate;
-@property(nonatomic) _Bool editsOnLaunch;
-@property(retain, nonatomic) IMTheme *theme;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"IMTheme",?,&,N
+@optional
+- (void);
 
+// Remaining properties
+@property(nonatomic) __weak id <AKAnnotationEditorDelegate> delegate;
 @end
 

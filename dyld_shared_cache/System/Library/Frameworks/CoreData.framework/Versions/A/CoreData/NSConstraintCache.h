@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSEntityDescription, NSMutableArray, NSMutableDictionary;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface NSConstraintCache
 {
     NSArray *_constraint;
-    NSArray *_extension;
-    NSEntityDescription *_entity;
-    NSMutableDictionary *_knownValues;
-    NSMutableArray *_children;
 }
 
 - (void);

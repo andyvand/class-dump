@@ -4,41 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDNetworkStabilityLogEvent
 {
     unsigned long long _numWifiAssociations;
-    unsigned long long _numWifiDisassociations;
-    unsigned long long _numAPChanges;
-    unsigned long long _numGatewayChanges;
-    unsigned long long _numReadWrites;
-    unsigned long long _numReadErrors;
-    unsigned long long _numWriteErrors;
-    unsigned long long _numSessionErrors;
-    NSString *_topReadWriteError;
-    NSString *_topSessionError;
-    NSString *_apOUI;
-    long long _localHourOfDay;
-    unsigned long long _collectionDurationMinutes;
-    NSString *_ssid;
-    NSString *_gatewayMACAddress;
 }
 
 - (id);
-- (id);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (long long);
-- (id);
-- (unsigned long long);
+- (id);
+- (unsigned long long)storageController:updatedSharedTripGroupStorage: /* Error: Ran out of types for this method. */;
+- (unsigned long long)stopSharingWithReason:error: /* Error: Ran out of types for this method. */;
+- (unsigned long long)stopSharingWithGroup:reason:error: /* Error: Ran out of types for this method. */;
+- (unsigned long long)stateByDeletingObjectAtIndex: /* Error: Ran out of types for this method. */;
+- (unsigned long long)startSharingTripWithContacts:capabilityType:serviceName:completion: /* Error: Ran out of types for this method. */;
+- (unsigned long long)sourceByMappingContentsUsingBlock: /* Error: Ran out of types for this method. */;
+- (unsigned long long)shouldSyncMergeFavoritesAfterCheckingOrCreatingMarkerFile;
+- (unsigned long long)setWillSubmitRequestBlock: /* Error: Ran out of types for this method. */;
+- (long long)_saveSendingRules;
+- (id){public}@] Need to send route to %lu participants:(id)arg1 %@;
+- (unsigned long long);
 - (id);
 - (id);
 - (id);
@@ -50,43 +34,7 @@ __attribute__((visibility("hidden")))
 - (id)d¥>;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, nonatomic) NSString *apOUI; // @synthesize apOUI=_apOUI;
-@property(readonly, nonatomic) unsigned long long collectionDurationMinutes; // @synthesize collectionDurationMinutes=_collectionDurationMinutes;
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *gatewayMACAddress; // @synthesize gatewayMACAddress=_gatewayMACAddress;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, nonatomic) long long localHourOfDay; // @synthesize localHourOfDay=_localHourOfDay;
-@property(readonly, nonatomic) unsigned long long numAPChanges; // @synthesize numAPChanges=_numAPChanges;
-@property(readonly, nonatomic) unsigned long long numGatewayChanges; // @synthesize numGatewayChanges=_numGatewayChanges;
-@property(readonly, nonatomic) unsigned long long numReadErrors; // @synthesize numReadErrors=_numReadErrors;
-@property(readonly, nonatomic) unsigned long long numReadWrites; // @synthesize numReadWrites=_numReadWrites;
-@property(readonly, nonatomic) unsigned long long numSessionErrors; // @synthesize numSessionErrors=_numSessionErrors;
 @property(readonly, nonatomic) unsigned long long numWifiAssociations; // @synthesize numWifiAssociations=_numWifiAssociations;
-@property(readonly, nonatomic) unsigned long long numWifiDisassociations; // @synthesize numWifiDisassociations=_numWifiDisassociations;
-@property(readonly, nonatomic) unsigned long long numWriteErrors; // @synthesize numWriteErrors=_numWriteErrors;
-@property(readonly, nonatomic) NSString *ssid; // @synthesize ssid=_ssid;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *topReadWriteError; // @synthesize topReadWriteError=_topReadWriteError;
-@property(readonly, nonatomic) NSString *topSessionError; // @synthesize topSessionError=_topSessionError;
 
 @end
 

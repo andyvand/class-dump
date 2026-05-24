@@ -9,19 +9,9 @@
 @interface UIKBGeometry
 {
     NSString *m_name;
-    CDStruct_73524d89 m_x;
-    CDStruct_73524d89 m_y;
-    CDStruct_73524d89 m_w;
-    CDStruct_73524d89 m_h;
-    CDStruct_73524d89 m_paddingTop;
-    CDStruct_73524d89 m_paddingLeft;
-    CDStruct_73524d89 m_paddingBottom;
-    CDStruct_73524d89 m_paddingRight;
-    _Bool m_explicitlySpecified;
-    _Bool m_isTemplate;
 }
 
-+ (void);
++ (void);
 + (id);
 + (id);
 + (id);
@@ -31,58 +21,48 @@
 - (void);
 - (id);
 - (_Bool);
-- (CDStruct_73524d89);
+- (CDStruct_cdff19b3);
 - (id);
-- (CDStruct_73524d89);
+- (CDStruct_cdff19b3);
 - (id);
 - (_Bool);
-- (void);
+- (void)MPPlaybackArchiveDisplayProperties;
 - (void);
 - (id);
-- (CDStruct_73524d89);
+- (CDStruct_cdff19b3);
 - (id);
 - (unsigned long long);
 - (void);
-- (CDStruct_73524d89)0@ù
+- (CDStruct_cdff19b3)0@ù
 × ;
 - (struct CGRect);
 - (_Bool)Ô
 ð!Eùqfð1Â0@ù
 × ;
-- (id)orBarStyle:(id)arg1 buttonItemStyle:(CDStruct_bd7e7c01)arg2;
-- (_Bool)BlurRadius:(id)arg1 scale: /* Error: Ran out of types for this method. */;
-- (struct CGRect)pped:withDismissCompletion: /* Error: Ran out of types for this method. */;
-- (id)BarReplacementForText:(id)arg1 withText:(CDStruct_bd7e7c01)arg2;
-- (void)ByAddingObject:(id)arg1;
-- (_Bool)howSecondColumn: /* Error: Ran out of types for this method. */;
-- (id)exPath:(id)arg1;
+- (id)initWithImage:(id)arg1 width:(CDStruct_d923826d)arg2 style:(CDStruct_d923826d)arg3 applyBezel:forBarStyle:buttonItemStyle: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithBlurRadius:(id)arg1 scale: /* Error: Ran out of types for this method. */;
+- (struct CGRect)dimmingViewWasTapped:withDismissCompletion: /* Error: Ran out of types for this method. */;
+- (id)didCandidateBarReplacementForText:(id)arg1 withText:(CDStruct_d923826d)arg2;
+- (void)arrayByAddingObject:(id)arg1;
+- (_Bool)_showSecondColumn: /* Error: Ran out of types for this method. */;
+- (id)_reusePrefetchedCell:(id)arg1 withIndexPath: /* Error: Ran out of types for this method. */;
 - (void)Settings",N,&,VexpandIntermediateSpring;
-- (id)itor;
+- (id)_UISceneLifecycleMonitor;
 - (void)8¦§$¨¨¨;
 - (void)4;
 - (void)GroupIdentifier (%d).;
-- (CDStruct_73524d89)è`â?$
+- (CDStruct_cdff19b3)è`â?$
 -ëþ±Ý?û·\ýKvÀqÈBTÉÀ¾NêËÒÎ@;
 - (void)(\;
-- (CDStruct_73524d89);
+- (CDStruct_cdff19b3);
 - (void);
 - (void)+ÿnyÏ&i;
-- (CDStruct_73524d89);
-- (CDStruct_73524d89)´¼j;
+- (CDStruct_cdff19b3);
+- (CDStruct_cdff19b3)´¼j;
 - (void)@u&ÿ.â+k;
 
 // Remaining properties
-@property(nonatomic) _Bool explicitlySpecified; // @synthesize explicitlySpecified=m_explicitlySpecified;
-@property(nonatomic, setter=setH:) CDStruct_73524d89 h; // @synthesize h=m_h;
-@property(nonatomic) _Bool isTemplate; // @synthesize isTemplate=m_isTemplate;
 @property(retain, nonatomic) NSString *name; // @synthesize name=m_name;
-@property(nonatomic, setter=setPaddingBottom:) CDStruct_73524d89 paddingBottom; // @synthesize paddingBottom=m_paddingBottom;
-@property(nonatomic, setter=setPaddingLeft:) CDStruct_73524d89 paddingLeft; // @synthesize paddingLeft=m_paddingLeft;
-@property(nonatomic, setter=setPaddingRight:) CDStruct_73524d89 paddingRight; // @synthesize paddingRight=m_paddingRight;
-@property(nonatomic, setter=setPaddingTop:) CDStruct_73524d89 paddingTop; // @synthesize paddingTop=m_paddingTop;
-@property(nonatomic, setter=setW:) CDStruct_73524d89 w; // @synthesize w=m_w;
-@property(nonatomic, setter=setX:) CDStruct_73524d89 x; // @synthesize x=m_x;
-@property(nonatomic, setter=setY:) CDStruct_73524d89 y; // @synthesize y=m_y;
 
 @end
 

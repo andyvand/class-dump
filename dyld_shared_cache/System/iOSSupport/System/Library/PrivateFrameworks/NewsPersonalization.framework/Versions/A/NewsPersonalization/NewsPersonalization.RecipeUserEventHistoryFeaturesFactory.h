@@ -7,9 +7,6 @@
 @interface NewsPersonalization.RecipeUserEventHistoryFeaturesFactory
 {
     id userEventHistory;
-    id computeService;
-    id features;
-    id eventCount;
 }
 
 @end

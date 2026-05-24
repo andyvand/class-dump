@@ -6,7 +6,7 @@
 
 #import <WebKitLegacy/DOMObject.h>
 
-@class DOMNode, NSString, WebArchive;
+@class WebArchive;
 
 @interface DOMRange : DOMObject
 {
@@ -14,14 +14,6 @@
 
 
 // Remaining properties
-@property(readonly) _Bool collapsed;
-@property(readonly) DOMNode *commonAncestorContainer;
-@property(readonly) DOMNode *endContainer;
-@property(readonly) int endOffset;
-@property(readonly, copy, nonatomic) NSString *markupString;
-@property(readonly) DOMNode *startContainer;
-@property(readonly) int startOffset;
-@property(readonly, copy) NSString *text;
 @property(readonly, nonatomic) WebArchive *webArchive;
 @end
 

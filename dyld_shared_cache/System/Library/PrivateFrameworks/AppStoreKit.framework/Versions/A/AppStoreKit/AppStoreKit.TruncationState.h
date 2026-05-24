@@ -7,9 +7,6 @@
 @interface AppStoreKit.TruncationState
 {
     id _isTruncated;
-    id _intrinsicSize;
-    id _visibleSize;
-    id _$observationRegistrar;
 }
 
 @end

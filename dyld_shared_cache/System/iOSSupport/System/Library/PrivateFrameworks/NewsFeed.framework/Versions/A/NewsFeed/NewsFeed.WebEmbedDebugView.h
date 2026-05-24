@@ -7,11 +7,10 @@
 @interface NewsFeed.WebEmbedDebugView
 {
     id label;
-    id display;
 }
 
 - (id);
-- (void);
+- (void)extraFieldLength=%hu;
 - (id)!hFùÿ°1Â0@ù
 × ;
 - (void)<lïþ;

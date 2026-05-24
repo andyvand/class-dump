@@ -7,10 +7,10 @@
 @class NSString;
 
 @protocol AVAudioRouteDescribing
+- (_Bool)erface>",R;
 - (NSString *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *UID;
-@property(readonly, copy, nonatomic) NSString *name;
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface BMPhotosPhotoViewEvent
 {
     NSString *_uniqueId;
-    NSString *_personaId;
-    NSArray *_locations;
-    double _absoluteTimestamp;
-    NSString *_contentProtection;
 }
 
 + (id);
@@ -20,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned int);
 - (id);
@@ -31,38 +27,18 @@
 - (id);
 - (double);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)(no progress handler - %@) | state:(id)arg1 %{public}@;
 - (id);
-- (_Bool);
+- (_Bool)D$;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)t_packed_size;
+- (id)pg_query__create_domain_stmt__get_packed_size;
 - (void)ìíîïðñò1ôõö÷øùúû;
 
 // Remaining properties
-@property(readonly, nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
-@property(readonly, nonatomic) NSString *bundleId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *contentProtection; // @synthesize contentProtection=_contentProtection;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *domainId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *locations; // @synthesize locations=_locations;
-@property(readonly, nonatomic) NSString *personaId; // @synthesize personaId=_personaId;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSString *uniqueId; // @synthesize uniqueId=_uniqueId;
 
 @end

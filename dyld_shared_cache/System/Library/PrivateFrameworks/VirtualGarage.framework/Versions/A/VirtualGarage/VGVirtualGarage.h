@@ -4,57 +4,49 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString, VGDataCoordinator, VGVehicle;
-@protocol VGVirtualGarageDelegate, VGVirtualGaragePersisting;
+@class NSMutableArray;
+@protocol VGVirtualGarageDelegate;
 
 @interface VGVirtualGarage
 {
     NSMutableArray *_vehicles;
-    NSString *_selectedVehicleIdentifier;
-    _Bool _isDataCoordinatorRunning;
-    VGDataCoordinator *_dataCoordinator;
-    id <VGVirtualGaragePersisting> _persister;
-    _Bool _finishedLoadingVehicles;
-    NSMutableArray *_queuedGetGarageCompletionHandlers;
-    _Bool _shouldAssumeFullCharge;
-    id <VGVirtualGarageDelegate> _delegate;
 }
 
 + (_Bool);
 - (void);
 - (_Bool);
 - (void);
+- (void)h;
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void);
+- (id)AXFocusEngine;
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
+- (void)02d;
+- (void)`;
+- (void)ignoreNextEmptySuggestion;
+- (void);
+- (id);
+- (id);
+- (void)$;
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
+- (id)__swift5_types;
+- (void)alternativeInversions;
+- (void);
+- (void)e>",W,V_delegate;
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)consumer:(id)arg1 localizedButtonDisplayNameForActionType: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -71,17 +63,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <VGVirtualGarageDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) VGVehicle *selectedVehicle;
-@property(nonatomic) _Bool shouldAssumeFullCharge; // @synthesize shouldAssumeFullCharge=_shouldAssumeFullCharge;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *vehicles;
 
 @end
 

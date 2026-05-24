@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMCDHomesTopologyModel, NSSet, NSString, NSUUID;
+@class NSUUID;
 
 @interface HMCDHomeModel
 {
@@ -13,13 +13,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, copy) NSSet *accessories; // @dynamic accessories;
-@property(nonatomic, retain) HMCDHomesTopologyModel *homesTopology; // @dynamic homesTopology;
 @property(nonatomic, copy) NSUUID *modelID; // @dynamic modelID;
-@property(nonatomic, copy) NSString *name; // @dynamic name;
-@property(nonatomic, copy) NSSet *rooms; // @dynamic rooms;
-@property(nonatomic, copy) NSSet *users; // @dynamic users;
-@property(nonatomic, copy) NSSet *zones; // @dynamic zones;
 
 @end
 

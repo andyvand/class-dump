@@ -4,24 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString, SFColor, SFLatLng, SFMapRegion;
+@class NSArray, NSString;
 
 @protocol SFMapCardSection
+- (NSArray *);
+- (NSString *)32@0:8q16d24 /* Error: Ran out of types for this method. */;
+- (_Bool)MPModelPropertySongIsDisliked;
 - (void)FPBListenToCardSection",&,N,V_listenToCardSection;
-- (void);
 
 // Remaining properties
-@property(retain, nonatomic) SFMapRegion *boundingMapRegion;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSString *footnote;
-@property(copy, nonatomic) NSString *footnoteLabel;
-@property(nonatomic) _Bool interactive;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFLatLng *location;
-@property(nonatomic) int pinBehavior;
-@property(retain, nonatomic) SFColor *pinColor;
-@property(copy, nonatomic) NSArray *pins;
-@property(nonatomic) int sizeFormat;
 @property(copy, nonatomic) NSString *type;
 @end
 

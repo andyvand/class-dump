@@ -7,41 +7,33 @@
 @interface GEOSignGuidanceFeedback
 {
     int _signDetailIndex;
-    int _signTitleIndex;
-    struct {
-        unsigned int has_signDetailIndex:1;
-        unsigned int has_signTitleIndex:1;
-    } _flags;
 }
 
-+ (_Bool)data:(id)arg1;
++ (_Bool)setMapsServerMetadata:(id)arg1;
 - (int);
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)descriptionBuilderWithObject: /* Error: Ran out of types for this method. */;
+- (_Bool)department;
 - (int);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)_stopCurrentlyRunningSignalProviders;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)<float, 2, 1>=[2f]}32;
-- (id)stimatedSeconds;
-- (id)OPDColor;
-- (id)ementIndex;
+- (id)hasHistoricalEstimatedSeconds;
+- (id)GEOPDColor;
+- (id)selectedElementIndex;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSignDetailIndex;
 @property(nonatomic) _Bool hasSignTitleIndex;
-@property(nonatomic) int signDetailIndex;
-@property(nonatomic) int signTitleIndex;
 
 @end
 

@@ -8,18 +8,14 @@
 
 @protocol PXPhotosSectionHeaderLayoutProvider
 
+@optional
+- (id <PXPhotosSectionHeaderLayoutProviderInvalidationDelegate>)(;
+- (void);
+
 // Remaining properties
 @property(nonatomic) __weak id <PXPhotosSectionHeaderLayoutProviderInvalidationDelegate> invalidationDelegate;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"<PXPhotosSectionHeaderLayoutProviderInvalidationDelegate>",?,W,N
-
-@property(nonatomic) __weak id <PXPhotosSectionHeaderLayoutProviderInvalidationDelegate> topHeaderInvalidationDelegate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<PXPhotosSectionHeaderLayoutProviderInvalidationDelegate>",?,W,N
-
-@property(readonly, nonatomic) double topHeaderMinimumHeight;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
 
 @end
 

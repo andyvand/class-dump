@@ -6,14 +6,9 @@
 
 #import <VoiceShortcutClient/WFResultQuery.h>
 
-@class NSString;
-
 @interface WFWorkflowQuery : WFResultQuery
 {
     unsigned long long _location;
-    NSString *_workflowType;
-    NSString *_folderIdentifier;
-    long long _resultsLimit;
 }
 
 + (_Bool);
@@ -23,7 +18,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)__DATA_DIRTY;
 - (id);
 - (id);
 - (id);
@@ -35,10 +30,7 @@
 - (long long)e;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *folderIdentifier; // @synthesize folderIdentifier=_folderIdentifier;
 @property(readonly, nonatomic) unsigned long long location; // @synthesize location=_location;
-@property(nonatomic) long long resultsLimit; // @synthesize resultsLimit=_resultsLimit;
-@property(readonly, nonatomic) NSString *workflowType; // @synthesize workflowType=_workflowType;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UITouchForceGestureRecognizer;
+@class UITouchForceGestureRecognizer;
 
 __attribute__((visibility("hidden")))
 @interface _UIPreviewInteractionGestureRecognizerTouchForceProvider
@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
+- (id)2@"NSString"40@"NSString"48@"NSString"56C64;
 - (_Bool);
 - (void);
 - (struct CGPoint);
@@ -22,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool)1Â0@ù
 × ;
-- (void)ayoutPreferenceChanges;
+- (void)hostObservesLayoutPreferenceChanges;
 - (double);
 - (void)à;
 - (void);
@@ -30,15 +30,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UITouchForceGestureRecognizer *gestureRecognizer; // @synthesize gestureRecognizer=_gestureRecognizer;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double touchForce;
 
 @end
 

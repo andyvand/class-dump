@@ -7,9 +7,9 @@
 @class CHSControlIdentity, NSString;
 
 @protocol CHSControlConfigurationReference
+- (CHSControlIdentity *)(`J?;
 
 // Remaining properties
-@property(readonly, nonatomic) CHSControlIdentity *controlIdentity;
 @property(readonly, nonatomic) NSString *uniqueIdentifier;
 @end
 

@@ -4,26 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSUUID, UIScreen, UIView, UIViewFloatAnimatableProperty, UIViewPropertyAnimator, UIVisualEffectView, _UIInteractiveHighlightEffectWindow;
+@class UIScreen;
 
 __attribute__((visibility("hidden")))
 @interface _UIInteractiveHighlightEnvironment
 {
     UIScreen *_containerScreen;
-    _UIInteractiveHighlightEffectWindow *_containerWindow;
-    UIView *_containerView;
-    UIVisualEffectView *_backgroundEffectView;
-    UIView *_contentView;
-    UIView *_contentClipView;
-    UIView *_contentOverlayView;
-    UIViewPropertyAnimator *_backgroundEffectAnimator;
-    UIViewFloatAnimatableProperty *_backgroundEffectProgress;
-    NSArray *_viewRecords;
-    _UIInteractiveHighlightEnvironment *_parentEnvironment;
-    _UIInteractiveHighlightEnvironment *_childEnvironment;
-    NSUUID *_backgroundAnimationIdentifier;
-    UIView *_customBackgroundEffectView;
-    CDUnknownBlockType _backgroundEffectApplyBlock;
 }
 
 + (id);
@@ -33,43 +19,38 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)l>"24@0:(id)arg1 8@"IMDService"16;
+- (void)2;
+- (id)tapbackInterpreter;
+- (id)systemDidBecomeUnidle;
+- (id)resolveChatConflictUsingSyncData:(id)arg1 localGUID:(unsigned long long)arg2;
+- (id)packName;
+- (id)loadFrequentRepliesForIDs:(id)arg1 style:onServices:limit:chatID:queryID: /* Error: Ran out of types for this method. */;
+- (void)isRead;
+- (void)isRCSSendWithoutEncryption;
+- (void)isPriorityMessagesEnabled;
+- (long long)isFirstSyncWithActivity:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void)fallbackGUIDs;
+- (void)failTransfer:error: /* Error: Ran out of types for this method. */;
+- (void)extractServerRecordFromCKServerErrorRecordChanged: /* Error: Ran out of types for this method. */;
+- (void)clearUnreadCountForChatsWithGUIDs:(id)arg1;
+- (id)_updateLastMessageTimeStampForChat: /* Error: Ran out of types for this method. */;
+- (id)_deleteBatchSize;
+- (CDUnknownBlockType)_createWrapperForTransfer: /* Error: Ran out of types for this method. */;
+- (void)oadAttachmentDictionary:(struct UIEdgeInsets)arg1 inlineAttachments:attributionInfoArray:nicknameDictionary:availabilityVerificationRecipientChannelIDPrefix:availabilityVerificationRecipientEncryptionValidationToken:availabilityOffGridRecipientSubscriptionValidationToken:availabilityOffGridRecipientEncryptionValidationToken:idsService:messageContext:isFromTrustedSender:isFromSnapTrustedSender:wasContextUsed:isBlackholed:shouldTrackForRequery:isFiltered:spamDetectionSource:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)IDSID:(double)arg1 fromIdentifier:(_Bool)arg2 toIdentifier:(CDUnknownBlockType)arg3 participants:groupName:groupID:isFromMe:isLastFromStorage:isFromStorage:batchID:hideLockScreenNotification:wantsCheckpointing:needsDeliveryReceipt:messageBalloonPayloadAttachmentDictionary:inlineAttachments:attributionInfoArray:nicknameDictionary:availabilityVerificationRecipientChannelIDPrefix:availabilityVerificationRecipientEncryptionValidationToken:availabilityOffGridRecipientSubscriptionValidationToken:availabilityOffGridRecipientEncryptionValidationToken:idsService:messageContext:isFromTrustedSender:isFromSnapTrustedSender:wasContextUsed:isBlackholed:shouldTrackForRequery:isFiltered:spamDetectionSource:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)"8@"BlastDoorFileTransferAttribute_AttachmentInfo"16;
+- (id)ession"8Q16^B24;
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool)PathBeforeUpdate;
-- (void)Updates;
-- (void)ize;
+- (_Bool)indexPathBeforeUpdate;
+- (void)_ignoringContentUpdates;
+- (void)UINSToolbarItemPresentationSize;
 - (id)@j^;
 - (id)¤V_;
 - (id)¿`;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType backgroundEffectApplyBlock; // @synthesize backgroundEffectApplyBlock=_backgroundEffectApplyBlock;
-@property(readonly, nonatomic) UIView *containerView; // @synthesize containerView=_containerView;
-@property(readonly, nonatomic) UIView *contentClipView;
-@property(readonly, nonatomic) UIView *contentView; // @dynamic contentView;
-@property(retain, nonatomic) UIView *customBackgroundEffectView; // @synthesize customBackgroundEffectView=_customBackgroundEffectView;
 @property(nonatomic, getter=isHidden) _Bool hidden;
 
 @end

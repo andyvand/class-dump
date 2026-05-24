@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHDDataLabel, CHDMarker, NSString, OADGraphicProperties;
+@class CHDDataLabel;
 
 __attribute__((visibility("hidden")))
 @interface CHDDataValueProperties
 {
     CHDDataLabel *mDataLabel;
-    CHDMarker *mMarker;
-    unsigned long long mDataValueIndex;
-    OADGraphicProperties *mGraphicProperties;
 }
 
 + (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (unsigned long long);
@@ -31,13 +28,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

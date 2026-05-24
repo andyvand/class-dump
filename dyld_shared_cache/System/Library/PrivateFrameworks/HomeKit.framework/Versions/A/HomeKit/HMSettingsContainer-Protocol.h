@@ -9,8 +9,6 @@
 @protocol HMSettingsContainer
 
 // Remaining properties
-@property(readonly) HMSettings *privateSettings;
 @property(readonly) HMSettings *settings;
-@property(readonly) _Bool settingsInitialized;
 @end
 

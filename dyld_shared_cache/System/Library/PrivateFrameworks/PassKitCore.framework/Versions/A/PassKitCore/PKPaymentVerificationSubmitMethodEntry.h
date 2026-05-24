@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, PKPaymentTapToProvisionData;
+@class NSString;
 
 @interface PKPaymentVerificationSubmitMethodEntry
 {
     NSString *_methodGroupIdentifier;
-    NSString *_methodIdentifier;
-    NSString *_verificationCode;
-    NSData *_verificationData;
-    PKPaymentTapToProvisionData *_tapToProvisionData;
-    NSDictionary *_dynamicFieldParameters;
-    NSDictionary *_encryptedDynamicFieldParameters;
-    NSDictionary *_encryptedPerFieldDynamicFieldParameters;
 }
 
 - (id);
 - (id);
-- (void);
+- (void)TIM;
 - (void);
 - (void);
 - (void);
@@ -35,17 +28,10 @@
 - (id);
 - (id);
 - (void);
-- (void)LReturnsPreTrackRequestKey;
+- (void)PKSharingForceErrorAfterKMLReturnsPreTrackRequestKey;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *dynamicFieldParameters; // @synthesize dynamicFieldParameters=_dynamicFieldParameters;
-@property(copy, nonatomic) NSDictionary *encryptedDynamicFieldParameters; // @synthesize encryptedDynamicFieldParameters=_encryptedDynamicFieldParameters;
-@property(copy, nonatomic) NSDictionary *encryptedPerFieldDynamicFieldParameters; // @synthesize encryptedPerFieldDynamicFieldParameters=_encryptedPerFieldDynamicFieldParameters;
 @property(copy, nonatomic) NSString *methodGroupIdentifier; // @synthesize methodGroupIdentifier=_methodGroupIdentifier;
-@property(copy, nonatomic) NSString *methodIdentifier; // @synthesize methodIdentifier=_methodIdentifier;
-@property(retain, nonatomic) PKPaymentTapToProvisionData *tapToProvisionData; // @synthesize tapToProvisionData=_tapToProvisionData;
-@property(copy, nonatomic) NSString *verificationCode; // @synthesize verificationCode=_verificationCode;
-@property(copy, nonatomic) NSData *verificationData; // @synthesize verificationData=_verificationData;
 
 @end
 

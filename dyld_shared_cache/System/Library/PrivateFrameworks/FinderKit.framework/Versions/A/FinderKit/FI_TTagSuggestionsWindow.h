@@ -10,11 +10,11 @@ __attribute__((visibility("hidden")))
     id _accessibilityParent;
 }
 
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (id);
+- (_Bool)P;
+- (void)_structuredQueryForComponents:(id)arg1 hasCurrentMailboxScope:languages: /* Error: Ran out of types for this method. */;
+- (id):8@"<EMCollection>"16@"NSArray"24@"NSArray"32@"NSArray"40 /* Error: Ran out of types for this method. */;
+- (_Bool)webView:shouldGoToBackForwardListItem:willUseInstantBack:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)fItemsToPrecache:(id)arg1 shouldUpdateDisplayDate:sortDescriptors:sectionPredicates:transformPredicate: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)ÿÿ;
 

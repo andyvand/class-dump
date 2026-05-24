@@ -6,17 +6,11 @@
 
 #import <PencilKit/PKPaletteToolView.h>
 
-@class NSLayoutConstraint, NSString, PKToolConfiguration, UILabel;
-@protocol PKPaletteErasingTool, PKPaletteHandwritingTool, PKPaletteInkingTool;
+@class UILabel;
 
 @interface PKPaletteHandwritingToolView : PKPaletteToolView
 {
-    id _needsUpdateTitleLabel;
-    NSString *_localeIdentifier;
-    UILabel *_toolLabel;
-    NSLayoutConstraint *_toolLabelCenterXConstraint;
-    NSLayoutConstraint *_toolLabelCenterYConstraint;
-    CDUnknownBlockType __overrideLabelCenterOffsetYHandler;
+    _Bool _needsUpdateTitleLabel;
 }
 
 - (id);
@@ -38,31 +32,12 @@
 - (void);
 - (id);
 - (void);
-- (void)DetectionQueryItem;
+- (void)PKDetectionQueryItem;
 - (id);
 - (void)çbÔ3Ðÿqçb 3Ðÿ;
 
 // Remaining properties
-@property(copy, nonatomic, setter=_setOverrideLabelCenterOffsetYHandler:) CDUnknownBlockType _overrideLabelCenterOffsetYHandler; // @synthesize _overrideLabelCenterOffsetYHandler=__overrideLabelCenterOffsetYHandler;
-@property(readonly, nonatomic) PKToolConfiguration *configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <PKPaletteErasingTool> erasingTool;
-@property(readonly, nonatomic) id <PKPaletteHandwritingTool> handwritingTool;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <PKPaletteInkingTool> inkingTool;
-@property(readonly, nonatomic) NSString *itemIdentifier;
-@property(copy, nonatomic) NSString *localeIdentifier; // @synthesize localeIdentifier=_localeIdentifier;
-@property(nonatomic) _Bool needsUpdateTitleLabel; // @synthesize needsUpdateTitleLabel=_needsUpdateTitleLabel;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *toolIdentifier;
 @property(retain, nonatomic) UILabel *toolLabel; // @synthesize toolLabel=_toolLabel;
-@property(retain, nonatomic) NSLayoutConstraint *toolLabelCenterXConstraint; // @synthesize toolLabelCenterXConstraint=_toolLabelCenterXConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *toolLabelCenterYConstraint; // @synthesize toolLabelCenterYConstraint=_toolLabelCenterYConstraint;
-@property(readonly, nonatomic) NSString *toolVariant;
 
 @end
 

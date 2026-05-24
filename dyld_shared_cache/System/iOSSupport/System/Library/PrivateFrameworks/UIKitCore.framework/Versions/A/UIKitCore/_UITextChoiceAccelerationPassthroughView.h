@@ -6,16 +6,12 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, _UIEditMenuDismissalGestureRecognizer, _UITouchFallbackView;
-@protocol _UITextChoiceAccelerationPassthroughDelegate;
+@class _UIEditMenuDismissalGestureRecognizer;
 
 __attribute__((visibility("hidden")))
 @interface _UITextChoiceAccelerationPassthroughView : UIView
 {
     _Bool _didDismissFromGesture;
-    _UITouchFallbackView *_touchFallbackView;
-    id <_UITextChoiceAccelerationPassthroughDelegate> _delegate;
-    _UIEditMenuDismissalGestureRecognizer *_dismissalGestureRecognizer;
 }
 
 - (_Bool);
@@ -23,32 +19,23 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)IMDaemonChatProtocol;
+- (void)9;
 - (_Bool);
-- (id);
+- (id)_clearConnection;
 - (id);
 - (id)0@ù
 × ;
 - (void)!ÜBù1b1Â0@ù
 × ;
-- (void)en:(struct CGRect)arg1 toScreen: /* Error: Ran out of types for this method. */;
+- (void)_windowHostingScene:(struct CGRect)arg1 willMoveFromScreen:toScreen: /* Error: Ran out of types for this method. */;
 - (void)V_delegate;
-- (void)Snapshotter;
-- (void)namicParameterIDAudioReleaseTimeControl;
+- (void)UIKBViewTreeSnapshotter;
+- (void)CHHapticDynamicParameterIDAudioReleaseTimeControl;
 - (void)03z_Xx;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <_UITextChoiceAccelerationPassthroughDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) _UIEditMenuDismissalGestureRecognizer *dismissalGestureRecognizer; // @synthesize dismissalGestureRecognizer=_dismissalGestureRecognizer;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _UITouchFallbackView *touchFallbackView; // @synthesize touchFallbackView=_touchFallbackView;
 
 @end
 

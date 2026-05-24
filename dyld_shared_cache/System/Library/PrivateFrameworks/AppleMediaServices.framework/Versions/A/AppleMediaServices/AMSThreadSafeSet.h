@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSThreadSafeObject, NSArray;
+@class AMSThreadSafeObject;
 
 __attribute__((visibility("hidden")))
 @interface AMSThreadSafeSet
@@ -15,19 +15,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)ClientApplicationConnectionManager",R,N;
 - (id);
-- (void);
-- (id)ocessInfo: /* Error: Ran out of types for this method. */;
+- (void)@"CKAsn1Token",R,VmContentToken;
+- (id)_initWithClient:processInfo: /* Error: Ran out of types for this method. */;
 - (unsigned long long)ø,ä;
 - (void)ÀP~¢4òä±aoEÕ8¦èöÌ\IÙ+½{mAÑÿ#µse0àîÄT¯Ï)8¡~#"Éç´EúÈö6»º¨d12ËX÷f§Ö°×ºæÐ´ÄÄF>X(J4¦ë8×vs¿|+uS#Tæýq×OµV
 Å-·½M`§¢M¨3¢ÞBñPv\EhÞö%o0qøXs'²ºtÒBEØÜ4¼°Ïýbg55zjÃÙÞ¡r·ÖÜj9Çö4TÝìºcÒ#^À5sØ"ÆÑÚ¯çëK[©¦Òp=N? \.N|
 c¯ÂÒp¬JjM¯Ð^³@Pûïõ	Q1GÄ©êrkÉÊ2{F'.	öóüxË.÷#e|é;
 
 // Remaining properties
-@property(readonly, copy) NSArray *allObjects;
 @property(retain) AMSThreadSafeObject *backingSet; // @synthesize backingSet=_backingSet;
-@property(readonly) unsigned long long count;
 
 @end
 

@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)CHHapticEngine beginIdleTimer]_block_invoke_2;
 - (id);
 
 // Remaining properties

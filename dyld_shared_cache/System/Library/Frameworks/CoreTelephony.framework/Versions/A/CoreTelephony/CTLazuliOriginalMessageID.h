@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTLazuliSecureGroupVersion, NSDate, NSString;
+@class NSString;
 
 @interface CTLazuliOriginalMessageID
 {
     NSString *_uuid;
-    CTLazuliSecureGroupVersion *_secureGroupVersion;
-    NSDate *_sentAt;
 }
 
-+ (_Bool);
++ (_Bool):%ld timeWeightedPeakBitrate:%ld> /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -23,15 +21,13 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)_queue;
 - (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CTLazuliSecureGroupVersion *secureGroupVersion; // @synthesize secureGroupVersion=_secureGroupVersion;
-@property(copy, nonatomic) NSDate *sentAt; // @synthesize sentAt=_sentAt;
 @property(copy, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end

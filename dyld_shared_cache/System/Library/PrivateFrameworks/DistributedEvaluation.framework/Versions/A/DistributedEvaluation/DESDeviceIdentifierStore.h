@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSURL;
+@class NSObject, NSURL;
 @protocol OS_dispatch_queue;
 
 @interface DESDeviceIdentifierStore
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSURL *_storeURL;
-    NSMutableDictionary *_deviceIdentifiers;
 }
 
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)e=%@);
 - (id);
 - (id);
 - (void);
@@ -26,7 +24,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *deviceIdentifiers; // @synthesize deviceIdentifiers=_deviceIdentifiers;
 @property(retain, nonatomic) NSURL *storeURL; // @synthesize storeURL=_storeURL;
 
 @end

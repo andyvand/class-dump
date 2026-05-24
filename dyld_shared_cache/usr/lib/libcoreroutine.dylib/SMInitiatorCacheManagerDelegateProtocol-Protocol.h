@@ -5,5 +5,6 @@
 //
 
 @protocol SMInitiatorCacheManagerDelegateProtocol
+- (void)(;
 @end
 

@@ -7,43 +7,26 @@
 @interface AWDCoreRoutinePersistenceStoreMigrationDuration
 {
     double _migrationTimeInterval;
-    unsigned long long _timestamp;
-    int _byteSize;
-    int _deviceClass;
-    int _nextModelVersion;
-    int _previousModelVersion;
-    int _storeType;
-    _Bool _didVacuum;
-    struct {
-        unsigned int migrationTimeInterval:1;
-        unsigned int timestamp:1;
-        unsigned int byteSize:1;
-        unsigned int deviceClass:1;
-        unsigned int nextModelVersion:1;
-        unsigned int previousModelVersion:1;
-        unsigned int storeType:1;
-        unsigned int didVacuum:1;
-    } _has;
 }
 
+- (void)8;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)R$�h;
 - (void);
 - (int);
-- (int);
+- (int)#;
 - (double);
+- (_Bool)4@;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)o;
 - (void);
 - (int);
 - (_Bool);
@@ -61,30 +44,15 @@
 - (int);
 - (void);
 - (id);
-- (id);
+- (id)	;
 - (int);
 - (void);
-- (void)rkEvents;
+- (void)_networkEvents;
 - (_Bool)ÿ<ßoØ	;
 - (void);
 
 // Remaining properties
-@property(nonatomic) int byteSize; // @synthesize byteSize=_byteSize;
-@property(nonatomic) int deviceClass; // @synthesize deviceClass=_deviceClass;
-@property(nonatomic) _Bool didVacuum; // @synthesize didVacuum=_didVacuum;
-@property(nonatomic) _Bool hasByteSize;
-@property(nonatomic) _Bool hasDeviceClass;
-@property(nonatomic) _Bool hasDidVacuum;
-@property(nonatomic) _Bool hasMigrationTimeInterval;
-@property(nonatomic) _Bool hasNextModelVersion;
-@property(nonatomic) _Bool hasPreviousModelVersion;
-@property(nonatomic) _Bool hasStoreType;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) double migrationTimeInterval; // @synthesize migrationTimeInterval=_migrationTimeInterval;
-@property(nonatomic) int nextModelVersion; // @synthesize nextModelVersion=_nextModelVersion;
-@property(nonatomic) int previousModelVersion; // @synthesize previousModelVersion=_previousModelVersion;
-@property(nonatomic) int storeType; // @synthesize storeType=_storeType;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

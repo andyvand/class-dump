@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDPersistenceDatabase, EDPersistenceHookRegistry, EDReadLaterCloudStorage;
+@class EDPersistenceDatabase, EDReadLaterCloudStorage;
 
 @interface EDReadLaterPersistence
 {
     EDReadLaterCloudStorage *_cloudStorage;
-    EDPersistenceDatabase *_database;
-    EDPersistenceHookRegistry *_hookRegistry;
 }
 
 - (void);
@@ -18,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -29,9 +27,7 @@
 - (id)¼;
 
 // Remaining properties
-@property(retain, nonatomic) EDReadLaterCloudStorage *cloudStorage; // @synthesize cloudStorage=_cloudStorage;
 @property(retain, nonatomic) EDPersistenceDatabase *database; // @synthesize database=_database;
-@property(retain, nonatomic) EDPersistenceHookRegistry *hookRegistry; // @synthesize hookRegistry=_hookRegistry;
 
 @end
 

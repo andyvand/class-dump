@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UITargetedPreview;
+@class UITargetedPreview;
 
 __attribute__((visibility("hidden")))
 @interface _UINullClickHighlightEffect
@@ -15,22 +15,13 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (id);
-- (id);
-- (void);
+- (id)esProcessingPipelineComponent> Found no source message GUID for fallback hash with length %llu, rejecting replicated message;
+- (void)primaryViewControllerForExpandingSplitViewController:(id)arg1;
 - (CDUnknownBlockType)d;
 - (void);
 - (void)\Î\;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) UITargetedPreview *targetedPreview; // @synthesize targetedPreview=_targetedPreview;
 @property(readonly, nonatomic) UITargetedPreview *targetedPreviewForEffectContinuation;
 
 @end

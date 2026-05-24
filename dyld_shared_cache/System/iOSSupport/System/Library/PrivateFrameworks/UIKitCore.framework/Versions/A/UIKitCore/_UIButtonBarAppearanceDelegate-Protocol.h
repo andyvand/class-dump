@@ -13,9 +13,9 @@
 - (_Bool)Að!Bù1d1Â0@ù
 × ;
 - (unsigned long long);
-- (UIImage *)ntifiers;
-- (double)rruptable;
-- (UIColor *)ustomizationContainerView;
+- (UIImage *)responseSecondaryRecipientIdentifiers;
+- (double)_interruptable;
+- (UIColor *)_customizationContainerView;
 - (_UIBarButtonItemAppearanceStorage *)ilityHandler;
 - (double)`;
 - (double)his, please discuss with UIKit.;
@@ -25,25 +25,10 @@
 - (double)a UIKit problem.;
 
 @optional
-- (UIImageSymbolConfiguration *)entSceneComponent;
+- (struct UIEdgeInsets)_callHistoryManager;
+- (UIImageSymbolConfiguration *)_UIViewServiceClientSceneComponent;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool _useLeadingAlignedTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(readonly, nonatomic) _UIBarButtonItemAppearanceStorage *appearanceStorage;
-@property(readonly, nonatomic) double backButtonMargin;
-@property(readonly, nonatomic) double backButtonMaximumWidth;
-@property(readonly, nonatomic) long long barType;
-@property(readonly, nonatomic) _Bool centerTextButtons;
-@property(readonly, nonatomic) _Bool compactMetrics;
-@property(readonly, nonatomic) double defaultEdgeSpacing;
-@property(readonly, nonatomic) double defaultTextPadding;
-@property(readonly, nonatomic) UIImageSymbolConfiguration *imageSymbolConfiguration;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIImageSymbolConfiguration",?,R,N
-
-@property(readonly, nonatomic) UIColor *tintColor;
 @end
 

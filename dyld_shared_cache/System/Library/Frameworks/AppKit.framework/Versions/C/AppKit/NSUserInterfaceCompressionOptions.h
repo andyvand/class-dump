@@ -11,26 +11,26 @@
     NSSet *_identifiers;
 }
 
++ (id),V_TLSNegotiatedCipherSuite;
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)%ld  }>;
 + (id);
 + (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (void);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)!;
 - (id);
 - (_Bool);
 - (void);
-- (id)maticFocusRingNeedsUpdate;
+- (id)automaticFocusRingNeedsUpdate;
 - (_Bool);
 - (id)ßA;
 

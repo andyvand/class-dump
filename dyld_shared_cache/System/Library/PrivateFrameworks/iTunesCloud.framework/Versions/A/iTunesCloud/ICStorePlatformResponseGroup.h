@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICURLAggregatedPerformanceMetrics, NSArray, NSDate, NSNumber, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface ICStorePlatformResponseGroup
@@ -20,26 +20,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void)ry;
 - (id)bí;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSNumber *accountIdentifier;
 @property(readonly, copy, nonatomic) NSArray *allItems;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSNumber *enqueuerAccountIdentifier;
-@property(readonly, copy, nonatomic) NSDate *expirationDate;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) ICURLAggregatedPerformanceMetrics *performanceMetrics;
-@property(readonly, copy, nonatomic) id rawResponse;
-@property(readonly, copy, nonatomic) NSString *storefrontIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

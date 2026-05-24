@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSKeyedArchiver;
+@class NSKeyedArchiver;
 
 __attribute__((visibility("hidden")))
 @interface HMDXPCKeyedArchiver
@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id)datedAccessoryIDS;
+- (id)UpdatedAccessoryIDS;
 - (void)nt settings:%@ /* Error: Ran out of types for this method. */;
 - (void)edTimestamp;
 - (void)h=;
@@ -26,7 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSKeyedArchiver *archiver; // @synthesize archiver=_archiver;
-@property(readonly, copy) NSData *encodedData;
 
 @end
 

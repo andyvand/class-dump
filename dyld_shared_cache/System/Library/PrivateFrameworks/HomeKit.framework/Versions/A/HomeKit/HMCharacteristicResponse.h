@@ -14,7 +14,7 @@
 
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)penitence;
 
 // Remaining properties
 @property(readonly, nonatomic) HMCharacteristicRequest *request; // @dynamic request;

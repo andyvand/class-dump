@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, PGManagerWorkingContext, PGMoodGenerationContext;
-@protocol OS_dispatch_group, OS_os_log;
+@class PGManagerWorkingContext;
 
 @interface PGHighlightTailor
 {
     PGManagerWorkingContext *_workingContext;
-    NSArray *_enrichmentProfiles;
-    NSObject<OS_dispatch_group> *_enrichmentCommitGroup;
-    PGMoodGenerationContext *_moodGenerationContext;
-    NSObject<OS_os_log> *_loggingConnection;
 }
 
 + (_Bool);
@@ -21,11 +16,11 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
-- (double);
+- (id)accessibilitySharedCharacterRange;
+- (double)processAclCommandInternal;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)?;
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -34,7 +29,7 @@
 - (id);
 - (id);
 - (void)oraryDirectory.52v2gD/Sources/Photos_Swift/workspaces/photoanalysis/PhotosGraph/Framework/Curation/PGKeyCurator.m;
-- (id)gAnniversaryZeroKeywordText;
+- (id)PGMeaningAnniversaryZeroKeywordText;
 
 @end
 

@@ -4,37 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber;
-
 @interface SLSessionOwner
 {
     unsigned int _port;
-    NSNumber *_auditSessionID;
-    NSNumber *_sessionID;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)enance:(id)arg1 Full Vacuum;
++ (id)th freelist_count - %lld and pages_to_free %lld;
++ (id)ma incremental_vacuum(%d);
++ (id)ostSaveMaintenance:(id)arg1 forced incremental_vacuum - %lld;
++ (id)e:(unsigned int)arg1 %@ override;
+- (void)dKit Export Progress;
+- (id)predicate, predicate operator must be one of:(id)arg1 NSLessThanPredicateOperatorType,
+NSLessThanOrEqualToPredicateOperatorType,
+NSGreaterThanPredicateOperatorType,
+NSGreaterThanOrEqualToPredicateOperatorType,
+NSEqualToPredicateOperatorType,
+NSNotEqualToPredicateOperatorType;
+- (id)@) AND (OLD.%@ == NEW.%@);
+- (id)PFCloudKitMetadataNeedsMetadataMigrationKey;
+- (id)ata:] /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
+- (_Bool)tend curves list;
 - (unsigned int);
 - (void);
 - (id);
-- (void)TFGamma2;
+- (void)PresetGTFGamma2;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *auditSessionID; // @synthesize auditSessionID=_auditSessionID;
 @property(nonatomic) unsigned int port; // @synthesize port=_port;
-@property(retain, nonatomic) NSNumber *sessionID; // @synthesize sessionID=_sessionID;
-@property(readonly, nonatomic, getter=isValid) _Bool valid;
 
 @end
 

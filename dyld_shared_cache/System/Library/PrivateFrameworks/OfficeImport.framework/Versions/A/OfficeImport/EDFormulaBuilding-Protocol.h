@@ -5,6 +5,12 @@
 //
 
 @protocol EDFormulaBuilding
-- (void);
+- (int);
+- (_Bool)c;
+- (_Bool)T;
+- (_Bool)T
+;
+- (_Bool)";
+- (_Bool);
 @end
 

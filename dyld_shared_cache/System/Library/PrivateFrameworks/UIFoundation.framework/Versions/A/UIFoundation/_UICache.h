@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface _UICache
 {
     NSObject<OS_dispatch_queue> *_cacheQueue;
-    NSMutableDictionary *_cache;
-    NSObject<OS_dispatch_source> *_memoryWarningsSource;
-    _Bool _clearsCacheOnLowMemoryWarnings;
-    _Bool _clearsCacheOnApplicationBackground;
-    id _noteObserver;
 }
 
 - (id);
@@ -28,10 +23,9 @@
 - (_Bool);
 - (void);
 - (void);
-- (id)outControllerWillLayout:(id)arg1;
+- (id)textViewportLayoutControllerWillLayout:(id)arg1;
 
 // Remaining properties
-@property(nonatomic) _Bool clearsCacheOnApplicationBackground;
 @property(nonatomic) _Bool clearsCacheOnLowMemoryWarnings;
 
 @end

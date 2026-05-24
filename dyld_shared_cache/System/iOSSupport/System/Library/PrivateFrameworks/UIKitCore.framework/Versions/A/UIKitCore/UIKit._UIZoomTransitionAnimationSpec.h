@@ -9,10 +9,6 @@
 @interface UIKit._UIZoomTransitionAnimationSpec
 {
     UIViewSpringAnimationBehaviorSettings *morph;
-    UIViewSpringAnimationBehaviorSettings *transform;
-    UIViewSpringAnimationBehaviorSettings *position;
-    UIViewSpringAnimationBehaviorSettings *general;
-    UIViewSpringAnimationBehaviorSettings *cornerRadiusAdjustment;
 }
 
 + (id);
@@ -24,7 +20,7 @@
 - (void);
 - (id);
 - (id)setFloatingContentView: /* Error: Ran out of types for this method. */;
-- (void)xOfLastUndimmedDetentWhenEdgeAttachedInCompactHeight: /* Error: Ran out of types for this method. */;
+- (void)_setIndexOfLastUndimmedDetentWhenEdgeAttachedInCompactHeight: /* Error: Ran out of types for this method. */;
 - (void)ed and probably won't work properly.;
 - (id)O^þ0¸þÿ;
 - (void);
@@ -32,11 +28,7 @@
 - (void)2À;
 
 // Remaining properties
-@property(nonatomic, retain) UIViewSpringAnimationBehaviorSettings *cornerRadiusAdjustment; // @synthesize cornerRadiusAdjustment;
-@property(nonatomic, retain) UIViewSpringAnimationBehaviorSettings *general; // @synthesize general;
 @property(nonatomic, retain) UIViewSpringAnimationBehaviorSettings *morph; // @synthesize morph;
-@property(nonatomic, retain) UIViewSpringAnimationBehaviorSettings *position; // @synthesize position;
-@property(nonatomic, retain) UIViewSpringAnimationBehaviorSettings *transform; // @synthesize transform;
 
 @end
 

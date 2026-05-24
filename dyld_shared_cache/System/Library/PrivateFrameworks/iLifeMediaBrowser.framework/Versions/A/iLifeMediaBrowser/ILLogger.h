@@ -7,12 +7,11 @@
 @interface ILLogger
 {
     long long _loggingLevel;
-    long long _loggingDefMask;
 }
 
 + (id);
 + (void);
-+ (void);
++ (void)01;
 + (id);
 + (void);
 - (void);
@@ -22,7 +21,7 @@
 - (void);
 - (long long);
 - (void);
-- (id);
+- (id)ܙ;
 
 @end
 

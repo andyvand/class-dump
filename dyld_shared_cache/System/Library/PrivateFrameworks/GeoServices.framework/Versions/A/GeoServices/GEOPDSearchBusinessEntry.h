@@ -8,9 +8,6 @@ __attribute__((visibility("hidden")))
 @interface GEOPDSearchBusinessEntry
 {
     unsigned long long _businessId;
-    struct {
-        unsigned int has_businessId:1;
-    } _flags;
 }
 
 - (id);
@@ -19,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)uteDistanceThreshold"b1"has_endOfRouteDistanceThreshold"b1"read_unknownFields"b1"read_arrivalMapRegions"b1"read_arrivalPoints"b1"wrote_anyField"b1};
-- (id)rchResponseRelativeTimestamp;
+- (id)_placeCardPlaceActionDetailsSearchResponseRelativeTimestamp;
 - (id)°N;
 
 @end

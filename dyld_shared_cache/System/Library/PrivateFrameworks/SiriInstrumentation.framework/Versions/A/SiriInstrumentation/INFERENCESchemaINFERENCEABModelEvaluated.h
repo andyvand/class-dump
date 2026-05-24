@@ -6,39 +6,22 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface INFERENCESchemaINFERENCEABModelEvaluated : SISchemaInstrumentationMessage
 {
     int _projectIntent;
-    int _numCandidateApps;
-    _Bool _isDecisionCorrect;
-    unsigned int _modelVersion;
-    _Bool _isModelDisambiguation;
-    _Bool _isModelConfirmation;
-    int _userPersona;
-    struct {
-        unsigned int projectIntent:1;
-        unsigned int numCandidateApps:1;
-        unsigned int isDecisionCorrect:1;
-        unsigned int modelVersion:1;
-        unsigned int isModelDisambiguation:1;
-        unsigned int isModelConfirmation:1;
-        unsigned int userPersona:1;
-    } _has;
 }
 
 - (int);
 - (void);
+- (void)@;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)=;
 - (void);
 - (int);
 - (int);
@@ -47,7 +30,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -60,7 +43,7 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)EAAccessoryKey;
 - (void);
 - (void);
 - (unsigned long long);
@@ -69,26 +52,12 @@
 - (id);
 - (id);
 - (id)ecution",&,N,V_kgQAExecution;
-- (id)STFlatExprPrefixVariant;
-- (void)itualUsage;
+- (id)IFTSchemaASTFlatExprPrefixVariant;
+- (void)habitualUsage;
 - (unsigned int);
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsDecisionCorrect;
-@property(nonatomic) _Bool hasIsModelConfirmation;
-@property(nonatomic) _Bool hasIsModelDisambiguation;
-@property(nonatomic) _Bool hasModelVersion;
-@property(nonatomic) _Bool hasNumCandidateApps;
-@property(nonatomic) _Bool hasProjectIntent;
-@property(nonatomic) _Bool hasUserPersona;
-@property(nonatomic) _Bool isDecisionCorrect; // @synthesize isDecisionCorrect=_isDecisionCorrect;
-@property(nonatomic) _Bool isModelConfirmation; // @synthesize isModelConfirmation=_isModelConfirmation;
-@property(nonatomic) _Bool isModelDisambiguation; // @synthesize isModelDisambiguation=_isModelDisambiguation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int modelVersion; // @synthesize modelVersion=_modelVersion;
-@property(nonatomic) int numCandidateApps; // @synthesize numCandidateApps=_numCandidateApps;
 @property(nonatomic) int projectIntent; // @synthesize projectIntent=_projectIntent;
-@property(nonatomic) int userPersona; // @synthesize userPersona=_userPersona;
 
 @end
 

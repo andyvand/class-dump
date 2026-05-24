@@ -11,7 +11,6 @@
 @interface QCGLSLShaderUI : QCInspector
 {
     QCProgrammablePatchView *vertexView;
-    QCProgrammablePatchView *fragmentView;
 }
 
 + (id);

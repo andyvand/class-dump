@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
 + (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)5;
 - (id);
-- (void);
+- (void)_allowedUsers;
 - (id);
 - (id);
 - (void)*°1Â0@ù

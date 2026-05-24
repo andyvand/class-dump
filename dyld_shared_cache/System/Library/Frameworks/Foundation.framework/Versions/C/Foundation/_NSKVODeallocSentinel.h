@@ -10,9 +10,9 @@ __attribute__((visibility("hidden")))
     id _observedObject;
 }
 
-+ (void);
++ (void)`";
 - (void);
-- (id);
+- (id)kA;
 
 @end
 

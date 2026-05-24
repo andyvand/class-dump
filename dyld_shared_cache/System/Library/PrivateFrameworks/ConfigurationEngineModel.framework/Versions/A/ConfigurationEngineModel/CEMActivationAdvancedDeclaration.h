@@ -6,17 +6,15 @@
 
 #import <ConfigurationEngineModel/CEMDeclarationBase.h>
 
-@class CEMAnyPayload, NSArray, NSString;
+@class NSArray;
 
 @interface CEMActivationAdvancedDeclaration : CEMDeclarationBase
 {
     NSArray *_payloadRequiredConfigurations;
-    NSArray *_payloadStandardConfigurations;
-    CEMAnyPayload *_payloadActivationPredicate;
 }
 
 + (id);
-+ (id);
++ (id)`B;
 + (id);
 + (id);
 + (id);
@@ -26,22 +24,13 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)ccdddddddeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeffffffffffffffffffffffffffffffffffggghiiijkkkkkkkkkkll.mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmnmmmommmm............mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmnmmmmmmmmmmmmmmm..................pppp.ppppppppppppppppppppppppppp.pp.p..p.pppppppppp.pppp.p.p......p....p.p.p.ppp.pp.p..p.p.p.p.p.pp.p..pppp.ppppppp.pppp.pppp.p.pppppppppp.ppppppppppppppppp.....ppp.ppppp.ppppppppppppppppp..................................................................qqqqrqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqssssqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqssssssssssssqqqqqqqqqqqqqqqssqqqqqqqqqqqqqqqsqqqqqqqqqqqqqqrsqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqssssssssss6;
 - (_Bool);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CEMAnyPayload *payloadActivationPredicate; // @synthesize payloadActivationPredicate=_payloadActivationPredicate;
 @property(copy, nonatomic) NSArray *payloadRequiredConfigurations; // @synthesize payloadRequiredConfigurations=_payloadRequiredConfigurations;
-@property(copy, nonatomic) NSArray *payloadStandardConfigurations; // @synthesize payloadStandardConfigurations=_payloadStandardConfigurations;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,6 +7,7 @@
 @class SFButtonItem;
 
 @protocol SearchUICommandButton
+- (SFButtonItem *);
 
 // Remaining properties
 @property(retain) SFButtonItem *buttonItem;

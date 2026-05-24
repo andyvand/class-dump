@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSWindow;
 @protocol CDPUIStatusChangeModel;
 
 @interface CDPUIStatusChangeController
 {
     CDUnknownBlockType _userActionCallback;
-    CDUnknownBlockType _completionCallback;
-    id <CDPUIStatusChangeModel> _model;
-    NSWindow *_presentingWindow;
 }
 
-+ (id);
-+ (id);
++ (id)executed.;
++ (id)Reached IPInt code that should never have been executed.;
 + (id);
 - (CDUnknownBlockType);
 - (void);
@@ -24,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -36,7 +32,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)m_virtualMachine;
 - (void);
 - (void);
 - (void);
@@ -45,13 +41,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)t;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionCallback; // @synthesize completionCallback=_completionCallback;
 @property(readonly, nonatomic) id <CDPUIStatusChangeModel> model; // @synthesize model=_model;
-@property(retain, nonatomic) NSWindow *presentingWindow; // @synthesize presentingWindow=_presentingWindow;
-@property(copy, nonatomic) CDUnknownBlockType userActionCallback; // @synthesize userActionCallback=_userActionCallback;
 
 @end
 

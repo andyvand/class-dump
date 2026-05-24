@@ -4,53 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface ModelKeyServerAPIFetchKeyRequest
 {
     NSString *_keyId;
-    NSData *_signedKeyRequest;
-    NSString *_teamId;
-    _Bool _rawRequest;
-    struct {
-        unsigned int rawRequest:1;
-    } _has;
 }
 
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
+- (id)taWithEncoder:descriptor:bvhDescriptor:inPlace:sourceBuffer:sourceBufferOffset:scratchBuffer:scratchBufferOffset:retainedResources:innerNodeCapacity:leafNodeCapacity:] /* Error: Ran out of types for this method. */;
+- (void)extractMTLGenericBVHControlPointData;
+- (void)findBestTemporalSplitKernel;
+- (void)getSerializedMTLBVHSizeKernel;
+- (void)refitInstanceResourceIDsIndirectKernel;
+- (_Bool)char2;
+- (id)%lu).;
 - (_Bool);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (id)coderInfoOverride;
 - (void);
-- (id);
-- (id);
+- (void);
+- (void);
+- (unsigned long long)(;
+- (_Bool)j`n0vvn;
+- (_Bool)5;
+- (void);
+- (id)';
+- (id)h;
 - (id);
 - (void)to create MLFeatureValue from the specified output backing object %@;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasKeyId;
-@property(nonatomic) _Bool hasRawRequest;
-@property(readonly, nonatomic) _Bool hasSignedKeyRequest;
-@property(readonly, nonatomic) _Bool hasTeamId;
-@property(retain, nonatomic) NSString *keyId; // @synthesize keyId=_keyId;
-@property(nonatomic) _Bool rawRequest; // @synthesize rawRequest=_rawRequest;
-@property(retain, nonatomic) NSData *signedKeyRequest; // @synthesize signedKeyRequest=_signedKeyRequest;
-@property(retain, nonatomic) NSString *teamId; // @synthesize teamId=_teamId;
 
 @end
 

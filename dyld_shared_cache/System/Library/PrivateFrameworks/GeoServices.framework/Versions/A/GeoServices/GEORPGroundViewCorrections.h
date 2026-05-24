@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORPFeedbackAddressFields, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEORPGroundViewCorrections
 {
     PBUnknownFields *_unknownFields;
-    GEORPFeedbackAddressFields *_addressToCensor;
-    int _correctionType;
-    CDStruct_ef3e2236 _flags;
 }
 
-+ (_Bool)played:(id)arg1;
-- (void);
-- (void);
-- (void);
++ (_Bool)setLastEtaDisplayed:(id)arg1;
+- (void)setPersistentStoreCoordinator:(_Bool)arg1;
+- (void)initWithName:(int)arg1 type:writable: /* Error: Ran out of types for this method. */;
+- (void)createHashedMigrationDirectoryForDatabasePath:(id)arg1 error: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -29,25 +26,21 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)CSVoiceTriggerFirstPassRemora;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)lds"b1"read_name"b1"read_sectionGuide"b1"read_sectionPlace"b1"wrote_anyField"b1};
-- (id)sitRouteUpdateRequest: /* Error: Ran out of types for this method. */;
+- (id)cancelTransitRouteUpdateRequest: /* Error: Ran out of types for this method. */;
 - (id)Ìð
 `À ;
-- (id)aRequest;
+- (id)DataRequest;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) GEORPFeedbackAddressFields *addressToCensor;
-@property(nonatomic) int correctionType;
-@property(readonly, nonatomic) _Bool hasAddressToCensor;
 @property(nonatomic) _Bool hasCorrectionType;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

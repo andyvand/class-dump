@@ -7,7 +7,6 @@
 @interface NewsFeed.PuzzleEmbedSubmitScoreHandler
 {
     id scriptsManager;
-    id delegate;
 }
 
 - (void);

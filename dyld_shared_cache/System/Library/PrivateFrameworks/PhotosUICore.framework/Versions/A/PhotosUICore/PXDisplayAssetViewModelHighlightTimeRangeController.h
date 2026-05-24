@@ -8,10 +8,6 @@ __attribute__((visibility("hidden")))
 @interface PXDisplayAssetViewModelHighlightTimeRangeController
 {
     id viewModel;
-    id viewModelObservation;
-    id analysisProgress;
-    id timeRanges;
-    id analyzer;
 }
 
 - (id);

@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL;
-
 @interface SNKShotSegment
 {
     id impl;
@@ -22,7 +20,6 @@
 
 // Remaining properties
 @property(nonatomic) CDStruct_3c1748cc timeRange;
-@property(nonatomic, copy) NSURL *url;
 
 @end
 

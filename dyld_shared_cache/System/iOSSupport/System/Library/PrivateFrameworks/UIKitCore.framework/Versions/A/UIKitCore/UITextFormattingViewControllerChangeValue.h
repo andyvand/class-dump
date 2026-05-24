@@ -4,68 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString, UIColor, UIFont;
+@class NSString;
 
 @interface UITextFormattingViewControllerChangeValue
 {
     NSString *_changeType;
-    NSString *_formattingStyleKey;
-    UIFont *_font;
-    UIColor *_color;
-    NSNumber *_numberValue;
-    NSString *_textList;
-    long long _textAlignment;
-    NSString *_highlight;
-    NSString *__customComponentKey;
-    NSString *__emphasisStyleKey;
-    NSString *__textAnimationName;
-    NSDictionary *__textAnimationAttributes;
 }
 
 + (_Bool)t didn't belong to lendable view.;
+- (id)T;
 - (id);
 - (id);
 - (id);
+- (id);
+- (id)(;
+- (id);
+- (id);
+- (id)d and caller ID is a phone number so will store message [%@] anyways;
+- (id)SIM inserted and caller ID is a phone number so will store message [%@] anyways;
+- (id)cted on phone but phone does not have SIM inserted and caller ID is a phone number so will store message [%@] anyways;
+- (id)@] is unselected on phone but phone does not have SIM inserted and caller ID is a phone number so will store message [%@] anyways;
 - (id);
 - (id);
 - (id);
+- (id)riptBackground;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)#;
 - (id);
 - (id);
 - (id);
 - (id)"NSIndexPath"24;
-- (void)hSolution:(id)arg1 preferredSizes: /* Error: Ran out of types for this method. */;
+- (void)initWithSolution:(id)arg1 preferredSizes: /* Error: Ran out of types for this method. */;
 - (id)tionAnimator;
 - (id)|þÿ;
-- (id)dStoryboardName;
+- (id)UIReferencedStoryboardName;
 - (void)0P¸ÿ
 >ØT]a;
 - (long long)ÜþýÙÀêe;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *_customComponentKey; // @synthesize _customComponentKey=__customComponentKey;
-@property(readonly, copy, nonatomic) NSString *_emphasisStyleKey; // @synthesize _emphasisStyleKey=__emphasisStyleKey;
-@property(readonly, nonatomic) NSDictionary *_textAnimationAttributes; // @synthesize _textAnimationAttributes=__textAnimationAttributes;
-@property(readonly, nonatomic) NSString *_textAnimationName; // @synthesize _textAnimationName=__textAnimationName;
-@property(readonly, nonatomic) NSString *changeType; // @synthesize changeType=_changeType;
-@property(readonly, copy, nonatomic) UIColor *color; // @synthesize color=_color;
-@property(readonly, copy, nonatomic) UIFont *font; // @synthesize font=_font;
-@property(readonly, copy, nonatomic) NSString *formattingStyleKey; // @synthesize formattingStyleKey=_formattingStyleKey;
-@property(readonly, copy, nonatomic) NSString *highlight; // @synthesize highlight=_highlight;
-@property(readonly, copy, nonatomic) NSNumber *numberValue; // @synthesize numberValue=_numberValue;
-@property(readonly, nonatomic) long long textAlignment; // @synthesize textAlignment=_textAlignment;
-@property(readonly, copy, nonatomic) NSString *textList; // @synthesize textList=_textList;
+@property(nonatomic, readonly) NSString *_textAnimationName;
 
 @end
 

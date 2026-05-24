@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSXPCConnection;
+@class NSLock;
 
 @interface FLUIHelperController
 {
     NSLock *_connLock;
-    NSXPCConnection *_conn;
 }
 
 + (id);
@@ -20,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)A;
 
 @end
 

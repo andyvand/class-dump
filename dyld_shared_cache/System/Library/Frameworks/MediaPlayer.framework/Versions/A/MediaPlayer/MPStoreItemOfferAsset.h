@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSURL;
+@class NSDictionary;
 
 @interface MPStoreItemOfferAsset
 {
@@ -18,15 +18,10 @@
 - (long long);
 - (id);
 - (id);
-- (void)sStreaming;
+- (void)_shouldUseAccountLessStreaming;
 
 // Remaining properties
-@property(readonly, nonatomic) double duration;
-@property(readonly, copy, nonatomic) NSString *flavor;
 @property(readonly, copy, nonatomic) NSDictionary *lookupDictionary; // @synthesize lookupDictionary=_lookupDictionary;
-@property(readonly, nonatomic) double previewDuration;
-@property(readonly, copy, nonatomic) NSURL *previewURL;
-@property(readonly, nonatomic) long long size;
 
 @end
 

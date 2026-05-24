@@ -9,23 +9,21 @@
 @interface SIRINLUSystemInformed
 {
     NSString *renderedText;
-    NSArray *_entities;
 }
 
 + (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)E;
 - (id);
 - (id);
 - (void);
 - (void);
 - (void)noVerb_common_Calendar;
-- (id)erCapabilities_common_UserEntity;
+- (id)UsoTask_discoverCapabilities_common_UserEntity;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *entities; // @synthesize entities=_entities;
-@property(retain, nonatomic) NSString *renderedText; // @synthesize renderedText;
 
 @end
 

@@ -11,14 +11,13 @@
 }
 
 + (_Bool);
-- (float);
-- (void);
-- (id);
+- (float)clearTextFields;
+- (void)dictionaryWithObject:forKey: /* Error: Ran out of types for this method. */;
+- (id)E;
 - (float);
 
 // Remaining properties
 @property(readonly, nonatomic) float hardwareCost;
-@property(readonly, nonatomic) float systemPressureCost;
 
 @end
 

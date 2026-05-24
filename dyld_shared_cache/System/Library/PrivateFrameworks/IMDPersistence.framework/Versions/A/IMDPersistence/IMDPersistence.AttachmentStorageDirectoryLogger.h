@@ -7,9 +7,6 @@
 @interface IMDPersistence.AttachmentStorageDirectoryLogger
 {
     id rootDirectory;
-    id delegate;
-    id minDepth;
-    id directoryBatchSize;
 }
 
 @end

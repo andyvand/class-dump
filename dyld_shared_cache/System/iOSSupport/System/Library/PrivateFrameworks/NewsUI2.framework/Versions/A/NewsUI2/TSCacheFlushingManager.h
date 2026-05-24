@@ -7,13 +7,11 @@
 @interface TSCacheFlushingManager
 {
     id cacheFlusher;
-    id storageLevelProvider;
-    id preFlushGroup;
-    id updateQueue;
 }
 
-- (id);
-- (void);
+- (id)yB
+	G;
+- (void):(CDUnknownBlockType)arg1 );
 - (id);
 - (void);
 - (void)SessionDonorPropertyError;

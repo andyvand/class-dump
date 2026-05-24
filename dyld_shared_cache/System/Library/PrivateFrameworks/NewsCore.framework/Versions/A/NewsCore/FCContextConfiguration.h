@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface FCContextConfiguration
 {
     _Bool _isProductionContentEnvironment;
-    _Bool _isProductionPrivateDataEnvironment;
-    long long _environment;
-    NSString *_contentContainerIdentifier;
-    NSString *_contentContainerCombinationIdentifier;
-    NSString *_privateDataContainerIdentifier;
-    NSString *_privateDataSecureContainerIdentifier;
-    NSString *_privateDataContainerCombinationIdentifier;
 }
 
 + (id);
@@ -25,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)__auth_got;
 - (id);
 - (id);
 - (id);
@@ -35,15 +26,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *contentContainerCombinationIdentifier; // @synthesize contentContainerCombinationIdentifier=_contentContainerCombinationIdentifier;
-@property(readonly, copy, nonatomic) NSString *contentContainerIdentifier; // @synthesize contentContainerIdentifier=_contentContainerIdentifier;
-@property(readonly, copy, nonatomic) NSString *contentEnvironmentDescription;
-@property(readonly, nonatomic) long long environment; // @synthesize environment=_environment;
 @property(readonly, nonatomic) _Bool isProductionContentEnvironment; // @synthesize isProductionContentEnvironment=_isProductionContentEnvironment;
-@property(readonly, nonatomic) _Bool isProductionPrivateDataEnvironment; // @synthesize isProductionPrivateDataEnvironment=_isProductionPrivateDataEnvironment;
-@property(readonly, copy, nonatomic) NSString *privateDataContainerCombinationIdentifier; // @synthesize privateDataContainerCombinationIdentifier=_privateDataContainerCombinationIdentifier;
-@property(readonly, copy, nonatomic) NSString *privateDataContainerIdentifier; // @synthesize privateDataContainerIdentifier=_privateDataContainerIdentifier;
-@property(readonly, copy, nonatomic) NSString *privateDataSecureContainerIdentifier; // @synthesize privateDataSecureContainerIdentifier=_privateDataSecureContainerIdentifier;
 
 @end
 

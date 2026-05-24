@@ -6,53 +6,41 @@
 
 #import <AppKit/NSTextFieldCell.h>
 
-@class NSImage, NSImageCell, NSString;
+@class NSImage, NSImageCell;
 
 @interface NSImageTextFieldCell : NSTextFieldCell
 {
     NSImageCell *_imageCell;
-    unsigned int _rowSizeStyle:3;
-    unsigned int _outlineCellFrameSet:1;
 }
 
-+ (id);
-- (void);
++ (id)6Za;
+- (void);
 - (struct CGRect);
 - (void);
 - (void);
 - (void);
 - (long long);
 - (struct CGRect);
-- (struct CGRect);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (struct CGSize);
+- (struct CGRect)ssion"16@"NSURLSessionTask"24@"NSURLSessionTaskMetrics"32;
+- (unsigned long long)timeoutIntervalForResource;
+- (void)computeAdjustedPoolPriority;
+- (void)cancelTaskWithIdentifier:(struct CGRect)arg1 byProducingResumeData:(id)arg2;
+- (void)cancelMessage:(struct CGRect)arg1;
+- (struct CGSize)_NSURLAppSSOProtocol;
 - (double);
-- (struct CGRect);
+- (struct CGRect);
 - (struct CGRect);
 - (void);
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (id)itViewAlwaysLaysOutAccordingToAlignmentRects:(struct _NSZone *)arg1;
-- (double)ew;
-- (void)esktop;
+- (id)_nsib_setSplitViewAlwaysLaysOutAccordingToAlignmentRects:(struct _NSZone *)arg1;
+- (double)_topBorderView;
+- (void)ToDesktop;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) NSImage *image; // @dynamic image;
-@property(readonly) double imageSize;
-@property struct CGRect outlineCellFrame; // @dynamic outlineCellFrame;
-@property long long rowSizeStyle; // @dynamic rowSizeStyle;
-@property(readonly) Class superclass;
 
 @end
 

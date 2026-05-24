@@ -6,15 +6,11 @@
 
 #import <IDSFoundation/IDSMessage.h>
 
-@class NSArray, NSData, NSString;
+@class NSArray;
 
 @interface IDSMMCSAccessRequestMessage : IDSMessage
 {
     NSArray *_downloadAuths;
-    NSData *_downloadingDeviceToken;
-    NSData *_sessionToken;
-    NSString *_downloadingDeviceID;
-    NSString *_senderID;
 }
 
 - (void);
@@ -37,10 +33,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *downloadAuths; // @synthesize downloadAuths=_downloadAuths;
-@property(retain, nonatomic) NSString *downloadingDeviceID; // @synthesize downloadingDeviceID=_downloadingDeviceID;
-@property(retain, nonatomic) NSData *downloadingDeviceToken; // @synthesize downloadingDeviceToken=_downloadingDeviceToken;
-@property(retain, nonatomic) NSString *senderID; // @synthesize senderID=_senderID;
-@property(retain, nonatomic) NSData *sessionToken; // @synthesize sessionToken=_sessionToken;
 
 @end
 

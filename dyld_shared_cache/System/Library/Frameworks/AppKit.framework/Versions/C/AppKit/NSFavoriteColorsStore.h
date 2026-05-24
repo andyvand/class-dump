@@ -10,34 +10,52 @@ __attribute__((visibility("hidden")))
 @interface NSFavoriteColorsStore
 {
     NSArray *_colorEntries;
-    _Bool _updatingFromBacking;
 }
 
-+ (_Bool);
-+ (id);
-+ (id);
++ (_Bool)_kCFNTimingDataConnectStart;
++ (id)Cipher Suite) 0x%04hX
+(Cellular) %s
+(Expensive) %s
+(Constrained) %s
+(Multipath) %s
+;
++ (id)er Bytes) %lld
+(Request Body Bytes) %lld
+(Response Header Bytes) %lld
+(Response Body Transfer Bytes) %lld
+(Response Body Bytes) %lld
+(Local Address) %@
+(Local Port) %@
+(Remote Address) %@
+(Remote Port) %@
+(TLS Protocol Version) 0x%04hX
+(TLS Cipher Suite) 0x%04hX
+(Cellular) %s
+(Expensive) %s
+(Constrained) %s
+(Multipath) %s
+;
 + (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ock_s="_os_unfair_lock_opaque"I};
+- (void)@"NSURL",C,V_uploadFile;
+- (void);
 - (id);
 - (id);
-- (void);
+- (void)tryReason:(id)arg1:Permit_ConnectionLost fNumConnectionLossRetries=%d, fNumRetries=%d /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
 @property(copy) NSArray *colorEntries;
-@property(readonly, copy) NSArray *colors;
 
 @end
 

@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     NSIndexPath *_indexPath;
 }
 
-- (id);
+- (id)_markGroupPhotosAsUnpurgeableIfNecessary;
 - (id)!XBù`1Â0@ù
 × ;
 - (void)ÊA4;

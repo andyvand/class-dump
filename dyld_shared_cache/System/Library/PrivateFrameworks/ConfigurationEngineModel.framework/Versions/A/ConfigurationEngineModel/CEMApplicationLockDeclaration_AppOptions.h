@@ -11,22 +11,11 @@
 @interface CEMApplicationLockDeclaration_AppOptions : CEMPayloadBase
 {
     NSNumber *_payloadDisableTouch;
-    NSNumber *_payloadDisableDeviceRotation;
-    NSNumber *_payloadDisableVolumeButtons;
-    NSNumber *_payloadDisableRingerSwitch;
-    NSNumber *_payloadDisableSleepWakeButton;
-    NSNumber *_payloadDisableAutoLock;
-    NSNumber *_payloadEnableVoiceOver;
-    NSNumber *_payloadEnableZoom;
-    NSNumber *_payloadEnableInvertColors;
-    NSNumber *_payloadEnableAssistiveTouch;
-    NSNumber *_payloadEnableSpeakSelection;
-    NSNumber *_payloadEnableMonoAudio;
 }
 
++ (id)__auth_got;
 + (id);
 + (id);
-+ (id);
 - (void);
 - (void);
 - (void);
@@ -42,33 +31,22 @@
 - (id);
 - (id);
 - (id);
+- (id)b;
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)!`6;
+- (void)<;
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqssssssssssssqqqqqqqqqqqqqqqssqqqqqqqqqqqqqqqsqqqqqqqqqqqqqqrsqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqssssssssss6;
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *payloadDisableAutoLock; // @synthesize payloadDisableAutoLock=_payloadDisableAutoLock;
-@property(copy, nonatomic) NSNumber *payloadDisableDeviceRotation; // @synthesize payloadDisableDeviceRotation=_payloadDisableDeviceRotation;
-@property(copy, nonatomic) NSNumber *payloadDisableRingerSwitch; // @synthesize payloadDisableRingerSwitch=_payloadDisableRingerSwitch;
-@property(copy, nonatomic) NSNumber *payloadDisableSleepWakeButton; // @synthesize payloadDisableSleepWakeButton=_payloadDisableSleepWakeButton;
 @property(copy, nonatomic) NSNumber *payloadDisableTouch; // @synthesize payloadDisableTouch=_payloadDisableTouch;
-@property(copy, nonatomic) NSNumber *payloadDisableVolumeButtons; // @synthesize payloadDisableVolumeButtons=_payloadDisableVolumeButtons;
-@property(copy, nonatomic) NSNumber *payloadEnableAssistiveTouch; // @synthesize payloadEnableAssistiveTouch=_payloadEnableAssistiveTouch;
-@property(copy, nonatomic) NSNumber *payloadEnableInvertColors; // @synthesize payloadEnableInvertColors=_payloadEnableInvertColors;
-@property(copy, nonatomic) NSNumber *payloadEnableMonoAudio; // @synthesize payloadEnableMonoAudio=_payloadEnableMonoAudio;
-@property(copy, nonatomic) NSNumber *payloadEnableSpeakSelection; // @synthesize payloadEnableSpeakSelection=_payloadEnableSpeakSelection;
-@property(copy, nonatomic) NSNumber *payloadEnableVoiceOver; // @synthesize payloadEnableVoiceOver=_payloadEnableVoiceOver;
-@property(copy, nonatomic) NSNumber *payloadEnableZoom; // @synthesize payloadEnableZoom=_payloadEnableZoom;
 
 @end
 

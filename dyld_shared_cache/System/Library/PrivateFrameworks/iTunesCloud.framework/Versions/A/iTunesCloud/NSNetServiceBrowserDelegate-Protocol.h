@@ -5,5 +5,12 @@
 //
 
 @protocol NSNetServiceBrowserDelegate
+
+@optional
+- (void)_MLMediaLibraryResourcesServiceServerRemoteObjectInterface;
+- (void)_MLMediaLibraryResourcesServiceServerExportedInterface;
+- (void)UUIDString;
+- (void)N,V_libraryName;
+- (void)nQueue;
 @end
 

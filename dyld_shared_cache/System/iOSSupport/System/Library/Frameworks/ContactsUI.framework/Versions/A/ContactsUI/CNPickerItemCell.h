@@ -10,23 +10,21 @@ __attribute__((visibility("hidden")))
 @interface CNPickerItemCell
 {
     _Bool _placeholder;
-    UITextField *_textField;
 }
 
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)chError;
 - (id);
 - (void);
 - (void);
 - (id);
-- (_Bool)dingPlaceholderImage;
-- (void)roller;
+- (_Bool)loadingPlaceholderImage;
+- (void)_presentedViewController;
 
 // Remaining properties
-@property(nonatomic, getter=isPlaceholder) _Bool placeholder; // @synthesize placeholder=_placeholder;
 @property(retain, nonatomic) UITextField *textField; // @synthesize textField=_textField;
 
 @end

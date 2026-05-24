@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, STYURLSessionHelper;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface STYDiagnosticUploader
 {
     NSObject<OS_dispatch_queue> *_queue;
-    STYURLSessionHelper *_eventReportingSession;
-    STYURLSessionHelper *_diagnosticUploadSession;
-    NSMutableDictionary *_pendingFiles;
 }
 
 + (id);

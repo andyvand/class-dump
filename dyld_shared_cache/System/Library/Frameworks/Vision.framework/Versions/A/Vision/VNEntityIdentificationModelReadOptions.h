@@ -12,11 +12,11 @@
 }
 
 + (_Bool);
-- (id);
-- (void);
+- (id)archiveItemsAtURLs:(id)arg1 toURL:options:compressionFormat:passphrase:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_importUnarchivedContentAtURL:(id)arg1 archiveName:completionHandler: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)!A�8;
 - (void);
 - (id);
 - (void)in OptionsDictionary;

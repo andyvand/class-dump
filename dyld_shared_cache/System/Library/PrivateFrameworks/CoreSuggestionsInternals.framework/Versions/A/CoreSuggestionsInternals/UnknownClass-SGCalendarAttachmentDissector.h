@@ -6,8 +6,8 @@
 
 @interface UnknownClass (SGCalendarAttachmentDissector)
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)waitUntilAllOperationsAreFinished;
+- (id)initWithOAuth2Token:(id)arg1 refreshToken:expiryDate: /* Error: Ran out of types for this method. */;
 @end
 

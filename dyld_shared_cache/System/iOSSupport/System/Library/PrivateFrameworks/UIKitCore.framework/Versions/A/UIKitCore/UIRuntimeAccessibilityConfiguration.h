@@ -4,46 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSObject, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface UIRuntimeAccessibilityConfiguration
 {
     NSString *accessibilityConfigurationHint;
-    NSString *accessibilityConfigurationIdentifier;
-    NSString *accessibilityConfigurationLabel;
-    NSNumber *accessibilityConfigurationTraits;
-    NSNumber *isAccessibilityConfigurationElement;
-    NSObject *object;
 }
 
+- (void)1G;
+- (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)with name:%@, identifier:%@ /* Error: Ran out of types for this method. */;
+- (id)skipped;
+- (id)ustKit warn state:(id)arg1 %@;
+- (id)S phone number account;
+- (id)ccount %@ with phone number %@;
+- (id)the dominant phone number one;
 - (id);
 - (id);
 - (id);
 - (void)!ÐDùÑfð1Â0@ù
 × ;
-- (void)unds:(id)arg1 context: /* Error: Ran out of types for this method. */;
+- (void)drawTextParagraphAnchoredAttachment:(id)arg1 bounds:context: /* Error: Ran out of types for this method. */;
 - (void)4ûc;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *accessibilityConfigurationHint; // @synthesize accessibilityConfigurationHint;
-@property(retain, nonatomic) NSString *accessibilityConfigurationIdentifier; // @synthesize accessibilityConfigurationIdentifier;
-@property(retain, nonatomic) NSString *accessibilityConfigurationLabel; // @synthesize accessibilityConfigurationLabel;
-@property(retain, nonatomic) NSNumber *accessibilityConfigurationTraits; // @synthesize accessibilityConfigurationTraits;
-@property(retain, nonatomic) NSNumber *isAccessibilityConfigurationElement; // @synthesize isAccessibilityConfigurationElement;
-@property(retain, nonatomic) NSObject *object; // @synthesize object;
 
 @end
 

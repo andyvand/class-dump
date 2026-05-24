@@ -19,7 +19,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count;
 @property(readonly, nonatomic) NSArray *cubeInfos; // @synthesize cubeInfos=_cubeInfos;
 
 @end

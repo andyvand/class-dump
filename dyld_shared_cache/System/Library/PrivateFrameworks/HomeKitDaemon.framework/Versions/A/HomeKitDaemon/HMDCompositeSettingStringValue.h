@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id)levisionAccessories;
 - (id)ntext resolution result because home is nil;
-- (id)AliroVersion;
+- (id)LocalAliroVersion;
 - (void)e.MobileAsset.HomeKitDevices;
 
 // Remaining properties

@@ -6,62 +6,19 @@
 
 #import <MediaRemote/MRAVOutputDevice.h>
 
-@class NSArray, NSData, NSDictionary, NSObject, NSString, NSXPCListenerEndpoint;
+@class NSObject, NSXPCListenerEndpoint;
 @protocol OS_dispatch_queue;
 
 @interface MRAVVirtualOutputDevice : MRAVOutputDevice
 {
     NSObject<OS_dispatch_queue> *_accessSerialQueue;
-    NSString *_uid;
-    NSString *_modelID;
-    NSString *_firmwareVersion;
-    NSString *_logicalDeviceID;
-    NSString *_groupID;
-    NSData *_MACAddress;
-    NSDictionary *_modelSpecificInfo;
-    NSString *_playingPairedDeviceName;
-    NSString *_name;
-    _Bool _canAccessRemoteAssets;
-    _Bool _canAccessAppleMusic;
-    _Bool _canAccessiCloudMusicLibrary;
-    _Bool _canPlayEncryptedProgressiveDownloadAssets;
-    _Bool _canFetchMediaDataFromSender;
-    _Bool _presentsOptimizedUserInterfaceWhenPlayingFetchedAudioOnlyAssets;
-    _Bool _isRemoteControllable;
-    _Bool _canRelayCommunicationChannel;
-    _Bool _supportsBufferedAirPlay;
-    _Bool _supportsRapport;
-    _Bool _isAddedToHomeKit;
-    _Bool _isGroupLeader;
-    _Bool _groupContainsGroupLeader;
-    _Bool _airPlayReceiver;
-    NSString *_parentGroupIdentifier;
-    _Bool _isGroupable;
-    _Bool _supportsBluetoothSharing;
-    _Bool _isProxyGroupPlayer;
-    _Bool _isPickedOnPairedDevice;
-    float _batteryLevel;
-    _Bool _hasBatteryLevel;
-    _Bool _isLocalDevice;
-    _Bool _supportsExternalScreen;
-    unsigned int _deviceType;
-    unsigned int _deviceSubType;
-    _Bool _requiresAuthorization;
-    _Bool _isVolumeControlAvailable;
-    float _volume;
-    NSString *_bluetoothID;
-    _Bool _isUsingJSONProtocol;
-    NSString *_currentBluetoothListeningMode;
-    NSArray *_availableBluetoothListeningModes;
-    NSXPCListenerEndpoint *_pipeEndpoint;
-    NSData *_jsonDeviceDefinition;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)battery;
 - (float);
 - (_Bool);
 - (id);
@@ -92,14 +49,14 @@
 - (id)!xDùq&ð1Â0@ù
 × ;
 - (id);
-- (_Bool)ayID: /* Error: Ran out of types for this method. */;
-- (_Bool)veredHandler: /* Error: Ran out of types for this method. */;
-- (_Bool)ParentGroup:queue:completion: /* Error: Ran out of types for this method. */;
-- (_Bool)icationConnectionMessage;
-- (_Bool)DType;
-- (_Bool)r: /* Error: Ran out of types for this method. */;
+- (_Bool)setSenderAppDisplayID: /* Error: Ran out of types for this method. */;
+- (_Bool)setEndpointDiscoveredHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)removeFromParentGroup:queue:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)invalidateApplicationConnectionMessage;
+- (_Bool)addingOutputDeviceUIDType;
+- (_Bool)initWithTimeout:reason:handler: /* Error: Ran out of types for this method. */;
 - (void)R,N,V_nowPlayingClients;
-- (id)uf;
+- (id)_MRCreateApplicationConnectionMessageProtobuf;
 - (_Bool)tç`è¼éê;
 - (_Bool)und incomplete cluster (expected:%lu):%{public}@ in endpoint:%{public}@ /* Error: Ran out of types for this method. */;
 - (_Bool)eCallbacksDuringInitialLoad = %@
@@ -107,14 +64,13 @@
    discoveryPredicate = %@
 }>
 ;
-- (id)RemoteNowPlayingInfoTotalChapterCount;
+- (id)kMRMediaRemoteNowPlayingInfoTotalChapterCount;
 - (_Bool)ate.alloy.mediaremote.v2;
 - (_Bool)NÌ	;
 - (_Bool)pdöÿ;
 - (id)C;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonDeviceDefinition; // @synthesize jsonDeviceDefinition=_jsonDeviceDefinition;
 @property(readonly, nonatomic) NSXPCListenerEndpoint *pipeEndpoint; // @synthesize pipeEndpoint=_pipeEndpoint;
 
 @end

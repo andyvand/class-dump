@@ -4,25 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _PFExternalReferenceData
 {
     _Atomic id _originalData;
-    void *_bytesPtrForStore;
-    unsigned long long _bytesLengthForStore;
-    void *_bytesPtrForExternalReference;
-    unsigned long long _bytesLengthForExternalReference;
-    NSString *_externalReferenceLocation;
-    NSString *_safeguardLocation;
-    struct __externalDataFlags {
-        unsigned int _cleanupOnDealloc:1;
-        unsigned int _dataProtectionLevel:3;
-        unsigned int _reserved:4;
-    } _externalDataFlags;
-    _Atomic _Bool _isStoredExternally;
-    _Atomic _Bool _hasMappedData;
 }
 
 + (Class)%lld bytes;
@@ -30,23 +15,24 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (unsigned long long);
-- (Class);
+- (Class);
 - (const void *);
 - (id);
 - (const char *);
 - (id);
 - (void);
 - (const char *);
-- (const void *);
-- (const void *);
+- (const void *)k;
+- (const void *);
 - (void);
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long)filter
+;
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)P;
+- (id);
+- (void);
 - (int);
 - (_Bool);
 - (id);
@@ -62,7 +48,7 @@ __attribute__((visibility("hidden")))
 ;
 - (void)oin (min/max(key.path) not allowed in updates);
 - (_Bool)s name is nil while trying to save a mergeable value.;
-- (void)undRuntimeVoucherStatusUninitialized;
+- (void)_PFBackgroundRuntimeVoucherStatusUninitialized;
 
 @end
 

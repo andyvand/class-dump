@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, TIKeyboardCandidate, TILiveConversionSegments, TIWordSearch;
+@class NSString;
 
 @interface TIKeyboardInputManager_ja_SegmentPicker
 {
     _Bool _supportsSetPhraseBoundary;
     _Bool _shouldShowCandidateWindow;
-    TIWordSearch *_wordSearch;
-    CDUnknownBlockType _syncKeyboardStateHandler;
-    TILiveConversionSegments *_liveConversionSegments;
-    TIKeyboardCandidate *_currentCandidate;
-    long long _transliterationType;
 }
 
 - (CDUnknownBlockType);
@@ -22,17 +17,17 @@
 - (void);
 - (void);
 - (id);
+- (void)h`Ө;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)2;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (long long);
@@ -51,28 +46,21 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (_Bool);
+- (id)?x;
+- (void)LE11BinaryIntOpIxXtlNS_3$_6EEEEE;
+- (_Bool)ck;
 - (id);
 - (unsigned long long);
-- (void);
-- (_Bool);
+- (void)MTLPixelFormatInvalid != newFormat;
+- (_Bool)F;
 - (unsigned long long);
-- (id);
+- (id)invertedSet;
 - (_Bool);
-- (id):contextString:predictionEnabled:reanalysisMode:singlePhrase:geometoryModelData: /* Error: Ran out of types for this method. */;
+- (id)makeCandidatesWithInputString:autoCommitString:contextString:predictionEnabled:reanalysisMode:singlePhrase:geometoryModelData: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) TIKeyboardCandidate *currentCandidate; // @synthesize currentCandidate=_currentCandidate;
-@property(readonly, nonatomic) unsigned long long index;
-@property(retain, nonatomic) TILiveConversionSegments *liveConversionSegments; // @synthesize liveConversionSegments=_liveConversionSegments;
 @property(copy, nonatomic) NSString *remainingInput;
-@property(readonly, nonatomic) NSArray *segments;
-@property(nonatomic) _Bool shouldShowCandidateWindow; // @synthesize shouldShowCandidateWindow=_shouldShowCandidateWindow;
-@property(nonatomic) _Bool supportsSetPhraseBoundary; // @synthesize supportsSetPhraseBoundary=_supportsSetPhraseBoundary;
 @property(copy, nonatomic) CDUnknownBlockType syncKeyboardStateHandler; // @synthesize syncKeyboardStateHandler=_syncKeyboardStateHandler;
-@property(nonatomic) long long transliterationType; // @synthesize transliterationType=_transliterationType;
 
 @end
 

@@ -10,7 +10,7 @@
 {
 }
 
-+ (Class);
++ (Class)SString"8Q16^B24;
 + (id);
 + (void);
 - (id);

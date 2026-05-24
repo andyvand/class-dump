@@ -5,5 +5,8 @@
 //
 
 @protocol HMFHTTPClientConnectionDelegate
+
+@optional
+- (void);
 @end
 

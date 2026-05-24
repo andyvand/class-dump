@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ITMediaLibraryQuery, MPMediaQueryMutableSectionInfo, NSArray, NSString;
+@class ITMediaLibraryQuery;
 
 __attribute__((visibility("hidden")))
 @interface ITMediaLibraryQueryResultSet
 {
     struct vector<ITMediaEntity *, std::allocator<ITMediaEntity *>> _results;
-    MPMediaQueryMutableSectionInfo *_sectionInfo;
-    _Bool _requestingCollection;
-    ITMediaLibraryQuery *_query;
-    long long _revision;
-    long long _localRevision;
 }
 
 - (_Bool);
@@ -29,8 +24,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)QHPADSQ12CoreGraphicsyHC_HC_HCg0_G;
+- (id)!$;
 - (id);
 - (id);
 - (id);
@@ -41,18 +36,7 @@ __attribute__((visibility("hidden")))
 - (long long)@"MPRemoteCommand",R,N,V_nextTrackCommand;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long localRevision; // @synthesize localRevision=_localRevision;
 @property(readonly, nonatomic) ITMediaLibraryQuery *query; // @synthesize query=_query;
-@property(readonly, nonatomic) long long revision; // @synthesize revision=_revision;
-@property(readonly, nonatomic) NSArray *sectionIndexTitles;
-@property(readonly) Class superclass;
 
 @end
 

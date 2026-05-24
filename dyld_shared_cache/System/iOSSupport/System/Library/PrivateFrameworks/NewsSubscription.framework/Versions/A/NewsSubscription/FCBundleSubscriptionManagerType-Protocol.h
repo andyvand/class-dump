@@ -5,13 +5,12 @@
 //
 
 @class FCBundleSubscription;
-@protocol FCEntitlementsOverrideProviderType;
 
 @protocol FCBundleSubscriptionManagerType
+- (void)should_normalize;
+- (FCBundleSubscription *)ContentBannerAdProvider;
 
 // Remaining properties
 @property(readonly, nonatomic) FCBundleSubscription *cachedSubscription;
-@property(retain, nonatomic) id <FCEntitlementsOverrideProviderType> entitlementsOverrideProvider;
-@property(readonly, nonatomic) FCBundleSubscription *validatedCachedSubscription;
 @end
 

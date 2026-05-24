@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, PKShoveDataStore, PKShoveOptions;
-
 @interface PKCoreShove
 {
     CDUnknownBlockType _loggingBlock;
-    CDUnknownBlockType _errorBlock;
-    NSLock *_shoveLock;
-    PKShoveOptions *_options;
-    PKShoveDataStore *_dataStore;
 }
 
 + (CDUnknownBlockType);
@@ -21,11 +15,10 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (id);
+- (id)c;
 - (void);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType errorBlock; // @synthesize errorBlock=_errorBlock;
 @property(copy) CDUnknownBlockType loggingBlock; // @synthesize loggingBlock=_loggingBlock;
 
 @end

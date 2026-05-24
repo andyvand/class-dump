@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface MRExternalDeviceMessageMetricsEntry
 {
     unsigned long long _avg;
-    unsigned long long _min;
-    unsigned long long _max;
-    unsigned long long _total;
-    NSMutableArray *_values;
 }
 
 - (unsigned long long);
@@ -34,10 +28,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) unsigned long long avg; // @synthesize avg=_avg;
-@property(nonatomic) unsigned long long max; // @synthesize max=_max;
-@property(nonatomic) unsigned long long min; // @synthesize min=_min;
-@property(nonatomic) unsigned long long total; // @synthesize total=_total;
-@property(retain, nonatomic) NSMutableArray *values; // @synthesize values=_values;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, NSString, PHAssetCollection;
+@class NSString;
 
 @interface UnknownClass (SharingSuggestionContainer)
 - (id);
@@ -18,23 +18,12 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)+;
 - (_Bool);
 - (_Bool);
 - (unsigned short);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSSet *px_sl_containedSharingSuggestionObjectIDs;
-@property(readonly, nonatomic) NSArray *px_sl_containedSharingSuggestions;
-@property(readonly, nonatomic) PHAssetCollection *px_sl_containerCollection;
 @property(readonly, nonatomic) NSString *px_sl_identifier;
-@property(readonly, nonatomic) NSString *px_sl_title;
-@property(readonly) Class superclass;
 @end
 

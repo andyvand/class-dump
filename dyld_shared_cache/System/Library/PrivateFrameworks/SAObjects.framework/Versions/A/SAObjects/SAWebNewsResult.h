@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAWebWebResult.h>
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface SAWebNewsResult : SAWebWebResult
 {
@@ -14,8 +14,8 @@
 
 + (id);
 + (id);
-- (void);
-- (id);
+- (void)ommand->precedingUtterance.size() == package.maybeCompleteCommand->commandUtterance.size()) || package.maybeCompleteCommand->commandUtterance.empty();
+- (id)h;
 - (id);
 - (id);
 - (void);
@@ -23,7 +23,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *publicationDate;
-@property(copy, nonatomic) NSString *source;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface PICurveControlPoint
 {
     _Bool _editable;
-    double _x;
-    double _y;
 }
 
 - (id);
@@ -25,9 +23,7 @@
 };
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isEditable) _Bool editable; // @synthesize editable=_editable;
 @property(readonly, nonatomic) double x; // @synthesize x=_x;
-@property(readonly, nonatomic) double y; // @synthesize y=_y;
 
 @end
 

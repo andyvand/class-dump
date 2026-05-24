@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSString;
+@class NSDictionary;
 
 @interface ICMusicAccountNotificationsSettingsSwitch
 {
     NSDictionary *_itemResponseDictionary;
-    NSMutableDictionary *_valueDictionary;
-    _Bool _isToggled;
-    _Bool _hasBeenPreviouslyToggled;
 }
 
-- (void);
+- (void)5!;
 - (id);
 - (_Bool);
-- (id);
+- (id)CGPoint=dd}40;
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (void)ryResponse;
+- (void)ICSecureKeyDeliveryResponse;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasBeenPreviouslyToggled;
-@property(readonly, copy, nonatomic) NSString *identifier;
 @property(nonatomic) _Bool isToggled;
-@property(readonly, copy, nonatomic) NSDictionary *itemResponseDictionary; // @synthesize itemResponseDictionary=_itemResponseDictionary;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface TextToSpeech.AudioRenderer
 {
     id $defaultActor;
-    id cache;
-    id cacheEvictionTimeoutMs;
 }
 
 @end

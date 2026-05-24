@@ -4,44 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOClientMetrics, GEOCommonResponseAttributes, GEOETAResult, GEOPDDatasetABStatus, GEOPlaceSearchResponse, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOETAResponse
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    struct GEOProblemDetail *_problemDetails;
-    unsigned long long _problemDetailsCount;
-    unsigned long long _problemDetailsSpace;
-    GEOClientMetrics *_clientMetrics;
-    GEOPDDatasetABStatus *_datasetAbStatus;
-    NSString *_debugData;
-    NSMutableArray *_etaResultReferencePointDestinations;
-    GEOETAResult *_etaResultReferencePointOrigin;
-    NSMutableArray *_etaResults;
-    GEOPlaceSearchResponse *_originPlaceSearchResponse;
-    GEOCommonResponseAttributes *_responseAttributes;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _status;
-    struct {
-        unsigned int has_status:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_problemDetails:1;
-        unsigned int read_clientMetrics:1;
-        unsigned int read_datasetAbStatus:1;
-        unsigned int read_debugData:1;
-        unsigned int read_etaResultReferencePointDestinations:1;
-        unsigned int read_etaResultReferencePointOrigin:1;
-        unsigned int read_etaResults:1;
-        unsigned int read_originPlaceSearchResponse:1;
-        unsigned int read_responseAttributes:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (Class);
++ (Class);
 + (Class);
 + (_Bool)setHasQueuedTime:(id)arg1;
 - (void);
@@ -56,48 +26,48 @@
 - (struct GEOProblemDetail *);
 - (struct GEOProblemDetail);
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)initWithWithExportedObject:exportedInterfaceProtocol: /* Error: Ran out of types for this method. */;
+- (_Bool)formatTimeIntervalByRoundingForPrivacy: /* Error: Ran out of types for this method. */;
+- (_Bool)_shouldAlwaysQueryAuthorizationStatusCachedValue;
+- (_Bool)_cn_sortUsingAuxiliarySortOrder:transform: /* Error: Ran out of types for this method. */;
+- (id)_TtC18ContactsFoundation13CNDataEncoder;
+- (id)_TtC18ContactsFoundation11TriageEvent;
+- (unsigned long long)_TtP18ContactsFoundation24CNKeychainFacadeProtocol_;
+- (id)_TtP18ContactsFoundation24CNKeychainFacadeProtocol_;
+- (id)_TtC18ContactsFoundation16CNKeychainFacade;
+- (id)_TtC18ContactsFoundation16CNKeychainResult;
+- (id)HP4L;
+- (void)㷄TySSG;
+- (void)};
+- (void)ddress"8;
+- (void)enadines;
+- (void)c Saint Vincent and the Grenadines;
+- (unsigned long long);
+- (void);
+- (void);
+- (void);
+- (id);
 - (_Bool);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void)speechCapturing:(id)arg1 didInterruptAudioSession: /* Error: Ran out of types for this method. */;
+- (id)CSVoiceTriggerXPCServiceProxy:bypassRaiseToSpeak: /* Error: Ran out of types for this method. */;
+- (id)sortedByCreationDate:compressedFileAvailable:] /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (id);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
+- (id)F4;
 - (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (id)dStairs:(struct _NSZone *)arg1;
-- (_Bool)orCode;
-- (int)stTime:availableRequestCount:error: /* Error: Ran out of types for this method. */;
-- (id)type;
+- (id)?;
+- (void);
+- (id)setHasMapSettingsAvoidStairs:(struct _NSZone *)arg1;
+- (_Bool)arkitUnderlyingErrorCode;
+- (int)_getTokenAndInfo:forRequest:nextSafeRequestTime:availableRequestCount:error: /* Error: Ran out of types for this method. */;
+- (id)GEOPDPrototype;
 - (id)or here
 ;
 - (id)StepReadAllFrom can only be called once per object;
@@ -110,25 +80,7 @@
 - (void)U;
 
 // Remaining properties
-@property(retain, nonatomic) GEOClientMetrics *clientMetrics;
-@property(retain, nonatomic) GEOPDDatasetABStatus *datasetAbStatus;
-@property(retain, nonatomic) NSString *debugData;
-@property(retain, nonatomic) NSMutableArray *etaResultReferencePointDestinations;
-@property(retain, nonatomic) GEOETAResult *etaResultReferencePointOrigin;
-@property(retain, nonatomic) NSMutableArray *etaResults;
 @property(readonly, nonatomic) _Bool hasClientMetrics;
-@property(readonly, nonatomic) _Bool hasDatasetAbStatus;
-@property(readonly, nonatomic) _Bool hasDebugData;
-@property(readonly, nonatomic) _Bool hasEtaResultReferencePointOrigin;
-@property(readonly, nonatomic) _Bool hasOriginPlaceSearchResponse;
-@property(readonly, nonatomic) _Bool hasResponseAttributes;
-@property(nonatomic) _Bool hasStatus;
-@property(retain, nonatomic) GEOPlaceSearchResponse *originPlaceSearchResponse;
-@property(readonly, nonatomic) struct GEOProblemDetail *problemDetails;
-@property(readonly, nonatomic) unsigned long long problemDetailsCount;
-@property(retain, nonatomic) GEOCommonResponseAttributes *responseAttributes;
-@property(nonatomic) int status;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

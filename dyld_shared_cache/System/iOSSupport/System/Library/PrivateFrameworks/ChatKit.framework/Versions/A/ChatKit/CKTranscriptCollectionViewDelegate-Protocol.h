@@ -5,5 +5,6 @@
 //
 
 @protocol CKTranscriptCollectionViewDelegate
+- (void);
 @end
 

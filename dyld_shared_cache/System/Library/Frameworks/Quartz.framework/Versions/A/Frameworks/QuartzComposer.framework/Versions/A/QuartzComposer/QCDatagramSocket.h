@@ -7,18 +7,16 @@
 @interface QCDatagramSocket
 {
     unsigned int _address;
-    unsigned short _port;
-    int _socketFD;
 }
 
 + (unsigned long long);
 + (unsigned long long);
-+ (id)7domEvaluate_scene9domRenderE;
-- (id);
++ (id)N15domVisual_scene17domEvaluate_scene9domRenderE;
+- (id)}@Added media system component via merge:(unsigned int)arg1 %@;
 - (void);
 - (unsigned short);
 - (void);
-- (unsigned int)InJointsAtIndex: /* Error: Ran out of types for this method. */;
+- (unsigned int)objectInJointsAtIndex: /* Error: Ran out of types for this method. */;
 - (id)<;
 
 @end

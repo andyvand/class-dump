@@ -6,38 +6,26 @@
 
 #import <UIKitCore/UIPickerView.h>
 
-@class DOMHTMLSelectElement, NSArray, NSString;
-@protocol UIWebSelectedItemPrivate;
+@class DOMHTMLSelectElement;
 
 __attribute__((visibility("hidden")))
 @interface UIWebSelectSinglePicker : UIPickerView
 {
     DOMHTMLSelectElement *_selectNode;
-    NSArray *_optionItems;
-    id <UIWebSelectedItemPrivate> _selectedOptionItem;
-    long long _selectedIndex;
-    id <UIWebSelectedItemPrivate> _optionToSelectWhenDone;
-    long long _indexToSelectWhenDone;
 }
 
+- (long long)removeDelegate:(id)arg1;
+- (void)N,V_activeHubbleRequestedTransfers;
+- (id),R,N,V_trackingContexts;
+- (id)NLT;
+- (void);
+- (void);
 - (long long);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (long long);
-- (void);
-- (id);
+- (void)ls peer did not respond with certificate list;
+- (id)PLocalPickerResponder>"16;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

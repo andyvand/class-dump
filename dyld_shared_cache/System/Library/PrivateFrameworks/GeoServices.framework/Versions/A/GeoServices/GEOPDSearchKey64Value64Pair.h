@@ -8,15 +8,13 @@ __attribute__((visibility("hidden")))
 @interface GEOPDSearchKey64Value64Pair
 {
     unsigned long long _key;
-    unsigned long long _value;
-    CDStruct_a4cc0a70 _flags;
 }
 
 - (id);
-- (void);
+- (void)remotePrototypingEnabled;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id)ryPercentage"b1"has_remainingTravelRange"b1};
 - (id)_poiClaim;
 - (id)¨ü;

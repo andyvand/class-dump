@@ -6,27 +6,22 @@
 
 #import <PhotosGraph/PGAbstractSuggester.h>
 
-@class CLSSceneConfidenceThresholdHelper, NSString, PGLandscapeWallpaperSuggesterDistancingContext, PGLandscapeWallpaperSuggesterFilteringContext, PGLandscapeWallpaperSuggesterScoringContext, PGWallpaperSuggestionAssetGater;
+@class PGLandscapeWallpaperSuggesterScoringContext, PGWallpaperSuggestionAssetGater;
 
 @interface PGLandscapeWallpaperSuggester : PGAbstractSuggester
 {
     PGWallpaperSuggestionAssetGater *_assetGater;
-    CLSSceneConfidenceThresholdHelper *_peopleSceneConfidenceThresholdHelper;
-    PGLandscapeWallpaperSuggesterFilteringContext *_primaryFilteringContext;
-    PGLandscapeWallpaperSuggesterFilteringContext *_secondaryFilteringContext;
-    PGLandscapeWallpaperSuggesterScoringContext *_scoringContext;
-    PGLandscapeWallpaperSuggesterDistancingContext *_distancingContext;
 }
 
-+ (id);
-+ (id);
++ (id)_zoomFocusRectForMultipleIndexRange:textElementController:withPreviousElementInfo: /* Error: Ran out of types for this method. */;
++ (id)sValueForKey:(id)arg1 ] is abstract, and therefore not implemented.;
++ (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (id);
 + (_Bool);
 + (id);
++ (_Bool);
++ (id);
 - (void);
 - (void);
 - (void);
@@ -35,26 +30,16 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)initWithFilterStrategy:(CDStruct_ccce22f9)arg1 traversalStrategy: /* Error: Ran out of types for this method. */;
+- (id)LibCall_ACMSEPControl_Block;
+- (id)LibSer_ACMDeserializeSEPControlCode;
 - (id);
 - (id);
 - (void)al/Library/BuildRoots/4~CNrLugBm5mZzGZhQIi0idKaHXqMbtQ878o7HncI/Library/Caches/com.apple.xbs/TemporaryDirectory.52v2gD/Sources/Photos_Swift/workspaces/photoanalysis/PhotosGraph/Framework/Graph/Ingest/Ingest Processing/PGGraphIngestPersonAgeCategoryProcessor.m;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) PGLandscapeWallpaperSuggesterDistancingContext *distancingContext; // @synthesize distancingContext=_distancingContext;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) PGLandscapeWallpaperSuggesterFilteringContext *primaryFilteringContext; // @synthesize primaryFilteringContext=_primaryFilteringContext;
 @property(retain, nonatomic) PGLandscapeWallpaperSuggesterScoringContext *scoringContext; // @synthesize scoringContext=_scoringContext;
-@property(retain, nonatomic) PGLandscapeWallpaperSuggesterFilteringContext *secondaryFilteringContext; // @synthesize secondaryFilteringContext=_secondaryFilteringContext;
-@property(readonly) Class superclass;
 
 @end
 

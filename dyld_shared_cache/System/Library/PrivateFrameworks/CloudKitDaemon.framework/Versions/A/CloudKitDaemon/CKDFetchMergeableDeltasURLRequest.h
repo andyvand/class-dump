@@ -6,14 +6,11 @@
 
 #import <CloudKitDaemon/CKDURLRequest.h>
 
-@class NSArray, NSDictionary, NSMutableDictionary;
+@class NSArray;
 
 @interface CKDFetchMergeableDeltasURLRequest : CKDURLRequest
 {
     NSArray *_mergeableValueIDs;
-    NSDictionary *_previousContinuationTokens;
-    CDUnknownBlockType _deltasFetchedBlock;
-    NSMutableDictionary *_mergeableValueIDsByRequestID;
 }
 
 - (void);
@@ -26,7 +23,7 @@
 - (id);
 - (CDUnknownBlockType);
 - (id)Date=%@, numCallbacks=%d, initialOperationInfo=%@, usesBackground=%d;
-- (void)on;
+- (void)MyParticipantPermission;
 - (id)uestPlanner addMMCSItem:] /* Error: Ran out of types for this method. */;
 - (id)ogress to client for operation %{public}@ recordID:(id)arg1 %@;
 - (void)nt account. Error:(id)arg1 %{public}@.;
@@ -37,10 +34,7 @@
 - (_Bool)1;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType deltasFetchedBlock; // @synthesize deltasFetchedBlock=_deltasFetchedBlock;
 @property(retain, nonatomic) NSArray *mergeableValueIDs; // @synthesize mergeableValueIDs=_mergeableValueIDs;
-@property(retain, nonatomic) NSMutableDictionary *mergeableValueIDsByRequestID; // @synthesize mergeableValueIDsByRequestID=_mergeableValueIDsByRequestID;
-@property(readonly, nonatomic) NSDictionary *previousContinuationTokens; // @synthesize previousContinuationTokens=_previousContinuationTokens;
 
 @end
 

@@ -4,39 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString, UIPanGestureRecognizer, UITapGestureRecognizer;
-@protocol CKBalloonTextViewInteractionDelegate;
+@class NSAttributedString;
 
 @interface CKBalloonTextView
 {
     _Bool _fakeSelected;
-    _Bool _shouldAdjustInsetsForMinimumSize;
-    BOOL _selectionColorType;
-    id <CKBalloonTextViewInteractionDelegate> _interactionDelegate;
-    NSAttributedString *_attributedText;
-    UITapGestureRecognizer *_tapGestureRecognizer;
-    UIPanGestureRecognizer *_dragGestureRecognizer;
-    struct _NSRange __selectedRange;
 }
 
-+ (struct CGSize);
-+ (id);
-+ (id);
++ (struct CGSize)8ySSSgSo18ICInlineAttachmentCSgG;
++ (id)aspect ratio of the rect for reading %@ should be the same as the aspect ratio for drawing %@, with strokebounds %@;
++ (id)ng:fullImage:scale:] /* Error: Ran out of types for this method. */;
 + (_Bool);
 + (void);
 + (id);
 - (void);
 - (void);
-- (struct CGSize);
-- (_Bool);
+- (struct CGSize);
+- (_Bool)placeholder;
+- (void)observations;
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (BOOL);
-- (_Bool);
+- (void)ARGGGtGGACyADyAG_AEyADyAG_AJyAJyAJyApQyM8GGAWGb48GA2fGtGGAGtGGGG;
+- (BOOL)c;
+- (_Bool)the folder;
 - (id);
 - (void);
 - (id);
@@ -45,7 +37,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)_;
 - (void);
 - (id);
 - (_Bool);
@@ -69,27 +61,13 @@
 × ;
 - (id)uid:subject:associatedMessageGUID:associatedMessageType:associatedMessageRange:messageSummaryInfo:threadIdentifier: /* Error: Ran out of types for this method. */;
 - (void)nguage: /* Error: Ran out of types for this method. */;
-- (id)sionLevel: /* Error: Ran out of types for this method. */;
+- (id)_compressPhoneNumberIfFitsInCompressionLevel: /* Error: Ran out of types for this method. */;
 - (id)bleP;
 - (void)recent address, selecting first address %@;
-- (void)er;
+- (void)CKConversationListCollectionViewController;
 
 // Remaining properties
-@property(nonatomic) struct _NSRange _selectedRange; // @synthesize _selectedRange=__selectedRange;
 @property(copy, nonatomic) NSAttributedString *attributedText; // @synthesize attributedText=_attributedText;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UIPanGestureRecognizer *dragGestureRecognizer; // @synthesize dragGestureRecognizer=_dragGestureRecognizer;
-@property(nonatomic, getter=isFakeSelected) _Bool fakeSelected; // @synthesize fakeSelected=_fakeSelected;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak id <CKBalloonTextViewInteractionDelegate> interactionDelegate; // @synthesize interactionDelegate=_interactionDelegate;
-@property(nonatomic) BOOL selectionColorType; // @synthesize selectionColorType=_selectionColorType;
-@property(nonatomic) _Bool shouldAdjustInsetsForMinimumSize; // @synthesize shouldAdjustInsetsForMinimumSize=_shouldAdjustInsetsForMinimumSize;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) UITapGestureRecognizer *tapGestureRecognizer; // @synthesize tapGestureRecognizer=_tapGestureRecognizer;
 
 @end
 

@@ -8,11 +8,9 @@ __attribute__((visibility("hidden")))
 @interface VNVTSession
 {
     unsigned int _inputPixelFormat;
-    unsigned int _outputPixelFormat;
-    void *_session;
 }
 
-- (void);
+- (void);
 - (id)ÿ)o¨T¨±ÿ;
 
 @end

@@ -5,10 +5,10 @@
 //
 
 @protocol PXStoryCompanionTimelineSegmentTransition
+- (CDStruct_1b6d18a9)2i56@"OS_dispatch_queue"60@?<v@?@"NSData"@"NSHTTPURLResponse"@"NSError">68;
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_1b6d18a9 duration;
 @property(readonly, nonatomic) long long kind;
 @end
 

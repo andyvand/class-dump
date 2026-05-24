@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @protocol _CPSearchViewDisappearFeedback
+- (unsigned long long);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned long long timestamp;
-@property(nonatomic) int viewDisappearEvent;
 @end
 

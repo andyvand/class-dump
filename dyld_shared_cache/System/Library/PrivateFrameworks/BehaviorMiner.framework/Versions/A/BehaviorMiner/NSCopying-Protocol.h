@@ -5,5 +5,6 @@
 //
 
 @protocol NSCopying
+- (id)imageWithSystemSymbolName:(struct _NSZone *)arg1 accessibilityDescription: /* Error: Ran out of types for this method. */;
 @end
 

@@ -7,7 +7,6 @@
 @interface NewsSubscription.ManageSubscriptionsURLProvider
 {
     id defaultUrl;
-    id fetchedURL;
 }
 
 @end

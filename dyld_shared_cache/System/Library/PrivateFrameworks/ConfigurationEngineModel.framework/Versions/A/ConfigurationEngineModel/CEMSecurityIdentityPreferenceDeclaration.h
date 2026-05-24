@@ -11,7 +11,6 @@
 @interface CEMSecurityIdentityPreferenceDeclaration : CEMConfigurationBase
 {
     NSString *_payloadName;
-    NSString *_payloadIdentityIdentifier;
 }
 
 + (id);
@@ -24,7 +23,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)zD@z(;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -32,18 +31,10 @@
 - (int);
 - (_Bool);
 - (id);
-- (void);
+- (void)write key exchange A;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *payloadIdentityIdentifier; // @synthesize payloadIdentityIdentifier=_payloadIdentityIdentifier;
 @property(copy, nonatomic) NSString *payloadName; // @synthesize payloadName=_payloadName;
-@property(readonly) Class superclass;
 
 @end
 

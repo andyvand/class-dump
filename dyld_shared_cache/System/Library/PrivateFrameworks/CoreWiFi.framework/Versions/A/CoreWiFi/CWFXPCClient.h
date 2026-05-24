@@ -4,40 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CWFRequestParameters, CWFXPCProxyConnection, NSMutableDictionary, NSObject, NSXPCConnection;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CWFXPCClient
 {
     NSObject<OS_dispatch_queue> *_mutex;
-    CWFRequestParameters *_checkinRequestParams;
-    NSMutableDictionary *_mutableEventIDMap;
-    NSMutableDictionary *_mutableActivityMap;
-    NSMutableDictionary *_mutableEventCallbackMap;
-    NSMutableDictionary *_mutableEventAckMap;
-    NSXPCConnection *_XPCConnection;
-    _Bool _invalidated;
-    long long _serviceType;
-    NSObject<OS_dispatch_queue> *_targetQueue;
-    CDUnknownBlockType _invalidationHandler;
-    CDUnknownBlockType _interruptionHandler;
-    CDUnknownBlockType _performWiFiNetworkSharingAccessoryScanHandler;
-    CDUnknownBlockType _presentWiFiNetworkSharingAskToShareProxCardHandler;
-    CDUnknownBlockType _cancelWiFiNetworkSharingAskToShareProxCardHandler;
-    CDUnknownBlockType _presentWiFiNetworkSharingAuthorizationProxCardHandler;
-    CDUnknownBlockType _cancelWiFiNetworkSharingAuthorizationProxCardHandler;
-    CDUnknownBlockType _presentWiFiNetworkSharingAskToShareUserNotificationHandler;
-    CDUnknownBlockType _cancelWiFiNetworkSharingAskToShareUserNotificationHandler;
-    CDUnknownBlockType _queryNearbyRecommendedNetworksHandler;
-    CDUnknownBlockType _rememberCloudNetworkHandler;
-    CDUnknownBlockType _forgetCloudNetworkHandler;
-    CDUnknownBlockType _queryCloudNetworksHandler;
-    CDUnknownBlockType _dumpLogsHandler;
-    CDUnknownBlockType _queryCaptivePortalCredentialsHandler;
-    CDUnknownBlockType _setCaptivePortalCredentialsHandler;
-    CDUnknownBlockType _nearbyConfirmBrokenBackhaulHandler;
-    CDUnknownBlockType _allowBrokenBackhaulPersonalHotspotFallbackHandler;
-    CWFXPCProxyConnection *_remoteXPCProxyConnection;
 }
 
 - (void);
@@ -47,6 +19,7 @@
 - (void);
 - (void);
 - (void);
+- (void)?;
 - (void);
 - (void);
 - (void);
@@ -54,8 +27,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)8;
 - (void);
 - (void);
 - (void);
@@ -86,12 +58,12 @@
 - (_Bool);
 - (void);
 - (void);
+- (void)b;
 - (void);
-- (void);
-- (void);
+- (void)h;
 - (CDUnknownBlockType);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -103,24 +75,25 @@
 - (id);
 - (void);
 - (void);
+- (void)
+;
+- (void);
+- (id);
+- (void);
+- (CDUnknownBlockType)d to read %@ entitlement.;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)erland[- ]?kalkar;
+- (id);
+- (void)TLSTrustedServerNames;
 - (void);
 - (void);
 - (id);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)IAiI/Sources/libressl/libressl-2.8/crypto/x509v3/v3_purp.c;
 - (CDUnknownBlockType);
 - (void);
 - (id);
@@ -130,35 +103,13 @@
 - (void);
 - (_Bool)0@ù
 × ;
-- (void)anager;
+- (void)__privateMACManager;
 - (void);
 - (void);
-- (void)IPDuration;
+- (void)routableIPDuration;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType allowBrokenBackhaulPersonalHotspotFallbackHandler; // @synthesize allowBrokenBackhaulPersonalHotspotFallbackHandler=_allowBrokenBackhaulPersonalHotspotFallbackHandler;
-@property(copy) CDUnknownBlockType cancelWiFiNetworkSharingAskToShareProxCardHandler; // @synthesize cancelWiFiNetworkSharingAskToShareProxCardHandler=_cancelWiFiNetworkSharingAskToShareProxCardHandler;
-@property(copy) CDUnknownBlockType cancelWiFiNetworkSharingAskToShareUserNotificationHandler; // @synthesize cancelWiFiNetworkSharingAskToShareUserNotificationHandler=_cancelWiFiNetworkSharingAskToShareUserNotificationHandler;
-@property(copy) CDUnknownBlockType cancelWiFiNetworkSharingAuthorizationProxCardHandler; // @synthesize cancelWiFiNetworkSharingAuthorizationProxCardHandler=_cancelWiFiNetworkSharingAuthorizationProxCardHandler;
-@property(copy) CDUnknownBlockType dumpLogsHandler; // @synthesize dumpLogsHandler=_dumpLogsHandler;
-@property(copy) CDUnknownBlockType forgetCloudNetworkHandler; // @synthesize forgetCloudNetworkHandler=_forgetCloudNetworkHandler;
-@property(copy) CDUnknownBlockType interruptionHandler; // @synthesize interruptionHandler=_interruptionHandler;
 @property _Bool invalidated; // @synthesize invalidated=_invalidated;
-@property(copy) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(readonly, retain, nonatomic) CWFXPCProxyConnection *localXPCProxyConnection;
-@property(copy) CDUnknownBlockType nearbyConfirmBrokenBackhaulHandler; // @synthesize nearbyConfirmBrokenBackhaulHandler=_nearbyConfirmBrokenBackhaulHandler;
-@property(copy) CDUnknownBlockType performWiFiNetworkSharingAccessoryScanHandler; // @synthesize performWiFiNetworkSharingAccessoryScanHandler=_performWiFiNetworkSharingAccessoryScanHandler;
-@property(copy) CDUnknownBlockType presentWiFiNetworkSharingAskToShareProxCardHandler; // @synthesize presentWiFiNetworkSharingAskToShareProxCardHandler=_presentWiFiNetworkSharingAskToShareProxCardHandler;
-@property(copy) CDUnknownBlockType presentWiFiNetworkSharingAskToShareUserNotificationHandler; // @synthesize presentWiFiNetworkSharingAskToShareUserNotificationHandler=_presentWiFiNetworkSharingAskToShareUserNotificationHandler;
-@property(copy) CDUnknownBlockType presentWiFiNetworkSharingAuthorizationProxCardHandler; // @synthesize presentWiFiNetworkSharingAuthorizationProxCardHandler=_presentWiFiNetworkSharingAuthorizationProxCardHandler;
-@property(copy) CDUnknownBlockType queryCaptivePortalCredentialsHandler; // @synthesize queryCaptivePortalCredentialsHandler=_queryCaptivePortalCredentialsHandler;
-@property(copy) CDUnknownBlockType queryCloudNetworksHandler; // @synthesize queryCloudNetworksHandler=_queryCloudNetworksHandler;
-@property(copy) CDUnknownBlockType queryNearbyRecommendedNetworksHandler; // @synthesize queryNearbyRecommendedNetworksHandler=_queryNearbyRecommendedNetworksHandler;
-@property(copy) CDUnknownBlockType rememberCloudNetworkHandler; // @synthesize rememberCloudNetworkHandler=_rememberCloudNetworkHandler;
-@property(retain, nonatomic) CWFXPCProxyConnection *remoteXPCProxyConnection; // @synthesize remoteXPCProxyConnection=_remoteXPCProxyConnection;
-@property(readonly) long long serviceType; // @synthesize serviceType=_serviceType;
-@property(copy) CDUnknownBlockType setCaptivePortalCredentialsHandler; // @synthesize setCaptivePortalCredentialsHandler=_setCaptivePortalCredentialsHandler;
-@property(retain) NSObject<OS_dispatch_queue> *targetQueue; // @synthesize targetQueue=_targetQueue;
 
 @end
 

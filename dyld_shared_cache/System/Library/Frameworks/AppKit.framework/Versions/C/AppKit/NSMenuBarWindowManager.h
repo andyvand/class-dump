@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMenuBarDisplayWindow, NSMutableDictionary;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface NSMenuBarWindowManager
 {
     NSMutableDictionary *_windowsByDisplay;
-    int _displaySeed;
-    _Bool _isMenuBarHiddenOnSecondaryDisplay;
-    NSMenuBarDisplayWindow *_mainWindow;
 }
 
 + (id)D;
-- (void);
+- (void)ed;
 - (id);
 - (void)x@;
 

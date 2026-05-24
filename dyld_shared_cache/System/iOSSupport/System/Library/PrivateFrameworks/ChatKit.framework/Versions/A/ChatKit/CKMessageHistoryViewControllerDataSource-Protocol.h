@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDateInterval;
+
 @protocol CKMessageHistoryViewControllerDataSource
+- (void)displayingTitleCheckingResult;
+- (void)initWithAccount:(NSDateInterval *)arg1;
 @end
 

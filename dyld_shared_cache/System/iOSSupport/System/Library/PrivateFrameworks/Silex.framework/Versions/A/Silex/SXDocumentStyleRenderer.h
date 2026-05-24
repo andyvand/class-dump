@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXViewport, UIView;
-@protocol SXGradientFactory;
+@class SXViewport;
 
 @interface SXDocumentStyleRenderer
 {
     SXViewport *_viewport;
-    id <SXGradientFactory> _gradientFactory;
-    UIView *_topBackgroundView;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -27,15 +24,6 @@
 - (void)aRecordValueTransformerFactory";
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <SXGradientFactory> gradientFactory; // @synthesize gradientFactory=_gradientFactory;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIView *topBackgroundView; // @synthesize topBackgroundView=_topBackgroundView;
 @property(readonly, nonatomic) SXViewport *viewport; // @synthesize viewport=_viewport;
 
 @end

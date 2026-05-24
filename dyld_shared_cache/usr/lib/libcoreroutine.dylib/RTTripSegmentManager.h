@@ -6,31 +6,18 @@
 
 #import <coreroutine/RTService.h>
 
-@class NSDate, NSMutableArray, NSString, RTDefaultsManager, RTDistanceCalculator, RTElevationAdjuster, RTGeoRoadDataStore, RTLearnedLocationStore, RTSynthesizedLocationStore, RTTripClusterRoadTransitionsStore, RTTripSegment, RTTripSegmentStore;
+@class RTTripSegmentStore;
 
 @interface RTTripSegmentManager : RTService
 {
     _Bool _tripSegmentUnderConstructionFavorNewerLocationsOverOlderLocations;
-    _Bool _isTripSegmentGenerationEnabled;
-    _Bool _checkForValidAltitudeSpeedAccuracy;
-    RTTripSegmentStore *_tripSegmentStore;
-    RTSynthesizedLocationStore *_locationStore;
-    RTGeoRoadDataStore *_geoRoadDataStore;
-    RTTripClusterRoadTransitionsStore *_tripSegmentRoadTransitionsStore;
-    RTDefaultsManager *_defaultsManager;
-    RTElevationAdjuster *_elevationAdjuster;
-    RTLearnedLocationStore *_learnedLocationStore;
-    RTDistanceCalculator *_distanceCalculator;
-    RTTripSegment *_tripSegmentUnderConstruction;
-    NSDate *_tripSegmentUnderConstructionLastLocationTimestamp;
-    NSMutableArray *_tripSegmentRoadTransitionsArray;
 }
 
-+ (id);
++ (id);
 + (long long);
 + (long long);
-+ (long long);
-- (id);
++ (long long);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -51,46 +38,46 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)9;
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
+- (id);
+- (int);
+- (id);
+- (id);
 - (id);
 - (int);
 - (id);
 - (id);
 - (id);
-- (int);
-- (id);
-- (id);
-- (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)a}^{__CFDictionary}II{PCSAttributes=I^{PCSTypeValue}}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I}16@0:(id)arg1 8;
+- (void)ntitySetData}^{_PCSIdentitySetData}^{__CFDictionary}^{__CFArray}^{__CFDictionary}^{__CFData}^{__CFData}^{__CFData}^{_PCSKeyData}^{__CFData}^{_PCSKeyData}^{__CFDictionary}II{PCSAttributes=I^{PCSTypeValue}}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I}16@0:(id)arg1 8;
+- (void)PCSShareProtection={__CFRuntimeBase=QAQ}^{_PCSIdentitySetData}^{_PCSIdentitySetData}^{_PCSIdentitySetData}^{__CFDictionary}^{__CFArray}^{__CFDictionary}^{__CFData}^{__CFData}^{__CFData}^{_PCSKeyData}^{__CFData}^{_PCSKeyData}^{__CFDictionary}II{PCSAttributes=I^{PCSTypeValue}}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I}16;
+- (void)setUpdateMirrorKey:(id)arg1;
+- (void)migrateToiCDPForAccount:(id)arg1 withParameters:(_Bool)arg2 complete:(CDUnknownBlockType)arg3;
+- (void)ite3_stmt=},V_queryMissingKeys;
+- (void)ta}^{__CFDictionary}^{__CFArray}^{__CFDictionary}^{__CFData}^{__CFData}^{__CFData}^{_PCSKeyData}^{__CFData}^{_PCSKeyData}^{__CFDictionary}II{PCSAttributes=I^{PCSTypeValue}}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I},R,N,V_shareProtection;
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)wrapping key from keychain:%@ /* Error: Ran out of types for this method. */;
+- (void):(id)arg1 %@, %@;
+- (_Bool)essfully;
+- (_Bool)ities;
+- (_Bool)ey from keychain:(id)arg1 %@;
+- (_Bool)Wrapping Key from Keychain;
+- (_Bool)Unable to unwrap data:%d /* Error: Ran out of types for this method. */;
+- (void)Needs unlock;
+- (void)d;
+- (id)rsonaContextWithPersonaUniqueString succeeded!;
+- (id)scare;
+- (_Bool)(=;
 - (void);
 - (void);
 - (void);
@@ -101,36 +88,16 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id)P××;
 - (void);
-- (id)ax;
+- (id)RouteLengthMax;
 - (void)nferred Home, %{sensitive}@, final Home source, %@;
 
 // Remaining properties
-@property(nonatomic) _Bool checkForValidAltitudeSpeedAccuracy; // @synthesize checkForValidAltitudeSpeedAccuracy=_checkForValidAltitudeSpeedAccuracy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) RTDistanceCalculator *distanceCalculator; // @synthesize distanceCalculator=_distanceCalculator;
-@property(retain, nonatomic) RTElevationAdjuster *elevationAdjuster; // @synthesize elevationAdjuster=_elevationAdjuster;
-@property(retain, nonatomic) RTGeoRoadDataStore *geoRoadDataStore; // @synthesize geoRoadDataStore=_geoRoadDataStore;
-@property(readonly) unsigned long long hash;
-@property _Bool isTripSegmentGenerationEnabled; // @synthesize isTripSegmentGenerationEnabled=_isTripSegmentGenerationEnabled;
-@property(retain, nonatomic) RTLearnedLocationStore *learnedLocationStore; // @synthesize learnedLocationStore=_learnedLocationStore;
-@property(retain, nonatomic) RTSynthesizedLocationStore *locationStore; // @synthesize locationStore=_locationStore;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSMutableArray *tripSegmentRoadTransitionsArray; // @synthesize tripSegmentRoadTransitionsArray=_tripSegmentRoadTransitionsArray;
-@property(retain, nonatomic) RTTripClusterRoadTransitionsStore *tripSegmentRoadTransitionsStore; // @synthesize tripSegmentRoadTransitionsStore=_tripSegmentRoadTransitionsStore;
 @property(retain, nonatomic) RTTripSegmentStore *tripSegmentStore; // @synthesize tripSegmentStore=_tripSegmentStore;
-@property(retain, nonatomic) RTTripSegment *tripSegmentUnderConstruction; // @synthesize tripSegmentUnderConstruction=_tripSegmentUnderConstruction;
-@property(nonatomic) _Bool tripSegmentUnderConstructionFavorNewerLocationsOverOlderLocations; // @synthesize tripSegmentUnderConstructionFavorNewerLocationsOverOlderLocations=_tripSegmentUnderConstructionFavorNewerLocationsOverOlderLocations;
-@property(retain, nonatomic) NSDate *tripSegmentUnderConstructionLastLocationTimestamp; // @synthesize tripSegmentUnderConstructionLastLocationTimestamp=_tripSegmentUnderConstructionLastLocationTimestamp;
 
 @end
 

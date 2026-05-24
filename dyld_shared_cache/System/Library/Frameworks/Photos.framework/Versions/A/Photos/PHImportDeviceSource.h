@@ -6,28 +6,12 @@
 
 #import <Photos/PHImportSource.h>
 
-@class ICCameraDevice, ICCameraDeviceRemovedItemsCoalescer, NSArray, NSMapTable, NSMutableArray, NSMutableDictionary, NSMutableSet, NSObject, NSProgress, NSString;
+@class NSMutableArray, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface PHImportDeviceSource : PHImportSource
 {
     NSMutableArray *_assetThumbnailRequests;
-    _Bool _waitingForAssetThumbnailRequest;
-    NSMutableArray *_assetMetadataRequests;
-    _Bool _waitingForAssetMetadataRequest;
-    NSMutableArray *_assetThumbnailHighPriorityRequests;
-    NSMapTable *_assetDataRequestsByCameraItem;
-    NSObject<OS_dispatch_queue> *_assetDataRequestQueue;
-    _Bool _isEjecting;
-    _Bool _ejectAfterDelete;
-    NSObject<OS_dispatch_queue> *_deleteEjectQueue;
-    ICCameraDeviceRemovedItemsCoalescer *_removalCoalescer;
-    NSMutableSet *_removedCameraFiles;
-    NSMutableDictionary *_assetByCameraFile;
-    NSObject<OS_dispatch_queue> *_assetByCameraFileAccess;
-    NSProgress *_deleteProgress;
-    NSArray *_avchdAssets;
-    ICCameraDevice *_camera;
 }
 
 - (void);
@@ -39,11 +23,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)qK;
 - (void);
 - (id);
+- (void);
+- (id)T)	k!;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -54,13 +38,13 @@
 - (void);
 - (_Bool);
 - (id);
+- (id)?׀;
 - (id);
-- (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -70,58 +54,42 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void);
 - (void);
 - (id);
-- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
+- (id)n;
+- (_Bool);
+- (void);
 - (id);
-- (struct CGImage *);
+- (id);
+- (struct CGImage *)!@9?;
 - (id);
 - (id);
 - (void);
-- (_Bool)Changes;
-- (void)tCancellable: /* Error: Ran out of types for this method. */;
+- (_Bool)beginObservingChanges;
+- (void)setCancellable: /* Error: Ran out of types for this method. */;
 - (id)etectionTypePet is not a valid value to assign to PHPerson.detectionType;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *assetByCameraFile; // @synthesize assetByCameraFile=_assetByCameraFile;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *assetByCameraFileAccess; // @synthesize assetByCameraFileAccess=_assetByCameraFileAccess;
-@property(retain, nonatomic) NSArray *avchdAssets; // @synthesize avchdAssets=_avchdAssets;
-@property(retain) ICCameraDevice *camera; // @synthesize camera=_camera;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *deleteEjectQueue; // @synthesize deleteEjectQueue=_deleteEjectQueue;
-@property(retain, nonatomic) NSProgress *deleteProgress; // @synthesize deleteProgress=_deleteProgress;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool ejectAfterDelete; // @synthesize ejectAfterDelete=_ejectAfterDelete;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isEjecting; // @synthesize isEjecting=_isEjecting;
-@property(retain, nonatomic) ICCameraDeviceRemovedItemsCoalescer *removalCoalescer; // @synthesize removalCoalescer=_removalCoalescer;
-@property(retain, nonatomic) NSMutableSet *removedCameraFiles; // @synthesize removedCameraFiles=_removedCameraFiles;
-@property(readonly) Class superclass;
 
 @end
 

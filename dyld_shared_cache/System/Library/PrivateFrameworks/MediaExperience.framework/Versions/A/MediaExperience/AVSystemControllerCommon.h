@@ -7,13 +7,12 @@
 @interface AVSystemControllerCommon
 {
     struct OpaqueFigSystemController *mFigController;
-    id _selfWeak;
 }
 
 + (void);
 + (void);
-- (void);
-- (_Bool);
+- (void)-;
+- (_Bool)8;
 - (id);
 - (void);
 - (id);

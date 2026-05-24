@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor;
-
 @interface NSTextBlock
 {
     void *_propVals;
-    unsigned long long _propMask;
-    unsigned long long _typeMask;
-    id _primParamVal;
-    id _otherParamVals;
-    void *_blockPrimary;
-    void *_blockSecondary;
 }
 
 + (_Bool);
-+ (void)oEndOfGroup;
++ (void)attributedStringToEndOfGroup;
 - (struct CGRect);
 - (void);
 - (struct CGRect);
@@ -26,37 +18,34 @@
 - (double);
 - (void);
 - (void);
-- (void);
-- (id);
-- (unsigned long long);
+- (void)C;
+- (id);
+- (unsigned long long)1;
 - (double);
 - (unsigned long long);
 - (unsigned long long);
-- (double);
+- (double);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
-- (double);
+- (double);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)D;
 - (void);
 - (id);
-- (id);
+- (id);
 - (void)STextElement.m;
 
 // Remaining properties
-@property(copy) NSColor *backgroundColor;
 @property(readonly) double contentWidth;
-@property(readonly) unsigned long long contentWidthValueType;
-@property unsigned long long verticalAlignment;
 
 @end
 

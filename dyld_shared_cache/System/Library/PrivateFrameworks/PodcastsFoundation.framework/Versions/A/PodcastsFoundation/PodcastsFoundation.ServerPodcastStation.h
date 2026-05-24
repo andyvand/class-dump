@@ -9,9 +9,6 @@
 @interface PodcastsFoundation.ServerPodcastStation
 {
     void id;
-    void type;
-    id attributes;
-    id episodes;
 }
 
 - (id);
@@ -20,7 +17,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *id;
-@property(nonatomic, readonly) NSString *type;
 
 @end
 

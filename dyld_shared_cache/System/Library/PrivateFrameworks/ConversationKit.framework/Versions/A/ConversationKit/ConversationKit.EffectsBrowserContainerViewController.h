@@ -13,7 +13,7 @@
 
 - (id);
 - (id);
-- (id);
+- (id)ficationPlugin.bundle/Contents/MacOS/SearchPartyAccountNotificationPlugin;
 - (void)Dÿÿ;
 
 @end

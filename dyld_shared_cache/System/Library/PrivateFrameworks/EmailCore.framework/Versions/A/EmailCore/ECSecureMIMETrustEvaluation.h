@@ -4,51 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString;
-
 @interface ECSecureMIMETrustEvaluation
 {
     unsigned int _trustResult;
-    struct __SecTrust *_trust;
-    NSString *_signerEmailAddress;
-    unsigned long long _options;
-    NSError *_error;
 }
 
-+ (void);
-+ (id);
-+ (id);
++ (void)vented bytes from being read! (%{public}@);
++ (id)command;
++ (id)ntationSettingsAudioGroupTitle is not supported in your app.;
 + (id);
 + (_Bool);
 + (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
+- (id);
+- (_Bool)s in this menu to be UIActions.;
+- (id)not expecting messages;
+- (void)Command Status:%ld /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (struct __SecTrust *);
 - (id);
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)`B;
 - (void);
-- (void);
+- (void)Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(readonly, nonatomic) _Bool requiresReevaluationWithNetworkAccess;
-@property(readonly, copy, nonatomic) NSString *signerEmailAddress; // @synthesize signerEmailAddress=_signerEmailAddress;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) struct __SecTrust *trust; // @synthesize trust=_trust;
-@property(readonly, nonatomic) unsigned int trustResult; // @synthesize trustResult=_trustResult;
 
 @end
 

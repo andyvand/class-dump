@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSString, UINSAppKitBackgroundingController, UINSAppKitTerminationController, UINSAppLifecycleState, UINSApplicationDelegate, UINSUIKitBackgroundingController, UINSUIKitTerminationController, UINSWindowStateController;
+@class UINSApplicationDelegate;
 
 __attribute__((visibility("hidden")))
 @interface UINSApplicationLifecycleController
 {
     UINSApplicationDelegate *_appDelegate;
-    UINSAppLifecycleState *_currentState;
-    UINSAppKitBackgroundingController *_appKitBackgroundingController;
-    UINSUIKitBackgroundingController *_uiKitBackgroundingController;
-    UINSAppKitTerminationController *_appKitTerminationController;
-    UINSUIKitTerminationController *_uiKitTerminationController;
-    UINSWindowStateController *_windowStateController;
-    NSMapTable *_stateIDsToStates;
 }
 
 - (id);
@@ -29,20 +22,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)rc;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -90,38 +83,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)Rhm;
 - (void);
 - (_Bool);
+- (_Bool);
+- (void);
+- (_Bool)/;
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void):(long long)arg1 ;
+- (void));
 
 // Remaining properties
 @property(readonly, nonatomic) __weak UINSApplicationDelegate *appDelegate; // @synthesize appDelegate=_appDelegate;
-@property(readonly, nonatomic) UINSAppKitBackgroundingController *appKitBackgroundingController; // @synthesize appKitBackgroundingController=_appKitBackgroundingController;
-@property(readonly, nonatomic) UINSAppKitTerminationController *appKitTerminationController; // @synthesize appKitTerminationController=_appKitTerminationController;
-@property(retain, nonatomic) UINSAppLifecycleState *currentState; // @synthesize currentState=_currentState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isAttemptingTermination;
-@property(readonly, nonatomic) _Bool isLaunchComplete;
-@property(readonly, nonatomic) _Bool isLaunchedToBackground;
-@property(readonly, nonatomic) NSMapTable *stateIDsToStates; // @synthesize stateIDsToStates=_stateIDsToStates;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) UINSUIKitBackgroundingController *uiKitBackgroundingController; // @synthesize uiKitBackgroundingController=_uiKitBackgroundingController;
-@property(readonly, nonatomic) UINSUIKitTerminationController *uiKitTerminationController; // @synthesize uiKitTerminationController=_uiKitTerminationController;
-@property(readonly, nonatomic) UINSWindowStateController *windowStateController; // @synthesize windowStateController=_windowStateController;
 
 @end
 

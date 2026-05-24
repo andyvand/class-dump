@@ -7,12 +7,10 @@
 @interface _NSConstantArrayEnumerator
 {
     id *objects;
-    unsigned long long capacity;
-    unsigned long long index;
 }
 
-- (id);
-- (id);
+- (id)_nextElectionPublisherState;
+- (id)%{public}@, guid:%{public}@, extID:%@, error:%{public}@} /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

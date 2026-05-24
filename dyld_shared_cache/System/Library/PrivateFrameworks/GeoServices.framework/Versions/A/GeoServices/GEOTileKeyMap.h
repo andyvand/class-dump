@@ -7,7 +7,6 @@
 @interface GEOTileKeyMap
 {
     long long _type;
-    void *_map;
 }
 
 - (void);
@@ -15,8 +14,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)t_level) failed %s;
+- (id)u;
 - (id)ansitedToWalking"b1"has_isTransitionToFindmyTermination"b1"has_isTransitionToWalkingTermination"b1"has_isVlfImprovementUsed"b1"has_preArrival"b1"read_unknownFields"b1"read_analyticMetadata"b1"read_arrivalLocation"b1"read_directionsFeedbacks"b1"read_durationInNavigationModes"b1"read_evChargingMode"b1"read_evConsumptionModel"b1"read_finalLocation"b1"read_parkingDetectionLocation"b1"read_tripOrigin"b1"read_waypoints"b1"wrote_anyField"b1};
 - (id)anyField"b1};
 - (unsigned long long)) are available; ;

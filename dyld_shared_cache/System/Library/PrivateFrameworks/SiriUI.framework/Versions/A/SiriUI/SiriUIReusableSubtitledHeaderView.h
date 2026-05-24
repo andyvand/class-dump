@@ -6,12 +6,11 @@
 
 #import <SiriUI/SiriUIReusableHeaderView.h>
 
-@class NSAttributedString, NSString, NSTextField;
+@class NSAttributedString, NSTextField;
 
 @interface SiriUIReusableSubtitledHeaderView : SiriUIReusableHeaderView
 {
     NSAttributedString *_attributedSubtitleText;
-    NSTextField *_subtitleLabel;
 }
 
 + (double);
@@ -20,18 +19,16 @@
 - (double);
 - (id);
 - (void);
-- (struct CGSize);
+- (struct CGSize)�&;
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSAttributedString *attributedSubtitleText; // @synthesize attributedSubtitleText=_attributedSubtitleText;
 @property(retain, nonatomic) NSTextField *subtitleLabel; // @synthesize subtitleLabel=_subtitleLabel;
-@property(copy, nonatomic) NSString *subtitleText;
 
 @end
 

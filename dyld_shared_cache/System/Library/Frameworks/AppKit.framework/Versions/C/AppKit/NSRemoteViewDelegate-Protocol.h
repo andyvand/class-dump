@@ -4,12 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSXPCInterface;
+@class NSXPCInterface;
 
 @protocol NSRemoteViewDelegate
 
 @optional
-- (NSObject *);
+- (_Bool);
+- (_Bool);
+- (NSXPCInterface *)�;
+- (_Bool)Je;
 - (NSXPCInterface *)arbonModifiersFromCocoaModifierMask(modifiers));
 
 // Remaining properties

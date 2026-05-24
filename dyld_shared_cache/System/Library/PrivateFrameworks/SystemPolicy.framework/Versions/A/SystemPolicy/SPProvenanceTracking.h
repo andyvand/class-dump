@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSXPCConnection, NSXPCInterface;
+@class NSXPCInterface;
 
 @interface SPProvenanceTracking
 {
     NSXPCInterface *_interface;
-    NSXPCConnection *_connection;
 }
 
 - (id);
 - (id);
+- (id)pY;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (id);
-- (void);
+- (void);
 
 @end
 

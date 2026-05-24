@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface INRestaurantGuestDisplayPreferences
 {
     _Bool _nameFieldFirstNameOptional;
-    _Bool _nameFieldLastNameOptional;
-    _Bool _nameFieldShouldBeDisplayed;
-    _Bool _emailAddressFieldShouldBeDisplayed;
-    _Bool _phoneNumberFieldShouldBeDisplayed;
-    _Bool _nameEditable;
-    _Bool _emailAddressEditable;
-    _Bool _phoneNumberEditable;
 }
 
 + (_Bool);
@@ -24,9 +15,9 @@
 - (void);
 - (void);
 - (void);
+- (void)0;
 - (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -35,31 +26,18 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (id)initWithBundleIdentifier:(id)arg1 forControllerIdentifier: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)k;
+- (_Bool)isMonitoringEventType:(id)arg1 interfaceName: /* Error: Ran out of types for this method. */;
+- (void)public}s:(id)arg1 %u) Not in link vicinity anymore
+;
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id)Contact;
+- (id)dialingContact;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool emailAddressEditable; // @synthesize emailAddressEditable=_emailAddressEditable;
-@property _Bool emailAddressFieldShouldBeDisplayed; // @synthesize emailAddressFieldShouldBeDisplayed=_emailAddressFieldShouldBeDisplayed;
-@property(readonly) unsigned long long hash;
-@property _Bool nameEditable; // @synthesize nameEditable=_nameEditable;
 @property _Bool nameFieldFirstNameOptional; // @synthesize nameFieldFirstNameOptional=_nameFieldFirstNameOptional;
-@property _Bool nameFieldLastNameOptional; // @synthesize nameFieldLastNameOptional=_nameFieldLastNameOptional;
-@property _Bool nameFieldShouldBeDisplayed; // @synthesize nameFieldShouldBeDisplayed=_nameFieldShouldBeDisplayed;
-@property _Bool phoneNumberEditable; // @synthesize phoneNumberEditable=_phoneNumberEditable;
-@property _Bool phoneNumberFieldShouldBeDisplayed; // @synthesize phoneNumberFieldShouldBeDisplayed=_phoneNumberFieldShouldBeDisplayed;
-@property(readonly) Class superclass;
 
 @end
 

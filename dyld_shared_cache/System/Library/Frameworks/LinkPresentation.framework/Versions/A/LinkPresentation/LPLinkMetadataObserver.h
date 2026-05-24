@@ -9,15 +9,13 @@
 @interface LPLinkMetadataObserver
 {
     LPLinkMetadata *_metadata;
-    CDUnknownBlockType _callback;
-    _Bool _hasScheduledCallback;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)I;
+- (void)__objc_classlist__DATA_CONST;
 
 @end
 

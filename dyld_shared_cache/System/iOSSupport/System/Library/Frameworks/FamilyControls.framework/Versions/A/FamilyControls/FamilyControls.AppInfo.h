@@ -8,9 +8,6 @@
 {
     id source;
     id bundleIdentifier;
-    id displayName;
-    id localURL;
-    id artworkURL;
 }
 
 @end

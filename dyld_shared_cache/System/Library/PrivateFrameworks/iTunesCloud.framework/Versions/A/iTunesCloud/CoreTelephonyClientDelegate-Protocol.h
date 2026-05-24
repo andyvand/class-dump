@@ -5,5 +5,9 @@
 //
 
 @protocol CoreTelephonyClientDelegate
+
+@optional
+- (void)T,g;
+- (void)�;
 @end
 

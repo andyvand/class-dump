@@ -4,6 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSString, NSURL;
+
 @protocol NSTextViewDelegate
+
+@optional
+- (void);
+- (NSArray *);
+- (NSArray *);
+- (NSString *);
+- (NSArray *),;
+- (void);
+- (NSArray *);
+- (NSURL *);
 @end
 

@@ -6,32 +6,27 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface POMMESSchemaPOMMESCacheLookupFailed : SISchemaInstrumentationMessage
 {
     int _reason;
-    CDStruct_6555f803 _has;
 }
 
 - (id);
-- (int);
+- (int)'s broker server (%@);
 - (_Bool);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)iate message and attachment, empty message GUID.;
 - (void);
 - (id);
 - (id);
-- (id)abled;
+- (id)_numSiriShortcutsEnabled;
 - (id)asSubscriberName;
-- (void)DEVICECATEGORY_CARKIT;
+- (void)BLUETOOTHAUDIODEVICECATEGORY_CARKIT;
 
 // Remaining properties
-@property(nonatomic) _Bool hasReason;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int reason; // @synthesize reason=_reason;
 
 @end

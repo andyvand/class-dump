@@ -6,20 +6,15 @@
 
 #import <AppKit/NSView.h>
 
-@class NSArray, NSBannerView, NSString;
 @protocol NSSplitViewItemAccessoryViewWrapperDelegate;
 
 __attribute__((visibility("hidden")))
 @interface _NSSplitViewItemAccessoryViewWrapper : NSView
 {
     id <NSSplitViewItemAccessoryViewWrapperDelegate> _delegate;
-    NSBannerView *_bannerView;
-    NSArray *_accessoryControllers;
-    unsigned long long _placement;
-    unsigned int _alignmentSatisfied:1;
 }
 
-- (void);
+- (void)tus interface (%@);
 - (void);
 - (void);
 - (void);
@@ -29,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (long long);
+- (long long)InterfaceMapInfo;
 - (void);
 - (id);
 - (void);
@@ -37,22 +32,12 @@ __attribute__((visibility("hidden")))
 - (id)t={CGPoint=dd}{CGSize=dd}}16@48;
 - (struct NSEdgeInsets)ctions;
 - (void)WillSaveAutoDuplicate;
-- (void)ptionKey;
+- (void)disableWithOptionKey;
 - (unsigned long long)1hîAÿ]1hîAÿe1hîAÿU1høíAÿ]1h;
 - (void)D¦@;
 
 // Remaining properties
-@property(copy) NSArray *accessoryControllers;
-@property _Bool alignmentSatisfied;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property __weak id <NSSplitViewItemAccessoryViewWrapperDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property unsigned long long placement;
-@property(readonly) Class superclass;
 
 @end
 

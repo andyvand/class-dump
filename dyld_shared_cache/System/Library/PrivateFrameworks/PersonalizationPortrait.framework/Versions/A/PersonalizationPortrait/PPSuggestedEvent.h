@@ -6,19 +6,16 @@
 
 #import <PersonalizationPortrait/PPScoredEvent.h>
 
-@class NSString;
-
 @interface PPSuggestedEvent : PPScoredEvent
 {
     unsigned char _category;
-    NSString *_eventIdentifier;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)debugInfo;
 - (id);
 - (void);
 - (unsigned char);
@@ -26,7 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned char category; // @synthesize category=_category;
-@property(readonly, nonatomic) NSString *eventIdentifier; // @synthesize eventIdentifier=_eventIdentifier;
 
 @end
 

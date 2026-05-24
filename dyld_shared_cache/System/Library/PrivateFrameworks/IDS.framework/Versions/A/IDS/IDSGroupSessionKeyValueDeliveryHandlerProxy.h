@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
-@protocol IDSGroupSessionKeyValueDeliveryHandler;
+@class NSUUID;
 
 @interface IDSGroupSessionKeyValueDeliveryHandlerProxy
 {
     NSUUID *_handlerUUID;
-    id <IDSGroupSessionKeyValueDeliveryHandler> _handler;
 }
 
 - (void);
@@ -23,15 +21,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak id <IDSGroupSessionKeyValueDeliveryHandler> handler; // @synthesize handler=_handler;
 @property(copy, nonatomic) NSUUID *handlerUUID; // @synthesize handlerUUID=_handlerUUID;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

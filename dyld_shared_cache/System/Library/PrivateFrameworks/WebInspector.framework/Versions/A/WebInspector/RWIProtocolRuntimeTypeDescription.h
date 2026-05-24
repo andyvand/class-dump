@@ -6,8 +6,6 @@
 
 #import <WebInspector/RWIProtocolJSONObject.h>
 
-@class NSArray, NSString, RWIProtocolRuntimeTypeSet;
-
 @interface RWIProtocolRuntimeTypeDescription : RWIProtocolJSONObject
 {
 }
@@ -25,11 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool isTruncated;
 @property(nonatomic) _Bool isValid;
-@property(copy, nonatomic) NSString *leastCommonAncestor;
-@property(copy, nonatomic) NSArray *structures;
-@property(retain, nonatomic) RWIProtocolRuntimeTypeSet *typeSet;
 
 @end
 

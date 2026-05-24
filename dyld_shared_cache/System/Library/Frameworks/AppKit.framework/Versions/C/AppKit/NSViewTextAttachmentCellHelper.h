@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutManager, NSView, NSViewTextAttachmentCell;
+@class NSView;
 
 @interface NSViewTextAttachmentCellHelper
 {
     NSView *_view;
-    NSViewTextAttachmentCell *_attachmentCell;
-    NSLayoutManager *_layoutManager;
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
-- (void);
-- (id)ffectView;
+- (void);
+- (id)_uninstallWritingToolsEffectView;
 
 @end
 

@@ -6,19 +6,17 @@
 
 #import <Vision/VNTracker.h>
 
-@class FaceCoreDetector, NSDictionary;
+@class FaceCoreDetector;
 
 __attribute__((visibility("hidden")))
 @interface VNObjectTrackerLegacyFaceCore : VNTracker
 {
     FaceCoreDetector *_detector;
-    NSDictionary *_detectOptions;
-    NSDictionary *_extractOptions;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)$_;
 + (Class);
 + (id);
 - (id);
@@ -26,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (void)xMM;
+- (void)stubBoxMM;
 - (_Bool);
 
 @end

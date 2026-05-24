@@ -10,19 +10,19 @@ __attribute__((visibility("hidden")))
 }
 
 + (int);
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 + (id);
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (unsigned int);
-+ (unsigned int);
++ (unsigned int);
 + (unsigned int);
 + (float);
-+ (int);
++ (int)!;
 + (double);
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
@@ -32,7 +32,7 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (_Bool);
 + (long long);
-+ (unsigned int);
++ (unsigned int);
 + (unsigned int);
 + (unsigned int);
 + (int);
@@ -41,15 +41,15 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-+ (int);
++ (int)J!;
 + (_Bool);
 + (_Bool);
++ (unsigned int)c;
++ (unsigned int);
++ (unsigned int)@;
 + (unsigned int);
 + (unsigned int);
-+ (unsigned int);
-+ (unsigned int);
-+ (unsigned int);
-+ (int);
++ (int);
 + (id);
 + (unsigned int);
 + (double);

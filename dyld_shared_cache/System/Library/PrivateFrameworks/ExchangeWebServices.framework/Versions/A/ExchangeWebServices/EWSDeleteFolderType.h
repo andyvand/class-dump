@@ -11,18 +11,16 @@
 @interface EWSDeleteFolderType : EWSBaseRequestType
 {
     NSArray *_FolderIds;
-    long long _DeleteType;
 }
 
 + (id);
 - (void);
-- (long long);
+- (long long);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long DeleteType; // @synthesize DeleteType=_DeleteType;
 @property(copy, nonatomic) NSArray *FolderIds; // @synthesize FolderIds=_FolderIds;
 
 @end

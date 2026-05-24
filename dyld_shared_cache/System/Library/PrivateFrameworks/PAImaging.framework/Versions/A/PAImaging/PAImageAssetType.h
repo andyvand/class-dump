@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PAImageType;
+@class NSString;
 
 @interface PAImageAssetType
 {
     NSString *_key;
-    PAImageType *_imageType;
-    _Bool _consumesAdjustmentChanges;
 }
 
 + (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)Z;
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (_Bool);
@@ -27,8 +25,6 @@
 - (void);
 
 // Remaining properties
-@property _Bool consumesAdjustmentChanges; // @synthesize consumesAdjustmentChanges=_consumesAdjustmentChanges;
-@property(readonly) PAImageType *imageType; // @synthesize imageType=_imageType;
 @property(readonly) NSString *key; // @synthesize key=_key;
 
 @end

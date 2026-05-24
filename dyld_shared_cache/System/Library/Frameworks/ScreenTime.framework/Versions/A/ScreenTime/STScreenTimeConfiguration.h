@@ -10,12 +10,12 @@
 }
 
 + (_Bool);
-- (void);
+- (void)DefaultBundlePaidMultiplier;
+- (id)DefaultConversionScoreDemocratizationFactor;
+- (void)DefaultClientSideEngagementBoostTagQualityMultiplier;
+- (_Bool)NSButton",&,N,V_likeButton;
 - (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties

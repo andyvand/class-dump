@@ -11,11 +11,11 @@
     AVContentKeyResponseInternal *_keyResponse;
 }
 
++ (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-- (id);
+- (id)(;
 - (id);
 - (void);
 

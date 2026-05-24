@@ -6,42 +6,32 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class INRideStatus, NSString;
-
 @interface INGetRideStatusIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
++ (int)additionalProperties;
++ (int)mporaryURL;
++ (long long)"NSDictionary",&,V_metadata;
++ (_Bool)QLTFileThumbnailRequest;
 + (_Bool);
-+ (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (long long);
 - (id);
 - (long long);
+- (id)\;
+- (id)DeviceAdaptiveTriggersStatusPayload",&,N,V_rightStatus;
+- (id);
+- (void)PresentationFeed.framework/SymptomPresentationFeed;
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (long long)chForMessagesIntent;
+- (long long)INSearchForMessagesIntent;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) INRideStatus *rideStatus;
-@property(readonly) Class superclass;
 
 @end
 

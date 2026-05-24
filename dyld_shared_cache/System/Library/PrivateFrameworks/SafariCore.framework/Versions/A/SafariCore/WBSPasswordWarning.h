@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, WBSPasswordEvaluation, WBSSavedAccount, WBSWebsitePasskeyAvailabilityInfo;
+@class WBSPasswordEvaluation;
 
 @interface WBSPasswordWarning
 {
     WBSPasswordEvaluation *_weakPasswordEvaluation;
-    NSArray *_titlesOfSavedAccountsWithReusedPassword;
-    NSString *_user;
-    NSString *_password;
-    NSString *_highLevelDomain;
-    _Bool _savedAccountIsOnlySavedAccountForHighLevelDomain;
-    WBSSavedAccount *_savedAccount;
-    unsigned long long _issueTypes;
-    unsigned long long _severityScore;
-    WBSWebsitePasskeyAvailabilityInfo *_websitePasskeyAvailabilityInfo;
 }
 
 - (id);
@@ -54,22 +45,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasBeenCompromised;
-@property(readonly, nonatomic) _Bool hasBeenHidden;
-@property(readonly, nonatomic) unsigned long long hashForUserAcknowlegement;
-@property(readonly, nonatomic) unsigned long long issueTypes; // @synthesize issueTypes=_issueTypes;
-@property(readonly, nonatomic) NSString *localizedAlertWarningForSharingReusedPassword;
-@property(readonly, nonatomic) NSString *localizedBody;
-@property(readonly, nonatomic) NSString *localizedHeadline;
-@property(readonly, nonatomic) NSString *localizedInformationTextForWarningWhenLoggingIn;
-@property(readonly, nonatomic) NSString *localizedShortDescriptionOfProblemType;
-@property(readonly, nonatomic) NSString *localizedShortDescriptivePhrase;
-@property(readonly, nonatomic) WBSSavedAccount *savedAccount; // @synthesize savedAccount=_savedAccount;
-@property(readonly, nonatomic) _Bool savedAccountIsOnlySavedAccountForHighLevelDomain; // @synthesize savedAccountIsOnlySavedAccountForHighLevelDomain=_savedAccountIsOnlySavedAccountForHighLevelDomain;
-@property(readonly, nonatomic) unsigned long long severity;
 @property(nonatomic) unsigned long long severityScore; // @synthesize severityScore=_severityScore;
-@property(readonly, nonatomic) _Bool shouldShowWarningsWhenLoggingIn;
-@property(retain, nonatomic) WBSWebsitePasskeyAvailabilityInfo *websitePasskeyAvailabilityInfo; // @synthesize websitePasskeyAvailabilityInfo=_websitePasskeyAvailabilityInfo;
 
 @end
 

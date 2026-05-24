@@ -8,19 +8,19 @@
 {
 }
 
-+ (unsigned char);
++ (unsigned char)?40;
 + (unsigned long long);
 + (void);
 + (id);
 + (void);
 + (void);
-+ (void);
++ (void)PC connection error:(id)arg1 %@;
 + (unsigned char);
 + (void);
-+ (void);
++ (void)e_t *);
 + (void);
 + (id);
-+ (void);
++ (void)replaceArrangedSubview:(id)arg1 inColumnAtIndex:(id)arg2 rowAtIndex:(double)arg3;
 + (unsigned char);
 + (void);
 

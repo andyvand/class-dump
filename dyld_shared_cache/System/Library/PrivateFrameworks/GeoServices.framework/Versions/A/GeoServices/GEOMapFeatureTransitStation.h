@@ -10,7 +10,7 @@
 {
 }
 
-- (id);
+- (id)appendName:doubleValue: /* Error: Ran out of types for this method. */;
 
 @end
 

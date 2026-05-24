@@ -5,5 +5,7 @@
 //
 
 @protocol PLAssetsdDiagnosticsServiceProtocol
+- (id)nextRequestForServer: /* Error: Ran out of types for this method. */;
+- (id)s;
 @end
 

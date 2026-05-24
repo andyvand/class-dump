@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTLazuliChatBotTelephoneNumber, NSString;
+@class NSString;
 
 @interface CTLazuliChatBotTelephoneInformation
 {
     NSString *_label;
-    CTLazuliChatBotTelephoneNumber *_telNumber;
-    NSString *_telephoneType;
 }
 
-+ (_Bool);
++ (_Bool)isMapSegment;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)LAExtendedRequirement;
 - (id);
 - (void);
 - (void)&ð!Eùª)ð1Â0@ù
@@ -32,8 +30,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *label; // @synthesize label=_label;
-@property(retain, nonatomic) CTLazuliChatBotTelephoneNumber *telNumber; // @synthesize telNumber=_telNumber;
-@property(retain, nonatomic) NSString *telephoneType; // @synthesize telephoneType=_telephoneType;
 
 @end
 

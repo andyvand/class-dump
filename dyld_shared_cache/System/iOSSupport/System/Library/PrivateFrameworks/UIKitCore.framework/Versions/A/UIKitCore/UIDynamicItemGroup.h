@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMapTable, NSString, UIBezierPath;
+@class NSArray, NSMapTable;
 
 @interface UIDynamicItemGroup
 {
     NSMapTable *_itemsToOffsets;
-    struct CGPoint _center;
-    struct CGAffineTransform _transform;
 }
 
 - (struct CGAffineTransform);
@@ -24,25 +22,7 @@
 - (void)`h;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect bounds;
-@property(nonatomic) struct CGPoint center; // @synthesize center=_center;
-@property(readonly, nonatomic) UIBezierPath *collisionBoundingPath;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIBezierPath",?,R,N
-
-@property(readonly, nonatomic) unsigned long long collisionBoundsType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSArray *items;
-@property(readonly) Class superclass;
-@property(nonatomic) struct CGAffineTransform transform; // @synthesize transform=_transform;
 
 @end
 

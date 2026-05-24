@@ -17,8 +17,8 @@
 - (id);
 - (void);
 - (struct _NSRange);
-- (struct CGRect);
-- (id);
+- (struct CGRect)1;
+- (id)s;
 - (struct _NSRange);
 - (void);
 

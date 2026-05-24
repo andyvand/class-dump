@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTimer, PHPhotoLibrary, PLSearchIndexSceneTaxonomyProvider, PLSearchSpotlightSandboxExtension, PSIDatabase;
+@class NSTimer;
 
 @interface PHSearchIndex
 {
     struct os_unfair_lock_s _queryLock;
-    PLSearchSpotlightSandboxExtension *_spotlightSandboxExtension;
-    _Bool _isCheckingIfTheSearchIndexIsReady;
-    PSIDatabase *__psiSearchIndex;
-    PHPhotoLibrary *_photoLibrary;
-    PLSearchIndexSceneTaxonomyProvider *_sceneTaxonomyProvider;
-    PSIDatabase *_unverifiedPsiSearchIndex;
-    NSTimer *_searchIndexStatusTimer;
 }
 
 + (_Bool);
-- (void);
+- (void)!.;
 - (id);
 - (void);
 - (void);
@@ -33,24 +26,18 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)a;
 - (id);
-- (id);
+- (id);
 - (void),R,N,V_savedAssetType;
 - (id)ic}@;
 
 // Remaining properties
-@property(retain, nonatomic) PSIDatabase *_psiSearchIndex; // @synthesize _psiSearchIndex=__psiSearchIndex;
-@property(nonatomic) _Bool isCheckingIfTheSearchIndexIsReady; // @synthesize isCheckingIfTheSearchIndexIsReady=_isCheckingIfTheSearchIndexIsReady;
-@property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(readonly, nonatomic) PSIDatabase *psiSearchIndex;
-@property(retain, nonatomic) PLSearchIndexSceneTaxonomyProvider *sceneTaxonomyProvider; // @synthesize sceneTaxonomyProvider=_sceneTaxonomyProvider;
 @property(retain, nonatomic) NSTimer *searchIndexStatusTimer; // @synthesize searchIndexStatusTimer=_searchIndexStatusTimer;
-@property(retain, nonatomic) PSIDatabase *unverifiedPsiSearchIndex; // @synthesize unverifiedPsiSearchIndex=_unverifiedPsiSearchIndex;
 
 @end
 

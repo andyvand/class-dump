@@ -6,16 +6,11 @@
 
 #import <PhotosUICore/PXStoryDerivedTimeline.h>
 
-@class PXCArrayStore, PXExploreLayoutGenerator;
+@class PXExploreLayoutGenerator;
 
 @interface PXStoryGridTimeline : PXStoryDerivedTimeline
 {
     long long *_assetClipIdentifiers;
-    struct _PXLayoutGeometry *_assetClipGeometries;
-    long long _numberOfAssetClips;
-    PXCArrayStore *_rectsStore;
-    PXExploreLayoutGenerator *_layoutGenerator;
-    struct CGSize _size;
 }
 
 - (id);

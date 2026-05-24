@@ -13,12 +13,12 @@
     VN6Mb1ME89lyW3HpahkEygIG *_request;
 }
 
-+ (_Bool);
-+ (_Bool);
++ (_Bool);
++ (_Bool)setTimeSinceViewportEnteredForeground: /* Error: Ran out of types for this method. */;
 + (id);
 + (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 
 @end

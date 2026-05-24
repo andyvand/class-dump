@@ -9,11 +9,10 @@
 @interface MPSCNNDilatedPoolingMaxGradientNode : MPSCNNPoolingGradientNode
 {
     unsigned long long _dilationRateX;
-    unsigned long long _dilationRateY;
 }
 
 + (id);
-- (void *);
+- (void *);
 - (id);
 - (id);
 - (unsigned long long);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long dilationRateX; // @synthesize dilationRateX=_dilationRateX;
-@property(readonly, nonatomic) unsigned long long dilationRateY; // @synthesize dilationRateY=_dilationRateY;
 
 @end
 

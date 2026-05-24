@@ -11,13 +11,12 @@
 @interface AASecondaryAuthenticationRequest : AARequest
 {
     NSString *_primaryToken;
-    NSString *_dsid;
 }
 
 + (Class);
-- (id);
-- (id);
-- (void)pletionHandler: /* Error: Ran out of types for this method. */;
+- (id)ess:(id)arg1 %d  registered:(id)arg2 %d;
+- (id)#;
+- (void)saveVerifiedAccount:withCompletionHandler: /* Error: Ran out of types for this method. */;
 - (id)t-info;
 
 @end

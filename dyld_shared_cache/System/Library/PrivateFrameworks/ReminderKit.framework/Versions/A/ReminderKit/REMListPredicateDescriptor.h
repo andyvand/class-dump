@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, REMObjectID;
-
 @interface REMListPredicateDescriptor
 {
     long long _type;
-    REMObjectID *_accountID;
-    REMObjectID *_parentListID;
-    NSArray *_objectIDs;
 }
 
 + (id);
@@ -20,7 +15,7 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (long long);
+- (long long)`b;
 - (_Bool);
 - (void);
 - (id);
@@ -33,9 +28,6 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) REMObjectID *accountID; // @synthesize accountID=_accountID;
-@property(retain, nonatomic) NSArray *objectIDs; // @synthesize objectIDs=_objectIDs;
-@property(retain, nonatomic) REMObjectID *parentListID; // @synthesize parentListID=_parentListID;
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end

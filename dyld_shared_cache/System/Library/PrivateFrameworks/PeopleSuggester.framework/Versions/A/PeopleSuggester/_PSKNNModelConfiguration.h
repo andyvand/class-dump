@@ -4,48 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface _PSKNNModelConfiguration
 {
     NSArray *_interactionCountMaxDepths;
-    NSArray *_interactionMechanisms;
-    NSArray *_interactionHistoryRelativeStartDates;
-    NSArray *_bundleIds;
-    long long _modelType;
-    NSString *_modelName;
-    unsigned long long _clusterPruneThreshold;
-    CDUnknownBlockType _shouldExcludeInteractionBlock;
 }
 
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)x+;
 - (id);
 - (void);
-- (id);
+- (void);
+- (void);
+- (void);
+- (id)rGraphCore() no groups, find computer list:ODQuery(%s=="%s" ) [computerListParent recordName]=%s, [computerListParent recordType]=%s, [computerListParent nodeName]=%s /* Error: Ran out of types for this method. */;
+- (void);
+- (id)'(*'
+;
 - (void);
 - (id);
 - (CDUnknownBlockType);
 - (unsigned long long);
 - (void);
 - (id);
-- (void);
-- (id)r:contact: /* Error: Ran out of types for this method. */;
+- (void)A;
+- (id)initWithIdentifier:contact: /* Error: Ran out of types for this method. */;
 - (long long)rivacyRule"8;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *bundleIds; // @synthesize bundleIds=_bundleIds;
-@property(readonly, nonatomic) unsigned long long clusterPruneThreshold; // @synthesize clusterPruneThreshold=_clusterPruneThreshold;
 @property(retain, nonatomic) NSArray *interactionCountMaxDepths; // @synthesize interactionCountMaxDepths=_interactionCountMaxDepths;
-@property(retain, nonatomic) NSArray *interactionHistoryRelativeStartDates; // @synthesize interactionHistoryRelativeStartDates=_interactionHistoryRelativeStartDates;
-@property(retain, nonatomic) NSArray *interactionMechanisms; // @synthesize interactionMechanisms=_interactionMechanisms;
-@property(retain, nonatomic) NSString *modelName; // @synthesize modelName=_modelName;
-@property(nonatomic) long long modelType; // @synthesize modelType=_modelType;
-@property(copy, nonatomic) CDUnknownBlockType shouldExcludeInteractionBlock; // @synthesize shouldExcludeInteractionBlock=_shouldExcludeInteractionBlock;
 
 @end
 

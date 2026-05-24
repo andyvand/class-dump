@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableIndexSet, NSString, PKTextInputDebugSharpenerLog, UIBarButtonItem, UIButton, UICollectionView, UISegmentedControl;
-@protocol PKTextInputDebugRadarViewControllerDelegate;
+@class UISegmentedControl;
 
 @interface PKTextInputDebugRadarViewController
 {
     _Bool __includeSysdiagnose;
-    PKTextInputDebugSharpenerLog *_sharpenerLog;
-    id <PKTextInputDebugRadarViewControllerDelegate> _delegate;
-    UISegmentedControl *__contextDetailControl;
-    UIBarButtonItem *__submitButton;
-    UICollectionView *__entriesCollectionView;
-    double __keyboardVerticalOverlap;
-    UIButton *__sysdiagnoseButton;
-    NSMutableArray *__intendedTexts;
-    NSMutableIndexSet *__includedEntryIndexes;
 }
 
 - (id);
@@ -73,22 +63,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) UISegmentedControl *_contextDetailControl; // @synthesize _contextDetailControl=__contextDetailControl;
-@property(retain, nonatomic) UICollectionView *_entriesCollectionView; // @synthesize _entriesCollectionView=__entriesCollectionView;
-@property(nonatomic) _Bool _includeSysdiagnose; // @synthesize _includeSysdiagnose=__includeSysdiagnose;
-@property(retain, nonatomic) NSMutableIndexSet *_includedEntryIndexes; // @synthesize _includedEntryIndexes=__includedEntryIndexes;
-@property(retain, nonatomic) NSMutableArray *_intendedTexts; // @synthesize _intendedTexts=__intendedTexts;
-@property(nonatomic, setter=_setKeyboardVerticalOverlap:) double _keyboardVerticalOverlap; // @synthesize _keyboardVerticalOverlap=__keyboardVerticalOverlap;
-@property(retain, nonatomic) UIBarButtonItem *_submitButton; // @synthesize _submitButton=__submitButton;
-@property(retain, nonatomic) UIButton *_sysdiagnoseButton; // @synthesize _sysdiagnoseButton=__sysdiagnoseButton;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PKTextInputDebugRadarViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PKTextInputDebugSharpenerLog *sharpenerLog; // @synthesize sharpenerLog=_sharpenerLog;
-@property(readonly) Class superclass;
 
 @end
 

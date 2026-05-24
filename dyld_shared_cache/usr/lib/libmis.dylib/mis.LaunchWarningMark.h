@@ -7,7 +7,6 @@
 @interface mis.LaunchWarningMark
 {
     id version;
-    id warningID;
 }
 
 @end

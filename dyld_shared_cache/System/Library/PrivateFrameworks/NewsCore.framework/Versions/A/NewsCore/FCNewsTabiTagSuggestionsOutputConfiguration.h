@@ -9,9 +9,6 @@
 @interface FCNewsTabiTagSuggestionsOutputConfiguration
 {
     NSString *_channelIDsOutputName;
-    NSString *_topicIDsOutputName;
-    NSString *_channelScoresOutputName;
-    NSString *_topicScoresOutputName;
 }
 
 - (id);
@@ -21,16 +18,13 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void)sers=1;;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *channelIDsOutputName; // @synthesize channelIDsOutputName=_channelIDsOutputName;
-@property(retain, nonatomic) NSString *channelScoresOutputName; // @synthesize channelScoresOutputName=_channelScoresOutputName;
-@property(retain, nonatomic) NSString *topicIDsOutputName; // @synthesize topicIDsOutputName=_topicIDsOutputName;
-@property(retain, nonatomic) NSString *topicScoresOutputName; // @synthesize topicScoresOutputName=_topicScoresOutputName;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MDLAsset, NSString;
+@class MDLAsset;
 
 @interface MDLRelativeAssetResolver
 {
@@ -14,19 +14,12 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id)ýü;
 
 // Remaining properties
 @property(nonatomic) __weak MDLAsset *asset; // @synthesize asset=_asset;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

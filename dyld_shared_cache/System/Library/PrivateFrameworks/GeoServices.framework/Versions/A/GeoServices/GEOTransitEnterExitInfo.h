@@ -9,21 +9,9 @@
 @interface GEOTransitEnterExitInfo
 {
     PBUnknownFields *_unknownFields;
-    unsigned int _accessPointIndex;
-    unsigned int _stopIndex;
-    unsigned int _transferTime;
-    _Bool _displayStop;
-    _Bool _uncertainArrival;
-    struct {
-        unsigned int has_accessPointIndex:1;
-        unsigned int has_stopIndex:1;
-        unsigned int has_transferTime:1;
-        unsigned int has_displayStop:1;
-        unsigned int has_uncertainArrival:1;
-    } _flags;
 }
 
-+ (_Bool)odelName:(id)arg1;
++ (_Bool)setModelName:(id)arg1;
 - (_Bool);
 - (unsigned int);
 - (unsigned int);
@@ -38,41 +26,31 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned int);
+- (_Bool)setMaxMultivalueSequenceNumberInUse: /* Error: Ran out of types for this method. */;
+- (_Bool)moveAsideDatabaseIfNeeded;
+- (_Bool)_createContactsDirectoryIfNeededAtURL: /* Error: Ran out of types for this method. */;
+- (unsigned int)ABSubscribedPerson;
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)@;
+- (void)ple.mediaaccessibility.displayFilterSettingsChanged;
+- (void)initWithUUIDString:(id)arg1;
+- (id)j;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)1"has_type"b1"has_isFused"b1};
-- (id)dealTransportType;
-- (id)ent: /* Error: Ran out of types for this method. */;
+- (id)idealTransportType;
+- (id)StringAsDisplayEvent: /* Error: Ran out of types for this method. */;
 - (id)7}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}8@"NSError"16;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int accessPointIndex;
-@property(nonatomic) _Bool displayStop;
 @property(nonatomic) _Bool hasAccessPointIndex;
-@property(nonatomic) _Bool hasDisplayStop;
-@property(nonatomic) _Bool hasStopIndex;
-@property(nonatomic) _Bool hasTransferTime;
-@property(nonatomic) _Bool hasUncertainArrival;
-@property(nonatomic) unsigned int stopIndex;
-@property(nonatomic) unsigned int transferTime;
-@property(nonatomic) _Bool uncertainArrival;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -4,53 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NTPBSearchViewExposure
 {
     int _areaPresentationReason;
-    NSString *_campaignId;
-    NSString *_campaignType;
-    NSString *_creativeId;
-    struct {
-        unsigned int areaPresentationReason:1;
-    } _has;
 }
 
+- (void)enumerateSublayoutsInRect:(_Bool)arg1 usingBlock: /* Error: Ran out of types for this method. */;
+- (void)enableInlinePlaybackDebugHUD;
+- (void)ellipsisClickedForTableViewCell:(id)arg1;
+- (void)drawInRect:(int)arg1;
+- (_Bool)configurationWithSystemImageName:spec: /* Error: Ran out of types for this method. */;
+- (_Bool)computeChanges;
+- (_Bool)commenterLastName;
+- (id)clipForDisplayAsset: /* Error: Ran out of types for this method. */;
+- (id)changeRequestForSuggestion: /* Error: Ran out of types for this method. */;
+- (int)changeDepth;
+- (_Bool)buttonsAlpha;
+- (int)bottomInset;
+- (id)becomeCurrent;
 - (void);
-- (void);
-- (void);
-- (void);
+- (id);
+- (id)&;
+- (void)q;
+- (void)P;
+- (unsigned long long)targetTime;
+- (_Bool)RECOMMENDATION_FAMILY_WIFI;
 - (_Bool);
-- (_Bool);
-- (_Bool);
 - (id);
 - (id);
-- (int);
-- (_Bool);
-- (int);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void)scribedChannelScoreCoefficent: /* Error: Ran out of types for this method. */;
+- (void)setSubscribedChannelScoreCoefficent: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) int areaPresentationReason; // @synthesize areaPresentationReason=_areaPresentationReason;
-@property(retain, nonatomic) NSString *campaignId; // @synthesize campaignId=_campaignId;
-@property(retain, nonatomic) NSString *campaignType; // @synthesize campaignType=_campaignType;
-@property(retain, nonatomic) NSString *creativeId; // @synthesize creativeId=_creativeId;
 @property(nonatomic) _Bool hasAreaPresentationReason;
-@property(readonly, nonatomic) _Bool hasCampaignId;
-@property(readonly, nonatomic) _Bool hasCampaignType;
-@property(readonly, nonatomic) _Bool hasCreativeId;
 
 @end
 

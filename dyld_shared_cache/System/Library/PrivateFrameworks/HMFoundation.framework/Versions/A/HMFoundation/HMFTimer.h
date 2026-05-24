@@ -6,21 +6,12 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class NSDate, NSObject;
-@protocol HMFTimerDelegate, OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_source;
 
 @interface HMFTimer : HMFObject
 {
     struct os_unfair_lock_s _lock;
-    unsigned int _options;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    NSObject<OS_dispatch_queue> *_timerQueue;
-    double _timeInterval;
-    long long _leeway;
-    long long _state;
-    NSDate *_fireDate;
-    id <HMFTimerDelegate> _delegate;
-    NSObject<OS_dispatch_source> *_timer;
 }
 
 + (id);
@@ -36,9 +27,9 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
-- (id);
-- (void);
+- (unsigned long long)�;
+- (id)y",C,V_walletKey;
+- (void)p;;
 - (void);
 - (void);
 - (_Bool);
@@ -48,12 +39,6 @@
 - (double);
 
 // Remaining properties
-@property __weak id <HMFTimerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) NSObject<OS_dispatch_queue> *delegateQueue;
-@property(readonly, copy) NSDate *fireDate; // @synthesize fireDate=_fireDate;
-@property(readonly, nonatomic) unsigned long long leeway;
-@property(readonly, getter=isRunning) _Bool running;
-@property(readonly, nonatomic) double timeInterval; // @synthesize timeInterval=_timeInterval;
 @property(readonly, nonatomic) NSObject<OS_dispatch_source> *timer; // @synthesize timer=_timer;
 
 @end

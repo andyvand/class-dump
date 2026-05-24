@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface TLAccessQueue
 {
     NSString *_threadLocalStorageKey;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    NSString *_label;
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)th doesn't match spec in file;
 - (void);
 
 // Remaining properties

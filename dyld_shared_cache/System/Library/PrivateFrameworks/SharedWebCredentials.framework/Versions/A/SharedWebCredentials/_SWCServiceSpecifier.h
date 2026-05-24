@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, _SWCApplicationIdentifier, _SWCDomain;
+@class NSString, _SWCApplicationIdentifier;
 
 @interface _SWCServiceSpecifier
 {
     _SWCApplicationIdentifier *_applicationIdentifier;
-    _SWCDomain *_domain;
-    NSString *_serviceType;
 }
 
 + (id);
@@ -18,14 +16,14 @@
 + (id);
 + (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (BOOL);
 - (id);
-- (_Bool);
+- (_Bool)1;
 - (_Bool);
 - (id);
-- (id);
+- (id)2;
 - (id);
 - (id);
 - (id);
@@ -35,10 +33,10 @@
 - (id);
 - (id);
 - (unsigned long long);
+- (_Bool)4c;
 - (_Bool);
-- (_Bool);
-- (void);
-- (id);
+- (void)ager;
+- (id)s;
 - (id);
 - (id);
 - (id);
@@ -46,19 +44,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) _SWCApplicationIdentifier *SWCApplicationIdentifier; // @synthesize SWCApplicationIdentifier=_applicationIdentifier;
-@property(readonly) _SWCDomain *SWCDomain; // @synthesize SWCDomain=_domain;
-@property(readonly) NSString *applicationIdentifier; // @dynamic applicationIdentifier;
-@property(readonly) NSString *applicationIdentifierPrefix;
 @property(readonly) NSString *bundleIdentifier;
-@property(readonly) NSString *domain; // @dynamic domain;
-@property(readonly) NSString *domainHost;
-@property(readonly) BOOL domainModeOfOperation;
-@property(readonly) NSNumber *domainPort;
-@property(readonly, getter=isDomainWildcard) _Bool domainWildcard;
-@property(readonly, getter=isFullySpecified) _Bool fullySpecified;
-@property(readonly) NSString *serviceType; // @synthesize serviceType=_serviceType;
-@property(readonly, getter=isValid) _Bool valid;
 
 @end
 

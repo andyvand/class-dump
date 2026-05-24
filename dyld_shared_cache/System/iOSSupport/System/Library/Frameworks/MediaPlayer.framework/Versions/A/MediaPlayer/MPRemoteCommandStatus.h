@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPRemoteCommandHandlerDialog, MRSendCommandResultStatus;
+@class MRSendCommandResultStatus;
 
 @interface MPRemoteCommandStatus
 {
     MRSendCommandResultStatus *_mediaRemoteType;
-    MPRemoteCommandHandlerDialog *_dialog;
 }
 
 @end

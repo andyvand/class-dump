@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface OneTimeCodeUIAppearanceInformation
 {
     NSString *_title;
-    NSString *_subtitle;
-    NSImage *_image;
 }
 
 + (id);
@@ -20,14 +18,12 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-- (id);
+- (id)IMCSForceSpotlightIndexingErrors;
 - (id);
 - (id)xperimental Preferences);
 - (void)¬;
 
 // Remaining properties
-@property(readonly, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(readonly, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

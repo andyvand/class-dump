@@ -9,10 +9,6 @@
 @interface NSSQLiteIndexStatistics
 {
     NSString *_storeIdentifier;
-    NSString *_indexName;
-    long long _executionCount;
-    long long _instructionCount;
-    long long _rowCount;
 }
 
 - (void);
@@ -22,14 +18,10 @@
 - (long long);
 - (long long);
 - (id);
-- (long long)onType: /* Error: Ran out of types for this method. */;
+- (long long)setFileProtectionType: /* Error: Ran out of types for this method. */;
 - (id)during execution of SQL string '%s' :%s /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long executionCount; // @synthesize executionCount=_executionCount;
-@property(readonly, nonatomic) NSString *indexName; // @synthesize indexName=_indexName;
-@property(readonly, nonatomic) long long instructionCount; // @synthesize instructionCount=_instructionCount;
-@property(readonly, nonatomic) long long rowCount; // @synthesize rowCount=_rowCount;
 @property(readonly, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
 
 @end

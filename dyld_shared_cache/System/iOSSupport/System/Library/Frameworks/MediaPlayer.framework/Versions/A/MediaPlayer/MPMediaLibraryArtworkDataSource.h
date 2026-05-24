@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPArtworkColorAnalysisUtility, MPArtworkResizeUtility, NSCache, NSString;
+@class NSCache;
 
 @interface MPMediaLibraryArtworkDataSource
 {
     _Bool _usesFallbackCache;
-    NSString *_mediaLibraryUniqueIdentifier;
-    NSCache *_fallbackCache;
-    MPArtworkResizeUtility *_artworkResizeUtility;
-    MPArtworkColorAnalysisUtility *_artworkColorAnalysisUtility;
 }
 
 + (id);
@@ -21,7 +17,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)ypeFaceTimeCallInvitationReceivedHotShip is %@ on this config;
 - (void);
 - (void);
 - (id);
@@ -31,39 +27,27 @@
 - (_Bool);
 - (id);
 - (id);
+- (_Bool)locationAppLastUseTimeoutSeconds;
+- (id)$time.now(-%.f);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void)ImplSharedAudioSourceProviderP;
+- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id)hPersistentIDs:(id)arg1 count:shouldContain: /* Error: Ran out of types for this method. */;
+- (id)predicateWithPersistentIDs:(id)arg1 count:shouldContain: /* Error: Ran out of types for this method. */;
 - (void),GisAdvertisement;
 
 // Remaining properties
-@property(retain, nonatomic) MPArtworkColorAnalysisUtility *artworkColorAnalysisUtility; // @synthesize artworkColorAnalysisUtility=_artworkColorAnalysisUtility;
-@property(readonly, nonatomic) NSString *artworkDataSourceIdentifier;
-@property(retain, nonatomic) MPArtworkResizeUtility *artworkResizeUtility; // @synthesize artworkResizeUtility=_artworkResizeUtility;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSCache *fallbackCache; // @synthesize fallbackCache=_fallbackCache;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *mediaLibraryUniqueIdentifier; // @synthesize mediaLibraryUniqueIdentifier=_mediaLibraryUniqueIdentifier;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool usesFallbackCache; // @synthesize usesFallbackCache=_usesFallbackCache;
 
 @end
 

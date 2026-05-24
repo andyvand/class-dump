@@ -5,5 +5,6 @@
 //
 
 @protocol IKImageProxy
+- (_Bool);
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIViewController;
-@protocol SXAction, SXActionPreviewActivity;
+@protocol SXAction;
 
 @interface SXActionManagerPreview
 {
     id <SXAction> _action;
-    id <SXActionPreviewActivity> _previewActivity;
-    UIViewController *_viewController;
 }
 
 - (void)B40;

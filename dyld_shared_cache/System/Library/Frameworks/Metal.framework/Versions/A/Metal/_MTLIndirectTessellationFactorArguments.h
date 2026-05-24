@@ -7,9 +7,6 @@
 @interface _MTLIndirectTessellationFactorArguments
 {
     void *_virtualAddress;
-    unsigned long long _GPUVirtualAddress;
-    unsigned long long _instanceStride;
-    float _scale;
 }
 
 - (void);
@@ -19,12 +16,9 @@
 - (unsigned long long);
 - (void *);
 - (float);
-- (void);
+- (void)%@%@:(float)arg1 %@;;
 
 // Remaining properties
-@property(nonatomic) unsigned long long GPUVirtualAddress; // @synthesize GPUVirtualAddress=_GPUVirtualAddress;
-@property(nonatomic) unsigned long long instanceStride; // @synthesize instanceStride=_instanceStride;
-@property(nonatomic) float scale; // @synthesize scale=_scale;
 @property(nonatomic) void *virtualAddress;
 
 @end

@@ -4,39 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, GEOPDMapsIdentifier, GEOStyleAttributes, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDDotPlace
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOLatLng *_latLng;
-    GEOPDMapsIdentifier *_mapsId;
-    NSString *_name;
-    GEOStyleAttributes *_styleAttributes;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_latLng:1;
-        unsigned int read_mapsId:1;
-        unsigned int read_name:1;
-        unsigned int read_styleAttributes:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)SVoiceTriggerFirstPassMetrics",R,N,V_firstpassMetrics;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)onHeader"b1"has_supportStructuredRapAffordance"b1"has_supportUnresolvedDirectionIntent"b1"read_unknownFields"b1"read_knownRefinementTypes"b1"read_supportedAutocompleteResultCellTypes"b1"read_supportedHighlightTypes"b1"read_supportedListTypes"b1"read_supportedPlaceSummaryFormatTypes"b1"read_autocompleteOriginationInfo"b1"read_categorySuggestionEntryMetadata"b1"read_categorySuggestionEntry"b1"read_evChargingParameters"b1"read_querySuggestionEntry"b1"read_query"b1"read_retainedSearch"b1"read_venueIdentifier"b1"read_viewportInfo"b1"wrote_anyField"b1};
-- (id)archResultIndex;
+- (id)_correctedSearchResultIndex;
 - (id)°nôn;
 - (void);
 

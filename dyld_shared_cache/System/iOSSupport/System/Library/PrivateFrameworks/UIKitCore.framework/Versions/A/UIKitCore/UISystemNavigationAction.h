@@ -12,16 +12,16 @@
 }
 
 - (_Bool);
-- (id);
-- (id);
+- (id)array in request options %@;
+- (id)tEpisodeDescriptionText;
 - (id);
 - (id)Að!ÐEùÑZÐ1Â0@ù
 × ;
 - (id)0@ù
 × ;
 - (id)"NSDictionary"8;
-- (id)phPosition:(long long)arg1 characterIndex:(id)arg2;
-- (id)lyVisualStyleToDisplayedViews;
+- (id)attachmentBoundsForTextContainer:(long long)arg1 proposedLineFragment:(id)arg2 glyphPosition:(unsigned long long)arg3 characterIndex: /* Error: Ran out of types for this method. */;
+- (id)_applyVisualStyleToDisplayedViews;
 - (id)T;
 - (id)34Ísþ;
 - (void)W¸ÿ;

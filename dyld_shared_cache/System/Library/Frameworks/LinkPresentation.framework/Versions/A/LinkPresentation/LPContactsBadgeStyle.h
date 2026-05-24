@@ -10,10 +10,6 @@ __attribute__((visibility("hidden")))
 @interface LPContactsBadgeStyle
 {
     _Bool _useShadow;
-    LPPointUnit *_size;
-    double _margin;
-    double _iconOffset;
-    long long _location;
 }
 
 - (_Bool);
@@ -21,9 +17,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (id);
+- (void)B;
 - (void);
-- (void);
-- (id);
+- (id)TE INDEX ix_sessionsItemIds_sessionId ON sessionsItemIds (sessionId);
 - (long long);
 - (void)Hð1Â0@ù
 × ;
@@ -31,11 +27,7 @@ __attribute__((visibility("hidden")))
 - (void)äí;
 
 // Remaining properties
-@property(nonatomic) double iconOffset; // @synthesize iconOffset=_iconOffset;
-@property(nonatomic) long long location; // @synthesize location=_location;
-@property(nonatomic) double margin; // @synthesize margin=_margin;
 @property(retain, nonatomic) LPPointUnit *size; // @synthesize size=_size;
-@property(nonatomic) _Bool useShadow; // @synthesize useShadow=_useShadow;
 
 @end
 

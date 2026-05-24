@@ -7,14 +7,11 @@
 @interface DOAsyncResult
 {
     _Bool mDone;
-    long long mResult;
-    CDUnknownBlockType mCompletionBlock;
-    void *mContext;
 }
 
 - (void);
 - (oneway void);
-- (id);
+- (id)S�T;
 - (void);
 - (id);
 - (void *);
@@ -22,9 +19,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly) void *context; // @synthesize context=mContext;
 @property(readonly) _Bool done; // @synthesize done=mDone;
-@property(readonly) long long result; // @synthesize result=mResult;
 
 @end
 

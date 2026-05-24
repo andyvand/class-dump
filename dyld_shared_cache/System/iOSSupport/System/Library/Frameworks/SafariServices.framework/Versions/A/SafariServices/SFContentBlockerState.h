@@ -9,11 +9,12 @@
     _Bool _enabled;
 }
 
-+ (_Bool);
++ (_Bool)safari_hasLocalizedCaseAndDiacriticInsensitivePrefix: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (id);
-- (_Bool);
+- (void);
+- (id);
+- (_Bool)l;e&&e.blur()}setStrongPasswordElementViewableIfAppropriate(t,e){for(let o of t){let t=FormMetadataJS.formControlWithUniqueID(o);if(!t)return;if("text"===t.type)return FormMetadataJSController.setInputElementAutoFilledAndViewable(t,!1),void FormMetadataJSController.setInputElementAutofilled(t,!1);FormMetadataJSController.setInputElementAutoFilledAndViewable(t,e)}}}var AutomaticPasswordsJS=new AutomaticPasswords;
+0;;
 - (void);
 
 // Remaining properties

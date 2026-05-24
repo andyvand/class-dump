@@ -6,15 +6,11 @@
 
 #import <PassKitCore/PKPaymentOfferWebServiceRequest.h>
 
-@class NSDate, NSNumber, NSString, NSURL;
+@class NSURL;
 
 @interface PKPaymentOfferWebServiceRewardsRedemptionsRequest : PKPaymentOfferWebServiceRequest
 {
     NSURL *_baseURL;
-    NSString *_fpanIdentifier;
-    NSString *_criteriaIdentifier;
-    NSDate *_lastUpdated;
-    NSNumber *_limit;
 }
 
 - (void);
@@ -22,21 +18,17 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void)
 × ;
-- (void)iption;
-- (void)aymentPass;
+- (void)departureLocationDescription;
+- (void)paymentPass;
 - (id)?0@"PKApplePayTrustSession"8;
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(copy, nonatomic) NSString *criteriaIdentifier; // @synthesize criteriaIdentifier=_criteriaIdentifier;
-@property(copy, nonatomic) NSString *fpanIdentifier; // @synthesize fpanIdentifier=_fpanIdentifier;
-@property(copy, nonatomic) NSDate *lastUpdated; // @synthesize lastUpdated=_lastUpdated;
-@property(copy, nonatomic) NSNumber *limit; // @synthesize limit=_limit;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface Safari.SidebarTableSectionHeaderCellView
 {
     id attributedTitle;
-    id headerTextField;
 }
 
 - (id);

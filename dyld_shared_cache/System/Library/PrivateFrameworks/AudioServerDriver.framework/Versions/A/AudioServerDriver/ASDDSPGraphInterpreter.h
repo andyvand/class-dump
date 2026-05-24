@@ -9,11 +9,11 @@
     struct unique_ptr<DSPGraph::Interpreter, std::default_delete<DSPGraph::Interpreter>> _interpreter;
 }
 
-+ (vector_13ac111c);
-+ (unordered_map_c933905a);
++ (vector_1399404a);
++ (unordered_map_cd141acc)?;
 + (id);
 + (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

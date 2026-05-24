@@ -5,5 +5,6 @@
 //
 
 @protocol CXAbstractProviderVendorProtocol
+- (oneway void);
 @end
 

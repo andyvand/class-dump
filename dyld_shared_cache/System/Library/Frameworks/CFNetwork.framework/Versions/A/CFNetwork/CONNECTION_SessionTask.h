@@ -4,29 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableURLRequest, NSURLRequest, NSURLSession, NSURLSessionConfiguration, NSUUID, __CFN_TaskMetrics;
+@class __CFN_TaskMetrics;
 
 __attribute__((visibility("hidden")))
 @interface CONNECTION_SessionTask
 {
     struct _CFURLRequest *_originalRequest;
-    struct _CFURLRequest *_currentRequest;
-    double _startTime;
-    struct __CFDictionary *_connectionProperties;
-    struct __CFDictionary *_socketProperties;
-    NSMutableURLRequest *_nsCurrentRequest;
-    NSURLRequest *_nsOriginalRequest;
-    NSURLSession *_session_ivar;
-    NSURLSessionConfiguration *_effectiveConfiguration;
-    NSUUID *_uniqueIdentifier;
-    _Bool _is_cellular;
-    Class _my_protocolForTask;
-    _Bool __shouldSkipPreferredClientCertificateLookup;
-    struct __CFDictionary *_atsStateCache;
-    _Bool _preventsAppSSO;
-    _Bool _appSSOFallback;
-    _Bool _appleIDContextRedirect;
-    __CFN_TaskMetrics *_metrics;
 }
 
 - (id);
@@ -36,17 +19,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (unsigned short);
+- (unsigned short)a;
 - (void);
-- (struct __CFDictionary *);
-- (id);
-- (void);
-- (id);
-- (id);
+- (struct __CFDictionary *)a;
+- (id)the data (%lu);
+- (void)ailing findOrthogonalLines;
+- (id)21YV9ugORKvqpngzP57BMNeee8E/Library/Caches/com.apple.xbs/TemporaryDirectory.apq7lo/Sources/CoreGraphics/CoreGraphics/Images/CGImage.c;
+- (id)SetPageTagStructureTree;
 - (long long);
 - (void);
 - (double);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (id);
 - (unsigned char);
@@ -56,56 +39,56 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)n;
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (const struct XCredentialStorage *);
 - (void);
+- (id)';;
 - (id);
-- (id);
-- (id);
+- (id)Z)}S	;
 - (id);
 - (long long);
 - (_Bool);
 - (struct __CFDictionary *);
 - (id);
-- (const struct __CFDictionary **);
+- (const struct __CFDictionary **);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (unsigned char);
 - (unsigned char);
-- (id);
+- (id)`;
 - (id);
 - (struct __CFDictionary *);
 - (id);
 - (id);
 - (unsigned short);
-- (_Bool);
+- (_Bool)B(aB;
 - (void);
 - (void);
 - (id);
 - (unsigned char);
 - (int);
 - (void);
-- (void);
+- (void)swap 0x%x, update_seed 0x%x with long pole process name %@;
+- (_Bool)SLSWindowServerClientSpaceGetAbsoluteLevel;
+- (id){x_list_struct}b1b1b1IdId^{SLSStructuralRegionIDRange}{?=III{?=[2I]}{?=[8I]}}^{x_list_struct}^{CGSRegionObject}b1b1IBBQ{?=[8I]}^{CGSRegionObject}B^{CGSRegionObject}b1b1b1Qb1b1ii^{CGXConnectionCAContextTrackingState}^{__CGXConnectionBox}Bd^{__CFString}b1b1b1b1b1b1b1b1b1b1b1b1b1^{SLSeedResolver}Q^{x_list_struct}Ib1ib1}16;
+- (unsigned long long);
 - (_Bool);
 - (id);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
+- (id)!;
 - (void);
 - (id);
-- (unsigned char);
+- (unsigned char)!;
 - (_Bool);
 - (id);
 - (struct __CFURL *);
-- (id);
+- (id)P;
 - (id);
 - (id);
 - (id);
@@ -122,45 +105,45 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (unsigned char);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (long long);
 - (id);
 - (unsigned char);
-- (void);
+- (void)9;
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)	k!;
 - (id);
 - (void);
 - (_Bool);
-- (struct __CFSet *);
+- (struct __CFSet *)B;
 - (unsigned char);
 - (double);
 - (_Bool);
 - (void);
-- (void);
+- (void)e.signature2;
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)%s:(unsigned short)arg1 uniqueID is not specified, which is allowed, skip uniqueID mismatch errors;
+- (id)OFF;
+- (void)Q16Tuw;
 - (const struct XCookieStorage *);
 - (const struct __CFData **);
 - (struct __CFURL *);
 - (_Bool);
-- (id)FRunLoop;
+- (id)getCFRunLoop;
 - (unsigned long long)t expecting base64;
-- (id)ectionRequirementPowerPluggedIn;
+- (id)kConditionalConnectionRequirementPowerPluggedIn;
 - (void);
 - (id)@;
 - (id){ùÿ;
@@ -171,13 +154,12 @@ __attribute__((visibility("hidden")))
 - (void)@;
 - (id)6*o;
 - (id)67q;
-- (id)tH;
+- (id)2tH;
 - (unsigned short)8;
 - (float)?i02?i0a?i0a?i0c?i0c?i0e?i0e?i0i?i0i?i0o?i0o?i0s?i0s?i0t?i0tCi0 Ci0%Ci0-Ci0.Ci0/Ci03Ci04Ci05Ci06Ci07Ci08Ci09Ci0=Ci0ACi0_Ci0bCi0dCi0fCi0gCi0hCi0lCi0mCi0nCi0pCi0rCi0u*i0;
-- (void)CFNetService;
+- (void)ColoradoCFNetService;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool _isAVAssetTask;
 @property(retain, nonatomic) __CFN_TaskMetrics *_metrics; // @synthesize _metrics;
 
 @end

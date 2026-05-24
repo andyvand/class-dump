@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDecimalNumber, NSString;
+@class NSDecimalNumber;
 
 @interface PKAppleBalanceDirectTopUpConfigurationDenomination
 {
     NSDecimalNumber *_amount;
-    NSString *_currencyCode;
 }
 
 + (_Bool)0@ù
@@ -18,18 +17,17 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)x;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)connectionURL;
 - (void);
 - (id);
-- (id)ckupMetadata: /* Error: Ran out of types for this method. */;
-- (id)gManagerCompletionHandler;
+- (id)setBackupMetadata: /* Error: Ran out of types for this method. */;
+- (id)_identityProofingManagerCompletionHandler;
 - (void)%@;%@;
 
 // Remaining properties
 @property(copy, nonatomic) NSDecimalNumber *amount; // @synthesize amount=_amount;
-@property(copy, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
 
 @end
 

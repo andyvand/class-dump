@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMImmutableSetting, NSArray, NSError, NSString;
+@class NSString;
 
 @interface HMAccessorySettingFetchResult
 {
     NSString *_keyPath;
-    HMImmutableSetting *_setting;
-    long long _failureType;
 }
 
 + (id);
@@ -18,38 +16,18 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)3>,;
+- (id)familyPredictionsWithMaxSuggestions:predictionContext: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)DidShowContinuousPathIntroduction;
 - (id);
 - (void)Timer expired for staged data with identifier:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSError *error;
 @property(readonly) long long failureType; // @synthesize failureType=_failureType;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *keyPath; // @synthesize keyPath=_keyPath;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) HMImmutableSetting *setting; // @synthesize setting=_setting;
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 
 @end
 

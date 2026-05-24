@@ -11,9 +11,9 @@
 + (_Bool);
 + (Class);
 + (Class);
-+ (long long)s: /* Error: Ran out of types for this method. */;
++ (long long)setDataStrings: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)Category:(id)arg1;
+- (id)StringAsCategory:(id)arg1;
 
 @end
 

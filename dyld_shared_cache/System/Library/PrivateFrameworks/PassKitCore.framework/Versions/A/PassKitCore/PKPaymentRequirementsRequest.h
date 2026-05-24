@@ -6,17 +6,11 @@
 
 #import <PassKitCore/PKPaymentWebServiceRequest.h>
 
-@class NSString, PKPaymentCredential;
+@class NSString;
 
 @interface PKPaymentRequirementsRequest : PKPaymentWebServiceRequest
 {
     _Bool _sendReducedDeviceData;
-    NSString *_region;
-    PKPaymentCredential *_paymentCredential;
-    NSString *_cardholderName;
-    NSString *_primaryAccountNumber;
-    NSString *_referrerIdentifier;
-    NSString *_passOwnershipToken;
 }
 
 - (void);
@@ -33,22 +27,16 @@
 - (id);
 - (id);
 - (id);
+- (void)Y;
 - (void);
-- (void);
-- (void);
+- (void)@;
 - (id);
-- (void);
+- (void)OWEnabled;
 - (void)-setting;
 - (id)Þ­;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *cardholderName; // @synthesize cardholderName=_cardholderName;
 @property(copy, nonatomic) NSString *passOwnershipToken; // @synthesize passOwnershipToken=_passOwnershipToken;
-@property(retain, nonatomic) PKPaymentCredential *paymentCredential; // @synthesize paymentCredential=_paymentCredential;
-@property(copy, nonatomic) NSString *primaryAccountNumber; // @synthesize primaryAccountNumber=_primaryAccountNumber;
-@property(copy, nonatomic) NSString *referrerIdentifier; // @synthesize referrerIdentifier=_referrerIdentifier;
-@property(retain, nonatomic) NSString *region; // @synthesize region=_region;
-@property(nonatomic) _Bool sendReducedDeviceData; // @synthesize sendReducedDeviceData=_sendReducedDeviceData;
 
 @end
 

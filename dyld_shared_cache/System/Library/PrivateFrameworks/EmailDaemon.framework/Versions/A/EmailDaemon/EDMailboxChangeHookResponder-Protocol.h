@@ -7,6 +7,8 @@
 @protocol EDMailboxChangeHookResponder
 
 @optional
+- (void)Rb;
+- (void);
 - (void)s getCHSWidgetConfigurationReaderClass(void)_block_invoke;
 @end
 

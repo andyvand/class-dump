@@ -9,7 +9,6 @@
 @interface SOTokenField
 {
     NSTrackingArea *_tokenFieldTrackingArea;
-    _Bool _needsRefresh;
 }
 
 - (void);
@@ -18,9 +17,9 @@
 - (_Bool);
 - (id);
 - (struct CGSize);
-- (id);
+- (id)q_SgXw;
 - (_Bool);
-- (void);
+- (void)";
 - (void);
 
 // Remaining properties

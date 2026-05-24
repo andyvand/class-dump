@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CXSandboxExtendedURL, NSString, NSURL;
+@class NSString, NSURL;
 
 @interface CXParticipant
 {
     NSString *_name;
-    CXSandboxExtendedURL *_sandboxExtendedImageURL;
-    id _wrappedByObject;
 }
 
 + (id);
-+ (id);
++ (id)=%@ lastError=%@ lastUpdate='%@' autoRefreshEnabled=%@>;
 + (_Bool);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)@�?;
 - (id);
 - (id);
 - (_Bool);
@@ -28,21 +26,18 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)public}@ [%lld sent, %lld rcvd in %.3fs (%lld bytes/s)]. err=%{public}@;
 - (id);
 - (void);
-- (_Bool);
-- (void);
-- (id);
+- (_Bool)_deviceAvailabilityNotifyToken;
+- (void)<%@:(id)arg1 %p> %@%@;
+- (id);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *imageURL;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) CXSandboxExtendedURL *sandboxExtendedImageURL; // @synthesize sandboxExtendedImageURL=_sandboxExtendedImageURL;
-@property(nonatomic) __weak id wrappedByObject; // @synthesize wrappedByObject=_wrappedByObject;
 
 @end
 

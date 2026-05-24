@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSObject;
-@protocol OS_dispatch_group;
+@class NSError;
 
 __attribute__((visibility("hidden")))
 @interface _NSFilePromiseProviderPrivate
 {
     NSError *_provideItemErrorOrNil;
-    NSObject<OS_dispatch_group> *_provideItemGroup;
 }
 
 - (void);
@@ -22,7 +20,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSError *provideItemErrorOrNil; // @synthesize provideItemErrorOrNil=_provideItemErrorOrNil;
-@property(retain, nonatomic) NSObject<OS_dispatch_group> *provideItemGroup; // @synthesize provideItemGroup=_provideItemGroup;
 
 @end
 

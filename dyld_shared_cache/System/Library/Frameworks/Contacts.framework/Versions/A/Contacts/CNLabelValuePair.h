@@ -10,12 +10,11 @@ __attribute__((visibility("hidden")))
 @interface CNLabelValuePair
 {
     NSString *_label;
-    id _value;
 }
 
 + (id);
-- (id);
-- (unsigned long long);
+- (id)kPreferredMediaStackAP;
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
@@ -26,7 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) NSString *label; // @synthesize label=_label;
-@property(readonly) id value; // @synthesize value=_value;
 
 @end
 

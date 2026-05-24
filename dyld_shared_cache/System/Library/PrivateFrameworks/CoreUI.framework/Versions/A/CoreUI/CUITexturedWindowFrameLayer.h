@@ -12,45 +12,29 @@ __attribute__((visibility("hidden")))
 @interface CUITexturedWindowFrameLayer : CUIWindowFrameLayer
 {
     CALayer *_topGradientLayer;
-    CALayer *_topBevelLayer;
-    CALayer *_topLeftCornerLayer;
-    CALayer *_topRightCornerLayer;
-    CALayer *_topDividerLayer;
-    CALayer *_topDividerLayer2;
-    CALayer *_bottomLeftCornerLayer;
-    CALayer *_bottomRightCornerLayer;
-    CALayer *_bottomDividerLayer2;
 }
 
 - (id);
 - (id);
+- (id)<;
+- (id)r ;
+- (id);
+- (void);
+- (void)(;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)!;
+- (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property CALayer *bottomDividerLayer2; // @synthesize bottomDividerLayer2=_bottomDividerLayer2;
-@property CALayer *bottomLeftCornerLayer; // @synthesize bottomLeftCornerLayer=_bottomLeftCornerLayer;
-@property CALayer *bottomRightCornerLayer; // @synthesize bottomRightCornerLayer=_bottomRightCornerLayer;
-@property CALayer *topBevelLayer; // @synthesize topBevelLayer=_topBevelLayer;
-@property CALayer *topDividerLayer; // @synthesize topDividerLayer=_topDividerLayer;
-@property CALayer *topDividerLayer2; // @synthesize topDividerLayer2=_topDividerLayer2;
 @property CALayer *topGradientLayer; // @synthesize topGradientLayer=_topGradientLayer;
-@property CALayer *topLeftCornerLayer; // @synthesize topLeftCornerLayer=_topLeftCornerLayer;
-@property CALayer *topRightCornerLayer; // @synthesize topRightCornerLayer=_topRightCornerLayer;
 
 @end
 

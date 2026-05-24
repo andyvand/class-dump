@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject;
-@protocol OS_dispatch_queue;
-
 @interface SMPathSizer
 {
     _Bool _keepSizing;
-    NSMutableSet *_hardlinkInodes;
-    NSMutableSet *_cloneIDs;
-    NSObject<OS_dispatch_queue> *_fileSizeQueue;
-    NSObject<OS_dispatch_queue> *_keepSizingQueue;
 }
 
-- (void);
+- (void)l;
 - (void);
 - (void);
 - (_Bool);
@@ -36,12 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSMutableSet *cloneIDs; // @synthesize cloneIDs=_cloneIDs;
-@property(retain) NSObject<OS_dispatch_queue> *fileSizeQueue; // @synthesize fileSizeQueue=_fileSizeQueue;
-@property(retain) NSMutableSet *hardlinkInodes; // @synthesize hardlinkInodes=_hardlinkInodes;
 @property _Bool keepSizing; // @synthesize keepSizing=_keepSizing;
-@property(retain) NSObject<OS_dispatch_queue> *keepSizingQueue; // @synthesize keepSizingQueue=_keepSizingQueue;
-@property _Bool shouldContinue;
 
 @end
 

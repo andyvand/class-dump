@@ -5,5 +5,7 @@
 //
 
 @protocol ACCHWComponentAuthServiceProtocol
+- (void)\;
+- (void)L;
 @end
 

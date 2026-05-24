@@ -9,26 +9,20 @@
 @interface TRIWKMSCachedKeyEntry
 {
     NSString *_unwrappedKey;
-    unsigned long long _cacheTimeNanos;
-    unsigned long long _expiryTimeNanos;
-    unsigned long long _accessCount;
 }
 
-- (id);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
+- (id)valueForKey:keySpace:fromAVMetadataItems: /* Error: Ran out of types for this method. */;
+- (void)timeIntervalSinceDate:(id)arg1;
+- (void)supportedMovieTypes;
+- (void)supportForContainerTypeIdentifier:(unsigned long long)arg1;
+- (unsigned long long)renderOriginatingAssetIdentifier;
+- (unsigned long long)leafamericaRAWImageIdentifier;
+- (unsigned long long)]U;
 - (void);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long accessCount; // @synthesize accessCount=_accessCount;
-@property(nonatomic) unsigned long long cacheTimeNanos; // @synthesize cacheTimeNanos=_cacheTimeNanos;
-@property(nonatomic) unsigned long long expiryTimeNanos; // @synthesize expiryTimeNanos=_expiryTimeNanos;
 @property(copy, nonatomic) NSString *unwrappedKey; // @synthesize unwrappedKey=_unwrappedKey;
 
 @end

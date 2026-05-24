@@ -7,8 +7,6 @@
 @interface PKAccountPromotionBehavior
 {
     double _minRefreshPeriod;
-    long long _maxImpressionCount;
-    double _timeVisibleAfterCompleted;
 }
 
 + (_Bool)X"ð!PAùî%ð1Â0@ù
@@ -23,16 +21,14 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)c;
+- (_Bool)_timedOut;
 - (void);
-- (id);
-- (id)aultBankAccount;
+- (id);
+- (id)_defaultBankAccount;
 
 // Remaining properties
-@property(nonatomic) long long maxImpressionCount; // @synthesize maxImpressionCount=_maxImpressionCount;
 @property(nonatomic) double minRefreshPeriod; // @synthesize minRefreshPeriod=_minRefreshPeriod;
-@property(nonatomic) double timeVisibleAfterCompleted; // @synthesize timeVisibleAfterCompleted=_timeVisibleAfterCompleted;
 
 @end
 

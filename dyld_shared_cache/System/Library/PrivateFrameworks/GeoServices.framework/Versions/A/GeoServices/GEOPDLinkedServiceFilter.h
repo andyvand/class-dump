@@ -16,9 +16,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool));
 - (id)ymentMethodLookupParameters";
-- (id)age;
+- (id)_explorePlaceMessage;
 - (id)0ê;
 - (void)X9´È@;
 

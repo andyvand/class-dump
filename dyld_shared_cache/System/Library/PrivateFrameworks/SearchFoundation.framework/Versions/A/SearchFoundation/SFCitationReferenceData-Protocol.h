@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, SFCardSection;
+@class NSDictionary, NSString, SFCardSection;
 
 @protocol SFCitationReferenceData
+- (void);
+- (SFCardSection *)@;
+- (NSDictionary *)A;
 
 // Remaining properties
-@property(retain, nonatomic) SFCardSection *card_section_on_tap;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(copy, nonatomic) NSString *display_name;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

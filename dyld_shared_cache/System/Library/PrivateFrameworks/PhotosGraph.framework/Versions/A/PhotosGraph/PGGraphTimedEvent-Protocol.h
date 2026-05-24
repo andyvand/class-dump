@@ -7,6 +7,7 @@
 @class NSSet;
 
 @protocol PGGraphTimedEvent
+- (NSSet *)cancelPreviousPerformRequestsWithTarget:selector:object: /* Error: Ran out of types for this method. */;
 - (NSSet *);
 @end
 

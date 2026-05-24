@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (_Bool)%d in buffer;
-- (void)nectionClientID;
+- (void)vcMediaStreamRTCPConnectionClientID;
 
 // Remaining properties
 @property(nonatomic, getter=isStarted) _Bool started; // @synthesize started=_isStarted;

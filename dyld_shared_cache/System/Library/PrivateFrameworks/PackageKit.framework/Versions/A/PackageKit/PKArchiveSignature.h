@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString;
+@class NSArray;
 
 @interface PKArchiveSignature
 {
     struct __SecTrust *_verifyTrustRef;
-    NSDate *_trustedTimestampDate;
 }
 
 - (_Bool);
 - (struct __SecTrust *);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -24,12 +23,10 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id);
 
 // Remaining properties
-@property(readonly) NSString *algorithmType;
 @property(readonly) NSArray *certificateRefs;
-@property(readonly) NSDate *trustedTimestampDate; // @synthesize trustedTimestampDate=_trustedTimestampDate;
 
 @end
 

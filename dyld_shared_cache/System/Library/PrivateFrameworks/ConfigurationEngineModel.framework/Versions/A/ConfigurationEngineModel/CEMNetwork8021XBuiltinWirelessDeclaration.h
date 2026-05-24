@@ -6,7 +6,7 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface CEMNetwork8021XBuiltinWirelessDeclaration : CEMConfigurationBase
 {
@@ -16,30 +16,23 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)__objc_classlist__DATA_CONST;
 + (id);
 + (id);
 + (id);
 - (void);
 - (id);
 - (id);
+- (_Bool)c;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)i;
 - (int);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)le.gryphon-neural;
+- (id)6y_;
+- (void)AppleInternal/Library/BuildRoots/4~CNqEugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/ssl/s23_clnt.c;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSDictionary *payloadANY; // @synthesize payloadANY=_payloadANY;
-@property(readonly) Class superclass;
 
 @end
 

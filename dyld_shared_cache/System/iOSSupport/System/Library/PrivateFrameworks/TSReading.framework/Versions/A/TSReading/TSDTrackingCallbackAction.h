@@ -20,7 +20,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void)°Æ;
 
 // Remaining properties

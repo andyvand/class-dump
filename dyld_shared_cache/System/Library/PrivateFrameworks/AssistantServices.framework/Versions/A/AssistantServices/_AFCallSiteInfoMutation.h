@@ -4,36 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFCallSiteInfo, NSString;
+@class AFCallSiteInfo;
 
 @interface _AFCallSiteInfoMutation
 {
     AFCallSiteInfo *_base;
-    NSString *_imagePath;
-    NSString *_symbolName;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasImagePath:1;
-        unsigned int hasSymbolName:1;
-    } _mutationFlags;
 }
 
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (id)pletion:(id)arg1;
-- (void)stanceContext;
+- (id)_reason;
+- (id)siriActivationListener:(id)arg1 myriadEventWithRequestInfo:context:completion: /* Error: Ran out of types for this method. */;
+- (void)_instanceContext;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

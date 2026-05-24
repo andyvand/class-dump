@@ -5,5 +5,7 @@
 //
 
 @protocol CKEffectPickerViewDelegate
+- (void)ICPDFEncryptionStateChecker;
+- (void)ICNoteEditorIconImageView;
 @end
 

@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSView;
+@protocol AMSUIDynamicContentViewProtocol;
+
 @protocol AMSUIEngagementTaskDelegate
+
+@optional
+- (void)public}@);
+- (_Bool);
+- (NSView<AMSUIDynamicContentViewProtocol> *)%{public}@ (tolerance of %ld seconds);
 @end
 

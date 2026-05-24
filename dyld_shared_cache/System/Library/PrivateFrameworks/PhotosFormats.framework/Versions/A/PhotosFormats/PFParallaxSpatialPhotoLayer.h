@@ -7,33 +7,27 @@
 #import <PhotosFormats/PFParallaxLayer.h>
 
 @class NSData;
-@protocol PFParallaxSpatialPhotoScene;
 
 @interface PFParallaxSpatialPhotoLayer : PFParallaxLayer
 {
     NSData *_sceneData;
-    id <PFParallaxSpatialPhotoScene> _scene;
-    id _sharedScene;
 }
 
 + (id);
 - (id);
-- (id);
+- (id)sectionCount;
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)e of Tetra update.;
 - (id);
 - (struct CGSize);
 - (id);
-- (void);
+- (void)t Failed;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *dataRepresentation;
-@property(readonly, nonatomic) id <PFParallaxSpatialPhotoScene> scene; // @synthesize scene=_scene;
 @property(readonly, nonatomic) NSData *sceneData; // @synthesize sceneData=_sceneData;
-@property(nonatomic) __weak id sharedScene; // @synthesize sharedScene=_sharedScene;
 
 @end
 

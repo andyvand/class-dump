@@ -15,7 +15,7 @@
 + (_Bool);
 + (_Bool);
 - (void);
-- (id);
+- (id)N,V_weightForIndividualModel;
 
 // Remaining properties
 @property(retain, nonatomic) TLKSectionHeaderView *contentView; // @dynamic contentView;

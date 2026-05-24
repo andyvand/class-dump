@@ -5,5 +5,7 @@
 //
 
 @protocol ACCConnectionInfoXPCClientProtocol
+- (void)P;
+- (void)h;
 @end
 

@@ -9,10 +9,10 @@
     id viewportMonitor;
 }
 
-- (id);
+- (id)nfo:atIndex:] /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
+- (void)iftCompression.dylib;
+- (void)eraseInfoForObject:(id)arg1;
 - (void);
 - (void);
 

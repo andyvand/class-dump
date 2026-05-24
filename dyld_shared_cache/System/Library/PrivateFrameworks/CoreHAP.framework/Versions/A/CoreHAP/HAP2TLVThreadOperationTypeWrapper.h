@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface HAP2TLVThreadOperationTypeWrapper
 {
     long long _value;
@@ -13,23 +11,16 @@
 
 + (id);
 - (id);
-- (void);
+- (void)D;
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)but not a V2 frameStore:(id)arg1 %{public}@;
 - (_Bool);
 - (id);
 - (long long);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) long long value; // @synthesize value=_value;
 
 @end

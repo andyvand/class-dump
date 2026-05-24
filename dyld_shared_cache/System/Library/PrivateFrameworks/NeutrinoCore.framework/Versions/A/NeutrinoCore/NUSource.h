@@ -4,32 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSString, NUIdentifier, NUSourceDefinition, NUSourceSchema;
+@class NSMutableDictionary, NUSourceDefinition;
 
 @interface NUSource
 {
     NSMutableDictionary *_settings;
-    NUSourceSchema *_schema;
-    NSString *_assetIdentifier;
-    NUSourceDefinition *_definition;
 }
 
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)(;
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
-- (void);
+- (void);
 - (id);
-- (_Bool);
+- (_Bool)sing SHA256 to hash %@;
 - (_Bool);
 - (id);
 - (id);
@@ -40,19 +37,7 @@
 - (id)isionDetectionRequest.m;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *assetIdentifier; // @synthesize assetIdentifier=_assetIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(retain) NUSourceDefinition *definition; // @synthesize definition=_definition;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NUIdentifier *identifier;
-@property(readonly, nonatomic, getter=isResolved) _Bool resolved;
-@property(readonly, nonatomic) NUSourceSchema *schema; // @synthesize schema=_schema;
-@property(copy, nonatomic) NSDictionary *settings; // @synthesize settings=_settings;
-@property(readonly) Class superclass;
 
 @end
 

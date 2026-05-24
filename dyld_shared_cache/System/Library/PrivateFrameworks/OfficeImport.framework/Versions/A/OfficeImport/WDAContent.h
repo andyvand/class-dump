@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, OADDrawable, WDAAnchor, WDATextBox;
+@class WDAAnchor;
 
 __attribute__((visibility("hidden")))
 @interface WDAContent
 {
     WDAAnchor *mAnchor;
-    WDATextBox *mTextBox;
-    OADDrawable *mDrawable;
-    int mTextType;
 }
 
 + (Class);
 - (int);
-- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
@@ -25,9 +22,9 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
-- (_Bool);
+- (_Bool)#;
 - (_Bool);
 - (id);
 - (id);
@@ -35,21 +32,13 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (_Bool);
 - (void);
-- (_Bool)entedImageLinear;
+- (_Bool)ODIAccentedImageLinear;
 - (_Bool)(:N /* Error: Ran out of types for this method. */;
 - (void)QiIf33qItBVDmza7bg/Library/Caches/com.apple.xbs/TemporaryDirectory.ObjdbM/Sources/OfficeImport/OfficeParser/shared/utility/NSObject_TSUAdditions.m;
 - (id)¸;
 
 // Remaining properties
 @property(readonly, nonatomic) WDAAnchor *anchor; // @synthesize anchor=mAnchor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property __weak OADDrawable *drawable; // @synthesize drawable=mDrawable;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

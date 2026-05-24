@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSString;
+@class NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface ScrollViewPlus
@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (id);
 - (void);
 - (id);
@@ -27,17 +27,6 @@ __attribute__((visibility("hidden")))
 // Preceding property had unknown attributes: ?
 // Original attribute string: TB,?,S_setWantsPageAlignedHorizontalAxis:
 
-@property(setter=_setWantsPageAlignedVerticalAxis:) _Bool _wantsPageAlignedVerticalAxis;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,S_setWantsPageAlignedVerticalAxis:
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

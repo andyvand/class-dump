@@ -6,27 +6,19 @@
 
 #import <PhotosGraph/PGCityscapeWallpaperSuggester.h>
 
-@class NSString, PGCityscapeWallpaperSuggesterFilteringContext;
+@class PGCityscapeWallpaperSuggesterFilteringContext;
 
 @interface PGAmbientCityWallpaperSuggester : PGCityscapeWallpaperSuggester
 {
 }
 
-+ (id);
++ (id)ption;
 + (_Bool);
 + (id);
-- (void);
+- (void)colorWithColorSpace:components:count: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) PGCityscapeWallpaperSuggesterFilteringContext *primaryFilteringContext;
-@property(retain, nonatomic) PGCityscapeWallpaperSuggesterFilteringContext *secondaryFilteringContext;
-@property(readonly) Class superclass;
 
 @end
 

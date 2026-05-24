@@ -12,7 +12,7 @@
 }
 
 + (id);
-- (void)eIdentifier;
+- (void)_activeProfileIdentifier;
 
 @end
 

@@ -4,31 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDCollection, EDReference;
-
 __attribute__((visibility("hidden")))
 @interface EDPivotArea
 {
     _Bool mGrandCol;
-    _Bool mGrandRow;
-    _Bool mOutline;
-    int mType;
-    EDCollection *mReferences;
-    EDReference *mOffset;
 }
 
 + (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)sdTinyTokenAcceptanceRate;
 - (int);
 - (void);
-- (_Bool);
+- (_Bool)dEscrowRecord:withError:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void)ÿÿ<;
 - (id)Ä;

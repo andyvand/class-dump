@@ -14,10 +14,10 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)9;
+- (id)?|;
 - (void);
 
 // Remaining properties

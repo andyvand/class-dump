@@ -6,40 +6,25 @@
 
 #import <IMCore/IMTranscriptChatItem.h>
 
-@class IMHandle, NSDate, NSString;
-
 @interface IMLocationShareOfferChatItem : IMTranscriptChatItem
 {
     _Bool _actionableEclipsed;
-    IMHandle *_sender;
 }
 
-- (long long);
+- (long long)ndler not set;
+- (_Bool)decode payload. Error=%d;
+- (void)s:(_Bool)arg1 %d _screenStream=%@ config=%@;
+- (_Bool)eing set with isFrameBasedFECEnabled=%d;
+- (id)type;
 - (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)Y;
+- (id);
 - (id);
 - (id);
 - (void)H,;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool actionableEclipsed; // @synthesize actionableEclipsed=_actionableEclipsed;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool failed;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isFromMe;
 @property(readonly, nonatomic) long long offerState;
-@property(readonly, nonatomic) IMHandle *sender; // @synthesize sender=_sender;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSDate *time;
 
 @end
 

@@ -8,12 +8,11 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)B;
 - (_Bool);
-- (_Bool);
+- (_Bool)=;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool em_isInternalError;
 @property(readonly, nonatomic) _Bool em_isItemNotFoundError;
 @end
 

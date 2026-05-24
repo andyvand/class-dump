@@ -9,22 +9,18 @@
 @interface _UILabelViewTextAttachment
 {
     UIView *_view;
-    CDUnknownBlockType _viewProvider;
-    CDUnknownBlockType _layoutInRect;
 }
 
 - (void);
-- (CDUnknownBlockType);
-- (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)SNumber"40@"NSString"48@"IDSAccount"56;
+- (id)shouldSkipTrustKitDecisioningForChat:(CDUnknownBlockType)arg1 sender: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType);
 - (void);
 - (void);
 - (id)teDidChangeHandler:,V_minimizedStateDidChangeHandler /* Error: Ran out of types for this method. */;
 - (void)¨;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType layoutInRect; // @synthesize layoutInRect=_layoutInRect;
-@property(readonly, nonatomic) UIView *view; // @synthesize view=_view;
 @property(copy, nonatomic) CDUnknownBlockType viewProvider; // @synthesize viewProvider=_viewProvider;
 
 @end

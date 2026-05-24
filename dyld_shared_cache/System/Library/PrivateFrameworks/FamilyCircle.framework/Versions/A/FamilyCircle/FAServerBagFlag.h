@@ -9,17 +9,15 @@
 @interface FAServerBagFlag
 {
     _Bool _value;
-    NSString *_name;
-    long long _intValue;
 }
 
-+ (id);
-+ (id);
-+ (id);
-- (_Bool);
-- (id);
-- (void);
-- (long long);
++ (id)glanceDisplayName;
++ (id)y"24@?0@8@"AceObject"16;
++ (id)AceObjectCodingKeyIsMutatingCommand;
+- (_Bool)runCamFtm;
+- (id)OTHER_BUG;
+- (void)responseCode;
+- (long long)confirmText;
 - (void);
 - (void);
 - (id);
@@ -28,9 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long intValue; // @synthesize intValue=_intValue;
 @property(nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) _Bool value; // @synthesize value=_value;
 
 @end
 

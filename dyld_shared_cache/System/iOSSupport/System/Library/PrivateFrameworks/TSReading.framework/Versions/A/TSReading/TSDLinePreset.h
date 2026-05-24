@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TSDLineEnd, TSDStroke;
+@class TSDLineEnd;
 
 @interface TSDLinePreset
 {
     TSDLineEnd *mHeadLineEnd;
-    TSDLineEnd *mTailLineEnd;
-    TSDStroke *mStroke;
 }
 
 + (id);
+- (id)q;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)`;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) TSDLineEnd *headLineEnd; // @synthesize headLineEnd=mHeadLineEnd;
-@property(readonly, copy, nonatomic) TSDStroke *stroke; // @synthesize stroke=mStroke;
-@property(readonly, copy, nonatomic) TSDLineEnd *tailLineEnd; // @synthesize tailLineEnd=mTailLineEnd;
 
 @end
 

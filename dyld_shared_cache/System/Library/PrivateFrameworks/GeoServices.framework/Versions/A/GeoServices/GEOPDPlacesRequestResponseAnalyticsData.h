@@ -11,22 +11,22 @@
     PBUnknownFields *_unknownFields;
 }
 
-+ (_Bool)atchedToken:(id)arg1;
++ (_Bool)setIncludeMatchedToken:(id)arg1;
 - (void);
 - (id);
 - (id);
+- (void)I;
 - (void);
-- (void);
-- (void);
+- (void)s Warning:(id)arg1 audioTimeConverter not existing, override triggerEndMachTime as NOW;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)rs";
-- (id)chReferringWebsite;
+- (id)_mapLaunchReferringWebsite;
 - (id)hüG\þ ;
-- (id)ttribution;
+- (id)suppress_results_requiring_attribution;
 - (void);
 
 // Remaining properties

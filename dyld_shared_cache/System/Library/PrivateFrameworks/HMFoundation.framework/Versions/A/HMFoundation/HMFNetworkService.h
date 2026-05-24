@@ -6,16 +6,12 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class HMFNetworkServiceInfo, NSArray, NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_nw_connection;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface HMFNetworkService : HMFObject
 {
     unsigned short _port;
-    HMFNetworkServiceInfo *_serviceInfo;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSMutableArray *_ipAddresses;
-    NSObject<OS_nw_connection> *_nwConnection;
 }
 
 + (id);
@@ -34,26 +30,18 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)scaleFrame:dstFrame:srcRegion:dstRegion:scaleMethod: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)BuiltInLM.Dictation};
 - (_Bool);
 - (id);
-- (unsigned short);
+- (unsigned short)initWithName:configuredName: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *addresses;
-@property(readonly, nonatomic) NSString *host;
-@property(readonly, nonatomic) NSString *hostName;
-@property(retain, nonatomic) NSMutableArray *ipAddresses; // @synthesize ipAddresses=_ipAddresses;
-@property(readonly, nonatomic) _Bool lowPowerMode;
-@property(retain, nonatomic) NSObject<OS_nw_connection> *nwConnection; // @synthesize nwConnection=_nwConnection;
-@property(readonly, nonatomic) unsigned short port; // @synthesize port=_port;
-@property(readonly, nonatomic) HMFNetworkServiceInfo *serviceInfo; // @synthesize serviceInfo=_serviceInfo;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

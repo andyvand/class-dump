@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class NSData, SISchemaInstrumentationMessage, SMTSchemaSMTAppLanguageModelAssetCopyContext, SMTSchemaSMTAppLanguageModelBuildContext, SMTSchemaSMTAppLanguageModelProfileRebuildContext, SMTSchemaSMTClientEventMetadata;
+@class SISchemaInstrumentationMessage, SMTSchemaSMTClientEventMetadata;
 
 @interface SMTSchemaSMTClientEvent : SISchemaTopLevelUnionType
 {
     SMTSchemaSMTClientEventMetadata *_eventMetadata;
-    SMTSchemaSMTAppLanguageModelAssetCopyContext *_appLanguageModelAssetCopyContext;
-    SMTSchemaSMTAppLanguageModelBuildContext *_appLanguageModelBuildContext;
-    SMTSchemaSMTAppLanguageModelProfileRebuildContext *_appLanguageModelProfileRebuildContext;
-    _Bool _hasEventMetadata;
-    _Bool _hasAppLanguageModelAssetCopyContext;
-    _Bool _hasAppLanguageModelBuildContext;
-    _Bool _hasAppLanguageModelProfileRebuildContext;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
@@ -51,29 +43,19 @@
 - (int);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)refreshIAPsForActiveAccountWithReplyHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)ABBookGroupCutCommand;
+- (_Bool)IMDIndexing_CoreSpotlightMessageAttachmentIndexer;
 - (id);
 - (id);
 - (id)× ;
-- (unsigned long long)tType;
-- (id);
-- (id);
-- (void)IONSCARPLAYSTATUS_ANNOUNCE_NEW_MESSAGES;
+- (unsigned long long)hasForcePromptType;
+- (id)deleteIsHSJSTriggerFromAlwaysOnMicBuffer;
+- (id)_hasLrClientEvent;
+- (void)ODDANNOUNCENOTIFICATIONSCARPLAYSTATUS_ANNOUNCE_NEW_MESSAGES;
 
 // Remaining properties
-@property(retain, nonatomic) SMTSchemaSMTAppLanguageModelAssetCopyContext *appLanguageModelAssetCopyContext; // @synthesize appLanguageModelAssetCopyContext=_appLanguageModelAssetCopyContext;
-@property(retain, nonatomic) SMTSchemaSMTAppLanguageModelBuildContext *appLanguageModelBuildContext; // @synthesize appLanguageModelBuildContext=_appLanguageModelBuildContext;
-@property(retain, nonatomic) SMTSchemaSMTAppLanguageModelProfileRebuildContext *appLanguageModelProfileRebuildContext; // @synthesize appLanguageModelProfileRebuildContext=_appLanguageModelProfileRebuildContext;
-@property(retain, nonatomic) SMTSchemaSMTClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasAppLanguageModelAssetCopyContext; // @synthesize hasAppLanguageModelAssetCopyContext=_hasAppLanguageModelAssetCopyContext;
-@property(nonatomic) _Bool hasAppLanguageModelBuildContext; // @synthesize hasAppLanguageModelBuildContext=_hasAppLanguageModelBuildContext;
-@property(nonatomic) _Bool hasAppLanguageModelProfileRebuildContext; // @synthesize hasAppLanguageModelProfileRebuildContext=_hasAppLanguageModelProfileRebuildContext;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

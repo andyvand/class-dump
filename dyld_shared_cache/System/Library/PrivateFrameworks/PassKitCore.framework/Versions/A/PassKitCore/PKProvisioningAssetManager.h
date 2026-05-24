@@ -10,13 +10,13 @@
 
 + (id)#Apple Worldwide Developer Relations1D0BU;Apple Worldwide Developer Relations Certification Authority0"0	*H÷;
 - (id);
-- (void);
+- (void));
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 
 @end
 

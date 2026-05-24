@@ -12,8 +12,8 @@
 
 - (id);
 - (long long);
-- (id);
-- (id)ion;
+- (id)requiredTeamID;
+- (id)PGAlbumClassificationQuestion;
 
 @end
 

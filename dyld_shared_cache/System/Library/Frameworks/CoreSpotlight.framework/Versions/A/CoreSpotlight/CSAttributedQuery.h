@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSError, _CSEmbedding;
+@class NSAttributedString;
 
 @interface CSAttributedQuery
 {
     _Bool _isUnsafeQuery;
-    float _highPrecisionDistanceThresh;
-    float _veryHighPrecisionDistanceThresh;
-    NSAttributedString *_query;
-    _CSEmbedding *_queryEmbedding;
-    NSError *_error;
 }
 
 + (void);
@@ -21,28 +16,23 @@
 + (id);
 + (_Bool);
 - (void);
+- (id)%d%ecB `DdBd;
 - (id);
 - (id);
-- (id);
-- (float);
+- (float)/;
 - (float);
 - (void);
-- (id);
+- (id) ) n;
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(nonatomic) float highPrecisionDistanceThresh; // @synthesize highPrecisionDistanceThresh=_highPrecisionDistanceThresh;
-@property(readonly, nonatomic) _Bool isUnsafeQuery; // @synthesize isUnsafeQuery=_isUnsafeQuery;
 @property(readonly, nonatomic) NSAttributedString *query; // @synthesize query=_query;
-@property(readonly, nonatomic) _CSEmbedding *queryEmbedding; // @synthesize queryEmbedding=_queryEmbedding;
-@property(nonatomic) float veryHighPrecisionDistanceThresh; // @synthesize veryHighPrecisionDistanceThresh=_veryHighPrecisionDistanceThresh;
 
 @end
 

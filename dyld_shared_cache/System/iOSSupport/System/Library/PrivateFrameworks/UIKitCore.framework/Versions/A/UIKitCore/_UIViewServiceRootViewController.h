@@ -6,8 +6,6 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UIViewServiceRootViewController : UIViewController
 {
@@ -22,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)Object<OS_dispatch_group>";
 - (id);
 - (_Bool);
 - (void)0@ù
@@ -32,20 +30,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id)ngTransition;
 - (void)allocating. This should never happen.;
-- (id)thFollowsPreferredContentSizeWhenEdgeAttached;
+- (id)_widthFollowsPreferredContentSizeWhenEdgeAttached;
 - (unsigned long long)e.;
 - (void)llerProviderP;
 - (id)§R0Áx33¬Ý;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) UIViewController *materializedViewController; // @synthesize materializedViewController=_materializedViewController;
-@property(readonly) Class superclass;
 
 @end
 

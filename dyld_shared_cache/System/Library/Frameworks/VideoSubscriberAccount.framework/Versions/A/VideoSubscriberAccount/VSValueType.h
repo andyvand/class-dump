@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface VSValueType
 {
     Class _implementationClass;
-    NSArray *_properties;
 }
 
 - (id);
 - (void);
 - (void);
-- (Class);
+- (Class)ter(e,a+1))>=t)return r}return r}function parsePasswordRules(e,r){let t=_parsePasswordRulesInternal(e)||[],a=r,n=[],i=[],l=null,s=0,u=null;for(let e of t)switch(e.name){case RuleName.MAX_CONSECUTIVE:l=l?Math.min(e.value,l):e.value;break;case RuleName.MIN_LENGTH:s=Math.max(e.value,s);break;case RuleName.MAX_LENGTH:u=u?Math.min(e.value,u):e.value;break;case RuleName.REQUIRED:e.value=_canonicalizedPropertyValues(e.value,r),n.push(e),a||(i=i.concat(e.value));break;case RuleName.ALLOWED:i=i.concat(e.value)}return i=_canonicalizedPropertyValues(i,a),a||i.length||(i=[new NamedCharacterClass(Identifier.ASCII_PRINTABLE)]),i.length&&n.push(new Rule(RuleName.ALLOWED,i)),null!==l&&n.push(new Rule(RuleName.MAX_CONSECUTIVE,l)),s>0&&n.push(new Rule(RuleName.MIN_LENGTH,s)),null!==u&&n.push(new Rule(RuleName.MAX_LENGTH,u)),n}console||(console={assert:function(){},error:function(){},warn:function(){}});const Identifier={ASCII_PRINTABLE:"ascii-printable",DIGIT:"digit",LOWER:"lower",SPECIAL:"special",UNICODE:"unicode",UPPER:"upper"},RuleName={ALLOWED:"allowed",MAX_CONSECUTIVE:"max-consecutive",REQUIRED:"required",MIN_LENGTH:"minlength",MAX_LENGTH:"maxlength"},HTMLEntity={"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#x27;"},CHARACTER_CLASS_START_SENTINEL="[",CHARACTER_CLASS_END_SENTINEL="]",PROPERTY_VALUE_SEPARATOR=",",PROPERTY_SEPARATOR=";",PROPERTY_VALUE_START_SENTINEL=":",SPACE_CODE_POINT=" ".codePointAt(0),SHOULD_NOT_BE_REACHED="Should not be reached";class Rule{constructor(e,r){this._name=e,this.value=r}get name(){return this._name}toString(){return JSON.stringify(this)}}class NamedCharacterClass{constructor(e){this._name=e}get name(){return this._name.toLowerCase()}toString(){return this._name}toHTMLString(){return this._name}}class CustomCharacterClass{constructor(e){this._characters=e}get characters(){return this._characters}toString(){return`[${this._characters.join("")}]`}toHTMLString(){return`[${this._characters.join("").replace(/[&<>"']/g,(e=>HTMLEntity[e]))}]`}}
+0; /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) Class implementationClass; // @synthesize implementationClass=_implementationClass;
-@property(copy, nonatomic) NSArray *properties; // @synthesize properties=_properties;
 
 @end
 

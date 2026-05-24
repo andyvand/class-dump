@@ -6,18 +6,11 @@
 
 #import <MetalTools/MTLToolsIndirectCommandBuffer.h>
 
-@class MTLIndirectCommandBufferDescriptor, NSMutableArray;
-@protocol MTLIndirectCommandBuffer;
+@class NSMutableArray;
 
 @interface MTLDebugIndirectCommandBuffer : MTLToolsIndirectCommandBuffer
 {
     NSMutableArray *_optimizedRangeList;
-    MTLIndirectCommandBufferDescriptor *_desc;
-    unsigned long long _maxCommandCount;
-    id <MTLIndirectCommandBuffer> _iCB;
-    _Bool _isRender;
-    struct atomic<int> _purgeableStateToken;
-    _Bool _purgeableStateHasBeenSet;
 }
 
 - (void);
@@ -27,13 +20,12 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (unsigned long long);
 - (id);
 
 // Remaining properties
-@property(readonly) MTLIndirectCommandBufferDescriptor *descriptor;
 @property(readonly) NSMutableArray *optimizedRangeList;
 
 @end

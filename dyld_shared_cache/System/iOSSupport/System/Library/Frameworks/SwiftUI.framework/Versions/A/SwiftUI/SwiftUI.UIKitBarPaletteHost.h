@@ -7,8 +7,6 @@
 @interface SwiftUI.UIKitBarPaletteHost
 {
     id host;
-    id item;
-    id preferenceBridge;
 }
 
 - (id);

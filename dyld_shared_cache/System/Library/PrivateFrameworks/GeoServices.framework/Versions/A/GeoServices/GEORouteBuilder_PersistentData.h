@@ -15,7 +15,7 @@
 
 - (void);
 - (id);
-- (id);
+- (id)invalidateAllCachedPropertyValues;
 - (int);
 - (_Bool);
 - (id);

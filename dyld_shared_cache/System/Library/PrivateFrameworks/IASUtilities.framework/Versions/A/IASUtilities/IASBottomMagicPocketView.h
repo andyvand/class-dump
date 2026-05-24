@@ -10,7 +10,7 @@
 {
 }
 
-- (struct CGRect);
+- (struct CGRect);
 
 @end
 

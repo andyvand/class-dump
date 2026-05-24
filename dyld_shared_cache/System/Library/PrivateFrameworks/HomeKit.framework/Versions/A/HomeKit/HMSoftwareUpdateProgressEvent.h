@@ -14,7 +14,7 @@
 - (id);
 - (id);
 - (id);
-- (void)orEvent;
+- (void)HMSoftwareUpdateDescriptorEvent;
 
 // Remaining properties
 @property(readonly) HMSoftwareUpdateProgress *progress; // @synthesize progress=_progress;

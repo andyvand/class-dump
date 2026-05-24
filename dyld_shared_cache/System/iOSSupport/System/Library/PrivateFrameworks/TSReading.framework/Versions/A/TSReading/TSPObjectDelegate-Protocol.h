@@ -7,6 +7,8 @@
 @class TSPObjectContext;
 
 @protocol TSPObjectDelegate
+- (long long)PLAYBACK_ERROR_ALERT_ASSET_REVOKED_MESSAGE;
+- (long long)timeSinceIntentionalChange: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) TSPObjectContext *context;

@@ -6,26 +6,12 @@
 
 #import <Safari/BrowserContainerViewController.h>
 
-@class BrowserViewController, NSAttributedString, NSImage, NSMutableArray, NSString, NSURL, PageWithHeaderView, ReaderViewController, WebViewController;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface PageWithHeaderViewController : BrowserContainerViewController
 {
     NSMutableArray *_historyOperations;
-    _Bool _canTakeSnapshotForRubberBandingArea;
-    _Bool _didStopLoadingPage;
-    _Bool _canUseCredentialStorage;
-    _Bool _hasDefaultSiteIcon;
-    _Bool _hasFooterBanner;
-    _Bool _footerBannerHasDefaultSiteIcon;
-    _Bool _suppressBannerUpdatesOnPropertyChanges;
-    BrowserViewController *_browserViewController;
-    struct Image _snapshotForRubberBandingArea;
-    NSURL *_url;
-    NSImage *_icon;
-    NSAttributedString *_itemTitle;
-    NSImage *_footerBannerIcon;
-    NSAttributedString *_footerBannerItemTitle;
 }
 
 - (void);
@@ -35,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (struct Image);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -83,11 +69,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
+- (id)B;
 - (id);
-- (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -98,30 +84,7 @@ __attribute__((visibility("hidden")))
 - (void)ÿÿ=;
 
 // Remaining properties
-@property(readonly, nonatomic) WebViewController *activeWebViewController;
-@property(readonly, nonatomic) BrowserViewController *browserViewController; // @synthesize browserViewController=_browserViewController;
-@property(nonatomic) _Bool canTakeSnapshotForRubberBandingArea; // @synthesize canTakeSnapshotForRubberBandingArea=_canTakeSnapshotForRubberBandingArea;
-@property(nonatomic) _Bool canUseCredentialStorage; // @synthesize canUseCredentialStorage=_canUseCredentialStorage;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didStopLoadingPage; // @synthesize didStopLoadingPage=_didStopLoadingPage;
-@property(readonly, nonatomic) _Bool footerBannerHasDefaultSiteIcon; // @synthesize footerBannerHasDefaultSiteIcon=_footerBannerHasDefaultSiteIcon;
-@property(readonly, nonatomic) NSImage *footerBannerIcon; // @synthesize footerBannerIcon=_footerBannerIcon;
-@property(readonly, nonatomic) NSAttributedString *footerBannerItemTitle; // @synthesize footerBannerItemTitle=_footerBannerItemTitle;
-@property(readonly, nonatomic) _Bool hasDefaultSiteIcon; // @synthesize hasDefaultSiteIcon=_hasDefaultSiteIcon;
 @property(nonatomic) _Bool hasFooterBanner; // @synthesize hasFooterBanner=_hasFooterBanner;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSImage *icon; // @synthesize icon=_icon;
-@property(readonly, nonatomic) NSAttributedString *itemTitle; // @synthesize itemTitle=_itemTitle;
-@property(readonly, nonatomic) ReaderViewController *readerViewController;
-@property(nonatomic) struct Image snapshotForRubberBandingArea; // @synthesize snapshotForRubberBandingArea=_snapshotForRubberBandingArea;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool suppressBannerUpdatesOnPropertyChanges; // @synthesize suppressBannerUpdatesOnPropertyChanges=_suppressBannerUpdatesOnPropertyChanges;
-@property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
-@property(retain) PageWithHeaderView *view; // @dynamic view;
 
 @end
 

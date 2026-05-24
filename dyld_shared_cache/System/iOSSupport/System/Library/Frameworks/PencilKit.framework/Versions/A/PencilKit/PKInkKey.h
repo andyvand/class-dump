@@ -9,12 +9,10 @@
 @interface PKInkKey
 {
     NSString *_identifier;
-    unsigned long long _version;
-    NSString *_variant;
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -24,8 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSString *variant; // @synthesize variant=_variant;
-@property(readonly, nonatomic) unsigned long long version; // @synthesize version=_version;
 
 @end
 

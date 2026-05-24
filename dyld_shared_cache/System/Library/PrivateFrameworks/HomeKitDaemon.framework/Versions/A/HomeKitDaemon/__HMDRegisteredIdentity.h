@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFPairingIdentity, NSMutableArray;
+@class HMFPairingIdentity;
 
 __attribute__((visibility("hidden")))
 @interface __HMDRegisteredIdentity
 {
     HMFPairingIdentity *_identity;
-    NSMutableArray *_registeredObjects;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -23,7 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, copy) HMFPairingIdentity *identity; // @synthesize identity=_identity;
-@property(readonly) NSMutableArray *registeredObjects; // @synthesize registeredObjects=_registeredObjects;
 
 @end
 

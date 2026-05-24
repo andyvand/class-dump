@@ -9,40 +9,34 @@
 @interface GEOTransitArrivalInfo
 {
     PBUnknownFields *_unknownFields;
-    int _destinationLocation;
-    struct {
-        unsigned int has_destinationLocation:1;
-    } _flags;
 }
 
-+ (_Bool)reFrequency:(id)arg1;
++ (_Bool)setMinDepartureFrequency:(id)arg1;
 - (void);
-- (_Bool);
+- (_Bool)phoneticLastName;
+- (id)setMetadata:(int)arg1 forPersistentStore: /* Error: Ran out of types for this method. */;
+- (int)��;
+- (void)valuesForCurrentProcessForEntitlements:(int)arg1 error: /* Error: Ran out of types for this method. */;
+- (int)otest;
+- (void);
 - (id);
-- (int);
-- (void);
-- (int);
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)initWithFileUrl:(id)arg1 sampleByteDepth: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)stamp"b1"has_sessionCreateHour"b1"has_sessionEpoch"b1"has_sequenceNumber"b1"has_userCohortValue"b1"has_didPreviouslyRotate"b1"has_hasRotated"b1};
-- (id);
-- (id)Settings;
-- (id)ce2022;
+- (id)hasValidCharacters;
+- (id)GEOLogMsgStateRoutingSettings;
+- (id)supportsWalkingExperience2022;
 - (void)x¶Go¸VQ@;
 
 // Remaining properties
-@property(nonatomic) int destinationLocation;
 @property(nonatomic) _Bool hasDestinationLocation;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

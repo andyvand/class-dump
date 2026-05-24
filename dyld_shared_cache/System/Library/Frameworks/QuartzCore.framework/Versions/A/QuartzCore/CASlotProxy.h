@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (struct Object *);
+- (struct Object *)directSwitchToUser:withSecret:secretSize:context:preferences:pid:completionHandler: /* Error: Ran out of types for this method. */;
 
 @end
 

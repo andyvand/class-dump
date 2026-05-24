@@ -9,7 +9,7 @@
 }
 
 + (void);
-+ (id);
++ (id)ccountStore;
 + (_Bool);
 + (_Bool)¿?L;
 - (id);

@@ -7,6 +7,9 @@
 @class NSDictionary, NSString;
 
 @protocol _GEOThrottler
++ (_Bool)the %@ calendar.;
+- (NSString *);
+- (id)<_MXExtensionURLHandling>",W,N,V_URLHandlingDelegate;
 - (NSDictionary *)_arrivalParameters"b1"read_clientMetrics"b1"read_dataVersion"b1"read_datasetAbStatus"b1"read_debugData"b1"read_decoderData"b1"read_directionsResponseID"b1"read_displayHints"b1"read_failureAlert"b1"read_incidentsOffRoutes"b1"read_incidentsOnRoutes"b1"read_internalErrors"b1"read_nonRecommendedRoutesCache"b1"read_notification"b1"read_placeSearchResponses"b1"read_redactedAnalyticData"b1"read_responseAttributes"b1"read_routes"b1"read_serviceGaps"b1"read_serviceVersion"b1"read_sessionState"b1"read_snapScoreMetadataDebug"b1"read_styleAttributes"b1"read_suggestedRoutes"b1"read_trafficCameras"b1"read_trafficSignals"b1"read_transitDataVersion"b1"read_transitIncidentMessage"b1"read_transitPaymentMethodSuggestions"b1"read_transitRouteUpdateConfiguration"b1"read_tripId"b1"read_waypointRoutes"b1"wrote_anyField"b1};
 
 // Remaining properties

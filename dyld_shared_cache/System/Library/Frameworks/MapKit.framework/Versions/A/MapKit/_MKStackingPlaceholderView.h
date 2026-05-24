@@ -12,12 +12,12 @@ __attribute__((visibility("hidden")))
     NSLayoutConstraint *_contentHeightConstraint;
 }
 
-- (void);
+- (void)executionQueue;
 - (double);
 - (id);
-- (id);
+- (id)contactChangeRequests;
 - (_Bool);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)setString: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) double contentHeight;

@@ -6,24 +6,22 @@
 
 #import <IMDaemonCore/IMAssociatedMessageProcessingPipelineComponent.h>
 
-@class IMDiMessagePipelineResources, NSDictionary;
+@class IMDiMessagePipelineResources;
 
 @interface IMStickerMessageProcessingPipelineComponent : IMAssociatedMessageProcessingPipelineComponent
 {
     IMDiMessagePipelineResources *_pipelineResources;
-    NSDictionary *_messageSummaryAdditions;
 }
 
 - (void);
 - (id);
+- (id)!!;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void)Èè')ÿQC;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *messageSummaryAdditions; // @synthesize messageSummaryAdditions=_messageSummaryAdditions;
 @property(readonly, nonatomic) IMDiMessagePipelineResources *pipelineResources; // @synthesize pipelineResources=_pipelineResources;
 
 @end

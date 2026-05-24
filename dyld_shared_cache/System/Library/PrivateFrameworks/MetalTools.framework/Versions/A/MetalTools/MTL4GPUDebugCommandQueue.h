@@ -6,13 +6,11 @@
 
 #import <MetalTools/MTL4ToolsCommandQueue.h>
 
-@class NSLock, NSString;
+@class NSString;
 
 @interface MTL4GPUDebugCommandQueue : MTL4ToolsCommandQueue
 {
     struct GPUDebugDeviceOptions *_deviceOptions;
-    NSLock *_commitMutex;
-    NSString *_tracePath;
 }
 
 - (id);

@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOBluetoothHostController, IOBluetoothUserNotification, NSArray, NSDate, NSSet, PLEntryNotificationOperatorComposition, PLXPCListenerOperatorComposition;
+@class PLEntryNotificationOperatorComposition;
 
 @interface PLBluetoothAgent
 {
     unsigned char _logCount;
-    unsigned char _scanState;
-    PLEntryNotificationOperatorComposition *_batteryLevelChanged;
-    PLEntryNotificationOperatorComposition *_sbcChanged;
-    PLXPCListenerOperatorComposition *_btHCIVSEListener;
-    PLEntryNotificationOperatorComposition *_wakeEntryNotifications;
-    NSDate *_lastPowerEntryDate;
-    IOBluetoothHostController *_ioBTController;
-    NSArray *_cachedPairedDevices;
-    NSSet *_cachedPairedDevicesAddresses;
-    IOBluetoothUserNotification *_btConnectionNotification;
 }
 
 + (id);
@@ -41,8 +31,8 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (void)akeInfo;
++ (id);
++ (void)WakeInfo;
 + (_Bool)t:cbdrPauseSent(688) cannot add 1 element to context /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
@@ -55,13 +45,13 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)!;
 - (id);
 - (id);
-- (void);
+- (void)B;
 - (id);
 - (id);
 - (void);
@@ -73,7 +63,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -90,24 +80,14 @@
 - (void);
 - (_Bool);
 - (void);
-- (id)ss;
+- (id)_lastBuiltinDisplayBrightness;
 - (void);
-- (unsigned char)nyBandsErases;
+- (unsigned char)RxBurnSkinnyBandsErases;
 - (id)elements to context;
-- (void)raseFail_;
+- (void)mspBootBlockEraseFail_;
 
 // Remaining properties
 @property(retain) PLEntryNotificationOperatorComposition *batteryLevelChanged; // @synthesize batteryLevelChanged=_batteryLevelChanged;
-@property(retain) IOBluetoothUserNotification *btConnectionNotification; // @synthesize btConnectionNotification=_btConnectionNotification;
-@property(retain) PLXPCListenerOperatorComposition *btHCIVSEListener; // @synthesize btHCIVSEListener=_btHCIVSEListener;
-@property(retain) NSArray *cachedPairedDevices; // @synthesize cachedPairedDevices=_cachedPairedDevices;
-@property(retain) NSSet *cachedPairedDevicesAddresses; // @synthesize cachedPairedDevicesAddresses=_cachedPairedDevicesAddresses;
-@property(retain) IOBluetoothHostController *ioBTController; // @synthesize ioBTController=_ioBTController;
-@property(retain) NSDate *lastPowerEntryDate; // @synthesize lastPowerEntryDate=_lastPowerEntryDate;
-@property unsigned char logCount; // @synthesize logCount=_logCount;
-@property(retain) PLEntryNotificationOperatorComposition *sbcChanged; // @synthesize sbcChanged=_sbcChanged;
-@property unsigned char scanState; // @synthesize scanState=_scanState;
-@property(readonly) PLEntryNotificationOperatorComposition *wakeEntryNotifications; // @synthesize wakeEntryNotifications=_wakeEntryNotifications;
 
 @end
 

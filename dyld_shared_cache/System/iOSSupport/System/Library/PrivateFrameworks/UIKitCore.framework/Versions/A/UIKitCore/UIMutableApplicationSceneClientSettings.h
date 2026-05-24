@@ -7,8 +7,6 @@
 @interface UIMutableApplicationSceneClientSettings
 {
     _Bool _statusBarForegroundTransparent;
-    _Bool _discardSessionOnUserDisconnect;
-    long long _sceneActivationBias;
 }
 
 @end

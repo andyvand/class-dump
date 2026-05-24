@@ -5,5 +5,7 @@
 //
 
 @protocol WBSTabIntentPerformer
+- (void);
+- (void);
 @end
 

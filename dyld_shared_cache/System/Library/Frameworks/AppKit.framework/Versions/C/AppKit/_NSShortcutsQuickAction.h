@@ -12,12 +12,11 @@ __attribute__((visibility("hidden")))
 @interface _NSShortcutsQuickAction : _NSQuickAction
 {
     WFContextualAction *_contextualAction;
-    WFContextualAction *_alternateContextualAction;
 }
 
-+ (id);
-- (void);
-- (void);
++ (id)currCFChallenge;
+- (void)6KeTmjv8w4ZAMIg;
+- (void)PsIXZ7uVWznKaTEXDbFSYA;
 - (void);
 - (void);
 - (void);
@@ -30,10 +29,10 @@ __attribute__((visibility("hidden")))
 - (Class);
 - (Class);
 - (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (long long);
+- (_Bool)to encode quic vle value:%llu /* Error: Ran out of types for this method. */;
+- (id).t/;
+- (_Bool)returned %i object(s), Predicate:%{private}@ /* Error: Ran out of types for this method. */;
+- (long long)registerFileRepresentationForContentType:visibility:openInPlace:loadHandler: /* Error: Ran out of types for this method. */;
 - (id)æaÿÿýÿ;
 - (void)U2019t have permission to write to it.;
 

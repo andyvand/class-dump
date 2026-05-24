@@ -6,15 +6,10 @@
 
 #import <HomeKitDaemon/HMDCameraClipAddModelsOperation.h>
 
-@class HMCameraClipEncryptionManager, NSDate;
-
 __attribute__((visibility("hidden")))
 @interface HMDCameraClipCreateClipOperation : HMDCameraClipAddModelsOperation
 {
     double _targetFragmentDuration;
-    NSDate *_clipStartDate;
-    long long _quality;
-    HMCameraClipEncryptionManager *_encryptionManager;
 }
 
 + (unsigned long long);
@@ -30,9 +25,6 @@ __attribute__((visibility("hidden")))
 - (long long);
 
 // Remaining properties
-@property(readonly, copy) NSDate *clipStartDate; // @synthesize clipStartDate=_clipStartDate;
-@property(readonly) HMCameraClipEncryptionManager *encryptionManager; // @synthesize encryptionManager=_encryptionManager;
-@property(readonly) long long quality; // @synthesize quality=_quality;
 @property(readonly) double targetFragmentDuration; // @synthesize targetFragmentDuration=_targetFragmentDuration;
 
 @end

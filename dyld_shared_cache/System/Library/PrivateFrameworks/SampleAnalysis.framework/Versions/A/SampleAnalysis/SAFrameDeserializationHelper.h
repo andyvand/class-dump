@@ -10,19 +10,15 @@ __attribute__((visibility("hidden")))
 @interface SAFrameDeserializationHelper
 {
     SAFrame *_frame;
-    const void *_buffer;
-    unsigned long long _bufferLength;
 }
 
 - (id);
 - (unsigned long long);
 - (id);
 - (void);
-- (const void *)ignInfo;
+- (const void *)_attemptedToGetCodeSignInfo;
 
 // Remaining properties
-@property(readonly) const void *buffer; // @synthesize buffer=_buffer;
-@property(readonly) unsigned long long bufferLength; // @synthesize bufferLength=_bufferLength;
 @property(readonly) SAFrame *frame; // @synthesize frame=_frame;
 
 @end

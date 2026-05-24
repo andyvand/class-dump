@@ -9,25 +9,20 @@
 @interface CTPhoneNumberInfo
 {
     _Bool _isPresent;
-    _Bool _isEditable;
-    _Bool _isRead;
-    NSString *_label;
-    NSString *_number;
-    NSString *_displayPhoneNumber;
 }
 
-+ (_Bool);
++ (_Bool)must provide CMSampleBuffers containing encoded media data;
 - (void);
-- (void);
+- (void)";
 - (void);
 - (id);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)atag;
 - (id);
-- (void);
+- (void)failedAttempts;
 - (id);
 - (id);
 - (_Bool);
@@ -37,12 +32,7 @@
 - (_Bool)mmendedRetryDelayInSeconds;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *displayPhoneNumber; // @synthesize displayPhoneNumber=_displayPhoneNumber;
-@property(nonatomic) _Bool isEditable; // @synthesize isEditable=_isEditable;
-@property(nonatomic) _Bool isPresent; // @synthesize isPresent=_isPresent;
-@property(nonatomic) _Bool isRead; // @synthesize isRead=_isRead;
 @property(retain, nonatomic) NSString *label; // @synthesize label=_label;
-@property(retain, nonatomic) NSString *number; // @synthesize number=_number;
 
 @end
 

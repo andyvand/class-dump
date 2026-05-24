@@ -6,23 +6,11 @@
 
 #import <iTunesCloud/ICRequestOperation.h>
 
-@class ICMediaRedownloadResponse, ICStoreRequestContext, ICStoreURLRequest, ICURLAggregatedPerformanceMetrics, ICURLSession, ICUnfairLock, NSDictionary, NSString;
+@class ICStoreRequestContext;
 
 @interface ICMediaRedownloadRequest : ICRequestOperation
 {
     ICStoreRequestContext *_requestContext;
-    ICMediaRedownloadResponse *_redownloadResponse;
-    ICStoreURLRequest *_storeURLRequest;
-    ICUnfairLock *_lock;
-    ICURLAggregatedPerformanceMetrics *_urlMetrics;
-    _Bool _playbackRequest;
-    _Bool _streamingRental;
-    _Bool _usePrioritizedURLSession;
-    _Bool _includeKeybagSyncData;
-    _Bool _includeSubscriptionKeybagSyncData;
-    ICURLSession *_urlSession;
-    NSDictionary *_redownloadParameters;
-    NSString *_requestURLBagKey;
 }
 
 - (_Bool);
@@ -41,28 +29,20 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)8@"NSString"16@?<v@?Q@"NSError">24;
+- (void);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void)e;
-- (void)euerProperties;
+- (void)lastAllowedInteractiveAuthenticationTime;
+- (void)ICPlayActivityEnqueuerProperties;
 - (id)µÆ
 ;
 
 // Remaining properties
-@property(nonatomic) _Bool includeKeybagSyncData; // @synthesize includeKeybagSyncData=_includeKeybagSyncData;
-@property(nonatomic) _Bool includeSubscriptionKeybagSyncData; // @synthesize includeSubscriptionKeybagSyncData=_includeSubscriptionKeybagSyncData;
-@property(nonatomic, getter=isPlaybackRequest) _Bool playbackRequest; // @synthesize playbackRequest=_playbackRequest;
-@property(copy, nonatomic) NSDictionary *redownloadParameters; // @synthesize redownloadParameters=_redownloadParameters;
 @property(copy, nonatomic) ICStoreRequestContext *requestContext; // @synthesize requestContext=_requestContext;
-@property(copy, nonatomic) NSString *requestURLBagKey; // @synthesize requestURLBagKey=_requestURLBagKey;
-@property(nonatomic, getter=isStreamingRental) _Bool streamingRental; // @synthesize streamingRental=_streamingRental;
-@property(retain, nonatomic) ICURLSession *urlSession; // @synthesize urlSession=_urlSession;
-@property(nonatomic) _Bool usePrioritizedURLSession; // @synthesize usePrioritizedURLSession=_usePrioritizedURLSession;
 
 @end
 

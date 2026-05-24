@@ -5,5 +5,25 @@
 //
 
 @protocol MNNavigationSessionObserver
+
+@optional
+- (void)TabContextMenuKey;
+- (void);
+- (void);
+- (void)FormStyleModifier;
+- (void)FormStyleContext;
+- (void)FormStyleConfiguration;
+- (void)PlatformFocusViewProvider;
+- (void)y;
+- (void);
+- (void);
+- (void)AccessibilityRotorModifier;
+- (void)AnimatableModifier;
+- (void)X7X.
+;
+- (void)LeadingTrailingLabeledContentStyle;
+- (void)G4;
+- (void)ResolvedUISceneAdaptor;
+- (void)UISceneAdaptorConfiguration;
 @end
 

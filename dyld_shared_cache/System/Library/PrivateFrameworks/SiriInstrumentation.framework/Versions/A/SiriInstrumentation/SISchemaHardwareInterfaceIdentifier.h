@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SISchemaHardwareInterfaceIdentifier : SISchemaInstrumentationMessage
 {
     NSString *_interfaceVendorID;
-    NSString *_interfaceProductID;
-    _Bool _hasInterfaceVendorID;
-    _Bool _hasInterfaceProductID;
 }
 
 - (void);
@@ -28,21 +25,17 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)URL;
+- (_Bool)Delete;
+- (_Bool)AND m.item_type = 0 AND m.associated_message_type != 3 AND NOT (m.schedule_type = 2 AND (m.schedule_state = 1 OR m.schedule_state = 2)) ORDER BY cm.message_date DESC, cm.message_id DESC LIMIT 1;
 - (id);
 - (id);
-- (id)CdmSystemDialogActTier1;
-- (id)edTimestampMs;
+- (id)deleteCdmSystemDialogActTier1;
+- (id)_datasetsCapturedTimestampMs;
 - (void)pedTier1;
 
 // Remaining properties
-@property(nonatomic) _Bool hasInterfaceProductID; // @synthesize hasInterfaceProductID=_hasInterfaceProductID;
-@property(nonatomic) _Bool hasInterfaceVendorID; // @synthesize hasInterfaceVendorID=_hasInterfaceVendorID;
-@property(copy, nonatomic) NSString *interfaceProductID; // @synthesize interfaceProductID=_interfaceProductID;
 @property(copy, nonatomic) NSString *interfaceVendorID; // @synthesize interfaceVendorID=_interfaceVendorID;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

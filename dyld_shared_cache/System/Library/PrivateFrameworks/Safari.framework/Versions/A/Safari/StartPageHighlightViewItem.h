@@ -4,26 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPLinkView, NSString, NSTextField, NSView, SLAttributionView, StartPageHighlightViewItemMetadata, StartPageViewItemVisualEffect;
-@protocol StartPageBackgroundImageIdentifierProvider, StartPageHighlightViewItemDelegate;
+@class NSView;
+@protocol StartPageBackgroundImageIdentifierProvider;
 
 __attribute__((visibility("hidden")))
 @interface StartPageHighlightViewItem
 {
     NSView *_contentView;
-    StartPageViewItemVisualEffect *_visualEffectBackground;
-    NSView *_boxShadow;
-    SLAttributionView *_attributionView;
-    LPLinkView *_linkView;
-    NSTextField *_relativeDateTextField;
-    long long _attributionBackgroundStyle;
-    _Bool _usesCompactAppearance;
-    id <StartPageBackgroundImageIdentifierProvider> _backgroundImageIdentifierProvider;
-    StartPageHighlightViewItemMetadata *_metadata;
-    NSString *_relativeDateString;
-    id <StartPageHighlightViewItemDelegate> _delegate;
-    id _target;
-    SEL _action;
 }
 
 - (_Bool);
@@ -46,16 +33,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)uring Recents operation:(id)arg1 %@;
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void)reItemData;
+- (void)(NSString *__strong _Nonnull, NSDictionary *__autoreleasing * _Nullable);
+- (void)shareItemData;
 - (void)eView;
 - (SEL)xp;
-- (id);
+- (id)e;
 - (void);
 - (void)84;
 - (id);
@@ -63,21 +50,7 @@ __attribute__((visibility("hidden")))
 - (void)ÿ;
 
 // Remaining properties
-@property(nonatomic) SEL action; // @synthesize action=_action;
 @property(nonatomic) __weak id <StartPageBackgroundImageIdentifierProvider> backgroundImageIdentifierProvider; // @synthesize backgroundImageIdentifierProvider=_backgroundImageIdentifierProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <StartPageHighlightViewItemDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *highlightTitle;
-@property(retain, nonatomic) StartPageHighlightViewItemMetadata *metadata; // @synthesize metadata=_metadata;
-@property(copy, nonatomic) NSString *relativeDateString; // @synthesize relativeDateString=_relativeDateString;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak id target; // @synthesize target=_target;
-@property(nonatomic) _Bool usesCompactAppearance; // @synthesize usesCompactAppearance=_usesCompactAppearance;
 
 @end
 

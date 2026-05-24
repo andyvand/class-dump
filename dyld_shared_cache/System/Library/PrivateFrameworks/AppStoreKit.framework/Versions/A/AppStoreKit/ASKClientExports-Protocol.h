@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @protocol ASKClientExports
+- (NSString *);
+- (_Bool)|o;
+- (_Bool)o;
+- (_Bool)uo;
+- (_Bool)o;
+- (_Bool)to;
+- (_Bool)po;
+- (_Bool)Bo;
+- (_Bool)@9o;
+- (_Bool)8o;
+- (NSString *);
 - (NSString *)pageUrl;
 - (NSString *)Õ	àA;
 - (NSString *)4;
 
 // Remaining properties
-@property(readonly, copy) NSString *activePairedWatchSystemVersion;
-@property(readonly) NSString *buildType;
-@property(readonly) NSString *buildVersion;
-@property(readonly) NSString *deviceType;
-@property(readonly, copy) NSString *guid;
-@property(readonly) NSString *hostBundleId;
-@property(readonly) _Bool isActivityAvailable;
-@property(readonly) _Bool isCharonSupported;
-@property(readonly) _Bool isElectrocardiogramInstallationAllowed;
-@property(readonly) _Bool isIconArtworkCapable;
-@property(readonly) _Bool isMandrakeSupported;
-@property(readonly) _Bool isSidepackingEnabled;
-@property(readonly) _Bool isTinkerWatch;
-@property(readonly) long long maxAppContentRating;
-@property(readonly) NSArray *remoteDownloadIdentifiers;
-@property(readonly) double screenCornerRadius;
 @property(readonly) struct CGSize screenSize;
-@property(readonly, copy) NSString *storefrontIdentifier;
-@property(readonly) _Bool supportsHEIF;
-@property(readonly, copy) NSString *thinnedApplicationVariantIdentifier;
 @end
 

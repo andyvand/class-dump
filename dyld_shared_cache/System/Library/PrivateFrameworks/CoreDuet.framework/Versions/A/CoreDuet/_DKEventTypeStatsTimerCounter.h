@@ -12,8 +12,8 @@
 }
 
 - (id);
-- (id);
-- (void);
+- (id)cket.der;
+- (void)o;
 - (void);
 
 // Remaining properties

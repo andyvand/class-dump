@@ -14,13 +14,13 @@
 }
 
 + (id);
+- (void)xtension with %{public}s due to %{public}s.;
 - (void);
 - (void);
-- (void);
+- (id)B;
 - (id);
-- (id);
 - (void);
-- (void)ievalType;
+- (void)_retrievalType;
 
 // Remaining properties
 @property(retain, nonatomic) PARSession *session; // @synthesize session=_session;

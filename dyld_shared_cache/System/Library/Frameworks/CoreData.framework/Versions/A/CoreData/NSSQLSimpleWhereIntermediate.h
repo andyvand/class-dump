@@ -6,14 +6,12 @@
 
 #import <CoreData/NSSQLWhereIntermediate.h>
 
-@class NSExpression, NSMutableArray;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface NSSQLSimpleWhereIntermediate : NSSQLWhereIntermediate
 {
     NSMutableArray *_comparisonPredicateScopedItem;
-    NSExpression *_effectiveLeftExpression;
-    NSExpression *_effectiveRightExpression;
 }
 
 - (void);

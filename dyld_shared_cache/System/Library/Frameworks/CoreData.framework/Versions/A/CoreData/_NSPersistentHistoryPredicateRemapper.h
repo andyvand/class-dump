@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _NSPersistentHistoryPredicateRemapper
 {
     NSString *_storeID;
-    _Bool _previousKeyPathExpressionWasToken;
 }
 
 + (id);
@@ -18,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void)ransformedValue_Decoded;
+- (void)PFFaultingTransformedValue_Decoded;
 - (void)issing bytes from file at path %s, expected %lu, got %lu;
 - (void)¬îÿ;
 

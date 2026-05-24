@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, ACAccountStore, NSString;
+@class ACAccount, ACAccountStore;
 
 @interface AAGrandSlamSigner
 {
     ACAccountStore *_accountStore;
-    ACAccount *_grandSlamAccount;
-    NSString *_appTokenID;
-    _Bool _useAltDSID;
-    NSString *_headerFieldKey;
 }
 
 - (_Bool);
@@ -25,13 +21,10 @@
 - (id);
 - (void);
 - (id);
-- (void)classEnabled;
+- (void)isMomentsDataclassEnabled;
 
 // Remaining properties
-@property(readonly, nonatomic) ACAccountStore *accountStore; // @synthesize accountStore=_accountStore;
 @property(readonly, nonatomic) ACAccount *grandSlamAccount; // @synthesize grandSlamAccount=_grandSlamAccount;
-@property(retain, nonatomic) NSString *headerFieldKey; // @synthesize headerFieldKey=_headerFieldKey;
-@property(nonatomic) _Bool useAltDSID; // @synthesize useAltDSID=_useAltDSID;
 
 @end
 

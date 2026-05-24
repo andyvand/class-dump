@@ -12,10 +12,11 @@
 
 + (id);
 + (id);
-+ (id);
++ (id)?;
 + (id);
 - (id);
-- (_Bool);
+- (_Bool)mat ; terminal wire 
+;
 
 @end
 

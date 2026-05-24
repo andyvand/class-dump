@@ -9,13 +9,6 @@
 @interface PKProtobufPaymentContentItem
 {
     NSData *_image;
-    NSData *_imageRequest;
-    NSData *_label;
-    NSData *_title;
-    _Bool _centered;
-    struct {
-        unsigned int centered:1;
-    } _has;
 }
 
 - (void);
@@ -28,34 +21,25 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)T;
 - (unsigned long long);
-- (id);
+- (id);
 - (_Bool);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)relinquishOverlayAtIndex: /* Error: Ran out of types for this method. */;
+- (_Bool)cision"b1"timeToLastReverseGrant"b1"voiceLQM"b1"voiceLinkPref"b1"wifiEstimatedBandwitdh"b1"wifiRxPhyRate"b1"wifiRxRetry"b1"wifiTxPER"b1"wifiTxPhyRate"b1"captiveNetworks"b1};
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)66;
 - (id)ng",C,N,V_password;
 - (void)ed;
-- (void)YMENTS_FOR_DATE_ERROR_TITLE;
+- (void)ACCOUNT_SERVICE_SCHEDULE_PAYMENT_TOO_MANY_PAYMENTS_FOR_DATE_ERROR_TITLE;
 - (_Bool)seatNumber:'%@';  /* Error: Ran out of types for this method. */;
 - (_Bool)mh7;
 
 // Remaining properties
-@property(nonatomic) _Bool centered; // @synthesize centered=_centered;
-@property(nonatomic) _Bool hasCentered;
-@property(readonly, nonatomic) _Bool hasImage;
 @property(readonly, nonatomic) _Bool hasImageRequest;
-@property(readonly, nonatomic) _Bool hasLabel;
-@property(readonly, nonatomic) _Bool hasTitle;
-@property(retain, nonatomic) NSData *image; // @synthesize image=_image;
-@property(retain, nonatomic) NSData *imageRequest; // @synthesize imageRequest=_imageRequest;
-@property(retain, nonatomic) NSData *label; // @synthesize label=_label;
-@property(retain, nonatomic) NSData *title; // @synthesize title=_title;
 
 @end
 

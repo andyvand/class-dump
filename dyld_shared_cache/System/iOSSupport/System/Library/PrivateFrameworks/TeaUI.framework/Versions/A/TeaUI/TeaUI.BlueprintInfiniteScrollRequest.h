@@ -7,8 +7,6 @@
 @interface TeaUI.BlueprintInfiniteScrollRequest
 {
     id identifier;
-    id isCompleted;
-    id onCompleteBlock;
 }
 
 @end

@@ -6,34 +6,27 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ASRSchemaASRAppLanguageModelLoadStarted : SISchemaInstrumentationMessage
 {
     int _modelLocale;
-    struct {
-        unsigned int modelLocale:1;
-    } _has;
 }
 
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (int);
-- (id);
+- (int)setTableDetailText: /* Error: Ran out of types for this method. */;
+- (id)g",C,V_macAddress;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)iptShown: /* Error: Ran out of types for this method. */;
+- (id)setTranscriptShown: /* Error: Ran out of types for this method. */;
 - (id)4;p;;
 - (id)MC;
 
 // Remaining properties
-@property(nonatomic) _Bool hasModelLocale;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int modelLocale; // @synthesize modelLocale=_modelLocale;
 
 @end

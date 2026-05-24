@@ -11,14 +11,14 @@
     NSArray *_list;
 }
 
-+ (_Bool);
++ (_Bool)urceRequestEvent:%@> /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)_LAKeyStoreBackendFake;
 - (id);
 - (void);
 - (void)ª)ð1Â0@ù

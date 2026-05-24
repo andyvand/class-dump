@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, _MRCommandInfoProtobuf;
+@class _MRCommandInfoProtobuf;
 
 @interface MRCommandInfo
 {
     _Bool _enabled;
-    unsigned int _command;
-    NSDictionary *_options;
 }
 
 + (_Bool);
@@ -22,25 +20,20 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)ionEntity;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)|,ev*
+;
 - (unsigned int);
 - (void);
 - (void)T@"NSMutableDictionary",&,N,V_options;
 - (id)Distant external device %p failed to fetch deviceInfo;
 
 // Remaining properties
-@property(nonatomic) unsigned int command; // @synthesize command=_command;
-@property(readonly, copy, nonatomic) NSData *data;
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(copy, nonatomic) NSDictionary *options; // @synthesize options=_options;
-@property(readonly, copy, nonatomic) NSData *propertyListData;
 @property(readonly, nonatomic) _MRCommandInfoProtobuf *protobuf;
 
 @end

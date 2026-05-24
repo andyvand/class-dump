@@ -13,7 +13,7 @@
     NSString *_statusActivationLockBypassCode;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);

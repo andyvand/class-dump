@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSExternalAnalyticsRequestMetadata, NSURL;
+@class NSURL;
 
 @interface NSSExternalAnalyticsRequest
 {
     NSURL *_URL;
-    NSSExternalAnalyticsRequestMetadata *_metadata;
 }
 
 + (_Bool);
+- (id)SharedWithYouFeedRouter;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id) ;
+- (void)!;
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(readonly, nonatomic) NSSExternalAnalyticsRequestMetadata *metadata; // @synthesize metadata=_metadata;
 
 @end
 

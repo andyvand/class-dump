@@ -13,14 +13,13 @@
 }
 
 - (id);
-- (id);
+- (id)*!;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic) id <CalDAVPutCalendarItemTaskDelegate> delegate; // @dynamic delegate;
-@property(retain, nonatomic) NSString *previousScheduleTag; // @synthesize previousScheduleTag=_previousScheduleTag;
 
 @end
 

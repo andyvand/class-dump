@@ -4,48 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexSet, NSMutableArray, NSMutableDictionary, NSSet, NSString, NSUUID, UICollectionView, UICollectionViewData, _UICollectionViewFocusedItemState;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface UICollectionViewUpdate
 {
     NSArray *_updateItems;
-    UICollectionViewData *_oldModel;
-    UICollectionViewData *_newModel;
-    struct CGPoint _oldContentOffset;
-    struct CGPoint _newContentOffset;
-    NSIndexSet *_deletedSections;
-    NSIndexSet *_insertedSections;
-    NSMutableArray *_deletedSupplementaryIndexesSectionArray;
-    NSMutableArray *_insertedSupplementaryIndexesSectionArray;
-    NSMutableDictionary *_deletedSupplementaryTopLevelIndexesDict;
-    NSMutableDictionary *_insertedSupplementaryTopLevelIndexesDict;
-    _UICollectionViewFocusedItemState *_oldFocusedItemState;
-    _UICollectionViewFocusedItemState *_newFocusedItemState;
-    UICollectionView *_collectionView;
-    NSSet *_itemAnchoredAuxiliaryElementKinds;
-    NSSet *_moveItemSourceIndexPaths;
-    NSSet *_moveItemDestinationIndexPaths;
-    struct _UIDataSourceUpdateMaps _updateMaps;
-    struct {
-        unsigned int layoutPreparedForUpdates:1;
-        unsigned int animated:1;
-    } _flags;
-    NSString *_invalidUpdatesErrorMessage;
-    NSUUID *_identifier;
 }
 
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (long long);
-- (void);
+- (void);
 - (long long);
 - (id);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)albumArtistPersistentID;
 - (id);
 - (id);
 - (long long);
@@ -59,11 +36,11 @@ __attribute__((visibility("hidden")))
 × ;
 - (long long)Ô ;
 - (_Bool);
-- (void);
-- (id)utDirection:(id)arg1;
-- (_Bool)on:(id)arg1;
-- (void)ConstraintsForArrangedContentViews;
-- (_Bool)hotEventsForAsyncDelivery;
+- (void)customViewForInteractiveHighlight;
+- (id)_ui_resolvedTextAlignmentForUserInterfaceLayoutDirection:(id)arg1;
+- (_Bool)_setAttributes:(id)arg1 forSection: /* Error: Ran out of types for this method. */;
+- (void)_reloadContentDistributionConstraintsForArrangedContentViews;
+- (_Bool)_outstandingSnapshotEventsForAsyncDelivery;
 - (void);
 - (id)ffsetAdjustment;
 - (id)SMutableArray",&,N,V_windows;
@@ -76,17 +53,6 @@ __attribute__((visibility("hidden")))
 - (_Bool)<©BÿQj;
 
 // Remaining properties
-@property(nonatomic, getter=isAnimated) _Bool animated;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSString *invalidUpdatesErrorMessage; // @synthesize invalidUpdatesErrorMessage=_invalidUpdatesErrorMessage;
-@property(readonly, nonatomic, getter=isLayoutPreparedForUpdates) _Bool layoutPreparedForUpdates;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) _Bool updatesAreInvalid;
 
 @end

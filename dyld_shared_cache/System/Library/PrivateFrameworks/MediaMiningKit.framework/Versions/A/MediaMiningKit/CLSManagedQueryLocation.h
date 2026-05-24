@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSSet;
-
 @interface CLSManagedQueryLocation
 {
 }
 
-+ (id)inLocation: /* Error: Ran out of types for this method. */;
++ (id)doesRegion:containLocation: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *endDate; // @dynamic endDate;
-@property(nonatomic) double latitude; // @dynamic latitude;
-@property(nonatomic) double longitude; // @dynamic longitude;
-@property(retain, nonatomic) NSSet *publicEvents; // @dynamic publicEvents;
-@property(nonatomic) double radius; // @dynamic radius;
-@property(retain, nonatomic) NSDate *startDate; // @dynamic startDate;
 @property(nonatomic) double updateTimestamp; // @dynamic updateTimestamp;
 
 @end

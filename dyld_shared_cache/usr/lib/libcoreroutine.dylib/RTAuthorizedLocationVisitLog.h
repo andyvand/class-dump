@@ -4,43 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSUUID;
+@class NSUUID;
 
 @interface RTAuthorizedLocationVisitLog
 {
     NSUUID *_visitIdentifier;
-    NSDate *_registrationDate;
-    unsigned long long _locationTechnologyAvailability;
 }
 
-+ (id);
-+ (_Bool);
-+ (id);
++ (id)nabled;
++ (_Bool)ecode PCSSignature;
++ (id)d not supported (%d requested);
 + (id);
 + (_Bool);
 - (unsigned long long);
+- (id)setContext:(id)arg1;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)6#24@32;
+- (id)airs:found inProgress candidate pair %@ with the same QRSessionID %@, update state (%s->%s) /* Error: Ran out of types for this method. */;
+- (_Bool)Z;
 - (void);
 - (id);
 - (void)recoverable error %@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long locationTechnologyAvailability; // @synthesize locationTechnologyAvailability=_locationTechnologyAvailability;
-@property(readonly, copy, nonatomic) NSDate *registrationDate; // @synthesize registrationDate=_registrationDate;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSUUID *visitIdentifier; // @synthesize visitIdentifier=_visitIdentifier;
 
 @end
 

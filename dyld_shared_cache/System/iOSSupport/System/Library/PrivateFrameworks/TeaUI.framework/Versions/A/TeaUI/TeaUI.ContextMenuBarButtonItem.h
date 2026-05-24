@@ -9,7 +9,7 @@
 }
 
 - (id);
-- (id);
+- (id)transformationWithConfiguration:context:isPaywallAvailable: /* Error: Ran out of types for this method. */;
 
 @end
 

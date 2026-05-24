@@ -15,10 +15,10 @@
 
 + (unsigned long long);
 + (id);
+- (id)%@ (%@);
+- (id)layValidation-MissingRequiredFields;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)LIB] _mediaLibraryWithUniqueIdentifier:(id)arg1 userDSID | found in-memory library [DSID match] library=%{public}@;
 - (_Bool)setLayerID:(id)arg1;
 - (id)yboardCandidate",R,N;
 - (void);

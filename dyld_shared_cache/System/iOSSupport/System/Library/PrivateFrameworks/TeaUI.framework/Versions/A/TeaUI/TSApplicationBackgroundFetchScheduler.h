@@ -10,7 +10,7 @@
 }
 
 - (void);
-- (id);
+- (id)tagRecordInterestToken;
 - (void);
 - (id);
 - (void)â=þÿ;

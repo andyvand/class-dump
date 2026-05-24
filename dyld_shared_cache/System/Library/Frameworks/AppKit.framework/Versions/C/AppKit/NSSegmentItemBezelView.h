@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
-- (int);
-- (int);
+- (id)set_requiresSustainedDataDelivery:(struct CGPoint)arg1;
+- (int)downloadCompletion;
+- (int)protocols such as HTTPS.;
 - (_Bool);
 - (void);
 

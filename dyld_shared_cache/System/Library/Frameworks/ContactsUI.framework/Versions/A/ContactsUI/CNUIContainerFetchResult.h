@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContainer, NSArray;
+@class CNContainer;
 
 @interface CNUIContainerFetchResult
 {
     CNContainer *_parentConrtainer;
-    NSArray *_linkedParentContainers;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)b;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *linkedParentContainers; // @synthesize linkedParentContainers=_linkedParentContainers;
 @property(readonly, nonatomic) CNContainer *parentConrtainer; // @synthesize parentConrtainer=_parentConrtainer;
 
 @end

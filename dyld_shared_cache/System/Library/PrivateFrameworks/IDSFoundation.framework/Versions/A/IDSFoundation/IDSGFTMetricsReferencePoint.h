@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSGFTMetricsAnonymizer, NSDictionary, NSMutableDictionary, NSString;
+@class NSMutableDictionary, NSString;
 
 @interface IDSGFTMetricsReferencePoint
 {
     NSMutableDictionary *_times;
-    IDSGFTMetricsAnonymizer *_anonymizer;
-    NSMutableDictionary *_attributes;
-    NSDictionary *_template;
-    struct os_unfair_lock_s _lock;
-    NSString *_fromType;
-    id _fromUniqueID;
 }
 
 - (void);
@@ -22,21 +16,20 @@
 - (double);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)_;
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void)DSRegistrationProfileOperationAuthenticate;
+- (void);
+- (id);
+- (void)IDSRegistrationProfileOperationAuthenticate;
 
 // Remaining properties
 @property(copy) NSString *fromType; // @synthesize fromType=_fromType;
-@property(copy) id fromUniqueID; // @synthesize fromUniqueID=_fromUniqueID;
 
 @end
 

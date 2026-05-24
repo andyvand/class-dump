@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PFCopyOnWriteInterest;
-
 @interface PA2DBufferContiguousBacking
 {
     unsigned long long _width;
-    unsigned long long _height;
-    int _format;
-    struct CGColorSpace *_colorSpace;
-    PFCopyOnWriteInterest *_buffer;
-    long long _rowBytes;
 }
 
 - (struct PFIntRect_st);
@@ -26,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (long long);
 - (void);
 - (struct CGColorSpace *);
@@ -35,7 +28,7 @@
 - (unsigned long long);
 - (id);
 - (int);
-- (void);
+- (void)_;
 - (void);
 
 @end

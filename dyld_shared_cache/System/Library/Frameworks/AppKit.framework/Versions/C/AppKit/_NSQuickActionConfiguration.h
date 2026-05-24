@@ -4,21 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMapTable, _NSQuickActionPresentation;
+@class _NSQuickActionPresentation;
 
 @interface _NSQuickActionConfiguration
 {
     _NSQuickActionPresentation *_presentation;
-    NSDictionary *_indexByIdentifier;
-    NSMapTable *_activePreferences;
 }
 
-- (void);
-- (void);
+- (void):(id)arg1 {
+	faus:%s
+	fsca:%s
+	esca:%s
+	trustObject:%@
+} /* Error: Ran out of types for this method. */;
+- (void)s:(_Bool)arg1 failed to decode FDR Multi Combined Format;
 - (id);
 - (id);
-- (void)gacyMetrics;
-- (void)ation;
+- (void)NSBoxUseLegacyMetrics;
+- (void)kGameControllerSystemStatusNotification;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface NewsUI2.SportsFavoritesSyncModule
 {
     id resolver;
-    id tracker;
 }
 
 @end

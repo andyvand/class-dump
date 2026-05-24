@@ -9,31 +9,18 @@
 @interface _CDMemoryUsageInterval
 {
     unsigned long long _startingMemoryUsage;
-    unsigned long long _startingLifetimeMaxMemoryUsage;
-    unsigned long long _endingMemoryUsage;
-    unsigned long long _endingLifetimeMaxMemoryUsage;
-    NSString *_name;
-    unsigned long long _state;
-    unsigned long long _startTime;
-    _Bool _concurrentStart;
-    _Bool _reset;
-    NSString *_client;
-    unsigned long long _num;
-    unsigned long long _concurrentPeakMemoryUsage;
-    unsigned long long _peakMemoryUsage;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)initWithHost:port:queue:configuration: /* Error: Ran out of types for this method. */;
+- (void)2hj;
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *client; // @synthesize client=_client;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

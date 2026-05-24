@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
-@protocol NSAccessibilityElement, PXGAXGroup, PXGAXGroupSource, PXGAXInfoSource, PXGAXResponder;
+@class NSMutableArray, NSString;
+@protocol NSAccessibilityElement, PXGAXGroup, PXGAXInfoSource, PXGAXResponder;
 
 @protocol PXGAXGroup
+- (id <PXGAXInfoSource>);
+- (NSMutableArray<NSAccessibilityElement> *)!;
+- (id <PXGAXGroup>)9;
+- (id <PXGAXResponder>)dio player - returning observed time:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray<NSAccessibilityElement> *additionalAccessibilityElements;
-@property(readonly, nonatomic) id <PXGAXGroupSource> axGroupSource;
 @property(retain, nonatomic) NSString *axIdentifier;
-@property(readonly, nonatomic) id <PXGAXInfoSource> axInfoSource;
-@property(readonly, nonatomic) NSArray *axLeafs;
-@property(readonly, nonatomic) id <PXGAXResponder> axNextResponder;
-@property(readonly, nonatomic) __weak id <PXGAXGroup> axParent;
-@property(readonly, nonatomic) long long axRole;
-@property(readonly, nonatomic) NSArray *axSubgroups;
 @end
 

@@ -5,5 +5,10 @@
 //
 
 @protocol CNAutocompleteSearchControllerDelegate
+
+@optional
+- (void);
+- (void);
+- (void);
 @end
 

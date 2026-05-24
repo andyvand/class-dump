@@ -6,54 +6,34 @@
 
 #import <UIKitCore/UIControl.h>
 
-@class NSArray, NSString, UIAccessibilityHUDGestureManager, UIColor, UIFont, UITableView;
-@protocol UITableViewIndexVisualStyle;
+@class NSArray;
 
 @interface UITableViewIndex : UIControl
 {
     NSArray *_titles;
-    UIFont *_font;
-    long long _selectedSection;
-    _Bool _pastTop;
-    _Bool _pastBottom;
-    struct CGSize _cachedSize;
-    struct CGSize _cachedSizeToFit;
-    UIColor *_indexColor;
-    UIColor *_indexBackgroundColor;
-    UIColor *_indexTrackingBackgroundColor;
-    double _topPadding;
-    double _bottomPadding;
-    double _verticalTextHeightEstimate;
-    NSArray *_entries;
-    long long _idiom;
-    UIAccessibilityHUDGestureManager *_axHUDGestureManager;
-    UITableView *_tableView;
-    unsigned long long _drawingInsetsMask;
-    id <UITableViewIndexVisualStyle> _visualStyle;
-    struct UIEdgeInsets _drawingInsets;
 }
 
-+ (id);
++ (id)w:(id)arg1 %d byes, Messages database may not be able to store message;
 + (void);
 + (id);
-+ (void)tions:(Class)arg1 animated:(long long)arg2;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
++ (void)removeSymbolEffectOfType:(Class)arg1 options:(long long)arg2 animated: /* Error: Ran out of types for this method. */;
+- (void)noticesForURLs:(id)arg1;
+- (void)neMap;
+- (void)mmcsTargetReportSizeForHighQualityPhotoSize:(id)arg1 commonCapabilities: /* Error: Ran out of types for this method. */;
+- (void)IMDaemonVCInvitationsAVObserverProtocol;
+- (void)IMDaemonVCACProtocol;
 - (id);
-- (_Bool);
+- (_Bool)1;
 - (unsigned long long);
+- (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (struct UIEdgeInsets);
-- (void);
+- (unsigned long long)ng task to finish;
+- (struct UIEdgeInsets)nning?? waiting for existing task to finish;
+- (void)e are not that many, so retrieving all chats, range (%ld,%ld).;
 - (struct CGRect);
-- (_Bool);
-- (void);
+- (_Bool)handle %@;
+- (void)requiresUpload:%@ /* Error: Ran out of types for this method. */;
 - (double);
 - (void);
 - (void);
@@ -70,11 +50,11 @@
 - (_Bool);
 - (long long);
 - (void);
-- (long long);
+- (long long)e units:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)d:(id)arg1 withForceAirPlayIncomingRequestsPairingPassword:(struct CGPoint)arg2 withAllowAirPlayIncomingRequests: /* Error: Ran out of types for this method. */;
 - (struct CGSize);
 - (void);
 - (_Bool);
@@ -82,14 +62,14 @@
 - (id)!à@ùQY°1Â0@ù
 × ;
 - (_Bool);
-- (void)d;
+- (void)commandeered;
 - (id)Controller;
 - (void)heetContext:(id)arg1;
 - (void)h«;
 - (void);
 - (id);
-- (void)toFillTestArchives;
-- (_Bool)andscapeImagePhone;
+- (void)AutoFillTestArchives;
+- (_Bool)UILandscapeImagePhone;
 - (void)_UIDatePickerCombinedDateComponents(NSDateComponents * _Nonnull __strong, NSDateComponents * _Nonnull __strong);
 - (void)À[;
 - (void)b;
@@ -102,26 +82,7 @@
 - (void)üJÿH);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) struct UIEdgeInsets drawingInsets; // @synthesize drawingInsets=_drawingInsets;
 @property(nonatomic) unsigned long long drawingInsetsMask; // @synthesize drawingInsetsMask=_drawingInsetsMask;
-@property(retain, nonatomic) UIFont *font;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIColor *indexBackgroundColor;
-@property(retain, nonatomic) UIColor *indexColor;
-@property(retain, nonatomic) UIColor *indexTrackingBackgroundColor;
-@property(readonly, nonatomic) _Bool pastBottom; // @synthesize pastBottom=_pastBottom;
-@property(readonly, nonatomic) _Bool pastTop; // @synthesize pastTop=_pastTop;
-@property(readonly, nonatomic) long long selectedSection; // @synthesize selectedSection=_selectedSection;
-@property(readonly, nonatomic) NSString *selectedSectionTitle;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak UITableView *tableView; // @synthesize tableView=_tableView;
-@property(retain, nonatomic) NSArray *titles;
-@property(retain, nonatomic) id <UITableViewIndexVisualStyle> visualStyle; // @synthesize visualStyle=_visualStyle;
 
 @end
 

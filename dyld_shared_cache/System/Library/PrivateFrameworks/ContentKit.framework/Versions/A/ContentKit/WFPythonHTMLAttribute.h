@@ -10,18 +10,16 @@ __attribute__((visibility("hidden")))
 @interface WFPythonHTMLAttribute
 {
     NSString *_name;
-    NSString *_value;
 }
 
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)denied by the throttler. A save will be permitted in %f seconds.;
+- (id)P;
+- (id)_pickerSourceX;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

@@ -6,30 +6,15 @@
 
 #import <AppleMediaServicesUI/AMSUIAppearance.h>
 
-@class NSColor, NSFont, NSImage, NSImageSymbolConfiguration;
+@class NSColor;
 
 @interface AMSUIToastAppearance : AMSUIAppearance
 {
     NSColor *_accessoryButtonBackgroundColor;
-    NSColor *_accessoryButtonColor;
-    NSFont *_accessoryButtonFont;
-    NSColor *_backgroundColor;
-    NSImage *_backgroundImage;
-    NSColor *_footerButtonBackgroundColor;
-    NSColor *_footerButtonColor;
-    NSFont *_footerButtonFont;
-    NSImageSymbolConfiguration *_imageSymbolConfiguration;
-    long long _iconAnimationPlayCount;
-    NSColor *_imageTintColor;
-    NSFont *_messageFont;
-    NSColor *_messageTextColor;
-    long long _primaryImageRenderingMode;
-    NSFont *_titleFont;
-    NSColor *_titleTextColor;
 }
 
-- (void);
-- (void);
+- (void)LinguisticData;
+- (void)he new update request for an asset as update is already in progress;
 - (void);
 - (void);
 - (void);
@@ -53,35 +38,20 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)sing using preferred localizations:(id)arg1 %@;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)interfaceWithProtocol:(id)arg1;
 - (id)ð!ÌEùÑ°1Â0@ù
 × ;
 - (void)<NSPasteboardWriting>"32@0:8@"NSCollectionView"16Q24 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) NSColor *accessoryButtonBackgroundColor; // @synthesize accessoryButtonBackgroundColor=_accessoryButtonBackgroundColor;
-@property(retain) NSColor *accessoryButtonColor; // @synthesize accessoryButtonColor=_accessoryButtonColor;
-@property(retain) NSFont *accessoryButtonFont; // @synthesize accessoryButtonFont=_accessoryButtonFont;
-@property(retain) NSColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(retain) NSImage *backgroundImage; // @synthesize backgroundImage=_backgroundImage;
-@property(retain) NSColor *footerButtonBackgroundColor; // @synthesize footerButtonBackgroundColor=_footerButtonBackgroundColor;
-@property(retain) NSColor *footerButtonColor; // @synthesize footerButtonColor=_footerButtonColor;
-@property(retain) NSFont *footerButtonFont; // @synthesize footerButtonFont=_footerButtonFont;
-@property long long iconAnimationPlayCount; // @synthesize iconAnimationPlayCount=_iconAnimationPlayCount;
-@property(retain) NSImageSymbolConfiguration *imageSymbolConfiguration; // @synthesize imageSymbolConfiguration=_imageSymbolConfiguration;
-@property(retain) NSColor *imageTintColor; // @synthesize imageTintColor=_imageTintColor;
-@property(retain) NSFont *messageFont; // @synthesize messageFont=_messageFont;
-@property(retain) NSColor *messageTextColor; // @synthesize messageTextColor=_messageTextColor;
-@property long long primaryImageRenderingMode; // @synthesize primaryImageRenderingMode=_primaryImageRenderingMode;
-@property(retain) NSFont *titleFont; // @synthesize titleFont=_titleFont;
-@property(retain) NSColor *titleTextColor; // @synthesize titleTextColor=_titleTextColor;
 
 @end
 

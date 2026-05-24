@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _SFPBSearchInAppCommand
 {
     int _searchInAppType;
-    NSString *_searchString;
-    NSString *_applicationBundleIdentifier;
 }
 
 - (void);
@@ -20,9 +18,9 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)sendResourceRepairRequestWithErrorCodes:(id)arg1 reply: /* Error: Ran out of types for this method. */;
+- (id)_maxRankedCollectionSearchResults;
+- (id)k failed with missing photolibrary. Error:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -31,17 +29,7 @@
 - (id)isFederatedDomainSearch;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *applicationBundleIdentifier; // @synthesize applicationBundleIdentifier=_applicationBundleIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int searchInAppType; // @synthesize searchInAppType=_searchInAppType;
 @property(copy, nonatomic) NSString *searchString; // @synthesize searchString=_searchString;
-@property(readonly) Class superclass;
 
 @end
 

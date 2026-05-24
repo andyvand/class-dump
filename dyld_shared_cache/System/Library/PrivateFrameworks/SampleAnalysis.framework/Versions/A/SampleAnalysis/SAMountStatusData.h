@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface SAMountStatusData
 {
     struct statfs *_mount;
-    struct netfs_status *_status;
 }
 
 - (id);
@@ -18,7 +17,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) struct statfs *mount; // @synthesize mount=_mount;
-@property(readonly) struct netfs_status *status; // @synthesize status=_status;
 
 @end
 

@@ -6,15 +6,11 @@
 
 #import <Silex/SXFillView.h>
 
-@class NSString, SXClippingView, SXImageResource, SXImageView, SXVideoFill, SXVideoFillPlayerView;
+@class SXClippingView, SXVideoFill;
 
 @interface SXVideoFillView : SXFillView
 {
     SXVideoFill *_videoFill;
-    SXClippingView *_clippingView;
-    SXVideoFillPlayerView *_playerView;
-    SXImageResource *_imageResource;
-    SXImageView *_imageView;
 }
 
 - (id);
@@ -34,23 +30,12 @@
 - (void);
 - (id);
 - (void);
-- (void)OfObjectIdenticalTo: /* Error: Ran out of types for this method. */;
+- (void)indexOfObjectIdenticalTo: /* Error: Ran out of types for this method. */;
 - (void)@"SXFollowingCondition",R,N;
-- (struct CGRect)erties;
+- (struct CGRect)SXComponentStyleProperties;
 
 // Remaining properties
 @property(retain, nonatomic) SXClippingView *clippingView; // @synthesize clippingView=_clippingView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SXImageResource *imageResource; // @synthesize imageResource=_imageResource;
-@property(readonly, nonatomic) SXImageView *imageView; // @synthesize imageView=_imageView;
-@property(retain, nonatomic) SXVideoFillPlayerView *playerView; // @synthesize playerView=_playerView;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) SXVideoFill *videoFill; // @synthesize videoFill=_videoFill;
 
 @end
 

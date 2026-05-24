@@ -14,11 +14,11 @@
 
 + (id);
 + (id);
-- (void);
+- (void)5m;
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)(;
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *maneuverIndex;

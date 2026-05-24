@@ -5,5 +5,6 @@
 //
 
 @protocol ICTTMergeableStringUndoCommand
+- (_Bool);
 @end
 

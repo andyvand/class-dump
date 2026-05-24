@@ -4,112 +4,72 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSError, NSObject, NSString, NSURL, SAConnectionPolicy, SAConnectionPolicyRoute, SiriCoreConnectionMetrics, SiriCoreConnectionType;
-@protocol OS_dispatch_queue, OS_dispatch_source, OS_nw_connection, OS_nw_content_context, OS_nw_endpoint, SiriCoreConnectionProviderDelegate;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface SiriCoreNWConnection
 {
     NSObject<OS_dispatch_queue> *_queue;
-    id <SiriCoreConnectionProviderDelegate> _delegate;
-    NSURL *_url;
-    NSString *_resolvedHost;
-    NSObject<OS_nw_connection> *_connection;
-    NSObject<OS_nw_endpoint> *_endpoint;
-    NSObject<OS_nw_content_context> *_content_context;
-    SAConnectionPolicyRoute *_route;
-    SAConnectionPolicy *_policy;
-    _Bool _prefersWWAN;
-    _Bool _connectByPOPEnabled;
-    _Bool _isMPTCP;
-    _Bool _isCanceled;
-    _Bool _isEstablishing;
-    _Bool _isReady;
-    _Bool _usingTLS;
-    NSString *_connectionId;
-    SiriCoreConnectionType *_connectionType;
-    int _interfaceIndex;
-    CDUnknownBlockType _openCompletion;
-    NSObject<OS_dispatch_source> *_openTimer;
-    NSObject<OS_dispatch_source> *_openSlowTimer;
-    NSObject<OS_dispatch_source> *_staleConnectionTimer;
-    unsigned long long _readWriteCounter;
-    NSObject<OS_dispatch_source> *_connectionUnviableTimer;
-    unsigned long long _betterPathAvailableNotificationMachTime;
-    NSArray *_attemptedEndpoints;
-    _Bool _isViable;
-    SiriCoreConnectionMetrics *_metrics;
-    double _keepaliveIdleTime;
-    double _keepaliveIntervalTime;
-    double _retransmissionBasedConnectionDropTime;
-    unsigned long long _keepaliveUnackedCount;
-    double _staleConnectionInterval;
-    NSError *_mostRecentErrorFromNWConnection;
 }
 
-+ (void);
++ (void)m;
+- (void)HideSearchIndexerResults;
+- (void)GenerateFakeSummaries;
+- (_Bool)ForceAdvertiseGCMCapability;
+- (_Bool)DisableCategorizationOnboardingPrimary;
+- (_Bool)ShowCategorizationState;
+- (void)RemoteContentRequestShortInterval;
+- (void)AddLogoOriginBadges;
+- (void)UndoSendDelayTime;
+- (void)idChangeNotification;
+- (void)erInteraction type:(_Bool)arg1 %ld;
+- (id)Status:%@ hasResults:%@ resultView:%@ resultEngaged:%@ resultEngagedSectionType:%@ abandonedReason:%@> /* Error: Ran out of types for this method. */;
+- (_Bool)cate:%@ /* Error: Ran out of types for this method. */;
+- (void)isplayMessageItemID:(id)arg1 %@;
+- (_Bool)nd Me;
+- (_Bool)Blue;
+- (_Bool)s;
+- (id)Configuration-propertyListLastDownloadTime;
+- (_Bool)rray"8;
+- (id)1.1;
+- (void)EFPropertyKey_label;
+- (void)EFPropertyKey_sortDescriptors;
+- (void)EFPropertyKey_targetClass;
+- (id)on;
+- (id)st+Found;
+- (void)departurePublishedTime;
+- (void)divertedAirport;
+- (void)essages;
+- (id)EMContentCorruptError;
+- (id)EMMessageSnippetHintZoneSubject;
+- (_Bool)EMMessageSnippetHintZoneAuthor;
+- (void)EFPropertyKey_requestCount;
+- (void)Scheduler;
+- (void)?0@"NSMapTable"8;
+- (void)0@"<EMMessageListItem>"8;
+- (void)6@"NSError"24;
+- (void)"NSArray"8@"NSArray"16@"NSError"24;
+- (void)ssageAction"8;
+- (void)eryResultsObserver>"8;
+- (void)ectIDs;
 - (void);
-- (void);
+- (void)a;
+- (id)ase64 data:%{private}@ /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id);
 - (void);
 - (id);
 - (id);
 - (_Bool);
+- (id)(=;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

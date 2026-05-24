@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface HomeKitDaemon.CameraRecordingEventDailySummaryLogEvent
 {
     id numRecordingSessions;
-    id numClipUploads;
-    id totalClipDurationInMilliseconds;
-    id isHouseholdLogEvent;
 }
 
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) NSDictionary *coreAnalyticsEventDictionary;
 @property(nonatomic, readonly) NSString *coreAnalyticsEventName;
-@property(nonatomic, readonly) unsigned long long coreAnalyticsEventOptions;
 
 @end
 

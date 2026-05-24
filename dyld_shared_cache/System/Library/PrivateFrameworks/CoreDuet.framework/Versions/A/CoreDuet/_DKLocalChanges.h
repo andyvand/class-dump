@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate;
+@class NSArray;
 
 @interface _DKLocalChanges
 {
     NSArray *_insertedObjects;
-    NSArray *_tombstones;
-    NSDate *_startDate;
-    NSDate *_endDate;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)le: /* Error: Ran out of types for this method. */;
 - (void)ñ©3°1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
 @property(readonly, nonatomic) NSArray *insertedObjects; // @synthesize insertedObjects=_insertedObjects;
-@property(readonly, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(readonly, nonatomic) NSArray *tombstones; // @synthesize tombstones=_tombstones;
 
 @end
 

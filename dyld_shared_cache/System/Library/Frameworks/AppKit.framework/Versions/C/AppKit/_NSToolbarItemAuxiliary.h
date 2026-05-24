@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _NSSplitViewPartitionAdapter;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface _NSToolbarItemAuxiliary
 {
     NSArray *_allPossibleLabelsToFit;
-    _NSSplitViewPartitionAdapter *_partitionAdapter;
-    id _propertyListRepresentation;
-    long long _visibilityPriority;
-    double _preferredWidthRatio;
 }
 
 - (void);

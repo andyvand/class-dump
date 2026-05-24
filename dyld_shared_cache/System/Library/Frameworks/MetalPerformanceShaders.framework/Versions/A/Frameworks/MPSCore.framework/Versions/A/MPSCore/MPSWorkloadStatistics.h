@@ -7,12 +7,6 @@
 @interface MPSWorkloadStatistics
 {
     double _float32Ops;
-    double _float16Ops;
-    double _integerOps;
-    double _deviceMemoryBytesRead;
-    double _deviceMemoryBytesWrite;
-    double _threadgroupMemoryBytesRead;
-    double _threadgroupMemoryBytesWrite;
 }
 
 + (id);
@@ -21,7 +15,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)O;
 - (void);
 - (void);
 - (double);
@@ -34,13 +28,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) double deviceMemoryBytesRead; // @synthesize deviceMemoryBytesRead=_deviceMemoryBytesRead;
-@property(nonatomic) double deviceMemoryBytesWrite; // @synthesize deviceMemoryBytesWrite=_deviceMemoryBytesWrite;
-@property(nonatomic) double float16Ops; // @synthesize float16Ops=_float16Ops;
 @property(nonatomic) double float32Ops; // @synthesize float32Ops=_float32Ops;
-@property(nonatomic) double integerOps; // @synthesize integerOps=_integerOps;
-@property(nonatomic) double threadgroupMemoryBytesRead; // @synthesize threadgroupMemoryBytesRead=_threadgroupMemoryBytesRead;
-@property(nonatomic) double threadgroupMemoryBytesWrite; // @synthesize threadgroupMemoryBytesWrite=_threadgroupMemoryBytesWrite;
 
 @end
 

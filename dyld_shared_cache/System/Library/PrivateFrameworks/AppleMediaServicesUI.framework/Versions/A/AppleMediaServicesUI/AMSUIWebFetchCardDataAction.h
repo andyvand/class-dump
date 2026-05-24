@@ -12,20 +12,18 @@ __attribute__((visibility("hidden")))
 @interface AMSUIWebFetchCardDataAction : AMSUIWebAction
 {
     NSString *_merchantID;
-    NSString *_storeFrontCountryCode;
 }
 
+- (id)ertion:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)andling asset:(id)arg1 %{public}@, state:%ld /* Error: Ran out of types for this method. */;
+- (void)lly unsubscribed client %{public}@ with assertion %{public}@ for subscriptions:(id)arg1 %{public}@;
+- (id)@:(%{public}@) /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)for limited library client %d without client identifier;
 - (void)od"24@?<v@?q@"NSArray">32;
 
 // Remaining properties
 @property(retain) NSString *merchantID; // @synthesize merchantID=_merchantID;
-@property(retain) NSString *storeFrontCountryCode; // @synthesize storeFrontCountryCode=_storeFrontCountryCode;
 
 @end
 

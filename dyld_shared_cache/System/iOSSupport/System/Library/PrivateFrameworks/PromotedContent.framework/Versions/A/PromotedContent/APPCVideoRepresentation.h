@@ -6,21 +6,9 @@
 
 #import <PromotedContent/APPCContentRepresentation.h>
 
-@class NSURL;
-
 @interface APPCVideoRepresentation : APPCContentRepresentation
 {
     long long fileSize;
-    double skipThreshold;
-    _Bool skipEnabled;
-    _Bool unbranded;
-    double bitrate;
-    unsigned long long signalStrength;
-    long long connectionType;
-    CDStruct_c3b9c2ee videoSize;
-    id $__lazy_storage_$_videoURL;
-    id duration;
-    id originalVideoURL;
 }
 
 - (id);
@@ -28,8 +16,8 @@
 - (_Bool);
 - (double);
 - (_Bool);
-- (void);
-- (double);
+- (void)tem/Library/PrivateFrameworks/Silex.framework/Versions/A/Silex;
+- (double)Wy;
 - (unsigned long long);
 - (long long);
 - (id);
@@ -37,15 +25,7 @@
 - (long long)cÓ;
 
 // Remaining properties
-@property(nonatomic, readonly) double bitrate; // @synthesize bitrate;
-@property(nonatomic, readonly) long long connectionType; // @synthesize connectionType;
 @property(nonatomic, readonly) long long fileSize; // @synthesize fileSize;
-@property(nonatomic, readonly) unsigned long long signalStrength; // @synthesize signalStrength;
-@property(nonatomic, readonly) _Bool skipEnabled; // @synthesize skipEnabled;
-@property(nonatomic, readonly) double skipThreshold; // @synthesize skipThreshold;
-@property(nonatomic, readonly) _Bool unbranded; // @synthesize unbranded;
-@property(nonatomic, readonly) CDStruct_c3b9c2ee videoSize; // @synthesize videoSize;
-@property(nonatomic, copy) NSURL *videoURL;
 
 @end
 

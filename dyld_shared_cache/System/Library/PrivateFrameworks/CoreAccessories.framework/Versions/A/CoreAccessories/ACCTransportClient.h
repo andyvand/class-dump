@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString, NSXPCConnection;
-@protocol ACCTransportClientDelegate, OS_dispatch_queue;
+@class NSXPCConnection;
 
 @interface ACCTransportClient
 {
     NSXPCConnection *_serverConnection;
-    id <ACCTransportClientDelegate> _delegate;
-    NSMutableDictionary *_endpointDataOutHandlers;
-    NSMutableDictionary *_connectionPropertyChangeHandlers;
-    NSMutableDictionary *_endpointPropertyChangeHandlers;
-    NSMutableDictionary *_endpointSecureTunnelDataHandlers;
-    NSObject<OS_dispatch_queue> *_endpointEventHandlerQueue;
 }
 
 + (id);
@@ -26,8 +19,8 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
@@ -40,13 +33,14 @@
 - (id);
 - (id);
 - (void);
+- (void);
+- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (id);
+- (id)I
+$;
+- (id)X;
 - (id);
 - (id);
 - (id);
@@ -65,32 +59,19 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)B;
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)$;
+- (id)@, shareeID:%{public}@} /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
+- (void)NavigationAPIEnabled;
+- (void)ls;
 
 // Remaining properties
-@property(retain) NSMutableDictionary *connectionPropertyChangeHandlers; // @synthesize connectionPropertyChangeHandlers=_connectionPropertyChangeHandlers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <ACCTransportClientDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain) NSMutableDictionary *endpointDataOutHandlers; // @synthesize endpointDataOutHandlers=_endpointDataOutHandlers;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *endpointEventHandlerQueue; // @synthesize endpointEventHandlerQueue=_endpointEventHandlerQueue;
-@property(retain) NSMutableDictionary *endpointPropertyChangeHandlers; // @synthesize endpointPropertyChangeHandlers=_endpointPropertyChangeHandlers;
-@property(retain) NSMutableDictionary *endpointSecureTunnelDataHandlers; // @synthesize endpointSecureTunnelDataHandlers=_endpointSecureTunnelDataHandlers;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSXPCConnection *serverConnection;
-@property(readonly) Class superclass;
 
 @end
 

@@ -11,11 +11,10 @@
 @interface IMKCandidateUnitViewContentView : IMKUIView
 {
     NSColor *_backgroundColor;
-    _Bool _drawsBackgroundColor;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -23,13 +22,12 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)tion:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(nonatomic) _Bool drawsBackgroundColor; // @synthesize drawsBackgroundColor=_drawsBackgroundColor;
 
 @end
 

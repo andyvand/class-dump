@@ -8,11 +8,11 @@
 {
 }
 
-+ (id);
++ (id)_startPlaceInferencesCommonLogic:(id)arg1 handler:(id)arg2;
 + (id);
 + (id);
 + (void);
-+ (id);
++ (id)i@9(;
 
 @end
 

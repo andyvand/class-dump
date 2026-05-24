@@ -6,35 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface IFPlatformRequestSchemaIFPlatformRequestStarted : SISchemaInstrumentationMessage
 {
     int _ifPlatformRequestTarget;
-    struct {
-        unsigned int ifPlatformRequestTarget:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (int);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)s/InstalledContentLibrary.framework/Versions/A/InstalledContentLibrary;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)mapImageForLocation:isShifted:altitude:pitch:width:height:andCompletion: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)rted",&,N,V_startedOrChanged;
 - (id)|ôÐõ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIfPlatformRequestTarget;
 @property(nonatomic) int ifPlatformRequestTarget; // @synthesize ifPlatformRequestTarget=_ifPlatformRequestTarget;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

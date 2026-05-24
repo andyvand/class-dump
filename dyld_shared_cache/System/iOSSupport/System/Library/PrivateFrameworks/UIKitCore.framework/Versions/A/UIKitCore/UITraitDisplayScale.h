@@ -11,7 +11,7 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (id);
++ (id)P;
 + (id);
 + (double)(ÿ/4Ë`~g;
 

@@ -11,7 +11,7 @@
     NSArray *_timeZonesDB;
 }
 
-+ (id);
++ (id);
 - (id);
 - (id);
 - (id);
@@ -20,7 +20,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)ElectionTask] Handling notifications for memories;
 - (void);
 
 // Remaining properties

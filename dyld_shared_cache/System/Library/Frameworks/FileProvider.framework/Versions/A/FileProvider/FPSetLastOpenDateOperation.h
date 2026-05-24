@@ -6,16 +6,15 @@
 
 #import <FileProvider/FPTransformOperation.h>
 
-@class NSArray, NSDate;
+@class NSArray;
 
 @interface FPSetLastOpenDateOperation : FPTransformOperation
 {
     NSArray *_items;
-    NSDate *_date;
 }
 
-- (unsigned long long);
-- (id);
+- (unsigned long long)AM;
+- (id)8h;
 - (id);
 - (id);
 - (void)!>&ð!p@ùÑç)1Â0@ù

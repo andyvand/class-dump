@@ -5,6 +5,7 @@
 //
 
 @protocol SWReachabilityProvider
-- (_Bool)alleryType;
+- (void)A;
+- (_Bool)galleryType;
 @end
 

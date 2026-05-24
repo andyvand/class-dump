@@ -5,5 +5,10 @@
 //
 
 @protocol AVPlayerViewControllerBehaviorContext
+
+@optional
+- (void).y/L.G;
+- (void)G;
+- (void);
 @end
 

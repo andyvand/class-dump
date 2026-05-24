@@ -4,35 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIPanGestureRecognizer, UIView, UIViewFloatAnimatableProperty, _UIFluidSliderFeedbackConductor, _UIFluidSliderInteractionConfiguration, _UIPhysicalButtonInteraction;
-@protocol _UIFluidSliderDirectDriving, _UIFluidSliderDirectDrivingDelegate, _UIFluidSliderDriving, _UIFluidSliderVolumeButtonDriving;
-
 @interface _UIFluidSliderInteraction
 {
     _Bool _feedbackEnabled;
-    _Bool _userInteractionEnabled;
-    _Bool _locked;
-    _Bool __shouldScaleOnIndirectInput;
-    UIView *_view;
-    double _presentationValue;
-    long long _elasticity;
-    id <_UIFluidSliderDirectDrivingDelegate> _directDrivingDelegate;
-    double _lockedValue;
-    _UIFluidSliderInteractionConfiguration *_configuration;
-    CDUnknownBlockType __handler;
-    unsigned long long __axis;
-    NSArray *__drivers;
-    id <_UIFluidSliderDriving> __activeDriver;
-    id <_UIFluidSliderDirectDriving> __panDriver;
-    id <_UIFluidSliderVolumeButtonDriving> __volumeButtonDriver;
-    _UIFluidSliderFeedbackConductor *__feedbackConductor;
-    UIViewFloatAnimatableProperty *__animatedValue;
-    UIViewFloatAnimatableProperty *__trackWidth;
-    UIViewFloatAnimatableProperty *__trackLength;
-    UIViewFloatAnimatableProperty *__trackScale;
-    long long __state;
-    struct CGSize __normalizedTrackSize;
-    CDStruct_a1200de1 __lastDriverUpdate;
 }
 
 - (void);
@@ -48,45 +22,45 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (double);
-- (id);
-- (id);
+- (id)didJoinChat:(id)arg1 style:(CDUnknownBlockType)arg2 displayName:groupID:lastAddressedHandle:handleInfo: /* Error: Ran out of types for this method. */;
+- (void)activeModeConfiguration;
+- (double)_configureFindMyLocateSession;
 - (id);
 - (id);
-- (id);
+- (id)ltActor;
+- (id)lazy_storage_$_windowDuration;
+- (id)valueForKey;
 - (void);
 - (void);
-- (_Bool);
+- (_Bool),;
 - (void);
 - (void);
+- (void)o for %@. Dropping.;
+- (id)ceivedRelayDeleteRequest;
+- (id)eceivedRelayEnrollRequest;
+- (struct CGSize)ts of a Message to MMCS ;
+- (double)) added to chat (%@) is not a known contact.;
+- (double)r guid:%@ to mark as saved, trying again in a bit /* Error: Ran out of types for this method. */;
+- (CDStruct_dd92d3d0)allowing it to try again;
+- (void)leTransfer record with guid %@ with no file name;
+- (double)up attribute for guid %@ path %@;
+- (id)successful;
+- (long long)otice Action through Blastdoor;
+- (id)with error %@;
+- (double)ssModifyRecordCompletion error:%@ /* Error: Ran out of types for this method. */;
+- (id)have a valid lastAddressedHandle %@ so using lastAddressedSIMID to send %@;
+- (void)unt %@;
+- (unsigned long long)pen Security Prefs;
+- (id)MissingGroupID;
+- (void)ScheduledMessageFailureStateNotSet;
+- (id)for IMDChatRecordRef;
+- (void)te;
+- (void);
+- (void)NIMClientCapabilities;
 - (void);
-- (id);
-- (id);
-- (struct CGSize);
-- (double);
-- (double);
-- (CDStruct_a1200de1);
-- (void);
-- (double);
-- (id);
-- (long long);
-- (id);
-- (double);
-- (id);
-- (void);
-- (unsigned long long);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (CDUnknownBlockType);
-- (void);
+- (void)y;
 - (_Bool);
 - (id);
 - (id);
@@ -96,57 +70,20 @@
 - (double)ð!Dùñ\ð1Â0@ù
 × ;
 - (void)rictions";
-- (long long)nder;
+- (long long)_minimumSpacingAboveTopmostLabelSafeAscender;
 - (id)bleContainerView;
 - (double)T@"NSArray",&,N,V_ownedGroups;
 - (_Bool)due to an XPC error (the default shell probably crashed):%{public}@ /* Error: Ran out of types for this method. */;
 - (void)öBîÿ;
-- (void)Empty;
-- (void)Mode;
+- (void)trailingButtonHiddenWhenEmpty;
+- (void)highlightMode;
 - (void)Ð<;
 - (_Bool)à¨\;
 - (void);
 - (double)ùþó;
 
 // Remaining properties
-@property(nonatomic) __weak id <_UIFluidSliderDriving> _activeDriver; // @synthesize _activeDriver=__activeDriver;
-@property(retain, nonatomic) UIViewFloatAnimatableProperty *_animatedValue; // @synthesize _animatedValue=__animatedValue;
-@property(nonatomic) unsigned long long _axis; // @synthesize _axis=__axis;
-@property(nonatomic, setter=_setDirectDrivingDelegate:) __weak id <_UIFluidSliderDirectDrivingDelegate> _directDrivingDelegate; // @synthesize _directDrivingDelegate;
-@property(retain, nonatomic) NSArray *_drivers; // @synthesize _drivers=__drivers;
-@property(nonatomic, setter=_setElasticity:) long long _elasticity; // @synthesize _elasticity;
-@property(retain, nonatomic) _UIFluidSliderFeedbackConductor *_feedbackConductor; // @synthesize _feedbackConductor=__feedbackConductor;
-@property(nonatomic, setter=_setFeedbackEnabled:) _Bool _feedbackEnabled; // @synthesize _feedbackEnabled;
 @property(copy, nonatomic) CDUnknownBlockType _handler; // @synthesize _handler=__handler;
-@property(nonatomic) CDStruct_a1200de1 _lastDriverUpdate; // @synthesize _lastDriverUpdate=__lastDriverUpdate;
-@property(nonatomic) double _lockedValue; // @synthesize _lockedValue;
-@property(nonatomic) struct CGSize _normalizedTrackSize; // @synthesize _normalizedTrackSize=__normalizedTrackSize;
-@property(nonatomic) __weak id <_UIFluidSliderDirectDriving> _panDriver; // @synthesize _panDriver=__panDriver;
-@property(readonly, nonatomic) UIPanGestureRecognizer *_panGestureRecognizer;
-@property(nonatomic, setter=_setShouldScaleOnIndirectInput:) _Bool _shouldScaleOnIndirectInput; // @synthesize _shouldScaleOnIndirectInput=__shouldScaleOnIndirectInput;
-@property(nonatomic) long long _state; // @synthesize _state=__state;
-@property(retain, nonatomic) UIViewFloatAnimatableProperty *_trackLength; // @synthesize _trackLength=__trackLength;
-@property(retain, nonatomic) UIViewFloatAnimatableProperty *_trackScale; // @synthesize _trackScale=__trackScale;
-@property(retain, nonatomic) UIViewFloatAnimatableProperty *_trackWidth; // @synthesize _trackWidth=__trackWidth;
-@property(nonatomic) __weak id <_UIFluidSliderVolumeButtonDriving> _volumeButtonDriver; // @synthesize _volumeButtonDriver=__volumeButtonDriver;
-@property(readonly, nonatomic) _UIPhysicalButtonInteraction *_volumeButtonInteraction;
-@property(copy, nonatomic) _UIFluidSliderInteractionConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, nonatomic) double currentTrackLength;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isLocked) _Bool locked; // @synthesize locked=_locked;
-@property(readonly, nonatomic) double maxValue;
-@property(readonly, nonatomic) double minValue;
-@property(readonly, nonatomic) double presentationValue; // @synthesize presentationValue=_presentationValue;
-@property(readonly, nonatomic) unsigned long long stepCount;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=isUserInteractionEnabled) _Bool userInteractionEnabled; // @synthesize userInteractionEnabled=_userInteractionEnabled;
-@property(nonatomic) double value;
-@property(readonly, nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end
 

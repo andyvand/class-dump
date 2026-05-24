@@ -7,12 +7,10 @@
 #import <MPSNeuralNetwork/MPSNNGradientState.h>
 
 @class MPSCNNInstanceNormalization;
-@protocol MTLBuffer;
 
 @interface MPSCNNInstanceNormalizationGradientState : MPSNNGradientState
 {
     MPSCNNInstanceNormalization *_instanceNormalization;
-    unsigned long long _numberOfFeatureChannels;
 }
 
 + (id);
@@ -26,10 +24,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) id <MTLBuffer> beta;
-@property(readonly, nonatomic) id <MTLBuffer> gamma;
-@property(readonly, nonatomic) id <MTLBuffer> gradientForBeta;
-@property(readonly, nonatomic) id <MTLBuffer> gradientForGamma;
 @property(readonly, retain, nonatomic) MPSCNNInstanceNormalization *instanceNormalization; // @synthesize instanceNormalization=_instanceNormalization;
 
 @end

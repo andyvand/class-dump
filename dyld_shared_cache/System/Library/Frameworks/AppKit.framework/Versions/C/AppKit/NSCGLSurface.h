@@ -4,27 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSMapTable, NSString;
-
 __attribute__((visibility("hidden")))
 @interface NSCGLSurface
 {
     unsigned int _connectionID;
-    unsigned int _windowID;
-    unsigned int _surfaceID;
-    struct _CAImageQueue *_imageQueue;
-    struct os_unfair_lock_s _lock;
-    id _surface;
-    NSMapTable *_surfacesToImageQueueBufferIDs;
-    NSHashTable *_activeImageQueueBufferIDs;
 }
 
-+ (id);
++ (id)se}}24@0:(unsigned long long)arg1 8^{_CFURLRequest=}16;
+- (_Bool)NSURLSessionDelegate;
+- (void)c reply %@ [%ld];
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
-- (id);
+- (id)sortedArrayUsingDescriptors: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (struct CGColorSpace *);
@@ -32,20 +23,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (void *);
-- (void)arkVisibleBezels;
+- (void)NSAppearanceNameVibrantDarkVisibleBezels;
 - (void)¬>ÿXNìC;
 
 // Remaining properties
-@property(copy) struct CGColorSpace *colorSpace;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, getter=isOpaque) _Bool opaque;
-@property struct CGSize size;
-@property(readonly) Class superclass;
 @property(readonly) unsigned long long surfaceID;
 
 @end

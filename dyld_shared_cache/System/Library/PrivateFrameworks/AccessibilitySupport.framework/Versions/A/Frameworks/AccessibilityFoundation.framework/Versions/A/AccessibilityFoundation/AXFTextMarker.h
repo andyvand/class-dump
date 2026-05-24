@@ -7,18 +7,17 @@
 @interface AXFTextMarker
 {
     unsigned long long _index;
-    struct __AXTextMarker *_marker;
 }
 
 + (id);
 + (_Bool);
 + (_Bool);
 + (unsigned long long);
-+ (id);
++ (id)fileSystemRepresentation;
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (void);
@@ -38,7 +37,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long index; // @synthesize index=_index;
-@property(retain, nonatomic) struct __AXTextMarker *marker; // @synthesize marker=_marker;
 
 @end
 

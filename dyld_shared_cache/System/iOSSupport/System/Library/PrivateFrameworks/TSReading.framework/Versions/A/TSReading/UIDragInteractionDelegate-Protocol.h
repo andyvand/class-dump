@@ -10,11 +10,13 @@
 @protocol UIDragInteractionDelegate
 
 @optional
+- (id <UIDragSession>);
+- (void)h;
+- (void);
 - (_Bool)±Ð1Â0@ù
 × ;
 - (void)dd}16{CGSize=dd}32{CGSize=dd}48{CGSize=dd}64d80Q88@96;
-- (void)ertiesFromStyle:(UIDragInteraction *)arg1 secondaryStyle:(id <UIDragSession>)arg2 toNS:stickyFont:scale: /* Error: Ran out of types for this method. */;
-- (UITargetedDragPreview *)llID:(UIDragInteraction *)arg1 outTopStroke:(UIDragItem *)arg2 outLeftStroke:(id <UIDragSession>)arg3 outBottomStroke:outRightStroke: /* Error: Ran out of types for this method. */;
-- (_Bool);
+- (void)mapCharacterPropertiesFromStyle:(UIDragInteraction *)arg1 secondaryStyle:(id <UIDragSession>)arg2 toNS:stickyFont:scale: /* Error: Ran out of types for this method. */;
+- (UITargetedDragPreview *)defaultStrokesForCellID:(UIDragInteraction *)arg1 outTopStroke:(UIDragItem *)arg2 outLeftStroke:(id <UIDragSession>)arg3 outBottomStroke:outRightStroke: /* Error: Ran out of types for this method. */;
 @end
 

@@ -9,7 +9,6 @@
 @interface SCRCGestureStylus : SCRCGestureFinger
 {
     double _altitude;
-    double _azimuth;
 }
 
 - (id);

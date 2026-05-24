@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSMutableArray, NSMutableDictionary, NSString;
+@class NSError;
 @protocol WBSExtensionsImporterDelegate;
 
 @interface WBSChromeExtensionsImporter
 {
     NSError *_lastError;
-    NSMutableArray *_stack;
-    _Bool _foundExtensionsArray;
-    NSMutableDictionary *_browserExtensionMapping;
-    NSString *_chromeExtensionIdentifier;
-    id <WBSExtensionsImporterDelegate> _delegate;
 }
 
 - (void);
@@ -23,17 +18,17 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)L;
+- (_Bool)@9;
+- (_Bool);
+- (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
+- (id)menuBarHeight;
+- (void)\ @!;
 - (void);
 
 // Remaining properties

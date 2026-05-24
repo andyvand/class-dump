@@ -5,6 +5,7 @@
 //
 
 @protocol PGGraphDataModelEnrichmentProcessor
+- (void)hasOpenMenus;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool requiresValidGraph;

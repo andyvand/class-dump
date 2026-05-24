@@ -4,37 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BTAirPodsControlServiceClient, NSObject;
-@protocol OS_dispatch_source;
+@class BTAirPodsControlServiceClient;
 
 __attribute__((visibility("hidden")))
 @interface BTAirPodsControlRequest
 {
     _Bool _enabled;
-    BTAirPodsControlServiceClient *_client;
-    CDUnknownBlockType _getHandler;
-    CDUnknownBlockType _setHandler;
-    NSObject<OS_dispatch_source> *_timeoutTimer;
 }
 
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (CDUnknownBlockType);
+- (void)vocabularyIdentifier;
+- (CDUnknownBlockType)valueForComponent: /* Error: Ran out of types for this method. */;
+- (void)vCardRepresentationWithFullData:(CDUnknownBlockType)arg1;
+- (CDUnknownBlockType)underlyingObject;
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
-- (void);
+- (void)S;
 
 // Remaining properties
 @property(retain, nonatomic) BTAirPodsControlServiceClient *client; // @synthesize client=_client;
-@property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(copy, nonatomic) CDUnknownBlockType getHandler; // @synthesize getHandler=_getHandler;
-@property(copy, nonatomic) CDUnknownBlockType setHandler; // @synthesize setHandler=_setHandler;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *timeoutTimer; // @synthesize timeoutTimer=_timeoutTimer;
 
 @end
 

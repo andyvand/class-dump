@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCListener, _DPStorage;
+@class NSXPCListener;
 
 @interface _DPServer
 {
     NSXPCListener *_listener;
-    _DPStorage *_db;
 }
 
 - (id);
-- (void);
-- (void);
+- (void):(id)arg1 BundlePage, WTF:(id)arg2:(SEL)arg3 Ref<Safari::BundlePageController>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<Safari::WK::BundlePage, WTF::Ref<Safari::BundlePageController>>>, HashFunctions = WTF::DefaultHash<Safari::WK::BundlePage>, Traits = WTF::HashMap<Safari::WK::BundlePage, WTF::Ref<Safari::BundlePageController>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<Safari::WK::BundlePage>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (void);
 - (void);
@@ -28,29 +27,21 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (_Bool)TB,V_isCollaborationSpecific;
+- (id);
+- (id)setAutomaticallyInstallOSUpdates: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void){CGSize=dd}}16@48Q56@?64;
 
 // Remaining properties
-@property(readonly, nonatomic) _DPStorage *db; // @synthesize db=_db;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSXPCListener *listener; // @synthesize listener=_listener;
-@property(readonly) Class superclass;
 
 @end
 

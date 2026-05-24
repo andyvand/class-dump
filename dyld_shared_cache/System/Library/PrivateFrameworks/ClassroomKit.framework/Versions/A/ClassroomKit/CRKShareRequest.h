@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DMFControlGroupIdentifier, NSArray, NSData, NSDictionary, NSString;
+@class DMFControlGroupIdentifier;
 
 @interface CRKShareRequest
 {
     DMFControlGroupIdentifier *_courseIdentifier;
-    NSString *_targetType;
-    NSString *_targetIdentifier;
-    NSArray *_urls;
-    NSString *_shareDescription;
-    NSData *_previewImageData;
-    NSDictionary *_sandboxExtensions;
-    NSString *_sourceBundleIdentifier;
 }
 
 + (_Bool);
@@ -24,11 +17,11 @@
 - (void);
 - (id);
 - (void);
+- (id)=(M;
 - (id);
+- (void)FTLParseBufferToCxt:(id)arg1 raidBlkParityBands(964) cannot add 1 element to context;
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)emoving CFURLCache entries;
 - (id);
 - (void);
 - (void);
@@ -42,13 +35,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) DMFControlGroupIdentifier *courseIdentifier; // @synthesize courseIdentifier=_courseIdentifier;
-@property(retain, nonatomic) NSData *previewImageData; // @synthesize previewImageData=_previewImageData;
-@property(retain, nonatomic) NSDictionary *sandboxExtensions; // @synthesize sandboxExtensions=_sandboxExtensions;
-@property(copy, nonatomic) NSString *shareDescription; // @synthesize shareDescription=_shareDescription;
-@property(copy, nonatomic) NSString *sourceBundleIdentifier; // @synthesize sourceBundleIdentifier=_sourceBundleIdentifier;
-@property(copy, nonatomic) NSString *targetIdentifier; // @synthesize targetIdentifier=_targetIdentifier;
-@property(copy, nonatomic) NSString *targetType; // @synthesize targetType=_targetType;
-@property(copy, nonatomic) NSArray *urls; // @synthesize urls=_urls;
 
 @end
 

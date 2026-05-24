@@ -10,14 +10,14 @@
 
 + (id);
 + (id);
-+ (long long);
++ (long long)SLVirtualDisplayPreferredMode;
 + (id);
 + (id);
 + (_Bool);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
++ (id)isFinished;
 
 @end
 

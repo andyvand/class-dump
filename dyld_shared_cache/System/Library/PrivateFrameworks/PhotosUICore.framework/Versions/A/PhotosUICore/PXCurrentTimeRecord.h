@@ -7,23 +7,17 @@
 @interface PXCurrentTimeRecord
 {
     double _sampleTimestamp;
-    _Bool _isValid;
-    float _rate;
-    CDStruct_1b6d18a9 _sampleTime;
 }
 
 - (id);
 - (id);
 - (id);
 - (CDStruct_1b6d18a9);
-- (_Bool);
-- (CDStruct_1b6d18a9)esult: /* Error: Ran out of types for this method. */;
+- (_Bool)`;
+- (CDStruct_1b6d18a9)_handleInitialAutoEditDecisionListResult: /* Error: Ran out of types for this method. */;
 - (float)ä³ÿ8RP<;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_1b6d18a9 currentTime;
-@property(readonly, nonatomic) _Bool isValid; // @synthesize isValid=_isValid;
-@property(readonly, nonatomic) float rate; // @synthesize rate=_rate;
 @property(readonly, nonatomic) CDStruct_1b6d18a9 sampleTime; // @synthesize sampleTime=_sampleTime;
 
 @end

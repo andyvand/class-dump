@@ -4,33 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID;
 @protocol HMBLocalZoneID;
 
 __attribute__((visibility("hidden")))
 @interface HMBLocalSQLContextRowZone
 {
     id <HMBLocalZoneID> _identifier;
-    unsigned long long _zoneRow;
-    NSUUID *_replication;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)soBinFilePath:(unsigned long long)arg1 vocabFilePath:(id)arg2 useContactNames:(id)arg3 includeCustomResponses:includeResponsesToRobots: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)P;
 - (void);
 - (unsigned long long);
 
 // Remaining properties
-@property(retain, nonatomic) id <HMBLocalZoneID> identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSUUID *replication; // @synthesize replication=_replication;
 @property(nonatomic) unsigned long long zoneRow; // @synthesize zoneRow=_zoneRow;
 
 @end

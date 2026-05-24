@@ -4,41 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSHashTable;
-@protocol UIFocusEnvironment;
+@class NSHashTable;
 
 __attribute__((visibility("hidden")))
 @interface _UIFocusEnvironmentPreferenceCacheNode
 {
     NSHashTable *_parentNodes;
-    struct {
-        unsigned int resolved:1;
-        unsigned int resolvedExplicitly:1;
-    } _flags;
-    id <UIFocusEnvironment> _environment;
-    id <UIFocusEnvironment> _resolvedEnvironment;
-    NSArray *_childNodes;
 }
 
-- (id);
+- (id)16;
+- (void)"@;
 - (void);
-- (void);
-- (void);
+- (void)ate}s;
 - (void);
 - (id);
 - (id);
 - (_Bool)aits"24;
-- (void)ActivelyAvoidingKeyboard;
-- (id)playConfigurationUpdatedNotification;
+- (void)_isActivelyAvoidingKeyboard;
+- (id)_UIScreenDisplayConfigurationUpdatedNotification;
 - (id)g; %g, %g);
 - (void)4Ç[;
 - (id)!¤c;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *childNodes; // @synthesize childNodes=_childNodes;
-@property(readonly, nonatomic) id <UIFocusEnvironment> environment; // @synthesize environment=_environment;
 @property(readonly, nonatomic, getter=isResolved) _Bool resolved;
-@property(readonly, nonatomic) id <UIFocusEnvironment> resolvedEnvironment; // @synthesize resolvedEnvironment=_resolvedEnvironment;
 
 @end
 

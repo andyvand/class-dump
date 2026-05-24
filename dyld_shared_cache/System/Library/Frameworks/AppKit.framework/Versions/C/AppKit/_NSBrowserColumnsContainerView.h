@@ -24,15 +24,15 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (struct CGSize);
+- (struct CGSize)q}{?=qiIq}}32@"NSArray"80{?={?=qiIq}{?=qiIq}}88@"AVMediaSelection"136;
+- (_Bool)bodyStream;
+- (id)comment;
+- (void)ct<OS_nw_activity>",&,V_nw_activity;
+- (void);
+- (void)er.cc;
+- (id)pathComponents;
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
+- (void)%{public}@, CFError = %@;
 
 @end
 

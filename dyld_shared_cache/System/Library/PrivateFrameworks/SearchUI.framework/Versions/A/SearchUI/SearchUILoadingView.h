@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSProgressIndicator, TLKLabel;
+@class NSProgressIndicator;
 
 @interface SearchUILoadingView
 {
     unsigned long long _loadingState;
-    NSProgressIndicator *_loadingSpinner;
-    TLKLabel *_loadingLabel;
 }
 
 - (void);
@@ -23,9 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) TLKLabel *loadingLabel; // @synthesize loadingLabel=_loadingLabel;
 @property(retain) NSProgressIndicator *loadingSpinner; // @synthesize loadingSpinner=_loadingSpinner;
-@property(nonatomic) unsigned long long loadingState; // @synthesize loadingState=_loadingState;
 
 @end
 

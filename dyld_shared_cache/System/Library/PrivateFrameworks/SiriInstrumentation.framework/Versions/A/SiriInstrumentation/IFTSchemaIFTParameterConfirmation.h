@@ -6,17 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTTypedValue, NSData, NSString;
-
 @interface IFTSchemaIFTParameterConfirmation : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    NSString *_parameterId;
-    long long _parameterIndex;
-    IFTSchemaIFTTypedValue *_item;
-    CDStruct_0c7be3b3 _has;
-    _Bool _hasParameterId;
-    _Bool _hasItem;
 }
 
 - (void);
@@ -26,26 +18,26 @@
 - (long long);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)@;
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)Qàð1Â0@ù
 × ;
-- (id)n:(id)arg1;
+- (id)setStartReason:(id)arg1;
 - (id);
 - (_Bool)æ|!;
 - (void)q;
@@ -54,14 +46,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(nonatomic) _Bool hasItem; // @synthesize hasItem=_hasItem;
-@property(nonatomic) _Bool hasParameterId; // @synthesize hasParameterId=_hasParameterId;
-@property(nonatomic) _Bool hasParameterIndex;
-@property(retain, nonatomic) IFTSchemaIFTTypedValue *item; // @synthesize item=_item;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *parameterId; // @synthesize parameterId=_parameterId;
-@property(nonatomic) long long parameterIndex; // @synthesize parameterIndex=_parameterIndex;
 
 @end
 

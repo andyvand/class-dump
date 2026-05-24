@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSUUID, SPUnauthorizedTrackingAdvertisement;
-
 @interface SPUnauthorizedTrackingObservation
 {
     long long _action;
-    NSUUID *_identifier;
-    long long _type;
-    SPUnauthorizedTrackingAdvertisement *_trackingIdentifier;
-    NSArray *_observedLocations;
-    NSDate *_observedAt;
 }
 
 + (_Bool);
@@ -29,7 +22,7 @@
 - (id);
 - (unsigned long long);
 - (long long);
-- (_Bool);
+- (_Bool)u;
 - (void);
 - (void);
 - (void);
@@ -40,11 +33,6 @@
 
 // Remaining properties
 @property(nonatomic) long long action; // @synthesize action=_action;
-@property(copy, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSDate *observedAt; // @synthesize observedAt=_observedAt;
-@property(copy, nonatomic) NSArray *observedLocations; // @synthesize observedLocations=_observedLocations;
-@property(retain, nonatomic) SPUnauthorizedTrackingAdvertisement *trackingIdentifier; // @synthesize trackingIdentifier=_trackingIdentifier;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

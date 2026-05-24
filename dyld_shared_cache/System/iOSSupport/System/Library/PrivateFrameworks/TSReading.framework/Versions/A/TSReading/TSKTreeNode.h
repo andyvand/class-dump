@@ -6,20 +6,18 @@
 
 #import <TSReading/TSPObject.h>
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface TSKTreeNode : TSPObject
 {
     NSString *mDisplayName;
-    id mObject;
-    NSMutableArray *mChildren;
 }
 
 - (void);
-- (void);
+- (void)rollerItem:(id)arg1;
 - (long long);
 - (_Bool);
-- (void);
+- (void)e]`C;
 - (void);
 - (void);
 - (void);
@@ -41,9 +39,7 @@
 - (id)erAttribute"16Q24;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *children;
 @property(retain, nonatomic) id dataObject;
-@property(retain, nonatomic) NSString *name;
 
 @end
 

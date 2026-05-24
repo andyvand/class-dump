@@ -6,28 +6,14 @@
 
 #import <IMSharedUtilities/IMItem.h>
 
-@class NSString;
-
 @interface IMLocationShareStatusChangeItem : IMItem
 {
     _Bool _actionable;
-    _Bool _expired;
-    long long _status;
-    NSString *_otherCountryCode;
-    NSString *_otherHandle;
-    NSString *_otherUnformattedID;
-    long long _direction;
 }
 
 + (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool actionable; // @synthesize actionable=_actionable;
-@property(nonatomic) long long direction; // @synthesize direction=_direction;
-@property(nonatomic) _Bool expired; // @synthesize expired=_expired;
-@property(retain, nonatomic) NSString *otherCountryCode; // @synthesize otherCountryCode=_otherCountryCode;
-@property(retain, nonatomic) NSString *otherHandle; // @synthesize otherHandle=_otherHandle;
-@property(retain, nonatomic) NSString *otherUnformattedID; // @synthesize otherUnformattedID=_otherUnformattedID;
 @property(nonatomic) long long status; // @synthesize status=_status;
 
 @end

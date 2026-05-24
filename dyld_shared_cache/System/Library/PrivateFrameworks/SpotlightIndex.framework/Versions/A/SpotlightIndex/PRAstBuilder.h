@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSMutableSet, NSString, PRAstLanguageProfile;
+@class PRAstLanguageProfile;
 
 __attribute__((visibility("hidden")))
 @interface PRAstBuilder
 {
     PRAstLanguageProfile *_languageProfile;
-    NSArray *_tokens;
-    NSArray *_tokenRanges;
-    NSMutableArray *_qpParsesDesc;
-    NSMutableArray *_qpParsesRange;
-    NSMutableArray *_u2TokensLabel;
-    NSMutableArray *_u2TokensRange;
-    NSMutableSet *_specialIndices;
-    NSDictionary *_tokenToFilterMap;
-    NSDictionary *_tokenToU2LabelsMap;
-    NSString *_originalQuery;
-    NSString *_logHeader;
-    struct PRContext *_context;
 }
 
 - (id);
@@ -61,7 +49,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)i[`eZ_di^ch]bg\af_beh[^adgZ]`cfi\Zah_f]d[bi`g^e\c;
 - (id);
 - (_Bool);
 - (id);
@@ -72,25 +60,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)0;
 - (struct PRContext *);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct PRContext *context; // @synthesize context=_context;
 @property(retain, nonatomic) PRAstLanguageProfile *languageProfile; // @synthesize languageProfile=_languageProfile;
-@property(retain, nonatomic) NSString *logHeader; // @synthesize logHeader=_logHeader;
-@property(retain, nonatomic) NSString *originalQuery; // @synthesize originalQuery=_originalQuery;
-@property(retain, nonatomic) NSMutableArray *qpParsesDesc; // @synthesize qpParsesDesc=_qpParsesDesc;
-@property(retain, nonatomic) NSMutableArray *qpParsesRange; // @synthesize qpParsesRange=_qpParsesRange;
-@property(retain, nonatomic) NSMutableSet *specialIndices; // @synthesize specialIndices=_specialIndices;
-@property(retain, nonatomic) NSArray *tokenRanges; // @synthesize tokenRanges=_tokenRanges;
-@property(retain, nonatomic) NSDictionary *tokenToFilterMap; // @synthesize tokenToFilterMap=_tokenToFilterMap;
-@property(retain, nonatomic) NSDictionary *tokenToU2LabelsMap; // @synthesize tokenToU2LabelsMap=_tokenToU2LabelsMap;
-@property(retain, nonatomic) NSArray *tokens; // @synthesize tokens=_tokens;
-@property(retain, nonatomic) NSMutableArray *u2TokensLabel; // @synthesize u2TokensLabel=_u2TokensLabel;
-@property(retain, nonatomic) NSMutableArray *u2TokensRange; // @synthesize u2TokensRange=_u2TokensRange;
 
 @end
 

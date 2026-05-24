@@ -11,7 +11,7 @@
 
 - (id);
 - (id);
-- (void);
+- (void)_handleUpdatedLikedState:forUserIdentity:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)èðÿØðÿ;
 - (void)0(¸

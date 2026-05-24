@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (NSTextSmartReplyReceiver)
-- (id);
+- (id)kground AVAssetDownloadTask, as remote session is unavailable;
 @end
 

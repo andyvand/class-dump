@@ -6,61 +6,56 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPImage, NSDate, NSString;
+@class NSString;
 
 @interface LPFileMetadata : LPSpecializationMetadata
 {
     NSString *_name;
-    NSString *_type;
-    unsigned long long _size;
-    LPImage *_thumbnail;
-    LPImage *_smallThumbnail;
-    LPImage *_icon;
-    NSDate *_creationDate;
 }
 
 + (id);
-+ (id);
++ (id)showPhotosExtension;
 + (_Bool);
-- (long long);
+- (long long)targetWithScreenCoordinate:(id)arg1 initialSize:scale:meshScaleFactor:rotation:associatedLayoutIntent: /* Error: Ran out of types for this method. */;
+- (id)tapbackSummaryForConversationListUsingIsAdaptiveImageGlyphProvider:isCommSafetySensitiveProvider:adaptiveImageGlyphProvider:effectString: /* Error: Ran out of types for this method. */;
+- (id)tapbackPickerBalloonParentViewTapbackTintableMessageBalloon:(id)arg1;
+- (id)tapbackPickerBalloonParentViewTapbackPileView:(id)arg1;
+- (id)tapbackPickerBalloonParentViewTapbackBackingBalloon:(id)arg1;
+- (_Bool)tapbackPickerBalloonParentViewReturningToSuggestionPicker:(id)arg1;
 - (id);
+- (void)tailInsetsForPillSize:(id)arg1;
+- (id)suspendForTimeInterval:(id)arg1;
+- (id)suppressesMutationsFromLocalDevice;
+- (id)suppressRefetchingCurrentHighQualityImage;
+- (void)suppressEntryViewKeyboardNotifications;
+- (id)stopCachingImagesForAssets:(id)arg1 targetSize:contentMode:options: /* Error: Ran out of types for this method. */;
+- (_Bool)statusBar;
+- (id)startCollaborationWithFileURL:(id)arg1 metadata:participants:timeout:completion: /* Error: Ran out of types for this method. */;
+- (id)stagingContext;
+- (id)spotlightSearchCellLabelColor;
+- (id)spotlightAttachmentSecondaryColor;
+- (_Bool)splitViewCoordinator;
+- (_Bool)splitViewControllerLayoutEnvironment;
+- (_Bool)splitViewControllerInteractivePresentationGestureWillBegin: /* Error: Ran out of types for this method. */;
+- (id)smsComposeControllerEntryViewContentInserted;
+- (_Bool)showsTUConversationStatus;
+- (_Bool)showsSendAnimation;
+- (id)showTouchBarTapbackPickerForChatItem: /* Error: Ran out of types for this method. */;
+- (id)showReportToAppleUIFromViewController:(id)arg1;
 - (id);
-- (id);
-- (id);
+- (void)showPendingInConversationList;
+- (_Bool)showLargeTypeForUnknownContact:isEmail:sourceRect:window: /* Error: Ran out of types for this method. */;
+- (id)showKTContactVerificationUI;
+- (id)showFaceTimeVideoButton;
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
 - (void);
+- (id)windowByMorphingWindow:(id)arg1 operation:arguments: /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (unsigned long long)|&
+;
 - (unsigned long long);
-- (unsigned long long);
 - (void);
 - (id);
 - (_Bool);
@@ -69,26 +64,13 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)r featureTag %@, unable to update;
 - (id);
 - (void)qÐ1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) LPImage *icon; // @synthesize icon=_icon;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) unsigned long long size; // @synthesize size=_size;
-@property(retain, nonatomic) LPImage *smallThumbnail; // @synthesize smallThumbnail=_smallThumbnail;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) LPImage *thumbnail; // @synthesize thumbnail=_thumbnail;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

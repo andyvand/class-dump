@@ -6,76 +6,57 @@
 
 #import <TSReading/TSKSelection.h>
 
-@class NSString, TSTCellRegion;
+@class TSTCellRegion;
 
 @interface TSTTableSelection : TSKSelection
 {
     int mSelectionType;
-    CDStruct_0441cfb5 mAnchorCellID;
-    TSTCellRegion *mCellRegion;
-    TSTCellRegion *mBaseRegion;
-    CDStruct_0441cfb5 mCursorCellID;
-    struct _NSRange mSearchReferenceRange;
 }
 
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (struct _NSRange);
-- (void);
+- (void)_type ON events (type, _ns);
+- (id)ByUID;
+- (id)ter HomePod);
+- (id)ed no topology change;
+- (id)session could not be created.;
+- (id)ere not valid;
+- (struct _NSRange)d);
+- (void)options due to missing persistentID for action key:(int)arg1;
 - (_Bool);
 - (_Bool);
 - (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
+- (id)8;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void);
-- (void);
-- (CDStruct_0441cfb5);
-- (_Bool);
+- (void);
+- (CDStruct_bd4d8e6b);
+- (_Bool)B;
 - (_Bool);
 - (id);
 - (id);
-- (CDStruct_0441cfb5);
+- (CDStruct_bd4d8e6b);
 - (_Bool);
 - (_Bool);
 - (int);
 - (void);
-- (id);
-- (struct _NSRange);
-- (_Bool);
+- (id);
+- (struct _NSRange)@;
+- (_Bool)branchAppDisplayName;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_0441cfb5 anchorCellID; // @synthesize anchorCellID=mAnchorCellID;
-@property(readonly, nonatomic) TSTCellRegion *baseRegion; // @synthesize baseRegion=mBaseRegion;
 @property(readonly, nonatomic) TSTCellRegion *cellRegion; // @synthesize cellRegion=mCellRegion;
-@property(readonly, nonatomic) CDStruct_0441cfb5 cursorCellID; // @synthesize cursorCellID=mCursorCellID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isAtEndOfLine;
-@property(readonly, nonatomic) struct _NSRange range;
-@property(nonatomic) struct _NSRange searchReferenceRange; // @synthesize searchReferenceRange=mSearchReferenceRange;
-@property(readonly, nonatomic) int selectionType; // @synthesize selectionType=mSelectionType;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL, UTType;
+@class NSURL;
 
 @interface WFContextualActionFile
 {
     NSURL *_fileURL;
-    UTType *_type;
 }
 
 + (_Bool);
-- (id);
+- (id)0;
 - (id);
 - (id);
 - (void);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(readonly, nonatomic) UTType *type; // @synthesize type=_type;
 
 @end
 

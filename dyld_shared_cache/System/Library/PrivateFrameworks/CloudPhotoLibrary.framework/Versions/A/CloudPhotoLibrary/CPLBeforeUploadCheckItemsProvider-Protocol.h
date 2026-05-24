@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CPLRecordChange, NSURL;
+
 @protocol CPLBeforeUploadCheckItemsProvider
+- (NSURL *)commute30MinWarningEntityRelevanceSpecificGeoHashAndCoarseTimeOfDayFeatures;
+- (_Bool)commute30MinWarningEntityRelevanceRanking;
+- (CPLRecordChange *);
 @end
 

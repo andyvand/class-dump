@@ -71,7 +71,7 @@ struct MPSLibraryInfo {
 };
 
 struct MPSNDArrayConv3dOffsets_s {
-    long long offsets[3];
+    long long _field1[3];
 };
 
 struct MPSNDArrayConv3dSizes_s {
@@ -79,15 +79,15 @@ struct MPSNDArrayConv3dSizes_s {
 };
 
 struct MPSNDArrayConvolutionOffsets {
-    long long offset[2];
+    long long _field1[2];
 };
 
 struct MPSNDArrayConvolutionSizes {
-    unsigned long long size[2];
+    unsigned long long _field1[2];
 };
 
 struct MPSNDArrayCostVolumeWindowSizes {
-    unsigned long long size[2];
+    unsigned long long _field1[2];
 };
 
 struct MPSNDArrayDataTensorDescriptor {
@@ -100,23 +100,23 @@ struct MPSNDArrayDataTensorDescriptor {
 };
 
 struct MPSNDArrayPaddingSize {
-    unsigned long long paddingSize[16][2];
+    unsigned long long _field1[16][2];
 };
 
 struct MPSNDArrayPoolingOffsets_s {
-    long long offsets[4];
+    long long _field1[4];
 };
 
 struct MPSNDArrayPoolingSizes_s {
-    unsigned long long sizes[4];
+    unsigned long long _field1[4];
 };
 
 struct MPSNDArrayStencilOffsets_s {
-    long long offsets[4];
+    long long _field1[4];
 };
 
 struct MPSNDArrayStencilSizes_s {
-    unsigned long long sizes[4];
+    unsigned long long _field1[4];
 };
 
 struct MPSNDArrayWeightsTensorDescriptor {
@@ -129,7 +129,7 @@ struct MPSNDArrayWeightsTensorDescriptor {
 };
 
 struct MPSPluginNDArrayConvolutionSizes {
-    unsigned long long size[3];
+    unsigned long long _field1[3];
 };
 
 struct MPSScaleTransform {
@@ -137,10 +137,6 @@ struct MPSScaleTransform {
     double scaleY;
     double translateX;
     double translateY;
-};
-
-struct NDArraySrcInfo {
-    unsigned long long _field1;
 };
 
 #pragma mark Typedef'd Structures

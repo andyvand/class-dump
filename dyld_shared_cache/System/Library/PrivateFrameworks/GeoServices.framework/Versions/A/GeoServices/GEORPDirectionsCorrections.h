@@ -4,47 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORPCorrectedCoordinate, NSData, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPDirectionsCorrections
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEORPCorrectedCoordinate *_arrivalCoordinate;
-    NSData *_directionsResponseId;
-    NSMutableArray *_instructionCorrections;
-    NSString *_overviewScreenshotImageId;
-    NSMutableArray *_problematicRouteIndexs;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _noGoodRoutesShown;
-    struct {
-        unsigned int has_noGoodRoutesShown:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_arrivalCoordinate:1;
-        unsigned int read_directionsResponseId:1;
-        unsigned int read_instructionCorrections:1;
-        unsigned int read_overviewScreenshotImageId:1;
-        unsigned int read_problematicRouteIndexs:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (Class);
-+ (_Bool)le:(id)arg1;
++ (Class)CEMEnumerateEmojiTokensInStringWithBlock;
++ (_Bool)setIsPhoneEditable:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)initWithScheduler:(_Bool)arg1 coalescingWindow: /* Error: Ran out of types for this method. */;
+- (void)containsObject:(id)arg1;
 - (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
+- (unsigned long long)some container is expected to already exist (migration at provides for this). Without a container, this save will fail with a contact constraint violation.;
+- (id)d but yielded no results. At least some container is expected to already exist (migration at provides for this). Without a container, this save will fail with a contact constraint violation.;
+- (id)ed, and a fetch of containers sharing the same target store succeeded but yielded no results. At least some container is expected to already exist (migration at provides for this). Without a container, this save will fail with a contact constraint violation.;
+- (id)PROPERTY_NAME;
 - (_Bool);
 - (unsigned long long);
 - (id);
@@ -65,32 +45,22 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)setDidTimestampFirstAudioPacket: /* Error: Ran out of types for this method. */;
+- (void)taskId:(id)arg1 %@;
+- (id)H;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id)as_platformType"b1"has_renderingMode"b1"read_unknownFields"b1"read_applicationIds"b1"read_debugLayoutId"b1"read_modules"b1"wrote_anyField"b1};
-- (id)ntValue: /* Error: Ran out of types for this method. */;
+- (id)addItemWithName:uintValue: /* Error: Ran out of types for this method. */;
 - (id)*Ô*;
 - (id)ORegionalResourceRegionReadAllFrom can only be called once per object;
 - (void)!±Ý=@L@;
 
 // Remaining properties
-@property(retain, nonatomic) GEORPCorrectedCoordinate *arrivalCoordinate;
-@property(retain, nonatomic) NSData *directionsResponseId;
-@property(readonly, nonatomic) _Bool hasArrivalCoordinate;
 @property(readonly, nonatomic) _Bool hasDirectionsResponseId;
-@property(nonatomic) _Bool hasNoGoodRoutesShown;
-@property(readonly, nonatomic) _Bool hasOverviewScreenshotImageId;
-@property(retain, nonatomic) NSMutableArray *instructionCorrections;
-@property(nonatomic) _Bool noGoodRoutesShown;
-@property(retain, nonatomic) NSString *overviewScreenshotImageId;
-@property(retain, nonatomic) NSMutableArray *problematicRouteIndexs;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

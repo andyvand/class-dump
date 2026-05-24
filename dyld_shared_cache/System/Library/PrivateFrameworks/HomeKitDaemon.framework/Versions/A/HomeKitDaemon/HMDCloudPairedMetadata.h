@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDNetworkRouterFirewallRuleAccessoryIdentifier, NSArray, NSDictionary, NSString;
+@class HMDNetworkRouterFirewallRuleAccessoryIdentifier;
 
 __attribute__((visibility("hidden")))
 @interface HMDCloudPairedMetadata
 {
     HMDNetworkRouterFirewallRuleAccessoryIdentifier *_baseAccessoryIdentifier;
-    NSArray *_versionConfigurations;
 }
 
 + (id);
 + (id);
 + (id)0ä¹B;
-- (id);
+- (id)v56@0:8@"IDSService"16@"IDSAccount"24@"IDSProtobuf"32@"NSString"40@"IDSMessageContext"48 /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -27,15 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) HMDNetworkRouterFirewallRuleAccessoryIdentifier *baseAccessoryIdentifier; // @synthesize baseAccessoryIdentifier=_baseAccessoryIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSDictionary *prettyJSONDictionary;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *versionConfigurations; // @synthesize versionConfigurations=_versionConfigurations;
 
 @end
 

@@ -9,41 +9,21 @@
 @interface PXTitleSubtitleView
 {
     NSTextField *_titleLabel;
-    NSTextField *_subtitleLabel;
-    double _titleLineHeight;
-    double _subtitleLineHeight;
-    double _interLabelSpacing;
-    double _distanceBetweenTitleBaselineAndSubtitleBaseline;
-    PXGTitleSubtitleViewConfiguration *_userData;
-    struct CGRect _clippingRect;
 }
 
 - (void);
 - (void);
 - (struct CGRect);
-- (void);
+- (void)_considerRejectedHeadlinesInMoreForYou;
 - (id);
 - (_Bool);
 - (void);
 - (id)0@ù
 × ;
-- (void)ErrorLoadingNumberOfPhotos;
+- (void)PXErrorLoadingNumberOfPhotos;
 - (void)Í;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canUnloadWhenInvisible;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(nonatomic) struct CGRect clippingRect; // @synthesize clippingRect=_clippingRect;
-@property(readonly, nonatomic) _Bool isFloating;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool shouldReuseWhenInvisible;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(copy, nonatomic) PXGTitleSubtitleViewConfiguration *userData; // @synthesize userData=_userData;
 
 @end

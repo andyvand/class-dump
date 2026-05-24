@@ -7,12 +7,12 @@
 @class INSpeakableString;
 
 @protocol INSearchForTimersIntentExport
+- (id)@;
+- (long long);
+- (long long)8;
 - (void)R,C,V_value;
 
 // Remaining properties
-@property double duration;
 @property(copy) INSpeakableString *label;
-@property long long state;
-@property long long type;
 @end
 

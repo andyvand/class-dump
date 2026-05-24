@@ -9,14 +9,12 @@
 @interface RemindersUICore.TTRMCustomRepeatWeekAndDayView
 {
     id delegate;
-    void weekPopUpButton;
-    void dayPopUpButton;
 }
 
+- (void)P;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -24,7 +22,6 @@
 - (void)ÄrWÿ;
 
 // Remaining properties
-@property(nonatomic) __weak NSPopUpButton *dayPopUpButton; // @synthesize dayPopUpButton;
 @property(nonatomic) __weak NSPopUpButton *weekPopUpButton; // @synthesize weekPopUpButton;
 
 @end

@@ -6,20 +6,16 @@
 
 #import <Foundation/_NSUndoObject.h>
 
-@class NSMutableDictionary;
-
 __attribute__((visibility("hidden")))
 @interface _NSUndoBeginMark : _NSUndoObject
 {
     id _groupIdentifier;
-    _Bool _isDiscardable;
-    NSMutableDictionary *_userInfo;
 }
 
-- (id);
+- (id)a;
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);

@@ -14,16 +14,15 @@
 }
 
 + (id);
-+ (void);
++ (void);
 - (CDUnknownBlockType);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void)ficationName:object:userInfo: /* Error: Ran out of types for this method. */;
+- (void)postNotificationName:object:userInfo: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CDUnknownBlockType operationCompletionHandler; // @synthesize operationCompletionHandler=_operationCompletionHandler;
 @property(readonly, nonatomic) WBSLPLinkMetadataRequest *request; // @dynamic request;
 
 @end

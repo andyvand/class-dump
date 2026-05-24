@@ -4,44 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOLogMsgStatePlaceSummaryLayout
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_62a50c50 _muids;
-    NSMutableArray *_dynamicContextHyperlinkDetails;
-    NSMutableArray *_trailingEntityActionDetails;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_muids:1;
-        unsigned int read_dynamicContextHyperlinkDetails:1;
-        unsigned int read_trailingEntityActionDetails:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
 + (Class);
-+ (_Bool)HasSupportsCollectionByRegion:(id)arg1;
++ (_Bool)setHasSupportsCollectionByRegion:(id)arg1;
+- (unsigned long long);
+- (id);
+- (id)8;
+- (void);
+- (unsigned long long);
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ResultReportingStrategy>";
+- (void)removeObject:(unsigned long long)arg1 forKey: /* Error: Ran out of types for this method. */;
+- (void)performWriterBlock:(id)arg1;
+- (void)addDelegate:(id)arg1;
+- (void)URLWithDataRepresentation:(id)arg1 relativeToURL: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -49,29 +35,25 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)rwin :%{public}@ /* Error: Ran out of types for this method. */;
+- (void)L;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (unsigned long long *);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void)ypeKeysType;
-- (id)xtureIndexsCount;
-- (id)leKey;
+- (void)lib/libc++.1.dylib;
+- (void);
+- (void)vehicleTypeKeysType;
+- (id)textureIndexsCount;
+- (id)tileKey;
 - (id)s beyond bounds of route's leg count (%d). This likely means an error creating the ETA route.;
 - (id)(\;
 - (void).Ï8~E3;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *dynamicContextHyperlinkDetails;
-@property(readonly, nonatomic) unsigned long long *muids;
 @property(readonly, nonatomic) unsigned long long muidsCount;
-@property(retain, nonatomic) NSMutableArray *trailingEntityActionDetails;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

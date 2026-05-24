@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol SFDigestOperation, SFKeyDerivingOperation;
+@protocol SFKeyDerivingOperation;
 
 __attribute__((visibility("hidden")))
 @interface SFX963KeyDerivationOperation
@@ -15,12 +14,12 @@ __attribute__((visibility("hidden")))
 
 + (long long);
 + (_Bool);
-- (id);
+- (id)( ;
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)( ;
+- (id)com.apple.mail;
 - (id);
 - (void);
 - (void);
@@ -29,15 +28,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) id <SFDigestOperation> digestOperation;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) id <SFKeyDerivingOperation> sharedSecretOperation;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapRegion, NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOMapRegionE7
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_vertexE7s;
-    int _eastLngE7;
-    int _northLatE7;
-    int _southLatE7;
-    int _westLngE7;
-    CDStruct_37b5bf71 _flags;
 }
 
 + (Class);
@@ -22,10 +16,10 @@
 + (_Bool)setHasTapped:(id)arg1;
 - (int);
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (int);
-- (int);
+- (int)V;
 - (int);
 - (void);
 - (void);
@@ -46,7 +40,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (int);
+- (int)__gcc_except_tab__TEXT;
 - (id);
 - (void);
 - (int);
@@ -55,18 +49,18 @@
 - (void);
 - (id);
 - (id);
+- (void)GUEST_FULLNAME;
 - (void);
-- (void);
-- (void);
+- (void)gger:(id)arg1 ];
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)Tf,N,V_shininess;
+- (id)@8#.;
 - (_Bool);
 - (void);
 - (id)pellSuggestion";
-- (id)VoiceSettings;
+- (id)walkingVoiceSettings;
 - (id)OMapItemAttribution",R,N,V_attribution;
 - (id)ôH;
 - (id));
@@ -75,21 +69,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) int centerLatE7;
-@property(readonly, nonatomic) int centerLngE7;
-@property(nonatomic) int eastLngE7;
-@property(nonatomic) _Bool hasEastLngE7;
-@property(nonatomic) _Bool hasNorthLatE7;
-@property(readonly, nonatomic) _Bool hasRectangleVertices;
-@property(nonatomic) _Bool hasSouthLatE7;
-@property(nonatomic) _Bool hasWestLngE7;
-@property(readonly, nonatomic) GEOMapRegion *mapRegion;
-@property(nonatomic) int northLatE7;
-@property(nonatomic) int southLatE7;
-@property(readonly, nonatomic) int spanLatE7;
-@property(readonly, nonatomic) int spanLngE7;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) NSMutableArray *vertexE7s;
-@property(nonatomic) int westLngE7;
 
 @end
 

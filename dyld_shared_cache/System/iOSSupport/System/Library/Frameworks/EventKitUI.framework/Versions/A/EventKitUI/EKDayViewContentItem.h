@@ -4,54 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUIKORContentPayload, CUIKOROccurrenceState, EKCalendarDate, EKDayOccurrenceView, EKEvent, NSArray, NSDate, NSString;
+@class CUIKOROccurrenceState;
 
 @interface EKDayViewContentItem
 {
     struct CGRect _stagedFrame;
-    struct CGRect _unPinnedViewFrame;
-    double _visibleHeight;
-    _Bool _visibleHeightLocked;
-    _Bool _synchronouslyRenderContentOnNextDisplay;
-    double _travelTimeHeight;
-    long long _sizeClass;
-    long long _currentRequestId;
-    CUIKORContentPayload *_stagedPayload;
-    _Bool _usesSmallText;
-    _Bool _isProposedTime;
-    _Bool _isLoadingAsync;
-    _Bool _occurrenceIsFirstVisibleDayOfEvent;
-    _Bool _hasPrecedingDuration;
-    _Bool _hasTrailingDuration;
-    EKEvent *_event;
-    NSArray *_events;
-    long long _occurrenceDateIndex;
-    unsigned long long _eventIndex;
-    EKDayOccurrenceView *_view;
-    EKCalendarDate *_startDate;
-    EKCalendarDate *_endDate;
-    double _travelTime;
-    double _topPinningProximity;
-    double _bottomPinningProximity;
-    CDUnknownBlockType _backgroundChangedCallback;
-    CUIKOROccurrenceState *_currentState;
 }
 
 + (_Bool);
-+ (double);
-- (void);
-- (id);
-- (void);
-- (void);
++ (double)e;
+- (void)*s;
+- (id)X%s;
+- (void)s;
+- (void);
 - (_Bool);
 - (id);
-- (void);
-- (void);
+- (void)%s;
+- (void)&s;
+- (struct CGRect);
+- (id)C{;
 - (struct CGRect);
-- (id);
-- (struct CGRect);
-- (void);
-- (void);
+- (void){;
+- (void)C{;
 - (_Bool);
 - (void);
 - (unsigned long long);
@@ -59,88 +33,52 @@
 - (double);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id):: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)allPolicy";
+- (void)e;
 - (_Bool);
 - (void);
 - (id);
 - (id);
+- (void)];
+- (double)2@0:8@16@24 /* Error: Ran out of types for this method. */;
 - (void);
 - (double);
-- (void);
-- (double);
-- (long long);
+- (long long)'t match private key;
 - (_Bool);
 - (_Bool);
 - (void);
+- (id)CS;
+- (_Bool)_inReplayMode;
+- (void)ssifyFaceAttributesRequest";
+- (id)(*;
 - (id);
-- (_Bool);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (double);
+- (id)onunciation of altNameInfo in list was not a valid string -> %@;
+- (double);
 - (double);
 - (id);
 - (double);
 - (void);
-- (_Bool);
+- (_Bool)overrideLocalizations;
 - (void);
 - (id);
 - (void);
 - (void);
 - (CDUnknownBlockType)nteractionAnimating>"24;
-- (void)l:end: /* Error: Ran out of types for this method. */;
+- (void)recurrenceRuleWithType:interval:end: /* Error: Ran out of types for this method. */;
 - (void);
-- (double);
+- (double)_showBirthdayCount;
 - (void)Ö_F;
 - (_Bool)2x;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType backgroundChangedCallback; // @synthesize backgroundChangedCallback=_backgroundChangedCallback;
-@property(nonatomic) double bottomPinningProximity; // @synthesize bottomPinningProximity=_bottomPinningProximity;
 @property(retain) CUIKOROccurrenceState *currentState; // @synthesize currentState=_currentState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDate *end;
-@property(copy, nonatomic) EKCalendarDate *endDate; // @synthesize endDate=_endDate;
-@property(readonly, nonatomic) double enoughHeightForOneLine;
-@property(retain, nonatomic) EKEvent *event; // @synthesize event=_event;
-@property(readonly, nonatomic) NSString *eventIdentifier;
-@property(readonly, nonatomic) unsigned long long eventIndex; // @synthesize eventIndex=_eventIndex;
-@property(retain, nonatomic) NSArray *events; // @synthesize events=_events;
-@property(nonatomic) _Bool hasPrecedingDuration; // @synthesize hasPrecedingDuration=_hasPrecedingDuration;
-@property(nonatomic) _Bool hasTrailingDuration; // @synthesize hasTrailingDuration=_hasTrailingDuration;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool hideTravelTime;
-@property(nonatomic) _Bool isLoadingAsync; // @synthesize isLoadingAsync=_isLoadingAsync;
-@property(nonatomic) _Bool isProposedTime; // @synthesize isProposedTime=_isProposedTime;
-@property(nonatomic) long long occurrenceDateIndex; // @synthesize occurrenceDateIndex=_occurrenceDateIndex;
-@property(nonatomic) _Bool occurrenceIsFirstVisibleDayOfEvent; // @synthesize occurrenceIsFirstVisibleDayOfEvent=_occurrenceIsFirstVisibleDayOfEvent;
-@property(readonly, nonatomic) NSDate *start;
-@property(copy, nonatomic) EKCalendarDate *startDate; // @synthesize startDate=_startDate;
-@property(readonly, copy, nonatomic) EKCalendarDate *startDateIncludingTravelTime;
-@property(readonly, nonatomic) NSDate *startWithTravelTime;
-@property(readonly) Class superclass;
-@property(nonatomic) double topPinningProximity; // @synthesize topPinningProximity=_topPinningProximity;
-@property(nonatomic) double travelTime; // @synthesize travelTime=_travelTime;
-@property(nonatomic) double travelTimeHeight;
-@property struct CGRect unPinnedViewFrame;
-@property(nonatomic) _Bool usesSmallText; // @synthesize usesSmallText=_usesSmallText;
-@property(retain, nonatomic) EKDayOccurrenceView *view; // @synthesize view=_view;
-@property(readonly, nonatomic) double viewMaxNaturalTextHeight;
-@property(nonatomic) double visibleHeight;
-@property(readonly) _Bool visibleHeightLocked;
 
 @end
 

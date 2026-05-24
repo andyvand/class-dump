@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (ECEmailAddressConvertible)
-+ (id);
++ (id)+;
 @end
 

@@ -7,15 +7,9 @@
 @class NSString;
 
 @protocol CNVCardNameDataSource
-- (NSString *)te;
+- (NSString *)ABBuiltInLabelsNote;
 
 // Remaining properties
-@property(readonly) NSString *companyName;
 @property(readonly) NSString *firstName;
-@property(readonly) _Bool isCompany;
-@property(readonly) NSString *lastName;
-@property(readonly) NSString *middleName;
-@property(readonly) NSString *suffix;
-@property(readonly) NSString *title;
 @end
 

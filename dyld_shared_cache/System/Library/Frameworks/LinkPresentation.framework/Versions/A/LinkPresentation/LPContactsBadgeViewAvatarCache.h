@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAvatarCache, NSHashTable;
+@class NSHashTable;
 
 __attribute__((visibility("hidden")))
 @interface LPContactsBadgeViewAvatarCache
 {
     NSHashTable *_clients;
-    CNAvatarCache *_avatarCache;
 }
 
 + (id)°!´GùQH1Â0@ù
 × ;
 - (id);
 - (id);
-- (void);
+- (void)%@ has rank %zu, shape %@, num parameters %tu;
 - (void);
 - (void)g;
 

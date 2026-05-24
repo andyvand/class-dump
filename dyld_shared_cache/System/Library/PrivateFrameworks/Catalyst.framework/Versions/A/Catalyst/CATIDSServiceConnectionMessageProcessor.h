@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSUUID;
+@class NSObject;
 @protocol CATIDSServiceConnectionMessageProcessorDelegate, OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface CATIDSServiceConnectionMessageProcessor
 {
     NSObject<OS_dispatch_queue> *mWorkQueue;
-    NSUUID *mConnectionIdentifier;
-    id <CATIDSServiceConnectionMessageProcessorDelegate> _delegate;
 }
 
 - (id);

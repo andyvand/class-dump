@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _CPSearchResultForFeedback;
-
 @interface _CPResultGradingFeedback
 {
     int _grade;
-    unsigned long long _timestamp;
-    _CPSearchResultForFeedback *_result;
-    NSString *_textFeedback;
 }
 
-- (id);
-- (void);
+- (id)eyValuePair<WTF::WeakPtr<WebKit::WebPageProxy>, unsigned int>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::WeakPtr<WebKit::WebPageProxy>, unsigned int>>, WTF::DefaultHash<WTF::WeakPtr<WebKit::WebPageProxy>>, WTF::HashMap<WTF::WeakPtr<WebKit::WebPageProxy>, unsigned int>::KeyValuePairTraits, WTF::HashTraits<WTF::WeakPtr<WebKit::WebPageProxy>>>::validateKey(const ValueType &) [Key = WTF::WeakPtr<WebKit::WebPageProxy>, Value = WTF::KeyValuePair<WTF::WeakPtr<WebKit::WebPageProxy>, unsigned int>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::WeakPtr<WebKit::WebPageProxy>, unsigned int>>, HashFunctions = WTF::DefaultHash<WTF::WeakPtr<WebKit::WebPageProxy>>, Traits = WTF::HashMap<WTF::WeakPtr<WebKit::WebPageProxy>, unsigned int>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::WeakPtr<WebKit::WebPageProxy>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)ected(PlatformGamepad &);
 - (void);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -31,17 +26,6 @@
 - (int);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) int grade; // @synthesize grade=_grade;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData; // @dynamic jsonData;
-@property(retain, nonatomic) _CPSearchResultForFeedback *result; // @synthesize result=_result;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *textFeedback; // @synthesize textFeedback=_textFeedback;
 @property(nonatomic) unsigned long long timestamp;
 
 @end

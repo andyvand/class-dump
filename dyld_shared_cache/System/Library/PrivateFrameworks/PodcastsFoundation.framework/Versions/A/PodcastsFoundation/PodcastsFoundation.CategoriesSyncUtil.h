@@ -7,12 +7,6 @@
 @interface PodcastsFoundation.CategoriesSyncUtil
 {
     id lastCategoriesSyncDate;
-    id categoriesSyncThresholdProvider;
-    id categoriesProvider;
-    id workQueue;
-    id ctx;
-    id syncSession;
-    id categoryIngester;
 }
 
 @end

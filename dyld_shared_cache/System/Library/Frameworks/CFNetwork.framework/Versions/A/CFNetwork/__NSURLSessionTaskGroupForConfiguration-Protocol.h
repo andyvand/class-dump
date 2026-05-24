@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURLSession, NSURLSessionConfiguration, NSURLSessionUploadTask;
+@class NSURLSessionConfiguration, NSURLSessionUploadTask;
 
 @protocol __NSURLSessionTaskGroupForConfiguration
 - (NSURLSessionUploadTask *);
 
 // Remaining properties
 @property(readonly) __weak NSURLSessionConfiguration *_groupConfiguration;
-@property(readonly) __weak NSURLSession *_groupSession;
 @end
 

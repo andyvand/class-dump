@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/HMDBackingStoreModelObject.h>
 
-@class NSArray, NSNumber, NSString, NSUUID;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface HMDMediaDestinationControllerModel : HMDBackingStoreModelObject
@@ -18,24 +18,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)I;
 - (id);
 - (id);
 - (id)t initialized, skipping controller side checks to disallow snapshot requests;
 
 // Remaining properties
 @property(copy) NSArray *availableDestinationModelIdentifierStrings; // @dynamic availableDestinationModelIdentifierStrings;
-@property(retain) NSArray *availableDestinationModelIdentifiers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSUUID *destinationModelIdentifier; // @dynamic destinationModelIdentifier;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain) NSNumber *supportedOptions; // @dynamic supportedOptions;
-@property(retain) NSNumber *type; // @dynamic type;
 
 @end
 

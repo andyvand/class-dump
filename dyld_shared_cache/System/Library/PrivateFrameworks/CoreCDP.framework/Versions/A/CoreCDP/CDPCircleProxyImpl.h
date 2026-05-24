@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CDPContext, NSString, OTClique;
+@class CDPContext, OTClique;
 
 @interface CDPCircleProxyImpl
 {
     OTClique *_clique;
-    CDPContext *_cdpContext;
 }
 
 + (unsigned long long);
 - (long long);
-- (_Bool);
+- (_Bool)isEventCandidateForURL:(id *)arg1 andTitle:containsSchemaOrg:withCompletion: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (long long);
@@ -28,11 +27,11 @@
 - (_Bool);
 - (id);
 - (id);
-- (int);
-- (int);
+- (int);
+- (int)!;
 - (_Bool);
 - (int);
-- (id);
+- (id)Th;
 - (_Bool);
 - (unsigned long long);
 - (id);
@@ -51,10 +50,10 @@
 - (_Bool);
 - (id);
 - (_Bool);
+- (void)};
+- (id)MRCContextOptionPreferredMetalDevice;
 - (void);
-- (id);
-- (void);
-- (_Bool);
+- (_Bool)_handleCenterStageActiveChangedForDevice: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
@@ -66,13 +65,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CDPContext *cdpContext; // @synthesize cdpContext=_cdpContext;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,47 +6,42 @@
 
 #import <TSReading/TSDRep.h>
 
-@class NSArray, NSObject, NSString, TSKHighlightArrayController, TSWPShapeRep;
-@protocol TSDContainerInfo, TSKSearchReference;
+@class TSKHighlightArrayController, TSWPShapeRep;
 
 @interface TSWPTextHostRep : TSDRep
 {
     TSWPShapeRep *_editingRep;
-    TSKHighlightArrayController *_pulseArrayController;
-    TSKHighlightArrayController *_highlightArrayController;
-    NSObject<TSKSearchReference> *_activeSearchReference;
-    NSArray *_searchReferences;
 }
 
+- (_Bool)DelegatedAccountCreationFailure;
+- (void)able to restore state. Too many failed attempts.;
+- (void)alPlaybackActive;
+- (void)MPCRemoteCommandEventOptionVideoActiveKey;
+- (void)ckInfo.isAssetLoaded==NO;
+- (void)equest timed out;
+- (void)DisableOptimizeAccessForLinearMoviePlayback;
+- (void)vedIDs=%@>;
+- (void)spc;
+- (id)not insert at Tail [MediaPlayer/QueueFA is OFF;
+- (id)-load-begin;
+- (void)t-item-begin;
+- (void)el:(id)arg1 completion:in state `%@` /* Error: Ran out of types for this method. */;
+- (void)oPlay=%@ storeFront=%@ subscriptionStatus=%@ bag=%@>;
+- (void)- AVKit user action failure [end of time jump without on-going time jump] - userAction:(id)arg1;
+- (void);
+- (id)ssfade;
+- (struct CGPath *)eted.Notification;
+- (id):(id)arg1 );
+- (id);
+- (id);
+- (id);
+- (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool)0;
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (struct CGPath *);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void);
+- (id)tG;
 - (id);
 - (void);
 - (void);
@@ -54,19 +49,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<TSKSearchReference> *activeSearchReference; // @synthesize activeSearchReference=_activeSearchReference;
-@property(readonly, nonatomic) NSObject<TSDContainerInfo> *containerInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) TSKHighlightArrayController *highlightArrayController; // @synthesize highlightArrayController=_highlightArrayController;
 @property(retain, nonatomic) TSKHighlightArrayController *pulseArrayController; // @synthesize pulseArrayController=_pulseArrayController;
-@property(retain, nonatomic) NSArray *searchReferences; // @synthesize searchReferences=_searchReferences;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool useFindOverlayers;
 
 @end
 

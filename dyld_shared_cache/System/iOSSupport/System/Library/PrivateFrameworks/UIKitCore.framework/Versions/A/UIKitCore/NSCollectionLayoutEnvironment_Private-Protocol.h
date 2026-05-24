@@ -7,12 +7,11 @@
 @protocol _UIDataSourceSnapshotTranslating;
 
 @protocol NSCollectionLayoutEnvironment_Private
+- (long long);
 - (_Bool)!,DùÑdð1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <_UIDataSourceSnapshotTranslating> _dataSourceSnapshot;
-@property(readonly, nonatomic) long long _sectionIndex;
-@property(readonly, nonatomic) _Bool _wantsCollapsedTopSpacing;
 @end
 

@@ -4,40 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABCNMutableContact, NSString;
+@class ABCNMutableContact;
 
 @interface ABCNContactDirectoryResultBuilder
 {
     ABCNMutableContact *_contact;
 }
 
-+ (id);
++ (id)Pm;
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)qa;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

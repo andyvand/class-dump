@@ -4,25 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPointerArray;
-
 __attribute__((visibility("hidden")))
 @interface VCAudioRedBuilder
 {
     unsigned int _numPayloads;
-    unsigned int _maxDelay;
-    int _redPayloadType;
-    unsigned int _sampleRate;
-    unsigned int _samplesPerFrame;
-    _Bool _includeSequenceOffset;
-    unsigned char _historyCount;
-    struct tagVCAudioRedBuilderHistory _history[2];
-    NSPointerArray *_selectedRedPayloads;
-    struct tagVCAudioRedPayload _redPayloadToSend;
-    unsigned char _redPayloadBufferToSend[1472];
-    unsigned int _maxREDPayloadSize;
-    char _redPayloadDebugMessage[257];
-    char _redPayloadHistoryDebugMessage[2327];
 }
 
 + (unsigned int);
@@ -41,17 +26,14 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (struct tagVCAudioRedPayload *);
-- (unsigned int);
+- (unsigned int)ӈ;
 - (void);
 - (unsigned int);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int maxDelay; // @synthesize maxDelay=_maxDelay;
-@property(nonatomic) unsigned int maxREDPayloadSize; // @synthesize maxREDPayloadSize=_maxREDPayloadSize;
 @property(nonatomic) unsigned int numPayloads; // @synthesize numPayloads=_numPayloads;
-@property(readonly, nonatomic) int redPayloadType; // @synthesize redPayloadType=_redPayloadType;
 
 @end
 

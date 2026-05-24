@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface AMSRatingsCache
 {
     unsigned long long _mediaType;
-    NSString *_storeFront;
 }
 
-- (id);
+- (id)(;
 - (id);
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)_maxMMSMessageByteCount;
 - (id);
-- (id);
+- (id);
 - (id);
 - (void)côÀf0ÕtS7ÎãAä-o©)hõqÑÞ²ç'ù$j4«~ðæÃ¦JÀðd¾ªÝÖ;
 - (id)tÇ%uÇ%ÄvÇ%wÇ%¼pÇ%qÇ%1rÇ%òsÇ%I|Ç%}Ç%*~Ç%éÇ%RxÇ%dyÇ%ßzÇ%{Ç%§DÇ%"EÇ%FÇ%ZGÇ%á@Ç%×AÇ%lBÇ%¯CÇ%LÇ%ÌMÇ%wNÇ%´OÇ%HÇ%9IÇ%JÇ%AKÇ%úTÇ%`UÇ%ÛVÇ%WÇ%£PÇ%QÇ%.RÇ%íSÇ%V\Ç%]Ç%5^Ç%ö_Ç%MXÇ%{YÇ%ÀZÇ%[Ç%¸¤Ç%~¥Ç%Å¦Ç%§Ç%½ Ç%¡Ç%0¢Ç%ó£Ç%H¬Ç%­Ç%+®Ç%è¯Ç%S¨Ç%e©Ç%ÞªÇ%«Ç%¦´Ç%<µÇ%¶Ç%D·Ç%ÿ°Ç%É±Ç%r²Ç%±³Ç%
@@ -30,7 +27,6 @@ K$@<xVH+zò /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) unsigned long long mediaType; // @synthesize mediaType=_mediaType;
-@property(readonly) NSString *storeFront; // @synthesize storeFront=_storeFront;
 
 @end
 

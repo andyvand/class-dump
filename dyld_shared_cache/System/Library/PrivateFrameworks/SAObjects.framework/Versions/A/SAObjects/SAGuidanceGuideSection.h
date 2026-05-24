@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface SAGuidanceGuideSection : SADomainObject
 {
@@ -14,7 +14,7 @@
 
 + (id);
 + (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -23,7 +23,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *guideUtterances;
-@property(copy, nonatomic) NSString *sectionName;
 
 @end
 

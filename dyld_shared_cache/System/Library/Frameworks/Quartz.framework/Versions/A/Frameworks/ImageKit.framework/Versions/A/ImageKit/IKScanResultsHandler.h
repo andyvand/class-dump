@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSTableView, NSWindow;
+@class NSWindow;
 
 @interface IKScanResultsHandler
 {
     NSWindow *_window;
-    NSTableView *_tableView;
-    NSMutableArray *_scanInfos;
-    _Bool _hasScanResults;
-    NSArray *_scanResultsTLO;
 }
 
 + (id);
@@ -25,17 +21,16 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)Oʐ;
 - (_Bool);
 - (id);
-- (void);
-- (long long);
+- (void)o;
+- (long long)R,N,V_usageType;
 - (void);
 - (id);
 
 // Remaining properties
 @property _Bool hasScanResults; // @synthesize hasScanResults=_hasScanResults;
-@property(retain) NSArray *scanResultsTLO; // @synthesize scanResultsTLO=_scanResultsTLO;
 
 @end
 

@@ -12,27 +12,27 @@
 
 + (id);
 + (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (_Bool)AirDropCapability;
+- (id)IORegistryUtilities/MGIOKitHelper.m;
+- (id)PeBV5Q;
+- (id);
 - (id);
 - (_Bool);
 - (struct _NSRange);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)*;
 - (id);
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)_tlsProcessSaveHandshakeProperties;
 - (id);
 - (void);
-- (void);
-- (id)ternalObjectEntryTableForWindowLoading:(struct CGRect)arg1;
+- (void)extRange:(id)arg1;
+- (id)setExternalObjectEntryTableForWindowLoading:(struct CGRect)arg1;
 - (void)mework/login;
 - (void)ôÊC;
 

@@ -7,8 +7,6 @@
 @interface NewsUI2.HistoryCommandHandler
 {
     id clearUserDataManager;
-    id isiCloudPrivateDataSyncingEnabled;
-    id sceneProvider;
 }
 
 @end

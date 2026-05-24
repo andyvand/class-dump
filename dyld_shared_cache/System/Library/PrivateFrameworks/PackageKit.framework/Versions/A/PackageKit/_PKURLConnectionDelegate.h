@@ -4,25 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileHandle, NSMutableData, NSObject, NSString, NSThread, NSURLResponse;
+@class NSObject, NSURLResponse;
 @protocol OS_dispatch_queue;
 
 @interface _PKURLConnectionDelegate
 {
     NSObject<OS_dispatch_queue> *_notifyQueue;
-    NSThread *_notifyThread;
-    NSString *_destinationDirectory;
-    CDUnknownBlockType _notifyBlock;
-    CDUnknownBlockType _challengeBlock;
-    CDUnknownBlockType _redirectResponseBlock;
-    CDUnknownBlockType _bytesReceivedBlock;
-    NSURLResponse *_response;
-    NSMutableData *_data;
-    NSFileHandle *_fileHandle;
-    long long _fullDownloadSize;
 }
 
-- (void);
+- (void);
 - (id);
 - (long long);
 - (void);
@@ -32,27 +22,17 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)UConversationLink",&,D,N;
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void)0 declared in enclosing block literal;
+- (id)h;
 
 // Remaining properties
-@property(retain) NSMutableData *data; // @synthesize data=_data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSFileHandle *fileHandle; // @synthesize fileHandle=_fileHandle;
-@property long long fullDownloadSize; // @synthesize fullDownloadSize=_fullDownloadSize;
-@property(readonly) unsigned long long hash;
 @property(retain) NSURLResponse *response; // @synthesize response=_response;
-@property(readonly) Class superclass;
 
 @end
 

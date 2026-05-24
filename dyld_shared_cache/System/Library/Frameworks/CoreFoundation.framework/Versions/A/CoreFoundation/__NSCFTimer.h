@@ -14,14 +14,14 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (id)ji;
 - (id);
-- (unsigned long long);
+- (unsigned long long): /* Error: Ran out of types for this method. */;
 - (id);
 - (oneway void);
 - (id);
 - (unsigned long long);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)hType:programInfoBuffer:capacity:] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (double);
 - (_Bool);

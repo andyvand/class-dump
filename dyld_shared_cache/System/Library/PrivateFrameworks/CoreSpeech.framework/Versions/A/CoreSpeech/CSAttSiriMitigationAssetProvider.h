@@ -19,9 +19,9 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)4;
 - (id);
-- (void)amples: /* Error: Ran out of types for this method. */;
+- (void)addAudio:numSamples: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) CSAttSiriMitigationAssetHandler *assetHandler; // @synthesize assetHandler=_assetHandler;

@@ -5,9 +5,9 @@
 //
 
 @protocol MKOverlay
+- (struct CLLocationCoordinate2D);
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_02837cd9 boundingMapRect;
 @property(readonly, nonatomic) struct CLLocationCoordinate2D coordinate;
 @end
 

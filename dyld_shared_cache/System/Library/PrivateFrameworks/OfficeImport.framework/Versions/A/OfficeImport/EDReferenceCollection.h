@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     _Bool mCoalesce;
 }
 
-+ (id);
++ (id);
 + (id);
 - (id);
 - (id);
@@ -20,10 +20,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)entTracker2 with root dir:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (unsigned long long);
+- (unsigned long long)ze:(id)arg1 ];
 - (void)adata;
 
 @end

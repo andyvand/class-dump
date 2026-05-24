@@ -4,27 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CURunLoopThread, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
-
 @interface CUMobileDeviceDiscovery
 {
     _Bool _activateCalled;
-    _Bool _invalidateCalled;
-    NSMutableDictionary *_mdDevices;
-    struct _AMDeviceNotificationContext *_mdNotification;
-    CURunLoopThread *_mdRunLoopThread;
-    CUMobileDeviceDiscovery *_selfRef;
-    unsigned int _changeFlags;
-    unsigned int _discoveryFlags;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _invalidationHandler;
-    CDUnknownBlockType _deviceFoundHandler;
-    CDUnknownBlockType _deviceLostHandler;
-    CDUnknownBlockType _deviceChangedHandler;
 }
 
-+ (void);
++ (void);
 - (void);
 - (void);
 - (void);
@@ -43,9 +28,9 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
+- (void)MPSCNNPooling_new_tex2d_tex2d_avg_4x5_0;
 - (void);
-- (void);
-- (void);
+- (void)B;
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (void);
@@ -56,12 +41,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned int changeFlags; // @synthesize changeFlags=_changeFlags;
-@property(copy, nonatomic) CDUnknownBlockType deviceChangedHandler; // @synthesize deviceChangedHandler=_deviceChangedHandler;
-@property(copy, nonatomic) CDUnknownBlockType deviceFoundHandler; // @synthesize deviceFoundHandler=_deviceFoundHandler;
-@property(copy, nonatomic) CDUnknownBlockType deviceLostHandler; // @synthesize deviceLostHandler=_deviceLostHandler;
-@property(nonatomic) unsigned int discoveryFlags; // @synthesize discoveryFlags=_discoveryFlags;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
 
 @end
 

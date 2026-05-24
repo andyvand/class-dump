@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TRIClient;
-
 @interface RBXNUWrapper
 {
     struct __IOGPUDevice *_gpuDevice;
-    unsigned long long _ballastOffsetMB;
-    TRIClient *_trialClient;
 }
 
 + (void);
 + (id);
 - (id);
-- (void);
+- (void)0:(unsigned char)arg1 8:(int)arg2 16;
 - (long long);
 - (long long);
 - (void);

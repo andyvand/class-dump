@@ -6,45 +6,17 @@
 
 #import <ContactsUI/CNContactHeaderView.h>
 
-@class CAGradientLayer, CNContactActionsContainerView, CNContactDowntimeView, CNContactFormatter, CNMetricsUIReporter, CNSensitiveContentAnalysisManager, NSArray, NSDictionary, NSString, UILabel, UIView, UIVisualEffectView;
-@protocol UITraitChangeRegistration;
+@class NSDictionary, UIView;
 
 @interface CNContactHeaderStaticDisplayView : CNContactHeaderView
 {
     NSDictionary *_downtimeTextAttributes;
-    NSArray *_lastBackgroundColors;
-    NSString *_lastBackgroundColorsContactIdentifier;
-    _Bool _isEmergencyContact;
-    _Bool _isRestrictedContact;
-    _Bool _isDowntimeContact;
-    _Bool _allowsPickerActions;
-    _Bool _usesBrandedCallFormat;
-    CNContactFormatter *_contactFormatter;
-    NSDictionary *_taglineTextAttributes;
-    NSDictionary *_importantTextAttributes;
-    NSString *_alternateName;
-    NSString *_message;
-    NSString *_importantMessage;
-    CNContactActionsContainerView *_actionsWrapperView;
-    UIView *_personHeaderView;
-    UILabel *_taglineLabel;
-    UILabel *_importantLabel;
-    CNContactDowntimeView *_downtimeView;
-    UIVisualEffectView *_blurView;
-    UIView *_avatarBackgroundView;
-    CAGradientLayer *_avatarBackgroundGradientLayer;
-    double _labelsHeight;
-    NSString *_currentlyDisplayedPosterContactIdentifier;
-    id <UITraitChangeRegistration> _traitChangeRegistration;
-    CNMetricsUIReporter *_metricsReporter;
-    CNSensitiveContentAnalysisManager *_sensitiveContentManager;
-    NSString *_selectedChannel;
 }
 
 + (id);
 + (id);
++ (_Bool)_);
 + (_Bool);
-+ (_Bool);
 + (id);
 + (id);
 + (id);
@@ -53,10 +25,10 @@
 - (_Bool);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -65,13 +37,17 @@
 - (double);
 - (double);
 - (double);
-- (double);
+- (double);
 - (double);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (void)=	;
+- (void);
+- (void);
+- (void)7;
 - (void);
 - (void);
 - (void);
@@ -80,24 +56,20 @@
 - (void);
 - (void);
 - (void);
+- (void)R	j!;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)q`;
 - (void);
 - (id);
-- (id);
 - (void);
+- (id);
+- (id);
+- (void);
 - (struct CGRect);
 - (double);
 - (_Bool);
@@ -107,7 +79,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
@@ -125,7 +97,8 @@
 - (double);
 - (id);
 - (id);
-- (id);
+- (id)I(K
+{;
 - (void);
 - (void);
 - (_Bool);
@@ -139,7 +112,7 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (double);
+- (double);
 - (id);
 - (void);
 - (void);
@@ -148,62 +121,28 @@
 - (id);
 - (void);
 - (double);
-- (void);
+- (void)4%;
 - (void);
 - (double);
-- (double);
-- (void);
-- (void);
-- (void);
-- (void);
 - (double);
 - (void);
 - (void);
-- (id);
+- (void);
+- (void);
+- (double);
+- (void);
+- (void);
+- (id)^B40B48;
 - (_Bool);
 - (id)6;
 - (id)8@"CNGroupIdentityInlineActionsViewController"16@"NSString"24B32;
-- (void)vatarImageRenderer:(id)arg1;
+- (void)setAvatarImageRenderer:(id)arg1;
 - (void)View;
 - (id)³ ;
 - (void)4;
 
 // Remaining properties
-@property(retain, nonatomic) CNContactActionsContainerView *actionsWrapperView; // @synthesize actionsWrapperView=_actionsWrapperView;
-@property(nonatomic) _Bool allowsPickerActions; // @synthesize allowsPickerActions=_allowsPickerActions;
-@property(retain, nonatomic) NSString *alternateName; // @synthesize alternateName=_alternateName;
-@property(retain, nonatomic) CAGradientLayer *avatarBackgroundGradientLayer; // @synthesize avatarBackgroundGradientLayer=_avatarBackgroundGradientLayer;
-@property(retain, nonatomic) UIView *avatarBackgroundView; // @synthesize avatarBackgroundView=_avatarBackgroundView;
-@property(nonatomic) unsigned long long avatarStyle;
-@property(retain, nonatomic) UIVisualEffectView *blurView; // @synthesize blurView=_blurView;
-@property(readonly, nonatomic) double bottomMargin;
-@property(retain, nonatomic) CNContactFormatter *contactFormatter; // @synthesize contactFormatter=_contactFormatter;
-@property(retain, nonatomic) NSString *currentlyDisplayedPosterContactIdentifier; // @synthesize currentlyDisplayedPosterContactIdentifier=_currentlyDisplayedPosterContactIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CNContactDowntimeView *downtimeView; // @synthesize downtimeView=_downtimeView;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UILabel *importantLabel; // @synthesize importantLabel=_importantLabel;
-@property(retain, nonatomic) NSString *importantMessage; // @synthesize importantMessage=_importantMessage;
-@property(copy, nonatomic) NSDictionary *importantTextAttributes; // @synthesize importantTextAttributes=_importantTextAttributes;
-@property(nonatomic) _Bool isDowntimeContact; // @synthesize isDowntimeContact=_isDowntimeContact;
-@property(nonatomic) _Bool isEmergencyContact; // @synthesize isEmergencyContact=_isEmergencyContact;
-@property(nonatomic) _Bool isRestrictedContact; // @synthesize isRestrictedContact=_isRestrictedContact;
-@property(nonatomic) double labelsHeight; // @synthesize labelsHeight=_labelsHeight;
-@property(retain, nonatomic) NSString *message; // @synthesize message=_message;
-@property(readonly, nonatomic) CNMetricsUIReporter *metricsReporter; // @synthesize metricsReporter=_metricsReporter;
 @property(retain, nonatomic) UIView *personHeaderView; // @synthesize personHeaderView=_personHeaderView;
-@property(retain, nonatomic) NSString *selectedChannel; // @synthesize selectedChannel=_selectedChannel;
-@property(readonly, nonatomic) CNSensitiveContentAnalysisManager *sensitiveContentManager; // @synthesize sensitiveContentManager=_sensitiveContentManager;
-@property(readonly, nonatomic) _Bool shouldUseFixedHeight;
-@property(readonly) Class superclass;
-@property(retain) UILabel *taglineLabel; // @synthesize taglineLabel=_taglineLabel;
-@property(copy, nonatomic) NSDictionary *taglineTextAttributes; // @synthesize taglineTextAttributes=_taglineTextAttributes;
-@property(retain) id <UITraitChangeRegistration> traitChangeRegistration; // @synthesize traitChangeRegistration=_traitChangeRegistration;
-@property(nonatomic) _Bool usesBrandedCallFormat; // @synthesize usesBrandedCallFormat=_usesBrandedCallFormat;
 
 @end
 

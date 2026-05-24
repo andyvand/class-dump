@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     NSArray *_plists;
 }
 
-+ (_Bool);
++ (_Bool)ch_data>"24Q32;
 - (_Bool);
 - (id);
 - (id);

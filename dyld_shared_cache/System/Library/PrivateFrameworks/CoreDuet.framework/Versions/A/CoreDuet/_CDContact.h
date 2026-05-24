@@ -4,41 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, _CDContactStatistics;
+@class NSString;
 
 @interface _CDContact
 {
     unsigned long long _type;
-    NSString *_identifier;
-    NSString *_customIdentifier;
-    NSString *_personId;
-    unsigned long long _personIdType;
-    NSString *_displayName;
-    unsigned long long _displayType;
-    long long _participantStatus;
-    NSURL *_displayImageURL;
-    long long _contactIdType;
-    _CDContactStatistics *_statistics;
 }
 
 + (id);
 + (id);
 + (id);
++ (id)initWithUUID:(id)arg1 title:(id)arg2 type:(id)arg3;
++ (id)Context=II^{CGXConnectionNotice}}{CGXConnectionNotificationContext=II^{CGXConnectionNotice}}b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1^vI^{__CFDictionary}^{CGSRegionObject}IIIdd^QQQII^{CGSRegionObject}^{CGXCursor}^{__CFDictionary}^vIIIiI{CPSProcessSerNum=II}IIIb1b1b1b1b1b1b1b1b1b1b1b1b1^{CGXEventTap}^{CGXCaptureState}I^v^?dddddI^{CGXDirtyScreenState}IB^{PKGSpace}{WSSymbolicHotKeyBitMask=[9I]}iQ^{x_list_struct}b1b1b1IdId^{SLSStructuralRegionIDRange}{?=III{?=[2I]}{?=[8I]}}^{x_list_struct}^{CGSRegionObject}b1b1IBBQ{?=[8I]}^{CGSRegionObject}B^{CGSRegionObject}b1b1b1Qb1b1ii^{CGXConnectionCAContextTrackingState}^{__CGXConnectionBox}Bd^{__CFString}b1b1b1b1b1b1b1b1b1b1b1b1b1^{SLSeedResolver}Q^{x_list_struct}Ib1ib1}16;
 + (id);
 + (id);
 + (id);
 + (id);
++ (id);
++ (id);
++ (unsigned long long)9h;
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (unsigned long long);
-+ (id);
-+ (id);
-+ (id);
++ (id);
 + (_Bool);
 + (id);
-+ (id);
++ (id);
 - (void);
 - (void);
 - (void);
@@ -48,22 +38,22 @@
 - (id);
 - (long long);
 - (void);
+- (_Bool)^;
 - (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)y<;
+- (id)w;
 - (id);
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id)5;
 - (id);
 - (void);
-- (id);
+- (id)`;
 - (id);
 - (void);
 - (unsigned long long);
@@ -76,9 +66,9 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (id);
+- (void);
+- (void)dling did not find creds, will send challenge %@;
+- (id)@;
 - (id);
 - (void);
 - (id);
@@ -88,19 +78,7 @@
 × ;
 
 // Remaining properties
-@property long long contactIdType; // @synthesize contactIdType=_contactIdType;
-@property(copy) NSString *customIdentifier; // @synthesize customIdentifier=_customIdentifier;
-@property(retain) NSURL *displayImageURL; // @synthesize displayImageURL=_displayImageURL;
-@property(copy) NSString *displayName; // @synthesize displayName=_displayName;
-@property unsigned long long displayType; // @synthesize displayType=_displayType;
-@property(readonly, copy, nonatomic) NSString *handle;
-@property(copy) NSString *identifier; // @synthesize identifier=_identifier;
 @property(retain) NSString *identifierType;
-@property long long participantStatus; // @synthesize participantStatus=_participantStatus;
-@property(copy) NSString *personId; // @synthesize personId=_personId;
-@property unsigned long long personIdType; // @synthesize personIdType=_personIdType;
-@property(retain) _CDContactStatistics *statistics; // @synthesize statistics=_statistics;
-@property unsigned long long type; // @synthesize type=_type;
 
 @end
 

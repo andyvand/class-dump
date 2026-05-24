@@ -7,11 +7,6 @@
 @interface PhotosUICore.LemonadeInlineStoryPlayer
 {
     id underlyingPlayer;
-    id placeholderAnimationTrigger;
-    id updatePlaceholderVisibility;
-    id isAnimatingPlaceholder;
-    id desiredInlinePlayState;
-    id onPlaybackFinished;
 }
 
 @end

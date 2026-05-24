@@ -7,7 +7,6 @@
 @interface ChatKit.EffectPickerExtensionDetails
 {
     id _currentEffect;
-    id effectData;
 }
 
 - (void);

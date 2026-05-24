@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, PFStoryRecipeDisplayAssetNormalization, PIColorNormalizationFilter;
+@class NSData, PIColorNormalizationFilter;
 
 @interface PXStoryColorNormalizationAdjustment
 {
     NSData *_colorCubeData;
-    _Bool _useFalseColor;
-    _Bool _useColorCube;
-    double _intensity;
-    PIColorNormalizationFilter *_filter;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-- (_Bool);
++ (id)<;
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -32,34 +28,19 @@
 - (long long);
 - (id);
 - (_Bool);
-- (id);
+- (id)!;
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (double);
+- (double);
 - (_Bool);
-- (id)apAnimationDurationFilter:(struct _NSZone *)arg1;
+- (id)setGainMapAnimationDurationFilter:(struct _NSZone *)arg1;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *adjustmentDetails;
-@property(readonly, nonatomic) NSString *adjustmentSummary;
-@property(readonly, nonatomic) _Bool allowsUnadjustedOpportunisticDelivery;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) PIColorNormalizationFilter *filter; // @synthesize filter=_filter;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double intensity; // @synthesize intensity=_intensity;
-@property(readonly, nonatomic) PFStoryRecipeDisplayAssetNormalization *normalization;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool useColorCube; // @synthesize useColorCube=_useColorCube;
-@property(nonatomic) _Bool useFalseColor; // @synthesize useFalseColor=_useFalseColor;
-@property(readonly, nonatomic) _Bool wantsSingleHighQualityDelivery;
 
 @end
 

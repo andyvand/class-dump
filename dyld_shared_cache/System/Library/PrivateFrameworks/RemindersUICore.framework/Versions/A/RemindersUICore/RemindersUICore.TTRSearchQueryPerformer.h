@@ -7,15 +7,9 @@
 @interface RemindersUICore.TTRSearchQueryPerformer
 {
     id delegate;
-    id criteria;
-    id itemTypes;
-    id $__lazy_storage_$_entityNames;
-    id attributesToFetch;
-    id queue;
-    id query;
 }
 
-- (id);
+- (id);
 - (void)nput mode changes;
 
 @end

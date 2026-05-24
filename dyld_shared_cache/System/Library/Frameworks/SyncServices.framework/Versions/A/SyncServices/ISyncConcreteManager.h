@@ -6,40 +6,11 @@
 
 #import <SyncServices/ISyncManager.h>
 
-@class ISDNameNumberProvider, NSDate, NSMutableArray, NSMutableDictionary, NSString, NSTask;
 @protocol ISyncServer><NSObject;
 
 @interface ISyncConcreteManager : ISyncManager
 {
     id <ISyncServer><NSObject> _server;
-    unsigned long long _serverPID;
-    unsigned long long _lastAvailableServerPID;
-    unsigned int _clientAnchor;
-    unsigned int _schemaAnchor;
-    id _clients;
-    id _syncPlans;
-    NSMutableDictionary *_dataClasses;
-    NSMutableDictionary *_entities;
-    NSString *_dataDirectoryPath;
-    NSString *_logDirectoryPath;
-    NSString *_dataReferencesDirectory;
-    NSMutableDictionary *_syncAlertHandlers;
-    NSMutableArray *_runLoopModes;
-    NSDate *_unavailableCheckDate;
-    NSString *_unavailableReason;
-    NSString *_initialPlanIdentifier;
-    NSMutableDictionary *_clientPlanIdentifiers;
-    int _notifyClientToken;
-    int _notifySchemaToken;
-    int _notifySchemaCacheInvalidToken;
-    int _notifyPlansToken;
-    int _notifyClientSyncStateToken;
-    _Bool _needToFetchAllClients;
-    _Bool _allSchemaDataWasFetched;
-    _Bool _enabled;
-    _Bool _removeClientFromSyncPlanIfClientDoesntBeginSession;
-    ISDNameNumberProvider *_nameNumberProvider;
-    NSTask *_task;
 }
 
 - (id);
@@ -66,7 +37,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)c;
 - (void);
 - (void);
 - (void);
@@ -94,7 +65,7 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -108,7 +79,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -117,15 +88,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)";
+- (id)C;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -134,22 +105,22 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -167,7 +138,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -225,20 +196,14 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)_	;
 - (void);
 - (void);
-- (id);
+- (id);
 - (id)ocalid,  entityName) values (?, ?, ?);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

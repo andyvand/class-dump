@@ -5,5 +5,8 @@
 //
 
 @protocol CNContactPickerContentDelegate
+
+@optional
+- (void);
 @end
 

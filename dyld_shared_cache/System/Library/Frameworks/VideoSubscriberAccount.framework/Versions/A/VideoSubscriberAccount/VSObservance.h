@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol VSObservanceDelegate;
-
 __attribute__((visibility("hidden")))
 @interface VSObservance
 {
     _Bool _observing;
-    id _object;
-    NSString *_keyPath;
-    unsigned long long _options;
-    id <VSObservanceDelegate> _delegate;
 }
 
 - (void);
@@ -27,17 +20,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)h;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <VSObservanceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy, nonatomic) NSString *keyPath; // @synthesize keyPath=_keyPath;
-@property(readonly, nonatomic) id object; // @synthesize object=_object;
 @property(nonatomic, getter=isObserving) _Bool observing; // @synthesize observing=_observing;
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
 
 @end
 

@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSObject;
-@protocol OS_tcc_message_options, OS_tcc_server, OS_tcc_service;
+@class NSObject;
+@protocol OS_tcc_server;
 
 @interface CNTCCVersion2
 {
     NSObject<OS_tcc_server> *_server;
-    NSObject<OS_tcc_service> *_service;
-    NSObject<OS_tcc_message_options> *_messageOptionsForSyncNoPrompt;
-    NSObject<OS_tcc_message_options> *_messageOptionsForAsyncPrompt;
-    NSNumber *_simulateStatus;
-    NSNumber *_isUnitTestingCachedValue;
 }
 
 + (id);
@@ -28,32 +23,27 @@
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)^;
 - (id);
-- (id);
-- (id);
+- (id)emetry:number1,name=ErrorCode}d  /* Error: Ran out of types for this method. */;
+- (id);
 - (_Bool);
-- (void);
+- (void)kgroundSystemTasks;
 - (void);
 - (void);
 - (long long);
 - (id);
-- (long long);
+- (long long);
 - (void);
-- (id);
+- (id);
 - (_Bool)ÝúÿZÀ½;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *isUnitTestingCachedValue; // @synthesize isUnitTestingCachedValue=_isUnitTestingCachedValue;
-@property(readonly, nonatomic) NSObject<OS_tcc_message_options> *messageOptionsForAsyncPrompt; // @synthesize messageOptionsForAsyncPrompt=_messageOptionsForAsyncPrompt;
-@property(readonly, nonatomic) NSObject<OS_tcc_message_options> *messageOptionsForSyncNoPrompt; // @synthesize messageOptionsForSyncNoPrompt=_messageOptionsForSyncNoPrompt;
 @property(readonly, nonatomic) NSObject<OS_tcc_server> *server; // @synthesize server=_server;
-@property(readonly, nonatomic) NSObject<OS_tcc_service> *service; // @synthesize service=_service;
-@property(retain, nonatomic) NSNumber *simulateStatus; // @synthesize simulateStatus=_simulateStatus;
 
 @end
 

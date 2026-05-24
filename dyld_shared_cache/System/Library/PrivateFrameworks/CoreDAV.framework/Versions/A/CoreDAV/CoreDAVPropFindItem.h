@@ -11,9 +11,6 @@
 @interface CoreDAVPropFindItem : CoreDAVItem
 {
     CoreDAVItemWithNoChildren *_propName;
-    CoreDAVItemWithNoChildren *_allProp;
-    CoreDAVItem *_include;
-    CoreDAVItem *_prop;
 }
 
 + (id);
@@ -24,15 +21,12 @@
 - (id);
 - (id);
 - (id);
+- (id)addAnimation:forKey: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)ifier combination:(id)arg1 base64 fullword;
+- (void)\k;
 
 // Remaining properties
-@property(retain, nonatomic) CoreDAVItemWithNoChildren *allProp; // @synthesize allProp=_allProp;
-@property(retain, nonatomic) CoreDAVItem *include; // @synthesize include=_include;
-@property(retain, nonatomic) CoreDAVItem *prop; // @synthesize prop=_prop;
 @property(retain, nonatomic) CoreDAVItemWithNoChildren *propName; // @synthesize propName=_propName;
 
 @end

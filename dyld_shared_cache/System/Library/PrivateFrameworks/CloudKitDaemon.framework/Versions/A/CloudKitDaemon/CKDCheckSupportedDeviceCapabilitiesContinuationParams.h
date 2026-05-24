@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecordZoneID, NSArray, NSData;
+@class NSData;
 
 @interface CKDCheckSupportedDeviceCapabilitiesContinuationParams
 {
     NSData *_continuationToken;
-    CKRecordZoneID *_zoneID;
-    NSArray *_capabilitySet;
 }
 
 - (void);
@@ -23,9 +21,7 @@
 - (id)z;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *capabilitySet; // @synthesize capabilitySet=_capabilitySet;
 @property(retain, nonatomic) NSData *continuationToken; // @synthesize continuationToken=_continuationToken;
-@property(retain, nonatomic) CKRecordZoneID *zoneID; // @synthesize zoneID=_zoneID;
 
 @end
 

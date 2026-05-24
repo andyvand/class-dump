@@ -13,19 +13,19 @@ __attribute__((visibility("hidden")))
     NSObject<OS_dispatch_queue> *_reportingQueue;
 }
 
-+ (void);
-+ (void)g;
++ (void)sparseTileSizeWithTextureType:(id)arg1 pixelFormat:sampleCount: /* Error: Ran out of types for this method. */;
++ (void)_accessibilityVisibleTextRangeForDrag;
 + (id)÷j;
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
-- (void);
+- (id)dateInProgress to %{BOOL}u CloudLibraryInitialImport to %{BOOL}u - Posting MPCloudControllerIsUpdateInProgressDidChangeNotification [Saga];
+- (void)tistCleanDownloadedSongCount;
 - (void);
 - (void);
 - (void)ÔAð!PBù1`1Â0@ù
 × ;
-- (void)ustedForPinning;
+- (void)isFrameAdjustedForPinning;
 - (void)?N;
 
 @end

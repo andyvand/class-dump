@@ -6,7 +6,7 @@
 
 #import <LinkPresentation/LPFetcherResponse.h>
 
-@class LPImage, NSString;
+@class LPImage;
 
 __attribute__((visibility("hidden")))
 @interface LPFetcherImageResponse : LPFetcherResponse
@@ -14,24 +14,17 @@ __attribute__((visibility("hidden")))
     LPImage *_image;
 }
 
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
-- (id);
++ (id)startEditingPayloadBypassingValidation:(id)arg1 forPlugin:(id)arg2 completion: /* Error: Ran out of types for this method. */;
++ (id)startEditingPayload:(id)arg1 dismiss:(id)arg2 forPlugin:(id)arg3 completion: /* Error: Ran out of types for this method. */;
++ (_Bool)spaceBetweenSearchBarAndComposeButton;
++ (id)signalChange:(id)arg1;
+- (id)ludeRemoveAction:(id)arg1;
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, retain, nonatomic) LPImage *image; // @synthesize image=_image;
-@property(readonly) Class superclass;
 
 @end
 

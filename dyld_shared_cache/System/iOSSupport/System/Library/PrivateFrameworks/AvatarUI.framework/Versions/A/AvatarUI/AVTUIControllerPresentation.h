@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSMessagesAppViewController, UIViewController;
-@protocol AVTUIControllerPresentationDelegate;
+@class UIViewController;
 
 @interface AVTUIControllerPresentation
 {
     UIViewController *_controller;
-    MSMessagesAppViewController *_modalMessagesController;
-    id <AVTUIControllerPresentationDelegate> _delegate;
 }
 
 + (void);
@@ -21,15 +18,13 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)activity %@;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UIViewController *controller; // @synthesize controller=_controller;
-@property(nonatomic) __weak id <AVTUIControllerPresentationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) __weak MSMessagesAppViewController *modalMessagesController; // @synthesize modalMessagesController=_modalMessagesController;
 
 @end
 

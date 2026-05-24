@@ -7,36 +7,6 @@
 @interface RawCamera.MutableImage__priv_79A264B502E9F0CB88092489376D107F
 {
     id widthPx;
-    id heightPx;
-    id depth;
-    id hLevel;
-    id vLevel;
-    id vLines;
-    id inputScale;
-    id prequant;
-    id is422;
-    id capability0;
-    id capability2;
-    id gammaInfo;
-    id shPx;
-    id nbSb;
-    id sbGains;
-    id sbPrios;
-    id sbSeg;
-    id nbSeg;
-    id numberOfPackets;
-    id segPacket;
-    id segSb;
-    id segPv;
-    id posSeg;
-    id segGroup;
-    id spSeg;
-    id spSegSize;
-    id spSbOrder;
-    id demiCompChunksAligned;
-    id lineStride;
-    id skipDecomp;
-    id oddOffsets;
 }
 
 @end

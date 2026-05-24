@@ -6,32 +6,17 @@
 
 #import <SearchFoundation/SFButtonItem.h>
 
-@class NSArray, NSData, NSDictionary, NSString, SFButtonItemAppearance, SFPerson;
+@class NSString;
 
 @interface SFContactButtonItem : SFButtonItem
 {
     NSString *_contactIdentifier;
-    SFPerson *_person;
-    NSArray *_actionTypesToShow;
 }
 
-+ (_Bool);
++ (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *actionTypesToShow; // @synthesize actionTypesToShow=_actionTypesToShow;
-@property(retain, nonatomic) SFButtonItemAppearance *buttonAppearance;
 @property(copy, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFPerson *person; // @synthesize person=_person;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long uniqueId;
 
 @end
 

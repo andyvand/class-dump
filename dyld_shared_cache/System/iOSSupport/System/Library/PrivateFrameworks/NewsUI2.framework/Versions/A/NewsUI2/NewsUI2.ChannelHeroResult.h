@@ -7,7 +7,6 @@
 @interface NewsUI2.ChannelHeroResult
 {
     id headlines;
-    id selectionStrategy;
 }
 
 @end

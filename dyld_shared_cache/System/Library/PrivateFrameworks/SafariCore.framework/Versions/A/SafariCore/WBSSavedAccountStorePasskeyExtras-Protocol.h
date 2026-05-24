@@ -7,9 +7,9 @@
 @class NSArray;
 
 @protocol WBSSavedAccountStorePasskeyExtras
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *passkeysDataOnInternalQueue;
-@property(readonly, copy, nonatomic) NSArray *recentlyDeletedPasskeysDataOnInternalQueue;
 @end
 

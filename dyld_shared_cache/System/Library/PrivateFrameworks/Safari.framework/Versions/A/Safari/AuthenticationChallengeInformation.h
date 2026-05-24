@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AuthenticationChallengeInformation
 {
     CDUnknownBlockType _completionHandler;
-    NSURLAuthenticationChallenge *_challenge;
 }
 
 - (id);

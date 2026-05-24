@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, OS_xpc_remote_connection;
-@protocol OS_dispatch_queue;
+@class OS_xpc_remote_connection;
 
 __attribute__((visibility("hidden")))
 @interface KDLRemoteXPCConnection
 {
     OS_xpc_remote_connection *_listener;
-    NSMutableArray *_connections;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _handler;
 }
 
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
+- (unsigned int)ICUserIdentityStoreLocalStoreAccountPropertiesDidChangeNotification;
+- (id)?0I8^B12;
 - (unsigned int);
-- (id);
-- (unsigned int);
-- (void);
+- (void)eDimensions;
 - (unsigned int);
 
 @end

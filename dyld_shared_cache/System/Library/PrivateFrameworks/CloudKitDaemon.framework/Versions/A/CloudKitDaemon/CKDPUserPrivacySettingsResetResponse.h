@@ -8,10 +8,10 @@
 {
 }
 
-- (id);
+- (id)H;
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)onaryRef, FigEndpointStreamAudioEngineSuspendCallback, void *);
 - (_Bool);
 - (_Bool);
 - (void);

@@ -6,54 +6,39 @@
 
 #import <AppleMediaServicesUI/AMSUICommonViewController.h>
 
-@class AMSUIErrorView, AMSUIWebAppearance, AMSUIWebClientContext, AMSUIWebErrorPageModel, NSString;
+@class AMSUIWebAppearance;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebErrorViewController : AMSUICommonViewController
 {
     _Bool _showingCancelButton;
-    AMSUIWebAppearance *_appearance;
-    AMSUIWebClientContext *_context;
-    AMSUIErrorView *_errorView;
-    AMSUIWebErrorPageModel *_model;
 }
 
+- (void)public}@;
+- (_Bool)es assets = %ld;
+- (void)%@, found allowed regions:(_Bool)arg1 %@;
 - (void);
-- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void)#;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)V_volume;
+- (id)installer media but neither %@ nor %@ is available;
 - (void)odeUpdate">32;
 - (void);
 - (void){tb;
 
 // Remaining properties
 @property(retain) AMSUIWebAppearance *appearance; // @synthesize appearance=_appearance;
-@property(retain) AMSUIWebClientContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) AMSUIErrorView *errorView; // @synthesize errorView=_errorView;
-@property(readonly) unsigned long long hash;
-@property(retain) AMSUIWebErrorPageModel *model; // @synthesize model=_model;
-@property _Bool showingCancelButton; // @synthesize showingCancelButton=_showingCancelButton;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,49 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString, NSUUID;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface HMDAppleMediaAccessoryMatchingIdentifierEvent
 {
     NSNumber *_matchingIdentifiersCount;
-    NSNumber *_expectedRemovalCount;
 }
 
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)P;
+- (id)k!;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSNumber *expectedRemovalCount; // @synthesize expectedRemovalCount=_expectedRemovalCount;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
 @property(readonly, copy) NSNumber *matchingIdentifiersCount; // @synthesize matchingIdentifiersCount=_matchingIdentifiersCount;
-@property(readonly) Class superclass;
 
 @end
 

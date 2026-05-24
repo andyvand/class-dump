@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTLazuliDestination, CTLazuliGroupChatUri, CTLazuliMessageID;
-
 @interface CTLazuliMessageDispositionStatus
 {
     long long _deliveryType;
-    CTLazuliMessageID *_forMessageID;
-    CTLazuliDestination *_from;
-    CTLazuliGroupChatUri *_forGroupChat;
 }
 
-+ (_Bool);
++ (_Bool)fromVariant;
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -28,16 +23,13 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)numberWithBool:(id)arg1;
 - (id);
 - (void)ª)°1Â0@ù
 × ;
 
 // Remaining properties
 @property(nonatomic) long long deliveryType; // @synthesize deliveryType=_deliveryType;
-@property(retain, nonatomic) CTLazuliGroupChatUri *forGroupChat; // @synthesize forGroupChat=_forGroupChat;
-@property(retain, nonatomic) CTLazuliMessageID *forMessageID; // @synthesize forMessageID=_forMessageID;
-@property(retain, nonatomic) CTLazuliDestination *from; // @synthesize from=_from;
 
 @end
 

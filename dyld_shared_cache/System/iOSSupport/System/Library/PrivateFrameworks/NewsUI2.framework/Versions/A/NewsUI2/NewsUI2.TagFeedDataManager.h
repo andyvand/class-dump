@@ -7,32 +7,10 @@
 @interface NewsUI2.TagFeedDataManager
 {
     id delegate;
-    id feedDescriptor;
-    id feedServiceContextFactory;
-    id feedServiceConfigFetcher;
-    id feedManager;
-    id feedPluginManager;
-    id headlineService;
-    id accessQueue;
-    id appConfigManager;
-    id tagService;
-    id subscriptionService;
-    id historyService;
-    id puzzleStatsService;
-    id puzzleHistoryService;
-    id sportsSyncManager;
-    id sportsSyncToken;
-    id sportsOnboardingManager;
-    id offlineManager;
-    id offlineFeedPrimer;
-    id offlineFeatures;
-    id lastRefreshDateSetting;
-    id channelPickerReloadState;
-    id $__lazy_storage_$_ensurePrewarmPromise;
 }
 
-- (void);
-- (void);
+- (void)vices.framework/Versions/A/AppleMediaServices;
+- (void);
 - (id);
 - (void);
 

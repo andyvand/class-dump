@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (void);
+- (void)_parameters;
 - (_Bool);
-- (void);
-- (id)abOverview:(struct CGRect)arg1;
+- (void)turned for %{public}@ with error %{public}@;
+- (id)toggleTabOverview:(struct CGRect)arg1;
 
 @end
 

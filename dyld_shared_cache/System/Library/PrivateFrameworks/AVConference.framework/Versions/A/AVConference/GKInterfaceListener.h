@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol InterfaceListenerDelegate;
-
 @interface GKInterfaceListener
 {
     struct __SCDynamicStore *_dynamicStore;
-    struct _opaque_pthread_mutex_t _notificationMutex;
-    id _interfaceListenerDelegate;
-    _Bool _isWifiUp;
-    _Bool _isCellUp;
-    int _notifyToken;
-    _Bool _monitoringAvailable;
 }
 
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)d;
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -32,9 +24,7 @@
 - (id);
 
 // Remaining properties
-@property _Bool _isCellUp; // @synthesize _isCellUp;
 @property _Bool _isWifiUp; // @synthesize _isWifiUp;
-@property id <InterfaceListenerDelegate> interfaceListenerDelegate;
 
 @end
 

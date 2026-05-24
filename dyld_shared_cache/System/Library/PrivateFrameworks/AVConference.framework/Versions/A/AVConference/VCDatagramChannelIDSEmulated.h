@@ -6,24 +6,18 @@
 
 #import <AVConference/VCDatagramChannelIDS.h>
 
-@class VCEmulatedNetwork;
-
 __attribute__((visibility("hidden")))
 @interface VCDatagramChannelIDSEmulated : VCDatagramChannelIDS
 {
     long long _mode;
-    VCDatagramChannelIDS *_idsChannel;
-    VCEmulatedNetwork *_network;
-    int _packetCount;
-    _Bool _isStarted;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)?;
 - (int);
 - (void);
 - (void);
@@ -35,11 +29,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (int);
-- (void);
-- (id);
+- (void)@;
+- (id)r^{_DoViTMParam=Bfffffffffffffffffffffffffffffffffif{_SceneLuxAdaptationParam=ifffffffS[9f][9f][9f]f}}88r^{_EdrAdaptationParam=BS[4f][4f][4f]BB[3[4f]][3[4f]][2[2f]]Bfffffffffffffff}96r^{_AmbAdaptationParam=BS[3f][3f][3f]ffB[2[4f]][2[4f]][2[2f]]f}104B112B116;
 - (unsigned int);
 
 @end

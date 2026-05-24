@@ -7,6 +7,7 @@
 @class NSArray;
 
 @protocol SXComponentInserterProvider
+- (NSArray *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *inserters;

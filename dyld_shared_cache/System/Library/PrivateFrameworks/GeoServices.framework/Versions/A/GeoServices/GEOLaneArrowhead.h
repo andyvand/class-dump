@@ -9,21 +9,15 @@
 @interface GEOLaneArrowhead
 {
     PBUnknownFields *_unknownFields;
-    int _angle;
-    int _category;
-    struct {
-        unsigned int has_angle:1;
-        unsigned int has_category:1;
-    } _flags;
 }
 
-+ (_Bool)Type:(id)arg1;
++ (_Bool)setHasServerEntryType:(id)arg1;
 - (void);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)secureTemporaryDirectory;
+- (id)N,V_observers;
+- (void)@;
 - (int);
-- (void);
+- (void)VNJunkIdentifier;
 - (void);
 - (id);
 - (id);
@@ -38,20 +32,16 @@
 - (void);
 - (int)@ù
 × ;
-- (id)tOldRouteID:(struct _NSZone *)arg1;
+- (id)setOldRouteID:(struct _NSZone *)arg1;
 - (_Bool)filtersSection;
-- (id)ume: /* Error: Ran out of types for this method. */;
+- (id)StringAsMapSettingsNavVolume: /* Error: Ran out of types for this method. */;
 - (id)s. Loading %llu relevant tiles;
 - (void)suppress_synthetic_reviews;
 - (id);
 - (void)!-JX4;
 
 // Remaining properties
-@property(nonatomic) int angle;
-@property(nonatomic) int category;
 @property(nonatomic) _Bool hasAngle;
-@property(nonatomic) _Bool hasCategory;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

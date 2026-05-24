@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
     UIImageView *_backgroundView;
 }
 
-- (void);
+- (void)t a corresponding file transfer was not found using the asset's syndicationIdentifier. syndicationIdentifier:(id)arg1 %@, asset:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);

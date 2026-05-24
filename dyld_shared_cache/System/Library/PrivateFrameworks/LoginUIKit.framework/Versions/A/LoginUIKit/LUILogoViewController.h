@@ -6,15 +6,11 @@
 
 #import <LoginUIKit/LUIViewController.h>
 
-@class CALayer, NSWindow;
+@class CALayer;
 
 @interface LUILogoViewController : LUIViewController
 {
     CALayer *_appleLogoLayer;
-    NSWindow *_grayWindow;
-    CALayer *_grayBackgroundLayer;
-    CALayer *_grayBackgroundAppleLogoLayer;
-    int _layout;
 }
 
 + (id);
@@ -24,10 +20,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void));
+- (id);
 - (struct CGPoint);
-- (id);
+- (id)R;
 - (void);
 - (void);
 - (void);

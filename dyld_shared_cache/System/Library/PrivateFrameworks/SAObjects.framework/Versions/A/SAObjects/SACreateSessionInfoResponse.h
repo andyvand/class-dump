@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSData, NSNumber;
+@class NSData;
 
 @interface SACreateSessionInfoResponse : SABaseClientBoundCommand
 {
@@ -15,16 +15,15 @@
 + (id);
 + (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void);
+- (void)itMetrics];
 - (id);
 - (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSData *sessionInfo;
-@property(copy, nonatomic) NSNumber *validityDuration;
 
 @end
 

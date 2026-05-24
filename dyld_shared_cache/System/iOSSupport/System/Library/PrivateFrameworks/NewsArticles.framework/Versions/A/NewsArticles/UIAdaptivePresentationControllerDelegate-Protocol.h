@@ -4,11 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIViewController;
+
 @protocol UIAdaptivePresentationControllerDelegate
 
 @optional
+- (void)WebEmbedImageViewState;
+- (UIViewController *);
 - (_Bool)CodingKeys;
-- (long long)yAction;
+- (long long)SupplementaryAction;
 - (void)øDÔÿÝ$EÔÿÝ0bÉÿÝ;
 @end
 

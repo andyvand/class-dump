@@ -11,18 +11,16 @@
 @interface AXMathExpressionRow : AXMathExpression
 {
     NSArray *_expressions;
-    NSArray *_Expressions;
 }
 
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)DissenterPPID;
+- (id)IsConvertInProgressOrPlanned;
+- (id)ed=%d;
+- (void)HIS LV:(id)arg1 CSSaysRevertReboot1/2=%d/%d = Combined=%d;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *Expressions; // @synthesize Expressions=_Expressions;
-@property(readonly, nonatomic) NSArray *expressions; // @synthesize expressions=_expressions;
 
 @end
 

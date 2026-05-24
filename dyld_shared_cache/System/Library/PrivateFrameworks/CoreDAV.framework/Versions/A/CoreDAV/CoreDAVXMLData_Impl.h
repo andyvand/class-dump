@@ -7,7 +7,6 @@
 @interface CoreDAVXMLData_Impl
 {
     struct _xmlTextWriter *_writer;
-    struct _xmlDoc *_doc;
 }
 
 - (struct _xmlTextWriter *);
@@ -16,7 +15,6 @@
 - (void);
 
 // Remaining properties
-@property struct _xmlDoc *doc; // @synthesize doc=_doc;
 @property struct _xmlTextWriter *writer; // @synthesize writer=_writer;
 
 @end

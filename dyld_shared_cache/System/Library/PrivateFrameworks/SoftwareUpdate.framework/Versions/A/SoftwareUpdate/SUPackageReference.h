@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface SUPackageReference
@@ -13,17 +13,13 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly) NSURL *distributionPackageURLString;
-@property(readonly) NSNumber *integrityDataSize;
 @property(readonly) NSURL *integrityDataURL;
-@property(readonly) NSString *integrityDigest;
-@property(readonly) NSString *tocDigestChecksum;
 
 @end
 

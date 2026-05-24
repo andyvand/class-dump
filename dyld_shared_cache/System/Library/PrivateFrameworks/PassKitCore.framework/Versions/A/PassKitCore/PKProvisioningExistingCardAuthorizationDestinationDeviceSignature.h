@@ -4,31 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, PKSecureElementCertificateSet;
+@class NSString;
 
 @interface PKProvisioningExistingCardAuthorizationDestinationDeviceSignature
 {
     NSString *_secureElementIdentifier;
-    NSData *_signature;
-    PKSecureElementCertificateSet *_signatureCertificateSet;
 }
 
 + (_Bool);
-- (id);
+- (id)?=;
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id);
+- (id)!;
+- (void)_encryptionCount;
 - (id);
 - (void)51-02985;
-- (void)uiredAlert;
+- (void)passcodeRequiredAlert;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *secureElementIdentifier; // @synthesize secureElementIdentifier=_secureElementIdentifier;
-@property(copy, nonatomic) NSData *signature; // @synthesize signature=_signature;
-@property(retain, nonatomic) PKSecureElementCertificateSet *signatureCertificateSet; // @synthesize signatureCertificateSet=_signatureCertificateSet;
 
 @end
 

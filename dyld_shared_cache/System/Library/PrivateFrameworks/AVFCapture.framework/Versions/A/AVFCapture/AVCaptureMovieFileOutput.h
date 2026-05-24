@@ -6,60 +6,60 @@
 
 #import <AVFCapture/AVCaptureFileOutput.h>
 
-@class AVCaptureMovieFileOutputInternal, NSArray;
+@class AVCaptureMovieFileOutputInternal;
 
 @interface AVCaptureMovieFileOutput : AVCaptureFileOutput
 {
     AVCaptureMovieFileOutputInternal *_internal;
 }
 
-+ (_Bool);
++ (_Bool)translations;
 + (_Bool);
 + (id);
-+ (long long);
++ (long long);
 + (void)ñ?ìQ¸ëñ?333333ã?5^b@Ì]c@;
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (long long);
-- (unsigned long long);
-- (struct CGSize);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)onTitle;
+- (void)ispatch_queue>",R,N,V_queue;
+- (void)tch_queue>",R,N,V_accessQueue;
+- (void)_songPart;
+- (void)_MSVStreamWriterPendingData;
+- (void)MSVSQLDatabaseTransaction;
+- (void)_EntitlementCheckResult;
+- (void)MSVSignedRange;
+- (void)MSVLyricsSongInfo;
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (_Bool)[MSVSonicAssertion] Failed to acquire RBSAssertion %p error=%{public}@;
+- (_Bool)ream writer is already stopped;
+- (long long)%{public}@;
+- (unsigned long long)%{public}@:%p] statementWithString:… | failed to create mutable connection [] error=%{public}@ /* Error: Ran out of types for this method. */;
+- (struct CGSize)omDiagnosticReporter snapshot rejected with expected reason %d (%@);
+- (id)cted with unexpected reason %d (%@);
+- (id)er starting to report a snapshot with type:%@ subType:%@ context:%@ thresholdValues:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)re ignored:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)utes:]seconds only; other components are ignored:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)transliteration text element at line %ld:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)nd:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)%@;
+- (_Bool)ould be inside <metadata>;
+- (_Bool)ml:lang> attribute /* Error: Ran out of types for this method. */;
+- (_Bool)elapased after <%lf> seconds (<%lf> expected);
+- (void)SString *getkSymptomDiagnosticReplySuccess(void);
+- (void)Unauthenticated;
+- (void)DeadlineExceeded;
+- (void)Started;
+- (void);
+- (void)0@"NSObject<OS_nw_framer>"8@"NSObject<OS_nw_protocol_metadata>"16Q24B32;
+- (void)@"NSObject<OS_nw_framer>"8;
+- (void)ns>"8;
+- (id)@?0r^{dyld_shared_cache_dylib_text_info=QQQ[16C]*Q}8;
+- (id)ateFrameworks/MediaPlaybackCore.framework/MediaPlaybackCore;
+- (void)ension);
+- (void)a non-existing MSVProcessAssertionReason value!;
+- (void)valid = %@>;
+- (_Bool)ate CGContext.;
 - (void);
 - (void);
 - (void);
@@ -70,46 +70,37 @@
 - (id);
 - (int);
 - (void);
-- (void);
-- (void);
+- (void)kA;
+- (void)containingAppForPlugInWithPid: /* Error: Ran out of types for this method. */;
 - (void);
 - (CDStruct_1b6d18a9);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)N,V_stillTimeOffsetToAudioPrerollStartInMilliseconds;
 - (_Bool);
-- (id);
+- (id)iousVideoOutput toInput:movieFileCoordinatorNodeInputs[curCoordinatorIndex] pipelineStage:coordinatorPipelineStage] /* Error: Ran out of types for this method. */;
 - (int);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
+- (void)!;
 - (void);
 - (void);
-- (void);
-- (id)ghlightRecoveryEnabled:(id)arg1;
-- (void)orOnboarding;
+- (id)setHighlightRecoveryEnabled:(id)arg1;
+- (void)_activeClientPIDsForOnboarding;
 - (id)s;
 - (void)ensationEnabled;
 - (void) Ä;
 - (void)dÄ;
 - (void)%@";
-- (void)StillImageCount;
+- (void)maxBracketedCaptureStillImageCount;
 - (_Bool)camera_stack_initiator_logging;
 - (_Bool)red output format for that connection.;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *availableVideoCodecTypes;
-@property(copy, nonatomic) NSArray *metadata;
-@property(nonatomic) CDStruct_1b6d18a9 movieFragmentInterval;
-@property(readonly, nonatomic) unsigned long long primaryConstituentDeviceRestrictedSwitchingBehaviorConditionsForRecording;
-@property(readonly, nonatomic) long long primaryConstituentDeviceSwitchingBehaviorForRecording;
-@property(nonatomic, getter=isPrimaryConstituentDeviceSwitchingBehaviorForRecordingEnabled) _Bool primaryConstituentDeviceSwitchingBehaviorForRecordingEnabled;
-@property(nonatomic, getter=isSpatialVideoCaptureEnabled) _Bool spatialVideoCaptureEnabled;
-@property(readonly, nonatomic, getter=isSpatialVideoCaptureSupported) _Bool spatialVideoCaptureSupported;
-@property(nonatomic, getter=isTrueVideoCaptureEnabled) _Bool trueVideoCaptureEnabled;
 @property(readonly, nonatomic, getter=isTrueVideoCaptureSupported) _Bool trueVideoCaptureSupported;
 
 @end

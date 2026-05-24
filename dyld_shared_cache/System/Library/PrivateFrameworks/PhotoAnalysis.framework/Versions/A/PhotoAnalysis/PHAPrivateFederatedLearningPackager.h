@@ -7,21 +7,17 @@
 @interface PHAPrivateFederatedLearningPackager
 {
     struct _NSRange _privacyIdentifierRange;
-    struct _NSRange _privacyIdentifierSmallRange;
-    struct _NSRange _privacyIdentifierLargeRange;
 }
 
-- (struct _NSRange);
+- (struct _NSRange);
 - (struct _NSRange);
 - (struct _NSRange);
 - (id);
 - (id);
-- (id);
+- (id);
 
 // Remaining properties
-@property(readonly, nonatomic) struct _NSRange privacyIdentifierLargeRange; // @synthesize privacyIdentifierLargeRange=_privacyIdentifierLargeRange;
 @property(readonly, nonatomic) struct _NSRange privacyIdentifierRange; // @synthesize privacyIdentifierRange=_privacyIdentifierRange;
-@property(readonly, nonatomic) struct _NSRange privacyIdentifierSmallRange; // @synthesize privacyIdentifierSmallRange=_privacyIdentifierSmallRange;
 
 @end
 

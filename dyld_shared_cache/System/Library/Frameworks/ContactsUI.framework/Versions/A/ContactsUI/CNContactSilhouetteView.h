@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAGradientLayer, CALayer, CNCache, NSImage, NSString;
+@class NSImage;
 
 @interface CNContactSilhouetteView
 {
     _Bool _selected;
-    NSImage *_placeholderImage;
-    CALayer *_silhouetteLayer;
-    CAGradientLayer *_gradientLayer;
-    CNCache *_silhouetteCache;
-    long long _contactType;
-    unsigned long long _cropStyle;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)D9	;
 - (void);
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (id);
 - (long long);
@@ -36,7 +30,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)};
 - (id);
 - (id);
 - (void);
@@ -44,20 +38,7 @@
 - (_Bool)'FêGyAAyAAyäJJêGG°DêGGAEG;
 
 // Remaining properties
-@property long long contactType; // @synthesize contactType=_contactType;
-@property unsigned long long cropStyle; // @synthesize cropStyle=_cropStyle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) CAGradientLayer *gradientLayer; // @synthesize gradientLayer=_gradientLayer;
-@property(readonly) unsigned long long hash;
 @property(retain) NSImage *placeholderImage; // @synthesize placeholderImage=_placeholderImage;
-@property _Bool selected; // @synthesize selected=_selected;
-@property(retain) CNCache *silhouetteCache; // @synthesize silhouetteCache=_silhouetteCache;
-@property(retain) CALayer *silhouetteLayer; // @synthesize silhouetteLayer=_silhouetteLayer;
-@property(readonly) Class superclass;
 
 @end
 

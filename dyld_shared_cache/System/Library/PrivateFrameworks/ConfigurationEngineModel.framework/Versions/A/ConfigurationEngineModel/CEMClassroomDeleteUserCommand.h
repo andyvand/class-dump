@@ -6,15 +6,14 @@
 
 #import <ConfigurationEngineModel/CEMCommandBase.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface CEMClassroomDeleteUserCommand : CEMCommandBase
 {
     NSString *_payloadUserName;
-    NSNumber *_payloadForceDeletion;
 }
 
-+ (id);
++ (id)xI;
 + (id);
 + (id);
 + (id);
@@ -27,19 +26,11 @@
 - (int);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *payloadForceDeletion; // @synthesize payloadForceDeletion=_payloadForceDeletion;
 @property(copy, nonatomic) NSString *payloadUserName; // @synthesize payloadUserName=_payloadUserName;
-@property(readonly) Class superclass;
 
 @end
 

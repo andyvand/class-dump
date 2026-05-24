@@ -7,10 +7,6 @@
 @interface NewsFeed.FormatNodeStateData
 {
     id debugData;
-    id data;
-    id animations;
-    id sourceItemData;
-    id visibilityInheritance;
 }
 
 @end

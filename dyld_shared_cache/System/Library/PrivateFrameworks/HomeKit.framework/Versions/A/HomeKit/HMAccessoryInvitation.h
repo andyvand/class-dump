@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessory, NSString, NSUUID;
+@class NSUUID;
 
 @interface HMAccessoryInvitation
 {
     NSUUID *_identifier;
-    HMAccessory *_accessory;
-    long long _state;
 }
 
 + (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)_initialFieldSeparator;
 - (id);
 - (void);
-- (long long);
+- (long long)M	8		;
 - (id);
 - (void);
 - (void);
@@ -28,17 +26,7 @@
 - (void)%@, state:%ld /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak HMAccessory *accessory; // @synthesize accessory=_accessory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSUUID *uniqueIdentifier;
 
 @end
 

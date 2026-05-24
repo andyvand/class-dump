@@ -7,9 +7,6 @@
 @interface AOTImage
 {
     unsigned long long _x86LoadAddress;
-    unsigned long long _aotLoadAddress;
-    unsigned long long _aotSize;
-    struct aotkey _key;
 }
 
 - (unsigned long long);
@@ -22,10 +19,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long aotLoadAddress; // @synthesize aotLoadAddress=_aotLoadAddress;
-@property(nonatomic) unsigned long long aotSize; // @synthesize aotSize=_aotSize;
 @property(nonatomic) struct aotkey key; // @synthesize key=_key;
-@property(nonatomic) unsigned long long x86LoadAddress; // @synthesize x86LoadAddress=_x86LoadAddress;
 
 @end
 

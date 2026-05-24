@@ -5,9 +5,22 @@
 //
 
 @protocol MTLRenderCommandEncoder
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)@7;
+- (void);
+- (void)e pieces although `byte_fallback` is true.;
+- (void)rty/marisa/lib/marisa/grimoire/io/writer.cc:(const id *)arg1 143:(unsigned long long)arg2 MARISA_IO_ERROR:(unsigned long long)arg3 !stream_->write(static_cast<const char*>(data), static_cast<std::streamsize>(size)) /* Error: Ran out of types for this method. */;
+- (void)!;
+- (void);
+- (void)a;
+- (void);
 
 // Remaining properties
-@property(readonly) unsigned long long tileHeight;
 @property(readonly) unsigned long long tileWidth;
 @end
 

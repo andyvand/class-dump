@@ -6,29 +6,25 @@
 
 #import <Vision/VNRequestConfiguration.h>
 
-@class NSArray, NSDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface VNCoreSceneUnderstandingCompoundRequestConfiguration : VNRequestConfiguration
 {
     NSString *_detectorType;
-    NSDictionary *_detectorConfigurationOptions;
-    NSArray *_originalRequestConfigurations;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)arrayWithObjects:(id)arg1 count: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (void)mage;
+- (void)boundingBoxNormalizedToImage;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *detectorConfigurationOptions; // @synthesize detectorConfigurationOptions=_detectorConfigurationOptions;
 @property(copy, nonatomic) NSString *detectorType; // @synthesize detectorType=_detectorType;
-@property(copy, nonatomic) NSArray *originalRequestConfigurations; // @synthesize originalRequestConfigurations=_originalRequestConfigurations;
 
 @end
 

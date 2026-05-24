@@ -4,36 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSHashTable, NSMapTable, NSObject, Protocol;
-@protocol OS_dispatch_queue;
+@class Protocol;
 
 @interface GEOObserverHashTable
 {
     Protocol *_protocol;
-    NSHashTable *_observers;
-    NSMapTable *_observerQueues;
-    struct os_unfair_lock_s _lock;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
 }
 
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)#;
 - (id);
 - (void)0@ù
 × ;
-- (id);
+- (id)lookup_parents_of_region_by_name_recursive;
 - (unsigned long long)äè;
 - (void)¼;
 - (void)vTc;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allObservers;
-@property(readonly, nonatomic) unsigned long long count;
 @property(readonly, nonatomic) _Bool hasObservers;
 
 @end

@@ -8,8 +8,6 @@
 {
     id runQueue;
     id suspendingWaitQueue;
-    id continuousWaitQueue;
-    id shouldStop;
 }
 
 @end

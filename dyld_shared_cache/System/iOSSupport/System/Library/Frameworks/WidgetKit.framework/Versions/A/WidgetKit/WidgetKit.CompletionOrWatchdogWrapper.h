@@ -7,10 +7,6 @@
 @interface WidgetKit.CompletionOrWatchdogWrapper
 {
     id logIdentifier;
-    id watchdogLock;
-    id lock_watchdogTimer;
-    id expirationHandler;
-    id queue;
 }
 
 @end

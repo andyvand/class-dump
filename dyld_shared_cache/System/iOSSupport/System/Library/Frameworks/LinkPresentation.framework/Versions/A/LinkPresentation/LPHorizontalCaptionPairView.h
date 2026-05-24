@@ -6,67 +6,42 @@
 
 #import <LinkPresentation/LPComponentView.h>
 
-@class LPCaptionButtonPresentationProperties, LPSubtitleButtonView, LPTextView, NSLayoutConstraint, NSRegularExpression, NSString, UIFont;
+@class LPCaptionButtonPresentationProperties;
 
 __attribute__((visibility("hidden")))
 @interface LPHorizontalCaptionPairView : LPComponentView
 {
     LPCaptionButtonPresentationProperties *_buttonProperties;
-    struct UIEdgeInsets _contentInset;
-    long long _balancingMode;
-    LPSubtitleButtonView *_button;
-    NSLayoutConstraint *_buttonWidthConstraint;
-    NSLayoutConstraint *_buttonHeightConstraint;
-    long long _overrideMaximumNumberOfLines;
-    NSRegularExpression *_emphasizedTextExpression;
-    LPTextView *_leftView;
-    LPTextView *_rightView;
 }
 
+- (void)tapBackFilter;
+- (void)tableView:(id)arg1 editingStyleForRowAtIndexPath: /* Error: Ran out of types for this method. */;
+- (long long)switcherViewController:didSelectPluginAtIndexPath: /* Error: Ran out of types for this method. */;
+- (void)supportsFunctionPointers;
+- (id)suggestionCategory;
+- (double)stringWithString: /* Error: Ran out of types for this method. */;
+- (id)stringByDeletingLastPathComponent;
+- (id);
+- (long long)stickerReactionSize;
+- (struct CGSize)siri_materialBalloonTextColor;
+- (_Bool)showFullScreenTapbackKeyboardInputForChatItem: /* Error: Ran out of types for this method. */;
+- (double)showExpandedBrowserPopover:presentationConfiguration: /* Error: Ran out of types for this method. */;
+- (id)audioRecordingViewDurationSpacing;
+- (id);
 - (void);
-- (void);
-- (long long);
 - (void);
 - (id);
+- (id);
+- (double)associatedIMPerson;
 - (double);
-- (id);
-- (id);
-- (long long);
+- (void)writeUserReviewURL;
 - (struct CGSize);
-- (_Bool);
-- (double);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (double);
-- (double);
-- (void);
-- (struct CGSize);
-- (id);
+- (id)stickerTapback_Value;
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSRegularExpression *emphasizedTextExpression; // @synthesize emphasizedTextExpression=_emphasizedTextExpression;
-@property(readonly, nonatomic) UIFont *fallbackFont;
-@property(retain, nonatomic) UIFont *font;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIFont",?,&,N
-
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) LPTextView *leftView; // @synthesize leftView=_leftView;
 @property(nonatomic) long long overrideMaximumNumberOfLines; // @synthesize overrideMaximumNumberOfLines=_overrideMaximumNumberOfLines;
-@property(readonly, nonatomic) UIFont *preferredFont;
-@property(retain, nonatomic) LPTextView *rightView; // @synthesize rightView=_rightView;
-@property(readonly) Class superclass;
 
 @end
 

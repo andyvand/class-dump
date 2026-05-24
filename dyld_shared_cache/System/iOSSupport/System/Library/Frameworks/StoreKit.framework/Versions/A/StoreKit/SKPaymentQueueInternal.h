@@ -4,27 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSObject, NSString, SKPaymentQueueClient, SKStorefront;
-@protocol OS_dispatch_queue, SKPaymentQueueDelegate;
-
 __attribute__((visibility("hidden")))
 @interface SKPaymentQueueInternal
 {
     _Bool _isRedemptionSheetShowing;
-    _Bool _restoringCompletedTransactions;
-    NSString *_identifier;
-    SKPaymentQueueClient *_client;
-    NSMutableDictionary *_downloads;
-    NSMutableArray *_localTransactions;
-    NSMutableArray *_transactions;
-    SKStorefront *_storefront;
-    NSMutableArray *_weakObservers;
-    NSObject<OS_dispatch_queue> *_observerQueue;
-    id <SKPaymentQueueDelegate> _delegate;
 }
 
 - (id);
-- (void);
+- (void)|w;
 
 @end
 

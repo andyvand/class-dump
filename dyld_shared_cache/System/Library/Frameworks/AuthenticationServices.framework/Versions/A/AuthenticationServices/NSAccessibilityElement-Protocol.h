@@ -5,5 +5,9 @@
 //
 
 @protocol NSAccessibilityElement
+- (id)ces0A20IntentRepresentationP;
+
+@optional
+- (_Bool);
 @end
 

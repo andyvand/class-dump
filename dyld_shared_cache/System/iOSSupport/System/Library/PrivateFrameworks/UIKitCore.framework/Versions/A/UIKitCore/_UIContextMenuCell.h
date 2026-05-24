@@ -6,14 +6,12 @@
 
 #import <UIKitCore/UICollectionViewCell.h>
 
-@class UIShape, _UIContextMenuCellContentView;
+@class UIShape;
 
 __attribute__((visibility("hidden")))
 @interface _UIContextMenuCell : UICollectionViewCell
 {
     _Bool __highlightBackgroundViewNeedsUpdate;
-    _Bool __selectedBackgroundViewNeedsUpdate;
-    UIShape *__backgroundShape;
 }
 
 + (_Bool);
@@ -22,12 +20,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)shareDirection;
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool), updateType:%lu /* Error: Ran out of types for this method. */;
+- (_Bool)age From Push Handler, from:%@ to:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -46,9 +44,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) UIShape *_backgroundShape; // @synthesize _backgroundShape=__backgroundShape;
-@property(nonatomic) _Bool _highlightBackgroundViewNeedsUpdate; // @synthesize _highlightBackgroundViewNeedsUpdate=__highlightBackgroundViewNeedsUpdate;
-@property(nonatomic) _Bool _selectedBackgroundViewNeedsUpdate; // @synthesize _selectedBackgroundViewNeedsUpdate=__selectedBackgroundViewNeedsUpdate;
-@property(readonly, nonatomic) _UIContextMenuCellContentView *actionView;
 
 @end
 

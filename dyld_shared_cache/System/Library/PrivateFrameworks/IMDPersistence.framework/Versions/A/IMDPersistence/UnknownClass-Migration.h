@@ -7,7 +7,7 @@
 @interface UnknownClass (Migration)
 + (unsigned long long);
 + (unsigned long long);
-+ (long long);
++ (long long)˟;
 + (_Bool);
 + (_Bool);
 + (long long);

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBCommandReference, _SFPBRFPreviewList;
+@class _SFPBCommandReference;
 
 @interface _SFPBRFEngageable
 {
     _SFPBCommandReference *_command_reference;
-    _SFPBRFPreviewList *_preview_list;
-    unsigned long long _whichEngageable_Oneof;
 }
 
 - (unsigned long long);
@@ -23,24 +21,14 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)qualifyResourceInfo:(id)arg1 againstPolicy:requestInfo:reversed:tooLargeForPolicy:disqualificationReason: /* Error: Ran out of types for this method. */;
+- (id)requestSuggestedRecipientsForAssetLocalIdentifiers with timeout %llu;
 - (id);
 - (id);
 - (void)24@0:8@"RFPrimaryHeaderMarqueeCardSection"16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _SFPBCommandReference *command_reference; // @synthesize command_reference=_command_reference;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBRFPreviewList *preview_list; // @synthesize preview_list=_preview_list;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long whichEngageable_Oneof; // @synthesize whichEngageable_Oneof=_whichEngageable_Oneof;
 
 @end
 

@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
+@class NSString;
 
 @interface CHRemoteSynthesisStringChunkingRequest
 {
     NSString *_string;
-    NSArray *_allowedSynthesizers;
-    NSNumber *_mode;
 }
 
-+ (_Bool);
++ (_Bool)_hotValue;
 - (id);
 - (id);
 - (id);
@@ -24,8 +22,6 @@
 - (void)4;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *allowedSynthesizers; // @synthesize allowedSynthesizers=_allowedSynthesizers;
-@property(readonly, copy, nonatomic) NSNumber *mode; // @synthesize mode=_mode;
 @property(readonly, copy, nonatomic) NSString *string; // @synthesize string=_string;
 
 @end

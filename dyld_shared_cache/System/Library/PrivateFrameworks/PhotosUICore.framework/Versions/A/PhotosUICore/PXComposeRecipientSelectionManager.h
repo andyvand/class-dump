@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableOrderedSet, PXComposeRecipientDataSource, PXComposeRecipientSelectionSnapshot;
-@protocol PXComposeRecipientSelectionManagerDelegate;
+@class NSMutableOrderedSet, PXComposeRecipientSelectionSnapshot;
 
 @interface PXComposeRecipientSelectionManager
 {
     NSMutableOrderedSet *_selectedComposeRecipients;
-    NSMutableOrderedSet *_selectedRecipients;
-    PXComposeRecipientDataSource *_dataSource;
-    id <PXComposeRecipientSelectionManagerDelegate> _delegate;
-    PXComposeRecipientSelectionSnapshot *_selectionSnapshot;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -26,14 +21,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)w_sharedAlbumOwned;
+- (void)T;
+- (id)PhotosView_sharedAlbumOwned;
 - (void)LÊê¹|¸¨;
 - (void)?;
 
 // Remaining properties
-@property(readonly, nonatomic) PXComposeRecipientDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(nonatomic) __weak id <PXComposeRecipientSelectionManagerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) PXComposeRecipientSelectionSnapshot *selectionSnapshot; // @synthesize selectionSnapshot=_selectionSnapshot;
 
 @end

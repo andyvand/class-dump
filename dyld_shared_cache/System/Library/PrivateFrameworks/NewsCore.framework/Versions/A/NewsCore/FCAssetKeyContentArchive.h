@@ -11,7 +11,6 @@
 @interface FCAssetKeyContentArchive : FCContentArchive
 {
     NSData *_wrappingKey;
-    NSData *_wrappingKeyID;
 }
 
 + (_Bool);
@@ -22,7 +21,7 @@
 - (_Bool);
 - (void);
 - (long long);
-- (void)dgetConfiguration;
+- (void)widgetConfiguration;
 - (id);
 
 @end

@@ -4,16 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXMediaProvider;
+@class PXMediaProvider;
 
 @interface PXCMMPreviewUIImageProvider
 {
     PXMediaProvider *_underlyingAssetMediaProvider;
 }
 
-- (long long);
+- (long long);
 - (id);
-- (id);
+- (id)˟;
 - (id);
 - (long long);
 - (void);
@@ -23,13 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

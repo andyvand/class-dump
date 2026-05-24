@@ -9,15 +9,9 @@
 @interface PolicyUser : PolicyBase
 {
     struct PWAccessFeatures mUserPolicy;
-    struct PWMoreAccessFeatures mMoreUserPolicy;
-    unsigned long long mWarnOfExpirationMinutes;
-    unsigned long long mWarnOfDisableMinutes;
-    long long mProjectedPasswordExpireDate;
-    long long mProjectedAccountDisableDate;
-    long long mModDateOfPassword;
 }
 
-- (void);
+- (void)%;
 - (void);
 - (struct __CFDictionary *);
 - (struct __CFDictionary *);

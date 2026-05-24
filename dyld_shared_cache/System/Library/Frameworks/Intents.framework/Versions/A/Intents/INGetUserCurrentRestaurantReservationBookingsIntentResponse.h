@@ -6,7 +6,7 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface INGetUserCurrentRestaurantReservationBookingsIntentResponse : INIntentResponse
 {
@@ -14,32 +14,24 @@
 }
 
 + (_Bool);
+- (id)T;
+- (void);
 - (id);
+- (id);
+- (id);
+- (id)fetchObjectIdentifierWithReply:(id)arg1;
+- (id);
+- (_Bool)_autoHotspotBrowseDuration;
+- (void)didUserJoinStandalone6GHzNetwork;
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (long long)sponse;
-- (void)exOptionsForSetClimateSettingsInCar:withCompletion: /* Error: Ran out of types for this method. */;
+- (long long)_INPBSaveProfileInCarIntentResponse;
+- (void)provideFanSpeedIndexOptionsForSetClimateSettingsInCar:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(copy) NSArray *userCurrentBookings; // @synthesize userCurrentBookings=_userCurrentBookings;
 
 @end
 

@@ -4,51 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKICSPreviewModel, NSMutableArray;
-@protocol EKICSPreviewListDelegate;
+@class EKICSPreviewModel;
 
 __attribute__((visibility("hidden")))
 @interface EKICSPreviewListController
 {
     EKICSPreviewModel *_model;
-    NSMutableArray *_sections;
-    _Bool _allowsImport;
-    _Bool _allowsSubitems;
-    _Bool _showWeekNumbers;
-    id <EKICSPreviewListDelegate> _listDelegate;
-    struct CGColor *_overrideCalendarColor;
 }
 
-- (void);
+- (void)&s;
 - (void);
 - (void);
 - (void);
 - (void);
 - (struct CGColor *);
-- (id);
+- (id)s;
 - (void);
+- (_Bool)&s;
+- (_Bool);
+- (id);
+- (void)q;
+- (void){;
 - (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (_Bool);
 - (id);
 - (void);
 - (id);
+- (long long);
+- (void)`;
+- (void);
 - (long long);
 - (void);
-- (void);
-- (long long);
-- (void);
 - (id);
-- (void)tTitleLineBreakMode: /* Error: Ran out of types for this method. */;
+- (void)setTitleLineBreakMode: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsImport; // @synthesize allowsImport=_allowsImport;
-@property(nonatomic) _Bool allowsSubitems; // @synthesize allowsSubitems=_allowsSubitems;
-@property(nonatomic) __weak id <EKICSPreviewListDelegate> listDelegate; // @synthesize listDelegate=_listDelegate;
-@property(nonatomic) struct CGColor *overrideCalendarColor; // @synthesize overrideCalendarColor=_overrideCalendarColor;
 @property(nonatomic) _Bool showWeekNumbers; // @synthesize showWeekNumbers=_showWeekNumbers;
 
 @end

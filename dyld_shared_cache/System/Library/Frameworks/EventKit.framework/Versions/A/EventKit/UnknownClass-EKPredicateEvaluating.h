@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (EKPredicateEvaluating)
-- (_Bool);
+- (_Bool)kMRMediaRemoteApplicationDidReportPlaybackErrorNotification;
 @end
 

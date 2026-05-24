@@ -6,12 +6,11 @@
 
 #import <SystemMigration/SMMigrationRequest.h>
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface SMWindowsMigrationRequest : SMMigrationRequest
 {
     NSString *_destinationPath;
-    NSMutableArray *_systemComponentDicts;
 }
 
 + (_Bool);
@@ -21,16 +20,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)8;
 - (void);
-- (void);
+- (void)validateLayoutInRect:(id)arg1;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy) NSString *destinationPath; // @synthesize destinationPath=_destinationPath;
-@property(retain) NSMutableArray *systemComponentDicts; // @synthesize systemComponentDicts=_systemComponentDicts;
 
 @end
 

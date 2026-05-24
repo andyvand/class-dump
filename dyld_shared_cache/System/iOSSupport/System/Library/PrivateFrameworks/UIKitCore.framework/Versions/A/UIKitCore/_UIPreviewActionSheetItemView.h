@@ -6,42 +6,36 @@
 
 #import <UIKitCore/UIView.h>
 
-@class UIImageView, UILabel, UIPreviewAction;
+@class UILabel;
 
 __attribute__((visibility("hidden")))
 @interface _UIPreviewActionSheetItemView : UIView
 {
     _Bool _selected;
-    UIPreviewAction *_action;
-    UILabel *_label;
-    UIImageView *_imageView;
 }
 
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)@"NSString"16@"NSData"24@"NSString"32;
+- (void)account:chat:style:chatProperties:chatPersonCentricID:member:statusChanged: /* Error: Ran out of types for this method. */;
+- (void)_saveKeychainPassword;
+- (void)_removeOriginatedMessage: /* Error: Ran out of types for this method. */;
+- (void)hat. Bailing. %@;
+- (void);
 - (void);
 - (id);
-- (id)dChange;
+- (void);
+- (id);
+- (id)_hasSeenPencilPairingUIDidChange;
 - (id)city;
 - (void)ðð;
 - (id)atic changes to interface orientation.;
 - (void)yWindowSceneObserver * _Nonnull _UIKeyWindowSceneObserverForScene(UIWindowScene * _Nonnull const __strong);
-- (void);
-- (void)llCt;
+- (void)VoicedKey;
+- (void)SS_So6NSNullCt;
 - (void)ÿÿÿÿ;
 - (_Bool)àa;
 
 // Remaining properties
-@property(copy, nonatomic) UIPreviewAction *action; // @synthesize action=_action;
-@property(nonatomic) __weak UIImageView *imageView; // @synthesize imageView=_imageView;
 @property(nonatomic) __weak UILabel *label; // @synthesize label=_label;
-@property(nonatomic) _Bool selected; // @synthesize selected=_selected;
 
 @end
 

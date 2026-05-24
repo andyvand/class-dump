@@ -9,7 +9,6 @@
 @interface Network.NWArray
 {
     id deque;
-    id applyCount;
 }
 
 - (id);
@@ -19,7 +18,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *redactedDescription;
 
 @end
 

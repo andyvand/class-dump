@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface IDSFeatureToggler
 {
     NSString *_service;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);
@@ -24,7 +22,6 @@
 - (void)Â;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property(retain, nonatomic) NSString *service; // @synthesize service=_service;
 
 @end

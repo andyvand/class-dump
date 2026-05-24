@@ -7,21 +7,10 @@
 @interface NewsFeed.DebugFormatCanvasView
 {
     id identifier;
-    id label;
-    id feedView;
-    id canvasView;
-    id priorityView;
-    id bindLabel;
-    id errorLabel;
-    id chinView;
-    id renderKey;
-    id bezelView;
-    id activityIndicatorView;
-    id state;
 }
 
 - (id);
-- (void);
+- (void)as not called.;
 - (id);
 - (void);
 

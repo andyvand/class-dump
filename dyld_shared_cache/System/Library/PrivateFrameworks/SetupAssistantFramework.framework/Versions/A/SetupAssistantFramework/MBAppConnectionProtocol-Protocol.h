@@ -5,5 +5,7 @@
 //
 
 @protocol MBAppConnectionProtocol
+- (void);
+- (void);
 @end
 

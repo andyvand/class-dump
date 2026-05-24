@@ -8,7 +8,7 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)pdated AVMobileControlsViewController to:(id)arg1 %@;
 
 @end
 

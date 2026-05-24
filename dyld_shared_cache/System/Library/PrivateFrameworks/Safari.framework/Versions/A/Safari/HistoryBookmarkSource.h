@@ -6,26 +6,21 @@
 
 #import <Safari/BookmarkSource.h>
 
-@class NSArray, NSDateFormatter, NSMapTable, NSObject, NSString, WBSHistorySessionController;
-@protocol OS_dispatch_queue;
+@class WBSHistorySessionController;
 
 __attribute__((visibility("hidden")))
 @interface HistoryBookmarkSource : BookmarkSource
 {
     WBSHistorySessionController *_historySessionController;
-    NSArray *_sessions;
-    NSDateFormatter *_dateFormatter;
-    NSMapTable *_bookmarkCache;
-    NSObject<OS_dispatch_queue> *_ignoredSiriSuggestedSitesQueue;
 }
 
 + (id);
 - (id);
 - (id);
 - (unsigned int);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -48,13 +43,7 @@ __attribute__((visibility("hidden")))
 - (void)ÿÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

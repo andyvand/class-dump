@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, SMRulesEngineDBClient;
+@class NSArray, NSDictionary;
 
 @interface SMRulesEngineRuleHandler
 {
     NSArray *_generatedLegacyServerRules;
-    NSDictionary *_longTermSourceSystemIdentifier;
-    NSDictionary *_longTermDestinationSystemIdentifier;
-    SMRulesEngineDBClient *_rulesEngineDBClient;
 }
 
 - (id);
@@ -34,7 +31,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -58,10 +55,7 @@
 × ;
 
 // Remaining properties
-@property(retain) NSArray *generatedLegacyServerRules; // @synthesize generatedLegacyServerRules=_generatedLegacyServerRules;
-@property(retain, nonatomic) NSDictionary *longTermDestinationSystemIdentifier; // @synthesize longTermDestinationSystemIdentifier=_longTermDestinationSystemIdentifier;
 @property(retain, nonatomic) NSDictionary *longTermSourceSystemIdentifier; // @synthesize longTermSourceSystemIdentifier=_longTermSourceSystemIdentifier;
-@property(retain) SMRulesEngineDBClient *rulesEngineDBClient; // @synthesize rulesEngineDBClient=_rulesEngineDBClient;
 
 @end
 

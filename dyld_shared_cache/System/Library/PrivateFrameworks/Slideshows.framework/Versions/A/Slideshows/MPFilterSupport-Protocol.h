@@ -5,5 +5,7 @@
 //
 
 @protocol MPFilterSupport
+- (void);
+- (void)equest"32@?<v@?q@"NSURLRequest">40;
 @end
 

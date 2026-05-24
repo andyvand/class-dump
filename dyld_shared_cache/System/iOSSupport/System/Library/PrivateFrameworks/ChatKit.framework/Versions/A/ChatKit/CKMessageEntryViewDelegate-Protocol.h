@@ -4,6 +4,57 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKMessageEntryView, CKSendMenuPresentation, UIInputContextHistory, UIView, UIViewController;
+@protocol CKGradientReferenceView;
+
 @protocol CKMessageEntryViewDelegate
+- (UIViewController *)ic_animateWithDuration:(CKMessageEntryView *)arg1 timingFunction:animations:completion: /* Error: Ran out of types for this method. */;
+- (void)didChangeAttachment;
+- (void)didAuthenticateDevicePasswordWithPrompt:(_Bool)arg1 error:displayWindow:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)didAttemptToSubmitWithoutHint;
+- (_Bool)dictionaryWithObjects:(CKMessageEntryView *)arg1 forKeys: /* Error: Ran out of types for this method. */;
+- (void)dictionaryWithDictionary:(CKMessageEntryView *)arg1;
+- (void)dictionary;
+- (void)devicesForAccount:(CKMessageEntryView *)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (void)deviceRGBColorSpace;
+- (void)devicePasswordIncompatibleConfirmationAlertWithAccount:(CKMessageEntryView *)arg1 incompatibilityMessage: /* Error: Ran out of types for this method. */;
+- (void)deviceInfosWithoutPreviewImagesFromDeviceInfos:(CKMessageEntryView *)arg1;
+- (void)deviceAccountName;
+- (void)descendantsForUUID:(CKMessageEntryView *)arg1;
+- (struct CGSize)depth;
+- (double)deleteWordBackwardForSpecialCasesInTextView:(CKMessageEntryView *)arg1;
+- (_Bool)deleteWithDecisionController:(CKMessageEntryView *)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void)deleteEmptyNote:(CKMessageEntryView *)arg1;
+- (void)deleteAllDocCamPDFs;
+- (void)delayLoadingURLs;
+- (void)defaultWebpagePreferences;
+- (CKSendMenuPresentation *)defaultTitleForAttachmentType:(CKMessageEntryView *)arg1;
+- (_Bool)defaultListAttributesWithContentSizeCategory:(CKMessageEntryView *)arg1;
+- (_Bool)defaultImageSize;
+- (void)defaultAttachmentThumbnailViewHeight;
+- (void)decryptedData;
+- (void)decomposedHighlightInfo;
+- (UIInputContextHistory *)_hintTextField;
+- (UIView<CKGradientReferenceView> *)_isPlayingMedia;
+
+@optional
+- (void)setIsAsynchronous:(CKMessageEntryView *)arg1;
+- (void)ic_animateWithDuration:(CKMessageEntryView *)arg1 animations:completion: /* Error: Ran out of types for this method. */;
+- (void)ic_animateWithDuration:(CKMessageEntryView *)arg1 animations: /* Error: Ran out of types for this method. */;
+- (_Bool)PerSection:(double *)arg1 duration:(double *)arg2 completion: /* Error: Ran out of types for this method. */;
+- (void)ic_allSatisfy:(CKMessageEntryView *)arg1;
+- (void)ic_addForegroundColorInRangesWhereNoColorAlreadyExists:(CKMessageEntryView *)arg1;
+- (void)htmlStringWithHTMLAttachments;
+- (void)htmlStringFromAttributedString:(CKMessageEntryView *)arg1 attachmentConversionHandler: /* Error: Ran out of types for this method. */;
+- (void)htmlStringByFixingDashedListsInHTMLString:(CKMessageEntryView *)arg1;
+- (void)htmlAccountForObject:(CKMessageEntryView *)arg1;
+- (void)hostApplicationIdentifier;
+- (void)highlightsAttributedStringForTextStorage:(CKMessageEntryView *)arg1;
+- (void)highlightRangeForTextFindingMatchRange:(CKMessageEntryView *)arg1;
+- (struct CGRect)hidden;
+- (void)ICLearnMoreButtonUnpressedColor;
+- (void)SArray",C,N,V_supportedSizes;
+- (void);
+- (double)limit;
 @end
 

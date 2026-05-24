@@ -5,5 +5,8 @@
 //
 
 @protocol MXMDisplayProbePlatformDelegate
+
+@optional
+- (void);
 @end
 

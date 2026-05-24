@@ -4,48 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDWidget
 {
     NSString *_identifier;
-    NSString *_kind;
 }
 
 + (id);
-- (id);
+- (id)timeIntervalSinceReferenceDate;
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id)on:(struct _NSZone *)arg1 forUser:fromDevice: /* Error: Ran out of types for this method. */;
-- (id)eExtensions;
+- (id)processUserPresenceWithAuthStatus:(struct _NSZone *)arg1 regionStatus:updateReason:forUser:fromDevice: /* Error: Ran out of types for this method. */;
+- (id)MKFActionPrivateExtensions;
 - (id)}@Nil message & not primary, should not show bulletins;
 - (id)C association already in progress;
 - (void)Fragment Duration;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy) NSString *kind; // @synthesize kind=_kind;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,10 +7,6 @@
 @interface BiomeSQLParser.PgQuery_ConvertRowtypeExpr._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _xpr;
-    id _arg;
-    id _resulttype;
-    id _convertformat;
-    id _location;
 }
 
 @end

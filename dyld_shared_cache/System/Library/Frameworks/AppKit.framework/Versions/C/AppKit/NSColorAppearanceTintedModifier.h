@@ -13,26 +13,20 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
++ (id)obliterateAllSessionsWithReply: /* Error: Ran out of types for this method. */;
 + (id);
-+ (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)atchAppBundleIdentifier;
+- (id)Task:(id)arg1 )` delegate method.;
+- (void)A;
+- (id)nfirmation;
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id)hFrame:(struct _NSZone *)arg1 inView: /* Error: Ran out of types for this method. */;
-- (id)agatesToDescendants;
+- (id)_highlightOutlineCell:(struct _NSZone *)arg1 highlight:withFrame:inView: /* Error: Ran out of types for this method. */;
+- (id)_userInterfaceLayoutDirectionPropagatesToDescendants;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

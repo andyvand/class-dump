@@ -9,24 +9,22 @@
 @interface AXMCoreMotionNode : AXMSourceNode
 {
     unsigned long long _samplesPerSecond;
-    double _lastSampleTime;
 }
 
-+ (_Bool);
++ (_Bool)handle;
 + (id);
 + (_Bool);
-- (void);
-- (void);
-- (unsigned long long);
+- (void)\|;
+- (void)c\|;
+- (unsigned long long)|;
 - (void);
 - (double);
 - (id);
-- (id);
+- (id)@@"TCInputContextHistory";
 - (void);
 
 // Remaining properties
 @property(nonatomic) double lastSampleTime; // @synthesize lastSampleTime=_lastSampleTime;
-@property(nonatomic) unsigned long long samplesPerSecond; // @synthesize samplesPerSecond=_samplesPerSecond;
 
 @end
 

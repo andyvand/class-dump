@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet, NSString;
-
 @interface HLPURLSessionHandler
 {
     _Bool _shouldIgnoreInMemoryCaching;
     _Bool _shouldDisallowOffsiteRedirects;
-    NSIndexSet *_excludeCachingDataTypes;
 }
 
 + (void);
 + (id);
 - (_Bool);
 - (void);
+- (void)sS;
 - (void);
-- (void);
-- (void);
+- (void)_;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -29,11 +26,11 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)|;
+- (id);
 - (_Bool);
-- (id);
+- (id)|;
 - (id);
 - (void);
 - (void);
@@ -41,16 +38,8 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSIndexSet *excludeCachingDataTypes; // @synthesize excludeCachingDataTypes=_excludeCachingDataTypes;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool shouldDisallowOffsiteRedirects; // @synthesize shouldDisallowOffsiteRedirects=_shouldDisallowOffsiteRedirects;
 @property(nonatomic) _Bool shouldIgnoreInMemoryCaching; // @synthesize shouldIgnoreInMemoryCaching=_shouldIgnoreInMemoryCaching;
-@property(readonly) Class superclass;
 
 @end
 

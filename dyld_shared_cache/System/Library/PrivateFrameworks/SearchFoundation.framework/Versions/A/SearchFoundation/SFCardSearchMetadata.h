@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
-
 @interface SFCardSearchMetadata
 {
     struct {
         unsigned int isServerEntity:1;
         unsigned int isFederatedDomainSearch:1;
     } _has;
-    _Bool _isServerEntity;
-    _Bool _isFederatedDomainSearch;
-    NSString *_searchQuery;
-    NSString *_viewConfigName;
 }
 
 + (_Bool);
@@ -28,31 +22,19 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)populateWithSeedItem:(id)arg1 queue:completionBlock: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool) ;
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)writeableDataForImageData:(id)arg1 imageUTIType:imageSource:thumbnailDataOut:imageUTITypeOut:primaryImagePropertiesOut:imageDataOut: /* Error: Ran out of types for this method. */;
+- (id)phoneNumber;
+- (id)˔;
 - (id);
 - (void)suggestionCardSection;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isFederatedDomainSearch; // @synthesize isFederatedDomainSearch=_isFederatedDomainSearch;
 @property(nonatomic) _Bool isServerEntity; // @synthesize isServerEntity=_isServerEntity;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *searchQuery; // @synthesize searchQuery=_searchQuery;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *viewConfigName; // @synthesize viewConfigName=_viewConfigName;
 
 @end
 

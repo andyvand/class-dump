@@ -4,34 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPStoreItemMetadataImportWindow, NSMutableDictionary, NSObject, NSOperationQueue;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface MPStoreItemMetadataRequestController
 {
     NSObject<OS_dispatch_queue> *_calloutQueue;
-    NSOperationQueue *_operationQueue;
-    unsigned long long _lastExpiredMetadataPurgeMachTime;
-    NSMutableDictionary *_itemCaches;
-    struct os_unfair_lock_s _transactionLock;
-    long long _transactionCount;
-    MPStoreItemMetadataImportWindow *_importWindow;
-    long long _cacheSize;
 }
 
 + (id);
-+ (unsigned long long);
++ (unsigned long long)alterExtensionStmt;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)_ressortgroupref;
 - (id);
+- (void)h_geom_trans_x_absmax;
 - (void);
-- (void);
-- (void)oCollaborationWithPersistentID:completionHandler: /* Error: Ran out of types for this method. */;
-- (long long)opertyPodcastChapterTitle__MAPPING_MISSING__;
+- (void)_addItemWithAdamID:toCollaborationWithPersistentID:completionHandler: /* Error: Ran out of types for this method. */;
+- (long long)__MPModelPropertyPodcastChapterTitle__MAPPING_MISSING__;
 - (void)jp¡õjw¡ºjv¡ju¡ujt¡»j{¡{jz¡<jy¡¬jx¡j¡~j~¡¿j}¡j|¡1jc¡Qjb¡3ja¡áj`¡2jg¡Àjf¡;
 
 // Remaining properties

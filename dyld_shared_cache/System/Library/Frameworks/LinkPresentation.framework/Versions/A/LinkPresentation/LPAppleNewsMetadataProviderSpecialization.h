@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-+ (unsigned long long);
++ (unsigned long long)__objc_protorefs__DATA_CONST;
 
 @end
 

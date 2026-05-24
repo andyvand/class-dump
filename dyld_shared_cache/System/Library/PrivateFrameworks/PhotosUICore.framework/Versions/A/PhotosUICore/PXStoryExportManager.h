@@ -9,32 +9,29 @@
 @interface PXStoryExportManager
 {
     long long _qualityOfService;
-    NSOperationQueue *_operationQueue;
 }
 
 + (id);
 + (void);
-+ (_Bool);
++ (_Bool);
 + (void);
 + (id);
 + (void);
 + (id);
-+ (id);
++ (id);
 + (id);
 - (void);
 - (id);
 - (long long);
 - (void);
-- (long long);
+- (long long)s/AXRuntime.framework/Versions/A/AXRuntime;
 - (id);
 - (id)ple.photos.memory.interactiveMemoryTimelinePlayedWith85-94PercentTransitionsOnBar;
-- (void)ection;
+- (void)FakeIndexedAssetCollection;
 - (void)|9Kÿ;
 
 // Remaining properties
-@property(nonatomic) long long maxConcurrentExportCount;
 @property(readonly, nonatomic) NSOperationQueue *operationQueue; // @synthesize operationQueue=_operationQueue;
-@property(nonatomic) long long qualityOfService; // @synthesize qualityOfService=_qualityOfService;
 
 @end
 

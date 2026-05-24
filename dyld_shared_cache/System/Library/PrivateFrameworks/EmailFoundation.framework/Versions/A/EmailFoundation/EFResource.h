@@ -7,7 +7,6 @@
 @interface EFResource
 {
     struct os_unfair_lock_s _unfair_lock;
-    _Atomic long long _lockCount;
 }
 
 - (void);

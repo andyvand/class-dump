@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSPopover, NSString, NSURL, NSWindow;
+@class NSArray, NSPopover, NSString;
 @protocol ReaderAppearanceViewControllerDelegate;
 
 @protocol AssistantPopoverViewControllerDelegate
@@ -23,6 +23,7 @@
 - (_Bool)øø;
 - (void);
 - (_Bool)d;
+- (void)P;
 - (_Bool);
 - (void);
 - (void);
@@ -30,15 +31,5 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSPopover *assistantPopover;
-@property(readonly, nonatomic) double assistantPopoverMaxHeight;
-@property(readonly, nonatomic) NSWindow *browserWindowControllerWindow;
-@property(readonly, copy, nonatomic) NSURL *currentOrExpectedURL;
-@property(readonly, nonatomic) double currentZoomFactor;
-@property(readonly, nonatomic) unsigned long long hiddenElementCount;
-@property(readonly, nonatomic) _Bool isReaderAvailable;
-@property(readonly, nonatomic) NSString *pageTitle;
-@property(nonatomic) __weak id <ReaderAppearanceViewControllerDelegate> readerAppearanceDelegate;
-@property(readonly, nonatomic) _Bool shouldShowItemToReportScribbleIssues;
-@property(readonly, copy, nonatomic) NSArray *zoomFactors;
 @end
 

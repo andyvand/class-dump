@@ -4,32 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVConferenceXPCClient, NSObject, NSString;
+@class AVConferenceXPCClient, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface AVCStreamInput
 {
     AVConferenceXPCClient *_xpcConnection;
-    NSObject<OS_dispatch_queue> *_xpcQueue;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    id _delegate;
-    long long _streamInputID;
-    NSString *_description;
-    struct opaqueCMFormatDescription *_formatDescription;
-    _Bool _isStarted;
-    CDStruct_1b6d18a9 _lastHealthPrintTime;
-    struct opaqueVCRemoteImageQueue *_senderQueue;
-    _Bool _useFigRemoteQueue;
-    _Bool _didInitializeSuccessfully;
-    _Bool _serverDiedWhileStarted;
-    struct __CFAllocator *_sampleBufferAllocator;
-    unsigned long long _memoryPoolSize;
-    char _streamInputIDString[20];
-    _Bool _printSampleBufferDetailsEnabled;
-    _Bool _requireTileIndexAttachment;
-    struct os_unfair_lock_s _senderQueueLock;
-    struct tagAVCStreamInputDataStats _payloadStats;
-    struct tagAVCStreamInputDataStats _tileIndexStats[2];
 }
 
 - (void);
@@ -43,7 +23,7 @@
 - (int);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (int);
 - (id);
 - (id);
@@ -56,21 +36,18 @@
 - (void);
 - (void);
 - (int);
-- (void);
-- (int);
+- (void);
+- (int)NSPServerPrivacyProxyConfigDictionary;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (struct opaqueCMFormatDescription *);
+- (struct opaqueCMFormatDescription *);
 - (int);
 - (id)Íéð¼%;
 
 // Remaining properties
-@property(readonly, nonatomic) struct opaqueCMFormatDescription *formatDescription; // @synthesize formatDescription=_formatDescription;
-@property(readonly, nonatomic) struct __CFAllocator *sampleBufferAllocator; // @synthesize sampleBufferAllocator=_sampleBufferAllocator;
-@property(readonly, nonatomic) long long streamInputID; // @synthesize streamInputID=_streamInputID;
 @property(readonly) NSObject<OS_dispatch_queue> *xpcQueue; // @synthesize xpcQueue=_xpcQueue;
 
 @end

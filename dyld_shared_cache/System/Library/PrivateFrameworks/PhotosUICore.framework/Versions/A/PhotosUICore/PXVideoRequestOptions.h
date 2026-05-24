@@ -4,28 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface PXVideoRequestOptions
 {
     _Bool _restrictToStreamable;
-    _Bool _networkAccessAllowed;
-    _Bool _restrictToPlayableOnCurrentDevice;
-    _Bool _restrictToEncryptedStream;
-    _Bool _streamingAllowed;
-    _Bool _allowMediumHighQuality;
-    _Bool _liveRenderVideoIfNeeded;
-    _Bool _includeTimeRangeMapper;
-    long long _version;
-    long long _deliveryMode;
-    CDUnknownBlockType _progressHandler;
-    NSObject<OS_dispatch_queue> *_resultHandlerQueue;
-    long long _streamingVideoIntent;
-    long long _downloadIntent;
-    long long _downloadPriority;
-    struct CGSize _targetSize;
-    CDStruct_e83c9415 _timeRange;
 }
 
 - (id);
@@ -35,9 +16,9 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -47,11 +28,11 @@
 - (_Bool);
 - (void);
 - (void);
-- (long long);
-- (long long);
+- (long long)ationVersion;
+- (long long);
 - (id);
-- (void);
-- (long long);
+- (void)removePrefetchInterestInArticleID:(_Bool)arg1;
+- (long long)ReplicaViewController.swift;
 - (id);
 - (void);
 - (long long);
@@ -59,8 +40,8 @@
 - (void);
 - (void);
 - (void);
-- (id)EngUIToDifferentiateBetweenSharedAlbumTypes;
-- (CDStruct_e83c9415)raryActionSetPersonalLibraryFilter;
+- (id)shouldShowEngUIToDifferentiateBetweenSharedAlbumTypes;
+- (CDStruct_e83c9415)PXCuratedLibraryActionSetPersonalLibraryFilter;
 - (void)XLocalizedSharedAlbumsString(NSString *__strong _Nonnull);
 - (void)´¿ÉÑ>³ø;
 - (CDUnknownBlockType);
@@ -68,23 +49,7 @@
 - (void)Üÿ´~K<;;;
 
 // Remaining properties
-@property(nonatomic, getter=isMediumHighQualityAllowed) _Bool allowMediumHighQuality; // @synthesize allowMediumHighQuality=_allowMediumHighQuality;
-@property(nonatomic) long long deliveryMode; // @synthesize deliveryMode=_deliveryMode;
-@property(nonatomic) long long downloadIntent; // @synthesize downloadIntent=_downloadIntent;
-@property(nonatomic) long long downloadPriority; // @synthesize downloadPriority=_downloadPriority;
 @property(nonatomic) _Bool includeTimeRangeMapper; // @synthesize includeTimeRangeMapper=_includeTimeRangeMapper;
-@property(nonatomic) _Bool liveRenderVideoIfNeeded; // @synthesize liveRenderVideoIfNeeded=_liveRenderVideoIfNeeded;
-@property(nonatomic, getter=isNetworkAccessAllowed) _Bool networkAccessAllowed; // @synthesize networkAccessAllowed=_networkAccessAllowed;
-@property(copy, nonatomic) CDUnknownBlockType progressHandler; // @synthesize progressHandler=_progressHandler;
-@property(nonatomic) _Bool restrictToEncryptedStream; // @synthesize restrictToEncryptedStream=_restrictToEncryptedStream;
-@property(nonatomic) _Bool restrictToPlayableOnCurrentDevice; // @synthesize restrictToPlayableOnCurrentDevice=_restrictToPlayableOnCurrentDevice;
-@property(nonatomic) _Bool restrictToStreamable; // @synthesize restrictToStreamable=_restrictToStreamable;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *resultHandlerQueue; // @synthesize resultHandlerQueue=_resultHandlerQueue;
-@property(nonatomic, getter=isStreamingAllowed) _Bool streamingAllowed; // @synthesize streamingAllowed=_streamingAllowed;
-@property(nonatomic) long long streamingVideoIntent; // @synthesize streamingVideoIntent=_streamingVideoIntent;
-@property(nonatomic) struct CGSize targetSize; // @synthesize targetSize=_targetSize;
-@property(nonatomic) CDStruct_e83c9415 timeRange; // @synthesize timeRange=_timeRange;
-@property(nonatomic) long long version; // @synthesize version=_version;
 
 @end
 

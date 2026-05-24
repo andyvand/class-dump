@@ -4,32 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GCDeviceLight, NSString;
-@protocol GCLightXPCProxyRemoteClientEndpointInterface, GCLightXPCProxyServerEndpointDelegate, NSObject><NSCopying><NSSecureCoding, _GCControllerComponentDescription, _GCIPCEndpointConnection;
+@protocol GCLightXPCProxyRemoteClientEndpointInterface, _GCControllerComponentDescription;
 
 __attribute__((visibility("hidden")))
 @interface GCLightXPCProxyServerEndpoint
 {
     id <GCLightXPCProxyRemoteClientEndpointInterface> _clientEndpoint;
-    id <_GCIPCEndpointConnection> _connection;
-    id _connectionInterruptionRegistration;
-    id _connectionInvalidationRegistration;
-    unsigned long long _pendingUpdates;
-    id <NSObject><NSCopying><NSSecureCoding> _identifier;
-    GCDeviceLight *_light;
-    id <GCLightXPCProxyServerEndpointDelegate> _delegate;
-    id _userInfo;
 }
 
 - (void);
 - (id);
+- (void)<;
+- (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)t;
 - (id);
 - (id);
 - (id);
@@ -40,18 +31,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <GCLightXPCProxyServerEndpointDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <NSObject><NSCopying><NSSecureCoding> identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) GCDeviceLight *light; // @synthesize light=_light;
 @property(readonly, nonatomic) id <_GCControllerComponentDescription> receiverDescription;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

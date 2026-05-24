@@ -7,12 +7,10 @@
 @interface IDSFoundation.EventTracingField
 {
     id name;
-    id value;
-    id privacyMode;
 }
 
 - (id);
-- (void)PaySharing;
+- (void)ITWApplePaySharing;
 
 @end
 

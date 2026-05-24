@@ -10,11 +10,11 @@
 
 + (_Bool);
 + (_Bool);
++ (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)C;
 + (_Bool);
 + (_Bool);
 + (_Bool);

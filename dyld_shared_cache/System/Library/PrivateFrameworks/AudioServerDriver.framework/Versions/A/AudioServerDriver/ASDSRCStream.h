@@ -6,19 +6,11 @@
 
 #import <AudioServerDriver/ASDStream.h>
 
-@class ASDAudioDevice, NSArray, NSObject;
-@protocol OS_dispatch_queue;
+@class ASDAudioDevice, NSArray;
 
 @interface ASDSRCStream : ASDStream
 {
     ASDAudioDevice *_owningDevice;
-    struct unique_ptr<ASDSRCStreamHelper, std::default_delete<ASDSRCStreamHelper>> _streamHelper;
-    NSObject<OS_dispatch_queue> *_srcQueue;
-    NSObject<OS_dispatch_queue> *_propertyQueue;
-    _Bool _isRunning;
-    long long _maximumFramesPerIOCycle;
-    long long _ioReferenceCount;
-    NSArray *_underlyingStreams;
 }
 
 - (void);
@@ -32,17 +24,16 @@
 - (void);
 - (void);
 - (_Bool);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (id);
+- (CDUnknownBlockType)requiresAccountMessage;
+- (CDUnknownBlockType)manageBusyImageResponses:initiationType:requestParams:queue:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)aryClientConnectedTime_HH2:(unsigned int)arg1 numberOfTimesPrimaryClientConnected_HH2:(id)arg2 numberOfTimesPrimaryClientDisconnected_HH2:numberOfTimesPrimaryClientConnectMessageFailed_HH2:currentDeviceConfirmedPrimaryResident_INT:lastPrimaryClientConnectMessageFailErrorCode_HH2:lastPrimaryClientConnectMessageFailErrorDomain_HH2:lastPrimaryClientConnectMessageFailUnderlyingErrorCode_HH2:lastPrimaryClientConnectMessageFailUnderlyingErrorDomain_HH2:primaryResidentElectionPeerDeviceFutureResolvedMS_HH2:primaryResidentElectionFirstCloudKitImportFutureResolvedMS_HH2:primaryResidentElectionModernTransportStartedFutureResolvedMS_HH2:primaryResidentSelectionConnectedToStatusKitFutureResolvedMS_HH2:primaryResidentElectionJoinMeshMS_HH2:firstCoreDataContainerSetupDurationMS_HH2:firstCoreDataContainerSetupErrorCode_HH2:firstCoreDataContainerSetupErrorDomain_HH2:firstCoreDataContainerSetupUnderlyingErrorCode_HH2:firstCoreDataContainerSetupUnderlyingErrorDomain_HH2:savedEventState: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (id);
+- (id)!;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long maximumFramesPerIOCycle;
 @property(copy, nonatomic) NSArray *underlyingStreams; // @synthesize underlyingStreams=_underlyingStreams;
 
 @end

@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-- (id);
+- (id)b;
 - (struct BindingEvaluator);
 - (id);
 - (unsigned long long);

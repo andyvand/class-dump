@@ -5,5 +5,6 @@
 //
 
 @protocol CTXPCServiceEmergencyInterface
+- (void);
 @end
 

@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class FLOWLINKSchemaFLOWLINKActionParameter, NSData;
+@class FLOWLINKSchemaFLOWLINKActionParameter;
 
 @interface FLOWLINKSchemaFLOWLINKActionParameterDisambiguationStarted : SISchemaInstrumentationMessage
 {
     FLOWLINKSchemaFLOWLINKActionParameter *_parameter;
-    _Bool _hasParameter;
 }
 
 - (void);
@@ -20,20 +19,18 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)initWithDomain:(id)arg1 code:userInfo: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)ceWarmupAttemptContext";
-- (id)ph;
+- (id)USOSchemaUSOGraph;
 - (id)l566 7;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasParameter; // @synthesize hasParameter=_hasParameter;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) FLOWLINKSchemaFLOWLINKActionParameter *parameter; // @synthesize parameter=_parameter;
 
 @end

@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOVLFUsageTileID, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOVLFTileDetails
 {
     PBUnknownFields *_unknownFields;
-    GEOVLFUsageTileID *_tileId;
-    unsigned int _tileSizeBytes;
-    struct {
-        unsigned int has_tileSizeBytes:1;
-    } _flags;
 }
 
-+ (_Bool);
++ (_Bool)setObject:(id)arg1;
 - (unsigned int);
 - (id);
 - (void);
@@ -24,30 +19,26 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)setDecisionWaitSampleCount:(id)arg1;
+- (id)d];
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)`";
 - (id)º*1Â0@ù
 × ;
-- (id)ar: /* Error: Ran out of types for this method. */;
-- (id)ation;
-- (id)scription;
+- (id)initWithResultRefinementBar: /* Error: Ran out of types for this method. */;
+- (id)hasGridDuration;
+- (id)source_description;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasTileId;
-@property(nonatomic) _Bool hasTileSizeBytes;
-@property(retain, nonatomic) GEOVLFUsageTileID *tileId;
-@property(nonatomic) unsigned int tileSizeBytes;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

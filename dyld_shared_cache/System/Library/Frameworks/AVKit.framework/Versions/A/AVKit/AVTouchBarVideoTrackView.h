@@ -12,14 +12,13 @@ __attribute__((visibility("hidden")))
 @interface AVTouchBarVideoTrackView : AVTouchBarTrackView
 {
     NSMutableArray *_thumbnailsAndFilteredImages;
-    _Bool _allPreviewLayersHaveContent;
 }
 
 + (double);
 - (void);
 - (void);
 - (double);
-- (id);
+- (id)J;
 - (struct CGSize);
 - (void);
 - (struct CGSize);
@@ -28,8 +27,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (void);
+- (id)__DATA_CONST;
+- (void)(7;
 
 @end
 

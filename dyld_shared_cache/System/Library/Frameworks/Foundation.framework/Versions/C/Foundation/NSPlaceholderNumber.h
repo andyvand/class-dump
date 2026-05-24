@@ -11,23 +11,23 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)AdaptiveImageGlyph;
++ (_Bool)NSAdaptiveImageGlyph;
 - (id);
 - (id);
 - (id);
+- (id)9;
+- (id);
+- (id);
+- (id);
+- (id)coderConfigDescr:(BOOL)arg1:DeserializeMPEG4AudioSpecificConfig:cannot parse MP4ELDSpecificConfig /* Error: Ran out of types for this method. */;
+- (id)ypass;
 - (id);
 - (id);
 - (id);
+- (id)B;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id):(unsigned char)arg1;
-- (id)ptions:(double)arg1 purposeID:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)JSONObjectWithData:(unsigned char)arg1 options:error: /* Error: Ran out of types for this method. */;
+- (id)relinquishToReadingClaimWithID:(double)arg1 options:purposeID:completionHandler: /* Error: Ran out of types for this method. */;
 - (id)TTTTUUUVVVWWXYZ[[\\\\\\\\\]]^^_`aaaaabbccdddddeeeefffgghiiijjjkklmnoooppqqrsssssstuvwxyz{{{|}}}}~~~~   ¡¡¡¢¢¢¢¢¢£¤¤¤¥¥¥¦¦§§¨©©©ª«¬­®®®®®¯¯°°±±±²²²²³³³³´´´´µ¶¶¶·····¸¸¸¹¹º»¼¼½½½½½½¾¿ÀÁÁÂÂÃÃÄÄÄÄÄÄÅÆÇÈÈÈÈÈÈÈÈÉÊÊËÌÌÌÍÍÎÏÐÐÐÐÑÑÒÒÒÒÒÒÒÓÓÓÔÔÕÕÖ×ØØØØØÙÙÙÚÚÚÚÚÚÛÛÜÜÝÝÞÞÞßßßßßßßßßàáâââããããääääääääåååææçèéêëëìíîîïðñòòòòòòòòóóóóóóóôôõõõõö÷÷÷÷÷÷øøøøùùùùùúúúúûûüýýýýþÿÿÿÿ;
 
 @end

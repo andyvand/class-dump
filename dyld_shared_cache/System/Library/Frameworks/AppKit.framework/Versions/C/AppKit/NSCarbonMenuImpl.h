@@ -4,49 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCarbonMenuImplExtraVars, NSMenu, NSMenuItem, NSMutableArray, NSString, NSView;
+@class NSMenu, NSMenuItem;
 
 @interface NSCarbonMenuImpl
 {
     NSMenu *_menu;
-    void *_initialMenuRef;
-    void *_principalMenuRef;
-    struct OpaqueEventHandlerRef *_menuEventHandler;
-    NSMutableArray *_checkoutTokens;
-    long long customTextDrawingClientCount;
-    long long customContentDrawingClientCount;
-    long long customViewClientCount;
-    unsigned long long currentMenuUpdateFlags;
-    NSCarbonMenuImplExtraVars *_extraVars;
-    NSMenuItem *lastHighlightedItem;
-    struct {
-        unsigned int menuRefHasEverExisted:1;
-        unsigned int menuRefCheckedOutForMainMenu:1;
-        unsigned int menuRefCheckedOutAsSubmenu:1;
-        unsigned int eventsPopulate:1;
-        unsigned int eventsUpdateStatus:1;
-        unsigned int eventsCommandProcess:1;
-        unsigned int eventsOpen:1;
-        unsigned int eventsClosed:1;
-        unsigned int eventsAX:1;
-        unsigned int eventsDrawText:1;
-        unsigned int eventsDrawContent:1;
-        unsigned int eventsMatchKey:1;
-        unsigned int populateReasonTokens:4;
-        unsigned int isOpen:1;
-        unsigned int RESERVED:15;
-    } _mFlags;
 }
 
-+ (void);
++ (void)set_shouldUsePipelineHeuristics: /* Error: Ran out of types for this method. */;
 + (void);
 + (_Bool);
-+ (CDStruct_10977dfb);
++ (CDStruct_10977dfb)@;
 + (_Bool);
 + (int);
 + (int);
 + (void);
-+ (id);
++ (id);
 + (void)®H;
 - (id);
 - (void);
@@ -56,28 +29,28 @@
 - (void);
 - (void);
 - (void);
+- (void)immutableEffectiveConfigurationFromConfig:(id)arg1;
+- (void)httpOnly;
+- (void)hasSuffix:(id)arg1;
+- (void)handleSTSHeader:(id)arg1 forURL:(struct CGPoint)arg2;
+- (struct SLMPopUpMenuContext_t *)getTasksWithCompletionHandler: /* Error: Ran out of types for this method. */;
+- (void)deleteCookiesWithFilter:(SEL)arg1 completionHandler:(id)arg2;
+- (void)currentRequest_mainDocumentURL;
+- (id)_setFailInsecureLoadWithHTTPSDNSRecord:(struct __AXUIElement *)arg1;
+- (void);
+- (id)d to trim entries from alt_service db. Error= %s;
+- (void);
+- (id)rted %@, Tube type:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
-- (struct SLMPopUpMenuContext_t *);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)@;
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (struct OpaqueMenuRef *);
+- (struct OpaqueMenuRef *);
 - (struct OpaqueMenuRef *);
 - (id);
 - (_Bool);
@@ -92,9 +65,46 @@
 - (_Bool);
 - (unsigned int);
 - (void);
-- (id);
+- (id);
 - (id);
 - (unsigned int);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)@;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)@;
+- (void);
+- (void);
+- (void);
+- (void)@;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)@;
+- (void);
+- (void);
+- (void)@;
+- (void);
+- (void);
+- (void)@;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -108,44 +118,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -157,14 +130,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (struct OpaqueMenuRef *);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -172,7 +145,7 @@
 - (void);
 - (unsigned long long);
 - (struct OpaqueMenuRef *);
-- (void);
+- (void);
 - (struct OpaqueMenuRef *);
 - (void);
 - (void);
@@ -187,52 +160,40 @@
 - (_Bool);
 - (int);
 - (int);
+- (int)@;
+- (int)@;
 - (int);
 - (int);
+- (void);
+- (void)@;
+- (int);
+- (int);
+- (void);
 - (int);
 - (int);
 - (void);
 - (void);
-- (int);
-- (int);
-- (void);
-- (int);
-- (int);
-- (void);
-- (void);
-- (void);
+- (void)/;
 - (struct CGRect);
 - (void);
 - (void);
 - (long long);
 - (void);
+- (void)@;
 - (void);
-- (void);
-- (void);
+- (void)@;
 - (struct OpaqueMenuRef *);
+- (void);
+- (void);
+- (void)@;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (void)é;
 - (id)°F;
 - (id)ðêÌÿz± \G;
 
 // Remaining properties
-@property(setter=_setCurrentMenuUpdateFlags:) unsigned long long _currentMenuUpdateFlags;
-@property(readonly) NSView *_presentingView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSView",?,R
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly) NSMenuItem *targetedItem;
 
 @end

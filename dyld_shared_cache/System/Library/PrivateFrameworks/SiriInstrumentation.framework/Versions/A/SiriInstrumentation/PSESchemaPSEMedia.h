@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PSESchemaPSEMediaUserFollowupAction;
-
 @interface PSESchemaPSEMedia : SISchemaInstrumentationMessage
 {
     double _playDurationInSeconds;
-    int _mediaContentDurationBucket;
-    PSESchemaPSEMediaUserFollowupAction *_lastMediaUserFollowupAction;
-    struct {
-        unsigned int playDurationInSeconds:1;
-        unsigned int mediaContentDurationBucket:1;
-    } _has;
-    _Bool _hasLastMediaUserFollowupAction;
 }
 
 - (void);
@@ -38,22 +29,16 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)/Libraries/AppStoreDaemon/Stubs/ASDAggregateClusterMappingData_macOS.m:80 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)orming regular chat lookup migration;
 - (id);
 - (id);
-- (id)ountsReported;
+- (id)_taskCountsReported;
 - (id),V_disambiguationIndex;
-- (void)PPORTED;
+- (void)FLOWSTATUSREASON_OS_VERSION_NOT_SUPPORTED;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLastMediaUserFollowupAction; // @synthesize hasLastMediaUserFollowupAction=_hasLastMediaUserFollowupAction;
-@property(nonatomic) _Bool hasMediaContentDurationBucket;
-@property(nonatomic) _Bool hasPlayDurationInSeconds;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) PSESchemaPSEMediaUserFollowupAction *lastMediaUserFollowupAction; // @synthesize lastMediaUserFollowupAction=_lastMediaUserFollowupAction;
-@property(nonatomic) int mediaContentDurationBucket; // @synthesize mediaContentDurationBucket=_mediaContentDurationBucket;
 @property(nonatomic) double playDurationInSeconds; // @synthesize playDurationInSeconds=_playDurationInSeconds;
 
 @end

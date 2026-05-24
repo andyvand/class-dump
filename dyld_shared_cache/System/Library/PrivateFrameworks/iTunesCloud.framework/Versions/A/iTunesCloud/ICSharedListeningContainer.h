@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICSharedListeningItem, NSString;
+@class NSString;
 
 @interface ICSharedListeningContainer
 {
     NSString *_identifier;
-    long long _kind;
-    NSString *_mediaIdentifier;
-    NSString *_featureName;
-    ICSharedListeningItem *_seedItem;
-    NSString *_stationHash;
 }
 
 + (id);
@@ -31,7 +26,7 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)@;
 - (void);
 - (id);
 - (id);
@@ -40,13 +35,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *featureName; // @synthesize featureName=_featureName;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) long long kind; // @synthesize kind=_kind;
-@property(readonly, copy, nonatomic) NSString *mediaIdentifier; // @synthesize mediaIdentifier=_mediaIdentifier;
-@property(readonly, copy, nonatomic) ICSharedListeningItem *seedItem; // @synthesize seedItem=_seedItem;
-@property(readonly, copy, nonatomic) NSString *shortDescription;
-@property(readonly, copy, nonatomic) NSString *stationHash; // @synthesize stationHash=_stationHash;
 
 @end
 

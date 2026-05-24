@@ -9,6 +9,11 @@
 @protocol UIGestureRecognizerDelegate
 
 @optional
-- (_Bool)extSizeTesting:(UIGestureRecognizer *)arg1;
+- (_Bool)p0!{;
+- (_Bool)@@"NSArray";
+- (_Bool)clearAceDomainObjects;
+- (_Bool)for this OS version.;
+- (_Bool);
+- (_Bool)setTextViewForTextSizeTesting:(UIGestureRecognizer *)arg1;
 @end
 

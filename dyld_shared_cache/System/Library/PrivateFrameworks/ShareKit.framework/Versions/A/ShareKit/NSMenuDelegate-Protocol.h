@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSMenu;
+
 @protocol NSMenuDelegate
+
+@optional
+- (void)windowDidBecomeOccluded:(NSMenu *)arg1;
+- (_Bool);
 @end
 

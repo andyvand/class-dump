@@ -6,16 +6,14 @@
 
 #import <PhotosGraph/PGGraphChange.h>
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface PGGraphPersonChange : PGGraphChange
 {
     NSString *_personLocalIdentifier;
-    NSString *_contactIdentifier;
-    NSSet *_propertyNames;
 }
 
-- (void);
+- (void)_navigationOrderChildControllersToIncludeInPromotedHierarchy;
 - (id);
 - (id);
 - (id);
@@ -26,9 +24,7 @@
 - (void)hLocationName %@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
 @property(readonly, nonatomic) NSString *personLocalIdentifier; // @synthesize personLocalIdentifier=_personLocalIdentifier;
-@property(readonly, nonatomic) NSSet *propertyNames; // @synthesize propertyNames=_propertyNames;
 
 @end
 

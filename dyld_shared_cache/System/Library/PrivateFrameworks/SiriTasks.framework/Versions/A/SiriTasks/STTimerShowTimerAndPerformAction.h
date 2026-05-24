@@ -9,26 +9,23 @@
 @interface STTimerShowTimerAndPerformAction
 {
     NSArray *_timers;
-    NSArray *_templateActions;
-    unsigned long long _action;
 }
 
-+ (_Bool);
++ (_Bool)plg;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void);
+- (void)und12MLHostResult">;
 - (unsigned long long);
 - (void);
-- (id)rKey: /* Error: Ran out of types for this method. */;
+- (id)decodePropertyListForKey: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *templateActions; // @synthesize templateActions=_templateActions;
 @property(copy, nonatomic) NSArray *timers; // @synthesize timers=_timers;
 
 @end

@@ -7,8 +7,6 @@
 @interface ChatKit.DetailsActionHandlers
 {
     id faceTimeActionHandler;
-    id locationActionHandler;
-    id participantActionHandlers;
 }
 
 - (id);

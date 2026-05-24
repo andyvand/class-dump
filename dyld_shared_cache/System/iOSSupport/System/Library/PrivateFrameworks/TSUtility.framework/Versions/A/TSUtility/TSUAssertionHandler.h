@@ -8,7 +8,7 @@
 {
 }
 
-+ (void);
++ (void)So31TSPrefetchedArticlesServiceType_p;
 + (void);
 + (void);
 + (id);

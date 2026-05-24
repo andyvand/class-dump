@@ -14,14 +14,14 @@ __attribute__((visibility("hidden")))
     TIWordSearch *_wordSearch;
 }
 
-- (id);
-- (void);
-- (void);
+- (id)supportsTelephonyCalls;
+- (void)setRttCalls:(id)arg1;
+- (void)insertNewObjectForEntityForName:(id)arg1 inManagedObjectContext: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void)
 × ;
-- (void)aleIdentifier;
+- (void)localeIdentifier;
 
 // Remaining properties
 @property(retain, nonatomic) TIWordSearch *wordSearch; // @synthesize wordSearch=_wordSearch;

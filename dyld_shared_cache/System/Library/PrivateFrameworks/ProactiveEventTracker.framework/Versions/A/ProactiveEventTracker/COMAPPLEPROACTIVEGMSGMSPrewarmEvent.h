@@ -7,13 +7,6 @@
 @interface COMAPPLEPROACTIVEGMSGMSPrewarmEvent
 {
     double _latencyMillis;
-    long long _version;
-    int _outcome;
-    struct {
-        unsigned int latencyMillis:1;
-        unsigned int version:1;
-        unsigned int outcome:1;
-    } _has;
 }
 
 - (void);
@@ -26,7 +19,7 @@
 - (int);
 - (void);
 - (long long);
-- (id);
+- (id)6;
 - (void);
 - (void);
 - (void);
@@ -38,15 +31,10 @@
 - (id);
 - (id);
 - (_Bool);
-- (int);
+- (int)24Q32;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLatencyMillis;
-@property(nonatomic) _Bool hasOutcome;
 @property(nonatomic) _Bool hasVersion;
-@property(nonatomic) double latencyMillis; // @synthesize latencyMillis=_latencyMillis;
-@property(nonatomic) int outcome; // @synthesize outcome=_outcome;
-@property(nonatomic) long long version; // @synthesize version=_version;
 
 @end
 

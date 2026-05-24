@@ -9,20 +9,18 @@
 @interface AXUIContextDrawingAnnotation
 {
     NSString *_label;
-    struct CGRect _boundingRect;
 }
 
-+ (id);
-+ (id);
-+ (void);
++ (id)wh|;
++ (id)|;
++ (void);
 - (id);
 - (id);
-- (id);
+- (id)({;
 - (struct CGRect);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect boundingRect; // @synthesize boundingRect=_boundingRect;
 @property(readonly, nonatomic) NSString *label; // @synthesize label=_label;
 
 @end

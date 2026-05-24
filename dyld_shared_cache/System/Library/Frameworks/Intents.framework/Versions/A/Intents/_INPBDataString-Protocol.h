@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @protocol _INPBDataString
+- (void);
+- (void);
+- (NSArray *);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *alternatives;
-@property(readonly, nonatomic) unsigned long long alternativesCount;
-@property(readonly, nonatomic) _Bool hasLocalizedValue;
-@property(readonly, nonatomic) _Bool hasPronunciationHint;
-@property(readonly, nonatomic) _Bool hasVocabularyIdentifier;
-@property(copy, nonatomic) NSString *localizedValue;
-@property(copy, nonatomic) NSString *pronunciationHint;
-@property(copy, nonatomic) NSString *vocabularyIdentifier;
 @end
 

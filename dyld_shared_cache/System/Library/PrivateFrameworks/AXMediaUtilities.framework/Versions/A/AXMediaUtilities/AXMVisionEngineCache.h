@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableOrderedSet, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface AXMVisionEngineCache
 {
     NSObject<OS_dispatch_queue> *_cacheQueue;
-    long long _cacheQueue_maxItems;
-    NSMutableOrderedSet *_cacheQueue_orderedKeys;
-    NSMutableDictionary *_cacheQueue_results;
 }
 
 - (void);
@@ -21,7 +18,7 @@
 - (id);
 - (long long);
 - (id);
-- (void);
+- (void)r">;
 - (id);
 - (id);
 - (void);

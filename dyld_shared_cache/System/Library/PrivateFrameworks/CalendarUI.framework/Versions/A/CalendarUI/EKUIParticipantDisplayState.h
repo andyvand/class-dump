@@ -18,7 +18,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (int);
 + (id);
@@ -30,7 +30,7 @@
 + (id);
 + (id);
 + (void);
-+ (void)orNewTimeProposal;
++ (void)inspectorNewTimeProposal;
 
 @end
 

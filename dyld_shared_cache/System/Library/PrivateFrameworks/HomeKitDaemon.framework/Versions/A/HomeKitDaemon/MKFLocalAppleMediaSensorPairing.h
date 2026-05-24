@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)C;
 
 // Remaining properties
 @property(copy, nonatomic) NSUUID *pairedSensorUUID; // @dynamic pairedSensorUUID;

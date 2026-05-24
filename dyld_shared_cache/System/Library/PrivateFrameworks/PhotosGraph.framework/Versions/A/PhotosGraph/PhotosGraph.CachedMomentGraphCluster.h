@@ -7,8 +7,6 @@
 @interface PhotosGraph.CachedMomentGraphCluster
 {
     id momentNode;
-    id cachedFeaturesByName;
-    id featureExtractors;
 }
 
 @end

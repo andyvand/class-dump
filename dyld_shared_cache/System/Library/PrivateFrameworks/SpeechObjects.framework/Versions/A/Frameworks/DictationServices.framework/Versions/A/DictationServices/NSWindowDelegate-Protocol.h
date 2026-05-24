@@ -9,6 +9,17 @@
 @protocol NSWindowDelegate
 
 @optional
+- (void);
+- (void);
+- (void)b;
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void)segments;
+- (void)Length = %zu;
+- (void);
 - (void)
 × ;
 - (void)1Â0@ù
@@ -16,11 +27,10 @@
 - (void)0@ù
 × ;
 - (struct CGRect)@0:(NSWindow *)arg1 8Q16Q24;
-- (void)omLocaleIdentifier:(NSNotification *)arg1 secondLocaleIdentifier: /* Error: Ran out of types for this method. */;
-- (void)eCodesForSystemLanguageCode:(NSNotification *)arg1 isGoodFit: /* Error: Ran out of types for this method. */;
-- (_Bool)abelRect:(NSWindow *)arg1 fromLabeledElement:justLabelRect:additionalElements: /* Error: Ran out of types for this method. */;
+- (void)isSameLangaugeFromLocaleIdentifier:(NSNotification *)arg1 secondLocaleIdentifier: /* Error: Ran out of types for this method. */;
+- (void)allSiriLanguageCodesForSystemLanguageCode:(NSNotification *)arg1 isGoodFit: /* Error: Ran out of types for this method. */;
+- (_Bool)_findLabeledElementsThatIntersectsLabelRect:(NSWindow *)arg1 fromLabeledElement:justLabelRect:additionalElements: /* Error: Ran out of types for this method. */;
 - (void)@"NSString",&,V_descriptionText;
 - (void)`ì`Øa;
-- (struct CGSize);
 @end
 

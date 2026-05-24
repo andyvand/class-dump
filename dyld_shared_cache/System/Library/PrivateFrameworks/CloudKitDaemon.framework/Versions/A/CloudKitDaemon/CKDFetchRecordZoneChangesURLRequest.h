@@ -6,24 +6,11 @@
 
 #import <CloudKitDaemon/CKDURLRequest.h>
 
-@class NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSSet, NSString;
+@class NSArray;
 
 @interface CKDFetchRecordZoneChangesURLRequest : CKDURLRequest
 {
     _Bool _shouldFetchAssetContent;
-    _Bool _fetchChangesForMergeableValues;
-    NSArray *_recordZoneIDs;
-    NSDictionary *_configurationsByRecordZoneID;
-    long long _changeTypes;
-    NSSet *_desiredAssetKeys;
-    NSDictionary *_supplementalChangeTokenByZoneID;
-    CDUnknownBlockType _recordsChangedBlock;
-    CDUnknownBlockType _recordDeletedBlock;
-    CDUnknownBlockType _zoneAttributesChangedBlock;
-    NSMutableDictionary *_zoneIDsByRequestOperationUUID;
-    NSMutableDictionary *_requestResultsByRecordZoneID;
-    NSMutableDictionary *_nodeErrorsByZoneID;
-    NSMutableArray *_recordResponses;
 }
 
 - (id);
@@ -34,30 +21,30 @@
 - (void);
 - (id);
 - (_Bool);
+- (_Bool){ptr}] EndpointStreamAudioAVC resuming... ;
+- (void);
+- (void)/yyyy HH:(_Bool)arg1 mm:ss.SSS /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void)ee:(id)arg1;
+- (void)accountSupportsManatee:(id)arg1;
 - (id)nregistrationRequest",&,N;
 - (id)equest",&,N;
 - (id)Ð%;
 - (id);
-- (id)ified;
+- (id)unspecified;
 - (void)ataclass.KeychainSync;
-- (id)IDCacheTable;
+- (id)ShareIDCacheTable;
 - (_Bool)bscription object, discarding:%{public}@:%@ /* Error: Ran out of types for this method. */;
 - (id)%@;
 - (long long)Failed to encrypt delta, %@, with error:%@ /* Error: Ran out of types for this method. */;
@@ -65,7 +52,7 @@
 - (void)in the sharedCache map:(id)arg1 %@;
 - (CDUnknownBlockType)%s;
 - (void)p;
-- (void)mReset;
+- (void)RequestBodyStreamReset;
 - (void);
 - (_Bool)(Ê;
 - (id)Ä;
@@ -76,29 +63,7 @@
 - (void)è~×ÿ!vs;
 
 // Remaining properties
-@property(nonatomic) long long changeTypes; // @synthesize changeTypes=_changeTypes;
-@property(retain, nonatomic) NSDictionary *configurationsByRecordZoneID; // @synthesize configurationsByRecordZoneID=_configurationsByRecordZoneID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSSet *desiredAssetKeys; // @synthesize desiredAssetKeys=_desiredAssetKeys;
-@property(nonatomic) _Bool fetchChangesForMergeableValues; // @synthesize fetchChangesForMergeableValues=_fetchChangesForMergeableValues;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableDictionary *nodeErrorsByZoneID; // @synthesize nodeErrorsByZoneID=_nodeErrorsByZoneID;
-@property(copy, nonatomic) CDUnknownBlockType recordDeletedBlock; // @synthesize recordDeletedBlock=_recordDeletedBlock;
-@property(retain, nonatomic) NSMutableArray *recordResponses; // @synthesize recordResponses=_recordResponses;
 @property(copy, nonatomic) NSArray *recordZoneIDs; // @synthesize recordZoneIDs=_recordZoneIDs;
-@property(copy, nonatomic) CDUnknownBlockType recordsChangedBlock; // @synthesize recordsChangedBlock=_recordsChangedBlock;
-@property(retain, nonatomic) NSMutableDictionary *requestResultsByRecordZoneID; // @synthesize requestResultsByRecordZoneID=_requestResultsByRecordZoneID;
-@property(readonly, nonatomic) NSDictionary *resultsByRecordZoneID;
-@property(nonatomic) _Bool shouldFetchAssetContent; // @synthesize shouldFetchAssetContent=_shouldFetchAssetContent;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSDictionary *supplementalChangeTokenByZoneID; // @synthesize supplementalChangeTokenByZoneID=_supplementalChangeTokenByZoneID;
-@property(copy, nonatomic) CDUnknownBlockType zoneAttributesChangedBlock; // @synthesize zoneAttributesChangedBlock=_zoneAttributesChangedBlock;
-@property(readonly, nonatomic) NSDictionary *zoneErrorsByZoneID;
-@property(retain, nonatomic) NSMutableDictionary *zoneIDsByRequestOperationUUID; // @synthesize zoneIDsByRequestOperationUUID=_zoneIDsByRequestOperationUUID;
 
 @end
 

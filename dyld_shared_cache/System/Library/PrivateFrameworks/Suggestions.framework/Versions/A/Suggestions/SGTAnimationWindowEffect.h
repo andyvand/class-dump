@@ -6,17 +6,12 @@
 
 #import <Suggestions/SGTWindowEffect.h>
 
-@class NSArray, NSString, SGTWindowAnimation;
+@class SGTWindowAnimation;
 
 __attribute__((visibility("hidden")))
 @interface SGTAnimationWindowEffect : SGTWindowEffect
 {
     unsigned int _windowID;
-    unsigned int _cid;
-    SGTWindowAnimation *_animation;
-    NSArray *_subEffects;
-    _Bool _mainEffect;
-    _Bool _inverted;
 }
 
 - (id);
@@ -29,31 +24,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)	;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
-- (float);
+- (float)1;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly) double additionalDuration;
 @property(retain) SGTWindowAnimation *animation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property _Bool inverted;
-@property float progress;
-@property(retain) NSArray *subEffects; // @synthesize subEffects=_subEffects;
-@property(readonly) Class superclass;
 
 @end
 

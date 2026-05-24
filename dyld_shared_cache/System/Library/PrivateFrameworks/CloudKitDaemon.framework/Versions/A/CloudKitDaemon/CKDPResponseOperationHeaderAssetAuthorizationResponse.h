@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSString;
+@class NSData;
 
 @interface CKDPResponseOperationHeaderAssetAuthorizationResponse
 {
     NSData *_authGetResponseBody;
-    NSMutableArray *_responseHeaders;
-    NSString *_responseUUID;
 }
 
 + (Class);
@@ -27,8 +25,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long)ioEngine_setEndpointStreamInternalStage5(void *);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -38,11 +36,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *authGetResponseBody; // @synthesize authGetResponseBody=_authGetResponseBody;
-@property(readonly, nonatomic) _Bool hasAuthGetResponseBody;
 @property(readonly, nonatomic) _Bool hasResponseUUID;
-@property(retain, nonatomic) NSMutableArray *responseHeaders; // @synthesize responseHeaders=_responseHeaders;
-@property(retain, nonatomic) NSString *responseUUID; // @synthesize responseUUID=_responseUUID;
 
 @end
 

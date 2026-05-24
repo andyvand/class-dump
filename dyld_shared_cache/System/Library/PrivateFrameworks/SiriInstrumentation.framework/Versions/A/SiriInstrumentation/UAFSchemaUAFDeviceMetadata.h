@@ -6,24 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface UAFSchemaUAFDeviceMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_deviceId;
-    NSString *_deviceType;
-    int _programCode;
-    NSString *_systemBuild;
-    int _inputLocale;
-    unsigned long long _nanoSecondsSinceLastBoot;
-    struct {
-        unsigned int programCode:1;
-        unsigned int inputLocale:1;
-        unsigned int nanoSecondsSinceLastBoot:1;
-    } _has;
-    _Bool _hasDeviceId;
-    _Bool _hasDeviceType;
-    _Bool _hasSystemBuild;
 }
 
 - (id);
@@ -50,19 +37,19 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool),&,N,V_sfrSystemVersionPlistPath;
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)_dateComponentsFormatter;
+- (_Bool)e_id, m.subject, m.country, m.attributedBody, m.version, m.type, m.service, m.account, m.account_guid, m.error, m.date, m.date_read, m.date_delivered, m.is_delivered, m.is_finished, m.is_emote, m.is_from_me, m.is_empty, m.is_delayed, m.is_auto_reply, m.is_prepared, m.is_read, m.is_system_message, m.is_sent, m.has_dd_results, m.is_service_message, m.is_forward, m.was_downgraded, m.is_archive, m.cache_has_attachments, m.cache_roomnames, m.was_data_detected, m.was_deduplicated, m.is_audio_message, m.is_played, m.date_played, m.item_type, m.other_handle, m.group_title, m.group_action_type, m.share_status, m.share_direction, m.is_expirable, m.expire_state, m.message_action_type, m.message_source, m.associated_message_guid, m.associated_message_type, m.balloon_bundle_id, m.payload_data, m.expressive_send_style_id, m.associated_message_range_location, m.associated_message_range_length, m.time_expressive_send_played, m.message_summary_info, m.ck_sync_state, m.ck_record_id, m.ck_record_change_tag, m.destination_caller_id, m.is_corrupt, m.reply_to_guid, m.sort_id, m.is_spam, m.has_unseen_mention, m.thread_originator_guid, m.thread_originator_part, m.syndication_ranges, m.synced_syndication_ranges, m.was_delivered_quietly, m.did_notify_recipient, m.date_retracted, m.date_edited, m.date_recovered, m.was_detonated, m.part_count, m.is_stewie, m.is_sos, m.is_critical, m.bia_reference_id, m.is_kt_verified, m.fallback_hash, m.associated_message_emoji, m.is_pending_satellite_send, m.needs_relay, m.schedule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id, m.index_state FROM message m INDEXED BY message_idx_expire_state WHERE   (m.expire_state = %d OR m.expire_state = %d)  AND m.item_type == 0   AND m.schedule_type == 0   AND m.ROWID > ? ORDER BY m.date ASC;
 - (void);
 - (id);
 - (id);
-- (id)ry;
-- (id)tementResults;
-- (id)outerInvalidDecisionReason;
+- (id)deleteSessionSummary;
+- (id)clearStatementResults;
+- (id)_nlRouterInvalidDecisionReason;
 - (void)_petUploadEvent;
 - (id)T@"NSArray",C,N,V_postprocessingEntityCategoryCounts;
 - (void).PEGASUSServerEvent.PEGASUSRewrittenUtterancesReported;
@@ -70,18 +57,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *deviceId; // @synthesize deviceId=_deviceId;
-@property(copy, nonatomic) NSString *deviceType; // @synthesize deviceType=_deviceType;
-@property(nonatomic) _Bool hasDeviceId; // @synthesize hasDeviceId=_hasDeviceId;
-@property(nonatomic) _Bool hasDeviceType; // @synthesize hasDeviceType=_hasDeviceType;
-@property(nonatomic) _Bool hasInputLocale;
-@property(nonatomic) _Bool hasNanoSecondsSinceLastBoot;
-@property(nonatomic) _Bool hasProgramCode;
-@property(nonatomic) _Bool hasSystemBuild; // @synthesize hasSystemBuild=_hasSystemBuild;
-@property(nonatomic) int inputLocale; // @synthesize inputLocale=_inputLocale;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned long long nanoSecondsSinceLastBoot; // @synthesize nanoSecondsSinceLastBoot=_nanoSecondsSinceLastBoot;
-@property(nonatomic) int programCode; // @synthesize programCode=_programCode;
-@property(copy, nonatomic) NSString *systemBuild; // @synthesize systemBuild=_systemBuild;
 
 @end
 

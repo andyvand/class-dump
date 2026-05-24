@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface AXMCIMorphologyRectangle
 {
     CIImage *inputImage;
-    NSNumber *inputWidth;
-    NSNumber *inputHeight;
 }
 
 + (id);
@@ -18,17 +16,15 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)il;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *inputHeight; // @synthesize inputHeight;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputWidth; // @synthesize inputWidth;
 
 @end
 

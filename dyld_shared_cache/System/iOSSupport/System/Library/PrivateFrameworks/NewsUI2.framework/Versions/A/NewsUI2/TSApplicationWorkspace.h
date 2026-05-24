@@ -8,9 +8,9 @@
 {
 }
 
++ (void)stem/Library/Frameworks/CoreSpotlight.framework/Versions/A/CoreSpotlight;
 + (void);
-+ (void);
-+ (void);
++ (void)oreImage.framework/Versions/A/CoreImage;
 
 @end
 

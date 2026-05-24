@@ -12,8 +12,6 @@ __attribute__((visibility("hidden")))
 @interface UIStatusBarNewUIStyleAttributes : UIStatusBarStyleAttributes
 {
     UIColor *_backgroundColor;
-    UIColor *_foregroundColor;
-    _Bool _hasBusyBackground;
 }
 
 - (id);
@@ -21,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (id)ÔaÐ!èAùQ`1Â0@ù
 × ;
 - (id);
-- (_Bool);
+- (_Bool)set_showsGridOnly: /* Error: Ran out of types for this method. */;
 - (_Bool),V_minimumDifference;
 - (id)oolbar",&,N;
 - (Class)e touch surface type has been initialized to:%{public}@ /* Error: Ran out of types for this method. */;

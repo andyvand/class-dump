@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, PPNamedEntity, PPNamedEntityMetadata, PPSource;
+@class PPNamedEntity;
 
 @interface PPNamedEntityRecord
 {
     PPNamedEntity *_entity;
-    PPSource *_source;
-    NSString *_extractionOsBuild;
-    float _initialScore;
-    float _decayRate;
-    unsigned int _extractionAssetVersion;
-    unsigned char _algorithm;
-    unsigned char _changeType;
-    PPNamedEntityMetadata *_metadata;
-    BOOL _bucketizedSentimentScore;
 }
 
 + (id);
@@ -27,18 +18,18 @@
 - (_Bool);
 - (double);
 - (id);
-- (unsigned int);
-- (id);
-- (id);
+- (unsigned int);
+- (id)centripetalCatmullRomPointsFromConvexHull:(id)arg1 alpha:granularity: /* Error: Ran out of types for this method. */;
+- (id);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
+- (id)ng.CHCharacterSetsRules;
 - (double);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)A;
 - (id);
 - (double);
 - (unsigned char);
@@ -48,17 +39,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long algorithm;
-@property(readonly, nonatomic) unsigned char changeType; // @synthesize changeType=_changeType;
-@property(readonly, nonatomic) double decayRate;
 @property(readonly, nonatomic) PPNamedEntity *entity; // @synthesize entity=_entity;
-@property(readonly, nonatomic) unsigned int extractionAssetVersion;
-@property(readonly, nonatomic) NSString *extractionOsBuild; // @synthesize extractionOsBuild=_extractionOsBuild;
-@property(readonly, nonatomic) NSSet *featureNames;
-@property(readonly, nonatomic) double initialScore;
-@property(readonly, nonatomic) PPNamedEntityMetadata *metadata;
-@property(readonly, nonatomic) double sentimentScore; // @dynamic sentimentScore;
-@property(readonly, nonatomic) PPSource *source; // @synthesize source=_source;
 
 @end
 

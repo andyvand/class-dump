@@ -7,7 +7,7 @@
 @interface UnknownClass (ContactsUnitTesting)
 + (id);
 + (id);
-+ (id);
++ (id)6;
 + (_Bool);
 + (id);
 - (id);
@@ -23,13 +23,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (struct _NSRange);
-- (struct _NSRange);
+- (struct _NSRange);
 - (struct _NSRange);
 - (struct _NSRange);
 - (id);
@@ -38,7 +38,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (void);

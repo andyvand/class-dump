@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue, _NSAsynchronousPreparationDelegate, _NSAsynchronousPreparationInputParameters;
+@protocol _NSAsynchronousPreparationDelegate, _NSAsynchronousPreparationInputParameters;
 
 __attribute__((visibility("hidden")))
 @interface _NSAsynchronousPreparation
 {
     id <_NSAsynchronousPreparationDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_queue;
-    _Atomic unsigned long long _changeCount;
-    unsigned long long _scheduledChangeCount;
-    _Bool _isObservingInputParameters;
-    NSObject<_NSAsynchronousPreparationInputParameters> *_parameters;
-    id _preparedResult;
 }
 
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (id)ecords;
+- (id)records;
 - (void)*, NSData **, NSData **);
 
 // Remaining properties
 @property(readonly, nonatomic) id <_NSAsynchronousPreparationInputParameters> parameters;
-@property(readonly, nonatomic) id preparedResult;
 
 @end
 

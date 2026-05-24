@@ -7,9 +7,6 @@
 @interface RemindersUICore.TTRMComponentViewURLComponent
 {
     id hasFocus;
-    id urlView;
-    id isHandlingReturnKey;
-    id action;
 }
 
 - (id);

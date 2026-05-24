@@ -7,14 +7,16 @@
 @class NSString;
 
 @protocol NSObject
+- (Class);
+- (_Bool);
+- (NSString *)P;
+- (_Bool)setRemoteView:(SEL)arg1;
+- (_Bool)yy HH:(Class)arg1 mm:ss.SSS /* Error: Ran out of types for this method. */;
+
+@optional
+- (NSString *)hasNumberOfSharesOfPetsWithConversation;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

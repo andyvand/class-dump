@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (_Bool);
-- (id);
+- (_Bool)tem sender = %@;
+- (id)5;
 - (_Bool);
 
 @end

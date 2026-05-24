@@ -7,26 +7,20 @@
 @interface RTEventHistogramOptions
 {
     _Bool _allowPredictionsToHome;
-    int _highProbabilityItemMinNumOfEvents;
-    double _highProbabilityItemMinProbability;
-    double _relativeHighProbabilityItemMinDifference;
 }
 
 - (void);
-- (void);
+- (void)A	;
 - (void);
 - (void);
 - (double);
 - (double);
-- (int);
-- (_Bool);
+- (int);
+- (_Bool)(PCSShareProtectionRef _Nonnull, CFDataRef _Nonnull, CFErrorRef * _Nullable);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool allowPredictionsToHome; // @synthesize allowPredictionsToHome=_allowPredictionsToHome;
-@property(nonatomic) int highProbabilityItemMinNumOfEvents; // @synthesize highProbabilityItemMinNumOfEvents=_highProbabilityItemMinNumOfEvents;
 @property(nonatomic) double highProbabilityItemMinProbability; // @synthesize highProbabilityItemMinProbability=_highProbabilityItemMinProbability;
-@property(nonatomic) double relativeHighProbabilityItemMinDifference; // @synthesize relativeHighProbabilityItemMinDifference=_relativeHighProbabilityItemMinDifference;
 
 @end
 

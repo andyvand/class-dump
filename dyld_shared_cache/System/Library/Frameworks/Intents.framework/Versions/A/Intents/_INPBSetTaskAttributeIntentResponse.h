@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBTask;
+@class _INPBTask;
 
 @interface _INPBSetTaskAttributeIntentResponse
 {
     CDStruct_95bda58d _warnings;
-    struct _has;
-    _INPBTask *_modifiedTask;
 }
 
 + (_Bool);
@@ -25,29 +23,19 @@
 - (_Bool);
 - (int);
 - (void);
-- (id);
+- (id)__dlopen_cstrs;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)!;
+- (void);
 - (int *);
 - (id);
 - (id);
-- (void)G_CALL;
+- (void)NO_INCOMING_CALL;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasModifiedTask;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _INPBTask *modifiedTask; // @synthesize modifiedTask=_modifiedTask;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) int *warnings;
-@property(readonly, nonatomic) unsigned long long warningsCount;
 
 @end
 

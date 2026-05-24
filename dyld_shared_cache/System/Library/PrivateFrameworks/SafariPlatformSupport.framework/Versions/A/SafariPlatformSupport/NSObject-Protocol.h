@@ -7,14 +7,19 @@
 @class NSString;
 
 @protocol NSObject
+- (Class)_web_setFindPasteboardString:withOwner: /* Error: Ran out of types for this method. */;
+- (id)_web_rangeOfURLHost;
+- (id)_web_localizedDescription;
+- (id)_web_initWithDomain:(SEL)arg1 code:(id)arg2 failingURL: /* Error: Ran out of types for this method. */;
+- (id)_web_errorWithDomain:(SEL)arg1 code:failingURL: /* Error: Ran out of types for this method. */;
+- (Class)_web_dragOperationForDraggingInfo: /* Error: Ran out of types for this method. */;
+- (unsigned long long)r<unsigned long long, Safari::WebArchiveGenerationController *>>, HashFunctions = WTF::DefaultHash<unsigned long long>, Traits = WTF::HashMap<unsigned long long, Safari::WebArchiveGenerationController *>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<unsigned long long>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (oneway void);
+- (NSString *)h: /* Error: Ran out of types for this method. */;
+- (unsigned long long);
+- (_Bool)&;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

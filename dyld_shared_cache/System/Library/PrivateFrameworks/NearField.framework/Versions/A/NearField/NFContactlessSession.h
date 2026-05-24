@@ -6,31 +6,28 @@
 
 #import <NearField/NFSession.h>
 
-@class NFApplet, NSDictionary, NSString;
+@class NSDictionary;
 @protocol NFContactlessSessionDelegate;
 
 @interface NFContactlessSession : NFSession
 {
     NSDictionary *_appletsById;
-    id <NFContactlessSessionDelegate> _delegate;
-    _Bool _fieldNotificationSent;
-    NFApplet *_activeApplet;
 }
 
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void)}y;
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)z;
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
 - (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void)=;
 - (id);
 - (void);
 - (id);
@@ -38,18 +35,11 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)ler deallocated without first being cancelled
+;
 
 // Remaining properties
-@property(readonly, retain) NFApplet *activeApplet; // @synthesize activeApplet=_activeApplet;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property id <NFContactlessSessionDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

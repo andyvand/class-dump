@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (id);
-- (_Bool);
+- (_Bool)ing = %d, loggingDumpFile = %@;
 - (int);
 
 @end

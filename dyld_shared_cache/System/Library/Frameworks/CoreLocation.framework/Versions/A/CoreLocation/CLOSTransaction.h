@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_os_transaction;
+@class NSString;
 
 @interface CLOSTransaction
 {
     NSString *_description;
-    NSObject<OS_os_transaction> *_transaction;
 }
 
-- (void);
-- (id);
+- (void)CGImagePropertiesCreateFromMetadata_block_invoke;
+- (id);
 
 @end
 

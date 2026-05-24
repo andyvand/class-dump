@@ -16,9 +16,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (_Bool)ebBrowserView";
-- (id)ggestionController;
+- (id)_catalystSuggestionController;
 - (_Bool)V__broadcaster;
-- (void)nBarTransitionAssistantCSgIegyg_;
+- (void)SbSo35_UINavigationBarTransitionAssistantCSgIegyg_;
 
 @end
 

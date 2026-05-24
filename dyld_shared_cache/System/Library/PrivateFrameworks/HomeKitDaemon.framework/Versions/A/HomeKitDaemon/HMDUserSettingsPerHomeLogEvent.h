@@ -4,18 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDUserSettingsPerHomeLogEvent
 {
     _Bool _isOwner;
-    _Bool _isAdmin;
-    _Bool _isRemoteAccessAllowed;
-    _Bool _isRecognizeMyVoiceEnabled;
-    _Bool _isPersonalRequestsEnabled;
-    _Bool _isAnnounceAccessAllowed;
-    unsigned long long _camerasAccessLevel;
 }
 
 - (_Bool);
@@ -27,40 +19,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)o %d;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly) unsigned long long camerasAccessLevel; // @synthesize camerasAccessLevel=_camerasAccessLevel;
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly) _Bool isAdmin; // @synthesize isAdmin=_isAdmin;
-@property(readonly) _Bool isAnnounceAccessAllowed; // @synthesize isAnnounceAccessAllowed=_isAnnounceAccessAllowed;
 @property(readonly) _Bool isOwner; // @synthesize isOwner=_isOwner;
-@property(readonly) _Bool isPersonalRequestsEnabled; // @synthesize isPersonalRequestsEnabled=_isPersonalRequestsEnabled;
-@property(readonly) _Bool isRecognizeMyVoiceEnabled; // @synthesize isRecognizeMyVoiceEnabled=_isRecognizeMyVoiceEnabled;
-@property(readonly) _Bool isRemoteAccessAllowed; // @synthesize isRemoteAccessAllowed=_isRemoteAccessAllowed;
-@property(readonly) Class superclass;
 
 @end
 

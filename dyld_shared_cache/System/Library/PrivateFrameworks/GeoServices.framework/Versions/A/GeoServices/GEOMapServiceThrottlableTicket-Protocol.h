@@ -5,9 +5,9 @@
 //
 
 @protocol GEOMapServiceThrottlableTicket
-- (CDStruct_d1a7ebee)7þ2;
+- (CDStruct_026435ec)7þ2;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_d1a7ebee dataRequestKind;
+@property(readonly, nonatomic) CDStruct_026435ec dataRequestKind;
 @end
 

@@ -13,29 +13,25 @@
 + (_Bool)secure text entry:%@
  /* Error: Ran out of types for this method. */;
 - (long long);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (long long);
-- (long long);
+- (void)hability request %s updated in chat.guid %s with result %@;
+- (id)received receipt to AskTo;
+- (_Bool)vice capabilities changed;
+- (_Bool)radar to the FindMy team. Error:%@ /* Error: Ran out of types for this method. */;
+- (long long)es as purgeable;
+- (long long)from query;
 - (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool)lingButtonHiddenWhenEmpty;
-- (void)aultInputModes:(id)arg1;
+- (_Bool)trailingButtonHiddenWhenEmpty;
+- (void)setDefaultInputModes:(id)arg1;
 - (CDUnknownBlockType)resultKind;
 - (id),V_layoutFillsCanvas;
-- (void)troller;
+- (void)UINavigationController;
 - (void)ÜîT,[;
 
 // Remaining properties
-@property(readonly, nonatomic) long long _desiredScale;
-@property(readonly, nonatomic) long long _desiredVisibility;
 @property(readonly, nonatomic) long long _stateUpdateType;
-@property(readonly, nonatomic, getter=_isValidAnimationPreset) _Bool _validAnimationPreset;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
 
 @end
 

@@ -4,34 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPSExternalCNNUnary;
-@protocol MPSImageAllocator, MPSNNPadding;
-
 @interface MPSCNNKernel
 {
     CDStruct_d6af7fc0 _offset;
-    CDStruct_1e3be3a8 _clipRect;
-    unsigned long long _destinationFeatureChannelOffset;
-    unsigned long long _sourceFeatureChannelOffset;
-    unsigned long long _sourceFeatureChannelMaxCount;
-    MPSExternalCNNUnary *_plugin;
-    _Bool _pluginSupportsBatchEncode;
-    unsigned long long _kernelWidth;
-    unsigned long long _kernelHeight;
-    unsigned long long _strideInPixelsX;
-    unsigned long long _strideInPixelsY;
-    unsigned long long _dilationRateX;
-    unsigned long long _dilationRateY;
-    id <MPSNNPadding> _padding;
-    unsigned long long _maxBatchSize;
-    _Bool _isBackwards;
-    unsigned long long _edgeMode;
-    int _checkFlags;
-    CDUnknownFunctionPointerType _encode;
-    CDUnknownFunctionPointerType _batchEncode;
-    void *_encodeData;
-    unsigned long long _pluginOptions;
-    id <MPSImageAllocator> _destinationImageAllocator;
 }
 
 - (id);
@@ -64,8 +39,8 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)h-;
 - (void);
 - (id);
 - (id);
@@ -91,10 +66,10 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)tionClass;
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)A;
 - (id);
 - (void);
 - (void);
@@ -102,7 +77,7 @@
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)MPSMatrixCombination.mm;
 - (id);
 - (void);
 - (id);
@@ -113,29 +88,14 @@
 - (unsigned long long);
 - (unsigned long long)^{ResourceGraphNode}"_count"Q"_storageSize"Q}"_states"{NodeList<ResourceGraphNode *>="_items"^^{ResourceGraphNode}"_count"Q"_storageSize"Q}"_cpuUpdateSem"@"NSObject<OS_dispatch_semaphore>""_graphNull"@"NSNull"};
 - (unsigned long long),V_minIOUForObjectPresence;
-- (CDStruct_d6af7fc0);
+- (CDStruct_d6af7fc0)MPSCNNPooling_new_tex2d_tex2d_avg_2x2_1;
 - (id)s method;
 - (void)%f
 ;
-- (id)dient_generic_max_2dArray_2dArray;
+- (id)MPSCNNPoolingGradient_generic_max_2dArray_2dArray;
 
 // Remaining properties
-@property(nonatomic) CDStruct_1e3be3a8 clipRect; // @synthesize clipRect=_clipRect;
-@property(nonatomic) unsigned long long destinationFeatureChannelOffset; // @synthesize destinationFeatureChannelOffset=_destinationFeatureChannelOffset;
-@property(retain, nonatomic) id <MPSImageAllocator> destinationImageAllocator; // @synthesize destinationImageAllocator=_destinationImageAllocator;
-@property(readonly, nonatomic) unsigned long long dilationRateX; // @synthesize dilationRateX=_dilationRateX;
-@property(readonly, nonatomic) unsigned long long dilationRateY; // @synthesize dilationRateY=_dilationRateY;
-@property(nonatomic) unsigned long long edgeMode; // @synthesize edgeMode=_edgeMode;
-@property(readonly, nonatomic) _Bool isBackwards; // @synthesize isBackwards=_isBackwards;
-@property(readonly, nonatomic) _Bool isStateModified;
-@property(readonly, nonatomic) unsigned long long kernelHeight; // @synthesize kernelHeight=_kernelHeight;
-@property(readonly, nonatomic) unsigned long long kernelWidth; // @synthesize kernelWidth=_kernelWidth;
 @property(nonatomic) CDStruct_d6af7fc0 offset; // @synthesize offset=_offset;
-@property(retain, nonatomic) id <MPSNNPadding> padding; // @synthesize padding=_padding;
-@property(nonatomic) unsigned long long sourceFeatureChannelMaxCount; // @synthesize sourceFeatureChannelMaxCount=_sourceFeatureChannelMaxCount;
-@property(nonatomic) unsigned long long sourceFeatureChannelOffset; // @synthesize sourceFeatureChannelOffset=_sourceFeatureChannelOffset;
-@property(readonly, nonatomic) unsigned long long strideInPixelsX; // @synthesize strideInPixelsX=_strideInPixelsX;
-@property(readonly, nonatomic) unsigned long long strideInPixelsY; // @synthesize strideInPixelsY=_strideInPixelsY;
 
 @end
 

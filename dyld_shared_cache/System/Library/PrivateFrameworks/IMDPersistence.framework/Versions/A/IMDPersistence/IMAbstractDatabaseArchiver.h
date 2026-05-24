@@ -9,7 +9,6 @@
 @interface IMAbstractDatabaseArchiver
 {
     NSString *_destinationPath;
-    NSString *_sourcePath;
 }
 
 - (id);
@@ -20,7 +19,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *destinationPath; // @synthesize destinationPath=_destinationPath;
 @property(readonly, nonatomic) NSString *sourcePath; // @synthesize sourcePath=_sourcePath;
 
 @end

@@ -9,12 +9,6 @@
 @interface IKShadowTool
 {
     IKImageWrapper *_shadowComponents[12];
-    IKImageWrapper *_shadowGroup;
-    struct CGSize _shadowComponentSize[12];
-    float _shadowMapCoordinates[56];
-    unsigned char _stripIndices[54];
-    unsigned char _stripXMapTable[28];
-    unsigned char _stripYMapTable[28];
 }
 
 + (id);

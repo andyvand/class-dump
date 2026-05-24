@@ -5,31 +5,27 @@
 //
 
 @class NSObject;
-@protocol CSLanguageDetectorAssetMonitorDelegate, OS_dispatch_queue;
+@protocol OS_dispatch_queue;
 
 @interface CSLanguageDetectorAssetMonitor
 {
     int _notifyToken;
-    id <CSLanguageDetectorAssetMonitorDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
-+ (id)FalseRejectFeedbackBanner: /* Error: Ran out of types for this method. */;
++ (id)_notifyFalseRejectFeedbackBanner: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)initWithRevision:(id)arg1 error: /* Error: Ran out of types for this method. */;
 - (void);
 - (int);
 - (id);
-- (void)erdLaunchedEvent:(int)arg1;
-- (void)d: /* Error: Ran out of types for this method. */;
+- (void)mediaserverdLaunchedEvent:(int)arg1;
+- (void)didConnected: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak id <CSLanguageDetectorAssetMonitorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) int notifyToken; // @synthesize notifyToken=_notifyToken;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end

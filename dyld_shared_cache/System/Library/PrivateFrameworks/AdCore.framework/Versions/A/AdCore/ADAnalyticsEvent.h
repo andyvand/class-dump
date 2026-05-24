@@ -7,7 +7,6 @@
 @interface ADAnalyticsEvent
 {
     double _timestamp;
-    int _event;
 }
 
 + (id);
@@ -29,7 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) int event; // @synthesize event=_event;
-@property(nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

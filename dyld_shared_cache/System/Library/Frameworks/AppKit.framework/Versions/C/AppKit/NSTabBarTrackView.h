@@ -10,15 +10,13 @@ __attribute__((visibility("hidden")))
 @interface NSTabBarTrackView : NSView
 {
     id glassEffectView;
-    id isOnBlurredBackground;
-    id glassEffectViewFlippingTimer;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
-- (id)rviceInPopoverWithItems:(struct CGRect)arg1 anchoringView:relativeToRect:preferredEdge: /* Error: Ran out of types for this method. */;
-- (void)ntRevisionsBlurFieldButtonCell;
+- (id)_showParticipantListServiceInPopoverWithItems:(struct CGRect)arg1 anchoringView:relativeToRect:preferredEdge: /* Error: Ran out of types for this method. */;
+- (void)NSDocumentRevisionsBlurFieldButtonCell;
 - (void)TÜÊÿÑò°wA;
 - (void);
 - (id)E¦K;

@@ -6,25 +6,11 @@
 
 #import <MapsSync/MSCollectionItem.h>
 
-@class GEOMapItemStorage, NSData, NSDate, NSNumber, NSString, NSUUID;
+@class NSString;
 
 @interface MSCollectionPlaceItem : MSCollectionItem
 {
     id _customName;
-    id _droppedPinCoordinate;
-    id _droppedPinFloorOrdinal;
-    id _latitude;
-    id _longitude;
-    id _mapItemAddress;
-    id _mapItemCategory;
-    id _mapItemLastRefreshed;
-    id _mapItemName;
-    id _muid;
-    id _origin;
-    id _originalIdentifier;
-    id _placeItemNote;
-    id _type;
-    id _mapItemStorage;
 }
 
 + (id);
@@ -38,7 +24,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)6B;
 - (_Bool);
 - (id);
 - (id);
@@ -49,14 +35,14 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)Q%;
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
 - (short);
-- (void);
+- (void)delete file on csvPath=%@, error=%@;
 - (short);
 - (void);
 - (void);
@@ -65,24 +51,10 @@
 - (void);
 - (id);
 - (void);
-- (id)WithStore:customName:latitude:longitude:mapItemStorage:muid:resultsProvider: /* Error: Ran out of types for this method. */;
+- (id)initWithStore:customName:latitude:longitude:mapItemStorage:muid:resultsProvider: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, copy) NSString *customName;
-@property(nonatomic, copy) NSData *droppedPinCoordinate;
-@property(nonatomic) int droppedPinFloorOrdinal;
-@property(nonatomic, retain) NSNumber *latitude;
-@property(nonatomic, retain) NSNumber *longitude;
-@property(nonatomic, copy) NSString *mapItemAddress;
-@property(nonatomic, copy) NSString *mapItemCategory;
-@property(nonatomic, copy) NSDate *mapItemLastRefreshed;
-@property(nonatomic, copy) NSString *mapItemName;
-@property(nonatomic, retain) GEOMapItemStorage *mapItemStorage;
-@property(nonatomic, retain) NSNumber *muid;
-@property(nonatomic) short origin;
-@property(nonatomic, copy) NSUUID *originalIdentifier;
-@property(nonatomic, copy) NSString *placeItemNote;
-@property(nonatomic) short type;
 
 @end
 

@@ -6,30 +6,24 @@
 
 #import <ChatKit/CKColoredBalloonView.h>
 
-@class CKAudioProgressView, CKWaveformProgressView, NSString, UILabel;
+@class UILabel;
 
 @interface CKAudioBalloonView : CKColoredBalloonView
 {
     _Bool _playing;
-    _Bool _played;
-    double _time;
-    double _duration;
-    UILabel *_timeLabel;
-    CKAudioProgressView *_progressView;
-    CKWaveformProgressView *_waveformProgressView;
 }
 
-- (void);
-- (id);
-- (long long);
-- (void);
-- (void);
+- (void)neAttachmentViewAnimationDelegate>",W,N,V_delegate;
+- (id)ProcessingRequestIndex;
+- (long long)isSetupForChangePassword;
+- (void)ICAttachmentPreviewImageLoader;
+- (void)ICAvailableTableWidthProviding;
 - (struct CGSize);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
+- (void) %;
+- (id)g back to default preview thumbnail;
+- (void)n) != nil);
 - (void);
 - (void);
 - (void);
@@ -43,36 +37,21 @@
 - (void);
 - (void);
 - (double);
+- (void)	;
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
-- (id)eCellAvatarDelegate: /* Error: Ran out of types for this method. */;
-- (double)omItemAtIndexPath:toProposedIndexPath: /* Error: Ran out of types for this method. */;
+- (id)setMessageCellAvatarDelegate: /* Error: Ran out of types for this method. */;
+- (double)_collectionView:targetIndexPathForMoveFromItemAtIndexPath:toProposedIndexPath: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void)ingCleared;
+- (void)PendingCleared;
 - (void)m]j4[Fÿ}]j0[Fÿ}]j,[Fÿ]jl?Æÿ;
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=isControlHidden) _Bool controlHidden;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isPlayed) _Bool played; // @synthesize played=_played;
-@property(nonatomic, getter=isPlaying) _Bool playing; // @synthesize playing=_playing;
-@property(retain, nonatomic) CKAudioProgressView *progressView; // @synthesize progressView=_progressView;
-@property(readonly) Class superclass;
-@property(nonatomic) double time; // @synthesize time=_time;
 @property(retain, nonatomic) UILabel *timeLabel; // @synthesize timeLabel=_timeLabel;
-@property(nonatomic) long long waveformContentMode;
-@property(retain, nonatomic) CKWaveformProgressView *waveformProgressView; // @synthesize waveformProgressView=_waveformProgressView;
 
 @end
 

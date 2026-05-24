@@ -6,46 +6,24 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, UIActivityIndicatorView, UIButton, UIContentUnavailableConfiguration, UIImageView, UILabel, _UIContentUnavailableScrollView, _UISystemBackgroundView;
+@class UIImageView;
 
 @interface UIContentUnavailableView : UIView
 {
     double _preferredMaxLayoutWidth;
-    struct CGRect _keyboardFrame;
-    struct {
-        unsigned int isEmbeddedInWrapperView:1;
-        unsigned int trackingKeyboardFrame:1;
-        unsigned int adjustsLayoutForKeyboard:1;
-        unsigned int imageViewFrameInvalid:1;
-        unsigned int activityIndicatorFrameInvalid:1;
-        unsigned int textLabelFrameInvalid:1;
-        unsigned int secondaryTextLabelFrameInvalid:1;
-        unsigned int buttonFrameInvalid:1;
-        unsigned int secondaryButtonFrameInvalid:1;
-    } _contentViewFlags;
-    _Bool _scrollEnabled;
-    UIContentUnavailableConfiguration *_configuration;
-    UIImageView *_imageView;
-    UILabel *_textLabel;
-    UILabel *_secondaryTextLabel;
-    UIButton *_button;
-    UIButton *_secondaryButton;
-    UIActivityIndicatorView *_activityIndicator;
-    _UIContentUnavailableScrollView *_scrollView;
-    _UISystemBackgroundView *_backgroundView;
 }
 
-- (struct NSDirectionalEdgeInsets);
+- (struct NSDirectionalEdgeInsets)torName;
 - (id);
 - (void);
 - (void);
 - (void);
 - (struct CGSize);
 - (id);
-- (void);
-- (id);
-- (void);
-- (struct NSDirectionalEdgeInsets);
+- (void)low;
+- (id)mmcs_register_items;
+- (void)MPVolumeControllerCatalystSystemDataSource;
+- (struct NSDirectionalEdgeInsets),;
 - (_Bool);
 - (void);
 - (void);
@@ -54,20 +32,20 @@
 - (id)0@ù
 × ;
 - (void)d}{CGSize=dd}}16{CGRect={CGPoint=dd}{CGSize=dd}}48;
-- (id)er: /* Error: Ran out of types for this method. */;
-- (void)erViewController:(id)arg1;
-- (void)zedPersistentOffsetIgnoringState;
-- (void)Hover:(id)arg1 playFeedback: /* Error: Ran out of types for this method. */;
-- (void)atorEndingActiveSession:(id)arg1;
-- (_Bool)rs;
-- (void)Domain;
-- (void)rGenerator:(struct UIEdgeInsets)arg1;
-- (void)ding: /* Error: Ran out of types for this method. */;
-- (void)ction:(id)arg1;
-- (void)izeInfo;
+- (id)setExclusionRelationshipGestureRecognizer: /* Error: Ran out of types for this method. */;
+- (void)setBrowserViewController:(id)arg1;
+- (void)normalizedPersistentOffsetIgnoringState;
+- (void)highlightItemAtIndexPath:(id)arg1 forHover:playFeedback: /* Error: Ran out of types for this method. */;
+- (void)dismissFindNavigatorEndingActiveSession:(id)arg1;
+- (_Bool)backgroundMasksCorners;
+- (void)_userVisibleDomain;
+- (void)_setTintFilterGenerator:(struct UIEdgeInsets)arg1;
+- (void)_setLinearHeading: /* Error: Ran out of types for this method. */;
+- (void)_setChangesSelectionAsPrimaryAction:(id)arg1;
+- (void)_dummyFittingSizeInfo;
 - (void)roundGradient;
 - (double)entifier;
-- (void)g;
+- (void)_UIVisualEffectViewParticipating;
 - (_Bool)D;
 - (void)P8;
 - (id)L;
@@ -78,11 +56,11 @@
 - (_Bool)on is not set! (%@);
 - (void);
 - (struct UIContentUnavailableViewLayoutInfo)®Ïîÿþÿ;
-- (struct CGSize)hadowXOffset;
-- (_Bool)itionCoordinatorDescriptionCompletionVelocityKey;
-- (id)erDidLayout;
+- (struct CGSize)platterShadowXOffset;
+- (_Bool)_UIViewControllerTransitionCoordinatorDescriptionCompletionVelocityKey;
+- (id)_UITextViewportLayoutControllerDidLayout;
 - (id)illRotateToInterfaceOrientation:update _rotationInfo /* Error: Ran out of types for this method. */;
-- (id)cessibilityIgnoresInvertColors;
+- (id)accessibilityIgnoresInvertColors;
 - (struct CGSize)own;;
 - (double);
 - (id)pe;
@@ -91,24 +69,7 @@
 - (id)°§j;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=_activityIndicator) UIActivityIndicatorView *activityIndicator; // @synthesize activityIndicator=_activityIndicator;
-@property(readonly, nonatomic, getter=_backgroundView) _UISystemBackgroundView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(readonly, nonatomic, getter=_button) UIButton *button; // @synthesize button=_button;
-@property(copy, nonatomic) UIContentUnavailableConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic, getter=_imageView) UIImageView *imageView; // @synthesize imageView=_imageView;
-@property(nonatomic, getter=isScrollEnabled) _Bool scrollEnabled; // @synthesize scrollEnabled=_scrollEnabled;
-@property(readonly, nonatomic, getter=_scrollView) _UIContentUnavailableScrollView *scrollView; // @synthesize scrollView=_scrollView;
-@property(readonly, nonatomic, getter=_secondaryButton) UIButton *secondaryButton; // @synthesize secondaryButton=_secondaryButton;
-@property(readonly, nonatomic, getter=_secondaryTextLabel) UILabel *secondaryTextLabel; // @synthesize secondaryTextLabel=_secondaryTextLabel;
-@property(readonly, nonatomic) _Bool shouldReparentScrollViewPanGestureRecognizer;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic, getter=_textLabel) UILabel *textLabel; // @synthesize textLabel=_textLabel;
 
 @end
 

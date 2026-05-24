@@ -6,17 +6,14 @@
 
 #import <CoreHandwriting/CHPostprocessingStepModifyingOriginalTokens.h>
 
-@class NSArray, NSLocale;
+@class NSArray;
 
 @interface CHTransliterateConfusableCharactersStep : CHPostprocessingStepModifyingOriginalTokens
 {
     NSArray *_characterTransliterations;
-    struct _LXLexicon *_staticLexicon;
-    struct _LXLexicon *_customLexicon;
-    NSLocale *_locale;
 }
 
-- (id);
+- (id)B;
 - (id);
 - (void)/;
 

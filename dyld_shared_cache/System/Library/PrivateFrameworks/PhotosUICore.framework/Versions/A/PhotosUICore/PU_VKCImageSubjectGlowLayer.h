@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSMutableDictionary;
+@class CALayer;
 
 @interface PU_VKCImageSubjectGlowLayer
 {
     _Bool _active;
-    CALayer *_glowLayer;
-    NSMutableDictionary *_subLayersMap;
 }
 
 - (id);
@@ -18,25 +16,23 @@
 - (id);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)_sourceTriangleTextures;
 - (void)Ý{¿;
 - (_Bool)>;
 
 // Remaining properties
-@property(nonatomic) _Bool active; // @synthesize active=_active;
 @property(retain, nonatomic) CALayer *glowLayer; // @synthesize glowLayer=_glowLayer;
-@property(retain, nonatomic) NSMutableDictionary *subLayersMap; // @synthesize subLayersMap=_subLayersMap;
 
 @end
 

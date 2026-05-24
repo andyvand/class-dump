@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _NSControlTargetAction
 {
     id _target;
-    SEL _action;
-    unsigned long long _eventMask;
 }
 
 - (id);
@@ -19,12 +17,10 @@ __attribute__((visibility("hidden")))
 × ;
 - (unsigned long long)Ø>;
 - (SEL);
-- (void)SizeOverride;
+- (void)fontSizeOverride;
 - (void)bonIsAccessibleAttributeSettableEvent:handlerCallRef:axElement:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property SEL action; // @synthesize action=_action;
-@property unsigned long long eventMask; // @synthesize eventMask=_eventMask;
 @property __weak id target; // @synthesize target=_target;
 
 @end

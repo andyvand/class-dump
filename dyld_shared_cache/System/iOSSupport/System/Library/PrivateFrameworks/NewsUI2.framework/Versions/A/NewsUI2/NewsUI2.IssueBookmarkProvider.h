@@ -7,7 +7,6 @@
 @interface NewsUI2.IssueBookmarkProvider
 {
     id issueReadingHistory;
-    id configurationManager;
 }
 
 @end

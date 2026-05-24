@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface NSTrackingAreaReservedIVars
 {
     _Bool *outstandingRolloverDelayCancelledPtr;
-    NSArray *_pressureConfigurations;
 }
 
-- (void);
+- (void)P;
 
 @end
 

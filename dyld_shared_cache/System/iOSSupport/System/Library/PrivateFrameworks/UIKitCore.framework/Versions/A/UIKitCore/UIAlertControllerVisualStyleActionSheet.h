@@ -12,8 +12,8 @@
 
 + (void);
 + (long long);
-- (id);
-- (double);
+- (id)Participant %@ is a favorite?:%ld /* Error: Ran out of types for this method. */;
+- (double)ty dictionary to the kSMSDefaultsAllowedKey;
 - (_Bool);
 - (long long);
 - (id);
@@ -29,8 +29,8 @@
 - (double);
 - (double);
 - (_Bool);
-- (id);
-- (id)ched;
+- (id);
+- (id)widthFollowsPreferredContentSizeWhenEdgeAttached;
 - (double)a;
 
 @end

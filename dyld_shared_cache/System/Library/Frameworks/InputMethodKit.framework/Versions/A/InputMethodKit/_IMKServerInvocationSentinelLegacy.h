@@ -13,7 +13,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)cipherSuiteWithNegotiationCipherSuite: /* Error: Ran out of types for this method. */;
 
 @end
 

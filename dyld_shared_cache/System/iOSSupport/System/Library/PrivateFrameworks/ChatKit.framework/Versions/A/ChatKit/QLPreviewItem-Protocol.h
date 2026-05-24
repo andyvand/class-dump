@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 @protocol QLPreviewItem
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *previewItemTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
 @property(readonly, nonatomic) NSURL *previewItemURL;
 @end
 

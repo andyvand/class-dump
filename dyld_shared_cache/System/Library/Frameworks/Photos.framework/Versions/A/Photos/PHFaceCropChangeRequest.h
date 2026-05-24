@@ -6,20 +6,16 @@
 
 #import <Photos/PHChangeRequest.h>
 
-@class NSData, NSManagedObjectID, NSString, PHObjectPlaceholder, PHRelationshipChangeRequestHelper;
-@protocol PLChangesForServiceHandling;
+@class NSData, NSString;
 
 @interface PHFaceCropChangeRequest : PHChangeRequest
 {
     NSString *_originatingFaceUUID;
-    NSString *_originatingFaceCropUUID;
-    PHRelationshipChangeRequestHelper *_faceHelper;
-    PHRelationshipChangeRequestHelper *_personHelper;
 }
 
 + (void);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -31,9 +27,9 @@
 - (id);
 - (id);
 - (id);
+- (id)n;
 - (id);
-- (id);
-- (id);
+- (id)Q?!;
 - (void);
 - (id);
 - (_Bool);
@@ -45,39 +41,14 @@
 - (void);
 - (void);
 - (short);
-- (short);
-- (id);
-- (void);
+- (short)didSubmitFormOfType:withPerFormModificationsDictionary:webpageLocale: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)en pipe '"%s"' because compiled without support;
 - (id);
 - (void)ata",R,&,N,V_faceprintData;
 
 // Remaining properties
-@property(readonly, nonatomic) long long accessScopeOptionsRequirement;
-@property(readonly, nonatomic) NSString *changeTypeForSummary;
-@property(readonly, nonatomic) id <PLChangesForServiceHandling> changesForServiceHandler;
-@property(readonly, nonatomic) NSString *clientBundleID;
-@property(readonly, nonatomic, getter=isClientEntitled) _Bool clientEntitled;
-@property(readonly, nonatomic) NSString *clientName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) PHRelationshipChangeRequestHelper *faceHelper; // @synthesize faceHelper=_faceHelper;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isNewRequest;
-@property(readonly, nonatomic) NSString *managedEntityName;
-@property(readonly, getter=isMutated) _Bool mutated;
-@property(readonly, nonatomic) NSManagedObjectID *objectID;
-@property(copy, nonatomic) NSString *originatingFaceCropUUID; // @synthesize originatingFaceCropUUID=_originatingFaceCropUUID;
-@property(copy, nonatomic) NSString *originatingFaceUUID; // @synthesize originatingFaceUUID=_originatingFaceUUID;
-@property(readonly, nonatomic) PHRelationshipChangeRequestHelper *personHelper; // @synthesize personHelper=_personHelper;
-@property(readonly, nonatomic) PHObjectPlaceholder *placeholderForCreatedFaceCrop;
 @property(retain, nonatomic) NSData *resourceData;
-@property(nonatomic) _Bool shouldPerformConcurrentWork;
-@property(nonatomic) short state;
-@property(readonly) Class superclass;
-@property(nonatomic) short type;
 
 @end
 

@@ -4,29 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
-
 @interface SFCollectionStyle
 {
     struct {
         unsigned int initiallyVisibleCardSectionCount:1;
     } _has;
-    unsigned long long _initiallyVisibleCardSectionCount;
 }
 
 + (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) unsigned long long initiallyVisibleCardSectionCount; // @synthesize initiallyVisibleCardSectionCount=_initiallyVisibleCardSectionCount;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 
 @end
 

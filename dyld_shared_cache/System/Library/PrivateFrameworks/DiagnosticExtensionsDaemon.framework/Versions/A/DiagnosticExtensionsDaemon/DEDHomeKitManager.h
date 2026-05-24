@@ -11,16 +11,14 @@
 }
 
 + (id);
-- (id);
-- (_Bool);
+- (id)shareURL;
+- (_Bool)Identifier;
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
 @property(readonly) NSString *homeKitIdentifier;
-@property(readonly) NSString *homeTheaterSystemIdentifier;
-@property(readonly) NSString *homeTheaterSystemName;
 
 @end
 

@@ -7,23 +7,16 @@
 @interface CoreBrightness.CBPowerManagementClientImpl__priv_9170F47CDD268923AB17796AB14DFB31
 {
     id module;
-    id clientId;
-    id queue;
-    id log;
-    id lastBudget;
-    id override;
-    id controlRange;
-    id callback;
 }
 
 - (void);
 - (_Bool);
-- (float);
+- (float)Є;
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)E;
+- (void);
 
 @end
 

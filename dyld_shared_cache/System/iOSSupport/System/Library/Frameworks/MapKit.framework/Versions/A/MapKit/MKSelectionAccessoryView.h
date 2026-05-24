@@ -5,14 +5,12 @@
 //
 
 @class UIButton;
-@protocol MKPlaceCardContentSizeDelegate, MKSelectionAccessoryViewDelegate;
+@protocol MKPlaceCardContentSizeDelegate;
 
 __attribute__((visibility("hidden")))
 @interface MKSelectionAccessoryView
 {
     UIButton *_dismissButton;
-    id <MKPlaceCardContentSizeDelegate> _placeCardContentSizeDelegate;
-    id <MKSelectionAccessoryViewDelegate> _delegate;
 }
 
 + (id);
@@ -30,10 +28,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void)nate;
+- (void)coordinate;
 
 // Remaining properties
-@property(nonatomic) __weak id <MKSelectionAccessoryViewDelegate> delegate; // @synthesize delegate=_delegate;
 @property(nonatomic) __weak id <MKPlaceCardContentSizeDelegate> placeCardContentSizeDelegate; // @synthesize placeCardContentSizeDelegate=_placeCardContentSizeDelegate;
 
 @end

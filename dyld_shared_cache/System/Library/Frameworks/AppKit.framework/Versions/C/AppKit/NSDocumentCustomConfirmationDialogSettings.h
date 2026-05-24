@@ -7,8 +7,6 @@
 @interface NSDocumentCustomConfirmationDialogSettings
 {
     id title;
-    id explanation;
-    id buttons;
 }
 
 - (void);

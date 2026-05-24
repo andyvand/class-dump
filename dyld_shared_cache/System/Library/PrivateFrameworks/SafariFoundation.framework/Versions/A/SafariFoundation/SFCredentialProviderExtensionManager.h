@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSHashTable, NSMutableOrderedSet, NSObject, NSSet, NSString;
+@class NSObject, NSSet;
 @protocol OS_dispatch_queue;
 
 @interface SFCredentialProviderExtensionManager
 {
     NSObject<OS_dispatch_queue> *_queue;
-    id _extensionMatchingToken;
-    NSSet *_extensions;
-    NSMutableOrderedSet *_observers;
-    NSHashTable *_weakObservers;
-    _Bool _errorEncounteredDuringLastExtensionDiscovery;
-    struct os_unfair_recursive_lock_s _observerLock;
-    _Bool _shouldOverrideAtLeastOneExtensionSupportsPasskeys;
-    _Bool _overrideAtLeastOneExtensionSupportsPasskeysValue;
 }
 
 + (id);
-- (id);
-- (void);
+- (id)_popUpButtonWithMenu:action: /* Error: Ran out of types for this method. */;
+- (void)_performCredentialAutoFillActionForForm:(id)arg1 ofType:(_Bool)arg2 inViewController:isUserInitiated:frameInfo: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
+- (void)orization load policy;
+- (id);
+- (_Bool)ord warning sheet);
+- (id)RemoveDownloadMenuItem;
+- (void)ng"24@"NSImage"32;
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
@@ -45,19 +37,19 @@
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)setEventHandler:(id)arg1 andSelector:(_Bool)arg2 forEventClass:andEventID: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)kCBMsgIdAccessorySendControlCommandMsg;
 - (void);
 - (_Bool);
 - (id);
@@ -71,21 +63,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool atLeastOneEnabledExtensionSupportsCredentialUpdate;
-@property(readonly, nonatomic) _Bool atLeastOneEnabledExtensionSupportsOneTimeCodes;
-@property(readonly, nonatomic) _Bool atLeastOneEnabledExtensionSupportsPasskeys;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *enabledExtensions;
 @property(readonly, nonatomic) NSSet *extensions;
-@property(readonly, nonatomic) NSSet *extensionsSync;
-@property(readonly, nonatomic) NSArray *getEnabledExtensionsSynchronously;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long numberOfAutoFillProvidersEnabled;
-@property(readonly) Class superclass;
 
 @end
 

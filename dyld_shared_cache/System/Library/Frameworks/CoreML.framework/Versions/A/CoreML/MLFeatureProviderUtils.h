@@ -13,7 +13,8 @@
 + (id);
 + (id);
 + (_Bool);
-+ (_Bool);
++ (_Bool)ȡ
+;
 + (long long);
 + (_Bool);
 + (id);

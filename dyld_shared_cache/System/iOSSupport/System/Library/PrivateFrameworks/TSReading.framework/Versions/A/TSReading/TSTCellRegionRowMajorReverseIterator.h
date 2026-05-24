@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (CDStruct_0441cfb5);
+- (CDStruct_bd4d8e6b);
 
 @end
 

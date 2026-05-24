@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 __attribute__((visibility("hidden")))
 @interface VCImageConverterBase
 {
     struct __CVPixelBufferPool *_bufferPool;
-    unsigned int _formatType;
-    unsigned long long _outputWidth;
-    unsigned long long _outputHeight;
-    NSMutableDictionary *_bufferPoolDictionary;
 }
 
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)S#;
 
 @end
 

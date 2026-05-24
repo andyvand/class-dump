@@ -11,15 +11,14 @@
 @interface MPChangeRepeatModeCommand : MPRemoteCommand
 {
     NSArray *_supportedRepeatTypes;
-    long long _currentRepeatType;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
-- (long long);
-- (id);
+- (long long)duplicatePayloadKey;
+- (id)ntt;
 - (void)MPRemoteCommand",R,N,V_specialSeekBackwardCommand;
 
 // Remaining properties

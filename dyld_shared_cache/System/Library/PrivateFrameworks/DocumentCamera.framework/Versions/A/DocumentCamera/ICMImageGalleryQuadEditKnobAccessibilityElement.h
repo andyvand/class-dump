@@ -4,41 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, ICMImageGalleryQuadEditorOverlayView, NSString;
+@class CALayer;
 
 __attribute__((visibility("hidden")))
 @interface ICMImageGalleryQuadEditKnobAccessibilityElement
 {
     CALayer *_knobLayer;
-    ICMImageGalleryQuadEditorOverlayView *_parent;
 }
 
 - (id);
 - (id);
-- (struct CGPoint);
+- (struct CGPoint)4h,;
 - (id);
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
-- (struct CGRect);
+- (_Bool)text="soundMeter"{_METER_INFO="frequencyMeteringEnabled"B"fftMeter"^{opaqueVCFFTMeter}}};
+- (struct CGRect)y Audio HAL plugin object=%p;
 - (id);
-- (id);
+- (id)JK)=;
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) CALayer *knobLayer; // @synthesize knobLayer=_knobLayer;
-@property(readonly, nonatomic) ICMImageGalleryQuadEditorOverlayView *parent; // @synthesize parent=_parent;
-@property(readonly) Class superclass;
 
 @end
 

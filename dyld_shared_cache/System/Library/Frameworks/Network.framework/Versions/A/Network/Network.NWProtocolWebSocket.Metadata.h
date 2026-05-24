@@ -9,8 +9,6 @@
 @interface Network.NWProtocolWebSocket.Metadata : Network._NWProtocolMetadata
 {
     id opcode;
-    id response;
-    id closeCode;
 }
 
 @end

@@ -10,21 +10,18 @@ __attribute__((visibility("hidden")))
 @interface CHDPie2DType : CHDChartType
 {
     int mFirstSliceAngle;
-    _Bool mDoughnutType;
-    _Bool mPieOfPieType;
-    _Bool mBarOfPieType;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)';
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
-- (int);
+- (int);
 - (id);
 - (int);
 

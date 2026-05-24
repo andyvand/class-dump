@@ -21,9 +21,6 @@
 - (int);
 
 // Remaining properties
-@property(nonatomic) int endColumn;
-@property(nonatomic) int endLine;
-@property(nonatomic) int startColumn;
 @property(nonatomic) int startLine;
 
 @end

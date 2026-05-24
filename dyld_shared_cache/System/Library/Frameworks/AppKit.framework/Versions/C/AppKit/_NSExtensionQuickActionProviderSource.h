@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, _NSQuickActionPresentation;
+@class NSSet, _NSQuickActionPresentation;
 
 __attribute__((visibility("hidden")))
 @interface _NSExtensionQuickActionProviderSource
 {
     _NSQuickActionPresentation *_presentation;
-    id _observer;
-    NSSet *_availableQuickActions;
-    void *_observationInfo;
 }
 
-+ (_Bool);
++ (_Bool)nw_loader_third_party_apps;
 + (_Bool)­ÿ'»\pJ;
 - (id);
 - (id);
-- (void);
+- (void)0@9;
 - (id);
 - (void);
 - (void);
@@ -27,14 +24,7 @@ __attribute__((visibility("hidden")))
 - (void)entHandler(eventHandlerRef);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSSet *quickActions;
-@property(readonly) Class superclass;
 
 @end
 

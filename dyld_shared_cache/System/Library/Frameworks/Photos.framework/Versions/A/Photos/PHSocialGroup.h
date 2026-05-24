@@ -6,20 +6,11 @@
 
 #import <Photos/PHObject.h>
 
-@class NSManagedObjectID, NSSet, NSString;
+@class NSSet;
 
 @interface PHSocialGroup : PHObject
 {
     NSSet *_memberPersonIDs;
-    NSSet *_inclusiveAssetIDs;
-    NSSet *_exclusiveAssetIDs;
-    NSManagedObjectID *_keyAssetID;
-    short _socialGroupVerifiedType;
-    NSString *_customTitle;
-    long long _manualOrder;
-    long long _automaticOrder;
-    long long _keyAssetPickSource;
-    unsigned long long _countOfExclusiveAssets;
 }
 
 + (id);
@@ -27,13 +18,13 @@
 + (int);
 + (id);
 + (id);
++ (id)I;
 + (id);
 + (id);
++ (id)incrementUsageCountForKey: /* Error: Ran out of types for this method. */;
++ (_Bool)__MPModelPropertyPlaylistEditorialArtwork__MAPPING_MISSING__;
 + (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
++ (id)N;
 + (_Bool)\88;
 + (id);
 

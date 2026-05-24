@@ -11,21 +11,19 @@
 @interface PKPaymentAvailableProductsRequest : PKPaymentWebServiceRequest
 {
     NSString *_preferredLanguage;
-    long long _context;
 }
 
 + (_Bool)X"!;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (long long);
 - (void);
 - (void);
-- (void)pe;
+- (void)paymentCardType;
 
 // Remaining properties
-@property(nonatomic) long long context; // @synthesize context=_context;
 @property(readonly, copy, nonatomic) NSString *preferredLanguage; // @synthesize preferredLanguage=_preferredLanguage;
 
 @end

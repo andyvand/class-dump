@@ -12,9 +12,6 @@ __attribute__((visibility("hidden")))
 @interface UINSGameModuleTap : UINSGameModuleDigitizer
 {
     NSString *_fingerKey;
-    struct CGPoint _normalizedLocation;
-    long long _keyCode;
-    long long _modifierFlagBit;
 }
 
 + (id);
@@ -28,17 +25,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
-- (long long);
-- (id);
+- (long long)!;
+- (id);
 - (void);
 
 // Remaining properties
-@property long long keyCode;
-@property long long modifierFlagBit;
 @property struct CGPoint normalizedLocation; // @synthesize normalizedLocation=_normalizedLocation;
 
 @end

@@ -6,23 +6,17 @@
 
 #import <MediaPlayer/MPRemotePlaybackQueue.h>
 
-@class MPMediaItem, MPMediaQuery;
+@class MPMediaQuery;
 
 @interface MPLocalMediaQueryRemotePlaybackQueue : MPRemotePlaybackQueue
 {
     MPMediaQuery *_mediaQuery;
-    MPMediaItem *_firstItem;
-    long long _shuffleType;
-    long long _repeatType;
 }
 
-+ (_Bool);
++ (_Bool)c;
 
 // Remaining properties
-@property(readonly, nonatomic) MPMediaItem *firstItem; // @synthesize firstItem=_firstItem;
 @property(readonly, nonatomic) MPMediaQuery *mediaQuery; // @synthesize mediaQuery=_mediaQuery;
-@property(readonly, nonatomic) long long repeatType; // @synthesize repeatType=_repeatType;
-@property(readonly, nonatomic) long long shuffleType; // @synthesize shuffleType=_shuffleType;
 
 @end
 

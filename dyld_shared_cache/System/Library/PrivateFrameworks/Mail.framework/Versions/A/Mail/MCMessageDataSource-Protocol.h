@@ -4,20 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSData;
 @protocol MCMailAccount, MCMailbox;
 
 @protocol MCMessageDataSource
-- (void)itingAtPath: /* Error: Ran out of types for this method. */;
-- (void)tyChange:(id *)arg1;
-- (void);
+- (void)B;
+- (void)J,
+
+*;
+- (NSData *);
+- (NSData *);
+- (id <MCMailAccount>)6;
+- (void)led;
+- (void)qA;
+- (id <MCMailbox>)initWithPID:bundleId:name:isProxy:connection:debuggerAvailability: /* Error: Ran out of types for this method. */;
+- (void)fileHandleForWritingAtPath: /* Error: Ran out of types for this method. */;
+- (void)_handleIdentityChange:(id *)arg1;
 - (_Bool)V(;
 - (void)ÿ;
 - (void)null subject messages;
 
 // Remaining properties
-@property(readonly, nonatomic) id <MCMailAccount> account;
-@property(readonly, nonatomic) _Bool canCompact;
 @property(readonly) _Bool isReadOnly;
-@property(readonly, nonatomic) id <MCMailbox> mailbox;
 @end
 

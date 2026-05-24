@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, PDFAnnotation, PDFTableCellSelection, PDFView, UIEditMenuInteraction;
+@class PDFView;
 
 __attribute__((visibility("hidden")))
 @interface PDFViewControllerPrivate
 {
     PDFView *view;
-    struct CGRect viewMarquee;
-    PDFTableCellSelection *tableCellSelection;
-    CALayer *marqueeEffect;
-    PDFAnnotation *activeAnnotation;
-    UIEditMenuInteraction *editMenuInteraction;
-    unsigned long long textSelectionMenu;
-    double longPressGestureStartTime;
-    _Bool didPostPDFExtensionViewAnnotationLongPress;
 }
 
 - (void);

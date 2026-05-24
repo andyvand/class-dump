@@ -5,5 +5,13 @@
 //
 
 @protocol NSApplicationDelegate
+
+@optional
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool)8x;
+- (void)path;
 @end
 

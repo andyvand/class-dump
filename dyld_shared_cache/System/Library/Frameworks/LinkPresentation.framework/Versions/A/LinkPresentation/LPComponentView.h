@@ -12,19 +12,19 @@ __attribute__((visibility("hidden")))
     id <LPComponentViewHost> _host;
 }
 
-- (_Bool);
-- (id);
+- (_Bool)m;
+- (id)A;
 - (void);
-- (void);
+- (void);
 - (struct CGSize);
-- (id);
-- (id);
+- (id)on invited pcs for share %@;
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (void);
+- (id)_didCancel;
+- (void)nses;
 - (void)Ð!èAùHð1Â0@ù
 × ;
 

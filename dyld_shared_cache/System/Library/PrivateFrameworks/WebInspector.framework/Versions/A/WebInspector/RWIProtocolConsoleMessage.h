@@ -6,15 +6,13 @@
 
 #import <WebInspector/RWIProtocolJSONObject.h>
 
-@class NSArray, NSString, RWIProtocolConsoleStackTrace;
-
 @interface RWIProtocolConsoleMessage : RWIProtocolJSONObject
 {
 }
 
 - (id);
 - (void);
-- (void);
+- (void)	 ;
 - (id);
 - (id);
 - (void);
@@ -22,7 +20,7 @@
 - (int);
 - (void);
 - (int);
-- (void);
+- (void);
 - (double);
 - (int);
 - (id);
@@ -34,23 +32,12 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)initialRequest;
 - (void);
 - (long long)ot Visible);
 
 // Remaining properties
-@property(nonatomic) int column;
-@property(nonatomic) long long level;
-@property(nonatomic) int line;
-@property(copy, nonatomic) NSString *networkRequestId;
-@property(copy, nonatomic) NSArray *parameters;
-@property(nonatomic) int repeatCount;
 @property(nonatomic) long long source;
-@property(retain, nonatomic) RWIProtocolConsoleStackTrace *stackTrace;
-@property(copy, nonatomic) NSString *text;
-@property(nonatomic) double timestamp;
-@property(nonatomic) long long type;
-@property(copy, nonatomic) NSString *url;
 
 @end
 

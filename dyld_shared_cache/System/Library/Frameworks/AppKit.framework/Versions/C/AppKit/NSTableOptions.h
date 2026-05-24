@@ -6,40 +6,12 @@
 
 #import <AppKit/NSWindowController.h>
 
-@class NSButton, NSColor, NSColorWell, NSMutableArray, NSPopUpButton, NSSegmentedControl, NSStepper, NSTextField, NSTextTable, NSTextView;
+@class NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface NSTableOptions : NSWindowController
 {
     NSTextField *rowsField;
-    NSStepper *rowsStepper;
-    NSTextField *columnsField;
-    NSStepper *columnsStepper;
-    NSButton *mergeCellsButton;
-    NSButton *splitCellsButton;
-    NSButton *nestTableButton;
-    NSSegmentedControl *horizontalAlignment;
-    NSSegmentedControl *verticalAlignment;
-    NSTextField *borderField;
-    NSStepper *borderStepper;
-    NSColorWell *borderColorWell;
-    NSPopUpButton *backgroundPopUp;
-    NSColorWell *backgroundColorWell;
-    NSTextView *_client;
-    NSTextTable *_table;
-    unsigned long long _level;
-    struct _NSRange _tableRange;
-    long long _numRows;
-    long long _numCols;
-    long long _minRow;
-    long long _maxRow;
-    long long _minCol;
-    long long _maxCol;
-    long long _spacesOccupied;
-    long long _maxSpaces;
-    NSMutableArray *_cellRanges;
-    NSColor *_defaultBorderColor;
-    _Bool _modifyingClient;
 }
 
 + (id);
@@ -47,17 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)_֦U;
 - (void);
 - (_Bool);
 - (void);
@@ -67,10 +29,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (_Bool);
+- (void)ntifier cache hit for %s:(_Bool)arg1 %s;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)ww(wx	xx(xy	yy(yz	zz(zww
+wwww)w8wxx
+xxxx)x8xyy
+yyyy)y8yzz
+zzzz)z8z&&**,,;;XXZZL;
+- (void)@;
 - (_Bool);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id))A;
 - (id);
 - (void)0@ù
 × ;

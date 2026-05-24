@@ -7,30 +7,24 @@
 @interface UIDropProposal
 {
     _Bool _precise;
-    _Bool _prefersFullSizePreview;
-    unsigned long long _operation;
-    long long _preferredBadgeStyle;
 }
 
 + (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
+- (void)Request To Enroll ourselves for SMS Relay;
+- (_Bool)be processed since original message had an error;
+- (_Bool)ged;
+- (id)ount:(unsigned long long)arg1 %p, ID:%@, Service:%@ > /* Error: Ran out of types for this method. */;
 - (void);
 - (long long);
 - (id);
 - (id);
-- (void)neMaskingClientComponent;
+- (void)_UISceneMaskingClientComponent;
 - (id);
 - (unsigned long long)l;
 - (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long operation; // @synthesize operation=_operation;
-@property(nonatomic, getter=isPrecise) _Bool precise; // @synthesize precise=_precise;
-@property(nonatomic, getter=_preferredBadgeStyle, setter=_setPreferredBadgeStyle:) long long preferredBadgeStyle; // @synthesize preferredBadgeStyle=_preferredBadgeStyle;
-@property(nonatomic) _Bool prefersFullSizePreview; // @synthesize prefersFullSizePreview=_prefersFullSizePreview;
 
 @end
 

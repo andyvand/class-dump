@@ -7,20 +7,6 @@
 @interface AppStoreKit.MetadataRibbonItem
 {
     id id;
-    id itemType;
-    id viewContainerType;
-    id labelText;
-    id artwork;
-    id borderedText;
-    id highlightedText;
-    id starRating;
-    id borderTextViewPlacement;
-    id useAdsLocale;
-    id impressionMetrics;
-    id maxCharacterCount;
-    id truncationLegibilityCharacterCountThreshold;
-    id allowsTruncation;
-    id automationMetadata;
 }
 
 @end

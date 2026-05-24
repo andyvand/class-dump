@@ -4,22 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHDrawing, NSDictionary;
-
 @interface CHRemoteRecognitionRequest
 {
     _Bool _enableCachingIfAvailable;
-    _Bool _hasBeenSubmitted;
-    _Bool _shouldContributeToStyle;
-    unsigned long long _maxRecognitionResultCount;
-    NSDictionary *_options;
-    CHDrawing *_drawing;
-    long long _priority;
-    struct CGSize _minimumDrawingSize;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)_highlightiOSItemAtIndex: /* Error: Ran out of types for this method. */;
 + (Class)0@8Q16^B24;
 - (id);
 - (_Bool);
@@ -38,7 +29,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)hichPrimary_Component;
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -47,14 +38,7 @@
 - (long long)%p. Found %ld item(s).;
 
 // Remaining properties
-@property(copy, nonatomic) CHDrawing *drawing; // @synthesize drawing=_drawing;
-@property(nonatomic) _Bool enableCachingIfAvailable; // @synthesize enableCachingIfAvailable=_enableCachingIfAvailable;
-@property(nonatomic) _Bool hasBeenSubmitted; // @synthesize hasBeenSubmitted=_hasBeenSubmitted;
-@property(nonatomic) unsigned long long maxRecognitionResultCount; // @synthesize maxRecognitionResultCount=_maxRecognitionResultCount;
 @property(nonatomic) struct CGSize minimumDrawingSize; // @synthesize minimumDrawingSize=_minimumDrawingSize;
-@property(copy, nonatomic) NSDictionary *options; // @synthesize options=_options;
-@property(nonatomic) long long priority; // @synthesize priority=_priority;
-@property(readonly, nonatomic) _Bool shouldContributeToStyle; // @synthesize shouldContributeToStyle=_shouldContributeToStyle;
 
 @end
 

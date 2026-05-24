@@ -7,42 +7,27 @@
 #import <AppKit/NSStatusItem.h>
 
 @class NSCGSStatusItem;
-@protocol NSStatusItemDelegate;
 
 @interface NSLocalStatusItem : NSStatusItem
 {
     NSCGSStatusItem *_cgsItem;
-    long long _dragState;
-    long long _lastDragOperation;
-    struct CGPoint _lastDragPoint;
-    struct {
-        unsigned int isDragging:1;
-        unsigned int isDraggedOutOfBar:1;
-        unsigned int customDragDestination:1;
-        unsigned int customDragDestinationWantsSpaceInBar:1;
-        unsigned int isCreationDrag:1;
-        unsigned int sawMoveEvent:1;
-        unsigned int draggedLongEnoughToAllowRemoval:1;
-        unsigned int dragSetSomeOverrideCursor:1;
-    } _flags;
-    _Bool _unclippedInMenuBar;
 }
 
-+ (void);
++ (void);
 - (_Bool);
+- (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool)setHTTPMethod: /* Error: Ran out of types for this method. */;
+- (id)accept_didSendBodyData;
+- (void)O fallback;
+- (void)as %s, wants %s]!;
+- (void)ublic}@> Already invalidating %@;
+- (void)dy invalidating %@;
+- (void)oxySession <%{public}@> Already invalidating %@;
+- (void)ialized.;
+- (void)ting an AVAssetDownloadTask from background transfer daemon:%@ /* Error: Ran out of types for this method. */;
+- (void)lic}@> failed to obtain the Caches directory for this user-context. We will not be able to download.;
 - (_Bool);
 - (unsigned int);
 - (void);
@@ -50,39 +35,37 @@
 - (void);
 - (_Bool);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (long long);
+- (void)\;
+- (void)X;
+- (long long)0;
 - (struct CGRect);
-- (void);
-- (void);
-- (void);
-- (int);
-- (void);
-- (void);
+- (void)n:allowOverwrite:] /* Error: Ran out of types for this method. */;
+- (void)ECT receiver_data, entry_ID from cfurl_cache_receiver_data WHERE isDataOnFS > 0 AND entry_ID in 								 (SELECT entry_ID from cfurl_cache_response WHERE entry_ID > 0 ORDER BY time_stamp ASC LIMIT %d);
+- (void)peatingSystemTask"8;
+- (int)%d for request %p;
+- (void)shouldHandleHTTPCookies;
+- (void).cfnetwork.altservicesstorage;
 - (void);
 - (_Bool);
 - (id);
 - (float);
-- (void);
+- (void)@;
 - (long long);
 - (id);
 - (id);
-- (float);
+- (float);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void)pMenuCarbonOptionsToSet;
+- (void)NSPopUpMenuCarbonOptionsToSet;
 - (void)È@;
 
 // Remaining properties
-@property __weak id <NSStatusItemDelegate> delegate; // @dynamic delegate;
-@property _Bool editMode;
 @property _Bool unclippedInMenuBar; // @synthesize unclippedInMenuBar=_unclippedInMenuBar;
 
 @end

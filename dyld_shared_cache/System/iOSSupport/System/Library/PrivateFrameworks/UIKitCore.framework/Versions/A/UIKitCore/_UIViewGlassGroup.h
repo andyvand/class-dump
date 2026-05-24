@@ -12,9 +12,9 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)erver__file_chunk_lists__descriptor;
 - (id);
-- (_Bool)ate;
+- (_Bool)autoFillDelegate;
 - (_Bool)alytics] didDeleteBackwardText:called with nil text /* Error: Ran out of types for this method. */;
 - (void)ì^ÿ´!Ï¨$l;
 

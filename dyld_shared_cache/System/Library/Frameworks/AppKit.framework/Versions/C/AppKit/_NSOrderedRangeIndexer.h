@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface _NSOrderedRangeIndexer
 {
@@ -23,12 +21,10 @@ __attribute__((visibility("hidden")))
 - (long long)ä,;
 - (struct _NSRange)1;
 - (void)Linked Frameworks;
-- (void)ontroller;
+- (void)parentViewController;
 
 // Remaining properties
-@property(readonly, nonatomic) struct _NSRange containingRange;
 @property(readonly, nonatomic) long long numberOfRanges;
-@property(readonly, nonatomic) NSArray *orderedRanges;
 
 @end
 

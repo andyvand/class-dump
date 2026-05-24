@@ -10,18 +10,17 @@ __attribute__((visibility("hidden")))
 @interface MTLBufferLayoutDescriptorInternal : MTLBufferLayoutDescriptor
 {
     unsigned long long _stride;
-    unsigned long long _stepFunction;
-    unsigned long long _instanceStepRate;
 }
 
 - (unsigned long long);
 - (void);
-- (unsigned long long);
+- (unsigned long long):CopyImageBlockSetWithOptions returned NULL
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
+- (void)u;
 - (void);
 
 @end

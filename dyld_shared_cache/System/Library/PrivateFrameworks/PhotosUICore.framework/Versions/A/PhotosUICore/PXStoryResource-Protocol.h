@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *px_storyResourceIdentifier;
-@property(readonly, nonatomic) long long px_storyResourceKind;
 @end
 

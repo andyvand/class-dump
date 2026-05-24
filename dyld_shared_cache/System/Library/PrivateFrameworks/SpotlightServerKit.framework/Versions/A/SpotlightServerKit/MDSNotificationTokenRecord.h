@@ -9,9 +9,6 @@
 @interface MDSNotificationTokenRecord
 {
     NSString *_aName;
-    SEL _aSelector;
-    id _anObject;
-    int _token;
 }
 
 - (id);
@@ -19,7 +16,7 @@
 - (id);
 - (id);
 - (int);
-- (SEL);
+- (SEL);
 
 @end
 

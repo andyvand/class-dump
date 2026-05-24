@@ -9,20 +9,18 @@
 @interface PKEnumerator
 {
     CDUnknownBlockType _filter;
-    NSEnumerator *_underlyingEnumerator;
 }
 
 + (CDUnknownBlockType);
 - (id);
+- (id);
 - (id);
-- (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)`;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType filter; // @synthesize filter=_filter;
 @property(readonly, nonatomic) NSEnumerator *underlyingEnumerator; // @synthesize underlyingEnumerator=_underlyingEnumerator;
 
 @end

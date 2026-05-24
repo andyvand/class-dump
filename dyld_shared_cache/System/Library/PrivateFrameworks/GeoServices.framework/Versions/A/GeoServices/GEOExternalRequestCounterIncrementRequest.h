@@ -6,32 +6,25 @@
 
 #import <GeoServices/GEOXPCRequest.h>
 
-@class GEOExternalRequestCounterInfo, NSString;
+@class GEOExternalRequestCounterInfo;
 
 @interface GEOExternalRequestCounterIncrementRequest : GEOXPCRequest
 {
     GEOExternalRequestCounterInfo *_info;
 }
 
-+ (Class);
++ (Class)SLTwitterUpdateMultiPartStatusURL;
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void)asMapViewLocationIsTourist;
-- (void)nedInViewport;
-- (id)tle;
+- (void)hasMapViewLocationIsTourist;
+- (void)_isContainedInViewport;
+- (id)calloutTitle;
 - (void)ØÓ4;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) GEOExternalRequestCounterInfo *info; // @synthesize info=_info;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFExponentialBackoffTimer, NSObject, NSString;
-@protocol HMDPrimaryResidentDiscoveryManagerDataSource, HMDPrimaryResidentDiscoveryManagerDelegate, HMDPrimaryResidentDiscoveryOperation, HMDResidentDeviceManagerContext, OS_dispatch_queue;
+@class NSString;
+@protocol HMDPrimaryResidentDiscoveryManagerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface HMDPrimaryResidentDiscoveryManager
 {
     id <HMDPrimaryResidentDiscoveryManagerDelegate> delegate;
-    NSString *_logIdentifier;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <HMDPrimaryResidentDiscoveryManagerDataSource> _dataSource;
-    id <HMDResidentDeviceManagerContext> _context;
-    id <HMDPrimaryResidentDiscoveryOperation> _primaryDiscoveryOperation;
-    HMFExponentialBackoffTimer *_retryTimer;
 }
 
 + (id)~B;
@@ -28,26 +22,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)nversation"32q40;
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void)ations changed from %{bool}d to %{bool}d;
-- (void)getKind;
-- (void)oryUpdateStagingCounter;
+- (void)widgetKind;
+- (void)HMDLogEventPeakConcurrentThreadAccessoryUpdateStagingCounter;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDPrimaryResidentDiscoveryManagerDelegate> delegate; // @synthesize delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

@@ -16,7 +16,7 @@
 - (id);
 - (void);
 - (void);
-- (id)ificatesForGroup: /* Error: Ran out of types for this method. */;
+- (id)delegateNeedsTrustedAnchorCertificatesForGroup: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *history; // @synthesize history=_history;

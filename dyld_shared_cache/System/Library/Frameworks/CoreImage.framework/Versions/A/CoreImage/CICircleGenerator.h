@@ -6,15 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIColor, CIVector, NSNumber;
+@class CIColor;
 
 __attribute__((visibility("hidden")))
 @interface CICircleGenerator : CIFilter
 {
     CIColor *inputColor;
-    CIVector *inputCenter;
-    NSNumber *inputRadius;
-    NSNumber *inputEdgeBlur;
 }
 
 + (id);

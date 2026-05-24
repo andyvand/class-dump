@@ -6,32 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString, SISchemaUUID, USOSchemaUSOGraph, USOSchemaUSOGraphTier1;
+@class SISchemaUUID;
 
 @interface FLOWSchemaFLOWMediaPlayerPlaybackContextTier1 : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    NSString *_contentTitle;
-    unsigned int _adamId;
-    NSString *_adamIdString;
-    NSArray *_searchResults;
-    USOSchemaUSOGraph *_u2UsoGraph;
-    USOSchemaUSOGraphTier1 *_u2UsoGraphTier1;
-    _Bool _isNlsResult;
-    _Bool _isNlsContainerResult;
-    struct {
-        unsigned int adamId:1;
-        unsigned int isNlsResult:1;
-        unsigned int isNlsContainerResult:1;
-    } _has;
-    _Bool _hasLinkId;
-    _Bool _hasContentTitle;
-    _Bool _hasAdamIdString;
-    _Bool _hasU2UsoGraph;
-    _Bool _hasU2UsoGraphTier1;
 }
 
-- (id);
+- (id)R";
 - (void);
 - (void);
 - (void);
@@ -63,8 +45,8 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (unsigned long long);
-- (id);
+- (unsigned long long)ICloudMailViewControllerProvider;
+- (id)ntSettings;
 - (_Bool);
 - (void);
 - (void);
@@ -84,31 +66,14 @@
 - (id);
 - (void);
 - (id)nEligible"b1"isPersonalizedSession"b1"isPersonalizedSessionAffected"b1};
-- (unsigned int)PommesId: /* Error: Ran out of types for this method. */;
-- (void);
+- (unsigned int)setPommesId: /* Error: Ran out of types for this method. */;
+- (void)deleteResponseGeneration;
 - (id)te;
 - (id)ÐkÌl;
 - (void)ò­¬¥Ö$;
 
 // Remaining properties
-@property(nonatomic) unsigned int adamId; // @synthesize adamId=_adamId;
-@property(copy, nonatomic) NSString *adamIdString; // @synthesize adamIdString=_adamIdString;
-@property(copy, nonatomic) NSString *contentTitle; // @synthesize contentTitle=_contentTitle;
-@property(nonatomic) _Bool hasAdamId;
-@property(nonatomic) _Bool hasAdamIdString; // @synthesize hasAdamIdString=_hasAdamIdString;
-@property(nonatomic) _Bool hasContentTitle; // @synthesize hasContentTitle=_hasContentTitle;
-@property(nonatomic) _Bool hasIsNlsContainerResult;
-@property(nonatomic) _Bool hasIsNlsResult;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasU2UsoGraph; // @synthesize hasU2UsoGraph=_hasU2UsoGraph;
-@property(nonatomic) _Bool hasU2UsoGraphTier1; // @synthesize hasU2UsoGraphTier1=_hasU2UsoGraphTier1;
-@property(nonatomic) _Bool isNlsContainerResult; // @synthesize isNlsContainerResult=_isNlsContainerResult;
-@property(nonatomic) _Bool isNlsResult; // @synthesize isNlsResult=_isNlsResult;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(copy, nonatomic) NSArray *searchResults; // @synthesize searchResults=_searchResults;
-@property(retain, nonatomic) USOSchemaUSOGraph *u2UsoGraph; // @synthesize u2UsoGraph=_u2UsoGraph;
-@property(retain, nonatomic) USOSchemaUSOGraphTier1 *u2UsoGraphTier1; // @synthesize u2UsoGraphTier1=_u2UsoGraphTier1;
 
 @end
 

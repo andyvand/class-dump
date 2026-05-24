@@ -7,7 +7,6 @@
 @interface AXMTask
 {
     _Bool _complete;
-    CDUnknownBlockType _taskCompleteBlock;
 }
 
 - (CDUnknownBlockType);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(nonatomic, getter=isComplete) _Bool complete; // @synthesize complete=_complete;
-@property(copy, nonatomic) CDUnknownBlockType taskCompleteBlock; // @synthesize taskCompleteBlock=_taskCompleteBlock;
 
 @end
 

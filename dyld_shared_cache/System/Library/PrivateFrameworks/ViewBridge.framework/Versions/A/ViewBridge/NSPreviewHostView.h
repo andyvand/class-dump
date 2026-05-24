@@ -22,8 +22,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (oneway void);
 - (void);
-- (id);
-- (void);
+- (id)4;
+- (void)_shouldLogResultsToSystemLog;
 
 // Remaining properties
 @property(readonly) NSPreviewHostViewController *previewHostViewController;

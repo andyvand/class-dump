@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol _GCCollectionEvent
+- (unsigned long long)`;
+- (float)Y;
 
 // Remaining properties
-@property(readonly) NSArray *allKeys;
 @property(readonly) unsigned long long timestamp;
 @end
 

@@ -6,17 +6,12 @@
 
 #import <FileProvider/FPOperation.h>
 
-@class CSSearchableIndex, FPSpotlightIndexer, NSString;
-@protocol FPSpotlightDropIndexDelegate;
+@class FPSpotlightIndexer;
 
 __attribute__((visibility("hidden")))
 @interface FPSpotlightDropIndexOperation : FPOperation
 {
     FPSpotlightIndexer *_indexer;
-    id <FPSpotlightDropIndexDelegate> _delegate;
-    CSSearchableIndex *_index;
-    NSString *_spotlightDomainIdentifier;
-    unsigned long long _dropReason;
 }
 
 + (void);

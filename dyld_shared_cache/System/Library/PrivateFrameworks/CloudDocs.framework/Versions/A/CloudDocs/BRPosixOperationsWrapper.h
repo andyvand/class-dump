@@ -9,7 +9,7 @@
 }
 
 + (void);
-+ (int);
++ (int)9;
 + (unsigned long long);
 + (void);
 + (long long);

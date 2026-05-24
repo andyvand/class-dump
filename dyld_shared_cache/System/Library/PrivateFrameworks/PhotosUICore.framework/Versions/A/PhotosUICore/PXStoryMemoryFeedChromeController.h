@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXLibraryFilterState, PXSharedLibraryStatusProvider, PXStoryMemoryFeedDataSourceManager, UXNavigationItem;
+@class UXNavigationItem;
 
 @interface PXStoryMemoryFeedChromeController
 {
     _Bool _isActive;
-    UXNavigationItem *_navigationItem;
-    PXStoryMemoryFeedDataSourceManager *_dataSourceManager;
-    PXLibraryFilterState *_libraryFilterState;
-    PXSharedLibraryStatusProvider *_sharedLibraryStatusProvider;
 }
 
 - (id);
@@ -23,25 +19,14 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)removeSlidesAtIndicies:inDocument:withOptions: /* Error: Ran out of types for this method. */;
 - (id)Item Corner Radius;
 - (void)@ emails %@ phones %@ suggestedTransport %@;
 - (void)½´ip;
 - (void):(_Bool)arg1;
 
 // Remaining properties
-@property(readonly, nonatomic) PXStoryMemoryFeedDataSourceManager *dataSourceManager; // @synthesize dataSourceManager=_dataSourceManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isActive; // @synthesize isActive=_isActive;
-@property(readonly, nonatomic) PXLibraryFilterState *libraryFilterState; // @synthesize libraryFilterState=_libraryFilterState;
 @property(readonly, nonatomic) UXNavigationItem *navigationItem; // @synthesize navigationItem=_navigationItem;
-@property(readonly, nonatomic) PXSharedLibraryStatusProvider *sharedLibraryStatusProvider; // @synthesize sharedLibraryStatusProvider=_sharedLibraryStatusProvider;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
 @protocol IKImageEditPanelDataSource;
 
 @interface IKImageEditPanel
@@ -15,7 +14,7 @@
 + (id);
 + (id);
 + (void);
-+ (_Bool);
++ (_Bool);
 + (id);
 + (id);
 + (void);
@@ -42,17 +41,16 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (_Bool)estDraw;
-- (void)MutableVector;
+- (id)';
+- (void)fetchIntersectedStrokesBetweenPoint:(id)arg1 otherPoint:visibleOnscreenStrokes:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)_postNicestDraw;
+- (void)CIMutableVector;
 - (void)ÿÿ;
 - (void);
 - (void);
 
 // Remaining properties
 @property id <IKImageEditPanelDataSource> dataSource;
-@property(readonly) NSArray *filterArray;
 
 @end
 

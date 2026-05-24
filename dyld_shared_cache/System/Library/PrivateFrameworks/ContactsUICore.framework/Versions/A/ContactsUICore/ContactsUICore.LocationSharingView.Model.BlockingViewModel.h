@@ -7,14 +7,11 @@
 @interface ContactsUICore.LocationSharingView.Model.BlockingViewModel
 {
     id contact;
-    id _actionsProvider;
-    id _isBlocked;
-    id _$observationRegistrar;
 }
 
 - (void);
 - (id);
-- (void)atchpadByAddingUneditedContact:toScratchpad: /* Error: Ran out of types for this method. */;
+- (void)scratchpadByAddingUneditedContact:toScratchpad: /* Error: Ran out of types for this method. */;
 
 @end
 

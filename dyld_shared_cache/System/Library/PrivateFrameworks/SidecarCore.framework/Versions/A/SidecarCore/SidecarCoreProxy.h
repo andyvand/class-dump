@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol SidecarServicePresenterDelegate, SidecarSessionDelegate;
+@protocol SidecarSessionDelegate;
 
 __attribute__((visibility("hidden")))
 @interface SidecarCoreProxy
 {
     id <SidecarSessionDelegate> _delegate;
-    id <SidecarServicePresenterDelegate> _presenterDelegate;
 }
 
 + (id);
@@ -29,7 +28,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) id <SidecarSessionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) id <SidecarServicePresenterDelegate> presenterDelegate; // @synthesize presenterDelegate=_presenterDelegate;
 
 @end
 

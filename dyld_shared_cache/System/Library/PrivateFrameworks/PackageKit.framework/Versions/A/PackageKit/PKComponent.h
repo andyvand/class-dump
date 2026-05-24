@@ -4,31 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary, NSMutableSet, NSString, PKFileReference, PKPackage;
+@class NSString, PKFileReference;
 
 @interface PKComponent
 {
     NSString *identifier;
-    NSString *version;
-    NSString *prefixPath;
-    _Bool relocatable;
-    _Bool versionChecked;
-    _Bool strictIdentifier;
-    NSArray *subpaths;
-    NSMutableDictionary *_binarySubpaths;
-    PKPackage *package;
-    NSString *destinationPath;
-    NSMutableDictionary *_scriptsDictionary;
-    NSMutableDictionary *_pathToPatchInfoDictionary;
-    NSMutableDictionary *_pathToRequiredFilesDictionary;
-    NSMutableArray *_deferredInstallPaths;
-    NSMutableSet *_doNotObsoletePaths;
-    NSMutableSet *_doNotObsoletePrefixes;
-    PKFileReference *_bundleFileReference;
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (_Bool);
@@ -67,24 +51,15 @@
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)#;
+- (void)directoryLabelForDestinationID:(id)arg1;
 - (id);
 - (id);
-- (long long);
+- (long long)ary/Frameworks/Accelerate.framework/Versions/A/Accelerate;
 - (id)%;
 
 // Remaining properties
 @property(retain, nonatomic) PKFileReference *bundleFileReference; // @synthesize bundleFileReference=_bundleFileReference;
-@property(retain) NSString *destinationPath; // @synthesize destinationPath;
-@property(retain) NSString *identifier; // @synthesize identifier;
-@property PKPackage *package; // @synthesize package;
-@property(retain) NSString *prefixPath; // @synthesize prefixPath;
-@property _Bool relocatable; // @synthesize relocatable;
-@property _Bool strictIdentifier; // @synthesize strictIdentifier;
-@property(retain) NSArray *subpaths; // @synthesize subpaths;
-@property(retain) NSString *version; // @synthesize version;
-@property _Bool versionChecked; // @synthesize versionChecked;
 
 @end
 

@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRVirtualVoiceInputDeviceDescriptor, NSData;
-
 @interface MRVirtualVoiceInputDevice
 {
     unsigned int _deviceID;
-    unsigned int _recordingState;
-    MRVirtualVoiceInputDeviceDescriptor *_descriptor;
 }
 
 - (void);
@@ -25,10 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *data;
-@property(copy, nonatomic) MRVirtualVoiceInputDeviceDescriptor *descriptor; // @synthesize descriptor=_descriptor;
 @property(readonly, nonatomic) unsigned int deviceID; // @synthesize deviceID=_deviceID;
-@property(nonatomic) unsigned int recordingState; // @synthesize recordingState=_recordingState;
 
 @end
 

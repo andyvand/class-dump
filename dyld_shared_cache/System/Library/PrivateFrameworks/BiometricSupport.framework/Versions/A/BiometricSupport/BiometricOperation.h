@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BiometricKitXPCExportedClientObject;
-
 @interface BiometricOperation
 {
     int _status;
-    unsigned int _cancelledMessage;
-    BiometricKitXPCExportedClientObject *_client;
-    long long _priority;
 }
 
 - (unsigned int);
@@ -25,18 +20,11 @@
 - (int);
 - (id);
 - (void);
-- (int);
+- (int)ASPMSPParseBufferToCxt:higher_die_temperature(8251):cfg 30 elements; (30*4) cfg bytes != (%d) buffer bytes /* Error: Ran out of types for this method. */;
 - (void);
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int cancelledMessage; // @synthesize cancelledMessage=_cancelledMessage;
-@property(retain, nonatomic) BiometricKitXPCExportedClientObject *client; // @synthesize client=_client;
-@property(nonatomic) long long priority; // @synthesize priority=_priority;
-@property(nonatomic) int status; // @synthesize status=_status;
-@property(readonly, nonatomic) unsigned int taskPausedMessage;
-@property(readonly, nonatomic) unsigned int taskResumeFailedMessage;
-@property(readonly, nonatomic) unsigned int taskResumedMessage;
 @property(readonly, nonatomic) int type;
 
 @end

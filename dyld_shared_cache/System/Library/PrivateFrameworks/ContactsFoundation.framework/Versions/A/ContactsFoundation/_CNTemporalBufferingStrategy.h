@@ -4,32 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol CNCancelable, CNScheduler;
+@protocol CNCancelable;
 
 @interface _CNTemporalBufferingStrategy
 {
     double _interval;
-    id <CNScheduler> _scheduler;
-    id <CNCancelable> _sendToken;
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
-- (id);
+- (id)@!;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) id <CNCancelable> sendToken; // @synthesize sendToken=_sendToken;
-@property(readonly) Class superclass;
 
 @end
 

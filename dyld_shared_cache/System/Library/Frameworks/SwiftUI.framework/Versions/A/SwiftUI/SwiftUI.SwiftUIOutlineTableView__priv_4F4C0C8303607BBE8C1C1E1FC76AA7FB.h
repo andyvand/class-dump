@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMenu;
-
 @interface SwiftUI.SwiftUIOutlineTableView__priv_4F4C0C8303607BBE8C1C1E1FC76AA7FB
 {
     id allowsSelection;
-    id customAlternatingBackgroundColors;
-    id stackBehavior;
 }
 
 - (_Bool);
@@ -20,14 +16,14 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (long long);
+- (long long)(;
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)ame;
+- (void)SFFileVaultRecoveryKeySaveRequest;
 - (_Bool);
-- (void);
-- (_Bool);
-- (void);
+- (void)24;
 - (id);
 - (struct CGSize);
 - (id);
@@ -36,17 +32,13 @@
 - (_Bool);
 - (struct CGRect);
 - (id);
-- (void)sibleItems;
+- (void)visibleItems;
 - (void);
 - (id)ÿ;
 - (_Bool)þÉ=^7ÈBÁþ±=^7H¤Àþ±=^7ÀBÁþ¹=^7ÀBÁþ;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool _allowsTextEditingWithoutSelection;
 @property(nonatomic, readonly) _Bool _needsBackgroundFillerView;
-@property(nonatomic, readonly) _Bool _needsRubberBandViews;
-@property(nonatomic, retain) NSMenu *menu;
-@property(nonatomic, readonly) struct CGRect visibleRect;
 
 @end
 

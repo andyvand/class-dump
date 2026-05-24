@@ -6,15 +6,12 @@
 
 #import <Vision/VNCoreSceneUnderstandingDetectorFeatureConfiguration.h>
 
-@class NSArray, VNDisallowedList;
+@class VNDisallowedList;
 
 __attribute__((visibility("hidden")))
 @interface VNCoreSceneUnderstandingDetectorRecognizeObjectsConfiguration : VNCoreSceneUnderstandingDetectorFeatureConfiguration
 {
     float _minimumDetectionConfidence;
-    float _nonMaximumSuppressionThreshold;
-    VNDisallowedList *_disallowedList;
-    NSArray *_targetedIdentifiers;
 }
 
 - (id);
@@ -28,13 +25,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (void)eBlurScoreRequest;
+- (void)CalculateBlurScoreRequest;
 
 // Remaining properties
 @property(copy, nonatomic) VNDisallowedList *disallowedList; // @synthesize disallowedList=_disallowedList;
-@property(nonatomic) float minimumDetectionConfidence; // @synthesize minimumDetectionConfidence=_minimumDetectionConfidence;
-@property(nonatomic) float nonMaximumSuppressionThreshold; // @synthesize nonMaximumSuppressionThreshold=_nonMaximumSuppressionThreshold;
-@property(copy, nonatomic) NSArray *targetedIdentifiers; // @synthesize targetedIdentifiers=_targetedIdentifiers;
 
 @end
 

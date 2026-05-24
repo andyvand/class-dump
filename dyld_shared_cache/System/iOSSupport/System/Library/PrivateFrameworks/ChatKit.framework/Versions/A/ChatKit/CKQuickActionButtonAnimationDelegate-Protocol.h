@@ -5,5 +5,7 @@
 //
 
 @protocol CKQuickActionButtonAnimationDelegate
+- (void)isKeyboardMathSolvingAllowedObservation;
+- (void)isKeyboardMathSolvingAllowed;
 @end
 

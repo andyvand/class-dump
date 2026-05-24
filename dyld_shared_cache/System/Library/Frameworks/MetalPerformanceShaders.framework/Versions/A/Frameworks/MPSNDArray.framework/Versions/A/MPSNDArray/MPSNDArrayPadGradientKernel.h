@@ -9,7 +9,6 @@
 @interface MPSNDArrayPadGradientKernel : MPSNDArrayUnaryGradientKernel
 {
     unsigned long long _edgeMode;
-    struct MPSNDArrayPaddingSize _paddingSize;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long edgeMode; // @synthesize edgeMode=_edgeMode;
-@property(readonly, nonatomic) struct MPSNDArrayPaddingSize paddingSize; // @synthesize paddingSize=_paddingSize;
 
 @end
 

@@ -6,19 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface DODMLASRSchemaDODMLASRUtteranceInfo : SISchemaInstrumentationMessage
 {
     NSArray *_results;
-    unsigned long long _startTimeInNs;
-    unsigned long long _endTimeInNs;
-    CDStruct_b5935cb6 _has;
 }
 
 - (unsigned long long);
 - (void);
-- (void);
+- (void)4 ;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -27,31 +24,26 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)kIAP2ServerLaunchedNotification;
+- (id)tel:(id)arg1;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
+- (void)__removeCachedContactForKey:(id)arg1;
 - (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
 - (id)dsSinceBoot"b1"bootSessionUUIDChanged"b1"preProcessorTriggerReason"b1};
-- (void)enerationSignalsCaptured;
-- (id)ASUSSchemaPEGASUSDomainCards;
+- (void)deleteNlRouterPromptGenerationSignalsCaptured;
+- (id)PEGASUSSchemaPEGASUSDomainCards;
 - (id)°	ì	;
 - (void)ent.UUFRPresented;
 - (void)4 &è%;
 
 // Remaining properties
-@property(nonatomic) unsigned long long endTimeInNs; // @synthesize endTimeInNs=_endTimeInNs;
-@property(nonatomic) _Bool hasEndTimeInNs;
-@property(nonatomic) _Bool hasStartTimeInNs;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *results; // @synthesize results=_results;
-@property(nonatomic) unsigned long long startTimeInNs; // @synthesize startTimeInNs=_startTimeInNs;
 
 @end
 

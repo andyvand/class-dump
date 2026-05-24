@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _PASLock;
 @protocol TRIPaths;
 
 @interface TRIActiveFactorProvidersParser
 {
     id <TRIPaths> _paths;
-    _PASLock *_lock;
 }
 
 - (id);
@@ -30,11 +28,11 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)a;
 - (char *);
 - (id);
 - (id);
-- (void);
+- (void)_PHResourceLocalAvailabilityRequestResourceTypeOriginalSpatialOverCapture;
 - (id);
 - (void);
 

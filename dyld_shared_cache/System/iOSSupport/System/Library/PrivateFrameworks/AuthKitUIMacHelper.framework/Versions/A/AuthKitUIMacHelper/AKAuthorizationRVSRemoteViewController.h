@@ -11,14 +11,14 @@
     id <AKAuthorizationRVSServiceDelegate> _delegate;
 }
 
-+ (void);
-- (void);
++ (void)FRuntimeBase=QAQ}q^{__CFArray}}16@0:(CDUnknownBlockType)arg1 8;
+- (void)splitMergedChatsInDatabaseAtPath:(id)arg1 completionHandler:(id)arg2;
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)setDictionary:forKey: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <AKAuthorizationRVSServiceDelegate> delegate; // @synthesize delegate=_delegate;

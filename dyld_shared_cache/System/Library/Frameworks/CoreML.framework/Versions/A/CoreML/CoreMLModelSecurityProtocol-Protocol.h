@@ -4,6 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol CoreMLModelSecurityProtocol
+- (void)Structure:(NSString *)arg1 ];
+- (void)ndirectArgumentBufferLayout offsetForConstant:(NSString *)arg1 ];
+- (void)writeMTLGenericBVHSizesKernel_1_5;
+- (void)splitFragmentsPrefixSumKernel;
+- (void)writeMTLGenericBVHSizesKernel_1_3;
+- (void)binFragmentsTemporalSplitKernel;
+- (void)finishBuildIterationKernel;
+- (void)extractMTLGenericBVHGeometryKernel_1_2;
+- (void)writeMTLGenericBVHSizesKernel_1_2;
+- (void)copyPrimitiveDataKernel;
+- (void);
 @end
 

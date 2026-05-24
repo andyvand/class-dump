@@ -10,42 +10,28 @@ __attribute__((visibility("hidden")))
 @interface VCMediaControlInfoFaceTimeAudio : VCMediaControlInfo
 {
     unsigned int _controlInfoReceivedKBytes;
-    unsigned int _controlInfoReceivedPackets;
-    unsigned int _controlInfoAudioPacketSize;
-    unsigned int _controlInfoAudioTimestamp;
-    double _controlInfoArrivalTime;
-    CDStruct_e031f687 _controlFeedbackParameter;
-    _Bool _videoEnabled;
-    unsigned short _controlInfoSequenceNumber;
-    _Bool _controlInfoIsDuplicatePacket;
-    _Bool _controlInfoIsReceivedOnPrimary;
-    _Bool _ecnEnabled;
-    unsigned char _controlInfoECNByte;
-    _Bool _isFeedbackReceivedOnRelay;
 }
 
 - (int);
-- (int);
+- (int)qA1;
 - (void);
-- (int);
+- (int)	;
 - (id);
 - (_Bool);
 - (int);
 - (int);
+- (int);
+- (unsigned long long);
+- (_Bool);
 - (int);
 - (unsigned long long);
-- (_Bool);
-- (int);
-- (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)@;
 - (void);
 
 // Remaining properties
-@property _Bool ecnEnabled; // @synthesize ecnEnabled=_ecnEnabled;
 @property(readonly) unsigned long long feedbackSize;
-@property _Bool videoEnabled; // @synthesize videoEnabled=_videoEnabled;
 
 @end
 

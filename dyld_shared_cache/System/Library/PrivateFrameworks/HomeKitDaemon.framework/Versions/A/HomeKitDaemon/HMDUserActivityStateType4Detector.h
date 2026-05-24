@@ -6,25 +6,22 @@
 
 #import <HomeKitDaemon/HMDUserActivityStateDetector.h>
 
-@class CLLocation, CLRegion, HMDLocation, NSString;
+@class CLLocation;
 
 __attribute__((visibility("hidden")))
 @interface HMDUserActivityStateType4Detector : HMDUserActivityStateDetector
 {
     CLLocation *_homeLocation;
-    HMDLocation *_location;
-    unsigned long long _state;
-    CLRegion *_region;
 }
 
 + (_Bool);
 + (unsigned long long);
 + (id)9B;
 - (void);
-- (id);
+- (id)fetchCurrentAnnouncement:(id)arg1;
 - (void);
-- (void);
-- (void);
+- (void)pCapabilityFetchingServer cancelFetchCapabilitiesForContacts:(long long)arg1 ];
+- (void)at a charger;
 - (void);
 - (void);
 - (void);
@@ -37,22 +34,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id)c}@Failed to fetch notification registrations for characteristic:(id)arg1 %@, deviceIdsDestination:%@, error:%@ /* Error: Ran out of types for this method. */;
 - (id)ash}@:%@ /* Error: Ran out of types for this method. */;
-- (void)ifier;
+- (void)newPairingIdentifier;
 - (id);
 - (void)#!~&xÚ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) CLLocation *homeLocation; // @synthesize homeLocation=_homeLocation;
-@property(readonly, nonatomic) HMDLocation *location; // @synthesize location=_location;
-@property(retain, nonatomic) CLRegion *region; // @synthesize region=_region;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

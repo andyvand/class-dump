@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface CKDPAnonymousShareRemoveRequest
 {
     NSString *_anonymousShareTupleHash;
-    NSData *_encryptedShareTuple;
 }
 
 + (id);
@@ -20,23 +19,20 @@
 - (id);
 - (id);
 - (id);
+- (void)4;
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)sbceas_InstallLowWaterTrigger;
+- (_Bool);
 - (unsigned int);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (Class)bilities;
-- (void)s;
+- (Class)capabilities;
+- (void)requiredAdopterFeatures;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *anonymousShareTupleHash; // @synthesize anonymousShareTupleHash=_anonymousShareTupleHash;
-@property(retain, nonatomic) NSData *encryptedShareTuple; // @synthesize encryptedShareTuple=_encryptedShareTuple;
 @property(readonly, nonatomic) _Bool hasAnonymousShareTupleHash;
-@property(readonly, nonatomic) _Bool hasEncryptedShareTuple;
 
 @end
 

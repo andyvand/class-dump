@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface CNSaveResponse
 {
     NSMutableDictionary *_contactSnapshotsByIndexPath;
-    NSMutableDictionary *_groupSnapshotsByIndexPath;
-    NSMutableDictionary *_containerSnapshotsByIndexPath;
-    _Bool _didAffectMeCard;
 }
 
 + (_Bool);

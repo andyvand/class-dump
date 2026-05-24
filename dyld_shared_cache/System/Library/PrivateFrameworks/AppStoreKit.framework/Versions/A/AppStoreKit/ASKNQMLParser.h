@@ -5,13 +5,10 @@
 //
 
 @class NSString;
-@protocol ASKNQMLParser;
 
 @interface ASKNQMLParser
 {
     NSString *_string;
-    id <ASKNQMLParser> _delegate;
-    struct _xmlParserCtxt *__parserContext;
 }
 
 + (void)¶ÿ­eÖ	°ÿ;
@@ -22,15 +19,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)JSONTypeCluster;
 - (id);
 - (void)Xw;
 - (void);
 
 // Remaining properties
 @property(nonatomic) struct _xmlParserCtxt *_parserContext; // @synthesize _parserContext=__parserContext;
-@property(nonatomic) __weak id <ASKNQMLParser> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy, nonatomic) NSString *string; // @synthesize string=_string;
 
 @end
 

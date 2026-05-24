@@ -5,5 +5,11 @@
 //
 
 @protocol FAScreenTimeRequestProviderProtocol
+- (void)positionInMilliseconds;
+- (_Bool)parametersRoot;
+- (void)secondaryDescriptiveText;
+- (void)CallSnippet;
+- (void)UNDEFINED;
+- (_Bool)coordinationOptions;
 @end
 

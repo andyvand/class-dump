@@ -4,43 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSNumber, NSString, NSURL;
+@class NSMutableArray;
 
 @interface MLCompilerOptions
 {
     _Bool _dryRun;
-    _Bool _containerIsCloud;
-    _Bool _trainWithMLCompute;
-    _Bool _allowsPixelBufferDirectBinding;
-    _Bool _encryptModel;
-    _Bool _usesCodeSigningIdentityForEncryption;
-    _Bool _allowMultipleInputsWithEnumeratedShapes;
-    int _mlProgramAddDuringCompilationMode;
-    NSString *_platform;
-    NSString *_platformVersion;
-    NSNumber *_keyInfoVersion;
-    NSString *_keyID;
-    NSData *_key;
-    NSData *_iv;
-    NSData *_sinf;
-    NSData *_mlsinf;
-    NSURL *_specURL;
-    NSMutableArray *_warnings;
 }
 
-+ (id);
++ (id);
+- (_Bool)tShortSoundCount:bomSoundCount:fc1ndRangingCount:fc1ndRangingTime:lastPIn:batteryState:nbmmsRangingTime:abandonedFwUpdateCount:abandonedFwUpdateTime:roseInitCount:pairingAttemptsCount:tempVeryLowCount:tempLowCount:tempOkCount:tempHighCount:proxPairingTime:tempLastPIn:nbmmsRangingCount:version: /* Error: Ran out of types for this method. */;
+- (void)y;
 - (_Bool);
 - (void);
-- (_Bool);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
+- (id)A;
+- (void)/;
 - (void);
 - (void);
 - (int);
-- (id);
+- (id)j;
 - (void);
 - (void);
 - (_Bool);
@@ -49,43 +32,26 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
+- (id)i	;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (id)king;
+- (id)_reusableForCopyBoundOutputBacking;
 - (void) Ü!¨'ü(*Ü+0,.;
 - (void)¤;
 - (void)Ø;
 - (void)uested key '%@'. Note:only updatable neural network models can provide parameter values and these values are only accessible in the context of an MLUpdateTask completion or progress handler. /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property _Bool allowMultipleInputsWithEnumeratedShapes; // @synthesize allowMultipleInputsWithEnumeratedShapes=_allowMultipleInputsWithEnumeratedShapes;
-@property _Bool allowsPixelBufferDirectBinding; // @synthesize allowsPixelBufferDirectBinding=_allowsPixelBufferDirectBinding;
-@property _Bool containerIsCloud; // @synthesize containerIsCloud=_containerIsCloud;
-@property _Bool dryRun; // @synthesize dryRun=_dryRun;
-@property _Bool encryptModel; // @synthesize encryptModel=_encryptModel;
-@property(copy) NSData *iv; // @synthesize iv=_iv;
-@property(copy) NSData *key; // @synthesize key=_key;
-@property(copy) NSString *keyID; // @synthesize keyID=_keyID;
-@property(copy) NSNumber *keyInfoVersion; // @synthesize keyInfoVersion=_keyInfoVersion;
-@property int mlProgramAddDuringCompilationMode; // @synthesize mlProgramAddDuringCompilationMode=_mlProgramAddDuringCompilationMode;
-@property(copy) NSData *mlsinf; // @synthesize mlsinf=_mlsinf;
-@property(retain) NSString *platform; // @synthesize platform=_platform;
-@property(retain) NSString *platformVersion; // @synthesize platformVersion=_platformVersion;
-@property(copy) NSData *sinf; // @synthesize sinf=_sinf;
-@property(copy) NSURL *specURL; // @synthesize specURL=_specURL;
-@property _Bool trainWithMLCompute; // @synthesize trainWithMLCompute=_trainWithMLCompute;
-@property _Bool usesCodeSigningIdentityForEncryption; // @synthesize usesCodeSigningIdentityForEncryption=_usesCodeSigningIdentityForEncryption;
 @property(retain, nonatomic) NSMutableArray *warnings; // @synthesize warnings=_warnings;
 
 @end

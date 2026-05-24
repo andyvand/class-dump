@@ -4,36 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BuddyCSSProvider, DOMCSSMediaRule, DOMCSSStyleSheet, DOMDocument, DOMHTMLBodyElement, DOMHTMLHeadElement, NSMutableArray, NSMutableDictionary, NSMutableSet, NSString, WebView;
+@class DOMCSSMediaRule;
 
 @interface TranscriptStyleController
 {
     DOMCSSMediaRule *_2xRules;
-    NSMutableSet *_dirtyCSSRules;
-    NSMutableDictionary *_cssCache;
-    NSMutableArray *_cssCacheOrder;
-    NSMutableDictionary *_cssRuleMap;
-    NSMutableDictionary *_2xRuleMap;
-    unsigned int _changeCount;
-    int _inBatchViewChangeCount;
-    _Bool _batchChangeRequiresRebuild;
-    _Bool _watchMessageAddressing;
-    _Bool _messageContentIsHidden;
-    _Bool _requiresCSSRebuild;
-    BuddyCSSProvider *_buddyCSSProvider;
-    WebView *_webView;
-    DOMDocument *_DOM;
-    DOMHTMLHeadElement *_head;
-    DOMHTMLBodyElement *_body;
 }
 
 + (id);
 + (id);
+- (void)+;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (struct CGRect);
@@ -68,35 +52,22 @@
 - (id);
 - (void);
 - (void);
-- (short);
+- (short)layoutAttributesForDecorationViewOfKind:(id)arg1 withIndexPath: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)So36UIPercentDrivenInteractiveTransitionCSg;
 - (id);
 - (void);
 - (id);
 - (void);
 - (int)	ð1Â0@ù
 × ;
-- (id)useover;
+- (id)mouseover;
 
 // Remaining properties
-@property(retain, nonatomic) DOMDocument *DOM; // @synthesize DOM=_DOM;
-@property(retain, nonatomic) DOMCSSStyleSheet *DOMCSSStyleSheet; // @dynamic DOMCSSStyleSheet;
-@property(readonly, retain, nonatomic) DOMHTMLBodyElement *body; // @synthesize body=_body;
-@property(nonatomic) BuddyCSSProvider *buddyCSSProvider; // @synthesize buddyCSSProvider=_buddyCSSProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) DOMHTMLHeadElement *head; // @synthesize head=_head;
 @property _Bool requiresCSSRebuild; // @synthesize requiresCSSRebuild=_requiresCSSRebuild;
-@property(readonly) Class superclass;
-@property(nonatomic) WebView *webView; // @synthesize webView=_webView;
 
 @end
 

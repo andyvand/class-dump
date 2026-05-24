@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol BUStreamReadChannel;
 
 @interface BUZipInflateReadChannel
 {
     struct z_stream_s _stream;
-    char *_outBuffer;
-    _Bool _validateCRC;
-    unsigned int _CRC;
-    id <BUStreamReadChannel> _readChannel;
-    unsigned long long _remainingUncompressedSize;
-    unsigned long long _outBufferSize;
 }
 
 + (void);
@@ -39,18 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int CRC; // @synthesize CRC=_CRC;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long outBufferSize; // @synthesize outBufferSize=_outBufferSize;
 @property(retain, nonatomic) id <BUStreamReadChannel> readChannel; // @synthesize readChannel=_readChannel;
-@property(nonatomic) unsigned long long remainingUncompressedSize; // @synthesize remainingUncompressedSize=_remainingUncompressedSize;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool validateCRC; // @synthesize validateCRC=_validateCRC;
 
 @end
 

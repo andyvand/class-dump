@@ -5,7 +5,7 @@
 //
 
 @protocol HMDAccountChangeObserverDelegate
-- (void);
-- (void)DHAPAccessoryUpdateTransactionTriggeredKey;
+- (void)messageHandler;
+- (void)HMDHAPAccessoryUpdateTransactionTriggeredKey;
 @end
 

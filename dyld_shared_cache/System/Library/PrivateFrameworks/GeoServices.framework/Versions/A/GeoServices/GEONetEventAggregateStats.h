@@ -9,33 +9,13 @@
 @interface GEONetEventAggregateStats
 {
     PBUnknownFields *_unknownFields;
-    unsigned long long _algMean;
-    unsigned long long _max;
-    unsigned long long _min;
-    unsigned long long _p10;
-    unsigned long long _p25;
-    unsigned long long _p50;
-    unsigned long long _p75;
-    unsigned long long _p90;
-    unsigned long long _p99;
-    struct {
-        unsigned int has_algMean:1;
-        unsigned int has_max:1;
-        unsigned int has_min:1;
-        unsigned int has_p10:1;
-        unsigned int has_p25:1;
-        unsigned int has_p50:1;
-        unsigned int has_p75:1;
-        unsigned int has_p90:1;
-        unsigned int has_p99:1;
-    } _flags;
 }
 
-+ (_Bool)ipStaticDepartureTime:(id)arg1;
++ (_Bool)setHasTripStaticDepartureTime:(id)arg1;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)3;
 - (void);
 - (void);
 - (void);
@@ -44,7 +24,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -54,25 +34,25 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (void);
+- (unsigned long long)@"<CNObserver>"32;
+- (unsigned long long)32;
+- (unsigned long long)";
+- (void)tokenNameForScannerResultType:(unsigned long long)arg1;
+- (void)tokenNameForScannerResultType:(unsigned long long)arg1;
+- (void)timestamps;
+- (unsigned long long)signature2;
+- (unsigned long long)signalToken;
+- (unsigned long long)signalDidGenerateEventWithObserver: /* Error: Ran out of types for this method. */;
+- (unsigned long long)secTask:isFirstOrSecondPartyWithError: /* Error: Ran out of types for this method. */;
+- (void)idealDimension;
 - (void);
 - (id);
 - (id);
+- (void)removeMember:(_Bool)arg1 isGroup:fromGroupNamed:authorization:reply: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)taSource:(id)arg1 assetsProvider:] /* Error: Ran out of types for this method. */;
+- (id)z.@9uB;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -86,25 +66,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long algMean;
-@property(nonatomic) _Bool hasAlgMean;
-@property(nonatomic) _Bool hasMax;
 @property(nonatomic) _Bool hasMin;
-@property(nonatomic) _Bool hasP10;
-@property(nonatomic) _Bool hasP25;
-@property(nonatomic) _Bool hasP50;
-@property(nonatomic) _Bool hasP75;
-@property(nonatomic) _Bool hasP90;
-@property(nonatomic) _Bool hasP99;
-@property(nonatomic) unsigned long long max;
-@property(nonatomic) unsigned long long min;
-@property(nonatomic) unsigned long long p10;
-@property(nonatomic) unsigned long long p25;
-@property(nonatomic) unsigned long long p50;
-@property(nonatomic) unsigned long long p75;
-@property(nonatomic) unsigned long long p90;
-@property(nonatomic) unsigned long long p99;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -4,44 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSMapTable, NSMutableDictionary, NSString, NSURLSession, geo_isolater;
+@class NSCache;
 
 @interface MKAppImageManager
 {
     NSCache *_iconCache;
-    NSURLSession *_session;
-    geo_isolater *_containersLock;
-    NSMapTable *_containers;
-    geo_isolater *_urlConnectionsLock;
-    NSMutableDictionary *_urlConnections;
 }
 
 + (id);
++ (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)tance;
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (id)Nό;
 - (void);
 - (id);
 - (void);
 - (void);
-- (void)nceResolved;
+- (void);
+- (id)ML module = %@;
+- (void)`;
+- (void);
+- (void)distanceResolved;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

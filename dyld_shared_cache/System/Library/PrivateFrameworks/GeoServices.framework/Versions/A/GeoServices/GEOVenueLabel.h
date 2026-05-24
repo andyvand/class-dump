@@ -9,23 +9,19 @@
 @interface GEOVenueLabel
 {
     NSString *_name;
-    NSString *_shortName;
-    NSString *_detail;
 }
 
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)ERR:Rejecting command %@ sent to Horseman device /* Error: Ran out of types for this method. */;
 - (id);
 - (id)Ä$%;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *detail; // @synthesize detail=_detail;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSString *shortName; // @synthesize shortName=_shortName;
 
 @end
 

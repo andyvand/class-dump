@@ -6,16 +6,10 @@
 
 #import <OfficeImport/OADShapeGeometry.h>
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface OADCustomShapeGeometry : OADShapeGeometry
 {
     void *mGeometryCoordSpace;
-    void *mLimo;
-    NSMutableArray *mFormulas;
-    NSMutableArray *mTextBodyRects;
-    NSMutableArray *mPaths;
 }
 
 - (unsigned long long);
@@ -28,13 +22,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)handleFailureInMethod:(id)arg1 object:file:lineNumber:description: /* Error: Ran out of types for this method. */;
 - (int);
 - (void)ÿÿ;
 

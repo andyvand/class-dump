@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, NSViewController, SiriUINavigationBarView;
-@protocol SiriUINavigationControllerDelegate;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface SiriUINavigationController
 {
     _Bool _wantsNavigationBar;
-    id <SiriUINavigationControllerDelegate> _delegate;
-    NSMutableArray *_mutableViewControllers;
-    NSViewController *_selectedVC;
-    SiriUINavigationBarView *_navigationBarView;
-    struct CGSize _maximumSize;
 }
 
 - (_Bool);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -30,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -55,33 +49,21 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)fineTransform=dddddd}48@0:(struct CGSize)arg1 8{CGSize=dd}16{CGSize=dd}32;
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)Hc;
 - (struct CGSize);
 - (void);
-- (id);
+- (id)C;
 - (void);
 - (void)ility changes;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <SiriUINavigationControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property struct CGSize maximumSize; // @synthesize maximumSize=_maximumSize;
 @property(retain) NSMutableArray *mutableViewControllers; // @synthesize mutableViewControllers=_mutableViewControllers;
-@property(retain) SiriUINavigationBarView *navigationBarView; // @synthesize navigationBarView=_navigationBarView;
-@property(retain) NSViewController *selectedVC; // @synthesize selectedVC=_selectedVC;
-@property(readonly) Class superclass;
-@property _Bool wantsNavigationBar; // @synthesize wantsNavigationBar=_wantsNavigationBar;
 
 @end
 

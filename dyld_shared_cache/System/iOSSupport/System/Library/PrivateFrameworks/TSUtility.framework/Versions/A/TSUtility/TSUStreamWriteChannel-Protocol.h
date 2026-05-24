@@ -5,5 +5,6 @@
 //
 
 @protocol TSUStreamWriteChannel
+- (void)Descriptor;
 @end
 

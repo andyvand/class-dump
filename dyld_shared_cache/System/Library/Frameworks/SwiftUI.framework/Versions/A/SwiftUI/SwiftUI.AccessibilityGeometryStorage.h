@@ -7,10 +7,6 @@
 @interface SwiftUI.AccessibilityGeometryStorage
 {
     id cachedFrame;
-    id cachedPath;
-    id size;
-    id responders;
-    id $__lazy_storage_$_observer;
 }
 
 @end

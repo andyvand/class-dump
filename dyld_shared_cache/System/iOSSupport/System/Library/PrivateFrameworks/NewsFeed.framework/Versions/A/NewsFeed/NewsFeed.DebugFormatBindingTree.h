@@ -7,7 +7,6 @@
 @interface NewsFeed.DebugFormatBindingTree
 {
     id editor;
-    id _workspace;
 }
 
 @end

@@ -9,11 +9,10 @@
 @interface HMXPCEventRouterProtoChangeRegistrationsMessage
 {
     NSMutableArray *_topicFilterAdditions;
-    NSMutableArray *_topicFilterRemovals;
 }
 
 + (Class);
-+ (Class);
++ (Class)q;
 - (unsigned long long);
 - (id);
 - (id);
@@ -29,17 +28,16 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)remaining;
 - (void);
 - (id);
 - (id);
-- (void)s;
+- (void)MACAddress;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *topicFilterAdditions; // @synthesize topicFilterAdditions=_topicFilterAdditions;
-@property(retain, nonatomic) NSMutableArray *topicFilterRemovals; // @synthesize topicFilterRemovals=_topicFilterRemovals;
 
 @end
 

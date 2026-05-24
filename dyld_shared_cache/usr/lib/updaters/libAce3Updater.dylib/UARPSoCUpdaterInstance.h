@@ -4,39 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, NSString, SoCUpdaterHelper;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
+@class NSObject, SoCUpdaterHelper;
+@protocol OS_dispatch_queue;
 
 @interface UARPSoCUpdaterInstance
 {
     NSObject<OS_dispatch_queue> *_queue;
     _Bool _isDone;
-    NSObject<OS_dispatch_semaphore> *_initUARPSemaphore;
-    NSObject<OS_dispatch_semaphore> *_assetTransferUARPSemaphore;
-    NSObject<OS_dispatch_semaphore> *_applyAssetUARPSemaphore;
-    void *_uarpContext;
-    void *_pAssetContext;
-    struct _uarpRestoreEndpoint *_endpoint;
-    NSDictionary *_tssRequest;
-    NSString *_tssRequestServerURL;
-    NSString *_ticketLongName;
-    NSString *_manifestPrefixName;
-    _Bool _requiresPersonalization;
-    int _logicUnitNumberFromDevice;
-    _Bool _prefixNeedsLogicalUnitNumber;
-    _Bool _suffixNeedsLogicalUnitNumber;
-    unsigned int _nextUpdateProgressReportPercentThreshold;
-    NSString *_name;
-    unsigned int _lastPercentComplete;
-    _Bool _stagingResult;
-    unsigned char _routerID;
-    _Bool _skipSameVersion;
-    unsigned int _logicUnitNumber;
-    unsigned int _stagingStatus;
-    unsigned int _stagingStatusReason;
-    unsigned int _applyFlags;
-    int _updaterMode;
-    SoCUpdaterHelper *_log;
 }
 
 - (int);
@@ -57,7 +31,7 @@
 - (unsigned char);
 - (_Bool);
 - (void);
-- (id);
+- (id)H;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -65,11 +39,11 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)R;
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)\;
 - (unsigned int);
 - (void);
 - (void);
@@ -82,27 +56,14 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (const char *);
 
 // Remaining properties
-@property unsigned int applyFlags; // @synthesize applyFlags=_applyFlags;
-@property(readonly) NSString *firmwareTagName;
-@property(readonly) _Bool isDone;
 @property(retain) SoCUpdaterHelper *log; // @synthesize log=_log;
-@property unsigned int logicUnitNumber; // @synthesize logicUnitNumber=_logicUnitNumber;
-@property(readonly) NSString *manifestPrefix;
-@property(readonly) NSDictionary *personalizationRequestDict;
 @property unsigned char routerID; // @synthesize routerID=_routerID;
-@property(readonly) _Bool skipApplyStage;
-@property(readonly) _Bool skipSameVersion; // @synthesize skipSameVersion=_skipSameVersion;
-@property unsigned int stagingStatus; // @synthesize stagingStatus=_stagingStatus;
-@property unsigned int stagingStatusReason; // @synthesize stagingStatusReason=_stagingStatusReason;
-@property(readonly) NSString *ticketName;
-@property int updaterMode; // @synthesize updaterMode=_updaterMode;
-@property(readonly) _Bool useLocalSigning;
 
 @end
 

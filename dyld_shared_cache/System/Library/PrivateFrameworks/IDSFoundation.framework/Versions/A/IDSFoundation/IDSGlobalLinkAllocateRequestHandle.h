@@ -9,12 +9,11 @@
 @interface IDSGlobalLinkAllocateRequestHandle
 {
     CDUnknownBlockType _block;
-    NSString *_requestID;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)H;
 - (id);
 - (void)IDSTransportThreadAddBlockAfter - the interval value %f is too big! Please check your value!;
 

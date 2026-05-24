@@ -7,7 +7,6 @@
 @interface ReminderKitInternal.RDVector
 {
     id data;
-    id dimension;
 }
 
 @end

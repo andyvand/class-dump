@@ -9,7 +9,7 @@
     struct SWCPatternStorage _storage[0];
 }
 
-+ (id);
++ (id)B;
 + (id);
 + (id);
 + (_Bool);
@@ -18,10 +18,10 @@
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)eworks/SystemStatus.framework/Contents/MacOS/SystemStatus;
+- (id)s;
+- (void)credentials cache;
+- (id);
 - (id);
 - (unsigned long long);
 

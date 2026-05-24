@@ -11,28 +11,25 @@
 @interface PGDejunkerDeduper_CLSCurationItem : PGDejunkerDeduper
 {
     NSDictionary *_personLocalIdentifiersByItemIdentifier;
-    NSDictionary *_peopleScenesByItemIdentifier;
-    NSDictionary *_faceQualityScoreByItemIdentifier;
-    NSSet *_verifiedPersonLocalIdentifiers;
 }
 
 - (id);
-- (id);
-- (id);
+- (id)_focusedApplicationDidChange:(id)arg1;
+- (id)t;
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
+- (id)=`C;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)(;
 - (void);
 - (void);
 - (id);
-- (void)GGraphIngestNextEdgesProcessor;
+- (void)PGGraphIngestNextEdgesProcessor;
 
 // Remaining properties
 @property(retain, nonatomic) NSSet *verifiedPersonLocalIdentifiers; // @synthesize verifiedPersonLocalIdentifiers=_verifiedPersonLocalIdentifiers;

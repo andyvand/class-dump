@@ -6,17 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface MHSchemaMHApplicationPlaybackAttempted : SISchemaInstrumentationMessage
 {
     NSString *_appBundleName;
-    NSString *_appBundleVersion;
-    _Bool _hasAppBundleName;
-    _Bool _hasAppBundleVersion;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -28,7 +25,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ASN1_PKCS5_PBE_SET;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -41,10 +38,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *appBundleName; // @synthesize appBundleName=_appBundleName;
-@property(copy, nonatomic) NSString *appBundleVersion; // @synthesize appBundleVersion=_appBundleVersion;
-@property(nonatomic) _Bool hasAppBundleName; // @synthesize hasAppBundleName=_hasAppBundleName;
-@property(nonatomic) _Bool hasAppBundleVersion; // @synthesize hasAppBundleVersion=_hasAppBundleVersion;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

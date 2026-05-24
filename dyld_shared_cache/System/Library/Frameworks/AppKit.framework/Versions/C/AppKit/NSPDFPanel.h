@@ -4,37 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSViewController;
+@class NSViewController;
 
 @interface NSPDFPanel
 {
     NSViewController *_accessoryController;
-    long long _options;
-    NSString *_defaultFileName;
-    id _panel;
-    id _private;
 }
 
-+ (id);
++ (id)#;
 - (void);
 - (void);
+- (void)checked_didResumeAtOffset;
+- (id)ite: /* Error: Ran out of types for this method. */;
+- (void)(for:(id)arg1 from:)`, or supply the body stream through the `urlSession(_:needNewBodyStreamForTask:)` delegate method. /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
+- (id);
+- (id)NSURLSessionTaskStateSuspended;
+- (_Bool)kNetworkProxyAuthorizationElementsKeyProtectionSpace;
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (long long);
+- (long long)_styleEffects;
 
 // Remaining properties
 @property(retain) NSViewController *accessoryController; // @synthesize accessoryController=_accessoryController;
-@property(copy) NSString *defaultFileName;
-@property long long options; // @synthesize options=_options;
 
 @end
 

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCConnection;
+@class NSXPCConnection;
 @protocol CSAttSiriServiceDelegate;
 
 @interface CSAttSiriServiceClient
 {
     id <CSAttSiriServiceDelegate> _delegate;
-    NSXPCConnection *_attSiriSvcConn;
-    id _remoteSvcProxy;
 }
 
 - (void);
@@ -19,35 +17,26 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)A;
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void)me: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void)addNumSamples:hostTime: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSXPCConnection *attSiriSvcConn; // @synthesize attSiriSvcConn=_attSiriSvcConn;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CSAttSiriServiceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id remoteSvcProxy; // @synthesize remoteSvcProxy=_remoteSvcProxy;
-@property(readonly) Class superclass;
 
 @end
 

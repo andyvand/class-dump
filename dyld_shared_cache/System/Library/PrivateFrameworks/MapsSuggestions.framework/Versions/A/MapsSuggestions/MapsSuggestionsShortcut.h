@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapItemStorage, NSArray, NSDate, NSString, NSUUID;
-
 @interface MapsSuggestionsShortcut
 {
     _Bool _isHidden;
-    _Bool _derivedFromMeCard;
-    NSString *_identifier;
-    long long _type;
-    NSUUID *_storageIdentifier;
-    NSString *_customName;
-    GEOMapItemStorage *_geoMapItem;
-    NSString *_originatingAddressString;
-    NSDate *_mapsSyncCreateTime;
-    NSArray *_contacts;
 }
 
 + (_Bool);
@@ -43,7 +32,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -59,34 +48,19 @@
 - (void);
 - (void);
 - (id);
-- (long long);
+- (long long)X;
 - (id);
-- (void);
+- (void)7q;
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
+- (id)_currentOperation;
+- (void)�;
+- (void)5B;
 - (void)tem>"16@?<v@?@"GEOComposedWaypoint"@"NSError">24;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *contacts; // @synthesize contacts=_contacts;
-@property(copy, nonatomic) NSString *customName; // @synthesize customName=_customName;
-@property(nonatomic) _Bool derivedFromMeCard; // @synthesize derivedFromMeCard=_derivedFromMeCard;
-@property(copy, nonatomic) GEOMapItemStorage *geoMapItem; // @synthesize geoMapItem=_geoMapItem;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isBackedPlaceholder;
-@property(nonatomic) _Bool isHidden; // @synthesize isHidden=_isHidden;
-@property(readonly, nonatomic) _Bool isSetupPlaceholder;
-@property(copy, nonatomic) NSDate *mapsSyncCreateTime; // @synthesize mapsSyncCreateTime=_mapsSyncCreateTime;
-@property(copy, nonatomic) NSString *originatingAddressString; // @synthesize originatingAddressString=_originatingAddressString;
 @property(nonatomic, getter=source, setter=setSource:) long long source;
-@property(copy, nonatomic) NSUUID *storageIdentifier; // @synthesize storageIdentifier=_storageIdentifier;
-@property(readonly, copy, nonatomic) NSArray *stringContacts;
-@property(readonly, copy, nonatomic) NSString *subtitle;
-@property(readonly, copy, nonatomic) NSString *title;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

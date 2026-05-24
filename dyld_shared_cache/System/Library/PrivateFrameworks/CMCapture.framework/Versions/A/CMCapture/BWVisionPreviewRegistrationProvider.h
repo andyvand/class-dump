@@ -4,37 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWPixelBufferPool, NSString;
+@class BWPixelBufferPool;
 
 __attribute__((visibility("hidden")))
 @interface BWVisionPreviewRegistrationProvider
 {
     BWPixelBufferPool *_registrationPool;
-    struct OpaqueVTPixelRotationSession *_registrationRotationSession;
-    struct CGPoint _superWideOpticalCenterOffset;
-    struct CGPoint _wideOpticalCenterOffset;
-    struct CGPoint _teleOpticalCenterOffset;
-    CDStruct_79c71658 _sensorBinningFactor;
-    CDStruct_e4afc2cb _superWideToWideShiftState;
-    CDStruct_e4afc2cb _wideToTeleShiftState;
 }
 
 + (void)0@"FigCaptureMicSourcePipelineOutput"8Q16^B24;
 - (CDStruct_4e035876);
-- (id);
-- (struct CGPoint);
+- (id);
+- (struct CGPoint)(C;
 - (void);
 - (void);
-- (void);
+- (void)seFormulaRange;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

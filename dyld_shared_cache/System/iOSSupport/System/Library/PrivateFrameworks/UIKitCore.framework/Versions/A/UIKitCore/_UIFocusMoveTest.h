@@ -6,32 +6,11 @@
 
 #import <UIKitCore/_UIFocusTest.h>
 
-@protocol UIFocusEnvironment, _UIFocusMoveTestDataSource, _UIFocusMoveTestDelegate;
+@protocol UIFocusEnvironment;
 
 @interface _UIFocusMoveTest : _UIFocusTest
 {
     unsigned long long _activeNumberOfIterations;
-    unsigned long long _currentIteration;
-    unsigned long long _currentMove;
-    struct {
-        unsigned int isPerformingFocusMovement:1;
-        unsigned int delegateRespondsToWillStartIteration:1;
-        unsigned int delegateRespondsToDidFinishIteration:1;
-        unsigned int delegateRespondsToWillMoveFocusAlongHeadingForMoveDuringIteration:1;
-        unsigned int delegateRespondsToDidMoveFocusAlongHeadingForMoveDuringIteration:1;
-        unsigned int dataSourceRespondsToNumberOfIterations:1;
-        unsigned int dataSourceRespondsToMaximumNumberOfMovesDuringIteration:1;
-        unsigned int dataSourceRespondsToDelayBeforeMoveDuringIteration:1;
-        unsigned int dataSourceRespondsToHeadingForMoveDuringIteration:1;
-        unsigned int dataSourceRespondsToShouldResetFocusBeforeIteration:1;
-    } _flags;
-    _Bool _resetsFocusBeforeIterations;
-    id <UIFocusEnvironment> _containerFocusEnvironment;
-    unsigned long long _numberOfIterations;
-    unsigned long long _maximumMovesPerIteration;
-    double _movementDelay;
-    unsigned long long _movementHeading;
-    id <_UIFocusMoveTestDataSource> _dataSource;
 }
 
 - (void);
@@ -39,25 +18,25 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (unsigned long long);
-- (double);
-- (unsigned long long);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (double);
-- (void);
-- (unsigned long long);
+- (_Bool)ing"24@"NSArray"32;
+- (unsigned long long)ode:error:lastCall:messageContext: /* Error: Ran out of types for this method. */;
+- (double)scheduledMessagesBatchFetcherForChat: /* Error: Ran out of types for this method. */;
+- (unsigned long long)replaceCustomAcknowledgmentsWithNewMessageAcknowledgment:associatedMessageGUID:sender: /* Error: Ran out of types for this method. */;
+- (id)_combinedPayloadAttachmentDictionary;
+- (void);
+- (void)trying report _PCSTestBackupStateDidChange;
+- (void)t have an IMDCKSyncController when trying report _PCSTestBackupStateDidChange;
+- (void)med out creating update zone *******;
+- (void)or fetching changes from update zone %@;
+- (void)update record with type %@;
+- (void)kipping Update syncs;
+- (_Bool)is never expected!;
+- (unsigned long long)e SMS variants;
+- (unsigned long long)or %@, marking ck_sync_state as %d;
+- (unsigned long long)ver error %@;
+- (double)k record, setting the lock record to nil to re-generate on next sync;
+- (void)ients of outgoing message with GUID %@. (added participants:(_Bool)arg1 %@ removed participants:%@) /* Error: Ran out of types for this method. */;
+- (unsigned long long)IMDRelayPushHandler;
 - (void);
 - (id);
 - (void);
@@ -67,18 +46,11 @@
 - (void)!GùdÐ1Â0@ù
 × ;
 - (void);
-- (void)rightMarginForDoneButton;
+- (void)_rightMarginForDoneButton;
 - (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <UIFocusEnvironment> containerFocusEnvironment; // @synthesize containerFocusEnvironment=_containerFocusEnvironment;
-@property(nonatomic) __weak id <_UIFocusMoveTestDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(nonatomic) __weak id <_UIFocusMoveTestDelegate> delegate;
-@property(nonatomic) unsigned long long maximumMovesPerIteration; // @synthesize maximumMovesPerIteration=_maximumMovesPerIteration;
-@property(nonatomic) double movementDelay; // @synthesize movementDelay=_movementDelay;
-@property(nonatomic) unsigned long long movementHeading; // @synthesize movementHeading=_movementHeading;
-@property(nonatomic) unsigned long long numberOfIterations; // @synthesize numberOfIterations=_numberOfIterations;
-@property(nonatomic) _Bool resetsFocusBeforeIterations; // @synthesize resetsFocusBeforeIterations=_resetsFocusBeforeIterations;
 
 @end
 

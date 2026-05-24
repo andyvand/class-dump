@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTColorPreset, AVTCoreModelColor, NSString;
-
 @interface AVTAvatarAttributeEditorSectionColorItem
 {
     _Bool _selected;
-    _Bool _hasDerivedColorDependency;
-    NSString *_identifier;
-    NSString *_localizedName;
-    CDUnknownBlockType _avatarUpdater;
-    AVTCoreModelColor *_color;
-    CDUnknownBlockType _layerContentProvider;
-    CDUnknownBlockType _gradientProvider;
-    AVTColorPreset *_skinColor;
 }
 
 - (void);
@@ -28,7 +18,7 @@
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (id);
+- (id)h;
 - (id);
 - (id);
 - (id);
@@ -38,22 +28,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CDUnknownBlockType avatarUpdater; // @synthesize avatarUpdater=_avatarUpdater;
-@property(readonly, nonatomic) AVTCoreModelColor *color; // @synthesize color=_color;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) CDUnknownBlockType gradientProvider; // @synthesize gradientProvider=_gradientProvider;
-@property(nonatomic) _Bool hasDerivedColorDependency; // @synthesize hasDerivedColorDependency=_hasDerivedColorDependency;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 @property(readonly, copy, nonatomic) CDUnknownBlockType layerContentProvider; // @synthesize layerContentProvider=_layerContentProvider;
-@property(readonly, copy, nonatomic) NSString *localizedName; // @synthesize localizedName=_localizedName;
-@property(nonatomic, getter=isSelected) _Bool selected; // @synthesize selected=_selected;
-@property(readonly, nonatomic) AVTColorPreset *skinColor; // @synthesize skinColor=_skinColor;
-@property(readonly) Class superclass;
 
 @end
 

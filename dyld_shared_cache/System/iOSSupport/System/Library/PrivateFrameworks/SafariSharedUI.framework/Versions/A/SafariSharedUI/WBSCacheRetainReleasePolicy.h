@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCountedSet, NSSet;
+@class NSSet;
 
 @interface WBSCacheRetainReleasePolicy
 {
     CDUnknownBlockType _purgeBlock;
-    NSCountedSet *_entryRetainCounts;
-    NSCountedSet *_negativeEntryRetainCounts;
 }
 
 - (void);

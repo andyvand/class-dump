@@ -6,76 +6,56 @@
 
 #import <TSReading/TSDDrawableInfo.h>
 
-@class NSMutableArray, NSObject, NSString, TSDInfoGeometry, TSPObject;
-@protocol TSDContainerInfo, TSDOwningAttachment;
+@class NSMutableArray, TSDInfoGeometry;
 
 @interface TSDGroupInfo : TSDDrawableInfo
 {
     NSMutableArray *mChildInfos;
-    _Bool mIsInDocument;
 }
 
++ (id)1-;
 + (id);
 + (id);
-+ (id);
+- (void)m:(id)arg1;
+- (void)ontroller - queueHasReachedItsEnd - ;
+- (void)em mismatch:(id)arg1;
+- (void)left in queue;
+- (id)repeatChangeCount;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)InternalPlayerActions;
 - (id);
 - (void);
 - (long long);
-- (id);
+- (id)ly;
+- (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)3;
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
 - (Class);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (Class);
-- (void)pResize:(id)arg1;
-- (id)eightInfo: /* Error: Ran out of types for this method. */;
+- (void)setDynamicRepResize:(id)arg1;
+- (id)p_addEntryForFont:heightInfo: /* Error: Ran out of types for this method. */;
 - (void)es/AlderShared/drawables/TSDConnectionLineAbstractLayout.m;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAnchoredToText) _Bool anchoredToText; // @dynamic anchoredToText;
-@property(readonly, nonatomic, getter=isAttachedToBodyText) _Bool attachedToBodyText;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isFloatingAboveText) _Bool floatingAboveText; // @dynamic floatingAboveText;
 @property(copy, nonatomic) TSDInfoGeometry *geometry;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isInlineWithText) _Bool inlineWithText; // @dynamic inlineWithText;
-@property(nonatomic) _Bool matchesObjectPlaceholderGeometry;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) TSPObject<TSDOwningAttachment> *owningAttachment; // @dynamic owningAttachment;
-@property(readonly, nonatomic) TSPObject<TSDOwningAttachment> *owningAttachmentNoRecurse; // @dynamic owningAttachmentNoRecurse;
-@property(nonatomic) NSObject<TSDContainerInfo> *parentInfo; // @dynamic parentInfo;
-@property(readonly) Class superclass;
 
 @end
 

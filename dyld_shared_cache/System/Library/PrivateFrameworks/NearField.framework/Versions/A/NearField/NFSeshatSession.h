@@ -13,22 +13,23 @@
 + (unsigned int);
 + (unsigned long long);
 + (_Bool);
+- (CDStruct_c0454aff)0;
+- (CDStruct_c0454aff)accountName;
+- (CDStruct_c0454aff)ddressPostalCodeKey(void);
+- (CDStruct_c0454aff)id);
+- (CDStruct_c0454aff)erform action without a username;
+- (CDStruct_c0454aff)onversation:%@ /* Error: Ran out of types for this method. */;
+- (CDStruct_c0454aff);
+- (CDStruct_c0454aff)#;
+- (CDStruct_c0454aff)8;
+- (CDStruct_c0454aff);
+- (CDStruct_c0454aff)};
 - (CDStruct_c0454aff);
 - (CDStruct_c0454aff);
 - (CDStruct_c0454aff);
-- (CDStruct_c0454aff);
-- (CDStruct_c0454aff);
-- (CDStruct_c0454aff);
-- (CDStruct_c0454aff);
-- (CDStruct_c0454aff);
-- (CDStruct_c0454aff);
-- (CDStruct_c0454aff);
-- (CDStruct_c0454aff);
-- (CDStruct_c0454aff);
-- (CDStruct_c0454aff);
-- (CDStruct_c0454aff);
-- (CDStruct_c0454aff);
-- (CDStruct_c0454aff);
+- (CDStruct_c0454aff)k-2732.600.11
+;
+- (CDStruct_c0454aff)J\;
 - (CDStruct_c0454aff);
 - (CDStruct_c0454aff);
 

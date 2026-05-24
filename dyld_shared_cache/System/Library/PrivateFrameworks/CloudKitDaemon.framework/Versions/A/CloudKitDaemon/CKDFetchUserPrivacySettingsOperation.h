@@ -12,11 +12,11 @@
 }
 
 - (void);
-- (void);
+- (void)NSString",&,N,V_selectedRecordIdentifier;
 - (long long);
 - (id);
 - (void);
-- (int);
+- (int)IE_KEY_RSN_VERSION;
 - (id);
 
 // Remaining properties

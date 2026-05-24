@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SASVoiceSearchFinalResult : SABaseClientBoundCommand
 {
@@ -20,11 +20,10 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)lename cannot be NULL";
 
 // Remaining properties
 @property(copy, nonatomic) NSString *recognitionText;
-@property(copy, nonatomic) NSArray *voiceSearchResults;
 
 @end
 

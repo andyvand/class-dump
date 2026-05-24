@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapAccess, NSString;
-@protocol GEOMapTransitStation;
+@class GEOMapAccess;
 
 __attribute__((visibility("hidden")))
 @interface GEOMapAccessTransitAccessPoint
 {
     GEOMapAccess *_map;
-    shared_ptr_4792c490 _accessPoint;
-    id <GEOMapTransitStation> _station;
 }
 
 - (unsigned long long);
@@ -27,34 +24,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned char);
 - (double);
-- (double);
-- (unsigned short);
+- (double)8@"_CNBufferingObservable"16@"NSArray"24@"<CNObserver>"32;
+- (unsigned short)setAuditToken:isFirstOrSecondPartyError: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)Ô ;
 - (CDStruct_c3b9c2ee)!'°! Bù1¸*Ð1Â0@ù
 × ;
-- (CDStruct_90e2a262)¯G@;
+- (CDStruct_02837cd9)¯G@;
 - (void)¶,6;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned short accessType;
-@property(readonly, nonatomic) double boundingRadius;
-@property(readonly, nonatomic) CDStruct_90e2a262 boundingRect;
-@property(readonly, nonatomic) CDStruct_c3b9c2ee coordinate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned char entranceExitType;
-@property(readonly, nonatomic) double groundRadius;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *internalName;
-@property(readonly, nonatomic) CDStruct_c3b9c2ee *polygonPoints;
-@property(readonly, nonatomic) long long polygonPointsCount;
 @property(readonly, nonatomic) unsigned long long stationID;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long transitID;
 
 @end
 

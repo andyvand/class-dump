@@ -6,33 +6,26 @@
 
 #import <AppKit/NSCGSWindowOpenGLSurface.h>
 
-@class NSCGSWindow, NSHashTable;
+@class NSCGSWindow;
 
 __attribute__((visibility("hidden")))
 @interface _NSCGSWindowOpenGLSurface : NSCGSWindowOpenGLSurface
 {
     NSCGSWindow *_window;
-    unsigned int _surfaceID;
-    unsigned int _pendingSurfaceID;
-    struct CGRect _frame;
-    double _scale;
-    struct CGColorSpace *_colorSpace;
-    unsigned int _opaque:1;
-    NSHashTable *_CGLContexts;
 }
 
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (id);
+- (void);
+- (_Bool)(;
+- (id)SpotlightLinguisticsErrorDomain;
 - (double);
 - (struct CGColorSpace *);
 - (id);
 - (void);
 - (unsigned int);
 - (struct CGRect);
-- (void)SubmissionWakeUpTime;
+- (void)_currentSubmissionWakeUpTime;
 - (void);
 - (void)onTrackToAccept is %d;
 

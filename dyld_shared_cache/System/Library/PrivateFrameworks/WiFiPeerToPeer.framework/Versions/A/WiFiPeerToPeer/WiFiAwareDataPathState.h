@@ -4,29 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, WiFiMACAddress;
+@class NSString;
 
 @interface WiFiAwareDataPathState
 {
     _Bool _isEnabled;
-    unsigned int _totalSessionCounter;
-    unsigned int _establishedSessionCounter;
-    unsigned int _sessionWith24GOnlyPeerCount;
-    unsigned int _rtmSessionRefCount;
-    unsigned int _rtmSessionWith24GOnlyCount;
-    unsigned int _rtmLowLatencySessionRefCount;
-    NSString *_interfaceName;
-    WiFiMACAddress *_interfaceAddr;
-    NSArray *_ndiInfos;
-    NSArray *_preferredChannelNumbers;
-    NSArray *_preferredChannelClasses;
-    NSArray *_ndiSessionInfos;
 }
 
 + (id);
 + (id);
 + (_Bool);
-+ (id);
++ (id)orbids:%{public}s. MapsSyncDirectionsHistoryItem had no mapItem /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (id);
 - (id);
@@ -48,26 +36,14 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)=;
 - (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int establishedSessionCounter; // @synthesize establishedSessionCounter=_establishedSessionCounter;
-@property(readonly, nonatomic) WiFiMACAddress *interfaceAddr; // @synthesize interfaceAddr=_interfaceAddr;
 @property(readonly, nonatomic) NSString *interfaceName; // @synthesize interfaceName=_interfaceName;
-@property(readonly, nonatomic) _Bool isEnabled; // @synthesize isEnabled=_isEnabled;
-@property(readonly, nonatomic) NSArray *ndiInfos; // @synthesize ndiInfos=_ndiInfos;
-@property(readonly, nonatomic) NSArray *ndiSessionInfos; // @synthesize ndiSessionInfos=_ndiSessionInfos;
-@property(readonly, nonatomic) NSArray *preferredChannelClasses; // @synthesize preferredChannelClasses=_preferredChannelClasses;
-@property(readonly, nonatomic) NSArray *preferredChannelNumbers; // @synthesize preferredChannelNumbers=_preferredChannelNumbers;
-@property(readonly, nonatomic) unsigned int rtmLowLatencySessionRefCount; // @synthesize rtmLowLatencySessionRefCount=_rtmLowLatencySessionRefCount;
-@property(readonly, nonatomic) unsigned int rtmSessionRefCount; // @synthesize rtmSessionRefCount=_rtmSessionRefCount;
-@property(readonly, nonatomic) unsigned int rtmSessionWith24GOnlyCount; // @synthesize rtmSessionWith24GOnlyCount=_rtmSessionWith24GOnlyCount;
-@property(readonly, nonatomic) unsigned int sessionWith24GOnlyPeerCount; // @synthesize sessionWith24GOnlyPeerCount=_sessionWith24GOnlyPeerCount;
-@property(readonly, nonatomic) unsigned int totalSessionCounter; // @synthesize totalSessionCounter=_totalSessionCounter;
 
 @end
 

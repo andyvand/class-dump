@@ -5,23 +5,23 @@
 //
 
 @interface UnknownClass (IMChat_Internal)
-+ (id);
-+ (id);
-+ (Class);
-+ (id);
-+ (_Bool);
++ (id)Audio redundancy percentage change due to packet loss:(id)arg1 %lf, new threshold:%lf [%d to %d] /* Error: Ran out of types for this method. */;
++ (id)ot in progress;
++ (Class)FeatureFlagManager:pqcU1Enabled=%{BOOL}d, shortMKIEnabled=%{BOOL}d, featureFlag=%{BOOL}d, storeBagValue=%{BOOL}d, defaultsValue=%{BOOL}d /* Error: Ran out of types for this method. */;
++ (id):(id)arg1 %d %@(%p) Failed to complete transition to oneToOneModeEnabled=%d;
++ (_Bool)s] %s:(id)arg1 %d AUIO=%p unit=%p uninitialized;
+- (_Bool)udioPlayer [%s] %s:(id *)arg1 %d Average JB queue size protected from going negative. Current size:(id)arg2 %f, new size:%f, samplesDelta:%d, needed samples:%d, audioPlayer mode:%d, silent:%d /* Error: Ran out of types for this method. */;
+- (_Bool)oPlayer [%s] %s:(id *)arg1 %d %7.03f:%-4i  dup  %i -> %i /* Error: Ran out of types for this method. */;
+- (id)ification is null;
+- (id)DRX Notification:(long long)arg1 basebandAdvisoryType=%d cdrxCycleLength=%u cdrxState=%u;
+- (id)lid packet srcDstInfo mode %d;
+- (id)th error %d;
+- (id)refix resolution failed with error %d;
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
+- (_Bool)ng State Update:Failed to add message entry for mediaType=%@ mediaState=%@. Value is nil. /* Error: Ran out of types for this method. */;
+- (_Bool)d LinkProbing:stopActiveProbingQRLink failed:QR link probing not in progress /* Error: Ran out of types for this method. */;
+- (void)=%ld, retry=%ld, payload=%@;
+- (id)time - canSwitch=%{BOOL}d, oneToOneModeEnabled=%{BOOL}d, remoteParticipantCount=%lu;
 - (id);
 - (id);
 - (id);

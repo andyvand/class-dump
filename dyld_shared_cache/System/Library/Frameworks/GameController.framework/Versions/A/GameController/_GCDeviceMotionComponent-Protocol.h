@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol _GCMotionEventSourceDescription;
-
 @protocol _GCDeviceMotionComponent
+- (void);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType deviceMotionServiceConnectedHandler;
-@property(readonly, nonatomic) id <_GCMotionEventSourceDescription> motionEventSource;
-@property(nonatomic) _Bool sensorsActive;
 @end
 

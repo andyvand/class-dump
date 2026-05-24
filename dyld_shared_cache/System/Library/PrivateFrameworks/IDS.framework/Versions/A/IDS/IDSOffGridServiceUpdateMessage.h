@@ -9,12 +9,9 @@
 @interface IDSOffGridServiceUpdateMessage
 {
     IDSURI *_senderURI;
-    IDSURI *_recipientURI;
-    long long _preferredServiceType;
-    NSDate *_expirationDate;
 }
 
-+ (_Bool);
++ (_Bool): /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (long long);
@@ -30,9 +27,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(readonly, nonatomic) long long preferredServiceType; // @synthesize preferredServiceType=_preferredServiceType;
-@property(readonly, nonatomic) IDSURI *recipientURI; // @synthesize recipientURI=_recipientURI;
-@property(readonly, nonatomic) IDSURI *senderURI; // @synthesize senderURI=_senderURI;
 
 @end
 

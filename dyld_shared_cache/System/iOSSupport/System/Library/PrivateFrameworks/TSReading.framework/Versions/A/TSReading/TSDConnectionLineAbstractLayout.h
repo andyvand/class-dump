@@ -6,42 +6,19 @@
 
 #import <TSReading/TSDShapeLayout.h>
 
-@class TSDBezierPath, TSDConnectionLinePathSource, TSDInfoGeometry, TSDLayout;
+@class TSDBezierPath, TSDLayout;
 
 @interface TSDConnectionLineAbstractLayout : TSDShapeLayout
 {
     TSDBezierPath *mClippedBezierPath;
-    TSDConnectionLinePathSource *mOriginalPathSource;
-    TSDConnectionLinePathSource *mConnectedPathSource;
-    TSDInfoGeometry *mConnectedInfoGeometry;
-    TSDLayout *mConnectedFrom;
-    TSDLayout *mConnectedTo;
-    TSDBezierPath *mCachedFromWrapPath;
-    TSDBezierPath *mCachedToWrapPath;
-    double mCachedFromOutset;
-    double mCachedToOutset;
-    TSDBezierPath *mCachedFromOutsetWrapPath;
-    TSDBezierPath *mCachedToOutsetWrapPath;
-    TSDLayout *mOldConnectedFrom;
-    TSDLayout *mOldConnectedTo;
-    _Bool mValidConnections;
-    _Bool mVisibleLine;
-    _Bool mValidLine;
-    struct CGPoint mLooseEndPosition;
-    struct CGPoint mAcumulatedDrag;
-    _Bool mUseResizePoints[3];
-    struct CGPoint mResizeControlPoints[3];
-    _Bool mUseDynamicOutsets;
-    double mDynamicOutsetFrom;
-    double mDynamicOutsetTo;
 }
 
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
+- (struct CGPoint);
 - (struct CGPoint);
-- (struct CGPoint);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -50,17 +27,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)MPCPlaybackEngineEventItemMetadataKey;
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)WaitingReason;
 - (id);
 - (double);
 - (double);
 - (id);
 - (_Bool);
 - (struct CGPoint);
-- (struct CGPoint);
+- (struct CGPoint)];
 - (void);
 - (double);
 - (id);
@@ -91,20 +68,12 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void)dary;
 
 // Remaining properties
 @property(nonatomic) TSDLayout *connectedFrom; // @synthesize connectedFrom=mConnectedFrom;
-@property(readonly, nonatomic) TSDConnectionLinePathSource *connectedPathSource;
-@property(nonatomic) TSDLayout *connectedTo; // @synthesize connectedTo=mConnectedTo;
-@property(nonatomic) double dynamicOutsetFrom; // @synthesize dynamicOutsetFrom=mDynamicOutsetFrom;
-@property(nonatomic) double dynamicOutsetTo; // @synthesize dynamicOutsetTo=mDynamicOutsetTo;
-@property(readonly, nonatomic) double outsetFrom;
-@property(readonly, nonatomic) double outsetTo;
-@property(nonatomic) _Bool useDynamicOutsets; // @synthesize useDynamicOutsets=mUseDynamicOutsets;
-@property(readonly, nonatomic) _Bool validLine; // @synthesize validLine=mValidLine;
 
 @end
 

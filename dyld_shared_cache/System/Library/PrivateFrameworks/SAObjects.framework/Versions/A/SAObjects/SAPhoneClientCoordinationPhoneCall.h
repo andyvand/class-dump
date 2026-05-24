@@ -18,13 +18,12 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) SAPersonAttribute *callRecipient;
-@property(nonatomic) _Bool emergencyCall;
 
 @end
 

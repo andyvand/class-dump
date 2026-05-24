@@ -6,16 +6,12 @@
 
 #import <AddressBookCore/ABSearchElement.h>
 
-@class NSArray;
-
 @interface ABSearchElementConjunction : ABSearchElement
 {
     long long _conjunction;
-    NSArray *_children;
-    _Bool _ruleGrouping;
 }
 
-+ (_Bool);
++ (_Bool)store;
 - (_Bool);
 - (id);
 - (id);
@@ -25,7 +21,7 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -38,7 +34,7 @@
 - (void);
 - (long long);
 - (id);
-- (long long);
+- (long long)P_N;
 - (id);
 - (id);
 - (_Bool);

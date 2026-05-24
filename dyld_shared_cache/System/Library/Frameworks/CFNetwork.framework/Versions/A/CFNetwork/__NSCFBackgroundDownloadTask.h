@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (_Bool);
+- (_Bool);
 - (void)31Â0@ù
 × ;
 - (void).er;

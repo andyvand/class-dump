@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol GEOServerFormattedString;
-
 @protocol GEOSurchargeType
 - (int)d"b1};
 
 // Remaining properties
-@property(readonly, nonatomic) id <GEOServerFormattedString> formattedName;
 @property(readonly, nonatomic) int value;
 @end
 

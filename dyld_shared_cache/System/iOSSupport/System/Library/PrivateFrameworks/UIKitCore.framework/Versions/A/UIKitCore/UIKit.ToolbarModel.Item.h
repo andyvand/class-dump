@@ -7,16 +7,11 @@
 @interface UIKit.ToolbarModel.Item
 {
     id barButtonItem;
-    id _contentSeed;
-    id _requiresOwnSection;
-    id _isHidden;
-    id _model;
-    id _$observationRegistrar;
 }
 
-- (void);
-- (void);
-- (id);
+- (void)chmentPath:%s /* Error: Ran out of types for this method. */;
+- (void)Connected;
+- (id)ber",C,N,V_payloadCertificateRenewalTimeInterval;
 - (id);
 - (_Bool);
 - (void)donSerifs ;

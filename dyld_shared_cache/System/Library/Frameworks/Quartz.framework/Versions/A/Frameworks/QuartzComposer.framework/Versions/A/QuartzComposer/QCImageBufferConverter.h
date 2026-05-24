@@ -9,17 +9,16 @@
 @interface QCImageBufferConverter
 {
     QCImageManager *_manager;
-    void *_unused[4];
 }
 
 + (id);
-+ (id)eCrop;
++ (id)QCImageCrop;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)�;
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);

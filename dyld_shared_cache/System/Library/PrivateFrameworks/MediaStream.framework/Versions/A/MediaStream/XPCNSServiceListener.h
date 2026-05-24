@@ -5,33 +5,24 @@
 //
 
 @class NSString, XPCServiceListener;
-@protocol XPCNSServiceListenerDelegate;
 
 @interface XPCNSServiceListener
 {
     XPCServiceListener *_serviceListener;
-    id <XPCNSServiceListenerDelegate> _delegate;
 }
 
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)ve profile list:%{public}s
+ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) id <XPCNSServiceListenerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, retain, nonatomic) NSString *serviceName;
-@property(readonly) Class superclass;
 
 @end
 

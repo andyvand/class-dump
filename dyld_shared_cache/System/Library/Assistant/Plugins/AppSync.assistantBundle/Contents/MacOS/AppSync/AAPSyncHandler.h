@@ -4,33 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AAPSyncMetaDataProcessor, AAPSyncMetaDataSource, AAPSyncStatePersistence, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface AAPSyncHandler
 {
     NSObject<OS_dispatch_queue> *_stateQueue;
-    AAPSyncStatePersistence *_statePersistence;
-    AAPSyncMetaDataSource *_source;
-    AAPSyncMetaDataProcessor *_processor;
 }
 
 + (void);
 - (void);
-- (void);
-- (void);
+- (void)dDE{;
+- (void)E{;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

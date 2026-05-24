@@ -7,14 +7,6 @@
 @interface TextToSpeech.TTSSpeechQueue
 {
     id executor;
-    id statePublisher;
-    id state;
-    id workItems;
-    id runningItem;
-    id runTask;
-    id schedulingTask;
-    id taskPriority;
-    id _uiActions;
 }
 
 @end

@@ -4,49 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEONameInfo, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOSegmentNameInfo
 {
     PBUnknownFields *_unknownFields;
-    GEONameInfo *_nameInfo;
-    unsigned int _endIndex;
-    struct {
-        unsigned int has_endIndex:1;
-    } _flags;
 }
 
-+ (_Bool)tyleZoomLevel:(id)arg1;
++ (_Bool)setMapViewStyleZoomLevel:(id)arg1;
 - (void);
 - (id);
+- (_Bool)_defaultAccount;
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
+- (id);
 - (id);
-- (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)_setMaximumBufferSizeFromInUseServices;
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (unsigned int);
+- (unsigned int);
 - (void);
 - (id)ctions"b1"read_placeCardUnactionableUiElements"b1"read_account"b1"read_actionButtonDetailsState"b1"read_carPlayInfo"b1"read_curatedCollectionState"b1"read_deviceInputLocale"b1"read_deviceOutputLocale"b1"read_impressionObjectState"b1"read_lookAroundLocation"b1"read_mapLaunchLaunchUri"b1"read_mapLaunchReferringWebsite"b1"read_mapLaunchSourceAppId"b1"read_mapLaunchSourceHandoffDevice"b1"read_mapViewMapRegion"b1"read_mapsPlaceIdsState"b1"read_mapsServerMetadataSuggestionEntryDisplayeds"b1"read_mapsServerMetadataSuggestionEntryTappedOn"b1"read_mapsServerMetadata"b1"read_metroRegion"b1"read_photoSubmissionDetailsState"b1"read_placeCardPlaceActionDetailsActionUrl"b1"read_placeCardPlaceActionDetailsDestinationApp"b1"read_placeCardPlaceActionDetailsPhotoId"b1"read_placeCardPlaceActionDetailsRichProviderId"b1"read_placeCardPlaceActionDetailsShowcaseId"b1"read_placeCardPlaceActionDetailsTransitPlaceCardIncidentType"b1"read_placeCardPlaceActionDetailsTransitPlaceCardTransitDepartureSequenceUsageDirection"b1"read_placeCardPlaceActionDetailsTransitPlaceCardTransitDepartureSequenceUsageHeadsign"b1"read_placeCardPlaceActionDetailsTransitPlaceCardTransitSystemName"b1"read_placeCardPlaceCardCategory"b1"read_placeCardRevealedPlaceCardModules"b1"read_placeCardState"b1"read_predExTrainingData"b1"read_ratingPhotoSubmissionDetailsState"b1"read_ratingSubmissionDetailsState"b1"read_routeRouteDetails"b1"read_searchResultsState"b1"read_suggestionsDisplayedResults"b1"read_suggestionsSearchString"b1"read_tapEventState"b1"read_ugcPhotoState"b1"read_userHomeCountry"b1"read_userHomeMetro"b1"wrote_anyField"b1};
-- (void)andMuids:(unsigned int)arg1 count: /* Error: Ran out of types for this method. */;
-- (id);
-- (id)sModuleConfiguration;
-- (id)HANDLE_PERMANENTLY_CLOSED;
+- (void)setChildBrandMuids:(unsigned int)arg1 count: /* Error: Ran out of types for this method. */;
+- (id)hasElementImpression;
+- (id)GEOPlaceDetailsModuleConfiguration;
+- (id)CLIENT_REVISION_CAN_HANDLE_PERMANENTLY_CLOSED;
 - (void)¶eÀYJ±P@;
 
 // Remaining properties
-@property(nonatomic) unsigned int endIndex;
-@property(nonatomic) _Bool hasEndIndex;
 @property(readonly, nonatomic) _Bool hasNameInfo;
-@property(retain, nonatomic) GEONameInfo *nameInfo;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

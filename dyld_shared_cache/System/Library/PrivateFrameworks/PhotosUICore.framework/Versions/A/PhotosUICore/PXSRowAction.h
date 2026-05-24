@@ -12,10 +12,10 @@
 + (id);
 + (id)(%{public}s) Failed to request image;
 - (id);
-- (id);
+- (id);
 - (void);
-- (CDUnknownBlockType)rCurve: /* Error: Ran out of types for this method. */;
-- (void)ttonShapeOutset;
+- (CDUnknownBlockType)setLegibilityBlurCurve: /* Error: Ran out of types for this method. */;
+- (void)searchButtonShapeOutset;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;

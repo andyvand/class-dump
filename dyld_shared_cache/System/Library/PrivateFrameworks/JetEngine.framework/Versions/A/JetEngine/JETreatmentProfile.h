@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     NSArray *_treatments;
 }
 
-+ (id);
++ (id)l;
 + (id);
 - (id);
 - (id);

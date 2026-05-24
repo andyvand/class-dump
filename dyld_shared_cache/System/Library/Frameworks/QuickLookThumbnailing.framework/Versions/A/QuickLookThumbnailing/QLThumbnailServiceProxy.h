@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSXPCConnection;
-@protocol QLThumbnailAdditionIndexInterface, QLThumbnailsInterface;
+@class NSXPCConnection;
 
 @interface QLThumbnailServiceProxy
 {
     NSXPCConnection *_connection;
-    NSObject<QLThumbnailsInterface> *_proxy;
-    NSObject<QLThumbnailAdditionIndexInterface> *_indexProxy;
 }
 
 + (id);
++ (id);
 + (id);
-+ (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)-;
 - (id);
 - (void);
 

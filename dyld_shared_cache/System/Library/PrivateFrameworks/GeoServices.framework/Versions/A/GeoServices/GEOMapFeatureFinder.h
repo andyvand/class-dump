@@ -6,17 +6,10 @@
 
 #import <GeoServices/GEOMapRequest.h>
 
-@class GEOMapAccess, GEOMapTileFinder;
-
 __attribute__((visibility("hidden")))
 @interface GEOMapFeatureFinder : GEOMapRequest
 {
     CDStruct_2c43369c _coordinate;
-    GEOMapTileFinder *_tileFinder;
-    CDUnknownBlockType _roadHandler;
-    CDUnknownBlockType _pointHandler;
-    CDUnknownBlockType _polygonHandler;
-    _Bool _ignoreUnnamedFeatures;
 }
 
 - (void);
@@ -28,17 +21,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)receivingContactsDataFromOOPContactPicker;
+- (void)flatMapWithObservable:(CDUnknownBlockType)arg1 transform:schedulerProvider: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void)4æÿÉ9Æy5;
 
 // Remaining properties
-@property(nonatomic) _Bool ignoreUnnamedFeatures; // @synthesize ignoreUnnamedFeatures=_ignoreUnnamedFeatures;
-@property(readonly, nonatomic) GEOMapAccess *map;
-@property(copy, nonatomic) CDUnknownBlockType pointHandler; // @synthesize pointHandler=_pointHandler;
-@property(copy, nonatomic) CDUnknownBlockType polygonHandler; // @synthesize polygonHandler=_polygonHandler;
 @property(copy, nonatomic) CDUnknownBlockType roadHandler; // @synthesize roadHandler=_roadHandler;
 
 @end

@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
-@protocol AXMTaskDispatcherDelegate, OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_source;
 
 @interface AXMTaskDispatcher
 {
     NSObject<OS_dispatch_source> *_processQueueSource;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableArray *_queue_taskList;
-    _Bool _queue_taskIsBeingProcessed;
-    id <AXMTaskDispatcherDelegate> _delegate;
 }
 
 - (id);
@@ -22,9 +18,9 @@
 - (void);
 - (id);
 - (long long);
-- (void);
+- (void)o;
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (long long);
 - (id);
@@ -32,8 +28,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long count;
-@property(nonatomic) __weak id <AXMTaskDispatcherDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) _Bool isEmpty;
 
 @end
 

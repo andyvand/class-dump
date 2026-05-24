@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSGridView, NSLayoutYAxisAnchor, NSMutableArray;
+@class NSGridView;
 
 @interface NSGridRow
 {
     NSGridView *_owningGridView;
-    NSMutableArray *_cells;
-    NSLayoutYAxisAnchor *_top;
-    long long _yPlacement;
-    long long _rowAlignment;
-    long long _hasContentInGeneration;
-    double _height;
-    double _topPadding;
-    double _bottomPadding;
-    _Bool _hidden;
 }
 
 - (long long);
@@ -29,27 +20,27 @@
 - (long long);
 - (long long);
 - (void);
-- (id);
+- (id)on"16@"NSURLRequest"24@?<v@?@"NSURLRequest">32;
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)Accessing;
+- (void)permanent;
+- (id)%d allowsExpensiveNetworkAccess=%d allowsConstrainedNetworkAccess=%d requiresPowerPluggedIn=%d;
+- (id), host, alternateHost, port, alternatePort, type, creation_time, expires_time, rowid) 		values (?, ?, ?, ?, ?, ?, ?, ?, (SELECT max(rowid) FROM alt_services)+1);
+- (void)@;
 - (long long);
 - (void);
 - (id);
 - (void);
 - (void);
+- (id)@;
 - (id);
-- (id);
-- (id);
+- (id)@;
 - (id);
 - (void);
-- (id);
+- (id)SSL_SESSION_ID_CONTEXT_TOO_LONG;
 - (id);
 - (id);
 - (double);
@@ -58,21 +49,14 @@
 × ;
 - (_Bool)!Eùqã3ð1Â0@ù
 × ;
-- (void)dicatorStyle;
-- (void)elegate;
+- (void)levelIndicatorStyle;
+- (void)NSSplitViewDelegate;
 - (double)autoreopenRecord=%p documentURL=%{sensitive}@ documentContentsURL=%{sensitive}@ tryResolvingAutoreopenRecordLater=%d;
 - (long long);
 - (double)EPS must be NSGraphicsContextPDFFormat or NSGraphicsContextPSFormat, not %@.;
 
 // Remaining properties
-@property double bottomPadding;
 @property(readonly) __weak NSGridView *gridView;
-@property double height;
-@property(getter=isHidden) _Bool hidden;
-@property(readonly) long long numberOfCells;
-@property long long rowAlignment;
-@property double topPadding;
-@property long long yPlacement;
 
 @end
 

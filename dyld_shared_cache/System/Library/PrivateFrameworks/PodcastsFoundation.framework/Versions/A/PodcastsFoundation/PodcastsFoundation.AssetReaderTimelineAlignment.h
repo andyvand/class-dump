@@ -7,10 +7,6 @@
 @interface PodcastsFoundation.AssetReaderTimelineAlignment
 {
     id state;
-    id readPositionToAlignments;
-    id nonMatchingStart;
-    id tolerance;
-    id logger;
 }
 
 @end

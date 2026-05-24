@@ -6,46 +6,12 @@
 
 #import <FinderKit/FI_TScriptableWindowController.h>
 
-@class FI_TGoToAutoCompletionController, FI_TGoToAutoCompletionControllerFinderDelegate, FI_TGoToFinderItem, FI_TGoToItemsViewController, FI_TPathTextField, NSButton, NSString, NSTextField, NSVisualEffectView, NSWindow;
-@protocol TGoToWindowDelegate;
+@class FI_TPathTextField, NSWindow;
 
 __attribute__((visibility("hidden")))
 @interface FI_TGoToWindowController : FI_TScriptableWindowController
 {
     FI_TPathTextField *_pathTextField;
-    NSTextField *_pathCompletionTextField;
-    NSButton *_closeButton;
-    FI_TGoToItemsViewController *_itemsViewController;
-    NSVisualEffectView *_spinnerView;
-    struct TString _initialPath;
-    _Bool _isLastTwoTabCompletionSame;
-    _Bool _isInSuggestionUpdate;
-    _Bool _isInUserDidTypeTab;
-    _Bool _isInUserDidTypeMarkedText;
-    _Bool _isInUserSingleClick;
-    _Bool _shouldGoToSelection;
-    _Bool _shouldTabToSelection;
-    FI_TGoToFinderItem *_relativeToItem;
-    struct TGoToPathToAutoCompleteHelper _autoCompleteHelper;
-    FI_TGoToAutoCompletionController *_autoCompletionController;
-    FI_TGoToAutoCompletionControllerFinderDelegate *_autoCompletionControllerDelegate;
-    _Bool _allowLeftoverLastPathComponent;
-    struct function<void (FI_TGoToWindowController *)> _initialItemsDidLoadHandler;
-    struct function<void (FI_TGoToWindowController *, const TFENode &, const TFENode &, const TString &)> _completionHandler;
-    TNSWeakPtr_db0eab6c _initialItemsTimeoutToken;
-    TNSWeakPtr_db0eab6c _autoCompleteNowToken;
-    TNSWeakPtr_db0eab6c _autoCompleteSpinnerToken;
-    TNSWeakPtr_db0eab6c _singleClickDelayToken;
-    struct vector<TNotificationCenterObserver, std::allocator<TNotificationCenterObserver>> _notificationCenterObservers;
-    struct vector<TKeyValueObserver, std::allocator<TKeyValueObserver>> _keyValueObservers;
-    struct TEventMonitor _keyDownEventMonitor;
-    struct TNSWeakPtr<FI_TTouchBar> _goAndCancelButtonsTouchBar;
-    struct TNSWeakPtr<FI_TCustomTouchBarItem> _goAndCancelButtonsTouchBarItem;
-    _Bool _isLoading;
-    _Bool _enablePathComboBox;
-    _Bool _showProgress;
-    NSWindow *_parentWindow;
-    id <TGoToWindowDelegate> delegate;
 }
 
 + (id);
@@ -55,8 +21,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (struct TString);
+- (_Bool);
+- (struct TString)@@y	?%@qa;
 - (void);
 - (struct TFENode);
 - (_Bool);
@@ -64,7 +30,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -76,14 +42,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)q`;
 - (void);
-- (void);
+- (void)_nextMondayMorning;
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)not available for unknown representation type %{public}s content for message %{public}@;
 - (id);
 - (void);
 - (id);
@@ -92,25 +58,13 @@ __attribute__((visibility("hidden")))
 - (void)Ü;
 - (void);
 - (void)¬<;
-- (_Bool)seIFNS_10shared_ptrI17TFENodeComparatorEERK27TFENodeComparatorParametersEEE;
+- (_Bool)NSt3__110__function6__baseIFNS_10shared_ptrI17TFENodeComparatorEERK27TFENodeComparatorParametersEEE;
 - (id)_5FvvEEE;
 - (void)itCommon]E4$_18;
 - (_Bool)callable_details15callable_holderIZ33-[FI_TTagTextLabel performAction]E3$_2vJEEE;
 
 // Remaining properties
-@property(nonatomic) _Bool allowLeftoverLastPathComponent; // @synthesize allowLeftoverLastPathComponent=_allowLeftoverLastPathComponent;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <TGoToWindowDelegate> delegate; // @synthesize delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool enablePathComboBox; // @synthesize enablePathComboBox=_enablePathComboBox;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isLoading; // @synthesize isLoading=_isLoading;
 @property(nonatomic) __weak NSWindow *parentWindow; // @synthesize parentWindow=_parentWindow;
-@property(readonly, nonatomic) _Bool showProgress; // @synthesize showProgress=_showProgress;
-@property(readonly) Class superclass;
 
 @end
 

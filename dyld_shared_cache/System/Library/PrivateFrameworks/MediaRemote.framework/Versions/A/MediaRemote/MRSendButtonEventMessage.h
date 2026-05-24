@@ -12,7 +12,7 @@
 
 - (struct _MRHIDButtonEvent);
 - (id);
-- (unsigned long long);
+- (unsigned long long)AttachmentGeneratePreviewAdaptiveImageGlyph;
 
 // Remaining properties
 @property(readonly, nonatomic) struct _MRHIDButtonEvent buttonEvent;

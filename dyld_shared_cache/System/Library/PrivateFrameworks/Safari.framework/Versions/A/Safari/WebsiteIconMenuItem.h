@@ -10,14 +10,13 @@ __attribute__((visibility("hidden")))
 @interface WebsiteIconMenuItem
 {
     NSString *_URLString;
-    id _faviconRequestToken;
 }
 
 - (void);
 - (id);
 - (void);
-- (id);
-- (void)onListSelectionChanged:(id)arg1;
+- (id)`;
+- (void)completionListSelectionChanged:(id)arg1;
 - (void)T$;
 
 @end

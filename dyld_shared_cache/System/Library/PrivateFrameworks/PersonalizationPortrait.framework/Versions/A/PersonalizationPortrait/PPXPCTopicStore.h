@@ -14,7 +14,7 @@
 }
 
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -23,7 +23,8 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)y
+;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -31,11 +32,11 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (id)1Â0@ù
 × ;
-- (id)leID;
+- (id)originatingBundleID;
 - (_Bool)ityRecordsHandler;
 - (void)rProtocol>"8@?<v@?B@"NSError">16;
 

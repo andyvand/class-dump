@@ -6,14 +6,12 @@
 
 #import <AudioServerDriver/ASDRingBuffer.h>
 
-@class ASDStreamFormat, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface ASDManagedRingBuffer : ASDRingBuffer
 {
     NSObject<OS_dispatch_queue> *_queue;
-    _Bool _readerRunning;
-    _Bool _writerRunning;
 }
 
 - (_Bool);
@@ -28,22 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAllocated) _Bool allocated;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long frameCapacity;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CDUnknownBlockType readBlock;
-@property(copy, nonatomic) ASDStreamFormat *readFormat;
-@property(readonly, nonatomic) CDUnknownBlockType readWithZerosBlock;
 @property(nonatomic) _Bool readerRunning; // @synthesize readerRunning=_readerRunning;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CDUnknownBlockType writeBlock;
-@property(copy, nonatomic) ASDStreamFormat *writeFormat;
-@property(nonatomic) _Bool writerRunning; // @synthesize writerRunning=_writerRunning;
 
 @end
 

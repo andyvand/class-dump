@@ -6,17 +6,10 @@
 
 #import <Safari/CollectionViewPlus.h>
 
-@class NSView;
-
 __attribute__((visibility("hidden")))
 @interface StartPageCollectionView : CollectionViewPlus
 {
     long long _lastSuccessfulDropId;
-    long long _currentDropId;
-    NSView *_backgroundImageView;
-    _Bool _inDropOperation;
-    _Bool _avoidAnimatingImage;
-    _Bool _disableDragAndDrop;
 }
 
 - (void);
@@ -28,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (void);
 - (void);

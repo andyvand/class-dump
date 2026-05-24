@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface UnknownClass (SceneKitAdditions)
 + (id);
 - (_Bool);
@@ -20,9 +18,6 @@
 - (double);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *animationEvents;
-@property double fadeInDuration;
-@property double fadeOutDuration;
 @property _Bool usesSceneTimeBase;
 @end
 

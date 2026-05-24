@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableOrderedSet;
+@class NSMutableOrderedSet;
 
 @interface PPQuickTypeItemCache
 {
     NSMutableOrderedSet *_keys;
-    NSMutableDictionary *_entries;
 }
 
 - (void);
-- (id);
+- (id)T;
 - (void);
 
 @end

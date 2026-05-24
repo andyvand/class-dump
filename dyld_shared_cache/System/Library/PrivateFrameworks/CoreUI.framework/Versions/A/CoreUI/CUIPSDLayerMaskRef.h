@@ -9,13 +9,12 @@
 @interface CUIPSDLayerMaskRef
 {
     CUIPSDLayerRef *_layerRef;
-    _Bool _isVectorMask;
 }
 
 - (struct CGPath *);
 - (struct CGPath *);
-- (id);
-- (_Bool);
+- (id)X;
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);

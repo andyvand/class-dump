@@ -9,16 +9,14 @@
 @interface PHPersistentChangeEnumerationContext
 {
     NSMutableSet *_untrashedIdentifiersAsInserts;
-    NSMutableSet *_trashedIdentifiersAsDeletes;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)IIi8	J;
 - (void)N,GisInTrash,V_inTrash;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableSet *trashedIdentifiersAsDeletes; // @synthesize trashedIdentifiersAsDeletes=_trashedIdentifiersAsDeletes;
 @property(readonly, nonatomic) NSMutableSet *untrashedIdentifiersAsInserts; // @synthesize untrashedIdentifiersAsInserts=_untrashedIdentifiersAsInserts;
 
 @end

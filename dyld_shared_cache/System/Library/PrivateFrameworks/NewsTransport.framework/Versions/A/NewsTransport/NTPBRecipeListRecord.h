@@ -4,38 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NTPBRecordBase;
+@class NTPBRecordBase;
 
 @interface NTPBRecipeListRecord
 {
     NTPBRecordBase *_base;
-    NSMutableArray *_recipeIDs;
 }
 
 + (Class);
-- (unsigned long long);
+- (unsigned long long)defaultSpecs;
+- (id)defaultSpatialTemplateContentExtent;
+- (void)canMoveAssetsToSharedLibrary: /* Error: Ran out of types for this method. */;
+- (void)beginSheetModalForContainerViewController:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (void)";
 - (id);
 - (void);
 - (void);
-- (void);
+- (unsigned long long)_minimumPhotoTransitionDuration;
 - (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
+- (_Bool)FileSystemEnumerationFailure;
 - (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (id)TagIds: /* Error: Ran out of types for this method. */;
+- (id)setMutedTagIds: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NTPBRecordBase *base; // @synthesize base=_base;
 @property(readonly, nonatomic) _Bool hasBase;
-@property(retain, nonatomic) NSMutableArray *recipeIDs; // @synthesize recipeIDs=_recipeIDs;
 
 @end
 

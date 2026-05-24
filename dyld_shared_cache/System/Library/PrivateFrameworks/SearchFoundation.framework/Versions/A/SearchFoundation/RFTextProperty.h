@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
+@class NSArray;
 
 @interface RFTextProperty
 {
     CDStruct_1d796774 _has;
-    _Bool _is_safe_for_logging;
-    NSArray *_text_elements;
 }
 
 + (_Bool);
@@ -19,27 +17,17 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)newCommandEventWithInterval:(id)arg1;
+- (unsigned long long)ov;
 - (_Bool);
 - (void);
+- (id)uniqueIdentifier;
+- (id)gModel=%d, faceCount=%d, verified=%d;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)P;
 - (void)leItemRichCardSection",&,N,V_simple_item_rich_card_section;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool is_safe_for_logging; // @synthesize is_safe_for_logging=_is_safe_for_logging;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSArray *text_elements; // @synthesize text_elements=_text_elements;
 
 @end

@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WKDOMRange;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface DDHighlightObject
 {
     struct __DDResult *_result;
-    NSString *_targetURL;
-    NSString *_webViewIdentifier;
-    _Bool _followedByBlank;
-    WKDOMRange *_WKDOMRange;
 }
 
-- (id);
+- (id);;
 - (void);
 - (void);
 - (void);
@@ -33,9 +29,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property _Bool followedByBlank; // @synthesize followedByBlank=_followedByBlank;
-@property(retain) WKDOMRange *range; // @synthesize range=_WKDOMRange;
-@property(retain) NSString *targetURL; // @synthesize targetURL=_targetURL;
 @property(copy) NSString *webViewIdentifier; // @synthesize webViewIdentifier=_webViewIdentifier;
 
 @end

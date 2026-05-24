@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _DKEventQuery;
-@protocol _CDUserContext, _DKKnowledgeQuerying;
+@class NSString;
+@protocol _DKKnowledgeQuerying;
 
 @interface BMCoreDuetStream
 {
     NSString *_identifier;
-    _DKEventQuery *_query;
-    id <_DKKnowledgeQuerying> _store;
-    id <_CDUserContext> _context;
 }
 
 + (id);
@@ -22,13 +19,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void)&;
 
 // Remaining properties
-@property(readonly, nonatomic) id <_CDUserContext> context; // @synthesize context=_context;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _DKEventQuery *query; // @synthesize query=_query;
 @property(readonly, nonatomic) id <_DKKnowledgeQuerying> store; // @synthesize store=_store;
 
 @end

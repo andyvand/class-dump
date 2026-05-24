@@ -4,39 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBURL;
+@class _SFPBURL;
 
 @interface _SFPBURLImage
 {
     _SFPBURL *_urlValue;
-    _SFPBURL *_darkUrlValue;
 }
 
-- (void);
+- (void)@;
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)NotificationRebroadcastConfiguration;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)setGeneratedAssetDescriptionForAsset:(id)arg1 fromDictionaries: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (void)8;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBURL *darkUrlValue; // @synthesize darkUrlValue=_darkUrlValue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) _SFPBURL *urlValue; // @synthesize urlValue=_urlValue;
 
 @end

@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface CTSimDeactivationInfo
 {
     NSString *_homePlmn;
-    NSMutableArray *_events;
 }
 
-+ (_Bool);
++ (_Bool)nil;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)loading sequence;
 - (_Bool);
-- (void);
+- (void)localizedFallbackTitle;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *events; // @synthesize events=_events;
 @property(retain, nonatomic) NSString *homePlmn; // @synthesize homePlmn=_homePlmn;
 
 @end

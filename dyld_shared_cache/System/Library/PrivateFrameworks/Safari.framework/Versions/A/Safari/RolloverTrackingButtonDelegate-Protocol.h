@@ -5,5 +5,8 @@
 //
 
 @protocol RolloverTrackingButtonDelegate
+
+@optional
+- (void);
 @end
 

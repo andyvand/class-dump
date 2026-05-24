@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSArray, NSDictionary, NSString, PXCNAutocompleteResultRecipient;
+@class CNContact, NSArray;
 
 @interface PXCNAutocompleteUnifiedResult
 {
     CNContact *_contact;
-    NSString *_fullName;
-    PXCNAutocompleteResultRecipient *_primaryRecipient;
-    NSArray *_secondaryRecipients;
-    NSDictionary *_allRecipients;
-    NSArray *_phoneAddresses;
-    NSArray *_emailAddresses;
-    NSArray *_recipients;
 }
 
 - (_Bool);
@@ -26,21 +19,14 @@
 - (id);
 - (id);
 - (id);
-- (void)iguration:(id)arg1;
-- (id)vior: /* Error: Ran out of types for this method. */;
+- (void)transitionsWithConfiguration:(id)arg1;
+- (id)setSharingBehavior: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id)q=;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *allRecipients; // @synthesize allRecipients=_allRecipients;
-@property(readonly, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly, nonatomic) NSArray *emailAddresses; // @synthesize emailAddresses=_emailAddresses;
-@property(readonly, nonatomic) NSString *fullName; // @synthesize fullName=_fullName;
-@property(readonly, nonatomic) NSArray *phoneAddresses; // @synthesize phoneAddresses=_phoneAddresses;
-@property(readonly, nonatomic) PXCNAutocompleteResultRecipient *primaryRecipient; // @synthesize primaryRecipient=_primaryRecipient;
 @property(retain, nonatomic) NSArray *recipients; // @synthesize recipients=_recipients;
-@property(readonly, nonatomic) NSArray *secondaryRecipients; // @synthesize secondaryRecipients=_secondaryRecipients;
 
 @end
 

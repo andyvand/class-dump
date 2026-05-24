@@ -7,7 +7,6 @@
 @interface AXCoreUtilities.NotificationContext__priv_12C73CDEAAFA9A64DE4BE2781CC8BB3D
 {
     id _lock;
-    id _continuation;
 }
 
 - (id);

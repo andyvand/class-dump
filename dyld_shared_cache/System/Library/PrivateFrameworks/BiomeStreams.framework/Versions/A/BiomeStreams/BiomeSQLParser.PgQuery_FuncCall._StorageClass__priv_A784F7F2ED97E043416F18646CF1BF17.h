@@ -7,15 +7,6 @@
 @interface BiomeSQLParser.PgQuery_FuncCall._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _funcname;
-    id _args;
-    id _aggOrder;
-    id _aggFilter;
-    id _aggWithinGroup;
-    id _aggStar;
-    id _aggDistinct;
-    id _funcVariadic;
-    id _over;
-    id _location;
 }
 
 @end

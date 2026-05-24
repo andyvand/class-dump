@@ -9,7 +9,7 @@
 + (id);
 + (id);
 + (id);
-- (id);
+- (id)t %@ batch identifier %@, %lld/%lld;
 - (id);
 - (id);
 - (id);
@@ -21,6 +21,6 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)thUserElection:(id)arg1;
 @end
 

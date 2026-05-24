@@ -7,14 +7,14 @@
 @class UIFont;
 
 @protocol _UIVectorTextLayoutRun
+- (struct CGRect)P;
+- (struct _NSRange);
+- (void)/MSUDataAccessor;
+- (unsigned long long);
 - (UIFont *)èÎ;
 - (void)Ð&;
 
 // Remaining properties
-@property(readonly, nonatomic) double baseline;
 @property(readonly, nonatomic) unsigned long long lineIndex;
-@property(readonly, nonatomic) struct CGRect lineRect;
-@property(readonly, nonatomic) struct CGRect usedLineRect;
-@property(readonly, nonatomic) struct CGRect usedRunRect;
 @end
 

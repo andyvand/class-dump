@@ -7,10 +7,6 @@
 @interface BMPruningPolicy
 {
     _Bool _pruneOnAccess;
-    _Bool _filterByAgeOnRead;
-    double _maxAge;
-    unsigned long long _maxStreamSize;
-    unsigned long long _maxEventCount;
 }
 
 + (id);
@@ -18,7 +14,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (double);
 - (unsigned long long);
@@ -33,10 +29,6 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool filterByAgeOnRead; // @synthesize filterByAgeOnRead=_filterByAgeOnRead;
-@property(nonatomic) double maxAge; // @synthesize maxAge=_maxAge;
-@property(nonatomic) unsigned long long maxEventCount; // @synthesize maxEventCount=_maxEventCount;
-@property(nonatomic) unsigned long long maxStreamSize; // @synthesize maxStreamSize=_maxStreamSize;
 @property(nonatomic) _Bool pruneOnAccess; // @synthesize pruneOnAccess=_pruneOnAccess;
 
 @end

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber;
+@class NSDictionary;
 
 @protocol LACDomainStateRequest
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *options;
-@property(readonly, nonatomic) NSNumber *userID;
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol UISSceneHostingExternalSettingsModifierXPCServerInterface
+- (oneway void);
 @end
 

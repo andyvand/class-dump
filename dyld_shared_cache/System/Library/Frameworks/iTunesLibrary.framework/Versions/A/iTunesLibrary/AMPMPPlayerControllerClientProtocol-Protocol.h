@@ -5,5 +5,8 @@
 //
 
 @protocol AMPMPPlayerControllerClientProtocol
+- (void);
+- (void);
+- (void)`=;
 @end
 

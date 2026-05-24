@@ -4,34 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSInvocation, NSObject, UIWindowScene;
-@protocol OS_dispatch_source;
-
 __attribute__((visibility("hidden")))
 @interface _UIDelayedPresentationContext
 {
     _Bool _enableUserInteraction;
-    long long _reqcnt;
-    NSInvocation *_presentInvocation;
-    CDUnknownBlockType _cancellationHandler;
-    double _timeout;
-    NSObject<OS_dispatch_source> *_timerSource;
-    UIWindowScene *_windowSceneIgnoringEvents;
 }
 
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)mutablePersistentProperties;
+- (id)conversationManager:screenSharingRequestsChangedForConversation:fromOldConversation: /* Error: Ran out of types for this method. */;
+- (id)broadcasterForVCConferenceListenersSupportingService:(double)arg1;
+- (void)_deleteAllZonesForDatabase:(id)arg1;
+- (id)ecordZone;
 - (void);
 - (void);
 - (long long);
-- (void);
-- (void);
+- (void)s:task NOT exists /* Error: Ran out of types for this method. */;
+- (void)isStoreRedownloadable;
 - (long long)
 × ;
 - (CDUnknownBlockType)AÐ!°Eù\ð1Â0@ù
@@ -41,8 +32,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType cancellationHandler; // @synthesize cancellationHandler=_cancellationHandler;
-@property(retain, nonatomic) NSInvocation *presentInvocation; // @synthesize presentInvocation=_presentInvocation;
-@property __weak UIWindowScene *windowSceneIgnoringEvents; // @synthesize windowSceneIgnoringEvents=_windowSceneIgnoringEvents;
 
 @end
 

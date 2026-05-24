@@ -11,7 +11,7 @@
     id inputs;
 }
 
-- (id);
+- (id)(=;
 - (id);
 
 // Remaining properties

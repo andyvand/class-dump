@@ -4,27 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOComposedETARoute, GEOETATrafficUpdateRequest, GEOETATrafficUpdateResponse, NSArray, NSDateInterval, NSError;
-
 @interface Navigation.MNETAUpdateResponseInfo
 {
     long long reason;
-    GEOETATrafficUpdateRequest *request;
-    GEOETATrafficUpdateResponse *response;
-    NSError *error;
-    void responseTime;
-    GEOComposedETARoute *etaRoute;
-    void alternateRoutes;
 }
 
 - (id);
 - (id);
+- (id)!;
+- (long long);
 - (id);
-- (long long);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)variableOverrides;
 - (id)NTEGER REFERENCES locations(id),
     route_coordinate                NUMERIC,
     step_index                      INTEGER,
@@ -288,13 +280,7 @@ CREATE VIEW route_creation_actions_view AS
 - (id)0eôÿ6â¹ç;
 
 // Remaining properties
-@property(nonatomic, readonly) NSArray *alternateRoutes;
-@property(nonatomic, readonly) NSError *error; // @synthesize error;
-@property(nonatomic, readonly) GEOComposedETARoute *etaRoute; // @synthesize etaRoute;
 @property(nonatomic, readonly) long long reason; // @synthesize reason;
-@property(nonatomic, readonly) GEOETATrafficUpdateRequest *request; // @synthesize request;
-@property(nonatomic, readonly) GEOETATrafficUpdateResponse *response; // @synthesize response;
-@property(nonatomic, readonly) NSDateInterval *responseTime;
 
 @end
 

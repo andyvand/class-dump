@@ -10,7 +10,7 @@
 }
 
 + (id);
-+ (id);
++ (id)ss"8@"NSNumber"16^B24;
 - (void);
 - (id);
 - (int);

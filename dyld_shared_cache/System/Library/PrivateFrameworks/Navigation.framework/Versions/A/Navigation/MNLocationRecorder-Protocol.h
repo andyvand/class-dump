@@ -5,5 +5,7 @@
 //
 
 @protocol MNLocationRecorder
+- (void);
+- (void)UISceneAdaptorConfiguration;
 @end
 

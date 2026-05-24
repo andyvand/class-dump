@@ -5,5 +5,9 @@
 //
 
 @protocol AMSTreatmentStoreServiceProtocol
+
+@optional
+- (void);
+- (void)b;
 @end
 

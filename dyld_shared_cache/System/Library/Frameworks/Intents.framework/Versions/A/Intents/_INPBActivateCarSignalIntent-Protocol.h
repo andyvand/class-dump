@@ -7,14 +7,11 @@
 @class _INPBDataString, _INPBIntentMetadata;
 
 @protocol _INPBActivateCarSignalIntent
-- (_Bool)olveSelectorStrings;
+- (_INPBIntentMetadata *)rivate.livevolume.name;
+- (int *);
+- (_Bool)_resolveSelectorStrings;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBDataString *carName;
-@property(readonly, nonatomic) _Bool hasCarName;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(readonly, nonatomic) int *signals;
-@property(readonly, nonatomic) unsigned long long signalsCount;
 @end
 

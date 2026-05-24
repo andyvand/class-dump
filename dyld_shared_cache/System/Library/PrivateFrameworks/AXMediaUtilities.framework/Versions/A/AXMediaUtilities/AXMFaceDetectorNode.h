@@ -6,38 +6,33 @@
 
 #import <AXMediaUtilities/AXMEvaluationNode.h>
 
-@class VNClassifyFaceAttributesRequest, VNCreateFaceprintRequest, VNDetectFaceExpressionsRequest, VNDetectFaceLandmarksRequest, VNDetectFacePoseRequest, VNDetectFaceRectanglesRequest;
+@class VNDetectFaceRectanglesRequest;
 
 @interface AXMFaceDetectorNode : AXMEvaluationNode
 {
     VNDetectFaceRectanglesRequest *__faceRectanglesRequest;
-    VNCreateFaceprintRequest *__faceprintRequest;
-    VNClassifyFaceAttributesRequest *__faceAttributesRequest;
-    VNDetectFaceExpressionsRequest *__faceExpressionsRequest;
-    VNDetectFaceLandmarksRequest *__faceLandmarksRequest;
-    VNDetectFacePoseRequest *__facePoseRequest;
 }
 
-+ (_Bool);
-+ (id);
++ (_Bool)initWithStartDate:endDate: /* Error: Ran out of types for this method. */;
++ (id)c;
 + (_Bool);
 - (_Bool);
+- (void)g{;
+- (void)\|;
+- (void)9\|;
+- (void)|;
+- (void)|;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)\|;
+- (void):O\| /* Error: Ran out of types for this method. */;
+- (void)[|;
+- (id);
+- (id)[;
+- (id);
+- (id)t;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -45,12 +40,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) VNClassifyFaceAttributesRequest *_faceAttributesRequest; // @synthesize _faceAttributesRequest=__faceAttributesRequest;
-@property(retain, nonatomic) VNDetectFaceExpressionsRequest *_faceExpressionsRequest; // @synthesize _faceExpressionsRequest=__faceExpressionsRequest;
-@property(retain, nonatomic) VNDetectFaceLandmarksRequest *_faceLandmarksRequest; // @synthesize _faceLandmarksRequest=__faceLandmarksRequest;
-@property(retain, nonatomic) VNDetectFacePoseRequest *_facePoseRequest; // @synthesize _facePoseRequest=__facePoseRequest;
 @property(retain, nonatomic) VNDetectFaceRectanglesRequest *_faceRectanglesRequest; // @synthesize _faceRectanglesRequest=__faceRectanglesRequest;
-@property(retain, nonatomic) VNCreateFaceprintRequest *_faceprintRequest; // @synthesize _faceprintRequest=__faceprintRequest;
 
 @end
 

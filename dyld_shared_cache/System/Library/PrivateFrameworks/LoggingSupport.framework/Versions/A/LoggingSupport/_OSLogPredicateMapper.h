@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableSet, NSPredicate;
+@class NSMutableArray;
 
 @interface _OSLogPredicateMapper
 {
     int _pass;
-    NSMutableArray *_validationErrors;
-    NSMutableArray *_validKeyPathPrefixes;
-    unsigned long long _flags;
-    NSPredicate *_predicate;
-    NSPredicate *_compiledPredicate;
-    NSMutableArray *_stack;
 }
 
 - (id);
@@ -26,10 +20,10 @@
 - (id);
 - (void);
 - (id);
+- (id)" (length=%lu) and replacementTranscription="%{sensitive}@" (length=%lu);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
 - (id);
@@ -38,19 +32,14 @@
 - (id);
 - (id)@ù
 × ;
-- (void)escriptor:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)initWithFileDescriptor:(id)arg1 error: /* Error: Ran out of types for this method. */;
 - (id)mat;
 - (void)d %lu tracepoints
 ;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSPredicate *compiledPredicate; // @synthesize compiledPredicate=_compiledPredicate;
-@property(readonly, nonatomic) unsigned long long flags; // @synthesize flags=_flags;
-@property(readonly, nonatomic) NSPredicate *mappedPredicate; // @synthesize mappedPredicate=_predicate;
 @property(retain, nonatomic) NSMutableArray *stack; // @synthesize stack=_stack;
-@property(readonly, nonatomic) NSMutableSet *validKeyPaths;
-@property(readonly, nonatomic) NSArray *validationErrors; // @synthesize validationErrors=_validationErrors;
 
 @end
 

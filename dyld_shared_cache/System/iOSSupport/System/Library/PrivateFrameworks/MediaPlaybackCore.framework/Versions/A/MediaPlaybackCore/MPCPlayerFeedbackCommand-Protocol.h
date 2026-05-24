@@ -7,13 +7,11 @@
 @class NSString;
 
 @protocol MPCPlayerFeedbackCommand
-- (long long)irements: /* Error: Ran out of types for this method. */;
-- (NSString *)uestError;
+- (NSString *)T@;
+- (long long)setRequirements: /* Error: Ran out of types for this method. */;
+- (NSString *)MPCPlayerRequestError;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *localizedShortTitle;
 @property(readonly, copy, nonatomic) NSString *localizedTitle;
-@property(readonly, nonatomic) long long presentationStyle;
-@property(readonly, nonatomic) _Bool value;
 @end
 

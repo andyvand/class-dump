@@ -20,9 +20,9 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)!;
 - (_Bool);
-- (void)341;
+- (void)16845198511709503341;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSSet *transactionSources; // @synthesize transactionSources=_transactionSources;

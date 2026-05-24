@@ -4,39 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOSFSymbol
 {
     PBUnknownFields *_unknownFields;
-    NSString *_symbolName;
 }
 
-+ (_Bool)ttingsWalkingAvoidHills:(id)arg1;
-- (_Bool);
++ (_Bool)setMapSettingsWalkingAvoidHills:(id)arg1;
+- (_Bool)_notificationSource;
 - (void);
 - (id);
-- (id);
+- (id)a!;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)__AUTH_CONST;
+- (void)_prepareSoundLevelBufferFromSamples:(id)arg1 soundType: /* Error: Ran out of types for this method. */;
+- (void)ounts,ServerASR_silencePosterior,ClientSPG_silenceProbailitySPGRaw] @ effectiveClientProcessedAudioMs :(id)arg1 [HEPPosteriorOut,HEPDecision];
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)ent=dI}16r^{_GEORiseTransitSetEvent=dI}24r^{_GEORiseTransitSetEvent=dI}32;
-- (id)eOptions;
-- (id)erryRouteStep;
+- (id)hasComparedRideOptions;
+- (id)GEOComposedFerryRouteStep;
 - (id)nable to generate ETAU request so skipping update.;
 - (id)RouteMatcher;
 - (void)¤à)äP@;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasSymbolName;
-@property(retain, nonatomic) NSString *symbolName;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

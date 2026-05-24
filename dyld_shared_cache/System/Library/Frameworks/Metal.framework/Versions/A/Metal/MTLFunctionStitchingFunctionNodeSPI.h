@@ -16,7 +16,7 @@
 - (id);
 - (void);
 - (id);
-- (_Bool)nt2;
+- (_Bool)UInt2;
 
 // Remaining properties
 @property(nonatomic) _Bool isEarlyReturn; // @synthesize isEarlyReturn=_isEarlyReturn;

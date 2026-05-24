@@ -8,13 +8,13 @@
 {
 }
 
-+ (void);
++ (void)}@> from <%{public}@> (%{public}@) with %@ <%{public}@> userInfo %@;
 + (id);
 - (void);
 - (void);
+- (void)l;
 - (void);
-- (void);
-- (void);
+- (void)you mean to send a MRSystemAppPlaybackQueueTypeEmpty?;
 
 @end
 

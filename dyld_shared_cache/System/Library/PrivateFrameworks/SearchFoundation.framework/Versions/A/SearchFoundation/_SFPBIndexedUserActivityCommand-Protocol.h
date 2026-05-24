@@ -7,11 +7,12 @@
 @class NSData, NSString;
 
 @protocol _SFPBIndexedUserActivityCommand
+- (id)#;
+- (NSString *)fetchLibraryScopeRulesForLibraryScope:options: /* Error: Ran out of types for this method. */;
+- (NSData *)_typesToCountForListCollections;
 - (NSString *);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *applicationBundleIdentifier;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *userActivityRequiredString;
 @end
 

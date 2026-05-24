@@ -7,7 +7,6 @@
 @interface JetEngine.FileOutputStream
 {
     id url;
-    id fileHandle;
 }
 
 @end

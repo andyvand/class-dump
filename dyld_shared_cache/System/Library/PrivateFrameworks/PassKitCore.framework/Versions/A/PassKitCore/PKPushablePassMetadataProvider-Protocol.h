@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKAddPassMetadataPreview, PKPushProvisioningTarget;
+@class PKPushProvisioningTarget;
 
 @protocol PKPushablePassMetadataProvider
 
 // Remaining properties
 @property(retain, nonatomic) PKPushProvisioningTarget *provisioningTarget;
-@property(retain, nonatomic) PKAddPassMetadataPreview *underlyingPreview;
 @end
 

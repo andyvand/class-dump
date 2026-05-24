@@ -4,31 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccountRegistry, HMDBackingStore, NSArray, NSMutableArray, NSMutableSet, NSObject, NSString;
+@class NSObject;
 @protocol HMDIDSService, OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDRemoteAccountManager
 {
     NSObject<OS_dispatch_queue> *_queue;
-    struct os_unfair_recursive_lock_s _lock;
-    NSMutableSet *_accounts;
-    _Bool _monitoring;
-    id <HMDIDSService> _service;
-    HMDAccountRegistry *_accountRegistry;
-    NSMutableArray *_resolveOperations;
-    HMDBackingStore *_backingStore;
 }
 
 + (id)with the same idsMergeIdentifier:%@ /* Error: Ran out of types for this method. */;
 + (id)|B;
 - (void);
 - (id);
-- (void);
+- (void)";
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)readBufferRegion:withBlock: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -36,13 +29,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void)ClassName:(id)arg1 coreDataValidationAttributeName:localizedErrorDescription: /* Error: Ran out of types for this method. */;
 - (void)ID:(id)arg1 accessory:(id)arg2 outBlobChanges:outLegacyChanges:outHomeManagerChanges: /* Error: Ran out of types for this method. */;
-- (_Bool)nCommissionerWithCompletion:(id)arg1;
-- (void)tionSet:(id)arg1;
-- (id)TPPort;
+- (_Bool)_startThreadNetworkOnCommissionerWithCompletion:(id)arg1;
+- (void)_handleAddHomeOwnedActionSet:(id)arg1;
+- (id)_audioRTPPort;
 - (_Bool),R,N,V_numShortcuts;
 - (void)EnabledForPersonalRequests;
-- (id)terTime:(id)arg1 enterData: /* Error: Ran out of types for this method. */;
-- (id)fying;
+- (id)enterState:(id)arg1 enterTime:enterData: /* Error: Ran out of types for this method. */;
+- (id)HMDEventCounterGroupSpecifying;
 - (void);
 - (_Bool);
 - (id)ScheduleCapacity;
@@ -61,29 +54,7 @@ __attribute__((visibility("hidden")))
 - (void)DQ;
 
 // Remaining properties
-@property(readonly, nonatomic) HMDAccountRegistry *accountRegistry; // @synthesize accountRegistry=_accountRegistry;
-@property(retain, nonatomic) NSArray *accounts;
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(retain, nonatomic) HMDBackingStore *backingStore; // @synthesize backingStore=_backingStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isMonitoring) _Bool monitoring; // @synthesize monitoring=_monitoring;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSMutableArray *resolveOperations; // @synthesize resolveOperations=_resolveOperations;
 @property(readonly, nonatomic) id <HMDIDSService> service; // @synthesize service=_service;
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 
 @end
 

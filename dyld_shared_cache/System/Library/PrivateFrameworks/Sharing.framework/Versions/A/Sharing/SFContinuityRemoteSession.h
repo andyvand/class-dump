@@ -4,27 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, SFDevice, SFSession;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SFContinuityRemoteSession
 {
     _Bool _activateCalled;
-    CDUnknownBlockType _activateHandler;
-    _Bool _invalidateCalled;
-    NSMutableArray *_messageQueue;
-    _Bool _pairVerifyDone;
-    _Bool _pairVerifyRunning;
-    SFSession *_sfSession;
-    _Bool _sfSessionActivated;
-    _Bool _started;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _interruptionHandler;
-    CDUnknownBlockType _invalidationHandler;
-    SFDevice *_peerDevice;
 }
 
-- (void);
+- (void)];
 - (void);
 - (void);
 - (void);
@@ -42,14 +30,11 @@
 - (CDUnknownBlockType);
 - (void);
 - (void)~åþÿ;
-- (void)ingName;
+- (void)SharingName;
 - (void) Wd]ßÿ;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType interruptionHandler; // @synthesize interruptionHandler=_interruptionHandler;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(retain, nonatomic) SFDevice *peerDevice; // @synthesize peerDevice=_peerDevice;
 
 @end
 

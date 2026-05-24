@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID, STSchemaSTHallucinationDetectionEnded, STSchemaSTHallucinationDetectionFailed, STSchemaSTHallucinationDetectionStarted;
+@class STSchemaSTHallucinationDetectionStarted;
 
 @interface STSchemaSTHallucinationDetectionContext : SISchemaInstrumentationMessage
 {
     STSchemaSTHallucinationDetectionStarted *_startedOrChanged;
-    STSchemaSTHallucinationDetectionEnded *_ended;
-    STSchemaSTHallucinationDetectionFailed *_failed;
-    SISchemaUUID *_contextId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    _Bool _hasContextId;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -42,29 +34,20 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)PKCS7_SIGN_ENVELOPE;
+- (unsigned long long)setWithArray: /* Error: Ran out of types for this method. */;
+- (_Bool)roundColor;
+- (_Bool)column madrid_type.;
 - (id);
-- (id);
+- (id);
 - (id)deleteMacOSDevicePropertiesReported;
-- (id)me;
+- (id)_hasResolvedSlotName;
 - (void)ODDDEVICESEGMENTTYPE_UNKNOWN;
 - (void)õç9À=ÿ;
 - (id)w!;
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaUUID *contextId; // @synthesize contextId=_contextId;
-@property(retain, nonatomic) STSchemaSTHallucinationDetectionEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) STSchemaSTHallucinationDetectionFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasContextId; // @synthesize hasContextId=_hasContextId;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) STSchemaSTHallucinationDetectionStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

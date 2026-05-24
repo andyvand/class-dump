@@ -6,13 +6,12 @@
 
 #import <AVKit/AVAirTransport.h>
 
-@class NSInputStream, NSOutputStream, NSString;
+@class NSInputStream;
 
 __attribute__((visibility("hidden")))
 @interface AVAirTransportStreams : AVAirTransport
 {
     NSInputStream *_inputStream;
-    NSOutputStream *_outputStream;
 }
 
 - (_Bool);
@@ -25,24 +24,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (long long);
 - (_Bool);
-- (id);
+- (id)`;
 - (void)tion=QQBdQ@BBB{UIEdgeInsets=dddd}{UIEdgeInsets=dddd}QQd}16;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSInputStream *inputStream; // @synthesize inputStream=_inputStream;
-@property(readonly, nonatomic) NSOutputStream *outputStream; // @synthesize outputStream=_outputStream;
-@property(readonly) Class superclass;
 
 @end
 

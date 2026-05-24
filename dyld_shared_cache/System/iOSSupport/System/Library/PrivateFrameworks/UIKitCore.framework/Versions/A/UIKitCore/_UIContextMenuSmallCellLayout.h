@@ -4,36 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLayoutConstraint, NSString, UIColor, UIHoverStyle, UIShape, UIToolTipInteraction, _UIContextMenuCellContentView;
+@class _UIContextMenuCellContentView;
 
 __attribute__((visibility("hidden")))
 @interface _UIContextMenuSmallCellLayout
 {
     _UIContextMenuCellContentView *_contentView;
-    NSArray *_managedConstraints;
-    NSLayoutConstraint *_firstBaselineConstraint;
-    NSLayoutConstraint *_minHeightConstraint;
-    UIToolTipInteraction *_tooltipInteraction;
 }
 
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)Data"24;
+- (void)24@32@40@48B56@?60;
+- (void)tickerPositionVersion:(id)arg1 stickerExternalURI: /* Error: Ran out of types for this method. */;
+- (void)setIsFinished:(unsigned long long)arg1;
+- (void)markAsSpamForIDs:style:onServices:chatID:queryID:autoReport:isJunkReportedToCarrier: /* Error: Ran out of types for this method. */;
+- (id)initWithArray: /* Error: Ran out of types for this method. */;
+- (id)style:isFiltered:hasHadSuccessfulQuery:engramID:serverChangeToken:cloudKitSyncState:originalGroupID:lastReadMessageTimeStamp:lastMessageTimeStampOnLoad:cloudKitRecordID:isBlackholed:autoDonationBehavior:autoDonationBehaviorLastModificationDate:isRecovered:isDeletingIncomingMessages:domainIdentifiers: /* Error: Ran out of types for this method. */;
+- (id)defaults;
+- (id)conversationManager:removedActiveConversation: /* Error: Ran out of types for this method. */;
 - (long long);
-- (unsigned long long);
-- (void);
-- (id);
-- (long long);
-- (id);
+- (unsigned long long)chatsDeletedWithGUIDs: /* Error: Ran out of types for this method. */;
+- (void)_writeRampStatePromoted:hadServerError: /* Error: Ran out of types for this method. */;
+- (id)_deleteHandleIDFromHandledMap: /* Error: Ran out of types for this method. */;
+- (long long)re;
+- (id),N,V_updatedName;
 - (id);
 - (id);
 - (void)!FùqaÐ1Â0@ù
@@ -45,27 +41,7 @@ __attribute__((visibility("hidden")))
 - (id)w<;
 
 // Remaining properties
-@property(readonly, nonatomic) UIShape *contentShape;
 @property(nonatomic) __weak _UIContextMenuCellContentView *contentView; // @synthesize contentView=_contentView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSLayoutConstraint *firstBaselineConstraint; // @synthesize firstBaselineConstraint=_firstBaselineConstraint;
-@property(readonly, nonatomic) long long focusStyle;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIHoverStyle *hoverStyle;
-@property(readonly, nonatomic) unsigned long long labelMaximumNumberOfLines;
-@property(readonly, nonatomic) long long labelTextAlignment;
-@property(readonly, nonatomic) long long layoutSize;
-@property(retain, nonatomic) NSArray *managedConstraints; // @synthesize managedConstraints=_managedConstraints;
-@property(retain, nonatomic) NSLayoutConstraint *minHeightConstraint; // @synthesize minHeightConstraint=_minHeightConstraint;
-@property(readonly, nonatomic) UIColor *preferredBackgroundColorForCurrentState;
-@property(readonly, nonatomic) UIColor *preferredContentColorForCurrentState;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIToolTipInteraction *tooltipInteraction; // @synthesize tooltipInteraction=_tooltipInteraction;
-@property(readonly, nonatomic) _Bool useContentShapeForSelectionHighlight;
 
 @end
 

@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTUIEnvironment, NSArray, NSString, UICollectionView, UICollectionViewFlowLayout, UIView;
-@protocol AVTAvatarAttributeEditorControllerSubSelectionDelegate, AVTAvatarAttributeEditorSection;
+@class UIView;
+@protocol AVTAvatarAttributeEditorControllerSubSelectionDelegate;
 
 @interface AVTAvatarAttributeEditorMulticolorSectionPickerController
 {
     id <AVTAvatarAttributeEditorControllerSubSelectionDelegate> _delegate;
-    id <AVTAvatarAttributeEditorSection> _section;
-    long long _selectedIndex;
-    UIView *_containerView;
-    AVTUIEnvironment *_environment;
-    UICollectionView *_collectionView;
-    UICollectionViewFlowLayout *_flowLayout;
-    double _currentOffsetX;
-    NSArray *_cachedTitleSizes;
 }
 
 + (_Bool);
@@ -49,7 +41,7 @@
 - (double);
 - (struct CGSize);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -57,43 +49,29 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
-- (long long);
+- (long long)zerProcs;
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)%s kAKSTestRewrapEK failed with 0x%x%s
+;
 - (struct CGSize);
-- (id);
+- (id)deleteAllSearchableItemsWithBundleID:protectionClass:shouldGC:deleteAllReason:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)connectionIdentifiers;
+- (long long)Error"8@"NSArray"16;
 - (void);
+- (void)0;
 - (long long);
+- (id);
+- (void);
 - (void);
-- (void);
-- (long long);
-- (id);
-- (void);
-- (void);
-- (id)ldResizeHeaderForScrolling;
-- (id)OfItemAtPath:(id)arg1 error:(id)arg2;
+- (id)shouldResizeHeaderForScrolling;
+- (id)attributesOfItemAtPath:(id)arg1 error:(id)arg2;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *cachedTitleSizes; // @synthesize cachedTitleSizes=_cachedTitleSizes;
-@property(retain, nonatomic) UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
 @property(retain, nonatomic) UIView *containerView; // @synthesize containerView=_containerView;
-@property(nonatomic) double currentOffsetX; // @synthesize currentOffsetX=_currentOffsetX;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AVTAvatarAttributeEditorControllerSubSelectionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) AVTUIEnvironment *environment; // @synthesize environment=_environment;
-@property(retain, nonatomic) UICollectionViewFlowLayout *flowLayout; // @synthesize flowLayout=_flowLayout;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <AVTAvatarAttributeEditorSection> section; // @synthesize section=_section;
-@property(nonatomic) long long selectedIndex; // @synthesize selectedIndex=_selectedIndex;
-@property(readonly) Class superclass;
 
 @end
 

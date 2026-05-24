@@ -19,13 +19,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)@;
 - (_Bool);
 - (void);
 

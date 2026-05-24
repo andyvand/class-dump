@@ -4,44 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDAddressResultSubTypeFilter, GEOPDPoiIconCategoryFilter, GEOPDSBrandFilter, GEOPDSCategoryFilter, GEOPDSImplicitQueryCategoryFilter, GEOPDSSearchVenueFilter, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSSearchFilter
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_95bda58d _resultTypeFilters;
-    GEOPDAddressResultSubTypeFilter *_addressResultSubTypeFilter;
-    GEOPDSBrandFilter *_brandFilter;
-    GEOPDSCategoryFilter *_categoryFilter;
-    GEOPDSImplicitQueryCategoryFilter *_implictQueryCategoryFilter;
-    GEOPDPoiIconCategoryFilter *_poiIconCategoryFilter;
-    GEOPDSSearchVenueFilter *_venueFilter;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _searchIntentFilter;
-    _Bool _isStrictMapRegion;
-    struct {
-        unsigned int has_searchIntentFilter:1;
-        unsigned int has_isStrictMapRegion:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_resultTypeFilters:1;
-        unsigned int read_addressResultSubTypeFilter:1;
-        unsigned int read_brandFilter:1;
-        unsigned int read_categoryFilter:1;
-        unsigned int read_implictQueryCategoryFilter:1;
-        unsigned int read_poiIconCategoryFilter:1;
-        unsigned int read_venueFilter:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (void);
-- (id);
+- (id)@;
 - (void);
-- (id);
+- (id)assetOfType:language:compatibilityVersion:completion: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);

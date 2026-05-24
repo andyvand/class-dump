@@ -4,11 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSIndexSet;
+
 @protocol _NSCollectionViewLayoutOrthogonalScrolling
+- (double)bytes used = %d);
+- (_Bool)Invalid bytes count (%lu), nodes count (%lu) or maps count (%lu);
+- (_Bool)s;
+- (double)null trie, no prefix/leaf count or no byte count;
+- (struct _NSOrthogonalScrollingContentInsets)Got an invalid response from nehelper;
+- (int);
+- (NSArray *))-;
+- (_Bool)Z;
+- (NSIndexSet *)+	;
 - (void)ñß31Â0@ù
 × ;
-- (struct CGRect);
-- (struct CGRect)nnectionByURL;
+- (struct CGRect)setEnrollmentIdentifiers:(long long)arg1;
+- (struct CGRect)_activeConnectionByURL;
 - (_Bool)&;
+- (_Bool);
 @end
 

@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 + (_Bool)ÐZ;
 - (void);
-- (id);
+- (id)url;
 - (id);
 - (id);
 - (_Bool);

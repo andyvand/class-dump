@@ -7,7 +7,6 @@
 @interface NewsArticles.CompositeTrackPlayerItem
 {
     id playerItem;
-    id boundaryOverride;
 }
 
 @end

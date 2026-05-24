@@ -4,34 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, _QLCacheThread;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface QLDiskCacheQueryOperation
 {
     NSMutableDictionary *_thumbnailRequestBatch;
-    long long _thumbnailRequestCount;
-    _QLCacheThread *_cacheThread;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
-- (long long);
+- (long long)ModelQueueFeederDiffing;
+- (id)SIM Message Errors;
+- (void)L_END_REASON_MediaError*;
+- (void)l KPI;
+- (_Bool)S�;
+- (void)59;
+- (void);
 - (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
 - (id);
-- (id);
+- (void)H;
 - (void);
-- (void);
-- (void);
+- (void)(=;
 
 // Remaining properties
-@property(retain) _QLCacheThread *cacheThread; // @synthesize cacheThread=_cacheThread;
 @property(retain) NSMutableDictionary *thumbnailRequestBatch; // @synthesize thumbnailRequestBatch=_thumbnailRequestBatch;
-@property long long thumbnailRequestCount; // @synthesize thumbnailRequestCount=_thumbnailRequestCount;
 
 @end
 

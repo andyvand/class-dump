@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface IMCommSafetySummaryImage
 {
     NSString *_identifier;
-    NSData *_imageData;
 }
 
-- (id);
+- (id)dio transmitter's _audioPayloads=%p (count=%lu);
 - (id);
 - (id);
 - (void)p;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSData *imageData; // @synthesize imageData=_imageData;
 
 @end
 

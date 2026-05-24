@@ -10,29 +10,27 @@
 @interface CSVoiceTriggerXPCClient
 {
     id <CSVoiceTriggerXPCClientDelegate> _delegate;
-    NSObject<OS_xpc_object> *_xpcConnection;
 }
 
 - (void);
-- (id);
+- (id)DelayInSeconds;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void)nyAlLcPFNcKhgoNCmy9b5BRWyk;
+- (void);
+- (void);
 - (void);
 - (void);
+- (id)_;
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (void)iveStarted: /* Error: Ran out of types for this method. */;
 - (void)r clients are running;
 
 // Remaining properties
-@property(nonatomic) __weak id <CSVoiceTriggerXPCClientDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) NSObject<OS_xpc_object> *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
 
 @end

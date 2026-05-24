@@ -4,60 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, RTDefaultsManager;
-
 @interface RTWorkoutSchedulerMetricsTask
 {
     unsigned long long _memoryFootprintAtStart;
-    unsigned long long _memoryFootprintAtFinish;
-    unsigned long long _currentNAtFinish;
-    unsigned long long _currentNAtStart;
-    NSDate *_taskStart;
-    NSDate *_taskFinish;
-    unsigned long long _taskType;
-    unsigned long long _taskRunDailyCount;
-    long long _totalNAtStart;
-    RTDefaultsManager *_defaultsManager;
 }
 
 + (unsigned long long);
-+ (id);
++ (id)ng %@ step %@%s;
 - (long long);
 - (id);
+- (unsigned long long)9?;
+- (unsigned long long);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (unsigned long long);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
-- (unsigned long long);
-- (void);
-- (id)ng5MinPlusWait;
+- (unsigned long long)recovery;
+- (void)B;
+- (id)BlueSkyDailyNumSyncsRequiring5MinPlusWait;
 - (void)s device is not active and Zelkova RemoteControl is not enabled; skip and do nothing;
 - (unsigned long long)onitoring after exiting a visit;
 
 // Remaining properties
-@property(nonatomic) unsigned long long currentNAtFinish; // @synthesize currentNAtFinish=_currentNAtFinish;
-@property(nonatomic) unsigned long long currentNAtStart; // @synthesize currentNAtStart=_currentNAtStart;
-@property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(nonatomic) unsigned long long memoryFootprintAtFinish; // @synthesize memoryFootprintAtFinish=_memoryFootprintAtFinish;
 @property(nonatomic) unsigned long long memoryFootprintAtStart; // @synthesize memoryFootprintAtStart=_memoryFootprintAtStart;
-@property(retain, nonatomic) NSDate *taskFinish; // @synthesize taskFinish=_taskFinish;
-@property(nonatomic) unsigned long long taskRunDailyCount; // @synthesize taskRunDailyCount=_taskRunDailyCount;
-@property(retain, nonatomic) NSDate *taskStart; // @synthesize taskStart=_taskStart;
-@property(nonatomic) unsigned long long taskType; // @synthesize taskType=_taskType;
-@property(nonatomic) long long totalNAtStart; // @synthesize totalNAtStart=_totalNAtStart;
 
 @end
 

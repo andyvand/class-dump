@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSURL, NSUUID;
+@class NSDate;
 
 @interface PPSSignpostServiceRequest
 {
     int _type;
-    NSDate *_endDate;
-    NSURL *_sourceURL;
-    NSDate *_startDate;
-    NSUUID *_uuid;
 }
 
-+ (_Bool);
++ (_Bool),;
 - (id);
 - (id);
-- (id);
+- (id)etails window isn't nil, dismissing;
 - (void);
 - (id);
 - (int);
@@ -26,17 +22,14 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)1*J
+;
 - (id);
-- (void);
+- (void)W;
 - (void);
 
 // Remaining properties
 @property(retain) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(retain) NSURL *sourceURL; // @synthesize sourceURL=_sourceURL;
-@property(retain) NSDate *startDate; // @synthesize startDate=_startDate;
-@property int type; // @synthesize type=_type;
-@property(readonly) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

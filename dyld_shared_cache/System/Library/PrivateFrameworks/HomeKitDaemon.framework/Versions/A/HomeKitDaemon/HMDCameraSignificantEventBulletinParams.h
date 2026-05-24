@@ -4,40 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSSet, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraSignificantEventBulletinParams
 {
     NSUUID *_UUID;
-    unsigned long long _reason;
-    NSDate *_dateOfOccurrence;
-    unsigned long long _confidenceLevel;
-    NSSet *_faceClassifications;
-    NSUUID *_cameraProfileUUID;
-    NSUUID *_clipUUID;
 }
 
 - (id);
 - (id);
 - (id);
+- (id)setRetryCount: /* Error: Ran out of types for this method. */;
+- (id)setNumberOfYearHighlights: /* Error: Ran out of types for this method. */;
+- (id)setNumberOfMeaningfulMomentsActivityHiking: /* Error: Ran out of types for this method. */;
+- (unsigned long long)Cursor scaleFactor %f scaled width %ld scaled height %ld;
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (unsigned long long)geKeyOperationType;
+- (unsigned long long)HMDCharacteristicEventReportMessageKeyOperationType;
 - (void);
 
 // Remaining properties
 @property(readonly, copy) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(readonly, copy) NSUUID *cameraProfileUUID; // @synthesize cameraProfileUUID=_cameraProfileUUID;
-@property(readonly, copy) NSUUID *clipUUID; // @synthesize clipUUID=_clipUUID;
-@property(readonly) unsigned long long confidenceLevel; // @synthesize confidenceLevel=_confidenceLevel;
-@property(readonly, copy) NSDate *dateOfOccurrence; // @synthesize dateOfOccurrence=_dateOfOccurrence;
-@property(readonly, copy) NSSet *faceClassifications; // @synthesize faceClassifications=_faceClassifications;
-@property(readonly) unsigned long long reason; // @synthesize reason=_reason;
 
 @end
 

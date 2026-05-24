@@ -23,15 +23,15 @@ __attribute__((visibility("hidden")))
 - (struct __CFDictionary *);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
+- (id)uments are no longer supported):%@ /* Error: Ran out of types for this method. */;
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (void)ae!ØEùqä1Â0@ù
 × ;

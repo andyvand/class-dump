@@ -6,7 +6,7 @@
 
 #import <TrialProto/TRIPBMessage.h>
 
-@class NSString, TRIPBUInt32Array;
+@class NSString;
 
 @interface TRIClientSelectedNamespace : TRIPBMessage
 {
@@ -15,9 +15,6 @@
 + (id);
 
 // Remaining properties
-@property(retain, nonatomic) TRIPBUInt32Array *compatibilityVersionArray; // @dynamic compatibilityVersionArray;
-@property(readonly, nonatomic) unsigned long long compatibilityVersionArray_Count; // @dynamic compatibilityVersionArray_Count;
-@property(nonatomic) _Bool hasName; // @dynamic hasName;
 @property(copy, nonatomic) NSString *name; // @dynamic name;
 
 @end

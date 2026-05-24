@@ -6,26 +6,15 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class AMSDialogRequest, AMSDialogResult;
+@class AMSDialogResult;
 
 @interface AMSSystemAlertDialogTask : AMSTask
 {
     _Bool _dismissOnHomeButton;
-    _Bool _dismissOnLock;
-    _Bool _shouldDismissAfterUnlock;
-    _Bool _shouldDisplayAsTopMost;
-    _Bool _shouldPendInSetupIfNotAllowed;
-    _Bool _displaysOnLockscreen;
-    _Bool _isDialogDismissalEnabled;
-    AMSDialogRequest *_request;
-    AMSDialogResult *_autoDismissResult;
-    long long _defaultButtonIndex;
-    long long _unlockActionButtonIndex;
-    struct __CFUserNotification *_userNotification;
 }
 
 - (struct __CFUserNotification *);
-- (long long);
+- (long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -47,11 +36,11 @@
 - (struct __CFUserNotification *);
 - (id);
 - (id);
-- (void);
+- (void)A;
 - (struct __CFDictionary *);
 - (void);
 - (long long);
-- (id);
+- (id)sed,V_paused;
 - (id)or value is of the wrong type. key = %{public}@ | value = %{public}@;
 - (void)¶­ úqIhRÐºÙ±¡¨õì<V5]ìçK3V0·ÄnkÏ÷ÚôH+C²¯{Sv`êÄçÏ3.wFpSk·Ï²Ü +toS;^8md4N-U¸¢Á	ñêxRqYI!@*µ®ÔþÝõNx[sÿ'
 $³®Ú´×¿cKnH
@@ -63,17 +52,6 @@ oß¾²·ZìÑx)n+MYô#Wx9s}·Æ<ÏÅñtKñ:%`oß,Þý?XàÉ±ÌV Î%«M
 
 // Remaining properties
 @property(retain) AMSDialogResult *autoDismissResult; // @synthesize autoDismissResult=_autoDismissResult;
-@property long long defaultButtonIndex; // @synthesize defaultButtonIndex=_defaultButtonIndex;
-@property _Bool dismissOnHomeButton; // @synthesize dismissOnHomeButton=_dismissOnHomeButton;
-@property _Bool dismissOnLock; // @synthesize dismissOnLock=_dismissOnLock;
-@property _Bool displaysOnLockscreen; // @synthesize displaysOnLockscreen=_displaysOnLockscreen;
-@property _Bool isDialogDismissalEnabled; // @synthesize isDialogDismissalEnabled=_isDialogDismissalEnabled;
-@property(readonly) AMSDialogRequest *request; // @synthesize request=_request;
-@property _Bool shouldDismissAfterUnlock; // @synthesize shouldDismissAfterUnlock=_shouldDismissAfterUnlock;
-@property _Bool shouldDisplayAsTopMost; // @synthesize shouldDisplayAsTopMost=_shouldDisplayAsTopMost;
-@property _Bool shouldPendInSetupIfNotAllowed; // @synthesize shouldPendInSetupIfNotAllowed=_shouldPendInSetupIfNotAllowed;
-@property long long unlockActionButtonIndex; // @synthesize unlockActionButtonIndex=_unlockActionButtonIndex;
-@property struct __CFUserNotification *userNotification; // @synthesize userNotification=_userNotification;
 
 @end
 

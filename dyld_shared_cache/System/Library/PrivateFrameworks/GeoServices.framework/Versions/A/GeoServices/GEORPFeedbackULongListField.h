@@ -9,59 +9,47 @@
 @interface GEORPFeedbackULongListField
 {
     PBDataReader *_reader;
-    CDStruct_62a50c50 _addeds;
-    CDStruct_62a50c50 _originals;
-    CDStruct_62a50c50 _removeds;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    CDStruct_c0dca870 _flags;
 }
 
-+ (_Bool)ocationTimestamp:(id)arg1;
++ (_Bool)setLastDetectedLocationTimestamp:(id)arg1;
 - (void);
 - (void);
-- (void);
+- (void)contactMembershipPredicate;
+- (unsigned long long)eComponents",&,D,N;
+- (unsigned long long *)ns;
 - (unsigned long long);
 - (unsigned long long *);
 - (unsigned long long);
+- (void);
+- (void);
+- (void);
+- (unsigned long long)2r;
 - (unsigned long long *);
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long *);
-- (unsigned long long);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)trailingPktSpeechLatencies;
+- (void)CSCoreSpeechDaemonStateMonitorDelegate;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id)nyField"b1};
-- (id)pdateable: /* Error: Ran out of types for this method. */;
+- (id)cameraInfosForGeoWaypointRoute:coordinates:updateable: /* Error: Ran out of types for this method. */;
 - (id)¤;
-- (id)EPT;
+- (id)ACCEPT;
 - (void)Î_í¢N@;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long *addeds;
 @property(readonly, nonatomic) unsigned long long addedsCount;
-@property(readonly, nonatomic) unsigned long long *originals;
-@property(readonly, nonatomic) unsigned long long originalsCount;
-@property(readonly, nonatomic) unsigned long long *removeds;
-@property(readonly, nonatomic) unsigned long long removedsCount;
 
 @end
 

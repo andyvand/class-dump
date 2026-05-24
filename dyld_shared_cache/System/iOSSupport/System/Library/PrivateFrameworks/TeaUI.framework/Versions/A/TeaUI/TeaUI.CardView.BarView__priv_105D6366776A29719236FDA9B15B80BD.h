@@ -10,15 +10,14 @@
 {
 }
 
-- (id);
+- (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id)utMargins;
+- (void);
+- (id)subscribeClickValueBaseline;
+- (id)unadjustedLayoutMargins;
 
 // Remaining properties
-@property(nonatomic, copy) NSString *accessibilityHint;
 @property(nonatomic, copy) NSString *accessibilityLabel;
 
 @end

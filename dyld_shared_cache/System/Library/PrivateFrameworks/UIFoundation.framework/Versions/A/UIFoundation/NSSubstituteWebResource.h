@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURL;
+@class NSData;
 
 @interface NSSubstituteWebResource
 {
     NSData *_data;
-    NSURL *_url;
-    NSString *_mimeType;
-    NSString *_textEncodingName;
-    NSString *_frameName;
 }
 
 - (id);
 - (id);
 - (id);
-- (Class);
+- (Class);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void);
+- (id)h;
+- (id)treaksapp.streak;
 
 @end
 

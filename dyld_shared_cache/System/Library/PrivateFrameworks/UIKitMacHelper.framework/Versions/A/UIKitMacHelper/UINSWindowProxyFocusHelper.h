@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UINSWindowProxy;
-
 __attribute__((visibility("hidden")))
 @interface UINSWindowProxyFocusHelper
 {
@@ -19,8 +17,6 @@ __attribute__((visibility("hidden")))
         unsigned int isUpdatingKeyWindowsAndResponders:1;
         unsigned int isApplicationActive:1;
     } _flags;
-    UINSWindowProxy *_windowProxyIvar;
-    CDUnknownBlockType __deferredWindowDidBecomeKey;
 }
 
 - (void);
@@ -32,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)+;
 - (void);
 - (void);
 - (void);
@@ -55,9 +51,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)setCharge_duration_p_0_25_at_charge_start_secs_curr_dynamic_bin_2:(id)arg1;
+- (void)initWithAccountInfoProvider:(id)arg1 inboxURL:urlToAdd:suffixToFilterOut:taskManager: /* Error: Ran out of types for this method. */;
+- (void)P;
 - (void)@ù
 × ;
 - (void)Foreground:(id)arg1 ];

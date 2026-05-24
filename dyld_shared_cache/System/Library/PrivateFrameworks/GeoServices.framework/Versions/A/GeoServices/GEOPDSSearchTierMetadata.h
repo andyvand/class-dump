@@ -10,23 +10,15 @@ __attribute__((visibility("hidden")))
 @interface GEOPDSSearchTierMetadata
 {
     PBUnknownFields *_unknownFields;
-    unsigned int _endIndex;
-    unsigned int _startIndex;
-    int _tierType;
-    struct {
-        unsigned int has_endIndex:1;
-        unsigned int has_startIndex:1;
-        unsigned int has_tierType:1;
-    } _flags;
 }
 
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)?;
 - (_Bool);
 - (id)"wrote_anyField"b1};
-- (id)ClientEntry;
+- (id)_pdClientEntry;
 - (id)ÔP¤QRXSØS¨TèTVX;
 - (void);
 

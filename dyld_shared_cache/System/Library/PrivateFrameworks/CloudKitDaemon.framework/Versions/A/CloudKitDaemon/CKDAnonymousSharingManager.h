@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDContainer, CKDZonePCSData, NSObject;
-@protocol OS_dispatch_queue;
+@class CKDContainer;
 
 @interface CKDAnonymousSharingManager
 {
     CKDContainer *_container;
-    CKDZonePCSData *_zonePCSData;
-    NSObject<OS_dispatch_queue> *_synchronizeQueue;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)@;
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)v92@0:8@16@24@32{IMPreviewConstraints=d{CGSize=dd}dBBB}40@?80B88 /* Error: Ran out of types for this method. */;
 - (id)e;
 - (id)ÔtÖ×;
 - (void)ivate OON key exists for participant %@;
@@ -32,8 +29,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) __weak CKDContainer *container; // @synthesize container=_container;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *synchronizeQueue; // @synthesize synchronizeQueue=_synchronizeQueue;
-@property(retain, nonatomic) CKDZonePCSData *zonePCSData; // @synthesize zonePCSData=_zonePCSData;
 
 @end
 

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSColor, NSMutableArray, NSString, NSUUID, PDFDocument;
+@class NSArray, PDFDocument;
 
 @interface PDFSelection
 {
     PDFDocument *_document;
-    NSColor *_color;
-    NSMutableArray *_pageRanges;
-    _Bool _forceBreaks;
-    struct __CFArray *_cgSelections;
-    NSMutableArray *_pages;
-    NSUUID *_pdfSelectionUUID;
 }
 
 + (id);
@@ -70,11 +64,11 @@
 - (void);
 - (struct CGRect);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)parseUnicodeCharacter:count: /* Error: Ran out of types for this method. */;
+- (id)setNeedsiTunesMultiUserRepair:(id)arg1;
+- (id)setMetadata:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)setHasSupportsManagedConfigurationProfile:(id)arg1;
+- (id)accessoryEventTopicSuffixID;
 - (id);
 - (void);
 - (id);
@@ -87,13 +81,10 @@
 - (_Bool);
 - (long long);
 - (void);
-- (id);
+- (id)@@9I;
 
 // Remaining properties
-@property(readonly, nonatomic) NSAttributedString *attributedString;
-@property(copy, nonatomic) NSColor *color;
 @property(readonly, nonatomic) NSArray *pages;
-@property(readonly, nonatomic) NSString *string;
 
 @end
 

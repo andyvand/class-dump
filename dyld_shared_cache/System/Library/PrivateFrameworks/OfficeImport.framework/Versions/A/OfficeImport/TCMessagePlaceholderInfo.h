@@ -8,10 +8,9 @@ __attribute__((visibility("hidden")))
 @interface TCMessagePlaceholderInfo
 {
     id mKey;
-    _Bool mInUse;
 }
 
-- (id);
+- (id)B;
 - (_Bool);
 - (void);
 - (id);

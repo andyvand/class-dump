@@ -6,14 +6,9 @@
 
 #import <ClassroomKit/CRKClassKitFacadeDecoratorBase.h>
 
-@class CRKClassKitCurrentUserProvider, NSMutableArray;
-
 @interface CRKDynamicDataObserverClassKitFacade : CRKClassKitFacadeDecoratorBase
 {
     _Bool _dataObserversAreRegistered;
-    long long _expectedUserRole;
-    CRKClassKitCurrentUserProvider *_currentUserProvider;
-    NSMutableArray *_dataObservers;
 }
 
 + (id);
@@ -22,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (long long);
 - (void);
@@ -37,9 +32,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CRKClassKitCurrentUserProvider *currentUserProvider; // @synthesize currentUserProvider=_currentUserProvider;
-@property(readonly, nonatomic) NSMutableArray *dataObservers; // @synthesize dataObservers=_dataObservers;
-@property(nonatomic) _Bool dataObserversAreRegistered; // @synthesize dataObserversAreRegistered=_dataObserversAreRegistered;
 @property(readonly, nonatomic) long long expectedUserRole; // @synthesize expectedUserRole=_expectedUserRole;
 
 @end

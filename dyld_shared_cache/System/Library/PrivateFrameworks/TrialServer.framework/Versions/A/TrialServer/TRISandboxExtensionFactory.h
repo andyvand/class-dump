@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)deserializeDictionary:(id)arg1 toFilters:(unsigned char)arg2 portraitMetadata:error: /* Error: Ran out of types for this method. */;
 
 @end
 

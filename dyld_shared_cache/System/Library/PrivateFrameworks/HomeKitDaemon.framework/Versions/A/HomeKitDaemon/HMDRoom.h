@@ -4,30 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDApplicationData, HMDHome, HMFMessageDispatcher, NSArray, NSDictionary, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface HMDRoom
 {
     struct os_unfair_lock_s _lock;
-    NSString *_name;
-    NSUUID *_uuid;
-    NSUUID *_spiClientIdentifier;
-    HMDHome *_home;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMFMessageDispatcher *_msgDispatcher;
-    HMDApplicationData *_appData;
 }
 
-+ (id);
++ (id)enumerateIdentifiersWithBlock:(id)arg1;
 + (_Bool)Ü½<¾L¿;
 + (id)}B;
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)EONavigationListener"16Q24;
+- (id)_loadStoredSessions;
 - (void);
 - (void);
 - (void);
@@ -37,17 +29,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)RemoteIPPort;
+- (id)en:(id)arg1 %zu;
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id)or:(long long)arg1;
+- (id)regularExpressionWithPattern:(long long)arg1 options:error: /* Error: Ran out of types for this method. */;
 - (void)¨;
 - (id)moved;
 - (id)isting invitation %@ with the new incoming from account %@ for home %@;
@@ -63,30 +55,7 @@ __attribute__((visibility("hidden")))
 - (id)>;
 
 // Remaining properties
-@property(retain, nonatomic) HMDApplicationData *appData; // @synthesize appData=_appData;
-@property(readonly, copy) NSDictionary *assistantObject;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak HMDHome *home; // @synthesize home=_home;
 @property(nonatomic, readonly) NSArray *lpAccessories;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(retain, nonatomic) HMFMessageDispatcher *msgDispatcher; // @synthesize msgDispatcher=_msgDispatcher;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSString *serializedIdentifier;
-@property(readonly, copy) NSUUID *spiClientIdentifier; // @synthesize spiClientIdentifier=_spiClientIdentifier;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSString *urlString;
-@property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
-@property(readonly, copy) NSArray *zones;
 
 @end
 

@@ -7,11 +7,9 @@
 @class NSData;
 
 @protocol _SFPBPhotosAggregatedInfo
+- (NSData *)DataURL;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int totalNumberOfAssets;
-@property(nonatomic) int totalNumberOfEmbeddingMatchedAssets;
-@property(nonatomic) int totalNumberOfMetadataMatchedAssets;
 @end
 

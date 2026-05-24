@@ -12,14 +12,15 @@
 
 - (id);
 - (id);
-- (id);
+- (id)A;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)evice info and build identity
+;
 - (void)PÀ;
 
 @end

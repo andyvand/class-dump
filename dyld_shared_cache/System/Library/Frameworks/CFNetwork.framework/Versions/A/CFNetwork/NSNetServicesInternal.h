@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
-@protocol OS_tcp_listener;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface NSNetServicesInternal
 {
     NSMutableArray *_monitors;
-    NSObject<OS_tcp_listener> *_listener;
-    struct __CFRunLoop *_scheduledRunLoop;
-    struct __CFString *_scheduledMode;
 }
 
-- (void);
+- (void)YV9ugORKvqpngzP57BMNeee8E/Library/Caches/com.apple.xbs/TemporaryDirectory.apq7lo/Sources/CoreGraphics/CoreGraphics/PDF/Functions/type4-program.c;
 
 @end
 

@@ -8,10 +8,9 @@ __attribute__((visibility("hidden")))
 @interface MFPGraphicsState
 {
     struct CGAffineTransform mPageTransform;
-    struct CGAffineTransform mWorldTransform;
 }
 
-- (struct CGAffineTransform);
+- (struct CGAffineTransform);
 - (void);
 - (void);
 - (struct CGAffineTransform);

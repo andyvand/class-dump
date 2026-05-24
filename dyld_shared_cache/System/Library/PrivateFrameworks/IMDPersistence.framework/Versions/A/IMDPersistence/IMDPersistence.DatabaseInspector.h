@@ -7,23 +7,6 @@
 @interface IMDPersistence.DatabaseInspector
 {
     id countedAttachmentDirectories;
-    id sharedAttachmentCount;
-    id databaseContext;
-    id orphanedAttachmentTable;
-    id chatCount;
-    id parentedHandleRowIDs;
-    id orphanedHandleRowIDs;
-    id handleRowIDsParentedByOrphanedMessages;
-    id inspectionReport;
-    id chatTableInspectionReport;
-    id handleTableInspectionReport;
-    id deletedMessagesTableInspectionReport;
-    id messageTableInspectionReport;
-    id attachmentTableInspectionReport;
-    id messageAttachmentJoinInspectionReport;
-    id chatHandleJoinInspectionReport;
-    id chatMessageJoinInspectionReport;
-    id allReports;
 }
 
 @end

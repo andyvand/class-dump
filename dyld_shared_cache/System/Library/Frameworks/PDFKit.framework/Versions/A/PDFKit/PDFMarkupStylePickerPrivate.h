@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PDFAnnotation;
-@protocol PDFMarkupStylePickerDelegate;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface PDFMarkupStylePickerPrivate
 {
     NSArray *markupStyles;
-    id <PDFMarkupStylePickerDelegate> delegate;
-    PDFAnnotation *annotation;
 }
 
 - (void);

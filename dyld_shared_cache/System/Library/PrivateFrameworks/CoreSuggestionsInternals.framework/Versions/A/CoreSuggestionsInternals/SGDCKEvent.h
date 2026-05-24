@@ -4,36 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSString, SGDCKInteractionInfo, SGDCKTimeRange;
-
 @interface SGDCKEvent
 {
     double _creationTimestamp;
-    double _lastModifiedTimestamp;
-    long long _parentEntityType;
-    int _categoryType;
-    NSString *_content;
-    NSString *_domain;
-    NSString *_extraKey;
-    NSString *_groupId;
-    SGDCKInteractionInfo *_interactionInfo;
-    NSMutableArray *_locations;
-    NSData *_metadata;
-    NSData *_schemaOrg;
-    NSString *_sourceKey;
-    NSString *_templateName;
-    NSString *_title;
-    SGDCKTimeRange *_when;
-    _Bool _allDay;
-    _Bool _cancelled;
-    struct {
-        unsigned int creationTimestamp:1;
-        unsigned int lastModifiedTimestamp:1;
-        unsigned int parentEntityType:1;
-        unsigned int categoryType:1;
-        unsigned int allDay:1;
-        unsigned int cancelled:1;
-    } _has;
 }
 
 + (Class);
@@ -43,12 +16,12 @@
 - (void);
 - (void);
 - (void);
+- (void)*=;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (double);
+- (id)];
+- (double)libicucore.A.dylib;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -57,43 +30,43 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (int);
-- (id);
-- (_Bool);
-- (id);
-- (void);
+- (id)ebView"16@"WKSecurityOrigin"24@"WKFrameInfo"32q40@?<v@?q>48;
+- (_Bool)headerLogoWithDetails;
+- (_Bool)headerGenericAccount;
+- (int)dislaimerLabel;
+- (id)control:textView:completions:forPartialWordRange:indexOfSelectedItem: /* Error: Ran out of types for this method. */;
+- (_Bool)constraintWithItem:attribute:relatedBy:toItem:attribute:multiplier:constant: /* Error: Ran out of types for this method. */;
+- (id)View]-(0@749)-|;
+- (void);
 - (long long);
 - (void);
 - (_Bool);
 - (void);
-- (unsigned long long);
+- (unsigned long long)]DzIuI;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)__objc_stubs;
 - (double);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
-- (int);
+- (int)B;
 - (_Bool);
 - (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (void)Q56;
+- (_Bool)bracePair;
 - (_Bool);
 - (id);
+- (id);
+- (id);
+- (_Bool);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -101,54 +74,20 @@
 - (id);
 - (id);
 - (id);
+- (void)H;
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
+- (_Bool)";
+- (void)edDataclasses! %@ %@";
+- (id)_KSRequestThrottle;
 - (id)d}16{SGUnixTimestamp_=d}24Q32;
-- (_Bool)chableItemIsEligibleForHarvestingWithGetterBlock:bundleIdentifier:eligibleExceptForAge: /* Error: Ran out of types for this method. */;
-- (void)priate:(id)arg1 nameToVertex:disjointSets:edges: /* Error: Ran out of types for this method. */;
+- (_Bool)searchableItemIsEligibleForHarvestingWithGetterBlock:bundleIdentifier:eligibleExceptForAge: /* Error: Ran out of types for this method. */;
+- (void)_linkNamelessPhonesIfAppropriate:(id)arg1 nameToVertex:disjointSets:edges: /* Error: Ran out of types for this method. */;
 - (void)tý;
 - (void)ØX;
 - (void)HERE duplicateKey = ?;
 
 // Remaining properties
-@property(nonatomic) _Bool allDay; // @synthesize allDay=_allDay;
-@property(nonatomic) _Bool cancelled; // @synthesize cancelled=_cancelled;
-@property(nonatomic) int categoryType; // @synthesize categoryType=_categoryType;
-@property(retain, nonatomic) NSString *content; // @synthesize content=_content;
-@property(nonatomic) double creationTimestamp; // @synthesize creationTimestamp=_creationTimestamp;
-@property(retain, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(retain, nonatomic) NSString *extraKey; // @synthesize extraKey=_extraKey;
-@property(retain, nonatomic) NSString *groupId; // @synthesize groupId=_groupId;
-@property(nonatomic) _Bool hasAllDay;
-@property(nonatomic) _Bool hasCancelled;
-@property(nonatomic) _Bool hasCategoryType;
-@property(readonly, nonatomic) _Bool hasContent;
-@property(nonatomic) _Bool hasCreationTimestamp;
-@property(readonly, nonatomic) _Bool hasDomain;
-@property(readonly, nonatomic) _Bool hasExtraKey;
 @property(readonly, nonatomic) _Bool hasGroupId;
-@property(readonly, nonatomic) _Bool hasInteractionInfo;
-@property(nonatomic) _Bool hasLastModifiedTimestamp;
-@property(readonly, nonatomic) _Bool hasMetadata;
-@property(nonatomic) _Bool hasParentEntityType;
-@property(readonly, nonatomic) _Bool hasSchemaOrg;
-@property(readonly, nonatomic) _Bool hasSourceKey;
-@property(readonly, nonatomic) _Bool hasTemplateName;
-@property(readonly, nonatomic) _Bool hasTitle;
-@property(readonly, nonatomic) _Bool hasWhen;
-@property(retain, nonatomic) SGDCKInteractionInfo *interactionInfo; // @synthesize interactionInfo=_interactionInfo;
-@property(nonatomic) double lastModifiedTimestamp; // @synthesize lastModifiedTimestamp=_lastModifiedTimestamp;
-@property(retain, nonatomic) NSMutableArray *locations; // @synthesize locations=_locations;
-@property(retain, nonatomic) NSData *metadata; // @synthesize metadata=_metadata;
-@property(nonatomic) long long parentEntityType; // @synthesize parentEntityType=_parentEntityType;
-@property(retain, nonatomic) NSData *schemaOrg; // @synthesize schemaOrg=_schemaOrg;
-@property(retain, nonatomic) NSString *sourceKey; // @synthesize sourceKey=_sourceKey;
-@property(retain, nonatomic) NSString *templateName; // @synthesize templateName=_templateName;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
-@property(retain, nonatomic) SGDCKTimeRange *when; // @synthesize when=_when;
 
 @end
 

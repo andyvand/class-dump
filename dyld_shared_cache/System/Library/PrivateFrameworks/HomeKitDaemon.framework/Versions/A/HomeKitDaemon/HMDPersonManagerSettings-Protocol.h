@@ -4,7 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMIHomePersonManagerSettings, HMPhotosPersonManagerSettings;
+
 @protocol HMDPersonManagerSettings
+- (HMPhotosPersonManagerSettings *);
+- (HMIHomePersonManagerSettings *);
 
 // Remaining properties
 @property(readonly) _Bool requiresPersistentStorage;

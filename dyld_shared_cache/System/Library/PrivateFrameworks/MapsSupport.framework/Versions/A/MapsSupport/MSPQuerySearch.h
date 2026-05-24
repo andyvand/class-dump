@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapRegion, NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface MSPQuerySearch
 {
     PBUnknownFields *_unknownFields;
-    NSString *_language;
-    NSString *_locationDisplayString;
-    GEOMapRegion *_mapRegion;
-    NSString *_query;
 }
 
 - (void);
-- (id);
+- (id)T;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -30,7 +26,7 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
@@ -40,15 +36,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasLanguage;
-@property(readonly, nonatomic) _Bool hasLocationDisplayString;
-@property(readonly, nonatomic) _Bool hasMapRegion;
 @property(readonly, nonatomic) _Bool hasQuery;
-@property(retain, nonatomic) NSString *language; // @synthesize language=_language;
-@property(retain, nonatomic) NSString *locationDisplayString; // @synthesize locationDisplayString=_locationDisplayString;
-@property(retain, nonatomic) GEOMapRegion *mapRegion; // @synthesize mapRegion=_mapRegion;
-@property(retain, nonatomic) NSString *query; // @synthesize query=_query;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

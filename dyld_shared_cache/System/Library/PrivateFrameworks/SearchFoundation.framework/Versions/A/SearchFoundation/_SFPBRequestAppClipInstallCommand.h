@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBURL;
+@class _SFPBURL;
 
 @interface _SFPBRequestAppClipInstallCommand
 {
     _SFPBURL *_url;
-    NSString *_applicationBundleIdentifier;
 }
 
 - (id);
@@ -18,9 +17,9 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)resourceModelTypeForFilenameExtension:(id)arg1;
+- (id)_keyAssetsPosition;
+- (id):Failed to fetch assets for person %@ with error:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -28,15 +27,6 @@
 - (void)ection"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *applicationBundleIdentifier; // @synthesize applicationBundleIdentifier=_applicationBundleIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) _SFPBURL *url; // @synthesize url=_url;
 
 @end

@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface SafariSandboxDownloadBundleToken
 {
     NSUUID *_downloadIdentifier;
-    NSString *_sandboxToken;
-    NSURL *_downloadBundleURL;
-    NSString *_downloadFilename;
 }
 
-+ (_Bool)thAppExtensionData: /* Error: Ran out of types for this method. */;
++ (_Bool)initWithAppExtensionData: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -27,10 +24,7 @@ __attribute__((visibility("hidden")))
 - (void)àÄ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *downloadBundleURL; // @synthesize downloadBundleURL=_downloadBundleURL;
-@property(readonly, copy, nonatomic) NSString *downloadFilename; // @synthesize downloadFilename=_downloadFilename;
 @property(readonly, nonatomic) NSUUID *downloadIdentifier; // @synthesize downloadIdentifier=_downloadIdentifier;
-@property(readonly, copy, nonatomic) NSString *sandboxToken; // @synthesize sandboxToken=_sandboxToken;
 
 @end
 

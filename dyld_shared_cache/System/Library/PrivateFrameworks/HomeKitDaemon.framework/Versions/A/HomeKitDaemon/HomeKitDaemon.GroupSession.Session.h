@@ -7,25 +7,13 @@
 @interface HomeKitDaemon.GroupSession.Session
 {
     id $defaultActor;
-    id isSessionManager;
-    id workQueue;
-    id delegate;
-    id dataSource;
-    id groupID;
-    id session;
-    id channel;
-    id localParticipantID;
-    id allowedSessionMemberAccounts;
-    id allowedSessionMemberDevices;
-    id activeParticipantIDsToIDSDestinations;
-    id service;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)H2;
 - (void);
 - (void);
 - (void);

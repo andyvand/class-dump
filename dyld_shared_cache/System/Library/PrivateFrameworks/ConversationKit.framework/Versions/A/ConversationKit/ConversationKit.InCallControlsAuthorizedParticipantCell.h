@@ -9,17 +9,11 @@
 @interface ConversationKit.InCallControlsAuthorizedParticipantCell : ConversationKit.InCallControlsParticipantCell
 {
     id infoButton;
-    id actionButton;
-    id kickMemberButton;
-    id actionButtonStackView;
-    id delegate;
-    id callActionDelegate;
-    id callContactInfoDelegate;
 }
 
 - (void);
-- (void);
-- (id);
+- (void);
+- (id);
 - (id);
 - (void)DKýÿDÿÿ;
 

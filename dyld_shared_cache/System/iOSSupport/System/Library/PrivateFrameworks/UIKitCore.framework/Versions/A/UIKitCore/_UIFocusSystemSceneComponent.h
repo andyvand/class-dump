@@ -4,43 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSPointerArray, NSString, UIFocusSystem, UIResponder, UIScene, UITraitCollection, UIWindowScene, _UIFocusActiveSceneObserver, _UIFocusAnimationCoordinatorManager, _UIFocusDebugWindow, _UIFocusEffectManager, _UIFocusEventDelivery, _UIFocusGameControllerObserver, _UIFocusHapticFeedbackGenerator, _UIFocusHardwareKeyboardObserver, _UIFocusItemFrameReporter, _UIFocusSceneHostAssertionObserver, _UIFocusScrollManager, _UIFocusSoundGenerator;
-@protocol UICoordinateSpace;
+@class UIFocusSystem, UIResponder;
 
 @interface _UIFocusSystemSceneComponent
 {
     UIResponder *_expectedFirstResponder;
-    NSMutableSet *_overrideFocusSystemEnablementIdentifiers;
-    struct {
-        unsigned int sceneIsValid:1;
-        unsigned int wantsModernRing:1;
-        unsigned int needsFocusAnimationCoordinatorCleanup:1;
-    } _flags;
-    _UIFocusItemFrameReporter *_focusItemFrameReporter;
-    _UIFocusEventDelivery *_eventDelivery;
-    UIScene *_scene;
-    _UIFocusEffectManager *_focusEffectManager;
-    UIFocusSystem *_focusSystem;
-    _UIFocusHardwareKeyboardObserver *_hardwareKeyboardObserver;
-    _UIFocusGameControllerObserver *_gameControllerObserver;
-    _UIFocusDebugWindow *_debugWindow;
-    NSPointerArray *_preferredFocusEnvironmentOverride;
-    _UIFocusActiveSceneObserver *_activeSceneObserver;
-    _UIFocusSceneHostAssertionObserver *_sceneHostAssertionObserver;
-    _UIFocusSoundGenerator *_soundGenerator;
-    _UIFocusHapticFeedbackGenerator *_hapticFeedbackGenerator;
-    _UIFocusScrollManager *_scrollManager;
-    _UIFocusAnimationCoordinatorManager *_focusAnimationCoordinatorManager;
 }
 
 + (id);
 + (_Bool);
-+ (id);
++ (id)setMainThreadBoundDestination:(id)arg1 forRepresentationKinds:configurationBlock: /* Error: Ran out of types for this method. */;
 + (_Bool);
-+ (_Bool)apsuleForSelection;
++ (_Bool)usesTintColorCapsuleForSelection;
 + (id)p8;
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -49,7 +27,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -57,7 +35,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)stance->partOfItem && "chunk reference should not be set up yet";
 - (void);
 - (id);
 - (void);
@@ -65,9 +43,9 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool)actionWithTitle:(id)arg1 type:(id)arg2 commandEvent: /* Error: Ran out of types for this method. */;
+- (void)BeatsStudioRoute;
+- (_Bool)was missing mapping for MPModelRelationshipTVSeasonRepresentativeEpisode;
 - (_Bool);
 - (struct CGRect);
 - (_Bool);
@@ -96,23 +74,23 @@
 - (_Bool)xts"b1};
 - (void)IViewConfigurationState"16;
 - (void)ew>"16;
-- (id)ate;
-- (void)rRowAtIndexPath:(id)arg1;
-- (id)DecorationInfo: /* Error: Ran out of types for this method. */;
-- (void)tShouldAppearBelowOrthogonalScrollingContainer:(id)arg1;
-- (id)Rect: /* Error: Ran out of types for this method. */;
-- (void)rom:(_Bool)arg1 toPlacement:(id)arg2 transition:completion: /* Error: Ran out of types for this method. */;
-- (void):interactionState: /* Error: Ran out of types for this method. */;
-- (void)etAngle:(id)arg1 magnitude: /* Error: Ran out of types for this method. */;
-- (id)SystemEffectSupportingEnvironment;
+- (id)userInteractionDelegate;
+- (void)tableView:(id)arg1 deleteConfirmationButtonForRowAtIndexPath:(id)arg2;
+- (id)removeDecorationInfo: /* Error: Ran out of types for this method. */;
+- (void)elementShouldAppearBelowOrthogonalScrollingContainer:(id)arg1;
+- (id)clipPoint:inRect: /* Error: Ran out of types for this method. */;
+- (void)chainPlacementsIfNecessaryFrom:(_Bool)arg1 toPlacement:(id)arg2 transition:completion: /* Error: Ran out of types for this method. */;
+- (void)_setPage:interactionState: /* Error: Ran out of types for this method. */;
+- (void)_setAngle:(id)arg1 magnitude: /* Error: Ran out of types for this method. */;
+- (id)_adaptForNonSystemEffectSupportingEnvironment;
 - (_Bool)N,S_setFromStartFrame:,V_fromStartFrame /* Error: Ran out of types for this method. */;
 - (id)ityIndicatorForUnRenderedContent;
-- (void)pertyAnimator;
+- (void)_UIViewHybridPropertyAnimator;
 - (void)Ä ;
 - (_Bool)à¸;
 - (void)¼Ð\·;
 - (void)°éÿôéÿéÿ<éÿÐéÿéÿ4éÿXéÿ|éÿ éÿÔéÿ<¡éÿx¡éÿ¡éÿ¢éÿü¢éÿ£éÿH£éÿ£éÿÀ£éÿü£éÿ8¤éÿä¦éÿÀ§éÿä§éÿH©éÿ¬©éÿÐªéÿ(«éÿt«éÿÜ«éÿP¬éÿh­éÿÔ¯éÿh°éÿ´°éÿ(±éÿT±éÿx±éÿ´±éÿ¬³éÿÐ³éÿ´éÿl´éÿ´´éÿ¸·éÿô·éÿ¸éÿ<¸éÿx¸éÿT¼éÿ¼éÿ<½éÿH½éÿ¼¾éÿ¿éÿDÁéÿÁéÿ,ÄéÿxÄéÿìÄéÿÆéÿ,ÈéÿÉéÿxÊéÿÄÊéÿËéÿàËéÿHÌéÿÌéÿDÎéÿÎéÿÜÎéÿÏéÿÜÏéÿ;
-- (void);
+- (void)destinationEnvironment;
 - (id)ollerColumn = %@;
 - (void)ctionView internal bug:(id)arg1 Attempting to create a cell with invalid attributes. Collection View:%@, Attributes:%@, Index Path:%@ /* Error: Ran out of types for this method. */;
 - (void)@;
@@ -125,36 +103,7 @@
 - (void)(Ûb;
 
 // Remaining properties
-@property(readonly, nonatomic) _UIFocusEventDelivery *_eventDelivery; // @synthesize _eventDelivery;
-@property(retain, nonatomic) _UIFocusItemFrameReporter *_focusItemFrameReporter; // @synthesize _focusItemFrameReporter;
-@property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene; // @synthesize _scene;
-@property(readonly, nonatomic) UITraitCollection *_traitOverrides;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UITraitCollection",?,R,N
-
-@property(readonly, nonatomic) _UIFocusActiveSceneObserver *activeSceneObserver; // @synthesize activeSceneObserver=_activeSceneObserver;
-@property(nonatomic, getter=_uiktest_allowsForwardingFocusMovementActions, setter=_uiktest_setAllowsForwardingFocusMovementActions:) _Bool allowsForwardingFocusMovementActions;
-@property(readonly, nonatomic) id <UICoordinateSpace> coordinateSpace;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) _UIFocusDebugWindow *debugWindow; // @synthesize debugWindow=_debugWindow;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _UIFocusAnimationCoordinatorManager *focusAnimationCoordinatorManager; // @synthesize focusAnimationCoordinatorManager=_focusAnimationCoordinatorManager;
-@property(readonly, nonatomic, getter=_focusEffectManager) _UIFocusEffectManager *focusEffectManager; // @synthesize focusEffectManager=_focusEffectManager;
 @property(retain, nonatomic) UIFocusSystem *focusSystem; // @synthesize focusSystem=_focusSystem;
-@property(readonly, nonatomic) _UIFocusGameControllerObserver *gameControllerObserver; // @synthesize gameControllerObserver=_gameControllerObserver;
-@property(retain, nonatomic) _UIFocusHapticFeedbackGenerator *hapticFeedbackGenerator; // @synthesize hapticFeedbackGenerator=_hapticFeedbackGenerator;
-@property(readonly, nonatomic) _UIFocusHardwareKeyboardObserver *hardwareKeyboardObserver; // @synthesize hardwareKeyboardObserver=_hardwareKeyboardObserver;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isOverrideFocusSystemEnabled;
-@property(readonly, nonatomic) NSPointerArray *preferredFocusEnvironmentOverride; // @synthesize preferredFocusEnvironmentOverride=_preferredFocusEnvironmentOverride;
-@property(readonly, nonatomic) _UIFocusSceneHostAssertionObserver *sceneHostAssertionObserver; // @synthesize sceneHostAssertionObserver=_sceneHostAssertionObserver;
-@property(readonly, nonatomic) _UIFocusScrollManager *scrollManager; // @synthesize scrollManager=_scrollManager;
-@property(retain, nonatomic) _UIFocusSoundGenerator *soundGenerator; // @synthesize soundGenerator=_soundGenerator;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic, getter=_windowScene) UIWindowScene *windowScene;
 
 @end
 

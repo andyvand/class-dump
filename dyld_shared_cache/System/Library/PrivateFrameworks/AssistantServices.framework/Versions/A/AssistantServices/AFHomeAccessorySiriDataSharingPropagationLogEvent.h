@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface AFHomeAccessorySiriDataSharingPropagationLogEvent
 {
     NSDate *_date;
-    NSString *_accessoryIdentifier;
-    long long _propagationEvent;
-    NSString *_propagationEventReason;
-    NSString *_associatedChangeLogEventIdentifier;
 }
 
 + (id);
-+ (_Bool);
-- (id);
++ (_Bool)v;
+- (id);
 - (long long);
 - (id);
 - (id);
+- (id);
+- (id)",&,N,V_passSerialNumber;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)B;
 - (id);
 - (id);
 - (id);
@@ -38,18 +34,7 @@
 - (void)SString",C,N,V_utteranceSource;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier; // @synthesize accessoryIdentifier=_accessoryIdentifier;
-@property(readonly, copy, nonatomic) NSString *associatedChangeLogEventIdentifier; // @synthesize associatedChangeLogEventIdentifier=_associatedChangeLogEventIdentifier;
 @property(readonly, copy, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long propagationEvent; // @synthesize propagationEvent=_propagationEvent;
-@property(readonly, copy, nonatomic) NSString *propagationEventReason; // @synthesize propagationEventReason=_propagationEventReason;
-@property(readonly) Class superclass;
 
 @end
 

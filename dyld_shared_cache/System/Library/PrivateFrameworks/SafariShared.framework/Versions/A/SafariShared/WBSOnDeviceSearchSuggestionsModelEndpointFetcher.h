@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSURLSession, NSURLSessionDataTask;
+@class NSURLSessionDataTask;
 
 @interface WBSOnDeviceSearchSuggestionsModelEndpointFetcher
 {
     NSURLSessionDataTask *_dataTask;
-    NSDictionary *_modelEndpointInfos;
-    NSURLSession *_urlSession;
 }
 
 - (void);

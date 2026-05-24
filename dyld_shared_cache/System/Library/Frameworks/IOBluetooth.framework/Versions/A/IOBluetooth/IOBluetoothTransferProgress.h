@@ -4,26 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSTimer;
-
 @interface IOBluetoothTransferProgress
 {
     unsigned short mThreshold;
-    int mTransferState;
-    unsigned long long mTotalBytes;
-    unsigned long long mTransferedBytes;
-    unsigned long long mRemainingBytes;
-    float mPercentDone;
-    unsigned short mMaxPacketLength;
-    NSTimer *mUpdateTimer;
-    NSDate *mTimeOfTransferStart;
-    NSDate *mEndDate;
-    double mSecondsRemaining;
-    float mSpeedAverages[15];
-    int mSpeedIndex;
-    int mRateIndex;
-    float mTransferRate;
-    float mSavedTime;
 }
 
 - (void);
@@ -32,7 +15,7 @@
 - (void);
 - (void);
 - (id);
-- (float);
+- (float);
 - (double);
 - (id);
 - (unsigned long long);
@@ -44,7 +27,7 @@
 - (void);
 - (void);
 - (int);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);

@@ -16,9 +16,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)shouldIgnoreAssumedIdentity:(void *)arg1;
+- (id)sharedLockDirectoryURLWithFileServices: /* Error: Ran out of types for this method. */;
+- (id)pairWithFirst:second: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

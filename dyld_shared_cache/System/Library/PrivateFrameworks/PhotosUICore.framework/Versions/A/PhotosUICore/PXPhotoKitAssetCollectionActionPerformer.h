@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PHAssetCollection, PHFetchResult, PXAssetReference, PXAssetsDataSource, PXDisplayTitleInfo, PXPhotosEnvironmentReference;
-@protocol PXAssetCollectionActionPerformerDelegate, PXMemoryAssetsActionFactory;
+@class PXDisplayTitleInfo;
 
 @interface PXPhotoKitAssetCollectionActionPerformer
 {
     PXDisplayTitleInfo *_displayTitleInfo;
-    PHFetchResult *_people;
-    PHFetchResult *_socialGroups;
 }
 
 + (id);
@@ -31,41 +28,7 @@
 - (void)uggestionType;
 
 // Remaining properties
-@property(readonly, nonatomic) PXAssetsDataSource *assetsDataSource;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"PXAssetsDataSource",?,R,N
-
-@property(retain, nonatomic) PHFetchResult *assetsFetchResult;
-@property(readonly, nonatomic) PHAssetCollection *containingAlbum;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"PHAssetCollection",?,R,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) PXDisplayTitleInfo *displayTitleInfo; // @synthesize displayTitleInfo=_displayTitleInfo;
-@property(readonly, nonatomic) PXAssetReference *dropTargetAssetReference;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"PXAssetReference",?,R,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <PXMemoryAssetsActionFactory> memoryAssetsActionFactory;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<PXMemoryAssetsActionFactory>",?,R,N
-
-@property(retain, nonatomic) PHFetchResult *people; // @synthesize people=_people;
-@property(readonly, nonatomic) id <PXAssetCollectionActionPerformerDelegate> performerDelegate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<PXAssetCollectionActionPerformerDelegate>",?,R,N
-
-@property(readonly, nonatomic) PXPhotosEnvironmentReference *photosEnvironmentReference;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"PXPhotosEnvironmentReference",?,R,N
-
-@property(retain, nonatomic) PHFetchResult *socialGroups; // @synthesize socialGroups=_socialGroups;
-@property(readonly) Class superclass;
 
 @end
 

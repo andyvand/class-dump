@@ -12,12 +12,11 @@ __attribute__((visibility("hidden")))
 @interface _GCDevicePhysicalInputClickableDirectionPadElementParameters : _GCDevicePhysicalInputDirectionPadElementParameters
 {
     NSSet *_pressedSources;
-    unsigned long long _eventPressedValueField;
 }
 
 - (id);
 - (_Bool);
-- (id);
+- (id)setCustodianDelegate:(struct _NSZone *)arg1;
 - (void);
 
 @end

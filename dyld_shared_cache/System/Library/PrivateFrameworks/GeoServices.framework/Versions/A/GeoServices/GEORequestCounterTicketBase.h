@@ -4,35 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSURLSessionTask;
-@protocol OS_nw_activity;
+@class NSString;
 
 @interface GEORequestCounterTicketBase
 {
     NSString *_appId;
-    CDStruct_d1a7ebee _type;
-    _Bool _logNetworkActivityOnly;
-    unsigned char _result;
-    double _start;
-    double _end;
-    long long _subTaskXmitBytes;
-    long long _subTaskRecvBytes;
-    unsigned long long _subTaskUsedInterfaces;
-    GEORequestCounterTicketBase *_parentTask;
-    unsigned char _subTaskResult;
-    unsigned char _subtasks;
-    NSURLSessionTask *_task;
-    NSObject<OS_nw_activity> *_nwActivity;
-    _Bool _nwActivityCompleted;
-    unsigned long long _signpostId;
-    unsigned long long _explicitInterfaces;
 }
 
 + (id);
 + (id)ÿ;
 - (void);
 - (void);
-- (void);
+- (void)0:(id)arg1 8@16@24q32@40@48@56B64@68i76@80@88@96;
 - (void);
 - (id);
 - (id);
@@ -45,13 +28,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *appId; // @synthesize appId=_appId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

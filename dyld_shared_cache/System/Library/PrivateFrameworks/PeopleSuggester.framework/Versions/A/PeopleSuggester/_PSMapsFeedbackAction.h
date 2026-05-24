@@ -11,19 +11,17 @@
 @interface _PSMapsFeedbackAction : _PSFeedbackAction
 {
     NSString *_contactId;
-    NSString *_handle;
 }
 
-+ (id);
-+ (id);
++ (id)mpt;
++ (id)ind;
+- (id)_dataSharingOptInStatus;
 - (id);
-- (id);
-- (id);
+- (id)s;
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *contactId; // @synthesize contactId=_contactId;
-@property(readonly, copy, nonatomic) NSString *handle; // @synthesize handle=_handle;
 
 @end
 

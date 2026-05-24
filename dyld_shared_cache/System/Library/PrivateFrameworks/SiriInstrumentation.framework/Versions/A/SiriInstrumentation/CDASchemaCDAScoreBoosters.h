@@ -6,30 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface CDASchemaCDAScoreBoosters : SISchemaInstrumentationMessage
 {
     unsigned int _deviceBoost;
-    unsigned int _recentUnlockBoost;
-    unsigned int _recentRaiseToWakeBoost;
-    unsigned int _recentSiriRequestBoost;
-    unsigned int _recentMotionBoost;
-    unsigned int _recentPlaybackBoost;
-    _Bool _isTrump;
-    int _trumpReason;
-    unsigned int _recentAlarmBoost;
-    struct {
-        unsigned int deviceBoost:1;
-        unsigned int recentUnlockBoost:1;
-        unsigned int recentRaiseToWakeBoost:1;
-        unsigned int recentSiriRequestBoost:1;
-        unsigned int recentMotionBoost:1;
-        unsigned int recentPlaybackBoost:1;
-        unsigned int isTrump:1;
-        unsigned int trumpReason:1;
-        unsigned int recentAlarmBoost:1;
-    } _has;
 }
 
 - (void);
@@ -39,9 +18,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)C;
+- (void);
+- (_Bool) ;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -71,7 +50,7 @@
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int)B@9hB;
 - (unsigned int);
 - (unsigned int);
 - (void);
@@ -80,33 +59,15 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)y9;
 - (_Bool);
 - (id);
 - (id)d";
-- (id)d;
+- (id)CNVSchemaCNVIntentFinalExecutionStarted;
 - (id)ù;
 
 // Remaining properties
 @property(nonatomic) unsigned int deviceBoost; // @synthesize deviceBoost=_deviceBoost;
-@property(nonatomic) _Bool hasDeviceBoost;
-@property(nonatomic) _Bool hasIsTrump;
-@property(nonatomic) _Bool hasRecentAlarmBoost;
-@property(nonatomic) _Bool hasRecentMotionBoost;
-@property(nonatomic) _Bool hasRecentPlaybackBoost;
-@property(nonatomic) _Bool hasRecentRaiseToWakeBoost;
-@property(nonatomic) _Bool hasRecentSiriRequestBoost;
-@property(nonatomic) _Bool hasRecentUnlockBoost;
-@property(nonatomic) _Bool hasTrumpReason;
-@property(nonatomic) _Bool isTrump; // @synthesize isTrump=_isTrump;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int recentAlarmBoost; // @synthesize recentAlarmBoost=_recentAlarmBoost;
-@property(nonatomic) unsigned int recentMotionBoost; // @synthesize recentMotionBoost=_recentMotionBoost;
-@property(nonatomic) unsigned int recentPlaybackBoost; // @synthesize recentPlaybackBoost=_recentPlaybackBoost;
-@property(nonatomic) unsigned int recentRaiseToWakeBoost; // @synthesize recentRaiseToWakeBoost=_recentRaiseToWakeBoost;
-@property(nonatomic) unsigned int recentSiriRequestBoost; // @synthesize recentSiriRequestBoost=_recentSiriRequestBoost;
-@property(nonatomic) unsigned int recentUnlockBoost; // @synthesize recentUnlockBoost=_recentUnlockBoost;
-@property(nonatomic) int trumpReason; // @synthesize trumpReason=_trumpReason;
 
 @end
 

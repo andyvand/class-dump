@@ -6,18 +6,11 @@
 
 #import <BlastDoor/_BlastDoorLPSpecializationMetadata.h>
 
-@class NSString, _BlastDoorLPArtworkMetadata, _BlastDoorLPImage;
+@class NSString;
 
 @interface _BlastDoorLPiTunesMediaMovieMetadata : _BlastDoorLPSpecializationMetadata
 {
     NSString *_storeFrontIdentifier;
-    NSString *_storeIdentifier;
-    NSString *_name;
-    NSString *_genre;
-    _BlastDoorLPImage *_artwork;
-    _BlastDoorLPArtworkMetadata *_artworkMetadata;
-    _BlastDoorLPImage *_branding;
-    NSString *_brandingText;
 }
 
 + (id);
@@ -26,12 +19,12 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)hk48l;
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)CKWaveformProgressView:(id)arg1 Attempting to setImage to object that is not an image - %@;
 - (id);
 - (id);
 - (id);
@@ -41,20 +34,13 @@
 - (void);
 - (id);
 - (id);
-- (void)rHash;
-- (void)tions;
+- (void)stickerHash;
+- (void)inviterShareLocations;
 - (void)u@ÄÍÿ;
 - (id)($;
 
 // Remaining properties
-@property(retain, nonatomic) _BlastDoorLPImage *artwork; // @synthesize artwork=_artwork;
-@property(copy, nonatomic) _BlastDoorLPArtworkMetadata *artworkMetadata; // @synthesize artworkMetadata=_artworkMetadata;
-@property(retain, nonatomic) _BlastDoorLPImage *branding; // @synthesize branding=_branding;
-@property(retain, nonatomic) NSString *brandingText; // @synthesize brandingText=_brandingText;
-@property(copy, nonatomic) NSString *genre; // @synthesize genre=_genre;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 @property(copy, nonatomic) NSString *storeFrontIdentifier; // @synthesize storeFrontIdentifier=_storeFrontIdentifier;
-@property(copy, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
 
 @end
 

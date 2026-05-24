@@ -6,44 +6,35 @@
 
 #import <Sharing/SFXPCClient.h>
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 @protocol SFAirDropTransferObserverDelegate;
 
 @interface _SFAirDropTransferObserver : SFXPCClient
 {
     id <SFAirDropTransferObserverDelegate> _delegate;
-    NSMutableDictionary *_transferIdentifierToTransfer;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (_Bool);
 - (id);
+- (void)`;
+- (id);
+- (void);
 - (void);
 - (id);
+- (id)";
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)d#;
 - (void);
 - (id)Failed to retrieve contacts:container URL is unavailable /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SFAirDropTransferObserverDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain) NSMutableDictionary *transferIdentifierToTransfer; // @synthesize transferIdentifierToTransfer=_transferIdentifierToTransfer;
 
 @end

@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICInAppMessageMetadataEntry, NSArray, NSDate, NSDictionary, NSString;
-@protocol IAMApplicationContextProvider;
+@class ICInAppMessageMetadataEntry, NSArray;
 
 @interface IAMEvaluator
 {
     ICInAppMessageMetadataEntry *_currentMetadata;
-    ICInAppMessageMetadataEntry *_currentProximityMetadata;
-    NSArray *_messageEntries;
-    NSDictionary *_metadataEntries;
-    NSDate *_lastDisplayTimeForRestrictedPresentationPolicyGroup;
-    NSDate *_lastDisplayTimeForNormalPresentationPolicyGroup;
-    id <IAMApplicationContextProvider> _applicationContext;
-    NSString *_hostBundleIdentifier;
-    NSDictionary *_messageGroupsByGroupIdentifier;
-    NSArray *_passingMessageEntries;
-    NSArray *_messagesCloseToPassing;
 }
 
 + (_Bool);
@@ -47,7 +36,6 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSArray *messagesCloseToPassing; // @synthesize messagesCloseToPassing=_messagesCloseToPassing;
 @property(retain) NSArray *passingMessageEntries; // @synthesize passingMessageEntries=_passingMessageEntries;
 
 @end

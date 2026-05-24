@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISCompositingDescriptor, NSMutableDictionary;
-
 __attribute__((visibility("hidden")))
 @interface ISICRCompositor
 {
     CDUnknownBlockType _iconStack;
-    ISCompositingDescriptor *_compositingDescriptor;
-    NSMutableDictionary *_finalizedIcons;
 }
 
 - (void);
@@ -22,14 +18,12 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)ragment}qq^?^v}16;
+- (id)b32}40^{__DDScanQuery=}48;
+- (id)^@16^@24^@32;
 - (void);
 
 // Remaining properties
-@property(retain) ISCompositingDescriptor *compositingDescriptor; // @synthesize compositingDescriptor=_compositingDescriptor;
-@property(readonly) NSMutableDictionary *finalizedIcons; // @synthesize finalizedIcons=_finalizedIcons;
 @property(copy, nonatomic) CDUnknownBlockType iconStack; // @synthesize iconStack=_iconStack;
 
 @end

@@ -8,25 +8,19 @@ __attribute__((visibility("hidden")))
 @interface VCVirtualAVFrameRateRange
 {
     double _virtualMinFrameRate;
-    double _virtualMaxFrameRate;
-    CDStruct_1b6d18a9 _virtualMaxFrameDuration;
-    CDStruct_1b6d18a9 _virtualMinFrameDuration;
 }
 
+- (void);
 - (void);
-- (void);
-- (CDStruct_1b6d18a9);
-- (void);
-- (CDStruct_1b6d18a9);
+- (CDStruct_198678f7);
+- (void);
+- (CDStruct_198678f7);
 - (double);
-- (void);
+- (void)setHotVirtualKey:(double)arg1;
 - (id);
 - (double)d cannedVideoType = %d;
 
 // Remaining properties
-@property CDStruct_1b6d18a9 maxFrameDuration; // @synthesize maxFrameDuration=_virtualMaxFrameDuration;
-@property double maxFrameRate; // @synthesize maxFrameRate=_virtualMaxFrameRate;
-@property CDStruct_1b6d18a9 minFrameDuration; // @synthesize minFrameDuration=_virtualMinFrameDuration;
 @property double minFrameRate; // @synthesize minFrameRate=_virtualMinFrameRate;
 
 @end

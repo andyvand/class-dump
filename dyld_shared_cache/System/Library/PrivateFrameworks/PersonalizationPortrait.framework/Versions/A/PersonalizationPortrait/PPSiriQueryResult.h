@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface PPSiriQueryResult
 {
     NSString *_qid;
-    NSString *_domain;
-    NSNumber *_confidence;
 }
 
 + (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)(;
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -26,8 +24,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *confidence; // @synthesize confidence=_confidence;
-@property(readonly, nonatomic) NSString *domain; // @synthesize domain=_domain;
 @property(readonly, nonatomic) NSString *qid; // @synthesize qid=_qid;
 
 @end

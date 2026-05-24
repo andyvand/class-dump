@@ -7,12 +7,6 @@
 @interface IMDaemonCore.IMDReindexManagementTask
 {
     id $defaultActor;
-    id canInitiateReindexing;
-    id task;
-    id expired;
-    id completed;
-    id suspensionError;
-    id completionHandler;
 }
 
 @end

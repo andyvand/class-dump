@@ -5,5 +5,13 @@
 //
 
 @protocol PreferencePaneProtocol
+- (oneway void);
+
+@optional
+- (oneway void)@;
+- (oneway void);
+- (oneway void)tion:]_block_invoke_2 /* Error: Ran out of types for this method. */;
+- (oneway void)_bundleExcludedForTopHit: /* Error: Ran out of types for this method. */;
+- (oneway void);
 @end
 

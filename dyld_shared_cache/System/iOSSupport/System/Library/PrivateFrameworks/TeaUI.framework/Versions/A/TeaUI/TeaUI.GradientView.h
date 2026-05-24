@@ -7,12 +7,11 @@
 @interface TeaUI.GradientView
 {
     id gradientDescriptor;
-    id dynamicGradientDescriptor;
 }
 
-+ (Class);
++ (Class)G|;
 - (id);
-- (id);
+- (id)setSupergroupConfigJson:(struct CGRect)arg1;
 - (void);
 
 @end

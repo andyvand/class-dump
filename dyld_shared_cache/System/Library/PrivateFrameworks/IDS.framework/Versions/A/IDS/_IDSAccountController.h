@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableDictionary, NSMutableSet, NSSet, NSString;
+@class NSSet;
 
 @interface _IDSAccountController
 {
     id _delegateContext;
-    NSMapTable *_delegateToInfo;
-    NSString *_serviceToken;
-    NSString *_service;
-    NSMutableSet *_cachedAccounts;
-    NSMutableSet *_enabledAccounts;
-    NSMutableDictionary *_pendingAccountsToRemove;
-    NSMutableDictionary *_transactionIDToHandlersMap;
-    _Bool _accountsLoaded;
-    _Bool _isLocalAccountVisible;
 }
 
 - (id);
@@ -27,8 +18,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)tcpconnection_copyLocalNetworkPort;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -46,13 +37,13 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)B;
 - (id)1Â0@ù
 × ;
 - (void)af(°!$Fùñ,Ð1Â0@ù
 × ;
 - (void)SString"32i40@"NSDictionary"44;
-- (void)RLString;
+- (void)resourceTransferURLString;
 - (id)(ñ	;
 - (void)t IDSDataChannelEventDisconnected, linkID %u, linkContexts %@, reason:(id)arg1 %d;
 - (void)Pseudonym called but no block! {pseudonym:(id)arg1 %@, success:%@, requestUUID:%@, error:%@, self:%@} /* Error: Ran out of types for this method. */;
@@ -62,16 +53,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *accounts;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSSet *enabledAccounts;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSSet *internalAccounts;
-@property(readonly, nonatomic) NSString *serviceName;
-@property(readonly) Class superclass;
 
 @end
 

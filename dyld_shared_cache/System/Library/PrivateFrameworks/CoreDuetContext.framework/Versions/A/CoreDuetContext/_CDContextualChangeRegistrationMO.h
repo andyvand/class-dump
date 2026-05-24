@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString;
+@class NSString;
 
 @interface _CDContextualChangeRegistrationMO
 {
 }
 
 + (void);
-+ (id);
++ (id)callTypes;
 + (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *creationDate; // @dynamic creationDate;
 @property(retain, nonatomic) NSString *identifier; // @dynamic identifier;
-@property(nonatomic) _Bool isActive; // @dynamic isActive;
-@property(nonatomic) _Bool isMultiDeviceRegistration; // @dynamic isMultiDeviceRegistration;
-@property(retain, nonatomic) NSData *properties; // @dynamic properties;
 
 @end
 

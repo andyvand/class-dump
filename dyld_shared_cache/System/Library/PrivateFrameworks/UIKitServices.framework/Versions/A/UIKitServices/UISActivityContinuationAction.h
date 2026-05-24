@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString;
+@class NSString;
 
 @interface UISActivityContinuationAction
 {
@@ -17,20 +17,14 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)requested a change of conference (%@) peer ID:%@  to:%@  but it doesn't exist! /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *activityType;
-@property(readonly, nonatomic) NSString *activityTypeIdentifier;
 @property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) NSDate *lastUpdateTime;
-@property(readonly, nonatomic) NSString *originatingDeviceName;
-@property(readonly, nonatomic) NSString *originatingDeviceType;
-@property(readonly, nonatomic) NSData *userActivityData;
 
 @end
 

@@ -7,13 +7,12 @@
 @class NSArray;
 
 @protocol _INPBIdentifyIncomingCallerIntentResponse
++ (Class)Z;
+- (void),;
 - (int);
 - (void)¥NK;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *callRecords;
-@property(readonly, nonatomic) unsigned long long callRecordsCount;
-@property(nonatomic) _Bool hasStatusCode;
-@property(nonatomic) int statusCode;
 @end
 

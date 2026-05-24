@@ -11,7 +11,7 @@
     VMUProcessObjectGraph *_graph;
 }
 
-- (id);
+- (id)*;
 - (void);
 - (void);
 - (id)@ù

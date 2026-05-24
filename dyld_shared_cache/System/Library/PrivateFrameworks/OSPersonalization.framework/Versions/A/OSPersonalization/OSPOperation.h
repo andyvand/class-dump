@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, OSPRequest;
+@class OSPRequest;
 
 @interface OSPOperation
 {
     _Bool _isFinished;
-    OSPRequest *_request;
-    NSError *_error;
 }
 
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)7-;
 - (void);
 - (_Bool);
 - (id);
@@ -25,8 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSError *error; // @synthesize error=_error;
-@property _Bool isFinished; // @synthesize isFinished=_isFinished;
 @property(retain) OSPRequest *request; // @synthesize request=_request;
 
 @end

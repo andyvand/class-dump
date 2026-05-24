@@ -5,7 +5,7 @@
 //
 
 @protocol NSPredicateVisitor
-- (void)actionMechanismVoicemail;
+- (void)_CDInteractionMechanismVoicemail;
 - (void);
 @end
 

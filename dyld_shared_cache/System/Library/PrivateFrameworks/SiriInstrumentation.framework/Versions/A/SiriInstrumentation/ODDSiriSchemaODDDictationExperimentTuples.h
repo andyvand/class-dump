@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface ODDSiriSchemaODDDictationExperimentTuples : SISchemaInstrumentationMessage
 {
     NSArray *_launchTimeInMs;
-    NSArray *_endpointDelayInMs;
-    NSArray *_siriResponseTimeInMs;
-    NSArray *_timeToUufrInMs;
-    NSArray *_timeToFirstWordInMs;
 }
 
 - (unsigned long long);
@@ -22,7 +18,7 @@
 - (id);
 - (unsigned long long);
 - (float);
-- (id);
+- (id);
 - (unsigned long long);
 - (float);
 - (id);
@@ -33,8 +29,8 @@
 - (void);
 - (unsigned long long);
 - (float);
-- (id);
-- (unsigned long long);
+- (id)@8;
+- (unsigned long long)a;
 - (float);
 - (id);
 - (void);
@@ -53,23 +49,18 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)q16;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id)ceived;
-- (id)nts;
+- (id)_queryArguments;
 - (void)rnativesEventTier1;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *endpointDelayInMs; // @synthesize endpointDelayInMs=_endpointDelayInMs;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *launchTimeInMs; // @synthesize launchTimeInMs=_launchTimeInMs;
-@property(copy, nonatomic) NSArray *siriResponseTimeInMs; // @synthesize siriResponseTimeInMs=_siriResponseTimeInMs;
-@property(copy, nonatomic) NSArray *timeToFirstWordInMs; // @synthesize timeToFirstWordInMs=_timeToFirstWordInMs;
-@property(copy, nonatomic) NSArray *timeToUufrInMs; // @synthesize timeToUufrInMs=_timeToUufrInMs;
 
 @end
 

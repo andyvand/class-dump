@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface PDInvertCoordinateOptions : PDTransitionOptions
 {
     _Bool mIsInvX;
-    _Bool mIsInvY;
 }
 
 - (void);

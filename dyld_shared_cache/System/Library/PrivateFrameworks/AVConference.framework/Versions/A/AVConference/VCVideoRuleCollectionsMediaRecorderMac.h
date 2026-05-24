@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
     id <VCHardwareSettingsMacProtocol> _hardwareSettings;
 }
 
-+ (id)ocalCandidate;
++ (id)LocalCandidate;
 - (id);
 - (id);
 - (unsigned char);
-- (id);
+- (id);
 
 @end
 

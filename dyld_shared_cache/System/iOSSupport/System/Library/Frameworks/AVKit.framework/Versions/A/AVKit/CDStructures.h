@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVMobileContentTab, NSArray;
-
 #pragma mark Blocks
 
 typedef void (^CDUnknownBlockType)(void); // return type and parameters are unknown
@@ -18,61 +16,47 @@ struct AVLegibleMediaOptionsMenuState {
 };
 
 struct AVMobileChromelessContentTabsTransitionState {
-    AVMobileContentTab *activeContentTab;
-    AVMobileContentTab *upcomingContentTab;
-    unsigned long long transitionState;
-    unsigned long long transitionReason;
+    id _field1;
+    id _field2;
+    unsigned long long _field3;
+    unsigned long long _field4;
 };
 
 struct AVMobileChromelessControlsLayoutConfiguration {
-    unsigned long long includedControls;
-    _Bool expanded;
-    double controlsPadding;
-    unsigned long long auxiliaryControlsPlacement;
-    NSArray *pinnedAuxiliaryControls;
-    _Bool contentTabPresented;
-    _Bool contentTabTransitioning;
-    struct UIEdgeInsets timelineSliderInsets;
-    unsigned long long contentTabsPresentationLayout;
-    double contentTabPresentationHeight;
-};
-
-struct AVMobileChromelessControlsVisibilityState {
-    unsigned long long visibleControls;
-    _Bool backgroundGradientActive;
-    _Bool liveEdgeMarkContentTagVisible;
+    unsigned long long _field1;
+    _Bool _field2;
+    double _field3;
+    unsigned long long _field4;
+    id _field5;
+    _Bool _field6;
+    _Bool _field7;
+    struct UIEdgeInsets _field8;
+    unsigned long long _field9;
+    double _field10;
 };
 
 struct AVMobileGlassContentTabsTransitionState {
-    AVMobileContentTab *activeContentTab;
-    AVMobileContentTab *upcomingContentTab;
-    unsigned long long transitionState;
-    unsigned long long transitionReason;
+    id _field1;
+    id _field2;
+    unsigned long long _field3;
+    unsigned long long _field4;
 };
 
 struct AVMobileGlassControlsLayoutConfiguration {
-    unsigned long long includedControls;
-    unsigned long long excludedControls;
-    _Bool expanded;
-    double controlsPadding;
-    unsigned long long auxiliaryControlsPlacement;
-    NSArray *pinnedAuxiliaryControls;
-    _Bool contentTabPresented;
-    _Bool contentTabsDismissing;
-    _Bool contentTabTransitioning;
-    struct UIEdgeInsets timelineSliderInsets;
-    struct UIEdgeInsets volumeSliderInsets;
-    unsigned long long contentTabsPresentationLayout;
-    unsigned long long contentTabsLayout;
-    double contentTabPresentationHeight;
-};
-
-struct AVMobileGlassControlsVisibilityState {
-    unsigned long long visibleControls;
-    _Bool backgroundGradientActive;
-    _Bool volumeBackgroundGradientActive;
-    _Bool showsTimelineShadow;
-    _Bool liveEdgeMarkContentTagVisible;
+    unsigned long long _field1;
+    unsigned long long _field2;
+    _Bool _field3;
+    double _field4;
+    unsigned long long _field5;
+    id _field6;
+    _Bool _field7;
+    _Bool _field8;
+    _Bool _field9;
+    struct UIEdgeInsets _field10;
+    struct UIEdgeInsets _field11;
+    unsigned long long _field12;
+    unsigned long long _field13;
+    double _field14;
 };
 
 struct CGAffineTransform {
@@ -100,17 +84,17 @@ struct CGSize {
 };
 
 struct NSDirectionalEdgeInsets {
-    double top;
-    double leading;
-    double bottom;
-    double trailing;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
 };
 
 struct NSEdgeInsets {
-    double top;
-    double left;
-    double bottom;
-    double right;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
 };
 
 struct UIEdgeInsets {
@@ -128,14 +112,14 @@ typedef struct {
 } CDStruct_1ef3fb1f;
 
 typedef struct {
-    long long value;
-    int timescale;
-    unsigned int flags;
-    long long epoch;
-} CDStruct_1b6d18a9;
+    long long _field1;
+    int _field2;
+    unsigned int _field3;
+    long long _field4;
+} CDStruct_198678f7;
 
 typedef struct {
-    CDStruct_1b6d18a9 start;
-    CDStruct_1b6d18a9 duration;
-} CDStruct_e83c9415;
+    CDStruct_198678f7 _field1;
+    CDStruct_198678f7 _field2;
+} CDStruct_3c1748cc;
 

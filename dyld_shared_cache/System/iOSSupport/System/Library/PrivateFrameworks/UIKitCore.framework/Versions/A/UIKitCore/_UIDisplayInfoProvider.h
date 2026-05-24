@@ -4,54 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBSDisplayConfiguration, NSString;
-@protocol _UIDisplayInfoShape;
+@class FBSDisplayConfiguration;
 
 __attribute__((visibility("hidden")))
 @interface _UIDisplayInfoProvider
 {
     FBSDisplayConfiguration *displayConfiguration;
-    unsigned long long artworkSubtype;
-    double homeAffordanceOverlayAllowance;
-    double systemMinimumMargin;
-    id <_UIDisplayInfoShape> exclusionArea;
-    struct UIEdgeInsets peripheryInsets;
-    struct UIEdgeInsets safeAreaInsetsPortrait;
-    struct UIEdgeInsets safeAreaInsetsLandscapeLeft;
-    struct UIEdgeInsets safeAreaInsetsLandscapeRight;
-    struct UIEdgeInsets safeAreaInsetsPortraitUpsideDown;
 }
 
-- (id);
+- (id)_defaultDefaults;
 - (unsigned long long);
 - (id);
 - (struct UIEdgeInsets);
 - (double);
 - (struct UIEdgeInsets)6;
-- (double)rPage: /* Error: Ran out of types for this method. */;
-- (struct UIEdgeInsets)sHDRDuringPresentation;
-- (struct UIEdgeInsets)setTitleTextColor: /* Error: Ran out of types for this method. */;
+- (double)currentPageIndicatorImageForPage: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)_shouldSuppressHDRDuringPresentation;
+- (struct UIEdgeInsets)_setTitleTextColor: /* Error: Ran out of types for this method. */;
 - (struct UIEdgeInsets)present inside popover with transition style other than UIModalTransitionStyleCoverVertical %@.;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long artworkSubtype; // @synthesize artworkSubtype;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) FBSDisplayConfiguration *displayConfiguration; // @synthesize displayConfiguration;
-@property(readonly, nonatomic) id <_UIDisplayInfoShape> exclusionArea; // @synthesize exclusionArea;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double homeAffordanceOverlayAllowance; // @synthesize homeAffordanceOverlayAllowance;
-@property(readonly, nonatomic) struct UIEdgeInsets peripheryInsets; // @synthesize peripheryInsets;
-@property(readonly, nonatomic) struct UIEdgeInsets safeAreaInsetsLandscapeLeft; // @synthesize safeAreaInsetsLandscapeLeft;
-@property(readonly, nonatomic) struct UIEdgeInsets safeAreaInsetsLandscapeRight; // @synthesize safeAreaInsetsLandscapeRight;
-@property(readonly, nonatomic) struct UIEdgeInsets safeAreaInsetsPortrait; // @synthesize safeAreaInsetsPortrait;
-@property(readonly, nonatomic) struct UIEdgeInsets safeAreaInsetsPortraitUpsideDown; // @synthesize safeAreaInsetsPortraitUpsideDown;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double systemMinimumMargin; // @synthesize systemMinimumMargin;
 
 @end
 

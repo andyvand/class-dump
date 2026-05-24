@@ -7,7 +7,6 @@
 @interface HMImmutableSettingsProtoBoolValueEvent
 {
     _Bool _value;
-    CDStruct_01ef6375 _has;
 }
 
 - (void);
@@ -16,9 +15,9 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)&	>	9	;
+- (_Bool)iodide;
+- (void)xL9;
 - (void);
 - (id);
 - (_Bool);
@@ -26,7 +25,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasValue;
-@property(nonatomic) _Bool value; // @synthesize value=_value;
 
 @end
 

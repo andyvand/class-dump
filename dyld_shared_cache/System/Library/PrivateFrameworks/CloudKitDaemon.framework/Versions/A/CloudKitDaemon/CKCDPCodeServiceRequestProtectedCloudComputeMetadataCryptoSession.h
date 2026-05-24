@@ -15,11 +15,11 @@
 - (void);
 - (_Bool);
 - (id);
+- (void)ContractDataBitmap;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)S/48000/5.1.2;
 - (_Bool);
-- (_Bool);
+- (_Bool)updatedCategoryForAddressID:(id)arg1 fromCategorizationResult: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -27,7 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasWrappedInvocationKey;
-@property(retain, nonatomic) NSData *wrappedInvocationKey; // @synthesize wrappedInvocationKey=_wrappedInvocationKey;
 
 @end
 

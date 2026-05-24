@@ -7,16 +7,14 @@
 @interface AFTriggerlessListeningOptions
 {
     _Bool _showUIDuringListening;
-    _Bool _playAlertBeforeListening;
-    double _endpointDelay;
 }
 
 + (_Bool);
-- (_Bool);
+- (_Bool)*%@y_=;
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)?=;
 - (double);
 - (_Bool);
 - (id);
@@ -27,11 +25,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool beepBeforeListening;
-@property(readonly, nonatomic) double delay;
-@property(readonly, nonatomic) double endpointDelay; // @synthesize endpointDelay=_endpointDelay;
-@property(nonatomic) _Bool playAlertBeforeListening; // @synthesize playAlertBeforeListening=_playAlertBeforeListening;
-@property(readonly, nonatomic) _Bool showUIBeforeListening;
 @property(nonatomic) _Bool showUIDuringListening; // @synthesize showUIDuringListening=_showUIDuringListening;
 
 @end

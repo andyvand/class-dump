@@ -6,21 +6,9 @@
 
 #import <MLCompute/MLCGPUDeviceOps.h>
 
-@class NSArray, NSMutableArray;
-
 @interface MLCMatMulGPUDeviceOps : MLCGPUDeviceOps
 {
     id _matmulKernel;
-    id _reduceSumKernel;
-    NSMutableArray *_matrixDescs;
-    NSMutableArray *_forwardMatricesOrNDArrays;
-    NSMutableArray *_gradientMatricesOrNDArrays;
-    NSArray *_shapes;
-    NSArray *_transposeLeft;
-    NSArray *_transposeRight;
-    NSArray *_gradientLeftRightMatrixSelectionFlags;
-    NSArray *_broadcastingFlags;
-    NSMutableArray *_reductionShapes;
 }
 
 + (id);
@@ -28,9 +16,9 @@
 - (id);
 - (id);
 - (id);
+- (void)k;
 - (void);
-- (void);
-- (void);
+- (void)];
 - (void);
 - (void);
 - (void);
@@ -41,27 +29,17 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)=+;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)setConstantValue:type:atIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *broadcastingFlags; // @synthesize broadcastingFlags=_broadcastingFlags;
-@property(retain, nonatomic) NSMutableArray *forwardMatricesOrNDArrays; // @synthesize forwardMatricesOrNDArrays=_forwardMatricesOrNDArrays;
-@property(retain, nonatomic) NSArray *gradientLeftRightMatrixSelectionFlags; // @synthesize gradientLeftRightMatrixSelectionFlags=_gradientLeftRightMatrixSelectionFlags;
-@property(retain, nonatomic) NSMutableArray *gradientMatricesOrNDArrays; // @synthesize gradientMatricesOrNDArrays=_gradientMatricesOrNDArrays;
 @property(retain, nonatomic) id matmulKernel; // @synthesize matmulKernel=_matmulKernel;
-@property(retain, nonatomic) NSMutableArray *matrixDescs; // @synthesize matrixDescs=_matrixDescs;
-@property(retain, nonatomic) id reduceSumKernel; // @synthesize reduceSumKernel=_reduceSumKernel;
-@property(retain, nonatomic) NSMutableArray *reductionShapes; // @synthesize reductionShapes=_reductionShapes;
-@property(retain, nonatomic) NSArray *shapes; // @synthesize shapes=_shapes;
-@property(retain, nonatomic) NSArray *transposeLeft; // @synthesize transposeLeft=_transposeLeft;
-@property(retain, nonatomic) NSArray *transposeRight; // @synthesize transposeRight=_transposeRight;
 
 @end
 

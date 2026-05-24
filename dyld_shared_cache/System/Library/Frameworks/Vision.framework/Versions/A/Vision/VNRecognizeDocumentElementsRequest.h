@@ -6,8 +6,6 @@
 
 #import <Vision/VNImageBasedRequest.h>
 
-@class NSArray, VNRecognizeDocumentElementsRequestElementConfiguration;
-
 @interface VNRecognizeDocumentElementsRequest : VNImageBasedRequest
 {
 }
@@ -18,17 +16,13 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)Temporary store destroyed successfully on success.;
 - (_Bool);
 - (id);
 - (_Bool)ÿùg¨Tx±ÿ;
 
 // Remaining properties
-@property(readonly) VNRecognizeDocumentElementsRequestElementConfiguration *documentElements;
 @property unsigned long long imageCropAndScaleOption;
-@property(readonly) VNRecognizeDocumentElementsRequestElementConfiguration *machineReadableCodeElements;
-@property(readonly, copy) NSArray *results; // @dynamic results;
-@property(readonly) VNRecognizeDocumentElementsRequestElementConfiguration *textElements;
 
 @end
 

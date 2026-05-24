@@ -9,21 +9,20 @@
 @interface CATTaskMessageIncrementalProgress : CATTaskMessage
 {
     long long _completedUnitCount;
-    long long _totalUnitCount;
 }
 
-+ (_Bool);
++ (_Bool)_unixDateNeedsLookup;
 - (id);
 - (void);
 - (long long);
 - (id);
-- (long long);
+- (long long)essage:client:-> void
+ /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)>_;
 
 // Remaining properties
 @property(nonatomic) long long completedUnitCount; // @synthesize completedUnitCount=_completedUnitCount;
-@property(nonatomic) long long totalUnitCount; // @synthesize totalUnitCount=_totalUnitCount;
 
 @end
 

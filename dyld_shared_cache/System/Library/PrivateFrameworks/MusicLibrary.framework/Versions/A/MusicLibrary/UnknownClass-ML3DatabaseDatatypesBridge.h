@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (ML3DatabaseDatatypesBridge)
-- (id);
-- (void);
+- (id)NSMutableArray",&,N,V_updatedContent;
+- (void)_updatePersonForFaceDetectionTypeIfNeededWithPossibleNewPerson:(struct sqlite3_stmt *)arg1;
 @end
 

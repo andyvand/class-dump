@@ -7,9 +7,6 @@
 @interface TeaUI.ProcessedImageRequest
 {
     id assetHandles;
-    id cacheIdentifier;
-    id size;
-    id imageRenderingMode;
 }
 
 @end

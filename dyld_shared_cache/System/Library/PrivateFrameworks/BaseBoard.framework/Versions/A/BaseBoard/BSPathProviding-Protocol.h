@@ -9,8 +9,6 @@
 @protocol BSPathProviding
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *cachesPath;
 @property(readonly, nonatomic) NSURL *defaultPath;
-@property(readonly, nonatomic) NSURL *libraryPath;
 @end
 

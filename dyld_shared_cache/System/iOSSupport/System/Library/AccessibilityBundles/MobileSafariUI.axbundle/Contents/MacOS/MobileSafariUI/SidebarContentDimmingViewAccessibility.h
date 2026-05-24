@@ -10,9 +10,9 @@
 {
 }
 
-+ (Class);
++ (Class)kCPListImageRowItemElementPlaybackConfigurationKey;
 + (id);
-+ (void);
++ (void);
 - (id);
 - (_Bool);
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface ABCNSaveResponse
 {
     NSMutableDictionary *_updatedGroups;
-    NSMutableArray *_successBlocks;
-    NSMutableArray *_errors;
 }
 
 - (id);
@@ -18,7 +16,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 
 @end
 

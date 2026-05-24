@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDateInterval, NSString;
+@class NSString;
 
 @interface GEORequestCounterCacheResults
 {
     int _requestKindRaw;
-    unsigned int _cacheHitCount;
-    unsigned int _cacheMissCount;
-    unsigned int _cacheExpiredCount;
-    NSString *_appId;
-    NSDate *_startTime;
-    NSDate *_endTime;
 }
 
 - (void);
@@ -32,29 +26,14 @@
 - (void);
 - (id)1Â0@ù
 × ;
-- (void)rences:(id)arg1;
+- (void)setCyclingUserPreferences:(id)arg1;
 - (id);
 - (void);
 - (int)ÿÿÿÿØÿÿÿÿÿÿÿÃÿÿÿÿÿÿÿÎÿÿÿÿÿÿÿÇÿÿÿÿÿÿÿÆÿÿÿÿÿÿÿÅÿÿÿÿÿÿÿÒÿÿÿÿÿÿÿÌÿÿÿÿÿÿÿñÿÿÿðÿÿÿøÿÿÿ÷ÿÿÿæÿÿÿíÿÿÿêÿÿÿöÿÿÿÜÿÿÿÿÿÿÿÊÿÿÿÿÿÿÿ×ÿÿÿÿÿÿÿÙÿÿÿÿÿÿÿñÿÿÿìÿÿÿðÿÿÿêÿÿÿïÿÿÿíÿÿÿîÿÿÿéÿÿÿóÿÿÿòÿÿÿöÿÿÿõÿÿÿðÿÿÿïÿÿÿñÿÿÿôÿÿÿÜÿÿÿÿÿÿÿÛÿÿÿÿÿÿÿ×ÿÿÿÿÿÿÿÔÿÿÿÿÿÿÿÒÿÿÿÿÿÿÿÖÿÿÿÿÿÿÿØÿÿÿÿÿÿÿÓÿÿÿÿÿÿÿéÿÿÿêÿÿÿëÿÿÿîÿÿÿèÿÿÿíÿÿÿìÿÿÿçÿÿÿÞÿÿÿÿÿÿÿÐÿÿÿÿÿÿÿÄÿÿÿÿÿÿÿÍÿÿÿÿÿÿÿÛÿÿÿÿÿÿÿÎÿÿÿÿÿÿÿÔÿÿÿÿÿÿÿÈÿÿÿÿÿÿÿüÿÿÿõÿÿÿòÿÿÿôÿÿÿàÿÿÿÿÿÿÿÉÿÿÿÿÿÿÿÖÿÿÿÿÿÿÿÒÿÿÿÿÿÿÿÙÿÿÿÿÿÿÿËÿÿÿÿÿÿÿ;
 - (void)U6Ó4;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *appId; // @synthesize appId=_appId;
-@property(nonatomic) unsigned int cacheExpiredCount; // @synthesize cacheExpiredCount=_cacheExpiredCount;
-@property(nonatomic) unsigned int cacheHitCount; // @synthesize cacheHitCount=_cacheHitCount;
-@property(nonatomic) unsigned int cacheMissCount; // @synthesize cacheMissCount=_cacheMissCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSDate *endTime; // @synthesize endTime=_endTime;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int requestKindRaw; // @synthesize requestKindRaw=_requestKindRaw;
-@property(readonly, nonatomic) int requestType;
-@property(retain, nonatomic) NSDate *startTime; // @synthesize startTime=_startTime;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSDateInterval *timeRange;
+@property(readonly, nonatomic) NSString *appId;
 
 @end
 

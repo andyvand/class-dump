@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSString;
 
 @interface STUniquedManagedObject
 {
 }
 
-- (void);
+- (void)ved1, reserved2, reserved3, reserved4, reserved5, keep_local, keep_local_status FROM container;
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSUUID *sortKey; // @dynamic sortKey;
 @property(readonly, nonatomic) NSString *uniqueIdentifier; // @dynamic uniqueIdentifier;
 
 @end

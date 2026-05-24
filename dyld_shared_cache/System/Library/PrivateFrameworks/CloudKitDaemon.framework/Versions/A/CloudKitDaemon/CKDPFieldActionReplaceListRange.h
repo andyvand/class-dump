@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPListRange, NSMutableArray;
+@class CKDPListRange;
 
 @interface CKDPFieldActionReplaceListRange
 {
     CKDPListRange *_range;
-    NSMutableArray *_values;
 }
 
 + (Class);
 - (_Bool);
 - (id);
 - (unsigned long long);
+- (void)getCurrentTransitSummary:(id)arg1 withError: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)letion callback.;
+- (_Bool);
 - (id);
 - (void);
 - (_Bool);
@@ -27,7 +26,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void)e capability check response for request %@;
 - (void)É)->;
@@ -35,8 +34,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasRange;
-@property(retain, nonatomic) CKDPListRange *range; // @synthesize range=_range;
-@property(retain, nonatomic) NSMutableArray *values; // @synthesize values=_values;
 
 @end
 

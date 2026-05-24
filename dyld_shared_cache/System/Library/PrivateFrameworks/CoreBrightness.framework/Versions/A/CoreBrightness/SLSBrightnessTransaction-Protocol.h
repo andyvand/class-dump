@@ -5,6 +5,11 @@
 //
 
 @protocol SLSBrightnessTransaction
+- (void)P;
+- (void)$4;
+- (void)Surface for plane %u (%#x)
+;
+- (void);
 - (void)ìQ8=Õxi=)\=çû©=¦Ä=ôýÔ=øSã=;
 @end
 

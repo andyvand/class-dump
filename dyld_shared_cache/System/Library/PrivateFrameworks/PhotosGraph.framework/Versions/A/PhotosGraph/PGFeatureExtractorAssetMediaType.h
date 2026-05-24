@@ -11,8 +11,8 @@
 }
 
 - (id);
-- (long long);
-- (id);
+- (long long)C;
+- (id)removeIconWithPageURLString:completionHandler: /* Error: Ran out of types for this method. */;
 - (id)PGHighlightTitlingQuestion;
 
 @end

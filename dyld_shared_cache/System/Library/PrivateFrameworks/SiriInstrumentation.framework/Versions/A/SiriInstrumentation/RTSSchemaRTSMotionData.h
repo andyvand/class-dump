@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface RTSSchemaRTSMotionData : SISchemaInstrumentationMessage
 {
@@ -14,7 +14,7 @@
 }
 
 - (void);
-- (void);
+- (void)q;
 - (void);
 - (void);
 - (id);
@@ -23,18 +23,17 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)Directory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDRegisterListenerOptions_macOS.m:18 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)messageIsAddressedToMe;
 - (id);
 - (id);
-- (id)nEdits;
+- (id)autoPunctuationEdits;
 - (id)ceMotionState;
 - (void)CEClientEvent.INFERENCEABModelEvaluated;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *accelerationDatas; // @synthesize accelerationDatas=_accelerationDatas;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

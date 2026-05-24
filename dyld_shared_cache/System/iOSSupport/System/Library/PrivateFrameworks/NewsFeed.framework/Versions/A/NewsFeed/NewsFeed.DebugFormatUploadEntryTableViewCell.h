@@ -7,13 +7,10 @@
 @interface NewsFeed.DebugFormatUploadEntryTableViewCell
 {
     id onDiffTap;
-    id showDiff;
-    id isDiffSelected;
-    id diffButton;
 }
 
 - (id);
-- (void);
+- (void)(A;
 - (id);
 - (void);
 

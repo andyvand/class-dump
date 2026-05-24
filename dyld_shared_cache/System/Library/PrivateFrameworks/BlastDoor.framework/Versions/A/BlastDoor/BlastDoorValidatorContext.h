@@ -19,8 +19,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) _Bool isBusiness;
-@property(nonatomic, readonly) long long mdMaxChatParticipantsIncoming;
 
 @end
 

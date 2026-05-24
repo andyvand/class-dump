@@ -9,28 +9,20 @@
 @interface TSUImage
 {
     struct CGImage *mCachedSliceableImage;
-    struct __CFDictionary *mImageSlices;
-    long long mImageSliceCacheLock;
-    id mCachedSystemImage;
-    long long mCachedImageLock;
 }
 
++ (id)Xw;
++ (id)ӭK_p28contentAvailabilityValidatort;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)bb;
 + (id);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGImage *CGImage;
 @property(readonly, nonatomic) UIImage *UIImage;
-@property(readonly, nonatomic) long long imageOrientation;
-@property(readonly, nonatomic) double scale;
-@property(readonly, nonatomic) struct CGSize size;
 
 @end
 

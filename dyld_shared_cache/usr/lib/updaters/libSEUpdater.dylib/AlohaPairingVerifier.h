@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, SETransceiveHelper;
+@class SETransceiveHelper;
 
 __attribute__((visibility("hidden")))
 @interface AlohaPairingVerifier
 {
     const struct AlohaVerificationOptions *_options;
     SETransceiveHelper *_transceiver;
-    NSData *_seid;
 }
 
 - (id);
@@ -22,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void));
 
 @end
 

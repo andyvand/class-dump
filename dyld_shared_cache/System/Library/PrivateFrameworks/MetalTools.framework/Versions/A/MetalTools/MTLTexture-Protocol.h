@@ -7,8 +7,15 @@
 @protocol MTLBuffer, MTLResource, MTLTexture;
 
 @protocol MTLTexture
-- (unsigned long long)tionFunctionWithSignature:withRange: /* Error: Ran out of types for this method. */;
-- (id <MTLBuffer>)TextureBytesPerRowForDescriptor: /* Error: Ran out of types for this method. */;
+- (id <MTLTexture>)X;
+- (id <MTLTexture>);
+- (_Bool)D;
+- (unsigned long long)H ;
+- (struct __IOSurface *);
+- (struct MTLResourceID)+
+;
+- (unsigned long long)setOpaqueCurveIntersectionFunctionWithSignature:withRange: /* Error: Ran out of types for this method. */;
+- (id <MTLBuffer>)requiredLinearTextureBytesPerRowForDescriptor: /* Error: Ran out of types for this method. */;
 - (unsigned long long)A;
 - (unsigned long long)functions which is not supported by the device;
 - (CDStruct_a06f635e)yless mode.;
@@ -16,44 +23,10 @@
 - (unsigned long long)missing bits set in command buffer protection options %016llx;
 - (unsigned long long)nstanceCount:baseVertex:baseInstance /* Error: Ran out of types for this method. */;
 
+@optional
+- (unsigned long long);
+
 // Remaining properties
-@property(readonly) _Bool allowGPUOptimizedContents;
-@property(readonly) unsigned long long arrayLength;
-@property(readonly) id <MTLBuffer> buffer;
-@property(readonly) unsigned long long bufferBytesPerRow;
-@property(readonly) unsigned long long bufferOffset;
-@property(readonly) long long compressionType;
-@property(readonly) unsigned long long depth;
-@property(readonly) unsigned long long firstMipmapInTail;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R
-
-@property(readonly, getter=isFramebufferOnly) _Bool framebufferOnly;
-@property(readonly) struct MTLResourceID gpuResourceID;
-@property(readonly) unsigned long long height;
-@property(readonly) struct __IOSurface *iosurface;
-@property(readonly) unsigned long long iosurfacePlane;
-@property(readonly) _Bool isSparse;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) unsigned long long mipmapLevelCount;
-@property(readonly) unsigned long long parentRelativeLevel;
-@property(readonly) unsigned long long parentRelativeSlice;
-@property(readonly) id <MTLTexture> parentTexture;
-@property(readonly) unsigned long long pixelFormat;
-@property(readonly) id <MTLTexture> remoteStorageTexture;
 @property(readonly) id <MTLResource> rootResource;
-@property(readonly) unsigned long long sampleCount;
-@property(readonly, getter=isShareable) _Bool shareable;
-@property(readonly) long long sparseTextureTier;
-@property(readonly, nonatomic) CDStruct_a06f635e swizzle;
-@property(readonly) unsigned long long tailSizeInBytes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R
-
-@property(readonly) unsigned long long textureType;
-@property(readonly) unsigned long long usage;
-@property(readonly) unsigned long long width;
 @end
 

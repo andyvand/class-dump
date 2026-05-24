@@ -7,7 +7,6 @@
 @interface NewsFeed.LayeredMediaLayerProviderFactory
 {
     id variantFactory;
-    id layersCache;
 }
 
 @end

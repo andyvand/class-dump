@@ -4,39 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_data, OS_nw_endpoint, OS_nw_interface, OS_nw_path_evaluator;
+@class NSObject;
+@protocol OS_nw_interface;
 
 __attribute__((visibility("hidden")))
 @interface NWConcrete_nw_interface_option_details
 {
     NSObject<OS_nw_interface> *interface;
-    NSObject<OS_nw_path_evaluator> *evaluator;
-    NSObject<OS_nw_endpoint> *remote;
-    unsigned char nexus_agent[16];
-    BOOL priority;
-    NSObject<OS_dispatch_data> *local_cid;
-    NSObject<OS_dispatch_data> *remote_cid;
-    NSObject<OS_dispatch_data> *initial_data;
-    int sockfd;
-    _Bool injected;
 }
 
-- (void);
+- (void)h color location count:%ld /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void)@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

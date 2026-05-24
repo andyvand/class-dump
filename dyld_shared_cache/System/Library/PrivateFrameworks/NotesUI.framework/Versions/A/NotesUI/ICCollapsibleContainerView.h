@@ -16,7 +16,7 @@
 - (void);
 - (void);
 - (id);
-- (void)ilterSubstringAttributesForPlainText;
+- (void)_filterSubstringAttributesForPlainText;
 
 // Remaining properties
 @property(retain, nonatomic) NSView *containedView; // @synthesize containedView=_containedView;

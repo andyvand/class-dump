@@ -17,7 +17,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) int endOffset;
 @property(nonatomic) int startOffset;
 
 @end

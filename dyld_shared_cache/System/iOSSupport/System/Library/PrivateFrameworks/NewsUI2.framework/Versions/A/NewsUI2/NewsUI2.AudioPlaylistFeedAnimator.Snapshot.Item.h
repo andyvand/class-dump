@@ -7,10 +7,6 @@
 @interface NewsUI2.AudioPlaylistFeedAnimator.Snapshot.Item
 {
     id view;
-    id kind;
-    id snapshot;
-    id layoutAttributes;
-    id absoluteFrame;
 }
 
 @end

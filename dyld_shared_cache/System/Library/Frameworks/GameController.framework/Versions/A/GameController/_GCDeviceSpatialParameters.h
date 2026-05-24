@@ -12,14 +12,13 @@ __attribute__((visibility("hidden")))
 @interface _GCDeviceSpatialParameters : GCDeviceObjectParameters
 {
     NSNumber *_trackingSourceIOServiceRegistryID;
-    long long _inherentChirality;
 }
 
 + (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)setValue:(struct _NSZone *)arg1 forHTTPHeaderField: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

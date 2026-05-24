@@ -10,20 +10,16 @@ __attribute__((visibility("hidden")))
 @interface SHKSharingServicePickerMenuItemConfig
 {
     NSView *_view;
-    unsigned long long _preferredEdge;
-    struct CGRect _rect;
 }
 
 - (id);
 - (unsigned long long);
 - (struct CGRect);
 - (id);
-- (void);
+- (void)k/Versions/A/CoreGraphics;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long preferredEdge; // @synthesize preferredEdge=_preferredEdge;
 @property(readonly, nonatomic) struct CGRect rect; // @synthesize rect=_rect;
-@property(readonly, nonatomic) __weak NSView *view; // @synthesize view=_view;
 
 @end
 

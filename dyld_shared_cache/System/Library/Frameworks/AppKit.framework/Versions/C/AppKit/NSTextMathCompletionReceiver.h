@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TUIKeyboardCandidateMultiplexer, _NSTextCompletionContext;
+@class TUIKeyboardCandidateMultiplexer;
 
 __attribute__((visibility("hidden")))
 @interface NSTextMathCompletionReceiver
 {
     TUIKeyboardCandidateMultiplexer *_multiplexer;
-    _NSTextCompletionContext *_mathContext;
 }
 
 - (void);
@@ -19,14 +18,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)negotiatedTLSCipherSuite;
+- (void)NSURLAuthenticationMethodHTMLForm;
 - (void);
 - (void)8Àø¤@Ð°;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) _NSTextCompletionContext *mathContext; // @synthesize mathContext=_mathContext;
 @property(retain, nonatomic) TUIKeyboardCandidateMultiplexer *multiplexer; // @synthesize multiplexer=_multiplexer;
 
 @end

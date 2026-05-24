@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface CKDPCSKeySyncManager
 {
     NSMutableDictionary *_keySyncTrackerByServiceNameByAccount;
-    NSObject<OS_dispatch_queue> *_keySyncQueue;
 }
 
 + (void);
@@ -23,7 +21,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -35,7 +33,6 @@
 - (void)ùÿôò;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *keySyncQueue; // @synthesize keySyncQueue=_keySyncQueue;
 @property(retain, nonatomic) NSMutableDictionary *keySyncTrackerByServiceNameByAccount; // @synthesize keySyncTrackerByServiceNameByAccount=_keySyncTrackerByServiceNameByAccount;
 
 @end

@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSOrderedSet, NSSet, NSString, REMAccountCapabilities, REMAccountGroupContext, REMAccountStorage, REMAccountTemplatesContext, REMCRMergeableOrderedSet, REMObjectID, REMResolutionTokenMap, REMStore;
-
 @interface REMAccount
 {
     _Bool _markedForRemoval;
-    REMStore *_store;
-    REMAccountStorage *_storage;
-    REMAccountCapabilities *_capabilities;
 }
 
-+ (id);
++ (id)CHRecognitionOptionShouldRefineCandidates;
 + (id);
 + (_Bool);
 + (id);
@@ -35,70 +30,32 @@
 - (id);
 - (unsigned long long);
 - (id);
+- (id)a softwareupdated;
 - (id);
-- (id);
-- (id);
+- (id)initWithConnectionIdentifier:destinationAppleID:userInfo: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool)_EXQueryController"16@"NSOrderedCollectionDifference"24;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (id)P;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
 - (_Bool);
 - (id);
 - (void);
 - (_Bool);
+- (id);
 - (void);
 - (_Bool);
 - (void);
-- (id)AY_CREATION_EVENING;
+- (_Bool);
+- (void);
+- (id)TIME_OF_DAY_CREATION_EVENING;
 - (id)sData.length %ld, storages.count:%ld} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) REMAccountCapabilities *capabilities; // @synthesize capabilities=_capabilities;
-@property(readonly, nonatomic) _Bool daAllowsCalendarAddDeleteModify; // @dynamic daAllowsCalendarAddDeleteModify;
-@property(readonly, nonatomic) NSString *daConstraintsDescriptionPath; // @dynamic daConstraintsDescriptionPath;
-@property(readonly, nonatomic) NSString *daPushKey; // @dynamic daPushKey;
-@property(readonly, nonatomic) _Bool daSupportsPhoneNumbers;
-@property(readonly, nonatomic) _Bool daSupportsSharedCalendars; // @dynamic daSupportsSharedCalendars;
-@property(readonly, nonatomic) NSString *daSyncToken; // @dynamic daSyncToken;
-@property(readonly, nonatomic) _Bool daWasMigrated; // @dynamic daWasMigrated;
-@property(readonly, nonatomic) _Bool debugSyncDisabled; // @dynamic debugSyncDisabled;
-@property(readonly, nonatomic) _Bool didChooseToMigrate; // @dynamic didChooseToMigrate;
-@property(readonly, nonatomic) _Bool didChooseToMigrateLocally; // @dynamic didChooseToMigrateLocally;
-@property(readonly, nonatomic) _Bool didFinishMigration; // @dynamic didFinishMigration;
-@property(retain, nonatomic) NSString *displayName; // @dynamic displayName;
-@property(readonly, nonatomic) long long effectiveMinimumSupportedVersion; // @dynamic effectiveMinimumSupportedVersion;
-@property(readonly, nonatomic) NSString *externalIdentifier; // @dynamic externalIdentifier;
-@property(readonly, nonatomic) NSString *externalModificationTag; // @dynamic externalModificationTag;
-@property(readonly, nonatomic) REMAccountGroupContext *groupContext;
-@property(readonly, nonatomic) _Bool inactive; // @dynamic inactive;
-@property(readonly, nonatomic) REMCRMergeableOrderedSet *listIDsMergeableOrdering; // @dynamic listIDsMergeableOrdering;
-@property(readonly, nonatomic) NSData *listIDsMergeableOrderingData; // @dynamic listIDsMergeableOrderingData;
-@property(readonly, nonatomic) NSOrderedSet *listIDsOrdering;
-@property(readonly, nonatomic) NSSet *listIDsToUndelete; // @dynamic listIDsToUndelete;
-@property(readonly, nonatomic) _Bool listsDADisplayOrderChanged; // @dynamic listsDADisplayOrderChanged;
 @property(nonatomic) _Bool markedForRemoval; // @synthesize markedForRemoval=_markedForRemoval;
-@property(readonly, nonatomic) long long minimumSupportedVersion; // @dynamic minimumSupportedVersion;
-@property(readonly, nonatomic) NSString *name; // @dynamic name;
-@property(readonly, nonatomic) REMObjectID *objectID; // @dynamic objectID;
-@property(readonly, nonatomic) long long persistenceCloudSchemaVersion; // @dynamic persistenceCloudSchemaVersion;
-@property(copy, nonatomic) NSString *personID; // @dynamic personID;
-@property(copy, nonatomic) NSData *personIDSalt; // @dynamic personIDSalt;
-@property(readonly, nonatomic) REMObjectID *remObjectID;
-@property(readonly, nonatomic) REMResolutionTokenMap *resolutionTokenMap; // @dynamic resolutionTokenMap;
-@property(readonly, nonatomic) NSData *resolutionTokenMapData; // @dynamic resolutionTokenMapData;
-@property(readonly, nonatomic) NSSet *smartListIDsToUndelete; // @dynamic smartListIDsToUndelete;
-@property(readonly, copy, nonatomic) REMAccountStorage *storage; // @synthesize storage=_storage;
-@property(retain, nonatomic) REMStore *store; // @synthesize store=_store;
-@property(readonly, nonatomic) _Bool supportsSharingLists;
-@property(readonly, nonatomic) REMAccountTemplatesContext *templatesContext;
-@property(readonly, nonatomic) long long type; // @dynamic type;
 
 @end
 

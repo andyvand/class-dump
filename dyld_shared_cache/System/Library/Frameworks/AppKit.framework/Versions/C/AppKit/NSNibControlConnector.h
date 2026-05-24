@@ -12,7 +12,7 @@
 
 + (void)ºò\WH;
 - (void);
-- (id);
+- (id)ublic}s;
 - (void)Qß3ð1Â0@ù
 × ;
 

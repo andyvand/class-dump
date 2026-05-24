@@ -17,8 +17,8 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (void)ver XPC;
+- (void)K;
 - (void);
 
 // Remaining properties

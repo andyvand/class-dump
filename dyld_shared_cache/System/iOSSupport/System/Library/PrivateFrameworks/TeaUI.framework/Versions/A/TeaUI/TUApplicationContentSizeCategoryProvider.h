@@ -10,7 +10,7 @@
 {
 }
 
-- (id);
+- (id)tagsExpirationLists;
 - (id);
 
 // Remaining properties

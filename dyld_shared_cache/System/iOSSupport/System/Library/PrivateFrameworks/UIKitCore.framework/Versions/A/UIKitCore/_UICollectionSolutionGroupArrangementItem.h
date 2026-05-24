@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCollectionLayoutItem, _UICollectionLayoutItemSolver;
+@class _UICollectionLayoutItemSolver;
 
 __attribute__((visibility("hidden")))
 @interface _UICollectionSolutionGroupArrangementItem
@@ -22,9 +22,7 @@ __attribute__((visibility("hidden")))
 - (id)L@ÿãòÐhgc;
 
 // Remaining properties
-@property(readonly, nonatomic) NSCollectionLayoutItem *item;
 @property(nonatomic) struct CGRect layoutFrame; // @synthesize layoutFrame=_layoutFrame;
-@property(readonly, nonatomic) _UICollectionLayoutItemSolver *solution; // @synthesize solution=_solution;
 
 @end
 

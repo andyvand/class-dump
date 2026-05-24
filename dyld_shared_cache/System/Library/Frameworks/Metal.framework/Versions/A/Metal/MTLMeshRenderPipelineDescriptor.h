@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLLinkedFunctions, MTLPipelineBufferDescriptorArray, MTLRenderPipelineColorAttachmentDescriptorArray, NSArray, NSString;
-@protocol MTLFunction;
+@class NSString;
 
 @interface MTLMeshRenderPipelineDescriptor
 {
@@ -23,15 +22,63 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)convert_rgbh_to_rgbah;
+- (void)(((v.x * s.y) - (v.y * s.x)) / max(length(s), 0.01));
+  dist = compare((v.x * s.x) + (v.y * s.y), length(v), dist);
+  w = p - p2;
+  dist = compare((w.x * s.x) + (w.y * s.y), dist, length(w));
+  interpolant = clamp(hw - dist, 0.0, 1.0);
+  interpolant = ((3.0 - (2.0 * interpolant)) * interpolant) * interpolant;
+  return compare(vec4(dist - (hw - 1.0)), color, compare(vec4(dist - hw), color * interpolant, vec4(0.0))) * opacity;
+}
+;
+- (void)4 _highlightsAndShadows2(vec4 pix, vec4 blur, vec4 params) {
+  float rgbFactor = dot(vec3(1.0, 8.000000e-01, 1.100), max(pix.rgb, 0.0)) / max(0.001, (pix.r + pix.g) + pix.b);
+  float shadAmt = params.x * pow(min(rgbFactor, 1.0), 1.0 - params.x);
+  vec3 shadExp = mix(pow(vec3(2.0), (-shadAmt) - blur.rgb), vec3(1.0), params.z);
+  float blurLum2 = max(0.0, max(max(blur.r, blur.g), blur.b));
+  float blurLum = sqrt(blurLum2);
+  float kGain = 0.5 + (0.5 * smoothstep(0.5, 1.0, params.x));
+  float newGain = shadAmt;
+  vec3 neg = min(pix.rgb, 0.0);
+  vec3 shad = ((1.0 + newGain) * pow(max(pix.rgb, 0.0) * kGain, shadExp)) * 2.0;
+  vec3 ycc = ((pix.r * vec3(0.299, 5.960000e-01, 2.120000e-01)) + (pix.g * vec3(0.587, -2.755000e-01, -5.230000e-01))) + (pix.b * vec3(0.114, -3.210000e-01, 3.110000e-01));
+  float Y = pow(max(ycc.r, 0.0) * kGain, shadExp.r) * 2.0;
+  vec3 shad2 = ((Y * vec3(1.00048, 9.998640e-01, 9.994460e-01)) + (ycc.g * vec3(9.555580e-01, -2.715450e-01, -1.10803))) + (ycc.b * vec3(6.195490e-01, -6.467860e-01, 1.70542));
+  shad = mix(shad, shad2, 3.500000e-01);
+  shad = mix(pix.rgb, shad, smoothstep(0.0, 0.1 + shadAmt, sqrt(blurLum)));
+  shad = mix(shad, pix.rgb, blurLum);
+  vec3 high = sign(pix.rgb) * pow(abs(pix.rgb) * params.w, vec3(2.0 - params.y));
+  Y = dot(high, vec3(0.299, 0.587, 0.114));
+  float effectAmount = max(max(((((-2.600) * Y) * Y) - (2.600 * Y)) + 9.800000e-01, ((((-6.250) * Y) * Y) - (6.250 * Y)) + 5.965000e-01), 1.0);
+  float kHighMix = 1.0 + ((1.0 - min(1.0, params.y + 0.3)) * 4.000000e-01);
+  vec3 mid = mix(vec3(0.25), high, kHighMix);
+  float highBoost = min(effectAmount, 3.000000e+01 * blurLum2) * (1.0 - params.y);
+  high = mix(high, mid, highBoost);
+  high = mix(pix.rgb, high, smoothstep(2.000000e-01, 8.000000e-01, blurLum));
+  high = mix(pix.rgb, high, blurLum2);
+  vec4 result;
+  result.rgb = mix(shad, high, min(blurLum, 1.0));
+  Y = dot(result.rgb, vec3(0.299, 0.587, 0.114));
+  effectAmount = max(max(((((-2.600) * Y) * Y) - (2.600 * Y)) + 9.800000e-01, ((((-6.250) * Y) * Y) - (6.250 * Y)) + 5.965000e-01), 1.0);
+  float midAmt = (abs(shadAmt) * 0.1) * (1.0 - params.z);
+  mid = mix(vec3(0.5), result.rgb, 1.0 + midAmt);
+  result.rgb = mix(result.rgb, mid, min(effectAmount, 3.000000e+01 * blurLum2));
+  result.rgb = max(result.rgb, 0.0) + neg;
+  result.a = pix.a;
+  return result;
+}
+;
+- (void)return 1.0 - (abs(a - aI) / max(a + aI, 1e-4));
+}
+;
+- (id).0);
+}
+;
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)J;
 - (void);
 - (void);
 - (void);
@@ -52,18 +99,22 @@
 - (unsigned long long);
 - (void);
 - (unsigned long long);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (unsigned char);
+- (void)CGImagePixelDataProviderCreateConforming returned NULL.
+
+;
+- (unsigned long long)alpha-one?
+;
+- (void)expected number of layers:(_Bool)arg1 %d
+;
+- (void)X;
+- (void)SpectroscopyAcquisitionDataColumns;
+- (unsigned char)ReceivingApplicationEntityTitle;
 - (id);
-- (void);
+- (void)Փ;
 - (id);
 - (unsigned long long);
 - (long long);
-- (void);
+- (void)c;
 - (void);
 - (id);
 - (void);
@@ -72,7 +123,7 @@
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)A;
 - (float);
 - (id);
 - (unsigned long long);
@@ -80,31 +131,31 @@
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)(;
 - (unsigned int);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
-- (void);
+- (unsigned long long)lightsalmon;
+- (void)blanchedalmond;
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)mitComposition];
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (CDStruct_da2e99ad);
+- (CDStruct_da2e99ad);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (unsigned int);
 - (unsigned long long);
@@ -128,11 +179,11 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
+- (void);
 - (void);
+- (id)mpatibility. Apple decoders will not be able to decode this HEVC with Alpha stream. To fix this in the encoder, for the primary alpha layer, NumDirectRefLayers must be 0 and poc_lsb_not_present_flag must be 1;
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)Z2;
 - (id);
 - (_Bool);
 - (id);
@@ -141,7 +192,7 @@
 - (long long);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -158,15 +209,15 @@
 × ;
 - (unsigned long long)1Â0@ù
 × ;
-- (void)FunctionTableFromTileStageWithDescriptor:(id)arg1;
+- (void)newVisibleFunctionTableFromTileStageWithDescriptor:(id)arg1;
 - (id)|;
 - (id)Ì,4/
  0;
 - (id);
-- (_Bool)RGB;
+- (_Bool)PVRTC_RGB_2BPP_sRGB;
 - (void);
 - (void)|;
-- (long long)ended;
+- (long long)errorCheckExtended;
 - (void)is not a NSString.;
 - (id)tation;
 - (id)=;
@@ -191,35 +242,7 @@
 - (void)ãÿã3;
 
 // Remaining properties
-@property(nonatomic, getter=isAlphaToCoverageEnabled) _Bool alphaToCoverageEnabled;
-@property(nonatomic, getter=isAlphaToOneEnabled) _Bool alphaToOneEnabled;
-@property(copy, nonatomic) NSArray *binaryArchives;
-@property(readonly) MTLRenderPipelineColorAttachmentDescriptorArray *colorAttachments;
-@property(nonatomic) unsigned long long depthAttachmentPixelFormat;
-@property(readonly) MTLPipelineBufferDescriptorArray *fragmentBuffers;
-@property(retain, nonatomic) id <MTLFunction> fragmentFunction;
-@property(copy, nonatomic) MTLLinkedFunctions *fragmentLinkedFunctions;
 @property(copy, nonatomic) NSString *label;
-@property(nonatomic) unsigned long long maxTotalThreadgroupsPerMeshGrid;
-@property(nonatomic) unsigned long long maxTotalThreadsPerMeshThreadgroup;
-@property(nonatomic) unsigned long long maxTotalThreadsPerObjectThreadgroup;
-@property(nonatomic) unsigned long long maxVertexAmplificationCount;
-@property(readonly) MTLPipelineBufferDescriptorArray *meshBuffers;
-@property(retain, nonatomic) id <MTLFunction> meshFunction;
-@property(copy, nonatomic) MTLLinkedFunctions *meshLinkedFunctions;
-@property(nonatomic) _Bool meshThreadgroupSizeIsMultipleOfThreadExecutionWidth;
-@property(readonly) MTLPipelineBufferDescriptorArray *objectBuffers;
-@property(retain, nonatomic) id <MTLFunction> objectFunction;
-@property(copy, nonatomic) MTLLinkedFunctions *objectLinkedFunctions;
-@property(nonatomic) _Bool objectThreadgroupSizeIsMultipleOfThreadExecutionWidth;
-@property(nonatomic) unsigned long long payloadMemoryLength;
-@property(nonatomic) unsigned long long rasterSampleCount;
-@property(nonatomic, getter=isRasterizationEnabled) _Bool rasterizationEnabled;
-@property(nonatomic) CDStruct_da2e99ad requiredThreadsPerMeshThreadgroup;
-@property(nonatomic) CDStruct_da2e99ad requiredThreadsPerObjectThreadgroup;
-@property(nonatomic) long long shaderValidation;
-@property(nonatomic) unsigned long long stencilAttachmentPixelFormat;
-@property(nonatomic) _Bool supportIndirectCommandBuffers;
 
 @end
 

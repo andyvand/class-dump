@@ -6,30 +6,11 @@
 
 #import <PencilKit/PKStroke.h>
 
-@class NSArray, NSUUID, PKInk, PKStrokeMask, PKStrokePath, _PKStrokeClipPlane;
+@class NSArray;
 
 @interface _PKStrokeConcrete : PKStroke
 {
     shared_ptr_ad015234 _unknownFields;
-    struct CGRect _cachedBounds;
-    PKInk *_ink;
-    CDStruct_3593b622 _flags;
-    NSUUID *_strokeUUID;
-    PKStrokePath *_strokeData;
-    struct _PKStrokeID _substrokesVersion;
-    NSArray *_substrokes;
-    _PKStrokeClipPlane *_clipPlane;
-    PKStrokeMask *_strokeMask;
-    NSUUID *_groupID;
-    NSUUID *_renderGroupID;
-    long long _shapeType;
-    struct CGAffineTransform _transform;
-    struct CGAffineTransform _inkTransform;
-    struct CGPoint _anchorPointForTexture;
-    double _particleOffset;
-    double _secondaryParticleOffset;
-    struct _PKStrokeID _sortID;
-    struct _PKStrokeID _version;
 }
 
 + (void);
@@ -45,17 +26,17 @@
 - (unsigned int);
 - (void);
 - (void);
-- (struct CGRect);
+- (struct CGRect);
 - (struct _PKStrokeID);
 - (struct _PKStrokeID);
 - (struct _PKStrokePoint);
-- (struct CGPoint);
+- (struct CGPoint)P;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -70,7 +51,7 @@
 - (id);
 - (id);
 - (struct _PKStrokeID);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -90,7 +71,7 @@
 - (void);
 - (struct CGAffineTransform);
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (struct CGPoint);
 - (void);
@@ -105,31 +86,27 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)isFrozen;
 - (struct _PKStrokeID);
+- (void)MPModelPropertyTVSeasonDownloadedDate;
 - (void);
 - (void);
-- (void);
-- (CDStruct_3593b622);
-- (struct CGAffineTransform);
+- (CDStruct_b73f67e6);
+- (struct CGAffineTransform);
+- (id)rogressChangeHandler;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)hasDidDisplayHandleOptions;
+- (void)countBigramMatchInSubject;
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)baseUrlForTreatmentsWithNamespaceName: /* Error: Ran out of types for this method. */;
 - (void);
-- (id)rPointForTexture:(id)arg1;
+- (id)copyWithNewAnchorPointForTexture:(id)arg1;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool _isFullyHidden;
-@property(nonatomic) struct _PKStrokeID _sortID; // @synthesize _sortID;
 @property(retain, nonatomic) NSArray *_substrokes; // @synthesize _substrokes;
-@property(nonatomic) struct _PKStrokeID _substrokesVersion; // @synthesize _substrokesVersion;
-@property(nonatomic) struct _PKStrokeID _version; // @synthesize _version;
 
 @end
 

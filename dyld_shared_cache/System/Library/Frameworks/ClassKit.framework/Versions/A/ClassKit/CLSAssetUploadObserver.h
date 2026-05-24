@@ -4,26 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSAsset, NSError;
+@class CLSAsset;
 
 @interface CLSAssetUploadObserver
 {
     _Bool _uploaded;
-    double uploadProgress;
-    NSError *uploadError;
-    CLSAsset *_asset;
-    CDUnknownBlockType _onUploadProgress;
-    CDUnknownBlockType _onUploadComplete;
 }
 
-- (double);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (double)ted ANE device at index %d based on subType match
+;
+- (void)ncFrameDone:(CDUnknownBlockType)arg1 Request received for different program!! programHandle:0x%llx, req->transactionID=0x%llx, reqCb->transactionID=0x%llx
+ /* Error: Ran out of types for this method. */;
+- (void)lx;
+- (CDUnknownBlockType)teProgramFvmlib *ZinComputeProgramFindFvmlibSpan(std::span<ZinComputeProgramFvmlib> &, const ZinComputeProgramSection *) /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)able kernel section
+;
 - (void);
 - (_Bool);
-- (void);
+- (void)
+J	;
 - (void);
 - (void);
 - (id);
@@ -33,11 +32,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CLSAsset *asset; // @synthesize asset=_asset;
-@property(copy, nonatomic) CDUnknownBlockType onUploadComplete; // @synthesize onUploadComplete=_onUploadComplete;
-@property(copy, nonatomic) CDUnknownBlockType onUploadProgress; // @synthesize onUploadProgress=_onUploadProgress;
-@property(readonly) NSError *uploadError; // @synthesize uploadError;
-@property(readonly) double uploadProgress; // @synthesize uploadProgress;
-@property(nonatomic, getter=isUploaded) _Bool uploaded; // @synthesize uploaded=_uploaded;
 
 @end
 

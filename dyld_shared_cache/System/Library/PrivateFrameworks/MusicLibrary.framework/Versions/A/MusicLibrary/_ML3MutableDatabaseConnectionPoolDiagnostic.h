@@ -12,16 +12,13 @@
 {
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)_cloudResourceWidgetMaxResourcesPerFetch;
+- (void)_cloudResourceThumbnailsMaxResourcesPerFetch;
+- (void)_clearSourceShortcuts;
+- (void)_clearOverallAestheticScore;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *readerAvailableConnections; // @dynamic readerAvailableConnections;
-@property(copy, nonatomic) NSArray *readerBusyConnections; // @dynamic readerBusyConnections;
-@property(copy, nonatomic) NSArray *writerAvailableConnections; // @dynamic writerAvailableConnections;
-@property(copy, nonatomic) NSArray *writerBusyConnections; // @dynamic writerBusyConnections;
 
 @end
 

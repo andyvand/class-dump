@@ -6,28 +6,19 @@
 
 #import <GeoServices/GEOXPCReply.h>
 
-@class NSString;
-
 @interface GEOPlaceFreeSpaceReply : GEOXPCReply
 {
     unsigned long long _freedBytes;
 }
 
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
-- (_Bool);
-- (void)rames;
+- (_Bool)=;
+- (void)labelFrames;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) unsigned long long freedBytes; // @synthesize freedBytes=_freedBytes;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

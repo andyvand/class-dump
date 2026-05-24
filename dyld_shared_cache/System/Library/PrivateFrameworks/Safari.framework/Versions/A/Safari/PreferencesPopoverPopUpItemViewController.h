@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, NSTextField, PerSitePreferencePopUpButton;
+@class NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface PreferencesPopoverPopUpItemViewController
 {
     NSTextField *_preferenceTitleTextField;
-    PerSitePreferencePopUpButton *_permissionsPopUpButton;
-    NSLayoutConstraint *_permissionsPopUpButtonTopConstraint;
-    NSLayoutConstraint *_permissionsPopUpButtonBottomConstraint;
 }
 
 - (void);
 - (void);
+- (void)!;
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak PerSitePreferencePopUpButton *permissionsPopUpButton; // @synthesize permissionsPopUpButton=_permissionsPopUpButton;
-@property(nonatomic) __weak NSLayoutConstraint *permissionsPopUpButtonBottomConstraint; // @synthesize permissionsPopUpButtonBottomConstraint=_permissionsPopUpButtonBottomConstraint;
-@property(nonatomic) __weak NSLayoutConstraint *permissionsPopUpButtonTopConstraint; // @synthesize permissionsPopUpButtonTopConstraint=_permissionsPopUpButtonTopConstraint;
 @property(nonatomic) __weak NSTextField *preferenceTitleTextField; // @synthesize preferenceTitleTextField=_preferenceTitleTextField;
 
 @end

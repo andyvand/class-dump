@@ -7,10 +7,11 @@
 @class GEOMapServiceTraits, NSArray;
 
 @protocol GEOMapServiceSpatialPlaceLookupTicket
-- (NSArray *)rializedPlaceData: /* Error: Ran out of types for this method. */;
+- (GEOMapServiceTraits *);
+- (void)b1"locationPulseEnabled"b1"shouldSplitRouteLine"b1"shouldAnimatePositionWithRouteMatch"b1"clearUserLocationOnLocationReset"b1"showsCurrentEnvironmentName"b1"processingUserLocationUpdate"b1"changingMapType"b1"userRotatedAwayFromVerticalYaw"b1"goingToDefaultLocation"b1"isDraggingAnnotationView"b1"shouldLoadFallbackTiles"b1"iconPixelAlignmentExplicitlyDisabled"b1"userDidRotateDuringCurrentRegionChange"b1"useLayoutMargins"b1"delegateDidChangeUserTrackingMode"b1};
+- (NSArray *)mapItemStorageForSerializedPlaceData: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *parameters;
-@property(readonly, nonatomic) GEOMapServiceTraits *traits;
 @end
 

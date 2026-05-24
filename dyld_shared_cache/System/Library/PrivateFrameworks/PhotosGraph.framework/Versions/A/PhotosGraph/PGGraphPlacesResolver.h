@@ -8,8 +8,8 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id)ACMRequirementGetProperty;
++ (id)ACMContextReplacePassphraseCredentialsWithScope;
 + (id);
 + (id);
 + (id);

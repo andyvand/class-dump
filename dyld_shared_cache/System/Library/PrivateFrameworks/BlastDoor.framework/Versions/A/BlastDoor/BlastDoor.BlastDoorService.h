@@ -7,8 +7,6 @@
 @interface BlastDoor.BlastDoorService
 {
     id queue;
-    id connection;
-    id instanceType;
 }
 
 @end

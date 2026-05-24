@@ -4,31 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioFormat;
-
 @interface TTSAudioFormat
 {
     struct AudioStreamBasicDescription streamDescription;
-    unsigned int channelLayoutTag;
 }
 
 - (void);
 - (id);
 - (unsigned int);
 - (id);
-- (void);
-- (id);
+- (void)timeToLeaveAttributedStringWithAttributes:(struct AudioStreamBasicDescription)arg1 hypothesis:location: /* Error: Ran out of types for this method. */;
+- (id)xbs/TemporaryDirectory.ZMSfoZ/Sources/AVConference/AVConference.subproj/Sources/Others/VCVideoEncoder_VCP.c:(struct AudioStreamBasicDescription)arg1 %d:VCPCompressionSessionEncodeMultiImageFrame failed(%08X) /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
-- (struct AudioStreamBasicDescription);
+- (struct AudioStreamBasicDescription)racters:%{public}ld after:%{public}@ untilCharacterFromSet:%{public}@. Now composing '%{private}@' (length:%{public}lu) /* Error: Ran out of types for this method. */;
 - (double);
 - (unsigned int)ZÞÿ%Í ;
 
 // Remaining properties
-@property(nonatomic, readonly) AVAudioFormat *avFormat;
-@property(nonatomic, readonly) unsigned int channelCount;
-@property(nonatomic) unsigned int channelLayoutTag; // @synthesize channelLayoutTag;
-@property(nonatomic, readonly) double sampleRate;
 @property(nonatomic) struct AudioStreamBasicDescription streamDescription; // @synthesize streamDescription;
 
 @end

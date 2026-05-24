@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)command.;
 - (void);
 
 // Remaining properties

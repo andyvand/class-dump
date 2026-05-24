@@ -4,45 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString;
-
 @interface PKMerchantTokenUsageMetadata
 {
     long long _updateSequenceNumber;
-    NSDate *_updateDate;
-    NSDate *_defaultExpirationDate;
-    NSDate *_maximumExpirationDate;
-    NSString *_ciphersuite;
-    NSData *_merchantTokenPublicKeyHash;
-    NSData *_ephemeralPublicKey;
-    NSData *_merchantPublicKey;
-    NSData *_infoHash;
-    NSData *_data;
 }
 
-- (long long);
+- (long long)	)qS$;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id)ion:(id)arg1;
+- (id);
+- (id)setAssociationDuration: /* Error: Ran out of types for this method. */;
+- (id)accountStatementMetadataForAllAccountsWithCompletion:(id)arg1;
 - (void)D:'%@';  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *ciphersuite; // @synthesize ciphersuite=_ciphersuite;
-@property(readonly, copy, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, nonatomic) NSDate *defaultExpirationDate; // @synthesize defaultExpirationDate=_defaultExpirationDate;
-@property(readonly, copy, nonatomic) NSData *ephemeralPublicKey; // @synthesize ephemeralPublicKey=_ephemeralPublicKey;
-@property(readonly, copy, nonatomic) NSData *infoHash; // @synthesize infoHash=_infoHash;
-@property(readonly, nonatomic) NSDate *maximumExpirationDate; // @synthesize maximumExpirationDate=_maximumExpirationDate;
-@property(readonly, copy, nonatomic) NSData *merchantPublicKey; // @synthesize merchantPublicKey=_merchantPublicKey;
-@property(readonly, copy, nonatomic) NSData *merchantTokenPublicKeyHash; // @synthesize merchantTokenPublicKeyHash=_merchantTokenPublicKeyHash;
-@property(readonly, nonatomic) NSDate *updateDate; // @synthesize updateDate=_updateDate;
 @property(readonly, nonatomic) long long updateSequenceNumber; // @synthesize updateSequenceNumber=_updateSequenceNumber;
 
 @end

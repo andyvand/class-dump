@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MNTraceNetworkEvent
 {
     _Bool _cellEnabled;
-    _Bool _wifiEnabled;
-    _Bool _nlcEnabled;
-    double _timestamp;
-    NSString *_nlcProfile;
 }
 
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)7`Z
+;
+- (_Bool)s
+;
 - (void);
 - (void);
 - (_Bool);
@@ -31,19 +27,7 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool cellEnabled; // @synthesize cellEnabled=_cellEnabled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool nlcEnabled; // @synthesize nlcEnabled=_nlcEnabled;
-@property(copy, nonatomic) NSString *nlcProfile; // @synthesize nlcProfile=_nlcProfile;
 @property(readonly, nonatomic) double position;
-@property(readonly) Class superclass;
-@property(nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) _Bool wifiEnabled; // @synthesize wifiEnabled=_wifiEnabled;
 
 @end
 

@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PEGASUSSchemaPEGASUSKGQAReference : SISchemaInstrumentationMessage
 {
     NSString *_pipeline;
-    _Bool _hasPipeline;
 }
 
 - (void);
@@ -23,17 +22,15 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)t.;
 - (id);
 - (id)!|FùÑÝ°1Â0@ù
 × ;
-- (id)anslateSessionId;
+- (id)_hasAutoTranslateSessionId;
 - (id)emaUUID",&,N,V_dictationVoiceCommandLinkId;
 - (void)on.asrClientEvent.contextualEntityRetrievalContext.startedOrChanged.rejectedEntityTypes.bundleId;
 
 // Remaining properties
-@property(nonatomic) _Bool hasPipeline; // @synthesize hasPipeline=_hasPipeline;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *pipeline; // @synthesize pipeline=_pipeline;
 
 @end

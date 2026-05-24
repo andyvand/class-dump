@@ -9,7 +9,6 @@
 @interface SXPresentableMessage
 {
     NSString *_recipient;
-    NSString *_message;
 }
 
 - (id);
@@ -19,7 +18,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *message; // @synthesize message=_message;
 @property(readonly, copy, nonatomic) NSString *recipient; // @synthesize recipient=_recipient;
 
 @end

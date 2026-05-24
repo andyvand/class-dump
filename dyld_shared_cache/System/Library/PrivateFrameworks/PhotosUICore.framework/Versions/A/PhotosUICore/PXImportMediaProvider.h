@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, PXImportImageCache, PXLoadingStatusManager;
-
 @interface PXImportMediaProvider
 {
     _Atomic int _nextRequestID;
-    _Bool _hasBeenIdle;
-    unsigned short _thumbnailImageFormat;
-    PXLoadingStatusManager *loadingStatusManager;
-    NSMutableDictionary *_thumbnailRequestsByID;
-    PXImportImageCache *_imageCache;
-    long long _imageRequestsInflight;
-    long long _lastRequestsInflight;
-    NSMutableDictionary *_extensionPlaceholderCachesByRequestSize;
 }
 
 - (id);
@@ -28,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long),;
 - (long long);
 - (long long);
 - (long long);
@@ -36,18 +26,18 @@
 - (void);
 - (id);
 - (long long);
-- (id);
+- (id)#;
 - (long long);
 - (long long);
 - (double);
 - (_Bool);
 - (id);
 - (void);
+- (id)9O;
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (struct CGSize);
@@ -66,16 +56,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *extensionPlaceholderCachesByRequestSize; // @synthesize extensionPlaceholderCachesByRequestSize=_extensionPlaceholderCachesByRequestSize;
 @property(readonly, nonatomic) struct CGSize gridItemSize;
-@property(nonatomic) _Bool hasBeenIdle; // @synthesize hasBeenIdle=_hasBeenIdle;
-@property(retain, nonatomic) PXImportImageCache *imageCache; // @synthesize imageCache=_imageCache;
-@property(nonatomic) long long imageRequestsInflight; // @synthesize imageRequestsInflight=_imageRequestsInflight;
-@property(nonatomic) long long lastRequestsInflight; // @synthesize lastRequestsInflight=_lastRequestsInflight;
-@property(retain, nonatomic) PXLoadingStatusManager *loadingStatusManager; // @synthesize loadingStatusManager;
-@property(readonly, nonatomic) long long nextRequestID;
-@property(readonly, nonatomic) unsigned short thumbnailImageFormat; // @synthesize thumbnailImageFormat=_thumbnailImageFormat;
-@property(retain, nonatomic) NSMutableDictionary *thumbnailRequestsByID; // @synthesize thumbnailRequestsByID=_thumbnailRequestsByID;
 
 @end
 

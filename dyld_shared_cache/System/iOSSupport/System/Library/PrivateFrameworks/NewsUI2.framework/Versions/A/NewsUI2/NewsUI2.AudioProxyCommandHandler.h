@@ -7,8 +7,6 @@
 @interface NewsUI2.AudioProxyCommandHandler
 {
     id playbackConductor;
-    id dataManager;
-    id bundleSubscriptionManager;
 }
 
 @end

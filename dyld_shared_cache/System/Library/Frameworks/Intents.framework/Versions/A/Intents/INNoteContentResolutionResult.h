@@ -10,10 +10,10 @@
 {
 }
 
++ (id)__objc_stubs;
 + (id);
-+ (id);
-+ (id);
-- (id);
++ (id)x;
+- (id);
 - (id);
 
 @end

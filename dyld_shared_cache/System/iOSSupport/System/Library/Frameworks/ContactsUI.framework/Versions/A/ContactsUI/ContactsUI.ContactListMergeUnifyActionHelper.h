@@ -7,16 +7,14 @@
 @interface ContactsUI.ContactListMergeUnifyActionHelper
 {
     id contactStore;
-    id contactItems;
-    id mergeResult;
 }
 
-+ (id)ActionUponCacheInvalidation: /* Error: Ran out of types for this method. */;
++ (id)setShouldPerformActionUponCacheInvalidation: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id)ClippingLayer:(id)arg1;
+- (id)T;
+- (id)setClearAvatarImageButtonClippingLayer:(id)arg1;
 - (void)cheduler>",R,N,V_providerItemRenderingQueue;
 
 @end

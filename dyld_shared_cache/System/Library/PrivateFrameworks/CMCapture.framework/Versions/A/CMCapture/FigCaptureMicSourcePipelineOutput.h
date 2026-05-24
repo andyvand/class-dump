@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface FigCaptureMicSourcePipelineOutput
 {
     BWNodeOutput *_output;
-    unsigned int _audioChannelLayoutTag;
 }
 
 - (id);

@@ -29,6 +29,10 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -37,6 +41,7 @@
 - (void);
 - (void);
 - (void);
+- (void)Im`;
 - (void);
 - (void);
 - (void);
@@ -44,12 +49,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -64,7 +64,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (struct CGSize);
@@ -81,7 +81,7 @@
 - (double);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);
@@ -124,19 +124,19 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
+- (id)oDecoder with NULL frame callback;
+- (_Bool)ame (%@) was in look up table _sourceNames. Either token is colliding ,or VCVideoSourceType is not correct;
+- (id)ng codec;
+- (void)-[VCAudioStreamReceiveGroup vcMediaStream:(id)arg1 remoteMediaStalled:duration:]_block_invoke /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (long long);
@@ -152,9 +152,9 @@
 - (void);
 - (void);
 - (void)windowDidChangeBackingProperties: /* Error: Ran out of types for this method. */;
-- (void)ngLineViews;
-- (_Bool)racters;
-- (void)pe;
+- (void)existingLineViews;
+- (_Bool)_usesSizeCacheForChineseCharacters;
+- (void)SingleRowFunctionButtonType;
 - (void)×;
 
 @end

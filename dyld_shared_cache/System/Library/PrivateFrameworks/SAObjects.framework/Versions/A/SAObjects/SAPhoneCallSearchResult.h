@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSDate, NSNumber, SAPersonAttribute;
+@class NSDate;
 
 @interface SAPhoneCallSearchResult : SADomainObject
 {
@@ -17,16 +17,14 @@
 - (void);
 - (id);
 - (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)Z#;
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *callTime;
-@property(retain, nonatomic) SAPersonAttribute *contact;
-@property(copy, nonatomic) NSNumber *isNew;
 
 @end
 

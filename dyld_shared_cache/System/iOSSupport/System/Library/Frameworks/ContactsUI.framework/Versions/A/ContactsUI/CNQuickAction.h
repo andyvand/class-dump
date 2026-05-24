@@ -4,28 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStyle, CNQuickActionsManager, NSString, UIColor, UIImage, UIView;
-
 @interface CNQuickAction
 {
     _Bool _useDuetIfAvailable;
-    _Bool _isLongPress;
-    _Bool _enabled;
-    _Bool _cached;
-    _Bool _dismissesWithAnimation;
-    UIImage *_image;
-    NSString *_title;
-    NSString *_category;
-    UIColor *_imageTintColor;
-    CNQuickActionsManager *_manager;
-    NSString *_identifier;
-    UIView *_sourceView;
-    unsigned long long _score;
-    CDUnknownBlockType _performBlock;
-    CNContactStyle *_previousStyle;
 }
 
-+ (_Bool);
++ (_Bool)\;
 + (id);
 + (id);
 + (id);
@@ -33,7 +17,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)�_;
 - (void);
 - (void);
 - (id);
@@ -46,16 +30,16 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)pn/;
+- (void);
+- (void);
+- (id)??;
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)y;
+- (id)predicateForPreviouslyPlayedHidingFutureTimestamps;
+- (void);
 - (unsigned long long);
 - (id);
 - (id);
@@ -63,42 +47,26 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);;
 - (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)|g;
 - (void);
 - (_Bool);
 - (id);
 - (void)@ù
 × ;
-- (void):(id)arg1;
-- (id)avButtonPlatterImage;
-- (void)ofile;
+- (void)setTextColor:(id)arg1;
+- (id)cnui_roundedNavButtonPlatterImage;
+- (void)_showsSharedProfile;
 - (_Bool)but the delegate does not implement %@. The predicate will be ignored.;
 
 // Remaining properties
 @property(nonatomic, getter=isBackAction) _Bool backAction;
-@property(nonatomic) _Bool cached; // @synthesize cached=_cached;
-@property(retain, nonatomic) NSString *category; // @synthesize category=_category;
-@property(nonatomic) _Bool dismissesWithAnimation; // @synthesize dismissesWithAnimation=_dismissesWithAnimation;
-@property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly, nonatomic) NSString *globalIdentifier;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(retain, nonatomic) UIColor *imageTintColor; // @synthesize imageTintColor=_imageTintColor;
-@property(nonatomic) _Bool isLongPress; // @synthesize isLongPress=_isLongPress;
-@property(nonatomic) __weak CNQuickActionsManager *manager; // @synthesize manager=_manager;
-@property(copy, nonatomic) CDUnknownBlockType performBlock; // @synthesize performBlock=_performBlock;
-@property(retain, nonatomic) CNContactStyle *previousStyle; // @synthesize previousStyle=_previousStyle;
-@property(nonatomic) unsigned long long score; // @synthesize score=_score;
-@property(nonatomic) __weak UIView *sourceView; // @synthesize sourceView=_sourceView;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(nonatomic) _Bool useDuetIfAvailable; // @synthesize useDuetIfAvailable=_useDuetIfAvailable;
 
 @end
 

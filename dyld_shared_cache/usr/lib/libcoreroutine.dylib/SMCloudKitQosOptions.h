@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_xpc_object;
-
 @interface SMCloudKitQosOptions
 {
     _Bool _defaultQos;
-    NSString *_masqueradeBundleID;
-    NSObject<OS_xpc_object> *_xpcActivity;
 }
 
 - (id);
@@ -22,8 +17,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool defaultQos; // @synthesize defaultQos=_defaultQos;
-@property(readonly, nonatomic) NSString *masqueradeBundleID; // @synthesize masqueradeBundleID=_masqueradeBundleID;
-@property(readonly, nonatomic) NSObject<OS_xpc_object> *xpcActivity; // @synthesize xpcActivity=_xpcActivity;
 
 @end
 

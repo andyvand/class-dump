@@ -9,30 +9,25 @@
 @interface PKSpendingSummaryFetcherRequest
 {
     _Bool _withLastChange;
-    _Bool _shouldBeNext;
-    NSDate *_startDate;
-    unsigned long long _type;
 }
 
-- (_Bool);
+- (_Bool)K;
 - (_Bool);
 - (void);
-- (void);
-- (id);
+- (void)*?
+k�;
+- (id)*@9_;
 - (unsigned long long);
-- (unsigned long long);
-- (_Bool);
-- (id);
+- (unsigned long long)CCP__NPickColor;
+- (_Bool)__DATA_DIRTY;
+- (id);
 - (id);
 - (void);
-- (void)r;
+- (void)PKProvisioningAnalyticsSessionReporter;
 - (void)^B32;
 
 // Remaining properties
-@property(nonatomic) _Bool shouldBeNext; // @synthesize shouldBeNext=_shouldBeNext;
 @property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(nonatomic) _Bool withLastChange; // @synthesize withLastChange=_withLastChange;
 
 @end
 

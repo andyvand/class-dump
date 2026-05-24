@@ -9,12 +9,10 @@
 @interface NTPBBloomFilterInfo
 {
     NSData *_bloomFilterData;
-    int _hashFunctionCount;
 }
 
 
 // Remaining properties
 @property(retain, nonatomic) NSData *bloomFilterData; // @synthesize bloomFilterData=_bloomFilterData;
-@property(nonatomic) int hashFunctionCount; // @synthesize hashFunctionCount=_hashFunctionCount;
 @end
 

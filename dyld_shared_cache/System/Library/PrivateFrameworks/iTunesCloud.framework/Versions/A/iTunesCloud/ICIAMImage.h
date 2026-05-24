@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ICIAMImage
 {
     unsigned int _height;
-    NSString *_identifier;
-    NSString *_uRL;
-    unsigned int _width;
-    struct {
-        unsigned int height:1;
-        unsigned int width:1;
-    } _has;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -35,9 +26,9 @@
 - (void);
 - (id);
 - (id);
+- (_Bool){CGPoint=dd}{CGSize=dd}}16;
 - (_Bool);
-- (_Bool);
-- (id)Session:didStartProcessingKey:isPrefetchKey:isPersistable:isRenew: /* Error: Ran out of types for this method. */;
+- (id)contentKeySession:didStartProcessingKey:isPrefetchKey:isPersistable:isRenew: /* Error: Ran out of types for this method. */;
 - (void)ØÇ;
 - (void)rivateListeningEnabled=%{BOOL}u allowsExplicitContent=%{BOOL}u stationDictionary=%{public}@ contentDictionary=%{public}@;
 - (void)ªë|;
@@ -45,14 +36,7 @@
 ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasHeight;
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasURL;
-@property(nonatomic) _Bool hasWidth;
-@property(nonatomic) unsigned int height; // @synthesize height=_height;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSString *uRL; // @synthesize uRL=_uRL;
-@property(nonatomic) unsigned int width; // @synthesize width=_width;
 
 @end
 

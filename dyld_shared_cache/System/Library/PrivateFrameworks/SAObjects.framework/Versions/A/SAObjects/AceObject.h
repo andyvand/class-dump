@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableDictionary, NSNumber, NSString;
+@class NSNumber;
 
 @interface AceObject
 {
     NSNumber *_mutatingCommand;
-    NSString *_aceId;
-    NSString *_refId;
-    NSNumber *_usefulnessScore;
-    NSData *_plistData;
-    NSMutableDictionary *_dict;
 }
 
 + (id);
@@ -24,6 +19,7 @@
 + (id);
 + (id);
 + (id);
++ (id)6;
 + (id);
 + (id);
 + (id);
@@ -31,8 +27,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)`;
 + (id);
 + (id);
 + (id);

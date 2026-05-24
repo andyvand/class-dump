@@ -6,18 +6,16 @@
 
 #import <Intents/INIntent.h>
 
-@class INIntentExecutionResult, INSpeakableString, INVoiceCommandDeviceInformation, NSString;
-
 @interface INRunVoiceCommandIntent : INIntent
 {
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)T;
 - (void);
 - (id);
 - (id);
@@ -31,24 +29,14 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)initWithModificationDate:(id)arg1 fileSize:filenameExtension:versionIdentifier:ino:generatorID:generatorVersion: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)(;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) INIntentExecutionResult *executionResult;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy) INVoiceCommandDeviceInformation *originDevice;
-@property(readonly, copy) NSString *previousIntentIdentifier;
-@property(readonly) Class superclass;
-@property(readonly, copy) INSpeakableString *voiceCommand;
 
 @end
 

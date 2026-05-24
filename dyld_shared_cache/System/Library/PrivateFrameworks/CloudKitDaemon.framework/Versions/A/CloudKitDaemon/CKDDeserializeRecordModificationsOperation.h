@@ -6,19 +6,14 @@
 
 #import <CloudKitDaemon/CKDDatabaseOperation.h>
 
-@class CKDProtocolTranslator, NSArray, NSData;
-@protocol CKDeserializeRecordModificationsOperationCallbacks><CKDOperationCallbackProxy;
+@class NSData;
 
 @interface CKDDeserializeRecordModificationsOperation : CKDDatabaseOperation
 {
     CDUnknownBlockType _deserializeCompletionBlock;
-    NSData *_serializedModifications;
-    CKDProtocolTranslator *_translator;
-    NSArray *_recordsToSave;
-    NSArray *_recordIDsToDelete;
 }
 
-+ (id);
++ (id)setRssiAtSessionStart:(unsigned long long)arg1;
 - (void);
 - (void);
 - (void);
@@ -27,8 +22,9 @@
 - (id);
 - (CDUnknownBlockType);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)t %lu errcount %lu
+;
 - (_Bool);
 - (id);
 - (void);
@@ -41,13 +37,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <CKDeserializeRecordModificationsOperationCallbacks><CKDOperationCallbackProxy> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(copy, nonatomic) CDUnknownBlockType deserializeCompletionBlock; // @synthesize deserializeCompletionBlock=_deserializeCompletionBlock;
-@property(retain) NSArray *recordIDsToDelete; // @synthesize recordIDsToDelete=_recordIDsToDelete;
-@property(retain) NSArray *recordsToSave; // @synthesize recordsToSave=_recordsToSave;
 @property(retain, nonatomic) NSData *serializedModifications; // @synthesize serializedModifications=_serializedModifications;
-@property(nonatomic) unsigned long long state; // @dynamic state;
-@property(retain) CKDProtocolTranslator *translator; // @synthesize translator=_translator;
 
 @end
 

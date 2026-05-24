@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDIDSSessionInvitationReceived
 {
     unsigned long long _timestamp;
-    NSString *_guid;
-    CDStruct_b5306035 _has;
 }
 
 - (void);
@@ -24,18 +20,15 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
+- (void);
+- (id)I;
+- (id)J;
 - (_Bool);
 - (id)"tid3"b1"tid4"b1"tid5"b1"tid6"b1"tid7"b1};
 - (void)5p«	;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *guid; // @synthesize guid=_guid;
-@property(readonly, nonatomic) _Bool hasGuid;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

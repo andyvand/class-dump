@@ -9,15 +9,6 @@
 @interface ChatKit.CKConversationListInboxMenuConfiguration
 {
     id filterHandler;
-    id settingsHandler;
-    id activeFilterModes;
-    id requestsEnabled;
-    id simFilteringEnabled;
-    id blackholeEnabled;
-    id showsSpamFiltering;
-    id showImages;
-    id hasCompletedDraftsPreloading;
-    id displayMode;
 }
 
 - (id);

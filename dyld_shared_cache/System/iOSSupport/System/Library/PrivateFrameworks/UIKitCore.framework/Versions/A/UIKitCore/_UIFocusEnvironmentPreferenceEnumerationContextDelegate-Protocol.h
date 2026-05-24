@@ -5,5 +5,6 @@
 //
 
 @protocol _UIFocusEnvironmentPreferenceEnumerationContextDelegate
+- (_Bool)ageContext"56;
 @end
 

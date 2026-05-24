@@ -4,9 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol ABCardViewDelegate;
+
 @protocol ABCardCollectionViewDelegate
 
 @optional
+- (void)	;
+- (void);
+- (void);
+- (_Bool);
+- (id <ABCardViewDelegate>)deo;
+- (_Bool)`;
 - (_Bool)0@ù
 × ;
 @end

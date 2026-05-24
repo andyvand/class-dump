@@ -4,13 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol AVTAvatarAttributeEditorControllerSubSelectionDelegate, AVTAvatarAttributeEditorSection;
+@protocol AVTAvatarAttributeEditorControllerSubSelectionDelegate;
 
 @protocol AVTAvatarAttributeEditorSectionController
+- (void)!;
+- (void);
+- (long long)areBluetooth5GAndThreadRadioLoggingEnabled;
+- (void)e
+;
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <AVTAvatarAttributeEditorControllerSubSelectionDelegate> delegate;
-@property(readonly, nonatomic) id <AVTAvatarAttributeEditorSection> section;
-@property(nonatomic) long long selectedIndex;
 @end
 

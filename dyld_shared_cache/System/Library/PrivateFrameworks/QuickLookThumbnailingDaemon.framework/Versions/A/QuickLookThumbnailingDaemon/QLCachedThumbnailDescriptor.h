@@ -7,35 +7,25 @@
 @interface QLCachedThumbnailDescriptor
 {
     _Bool _iconMode;
-    float _size;
-    int _interpolationQuality;
-    long long _iconVariant;
-    unsigned long long _badgeType;
-    unsigned long long _externalGeneratorDataHash;
 }
 
-- (void);
+- (void)toms;
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
-- (int);
-- (id);
-- (long long);
-- (_Bool);
-- (void);
-- (unsigned long long);
+- (void)setHasToIndex:(int)arg1;
+- (int)setHasTdSpeakerRecognizerCombinedThresholdJS: /* Error: Ran out of types for this method. */;
+- (id)setHasTaskEvaluation:(id)arg1;
+- (long long)setHasSystemProtocol: /* Error: Ran out of types for this method. */;
+- (_Bool)setHasSystemLocaleV2: /* Error: Ran out of types for this method. */;
+- (void)setHasSpeakerMatchScore:(long long)arg1;
+- (unsigned long long)";
 - (unsigned long long);
 - (float);
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property(readonly) unsigned long long badgeType; // @synthesize badgeType=_badgeType;
-@property unsigned long long externalGeneratorDataHash; // @synthesize externalGeneratorDataHash=_externalGeneratorDataHash;
-@property(readonly) _Bool iconMode; // @synthesize iconMode=_iconMode;
-@property long long iconVariant; // @synthesize iconVariant=_iconVariant;
-@property int interpolationQuality; // @synthesize interpolationQuality=_interpolationQuality;
 @property(readonly) float size; // @synthesize size=_size;
 
 @end

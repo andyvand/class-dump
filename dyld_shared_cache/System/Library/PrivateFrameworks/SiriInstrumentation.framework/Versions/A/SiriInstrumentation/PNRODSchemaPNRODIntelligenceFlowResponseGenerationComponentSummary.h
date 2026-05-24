@@ -6,52 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, PNRODSchemaPNRODFailureInfo, PNRODSchemaPNRODMetricDuration, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PNRODSchemaPNRODIntelligenceFlowResponseGenerationComponentSummary : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_planId;
-    SISchemaUUID *_clientRequestId;
-    SISchemaUUID *_rawQueryEventId;
-    _Bool _responseIsValidInput;
-    _Bool _responseIsStaticDialogueProvided;
-    NSString *_responseMobileAssetVersion;
-    int _responseInferenceLocation;
-    _Bool _responseIsFallback;
-    PNRODSchemaPNRODMetricDuration *_responsePreparationTime;
-    PNRODSchemaPNRODMetricDuration *_responseInputValidationTime;
-    PNRODSchemaPNRODMetricDuration *_responseOverridesTime;
-    PNRODSchemaPNRODMetricDuration *_responseCatalogueRetrievalTime;
-    PNRODSchemaPNRODMetricDuration *_responseCATHydrationTime;
-    PNRODSchemaPNRODMetricDuration *_responseModelInferenceTime;
-    PNRODSchemaPNRODMetricDuration *_responseHallucinationInferenceTime;
-    PNRODSchemaPNRODMetricDuration *_responseSafetyInferenceTime;
-    PNRODSchemaPNRODMetricDuration *_responseGenerationTime;
-    PNRODSchemaPNRODFailureInfo *_failureInfo;
-    struct {
-        unsigned int responseIsValidInput:1;
-        unsigned int responseIsStaticDialogueProvided:1;
-        unsigned int responseInferenceLocation:1;
-        unsigned int responseIsFallback:1;
-    } _has;
-    _Bool _hasPlanId;
-    _Bool _hasClientRequestId;
-    _Bool _hasRawQueryEventId;
-    _Bool _hasResponseMobileAssetVersion;
-    _Bool _hasResponsePreparationTime;
-    _Bool _hasResponseInputValidationTime;
-    _Bool _hasResponseOverridesTime;
-    _Bool _hasResponseCatalogueRetrievalTime;
-    _Bool _hasResponseCATHydrationTime;
-    _Bool _hasResponseModelInferenceTime;
-    _Bool _hasResponseHallucinationInferenceTime;
-    _Bool _hasResponseSafetyInferenceTime;
-    _Bool _hasResponseGenerationTime;
-    _Bool _hasFailureInfo;
 }
 
 - (void);
 - (void);
+- (void);
+- (void)h*;
 - (void);
 - (void);
 - (void);
@@ -69,27 +34,25 @@
 - (void);
 - (void);
 - (void);
+- (void)r;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)h;
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (int);
 - (id);
 - (id);
@@ -103,17 +66,17 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)`;
+- (_Bool);
+- (_Bool);
+- (_Bool)C;
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -122,6 +85,7 @@
 - (void);
 - (void);
 - (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
@@ -129,8 +93,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -145,52 +108,16 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)emove from spotlight;
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)in;
+- (id)_lastMobileAssetDownloadAttemptErrorDomain;
 - (id)Time;
 - (void).ExecutorStringQueryEntityCallContext;
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaUUID *clientRequestId; // @synthesize clientRequestId=_clientRequestId;
-@property(retain, nonatomic) PNRODSchemaPNRODFailureInfo *failureInfo; // @synthesize failureInfo=_failureInfo;
-@property(nonatomic) _Bool hasClientRequestId; // @synthesize hasClientRequestId=_hasClientRequestId;
-@property(nonatomic) _Bool hasFailureInfo; // @synthesize hasFailureInfo=_hasFailureInfo;
-@property(nonatomic) _Bool hasPlanId; // @synthesize hasPlanId=_hasPlanId;
-@property(nonatomic) _Bool hasRawQueryEventId; // @synthesize hasRawQueryEventId=_hasRawQueryEventId;
-@property(nonatomic) _Bool hasResponseCATHydrationTime; // @synthesize hasResponseCATHydrationTime=_hasResponseCATHydrationTime;
-@property(nonatomic) _Bool hasResponseCatalogueRetrievalTime; // @synthesize hasResponseCatalogueRetrievalTime=_hasResponseCatalogueRetrievalTime;
-@property(nonatomic) _Bool hasResponseGenerationTime; // @synthesize hasResponseGenerationTime=_hasResponseGenerationTime;
-@property(nonatomic) _Bool hasResponseHallucinationInferenceTime; // @synthesize hasResponseHallucinationInferenceTime=_hasResponseHallucinationInferenceTime;
-@property(nonatomic) _Bool hasResponseInferenceLocation;
-@property(nonatomic) _Bool hasResponseInputValidationTime; // @synthesize hasResponseInputValidationTime=_hasResponseInputValidationTime;
-@property(nonatomic) _Bool hasResponseIsFallback;
-@property(nonatomic) _Bool hasResponseIsStaticDialogueProvided;
-@property(nonatomic) _Bool hasResponseIsValidInput;
-@property(nonatomic) _Bool hasResponseMobileAssetVersion; // @synthesize hasResponseMobileAssetVersion=_hasResponseMobileAssetVersion;
-@property(nonatomic) _Bool hasResponseModelInferenceTime; // @synthesize hasResponseModelInferenceTime=_hasResponseModelInferenceTime;
-@property(nonatomic) _Bool hasResponseOverridesTime; // @synthesize hasResponseOverridesTime=_hasResponseOverridesTime;
-@property(nonatomic) _Bool hasResponsePreparationTime; // @synthesize hasResponsePreparationTime=_hasResponsePreparationTime;
-@property(nonatomic) _Bool hasResponseSafetyInferenceTime; // @synthesize hasResponseSafetyInferenceTime=_hasResponseSafetyInferenceTime;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *planId; // @synthesize planId=_planId;
-@property(retain, nonatomic) SISchemaUUID *rawQueryEventId; // @synthesize rawQueryEventId=_rawQueryEventId;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *responseCATHydrationTime; // @synthesize responseCATHydrationTime=_responseCATHydrationTime;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *responseCatalogueRetrievalTime; // @synthesize responseCatalogueRetrievalTime=_responseCatalogueRetrievalTime;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *responseGenerationTime; // @synthesize responseGenerationTime=_responseGenerationTime;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *responseHallucinationInferenceTime; // @synthesize responseHallucinationInferenceTime=_responseHallucinationInferenceTime;
-@property(nonatomic) int responseInferenceLocation; // @synthesize responseInferenceLocation=_responseInferenceLocation;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *responseInputValidationTime; // @synthesize responseInputValidationTime=_responseInputValidationTime;
-@property(nonatomic) _Bool responseIsFallback; // @synthesize responseIsFallback=_responseIsFallback;
-@property(nonatomic) _Bool responseIsStaticDialogueProvided; // @synthesize responseIsStaticDialogueProvided=_responseIsStaticDialogueProvided;
-@property(nonatomic) _Bool responseIsValidInput; // @synthesize responseIsValidInput=_responseIsValidInput;
-@property(copy, nonatomic) NSString *responseMobileAssetVersion; // @synthesize responseMobileAssetVersion=_responseMobileAssetVersion;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *responseModelInferenceTime; // @synthesize responseModelInferenceTime=_responseModelInferenceTime;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *responseOverridesTime; // @synthesize responseOverridesTime=_responseOverridesTime;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *responsePreparationTime; // @synthesize responsePreparationTime=_responsePreparationTime;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *responseSafetyInferenceTime; // @synthesize responseSafetyInferenceTime=_responseSafetyInferenceTime;
 
 @end
 

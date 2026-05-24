@@ -20,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@M*;
 - (void);
 - (void);
 - (_Bool);
@@ -39,8 +39,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void)nBufferAtIndex;
+- (id);
+- (void)getAndRetainBufferAtIndex;
 
 // Remaining properties
 @property(readonly, nonatomic) HDRMetalContext *metal; // @synthesize metal=_metal;

@@ -9,10 +9,6 @@
 @protocol MPPersonalStoreIdentifiers
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *cloudAlbumID;
-@property(readonly, copy, nonatomic) NSString *cloudArtistID;
-@property(readonly, nonatomic) unsigned long long cloudID;
 @property(readonly, nonatomic) NSString *personID;
-@property(readonly, copy, nonatomic) NSString *recommendationID;
 @end
 

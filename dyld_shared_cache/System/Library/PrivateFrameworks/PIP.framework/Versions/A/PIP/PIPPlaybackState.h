@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PIPPrerollAttributes;
-
 @interface PIPPlaybackState
 {
     id _wrappedValue;
@@ -13,18 +11,18 @@
 
 + (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)UsoEntityBuilderProtocol_common_DeviceCategory;
 - (id);
 - (id);
-- (id);
+- (id)SupportFlow;
 - (long long);
-- (id);
+- (id)as successful;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)@;
 - (double);
 - (double);
 - (long long);
@@ -34,17 +32,7 @@
 - (double);
 
 // Remaining properties
-@property(nonatomic, readonly) double contentDuration;
-@property(nonatomic, readonly) long long contentType;
-@property(nonatomic, readonly) NSString *debugDescription;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) double elapsedTime;
 @property(nonatomic, readonly) long long hash;
-@property(nonatomic, readonly) _Bool muted;
-@property(nonatomic, readonly) double playbackRate;
-@property(nonatomic, readonly) PIPPrerollAttributes *prerollAttributes;
-@property(nonatomic, readonly) _Bool requiresLinearPlayback;
-@property(nonatomic, readonly) long long timeControlStatus;
 
 @end
 

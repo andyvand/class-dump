@@ -7,8 +7,6 @@
 @interface NewsFeed.PuzzleHintFormatter
 {
     id defaultFontSize;
-    id fontScaleFactor;
-    id tagConverter;
 }
 
 @end

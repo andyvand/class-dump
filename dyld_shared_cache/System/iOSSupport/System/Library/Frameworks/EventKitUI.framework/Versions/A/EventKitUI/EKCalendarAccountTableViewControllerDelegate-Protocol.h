@@ -5,5 +5,8 @@
 //
 
 @protocol EKCalendarAccountTableViewControllerDelegate
+
+@optional
+- (void);
 @end
 

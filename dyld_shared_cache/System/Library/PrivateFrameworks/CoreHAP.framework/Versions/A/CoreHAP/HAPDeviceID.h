@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface HAPDeviceID
 {
     NSData *_data;
 }
 
-+ (_Bool);
++ (_Bool);
 - (_Bool);
 - (id);
 - (id);
@@ -19,17 +19,17 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
-- (id);
+- (unsigned long long)T;
+- (_Bool)setPruningPolicy:(id)arg1;
+- (id)initWithStreamDatastore:bookmarkEnumerator:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id);
+- (id)missing from build identity, skipping
+;
 - (void)airSetupSession>"16@?<v@?@"NSString"@"NSError">24;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, copy, nonatomic) NSString *deviceIDString;
 
 @end
 

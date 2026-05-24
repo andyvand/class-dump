@@ -7,8 +7,6 @@
 @interface SwiftUI.FocusRingHelper
 {
     id responder;
-    id focusRingView;
-    id _focusRingPath;
 }
 
 @end

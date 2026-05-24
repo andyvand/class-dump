@@ -16,8 +16,8 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
-- (void);
+- (id)`b;
+- (void)hentication_Private.LANTLMVerifierIdentifier;
 
 // Remaining properties
 @property(readonly) NSArray *registeredSmartCardTokens;

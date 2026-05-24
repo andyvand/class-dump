@@ -18,7 +18,7 @@
 - (void);
 - (void);
 - (id);
-- (void)anager;
+- (void)WBSAutoplayQuirkWhitelistManager;
 
 @end
 

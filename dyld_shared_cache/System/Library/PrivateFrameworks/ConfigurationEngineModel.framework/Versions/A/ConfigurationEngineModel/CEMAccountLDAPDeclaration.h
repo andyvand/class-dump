@@ -6,16 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class CEMAccountLDAPDeclaration_CommunicationServiceRules, NSArray, NSNumber, NSString;
+@class NSString;
 
 @interface CEMAccountLDAPDeclaration : CEMConfigurationBase
 {
     NSString *_payloadLDAPAccountDescription;
-    NSString *_payloadLDAPAccountHostName;
-    NSNumber *_payloadLDAPAccountUseSSL;
-    NSArray *_payloadLDAPSearchSettings;
-    CEMAccountLDAPDeclaration_CommunicationServiceRules *_payloadCommunicationServiceRules;
-    NSString *_payloadLDAPCredentials;
 }
 
 + (id);
@@ -33,12 +28,12 @@
 - (void);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (int);
@@ -47,19 +42,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CEMAccountLDAPDeclaration_CommunicationServiceRules *payloadCommunicationServiceRules; // @synthesize payloadCommunicationServiceRules=_payloadCommunicationServiceRules;
 @property(copy, nonatomic) NSString *payloadLDAPAccountDescription; // @synthesize payloadLDAPAccountDescription=_payloadLDAPAccountDescription;
-@property(copy, nonatomic) NSString *payloadLDAPAccountHostName; // @synthesize payloadLDAPAccountHostName=_payloadLDAPAccountHostName;
-@property(copy, nonatomic) NSNumber *payloadLDAPAccountUseSSL; // @synthesize payloadLDAPAccountUseSSL=_payloadLDAPAccountUseSSL;
-@property(copy, nonatomic) NSString *payloadLDAPCredentials; // @synthesize payloadLDAPCredentials=_payloadLDAPCredentials;
-@property(copy, nonatomic) NSArray *payloadLDAPSearchSettings; // @synthesize payloadLDAPSearchSettings=_payloadLDAPSearchSettings;
-@property(readonly) Class superclass;
 
 @end
 

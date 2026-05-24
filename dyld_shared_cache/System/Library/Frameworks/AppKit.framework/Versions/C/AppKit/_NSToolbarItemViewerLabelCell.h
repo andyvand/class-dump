@@ -19,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (long long);
 - (long long);
-- (_Bool);
+- (_Bool)}@ setting up Connection %lld;
 
 // Remaining properties
 @property _Bool showingRollover; // @synthesize showingRollover=_showingRollover;

@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface MNDestinationArrivalInfoUpdater
 {
     id delegate;
-    id _navigationSessionState;
-    id _remainingTimeUpdater;
 }
 
 - (void);

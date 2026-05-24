@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface PIDepthEffectFilter
 {
     CIImage *_inputImage;
-    CIImage *_inputMatte;
-    CIImage *_inputBlurMap;
-    CIImage *_inputGainMap;
-    NSNumber *_inputGainMapIsLinear;
-    NSNumber *_inputAperture;
-    id _inputShape;
-    id _inputDepthMetadata;
-    id _inputGainMapMetadata;
-    NSNumber *_inputScale;
-    NSNumber *_inputLumaNoiseScale;
-    NSNumber *_inputBestHairQuality;
 }
 
 - (void);
@@ -41,27 +30,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)lueTransformerName: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
+- (void);
+- (id)gk;
+- (id);
+- (void)resolveSourceWithVideo:videoComposition: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *inputAperture; // @synthesize inputAperture=_inputAperture;
-@property(retain, nonatomic) NSNumber *inputBestHairQuality; // @synthesize inputBestHairQuality=_inputBestHairQuality;
-@property(retain, nonatomic) CIImage *inputBlurMap; // @synthesize inputBlurMap=_inputBlurMap;
-@property(retain, nonatomic) id inputDepthMetadata; // @synthesize inputDepthMetadata=_inputDepthMetadata;
-@property(retain, nonatomic) CIImage *inputGainMap; // @synthesize inputGainMap=_inputGainMap;
-@property(retain, nonatomic) NSNumber *inputGainMapIsLinear; // @synthesize inputGainMapIsLinear=_inputGainMapIsLinear;
-@property(retain, nonatomic) id inputGainMapMetadata; // @synthesize inputGainMapMetadata=_inputGainMapMetadata;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage=_inputImage;
-@property(retain, nonatomic) NSNumber *inputLumaNoiseScale; // @synthesize inputLumaNoiseScale=_inputLumaNoiseScale;
-@property(retain, nonatomic) CIImage *inputMatte; // @synthesize inputMatte=_inputMatte;
-@property(retain, nonatomic) NSNumber *inputScale; // @synthesize inputScale=_inputScale;
-@property(retain, nonatomic) id inputShape; // @synthesize inputShape=_inputShape;
 
 @end
 

@@ -8,7 +8,7 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)rottler",&,N,V_operationThrottler;
 - (double);
 - (double);
 - (void);

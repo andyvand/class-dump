@@ -9,9 +9,6 @@
 @interface Rapport.RPPairingReceiverController
 {
     OS_dispatch_queue *queue;
-    void pairingValueUpdatedHandler;
-    _Bool pairingValueUIVisible;
-    id xpcCnx;
 }
 
 + (_Bool);
@@ -22,17 +19,15 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)NSt3__120__shared_ptr_emplaceIN6quasar25ContinuousListeningConfigENS_9allocatorIS2_EEEE;
 - (id);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
+- (void)73;
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool pairingValueUIVisible; // @synthesize pairingValueUIVisible;
-@property(nonatomic, copy) CDUnknownBlockType pairingValueUpdatedHandler;
 @property(nonatomic, retain) OS_dispatch_queue *queue; // @synthesize queue;
 
 @end

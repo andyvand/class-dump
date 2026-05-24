@@ -4,28 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, VCSCalendar, VCSEntity;
-
 @interface VCSParseState
 {
     _Bool _palmImport;
-    int _lineNumber;
-    unsigned long long _context;
-    long long _version;
-    unsigned long long _status;
-    VCSCalendar *_currentCalendar;
-    VCSEntity *_currentEntity;
-    NSMutableArray *_calendars;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)6;
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)P�0;
 - (long long);
 - (void);
 - (id);
@@ -35,18 +26,11 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)P;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *calendars; // @synthesize calendars=_calendars;
 @property(nonatomic) unsigned long long context; // @synthesize context=_context;
-@property(retain, nonatomic) VCSCalendar *currentCalendar; // @synthesize currentCalendar=_currentCalendar;
-@property(retain, nonatomic) VCSEntity *currentEntity; // @synthesize currentEntity=_currentEntity;
-@property(nonatomic) int lineNumber; // @synthesize lineNumber=_lineNumber;
-@property(nonatomic) _Bool palmImport; // @synthesize palmImport=_palmImport;
-@property(nonatomic) unsigned long long status; // @synthesize status=_status;
-@property(nonatomic) long long version; // @synthesize version=_version;
 
 @end
 

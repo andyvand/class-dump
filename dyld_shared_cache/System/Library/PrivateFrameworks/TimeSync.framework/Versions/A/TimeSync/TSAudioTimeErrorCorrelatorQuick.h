@@ -9,9 +9,6 @@
 @interface TSAudioTimeErrorCorrelatorQuick : TSAudioTimeErrorCorrelator
 {
     float *_channelABuffer;
-    float *_scratchBuffer;
-    float *_correlationBuffer;
-    float *_interpollationIndiciesBuffer;
 }
 
 - (id);

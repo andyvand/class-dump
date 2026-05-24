@@ -6,25 +6,13 @@
 
 #import <CoreUI/CUIThemeRendition.h>
 
-@class CUIRenditionKey, CUIRenditionMetrics, CUIRenditionSliceInformation, CUIStructuredThemeStore;
-
 __attribute__((visibility("hidden")))
 @interface _CUIInternalLinkRendition : CUIThemeRendition
 {
     unsigned int _nimages;
-    struct CGRect _imageRect[16];
-    struct CGImage *_image[16];
-    struct CGImage *_unslicedImage;
-    CUIRenditionMetrics *_renditionMetrics;
-    CUIRenditionSliceInformation *_sliceInformation;
-    struct CGRect _frame;
-    CUIStructuredThemeStore *_sourceProvider;
-    CUIRenditionKey *_referenceKey;
-    struct CGSize _originalUncroppedSize;
-    struct CGRect _alphaCroppedFrame;
 }
 
-- (id);
+- (id);
 - (void);
 - (id);
 - (_Bool);

@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MAAsset, NSDate, NSMutableDictionary, NSObject, NSString, NSTimer, SUCoreConfig, SUCoreFSM, SUCorePersistedState;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface SUCoreConfigServer
 {
     NSString *_uuidString;
-    NSDate *_lastScanTime;
-    NSDate *_nextScanTime;
-    NSTimer *_timer;
-    MAAsset *_lastLocatedAsset;
-    SUCoreFSM *_stateMachine;
-    SUCorePersistedState *_persistedState;
-    NSMutableDictionary *_listenerDelegates;
-    SUCoreConfig *_coreConfig;
-    NSObject<OS_dispatch_queue> *_clientDelegateQueue;
 }
 
 + (id);
@@ -26,7 +16,7 @@
 + (id);
 + (id);
 + (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -45,20 +35,20 @@
 - (long long);
 - (long long);
 - (long long);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)6;
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
 - (long long);
-- (id);
-- (void);
+- (id)P;
+- (void)ll ack packet.;
 - (void);
 - (id);
 - (id);
@@ -73,15 +63,6 @@
 - (id)¹;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *clientDelegateQueue; // @synthesize clientDelegateQueue=_clientDelegateQueue;
-@property(retain, nonatomic) SUCoreConfig *coreConfig; // @synthesize coreConfig=_coreConfig;
-@property(retain, nonatomic) MAAsset *lastLocatedAsset; // @synthesize lastLocatedAsset=_lastLocatedAsset;
-@property(retain, nonatomic) NSDate *lastScanTime; // @synthesize lastScanTime=_lastScanTime;
-@property(retain, nonatomic) NSMutableDictionary *listenerDelegates; // @synthesize listenerDelegates=_listenerDelegates;
-@property(retain, nonatomic) NSDate *nextScanTime; // @synthesize nextScanTime=_nextScanTime;
-@property(retain, nonatomic) SUCorePersistedState *persistedState; // @synthesize persistedState=_persistedState;
-@property(retain, nonatomic) SUCoreFSM *stateMachine; // @synthesize stateMachine=_stateMachine;
-@property(retain, nonatomic) NSTimer *timer; // @synthesize timer=_timer;
 @property(retain, nonatomic) NSString *uuidString; // @synthesize uuidString=_uuidString;
 
 @end

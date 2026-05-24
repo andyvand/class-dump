@@ -4,36 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSView;
-@protocol SafariViewDelegate;
+@class NSView;
 
 __attribute__((visibility("hidden")))
 @interface SidebarContainerView
 {
     NSView *_externalNextKeyView;
-    id <SafariViewDelegate> _safariViewDelegate;
-    NSView *_topBarView;
-    NSView *_contentView;
 }
 
 - (id);
-- (void);
+- (void)@)J;
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)allObjects;
 - (void)0@ù
 × ;
-- (id);
+- (id)k;
 - (void)f;
 - (_Bool);
 - (void);
@@ -41,15 +37,6 @@ __attribute__((visibility("hidden")))
 - (id)¨Ê,;
 
 // Remaining properties
-@property(retain, nonatomic) NSView *contentView; // @synthesize contentView=_contentView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak id <SafariViewDelegate> safariViewDelegate; // @synthesize safariViewDelegate=_safariViewDelegate;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSView *topBarView; // @synthesize topBarView=_topBarView;
 
 @end

@@ -8,7 +8,7 @@
 {
 }
 
-- (id);
+- (id)peWithObject:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

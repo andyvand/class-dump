@@ -6,23 +6,12 @@
 
 #import <Safari/Window.h>
 
-@class BookmarksUndoController, NSString, WindowControlShadowView;
-@protocol BrowserWindowDelegate;
+@class BookmarksUndoController, NSString;
 
 __attribute__((visibility("hidden")))
 @interface BrowserWindow : Window
 {
     NSString *_title;
-    _Bool _logAfterNextRedisplay;
-    BookmarksUndoController *_bookmarksUndoController;
-    WindowControlShadowView *_windowControlShadowView;
-    id _mouseUpEventMonitor;
-    _Bool _hasMoved;
-    _Bool _isClosing;
-    _Bool _isSendingEvent;
-    _Bool _ignoresOrderFront;
-    _Bool _shouldDeferSettingFirstResponderDueToScrubbing;
-    _Bool _deferringLoadForSelectedTab;
 }
 
 + (id);
@@ -31,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (struct CGRect);
@@ -65,8 +54,8 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (void);
 - (long long);
+- (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -75,12 +64,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)h identifier:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (id)rectory.;
-- (id);
+- (id)old;
 - (void);
 - (void);
 - (_Bool);
@@ -94,12 +83,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) BookmarksUndoController *bookmarksUndoController; // @synthesize bookmarksUndoController=_bookmarksUndoController;
-@property(nonatomic) _Bool deferringLoadForSelectedTab; // @synthesize deferringLoadForSelectedTab=_deferringLoadForSelectedTab;
-@property __weak id <BrowserWindowDelegate> delegate; // @dynamic delegate;
-@property(nonatomic) _Bool ignoresOrderFront; // @synthesize ignoresOrderFront=_ignoresOrderFront;
-@property(readonly, nonatomic) _Bool isSendingEvent; // @synthesize isSendingEvent=_isSendingEvent;
-@property(nonatomic, getter=isLayerBacked) _Bool layerBacked;
-@property(nonatomic) _Bool shouldDeferSettingFirstResponderDueToScrubbing; // @synthesize shouldDeferSettingFirstResponderDueToScrubbing=_shouldDeferSettingFirstResponderDueToScrubbing;
 
 @end
 

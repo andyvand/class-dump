@@ -7,8 +7,6 @@
 @interface SPShared.UserDefaultsObserver
 {
     id defaults;
-    id monitoredKeys;
-    id notify;
 }
 
 - (void);

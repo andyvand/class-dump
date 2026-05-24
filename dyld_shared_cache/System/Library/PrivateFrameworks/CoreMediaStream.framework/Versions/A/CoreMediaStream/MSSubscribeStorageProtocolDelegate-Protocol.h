@@ -5,5 +5,7 @@
 //
 
 @protocol MSSubscribeStorageProtocolDelegate
+- (void)).;
+- (void)dd (we are not clearing or adding the credential, we are modifying it).;
 @end
 

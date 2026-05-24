@@ -7,14 +7,12 @@
 @class NSString;
 
 @protocol NSObject
+- (_Bool)nternal/Library/BuildRoots/4~CNqEugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.8/crypto/engine/eng_lib.c;
+- (NSString *)h;
+- (_Bool)"NSData"@"NSSet"@"NSError">24;
+- (_Bool)_setReferencedCodableDescriptions:(id)arg1;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

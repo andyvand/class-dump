@@ -6,58 +6,22 @@
 
 #import <CloudPhotoLibrary/CPLItemChange.h>
 
-@class CPLFingerprintScheme, NSArray, NSData, NSDate, NSDictionary, NSString;
+@class NSArray, NSDictionary;
 
 @interface CPLMasterChange : CPLItemChange
 {
     NSDictionary *_resourcePerResourceType;
-    CPLFingerprintScheme *_fingerprintScheme;
-    short _importedBy;
-    short _videoFrameRate;
-    NSArray *_resources;
-    NSArray *_expungeableResourceStates;
-    NSDate *_creationDate;
-    NSString *_itemType;
-    NSDate *_importDate;
-    NSString *_filename;
-    NSString *_importGroupIdentifier;
-    NSString *_mediaMetaDataType;
-    NSData *_mediaMetaData;
-    long long _originalOrientation;
-    unsigned long long _fullSizeJPEGSource;
-    NSString *_originatingFingerprint;
-    NSString *_importedByBundleIdentifier;
-    NSString *_importedByDisplayName;
-    NSString *_codec;
 }
 
 + (_Bool);
 + (_Bool);
-+ (_Bool)ªhõ;
++ (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *codec; // @synthesize codec=_codec;
-@property(copy, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(copy, nonatomic) NSArray *expungeableResourceStates; // @synthesize expungeableResourceStates=_expungeableResourceStates;
-@property(copy, nonatomic) NSString *filename; // @synthesize filename=_filename;
-@property(nonatomic) unsigned long long fullSizeJPEGSource; // @synthesize fullSizeJPEGSource=_fullSizeJPEGSource;
-@property(copy, nonatomic) NSDate *importDate; // @synthesize importDate=_importDate;
-@property(copy, nonatomic) NSString *importGroupIdentifier; // @synthesize importGroupIdentifier=_importGroupIdentifier;
-@property(nonatomic) short importedBy; // @synthesize importedBy=_importedBy;
-@property(copy, nonatomic) NSString *importedByBundleIdentifier; // @synthesize importedByBundleIdentifier=_importedByBundleIdentifier;
-@property(copy, nonatomic) NSString *importedByDisplayName; // @synthesize importedByDisplayName=_importedByDisplayName;
-@property(readonly, nonatomic) _Bool isImage;
-@property(readonly, nonatomic) _Bool isVideo;
-@property(copy, nonatomic) NSString *itemType; // @synthesize itemType=_itemType;
-@property(retain, nonatomic) NSData *mediaMetaData; // @synthesize mediaMetaData=_mediaMetaData;
-@property(copy, nonatomic) NSString *mediaMetaDataType; // @synthesize mediaMetaDataType=_mediaMetaDataType;
-@property(nonatomic) long long originalOrientation; // @synthesize originalOrientation=_originalOrientation;
-@property(copy, nonatomic) NSString *originatingFingerprint; // @synthesize originatingFingerprint=_originatingFingerprint;
 @property(copy, nonatomic) NSArray *resources; // @synthesize resources=_resources;
-@property(nonatomic) short videoFrameRate; // @synthesize videoFrameRate=_videoFrameRate;
 
 @end
 

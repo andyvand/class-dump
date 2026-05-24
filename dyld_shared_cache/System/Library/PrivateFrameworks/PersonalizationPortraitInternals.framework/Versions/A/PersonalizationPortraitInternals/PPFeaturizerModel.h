@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface PPFeaturizerModel
 {
     NSString *_inputName;
-    NSString *_outputName;
-    NSString *_operation;
-    NSArray *_param;
 }
 
 - (id);
-- (id);
+- (id)6;
 - (void)ionSecondsSinceReferenceDate"b1"firstPassScore"b1"rankingSecondsSinceReferenceDate"b1"score"b1"syndicationSecondsSinceReferenceDate"b1"topKScore"b1"highlightType"b1"rank"b1"fromMeEntitlementOverrideIsPresent"b1"isCollaboration"b1"isConversationAutoDonating"b1"isPrimary"b1"isTopKResult"b1};
 
 @end

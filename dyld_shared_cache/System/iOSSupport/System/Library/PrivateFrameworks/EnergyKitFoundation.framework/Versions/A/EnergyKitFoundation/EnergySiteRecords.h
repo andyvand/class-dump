@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString;
+@class NSString;
 
 @interface EnergySiteRecords
 {
@@ -13,8 +13,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, copy) NSDate *creationDate; // @dynamic creationDate;
-@property(nonatomic, copy) NSData *metadata; // @dynamic metadata;
 @property(nonatomic, copy) NSString *siteID; // @dynamic siteID;
 @property(nonatomic, copy) NSString *zoneName; // @dynamic zoneName;
 

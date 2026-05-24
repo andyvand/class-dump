@@ -6,51 +6,42 @@
 
 #import <Intents/INIntent.h>
 
-@class CLPlacemark, INDateComponentsRange, NSArray, NSString;
+@class NSString;
 
 @interface INFindEventsIntent : INIntent
 {
 }
 
 + (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)6;
+- (void)";
+- (void)9h;
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id)C;
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (long long);
 - (void);
-- (id);
+- (id)otal nSV = %d
+;
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)nformation2:imageGranularity      %qd
+ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
-- (id)eEnableCoolingForSetSeatSettingsInCar:completion: /* Error: Ran out of types for this method. */;
+- (id)resolveEnableCoolingForSetSeatSettingsInCar:completion: /* Error: Ran out of types for this method. */;
 - (void)ôUÄÿ7<;
 
 // Remaining properties
-@property(readonly, copy) INDateComponentsRange *dateTimeRange;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) CLPlacemark *location;
-@property(readonly, copy) NSArray *participants;
-@property(readonly) long long requestedEventAttribute;
 @property(readonly, copy) NSString *searchQuery;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol ICNanoPairedDeviceStatusObserver
+
+@optional
+- (void);
 @end
 

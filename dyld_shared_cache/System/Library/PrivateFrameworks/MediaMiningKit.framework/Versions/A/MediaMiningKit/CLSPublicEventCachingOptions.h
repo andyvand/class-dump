@@ -7,19 +7,17 @@
 @interface CLSPublicEventCachingOptions
 {
     unsigned long long _fetchLimit;
-    long long _jobContext;
 }
 
 + (unsigned long long);
 - (void);
 - (long long);
-- (id);
+- (id)ring non-gated suggestion, %d / %d, gated %d / %d, overflow %d;
 - (void);
 - (unsigned long long)rsonIdentity setSourceService:andID:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) unsigned long long fetchLimit; // @synthesize fetchLimit=_fetchLimit;
-@property(nonatomic) long long jobContext; // @synthesize jobContext=_jobContext;
 
 @end
 

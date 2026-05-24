@@ -7,12 +7,6 @@
 @interface MediaPlaybackCore.AudioSessionController
 {
     id _audioSession;
-    id isManagedSession;
-    id lastAudioSessionMode;
-    id reporter;
-    id wasPreviouslyActivated;
-    id queue;
-    id activationNumber;
 }
 
 @end

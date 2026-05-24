@@ -4,6 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSMenuItem, NSView;
+@protocol QLPreviewItem;
+
 @protocol QLPreviewMenuItemDelegate
+
+@optional
+- (void)Decode;
+- (void)xt failed;
+- (NSView *);
+- (_Bool)FDRDecodeIterateProducerIDNext(first) failed with error 0x%016llX;
+- (id <QLPreviewItem>)DBegin failed with error 0x%016llX;
+- (struct CGSize)AMFDRDecodeCheckProducerIDRevocation;
+- (struct CGRect)evocation;
+- (struct CGPoint)AMFDRDecodeIterateProducerIDBegin;
+- (unsigned long long)URLSession:(NSMenuItem *)arg1 assetDownloadTask:(struct CGPoint)arg2 didFinishDownloadingToURL: /* Error: Ran out of types for this method. */;
 @end
 

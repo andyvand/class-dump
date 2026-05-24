@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
 + (id)Q;
 - (void);
 - (void);
-- (void);
-- (void)TrailingPadding;
-- (void)ingForItem:(unsigned long long)arg1 forClient: /* Error: Ran out of types for this method. */;
+- (void)mmcs_perform_run_loop_target_create_source;
+- (void)backButtonTrailingPadding;
+- (void)addParentFocusRingForItem:(unsigned long long)arg1 forClient: /* Error: Ran out of types for this method. */;
 - (id)Offset;
 - (void);
 - (void)þÿ,ßþÿ;

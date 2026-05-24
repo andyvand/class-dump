@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLConditionLedger, CLDispatchSilo, CLLocationManager, NSArray, NSData, NSString;
+@class NSString;
 
 @interface CLMonitor
 {
     void *_locationdConnection;
-    CLDispatchSilo *_silo;
-    CLConditionLedger *_conditionLedger;
-    CDUnknownBlockType _eventHandler;
-    NSString *identityToken;
-    NSData *storageToken;
-    CLLocationManager *manager;
-    CDUnknownBlockType weakClient;
-    NSString *_name;
-    NSString *_monitorName;
 }
 
 + (id);
@@ -25,23 +16,11 @@
 + (void);
 + (_Bool);
 + (void);
-+ (void);
-+ (void);
++ (void)?;
++ (void)(S;
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)VE;
 - (void);
 - (id);
 - (void);
@@ -49,36 +28,35 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
+- (void)V l;
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)IIO_LogImageBlocks;
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void)tk;
+- (void)?;
+- (void)ltk;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *identityToken; // @synthesize identityToken;
-@property(retain, nonatomic) CLLocationManager *manager; // @synthesize manager;
 @property(readonly, nonatomic) NSString *monitorName; // @synthesize monitorName=_monitorName;
-@property(readonly, nonatomic) NSArray *monitoredIdentifiers;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSData *storageToken; // @synthesize storageToken;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak CDUnknownBlockType weakClient; // @synthesize weakClient;
 
 @end
 

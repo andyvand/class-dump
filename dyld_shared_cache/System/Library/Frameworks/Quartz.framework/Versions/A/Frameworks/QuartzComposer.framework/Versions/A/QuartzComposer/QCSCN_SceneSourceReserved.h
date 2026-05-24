@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSOperationQueue;
-
 @interface QCSCN_SceneSourceReserved
 {
     struct __C3DSceneSource *_sceneSource;
-    struct __C3DScene *_lastLoadedScene;
-    NSDictionary *_lastOptions;
-    NSOperationQueue *_downloadingQueue;
-    _Bool _sceneLoaded;
-    NSDictionary *_sceneSourceOptions;
 }
 
 - (void);
-- (id);
+- (id)_rating_is_derived INTEGER NOT NULL DEFAULT 0;
 - (void);
 
 @end

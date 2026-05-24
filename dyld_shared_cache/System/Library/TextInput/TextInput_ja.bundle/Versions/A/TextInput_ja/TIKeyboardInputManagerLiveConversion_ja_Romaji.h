@@ -6,14 +6,12 @@
 
 #import <TextInput_ja/TIKeyboardInputManagerLiveConversion_ja.h>
 
-@class NSMutableArray, NSString, TIMathSymbolPunctuationController;
+@class NSMutableArray, TIMathSymbolPunctuationController;
 
 @interface TIKeyboardInputManagerLiveConversion_ja_Romaji : TIKeyboardInputManagerLiveConversion_ja
 {
     TIMathSymbolPunctuationController *_mathSymbolPunctuationController;
     NSMutableArray *_externalIndexToInternalIndexMappingArray;
-    unsigned long long _externalInputIndex;
-    NSString *_externalString;
 }
 
 + (Class);
@@ -26,25 +24,24 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
+- (void)UniImage metalRenderImageArray:queue:waitUntilScheduled:waitUntilCompleted:] /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
+- (id)_liveConversionForceDisabled;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *externalIndexToInternalIndexMappingArray; // @synthesize externalIndexToInternalIndexMappingArray=_externalIndexToInternalIndexMappingArray;
 @property(nonatomic) unsigned long long externalInputIndex; // @synthesize externalInputIndex=_externalInputIndex;
-@property(copy, nonatomic) NSString *externalString; // @synthesize externalString=_externalString;
 
 @end
 

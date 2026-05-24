@@ -14,9 +14,9 @@
 }
 
 - (id);
+- (id)";
 - (id);
-- (id);
-- (void)onLatency;
+- (void)SMHandoffSessionLatency;
 
 // Remaining properties
 @property(readonly, nonatomic) SMConversation *conversation; // @synthesize conversation=_conversation;

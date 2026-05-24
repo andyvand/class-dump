@@ -7,14 +7,13 @@
 @class NSNumber, NSString;
 
 @protocol INUncompressFileIntentResponseExport
-- (NSNumber *)iceCommandForRunVoiceCommand:withCompletion: /* Error: Ran out of types for this method. */;
+- (void);
+- (NSNumber *)resolveVoiceCommandForRunVoiceCommand:withCompletion: /* Error: Ran out of types for this method. */;
 - (long long)d:appSelectionSignalsFrequencyDenominator:shouldSuppressCommonWholeHouseAudioRoutes:immediatelyStartPlayback:isAmbiguousPlay:isPersonalizedRequest:internalSignals:entityConfidenceSignalsEnabled:entityConfidenceSignalsFrequencyDenominatorInternal:entityConfidenceSignalsFrequencyDenominatorProd:entityConfidenceSignalsMaxItemsToDisambiguate: /* Error: Ran out of types for this method. */;
-- (void)layNameID;
+- (void)INIntentParameterMetadataFalseDisplayNameID;
 - (NSString *)ctionPayloadData with error:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) NSString *entityName;
-@property(copy) NSNumber *success;
 @end
 

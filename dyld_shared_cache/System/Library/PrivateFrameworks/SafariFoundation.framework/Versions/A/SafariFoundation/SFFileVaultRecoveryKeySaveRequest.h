@@ -20,9 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *displayName;
-@property(nonatomic, readonly) NSString *recoveryKey;
-@property(nonatomic, readonly) NSString *serialNumber;
 @property(nonatomic, readonly) NSString *volumeID;
 
 @end

@@ -4,31 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, OADColorMap, OADColorScheme, OCDDocument;
+@class OADColorMap, OCDDocument;
 
 __attribute__((visibility("hidden")))
 @interface CMState
 {
     OCDDocument *_document;
-    NSMutableDictionary *components;
-    NSMutableDictionary *htmlResource;
-    NSString *mResourceUrlPrefix;
-    OADColorMap *mColorMap;
-    OADColorScheme *mColorScheme;
-    id mResources;
-    unsigned long long mSourceFormat;
-    _Bool mIsThumbnail;
-    _Bool mIsOnPhone;
-    long long _textLevel;
 }
 
 - (long long);
-- (unsigned long long);
+- (unsigned long long)T?;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)q;
 - (id);
 - (void);
 - (void);
@@ -40,9 +30,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)ersistentStoreCoordinator;
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void)6;
@@ -53,12 +43,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) OADColorMap *colorMap; // @synthesize colorMap=mColorMap;
-@property(retain) OADColorScheme *colorScheme; // @synthesize colorScheme=mColorScheme;
-@property(retain) OCDDocument *document; // @synthesize document=_document;
-@property _Bool isOnPhone; // @synthesize isOnPhone=mIsOnPhone;
-@property _Bool isThumbnail; // @synthesize isThumbnail=mIsThumbnail;
-@property(retain) id resources; // @synthesize resources=mResources;
-@property unsigned long long sourceFormat; // @synthesize sourceFormat=mSourceFormat;
 
 @end
 

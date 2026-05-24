@@ -9,8 +9,6 @@
 @interface WBSMemoryFootprintMallocZone
 {
     unsigned long long _addr;
-    struct malloc_statistics_t _statistics;
-    NSString *_name;
 }
 
 + (_Bool);
@@ -20,14 +18,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)MPModelPropertyRadioStationLive;
 - (void)A×Ð!HAù±Xð1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) unsigned long long sizeAllocated;
-@property(readonly, nonatomic) unsigned long long sizeInUse;
 
 @end
 

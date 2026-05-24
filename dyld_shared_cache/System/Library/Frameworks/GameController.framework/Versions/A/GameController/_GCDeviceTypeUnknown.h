@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     NSString *_identifier;
 }
 
-- (void);
+- (void);
 - (id);
 
 @end

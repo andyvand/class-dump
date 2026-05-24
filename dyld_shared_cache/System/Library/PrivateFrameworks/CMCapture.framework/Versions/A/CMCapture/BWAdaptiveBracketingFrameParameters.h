@@ -7,9 +7,6 @@
 @interface BWAdaptiveBracketingFrameParameters
 {
     double _evZeroRatio;
-    int _integrationTimeInMicroseconds;
-    float _gain;
-    int _maxAGC;
 }
 
 + (id);
@@ -21,14 +18,10 @@
 - (double);
 - (id);
 - (void);
-- (float)pture_client_whitelist;
+- (float)disable_nonstandard_capture_client_whitelist;
 
 // Remaining properties
 @property(readonly, nonatomic) double evZeroRatio;
-@property(readonly, nonatomic) float gain;
-@property(readonly, nonatomic) int integrationTimeInMicroseconds;
-@property(readonly, nonatomic) double integrationTimeInSeconds;
-@property(readonly, nonatomic) int maxAGC;
 
 @end
 

@@ -10,8 +10,8 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id)ring",&,N,V_albumGUID;
++ (id)PIMuteAdjustmentKey;
 + (id)q°1Â0@ù
 × ;
 + (void)NULL DEFAULT 0, representative_item_artwork_token TEXT NOT NULL DEFAULT '', keep_local INTEGER NOT NULL DEFAULT 0, keep_local_status INTEGER NOT NULL DEFAULT 0);

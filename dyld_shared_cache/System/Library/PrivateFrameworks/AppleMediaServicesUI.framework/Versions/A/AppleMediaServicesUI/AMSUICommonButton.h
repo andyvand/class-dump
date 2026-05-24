@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSColor;
+@class NSColor;
 
 @interface AMSUICommonButton
 {
@@ -14,19 +14,17 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)on;
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void)mentViewServiceListener: /* Error: Ran out of types for this method. */;
+- (void)setPaymentViewServiceListener: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(retain) NSColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(retain) CALayer *layer;
-@property(copy) NSColor *tintColor;
 
 @end
 

@@ -4,31 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSMutableArray, NSMutableDictionary, NSObject, PLDiscretionaryIntervalManager;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class PLDiscretionaryIntervalManager;
 
 @interface PLDiscretionaryEnergyMonitor
 {
     _Bool _isCharging;
-    _Bool _debugMode;
-    PLDiscretionaryIntervalManager *_intervalManager;
-    CDUnknownBlockType _completionBlock;
-    double _lastReportedTotalEnergy;
-    double _lastReportedCPUEnergy;
-    double _lastReportedNetworkEnergy;
-    NSDictionary *_lastPowerlogResponse;
-    NSMutableArray *_quickEnergySnapshots;
-    NSObject<OS_dispatch_source> *_powerlogQueryTimer;
-    NSObject<OS_dispatch_source> *_quickEnergyAccumulatorTimer;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    double _accumulatedCPUEnergy;
-    double _accumulatedNetworkEnergy;
-    double _powerlogEnergyDiff;
-    NSDate *_powerlogTimestampPrevious;
-    NSDate *_powerlogTimestampLast;
-    double _powerlogEnergyPrevious;
-    double _powerlogEnergyLast;
-    NSMutableDictionary *_mockData;
 }
 
 + (double);
@@ -39,11 +19,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)readOnlyTimebase;
+- (void)exportSessionWithAsset:(double)arg1 presetName: /* Error: Ran out of types for this method. */;
+- (void)uest finishLoadingWithError:(double)arg1 ] was sent to an instance of AVAssetResourceLoadingRequest that was already finished. Ignoring.;
+- (void)also present in an inputGroup already added.;
+- (void);
 - (double);
 - (void);
 - (double);
@@ -54,9 +34,9 @@
 - (double);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)d failed conversationId ;
+- (void)is_FiletransferFtsms;
+- (void)ne.;
 - (void);
 - (_Bool);
 - (id);
@@ -74,48 +54,58 @@
 - (double);
 - (void);
 - (void);
-- (double);
-- (_Bool);
+- (double)ta class %d->%d on destination failed:(id)arg1 %{errno}d;
+- (_Bool)Handler:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
 - (double);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)lName</key><string>Concat</string> 
+<key>AppleRAID-MemberType</key><array> 
+<string>AppleRAID-Members</string> 
+</array> 
+<key>AppleRAID-AutoRebuild</key><false/> 
+<key>AppleRAID-QuickRebuild</key><false/> 
+<key>AppleRAID-SetTimeout</key><integer size="32">0</integer> 
+<key>AppleRAID-ChunkSize</key><integer size="64">0x8000</integer> 
+<key>AppleRAID-CanAddMembers</key><true/> 
+<key>AppleRAID-CanAddSpares</key><false/> 
+<key>AppleRAID-SizesCanVary</key><true/> 
+<key>AppleRAID-RemovalAllowed</key><string>Last</string> 
+<key>AppleRAID-CanBeConvertedTo</key><true/> 
+</dict> 
+<dict> 
+<key>AppleRAID-LevelName</key><string>LVG</string> 
+<key>AppleRAID-MemberType</key><array> 
+<string>AppleRAID-Members</string> 
+</array> 
+<key>AppleRAID-AutoRebuild</key><false/> 
+<key>AppleRAID-SetTimeout</key><integer size="32">0</integer> 
+<key>AppleRAID-ChunkSize</key><integer size="64">0x8000</integer> 
+<key>AppleRAID-CanAddMembers</key><true/> 
+<key>AppleRAID-CanAddSpares</key><false/> 
+<key>AppleRAID-SizesCanVary</key><true/> 
+<key>AppleRAID-RemovalAllowed</key><string>None</string> 
+<key>AppleRAID-CanBeConvertedTo</key><true/> 
+</dict> 
+ </array> 
+;
+- (void)disk=%@ opts=0x%x callback=%p context=%p;
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)}S;
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (double);
 
 // Remaining properties
-@property double accumulatedCPUEnergy; // @synthesize accumulatedCPUEnergy=_accumulatedCPUEnergy;
-@property double accumulatedNetworkEnergy; // @synthesize accumulatedNetworkEnergy=_accumulatedNetworkEnergy;
-@property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property _Bool debugMode; // @synthesize debugMode=_debugMode;
 @property(retain) PLDiscretionaryIntervalManager *intervalManager; // @synthesize intervalManager=_intervalManager;
-@property _Bool isCharging; // @synthesize isCharging=_isCharging;
-@property(retain, nonatomic) NSDictionary *lastPowerlogResponse; // @synthesize lastPowerlogResponse=_lastPowerlogResponse;
-@property(nonatomic) double lastReportedCPUEnergy; // @synthesize lastReportedCPUEnergy=_lastReportedCPUEnergy;
-@property(nonatomic) double lastReportedNetworkEnergy; // @synthesize lastReportedNetworkEnergy=_lastReportedNetworkEnergy;
-@property(nonatomic) double lastReportedTotalEnergy; // @synthesize lastReportedTotalEnergy=_lastReportedTotalEnergy;
-@property(retain) NSMutableDictionary *mockData; // @synthesize mockData=_mockData;
-@property double powerlogEnergyDiff; // @synthesize powerlogEnergyDiff=_powerlogEnergyDiff;
-@property double powerlogEnergyLast; // @synthesize powerlogEnergyLast=_powerlogEnergyLast;
-@property double powerlogEnergyPrevious; // @synthesize powerlogEnergyPrevious=_powerlogEnergyPrevious;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *powerlogQueryTimer; // @synthesize powerlogQueryTimer=_powerlogQueryTimer;
-@property(retain) NSDate *powerlogTimestampLast; // @synthesize powerlogTimestampLast=_powerlogTimestampLast;
-@property(retain) NSDate *powerlogTimestampPrevious; // @synthesize powerlogTimestampPrevious=_powerlogTimestampPrevious;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *quickEnergyAccumulatorTimer; // @synthesize quickEnergyAccumulatorTimer=_quickEnergyAccumulatorTimer;
-@property(retain, nonatomic) NSMutableArray *quickEnergySnapshots; // @synthesize quickEnergySnapshots=_quickEnergySnapshots;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

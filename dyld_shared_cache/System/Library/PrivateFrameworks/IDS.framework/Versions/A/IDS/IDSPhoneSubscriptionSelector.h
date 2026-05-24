@@ -9,27 +9,26 @@
 @interface IDSPhoneSubscriptionSelector
 {
     id _syncDaemonController;
-    CDUnknownBlockType _syncDaemonControllerBuilder;
 }
 
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)datagramPackage_CreateBBufRepresentation;
 - (void);
 - (_Bool);
+- (void)d;
+- (CDUnknownBlockType)UpdateMetadata;
 - (void);
-- (CDUnknownBlockType);
+- (id)_activateHandler;
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)eviceSetupSessioniOS _runSFSessionStart]_block_invoke_2;
+- (id)l;
 - (void);
 - (void);
 - (id);
+- (void);
+- (void)ryDate:(id)arg1;
+- (id)ilover timer due to invalid relaySessionID;
 - (_Bool);
 - (void);
 - (id);
@@ -40,7 +39,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) IDSXPCDaemonController *syncDaemonController; // @synthesize syncDaemonController=_syncDaemonController;
-@property(copy, nonatomic) CDUnknownBlockType syncDaemonControllerBuilder; // @synthesize syncDaemonControllerBuilder=_syncDaemonControllerBuilder;
 
 @end
 

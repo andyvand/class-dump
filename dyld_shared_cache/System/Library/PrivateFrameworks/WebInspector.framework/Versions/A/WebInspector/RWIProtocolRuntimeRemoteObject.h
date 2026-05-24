@@ -6,18 +6,16 @@
 
 #import <WebInspector/RWIProtocolJSONObject.h>
 
-@class NSString, RWIProtocolRuntimeObjectPreview;
-
 @interface RWIProtocolRuntimeRemoteObject : RWIProtocolJSONObject
 {
 }
 
 - (void);
 - (id);
+- (void)%;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)`;
 - (id);
 - (int);
 - (void);
@@ -25,7 +23,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)__bss;
 - (void);
 - (void);
 - (id);
@@ -33,15 +31,7 @@
 - (id)was not found;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *className;
-@property(retain, nonatomic) RWIProtocolRuntimeRemoteObject *classPrototype;
-@property(copy, nonatomic) NSString *objectId;
-@property(retain, nonatomic) RWIProtocolRuntimeObjectPreview *preview;
-@property(nonatomic) int size;
-@property(copy, nonatomic) NSString *stringRepresentation;
-@property(nonatomic) long long subtype;
 @property(nonatomic) long long type;
-@property(retain, nonatomic) RWIProtocolJSONObject *value;
 
 @end
 

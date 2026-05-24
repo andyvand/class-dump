@@ -7,12 +7,12 @@
 @interface UnknownClass (Availability)
 + (id);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (id)';
 - (id);
-- (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)nabled for multiple subscriptions:(id)arg1 %{bool}d alias:(out id *)arg2 %s sim:%s /* Error: Ran out of types for this method. */;
 @end
 

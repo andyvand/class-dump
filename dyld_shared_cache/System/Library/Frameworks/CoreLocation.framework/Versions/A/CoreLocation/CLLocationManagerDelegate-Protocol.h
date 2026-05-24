@@ -5,5 +5,11 @@
 //
 
 @protocol CLLocationManagerDelegate
+
+@optional
+- (void)9;
+- (void)work/Versions/A/Frameworks/ATS.framework/Versions/A/Resources/libFontRegistry.dylib;
+- (void);
+- (void);
 @end
 

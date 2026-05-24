@@ -7,9 +7,6 @@
 @interface _UIAsyncInvocation
 {
     _Atomic void *_observer;
-    CDUnknownBlockType _invocationBlock;
-    _Atomic _Bool _invocationBlockHasBeenCalled;
-    _Atomic long long _invokeCallCount;
 }
 
 + (id);

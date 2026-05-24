@@ -6,7 +6,7 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface CEMSystemAppExceptionsDeclaration : CEMConfigurationBase
 {
@@ -18,28 +18,21 @@
 + (id);
 + (id);
 + (id);
++ (id)..3;
 + (id);
-+ (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (int);
 - (void);
-- (id);
-- (_Bool);
-- (id);
+- (id)marker breadcrumb:%s /* Error: Ran out of types for this method. */;
+- (_Bool)s(input->GetStreamFormat())=%u; kAudio_ParamError;
+- (id)2;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSArray *payloadAppsRatingExemptedBundleIDs; // @synthesize payloadAppsRatingExemptedBundleIDs=_payloadAppsRatingExemptedBundleIDs;
-@property(readonly) Class superclass;
 
 @end
 

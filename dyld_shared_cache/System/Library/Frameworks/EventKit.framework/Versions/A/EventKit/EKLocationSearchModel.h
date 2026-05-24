@@ -4,134 +4,82 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLGeocoder, CLLocation, CLLocationManager, CNContactStore, CRSearchQuery, EKEventStore, EKOccurrenceCacheLocationSearch, EKStructuredLocation, EKStructuredLocationSearchResult, MKLocalSearchCompleter, NSArray, NSCharacterSet, NSCountedSet, NSMutableArray, NSMutableDictionary, NSObject, NSOperationQueue, NSString;
-@protocol CNCancelable, CalCancelable, EKLocationSearchModelDelegate, OS_dispatch_queue;
+@class CLLocationManager, EKStructuredLocation;
 
 @interface EKLocationSearchModel
 {
     CLLocationManager *_locationManager;
-    MKLocalSearchCompleter *_completer;
-    EKStructuredLocation *_currentLocation;
-    CLLocation *_currentImpreciseLocation;
-    EKStructuredLocationSearchResult *_locationFromMapsURL;
-    CLGeocoder *_geocoder;
-    id <CalCancelable> _localSearch;
-    CNContactStore *_contactStore;
-    id <CNCancelable> _contactsSearchToken;
-    NSObject<OS_dispatch_queue> *_recentsQueue;
-    NSObject<OS_dispatch_queue> *_eventsQueue;
-    NSObject<OS_dispatch_queue> *_customConferenceQueue;
-    EKEventStore *_eventStore;
-    EKOccurrenceCacheLocationSearch *_eventsSearch;
-    CRSearchQuery *_currentRecentsSearch;
-    NSCharacterSet *_whitespaceAndNewlineCharacterSet;
-    NSObject<OS_dispatch_queue> *_conferenceRoomProcessingQueue;
-    NSOperationQueue *_conferenceRoomOperationQueue;
-    NSMutableArray *_mutableConferenceRoomSearchResults;
-    NSMutableDictionary *_conferenceRoomAddressesToConferenceRooms;
-    NSMutableArray *_recentsSearchResults;
-    NSMutableArray *_frequentsSearchResults;
-    NSMutableArray *_eventsSearchResults;
-    NSMutableArray *_contactsSearchResults;
-    NSMutableArray *_allPossibleVirtualConferenceRooms;
-    NSMutableArray *_virtualConferenceRoomSearchResults;
-    NSCountedSet *_pendingOperationsCounts;
-    struct os_unfair_lock_s _pendingOperationsCountsLock;
-    unsigned long long _supportedSearchTypes;
-    NSArray *_mapCompletionSearchResults;
-    NSArray *_textualSearchResults;
-    NSArray *_virtualConferenceCustomSearchResults;
-    id <EKLocationSearchModelDelegate> _delegate;
 }
 
++ (id)[ConcreteOutputContext] Volume control is not available, ignoring setVolume request.;
++ (id)Proactive;
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (void)nsTimedAlarmOffset;
++ (void)siriSuggestionsTimedAlarmOffset;
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)�;
+- (void);
+- (void);
+- (void)^;
+- (void)D8X:(id)arg1 ;
 - (id);
 - (unsigned long long);
 - (id);
+- (void)p;
+- (void)@;
+- (void)7;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (_Bool)ary/PrivateFrameworks/DFRFoundation.framework/DFRFoundation;
+- (void)tem/Library/PrivateFrameworks/TelephonyUtilities.framework/TelephonyUtilities;
+- (void)amework/CoreUtils;
+- (void)ibrary/PrivateFrameworks/CoreUtils.framework/CoreUtils;
+- (void)/AVFoundation;
+- (void)tem/Library/Frameworks/AVFoundation.framework/AVFoundation;
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
+- (id)connaissanceSession] Endpoint features:%u /* Error: Ran out of types for this method. */;
+- (id)still waiting for operation to begin;
+- (unsigned long long)Changed SupportedCommands:%@ /* Error: Ran out of types for this method. */;
+- (id)ingCache:playerProperties %{public}@ /* Error: Ran out of types for this method. */;
+- (id)tion.;
+- (void)ssing PlaybackStateDidChangeNotification with new PlaybackState %@.;
+- (void)ne specified in deviceInfo;
+- (void)Failed to create distantExternalDevice for endpoint %@ %@;
+- (void)n in State = %ld usingSystemPairing = %s;
+- (void)ernalDevicePairingSession)] Opening Security Session in State = %ld usingSystemPairing = %s;
+- (void)ontext] Added Fields:(id)arg1 %{public}@;
+- (void)utputDevices took %lf seconds;
+- (void)Timestamp:(id)arg1 %@;
+- (void)t=%@;
+- (void)ontroller] <%@> processing PlaybackQueueDidChangeNotification.;
+- (void)ic}@> with outputContextChannel %{public}@;
+- (void)public}@> to <%{public}@>;
+- (id)] <%{public}@> downloading artwork for content item %{public}@, artwork %{public}@.;
+- (void)d external device connection for distant device %p volume capabilities did change to %{public}@ for endpoint %{public}@ for output device %{public}@;
+- (void)tion for distant device %{public}@ did receive %llu bytes of custom data for name %{public}@;
+- (void)ng %{public}@ from <%@> to <%@>;
+- (void)em)] Pairing Device %@;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)*!;
 - (id);
 - (void)q2'Ð1Â0@ù
 × ;
-- (void)kind:date:weight:metadata:options: /* Error: Ran out of types for this method. */;
+- (void)recentEventForAddress:displayName:kind:date:weight:metadata:options: /* Error: Ran out of types for this method. */;
 - (void)ar;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *conferenceRoomSearchResults;
-@property(readonly, nonatomic) NSArray *contactsSearchResults; // @synthesize contactsSearchResults=_contactsSearchResults;
 @property(retain, nonatomic) EKStructuredLocation *currentLocation; // @synthesize currentLocation=_currentLocation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <EKLocationSearchModelDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *eventsSearchResults; // @synthesize eventsSearchResults=_eventsSearchResults;
-@property(readonly, nonatomic) NSArray *frequentsSearchResults; // @synthesize frequentsSearchResults=_frequentsSearchResults;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) EKStructuredLocationSearchResult *locationFromMapsURL; // @synthesize locationFromMapsURL=_locationFromMapsURL;
-@property(readonly, nonatomic) NSArray *mapCompletionSearchResults; // @synthesize mapCompletionSearchResults=_mapCompletionSearchResults;
-@property(readonly, nonatomic) NSArray *recentsSearchResults; // @synthesize recentsSearchResults=_recentsSearchResults;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long supportedSearchTypes; // @synthesize supportedSearchTypes=_supportedSearchTypes;
-@property(readonly, nonatomic) NSArray *textualSearchResults; // @synthesize textualSearchResults=_textualSearchResults;
-@property(readonly, nonatomic) NSArray *virtualConferenceCustomSearchResults; // @synthesize virtualConferenceCustomSearchResults=_virtualConferenceCustomSearchResults;
-@property(readonly, nonatomic) NSArray *virtualConferenceRoomSearchResults; // @synthesize virtualConferenceRoomSearchResults=_virtualConferenceRoomSearchResults;
 
 @end
 

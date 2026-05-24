@@ -4,18 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDHomeWalletDataSource
 {
     int _passCodeChangeNotificationToken;
 }
 
-- (void);
+- (void)c;
 - (void);
 - (id);
-- (long long);
+- (long long)c2 coord = destCoord();
+vec4 sum = vec4(0.0);
+float count = 0.0;
+for(int y=-halfKernel; y<=halfKernel; y++) {
+for(int x=-halfKernel; x<=halfKernel; x++) {
+sum += sample(img, samplerTransform(img, coord + vec2(x, y)));
+count += 1.0;
+}
+}
+sum = sum/(count);
+return sum;
+}
+kernel vec4 fuse_image_compute(sampler refImg, sampler guideImg, sampler blurImg, sampler weightImg, sampler maskImg, vec2 threshold)
+{
+vec4 ref       = sample(refImg, samplerCoord(refImg));
+vec4 refBlur   = ref;
+vec4 guide     = sample(guideImg, samplerCoord(guideImg));
+vec4 guideBlur = sample(blurImg, samplerCoord(blurImg));
+float weight   = sample(weightImg, samplerCoord(weightImg)).r;
+float mask     = sample(maskImg, samplerCoord(maskImg)).r;
+vec3 CbCoef = vec3(-0.1726, -0.3391, 0.5117);
+vec3 CrCoef = vec3(0.5115, -0.4282, -0.0830);
+float CbRef   = dot(CbCoef, ref.rgb);
+float CbGuide = dot(CbCoef, guideBlur.rgb);
+float CrRef   = dot(CrCoef, ref.rgb);
+float CrGuide = dot(CrCoef, guideBlur.rgb);
+float crDiff = smoothstep(0.0, 0.2, abs(CbRef-CbGuide));
+float cbDiff = smoothstep(0.0, 0.2, abs(CrRef-CrGuide));
+float chDiff = smoothstep(0.0,0.3,crDiff+cbDiff);
+float weight1 = (1.0-smoothstep(threshold.x,threshold.y,mask));
+weight *= weight1 * (1.0-chDiff);
+vec4 value = mix(ref, (0.9*(guide-guideBlur)+refBlur), weight);
+return value;
+}
+
+;
 - (id);
 - (_Bool);
 - (double);
@@ -27,19 +60,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)ÿ;
 
 // Remaining properties
-@property(readonly) long long accessoryWriteMaxRetryCount;
-@property(readonly) double accessoryWriteRetryInterval;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isWatch;
 @property int passCodeChangeNotificationToken; // @synthesize passCodeChangeNotificationToken=_passCodeChangeNotificationToken;
-@property(readonly, getter=isResidentCapable) _Bool residentCapable;
-@property(readonly) Class superclass;
-@property(readonly) long long walletKeyColor;
 
 @end
 

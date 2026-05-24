@@ -5,5 +5,12 @@
 //
 
 @protocol AFDictationDelegate
+
+@optional
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)8;
 @end
 

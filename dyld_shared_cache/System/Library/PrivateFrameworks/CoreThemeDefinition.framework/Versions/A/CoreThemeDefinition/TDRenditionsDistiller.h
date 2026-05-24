@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CoreThemeDocument, NSConditionLock, NSMutableArray, NSObject, TDLogger;
-@protocol OS_dispatch_group;
+@class CoreThemeDocument, TDLogger;
 
 @interface TDRenditionsDistiller
 {
     CoreThemeDocument *document;
-    NSMutableArray *renditionInQueue;
-    NSMutableArray *csiDataInfoOutQueue;
-    NSConditionLock *inQueueLock;
-    NSConditionLock *outQueueLock;
-    _Bool shouldCompressCSIDataFlag;
-    _Bool noMoreCSIDataInfo;
-    _Bool noMoreRenditions;
-    NSObject<OS_dispatch_group> *_group;
-    TDLogger *_logger;
 }
 
 - (id);

@@ -9,7 +9,6 @@
 @interface MediaPlaybackCore.ChangingCurrentItemState : MediaPlaybackCore.ChangingQueueState
 {
     id items;
-    id hasLoadedAllItems;
 }
 
 @end

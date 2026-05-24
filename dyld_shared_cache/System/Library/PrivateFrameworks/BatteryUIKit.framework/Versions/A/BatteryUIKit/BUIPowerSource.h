@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface BUIPowerSource
 {
     NSDictionary *_psDescriptionDictionary;
-    _Bool _isUPS;
-    _Bool _isUPSDetermined;
-    double _percentRemaining;
-    _Bool _percentRemainingDetermined;
-    _Bool _isPluggedIn;
-    _Bool _isPluggedInDetermined;
-    NSString *_timeLeftString;
-    _Bool _timeLeftStringDetermined;
-    long long _timeLeft;
-    double _baselineCapacity;
 }
 
 + (id);
@@ -35,7 +25,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (unsigned long long);
 - (long long);
 - (long long);
@@ -43,10 +33,10 @@
 - (long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)h: /* Error: Ran out of types for this method. */;
 - (long long);
 - (id);
-- (_Bool);
+- (_Bool)!;
 - (void);
 - (_Bool);
 

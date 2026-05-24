@@ -6,43 +6,36 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface QDSchemaQDCollectionFailed : SISchemaInstrumentationMessage
 {
     NSString *_errorDomain;
-    int _errorCode;
-    CDStruct_70a7dc3e _has;
-    _Bool _hasErrorDomain;
 }
 
 - (void);
 - (void);
 - (void);
+- (_Bool);
+- (void)uldn't be encoded:(id)arg1 %{public}s;
+- (id);
 - (_Bool);
+- (void)APAudioFormatInitializeMagicCookieForCodecAPAC712;
 - (void);
-- (id);
+- (unsigned long long)ugDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDInstallManifestRequestResponse_macOS.m:18 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)cnHandleID;
+- (id)est (total:%ld, batch size:%ld) /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id)rainingOutcome;
+- (id)_trainingOutcome;
 - (id)numActionDisambiguationsLastSevenDays;
-- (void)SERALIGNMENTCATEGORY_CATEGORY_UNKNOWN;
-- (void)FAILURE_REASON_UNSUPPORTED;
+- (void)FLUSERALIGNMENTCATEGORY_CATEGORY_UNKNOWN;
+- (void)ASRAPPLANGUAGEMODELLOADFAILURE_REASON_UNSUPPORTED;
 - (int)q;
 
 // Remaining properties
-@property(nonatomic) int errorCode; // @synthesize errorCode=_errorCode;
 @property(copy, nonatomic) NSString *errorDomain; // @synthesize errorDomain=_errorDomain;
-@property(nonatomic) _Bool hasErrorCode;
-@property(nonatomic) _Bool hasErrorDomain; // @synthesize hasErrorDomain=_hasErrorDomain;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -8,20 +8,20 @@
 {
 }
 
-+ (_Bool)deHistoricTravelTime:(id)arg1;
++ (_Bool)setIncludeHistoricTravelTime:(id)arg1;
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)^;
+- (void)ing to cancel all 2nd pass in Remora;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)@?B>40;
-- (id)ride;
+- (id)_maneuverArrowOverride;
 - (id)ü¤;
-- (id)okup_result;
+- (id)batch_category_lookup_result;
 
 @end
 

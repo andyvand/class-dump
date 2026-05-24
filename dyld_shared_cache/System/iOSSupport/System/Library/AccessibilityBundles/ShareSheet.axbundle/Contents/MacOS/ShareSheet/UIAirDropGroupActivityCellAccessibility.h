@@ -11,14 +11,14 @@
 }
 
 + (Class);
-+ (id);
++ (id)Tracking.collaborativeMappingStatistics;
 + (void);
 - (id);
+- (unsigned int)C;
 - (unsigned int);
 - (unsigned int);
-- (unsigned int);
-- (_Bool);
-- (id);
+- (_Bool)sessionLocalNameIsDuplicate:selectedSession: /* Error: Ran out of types for this method. */;
+- (id)owserKit0aB28ViewServicePresenterProtocolP;
 - (unsigned long long);
 - (id);
 

@@ -4,31 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NWSAlgosStreamScore;
+@class NWSAlgosStreamScore;
 
 __attribute__((visibility("hidden")))
 @interface VCAlgosStreamingScorer
 {
     NWSAlgosStreamScore *_algosScore;
-    double _launchTime;
-    double _score;
-    struct os_unfair_lock_s _blockAlgosScoreLock;
-    _Bool _didStartStream;
-    _Bool _didStopStream;
-    _Bool _didEndStream;
-    int _maxTargetBitrate;
-    int _avgReceivingBitrate;
-    double _resolutionPredictedMOS;
-    double _frameratePredictedMOS;
-    int _pendingScoringEventCount;
-    NSDictionary *_algosScoreDictionary;
-    double _lastStreamTierSwitch;
-    double _totalStopDuration;
 }
 
 - (void);
-- (double);
-- (void);
+- (double);
+- (void)r�;
 - (void);
 - (void);
 - (void);
@@ -39,25 +25,20 @@ __attribute__((visibility("hidden")))
 - (id);
 - (double);
 - (void);
-- (int);
+- (int);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (double);
+- (double)c;
 - (void);
 - (int);
 - (void);
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *algosScoreDictionary; // @synthesize algosScoreDictionary=_algosScoreDictionary;
-@property(nonatomic) int avgReceivingBitrate; // @synthesize avgReceivingBitrate=_avgReceivingBitrate;
-@property(readonly, nonatomic) double frameratePredictedMOS; // @synthesize frameratePredictedMOS=_frameratePredictedMOS;
-@property(nonatomic) int maxTargetBitrate; // @synthesize maxTargetBitrate=_maxTargetBitrate;
 @property(readonly, nonatomic) double resolutionPredictedMOS; // @synthesize resolutionPredictedMOS=_resolutionPredictedMOS;
-@property(readonly, nonatomic) double score; // @synthesize score=_score;
 
 @end
 

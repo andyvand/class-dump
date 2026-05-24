@@ -6,7 +6,7 @@
 
 #import <CoreTelephony/CTXPCSubscriptionContextRequest.h>
 
-@class CTLazuliMessageID, CTLazuliMessageRevokeData;
+@class CTLazuliMessageRevokeData;
 
 __attribute__((visibility("hidden")))
 @interface CTXPCMessageRevokeRequest : CTXPCSubscriptionContextRequest
@@ -19,10 +19,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (int);
-- (id)CTSettingMMIProcedureErasure;
+- (id)kCTSettingMMIProcedureErasure;
 
 // Remaining properties
-@property(readonly, nonatomic) CTLazuliMessageID *messageID;
 @property(readonly, nonatomic) CTLazuliMessageRevokeData *revokeData;
 
 @end

@@ -6,7 +6,6 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class NSString;
 @protocol HMFSystemInfoMigrationDataSourceDelegate;
 
 __attribute__((visibility("hidden")))
@@ -23,15 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property __weak id <HMFSystemInfoMigrationDataSourceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isMigrating) _Bool migrating;
-@property(readonly) Class superclass;
 
 @end
 

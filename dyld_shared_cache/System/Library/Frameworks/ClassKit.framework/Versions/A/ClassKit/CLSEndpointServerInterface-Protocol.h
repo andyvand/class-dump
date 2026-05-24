@@ -5,5 +5,8 @@
 //
 
 @protocol CLSEndpointServerInterface
+- (oneway void)CoreFoundation.dylib;
+- (oneway void)rary/PrivateFrameworks/AppleKeyStore.framework/Versions/A/AppleKeyStore;
+- (oneway void);
 @end
 

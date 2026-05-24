@@ -4,70 +4,50 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _EMBusinessExternalIDComponents;
+@class _EMBusinessExternalIDComponents;
 
 @interface EMBusinessExternalID
 {
     struct EFAtomicObject _serializedRepresentation;
-    long long _grouping;
-    _EMBusinessExternalIDComponents *_components;
 }
 
 + (id);
 + (id);
++ (id);
++ (id)=;
++ (id)=;
++ (id);
++ (id)=;
++ (id);
++ (id)=;
 + (id);
 + (id);
 + (id);
 + (id);
++ (id)A;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)PresencePayloadChangeTokenPayload;
+- (id)a=;
+- (id);
+- (id)q;
 - (id);
 - (void);
 - (long long);
-- (id);
+- (id);
 - (unsigned long long);
+- (id)perfCleanupSuccesses;
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (id);
+- (_Bool)|b;
+- (id)ould not find __TEXT/__text section in com.apple.kec.corecrypto, skipping FIPS sealing;
 - (id);
 - (void);
 - (id)¾ðÿ¥´¸h;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *brandID;
 @property(readonly, nonatomic) _EMBusinessExternalIDComponents *components; // @synthesize components=_components;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *displayName;
-@property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) long long grouping; // @synthesize grouping=_grouping;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *highLevelDomain;
-@property(readonly, copy, nonatomic) NSString *serializedRepresentation;
-@property(readonly, copy, nonatomic) NSString *simpleAddress;
-@property(readonly) Class superclass;
 
 @end
 

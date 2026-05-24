@@ -4,11 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, UICollectionView;
+@class NSIndexPath, UICollectionView, UIContextMenuConfiguration, UITargetedPreview;
 
 @protocol UICollectionViewDelegate
 
 @optional
+- (void)maxPaidSubscriptionGroupSizeIPad;
+- (UITargetedPreview *)clearDisabledPortraitTags;
+- (_Bool)	@9;
+- (void)@y)2	;
+- (UIContextMenuConfiguration *) ;
+- (struct CGPoint)/System/Library/PrivateFrameworks/NewsTransport.framework/Versions/A/NewsTransport;
 - (_Bool)!|Gùz	ð1Â0@ù
 × ;
 - (_Bool)0:(UICollectionView *)arg1 8@"CALayer"16@"NSString"24;
@@ -16,6 +22,6 @@
 - (_Bool);
 - (_Bool)pÿ;
 - (_Bool)<;
-- (_Bool)ONTextEncoder;
+- (_Bool)JSONTextEncoder;
 @end
 

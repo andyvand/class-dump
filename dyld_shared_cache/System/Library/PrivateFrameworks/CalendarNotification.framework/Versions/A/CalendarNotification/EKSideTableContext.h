@@ -12,11 +12,11 @@
 }
 
 + (id);
-- (id);
+- (id)(;
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)?k;
+- (id)*;
 - (id);
 - (id);
 - (id);
@@ -26,7 +26,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)B;
 - (id), titleChanged:%d, locationChanged:%d, videoConferenceChanged:%d, recurrenceChanged:%d /* Error: Ran out of types for this method. */;
 
 @end

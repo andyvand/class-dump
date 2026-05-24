@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, CNIndexClientState;
-@protocol CNCSSearchableIndex, CNSpotlightIndexingLogger;
-
 @interface CNIndexRequestHandler
 {
     _Bool _isFullSyncNeeded;
-    CNContactStore *_contactStore;
-    id <CNCSSearchableIndex> _index;
-    id <CNSpotlightIndexingLogger> _logger;
-    unsigned long long _batchSize;
-    CNIndexClientState *_clientState;
 }
 
 - (id);

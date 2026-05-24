@@ -7,13 +7,6 @@
 @interface _CHSExtensionIdentityBufChanges
 {
     unsigned char _changeTypeTokenString;
-    unsigned int _replacementTokenString;
-    unsigned char _changeTypeExtensionBundleIdentifier;
-    unsigned int _replacementExtensionBundleIdentifier;
-    unsigned char _changeTypeContainerBundleIdentifier;
-    unsigned int _replacementContainerBundleIdentifier;
-    unsigned char _changeTypeDeviceIdentifier;
-    unsigned int _replacementDeviceIdentifier;
 }
 
 - (void);

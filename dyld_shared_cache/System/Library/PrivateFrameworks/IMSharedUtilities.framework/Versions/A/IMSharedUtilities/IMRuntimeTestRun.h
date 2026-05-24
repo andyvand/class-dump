@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMRuntimeTest;
-
 @interface IMRuntimeTestRun
 {
     _Bool _succeeded;
-    IMRuntimeTest *_test;
 }
 
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void)ÆCÿÿÈCÿÿ;
 
 // Remaining properties
 @property(getter=hasSucceeded) _Bool succeeded; // @synthesize succeeded=_succeeded;
-@property(readonly) IMRuntimeTest *test; // @synthesize test=_test;
 
 @end
 

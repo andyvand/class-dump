@@ -4,31 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, NSString;
-
 @interface UXCollectionViewLayoutAttributes
 {
     unsigned long long _hash;
-    NSString *_elementKind;
-    NSString *_reuseIdentifier;
-    struct CGRect _frame;
-    struct CGPoint _center;
-    struct CGSize _size;
-    double _alpha;
-    long long _zIndex;
-    _Bool _isFloating;
-    struct CGRect _floatingFrame;
-    NSIndexPath *_indexPath;
-    NSString *_representedElementKind;
-    NSString *_isCloneString;
-    struct {
-        unsigned int isCellKind:1;
-        unsigned int isDecorationView:1;
-        unsigned int isHidden:1;
-        unsigned int isClone:1;
-    } _layoutFlags;
-    _Bool _isPushing;
-    double _verticalOffsetFromFloatingPosition;
 }
 
 + (id);
@@ -59,41 +37,76 @@
 - (id);
 - (unsigned long long);
 - (struct CGSize);
-- (id);
+- (id)(;
 - (struct CGPoint);
 - (void);
-- (struct CGRect);
+- (struct CGRect)=;
 - (_Bool);
 - (struct CGRect);
 - (_Bool);
 - (void);
-- (void);
+- (void)@;
 - (long long);
 - (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)i, 0, ivec3(1, 1, 0));
+vec4 t001 = texelFetch3DOffset(sampler, i, 0, ivec3(0, 0, 1));
+vec4 t101 = texelFetch3DOffset(sampler, i, 0, ivec3(1, 0, 1));
+vec4 t011 = texelFetch3DOffset(sampler, i, 0, ivec3(0, 1, 1));
+vec4 t111 = texelFetch3DOffset(sampler, i, 0, ivec3(1, 1, 1));
+vec3 a = fract(pos);
+vec4 t00 = mix(t000, t001, a.z);
+vec4 t10 = mix(t100, t101, a.z);
+vec4 t01 = mix(t010, t011, a.z);
+vec4 t11 = mix(t110, t111, a.z);
+vec4 t0 = mix(t00, t01, a.y);
+vec4 t1 = mix(t10, t11, a.y);
+return mix(t0, t1, a.x);
+}
+vec4 tileSample(sampler2DRect tex, vec2 pos, vec2 zInv, vec4 validRect)
+{
+return linearSample2DRect(tex, pos, zInv, validRect);
+}
+vec4 colorMatch(vec4 color, sampler3D lut)
+{
+vec4 outColor = linearSample3D(lut, color.bgr);
+return outColor;
+}
+uniform sampler2DRect fgTexture;
+uniform vec2 fgScaleInv;
+uniform sampler3D fgColorLUT;
+uniform vec4 fgDebugColor;
+uniform vec4 fgTextureValidRect;
+uniform sampler2DRect bgTexture;
+uniform vec2 bgScaleInv;
+uniform sampler3D bgColorLUT;
+uniform vec4 bgDebugColor;
+uniform vec4 bgTextureValidRect;
+uniform vec4 channelMask;
+noperspective centroid varying vec2 fgTexCoord;
+noperspective centroid varying vec2 bgTexCoord;
+uniform float fgRatio;
+void main()
+{
+vec4 fgTexColor = linearSample2DRect(fgTexture, fgTexCoord, fgScaleInv, fgTextureValidRect);
+vec4 bgTexColor = linearSample2DRect(bgTexture, bgTexCoord, bgScaleInv, bgTextureValidRect);
+vec4 fgColor = colorMatch(fgTexColor, fgColorLUT);
+vec4 bgColor = colorMatch(bgTexColor, bgColorLUT);
+vec4 fgOutColor = fgColor + fgDebugColor;
+vec4 bgOutColor = bgColor + bgDebugColor;
+vec4 outColor = mix(fgOutColor, bgOutColor, fgRatio);
+gl_FragColor = outColor * channelMask;
+}
+;
 - (double);
 - (id);
-- (void);
+- (void)toolbarNavigationItem;
 
 // Remaining properties
-@property(nonatomic) double alpha; // @synthesize alpha=_alpha;
-@property(nonatomic) struct CGRect bounds;
-@property(nonatomic) struct CGPoint center; // @synthesize center=_center;
-@property(nonatomic) struct CGRect floatingFrame; // @synthesize floatingFrame=_floatingFrame;
-@property(nonatomic) struct CGRect frame; // @synthesize frame=_frame;
-@property(nonatomic, getter=isHidden) _Bool hidden;
-@property(retain, nonatomic) NSIndexPath *indexPath; // @synthesize indexPath=_indexPath;
-@property(nonatomic) _Bool isFloating; // @synthesize isFloating=_isFloating;
 @property(nonatomic) _Bool isPushing; // @synthesize isPushing=_isPushing;
-@property(readonly, nonatomic) unsigned long long representedElementCategory;
-@property(readonly, nonatomic) NSString *representedElementKind; // @synthesize representedElementKind=_representedElementKind;
-@property(nonatomic) struct CGSize size; // @synthesize size=_size;
-@property(nonatomic) double verticalOffsetFromFloatingPosition; // @synthesize verticalOffsetFromFloatingPosition=_verticalOffsetFromFloatingPosition;
-@property(nonatomic) long long zIndex; // @synthesize zIndex=_zIndex;
 
 @end
 

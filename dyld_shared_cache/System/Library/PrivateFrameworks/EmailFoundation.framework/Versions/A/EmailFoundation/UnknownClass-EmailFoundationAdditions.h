@@ -4,19 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFPathComponent, NSString, NSURL;
+@class NSURL;
 
 @interface UnknownClass (EmailFoundationAdditions)
-+ (id);
-+ (id);
++ (id)3!;
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 - (id);
+- (id)�A;
 - (id);
-- (id);
-- (id);
+- (id)a;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -25,15 +25,11 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (id)6;
 - (id);
-- (id);
-- (id);
+- (id)C;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *ef_caseNormalizedURL;
-@property(readonly, nonatomic) NSString *ef_highLevelDomain;
-@property(readonly, nonatomic) _Bool ef_isEligibleForRichLink;
-@property(readonly, nonatomic) EFPathComponent *ef_lastPathComponent;
-@property(readonly, nonatomic) NSURL *ef_urlByAddingSchemeIfNeeded;
 @end
 

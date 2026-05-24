@@ -9,11 +9,10 @@
 @interface TIRecentInputsSecureContext
 {
     TIKeyboardSecureCandidateRenderTraits *_focusedLabelRenderTraits;
-    TIKeyboardSecureCandidateRenderTraits *_unfocusedLabelRenderTraits;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)a;
 - (id);
 - (void);
 - (void);
@@ -29,7 +28,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) TIKeyboardSecureCandidateRenderTraits *focusedLabelRenderTraits; // @synthesize focusedLabelRenderTraits=_focusedLabelRenderTraits;
-@property(retain, nonatomic) TIKeyboardSecureCandidateRenderTraits *unfocusedLabelRenderTraits; // @synthesize unfocusedLabelRenderTraits=_unfocusedLabelRenderTraits;
 
 @end
 

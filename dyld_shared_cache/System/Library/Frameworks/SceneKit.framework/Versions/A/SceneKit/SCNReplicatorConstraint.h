@@ -11,16 +11,10 @@
 @interface SCNReplicatorConstraint : SCNConstraint
 {
     SCNNode *_target;
-    _Bool _replicateOrientation;
-    _Bool _replicatePosition;
-    _Bool _replicateScale;
-    struct SCNVector4 _orientationOffset;
-    struct SCNVector3 _positionOffset;
-    struct SCNVector3 _scaleOffset;
 }
 
 + (id);
-+ (id);
++ (id);
 + (_Bool);
 - (void);
 - (void);
@@ -39,17 +33,11 @@
 - (id);
 - (id);
 - (id);
+- (void)X;
 - (void);
-- (void);
-- (id);
+- (id);
 
 // Remaining properties
-@property(nonatomic) struct SCNVector4 orientationOffset;
-@property(nonatomic) struct SCNVector3 positionOffset;
-@property(nonatomic) _Bool replicatesOrientation;
-@property(nonatomic) _Bool replicatesPosition;
-@property(nonatomic) _Bool replicatesScale;
-@property(nonatomic) struct SCNVector3 scaleOffset;
 @property(retain, nonatomic) SCNNode *target;
 
 @end

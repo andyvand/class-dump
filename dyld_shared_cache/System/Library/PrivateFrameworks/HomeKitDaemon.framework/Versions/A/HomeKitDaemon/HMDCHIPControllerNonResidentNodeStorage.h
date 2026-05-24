@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface HMDCHIPControllerNonResidentNodeStorage
@@ -13,29 +13,21 @@ __attribute__((visibility("hidden")))
 }
 
 + (id)";
-- (_Bool);
-- (void);
+- (_Bool)_msp_testTripClosedTripInPast;
+- (void)_addObserver:(id)arg1;
 - (void);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id)1ð1Â0@ù
 × ;
-- (id)ror:(struct _NSZone *)arg1;
+- (id)externalIDForModelID:(struct _NSZone *)arg1 error: /* Error: Ran out of types for this method. */;
 - (id)ome/zoneAccepted (%@/%@) with operation ID %@;
 - (void);
 - (id)etworkMismatchDetectorDataSource;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSDictionary *debugDictionaryRepresentation;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy) NSDictionary *keyValueStore; // @synthesize keyValueStore=_keyValueStore;
-@property(readonly) Class superclass;
 
 @end
 

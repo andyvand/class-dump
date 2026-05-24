@@ -5,5 +5,6 @@
 //
 
 @protocol _MXExtensionRequestHandling
+- (void);
 @end
 

@@ -6,14 +6,9 @@
 
 #import <MediaPlayer/MPAVRoutingDataSource.h>
 
-@class NSMutableArray, NSObject;
-@protocol OS_dispatch_queue;
-
 @interface MPAVTelevisionRoutingDataSource : MPAVRoutingDataSource
 {
     void *_discoveryController;
-    NSMutableArray *_discoveredTelevisions;
-    NSObject<OS_dispatch_queue> *_serialQueue;
 }
 
 - (id);
@@ -26,7 +21,7 @@
 - (void);
 - (_Bool)!xBùqA°1Â0@ù
 × ;
-- (void)SSING__;
+- (void)__MPModelPropertyMovieLibraryAddEligible__MAPPING_MISSING__;
 
 @end
 

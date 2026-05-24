@@ -9,9 +9,9 @@
     struct __CFAttributedString *_string;
 }
 
++ (id)m;
 + (id);
-+ (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -19,26 +19,26 @@
 - (void);
 - (id);
 - (struct __CFAttributedString *);
-- (void);
+- (void)B;
 - (id);
 - (id);
-- (id);
+- (id)Q;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (Class);
+- (id);
+- (id);
+- (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -53,14 +53,14 @@
 - (unsigned short);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id)crollFailed;
+- (id)AXPageScrollFailed;
 
 @end
 

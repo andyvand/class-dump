@@ -5,5 +5,9 @@
 //
 
 @protocol CNVCardSerializationStorage
+- (void)C;
+- (void);
+- (unsigned long long)aL;
+- (void);
 @end
 

@@ -4,110 +4,102 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOApplicationAuditToken, MNNavigationProxyUpdater, MNNavigationSession, MNNavigationTraceManager, MNRouteManager, MNSessionUpdateManager, MNSimulationLocationProvider, NSString;
 @protocol MNNavigationSessionManagerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface MNNavigationSessionManager
 {
     id <MNNavigationSessionManagerDelegate> _delegate;
-    MNSessionUpdateManager *_realTimeTransitUpdateManager;
-    MNNavigationSession *_navigationSession;
-    MNRouteManager *_routeManager;
-    MNNavigationProxyUpdater *_proxyUpdater;
-    MNNavigationTraceManager *_traceManager;
-    MNSimulationLocationProvider *_simulationLocationProvider;
-    CDUnknownBlockType _didEndHandler;
-    MNSessionUpdateManager *_updateManager;
-    GEOApplicationAuditToken *_auditToken;
 }
 
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)Z7$Y7;
+- (void)Y7;
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void)ResolvedBorderShape;
+- (id);
+- (id);
 - (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
 - (_Bool);
 - (id);
 - (void);
+- (void)NavigationStackRepresentableRoot;
+- (void);
+- (void)NavigationStateStructureSeed;
+- (void);
+- (void)tyledCore;
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)ModifierKeySource;
+- (void);
+- (void);
+- (void);
+- (void)AccessibilityNavigationRotorEntry;
+- (void)FirstVisitor;
+- (void)or;
+- (void);
+- (void)AccessibilityRotorEntryElementSpecifier;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)ListPadding;
+- (void)TransformGestureAnchorHelper;
+- (void);
+- (void);
+- (void)BackgroundColorConfiguration;
+- (void)MatchedTransitionSourceConfiguration;
+- (void);
+- (void);
+- (void);
+- (void)\j
+;
+- (void)j
+;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
+- (void)ArchivableDisplayList;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)4;
 - (void);
 - (void);
 - (id);
 - (CDUnknownBlockType);
-- (id);
+- (id)NavigationSplitTabView;
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)UpdateSplitViewItem;
+- (void);
 - (void);
 - (id);
 - (id);
@@ -115,7 +107,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (int);
-- (id);
+- (id)badResponseFromServer;
 - (void);
 - (void);
 - (void);
@@ -126,12 +118,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)Available received an XPC_ERROR_CONNECTION_INVALID error.
+;
+- (void)to iapd;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)setCapabilities:(unsigned long long)arg1;
+- (void)EAVehicleInfoHasLowDistanceRangeKey;
 - (void);
 - (void);
 - (void)°1Â0@ù
@@ -146,34 +139,18 @@ __attribute__((visibility("hidden")))
 - (void)°!Ð@ùq°1Â0@ù
 × ;
 - (void)setIncidentsOnRouteOffsets:(_Bool)arg1;
-- (void)lkingRoute:(_Bool)arg1;
-- (void)e;
+- (void)navigationSession:(_Bool)arg1 didUpdateBackgroundWalkingRoute: /* Error: Ran out of types for this method. */;
+- (void)_tableName;
 - (void);
 - (void)after location updates have already been stopped.;
 - (void)d error <%@> when creating tmp folder;
 - (void)ü(þÿ@(þÿN)þÿ;
-- (void)entAlertType;
+- (void)trafficIncidentAlertType;
 - (void)ion from remainingRecentLocations.popLast() was nil;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) GEOApplicationAuditToken *auditToken; // @synthesize auditToken=_auditToken;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <MNNavigationSessionManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType didEndHandler; // @synthesize didEndHandler=_didEndHandler;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) MNNavigationSession *navigationSession; // @synthesize navigationSession=_navigationSession;
-@property(readonly, nonatomic) MNRouteManager *routeManager; // @synthesize routeManager=_routeManager;
-@property(readonly, nonatomic) MNSimulationLocationProvider *simulationLocationProvider; // @synthesize simulationLocationProvider=_simulationLocationProvider;
-@property(readonly, nonatomic) int state;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long targetLegIndex;
-@property(readonly, nonatomic) MNNavigationTraceManager *traceManager; // @synthesize traceManager=_traceManager;
-@property(readonly, nonatomic) MNSessionUpdateManager *updateManager; // @synthesize updateManager=_updateManager;
 
 @end
 

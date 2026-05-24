@@ -7,8 +7,6 @@
 @interface NewsSubscription.PurchasingSpinnerViewControllerFactory
 {
     id viewStyler;
-    id viewLayoutAttributesFactory;
-    id viewRenderer;
 }
 
 @end

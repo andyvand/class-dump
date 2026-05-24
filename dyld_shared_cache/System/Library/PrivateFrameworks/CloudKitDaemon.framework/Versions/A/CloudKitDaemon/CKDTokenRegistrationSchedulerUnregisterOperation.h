@@ -10,7 +10,7 @@
 {
 }
 
-- (id);
+- (id)initWithDirectoryPath:dirPath:fileNamePrefix:runLoopRef:runLoopMode:classC:dateFormatter:maxFileSizeInMB:logLifespanInDays:dispatchQueue: /* Error: Ran out of types for this method. */;
 - (int);
 
 @end

@@ -11,14 +11,14 @@
 }
 
 + (Class);
-+ (id);
++ (id)SystemTools:Could not create pixel buffer pool. /* Error: Ran out of types for this method. */;
 + (void);
 - (void);
-- (void);
+- (void) ;
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 

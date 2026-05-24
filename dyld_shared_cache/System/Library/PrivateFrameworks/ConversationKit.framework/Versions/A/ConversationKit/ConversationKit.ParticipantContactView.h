@@ -7,9 +7,6 @@
 @interface ConversationKit.ParticipantContactView
 {
     id gradientView;
-    id contactMonogram;
-    id contactImageView;
-    id contactDetails;
 }
 
 - (id);

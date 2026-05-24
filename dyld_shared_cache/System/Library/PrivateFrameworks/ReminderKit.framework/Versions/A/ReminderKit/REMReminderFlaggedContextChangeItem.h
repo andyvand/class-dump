@@ -15,12 +15,11 @@
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void));
 - (void)áêÐ!LDùñr 1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) long long flagged;
 @property(retain, nonatomic) REMReminderChangeItem *reminderChangeItem; // @synthesize reminderChangeItem=_reminderChangeItem;
 
 @end

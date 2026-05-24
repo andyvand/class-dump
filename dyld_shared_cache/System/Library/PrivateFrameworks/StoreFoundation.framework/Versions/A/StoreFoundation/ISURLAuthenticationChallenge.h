@@ -15,7 +15,7 @@
 
 - (void);
 - (id);
-- (void);
+- (void)hasUeiSiriWasUnavailable;
 - (void);
 - (_Bool);
 - (id);

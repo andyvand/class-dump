@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISStoreURLOperation, NSDictionary, NSHTTPURLResponse, NSString;
+@class NSDictionary, NSString;
 
 @interface CKItemTellAFriend
 {
     NSDictionary *_properties;
-    ISStoreURLOperation *_tellAFriendOperation;
-    NSString *_tellAFriendSubject;
-    NSString *_tellAFriendBody;
-    NSString *_tellAFriendBodyMIMEType;
-    NSHTTPURLResponse *_tellAFriendResponse;
 }
 
 - (id);
@@ -23,23 +18,14 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id)qb;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSString *tellAFriendBody;
-@property(readonly, nonatomic) NSString *tellAFriendBodyMIMEType;
-@property(readonly, nonatomic) NSString *tellAFriendSubject;
 
 @end
 

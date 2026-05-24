@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSSearchableItemAttributeSet, NSDate, NSUUID;
+@class CSSearchableItemAttributeSet;
 
 @interface UnknownClass (CSSearchableItemAttributeSet)
 + (_Bool);
 + (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (void);
+- (void)`;
 - (_Bool);
 - (void);
 - (void);
@@ -31,22 +31,14 @@
 - (double);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)_AbstractStringStorage;
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSDate *_madeCurrentDate;
-@property(readonly, copy) NSDate *_madeCurrentEndDate;
-@property(readonly) double _madeCurrentInterval;
-@property(readonly, copy) NSDate *_madeInitiallyCurrentDate;
-@property(readonly, copy) NSUUID *_originalUniqueIdentifier;
-@property(readonly, copy) NSDate *_sentToIndexerDate;
-@property(getter=_isUniversalLink) _Bool _universalLink;
-@property(readonly) unsigned long long _userInfoChangeCount;
 @property(copy) CSSearchableItemAttributeSet *contentAttributeSet; // @dynamic contentAttributeSet;
 @end
 

@@ -7,7 +7,6 @@
 @interface JetEngine.JetPackageFormatParser
 {
     id inputStream;
-    id state;
 }
 
 @end

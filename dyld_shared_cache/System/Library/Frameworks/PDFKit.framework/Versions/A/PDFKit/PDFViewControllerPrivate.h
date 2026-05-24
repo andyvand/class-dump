@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSMutableDictionary, PDFAnnotation, PDFTableCellSelection, PDFView;
+@class PDFView;
 
 __attribute__((visibility("hidden")))
 @interface PDFViewControllerPrivate
 {
     PDFView *view;
-    struct CGRect viewMarquee;
-    PDFTableCellSelection *tableCellSelection;
-    CALayer *marqueeEffect;
-    PDFAnnotation *activeAnnotation;
-    NSMutableDictionary *selectionMarkups;
 }
 
 - (void);

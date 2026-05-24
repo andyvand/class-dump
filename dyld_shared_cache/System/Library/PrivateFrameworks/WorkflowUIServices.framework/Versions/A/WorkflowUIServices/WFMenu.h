@@ -4,27 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMenu, NSString;
+@class NSMenu, NSString;
 
 @interface WFMenu
 {
     NSString *_title;
-    NSArray *_elements;
 }
 
-+ (id);
++ (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *elements; // @synthesize elements=_elements;
 @property(readonly, nonatomic) NSMenu *platformMenu;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

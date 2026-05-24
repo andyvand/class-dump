@@ -6,28 +6,27 @@
 
 #import <AppKit/NSMenuItemView.h>
 
-@class NSCocoaMenuImpl, NSHorizontalMenuImpl, NSView;
+@class NSCocoaMenuImpl, NSHorizontalMenuImpl;
 
 __attribute__((visibility("hidden")))
 @interface NSInlineMenuItemView : NSMenuItemView
 {
     NSHorizontalMenuImpl *_impl;
-    NSView *_stackView;
 }
 
 + (struct CGSize);
 + (struct CGSize);
-+ (struct CGSize);
++ (struct CGSize);
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)2@"NSUUID"40@?<v@?B>48;
+- (id)4i32;
 - (struct CGSize);
-- (struct CGRect);
+- (struct CGRect);
 - (id);
 - (id);
-- (void)ckness:(id)arg1;
+- (void)_rectWithSingleThickness:(id)arg1;
 - (void)Óÿbí;
 - (void),wA;
 - (id)·ÿq3	D;

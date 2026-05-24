@@ -9,8 +9,8 @@
     struct map<unsigned int, unsigned long, std::less<unsigned int>, std::allocator<std::pair<const unsigned int, unsigned long>>> _map;
 }
 
-- (void);
-- (void);
+- (void)fier;
+- (void)lowRebuild;
 - (id);
 - (id);
 - (unsigned long long);

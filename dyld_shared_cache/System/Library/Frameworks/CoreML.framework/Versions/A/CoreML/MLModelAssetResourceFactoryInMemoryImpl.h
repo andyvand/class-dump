@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface MLModelAssetResourceFactoryInMemoryImpl
@@ -12,23 +12,16 @@ __attribute__((visibility("hidden")))
     struct unique_ptr<_MLModelInputArchiver, std::default_delete<_MLModelInputArchiver>> _inputArchiver;
 }
 
+- (id)@;
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)=;
 - (void)l;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSURL *compiledModelURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

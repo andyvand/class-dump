@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSDescriptionStyle, NSMutableString;
+@class BSDescriptionStyle;
 
 @interface BSDescriptionStream
 {
     BSDescriptionStyle *_style;
-    unsigned char _appendBuffer[1024];
-    long long _appendBufferCount;
-    long long _proemNestCount;
-    _Bool _forceSuccinct;
-    _Bool _verboseSingleItemCollections;
-    NSMutableString *_string;
-    long long _indentLevel;
-    long long _truncationStartIndex;
-    long long _maximumLengthBeforeTruncation;
-    long long _lineTruncation;
-    long long _emitPhase;
-    long long _groupItemCount;
 }
 
 + (id);
@@ -32,7 +20,7 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)q;
 - (id);
 - (id);
 - (id);
@@ -42,51 +30,48 @@
 - (void);
 - (id);
 - (id);
+- (void)@;
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
 - (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void)atter;
+- (void);
+- (id);
+- (id)c;
+- (id);
+- (void);
+- (void);
+- (id);
+- (_Bool)9E;
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void)_shortDayMonthTimeFormatter;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasDebugStyle;
-@property(readonly, nonatomic) _Bool hasSuccinctStyle;
 @property(nonatomic) _Bool sortKeys;
-@property(nonatomic) _Bool verboseSingleItemCollections; // @synthesize verboseSingleItemCollections=_verboseSingleItemCollections;
 
 @end
 

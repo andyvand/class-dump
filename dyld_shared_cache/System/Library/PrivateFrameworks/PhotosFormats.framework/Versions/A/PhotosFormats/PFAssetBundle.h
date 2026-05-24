@@ -4,34 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSMutableDictionary, NSSet, NSString, NSTimeZone, NSURL;
+@class NSDictionary;
 
 @interface PFAssetBundle
 {
     _Bool _didReadOriginalPairedVideoMetadata;
-    NSURL *_photoURL;
-    NSURL *_videoURL;
-    NSURL *_audioURL;
-    NSURL *_alternatePhotoURL;
-    NSURL *_fullSizePhotoURL;
-    NSURL *_fullSizeVideoURL;
-    NSURL *_adjustmentDataURL;
-    NSURL *_adjustmentBasePhotoURL;
-    NSURL *_pairedVideoURL;
-    NSURL *_fullSizePairedVideoURL;
-    NSURL *_adjustmentBasePairedVideoURL;
-    NSURL *_spatialOvercapturePhotoURL;
-    NSURL *_spatialOvercapturePairedVideoURL;
-    NSURL *_spatialOvercaptureVideoURL;
-    NSURL *_adjustmentBaseVideoURL;
-    NSURL *_originalAdjustmentDataURL;
-    NSURL *_adjustmentSecondaryDataURL;
-    NSString *_livePhotoOriginalPairingIdentifier;
-    NSDictionary *_propertyList;
-    NSMutableDictionary *_metadata;
-    NSMutableDictionary *_auxiliaryResourceURLsByKey;
-    CDStruct_1b6d18a9 _livePhotoOriginalImageDisplayTime;
-    CDStruct_1b6d18a9 _livePhotoOriginalVideoDuration;
 }
 
 + (_Bool);
@@ -41,20 +18,20 @@
 + (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)D;
 - (id);
 - (void);
 - (void);
 - (void);
-- (CDStruct_1b6d18a9);
+- (CDStruct_198678f7);
 - (id);
-- (CDStruct_1b6d18a9);
-- (CDStruct_1b6d18a9);
+- (CDStruct_198678f7);
+- (CDStruct_198678f7)$;
 - (_Bool);
+- (id);
+- (_Bool);
 - (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)(;
 - (id);
 - (void);
 - (_Bool);
@@ -79,8 +56,8 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -96,7 +73,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)e for SidePlay %s, now count=%u;
 - (void);
 - (id);
 - (void);
@@ -107,57 +84,18 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (id)Â0@ù
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityDescription;
-@property(readonly, nonatomic) NSURL *adjustmentBasePairedVideoURL; // @synthesize adjustmentBasePairedVideoURL=_adjustmentBasePairedVideoURL;
-@property(readonly, nonatomic) NSURL *adjustmentBasePhotoURL; // @synthesize adjustmentBasePhotoURL=_adjustmentBasePhotoURL;
-@property(readonly, nonatomic) NSURL *adjustmentBaseVideoURL; // @synthesize adjustmentBaseVideoURL=_adjustmentBaseVideoURL;
-@property(readonly, nonatomic) NSURL *adjustmentDataURL; // @synthesize adjustmentDataURL=_adjustmentDataURL;
-@property(readonly, nonatomic) NSURL *adjustmentSecondaryDataURL; // @synthesize adjustmentSecondaryDataURL=_adjustmentSecondaryDataURL;
-@property(readonly, nonatomic) NSURL *alternatePhotoURL; // @synthesize alternatePhotoURL=_alternatePhotoURL;
-@property(copy, nonatomic) NSString *assetDescription;
-@property(copy, nonatomic) NSString *assetTitle;
-@property(readonly, nonatomic) NSURL *audioURL; // @synthesize audioURL=_audioURL;
-@property(readonly, nonatomic) NSMutableDictionary *auxiliaryResourceURLsByKey; // @synthesize auxiliaryResourceURLsByKey=_auxiliaryResourceURLsByKey;
-@property(readonly, nonatomic) _Bool didReadOriginalPairedVideoMetadata; // @synthesize didReadOriginalPairedVideoMetadata=_didReadOriginalPairedVideoMetadata;
-@property(readonly, nonatomic) NSURL *fullSizePairedVideoURL; // @synthesize fullSizePairedVideoURL=_fullSizePairedVideoURL;
-@property(readonly, nonatomic) NSURL *fullSizePhotoURL; // @synthesize fullSizePhotoURL=_fullSizePhotoURL;
-@property(readonly, nonatomic) NSURL *fullSizeVideoURL; // @synthesize fullSizeVideoURL=_fullSizeVideoURL;
-@property(copy, nonatomic) NSSet *keywordTitles;
-@property(readonly, nonatomic) NSDate *libraryCreationDate;
-@property(readonly, nonatomic) NSTimeZone *libraryCreationDateTimeZone;
-@property(retain, nonatomic) id libraryLocation;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 livePhotoImageDisplayTime;
-@property(nonatomic) CDStruct_1b6d18a9 livePhotoOriginalImageDisplayTime; // @synthesize livePhotoOriginalImageDisplayTime=_livePhotoOriginalImageDisplayTime;
-@property(copy, nonatomic) NSString *livePhotoOriginalPairingIdentifier; // @synthesize livePhotoOriginalPairingIdentifier=_livePhotoOriginalPairingIdentifier;
-@property(nonatomic) CDStruct_1b6d18a9 livePhotoOriginalVideoDuration; // @synthesize livePhotoOriginalVideoDuration=_livePhotoOriginalVideoDuration;
-@property(readonly, copy, nonatomic) NSString *livePhotoPairingIdentifier;
-@property(readonly, nonatomic) unsigned long long mediaSubtypes;
-@property(readonly, nonatomic) long long mediaType;
-@property(readonly, copy, nonatomic) NSMutableDictionary *metadata; // @synthesize metadata=_metadata;
-@property(readonly, nonatomic) NSURL *originalAdjustmentDataURL; // @synthesize originalAdjustmentDataURL=_originalAdjustmentDataURL;
-@property(copy, nonatomic) NSString *originalFilename;
-@property(readonly, nonatomic) NSURL *pairedVideoURL; // @synthesize pairedVideoURL=_pairedVideoURL;
-@property(readonly, nonatomic) NSURL *photoURL; // @synthesize photoURL=_photoURL;
-@property(readonly, nonatomic) long long playbackStyle;
-@property(readonly, nonatomic) unsigned long long playbackVariation;
 @property(copy, nonatomic) NSDictionary *propertyList; // @synthesize propertyList=_propertyList;
-@property(readonly, nonatomic) NSURL *spatialOvercapturePairedVideoURL; // @synthesize spatialOvercapturePairedVideoURL=_spatialOvercapturePairedVideoURL;
-@property(readonly, nonatomic) NSURL *spatialOvercapturePhotoURL; // @synthesize spatialOvercapturePhotoURL=_spatialOvercapturePhotoURL;
-@property(nonatomic) _Bool spatialOvercaptureResourcesPurgeable;
-@property(readonly, nonatomic) NSURL *spatialOvercaptureVideoURL; // @synthesize spatialOvercaptureVideoURL=_spatialOvercaptureVideoURL;
-@property(readonly, nonatomic) unsigned short videoComplementVisibilityState;
-@property(readonly, nonatomic) NSURL *videoURL; // @synthesize videoURL=_videoURL;
 
 @end
 

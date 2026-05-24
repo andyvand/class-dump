@@ -27,8 +27,8 @@ __attribute__((visibility("hidden")))
 - (Class);
 - (struct TFENode);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)addEntriesFromDictionary: /* Error: Ran out of types for this method. */;
+- (_Bool)S;
 
 @end
 

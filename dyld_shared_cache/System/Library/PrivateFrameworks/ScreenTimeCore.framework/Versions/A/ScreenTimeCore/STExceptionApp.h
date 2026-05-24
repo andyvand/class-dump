@@ -4,39 +4,97 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface STExceptionApp
 {
     NSNumber *_requesterDSID;
-    NSString *_bundleIdentifier;
-    unsigned long long _adamID;
-    NSString *_distributorID;
-    unsigned long long _ratingValue;
 }
 
-+ (_Bool);
++ (_Bool);
+- (id)d, vpp_org_id, vpp_org_name) SELECT item_pid, store_item_id, store_artist_id, store_composer_id, store_genre_id, store_playlist_id, storefront_id, purchase_history_id, purchase_history_token, purchase_history_redownload_params, store_saga_id, match_redownload_params, sync_id, home_sharing_id, is_ota_purchased, store_kind, account_id, key_versions, key_platform_id, key_id, key_id_2, date_purchased, date_released, external_guid, feed_url, artwork_url, store_xid, store_flavor, store_matched_status, store_redownloaded_status, store_link_id, extras_url, vpp_is_licensed, vpp_org_id, vpp_org_name FROM item_store;
+- (unsigned long long)return vec3(pTmp);
+}
+
+
+void main (void)
+{
+    
+    vec4 color = texture2D(colorSampler, TexCoord);
+    
+	
+	float depthValue = texture2D(depthSampler, TexCoord).x;
+
+	
+	vec3 worldPos = unprojectPoint(vec3(TexCoord, depthValue));
+
+	
+	vec4 lightScreen =  light_MVP * vec4(worldPos, 1.0);
+    
+    
+#if USE_SPOT_ATTENUATION
+    vec3 lightToFragment = normalize(u_lightPos - worldPos);
+    
+    
+    float att;
+    if (u_lightSpotAtt.z == 0.0)
+        att = step(u_lightSpotAtt.x, dot(lightToFragment, u_lightDir) + 0.00004);
+    else
+        att = pow(clamp(dot(lightToFragment, u_lightDir) * u_lightSpotAtt.x + u_lightSpotAtt.y, 0.0, 1.0), u_lightSpotAtt.z);
+    
+    if (att == 0.) {
+        gl_FragColor = color.rgba;
+        return;
+    }
+#endif 
+    
+    
+#if MAX_SAMPLE == 1
+    float shadow = __shadow2DProj(lightDepthSampler, lightScreen);
+#else
+    
+    float filteringSizeFactor = shadowRadius * lightScreen.w;
+    
+    
+    float totalAccum = 0.0;
+    for(int i=0; i<MAX_SAMPLE; i++){
+        totalAccum += __shadow2DProj(lightDepthSampler, lightScreen + (u_kernel[i] * filteringSizeFactor));
+    }
+    
+    float shadow = totalAccum / float(MAX_SAMPLE);
+#endif
+    
+#if !USE_SPOT_ATTENUATION
+    shadow *= step(0., lightScreen.w);
+#endif
+    
+    
+    
+    shadow *= shadowColor.a;
+#if USE_SPOT_ATTENUATION
+    shadow = shadow * att;
+#endif
+    
+    
+    gl_FragColor = mix(color.rgba, vec4(shadowColor.rgb, 1.0),  shadow);
+}
+
+;
+- (void)CAMediaTimingFunction;
+- (void)C3DGeometryOpenSubdivGPUUpdateAuthoringEnvironmentData;
+- (void)OSD_TEXCOORD5_INTERPOLATION_MODE;
+- (id)OSD_FVAR_CHANNELS_PATCH_ARRAY_INDEX_BUFFER_INDEX;
+- (void);
+- (id)XoD;
 - (id);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
 - (id);
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (unsigned long long)ithBundleIDs:overwriteExistingList:error: /* Error: Ran out of types for this method. */;
+- (unsigned long long)saveAlwaysAllowListForUser:withBundleIDs:overwriteExistingList:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned long long adamID; // @synthesize adamID=_adamID;
-@property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(copy, nonatomic) NSString *distributorID; // @synthesize distributorID=_distributorID;
-@property(nonatomic) unsigned long long ratingValue; // @synthesize ratingValue=_ratingValue;
 @property(copy, nonatomic) NSNumber *requesterDSID; // @synthesize requesterDSID=_requesterDSID;
 
 @end

@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NTPBPoint;
+@class NSMutableArray;
 
 @interface NTPBColorGradient
 {
     NSMutableArray *_colorStops;
-    NTPBPoint *_endPoint;
-    NTPBPoint *_startPoint;
 }
 
-+ (Class);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
++ (Class)_preferredImageDynamicRange;
+- (_Bool)_video;
+- (_Bool)_updateDataSourceWithSectionChanges:itemChanges: /* Error: Ran out of types for this method. */;
+- (id)_thumbnailImageFormat;
+- (void)_statusBarGradientAnimator;
+- (void)_spacingBetweenPlaybackEndTitleAndSubtitle;
+- (unsigned long long)_simulateEmptyImportSource;
 - (void);
 - (id);
 - (id);
@@ -37,11 +35,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *colorStops; // @synthesize colorStops=_colorStops;
-@property(retain, nonatomic) NTPBPoint *endPoint; // @synthesize endPoint=_endPoint;
-@property(readonly, nonatomic) _Bool hasEndPoint;
 @property(readonly, nonatomic) _Bool hasStartPoint;
-@property(retain, nonatomic) NTPBPoint *startPoint; // @synthesize startPoint=_startPoint;
 
 @end
 

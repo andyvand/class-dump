@@ -6,24 +6,10 @@
 
 #import <UIKitMacHelper/UINSGameModuleDigitizer.h>
 
-@class NSArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface UINSGameModuleJoystick : UINSGameModuleDigitizer
 {
     struct CGPoint _normalizedLocation;
-    struct CGPoint _touchVector;
-    double _radius;
-    NSString *_fingerKey;
-    long long _keyCodeUp;
-    long long _keyCodeLeft;
-    long long _keyCodeDown;
-    long long _keyCodeRight;
-    _Bool _isTouching;
-    _Bool _isUpPressed;
-    _Bool _isLeftPressed;
-    _Bool _isDownPressed;
-    _Bool _isRightPressed;
 }
 
 + (id);
@@ -46,17 +32,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (double);
-- (id);
-- (void);
+- (id)0;
+- (void);
 
 // Remaining properties
-@property(readonly) long long keyCodeDown; // @synthesize keyCodeDown=_keyCodeDown;
-@property(readonly) long long keyCodeLeft; // @synthesize keyCodeLeft=_keyCodeLeft;
-@property(readonly) long long keyCodeRight; // @synthesize keyCodeRight=_keyCodeRight;
-@property(readonly) long long keyCodeUp; // @synthesize keyCodeUp=_keyCodeUp;
-@property(copy) NSArray *keyCodes;
 @property struct CGPoint normalizedLocation; // @synthesize normalizedLocation=_normalizedLocation;
-@property double radius; // @synthesize radius=_radius;
 
 @end
 

@@ -10,8 +10,8 @@
 
 - (id);
 - (id);
-- (id)e;
-- (void)ceValue;
+- (id)StyleType;
+- (void)PreferenceValue;
 
 @end
 

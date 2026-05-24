@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, NSDictionary, NSString;
+@class ACAccount;
 
 @interface UnknownClass (CloudKitAdditions)
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly) NSDictionary *ck_accountProperties;
 @property(readonly, nonatomic) ACAccount *ck_cloudKitAccount;
-@property(readonly) NSDictionary *ck_dataclassProperties;
-@property(readonly) NSString *ck_identifier;
 @end
 

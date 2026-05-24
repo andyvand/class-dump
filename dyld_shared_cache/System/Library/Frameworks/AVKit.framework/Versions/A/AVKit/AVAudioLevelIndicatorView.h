@@ -10,8 +10,8 @@
 }
 
 - (void);
-- (void);
-- (_Bool);
+- (void)iterScoredEventsWithQuery:(struct CGRect)arg1 error:block: /* Error: Ran out of types for this method. */;
+- (_Bool)WBSBrowsingDataExportController;
 - (struct CGSize);
 - (double);
 - (id);

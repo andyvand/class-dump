@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableData, NSString;
+@class NSMutableData;
 
 __attribute__((visibility("hidden")))
 @interface _MLNeuralNetworkBasicTensorDataStore
@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     NSMutableData *_data;
 }
 
-- (_Bool);
-- (id);
+- (_Bool)with error:(id)arg1 %@;
+- (id)IndirectArgumentBufferLayout uniqueIdentifierForComputePipelineAtIndex:(unsigned long long)arg1 inIndirectArgumentBuffer:(unsigned long long)arg2 atOffset:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -21,13 +21,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableData *data; // @synthesize data=_data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

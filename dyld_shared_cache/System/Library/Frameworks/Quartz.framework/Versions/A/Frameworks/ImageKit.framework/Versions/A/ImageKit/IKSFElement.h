@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIFilter, NSString;
+@class CIFilter;
 
 @interface IKSFElement
 {
     CIFilter *_filter;
-    NSString *_filterName;
-    IKSFElement *_parent;
-    IKSFElement *_inputElement;
-    struct CGPoint _origin;
-    struct CGSize _originalSize;
-    _Bool _inUserDomain;
 }
 
 + (id);
@@ -28,16 +22,16 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)cameraCaptureDevice;
 - (id);
 - (id);
 - (void);
 - (void);
-- (struct CGSize);
-- (void);
+- (struct CGSize)6@?<v@?@"NSArray"@"NSError">24;
+- (void);
 - (struct CGPoint);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);

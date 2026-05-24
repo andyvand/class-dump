@@ -11,29 +11,20 @@
 @interface CUITextStyle : CUINamedLookup
 {
     NSString *_fontName;
-    double _fontSize;
-    double _maxPointSize;
-    double _minPointSize;
-    long long _scalingStyle;
-    long long _alignment;
 }
 
 - (long long);
 - (double);
-- (void);
+- (void)n';
 - (double);
 - (long long);
 - (id);
 - (id);
-- (double);
+- (double)ad a child node
+;
 
 // Remaining properties
-@property(readonly, nonatomic) long long alignment; // @synthesize alignment=_alignment;
 @property(readonly, nonatomic) NSString *fontName; // @synthesize fontName=_fontName;
-@property(readonly, nonatomic) double fontSize; // @synthesize fontSize=_fontSize;
-@property(readonly, nonatomic) double maxPointSize; // @synthesize maxPointSize=_maxPointSize;
-@property(readonly, nonatomic) double minPointSize; // @synthesize minPointSize=_minPointSize;
-@property(readonly, nonatomic) long long scalingStyle; // @synthesize scalingStyle=_scalingStyle;
 
 @end
 

@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface Window
 {
     _Bool _unresizable;
-    unsigned long long _firstResponderLockedCount;
-    struct CGSize _savedMinContentSize;
-    struct CGSize _savedMaxContentSize;
 }
 
 - (void);
@@ -23,28 +20,24 @@ __attribute__((visibility("hidden")))
 - (id);
 - (struct CGRect);
 - (_Bool);
-- (struct CGRect);
+- (struct CGRect);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (struct CGPoint);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)_decryptCipherFields:withFieldEncryptionKey:fieldTaggingKey:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void)°;
 - (_Bool)ø;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect cascadedChildWindowFrame;
 @property __weak id <ExtendedWindowDelegate> delegate; // @dynamic delegate;
-@property(readonly, nonatomic) struct CGRect overrideFrameToStaggerFrom;
-@property(readonly, nonatomic) struct CGRect overrideWindowRect;
-@property(nonatomic, getter=isResizable) _Bool resizable;
 
 @end
 

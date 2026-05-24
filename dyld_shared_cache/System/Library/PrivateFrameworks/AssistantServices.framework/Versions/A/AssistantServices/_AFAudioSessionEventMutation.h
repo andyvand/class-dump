@@ -4,40 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFAudioSessionEvent, NSString;
+@class AFAudioSessionEvent;
 
 @interface _AFAudioSessionEventMutation
 {
     AFAudioSessionEvent *_base;
-    long long _eventType;
-    long long _eventTime;
-    unsigned long long _hostTime;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasEventType:1;
-        unsigned int hasEventTime:1;
-        unsigned int hasHostTime:1;
-    } _mutationFlags;
 }
 
-- (void);
+- (void)I;
 - (long long);
 - (long long);
-- (unsigned long long);
+- (unsigned long long)NW_PROXY_TYPE_DIRECT;
 - (_Bool);
 - (void);
-- (id)ognizeCommands;
-- (void)asTooSoon;
+- (id)shouldRecognizeCommands;
+- (void)_inTaskTriggerWasTooSoon;
 - (void)UID = %@);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

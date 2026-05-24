@@ -4,45 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol IMServiceAvailabilityMonitoring;
-
 @interface IMSharedMessageSendingUtilities
 {
     long long _serviceAvailability;
-    id <IMServiceAvailabilityMonitoring> _serviceAvailabilityMonitor;
 }
 
 + (id)c;
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
-- (long long);
+- (long long);
 - (long long);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)@;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)fiers:%@;
+ /* Error: Ran out of types for this method. */;
 - (_Bool)1Â0@ù
 × ;
-- (long long)edErrorDomainKey;
+- (long long)IMSerializedErrorDomainKey;
 
 // Remaining properties
 @property long long serviceAvailability; // @synthesize serviceAvailability=_serviceAvailability;
-@property(retain, nonatomic) id <IMServiceAvailabilityMonitoring> serviceAvailabilityMonitor; // @synthesize serviceAvailabilityMonitor=_serviceAvailabilityMonitor;
 
 @end
 

@@ -4,43 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNCache, NSString;
-@protocol CNCDDatabasePreparation, CNScheduler, CNTimeProvider;
+@protocol CNCDDatabasePreparation;
 
 __attribute__((visibility("hidden")))
 @interface CNCDDatabaseCachingPreparer
 {
     id <CNCDDatabasePreparation> _wrappedPreparer;
-    id <CNTimeProvider> _timeProvider;
-    CNCache *_cache;
-    id <CNScheduler> _scheduler;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)#;
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)kGSAdditionOptions;
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly) CNCache *cache; // @synthesize cache=_cache;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <CNScheduler> scheduler; // @synthesize scheduler=_scheduler;
-@property(readonly) Class superclass;
-@property(readonly) id <CNTimeProvider> timeProvider; // @synthesize timeProvider=_timeProvider;
 @property(readonly) id <CNCDDatabasePreparation> wrappedPreparer; // @synthesize wrappedPreparer=_wrappedPreparer;
 
 @end

@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTLazuliChatBotMedia;
-
 @interface CTLazuliChatBotMediaEntry
 {
     long long _label;
-    CTLazuliChatBotMedia *_media;
-    long long _content;
 }
 
-+ (_Bool);
++ (_Bool)ediaResourceRequestEvent:%p %@ url:%@ serverAddress:%@ requestStartTime:%@ requestEndTime:%@ responseStartTime:%@ responseEndTime:%@ error:%@ byteRange:(%lu,%lu) readFromCache:%d networkTransactionMetrics:%@> /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool);
@@ -30,9 +26,7 @@
 - (void)¡&!;
 
 // Remaining properties
-@property(nonatomic) long long content; // @synthesize content=_content;
 @property(nonatomic) long long label; // @synthesize label=_label;
-@property(retain, nonatomic) CTLazuliChatBotMedia *media; // @synthesize media=_media;
 
 @end
 

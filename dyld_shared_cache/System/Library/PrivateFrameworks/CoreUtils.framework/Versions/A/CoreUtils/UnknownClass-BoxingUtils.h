@@ -9,7 +9,7 @@
 - (const char *);
 - (id);
 - (id);
-- (long long);
+- (long long);
 - (long long);
 - (double);
 - (double);

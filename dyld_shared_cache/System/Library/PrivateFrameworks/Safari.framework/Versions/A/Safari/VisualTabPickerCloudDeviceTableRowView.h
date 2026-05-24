@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)initWithStyle:diameter: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool useHeaderStyling; // @synthesize useHeaderStyling=_useHeaderStyling;

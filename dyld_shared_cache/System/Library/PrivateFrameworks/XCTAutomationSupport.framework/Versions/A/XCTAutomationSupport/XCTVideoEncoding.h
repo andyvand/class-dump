@@ -7,20 +7,18 @@
 @interface XCTVideoEncoding
 {
     long long _codec;
-    double _frameRate;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (double);
+- (double);
 - (void);
 - (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) long long codec; // @synthesize codec=_codec;
-@property(readonly, nonatomic) double frameRate; // @synthesize frameRate=_frameRate;
 
 @end
 

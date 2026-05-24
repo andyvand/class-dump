@@ -5,5 +5,6 @@
 //
 
 @protocol ASDStoreKitClientProtocol
+- (void);
 @end
 

@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSVTaskAssertion, NSObject, NSString, NSXPCConnection;
-@protocol OS_dispatch_source;
+@class NSXPCConnection;
 
 __attribute__((visibility("hidden")))
 @interface _MLChangeObserver
 {
     _Bool _timedOut;
-    struct os_unfair_lock_s _lock;
-    NSXPCConnection *_connection;
-    NSObject<OS_dispatch_source> *_timeoutTimer;
-    MSVTaskAssertion *_taskAssertion;
-    NSString *_bundleID;
 }
 
-+ (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
++ (id)initWithFilteredAlbum:(id)arg1 priorChangeState:albumChangeNotification: /* Error: Ran out of types for this method. */;
+- (void)_compareResourceReverseCheckFromOther:score: /* Error: Ran out of types for this method. */;
+- (void)rties:errorDescriptions: /* Error: Ran out of types for this method. */;
+- (id)_comparePayloadAttributes:toObjectDictionary:currentKeyPath:usingModelProperties:errorDescriptions: /* Error: Ran out of types for this method. */;
+- (void)_clustroidIndexForClusters:numberOfObjects:distances:relativeDistanceCache: /* Error: Ran out of types for this method. */;
+- (void)k: /* Error: Ran out of types for this method. */;
+- (void)_cloudResourceMemoriesMaxResourcesPerFetch;
 - (id);
 - (void);
 - (void);
@@ -36,7 +30,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)_;
 - (void);
 - (struct os_unfair_lock_s)Pà;
 - (void)sed_adam_id = excluded.purchased_adam_id, subscription_adam_id = excluded.subscription_adam_id, reporting_adam_id = excluded.reporting_adam_id, asset_adam_id = excluded.asset_adam_id, is_library_add_eligible = excluded.is_library_add_eligible, is_store_redownloadable = excluded.is_store_redownloadable, is_mastered_for_itunes = excluded.is_mastered_for_itunes, match_redownload_params = excluded.match_redownload_params, purchase_history_redownload_params = excluded.purchase_history_redownload_params, playback_endpoint_type = excluded.playback_endpoint_type, is_protected = excluded.is_protected; END;;
@@ -44,19 +38,7 @@ __attribute__((visibility("hidden")))
 - (void)(d;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
 @property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct os_unfair_lock_s lock; // @synthesize lock=_lock;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) MSVTaskAssertion *taskAssertion; // @synthesize taskAssertion=_taskAssertion;
-@property(nonatomic, getter=hasTimedOut) _Bool timedOut; // @synthesize timedOut=_timedOut;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *timeoutTimer; // @synthesize timeoutTimer=_timeoutTimer;
 
 @end
 

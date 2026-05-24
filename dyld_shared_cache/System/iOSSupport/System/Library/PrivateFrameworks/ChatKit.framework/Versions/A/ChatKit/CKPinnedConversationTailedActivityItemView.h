@@ -4,52 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAShapeLayer, CKPinnedConversationActivityItemViewBackdropLayer, CKPinnedConversationActivityItemViewShadowLayer, UIView;
-@protocol CKPinnedConversationActivityItem, CKPinnedConversationActivityItemViewDelegate;
+@class CKPinnedConversationActivityItemViewBackdropLayer;
+@protocol CKPinnedConversationActivityItem;
 
 @interface CKPinnedConversationTailedActivityItemView
 {
     id <CKPinnedConversationActivityItem> _activityItem;
-    long long _originationDirection;
-    long long _originationHorizontalDirection;
-    double _preferredTailAttachmentPointXCoordinate;
-    id <CKPinnedConversationActivityItemViewDelegate> _activityItemViewDelegate;
-    long long _activityItemViewContentScale;
-    UIView *_contentView;
-    double _pillCornerRadius;
-    CKPinnedConversationActivityItemViewBackdropLayer *_backdropLayer;
-    CAShapeLayer *_backdropMaskShapeLayer;
-    CKPinnedConversationActivityItemViewShadowLayer *_broadShadowLayer;
-    CKPinnedConversationActivityItemViewShadowLayer *_tightShadowLayer;
-    CAShapeLayer *_contentViewStrokeLayer;
-    struct CGPoint _originationPoint;
-    struct CGSize _parentAvatarViewSize;
 }
 
+- (struct CGPoint)invalidateForNote:(double *)arg1;
+- (_Bool)initWithTextFont:paragraphStyle:zoomFactor: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithTextAttachment:textContainer:forManualRendering: /* Error: Ran out of types for this method. */;
+- (void)attributedStringWithMatchHighlighted:(long long)arg1 optionalAttributedHighlightedString:textCheckingResult:usingAttributes:highlightColor:insideFrame:isSnippetForParticipantMatch:finishingUpRegexMatchFinder: /* Error: Ran out of types for this method. */;
+- (void)_expansionStateContext;
+- (void)B,N,V_isChangingNoteContentFontByFontPanel;
+- (void)utoListInsertionDisabled;
+- (long long);
+- (id);
+- (id)t;
+- (double)x;
+- (long long);
+- (id);
+- (long long);
+- (id)to.line;
+- (id)E;
 - (struct CGPoint);
-- (_Bool);
-- (_Bool);
+- (void);
+- (void);
+- (void) ;
 - (void);
 - (void);
 - (void);
-- (void);
-- (long long);
-- (id);
-- (id);
-- (double);
-- (long long);
-- (id);
-- (long long);
-- (id);
-- (id);
-- (struct CGPoint);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (double);
 - (struct CGRect);
 - (double);
@@ -64,7 +50,7 @@
 - (double);
 - (id);
 - (double);
-- (void);
+- (void)2#;
 - (void);
 - (id);
 - (struct CGSize);
@@ -76,27 +62,7 @@
 - (id)ÐM/;
 
 // Remaining properties
-@property(retain, nonatomic) id <CKPinnedConversationActivityItem> activityItem; // @synthesize activityItem=_activityItem;
-@property(nonatomic) long long activityItemViewContentScale; // @synthesize activityItemViewContentScale=_activityItemViewContentScale;
-@property(nonatomic) __weak id <CKPinnedConversationActivityItemViewDelegate> activityItemViewDelegate; // @synthesize activityItemViewDelegate=_activityItemViewDelegate;
 @property(retain, nonatomic) CKPinnedConversationActivityItemViewBackdropLayer *backdropLayer; // @synthesize backdropLayer=_backdropLayer;
-@property(retain, nonatomic) CAShapeLayer *backdropMaskShapeLayer; // @synthesize backdropMaskShapeLayer=_backdropMaskShapeLayer;
-@property(retain, nonatomic) CKPinnedConversationActivityItemViewShadowLayer *broadShadowLayer; // @synthesize broadShadowLayer=_broadShadowLayer;
-@property(readonly, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;
-@property(readonly, nonatomic) long long contentViewContentMode;
-@property(readonly, nonatomic) double contentViewHorizontalInsetForPillCornerRadius;
-@property(readonly, nonatomic) struct UIEdgeInsets contentViewPadding;
-@property(retain, nonatomic) CAShapeLayer *contentViewStrokeLayer; // @synthesize contentViewStrokeLayer=_contentViewStrokeLayer;
-@property(nonatomic) long long originationDirection; // @synthesize originationDirection=_originationDirection;
-@property(nonatomic) long long originationHorizontalDirection; // @synthesize originationHorizontalDirection=_originationHorizontalDirection;
-@property(nonatomic) struct CGPoint originationPoint; // @synthesize originationPoint=_originationPoint;
-@property(nonatomic) struct CGSize parentAvatarViewSize; // @synthesize parentAvatarViewSize=_parentAvatarViewSize;
-@property(readonly, nonatomic) double pillCornerRadius; // @synthesize pillCornerRadius=_pillCornerRadius;
-@property(nonatomic) double preferredTailAttachmentPointXCoordinate; // @synthesize preferredTailAttachmentPointXCoordinate=_preferredTailAttachmentPointXCoordinate;
-@property(readonly, nonatomic) _Bool supportsActivityItemViewContentScale;
-@property(readonly, nonatomic) _Bool supportsAlignmentWithOriginationSubAvatarFrame;
-@property(readonly, nonatomic) struct CGPoint tailAttachmentPoint;
-@property(retain, nonatomic) CKPinnedConversationActivityItemViewShadowLayer *tightShadowLayer; // @synthesize tightShadowLayer=_tightShadowLayer;
 
 @end
 

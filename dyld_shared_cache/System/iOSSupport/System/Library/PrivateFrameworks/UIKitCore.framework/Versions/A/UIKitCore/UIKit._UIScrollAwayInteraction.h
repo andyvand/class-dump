@@ -9,14 +9,6 @@
 @interface UIKit._UIScrollAwayInteraction
 {
     UIView *view;
-    id delegate;
-    id activationDistanceThreshold;
-    id activeDistance;
-    id direction;
-    id progress;
-    id state;
-    id contentScrollView;
-    id lastContentOffset;
 }
 
 - (void);
@@ -26,7 +18,7 @@
 - (id);
 - (void)1Â0@ù
 × ;
-- (void)estureRecognizer;
+- (void)_UIContinuousSelectionGestureRecognizer;
 - (id)~0Ñ¨~PÑÐÔÑ@ÑÄ(Ñ$´Ñ¬ðÑ;
 - (void);
 - (void);

@@ -15,12 +15,12 @@
 
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)(;
 - (id);
 - (void);
+- (id);
+- (id);
+- (void)TKImageGlyphClass(void)_block_invoke;
 
 // Remaining properties
 @property(retain) NSArray *addresses; // @synthesize addresses=_addresses;

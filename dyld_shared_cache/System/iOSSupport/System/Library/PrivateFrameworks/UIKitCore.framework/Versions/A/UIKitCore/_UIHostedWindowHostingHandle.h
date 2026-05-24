@@ -7,26 +7,20 @@
 @interface _UIHostedWindowHostingHandle
 {
     int _pid;
-    unsigned int _contextID;
-    struct CGAffineTransform _rootLayerTransform;
-    struct CGRect _rootLayerFrame;
 }
 
 + (id);
 + (_Bool)ess-level3;
-- (struct CGAffineTransform);
-- (struct CGRect);
+- (struct CGAffineTransform)g"40;
+- (struct CGRect)ay"24@"NSString"32@"NSString"40;
 - (int);
 - (id);
 - (unsigned int)!ÄDùQað1Â0@ù
 × ;
-- (void)yDisplayIdentifier:(id)arg1;
+- (void)setContextIDsToAlwaysSendTouchesByDisplayIdentifier:(id)arg1;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int contextID; // @synthesize contextID=_contextID;
 @property(readonly, nonatomic) int pid; // @synthesize pid=_pid;
-@property(readonly, nonatomic) struct CGRect rootLayerFrame; // @synthesize rootLayerFrame=_rootLayerFrame;
-@property(readonly, nonatomic) struct CGAffineTransform rootLayerTransform; // @synthesize rootLayerTransform=_rootLayerTransform;
 
 @end
 

@@ -7,9 +7,9 @@
 @class NSData, NSDictionary;
 
 @protocol SFCopyItem
+- (NSData *) ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

@@ -4,35 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ILChangeManager, ILMediaGroup, ILPluginLoadManager, NSBundle, NSDate, NSLock, NSMutableArray, NSMutableDictionary, NSString;
+@class ILMediaGroup;
 
 @interface ILMediaManager
 {
     ILMediaGroup *_rootMediaGroup;
-    NSMutableDictionary *_mediaGroupsDict;
-    NSMutableDictionary *_mediaObjectsDict;
-    ILPluginLoadManager *_loadState;
-    NSLock *_mediaDictsAccessLock;
-    _Bool _reserved7;
-    _Bool _reserved8;
-    NSMutableDictionary *_reserved9;
-    _Bool _reserved10;
-    _Bool _reserved11;
-    NSMutableArray *_reserved12;
-    _Bool _reserved13;
-    _Bool _reserved14;
-    NSMutableDictionary *_extendedAttributes;
-    double _loadThreadPriority;
-    NSBundle *_pluginBundle;
-    NSString *_pluginSourceIdentifier;
-    NSDate *_modificationDate;
-    _Bool _reserved15;
-    _Bool _reserved16;
-    _Bool _reserved17;
-    ILChangeManager *_changeManager;
-    id _reserved1;
-    id _reserved2;
-    id _reserved3;
 }
 
 + (_Bool);
@@ -42,18 +18,18 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
+- (_Bool)a;
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (void)a@9;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -66,15 +42,15 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)C;
+- (id);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)C;
 - (long long);
 - (double);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -93,12 +69,12 @@
 - (id);
 - (_Bool);
 - (_Bool);
+- (id)A;
+- (id);
+- (unsigned long long)`";
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -116,36 +92,36 @@
 - (id);
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
+- (id)qK;
+- (_Bool);
+- (_Bool);
+- (id)or didEnterVisit:] /* Error: Ran out of types for this method. */;
+- (void)emovability plist:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void){CGSize=dd}}16;
+- (void)e=dd}}16@0:(id)arg1 8;
+- (void)ol";
+- (_Bool)clearUserSegmentationTreatmentIds;
+- (void);
+- (void);
+- (void)"CNContactPicker"16@"CNContactProperty"24;
+- (id);
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)@;
 - (void);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (id);
+- (id)!;
 - (_Bool);
 - (void);
 - (id);
@@ -155,7 +131,7 @@
 × ;
 - (void)0@ù
 × ;
-- (int)edQueryChanged: /* Error: Ran out of types for this method. */;
+- (int)notifyWatchedQueryChanged: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

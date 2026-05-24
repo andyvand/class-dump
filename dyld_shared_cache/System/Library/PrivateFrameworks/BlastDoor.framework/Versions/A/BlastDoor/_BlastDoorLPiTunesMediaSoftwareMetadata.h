@@ -6,21 +6,11 @@
 
 #import <BlastDoor/_BlastDoorLPSpecializationMetadata.h>
 
-@class NSArray, NSString, _BlastDoorLPImage, _BlastDoorLPVideo;
+@class NSString;
 
 @interface _BlastDoorLPiTunesMediaSoftwareMetadata : _BlastDoorLPSpecializationMetadata
 {
     _Bool _isMessagesOnlyApp;
-    NSString *_storeFrontIdentifier;
-    NSString *_storeIdentifier;
-    NSString *_name;
-    NSString *_subtitle;
-    NSString *_genre;
-    NSString *_platform;
-    _BlastDoorLPImage *_icon;
-    NSArray *_screenshots;
-    _BlastDoorLPVideo *_previewVideo;
-    _BlastDoorLPImage *_messagesAppIcon;
 }
 
 + (id);
@@ -28,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
@@ -36,9 +26,9 @@
 - (id);
 - (void);
 - (id);
+- (void)d not follow another unavailability indicator;
 - (void);
-- (void);
-- (id);
+- (id)?;
 - (id);
 - (unsigned long long);
 - (id);
@@ -47,26 +37,16 @@
 - (_Bool);
 - (void);
 - (id);
+- (id)B16@0:8 /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (void)URI;
+- (void)brandURI;
 - (void)spatialAdaptiveFrame;
-- (void)lliteSMSTextMessage;
+- (void)SatelliteSMSTextMessage;
 - (id)`';
 
 // Remaining properties
-@property(copy, nonatomic) NSString *genre; // @synthesize genre=_genre;
-@property(retain, nonatomic) _BlastDoorLPImage *icon; // @synthesize icon=_icon;
-@property(nonatomic) _Bool isMessagesOnlyApp; // @synthesize isMessagesOnlyApp=_isMessagesOnlyApp;
-@property(retain, nonatomic) _BlastDoorLPImage *messagesAppIcon; // @synthesize messagesAppIcon=_messagesAppIcon;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSString *platform; // @synthesize platform=_platform;
-@property(retain, nonatomic) _BlastDoorLPVideo *previewVideo; // @synthesize previewVideo=_previewVideo;
-@property(copy, nonatomic) NSArray *screenshots; // @synthesize screenshots=_screenshots;
 @property(copy, nonatomic) NSString *storeFrontIdentifier; // @synthesize storeFrontIdentifier=_storeFrontIdentifier;
-@property(copy, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
 
 @end
 

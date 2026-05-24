@@ -6,47 +6,39 @@
 
 #import <AppKit/NSView.h>
 
-@class CALayer, NSColor, NSNumber, NSSplitView;
-
 __attribute__((visibility("hidden")))
 @interface NSSplitDividerView : NSView
 {
     long long _style;
-    long long _orientation;
-    NSColor *_backgroundColor;
-    NSNumber *_thickness;
-    CALayer *_backgroundLayer;
-    _Bool _inVibrantDivider;
-    NSSplitView *_owningSplitView;
 }
 
 + (double);
 + (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)u bytes for the flow divert token;
 - (double);
-- (struct NSEdgeInsets);
+- (struct NSEdgeInsets)dToSend: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
+- (void)istence = %d, attributes = %@, identifier = %@};
+- (struct __CFString *)NSErrorClientCertificateChainKey;
 - (struct __CFString *);
-- (struct __CFString *);
-- (id);
-- (struct __CFString *);
+- (id)allowCellular;
+- (struct __CFString *)kCFURLConnectionURLConnectionProperties;
 - (struct CGRect);
-- (double);
+- (double);
 - (id);
 - (long long);
 - (void);
 - (id);
-- (void);
+- (void)P;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -56,24 +48,17 @@ __attribute__((visibility("hidden")))
 × ;
 - (long long)!ÜAùQä3°1Â0@ù
 × ;
-- (id)ll:(struct CGRect)arg1 willPopUpMenu: /* Error: Ran out of types for this method. */;
+- (id)pathCell:(struct CGRect)arg1 willPopUpMenu: /* Error: Ran out of types for this method. */;
 - (id)hange:to delegate %{public}@:%{public}@ /* Error: Ran out of types for this method. */;
 - (void)vent;
 - (void)Result != TabDragResultDetach;
-- (void)weenThumbnailsAndCloudTabs;
+- (void)marginBetweenThumbnailsAndCloudTabs;
 - (void);
 - (struct NSEdgeInsets){
 }Ç@;
 
 // Remaining properties
-@property(copy) NSColor *backgroundColor;
-@property _Bool inVibrantDivider;
-@property(readonly) _Bool isVibrantDivider;
-@property(readonly) double leadingOverhang;
-@property long long orientation;
-@property __weak NSSplitView *owningSplitView; // @synthesize owningSplitView=_owningSplitView;
 @property long long style;
-@property(copy) NSNumber *thickness;
 
 @end
 

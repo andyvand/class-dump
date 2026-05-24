@@ -4,11 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSOrderedSet, NSString;
+@class NSOrderedSet, NSString;
 
 @protocol PLAssetContainer
-- (unsigned long long)orAsset:resourceType: /* Error: Ran out of types for this method. */;
-- (NSOrderedSet *)resentationsBySize;
+- (_Bool);
+- (unsigned long long)ain() 
+		{ 
+			ComputeVertex; 
+			ComputeTextureCoordinates0; 
+			mediump vec2 absP1 = abs(a1 * aInSpriteCoordinates + b1); 
+			mediump vec2 a2 = 1. - .5 * invRadii; 
+			mediump vec2 borderAlphaXY = a2 + absP1 * invRadii; 
+			borderAlpha = max(borderAlphaXY.x, borderAlphaXY.y); 
+		} 
+		;
+- (unsigned long long)_queue_downloadableAssetForAsset:resourceType: /* Error: Ran out of types for this method. */;
+- (NSOrderedSet *)_imageRepresentationsBySize;
 - (_Bool)ìx@¤($;
 - (NSString *)Ì°;
 - (NSString *)entication. Ignoring.;
@@ -21,25 +32,6 @@
 + (NSString *)LemonadeNavigtationTitleAccessibilityModifier;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long approximateCount;
-@property(readonly, retain, nonatomic) NSOrderedSet *assets;
-@property(readonly, nonatomic) unsigned long long assetsCount;
-@property(readonly, nonatomic) _Bool canShowAvalancheStacks;
-@property(readonly, nonatomic) _Bool canShowComments;
-@property(readonly, retain, nonatomic) NSDate *endDate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDate",?,R,&,N
-
-@property(readonly, nonatomic) _Bool isEmpty;
-@property(readonly, copy, nonatomic) NSArray *localizedLocationNames;
-@property(readonly, copy, nonatomic) NSString *localizedTitle;
-@property(readonly, nonatomic) unsigned long long photosCount;
-@property(readonly, retain, nonatomic) NSDate *startDate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDate",?,R,&,N
-
-@property(readonly, retain, nonatomic) NSString *title;
 @property(readonly, retain, nonatomic) NSString *uuid;
-@property(readonly, nonatomic) unsigned long long videosCount;
 @end
 

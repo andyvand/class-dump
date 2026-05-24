@@ -7,9 +7,6 @@
 @interface PassKitCore.ProvisioningExistingCardAuthorizationPaymentDestinationProvider
 {
     id context;
-    id credentials;
-    id sid;
-    id destinationSignature;
 }
 
 @end

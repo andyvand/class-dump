@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol GCSystemGestureXPCProxyServiceRemoteServerInterface, _GCIPCEndpointConnection;
+@protocol _GCIPCEndpointConnection;
 
 @protocol GCSystemGestureXPCProxyServiceClient
+- (id <_GCIPCEndpointConnection>);
 
 // Remaining properties
 @property(readonly) id <_GCIPCEndpointConnection> systemGestureXPCProxyServiceConnection;
-@property(readonly) id <GCSystemGestureXPCProxyServiceRemoteServerInterface> systemGestureXPCProxyServiceRemoteServer;
 @end
 

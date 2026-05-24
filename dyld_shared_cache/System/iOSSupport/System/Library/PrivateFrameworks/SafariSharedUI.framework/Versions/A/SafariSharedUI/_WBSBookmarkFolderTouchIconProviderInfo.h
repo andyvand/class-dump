@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIImage;
+@class NSArray;
 
 @interface _WBSBookmarkFolderTouchIconProviderInfo
 {
     NSArray *_thumbnailImages;
-    NSArray *_backgroundColors;
-    UIImage *_touchIcon;
 }
 
-+ (id);
++ (id)ng file transfer with GUIDs %@;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)ueryParameter;
+- (void)safari_stringDecodedFromURLQueryParameter;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *backgroundColors; // @synthesize backgroundColors=_backgroundColors;
 @property(readonly, copy, nonatomic) NSArray *thumbnailImages; // @synthesize thumbnailImages=_thumbnailImages;
-@property(readonly, nonatomic) UIImage *touchIcon; // @synthesize touchIcon=_touchIcon;
 
 @end
 

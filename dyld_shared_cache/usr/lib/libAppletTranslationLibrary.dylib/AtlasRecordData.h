@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 __attribute__((visibility("hidden")))
 @interface AtlasRecordData
 {
     unsigned char sfi;
-    unsigned char recordId;
-    NSData *content;
 }
 
 - (unsigned char);
 - (void);
 - (id);
-- (void);
+- (void)˟;
 - (unsigned char);
 - (id);
 - (void);
 - (void)uleIdentifier;
 
 // Remaining properties
-@property(retain) NSData *content; // @synthesize content;
-@property unsigned char recordId; // @synthesize recordId;
 @property unsigned char sfi; // @synthesize sfi;
 
 @end

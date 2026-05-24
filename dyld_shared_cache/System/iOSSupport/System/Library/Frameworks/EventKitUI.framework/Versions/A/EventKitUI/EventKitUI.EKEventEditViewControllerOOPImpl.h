@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKCalendar, EKEvent, EKEventStore, UIColor;
-@protocol EKEventEditViewDelegateAllOutOfProcess;
-
 @interface EventKitUI.EKEventEditViewControllerOOPImpl
 {
     id hostingController;
-    id hostView;
-    id hostViewModel;
-    id preCommitInsertedObjectIDs;
-    id preCommitUpdatedObjectIDs;
-    id preCommitDeletedObjectIDs;
-    EKEventStore *eventStore;
-    EKEvent *event;
-    id <EKEventEditViewDelegateAllOutOfProcess> editViewDelegate;
-    EKCalendar *defaultCalendar;
-    UIColor *editorBackgroundColor;
 }
 
 - (void);
@@ -28,28 +15,23 @@
 - (id);
 - (void);
 - (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (id);
+- (id)ic_string<char, std:(id)arg1:(id)arg2 __1::char_traits<char>, std::__1::allocator<char> >::__rep, std::__1::allocator<char> >={__rep}}}}@?> /* Error: Ran out of types for this method. */;
+- (void)ing"@"NSError">;
 - (_Bool);
 - (id);
-- (struct CGSize);
+- (struct CGSize)@ is attempting to enable disabled dataclass %@;
 - (id);
 - (void);
-- (void)e: /* Error: Ran out of types for this method. */;
+- (void)initWithCalendar:store: /* Error: Ran out of types for this method. */;
 - (void)q;
 
 // Remaining properties
-@property(nonatomic, retain) EKCalendar *defaultCalendar; // @synthesize defaultCalendar;
-@property(nonatomic, retain) id <EKEventEditViewDelegateAllOutOfProcess> editViewDelegate; // @synthesize editViewDelegate;
-@property(nonatomic, retain) UIColor *editorBackgroundColor; // @synthesize editorBackgroundColor;
-@property(nonatomic, retain) EKEvent *event; // @synthesize event;
-@property(nonatomic, retain) EKEventStore *eventStore; // @synthesize eventStore;
 @property(nonatomic) struct CGSize preferredContentSize;
 
 @end

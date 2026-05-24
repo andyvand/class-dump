@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
     id <VCHardwareSettingsEmbeddedProtocol> _hardwareSettings;
 }
 
-+ (id)nterfaceType;
-- (id);
++ (id)RemoteInterfaceType;
+- (id)5;
 - (_Bool);
 
 @end

@@ -11,8 +11,6 @@ __attribute__((visibility("hidden")))
 @interface CNMeCardSharingSettingsPreferenceMenuCell
 {
     id <CNMeCardSharingSettingsPreferenceMenuCellDelegate> _delegate;
-    UIButton *_menuButton;
-    UIButton *_popupMenuButton;
 }
 
 + (id);
@@ -21,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id) `;
 - (void);
 - (id);
 - (id);
@@ -33,13 +31,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void)actsAlertController;
+- (void)_facebookContactsAlertController;
 - (id)H";
 
 // Remaining properties
-@property(nonatomic) __weak id <CNMeCardSharingSettingsPreferenceMenuCellDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) UIButton *menuButton; // @synthesize menuButton=_menuButton;
-@property(retain, nonatomic) UIButton *popupMenuButton; // @synthesize popupMenuButton=_popupMenuButton;
 
 @end
 

@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceConnection;
-@protocol BSServiceConnectionHost, CPXRemoteViewEventManagerConfig, NSObject><ECAuthenticationKey;
-
 __attribute__((visibility("hidden")))
 @interface _CPXViewClient
 {
     int _pid;
-    BSServiceConnection<BSServiceConnectionHost> *_connection;
-    id <CPXRemoteViewEventManagerConfig> _config;
-    id <NSObject><ECAuthenticationKey> _signingKey;
-    unsigned long long _mostRecentEventTime;
 }
 
 - (void)ð;

@@ -10,19 +10,17 @@
 @interface NSTouchBarItemTreePosition
 {
     NSTouchBarItemTreeNode<NSTouchBarItemTreeParentNode> *_parentNode;
-    long long _indexInParent;
 }
 
 + (id);
 - (long long);
-- (id);
+- (id)tTo:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (_Bool);
-- (id)EncodeRestorableState:(struct _NSZone *)arg1;
+- (_Bool);
+- (id)application:(struct _NSZone *)arg1 willEncodeRestorableState: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) long long indexInParent; // @synthesize indexInParent=_indexInParent;
 @property(readonly, copy) NSTouchBarItemTreeNode<NSTouchBarItemTreeParentNode> *parentNode; // @synthesize parentNode=_parentNode;
 
 @end

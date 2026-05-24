@@ -5,5 +5,9 @@
 //
 
 @protocol PKDrawingReplaySupport
+- (void);
+
+@optional
+- (void);
 @end
 

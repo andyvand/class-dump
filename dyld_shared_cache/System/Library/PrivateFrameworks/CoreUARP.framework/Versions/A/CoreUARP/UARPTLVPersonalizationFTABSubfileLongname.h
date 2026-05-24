@@ -16,13 +16,13 @@
 + (id);
 + (id);
 + (id);
-+ (unsigned int);
-- (id);
++ (unsigned int)mirrors for %ld guids.;
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)AMSURLProtocolHandler;
 - (void);
 
 // Remaining properties

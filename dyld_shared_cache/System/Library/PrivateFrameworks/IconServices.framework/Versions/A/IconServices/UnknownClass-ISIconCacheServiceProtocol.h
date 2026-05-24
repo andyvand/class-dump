@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (ISIconCacheServiceProtocol)
-+ (id);
++ (id)l.plist;
 @end
 

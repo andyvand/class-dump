@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_values;
 }
 
-- (double);
+- (double)sendSavedReceiptForMessage:toChatID:identifier:style: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void)3;

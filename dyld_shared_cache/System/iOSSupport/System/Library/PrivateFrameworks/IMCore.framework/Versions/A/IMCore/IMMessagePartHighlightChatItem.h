@@ -6,22 +6,13 @@
 
 #import <IMCore/IMMessageChatItem.h>
 
-@class NSString;
-
 @interface IMMessagePartHighlightChatItem : IMMessageChatItem
 {
     _Bool _highlightedMessageIsFromMe;
-    unsigned long long _highlightedMessagePartIndex;
-    NSString *_highlightedMessagePartGUID;
-    struct _NSRange _highlightedMessagePartRange;
 }
 
 
 // Remaining properties
 @property(readonly, nonatomic) struct IMAssociatedMessageGeometryDescriptor geometryDescriptor;
-@property(readonly, nonatomic) _Bool highlightedMessageIsFromMe; // @synthesize highlightedMessageIsFromMe=_highlightedMessageIsFromMe;
-@property(readonly, nonatomic) NSString *highlightedMessagePartGUID; // @synthesize highlightedMessagePartGUID=_highlightedMessagePartGUID;
-@property(readonly, nonatomic) unsigned long long highlightedMessagePartIndex; // @synthesize highlightedMessagePartIndex=_highlightedMessagePartIndex;
-@property(readonly, nonatomic) struct _NSRange highlightedMessagePartRange; // @synthesize highlightedMessagePartRange=_highlightedMessagePartRange;
 @end
 

@@ -6,15 +6,12 @@
 
 #import <MediaPlayer/MPAsyncOperation.h>
 
-@class MPModelRequest, NSArray, NSError, NSString, _MPModelShimRequestMiddleware;
+@class NSArray, _MPModelShimRequestMiddleware;
 
 __attribute__((visibility("hidden")))
 @interface _MPModelShimRequestMiddlewareOperation : MPAsyncOperation
 {
     NSArray *_invalidationObservers;
-    CDUnknownBlockType _invalidationHandler;
-    _MPModelShimRequestMiddleware *_middleware;
-    MPModelRequest *_modelRequest;
 }
 
 - (void);
@@ -26,21 +23,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void)veGeniusPlaylist;
+- (void)activeGeniusPlaylist;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSError *error;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(readonly, nonatomic) NSArray *invalidationObservers; // @synthesize invalidationObservers=_invalidationObservers;
 @property(retain, nonatomic) _MPModelShimRequestMiddleware *middleware; // @synthesize middleware=_middleware;
-@property(retain, nonatomic) MPModelRequest *modelRequest; // @synthesize modelRequest=_modelRequest;
-@property(readonly) Class superclass;
 
 @end
 

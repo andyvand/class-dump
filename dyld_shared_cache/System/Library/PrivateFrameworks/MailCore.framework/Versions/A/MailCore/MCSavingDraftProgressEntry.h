@@ -13,7 +13,7 @@
 
 + (id);
 + (id);
-- (void);
+- (void)(;
 - (id);
 - (id);
 - (id);
@@ -21,7 +21,7 @@
 - (_Bool);
 - (_Bool)Ôa:ð!Gùqið1Â0@ù
 ×  /* Error: Ran out of types for this method. */;
-- (void)henDone:(_Bool)arg1;
+- (void)initWithCharactersNoCopy:(_Bool)arg1 length:freeWhenDone: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool userInitiated; // @synthesize userInitiated=_userInitiated;

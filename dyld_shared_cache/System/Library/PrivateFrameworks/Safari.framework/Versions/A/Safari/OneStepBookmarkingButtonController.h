@@ -4,25 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMenu, NSString, OneStepBookmarkingButton;
+@class NSMenu;
 
 __attribute__((visibility("hidden")))
 @interface OneStepBookmarkingButtonController
 {
     NSMenu *_dynamicOneStepBookmarkingMenu;
-    OneStepBookmarkingButton *_oneStepBookmarkingButton;
 }
 
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
+- (void);
 - (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
@@ -41,14 +40,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(nonatomic) __weak OneStepBookmarkingButton *oneStepBookmarkingButton; // @synthesize oneStepBookmarkingButton=_oneStepBookmarkingButton;
-@property(readonly) Class superclass;
 
 @end
 

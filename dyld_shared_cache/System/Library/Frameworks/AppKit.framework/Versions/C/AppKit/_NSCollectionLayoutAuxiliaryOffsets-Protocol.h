@@ -4,9 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
+@class NSIndexSet, NSSet;
+@protocol _NSCollectionLayoutAuxiliaryOffsets;
 
 @protocol _NSCollectionLayoutAuxiliaryOffsets
+- (NSIndexSet *);
+- (struct _NSRange)fcC1feC1fiC1foC1fsC1ft.1f;
+- (_Bool)!V;
+- (id)setRotatesCoordinateSystemForLayoutOrientation:(id <_NSCollectionLayoutAuxiliaryOffsets>)arg1;
 - (NSSet *)®;
 
 // Remaining properties

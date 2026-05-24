@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorTapBack_MessageSummaryInfo, NSArray, NSString;
+@class NSString;
 
 @interface BlastDoorEmojiTapBack
 {
@@ -14,25 +14,17 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (long long);
-- (struct _NSRange);
-- (id);
-- (id);
+- (id)tView"16@"IMPluginPayload"24;
+- (long long)@"<UITextPasteConfigurationSupporting>"16@"<UITextPasteItem>"24;
+- (struct _NSRange)e>"16@"UITargetedDragPreview"24;
+- (id)>"16@"<UITextDropRequest>"24;
+- (id)"24;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *associatedMessageEmoji;
-@property(nonatomic, readonly) NSString *associatedMessageFallbackHash;
-@property(nonatomic, readonly) NSString *associatedMessageGUID;
-@property(nonatomic, readonly) struct _NSRange associatedMessageRange;
-@property(nonatomic, readonly) long long associatedMessageType;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) BlastDoorTapBack_MessageSummaryInfo *messageSummaryInfo;
-@property(nonatomic, readonly) NSArray *participantDestinationIdentifiers;
-@property(nonatomic, readonly) NSString *plainTextBody;
 
 @end
 

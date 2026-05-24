@@ -8,9 +8,9 @@
 @protocol ECEmailAddressConvertible;
 
 @protocol EMBaseMessageListItemBuilder
+- (NSArray *)~[A;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *bccList;
 @property(retain, nonatomic) id <ECEmailAddressConvertible> senderAddress;
 @end
 

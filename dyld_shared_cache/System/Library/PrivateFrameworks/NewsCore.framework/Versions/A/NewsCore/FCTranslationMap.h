@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface FCTranslationMap
 {
     NSString *_resourceID;
-    NSDictionary *_topicTranslationMap;
-    NSDictionary *_favoriteTranslationMap;
 }
 
 - (id);
@@ -26,16 +24,7 @@
 - (void)maxIdealClusterSizeIPhone;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSDictionary *favoriteTranslationMap; // @synthesize favoriteTranslationMap=_favoriteTranslationMap;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSString *resourceID; // @synthesize resourceID=_resourceID;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSDictionary *topicTranslationMap; // @synthesize topicTranslationMap=_topicTranslationMap;
 
 @end
 

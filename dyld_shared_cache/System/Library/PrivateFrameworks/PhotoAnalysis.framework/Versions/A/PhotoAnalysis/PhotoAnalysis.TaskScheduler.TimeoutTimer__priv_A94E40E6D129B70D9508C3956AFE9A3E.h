@@ -7,7 +7,6 @@
 @interface PhotoAnalysis.TaskScheduler.TimeoutTimer__priv_A94E40E6D129B70D9508C3956AFE9A3E
 {
     id timeoutTimer;
-    id timeoutTimerQueue;
 }
 
 @end

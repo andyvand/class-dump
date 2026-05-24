@@ -6,52 +6,35 @@
 
 #import <AppleMediaServicesUI/AMSUIBaseMessageViewController.h>
 
-@class AMSBinaryPromise, AMSUIAccountMessageAppearance, NSString;
-
 @interface AMSUIAccountMessageViewController : AMSUIBaseMessageViewController
 {
     _Bool _didAnimateFirstImpression;
-    AMSUIAccountMessageAppearance *_preferredAppearance;
-    AMSUIAccountMessageAppearance *_requestAppearance;
 }
 
-- (void);
+- (void)N;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (_Bool);
+- (void)!;
+- (long long);
+- (id);
+- (unsigned long long)%;
+- (id);
+- (long long);
+- (long long);
+- (id);
+- (id);
 - (void);
-- (long long);
-- (id);
-- (unsigned long long);
-- (id);
-- (long long);
-- (long long);
-- (id);
-- (id);
-- (void);
 - (id);
 - (id);
 - (id);
-- (void)ViewController: /* Error: Ran out of types for this method. */;
+- (void)setContainedViewController: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property _Bool didAnimateFirstImpression; // @synthesize didAnimateFirstImpression=_didAnimateFirstImpression;
-@property unsigned long long engagementImpressionsReportingFrequency;
-@property(readonly) unsigned long long hash;
-@property unsigned long long impressionsReportingFrequency;
-@property(retain) AMSBinaryPromise *loadPromise;
-@property(retain) AMSUIAccountMessageAppearance *preferredAppearance; // @synthesize preferredAppearance=_preferredAppearance;
-@property(retain) AMSUIAccountMessageAppearance *requestAppearance; // @synthesize requestAppearance=_requestAppearance;
-@property _Bool shouldAutomaticallyReportMetrics;
-@property(readonly) Class superclass;
 
 @end
 

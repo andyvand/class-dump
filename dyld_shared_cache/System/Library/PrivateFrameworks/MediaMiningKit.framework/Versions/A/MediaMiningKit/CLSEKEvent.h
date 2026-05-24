@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, CLSEKCalendar, CLSEKParticipant, NSArray, NSDate, NSString;
+@class NSString;
 
 @interface CLSEKEvent
 {
     _Bool _isBirthday;
-    _Bool _allDay;
-    _Bool _hasAttendees;
-    _Bool _organizedByMe;
-    _Bool _hasRecurrenceRules;
-    _Bool _isSuggestedAndAccepted;
-    NSString *_title;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    NSArray *_attendees;
-    CLSEKParticipant *_selfAttendee;
-    CLSEKCalendar *_calendar;
-    NSString *_calendarItemIdentifier;
-    struct CLLocationCoordinate2D _coordinate;
 }
 
 - (_Bool);
@@ -48,21 +35,7 @@
 - (id)è;
 
 // Remaining properties
-@property(readonly, getter=isAllDay) _Bool allDay; // @synthesize allDay=_allDay;
-@property(readonly) NSArray *attendees; // @synthesize attendees=_attendees;
-@property(readonly) CLSEKCalendar *calendar; // @synthesize calendar=_calendar;
 @property(readonly) NSString *calendarItemIdentifier; // @synthesize calendarItemIdentifier=_calendarItemIdentifier;
-@property(readonly) struct CLLocationCoordinate2D coordinate; // @synthesize coordinate=_coordinate;
-@property(readonly) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(readonly) CLLocation *geoLocation;
-@property(readonly) _Bool hasAttendees; // @synthesize hasAttendees=_hasAttendees;
-@property(readonly) _Bool hasRecurrenceRules; // @synthesize hasRecurrenceRules=_hasRecurrenceRules;
-@property(readonly) _Bool isBirthday; // @synthesize isBirthday=_isBirthday;
-@property(readonly) _Bool isSuggestedAndAccepted; // @synthesize isSuggestedAndAccepted=_isSuggestedAndAccepted;
-@property(readonly) _Bool organizedByMe; // @synthesize organizedByMe=_organizedByMe;
-@property(readonly) CLSEKParticipant *selfAttendee; // @synthesize selfAttendee=_selfAttendee;
-@property(readonly) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(readonly) NSString *title; // @synthesize title=_title;
 
 @end
 

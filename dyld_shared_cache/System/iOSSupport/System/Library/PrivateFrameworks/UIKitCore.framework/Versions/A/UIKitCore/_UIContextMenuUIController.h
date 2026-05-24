@@ -4,40 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UITapGestureRecognizer, UIView, UIViewFloatAnimatableProperty, UIVisualEffectView, _UIContextMenuActionScrubbingHandoffGestureRecognizer, _UIContextMenuLayoutArbiter, _UIContextMenuLayoutArbiterOutput, _UIContextMenuPanController, _UIContextMenuStyle, _UIContextMenuSubterraneanContainerView, _UIContextMenuView, _UIFlocker, _UIFulfilledContextMenuConfiguration, _UIMorphPlatterViewBase, _UIPlatterView, _UIViewAlphaOverrideAssertion;
-@protocol _UIContextMenuUIControllerDelegate;
+@class UITapGestureRecognizer;
 
 __attribute__((visibility("hidden")))
 @interface _UIContextMenuUIController
 {
     _Bool _previewSizeDidChange;
-    _Bool _menuIsConcealed;
-    _Bool _didAvoidKeyboard;
-    _Bool __dragWasCanceled;
-    UIView *_platterContainerView;
-    UIView *_platterTransitionView;
-    UIVisualEffectView *_backgroundEffectView;
-    _UIMorphPlatterViewBase *_contentPlatterView;
-    _UIContextMenuView *_menuView;
-    _UIFlocker *_flocker;
-    _UIContextMenuLayoutArbiterOutput *_currentLayout;
-    UIViewFloatAnimatableProperty *_backgroundViewAnimationProgress;
-    id <_UIContextMenuUIControllerDelegate> _delegate;
-    _UIFulfilledContextMenuConfiguration *_menuConfiguration;
-    _UIContextMenuStyle *_menuStyle;
-    UITapGestureRecognizer *_platterActionTapGestureRecognizer;
-    UITapGestureRecognizer *_dismissalTapGestureRecognizer;
-    _UIContextMenuActionScrubbingHandoffGestureRecognizer *_actionScrubbingHandoffGestureRecognizer;
-    _UIContextMenuPanController *_platterPanController;
-    _UIContextMenuLayoutArbiter *_layoutArbiter;
-    unsigned long long _state;
-    _UIViewAlphaOverrideAssertion *_sourcePreviewAlphaOverrideAssertion;
-    _UIContextMenuSubterraneanContainerView *__subterraneanViewContainer;
-    _UIPlatterView *__destinationPlatterView;
-    UIView *__dragContainerView;
-    UIView *__dragContainerTransitionView;
-    CDUnknownBlockType __postMorphDragItemUpdate;
-    struct CGSize _previewSize;
 }
 
 - (id);
@@ -51,78 +23,78 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)@0:(_Bool)arg1 8@16C24@28@36@44B52;
+- (void)tionManager"16@"NSString"24;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (struct CGSize);
+- (void)NSString"32@"NSString"40@"NSData"48@"NSError"56;
+- (void)Account"24@"NSString"32@"NSString"40@48;
+- (void)SService"16@"IDSAccount"24@"NSString"32B40@"NSError"44;
+- (void)24@32@40B48@52;
+- (void)shouldEnablePreviewTranscodingQualityForTransfer:(id)arg1 isSending: /* Error: Ran out of types for this method. */;
+- (void)setUpdateReason:(_Bool)arg1;
+- (void)save;
+- (void)plain;
+- (void)isGroupMessagingEnabledFor:(struct CGSize)arg1;
+- (_Bool)isGroupMessagingEnabled;
+- (struct CGSize)isGroupInBlocklist: /* Error: Ran out of types for this method. */;
+- (id)iris;
+- (void)initWithTrustedData: /* Error: Ran out of types for this method. */;
+- (id)incomingMessageMultiQueue;
+- (void)imageForDescriptor:(id)arg1;
+- (void)im_registeredURIs;
+- (void)im_randomTemporaryFileURLWithFileName:(id)arg1;
+- (id)im_markFileAsPurgeable: /* Error: Ran out of types for this method. */;
+- (id)idsTransportLogNeedsSync;
+- (id)idsAccounts;
+- (id)defuseTopLevelDictionary:context:error: /* Error: Ran out of types for this method. */;
+- (id)conversationManager:(id)arg1 oneToOneModeChangedForConversation:(_Bool)arg2 fromOldConversation: /* Error: Ran out of types for this method. */;
+- (id)configureWithDelegate: /* Error: Ran out of types for this method. */;
+- (id)_lastPublisherOfOffGridStatus;
+- (void)_createJunkReportMessageItemBodyForMessageItem:(id)arg1 junkChatStyle:serviceName: /* Error: Ran out of types for this method. */;
+- (void)ticipantsToAdd;
+- (void)id;
+- (void)replayMessagesFromDatabasePath:(id)arg1;
+- (void)bleDictionary",&,N,V_pendingNicknameUpdates;
+- (id)odesToDevicesForApproval;
+- (id)ry",&,N,V_outgoingRelayMessageTimerMap;
+- (id)tableProperties;
+- (void)DMessageFromStorageController",R,&,V_messageFromStorageController;
+- (_Bool)receivedGroupParticipantVersion:receivedGroupProtocolVersion:messageTimeStamp:groupPhotoCreationTime:pendingGroupModification: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (id);
 - (void);
 - (void);
+- (void)};
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (CDUnknownBlockType);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (id)evice %@ message guid %@;
+- (CDUnknownBlockType)pipeline;
+- (id)nsion is an audio message. path:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)ntChanged;
+- (id)ame update;
+- (_Bool)object from result:<%@ %p>,  /* Error: Ran out of types for this method. */;
+- (_Bool)leteReplayDBIfNotUnderFirstUnlock isUnderFirstUnlock %@;
+- (void). Setting IMCKFinishedFetchingAttachmentsFromCloudKit and kicking off a write;
+- (void)nection didReceiveIncomingMessage pushPayload:(id)arg1 %@ ckNotification:%@ /* Error: Ran out of types for this method. */;
+- (void)ken:(id)arg1 %@;
+- (void)d :(CDUnknownBlockType)arg1 %@;
+- (_Bool)y logged in accounts:%@ /* Error: Ran out of types for this method. */;
+- (id)ound chats:%@ /* Error: Ran out of types for this method. */;
+- (id)ge:%@ /* Error: Ran out of types for this method. */;
+- (void)OL}d;
+- (void)aborationClearNoticeRateLimiter.persistenceQueue;
+- (void)QuickSwitchTruncating;
+- (id)private.Messages.IMDCKRampManager;
+- (void)%@ imageForked %@;
+- (void)t Scheduled Message.caf;
+- (void)IMDCKUtilities;
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -134,9 +106,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)A;
 - (long long);
-- (id);
+- (id)pictureInPictureEnabled;
 - (id);
 - (void)1Â0@ù
 × ;
@@ -144,50 +116,16 @@ __attribute__((visibility("hidden")))
 × ;
 - (unsigned long long)
 × ;
-- (void);
+- (void)adjustedFrameFromDesiredFrame:(id)arg1 textWidth: /* Error: Ran out of types for this method. */;
 - (_Bool)celerationRate;
-- (void)erPreferencesIdentifierSetTimeKey;
-- (void)yB_;
+- (void)UITextInputContextIdentifierPreferencesIdentifierSetTimeKey;
+- (void)IeyB_;
 - (id)Å¨;
 - (void);
 - (void)pNäþ+x;
 
 // Remaining properties
-@property(retain, nonatomic) _UIPlatterView *_destinationPlatterView; // @synthesize _destinationPlatterView=__destinationPlatterView;
-@property(retain, nonatomic) UIView *_dragContainerTransitionView; // @synthesize _dragContainerTransitionView=__dragContainerTransitionView;
-@property(retain, nonatomic) UIView *_dragContainerView; // @synthesize _dragContainerView=__dragContainerView;
-@property(nonatomic) _Bool _dragWasCanceled; // @synthesize _dragWasCanceled=__dragWasCanceled;
-@property(copy, nonatomic) CDUnknownBlockType _postMorphDragItemUpdate; // @synthesize _postMorphDragItemUpdate=__postMorphDragItemUpdate;
-@property(retain, nonatomic) _UIContextMenuSubterraneanContainerView *_subterraneanViewContainer; // @synthesize _subterraneanViewContainer=__subterraneanViewContainer;
-@property(retain, nonatomic) _UIContextMenuActionScrubbingHandoffGestureRecognizer *actionScrubbingHandoffGestureRecognizer; // @synthesize actionScrubbingHandoffGestureRecognizer=_actionScrubbingHandoffGestureRecognizer;
-@property(readonly, nonatomic) UIVisualEffectView *backgroundEffectView; // @synthesize backgroundEffectView=_backgroundEffectView;
-@property(readonly, nonatomic) UIViewFloatAnimatableProperty *backgroundViewAnimationProgress; // @synthesize backgroundViewAnimationProgress=_backgroundViewAnimationProgress;
-@property(readonly, nonatomic) _UIMorphPlatterViewBase *contentPlatterView; // @synthesize contentPlatterView=_contentPlatterView;
-@property(readonly, nonatomic) _UIContextMenuLayoutArbiterOutput *currentLayout; // @synthesize currentLayout=_currentLayout;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <_UIContextMenuUIControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didAvoidKeyboard; // @synthesize didAvoidKeyboard=_didAvoidKeyboard;
-@property(retain, nonatomic) UITapGestureRecognizer *dismissalTapGestureRecognizer; // @synthesize dismissalTapGestureRecognizer=_dismissalTapGestureRecognizer;
-@property(readonly, nonatomic) _UIFlocker *flocker; // @synthesize flocker=_flocker;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _UIContextMenuLayoutArbiter *layoutArbiter; // @synthesize layoutArbiter=_layoutArbiter;
-@property(retain, nonatomic) _UIFulfilledContextMenuConfiguration *menuConfiguration; // @synthesize menuConfiguration=_menuConfiguration;
-@property(nonatomic) _Bool menuIsConcealed; // @synthesize menuIsConcealed=_menuIsConcealed;
-@property(copy, nonatomic) _UIContextMenuStyle *menuStyle; // @synthesize menuStyle=_menuStyle;
-@property(readonly, nonatomic) _UIContextMenuView *menuView; // @synthesize menuView=_menuView;
 @property(retain, nonatomic) UITapGestureRecognizer *platterActionTapGestureRecognizer; // @synthesize platterActionTapGestureRecognizer=_platterActionTapGestureRecognizer;
-@property(readonly, nonatomic) UIView *platterContainerView; // @synthesize platterContainerView=_platterContainerView;
-@property(retain, nonatomic) _UIContextMenuPanController *platterPanController; // @synthesize platterPanController=_platterPanController;
-@property(readonly, nonatomic) UIView *platterTransitionView; // @synthesize platterTransitionView=_platterTransitionView;
-@property(nonatomic) struct CGSize previewSize; // @synthesize previewSize=_previewSize;
-@property(nonatomic) _Bool previewSizeDidChange; // @synthesize previewSizeDidChange=_previewSizeDidChange;
-@property(retain, nonatomic) _UIViewAlphaOverrideAssertion *sourcePreviewAlphaOverrideAssertion; // @synthesize sourcePreviewAlphaOverrideAssertion=_sourcePreviewAlphaOverrideAssertion;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

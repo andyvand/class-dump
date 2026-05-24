@@ -6,26 +6,14 @@
 
 #import <AnnotationKit/AKController.h>
 
-@class AKActionController, AKAttributeController, AKCursorController_Mac, AKLegacyDoodleController, AKMainEventHandler, AKModelController, AKSignatureModelController, AKToolController, AKUndoController, NSView;
 @protocol AKControllerDelegateProtocol;
 
 @interface AKControllerForTesting : AKController
 {
     id <AKControllerDelegateProtocol> _testingDelegate;
-    AKModelController *_testingModelController;
-    AKActionController *_testingActionController;
-    AKToolController *_testingToolController;
-    AKAttributeController *_testingAttributeController;
-    AKUndoController *_testingUndoController;
-    AKMainEventHandler *_testingMainEventHandler;
-    NSView *_testingToolbarView;
-    NSView *_testingOverlayView;
-    AKLegacyDoodleController *_testingIntelligentSketchController;
-    AKSignatureModelController *_testingSignatureModelController;
-    AKCursorController_Mac *_testingCursorController;
 }
 
-+ (void);
++ (void)lastKnownOperatingStateCodingKey;
 - (id);
 - (id);
 - (id);
@@ -50,20 +38,20 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (id)	;
 - (id);
+- (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)the insertion point to the end of the active text area.;
+- (void)%@ for source:(unsigned long long)arg1 %@;
+- (id)rints:%@ /* Error: Ran out of types for this method. */;
+- (void)d to fetch all unassociated face crops:(_Bool)arg1 %@;
 - (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)];
+- (id)houldRetryOnFailure:completion:] /* Error: Ran out of types for this method. */;
+- (id)Ids, no statement;
 - (void);
 - (id);
 - (id);
@@ -71,18 +59,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) AKActionController *testingActionController; // @synthesize testingActionController=_testingActionController;
-@property(retain) AKAttributeController *testingAttributeController; // @synthesize testingAttributeController=_testingAttributeController;
-@property(retain) AKCursorController_Mac *testingCursorController; // @synthesize testingCursorController=_testingCursorController;
 @property(retain) id <AKControllerDelegateProtocol> testingDelegate; // @synthesize testingDelegate=_testingDelegate;
-@property(retain) AKLegacyDoodleController *testingIntelligentSketchController; // @synthesize testingIntelligentSketchController=_testingIntelligentSketchController;
-@property(retain) AKMainEventHandler *testingMainEventHandler; // @synthesize testingMainEventHandler=_testingMainEventHandler;
-@property(retain) AKModelController *testingModelController; // @synthesize testingModelController=_testingModelController;
-@property(retain) NSView *testingOverlayView; // @synthesize testingOverlayView=_testingOverlayView;
-@property(retain) AKSignatureModelController *testingSignatureModelController; // @synthesize testingSignatureModelController=_testingSignatureModelController;
-@property(retain) AKToolController *testingToolController; // @synthesize testingToolController=_testingToolController;
-@property(retain) NSView *testingToolbarView; // @synthesize testingToolbarView=_testingToolbarView;
-@property(retain) AKUndoController *testingUndoController; // @synthesize testingUndoController=_testingUndoController;
 
 @end
 

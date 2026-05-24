@@ -16,11 +16,11 @@
 + (id);
 - (id);
 - (id);
+- (id)";
+- (id)setCdpOptionViewController:(id)arg1;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)y - %@(%@);
 
 // Remaining properties
 @property(readonly) NSNumber *libraryID; // @synthesize libraryID=_libraryID;

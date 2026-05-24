@@ -10,12 +10,11 @@ __attribute__((visibility("hidden")))
 @interface __NSArrayReversed : NSArray
 {
     id _array;
-    unsigned long long _cnt;
 }
 
 - (void);
 - (id);
-- (void)itousItemContainerDisplayNameKey;
+- (void)NSURLUbiquitousItemContainerDisplayNameKey;
 - (id)rray sortWithOptions:(id)arg1 usingComparator:] /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 

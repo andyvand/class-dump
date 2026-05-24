@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FPPreflightUserInteractionAlert, NSArray, NSPredicate, NSString;
+@class FPPreflightUserInteractionAlert;
 
 @interface FPPreflightUserInteraction
 {
     _Bool _hasSuppressionIdentifier;
-    FPPreflightUserInteractionAlert *_alert;
-    NSString *_providerIdentifier;
-    NSString *_domainIdentifier;
-    NSArray *_subInteractions;
-    NSString *_helpURL;
-    NSPredicate *_predicate;
-    NSString *_userInteractionIdentifier;
 }
 
-+ (id);
-+ (void);
-+ (id);
++ (id).@�?;
++ (void)#`;
++ (id);
 + (id);
 + (id);
 + (id);
@@ -30,17 +23,17 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)j.@�?;
+- (id)T"'  "";
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)B;
 - (id);
 - (void);
 - (id);
+- (void)p;
 - (id);
+- (id)getRadioPersonality:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void)Ñç)°1Â0@ù
@@ -50,13 +43,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) FPPreflightUserInteractionAlert *alert; // @synthesize alert=_alert;
-@property(retain, nonatomic) NSString *domainIdentifier; // @synthesize domainIdentifier=_domainIdentifier;
-@property(nonatomic) _Bool hasSuppressionIdentifier; // @synthesize hasSuppressionIdentifier=_hasSuppressionIdentifier;
-@property(retain, nonatomic) NSString *helpURL; // @synthesize helpURL=_helpURL;
-@property(retain, nonatomic) NSPredicate *predicate; // @synthesize predicate=_predicate;
-@property(retain, nonatomic) NSString *providerIdentifier; // @synthesize providerIdentifier=_providerIdentifier;
-@property(retain, nonatomic) NSArray *subInteractions; // @synthesize subInteractions=_subInteractions;
-@property(retain, nonatomic) NSString *userInteractionIdentifier; // @synthesize userInteractionIdentifier=_userInteractionIdentifier;
 
 @end
 

@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (struct CGPoint);
-- (void);
+- (void)G;
 - (long long);
 
 @end

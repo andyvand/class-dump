@@ -6,14 +6,11 @@
 
 #import <PhotosUICore/PXSettings.h>
 
-@class NSArray;
 @protocol PXFavoritesSettingsDelegate;
 
 @interface PXFavoritesSettings : PXSettings
 {
     _Bool _didEncounterUnknownSettingsClassName;
-    id <PXFavoritesSettingsDelegate> _delegate;
-    NSArray *_favoritesSettingsClassNames;
 }
 
 + (id);
@@ -21,20 +18,19 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)G;
+- (void);
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id)difiedOriginalsExportSwitch;
+- (id)_showUnmodifiedOriginalsExportSwitch;
 - (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <PXFavoritesSettingsDelegate> delegate; // @synthesize delegate=_delegate;
-@property(copy, nonatomic) NSArray *favoritesSettingsClassNames; // @synthesize favoritesSettingsClassNames=_favoritesSettingsClassNames;
 
 @end
 

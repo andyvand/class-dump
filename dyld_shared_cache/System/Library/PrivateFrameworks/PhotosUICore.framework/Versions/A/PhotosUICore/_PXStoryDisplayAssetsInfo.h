@@ -5,18 +5,10 @@
 //
 
 @class _PXStoryDisplayAssetsFetchResult;
-@protocol PXStoryTimelineStyle;
 
 @interface _PXStoryDisplayAssetsInfo
 {
     _PXStoryDisplayAssetsFetchResult *_displayAssets;
-    id <PXStoryTimelineStyle> _timelineStyle;
-    long long _capacity;
-    long long *_originalPlaybackStyles;
-    long long _oneUpPlaybackStyle;
-    long long *_nUpPlaybackStyles;
-    CDStruct_4cef5b45 *_assetContentInfos;
-    long long _count;
 }
 
 - (const long long *);
@@ -24,18 +16,14 @@
 - (const long long *);
 - (id);
 - (void);
-- (const CDStruct_4cef5b45 *);
+- (const CDStruct_b9de0efa *);
 - (void);
 - (id);
 - (long long)ublic}@;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) const CDStruct_4cef5b45 *assetContentInfos; // @synthesize assetContentInfos=_assetContentInfos;
 @property(readonly, nonatomic) long long count; // @synthesize count=_count;
-@property(readonly, nonatomic) const long long *nUpPlaybackStyles;
-@property(readonly, nonatomic) const long long *oneUpPlaybackStyles;
-@property(readonly, nonatomic) const long long *originalPlaybackStyles;
 
 @end
 

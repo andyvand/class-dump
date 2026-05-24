@@ -15,22 +15,22 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
+- (id);
+- (id);
+- (id);
+- (id)goToStartOfDocument: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (_Bool)(*h: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id)forInfo: /* Error: Ran out of types for this method. */;
+- (id)connection:didReceiveURLTokenError:forInfo: /* Error: Ran out of types for this method. */;
 
 @end
 

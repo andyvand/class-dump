@@ -6,32 +6,12 @@
 
 #import <AccessibilityPlatformTranslation/AXPTranslator.h>
 
-@class AXUIElement, NSLock, NSMutableArray, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
+@class AXUIElement, NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface AXPTranslator_iOS : AXPTranslator
 {
     NSMutableDictionary *_translationCache;
-    NSMutableDictionary *_backTranslationCache;
-    NSMutableArray *_cachedElements;
-    NSObject<OS_dispatch_queue> *_cacheQueue;
-    _Bool _axAppReadyFlag;
-    NSObject<OS_dispatch_semaphore> *_threadSemaphore;
-    _Bool _accessibilityEnabled;
-    _Bool _shouldHonorGroupsForElementTraversal;
-    _Bool _shouldStopGeneratingAXTree;
-    struct __AXObserver *_axEventObserver;
-    NSObject<OS_dispatch_queue> *_axTreeDumpSharedBackgroundQueue;
-    AXUIElement *_systemAppElement;
-    AXUIElement *_systemWideElement;
-    AXUIElement *_frontmostAppOnContinuityDisplay;
-    CDUnknownBlockType _axTreeDumpCompletionHandler;
-    NSLock *_axTreeDumpLock;
-    long long _axTreeDumpCurrentChildIndex;
-    NSString *_axTreeDumpCurrentType;
-    NSMutableArray *_axTreeDumpCurrentlyProcessingChildren;
-    NSMutableArray *_axTreeDumpCurrentOutput;
 }
 
 + (id);
@@ -51,7 +31,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -81,12 +61,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)T;
 - (CDUnknownBlockType);
-- (long long);
+- (long long);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -100,12 +80,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
@@ -127,13 +107,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)B;
+- (id)P;
 - (id);
 - (id);
 - (id);
@@ -178,17 +158,6 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) struct __AXObserver *axEventObserver; // @synthesize axEventObserver=_axEventObserver;
-@property(copy, nonatomic) CDUnknownBlockType axTreeDumpCompletionHandler; // @synthesize axTreeDumpCompletionHandler=_axTreeDumpCompletionHandler;
-@property(nonatomic) long long axTreeDumpCurrentChildIndex; // @synthesize axTreeDumpCurrentChildIndex=_axTreeDumpCurrentChildIndex;
-@property(retain, nonatomic) NSMutableArray *axTreeDumpCurrentOutput; // @synthesize axTreeDumpCurrentOutput=_axTreeDumpCurrentOutput;
-@property(retain, nonatomic) NSString *axTreeDumpCurrentType; // @synthesize axTreeDumpCurrentType=_axTreeDumpCurrentType;
-@property(retain, nonatomic) NSMutableArray *axTreeDumpCurrentlyProcessingChildren; // @synthesize axTreeDumpCurrentlyProcessingChildren=_axTreeDumpCurrentlyProcessingChildren;
-@property(retain, nonatomic) NSLock *axTreeDumpLock; // @synthesize axTreeDumpLock=_axTreeDumpLock;
-@property(retain, nonatomic) AXUIElement *frontmostAppOnContinuityDisplay; // @synthesize frontmostAppOnContinuityDisplay=_frontmostAppOnContinuityDisplay;
-@property(nonatomic) _Bool shouldHonorGroupsForElementTraversal; // @synthesize shouldHonorGroupsForElementTraversal=_shouldHonorGroupsForElementTraversal;
-@property(nonatomic) _Bool shouldStopGeneratingAXTree; // @synthesize shouldStopGeneratingAXTree=_shouldStopGeneratingAXTree;
-@property(retain, nonatomic) AXUIElement *systemAppElement; // @synthesize systemAppElement=_systemAppElement;
 @property(retain, nonatomic) AXUIElement *systemWideElement; // @synthesize systemWideElement=_systemWideElement;
 
 @end

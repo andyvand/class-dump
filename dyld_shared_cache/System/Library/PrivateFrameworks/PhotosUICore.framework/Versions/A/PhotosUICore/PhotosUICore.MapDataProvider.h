@@ -7,8 +7,6 @@
 @interface PhotosUICore.MapDataProvider
 {
     id photoLibraryObjectIdentifier;
-    id mostRecentCoordinateFetcher;
-    id locationManager;
 }
 
 @end

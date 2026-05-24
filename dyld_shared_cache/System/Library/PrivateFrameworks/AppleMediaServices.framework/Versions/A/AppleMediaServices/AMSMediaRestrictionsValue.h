@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSMediaRestrictionsRatingItem, NSString;
-
 @interface AMSMediaRestrictionsValue
 {
     long long valueType;
-    void _value;
 }
 
 + (id);
@@ -22,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long):withCdaId:withTimestamp:]_block_invoke /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (long long);
 - (id);
@@ -33,12 +30,6 @@
 - (id)aðß;
 
 // Remaining properties
-@property(nonatomic, readonly) id _value;
-@property(nonatomic, readonly) _Bool boolValue;
-@property(nonatomic, readonly) id dictionaryValue;
-@property(nonatomic, readonly) long long integerValue;
-@property(nonatomic, readonly) AMSMediaRestrictionsRatingItem *ratingItem;
-@property(nonatomic, readonly) NSString *stringValue;
 @property(nonatomic, readonly) long long valueType; // @synthesize valueType;
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSClassDescription;
+@class NSClassDescription;
 
 @interface UnknownClass (NSClassDescriptionPrimitives)
 - (id);
@@ -14,9 +14,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSArray *attributeKeys;
 @property(readonly, copy) NSClassDescription *classDescription;
-@property(readonly, copy) NSArray *toManyRelationshipKeys;
-@property(readonly, copy) NSArray *toOneRelationshipKeys;
 @end
 

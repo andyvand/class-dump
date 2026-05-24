@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, CNContainer, CNGroup, CNQueue, CNUIEditAuthorizationController, CNUIGroupsAndContainersSaveManager, NSString, UIViewController;
-@protocol CNVCardImportControllerDelegate, CNVCardImportControllerPresentationDelegate;
+@protocol CNVCardImportControllerPresentationDelegate;
 
 @interface CNVCardImportController
 {
     id <CNVCardImportControllerPresentationDelegate> _presentationDelegate;
-    id <CNVCardImportControllerDelegate> _delegate;
-    CNGroup *_targetGroup;
-    CNContainer *_targetContainer;
-    CNQueue *_receivedContactsQueue;
-    CNContactStore *_contactStore;
-    CNUIGroupsAndContainersSaveManager *_groupsAndContainersSaveManager;
-    UIViewController *_presentedViewController;
-    CNUIEditAuthorizationController *_editAuthorizationController;
 }
 
 - (id);
@@ -29,8 +20,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id);
 - (id);
 - (_Bool);
 - (void);
@@ -47,35 +38,20 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)W;
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void)bleDataRepresentationTypes;
+- (void)availableDataRepresentationTypes;
 - (void)gPress = %i, shouldPresentDisambiguation = %i, defaultAction = %@;
 - (id)ÿGÉ:øyÛÉÿÿGG /* Error: Ran out of types for this method. */;
 - (void)y9áøyytA8_G_A19_tGQo_G;
 
 // Remaining properties
-@property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNVCardImportControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CNUIEditAuthorizationController *editAuthorizationController; // @synthesize editAuthorizationController=_editAuthorizationController;
-@property(retain, nonatomic) CNUIGroupsAndContainersSaveManager *groupsAndContainersSaveManager; // @synthesize groupsAndContainersSaveManager=_groupsAndContainersSaveManager;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak id <CNVCardImportControllerPresentationDelegate> presentationDelegate; // @synthesize presentationDelegate=_presentationDelegate;
-@property(nonatomic) __weak UIViewController *presentedViewController; // @synthesize presentedViewController=_presentedViewController;
-@property(retain, nonatomic) CNQueue *receivedContactsQueue; // @synthesize receivedContactsQueue=_receivedContactsQueue;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) CNContainer *targetContainer; // @synthesize targetContainer=_targetContainer;
-@property(retain, nonatomic) CNGroup *targetGroup; // @synthesize targetGroup=_targetGroup;
 
 @end
 

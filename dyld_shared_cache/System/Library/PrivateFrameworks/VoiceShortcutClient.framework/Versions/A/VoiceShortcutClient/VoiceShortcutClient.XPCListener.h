@@ -7,8 +7,6 @@
 @interface VoiceShortcutClient.XPCListener
 {
     id type;
-    id handler;
-    id connection;
 }
 
 @end

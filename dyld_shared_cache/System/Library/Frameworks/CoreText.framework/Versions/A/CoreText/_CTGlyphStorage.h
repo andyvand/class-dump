@@ -8,27 +8,22 @@ __attribute__((visibility("hidden")))
 @interface _CTGlyphStorage
 {
     long long _count;
-    const unsigned short *_glyphs;
-    const double *_advanceWidths;
-    const struct CGSize *_advances;
-    const unsigned int *_props;
-    const long long *_stringIndices;
 }
 
-- (void);
+- (void)h;
 - (id);
-- (void);
-- (void);
-- (id);
+- (void);
+- (void);
+- (id)0@>;
 - (void *);
-- (void);
+- (void);
 - (void);
 - (long long);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)ingCrossCheckFailed;
+- (void)typeERKNS2_7AddressERKNS6_INS3_6PlugInEEEjEUlvE_FfvEEE;
 - (_Bool);
 - (void);
 - (struct CGPoint);

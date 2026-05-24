@@ -11,9 +11,9 @@
     FBSScene *_FBSScene;
 }
 
-- (void);
-- (id);
-- (id);
+- (void)decodeObjectOfClasses:(id)arg1 forKey: /* Error: Ran out of types for this method. */;
+- (id)];
+- (id)2z0;
 - (id);
 - (void)¤Á¤ÿ4è;
 

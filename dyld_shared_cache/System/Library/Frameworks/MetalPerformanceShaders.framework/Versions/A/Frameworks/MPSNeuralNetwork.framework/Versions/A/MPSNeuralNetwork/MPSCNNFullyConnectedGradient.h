@@ -13,10 +13,10 @@
 - (id);
 - (id);
 - (void);
+- (id)0;
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)[;
 - (id)fillValue:(id)arg1 %f	fillValueBuf:%s /* Error: Ran out of types for this method. */;
 
 @end

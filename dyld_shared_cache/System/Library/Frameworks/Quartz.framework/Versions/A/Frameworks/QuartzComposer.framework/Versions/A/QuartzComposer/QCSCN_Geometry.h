@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, QCSCN_Material;
+@class NSString;
 
 @interface QCSCN_Geometry
 {
@@ -31,7 +31,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (id);
@@ -58,7 +58,7 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void)R(;
 - (void);
 - (void);
 - (id);
@@ -76,7 +76,7 @@
 - (id);
 - (void);
 - (struct __C3DAnimationManager *);
-- (struct __C3DAnimationTarget *);
+- (struct __C3DAnimationTarget *)CHDatabaseClientHandleManager;
 - (id);
 - (void);
 - (int);
@@ -85,12 +85,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)fPC;
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)toSyncImportOperation.accessQueue;
+- (id)ory_id THEN 1 WHEN is_ota_purchased THEN 0 WHEN is_subscription THEN 3 ELSE 0 END) WHERE store_saga_id = 0;
 - (id);
 - (id);
 - (void);
@@ -103,9 +103,6 @@
 - (id)¤{;
 
 // Remaining properties
-@property(retain, nonatomic) QCSCN_Material *firstMaterial;
-@property(readonly, nonatomic) long long geometryElementCount;
-@property(copy, nonatomic) NSArray *materials;
 @property(copy, nonatomic) NSString *name;
 
 @end

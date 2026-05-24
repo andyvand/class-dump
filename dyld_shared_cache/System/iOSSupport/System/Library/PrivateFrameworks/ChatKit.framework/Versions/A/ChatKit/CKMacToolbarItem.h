@@ -9,18 +9,16 @@
 @interface CKMacToolbarItem
 {
     NSString *_itemIdentifier;
-    NSToolbarItem *_appKitToolbarItem;
 }
 
-- (void);
-- (id);
+- (void)ICTTMergeableStringDelegate;
+- (id)photo;
 - (id);
 - (void)}};
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSToolbarItem *appKitToolbarItem; // @synthesize appKitToolbarItem=_appKitToolbarItem;
-@property(readonly, nonatomic) NSString *itemIdentifier; // @synthesize itemIdentifier=_itemIdentifier;
 
 @end
 

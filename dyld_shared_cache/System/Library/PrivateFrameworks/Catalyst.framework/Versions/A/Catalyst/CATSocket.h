@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATEndPoint, NSObject;
-@protocol CATSocketDelegate, OS_dispatch_queue, OS_dispatch_source;
-
 @interface CATSocket
 {
     _Bool mIsInvalid;
-    int mState;
-    int _nativeSocket;
-    id <CATSocketDelegate> _delegate;
-    CATEndPoint *_localEndPoint;
-    CATEndPoint *_remoteEndPoint;
-    NSObject<OS_dispatch_source> *_socketSource;
-    NSObject<OS_dispatch_queue> *_socketQueue;
-    NSObject<OS_dispatch_queue> *_userQueue;
 }
 
 - (id);
@@ -25,7 +14,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)?;
 - (void);
 - (void);
 - (void);
@@ -47,20 +36,14 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)#;
 - (void);
 - (void);
-- (void);
+- (void)initWithInteger: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <CATSocketDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) CATEndPoint *localEndPoint; // @synthesize localEndPoint=_localEndPoint;
 @property(nonatomic) int nativeSocket; // @synthesize nativeSocket=_nativeSocket;
-@property(readonly, nonatomic) CATEndPoint *remoteEndPoint; // @synthesize remoteEndPoint=_remoteEndPoint;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *socketQueue; // @synthesize socketQueue=_socketQueue;
-@property(readonly, nonatomic) NSObject<OS_dispatch_source> *socketSource; // @synthesize socketSource=_socketSource;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *userQueue; // @synthesize userQueue=_userQueue;
 
 @end
 

@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface PREResponsesGeneratedEvent
 {
     _Bool _isCached;
-    _Bool _hasQuestionMark;
-    int _generationStatus;
-    NSArray *_responses;
-    NSString *_language;
-    NSString *_locale;
-    unsigned long long _responseTimePerf;
-    unsigned long long _messageCharCount;
-    unsigned long long _responseGenerationTime;
 }
 
 - (void);
@@ -40,14 +32,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) int generationStatus; // @synthesize generationStatus=_generationStatus;
-@property(nonatomic) _Bool hasQuestionMark; // @synthesize hasQuestionMark=_hasQuestionMark;
-@property(nonatomic) _Bool isCached; // @synthesize isCached=_isCached;
-@property(retain, nonatomic) NSString *language; // @synthesize language=_language;
-@property(retain, nonatomic) NSString *locale; // @synthesize locale=_locale;
-@property(nonatomic) unsigned long long messageCharCount; // @synthesize messageCharCount=_messageCharCount;
-@property(nonatomic) unsigned long long responseGenerationTime; // @synthesize responseGenerationTime=_responseGenerationTime;
-@property(nonatomic) unsigned long long responseTimePerf; // @synthesize responseTimePerf=_responseTimePerf;
 @property(retain, nonatomic) NSArray *responses; // @synthesize responses=_responses;
 
 @end

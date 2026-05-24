@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABGroupEntriesList, ABPeoplePickerGroupListStyleProvider, ABPeoplePickerGroupListView, NSString;
-@protocol ABGroupHelperFactory;
+@class ABPeoplePickerGroupListView, NSString;
 
 @interface ABPeoplePickerGroupListController
 {
     ABPeoplePickerGroupListView *_outlineView;
-    id <ABGroupHelperFactory> _helperFactory;
-    _Bool _didAwakeFromNib;
-    ABGroupEntriesList *_groupEntriesList;
-    ABPeoplePickerGroupListStyleProvider *_groupListStyleProvider;
-    NSString *_selectedGroupEntryIdentifier;
 }
 
-- (void);
+- (void)_ֿ;
 - (void);
 - (id);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)=;
 - (void);
 - (void);
 - (void);
@@ -32,7 +26,7 @@
 - (long long);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)q@;
 - (id);
 - (id);
 - (void);
@@ -54,7 +48,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (SEL);
 - (void);
 - (void);
@@ -70,22 +64,7 @@
 × ;
 
 // Remaining properties
-@property _Bool allowsEmptySelection;
-@property _Bool allowsMultipleSelection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property SEL doubleAction;
-@property(retain, nonatomic) ABGroupEntriesList *groupEntriesList; // @synthesize groupEntriesList=_groupEntriesList;
-@property _Bool hasBorder;
-@property(readonly) unsigned long long hash;
-@property __weak id <ABGroupHelperFactory> helperFactory; // @synthesize helperFactory=_helperFactory;
-@property __weak ABPeoplePickerGroupListView *outlineView; // @synthesize outlineView=_outlineView;
 @property(copy) NSString *selectedGroupEntryIdentifier; // @synthesize selectedGroupEntryIdentifier=_selectedGroupEntryIdentifier;
-@property(readonly) Class superclass;
-@property(retain) id target;
 
 @end
 

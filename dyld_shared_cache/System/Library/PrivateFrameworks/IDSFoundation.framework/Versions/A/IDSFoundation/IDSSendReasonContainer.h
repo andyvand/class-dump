@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface IDSSendReasonContainer
 {
@@ -13,19 +13,18 @@
 
 + (id);
 + (id);
++ (id);
 + (id);
-+ (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void)e Pay;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *reasonString;
 @property(nonatomic, copy) NSArray *reasons;
 
 @end

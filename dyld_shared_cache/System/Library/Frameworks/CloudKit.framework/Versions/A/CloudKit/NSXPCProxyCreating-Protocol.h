@@ -5,5 +5,6 @@
 //
 
 @protocol NSXPCProxyCreating
+- (id)setCompletedUnitCount:(void (^)(NSError *))arg1;
 @end
 

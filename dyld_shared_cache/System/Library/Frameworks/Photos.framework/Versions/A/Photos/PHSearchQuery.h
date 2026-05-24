@@ -4,29 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSUserQuery, CSUserQueryContext, NSAttributedString, NSDate, PHPhotoLibrary, PHSearchQueryOptions, PHSearchSuggestionOptions, PSISuggestionQuery;
-
 @interface PHSearchQuery
 {
     _Bool _isCancelled;
-    int _queryIdentifier;
-    int _batchIdentifier;
-    int _suggestionQueryIdentifier;
-    NSAttributedString *_searchText;
-    unsigned long long _type;
-    PHSearchQueryOptions *_searchOptions;
-    PHSearchSuggestionOptions *_suggestionOptions;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    PHPhotoLibrary *_photoLibrary;
-    CSUserQuery *_spotlightQuery;
-    CSUserQueryContext *_spotlightQueryContext;
-    PSISuggestionQuery *_photosRetrievalSuggestionsQuery;
-    PSISuggestionQuery *_photosSuggestionsQuery;
-    NSAttributedString *_queryStringSentToSpotlight;
 }
 
-+ (void);
++ (void)";
 + (void);
 + (void);
 + (void);
@@ -36,14 +19,14 @@
 + (id);
 - (int);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)M;
 - (void);
 - (id);
 - (id);
@@ -53,7 +36,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)24;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -65,25 +48,10 @@
 - (_Bool);
 - (void)standingGatingVersion;
 - (id)esources:%@ /* Error: Ran out of types for this method. */;
-- (void)ibutes;
+- (void)AdditionalAssetAttributes;
 
 // Remaining properties
-@property(readonly, nonatomic) int batchIdentifier; // @synthesize batchIdentifier=_batchIdentifier;
-@property(retain, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
 @property(nonatomic) _Bool isCancelled; // @synthesize isCancelled=_isCancelled;
-@property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(readonly, nonatomic) PSISuggestionQuery *photosRetrievalSuggestionsQuery; // @synthesize photosRetrievalSuggestionsQuery=_photosRetrievalSuggestionsQuery;
-@property(readonly, nonatomic) PSISuggestionQuery *photosSuggestionsQuery; // @synthesize photosSuggestionsQuery=_photosSuggestionsQuery;
-@property(readonly, nonatomic) int queryIdentifier; // @synthesize queryIdentifier=_queryIdentifier;
-@property(readonly, copy, nonatomic) NSAttributedString *queryStringSentToSpotlight; // @synthesize queryStringSentToSpotlight=_queryStringSentToSpotlight;
-@property(readonly, nonatomic) PHSearchQueryOptions *searchOptions; // @synthesize searchOptions=_searchOptions;
-@property(readonly, nonatomic) NSAttributedString *searchText; // @synthesize searchText=_searchText;
-@property(readonly, nonatomic) CSUserQuery *spotlightQuery; // @synthesize spotlightQuery=_spotlightQuery;
-@property(readonly, nonatomic) CSUserQueryContext *spotlightQueryContext; // @synthesize spotlightQueryContext=_spotlightQueryContext;
-@property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(readonly, nonatomic) PHSearchSuggestionOptions *suggestionOptions; // @synthesize suggestionOptions=_suggestionOptions;
-@property(readonly, nonatomic) int suggestionQueryIdentifier; // @synthesize suggestionQueryIdentifier=_suggestionQueryIdentifier;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

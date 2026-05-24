@@ -7,11 +7,6 @@
 @interface AppStoreKit.ProductBetaBannerPresenter
 {
     id appStateController;
-    id currentlyObservedAdamId;
-    id shouldDisplayBetaBanner;
-    id currentBetaBundleVersion;
-    id productPage;
-    id onDidChangeState;
 }
 
 @end

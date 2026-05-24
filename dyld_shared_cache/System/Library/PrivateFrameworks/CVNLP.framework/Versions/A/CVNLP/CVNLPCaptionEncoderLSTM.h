@@ -9,16 +9,10 @@
 @interface CVNLPCaptionEncoderLSTM : CVNLPCaptionEncoder
 {
     void *encoderPlan;
-    void *encoderCtx;
-    CDStruct_2bc666a5 encoderNet;
-    CDStruct_0a65202a meanFeatsBlob;
-    CDStruct_0a65202a attFeatsBlob;
-    CDStruct_0a65202a pAttFeatsBlob;
-    _Bool meanFeaturesPresent;
 }
 
 - (id);
-- (void);
+- (void)1;
 - (void);
 - (void);
 

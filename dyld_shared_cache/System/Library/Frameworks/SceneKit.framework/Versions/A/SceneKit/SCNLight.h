@@ -4,65 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSMutableDictionary, NSString, NSURL, SCNMaterialProperty, SCNOrderedDictionary, SCNTechnique;
+@class NSString;
 
 @interface SCNLight
 {
     struct __C3DLight *_light;
-    unsigned int _isPresentationInstance:1;
-    unsigned int _castsShadow:1;
-    unsigned int _usesDeferredShadows:1;
-    unsigned int _usesModulatedMode:1;
-    unsigned int _baked:1;
-    unsigned int _shouldBakeDirectLighting:1;
-    unsigned int _shouldBakeIndirectLighting:1;
-    unsigned int _automaticallyAdjustsShadowProjection:1;
-    unsigned int _forcesBackFaceCasters:1;
-    unsigned int _sampleDistributedShadowMaps:1;
-    struct os_unfair_lock_s _animationsLock;
-    SCNOrderedDictionary *_animations;
-    NSMutableDictionary *_bindings;
-    NSString *_name;
-    NSString *_type;
-    id _color;
-    id _shadowColor;
-    float _shadowRadius;
-    double _intensity;
-    double _temperature;
-    double _orthographicScale;
-    struct CGSize _shadowMapSize;
-    unsigned long long _categoryBitMask;
-    unsigned char _shadowSampleCount;
-    unsigned char _shadowCascadeCount;
-    double _maximumShadowDistance;
-    double _shadowCascadeSplittingFactor;
-    double _cascadeDebugFactor;
-    double _zNear;
-    double _zFar;
-    double _shadowBias;
-    long long _probeType;
-    long long _probeUpdateType;
-    _Bool _parallaxCorrectionEnabled;
-    id _probeExtents;
-    id _probeOffset;
-    id _parallaxExtentsFactor;
-    id _parallaxCenterOffset;
-    float _attenuationStartDistance;
-    float _attenuationEndDistance;
-    float _attenuationFalloffExponent;
-    float _spotInnerAngle;
-    float _spotOuterAngle;
-    float _spotFalloffExponent;
-    SCNMaterialProperty *_gobo;
-    NSURL *_IESProfileURL;
-    SCNTechnique *_technique;
-    NSData *_sphericalHarmonics;
-    SCNMaterialProperty *_probeEnvironment;
-    long long _areaType;
-    id _areaExtents;
-    NSArray *_areaPolygonVertices;
-    _Bool _drawsArea;
-    _Bool _doubleSided;
 }
 
 + (id);
@@ -88,6 +34,23 @@
 - (unsigned long long);
 - (void);
 - (void);
+- (void)(;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)c;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)9;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
@@ -101,24 +64,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -126,7 +72,7 @@
 - (void);
 - (void);
 - (long long);
-- (id);
+- (id)+;
 - (id);
 - (id);
 - (id);
@@ -147,7 +93,7 @@
 - (double);
 - (double);
 - (long long);
-- (id);
+- (id)`;
 - (id);
 - (id);
 - (_Bool);
@@ -187,7 +133,7 @@
 - (id);
 - (void);
 - (struct __C3DLight *);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (double);
@@ -200,31 +146,31 @@
 - (id);
 - (void);
 - (double);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)2	>	*	(	;
+- (void)	M	/	;
+- (_Bool)controversy;
+- (void)browser;
+- (id);
 - (void);
 - (id);
+- (id)setBundleDirectoryName: /* Error: Ran out of types for this method. */;
+- (id)setAppExtensionPlaceholderConstructors:(id)arg1;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
+- (id)_callingNodes;
+- (double)ationController"16@"PKContact"24@?<v@?q@"NSArray"@"NSArray">32;
 - (id);
+- (void);
+- (void)J;
+- (void);
 - (double);
-- (id);
-- (void);
-- (void);
-- (void);
-- (double);
 - (void);
 - (id);
 - (void);
@@ -233,7 +179,7 @@
 - (id);
 - (id);
 - (id);
-- (void)eWithInnerRadius:(id)arg1 outerRadius:height: /* Error: Ran out of types for this method. */;
+- (void)tubeWithInnerRadius:(id)arg1 outerRadius:height: /* Error: Ran out of types for this method. */;
 - (id)_uv1;
 #else
 varying vec2 v_uv0;
@@ -306,61 +252,11 @@ void main(){
 #endif
 } 
 ;
-- (void)nstance_material;
+- (void)instance_material;
 - (double)¾	n(?¯7?ÑçW?ÒÃ°¾~?©Þ>?hyZ?ýª¾Êk?(ÖE?UÁ\?·´¢¾À?;
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *IESProfileURL;
-@property(readonly) NSArray *animationKeys;
-@property(nonatomic) id areaExtents;
-@property(copy, nonatomic) NSArray *areaPolygonVertices;
-@property(nonatomic) long long areaType;
-@property(nonatomic) double attenuationEndDistance;
-@property(nonatomic) double attenuationFalloffExponent;
-@property(nonatomic) double attenuationStartDistance;
-@property(nonatomic) _Bool automaticallyAdjustsShadowProjection;
-@property(nonatomic) _Bool castsShadow;
-@property(nonatomic) unsigned long long categoryBitMask;
-@property(retain, nonatomic) id color;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool doubleSided;
-@property(nonatomic) _Bool drawsArea;
-@property(nonatomic) _Bool forcesBackFaceCasters;
-@property(readonly, nonatomic) SCNMaterialProperty *gobo;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double intensity;
-@property(nonatomic) double maximumShadowDistance;
-@property(copy, nonatomic) NSString *name;
-@property(nonatomic) double orthographicScale;
-@property(nonatomic) id parallaxCenterOffset;
-@property(nonatomic) _Bool parallaxCorrectionEnabled;
-@property(nonatomic) id parallaxExtentsFactor;
-@property(readonly, nonatomic) SCNMaterialProperty *probeEnvironment;
-@property(nonatomic) id probeExtents;
-@property(nonatomic) id probeOffset;
-@property(nonatomic) long long probeType;
-@property(nonatomic) long long probeUpdateType;
-@property(nonatomic) _Bool sampleDistributedShadowMaps;
-@property(nonatomic) double shadowBias;
-@property(nonatomic) unsigned long long shadowCascadeCount;
-@property(nonatomic) double shadowCascadeSplittingFactor;
-@property(retain, nonatomic) id shadowColor;
-@property(nonatomic) struct CGSize shadowMapSize;
-@property(nonatomic) long long shadowMode;
-@property(nonatomic) double shadowRadius;
-@property(nonatomic) unsigned long long shadowSampleCount;
-@property(readonly, copy, nonatomic) NSData *sphericalHarmonicsCoefficients;
-@property(nonatomic) double spotInnerAngle;
-@property(nonatomic) double spotOuterAngle;
-@property(readonly) Class superclass;
-@property(nonatomic) double temperature;
 @property(copy, nonatomic) NSString *type;
-@property(nonatomic) double zFar;
-@property(nonatomic) double zNear;
 
 @end
 

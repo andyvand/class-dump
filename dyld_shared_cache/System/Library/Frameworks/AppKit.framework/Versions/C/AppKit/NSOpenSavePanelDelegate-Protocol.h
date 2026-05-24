@@ -5,5 +5,9 @@
 //
 
 @protocol NSOpenSavePanelDelegate
+
+@optional
+- (void)t timed out;
+- (_Bool)roxy authentication required;
 @end
 

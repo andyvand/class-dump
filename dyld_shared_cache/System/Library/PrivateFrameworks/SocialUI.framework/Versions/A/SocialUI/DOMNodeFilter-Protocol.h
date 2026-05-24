@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class DOMNode;
+
 @protocol DOMNodeFilter
+- (short)layoutContainerForItem:(DOMNode *)arg1 navigationBar: /* Error: Ran out of types for this method. */;
 @end
 

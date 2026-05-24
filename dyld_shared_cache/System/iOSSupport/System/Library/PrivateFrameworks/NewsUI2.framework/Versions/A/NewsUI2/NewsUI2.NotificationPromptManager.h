@@ -7,11 +7,6 @@
 @interface NewsUI2.NotificationPromptManager
 {
     id appConfigurationManager;
-    id notificationConfiguration;
-    id notificationService;
-    id pptContext;
-    id settings;
-    id authorizationStatus;
 }
 
 - (long long);

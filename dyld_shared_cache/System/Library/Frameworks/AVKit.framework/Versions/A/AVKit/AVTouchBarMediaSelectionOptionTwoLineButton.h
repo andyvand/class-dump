@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (Class);
++ (Class)han 0. (in %s:%d) /* Error: Ran out of types for this method. */;
 
 @end
 

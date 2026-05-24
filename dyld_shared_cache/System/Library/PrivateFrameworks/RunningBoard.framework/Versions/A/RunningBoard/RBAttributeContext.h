@@ -4,41 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, RBAssertion, RBDomainRestriction, RBInheritanceCollection, RBProcess, RBProcessState, RBSAssertionIdentifier, RBSProcessIdentity, RBSystemState;
-@protocol RBBundleProperties, RBBundlePropertiesManaging, RBConcreteTargeting, RBDomainAttributeManaging, RBEntitlementManaging, RBEntitlementPossessing;
+@class RBAssertion;
 
 @interface RBAttributeContext
 {
     unsigned long long _activeDueToInheritedEndowmentCount;
-    _Bool _targetIsSystem;
-    RBProcess *_targetProcess;
-    id <RBBundleProperties> _targetProperties;
-    id <RBEntitlementPossessing> _targetEntitlements;
-    RBDomainRestriction *_targetClientRestriction;
-    RBProcess *_originatorProcess;
-    id <RBBundleProperties> _originatorProperties;
-    id <RBEntitlementPossessing> _originatorEntitlements;
-    RBSystemState *_systemState;
-    RBAssertion *_assertion;
-    RBSAssertionIdentifier *_assertionID;
-    id <RBConcreteTargeting> _target;
-    RBSProcessIdentity *_targetIdentity;
-    RBProcessState *_initialProcessState;
-    RBInheritanceCollection *_availableInheritances;
-    id <RBDomainAttributeManaging> _domainAttributeManager;
-    id <RBBundlePropertiesManaging> _bundlePropertiesManager;
-    id <RBEntitlementManaging> _entitlementManager;
-    NSDictionary *_savedEndowments;
 }
 
-- (id);
+- (id){;
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)v@?@"MAAutoAssetSelector"@"NSError">24;
 - (id);
 - (id);
 - (id);
@@ -47,12 +27,12 @@
 - (void);
 - (id);
 - (_Bool);
+- (id)X*;
 - (id);
 - (id);
+- (void)rt tracing with providers:%@ (%{errno}d) /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)@;
 - (void);
 - (id);
 - (id);
@@ -61,36 +41,10 @@
 - (void);
 - (void);
 - (id),N,V_process;
-- (id)ate;
+- (id)NSXPCListenerDelegate;
 
 // Remaining properties
 @property(retain, nonatomic) RBAssertion *assertion; // @synthesize assertion=_assertion;
-@property(readonly, nonatomic) RBSAssertionIdentifier *assertionID; // @synthesize assertionID=_assertionID;
-@property(retain, nonatomic) RBInheritanceCollection *availableInheritances; // @synthesize availableInheritances=_availableInheritances;
-@property(retain, nonatomic) id <RBBundlePropertiesManaging> bundlePropertiesManager; // @synthesize bundlePropertiesManager=_bundlePropertiesManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) id <RBDomainAttributeManaging> domainAttributeManager; // @synthesize domainAttributeManager=_domainAttributeManager;
-@property(retain, nonatomic) id <RBEntitlementManaging> entitlementManager; // @synthesize entitlementManager=_entitlementManager;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) RBProcessState *initialProcessState; // @synthesize initialProcessState=_initialProcessState;
-@property(readonly, nonatomic) _Bool isActiveDueToInheritedEndowment;
-@property(readonly, nonatomic) id <RBEntitlementPossessing> originatorEntitlements; // @synthesize originatorEntitlements=_originatorEntitlements;
-@property(readonly, nonatomic) RBProcess *originatorProcess; // @synthesize originatorProcess=_originatorProcess;
-@property(readonly, nonatomic) id <RBBundleProperties> originatorProperties; // @synthesize originatorProperties=_originatorProperties;
-@property(retain, nonatomic) NSDictionary *savedEndowments; // @synthesize savedEndowments=_savedEndowments;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) RBSystemState *systemState; // @synthesize systemState=_systemState;
-@property(readonly, nonatomic) id <RBConcreteTargeting> target; // @synthesize target=_target;
-@property(readonly, nonatomic) RBDomainRestriction *targetClientRestriction; // @synthesize targetClientRestriction=_targetClientRestriction;
-@property(readonly, nonatomic) id <RBEntitlementPossessing> targetEntitlements; // @synthesize targetEntitlements=_targetEntitlements;
-@property(readonly, nonatomic) RBSProcessIdentity *targetIdentity; // @synthesize targetIdentity=_targetIdentity;
-@property(readonly, nonatomic) _Bool targetIsSystem; // @synthesize targetIsSystem=_targetIsSystem;
-@property(readonly, nonatomic) RBProcess *targetProcess; // @synthesize targetProcess=_targetProcess;
-@property(readonly, nonatomic) id <RBBundleProperties> targetProperties; // @synthesize targetProperties=_targetProperties;
 
 @end
 

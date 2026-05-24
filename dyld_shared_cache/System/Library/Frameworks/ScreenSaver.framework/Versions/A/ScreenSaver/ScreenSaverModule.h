@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBundle, NSString;
+@class NSString;
 
 @interface ScreenSaverModule
 {
     NSString *_moduleName;
-    NSString *_displayName;
-    NSString *_path;
-    NSBundle *_bundle;
-    id _representedObject;
-    int _type;
-    _Bool _enabled;
-    _Bool _archCompatible;
-    _Bool _requiresGraphicsAcceleration;
-    _Bool _hasConfigureSheet;
-    int _archToUse;
 }
 
 + (id);
@@ -27,9 +17,9 @@
 + (id);
 + (id);
 + (id);
-- (void);
+- (void)K;
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
@@ -48,26 +38,26 @@
 - (void);
 - (id);
 - (void);
-- (long long);
+- (long long)i1;
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)A;
 - (id);
 - (id);
 - (int);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)P;
+- (id)B;
 - (void);
 - (id);
 - (id);
-- (long long);
-- (id);
-- (id);
+- (long long)tring"16@0:(id)arg1 8;
+- (id)index %lu;
+- (id)N;
 - (_Bool);
-- (void);
+- (void)T@"NSString",?,R,C;
 - (id);
 
 @end

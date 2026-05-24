@@ -11,11 +11,11 @@
     RPPeopleDiscovery *_peopleDiscovery;
 }
 
-- (id);
+- (id)_hasConfirmationPromptContext;
+- (void)_hasCandidateIdentifier;
+- (id)_assistantDaemonAudioRecordingInterruptionStartedTier1;
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)T;
 - (id);
 - (void);
 

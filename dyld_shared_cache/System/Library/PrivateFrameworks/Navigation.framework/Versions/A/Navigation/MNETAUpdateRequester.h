@@ -7,20 +7,11 @@
 @interface MNETAUpdateRequester
 {
     id delegate;
-    id _requestTimer;
-    id _pendingRequest;
-    id _tripOrigin;
-    id _requestingAppIdentifier;
-    id _auditToken;
-    id _etaRequestInterval;
-    id _initialRequestDelay;
-    id _opportunisticRequestTimeWindow;
-    id _maxAlternateRoutesCount;
 }
 
 - (void);
 - (id);
-- (void)s;
+- (void)userRequestedWaypoints;
 
 @end
 

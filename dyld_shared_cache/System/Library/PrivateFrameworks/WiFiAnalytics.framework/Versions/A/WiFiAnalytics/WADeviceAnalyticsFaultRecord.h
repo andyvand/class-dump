@@ -6,7 +6,7 @@
 
 #import <WiFiAnalytics/WADeviceAnalyticsDatedRecord.h>
 
-@class NSString, WADeviceAnalyticsLinkTestRecord;
+@class NSString;
 
 @interface WADeviceAnalyticsFaultRecord : WADeviceAnalyticsDatedRecord
 {
@@ -17,8 +17,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *interface; // @dynamic interface;
-@property(retain, nonatomic) WADeviceAnalyticsLinkTestRecord *linkTest; // @dynamic linkTest;
-@property(copy, nonatomic) NSString *type; // @dynamic type;
 
 @end
 

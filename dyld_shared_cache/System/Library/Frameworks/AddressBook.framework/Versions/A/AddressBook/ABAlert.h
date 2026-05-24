@@ -11,7 +11,7 @@
 
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void)pStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDAggregateClusterMappingData_macOS.m:(CDUnknownBlockType)arg1 26 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

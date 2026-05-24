@@ -4,31 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol UIFocusEnvironment, UIFocusItemContainer;
+@protocol UIFocusEnvironment;
 
 __attribute__((visibility("hidden")))
 @interface _UIFocusEnvironmentContainerTuple
 {
     _Bool _isScrollableContainer;
-    id <UIFocusEnvironment> _owningEnvironment;
-    id <UIFocusItemContainer> _itemContainer;
 }
 
-+ (id);
-+ (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
++ (id)retracted the payload data on a message that had no body and was a payload only. Inserting a retraction stamp at index 0.;
++ (id)rts have been retracted, marking message as read;
+- (id)sendToLocalPeersFile:dictionary: /* Error: Ran out of types for this method. */;
+- (id)messageDictionaryWithPersonalRecordIDAndVersion;
+- (_Bool)markMessageAsIgnoreButNeedingSyncWithROWID: /* Error: Ran out of types for this method. */;
+- (_Bool)loadPersistentStoresWithCompletionHandler:(id)arg1;
+- (id)er:(id)arg1 messageGUID:(id)arg2;
 - (id);
 - (unsigned long long);
-- (_Bool)Path:(id)arg1;
+- (_Bool)tableView:(id)arg1 willBeginEditingRowAtIndexPath: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isScrollableContainer; // @synthesize isScrollableContainer=_isScrollableContainer;
-@property(readonly, nonatomic) id <UIFocusItemContainer> itemContainer; // @synthesize itemContainer=_itemContainer;
 @property(readonly, nonatomic) id <UIFocusEnvironment> owningEnvironment; // @synthesize owningEnvironment=_owningEnvironment;
 
 @end

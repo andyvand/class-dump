@@ -6,37 +6,29 @@
 
 #import <AppKit/NSView.h>
 
-@class NSMapTable, NSPointerArray, NSVisualEffectView;
+@class NSMapTable;
 
 __attribute__((visibility("hidden")))
 @interface NSSheetEffectDimmingView : NSView
 {
     NSMapTable *_percentShownMapping;
-    NSPointerArray *_observedViews;
-    struct CGRect _reservedRect;
-    double _maskBackingScaleFactor;
-    NSVisualEffectView *_topView;
-    NSVisualEffectView *_mlView;
-    NSVisualEffectView *_mcView;
-    NSVisualEffectView *_mrView;
-    NSVisualEffectView *_bottomView;
 }
 
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)16;
+- (id)setAuditToken:(id)arg1;
+- (void)checked_needNewBodyStreamFromOffset;
+- (void)questing pending callbacks for the background session:%@ /* Error: Ran out of types for this method. */;
+- (struct CGRect);
+- (double)l_cache_response WHERE time_stamp >= "%s";
+- (void);
+- (void)@;
+- (_Bool)@;
 - (void);
 - (void);
-- (struct CGRect);
-- (double);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id)erOfItemsForSectionLayout:(struct CGRect)arg1;
+- (id)numberOfItemsForSectionLayout:(struct CGRect)arg1;
 
 @end
 

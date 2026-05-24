@@ -6,20 +6,18 @@
 
 #import <PhotosUICore/PXDataSectionManager.h>
 
-@class NSArray, NSString, PHPhotoLibrary, PXImportSourcesManager;
+@class PHPhotoLibrary, PXImportSourcesManager;
 
 @interface PXImportSourceDataSectionManager : PXDataSectionManager
 {
     PHPhotoLibrary *_photoLibrary;
-    PXImportSourcesManager *_importSourcesManager;
-    NSArray *_importSources;
 }
 
 - (id);
-- (void);
+- (void)%;
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (void);
 - (id);
 - (id);
@@ -28,16 +26,7 @@
 - (id)È)<;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *importSources; // @synthesize importSources=_importSources;
 @property(readonly, nonatomic) PXImportSourcesManager *importSourcesManager; // @synthesize importSourcesManager=_importSourcesManager;
-@property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(readonly) Class superclass;
 
 @end
 

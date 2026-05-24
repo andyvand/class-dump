@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUIRenditionKey, NSString;
+@class NSString;
 
 @interface CUINamedLookup
 {
     NSString *_name;
-    CUIRenditionKey *_key;
-    NSString *_signature;
-    unsigned long long _storageRef;
-    unsigned int _distilledInVersion;
-    struct os_unfair_lock_s _lock;
-    unsigned int _odContent:1;
 }
 
 @end

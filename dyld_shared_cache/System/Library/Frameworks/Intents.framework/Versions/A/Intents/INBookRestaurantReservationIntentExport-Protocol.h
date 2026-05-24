@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INRestaurant, INRestaurantGuest, INRestaurantOffer, NSDateComponents, NSString;
+@class INRestaurant;
 
 @protocol INBookRestaurantReservationIntentExport
+- (void)n|verabreden|treffen);
+- (INRestaurant *);
 
 // Remaining properties
-@property(copy) NSDateComponents *bookingDateComponents;
-@property(copy) NSString *bookingIdentifier;
-@property(copy) INRestaurantGuest *guest;
-@property(copy) NSString *guestProvidedSpecialRequestText;
-@property unsigned long long partySize;
 @property(copy) INRestaurant *restaurant;
-@property(copy) INRestaurantOffer *selectedOffer;
 @end
 

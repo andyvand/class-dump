@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void);
+- (void)provideFileURLForBundleID:(id)arg1 protectionClass:itemIdentifier:typeIdentifier:options:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void)lement scene masking.;
